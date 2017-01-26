@@ -2963,29 +2963,55 @@ In $CE(\mathfrak{m}2\mathfrak{brane})$ from def. \ref{TheM2andM5CocyclesAsFierzI
 element
 
 $$
-  \mu_{M5}
-    \;\coloneqq\;
-   \tfrac{1}{5!}
-   \left(
-     \overline{\psi}
-     \wedge
-      \Gamma_{a_1 \cdots a_5}
-     \psi
-   \right)
-   \wedge 
-   e^{a_1}
+  \begin{aligned}
+    \mu_{M5}
+      & \coloneqq
+     \tfrac{1}{5!}
+     \left(
+       \overline{\psi}
+       \wedge
+        \Gamma_{a_1 \cdots a_5}
+       \psi
+     \right)
      \wedge 
-     \cdots
+     e^{a_1}
+       \wedge 
+       \cdots
+       \wedge
+     e^{a_5}
+      \;+\;
+      h_3 \wedge \mu_{M2}
+      \\
+      & = 
+     \tfrac{1}{5!}
+     \left(
+       \overline{\psi}
+       \wedge
+        \Gamma_{a_1 \cdots a_5}
+       \psi
+     \right)
      \wedge
-   e^{a_5}
-    +
-    h_3 \wedge \mu_{M2}
+     e^{a_1}
+       \wedge
+       \cdots
+       \wedge
+     e^{a_5}
+      \;+\;
+      h_3 \, \wedge\,
+      \tfrac{i}{2}
+      \left(
+        \overline{\psi}
+          \Gamma_{a_1 a_2}
+        \psi
+      \right) 
+      \wedge e^{a_1} \wedge e^{a_2}
+  \end{aligned}
   \,.
 $$
 
 =--
 
-+-- {: .num_prop } 
++-- {: .num_prop #TheM5BraneCocycleAsACocycle} 
 ###### Proposition
 **([D'Auria-Fr&#233; 82, (3.27, 3.28)](#DAuriaFre82))**
 
@@ -2993,7 +3019,7 @@ The element $\mu_{M5} \in \CE(\mathfrak{m}2\mathfrak{brane})$ from def. \ref{The
 is closed
 
 $$
-  d_{CE} \mu_{M5} = 0
+  d_{CE} \, \mu_{M5} = 0
   \,.
 $$
 
@@ -3002,17 +3028,15 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Recall that  in $CE(\mathfrak{m}2\mathfrak{brane})$
+Recall that  in $CE(\mathfrak{m}2\mathfrak{brane})$ there is the relatioon
 
 $$
-  d_{CE} h_3 = \mu_{M2}
-$$
-
-and
-
-$$
+  d_{CE} \, h_3 = \mu_{M2}
+  \;\;\;
+  with
+  \;\;\;
   \mu_{M2}
-    \;=\;
+    \; \coloneqq \;
   \tfrac{i}{2}
   \left(
     \overline{\psi}
@@ -3035,20 +3059,20 @@ $$
       & =
     \tfrac{1}{5}
       d_{CE}\left(
-         left(
+         \left(
            \overline{\psi}
            \wedge
            \Gamma_{a_1 \cdots a_5}
            \psi
          \right)
-         \wedge 
+         \wedge
           e_{a_1}
-            \wedge 
+            \wedge
             \cdots
             \wedge
           e_{a_5}
       \right)
-      + 
+      +
       d_{CE} h_3 \wedge \mu_{M2}
       \\
       & =
@@ -3057,7 +3081,6 @@ $$
         =
         3
         \left(
-           \tfrac{i}{2} 
            \overline{\psi}
              \wedge
              \Gamma_{[a_1 a_2}
@@ -3075,12 +3098,12 @@ $$
         \overline{\psi}
           \wedge
           \Gamma_{[a_1 \cdot a_4 a]}
-          \psi 
+          \psi
       \right)
       \left(
         \overline{\psi}
          \wedge
-         \Gamma_a
+         \Gamma^a
          \psi
       \right)
      }
@@ -3094,7 +3117,7 @@ $$
      -
      \tfrac{1}{2}
      \mu_{M2} \wedge \mu_{M2}
-     + 
+     +
      \tfrac{1}{2}
      \mu_{M2} \wedge \mu_{M2}
      \\
@@ -3106,65 +3129,267 @@ Here the identity under the brace is the [[Fierz identity]] from prop. \ref{TheM
 
 =--
 
+Notice how it is the presence of the extra higher generator $h_3$ of degree 3 in $CE(\mathfrak{m}2\mathfrak{brane})$ that 
+makes prop. \ref{TheM5BraneCocycle} work. 
 
-the 4-cocycle for the [[M2-brane]] from prop. \ref{CocyclesForSuperStringAndSupermembrane}
-and setting
+That the element $\mu_{M5}$ in def. \ref{TheM5BraneCocycleAsACocycle} is the curvature of the [[higher dimensional WZW model|higher WZW-term]]
+of the [[M5-brane]] was argued in [BLNPST97 ](M5-brane#BLNPST97)
+
+It turns out that from just prop. \ref{TheM5BraneCocycleAsACocycle} one obtains the [[D-brane]] cocycles in 10d by applying 
+[[super Lie n-algebra]] constructions corresponding to 
+[[double dimensional reduction]] and [[topological T-duality]].
+This we discuss below in _[Double dimensional reduction](#DoubleDimensionalReduction)_
+and in _[T-duality](#TDuality)_.
+
+Here for the moment we just state the resulting cocycle conditions.
+
++-- {: .num_defn #TheDBraneCocycles}
+###### Definition
+**(the D-brane cocycles)**
+
+We use the IIA/B Clifford matrices from _[[geometry of physics -- supersymmetry]]_ _[Example: Spinors in dimensions 11, 10 and 9](geometry+of+physics+--+supersymmetry#InDimensions11And10And9)_.
+
+(...)
+
+Define the following elements in $CE(\mathfrak{string}_{IIA})$: (def. \ref{TheMembraneAndStringCocycles})
 
 $$
-  \mu_{5}
-    \;\coloneqq\;
-  -\tfrac{1}{5!}
+  \begin{aligned}
+    C_2
+      & \coloneqq
+    \left(\overline{\psi} \wedge \Gamma^{10} \psi\right)
+    \\
+    C_4
+      & \coloneqq
+    \tfrac{i}{2}
     \left(
-      \overline{\psi}
-        \wedge
-        \Gamma_{a_1 \cdots a_p}
-        \psi
+       \overline{\psi}
+         \Gamma_{a_1 a_2}
+       \psi
     \right)
+    \wedge
+     e^{a_1}
+     \wedge
+     e^{a_2}
+     \\
+    C_6
+      & \coloneqq
+    \tfrac{1}{4!}
+    \left(
+       \overline{\psi}
+         \Gamma_{a_1 \cdots a_4}
+         \Gamma_{10}
+       \psi
+    \right)
+    \wedge
+     e^{a_1}
+     \wedge
+     \cdots
+     \wedge
+     e^{a_4}
+     \\
+    C_8
+      & \coloneqq
+    \tfrac{i}{6!}
+    \left(
+       \overline{\psi}
+         \Gamma_{a_1 \cdots a_6}
+       \psi
+    \right)
+    \wedge
+     e^{a_1}
+     \wedge
+     \cdots
+     \wedge
+     e^{a_6}
+     \\
+    C_{10}
+      & \coloneqq
+    \tfrac{1}{8!}
+    \left(
+       \overline{\psi}
+         \Gamma_{a_1 \cdots a_8}
+         \Gamma_{10}
+       \psi
+    \right)
+    \wedge
+     e^{a_1}
+     \wedge
+       \cdots
+     \wedge
+     e^{a_8}
+     \\
+    C_{12}
+      & \coloneqq
+    \tfrac{i}{10!}
+    \left(
+       \overline{\psi}
+         \Gamma_{a_1 \cdots a_{10}}
+       \psi
+    \right)
+    \wedge
+     e^{a_1}
+     \wedge
+       \cdots
+     \wedge
+     e^{a_{10}}
+  \end{aligned}
 $$
 
-Then
+Then set
 
 $$
-  d\, \mu_5 + \tfrac{1}{2} \mu_{M2} \wedge \mu_{M2} = 0
+  C_{IIA}
+  \;\coloneqq\;
+  \underset{i}{\sum}
+  C_{2i}
 $$
 
-+-- {: .num_prop}
-###### Proposition
-**([Chryssomalakos-Azc&#225;rraga-Izquierdo-Bueno 99](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#CAIB99), [Sakaguchi 99](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#Sakaguchi00), [Fiorenza-Sati-Schreiber 13](#FSS13))**
-
-
-
-
-The [[higher WZW terms]] for the [[D-branes]]
-are invariant super $L_\infty$-cocycles
-on the higher [[extended super Minkowski spacetimes]] from above
+and for $p \in \{2,4,6, \cdots, 10\}$
 
 $$
   \mu_{D p}
-  \;\colon\;
-  \mathfrak{string}
-    \stackrel{\phantom{AAAAAAAA}}{\longrightarrow}
-  B^{p+1}\mathbb{R}
+    \;\coloneqq\;
+  [\exp(f_2) \wedge C_{IIA} ]_{p+2}
+$$
+
+where
+
+1. $f_2$ is the extra generator in $CE(\mathfrak{string}_{IIA})$;
+
+1. $\exp(f_2) \coloneqq \underset{k}{\sum} \tfrac{1}{k!} \underset{k \text{ factors}}{\underbrace{f_1 \wedge \cdots \wedge f_2}} $
+
+1. $[-]_{p+2}$ denotes the summand of homogeneous degree $p+2$.
+
+Similarly, define the following elements in $CE(\mathfrak{string}_{IIB})$ (def. \ref{TheMembraneAndStringCocycles}):
+
+$$
+  \begin{aligned}
+    C_3
+      & \coloneqq
+    i
+    \left(
+      \overline{\psi}
+        \wedge
+        \Gamma^B_{a} \Gamma_{10}
+      \psi
+    \right)
+    \wedge
+    e^a
+    \\
+    C_5
+      & \coloneqq
+    \tfrac{1}{3!}
+    \left(
+      \overline{\psi}
+        \wedge
+        \Gamma^B_{a_1 \cdots a_3} \Gamma_{9} \Gamma_{10}
+      \psi
+    \right)
+    \wedge
+    e^{a_1}
+      \wedge
+      \cdots
+    e^{a_3}
+    \\
+    C_7
+      & \coloneqq
+    \tfrac{i}{5!}
+    \left(
+      \overline{\psi}
+        \wedge
+        \Gamma^B_{a_1 \cdots a_5} \Gamma_{9}
+      \psi
+    \right)
+    \wedge
+    e^{a_1}
+      \wedge
+      \cdots
+    e^{a_5}
+    \\
+    C_9
+      & \coloneqq
+    \tfrac{1}{7!}
+    \left(
+      \overline{\psi}
+        \wedge
+        \Gamma^B_{a_1 \cdots a_7} \Gamma_{9} \Gamma_{10}
+      \psi
+    \right)
+    \wedge
+    e^{a_1}
+      \wedge
+      \cdots
+    e^{a_7}
+    \\
+    C_{11}
+      & \coloneqq
+    \tfrac{i}{9!}
+    \left(
+      \overline{\psi}
+        \wedge
+        \Gamma^B_{a_1 \cdots a_9} \Gamma_{9}
+      \psi
+    \right)
+    \wedge
+    e^{a_1}
+      \wedge
+      \cdots
+    e^{a_9}
+  \end{aligned}
+$$
+
+Then set
+
+$$
+  C_{IIB}
+  \;\coloneqq\;
+  \underset{i}{\sum}
+  C_{2i+1}
+$$
+
+and for $p \in \{1,3,5, \cdots 9\}$
+
+$$
+  \mu_{D p}
+    \;\coloneqq\;
+  [\exp(f_2) \wedge C_{IIB} ]_{p+2}
   \,.
 $$
 
-Similarly, the [[higher WZW term]] for the [[M5-brane]] is an invariant super $L_\infty$ 7-cocycle of the form
-
-$$
-  \mu_{M5}
-    \;\colon\;
-  \mathfrak{m}2\mathfrak{brane}
-    \stackrel{\phantom{AAAAAAAAA}}{\longrightarrow}
-  B^6 \mathbb{R}
-  \,.
-$$
 
 =--
 
-$\,$
++-- {: .num_prop}
+###### Proposition
+**([Chryssomalakos-Azc&#225;rraga-Izquierdo-Bueno 99](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#CAIB99), 
 
-By the above, these cocycles classify
+The elements $\mu_{D p} \in CE(\mathfrak{string}_{IIA})$ from def. \ref{TheDBraneCocycles} are closed
 
+$$
+  d_{CE}\, \mu_{D p} = 0
+$$
+
+and non-exact.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+**([Sakaguchi 99](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#Sakaguchi00))**
+
+The elements $\mu_{D p} \in CE(\mathfrak{string}_{IIB})$ from def. \ref{TheDBraneCocycles} are closed
+
+$$
+  d_{CE} \, \mu_{D p} = 0
+$$
+
+and non-exact.
+
+=--
+
+
+By prop. \ref{HomotopyFibersOfLInfinityCocycles} these cocycles classify
 further higher super $L_\infty$-algebra extensions
 
 $$
@@ -3189,14 +3414,43 @@ $$
   }
 $$
 
+
+
+
+In **conclusion**:
+
+by forming
+iterated (maximal) invariant higher central super $L_\infty$-extensions
+of the superpoint,
+we obtain the following "[[schreiber:brane bouquet]]"
+
 $\,$
 
-Notice that all these are higher cocycles
+<img src="https://ncatlab.org/schreiber/files/SecondBraneExtensions.png" width="550">
 
+$\,$
+
+Each object in this [[diagram]] of [[super L-∞ algebras]]
+is a [[super spacetime]] or [[super p-brane]] of [[string theory]] / [[M-theory]].
+
+$\,$
+
+Moreover, this diagram knows the brane intersection laws:
+there is a morphism $p_2\mathfrak{brane} \longrightarrow p_1 \mathfrak{brane}$
+precisely if the given species of $p_1$-branes may end on the given species of $p_2$-branes
+(more discussion of this is in [Fiorenza-Sati-Schreiber 13, section 3](#FSS13)).
+
+$\,$
+
+
+> Perhaps we need to understand the nature of time itself better. $[...]$ One natural way to approach that question would be to understand in what sense time itself is an emergent concept, and one natural way to make sense of such a notion is to understand how pseudo-Riemannian geometry can emerge from more fundamental and abstract notions such as categories of branes. ([[Greg Moore|G. Moore]], p.41 of "[[Physical Mathematics and the Future]]", talk at [Strings 2014](http://physics.princeton.edu/strings2014/))
+
+
+$\,$
+
+Notice that all the $\mu_{D p}$ in def. \ref{TheDBraneCocycles} are higher cocycles
 except for that of the [[D0-brane]], which is just a 2-cocycle.
-
 The ordinary central extension that this classifies
-
 is just that which grows the 11th M-theory dimension by the above example \ref{D0Cocycle}.
 
 $$
@@ -3214,320 +3468,23 @@ $$
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/schreiber/files/PolchinskiD0Condensation.png" width="350">
 </div>
+
 This may be thought of
-
 as a super $L_\infty$-theoretic incarnation
-
 of D0-brane [[condensate|condensation]]
-
 ([Polchinski 99, around p. 8](https://ncatlab.org/nlab/show/D0-brane#Polchinski99)).
 
 
-$\,$
 
-In **conclusion**:
 
-by forming
 
-iterated (maximal) invariant higher central super $L_\infty$-extensions
-
-of the superpoint,
-
-we obtain the following "[[schreiber:brane bouquet]]"
-
-$\,$
-
-<img src="https://ncatlab.org/schreiber/files/SecondBraneExtensions.png" width="550">
-
-$\,$
-
-Each object in this [[diagram]] of [[super L-∞ algebras]]
-
-is a [[super spacetime]] or [[super p-brane]] of [[string theory]] / [[M-theory]].
-
-$\,$
-
-Moreover, this diagram knows the brane intersection laws:
-
-there is a morphism $p_2\mathfrak{brane} \longrightarrow p_1 \mathfrak{brane}$
-
-precisely if the given species of $p_1$-branes may end on the given species of $p_2$-branes
-
-(more discussion of this is in [Fiorenza-Sati-Schreiber 13, section 3](#FSS13)).
-
-$\,$
-
-
-> Perhaps we need to understand the nature of time itself better. $[...]$ One natural way to approach that question would be to understand in what sense time itself is an emergent concept, and one natural way to make sense of such a notion is to understand how pseudo-Riemannian geometry can emerge from more fundamental and abstract notions such as categories of branes. ([[Greg Moore|G. Moore]], p.41 of "[[Physical Mathematics and the Future]]", talk at [Strings 2014](http://physics.princeton.edu/strings2014/))
-
-
-$\,$
-
-
-
-+-- {: .num_defn #RationalSphereAlgebra}
-###### Definition
-
-For $p \in \mathbb{N}_{even}$, write
-
-$b^{2p+2} \mathbb{R}/b^p \mathbb{R}$ for the [[L-∞ algebra]] given by the [[Chevalley-Eilenberg algebra]]
-
-$$
-
-  CE(b^{2p+2} \mathbb{R}/b^p \mathbb{R})
-  =
-  \left(\left\langle g_{p+2}, g_{2p+3}\right\rangle), {{d g_{p+2} = 0} \atop {d g_{2p+3} = g_{p+2} \wedge g_{p+2}}}\right)
-  \,.
-$$
-
-=--
-
-+-- {: .num_remark #RationalSpheres}
-###### Remark
-
-Regarded as a [[Sullivan model]] in [[rational homotopy theory]], then the [[dg-algebra]] of def. \ref{RationalSphereAlgebra} is a minimal model for the [[rationalization]] of the $(p+2)$-[[sphere]].
-
-=--
-
-By the [recognition theorem for L-∞ extensions](model+structure+for+L-infinity+algebras#HomotopyFiberProducts) we get:
-
-+-- {: .num_prop #b2RactionOnb2p2R}
-###### Proposition
-
-For $p \in \mathbb{N}_{even}$, there is a [[homotopy fiber sequence]] in the [[homotopy theory of L-∞ algebras]] of the form
-
-$$
-  \array{
-    b^{2p+2} \mathbb{R}
-    \\
-    \downarrow
-    \\
-    b^{2p+2} \mathbb{R}/b^{p}\mathbb{R}
-    &\stackrel{}{\longrightarrow}&
-    b^{p+1}\mathbb{R}
-  }
-$$
-
-where on [[formal dual]] [[Chevalley-Eilenberg algebras]] in terms of our defining generating elements the horizontal map is given by $g_{p+4}\mapsto g_{p+4}$ and the vertical map by $g_{p+4}\mapsto 0$ and $g_{2p+3}\mapsto g_{2p+3}$.
-
-By the discussion at _[[∞-action]]_ this exhibits a $b^{p}\mathbb{R}$-action on $b^{2p+2}\mathbb{R}$, for which $b^{2p+2} \mathbb{R}/b^{p}\mathbb{R}$ is the [[homotopy quotient]], whence the notation.
-
-=--
-
-+-- {: .num_example}
-###### Example
-
-For $p=2$ and regarded as a statement in [[rational homotopy theory]] via remark \ref{RationalSpheres}, then the extension in prop. \ref{b2RactionOnb2p2R} is a [[Sullivan minimal model]] for the rationalized [[Hopf fibration]]
-
-$$
-  \array{
-    S^3 &\longrightarrow& S^7
-    \\
-    && \downarrow
-    \\
-    && S^4
-  }
-$$
-
-=--
-
-
-+-- {: .num_defn #CocyclesOn11dSuperMinkowski}
-###### Proposition
-
-The elements $\mu_4, \mu_7 \in CE(\mathbb{R}^{10,1\vert \mathbf{32}})$,
-def. \ref{ThePsiPsiTermsInCEOfSuperMinkowski}, satisfy
-
-1. $d \mu_4 = 0$;
-
-1. $d \mu_7 = 15 \, \mu_4 \wedge \mu_4$
-
-=--
-
-As a mathematical statement prop. \ref{CocyclesOn11dSuperMinkowski} is originally due to ([D'Auria-Fr&#233; 82, p.18](#DAuriaFre82)), where it is considered as an ingredient for constructing the [[action functional]] of [[11-dimensional supergravity]] in the [[D'Auria-Fré formulation of supergravity]]. The statement has been rediscovered in ([BLNPST 97, (9)](#BLNPST97)), finding its interpretation as giving the [[geometry of physics -- WZW terms|WZW term]] of the [[Green-Schwarz sigma model]] for the [[M5-brane]].
-
-
-+-- {: .num_defn #m2braneLie3Algebra}
-###### Definition
-
-Write $\mathfrak{m}2\mathfrak{brane} \in sL_\infty Alg$ for the [[super L-∞ algebra]] which is the [[homotopy fiber]] of $\mu_4$ in prop. \ref{CocyclesOn11dSuperMinkowski}.
-
-$$
-  \array{
-     \mathfrak{m}2\mathfrak{brane}
-     \\
-     \downarrow
-     \\
-     \mathbb{R}^{10,1\vert \mathbf{32}}
-     &\stackrel{\mu_4}{\longrightarrow}&
-     b^3 \mathbb{R}
-  }
-  \,.
-$$
-
-and specifically for the representive of this homotopy fiber which, by the [recognition theorem for L-∞ extensions](model+structure+for+L-infinity+algebras#HomotopyFiberProducts), is given by having the [[Chevalley-Eilenberg algebra]]
-
-$$
-  CE(\mathfrak{m}2\mathfrak{brane}) = (CE(\mathbb{R}^{10,1\vert \mathbf{32}})\otimes \langle h_3\rangle, d h_3 = -\mu_4)
-  \,.
-$$
-
-=--
-
-In terms of def. \ref{m2braneLie3Algebra}, the second item in prop. \ref{CocyclesOn11dSuperMinkowski} reads as follows:
-
-
-+-- {: .num_cor #The7CocycleOnm2brane}
-###### Corollary
-
-There is a super $L_\infty$-cocycle of the form
-
-$$
-  \mathfrak{m}2\mathfrak{brane}
-  \stackrel{h_3 \wedge \mu_4 + \frac{1}{15} \mu_7}{\longrightarrow}
-  b^6 \mathbb{R}
-  \,.
-$$
-
-=--
-
-But since $\mathfrak{m}2\mathfrak{brane}$ is a $b^2 \mathbb{R}$-[[principal ∞-bundle]], it is natural to ask whether $h_3 \wedge \mu_4 + \frac{1}{15} \mu_7$ is $b^2 \mathbb{R}$-[[equivariant cohomology|equivariant]] with respect to some natural $b^2\mathbb{R}$-[[∞-action]] on $b^6 \mathbb{R}$. Such a natural action is given by prop. \ref{b2RactionOnb2p2R}. To exhibit in components the equivariance of the 7-cocycle in corollary \ref{The7CocycleOnm2brane} with respect to this action we need a [[resolution]] of [[super Minkowski spacetime]]:
-
-+-- {: .num_defn}
-###### Definition
-
-Write $\mathbb{R}_{res}^{10,1\vert \mathbf{32}}$ for the [[super L-∞ algebra]] whose [[Chevalley-Eilenberg algebra]] is obtained from that of [[super Minkowski spacetime]] by
-
-
-$$
-  CE\left(
-   \mathbb{R}_{res}^{10,1\vert \mathbf{32}}
-  \right)
-  \coloneqq
-  \left(
-   CE\left(
-     \mathbb{R}^{10,1\vert \mathbf{32}}\right)\otimes \left\langle h_3, g_4\right\rangle ,
-     {{d h_3 = g_4 - \mu_4} \atop {d g_4 = 0}}
-  \right)
-  \,.
-$$
-
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-The canonical morphism
-
-$$
-  \mathbb{R}_{res}^{10,1\vert \mathbf{32}}
-  \stackrel{\simeq}{\longrightarrow}
-  \mathbb{R}^{10,1\vert \mathbf{32}}
-$$
-
-given dually by $\psi^\alpha \mapsto \psi^\alpha$, $e^a \mapsto e^a$, is an equivalence of $L_\infty$-algebras. It factors the morphism $\mathfrak{m}2\mathfrak{brane} \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}$ from def. \ref{m2braneLie3Algebra} through a morphism $\mathfrak{m}2\mathfrak{brane}  \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}_{res}$ which on [[formal dual]] CE-elements is given by $h_3 \mapsto 0$, $g_4 \mapsto 0$ and by being the identity on all other generators.
-
-
-=--
-
-+-- {: .num_prop #7CocycleOnM2BraneDescends}
-###### Proposition
-
-There is a [[diagram]] of [[L-∞ algebras]] of the form
-
-$$
-  \array{
-    && \vdots && && \vdots
-    \\
-    && \downarrow \downarrow && && \downarrow \downarrow
-    \\
-    &&
-    \mathfrak{m}2\mathfrak{brane}
-    &&
-      \stackrel{h_3 \wedge \mu_4  + \frac{1}{15}\mu_7 }{\longrightarrow}
-    &&
-    b^6 \mathbb{R}
-    \\
-    &&
-    \downarrow && && \downarrow
-    \\
-    \mathbb{R}^{10,1\vert\mathbf{32}}
-    &\stackrel{\simeq}{\longleftarrow}&
-    \mathbb{R}_{res}^{10,1\vert\mathbf{32}}
-    &&
-      \stackrel{h_3 \wedge (g_4 + \mu_4) + \frac{1}{15}\mu_7 }{\longrightarrow}
-    &&
-    b^6 \mathbb{R}/b^2 \mathbb{R}
-    \\
-    &&
-    & {}_{\mathllap{}}\searrow && \swarrow
-    \\
-    &&
-    && b^3 \mathbb{R}
-  }
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-That the diagram exists and commutes at the level of the underlying graded algebras of the [[formal dual]] CE-algebras is immediate in terms of the defining generators: each generator is mapped to the generator of the same name, if present, in the codomain, or to zero otherwise, except for $g_7 \in CE(b^6 \mathbb{R})$ which is sent to $h_3 \wedge \mu_4  + \frac{1}{15}\mu_7$ and $g_7 \in CE(b^6 \mathbb{R}/b^2 \mathbb{R})$, which is sent to $h_3 \wedge (g_4 + \mu_4) + \frac{1}{15}\mu_7 $, as indicated.
-
-It remains to check that the middle horizontal map respects the CE-differentials: by prop. \ref{CocyclesOn11dSuperMinkowski} we have
-
-$$
-  \begin{aligned}
-    d(h_3 \wedge (g_4 + \mu_4) + \frac{1}{15}\mu_7)
-    &=
-    (g_4 - \mu_4) \wedge (g_4 + \mu_4) + \mu_4 \wedge \mu_4
-    \\
-    & = g_4 \wedge g_4
-  \end{aligned}
-$$
-
-and by def. \ref{RationalSphereAlgebra} this says indeed that $g_7 \mapsto h_3 \wedge (g_4 + \mu_4) + \frac{1}{15}\mu_7$ respects the CE-differentials.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-The form of the equivariant cocycle in prop. \ref{7CocycleOnM2BraneDescends} is that of the [[curvature]] of the [[geometry of physics -- WZW terms|WZW term]] of the [[sigma model]] describing the [[M5-brane]] as considered in ([BLNPST 97, (6),(8)](#BLNPST97)).
-
-=--
-
-
-+-- {: .num_remark}
-###### Remark
-
-In view of remark \ref{RationalSpheres}, prop. \ref{7CocycleOnM2BraneDescends} says that the CE-elements $\mu_4$ and $\mu_7$ of prop. \ref{CocyclesOn11dSuperMinkowski} define a cocycle with values in the rational 4-sphere. In the discussions in _[[geometry of physics -- WZW terms]]_ and _[[geometry of physics -- BPS charges]]_ we see that under [[Lie integration]] and globalization in [[higher Cartan geometry]], these elements encode the [[supergravity C-field]] and its [[electric-magnetic duality|magnetic dual]]. That these fields should take values in the 4-sphere was first suggested in ([Sati 13, section 2.5](Hisham+Sati#Sati13)).
-
-=--
-
-
-
-
-
-
-
-$\,$
-
-In **conclusion** this shows that
-
+In conclusion this shows that
 given a cocycle $\mu_{p_1+2}$ for some super $p_1$-brane species
-
 inducing an [[extended super Minkowski spacetime]] via its [[homotopy fiber]]
-
 and then given a consecutive cocycle $\mu_{p_2+2}$ for a $p_2$-brane species on that homotopy fiber
-
 then $p_1$-branes may end on $p_2$-branes
-
 and the $p_2$-branes propagating in the extended spacetime $p_1 \mathfrak{brane}$
-
 see a higher gauge field on their worldvolume
-
 of the kind sourced by boundaries of $p_1$-branes.
 
 $\,$
@@ -3553,28 +3510,19 @@ $$
 $\,$
 
 Hence the [[extended super Minkowski spacetime]] $p_1 \mathfrak{brane}$
-
 is like the original super spacetime $\mathbb{R}^{d-1,1\vert \mathbf{N}}$
-
 but filled with a [[condensation|condensate]] of $p_1$-branes
-
 whose boundaries source a [[higher gauge field]].
 
 
 $\,$
 
 While this is good,
-
 it means that at each stage of the [[schreiber:brane bouquet]]
-
 we are describing $p_2$-brane dynamics
-
 on a fixed $p_1$-brane [[background field]].
-
 But more generally
-
 we would like to describe the joint dynamics
-
 of all brane species at once.
 
 $\,$
@@ -4533,6 +4481,202 @@ $$
   \,.
 $$
 
+
+(...)
+
++-- {: .num_defn #RationalSphereAlgebra}
+###### Definition
+
+For $p \in \mathbb{N}_{even}$, write
+
+$b^{2p+2} \mathbb{R}/b^p \mathbb{R}$ for the [[L-∞ algebra]] given by the [[Chevalley-Eilenberg algebra]]
+
+$$
+
+  CE(b^{2p+2} \mathbb{R}/b^p \mathbb{R})
+  =
+  \left(\left\langle g_{p+2}, g_{2p+3}\right\rangle), {{d g_{p+2} = 0} \atop {d g_{2p+3} = g_{p+2} \wedge g_{p+2}}}\right)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #RationalSpheres}
+###### Remark
+
+Regarded as a [[Sullivan model]] in [[rational homotopy theory]], then the [[dg-algebra]] of def. \ref{RationalSphereAlgebra} is a minimal model for the [[rationalization]] of the $(p+2)$-[[sphere]].
+
+=--
+
+By the [recognition theorem for L-∞ extensions](model+structure+for+L-infinity+algebras#HomotopyFiberProducts) we get:
+
++-- {: .num_prop #b2RactionOnb2p2R}
+###### Proposition
+
+For $p \in \mathbb{N}_{even}$, there is a [[homotopy fiber sequence]] in the [[homotopy theory of L-∞ algebras]] of the form
+
+$$
+  \array{
+    b^{2p+2} \mathbb{R}
+    \\
+    \downarrow
+    \\
+    b^{2p+2} \mathbb{R}/b^{p}\mathbb{R}
+    &\stackrel{}{\longrightarrow}&
+    b^{p+1}\mathbb{R}
+  }
+$$
+
+where on [[formal dual]] [[Chevalley-Eilenberg algebras]] in terms of our defining generating elements the horizontal map is given by $g_{p+4}\mapsto g_{p+4}$ and the vertical map by $g_{p+4}\mapsto 0$ and $g_{2p+3}\mapsto g_{2p+3}$.
+
+By the discussion at _[[∞-action]]_ this exhibits a $b^{p}\mathbb{R}$-action on $b^{2p+2}\mathbb{R}$, for which $b^{2p+2} \mathbb{R}/b^{p}\mathbb{R}$ is the [[homotopy quotient]], whence the notation.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $p=2$ and regarded as a statement in [[rational homotopy theory]] via remark \ref{RationalSpheres}, then the extension in prop. \ref{b2RactionOnb2p2R} is a [[Sullivan minimal model]] for the rationalized [[Hopf fibration]]
+
+$$
+  \array{
+    S^3 &\longrightarrow& S^7
+    \\
+    && \downarrow
+    \\
+    && S^4
+  }
+$$
+
+=--
+
+
+
+
+But since $\mathfrak{m}2\mathfrak{brane}$ is a $b^2 \mathbb{R}$-[[principal ∞-bundle]], it is natural to ask whether $h_3 \wedge \mu_4 + \frac{1}{15} \mu_7$ is $b^2 \mathbb{R}$-[[equivariant cohomology|equivariant]] with respect to some natural $b^2\mathbb{R}$-[[∞-action]] on $b^6 \mathbb{R}$. Such a natural action is given by prop. \ref{b2RactionOnb2p2R}. To exhibit in components the equivariance of the 7-cocycle in corollary \ref{The7CocycleOnm2brane} with respect to this action we need a [[resolution]] of [[super Minkowski spacetime]]:
+
++-- {: .num_defn}
+###### Definition
+
+Write $\mathbb{R}_{res}^{10,1\vert \mathbf{32}}$ for the [[super L-∞ algebra]] whose [[Chevalley-Eilenberg algebra]] is obtained from that of [[super Minkowski spacetime]] by
+
+
+$$
+  CE\left(
+   \mathbb{R}_{res}^{10,1\vert \mathbf{32}}
+  \right)
+  \coloneqq
+  \left(
+   CE\left(
+     \mathbb{R}^{10,1\vert \mathbf{32}}\right)\otimes \left\langle h_3, g_4\right\rangle ,
+     {{d h_3 = g_4 - \mu_4} \atop {d g_4 = 0}}
+  \right)
+  \,.
+$$
+
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The canonical morphism
+
+$$
+  \mathbb{R}_{res}^{10,1\vert \mathbf{32}}
+  \stackrel{\simeq}{\longrightarrow}
+  \mathbb{R}^{10,1\vert \mathbf{32}}
+$$
+
+given dually by $\psi^\alpha \mapsto \psi^\alpha$, $e^a \mapsto e^a$, is an equivalence of $L_\infty$-algebras. It factors the morphism $\mathfrak{m}2\mathfrak{brane} \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}$ from def. \ref{m2braneLie3Algebra} through a morphism $\mathfrak{m}2\mathfrak{brane}  \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}_{res}$ which on [[formal dual]] CE-elements is given by $h_3 \mapsto 0$, $g_4 \mapsto 0$ and by being the identity on all other generators.
+
+
+=--
+
++-- {: .num_prop #7CocycleOnM2BraneDescends}
+###### Proposition
+
+There is a [[diagram]] of [[L-∞ algebras]] of the form
+
+$$
+  \array{
+    && \vdots && && \vdots
+    \\
+    && \downarrow \downarrow && && \downarrow \downarrow
+    \\
+    &&
+    \mathfrak{m}2\mathfrak{brane}
+    &&
+      \stackrel{h_3 \wedge \mu_4  + \frac{1}{15}\mu_7 }{\longrightarrow}
+    &&
+    b^6 \mathbb{R}
+    \\
+    &&
+    \downarrow && && \downarrow
+    \\
+    \mathbb{R}^{10,1\vert\mathbf{32}}
+    &\stackrel{\simeq}{\longleftarrow}&
+    \mathbb{R}_{res}^{10,1\vert\mathbf{32}}
+    &&
+      \stackrel{h_3 \wedge (g_4 + \mu_4) + \frac{1}{15}\mu_7 }{\longrightarrow}
+    &&
+    b^6 \mathbb{R}/b^2 \mathbb{R}
+    \\
+    &&
+    & {}_{\mathllap{}}\searrow && \swarrow
+    \\
+    &&
+    && b^3 \mathbb{R}
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the diagram exists and commutes at the level of the underlying graded algebras of the [[formal dual]] CE-algebras is immediate in terms of the defining generators: each generator is mapped to the generator of the same name, if present, in the codomain, or to zero otherwise, except for $g_7 \in CE(b^6 \mathbb{R})$ which is sent to $h_3 \wedge \mu_4  + \frac{1}{15}\mu_7$ and $g_7 \in CE(b^6 \mathbb{R}/b^2 \mathbb{R})$, which is sent to $h_3 \wedge (g_4 + \mu_4) + \frac{1}{15}\mu_7 $, as indicated.
+
+It remains to check that the middle horizontal map respects the CE-differentials: by prop. \ref{CocyclesOn11dSuperMinkowski} we have
+
+$$
+  \begin{aligned}
+    d(h_3 \wedge (g_4 + \mu_4) + \frac{1}{15}\mu_7)
+    &=
+    (g_4 - \mu_4) \wedge (g_4 + \mu_4) + \mu_4 \wedge \mu_4
+    \\
+    & = g_4 \wedge g_4
+  \end{aligned}
+$$
+
+and by def. \ref{RationalSphereAlgebra} this says indeed that $g_7 \mapsto h_3 \wedge (g_4 + \mu_4) + \frac{1}{15}\mu_7$ respects the CE-differentials.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The form of the equivariant cocycle in prop. \ref{7CocycleOnM2BraneDescends} is that of the [[curvature]] of the [[geometry of physics -- WZW terms|WZW term]] of the [[sigma model]] describing the [[M5-brane]] as considered in ([BLNPST 97, (6),(8)](#BLNPST97)).
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+In view of remark \ref{RationalSpheres}, prop. \ref{7CocycleOnM2BraneDescends} says that the CE-elements $\mu_4$ and $\mu_7$ of prop. \ref{CocyclesOn11dSuperMinkowski} define a cocycle with values in the rational 4-sphere. In the discussions in _[[geometry of physics -- WZW terms]]_ and _[[geometry of physics -- BPS charges]]_ we see that under [[Lie integration]] and globalization in [[higher Cartan geometry]], these elements encode the [[supergravity C-field]] and its [[electric-magnetic duality|magnetic dual]]. That these fields should take values in the 4-sphere was first suggested in ([Sati 13, section 2.5](Hisham+Sati#Sati13)).
+
+=--
+
+
+
+
+
+
+
+(...)
+
+
 +-- {: .num_prop #MBraneDescent}
 ###### Proposition
 [Fiorenza-Sati-Schreiber 15, section 3](FSS15)
@@ -4716,8 +4860,1225 @@ of various [[dualities in string theory]].
 
 $\,$
 
+
+
+
+
+
+
+
+
 ## Double dimensional reduction
  {#DoubleDimensionalReduction}
+
+$\,$
+
+Underlying most of the [[nLab:dualities in string theory]] is
+
+the phenomenon of  **[[nLab:double dimensional reduction]]**
+
+so called because:
+
+1. the [[nLab:dimension]] of [[nLab:spacetimes]] is reduced
+
+   by [[nLab:Kaluza-Klein compactification]] on a [[nLab:fiber]] $F$;
+
+1. in parallel the [[nLab:dimension]] of [[nLab:branes]] is reduced
+
+   if they _[[nLab:wrapped brane|wrap]]_ $F$.
+
+
+$\,$
+
+For example [[nLab:double dimensional reduction]] is supposed to underly
+
+the [[nLab:duality in string theory|duality]] between [[nLab:M-theory]] and [[nLab:type IIA string theory]]:
+
+* [[nLab:spacetime]] $X_{11}$ is an 11d [[nLab:circle]]-[[nLab:fiber bundle]]
+
+  locally of the form $X_{11} =  X_{10} \times S^1$
+
+  over a 10d base spacetime;
+
+* an [[nLab:M-theory]] [[nLab:membrane]] ([[nLab:M2-brane]]) with [[nLab:cylinder|cyclindrical]] [[nLab:worldvolume]]
+
+  $$
+    \Sigma_3 = \Sigma_2 \times S^1
+  $$
+
+  [[nLab:wrapped brane|wraps]] the circle fiber if its [[nLab:trajectory]]
+
+  $$
+    \phi_{M2} \;\colon\; \Sigma_3 \longrightarrow X_{11}
+  $$
+
+  is of the form
+
+  $$
+    \phi_{F1} \times \mathrm{id}_{S^1}
+    \;\colon\;
+    \Sigma_2 \times S^1 \longrightarrow X_{10} \times S^1
+    \,.
+  $$
+
+As the [[nLab:pseudo-Riemannian metric|Riemannian]] circumference of the circle fiber $S^1$ tends towards zero
+
+this effectively looks like the 2-dimensional [[nLab:worldsheet]] $\Sigma_2$ of a [[nLab:string]]
+
+tracing out a [[nLab:trajectory]] in 10-dimensional spacetime:
+
+$$
+  \phi_{F1} \;\colon\; \Sigma_2 \longrightarrow X_{10}
+$$
+
+$\,$
+
+But there is also "single dimensional reduction"
+
+when the [[nLab:membrane]] does not [[nLab:wrapped brane|wrap]] the fiber space:
+
+$$
+  \array{
+    \Sigma_3 &&  \overset{\phi_{M2}}{\longrightarrow} && X_{11}
+    \\
+    & {}_{\phi_{D2}}\searrow && \nearrow
+    \\
+    && X_{10}
+  }
+$$
+
+In this case it looks like a [[nLab:membrane]] in 10d [[nLab:spacetime]],
+
+now called the _[[nLab:D2-brane]]_.
+
+$\,$
+
+Similarly the [[nLab:M5-brane]] in [[nLab:M-theory]]
+
+$$
+  \phi_{M5} \;\colon\; \Sigma_{6} \longrightarrow X_{11}
+$$
+
+may [[nLab:wrapped brane|wrap]] the [[nLab:circle]] [[nLab:fiber]]
+
+to yield a 4-brane in 10d, called the [[nLab:D4-brane]]
+
+or it may not [[nLab:wrapped brane|wrap]] the [[nLab:circle]] [[nLab:fiber]]
+
+to yield a 5-brane in 10d, called the [[nLab:NS5-brane]].
+
+$\,$
+
+Beware the naive treatment of branes in this traditional argument.
+
+And even naively, this is not the full story yet:
+
+The $S^1$-fibration itself is supposed to re-incarnate in 10d
+
+as the [[nLab:D0-brane]] and the [[nLab:D6-brane]].
+
+$\,$
+
+Hence [[nLab:double dimensional reduction]] from [[nLab:M-theory]] to [[nLab:type IIA string theory]]
+
+is meant to, schematically, involve decompositions as follows
+
+$$
+  \underset{spacetime}{
+  \underbrace{
+  \array{
+    X_{11}
+    \\
+    \downarrow^{\pi}
+    \\
+    X_{10}
+  }
+  }
+  }
+  \;\;
+  \underset{branes}{
+  \underbrace{
+  \array{
+    && && \text{M2-brane} && && && \text{M5-brane}
+    \\
+    &&
+    & {}^{\mathllap{wrapped}}\swarrow && \searrow^{\mathrlap{not \atop wrapped}} &
+    &
+    &&
+    {}^{\mathllap{wrapped}}\swarrow && \searrow^{\mathrlap{not \atop wrapped}}
+    \\
+    \text{D0-brane} && \text{F1-brane} && &&  \text{D2-brane} && \text{D4-brane} && && \text{NS5-brane}
+  }
+  }
+  }
+$$
+
+
+
+$\,$
+
+Above we saw that all [[nLab:super p-branes]] are
+
+characterized by the [[nLab:flux]] fields $H_{p+2}$ that they are charged under,
+
+more precisely by the bispinorial component of $H_{p+2}$
+
+which is constrained to be super-tangent-space-wise the form
+
+$$
+  H_{p+2}^{fermionic}
+    \;=\;
+  \tfrac{i^{p(p-1)/2}}{p!} \, \left( \overline{\Psi} \wedge \Gamma_{a_1 \cdots a_p}\Psi \right) \wedge E^{a_1} \wedge \cdots \wedge E^{a_p}
+$$
+
+where $(E^a, \Psi^\alpha)$ is the [[nLab:super vielbein]] ([[nLab:graviton]] and [[nLab:gravitino]]).
+
+$\,$
+
+$\,$
+
+Hence we will formalize [[nLab:double dimensional reduction]] in terms of these [[nLab:fields]].
+
+$\,$
+
+Again there is a naive picture to help the intuition:
+
+Let $G_4 \in \Omega^4_{cl}(X_{11})$ be the [[nLab:differential form|differential 4-form]] flux [[nLab:field strength]]  of the [[nLab:supergravity C-field]].
+
+
+Under the [[nLab:Gysin sequence]] for the [[nLab:spherical fibration]]
+
+$$
+  \array{
+    S^1 &\hookrightarrow& X_{11}
+    \\
+    && \downarrow^{\mathrlap{\pi}}
+    \\
+    && X_{10}
+  }
+$$
+
+this decomposes in cohomology as
+
+$$
+  G_4 = (d x^{10}) \wedge H_3 + \pi^\ast F_4
+$$
+
+thus giving rise in 10d to
+
+1. a 3-form $H_3$, the [[nLab:Kalb-Ramond field|Kalb-Ramond]] [[nLab:B-field]] [[nLab:field strength]] that the [[nLab:string]] couples to;
+
+1. a 4-form $F_4$, the [[nLab:RR-field]] [[nLab:field strength]] in degree 4, that the [[nLab:D2-brane]] couples to.
+
+Similary the 7-form field strength $G_7$ decomposes as
+
+$$
+  G_7 = (d x^{10}) \wedge F_6 + \pi^\ast H_7
+$$
+
+thus giving rise in 10d to
+
+1. a 6-form $F_6$, the [[nLab:RR-field]] [[nLab:field strength]] in degree 6, that the [[nLab:D4-brane]] couples to
+
+1. a 7-form $H_7$, the dual NS-NS field strength that the [[nLab:NS5-brane]] couples to.
+
+
+$$
+  \underset{spacetime}{
+  \underbrace{
+  \array{
+    X_{11}
+    \\
+    \downarrow^{\pi}
+    \\
+    X_{10}
+  }
+  }
+  }
+  \;\;
+  \underset{fluxes}{
+  \underbrace{
+  \array{
+    && && G_4\text{-flux} && && && G_7\text{-flux}
+    \\
+    &&
+    & {}^{\mathllap{wrapped}}\swarrow && \searrow^{\mathrlap{not \atop wrapped}} &
+    &
+    &&
+    {}^{\mathllap{wrapped}}\swarrow && \searrow^{\mathrlap{not \atop wrapped}}
+    \\
+    F_2\text{-flux} && H_3\text{-flux} && &&  F_4\text{-flux} && F_6\text{-flux} && && H_7\text{-flux}
+  }
+  }
+  }
+$$
+
+$\,$
+
+The advantage of this perspective on [[nLab:double dimensional reduction]]
+
+from the point of view of the [[nLab:background field|background flux fields]]
+
+is that powerful tools from [[nLab:cohomology]] theory apply.
+
+$\,$
+
+To first approximation
+
+background fluxes represent classes in [[nLab:ordinary cohomology]] (their [[nLab:charges]]).
+
+
+There is a [[nLab:classifying space]] $B^n \mathbb{Z}$ for [[nLab:ordinary cohomology]]
+
+$$
+   H^n(X,\mathbb{Z})
+     \;\;\;
+     \simeq
+     \;\;\;
+  \left\{
+    \array{
+      \text{continuous functions}
+      \\
+      X \longrightarrow B^n \mathbb{Z}
+    }
+  \right\}_{/homotopy}
+$$
+
+(called an _[[nLab:Eilenberg-MacLane space]]_, often denoted $K(\mathbb{Z},n)$).
+
+Hence the charge of $G_4$/$G_7$-flux, to first approximation, is represented by a classifying map
+
+$$
+  ([G_4], [G_7])
+    \;\colon\;
+  X_{11}
+    \longrightarrow
+  B^4 \mathbb{Z} \,\times\, B^7 \mathbb{Z}
+  \,.
+$$
+
+and we saw that under [[nLab:double dimensional reduction]]
+
+this is supposed to transmute into a map of the form
+
+$$
+  ([F_2] , [H_3], [F_4], [F_6], [H_7])
+    \;\colon\;
+  X_{10}
+    \longrightarrow
+  B^2 \mathbb{Z} \;\times\; B^3 \mathbb{Z} \;\times\; B^4 \mathbb{Z}  \;\times\; B^6 \mathbb{Z} \;\times\; B^7 \mathbb{Z}
+  \,.
+$$
+
+$\,$
+
+**Which mathematical operation could cause such a transmutation?**
+
+We will now find such an operation
+
+and then use it to give an improved definition of [[nLab:double dimensional reduction]],
+
+one that knows about all the fine print of brane charges.
+
+
+$\,$
+
+### Via free looping (no 0-brane effect)
+
+$\,$
+
+Let's first record formally
+
+what was going on in the above story.
+
+$\,$
+
+In the above [[nLab:double dimensional reduction]]
+
+of the naive M-fluxes on a trivial 11d circle bundle
+
+we used
+
+1. the [[nLab:Cartesian product]] with the circle
+
+1. [[nLab:functions]] out of the circle.
+
+Let's have a closer look at these two operations:
+
+$\,$
+
+It is a classical fact about [[nLab:locally compact topological spaces]]
+
+(which includes all [[nLab:topological spaces]] that one cares about in [[nLab:physics]])
+
+that
+
+given topological spaces $\Sigma$, $X$ and $F$, then there is a [[nLab:natural bijection]]
+
+$$
+  \left\{
+    \array{
+      \text{continuous functions}
+      \\
+      \Sigma \times F \longrightarrow X
+    }
+  \right\}
+   \;\;
+     \underoverset
+       {\text{"forming adjuncts"}}
+       {\simeq}
+       {\leftrightarrow}
+   \;\;
+  \left\{
+    \array{
+      \text{continous functions}
+      \\
+      \Sigma \longrightarrow Maps(F,X)
+    }
+  \right\}
+$$
+
+where
+
+* $F \times X$ is the [[nLab:product topological space]] of $F$ with $X$
+
+  (the set of pairs of points euipped with the [[nLab:product topology]])
+
+* $Maps(F,Y)$ is the [[nLab:mapping space]] from $F$ to $X$,
+
+  (the set of [[nLab:continuous functions]]) $F \to X$ equipped with the [[nLab:compact-open topology]])
+
+Except for the subtlety with the topology
+
+this bijection is just rewriting
+
+a [[nLab:function]] of two [[nLab:variables]] as a function with values in a second function
+
+$$
+  (\tilde f(a))(b) = f(a,b)
+  \,.
+$$
+
+
+$\,$
+
+One says that the two [[nLab:functors]]
+
+$$
+  Top_{cg}
+  \;
+    \underoverset
+      {\underset{Maps(F,-)}{\longrightarrow}}
+      {\overset{F \times (-)}{\longleftarrow}}
+      {\bot}
+  \;
+  Top_{cg}
+$$
+
+form a _[[nLab:adjoint functor|adjoint pair]]_ or an _[[nLab:adjunction]]_.
+
+$\,$
+
+$\,$
+
+A remarkable amount of structure comes with every [[nLab:adjunction]]:
+
+* the [[nLab:adjunct]] of the [[nLab:identity]] $F \times X \overset{id}{\to} F \times X$
+
+  generally called the _[[nLab:unit of an adjunction|unit of the adjunction]]_,
+
+  here is the **wrapping operation**
+
+  $$
+    X \overset{}{\longrightarrow} Maps(F, F \times X)
+  $$
+
+* the [[nLab:adjunct]] of the [[nLab:identity]] $Maps(F,X) \overset{id}{\to} Maps(F,X)$
+
+  generally called the _[[nLab:counit of an adjunction|counit of the adjunction]]_,
+
+  here is the [[nLab:evaluation map]]
+
+  $$
+    F \times Maps(F, X) \overset{ev}{\longrightarrow} X
+  $$
+
+  that evaluates a function on an argument
+
+$\,$
+
+We will see now that the following general fact
+
+about [[nLab:adjoint functors]]
+
+serves to implement the above physics story
+
+of [[nLab:wrapped branes]]:
+
+$\,$
+
+**Fact.**
+
+The [[nLab:adjunct]] of a map of the form
+
+$$
+  G \;\colon\; F \times X \overset{}{\longrightarrow} A
+$$
+
+is the composite of its image under $Maps(F,-)$ with the adjunction unit $\eta_X$:
+
+$$
+  \tilde G
+    \;\colon\;
+  X \overset{\eta_X}{\longrightarrow} Maps(F,F \times X)
+    \overset{Maps(F,G)}{\longrightarrow}
+  Maps(F,A)
+$$
+
+
+$\,$
+
+Moreover, we will see that the following generall fact in [[nLab:homotopy theory]]
+
+accurately implements the idea of dimensional reduction of the brane dimensions:
+
+$\,$
+
+For $F = S^1$ the [[nLab:circle]], then
+
+$$
+  \mathcal{L} X
+  \;\coloneqq\;
+  Maps(S^1, X)
+$$
+
+is also called the [[nLab:free loop space]] of $X$.
+
+$\,$
+
++-- {: .num_prop #FreeLoopSpacesOfDeloopedAbelianInfinityGroups}
+###### Proposition
+
+
+For $G$ a general [[nLab:topological group]], then its [[nLab:free loop space]]
+
+$$
+  Maps(S^1, B G)
+   \;\simeq\;
+  G/_{ad}G
+$$
+
+is [[nLab:weak homotopy equivalence|weakly homotopy equivalent]] to the
+
+[[nLab:homotopy quotient]] of $G$ by its [[nLab:adjoint action]].
+
+In the special case that $G$ is an [[nLab:abelian group|abelian]] [[nLab:topological group]].
+
+then this becomes a [[nLab:weak homotopy equivalence]] of following simple form
+
+$$
+  Maps(S^1 , B G)
+    \; \simeq \;
+  \underset{\text{wrapped} \atop \text{coefficient}}{\underbrace{G}}
+    \; \times \;
+  \underset{\text{plain} \atop \text{coefficient}  }{\underbrace{ B G }}
+  \,.
+$$
+
+
+*This captures the required reduction on brane dimension!*
+
+$\,$
+
+In particular if $G = B^n \mathbb{Z}$ then
+
+$$
+  Maps(S^1, B^{n+1} \mathbb{Z}) \;\;  \simeq B^n \mathbb{Z} \;\times\; B^{n+1} \mathbb{Z}
+  \,.
+$$
+
+=--
+
+$\,$
+
+
+$\,$
+
++-- {: .num_example #ReductionOfGFluxChargesOnTrivialCircleFibration}
+###### Example
+
+Consider naive $M$-flux fields $G_4$ and $G_7$
+
+on an 11d spacetime that is a trivial circle bundle $X_{11} = X_{10} \times S^1$.
+
+Its charges is represented by a map of the form
+
+
+$$
+  ([G_4], [G_7])
+    \;\colon\;
+  X_{10} \times S^1 \longrightarrow B^4 \mathbb{Z} \times B^7 \mathbb{Z}
+  \,.
+$$
+
+By [[nLab:adjunction]] this is identified with a map of the form
+
+$$
+  \left([H_3], [F_4], [F_6], [H_7]\right)
+  \,\coloneqq\,
+  \widetilde{([G_4], [G_7])}
+    \;\colon\;
+  X_{10}
+    \longrightarrow
+  Maps\left(
+    S^1,
+    \; B^4 \mathbb{Z} \times B^7 \mathbb{Z}  \;
+  \right)
+   \;\;\simeq\;\;
+  B^3 \mathbb{Z}
+    \;\times\;
+  B^4 \mathbb{Z}
+    \;\times\;
+  B^6 \mathbb{Z}
+    \;\times\;
+  B^7 \mathbb{Z}
+  \,.
+$$
+
+where on the right we have the transmuted [[nLab:coefficients]] by prop. \ref{FreeLoopSpacesOfDeloopedAbelianInfinityGroups}
+
+=--
+
+This is exactly the result we were after.
+
+$\,$
+
+Better yet, the [[nLab:adjunction]] yoga
+
+accurately reflects the physics story:
+
+For consider a $p$-brane propagating in 10d spacetimes along a [[nLab:trajectory]]
+
+$$
+  \phi_p \;\colon\; \Sigma_p \longrightarrow X_{10}
+$$
+
+and coupled to these dimensionally reduced background fields
+
+$$
+ \Sigma_p
+   \overset{\phi_p}{\longrightarrow}
+ X_{10}
+   \overset{([H_3], [F_4], [F_6], [H_7])}{\longrightarrow}
+ B^3 \mathbb{Z} \;\times\; B^4 \mathbb{Z} \;\times\; B^6 \mathbb{Z} \;\times\; B^7 \mathbb{Z}
+ \;\;\;\simeq\;\;\;
+ Maps(S^1, B^4 \mathbb{Z} \,\times\, B^7 \mathbb{Z})
+ \,.
+$$
+
+By [[nLab:adjunction]] this is identified with a map of the form
+
+$$
+  \Sigma_p \times S^1
+    \overset{\phi_p \times S^1}{\longrightarrow}
+  X_{10} \times S^1 = X_{11}
+    \overset{([G_4], [G_7])}{\longrightarrow}
+  B^4 \mathbb{Z} \;\times\; B^7 \mathbb{Z}
+$$
+
+and this is exactly the coupling we saw in the story of double dimensional reduction.
+
+
+
+$\,$
+
+So this works well as far as it goes, but
+
+so far it only applies to trivial circle fibrations
+
+and it does not see the D0-charge.
+
+
+$\,$
+
+We now disucss the improvement to the full formulation.
+
+$\,$
+
+$\,$
+
+
+### Via cyclification (with 0-brane effects)
+ {#DoubleDimensionalReductionViaCyclification}
+
+In general the M-theory circle bundle
+
+$$
+  \array{
+    S^1 &\hookrightarrow& X_{11}
+    \\
+    && \downarrow
+    \\
+    && X_{10}
+  }
+$$
+
+is only locally a product with of $X_{10}$ with $S^1$.
+
+$\,$
+
+For example
+
+the complement of the locus of a **[[nLab:KK-monopole]]** [[nLab:spacetime]]
+
+is a [[nLab:circle]] [[nLab:principal bundle]] with [[nLab:first Chern class]]
+
+equal to the [[nlab:charge]] carried by the [[nLab:KK-monopole]].
+
+(which is the corresponding number of coincident [[nLab:D6-branes]] in type IIA).
+
+$\,$
+
+
+Hence in general the above formulation of [[nLab:double dimensional reduction]]
+
+via the pair of [[nLab:adjoint functors]]
+
+$$
+  S^1 \times (-) \;\;\dashv\;\; Maps(S^1, -)
+$$
+
+works only locally.
+
+$\,$
+
+But the problem to be solved is easily identified:
+
+Essentially by definition, in a [[nLab:circle]] [[nLab:principal bundle]]
+
+the [[nLab:fibers]] may all be identified with a fixed abstract [[nLab:circle]] $S^1$
+
+only _up to rigid rotation_.
+
+$\,$
+
+
+Hence while in general the above wrapping-map
+
+$$
+  X_{10} \overset{}{\longrightarrow} Maps(S^1, X_{11})
+$$
+
+given by sending each point of $X_{10}$ to its fiber "wrapping around itself"
+
+does not exist, it does exist up to forgetting at which point in $S^1$ we start the wrapping,
+
+hence the map that always exists lands in the [[nlab:quotient space]]
+
+$$
+  Maps(S^1, X_{11})/S^1
+  \;=\;
+  \frac{
+    \left\{
+      \array{
+        \text{continuous functions}
+        \\
+        S^1 \longrightarrow X_{11}
+      }
+    \right\}
+  }{
+    \left\{
+      \array{
+        \text{rigid loop rotations}
+        \\
+        S^1 \overset{t \mapsto (t + t_0)}{\longrightarrow} S^1
+      }
+    \right\}
+  }
+$$
+
+In general we take this to be the [[nLab:homotopy quotient]] space.
+
+
+$\,$
+
+There is then the following generalization of proposition \ref{FreeLoopSpacesOfDeloopedAbelianInfinityGroups} on
+
+transmutation of [[nLab:coefficients]] under [[nLab:double dimensional reduction]]
+
+
+
++-- {: .num_prop #FreeLoopSpacesModS1OfDeloopedAbelianInfinityGroups}
+###### Proposition
+
+Let $G$ be an [[nLab:abelian group|abelian]] [[nLab:topological group]].
+
+Then there is a [[nLab:weak homotopy equivalence]] of the form
+
+$$
+  Maps(S^1 , B G)/S^1
+    \; \simeq \;
+  \left(
+    \underset{wrapped \atop coefficient}{\underbrace{G}}
+      \times
+    \underset{plain \atop coefficient}{\underbrace{B G}}
+  \right)
+  \underset{twist}{
+  \underbrace{
+      \times_{S^1}
+  }
+  }
+  \underset{\text{D0-brane} \atop coeff.}{\underbrace{E S^1}}
+  \,.
+$$
+
+
+=--
+
+$\,$
+
+Notice that a twisting appears. This is a general phenomenon.
+
+We will see [below](#KKReductionToIIA) that for the example of reduction of M-flux
+
+the twist that appears is that in the twisted de Rham cohomology  $d F_4 = H_3 \wedge F_2$
+
+which connects RR-fields $F_{2p}$ with the H-flux $H_3$.
+
+$\,$
+
+
+$\,$
+
+Indeed this dimensional reduction is again an _equivalent_ way of regarding the higher dimensional
+situation:
+
+$\,$
+
++-- {: .num_prop #CorrectReductionOnTopologicalSpaces}
+###### Proposition
+**(double dimensional reduction on topological flux fields)**
+
+There is a pair of [[nLab:adjoint functors]] ([[nLab:adjoint (∞,1)-functors]] really)
+
+$$
+  \array{
+    \left\{
+      spaces
+    \right\}
+    &
+      \underoverset
+        {\underset{Maps(S^1,-)/S^1}{\longrightarrow}}
+        {\overset{hofib}{\longleftarrow}}
+        {\bot}
+    &
+    \left\{
+      \text{spaces over}\, B S^1
+    \right\}
+  }
+$$
+
+(a prove in more generality is below after prop. \ref{GeneralReduction}).
+
+Equivalently (by [Nikolaus-Schreiber-Stevenson 12](#NSS12)):
+
+There is a pair of [[nLab:adjoint functors]] ([[nLab:adjoint (∞,1)-functors]] really)
+
+$$
+  \array{
+    \left\{
+      spaces
+    \right\}
+    &
+      \underoverset
+        {\underset{[Maps(S^1,-) \to Maps(S^1,-)/S^1]}{\longrightarrow}}
+        {\overset{\text{total space}}{\longleftarrow}}
+        {\bot}
+    &
+    \left\{
+      S^1\text{-principal}\;\infty\text{-bundles}
+    \right\}
+  }
+$$
+
+Hence for
+
+$$
+  \array{
+    S^1 &\hookrightarrow& X_{d+1}
+    \\
+    && \downarrow
+    \\
+    && X_{d}
+  }
+$$
+
+
+an $S^1$-principal bundle and $A$ some [[nLab:coefficients]],
+
+then there is a [[nLab:natural equivalence]]
+
+$$
+  \underset{
+    \text{original} \atop \text{fluxes}
+  }{
+  \underbrace{
+    Hom(X_{d+1}\;,\; A)
+  }
+  }
+  \;\;\;
+   \underoverset
+     {\underset{\text{reduction}}{\longrightarrow}}
+     {\overset{\text{oxidation}}{\longleftarrow}}
+     {\simeq}
+  \;\;\;
+  \underset{
+    \text{doubly} \atop { \text{dimensionally  reduced} \atop \text{fluxes} }
+  }{
+  \underbrace{
+    Hom_{/B S^1}( X_{d} \; ,\; (\mathcal{L} A)/S^1 )
+  }
+  }
+$$
+
+
+
+=--
+
+$\,$
+
+Accordingly we have the following generalization of example \ref{ReductionOfGFluxChargesOnTrivialCircleFibration} to the case with possibly  non-trivial circle-fibration and non-trivial D0-flux:
+
++-- {: .num_example #ReductionOfGFluxChargesOnTrivialCircleFibration}
+###### Example
+
+Consider naive $M$-flux fields $G_4$ and $G_7$ on an 11d [[nLab:spacetime]] that
+
+is an $S^1$-[[nLab:principal bundle]]
+
+$$
+  \array{
+    S^1 &\hookrightarrow& X_{11}
+    \\
+    && \downarrow
+    \\
+    && X_{10}
+  }
+$$
+
+
+Its charges is represented by a map of the form
+
+
+$$
+  ([G_4], [G_7])
+    \;\colon\;
+  X_{11} \longrightarrow B^4 \mathbb{Z} \;\times\; B^7 \mathbb{Z}
+  \,.
+$$
+
+By [[nLab:adjunction]] this is identified with a map of the form
+
+$$
+  \left([F_2], [H_3], [F_4], [F_6], [H_7]\right)
+  \,\coloneqq\,
+  \widetilde{([G_4], [G_7])}
+    \;\colon\;
+  X_{10}
+    \longrightarrow
+  Maps\left(
+    S^1,
+    \; B^4 \mathbb{Z} \times B^7 \mathbb{Z}  \;
+  \right)
+   \;\simeq\;
+  E S^1
+    \;\times_{S^1}\;
+  \left(
+    B^3 \mathbb{Z}
+      \;\times\;
+    B^4 \mathbb{Z}
+      \;\times\;
+    B^6 \mathbb{Z}
+      \;\times\;
+    B^7 \mathbb{Z}
+  \right)
+  \,.
+$$
+
+where on the right we transmuted the [[nLab:coefficients]] by prop. \ref{FreeLoopSpacesModS1OfDeloopedAbelianInfinityGroups}
+
+$\,$
+
+Hence the [[nLab:D0-brane]] charge appears! It is the [[nLab:first Chern class]]
+of the M-theory circle bundle.
+
+=--
+
+
+$\,$
+
+**Conclusion**
+
+The double dimensional reduction of any flux field
+
+$$
+  X_{d+1}
+    \overset{G}{\longrightarrow}
+  A
+$$
+
+is
+
+$$
+  \array{
+    X_{d}
+      && \overset{\tilde G}{\longrightarrow} &&
+    Maps(S^1, A)/S^1
+    \\
+    & \searrow && \swarrow
+    \\
+    && B S^1
+  }
+  \,.
+$$
+
+
+$\,$
+
+The operation
+
+$$
+  \mathcal{L}(-)/S^1
+  \;\coloneqq\;
+  Maps(S^1, -)/S^1
+$$
+
+may be called **cyclification**
+
+because the [[nLab:cohomology]] of this quotient of the [[nLab:free loop space]]
+
+is **[[nLab:cyclic cohomology]]**.
+
+$\,$
+
+Shadows of this construction appear prominently also at other places in [[nLab:string theory]]
+
+notably in discussion of the **[[nLab:Witten genus]]**.
+
+A closely related concept in mathematics involving this is the **[[nLab:transchromatic character]] map**.
+
+
+
+$\,$
+
+In fact this formalization of [[nLab:double dimensional reduction]]
+
+works with loads of further data taken into account, such as the
+
+[[nLab:differential geometry]] of [[nLab:spacetimes]] and the [[nLab:differential cohomology]] of
+flux fields.
+
+$\,$
+
+
+For the [[nLab:homotopy theory]] cognoscenti, here is the fully general statement:
+
+
++-- {: .num_prop #GeneralReduction}
+###### Proposition
+
+Let $\mathbf{H}$ be any  [[nLab:(∞,1)-topos]] such as
+
+* the [[nLab:classical model structure on topological spaces|classical homotopy theory on topological spaces]]  as above
+
+* or better the [[nLab:homotopy theory]] of [[nLab:super formal smooth infinity-groupoid|supergeometric homotopy types]]
+
+and let $G$ be an [[nLab:∞-group]] in $\mathbf{H}$ such as
+
+* a [[nLab:topological group]] as above
+
+* or better [[nLab:Lie group]] such as the smooth [[nLab:circle group]] $S^1 \simeq U(1)$
+
+then there is a pair of [[nLab:adjoint ∞-functors]] of the form
+
+$$
+  \mathbf{H}
+    \underoverset
+      {\underset{[G,-]/G}{\longrightarrow}}
+      {\overset{hofib}{\longleftarrow}}
+      {\bot}
+  \mathbf{H}_{/\mathbf{B}G}
+  \,,
+$$
+
+
+where
+
+* $[G,-]$ denotes the [[nLab:internal hom]] in $\mathbf{H}$,
+
+* $[G,-]/G$ denotes the [[nLab:homotopy quotient]] by the [[nLab:conjugation action|conjugation]]
+[[nLab:∞-action]] for $G$ equipped with its canonical [[nLab:∞-action]] by left multiplication and the argument
+regarded as equipped with its trivial $G$-$\infty$-action.
+
+Hence for
+
+* $\hat X \to X$ a $G$ [[nLab:principal ∞-bundle]]
+
+* $A$ a [[nLab:coefficient]] object, such as for some [[nLab:differential cohomology|differential]] [[nLab:generalized cohomology theory]]
+
+then there is a [[nLab:natural equivalence]]
+
+
+$$
+  \underset{
+    \text{original} \atop \text{fluxes}
+  }{
+  \underbrace{
+    \mathbf{H}(\hat X\;,\; A)
+  }
+  }
+    \;\;
+    \underoverset
+      {\underset{oxidation}{\longleftarrow}}
+      {\overset{reduction}{\longrightarrow}}
+      {\simeq}
+    \;\;
+  \underset{
+     \text{doubly} \atop { \text{dimensionally reduced} \atop \text{fluxes} }
+  }{
+  \underbrace{
+    \mathbf{H}(X \;,\; [G,A]/G)
+  }
+  }
+$$
+
+given by
+
+$$
+  \left(
+     \hat X \longrightarrow A
+  \right)
+  \;\;\;
+    \leftrightarrow
+  \;\;\;
+  \left(
+    \array{
+       X && \longrightarrow && [G,A]/G
+       \\
+       & \searrow && \swarrow
+       \\
+       && \mathbf{B}G
+    }
+  \right)
+$$
+
+=--
+
++-- {: .proof #DimensionalReductionAbstractly}
+###### Proof
+
+
+First observe that the [[nLab:conjugation action]] on $[G,X]$ is the [[nLab:internal hom]] in
+the [[nLab:(∞,1)-category]] of $G$-[[nLab:∞-actions]] $Act_G(\mathbf{H})$.
+Under the [[nLab:equivalence of (∞,1)-categories]]
+
+$$
+  Act_G(\mathbf{H}) \simeq \mathbf{H}_{/\mathbf{B}G}
+$$
+
+(from [Nikolaus-Schreiber-Stevenson 12](#NSS12)) then $G$ with its canonical [[nLab:∞-action]] is $(\ast \to \mathbf{B}G)$
+and $X$ with the trivial action is $(X \times \mathbf{B}G \to \mathbf{B}G)$.
+
+Hence
+
+$$
+  [G,X]/G
+    \simeq
+  [\ast, X \times \mathbf{B}G]_{\mathbf{B}G}
+  \;\;\;\;\;
+  \in
+   \mathbf{H}_{/\mathbf{B}G}
+  \,.
+$$
+
+Actually, this is the very definition of what $[G,X]/G \in \mathbf{H}_{/\mathbf{B}G}$ is to mean in the first place, abstractly.
+
+But now since the [[nLab:slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$ is itself cartesian closed, via
+
+$$
+  E \times_{\mathbf{B}G}(-)
+  \;\;\;
+   \dashv
+  \;\;\;
+  [E,-]_{\mathbf{B}G}
+$$
+
+it is immediate that
+there is the following sequence of [[nLab:natural equivalences]]
+
+$$
+  \begin{aligned}
+   \mathbf{H}_{/\mathbf{B}G}(Y, [G,X]/G)
+   & \simeq
+   \mathbf{H}_{/\mathbf{B}G}(Y, [\ast, X \times \mathbf{B}G]_{\mathbf{B}G})
+   \\
+   & \simeq
+   \mathbf{H}_{/\mathbf{B}G}(
+     Y \times_{\mathbf{B}G} \ast,
+     \underset{p^\ast X}{\underbrace{X \times \mathbf{B}G }}
+  )
+  \\
+  & \simeq
+  \mathbf{H}(
+     \underset{hofib(Y)}{\underbrace{p_!(Y \times_{\mathbf{B}G} \ast)}},
+     X
+  )
+  \\
+  & \simeq
+  \mathbf{H}(hofib(Y),X)
+  \end{aligned}
+$$
+
+Here $p \colon \mathbf{B}G \to \ast$ denotes the terminal morphism and $p_! \dashv p^\ast$
+denotes the [[nLab:base change]] along it.
+
+
+=--
+
+
+$\,$
+
+We now apply this general mechanism to the [[schreiber:brane bouquet]].
+
+$\,$
+
+
+### On super $p$-brane cocycles
+
+
+$\,$
+
+By the discussion of [[nLab:rational homotopy theory]] [above](#RationalHomotopyTheory)
+
+we may think of [[nLab:L-∞ algebras]] as [[nLab:rational topological spaces]]
+
+and more generally as rational [[nLab:parameterized spectra]].
+
+For instance [above](#RRFields) we found that the [[nLab:coefficient]] space
+
+for [[nLab:RR-fields]] in rational [[nLab:twisted K-theory]] is the
+
+[[nLab:L-∞ algebra]] $\mathfrak{l}(KU/BU(1))$.
+
+$\,$
+
+Hence in order to apply [[nLab:double dimensional reduction]]
+
+to [[nLab:super p-branes]]
+
+we now specialize the above formalization to
+
+ **cyclification of [[nLab:super L-∞ algebras]]** ([FSS 16b](#FSS16b))
 
 $\,$
 
@@ -4725,7 +6086,7 @@ $\,$
 +-- {: .num_defn #Cyclification}
 ###### Definition
 
-For $\mathfrak{g}$ any [[super L-∞ algebra]] of [[finite type]], its **cyclification**
+For $\mathfrak{g}$ any [[nlab:super L-∞ algebra]] of [[nLab:finite type]], its **cyclification**
 
 $$
   \mathfrak{L}\mathfrak{g}/\mathbb{R}
@@ -4733,7 +6094,7 @@ $$
   s L_\infty Alg_{\mathbb{R}}
 $$
 
-is defined by having [[Chevalley-Eilenberg algebra]] of the form
+is defined by having [[nLab:Chevalley-Eilenberg algebra]] of the form
 
 $$
   CE(\mathfrak{L}\mathfrak{g}/\mathbb{R})
@@ -4802,7 +6163,7 @@ in the same way, but with $\omega_2 \coloneqq 0$.
 =--
 
 
-For every $\mathfrak{g}$ there is a [[homotopy fiber sequence]]
+For every $\mathfrak{g}$ there is a [[nLab:homotopy fiber sequence]]
 
 $$
   \array{
@@ -4818,9 +6179,18 @@ $$
   }
 $$
 
-which hence exhibits $\mathfrak{L} \mathfrak{g}/\mathbb{R}$ as the [[homotopy quotient]]
+which hence exhibits $\mathfrak{L} \mathfrak{g}/\mathbb{R}$ as the [[nLab:homotopy quotient]]
 of $\mathfrak{L}\mathfrak{g}$ by an $\mathbb{R}$-action.
 
+
+$\,$
+
+The following says that the $L_\infty$-cyclification from prop.  \ref{Cyclification}
+
+indeed does model correspond to the topological cyclification from prop. \ref{CorrectReductionOnTopologicalSpaces}.
+
+
+$\,$
 
 +-- {: .num_prop #FreeLoopSpaceInRarionalHomotopyTheory}
 ###### Proposition
@@ -4833,8 +6203,8 @@ $$
   \mathfrak{g} = \mathfrak{l}(X)
 $$
 
-is the $L_\infty$-algebra associated by [[rational homotopy theory]]
-to a  [[simply connected topological space]] $X$, then
+is the $L_\infty$-algebra associated by [[nLab:rational homotopy theory]]
+to a  [[nLab:simply connected topological space]] $X$, then
 
 $$
   \mathfrak{L}( \mathfrak{l}(X) )
@@ -4842,7 +6212,7 @@ $$
   \mathfrak{l}( \mathcal{L}X )
 $$
 
-corresponds to the [[free loop space]] of $X$ and
+corresponds to the [[nLab:free loop space]] of $X$ and
 
 $$
   \mathfrak{L}( \;\mathfrak{l}( X )\; )/\mathbb{R}
@@ -4850,19 +6220,19 @@ $$
   \mathfrak{l}( \;\mathcal{L}X/S^1\; )
 $$
 
-corresponds to the [[homotopy quotient]] of the [[free loop space]] by the [[circle group]] [[action]] which rotates the loops.
+corresponds to the [[nLab:homotopy quotient]] of the [[nLab:free loop space]] by the [[nLab:circle group]] [[nLab:action]] which rotates the loops.
 
-The [[cochain cohomology]] of the [[Chevalley-Eilenberg algebra]]
+The [[nLab:cochain cohomology]] of the [[nLab:Chevalley-Eilenberg algebra]]
 
 $$
   CE(\mathfrak{l}( \;\mathcal{L}X/S^1\; ))
 $$
 
-computes the [[cyclic cohomology]] of $X$ with [[coefficients]] in $\mathbb{R}$.
+computes the [[nLab:cyclic cohomology]] of $X$ with [[nLab:coefficients]] in $\mathbb{R}$.
 
 (Whence "cyclification".)
 
-Moreover the homotopy fiber sequence of the cyclification corresponds to that of the [[free loop space]]:
+Moreover the homotopy fiber sequence of the cyclification corresponds to that of the [[nLab:free loop space]]:
 
 $$
   \left(
@@ -4902,15 +6272,22 @@ $$
 
 $\,$
 
-The following gives an $L_\infty$-theoretic formalization
+The following gives the super-$L_\infty$-theoretic formalization
 
-of "[[double dimensional reduction]]"
+of "[[nLab:double dimensional reduction]]"
 
 by which both the spacetime dimension is reduced
 
-while at the same time the [[brane]] dimension
+while at the same time the [[nLab:brane]] dimension
 
-reduces (if [[wrapped brane|wrapping]] the reduced dimension).
+reduces (if [[nLab:wrapped brane|wrapping]] the reduced dimension).
+
+$\,$
+
+We have the following $L_\infty$-algebraic incarnation
+
+of the general double dimensional reduction isomorphism prop. \ref{CorrectReductionOnTopologicalSpaces},
+prop. \ref{GeneralReduction}:
 
 $\,$
 
@@ -4934,7 +6311,7 @@ $$
   }
 $$
 
-a [[central extension]] of [[super Lie-∞ algebras]], then the operation
+a [[nLab:central extension]] of [[nLab:super Lie-∞ algebras]], then the operation
 
 of sending a super $L_\infty$-homomorphsm of the form
 
@@ -4952,18 +6329,30 @@ $$
   \mathfrak{L}\mathfrak{h}/\mathbb{R}
 $$
 
-gives a [[natural bijection]]
+produces a [[nLab:natural bijection]]
 
 $$
   \array{
-    Hom( \widehat{\mathfrak{g}}, \mathfrak{h} )
+    \underset{ \text{original} \atop \text{cocycles} }{
+    \underbrace{
+      Hom( \widehat{\mathfrak{g}}, \mathfrak{h} )
+    }}
      \;&\;
       \underoverset
         {\underset{oxidation}{\longleftarrow}}
         {\overset{reduction}{\longrightarrow}}
         {\simeq}
       \;&\;
-    Hom_{/B\mathbb{R}}( \mathfrak{g}, \mathfrak{L}\mathfrak{h}/\mathbb{R} )
+    \underset{
+      \text{doubly} \atop { \text{dimensionally reduced} \atop \text{cocycles} }
+    }{
+    \underbrace{
+      Hom_{/B\mathbb{R}}( \mathfrak{g}, \mathfrak{L}\mathfrak{h}/\mathbb{R} )
+    }
+    }
+    \\
+    \\
+    \text{given by}
     \\
     \\
     \left(
@@ -5002,202 +6391,254 @@ the canonical 2-cocycle on the cyclification is taken to the 2-cocycle classifyi
 
 =--
 
-It is straightforward, if somewhat tedious, to check this explicitly.
 
-+-- {: .num_remark}
-###### Remark
 
-  The general theory of [[adjoint functors]]  provides insight as to the geometric nature of the
-  super $L_\infty$-algebraic formalization of dimensional reduction  from prop. \ref{DimensionalReduction}.
-  Namely given any pair of [[adjoint functors]] $L \dashv R$, then there is a canonical
-  natural morphism $\eta_x : x \to R L x$ (called the _[[unit of an adjunction|unit of the adjunction]]_) such that
-  the [[natural bijection]] between [[hom-sets]]
-  $$
-    \mathrm{Hom}(L x, y) \overset{\simeq}{\longrightarrow} \mathrm{Hom}(x,R x)
-  $$
-  is given by sending any morphism of the form $\phi : L x \to y$ to the composite
-  $$
-    x \overset{\eta_x}{\longrightarrow} R L x
-     \overset{R \phi}{\longrightarrow}
-    R y
-    \,.
-  $$
-  Specified to the situation in Prop. \ref{DimensionalReduction}, this means that the [[double dimensional reduction]]
-  of a super $L_\infty$-homomorphism
-  $$
-    \widehat{\mathfrak{g}} \overset{\phi}{\longrightarrow} \mathfrak{h}
-  $$
-  on a central $\mathbb{R}$-extension $\widehat{\mathfrak{g}}$ of some super $L_\infty$-algebra $\mathfrak{g}$ is the following composite:
-  $$
++-- {: .num_example}
+###### Example
+
+Let
+
+$$
+  \left[
+  \array{
+    \widehat{\mathfrak{g}}
+    \\
+    \downarrow
+    \\
     \mathfrak{g}
-      \overset{\eta_{\mathfrak{g}}}{\longrightarrow}
-    \mathfrak{L} \widehat{\mathfrak{g}} / \mathbb{R}
-      \overset{\mathfrak{L}(\phi)/\mathbb{R}}{\longrightarrow}
-    \mathfrak{L}\mathfrak{h}/\mathbb{R}
-    \,.
-  $$
-  In terms of the geometric interpretation via [[rational homotopy theory]]
-  from prop. \ref{FreeLoopSpaceInRarionalHomotopyTheory}
-  the morphism $\eta_{\mathfrak{g}}$ here has the following interpretation:
-
-  Let $\widehat X \to X$ be a principal circle bundle. Then there is a map
-  $$
-    X \longrightarrow \mathcal{L}\widehat X/ S^1
-  $$
-  which sends each point of $X$ to the loop that winds around the circle fiber over that point, at unit speed.
-  As a map to the free loop space $\mathcal{L}\widehat{X}$ this would not be well defined unless the circle bundle
-  were trivial, because by definition of principal circle bundles its fibers are identified with the typical
-  fiber (the circle) only up to rigid rotation of that circle. But this is precisely the relation that is
-  divided out by passing to the cyclified space $\mathfrak{L}\widehat{X}/S^1$, which makes the above well defined.
-
-  Hence given any map of spaces $\widehat{X} \overset{f}{\longrightarrow} H$
-  we may pass to the induced map on loops in $\widehat{X}$ modulo rigid rotation, and then
-  precompose with the above fiber-assigning map
-  $$
-    X
-      \longrightarrow
-    \mathcal{L}\widehat{X}/S^1
-      \overset{\mathcal{L}f/S^1}{\longrightarrow}
-    \mathcal{L}H/S^1
-    \,.
-  $$
-  Under the Quillen-Sullivan functor from spaces to their associated $L_\infty$-algebras in rational homotopy theory,
-  this is the $L_\infty$-algebraic construction above.
-
-  And this shows just how this formalizes the intuitive picture of dimensional reduction.
-  For let $\Sigma_{p+1}$ be a manifold of dimension $p+1$
-  and let $\Sigma_{p+1} \longrightarrow X$ be the worldvolume of some $p$-brane in $X$. Thinking of
-  $f : \widehat{X} \to H$
-  as classifying a background field for $(p+1)$-branes on $\widehat{X}$
-  (for instance for $H = K(\mathbb{Z},p+3)$, the classifying space for ordinary cohomology)
-  then the dimensionally reduced coupling term is given by the composite
-  $$
-    \Sigma_{p+1}
-      \longrightarrow
-    X
-      \longrightarrow
-    \mathcal{L}\widehat{X}/S^1
-      \overset{\mathcal{L}f/S^1}{\longrightarrow}
-    \mathcal{L}H/S^1
-    \,.
-  $$
-  To see what this does, consider what happens locally over some chart $U$ on which the circle extension $\widehat{X} \to X$
-  is topologically trivial. Then by the adjunction $S^1 \times (-) \dashv [S^1,-] = \mathcal{L}(-)$ this is equivalently
-  the composite
-  $$
-    \Sigma_{p+1} \times S^1
-      \longrightarrow
-    \widehat U
-      \overset{f|_U}{\longrightarrow}
-    H
-    \,.
-  $$
-  But this is nothing than the value of the background field $f$ not on the $p$-brane worldvolume
-  $\Sigma_{p+1}$, but on the worldvolume $\Sigma_{p+1} \times S^1$ of a $(p+1)$-brane, which
-  "[[wrapped brane|wraps]]" the circle fiber in $\widehat U = U \times S^1$.
-  This is the physical picture of [[double dimensional reduction]].
-
-=--
-
-For entertainment of the homotopy theory cognoscenti, I mention that this formalization of
-[[double dimensional reduction]] from prop. \ref{DimensionalReduction} is but a special
-case of the following very general fact in [[(∞,1)-topos theory]].
-
-+-- {: .num_prop}
-###### Proposition
-
-Let $G$ be an [[∞-group]] in an [[(∞,1)-topos]] $\mathbf{H}$
-then there is a pair of [[adjoint ∞-functors]] of the form
-
-$$
-  \mathbf{H}
-    \underoverset
-      {\underset{[G,-]/G}{\longrightarrow}}
-      {\overset{hofib}{\longleftarrow}}
-      {\bot}
-  \mathbf{H}_{/\mathbf{B}G}
-  \,,
+    \\
+    & {}_{}\searrow
+    \\
+    && b \mathbb{R}
+  }
+  \right]
+  \;\coloneqq\;
+  \left[
+    \array{
+      \mathbb{R}^{d,1\vert N_{d+1}}
+      \\
+      \downarrow
+      \\
+      \mathbb{R}^{d-1,1\vert N_d}
+      \\
+      & {}_{\mathllap{\overline{\psi}\wedge \Gamma^{d}\psi}} \searrow
+      \\
+      && b \mathbb{R}
+    }
+  \right]
 $$
 
+be the extension of a [[nLab:super Minkowski spacetime]] from [[nLab:dimension]] $d$ to dimension $d+1$.
 
-where $[G,-]]$ denotes the [[internal hom]] in $\mathbf{H}$, $[G,-]/G$ denotes the
-[[homotopy quotient]] by the [[conjugation action|conjugation]]
-[[∞-action]] for $G$ equipped with its canonical [[∞-action]] by left multiplication and the argument
-regarded as equipped with its trivial $G$-$\infty$-action.
-
-=--
-
-+-- {: .proof #DimensionalReductionAbstractly}
-###### Proof
-
-
-First observe that the [[conjugation action]] on $[G,X]$ is the [[internal hom]] in
-the [[(∞,1)-category]] of $G$-[[∞-actions]] $Act_G(\mathbf{H})$.
-Under the [[equivalence of (∞,1)-categories]]
+Let moreover
 
 $$
-  Act_G(\mathbf{H}) \simeq \mathbf{H}_{/\mathbf{B}G}
+  \mathfrak{h} \coloneqq b^{(p+1)+1} \mathbb{R}
 $$
 
-(from [Nikolaus-Schreiber-Stevenson 12](#NSS12)) then $G$ with its canonical [[∞-action]] is $(\ast \to \mathbf{B}G)$
-and $X$ with the trivial action is $(X \times \mathbf{B}G \to \mathbf{B}G)$.
+be the  [[nLab:line Lie n-algebra|line Lie (p+3)-algebra]]
 
-Hence
+and consider any [[nLab:super p-brane|super (p+1)-brane]] cocycle from the old [[nLab:brane scan]] in dimension $d+1$
 
 $$
-  [G,X]/G
-    \simeq
-  [\ast, X \times \mathbf{B}G]_{\mathbf{B}G}
-  \;\;\;\;\;
-  \in
-   \mathbf{H}_{/\mathbf{B}G}
+  \mu_{(p+1)+2}
+  \;\coloneqq\;
+  \underoverset{a_i = 0}{d}{\sum}
+  \left(
+    \overline{\psi}
+      \wedge
+      \Gamma_{a_1 \cdots a_{p+1}}
+  \psi
+  \right)
+  \wedge
+  e^{a_1} \wedge \cdots \wedge e^{a_{p+1}}
+  \;\;\colon\;\;
+  \mathbb{R}^{d,1\vert N_{d+1}}
+    \longrightarrow
+  b^{p+1} \mathbb{R}
   \,.
 $$
 
-Actually, this is the very definition of what $[G,X]/G \in \mathbf{H}_{/\mathbf{B}G}$ is to mean in the first place, abstractly.
-
-But now since the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$ is itself cartesian closed, via
+Then the cyclification $\mathfrak{L}(b^{p+1}\mathbb{R})/\mathbb{R}$ of the coefficients (prop. \ref{DimensionalReduction}) is
 
 $$
-  E \times_{\mathbf{B}G}(-)
-  \;\;\;
-   \dashv
-  \;\;\;
-  [E,-]_{\mathbf{B}G}
+  CE\left(
+    \,
+    \mathfrak{L}(b^{p+2}\mathbb{R})/\mathbb{R}
+    \,
+  \right)
+  \;=\;
+  \left\{
+    \array{
+      d \omega_2 = 0
+      \\
+      d \omega_{p + 2} = 0
+      \\
+      d \omega_{(p+1)+2} = \omega_{p+1} \wedge \omega_2
+    }
+  \right\}
 $$
 
-it is immediate that
-there is the following sequence of [[natural equivalences]]
+and the dimensionally reduced cocycle
 
 $$
-  \begin{aligned}
-   \mathbf{H}_{/\mathbf{B}G}(Y, [G,X]/G)
-   & \simeq
-   \mathbf{H}_{/\mathbf{B}G}(Y, [\ast, X \times \mathbf{B}G]_{\mathbf{B}G})
-   \\
-   & \simeq
-   \mathbf{H}_{/\mathbf{B}G}(
-     Y \times_{\mathbf{B}G} \ast,
-     \underset{p^\ast X}{\underbrace{X \times \mathbf{B}G }}
-  )
-  \\
-  & \simeq
-  \mathbf{H}(
-     \underset{hofib(Y)}{\underbrace{p_!(Y \times_{\mathbf{B}G} \ast)}},
-     X
-  )
-  \\
-  & \simeq
-  \mathbf{H}(hofib(Y),X)
-  \end{aligned}
+  \array{
+    \mathbb{R}^{d-1,1\vert N_d}
+      &&
+        \overset{}{\longrightarrow}
+      &&
+    \mathfrak{L}(b^{p+1}\mathbb{R})/\mathbb{R}
+    \\
+    & \searrow && \swarrow
+    \\
+   && b \mathbb{R}
+  }
 $$
 
-Here $p \colon \mathbf{B}G \to \ast$ denotes the terminal morphism and $p_! \dashv p^\ast$
-denotes the [[base change]] along it.
+has the following components
 
+$$
+  \array{
+    && &&
+    \overset{
+      p+1\text{-brane}
+    }{
+    \overbrace{
+    {
+      \mu^{d+1}_{(p+1)+2}
+      =
+    }
+    \atop
+    {
+      \underoverset{d=0}{d}{\sum}
+      \left(
+        \overline{\psi}
+         \wedge
+         \Gamma_{a_1 \cdots a_{p+1}}
+         \psi
+      \right)
+      \wedge
+      e^{a_1}
+       \wedge
+       \cdots
+      e {a_{p+1}}
+      }
+      }
+    }
+    \\
+    && & {}^{\mathllap{\text{wrapped}}}\swarrow && \searrow^{\mathrlap{\text{not} \atop \text{wrapped}}}
+    \\
+    \underset{
+      \text{0-brane}
+    }{
+    \underbrace{
+    {
+      \mu^{d}_{0+2}
+      =
+    }
+    \atop
+    {
+      \left(
+      \overline{\psi}
+        \wedge
+        \Gamma^d
+      \psi
+      \right)
+      }
+      }
+    }
+    &&
+    \underset{
+      p\text{-brane}
+    }{
+    \underbrace{
+      {
+        \mu^{d}_{p+2}
+        =
+      }
+      \atop
+      {
+        \underoverset{a_i = 0}{d-1}{\sum}
+        \left(
+        \overline{\psi}
+        \wedge
+          \Gamma_{a_1 \cdots a_{p}}
+        \psi
+        \right)
+        \wedge
+        e^{a_1}
+         \wedge \cdots
+        e^{a_p}
+      }
+      }
+    }
+    &&
+    &&
+    \underset{
+      p+1\text{-brane}
+    }{
+    \underbrace{
+      {
+        \mu^{d}_{p+2}
+        =
+      }
+      \atop
+      {
+        \underoverset{a_i = 0}{d-1}{\sum}
+        \left(
+        \overline{\psi}
+        \wedge
+          \Gamma_{a_1 \cdots a_{p+1}}
+        \psi
+        \right)
+        \wedge
+        e^{a_1}
+         \wedge \cdots
+        e^{a_{p+1}}
+      }
+      }
+    }
+  }
+$$
 
+It follows that with
+
+$$
+  d \,\mu^{d+1}_{(p+1)+2} = 0
+$$
+
+also
+
+$$
+  d\, \mu^d_{p+2} = 0
+  \,.
+$$
+
+This is the dimensional reduction observed in the old [[nLab:brane scan]] ([Ach&#250;carro-Evans-Townsend-Wiltshire 87](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#AETW87))
+
+<img src="https://ncatlab.org/nlab/files/DuffBraneScan.jpg" height="600">
+
+> graphics grabbed from ([Duff 87](Green-Schwarz+action+functional#Duff87))
+
+But there is more: the un-wrapped component of the dimensionally reduced cocycle satisfies the  twisted cocycle condition
+
+$$
+  d \, \mu^d_{(p+1)+2}
+   \;=\;
+  mu^d_{p+2} \wedge \mu^d_{0+2}
+  \,.
+$$
+
+These relations are not to be ignored.
 
 =--
+
+This we turn to now.
+
+
+
+
+
 
 
 
@@ -5215,21 +6656,259 @@ by repeatedly applying
 
 the super $L_\infty$-algebraic dimensional reduction/oxidation isomorphism of prop. \ref{DimensionalReduction}
 
-to the descended cocycles from the [[schreiber:brane bouquet]]
+to the descended cocycles ([above](#Fields)) from the [[schreiber:brane bouquet]]
 
 yields super $L_\infty$-algebraic equivalences
 
-that reflect the pertinent [[dualities in string theory]]
+that reflect the pertinent [[nLab:dualities in string theory]]
 
-1. between [[M-theory]] and [[type IIA string theory]];
+1. between [[nLab:M-theory]] and [[nLab:type IIA string theory]] by [[nLab:KK-compactification]]
 
-1. between [[type IIA string theory]] and [[type IIB string theory]] ([[T-duality]])
+1. between [[nLab:type IIA string theory]] and [[nLab:type IIB string theory]] ([[nLab:T-duality]])
 
-1. between [[type IIB string theory]] and [[F-theory]].
+1. between [[nLab:type IIB string theory]] and itself ([[nLab:S-duality]])
+
+1. between [[nLab:type IIB string theory]] and [[nLab:F-theory]].
 
 $\,$
 
-### M/IIA
+<img src="https://ncatlab.org/schreiber/files/BraneBouquetWithDualities.jpg" width="700" alt="the brane bouquet" />
+
+$\,$
+
+We now discuss each aspect of this picture.
+
+$\,$
+
+### M/IIA-Duality via Double dimensional reduction via Cyclification
+ {#KKReductionToIIA}
+
+$\,$
+
+The [[nLab:M2-brane]]/[[nLab:M5-brane]] in 11d
+
+is all controled by the following [[nLab:Fierz identities]]
+
+for the $\mathbf{32}$ [[nLab:Majorana spinor|Majorana]] [[nLab:spin representation]] for $Spin(10,1)$
+
+$\,$
+
+   $$
+     \left(
+       \overline{\psi} \wedge \Gamma_{a b} \psi
+     \right)
+     \wedge
+     \left(
+        \overline{\psi} \wedge \Gamma^b \psi
+     \right)
+     \;= \; 0
+     \,.
+   $$
+
+$\,$
+
+and
+
+$\,$
+
+   $$
+     \left(
+       \overline{\psi}
+         \wedge
+         \Gamma_{a_1 \cdots a_4 b}
+       \psi
+     \right)
+     \wedge
+     \left(
+       \overline{\psi}
+        \wedge
+        \Gamma^{b}
+        \psi
+     \right)
+     \;=\;
+     3
+     \left(
+     \overline{\psi}
+        \Gamma_{[a_1 a_2}
+     \psi
+     \right)
+     \wedge
+     \left(
+       \overline{\psi}
+          \Gamma_{a_3 a_4]}
+       \psi
+     \right)
+   $$
+
+([D'Auria-Fr&#233; 82b (3.13) and (3.28) ](geometry+of+physics+--+supersymmetry#DAuriaFre82b))
+
+$\,$
+
+$\,$
+
+The first [[nLab:Fierz identity]] says that
+
+$$
+  \mu_{M2}
+  \:\coloneqq\;
+  \left(
+  \tfrac{i}{2}
+  \overline{\psi}
+     \wedge
+     \Gamma_{a b}
+  \psi
+  \right)
+  \wedge
+    e^{a}
+    \wedge
+    e^b
+$$
+
+is a 4-cocycle on $\mathbb{R}^{10,1\vert \mathbf{32}}$, classifying the
+
+[[nLab:supergravity Lie 3-algebra]] extension
+
+$$
+  \array{
+    \mathfrak{m}2\mathfrak{brane}
+    \\
+    \downarrow
+    \\
+    \mathbb{R}^{10,1\vert \mathbf{32}}
+  }
+  \;\;\;\;\;\;\;\;\;
+  CE(\mathfrak{m}2\mathfrak{brane})
+  =
+  \left\{
+    \array{
+      d \, e^a = \overline{\psi} \wedge \Gamma^a \psi
+      \\
+      d \, \psi^\alpha = 0
+      \\
+      d \, h_3 = \mu_{M2}
+    }
+  \right\}
+$$
+
+The second says that
+
+$$
+  \mu_{M5}
+    \;\coloneqq\;
+  \tfrac{1}{5!}
+  \left(
+    \overline{\psi}
+      \wedge
+      \Gamma_{a_1 \cdots a_5}
+    \psi
+  \right)
+  \wedge
+  e^{a_1}
+    \wedge
+    \cdots
+    \wedge
+  e^{a_5}
+  \;-\;
+  \tfrac{1}{2} h_3 \wedge \mu_{M2}
+$$
+
+is a 7-cocycle on $\mathfrak{m}2\mathfrak{brane}$
+
+$$
+  \mu_{M5}
+  \;\colon\;
+  \mathfrak{m}2\mathfrak{brane}
+    \longrightarrow
+  b^6 \mathbb{R}
+$$
+
+$\,$
+
+Equivalently, (by the discussion at _[M-Flux fields](#MFluxFields)_ above)
+
+with $\mathfrak{l}(S^4)$ the [[nLab:rational n-sphere|rational 4-sphere]]
+
+$$
+  CE(\mathfrak{l}(S^4))
+   =
+  \left\{
+    \array{
+      d \, g_4 = 0
+      \\
+      d \, g_7 = -\tfrac{1}{2} g_4 \wedge g_4
+    }
+  \right\}
+$$
+
+
+then the two [[nLab:Fierz identities]] together say that there is a single [[nLab:4-sphere]] valued cocycle
+
+$$
+  \mu_{M2/M5}
+  \;\colon\;
+  \mathbb{R}^{10,1\vert \mathbf{32}}
+    \longrightarrow
+  \mathfrak{l}(S^4)
+$$
+
+
+Hence $S^4$ is the rational coefficient for the unified M2/M5 M-flux fields.
+
+Now we compute what becomes of this under [[nLab:double dimensional reduction]] via $L_\infty$-cyclification (prop. \ref{DimensionalReduction})
+
++-- {: .num_example}
+###### Example
+
+Let $X = S^4$ be the [[nLab:4-sphere]].
+
+Its free loop algebra $\mathcal{L}S^4$ is given by
+
+$$
+ CE( \; \mathfrak{L}S^4 \; )
+  \;=\;
+ \left\{
+  \array{
+    d\, h_3 & = 0
+    \\
+    d\, \omega_4 & = 0
+    \\
+    d\, \omega_6 & = h_3 \wedge \omega_4
+    \\
+    d\, h_7 & = -\tfrac{1}{2} \omega_4 \wedge \omega_4
+    \\
+  }
+  \right\}
+$$
+
+and its cyclification $\mathcal{L}S^4 / S^1$ is given by
+
+$$
+  CE( \; \mathfrak{L}S^4 / \mathbb{R}  \; )
+  \;=\;
+  \left\{
+    \array{
+      d \, h_3 & = 0
+      \\
+      d \, \omega_2 & = 0
+      \\
+      d \, \omega_4 & = h_3 \wedge \omega_2
+      \\
+      d \, \omega_6 & = h_3 \wedge \omega_4
+      \\
+      d \, h_7 & = -\tfrac{1}{2} \omega_4 \wedge \omega_4 + \omega_2 \wedge \omega_6
+  }
+  \right.
+  \,.
+$$
+
+
+=--
+
+
+
+$\,$
+
+$\,$
 
 +-- {: .num_prop}
 ###### Proposition
@@ -5240,7 +6919,7 @@ The cyclification of the M-brane coefficient $\mathfrak{l}(S^4)$
 
 is the truncated IIA F1/D-brane coefficient $\mathfrak{l}( KU\langle 0,6 \rangle ( B U(1) )$
 
-with an extra twist for the [[NS5-brane]]:
+with an extra twist for the [[nLab:NS5-brane]]:
 
 $$
   CE\left(
@@ -5272,34 +6951,115 @@ is the unified type IIA F1/D-brane cocycle from prop. \ref{DescentOfIIACocycles}
 
 $$
   \array{
-    11d, N = 1 && \mathbb{R}^{10,1\vert \mathbf{32}}  &\overset{\mu_{M2/M5}}{\longrightarrow}& \mathfrak{l}(S^4)
+    11d, N = 1
+    &&&&
+    \mathbb{R}^{10,1\vert \mathbf{32}}
+      &&
+        \overset{\mu_{M2/M5}}{\longrightarrow}
+      &&
+    \mathfrak{l}(S^4)
     \\
-    && \downarrow
+    && && \downarrow
     \\
-    10d, \text{type IIA} && \mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}}}
-     &\overset{ \mathfrak{L}(\mu_{M2/M5})/\mathbb{R}  }{\longrightarrow}&
-    \mathfrak{l}(\mathcal{L}S^4/S^1)
+    10d, \text{type IIA}
+    &&
+    &&
+    \mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}}}
+     &&
+       \overset{
+          { \mathfrak{L}(\mu_{M2/M5})/\mathbb{R}  }
+          \atop
+          {
+            =
+            \atop
+            {
+              \mu^{IIA}_{F1/D0/D2/D4/NS5}
+            }
+          }
+       }{\longrightarrow}
+     &&
+      {
+        { \mathfrak{l}(\mathcal{L}S^4/S^1)  }
+      }
     \\
-    && & {}_{\mathllap{\mu^{A}_{F1/D{\leq 4}}}}\searrow & \downarrow
+    && && &
+     {}_{ \mathllap{\mu^{IIA}}_{F1/D0/D2/D4} } \searrow
+    & &
+    \swarrow_{\mathrlap{\text{project out} \atop \text{NS5-coefficient}}}
     \\
-    && && \mathfrak{l}( KU\langle 0,6\rangle/B U(1) )
+    &&
+    &&
+    && \mathfrak{l}( KU\langle 0,6\rangle/B U(1) )
   }
 $$
 
 
 =--
 
+$\,$
+
+Observe that (by [[nLab:adjunction]]) this [[nLab:double dimensional reduction]] operation
+
+is an [[nLab:isomorphism]], hence
+
+* the M2/M5-brane cocycle $\mathbb{R}^{10,1\vert \mathbf{32}} \longrightarrow \mathfrak{l}(S^4)$ in 11d
+
+is equivalent to
+
+* the F1/D$p$/NS5-brane cocycle $\mathbb{R}^{9,1 \vert \mathbf{16} + \overline{\mathbf{16}}} \longrightarrow \mathfrak{l}(\mathcal{L}S^4/S^1)$
+
+Hence this is the M/IIA duality
+
+on super $p$-brane super Lie $n$-algebra cocycles.
 
 
 
+$\,$
 
-### IIA/IIB
+### IIA/IIB-Duality via T-Duality
+ {#TDuality}
+
+
+The archetypical [[nLab:duality in string theory]] is _[[nLab:T-duality]]_, which relates the [[nLab:F1-brane|F1]]/[[nLab:D-brane|Dp]]/[[nLab:NS5-brane|NS5]]-[[nLab:super p-branes]] of [[nLab:type IIA string theory]] on a [[nLab:superspacetime]] which is a [[nLab:circle]] [[nLab:fiber bundle]] over a 9d base to those of [[nLab:type IIB string theory]] on a dual circle fibration with the fiber size inverted in string length units. The [[nLab:F1-brane|F1]]/[[nLab:D-brane|Dp]]-[[nLab:super p-brane]] charges on both sides of this [[nLab:duality in physics|duality]] take values in [[nLab:twisted K-theory]], and hence the mathematical statement here is that dual circle fibrations of this form induce an equivalence in [[nLab:twisted K-theory]]. This T-duality equivalence of F1/D$p$-brane charges in [[nLab:twisted K-theory]] is known in the literature as "[[nLab:topological T-duality]]".
+
+
+$\,$
+
+
+The IIA and the IIB spacetime both extend the single $N = 2$ 9d spacetime
+
+$$
+  \array{
+    \mathbb{R}^{9,1\vert \mathbf{16} + \mathbf{16}}
+      && &&
+    \mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbb{R}^{8,1\vert \mathbf{16} + \mathbf{16}}
+  }
+$$
+
+Apply [[nLab:double dimensional reduction]] of the unified $F1/Dp$-cocycles
+
+in IIA and IIB along both of these.
+
+The resulting cyclified $L_\infty$-cocycles in 9d turn out to be $L_\infty$-equivalent.
+
+([FSS16b, sections 5 and 6](#FSS16b))
+
+One derives the following picture
+
+$\,$
+
+<img src="https://ncatlab.org/schreiber/files/FTheoryPicture.png" width="900">
+
+$\,$
+
 
 (...)
 
-[FSS16b, sections 5 and 6](#FSS16b)
-
-(...)
+$\,$
 
 
 ### IIB/F
@@ -5310,63 +7070,29 @@ $$
 
 (...)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Summary
-
-(...)
-
-old [[brane scan]]
-
-
-| $\stackrel{d}{=}$ |  $p =$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |  8 |  9 |
-|--|--------|---|---|---|---|---|---|---|----|----|
-| 11 | |  |  [[M2-brane|M2]] |  |   |  |   |   |   |   |
-| 10 |  | [[F1-brane|F1]]   |   |  |   | [[NS5-brane|NS5]] |   |   |   |   |
-| 9 | |   |   |  | $\ast$  |  |   |   |   |   |
-| 8 | |   |   | $\ast$ |   |  |   |   |   |   |
-| 7 | |   | $\ast$  |  |   |  |   |   |   |   |
-| 6 | |  $\ast$  |  | [[3-brane in 6d|S3]] |   |  |   |   |   |   |
-| 5 | |  | $\ast$   | |   |  |   |   |   |   |
-| 4 | | $\ast$  | [[super 2-brane in 4d|M2]]$_{cmp}$   | |   |  |   |   |   |   |
-| 3 | | [[super 1-brane in 3d|F1]]$_{cmp}$  |  | |   |  |   |   |   |   |
+$\,$
 
 $\,$
 
-(...)
-
-the completed brane scan
-
-(...)
-
-[[!include brane scan]]
-
-(...)
 
 
-<div style="float:left;margin:0 10px 10px 0;"><img src="https://ncatlab.org/schreiber/files/BraneBouquetWithDualities.jpg" alt="the brane bouquet" /></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## References
 
