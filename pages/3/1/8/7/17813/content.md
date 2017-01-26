@@ -2267,8 +2267,8 @@ where we used that $X^{(\mathbf{330})}_{a_1 \cdots a_4}$ is already skew-symmetr
 ## Branes
 
 
-Below we will obtain all [[super p-branes]] by consecutive invariant higher [[super Lie n-algebra]] extensions of
-[[super Minkowski spacetime]]. To put this in perspective, we first
+We now discuss how the [[super p-branes]] arise in the guise of consecutive invariant higher [[super Lie n-algebra]] extensions of
+[[super Minkowski spacetimes]]. To put this in perspective, we first
 recall from the end of _[[geometry of physics -- supersymmetry]]_ in
 
 * _[The super 0-branes and Super-Minowski spacetimes](#SuperMinkowskiSpacetimes)_
@@ -2289,10 +2289,10 @@ The are classical facts from the "old [[brane scan]]" which we review in
 * _[The superstring and the super membrane](#TheSuperStringAndTheSuperMembrane)_
 
 While up to this point the progression happens in [[super Lie algebra|super]] [[Lie algebra cohomology]],
-now we turn to the [[homotopy theory]] of [[super L-infinity algebas]]: Just like
-2-cocycles on [[super Lie algbras]] classify ordinary [[central extensions]], higher
+now we turn to the [[homotopy theory]] of [[super L-infinity algebras]]: Just like
+2-cocycles on [[super Lie algebras]] classify ordinary [[central extensions]], higher
 cocycles such as the 3-cocycles and the 4-cocycles of the [[superstring]] and of the
-[[supermembrane]] classify [[super Lie n-algebra]] extension of [[super Minkwski spacetime]].
+[[supermembrane]] classify [[super Lie n-algebra]] extension of [[super Minkowski spacetime]].
 This we discuss in
 
 * _[Extended super Minkowski spacetimes](#ExtendedSuperMinkowskiSpacetime)_
@@ -2417,15 +2417,9 @@ and to find that these single out the super-Minkowski spacetimes.
 
 =--
 
-
-**Conclusion:**
-
-Just from studying iterated invariant [[central extensions]]
-
+So from studying iterated invariant [[central extensions]]
 of [[super Lie algebras]],
-
 starting with the [[superpoint]],
-
 we  (re-)discover
 
 1. [[pseudo-Riemannian geometry|Lorentzian geometry]],
@@ -2436,42 +2430,6 @@ we  (re-)discover
 
 
 
-
-$\,$
-
-There are no further invariant 2-cocycles on <img src="https://ncatlab.org/schreiber/files/10dSpacetimes.png" width="250">
-
-But there is an invariant 3-cocycle.
-
-$\,$
-
-There are no further invariant 2-cocycles on $\mathbb{R}^{10,1\vert \mathbf{32}}$
-
-But there is an invariant 4-cocycle.
-
-$\,$
-
-So:
-
-_What are higher super Lie algebra cocycles?_
-
-_And what kind of extensions do they classify?_
-
-$\,$
-
-Quick answer:
-
-_Higher cocycles are closed elements in a [[Chevalley-Eilenberg algebra]]._
-
-_They classify [[super Lie-∞ algebra]] [[L-∞ algebra cohomology|extensions]]._
-
-$\,$
-
-This we explain now.
-
-
-
-$\,$
 
 
 +-- {: .num_example #D0Cocycle}
@@ -2494,25 +2452,16 @@ $$
 is
 
 $$
-  i \, \overline{\psi} \wedge \Gamma_{11} \psi
-  \;\in\;
+  i \, \overline{\psi} \wedge \Gamma_{10} \psi
+    \;\in\;
   CE(\mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}}})
 $$
 
-Regarded as a 2-form on $\mathbb{R}^{9,1\vert \mathbf{32}}$,
 
-this is the [[curvature]] of the [[WZW-term]]
-
-in the [[Green-Schwarz sigma-model]] for the [[D0-brane]].
-
-See below.
+This happens to also be the [[curvature]] of the [[WZW-term]]
+in the [[Green-Schwarz sigma-model]] for the [[D0-brane]]. 
 
 =--
-
-
-
-
-
 
 
 
@@ -2842,18 +2791,14 @@ This is clarified by the following result:
 
 $\,$
 
-+-- {: .num_prop}
++-- {: .num_prop #GaugeStackInsideExtendedSpacetime}
 ###### Proposition
 **([Fiorenza-Sati-Schreiber 13, section 5](#FSS13))**
 
 Write $\widetilde {String_{IIA}}$ for the [[super formal smooth infinity-groupoid|super 2-group]]
-
 that [[Lie integration|Lie integrates]] the super [[Lie 2-algebra]] $\mathfrak{string}_{IIA}$
-
 subject to the condition that it carries a globally defined [[Maurer-Cartan form]].
-
 Then for $\Sigma_{p+1}$ a [[worldvolume]] [[smooth manifold]]
-
 there is a [[natural equivalence]]
 
 $$
@@ -2875,13 +2820,9 @@ $$
 $$
 
 between "higher Sigma-model fields" $\Phi$
-
 and pairs, consisting of
-
 an ordinary sigma-model field $\phi$
-
 and a [[gauge field]] $\nabla$ on the [[worldvolume]] of the D-brane
-
 twisted by the [[Kalb-Ramond field]].
 
 This is the _[[Chan-Paton gauge field]]_ on the D-brane.
@@ -2891,13 +2832,9 @@ $\,$
 Similarly:
 
 Write $\widetilde {M2Brane}$ for the [[super formal smooth infinity-groupoid|super 3-group]]
-
 that [[Lie integration|Lie integrates]] the super [[Lie 3-algebra]] $\mathfrak{m}2\mathfrak{brane}$
-
 subject to the condition that it carries a globally defined [[Maurer-Cartan form]].
-
 Then for $\Sigma_{5+1}$ a [[worldvolume]] [[smooth manifold]]
-
 there is a [[natural equivalence]]
 
 $$
@@ -2919,13 +2856,9 @@ $$
 $$
 
 between "higher Sigma-model fields" $\Phi$
-
 and pairs, consisting of
-
 an ordinary sigma-model field $\phi$
-
 and a [[higher gauge field]] $\nabla$ on the [[worldvolume]] of the [[M5-brane]]
-
 and twisted by the [[supergravity C-field]].
 
 =--
@@ -3357,10 +3290,14 @@ $$
   \,.
 $$
 
-
 =--
 
-+-- {: .num_prop}
+The following statements may be obtained from the existence of the [[M5-brane]] cocycle (prop. \ref{TheM5BraneCocycleAsACocycle})
+and applying [[double dimensional reduction]] and [[T-duality]]. We discuss this in detail below in 
+_[Double dimensional reduction](#DoubleDimensionalReduction)_ and _[T-duality](#TDuality)_, for the moment
+we are content with stating it as a fact:
+
++-- {: .num_prop #TheIIADBraneCocycles}
 ###### Proposition
 **([Chryssomalakos-Azc&#225;rraga-Izquierdo-Bueno 99](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#CAIB99), 
 
@@ -3374,7 +3311,7 @@ and non-exact.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #TheCocyclesForTheIIBTypeDBranes}
 ###### Proposition
 **([Sakaguchi 99](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#Sakaguchi00))**
 
@@ -3389,20 +3326,16 @@ and non-exact.
 =--
 
 
-By prop. \ref{HomotopyFibersOfLInfinityCocycles} these cocycles classify
-further higher super $L_\infty$-algebra extensions
++-- {: .num_defn }
+###### Definition
+
+By prop. \ref{HomotopyFibersOfLInfinityCocycles} the higher cocycles for the [[M5-brane]] (prop. \ref{TheM5BraneCocycleAsACocycle})
+and for the [[D-branes]] (prop. \ref{TheIIADBraneCocycles} and prop. \ref{TheCocyclesForTheIIBTypeDBranes})
+classify
+further higher super $L_\infty$-algebra extensions. These we name again by the branes that the correspond
+to. So the following diagrams denote [[homotopy fiber sequences]]
 
 $$
-  \array{
-    \mathfrak{d}p\mathfrak{brane}
-    \\
-    {}^{\mathllap{hofib(\mu_{D p})}}\downarrow
-    \\
-   \mathfrak{string}_{IIA/B}
-     &\underset{\mu_{D p}}{\longrightarrow}&
-   B^{p+1}\mathbb{R}
-  }
-  \;\;\;\;\;\;\;\;\,\;\;\;\;\;\;\;\;\;\;\;
   \array{
     \mathfrak{m}5\mathfrak{brane}
     \\
@@ -3414,31 +3347,31 @@ $$
   }
 $$
 
+and
+
+$$
+  \array{
+    \mathfrak{d}p\mathfrak{brane}
+    \\
+    {}^{\mathllap{hofib(\mu_{D p})}}\downarrow
+    \\
+   \mathfrak{string}_{IIA/B}
+     &\underset{\mu_{D p}}{\longrightarrow}&
+   B^{p+1}\mathbb{R}
+  }
+$$
 
 
+=--
 
-In **conclusion**:
-
-by forming
-iterated (maximal) invariant higher central super $L_\infty$-extensions
-of the superpoint,
-we obtain the following "[[schreiber:brane bouquet]]"
+So in conclusion, by forming
+iterated (maximal) invariant higher central extensions 
+of the superpoint, there emrges first [[spacetime]] and then the fundamental [[p-branes]] that propagate in spacetime.
 
 $\,$
 
 <img src="https://ncatlab.org/schreiber/files/SecondBraneExtensions.png" width="550">
 
-$\,$
-
-Each object in this [[diagram]] of [[super L-∞ algebras]]
-is a [[super spacetime]] or [[super p-brane]] of [[string theory]] / [[M-theory]].
-
-$\,$
-
-Moreover, this diagram knows the brane intersection laws:
-there is a morphism $p_2\mathfrak{brane} \longrightarrow p_1 \mathfrak{brane}$
-precisely if the given species of $p_1$-branes may end on the given species of $p_2$-branes
-(more discussion of this is in [Fiorenza-Sati-Schreiber 13, section 3](#FSS13)).
 
 $\,$
 
@@ -3446,10 +3379,16 @@ $\,$
 > Perhaps we need to understand the nature of time itself better. $[...]$ One natural way to approach that question would be to understand in what sense time itself is an emergent concept, and one natural way to make sense of such a notion is to understand how pseudo-Riemannian geometry can emerge from more fundamental and abstract notions such as categories of branes. ([[Greg Moore|G. Moore]], p.41 of "[[Physical Mathematics and the Future]]", talk at [Strings 2014](http://physics.princeton.edu/strings2014/))
 
 
+
 $\,$
 
-Notice that all the $\mu_{D p}$ in def. \ref{TheDBraneCocycles} are higher cocycles
-except for that of the [[D0-brane]], which is just a 2-cocycle.
+It serves to have a closer look at the cocycle for the [[D0-brane]]:
+
++-- {: .num_remark}
+###### Remark
+
+Notice that all the [[D-brane]] cocycle $\mu_{D p}$ in def. \ref{TheDBraneCocycles} are _higher_ cocycles
+except for that of the [[D0-brane]], which is just an ordinary 2-cocycle.
 The ordinary central extension that this classifies
 is just that which grows the 11th M-theory dimension by the above example \ref{D0Cocycle}.
 
@@ -3460,7 +3399,7 @@ $$
     {}^{\mathllap{hofib(\mu_{D0})}} \downarrow
     \\
     \mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}
-       &\underset{\mu_{D0} =  i \, \overline{\psi} \Gamma_{11} \psi }{\longrightarrow}&
+       &\underset{\mu_{D0} =  \overline{\psi} \Gamma_{10} \psi }{\longrightarrow}&
     B \mathbb{R}
   }
 $$
@@ -3474,9 +3413,43 @@ as a super $L_\infty$-theoretic incarnation
 of D0-brane [[condensate|condensation]]
 ([Polchinski 99, around p. 8](https://ncatlab.org/nlab/show/D0-brane#Polchinski99)).
 
+More in detail, if we distinguish $\overline{\psi} \wedge \Gamma_{10} \psi$
+as an element of $\mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}^\ast}}$
+or as the element $\mu_{D0}$ of $\mathfrak{string}_{IIA}$ (which in components are the same,
+just regarded in different contexts), then the relation between the D0-brane and the M-theory spacetime
+extension may be stated as follows: The following diagram is [[homotopy pullback|homotopy Cartesian square]]:
+
+$$
+  \array{
+    \mathbb{R}^{10,1\vert \mathbf{32}}
+    &\longleftarrow&
+    \mathfrak{d}0\mathfrak{brane}
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    \mathbb{R}^{9,1\vert \mathbf{16}+ \mathbf{16}^\ast \}
+    &\longleftarrow&
+    \mathfrak{string}_{IIA}
+  }
+  \,.
+$$
 
 
+=--
 
++-- {: .num_remark}
+###### Remark
+**(brane intersection laws)**
+
+In addition to reflecting all the brane speciees, the above [[nLab:brane bouquet]]
+knows the _brane intersection laws_:
+there is a morphism $p_2\mathfrak{brane} \longrightarrow p_1 \mathfrak{brane}$
+precisely if the given species of $p_1$-branes may end on the given species of $p_2$-branes
+(more discussion of this is in [Fiorenza-Sati-Schreiber 13, section 3](#FSS13)).
+
+But recall from prop. \ref{GaugeStackInsideExtendedSpacetime} the interpretation of the [[extended super Minkowski spacetimes]] 
+as containing a condensate of branes sourcing the gauge field on the worldvolume of the
+branes that they may end on.
 
 In conclusion this shows that
 given a cocycle $\mu_{p_1+2}$ for some super $p_1$-brane species
@@ -3486,6 +3459,8 @@ then $p_1$-branes may end on $p_2$-branes
 and the $p_2$-branes propagating in the extended spacetime $p_1 \mathfrak{brane}$
 see a higher gauge field on their worldvolume
 of the kind sourced by boundaries of $p_1$-branes.
+
+=--
 
 $\,$
 
@@ -3543,15 +3518,11 @@ $\,$
 
 We now discuss that
 
-$\;\;\;\;$There is homotopy [[descent]] of $p$-brane WZW terms
-
-$\;\;\;\;$from [[extended super Minkowski spacetime]]
-
-$\;\;\;\;$down to ordinary [[super Minkowski spacetime]]
-
-$\;\;\;\;$which yields cocycles in [[twisted cohomology]]
-
-$\;\;\;\;$for the [[RR-field]] and the M-flux fields.
+There is homotopy [[descent]] of $p$-brane WZW terms
+from [[extended super Minkowski spacetime]]
+down to ordinary [[super Minkowski spacetime]]
+which yields cocycles in [[twisted cohomology]]
+for the [[RR-field]] and the M-flux fields.
 
 
 ([Fiorenza-Sati-Schreiber 15](#FSS15), [16a](#FSS16a)).
