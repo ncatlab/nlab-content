@@ -57,3 +57,4 @@ The term "Whitehead principle" for nonabelian cohomology is used in
 
 * [[Bertrand Toën]], _Stacks and non-abelian cohomology_ ([pdf](https://ncatlab.org/nlab/files/ToenStacksNAC.pdf))
 
+[[!redirects Whitehead principle of non-abelian cohomology]]
