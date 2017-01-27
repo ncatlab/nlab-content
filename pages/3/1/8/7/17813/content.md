@@ -2996,9 +2996,9 @@ Now we compute:
 
 $$
   \begin{aligned}
-    d_{CE} \mu_{M5}
+    d_{CE} \,\underset{\text{M5-brane} \atop {\kappa\text{-symmetry flux}  }}{\underbrace{\mu_{M5}}}
       & =
-    \tfrac{1}{5}
+    \tfrac{1}{5!}
       d_{CE}\left(
          \left(
            \overline{\psi}
@@ -3013,13 +3013,13 @@ $$
             \wedge
           e_{a_5}
       \right)
-      +
+      \;+\;
       d_{CE} h_3 \wedge \mu_{M2}
       \\
       & =
       \tfrac{1}{4!}
       \underset{
-        =
+        \underset{\text{Fierz identity} \atop \text{D'Auria-Fre '82}}{=}
         3
         \left(
            \overline{\psi}
@@ -3027,6 +3027,7 @@ $$
              \Gamma_{[a_1 a_2}
            \psi
         \right)
+        \wedge
         \left(
           \overline{\psi}
           \wedge
@@ -3041,6 +3042,7 @@ $$
           \Gamma_{[a_1 \cdot a_4 a]}
           \psi
       \right)
+      \wedge
       \left(
         \overline{\psi}
          \wedge
@@ -3051,7 +3053,7 @@ $$
      }
      \wedge
      e^{a_1} \wedge \cdots \wedge e^{a_4}
-     +
+     \;+\;
      \tfrac{1}{2}\mu_{M2} \wedge \mu_{M2}
      \\
      & =
@@ -3083,8 +3085,8 @@ This we discuss below in _[Double dimensional reduction](#DoubleDimensionalReduc
 and in _[T-duality](#TDuality)_.
 
 Here for the moment we just state the resulting cocycle conditions, below as def. \ref{TheDBraneCocycles},
-prop. \ref{TheIIADBraneCocycles} and prop. \ref{TheCocyclesForTheIIBTypeDBranes}. 
-In order to state this conveniently, we first recall in def. \ref{ConvenientSpinorBasis} the 
+prop. \ref{TheIIADBraneCocycles} and prop. \ref{TheCocyclesForTheIIBTypeDBranes}.
+In order to state this conveniently, we first recall in def. \ref{ConvenientSpinorBasis} the
 well adapted bases for type IIA/IIB spinors from _[[geometry of physics -- supersymmetry]]_
 _[Example: Spinors in dimension 11, 10 and 9](geometry+of+physics+--+supersymmetry#InDimensions11And10And9)_
 
@@ -4048,18 +4050,18 @@ In direct analogy, for $X$ any [[pointed topological space]], then the
 [[based loop space]] $\Omega_\ast(X)$ (the [[topological space]] whose elements are
 continuous paths from the basepoint to itself) naturally is a [[group]] "up to [[coherence|coherent]] higher homotopy".
 
-Namely 
+Namely
 
 * the operation of concatenating two loops $\alpha,\beta \colon [0,1] \to X$ to a new loop
-  
+
   $$
     [0,1] \overset{2 \cdot(-)}{\longrightarrow} [0,2]
      \overset{}{\longrightarrow}
     X
   $$
-  
+
   gives it the structure of a [[semi-group]] whose [[associativity]] law holds up to [[homotopy]];
-  
+
 * the constant loop gives it the structure of a [[monoid]] up to coherent homotopy, called an _[[A-∞ space]]_
 
 * the reversal of loops
