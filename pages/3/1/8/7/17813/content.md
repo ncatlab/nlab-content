@@ -2496,7 +2496,7 @@ below in remark \ref{TheNatureOfTheD0Cocycle}.
 
 +-- {: .num_prop #CocyclesForSuperStringAndSupermembrane}
 ###### Proposition
-**([Ach&#250;carro-Evans-Townsend-Wiltshire 87](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#AETW87), [Brandt 12-13](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#Brandt12-13))**
+**([Ach&#250;carro-Evans-Townsend-Wiltshire 87](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#AETW87), [Azc&#225;rraga-Townsend 89](Green-Schwarz+action+functional#AzcarragaTownsend89) [Brandt 12-13](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#Brandt12-13))**
 
 The maximal invariant 3-cocycle on 10d [[super Minkowski spacetime]] (according to remark \ref{SuperMinkowskiInvariantCocycles}) is
 
