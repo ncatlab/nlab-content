@@ -97,7 +97,8 @@ See [[oplax monoidal functor]] for more details.
 
 ## References
 
-* [[Max Kelly]], _Doctrinal Adjunction_ Lecture Notes in Mathematics, (1974), Volume 420/1974
-{#Kelly}
+* {#Kelly} [[Max Kelly]], _Doctrinal Adjunction_ Lecture Notes in Mathematics, (1974), Volume 420/1974, doi:[10.1007/BFb0063105](https://dx.doi.org/10.1007/BFb0063105)
 
-* [[Mike Shulman]], _Comparing composites of left and right derived functors_ (2011) [NYJM](http://nyjm.albany.edu/j/2011/17-5v.pdf) explains the double category perspective.
+The following article explains the double category perspective:
+
+* [[Mike Shulman]], _Comparing composites of left and right derived functors_, New York Journal of Mathematics, Volume 17 (2011) pp 75-125, [journal abstract page](http://nyjm.albany.edu/j/2011/17-5.html) 
