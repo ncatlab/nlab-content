@@ -66,13 +66,20 @@ As is usual with the [[separation axioms]], some authors while conflate the mean
 
 ## Examples
 
-* Every [[metric space]] is Tychonoff.
+* Every [[metric space]] is Tychonoff (and every pseudometric space is completely regular).
 
-* Every [[topological manifold]] is Tychonoff.
+* Every [[topological group]] is Tychonoff, if one requires groups to be Hausdorff; if not, then they are still completely regular.
 
-* Every [[topological group]] is Tychonoff.
+* Every [[topological manifold]] is Tychonoff, if one requires manifolds to be Hausdorff.  (But if not, then the non-Hausdorff manifolds are *not* completely regular, indeed not even preregular, and in fact they are still $T_0$, indeed $T_1$.)
 
 * Every [[CW-complex]] is Tychonoff.
+
+
+## References
+
+For a version appropriate to [[constructive mathematics|constructive]] (but impredicative) mathematics, see
+
+* Bernhard Banaschewski, Ale&#353; Pultr; 2002; A Constructive View of Complete Regularity; [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.9.4811).
 
 
 [[!redirects completely regular space]]
