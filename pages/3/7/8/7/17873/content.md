@@ -308,7 +308,7 @@ X &\xleftarrow{ev_{T{}X}}&X^T\times T &\xrightarrow{ev_{T{}X}} &X
 X&\xrightarrow[\langle id_X,t_0\circ !_X\rangle]{}&X\times T&\xleftarrow[\langle id_X,t_1\circ !_X\rangle]{}&X
 }
 $$
-This encapsulates all the information before the application of $(-)^Y$: the transpose of the second step occurs as $\lceil{m}\rceil$ and the homotopy information is expressed via $\lceil{m}\rceil$ by using $ev_{T{}X}\circ(\rceil{m}\lceil\times id_T)=m$ at $t_0,t_1$.
+This encapsulates all the information before the application of $(-)^Y$: the transpose of the second step occurs as $\lceil{m}\rceil$ and the homotopy information is expressed via $\lceil{m}\rceil$ by using $ev_{T{}X}\circ(\lceil{m}\rceil\times id_T)=m$ at $t_0,t_1$.
 
 Now we exponentiate the diagram. Importantly, $(-)^Y$ as a right adjoint preserves all limits and therefore it maps the constant map $c:X\to X$ to a _constant_ map $c^Y:X^Y\to X^Y$ which has the form $c^Y=\lceil{c\cdot ev_{Y{}X}}\rceil$ !
 
@@ -316,6 +316,22 @@ This yields a map $\lceil{m}\rceil^Y:X^Y\to (X^T)^Y$ such that $\lceil{m}\rceil^
 
 Now we want to prolongate $\lceil{m}\rceil^Y:X^Y\to (X^T)^Y$ by an isomorphism $(X^T)^Y\xrightarrow{\simeq} (X^Y)^T$.
 
+We get this isomorphism from the following sequence of maps
+
+$$
+\begin{aligned}
+ ((X^T)^Y\times T)\times Y&\xrightarrow{\langle \pi_1\pi_1,\langle \pi_2\pi_1,\pi_2\rangle\rangle}& (X^T)^Y\times (T\times Y)
+\\
+ (X^T)^Y\times (T\times Y)&\xrightarrow{id_{(X^T)^Y}\times \tau_{T{}Y}}&(X^T)^Y\times(Y\times T) 
+\\
+ (X^T)^Y\times (Y\times T)&\xrightarrow{\langle\langle\pi_1,\pi_1\pi_2\rangle,\pi_2\pi_2\rangle}& ((X^T)^Y)\times Y)\times T
+\\
+((X^T)^Y)\times T&\xrightarrow{ev_{Y{}X^T}\times id_T}& X^T\times T
+\\
+X^T\times T &\xrightarrow{
+ev_{T{}X}} & X
+\end{aligned}
+$$
 
 ....
 
@@ -329,7 +345,7 @@ X^Y&\xrightarrow[\langle id_{X^Y},t_0^Y\circ !_{X^Y}\rangle]{}&X^Y\times T^Y&\xl
 }
 $$
 
-$\lmoustache$
+
 ...
 
 $\qed$
