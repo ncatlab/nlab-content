@@ -35,7 +35,7 @@ This (and $\mathcal{E}$ in particular) is called a 'cohesive topos' (over $\math
 
 A weakly cohesive topos is called _pre-cohesive_ if $p$ furthermore satisfies the [[Nullstellensatz]] i.e. the canonical map $\theta:p_\ast\to p_!$ is an epimorphism. This is the situation explored in Menni ([2014a](#Menni14a), [2014b](#Menni14b)).
 
-A pre-cohesive topos that furthermore satisfies the _continuity principle_ that $p_!(X^{p^\ast(Y)})\simeq p_!(X)^{Y}$ natural in $X\in\mathcal{E}$, $Y\in\mathcal{S}$, is called _'cohesive'_ in Lawvere ([2007](#Law07)) where the term 'sufficently cohesive' occurs for the first time although the notion is defined in a more restricted environment than the earlier papers (cf. Lawvere [1986](#Law86), [1992](#Law92), [1999](#Law99)).
+A pre-cohesive topos that moreover satisfies the _continuity principle_ that $p_!(X^{p^\ast(Y)})\simeq p_!(X)^{Y}$ natural in $X\in\mathcal{E}$, $Y\in\mathcal{S}$, is called _'cohesive'_ in Lawvere ([2007](#Law07)) where the term 'sufficently cohesive' occurs for the first time although the notion is defined in a more restricted environment than the earlier papers (cf. Lawvere [1986](#Law86), [1992](#Law92), [1999](#Law99)).
 
 ## Definitions
 
@@ -138,7 +138,7 @@ The Nullstellensatz fails as does the continuity principle. As a right adjoint $
 On the other hand, the topos of [[quiver|quivers]] $Set^\rightrightarrows$ has a connected subobject classifier but lacks the right adjoint $B$ nor does its connected components functor $\Pi$ preserve finite products. $\qed$
 =--
 
-[^bouquet]: (Theorem 12.2.3 in La Palme Reyes et al. ([2004](#RRZ04), p.221)). Of course, this can also easily be proved directly or read off the concrete objects and properties worked out in La Palme Reyes et al (2004) where the Sierpinski topos is called the category of bouquets.
+[^bouquet]: (Theorem 12.2.3 in La Palme Reyes et al. ([2004](#RRZ04), p.221)). Of course, this can also easily be proved directly or read off the concrete objects and properties worked out in La Palme Reyes et al. (2004) where the Sierpinski topos is called the category of bouquets.
 
 Recall that in any topos, the subobject classifier $\Omega$ has two points $\mathsf{true},\mathsf{false}$ fitting into the following pullback diagram (which is an equaliser diagram as well) due to the classifying property of $\Omega$ for the monomorphism $0\to 1$:
 
@@ -294,23 +294,30 @@ X^Y &\to (X^Y)^{T}\quad\text{by using rules for powers}
 X^Y\times T&\overset{\mu}{\to}X^Y\quad \text{by reversing transposal .}
 \end{aligned}
 $$
-In order to see that $\mu$ satisfies the two homotopy conditions at $t_0,t_1$
+In order to see that $\mu$ satisfies the two homotopy boundary conditions at $t_0,t_1$
 $$\mu\circ\langle id_{X^Y},t_0\circ !_{X^Y}\rangle = id_{X^Y}\quad\text{and} 
 \quad \mu\circ\langle id_{X^Y},t_1\circ !_{X^Y}\rangle =\text{const.}$$
 
 consider the following commutative diagram:
 $$
 \array{
-X &\xleftarrow{ev}&X^T\times T &\xrightarrow{ev} &X
+X &\xleftarrow{ev_{T{}X}}&X^T\times T &\xrightarrow{ev_{T{}X}} &X
 \\
-{}_{id_X}\negmedspace\uparrow &\underset{m}{\nwarrow}&\uparrow_{\hat{m}\times id_T}& \underset{m}\nearrow&\uparrow_c
+{}_{id_X}\negmedspace\uparrow &\underset{m}{\nwarrow}&\uparrow_{\lceil{m}\rceil\times id_T}& \underset{m}\nearrow&\uparrow_c
 \\
 X&\xrightarrow[\langle id_X,t_0\circ !_X\rangle]{}&X\times T&\xleftarrow[\langle id_X,t_1\circ !_X\rangle]{}&X
 }
 $$
-This encapsulates all the information before the application of $(-)^Y$: the transpose of the second step occurs as $\hat{m}$ and the homotopy information is expressed via $\hat{m}$ by using $ev\circ(\hat{m}\times id_T)=m$ at $t_0,t_1$.
+This encapsulates all the information before the application of $(-)^Y$: the transpose of the second step occurs as $\lceil{m}\rceil$ and the homotopy information is expressed via $\lceil{m}\rceil$ by using $ev_{T{}X}\circ(\rceil{m}\lceil\times id_T)=m$ at $t_0,t_1$.
 
-Now we exponentiate the diagram. Importantly, $(-)^Y$ as a right adjoint preserves all limits and therefore it maps the constant map $c$ to a _constant_ map $c^Y$ !
+Now we exponentiate the diagram. Importantly, $(-)^Y$ as a right adjoint preserves all limits and therefore it maps the constant map $c:X\to X$ to a _constant_ map $c^Y:X^Y\to X^Y$ which has the form $c^Y=\lceil{c\cdot ev_{Y{}X}}\rceil$ !
+
+This yields a map $\lceil{m}\rceil^Y:X^Y\to (X^T)^Y$ such that $\lceil{m}\rceil^Y=\lceil{\lceil{m}\rceil\cdot ev_{Y{}X}}\rceil$ whence $ev_{Y{}X^T}(\lceil{m}\rceil^Y\times id_Y)=\lceil{m}\rceil\cdot ev_{Y{}X}$.
+
+Now we want to prolongate $\lceil{m}\rceil^Y:X^Y\to (X^T)^Y$ by an isomorphism $(X^T)^Y\xrightarrow{\simeq} (X^Y)^T$.
+
+
+....
 
 $$
 \array{
@@ -321,6 +328,8 @@ X^Y &\xleftarrow{ev^Y}&(X^T)^Y\times T^Y &\xrightarrow{ev^Y} &X^Y
 X^Y&\xrightarrow[\langle id_{X^Y},t_0^Y\circ !_{X^Y}\rangle]{}&X^Y\times T^Y&\xleftarrow[\langle id_{X^Y},t_1^Y\circ !_{X^Y}\rangle]{}&X^Y
 }
 $$
+
+$\lmoustache$
 ...
 
 $\qed$
