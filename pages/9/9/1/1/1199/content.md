@@ -20,9 +20,9 @@ A (binary) [[relation]] $\prec$ on a [[set]] $S$ is called _well-founded_ if it 
 
 ## Definition
 
-Given a [[subset]] $A$ of $S$, suppose that $A$ has the property that, given any element $x$ of $S$, if
-$$ \forall (t\colon S),\; t \prec x \Rightarrow t \in A ,$$
-then $x \in A$.  Such an $A$ may be called a _$\prec$-inductive subset_ of $S$.  The relation $\prec$ is __well-founded__ if the only $\prec$-inductive subset of $S$ is $S$ itself.
+Call a [[subset]] $A$ of $S$ _$\prec$-inductive_ if
+$$ \forall (x\colon S),\; (\forall (t\colon S),\; t \prec x \Rightarrow t \in A) \Rightarrow x\in A. $$
+The relation $\prec$ is __well-founded__ if the only $\prec$-inductive subset of $S$ is $S$ itself.
 
 Note that this is precisely what is necessary to validate induction over $\prec$: if we can show that a statement is true of $x\in S$ whenever it is true of everything $\prec$-below $x$, then it must be true of everything in $S$.  In the presence of [[excluded middle]] it is equivalent to other commonly stated definitions; see _Formulations in classical logic_ below.
 
