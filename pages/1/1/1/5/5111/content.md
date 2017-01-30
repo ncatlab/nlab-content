@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _Eilenberg-Watts theorem_ idetifies colimit-preserving [[functors]] between [[categories of modules]] with the operations of forming [[tensor product of modules|tensor products]] with [[bimodules]].
+The _Eilenberg-Watts theorem_ identifies colimit-preserving [[functors]] between [[categories of modules]] with the operations of forming [[tensor product of modules|tensor products]] with [[bimodules]].
 
 ## Statement
 
