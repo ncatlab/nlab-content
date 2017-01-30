@@ -23,7 +23,7 @@
 
 ## Idea
 
-There is an observation by [Ho&#345;ava--Witten](#HoravaWitten) that suggests that quantum [[11-dimensional supergravity]] on an  $\mathbb{Z}_2$-[[orbifold]] (actually a [[higher orientifold]]) of the form $X_{10} \times /(S^1//\mathbb{Z}_2))$ induces on its [[boundary]] "[[M9-brane]]" (the $\mathbb{Z}_2$-fixed point manifold) [[heterotic string theory]].
+There is an observation by [Ho&#345;ava--Witten 95](#HoravaWitten95), [Ho&#345;ava--Witten 96](#HoravaWitten96) which suggests that quantum [[11-dimensional supergravity]] on an  $\mathbb{Z}_2$-[[orbifold]] (actually a [[higher orientifold]]) of the form $X_{10} \times /(S^1//\mathbb{Z}_2))$ induces on its [[boundary]] "[[M9-brane]]" (the $\mathbb{Z}_2$-fixed point manifold) [[heterotic string theory]]. Therefore one also speaks of "heterotic [[M-theory]]" ([Ovrut 02](#Ovrut02)).
 
 The orbifold equivariance condition of the [[supergravity C-field]] is that discussed at _[[orientifold]]_ (there for the [[B-field]]). Therefore it has to vanish at the two fixed fixed points of the $\mathbb{Z}_2$-action. Thereby the quantization condition
 
@@ -74,10 +74,10 @@ This finally implies that the restriction of $C_3$ to the orbifold fixed points 
 
 The original articles are
 
-* [[Petr Hořava]], [[Edward Witten]], _Heterotic and Type I string dynamics from eleven dimensions_, Nucl. Phys. B460 (1996) 506 ([arXiv:hep-th/9510209](http://arxiv.org/abs/hep-th/9510209))
+* {#HoravaWitten95} [[Petr Hořava]], [[Edward Witten]], _Heterotic and Type I string dynamics from eleven dimensions_, Nucl. Phys. B460 (1996) 506 ([arXiv:hep-th/9510209](http://arxiv.org/abs/hep-th/9510209))
 
-  _Eleven dimensional supergravity on a manifold with boundary_, Nucl. Phys. B475 (1996) 94 ([arXiv:hep-th/9603142](http://arxiv.org/abs/hep-th/9603142))
- {#HoravaWitten} 
+{#HoravaWitten96} [[Petr Hořava]], [[Edward Witten]],  _Eleven dimensional supergravity on a manifold with boundary_, Nucl. Phys. B475 (1996) 94 ([arXiv:hep-th/9603142](http://arxiv.org/abs/hep-th/9603142))
+  
 
 Reviews are in 
 
@@ -85,7 +85,7 @@ Reviews are in
 
 * [[Paul Townsend]], _Four Lectures on M-Theory_ ([arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121)). 
 
-* [[Burt Ovrut]], _Lectures on Heterotic M-Theory_ ([arXiv:hep-th/0201032](http://arxiv.org/abs/hep-th/0201032))
+* {#Ovrut02} [[Burt Ovrut]], _Lectures on Heterotic M-Theory_ ([arXiv:hep-th/0201032](http://arxiv.org/abs/hep-th/0201032))
 
 * {#Falkowski} [[Adam Falkowski]], section 3 of _Five dimensional locally supersymmetric theories with branes_, Master Thesis, Warsaw ([[FalkowskiLecture.pdf:file]])
 
