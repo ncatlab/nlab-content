@@ -22,6 +22,8 @@ The subspace $S$ is __located__ (or __metrically located__ to be specific) if, f
 
 We should really speak of [[extended real number|extended]] upper/located real numbers, in case $S$ might be empty or we wish to apply the concept in an [[extended metric space]].  But at least if $X$ is [[bounded metric space|bounded]] and [[inhabited space|inhabited]], then a located subspace $S$ must be empty or inhabited.
 
+Note that there is a smaller complete lattice than the upper reals that contains the located reals and in which we could take the infimum, namely the [[MacNeille real numbers]].  However, the inclusion of MacNeille reals into upper reals does not preserve infima (though it does preserve suprema), and in the definition of located subspace we really do want to assert that the *upper real* infimum, not the MacNeille real infimum, is a located real.  This is because upper real infima, unlike MacNeille real infima, have the property that if $\inf A \lt \varepsilon$ then there is an $a\in A$ such that $a\lt\varepsilon$, which is crucial for the desired behavior of locatedness.
+
 
 ### In uniform spaces
 
@@ -39,7 +41,7 @@ See Section 7.3 of [Troelstra & van Dalen](#TvD).
 
 ## Examples
 
-### Singletons
+### Singleton
 
 Any singleton subset of a metric space, or more generally any finite subset, is metrically located, since we can take the minimum of any finite set.  A singleton subset of a uniform space is uniformly located if and only if the uniform space is [[regular space|regular]].
 
