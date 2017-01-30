@@ -157,8 +157,7 @@ In the unstable range for low $n$ they instead start out as follows
 
 The $SO(6)$ row can be found using [Mimura-Toda 63](#MimuraToda63), using $Spin(6) = SU(4)$, and that $Spin(6)$ is a $\mathbb{Z}_2$-[[covering space]] of $SO(6)$. The $SO(7)$ row can be derived from the homotopy groups of $Spin(7)$ as found in [Mimura 67](#Mimura67). Otherwise the table is given in columns $\pi_i$, $i=10,11,12$, and in rows $SO(n)$, $n=8,\ldots,12$, by the [[Encyclopedic Dictionary of Mathematics]], Table 6.VII in Appendix A.
 
-Beware that the maps
-
+Note that the maps
 $$
   \array{
     \pi_3(SO(3)) \longrightarrow \pi_3(SO(4)) \longrightarrow \pi_3(SO(5))
@@ -166,8 +165,7 @@ $$
      \mathbb{Z}\longrightarrow \mathbb{Z}\oplus \mathbb{Z} \longrightarrow\mathbb{Z}
   }
 $$
-
-are inclusion of the first summand followed by projection onto the second. So even though $\pi_3(SO(3)) \simeq \mathbb{Z}$ superficially looks like it already stabilized, in fact these elements disappear in the stabilization and another copy of $\mathbb{Z}$ appears (e.g. [Tamura 57](#Tamura57)). The same is also true for $\pi_7(SO(7)) \to \pi_7(SO(8)) \to \pi_7(SO(9))$.
+are inclusion of the first summand followed by the map sending $(1,0)\mapsto 2$ and $(0,1)\mapsto 1$, so that stabilization from $SO(3)$ to $SO(5)$ induces multiplication by $2$ on $\pi_3$ (e.g. [Tamura 57](#Tamura57)). The same is also true for $\pi_7(SO(7)) \to \pi_7(SO(8)) \to \pi_7(SO(9))$.
 
 ### Homology and cohomology 
 
