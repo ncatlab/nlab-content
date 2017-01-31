@@ -28,6 +28,10 @@ By [[Deligne's theorem on tensor categories]] the most general regular [[tensor 
 
 ## References
 
+* [[superconformal multiplet]]
+
+## References
+
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter II.4 in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
 
