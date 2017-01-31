@@ -30,6 +30,8 @@ The [[KK-compactification]] of $D=10$ super-Yang-Mills to the point is a [[theor
 
 ## References
 
+* [[Bengt Nilsson]], _Off-shell fields for the 10-dimensional supersymmetric Yang&#8211;Mills theory_
+
 * [[Martin Cederwall]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _The structure of maximally supersymmetric Yang-Mills theory: constraining higher-order corrections_, JHEP 0106:034,2001 ([arXiv:hep-th/0102009](http://xxx.lanl.gov/abs/hep-th/0102009))
 
 * [[Martin Cederwall]], [[Bengt Nilsson]], Dimitrios Tsimpis, _$D=10$ Super-Yang-Mills at $O(\alpha'^2)$_, JHEP 0107:042,2001 ([arXiv:hep-th/0104236](http://arxiv.org/abs/hep-th/0104236))
