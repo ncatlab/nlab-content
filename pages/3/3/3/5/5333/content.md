@@ -92,7 +92,7 @@ However, presently questions remain concerning formulating a [[sigma-model]] for
 
 * [[11-dimensional supergravity]]
 
-  * [[Ho?ava-Witten theory]]
+  * [[Hořava-Witten theory]]
 
   * [[M-theory]]
 
@@ -156,18 +156,17 @@ The relation of this to [[equivariant elliptic cohomology]] is amplified in
 * {#Ando07} [[Matthew Ando]], _Equivariant elliptic cohomology and the Fibered WZW models of Distler and Sharpe_, [talk 2007](http://www.math.ucsb.edu/~drm/GTPseminar/2007-fall.php) ([lecture notes pdf](http://www.math.ucsb.edu/~drm/GTPseminar/notes/20071026-ando/20071026-malmendier.pdf))
 
 
+### Superspace formulation of Heterotic supergravity 
 
-### As higher super-GS-WZW type $\sigma$-models
+Discussion of heterotic suprgravity in terms of [[superspace]] includes the following:
 
-Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
-
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
-
+* Joseph J. Atick, Avinash Dhar, and Bharat Ratra, _Superspace formulation of ten-dimensional N=1 supergravity coupled to N=1 super Yang-Mills theory_, Phys. Rev. D 33, 2824 ([doi.org/10.1103/PhysRevD.33.2824](https://doi.org/10.1103/PhysRevD.33.2824))
 
 
 
 
-#### On elliptic fibrations
+
+### On elliptic fibrations
 
 
 Compactified on an [[elliptic curve]] or, more generally, [[elliptic fibration]], heterotic string compactifictions are controled by a choice holomorphic [[stable bundle]] on the compact space. Dually this is an [[F-theory]] compactification on a [[K3]]-bundles.
