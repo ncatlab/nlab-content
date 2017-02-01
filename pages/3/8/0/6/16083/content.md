@@ -181,6 +181,8 @@ The [[supergravity]] [[equations of motion]] typically imply the torsion constra
 With enough [[supersymmetry]], the torsion constraints (always together with the [[Bianchi identities]] on the superfields, see at _[[D'Auria-Fre formulation of supergravity]]_) may even become equivalent to the supergravity equations of motion. This is so for [[11-dimensional supergravity]] ([Candiello-Lechner 93](#CandielloLechner93), [Howe 97](#Howe97)) and maybe its maximally supersymmetric [[KK-compactifications]]. See at _[Examples -- 11d SuGra](#Examples11dSuGra)_.
 
 
+
+
 ### Relation to CR-geometry
 
 A close [[analogy]] between [[CR geometry]] and [[supergravity]] [[superspacetimes]] (as both being [[torsion of a G-structure|torsion-ful]] [[integrable G-structures]]) is pointed out in ([Lott 01 exposition (4.2)](#Lott01)).
@@ -200,6 +202,79 @@ Here something special happens:
 The articles ([Candiello-Lechner 93 (5.6)](#CandielloLechner93), [Howe 97](#Howe97)) show that imposing the torsion constraint (on some chart) $\mathbf{d} E^a + \omega^{a}{}_b \wedge E^b - \bar \psi \Gamma^a \psi  = 0$ as well as $(\mathbf{d} \Psi +\tfrac{1}{4}\omega^{a b} \Gamma_{a b}\Psi)_{\theta \theta} = 0$ implies the equations of motion of [[11d supergravity]]. 
 
 Moreover, setting $\mathbf{d} \Psi +\tfrac{1}{4}\omega^{a b} \Gamma_{a b}\Psi = 0$ generally (not just the component proportional to the wedge product of two fermionic 1-forms, hence requiring the full supertorsion tensor to be that of super-Minkowski spacetime)) then ([Candiello-Lechner 93, (5.8) with (6.5)](#CandielloLechner93))  this in addition puts the [[field strength]] of the [[supergravity C-field]] to 0. Hence this implies solutions to the ordinary vacuum [[Einstein equations]] in 11d. Such solutions are considered notably in the context of [[M-theory on G2-manifolds]] (e.g. [Acharya 02, p. 9](M-theory+on+G2-manifolds#Acharya02)). See also at _[M-theory on G2-manifolds -- Details -- Vacuum solution and torsion constraints](M-theory+on+G2-manifolds#VacuumSolutionsAndTorsion)_.
+
+
+### 10d Heterotic supergravity
+
+For [[heterotic supergravity]] in 10d the [[equations of motion]] are equivalent to the condition that
+
+1. the super-torsion of the bosonic part $\{e^a\}$ of the [[super vielbein]] is a bosonic form
+
+   $$
+     \mathcal{D}e^a - \overline{\psi} \Gamma^a \psi = T^a{}_{b c} e^b \wedge e^c
+   $$
+
+1. the super-torsin of the odd part $\psi^\alpha$ of the [[super vielbein]] is of the form
+
+   $$
+    \mathcal{D} \psi^\alpha = T^\alpha{}_{b c} e^b \wedge e^c  + \overline{\psi}^\beta \Gamma_a{}_{\beta \gamma} \phi^{\alpha \gamma}
+   $$
+
+   for 
+
+   $$
+     \phi^{\alpha \beta} \propto tr(\lambda^\alpha \lambda^\beta) - tr(T^\alpha T^\beta)
+   $$
+   
+   proportional to the bispinor formed by tracing the square of the [[gaugino]] field
+
+1. the [[curvature]] 2-form of the [[gauge field]] has vanishing bispinorial component:
+
+   $$
+     F_{\alpha \beta} = 0
+   $$
+
+
+
+This is due to ([Witten 86 (5)+(27)](#Witten86)), see also ([Atick-Dhar-Ratra 86 (4.1)](#AtickDharRatra86)).
+These authors do not state explicitly that $\phi^{\alpha \beta} \propto tr(\lambda^\alpha \lambda^\beta) - tr (T T)$. (Among authors using a similar but different parameterization this statement is made explicit in [Candiello-Lechner 93 (2.5) with (2.29)](#CandielloLechner93)). But this follows by taking the differential of the bispinorial part of the 3-form field (which is the cocycle term for the heterotic [[Green-Schwarz superstring]])
+
+$$
+  d 
+  \left(
+    \overline{\psi}
+      \wedge
+      \Gamma_a
+    \psi
+  \wedge e^a
+  \right)
+  \propto
+  \underset{i}{\sum}
+  \underset{= F^i_{(1,1)}}{
+  \underbrace{
+    \left(
+      \overline{\psi} \Gamma_a \chi^i
+    \right)
+    \wedge e^a
+  }
+  }
+  \wedge
+  \underset{ = F^i_{(1,1)}}{
+  \underbrace{
+    \left(  
+      \overline{\chi^i}
+      \Gamma_b
+      \psi
+    \right)
+  \wedge e^b
+  }
+  }
+  - tr(R R)_{(2,2)}
+$$
+
+
+where we used ([Lechner-Tonin 08 (2.13)](#LechnerTonin08))
+
 
 
 ## Related concepts
@@ -262,9 +337,16 @@ Discussion of torsion constraints for [[heterotic supergravity]] goes back to ([
 
 * [[Paul Howe]], A. Umerski, _On superspace supergravity in ten dimensions_, Phys. Lett. B 177 (1986) 163.
 
+* {#AtickDharRatra86} Joseph J. Atick, Avinash Dhar, and Bharat Ratra, _Superspace formulation of ten-dimensional N=1 supergravity coupled to N=1 super Yang-Mills theory_, Phys. Rev. D 33, 2824, 1986 ([doi.org/10.1103/PhysRevD.33.2824](https://doi.org/10.1103/PhysRevD.33.2824))
+
+* {#Witten86} [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics B Volume 266, Issue 2, 17 March 1986
+
 * [[Paul Howe]], _Heterotic supergeometry revisited_ ([arXiv:0805.2893](http://arxiv.org/abs/0805.2893))
 
 * {#Nilsson00} [[Bengt Nilsson]], _A superspace approach to branes and supergravity_ ([arXiv:hep-th/0007017](http://arxiv.org/abs/hep-th/0007017))
+
+* {#LechnerTonin08} [[Kurt Lechner]], Mario Tonin, _Superspace formulations of ten-dimensional supergravity_, JHEP 0806:021,2008 ([arXiv:0802.3869](https://arxiv.org/abs/0802.3869))
+
 
 ### For 4d supergravity
  {#ReferencesFor4d}
