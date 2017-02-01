@@ -64,6 +64,10 @@ See there for more details.
 
 ## Related concepts
 
+* [[supergravity]]
+
+* [[MSSM]]
+
 * [[holomorphic block]]
 
 ## References
@@ -78,7 +82,7 @@ as well as various of the lectures in the collection
 
 The [[deformation theory]] of SYM theories is discussed in 
 
-* {#SchwarzMovshev} [[Albert Schwarz]], [[Mikhael Movshev]], _Supersymmetric Deformations of Maximally Supersymmetric Gauge Theories_ ([arXiv:0910.0620](http://arxiv.org/abs/0910.0620))
+* {#SchwarzMovshev} [[Albert Schwarz]], [[Mikhail Movshev]], _Supersymmetric Deformations of Maximally Supersymmetric Gauge Theories_ ([arXiv:0910.0620](http://arxiv.org/abs/0910.0620))
  
 
 Special properties of [[scattering amplitudes]] are discussed for instance in 
