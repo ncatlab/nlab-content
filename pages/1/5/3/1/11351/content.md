@@ -40,9 +40,9 @@ The motivation for constructing Dirac operator on smooth loop spaces is mainly d
 
 Since either due to arguing that $S^1$-equivariance localizes the [[index]] of a loop space Dirac operator on constant loops, or else arguing that it sees only the "[[large volume limit]]", it is only the [[formal loop space]] that actually enters the computation of the [[Witten genus]]. Therefore large parts of this literature focus on some version of this [[formal loop space]] while often still speaking of just "loop space". This includes the early articles
 
-* C.H. Taubes, _$S^1$-actions and elliptic genera_, Communications in mathematical physics 122 (1989), no. 3, pages 455-526.
+* {#Taubes} C.H. Taubes, _$S^1$-actions and elliptic genera_, Communications in mathematical physics **122** (1989), no. 3, pages 455-526, doi:[10.1007/BF01238437](https://dx.doi.org/doi:10.1007/BF01238437).
 
-* {#Brylinski90} [[Jean-Luc Brylinski]], _Representations of loop groups, Dirac operators on loop space, and modular forms_, Topology, 29(4):461&#8211;480, (1990)
+* {#Brylinski90} [[Jean-Luc Brylinski]], _Representations of loop groups, Dirac operators on loop space, and modular forms_, Topology, 29(4):461&#8211;480, (1990) doi:[10.1016/0040-9383(90)90016-D](http://dx.doi.org/10.1016/0040-9383(90%2990016-D)
 
 
 * J. D. S. Jones and R. L&#233;andre. _A stochastic approach to the Dirac
