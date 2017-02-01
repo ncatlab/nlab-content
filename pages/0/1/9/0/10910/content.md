@@ -26,7 +26,7 @@
 
 ### Equations of motion from the Binchi identity
 
-The [[equations of motion]] of 10d super Yang-Mills happen to be equivalent to the [[Bianchi identity]]
+The [[equations of motion]] of 10d super Yang-Mills happen to be equivalent in [[superspace]] to the [[Bianchi identity]] 
 
 $$
   D F = 0
@@ -42,6 +42,14 @@ $$
 (e.g. [Witten 86](#Witten86), [Bonora-Bregola-Lechner-Pasti-Tonin 87, above (2.7)](#BonoraBregolaLechnerPastiTonin87)).
 
 After embedding into [[heterotic supergravity]] this becomes parts of the [[torsion constraints of supergravity]]. See [there](torsion+constraints+in+supergravity#HeteroticSupergravity).
+
+In this [[superspace]] formulation the [[gaugino]] $\chi$ appears as the even-odd component of the super-[[curvature]] form
+
+$$
+  F_{(1,1)} \propto \left(\overline{\psi} \Gamma_a \chi\right) \wedge e^a
+$$
+
+(where $(e^a, \psi^\alpha)$ is the [[super vielbein]]). This is [Witten 86 (8)](#Witten86).
 
 ### Compactification to the point
 
