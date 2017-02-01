@@ -530,10 +530,7 @@ An account of historical developments is in section 7 of
 
 The full formula for the differential form data including the fermionic contributions is in 
 
-* L. Bonora, M. Bregola, R. D'Auria, P. Fr&eacute; K. Lechner, P. Pasti, 
-I. Pesando, M. Raciti, F. Riva, M. Tonin and D. Zanon, _Some remarks
-on the supersymmetrization of the Lorentz Chern-Simons form
-in $D = 10$ $N= 1$ supergravity theories_ ([[BonoraSuperGS.pdf:file]])
+* {#BBDFLPPRRTZ} L. Bonora, M. Bregola, R. D'Auria, P. Fr&eacute; K. Lechner, P. Pasti, I. Pesando, M. Raciti, F. Riva, M. Tonin and D. Zanon, _Some remarks on the supersymmetrization of the Lorentz Chern-Simons form in $D = 10$ $N= 1$ supergravity theories_, Physics Letters B 277 (1992) ([[BonoraSuperGS.pdf:file]])
 
 and references given there.
 
