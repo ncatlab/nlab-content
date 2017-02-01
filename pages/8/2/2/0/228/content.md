@@ -61,6 +61,8 @@ If you generalise from inequality spaces to allow non-tight apartness relations,
 
 ## Topological aspects {#topology}
 
+### The apartness topology
+
 Let $S$ be a set equipped with a tight apartness relation $\ne$. Using $\ne$, many [[topology|topological]] notions may be defined on $S$. (It\'s not really necessary that the apartness be tight; this corresponds to the $T_0$ [[separation axiom]] in topology.)
 
 If $U$ is a [[subset]] of $S$ and $x$ is an element, then $U$ is a $\ne$-**[[neighbourhood]]** (or $\ne$-**neighborhood**) of $x$ if, given any $y\colon S$, $x \ne y$ or $y \in U$; note that $x \in U$ by irreflexivity. The neighbourhoods of $x$ form a [[filter]]: a superset of a neighbourhood is a neighbourhood, and the intersection of $0$ or $2$ (hence of any finite number) of neighbourhoods is a neighbourhood.
@@ -84,7 +86,7 @@ One important topological concept that doesn\'t appear classically is locatednes
 
 ### Relation to metric spaces
 
-Recall that, as [[Bill Lawvere]] taught us, a [[metric space]] is a groupoid (or $\dag$-[[dagger-category|category]]) enriched over the category $([0,\infty[^\op,+)$ of nonnegative [[real numbers]], ordered in reverse, and made monoidal under addition. (Actually, you get a metric only if you impose a tightness condition, although again you can recover this up to equivalence from the $2$-morphisms. Furthermore, Lawvere advocated using $[0,\infty]$ instead of $[0,\infty[$, and also dropping the symmetry requirement to get enriched categories instead of groupoids. Thus, he dealt with extended quasipseudometric spaces. These details are not really important here.)
+Recall that, as [[Bill Lawvere]] taught us, a [[metric space]] is a groupoid (or $\dagger$-[[dagger-category|category]]) enriched over the category $([0,\infty[^\op,+)$ of nonnegative [[real numbers]], ordered in reverse, and made monoidal under addition. (Actually, you get a metric only if you impose a tightness condition, although again you can recover this up to equivalence from the $2$-morphisms. Furthermore, Lawvere advocated using $[0,\infty]$ instead of $[0,\infty[$, and also dropping the symmetry requirement to get enriched categories instead of groupoids. Thus, he dealt with extended quasipseudometric spaces. These details are not really important here.)
 
 There is a [[monoidal functor]] from $([0,\infty[^\op,+)$ to $TV^\op$ that maps a nonnegative real number $x$ to the truth value of the statement that $x \gt 0$. Accordingly, any (symmetric) metric space becomes an inequality space, and any function satisfying $d(f(x),f(y)) \leq d(x,y)$) is strongly extensional.
 
@@ -105,13 +107,40 @@ The constructive theory of [[proximity spaces]] is based on a generalisation of 
 Of course, any apartness space has an apartness relation between points: $x$ and $y$ are apart iff $\{x\}$ and $\{y\}$ are apart.
 
 
+### Relation to locales
+
+Let $X$ be a set, regarded as a [[discrete locale]], whose [[frame]] of opens is $O(X) = P(X)$, the [[power set]] of $X$.  That is, the opens in the locale $X$ are precisely the subsets of the set $X$.  Since discrete locales are [[locally compact locale|locally compact]] (every set is the union of its [[K-finite set|K-finite]] subsets), the locale product $X\times X$ agrees with the spatial product, so that $X\times X$ is also discrete and every subset of $X\times X$ is open.  Thus, the opens in the locale $X\times X$ are precisely the subsets of $X\times X$.  In particular, an [[equivalence relation]] on the set $X$ can be identified with an *open* equivalence relation (in [[Loc]]) on the discrete locale $X$.
+
+Thus, the following theorem gives a different precise sense in which apartness relations are dual to equivalence relations.
+
++--{: .un_theorem}
+###### Theorem
+An apartness relation on a set $X$ is the same as a (strongly) [[closed subspace|closed]] equivalence relation on the discrete locale $X$.  Moreover, the apartness topology defined above is, as a locale, the quotient of this equivalence relation.
+=--
++--{: .proof}
+###### Proof
+By definition, a (strongly) closed sublocale of a locale $Y$ is one of the form $\mathsf{C}U$, for some open $U\in O(Y)$.  Thus, when $X$ is a discrete locale, a closed sublocale of $X\times X$ is of the form $\mathsf{C}U$ for some subset $U$ of $X\times X$.  This subset is the extension of the apartness relation, i.e. $U = \{ (x,y) \mid x\#y \}$.
+
+For the first claim, therefore, it remains to show that the three axioms of an equivalence relation for $\mathsf{C}U$ correspond to the apartness axioms for $\#$.  Note that pullback along locale maps respects closed complements, i.e. $f^*(\mathsf{C}U) = \mathsf{C}(f^*U)$.  Thus, the pullback of $\mathsf{C}U$ along the twist map $X\times X \to X\times X$ is the closed sublocale corresponding to the twist of $U$, i.e. the set $\{ (x,y) \mid y\#x \}$.  Since $\mathsf{C}$ is a contravariant order-isomorphism between the posets of open and closed sublocales, symmetry for $\mathsf{C}U$ is equivalent to symmetry for $\#$.  Similarly, pulling $\mathsf{C}U$ back to $X\times X\times X$ along one of the three canonical projections gives the closed sublocale dual to the corresponding pullback of $U$ itself, and $\mathsf{C}$ transforms unions to intersections; thus transitivity for $\mathsf{C}U$ is equivalent to comparison for $\#$.  Finally, the pullback of $\mathsf{C}U$ along the diagonal is the closed sublocale dual to the similar pullback of $U$, so to say that the former is all of $X$ is equivalent to saying that the latter is $\emptyset$; thus reflexivity for $\mathsf{C}U$ is equivalent to irreflexivity for $\#$.
+
+Now, the quotient in $Loc$ of such an an equivalence relation in particular comes equipped with a surjective locale map from $X$.  Thus, it is a spatial locale and can be regarded as a topology on the set $X$.  Moreover, quotients in $Loc$ are constructed as [[equalizers]] in $Frm$, so we have to compute the equalizer of the two maps $O(X) = P(X) \to O(\mathsf{C}U)$, where $O(\mathsf{C}U)$ is the frame of opens of $\mathsf{C}U$ regarded as a locale in its own right.  Equivalently, this means the equalizer of the two maps $P(X) \xrightarrow{\pi_i} P(X\times X) \xrightarrow{j_{\mathsf{C}U}} P(X\times X)$, where $j_{\mathsf{C}U}$ is the [[nucleus]] corresponding to $\mathsf{C}U$.
+
+Now by definition, $j_{\mathsf{C}U}(V) = V\cup U$.  Thus, the elements of this equalizer --- which is to say, the opens in the locale quotient --- are subsets $V$ of $X$ such that $(V\times X) \cup U = (X\times V) \cup U$.  Reexpressed in terms of $\#$, that means that for any $x,y\in X$ we have $(x\in V \vee x\#y) \iff (y\in V \vee x\#y)$.  But since $\#$ is symmetric, this is equivalent to the unidirectional implication $(x\in V \vee x\#y) \to (y\in V \vee x\#y)$, and since $x\#y$ always implies itself, this is equivalent to $x\in V \to (y\in V \vee x\#y)$, which is precisely the condition defining the open sets in the apartness topology above.
+=--
+
+Recall that the negation of an apartness relation on $X$ is an equivalence relation on the *set* $X$.  This is the spatial part of the above closed localic equivalence relation, which in general (constructively) need not be itself spatial.  The apartness relation is tight just when this spatial part is the diagonal.  (By contrast, to say that the closed localic equivalence relation is *itself* the diagonal is to say that the discrete locale $X$ is [[Hausdorff space|Hausdorff]], which is only true if $X$ has [[decidable equality]].)
+
+
 ## In algebra
 
 Since inequality spaces have finite limits, the usual constructions of [[universal algebra]] apply; it\'s straightforward to define inequality [[groups]], inequality [[rings]], and so on.
 
-The various subsets that appear in algebra (such as [[ideals]] and [[cosets]]) become less fundamental than certain subsets that are, classically, simply their complements. For example, a left ideal in a ring $R$ is a subset $I$ such that $0 \in I$, $x + y \in I$ whenever $x, y \in I$, and $x y \in I$ whenever $x \in I$. But a left _antiideal_ in $R$ is a subset $A$ such that $0 \in A$ is false, $x \in A$ or $y \in A$ whenever $x + y \in A$, and $x \in A$ whenever $x y \in A$. Notice that an antiideal is necessarily $\ne$-open (using that the ring operations are strongly extensional), and its complement is an ideal. But the converse of this is not constructively valid, so antiideals are more fundamental than ideals, in an inequality ring.
+The various subsets that appear in algebra (such as [[subgroups]], [[ideals]], and [[cosets]]) become less fundamental than certain subsets that are, classically, simply their complements. For example, a left ideal in a ring $R$ is a subset $I$ such that $0 \in I$, $x + y \in I$ whenever $x, y \in I$, and $x y \in I$ whenever $x \in I$. But a left _antiideal_ in $R$ is a subset $A$ such that $0 \in A$ is false, $x \in A$ or $y \in A$ whenever $x + y \in A$, and $x \in A$ whenever $x y \in A$. Notice that an antiideal is necessarily $\ne$-open (using that the ring operations are strongly extensional), and its complement is an ideal. But the converse of this is not constructively valid, so antiideals are more fundamental than ideals, in an inequality ring.
 
 [[prime ideal|Prime ideals]] are even more interesting. A two-sided antiideal $A$ (so also satisfying that $y \in A$ whenever $x y \in A$) is _antiprime_ if $1 \in A$ and $x y \in A$ whenever $x, y \in A$. Now the complement of an antiprime antiideal may *not* be a prime ideal (as normally defined). But in fact, it is antiprime antiideals that are more important in constructive algebra. In particular, an [[integral domain]] in constructive algebra is an inequality ring in which the antiideal of nonzero elements is antiprime.
+
+The localic perspective on apartness relations extends naturally to anti-algebra.  That is, an antiideal is the same as a *closed* ideal in a discrete localic ring, whose spatial part is the ordinary ideal complementary to the antiideal, and so on.  Moreover, since unions of closed sublocales correspond to intersections of their open complements, an antiideal $A$ is antiprime exactly when its corresponding closed localic ideal $\mathsf{C}A$ is "prime" in an appropriate internal sense in [[Loc]], namely that $m^*(\mathsf{C}A) \subseteq (\mathsf{C}A \times R) \cup (R\times \mathsf{C}A)$, where $m:R\times R\to R$ is the multiplication.  The fact that the complement of an antiprime antiideal need not be prime in the usual sense corresponds to the fact that taking the spatial part of sublocales doesn't commute with unions.
+
 
 ## Related concepts
 
