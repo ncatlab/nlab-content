@@ -28,6 +28,13 @@ One of the [[exceptional Lie groups]].
 
 The [[group]] of [[determinant]]-preserving [[linear map|linear]] [[isomorphisms]] of the vector space underlying the [[octonionic Albert algebra]] is  ${E}_{6(-26)}$. (see e.g. ([Manogue-Dray 09](#ManogueDray09))).
 
+This may be written as $SL(3,\mathbb{O})$. ([Dray-Manogue 09a (16)](#DrayManogue09a))
+
+
+<img src="https://ncatlab.org/nlab/files/MapOfE6.png" width="500">
+
+> graphics grabbed from ([Dray-Manogue 09a, p. 12](#DrayManogue09a))
+
 
 ### As part of the ADE pattern
 
@@ -51,7 +58,11 @@ $E_6$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] 
 
 ## References
 
+* {#DrayManogue09a} [[Tevian Dray]], [[Corinne Manogue]], *Octonionic Cayley spinors and $E_6$* ([pdf](http://www.physics.usu.edu/wheeler/fieldtheory/octonions/draymanoguecayleyspinors.pdf))
+
+
 * {#ManogueDray09} [[Corinne Manogue]], [[Tevian Dray]], _Octonions, $E_6$, and Particle Physics_, J.Phys.Conf.Ser.254:012005,2010 ([arXiv:0911.2253](http://arxiv.org/abs/0911.2253))
+
 
 A description of $E_{6(-26)}$ as the [[special linear group]] in dimension 3 with values in the [[octonions]] is given in 
 
