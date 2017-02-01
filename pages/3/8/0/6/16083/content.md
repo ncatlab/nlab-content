@@ -205,6 +205,7 @@ Moreover, setting $\mathbf{d} \Psi +\tfrac{1}{4}\omega^{a b} \Gamma_{a b}\Psi = 
 
 
 ### 10d Heterotic supergravity
+ {#HeteroticSupergravity}
 
 For [[heterotic supergravity]] in 10d the [[equations of motion]] are equivalent to the condition that
 
@@ -223,10 +224,10 @@ For [[heterotic supergravity]] in 10d the [[equations of motion]] are equivalent
    for 
 
    $$
-     \phi^{\alpha \beta} \propto tr(\lambda^\alpha \lambda^\beta) - tr(T^\alpha T^\beta)
+     \phi^{\alpha \beta} \propto tr(\chi^\alpha \chi^\beta) - tr(T^\alpha T^\beta)
    $$
    
-   proportional to the bispinor formed by tracing the square of the [[gaugino]] field
+   proportional to the bispinor formed by tracing the square of the [[gaugino]] field $\chi$
 
 1. the [[curvature]] 2-form of the [[gauge field]] has vanishing bispinorial component:
 
@@ -234,6 +235,7 @@ For [[heterotic supergravity]] in 10d the [[equations of motion]] are equivalent
      F_{\alpha \beta} = 0
    $$
 
+   (this is the [[10d super Yang-Mills theory]] sector)
 
 
 This is due to ([Witten 86 (5)+(27)](#Witten86)), see also ([Atick-Dhar-Ratra 86 (4.1)](#AtickDharRatra86)).
@@ -273,7 +275,7 @@ $$
 $$
 
 
-where we used ([Lechner-Tonin 08 (2.13)](#LechnerTonin08))
+where we used the relation ([Witten 86 (8)](#Witten86)) (recalled for instance in [Bonora-Bregola-Lechner-Pasti-Tonin 87 (2.28)](#BonoraBregolaLechnerPastiTonin87), [Lechner-Tonin 08 (2.13)](#LechnerTonin08)).
 
 
 
@@ -282,6 +284,7 @@ where we used ([Lechner-Tonin 08 (2.13)](#LechnerTonin08))
 * [[CR manifold]]
 
 * [[D'Auria-Fre formulation of supergravity]]
+
 
 ## References
 
@@ -340,6 +343,9 @@ Discussion of torsion constraints for [[heterotic supergravity]] goes back to ([
 * {#AtickDharRatra86} Joseph J. Atick, Avinash Dhar, and Bharat Ratra, _Superspace formulation of ten-dimensional N=1 supergravity coupled to N=1 super Yang-Mills theory_, Phys. Rev. D 33, 2824, 1986 ([doi.org/10.1103/PhysRevD.33.2824](https://doi.org/10.1103/PhysRevD.33.2824))
 
 * {#Witten86} [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics B Volume 266, Issue 2, 17 March 1986
+
+* {#BonoraBregolaLechnerPastiTonin87} [[Loriano Bonora]], M. Bregola; [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], _Anomaly-free supergravity and super-Yang-Mills theories in ten dimensions_, Nuclear Physics B
+Volume 296, Issue 4, 25 January 1988 ([10.1016/0550-3213(88)90402-6](http://dx.doi.org/10.1016/0550-3213(88)90402-6))
 
 * [[Paul Howe]], _Heterotic supergeometry revisited_ ([arXiv:0805.2893](http://arxiv.org/abs/0805.2893))
 
