@@ -121,8 +121,9 @@ Heterotic strings were introduced in
 
 Textbook accounts include
 
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], vol 3, part 6 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-* [[Joseph Polchinski]], _[[String theory]]_, volume II, section 11
+* [[Joseph Polchinski]], volume II, section 11 of _[[String theory]]_, 
 
 * [[Eric D'Hoker]], _String theory -- lecture 8: Heterotic strings_  in part 3 (p. 941 of volume II) of
 
