@@ -121,13 +121,45 @@ Heterotic strings were introduced in
 
 Textbook accounts include
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], vol 3, part 6 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], vol 3 (which is part 6) of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
 * [[Joseph Polchinski]], volume II, section 11 of _[[String theory]]_, 
 
 * [[Eric D'Hoker]], _String theory -- lecture 8: Heterotic strings_  in part 3 (p. 941 of volume II) of
 
   [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds. . _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+### Superspace formulation of Heterotic supergravity 
+
+Discussion of heterotic suprgravity in terms of [[superspace]] includes the following.
+
+One solution of the heterotic superspace [[Bianchi identities]] is due to
+
+* {#AtickDharRatra86} Joseph J. Atick, Avinash Dhar, and Bharat Ratra, _Superspace formulation of ten-dimensional N=1 supergravity coupled to N=1 super Yang-Mills theory_, Phys. Rev. D 33, 2824, 1986 ([doi.org/10.1103/PhysRevD.33.2824](https://doi.org/10.1103/PhysRevD.33.2824))
+
+* {#Witten86} [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics B Volume 266, Issue 2, 17 March 1986
+
+A second solution is due to [[Bengt Nilsson]], [[Renata Kallosh]] and others 
+
+* [[Bengt Nilsson]], Nucl. Phys. B188 (1981) 176
+
+
+These two solutions are supposed to be equivalent under field redifinition.
+
+See also at _[[torsion constraints in supergravity]]_.
+
+Further references include these:
+
+* {#BonoraPastiTonin87} Bonora, L.; Pasti, P.; Tonin, M., _Superspace formulation of 10D SUGRA+SYM theory a la Green-Schwarz_, Physics Letters B Volume 188, Issue 3, 16 April 1987, Pages 335&#8211;339 ([doi:10.1016/0370-2693(87)91392-X](http://dx.doi.org/10.1016/0370-2693(87)91392-X))
+
+* [Castellani-D'Auria-Fre 91, vol 3, part 6](#CastellaniDAuriaFre91)
+
+* {#BBDFLPPRRTZ} L. Bonora, M. Bregola, R. D'Auria, P. Fr&#233; K. Lechner, P. Pasti, I. Pesando, M. Raciti, F. Riva, M. Tonin and D. Zanon, _Some remarks on the supersymmetrization of the Lorentz Chern-Simons form in $D = 10$ $N= 1$ supergravity theories_, Physics Letters B 277 (1992) ([[BonoraSuperGS.pdf:file]])
+
+* {#LechnerTonin08} [[Kurt Lechner]], Mario Tonin, _Superspace formulations of ten-dimensional supergravity_, JHEP 0806:021,2008 ([arXiv:0802.3869](https://arxiv.org/abs/0802.3869))
+
+
+
 
 ### In elliptic cohomology
 
@@ -157,11 +189,6 @@ The relation of this to [[equivariant elliptic cohomology]] is amplified in
 * {#Ando07} [[Matthew Ando]], _Equivariant elliptic cohomology and the Fibered WZW models of Distler and Sharpe_, [talk 2007](http://www.math.ucsb.edu/~drm/GTPseminar/2007-fall.php) ([lecture notes pdf](http://www.math.ucsb.edu/~drm/GTPseminar/notes/20071026-ando/20071026-malmendier.pdf))
 
 
-### Superspace formulation of Heterotic supergravity 
-
-Discussion of heterotic suprgravity in terms of [[superspace]] includes the following:
-
-* Joseph J. Atick, Avinash Dhar, and Bharat Ratra, _Superspace formulation of ten-dimensional N=1 supergravity coupled to N=1 super Yang-Mills theory_, Phys. Rev. D 33, 2824 ([doi.org/10.1103/PhysRevD.33.2824](https://doi.org/10.1103/PhysRevD.33.2824))
 
 
 
