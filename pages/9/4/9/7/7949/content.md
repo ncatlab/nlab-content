@@ -384,7 +384,7 @@ This situation can also be considered from the perspective of the formalization 
 
 ## References
 
-Discussion in [[homotopy type theory]] is in 
+Discussion of $n$-image factorization in [[homotopy type theory]] is in 
 
 * [[Univalent Foundations Project]], section 7.6 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
