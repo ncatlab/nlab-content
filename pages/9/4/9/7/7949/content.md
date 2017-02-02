@@ -384,9 +384,13 @@ This situation can also be considered from the perspective of the formalization 
 
 ## References
 
-Disucssion in [[homotopy type theory]] is in 
+Discussion in [[homotopy type theory]] is in 
 
 * [[Univalent Foundations Project]], section 7.6 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+A construction of $n$-image factorizations in [[homotopy type theory]] using only [[homotopy pushouts]] and specifically [[join of topological spaces|joins]] (instead of more general [[higher inductive types]]) is described in 
+
+* {#Rijke17} [[Egbert Rijke]], _The join construction_ ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
 
 
 [[!redirects ∞-image]]
