@@ -39,8 +39,12 @@ See [[(?1)-category]] for more on this sort of [[negative thinking]].
 [[!include homotopy n-types - table]]
 
 
+[[!redirects (-1)-groupoid]]
+[[!redirects (-1)-groupoids]]
 [[!redirects (?1)-groupoid]]
 [[!redirects (?1)-groupoids]]
 
 [[!redirects (-1)-type]]
 [[!redirects (-1)-types]]
+[[!redirects (?1)-type]]
+[[!redirects (?1)-types]]
