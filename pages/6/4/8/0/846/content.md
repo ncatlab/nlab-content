@@ -708,8 +708,6 @@ This is [[Higher Topos Theory|HTT, corollary 4.2.1.4]].
 
 ## References
 
-(please augment this?)
-
 The join operation was studied by P. J. Ehlers, in his thesis
 
 * _Algebraic Homotopy in Simplicially Enriched Groupoids_, 1993, 
@@ -725,4 +723,9 @@ A useful published reference is
 A useful discussion emphasizing the Day convolution operation is also in section 3.1 of
 
 * [[Dominic Verity]], _Weak complicial sets I_ ([arXiv](http://arxiv.org/abs/math/0604414))
+
+Discussion in [[homotopy type theory]] (with application to [[n-image]] factorization) is in
+
+
+* {#Rijke17} [[Egbert Rijke]], _The join construction_ ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
 
