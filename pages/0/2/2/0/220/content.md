@@ -27,7 +27,7 @@ See also
 
 Starting with the raw Wordpress text, I first replaced "$latex" with "$", which fixed >300 instances. The next big fix is to replace "<blockquote>" with "$" and "</blockquote>" with "$". That puts it into pretty good shape.
 
-Replace "\mbox" with "\:\text"
+Replace "\mbox" with "\\:\text"
 
 Some remaining issues:
 
@@ -69,7 +69,7 @@ Given two monomorphisms $i : A \to X, j : B \to X$, we write $i \subseteq j$ ($A
  
 Taking some notational liberties, we write $A \subseteq X$ to indicate a subset of $X$ (as isomorphism class of monos).  If $x : U \to X$ is a generalized element, let us say $x$ _is in_ a subset $A \subseteq X$ if it factors (evidently uniquely) through any representative mono $i : A \to X$, _i.e._, if there exists $x' : U \to A$ such that $x = i x'$.  Now the _intersection_ of two subsets $A \subseteq X$ and $B \subseteq X$ is defined to be the subset $A \cap B \subseteq X$ defined by the pullback of any two representative monos $i : A \to X, j : B \to X$.  Following the "Yoneda principle", it may equivalently be defined up to isomorphism by specifying its generalized elements:
 
-$$A \:\cap\: B :=_i \{ x \in X : (x is in A) \:\wedge\: (x is in B) \}.$$
+$$A \:\cap\: B {\coloneqq}_i \{ x \in X : (x \:\text{is in}\: A) \:\wedge\: (x \:\text{is in}\: B) \}.$$
 
 Thus, intersection works essentially the same way as in ZFC, only it's _local_ to subsets of a given set.
  
@@ -89,7 +89,7 @@ between subsets and classifying maps.  The subset corresponding to $\phi : A \to
  
 The set $P(1)$ plays a particularly important role;  it is called the "subset classifier" because subsets $A \subseteq X$ are in natural bijection with functions $\chi : X \to P(1)$.  [_Cf._ classifying spaces in the theory of fiber bundles.]
  
-In ordinary set theory, the role of $P(1)$ is played by the 2-element set $\{ f, t \}$.  Here subsets $A \subseteq X$ are classified by their characteristic functions $\chi_A : X \to \{ f, t \}$, defined by $\chi_A(x) := t$ iff $x \in A$.  We thus have $A = \chi_A^{-1}(t)$;  the elementhood relation $\in_1 \hookrightarrow 1 \times P(1)$ boils down to $t : 1 \to P(1)$.  Something similar happens in ETCS set theory:
+In ordinary set theory, the role of $P(1)$ is played by the 2-element set $\{ f, t \}$.  Here subsets $A \subseteq X$ are classified by their characteristic functions $\chi_A : X \to \{ f, t \}$, defined by $\chi_A(x) \coloneqq t$ iff $x \in A$.  We thus have $A = \chi_A^{-1}(t)$;  the elementhood relation $\in_1 \hookrightarrow 1 \times P(1)$ boils down to $t : 1 \to P(1)$.  Something similar happens in ETCS set theory:
  
 __Lemma 1.__  The domain of elementhood $\in_1 \to 1 \times P(1) \cong P(1)$ is terminal.
  
@@ -147,7 +147,7 @@ The map $\wedge : P(1) \times P(1) \to P(1)$ is thus defined to be the classifyi
  
 To go from the internal meet $\wedge : P(1) \times P(1) \to P(1)$ back to the external intersection operation, let $A \subseteq X, B \subseteq X$ be two subsets, with classifying maps $\chi_A, \chi_B : X \to P(1)$.  By the definition of $\wedge$, we have that for all generalized elements $x \in X$
 
-$$\chi_A(x) \:\wedge\: \chi_B(x) = t \quad if and only if \quad \langle \chi_A(x), \chi_B(x) \rangle = \langle t, t \rangle$$
+$$\chi_A(x) \:\wedge\: \chi_B(x) = t \;\text{if and only if}\; \langle \chi_A(x), \chi_B(x) \rangle = \langle t, t \rangle$$
 
 (where the equality signs are interpreted with the help of equalizers).  This holds true iff $x$ is in the subset $A \subseteq X$ and is in the subset $B \subseteq X$, _i.e._, if and only if $x$ is in the subset $A \cap B \subseteq X$.  Thus $\chi_A \wedge \chi_B$ is indeed the classifying map of $A \cap B \subseteq X$.  In other words, $\chi_{A \cap B} = \chi_A \wedge \chi_B$.
  
@@ -157,11 +157,11 @@ $$\wedge : P(1) \times P(1) \to P(1)$$
 
 is the meet operator of an internal [meet-semilattice](http://topologicalmusings.wordpress.com/2008/04/02/toward-stone-duality-posets-and-meets) structure on $P(1)$:  it is commutative, associative, and idempotent (because that is true of external intersection).  The identity element for $\wedge$ is the element $t : 1 \to P(1)$.  In particular, $P(1)$ carries an internal poset structure:  given generalized elements $u, v : A \to P(1)$, we may define
 
-$$u \leq v \quad if and only if \quad u = u \wedge v$$
+$$u \leq v \;\text{if and only if}\; u = u \wedge v$$
 
 and this defines a reflexive, symmetric, antisymmetric relation $\left[\leq\right] \subseteq P(1) \times P(1)$:
 
-$$\left[\leq\right] :=_i \{ \langle u, v \rangle \in P(1) \times P(1) : u = u \wedge v\},$$
+$$\left[\leq\right] {\coloneqq}_i \{ \langle u, v \rangle \in P(1) \times P(1) : u = u \wedge v\},$$
 
 equivalently described as the equalizer
 
@@ -176,7 +176,7 @@ Here we begin to see some of the amazing power of the interplay between internal
 Let's recall the notion of [Heyting
 algebra](http://topologicalmusings.wordpress.com/2008/04/08/distributivity-topology-and-heyting-algebras) in ordinary naive set-theoretic terms:  it's a lattice $P$ that has a material implication operator "$\Rightarrow$" such that, for all $x, y, z \in P$,
 
-$$x \wedge y \leq z \quad if and only \quad if x \leq y \Rightarrow z.$$
+$$x \wedge y \leq z \;\text{if and only if}\; x \leq y \Rightarrow z.$$
 
 Now:  by the universal property of $P(1)$, a putative implication operation $\Rightarrow : P(1) \times P(1) \to P(1)$ is uniquely determined as the classifying map of its inverse image $(\Rightarrow)^{-1}(t) \subseteq P(1) \times P(1)$, whose collection of generalized elements is
 
@@ -198,7 +198,7 @@ __Theorem 1.__  $P(1)$ admits internal implication.
  
 __Proof.__  We must check that for any three generalized elements $u, v, w : A \to P(1)$, we have
 
-$$w \leq u \Rightarrow v \quad if and only \quad if w \wedge u \leq v.$$
+$$w \leq u \Rightarrow v \;\text{if and only if}\; w \wedge u \leq v.$$
 
 Passing to the external picture, let $\left[u\right], \left[v\right], \left[w\right]$ be the corresponding subsets of $A$.  Now:  according to how we defined $\Rightarrow,$ a generalized element $e \in A$ is in $\left[u \Rightarrow v\right]$ if and only if $u(e) \leq v(e)$.  This applies in particular to any monomorphism $e: \left[w\right] \to A$ that represents the subset $ \left[w\right] \subseteq A$.
  
@@ -318,7 +318,7 @@ $$(\left[\psi\right] \subseteq X) \mapsto (\left[\psi\right]\times A \subseteq X
 
 Then, for any predicate $\phi : X \times A \to P(1)$, we have the adjoint relationship
 
-$$\left[\psi\right] \times A \subseteq \phi \quad if and only if \quad \left[\psi\right] \subseteq \forall_A \phi$$
+$$\left[\psi\right] \times A \subseteq \phi \;\text{if and only if}\; \left[\psi\right] \subseteq \forall_A \phi$$
 
 so that substitution along $A$ is left adjoint to universal quantification along $A$.  This is easy to check;  I'll leave that to the reader.
 
@@ -332,7 +332,7 @@ which intuitively takes an element $1 \to PPX$ (a family $F$ of subsets of $X$) 
  
 Let's first write out a logical formula which expresses intersection:
 
-$$x \in \bigcap F \quad if and only if \quad \forall_{S \in PX} (S \in F) \Rightarrow (x \in S).$$
+$$x \in \bigcap F \;\text{if and only if}\; \forall_{S \in PX} (S \in F) \Rightarrow (x \in S).$$
 
 [[Jon Awbrey]]:  There seemed to be an orphan right bracket in the above line, also on your blog.
 
