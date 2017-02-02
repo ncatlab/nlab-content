@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $(0,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -31,18 +31,24 @@ In [[classical logic]], there are two [[truth values]]: true and [[false]].  Cla
 
 In [[constructive logic]], $true$ is the [[top element]] in the [[poset]] of [[truth values]].  
 
-Constructive logic is still [[two-valued logic|two-valued]] in the sense that any truth value which is not true is [[false]].
+Constructive logic is still [[two-valued logic|two-valued]] in the sense that any truth value which is not true is [[false]].  (This cannot be so, however, of a nonclassical [[model]] of constructive logic within a classical [[metatheory]].)
+
+
+### In linear logic
+
+In [[linear logic]], there is both _additive_ truth, denoted $\top$, and _multiplicative_ truth, denoted $1$.  As the notation suggests, it is $\top$ that is the [[top element]] of the lattice of linear truth values.  (In particular, $1 \vdash \top$ but $\top \nvdash 1$.)
 
 
 ### In a topos
 
 In terms of the [[internal logic]] of a [[topos]] (or other [[category]]), $true$ is the [[top element]] in the [[poset of subobjects]] of any given [[object]] (where each object corresponds to a [[context]] in the internal language).
 
-However, not every topos is [[two-valued topos|two-valued]], so there may be other truth values besides $true$ and $false$.
+However, not every topos is [[two-valued topos|two-valued]], so there may be other truth values besides $true$ and $false$.  In [[classical mathematics]], a two-valued topos must be [[boolean topos|boolean]] (although this is not so in [[constructive mathematics]]).
+
 
 ### In homotopy type theory
 
-In [[homotopy type theory]] the _true_ is represented by any [[contractible type]].
+In [[homotopy type theory]] the truth is represented by any [[contractible type]].
 
 
 ## Examples
@@ -72,3 +78,5 @@ In this sense, the object $true$ in [[Set]] or [[∞Grpd]] may canonically be th
 [[!redirects true]]
 [[!redirects True]]
 [[!redirects truth]]
+[[!redirects Truth]]
+[[!redirects the truth]]
