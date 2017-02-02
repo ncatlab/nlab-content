@@ -133,6 +133,8 @@ As an example, within the category of [[profinite group]]s, not all objects have
 
 * In [[topology]]: [[topological G-space]]
 
+  * [[circle action]]
+
 (...)
 
 ## Related concepts
