@@ -264,7 +264,7 @@ On the other hand, if we allow "multi-composition" in our polycategory, i.e. we 
 
 ## Game semantics
 
-We can interpret any proposition in linear logic as a game between two players: we and they. The overall rules are perfectly symmetric between us and them, although no individual game is. At any given moment in a game, exactly one of these four situations obtains: it is our turn, it is their turn, we have won, or they have won; the last two states continue forever afterwards (and the game is over).  If it is our turn, then they are winning; if it is their turn, then we are winning.  So there are two ways to win: because the game is over (and a winner has been decided), or because it is forever the other players turn (either because they have no move or because every move results in its still being their turn).
+We can interpret any proposition in linear logic as a game between two players: we and they. The overall rules are perfectly symmetric between us and them, although no individual game is. At any given moment in a game, exactly one of these four situations obtains: it is our turn, it is their turn, we have won, or they have won; the last two states continue forever afterwards (and the game is over).  If it is our turn (or if they have won), then they are winning; if it is their turn (or if we have won), then we are winning.  So there are two ways to win: because the game is over (and a winner has been decided), or because it is forever the other players' turn (either because the other players have no move or because every move results in the other players' turn again).
 
 This is a little complicated, but it\'s important in order to be able to distinguish the four constants:
 
