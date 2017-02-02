@@ -294,11 +294,39 @@ X^Y &\to (X^Y)^{T}\quad\text{by using rules for powers}
 X^Y\times T&\overset{\mu}{\to}X^Y\quad \text{by reversing transposal .}
 \end{aligned}
 $$
-In order to see that $\mu$ satisfies the two homotopy boundary conditions at $t_0,t_1$
+
+Before unwinding this situation , recall (e.g. from [Lawvere-Rosebrugh 2003](#LawRose03), sect. 5.3) that in general for arbitrary maps $X\times B\xrightarrow{g} Y\xrightarrow{\varphi} Z$ in a cartesian closed category the following diagram commutes:
+
+$$
+\array{
+Z^B\times B &\xrightarrow{ev_{B{}Z}} &Z
+\\
+{}_{\varphi^B\times id_{B}}\uparrow& &\uparrow_{\varphi}
+\\
+Y^B\times B&\xrightarrow{ev_{B{}Y}}& Y
+\\
+{}_{\lceil g\rceil\times id_{B}}\uparrow & \underset{g}\nearrow&
+\\
+X\times B& &
+}
+\quad .
+$$
+
+More concisely, this says that
+
+$$\begin{aligned}\varphi^B &=\lceil \varphi\cdot ev_{B{}Y}\rceil \\
+ &\text{and} \\
+\varphi^B\cdot \lceil g\rceil &= \lceil \varphi\cdot g\rceil \quad .
+\end{aligned}
+$$
+In particular, since $\lceil ev_{B{}Y}\rceil = id_{Y^B}$ , the second equation implies the first for $g= ev_{B{}Y}$.
+
+
+Coming back to the particular case, we have to check that $\mu$ satisfies the two homotopy boundary conditions at $t_0,t_1$
 $$\mu\circ\langle id_{X^Y},t_0\circ !_{X^Y}\rangle = id_{X^Y}\quad\text{and} 
 \quad \mu\circ\langle id_{X^Y},t_1\circ !_{X^Y}\rangle =\text{const.}$$
 
-consider the following commutative diagram:
+For this consider the following commutative diagram:
 $$
 \array{
 X &\xleftarrow{ev_{T{}X}}&X^T\times T &\xrightarrow{ev_{T{}X}} &X
@@ -310,9 +338,9 @@ X&\xrightarrow[\langle id_X,t_0\circ !_X\rangle]{}&X\times T&\xleftarrow[\langle
 $$
 This encapsulates all the information before the application of $(-)^Y$: the transpose of the second step occurs as $\lceil{m}\rceil$ and the homotopy information is expressed via $\lceil{m}\rceil$ by using $ev_{T{}X}\circ(\lceil{m}\rceil\times id_T)=m$ at $t_0,t_1$.
 
-Now we exponentiate the diagram. Importantly, $(-)^Y$ as a right adjoint preserves all limits and therefore it maps the constant map $c:X\to X$ to a _constant_ map $c^Y:X^Y\to X^Y$ which has the form $c^Y=\lceil{c\cdot ev_{Y{}X}}\rceil$ !
+In the next step we exponentiate the maps. Importantly, $(-)^Y$ as a right adjoint preserves all limits and therefore it maps the constant map $c:X\to X$ to a _constant_ map $c^Y:X^Y\to X^Y$ which is of the form $c^Y=\lceil{c\cdot ev_{Y{}X}}\rceil$ .
 
-This yields a map $\lceil{m}\rceil^Y:X^Y\to (X^T)^Y$ such that $\lceil{m}\rceil^Y=\lceil{\lceil{m}\rceil\cdot ev_{Y{}X}}\rceil$ whence $ev_{Y{}X^T}(\lceil{m}\rceil^Y\times id_Y)=\lceil{m}\rceil\cdot ev_{Y{}X}$.
+The exponentiation equally yields a map $\lceil{m}\rceil^Y:X^Y\to (X^T)^Y$ such that $\lceil{m}\rceil^Y=\lceil{\lceil{m}\rceil\cdot ev_{Y{}X}}\rceil$ whence $ev_{Y{}X^T}(\lceil{m}\rceil^Y\times id_Y)=\lceil{m}\rceil\cdot ev_{Y{}X}$.
 
 Now we want to prolongate $\lceil{m}\rceil^Y:X^Y\to (X^T)^Y$ by an isomorphism $(X^T)^Y\xrightarrow{\simeq} (X^Y)^T$.
 
@@ -334,6 +362,12 @@ and transposing twice:
 
 $$
 \lceil\lceil ev_{T{}X}\cdot (ev_{Y{}X^T}\times id_T)\cdot \langle\langle\pi_1,\pi_1\pi_2\rangle,\pi_2\pi_2\rangle \cdot (id_{(X^T)^Y}\times \tau_{T{}Y})\cdot \langle \pi_1\pi_1,\langle \pi_2\pi_1,\pi_2\rangle\rangle \rceil\rceil : (X^T)^Y\to (X^Y)^T
+$$
+
+Then the transpose $\lceil\mu\rceil:X^Y\to (X^Y)^T$ of the lifted homotopy $\mu:X^Y\times T\to X^Y$ we are after is given as
+
+$$
+\lceil\lceil ev_{T{}X}\cdot (ev_{Y{}X^T}\times id_T)\cdot \langle\langle\pi_1,\pi_1\pi_2\rangle,\pi_2\pi_2\rangle \cdot (id_{(X^T)^Y}\times \tau_{T{}Y})\cdot \langle \pi_1\pi_1,\langle \pi_2\pi_1,\pi_2\rangle\rangle \rceil\rceil \cdot \lceil m\rceil ^Y 
 $$
 
 ....
@@ -418,6 +452,8 @@ For convenience and summary let us collect all the equivalent formulations of su
 * {#Law07} [[F. W. Lawvere]], _Axiomatic cohesion_ , TAC **19** no.3 (2007) pp.41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
 * {#LawvereMenni15} [[F. W. Lawvere]], [[Matías Menni|M. Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, TAC **30** no. 26 (2015) pp.909-932. ([abstract](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
+
+* {#LawRose03} [[F. W. Lawvere]], [[Robert Rosebrugh|R. Rosebrugh]], _Sets for Mathematics_ , Cambridge UP 2003.
 
 * {#MarmoMenni16}F. Marmolejo, [[Matías Menni|M. Menni]], _On the relation between continuous and combinatorial_ , arXiv:1602.02826 (2016). ([abstract](http://arxiv.org/abs/1602.02826))
 
