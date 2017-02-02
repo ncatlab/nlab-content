@@ -15,7 +15,7 @@
 
 ## Idea
 
-An apartness relation is a [[binary relation]] that, instead of saying when two things are the same (as an [[equivalence relation]]), states when two things are different -- an [[inequality relation]].
+An _apartness relation_ is a [[binary relation]] that, instead of saying when two things are the same (as an [[equivalence relation]]), states when two things are different -- an [[inequality relation]].
 
 Apartness relations are most used in [[constructive mathematics]]; in [[classical mathematics]], equivalence relations can take their place (mediated by [[negation]]).
 
@@ -26,7 +26,7 @@ The apartness relations that we discuss here are sometimes called __point--point
 
 ### Abstract
 
-A set $S$ equipped with an __apartness relation__ is a [[groupoid]] (with $S$ as the set of objects) [[enriched category|enriched]] over the [[cartesian monoidal category]] $TV^\op$, that is the [[opposite category|opposite]] of the [[partial order|poset]] of [[truth value|truth values]], made into a [[monoidal category]] using [[disjunction]]. By the law of [[excluded middle]] (which says that $TV$ is self-dual under [[negation]]), this is equivalent to equipping $S$ with an [[equivalence relation]] (which makes $S$ a groupoid enriched over the cartesian category $TV$ *itself*). But in [[constructive mathematics]] (or interpreted [[internalization|internally]]), it is a richer concept with a topological flavour.
+A [[set]] $S$ equipped with an __apartness relation__ is a [[groupoid]] (with $S$ as the set of [[objects]]) [[enriched category|enriched]] over the [[cartesian monoidal category]] $TV^\op$, that is the [[opposite category|opposite]] of the [[partial order|poset]] of [[truth value|truth values]], made into a [[monoidal category]] using [[disjunction]]. By the law of [[excluded middle]] (which says that $TV$ is self-dual under [[negation]]), this is equivalent to equipping $S$ with an [[equivalence relation]] (which makes $S$ a groupoid [[enriched category|enriched]] over the cartesian category $TV$ *itself*). But in [[constructive mathematics]] (or interpreted [[internalization|internally]]), it is a richer concept with a topological flavour.
 
 
 ### Concrete
