@@ -77,6 +77,12 @@ In winter 2016/17 I am giving a lecture on
 
 * _[[schreiber:From the Superpoint to T-Folds|Super Cartan Geometry]]_
 
+In summer 2017 I will be teaching
+
+* an introductory course _[[Topologie]]_
+
+* a seminar _[[schreiber:Topological K-Theory]]_
+
 A list of further teaching in the past is _[here](http://ncatlab.org/schreiber/show/HomePage#Teaching)_.
 
 
