@@ -128,4 +128,11 @@ The same idea applies to a general space $X$; an $H$-space structure and higher 
 
 * [[join of categories]], [[join of quasi-categories]]
 
+## References
+
+Discussion in [[homotopy type theory]] (applied to [[n-image]] factorization) is in 
+
+* {#Rijke17} [[Egbert Rijke]], _The join construction_ ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
+
+
 [[!redirects joins of topological spaces]]
