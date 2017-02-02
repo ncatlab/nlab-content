@@ -267,6 +267,8 @@ One may think of this procedure as doing the following: we are taking the [[Lie 
 
 * [[rational equivariant stable homotopy theory]]
 
+* [[integral chains homotopy theory]]
+
 ## References
 
 The original articles are
