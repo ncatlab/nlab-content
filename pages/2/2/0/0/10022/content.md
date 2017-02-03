@@ -59,3 +59,11 @@ Survey talks include
 
 * Tadashi Takayanagi, _Entanglement Entropy and Holography (Introductory review)_ ([pdf slides](http://www.princeton.edu/~jmaciejk/entanglement2012/slides/TakayanagiPCTS2012.pdf))
 
+An influential argument that this relation implies that [[entanglement]] in the boundary theory is what makes spacetime as such appear in the bulk theory is due to
+
+* Mark Van Raamsdonk, _Building up spacetime with quantum entanglement_, Gen.Rel.Grav.42:2323-2329,2010; Int.J.Mod.Phys.D19:2429-2435,2010 ([arXiv:1005.3035](https://arxiv.org/abs/1005.3035)) 
+
+Review is in 
+
+* Mark Van Raamsdonk, _Lectures on Gravity and Entanglement_, chapter 5 in  New Frontiers in Fields and Strings
+TASI 2015 Proceedings of the 2015 Theoretical Advanced Study Institute in Elementary Particle Physics 2015 Theoretical Advanced Study Institute in Elementary Particle Physics ([arXiv:1609.00026](https://arxiv.org/abs/1609.00026))
