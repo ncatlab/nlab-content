@@ -350,13 +350,18 @@ See at _[[rational n-sphere]]_.
 
 * [[Sullivan model of free loop space]]
 
+## Related concepts
+
+* [[KS-models]]
+
+* [[minimal fibration]]
+
 ## References
 
-In
+* {#Halperin83} [[Steve Halperin]], _Lectures on minimal models_, Mem. Soc. Math. Franc. no 9/10 (1983) ([web](https://eudml.org/doc/94833))
 
-* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+* [[Kathryn Hess]], around def 1.10  of _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
 
-Sullivan algebras and minimal algebras appear in def 1.10
 
 [[!redirects Sullivan models]]
 [[!redirects Sullivan algebra]]
