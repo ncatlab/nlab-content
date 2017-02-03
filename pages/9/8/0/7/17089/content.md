@@ -1,4 +1,3 @@
-
 ### General
 
 The concept of $L_\infty$-algebras as graded vector spaces equipped with $n$-ary brackets satisfying a generalized Jacobi identity was introduced in this generality in
@@ -7,7 +6,7 @@ The concept of $L_\infty$-algebras as graded vector spaces equipped with $n$-ary
 
 * {#LadaMarkl94} [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ Communications in Algebra Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
 
-These authors were following [Zwiebach 92](#Zwiebach92), who had found in his work on [[closed string field theory]] that the [[n-point functions]] equip the [[BRST complex]] of the [[closed string|closed]] [[bosonic string]] with such a structure. Zwiebach in turn was following the [[BV-formalism]] due to [Batalin-Vilkovisky 81](#BatalinVilkovisky81), [Batakin-Fradkin 83](#BatakinFradkin83)
+These authors were following [Zwiebach 92](#Zwiebach92), who had found in his work on [[closed string field theory]] that the [[n-point functions]] equip the [[BRST complex]] of the [[closed string|closed]] [[bosonic string]] with such a structure. Zwiebach in turn was following the [[BV-formalism]] due to [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83)
 
 See also at _[L-infinity algebra -- History](L-infinity-algebra#History)_.
 
@@ -84,11 +83,14 @@ See also
 
 The introduction of [[BV-BRST complexes]] as a model for the [[derived critical locus]] of the [[action functionals]] of [[gauge theories]] is due to
  
-* {#BatalinVilkovisky81} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Gauge Algebra and Quantization, Phys. Lett. B 102 (1): 27&#8211;31. doi:10.1016/0370-2693(81)90205-7 (1981)
+* {#BatalinVilkovisky81} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Gauge Algebra and Quantization_, Phys. Lett. B 102 (1981) 27&#8211;31. doi:10.1016/0370-2693(81)90205-7
 
-* {#BatakinFradkin83} [[Igor Batalin]], [[Efim Fradkin]], _A generalized canonical formalism and quantization of reducible gauge theories_ , Phys. Lett. B122 (1983) 157-164.
+* {#BatalinVilkovisky83} [[Igor Batalin]], [[Grigori Vilkovisky]], _Feynman rules for reducible gauge theories_, Phys. Lett. B 120 (1983) 166-170.
+doi:10.1016/0370-2693(83)90645-7
 
-* {#BatalinVilkovisky83} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Quantization of Gauge Theories with Linearly Dependent Generators_ . Phys. Rev. D 28 (10): 2567&#8211;258 (1983) doi:10.1103/PhysRevD.28.2567.  Erratum-ibid. 30 (1984) 508 doi:10.1103/PhysRevD.30.508
+* {#BatakinFradkin83} [[Igor Batalin]], [[Efim Fradkin]], _A generalized canonical formalism and quantization of reducible gauge theories_, Phys. Lett. B122 (1983) 157-164.
+
+* {#BatalinVilkovisky83b} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Quantization of Gauge Theories with Linearly Dependent Generators_, Phys. Rev. D 28 (10): 2567&#8211;258 (1983) doi:10.1103/PhysRevD.28.2567.  Erratum-ibid. 30 (1984) 508 doi:10.1103/PhysRevD.30.508
 
 as reviewed in 
 
