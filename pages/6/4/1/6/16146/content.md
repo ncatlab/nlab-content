@@ -291,6 +291,9 @@ This reformulation of linear $G$-[[actions]] in terms of [[modules]] allows to t
 
 =--
 
+### more examples
+
+* In a [[symmetric monoidal category|symmetric monoidal]] [[category of chain complexes]] equipped with the [[tensor product of chain complexes]], then a [[monoid]] is a [[dg-algebra]], and a module is a _[[dg-module]]_. See there for more.
 
 ## References
 
