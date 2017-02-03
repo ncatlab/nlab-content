@@ -103,6 +103,7 @@ A [[uniform space]] is automatically regular and even completely regular, at lea
 
 Every regular space comes with a naturally defined (point-point) [[apartness relation]]: we say $x # y$ if there is an open set containing $x$ but not $y$.  This can be defined for any topological space and is obviously irreflexive, but in a regular space it is symmetric and a [[comparison]], hence an apartness.  For symmetry, if $x\in U$ and $y\notin U$, let $V$ be an open set containing $x$ and $G$ an open set such that $V\cap G = \emptyset$ and $G\cup U = X$; then $y\in G$ (since $y\notin U$) while $x\notin G$ (since $x\in V$).  With the same notation, to prove comparison, for any $z$ we have either $z\in G$, in which case $z # x$, or $z\in U$, in which case $z # y$.  Note that this argument is valid constructively; indeed, classically, the much weaker $R_0$ [[separation axiom]] is enough to make this relation symmetric, and it is a comparison on any topological space whatsoever.
 
+Note that if a space is [[Hausdorff space|localically strongly Hausdorff]] (a weaker condition than regularity), then it has an apartness relation defined by $x \# y$ if there are disjoint open sets containing $x$ and $y$.  If $X$ is regular, then this coincides with the above-defined apartness.
 
 [[!redirects regular space]]
 [[!redirects regular spaces]]
