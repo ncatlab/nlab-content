@@ -113,7 +113,7 @@ Let $X$ be a set, regarded as a [[discrete locale]], whose [[frame]] of opens is
 
 Thus, the following theorem gives a different precise sense in which apartness relations are dual to equivalence relations.
 
-+--{: .un_theorem}
++--{: .num_theorem #ClosedLocalicEquivalenceRelation}
 ###### Theorem
 An apartness relation on a set $X$ is the same as a (strongly) [[closed subspace|closed]] equivalence relation on the discrete locale $X$.  Moreover, the apartness topology defined above is, as a locale, the quotient of this equivalence relation.
 =--
@@ -130,8 +130,9 @@ Now by definition, $j_{\mathsf{C}U}(V) = V\cup U$.  Thus, the elements of this e
 
 Recall that the negation of an apartness relation on $X$ is an equivalence relation on the *set* $X$.  This is the spatial part of the above closed localic equivalence relation, which in general (constructively) need not be itself spatial.  The apartness relation is tight just when this spatial part is the diagonal.  (By contrast, to say that the closed localic equivalence relation is *itself* the diagonal is to say that the discrete locale $X$ is [[Hausdorff space|Hausdorff]], which is only true if $X$ has [[decidable equality]].)
 
+Another characterization of the $\#$-open sets is that $U$ is $\#$-open if $U\times X \subseteq (X\times U) \cup W_\#$, where $W_\#$ is $\#$ regarded as a subset of $X\times X$.  Rephrased in terms of complementary closed sublocales, this says that $\mathsf{C}U$ is "closed under the equivalence relation" dual to $\#$.  Thus, the closed sublocales of $X$ with its $\#$-topology (i.e. the formal complements of $\#$-open sets) correspond precisely to the closed sublocales of $X$ (the formal complements of arbitrary subsets of $X$) that respect this equivalence relation.
 
-
+As a partial converse to the above theorem, if $X$ is a [[Hausdorff space|localically strongly Hausdorff]] topological space, meaning that its diagonal is a strongly closed sublocale, then the pullback of this diagonal to the discrete locale on the set of points of $X$ is a closed localic equivalence relation, hence an apartness, whose $\ne$-topology refines the given topology.  See [this theorem](/nlab/show/Hausdorff+space#Apartness).  If we are given an apartness relation $\ne$, it is unclear whether the $\ne$-topology is localically strongly Hausdorff; but if it is, then the apartness relation resulting from this topology is stronger than the given $\ne$.
 
 ## In algebra
 
@@ -141,7 +142,7 @@ The various subsets that appear in algebra (such as [[subgroups]], [[ideals]], a
 
 [[prime ideal|Prime ideals]] are even more interesting. A two-sided antiideal $A$ (so also satisfying that $y \in A$ whenever $x y \in A$) is _antiprime_ (or simply _prime_ if no confusion is expected) if $1 \in A$ and $x y \in A$ whenever $x, y \in A$. Now the complement of an antiprime antiideal may *not* be a prime ideal (as normally defined). But in fact, it is antiprime antiideals that are more important in constructive algebra. In particular, an [[integral domain]] in constructive algebra is an inequality ring in which the antiideal of nonzero elements is antiprime.
 
-The localic perspective on apartness relations extends naturally to anti-algebra: an antiideal is the same as a *closed* ideal in a discrete localic ring that respects the closed equivalence relation corresponding to $\ne$.  The spatial part of this closed localic ideal is then the ordinary ideal complementary to the antiideal, and so on.  Moreover, since unions of closed sublocales correspond to intersections of their open complements, an antiideal $A$ is antiprime exactly when its corresponding closed localic ideal $\mathsf{C}A$ is "prime" in an appropriate internal sense in [[Loc]], namely that $m^*(\mathsf{C}A) \subseteq (\mathsf{C}A \times R) \cup (R\times \mathsf{C}A)$, where $m:R\times R\to R$ is the multiplication.  The fact that the complement of an antiprime antiideal need not be prime in the usual sense corresponds to the fact that taking the spatial part of sublocales doesn't commute with unions.
+The localic perspective on apartness relations extends naturally to anti-algebra: an antiideal is the same as a *closed* ideal in a discrete localic ring that respects the closed equivalence relation corresponding to $\ne$.  Equivalently, this is a closed ideal of the $\ne$-topology regarded as a (non-discrete) localic ring.  The spatial part of this closed localic ideal is then the ordinary ideal complementary to the antiideal, and so on.  Moreover, since unions of closed sublocales correspond to intersections of their open complements, an antiideal $A$ is antiprime exactly when its corresponding closed localic ideal $\mathsf{C}A$ is "prime" in an appropriate internal sense in [[Loc]], namely that $m^*(\mathsf{C}A) \subseteq (\mathsf{C}A \times R) \cup (R\times \mathsf{C}A)$, where $m:R\times R\to R$ is the multiplication.  The fact that the complement of an antiprime antiideal need not be prime in the usual sense corresponds to the fact that taking the spatial part of sublocales doesn't commute with unions.
 
 
 ## Related concepts
