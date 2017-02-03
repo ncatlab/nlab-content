@@ -370,15 +370,19 @@ $$
 \lceil\lceil ev_{T{}X}\cdot (ev_{Y{}X^T}\times id_T)\cdot \langle\langle\pi_1,\pi_1\pi_2\rangle,\pi_2\pi_2\rangle \cdot (id_{(X^T)^Y}\times \tau_{T{}Y})\cdot \langle \pi_1\pi_1,\langle \pi_2\pi_1,\pi_2\rangle\rangle \rceil\rceil \cdot \lceil m\rceil ^Y 
 $$
 
-....
+whence
+
+$$\mu=ev_{T{}X^Y}(\lceil \mu\rceil \times id_T)\quad .$$
+
+Next we have to show that the following commutes
 
 $$
 \array{
-X^Y &\xleftarrow{ev^Y}&(X^T)^Y\times T^Y &\xrightarrow{ev^Y} &X^Y
+X^Y &\xleftarrow{ev_{T{}X^Y}}&(X^Y)^T\times T &\xrightarrow{ev_{T{}X^Y}} &X^Y
 \\
-{}_{id_{X^Y}}\negmedspace\uparrow &\underset{m^Y}{\nwarrow}&\uparrow_{\hat{m}^Y\times id_{T^Y}}& \underset{m^Y}\nearrow&\uparrow_{c^Y}
+{}_{id_{X^Y}}\negmedspace\uparrow &\underset{\mu}{\nwarrow}&\uparrow_{\lceil\mu\rceil\times id_{T}}& \underset{\mu}\nearrow&\uparrow_{\tilde{c}}
 \\
-X^Y&\xrightarrow[\langle id_{X^Y},t_0^Y\circ !_{X^Y}\rangle]{}&X^Y\times T^Y&\xleftarrow[\langle id_{X^Y},t_1^Y\circ !_{X^Y}\rangle]{}&X^Y
+X^Y&\xrightarrow[\langle id_{X^Y},t_0\circ !_{X^Y}\rangle]{}&X^Y\times T&\xleftarrow[\langle id_{X^Y},t_1\circ !_{X^Y}\rangle]{}&X^Y
 }
 $$
 
