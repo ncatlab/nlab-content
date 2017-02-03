@@ -412,6 +412,7 @@ $$
 * {#FSS16b} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_ ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
 
 [[!redirects Sullivan models of free loop space]]
+[[!redirects Sullivan model of free loop spaces]]
 
 [[!redirects Sullivan model of the free loop space]]
 [[!redirects Sullivan models of the free loop space]]
