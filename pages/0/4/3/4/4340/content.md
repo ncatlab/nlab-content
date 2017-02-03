@@ -17,7 +17,7 @@
 
 In [[logic]], the __true__ proposition, or __truth__, is the [[proposition]] which is always true.
 
-The truth is commonly denoted $true$, $T$, $\top$, or $1$.
+The truth is commonly denoted $true$, $T$, $\top$, or $1$.  These may be pronounced 'true' even where it would be ungrammatical for an adjective to appear in ordinary English.
 
 
 ## Definitions
@@ -31,7 +31,7 @@ In [[classical logic]], there are two [[truth values]]: true and [[false]].  Cla
 
 In [[constructive logic]], $true$ is the [[top element]] in the [[poset]] of [[truth values]].  
 
-Constructive logic is still [[two-valued logic|two-valued]] in the sense that any truth value which is not true is [[false]].  (This cannot be so, however, of a nonclassical [[model]] of constructive logic within a classical [[metatheory]].)
+Constructive logic is still [[two-valued logic|two-valued]] in the sense that any truth value which is not true is [[false]].
 
 
 ### In linear logic
@@ -43,7 +43,7 @@ In [[linear logic]], there is both _additive_ truth, denoted $\top$, and _multip
 
 In terms of the [[internal logic]] of a [[topos]] (or other [[category]]), $true$ is the [[top element]] in the [[poset of subobjects]] of any given [[object]] (where each object corresponds to a [[context]] in the internal language).
 
-However, not every topos is [[two-valued topos|two-valued]], so there may be other truth values besides $true$ and $false$.  In [[classical mathematics]], a two-valued topos must be [[boolean topos|boolean]] (although this is not so in [[constructive mathematics]]).
+However, not every topos is [[two-valued topos|two-valued]] (even if it is [[boolean topos|boolean]], so there may be other truth values besides $true$ and $false$.
 
 
 ### In type theory
