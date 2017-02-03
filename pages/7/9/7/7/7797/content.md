@@ -40,7 +40,7 @@ A [[square root]] of the canonical class, hence another characteristic class $\T
 
 For $X$ [[complex manifold]] regarded over the complex numbers, then [[Kähler differential forms]] are _holomorphic_ forms. Hence the canonical bundle for $dim_{\mathbb{C}}(X) = n$ is $\Omega^{n,0}$ (see also at _[[Dolbeault complex]]_).
 
-For $X$ a [[Riemann surface]] of [[genus of a surface|genus]] then the [[degree of a coherent sheaf|degree]] of the canonical bundle is $2 g - 2$. This means it is divisible by 2 and hence there are "[[Theta characteristic]]" square roots.
+For $X$ a [[Riemann surface]] of [[genus of a surface|genus]] $g$, the [[degree of a coherent sheaf|degree]] of the canonical bundle is $2 g - 2$. This means it is divisible by 2 and hence there are "[[Theta characteristic]]" square roots.
 
 
 ## Related concepts
