@@ -17,7 +17,7 @@
 
 In [[logic]], the __false__ proposition, called __falsehood__ or __falsity__, is the [[proposition]] which is always false.
 
-The faleshood is commonly denoted $false$, $F$, $\bot$, or $0$.
+The faleshood is commonly denoted $false$, $F$, $\bot$, or $0$.  These may be pronounced 'false' even where it would be ungrammatical for an adjective to appear in ordinary English.
 
 
 ## Definitions
@@ -31,7 +31,7 @@ In [[classical logic]], there are two [[truth values]]: false and [[true]].  Cla
 
 In [[constructive logic]], $false$ is the [[bottom element]] in the [[poset]] of [[truth values]].  
 
-Constructive logic is still [[two-valued logic|two-valued]] in the sense that any truth value is false if it is not [[true]].  (This cannot be so, however, of a nonclassical [[model]] of constructive logic within a classical [[metatheory]].)
+Constructive logic is still [[two-valued logic|two-valued]] in the sense that any truth value is false if it is not [[true]].
 
 
 ### In linear logic
@@ -43,7 +43,7 @@ In [[linear logic]], there is both _additive_ truth, denoted $0$, and _multiplic
 
 In terms of the [[internal logic]] of a [[topos]] (or other [[category]]), $false$ is the [[bottom element]] in the [[poset of subobjects]] of any given [[object]] (where each object corresponds to a [[context]] in the internal language).
 
-However, not every topos is [[two-valued topos|two-valued]], so there may be other truth values besides $false$ and $true$.  In [[classical mathematics]], a two-valued topos must be [[boolean topos|boolean]] (although this is not so in [[constructive mathematics]]).
+However, not every topos is [[two-valued topos|two-valued]], so there may be other truth values besides $false$ and $true$.
 
 
 ### In type theory
