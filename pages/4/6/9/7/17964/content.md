@@ -133,6 +133,10 @@ In particular, every [[dg-module]] has a minimal KS-model (def. \ref{KSFactoriza
 [Roig & Saralegi-Aranguren 00, theorem 1.3.1](#RoigSaralegiAranguren00)
 
 
+## Examples
+
+* [4-sphere -- circle action](4-sphere#CircleAction)
+
 
 ## Related entries
 
