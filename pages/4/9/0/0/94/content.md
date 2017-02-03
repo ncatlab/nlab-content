@@ -41,9 +41,9 @@ $L_\infty$-algebras are [[infinitesimal space|infinitesimal]] approximations of 
 
 The identification of the concept of (super-)$L_\infty$-algebras has a non-linear history:
 
-[[L-∞ algebras]] in the incarnation of higher brackets satisfying a higher Jacobi identity (def. \ref{LInfinityDefinitionViaGeneralizedJacobiIdentity}) were introduced in
-[Lada-Stasheff 92](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaStasheff92), based on the 
-example of such a structure on the [[BRST complex]] of the [[bosonic string]] that  was found in the construction of [[closed string field theory]] in [Zwiebach 92](#Zwiebach92).
+[[L-∞ algebras]] in the incarnation of higher brackets satisfying a higher Jacobi identity (def. \ref{LInfinityDefinitionViaGeneralizedJacobiIdentity}) were introduced in [Lada-Stasheff 92](#LadaStasheff92), based on the 
+example of such a structure on the [[BRST complex]] of the [[bosonic string]] that  was found in the construction of [[closed string field theory]] in [Zwiebach 92](#Zwiebach92). Zwiebach in turn had been following the [[BV-formalism]] of [Batalin-Vilkovisky 81](#BatalinVilkovisky81), [Batakin-Fradkin 83](#BatakinFradkin83), whose relation to $L_\infty$-algebras was later amplified in [Stasheff 96](#Stasheff96), [Stasheff 97](#Stasheff97)
+
 Some of this history is recalled in [Stasheff 16](#L-infinity-algebra#Stasheff16).
 
 The observation that these systems of higher brackets are fully characterized by their Chevalley-Eilenberg dg-(co-)algebras
@@ -51,7 +51,7 @@ is due to [Lada-Markl 94](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaM
 See [Sati-Schreiber-Stasheff 08, around def. 13](#SatiSchreiberStasheff08).
 
 But in this dual incarnation, [[L-∞ algebras]] and more generally [[super L-∞ algebras]] (of [[finite type]]) 
-had secretly been introduced within the [[supergravity]] literature already in [D'Auria-Fr&#233;-Regge 80](#DAuriaFreRegge80) and explicitly in [van Nieuwenhuizen 82](#Nieuwenhuizen82).
+had secretly been introduced, independently of the [[BV-formalism]] of [Batalin-Vilkovisky 81](#BatalinVilkovisky81), [Batakin-Fradkin 83](#BatakinFradkin83),  within the [[supergravity]] literature already in [D'Auria-Fr&#233;-Regge 80](#DAuriaFreRegge80) and explicitly in [van Nieuwenhuizen 82](#Nieuwenhuizen82).
 The concept was picked up in the [[D'Auria-Fré formulation of supergravity]] ([D'Auria-Fr&#233; 82](#DAuriaFre82)) and eventually came to be referred to as "FDA"s (short for "free differential algebra") in the [[supergravity]] literature (but beware that these dg-algebras 
 are in general [[free construction|free]] only as graded-[[supercommutative superalgebras]], not as differential algebras)
 The relation between super $L_\infty$-algebras and the "FDA"s of the [[supergravity]] literature is made explicit in ([FSS 13](#FSS13)).
@@ -624,21 +624,22 @@ and
 
   * [[sheaf of L-∞ algebras]]
 
+
 ## References 
  {#References}
 
+
 ### General
 
-The original references on $L_\infty$-algebras are
+The concept of $L_\infty$-algebras as graded vector spaces equipped with $n$-ary brackets satisfying a generalized Jacobi identity was introduced in this generality in
 
 * {#LadaStasheff92} [[Tom Lada]], [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099))
 
-* {#LadaMarkl94} [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_, Communications in Algebra Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
+* {#LadaMarkl94} [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ Communications in Algebra Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
 
-following the discovery of these structures in [[string field theory]] by
+These authors were following [Zwiebach 92](#Zwiebach92), who had found in his work on [[closed string field theory]] that the [[n-point functions]] equip the [[BRST complex]] of the [[closed string|closed]] [[bosonic string]] with such a structure. Zwiebach in turn was following the [[BV-formalism]] due to [Batalin-Vilkovisky 81](#BatalinVilkovisky81), [Batakin-Fradkin 83](#BatakinFradkin83)
 
-* {#Zwiebach92} [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
-  
+See also at _[L-infinity algebra -- History](L-infinity-algebra#History)_.
 
 A discussion in terms of [[resolutions]] of the [[Lie operad]] is for instance in
 
@@ -653,28 +654,17 @@ See also
 * {#Daily04} Marilyn Daily, _$L_\infty$-structures_, PhD thesis, 2004 ([web]( http://www.lib.ncsu.edu/resolver/1840.16/5282))
 
 * Klaus Bering, [[Tom Lada]], _Examples of Homotopy Lie Algebras_ Archivum Mathematicum ([arXiv:0903.5433](http://arxiv.org/abs/0903.5433))
-
-* {#CattaneoSchaetz} [[Alberto Cattaneo]], [[Florian Schätz]], section 3.1 of _Equivalences of higher derived brackets_ ([arXiv:0704.1403](http://arxiv.org/abs/0704.1403))
  
 
 A detailed reference for Lie 2-algebras is:
 
 * [[John Baez]] and Alissa Crans, _Higher-dimensional algebra VI: Lie 2-algebras_, [TAC](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html) 12, (2004), 492--528. ([arXiv](http://arxiv.org/abs/math/0307263))
-
-For more general 'weak Lie 2-algebras', see:
-
-* [[Dmitry Roytenberg]], _On weak Lie 2-algebras_,  ([arXiv](http://arxiv.org/abs/0712.3461))
-
-Discussion of bilinear [[invariant polynomials]] on $L_\infty$-algebras includes
-
-* Yunfeng Jiang, _Motivic Milnor fiber of cyclic $L_\infty$-algebras_ ([arXiv:0909.2858](http://arxiv.org/abs/0909.2858))
-
-
-
+ 
+ 
 ### $L_\infty$-algebras in physics
  {#ReferencesInPhysics}
 
-The following lists, mainly in chronological order of their discovery, [[L-∞ algebra]] structures appearing in [[physics]], notably in [[supergravity]], [[BV-BRST formalism]], [[string theory]], higher [[Chern-Simons theory]]/[[AKSZ sigma-models]] and [[local field theory]].
+The following lists, mainly in chronological order of their discovery, [[L-∞ algebra]] structures appearing in [[physics]], notably in [[supergravity]], [[BV-BRST formalism]], [[deformation quantization]], [[string theory]], higher [[Chern-Simons theory]]/[[AKSZ sigma-models]] and [[local field theory]].
 
 For more see also at _[[higher category theory and physics]]_.
 
@@ -687,11 +677,14 @@ In their equivalent [[formal dual]] guise of [[Chevalley-Eilenberg algebras]] (s
 
 In the [[supergravity]] literature these CE-algebras are referred to as "FDA"s. This is short for "free differential algebra", which is a slight misnomer for what in mathematics are called [[semifree dga]]s (or sometimes "quasi-free" dga-s).
 
-The translation of [[D'Auria-Fré formulation of supergravity|D'Auro-Fré formalism]] to explicit ([[super L-∞ algebra|super]]) $L_\infty$-algebra language is made in 
+The translation of [[D'Auria-Fré formulation of supergravity|D'Auria-Fré formalism]] to explicit ([[super L-∞ algebra|super]]) $L_\infty$-algebra language is made in 
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], example 5 in section 6.5.1, p. 54 of _L-infinity algebra connections and applications to String- and Chern-Simons n-transport_, in Quantum Field Theory, Birkh&#228;user (2009) 303-424 ([arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics Volume 12, Issue 02 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics Volume 12, Issue 02 (2015) 1550018 ([arXiv:1308.5264]
+(http://arxiv.org/abs/1308.5264))
+
+connecting them to the [[higher WZW terms]] of the [[Green-Schwarz sigma models]] of fundamental [[super p-branes]] ([[schreiber:The brane bouquet]]).
 
 Further exposition of this includes
 
@@ -699,14 +692,45 @@ Further exposition of this includes
 
 See also at _[[supergravity Lie 3-algebra]]_, and _[[supergravity Lie 6-algebra]]_.
 
+Notice that there is a _different_ concept of "Filipov [[n-Lie algebra]]" suggested in ([Bagger-Lambert 06](BLG+model#BaggerLambert06)) to play a role in the description of the [[conformal field theory]] in the [[near horizon limit]] of [[black p-branes]], notably the [[BLG model]] for the conformal [[worldvolume]] theory on the [[M2-brane]] .
+
+A realization of thse "Filippov $3$-Lie algebras" as 2-term $L_\infty$-algebras ([[Lie 2-algebras]]) equipped with a binary [[invariant polynomial]] ("metric Lie 2-algebras") is in 
+
+* Sam Palmer, [[Christian Saemann]], section 2 of _M-brane Models from Non-Abelian Gerbes_, JHEP 1207:010, 2012 ([arXiv:1203.5757](http://arxiv.org/abs/1203.5757))
+
+* {#SaemannRitter13} [[Patricia Ritter]], [[Christian Saemann]], section 2.5 of _Lie 2-algebra models_, JHEP 04 (2014) 066 ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))  
+
+based on 
+
+* {#MFFMER08} Paul de Medeiros, [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], [[Patricia Ritter]], _On the Lie-algebraic origin of metric 3-algebras_, Commun.Math.Phys.290:871-902,2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
+
+See also 
+
+* [[José Figueroa-O'Farrill]], section _Triple systems and Lie superalgebras_ in _M2-branes, ADE and Lie superalgebras_, talk at IPMU 2009 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Hongo.pdf))
+
+
 #### In BV-BRST formalism
  {#ReferencesBVBRSTFormalism}
 
-The understanding that the [[BV-BRST complex]] used in physics to model the [[derived critical locus]] of the [[action functionals]] of [[gauge theories]] is mathematically the [[formal dual]] [[Chevalley-Eilenberg algebra]] of a [[derived L-∞ algebroid]] originates around
+The introduction of [[BV-BRST complexes]] as a model for the [[derived critical locus]] of the [[action functionals]] of [[gauge theories]] is due to
+ 
+* {#BatalinVilkovisky81} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Gauge Algebra and Quantization, Phys. Lett. B 102 (1): 27&#8211;31. doi:10.1016/0370-2693(81)90205-7 (1981)
+
+* {#BatakinFradkin83} [[Igor Batalin]], [[Efim Fradkin]], _A generalized canonical formalism and quantization of reducible gauge theories_ , Phys. Lett. B122 (1983) 157-164.
+
+* {#BatalinVilkovisky83} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Quantization of Gauge Theories with Linearly Dependent Generators_ . Phys. Rev. D 28 (10): 2567&#8211;258 (1983) doi:10.1103/PhysRevD.28.2567.  Erratum-ibid. 30 (1984) 508 doi:10.1103/PhysRevD.30.508
+
+as reviewed in 
+
+* {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_, Princeton University Press 1992. xxviii+520 pp.
+
+* [[Joaquim Gomis]], J. Paris, S. Samuel, _Antibrackets, Antifields and Gauge Theory Quantization_ ([arXiv:hep-th/9412228](http://arxiv.org/abs/hep-th/9412228))
+
+The understanding that these [[BV-BRST complexes]] mathematically are the [[formal dual]] [[Chevalley-Eilenberg algebra]] of a [[derived L-∞ algebroid]] originates around
 
 * {#Stasheff96} [[Jim Stasheff]], _Homological Reduction of Constrained Poisson Algebras_, J. Differential Geom. Volume 45, Number 1 (1997), 221-240 ([arXiv:q-alg/9603021](http://arxiv.org/abs/q-alg/9603021), [Euclid](https://projecteuclid.org/euclid.jdg/1214459757))
 
-* [[Jim Stasheff]], _The (secret?) homological algebra of the Batalin-Vilkovisky approach_ ([arXiv](http://arxiv.org/abs/hep-th/9712157))
+* {#Stasheff97} [[Jim Stasheff]], _The (secret?) homological algebra of the Batalin-Vilkovisky approach_ ([arXiv:hep-th/9712157](http://arxiv.org/abs/hep-th/9712157))
 
 Discussion in terms of homotopy [[Lie-Rinehart pairs]] is due to
 
@@ -718,7 +742,7 @@ The [[L-∞ algebroid]]-structure is also made explicit in ([def. 4.1 of v1](htt
 
 The first _explicit_ appearance of $L_\infty$-algebras in theoretical physics is the $L_\infty$-algebra structure on the [[BRST complex]] of the [[closed string|closed]] [[bosonic string]] found in the context of closed bosonic [[string field theory]] in 
 
-* [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
+* {#Zwiebach92} [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
 
 * [[Jim Stasheff]], _Closed string field theory, strong homotopy Lie algebras and the operad actions of moduli space_ Talk given at the _Conference on Topics in Geometry and Physics_ (1992) ([arXiv:hep-th/9304061](http://arxiv.org/abs/hep-th/9304061))
 
@@ -735,6 +759,21 @@ See also
 * [[Jim Stasheff]], _Higher homotopy algebras: String field theory and Drinfeld's quasiHopf algebras_, proceedings of _International Conference on Differential Geometric Methods in Theoretical Physics_, 1991 ([spire](https://inspirehep.net/record/327712))
  
 For more see at _[string field theory -- References -- Relation to A-infinity and L-infinity algebras](string%20field%20theory#ReferencesHomotopyAlgebra)_.
+
+#### In deformation quantization
+
+The general solution of the [[deformation quantization]] problem of [[Poisson manifolds]] due to 
+
+* {#Kontsevich97} [[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds_,  Lett. Math. Phys. __66__ (2003),  no. 3, 157--216, ([arXiv:q-alg/9709040](http://arxiv.org/abs/q-alg/9709040)).
+ 
+makes crucial use of [[L-∞ algebra]]. Later it was understood that indeed [[L-∞ algebras]] are equivalently the universal model for infinitesimal [[deformation theory]] (of anything), also called [[formal moduli problems]]:
+
+* {#Hinich98} [[Vladimir Hinich]], _DG coalgebras as formal stacks_ ([arXiv:9812034](http://arxiv.org/abs/math/9812034))
+
+* {#Lurie} [[Jacob Lurie]], _[[Formal Moduli Problems]]_
+
+* {#Pridham} [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
+ 
 
 #### In heterotic string theory
 
@@ -808,6 +847,9 @@ Comprehesive survey and exposition of this situation is in
 In [[double field theory]]:
 
 * [[Andreas Deser]], [[Jim Stasheff]], _Even symplectic supermanifolds and double field theory_, Communications in Mathematical Physics November 2015, Volume 339, Issue 3, pp 1003-1020 ([arXiv:1406.3601](http://arxiv.org/abs/1406.3601))
+
+* [[Olaf Hohm]], [[Barton Zwiebach]], _$L_\infty$ Algebras and Field Theory_ ([arXiv:1701.08824](https://arxiv.org/abs/1701.08824))
+
 
 
 [[!redirects L-infinity-algebras]]
