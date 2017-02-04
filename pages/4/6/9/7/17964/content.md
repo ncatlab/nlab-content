@@ -1,3 +1,4 @@
+[[!redirects KS-model]]
 [[!redirects minimal KS-extension]]
 
 +-- {: .rightHandSide}
@@ -18,9 +19,9 @@
 
 ## Idea 
 
-The concept of _minimal KS-models_ of [[dg-modules]] ([Roig & Saralegi-Aranguren 00, section 1.2](#RoigSaralegiAranguren00)) is the analogue of [[minimal Sullivan model]] as one passes from [[dg-algebras]] to [[dg-modules]]. Minimal KS-extensions hence  play the role of formal duals of [[minimal fibration]] in some applications of [[rational homotopy theory]]. 
+The concept of _minimal KS-models of [[dg-modules]]_ ([Roig 92](#Roig92), [Roig 94, section 1](#Roig94)) is the analogue of [[minimal Sullivan model]] as one passes from [[dg-algebras]] to [[dg-modules]]. Minimal KS-extensions hence  play the role of formal duals of [[minimal fibration]] in some applications of [[rational homotopy theory]]. 
 
-(In [Halperin 83](#Halperin83) it has "Koszul-Sullivan extensions" for [[Sullivan models]] of dg-algebras, and "KS" in "KS-models" refers to that usage.)
+(In [Halperin 83](#Halperin83) it has "Koszul-Sullivan extensions" for [[relative Sullivan algebras]], and "KS" in "KS-models" refers to that usage.)
 
 
 ## Definition
@@ -55,6 +56,8 @@ $$
 $$
 
 =--
+
+([Roig 94, def. 1.8](#Roig94))
 
 +-- {: .num_remark}
 ###### Remark
@@ -119,6 +122,8 @@ Finally a **minimal KS-model** is a [[dg-module]] $N$ such that $0 \hookrightarr
 
 =--
 
+([Roig 94, def. 1.9](#Roig94))
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -145,7 +150,12 @@ In particular, every [[dg-module]] has a minimal KS-model (def. \ref{KSFactoriza
 
 ## References
 
+* {#Roig92} [[Agustí Roig]], _Alguns punts d'&#224;lgebra homot&#242;pica_, Barcelona (1992)
+
 * {#Roig93} [[Agustí Roig]], _Minimal resolutions and other minimal models_, Publicacions Matem&#224;tiques (1993) Volume: 37, Issue: 2, page 285-303 ([web](https://eudml.org/doc/41535))
+
+* {#Roig94} [[Agustí Roig]], _Formalizability of dg modules and morphisms of cdg algebras_, Volume 38, Issue 3 (1994), 434-451 ([euclid](http://projecteuclid.org/euclid.ijm/1255986724))
+
 
 * {#RoigSaralegiAranguren00} [[Agustí Roig]], [[Martintxo Saralegi-Aranguren]], _Minimal Models for Non-Free Circle Actions_, Illinois Journal of Mathematics, volume 44, number 4 (2000) ([arXiv:math/0004141](https://arxiv.org/abs/math/0004141))
 
@@ -153,6 +163,8 @@ In particular, every [[dg-module]] has a minimal KS-model (def. \ref{KSFactoriza
 * {#Halperin83} [[Steve Halperin]], _Lectures on minimal models_, Mem. Soc. Math. Franc. no 9/10 (1983) ([web](https://eudml.org/doc/94833))
 
 * {#Silveira84} [[Flavio da Silveira]], _Rational homotopy theory of fibrations_, Pacific Journal of Mathematics, Vol. 113, No. 1 (1984) ([pdf](http://msp.org/pjm/1984/113-1/pjm-v113-n1-p01-s.pdf))
+
+[[!redirects minimal dg-modules]]
 
 [[!redirects Hirsch extension]]
 [[!redirects Hirsch extensions]]
