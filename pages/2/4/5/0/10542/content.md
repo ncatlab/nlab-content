@@ -37,6 +37,8 @@ The [[group]] of [[determinant]]-preserving [[linear map|linear]] [[isomorphisms
 
 * {#Albert} Albert, A. Adrian (1934), _On a Certain Algebra of Quantum Mechanics_, Annals of Mathematics, Second Series 35 (1): 65&#8211;73, doi:[10.2307/1968118](http://dx.doi.org/10.2307/1968118), ([JSTOR](https://www.jstor.org/stable/1968118)).
 
+* {#Baez02} [[John Baez]], section 3.4 of _The Octonions_,  Bull. Amer. Math. Soc. 39 (2002), 145-205. ([web](http://math.ucr.edu/home/baez/octonions/octonions.html)) 
+
 * {#ManogueDray09} [[Corinne Manogue]], [[Tevian Dray]], _Octonions, $E_6$, and Particle Physics_, J.Phys.Conf.Ser.254:012005,2010 ([arXiv:0911.2253](http://arxiv.org/abs/0911.2253))
 
 
