@@ -42,6 +42,8 @@ The [[electric-magnetic duality|electric-magnetic dual]] of the D0 is the [[D6-b
 
 ## Related concepts
 
+* [[Myers effect]]
+
 [[!include table of branes]]
 
 
