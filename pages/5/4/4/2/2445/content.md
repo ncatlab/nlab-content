@@ -138,6 +138,9 @@ $$
 
 =--
 
+(e. g. [Figueroa-O'Farrill, lemma32](#FigueroaOFarrill))
+
+
 +-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
 ###### Proposition
 
@@ -157,7 +160,7 @@ $$
 
 =--
 
-(e.g. [Lawson-Michelsohn 89, theorem 4.1](#LawsonMichelsohn89))
+(e.g. [Lawson-Michelsohn 89, theorem 4.1](#LawsonMichelsohn89), [Figueroa-O'Farrill, lemma 2](#FigueroaOFarrill))
 
 +-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
 ###### Proposition
@@ -293,6 +296,11 @@ For some standard material see for instance
 * [[Jean Gallier]], _Clifford Algebras, Clifford Groups, and a Generalization of the Quaternions_ ([arXiv:0805.0311](https://arxiv.org/abs/0805.0311))
 
 For a program that promotes the use of Clifford algebra as a good expositional tool in introductory [[mechanics]] see _[[Geometric Algebra]]_.
+
+See also the discussion of [[Majorana spinors]]
+
+* {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
+
 
 
 [[!redirects Clifford algebras]]
