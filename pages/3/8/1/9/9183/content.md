@@ -32,6 +32,8 @@ Any further details about the nature of this hypothetical dark matter remain elu
 
 ## Related concepts
 
+* [[fuzzy dark matter]]
+
 * [[dark energy]], [[dark radiation]]
 
 * [[standard model of cosmology]]
