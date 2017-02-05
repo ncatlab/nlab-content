@@ -120,7 +120,9 @@ The mechanism discussed in [Svrcek-Witten 06](#SvrcekWitten06), in all its incar
 
    * for heterotic string theory it arises from integrating out the [[Lagrange multiplier]] that enforces the [[Green-Schwarz anomaly cancellation]] in 4d.
 
-We now describe these various perspecrtives on the string theoretic axions in more detail.
+below we describe these various perspecrtives on the string theoretic axions in more detail.
+
+
 
 
 ### In type IIA string theory
@@ -220,6 +222,12 @@ $$
 
 This now is an action functional for an axion field $a$ of just the form required [above](#AsASolutionToTheStrongCPProblem) for the solution of the [[strong CP-problem]].
 
+
+### Axionic landscape
+
+The relation between [[higher gauge fields]] in [[string theory]] and axions also goes the other way around: Lifting naive models of these gauge fields from [[differential forms]] properly to [[differential cohomology]] means at the level of [[KK-reduction]] to realize that would-be scalar fields are in fact axions with a periodic potential.
+
+Applying this correction for instance to the discussion of the [[landscape of string theory vacua]] yields a more refined description than what is often considered. This is called the _[[axionic landscape]]_. See there for more.
 
 
 ## Related concepts
