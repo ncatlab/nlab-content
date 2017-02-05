@@ -79,7 +79,7 @@ The lift of these heterotic CY3-compactifications to [[M-theory]] is _[[M-theory
 
 In contrast to the construction of "heterotic standard models" [above](#HeteroticStandardModels), which are basically plain variants of the old [[Kaluza-Klein compactification]] mechanism where the effective [[gauge fields]] in 4-dimensional [[spacetime]] arise as components of the field of [[gravity]] in higher dimensions, in [[type II string theory]] with [[D-branes]] there are [[open strings]] whose massless excitations yield [[gauge fields]] "directly". The precise nature of these gauge fields and their couplings depends on the precise [[boundary conditions]] of these open strings, hence on the choice of [[D-branes]] that they end on.
 
-Therefore in what are called "intersecting D-brane models" one considers [[Kaluza-Klein compactifications]] of [[type II string theory]] with [[D-branes]] that intersect in an intricate pattern in the compactification space. By choosing this intersection geometry suitably, one obtains various different realizations of [[gauge theory]] in the [[effective field theory|effective]] 4-dimensional physics. 
+Therefore in what are called "[[intersecting D-brane models]]" one considers [[Kaluza-Klein compactifications]] of [[type II string theory]] with [[D-branes]] that intersect in an intricate pattern in the compactification space. By choosing this intersection geometry suitably, one obtains various different realizations of [[gauge theory]] in the [[effective field theory|effective]] 4-dimensional physics. 
 
 The intersecting branes of main relevance in type IIA are [[D6-branes]] (e.g. [L&#252;st 04](#Lust04), [Ibanez-Uranga 12, section 10](#IbanezUranga12)), which correspond in type IIB to [[D7-branes]]. These are precisely the ones whose lift to [[M-theory]] correspond to [[conifold]]/[[ADE orbifold]] [[singularities]], see also at _[[F-branes -- table]]_.
 
@@ -241,8 +241,8 @@ Reviews of intersecting [[D-brane]] models in [[type II string theory]] (in [[or
 
 * [[Angel Uranga]], _The standard model from D-branes in string theory_, talk at Padova, January 2008 ([pdf](http://active.pd.infn.it/g4/seminars/2008/files/uranga.pdf))
 
-* Matthew J. Dolan, Sven Krippendorf, Fernando Quevedo, _Towards a Systematic Construction of Realistic D-brane Models on a del Pezzo Singularity_, JHEP 1110 (2011) 024 ([arXiv:1106.6039](http://arxiv.org/abs/1106.6039))
- {#DolanKrippendorfQuevedo11}
+* {#DolanKrippendorfQuevedo11} Matthew J. Dolan, Sven Krippendorf, Fernando Quevedo, _Towards a Systematic Construction of Realistic D-brane Models on a del Pezzo Singularity_, JHEP 1110 (2011) 024 ([arXiv:1106.6039](http://arxiv.org/abs/1106.6039))
+ 
 
 * Anshuman Maharana, Eran Palti, _Models of Particle Physics from Type IIB String Theory and F-theory: A Review_ ([arXiv:1212.0555](http://arxiv.org/abs/1212.0555))
 
