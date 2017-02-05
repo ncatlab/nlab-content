@@ -9997,7 +9997,7 @@ $$
   }
 $$
 
-is a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction}, corollary \ref{StableMonoidalQuillenSuspensionSpectrumFunctor}), and so also induced adjunction of [[derived functors]] 
+is a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction}, corollary \ref{StableMonoidalQuillenSuspensionSpectrumFunctor}), and so also the induced adjunction of [[derived functors]] 
 
 $$
   \array{
