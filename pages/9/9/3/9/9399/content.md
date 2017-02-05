@@ -44,10 +44,18 @@ Given a functor $G:C\to D$, if $C$ has a [[terminal object]] $1$, then to give a
 
 ## References 
 
+In the context of [[category theory]] the concept is discussed in
+
 * [[Aurelio Carboni]] and [[Peter Johnstone]], *Connected limits, familial representability and Artin glueing*, Mathematical Structures in Computer Science, Vol. 5 Iss. 4, Cambridge U. Press (December 1995), 441-459. 
 doi: https://doi.org/10.1017/S0960129500001183. ([web](https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/div-classtitleconnected-limits-familial-representability-and-artin-glueingdiv/54E93903F7D7321B98B64AE7CB3E7AE0)) 
 
 * [[Tom Leinster]], *Higher Operads, Higher Categories*, Cambridge University Press 2003. ([arXiv link](https://arxiv.org/abs/math/0305049)) 
+
+In the context of [[(infinity,1)-categories]] (with an eye towards [[(infinity,1)-toposes]]) the concept is considered in
+
+* {#Rezk10} [[Charles Rezk]], p. 9 of _Toposes and homotopy toposes_ (2010) ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+
+* {#Rezk14} [[Charles Rezk]], p. 2 of _When are homotopy colimits compatible with homotopy base change?_ (2014) ([pdf](http://www.math.uiuc.edu/~rezk/i-hate-the-pi-star-kan-condition.pdf))
 
 [[!redirects equifibered natural transformation]]
 [[!redirects equifibered natural transformations]]
