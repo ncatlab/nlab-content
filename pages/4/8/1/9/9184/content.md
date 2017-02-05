@@ -30,7 +30,7 @@ $$
   \frac{1}{g^2 }\int_X tr(F_\nabla \wedge \star F_\nabla)  \;+\; 
   \theta \int_X tr(F_\nabla \wedge F_\nabla)
 $$
-exp
+
 but that -- since the term $tr(F_\nabla \wedge F_\nabla)$ causes parity violation, which is strongly bounded by [[experiment]] -- there must be some reason why $\theta$ is extremely small.
 
 The solution to this problem via axions is to assume that $\theta$ is not really a fundamental constant, but instead the [[vacuum expectation value]] of a dynamical field $a$ (the axion). The argument then is that the presence of the coupling term $\theta \int_X tr(F_\nabla \wedge F_\nabla)$ necessarily gives $a$ vanishing expectation value (that's due to [Vafa-Witten 84, around (2)](#VafaWitten84)). They argue, via the [[Wick rotation|Wick rotated]] [[path integral]] as follows:
@@ -146,22 +146,44 @@ This now is an action functional for an axion field $a$ of just the form require
 
 ### General
 
-* Wikipedia _[Axion](http://en.wikipedia.org/wiki/Axion)_
+The axion as such was originally proposed in 
+
+* {#Weinberg77} [[Steven Weinberg]], _New light boson_, Phys. Rev. Lett. 40:223-6 (1977)
+
+* {#Wilcek78} [[Frank Wilcek]], _Problem of strong P and T invariance in the presence of instantons_, Phys. Rev. Lett. 40:279-82 (1978)
+
+The experimentally viable variant as the "invisible axion" is due to 
+
+* M. Dine, [[Willy Fischler]], [[Mark Srednicki]], _A simple solution to the strong CP problem with a harmless axion_, Phys. Lett. B 104:199-202 (1981)
+
+The observation that this "invisible axion" is a cadidate for [[dark matter]] is due to
+
+* [[John Preskill]], M. Wise, [[Frank Wilcek]], _Comology of the invisible axion_, Phys. Lett. B 120:127-32 (1983)
+
+A historical recollection of the development until here is in
+
+* [[Frank Wilcek]], _Birth of axions_ in _This Week's Citation Classic_ (1991) ([pdf](http://www.garfield.library.upenn.edu/classics1991/A1991FE76900001.pdf))
+
+The argument that the [[topological Yang-Mills theory|topological]] [[interaction]] term $\propto a \langle F \wedge F\rangle$ gives the axion field $a$ a vanishing [[vacuum expectation value]] is due to
 
 * {#VafaWitten84} [[Cumrun Vafa]], [[Edward Witten]], _Parity Conservation in Quantum Chromodynamics_ Phys. Rev. Lett. 53, 535 (1984) ([publisher](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.53.535))
 
-Reformulation in terms of [[Chern-Simons forms]]:
+A reformulation of this effect in terms of [[Chern-Simons forms]] is discussed in
 
 * [[Gia Dvali]], _Three-Form Gauging of axion Symmetries and Gravity_ ([arXiv:hep-th/0507215](https://arxiv.org/abs/hep-th/0507215))
 
+See also
+
+* Wikipedia _[Axion](http://en.wikipedia.org/wiki/Axion)_
+
+
 ### In string theory
 
-In [[string theory]] 
+Discssion of the various ways that axions naturally appea in [[string theory]]  is in
 
 * {#SvrcekWitten06} Peter Svrcek, [[Edward Witten]], _Axions In String Theory_, JHEP 0606:051,2006 ([arXiv:hep-th/0605206](http://arxiv.org/abs/hep-th/0605206))
 
-
-and specifically in [[F-theory]]
+and discuss specifically for the [[F-theory]] sector of string theory is in
 
 * {#Grimm14} Thomas Grimm, _Axion Inflation in F-theory_ ([arXiv:1404.4268](http://arxiv.org/abs/1404.4268))
 
@@ -173,7 +195,7 @@ and specifically in [[F-theory]]
   > Primordial decays of [[string theory]] [[moduli stabilization|moduli]] at $z \sim 10^{12}$ naturally generate a [[dark radiation]] Cosmic Axion Background (CAB) with $0.1 - 1 keV$ energies. This CAB can be detected through axion-[[photon]] conversion in astrophysical [[magnetic fields]] to give quasi-thermal excesses in the extreme ultraviolet and soft X-ray bands. Substantial and observable luminosities may be generated even for axion-photon couplings $\ll 10^{-11} GeV^{-1}$. We propose that axion-photon conversion may explain the observed excess emission of soft X-rays from galaxy clusters, and may also contribute to the diffuse unresolved cosmic X-ray background. We list a number of correlated predictions of the scenario. 
 
 
-As a candidate for [[dark matter]]:
+Discussion of the axion as a candidate for [[dark matter]] is
 
 * {#HOTW16} Lam Hui, Jeremiah P. Ostriker, Scott Tremaine, [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_ ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
 
@@ -182,3 +204,6 @@ and as a candidate for [[dark energy]]:
 * [[Stephon Alexander]], [[Robert Brandenberger]], [[Juerg Froehlich]], _Tracking Dark Energy from Axion-Gauge Field Couplings_ ([arXiv:1601.00057](https://arxiv.org/abs/1601.00057))
 
 [[!redirects axions]]
+
+[[!redirects invisible axion]]
+[[!redirects invisible axions]]
