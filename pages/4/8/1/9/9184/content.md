@@ -249,7 +249,7 @@ The axion as such was originally proposed in
 
 The experimentally viable variant as the "invisible axion" is due to 
 
-* {#DineFischlerSrednicki81} M. Dine, [[Willy Fischler]], [[Mark Srednicki]], _A simple solution to the strong CP problem with a harmless axion_, Phys. Lett. B 104:199-202 (1981)
+* {#DineFischlerSrednicki81} [[Michael Dine]], [[Willy Fischler]], [[Mark Srednicki]], _A simple solution to the strong CP problem with a harmless axion_, Phys. Lett. B 104:199-202 (1981)
 
 The observation that this "invisible axion" is a cadidate for [[dark matter]] is due to
 
@@ -267,7 +267,11 @@ A reformulation of this effect in terms of [[Chern-Simons forms]] is discussed i
 
 * [[Gia Dvali]], _Three-Form Gauging of axion Symmetries and Gravity_ ([arXiv:hep-th/0507215](https://arxiv.org/abs/hep-th/0507215))
 
-See also
+Review includes:
+
+* Jihn E. Kim, Gianpaolo Carosi, _Axions and the Strong CP Problem_, Rev.Mod.Phys.82:557-602,2010 ([arXiv:0807.3125](https://arxiv.org/abs/0807.3125))
+
+* Masahiro Kawasaki, Kazunori Nakayama, _Axions : Theory and Cosmological Role_, Annual Review of Nuclear and Particle Science Vol.63:1-552   ([arXiv:1301.1123](https://arxiv.org/abs/1301.1123))
 
 * Wikipedia _[Axion](http://en.wikipedia.org/wiki/Axion)_
 
