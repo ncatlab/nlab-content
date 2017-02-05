@@ -42,6 +42,13 @@ Given a functor $G:C\to D$, if $C$ has a [[terminal object]] $1$, then to give a
 * [[polynomial functor]]
 * [[van Kampen colimit]]
 
+## References 
+
+* [[Aurelio Carboni]] and [[Peter Johnstone]], *Connected limits, familial representability and Artin glueing*, Mathematical Structures in Computer Science, Vol. 5 Iss. 4, Cambridge U. Press (December 1995), 441-459. 
+doi: https://doi.org/10.1017/S0960129500001183. ([web](https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/div-classtitleconnected-limits-familial-representability-and-artin-glueingdiv/54E93903F7D7321B98B64AE7CB3E7AE0)) 
+
+* [[Tom Leinster]], *Higher Operads, Higher Categories*, Cambridge University Press 2003. ([arXiv link](https://arxiv.org/abs/math/0305049)) 
+
 [[!redirects equifibered natural transformation]]
 [[!redirects equifibered natural transformations]]
 [[!redirects equifibred natural transformation]]
