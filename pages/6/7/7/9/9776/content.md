@@ -36,9 +36,9 @@ The [[T-duality|T-dual]] of the D6 branes is the [[D7-brane]] in [[type IIB stri
 
 [[!include F-branes -- table]]
 
-## Phenomenology
+## Phenomenology -- Intersecting D-brane models
 
-D6-branes are the main ingredient in type IIA intersecting brane phenomenology, see at [[string phenomenology]] the section _[Models in type II with intersecting branes](string+phenomenology#ModelsInTypeIIWithIntersectingBranes)_.
+D6-branes are the main ingredient in type IIA [[string phenomenology]] in the guise of [[intersecting D-brane models]], see also at [[string phenomenology]] the section _[Models in type II with intersecting branes](string+phenomenology#ModelsInTypeIIWithIntersectingBranes)_.
 
 
 ## Related concept
