@@ -16,7 +16,14 @@
 
 ## Idea
 
-The _axion_ is hypothetical type of [[field (physics)|field]]/[[fundamental particle]] related to the [[strong CP problem]].
+The _axion_ is hypothetical type of [[field (physics)|field]]/[[fundamental particle]] originally hypothesized ([Weinberg 77](#Weinberg77), [Wilcek 78](#Wilcek78))  as a solution to the [[strong CP problem]] in the [[standard model of particle physics]]. 
+After the initial model for the axion was quickly ruled out by [[experiment]] (see [Wilcek 78](#Wilcek78) for the early history) a variant model was found ([Dine-Fischler-Srednicki 81](#DineFischlerSrednicki81)), called the "invisible axion", which does not violate experimental bounds. 
+
+The "invisible axion" turns out to also be a natural candidate for [[dark matter]] [Preskill-Wise-Wilcek 83](#PreskillWiseWilcek83), hence potentially also solves one of the problems with the [[standard model of cosmology]]. More recently it is argued in [Hui-Ostriker-Tremaine-Witten 16](#HOTW16) that indeed axionic dark matter ([[fuzzy dark matter]]) potentially solves the remaining problems of standard WIMP dark matter models: WIMP dark matter models works exceedingly well on [[cosmology|cosmological]] scales but has serious experimental problems on the scale of [[galaxies]]. Due to the extreme lightness of axion particles, their [[de Broglie wavelength]] may be of the scale of galaxies and hence their quantum properties may become relevant at this scale to deviate in the right way from the WIMP models.
+
+The Pecchei-Quinn shift symmetry of the axion and the peculiar nature of the axion [[interaction term]] which are needed to make the axion model work this way have been argued to naturally arise in [[string theory]], if the axion is identified with the [[KK-reduction]] of the [[higher gauge fields]] in string theory.
+
+
 
 ## As a solution to the strong CP problem
  {#AsASolutionToTheStrongCPProblem}
@@ -31,9 +38,36 @@ $$
   \theta \int_X tr(F_\nabla \wedge F_\nabla)
 $$
 
-but that -- since the term $tr(F_\nabla \wedge F_\nabla)$ causes parity violation, which is strongly bounded by [[experiment]] -- there must be some reason why $\theta$ is extremely small.
+but that -- since the term $tr(F_\nabla \wedge F_\nabla)$ causes parity violation, which is strongly constrained by [[experiment]] -- there must be some reason why $\theta$ vanishes or else is extremely small.
 
-The solution to this problem via axions is to assume that $\theta$ is not really a fundamental constant, but instead the [[vacuum expectation value]] of a dynamical field $a$ (the axion). The argument then is that the presence of the coupling term $\theta \int_X tr(F_\nabla \wedge F_\nabla)$ necessarily gives $a$ vanishing expectation value (that's due to [Vafa-Witten 84, around (2)](#VafaWitten84)). They argue, via the [[Wick rotation|Wick rotated]] [[path integral]] as follows:
+(Here the term $tr(F_\nabla \wedge F_\nabla$ is the [[invariant polynomial]] for the [[second Chern class]], measuring the [[instanton number]] of the [[gauge field]] $\nabla$.)
+
+The solution to this problem via axions is to assume that $\theta$ is not really a fundamental parameter, but instead is the [[vacuum expectation value]] of a dynamical [[field (physics)|field]] $a$ (the axion). 
+
+The idea is that a standard [[kinetic action]] 
+
+$$
+  S_{[kin} (a) \propto \int_X a \wedge \ast a
+$$
+
+together with the axion [[interactiono]] term
+
+$$
+  S_{int} (a,\nabla) \propto  \int_X a \, tr(F_\nabla \wedge F_\nabla)
+$$ 
+
+makes $a$ have vanishing [[expectation value]] $\langle a\rangle$. This would give a dynamical explanation why under the identification of the [[theta angle]] with this expectation value
+
+$$
+  \theta \coloneqq \langle a\rangle
+$$
+
+the theta angle vanishes.
+
+
+## The Vafa-Witten mechanism
+
+That this is indeed the case is due to [Vafa-Witten 84, around (2)](#VafaWitten84). These authors argue via the [[Wick rotation|Wick rotated]] [[path integral]] as follows:
 
 Under [[Wick rotation]]. parity-violating terms in the [[Lagrangian density]] pick up an imaginary factor $i$. Therefore the [[path integral]] expression for the Wick rotated [[vacuum energy]] is
 
@@ -65,13 +99,66 @@ Now due to the factor of $i$ in front of $\theta$ in this expression, the real p
  
 
 
-## As arising from string theory
+## In string theory -- Axions as KK-reduction of higher gauge fields
  {#AsArisingFromStringTheory}
 
-In [[string theory]] axion fields naturally arise in various ways [Svrcek-Witten 06](#SvrcekWitten06):
+In [[string theory]] axion fields naturally arise [Svrcek-Witten 06](#SvrcekWitten06).
 
 > An obvious question about the axion hypothesis is how natural it really is. Why introduce a global PQ "symmetry" if it is not actually a symmetry? What is the sense in constraining a theory so that the classical Lagrangian possesses a certain symmetry if the symmetry is actually anomalous? It could be argued that the best evidence that PQ "symmetries" are natural comes from string theory, which produces them without any contrivance. ... the string compactifications always generate PQ symmetries, often spontaneously broken at the string scale and producing axions, but sometimes unbroken.([Svrcek-Witten 06, pages 3-4](#SvrcekWitten06))
 
+The mechanism discussed in [Svrcek-Witten 06](#SvrcekWitten06), in all its incarnations in the various perspectives on string theory ([[heterotic string theory|heterotic strings]], [[type II string theory|type II strings]], [[11-dimensional supergravity]] with [[M-theory]] effects included, etc.) share the following properties:
+
+1. the axion field itself is the [[double dimensional reduction]] of one of the [[higher gauge fields]] in string theory, the (twisted) [[Kalb-Ramond field]] for heterotic string, the [[RR-field]] for the type II string, or the [[supergravity C-field]] in 11-dimensional supergravity with [[M-brane]] effects;
+
+1. accordingly the Peccei-Quinn periodic shift symmetry of the axion results arises as the $U(1)$-[[gauge symmetry]] that is the dimensional reduction of the $B^2 U(1)$ (heterotic [[B-field]]) or $B^3 U(1)$ (11d [[C-field]]) [[higher gauge symmetry]], where the $U(1)$-periodicity is ultimately due to the higher [[Dirac charge quantization]] for these fields;
+
+1. the axion [[interaction term]] of the form $\propto a \langle F \wedge F\rangle $ arises as the [[double dimensional reduction]] of the self-interaction terms of these higher gauge fields: 
+
+   * in type II string theory it is a component of the [[higher WZW term]] on coincident [[D6-branes]] with a component $\propto A_{3}^{RR} \wedge \langle F \wedge F\rangle$, 
+
+   * for 11d C-fields it is the term $\propto C_{3} \wedge \langle F \wedge F\rangle$ induced by [[anomaly cancellation]] for M-theory at conical singularities (as discussed at _[[M-theory on G2-manifolds]]_)
+
+   * for heterotic string theory it arises from integrating out the [[Lagrange multiplier]] that enforces the [[Green-Schwarz anomaly cancellation]] in 4d.
+
+We now describe these various perspecrtives on the string theoretic axions in more detail.
+
+
+### In type IIA string theory
+
+Consider [[string phenomenology]] in [[type IIA string theory]] in the guise of [[intersecting D-brane models]] with the [[standard model of particle physics]] supported in intersecting [[D6-branes]] whose [[worldvolume]] fills all of 4d [[spacetime]].
+
+The [[higher WZW term]] in the [[Green-Schwarz action functional]] for the [[D6-brane]] is of the form
+
+$$ 
+  \propto \int_{X_7} A^RR \wedge \langle \exp(F_\nabla) \rangle
+$$
+
+where $A^RR$ denotes the collective inhomogenous [[background field|backgound]] [[RR-field]] and $F_\nabla$ is the [[curvature]] 2-form of the [[Chan-Paton gauge field]] on the D-brane. The $\langle -\rangle$ denotes the [[Killing form]] [[invariant polynomial]], hence the [[trace]] for the [[special unitary Lie algebra]] regarded as a [[matrix Lie algebra]]. $X_7$ denotes the [[worldvolume]] of the [[D6-brane]]
+
+Hence one of the three non-vanishing summands in this expression is
+
+$$
+  \propto \int_{X_7} A_3^{RR} \wedge \langle F_\nabla \wedge F_\nabla\rangle 
+  \,.
+$$
+
+Now assuming a Kaluza-Klein ansatz $X_7 = X_4 \times Y_3$ with 
+
+$$
+  a \coloneqq \int_{Y_3} A_3^{RR}
+$$
+
+the effective axion field in 4d, then this term becomes the 
+axion [[interaction]] term
+
+$$
+  \propto \int_{X_4} a \langle F_{\nabla} \wedge F_{\nabla}\rangle
+$$
+
+([Svrcek-Witten 06, around (6.9)](#SvrcekWitten06))
+
+
+### In heterotic string theory
 
 In [[heterotic string theory]] [[KK-compactification|KK-compactified]] to 4d, the 4d [[B-field]], dualized, serves as the axion field, called the "model independent axion" ([Svrcek-Witten 06, starting p. 15](#SvrcekWitten06)).
 
@@ -154,11 +241,11 @@ The axion as such was originally proposed in
 
 The experimentally viable variant as the "invisible axion" is due to 
 
-* M. Dine, [[Willy Fischler]], [[Mark Srednicki]], _A simple solution to the strong CP problem with a harmless axion_, Phys. Lett. B 104:199-202 (1981)
+* {#DineFischlerSrednicki81} M. Dine, [[Willy Fischler]], [[Mark Srednicki]], _A simple solution to the strong CP problem with a harmless axion_, Phys. Lett. B 104:199-202 (1981)
 
 The observation that this "invisible axion" is a cadidate for [[dark matter]] is due to
 
-* [[John Preskill]], M. Wise, [[Frank Wilcek]], _Comology of the invisible axion_, Phys. Lett. B 120:127-32 (1983)
+* {#PreskillWiseWilcek83} [[John Preskill]], M. Wise, [[Frank Wilcek]], _Comology of the invisible axion_, Phys. Lett. B 120:127-32 (1983)
 
 A historical recollection of the development until here is in
 
@@ -195,7 +282,7 @@ and discuss specifically for the [[F-theory]] sector of string theory is in
   > Primordial decays of [[string theory]] [[moduli stabilization|moduli]] at $z \sim 10^{12}$ naturally generate a [[dark radiation]] Cosmic Axion Background (CAB) with $0.1 - 1 keV$ energies. This CAB can be detected through axion-[[photon]] conversion in astrophysical [[magnetic fields]] to give quasi-thermal excesses in the extreme ultraviolet and soft X-ray bands. Substantial and observable luminosities may be generated even for axion-photon couplings $\ll 10^{-11} GeV^{-1}$. We propose that axion-photon conversion may explain the observed excess emission of soft X-rays from galaxy clusters, and may also contribute to the diffuse unresolved cosmic X-ray background. We list a number of correlated predictions of the scenario. 
 
 
-Discussion of the axion as a candidate for [[dark matter]] is
+Discussion of the axion as a candidate for [[dark matter]] ([[fuzzy dark matter]]) is
 
 * {#HOTW16} Lam Hui, Jeremiah P. Ostriker, Scott Tremaine, [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_ ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
 
