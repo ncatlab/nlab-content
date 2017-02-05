@@ -1,14 +1,14 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 =--
 =--
-
 
 
 #Contents#
@@ -62,6 +62,7 @@ A review of flux compactifications is for instance in ([Gra&#241;a 05](#Grana05)
 
 > at least one thing missing in the discussion here is the subtlety explained out by [[Jacques Distler]] in blog dicussion [here](http://golem.ph.utexas.edu/category/2009/10/structural_foundations_of_quan.html#c028474)
 
+* [[axionic landscape]]
 
 * [[string theory]]
 
