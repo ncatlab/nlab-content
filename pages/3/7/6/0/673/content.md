@@ -15,6 +15,8 @@ If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat pr
 
 ### Preprints
 
+* _Quasi-periodic paths and a string 2-group model for the free loop group_, [arXiv:1702.?????](https://arxiv.org). Joint with [[Michael Murray]] and [[Christoph Wockel]].
+
 * _Smooth loop stacks of differentiable stacks and gerbes_, [arXiv:1602.07973](http://arxiv.org/abs/1602.07973). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]. Submitted for publication.
 
 * _Equivariant bundle gerbes_, [arXiv:1506.07931](http://arxiv.org/abs/1506.07931). 
