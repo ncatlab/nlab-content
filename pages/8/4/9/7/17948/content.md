@@ -362,7 +362,7 @@ $$
 
 eine [[equivalence relation|Äquivalenzrelation]] auf der zugrunde liegenden Menge. Dann hat der _[[quotient topological space|topologische Quotientenraum]]_ 
 
-* als zugrunde liegende Menge die [[quotient set|quotientenmenge]] $X_{\sim}$, also die menge von [[equivalence classes|Äquivalenzklassen]], 
+* als zugrunde liegende Menge die [[quotient set|quotientenmenge]] $X_{\sim}$, also die Menge von [[equivalence classes|Äquivalenzklassen]], 
 
 und
 
@@ -401,7 +401,7 @@ Seien $X$ und $Y$ zwei [[topological spaces|topologische Räume]], dann hat der 
 
 und
 
-* seine [[open sets|offenen Mengen]] sind die Untermengen $O \subset X \times Y$ des kartesischen Produktes f&#252;r die gilt dass f&#252;r alle Punkte $(x,y) \in O$ offene mengen $x \in O_x \subset X$ und $y \in O_Y \subset Y$ existieren, so dass  $O_x \times O_y \subset O$.
+* seine [[open sets|offenen Mengen]] sind die Untermengen $O \subset X \times Y$ des kartesischen Produktes f&#252;r die gilt dass f&#252;r alle Punkte $(x,y) \in O$ offene Mengen $x \in O_x \subset X$ und $y \in O_Y \subset Y$ existieren, so dass  $O_x \times O_y \subset O$.
 
 > Illustration aus [Munkres 75](#Munkres75)
 
@@ -420,7 +420,7 @@ Diese Konstruktionen von[[discrete topological spaces|disketen topologischen Rä
 
 Mit den [[objects|Objekten]] ([[topological spaces|topologischen Räumen]]) und den [[morphisms|Morphismen]] ([[continuous maps|stetige Abbildungen]]) der [[category|Kategorie]] [[Top]] der Topologie also definiert, erhalten wir den Begriff der "Gleichheit" in der Topologie.
 
-Um dies pr&#228;zise zu machen sagt man dass ein [[morphism|Morphismu]] 
+Um dies pr&#228;zise zu machen sagt man dass ein [[morphism|Morphismus]] 
 
 $$
   X \overset{f}{\to} Y
@@ -477,9 +477,9 @@ $$
 
 +-- {: .num_example #OpenBallsHomeomorphicToRn}
 ###### Beispiel
-**(offenes Intervall homeomorph zur reellen Geraden)**
+**(offenes Intervall hom&#246;omorph zur reellen Geraden)**
 
-Das offene [[interval|Intervall]] $(-1,1)$ ist [[homeomorphic|homeomorph]] zu der gesamten [[real line|reellen Geraden]]
+Das offene [[interval|Intervall]] $(-1,1)$ ist [[homeomorphic|homöomorph]] zu der gesamten [[real line|reellen Geraden]]
 
 $$
   (0,1) \underset{homeo}{\simeq} \mathbb{R}^1
@@ -507,23 +507,23 @@ $$
   \,.
 $$
 
-Allgemein ist jeder [[open ball|offene Ball]] in $\mathbb{R}^n$ (def. \ref{OpenBalls}) [[homeomorphic|homeomorph]] zum ganzen $\mathbb{R}^n$.
+Allgemein ist jeder [[open ball|offene Ball]] in $\mathbb{R}^n$ (def. \ref{OpenBalls}) [[homeomorphic|homöomorph]] zum ganzen $\mathbb{R}^n$.
 
 =--
 
 
 +-- {: .num_example #HomeomorphismBetweenTopologicalAndCombinatorialCircle}
 ###### Beispiel
-**(Intervall an den Endpunkten verklebt ist homeomorph zum Kreis)**
+**(Intervall an den Endpunkten verklebt ist hom&#246;omorph zum Kreis)**
 
-Als topologische R&#228;ume sinde das [[interval]] mit identifizierten Endpunkten [[homeomorphic|homeomorph]] (def. \ref{Homeomorphism}) zum standard  [[circle|Kreis]]:
+Als topologische R&#228;ume ist das [[interval|Intervall]] mit identifizierten Endpunkten [[homeomorphic|homöomorph]] (def. \ref{Homeomorphism}) zum [[circle|Einheitskreis]]:
 
 $$
   [0,1]_{/(0 \sim 1)} \;\; \underset{homeo}{\simeq} \;\; S^1
   \,.
 $$
 
-Mehr im Detail: sei
+Mehr im Detail: Sei
 
 $$
   S^1 \hookrightarrow \mathbb{R}^2
@@ -537,7 +537,7 @@ $$
 
 ausgestattet mit der [[subspace topology|Unterraumtopologie]] (Beispiel \ref{SubspaceTopology}) der Ebene $\mathbb{R}^2$, welche selbst mit ihrer standard [[metric topology|metrischen Topologie]] (Beispiel \ref{MetricTopology}) ausgestattet ist.
 
-Dar&#252;erhinaus, sei
+Dar&#252;berhinaus, sei
 
 $$
   [0,1]_{/(0 \sim 1)}
@@ -571,7 +571,7 @@ $$
   \,.
 $$
 
-Wir behaupten dann $\tilde f$ ein [[homeomorphism|Homeomorphismus]] ist (Definition \ref{Homeomorphism}).
+Wir behaupten dann $\tilde f$ ein [[homeomorphism|Homöomorphismus]] ist (Definition \ref{Homeomorphism}).
 
 Zun&#228;chst ist es klar dass $\tilde f$ eine [[continuous function|stetige Funktion]] ist. Das folgt direkt aus der tatsache dass $f$ eine [[continuous function|stetige Funktion]] ist und per Definition der [[quotient topology|Quotiententopologie]] (Beispiel \ref{QuotientTopologicalSpace}).
 
@@ -594,16 +594,16 @@ Wenn die Seiten hingegen mit umgekehrter Orientierung identifiziert werden, dann
 
 $\,$
 
-Wichtige Beispiele von topologischen R&#228;umen die _nicht_ homeomorph sind, enthalten die folgenden:
+Wichtige Beispiele von topologischen R&#228;umen die _nicht_ hom&#246;omorph sind, enthalten die folgenden:
 
 
 +-- {: .num_theorem #TopologicalInvarianceOfDimension}
 ###### Theorem
 **([[topological invariance of dimension|topologische Invarianz der Dimension]])**
 
-Seien $n_1, n_2 \in \mathbb{N}$ aber $n_1 \neq n_2$, dann sind die [[Cartesian space|kartesischen Räume]] $\mathbb{R}^{n_1}$ und $\mathbb{R}^{n_2}$ _nicht_ [[homeomorphic|homeomorph]].
+Seien $n_1, n_2 \in \mathbb{N}$ aber $n_1 \neq n_2$, dann sind die [[Cartesian space|kartesischen Räume]] $\mathbb{R}^{n_1}$ und $\mathbb{R}^{n_2}$ _nicht_ [[homeomorphic|homöomorph]].
 
-Allgemeiner, eine [[open set|offene Menge]] in $\mathbb{R}^{n_1}$ ist nie homeomorph zu einer offenen Menge in $\mathbb{R}^{n_2}$ wenn $n_1 \neq n_2$.
+Allgemeiner, eine [[open set|offene Menge]] in $\mathbb{R}^{n_1}$ ist nie hom&#246;omorph zu einer offenen Menge in $\mathbb{R}^{n_2}$ wenn $n_1 \neq n_2$.
 
 =--
 
@@ -616,7 +616,7 @@ Wir illustrieren nun die Werkzeuge der [[algebraic topology|algebraischen Topolo
 ###### Beispiel
 **(Homeomorphismusklassen von Fl&#228;chen)**
 
-Die [[2-sphere]] $S^2 = \{(x,y,z) \in \mathbb{R}^3 \vert x^2 + y^2 + z^2 = 1\}$ ist _nicht_ [[homeomorphic|homeomorph]] zu dem [[torus|Torus]] $T^2 = S^1 \times S^1$.
+Die [[2-sphere]] $S^2 = \{(x,y,z) \in \mathbb{R}^3 \vert x^2 + y^2 + z^2 = 1\}$ ist _nicht_ [[homeomorphic|homöomorph]] zu dem [[torus|Torus]] $T^2 = S^1 \times S^1$.
 
 Allgemein ist die Homeomorphismusklasse einer [[closed manifold|geschlossenen]] [[orientable|orientierbaren]] [[surface|Fläche]] durch die Anzahl der "L&#246;cher" determiniert die die Fl&#228;che hat: ihr _[[genus of a surface|Geschlecht]]_.
 
@@ -628,7 +628,7 @@ $\,$
 ### Homotopie
   {#Homotopy}
 
-Wir haben oben gesehen dass f&#252;r $n \geq 1$  der [[open ball|offene Ball]] $B_0^\circ(1)$ in $\mathbb{R}^n$ _nicht_ [[homeomorphic|homeomorph]] zu, insbesondere,  dem Punkt $\ast = \mathbb{R}^0$ ist (Beispiel \ref{OpenBallsHomeomorphicToRn}, Theorem \ref{TopologicalInvarianceOfDimension}). Dennoch ist intuitiv der $n$-Ball eine "stetige Deformierung" des Punktes, den man erh&#228;lt wenn der Radius des $n$-Balles nach null geht.
+Wir haben oben gesehen dass f&#252;r $n \geq 1$  der [[open ball|offene Ball]] $B_0^\circ(1)$ in $\mathbb{R}^n$ _nicht_ [[homeomorphic|homöomorph]] zu, insbesondere,  dem Punkt $\ast = \mathbb{R}^0$ ist (Beispiel \ref{OpenBallsHomeomorphicToRn}, Theorem \ref{TopologicalInvarianceOfDimension}). Dennoch ist intuitiv der $n$-Ball eine "stetige Deformierung" des Punktes, den man erh&#228;lt wenn der Radius des $n$-Balles nach null geht.
 
 Diese Intuition wird durch die Beobachtung pr&#228;zisiert 
 dass ein [[continuous function|stetige Funktion]] existiert auf dem  [[product topological space|topologischen Produktraum]]
@@ -765,7 +765,7 @@ Die folgenden drei [[graphs|Graphen]]
 
 <img src="https://ncatlab.org/nlab/files/ThreeNonHomeoButHomotopyEquivGraphs.png" width="400">
 
-(also die offensichtlichen [[topological subspaces|topologischen Unterräume]] der [[plane|Ebene]] $\mathbb{R}^2$ die diese Bilder anzeigen) sind nicht [[homeomorphic|homeomorph]]. Aber sie sind [[homotopy equivalence|homotopieäquivalent]], tats&#228;chlich sind sie alle homotopie&#228;quivalent zur [[disk|Scheibe]] aus der zwei Punkte entnommen sind, kraft der Homotopien die in folgenden Bildern angedeutet sind:
+(also die offensichtlichen [[topological subspaces|topologischen Unterräume]] der [[plane|Ebene]] $\mathbb{R}^2$ die diese Bilder anzeigen) sind nicht [[homeomorphic|homöomorph]]. Aber sie sind [[homotopy equivalence|homotopieäquivalent]], tats&#228;chlich sind sie alle homotopie&#228;quivalent zur [[disk|Scheibe]] aus der zwei Punkte entnommen sind, kraft der Homotopien die in folgenden Bildern angedeutet sind:
 
 <img src="https://ncatlab.org/nlab/files/HomotopyEquivalentsToBiAnnulus.png" width="400">
 
@@ -842,7 +842,7 @@ Eine offensichtliche aber wichtige Konsequen ist dies:
 +-- {: .num_prop #ConnectedComponentsDistinctImpliesHeomeClassesDistinct}
 ###### Proposition
 
-Wenn die Mengen von [[connected components|Zusammenhangskomponenten]] zweier [[topological spaces|topologischer Räume]] nicht [[bijection|bijektiv]] sind, dann k&#246;nnen die beiden R&#228;ume nicht [[homeomorphism|homeomorph]] zueinander sein:
+Wenn die Mengen von [[connected components|Zusammenhangskomponenten]] zweier [[topological spaces|topologischer Räume]] nicht [[bijection|bijektiv]] sind, dann k&#246;nnen die beiden R&#228;ume nicht [[homeomorphism|homöomorph]] zueinander sein:
 
 $$
   \pi_0(X) \neq \pi_0(Y)
@@ -857,7 +857,7 @@ $$
 +-- {: .proof}
 ###### Beweis
 
-Da $\pi_0$ [[functor|funktoriell]] ist, folgt sofort das es  [[isomorphisms|Isomorphismen]] auf [[isomorphisms|Isomorphismen]] schickt, also [[homeomorphisms|Homeomorphismen]] auf [[bijections|Bijektionen]]:
+Da $\pi_0$ [[functor|funktoriell]] ist, folgt sofort das es  [[isomorphisms|Isomorphismen]] auf [[isomorphisms|Isomorphismen]] schickt, also [[homeomorphisms|Homöomorphismen]] auf [[bijections|Bijektionen]]:
 
 $$
   \begin{aligned}
@@ -892,14 +892,14 @@ Als Anwendungsbeispiel haben wir den folgenden Beweis eines Spezialfalls der [[t
 ###### Proposition
 **([[topological invariance of dimension|topologische Invarianz der Dimension]] -- erster einfacher Fall)**
 
-Die [[Cartesian spaces|kartesische Räume]] $\mathbb{R}^1$ und $\mathbb{R}^2$ sind nicht [[homeomorphic|homeomorph]] (def. \ref{Homeomorphism}).
+Die [[Cartesian spaces|kartesische Räume]] $\mathbb{R}^1$ und $\mathbb{R}^2$ sind nicht [[homeomorphic|homöomorph]] (def. \ref{Homeomorphism}).
 
 =--
 
 +-- {: .proof}
 ###### Beweis
 
-Wir nehmenn an e g&#228;be einen [[homeomorphism|Homeomorphismus]]
+Wir nehmenn an e g&#228;be einen [[homeomorphism|Homöomorphismus]]
 
 $$
   f \colon \mathbb{R}^1 \longrightarrow \mathbb{R}^2
@@ -959,7 +959,7 @@ $$
   Grp
 $$ 
 
-f&#252;r, zun&#228;chst, die Menge von [[homotopy classes|Homotopiklassen]] von [[paths|Pfaden]] in $X$ die bei $x$ starten und enden. Solche Pfade heissen stetige [[loops|Schleifen]] in $X$ basiert bei $x$.
+f&#252;r, zun&#228;chst, die Menge von [[homotopy classes|Homotopieklassen]] von [[paths|Pfaden]] in $X$ die bei $x$ starten und enden. Solche Pfade heissen stetige [[loops|Schleifen]] in $X$ basiert bei $x$.
 
 1. Unter Aneinanderh&#228;ngen von Schleifen wird $\pi_1(X,x)$ zu einer [[semi-group|Semigruppe]];
 
@@ -1007,7 +1007,7 @@ heisst _[[simply connected topological space|einfach zusammenhängend]]_.
 ###### Proposition
 **([[topological invariance of dimension|topologische Invarianz der Dimension]] -- zweites einfaches Beispiel)**
 
-Es gibt  _keinen_ [[homeomorphism|Homeomorphismus]] zwischen $\mathbb{R}^2$ und $\mathbb{R}^3$.
+Es gibt  _keinen_ [[homeomorphism|Homöomorphismus]] zwischen $\mathbb{R}^2$ und $\mathbb{R}^3$.
 
 =--
 
@@ -1036,7 +1036,7 @@ Wir diskutieren dies n&#228;her unten in Beispiel \ref{FundamentalGroupOfTheCirc
 1. Die Fundamentalgruppe von  $\mathbb{R}^3 - \{f(0)\}$ its trivial: der einzelne fehlende Punkt hindert nicht daran Schleifen beliebig zusammenzuziehen.
 
 Aber weil die Konstrution der Fundamentalgruppe[[functor|funktiell]] sit, so folgt, mit de gleichen Argument wie in dem Beweis von Prop. \ref{ConnectedComponentsDistinctImpliesHeomeClassesDistinct},
-dass also $f$ kein [[isomorphism|Isomorphismus]] sein kein, also kein [[homeomorphism|Homeomorphismus]].
+dass also $f$ kein [[isomorphism|Isomorphismus]] sein kein, also kein [[homeomorphism|Homöomorphismus]].
 
 =--
 
@@ -1064,7 +1064,7 @@ $$
   \underset{i}{\sqcup}U_i \longrightarrow X
 $$
 
-so dass die Einschr&#228;nkung von $E \overset{p}{\to} X$ auf jedes der  [[homeomorphic|homeomorph]] ist zu dem [[product topological space|topologischen Produktraum]] (Beispiel \ref{ProductTopologicalSpace}) von $U_i$
+so dass die Einschr&#228;nkung von $E \overset{p}{\to} X$ auf jedes der  [[homeomorphic|homöomorph]] ist zu dem [[product topological space|topologischen Produktraum]] (Beispiel \ref{ProductTopologicalSpace}) von $U_i$
 mit dem [[discrete topological space|diskreten topologischen Raum]] (Beispiel \ref{DiscreteTopologicalSpace}) auf einer [[set|Menge]] $F_i$:
 
 $$
@@ -1293,7 +1293,7 @@ $$
   \,.
 $$
 
-von def. \ref{ActionOfFundamentalGroupOnFibersOfCovering} der die [[action|Wirkung]] der [[fundamental group|Fundamentalgruppe]] von $X$ auf die menge der [[leaves|Blätter]] &#252;ber $x$ konstruiert
+von def. \ref{ActionOfFundamentalGroupOnFibersOfCovering} der die [[action|Wirkung]] der [[fundamental group|Fundamentalgruppe]] von $X$ auf die Menge der [[leaves|Blätter]] &#252;ber $x$ konstruiert
 hat die folgenden Eigenschaften:
 
 1. jede [[isomorphism class|Isomorphieklasse]] von $\pi_1(X,x)$-[[actions|Wirkungen]] ist im Bild des Funktors (man sagt: der Funktor ist _[[essentially surjective functor|essentiell surjectiv]]_);
@@ -1316,7 +1316,7 @@ $$
 
 =--
 
-Dies hat eineige interesante Konsequenzen...
+Dies hat einige interessante Konsequenzen...
 
 $\,$
 
