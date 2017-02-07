@@ -1,3 +1,6 @@
+[[!redirects Manuel Baerenz]]
+[[!redirects ManuelBaerenz]]
+[[!redirects ManuelBärenz]]
 ## Personal ##
 * Bachelor in Heidelberg
 * Bachelor's Thesis with Derek Wise
