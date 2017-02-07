@@ -45,6 +45,8 @@ See [[states]].
 
 * [[C*-algebra]]
 
+  * [[Gelfand-Naimark theorem]]
+
   * [[Hilbert C*-module]], [[Hilbert C*-bimodule]]
 
   * [[KK-theory]], [[nonabelian topology]]
