@@ -5,6 +5,10 @@
 
 A [[closed manifold|closed]] [[surface]] that does not admit an [[orientation]].
 
+## Related concepts
+
+* [[Möbius strip]]
+
 ## References
 
 * Wikipedia, _[Klein bottle](http://en.wikipedia.org/wiki/Klein_bottle)_
