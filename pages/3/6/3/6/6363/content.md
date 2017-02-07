@@ -209,12 +209,17 @@ Gelfand duality can be extended by [[horizontal categorification]] to define the
 
 ## Related concepts
 
+
 * [[Isbell duality]]
 
-  * **Gelfand duality**
+  * **Gelfand duality**, [[constructive Gelfand duality theorem|constructive Gelfand duality]]
+
     * [[C-star algebra]], [[topological space]]
+    
+    * [[Gelfand-Naimark theorem]]   
+
     * [[Gelfand spectrum]]
-    * [[constructive Gelfand duality theorem]]
+
     * [[Serre-Swan theorem]]
 
 * [[noncommutative topology]]
@@ -247,4 +252,11 @@ category: analysis, geometry, noncommutative geometry
 
 [[!redirects Gelfand duality]]
 [[!redirects Gel'fand duality]]
+
 [[!redirects Gelfand-Naimark duality]]
+
+
+
+
+
+
