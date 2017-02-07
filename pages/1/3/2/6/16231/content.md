@@ -9,6 +9,8 @@ Sylvester James Gates Jr., known as Jim Gates, works on [[supersymmetry]], [[sup
 
 * [[parameterized WZW model]]
 
+* [[adinkra]]
+
 
 category: people
 
