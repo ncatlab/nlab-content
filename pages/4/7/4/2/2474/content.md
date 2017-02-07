@@ -113,10 +113,16 @@ More precisely, the forgetful functor $\mathbf{C^*Alg}\to\mathbf{Set}$ that assi
 
 See also [[operator algebras]].
 
+### Gelfand-Naimark theorem
 
-### GNS construction
+The _[[Gelfand-Naimark theorem]]_ says that every [[C*-algebra]] is [[isomorphism|isomorphic]] to a $C^\ast$-algebra of [[bounded linear operators]] on a [[Hilbert space]].
 
-The [[GNS construction]] shows that every abstract $C^*$-algebra over the [[complex numbers]] as a concrete $C^*$-algebra: a subalgebra of an algebra of [[bounded operator]]s on some [[Hilbert space]].
+
+
+### Gelfand-Naimark-Segal construction
+
+The [[Gelfand-Naimark-Segal construction]] ([[GNS construction]]) establishes a correspondence between cyclic $*$-[[representation]]s of $C^*$-[[C*-algebra|algebras]] and certain linear functionals (usually called _states_) on those same $C^*$-algebras.  The correspondence comes about from an explicit construction of the [[star-representation|*-representation]] from one of the [[linear functionals|linear functionals]] (states).
+
 
 
 ### Gelfand duality
