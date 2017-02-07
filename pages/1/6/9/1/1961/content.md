@@ -17,9 +17,19 @@
 
 ## Idea
 
-The _tangent bundle_ $T X \to X$ of a [[space]] $X$ is a [[bundle]] over $X$ whose [[fiber]] over a [[point]] $x \in X$ is a collection of [[infinitesimal space|infinitesimal]] curves in $X$ emanating at $x$: the linear approximation of $X$ at $x$.
+The _tangent bundle_ $T X \to X$ of a (sufficiently [[differentiation|differentiable]]) [[space]] $X$ is a [[bundle]] over $X$ whose [[fiber]] over a [[point]] $x \in X$ is the [[tangent space]] at that point, namely the collection of [[infinitesimal space|infinitesimal]] curves in $X$ emanating at $x$: "[[tangent vectors]]". 
 
 For nice enough [[spaces]] such as [[differentiable manifolds]] or more generally [[microlinear spaces]], the tangent bundle of $X$ is a [[vector bundle]] over $X$.  
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/TangentSpaceToSphere.png" width="250"> 
+</div>
+
+For example the graphics on the right shows the [[2-sphere]] with one of its [[tangent spaces]]. The tangent bundle of the sphere is the union of all these [[tangent spaces]], regarded as a [[topological space|topological]] [[bundle]] of [[vector space]] (a [[vector bundle]]) over the 2-sphere.
+
+> graphics grabbed from [Hatcher](vector+bundle#Hatcher)
+ 
+
 
 With a notion of tangent bundle comes the following terminology
 
