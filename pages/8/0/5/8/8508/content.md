@@ -37,6 +37,8 @@ A _super Riemann surface_ is the analog of a [[Riemann surface]] in [[supergeome
 
 * [[picture changing operator]]
 
+* [[adinkra]]
+
 ## References
 
 * S. B. Giddings and P. Nelson, _The Geometry of super Riemann surfaces_, Commun.
