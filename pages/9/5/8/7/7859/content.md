@@ -87,7 +87,7 @@ See for instance ([Street](#Street)).
 +-- {: .num_example}
 ###### Example
 
-Analgous statements hold for (non-commutative) [[superalgebras]], hence for $\mathbb{Z}_2$-[[graded algebras]]. See at _[superalgebra -- Picard 3-group, Brauer group](super+algebra#Picard2Groupoid)_.
+Analogous statements hold for (non-commutative) [[superalgebras]], hence for $\mathbb{Z}_2$-[[graded algebras]]. See at _[superalgebra -- Picard 3-group, Brauer group](super+algebra#Picard2Groupoid)_.
 
 =--
 
