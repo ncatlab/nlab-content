@@ -23,14 +23,14 @@
 
 ## Idea
 
-What is called _adinkras_ ([Faux-Fates 04](#FauxFates04)) is a graphical tool  for classifying [[super multiplets]], originally over [[supersymmetry]] algebras in one dimension ([[supersymmetric quantum mechanics]]). Later adinkras were realized to have relation to classification of [[super Riemann surfaces]] via [[dessins d'enfants]] ([Doran & Iga & Landweber & Mendez-Diez 13](#DoranIgaLandweberMendez-Diez13), [Doran & Iga & Kostiuk &Mendes-Diez 16](#DoranIgaKostiukMendes-Diez16)).
+What is called _adinkras_ ([Faux-Gates 04](#FauxGates04)) is a graphical tool  for classifying [[super multiplets]], originally over [[supersymmetry]] algebras in one dimension ([[supersymmetric quantum mechanics]]). Later adinkras were realized to have relation to classification of [[super Riemann surfaces]] via [[dessins d'enfants]] ([Doran & Iga & Landweber & Mendez-Diez 13](#DoranIgaLandweberMendez-Diez13), [Doran & Iga & Kostiuk &Mendes-Diez 16](#DoranIgaKostiukMendes-Diez16)).
 
 
 ## References
 
 The concept of adinkras was introduced into [[supersymmetry]] [[representation theory]] in 
 
-* {#FauxFates04} [[Michael Faux]], [[Jim Gates]], _Adinkras: A Graphical Technology for Supersymmetric Representation Theory_, Phys.Rev. D71 (2005) 065002 ([hep-th/0408004](https://arxiv.org/abs/hep-th/0408004))
+* {#FauxGates04} [[Michael Faux]], [[Jim Gates]], _Adinkras: A Graphical Technology for Supersymmetric Representation Theory_, Phys.Rev. D71 (2005) 065002 ([hep-th/0408004](https://arxiv.org/abs/hep-th/0408004))
 
 and further developed in 
 
