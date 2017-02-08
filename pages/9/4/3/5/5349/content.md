@@ -49,9 +49,21 @@ $$ rank S = \bigcup_{x \in S} (rank x)^+ ,$$
 
 where $\bigcup$ is the [[supremum]] operation on ordinals (literally the [[union]] for [[von Neumann ordinals]]) and $(-)^+$ is the [[successor]] operation (which is $a \mapsto a \cup \{a\}$ for von Neumann ordinals).
 
+## Rank of a functor
+
+Recall that a [[cardinal number]] $\alpha$ is said to be _regular_ if $|\bigcup_{i\in I} X_i |$&lt;$\alpha$ whenever $|I|$&lt;$\alpha$ and $|X_i|$&lt;$\alpha$ for all $i\in I$.
+
+A functor $F:\mathcal{A}\to \mathcal{B}$  _has rank_ $\alpha$ for some regular cardinal $\alpha$ if $F$ preserves $\alpha$-[[filtered colimit|filtered colimits]]. $F$ _has rank_ when it has rank $\alpha$ for some regular cardinal $\alpha$.
+
+The properties of functors with rank are discussed in section 5.5 of Borceux ([1994](#Borceux2)).
+
 ## Rank of a Lie group
 
 * [[rank of a Lie group]]
+
+## Reference
+
+* {#Borceux2}[[Francis Borceux]], _Handbook of Categorical Algebra vol. 2_ , Cambridge UP 1994.
 
 [[!redirects ranks]]
 
