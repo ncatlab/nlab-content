@@ -659,8 +659,8 @@ Textbook discussion in the context of [[homological algebra]] is around Applicat
 
 and in the context of [[algebraic topology]] in chapter 2.1 of 
 
-* [[Alan Hatcher]], _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
- {#Hatcher}
+* {#Hatcher} [[Allen Hatcher]], _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
+ 
 
 and [chapter 4](http://www.math.upenn.edu/~ghrist/EAT/EATchapter4.pdf) of 
 
