@@ -53,6 +53,222 @@ Here the idea is that $S^7$ can be construed as $\{(x, y) \in \mathbb{H}^2: {|x|
 It is open whether the 4-sphere admits an [[exotic smooth structure]]. See ([Freedman-Gompf-Morrison-Walker 09](#FreedmanGompfMorrisonWalker09)) for review.
 
 
+### Free loop space
+
+We discuss the [[rational homotopy theory]] of the [[free loop space]] of $S^4$, using the results from _[[Sullivan models of free loop spaces]]_:
+
++-- {: .num_example}
+###### Example
+
+Let $X = S^4$ be the [[4-sphere]]. The corresponding [[rational n-sphere]] has minimal Sullivan model
+
+$$
+  (\wedge^\bullet \langle g_4, g_7 \rangle, d)
+$$
+
+with 
+
+$$
+  d g_4 = 0\,,\;\;\;\; d g_7 = -\tfrac{1}{2} g_4 \wedge g_4
+  \,.
+$$
+
+Hence  [this prop.](Sullivan+model+of+free+loop+space#SullivanModelForTheFreeLoopSpace) gives for the rationalization of 
+$\mathcal{L}S^4$ the model
+
+$$
+  ( \wedge^\bullet \langle \omega_4, \omega_6, h_3, h_7 \rangle  , d_{\mathcal{L}S^4} ) 
+$$
+
+
+
+with
+
+$$
+  \begin{aligned}
+    d_{\mathcal{L}S^4} h_3 & = 0
+    \\
+    d_{\mathcal{L}S^4} \omega_4 & = 0
+    \\
+    d_{\mathcal{L}S^4} \omega_6 & = h_3 \wedge \omega_4
+    \\
+    d_{\mathcal{L}S^4} h_7 & = -\tfrac{1}{2} \omega_4 \wedge \omega_4
+    \\
+  \end{aligned}
+$$
+
+and [this prop](Sullivan+model+of+free+loop+space#ModelForS1quotient)
+gives for the rationalization of $\mathcal{L}S^4 / / S^1$ the model
+
+$$
+  ( \wedge^\bullet \langle \omega_2, \omega_4, \omega_6, h_3, h_7 \rangle  , d_{\mathcal{L}S^4 / / S^1} ) 
+$$
+
+with 
+
+$$
+  \begin{aligned}
+    d_{\mathcal{L}S^4 / / S^1} h_3 & = 0
+    \\
+    d_{\mathcal{L}S^4 / / S^1} \omega_2 & = 0
+    \\
+    d_{\mathcal{L}S^4 / / S^1} \omega_4 & = h_3 \wedge \omega_2 
+    \\
+    d_{\mathcal{L}S^4 / / S^1} \omega_6 & = h_3 \wedge \omega_4
+    \\
+    d_{\mathcal{L}S^4 / / S^1} h_7 & = -\tfrac{1}{2} \omega_4 \wedge \omega_4 + \omega_2 \wedge \omega_6
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\hat \mathfrak{g} \to \mathfrak{g}$ be a [[central extension|central]] [[Lie algebra extension]] by $\mathbb{R}$ of a finite dimensional Lie algebra $\mathfrak{g}$, and let $\mathfrak{g} \longrightarrow b \mathbb{R}$ be the corresponding [[L-∞ algebra cohomology|L-∞ 2-cocycle]] with coefficients in the [[line Lie n-algebra|line Lie 2-algebra]] $b \mathbb{R}$, hence ([[schreiber:The brane bouquet|FSS 13, prop. 3.5]]) so that there is a [[homotopy fiber sequence]] of [[L-∞ algebras]]
+
+$$
+  \hat \mathfrak{g}
+    \longrightarrow
+  \mathfrak{g}
+    \overset{\omega_2}{\longrightarrow}
+  b \mathbb{R}
+$$
+
+which is dually modeled by
+
+$$
+  CE(\hat \mathfrak{g})
+    =
+  ( \wedge^\bullet ( \mathfrak{g}^\ast \oplus \langle e \rangle ), d_{\hat \mathfrak{g}}|_{\mathfrak{g}^\ast} = d_{\mathfrak{g}},\;  d_{\hat \mathfrak{g}} e = \omega_2)
+  \,.
+$$
+
+For $X$ a space with [[Sullivan model]] $(A_X,d_X)$ write $\mathfrak{l}(X)$ for the corresponding [[L-∞ algebra]], i.e. for the $L_\infty$-algebra whose [[Chevalley-Eilenberg algebra]] is $(A_X,d_X)$:
+
+$$
+  CE(\mathfrak{l}X) = (A_X,d_X)
+  \,.
+$$
+
+Then there is an [[isomorphism]] of [[hom-sets]]
+
+$$
+  Hom_{L_\infty Alg}( \hat \mathfrak{g}, \mathfrak{l}(S^4) )
+  \;\simeq\;
+  Hom_{L_\infty Alg/b \mathbb{R}}( \mathfrak{g}, \mathfrak{l}( \mathcal{L}S^4 / S^1 ) )
+  \,,
+$$
+
+with $\mathfrak{l}(S^4)$ from [this prop.](Sullivan+model+of+free+loop+space#SullivanModelForTheFreeLoopSpace) 
+and $\mathfrak{l}(\mathcal{L}S^4 //S^1)$ from [this prop.](Sullivan+model+of+free+loop+space#ModelForS1quotient),
+where on the right we have homs in the [[slice category|slice]] over the [[line Lie n-algebra|line Lie 2-algebra]], via [this prop.](Sullivan+model+of+free+loop+space#ModelForS1quotient)
+
+
+
+Moreover, this isomorphism takes
+
+$$
+  \hat \mathfrak{g}
+    \overset{(g_4, g_7)}{\longrightarrow}
+  \mathfrak{l}(S^4) 
+$$
+
+to
+
+$$
+  \array{
+    \mathfrak{g} 
+      &&
+      \overset{(\omega_2,\omega_4, \omega_6, h_3,h_7)}{\longrightarrow}
+      &&
+    \mathfrak{l}( \mathcal{L}X / S^1 )
+    \\
+    & 
+    {}_{\mathllap{\omega_2}}\searrow 
+      && 
+    \swarrow_{\mathrlap{\omega_2}}
+    \\
+    && b \mathbb{R}
+  }
+  \,,
+$$
+
+where
+
+$$
+  \omega_4 = g_4 - h_3 \wedge e
+  \;\,,
+  \;\;\;
+  h_7 = g_7 + \omega_6 \wedge e
+$$
+
+with $e$ being the central generator in $CE(\hat \mathfrak{g})$ from above, and where the equations take place in $\wedge^\bullet \hat \mathfrak{g}^\ast$ with the defining inclusion $\wedge^\bullet \mathfrak{g}^\ast \hookrightarrow \wedge^\bullet \mathfrak{g}^\ast$ understood.
+
+=--
+
+This is observed in ([FSS 16](Sullivan+model+of+free+loop+space#FiorenzaSatiSchreiber16), [FSS 16b](#FSS16b)), where it serves to formalize, on the level of [[rational homotopy theory]], the [[double dimensional reduction]] of [[M-branes]] in [[M-theory]] to [[D-branes]] in [[type IIA string theory]] (for the case that $\mathfrak{g}$ is type IIA [[super Minkowski spacetime]] $\mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}}}$ and $\hat \mathfrak{g}$ is 11d [[super Minkowski spacetime]] $\mathbb{R}^{10,1\vert \mathbf{32}}$, and the cocycles are those of [[schreiber:The brane bouquet]]).
+
++-- {: .proof}
+###### Proof
+
+By the fact that the underlying graded algebras are free, and since $e$ is a generator of odd degree, the given decomposition for $\omega_4$ and $h_7$ is unique.
+
+Hence it is sufficient to observe that under this decomposition the defining equations
+
+$$
+  d g_4 = 0
+  \,,\;\;\;
+  d g_{7} = -\tfrac{1}{2} g_4 \wedge g_4
+$$
+
+for the $\mathfrak{l}S^4$-valued cocycle on $\hat \mathfrak{g}$ turn into the equations for a $\mathfrak{l} ( \mathcal{L}S^4 / S^1 )$-valued cocycle on $\mathfrak{g}$. This is straightforward:
+
+$$
+  \begin{aligned}
+    & d_{\hat \mathfrak{g}} ( \omega_4 + h_3 \wedge e ) = 0
+    \\
+    \Leftrightarrow \;\;\;\;
+    &
+    d_{\mathfrak{g}} (\omega_4 - h_3 \wedge \omega_2) = 0
+    \;\;\; and \;\;\;
+    d_{\mathfrak{g}} h_3 = 0
+    \\
+    \Leftrightarrow \;\;\;\;
+    &
+    d_{\mathfrak{g}} \omega_4 = h_3 \wedge \omega_2
+    \;\;\; and \;\;\;
+    d_{\mathfrak{g}} h_3 = 0
+  \end{aligned}
+$$
+
+as well as
+
+$$
+  \begin{aligned}
+    & d_{\hat \mathfrak{g}} ( h_7 - \omega_6 \wedge e ) 
+      = -\tfrac{1}{2}( \omega_4 + h_3 \wedge e ) \wedge (\omega_4 + h_3\wedge e)
+   \\
+    \Leftrightarrow \;\;\;\;
+    &
+    d_\mathfrak{g} h_7 - \omega_6 \wedge \omega_2
+    =
+    -\tfrac{1}{2}\omega_4 \wedge \omega_4
+    \;\;\; and \;\;\;
+    - d_\mathfrak{g} \omega_6 = - h_3 \wedge \omega_4 
+    \\
+    \Leftrightarrow \;\;\;\;
+    &
+    d_\mathfrak{g} h_7 = -\tfrac{1}{2}\omega_4 \wedge \omega_4  + \omega_6 \wedge \omega_2 
+    \;\;\; and \;\;\;
+    d_\mathfrak{g} h_6 = h_3 \wedge \omega_4
+  \end{aligned}
+$$
+
+=--
+
+
 ### Circle action
   {#CircleAction}
 
@@ -76,7 +292,7 @@ $$
   \,.
 $$ 
 
-Hence both $S^4$ and $S^4 // S^1$ are canonically [[homotopy types]] over $S^3$. A [[KS-model]] in [[rational homotopy theory]] of these projections is given in [Roig & Saralegi-Aranguren 00, second page](#RoigSaralegiAranguren00):
+Hence both $S^4$ and $S^4 // S^1$ are canonically [[homotopy types]] over $S^3$. A [[minimal dg-module]] presentation in [[rational homotopy theory]] for these projections is given in [Roig & Saralegi-Aranguren 00, second page](#RoigSaralegiAranguren00):
 
 Write
 
