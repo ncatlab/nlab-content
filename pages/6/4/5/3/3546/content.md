@@ -1,10 +1,2 @@
 
-* [website](http://www.math.cornell.edu/~hatcher/)
-
-## related $n$-lab entries
-
-* [[topology]], [[algebraic topology]]
-
-* [[Whitehead tower]]
-
-category: people
+> see [[Allen Hatcher]]
