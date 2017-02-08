@@ -20,6 +20,9 @@ What is called _double dimensional reduction_ is a variant of [[Kaluza-Klein mec
 ## Definition
  {#Definition}
 
+
+> The following may be imroved on. See at _[[geometry of physics -- fundamental super p-branes]]_ the _[section on double dimensional reduction](geometry+of+physics+--+fundamental+super+p-branes#DoubleDimensionalReduction)_
+
 Let $\mathbf{H}$ be the [[smooth infinity-groupoid|smooth topos]]. For $p+1 \in \mathbb{N}$ write $\mathbf{B}^{p+1}U(1)_{conn} \in \mathbf{H}$ for the universal [[moduli stack]] of [[circle n-bundles with connection]] (given by the [[Deligne complex]]). 
 
 Notice that [[fiber integration in ordinary differential cohomology]] has the following stacky incarnation (see [here](fiber+integration+in+ordinary+differential+cohomology#ViaSmoothHomotopyType)):
@@ -122,6 +125,10 @@ In particular
 ## References
 
 ### General
+
+The concept of double dimensional reduction was introduced, for the case of the reduction of the [[supermembrane]] in 11d to the [[Green-Schwarz superstring]] in 10d, in
+
+* {#DuffHoweInamiStelle87} [[Michael Duff]], [[Paul Howe]], T. Inami, [[Kellogg Stelle]], _Superstrings in $D=10$ from Supermembranes in $D=11$_, Phys. Lett. B191 (1987) 70 and in [[Michael Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 205-206 (1987) ([spire](http://inspirehep.net/record/245249))
 
 The above "brane scan" table showing the double dimensional reduciton pattern of the super-$p$-branes given by the [[Green-Schwarz action functional]] (see there for more references on this) is taken from 
 
