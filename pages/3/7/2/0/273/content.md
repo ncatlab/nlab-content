@@ -254,6 +254,12 @@ The standard classical monograph focusing on low-dimensional cases is
 
   (aspects of classification of $G$-[[gerbe]]s by cohomology with coefficients in the [[automorphism 2-group]] $AUT(G)$, but imposes extra constraints)
 
+The correct definition using crossed modules of sheaves then appeared in 
+
+* {#Debremaeker76} Raymond Debremaeker, _Cohomologie met waarden in een gekruiste groepenschoof op een situs_, PhD thesis, 1976 (Katholieke Universiteit te Leuven). English translation: 
+_Cohomology with values in a sheaf of crossed groups over a site_, arXiv:[1702.02128](https://arxiv.org/abs/1702.02128)
+
+
 * [[Larry Breen]], _Bitorseurs et cohomologie non-Ab&#233;lienne_ , The Grothendieck Festschrift: a collection of articles written in honour of the 60th birthday of Alexander Grothendieck, Vol. I, edited P.Cartier, et al., Birkh&#228;user, Boston, Basel, Berlin, 401-476, (1990)
 
 * [[Ieke Moerdijk]], _Lie Groupoids, Gerbes, and Non-Abelian Cohomology _ ([journal](http://www.springerlink.com/content/ul554x3077444545/))
