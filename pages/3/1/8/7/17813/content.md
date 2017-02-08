@@ -36,7 +36,7 @@ Accordingly,  each of the exceptional invariant cocycles on [[super Minkowski sp
 that appear in, or rather that _define_ [[string theory]] and [[M-theory]] ("M-theory" is a "non-committal" shorthand for "membrane theory", [(Ho&#345;ava-Witten 95, p. 2](#M-theory#NonCommittal)) -- a fact known as the "old [[brane scan]]" ([Ach&#250;carro-Evans-TownsendWiltshire 87](#AETW87)).
 
 <div style="float:left;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/schreiber/files/SecondBraneExtensions.png" width="350">
+<img src="https://ncatlab.org/schreiber/files/TheSecondBraneExtensions.png" width="350">
 </div>
 
 Now in higher generalization of how an invariant 2-cocycle on some [[super Minkowski spacetime]] corresponds to a [[central extension|central]]
@@ -2402,7 +2402,7 @@ This phenomenon continues:
 The [[diagram]] of [[super Lie algebras]] shown on the right
 
 <div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/schreiber/files/SpacetimeExtensions.png" width="350">
+<img src="https://ncatlab.org/schreiber/files/TheSpacetimeExtensions.png" width="350">
 </div>
 
 is obtained by consecutively forming maximal central extensions invariant with respect to the maximal subgroup of automorphisms for which there are invariant cocycles at all. Here $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ is the $d$, $\mathbf{N}$ super-translation [[supersymmetry]] algebra. And these subgroups are the [[spin group]] covers $Spin(d-1,1)$ of the [[Lorentz groups]] $O(d-1,1)$.
@@ -2496,7 +2496,7 @@ below in remark \ref{TheNatureOfTheD0Cocycle}.
 
 +-- {: .num_prop #CocyclesForSuperStringAndSupermembrane}
 ###### Proposition
-**([Ach&#250;carro-Evans-Townsend-Wiltshire 87](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#AETW87), [Azc&#225;rraga-Townsend 89](Green-Schwarz+action+functional#AzcarragaTownsend89) [Brandt 12-13](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#Brandt12-13))**
+**([Ach&#250;carro-Evans-Townsend-Wiltshire 87](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#AETW87), [Azc&#225;rraga-Townsend 89](Green-Schwarz+action+functional#AzcarragaTownsend89), [Brandt 12-13](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#Brandt12-13))**
 
 The maximal invariant 3-cocycle on 10d [[super Minkowski spacetime]] (according to remark \ref{SuperMinkowskiInvariantCocycles}) is
 
@@ -2783,7 +2783,7 @@ Hence the progression of maximal invariant extensions of the superpoint continue
 
 $\,$
 
-<img src="https://ncatlab.org/schreiber/files/FirstBraneExtensions.png" width="450">
+<img src="https://ncatlab.org/schreiber/files/TheFirstBraneExtensions.png" width="450">
 
 $\,$
 
@@ -3524,7 +3524,7 @@ of the superpoint, there emrges first [[spacetime]] and then the fundamental [[p
 
 $\,$
 
-<img src="https://ncatlab.org/schreiber/files/SecondBraneExtensions.png" width="550">
+<img src="https://ncatlab.org/schreiber/files/TheSecondBraneExtensions.png" width="550">
 
 
 $\,$
@@ -7418,7 +7418,7 @@ The derivation of supersymmetric [[topological T-duality]], rationally, and of t
 
 The derivation of the process of higher invariant extensions that leads from the [[superpoint]] to [[11-dimensional supergravity]]:
 
-* {#MTheoryFromTheSuperpoint} [[John Huerta]], [[Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_
+* {#MTheoryFromTheSuperpoint} [[John Huerta]], [[Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_ ([arXiv:1702.01774](https://arxiv.org/abs/1702.01774))
 
 General discussion of [[twisted cohomology]] is in
 
