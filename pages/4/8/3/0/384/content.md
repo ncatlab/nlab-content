@@ -340,7 +340,7 @@ Basic textbook accounts include
   
 * {#HatcherTopologyOfCellComplexes} [[Allen Hatcher]], _Topology of cell complexes_ ([pdf](https://www.math.cornell.edu/~hatcher/AT/ATapp.pdf)) in _Algebraic Topology_
 
-* {#HatcherK} [[Alan Hatcher]], _Vector bundles & K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+* {#HatcherK} [[Allen Hatcher]], _Vector bundles & K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
 * {#FP} Rudolf Fritsch and Renzo A. Piccinini, _Cellular structures in topology_, Cambridge studies in advanced mathematics Vol. 19, Cambridge University Press (1990). ([pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf)) 
 
