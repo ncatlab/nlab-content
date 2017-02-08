@@ -915,4 +915,10 @@ Discussion of characterization of principal bundles by rational [[universal char
 
 * Igor Belegradek, _Pinching, Pontrjagin classes, and negatively curved vector bundles_ ([arXiv:math/0001132](http://arxiv.org/abs/math/0001132))
 
+Discussion of classifying spaces in the context of [[measure theory]] is in 
+
+* {#Marin17} Ivan Marin, _Measure theory and classifying spaces_ ([arXiv:1702.01889](https://arxiv.org/abs/1702.01889))
+
+
+
 [[!redirects classifying spaces]]
