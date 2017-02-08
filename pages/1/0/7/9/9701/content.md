@@ -37,5 +37,8 @@ Reviews include
 
 * [[Allen Hatcher]], page 22 of _Vector bundles and K-theory_ ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
+* {#Wirthmuller12} [[Klaus Wirthmüller]], p. 17-28 of _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
+
+
 * Wikipedia, _[Clutching construction](http://en.wikipedia.org/wiki/Clutching_construction)_
 
