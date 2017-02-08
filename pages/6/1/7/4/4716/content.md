@@ -147,9 +147,9 @@ of an orientable surface_, Invent. Math., 72(2):221&#8211;239, 1983; _The cohomo
 Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 
 
-* [[Alan Hatcher]], [[William Thurston]], _A presentation for the mapping class group of a closed orientable surface_, Topology, 19(3):221&#8211;237, 1980.
+* [[Allen Hatcher]], [[William Thurston]], _A presentation for the mapping class group of a closed orientable surface_, Topology, 19(3):221&#8211;237, 1980.
 
-* {#Hatcher12} [[Alan Hatcher]], _A 50-Year View of DiffeomorphismGroups_, talk at the 50th Cornell Topology Festival in May 2012 ([pdf](http://www.math.cornell.edu/~hatcher/Papers/Diff%28M%292012.pdf))
+* {#Hatcher12} [[Allen Hatcher]], _A 50-Year View of Diffeomorphism Groups_, talk at the 50th Cornell Topology Festival in May 2012 ([pdf](http://www.math.cornell.edu/~hatcher/Papers/Diff%28M%292012.pdf))
 
 * [[Max Dehn]], Papers on group theory and topology. Springer-Verlag,
 New York, 1987. Transl. from German with intro. and appendix by John Stillwell, and appendix by [[Otto Schreier]].
