@@ -122,5 +122,16 @@ Careful discussion of [[observables]] in gravity is in
 
 * {#Khavkine14} [[Igor Khavkine]],  _Local and gauge invariant observables in gravity_, talk at [Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html), preprint [arXiv:1503.03754](https://arxiv.org/abs/1503.03754)
 
+### Non-renormalizability
+
+The result that gravity is not [[renormalization|renormalizable]] is due to
+
+* {#tHooftVelrman74} [[Gerard 't Hooft]] and [[Martinus Veltman]], _One loop divergencies in the theory of gravitation_, Ann. Inst. Poincar &#233; 20 (1974) 69.
+
+Review includes
+
+* [[Zvi Bern]], _Perturbative quantum gravity and its relation to gauge theory_, Living reviews in relativity, [www.livingreviews.org/Articles/Volume5/2002-5bern](www.livingreviews.org/Articles/Volume5/2002-5bern)
+.
+
 
 [[!redirects Einstein gravity]]
