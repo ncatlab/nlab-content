@@ -214,9 +214,19 @@ consanguinity and affinity_ , J. Royal Anthr. Inst. **12** (1882) pp.46-63.
 
 * Rudolf Carnap, _Introduction to Symbolic Logic and its Applications_ , Dover New York 1958. (pp.220-225, 230)
 
-A comprehensive anthology is
+An obstinate 70s' rumour has it that 'kinship' boils down to a Western folk myth. Already better informed:
+
+* Ernest Gellner, _The concept of kinship_ , Philosophy of Science **27** (1960) pp.187&#8211;204. 
+
+A comprehensive and highly recommendable anthology is
 
 * {#PS04}Robert Parkin, Linda Stone (eds.), _Kinship and Family_ , Blackwell Oxford 2004.
+
+Current textbooks include 
+
+* Robert Parkin, _Kinship: An Introduction to the Basic Concepts_ , Blackwell Oxford 1997.
+
+* Linda Stone, _Kinship and Gender: An Introduction_ , Westview 2013.
 
 Classical anthropological texts are 
 
@@ -233,10 +243,6 @@ More recent texts include
 * Maurice Godelier, _M&#233;tamorphoses de la parent&#233;_ , Fayard Paris 2004.
 
 * {#GTT98}Maurice Godelier, Thomas R. Trautmann, Franklin E. Tjon Sie Fat (eds.), _Transformations of Kinship_ , Smithsonian Institute Washington 1998.
-
-* Robert Parkin, _Kinship: An Introduction to the Basic Concepts_ , Blackwell Oxford 1997.
-
-* Linda Stone, _Kinship and Gender: An Introduction_ , Westviev 2013.
 
 The permutation model originates with
 
