@@ -605,8 +605,8 @@ The details of the proof are surveyed in
 
 Tables showing the image of $J$ at low primes are in 
 
-* [[Alan Hatcher]], _Stable homotopy groups of spheres_ ([html](http://www.math.cornell.edu/~hatcher/stemfigs/stems.html))
- {#Hatcher}
+* {#Hatcher} [[Allen Hatcher]], _Stable homotopy groups of spheres_ ([html](http://www.math.cornell.edu/~hatcher/stemfigs/stems.html))
+ 
 
 
 Other reviews include
