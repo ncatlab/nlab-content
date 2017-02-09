@@ -2281,48 +2281,6 @@ ring structure
 * [Aguilar-Gitler-Prieto 02, section 9](#AguilarGitlerPrieto02)
 
 
-
-
-
-## **Fundamental product theorem**
-
-* [[fundamental product theorem in K-theory]]
-
-* [[clutching construction]]
-
-
-### References
-
-* [Wirthmuller 12, p. 17 to p. 29](#Wirthmuller12)
-
-* [Hatcher, p. 41-51](#Hatcher)
-
-
-
-## **Bott periodicity**
-  {#BottPeriodicity}
-
-* [[Bott periodicity]]
-
-### References
-
-* [Wirthmuller 12, p. 34 and previous](#Wirthmuller12)
-
-* [Hatcher, section 2.2](#Hatcher)
-
-* [Aguilar-Gitler-Prieto 02, appendix B](#AguilarGitlerPrieto02)
-
-
-
-## **Examples of K-groups**
-
-[Blair 09](#Blair09)
-
-### References
-
-* {#Blair09} Chris Blair, _Some K-theory examples_, 2009 ([pdf](http://www.maths.tcd.ie/~cblair/notes/kex.pdf))
-
-
 ## **Generalized cohomology**
   {#GeneralizedCohomology}
 
@@ -2338,6 +2296,15 @@ There are two versions of the statement of the axioms:
 There are functors taking any reduced cohomology theory to an unreduced one, and vice versa. When some fine detail in the axioms is suitably set up, then this establishes an [[equivalence of categories|equivalence]] between reduced and unreduced generalized cohomology:
 
 * _[Relation between reduced and unreduced cohomology](#RelationBetweenReducedAndUnreduced)_
+
+
+### Mapping cones 
+
+* [[mapping cylinder]]
+
+* [[mapping cone]]
+
+* [[homotopy cofiber]]
 
 
 ### Reduced cohomology
@@ -3157,7 +3124,7 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 
 
 
-### K-Theory as Generalized cohomology
+### Exmaple: Ordinary cohomology
 
 (...)
 
@@ -3171,10 +3138,75 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 
 
 
+## **Clutching construction and Product theorem**
+
+* [[clutching construction]]
+
+* [[fundamental product theorem in K-theory]]
+
+
+
+### References
+
+* [Wirthmuller 12, p. 17 to p. 29](#Wirthmuller12)
+
+* [Hatcher, p. 41-51](#Hatcher)
+
+
+
+
+
+## **K-Cohomology theory**
+  {#BottPeriodicity}
+
+### K-Theory as a Generalized cohomology theory
+
+(...)
+
+### Bott periodicity
+
+* [[Bott periodicity]]
+
+### References
+
+* [Wirthmuller 12, p. 34 and previous](#Wirthmuller12)
+
+* [Hatcher, section 2.2](#Hatcher)
+
+* [Aguilar-Gitler-Prieto 02, appendix B](#AguilarGitlerPrieto02)
+
+
+## **Splitting principle**
+
+* [[splitting principle]]
+
+### References
+
+[Wirthmuller 12, section 10](#Wirthmuller12)
+
+
+## **Examples of K-groups**
+
+[Blair 09](#Blair09)
+
+### References
+
+* {#Blair09} Chris Blair, _Some K-theory examples_, 2009 ([pdf](http://www.maths.tcd.ie/~cblair/notes/kex.pdf))
+
+
+
+
+
 
 ## **Adams operations**
 
-* [[Adams operation]]
+* [[cohomology operation]]
+
+* [[Lambda-ring]] structure on K-theory
+
+* [[Adams operations]]
+
+* [[topological invariance of dimension]]
 
 ### References
 
