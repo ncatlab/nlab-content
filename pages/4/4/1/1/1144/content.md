@@ -48,6 +48,10 @@ The connection between these two appoaches is discussed in ([Majewski 00](#Majew
 
 (Beware that --  while both rational homotopy types as well as $L_\infty$-algebras are presented by [[formal duals]] of [[dg-algebras]] (via [[Sullivan construction]] and via forming [[Chevalley-Eilenberg algebras]], respectively) -- the class of [[weak equivalences]] in the former case strictly includes that in the latter. See [this remark](model+structure+for+L-infinity+algebras#OndgCoAlgWEs) at _[[model structure for L-∞ algebras]]_.)
 
+$\,$
+
+Rational homotopy theory is mostly restricted to [[simply connected topological spaces]]. This is due to the existence of [[acyclic groups]] $\Gamma$ whose [[classifying space]] $B \Gamma$ is an "acyclic space" in that its [[ordinary cohomology]] vanishes in positive degrees. This means that [[Sullivan algebras]] do not distinguish classifying spaces of rational groups from [[contractible spaces]]. But by [[Hurewicz theorem]] asking that all spaces be [[simply connected topological space|simply connected]] precisely makes all "acyclic spaces" be [[contractible topological space|contractible]].
+
 
 ## Sullivan approach
 
