@@ -40,6 +40,9 @@ As a [[topological space]], the _M&#246;bius strip_ is
     \right)
   $$
 
+As a [[real vector bundle|real]] [[line bundle]] the M&#246;bius strip is
+
+* the result of applying the unique non-trivial [[clutching construction]] for real lines over the [[circle]]. 
 
 ## Related concepts
 
