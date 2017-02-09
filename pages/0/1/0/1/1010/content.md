@@ -178,6 +178,8 @@ Now let $ C $ be a $ U $-moderate category (and not small). Then the category of
 
 * Zhen Lin Low, _Universes for category theory_, [arxiv/1304.5227](http://arxiv.org/abs/1304.5227)
 
+* [[Daniel Murfet]], _Foundations for category theory_,
+[pdf](http://therisingsea.org/notes/FoundationsForCategoryTheory.pdf)
 
 The proof that a Grothendieck universe is equivalently a set of $ \kappa $-small sets for $ \kappa $ an [[inaccessible cardinal]] is in 
 
