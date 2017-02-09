@@ -129,6 +129,8 @@ Following the practice of [[centipede mathematics]], we can remove certain prope
 
 * [[divisible group]]
 
+* [[acyclic group]]
+
 * [[topological group]]
 
   * [[discrete group]]
