@@ -273,7 +273,7 @@ The [[topological K-theory]] ring $K(X)$ of any [[topological space]] carries th
 
 =--
 
-This is originally due to [[Alexander Grothendieck]].
+This is originally due to [[Alexander Grothendieck]]. See for instance [Wirthmuller 12, section 11](Introduction+to+topological+K-Theory#Wirthmuller12) and see at _[[Adams operations]]_.
 
 +-- {: .num_example}
 ###### Example
