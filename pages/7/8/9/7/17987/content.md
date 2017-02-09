@@ -1504,23 +1504,36 @@ This is known as the _[[Hurewicz theorem]]_.
 
 * [[associated bundle]]
 
+### The tensor category of vector bundles
+
+* [[tensor category]]
+
+[[category of vector bundles]]
+
 * [[direct sum of vector bundles]]
 
 * [[tensor product of vector bundles]]
 
+* [[dual vector bundle]]
+
 * [[pullback bundle]]
 
-[[category of vector bundles]]
-
-* [[tensor category]]
 
 
-Examples
+### Examples
 
 * [[Möbius strip]]
 
+* [[canonical bundle]]
+
+* [[basic line bundle on the 2-spere]]
+
+* [[clutching construction]]
+
+* [[universal vector bundle]], [[universal complex line bundle]]
 
 
+### Basic properties
 
 metric structure
 
@@ -1533,6 +1546,7 @@ over [[compact topological spaces]]
 * [[concordance]]
 
 * direct summand of trivial bundle
+
 
 ### References
 
@@ -2244,9 +2258,9 @@ A full proof is spelled out in ([Hatcher, section 1.2, theorem 1.16](#Hatcher))
 * [Aguilar-Gitler-Prieto 02, sections 8.3-8-5](#AguilarGitlerPrieto02)
 
 
-## **The K-theory ring $K^\bullet(-)$**
+## **The K-theory functor $K^\bullet(-)$**
  {#KTheoryRing}
- 
+
 
 * [[Grothendieck group]]
 
@@ -2272,7 +2286,10 @@ ring structure
 
 ## **Fundamental product theorem**
 
+* [[fundamental product theorem in K-theory]]
+
 * [[clutching construction]]
+
 
 ### References
 
@@ -2309,7 +2326,7 @@ ring structure
 ## **Generalized cohomology**
   {#GeneralizedCohomology}
 
-We fist say what [[generalized (Eilenberg-Steenrod) cohomology theory]] is, and then we check that the 
+We fist say what [[generalized (Eilenberg-Steenrod) cohomology theory]] is, and then we check that the
 topological K-theory functor $K^\bullet$ from [above](#KTheoryRing) is an example.
 
 There are two versions of the statement of the axioms:
@@ -3207,10 +3224,10 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 ## $(\star)$ **The K-theory spectrum**
  {#TheSpectrumKU}
 
-This section goes beyond an introduction, in that it requires more tools 
-from [[algebraic topology]]. We include it for completeness and as outlook. 
+This section goes beyond an introduction, in that it requires more tools
+from [[algebraic topology]]. We include it for completeness and as outlook.
 
-The relevant background for this section is laid out in 
+The relevant background for this section is laid out in
 
 * _[[Introduction to Stable homotopy theory -- P|Introduction to stable homotopy theory -- Classical homotopy theory]]_
 
@@ -3218,7 +3235,7 @@ The relevant background for this section is laid out in
 
 The main point is that in terms of the [[classifying spaces]] (as [above](#ClassifyingSpaces))
 
-$B U \times \mathbb{Z}$ and $U$ for $K^0$ and for $K^1$ 
+$B U \times \mathbb{Z}$ and $U$ for $K^0$ and for $K^1$
 
 the phenomenon of [[Bott periodicity]] (as [above](#BottPeriodicity)) is represented by the existence of [[weak homotopy equivalences]]
 
@@ -3226,7 +3243,7 @@ $$
   (B U) \times \mathbb{Z} \overset{\simeq_{whe}}{\longrightarrow} \Omega U
 $$
 
-and 
+and
 
 $$
   U \overset{\simeq_{whe}}{\longrightarrow} \Omega((B U) \times \mathbb{Z})
@@ -3237,7 +3254,7 @@ The last one is immediate, but the first one requires work, see [Aguilar-Gitler-
 Together these show that the sequence of spaces [[KU]] with
 
 $$
-  KU_n \coloneqq 
+  KU_n \coloneqq
   \left\{
     \array{
       (B U) \times \mathbb{Z} & \vert n\;\text{even}
@@ -3264,6 +3281,6 @@ $K^\bullet(-)$ as a [[generalized (Eilenberg-Steenrod) cohomology]] theory, as [
 
 * {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
-* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 
