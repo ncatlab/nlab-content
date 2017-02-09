@@ -293,8 +293,10 @@ $$
   1
   \in 
   \mathbb{Z} \simeq H^2(S^2, \mathbb{Z})
-  \,.
+  \,,
 $$
+
+the [[basic line bundle on the 2-sphere]].
 
 
 =--
