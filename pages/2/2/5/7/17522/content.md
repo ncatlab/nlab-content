@@ -25,6 +25,10 @@ Given two [[vector bundles]] $V_1 \to X$ and $V_2 \to X$ over the same base spac
 
 * [[direct sum of vector bundles]]
 
+* [[dual vector bundle]]
+
+* [[tensor category]]
+
 [[!redirects tensor products of vector bundles]]
 
 [[!redirects tensor product of line bundles]]
