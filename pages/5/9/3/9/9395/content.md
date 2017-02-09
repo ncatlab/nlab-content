@@ -82,7 +82,7 @@ $$
 then its _Hopf construction_ is the continuous function
 
 $$
-  H_f \colon X \ast Y \longrightarrow \Sigma Y
+  H_f \colon X \ast Y \longrightarrow \Sigma Z
 $$
 
 out of the [[join of topological spaces|join]] into the [[suspension]], given in the coordinates of def. \ref{SuspensionJoin} by
