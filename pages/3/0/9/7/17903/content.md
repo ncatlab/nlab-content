@@ -72,7 +72,7 @@ An immediate consequence of the &#321;o&#347; theorem is the [[nonstandard analy
 The [[compactness theorem]] also follows quickly from the &#321;o&#347; theorem, so anything that you [build](http://math.stackexchange.com/questions/413770/most-astonishing-applications-of-compactness-theorem-outside-logic) using compactness can be realized a bit more concretely as an ultraproduct.
 
 ## Remarks
-The proposition should be interpreted as saying that [[Set]] simultaneously carries a [[pretopos]] structure and an [[ultracategory]] structure, and that these two structures commute. This is the starting point of [[Makkai duality]].
+The proposition should be interpreted as saying that [[Set]] simultaneously carries a [[pretopos]] structure and an [[ultracategory]] structure, and that these two structures commute. Indeed, one can view [[Set]] as a [[dualizing object]] for a generalized [[Stone duality]] between pretoposes and ultracategories; this is the starting point of [[Makkai duality]].
 
 There is an analogous statement for ultraproducts of structures in [[continuous logic]].
 
