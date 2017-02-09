@@ -30,7 +30,7 @@ $$
   i \;\colon\; S^2 \longrightarrow B U(1)
 $$
 
-for a representative of $1 \in \mathbb{Z} \simeq  \pi_2(B U(1))$. Regard both $S^2$ and $B U(1)$ as [[pointed homotopy types]] and take $i$ to be a pointed morphism.
+for a representative of $1 \in \mathbb{Z} \simeq  \pi_2(B U(1))$, classifying the [[universal complex line bundle]]. Regard both $S^2$ and $B U(1)$ as [[pointed homotopy types]] and take $i$ to be a pointed morphism.
 
 Let $E^\bullet$ be a [[multiplicative cohomology theory]], i.e. a [[functor]] $X \mapsto \pi_\bullet[X,E]$ for $E$ a [[ring spectrum]]. Write $\tilde E^\bullet$ for the corresponding [[reduced cohomology]] on [[pointed topological spaces]], such that for any pointed space $X$ there is a canonical [[direct sum]] decomposition ([this prop.](generalized+%28Eilenberg-Steenrod%29+cohomology#UnreducedCohomologyIsReducedPlusPointValue))
 
