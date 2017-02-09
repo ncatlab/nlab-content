@@ -42,9 +42,10 @@ See at _[[classifying space]]_.
 
 * [[Milnor construction]]
 
-* [[universal vector bundle]]
+* [[universal vector bundle]], [[universal complex line bundle]]
 
 * [[universal principal infinity-bundle]].
+
 
 ## References
 
