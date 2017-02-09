@@ -27,6 +27,7 @@ $$
 
 of the bundle $\Omega^1_X$ of 1-forms.
 
+
 The [[first Chern class]] of this bundle is also called the **canonical [[characteristic class]]** or just the **canonical class** of $X$.
 
 Often this bundle is regarded via its [[sheaf]] of [[sections]].
@@ -35,12 +36,14 @@ A [[square root]] of the canonical class, hence another characteristic class $\T
 
 ## Examples
 
-### In complex analytic 
+### In complex analytic geometry
  {#InComplexAnalysis}
 
-For $X$ [[complex manifold]] regarded over the complex numbers, then [[Kähler differential forms]] are _holomorphic_ forms. Hence the canonical bundle for $dim_{\mathbb{C}}(X) = n$ is $\Omega^{n,0}$ (see also at _[[Dolbeault complex]]_).
+For $X$ [[complex manifold]] regarded over the complex numbers, then [[Kähler differential forms]] are _holomorphic_ forms. Hence the canonical bundle for $dim_{\mathbb{C}}(X) = n$ is $\Omega^{n,0}$ (see also at _[[Dolbeault complex]]_), a [[complex line bundle]].
 
 For $X$ a [[Riemann surface]] of [[genus of a surface|genus]] $g$, the [[degree of a coherent sheaf|degree]] of the canonical bundle is $2 g - 2$. This means it is divisible by 2 and hence there are "[[Theta characteristic]]" square roots.
+
+In particular the [[first Chern class]] of the canonical bundle on the [[2-sphere]] is _twice_ that of the [[basic line bundle on the 2-sphere]], the generator in $H^2(S^2, \mathbb{Z}) \simeq \mathbb{Z}$. See also at _[[geometric quantization of the 2-sphere]]_.
 
 
 ## Related concepts
