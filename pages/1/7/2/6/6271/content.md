@@ -1,31 +1,29 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 _Borel's theorem_ says that every [[power series]] is the [[Taylor series]] of some [[smooth function]]. In other words: for every collection of prescribed [[partial derivatives]] at some point, there is a smooth function having these as actual partial derivatives.
 
-## Statement
 
-+-- {: .num_theorem}
+## Statements
+
++-- {: .num_theorem #basic}
 ###### Theorem
 
-The canonical map from the ring of germs of $C^\infty$ function at $0\in\mathbb{R}^n$ to the ring of formal power series obtained
-by taking the Taylor series at $0$ is surjective.
-
+The canonical map from the ring of germs of $C^\infty$ function at $0 \in \mathbb{R}^n$ to the ring of formal power series obtained by taking the Taylor series at $0$ is surjective.
 =--
 
 There are many extensions and variants. 
@@ -35,7 +33,7 @@ For $\mathbb{R}^{n+m}$ a [[Cartesian space]] of [[dimension]] $n+m \in \mathbb{N
 
 Write $m^\infty_{\mathbb{R}^n \times \{0\}} \subset C^\infty(\mathbb{R}^{n+m})$ for the ideal of functions all whose [[partial derivative]]s along $\mathbb{R}^m$ vanish.
 
-+-- {: .num_theorem}
++-- {: .num_theorem #general}
 ###### Theorem
 
 Forming the [[Taylor series]] constitutes an [[isomorphism]]
@@ -51,6 +49,27 @@ between smooth functions modulo those whose derivatives along $\mathbb{R}^m$ van
 =--
 
 This appears for instance as ([Moerdijk-Reyes, theorem I.1.3](#MoerdijkReyes)).
+
+
+## Proof
+
+There is a full proof in Moerdijk--Reyes, cited above.  Here we prove Theorem \ref{basic} to indicate the method; the general version is not substantially different.  (This is based on the proof in [the English Wikipedia article](https://en.wikipedia.org/wiki/Borel%27s_lemma) at the time of writing.)
+
++-- {: .proof}
+###### Proof (of Theorem \ref{basic})
+
+A real [[power series]] at $0$ is given simply by an [[infinite sequence]] $c = (c_n)_{n\geq{0}}$ of [[real numbers]].  Given such a sequence, we would ideally use
+$$ f(x) = \sum_{n=0}^\infty c_n x^n ,$$
+but this is only correct if the sum converges on at least some [[neighbourhood]] of $0$ (in other words if the power series has a positive [[radius of convergence]]).
+
+To ensure this, let $\psi$ be a [[smooth function|smooth]] [[bump function]] chosen so that $\psi(x) = 1$ for ${|x|} \leq 1$ and $\psi(x) = 0$ for ${|x|} \geq 2$.  (For example, $\psi(x) = \frac{\phi(x + 2)} {\phi(x + 2) + \phi(-x - 1)} \frac{\phi(-x + 2)} {\phi(-x + 2) + \phi(x - 1)}$, where $\phi(x)$ is $\exp(-1/x)$ when $x \gt 0$ and otherwise vanishes.)  Next, choose an infinite sequence $\epsilon = (\epsilon_n)_{n\geq{0}}$:
+$$ \epsilon_n = \max_{0\leq{k}\lt{n}/2} \root{n-2k} {\frac{2^{k-2n}} {n^{\underline{k}} {\|\psi^{(k)}\|_\infty}}} $$
+(where $n^{\underline{k}}$ is the [[falling power]] $\prod_{0\leq{i}\lt{k}} (n - i)$, as discussed at [[binomial theorem]]).  Finally, define
+$$ f(x) = \sum_{n=0}^\infty c_n \phi(x/\epsilon_n) x^n .$$
+
+{I still need to explain why this series converges for all $x$ and has the desired derivatives at $0$.  It\'s also possible that I have miscalculated $\epsilon$, in which case I should discover so as I finish this.}
+=--
+
 
 ## Related theorems
 
@@ -91,8 +110,17 @@ A generalization to [[Banach spaces]] is in
 and is cited (along with extensive discussion and (counter)examples) also as (Ch.III) 15.4 in 
 
 * [[Andreas Kriegl]], [[Peter Michor]], _[[The Convenient Setting of Global Analysis]]_, Mathematical Surveys and Monographs, 53 AMS (1997) [pdf](http://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)
-
  
 
+[[!redirects Borel's theorem]]
+[[!redirects Borel\'s theorem]]
+[[!redirects Borel/'s theorem]]
+[[!redirects Borel's theorem]]
 [[!redirects Borel theorem]]
 [[!redirects Borel's theorem on power series]]
+
+[[!redirects Borel's lemma]]
+[[!redirects Borel\'s lemma]]
+[[!redirects Borel/'s lemma]]
+[[!redirects Borel's lemma]]
+[[!redirects Borel lemma]]
