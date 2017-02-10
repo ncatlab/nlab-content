@@ -179,3 +179,5 @@ Here is [Chapter 1](http://www.math.psu.edu/katok_a/TOPOLOGY/Chapter1.pdf) (pdf)
 
 [[!redirects join of spaces]]
 [[!redirects joins of spaces]]
+
+[[!redirects suspensions]]
