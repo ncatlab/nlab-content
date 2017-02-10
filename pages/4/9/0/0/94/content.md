@@ -41,10 +41,8 @@ $L_\infty$-algebras are [[infinitesimal space|infinitesimal]] approximations of 
 
 The identification of the concept of (super-)$L_\infty$-algebras has a non-linear history:
 
-[[L-∞ algebras]] in the incarnation of higher brackets satisfying a higher Jacobi identity (def. \ref{LInfinityDefinitionViaGeneralizedJacobiIdentity}) were introduced in [Lada-Stasheff 92](#LadaStasheff92), based on the 
-example of such a structure on the [[BRST complex]] of the [[bosonic string]] that  was found in the construction of [[closed string field theory]] in [Zwiebach 92](#Zwiebach92). Zwiebach in turn had been following the [[BV-formalism]] of [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83), whose relation to $L_\infty$-algebras was later amplified in [Stasheff 96](#Stasheff96), [Stasheff 97](#Stasheff97)
-
-Some of this history is recalled in [Stasheff 16](#Stasheff16).
+[[L-∞ algebras]] in the incarnation of higher brackets satisfying a higher Jacobi identity (def. \ref{LInfinityDefinitionViaGeneralizedJacobiIdentity}) were introduced in [Stasheff 92](#Stasheff92), [Lada-Stasheff 92](#LadaStasheff92), based on the 
+example of such a structure on the [[BRST complex]] of the [[bosonic string]] that  was reported in the construction of [[closed string field theory]] in [Zwiebach 92](#Zwiebach92). According to [Stasheff 16, slide 25](#Stasheff16), Zwiebach had this structure already in 1989, when Stasheff recognized it in a talk by Zwiebach at a [[GUT]] conference in Chapel-Hill.  Zwiebach in turn had been following the [[BV-formalism]] of [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83), whose relation to $L_\infty$-algebras was later amplified in [Stasheff 96](#Stasheff96), [Stasheff 97](#Stasheff97).
 
 The observation that these systems of higher brackets are fully characterized by their Chevalley-Eilenberg dg-(co-)algebras
 is due to [Lada-Markl 94](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaMarkl94).
@@ -632,6 +630,8 @@ and
 ### General
 
 The concept of $L_\infty$-algebras as graded vector spaces equipped with $n$-ary brackets satisfying a generalized Jacobi identity was introduced in this generality in
+
+* {#Stasheff92} [[Jim Stasheff]], _Differential graded Lie algebras, quasi-Hopf algebras and higher homotopy algebras_, in _Quantum groups_ Number 1510 in Lecture Notes in Math. Springer, Berlin, 1992
 
 * {#LadaStasheff92} [[Tom Lada]], [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099))
 
