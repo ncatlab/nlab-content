@@ -42,7 +42,7 @@ graphics grabbed from <a href="https://ncatlab.org/nlab/show/vector+bundle#Hatch
 For example if $X$ is [[differentiation|differentiable]], then at each of its points there is a [[vector space]] of _[[tangent vectors]]_ called the [[tangent space]] at that point. The collection of these [[tangent spaces]] forms a [[vector bundle]] called the _[[tangent bundle]]_. The graphics on the right shows one tangent space to the [[2-sphere]].
 
 
-Just as two [[nLab:vector spaces]] may be combined in their [[nLab:direct sum]], so two [[nLab:vector bundles]] may be combined by point-wise direct sum of their [[nLab:fibers]]. This makes the [[nLab:isomorphism classes]] of [[nLab:vector bundles]] over a fixed topological space form a [[nLab:semi-group]] (in fact a [[nLab:monoid]]). The key idea of [[nLab:topological K-theory]] is to turn this [[nLab:semi-group]] of vector bundles into an actual ([[nLab:abelian group|abelian]]) [[nLab:group]] by adjoining [[nLab:inverses]], a general procudure known as the _[[nLab:Grothendieck group]]_ construction, after its inventor. Applied to the semi-group of [[nLab:isomorphism classes]] of  [[nLab:vector bundles]], this yields the abelian group that is called the _[[nLab:topological K-theory]]_ group of the underlying topological space. Here the "K" refers to the passage to ([[nLab:isomorphism]]) classes (German: _Klassen_).
+Just as two [[vector spaces]] may be combined in their [[direct sum]], so two [[vector bundles]] may be combined by point-wise direct sum of their [[fibers]]. This makes the [[isomorphism classes]] of [[vector bundles]] over a fixed topological space form a [[semi-group]] (in fact a [[monoid]]). The key idea of [[topological K-theory]] is to turn this [[semi-group]] of vector bundles into an actual ([[abelian group|abelian]]) [[group]] by adjoining [[inverses]], a general procudure known as the _[[Grothendieck group]]_ construction, after its inventor. Applied to the semi-group of [[isomorphism classes]] of  [[vector bundles]], this yields the abelian group that is called the _[[topological K-theory]]_ group of the underlying topological space. Here the "K" refers to the passage to ([[isomorphism]]) classes (German: _Klassen_).
 
 
 +-- {: principle}
@@ -86,25 +86,25 @@ $$
 
 This [[abelian group]] obtained from $(Vect(X)_{/\sim}, \oplus)$ is denoted $K(X)$ and often called _the K-theory_ of the space $X$. Here the letter "K" (due to [[Alexander Grothendieck]]) originates as a shorthand for the German word _Klasse_, referring to the above process of forming [[equivalence classes]] of ([[isomorphism classes]]) of vector bundles.
 
-This simple construction turns out to yield remarkably useful groups of [[nLab:homotopy]] [[nLab:invariants]].
-A variety of deep facts in [[nLab:algebraic topology]] have fairly elementary proofs in terms of topolgical K-theory, for instance
+This simple construction turns out to yield remarkably useful groups of [[homotopy]] [[invariants]].
+A variety of deep facts in [[algebraic topology]] have fairly elementary proofs in terms of topolgical K-theory, for instance
 
-* the proof of [[nLab:topological invariance of dimension]];
+* the proof of [[topological invariance of dimension]];
 
-* the solution of the [[nLab:Hopf invariant one]] problem ([Adams-Atiyah 66](#AdamsAtiyah66)),
+* the solution of the [[Hopf invariant one]] problem ([Adams-Atiyah 66](#AdamsAtiyah66)),
 
-These proofs make use of the [[nLab:Adams operations]] on K-theory, which are reflections of the fact that with every [[nLab:vector bundle]] there is also the [[nLab:exterior power|exterior]] [[nLab:tensor product of vector bundles|tensor powers]].
+These proofs make use of the [[Adams operations]] on K-theory, which are reflections of the fact that with every [[vector bundle]] there is also the [[exterior power|exterior]] [[tensor product of vector bundles|tensor powers]].
 
-One defines the "higher" K-groups of a topological space to be those of its higher [[nLab:suspensions]]
+One defines the "higher" K-groups of a topological space to be those of its higher [[suspensions]]
 
 $$
   K^{-n}(X) = K(\Sigma^n X)
   \,.
 $$
 
-The assignment $X \mapsto K^\bullet(X)$ turns out to share many properties of the assignment of [[nLab:ordinary cohomology]] groups $X \mapsto H^n(X,\mathbb{Z})$. One says that topological K-theory is a [[nLab:generalized (Eilenberg-Steenrod) cohomology]] theory. As such it is [[nLab:Brown representability theorem|represented]] by a [[nLab:spectrum]]. For $k = \mathbb{C}$ this is called [[nLab:KU]], for $k = \mathbb{R}$ this is called [[nLab:KO]]. (There is also the unification of both in [[nLab:KR]]-theory.)
+The assignment $X \mapsto K^\bullet(X)$ turns out to share many properties of the assignment of [[ordinary cohomology]] groups $X \mapsto H^n(X,\mathbb{Z})$. One says that topological K-theory is a [[generalized (Eilenberg-Steenrod) cohomology]] theory. As such it is [[Brown representability theorem|represented]] by a [[spectrum]]. For $k = \mathbb{C}$ this is called [[KU]], for $k = \mathbb{R}$ this is called [[KO]]. (There is also the unification of both in [[KR]]-theory.)
 
-One of the basic facts about topological K-theory, rather unexpected from the definition, is that these higher K-groups repeat _periodically_ in the degree $n$. For $k = \mathbb{R}$ the periodicity is 8, for $k = \mathbb{C}$ it is 2. This is called _[[nLab:Bott periodicity]]_. This closely connects to similar periodicities encountered elsewhere in mathematics, notably the periodicity, up to [[nLab:Morita equivalence]], of [[nLab:Clifford algebras]].
+One of the basic facts about topological K-theory, rather unexpected from the definition, is that these higher K-groups repeat _periodically_ in the degree $n$. For $k = \mathbb{R}$ the periodicity is 8, for $k = \mathbb{C}$ it is 2. This is called _[[Bott periodicity]]_. This closely connects to similar periodicities encountered elsewhere in mathematics, notably the periodicity, up to [[Morita equivalence]], of [[Clifford algebras]].
 
 
 It turns out that an important source of [[virtual vector bundles]] representing classes in [[K-theory]] are index bundles: Given a [[Riemannian manifold|Riemannian]] [[spin structure|spin]] [[manifold]] $B$, then there is a [[vector bundle]] $S \to B$ called the _[[spin bundle]]_ of $B$, which carries a [[differential operator]], called the [[Dirac operator]] $D$. The [[index of a Dirac operator]] is the formal difference of its [[kernel]] by its [[cokernel]] $[ker D, coker D]$. Now given a continuous family $D_x$ of Dirac operators/Fredholm operators, parameterized by some topological space $X$, then these indices combine to a class in $K(X)$.
@@ -124,25 +124,16 @@ While the [[C*-algebra]] of a [[Riemannian manifold|Riemannian]] [[spin structur
 
 ### Idea
 
-We are concerned with assigning [[abelian groups]] to [[topological spaces]] that tell us
-something about the nature of these spaces, about their "[[homotopy type]]". The simplest such
-assignment is called _[[ordinary homology]]_ and _[[ordinary cohomology]]_. In its realization as
-[[singular chain homology]] it uses a basic tool of [[homological algebra]] to compute these
-group: [[chain complexes]].
+We are concerned with assigning [[abelian groups]] to [[topological spaces]] that tell us something about the nature of these spaces, about their "[[homotopy type]]". Before we come to K-theory, the simplest such assignment is called _[[ordinary homology]]_ and _[[ordinary cohomology]]_. In its realization as [[singular chain homology]] it uses a basic tool of [[homological algebra]] to compute these group: [[chain complexes]].
 
-Consider an [[interval]] in a [[topological space]] $X$, namely a [[continuous map]]
-$\sigma \colon [0,1] \to X$. Its [[boundary]] is the two endpoints $\sigma(0) \colon \ast \to X$
-and $\sigma(1) \colon \ast to X$. In order to remember that the first is the "incoming boundary"
-while the second is the "outgoing boundary" we form their [[formal sum|formal difference]]
-and call this the _oriented boundary_
+Consider an [[interval]] in a [[topological space]] $X$, namely a [[continuous map]] $\sigma \colon [0,1] \to X$. Its [[boundary]] is the two endpoints $\sigma(0) \colon \ast \to X$
+and $\sigma(1) \colon \ast to X$. In order to remember that the first is the "incoming boundary" while the second is the "outgoing boundary" we form their [[formal sum|formal difference]] and call this the _oriented boundary_
 $$
-  \partial \sigma \colon \sigma(1) - \sigma(0)
+  \partial \sigma \;\coloneqq\; \sigma(1) - \sigma(0)
   \,.
 $$
 This suggests that we also allow for signed [[formal sums]] $\underset{i}{\sum} a_i \sigma_i$ of intervals in the first place.{
-If all these intervals $\sigma_i$ touch each other at their endpoints, then this looks like a _[[chain]]_ of
-intervals, a _1-dimensional chain_, and hence such a [[formal sum]] is called a _1-chain_, for short.
-Similarly a formal sum of points is then called a _0-chain_.
+If all these intervals $\sigma_i$ touch each other at their endpoints, then this looks like a _[[chain]]_ of intervals, a _1-dimensional chain_, and hence such a [[formal sum]] is called a _1-chain_, for short. Similarly a formal sum of points is then called a _0-chain_.
 It is natural to extend the boundary operation $\partial$ linearly from intervals to 1-chains. The [[quotient group]]
 $$
   H_0(X) \coloneqq \frac{\text{0-chains}}{\text{boundaries of 1-chains}}
@@ -1559,13 +1550,12 @@ topological spaces over the circle: either the [[cylinder]] (if $+1$ comes back 
 (if $+1$ and $-1$ change position as one goes around the circle).
 
 The image of this situation looks like a "[[bundle]]" of "[[fibers]]" over the circle.
-
 Generally, for $F$ a [[topological space]], then an _$F$-[[fiber bundle]]_ over $X$ is another space
 $E$ with a [[projection]] $p \colon E \to X$ that shrinks the fibers away, which all look like $F$ in a controlled way.
 
 For the purpose of [[topological K-theory]] we are interested in [[fibers]] $F$ which are [[vector spaces]]
 and such that their re-identification as we move around in $X$ is by [[linear maps]].
-Then one speaks of _[[vector bundles]]_.  The theory of vector bundles is much like "parameterized [[linear algebra]]".
+Then one speaks of _[[vector bundles]]_.  The theory of vector bundles is much like "continuously parameterized [[linear algebra]]"
 
 
 
@@ -1603,7 +1593,7 @@ Then one speaks of _[[vector bundles]]_.  The theory of vector bundles is much l
 
 * [[canonical bundle]]
 
-* [[basic line bundle on the 2-spere]]
+* [[basic line bundle on the 2-sphere]]
 
 * [[clutching construction]]
 
@@ -1646,9 +1636,10 @@ of all $k$-dimensional linear subspaces of a fixed $n$-dimensional vector space.
 space carries a vector bundle, namely that whose fiber over the point that labels some subspace
 _is_ that subspace. It is possible to take this construction and allow $n$ to go to infinity.
 The result is a _[[classifying space]]_ for vector bundles which carries a _[[universal vector bundle]]_:
-every other vector bundle on a sufficiently well-behave topological space is _classified_ by a
+every other vector bundle on a sufficiently well-behaved topological space is _classified_ by a
 map into this classifying space, namely the map that, roughly, sends each point to the lable of the
-fiber it carries.
+fiber above it.
+
 
 
 [[classifying spaces]] for [[vector bundles]].
@@ -2163,7 +2154,7 @@ $$
 
 (for homotopy groups based at the canonical basepoint).
 
-=---
+=--
 
 +-- {: .proof}
 ###### Proof
@@ -2364,17 +2355,17 @@ A full proof is spelled out in ([Hatcher, section 1.2, theorem 1.16](#Hatcher))
 ### Idea
 
 
+The [[isomorphism classes]] of [[vector bundles]] over some [[topological space]] $X$ naturally form a [[semi-group]] (in fact a [[monoid]]) under forming [[direct sum of vector bundles]]. But as in [[ordinary cohomology]], we rater want to assign an actual [[group]] to $X$, instead of just a [[semi-group]].
+
+There is a universal way to turn a [[semi-group]] into an actual [[group]] by adjoining formal [[inverses]] to all elements. This is called the _[[Grothendieck group]]_ construction. Applying this to the [[semi-group]] of [[vector bundles]] yields "[[virtual vector bundles]]", which are formal differences $[E] - [F]$ of [[isomorphism classes]]  of actual vector bundles. These now form an [[abelian group]] called the [[topological K-theory]] group of $X$, and denoted $K(X)$.
+
+Since for every [[continuous function]] $f \;\colon\; X \to Y$ and every vector bundle over $Y$ there is the corresponding [[pullback bundle]] over $X$, this construction is a ([[contravariant functor|contravariant]]) _[[functor]]_ on the [[category of topological spaces]], just as the [[ordinary cohomology]] groups are. In the next session we see that this analogy goes further, so we also call $K(X)$ the _K-cohomology group_ of $X$.
+
+In fact $K(X)$ has more structure than just that of an [[abelian group]]. The [[tensor product of vector bundles]] makes it a [[ring]]. In the next session this will make us say that [[topological K-theory]] is a _[[multiplicative cohomology theory]]_.
 
 
-* [[Grothendieck group]]
 
-* [[virtual vector bundle]]
 
-$K^0(X)$, $K^1(X)$
-
-reduced K-theory $\tilde K^\bullet(X)$
-
-ring structure
 
 ### References
 
@@ -2395,11 +2386,11 @@ ring structure
 
 ### Idea
 
-(...)
+We may now make precise in which sense the [[topological K-theory]] functor $K(-)$ is directly analogous to the [[ordinary cohomology]] functors $H^\bullet(-,\mathbb{Z})$. This involves noticing a list of useful properties satisfied by these functors. In particular one finds that given any [[continuous function]], then it induces a sequence of further continuous functions called its _[[mapping cones]]_ and [[suspensions]], and the application of a cohomology functor to these sequences of topological spaces yields [[long exact sequences in cohomology]]. This is most useful for computing generalized cohomology groups.
 
 
-We fist say what [[generalized (Eilenberg-Steenrod) cohomology theory]] is, and then we check that the
-topological K-theory functor $K^\bullet$ from [above](#KTheoryRing) is an example.
+$\,$
+
 
 There are two versions of the statement of the axioms:
 
@@ -2949,7 +2940,7 @@ The dual braid diagram for [[generalized homology]] is this:
 
 (graphics from [this Maths.SE comment](http://math.stackexchange.com/a/1180681/58526))
 
-=---
+=--
 
 +-- {: .num_remark}
 ###### Remark
@@ -3254,9 +3245,11 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 
 ## **Clutching construction and Product theorem**
 
-* [[clutching construction]]
+### Idea
 
-* [[fundamental product theorem in K-theory]]
+A quick way to construct [[vector bundles]] on [[n-spheres]] is to consider the trivial vector bundles on either [[hemisphere]] and then glue them by a bundle [[isomorphism]] on a small overlap of the two hemispheres.  This is called the _[[clutching construction]]_. This construction may be paramneterized over some topological space $X$ to construct [[vector bundles]] on the [[product topological space]] of $X$ with an [[sphere]]. A close analysis of this parameterized clutching construction allows to prove what will be the first deep theorem about [[topological K-theory]]: the [[fundamental product theorem in K-theory]], which characterizes the $K$-theory ring of [[product topological spaces]] $X \times S^2$ of some space $X$ with the [[2-sphere]] as that of $X$ with one generator for the [[basic line bundle on the 2-sphere]] adjoined, subject to a relation. This is very useful for computations.
+
+Below this theorem is used to prove the all-important [[Bott periodicity theorem]] of [[topological K-theory]].
 
 
 
@@ -3268,18 +3261,34 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 
 
 
+## **Splitting principle**
+
+### Idea
+
+The second deep fact about topological K-theory is the _[[splitting principle]]_ which says roughly that as far as K-theory is concerned, all [[vector bundles]] essentially look like [[direct sums of vector bundles]] each of whose summands is just a [[line bundle]]. This has dramatic consequences, which we see when we discuss the [[Adams operations]] below. The proof of the splitting principle involves a careful analysis of [[flag spaces]] in vector bundles.
+
+
+
+### References
+
+[Wirthmuller 12, section 10](#Wirthmuller12)
+
+
+
+
 
 
 ## **K-Cohomology theory**
   {#BottPeriodicity}
 
-### K-Theory as a Generalized cohomology theory
+### Idea
 
-(...)
+Finally we may put all the pieces together and show that the [[topological K-theory]] functor $K(-)$ indeed constitutes a [[generalized (Eilenberg-Steenrod) cohomology theory]]. In fact its ring structure makes it a [[multiplicative cohomology theory]]. Moreover, we find that the [[fundamental product theorem in K-theory]] implies a certain 2-periodicity in $K(-)$, called _[[Bott periodicity]]_. This makes $K$ an [[even periodic cohomology theory]].
 
-### Bott periodicity
+All these facts will be most useful for computing $K(X)$ and for using it to learn about [[topological spaces]] which is what we turn to next.
 
-* [[Bott periodicity]]
+
+
 
 ### References
 
@@ -3290,18 +3299,16 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 * [Aguilar-Gitler-Prieto 02, appendix B](#AguilarGitlerPrieto02)
 
 
-## **Splitting principle**
 
-* [[splitting principle]]
-
-### References
-
-[Wirthmuller 12, section 10](#Wirthmuller12)
 
 
 ## **Examples of K-groups**
 
-[Blair 09](#Blair09)
+### Idea
+
+In the previous sessions we have accumulated some powerful tools for computing [[topological K-theory]] groups. Here we use these to consider examples, and compute K-theory groups for a range of interesting topological spaces. This will serve to see how [[topological K-theory]] is a finer invariant than [[ordinary cohomology]].
+
+
 
 ### References
 
@@ -3312,15 +3319,17 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 
 
 
+
+
 ## **Adams operations**
 
-* [[cohomology operation]]
+### Idea
 
-* [[Lambda-ring]] structure on K-theory
+So far we have used that there is the operation of [[direct sum of vector bundles]] and of [[tensor product of vector bundles]] in  order to exhibit the $K$-theory functor $K(-)$ as taking values in [[commutative rings]]. But in fact there are yet more operations on [[vector bundles]]. Namely instead of just taking plain [[tensor products]], we may also form skew-symmetrized tensor products [[exterior products]]. Since these are traditionally denoted $\wedge^n(-)$, one says that  $K(-)$ inherits the structure of a _[[Lambda-ring]]_. A clever combination of such exterior powers makes them be an abelian group homomorphism, these are the _[[Adams operations]]_ on topological K-theory. We observe their basic properties, which make them most useful for characterizing topological spaces. As a first example we see that they immediately allow to prove something as fundamental to [[topology]] as the [[topological invariance of dimension]].
 
-* [[Adams operations]]
+An even more interesting application of the [[Adams operations]] is that they allow to characterite the [[continuous functions]] of [[Hopf invariant one]]. This is the next topic.
 
-* [[topological invariance of dimension]]
+
 
 ### References
 
@@ -3330,15 +3339,20 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 
 * [Aguilar-Gitler-Prieto 02, section 10](#AguilarGitlerPrieto02)
 
+
+
 ## **Hopf invariant one**
 
-### Hopf invariant
+### Idea
 
-* [[Hopf invariant]]
+A crown jewel of the application of [[topological K-theory]], is, via the [[Adams operations]], a remarkably quick proof of a deep theorem whose original solution via another tool (the [[Adams spectral sequence]]) marks the beginning of modern [[homotopy theory]]: the [[Hopf invariant one]] problem.
 
-### The proof
+A remarkable range of "exceptional" structures in mathematics is obtained by continuing the step from the [[real numbers]] to the [[complex numbers]] further to find the [[quaternions]] and then the [[octonions]]. Using the fact that all these algebras are real [[normed division algebras]] they induce [[fibrations]] between [[spheres]]: the _[[Hopf fibrations]]_.
 
-* [[Hopf invariant one]]
+These Hopf fibrations happen to take value +1 in a certain invariant, called the _[[Hopf invariant]]_. The [[Hopf invariant one]] theorem says that they there is in fact no other fibration with this property. In particular this implies, remarkably, that the real numbers, complex numbers, quaternions and octonions are the only real [[normed division algebras]] that exist.
+
+
+
 
 ### References
 
@@ -3349,17 +3363,17 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 10.6 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-* [[Ulrich Pennig]], _[K-theory and the Hopf invariant](http://wwwmath.uni-muenster.de/reine/u/topos/lehre/SS2015/KTheorie-Hopf/Hopf_eng.html)_
+
+
 
 
 
 ## **Equivariant K-theory**
 
-* [[topological G-space]]
+### Idea
 
-* [[equivariant K-theory]]
+We saw how [[topological K-theory]] arises from pairing [[topology]] with [[linear algebra]].  There are variaous further refinements of [[topological K-theory]] obtained by refining these ingredients. In particular, if instead of plain [[vector spaces]] we start by considering vector spaces equipped with linear [[group]] [[actions]], hence considering [[linear representations]], then the resulting topological K-theory is what is called _[[equivariant K-theory]]_. This now pairs [[topology]] with [[representation theory]]. For instance this may now be evaluated on [[topological spaces]] which are themselves [[action|acted]] on by groups, and the resulting equivariant K-theory groups encode interesting information for instance about the [[fixed point]] loci of these group actions.
 
-* [[representation ring]]
 
 ### References
 
@@ -3372,6 +3386,14 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 
 This section goes beyond an introduction, in that it requires more tools
 from [[algebraic topology]]. We include it for completeness and as outlook.
+
+### Idea
+
+While we constructed [[classifying spaces]] originally for plain [[vector bundles]], one finds that with just slight modification these also yield classifying space for [[virtual vector bundles]], hence for [[topological K-theory]]. The fact that [[topological K-theory]] constitutes a [[generalized (Eilenberg-Steenrod) cohomology]] theory with [[long exact sequences in cohomology]] now implies that also these classifying spaces arrange in certain sequences. Suchsequences are called _[[sequential spectra]]_ or just _[[spectra]]_, for short, and the spectrum that represents topoligcal K-theory of complex vector bundles is called _[[KU]]_.
+
+The main point in its construction is the incarnation of [[Bott periodicity]] in terms of the [[classifying spaces]]. This yields an alternative proof of Bott periodicity, one that makes use of basics of the [[classical model structure on topological spaces]].
+
+
 
 The relevant background for this section is laid out in
 
