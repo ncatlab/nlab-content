@@ -108,8 +108,13 @@ Discrete Conduch&#233; functors are considered in
 
 * [[Peter Johnstone]], _A Note on Discrete Conduch&#233; Fibrations_ , TAC **5** no.1 (1999) pp.1-11. ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n1/n1.pdf))
 
+An analogue of Conduch&#233; functors for [[∞-categories]], classified by maps into an ∞-category version of [[Prof]], is studied in
+
+* [[David Ayala]] and [[John Francis]], _Fibrations of ∞-categories_, [arxiv](https://arxiv.org/abs/1702.02681)
+
 [[!redirects Conduché fibration]]
 [[!redirects Conduche fibration]]
+[[!redirects Conduche functor]]
 [[!redirects Conduche functors]]
 [[!redirects Conduché functor]]
 [[!redirects Conduché functors]]
@@ -125,3 +130,20 @@ Discrete Conduch&#233; functors are considered in
 [[!redirects powerful functors]]
 [[!redirects strictly powerful functor]]
 [[!redirects strictly powerful functors]]
+
+[[!redirects Conduché ∞-fibration]]
+[[!redirects Conduche ∞-fibration]]
+[[!redirects Conduche ∞-functor]]
+[[!redirects Conduche ∞-functors]]
+[[!redirects Conduché ∞-functor]]
+[[!redirects Conduché ∞-functors]]
+[[!redirects exponentiable ∞-functor]]
+[[!redirects exponentiable ∞-functors]]
+[[!redirects Conduché infinity-fibration]]
+[[!redirects Conduche infinity-fibration]]
+[[!redirects Conduche infinity-functor]]
+[[!redirects Conduche infinity-functors]]
+[[!redirects Conduché infinity-functor]]
+[[!redirects Conduché infinity-functors]]
+[[!redirects exponentiable infinity-functor]]
+[[!redirects exponentiable infinity-functors]]
