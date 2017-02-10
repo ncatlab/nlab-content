@@ -19,7 +19,7 @@ These notes give an introduction to **[[topological K-theory]]**, of the basic d
 * table of contents
 {:toc}
 
-## Overview
+## Idea
 
 To recall, the subject of [[topology]] studies [[spaces]] with [[continuous functions]] between them: [[topological spaces]], a fundamental concept in all of [[mathematics]]. For many applications one cares about the choice of [[continuous functions]] only up to continuous [[deformations]], called [[homotopies]]. The study of [[topological spaces]] with [[continuous functions]] up to [[homotopy]] is called [[homotopy theory]]. Interestingly, this plays an even more fundamental role in [[mathematics]]. For some introductory exposition see at _[[schreiber:Higher Structures in Mathematics and Physics]]_.
 
@@ -115,7 +115,50 @@ While the [[C*-algebra]] of a [[Riemannian manifold|Riemannian]] [[spin structur
 
 ## **Ordinary cohomology**
 
-This section serves as warmup and for background. Since the [[topological K-theory]] that we are after may be seen as a higher analog of [[ordinary cohomology]], we first recall [[ordinary cohomology]].
+### Idea
+
+We are concerned with assigning [[abelian groups]] to [[topological spaces]] that tell us
+something about the nature of these spaces, about their "[[homotopy type]]". The simplest such
+assignment is called _[[ordinary homology]]_ and _[[ordinary cohomology]]_. In its realization as
+[[singular chain homology]] it uses a basic tool of [[homological algebra]] to compute these
+group: [[chain complexes]].
+
+Consider an [[interval]] in a [[topological space]] $X$, namely a [[continuous map]]
+$\sigma \colon [0,1] \to X$. Its [[boundary]] is the two endpoints $\sigma(0) \colon \ast \to X$
+and $\sigma(1) \colon \ast to X$. In order to remember that the first is the "incoming boundary"
+while the second is the "outgoing boundary" we form their [[formal sum|formal difference]]
+and call this the _oriented boundary_
+$$
+  \partial \sigma \colon \sigma(1) - \sigma(0)
+  \,.
+$$
+This suggests that we also allow for signed [[formal sums]] $\underset{i}{\sum} a_i \sigma_i$ of intervals in the first place.{
+If all these intervals $\sigma_i$ touch each other at their endpoints, then this looks like a _[[chain]]_ of
+intervals, a _1-dimensional chain_, and hence such a [[formal sum]] is called a _1-chain_, for short.
+Similarly a formal sum of points is then called a _0-chain_.
+It is natural to extend the boundary operation $\partial$ linearly from intervals to 1-chains. The [[quotient group]]
+$$
+  H_0(X) \coloneqq \frac{\text{0-chains}}{\text{boundaries of 1-chains}}
+$$
+is called the _[[ordinary homology]]_ or _[[singular homology]]_ of $X$ in degree 0. Clearly, it is measure for the
+[[connected components]] of $X$.
+Similarly there are $n$-dimensional chains in $X$, for any $n$, and a boundary map $\partial$ on all of these.
+It satisfies the fundamental identity that _The boundary of a boundary vanishes_,
+$$
+  \partial \circ \partial = 0
+  \,.
+$$
+One says that the chains equipped with this nilpotent boundary operation form a [[chain complex]].
+In general then the [[quotient group]]
+$$
+  H_n(X) \coloneqq \frac{n\text{-chains that are cycles}}{\text{boundaries of}\; n+1\text{-chains}}
+$$
+is called the _[[ordinary homology]]_ of $X$ in degree $n$.
+This a measure for the "holes of dimension $n$" that one may fund in $X$.
+
+The ordinary hom&#243;logy groups associated with a topological space are [[homotopy invariants]]
+that are useful for analyzing, recognizing and and distinguishing topological spaces.
+
 
 
 ### Homotopy type of topological spaces
@@ -1496,7 +1539,34 @@ This is known as the _[[Hurewicz theorem]]_.
 
 ## **Vector bundles**
 
+### Idea
+
+For understanding some [[topological space]] $X$, it is often useful to understand how another topological space $F$
+may be "continuously distributed over" $X$. For instance the two-element space $\{-1, 1\}$
+may be continuously distributed over the [[circle]] $S^1$ in two inequivalent ways: Either the two points
+come back to themselves as we move around the circle, or they switch position. This switch is a reflection of the
+fact that in the circle there are non-contractible loops, in constrast for instance to the [[2-sphere]], where every loop
+may be continuously shrunk to a constant loop. If we embed the two points $\{-1,1\}$ into the [[real line]]
+and repeat the construction, then as the line traces around the circle it sweeps out one of two different
+topological spaces over the circle: either the [[cylnder]] (if $+1$ comes back to itself) or the _[[Möbius strip]]_
+(if $+1$ and $-1$ change position as one goes around the circle).
+
+The image of this situation looks like a "[[bundle]]" of "[[fibers]]" over the circle.
+
+Generally, for $F$ a [[topological space]], then an _$F$-[[fiber bundle]]_ over $X$ is another space
+$E$ with a [[projection]] $p \colon E \to X$ that shrinks the fibers away, which all look like $F$ in a controlled way.
+
+For the purpose of [[topological K-theory]] we are interested in [[fibers]] $F$ which are [[vector spaces]]
+and such that their re-identification as we move around in $X$ is by [[linear maps]].
+Then one speaks of _[[vector bundles]]_.  The theory of vector bundles is much like "parameterized [[linear algebra]]".
+
+
+
+### Fiber bundles
+
 * [[fiber bundle]]
+
+* [[covering space]]
 
 * [[vector bundle]]
 
@@ -1556,8 +1626,23 @@ over [[compact topological spaces]]
 
 
 
+
+
 ## **Classifying spaces**
  {#ClassifyingSpaces}
+
+
+### Idea
+
+Some [[vector bundles]] are "tautological". For consider the [[topological space]]
+of all $k$-dimensional linear subspaces of a fixed $n$-dimensional vector space. Clearly this
+space carries a vector bundle, namely that whose fiber over the point that labels some subspace
+_is_ that subspace. It is possible to take this construction and allow $n$ to go to infinity.
+The result is a _[[classifying space]]_ for vector bundles which carries a _[[universal vector bundle]]_:
+every other vector bundle on a sufficiently well-behave topological space is _classified_ by a
+map into this classifying space, namely the map that, roughly, sends each point to the lable of the
+fiber it carries.
+
 
 [[classifying spaces]] for [[vector bundles]].
 
@@ -1566,7 +1651,6 @@ We use the above fact (...) that
 1. every [[real vector bundle]] is [[isomorphism|isomorphic]] to the canonical [[associated bundle]] to an [[orthogonal group|O(n)]]-[[principal bundle]];
 
 1. every [[complex vector bundle]] is [[isomorphism|isomorphic]] to the canonical [[associated bundle]] to an [[unitary group|U(n)]]-[[principal bundle]].
-
 
 
 
@@ -2232,6 +2316,8 @@ $$
 
 =--
 
+
+
 ### The classification result
 
 +-- {: .num_prop }
@@ -2255,11 +2341,22 @@ A full proof is spelled out in ([Hatcher, section 1.2, theorem 1.16](#Hatcher))
 
 * [Hatcher, section 1.2](#Hatcher)
 
+* [Wirthmuller 12, section 2](#Wirthmuller12)
+
 * [Aguilar-Gitler-Prieto 02, sections 8.3-8-5](#AguilarGitlerPrieto02)
+
+
+
+
+
 
 
 ## **The K-theory functor $K^\bullet(-)$**
  {#KTheoryRing}
+
+### Idea
+
+
 
 
 * [[Grothendieck group]]
@@ -2281,8 +2378,18 @@ ring structure
 * [Aguilar-Gitler-Prieto 02, section 9](#AguilarGitlerPrieto02)
 
 
+
+
+
+
 ## **Generalized cohomology**
   {#GeneralizedCohomology}
+
+
+### Idea
+
+(...)
+
 
 We fist say what [[generalized (Eilenberg-Steenrod) cohomology theory]] is, and then we check that the
 topological K-theory functor $K^\bullet$ from [above](#KTheoryRing) is an example.
@@ -2298,7 +2405,7 @@ There are functors taking any reduced cohomology theory to an unreduced one, and
 * _[Relation between reduced and unreduced cohomology](#RelationBetweenReducedAndUnreduced)_
 
 
-### Mapping cones 
+### Mapping cones
 
 * [[mapping cylinder]]
 
