@@ -85,6 +85,8 @@ In particular, every [[power series]] in one real variable is the Taylor series 
 The proof is reproduced for instance in [[Models for Smooth Infinitesimal Analysis|MSIA, I, 1.3]]
 =--
 
+See more at [[Borel's theorem]].
+
 
 ## Related concepts
 
