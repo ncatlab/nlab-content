@@ -32,3 +32,5 @@ For $E_1, E_2 \to X$ two [[vector bundles]], their [[direct sum]] over $X$, also
 * [[framed manifold]], [[Thom spectrum]]
 
 [[!redirects Whitney sum]]
+
+[[!redirects direct sums of vector bundles]]
