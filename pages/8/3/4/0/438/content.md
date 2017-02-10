@@ -63,6 +63,8 @@ theory_ This article is an expanded version of notes for a series of lectures gi
 
 You may also find me on: [MathOverflow](http://mathoverflow.net/users/3502/tim-porter) | [ORCiD](http://orcid.org/0000-0001-7962-8471)
 
+and on Linkedin. (I have a gmail account and you can also contact me via Google+.  The e-mail is initial\dot familyname\dot maths and then the normal ending for a gmail account.)
+
 category: people
 
 
