@@ -15,7 +15,7 @@
 
 ## Idea
 
-_Borel's theorem_ says that every [[power series]] is the [[Taylor series]] of some [[smooth function]]. In other words: for every collection of prescribed [[partial derivatives]] at some point, there is a smooth function having these as actual partial derivatives.
+__Borel\'s Theorem__ (also called _Borel\'s Lemma_) says that every [[power series]] is the [[Taylor series]] of some [[smooth function]]. In other words: for every collection of prescribed [[partial derivatives]] at some point, there is a smooth function having these as actual partial derivatives.
 
 
 ## Statements
@@ -53,7 +53,7 @@ This appears for instance as ([Moerdijk-Reyes, theorem I.1.3](#MoerdijkReyes)).
 
 ## Proof
 
-There is a full proof in Moerdijk--Reyes, cited above.  Here we prove Theorem \ref{basic} to indicate the method; the general version is not substantially different.  (This is based on the proof in [the English Wikipedia article](https://en.wikipedia.org/wiki/Borel%27s_lemma) at the time of writing.)
+There is a full proof in Moerdijk--Reyes, cited above.  Here we prove Theorem \ref{basic} to indicate the method; the general version is not substantially different.  (This is based on the proof in [the English Wikipedia article](https://en.wikipedia.org/wiki/Borel%27s_lemma) at the time of writing, but with more details.)
 
 +-- {: .proof}
 ###### Proof (of Theorem \ref{basic})
@@ -62,12 +62,13 @@ A real [[power series]] at $0$ is given simply by an [[infinite sequence]] $c = 
 $$ f(x) = \sum_{n=0}^\infty c_n x^n ,$$
 but this is only correct if the sum converges on at least some [[neighbourhood]] of $0$ (in other words if the power series has a positive [[radius of convergence]]).
 
-To ensure this, let $\psi$ be a [[smooth function|smooth]] [[bump function]] chosen so that $\psi(x) = 1$ for ${|x|} \leq 1$ and $\psi(x) = 0$ for ${|x|} \geq 2$.  (For example, $\psi(x) = \frac{\phi(x + 2)} {\phi(x + 2) + \phi(-x - 1)} \frac{\phi(-x + 2)} {\phi(-x + 2) + \phi(x - 1)}$, where $\phi(x)$ is $\exp(-1/x)$ when $x \gt 0$ and otherwise vanishes.)  Next, choose an infinite sequence $\epsilon = (\epsilon_n)_{n\geq{0}}$:
-$$ \epsilon_n = \max_{0\leq{k}\lt{n}/2} \root{n-2k} {\frac{2^{k-2n}} {n^{\underline{k}} {\|\psi^{(k)}\|_\infty}}} $$
+To ensure this, let $\psi$ be a [[smooth function|smooth]] [[bump function]] chosen so that $\psi(x) = 1$ for ${|x|} \leq 1$ and $\psi(x) = 0$ for ${|x|} \geq 2$.  (For example, $\psi(x) = \frac{\phi(x + 2)} {\phi(x + 2) + \phi(-x - 1)} \frac{\phi(-x + 2)} {\phi(-x + 2) + \phi(x - 1)}$, where $\phi(x)$ is $\exp(-1/x)$ when $x \gt 0$ and otherwise vanishes.)  Next, choose an infinite sequence $H = (H_n)_{n\geq{1}}$:
+$$ H_n = \max_{0\leq{k}\lt{n}/2} \root{n-2k} {2^{2n-k} n^{\underline{k}} {\|\psi^{(k)}\|_\infty}} $$
 (where $n^{\underline{k}}$ is the [[falling power]] $\prod_{0\leq{i}\lt{k}} (n - i)$, as discussed at [[binomial theorem]]).  Finally, define
-$$ f(x) = \sum_{n=0}^\infty c_n \phi(x/\epsilon_n) x^n .$$
+$$ f(x) = c_0 + \sum_{n=1}^\infty c_n \psi(H_n x) x^n .$$
+(The first term is because, morally, $H_0 = 0$.)
 
-{I still need to explain why this series converges for all $x$ and has the desired derivatives at $0$.  It\'s also possible that I have miscalculated $\epsilon$, in which case I should discover so as I finish this.}
+{I still need to explain why this series converges for all $x$ (and has the desired derivatives at $0$).  It\'s also possible that I have miscalculated $H$, in which case I should discover so as I finish this.}
 =--
 
 
