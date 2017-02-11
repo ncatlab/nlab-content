@@ -11,6 +11,10 @@ Technically, given a [[supermanifold]] $X$ ("[[superspace]]"), then the superspa
 
 See at _[[geometry of physics -- supergeometry]]_ for more
 
+## Related concepts
+
+* [[superpotential]]
+
 ## References
 
 The concept was introduced in physics (together with "[[superspace]]") in:
