@@ -217,6 +217,16 @@ $$
 
 ## References 
 
+The $d = 4$, $N =2$ super Minkowski spacetime was originally introduced in
+
+* [[Abdus Salam]] J.A. Strathdee, _Supergauge Transformations_, Nucl.Phys. B76 (1974) 477-482 ([spire](http://inspirehep.net/record/89208))
+
+* [[Abdus Salam]] J.A. Strathdee, Physical Review D11, 1521-1535 (1975)
+
+see at "[[superspace]] in physics". 
+
+Further discussion includes:
+
 * _Super spacetimes and super Poincar&#233;-group_ ([pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf))
 
 * {#Freed01} [[Daniel Freed]], lecture 6 of _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11 (2001) ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
