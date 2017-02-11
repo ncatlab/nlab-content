@@ -95,6 +95,8 @@ The higher dimensional string diagrams ("zoom complexes" ([Kock-Joyal-Batanin-Ma
 ### Original articles 
  {#OriginalArticles}
 
+[[Günter Hotz]] introduced "plane nets" (=string diagrams) and their categories in his 1965 habilitation thesis. This seems to be the first formal definition of string diagrams in the literature.
+
 String diagrams appeared first in [[Max Kelly]] and Laplaza's paper on [[coherence theorem for monoidal categories|coherence for compact closed categories]]
 
 * [[Max Kelly]] and M. L. Laplaza, _Coherence for compact closed categories_. Journal of Pure and Applied Algebra, 19:193&#8211;213, 1980.
@@ -122,14 +124,6 @@ which are not inherent in the (braided or symmetric compact closed) monoidal str
 
 * [[David Yetter]], _Framed tangles and a theorem of Deligne on braided deformations of tannakian categories_ In M. Gerstenhaber and [[Jim Stasheff]] (eds.) _Deformation Theory and Quantum Groups with Applications to Mathematical Physics_, Contemporary Mathematics 134, pages 325&#8211;349. Americal Mathematical Society,
 1992.
-
-[[Günter Hotz]] introduced "planar nets" (=string diagrams) and their categories in his habilitation thesis:
- 
-* [[Günter Hotz]], _Eine Algebraisierung des Syntheseproblems von Schaltkreisen_ (in German), EIK (Elektronische Informationsverarbeitung und Kybernetik), Band 1, Heft 3+4, 1965
-
-  [Part 1](https://www.magentacloud.de/lnk/LiPMlYfh)
-
-  [Part 2](https://www.magentacloud.de/lnk/YivslUWJ)
 
 For more on the history of the notion see the bibliography in ([Selinger 09](#Selinger)).
 
