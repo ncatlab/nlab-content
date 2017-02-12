@@ -327,7 +327,7 @@ The identification of the natural transformation in question with that induced b
 * [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([[KontsevichRosenbergNCSpaces.pdf:file]], [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
  {#KontsevichRosenbergSpaces}
 
-Formalization and discussion in the context of [[cohesive (∞,1)-toposes]] is in section 2.5.3 of
+Formalization and discussion in the context of [[cohesive (∞,1)-toposes]] is in section 2.5.3 (and defn 5.3.19) of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
