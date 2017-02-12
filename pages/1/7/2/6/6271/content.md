@@ -66,7 +66,7 @@ To ensure this, let $\psi$ be a [[smooth function|smooth]] [[bump function]] cho
 $$ H_n = \max_{0\leq{k}\lt{n}/2} \root{n-2k} {2^{2n-k} n^{\underline{k}} {\|\psi^{(k)}\|_\infty}} $$
 (where $n^{\underline{k}}$ is the [[falling power]] $\prod_{0\leq{i}\lt{k}} (n - i)$, as discussed at [[binomial theorem]]).  Finally, define
 $$ f(x) = c_0 + \sum_{n=1}^\infty c_n \psi(H_n x) x^n .$$
-(The first term is because, morally, $H_0 = 0$.)
+(The term $c_0$ is because, morally, $H_0 = 0$.)
 
 {I still need to explain why this series converges for all $x$ (and has the desired derivatives at $0$).  It\'s also possible that I have miscalculated $H$, in which case I should discover so as I finish this.}
 =--
