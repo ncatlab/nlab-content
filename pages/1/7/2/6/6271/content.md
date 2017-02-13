@@ -123,11 +123,25 @@ and is cited (along with extensive discussion and (counter)examples) also as (Ch
 [[!redirects Borel\'s theorem]]
 [[!redirects Borel/'s theorem]]
 [[!redirects Borel's theorem]]
+[[!redirects Borel's Theorem]]
+[[!redirects Borel\'s Theorem]]
+[[!redirects Borel/'s Theorem]]
+[[!redirects Borel's Theorem]]
+
 [[!redirects Borel theorem]]
+[[!redirects Borel Theorem]]
+
 [[!redirects Borel's theorem on power series]]
+
 
 [[!redirects Borel's lemma]]
 [[!redirects Borel\'s lemma]]
 [[!redirects Borel/'s lemma]]
 [[!redirects Borel's lemma]]
+[[!redirects Borel's Lemma]]
+[[!redirects Borel\'s Lemma]]
+[[!redirects Borel/'s Lemma]]
+[[!redirects Borel's Lemma]]
+
 [[!redirects Borel lemma]]
+[[!redirects Borel Lemma]]
