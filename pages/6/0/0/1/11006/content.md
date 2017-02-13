@@ -33,12 +33,13 @@ Thus, suppose $f:A\to B$ is a surjection (i.e. $\prod_{b:B} \exists_{a:A} f(a)=b
 Thus, let $b:B$; we must show $IsEquiv(g(b))$.  By assumption we have $\exists_{a:A} f(a)=b$.  But $IsEquiv(g(b))$ is an [[h-proposition]], so we may strip the truncation and obtain an $a:A$ such that $f(a)=b$.  Transporting along this equality, it suffices to show $IsEquiv(g(f(a)))$, but this follows from the other assumption.
 =--
 
+See also Lemma 6.2.3.16 in [[Higher Topos Theory]].
+
 ## References
 
 In the context of [[quasi-categories]], def. 6.2.1 in
 
 * {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
- 
 
 [[!redirects conservative (∞,1)-functors]]
 
