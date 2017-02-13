@@ -1,6 +1,6 @@
 [[!redirects Yan X Zhang]]
 
-* [insitute page](http://math.mit.edu/~yanzhang/)
+* [institute page](http://math.mit.edu/~yanzhang/)
 
 * [personal page](http://math.mit.edu/~yanzhang/personal.html)
 
