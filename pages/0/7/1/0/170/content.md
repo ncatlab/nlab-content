@@ -122,6 +122,9 @@ Analogous detailed discussion based not on the [[vertex operator algebra]] descr
 
 where [[2d SCFTs]] are related essentially to [[local nets]] of [[spectral triples]].
 
+Exposition of these results is in 
+
+* [[Urs Schreiber]], _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_, PhysicsForums--Insights (2016)
 
 See also the references at [[geometric model for elliptic cohomology]].
 
