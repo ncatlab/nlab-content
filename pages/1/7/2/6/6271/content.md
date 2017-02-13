@@ -63,16 +63,16 @@ but this is only correct if the sum converges on at least some [[neighbourhood]]
 
 To ensure this, let $\psi$ be a [[smooth function|smooth]] [[bump function]] chosen so that $\psi(x) = 1$ for ${|x|} \leq 1$ and $\psi(x) = 0$ for ${|x|} \geq 2$.  (For example, $\psi(x) = \frac{\phi(x + 2)} {\phi(x + 2) + \phi(-x - 1)} \frac{\phi(-x + 2)} {\phi(-x + 2) + \phi(x - 1)}$, where $\phi(x)$ is $\exp(-1/x)$ when $x \gt 0$ and otherwise vanishes.)  Next, choose an infinite sequence $H = (H_n)_{n\geq{1}}$ of positive finite numbers:
 $$ H_n = \max_{0\leq{k}\lt{n}} \max_{0\leq{i}\leq{k}} \root{n-k} {2^{2n-i} (k + 1) n^{\underline{k}} k^{\underline{i}} i!^{-1} {|c_n|} {\|\psi^{(k-i)}\|_\infty}} $$
-(where $n^{\underline{k}}$ is the [[falling power]] $\prod_{0\leq{i}\lt{k}} (n - i)$, as discussed at [[binomial theorem]], including the special case $m! = m^{\underline{m}}$); also, let $H_0 = 0$ (the [[bottom element]] of $[0,\infty]$, since $0 \leq k \lt 0$ never occurs).  Finally, define
+(where $m^{\underline{j}}$ is the [[falling power]] $\prod_{0\leq{h}\lt{j}} (m - h)$, as discussed at [[binomial theorem]], including the special case $m! = m^{\underline{m}}$); also, let $H_0 = 0$ (the [[bottom element]] of $[0,\infty]$, since $0 \leq k \lt 0$ never occurs).  Finally, define
 $$ f(x) = \sum_{n=0}^\infty c_n \psi(H_n x) x^n .$$
 
 If things go well, the derivatives of $f$ will be
 $$ f^{(k)}(x) = \sum_{n=k}^\infty \sum_{i=0}^k i!^{-1} k^{\underline{i}} n^{\underline{i}} c_n H_n^{k-i} \psi^{(k-i)}(H_n x) x^{n-i} ,$$
 and I claim that this is so.  Since $H_n x = 0$ for ${|x|} \geq 2/H_n$, we have
-$$ {\|f^{(k)}\|_\infty} \leq \sum_{n=k}^\infty \sum_{i=0}^k i!^{-1} k^{\underline{i}} n^{\underline{i}} {|c_n|} H_n^{k-i} {\|psi^{(k-i)}\|_\infty} (2/H_n)^{n-i} \leq \sum_{n=k}^\infty (k + 1) \max_{0\leq{i}\leq{k} i!^{-1} k^{\underline{i}} n^{\underline{i}} {|c_n|} {\|psi^{(k-i)}\|_\infty} 2^{n-i}/H_n^{n-k} \leq (k + 1) \max_{0\leq{i}\leq{k} i!^{-1} k^{\underline{i}} k^{\underline{i}} {|c_n|} {\|psi^{(k-i)}\|_\infty} 2^{k-i} + \sum_{n=k+1}^\infty 2^{-n} ,$$
+$$ {\|f^{(k)}\|_\infty} \leq \sum_{n=k}^\infty \sum_{i=0}^k i!^{-1} k^{\underline{i}} n^{\underline{i}} {|c_n|} H_n^{k-i} {\|\psi^{(k-i)}\|_\infty} (2/H_n)^{n-i} \leq \sum_{n=k}^\infty (k + 1) \max_{0\leq{i}\leq{k}} i!^{-1} k^{\underline{i}} n^{\underline{i}} {|c_n|} {\|\psi^{(k-i)}\|_\infty} 2^{n-i}/H_n^{n-k} \leq (k + 1) \max_{0\leq{i}\leq{k}} i!^{-1} k^{\underline{i}} k^{\underline{i}} {|c_n|} {\|\psi^{(k-i)}\|_\infty} 2^{k-i} + \sum_{n=k+1}^\infty 2^{-n} ,$$
 which is finite.  This proves [[uniform convergence]] of each claimed derivative (although not equiconvergence of all at once), and so each series not only converges but also may be antidifferentiated term by term, proving that $f^{(k)}$ is as claimed.
 
-Finally because $\psi^(k)(0) = 0$ for $k \gt 0$ but $\psi(0) = 1$, and the same goes for $0^k$),
+Finally (because $\psi^{(m)}(0) = 0$ for $m \gt 0$ but $\psi(0) = 1$, and the same goes for $0^m$),
 $$ f^{(k)}(0) = \sum_{n=k}^\infty \sum_{i=0}^k i!^{-1} k^{\underline{i}} n^{\underline{i}} c_n H_n^{k-i} \psi^{(k-i)}(0) 0^{n-i} = k!^{-1} k! k! c_k H_k^0 \psi(0) 0^0 = k! c_k ,$$
 making $c_k$ the $k$th coefficient of the Taylor series of $f$ at $0$, as desired.
 =--
