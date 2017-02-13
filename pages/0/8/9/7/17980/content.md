@@ -23,7 +23,11 @@
 
 ## Idea
 
-In [[super-algebra|super]]-[[representation theory]], what is called _adinkras_ ([Faux-Gates 04](#FauxGates04)) is a graphical tool  for classifying certain [[super multiplets]] of the $N$-extended [[supersymmetry]] algebras in one dimension ([[supersymmetric quantum mechanics]] with $N$ supersymmetries). Later adinkras were realized to have relation to classification of [[super Riemann surfaces]] via [[dessins d'enfants]] ([Doran & Iga & Landweber & Mendez-Diez 13](#DoranIgaLandweberMendez-Diez13), [Doran & Iga & Kostiuk &Mendes-Diez 16](#DoranIgaKostiukMendes-Diez16)).
+In [[super-algebra|super]]-[[representation theory]], what is called _adinkras_ ([Faux-Gates 04](#FauxGates04)) is a graphical tool for denoting those [[representations]] ([[super multiplets]]) of the $N$-extended [[supersymmetry]] algebras in one dimension ([[supersymmetric quantum mechanics]] with $N$ supersymmetries) for which the [[supersymmetry]] generators act, up to [[derivatives]] and prefactors, by [[permutation]] of [[superfield]] components. These are called _adinkraic_ representations ([Zhang 13, p. 16](#Zhang13)). 
+
+While adinkraic representations are special among all representations of the 1-dimensional $N$-extended supersymmetry algebra, the idea is that the [[dimensional reduction]] of representations ([[supermultiplets]]) of higher dimensional supersymmetry algebras down to 1d are of this form, at least for dimensional reduction from $d = 4$ and $N = \mathbf{4}$ ([GGMPPRW 09, section 3](#GGMPPRW09), [Gates-Hubsch-Stiffler 14](#GatesHubschStiffler14)).
+
+The classification of adinkras, and hence of adinkraic representations, turns out to be controled by [[linear codes]] ([Doran & Faux & Gates & HubschIgaLandweberMiller 11](#DoranFauxGatesHubschIgaLandweberMiller11)) and to be related to certain special [[super Riemann surfaces]] via [[dessins d'enfants]] ([Doran & Iga & Landweber & Mendez-Diez 13](#DoranIgaLandweberMendez-Diez13), [Doran & Iga & Kostiuk &Mendes-Diez 16](#DoranIgaKostiukMendes-Diez16)).
 
 ## Definition
 
@@ -76,26 +80,34 @@ The concept of adinkras was introduced into [[supersymmetry]] [[representation t
 
 * {#FauxGates04} [[Michael Faux]], [[Jim Gates]], _Adinkras: A Graphical Technology for Supersymmetric Representation Theory_, Phys.Rev. D71 (2005) 065002 ([hep-th/0408004](https://arxiv.org/abs/hep-th/0408004))
 
-and further developed in 
+and further developed in the article
 
 * [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], T. Hubsch, [[Kevin Iga]], [[Greg Landweber]], _On Graph-Theoretic Identifications of Adinkras, Supersymmetry Representations and Superfields_, Int. J. Mod. Phys. A22: 869-930, 2007 ([arXiv:math-ph/0512016](https://arxiv.org/abs/math-ph/0512016))
 
 and many more ("DFGHIL collaboration"). 
 
+The [[dimensional reduction]] of the standard [[supermultiplets]] of $d = 4, N = 1$ supersymmetry to adinkraic representations of $d = 1, N=4$ is due to
+
+* {#GGMPPRW09} [[Jim Gates]], J. Gonzales, B. MacGregor, J. Parker, R. Polo-Sherk, V.G.J. Rodgers, L. Wassink, _$4D$, $N = 1$ Supersymmetry Genomics (I)_, JHEP 0912:008,2009 ([arXiv:0902.3830](https://arxiv.org/abs/0902.3830))
+
+* {#GatesHubschStiffler14} [[Jim Gates]], T. Hubsch, Kory Stiffler, _Adinkras and SUSY Holography_, Int. J. Mod. Phys. A29 no. 7, (2014) 1450041 ([arXiv:1208.5999](https://arxiv.org/abs/1208.5999))
+
 The classification of adinkras in terms of [[graphs]] and [[linear codes]] is due to
 
 * {#DoranFauxGatesHubschIgaLandweberMiller11} [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], T. H&#252;bsch, [[Kevin Iga]], [[Greg Landweber]], R. L. Miller, _Codes and Supersymmetry in One Dimension_, Adv. in Th. Math. Phys. 15 (2011) 1909-1970 ([arXiv:1108.4124](https://arxiv.org/abs/1108.4124))
 
-Review includes
+and discussed in mathematical detail in
 
 * {#Zhang11} [[Yan X Zhang]], _Adinkras for Mathematicians_ ([arXiv:1111.6055](https://arxiv.org/abs/1111.6055))
 
 * {#Zhang13} [[Yan X Zhang]], _The combinatorics of Adinkras_, PhD thesis, MIT (2013) ([pdf](http://math.mit.edu/~yanzhang/math/thesis_adinkras.pdf))
 
+See also
+
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Adinkra_symbols_(physics)">Adinkra symbols (physics)</a>_
 
 
-The relation of adinkras to the classification of [[super Riemann surfaces]] via [[dessins d'enfants]] is due to
+The relation of adinkras to special [[super Riemann surfaces]] via [[dessins d'enfants]] is due to
 
 * {#DoranIgaLandweberMendez-Diez13} [[Charles Doran]], [[Kevin Iga]], [[Greg Landweber]], [[Stefan Méndez-Diez]], _Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras_ ([arXiv:1311.3736](https://arxiv.org/abs/1311.3736))
 
