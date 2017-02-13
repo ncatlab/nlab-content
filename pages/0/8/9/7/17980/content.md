@@ -23,8 +23,52 @@
 
 ## Idea
 
-What is called _adinkras_ ([Faux-Gates 04](#FauxGates04)) is a graphical tool  for classifying [[super multiplets]], originally over [[supersymmetry]] algebras in one dimension ([[supersymmetric quantum mechanics]]). Later adinkras were realized to have relation to classification of [[super Riemann surfaces]] via [[dessins d'enfants]] ([Doran & Iga & Landweber & Mendez-Diez 13](#DoranIgaLandweberMendez-Diez13), [Doran & Iga & Kostiuk &Mendes-Diez 16](#DoranIgaKostiukMendes-Diez16)).
+In [[super-algebra|super]]-[[representation theory]], what is called _adinkras_ ([Faux-Gates 04](#FauxGates04)) is a graphical tool  for classifying certain [[super multiplets]] of the $N$-extended [[supersymmetry]] algebras in one dimension ([[supersymmetric quantum mechanics]] with $N$ supersymmetries). Later adinkras were realized to have relation to classification of [[super Riemann surfaces]] via [[dessins d'enfants]] ([Doran & Iga & Landweber & Mendez-Diez 13](#DoranIgaLandweberMendez-Diez13), [Doran & Iga & Kostiuk &Mendes-Diez 16](#DoranIgaKostiukMendes-Diez16)).
 
+## Definition
+
+For $N \in \mathbb{N}$, write
+
+$$
+  \mathbb{R}^{1 \vert N}
+$$
+
+for the [[super Lie algebra]] over the [[real numbers]] that is spanned by a single generator $P$ in even (i.e., bosonic) degree and $N$ generators $Q_I$, $I \in \{1, 2, \cdots, N\}$ in odd (i.e., fermionic) degree, whose only non-trivial components of the super [[Lie bracket]] is
+
+$$
+  [Q_I, Q_J]  = 2 \delta_{I J} P
+  =
+  \left\{
+   \array{
+      2 P & \vert \; I = J
+      \\
+      0 & \vert \; \text{otherwise}
+   }
+  \right.
+$$
+
+This is the 1-dimensional $N$-extended [[super translation super Lie algebra]]. We ay think of this as the super-translational symmetry of 1-dimensional $N$-extended [[super Minkowski spacetime]].
+
+Consider then super [[Lie algebra representations]] of $\mathbb{R}^{1 \vert N}$ on [[super vector spaces]] of smooth [[superfields]] on $\mathbb{R}^{1 \vert N}$ (regarded as a [[supermanifold]]) and such that the bosonic generator $P$ acts as the [[derivative]] operator on [[smooth functions]] on $\mathbb{R}^1$ in each component. If in addition the representation is such that in the canonical [[linear basis]] the odd generators $Q_I$ send even/odd basis elements $\phi_i$ to single odd/even basis elements $\psi_j$ (as opposed to [[linear combinations]] of them), hence if the $Q_I$ act apart from degree-shift and possibly [[differentiation]] by [[permutations]] on the components of the [[superfields]], then this representation of $\mathbb{R}^{1\vert N}$ is called _adinkraic_. ([Zhang 13, p. 16](#Zhang13)).
+
+The corresponding _adinkra_ is the [[bipartite graph]] which expresses these permutations:
+
+<img src="https://ncatlab.org/nlab/files/AdinkraRule.png" width="600">
+
+> table grabbed from [Doran & Iga & Landweber & Mendez-Diez 13, p. 7](#DoranIgaLandweberMendez-Diez13)
+
+## Classification
+
+The topology of an adinkra graph together with its edge coloring in $\{1,2, \cdots, N\}$ is called its _chromotopology_.
+
+The set of adinkra chromotopologies is equivalent to the set of colored $N$-cubs modulo doubly even length-$N$ [[linear codes]] ([Doran-Fauxg-Gates-Hubsch-Iga-Landweber-Miller 11](#DoranFauxgatesHubschIgaLandweberMiller11))
+
+
+(A [[linear code]] of length $N$ is a [[linear subspace]] of $(\mathbb{F}_2)^N$ for $\mathbb{F}_2$ the [[prime field]] with two elements and it is _doubly even_ if every element has weight a multiple of 4. )
+
+(...)
+
+see [Zhang 13, chapter 2](#Zhang13)
 
 ## References
 
@@ -35,6 +79,21 @@ The concept of adinkras was introduced into [[supersymmetry]] [[representation t
 and further developed in 
 
 * [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], T. Hubsch, [[Kevin Iga]], [[Greg Landweber]], _On Graph-Theoretic Identifications of Adinkras, Supersymmetry Representations and Superfields_, Int. J. Mod. Phys. A22: 869-930, 2007 ([arXiv:math-ph/0512016](https://arxiv.org/abs/math-ph/0512016))
+
+and many more ("DFGHIL collaboration"). 
+
+The classification of adinkras in terms of [[graphs]] and [[linear codes]] is due to
+
+* {#DoranFauxGatesHubschIgaLandweberMiller11} [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], T. H&#252;bsch, [[Kevin Iga]], [[Greg Landweber]], R. L. Miller, _Codes and Supersymmetry in One Dimension_, Adv. in Th. Math. Phys. 15 (2011) 1909-1970 ([arXiv:1108.4124](https://arxiv.org/abs/1108.4124))
+
+Review includes
+
+* {#Zhang11} [[Yan X Zhang]], _Adinkras for Mathematicians_ ([arXiv:1111.6055](https://arxiv.org/abs/1111.6055))
+
+* {#Zhang13} [[Yan X Zhang]], _The combinatorics of Adinkras_, PhD thesis, MIT (2013) ([pdf](http://math.mit.edu/~yanzhang/math/thesis_adinkras.pdf))
+
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Adinkra_symbols_(physics)">Adinkra symbols (physics)</a>_
+
 
 The relation of adinkras to the classification of [[super Riemann surfaces]] via [[dessins d'enfants]] is due to
 
