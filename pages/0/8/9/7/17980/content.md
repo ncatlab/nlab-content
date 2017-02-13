@@ -31,12 +31,7 @@ The classification of adinkras, and hence of adinkraic representations, turns ou
 
 ## Definition
 
-For $N \in \mathbb{N}$, write
-
-$$
-  \mathbb{R}^{1 \vert N}
-$$
-
+For $N \in \mathbb{N}$, write $\mathbb{R}^{1 \vert N}$
 for the [[super Lie algebra]] over the [[real numbers]] that is spanned by a single generator $P$ in even (i.e., bosonic) degree and $N$ generators $Q_I$, $I \in \{1, 2, \cdots, N\}$ in odd (i.e., fermionic) degree, whose only non-trivial components of the super [[Lie bracket]] is
 
 $$
@@ -61,6 +56,11 @@ The corresponding _adinkra_ is the [[bipartite graph]] which expresses these per
 
 > table grabbed from [Doran & Iga & Landweber & Mendez-Diez 13, p. 7](#DoranIgaLandweberMendez-Diez13)
 
+
+<img src="https://ncatlab.org/nlab/files/1dAdinkraExample.png" width="600">
+
+> graphics grabbed from [Iga-Zhang 15, p. 3](#IgaZhang15)
+
 ## Classification
 
 The topology of an adinkra graph together with its edge coloring in $\{1,2, \cdots, N\}$ is called its _chromotopology_.
@@ -70,9 +70,22 @@ The set of adinkra chromotopologies is equivalent to the set of colored $N$-cubs
 
 (A [[linear code]] of length $N$ is a [[linear subspace]] of $(\mathbb{F}_2)^N$ for $\mathbb{F}_2$ the [[prime field]] with two elements and it is _doubly even_ if every element has weight a multiple of 4. )
 
-(...)
-
 see [Zhang 13, chapter 2](#Zhang13)
+
+
+<img src="https://ncatlab.org/nlab/files/AdinkrasFromCode.png" width="600">
+
+
+> graphics grabbed from [Iga-Zhang 15, p. 4](#IgaZhang15)
+
+## From supermultiplets in higher dimensions
+
+The [[dimensional reduction]] of the smallest [[supermultiplets]] of $d = 4, N = \mathbf{4}$ supersymmetry down to 1d yield adinkraic representations ([GGMPPRW 09, section 3](#GGMPPRW09), [Gates-Hubsch-Stiffler 14](#GatesHubschStiffler14)).
+
+Corresponding adinkras for the chiral scalar supermultiplet (CM), the vector multiplet (VM) and the tensor multiplet (TM) look as follows:
+
+<img src="https://ncatlab.org/nlab/files/AdinkrasFrom4d.png" width="450">
+
 
 ## References
 
@@ -92,6 +105,11 @@ The [[dimensional reduction]] of the standard [[supermultiplets]] of $d = 4, N =
 
 * {#GatesHubschStiffler14} [[Jim Gates]], T. Hubsch, Kory Stiffler, _Adinkras and SUSY Holography_, Int. J. Mod. Phys. A29 no. 7, (2014) 1450041 ([arXiv:1208.5999](https://arxiv.org/abs/1208.5999))
 
+See also
+
+* {#IgaZhang15} [[Kevin Iga]], [[Yan Zhang]], _Structural Theory of 2-d Adinkras_ ([arXiv:1508.00491](https://arxiv.org/abs/1508.00491))
+
+
 The classification of adinkras in terms of [[graphs]] and [[linear codes]] is due to
 
 * {#DoranFauxGatesHubschIgaLandweberMiller11} [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], T. H&#252;bsch, [[Kevin Iga]], [[Greg Landweber]], R. L. Miller, _Codes and Supersymmetry in One Dimension_, Adv. in Th. Math. Phys. 15 (2011) 1909-1970 ([arXiv:1108.4124](https://arxiv.org/abs/1108.4124))
@@ -101,10 +119,6 @@ and discussed in mathematical detail in
 * {#Zhang11} [[Yan X Zhang]], _Adinkras for Mathematicians_ ([arXiv:1111.6055](https://arxiv.org/abs/1111.6055))
 
 * {#Zhang13} [[Yan X Zhang]], _The combinatorics of Adinkras_, PhD thesis, MIT (2013) ([pdf](http://math.mit.edu/~yanzhang/math/thesis_adinkras.pdf))
-
-See also
-
-* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Adinkra_symbols_(physics)">Adinkra symbols (physics)</a>_
 
 
 The relation of adinkras to special [[super Riemann surfaces]] via [[dessins d'enfants]] is due to
@@ -120,5 +134,10 @@ Further developments includes
 Discussion in the context of [[spectral triples]] is in
 
 * [[Matilde Marcolli]], Nick Zolman, _Adinkras, Dessins, Origami, and Supersymmetry Spectral Triples_ ([arXiv:1606.04463](https://arxiv.org/abs/1606.04463))
+
+See also
+
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Adinkra_symbols_(physics)">Adinkra symbols (physics)</a>_
+
 
 [[!redirects adinkras]]
