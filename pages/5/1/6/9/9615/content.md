@@ -109,9 +109,20 @@ $$S_1 = S_1 - 2 T = S_1 + S_2 + S_3 = 0$$
 whence we infer that ${|S_1 + T|}$ is a multiple of $8$, and we have reached a contradiction. 
 =-- 
 
-## References 
+## Related entries
 
-Related $n$Lab entries include [[combinatorial design]], [[Leech lattice]], [[binary Golay code]]
+* [[coding theory]]
+
+* [[binary Golay code]]
+
+* [[combinatorial design]]
+
+* [[Leech lattice]]
+
+* [[adinkra]] 
+
+
+## References 
 
 * Igor Frankel, James Lepowsky, Arne Meurman, _Vertex Operator Algebras and the Monster_, Academic Press 1988. 
 {#FLM} 
