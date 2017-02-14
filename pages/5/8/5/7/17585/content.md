@@ -67,7 +67,7 @@ The formula in prop. \ref{SullivanModelForTheFreeLoopSpace} is the same as that 
 +-- {: .num_prop #ModelForS1quotient}
 ###### Proposition
 
-Given a [[Sullivan model]] $(\wedge^\bullet (V \oplus s V), d_{\mathcal{L}X})$ for a [[free loop space]] as in prop. \ref{SullivanModelForTheFreeLoopSpace}, then a Sullivan model for the [[homotopy quotient]] $\mathcal{L} X // S^1$ with respect to the canonical [[circle group]] action that rotates loops (i.e. for the [[Borel construction]] $\mathcal{L}X \times_{S^1} E S^1$) is given by
+Given a [[Sullivan model]] $(\wedge^\bullet (V \oplus s V), d_{\mathcal{L}X})$ for a [[free loop space]] as in prop. \ref{SullivanModelForTheFreeLoopSpace}, then a Sullivan model for the [[cyclic loop space]], i.e. for the [[homotopy quotient]] $\mathcal{L} X // S^1$ with respect to the canonical [[circle group]] action that rotates loops (i.e. for the [[Borel construction]] $\mathcal{L}X \times_{S^1} E S^1$) is given by
 
 $$
   (\wedge^\bullet(  V\oplus s V \oplus \langle \omega_2\rangle ), d_{\mathcal{L}X/S^1})
@@ -421,3 +421,10 @@ $$
 [[!redirects Sullivan models of a free loop space]]
 
 [[!redirects Sullivan models of free loop spaces]]
+
+
+[[!redirects Sullivan model for free loop space]]
+[[!redirects Sullivan models for free loop space]]
+[[!redirects Sullivan model for free loop spaces]]
+[[!redirects Sullivan models for free loop spaces]]
+
