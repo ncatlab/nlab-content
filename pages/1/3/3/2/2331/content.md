@@ -226,7 +226,7 @@ Bibliography_ ([pdf](http://www.math.columbia.edu/~doran/Hist%20Ann%20Bib.pdf))
 
 * M. Doubek, M. Markl, P. Zima, _Deformation theory (lecture notes)_, Archivum mathematicum __43__ (5), 2007, 333--371, [arXiv:0705.3719](http://arxiv.org/abs/0705.3719)
 
-* M. Markl, _Deformation theory of algebras and their diagrams_, 129 pp, CBMS __116__, AMS 2012, [book page](http://www.ams.org/bookstore-getitem/item=CBMS-116)
+* [[Martin Markl]], _Deformation theory of algebras and their diagrams_, 129 pp, CBMS __116__, AMS 2012, [book page](http://www.ams.org/bookstore-getitem/item=CBMS-116)
 
 * Wikipedia: [deformation theory](http://en.wikipedia.org/wiki/Deformation_theory), [cotangent complex] (http://en.wikipedia.org/wiki/Cotangent_complex)
 * E. Sernesi, _An overview of classical deformation theory_, [pdf](http://www.mat.uniroma3.it/users/sernesi/sernesioverviewdefth.pdf)
