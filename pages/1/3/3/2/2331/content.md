@@ -217,6 +217,10 @@ The Kontsevich and Soibelman references below are also good.
 
 ## References
 
+* {#SchlessingerStasheff85} [[Michael Schlessinger]], [[Jim Stasheff]], _The Lie algebra structure of tangent cohomology and deformation theory_, Journal of pure and applied algebra 38 (1985) 313-322
+
+* {#SchlessingerStasheff12} [[Michael Schlessinger]], [[Jim Stasheff]], _Deformation theory and rational homotopy type_ ([arXiv:1211.1647](https://arxiv.org/abs/1211.1647))
+
 * C. Doran, _Deformation Theory: An Historical Annotated
 Bibliography_ ([pdf](http://www.math.columbia.edu/~doran/Hist%20Ann%20Bib.pdf)) 
 
