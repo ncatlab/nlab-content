@@ -87,7 +87,7 @@ This is [[Higher Topos Theory|HTT, prop. 5.5.3.8]].
 ### Embedding into $(\infty,1)Cat$
  {#EmbeddingIntoCat}
 
-+-- {: .num_prop}
++-- {: .num_prop #LimitsAndColimits}
 ###### Proposition
 
 All small [[limit in a quasi-category|limits and colimits]] exists in $Pr(\infty,1)Cat$. The limits are preserved by the embedding $Pr(\infty,1)Cat \hookrightarrow $ [[(∞,1)Cat]].
@@ -140,22 +140,10 @@ Here a small $(\infty,1)$-category $S$ is to be thought of as a _basis_ and the 
 The monoidal product $\otimes : Pr(\infty,1)Cat \times Pr(\infty,1)Cat \to Pr(\infty,1)Cat$ plays the role of the [[tensor product]] of vector spaces, with a morphism out of $C \otimes D$ being a bilinear morphism out of $C \times D$, and the fact that $Pr(\infty,1)Cat$ is closed monoidal reflects the fact that [[Vect]] is closed monoidal. 
 
 
-Combined with the fact that the embedding $Pr(\infty,1)Cat \hookrightarrow (\infty,1)Cat$ preserves limits and colimits, this yields some useful statements.
+Combined with the fact that the embedding $Pr(\infty,1)Cat \hookrightarrow (\infty,1)Cat$ preserves limits (prop. \ref{LimitsAndColimits}), this yields some useful statements.
 
 For instance with $Pr(\infty,1)Cat$ regarded as $\infty Vect$, for any [[∞-group]] $G$ with [[delooping]] [[∞-groupoid]] $\mathbf{B}G$, we may think of an [[(∞,1)-functor]] $\rho : \mathbf{B}G \to Pr(\infty,1)Cat$ as a linear [[representation]] of $G$: the single object of $\mathbf{B}G$ is sent to a presentable $(\infty,1)$-category $V$ and the morphisms in $\mathbf{B}G$ then define an [[action]] of $G$ on that.
 
-The corresponding [[action groupoid]] $V//G$ (see there for more) is then the [[limit in a quasi-category|colimit]] over the action, in $Pr(\infty,1)Cat$ 
-
-$$
-  \array{
-    V//G &\to& Z
-    \\
-    \downarrow && \downarrow
-    \\
-    \mathbf{B}G &\stackrel{\rho}{\to}& Pr(\infty,1)Cat
-  }
-  \,.
-$$
 
 ## Related concepts
 
