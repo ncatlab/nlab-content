@@ -56,7 +56,7 @@ It is open whether the 4-sphere admits an [[exotic smooth structure]]. See ([Fre
 ### Free loop space
   {#FreeLoopSpace}
 
-We discuss the [[rational homotopy theory]] of the [[free loop space]] of $S^4$, using the results from _[[Sullivan models of free loop spaces]]_:
+We discuss the [[rational homotopy theory]] of the [[free loop space]] $\mathcal{L}(S^4)$ of $S^4$, as well as the [[cyclic loop space]] $\mathcal{L}(S^4)/S^1$  using the results from _[[Sullivan models of free loop spaces]]_:
 
 +-- {: .num_example}
 ###### Example
