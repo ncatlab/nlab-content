@@ -5,7 +5,7 @@
 
 ## Definition
 
-For $k$ a [[natural number]] and $x$ an element of a (unital) [[ring]], the **falling factorial** $x^{\underline{k}}$ (also sometimes written $(x)_k$) is defined by
+For $k$ a [[natural number]] and $x$ an element of a (unital) [[ring]], the **falling factorial** or **falling power** $x^{\underline{k}}$ (also sometimes written $(x)_k$) is defined by
 
 $$x^{\underline{k}} = x(x-1)\ldots (x-k+1).$$ 
 
@@ -42,3 +42,8 @@ Then the difference formula $\Delta x^{\underline{k}} = k x^{\underline{k-1}}$ a
 * [Falling Factorial](http://mathworld.wolfram.com/FallingFactorial.html) on Wolfram MathWorld. 
 
 * Ronald Graham, Donald Knuth, and Oren Patashnik, _Concrete Mathematics_, 2$^{nd}$ edition, Addison-Wesley (1994). 
+
+[[!redirects falling power]]
+[[!redirects falling powers]]
+[[!redirects falling factorials]]
+
