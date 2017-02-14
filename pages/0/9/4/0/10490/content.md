@@ -85,7 +85,7 @@ Since the extended MacNeille reals are a reflective sub-poset of the extended lo
 
 * Section D4.7 of [[Sketches of an Elephant]]
 
-* In Troelstra and van Dalen, *Constructivism in Mathematics*, section 5.5, the MacNeille real numbers are called the "bounded extended real numbers".
+* In [[Anne Troelstra|Troelstra]] and [[Dirk van Dalen|van Dalen]], *[[Constructivism in Mathematics]]*, section 5.5, the extedned MacNeille real numbers are called the "extended real numbers" (and the MacNeille real numbers are called the "bounded extended real numbers").
 
 
 [[!redirects MacNeille real number]]
@@ -94,4 +94,3 @@ Since the extended MacNeille reals are a reflective sub-poset of the extended lo
 [[!redirects MacNeille reals]]
 [[!redirects MacNeille number]]
 [[!redirects MacNeille numbers]]
-
