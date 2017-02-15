@@ -20,6 +20,8 @@ Equivalently this is a [[commutative monoid]] in the [[symmetric monoidal catego
 
 * The dg-algebra of [[polynomial differential forms]] on an [[n-simplex]];
 
+The following are [[semifree differential graded-commutative algebras]]:
+
 * A [[Sullivan algebra]].
 
 * The [[Chevalley-Eilenberg algebra]] of a [[Lie algebra]] or more generall of an [[L-infinity algebra]].
