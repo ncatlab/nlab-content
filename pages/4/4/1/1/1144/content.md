@@ -138,17 +138,16 @@ For more details see
 ### The rationalization adjunction
  {#SullivanRationalizationAdjunction}
 
-So we have a functor $\Omega^\bullet_{polynomial} \colon \Delta \to dgAlg^{op}$. Feeding that into the [above general machinery](#FormsOnPresheaves) produces a pair of [[adjoint functors]]
+So we have a functor $\Omega^\bullet_{poly} \colon \Delta \to dgAlg^{op}$. Feeding that into the [above general machinery](#FormsOnPresheaves) produces a pair of [[adjoint functors]]
 
 $$
   (\Omega^\bullet_{poly} \dashv \mathcal{K}_{poly})
   \colon
   sSet 
-    \stackrel{
-      \overset{\Omega^\bullet_{poly}}{\longrightarrow}
-    }{
-     \underset{K_{poly}}{\longleftarrow}
-    } 
+    \underoverset
+      {\underset{K_{poly}}{\longleftarrow}}
+      {\overset{\Omega^\bullet_{poly}}{\longrightarrow}}
+      {\bot}
   dgcAlg^{op}
 $$
 
@@ -171,14 +170,16 @@ Moreover, this restricts to an equivalence between simply connected rational hom
 
 For $X$ a homotopy type, then 
 
-1.its rational vector space of the rational homotopy group in degree $n$ is spanned by the generators of degree $n$ of its Sullivan model;
+1. its rational vector space of the rational homotopy group in degree $n$ is spanned by the generators of degree $n$ of its [[Sullivan model]];
 
-1. its rational cohomology is the cochain cohomology of its Sullivan model.
+1. its rational cohomology is the [[cochain cohomology]] of its [[Sullivan model]].
 
 =--
 
+
 ### Examples
  {#SullivanModelExamples}
+
 
 #### Rational $n$-spheres
   {#SullivanModelRationalSpheres}
@@ -281,8 +282,7 @@ The original articles are
 
 * {#Sullivan77} [[Dennis Sullivan]], _Infinitesimal computations in topology_      Publications math&#233;matiques de l' I.H.&#201;.S. tome 47 (1977), p. 269-331. ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
 
-* {#BousfieldGugenheim76} Bousfield, Gugenheim, _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
-
+* {#BousfieldGugenheim76} [[Aldridge Bousfield]], Gugenheim, _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
 
 
 Survey and review includes
@@ -297,7 +297,7 @@ Survey and review includes
 * {#Silveira84} [[Flavio da Silveira]], _Rational homotopy theory of fibrations_, Pacific Journal of Mathematics, Vol. 113, No. 1 (1984) ([pdf](http://msp.org/pjm/1984/113-1/pjm-v113-n1-p01-s.pdf))
 
 
-Review that makes the [[L-infinity algebra]] aspect completely manifest includes
+Review that makes the [[L-infinity algebra]] aspect completely manifest is in
 
 * {#BuijsFelixMurillo12} Urtzi Buijs, [[Yves Félix]], Aniceto Murillo, section 2 of _$L_\infty$-rational homotopy of mapping spaces_ ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756)),  published as _$L_\infty$-models of based mapping spaces_  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524. 
 
