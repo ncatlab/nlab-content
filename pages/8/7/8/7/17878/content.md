@@ -14,6 +14,16 @@ $$
 
 Equivalently this is a [[commutative monoid]] in the [[symmetric monoidal category|symmetric monoidal]] [[category of chain complexes]] equipped with the [[tensor product of chain complexes]].
 
+## Examples
+
+* The [[de Rham algebra]] of a [[smooth manifold]]
+
+* The dg-algebra of [[polynomial differential forms]] on an [[n-simplex]];
+
+* A [[Sullivan algebra]].
+
+* The [[Chevalley-Eilenberg algebra]] of a [[Lie algebra]] or more generall of an [[L-infinity algebra]].
+
 ## Related concepts
 
 * [[rational homotopy theory]]
