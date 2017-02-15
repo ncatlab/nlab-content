@@ -487,7 +487,7 @@ $$
   dgArtCAlg_k \in Cat
 $$
 
-for the [[category]] of $\mathbb{Z}$-graded graded-commutative [[Artin algebra|Artin]] [[dg-algebras]] over $k$ with [[residue field]] $k$.
+for the [[category]] of $\mathbb{Z}$-[[supercommutative superalgebra|graded-commutative]] [[Artin algebra|Artin]] [[dg-algebras]] over $k$ with [[residue field]] $k$.
 
 Write
 
@@ -537,7 +537,7 @@ $$
 $$
 
 for the [[functor]]
-which regards an [[L-infinity algebra]] $\mathfrak{g}$ as a [[dg-coalgebra]] by prop. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra} and then forms the [[dual vector space|linear dual]] [[dg-algebra]], the **[[Chevalley-Eilenberg algebra]]** $CE(\mathfrak{g})$ of $\mathfrak{g}$ (a pro-dg-algebra according to spring).
+which regards an [[L-infinity algebra]] $\mathfrak{g}$ as a [[dg-coalgebra]] by prop. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra} and then forms the [[dual vector space|linear dual]] [[dg-algebra]], the **[[Chevalley-Eilenberg algebra]]** $CE(\mathfrak{g})$ of $\mathfrak{g}$ (a pro-dg-algebra according to def. \ref{dgFormalSpace}).
 
 =--
 
@@ -848,8 +848,8 @@ A discussion of [[path space objects]] for $L_\infty$-algebras is in section 5 o
 
 A discussion of [[homotopy fibers]] of morphusms to abelian $L_\infty$-algebras and hence [∞-Lie algebra extensions](infinity-Lie+algebra+cohomology#Extensions)) is in section 3.1 of
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
- {#FiorenzaRogersSchreiber13}
+* {#FiorenzaRogersSchreiber13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
+ 
 
 
 
