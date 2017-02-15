@@ -1,7 +1,7 @@
 
 ## Idea
 
-The next [[Pontryagin class]] afer
+The next [[Pontryagin class]] after
 
 * [[first fractional Pontryagin class]]
 
