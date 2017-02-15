@@ -55,16 +55,24 @@ Rational homotopy theory is mostly restricted to [[simply connected topological 
 
 ## Sullivan approach
 
-### Differential forms on topological spaces {#FormsOnTopSpaces}
+### Differential forms on topological spaces 
+  {#FormsOnTopSpaces}
 
 A central tool in the study of rational topological spaces is an assignment that sends each [[topological space]]/[[simplicial set]] $X$ to a [[dg-algebra]] $\Omega^\bullet_{poly}(X)$ that behaves like the [[deRham complex|deRham dg-algebra]] of a smooth [[manifold]]. Instead of consisting of smooth [[differential forms]], $\Omega^\bullet_{poly}(X)$ consists of _piecewise linear polynomial differential forms_ , in a way described in detail now.
 
+We first discuss this semi-formally in
+
+* _[Idea](#DifferentialFormsOnSpacesIdea)_
+
+and then in more detial in 
+
+* _[Details](#FormsOnSpacesDetails)_.
+
+
+#### Idea
+ {#DifferentialFormsOnSpacesIdea}
+
 The construction of $\Omega^\bullet_{poly}$ is a special case of the following general construction:
-
-
-#### Differential forms on presheaves {#FormsOnPresheaves}
-
-See [[differential forms on presheaves]] for more.
 
 Let $C$ be any [[small category]], write $PSh(C) = [C^{op}, Set]$ for its category of [[presheaf|presheaves]] and let
 
@@ -90,7 +98,7 @@ $$
 
 to the [[opposite category]] of that of [[dg-algebra]]s. We may think of $\Omega^\bullet_C(X)$ as the deRham complex of the presheaf $X$ as seen by the functor $\Omega^\bullet_C : C \to dgAlg^{op}$.
 
-By [[category theory|general abstract nonsense]] this functor has a [[right adjoint]] $K_C : dgAlg^{op} \to PSh(C)$, that sends a dg-algebra $A$ to the [[presheaf]]
+By the general discussion at  _[[nerve and realization]]_ this functor has a [[right adjoint]] $K_C : dgAlg^{op} \to PSh(C)$, that sends a dg-algebra $A$ to the [[presheaf]]
 
 $$
   K_C(A) : U \mapsto Hom_{dgAlg}(\Omega^\bullet_C(U), A)
@@ -105,14 +113,14 @@ $$
 
 is an example for the adjunction induced from a [[dualizing object]].
 
+See [[differential forms on presheaves]] for more.
 
-#### Piecewise linear differential forms
 
-For the purpose of rational homotopy theory, consider the following special case of the [above general discussion](#FormsOnPresheaves) of differential forms on presheaves.
+For the purpose of rational homotopy theory, consider the following special case of the above general discussion of differential forms on presheaves.
 
 Recall that by the [[homotopy hypothesis]] theorem, [[Top]] is equivalent to [[sSet]]. In the sense of [[space and quantity]], a [[simplicial set]] is a "generalized space modeled on the [[simplex category]]": a [[presheaf]] on $\Delta$.
 
-Therefore set in the above $C := \Delta$. 
+Therefore set in the above $C \coloneqq \Delta$. 
 
 Now, a simplicial set has no smooth structure in terms of which one could define differential forms globally, but of course each abstract  $k$-[[simplex]] $\Delta[k]$ may be regarded as the standard $k$-simplex $\Delta^k_{Diff}$ in [[Diff]], and as such it supports smooth differential forms $\Omega^\bullet_{deRham}(\Delta^k_{Diff})$.
 
@@ -126,44 +134,290 @@ $$
   \,.
 $$
 
-For more details see
+For more details see at[[differential forms on simplices]].
 
-* [[differential forms on simplices]].
+#### Details
+  {#FormsOnSpacesDetails}
+
+We discuss the definition of polynomial differential forms on topological spaces in more detail.
+
++-- {: .num_defn #SmoothnSimplex}
+###### Definition
+**(smooth $n$-simplex)**
+
+For $n \in \mathbb{N}$ the _smooth [[n-simplex]]_ $\Delta^n_{smth}$ is the [[smooth manifold]] with [[manifold with boundary|boundary]] and [[manifold with corners|corners]] defined, up to [[isomorphism]], as the following locus inside the [[Cartesian space]] $\mathbb{R}^{n+1}$:
+
+$$
+  \Delta^n_{smth}
+  \;\coloneqq\;
+  \left\{
+    (x_0, x_1, \cdots, x_n)
+    \in 
+    \mathbb{R}^{n+1}
+     \;\vert\;
+     0 \leq x_i \leq 1
+     \;\text{and}\;
+     \underoverset{i = 0}{n}{\sum}
+     x_i 
+     \; = 0
+  \right\}
+  \hookrightarrow
+  \mathbb{R}^{n+1}
+  \,.
+$$ 
+
+For $0 \leq i \leq n$ the [[function]]
+
+$$
+  x_i \;\colon\; \Delta^n_{smth} \to \mathbb{R}
+$$
+
+which picks the $i$th component in the above definition is called the $i$th _barycentric coordinate function_.
+
+For
+
+$$
+  f \;\colon\; [n_1] \longrightarrow [n_2]
+$$
+
+a morphism of finite non-empty [[linear orders]] $[n] \coloneqq \{0 \lt 1 \lt \cdots \lt n\}$, let 
+
+$$
+  \Delta_{smth}(f) 
+     \;\colon\; 
+  \Delta^{n_1}_{smth} 
+    \longrightarrow 
+  \Delta^{n_2}_{smth} 
+$$
+
+be the [[smooth function]] defined by $x_i \mapsto x_{f(i)}$.
+
+
+ 
+=--
+
++-- {: .num_defn #dgcAlgebras}
+###### Definition
+
+For definiteness, we write
+
+$$
+  dgcAlg_{\mathbb{Q}, \geq 0}
+$$
+
+for the [[category]] of [[differential graded-commutative algebras]] over the [[complex numbers]] in non-negative $\mathbb{Z}$-degree, i.e. $\mathbb{N}$-graded.
+
+=--
+
+
++-- {: .num_defn #SmoothDifferentialFormsOnSmoothnSimplex}
+###### Definition
+**(smooth differential forms on the smooth $n$-simplex)
+
+For $k \in \mathbb{N}$ then a [[smooth differential k-form]] on the smooth $n$-simplex (def. \ref{SmoothnSimplex}) is a smooth differential form in the sense of [[smooth manifolds]] with [[manifold with boundary|boundary]] and [[manifold with corners|corners]]. Explicitly this means the following.
+
+Let 
+
+$$
+  F^n
+  \;\coloneqq\;
+  \left\{
+    (x_0, x_1, \cdots, x_n)
+    \in 
+    \mathbb{R}^{n+1}
+     \;\vert\;
+     \underoverset{i = 0}{n}{\sum}
+     x_i 
+     \; = 0
+  \right\}
+  \hookrightarrow
+  \mathbb{R}^{n+1}
+$$ 
+
+be the affine plane in $\mathbb{R}^{n+1}$ that contains $\Delta^n_{smth}$ in its defining inclusion from def. \ref{SmoothnSimplex}. This is a [[smooth manifold]] [[diffeomorphism|diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^{n}$.
+
+A smooth differential form on $\Delta^n_{smth}$ of degree k$ is a collection of [[linear functions]]
+
+$$
+  \wedge^k T_x F^n \longrightarrow \mathbb{R}
+$$
+
+out of the $k$-fold skew-symmetric [[tensor power]] of the [[tangent space]] of $F^n$ at some point $x$ to the [[real numbers]], for all $x \in \Delta^n_{smth}$ such that this extends to a smooth differential $k$-form on $F^n$.
+
+Write $\Omega^\bullet(\Delta^n_{smth})$ for the graded [[real vector space]] defined this way. By definition there is then a canonical linear map
+
+$$
+  \Omega^\bullet(F^n) \longrightarrow \Omega^\bullet(\Delta^n_{smth})
+$$
+
+from the [[de Rham complex]] of $F^n$ and there is a unique structure of a [[differential graded-commutative algebra]] on $\Omega^\bullet(\Delta^n_{smth})$ that makes is a [[homomorphism]] of [[dg-algebras]] form the [[de Rham algebra]] of $F^n$. This is the de Rham algebra of smooth differential forms on the smooth $n$-simplex.
+
+For $f \colon [n_1] \to [n_2]$ a homomorphism of finite non-empty [[linear orders]] with $\Delta_{smth}(f) \colon \Delta^{n_1}_{smth} \to \Delta^{n_2}_{smth}$ the corresponding smooth function according to def. \ref{SmoothnSimplex}, there is the induced [[homomorphism]] of [[differential graded-commutative algebras]]
+
+$$
+  (\Delta_{smth}(f))^\ast
+    \;\colon\;
+  \Omega^\bullet(\Delta^{n_2}_{smth})
+    \longrightarrow
+  \Omega^\bullet(\Delta^{n_1}_{smth})
+$$
+
+induced from the usual [[pullback of differential forms]] on $F^n$. This makes smooth differential forms on smooth simplices be a [[simplicial object]] in [[differential graded-commutative algebras]] (def. \ref{dgcAlgebras}):
+
+$$
+  \Omega^\bullet(\Delta^{(-)}_{smth})
+    \;\colon\;
+   \Delta^{op}
+     \longrightarrow
+   dgcAlg_{\mathbb{R}, \geq 0}
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #PolynomialDifferentialForms}
+###### Definition
+
+For $n \in \mathbb{N}$ write
+
+$$
+  \Omega_{poly}^{\bullet}(\Delta^n)
+   \;\coloneqq\;
+  Sym^\bullet_{\mathbb{Q}} 
+   \langle t_0, \cdots, t_n, d t_0, \cdots, d t_n\rangle/\left(\sum t_i -1, \sum d t_i \right)
+$$
+
+for the [[quotient]] of the $\mathbb{Z}$-graded [[symmetric algebra]] over the [[rational numbers]] on $n+1$ generators $t_i$ in degree 0 and $n+1$ generators $d t_i$ of degree 1.
+
+I particular in degree 0 this are called the _polynomial functions_
+
+$$
+  \Omega^0_{poly}(\Delta^n)
+  \;=\;
+  \mathbb{Q}[t_0, t_1, \cdots t_n]/\left( \underset{i}{\sum} t_i = 0 \right)
+$$
+
+due to the canonical inclusion
+
+$$
+  \Omega^0_{poly}(\Delta^n)
+    \hookrightarrow
+  C^\infty(\Delta^n_{smth})
+$$
+
+into the [[smooth functions]] on the $n$-simplex according to def. \ref{SmoothDifferentialFormsOnSmoothnSimplex}, obtained by regarding the generator $t_i$ as the $i$th barycentric coordinate function.
+
+Observe that the [[tensor product]] of the polynomial differential forms over these polynomial functions with the [[smooth functions]] on the $n$-simplex, is canonically [[isomorphism|isomorphic]] to the space $\Omega^\bullet(\Delta^n_{smth})$ of smooth [[differential forms]], according to def. \ref{SmoothDifferentialFormsOnSmoothnSimplex}:
+
+$$
+  \Omega^\bullet(\Delta^n_{smth})
+    \simeq
+  C^\infty(\Delta^n_{smth}) \otimes_{\Omega^0_{poly}(\Delta^n)}
+  \Omega^\bullet_{poly}(\Delta^n)
+$$
+
+where moreover the generators $d t_i$ are identified with the de Rham differential of the $i$th barycentric coordinate functions.
+
+This defines a canonical inclusion
+
+$$
+  \Omega^\bullet_{poly}(\Delta^n)
+    \hookrightarrow
+  \Omega^\bullet(\Delta^n_{smth})
+$$
+
+and there is uniquely the structure of a [[differential graded-commutative algebra]] on $\Omega^\bullet_{poly}(\Delta^n)$ that makes this a [[homomorphism]] of [[dg-algebras]]. This is the _dg-algebra of polynomial differential forms_.
+
+
+For $f \colon [n_1] \to [n_1]$ a [[morphism]] of finite non-empty [[linear orders]], let
+
+$$
+  \Omega^\bullet_{poly}(f) 
+   \;\colon\; 
+  \Omega^\bullet_{poly}(\Delta^{n_2}) \to \Omega^\bullet_{poly}(\Delta^{n_1})
+$$
+
+be the morphism of dg-algebras given on generators by 
+
+$$
+  \Omega^\bullet_{poly}(f) : t_i \mapsto \sum_{f(j) = i} t_j
+  \,.
+$$
+
+This yields a [[simplicial object|simplicial]] [[differential graded-commutative algebra]]
+
+$$
+  \Omega^\bullet_{poly}(\Delta^{(-)}) : \Delta^{op} \to cdgAlg_k
+$$
+
+which is a sub-simplicial object of that of smooth differential form
+
+$$
+  \Omega^\bullet_{poly}(\Delta^{(-)})
+    \hookrightarrow
+  \Omega^\bullet(\Delta_{smth}^{(-)})
+  \,.
+$$
+
+=--
+
+
+
 
 
 ### Sullivan models {#SullivanModels}
 
 ...See _[[Sullivan model]]_...
 
+
 ### The rationalization adjunction
  {#SullivanRationalizationAdjunction}
 
-So we have a functor $\Omega^\bullet_{poly} \colon \Delta \to dgAlg^{op}$. Feeding that into the [above general machinery](#FormsOnPresheaves) produces a pair of [[adjoint functors]]
+
++-- {: .num_defn #AdjunctionBetweenSimplicialSetAnddgcAlgebras}
+###### Definition
+
+Consider the [[simplicial object|simplicial]] [[differential graded-commutative algebra]] of [[polynomial differential forms]] from def. \ref{PolynomialDifferentialForms}, equivalently a [[cosimplicial object]] in the [[opposite category]] of [[differential graded-commutative algebras]] (def. \ref{dgcAlgebras}):
+
+$$
+  \Omega^\bullet_{poly} 
+    \;\colon\;
+  \Delta
+    \longrightarrow
+  dgcAlg_{\mathbb{Q}, \geq 0}^{op}
+  \,.
+$$
+
+By the general discussion at _[[nerve and realization]]_, this induces a pair of [[adjoint functors]] between $(dgcAlg_{\mathbb{Q}, \geq 0})^{op}$ (def. \ref{dgcAlgebras}) and the category $sSet$ of [[simplicial sets]], which we denote as follows:
 
 $$
   (\Omega^\bullet_{poly} \dashv \mathcal{K}_{poly})
-  \colon
+    \;\colon\;
   sSet 
     \underoverset
       {\underset{K_{poly}}{\longleftarrow}}
       {\overset{\Omega^\bullet_{poly}}{\longrightarrow}}
       {\bot}
-  dgcAlg^{op}
+  (dgcAlg_{\mathbb{Q}, \geq 0})^{op}
+  \,.
 $$
 
-between [[simplicial sets]] and [[dg-algebras]].
+Here the [[left adjoint]] is the [[left Kan extension]] of $\Omega^\bullet_{poly}$ along the [[Yoneda embedding]] $\Delta \hookrightarrow sSet$, which we denote by the same symbols. 
+
+=--
+
 
 
 +-- {: .num_theorem #SullivanRationalizationAdjunction}
 ###### Theorem
 
-This is a [[Quillen adjunction]] with respect to the standard [[model structure on simplicial sets]] on the left, and the standard [[model structure on dg-algebras]] on the right.
+The [[adjunction]] of def. \ref{AdjunctionBetweenSimplicialSetAnddgcAlgebras} is a [[Quillen adjunction]] with respect to the [[classical model structure on simplicial sets]] on the left, and the projective [[model structure on differential graded-commutative algebras]] on the right.
 
-Moreover, this restricts to an equivalence between simply connected rational homotopy types and (minimal) [[Sullivan algebras]].
+Moreover, this restricts to an equivalence between simply connected rational homotopy types and (minimal) [[Sullivan algebras]]. (...)
 
 =--
 
-([Bousfield-Gugenheim 76, section 8](#BousfieldGugenheim76)) Review includes ([Hess 06, p. 9](#Hess06)).
+This is due to ([Bousfield-Gugenheim 76, section 8](#BousfieldGugenheim76)) Review includes ([Hess 06, p. 9](#Hess06)).
 
 +-- {: .num_prop #HomotopyGroupsFromSullivanGenerators}
 ###### Proposition
