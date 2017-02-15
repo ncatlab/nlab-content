@@ -1108,3 +1108,7 @@ Discussion of [[homotopy limits]] and [[homotopy colimits]] of dg-algebras is in
 [[!redirects model structure on dg-algebra]]
 [[!redirects Sullival algebra]]
 [[!redirects model structures on dg-algebras]]
+
+[[!redirects model structure on differential graded-commutative algebras]]
+[[!redirects model structures on differential graded-commutative algebras]]
+
