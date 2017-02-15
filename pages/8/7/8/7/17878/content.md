@@ -28,6 +28,8 @@ The following are [[semifree differential graded-commutative algebras]]:
 
 ## Related concepts
 
+* [[model structure on differential graded-commutative algebras]]
+
 * [[rational homotopy theory]]
 
 * [[monoidal Dold-Kan correspondence]]
