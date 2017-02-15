@@ -25,94 +25,141 @@ By the discussion at [[differential forms on presheaves]], each such extends to 
 
 ## Definition
 
-### Polynomial differential forms {#Polynomial}
+### Smooth differential forms
 
-Let $k$ be a commutative ring.
-
-+-- {: .num_defn}
++-- {: .num_defn #SmoothnSimplex}
 ###### Definition
+**(smooth $n$-simplex)**
 
-For $n \in \mathbb{N}$ let $\Omega_{poly}^\bullet(\Delta^n)$ be the commutative [[dg-algebra]] of **[[polynomial]] [[differential form]]s** on the $n$-[[simplex]]:
-
-as a graded algebra it is 
-
-$$
-  \Omega_{poly}^{\bullet}(\Delta^n)
-  :=
-  k[t_0, \cdots, t_n, d t_0, \cdots, d t_n]/(\sum t_i -1, \sum d t_i)
-$$
-
-with the differential the usual de Rham differential under the embedding $\Omega^\bullet_{poly}(\Delta^n) \hookrightarrow \Omega^\bullet(\Delta^n)$.
-
-For $f : [k] \to [l]$ a [[morphism]] in the [[simplex category]] let
+For $n \in \mathbb{N}$ the _smooth [[n-simplex]]_ $\Delta^n_{smth}$ is the [[smooth manifold]] with [[manifold with boundary|boundary]] and [[manifold with corners|corners]] defined, up to [[isomorphism]], as the following locus inside the [[Cartesian space]] $\mathbb{R}^{n+1}$:
 
 $$
-  \Omega^\bullet_{poly}(f) : \Omega^\bullet_{poly}(\Delta^l) \to \Omega^\bullet_{poly}(\Delta^k)
+  \Delta^n_{smth}
+  \;\coloneqq\;
+  \left\{
+    (x_0, x_1, \cdots, x_n)
+    \in 
+    \mathbb{R}^{n+1}
+     \;\vert\;
+     0 \leq x_i \leq 1
+     \;\text{and}\;
+     \underoverset{i = 0}{n}{\sum}
+     x_i 
+     \; = 0
+  \right\}
+  \hookrightarrow
+  \mathbb{R}^{n+1}
+  \,.
+$$ 
+
+For $0 \leq i \leq n$ the [[function]]
+
+$$
+  x_i \;\colon\; \Delta^n_{smth} \to \mathbb{R}
 $$
 
-be the morphism of dg-algebras given on generators by 
+which picks the $i$th component in the above definition is called the $i$th _barycentric coordinate function_.
+
+For
 
 $$
-  \Omega^\bullet_{poly}(f) : t_i \mapsto \sum_{f(j) = i} t_j
-  \,..
+  f \;\colon\; [n_1] \longrightarrow [n_2]
 $$
 
-This yields a [[simplicial object|simplicial]] commutative dg-algebra
+a morphism of finite non-empty [[linear orders]] $[n] \coloneqq \{0 \lt 1 \lt \cdots \lt n\}$, let 
 
 $$
-  \Omega^\bullet_{poly}(\Delta^{(-)}) : \Delta^{op} \to cdgAlg_k
+  \Delta_{smth}(f) 
+     \;\colon\; 
+  \Delta^{n_1}_{smth} 
+    \longrightarrow 
+  \Delta^{n_2}_{smth} 
 $$
 
-or equivalently a [[cosimplicial object]] in the [[opposite category]] $cdgAlg_k^{op}$.
+be the [[smooth function]] defined by $x_i \mapsto x_{f(i)}$.
+
+
+ 
+=--
+
+
++-- {: .num_defn #SmoothDifferentialFormsOnSmoothnSimplex}
+###### Definition
+**(smooth differential forms on the smooth $n$-simplex)
+
+For $k \in \mathbb{N}$ then a [[smooth differential k-form]] on the smooth $n$-simplex (def. \ref{SmoothnSimplex}) is a smooth differential form in the sense of [[smooth manifolds]] with [[manifold with boundary|boundary]] and [[manifold with corners|corners]]. Explicitly this means the following.
+
+Let 
+
+$$
+  F^n
+  \;\coloneqq\;
+  \left\{
+    (x_0, x_1, \cdots, x_n)
+    \in 
+    \mathbb{R}^{n+1}
+     \;\vert\;
+     \underoverset{i = 0}{n}{\sum}
+     x_i 
+     \; = 0
+  \right\}
+  \hookrightarrow
+  \mathbb{R}^{n+1}
+$$ 
+
+be the affine plane in $\mathbb{R}^{n+1}$ that contains $\Delta^n_{smth}$ in its defining inclusion from def. \ref{SmoothnSimplex}. This is a [[smooth manifold]] [[diffeomorphism|diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^{n}$.
+
+A smooth differential form on $\Delta^n_{smth}$ of degree k$ is a collection of [[linear functions]]
+
+$$
+  \wedge^k T_x F^n \longrightarrow \mathbb{R}
+$$
+
+out of the $k$-fold skew-symmetric [[tensor power]] of the [[tangent space]] of $F^n$ at some point $x$ to the [[real numbers]], for all $x \in \Delta^n_{smth}$ such that this extends to a smooth differential $k$-form on $F^n$.
+
+Write $\Omega^\bullet(\Delta^n_{smth})$ for the graded [[real vector space]] defined this way. By definition there is then a canonical linear map
+
+$$
+  \Omega^\bullet(F^n) \longrightarrow \Omega^\bullet(\Delta^n_{smth})
+$$
+
+from the [[de Rham complex]] of $F^n$ and there is a unique structure of a [[differential graded-commutative algebra]] on $\Omega^\bullet(\Delta^n_{smth})$ that makes is a [[homomorphism]] of [[dg-algebras]] form the [[de Rham algebra]] of $F^n$. This is the de Rham algebra of smooth differential forms on the smooth $n$-simplex.
+
+For $f \colon [n_1] \to [n_2]$ a homomorphism of finite non-empty [[linear orders]] with $\Delta_{smth}(f) \colon \Delta^{n_1}_{smth} \to \Delta^{n_2}_{smth}$ the corresponding smooth function according to def. \ref{SmoothnSimplex}, there is the induced [[homomorphism]] of [[differential graded-commutative algebras]]
+
+$$
+  (\Delta_{smth}(f))^\ast
+    \;\colon\;
+  \Omega^\bullet(\Delta^{n_2}_{smth})
+    \longrightarrow
+  \Omega^\bullet(\Delta^{n_1}_{smth})
+$$
+
+induced from the usual [[pullback of differential forms]] on $F^n$. This makes smooth differential forms on smooth simplices be a [[simplicial object]] in [[differential graded-commutative algebras]]:
+
+$$
+  \Omega^\bullet(\Delta^{(-)}_{smth})
+    \;\colon\;
+   \Delta^{op}
+     \longrightarrow
+   dgcAlg_{\mathbb{R}}
+  \,.
+$$
 
 =--
 
-By left [[Kan extension]] this extends to all [[simplicial set]]s
+
+
+
+The standard proof of the [[Poincaré lemma]] applies to show that 
 
 $$
-  \Omega^\bullet_{poly} : sSet \to cdgAlg_k^{op}
+  H^\bullet(\Omega^\bullet(\Delta^n_{smth})) \simeq \mathbb{R}
   \,.
 $$
 
 
-### Smooth differential forms
-
-Recall that the standard [[topological space|topological]] $n$-[[simplex]]  $\mathbf{\Delta}^n \subset \mathbb{R}^{n+1}$ is specified by 
-
-$$\mathbf{\Delta}^n = \left\{\sum^n_0 t_i\mathbf{v}_i \Big| 0\leq t_i\leq 1; \sum^n_0 t_1 =1\right\},$$
-
-where the $\mathbf{v}_i$ form the standard basis for $\mathbb{R}^{n+1}$, so $\mathbf{v}_1 = (1, 0, \ldots, 0)$, etc.  We will denote by $F^n$ the affine $n$-plane that contains $\mathbf{\Delta}^n $.  The continuous function $b_i :\mathbf{\Delta}^n\to\mathbb{R}$ given by 
-
-$$b_i(\sum t_j\mathbf{v}_j) = t_i$$
-
-will be called the $i^{th}$ **barycentric coordinate function**.
-
-A *$C^\infty$ $p$-differential form* on $\mathbf{\Delta}^n $, $\Phi$, is a family of $p$-linear skew symmetric maps 
-
-$$\Phi_x : T_x(F^n) \times \ldots\times T_x(F^n) \to \mathbb{R}, \quad x\in \mathbf{\Delta}^n,$$
-
-(where the product is $p$-fold),
-which extends to an ordinary $C^\infty$ $p$-form on the manifold $F^n$.
-
-These form a real vector space $A^p_\infty(\mathbf{\Delta}^n)$ and we have the obvious restriction map $A^p_\infty(F^n)\to A^p_\infty(\mathbf{\Delta}^n)$, which is surjective by definition.  It is a straight forward calculation that in the direct sum 
-
-$$A_\infty(\mathbf{\Delta}^n) =\sum_{p=0}^{n}A^p_\infty(\mathbf{\Delta}^n) $$
-
-there is a unique multiplication, $\wedge$, and a unique differential $d$ such that the restriction $A^p_\infty(F^n)\to A^p_\infty(\mathbf{\Delta}^n)$ is a homomorphism of commutative [[differential graded algebra|differential graded algebras]], (c.d.g.a). 
-
-Moreover, the standard proofs of the [[Poincare lemma|Poincaré lemma]] apply to show that $(A_\infty(\mathbf{\Delta}^n),d)$ is acyclic:
-
-$$H(A_\infty(\mathbf{\Delta}^n),d) \cong \mathbf{R}.$$
-
-Next suppose that $f : [n]\to [m]$ be any set map, where $[n] =\{0\lt 1\lt\ldots \lt n\}$, usually considered as an ordered set as shown.  Define a linear map $f : \mathbb{R}^{n+1} \to \mathbb{R}^{m+1}$ by $\mathbf{v}_i\mapsto\mathbf{v}_{f(i)}$. This restricts to a linear map $\mathbf{\Delta}(f) : \mathbf{\Delta}^n \to 
-\mathbf{\Delta}^m$, which induces in the standard way a homomorphism of c.d.g.as
-
-$$A_\infty(f) : A_\infty(\mathbf{\Delta}^n)\to A_\infty(\mathbf{\Delta}^m).$$
-
-If $f$ is a face map or a degeneracy map we will simply write $d_i$ or $s_i$ for the corresponding induced maps on the c.d.g.as.  These of course make $A^p_\infty$ into a [[simplicial vector space]] and $A_\infty$ into a [[simplical commutative differential graded algebra]]
-
-
-Each element of $A^p_\infty(\mathbf{\Delta}^n)$ may be uniquely written
+Each element of $\Omega^p_{poly}(\Delta^n)$ may be uniquely written
 
 
 $$\Phi =\sum_{1\leq i_1\lt\ldots\lt i_p\leq n}\Phi_{i_1\ldots i_p}d b_{i_1}\wedge\ldots d b_{i_p},$$
@@ -137,6 +184,109 @@ $$\Phi =\sum_{1\leq i_1\lt \ldots\lt i_p\leq n}\Phi_{i_1\ldots i_p}d b_{i_1}\wed
 then 
 
 $$d\Phi =\sum_{1\leq i_1\lt\ldots\lt i_p\leq n} d\Phi_{i_1\ldots i_p} \wedge d b_{i_1} \wedge \ldots d b_{i_p},$$
+
+
+
+### Polynomial differential forms 
+  {#Polynomial}
+
+
++-- {: .num_defn #PolynomialDifferentialForms}
+###### Definition
+
+For $n \in \mathbb{N}$ write
+
+$$
+  \Omega_{poly}^{\bullet}(\Delta^n)
+   \;\coloneqq\;
+  Sym^\bullet_{\mathbb{Q}} 
+   \langle t_0, \cdots, t_n, d t_0, \cdots, d t_n\rangle/\left(\sum t_i -1, \sum d t_i \right)
+$$
+
+for the [[quotient]] of the $\mathbb{Z}$-graded [[symmetric algebra]] over the [[rational numbers]] on $n+1$ generators $t_i$ in degree 0 and $n+1$ generators $d t_i$ of degree 1.
+
+I particular in degree 0 this are called the _polynomial functions_
+
+$$
+  \Omega^0_{poly}(\Delta^n)
+  \;=\;
+  \mathbb{Q}[t_0, t_1, \cdots t_n]/\left( \underset{i}{\sum} t_i = 0 \right)
+$$
+
+due to the canonical inclusion
+
+$$
+  \Omega^0_{poly}(\Delta^n)
+    \hookrightarrow
+  C^\infty(\Delta^n_{smth})
+$$
+
+into the [[smooth functions]] on the $n$-simplex according to def. \ref{SmoothDifferentialFormsOnSmoothnSimplex}, obtained by regarding the generator $t_i$ as the $i$th barycentric coordinate function.
+
+Observe that the [[tensor product]] of the polynomial differential forms over these polynomial functions with the [[smooth functions]] on the $n$-simplex, is canonically [[isomorphism|isomorphic]] to the space $\Omega^\bullet(\Delta^n_{smth})$ of smooth [[differential forms]], according to def. \ref{SmoothDifferentialFormsOnSmoothnSimplex}:
+
+$$
+  \Omega^\bullet(\Delta^n_{smth})
+    \simeq
+  C^\infty(\Delta^n_{smth}) \otimes_{\Omega^0_{poly}(\Delta^n)}
+  \Omega^\bullet_{poly}(\Delta^n)
+$$
+
+where moreover the generators $d t_i$ are identified with the de Rham differential of the $i$th barycentric coordinate functions.
+
+This defines a canonical inclusion
+
+$$
+  \Omega^\bullet_{poly}(\Delta^n)
+    \hookrightarrow
+  \Omega^\bullet(\Delta^n_{smth})
+$$
+
+and there is uniquely the structure of a [[differential graded-commutative algebra]] on $\Omega^\bullet_{poly}(\Delta^n)$ that makes this a [[homomorphism]] of [[dg-algebras]]. This is the _dg-algebra of polynomial differential forms_.
+
+
+For $f \colon [n_1] \to [n_1]$ a [[morphism]] of finite non-empty [[linear orders]], let
+
+$$
+  \Omega^\bullet_{poly}(f) 
+   \;\colon\; 
+  \Omega^\bullet_{poly}(\Delta^{n_2}) \to \Omega^\bullet_{poly}(\Delta^{n_1})
+$$
+
+be the morphism of dg-algebras given on generators by 
+
+$$
+  \Omega^\bullet_{poly}(f) : t_i \mapsto \sum_{f(j) = i} t_j
+  \,.
+$$
+
+This yields a [[simplicial object|simplicial]] [[differential graded-commutative algebra]]
+
+$$
+  \Omega^\bullet_{poly}(\Delta^{(-)}) : \Delta^{op} \to cdgAlg_k
+$$
+
+which is a sub-simplicial object of that of smooth differential form
+
+$$
+  \Omega^\bullet_{poly}(\Delta^{(-)})
+    \hookrightarrow
+  \Omega^\bullet(\Delta_{smth}^{(-)})
+  \,.
+$$
+
+=--
+
+By left [[Kan extension]] this extends to a functor on all [[simplicial sets]]
+
+$$
+  \Omega^\bullet_{poly} : sSet \to cdgAlg_k^{op}
+  \,.
+$$
+
+This functor is one half of an adjunction that constitutes the Sullivan model of [[rational homotopy theory]].
+
+
 
 ## Properties {#Properties}
 
@@ -169,7 +319,9 @@ The morphism $\int$ is a [[quasi-isomorphism]] of cochain complexes.
 
 =--
 
-This is ([BousfieldGugenheim, theorem 2.2, corollary 3.4](#BousfieldGugenheim)).
+This is ([Bousfield-Gugenheim, theorem 2.2, corollary 3.4](#BousfieldGugenheim)).
+
+The following is the central fact of the Sullivan approach to [[rational homotopy theory]]:
 
 +-- {: .num_prop }
 ###### Proposition
@@ -178,8 +330,12 @@ The functor $\Omega^\bullet_{poly}$ is the [[left adjoint]] of a [[Quillen adjun
 
 $$
   (\Omega^\bullet_{poly} \dashv R)
-  : 
-  sSet \stackrel{\overset{R}{\leftarrow}}{\underset{\Omega^\bullet_{poly}}{\to}}
+  \;\colon\;
+  sSet 
+    \underoverset
+      {\underset{\Omega^\bullet_{poly}}{\to}}
+      {\overset{R}{\leftarrow}}
+      {\bot}
   cdgAlg_k^{op}
 $$
 
@@ -187,7 +343,7 @@ for the standard [[model structure on simplicial sets]] and the projective [[mod
 
 =--
 
-This is shown in ([BousfieldGugenheim, section 8](#BousfieldGugenheim)).
+This is shown in ([Bousfield-Gugenheim, section 8](#BousfieldGugenheim)).
 
 So in particular $\Omega^\bullet_{poly}$ sends cofibrations of simplicial sets to fibrations of dg-algebras. Hence for $i : \partial \Delta[k] \hookrightarrow \Delta[k]$ a boundary inclusion the corresponding restriction
 
@@ -232,8 +388,7 @@ Applications include
 
 An original reference is
 
-* [[Aldridge Bousfield]] and V. K. A. M. Gugenheim, _On PL De Rham Theory and Rational Homotopy Type_ , Memoirs of the A. M. S., vol. 179, 1976.
-{#BousfieldGugenheim}
+* {#BousfieldGugenheim} [[Aldridge Bousfield]] and V. K. A. M. Gugenheim, _On PL De Rham Theory and Rational Homotopy Type_ , Memoirs of the A. M. S., vol. 179, 1976.
 
 A standard textbook is
 
@@ -245,7 +400,7 @@ This is based on
 
 A useful survey is in 
 
-* {#Hess} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+* {#Hess} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
 
 
 [[!redirects polynomial differential form]]
