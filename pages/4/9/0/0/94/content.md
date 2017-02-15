@@ -263,6 +263,8 @@ This shows that the Jacobi identity holds up to an "exact" term, hence up to hom
 
 In ([Lada-Stasheff 92](#LadaStasheff92)) it was pointed out that the higher brackets of an $L_\infty$-algebra (def. \ref{LInfinityDefinitionViaGeneralizedJacobiIdentity}) induce on the graded-co-commutative [[cofree coalgebra]] $\vee^\bullet \mathfrak{g}$ over the underlying graded vector space $\mathfrak{g}$ the structure of a [[differential graded coalgebra]], with differential $D = [-] + [-,-] + [-,-,-] + \cdots$ the sum of the higher brackets, extended as graded [[coderivations]]. The higher Jacobi identity is equivalently the condition that $D^2 = 0$. In ([Lada-Markl 94](#LadaMarkl94)) it was observed that conversely, such "semifree" [[differential graded coalgebras]] are an equivalent incarnation of $L_\infty$-algebras. 
 
+(If one uses unital dg-co-algebras then the $L_\infty$-algbras encoded with way are generally [[curved L-infinity algebras]]. To restrict to the non-curved one one either considers co-augmented unital dg-co-algebras or non-unital coalgebras.)
+
 Notice that this immediately imples that if $\mathfrak{g}$ is degreewise finite dimensional, then passing to [[dual vector spaces]] turns semifree [[differential graded coalgebra]]
 into [[semifree dga|semifree]] [[differential graded algebras]], which hence are [[opposite category|opposite]]-equivalent to $L_\infty$-algebras of [[finite type]]. For $\mathfrak{g}$ an ordinary finite dimensional [[Lie algebra]], then this dg-algebras is its [[Chevalley-Eilenberg algebra]], hence we may generally speak of [[Chevalley-Eilenberg algebras]] of $L_\infty$-algebras of [[finite type]] (and also more generally, if one invokes [[pro-objects]], see at [model structure for L-infinity algebras -- Use of pro-dg-algebras](model+structure+for+L-infinity+algebras#OnProAlg) ).
 
@@ -350,7 +352,7 @@ An $L_\infty$-algebra is a [[dg-coalgebra]] whose underlying [[coalgebra]] is co
 ### In terms of semifree differential algebra 
  {#ReformulationInTermsOfSemifreeDGAlgebra}
 
-The reformulation of an $L_\infty$-algebra as simply a semi-co-free graded-co-commutative coalgebra $(\vee^\bullet \mathfrak{g}, D)$ is a useful repackaging of the original definition, but the coalgebraic aspect tends to be not only unfamiliar, but also a bit inconvenient. At least when the graded vector space $\mathfrak{g}$ is degreewise [[finite number|finite]] [[dimension|dimensional]] , we can simply pass to its degreewise dual graded vector space $\mathfrak{g}^*$. 
+The reformulation of an $L_\infty$-algebra as simply a semi-co-free graded-co-commutative coalgebra $(\vee^\bullet \mathfrak{g}, D)$ is a useful repackaging of the original definition, but the coalgebraic aspect tends to be not only unfamiliar, but also a bit inconvenient. At least when the graded vector space $\mathfrak{g}$ is degreewise [[finite number|finite]] [[dimension|dimensional]], we may simply pass to its degreewise dual graded vector space $\mathfrak{g}^*$. 
 
 (Fully generally the following works when using not just dg-algebras but [[pro-objects]] in [[dg-algebras]], see at _[model structure for L-infinity algebras -- Use of pro-dg-algebras](model+structure+for+L-infinity+algebras#OnProAlg)_).
 
@@ -389,6 +391,8 @@ of the $L_\infty$-algebra $\mathfrak{g}$.
 One observes that this construction is bijective: every (degreewise finite dimensional) cochain [[semifree dga]] generated in positive degree comes from a (degreewise finite dimensional) $L_\infty$-algebra this way.
 
 This means that we may just as well _define_ a (degreewise finite dimensional) $L_\infty$-algebra as an object in the [[opposite category]] of (degreewise finite dimensional) commutative [[dg-algebra]]s that are [[semifree dga]]s and generated in positive degree.
+
+(In general this corresponds to [[curved L-infinity algebra]]. The flat $L_\infty$-algebras $\mathfrak{g}$ dually correspond to the dg-algebras which are [[augmented algebra|augmented]] over $\mathbb{R}$, i.e for which the canonical projection $CE(\mathfrak{g}) \longrightarrow \mathbb{R}$ is a homomorphism of dg-algebras.)
 
 And this turns out to be one of the most useful perspectives on $L_\infty$-algebras.
 
