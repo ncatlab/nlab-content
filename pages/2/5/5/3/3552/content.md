@@ -27,11 +27,11 @@ Sullivan models are a central tool in [[rational homotopy theory]].
 
 Sullivan models are particularly well-behave [[differential graded-commutative algebras]] that are equivalent to the dg-algebras of [[piecewise polynomial differential forms on topological spaces]. Conversely, every rational space can be obtained from a dg-algebra and the _minimal_ Sullivan algebras provide convenient representatives that correspond bijectively to rational homtopy types under this correspondence.
 
-Formally, (relative) Sullivan models are the (relative) [[cell complexes]] in the standard [[model structure on dg-algebras]].
+Abstractly, (relative) Sullivan models are the (relative) [[cell complexes]] in the standard [[model structure on dg-algebras]].
 
 We now describe this in detail. First some notation and preliminaries:
 
-+-- {: .num_defn }
++-- {: .num_defn #FiniteType}
 ###### Definition
 **(finite type)**
 
@@ -48,7 +48,7 @@ We now describe this in detail. First some notation and preliminaries:
 
 
 For $V$ a $\mathbb{N}$-[[graded vector space]] write 
-$\wedge^\bullet V$ for the [[Grassmann algebra]] over it. Equipped with the trivial differential $d = 0$ this is a [[semifree dga]] $(\wedge^\bullet V, d=0)$.
+$\wedge^\bullet V$ for the [[Grassmann algebra]] over it. Equipped with the trivial differential $d = 0$ this is a [[semifree dgc-algebra]] $(\wedge^\bullet V, d=0)$.
 
 With $k$ our ground [[field]] we write $(k,0)$ for the corresponding [[dg-algebra]], the tensor unit for the standard [[monoidal category|monoidal structure]] on $dgAlg$. This is the [[Grassmann algebra]] on the 0-vector space
 $(k,0) = (\wedge^\bullet 0, 0)$.
@@ -58,19 +58,17 @@ $(k,0) = (\wedge^\bullet 0, 0)$.
 ###### Definition
 **(Sullivan algebras)**
 
-A **relatived Sullivan algebra** is a [[morphism]] of dg-algebras that is an inclusion
+A **relatived Sullivan algebra** is a [[homomorphism]] of [[differential graded-commutative algebras]] that is an inclusion of the form
 
 $$
-  (A,d) \to (A \otimes_k \wedge^\bullet V, d')
+  (A,d) \hookrightarrow (A \otimes_k \wedge^\bullet V, d')
 $$
 
-for $(A,d)$ some dg-algebra and for $V$ some graded vector space, such that 
+for $(A,d)$ any [[dgc-algebra]] and for $V$ some [[graded vector space]], such that 
 
-* there is a [[well ordered set]] $J$
+1. there is a [[well ordered set]] $J$ indexing a [[linear basis]] $\{v_\alpha \in V| \alpha \in J\}$ of $V$;
 
-* indexing a basis $\{v_\alpha \in V| \alpha \in J\}$ of $V$;
-
-* such that with $V_{\lt \beta} = span(v_\alpha | \alpha \lt \beta)$ for all basis elements $v_\beta$ we have that 
+1. writing $V_{\lt \beta} \coloneqq span(v_\alpha | \alpha \lt \beta)$ then for all basis elements $v_\beta$ we have that 
 
   $$
     d' v_\beta \in A \otimes \wedge^\bullet V_{\lt \beta}
@@ -83,17 +81,17 @@ $$
   (\alpha \lt \beta) \Rightarrow (deg v_\alpha  \leq deg v_\beta)
 $$
 
-holds. For a Sullivan algebra $(k,0) \to (\wedge^\bullet V, d)$ relative to the tensor unit we call the [[semifree dga]] $(\wedge^\bullet V,d)$ simply a **Sullivan algebra**.  And a **minimal Sullivan algebra** if $(k,0) \to (\wedge^\bullet V, d)$ is a minimal relative Sullivan algebra.
+holds. For a Sullivan algebra $(k,0) \to (\wedge^\bullet V, d)$ relative to the tensor unit we call the [[semifree dgc-algebra]] $(\wedge^\bullet V,d)$ simply a **Sullivan algebra**, and we call it a **minimal Sullivan algebra** if $(k,0) \to (\wedge^\bullet V, d)$ is a minimal relative Sullivan algebra.
 
 =--
 
-See also the section [Sullivan algebras](http://ncatlab.org/nlab/show/model+structure+on+dg-algebras#SullivanAlgebras) at [[model structure on dg-algebras]].
+See also the section [Sullivan algebras](model+structure+on+dg-algebras#SullivanAlgebras) at [[model structure on dg-algebras]].
 
 
 +-- {: .num_remark }
 ###### Remark
 
-The special condition on the ordering in the relative Sullivan algebra says precisely that these morphisms are composites of [[pushout]]s of the [[cofibrantly generated model category|generating cofibrations]] of the [[model structure on dg-algebras]], which are the inclusions
+The special condition on the ordering in the relative Sullivan algebra says that these morphisms are composites of [[pushouts]] of the [[cofibrantly generated model category|generating cofibrations]] for the [[model structure on dg-algebras]], which are the inclusions
 
 $$
   S(n) \hookrightarrow D(n)
@@ -103,7 +101,7 @@ $$
 where 
 
 $$
-  S(n) = (\wedge^\bullet \langle c \rangle, d= 0)
+  S(n) = (\wedge^\bullet \langle c \rangle, d = 0)
 $$ 
 
 is the dg-algebra on a single generator in degree $n$ with vanishing differential, and where
@@ -114,7 +112,7 @@ $$
 
 with $b$ an additional generator in degree $n-1$.
 
-Therefore for $A \in dgAlg$ dg-algebra, a pushout
+Therefore for $A \in dgcAlg$, a pushout
 
 $$
   \array{
@@ -128,9 +126,9 @@ $$
 
 is precisely a choice $\phi \in A$ of a $d_A$-closed element in degree $n$
 and results in adjoining to $A$ the element $b$ whose differential is
-$d b = \phi$. This gives the condition in the above definition: the differential of any new element has to be one of the old elements.
+$d b = \phi$. This gives the condition in the above definition: the differential of any new element has to be a sum of wedge products of the old elements.
 
-Notice that it follows in particular that the cofibrations in $dgAlg_{proj}$ are precisely all the [[retract]]s of relative Sullivan algebra inclusions.
+Notice that it follows in particular that the cofibrations in $dgAlg_{proj}$ are precisely all the [[retracts]] of relative Sullivan algebra inclusions.
 
 =--
 
@@ -164,10 +162,12 @@ For $X$ a [[simply connected]] [[topological space]] $X$, a **Sullivan (minimal)
 * such that there exists a [[quasi-isomorphism]]
 
   $$
-    (\wedge^\bullet V^*, d_V) \stackrel{\simeq}{\to}
-    \Omega^\bullet_{Sull}(X)
-    \,.
+    (\wedge^\bullet V^*, d_V) 
+      \stackrel{\simeq}{\longrightarrow}
+    \Omega^\bullet_{pwpoly}(X)
   $$
+
+  to its dg-algebra of [[piecewise polynomial differential forms]].
 
 =--
 
@@ -202,23 +202,17 @@ And homotopy classes of morphisms on both sides are in bijection.
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-This appears for instance as corollary 1.26 in 
+This is a central theorem of [[rational homotopy theory]], see for instance  [Hess 06, corollary 1.26](#Hess06).
 
-* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
-
-
-=--
 
 
 Write
 
 $$
   (\Omega^\bullet_{Sul} \dashv K)
-  :
-  dgAlg^{op}
+  \colon
+  dgcAlg^{op}
   \stackrel{\overset{\Omega^\bullet_{Sul}}{\leftarrow}}{\underset{K}{\to}}
   sSet
 $$
@@ -232,7 +226,7 @@ for the [[Quillen adjunction]] induced by forming Sullivan differential forms, a
 
 Let $(\wedge^\bullet V^*, d_V)$ be a simply connected Sullivan algebra of finite type. Then
 
-* the unit of the [[adjunction]] $(\wedge^\bullet V^*, d_V) \to \Omega^\bullet_{Sul}(K(\wedge^\bullet, d_V) \rangle)$ is a [[quasi-isomorphism]];
+* the unit of the [[adjunction]] $(\wedge^\bullet V^*, d_V) \to \Omega^\bullet_{pwpoly}(K(\wedge^\bullet, d_V) \rangle)$ is a [[quasi-isomorphism]];
 
 * The elements of the homotopy groups of the rational space modeled by $(\wedge^\bullet V^*, d_V)$ are the generators in $V$:
 
@@ -246,16 +240,8 @@ Let $(\wedge^\bullet V^*, d_V)$ be a simply connected Sullivan algebra of finite
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-This is recalled for instance as theorem 1.24 in 
-
-* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
-
-
-=--
-
+See for instance [Hess 06, theorem 1.24](#Hess06).
 
 
 
@@ -274,23 +260,12 @@ Sullivan mimimal models are unique up to [[isomorphism]].
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-
-This appears for instance as prop 1.18 in 
-
-* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
-
-
-=--
-
-
+e.g [Hess 06, prop 1.18](#Hess06).
 
 +-- {: .num_theorem }
 ###### Theorem
 
-Rational homotopy types of simply connected spaces $X$ are in bijective corespondence with minimal [[Sullivan model]]s $(\wedge^\bullet V,d)$
+Rational homotopy types of simply connected spaces $X$ are in bijective correspondene with minimal Sullivan models $(\wedge^\bullet V,d)$ spring
 
 $$
   (\wedge^\bullet V , d) \stackrel{\simeq}{\to}
@@ -360,7 +335,9 @@ See at _[[rational n-sphere]]_.
 
 * {#Halperin83} [[Steve Halperin]], _Lectures on minimal models_, Mem. Soc. Math. Franc. no 9/10 (1983) ([web](https://eudml.org/doc/94833))
 
-* [[Kathryn Hess]], around def 1.10  of _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
+* {#Hess06} [[Kathryn Hess]], around def 1.10  of _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
+
+
 
 
 [[!redirects Sullivan models]]
