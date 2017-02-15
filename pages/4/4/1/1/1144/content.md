@@ -54,16 +54,25 @@ Rational homotopy theory is mostly restricted to [[simply connected topological 
 
 
 ## Sullivan approach
+ {#SullivanApproach}
 
-We discus here the Sullivan approach to rational homotopy theory, where rational topological spaces are modeled by [[differental graded-commutative algebras]] over the [[rational numbers]] with good (cofibrant) representatives being [[Sullivan algebras]] which are [[formal duals]] to [[L-infinity algebras]].
+We review here the Sullivan approach to rational homotopy theory, where rational topological spaces are modeled by [[differential graded-commutative algebras]] over the [[rational numbers]] with good (cofibrant) representatives being [[Sullivan algebras]] which are [[formal duals]] to [[L-infinity algebras]].
 
 First we discuss how to define an analog of the construction of the [[de Rham dg-algebra]] of a [[smooth manifold]] for [[topological spaces]]:
 
 * _[Differential forms on topological spaces](#FormsOnTopSpaces)_.
 
-These dg-algebras of "piecewise polynomial" differential forms on a topological space are typically extremely large and unwieldy. Therefore next we discuss the [[homotopy theory]] of [[dgc-algebras]] and how every such dg-algebra is [[weak equivalence|weakly equivalent]] to a very small dg-algebra, a [[minimal Sullivan algebra]].
+These dg-algebras of "[[piecewise polynomial differential forms|piecewise polynomial]]" differential forms on a topological space are typically extremely large and unwieldy. Much more tractable dg-algebras are the [[minimal Sullivan algebra]], which we discuss next:
 
-Finally we discuss that the construction of dg-algebras of piecewise polynomial differential forms on a topological space exhibits an [[eqivalence of categories|equivalence]] between the [[homotopy theory]] of [[simply connected topological space|simply connected]] [[rational topological spaces]] of [[finite type]] and that of [[minimal Sullivan algebras]].
+* _[Sullivan models](#SullivanModels)_.
+
+The relation between these algebras is that the Sullivan algebras are the cofibrant resolutions of the larger dg-algebras. In order to make this precise, we next recall some basics of topological and algebraic [[homotopy theory]] in 
+
+* _[Homotopy theory](#HomotopyTheory)_
+
+Finally we state and discuss the main theorem, that the construction of dg-algebras of [piecewise polynomial differential forms]] on a topological space exhibits an [[equivalence of categories|equivalence]] between the [[homotopy theory]] of [[simply connected topological space|simply connected]] [[rational topological spaces]] of [[finite type]] and that of [[minimal Sullivan algebras]]:
+
+* _[The rationalization adjunction](#SullivanRationalizationAdjunction)_
 
 
 ### Differential forms on topological spaces 
@@ -470,10 +479,119 @@ $$
 
 =--
 
-### Sullivan algebras
 
 
-### Homotopy Theory
+### Sullivan models
+  {#SullivanModels}
+
++-- {: .num_defn #SullivanAlgebra}
+###### Definition
+**(Sullivan algebras)**
+
+A **relatived Sullivan algebra** is a [[homomorphism]] of [[differential graded-commutative algebras]] that is an inclusion of the form
+
+$$
+  (A,d) \hookrightarrow (A \otimes_k \wedge^\bullet V, d')
+$$
+
+for $(A,d)$ any [[dgc-algebra]] and for $V$ some [[graded vector space]], such that 
+
+1. there is a [[well ordered set]] $J$ indexing a [[linear basis]] $\{v_\alpha \in V| \alpha \in J\}$ of $V$;
+
+1. writing $V_{\lt \beta} \coloneqq span(v_\alpha | \alpha \lt \beta)$ then for all basis elements $v_\beta$ we have that 
+
+  $$
+    d' v_\beta \in A \otimes \wedge^\bullet V_{\lt \beta}
+    \,.
+  $$
+
+This is called a **minimal** relative Sullivan algebra if in addition the condition
+
+$$
+  (\alpha \lt \beta) \Rightarrow (deg v_\alpha  \leq deg v_\beta)
+$$
+
+holds. For a Sullivan algebra $(k,0) \to (\wedge^\bullet V, d)$ relative to the tensor unit we call the [[semifree dgc-algebra]] $(\wedge^\bullet V,d)$ simply a **Sullivan algebra**, and we call it a **minimal Sullivan algebra** if $(k,0) \to (\wedge^\bullet V, d)$ is a minimal relative Sullivan algebra.
+
+=--
+
+See also the section [Sullivan algebras](model+structure+on+dg-algebras#SullivanAlgebras) at [[model structure on dg-algebras]].
+
+
++-- {: .num_remark }
+###### Remark
+
+The special condition on the ordering in the relative Sullivan algebra says that these morphisms are composites of [[pushouts]] of the [[cofibrantly generated model category|generating cofibrations]] for the [[model structure on dg-algebras]], which are the inclusions
+
+$$
+  S(n) \hookrightarrow D(n)
+  \,,
+$$
+
+where 
+
+$$
+  S(n) = (\wedge^\bullet \langle c \rangle, d = 0)
+$$ 
+
+is the dg-algebra on a single generator in degree $n$ with vanishing differential, and where
+
+$$
+  D(n) = (\wedge^\bullet (\langle b \rangle \oplus \langle c \rangle), d b = c, d c = 0)
+$$ 
+
+with $b$ an additional generator in degree $n-1$.
+
+Therefore for $A \in dgcAlg$, a pushout
+
+$$
+  \array{
+     S(n) &\stackrel{\phi}{\to}& A
+     \\
+     \downarrow && \downarrow
+     \\
+     D(n) &\to& (B \otimes \wedge^ \bullet \langle b \rangle, d b = \phi) 
+  }
+$$ 
+
+is precisely a choice $\phi \in A$ of a $d_A$-closed element in degree $n$
+and results in adjoining to $A$ the element $b$ whose differential is
+$d b = \phi$. This gives the condition in the above definition: the differential of any new element has to be a sum of wedge products of the old elements.
+
+Notice that it follows in particular that the cofibrations in $dgAlg_{proj}$ are precisely all the [[retracts]] of relative Sullivan algebra inclusions.
+
+=--
+
++-- {: .num_defn #SullivanModel}
+###### Definition
+**(Sullivan models)**
+
+For $X$ a [[simply connected]] [[topological space]] $X$, a **Sullivan (minimal) model** for $X$ is a Sullivan (minimal) algebra $(\wedge^\bullet V^^ \ast, d_V)$ equipped with a [[quasi-isomorphism]]
+
+  $$
+    (\wedge^\bullet V^*, d_V) 
+      \stackrel{\simeq}{\longrightarrow}
+    \Omega^\bullet_{pwpoly}(X)
+  $$
+
+  to the dg-algebra of [[piecewise polynomial differential forms]].
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Minimal Sullivan models (def. \ref{SullivanModel}) are unique up to [[isomorphism]]. 
+
+=--
+
+e.g [Hess 06, prop 1.18](#Hess06).
+
+
+
+### Homotopy theory
+ {#HomotopyTheory}
+
 
 #### Topological homotopy theory
 
@@ -539,13 +657,14 @@ Say that a [[homomorphism]] of [[differential graded-commutative algebras]] in n
 
 * a _[[fibration]]_ if it is degreewise a surjection
 
-* a _[[cofibration]]_ if it is the [[retract]] of a [[relative Sullivan algebra]] inclusion.
+* a _[[cofibration]]_ if it is the [[retract]] of a [[relative Sullivan algebra]] inclusion (def. \ref{SullivanAlgebra}).
 
 These classes of morphisms make the category of [[differential graded-commutative algebras]] over the [[rational numbers]] and in non-negative degree into a [[model category]], to be called the [[projective model structure on differential graded-commutative algebras]], $(dcgAlg_{\mathbb{Q} ,\geq 0})_{proj}$.
 
 
 
 =--
+
 
 
 ### The rationalization adjunction
@@ -570,16 +689,108 @@ $$
 
 This is due to ([Bousfield-Gugenheim 76, section 8](#BousfieldGugenheim76)) Review includes ([Hess 06, p. 9](#Hess06)).
 
-+-- {: .num_prop #HomotopyGroupsFromSullivanGenerators}
-###### Proposition
 
-For $X$ a homotopy type, then 
++-- {: .num_theorem #SullivanRationalizationEquivalence}
+###### Theorem
 
-1. its rational vector space of the rational homotopy group in degree $n$ is spanned by the generators of degree $n$ of its [[Sullivan model]];
+Consider the [[adjunction]] of [[derived functors]]
 
-1. its rational cohomology is the [[cochain cohomology]] of its [[Sullivan model]].
+$$
+  Ho(Top)
+   \simeq
+  Ho(sSet)
+   \underoverset
+     {\underset{\mathbb{R} \Omega^\bullet_{poly}}{\longrightarrow}}
+     {\overset{\mathbb{L} K_{poly} }{\longleftarrow}}
+     {\bot}
+  Ho( (dgcAlg_{\mathbb{Q}, \geq 0})^{op} )
+$$
+
+induced from the [[Quillen adjunction]] from theorem \ref{SullivanRationalizationAdjunction}.
+
+
+Then: On the [[full subcategory]] $Ho(Top_{\mathbb{Q}, \geq 1}^{fin})$ of [[simply connected topological space|simply connected]] [[rational topological spaces]] of [[finite type]] this adjunction restricts to an [[equivalence of categories]]
+
+$$
+  Ho(Top_{\mathbb{Q}, \gt 1}^{fin})
+   \underoverset
+     {\underset{\mathbb{R} \Omega^\bullet_{poly}}{\longrightarrow}}
+     {\overset{\mathbb{L} K_{poly} }{\longleftarrow}}
+     {\simeq}
+  Ho( (dgcAlg_{\mathbb{Q}, \gt 1}^{fin})^{op} )  
+  \,.
+$$
+
+In particular the [[adjunction unit]]
+
+$$
+  X \longrightarrow K_{poly}(\Omega^\bullet_{pwpoly}(X))
+$$
+
+exhibits the [[rationalization]] of $X$.
 
 =--
+
+
+e. g. [Hess 06, corollary 1.26](#Hess06).
+
+
++-- {: .num_cor #RationalCohomologyFromSullivanModel}
+###### Corollary
+
+It follows that the [[cochain cohomology]] of the cochain complex of [[piecewise polynomial differential forms]] on any topological, hence equivalently that of any of its [[Sullivan models]], coincides with its [[ordinary cohomology]] with coefficients in the [[rational numbers]]:
+
+$$
+  H^\bullet(X,\mathbb{Q})
+    \;\simeq\;
+  H^\bullet( \Omega^\bullet_{pwpoly}(X), d_{dR} )
+  \,.
+$$
+
+=--
+
+But more is true, also the rationalization of the [[homotopy groups]] may be read off from any [[minimal Sullivan model]]:
+
++-- {: .num_theorem #HomotopyGroupsFromSullivanGenerators}
+###### Theorem
+
+Let $(\wedge^\bullet V^*, d_V)$ be a minimal Sullivan model of a simply connected rational topological space $X$. Then there is an [[isomorphism]]
+
+$$
+  \pi_\bullet(X)
+    \simeq
+  V
+$$
+
+between the [[homotopy groups]] of $X$ and the generators of the minimal Sullivan model.
+
+=--
+
+
+e.g. [Hess 06, theorem 1.24](#Hess06).
+
+
++-- {: .num_remark}
+###### Remark
+
+The need to restrict to [[simply connected topological spaces]] in theorem \ref{SullivanRationalizationEquivalence} is due to the existence of [[acyclic groups]]. This are [[discrete groups]] $\Gamma$ such that their [[classifying space]] $B \Gamma$ has trival [[ordinary cohomology]] in positive degree
+
+$$
+  H^\bullet(B \Gamma, \mathbb{Q}) \simeq \mathbb{Q}
+  \,.
+$$
+
+Therefore, by corollary \ref{RationalCohomologyFromSullivanModel}, its dg-algebra of [[piecewise polynomial differential forms]] do not distinguish such spaces from [[contractible topological spaces]]. But, unless $\Gamma = 1$ is in fact the trivial group,  $B \Gamma$ is not contractible, instead it is the [[Eilenberg-MacLane space]] $K(\Gamma,1)$ with nontrivial [[fundamental group]] $\pi_1(B \Gamma) \simeq \Gamma$. 
+However, by the [[Hurewicz theorem]], this fundamental group is the only obstruction to contractibility. 
+
+
+=--
+
+
+
+
+
+
 
 
 ### Examples
@@ -609,9 +820,9 @@ $$
   \,.
 $$
 
-One may understand this form prop. \ref{HomotopyGroupsFromSullivanGenerators}: an $n$-sphere has rational cohomology concentrated in degree $n$. Hence its Sullivan model needs at least one closed generator in that degree. In the odd dimensional case one such is already sufficient, since the wedge square of that generator vanishes and hence produces no higher degree cohomology classes. But in the even degree case the wedge square $\omega_{2k}\wedge \omega_{2k}$ needs to be canceled in cohomology. That is accomplished by the second generator $\omega_{4k-1}$. 
+One may understand this form theorem \ref{HomotopyGroupsFromSullivanGenerators}: an $n$-sphere has rational cohomology concentrated in degree $n$. Hence its Sullivan model needs at least one closed generator in that degree. In the odd dimensional case one such is already sufficient, since the wedge square of that generator vanishes and hence produces no higher degree cohomology classes. But in the even degree case the wedge square $\omega_{2k}\wedge \omega_{2k}$ needs to be canceled in cohomology. That is accomplished by the second generator $\omega_{4k-1}$. 
 
-Again by prop. \ref{HomotopyGroupsFromSullivanGenerators}, this now implies that the rational [[homotopy groups of spheres]] are concentrated, in degree $2k+1$ for the odd $(2k+1)$-dimensional spheres, and in degrees $2k$ and $4k-1$ in for the even $2k$-dimensional spheres. 
+Again by theorem \ref{HomotopyGroupsFromSullivanGenerators}, this now implies that the rational [[homotopy groups of spheres]] are concentrated, in degree $2k+1$ for the odd $(2k+1)$-dimensional spheres, and in degrees $2k$ and $4k-1$ in for the even $2k$-dimensional spheres. 
 
 For instance the [[4-sphere]] has rational homotopy in degree 4 and 7. The one in degree 7 being represented by the [[quaternionic Hopf fibration]].
 
