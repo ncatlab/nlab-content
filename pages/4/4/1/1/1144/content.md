@@ -55,6 +55,17 @@ Rational homotopy theory is mostly restricted to [[simply connected topological 
 
 ## Sullivan approach
 
+We discus here the Sullivan approach to rational homotopy theory, where rational topological spaces are modeled by [[differental graded-commutative algebras]] over the [[rational numbers]] with good (cofibrant) representatives being [[Sullivan algebras]] which are [[formal duals]] to [[L-infinity algebras]].
+
+First we discuss how to define an analog of the construction of the [[de Rham dg-algebra]] of a [[smooth manifold]] for [[topological spaces]]:
+
+* _[Differential forms on topological spaces](#FormsOnTopSpaces)_.
+
+These dg-algebras of "piecewise polynomial" differential forms on a topological space are typically extremely large and unwieldy. Therefore next we discuss the [[homotopy theory]] of [[dgc-algebras]] and how every such dg-algebra is [[weak equivalence|weakly equivalent]] to a very small dg-algebra, a [[minimal Sullivan algebra]].
+
+Finally we discuss that the construction of dg-algebras of piecewise polynomial differential forms on a topological space exhibits an [[eqivalence of categories|equivalence]] between the [[homotopy theory]] of [[simply connected topological space|simply connected]] [[rational topological spaces]] of [[finite type]] and that of [[minimal Sullivan algebras]].
+
+
 ### Differential forms on topological spaces 
   {#FormsOnTopSpaces}
 
@@ -289,7 +300,7 @@ $$
 
 for the [[quotient]] of the $\mathbb{Z}$-graded [[symmetric algebra]] over the [[rational numbers]] on $n+1$ generators $t_i$ in degree 0 and $n+1$ generators $d t_i$ of degree 1.
 
-I particular in degree 0 this are called the _polynomial functions_
+In particular in degree 0 this are called the _polynomial functions_
 
 $$
   \Omega^0_{poly}(\Delta^n)
@@ -362,18 +373,6 @@ $$
 =--
 
 
-
-
-
-### Sullivan models {#SullivanModels}
-
-...See _[[Sullivan model]]_...
-
-
-### The rationalization adjunction
- {#SullivanRationalizationAdjunction}
-
-
 +-- {: .num_defn #AdjunctionBetweenSimplicialSetAnddgcAlgebras}
 ###### Definition
 
@@ -393,19 +392,164 @@ By the general discussion at _[[nerve and realization]]_, this induces a pair of
 $$
   (\Omega^\bullet_{poly} \dashv \mathcal{K}_{poly})
     \;\colon\;
-  sSet 
-    \underoverset
-      {\underset{K_{poly}}{\longleftarrow}}
-      {\overset{\Omega^\bullet_{poly}}{\longrightarrow}}
-      {\bot}
   (dgcAlg_{\mathbb{Q}, \geq 0})^{op}
+    \underoverset
+      {\underset{K_{poly}}{\longrightarrow}}
+      {\overset{\Omega^\bullet_{poly}}{\longleftarrow}}
+      {\bot}
+  sSet 
   \,.
 $$
 
-Here the [[left adjoint]] is the [[left Kan extension]] of $\Omega^\bullet_{poly}$ along the [[Yoneda embedding]] $\Delta \hookrightarrow sSet$, which we denote by the same symbols. 
+Here the [[left adjoint]] is the [[left Kan extension]] of $\Omega \bullet_{poly}$ along the [[Yoneda embedding]] $\Delta \hookrightarrow sSet$, which we denote by the same symbols. 
 
 =--
 
+This adjunction is an algebraic analog of the [[singular simplicial complex]] construction, which we briefly recall (for detailed exposition see at _[[geometry of physics -- homotopy types]]_):
+
++-- {: .num_defn #SingluarNerveAndRealization}
+###### Definition
+
+For $n \on \mathbb{N}$, write $\Delta^n_{top}$ for the [[n-simplex]] canonically regarded as a [[topological space]], i.e. the topological space underlying the smooth simplex $\Delta^n_{smth}$ from def. \ref{SmoothnSimplex}.  As in def. \ref{PolynomialDifferentialForms} this is a [[cosimplicial object]]
+
+$$
+  \Delta^{(-)}_{top}
+  \;\colon\;
+  \Delta \longrightarrow Top
+$$
+
+now in the [[category]] [[Top]] of [[topological spaces]].
+
+This also induces a [[nerve and realization]] [[adjunction]]
+
+$$
+  ({\vert -\vert} \dashv Sing)
+  \;\colon\;
+  Top
+    \underoverset
+      {\underset{Sing}{\longrightarrow}}
+      {\overset{{\vert -\vert}}{\longleftarrow}}
+      {\bot}
+  sSet
+$$
+
+where the [[left adjoint]] $Sing$ is the [[singular simplicial complex]] functor and the [[right adjoint]] ${\vert- \vert}$ is the [[geometric realization]] functor.
+
+=--
+
++-- {: .num_defn #AdjunctionBetweenTopopologicalSpacesAnddgcAlgebras}
+###### Definition
+
+
+Combining the [[functors]] from def. \ref{AdjunctionBetweenSimplicialSetAnddgcAlgebras} and def. \ref{SingluarNerveAndRealization} we finally obtain a functorial association of differential forms to a topological space
+
+
+$$
+  \Omega^\bullet_{pwpoly}
+   \;\colon\;
+  Top
+   \overset{Sing}{\longrightarrow}
+  sSet
+   \overset{\Omega^\bullet_{poly}}{\longrightarrow}
+  (dgcAlg_{\mathbb{Q}, \geq 0})^{op}
+$$
+
+(foring "[[piecewise polynomial differential forms]]") and a functorial operation that turns every [[differential graded-commutative algebra]] into a topological space
+
+$$
+  Spec 
+   \;\colon\;
+  (dgcAlg_{\mathbb{Q}, \geq 0})^{op}  
+    \overset{K_{poly}}{\longrightarrow}
+  sSet
+    \overset{\vert - \vert}{\longrightarrow}
+  Top
+  \,.
+$$
+
+
+=--
+
+### Sullivan algebras
+
+
+### Homotopy Theory
+
+#### Topological homotopy theory
+
+We briefly recall classical statement of the equivalene of the [[homotopy theories]] of [[topological spaces]] and of [[simplicial sets]] ([[simplicial homotopy theory]]), i.e. the "[[homotopy hypothesis]]". For full exposition see at _[[geometry of physics -- homotopy types]]_.
+
++-- {: .num_theorem #TopQuillen}
+###### Theorem
+
+Say that a [[continuous function]], hence a [[morphism]] in the [[category]] [[Top]] of [[topological spaces]] is
+
+* a _[[weak equivalence]]_ if it is a [[weak homotopy equivalence]];
+
+* a _[[fibration]]_ if it is a [[Serre fibration]]
+
+* a _[[cofibration]]_ if it is the [[retract]] of a [[relative cell complex]] inclusion.
+
+These classes of morphisms make the category [[Top]] into a [[model category]], the _[[classical model structure on topological spaces]]_, to be denoted $Top_{Quillen}$.
+
+=--
+
+
++-- {: .num_theorem #sSetQuillen}
+###### Theorem
+
+Say that a [[morphism]] of [[simplicial sets]] is
+
+* a _[[weak equivalence]]_ if its [[geometric realization]] (def. \ref{SingluarNerveAndRealization}) is a [[weak homotopy equivalence]] of [[topological spaces]];
+
+* a _[[fibration]]_ if it is a [[Kan fibration]];
+
+* a _[[cofibration]]_ if it is a [[monomorphism]] (hence degreewise an [[injection]]).
+
+These classes of morphisms make the [[category]] [[sSet]] of [[simplicial sets]] into a [[model category]], the _[[classical model structure on simplicial sets]]_, to be denoted $sSet_{Quillen}$.
+
+=--
+
++-- {: .num_theorem}
+###### Theorem
+
+The [[singular simplicial complex|singular]] [[nerve and realization]] adjunction from def. \ref{SingluarNerveAndRealization} is a [[Quillen equivalence]] between the [[classical model structure on topological spaces]] (theorem \ref{TopQuillen}) and the [[classical model structure on simplicial sets]] (theore \ref{sSetQuillen}):
+
+$$
+  Top_{Quillen}
+    \underoverset
+      {\underset{Sing}{\longrightarrow}}
+      {\overset{{\vert -\vert}}{\longleftarrow}}
+      {\simeq_{Quillen}}
+  sSet_{Quillen}
+$$
+
+=--
+
+
+
+#### Algebraic homotopy theory
+
++-- {: .num_theorem}
+###### Theorem
+
+Say that a [[homomorphism]] of [[differential graded-commutative algebras]] in non-negative degrees is
+
+* a _[[weak equivalence]]_ if its underlying [[chain map]] is a [[quasi-isomorphism]];
+
+* a _[[fibration]]_ if it is degreewise a surjection
+
+* a _[[cofibration]]_ if it is the [[retract]] of a [[relative Sullivan algebra]] inclusion.
+
+These classes of morphisms make the category of [[differential graded-commutative algebras]] over the [[rational numbers]] and in non-negative degree into a [[model category]], to be called the [[projective model structure of differential graded-commutative algebras]], $(dcgAlg_{\mathbb{Q} ,\geq 0})_{proj}$.
+
+
+
+=--
+
+
+### The rationalization adjunction
+ {#SullivanRationalizationAdjunction}
 
 
 +-- {: .num_theorem #SullivanRationalizationAdjunction}
