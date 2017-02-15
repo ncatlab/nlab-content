@@ -19,7 +19,7 @@ A sequent calculus is a [[deductive system]] for [[predicate logic]] (or somethi
 $$ \phi_1, \phi_2, \ldots \vdash \psi_1, \psi_2, \ldots ,$$
 expressing the idea that some statement $\psi_i$ must be true if every statement $\phi_i$ is true.  The original sequent calculi were developed by [[Gerhard Gentzen]] in 1933 building on anticipatory ideas by [[Paul Hertz]].
 
-A central property of sequent calculi, which distinguishes them from systems of [[natural deduction]], is that it allows an easier analysis of proofs: the [subformula property](#subformulaprop) that it enjoys allows easy [[induction]] over proof-steps. The reason is roughly that, in the language of [[natural deduction]], in sequent calculus "every rule is an [[introduction rule]]" which introduces a term on _either_ side of a [[sequent]] with no [[elimination rules]]. This means that working backward every "un-application" of such a rule makes the sequent necessarily simpler.
+A central property of sequent calculi, which distinguishes them from systems of [[natural deduction]], is that it allows an easier analysis of proofs: the [subformula property](#subformulaprop) that it enjoys allows easy [[induction]] over proof-steps. The reason is roughly that, using the language of [[natural deduction]], in sequent calculus "every rule is an [[introduction rule]]" which introduces a term on _either_ side of a [[sequent]] with no [[elimination rules]]. This means that working backward every "un-application" of such a rule makes the sequent necessarily simpler.
 
 
 ## Definitions
