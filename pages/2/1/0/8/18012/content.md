@@ -25,6 +25,7 @@ A _curved $L_\infty$-algebra_ (e.g. [Markl 11, p. 100](#Markl11)) is just like a
 
 Accordingly, a strong homotopy homomorphism of curved $L_\infty$-algebras is defined just as for ordinary $L_\infty$-algebras, but allowing also for a 0-ary component. Notice that such "curved sh-maps" may be non-trivial even between ordinary $L_\infty$-algebras (amplified e.g. in [Mehta-Zambon 12, below (2)](#MehtaZambon12)).
 
+The dual [[Chevalley-Eilenberg algebras]] automatically capture curved $L_\infty$-algebras unless one imposes a constraint: the non-curved $L_\infty$-algebras correspond to the [[augmented algebra|augmented]] CE-algebras. Similarly in the [[dg-coalgebra]] description the restriction to non-curved $L_\infty$-algebras requires co-augmentation or else (this is what is commonly used) non-unital dg-coalgebras. 
 
 
 ## Definition
