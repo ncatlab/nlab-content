@@ -128,7 +128,7 @@ $$
     & \simeq
     \int_{s} Hom_V( X_s , C(S_C(s), c))
     \\
-    & =:
+    & =
     \int_{s} Hom_V( X_s , N(c)_s)
     \\
     & \simeq
