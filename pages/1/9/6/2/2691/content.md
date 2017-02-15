@@ -1112,3 +1112,6 @@ Discussion of [[homotopy limits]] and [[homotopy colimits]] of dg-algebras is in
 [[!redirects model structure on differential graded-commutative algebras]]
 [[!redirects model structures on differential graded-commutative algebras]]
 
+[[!redirects projective model structure on differential graded-commutative algebras]]
+[[!redirects projective model structures on differential graded-commutative algebras]]
+
