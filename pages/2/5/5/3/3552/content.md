@@ -155,11 +155,7 @@ for all $\omega \in V$ and all $v_i \in V^*$.
 ###### Definition
 **(Sullivan models)**
 
-For $X$ a [[simply connected]] [[topological space]] $X$, a **Sullivan (minimal) model** for $X$ is 
-
-* a quasi-free [[dg-algebra]] $(\wedge^\bullet V^*, d_V)$ which is a (minimal) Sullivan algebra 
-
-* such that there exists a [[quasi-isomorphism]]
+For $X$ a [[simply connected]] [[topological space]] $X$, a **Sullivan (minimal) model** for $X$ is a Sullivan (minimal) algebra $(\wedge^\bullet V^^ \ast, d_V)$ equipped with a [[quasi-isomorphism]]
 
   $$
     (\wedge^\bullet V^*, d_V) 
@@ -167,7 +163,7 @@ For $X$ a [[simply connected]] [[topological space]] $X$, a **Sullivan (minimal)
     \Omega^\bullet_{pwpoly}(X)
   $$
 
-  to its dg-algebra of [[piecewise polynomial differential forms]].
+  to the dg-algebra of [[piecewise polynomial differential forms]].
 
 =--
 
@@ -175,130 +171,120 @@ For $X$ a [[simply connected]] [[topological space]] $X$, a **Sullivan (minimal)
 
 ## Properties
 
+### As cofibrations
+
 
 +-- {: .num_prop }
 ###### Proposition
 **(cofibrations are relative Sullivan algebras)**
 
-The cofibration in the standard [[model structure on dg-algebras]] $C dgAlg_{\mathbb{N}}$ are precisely the [[retract]]s of relative  Sullivan algebras $(A,d) \to (A\otimes_k \wedge^\bullet V, d')$.
+The cofibrations in the [[projective model structure on differential graded-commutative algebras]] $(dgcAlg_{\mathbb{N}})_{proj}$ are precisely the [[retracts]] of relative  Sullivan algebra inclusions (def. \ref{SullivanAlgebra}).
 
-Accordingly, the cofibrant objects in $C dgAlg$ are precisely the Sullivan algebras $(\wedge^\bullet V, d)$
+Accordingly, the cofibrant objects in $(dgcAlg_{\mathbb{N}})_proj{}$ are precisely the [[retracts]] of Sullivan algebras.
 
 =--
 
++-- {: .num_prop }
+###### Proposition
 
-+-- {: .num_theorem }
+Minimal Sullivan models are unique up to [[isomorphism]]. 
+
+=--
+
+e.g [Hess 06, prop 1.18](#Hess06).
+
+
+### Rationalization
+
+
++-- {: .num_theorem #SullivanRationalizationEquivalence}
 ###### Theorem
 
-[[rational space|Rational homotopy types]] of simply connected spaces $X$ are in bijective corespondence with minimal Sullivan algebras $(\wedge^\bullet V,d)$
+Consider the [[adjunction]] of [[derived functors]]
 
 $$
-  (\wedge^\bullet V , d) \stackrel{\simeq}{\to}
-  \Omega^\bullet_{Sullivan}(X)
+  Ho(Top)
+   \simeq
+  Ho(sSet)
+   \underoverset
+     {\underset{\mathbb{R} \Omega^\bullet_{poly}}{\longrightarrow}}
+     {\overset{\mathbb{L} K_{poly} }{\longleftarrow}}
+     {\bot}
+  Ho( (dgcAlg_{\mathbb{Q}, \geq 0})^{op} )
+$$
+
+induced from the [[Quillen adjunction]] 
+
+$$
+  (dgcAlg_{\mathbb{Q}, \geq 0}_{proj})^{op}
+    \underoverset
+      {\underset{K_{poly}}{\longrightarrow}}
+      {\overset{\Omega^\bullet_{poly}}{\longleftarrow}}
+      {\bot}
+  sSet_{Quillen}
+$$
+
+([this theorem](rational+homotopy+theory#SullivanRationalizationAdjunction)).
+
+
+Then: On the [[full subcategory]] $Ho(Top_{\mathbb{Q}, \geq 1}^{fin})$ of [[simply connected topological space|simply connected]] [[rational topological spaces]] of [[finite type]] this adjunction restricts to an [[equivalence of categories]]
+
+$$
+  Ho(Top_{\mathbb{Q}, \gt 1}^{fin})
+   \underoverset
+     {\underset{\mathbb{R} \Omega^\bullet_{poly}}{\longrightarrow}}
+     {\overset{\mathbb{L} K_{poly} }{\longleftarrow}}
+     {\simeq}
+  Ho( (dgcAlg_{\mathbb{Q}, \gt 1}^{fin})^{op} )  
   \,.
 $$
 
-And homotopy classes of morphisms on both sides are in bijection.
+In particular the [[adjunction unit]]
+
+$$
+  X \longrightarrow K_{poly}(\Omega^\bullet_{pwpoly}(X))
+$$
+
+exhibits the [[rationalization]] of $X$.
 
 =--
 
 
 This is a central theorem of [[rational homotopy theory]], see for instance  [Hess 06, corollary 1.26](#Hess06).
 
+It follows that the [[cochain cohomology]] of the cochain complex of [[piecewise polynomial differential forms]] on any topological, hence equivalently that of any of its [[Sullivan models]], coincides with its [[ordinary cohomology]] with coefficients in the [[rational numbers]]:
 
 
-Write
-
-$$
-  (\Omega^\bullet_{Sul} \dashv K)
-  \colon
-  dgcAlg^{op}
-  \stackrel{\overset{\Omega^\bullet_{Sul}}{\leftarrow}}{\underset{K}{\to}}
-  sSet
-$$
-
-for the [[Quillen adjunction]] induced by forming Sullivan differential forms, as discussed above.
-
-
-
-+-- {: num_theorem }
-###### Theorem
-
-Let $(\wedge^\bullet V^*, d_V)$ be a simply connected Sullivan algebra of finite type. Then
-
-* the unit of the [[adjunction]] $(\wedge^\bullet V^*, d_V) \to \Omega^\bullet_{pwpoly}(K(\wedge^\bullet, d_V) \rangle)$ is a [[quasi-isomorphism]];
-
-* The elements of the homotopy groups of the rational space modeled by $(\wedge^\bullet V^*, d_V)$ are the generators in $V$:
-
-  there is an isomorphism of $\mathbb{N}$-[[graded vector space]]s over $\mathbb{Q}$
-
-  $$
-    \pi_\bullet(\langle (\wedge^\bullet V^*, d_V)\rangle)
-    \simeq
-    V.
-  $$
-
-=--
-
-
-See for instance [Hess 06, theorem 1.24](#Hess06).
-
-
-
-
-
-
-
-
-
-
-
-+-- {: .num_prop }
-###### Proposition
-
-Sullivan mimimal models are unique up to [[isomorphism]]. 
-
-=--
-
-e.g [Hess 06, prop 1.18](#Hess06).
 
 +-- {: .num_theorem }
 ###### Theorem
 
-Rational homotopy types of simply connected spaces $X$ are in bijective correspondene with minimal Sullivan models $(\wedge^\bullet V,d)$ spring
+Let $(\wedge^\bullet V^*, d_V)$ be a minimal Sullivan model of a simply connected rational topological space $X$. Then there is an [[isomorphism]]
 
 $$
-  (\wedge^\bullet V , d) \stackrel{\simeq}{\to}
-  \Omega^\bullet_{Sullivan}(X)
-  \,.
+  \pi_\bullet(X)
+    \simeq
+  V
 $$
 
-And homotopy classes of morphisms on both sides are in bijection.
+between the [[homotopy groups]] of $X$ and the generators of the minimal Sullivan model.
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-This appears for instance as corollary 1.26 in 
-
-* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+e.g. [Hess 06, theorem 1.24](#Hess06).
 
 
-=--
-
-+-- {: .num_corollary }
-###### Corollary
 
 
-It follows that if $(\wedge^\bullet V^{*}, d)$ is a minimal Sullivan model for $X$, then the rational homotopy groups of $X$ can be read off from the generators $V$:
 
-$$
-  \pi_\bullet(X) \otimes \mathbb{Q} \simeq V
-  \,.
-$$
 
-=--
+
+
+
+
+
+
 
 
 
@@ -348,6 +334,9 @@ See at _[[rational n-sphere]]_.
 
 [[!redirects relative Sullivan algebra]]
 [[!redirects relative Sullivan algebras]]
+
+[[!redirects minimal Sullivan algebra]]
+[[!redirects minimal Sullivan algebras]]
 
 [[!redirects minimal Sullivan model]]
 [[!redirects minimal Sullivan models]]
