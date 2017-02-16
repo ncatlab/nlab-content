@@ -74,3 +74,10 @@ See for instance
 
 
 * {#Zuckerman87} [[Gregg Zuckerman|G. J. Zuckerman]], _Action principles and global geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]]) 
+
+Exposition of [[variational calculus]] in terms of [[jet bundles]] and Lepage forms and aimed at examples from [[physics]] is in
+
+* {#MusilovaHronek16} [[Jana Musilová]],  [[Stanislav Hronek]], _The calculus of variations on jet bundles as a universal approach for a variational formulation of fundamental physical theories_, Communications in Mathematics, Volume 24, Issue 2 (Dec 2016) ([doi.org/10.1515/cm-2016-0012]( https://doi.org/10.1515/cm-2016-0012))
+
+
+[[!redirects Lepage forms]]
