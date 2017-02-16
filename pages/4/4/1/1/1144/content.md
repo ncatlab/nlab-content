@@ -701,9 +701,9 @@ Write
 
    1. [[nilpotent topological space|nilpotent]]: their [[fundamental group]] is a [[nilpotent group]];
 
-   1. [[finit type]]: the $\mathbb{Q}$-vector space $H_\bullet(X,\mathbb{Q})$ are of [[finite number|finite]] [[dimension]].
+   1. [[finite type]]: the $\mathbb{Q}$-vector space $H_\bullet(X,\mathbb{Q})$ are of [[finite number|finite]] [[dimension]].
 
-1. $Ho(dgcAlg^{fin}_{\mathbb{Q,nil}})$ for the [[full subcategory]] on the [[differential graded-commutative algebras]] which are equivalent to [[minimal Sullivan models]] $(\wedge^\bullet V, d)$ (def. \ref{SullivanAlgebra}) for which the [[graded vector space]] $V$ is of [[finite type]], i.e. is degreewise of [[finite number|finite]] [[dimension]] over $\mathbb{Q}$.
+1. $Ho(dgcAlg^{fin}_{\mathbb{Q},nil})$ for the [[full subcategory]] on the [[differential graded-commutative algebras]] which are equivalent to [[minimal Sullivan models]] $(\wedge^\bullet V, d)$ (def. \ref{SullivanAlgebra}) for which the [[graded vector space]] $V$ is of [[finite type]], i.e. is degreewise of [[finite number|finite]] [[dimension]] over $\mathbb{Q}$.
 
 =--
 
@@ -920,7 +920,7 @@ The original articles are
 
 * {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)) 
 
-* {#Sullivan77} [[Dennis Sullivan]], _Infinitesimal computations in topology_      Publications math&#233;matiques de l' I.H.&#201;.S. tome 47 (1977), p. 269-331. ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
+* {#Sullivan77} [[Dennis Sullivan]], _Infinitesimal computations in topology_,      Publications math&#233;matiques de l' I.H.&#201;.S. tome 47 (1977), p. 269-331. ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
 
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], V. K. A. M. Gugenheim, _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
 
@@ -930,7 +930,7 @@ The original articles are
 Survey and review includes
 
 
-* {#Hess06} [[Kathryn Hess]], section 9.1 of _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
+* {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000. 
 
@@ -941,7 +941,7 @@ Survey and review includes
 
 Review that makes the [[L-infinity algebra]] aspect completely manifest is in
 
-* {#BuijsFelixMurillo12} Urtzi Buijs, [[Yves Félix]], Aniceto Murillo, section 2 of _$L_\infty$-rational homotopy of mapping spaces_ ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756)),  published as _$L_\infty$-models of based mapping spaces_  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524. 
+* {#BuijsFelixMurillo12} Urtzi Buijs, [[Yves Félix]], Aniceto Murillo, section 2 of _$L_\infty$-rational homotopy of mapping spaces_ ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756)),  published as _$L_\infty$-models of based mapping spaces_,  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524. 
 
 
 
