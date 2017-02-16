@@ -204,6 +204,10 @@ The [[nLab:Cartesian space]] $\mathbb{R}^n$ with its standard notion of open sub
 
 * [[filter space]]
 
+* [[connected topological spaces]], [[simply connected topological space]]
+
+* [[nilpotent topological space]]
+
 ## References
 
 See at _[[topology]]_.
