@@ -14,8 +14,9 @@ More generally, we may speak about $\mathcal{A}$-nilpotent $\pi$-groups, for any
 
 ### Nilpotent groups and central series
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
+
 The class of **nilpotent groups** is defined [[inductive definition|inductively]] by the following clauses:
 
 1. The [[trivial group]] $1$ is nilpotent.
@@ -25,8 +26,9 @@ The class of **nilpotent groups** is defined [[inductive definition|inductively]
 
 Phrased in this way, nilpotency is an inductive [[predicate]] on the class of groups.  If we regard the same clauses as defining an inductive [[family]] indexed over the class of groups, then we obtain the definition of a central series.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
+
 The set of **central series** for a group $G$ is defined [[inductive definition|inductively]] by the following clauses:
 
 1. The trivial group $1$ has a specified central series, called the "trivial" one.
@@ -66,8 +68,9 @@ In fact, *every* group admits some central stream and hence is co-nilpotent.  Tw
 
 The following generalization of nilpotent groups is sometimes useful.  Let $\mathcal{A}$ be any class of [[abelian groups]] containing $0$, and let $\pi$ be any group.  By a *$\pi$-group* we mean a group with an action of $\pi$ (through group automorphisms, of course).
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
+
 The class of **$\mathcal{A}$-nilpotent** $\pi$-groups is defined [[inductive definition|inductively]] by the following clauses:
 
 1. The trivial group $1$ is $\mathcal{A}$-nilpotent.
@@ -82,10 +85,30 @@ A group $G$ is nilpotent in the original sense if and only if it is an $Ab$-nilp
 
 Every nilpotent group is an example of a [[solvable group]] (indeed, the groups in the [[lower central series]] of any group can be term-wise included into its [[derived series]]).
 
+## Examples
+
+Generally:
+
+* Every [[abelian group]] is nilpotent.
+
+* The [[direct product group]] of two nilpotent groups is again nilpotent.
+
+* The [[central extension]] of any [[abelian group]] is nilpotent, a famous class of examples of such are the [[Heisenberg groups]].
+
+Specifically:
+
+
+* The multiplicative group of upper triangular unipotent $n \times n$ matrices with [[coefficients]] in any [[field]] is nilpotent.
+
 
 ## Related pages
 
+* [[nilpotent Lie algebra]]
+
+* [[nilpotent topological space]]
+
 * [[localization of a space]]
+
 * [[nilpotent Lie algebra]]
 
 
