@@ -689,6 +689,28 @@ $$
 
 This is due to ([Bousfield-Gugenheim 76, section 8](#BousfieldGugenheim76)) Review includes ([Hess 06, p. 9](#Hess06)).
 
++-- {: .num_defn #NilpotentObjects}
+###### Definition
+**(subcategories of nilpotent objects of finite type)
+
+Write
+
+1. $Ho(Top_{\mathbb{Q},nil,fin}) \hookrightarrow Ho(Top)$ for the [[full subcategory]] on those [[topological spaces]] $X$ which are
+
+   1. [[rational topological space|rational]]: their [[homotopy groups]] are uniquely divisible;
+
+   1. [[nilpotent topological space|nilpotent]]: their [[fundamental group]] is a [[nilpotent group]];
+
+   1. [[finit type]]: the $\mathbb{Q}$-vector space $H_\bullet(X,\mathbb{Q})$ are of [[finite number|finite]] [[dimension]].
+
+1. $Ho(dgcAlg^{fin}_{\mathbb{Q,nil}})$ for the [[full subcategory]] on the [[differential graded-commutative algebras]] which are equivalent to [[minimal Sullivan models]] $(\wedge^\bullet V, d)$ (def. \ref{SullivanAlgebra}) for which the [[graded vector space]] $V$ is of [[finite type]], i.e. is degreewise of [[finite number|finite]] [[dimension]] over $\mathbb{Q}$.
+
+=--
+
+[Bousfield-Gugenheim 76, p. viii](#BousfieldGugenheim76)
+
+
+=--
 
 +-- {: .num_theorem #SullivanRationalizationEquivalence}
 ###### Theorem
@@ -708,22 +730,18 @@ $$
 
 induced from the [[Quillen adjunction]] from theorem \ref{SullivanRationalizationAdjunction}.
 
-
-Then: 
-
-On the [[full subcategory]] $Ho(Top_{\mathbb{Q}, \geq 1}^{fin})$ of _[[simply connected topological space|simply connected]]_ [[rational topological spaces]] of [[finite type]] this adjunction restricts to an [[equivalence of categories]]
+On the full subcategories of nilpotent objects of finite type, def. \ref{NilpotentObjects}, this adjunction restricts to an [[equivalence of categories]]
 
 $$
-  Ho(Top_{\mathbb{Q}, \gt 1}^{fin})
+  Ho(Top_{\mathbb{Q}, nil}^{fin})
    \underoverset
      {\underset{\mathbb{R} \Omega^\bullet_{poly}}{\longrightarrow}}
      {\overset{\mathbb{L} K_{poly} }{\longleftarrow}}
      {\simeq}
-  Ho( (dgcAlg_{\mathbb{Q}, \gt 1}^{fin})^{op} )  
+  Ho( (dgcAlg_{\mathbb{Q}, nil}^{fin})^{op} )  
   \,.
 $$
 
-More generally, we get an [[equivalence of categories]] betwee the _[[nilpotent topological space|nilpotent]]_ [[rational topological spaces]] of [[finite type]] and the [[Sullivan models]] of [[nilpotent L-∞ algebras]].
 
 In particular for such spaces the [[adjunction unit]]
 
@@ -735,6 +753,8 @@ exhibits the [[rationalization]] of $X$.
 
 =--
 
+
+[Bousfield-Gugenheim 76, p. viii](#BousfieldGugenheim76) 
 
 e. g. [Hess 06, corollary 1.26](#Hess06).
 
@@ -902,13 +922,15 @@ The original articles are
 
 * {#Sullivan77} [[Dennis Sullivan]], _Infinitesimal computations in topology_      Publications math&#233;matiques de l' I.H.&#201;.S. tome 47 (1977), p. 269-331. ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
 
-* {#BousfieldGugenheim76} [[Aldridge Bousfield]], Gugenheim, _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
+* {#BousfieldGugenheim76} [[Aldridge Bousfield]], V. K. A. M. Gugenheim, _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
+
+* {#Neisendorfer78} [[Joseph Neisendorfer]], _Lie algebras, coalgebras and rational homotopy theory for nilpotent spaces_, Pacific J. Math. Volume 74, Number 2 (1978), 429-460. ([euclid](http://projecteuclid.org/euclid.pjm/1102810284))
 
 
 Survey and review includes
 
 
-* {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
+* {#Hess06} [[Kathryn Hess]], section 9.1 of _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000. 
 
