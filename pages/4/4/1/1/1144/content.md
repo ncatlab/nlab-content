@@ -539,9 +539,8 @@ $$
   (\wedge^\bullet \mathfrak{g}^\ast, d_\mathfrak{g} = [-,-]^\ast)
 $$
 
-for its [[Chevalley-Eilenberg algebra]]. If this CE-algebra is a [[Sullivan algebra]] in the sense of def. \ref{SullivanAlgebra}, then $\mathfrak{g}$ is a [[nilpotent Lie algebra]].
+for its [[Chevalley-Eilenberg algebra]]. This CE-algebra is a [[Sullivan algebra]] in the sense of def. \ref{SullivanAlgebra}, precisely if $\mathfrak{g}$ is a [[nilpotent Lie algebra]].
 
-(...)
 
 =--
 
