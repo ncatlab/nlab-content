@@ -103,6 +103,8 @@ Specifically:
 
 ## Related pages
 
+* [[nilpotent element]]
+
 * [[nilpotent Lie algebra]]
 
 * [[nilpotent topological space]]
