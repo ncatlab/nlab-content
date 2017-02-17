@@ -21,7 +21,7 @@
 * table of contents
 {: toc}
 
-## Ideat
+## Ideas
 
 ### General
 
