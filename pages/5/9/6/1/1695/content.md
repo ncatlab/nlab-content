@@ -65,7 +65,7 @@ with basepoint provided by the right vertical arrow.
 
 A loop space is an example of a [[A-∞ space]], in particular it is an [[H-space]]. Loop spaces admit this rich algebraic structure which arises from the fact that the based space $S^1$ carries a correspondingly rich co-algebraic structure, starting from the fact that the based space $S^1$ is an H-[[cogroup]]. 
 
-The description of this structure on loop spaces has been the very motivaton for the inztoruction of the notion of [[operad]] and [[algebra over an operad]] in ([May](#May)).
+The description of this structure on loop spaces has been the very motivation for the introduction of the notion of [[operad]] and [[algebra over an operad]] in ([May](#May)).
 
 
 An important theoretical consideration is when an H-space, and particularly one having the type of a [[CW-complex]], has the homotopy type of a loop space of another CW-complex: $X \simeq \Omega Y$. In this circumstance, one calls $Y$ a **[[delooping]]** of $X$; an important example is where $X$ carries a [[topological group]] structure $G$, and $Y$ is the [[classifying space]] of $G$. 
