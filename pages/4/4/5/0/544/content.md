@@ -150,6 +150,8 @@ See [[ring spectrum]] and [[algebra spectrum]].
 
   * [[augmented A-∞ algebra]]
 
+  * [[curved A-∞ algebra]]
+
 * [[A-n algebra]]
 
 * [[E-∞ algebra]]
