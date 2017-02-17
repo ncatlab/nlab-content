@@ -17,6 +17,16 @@ A [[connected topological space|connected]] [[topological space]] $x$ is called 
 
 The central statement of [[rational homotopy theory]] says that the [[rational homotopy type]] of nilpotent topological spaces of [[finite type]] is equivalently reflected in [[nilpotent L-infinity algebras]] of finite type.
 
+## Related concepts
+
+* [[nilpotent element]]
+
+* [[nilpotent Lie algebra]], [[nilpotent L-infinity algebra]]
+
+* [[nilpotent group]]
+
+
+
 ## References
 
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], V. K. A. M. Gugenheim, section 9.1 of _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
