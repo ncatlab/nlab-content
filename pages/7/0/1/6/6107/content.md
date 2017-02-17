@@ -28,6 +28,8 @@ Curved dg-algebras appear in the description of various [[TQFT]]s.
 
 * [[curved L-infinity algebra]]
 
+* [[curved A-infinity algebra]]
+
 ## References
 
 A basic exposition of the definition is in
