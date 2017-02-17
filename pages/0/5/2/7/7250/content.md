@@ -1,4 +1,4 @@
-The _Quillen plus construction_ is a method for simplifying the fundamental group of a space without changing its homology and cohomology groups. It was introduced by [[Kervaire]] (1969), but was crucially used [[Daniel Quillen]] to define the [[algebraic K-theory]] groups by applying it to the [[classifying space]] of the [[stable general linear group]], $GL(A)$, of a ring $A$.
+The _Quillen plus construction_ is a method for simplifying the fundamental group of a space without changing its homology and cohomology groups. It was introduced by [[Kervaire]] (1969), but was crucially used by [[Daniel Quillen]] to define the [[algebraic K-theory]] groups by applying it to the [[classifying space]] of the [[stable general linear group]], $GL(A)$, of a ring $A$.
 
 The plus construction doesn't change the [[homology]] of the space but 'kills' a [[perfect group|perfect]] normal subgroup of $G$ within the classifying space $BG$. For algebraic K-theory, that subgroup is the [[stable elementary linear group]], $E(A)$ within $GL(A)$.
 
