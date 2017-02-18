@@ -27,7 +27,7 @@ A remotely related variant is [[HOL Light]].
 * T. Nipkow, L. Paulson, M. Wenzel. _Isabelle/HOL &#8212; A Proof Assistant for Higher-Order
 Logic_, Springer (2002)
 
-* Wikipedia, _[HOL (proof assistant)](http://en.wikipedia.org/wiki/HOL_(proof_assistant))_
+* Wikipedia, _[HOL (proof assistant)](http://en.wikipedia.org/wiki/HOL_%28proof_assistant%29)_
 
 * Florian Rabe and Mihnea Iancu, _A Formalized Set-Theoretical Semantics of
 Isabelle/HOL_ ([pdf](https://kwarc.info/people/frabe/Research/RI_isabelle_10.pdf))
