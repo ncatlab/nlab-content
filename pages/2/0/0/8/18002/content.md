@@ -8,7 +8,7 @@ G&#252;nter Hotz (born 16.11.1931) is a german mathematician and computer scient
 
 Hotz is one of the "pioneers" of computer science in Germany and has been strongly involved in establishing computer science as a scientific discipline in Germany in the early 70s.
 
-His scientific contributions include automata theory, formal languages, VSLI design, information theory, topology and more.
+His scientific contributions include automata theory, formal languages, VLSI design, information theory, topology and more.
 
 Hotz has a mathematical background in algebraic topology. He wrote his dissertation thesis in 1958 in G&#246;ttingen under supervision of [Kurt Reidemeister](https://en.wikipedia.org/wiki/Kurt_Reidemeister) about a topic from Knot theory. In 2008, he published an efficient algorithm for [deciding the equivalence of Knots](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.578.691).
 
