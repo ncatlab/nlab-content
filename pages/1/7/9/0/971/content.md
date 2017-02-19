@@ -201,6 +201,8 @@ and
 
 * [[Ji?í Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Ji?í Rosický]], _A classification of accessible categories,_ Journal of Pure and Applied Algebra 175:7-30, 2002. [abstract](http://maths.mq.edu.au/~slack/papers/acc.html)
 
+which further stratifies the accessible categories in terms of [[sound doctrines]].
+
 A discussion of [[accessible (∞,1)-categories]] is in [section 5.4, p. 341](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=341)
 of
 
