@@ -73,7 +73,7 @@ that preserve sifted colimits.
 ## For more general types of limits than products
 
 Even more generally, one can prove
-a distributivity theorem for any sound doctrine&#160;$D$ of limits, see Section&#160;6 in [ABLR](#ABLR).
+a distributivity theorem for any [[sound doctrine]]&#160;$D$ of limits, see Section&#160;6 in [ABLR](#ABLR).
 
 ## Related entries
 
