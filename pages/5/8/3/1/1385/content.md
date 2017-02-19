@@ -140,21 +140,22 @@ This tensor product makes $Pr(\infty,1)Cat$ a [[symmetric monoidal (∞,1)-categ
 
 The definition of the tensor product is easy: $C \otimes D = Cts(C^{op},D)$, where $Cts$ denotes the category of continuous (small-limit-preserving) functors.  Equivalently, this is $Cocts(C,D^{op})^{op}$, where $Cocts$ denotes the category of cocontinuous (small-colimit-preserving) functors; it is tempting to write this as $Func^L(C,D^{op})^{op}$, but note that $D^{op}$ is not itself locally presentable.  However, $D^{op}$ is nevertheless cocomplete, so any cocontinuous functor $C \to D^{op}$ has a right adjoint.
 
-To prove that this tensor product has the right universal property, note that taking right adjoints defines an equivalence of categories $Func^L(C,D) \simeq Cts(D,C)^{op}$.  Now we have:
+To show that $Cts(C^{op},D)$ is locally presentable, recall that $C \simeq Ind_\kappa A$ for some small $\kappa$-cocomplete $A$.  Thus $Cts(C^{op},D) \simeq \kappa Cts (A^{op},D)$, where $\kappa Cts$ denotes the category of $\kappa$-limit-preserving functors; this is an accessible localization of $Fun(A^{op},D)$ and hence locally presentable.
+
+To show that $Cts(C^{op},D)$ has the right universal property, we compute
 
 $$
 \begin{aligned}
-Func^L(Cts(C^{op},D),E)
-&\simeq Cts(E,Cts(C^{op},D))^{op}\\
-&\simeq Cts(C^{op},Cts(E,D))^{op}\\
-&\simeq Cts(C^{op},Func^L(D,E)^{op})^{op}\\
-&\simeq Func^L(C,Func^L(D,E))
+Func^L(C,Func^L(D,E))
+&\simeq \kappa CoCts (A,Func^L(D,E)) & \quad \text{(by the universal property of }\; C = Ind_\kappa(A))\\
+&\simeq \kappa Cts (A^{op},Func^L(D,E)^{op})^{op} &\quad \text{(by taking opposites)}\\\\
+&\simeq \kappa Cts (A^{op},CtsAcc(E,D))^{op} &\quad \text{(by the adjoint functor theorem)}\\
+&\simeq CtsAcc(E,\kappa Cts (A^{op},D))^{op} &\quad (*)\\
+&\simeq Func^L(\kappa Cts (A^{op},D),E) &\quad \text{(by the adjoint functor theorem)}
 \end{aligned}
 $$
 
-where the last equivalence uses the fact that a limit-preserving functor $A^{op} \to B^{op}$ is literally the same as a colimit-preserving functor $A\to B$ (but the natural transformations between them go in the other direction).
-
-Of course, it requires proof that $Cts(C^{op},D)$ is in fact locally presentable when $C$ and $D$ are.
+To justify the step $(*)$, note that both sides are equivalent to some subcategory of functors $A^{op} \times E \to D$, and in both cases part of the requirement is that $\kappa$-limits be preserved in the $A^{op}$-variable and all small limits be preserved in the $E$-variable.  The remaining condition on the left is that for each $a\in A$ the corresponding functor $E\to D$ is accessible, i.e. preserves $\lambda_a$-filtered colimits for some cardinal $\lambda_a$.  On the right, the remaining condition is that the [[currying|curried]] functor $E\to \kappa Cts (A^{op},D)$ is accessible, i.e. preserves $\mu$-filtered colimits for some cardinal $\mu$.  Since $\mu$-filtered colimits commute with $\kappa$-limits as long as $\mu\ge \kappa$, such colimits in $\kappa Cts (A^{op},D)$ are pointwise, so we are at least talking about the same colimits, so the right-hand condition implies the left (take each $\lambda_a = \mu$).  On the other hand, because $A$ is small, if the left-hand condition holds we can take $\mu = \sup_{a\in A} \lambda_a$ to make the right-hand condition hold.
 
 ### Colimits
 
@@ -231,7 +232,7 @@ The $(\infty,1)$-category $Pr(\infty,1)Cat$ is introduced in section 5.5.3 of
 
 The monoidal structure on $Pr(\infty,1)Cat$ is described in section 4.1 of
 
-* [[Jacob Lurie]], _[[higher algebra|Noncommutative algebra]]_
+* [[Jacob Lurie]], _[[Noncommutative Algebra]]_
 {#LurieNoncommutative}
 
 That this is in fact a symmetric monoidal structure is discussed in section 6 of
