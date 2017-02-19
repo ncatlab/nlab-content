@@ -51,6 +51,10 @@ See also at _[[2-algebraic theory]]_.
 
 The word "doctrine" can also be used to design a particular setting for categorical logic (e.g., categories with finite products, [[geometric logic]] etc...; see [[internal logic]]).  This can also be formalized in a more general way using weak higher categories.  This generalization is necessary to treat complicated algebraic structures like symmetric operads or higher operads in a categorical logical way.
 
+### As a class of limits
+
+Especially in the theory of [[accessible categories]] and [[commutativity of limits and colimits]], a "doctrine" is sometimes taken to be simply a class of shapes (or [[weighted limit|weights]]) for [[limits]].  For more about this, see [[sound doctrine]].
+
 ## Related concepts
 
 * [[algebraic theory]] / [[Lawvere theory]] / [[(∞,1)-algebraic theory]] / [[2-algebraic theory]]
