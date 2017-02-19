@@ -84,7 +84,7 @@ We first discuss this semi-formally in
 
 * _[Idea](#DifferentialFormsOnSpacesIdea)_
 
-and then in more detial in 
+and then in more detail in 
 
 * _[Details](#FormsOnSpacesDetails)_.
 
