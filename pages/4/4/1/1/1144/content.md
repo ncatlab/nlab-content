@@ -922,6 +922,9 @@ For instance the [[4-sphere]] has rational homotopy in degree 4 and 7. The one i
 ## Quillen approach
  {#QuillenApproach}
 
+
+We briefly review Quillen's approach to rational homotopy theory ([Quillen 69](#Quillen69)), see for instance ([Griffith-Morgan 13, chapter 17](#GriffithMorgan13)) .
+
 The following sequence of six consecutive functors, each of which is a [[Quillen equivalence]], takes one from a [[n-connected space|1-connected]] rational space $X$ to a [[dg-Lie algebra]].
 
 One starts with the [[fundamental infinity-groupoid|singular simplicial set]]
@@ -994,6 +997,8 @@ The original articles are
 
 * {#Neisendorfer78} [[Joseph Neisendorfer]], _Lie algebras, coalgebras and rational homotopy theory for nilpotent spaces_, Pacific J. Math. Volume 74, Number 2 (1978), 429-460. ([euclid](http://projecteuclid.org/euclid.pjm/1102810284))
 
+* {#Silveira84} [[Flavio da Silveira]], _Rational homotopy theory of fibrations_, Pacific Journal of Mathematics, Vol. 113, No. 1 (1984) ([pdf](http://msp.org/pjm/1984/113-1/pjm-v113-n1-p01-s.pdf))
+
 
 Survey and review includes
 
@@ -1004,7 +1009,8 @@ Survey and review includes
 
 * {#Majewski00} Martin Majewski, _Rational homotopy models and uniqueness_ , AMS Memoir (2000):
 
-* {#Silveira84} [[Flavio da Silveira]], _Rational homotopy theory of fibrations_, Pacific Journal of Mathematics, Vol. 113, No. 1 (1984) ([pdf](http://msp.org/pjm/1984/113-1/pjm-v113-n1-p01-s.pdf))
+* {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013)
+
 
 
 Review that makes the [[L-infinity algebra]] aspect completely manifest is in
