@@ -44,6 +44,25 @@ The inclusion $sSet_0 \hookrightarrow sSet^{*/}$ into [[pointed object|pointed]]
 
 There is a [[model structure on reduced simplicial sets]] (see there) which serves as a [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-category]] of [[pointed object|pointed]] [[connected]] [[∞-groupoids]].
 
+### As a model for $\infty$-groups
+
+There is a [[Quillen equivalence]]
+
+$$
+  (G \dashv \bar W) 
+   \;\colon\; 
+  sGrp
+   \stackrel{\overset{\Omega}{\leftarrow}}{\underset{\bar W}{\to}}
+  sSet_0
+$$
+
+between the [[model structure on simplicial groups]] and the [[model structure on reduced simplicial sets]] (thus exhibiting both of these as models for [[infinity-groups]]). Its [[left adjoint]] $G$, the _[[simplicial loop space]] construction_, is a concrete model for the loop space construction with values in [[simplicial groups]].
+
+
+
+
+
+
 ## Related concepts
 
 * [[Eilenberg subcomplex]]
