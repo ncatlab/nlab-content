@@ -70,6 +70,74 @@ The nature of the cofibrations is discussed below.
 
 ### Properties
 
+#### Cofibrant generation
+ {#CofibrantGeneration}
+
++-- {: .num_defn }
+###### Definition
+**(sphere and disk algebras)**
+
+Write $k[n]$ for the graded vector space which is the ground field $k$ in degree $n$ and 0 in all other degrees. For $n \in \mathbb{N}$, consider the [[semifree dga]]s
+
+$$
+  S(n) := (\wedge^\bullet k[n], 0)
+$$ 
+
+and for $n \geq 1$ the [[semifree dga]]
+
+$$
+  D(n) := 
+   \left\lbrace
+     \array{
+         0 & (n = 0)
+         \\
+        (\wedge^\bullet (k[n+1] \oplus k[n]), 0) & (n \gt 0)
+     }
+   \right.
+  \,.
+$$ 
+
+Write
+
+$$
+  i_n : S(n) \to D(n)
+$$
+
+for the obvious morphism that takes the generator in degree $n$ to the generator in degree $n$ (and for $n = 0$ it is the unique morphism from the [[initial object]] $(0,0)$).
+
+For $n \gt 0$ write
+
+$$
+  j_n \colon 0 \to D(n)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+**(generating cofibrations)**
+
+The sets
+
+$$
+  I = \{i_n \}_{n \geq 1} \cup \{S(0) \to 0, \; 0 \to S(0)\}
+$$
+
+and 
+
+$$
+  J = \{j_n \}_{n \gt 1} 
+$$
+
+are sets of generating cofibrations and acyclic cofibrations, respectively, exhibiting $C dgAlg$ as a [[cofibrantly generated model category]].
+
+
+=--
+
+review includes ([Hess 06, p. 6](#Hess06))
+
+
 #### Cofibrations: Sullivan algebras {#SullivanAlgebras}
 
 In this section we describe the cofibrations in the model structure on $C dgAlg_\mathbb{N}$ of **non-negatively graded** dg-algebras (def. \ref{ProjectiveModelStructureOnCdgAlg}). Notice that it is these that are in the image of the dual [[monoidal Dold-Kan correspondence]].
@@ -151,67 +219,6 @@ Accordingly, the cofibrant objects in $C dgAlg$ are precisely the Sullivan algeb
 
 =--
 
-+-- {: .num_defn }
-###### Definition
-**(sphere and disk algebras)**
-
-Write $k[n]$ for the graded vector space which is the ground field $k$ in degree $n$ and 0 in all other degrees. For $n \in \mathbb{N}$, consider the [[semifree dga]]s
-
-$$
-  S(n) := (\wedge^\bullet k[n], 0)
-$$ 
-
-and for $n \geq 1$ the [[semifree dga]]
-
-$$
-  D(n) := 
-   \left\lbrace
-     \array{
-         0 & (n = 0)
-         \\
-        (\wedge^\bullet (k[n+1] \oplus k[n]), 0) & (n \gt 0)
-     }
-   \right.
-  \,.
-$$ 
-
-Write
-
-$$
-  i_n : S(n) \to D(n)
-$$
-
-for the obvious morphism that takes the generator in degree $n$ to the generator in degree $n$ (and for $n = 0$ it is the unique morphism from the [[initial object]] $(0,0)$).
-
-For $n \gt 0$ write
-
-$$
-  j_n : 0 \to D(n)
-  \,.
-$$
-
-=--
-
-+-- {: .num_defn }
-###### Definition
-**(generating cofibrations)**
-
-The sets
-
-$$
-  I = \{i_n \}_n \cup \{S(0) \to 0\}
-$$
-
-and 
-
-$$
-  J = \{j_n \}_{n \gt 0} 
-$$
-
-are sets of generating cofibrations and acyclic cofibrations, respectively, exhibiting $C dgAlg$ as a [[cofibrantly generated model category]].
-
-
-=--
 
 
 #### Commutative vs. non-commutative dg-algebras {#CommVsNoncomm}
@@ -494,6 +501,13 @@ Properness and combinatoriality is discussed in ([To&#235;nVezzosi](#ToenVezzosi
 Discussion of cofibrations in $dgAlg_{proj}$ is in ([Keller](#Keller)).
 
 ### Properties
+
+#### Properness
+
+Let $cdgAg_k$ be the projective model structure on commutative unbounded dg-algebras from above.
+
+This is a [[proper model category]]. See MO discussion [here](http://mathoverflow.net/q/204414/381).
+
 
 #### Derived tensor product
 
@@ -1022,9 +1036,9 @@ over a field $k$ of characteristic 0 constitute a presentation of
 
 
 
-The cofibrantly generated model structure on **commutative** [[dg-algebra]]s is surveyed usefully for instance on p. 6 of 
+The cofibrantly generated model structure on **commutative** [[dg-algebras]] is surveyed usefully for instance on p. 6 of 
 
-* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+* {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
 
 This makes use of the general discussion in section 3 of 
 
