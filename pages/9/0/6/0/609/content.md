@@ -13,6 +13,11 @@
 * table of contents
 {:toc}
 
+
+## Idea
+
+Simplicial groupoids pair the concepts of [[groupoids]] and [[simplicial sets]]. Via the [[Dwyer-Kan loop groupoid]] functor ([Dwyer-Kan 84](#DwyerKan84)) their [[homotopy]] theory is equivalent to the classical homotopy theory of [[simplicial sets]]/[[Kan complexes]] (both being models for [[infinity-groupoids]]).
+
 ## Definition
 
 It is probably best to distinguish between the following:
@@ -54,6 +59,9 @@ Any simplicially enriched groupoid yields a simplicial groupoid in which the fac
 * [[model structure on presheaves of simplicial groupoids]]
 
 ## References
+
+* {#DwyerKan84} [[William Dwyer|W. G. Dwyer]] and [[Dan Kan|D. M. Kan]],  _Homotopy theory and simplicial groupoids_,  Nederl. Akad. Wetensch. Indag. Math., 46, (1984), 379 &#8211; 385,
+
 
 * Philip Ehlers, _Simplicial groupoids as models for homotopy type_ Master's thesis (1991) ([pdf](http://www.maths.bangor.ac.uk/research/ftp/theses/ehlers-msc.pdf))
 
