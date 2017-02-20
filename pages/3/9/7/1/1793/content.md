@@ -17,16 +17,17 @@
 * automatic table of contents goes here
 {:toc}
 
-## Idea 
+## Idea
 
-Model structures on chain complexes are [[model category]] structures on [[categories of chain complexes]] whose weak equivalences are [[quasi-isomorphism]]s. 
+Model structures on chain complexes are [[model category]] structures on [[categories of chain complexes]] whose weak equivalences are [[quasi-isomorphism]]s.
 
 
-Via these model structures, all of the standard techniques in [[homological algebra]], such as [[injective resolutions]] and [[projective resolutions]], are special cases of constructions in [[homotopy theory]], such as [[cofibrant resolutions]] and [[fibrant resolutions]]. 
+Via these model structures, all of the standard techniques in [[homological algebra]], such as [[injective resolutions]] and [[projective resolutions]], are special cases of constructions in [[homotopy theory]], such as [[cofibrant resolutions]] and [[fibrant resolutions]].
 
-The existence of these model structures depends subtly on whether the chain complexes in question are bounded or not. 
+The existence of these model structures depends subtly on whether the chain complexes in question are bounded or not.
 
 ### In non-negative degree
+
 
 [[chain complex|Chain complexes]] in non-negative degree in an [[abelian category]] $A$ are special in that they may be identified via the [[Dold?Kan correspondence]] as [[simplicial object]]s in $A$.
 
@@ -46,26 +47,32 @@ At least if $A$ is the category of [[abelian groups]], so that $A^{\Delta^{op}}$
 
 The model structure on chain complexes transports this presentation  of the special $\infty$-groupoids given by abelian simplicial groups along the Dold-Kan correspondence to chain complexes.
 
-Analogous statements apply to the category of unbounded chain complexes and the canonical [[stable (infinity,1)-category]] [[Spec]] of [[spectrum|spectra]]. 
+Analogous statements apply to the category of unbounded chain complexes and the canonical [[stable (infinity,1)-category]] [[Spec]] of [[spectrum|spectra]].
+
+This we discuss below in
+
+* _[In non-negative degree](#CochainNonNeg)_
 
 ### For unbounded chain complexes
 
 Model structures on unbounded (co)chain complexes can be understood as
-presentations of [[spectrum object]]s in model structures of bounded (co)chain complexes.
+presentations of [[spectrum objects]] in model structures of bounded (co)chain complexes.
+
+See
+
+* _[For unbounded chain complexes](#ForUnboundedChainComplexes)_
 
 
-## Definitions 
+## Definitions
 
-
-
-### In non-negative degree 
+### In non-negative degree
  {#CochainNonNeg}
 
-Let $C$ be an [[abelian category]]. 
+Let $C$ be an [[abelian category]].
 
 Recall that by the dual [[Dold-Kan correspondence]] the category $C^\Delta$ of [[cosimplicial object]]s in $C$ is equivalent to the category $Ch^\bullet_+(C)$ of [[cochain complexes]] in non-negative degree. This means that we can transfer results discussed at [[model structure on cosimplicial objects]] to cochain complexes (see [Bousfield2003, section 4.4](http://arxiv.org/PS_cache/math/pdf/0312/0312531v1.pdf) for more).
 
-#### The standard (Quillen) model structures 
+#### The standard (Quillen) model structures
   {#StandardQuillenOnBounded}
 
 Let $R$ be a [[ring]] and write $ \mathcal{A} \coloneqq R$[[Mod]] for its [[category]] of [[modules]].
@@ -82,7 +89,7 @@ We discuss the
 +-- {: .num_theorem #ProjectiveModelStructure}
 ###### Theorem
 
-There is a [[model category]] structure on the [[category of chain complexes]] 
+There is a [[model category]] structure on the [[category of chain complexes]]
 $Ch_{\bullet \geq 0 }(\mathcal{A})$ (in non-negative degree) whose
 
 * weak equivalences are [[quasi-isomorphisms]];
@@ -115,7 +122,7 @@ called the **injective model structure**.
 
 =--
 
-This model structure on $Ch^{\bullet \geq 0}$ is originally due to 
+This model structure on $Ch^{\bullet \geq 0}$ is originally due to
 ([Quillen II, section 4](#Quillen)).
 An account is given for instance in ([Dungan, 2.4.2, proof in section 2.5](#Dungan)).
 
@@ -148,7 +155,7 @@ There are _resolution model structures_ on cosimplicial objects in a model categ
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $A$ be an [[abelian category]] and let $\mathcal{G} \in Obj(A)$ be a [[class]] of objects, such that $A$ has enough $\mathcal{G}$-[[injective object]]s. 
+Let $A$ be an [[abelian category]] and let $\mathcal{G} \in Obj(A)$ be a [[class]] of objects, such that $A$ has enough $\mathcal{G}$-[[injective object]]s.
 
 Then there is a model category structure on non-negatively graded cochain complexes $Ch^{\bullet \geq 0}(A)_{\mathcal{G}}$ whose
 
@@ -157,12 +164,12 @@ Then there is a model category structure on non-negatively graded cochain comple
 * $f$ is a cofibration if it is $\mathcal{G}$-monic in positive degree;
 
 * $f$ is a fibration if it is degreewise a [[split epimorphism]] with degreewise $\mathcal{G}$-injective kernel.
- 
+
 =--
 
 See [Bousfield2003, section 4.4](http://arxiv.org/PS_cache/math/pdf/0312/0312531v1.pdf).
 
-If $A$ has enough [[injective object]]s and $\mathcal{G}$ is the class of all of them, this reproduces the 
+If $A$ has enough [[injective object]]s and $\mathcal{G}$ is the class of all of them, this reproduces the
 [standard Quillen model structure](#StandardQuillenOnBounded) discussed above:
 
 +-- {: .num_cor}
@@ -198,28 +205,31 @@ There is a model structure on $Ch^{\bullet\geq 0}(A)_{tot}$ whose
 
 If $C = $ [[Vect]] is a category of [[vector space]]s over some field, we have that every epi/mono splits and that every [[quasi-isomorphism]] is a homotopy equivalence.  Moreover, in this case every chain complex is quasi-isomorphic to its [[homology]] (regarded as a chain complex with zero differentials).
 
-This is the model structure which induces the [[transferred model structure|transferred]] [[model structure on dg-algebra]]s over a field. 
+This is the model structure which induces the [[transferred model structure|transferred]] [[model structure on dg-algebra]]s over a field.
 
 =--
 
-#### With fibrations being surjections in all degrees
+#### Projective model structure on cochain complexes in non-negative degrees
   {#CochainNonNegProj}
 
 We discuss a model structure on cochain complexes of abelian groups
 in which the fibrations are the degreewise epis. This
-follows an analogous proof in ([Jardine](#Jardine))
+follows an analogous proof in ([Jardine](#Jardine)).
+
+This _projective_ model structure on cochain complexes in non-negative degree is the one that induces via [[transferred model structure|transfer]] the corresponding [[model structure on dg-algebras]] that plays the central role in the Sullivan model of [[rational homotopy theory]].
 
 +-- {: .num_theorem}
 ###### Theorem
+**(projective model structure on cochain complexs in non-negative degree)**
 
-The category $Ch^{\bullet \geq 0}(Ab)$ of non-negatively graded cochain complexes of [[abelian group]]s becomes a model category with
+The category $Ch^{\bullet \geq 0}(Ab)$ of non-negatively graded cochain complexes of [[abelian groups]] becomes a [[model category]] with
 
 * fibrations the degreewise surjections;
 
 * weak equivalences the [[quasi-isomorphism]]s.
 
 
-This is a [[simplicial model category]]-structure
+Moreover this is a [[simplicial model category]]-structure
 with respect to the canonical structure of an [[sSet]]-[[enriched category]]
 induced from the dual [[Dold-Kan correspondence|Dold-Kan equivalence]]
 $Ch^\bullet_+(Ab) \simeq Ab^\Delta$ by the fact that $Ab^\Delta$  is a [[category of cosimplicial objects]] (see there) in a category with all limits and colimits.
@@ -230,7 +240,7 @@ $Ch^\bullet_+(Ab) \simeq Ab^\Delta$ by the fact that $Ab^\Delta$  is a [[categor
 +-- {: .proof}
 ###### Proof
 
-We spell out a proof of the model structure below in a sequence of 
+We spell out a proof of the model structure below in a sequence of
 lemmas. The proof that this is a simplicial model category is
 at [[model structure on cosimplicial abelian groups]].
 
@@ -244,16 +254,15 @@ As usual, for $n \in \mathbb{N}$ write $\mathbb{Z}[n]$ for the complex concentra
 
 For $n = 0$ let $\mathbb{Z}[-1,0] = 0$, for convenience.
 
-=--
 
 
 
 
 
 
-+-- {: .num_lemma}
++-- {: .num_lemma #ProjStructGenCofibs}
 ###### Lemma
-{#ProjStructGenCofibs}
+
 
 For all $n \in \mathbb{N}$ the canonical maps $0 \to \mathbb{Z}[n]$ and $\mathbb{Z}[n] \to \mathbb{Z}[n-1,n]$ are cofibrations, in that they  have the [[left lifting property]] against acyclic fibrations.
 
@@ -263,7 +272,7 @@ For all $n \in \mathbb{N}$ the canonical maps $0 \to \mathbb{Z}[n]$ and $\mathbb
 ###### Proof
 
 
-Let $p : A \stackrel{\simeq}{\to} B$ be degreewise surjective and an isomorphism on cohomology. 
+Let $p : A \stackrel{\simeq}{\to} B$ be degreewise surjective and an isomorphism on cohomology.
 
 First consider $\mathbb{Z}[0]\to \mathbb{Z}[-1,0] = 0$. We need to construct lifts
 
@@ -294,7 +303,7 @@ $$
   \,.
 $$
 
-Such a lift is equivalently an element $\sigma \in A_{n-1}$ such that 
+Such a lift is equivalently an element $\sigma \in A_{n-1}$ such that
 
 * $d_A \sigma = f_n(1)$
 
@@ -304,23 +313,23 @@ Since $p$ is a quasi-isomorphism, and since it takes the closed element $f_n(1) 
 
 So then $d_B ( p(z) - g_{n-1}(1) ) = 0$ and again using that $p$ is a quasi-isomorphism this means that there must be a closed $a \in A_{n-1}$ such that $p(a) = p(z)- g_{n-1}(1) + d_B b$ for some $b \in B_{n-2}$. Choose such $a$ and $b$.
 
-Since $p$ is degreewise onto, there is $a'$ with $p(a') = b$. Choosing this the above becomes $p(a) = p(z) - g_{n-1}(1) + p(d_A a')$. 
+Since $p$ is degreewise onto, there is $a'$ with $p(a') = b$. Choosing this the above becomes $p(a) = p(z) - g_{n-1}(1) + p(d_A a')$.
 
-Set then 
+Set then
 
 $$
   \sigma := z - a + d_A a'
   \,.
 $$
 
-It follows with the above that this satisfies the two conditions on $\sigma$: 
+It follows with the above that this satisfies the two conditions on $\sigma$:
 
 $$
   \begin{aligned}
-     d_A \sigma &= d_A z - d_A a + d_A d_A a' 
+     d_A \sigma &= d_A z - d_A a + d_A d_A a'
      \\
      & =
-     d_A z 
+     d_A z
      \\
       & = f_n(1)
   \end{aligned}
@@ -354,7 +363,7 @@ Such a lift is a choice of element $\sigma \in A_n$ such that
 
 * $p(\sigma) = g_n(1)$;
 
-Since $g_n(1)$ is closed and $p$ a surjective quasi-isomorphism, we may find a closed $a \in A_n$ and an $a' \in A_{n-1}$ such that 
+Since $g_n(1)$ is closed and $p$ a surjective quasi-isomorphism, we may find a closed $a \in A_n$ and an $a' \in A_{n-1}$ such that
 $p (a) = g_{n}(1) + d_B(p(a'))$. Set then
 
 $$
@@ -387,19 +396,19 @@ $$
   }
 $$
 
-is equivalently just any element $g_{n-1}(1) \in B$ and 
-a lift $\sigma$ accordingly just any element $\sigma \in A$ 
+is equivalently just any element $g_{n-1}(1) \in B$ and
+a lift $\sigma$ accordingly just any element $\sigma \in A$
 with $p(\sigma) = g_{n-1}(1)$. Such exists because $p$ is degreewise
 surjctive by assumption.
 
 =--
 
 
-+-- {: .num_lemma}
++-- {: .num_lemma #ProjStructCharAcyclicFibrations}
 ###### Lemma
-{#ProjStructCharAcyclicFibrations}
 
-A morphism $f : A \to B$ is an acyclic fibration precisely if it has 
+
+A morphism $f : A \to B$ is an acyclic fibration precisely if it has
 the [[right lifting property]] against $0 \to \mathbb{Z}[n]$ and
 $\mathbb{Z}[n] \to \mathbb{Z}[n-1,n]$ for all $n$.
 
@@ -415,7 +424,7 @@ if $f$ has the RLP, then it is an acyclic fibration.
 So assume $f$ has the RLP. Then from the existence of the lifts
 
 $$
-  \array{  
+  \array{
      0 &\to& A
      \\
      \downarrow && \downarrow
@@ -430,7 +439,7 @@ In particular this means it is surjective in cohomology.
 With that, it follows from the existence of all the lifts
 
 $$
-  \array{  
+  \array{
      \mathbb{Z}[n] &\stackrel{f}{\to}& A
      \\
      \downarrow &{}^{\mathllap{\sigma}}\nearrow& \downarrow
@@ -439,22 +448,22 @@ $$
   }
 $$
 
-for $f$ a lift of the closed element $g_n(1)$ that $f$ is 
-degreewise surjective on all elements. 
+for $f$ a lift of the closed element $g_n(1)$ that $f$ is
+degreewise surjective on all elements.
 
 Moreover, these lifts say that if $f_n(1)$ is any closed element such that
 under $p$ it becomes exact ($d_B g_{n-1}(1) = p(f_n(1))$), then it
 must already be exact itself ($d_A \sigma_{n-1}(1) = f_n(1)$). Hence
-$f$ is also injective on cohomology and hence by the above is 
+$f$ is also injective on cohomology and hence by the above is
 an isomorphism on cohomology.
 
 =--
 
-+-- {: .num_lemma}
++-- {: .num_lemma #ProjStrucFactAxiomI}
 ###### Lemma
-{#ProjStrucFactAxiomI}
 
-Every morphism $f : A \to B$ can be factored as 
+
+Every morphism $f : A \to B$ can be factored as
 a morphism with left lifting property against all
 fibrations followed by a fibration.
 
@@ -467,7 +476,7 @@ Apply the [[small object argument]]-reasoning to the
 maps in $ J = \{0 \to \mathbb{Z}[n-1,n]\}$.
 
 Since for $n \in \mathbb{N}$ a morphism $\mathbb{Z}[n,n+1]\to B$
-corresponds to an element $b \in B_n$. From the commuting 
+corresponds to an element $b \in B_n$. From the commuting
 diagram
 
 $$
@@ -486,7 +495,7 @@ one obtains a factorization through its [[pushout]]
 
 $$
   \array{
-     && A 
+     && A
      \\
        &{}^{\mathllap{j}}\swarrow& \downarrow
      \\
@@ -496,7 +505,7 @@ $$
      \\
      &\searrow_{p}& \downarrow
      \\
-     && B 
+     && B
   }
   \,.
 $$
@@ -507,7 +516,7 @@ of $\coprod_{{n \in \mathbb{n}} \atop {b \in B_n}} \mathbb{Z}[n,n+1]$
 clearly vanishes, it is a quasi-isomorphism.
 
 The map $p$ is manifestly degreewise
-onto and hence a fibration. 
+onto and hence a fibration.
 
 =--
 
@@ -544,12 +553,12 @@ has the left lifting property against all fibrations.
 +-- {: .proof}
 ###### Proof
 
-By a standard argument, this follows from the 
+By a standard argument, this follows from the
 factorization lemma proven [above](#ProjStrucFactAxiomI),
 which says that we may find a factorization
 
 $$
-  \array{ 
+  \array{
     A &\stackrel{j}{\to}& \hat B
     \\
     & {}_{\mathllap{f}}\searrow & \downarrow^{\mathrlap{p}}
@@ -568,7 +577,7 @@ $$
   \array{
     A &\stackrel{j}{\to}& \hat B
     \\
-    {}^{\mathllap{f}}\downarrow 
+    {}^{\mathllap{f}}\downarrow
     &{}^{\mathllap{\sigma}}\nearrow& \downarrow^{\mathrlap{p}}
     \\
     B &\stackrel{Id}{\to}& B
@@ -583,10 +592,10 @@ $$
     A &\stackrel{Id}{\to}& A &\stackrel{Id}{\to}& A
     \\
     {}^{\mathllap{f}}\downarrow && {}^{\mathllap{p}}
-    \downarrow && {}^{\mathllap{i}}\downarrow 
+    \downarrow && {}^{\mathllap{i}}\downarrow
     \\
     B &\stackrel{\sigma}{\to}&
-    \hat B 
+    \hat B
     & \stackrel{p}{\to} &
     B
   }
@@ -613,11 +622,11 @@ There are several approaches to defining model structures on the [[category of u
 +-- {: .num_prop #ProjModelStructureOnUnbounded}
 ###### Proposition
 
-For $k$ a [[commutative ring]] the [[category of unbounded chain complexes]] of $k$-[[modules]] $Ch_\bullet(k Mod)$ carries the structure of a 
+For $k$ a [[commutative ring]] the [[category of unbounded chain complexes]] of $k$-[[modules]] $Ch_\bullet(k Mod)$ carries the structure of a
 
-* [[proper model category|proper]] 
+* [[proper model category|proper]]
 
-* [[cofibrantly generated model category|cofibrantly generated]] 
+* [[cofibrantly generated model category|cofibrantly generated]]
 
 [[model category]] with
 
@@ -643,16 +652,16 @@ carries the structure of a [[simplicial model category]] whose
 
 This is ([Rezk-Schwede-Shipley 01, cor 4.6](#RezkSchwedeShipley01)), using the methods discussed at _[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)_.
 
-Below this model structure is recovered as one example of the [Christensen-Hovey projective class construction](#InUnboundedDegreeGeneralResults), as example \ref{CategoricalProjectiveClass}.
+Below this model structure is recovered as one example of the [Christensen-Hovey projective class construction](#InUnboundedDegreeGeneralResults), as example \ref{CategoricalProjectiveClasses}.
 
 
 #### Christensen-Hovey model structures using projective classes
  {#InUnboundedDegreeGeneralResults}
 
-Let $\mathcal{A}$ be an [[abelian category]] with all [[limit]]s and 
+Let $\mathcal{A}$ be an [[abelian category]] with all [[limit]]s and
 [[colimit]]s.
 
-[Christensen-Hovey](#ChristensenHovey) construct a family of model category structures on $Ch(\mathcal{A})$ parameterized by a choice of _projective class_ . 
+[Christensen-Hovey](#ChristensenHovey) construct a family of model category structures on $Ch(\mathcal{A})$ parameterized by a choice of _projective class_ .
 The cofibrations, fibrations and weak equivalences all depend on the projective class.
 
 +-- {: .num_defn #ProjectiveClass}
@@ -664,7 +673,7 @@ A **projective class** on $\mathcal{A}$ is a collection $\mathcal{P} \subset ob 
 
 * $\mathcal{P}$ is precisely the collection of all objects $P$ such that each map in $\mathcal{E}$ is $P$-epic;
 
-* for each object $X$ in $\mathcal{A}$, there is a morphism $P \to X$ in 
+* for each object $X$ in $\mathcal{A}$, there is a morphism $P \to X$ in
   $\mathcal{E}$ with $P$ in $\mathcal{P}$.
 
 =--
@@ -692,28 +701,28 @@ Given a pair of [[adjoint functors]]
 
 $$
   (F \dashv U) : \mathcal{A} \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} \mathcal{B}
-$$ 
+$$
 
 between [[abelian categories]] and given $(\mathcal{P}, \mathcal{E})$ a projective class in $\mathcal{B}$ then its **pullback projective class** $(U * \mathcal{P}, U^* \mathcal{E})$ along $U$ on $\mathcal{A}$ is defined by
 
 * $U^* \mathcal{P} := \{retracts\;of\; F P | P \in \mathcal{P}\}$
 
- 
+
 =--
 
 +-- {: .num_theorem #ModelStructureOnUnboundedFromProjectiveClass}
 ###### Definition/Theorem
 
-Given a [projective class](#ProjectiveClass) $\mathcal{P}$ in $\mathcal{A}$, call a morphism $f \in Ch(\mathcal{A})$ 
+Given a projective class $\mathcal{P}$ in $\mathcal{A}$ (def. \ref{ProjectiveClass}), call a morphism $f \in Ch(\mathcal{A})$
 
 * a fibration if $\mathcal{A}(P,f)$ is a surjection in [[Ab]] for all $P \in \mathcal{P}$;
 
 * a weak equivalence if $\mathcal{A}(P,f)$ is a [[quasi-isomorphism]] in $Ch(Ab)$
-  for all $P \in \mathcal{P}$. 
+  for all $P \in \mathcal{P}$.
 
 Then this constitutes a [[model category]] structure precisely if cofibrant [[resolution]]s exist, which is the case in particular if
 
-1. $\mathcal{P}$ is the [pullback projective class](#PullbackProjectiveClass) of a [trivial projective class](#TrivialProjectiveClass) along a functor $U$ that preserves countable [[direct sum]]s;
+1. $\mathcal{P}$ is the pullback projective class (def. \ref{PullbackProjectiveClass}) of a trivial projective class (def. \ref{TrivialProjectiveClass}) along a functor $U$ that preserves countable [[direct sum]]s;
 
 1. [^fine]
 
@@ -728,7 +737,7 @@ This is theorem 2.2 in [Christensen-Hovey](#ChristensenHovey).
 
 We shall write $Ch(\mathcal{A})_{\mathcal{P}}$ for this model category structure.
 
-#### Examples 
+#### Examples
  {#ExamplesOfStructuresOnUnboundedComplexes}
 
 We list some examples for the model structures on chain complexes in unbounded degree discussed [above](#InUnboundedDegreeGeneralResults).
@@ -737,15 +746,16 @@ Let $R$ be an associative ring and $\mathcal{A} = R$[[Mod]].
 
 * [Categorical projective class structure](#CategoricalProjectiveClass)
 
-* [Pure projective class structure](#CategoricalProjectiveClass)
+* [Pure projective class structure](#PureProjectiveClass)
+
 
 ##### Categorical projective class structure
  {#CategoricalProjectiveClass}
 
-+-- {: .num_example #CategoricalProjectiveClass}
++-- {: .num_example #CategoricalProjectiveClasses}
 ###### Example
 
-The **categorical projective class** on $\mathcal{A}$ is the [projective class](#ProjectiveClass) with $\mathcal{P}$ the class of [[direct sum]]mands of free modules. The $\mathcal{P}$-model structure on $Ch(\mathcal{A})$ has 
+The **categorical projective class** on $\mathcal{A}$ is the projective class (def. \ref{ProjectiveClass}) with $\mathcal{P}$ the class of [[direct sum]]mands of free modules. The $\mathcal{P}$-model structure on $Ch(\mathcal{A})$ has
 
 * as fibrations the degreewise surjections.
 
@@ -754,7 +764,7 @@ So this reproduces the standard projective model structure from prop. \ref{ProjM
 =--
 
 ##### Pure projective class structure
- {#CategoricalProjectiveClass}
+ {#PureProjectiveClass}
 
 +-- {: .num_example }
 ###### Example
@@ -840,18 +850,18 @@ Let $\mathcal{A}$ and $\mathcal{B}$ be [[abelian categories]]. Let the [[categor
 +-- {: .num_prop}
 ###### Proposition
 
-If 
+If
 
 $$
   (L \dashv R) : \mathcal{A} \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} \mathcal{B}
-$$ 
+$$
 
-is a pair of [[adjoint functor]]s where $L$ preserves [[monomorphism]]s, then 
+is a pair of [[adjoint functor]]s where $L$ preserves [[monomorphism]]s, then
 
 $$
   (Ch_\bullet^+(L)
     \dashv
-   Ch_\bullet(R) : Ch_\bullet^+(\mathcal{A}) 
+   Ch_\bullet(R) : Ch_\bullet^+(\mathcal{A})
    \stackrel{\overset{Ch_\bullet^+(L)}{\leftarrow}}{\underset{Ch_\bullet(R)}{\to}}
    Ch_\bullet^+(\mathcal{B})
 $$
@@ -859,7 +869,7 @@ $$
 is a [[Quillen adjunction]].
 
 =--
- 
+
 
 +-- {: .proof}
 ###### Proof
@@ -875,7 +885,7 @@ Hence $L$ preserves all cofibrations and $R$ all fibrations.
 +-- {: .num_prop}
 ###### Proposition
 
-The [injective model structure](#InjectiveModelStructure) on $Ch_{\geq 0}(R Mod)$ is a [[cofibrantly generated model category]].
+The injective model structure on $Ch_{\geq 0}(R Mod)$ (from theorem \ref{InjectiveModelStructure}) is a [[cofibrantly generated model category]].
 
 =--
 
@@ -919,7 +929,7 @@ With due care this descends to the [[local model structure on simplicial preshea
 
 ### Cofibrations
 
-We discuss cofibrations in the [model structures on unbounded complexes](#OnUnbounded). 
+We discuss cofibrations in the [model structures on unbounded complexes](#OnUnbounded).
 
 Let $\mathcal{P}$ be a given projective class on an abelian category $\mathcal{A}$, def. \ref{ProjectiveClass} and write $Ch(\mathcal{A})_{\mathcal{P}}$ for the corresponding model structure on unbounded chain complexes, theorem \ref{ModelStructureOnUnboundedFromProjectiveClass}.
 
@@ -927,7 +937,7 @@ Let $\mathcal{P}$ be a given projective class on an abelian category $\mathcal{A
 +-- {: .num_prop}
 ###### Proposition
 
-An object $C \in Ch(\mathcal{A})_{\mathcal{P}}$ is cofibrant precisely if 
+An object $C \in Ch(\mathcal{A})_{\mathcal{P}}$ is cofibrant precisely if
 
 1. in each degree $n \in \mathbb{Z}$ the object $C_n$ is relatively projective in $\mathcal{A}$;
 
@@ -940,7 +950,7 @@ This appears as ([ChristensenHovey, lemma 2.4](#ChristensenHovey)).
 +-- {: .num_prop}
 ###### Proposition
 
-A morphism $f : A \to B$ in $Ch(\mathcal{A})_{\mathcal{P}}$ is a cofibration precisely if it is degreewise 
+A morphism $f : A \to B$ in $Ch(\mathcal{A})_{\mathcal{P}}$ is a cofibration precisely if it is degreewise
 
 1. a [[split monomorphism]];
 
@@ -968,7 +978,7 @@ For $R$ any ring, there is the [[Eilenberg-MacLane spectrum]] $H R$. This is an 
 * [[(∞,1)-category of chain complexes]]
 
 
-## References 
+## References
  {#References}
 
 ### For bounded chain complexes
@@ -979,7 +989,7 @@ An original source for the standard model structure on $Ch^{\bullet \geq 0}(A)$ 
 {#Quillen}
 
 
-Of course the description of model categories of chain complexes as ([[presentable (infinity,1)-category|presentations]] of) special cases of (stable) $(\infty,1)$-categories is exactly opposite to the historical development of these ideas. 
+Of course the description of model categories of chain complexes as ([[presentable (infinity,1)-category|presentations]] of) special cases of (stable) $(\infty,1)$-categories is exactly opposite to the historical development of these ideas.
 
 While the homotopical treatment of weak equivalences of chain complexes ([[quasi-isomorphism]]s) in [[homological algebra]] is at the beginning of all studies of higher categories and a "folk theorem" ever since
 
@@ -991,11 +1001,11 @@ it seems that the injective model structure on chain complexes has been made ful
 
 (at least according to the remark below that).
 
-The projective model structure is discussed after that in 
+The projective model structure is discussed after that in
 
 * [[Mark Hovey]], _Model category structures on chain complexes of sheaves_, Trans. Amer. Math. Soc. 353, 6 ([pdf](http://www.mathaware.org/tran/2001-353-06/S0002-9947-01-02721-0/S0002-9947-01-02721-0.pdf))
 
-An explicit proof of the injective model structure with monos in positive degree is spelled out in 
+An explicit proof of the injective model structure with monos in positive degree is spelled out in
 
 * Gregory Dungan, _Model categories_ ([pdf](http://www.math.fsu.edu/~gdungan/MC14.09.18.pdf))
 {#Dungan}
@@ -1018,49 +1028,50 @@ and are reviewed in
 
 A general textbook account is in chapter 2 of
 
-* [[Mark Hovey]], _Model categories_ 
+* [[Mark Hovey]], _Model categories_
   {#Hovey}
 
 
 ### For unbounded chain complexes
+  {#ForUnboundedChainComplexes}
 
 Work specifically on model structures on unbounded complexes includes the following.
 
-Spaltenstein wrote a famous paper 
+Spaltenstein wrote a famous paper
 
 * N. Spaltenstein, _Resolutions of unbounded complexes_, Compositio Mathematica, 65 no. 2 (1988), p. 121-154 ([numdam](http://www.numdam.org/item?id=CM_1988__65_2_121_0))
 
-on how to do homological algebra with unbounded complexes (in both sides) where he introduced notions like K-projective and K-injective complexes. Later, 
+on how to do homological algebra with unbounded complexes (in both sides) where he introduced notions like K-projective and K-injective complexes. Later,
 
 * [[Vladimir Hinich]], _Homological algebra of homotopy algebras_, Comm. Algebra, vol. 25 (1997), no. 10, 3291-3323
-([pdf at author's page](http://math.haifa.ac.il/hinich/WEB/mypapers/haha.pdf)) 
+([pdf at author's page](http://math.haifa.ac.il/hinich/WEB/mypapers/haha.pdf))
 
-shows that there is a model category structure on the category of unbounded chain complexes, reproduces Spaltenstein's results from that perspective and extends them. 
+shows that there is a model category structure on the category of unbounded chain complexes, reproduces Spaltenstein's results from that perspective and extends them.
 
-The model structure on unbounded chain complexs with fibrations the degreewise surjections is noted in the remark after theorem 9.3.1 in 
+The model structure on unbounded chain complexs with fibrations the degreewise surjections is noted in the remark after theorem 9.3.1 in
 
 * [[Mark Hovey]], J. Palmieri, [[Neil Strickland]], _Axiomatic stable homotopy theory_, Mem. Amer. Math. Soc. 128 (1997), no. 610.
  {#HoveyPalmieriStrickland97}
 
-and noticed as cofibrantly generated model structure on p. 7 of 
+and noticed as cofibrantly generated model structure on p. 7 of
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ ([arXiv:math/9801082](http://arxiv.org/abs/math/9801082))
  {#SchwedeShipley98}
 
-That the corresponding [[category of simplicial objects]] in unbounded chain complexes is thus a [[Quillen equivalence|Quillen equivalent]] [[simplicial model category]] is cor. 4.6 in 
+That the corresponding [[category of simplicial objects]] in unbounded chain complexes is thus a [[Quillen equivalence|Quillen equivalent]] [[simplicial model category]] is cor. 4.6 in
 
 * [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], _Simplicial structures on model categories and functors_, American Journal of Mathematics, Vol. 123, No. 3 (Jun., 2001), pp. 551-575  ([arXiv:0101162](http://arxiv.org/abs/math/0101162), [jstor](http://www.jstor.org/stable/pdfplus/25099071.pdf))
  {#RezkSchwedeShipley01}
 
 
-The article 
+The article
 
 * [[Dan Christensen]], [[Mark Hovey]], _Quillen model structures for relative homological algebra_ ([pdf](http://jdc.math.uwo.ca/papers/relative.pdf))
 {#ChristensenHovey}
 
 discusses model structures on unbounded chain complexes with generalized notions of epimorphisms induced from "projective classes".
 
-See also 
+See also
 
 * [[Dan Christensen]], _Derived categories and projective classes_ , (2005) ([hopf archive](http://hopf.math.purdue.edu/cgi-bin/generate?/Christensen/derived))
 
@@ -1079,13 +1090,13 @@ Finally a third approach to the unbounded case is discussed in
 * [[Denis-Charles Cisinski]], F. D&#233;glise, _Local and stable homologial algebra in Grothendieck abelian categories_, Homology, Homotopy and Applications, vol. 11 (1) (2009)  ([url](http://www.intlpress.com/HHA/v11/n1/a11/))
 {#CisinskiDeglise}
 
-A discussion of the homotopy theory of [[presheaves]] of unbounded chain complex is in 
+A discussion of the homotopy theory of [[presheaves]] of unbounded chain complex is in
 
 * [[Rick Jardine]], _Presheaves of chain complexes_ ([ps](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.57.6884&rep=rep1&type=ps))
 
 A model structure on noncommutative [[dg-algebra]]s whose proof strategy is useful also for cochain complexes is in
 
-* [[Rick Jardine]], _[[JardineModelDG.pdf:file]]_ , Cyclic Cohomology and Noncommutative Geometry, Fields Institute Communications, Vol. 17, AMS (1997), 55-58. 
+* [[Rick Jardine]], _[[JardineModelDG.pdf:file]]_ , Cyclic Cohomology and Noncommutative Geometry, Fields Institute Communications, Vol. 17, AMS (1997), 55-58.
 
 
 [[!redirects model structures on chain complexes]]
@@ -1098,4 +1109,4 @@ A model structure on noncommutative [[dg-algebra]]s whose proof strategy is usef
 [[!redirects model structures on unbounded chain complexes]]
 
 [[!redirects projective model structure on chain complexes]]
-[[!redirects injective model structure on chain complexes]]
+[[!redirects injective model structure on chain complexes]] 
