@@ -80,15 +80,15 @@ In particular, therefore the composite $i \circ \mathcal{R}$ is a [[resolution]]
 
 The model structure on dg-Lie algebras goes back to appendix B of
 
-* [[Dan Quillen]], _Rational homotopy theory_, Annals of Math., 90(1969), 205&#8211;295.
- {#Quillen69}
+* {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, Annals of Math., 90(1969), 205&#8211;295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)) 
+ 
 
 For more discussion see
 
 * [[Vladimir Hinich]], _Homological algebra of homotopy algebras_, Comm. in algebra, 25(10)(1997), 3291&#8211;3323.
 
-* [[Vladimir Hinich]], _DG coalgebras as formal stacks_ ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
- {#Hinich98}
+* {#Hinich98} [[Vladimir Hinich]], _DG coalgebras as formal stacks_ ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
+ 
 
 and section 2.1 of 
 
@@ -98,4 +98,4 @@ Review with discussion of [[homotopy limits]] and [[homotopy colimits]] is in
 
 * {#Walter06} [[Ben Walter]], section 4 of _Rational Homotopy Calculus of Functors_ ([arXiv:math/0603336](http://arxiv.org/abs/math/0603336))
 
-
+[[!redirects model structures on dg-Lie algebras]]
