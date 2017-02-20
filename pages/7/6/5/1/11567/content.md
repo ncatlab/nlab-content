@@ -49,7 +49,6 @@ at _[[module spectrum]]_.
 ### In terms of EM-module spectra
  {#InTermsOfEMModuleSpectra}
 
-For $R$ an ordinary [[ring]], write $H R$ for the corresponding [[Eilenberg-MacLane spectrum]]. 
 
 +-- {: .num_theorem #StableDoldKan}
 ###### Theorem
@@ -66,7 +65,25 @@ This presents a corresponding [[equivalence of (∞,1)-categories]]. If $R$ is a
 
 =--
 
-This equivalence on the level of [[homotopy categories]] is due to ([Robinson](#Robinson)). The refinement to a [[Quillen equivalence]] is ([SchwedeShipley, theorem 5.1.6](#SchwedeShipley)). See also the discussion at _[[stable model categories]]_. A direct description as an [[equivalence of (∞,1)-categories]] appears as ([[Deformation Theory|Lurie DT, theorem 7.1.2.13]]).
+This equivalence on the level of [[homotopy categories]] is due to ([Robinson](#Robinson)). The refinement to a [[Quillen equivalence]] is ([SchwedeShipley, theorem 5.1.6](#SchwedeShipley)). See also the discussion at _[[stable model categories]]_. A direct description as an [[equivalence of (∞,1)-categories]] appears as ([[Higher Algebra|Lurie HA, theorem 7.1.2.13]]).
+
+More generally:
+
++-- {: .num_theorem}
+###### Theorem
+
+For $A$ any [[dg-algebra]], then there is a [[Quillen equivalence]]
+
+$$
+  H A Mod \simeq A Mod
+$$
+
+between $H A$-[[module spectra]] and [[dg-modules]] over $A$.
+
+=--
+
+([Shipley 02, corollary 2.15](#Shipley02))
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -109,7 +126,7 @@ While the correspondence $(\Sigma^\infty_+ X) \wedge H R \sim C_\bullet(X,R)$ un
 
 More in detail we have the following statement.
 
-Let $R := H \mathbb{Z}$ be the [[Eilenberg-MacLane spectrum]] for the [[integers]]. 
+Let $R \coloneqq H \mathbb{Z}$ be the [[Eilenberg-MacLane spectrum]] for the [[integers]]. 
 
 +-- {: .num_prop}
 ###### Proposition
