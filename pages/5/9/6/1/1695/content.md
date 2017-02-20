@@ -107,16 +107,16 @@ For $n=2$, this is in [[David Roberts]]\'s [[Fundamental Bigroupoids and 2-Cover
 There is a [[Quillen equivalence]]
 
 $$
-  (\Omega \dashv \bar W) 
-   : 
+  (G \dashv \bar W) 
+   \;\colon\; 
   sGrp
    \stackrel{\overset{\Omega}{\leftarrow}}{\underset{\bar W}{\to}}
   sSet_0
 $$
 
-between the [[model structure on simplicial groups]] and the [[model structure on reduced simplicial sets]]. Its left adjoint $\Omega$ is a concrete model for the loop space construction with values in [[simplicial group]]s.
+between the [[model structure on simplicial groups]] and the [[model structure on reduced simplicial sets]] (thus exhibiting both of these as models for [[infinity-groups]]). Its [[left adjoint]] $G$, the _[[simplicial loop space]] construction_, is a concrete model for the loop space construction with values in [[simplicial groups]].
 
-See [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for more details.
+See also [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for more details.
 
 
 ## Related concepts
