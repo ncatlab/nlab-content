@@ -77,30 +77,32 @@ The nature of the cofibrations is discussed below.
 ###### Definition
 **(sphere and disk algebras)**
 
-Write $k[n]$ for the graded vector space which is the ground field $k$ in degree $n$ and 0 in all other degrees. For $n \in \mathbb{N}$, consider the [[semifree dga]]s
+Write $k[n]$ for the graded vector space which is the ground field $k$ in degree $n$ and 0 in all other degrees. For $n \in \mathbb{N}$, consider the [[semifree dgc-algebras]]
 
 $$
-  S(n) := (\wedge^\bullet k[n], 0)
+  S(n) \coloneqq (\wedge^\bullet k[n], 0)
 $$ 
 
-and for $n \geq 1$ the [[semifree dga]]
+and for $n \geq 1$ the [[semifree dgc-algebras]]
 
 $$
-  D(n) := 
+  D(n) 
+   \coloneqq
    \left\lbrace
      \array{
          0 & (n = 0)
          \\
-        (\wedge^\bullet (k[n+1] \oplus k[n]), 0) & (n \gt 0)
+        (\wedge^\bullet (k[n] \oplus k[n-1]), 0) & (n \gt 0)
      }
    \right.
-  \,.
 $$ 
+
+for which the differential sends the generator of $k[n-1]$ to that of $k[n]$
 
 Write
 
 $$
-  i_n : S(n) \to D(n)
+  i_n \colon S(n) \to D(n)
 $$
 
 for the obvious morphism that takes the generator in degree $n$ to the generator in degree $n$ (and for $n = 0$ it is the unique morphism from the [[initial object]] $(0,0)$).
@@ -108,7 +110,7 @@ for the obvious morphism that takes the generator in degree $n$ to the generator
 For $n \gt 0$ write
 
 $$
-  j_n \colon 0 \to D(n)
+  j_n \colon k[0] \to D(n)
   \,.
 $$
 
@@ -121,7 +123,7 @@ $$
 The sets
 
 $$
-  I = \{i_n \}_{n \geq 1} \cup \{S(0) \to 0, \; 0 \to S(0)\}
+  I = \{i_n \}_{n \geq 1} \cup \{k[0] \to S(0), S(0) \to k[0]\}
 $$
 
 and 
