@@ -182,7 +182,7 @@ An exposition is in
 
 That simplicial complexes form a [[quasitopos]] of [[concrete sheaves]] is discussed in 
 
-* [[John Baez]] and [[Alex Hoffnung]], _Convenient Categories of Smooth Spaces_ [(arXiv)](http://http://arxiv.org/abs/0807.1704)
+* [[John Baez]] and [[Alex Hoffnung]], _Convenient Categories of Smooth Spaces_ [(arXiv)](http://arxiv.org/abs/0807.1704)
 
 
 [[!redirects simplicial complexes]]
