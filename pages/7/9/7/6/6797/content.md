@@ -41,6 +41,12 @@ Reviews and lecture notes include
 
 * R. Argurio, [[Glenn Barnich]], G. Bonelli, M. Grigoriev (eds.) _Higher spin gauge theories_ Solvay Workshops and Symposia  (2004) ([pdf](http://www.ulb.ac.be/sciences/ptm/pmif/Solvay1proc.pdf))
 
+* X. Bekaert, S. Cnockaert, Carlo Iazeolla, M.A. Vasiliev, _Nonlinear higher spin theories in various dimensions_ ([arXiv:0503128](https://arxiv.org/abs/hep-th/0503128))
+
+* V.E. Didenko, E.D. Skvortsov, _Elements of Vasiliev theory_ ([arXiv:1401.2975](https://arxiv.org/abs/1401.2975))
+
+* Rakibur Rahman, Massimo Taronna, _From Higher Spins to Strings: A Primer_ ([arXiv:1512.07932](https://arxiv.org/abs/1512.07932) )
+
 * Pan Kessel, _The Very Basics of Higher-Spin Theory_ ([arXiv:1702.03694](https://arxiv.org/abs/1702.03694))
 
 Further developments include for instance
@@ -96,6 +102,8 @@ We list references that discuss the relation of higher spin gauge theory to the 
 
 * Simone Giombi, Xi Yin, _Higher Spins in AdS and Twistorial Holography_ ([arXiv:1004.3736](http://arxiv.org/abs/1004.3736))
 
+* Simone Giombi, _TASI Lectures on the Higher Spin - CFT duality_  ([arXiv:1607.02967](https://arxiv.org/abs/1607.02967))
 
+* Charlotte Sleight, _Lectures on Metric-like Methods in Higher Spin Holography_ ([arXiv:1701.08360](https://arxiv.org/abs/1701.08360))
 
 [[!redirects higher spin gauge theories]]
