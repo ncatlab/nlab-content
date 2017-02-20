@@ -264,10 +264,10 @@ $$
   \frac{
     \left\{
      x \in F_p C_{p+q} \,|\, \partial x \in F_{p-r} C_{p+q-1}
-    \right\}
+    \right\} + F_{p-1} C_{p+q}
   }
   {
-    \partial( F_{p+r-1} C_{p+q+1} ) \oplus F_{p-1} C_{p+q} 
+    \partial( F_{p+r-1} C_{p+q+1} ) + F_{p-1} C_{p+q} 
   }
   \end{aligned}
 $$
@@ -341,7 +341,7 @@ We characterize the value of the spectral sequence $E^r_{p,q}$, def. \ref{Explic
 +-- {: .num_prop #FirstPages}
 ###### Proposition
 
-For the spectral seuence of a filtered complex $G_\bullet C_\bullet$ from def. \ref{ExplicitForm}, the first pages have the following form:
+For the spectral sequence of a filtered complex $G_\bullet C_\bullet$ from def. \ref{ExplicitForm}, the first pages have the following form:
 
 * $E^0_{p,q} = G_p C_{p+q} = F_p C_{p+q} / F_{p-1} C_{p+q}$ 
 
