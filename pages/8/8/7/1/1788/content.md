@@ -26,6 +26,14 @@ for the [[category]] of [[differential graded-commutative algebras]] over $k$ in
 
 =--
 
++-- {: .num_defn #dgcCochainAlgebraInNonNegDegreeOfFiniteType}
+###### Definition
+**(finite type)**
+
+Say that a [[dgc-algebra]] $A \in dgcAlg^{\geq 0}_k$ (def. \ref{dgcCochainAlgebrasInNonNegativeDegrees}) is of _[[finite type]]_ if its [[forgetful functor|underlying]] [[chain complex]] is in each degree of [[finite number|finite]] [[dimension]] as a $k$-[[vector space]].
+
+=--
+
 +-- {: .num_defn #ProjectiveModelStructureOnCdgAlg}
 ###### Definition
 
@@ -40,7 +48,7 @@ Write $(dgcAlg^{\geq 0}_k)_{proj}$ for the catgory of [[dgc-algebras]] from def.
 +-- {: .num_prop #IndeedProjectiveModelStructureOnCdgAlg}
 ###### Proposition
 
-The category $(dgcAlg^{\geq 0}_k})_{proj}$ from def. \ref{ProjectiveModelStructureOnCdgAlg} is a [[model category]]. 
+The category $(dgcAlg^{\geq 0}_k})_{proj}$ from def. \ref{ProjectiveModelStructureOnCdgAlg} is a [[model category]], to be called the _projective model structure_.
 
 
 =--
@@ -214,7 +222,7 @@ Accordingly, the cofibrant objects in $(dgcAlg^{\geq 0}_{k})_{proj}$ are precise
 #### Hom-complexes
  {#HomComplexes}
 
-We discuss [[simplicial set|simplicial]] [[mapping spaces]] between [[dgc-algebras]]. These _almost_ make the projective model structure $(dgcAlg^{\geq 0}_k)_{proj}$ from prop. \ref{IndeedProjectiveModelStructureOnCdgAlg} into a [[simplicial model category]], except that the [[tensoring]]/[[powering]] [[isomorphism]] holds only for [[finite simplicial sets]] or else on [[dgc-algebras]] of [[finite type]]. Still, this has useful implications, for instance it implies that the [[reduced suspension]] and [[loop space]] [[adjunction]] on [augmended algebras|augmented]] [[dg-algebras]] is a [[Quillen adjunction]].
+We discuss [[simplicial set|simplicial]] [[mapping spaces]] between [[dgc-algebras]]. These _almost_ make the projective model structure $(dgcAlg^{\geq 0}_k)_{proj}$ from prop. \ref{IndeedProjectiveModelStructureOnCdgAlg} into a [[simplicial model category]], except that the [[tensoring]]/[[powering]] [[isomorphism]] holds only for [[finite set|finite]] [[simplicial sets]] or else on [[dgc-algebras]] of [[finite type]]. Still, this has useful implications, for instance it implies that the [[reduced suspension]] and [[loop space]] [[adjunction]] on [augmended algebras|augmented]] [[dg-algebras]] is a [[Quillen adjunction]].
 
 
 +-- {: .num_defn #MappingSpaceSimOndgcCochainAlgebrasInNonNegDegrees}
@@ -242,7 +250,19 @@ $$
 
 and whose face and degeneracy maps are the obvious ones induced from the fact that $\Omega_{poly}^\bullet \colon \Delta^{op} \to dgcAlg^{\geq 0}_k$ is canonically a [[simplicial object]] in dgc-algebras.
 
-We also call this the _simplicial [[mapping space]]_ from $A$ to $B$.
+We also call this the _simplicial [[mapping space]]_ from $A$ to $B$. This construction naturally extends to a [[functor]]
+
+$$
+  Maps(-,-)
+  \;\colon\;
+  (dgcAlg^{\geq 0}_k)^{op}
+  \times
+  dgcAlg^{\geq 0}_k
+    \longrightarrow
+   dgcAlg^{\geq 0}_k
+$$
+
+from the [[product category]] of the [[opposite category]] of [[dgc-algebras]] with the category itself.
 
 Observe that 
 
@@ -288,6 +308,65 @@ $$
 $$
 
 and under this identification the two notions of [[composition]] agree.
+
+=--
+
+Definition \ref{MappingSpaceSimOndgcCochainAlgebrasInNonNegDegrees} makes $dgcAlg^{\geq 0}_k$ an [[sSet]]-[[enriched category]] ("[[simplicial category]]"). The follows says that it is also [[powering|powered]], not over all of $sSet$, but over finite simplicial sets: 
+
++-- {: .num_prop #PoweringOfdgcCchainAlgebrasInNonNegativeDegreeOverFiniteSimplicialSets}
+###### Proposition
+**(powering over finite simplicial sets)**
+
+For $A, B \in dgcAlg^{\geq 0}_k$ and $S \in $ [[sSet]], there is a [[natural transformation]]
+
+$$
+  Hom_{dgcAlg^{\geq}_k}(A, \Omega^\bullet_{poly}(S) \otimes_k B)
+   \longrightarrow
+  Hom_{sSet}( S, Maps(A,B) )
+$$
+
+from the [[hom-set]] of [[dgc-algebras]] into the [[tensor product]] with the [[polynomial differential forms on n-simplices]] from def. \ref{MappingSpaceSimOndgcCochainAlgebrasInNonNegDegrees} to the [[hom-set]] in [[simplicial sets]] into the simplicial [[mapping space]] from def. \ref{MappingSpaceSimOndgcCochainAlgebrasInNonNegDegrees}. 
+
+Moreover, this morphism is an [[isomorphism]] if one of the following conditions holds:
+
+* $S$ is a [[finite set|finite]] [[simplicial set]];
+
+* $B$ is of [[finite type]] (def. \ref{dgcCochainAlgebraInNonNegDegreeOfFiniteType}).
+
+=--
+
+([Bousfield-Gugenheim 76, lemma 5.2](#BousfieldGugenheim76))
+
++-- {: .num_prop}
+###### Proposition
+**(pullback powering axiom)**
+
+Let $i \colon V \to W$ and $p \colon X \to Y$ be two [[morphisms]] in $dgcAlg^{\geq 0}_k$. Then their [[pullback power]] with respect to the simplicial [[mapping space]] functor (def. \ref{MappingSpaceSimOndgcCochainAlgebrasInNonNegDegrees})
+
+$$
+  p^i
+  \;\colon\;
+  Maps(W,X)
+   \longrightarrow
+  Maps(V,X)
+   \underset{Maps(V,Y)}{\times}
+  Maps(W,Y)
+$$
+
+is 
+
+1. a [[Kan fibration]] if $i$ is a cofibration and $p$ a fibration in the projective [[model category]] structure from prop. \ref{IndeedProjectiveModelStructureOnCdgAlg};
+
+1. in addition a [[weak homotopy equivalence]] (i.e. a weak equivalence in the [[classical model structure on simplicial sets]]) if at least one of $i$ or $p$ is a weak equivalence in the projective model structure from prop. \ref{IndeedProjectiveModelStructureOnCdgAlg}.
+
+=--
+
+([Bousfield-Gugenheim 76, prop. 5.3](#BousfieldGugenheim76))
+
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{PoweringOfdgcCchainAlgebrasInNonNegativeDegreeOverFiniteSimplicialSets} _would_ say that $(dgcAlg^{\geq 0}_k)_{proj}$ is a [[simplicial model category]] with respect to the simplicial enrichment from def. \ref{MappingSpaceSimOndgcCochainAlgebrasInNonNegDegrees} were it not for the fact that prop. \ref{PoweringOfdgcCchainAlgebrasInNonNegativeDegreeOverFiniteSimplicialSets} gives the [[powering]] only over finite simplicial sets.
 
 =--
 
