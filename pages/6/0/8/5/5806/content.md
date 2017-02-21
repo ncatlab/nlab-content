@@ -348,6 +348,10 @@ A discussion of a version $Span(B)$for $B$ a [[2-category]] with $Span(B)$ regar
 A discussion that $Span_2(-)$ in a [[2-category]] with weak [[finite limits]] is a [[compact closed 2-category]]:
 
 * {#Stay13} [[Mike Stay]], _Compact Closed Bicategories_ ([arXiv:1301.1053](http://arxiv.org/abs/1301.1053))
+
+See also
+
+* {#ayalaFrancis17} [[David Ayala]], [[John Francis]], _Fibrations of $\infty$-Categories_ ([arXiv:1702.02681](https://arxiv.org/abs/1702.02681))
  
 
 [[!redirects (∞,n)-category of spans]]
