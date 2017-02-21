@@ -348,6 +348,7 @@ Let $f : X \to Y$ be a morphism in $[\Delta^{op}, sSet]$. Then
 
 * [[pushout-product axiom]]
 
+* [[pullback-power]]
 
 ## References
 
