@@ -18,9 +18,15 @@
 * table of contents
 {:toc}
 
+## Idea
+
+[[dg-Lie algebras]] may be thought of as the "strict" [[strong homotopy Lie algebras]]. As such they support a [[homotopy theory]]. The _[[model category]]_ structure on dg-Lie algebras is one way to present this homotopy theory. This is used for instance in [[deformation theory]], see at _[[formal moduli problems]]_.
+
+For dg-Lie algebras in positive degree and over the rational numbers this model structure, due to ([Quillen 69](#Quillen69)) is one of the algebraic models for presenting [[rational homotopy theory]] (see there) of [[simply connected topological spaces]].
+
 ## Definition
 
-The [[model category]] structure on the category $dgLie_k$ of [[dg-Lie algebra]]s over a commutative [[ring]] $k \supset \mathbb{Q}$ has
+The [[model category]] structure on the category $dgLie_k$ of [[dg-Lie algebras]] over a commutative [[ring]] $k \supset \mathbb{Q}$ has
 
 * [[fibrations]] the [[surjective maps]]
 
@@ -40,6 +46,7 @@ where
 * $\Omega^\bullet(\Delta^k)$ is the [[dg-algebra]] of [[polynomial differential forms]] on the $k$-[[simplex]];
 
 * $\Omega^\bullet(\Delta^k)\otimes \mathfrak{h}$ is the canonical dg-Lie algebra structure on the [[tensor product]].
+
 
 ## Properties
  {#Properties}
@@ -78,9 +85,9 @@ In particular, therefore the composite $i \circ \mathcal{R}$ is a [[resolution]]
 
 ## References
 
-The model structure on dg-Lie algebras goes back to appendix B of
+The model structure on dg-Lie algebras goes back to 
 
-* {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, Annals of Math., 90(1969), 205&#8211;295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)) 
+* {#Quillen69} [[Dan Quillen]], section II.5 and appendix B of _Rational homotopy theory_, Annals of Math., 90(1969), 205&#8211;295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)) 
  
 
 For more discussion see
