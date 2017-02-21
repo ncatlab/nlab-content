@@ -21,7 +21,7 @@
 
 In [[model category]]-theory, the _Bousfield-Friedlander theorem_ ([Bousfield-Friedlander 78, theorem A.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3](#Bousfield01)) states that if an [[endofunctor]] $Q \colon \mathcal{C} \to \mathcal{C}$ on a [[model category]] $\mathcal{C}$ behaves like an [[idempotent monad]] in an appropriate model category theoretic sense, then the [[left Bousfield localization]] [[model category]] structure of $\mathcal{C}$ at the $Q$-equivalences exists.
 
-The original proof assumed that $\mathcal{C}$ is a [[proper model category]], but this condition turns out not to be necessary ([Stanculescu 08, theorem 1.1](#Stanculescu08)).
+The original proof assumed that $\mathcal{C}$ is a [[proper model category|right-proper model category]], but it turns out that this condition is not necessary ([Stanculescu 08, theorem 1.1](#Stanculescu08)).
 
 ## Statement
 
@@ -695,7 +695,7 @@ and in improved form due to
 * {#Bousfield01} [[Aldridge Bousfield]], section 9 of _On the telescopic homotopy theory of spaces_, Trans. Amer. Math. Soc. 353 (2001), no. 6, 2391&#8211;2426 ([AMS](http://www.ams.org/journals/tran/2001-353-06/S0002-9947-00-02649-0/), [jstor](http://www.jstor.org/stable/221952))
 
 
-The properness condition is shown to be unnecessary in 
+The right-properness condition is shown to be unnecessary in 
 
 * {#Stanculescu08} Alexandru E. Stanculescu, _Note on a theorem of Bousfield and Friedlander_, Topology Appl. 155 (2008), no. 13, 1434--1438 ([arXiv:0806.4547](http://arxiv.org/abs/0806.4547))
 
