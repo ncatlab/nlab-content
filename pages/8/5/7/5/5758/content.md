@@ -27,26 +27,39 @@ More generally there are [[model structures]] on [[dg-modules]] over a [[dg-cate
 
 ## Definition
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
-There is a [[cofibrantly generated model structure]] on the category of [[dg-modules]], called the **projective model structure**, where the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], and the [[fibrations]] are object-wise [[epimorphisms]]. This is a [[dg-model structure]].
+
+There is a [[cofibrantly generated model structure]] on the category of [[dg-modules]], called the **projective model structure**, where the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], and the [[fibrations]] are object-wise [[epimorphisms]]. 
+Moreover, this is a [[dg-model structure]].
+
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
+
 There is a [[model structure]] on the category of [[dg-modules]], called the **injective model structure**, where the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], and the [[cofibrations]] are object-wise [[monomorphisms]].
+
 =--
 
-See ([Toen 04](#Toen), section 3) and ([Keller 06](#Keller06), theorem 3.2). These model structures present the [[derived dg-category]].
+See ([To&#235;n 04](#Toen), section 3) and ([Keller 06](#Keller06), theorem 3.2). 
+
+These model structures present the [[derived dg-category]].
 
 ## Properties
  {#Properties}
+
+## Related concepts
+
+* [[model structure on chain complexes]]
+
+* [[model structure on dg-algebras]]
 
 ## References
 
 Section 3 of
 
-* {#Toen2004} [[B. Toen]], _The homotopy theory of dg-categories and derived Morita theory_, [arXiv:math/0408337](http://arxiv.org/abs/math/0408337).
+* {#Toen2004} [[Bertrand Toën]], _The homotopy theory of dg-categories and derived Morita theory_, [arXiv:math/0408337](http://arxiv.org/abs/math/0408337).
 
 Paragraph 3.2 of
 
@@ -74,7 +87,7 @@ The [[homotopy category]] and [[triangulated category]] of dg-modules is discuss
 
 See also
 
-* {#BarthelMayRiehl14} Tobias Barthel, [[Peter May]], [[Emily Riehl]], _Six model structures for DG-modules over DGAs: model category theory in homological action_, New York J. Math. 20 (2014) 1077&#8211;1159 ([pdf](http://www.math.harvard.edu/~eriehl/six.pdf))
+* {#BarthelMayRiehl14} [[Tobias Barthel]], [[Peter May]], [[Emily Riehl]], _Six model structures for DG-modules over DGAs: model category theory in homological action_, New York J. Math. 20 (2014) 1077&#8211;1159 ([pdf](http://www.math.harvard.edu/~eriehl/six.pdf))
 
 [[!redirects model structures on dg-modules]]
 
