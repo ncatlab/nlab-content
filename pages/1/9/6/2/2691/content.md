@@ -28,6 +28,7 @@ The category of [[dg-algebra]]s is that of [[monoid]]s in a [[category of chain 
 
 Below we spell out special cases, such as restricting to [[commutative monoids]] when working over a [[ground field]] of [[characteristic zero]], or restricting to non-negatively graded cochain dg-algebras.
 
+
 ## Projective model structure on Non-negatively graded cochain dgc-algebras
 
 We discuss the projective model structure on non-negatively graded
