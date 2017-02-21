@@ -16,7 +16,8 @@
 
 ## Idea
 
-A _minimal Kan fibration_ is a [[Kan fibration]] whose [[fibers]] are, in some sense, as small as possible in its homotopy class. Moreover, every [[Kan fibration]] has a [[strong deformation retract]] to a minimal Kan fibration (prop. \ref{KanFibrationHasMinimalStrongDeformationRetract} below).
+The concept of _minimal Kan fibration_ is the specialization of the concept of [[minimal fibrations]] to the [[Kan fibrations]] in the [[classical model structure on simplicial sets]].
+Hence a _minimal Kan fibration_ is a [[Kan fibration]] whose [[fibers]] are, in some sense, as small as possible in its homotopy class. Moreover, every [[Kan fibration]] has a [[strong deformation retract]] to a minimal Kan fibration (prop. \ref{KanFibrationHasMinimalStrongDeformationRetract} below).
 Hence minimal [[Kan complexes]] (i.e. minimal fibrations over the point) are the analogue in [[simplicial sets]] of [[minimal Sullivan models]] in [[rational homotopy theory]].
 
 Minimal Kan fibrations over connected bases happen to be [[fiber bundles]], locally trivial over each simplex (lemma \ref{MinimalKanFibrationAreFiberBundles} below). This implies that their [[geometric realization]] into any [[convenient category of topological spaces]] is also a fiber bundle and hence in particular a [[Serre fibration]].  This is what makes minimal fibrations play a key role in all available proofs of the [[Quillen equivalence]] between the [[model structure on topological spaces]] and the standard [[model structure on simplicial sets]] (see at _[homotopy hypothsis -- for Kan complexes](homotopy+hypothesis#ForKanComplexes)_). 
