@@ -220,6 +220,19 @@ Although these don't make sense for arbitrary topological spaces (convergence sp
 * [[smooth maps]].
 
 
+## In constructive mathematics
+
+If $\mathbb{R}$ is defined as the set of located [[Dedekind cuts]], there is the following negative result by Waaldijk ([Waaldijk2003](#Waaldijk2003)): There is no notion of continuity for set-theoretic functions in constructive mathematics, spelled "kontinuity" in the following, such that all of the following desiderata are met:
+
+* A function $[0,1] \to \mathbb{R}$ is kontinuous if and only if it is [[uniformly continuous]] in the usual sense.
+* The composition of continuous functions is kontinuous.
+* The function $\mathbb{R}^+ \to \mathbb{R}, x \mapsto 1/x$ is kontinuous.
+
+The key problem is that a continuous function defined on $[0,1]$ might fail to be bounded, since the interval $[0,1]$ might fail to be compact.
+
+Waaldijk's negative result can be circumvented by dropping the insistence on points and instead working with maps between [[locales]], [[toposes]], or formal spaces as studied in [[formal topology]].
+
+
 ## Related concepts
 
 * [[degree of a continuous function]]
@@ -238,3 +251,10 @@ Although these don't make sense for arbitrary topological spaces (convergence sp
 [[!redirects continuous functions]]
 
 [[!redirects continuity]]
+
+
+## References
+
+* {#Waaldijk2003} [[Frank Waaldijk]], _On the foundations of constructive mathematics &#8211; especially in relation to the theory of continuous functions_, 2003 ([pdf](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf))
+
+
