@@ -427,7 +427,7 @@ Applications include
 
 An original reference is
 
-* {#BousfieldGugenheim} [[Aldridge Bousfield]] and V. K. A. M. Gugenheim, _On PL De Rham Theory and Rational Homotopy Type_ , Memoirs of the A. M. S., vol. 179, 1976.
+* {#BousfieldGugenheim} [[Aldridge Bousfield]] and V. K. A. M. Gugenheim, &#167;1 and &#167;2_On PL De Rham Theory and Rational Homotopy Type_ , Memoirs of the A. M. S., vol. 179, 1976.
 
 A standard textbook is
 
