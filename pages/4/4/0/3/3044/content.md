@@ -82,7 +82,10 @@ The [[adjunction]] of prop. \ref{TheCETangentAdjunction} constitutes a  [[Quille
 This is ([Hinich98, theorem 3.2](#Hinich98)).
 
 
+
 ## Related concepts
+
+* [[rational homotopy theory]]
 
 * [[model structure for L-∞ algebras]]
 
@@ -93,7 +96,8 @@ This is ([Hinich98, theorem 3.2](#Hinich98)).
 ## References
 
 
-* [[Dan Quillen]], _Rational homotopy theory_ , Annals of Math., 90(1969), 205&#8211;295. (see Appendix B)
+* {#Quillen69} [[Dan Quillen]], section II.5 and appendix B of _Rational homotopy theory_, Annals of Math., 90(1969), 205&#8211;295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)) 
+
 
 * [[Ezra Getzler]], [[Paul Goerss]], _A model category structure for differential graded coalgebras_ ([ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps), [[GetzlerGoerss99.pdf:file]])
 
