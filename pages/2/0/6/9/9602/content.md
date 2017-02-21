@@ -29,3 +29,4 @@ The [[model structure on simplicial algebras]] for [[simplicial Lie algebras]].
 
 * [[model structure for L-infinity algebras]]
 
+* [[model structure on dg-coalgebras]]
