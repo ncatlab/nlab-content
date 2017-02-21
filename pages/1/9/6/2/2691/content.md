@@ -54,7 +54,7 @@ At least on $C dgAlg$ this is a [[cofibrantly generated model category]].
 
 =--
 
-See the references below.
+([Bousfield-Gugenheim 76, theorem 4.3](#BousfieldGugenheim76))
 
 
 +-- {: .num_remark }
@@ -584,7 +584,7 @@ is a [[Kan fibration]], which is acyclic if $i$ or $p$ is.
 This implies in particular that for $A$ cofibrant, $cdgAlg_k(A,B)$ is a [[Kan complex]].
 
 
-The proof works along the lines of ([BousfieldGugenheim, prop. 5.3](#BousfieldGugenheim)). See also the discussion at [[model structure on dg-algebras over an operad]].
+The proof works along the lines of ([Bousfield-Gugenheim 76, prop. 5.3](#BousfieldGugenheim76)). See also the discussion at [[model structure on dg-algebras over an operad]].
 
 
 +-- {: .proof}
@@ -595,7 +595,7 @@ We give the proof for a special case. The general case is analogous.
 We show that for $A$ cofibrant, and for any $B$ (automatically fibrant), $cdgAlg_k(A,B)$ is a [[Kan complex]].
 
 
-By a standard fact in [[rational homotopy theory]] (due to [BousfieldGugenheim](#BousfieldGugenheim), discussed at [[differential forms on simplices]]) we have that $\Omega^\bullet_{poly} : sSet \to (cdgAlg^+_k)^{op}$ is a left [[Quillen adjunction|Quillen functor]], hence in particular sends acyclic cofibrations to acyclic cofibrations, hence acyclic [[monomorphism]]s of [[simplicial set]]s to acyclic fibrations of [[dg-algebra]]s. 
+By a standard fact in [[rational homotopy theory]] (due to [Bousfield-Gugenheim 76](#BousfieldGugenheim76), discussed at [[differential forms on simplices]]) we have that $\Omega^\bullet_{poly} : sSet \to (cdgAlg^+_k)^{op}$ is a left [[Quillen adjunction|Quillen functor]], hence in particular sends acyclic cofibrations to acyclic cofibrations, hence acyclic [[monomorphism]]s of [[simplicial set]]s to acyclic fibrations of [[dg-algebra]]s. 
 
 Specifically for each [[horn]] inclusion $\Lambda[n]_k \hookrightarrow \Delta[n]$ we have that the restriction map $\Omega^\bullet_{poly}(\Delta[n]) \to \Omega^\bullet_{poly}(\Lambda[n]_k)$ is an acyclic fibration in $cdgAlg_k^*$, hence in $cdgAlg_k$.
 
@@ -1056,8 +1056,8 @@ A standard textbook reference is section V.3 of
 
 An original reference seems to be
 
-* A. Bousfield, V. Gugenheim, _On PL deRham theory and rational homotopy type_ Memoirs of the AMS 179 (1976)
-{#BousfieldGugenheim}
+* {#BousfieldGugenheim76} [[Aldridge Bousfield]], V. Gugenheim, _On PL deRham theory and rational homotopy type_ Memoirs of the AMS 179 (1976)
+
 
 For general **non-commutative** (or rather: not necessarily graded-commutative) dg-algebras a model structure is given in
 
