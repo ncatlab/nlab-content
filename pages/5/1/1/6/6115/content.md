@@ -73,6 +73,8 @@ In [[twisted cohomology]].
 
 * [[sheaf of spectra]]
 
+* [[rational parameterized stable homotopy theory]]
+
 ## References
  {#References}
 
