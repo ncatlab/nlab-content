@@ -2,7 +2,7 @@
 
 ## Idea
 
-[[minimal fibrations]] for [[dendroidal sets]]
+[[minimal fibrations]] for [[dendroidal sets]] (i.e. in the [[model structureon dendroidal sets]])
 
 ## References
 
