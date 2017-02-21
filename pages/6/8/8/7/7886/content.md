@@ -21,7 +21,7 @@ The condition that aa [[quasicategory]] has "no non-trivial cells" above degree 
 
 (Warning: in [Lurie, Def. 2.3.4.1](#Lurie) such an "(n+1)-coskeletal" quasi-category is called an "$n$-category", but this is not the intrinsic notion of [[(n,1)-category]].)
 
-However there is such a description of the class of quasi-categories which are _equivalent_ to such $(n+1)$-coskeletal quasicategories. To make this more concrete the notion of a *minimal inner fibration* can be used (a quasi-categorical analog of [[minimal Kan fibrations]]). THis is an [[inner fibration]] of simplicial sets satisfying a relative homotopy condition and that of a *minimal quasi-category* .
+However there is such a description of the class of quasi-categories which are _equivalent_ to such $(n+1)$-coskeletal quasicategories. To make this more concrete the notion of a *minimal inner fibration* can be used (a quasi-categorical analog of [[minimal Kan fibrations]], see also at _[[minimal fibration]]_). This is an [[inner fibration]] of simplicial sets satisfying a relative homotopy condition and that of a *minimal quasi-category* .
 
 Every quasi-category is equivalent to a minimal quasi-category.
 
