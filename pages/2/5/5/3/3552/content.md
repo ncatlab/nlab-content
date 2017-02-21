@@ -344,5 +344,3 @@ See at _[[rational n-sphere]]_.
 [[!redirects Sullivan minimal model]]
 [[!redirects Sullivan minimal models]]
 
-[[!redirects minimal model]]
-[[!redirects minimal models]]
