@@ -1024,6 +1024,10 @@ over a field $k$ of characteristic 0 constitute a presentation of
 
 ## Related concepts
 
+* [[model structure on chain complexes]]
+
+* [[model structure on dg-modules]]
+
 * [[model structure on dg-operads]]
 
 * [[model structure on dg-algebras over an operad]]
