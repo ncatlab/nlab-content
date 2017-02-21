@@ -25,13 +25,17 @@ For formalizations see at
 
 * [[ex-space]]
 
-* [[parameterized spectrum]]
+* [[parameterized spectrum]], [[excisive functor]]
 
 * [[(infinity,1)-module bundle]]
 
 * [[tangent (infinity,1)-topos]]
 
 * [[twisted cohomology]]
+
+## Related concepts
+
+* [[rational parameterized stable homotopy theory]]
 
 ## References
 
