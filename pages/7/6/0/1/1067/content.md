@@ -213,15 +213,20 @@ See [[model structure on chain complexes]].
 
 * [[perfect chain complex]]
 
+* [[homological algebra]]
+
+* [[rational stable homotopy theory]]
+
 ## References
 
-A basic discussion is for instance in section 1.1 of 
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_.
+* [[Charles Weibel]], section 1.1 _[[An Introduction to Homological Algebra]]_.
 
-A more comprehensive discussion is in section 11 of 
+* [[Masaki Kashiwara]], [[Pierre Schapira]], section 11 of _[[Categories and Sheaves]]_,
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_,
+* [[Urs Schreiber]], [chapter II](https://ncatlab.org/schreiber/show/Introduction+to+Homological+algebra#ChapterOnChainComplexes) of  _[[schreiber:HAI|Introduction to Homological Algebra]]_
+
+
 
   
 
