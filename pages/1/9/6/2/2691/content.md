@@ -541,7 +541,7 @@ This follows by the above with ([To&#235;nVezzosi, assumption 1.1.0.4, and page 
 
 #### Derived hom-functor {#SimplicialHomObjects}
 
-The model structure on unbounded dg-algebras is _almost_ $sSet_{Quillen}$-enriched. See the section <a href="http://ncatlab.org/nlab/show/model+structure+on+dg-algebras+over+an+operad#SimplicialEnrichment">simplicial enrichment</a> at [[model structure on dg-algebras over an operad]] for details.
+The model structure on unbounded dg-algebras is _almost_ a [[simplicial model category]]. See the section _[simplicial enrichment](model+structure+on+dg-algebras+over+an+operad#SimplicialEnrichment)_ at _[[model structure on dg-algebras over an operad]]_ for details.
 
 
 +-- {: .num_defn }
