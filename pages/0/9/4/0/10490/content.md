@@ -14,6 +14,8 @@ Let $\mathbb{Q}$ be the [[poset]] of [[rational numbers]] with its usual [[Archi
 
 There are two obvious ways to define the MacNeille real numbers from $\mathbb{Q}$, one based on closed [[Dedekind cut|cuts]] (which matches the general theory of [[MacNeille completions]]) and one based on open cuts (which is compatible with other types of real numbers).  Fortunately, they are equivalent.
 
+Outside of these definitions themselves, we will adopt the open definition, since it relates better to other kinds of real numbers.
+
 
 ### With closed sets
 
@@ -73,12 +75,12 @@ Any (extended) [[located real number]] is an (extended) MacNeille real number.  
 
 Similarly, if $(L,U)$ is an (extended) MacNeille real number, then by definition $L$ is an (extended) [[lower real number]] and $U$ is an (extended) [[upper real number]].  Since $L$ and $U$ in a MacNeille real are recoverable from each other, this gives two order-embeddings.
 
-If we define an **interval** to be a pair $(L,U)$ where $L$ is an extended lower real, $U$ is an extended upper real, and $L\cap U = \emptyset$, then we can embed both lower reals and upper reals into the poset of intervals by taking the interior of the complement as the other half.  That is, we map $L$ to $(L,int(\neg L))$ and $U$ to $(int(\neg U),U)$ --- two kinds of "singleton" intervals.  These are both order-embeddings, and in fact the lower reals are a coreflective sub-poset and the upper reals are a reflective sub-poset.  Thus we have an adjunction between extended lower reals and extended upper reals, and the extended MacNeille reals are the jointly fixed subcategory.  They are also the set-theoretic [[intersection]] of the lower and upper reals inside the intervals.
+If we define an **interval** to be a pair $(L,U)$ where $L$ is an extended lower real, $U$ is an extended upper real, and $L\cap U = \emptyset$, then we can embed both lower reals and upper reals into the poset of intervals by taking the interior of the complement as the other half.  That is, we map $L$ to $(L,int(\neg L))$ and $U$ to $(int(\neg U),U)$ --- two kinds of "singleton" intervals.  These are both order-embeddings, and in fact the lower reals are a [[coreflective subcategory|coreflective]] sub-poset and the upper reals are a [[reflective subcategory|reflective]] sub-poset.  Thus we have an [[adjunction]] between extended lower reals and extended upper reals, and the extended MacNeille reals are the jointly fixed sub-poset.  They are also the set-theoretic [[intersection]] of the lower and upper reals inside the intervals.
 
 
 ### Completeness
 
-Since the extended MacNeille reals are a reflective sub-poset of the extended lower reals and a coreflective sub-poset of the extended upper reals, they are closed in the former under infima and in the latter under suprema.  In particular, they are a complete lattice.  Note, though, that neither infima nor suprema are constructed as set-theoretic unions (unlike infima of upper reals and suprema of lower reals), which makes them less useful for purposes of constructive analysis.  (On the other hand, the extended located real numbers are not, constructively, a complete lattice at all.)
+Since the extended MacNeille reals are a reflective sub-poset of the extended lower reals and a coreflective sub-poset of the extended upper reals, they are closed in the former under [[infima]] and in the latter under [[suprema]].  In particular, they are a complete lattice.  Note, though, that neither infima nor suprema are constructed as set-theoretic unions (unlike infima of upper reals and suprema of lower reals), which makes them less useful for purposes of constructive analysis.  (On the other hand, the extended located real numbers are not, constructively, a complete lattice at all.)
 
 
 ## References
