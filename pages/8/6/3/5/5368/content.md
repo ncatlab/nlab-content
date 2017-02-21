@@ -112,7 +112,7 @@ Famous examples include the [[Quillen equivalence]] between the [[model structur
 
 We discuss how the [above model structure](#ModelStructure) on $Alg_{Ch_\bullet(k)}(P)$ is _almost_ enhanced to a [[simplicial model category]] structure.
 
-we have the standard definition of polynomial [[differential forms on simplices]].
+First we recall the standard definition of polynomial [[differential forms on simplices]]:
 
 +-- {: .num_defn}
 ###### Definition
