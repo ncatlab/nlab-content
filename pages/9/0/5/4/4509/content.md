@@ -75,6 +75,8 @@ There are further generalizations like unbounded resolutions etc.
 
 * [[canonical resolution]], [[bar construction]]
 
+* [[minimal fibration]]
+
 [[!redirects resolutions]]
 
 [[!redirects fibrant resolution]]
