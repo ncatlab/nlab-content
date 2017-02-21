@@ -78,7 +78,7 @@ The [[curvature]] 2-form of this similarly decomposes into
 
 The [[Bianchi identity]] satisfied by this curvature is
 
-1. $d F_e^a + \omega^a{}_b F_e = F_\omega^a{}_b \wedge e^b$;
+1. $d F_e^a + \omega^a{}_b \wedge F_e^b = F_\omega^a{}_b \wedge e^b$;
 
 1. $d F_\omega^a{}_b + \omega^a{}_c \wedge F_\omega^c{}_b - F_\omega^a{}_c \wedge \omega^c{}_b = 0$.
 
@@ -195,4 +195,3 @@ transport and sprays_ ([pdf](http://po-start.com/reyes/wp-content/uploads/2009/0
 
 [[!redirects Levi-Civita connections]]
 [[!redirects metric connecitons]]
-
