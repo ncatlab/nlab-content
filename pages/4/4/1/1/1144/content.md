@@ -7,9 +7,9 @@
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
-#### Rational homotopy theory
+#### Homological algebra
 +--{: .hide}
-[[!include differential graded objects - contents]]
+[[!include homological algebra - contents]]
 =--
 =--
 =--
@@ -1007,6 +1007,19 @@ Finally, to get a cocommutative dg [[coalgebra]] model for $X$, one uses a sligh
 
 One may think of this procedure as doing the following: we are taking the [[Lie algebra]] of the "group" $\Omega X$ which is the [[loop space]] of $X$. From a group we pass to the enveloping algebra, i.e. the algebra of [[distribution]]s supported at the identity, completed. The topological analog of distributions are chains (dual to functions = cochains), so Quillen's completed chains construction is exactly the completed enveloping algebra. From the (completed) enveloping algebra we recover the Lie algebra as its primitive elements. 
 
+## Further variants of rational homotopy theory
+
+There are various variants of [[homotopy theory]], such as [[stable homotopy theory]] or [[equivariant homotopy theory]]. Several of these have their coresponding rational models in terms of rational [[chain complexes]] equipped with extra structure. This includes the following:
+
+* [[rational stable homotopy theory]]
+
+* [[rational equivariant homotopy theory]]
+
+* [[rational equivariant stable homotopy theory]]
+
+* [[rational parameterized stable homotopy theory]]
+
+
 ## Related concepts
 
 * from the [[nPOV]]: [[rational homotopy theory in an (infinity,1)-topos]].
@@ -1016,10 +1029,6 @@ One may think of this procedure as doing the following: we are taking the [[Lie 
 * [[real homotopy theory]]
 
 * [[fracture theorem]]
-
-* [[equivariant rational homotopy theory]]
-
-* [[rational equivariant stable homotopy theory]]
 
 * [[integral chains homotopy theory]]
 
