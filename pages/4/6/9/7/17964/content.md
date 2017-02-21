@@ -19,7 +19,9 @@
 
 ## Idea 
 
-The concept of _minimal KS-models of [[dg-modules]]_ ([Roig 92](#Roig92), [Roig 94, section 1](#Roig94)) is the analogue of [[minimal Sullivan model]] as one passes from [[dg-algebras]] to [[dg-modules]]. Minimal KS-extensions hence  play the role of formal duals of [[minimal fibration]] in some applications of [[rational homotopy theory]]. 
+A _minimal dg-module_ ([Roig 92](#Roig92), [Roig 94, section 1](#Roig94)) is a [[minimal model]] in the context of the [[homotopy theory]] of [[dg-modules]]. 
+
+Hence over [[dgc-algebras]] in non-positve degree, minimal dg-modules are the analogue of [[minimal Sullivan model]] as one passes from [[dg-algebras]] to (just) [[dg-modules]]. Minimal KS-extensions hence  play the role of formal duals of [[minimal fibration]] in some applications of [[rational homotopy theory]]. 
 
 (In [Halperin 83](#Halperin83) it has "Koszul-Sullivan extensions" for [[relative Sullivan algebras]], and "KS" in "KS-models" refers to that usage.)
 
