@@ -89,27 +89,28 @@ This is ([Hinich98, theorem 3.2](#Hinich98)).
 
 * [[model structure for L-∞ algebras]]
 
-* [[model structure on dg-Lie algebras]]
+* [[model structure on dg-Lie algebras]], [[model structure on simplicial Lie algebras]]
 
 * [[model structure on coalgebras over a comonad]]
 
 ## References
 
+In [[characteristic zero]] and in positive degrees the model structure is due to
 
 * {#Quillen69} [[Dan Quillen]], section II.5 and appendix B of _Rational homotopy theory_, Annals of Math., 90(1969), 205&#8211;295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)) 
 
+in non-negative degrees in
 
 * [[Ezra Getzler]], [[Paul Goerss]], _A model category structure for differential graded coalgebras_ ([ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps), [[GetzlerGoerss99.pdf:file]])
-
-* {#Hinich97} [[Vladimir Hinich]], _Homological algebra of homotopy algebras_ , Comm. in algebra, 25(10)(1997), 3291&#8211;3323.
  
+and in unbounded degrees in
 
-* {#Hinich98} [[Vladimir Hinich]], _DG coalgebras as formal stacks_ ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
- 
+* {#Hinich98} [[Vladimir Hinich]], _DG coalgebras as formal stacks_, Journal of Pure and Applied Algebra Volume 162, Issues 2&#8211;3, 24 August 2001, Pages 209&#8211;250 ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
 
 
 * {#Pridham} [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
  
+See also
 
 * {#Lurie} [[Jacob Lurie]], _[[Formal Moduli Problems]]_
  
