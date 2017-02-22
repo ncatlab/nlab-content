@@ -94,7 +94,7 @@ satisfying the following properties:
 1.  for each $a \overset{f}\to b \overset{g}\to c$ and $\eta\colon h \Rightarrow i\colon c \to d$, the left whiskerings $\eta \triangleleft (g \circ f)$ and $(\eta \triangleleft g) \triangleleft f$ are equal,
 1.  for each $f\colon a \to b$, $\eta\colon g \Rightarrow h\colon b \to c$, and $i\colon c \to d$, the whiskerings $i \triangleright (\eta \triangleleft f)$ and $(i \triangleright \eta) \triangleleft f$ are equal,
 1.  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $b \overset{h}\to c \overset{i}\to d$, the right whiskerings $i \triangleright (h \triangleright \eta)$ and $(i \circ h) \triangleright \eta$ are equal, and
-1.  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $\theta\colon h \Rightarrow i\colon b \to c$, the vertical composites $(i \triangleright \eta) \circ (\theta \triangleleft f)$ and $(\theta \triangleleft g) \circ (h \triangleright \eta)$ are equal.
+1.  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $\theta\colon h \Rightarrow i\colon b \to c$, the vertical composites $(i \triangleright \eta) \bullet (\theta \triangleleft f)$ and $(\theta \triangleleft g) \bullet (h \triangleright \eta)$ are equal.
 
 The construction in the last axiom is the _horizontal composite_ $\theta \circ \eta\colon h \circ f \to i \circ g$.  It is possible (and probably more common) to take the horizontal composite as basic and the whiskerings as derived operations.  This results in fewer, but more complicated, axioms.
 
