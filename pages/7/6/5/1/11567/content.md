@@ -93,7 +93,7 @@ $$
 ([Shipley 02, theorem 1.1](#Shipley02))
 
 
-+-- {: .num_theorem}
++-- {: .num_theorem #HAModueSpectraAreAdgModules}
 ###### Theorem
 
 For $A$ any [[dg-algebra]], then there is a [[Quillen equivalence]]
