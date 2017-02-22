@@ -27,9 +27,59 @@
 
 ## Idea
 
-It is a classical fact that the [[rationalization]] of classical [[homotopy theory]] (of [[topological spaces]] or [[simplicial sets]]) -- called _[[rational homotopy theory]]_ -- is considerably more tractable than general [[homotopy theory]], as exhibited by the existence of small concrete [[dg-algebra|dg-algebraic]] models for [[rational homotopy types]]: [[minimal Sullivan algebras]]. A similar statement holds for [[stable homotopy theory]], i.e. the [[homotopy theory]] of [[spectra]] (of [[topological spaces]] or [[simplicial sets]]): rational spectra are equivalent to rational [[chain complexes]], i.e. to [[dg-modules]] over $\mathbb{Q}$, see at _[[rational stable homotopy theory]]_.
+It is a classical fact that the [[rationalization]] of classical [[homotopy theory]] (of [[topological spaces]] or [[simplicial sets]]) -- called _[[rational homotopy theory]]_ -- is considerably more tractable than general [[homotopy theory]], as exhibited by the existence of small concrete [[dg-algebra|dg-algebraic]] models for [[rational homotopy types]]: [[minimal Sullivan algebras]] or equivalently their [[dual]] [[dg-coalgebras]]. A similar statement holds for the rationalization of [[stable homotopy theory]] i.e. the [[homotopy theory]] of [[spectra]] (of [[topological spaces]] or [[simplicial sets]]): rational spectra are equivalent to rational [[chain complexes]], i.e. to [[dg-modules]] over $\mathbb{Q}$. This is a dg-model for _[[rational stable homotopy theory]]_ compatible with that of classical rational homotopy theory in tat the [[stabilization]] adjunction that connects classical [[homotopy theory]] to [[stable homotopy theory]] is, under these identifications, modeled by the [[forgetful functor]] from dg-(co-)algebras to [[chain complexes]]
 
-Now classical [[homotopy theory]] and [[stable homotopy theory]] are unified and jointly generalized in [[parameterized stable homotopy theory]], whose [[objects]] are [[parameterized spectra]], parameterized over a classical [[homotopy type]]. The _rational parameterized stable homotopy theory_ to be discussed here is supposed to be the rationalization of this joint generalization, unifiying and jointly generalizing the algebraic model of [[rational topological spaces]] by [[Sullivan algebras]] and of $H \mathbb{Q}$-[[module spectra]] by [[chain complexes]].
+$$
+  \array{
+    & \text{classical homotopy theory}
+     &&
+    \text{stable homotopy theory}
+    \\
+    & spaces & \underoverset{\underset{\Sigma^\infty}{\longrightarrow}}{\overset{\Omega^\infty}{\longleftarrow}}{} & spectra
+    \\
+    & & \text{stabilization}
+    \\
+    \text{rationally}
+    &
+    \text{dg(co)algebras}
+    &
+     \underoverset{\underset{underlying}{\longrightarrow}}{\overset{free}{\longleftarrow}}{}
+    &
+    \text{chain complexes}
+  }
+$$
+
+
+Classical [[homotopy theory]] and [[stable homotopy theory]] are unified and jointly generalized in [[parameterized stable homotopy theory]], whose [[objects]] are [[parameterized spectra]], parameterized over a classical [[homotopy type]]. The _rational parameterized stable homotopy theory_ to be discussed here is supposed to be the rationalization of this joint generalization, unifiying and jointly generalizing the algebraic model of [[rational topological spaces]] by [[Sullivan algebras]] and of $H \mathbb{Q}$-[[module spectra]] by [[chain complexes]].
+
+$$ 
+  \array{
+    & \text{stable homotopy theory}
+    && 
+    \text{parameterized stable homotopy theory}
+    &&
+    \text{classical homotopy theory}
+    \\
+    &
+    \text{spectra}
+     &\overset{\phantom{\text{include}}}{\longrightarrow}&
+    \text{parameterized spectra}
+     &\overset{\phantom{\text{project}}}{\longrightarrow}&
+    \text{spaces}
+    \\
+    &
+    &\text{include}&
+    &\text{project}&
+    \\
+    \text{rationally}
+    &
+    \text{chain complexes}
+    &\overset{\phantom{\text{include}}}{\longrightarrow}&
+    \text{dg-modules}
+    &\overset{\phantom{\text{project}}}{\longrightarrow}&
+    \text{dg(co)algebras}
+  }
+$$
 
 Here we (intend to) show that, accordingly, rational parameterized homotopy theory is presented by the the [[opposite category|opposite]] of the [[homotopical category]] of [[dg-modules]] over cochain [[differential graded-commutative algebras]] in non-negative degrees. 
 
@@ -160,12 +210,12 @@ See also [Bousfield-Gugenheim 76, 4.11](#BousfieldGugenheim76)
 
 We want to claim the following: 
 
-For every $A \in dgcAlg^{\geq 0}_{\mathbb{Q}}$
+For every $\mathfrak{g} \in (LieAlg_{\mathbb{Q}})^{\Delta^{op}}$
 there is a [[Quillen equivalence]]
 
 $$
   SeqSpec\left(
-    (A Mod^{\geq 0})^{op}_{proj}
+    \mathfrak{g}Mod
   \right)_{stable}
     \underoverset
       {\underset{SeqSpec((Sym)^{op})}{\longrightarrow}}
@@ -174,41 +224,13 @@ $$
       }
       {\simeq_{Qu}}
   SeqSpec\left(
-    \left((dgcAlg^{\geq 0}_{A})_{/A}\right)^{op}_{proj}
+    \mathfrak{g} / (LieAlg_{\mathbb{Q}})^{\Delta^{op}} / \mathfrak{g}
   \right)_{stable}
 $$
 
-Idea of proof: the analogous statement for rational [[dgc-algebras]] $dgcAlg^{\geq 0}_{\mathbb{Q}}$ replaced by rational [[simplicial algebras]] $cAlg_{\mathbb{A}}^{\Delta^{op}}$ is [Schwede 97, theorem 3.2.3](#Schwede97). While $(dgcAlg^{\geq 0}_{\mathbb{Q}})_{proj}$ does not satisfy all the assumptions made in [Schwede 97](#Schwede97), we check that it satisfies enough properties for this proof still to go through.
-
-Moreover, we want to claim there is n [[Quillen equivalence]]
-
-$$
-  (A Mod^{\bullet})_{proj}^{op}
-    \underoverset
-      {\underset{}{\longrightarrow}}
-      {\overset{}{\longleftarrow}}
-      {\simeq_{Qu}}
-  SeqSpec\left(
-    (A Mod^{\geq 0})_{proj}^{op}
-  \right)_{stable}
-$$
+Idea of proof: the analogous statement for simplicial Lie algebras replaced by rational [[simplicial algebras]] $cAlg_{\mathbb{A}}^{\Delta^{op}}$ is [Schwede 97, theorem 3.2.3](#Schwede97). Apart from the connectivity of the $Sym$-construction, all that this proof uses is that simplicial commutative algebras form a [[proper model category|right proper]] [[simplicial model category]]. But also the [[model structure on simplicial Lie algebras]] is right proper and simplicial.
 
 
-idea of proof: in the special case that $A = \mathbb{Q}[0]$ and dualizing, then this is part of [Shipley 02, prop 4.7](#Shipley02). The generalization should go through.
-
-combined this gives the desired Quillen equivalence
-
-
-$$
-  (A Mod^{\bullet})_{proj}^{op}
-    \underoverset
-      {\underset{}{\longrightarrow}}
-      {\overset{}{\longleftarrow}}
-      {\simeq_{Qu}}
-  SeqSpec\left(
-    \left((dgcAlg^{\geq 0}_{A})_{/A}\right)^{op}_{proj}
-  \right)_{stable}
-$$
 
 ## Related concepts
 
