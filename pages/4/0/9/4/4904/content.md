@@ -56,7 +56,7 @@ We now look at model category structure on _strictly_ product preserving functor
 
 Let $T$ be a [[category]] with [[finite product]], and let $T Alg^{\Delta^{op}} \subset Func(T,sSet)$ be the [[full subcategory]] of the [[functor category]] from $T$ to [[sSet]] on those functors that preserve these products.  
 
-Then $T Alg^{\Delta^{op}}$ carries the structure of a [[model category]] $sAlg(C)_{proj}$ where the weak equivalences and the fibrations are objectwise those in the standard [[model structure on simplicial sets]]. 
+Then $T Alg^{\Delta^{op}}$ carries the structure of a [[model category]] $sAlg(C)_{proj}$ where the weak equivalences and the fibrations are those maps underlying which are weak equivalences or fibrations, respectively, in the [[classical model structure on simplicial sets]]. 
 
 =--
 
