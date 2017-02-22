@@ -23,13 +23,13 @@
 ## Idea
   {#LieModels}
 
-Rational homotopy theory is the [[homotopy theory]] of [[rational topological spaces]], hence of rational [[homotopy types]]: [[simply connected topological space|simply connected]] [[topological spaces]] whose [[homotopy groups]] are [[vector spaces]] over the [[rational numbers]]. 
+Rational homotopy theory is the [[homotopy theory]] of [[rational topological spaces]], hence of rational [[homotopy types]]: [[simply connected topological space|simply connected]] [[topological spaces]] whose [[homotopy groups]] are [[vector spaces]] over the [[rational numbers]].
 
-Much of the theory is concerned with [[rationalization]], the process that sends a general homotopy type to its closest rational approximation, in a precise sense. On the level of [[homotopy groups]] this means to retain precisely the non-[[torsion subgroups]] of the homotopy groups. 
+Much of the theory is concerned with [[rationalization]], the process that sends a general homotopy type to its closest rational approximation, in a precise sense. On the level of [[homotopy groups]] this means to retain precisely the non-[[torsion subgroups]] of the homotopy groups.
 
 Two algebraic models of rational homotopy types exist, via [[differential graded-commutative algebras]] (Sullivan model) and via [[dg-Lie algebras]] (Quillen model).
 
-This way rational homotopy theory connects [[homotopy theory]] and [[differential graded algebra]]. Akin to the [[Dold-Kan correspondence]], the [[Sullivan construction]] in rational homotopy theory connects the conceptually powerful perspective of [[homotopy theory]] with the computationally powerful perspective of [[differential graded algebra]]. 
+This way rational homotopy theory connects [[homotopy theory]] and [[differential graded algebra]]. Akin to the [[Dold-Kan correspondence]], the [[Sullivan construction]] in rational homotopy theory connects the conceptually powerful perspective of [[homotopy theory]] with the computationally powerful perspective of [[differential graded algebra]].
 
 Moreover, via the [[homotopy hypothesis]] the study of [[topological spaces]] is connected to that of [[∞-groupoids]], so that rational homotopy theory induces a bridge (the [[Sullivan construction]]) between [[∞-groupoids]] and [[differential graded algebra]]. It was observed essentially by ([Henriques 08](Lie+integration#Henriques), [Getzler 09](Lie+integration#Getzler04)) that this bridge is [[Lie integration]] (see there) in the [[∞-Lie theory]] of [[L-∞ algebras]].
 
@@ -58,14 +58,14 @@ Rational homotopy theory is mostly restricted to [[simply connected topological 
 +-- {: .num_prop #RationalHomotopyEquivalenceCoincidesWithRationalHomologyEquivalence}
 ###### Proposition
 
-Let $X$ and $Y$ by [[simply connected topological spaces]]. Then a [[continuous function]] $f \colon X \to Y$ is a [[isomorphism]] on [[homotopy groups]] after [[tensor product of abelian groups|tensor product]] with the [[rational numbes]] $\mathbb{Q}$
+Let $X$ and $Y$ by [[simply connected topological spaces]]. Then a [[continuous function]] $f \colon X \to Y$ is a [[isomorphism]] on [[homotopy groups]] after [[tensor product of abelian groups|tensor product]] with the [[rational numbers]] $\mathbb{Q}$
 
 $$
   \pi_\bullet(f) \otimes \mathbb{Q}
-    \;\colon\; 
-  \pi_\bullet(X) \otimes \mathbb{Q} 
-    \overset{\simeq}{\longrightarrow} 
-  \pi_\bullet(Y) \otimes \mathbb{Q}$ 
+    \;\colon\;
+  \pi_\bullet(X) \otimes \mathbb{Q}
+    \overset{\simeq}{\longrightarrow}
+  \pi_\bullet(Y) \otimes \mathbb{Q}
 $$
 
 precisely if it induces an [[isomorphism]] on [[ordinary homology]] with [[rational numbers]] [[coefficients]]:
@@ -82,7 +82,7 @@ $$
 
 =--
 
-[Serre 53](#Serre53)
+This is due to ([Serre 53](#Serre53)).
 
 +-- {: .num_defn }
 ###### Definition
@@ -104,7 +104,7 @@ These dg-algebras of "[[piecewise polynomial differential forms|piecewise polyno
 
 * _[Sullivan models](#SullivanModels)_.
 
-The relation between these algebras is that the Sullivan algebras are the cofibrant resolutions of the larger dg-algebras. In order to make this precise, we next recall some basics of topological and algebraic [[homotopy theory]] in 
+The relation between these algebras is that the Sullivan algebras are the cofibrant resolutions of the larger dg-algebras. In order to make this precise, we next recall some basics of topological and algebraic [[homotopy theory]] in
 
 * _[Homotopy theory](#HomotopyTheory)_
 
@@ -113,7 +113,7 @@ Finally we state and discuss the main theorem, that the construction of dg-algeb
 * _[The rationalization adjunction](#SullivanRationalizationAdjunction)_
 
 
-### Differential forms on topological spaces 
+### Differential forms on topological spaces
   {#FormsOnTopSpaces}
 
 A central tool in the study of rational topological spaces is an assignment that sends each [[topological space]]/[[simplicial set]] $X$ to a [[dg-algebra]] $\Omega^\bullet_{poly}(X)$ that behaves like the [[deRham complex|deRham dg-algebra]] of a smooth [[manifold]]. Instead of consisting of smooth [[differential forms]], $\Omega^\bullet_{poly}(X)$ consists of _piecewise linear polynomial differential forms_ , in a way described in detail now.
@@ -122,7 +122,7 @@ We first discuss this semi-formally in
 
 * _[Idea](#DifferentialFormsOnSpacesIdea)_
 
-and then in more detail in 
+and then in more detail in
 
 * _[Details](#FormsOnSpacesDetails)_.
 
@@ -135,14 +135,14 @@ The construction of $\Omega^\bullet_{poly}$ is a special case of the following g
 Let $C$ be any [[small category]], write $PSh(C) = [C^{op}, Set]$ for its category of [[presheaf|presheaves]] and let
 
 $$
-  \Omega^\bullet_C : C^{op} \to dgAlg
+  \Omega^\bullet_C : C^{op} \to dgcAlg
 $$
 
 be _any_ functor to the category of [[dg-algebra]]s. Following the logic of [[space and quantity]], we may think of the objects of $C$ as being _test spaces_ and the functor $\Omega^\bullet_C$ as assigning to each test space its [[deRham complex|deRham dg-algebra]].
 
 An example of this construction that is natural from the point of view of [[differential geometry]] appears in the study of [[diffeological space]]s, where $C$ is some subcategory of the category [[Diff]] of smooth [[manifold]]s, and $\Omega^\bullet_C$ is the restriction of the ordinary assignment of [[differential form]]s to this. But in the application to topological spaces, in the following, we need a choice for $C$ and $\Omega^\bullet_C$ that is non-standard from the point of view of [[differential geometry]]. Still, it follows the same general pattern.
 
-After postcomposing with the [[forgetful functor]] that sends each [[dg-algebra]] to its underlying [[set]], the functor $\Omega^\bullet_C$ becomes itself a [[presheaf]] on $C$. For $X \in PSh(C)$ any other presheaf, we extend the notation and write 
+After postcomposing with the [[forgetful functor]] that sends each [[dg-algebra]] to its underlying [[set]], the functor $\Omega^\bullet_C$ becomes itself a [[presheaf]] on $C$. For $X \in PSh(C)$ any other presheaf, we extend the notation and write
 
 $$
   \Omega^\bullet_C(X) := Hom_{PSh(C)}(X, \Omega^\bullet_C)
@@ -151,22 +151,22 @@ $$
 for the [[hom-set]] of presheaves. One checks that this set naturally inherits the structure of a [[dg-algebra]] itself, where all operations are given by applying "pointwise" for each $p : U \to X$ with $U \in C$ the operations in $\Omega^\bullet_C(U)$. This way we get a functor
 
 $$
-  \Omega^\bullet_C : PSh(C) \to dgAlg^{op}
+  \Omega^\bullet_C : PSh(C) \to dgcAlg^{op}
 $$
 
-to the [[opposite category]] of that of [[dg-algebra]]s. We may think of $\Omega^\bullet_C(X)$ as the deRham complex of the presheaf $X$ as seen by the functor $\Omega^\bullet_C : C \to dgAlg^{op}$.
+to the [[opposite category]] of that of [[dg-algebra]]s. We may think of $\Omega^\bullet_C(X)$ as the deRham complex of the presheaf $X$ as seen by the functor $\Omega^\bullet_C : C \to dgcAlg^{op}$.
 
-By the general discussion at  _[[nerve and realization]]_ this functor has a [[right adjoint]] $K_C : dgAlg^{op} \to PSh(C)$, that sends a dg-algebra $A$ to the [[presheaf]]
+By the general discussion at  _[[nerve and realization]]_ this functor has a [[right adjoint]] $K_C : dgcAlg^{op} \to PSh(C)$, that sends a dg-algebra $A$ to the [[presheaf]]
 
 $$
-  K_C(A) : U \mapsto Hom_{dgAlg}(\Omega^\bullet_C(U), A)
+  K_C(A) : U \mapsto Hom_{dgcAlg}(\Omega^\bullet_C(U), A)
   \,.
 $$
 
 The [[adjunction]]
 
 $$
-  \Omega^\bullet_C : PSh(C) \stackrel{\leftarrow}{\to} : dgAlg^{op} : K_C
+  \Omega^\bullet_C : PSh(C) \stackrel{\leftarrow}{\to} : dgcAlg^{op} : K_C
 $$
 
 is an example for the adjunction induced from a [[dualizing object]].
@@ -178,11 +178,11 @@ For the purpose of rational homotopy theory, consider the following special case
 
 Recall that by the [[homotopy hypothesis]] theorem, [[Top]] is equivalent to [[sSet]]. In the sense of [[space and quantity]], a [[simplicial set]] is a "generalized space modeled on the [[simplex category]]": a [[presheaf]] on $\Delta$.
 
-Therefore set in the above $C \coloneqq \Delta$. 
+Therefore set in the above $C \coloneqq \Delta$.
 
 Now, a simplicial set has no smooth structure in terms of which one could define differential forms globally, but of course each abstract  $k$-[[simplex]] $\Delta[k]$ may be regarded as the standard $k$-simplex $\Delta^k_{Diff}$ in [[Diff]], and as such it supports smooth differential forms $\Omega^\bullet_{deRham}(\Delta^k_{Diff})$.
 
-The functor $\Omega^\bullet_{deRham}( \Delta_{Diff}^{(-)} ) : \Delta^{op} \to dgAlg$ obtained this way is _almost_ the one that -- after fed into the above procedure -- is used in rational homotopy theory.
+The functor $\Omega^\bullet_{deRham}( \Delta_{Diff}^{(-)} ) : \Delta^{op} \to dgcAlg$ obtained this way is _almost_ the one that -- after fed into the above procedure -- is used in rational homotopy theory.
 
 The only difference is that for the purposes needed here, it is useful to cut down the smooth differential forms to something smaller. Let $\Omega^\bullet_{poly}(\Delta^k_{Diff})$ be the [[dg-algebra]] of **polynomial differential forms** on the standard $k$-simplex. Notice that this recovers all differential forms after tensoring with smooth functions:
 
@@ -210,19 +210,19 @@ $$
   \;\coloneqq\;
   \left\{
     (x_0, x_1, \cdots, x_n)
-    \in 
+    \in
     \mathbb{R}^{n+1}
      \;\vert\;
      0 \leq x_i \leq 1
      \;\text{and}\;
      \underoverset{i = 0}{n}{\sum}
-     x_i 
+     x_i
      \; = 0
   \right\}
   \hookrightarrow
   \mathbb{R}^{n+1}
   \,.
-$$ 
+$$
 
 For $0 \leq i \leq n$ the [[function]]
 
@@ -238,20 +238,20 @@ $$
   f \;\colon\; [n_1] \longrightarrow [n_2]
 $$
 
-a morphism of finite non-empty [[linear orders]] $[n] \coloneqq \{0 \lt 1 \lt \cdots \lt n\}$, let 
+a morphism of finite non-empty [[linear orders]] $[n] \coloneqq \{0 \lt 1 \lt \cdots \lt n\}$, let
 
 $$
-  \Delta_{smth}(f) 
-     \;\colon\; 
-  \Delta^{n_1}_{smth} 
-    \longrightarrow 
-  \Delta^{n_2}_{smth} 
+  \Delta_{smth}(f)
+     \;\colon\;
+  \Delta^{n_1}_{smth}
+    \longrightarrow
+  \Delta^{n_2}_{smth}
 $$
 
 be the [[smooth function]] defined by $x_i \mapsto x_{f(i)}$.
 
 
- 
+
 =--
 
 +-- {: .num_defn #dgcAlgebras}
@@ -274,23 +274,23 @@ for the [[category]] of [[differential graded-commutative algebras]] over the [[
 
 For $k \in \mathbb{N}$ then a [[smooth differential k-form]] on the smooth $n$-simplex (def. \ref{SmoothnSimplex}) is a smooth differential form in the sense of [[smooth manifolds]] with [[manifold with boundary|boundary]] and [[manifold with corners|corners]]. Explicitly this means the following.
 
-Let 
+Let
 
 $$
   F^n
   \;\coloneqq\;
   \left\{
     (x_0, x_1, \cdots, x_n)
-    \in 
+    \in
     \mathbb{R}^{n+1}
      \;\vert\;
      \underoverset{i = 0}{n}{\sum}
-     x_i 
+     x_i
      \; = 0
   \right\}
   \hookrightarrow
   \mathbb{R}^{n+1}
-$$ 
+$$
 
 be the affine plane in $\mathbb{R}^{n+1}$ that contains $\Delta^n_{smth}$ in its defining inclusion from def. \ref{SmoothnSimplex}. This is a [[smooth manifold]] [[diffeomorphism|diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^{n}$.
 
@@ -341,7 +341,7 @@ For $n \in \mathbb{N}$ write
 $$
   \Omega_{poly}^{\bullet}(\Delta^n)
    \;\coloneqq\;
-  Sym^\bullet_{\mathbb{Q}} 
+  Sym^\bullet_{\mathbb{Q}}
    \langle t_0, \cdots, t_n, d t_0, \cdots, d t_n\rangle/\left(\sum t_i -1, \sum d t_i \right)
 $$
 
@@ -390,12 +390,12 @@ and there is uniquely the structure of a [[differential graded-commutative algeb
 For $f \colon [n_1] \to [n_1]$ a [[morphism]] of finite non-empty [[linear orders]], let
 
 $$
-  \Omega^\bullet_{poly}(f) 
-   \;\colon\; 
+  \Omega^\bullet_{poly}(f)
+   \;\colon\;
   \Omega^\bullet_{poly}(\Delta^{n_2}) \to \Omega^\bullet_{poly}(\Delta^{n_1})
 $$
 
-be the morphism of dg-algebras given on generators by 
+be the morphism of dg-algebras given on generators by
 
 $$
   \Omega^\bullet_{poly}(f) : t_i \mapsto \sum_{f(j) = i} t_j
@@ -405,7 +405,7 @@ $$
 This yields a [[simplicial object|simplicial]] [[differential graded-commutative algebra]]
 
 $$
-  \Omega^\bullet_{poly}(\Delta^{(-)}) : \Delta^{op} \to cdgAlg_k
+  \Omega^\bullet_{poly}(\Delta^{(-)}) : \Delta^{op} \to cdgcAlg_k
 $$
 
 which is a sub-simplicial object of that of smooth differential form
@@ -426,7 +426,7 @@ $$
 Consider the [[simplicial object|simplicial]] [[differential graded-commutative algebra]] of [[polynomial differential forms]] from def. \ref{PolynomialDifferentialForms}, equivalently a [[cosimplicial object]] in the [[opposite category]] of [[differential graded-commutative algebras]] (def. \ref{dgcAlgebras}):
 
 $$
-  \Omega^\bullet_{poly} 
+  \Omega^\bullet_{poly}
     \;\colon\;
   \Delta
     \longrightarrow
@@ -444,11 +444,11 @@ $$
       {\underset{K_{poly}}{\longrightarrow}}
       {\overset{\Omega^\bullet_{poly}}{\longleftarrow}}
       {\bot}
-  sSet 
+  sSet
   \,.
 $$
 
-Here the [[left adjoint]] is the [[left Kan extension]] of $\Omega \bullet_{poly}$ along the [[Yoneda embedding]] $\Delta \hookrightarrow sSet$, which we denote by the same symbols. 
+Here the [[left adjoint]] is the [[left Kan extension]] of $\Omega \bullet_{poly}$ along the [[Yoneda embedding]] $\Delta \hookrightarrow sSet$, which we denote by the same symbols.
 
 =--
 
@@ -504,9 +504,9 @@ $$
 (foring "[[piecewise polynomial differential forms]]") and a functorial operation that turns every [[differential graded-commutative algebra]] into a topological space
 
 $$
-  Spec 
+  Spec
    \;\colon\;
-  (dgcAlg_{\mathbb{Q}, \geq 0})^{op}  
+  (dgcAlg_{\mathbb{Q}, \geq 0})^{op}
     \overset{K_{poly}}{\longrightarrow}
   sSet
     \overset{\vert - \vert}{\longrightarrow}
@@ -537,11 +537,11 @@ $$
   a \mapsto a \otimes 1
 $$
 
-for $(A,d) \in dgcAlg_{\geq 0}$ any [[dgc-algebra]]  and for $V$ some [[graded vector space]], such that 
+for $(A,d) \in dgcAlg_{\geq 0}$ any [[dgc-algebra]]  and for $V$ some [[graded vector space]], such that
 
 1. there is a [[well ordered set]] $J$ indexing a [[linear basis]] $\{v_\alpha \in V| \alpha \in J\}$ of $V$;
 
-1. writing $V_{\lt \beta} \coloneqq span(v_\alpha | \alpha \lt \beta)$ then for all basis elements $v_\beta$ we have that 
+1. writing $V_{\lt \beta} \coloneqq span(v_\alpha | \alpha \lt \beta)$ then for all basis elements $v_\beta$ we have that
 
   $$
     d' v_\beta \in A \otimes \wedge^\bullet V_{\lt \beta}
@@ -569,7 +569,7 @@ is a (minimal) relative Sullivan algebra in the above sense, then $A$ is simply 
 +-- {: .num_example}
 ###### Example
 
-Let $\mathfrak{g}$ be a [[finite number|finite]] [[dimension|dimensional]] [[Lie algebra]] and write 
+Let $\mathfrak{g}$ be a [[finite number|finite]] [[dimension|dimensional]] [[Lie algebra]] and write
 
 $$
   CE(\mathfrak{g})
@@ -589,17 +589,17 @@ For $n \in \mathbb{N}$ let
 
 $$
   S(n) \coloneqq (\wedge^\bullet \langle c \rangle, d = 0)
-$$ 
+$$
 
 be the dgc-algebra on a single generator in degree $n$ with vanishing differential.
 
 For $n \geq 1$ let
 
 $$
-  D(n) 
-   \coloneqq 
+  D(n)
+   \coloneqq
   (\wedge^\bullet (\langle b \rangle \oplus \langle c \rangle), d b = c, d c = 0)
-$$ 
+$$
 
 be the dgc-algebra generated by an additional generator in degree $n-1$ such that the differential takes this to the previous generator.
 
@@ -619,7 +619,7 @@ are relative Sullivan algebras according to \ref{SullivanAlgebra}.
 
 These are to be called the _[[cofibrantly generated model category|generating cofibrations]]_ for the [[projective model structure on dgc-algebras]] below in theorem \ref{ProjectiveModelStructureOndgcAgebras}.
 
-Moreover, the inclusions 
+Moreover, the inclusions
 
 $$
   (\mathbb{Q},d = 0) \hookrightarrow D(n)
@@ -651,15 +651,15 @@ $$
      \\
      {}^{\mathllap{i_n}}\downarrow && \downarrow
      \\
-     D(n) 
-       &\longrightarrow& 
-    (A \otimes \wedge^\bullet \langle b \rangle, d b = \phi) 
+     D(n)
+       &\longrightarrow&
+    (A \otimes \wedge^\bullet \langle b \rangle, d b = \phi)
   }
-$$ 
+$$
 
 is precisely a choice $\phi \in A$ of a $d_A$-closed element in degree $n$
 and results in adjoining to $A$ the element $b$ whose differential is
-$d b = \phi$. 
+$d b = \phi$.
 
 This gives the condition in the above definition: the differential of any new element has to be a sum of wedge products of the old elements.
 
@@ -673,7 +673,7 @@ This gives the condition in the above definition: the differential of any new el
 For $X$ a [[simply connected]] [[topological space]] $X$, a **Sullivan (minimal) model** for $X$ is a Sullivan (minimal) algebra $(\wedge^\bullet V^^ \ast, d_V)$ equipped with a [[quasi-isomorphism]]
 
   $$
-    (\wedge^\bullet V^*, d_V) 
+    (\wedge^\bullet V^*, d_V)
       \stackrel{\simeq}{\longrightarrow}
     \Omega^\bullet_{pwpoly}(X)
   $$
@@ -685,7 +685,7 @@ For $X$ a [[simply connected]] [[topological space]] $X$, a **Sullivan (minimal)
 +-- {: .num_prop }
 ###### Proposition
 
-Minimal Sullivan models (def. \ref{SullivanModel}) are unique up to [[isomorphism]]. 
+Minimal Sullivan models (def. \ref{SullivanModel}) are unique up to [[isomorphism]].
 
 =--
 
@@ -844,7 +844,7 @@ $$
      {\underset{\mathbb{R} \Omega^\bullet_{poly}}{\longrightarrow}}
      {\overset{\mathbb{L} K_{poly} }{\longleftarrow}}
      {\simeq}
-  Ho( (dgcAlg_{\mathbb{Q}, nil}^{fin})^{op} )  
+  Ho( (dgcAlg_{\mathbb{Q}, nil}^{fin})^{op} )
   \,.
 $$
 
@@ -860,7 +860,7 @@ exhibits the [[rationalization]] of $X$.
 =--
 
 
-[Bousfield-Gugenheim 76, p. viii](#BousfieldGugenheim76) 
+[Bousfield-Gugenheim 76, p. viii](#BousfieldGugenheim76)
 
 e. g. [Hess 06, corollary 1.26](#Hess06).
 
@@ -910,8 +910,8 @@ $$
   \,.
 $$
 
-Therefore, by corollary \ref{RationalCohomologyFromSullivanModel}, its dg-algebra of [[piecewise polynomial differential forms]] do not distinguish such spaces from [[contractible topological spaces]]. But, unless $\Gamma = 1$ is in fact the trivial group,  $B \Gamma$ is not contractible, instead it is the [[Eilenberg-MacLane space]] $K(\Gamma,1)$ with nontrivial [[fundamental group]] $\pi_1(B \Gamma) \simeq \Gamma$. 
-However, by the [[Hurewicz theorem]], this fundamental group is the only obstruction to contractibility. 
+Therefore, by corollary \ref{RationalCohomologyFromSullivanModel}, its dg-algebra of [[piecewise polynomial differential forms]] do not distinguish such spaces from [[contractible topological spaces]]. But, unless $\Gamma = 1$ is in fact the trivial group,  $B \Gamma$ is not contractible, instead it is the [[Eilenberg-MacLane space]] $K(\Gamma,1)$ with nontrivial [[fundamental group]] $\pi_1(B \Gamma) \simeq \Gamma$.
+However, by the [[Hurewicz theorem]], this fundamental group is the only obstruction to contractibility.
 
 
 =--
@@ -950,9 +950,9 @@ $$
   \,.
 $$
 
-One may understand this form theorem \ref{HomotopyGroupsFromSullivanGenerators}: an $n$-sphere has rational cohomology concentrated in degree $n$. Hence its Sullivan model needs at least one closed generator in that degree. In the odd dimensional case one such is already sufficient, since the wedge square of that generator vanishes and hence produces no higher degree cohomology classes. But in the even degree case the wedge square $\omega_{2k}\wedge \omega_{2k}$ needs to be canceled in cohomology. That is accomplished by the second generator $\omega_{4k-1}$. 
+One may understand this form theorem \ref{HomotopyGroupsFromSullivanGenerators}: an $n$-sphere has rational cohomology concentrated in degree $n$. Hence its Sullivan model needs at least one closed generator in that degree. In the odd dimensional case one such is already sufficient, since the wedge square of that generator vanishes and hence produces no higher degree cohomology classes. But in the even degree case the wedge square $\omega_{2k}\wedge \omega_{2k}$ needs to be canceled in cohomology. That is accomplished by the second generator $\omega_{4k-1}$.
 
-Again by theorem \ref{HomotopyGroupsFromSullivanGenerators}, this now implies that the rational [[homotopy groups of spheres]] are concentrated, in degree $2k+1$ for the odd $(2k+1)$-dimensional spheres, and in degrees $2k$ and $4k-1$ in for the even $2k$-dimensional spheres. 
+Again by theorem \ref{HomotopyGroupsFromSullivanGenerators}, this now implies that the rational [[homotopy groups of spheres]] are concentrated, in degree $2k+1$ for the odd $(2k+1)$-dimensional spheres, and in degrees $2k$ and $4k-1$ in for the even $2k$-dimensional spheres.
 
 For instance the [[4-sphere]] has rational homotopy in degree 4 and 7. The one in degree 7 being represented by the [[quaternionic Hopf fibration]].
 
@@ -970,7 +970,7 @@ One starts with the [[fundamental infinity-groupoid|singular simplicial set]]
 $$
   S(X)
 $$
- 
+
 
 and throws away all the simplices except the basepoint in degrees $0$ and $1$, to get a [[reduced simplicial set]].  Then one applies the Kan loop group functor (the simplicial analogue of the based [[loop space]] functor, see [here](simplicial+group#AsInfinityGroups)) to $S(X)$, obtaining an a [[simplicial group]]
 
@@ -987,7 +987,7 @@ $$
 and completes it with respect to powers of its [[augmentation ideal]], obtaining a "reduced, complete simplicial [[Hopf algebra]]",
 
 $$
-  \hat \mathbb{Q}[G S(X)], 
+  \hat \mathbb{Q}[G S(X)],
 $$
 
 which happens to be cocommutative, since the group ring is cocommutative. Taking degreewise [[primitive element|primitives]], one then gets a reduced simplicial Lie algebra
@@ -1005,7 +1005,135 @@ $$
 Finally, to get a cocommutative dg [[coalgebra]] model for $X$, one uses a slight generalization of a functor first defined by Koszul for computing the homology of a Lie algebra, which always gives rise to a cocommutative dg coalgebra.
 
 
-One may think of this procedure as doing the following: we are taking the [[Lie algebra]] of the "group" $\Omega X$ which is the [[loop space]] of $X$. From a group we pass to the enveloping algebra, i.e. the algebra of [[distribution]]s supported at the identity, completed. The topological analog of distributions are chains (dual to functions = cochains), so Quillen's completed chains construction is exactly the completed enveloping algebra. From the (completed) enveloping algebra we recover the Lie algebra as its primitive elements. 
+One may think of this procedure as doing the following: we are taking the [[Lie algebra]] of the "group" $\Omega X$ which is the [[loop space]] of $X$. From a group we pass to the enveloping algebra, i.e. the algebra of [[distribution]]s supported at the identity, completed. The topological analog of distributions are chains (dual to functions = cochains), so Quillen's completed chains construction is exactly the completed enveloping algebra. From the (completed) enveloping algebra we recover the Lie algebra as its primitive elements.
+
+
+## Properties
+
+### Preservation of homotopy pullbacks
+
++-- {: .num_theorem}
+###### Theorem
+
+The left [[derived functor]] of the [[Quillen functor|Quillen left adjoint]] $\Omega^\bullet_{poly} \colon sSet \to dgcAlg^{\geq 0}_{\mathbb{Q}}$ (thorem \ref{SullivanRationalizationAdjunction}) preserves [[homotopy pullbacks]] of objects of [[finite type]] (each rational homotopy group is a [[finite dimensional vector space]] over the [[ground field]]).
+
+In other words in the induced pair of [[adjoint (∞,1)-functors]]
+
+$$
+  (\Omega^\bullet_{poly} \dashv {\vert -\vert_{poly}})
+   :
+  (dgcAlg^{\geq 0}_\mathbb{Q}^{op})^\circ
+   \stackrel{\overset{}{\leftarrow}}{\underset{}{\to}}
+  \infty Grpd
+$$
+
+the left adjoint preserves [[limit in a quasi-category|(∞,1)-categorical pullbacks]] of objects of finite type.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is effectively a restatement of a result that appears effectively below proposition 15.8 in HalperinThomas and is reproduced in some repackaged form as [Hess 06, theorem 2.2](#Hess06). We recall the [[model category|model category-theoretic]] context that allows to rephrase this result in the above form.
+
+Let $C = \{a \to c \leftarrow b\}$ be the pullback [[diagram]] category.
+
+The [[homotopy limit]] functor is the right [[derived functor]] $\mathbb{R} lim_C$ for the [[Quillen adjunction]] (described in detail at [[homotopy Kan extension]])
+
+$$
+  [C,sSet]_{inj} \stackrel{\overset{const}{\leftarrow}}{\underset{lim_C}{\to}}
+  sSet
+  \,.
+$$
+
+At [[model structure on functors]] it is discussed that composition with the Quillen pair $\Omega^\bullet \dashv K$ induces a Quillen adjunction
+
+$$
+  ([C,\Omega^bullet] \dashv [C,K])
+  :
+  [C, dgcAlg^{op}]
+  \stackrel{\overset{[C,\Omega^\bullet]}{\leftarrow}}{\underset{[C,K]}{\to}}
+  [C,sSet]
+  \,.
+$$
+
+We need to show that for every fibrant and cofibrant pullback diagram $F \in [C,sSet]$ there exists a weak equivalence
+
+$$
+  \Omega^\bullet \circ lim_C F
+  \;\;
+  \simeq
+  \;\;
+  lim_C   \widehat{\Omega^\bullet(F)}
+  \,,
+$$
+
+here $\widehat{\Omega^\bullet(F)}$ is a fibrant replacement of $\Omega^\bullet(F)$ in $dgcAlg^{op}$.
+
+Every object $f \in [C,sSet]_{inj}$ is cofibrant. It is fibrant if all three objects $F(a)$, $F(b)$ and $F(c)$ are fibrant and one of the two morphisms is a fibration. Let us assume without restriction of generality that it is the morphism $F(a) \to F(c)$ that is a fibration. So we assume that $F(a), F(b)$ and $F(c)$ are three [[Kan complex]]es and that $F(a) \to F(b)$ is a [[Kan fibration]]. Then $lim_C$ sends $F$ to the ordinary [[pullback]]  $lim_C F = F(a) \times_{F(c)} F(b)$ in $sSet$, and so the left hand side of the above equivalence is
+
+$$
+  \Omega^\bullet(F(a) \times_{F(c)} F(b))
+  \,.
+$$
+
+
+Recall that the [[Sullivan algebra]]s are the cofibrant objects in $dgcAlg$, hence the fibrant objects of $dgcAlg^{op}$. Therefore a fibrant replacement of $\Omega^\bullet(F)$ may be obtained by
+
+* first choosing a [[Sullivan model]] $(\wedge^\bullet V, d_V) \stackrel{\simeq}{\to} \Omega^\bullet(c)$
+
+* then choosing factorizations in $dgcAlg$ of the composites of this with $\Omega^\bullet(F(c)) \to \Omega^\bullet(F(a)) $ and $\Omega^\bullet(F(c)) \to \Omega^\bullet(F(b))$ into cofibrations follows by weak equivalences.
+
+The result is a diagram
+
+$$
+  \array{
+    (\wedge^\bullet U^*, d_U)
+    &\leftarrow&
+    (\wedge^\bullet V^*, d_V)
+    &\hookrightarrow&
+    (\wedge^\bullet W^* , d_W)
+    \\
+    \downarrow^{\simeq}
+    &&
+    \downarrow^{\simeq}
+    &&
+    \downarrow^{\simeq}
+    \\
+    \Omega^\bullet(F(a))
+    &\stackrel{}{\leftarrow}&
+    \Omega^\bullet(F(c))
+    &\stackrel{}{\to}&
+    \Omega^\bullet(F(b))
+  }
+$$
+
+that in $dgcAlg^{op}$ exhibits a fibrant replacement of $\Omega^\bullet(F)$. The limit over that in $dgcAlg^{op}$ is the colimit
+
+$$
+  (\wedge^\bullet U^* , d_U)
+  \otimes_{(\wedge^\bullet V^* , d_V)}
+  (\wedge^\bullet W^* , d_W)
+$$
+
+in $dgcAlg$. So the statement to be proven is that there exists a weak equivalence
+
+$$
+  (\wedge^\bullet U^* , d_U)
+  \otimes_{(\wedge^\bullet V^* , d_V)}
+  (\wedge^\bullet W^* , d_W)
+  \simeq
+  \Omega^\bullet(F(a) \times_{F(c)} F(b))
+  \,.
+$$
+
+This is precisely the statement of that quoted result [Hess 06, theorem 2.2](#Hess06).
+
+=--
+
+
+
+
 
 ## Further variants of rational homotopy theory
 
@@ -1040,7 +1168,7 @@ Precursors include
 
 The original articles are
 
-* {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)) 
+* {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf))
 
 * {#Sullivan77} [[Dennis Sullivan]], _Infinitesimal computations in topology_,      Publications math&#233;matiques de l' I.H.&#201;.S. tome 47 (1977), p. 269-331. ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
 
@@ -1055,7 +1183,7 @@ Survey and review includes
 
 
 
-* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000. 
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000.
 
 * {#Majewski00} Martin Majewski, _Rational homotopy models and uniqueness_ , AMS Memoir (2000):
 
@@ -1068,7 +1196,7 @@ Survey and review includes
 
 Review that makes the [[L-infinity algebra]] aspect completely manifest is in
 
-* {#BuijsFelixMurillo12} Urtzi Buijs, [[Yves Félix]], Aniceto Murillo, section 2 of _$L_\infty$-rational homotopy of mapping spaces_ ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756)),  published as _$L_\infty$-models of based mapping spaces_,  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524. 
+* {#BuijsFelixMurillo12} Urtzi Buijs, [[Yves Félix]], Aniceto Murillo, section 2 of _$L_\infty$-rational homotopy of mapping spaces_ ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756)),  published as _$L_\infty$-models of based mapping spaces_,  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524.
 
 
 
@@ -1079,7 +1207,7 @@ More on the relation to Lie theory is in:
 
 The above description of the Quillen approach draws on blog comments by [[Kathryn Hess]] [here](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_50.html#c030961) and by [[David Ben-Zvi]] [here](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_50.html#c031038).
 
-Discussion from the point of view of [[(∞,1)-category theory]] and [[E-∞ algebras]] is in 
+Discussion from the point of view of [[(∞,1)-category theory]] and [[E-∞ algebras]] is in
 
 * [[Jacob Lurie]], _Rational and $p$-adic homotopy theory_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIII.pdf))
 
