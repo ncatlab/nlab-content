@@ -23,6 +23,8 @@ see e.g. ([GGN 13, p. 8](#GGN13)) for discussion.
 
 ## Examples
 
+* [[rationalization]] is smashing: $L_{\mathbb{Q}} \simeq (-) \wedge H \mathbb{Q}$ (e.g [Bauer 11, example 1.7 (4)](#Bauer11))
+
 * For $G$ a [[group]] without [[torsion subgroup|torsion]], then localization at the [[Moore spectrum]] $E = S G$ (in particular [[p-localization]]) is smashing (see at _[[Bousfield localization of spectra]]_ [here](Bousfield+localization+of+spectra#pLocalizationIsSmashing)).
 
 * Localization with respect to [[Morava E-theory]] is smashing (Hopkins-Ravenel).
@@ -40,6 +42,8 @@ see e.g. ([GGN 13, p. 8](#GGN13)) for discussion.
 * {#Miller92} Miller, _Finite localizations_, Boletin de la Sociedad Matematica Mexicana 37 (1992), 383&#8211;390 ([HopfArchive](http://hopf.math.purdue.edu/cgi-bin/generate?/MillerH/finite-localization))
  
 * {#GGN13} [[David Gepner]], Moritz Groth, [[Thomas Nikolaus]], _Universality of multiplicative infinite loop space machines_ ([arXiv:1305.4550](http://arxiv.org/abs/1305.4550))
+
+* {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ (2011) ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
 
 [[!redirects smashing localizations]]
 
