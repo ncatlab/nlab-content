@@ -85,19 +85,20 @@ In particular, therefore the composite $i \circ \mathcal{R}$ is a [[resolution]]
 
 ## References
 
-The model structure on dg-Lie algebras goes back to 
+The model structure on dg-Lie algebras in [[characteristic zero]] and in  degrees $\geq n \geq 1$ goes back to 
 
 * {#Quillen69} [[Dan Quillen]], section II.5 and appendix B of _Rational homotopy theory_, Annals of Math., 90(1969), 205&#8211;295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)) 
  
+This is extended to a model structure on dg-Lie algebras in unbounded degrees in
 
-For more discussion see
+* [[Vladimir Hinich]], _Homological algebra of homotopy algebras_, Comm. in algebra, 25(10)(1997), 3291&#8211;3323 ([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
 
-* [[Vladimir Hinich]], _Homological algebra of homotopy algebras_, Comm. in algebra, 25(10)(1997), 3291&#8211;3323.
+and the corresponding [[Quillen adjunction]] to the [[model structure on dg-coalgebras]] in unbounded degrees is discussed in
 
 * {#Hinich98} [[Vladimir Hinich]], _DG coalgebras as formal stacks_ ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
  
 
-and section 2.1 of 
+See also section 2.1 of 
 
 * [[Jacob Lurie]], _[[Formal moduli problems]]_
 
