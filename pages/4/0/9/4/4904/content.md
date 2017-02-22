@@ -27,6 +27,18 @@ For $T$ a [[Lawvere theory]] and $T Alg$ the [[category]] of [[algebra over a La
 
 ## Details
 
+First we consider the case of [[simplicial objects]] in algebras over an ordinary Lawvere theory:
+
+* _[For algebras over ordinary Lawvere theories](#OverOrdinaryLawvereTheories)_
+
+Then we generalize to the case that the Lawvere theory itself is simplicial: 
+
+* _[For algebras over simplicial Lawvere theories](#ForAlgebrasOverSimplicialLawvereTheories)_
+
+
+### For algebras over ordinary Lawvere theories
+  {#OverOrdinaryLawvereTheories}
+
 Recall that the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C^{op})$ itself is modeled by the [[model structure on simplicial presheaves]]
 
 $$
@@ -46,22 +58,20 @@ $$
   F(c_1) \times \cdots \times F(c_n)
 $$ 
 
-is a [[homotopy equivalence]] of [[Kan complex]]es.
+is a [[homotopy equivalence]] of [[Kan complexes]].
 
 We now look at model category structure on _strictly_ product preserving functors $C \to sSet$, which gives an equivalent model for $Alg_{(\infty,1)}(C)$. See [[model structure on homotopy T-algebras]].
 
-+-- {: .num_prop}
++-- {: .num_prop #ModelStructureOnSimplicialAlgebrasOverOrdinaryLawveretheory}
 ###### Proposition
-**(first model structure)**
 
-Let $T$ be a [[category]] with [[finite product]], and let $T Alg^{\Delta^{op}} \subset Func(T,sSet)$ be the [[full subcategory]] of the [[functor category]] from $T$ to [[sSet]] on those functors that preserve these products.  
+Let $T$ be the [[syntactic category]] of a [[Lawvere theory]], and let $T Alg^{\Delta^{op}} \subset Func(T,sSet)$ be the [[full subcategory]] of the [[functor category]] from $T$ to [[sSet]] on those functors that preserve these [[finite products]].  
 
-Then $T Alg^{\Delta^{op}}$ carries the structure of a [[model category]] $sAlg(C)_{proj}$ where the weak equivalences and the fibrations are those maps underlying which are weak equivalences or fibrations, respectively, in the [[classical model structure on simplicial sets]]. 
+Then $T Alg^{\Delta^{op}}$ carries the structure of a [[model category]] $(T Alg^{\Delta^{op}})_{proj}$ where the weak equivalences and the fibrations are those maps underlying which are weak equivalences or fibrations, respectively, in the [[classical model structure on simplicial sets]]. 
 
 =--
 
-This is due to ([Quillen](#Quillen)).
-
+This is due to ([Quillen 67, II.4 theorem 4](#Quillen67)).
 
 The inclusion $i : sAlg(C) \hookrightarrow sPSh(C^{op})_{proj}$ into the projective [[model structure on simplicial presheaves]] evidently preserves fibrations and acyclic fibrations and gives a [[Quillen adjunction]]
 
@@ -79,7 +89,7 @@ $$
 The total right [[derived functor]] 
 
 $$
-  \mathbb{R}i : Ho(sAlg(C)_{proj}) \to Ho(sPSh(C^{op})_{proj})
+  \mathbb{R}i \;\colon\; Ho(sAlg(C)_{proj}) \to Ho(sPSh(C^{op})_{proj})
 $$ 
 
 is a [[full and faithful functor]] and an object $F \in sPSh(C^{op})$ belongs to the [[essential image]] of $\mathbb{R}i$ precisely if it preserves product up to [[weak homotopy equivalence]].
@@ -91,27 +101,83 @@ This is due to ([Bergner](#Bergner)).
 It follows that the natural $(\infty,1)$-functor
 
 $$
-  (sAlg(C)_{proj})^\circ \stackrel{}{\to}
+  (sAlg(C)_{proj})^\circ 
+    \stackrel{}{\longrightarrow}
   PSh_{(\infty,1)}(C^{op})
 $$
 
 is an [[equivalence of quasi-categories|equivalence]].
 
-A comprehensive statement of these facts is in [[Higher Topos Theory|HTT, section 5.5.9]].
 
-+-- {: .num_prop}
-###### Proposition
-**(second model structure)**
 
-Let $T$ be the [[Lawvere theory]] for commutative [[associative algebra]]s over a ring $k$. Then $CAlg_k$ becomes a [[simplicial model category]] with
+### For algebras over simplicial Lawvere theories
+ {#ForAlgebrasOverSimplicialLawvereTheories}
 
-* weak equivalences the morphisms whose underlying morphism of simplicial sets are weak equivalences in the [[classical model structure on simplicial sets]];
++-- {: .num_defn #SimplicialLawvereTheory}
+###### Definition
 
-* fibrations the morphisms $X \to Y$ such that $X \to \pi_0 X \times_{\pi_0 Y} Y$ is a degreewise surjection.
+Let $\Gamma = (Skel(FinSet^{\ast/}))$ be [[Segal's category]], the [[opposite category]] of a [[skeleton]] of [[finite set|finite]] [[pointed sets]].
+
+A _[[simplicial Lawvere theory]]_ is a a pointed [[simplicial category]] $T$ equipped with a [[functor]] $i \;\colon\;\Gamma \to T$ such that 
+
+1. $T$ has the same [[set]] of [[objects]] as $\Gamma$;
+
+1. $i$ is the identity on objects
+
+1  $i$ preserves [[finite products]]
+
+Given a simplicial theory $T$, then a _simplicial $T$-algebra_ is a product preserving [[simplicial functor]] $X$ to the [[simplicial category]] of [[pointed simplicial sets]]. The simplicial set
+
+$$
+  X(1_+) \in sSet
+$$
+
+(the value on the pointed 2-element set) is called the _underlying simplicial set_ of the $T$-algebra.
+
+A [[homomorphism]] of $T$-algebras is a simplicial [[natural transformation]] between such functors. Write
+
+$$
+  T Alg \in sSet Cat
+$$
+
+for the resulting [[simplicial category]].
+
+A homomorphism is called a _weak equivalence_ or a _fibration_ if on underlying simplicial sets it is a weak equivalence or fibration, respectively, in the [[classical model structure on simplicial sets]].
+Write
+
+$$
+  (T Alg)_{proj}
+$$
+
+for the category equipped with these [[classes]] of morphisms.
 
 =--
 
-This appears as ([GoerssSchemmerhorn, theorem 4.17](#GoerssSchemmerhorn)).
+([Schwede 01, def. 2.1 and def. 2.2 and beginning of section 3](#Schwede01))
+
++-- {: .num_remark}
+###### Remark
+
+In the case that the [[simplicial Lawvere theory]] $T$ happens to be simplicially discrete, i.e. an ordinary [[category]], then the category $(T Alg)_{proj}$ of simplicial $T$-algebras from def. \ref{SimplicialLawvereTheory} with that from prop. \ref{ModelStructureOnSimplicialAlgebrasOverOrdinaryLawveretheory}.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $T$ a [[simplicial Lawvere theory]] (def. \ref{SimplicialLawvereTheory}) the category $(T Alg)_{poj}$ from def. \ref{SimplicialLawvereTheory} is a [[simplicial model category]].
+
+=--
+
+This is due to ([Reedy 74, theorem I](#Reedy74)), reviewed in ([Schwede 01](#Schwede01)).
+
+The analogous statement with the [[classical model structure on simplicial sets]] replaced by the [[classical model structure on topological spaces]] is due to ([Schw&#228;nzl-Vogt 91](#Schw&#228;nzlVogt91)9
+
+
+
+
+A comprehensive statement of these facts is in [[Higher Topos Theory|HTT, section 5.5.9]].
+
 
 
 ## Properties
@@ -125,7 +191,7 @@ There is a [[Quillen equivalence]] between the model structure on simplicial $T$
 
 =--
 
-This is theorem 1.3 in ([Badzioch](#Badzioch)).
+This is ([Badzioch 02, theorem 1.3](#Badzioch02)).
 
 ### Homotopy groups
 
@@ -162,14 +228,31 @@ This allows us to think of ordinary $T$-algebras a sitting inside $\infty$-$T$-a
 
 ## Examples
 
-### Simplicial ordinary $k$-algebras
+### Simplicial associative $k$-algebras
 
 A [[simplicial ring]]s is a simplicial $T$-algebras for $T$ the Lawvere theory of rings. 
 
-Let $k$ be an ordinary commutative ring and $T$ the theory of commutative [[associative algebra]]s over $k$. We write $T Alg$ as $sCAlg_k$ or $CAlg_k^{op}$.
+Let $k$ be an ordinary commutative ring and $T$ the theory of commutative [[associative algebras]] over $k$. We write $T Alg$ as $sCAlg_k$ or $CAlg_k^{op}$.
 
-Such simplicial $k$-algebras are discussed for instance in ([To&#235;nVezzosi, section 2.2.1](#ToenVezzosi)).
+Such simplicial $k$-algebras are discussed for instance in ([To&#235;n-Vezzosi, section 2.2.1](#ToenVezzosi)).
 According to ([Schwede 97](#Schwede97), Lemma 3.1.3), this model structure is [[proper model category|proper]].
+
+### Simplicial commutative $k$-algebras
+
++-- {: .num_prop}
+###### Proposition
+**(second model structure)**
+
+Let $T$ be the [[Lawvere theory]] for commutative [[associative algebras]] over a ring $k$. Then $CAlg_k$ becomes a [[simplicial model category]] with
+
+* weak equivalences the morphisms whose underlying morphism of simplicial sets are weak equivalences in the [[classical model structure on simplicial sets]];
+
+* fibrations the morphisms $X \to Y$ such that $X \to \pi_0 X \times_{\pi_0 Y} Y$ is a degreewise surjection.
+
+=--
+
+This appears as ([GoerssSchemmerhorn, theorem 4.17](#GoerssSchemmerhorn)).
+
 
 ### Simplicial Lie algebras
 
@@ -206,15 +289,22 @@ See at _[[model structure on simplicial Lie algebras]]_.
 
 The classical reference for the [[transferred model structure]] on simplicial $T$-algebras is
 
-* [[Dan Quillen]], _Homotopical Algebra_ Lectures Notes in Mathematics 43, SpringerVerlag, Berlin, (1967)
+* {#Quillen67} [[Dan Quillen]], _Homotopical Algebra_, Lectures Notes in Mathematics 43, Springer Verlag, Berlin, (1967)
 
-The simplicial model structure on ordinary simplicial algebras is in
+The generalization to the case that the theory $T$ itself is allowed to be simplicial is due to 
 
-* [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_ ([pdf](http://www.math.northwestern.edu/~pgoerss/papers/ucnotes.pdf))
+* {#Reedy74} [[Christopher Reedy]], _Homology of algebraic theories_, Ph.D. Thesis, University of California, San Diego, 1974
 
-Some more details on this model structure are in section 3.1 of
+and the topological version is due to
 
-* {#Schwede97} [[Stefan Schwede]], _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997), pp. 77-104, [pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf).
+* {#Schw&#228;nzlVogt91} [[Roland Schwänzl]], [[Rainer Vogt]], _The categories of $A_\infty$- and $E_\infty$-monoids and ring spaces as closed simplicial and topological model categories_, Archives of Mathematics 56 (1991) 405-411
+
+
+
+More is in
+
+* {#Schwede01} [[Stefan Schwede]], _Stable homotopy of algebraic theories_, Topology 40 (2001) 1-41 ([pdf](http://www.math.uni-bonn.de/people/schwede/stable.pdf))
+
 
 In 
 
@@ -227,10 +317,16 @@ The fact that the model structure on simplicial $T$-algebras serves to model $\i
 
 * {#Bergner} [[Julie Bergner]], _Rigidification of algebras over multi-sorted theories_ , Algebraic and Geometric Topoogy 7, 2007.
 
-
 The Quillen equivalence to the model structure on homotopy $T$-algebras is in 
 
-* {#Badzioch} [[Bernard Badzioch]], _Algebraic theories in homotopy theory_ Annals of Mathematics, 155 (2002), 895-913 ([JSTOR](http://www.jstor.org/stable/3062135))
+* {#Badzioch02} [[Bernard Badzioch]], _Algebraic theories in homotopy theory_, Annals of Mathematics, 155 (2002), 895-913 ([JSTOR](http://www.jstor.org/stable/3062135))
+
+The simplicial model structure on ordinary simplicial algebras (i.e. simplicial [[associative algebras]]) is discussed in
+
+* [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_ ([pdf](http://www.math.northwestern.edu/~pgoerss/papers/ucnotes.pdf))
+
+
+* {#Schwede97} [[Stefan Schwede]], _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997), pp. 77-104, [pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf).
 
 
 Discussion of simplicial commutative associative algbras over a ring in the context of [[derived geometry]] is in
