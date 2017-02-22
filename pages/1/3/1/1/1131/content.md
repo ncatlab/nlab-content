@@ -336,12 +336,62 @@ $$
   dgLieAlg_k
    \underoverset
      {\underset{CE}{\longrightarrow}}
-     {\overset{\mathcal{l}}{\longleftarrow}}
+     {\overset{\mathcal{L}}{\longleftarrow}}
      {\bot}
-  dg-cocAlg_k
+  dgCoAlg_k
 $$
 
-For dg-Lie algebras concentrated in degrees $ \geq n \geq 1$ this is due to ([Quillen 69, appendix B](#Quillen)). For unbounded dg-algebras, this is due to ([Hinich 97](#Hinich97)). For more see at _[[model structure on dg-Lie algebras]]_.
+Here 
+
+* $CE$ is the [[Chevalley-Eilenberg algebra]] functor. It sends a dg-Lie algebra $(\mathfrak{g}, \partial, [-,-])$ to 
+
+  $$
+    CE(\mathfrak{g},\partial,[-,-])
+     \;\coloneqq\;
+    \left(
+      \vee^\bullet \mathfrak{g}[1]  
+      ,\;
+      D = \partial + [-,-]
+    \right)
+    \,,
+  $$
+
+  where on the right the extension of $\partial$ and $[-,-]$ to graded derivations is understood.
+
+* For $(X,D)$ a dg-coalgebra, then
+
+  $$
+    \mathcal{L}(X,D)
+     \coloneqq
+    \left(
+       F(\overline{X}[-1]),\; 
+       \partial \coloneqq D + (\Delta - 1 \otimes id - id \otimes 1)
+    \right)
+  $$
+
+  where
+  
+  1. $\overline{X} \coloneqq ker(\epsilon)$ is the [[kernel]] of the [[counit]], regarded as a [[chain complex]];
+
+  1. $F$ is the [[free Lie algebra]] functor (as graded Lie algebras);
+
+  1. on the right we are extending $(\Delta - 1 \otimes id - id \otimes 1) \colon \overline{X} \to \overline{X} \otimes \overline{X}$ as a Lie algebra [[derivation]] 
+
+Moreover
+
+$$
+  Hom(\mathcal{L}(X), \mathfrak{g})
+   \simeq
+  Hom(X, CE(\mathfrak{g}))
+    \simeq
+  MC(Hom(\overline{X},\mathfrak{g}))
+$$
+
+is the [[Maurer-Cartan elements]] in the Hom-dgLie algebra from $\overline{X}$ to $\mathfrak{g}$.
+
+For dg-Lie algebras concentrated in degrees $ \geq n \geq 1$ this is due to ([Quillen 69, appendix B, prop 6.1, 6.2](#Quillen)). For unbounded dg-algebras, this is due to ([Hinich 98, 2.2](#Hinich98)).
+
+For more see at _[[model structure on dg-Lie algebras]]_.
 
 
 ### Relation to simplicial Lie algebras
