@@ -35,23 +35,23 @@ between simplicial Lie algebras (over a [[field]] $k$) and [[dg-Lie algebra]]s, 
 
 =--
 
-This is ([Quillen, prop. 4.4](#Quillen)).
+This is ([Quillen 69, prop. 4.4](#Quillen69)).
 
 +-- {: .num_remark}
 ###### Remark
 
-There is a standard structure of a [[category of weak equivalences]] on both these categories, hence there are corresponding [[homotopy categories]]. (See also at _[[model structure on simplicial Lie algebras]]_ and _[[model structure on dg-Lie algebras]]_.) The following asserts that the above adjunction is compatible with this structure.
+There is a standard structure of a [[category with weak equivalences]] on both these categories, hence there are corresponding [[homotopy categories]]. (See also at _[[model structure on simplicial Lie algebras]]_ and _[[model structure on dg-Lie algebras]]_.) The following asserts that the above adjunction is compatible with this structure.
 
 =--
 
 +-- {: .num_theorem}
 ###### Theorem
 
-For $k$ a [[field]] of [[characteristic]] 0 the corresponding [[derived functors]] constitute an [[equivalence of categories]] between the corresponding [[homotopy categories]]
+For $k$ a [[field]] of [[characteristic zero]] the corresponding [[derived functors]] constitute an [[equivalence of categories]] between the corresponding [[homotopy categories]]
 
 $$
   (L N^* \dashv \tilde N) 
-   : 
+   \;\colon\;
   Ho(LieAlg^\Delta)_1 
    \stackrel{\overset{L N^*}{\leftarrow}}{\underset{\tilde N}{\to}} Ho(dgLieAlg)_1
 $$
@@ -63,18 +63,27 @@ of [[1-connected]] objects on both sides.
 This is in the proof of ([Quillen, theorem. 4.4](#Quillen)).
 
 
+## Related concepts
+
+* [[model structure on simplicial Lie algebras]]
+
+* [[simplicial group]]
+
+
 ## References
 
 An early account is in part I, section 4 of
 
-* [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725))
- {#Quillen}
+* {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725))
+ 
 
 See also
-
 
 * Graham Ellis, _Homotopical aspects of Lie algebras_ Austral. Math. Soc. (Series A) 54 (1993), 393-419 ([web](http://anziamj.austms.org.au/JAMSA/V54/Part3/Ellis.html))
 
 * &#304;. Ak&#231;a and Z. Arvasi, _Simplicial and crossed Lie algebras_ Homology Homotopy Appl. Volume 4, Number 1 (2002), 43-57. 
+
+* [[Stewart Priddy]], _On the homotopy theory of simplicial Lie algebras_, ([pdf](http://www.ams.org/journals/proc/1970-025-03/S0002-9939-1970-0270371-9/S0002-9939-1970-0270371-9.pdf))
+
 
 [[!redirects simplicial Lie algebras]]
