@@ -89,12 +89,6 @@ $$
 
 ## Properties
 
-The specific maps introduced by Eilenberg-Mac Lane have stronger properties which for simplicial sets $K,L$ make $C(K) \otimes C(L)$ a strong deformation retract of $C(K \times L)$. This is exploited in 
-
-* R. Brown, _The twisted Eilenberg-Zilber theorem_. Simposio di Topologia (Messina, 1964), Edizioni Oderisi, Gubbio (1965), 33--37. 
-[pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/twistedez.pdf)
-
-which has been a foundation of the subject of Homological Perturbation Theory. The homotopies play a key role in the formulae and calculations.  
 
 +-- {: .num_prop}
 ###### Proposition
@@ -156,6 +150,10 @@ commutes, where $\sigma$ denotes the symmetry isomorphism in $sAb$ and $Ch_\bull
 
 =--
 
+## Applications
+
+* The Eilenberg-Zilber map induces a functor from [[simplicial Lie algebras]] to [[dg-Lie algebras]] (see [here](dgLieAlgebraOfASimplicialLieAlgebra))
+
 
 ## Related concepts
 
@@ -177,19 +175,28 @@ The Eilenberg-Zilber map was introduced in (5.3) of
 
 * [[Samuel Eilenberg]], [[Saunders MacLane]], On the groups $H(\Pi,n)$, I, Ann. of Math. (2) 58, (1953), 55&#8211;106.
 
-See also 29.7 of 
+See also  
 
-* {#May} [[Peter May]], _Simplicial objects in algebraic topology_ , Chicago Lectures in Mathematics, Chicago, (1967) ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
-,
+* {#May} [[Peter May]], 29.7 of _Simplicial objects in algebraic topology_ , Chicago Lectures in Mathematics, Chicago, (1967) ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
+
 
 * [[Andy Tonks|A.P. Tonks]], _On the Eilenberg-Zilber Theorem for crossed complexes_. J. Pure Appl. Algebra, 179~(1-2) (2003) 199--220, 
 
-section 11.2 of
 
-* [[Tim Porter]], _[[Crossed Menagerie]]_,
+* [[Tim Porter]], section 11.2 of _[[Crossed Menagerie]]_,
 
-or section 1.6 of
 
-* [[Jean-Louis Loday]], _Cyclic Homology_, Grund. Math. Wiss. 301, Springer, 1992.
+* [[Jean-Louis Loday]], section 1.6 of _Cyclic Homology_, Grund. Math. Wiss. 301, Springer, 1992.
+
+* {#Quillen69} [[Dan Quillen]], part I, section 4 of _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725))
+
+
+The specific maps introduced by Eilenberg-Mac Lane have stronger properties which for simplicial sets $K,L$ make $C(K) \otimes C(L)$ a strong deformation retract of $C(K \times L)$. This is exploited in 
+
+* [[Ronny Brown]], _The twisted Eilenberg-Zilber theorem_. Simposio di Topologia (Messina, 1964), Edizioni Oderisi, Gubbio (1965), 33--37. 
+[pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/twistedez.pdf)
+
+
+
 
 [[!redirects shuffle map]]
