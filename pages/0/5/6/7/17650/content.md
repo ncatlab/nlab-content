@@ -1,3 +1,4 @@
+[[!redirects pullback-power]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -63,7 +64,7 @@ into the evident [[fiber product]] on the right.
 
 * [[Joyal-Tierney calculus]]
 
-
+[[!redirects pullback-power]]
 [[!redirects pullback-powers]]
 
 
@@ -73,7 +74,6 @@ into the evident [[fiber product]] on the right.
 [[!redirects pullback-powering]]
 [[!redirects pullback-powerings]]
 
-[[!redirects pullback power]]
 [[!redirects pullback powers]]
 
 [[!redirects Leibniz cotensor]]
