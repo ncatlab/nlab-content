@@ -32,7 +32,7 @@ $$
   \,.
 $$
 
-(Observe that, just as a $\mathbb{Q}$-[[module]] structure on an [[abelian group]] is unique if it exists, so an $H \mathbb{Q}$-[[module spectrum]] structure on a [[spectrum]] is essentially unique if it exists, due to the fact that the multiplication map $H \mathbb{Q} \wedge H \mathbb{Q} \to H \mathbb{Q}$ is an [[equivalence in an (infinity,1)-category|equivalence]].)
+(Observe that $H \mathbb{Q}$-module spectra are just the rational spectra. Since [[rationalization]] of spectra is the [[smashing localization]] $(-)\wedge H \mathbb{Q}$ ([here](rationalization#RationalizationOfSpectra)) every rational spectrum $X \simeq H \mathbb{Q} \wedge X$ carries an $H \mathbb{Q}$-module structure. Conversely, just as a $\mathbb{Q}$-[[module]] structure on an [[abelian group]] is unique if it exists, so an $H \mathbb{Q}$-[[module spectrum]] structure on a [[spectrum]] is essentially unique if it exists, due to the fact that the multiplication map $H \mathbb{Q} \wedge H \mathbb{Q} \to H \mathbb{Q}$ is an [[equivalence in an (infinity,1)-category|equivalence]].)
 
 This statement parallels that of classical [[rational homotopy theory]], which identifies the [[homotopy theory]] of [[nilpotent topological space|nilpotent]] [[rational topological spaces]] of [[finite type]] with that of cochain [[dgc-algebras]] over $\mathbb{Q}$ in non-negative degree
 
