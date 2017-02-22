@@ -195,6 +195,8 @@ This is in ([Cranch](#Cranch)). For more details see
 
   *  **algebraic $(\infty,1)$-theory** / [[essentially algebraic (∞,1)-theory]]
 
+     * [[simplicial Lawvere theory]]
+
 * [[monad]] / [[(∞,1)-monad]]
 
 * [[operad]] / [[(∞,1)-operad]]
