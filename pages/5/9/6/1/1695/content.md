@@ -114,7 +114,7 @@ $$
   sSet_0
 $$
 
-between the [[model structure on simplicial groups]] and the [[model structure on reduced simplicial sets]] (thus exhibiting both of these as models for [[infinity-groups]]). Its [[left adjoint]] $G$, the _[[simplicial loop space]] construction_, is a concrete model for the loop space construction with values in [[simplicial groups]].
+between the [[model structure on simplicial groups]] and the [[model structure on reduced simplicial sets]], thus exhibiting both of these as models for [[infinity-groups]] ([Kan 58](#Kan58)). Its [[left adjoint]] $G$, the _[[simplicial loop space]] construction_, is a concrete model for the loop space construction with values in [[simplicial groups]].
 
 See also [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for more details.
 
@@ -147,11 +147,12 @@ See also [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for
 
 ## References
 
-* [[Jim Stasheff]], _Homotopy associative $H$-spaces I, II_, Trans. Amer. Math. Soc. 108, 1963, 275-312 
-{#Stasheff}
+* {#Kan58} [[Daniel Kan]], _On homotopy theory and c.s.s. groups_, Ann. of Math. 68 (1958), 38-53
 
-* [[Peter May]], _The geometry of iterated loop spaces_ Lecture Notes in Mathematics 271 (1970) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
- {#May}
+* {#Stasheff} [[Jim Stasheff]], _Homotopy associative $H$-spaces I, II_, Trans. Amer. Math. Soc. 108, 1963, 275-312 
+
+* {#May} [[Peter May]], _The geometry of iterated loop spaces_ Lecture Notes in Mathematics 271 (1970) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
+ 
 
 * H. Wada, _Local connectivity of mapping spaces_, Duke Mathematical Journal, vol ? (1955) pp 419-425
 
