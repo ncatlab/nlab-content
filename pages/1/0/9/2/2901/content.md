@@ -140,6 +140,10 @@ The significance of this result is that EPG is a complete and decidable theory, 
 * {#Tarski} [[Alfred Tarski]], _What is elementary geometry?_, in _The axiomatic method. With special reference to geometry and physics_ Proceedings of an International Symposium held at the Univ. of Calif., Berkeley, Dec. 26, 1957-Jan. 4, 1958 (ed. L. Henkin, P. Suppes, and A. Tarski), Studies in Logic and the Foundations of Mathematics, Amsterdam: North-Holland (1959), pp. 16&#8211;29. ([pdf](http://www.geographicknowledge.de/SeminarLFG/Tarski_Whatiselementarygeometry.pdf))  
 
 * {#TG}  [[Alfred Tarski]] and Steven Givant, _Tarski's system of geometry_, Bull. Symb. Logic, Vol. 5 No. 2 (1999), 175&#8211;214. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.9012)) 
+
+Expository lecture notes:
+
+* {#Armstrong17} Drew Armstrong, _Introduction to Geometry_, 2017 ([pdf](http://www.math.miami.edu/~armstrong/daVinci/HGnotes.pdf)) 
  
 A textbook account of the axiomatization of Euclidean geometry is
 
