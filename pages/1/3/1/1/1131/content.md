@@ -207,7 +207,7 @@ Let $DGLA$ be the corresponding category.
 +-- {: .num_defn }
 ###### Definition
 
-A dgla is $n$-_reduced_ (resp. _homologically $n$-reduced_) if $L_p = 0$ (resp. $H_p(L,\partial) = 0$) for all $p\lt n$.  Denote by $DGLA_n$ (resp.  $DGLA_{hn}$), the corresponding categories.
+A dgla is $n$-*reduced* (resp. _homologically $n$-reduced_) if $L_p = 0$ (resp. $H_p(L,\partial) = 0$) for all $p\lt n$.  Denote by $DGLA_n$ (resp.  $DGLA_{hn}$), the corresponding categories.
 
 =--
 
@@ -328,6 +328,21 @@ such that for each $\mathfrak{g} \in L_\infty Alg_k$
 This appears for instance as ([KrizMay, cor. 1.6](#KrizMay)).
 
 
+### Relation to dg-coAlgebras
+
+Via the above relation to $L_\infty$-algebras, dg-Lie algebras are also connected by adjunction to [[dg-coalgebras]]
+
+$$
+  dgLieAlg_k
+   \underoverset
+     {\underset{CE}{\longrightarrow}}
+     {\overset{\mathcal{l}}{\longleftarrow}}
+     {\bot}
+  dg-cocAlg_k
+$$
+
+For dg-Lie algebras concentrated in degrees $ \geq n \geq 1$ this is due to ([Quillen 69, appendix B](#Quillen)). For unbounded dg-algebras, this is due to ([Hinich 97](#Hinich97)). For more see at _[[model structure on dg-Lie algebras]]_.
+
 
 ### Relation to simplicial Lie algebras
 
@@ -345,10 +360,12 @@ between [[simplicial Lie algebras]] and [[dg-Lie algebra]]s, where $N$ acts on t
 
 =--
 
-This is ([Quillen, prop. 4.4](#Quillen)).
+This is ([Quillen, prop. 4.4](#Quillen)). For more see at _[[simplicial Lie algebra]]_.
 
 +-- {: .num_theorem}
 ###### Theorem
+
+This adjunction is a [[Quillen adjunction]] with respect to the projective [[model structure on dg-Lie algebras]] and the projective [[model structure on simplicial Lie algebras]] ([this prop.](model+structure+on+simplicial+Lie+algebras#QuillenAdjunctionTodgLieAlgebras)).
 
 The corresponding [[derived functors]] constitute an [[equivalence of categories]] between the corresponding [[homotopy categories]]
 
@@ -386,13 +403,16 @@ This is in the proof of ([Quillen, theorem. 4.4](#Quillen)).
 
 A standard reference in the context of [[rational homotopy theory]] is
 
-* [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725))
- {#Quillen}
+* {#Quillen} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725))
+
+For the unbounded case there is general discussion in
+
+* {#Hinich97} [[Vladimir Hinich]], _Homological algebra of homotopy algebras_, Comm. in algebra, 25(10)(1997), 3291&#8211;3323 ([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453))) 
 
 The relation to $L_\infty$-algebras is discussed for instance in 
 
-* [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf))
- {#KrizMay}
+* {#KrizMay} [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf))
+ 
 
 
 See also the regerences at [[model structure on dg-Lie algebras]].
