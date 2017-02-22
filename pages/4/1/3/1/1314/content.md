@@ -451,3 +451,6 @@ A useful survey is in
 [[!redirects polynomial differential forms on the n-simplex]]
 [[!redirects polynomial differential forms on n-simplices]]
 
+[[!redirects Sullivan differential form]]
+[[!redirects Sullivan differential forms]]
+
