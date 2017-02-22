@@ -29,9 +29,14 @@ The notions of Lie algebra, symmetric algebra, enveloping algebra, etc. can also
 
 ## References
 
+* {#Quillen69} [[Daniel Quillen]], appendix B.3 of _Rational homotopy theory_, Annals of Math., 90(1969), 205&#8211;295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)) 
+
+
 * wikipedia [Poincar&#233;&#8211;Birkhoff&#8211;Witt theorem](http://en.wikipedia.org/wiki/Poincar&#233;&#8211;Birkhoff&#8211;Witt_theorem), [[eom]]: [Birkhoff%E2%80%93Witt_theorem](http://www.encyclopediaofmath.org/index.php/Birkhoff%E2%80%93Witt_theorem)
+
 * [[Pierre Deligne]], [[John Morgan]], _Notes on Supersymmetry, chapter I_. In _[[Quantum Fields and Strings]]: A Course for Mathematicians_ (vol. I), Amer. Math. Soc. 1999. 
 {#DM}
+
 * Pierre-Paul Grivel, _Une histoire du th&#233;or&#232;me de Poincar&#233;-Birkhoff-Witt_, Expo. Math. __22__ (2004), no. 2, 145&#8211;184 [MR2005b:17024](http://www.ams.org/mathscinet-getitem?mr=2056653) <a href="http://dx.doi.org/10.1016/S0723-0869(04)80010-0">doi</a>
 
 [[!redirects Poincaré–Birkhoff–Witt theorem]]
