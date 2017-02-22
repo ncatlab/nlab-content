@@ -177,6 +177,8 @@ As discussed in the article on [[operad|operads]], the notion of Lawvere theory 
 ### Other examples
  {#OtherExamples}
 
+Most of the standard structures that are considered in [[algebra]] indeed are models of algebraic/Lawvere theories in the precise sense. The following list gives a few familiar examples and a few not so familiar ones, but there are many more. Beware though that there are also some familiar examples that seem to be algebraic but are not, these we discuss [below](#SomeNonExamples).
+
 * For $k$ a [[field]], the category of _free $k$-associative algebras_ is the (syntactic category of the) theory of ordinary [[associative algebras]] over $k$.
 
 * for $G$ a fixed [[group]], then $G$-[[actions]] ([[permutation representations]]) are an example of algebras over a Lawvere theory
@@ -189,40 +191,66 @@ As discussed in the article on [[operad|operads]], the notion of Lawvere theory 
 
 * The category [[CartSp]] is the (syntactic category of the) theory of [[smooth algebras]] (as used in [[synthetic differential geometry]]). This is also a [[Fermat theory]]. 
 
+
+### Characterization of examples
+ {#CharacterizationOfExamples}
+
+If $T$ is any [[theory]] given by a [[signature]] consisting of finitary [[operations]] on a single [[sort]] (no [[relations]]), and all the [[axioms]] of $T$ are [[universal quantifier|universally quantified]] [[equations]] between terms, then a model of $T$ can be described as an algebra of a Lawvere theory. 
+
+This includes most cases arising in a typical undergraduate course in modern algebra, as the examples [above](#OtherExamples) suggest.
+
+There are also well-known criteria for a category of single-sorted structures $C$, with underlying set-functor $U: C \to Set$, to be the category of algebras of a Lawvere theory. 
+
++-- {: .num_theorem #RecognizingAConcreteCategoryAsAlgebrasOverALawvereTheory} 
+###### Theorem 
+
+A [[concrete category]] $U \colon C \to Set$ is a category of algebras over a Lawvere theory precisely if $U$ 
+
+1. is [[monadic functor|monadic]] 
+
+1. is _finitary_ in that it preserves [[filtered colimits]]. 
+
+=-- 
+
+Another characterization is:
+
++-- {: .num_example #BirkhoffHSP}
+###### Proposition
+**([[Birkhoff's HSP theorem]])**
+
+Given a class of structures of a *given* set of (single-sorted) finitary operations, and one would like to know if the class is exactly one that is axiomatized by universally quantified equations. This is so if (and only if?) 
+
+1. (H) The class is closed under homomorphic [[images]], 
+
+1. (S) The class is closed under subalgebras, 
+
+1. (P) The class is closed under taking products. 
+
+=--
+
+
+
+
 ### Some non-examples 
+ {#SomeNonExamples}
 
-If $T$ is any [[theory]] given by a [[signature]] consisting of finitary [[operations]] on a single [[sort]] (no [[relations]]), and all the [[axioms]] of $T$ are universally quantified [[equations]] between terms, then a model of $T$ can be described as an algebra of a Lawvere theory. 
+A notable example of a mathematical structure that looks algebraic, but is not a model of an algebraic theory:
 
-This includes most cases arising in a typical undergraduate course in modern algebra, as some of the above examples suggest. Notable exceptions are: 
+* The class of [[fields]] is not the class of algebras of a Lawvere theory. 
 
-* The class of [[fields]] is not the class of algebras of a Lawvere theory. Neither is the class of [[integral domains]]. 
+* Neither is the class of [[integral domains]]. 
 
 This might seem obvious since multiplicative inversion in fields is not a global operation, or otherwise the cancellation law of multiplication in integral domains is not a universally quantified axiom (since we have to make an exception of $0$). But one should be careful that there isn't some sneaky alternative axiomatization for these structures which counters these objections! 
 
-For this, there are well-known criteria for a category of single-sorted structures $C$, with underlying set-functor $U: C \to Set$, to be the category of algebras of a Lawvere theory. In the first place, $U$ needs to be a [[monadic functor]]; this alone rules out fields, since $U$ in that case will create [[limits]] in $C$, but the category of fields does not even have [[products]]. Similarly for integral domains. 
+The first clause in prop. \ref{RecognizingAConcreteCategoryAsAlgebrasOverALawvereTheory} already rules out fields, since $U$ in that case will create [[limits]] in $C$, but the category of fields does not even have [[products]]. Similarly for [[integral domains]]. 
 
-In the second place, $U$ should be *finitary*, meaning it should create and preserve [[filtered colimits]]. This suggests another type of non-example: 
+The second clause in prop. \ref{RecognizingAConcreteCategoryAsAlgebrasOverALawvereTheory} suggests another type of non-example: 
 
 * The category $SLat$ of [[sup-lattices]] is not the category of algebras of a (finitary) Lawvere theory. 
 
 Ostensibly there is a whole class of infinitary sup-operations for sup-lattices (one for every arity = cardinal), but again there is the issue of non-existence of alternative finitary axiomatizations. But this is fairly clear by considering the following example: if $U: SLat \to Set$ created filtered colimits, then the countable copower $\mathbb{N} \cdot \mathbf{2}$ of 2-element sup-lattices (which turns out to be the power set $P(\mathbb{N})$ with its usual order) would be the colimit (union) over finite subsets $S$ of finite copowers $S \cdot \mathbf{2}$, hence a countable union of finite sup-lattices, which is clearly impossible. 
 
-In fact these criteria are necessary and sufficient: 
 
-+-- {: .num_theorem #RecognizingAConcreteCategoryAsAlgebrasOverALawvereTherey} 
-###### Theorem 
-
-A [[concrete category]] $U: C \to Set$ is a category of algebras over a Lawvere theory iff $U$ is [[monadic functor|monadic]] and preserves [[filtered colimits]]. 
-
-=-- 
-
-Another characterization is [[Birkhoff's HSP theorem]]. In this case one is given a class of structures of a *given* set of (single-sorted) finitary operations, and one would like to know if the class is exactly one that is axiomatized by universally quantified equations. The HSP theorem gives necessary and sufficient conditions: this is so if 
-
-* (H) The class is closed under homomorphic [[images]], 
-
-* (S) The class is closed under subalgebras, 
-
-* (P) The class is closed under taking products. 
 
 ## Properties
 
