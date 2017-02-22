@@ -206,7 +206,7 @@ The structures of categories with weak equivalences have standard refinements to
 
 * the _[[model structure on simplicial T-algebras|model structure on simplicial abelian groups]]_ has as fibrations those whose underlying morphisms in [[sSet]] are fibrations ([[Kan fibrations]]) with respect to the standard [[model structure on simplicial sets]].
 
-+-- {: .num_prop }
++-- {: .num_prop #QuillenEquivalenceBetweensAbAndCh}
 ###### Proposition
 
 Both 
@@ -618,8 +618,8 @@ Similar material is in section 4.6 of
 
 Remarks about the interpretation in terms of model categories are in
 
-* [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
-{#SchwedeShipley}
+* {#SchwedeShipley} [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
+
 
 Discussion in the generality of [[idempotent complete category|idempotent complete]] [[additive categories]] is in 
 
