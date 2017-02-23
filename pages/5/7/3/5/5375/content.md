@@ -106,7 +106,7 @@ See also
 
 * [[Taylor Duypuy]], _[Anabelian geometry](https://www.youtube.com/playlist?list=PLJmfLfPx1OedXBno8vlpGd89_3wsdfCEc)_
 
-* {#Morrow17} [[Jackson Morrow]], _Kummer classes and Anabelian geometry_, notes from Super [QVNTS](http://www.dms.umontreal.ca/%7Eqvnts/): [Kummer Classes and Anabelian Geometry](http://www.uvm.edu/%7Etdupuy/anabelian.html) 2017 ([pdf](https://www.dropbox.com/s/kiszgkrrsjrqu4p/VermontNotes_Final.pdf?dl=0))
+* {#Morrow17} [[Jackson Morrow]], _Kummer classes and Anabelian geometry_, notes from Super [QVNTS](http://www.dms.umontreal.ca/%7Eqvnts/): [Kummer Classes and Anabelian Geometry](http://www.uvm.edu/%7Etdupuy/anabelian.html) 2017 ([[Morrow17.pdf:file]])
 
 
 [[!redirects anabelian variety]]
