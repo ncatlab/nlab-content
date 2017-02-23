@@ -124,7 +124,7 @@ A _[[simplicial Lawvere theory]]_ is a a pointed [[simplicial category]] $T$ equ
 
 1. $i$ is the identity on objects
 
-1  $i$ preserves [[finite products]]
+1.  $i$ preserves [[finite products]]
 
 Given a simplicial theory $T$, then a _simplicial $T$-algebra_ is a product preserving [[simplicial functor]] $X$ to the [[simplicial category]] of [[pointed simplicial sets]]. The simplicial set
 
