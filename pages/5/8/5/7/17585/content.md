@@ -62,20 +62,6 @@ The formula in prop. \ref{SullivanModelForTheFreeLoopSpace} is the same as that 
 
 ## Properties
 
-### Relation to Hochschild homology
-  {#RelationToHochschildHomology}
-
-the integral [[ordinary cohomology]] of the [[free loop space]] $\mathcal{L}X$ of a [[topological space]] $X$ is the [[Hochschild homology]] of the [[singular complex|singular cochains]]
-
-$H^\bullet(\mathcal{L}X, \mathbb{Z}) \simeq HH_\bullet(C^\bullet(X))$
-
-(e.g [Loday 98](#Loday98))
-
-if $X$ admits the structure of a [[smooth manifold]], then 
-
-$H^\bullet(\mathcal{L}X, \mathbb{R}) \simeq HH_\bullet(\Omega^\bullet(X))$
-
-see at _[Jones's theorem](Hochschild+cohomology#JonesTheorem)_
 
 ### Homotopy quotient by $S^1$ and cyclic homology
 
@@ -126,6 +112,54 @@ which exhibits the [[infinity-action]] (by the discussion there) of $S^1$ on $\m
 =--
 
 This is due to ([Vigu&#233;-Burghelea 85, theorem A](#VigueBurghelea85)).
+
+### Relation to Hochschild homology and cyclic homology
+  {#RelationToHochschildHomology}
+
+Let $X$ be a [[simply connected topological space|simply connected]] [[topological space]]. 
+
+The [[ordinary cohomology]] $H^\bullet$ of its [[free loop space]] is the [[Hochschild homology]] $HH_\bullet$ of its [[singular cohomology|singular chains]] $C^\bullet(X)$:
+
+$$
+  H^\bullet(\mathcal{L}X)
+    \simeq
+  HH_\bullet( C^\bullet(X) )
+  \,.
+$$
+
+Moreover the $S^1$-equivariant cohomology of the loop space, hence the ordinary cohomology of the cyclic loop space $\mathcal{L}X/^h S^1$ is the [[cyclic homology]] $HC_\bullet$ of the singular chains:
+
+$$
+  H^\bullet(\mathcal{L}X/^h S^1)
+    \simeq
+  HC_\bullet( C^\bullet(X) )
+$$
+
+([Loday 11](#Loday11))
+
+If the [[coefficients]] are [[rational numbers|rational]], and $X$ is of [[finite type]] then by prop. \ref{SullivanModelForTheFreeLoopSpace} and prop. \ref{ModelForS1quotient}, and the general statements at _[[rational homotopy theory]]_, the [[cochain cohomology]] of the above [[minimal Sullivan models]] for $\mathcal{L}X$ and $\mathcal{l}X/S^1$ compute the rational [[Hochschild homology]] and [[cyclic homology]] of (the cochains on) $X$, respectively. 
+
+
+In the special case that the [[topological space]] $X$ carries the structure of a [[smooth manifold]], then the singular cochains on $X$ are equivalent to the [[dgc-algebra]] of [[differential forms]] (the [[de Rham algebra]]) and hence in this case the statement becomes that 
+
+
+$$
+  H^\bullet(\mathcal{L}X)
+    \simeq
+  HH_\bullet( \Omega^\bullet(X) )
+  \,.
+$$
+
+$$
+  H^\bullet(\mathcal{L}X/^h S^1)
+    \simeq
+  HC_\bullet( \Omega^\bullet(X) )
+  \,.
+$$
+
+This is known as _[[Jones' theorem]]_ ([Jones 87](#Jones87))
+
+An [[(infinity,1)-category theory|infinity-category theoretic]] proof of this fact is indicated at _[Hochschild cohomology -- Jones' theorem](Hochschild+cohomology#JonesTheorem)_.
 
 
 ## Examples
@@ -432,8 +466,11 @@ Review is in
 
 General background on [[Hochschild homology]] and [[cyclic homology]] is in
 
+* {#Jones87} [[John D.S. Jones]], _Cyclic homology and equivariant homology_, Invent. Math. __87__, 403-423 (1987) ([pdf](https://math.berkeley.edu/~nadler/jones.pdf))
+
 * {#Loday98} [[Jean-Louis Loday]], _Cyclic homology_, Grundlehren Math.Wiss. __301__, Springer (1998)
 
+* {#Loday11} [[Jean-Louis Loday]], _Free loop space and homology_ ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405))
 
 [[!redirects Sullivan models of free loop space]]
 [[!redirects Sullivan model of free loop spaces]]
