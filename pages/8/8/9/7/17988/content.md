@@ -30,7 +30,7 @@ Issues that the program of asymptotic safety of gravity is facing include the fo
 
 1. All existing computations that see hints for a UV-fixed point do so by first applying a drastic truncation to the space of couplings, and then checking only whether there is a UV-fixed point for the RG-flow in the remaining small subspace. It seems unclear to which extent these approximate considerations may be extrapolated.
 
-1. Most existing computations consider only pure Einstein gravity without matter coupling. It seems unclear to which extent these results may be extrapolated to the situation where matter is taken account of.
+1. Most existing computations consider only pure Einstein gravity without matter coupling. It seems unclear to which extent these results may be extrapolated to the situation where matter is taken account of (but see [Biemans-Platania-Saueressig 17](#BiemansPlataniaSaueressig17)).
 
 1. If one assumes (as is widely, but no generally believed) that [[Bekenstein-Hawking entropy]] seen in classical gravity is to correspond to a microscopic [[entropy]] of its quantum degrees of freedom, then the scaling of this entropy with area as opposed to volume contradicts the assumption that [[quantum gravity]] is a [[local field theory]] at small scales and higher energies ([Shomer 07, section IV](#Shomer07)) and hence then it contradicts the asymptotic safety of gravity. 
 
@@ -56,8 +56,12 @@ Review of the asymptotic safety program includes these:
 
 * [[Max Niedermaier]], [[Martin Reuter]], _The Asymptotic Safety Scenario in Quantum Gravity_, Living Reviews in Relativity December 2006, 9:5 [doi:10.12942/lrr-2006-5](http://link.springer.com/article/10.12942/lrr-2006-5)
 
-This review here considely provides background on actual technical details:
+The following review provides concise background on actual technical details:
 
 * {#Shomer07} Assaf Shomer, _A pedagogical explanation for the non-renormalizability of gravity_ ([arXiv:0709.3555](https://arxiv.org/abs/0709.3555))
+
+See also
+
+* {#BiemansPlataniaSaueressig17} Jorn Biemans, Alessia Platania, Frank Saueressig, _Renormalization group fixed points of foliated gravity-matter systems_ ([arXiv:1702.06539](https://arxiv.org/abs/1702.06539))
 
 
