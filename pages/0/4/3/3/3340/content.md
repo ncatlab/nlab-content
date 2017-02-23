@@ -74,6 +74,56 @@ The **cyclic cohomology** groups of $A$ Are the [[cohomology]] groups of the dua
 If $I\subset A$ is an ideal, then the **relative cyclic homology** groups $HC_n(A,I)$ are the homology groups of the complex $C_\bullet(A,I) = ker(C_\bullet(A)\to C_\bullet(A/I))$.
 =--
 
+### Ordinary cohomology of $\mathcal{L}X/S^1$ and cyclic homology of $X$
+
+Let $X$ be a [[simply connected topological space|simply connected]] [[topological space]]. 
+
+The [[ordinary cohomology]] $H^\bullet$ of its free loop space is the [[Hochschild homology]] $HH_\bullet$ of its [[singular cohomology|singular chains]] $C^\bullet(X)$:
+
+$$
+  H^\bullet(\mathcal{L}X)
+    \simeq
+  HH_\bullet( C^\bullet(X) )
+  \,.
+$$
+
+Moreover the $S^1$-equivariant cohomology of the loop space, hence the ordinary cohomology of the [[cyclic loop space]] $\mathcal{L}X/^h S^1$ is the [[cyclic homology]] $HC_\bullet$ of the singular chains:
+
+$$
+  H^\bullet(\mathcal{L}X/^h S^1)
+    \simeq
+  HC_\bullet( C^\bullet(X) )
+$$
+
+([Loday 11](#Loday11))
+
+If the [[coefficients]] are [[rational numbers|rational]], and $X$ is of [[finite type]] then this may be computed by the _[[Sullivan model for free loop spaces]]_, see there the section on _[Relation to Hochschild homology](Sullivan+model+of+free+loop+space#RelationToHochschildHomology)_.
+
+
+In the special case that the [[topological space]] $X$ carries the structure of a [[smooth manifold]], then the singular cochains on $X$ are equivalent to the [[dgc-algebra]] of [[differential forms]] (the [[de Rham algebra]]) and hence in this case the statement becomes that 
+
+
+$$
+  H^\bullet(\mathcal{L}X)
+    \simeq
+  HH_\bullet( \Omega^\bullet(X) )
+  \,.
+$$
+
+$$
+  H^\bullet(\mathcal{L}X/^h S^1)
+    \simeq
+  HC_\bullet( \Omega^\bullet(X) )
+  \,.
+$$
+
+This is known as _[[Jones' theorem]]_ ([Jones 87](#Jones87))
+
+An [[(infinity,1)-category theory|infinity-category theoretic]] proof of this fact is indicated at _[Hochschild cohomology -- Jones' theorem](Hochschild+cohomology#JonesTheorem)_.
+
+
+
+
 ## Related entries 
 
 * [[cycle category]], [[cyclic object]], [[Hochschild homology]]
@@ -130,7 +180,13 @@ Some influential original references from 1980s:
 _&#1040;&#1076;&#1076;&#1080;&#1090;&#1080;&#1074;&#1085;&#1072;&#1103; K-&#1090;&#1077;&#1086;&#1088;&#1080;&#1103; &#1080; &#1082;&#1088;&#1080;&#1089;&#1090;&#1072;&#1083;&#1100;&#1085;&#1099;&#1077; &#1082;&#1086;&#1075;&#1086;&#1084;&#1086;&#1083;&#1086;&#1075;&#1080;&#1080;_, &#1060;&#1091;&#1085;&#1082;&#1094;. &#1072;&#1085;&#1072;&#1083;&#1080;&#1079; &#1080; &#1077;&#1075;&#1086; &#1087;&#1088;&#1080;&#1083;., 19:2 (1985), 52&#8211;-62, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=1358&what=fullt&option_lang=rus), [MR88e:18008](http://www.ams.org/mathscinet-getitem?mr=800920); Engl. transl. in B. L. Fe&#301;gin, B. L. Tsygan, _Additive $K$-theory and crystalline cohomology_, Functional Analysis and Its Applications, 1985, 19:2, 124&#8211;132.
 * [[T. Goodwillie]], _Cyclic homology, derivations, and the free loopspace_, Topology __24__ (1985),
 no. 2, 187&#8211;215, [MR87c:18009](http://www.ams.org/mathscinet-getitem?mr=793184), <a href="http://dx.doi.org/10.1016/0040-9383(85)90055-2">doi</a>
-* [[John D.S. Jones]], _Cyclic homology and equivariant homology_, Invent. Math. __87__, 403-423 (1987) [pdf](http://www.kryakin.com/files/Invent_mat_%282_8%29/87/87_22.pdf)
+
+The relation to [[cyclic loop spaces]]:
+
+* {#Jones87} [[John D.S. Jones]], _Cyclic homology and equivariant homology_, Invent. Math. __87__, 403-423 (1987) ([pdf](https://math.berkeley.edu/~nadler/jones.pdf))
+
+* {#Loday11} [[Jean-Louis Loday]], _Free loop space and homology_ ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405))
+
 
 [[!redirects cyclic cohomology]]
 [[!redirects cyclic (co)homology]]
