@@ -1039,15 +1039,23 @@ The Quillen equivalence between connective chain dg-algebras and simplicial alge
 * {#SchwedeShipley} [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv:math.AT/0209342](http://arxiv.org/abs/math.AT/0209342))
 
 
-The Quillen equivalence between connected cochain dg-algebras and cosimplicial algebras is discussed in 
+The equivalence between connected cochain dg-algebras and cosimplicial algebras is discussed in 
 
-* J.L. Castiglioni, G. Corti&#241;as, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_ , J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, ([arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289))
-{#CastiglioniCortinas}.
+* {#CastiglioniCortinas} J.L. Castiglioni, G. Corti&#241;as, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_ , J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, ([arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289))
 
-Also section 4.4 of
+The equivalence between cosimplicial commutative algebras and commutative cochain dg-algebras in non-negative degree, over a field of char 0 is discussed in 
 
-* [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
- {#Pridham}
+* {#HinichSchechtman} [[Vladimir Hinich]], [[Vadim Schechtman]], _Homotopy limits of homotopy algebras_, in _K-theory: algebra, geometry, arithmetic_, Lecture Notes in Mathematics 1289,  Springer, Berlin 240 &#8722; 264
+
+* {#Pridham} [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
+
+
+and the analogous statement for the simplicial case, with hints for its proof, is also in 
+
+* {#Fresse} [[Benoit Fresse]], _[Homotopy of Operads and Grothendieck-Teichm&#252;ller Groups](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/)_, chapter 6: _Differential graded commutative algebras and cosimplicial algebras_ ([pdf](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/CommutativeAlgebraHomotopy.pdf))
+
+
+ 
 
 The Quillen equivalence between connected simplicial commutative algebras and connected commutative dg-algebras in characteristic 0 is indicated all the way back on p. 223 of
 
@@ -1080,14 +1088,6 @@ See also the appendix in
 
 * [[Pavol ?evera]], [[Thomas Willwacher]], _Equivalence of formalities of the little discs operad_, [arXiv:0905.1789](http://arxiv.org/abs/0905.1789)
 
-The equivalence between cosimplicial commutative algebras and commutative cochain dg-algebras in non-negative degree, over a field of char 0 is discussed in 
-
-* [[Vladimir Hinich]], [[Vadim Schechtman]], _Homotopy limits of homotopy algebras_, in K-theory: algebra, geometry, arithmetic, Lecture Notes in Mathematics 1289,
-Springer, Berlin 240 &#8722; 264
-
-and the analogous statement for the simplicial case, with hints for its proof, is also in 
-
-* {#Fresse} [[Benoit Fresse]], _[Homotopy of Operads and Grothendieck-Teichm&#252;ller Groups](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/)_, chapter 6: _Differential graded commutative algebras and cosimplicial algebras_ ([pdf](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/CommutativeAlgebraHomotopy.pdf))
 
 [[!redirects monoidal Dold?Kan correspondence]]
 [[!redirects monoidal Dold--Kan correspondence]]
