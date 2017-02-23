@@ -24,6 +24,9 @@ There is a vast generalizations for higher-order theories (and more) [[abstract 
 * wikipedia [elementary class](http://en.wikipedia.org/wiki/Elementary_class)
 
 category: model theory
+
+[[!redirects elementary classes of structures]]
+
 [[!redirects elementary class of models]]
 [[!redirects elementary class]]
 [[!redirects elementary classes]]
