@@ -836,15 +836,14 @@ More model category theoretic developments relating various of the previous appr
  
 in parts based on 
 
-* {#Manetti02} [[Marco Manetti]], _Extended deformation functors_, Int. Math. Res. Not., (14):719&#8211;
-756, 2002
+* {#Manetti02} [[Marco Manetti]], _Extended deformation functors_, Int. Math. Res. Not., (14):719&#8211;756, 2002 ([arXiv:math/9910071](https://arxiv.org/abs/math/9910071))
 
 A useful summary of that paper is given in the [notes](http://poisson.phc.unipi.it/~maggiolo/wp-content/uploads/2008/12/WDTII_Pridham.pdf), by Stefano Maggiolo.
 
 A discussion of [[path space objects]] for $L_\infty$-algebras is in section 5 of 
 
-* Vasiliy A. Dolgushev, _Erratum to: "A Proof of Tsygan's Formality Conjecture for an Arbitrary Smooth Manifold"_ ([arXiv:math/0703113](http://arxiv.org/abs/math/0703113))
- {#Dolgushev07}
+* {#Dolgushev07} Vasiliy A. Dolgushev, _Erratum to: "A Proof of Tsygan's Formality Conjecture for an Arbitrary Smooth Manifold"_ ([arXiv:math/0703113](http://arxiv.org/abs/math/0703113))
+ 
 
 A discussion of [[homotopy fibers]] of morphusms to abelian $L_\infty$-algebras and hence [∞-Lie algebra extensions](infinity-Lie+algebra+cohomology#Extensions)) is in section 3.1 of
 
