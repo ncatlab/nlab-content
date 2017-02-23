@@ -271,10 +271,10 @@ $$
 By prop. \ref{EquivalentCharacterizations}
 locally presentable $(\infty,1)$-categories are equivalently those [[(∞,1)-categories]] which are _presented_ by a [[combinatorial simplicial model category]] $C$ in that they are the full [[simplicially enriched category|simplicial subcategory]] $C^\circ \hookrightarrow C$ on fibrant-cofibrant objects of $C$ (or, equivalently, the [[quasi-category]] associated to this [[simplicially enriched category]]).
 
-+-- {: .num_remark}
++-- {: .num_remark #QuillenEquivZigZag} 
 ###### Remark
 
-Under this presentation, [[equivalence of (∞,1)-categories]] between locally presentable $(\infty,1)$-categories corresponds to [[zigzags]] of [[Quillen equivalence]]s between presenting [[combinatorial simplicial model category|combinatorial simplicial model categories]]:
+Under this presentation, [[equivalence of (∞,1)-categories]] between locally presentable $(\infty,1)$-categories corresponds to [[zigzags]] of [[Quillen equivalences]] between presenting [[combinatorial simplicial model category|combinatorial simplicial model categories]]:
 
 $C^\circ$ and $D^\circ$ are equivalent as $(\infty,1)$-categories precisely
 if there exists a chain of simplicial Quillen equivalence
@@ -374,8 +374,8 @@ with section A.3.7 establishing the relation [[combinatorial model categories]] 
 
 The statement of [Dugger's theorem](combinatorial+model+category#DuggerTheorem) of which the characterization of locally presentable $(\infty,1)$-categories as localizations of $(\infty,1)$-presheaf categories is a variant is due to 
 
-* [[Dan Dugger]], _[[Combinatorial model categories have presentations]]_
- {#Dugger}
+* {#Dugger}[[Dan Dugger]], _[[Combinatorial model categories have presentations]]_
+ 
 
 
 
