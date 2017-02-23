@@ -96,7 +96,8 @@ Foundational articles:
 
 Monographs:
 
-* [[J-L. Loday]], _Cyclic homology_, Grundleheren Math.Wiss. __301__, Springer, 2nd ed.
+* {#Loday98} [[Jean-Louis Loday]], _Cyclic homology_, Grundlehren Math.Wiss. __301__, Springer (1998)
+
 * [[Alain Connes]], _Noncommutative geometry_, Acad. Press 1994, 661 p. [PDF](http://www.alainconnes.org/docs/book94bigpdf.pdf) 
 * [[Max Karoubi]], _Homologie cyclique et K-th&#233;orie_, Ast&#233;rique __149__, Soci&#233;t&#233; Math&#233;matique de France (1987). 
 * [[Ib Madsen]], _Algebraic K-theory and traces_, Current Developments in Mathematics, 1995.
