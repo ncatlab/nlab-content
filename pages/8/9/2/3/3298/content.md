@@ -1464,17 +1464,22 @@ $$
 in $cdgAlg_k$.
 
 
-#### Jones' theorem {#JonesTheorem}
+#### Jones' theorem 
+ {#JonesTheorem}
 
-[Jones' theorem](#JonesTheorem) asserts that the Hochschild homology of the dg-algebra of differential forms on a manifold computes the homology of the corresponding loop space. We discuss now how this result follows using derived loop spaces of [[constant ∞-stack]]s.
+[[Jones' theorem]] asserts that the Hochschild homology of the [[dgc-algebra]] of [[differential forms]] on a [[smooth manifold]] computes the [[ordinary cohomology]] of the corresponding [[free loop space]]. We discuss now how this result follows using derived loop spaces of [[constant ∞-stacks]]
+
+See also at _[[Sullivan model for free loop spaces]]_ the section on _[Relation to Hochschild homology](Sullivan+model+of+free+loop+space#RelationToHochschildHomology)_.
 
 +-- {: .num_prop}
 ###### Fact
 
-For $X$ a [[manifold]], $\Omega^\bullet(X)$ its [[de Rham dg-algebra]] and $L X$ its [[free loop space]], we have
+For $X$ a [[smooth manifold]], $\Omega^\bullet(X)$ its [[de Rham dg-algebra]] and $\mathcal{L} X$ its [[free loop space]], we have
 
 $$
-  H^\bullet(L X, \mathbb{R}) \simeq HH_\bullet(\Omega^\bullet(X), \Omega^\bullet(X))
+  H^\bullet(\mathcal{L} X, \mathbb{R}) 
+    \simeq 
+  HH_\bullet(\Omega^\bullet(X), \Omega^\bullet(X))
   \,.
 $$
 
@@ -1489,23 +1494,23 @@ Set $k = \mathbb{R}$. Write $LConst X \in \mathbf{H}$ for the [[constant ∞-sta
 
 $$
   \mathcal{O} LConst X \simeq C^\bullet(X,k) \simeq \Omega^\bullet(X)
-  \in
-  cdgAlg_{\mathbb{R}}
+   \in
+  dgcAlg_{\mathbb{R}}
 $$
 
-is (...) the the $k$-valued [[singular cohomology|singular cochain]] complex of $X$, which by the [[de Rham theorem]] is equivalent to the [[de Rham dg-algebra]].
+is (...) the $k$-valued [[singular cohomology|singular cochain]] complex of $X$, which by the [[de Rham theorem]] is equivalent to the [[de Rham dg-algebra]].
 
-Since $LConst$ is a [[left exact (∞,1)-functor]] it commutes with forming [[free loop space object]]s and therefore
+Since $LConst$ is a [[left exact (∞,1)-functor]] it commutes with forming [[free loop space objects]] and therefore
 
 $$
-  \mathcal{L} LConst X \simeq LConst L X
+  \mathcal{L} LConst X \simeq LConst (\mathcal{L} X)
   \,.
 $$
 
 Since $LConst X$ is $\mathcal{O}$-perfect (...) we have by the above copowering-description of the Hochschild complexes that the cohomology of the loop space of $X$
 
 $$
-  \mathcal{O} ((LConst X)^{S^1}) \simeq C^\bullet(L X, k)
+  \mathcal{O} ((LConst X)^{S^1}) \simeq C^\bullet(\mathcal{L} X, k)
 $$
 
 is given by the Hochschild complex of the dg-algebra $\Omega^\bullet(X)$
@@ -1516,6 +1521,7 @@ $$
 $$
 
 =--
+
 
 #### The circle and the odd line {#CircleAndOddLine}
 
