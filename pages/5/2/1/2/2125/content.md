@@ -63,39 +63,38 @@ The simplicial version is made monoidal by replacing the other functor by someth
 
 Below we discuss the following [[Quillen equivalence]]s that capture various aspects of the monoidal Dold-Kan correspondence.
 
-* $(\Gamma \dashv N) : sAb \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{N}{\to}} Ch_\bullet^+$
+* $(\Gamma \dashv N) : sAb \underoverset{\underset{N}{\longrightarrow}}{\overset{\Gamma}{\longleftarrow}}{\bot} Ch_\bullet^+$
 
   as well as
 
-  $(N \dashv \Gamma) : Ch_\bullet^+ \stackrel{\overset{N}{\leftarrow}}{\underset{\Gamma}{\to}} sAb $   
+  $(N \dashv \Gamma) : Ch_\bullet^+ \underoverset{\underset{\Gamma}{\longrightarrow}}{\overset{N}{\longleftarrow}}{\bot} sAb $   
 
-  between simplicial abelian groups and connective chain complexes;
+  between [[simplicial abelian groups]] and connective [[chain complexes]];
 
 
-*  $(\Gamma^{cmon} \dashv N) : CAlg_k^{\Delta^{op}} \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{N}{\to}} CdgAlg_{k}^{conn}$
+*  $(\Gamma^{cmon} \dashv N) : CAlg_k^{\Delta^{op}} \underoverset{\underset{N}{\longrightarrow}}{\overset{\Gamma}{\longleftarrow}}{\bot} CdgAlg_{k}^{conn}$
 
-   between connected commutative simplicial algebras and connected commutative dg-algebras over a field of characteristic 0
+   between connected [[simplicial algebra|simplical]] [[commutative algebras]] and connected [[differential graded-commutative algebras]] over a [[field]] of [[characteristic zero]]
 
-*  $(\Gamma^{mon} \dashv N) : Alg_k^{\Delta^{op}} \stackrel{\overset{\Gamma^{mon}}{\leftarrow}}{\underset{N}{\to}} dgAlg_{k}$
+*  $(\Gamma^{mon} \dashv N) : Alg_k^{\Delta^{op}} \underoverset{\underset{N}{\longrightarrow}}{\overset{\Gamma^{mon}}{\longleftarrow}}{\bot} dgAlg_{k}$
 
    as well as
 
-    $(N^{mon} \dashv \Gamma) : dgAlg_{k}\stackrel{\overset{N^{mon}}{\leftarrow}}{\underset{\Gamma}{\to}} Alg_k^{\Delta^{op}} $
+    $(N^{mon} \dashv \Gamma) : dgAlg_{k} \underoverset{\underset{\Gamma}{\longrightarrow}}{\overset{N^{mon}}{\longleftarrow}}{\bot} Alg_k^{\Delta^{op}} $
 
    between simplicial algebras and connective dg-algebras (neither necessarily commutative) over a commutative ring $k$
 
 
-*  $ (\Gamma^{mon} \dashv N) : dgRing \stackrel{\overset{\Gamma^{mon}}{\leftarrow}}{\underset{N}{\to}}  Ring^{\Delta}$
+*  $ (\Gamma^{mon} \dashv N) : dgRing \underoverset{\underset{N}{\longrightarrow}}{\overset{\Gamma^{mon}}{\longleftarrow}}{\bot}  Ring^{\Delta}$
 
    between connective cochain dg-rings and cosimplicial rings
 
 
-*  $(\Gamma^{mon} \dashv N) : Alg_A^{\Delta^{op}} \stackrel{\overset{\Gamma^{mon}}{\leftarrow}}{\underset{N}{\to}} dgAlg_{N(A)}$
+*  $(\Gamma^{mon} \dashv N) : Alg_A^{\Delta^{op}} \underoverset{\underset{N}{\longrightarrow}}{\overset{\Gamma^{mon}}{\longleftarrow}}{\bot} dgAlg_{N(A)}$
 
    between simplicial algebras and connective dg-algebras (neither necessarily commutative) over a commutative simplicial ring $A$ and its normalized dg-ring $N(A)$
 
-*  $(\Gamma^{E_\infty} \dashv N) : E_\infty Alg_k^{\Delta^{op}} \stackrel{\overset{\Gamma^{E_\infty}}{\leftarrow}}{\underset{N}{\to}} 
-   E_\infty dgAlg_{k}$
+*  $(\Gamma^{E_\infty} \dashv N) : E_\infty Alg_k^{\Delta^{op}} \underoverset{\underset{N}{\longrightarrow}}{\overset{\Gamma^{E_\infty}}{\longleftarrow}}{\bot}  E_\infty dgAlg_{k}$
 
    between $E_\infty$ simplicial algebras and connective $E_\infty$ dg-algebras over a ring $k$ in any characteristic   
 
@@ -264,11 +263,14 @@ We discuss [[Quillen equivalence]]s revolving around the monoidal Dold-Kan corre
 Write
 
 $$
-  (\Gamma \dashv N) / (N \dashv \Gamma) : Ch_\bullet^+ \stackrel{\overset{N}{\leftarrow}}{\underset{\Gamma}{\to}}
+  (\Gamma \dashv N) / (N \dashv \Gamma) 
+   : 
+  Ch_\bullet^+ 
+    \underoverset{\underset{\Gamma}{\longrightarrow}}{\overset{N}{\longleftarrow}}{\bot}
   s Ab
 $$
 
-for the ordinary [[Dold-Kan correspondence]]. $Ch_\bullet^+$ denotes the [[connective chain complex|connective]] chain complexes: non-negatively graded. 
+for the ordinary [[Dold-Kan correspondence]]. $Ch_\bullet^+$ denotes the [[connective chain complex|connective]] chain complexes, i.e. with [[differential]] of degree -1 and concentrated in degrees $\geq 0$.
 
 Since $N$ and $\Gamma$ are strictly inverse to each other, this may be regarded as a pair of [[adjoint functor]]s in two ways. Moreover, with respect to the standard [[model category]] structures (the projective [[model structure on chain complexes]] (fibrations the degreewise surjections in positive degree) and the projective [[model structure on simplicial T-algebras|model structure on simplicial abelian groups]] (fibrations the underlying [[Kan fibration]])s ) both adjunctions are [[Quillen equivalence]]s.
 
@@ -323,7 +325,7 @@ $$
   (\Gamma^{mon} \dashv N) 
     \colon 
   Alg_k^{\Delta^{op}}
-    \stackrel{\overset{\Gamma^{mon}}{\leftarrow}}{\underset{N}{\to}}   
+    \underoverset{\underset{N}{\longrightarrow}}{\overset{\Gamma^{mon}}{\longleftarrow}}{\bot}   
   dgAlg_k 
 $$
 
@@ -350,7 +352,7 @@ $$
   (\Gamma \dashv N) 
   : 
   Mod_k^{\Delta^{op}}
-  \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{N}{\to}}
+   \underoverset{\underset{N}{\longrightarrow}}{\overset{\Gamma}{\longleftarrow}}{\bot}
   Ch_\bullet(k)^+
 $$
 
@@ -391,7 +393,7 @@ $$
   (N^{mon} \dashv \Gamma) 
    \colon
    dgAlg_k  
-      \stackrel{\overset{N^{mon}}{\leftarrow}}{\underset{\Gamma}{\to}}  
+      \underoverset{\underset{\Gamma}{\longrightarrow}}{\overset{N^{mon}}{\longleftarrow}}{\bot}  
     Alg_k^{\Delta^{op}}
 $$
 
@@ -408,7 +410,7 @@ $$
   (N \dashv \Gamma) 
     \colon 
   Ch_\bullet^+(k)  
-    \stackrel{\overset{N}{\leftarrow}}{\underset{\Gamma}{\to}} 
+    \underoverset{\underset{\Gamma}{\longrightarrow}}{\overset{N}{\longleftarrow}}{\bot} 
   Mod_k^{\Delta^{op}}
 $$
 
@@ -427,7 +429,7 @@ Therefore with the [theorem on lifts to monoids](monoidal+Quillen+adjunction#Lif
 For $A$ a commutative [[simplicial ring]] there is a [[Quillen equivalence]]
 
 $$
-  (Q \dashv N) : Alg_A \stackrel{\overset{Q}{\leftarrow}}{\underset{N}{\to}} Alg_{N(A)}
+  (Q \dashv N) : Alg_A \underoverset{\underset{N}{\longrightarrow}}{\overset{Q}{\longleftarrow}}{\bot} Alg_{N(A)}
 $$
 
 between simplicial $A$-algebras and connective differential $N(A)$-algebras, where the right adjoint in the normalization functor, but the left adjoint is not $\Gamma$.
@@ -449,7 +451,7 @@ $$
   (Q \dashv N) 
     \colon 
   sAlg^C_k 
-    \stackrel{\overset{Q}{\leftarrow}}{\underset{N}{\to}}  
+    \underoverset{\underset{N}{\longrightarrow}}{\overset{Q}{\longleftarrow}}{\bot}  
   dgAlg^C_k
 $$
 
@@ -982,7 +984,8 @@ There is a Quillen equivalence
 
 $$
   (\Gamma^{mon} \dashv N) :  Ring^{\Delta}
- \stackrel{\overset{\Gamma^{mon}}{\leftarrow}}{\underset{N}{\to}}  dgRing$$
+   \underoverset{\underset{N}{\longrightarrow}}{\overset{\Gamma^{mon}}{\longleftarrow}}{\bot}  dgRing
+$$
 
 between connective cochain dg-rings and cosimplicial rings.
 
