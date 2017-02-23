@@ -62,6 +62,21 @@ The formula in prop. \ref{SullivanModelForTheFreeLoopSpace} is the same as that 
 
 ## Properties
 
+### Relation to Hochschild homology
+  {#RelationToHochschildHomology}
+
+the integral [[ordinary cohomology]] of the [[free loop space]] $\mathcal{L}X$ of a [[topological space]] $X$ is the [[Hochschild homology]] of the [[singular complex|singular cochains]]
+
+$H^\bullet(\mathcal{L}X, \mathbb{Z}) \simeq HH_\bullet(C^\bullet(X))$
+
+(e.g [Loday 98](#Loday98))
+
+if $X$ admits the structure of a [[smooth manifold]], then 
+
+$H^\bullet(\mathcal{L}X, \mathbb{R}) \simeq HH_\bullet(\Omega^\bullet(X))$
+
+see at _[Jones's theorem](Hochschild+cohomology#JonesTheorem)_
+
 ### Homotopy quotient by $S^1$ and cyclic homology
 
 +-- {: .num_prop #ModelForS1quotient}
@@ -414,6 +429,11 @@ Review is in
 * {#FiorenzaSatiSchreiber16} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Rational sphere valued supercocycles in M-theory]]_, ([arXiv:1606.03206](https://arxiv.org/abs/1606.03206)) 
 
 * {#FSS16b} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_ ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
+
+General background on [[Hochschild homology]] and [[cyclic homology]] is in
+
+* {#Loday98} [[Jean-Louis Loday]], _Cyclic homology_, Grundlehren Math.Wiss. __301__, Springer (1998)
+
 
 [[!redirects Sullivan models of free loop space]]
 [[!redirects Sullivan model of free loop spaces]]
