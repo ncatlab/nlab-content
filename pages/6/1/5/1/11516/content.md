@@ -36,6 +36,7 @@ In the context of [[stable homotopy theory]] the [[stabilization]] of $G$-spaces
 ## Properties
 
 ### Model structure and homotopy theory
+ {#ModelStructureAndHomotopyTheory}
 
 The standard [[homotopy theory]] on $G$-spaces used in [[equivariant homotopy theory]] considers [[weak equivalences]] which are [[weak homotopy equivalence]] on all (ordinary) [[fixed point]] spaces for all suitable [[subgroups]]. By [[Elmendorf's theorem]], this is equivalent to [[(∞,1)-presheaves]] over the [[orbit category]] of $G$.
 
@@ -54,6 +55,11 @@ On the other hand there is also the standard homotopy theory of [[infinity-actio
 * [[G-set]]
 
 [[!include equivariant homotopy theory -- table]]
+
+See also
+
+
+* _[[equivariant stable homotopy theory]]_
 
 
 ## References
