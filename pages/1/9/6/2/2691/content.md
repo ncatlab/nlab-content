@@ -396,6 +396,10 @@ Prop. \ref{PoweringOfdgcCchainAlgebrasInNonNegativeDegreeOverFiniteSimplicialSet
 
 =--
 
+#### Relation to cosimplicial commutative algbras
+
+The [[monoidal Dold-Kan correspondence]] gives a [[Quillen equivalence]] to the [[model structure on cosimplicial algebras|projective model structure on cosimplicial commutative algebras]] $(cAlg_k^{\Delta})_{proj}$.
+
 
 #### Commutative vs. non-commutative dg-algebras 
  {#CommVsNoncomm}
