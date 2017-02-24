@@ -118,7 +118,7 @@ A good way to reconcile these seemingly clashing terminologies is to talk about 
 
 Formalization of [[set theory]] via h-sets in [[homotopy type theory]] is discussed in 
 
-* [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
+* {#RijkeSpitters13} [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_, Mathematical Structures in Computer Science, Volume 25, Issue 5 (From type theory and homotopy theory to Univalent Foundations of Mathematics)  ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
 
 
 [[!redirects h-set]]
