@@ -1187,7 +1187,7 @@ Survey and review includes
 
 * {#Majewski00} Martin Majewski, _Rational homotopy models and uniqueness_ , AMS Memoir (2000):
 
-* {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
+* {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_,  Interactions between homotopy theory and algebra, 175-202. Contemp. Math 436 ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
 
 
 * {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013)
