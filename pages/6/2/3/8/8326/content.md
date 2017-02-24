@@ -21,13 +21,13 @@ This page is about
 
   _Wissenschaft der Logik_ ( _Science of Logic_)
 
-  Volume 1, _The Objective Logic_, 
+  Volume 1, _The Objective Logic_,
 
-  * The Doctrine of Being; 
+  * The Doctrine of Being;
 
   * The Doctrine of Essence.
 
-  Volume 2, _The Subjective Logic_, 
+  Volume 2, _The Subjective Logic_,
 
   * The Doctrine of the Notion
 
@@ -83,19 +83,19 @@ Other philosophical systems, Hegel claims (see also ([[Lectures on the History o
 
 * [[Descartes]]' mechanism ([LectHistPhil-Descartes](Lectures+on+the+History+of+Philosophy#DescartesMechanism));
 
-* [[Spinoza]]'s _[omnis determinatio est negatio](https://de.wikipedia.org/wiki/Determinatio)_ (Hegel's [determinate negation](#DeterminateNegation)) [EL&#167;91ZusatzA](#EL91ZusatzA) 
+* [[Spinoza]]'s _[omnis determinatio est negatio](https://de.wikipedia.org/wiki/Determinatio)_ (Hegel's [determinate negation](#DeterminateNegation)) [EL&#167;91ZusatzA](#EL91ZusatzA)
 
 * [[Spinoza]]'s [[Spinoza's system|system]] of _[[substance]]_ ([&#167;1287](#1287));
 
 * [[Descartes]]' [ontological argument](http://plato.stanford.edu/entries/descartes-ontological/) for a notion that implies its own objective existence ([&#167;1530b](#1530b), [&#167;1530c](#1530c))
 
-* [[Descartes]]'s and [[Fichte]]'s _schlechthin unbedingter [erster Grundsatz](Grundlage+der+gesamten+Wissenschaftslehre#ErsterGrundsatz)_ ([LectHistPhil-Descartes](Lectures+on+the+History+of+Philosophy#DescartesSchlechthingGewiss), [LectHistPhil- Fichte](Lectures+on+the+History+of+Philosophy#FichteIchDasErste)), the pure conciousness of the I (which is Hegel's very _Notion_ [&#167;1291b](#1291b)) 
+* [[Descartes]]'s and [[Fichte]]'s _schlechthin unbedingter [erster Grundsatz](Grundlage+der+gesamten+Wissenschaftslehre#ErsterGrundsatz)_ ([LectHistPhil-Descartes](Lectures+on+the+History+of+Philosophy#DescartesSchlechthingGewiss), [LectHistPhil- Fichte](Lectures+on+the+History+of+Philosophy#FichteIchDasErste)), the pure conciousness of the I (which is Hegel's very _Notion_ [&#167;1291b](#1291b))
 
 * [[Fichte]]'s principle that philosophy should be _deriving_ determinations  ([LectHistPhil-Fichte](Lectures+on+the+History+of+Philosophy#FichteVorzugWissenschaft)) by "[[speculation]]" ([LectHistPhil-Descartes](Lectures+on+the+History+of+Philosophy#DescartesNonSpeculative))
 
 Also there is some serious [[structuralism]] (e.g. [&#167;1065a](#1065a)) in the _Science of Logic_.
 
-{#Hermeticism} Where Hegel speaks of his system as being _science_ "Wissenschaft" (e.g. [PdGVorrede&#167;5](Phenomenology+of+Spirit#Vorrede5)), and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  [&#167;62](#62), [&#167;63](#63) this is to claim that the _process_ is indeed being systematically derived and proven ([&#167;50](#50), [[Encyclopedia of the Philosophical Sciences|EncPreface1stEd]]) in fact being observed [PdGPreface15](#PdGPreface15) as the _Arbeit des Begriffs_ ([PhenVorr](Phenomenology+of+Spirit#ArbeitDesBegriffs)) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). This _observation = speculari_ is what the term _[[speculative philosophy]]_ for this school of thought refers to.   Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mysterious second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). One may hence argue that this is not so much [[philosophy]] as [[mysticism]] ([&#167;3](#3), [Enc&#167;82d](#Enc82d), [Russell 45](#Russell45), [Copleston 71](#Copleston71), [Stanfield 14](#Stanfield14)), [[gnosticism]] ([Bauer 1835](#Bauer35)) or [[hermeticism]] ([Magee 01](#Magee01)). 
+{#Hermeticism} Where Hegel speaks of his system as being _science_ "Wissenschaft" (e.g. [PdGVorrede&#167;5](Phenomenology+of+Spirit#Vorrede5)), and _[[phenomenology]]_ and where he refers to its _[dialectic method](#DialektischeMethode)_  [&#167;62](#62), [&#167;63](#63) this is to claim that the _process_ is indeed being systematically derived and proven ([&#167;50](#50), [[Encyclopedia of the Philosophical Sciences|EncPreface1stEd]]) in fact being observed [PdGPreface15](#PdGPreface15) as the _Arbeit des Begriffs_ ([PhenVorr](Phenomenology+of+Spirit#ArbeitDesBegriffs)) -- but by "supersensuous inner intuition" [&#167;1786a](#1786a). This _observation = speculari_ is what the term _[[speculative philosophy]]_ for this school of thought refers to.   Therefore Hegel is speaking to some extent in a mystic or gnostic tone, revealing truths by the way of a seer, following the similarly mysterious second part of [[Plato]]'s [[Parmenides dialogue]], [&#167;357](#357). One may hence argue that this is not so much [[philosophy]] as [[mysticism]] ([&#167;3](#3), [Enc&#167;82d](#Enc82d), [Russell 45](#Russell45), [Copleston 71](#Copleston71), [Stanfield 14](#Stanfield14)), [[gnosticism]] ([Bauer 1835](#Bauer35)) or [[hermeticism]] ([Magee 01](#Magee01)).
 Indeed, in [PhenGeistVorrede]() and in [&#167;8](#8), [&#167;9](#9), [&#167;10](#10), [&#167;11](#11), [&#167;50](#50), [&#167;51](#51), [&#167;52](#52), [&#167;53a](#53a), [&#167;53b](#53b) Hegel explains that the _Phenomenolgy of the Spirit_ is to be regarded as the "first part of the system" in that it establishes the necessary spiritual background to embark on the intellectual project of the _Science of Logic_, that a spirit which is to see and follow the speculative dialectics and the "work on the notion" that is the content of the _Science of Logic_ needs to previously have worked itself through the stages all the way starting from sensual perception, conciousness, reason, via moral and intellectual education, through various stages of religion, to finally achieve the stage of "absolute knowledge".
 Apparently not actually expecting that all his readers prepare themselves accordingly, Hegel at times pauses to comment on the incomprehensibility of his very text (e.g. the _[Incomprehensibility of the beginning](#IncomprehensibilityOfTheBeginning)_, the life of the Notion in the Idea and the nature of the Soul [&#167;1648](#1648), or matter being the unity of space and time _[PN&#167;261b](#PN261b)_), much like the mystic [[Meister Eckhart]] [did](Meister+Eckart#UnverhuellteWahrheit) in his texts on the union of the soul with god. Hegel explicitly acknowledges accomplishments of gnosticism and mysticism for philosophy ([[Encyclopedia of the Philosophical Sciences|EncPreface2ndEd]]), but indicates there that he regards his system as more refined. In the [preliminaries](Lectures+on+the+Philosophy+of+Religion#Preliminaries) to his _[[Lectures on the Philosophy of Religion]]_ Hegel states that [[philosophy]] and _religion_ have the same subject, fall together, both are "worship" of the "eternal truth in its very objectivity", just by different means.
 
@@ -157,7 +157,7 @@ All this appears below in three stages,
 ##### Concept
  {#ConceptFormalization}
 
-[[nLab:homotopy type theory|Homotopy type theory]] as such ([UFP 13](#UFP13)) is a logic of [[nLab:types]], of (mathematical) concepts ([Martin-L&#246;f 73, 1.1](#MartinLoef73), [Martin-L&#246;f 90, p.1](#MartinLoef90), [Ladyman&Presnel 14](#LadymanPresnel14)). (References which recall that the modern "type" is a contraction of "type of mathematical concepts" include for instance also  ([Sale 77, p. 6](#Sale77)). 
+[[nLab:homotopy type theory|Homotopy type theory]] as such ([UFP 13](#UFP13)) is a logic of [[nLab:types]], of (mathematical) concepts ([Martin-L&#246;f 73, 1.1](#MartinLoef73), [Martin-L&#246;f 90, p.1](#MartinLoef90), [Asher 11](#Asher11), [Ladyman & Presnel 14](#LadymanPresnel14)). (References which recall that the modern "type" is a contraction of "type of mathematical concepts" include for instance also  ([Sale 77, p. 6](#Sale77)).
 
 With the [[nLab:univalence axiom]] for [[homotopytypetheory:universe|weakly Tarskian]] [[nLab:type universes]] included -- which says that this essence appears properly reflected within itself -- then its [[nLab:interpretation]] via [[nLab:categorical semantics]] is in [[nLab:elementary (infinity,1)-topos|elementary]] [[nLab:(infinity,1)-toposes|homotopy toposes]] ([Shulman 12a](#Shulman12a), [Shulman 12b](#Shulman12b), [Shulman 14](#Shulman14)). These are the _[[nLab:models]]_ of homotopy type theory. Conversely, homotopy type theory is the [[nLab:internal language]] of [[nLab:(infinity,1)-toposes|homotopy toposes]], hence the latter are its "externalization". This way homotopy type theory overlaps much with (higher) _[[nLab:categorical logic]]_. See at _[[nLab:relation between type theory and category theory]]_ for more background on this.
 
@@ -167,7 +167,7 @@ Accordingly, since it is more immediately readable, we display mostly categorica
 ##### Judgement
  {#JudgementInFormalization}
 
-The earliest formulation of a logic of concepts is arguably [[nLab:Aristotle's logic]], which famously meant to reason about the relation of concepts such as "human" and "mortal". We consider now a natural formalization of at least the core intent of Aristotle's logic in dependent homotopy type theory. 
+The earliest formulation of a logic of concepts is arguably [[nLab:Aristotle's logic]], which famously meant to reason about the relation of concepts such as "human" and "mortal". We consider now a natural formalization of at least the core intent of Aristotle's logic in dependent homotopy type theory.
 
 
 Formalizations of Aristotle's logic in categorical logic or type theory has previously been proposed in ([LaPalmeReyes-Macnamara-Reyes 94, 2.3](#PalmeReyesMacnamaraReyes94)) and in ([Pagnan 10, def. 3.1](#Pagnan10)). The formalization below agrees with these proposal in the identification of the Aristotlean judgement "All $B$ are $A$" with the type-theoretic judgement "$\vdash f \colon B\to A$", and with the identification of [[nLab:syllogisms]] with composition of fuch function terms.
@@ -179,11 +179,11 @@ If $C$ is a concept, a [[nLab:type]], then a [[nLab:judgement]]
 
 $$
   c \colon C
-$$ 
+$$
 
-says that $c$ is an instance of the concept $C$, or that $c$ is a [[nLab:term]] of type $C$. 
+says that $c$ is an instance of the concept $C$, or that $c$ is a [[nLab:term]] of type $C$.
 
-For instance if $\mathbb{N}$ is the concept of [[nLab:natural numbers]], then the judgement $n \colon \mathbb{N}$ says that $n$ is a natural number. Clearly here the "concept" $\mathbb{N}$ may just as well be thought of as the [[nLab:set]] of all its instances. 
+For instance if $\mathbb{N}$ is the concept of [[nLab:natural numbers]], then the judgement $n \colon \mathbb{N}$ says that $n$ is a natural number. Clearly here the "concept" $\mathbb{N}$ may just as well be thought of as the [[nLab:set]] of all its instances.
 
 Given concepts/types $A$ and $B$, there is the concept of maps between them, the [[nLab:function type]] $B\to A$. In the [[nLab:categorical semantics]] this is the [[nLab:internal hom]].
 
@@ -191,7 +191,7 @@ The judgement that there is a [[nLab:function]], hence an instance $f$ of the co
 
 $$
   f \colon B \longrightarrow A
-$$ 
+$$
 
 says that $f$ is a rule that takes instances/terms of $B$ to instances/terms of $A$. At least if this is a [[nLab:monomorphism]] $f \colon B \hookrightarrow A$ (so that the corresponding $a\colon A \vdash f^{-1}(a)$ is a [[nLab:proposition]]) then this says in words that $f$ witnesses the fact that
 
@@ -210,7 +210,7 @@ Notice that the choice of $f$ here is an important part of the formalization whi
 
 For instance all [[nLab:natural numbers]] are [[nLab:real numbers]], but there are many inequivalent [[nLab:subgroup]] inclusions $\mathbb{Z}\hookrightarrow \mathbb{R}$ realizing this. For the purposes of [[nLab:prequantum field theory]] these choices correspond to the choice of [[nLab:Planck's constant]] (see the discussion there).
 
-Similarly, once we have that the informal "All $B$ are $A$." is formalized by a map of types, we see further refinement of the ancient logical notion. 
+Similarly, once we have that the informal "All $B$ are $A$." is formalized by a map of types, we see further refinement of the ancient logical notion.
 
 First, the meaning of $B$,$A$ may depend on some [[nLab:context]] $C$. Leaving that implicit is arguably the greatest source of ambiguity in Aristotle's logic. But it is easily fixed while staying true to the original intention: in general $B$ and $A$ are to be taken as $C$-[[nLab:dependent types]]. Then the intended meaning of _All $B$ are $A$._ is expressed by the [[nLab:dependent product]] over the function type formed in context $C$
 
@@ -223,11 +223,11 @@ Second, if $f$ is not a [[nLab:monomorphism]] it still expresses the fact that f
 
 **Individual $E$ is $B$.**
 
-There is the [[nLab:unit type]] 
+There is the [[nLab:unit type]]
 
 $$
   E = \ast
-$$ 
+$$
 
 of which there is a unique instance, das **E**inzelne (individual). As a concept, this may be regarded as the concept of pure [[nLab:being]]: since any two instances of the concept $E$ just purely are, there is no distinction and hence there is a unique instance.
 
@@ -250,7 +250,7 @@ $$
 
 The [[nLab:categorical semantics]] of $(b = b)$ is the [[nLab:loop space object]] $\Omega_b B$, which is canonically a [[nLab:pointed object]] via the constant loop $id_n \colon \ast \to \Omega_b B$.
 
-Under composition of loops, this object canonically carries the structure of an [[nLab:infinity-group]]. 
+Under composition of loops, this object canonically carries the structure of an [[nLab:infinity-group]].
 
 +-- {: .num_prop #LoopingDeloopingTheorem}
 ###### Proposition
@@ -263,7 +263,7 @@ $$
   \mathbf{H}^{\ast/}_{\geq 1}
 $$
 
-between [[nLab:infinity-groups]] in $\mathbf{H}$ and [[nLab:pointed objects|pointed]] [[nLab:n-connected object in an (infinity,1)-topos|connected]] objects in $\mathbf{H}$. 
+between [[nLab:infinity-groups]] in $\mathbf{H}$ and [[nLab:pointed objects|pointed]] [[nLab:n-connected object in an (infinity,1)-topos|connected]] objects in $\mathbf{H}$.
 
 =--
 
@@ -290,7 +290,7 @@ $f_i \colon B_i \longrightarrow C$
 to a common context $C$. Then the [[nLab:product type]] in context, hence, in the [[nLab:categorical semantics]], the [[nLab:homotopy fiber product]]
 
 $$
-  B_1 \underset{C}{\times} B_2 
+  B_1 \underset{C}{\times} B_2
 $$
 
 is the type whose terms are the "some" instances of $B_1$ which are also instances of $B_2$, and vice versa. Indeed, the fiber product canonically sits in the [[nLab:homotopy pullback]] [[nLab:diagram]]
@@ -298,7 +298,7 @@ is the type whose terms are the "some" instances of $B_1$ which are also instanc
 $$
   \array{
     B_1 \underset{C}{\times} B_2
-    &\longrightarrow& 
+    &\longrightarrow&
     B_2
     \\
     \downarrow && \downarrow
@@ -306,8 +306,8 @@ $$
     B_1 &\longrightarrow& C
   }
 $$
- 
-and if we read $B_1 \underset{C}{\times} B_2$ as "some $B_1$" then according to the previous paragraph the top morphism expresses that "all of these particular $B_1$ (but not necessarily all of $B_1$ itself) are $B_2$". 
+
+and if we read $B_1 \underset{C}{\times} B_2$ as "some $B_1$" then according to the previous paragraph the top morphism expresses that "all of these particular $B_1$ (but not necessarily all of $B_1$ itself) are $B_2$".
 
 +-- {: .num_example #PrincipalBundlesAsJudgements}
 ###### Example
@@ -317,7 +317,7 @@ Specifically if $C = \mathbf{B}G$ here is [[nLab:pointed object|pointed]] via a 
 
 $$
   c \colon B \longrightarrow \mathbf{B}G
-$$ 
+$$
 
 may be thought of as a [[nLab:cocycle]] on $B$ with [[nLab:coefficients]] in $G$, representing a class in the [[nLab:nonabelian cohomology]] of $B$. See at _[[nLab:cohomology]]_ for more on this general concept of cohomology.
 
@@ -333,7 +333,7 @@ $$
   }
 $$
 
-Via the above translation this is an Aristotlean judgement of the form "Some $B$ are $E$" in the context of $\mathbf{B}G$. 
+Via the above translation this is an Aristotlean judgement of the form "Some $B$ are $E$" in the context of $\mathbf{B}G$.
 
 =--
 
@@ -347,7 +347,7 @@ In summary we have that basic judgements in Aristotle's logic, when some implici
 | [[nLab:Aristotle's logic]] | formal [[nLab:syntax]] |  [[nLab:type theory]] |
 |----------------------------|----------------------|---|
 | concept                 |  $C$                 |  [[nLab:type]] |
-| judgement                  |  $c \colon C$ | typing [[nLab:judgement]] | 
+| judgement                  |  $c \colon C$ | typing [[nLab:judgement]] |
 | All $B$ are $A$.           | $f \colon B \longrightarrow A $ | [[nLab:function type]] |
 | Some $B_1$ is $B_2$.       | $s \colon B_1 \underset{C}{\times} B_2$ | [[nLab:product type]] |
 | Individual $E$ is $B$.     | $e \colon E \to B$ | [[nLab:unit type]]/[[nLab:global element]] |
@@ -367,7 +367,7 @@ Functions may be [[nLab:composition|composed]]. Given $b \colon E \to B$ and $f 
 
 Hence
 
-> Individual $E$ is $A$. 
+> Individual $E$ is $A$.
 
 $$
   \begin{aligned}
@@ -406,7 +406,7 @@ $$
 
 Or rather, this composite map will factor through $B_1 \underset{C}{\times} A$ and the resulting map to $A$ gives 'Some $B_1$ is $A$'.
 
-We may also treat negative propositions, such as 
+We may also treat negative propositions, such as
 
 > No $B_1$ is $B_2$,
 
@@ -430,34 +430,34 @@ What is not present in such bare homotopy type theory is determination of furthe
 
 **Moments**
 
-A general abstract way to express a kind of quality carried by types is to posit a _projection_ operation $\bigcirc$ that projects out the _moment of pure such quality_. 
+A general abstract way to express a kind of quality carried by types is to posit a _projection_ operation $\bigcirc$ that projects out the _moment of pure such quality_.
 
-For instance for formalizing realistic physics one needs to determine _[[nLab:boson|bosonic]]_ and _[[nLab:boson|fermionic]]_  moments (we come to this [below](#Externalization)), and one way of doing so is by considering a [[nLab:projection]] operation that projects every space of fields to its purely bosonic [[nLab:body]] (lemma \ref{SequenceOfSites} below). 
+For instance for formalizing realistic physics one needs to determine _[[nLab:boson|bosonic]]_ and _[[nLab:boson|fermionic]]_  moments (we come to this [below](#Externalization)), and one way of doing so is by considering a [[nLab:projection]] operation that projects every space of fields to its purely bosonic [[nLab:body]] (lemma \ref{SequenceOfSites} below).
 
 Generally, for $X$ a type, then $\bigcirc X$ is to be the result of projecting out some pure quality of $X$. This being a projection means that $\bigcirc X  \simeq \bigcirc \bigcirc X$. For this to be [[nLab:constructive]], we need to specify a specific comparison map that gives this equivalence. Hence we say a _moment projection_ is an operation $\bigcirc$ on the type system together with [[nLab:natural transformation|natural functions]] $X \to \bigcirc X$ such that $\bigcirc(X \to \bigcirc X)$ is an [[nLab:equivalence]] $\bigcirc \stackrel{\simeq}{\longrightarrow} \bigcirc \bigcirc X$.
 
-In categorical semantics this means essentially that $\bigcirc$ is an _[[nLab:idempotent monad]]_ on the type system $\mathbf{H}$. 
+In categorical semantics this means essentially that $\bigcirc$ is an _[[nLab:idempotent monad]]_ on the type system $\mathbf{H}$.
 
 Alternatively we may ask for a comparison map the other way around, $\Box X \longrightarrow X$, such that $\Box(\Box X \longrightarrow X)$ is an equivalence. In [[nLab:categorical semantics]] this means essentially that $\Box$ is an [[nLab:idempotent comonad]].
 
 +-- {: .num_defn #Moments}
 ###### Definition
 
-A _moment_ on (or in) a type system $\mathbf{H}$ is 
+A _moment_ on (or in) a type system $\mathbf{H}$ is
 
-* an [[nLab:idempotent monad]] $\bigcirc \colon \mathbf{H} \to \mathbf{H}$ 
+* an [[nLab:idempotent monad]] $\bigcirc \colon \mathbf{H} \to \mathbf{H}$
 
 or
 
 * an [[nLab:idempotent comonad]] $\Box \colon \mathbf{H} \to \mathbf{H}$.
 
-Given a moment, we write 
+Given a moment, we write
 
 $$
   \mathbf{H}_{\bigcirc, \Box} \hookrightarrow \mathbf{H}
 $$
 
-for the inclusion of its image, which we think of as the collection of those types that exhibit the moment purely (conversely these define the kind of moment as whatever quality it is that they all exhibit purely). 
+for the inclusion of its image, which we think of as the collection of those types that exhibit the moment purely (conversely these define the kind of moment as whatever quality it is that they all exhibit purely).
 
 =--
 
@@ -491,16 +491,16 @@ Example of this are made explicit below as example \ref{SimilarityWithRespectToP
 +-- {: .num_prop #bigcircpureObjectsAreEMObjects}
 ###### Proposition
 
-The category $\mathbf{H}_{\bigcirc}$ is equivalently the [[nLab:Eilenberg-Moore category]] of $\bigcirc$. 
+The category $\mathbf{H}_{\bigcirc}$ is equivalently the [[nLab:Eilenberg-Moore category]] of $\bigcirc$.
 
 =--
 
-This is a standard fact in [[nLab:category theory]], see at _[idempotent monad -- Algebras]( idempotent+monad#AlgebrasForAnIdempotentMonad)_. 
+This is a standard fact in [[nLab:category theory]], see at _[idempotent monad -- Algebras]( idempotent+monad#AlgebrasForAnIdempotentMonad)_.
 
 +-- {: .num_remark #PurityForNonIdempotent}
 ###### Remark
 
-Prop. \ref{bigcircpureObjectsAreEMObjects} means that we may naturally make sense of "pure qualtity" also for ([[nLab:comonad|co-]])[[nLab:monads]] that are not [[nLab:idempotent monad|idempotent]], the pure types should be taken to be the "[[nLab:algebras over a monad|algebras]]" over the monad. 
+Prop. \ref{bigcircpureObjectsAreEMObjects} means that we may naturally make sense of "pure qualtity" also for ([[nLab:comonad|co-]])[[nLab:monads]] that are not [[nLab:idempotent monad|idempotent]], the pure types should be taken to be the "[[nLab:algebras over a monad|algebras]]" over the monad.
 
 =--
 
@@ -512,7 +512,7 @@ A single moment $\Box$ or $\bigcirc$ may be [[nLab:categorical semantics|interpr
 ###### Definition
 **(unity of opposites)**
 
-The _opposite_ of a moment $\bigcirc$, def. \ref{Moments} is, if it exists, another moment $\Box$ in [[nLab:adjunction]] with it, 
+The _opposite_ of a moment $\bigcirc$, def. \ref{Moments} is, if it exists, another moment $\Box$ in [[nLab:adjunction]] with it,
 
 1. either $\bigcirc$ [[nLab:left adjoint]] to $\Box$ and such that there is an [[nLab:adjoint triple]]
 
@@ -528,7 +528,7 @@ The _opposite_ of a moment $\bigcirc$, def. \ref{Moments} is, if it exists, anot
      \Box \dashv \bigcirc
    $$
 
-1. or [[nLab:right adjoint]] to it with 
+1. or [[nLab:right adjoint]] to it with
 
    $$
      \mathbf{H}_{\Box}\simeq \mathbf{H}_{\bigcirc}
@@ -578,7 +578,7 @@ $$
   \mathbb{Z}
 $$
 
-Both are adjoint to the operation of forming the $floor$ of the result of dividing by two, this is right adjoint to the inclusion of even numbers, and left adjoint to the inclusion of odd numbers. 
+Both are adjoint to the operation of forming the $floor$ of the result of dividing by two, this is right adjoint to the inclusion of even numbers, and left adjoint to the inclusion of odd numbers.
 
 $$
   \array{
@@ -618,7 +618,7 @@ There is an opposition between the two kinds of opposition here:
 
 1. $(\Box \dashv \bigcirc)$ -- Here are two different opposite "pure moments" .
 
-1. $(\bigcirc \dashv \Box)$ -- Here is only one pure moment, but two opposite ways of projecting onto it. 
+1. $(\bigcirc \dashv \Box)$ -- Here is only one pure moment, but two opposite ways of projecting onto it.
 
 =--
 
@@ -687,8 +687,8 @@ $$
 Given that $\bigcirc$, being a [[nLab:left adjoint]], preserves [[nLab:colimits]], hence [[nLab:cofibers]], the first condition in def. \ref{CompleteOpposition} gives that
 
 $$
-  \bigcirc \overline{\Box} X 
-  = 
+  \bigcirc \overline{\Box} X
+  =
   \bigcirc cofib(\Box X \to X)
   \simeq
   cofib(\Box X \to \bigcirc X)
@@ -705,13 +705,13 @@ The proof of prop. \ref{AccuracyOfNegatives} depends crucially on the restrictio
 ###### Proposition
 
 For opposite moments of the form
-$\bigcirc \dashv \Box$, def. \ref{UnityOfOpposites}, then for [[nLab:stable homotopy types|stable types]] $X$ the [[nLab:differential hexagon|hexagons]] 
+$\bigcirc \dashv \Box$, def. \ref{UnityOfOpposites}, then for [[nLab:stable homotopy types|stable types]] $X$ the [[nLab:differential hexagon|hexagons]]
 
 $$
   \array{
     && \overline{\bigcirc} X && \longrightarrow && \overline{\Box} X
     \\
-    &\nearrow& &\searrow& & \nearrow && \searrow 
+    &\nearrow& &\searrow& & \nearrow && \searrow
     \\
     \overline{\bigcirc} \Box X && && X && && \bigcirc \overline{\Box} X
     \\
@@ -789,7 +789,7 @@ $$
 
 =--
 
-In principle this may go on, but in models one finds that there are essentially no examples with a fourth adjoint that do not degenerate to the [[nLab:ambidextrous adjunction|ambidextrous]] situation where $\lozenge \simeq \bigcirc$. 
+In principle this may go on, but in models one finds that there are essentially no examples with a fourth adjoint that do not degenerate to the [[nLab:ambidextrous adjunction|ambidextrous]] situation where $\lozenge \simeq \bigcirc$.
 
 This shows further how oppositions serve to further determine moments: while a bare $\Box$-operator has all kinds of unrelated interpretations in models, asking it to be in opposition with a $\bigcirc$-moment considerably constrains its possible interpretations, further asking it to participate in an opposition-of-oppositions constraints it much more still, and asking for yet one more opposition tends to overconstrain it such as to degenerate.
 
@@ -874,7 +874,7 @@ $$
      \\
      \bot && \bot
      \\
-     \Box_a &\dashv& \bigcirc_a 
+     \Box_a &\dashv& \bigcirc_a
   }
 $$
 
@@ -901,27 +901,27 @@ We observe now that in plain type theory already by itself carries one non-trivi
 There is the [[nLab:unit type]] $\ast$. As a concept, this is the concept with a unique instance (up to [[nLab:equivalence]]). As such this may be thought of as the concept of "pure being": an instance of this concept just purely is, without having any further qualities, and hence two instances have no distinctions between them, both just purely are, nothing else, and so they are indistinguishlably the same.
 
 
-Every type has a unique map $X\to \ast$ to that. Hence there is the [[nLab:monad]] which sends every type to $\ast$ and this is a moment 
+Every type has a unique map $X\to \ast$ to that. Hence there is the [[nLab:monad]] which sends every type to $\ast$ and this is a moment
 
 $$
   \bigcirc = \ast
-$$ 
+$$
 
-according to def. \ref{Moments}. 
+according to def. \ref{Moments}.
 
 +-- {: .num_example #SimilarityWithRespectToPureBeing}
 ###### Example
 
 Every type is similar to every other, in the formal sense of def. \ref{MomentsAndSimilarity}, with respect to the $\ast$-moment.
-This says that all things are similar at least in that they are at all ([&#167;906](#906)). 
+This says that all things are similar at least in that they are at all ([&#167;906](#906)).
 
 =--
 
 
 Dually there is the [[nLab:empty type]] $\emptyset$. As a concept, this is the concept with no instance. As such this may be thought of as the concept of "not being": since any instance of that concept would at least be (namely be an instance of the concept), but there is no such instance.
 
-The empty type is such that it has a unique map $\emptyset \to X$ 
-to any other type $X$, hence the comonad which sends every type to the empty type, and this is a moment 
+The empty type is such that it has a unique map $\emptyset \to X$
+to any other type $X$, hence the comonad which sends every type to the empty type, and this is a moment
 
 $$
   \Box = \emptyset
@@ -933,7 +933,7 @@ It is immediate that:
 +-- {: .num_defn #InitialOpposition}
 ###### Proposition
 
-In plain homotopy type theory there is a unity of opposites, def. \ref{UnityOfOpposites}, 
+In plain homotopy type theory there is a unity of opposites, def. \ref{UnityOfOpposites},
 
 $$
   \emptyset \dashv \ast
@@ -947,7 +947,7 @@ We also call this the _initial opposition_.
 +-- {: .num_remark #AspectsOfTheInitialOpposition}
 ###### Remark
 
-It may be suggestive to think of this initial opposition in one of the following ways. 
+It may be suggestive to think of this initial opposition in one of the following ways.
 
 1. The initial opposition of prop. \ref{InitialOpposition} is (leaving [[nLab:context extension]] notationally implicit) the adjunction between [[nLab:dependent sum]] and [[nLab:dependent product]] over the [[nLab:context]] given by the [[nLab:empty type]]
 
@@ -971,7 +971,7 @@ It may be suggestive to think of this initial opposition in one of the following
       \,.
    $$
 
-On the other hand, the [[nLab:Cartesian product]]$\dashv$[[nLab:internal hom]]-adjunction of the [[nLab:unit type]] 
+On the other hand, the [[nLab:Cartesian product]]$\dashv$[[nLab:internal hom]]-adjunction of the [[nLab:unit type]]
 
 $$
    \left(
@@ -1004,7 +1004,7 @@ $$
     \\
     \vee && \vee
     \\
-    \emptyset &\dashv& \ast & = \overline{id} 
+    \emptyset &\dashv& \ast & = \overline{id}
   }
   \,.
 $$
@@ -1029,12 +1029,12 @@ $$
   \array{
      \Box &\dashv& \bigcirc
      \\
-     \vee && \vee 
+     \vee && \vee
      \\
-     \emptyset &\dashv& \ast 
+     \emptyset &\dashv& \ast
   }
   \,.
-$$ 
+$$
 
 =--
 
@@ -1043,7 +1043,7 @@ We are to demand that this provides a resolution, def. \ref{ResolutionOfOppositi
 $$
   \bigcirc \emptyset \simeq \emptyset
   \,.
-$$ 
+$$
 
 In the [[nLab:categorical semantics]] this says equivalently that $(\Box \dashv \bigcirc)$ is a [[nLab:dense subtopos]].
 
@@ -1055,11 +1055,11 @@ In the [[nLab:categorical semantics]] this says equivalently that $(\Box \dashv 
 +-- {: .num_defn #InitialOpposition}
 ###### Proposition
 
-The _smallest_ [[nLab:dense subtopos]] of a [[nLab:topos]] is that of [[nLab:local object|local types]] with respect to [[nLab:double negation]] $\sharp \coloneqq loc_{\neg \neg}$. 
+The _smallest_ [[nLab:dense subtopos]] of a [[nLab:topos]] is that of [[nLab:local object|local types]] with respect to [[nLab:double negation]] $\sharp \coloneqq loc_{\neg \neg}$.
 
 =--
 
-([Johnstone 02, corollary A4.5.20](#Johnstone02)). 
+([Johnstone 02, corollary A4.5.20](#Johnstone02)).
 
 
 Therefore we may add the demand that the resolution of $(\emptyset \dashv \ast)$ be by $loc_{\neg \neg}$ ([Lawvere 91, p. 8](#Lawvere91), [Shulman 15]()). This equivalently means to demand that the [[nLab:double negation]] subtopos is [[nLab:essential geometric morphism|essential]] .
@@ -1070,11 +1070,11 @@ $$
   \array{
      \flat &\dashv& \sharp & = loc_{\neg \neg}
      \\
-     \vee && \vee 
+     \vee && \vee
      \\
-     \emptyset &&\dashv& \ast 
+     \emptyset &&\dashv& \ast
   }
-$$ 
+$$
 
 +-- {: .num_prop}
 ###### Proposition
@@ -1089,7 +1089,7 @@ The [[nLab:double negation]] subtopos is  [[nLab:Boolean topos]].
 This means that $(\flat \dashv \sharp)$ is naturally regarded as being the _[[nLab:base topos|ground topos]]_ of the topos formed by the ambient type system, with the corresponding [[nLab:adjoint triple]]
 
 $$
-  \mathbf{H}_{\sharp} 
+  \mathbf{H}_{\sharp}
   \stackrel{\hookrightarrow}{\stackrel{\stackrel{\Gamma}{\longleftarrow}}{\hookrightarrow}}
   \mathbf{H}
 $$
@@ -1102,12 +1102,12 @@ $$
   \array{
      \flat &\dashv& \sharp & = loc_{\not\not}
      \\
-     \vee &\stackrel{ground}{}& \vee 
+     \vee &\stackrel{ground}{}& \vee
      \\
-     \emptyset &\dashv& \ast 
+     \emptyset &\dashv& \ast
   }
   \,.
-$$ 
+$$
 
 
 ##### Cohesive substance
@@ -1123,11 +1123,11 @@ $$
   \array{
      \stackrel{discreteness}{} & \flat &\dashv& \sharp &= loc_{\not\not}& \stackrel{continuity}{}
      \\
-     & \vee &\stackrel{ground}{}& \vee 
+     & \vee &\stackrel{ground}{}& \vee
      \\
-     & \emptyset &\dashv& \ast & 
+     & \emptyset &\dashv& \ast &
   }
-$$ 
+$$
 
 We may hence also say that $\flat X$  is the "point content" of $X$. If we regard the equivalence class of $\flat X$ then this is the [[nLab:cardinality]] of the point content of $X$, the _Gr&#246;&#223;e_ of the point content, the _discrete quantity_ of $X$.
 
@@ -1135,15 +1135,15 @@ $$
   \array{
      & && \flat && \stackrel{content}{}
      \\
-     & && \bot & 
+     & && \bot &
      \\
      \stackrel{discreteness}{} & \flat &\dashv& \sharp & = loc_{\not \not}&  \stackrel{continuity}{}
      \\
-     & \vee &\stackrel{ground}{}& \vee 
+     & \vee &\stackrel{ground}{}& \vee
      \\
-     & \emptyset &\dashv& \ast & 
+     & \emptyset &\dashv& \ast &
   }
-$$ 
+$$
 
 
 The types $X$ that are fully determined by their moment of continuity are those for which $X \to \sharp X$ is a [[nLab:monomorphism]]. In [[nLab:categorical semantics]] these are the [[nLab:concrete objects]] or equivalently the [[nLab:separated presheaves]] for $\sharp$: they are determined by their global points. These are the codomains of those [[nLab:functions]] which in [[nLab:thermodynamics]] one calls _[[nLab:intensive quantities]]_, functions whose value is genuinely given by their restriction to all possible points.
@@ -1156,15 +1156,15 @@ $$
   \array{
      & && \flat & && \stackrel{content}{}
      \\
-     & && \bot & && 
+     & && \bot & &&
      \\
      \stackrel{discrete}{} & \overline{\flat}/\flat &\stackrel{quantity}{\dashv}& \sharp &  &   & \stackrel{continuous\; (intensive/extensive)}{}
      \\
-     & \vee &\stackrel{ground}{}& \vee 
+     & \vee &\stackrel{ground}{}& \vee
      \\
-     & \emptyset &\dashv& \ast & 
+     & \emptyset &\dashv& \ast &
   }
-$$ 
+$$
 
 
 ###### Quality
@@ -1193,7 +1193,7 @@ Together this are the axioms of _[[nLab:cohesion]]_ as considered in ([Lawvere 0
 
 The intuition is that positing these qualites on a type system makes it, or rather its types $X$, behave like a [[nLab:cohesive]] [[nLab:substance]] where points $\flat X$ are separate but held together by a cohesive attraction which, when the opposing repulsion is removed and only pure $&#643;$-moment is retained, makes them collapse to the components $&#643; X$.
 
-In the more refined [[nLab:categorical semantics]] of [[nLab:(infinity,1)-topos|homotopy toposes]] $\flat$ modulates [[nLab:locally constant infinity-stacks]]. The above adjunction then expresses the central statement of higher [[nLab:Galois theory]] ([dcct](#dcct)): 
+In the more refined [[nLab:categorical semantics]] of [[nLab:(infinity,1)-topos|homotopy toposes]] $\flat$ modulates [[nLab:locally constant infinity-stacks]]. The above adjunction then expresses the central statement of higher [[nLab:Galois theory]] ([dcct](#dcct)):
 
 $$
   \frac{X \to \flat Grpd_\infty}{&#643; X\to Grpd_\infty}
@@ -1206,19 +1206,19 @@ Therefore we further add labels as follows.
 
 $$
   \array{
-     \stackrel{shape}{} && & &#643; &\stackrel{}{\dashv}& \flat &  & & \stackrel{content}{} 
+     \stackrel{shape}{} && & &#643; &\stackrel{}{\dashv}& \flat &  & & \stackrel{content}{}
      \\
      && & \bot &\stackrel{}{}& \bot
      \\
      \stackrel{discrete}{} &\overline{\flat}& / & \flat &\stackrel{quantity}{\dashv}& \sharp & = loc_{\not\not} &   & \stackrel{continuous\; (intensive/extensive)}{}
      \\
-     && & \vee &\stackrel{ground}{}& \vee 
+     && & \vee &\stackrel{ground}{}& \vee
      \\
-     && & \emptyset &\dashv& \ast & 
+     && & \emptyset &\dashv& \ast &
   }
-$$ 
+$$
 
-This means that in the presence of the further opposition $&#643; \dashv \flat$ the types $X$ which already had an underlying point content $\flat X$ now also have a _shape_ determined by these points sticking together via a [[nLab:cohesive]] attraction. This is a qualitative aspect of the types in addition to their quantitative moments $\flat X$ and $\sharp X$. 
+This means that in the presence of the further opposition $&#643; \dashv \flat$ the types $X$ which already had an underlying point content $\flat X$ now also have a _shape_ determined by these points sticking together via a [[nLab:cohesive]] attraction. This is a qualitative aspect of the types in addition to their quantitative moments $\flat X$ and $\sharp X$.
 
 
 +-- {: .num_example #ShapeAsAConceptOfSimilarity}
@@ -1248,11 +1248,11 @@ $$
      \\
      \stackrel{discrete}{} &\overline{\flat}& / & \flat &\stackrel{quantity}{\dashv}& \sharp & = loc_{\not\not}  &   & \stackrel{continuous\; (intensive/extensive)}{}
      \\
-     && & \vee &\stackrel{ground}{}& \vee 
+     && & \vee &\stackrel{ground}{}& \vee
      \\
-     && & \emptyset &\dashv& \ast & 
+     && & \emptyset &\dashv& \ast &
   }
-$$ 
+$$
 
 Since with $(&#643; \dashv \sharp)$ we have arrived at an opposition of the form $(\bigcirc \dashv \Box)$, we should ask for further determination of these qualities by demanding via def. \ref{Localization} that $&#643;$ is exhibited by $\mathbb{R}$ (def. \ref{Localization}):
 
@@ -1273,13 +1273,13 @@ $$
      \\
      \bot && \bot
      \\
-     \flat &\dashv& \sharp 
+     \flat &\dashv& \sharp
   }
 $$
 
 expresses.
 
-Recall that the [[nLab:Brown representability theorem]] from [[nLab:stable homotopy theory]]: 
+Recall that the [[nLab:Brown representability theorem]] from [[nLab:stable homotopy theory]]:
 
 +-- {: .num_prop }
 ###### Proposition
@@ -1298,7 +1298,7 @@ $$
 +-- {: .num_prop #DifferentialHexagon}
 ###### Proposition
 
-For the moments $(&#643; \dashv \flat)$ the [[nLab:differential hexagon|exact hexagon]] of prop. \ref{TheHexagon} 
+For the moments $(&#643; \dashv \flat)$ the [[nLab:differential hexagon|exact hexagon]] of prop. \ref{TheHexagon}
 
 $$
   \array{
@@ -1320,7 +1320,7 @@ Moreover, the existence of $\sharp$ means that the [[nLab:mapping stacks]] into 
 
 =--
 
-The first statement is the key insight in ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)). For more amplification of this point see at _[[schreiber:Differential cohomology is Cohesive homotopy theory]]_. 
+The first statement is the key insight in ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)). For more amplification of this point see at _[[schreiber:Differential cohomology is Cohesive homotopy theory]]_.
 
 Here the moments appearing in the hexagon have the following interpretation.
 
@@ -1330,8 +1330,8 @@ $$
     \\
     & \nearrow & & \searrow & & \nearrow_{\mathrlap{curvature}} && \searrow^{\mathrlap{de\;Rham\;theorem}}
     \\
-    {{flat}\atop{differential\;forms}}  && 
-    && {{geometric\;bundles}\atop{with\;connection}} && && 
+    {{flat}\atop{differential\;forms}}  &&
+    && {{geometric\;bundles}\atop{with\;connection}} && &&
     {{rationalized}\atop{bundle}}
     \\
     & \searrow &  & \nearrow & & \searrow^{\mathrlap{topol.\;class}} && \nearrow_{\mathrlap{Chern\;character}}
@@ -1342,7 +1342,7 @@ $$
 
 Now, cocycles in [[nLab:differential cohomology]] are the mathematical incarnation of [[nLab:field (physics)|physical fields]] in (stable) [[nLab:higher gauge theory]] (e.g. [[nLab:Dirac charge quantization and generalized differential cohomology|Freed 00]]). Hence the existence of the opposing moments $&#643; \dashv \flat \dashv \sharp$ means that types carry _gauge measure_.
 
-From the [[nLab:gauge theory|gauge theoretic]] perpective the $\flat$-moment is that exhibited by [[nLab:flat infinity-connections]], its negative $\overline{\flat}$ moment is that exhibited by infinity-connections given by just differential form data. For [[nLab:ordinary differential cohomology]], [[nLab:differential K-theory]] etc. this is the "[[nLab:rational homotopy theory|rational]]" aspect. 
+From the [[nLab:gauge theory|gauge theoretic]] perpective the $\flat$-moment is that exhibited by [[nLab:flat infinity-connections]], its negative $\overline{\flat}$ moment is that exhibited by infinity-connections given by just differential form data. For [[nLab:ordinary differential cohomology]], [[nLab:differential K-theory]] etc. this is the "[[nLab:rational homotopy theory|rational]]" aspect.
 
 Hence in summary we have found determinations as follows.
 
@@ -1354,11 +1354,11 @@ $$
      \\
      \stackrel{discrete}{} &\overline{\flat}& / & \flat &\stackrel{quantity}{\dashv}& \sharp & = loc_{\not\not}  &   & \stackrel{continuous\; (intensive/extensive)}{}
      \\
-     && & \vee &\stackrel{ground}{}& \vee 
+     && & \vee &\stackrel{ground}{}& \vee
      \\
-     && & \emptyset &\dashv& \ast & 
+     && & \emptyset &\dashv& \ast &
   }
-$$ 
+$$
 
 
 ##### Elastic substance
@@ -1403,11 +1403,11 @@ $$
      \\
      \stackrel{discrete}{} &\overline{\flat}& / & \flat &\stackrel{quantity}{\dashv}& \sharp & = loc_{\not\not}  &   & \stackrel{continuous\; (intensive/extensive)}{}
      \\
-     && & \vee &\stackrel{ground}{}& \vee 
+     && & \vee &\stackrel{ground}{}& \vee
      \\
-     && & \emptyset &\dashv& \ast & 
+     && & \emptyset &\dashv& \ast &
   }
-$$ 
+$$
 
 
 ###### Infinitesimal
@@ -1426,11 +1426,11 @@ In summary this gives:
 
 $$
   \array{
-     \stackrel{infinitesimal/reduced}{} &\overline{\Re} & / & \Re &\dashv& \Im &  &  & 
+     \stackrel{infinitesimal/reduced}{} &\overline{\Re} & / & \Re &\dashv& \Im &  &  &
      \\
      && & \bot && \bot
      \\
-     \stackrel{infinitesimal \atop shape}{} && & \Im 
+     \stackrel{infinitesimal \atop shape}{} && & \Im
        &\stackrel{infinitesimal \atop quality}{\dashv}& \& & && \text{&#233;tal&#233;}
      \\
      && & \vee && \vee
@@ -1441,29 +1441,29 @@ $$
      \\
      \stackrel{discrete}{} &\overline{\flat}& / & \flat &\stackrel{quantity}{\dashv}& \sharp & = loc_{\not\not}  &   & \stackrel{continuous\; (intensive/extensive)}{}
      \\
-     && & \vee &\stackrel{ground}{}& \vee 
+     && & \vee &\stackrel{ground}{}& \vee
      \\
-     && & \emptyset &\dashv& \ast & 
+     && & \emptyset &\dashv& \ast &
   }
-$$ 
+$$
 
 More in detail, we may ask just _how_ small these small paths are. Hence we demand more generally an infinite tower
 
 $$
-  &#643; 
+  &#643;
   \lt
   \Im
-  = 
+  =
   \Im_{(0)}
-  \lt 
+  \lt
   \Im_{(1)}
   \lt
   \Im_{(2)}
-  \lt 
+  \lt
   \Im_{(3)}
-  \lt 
+  \lt
   \cdots
-  \lt 
+  \lt
   id
 $$
 
@@ -1479,7 +1479,7 @@ $$
 In total, so far these are the axioms of [[nLab:differential cohesion]] ([dcct](#dcct)).
 Using these one may naturally axiomatize [[nLab:local diffeomorphism]] (def. \ref{LocalDiffeomorphisms} below), [[nLab:jet bundles]] and related concepts.
 
-Hence with these moments posited, types now now qualities of [[nLab:synthetic differential geometry]]. On top of just [[nLab:cohesion|cohesively]] sticking to each other, the terms in the types now may feel a tighter differential connectedness, we have now a rigidly _[[nLab:elasticity|elastic]]_ [[nLab:substance]]. 
+Hence with these moments posited, types now now qualities of [[nLab:synthetic differential geometry]]. On top of just [[nLab:cohesion|cohesively]] sticking to each other, the terms in the types now may feel a tighter differential connectedness, we have now a rigidly _[[nLab:elasticity|elastic]]_ [[nLab:substance]].
 
 ##### Solid substance
 
@@ -1494,7 +1494,7 @@ $$
     \\
     \vee && \vee
     \\
-    \Re &\dashv& \Im 
+    \Re &\dashv& \Im
   }
   \,.
 $$
@@ -1508,7 +1508,7 @@ $$
 
 of the [[nLab:counit of a comonad|comparison map]] of the [[nLab:reduction modality]] $\Re$.
 
-This hence means now that the purely $\rightsquigarrow$-types are in between [[nLab:reduced object|reduced type]] and unreduced types, hence they are reduced in some sense, but possibly not properly. Hence there are now two kinds of [[nLab:infinitesimals]], and the $\rightsquigarrow$-types have no extension by infinitesimals of one kind, but possibly infinitesimal extension of the other kind is left. 
+This hence means now that the purely $\rightsquigarrow$-types are in between [[nLab:reduced object|reduced type]] and unreduced types, hence they are reduced in some sense, but possibly not properly. Hence there are now two kinds of [[nLab:infinitesimals]], and the $\rightsquigarrow$-types have no extension by infinitesimals of one kind, but possibly infinitesimal extension of the other kind is left.
 
 Hence there is now a kind of [[nLab:graded object|grading]] on the infinitesimals and $\rightsquigarrow$ quotients out everything not in degree 0.
 
@@ -1517,7 +1517,7 @@ The [[nLab:geometry|geometric]] quality of our formal [[nLab:substance]] that th
 
 ###### Cyclic grading
 
-The moments proceed by a further higher-oder opposition 
+The moments proceed by a further higher-oder opposition
 
 $$
   \array{
@@ -1525,7 +1525,7 @@ $$
     \\
     \bot && \bot
     \\
-    \rightsquigarrow &\dashv& Rh 
+    \rightsquigarrow &\dashv& Rh
   }
 $$
 
@@ -1534,14 +1534,14 @@ For this to have non-degenerate models one finds that infinitesimals in degree 0
 ###### Super
  {#FormalizationSuperGrading}
 
-We are to require that this level provides [[nLab:Aufhebung]] of the previous oppositions, def. \ref{ResolutionOfOpposition}, in that 
+We are to require that this level provides [[nLab:Aufhebung]] of the previous oppositions, def. \ref{ResolutionOfOpposition}, in that
 
 $$
   \stackrel{\rightsquigarrow}{\Im X} \simeq \Im X
   \,.
 $$
 
-for all types $X$. By adjunction this means that 
+for all types $X$. By adjunction this means that
 
 $$
   \Re \stackrel{\rightrightarrows}{U} \simeq \Re U
@@ -1551,7 +1551,7 @@ for a set of generators $U$, such as objects of a [[nLab:site]].
 
 This says that the reduced part of the even-graded part is the same as the reduced part of the original, hence that odd-grade is removed by reduction, hence that odd-graded moment is nilpotent. In [[nLab:superalgebra]] this is the key consequence of the super-sign rule ([[nLab:Hermann Grassmann]], &#167;37 in _[[nLab:Ausdehnungslehre]]_, 1844) which says that for odd coordinate functions $\theta_1$, $\theta_2$ we have
 
-$$   
+$$
   \theta_1 \theta_2 = -\theta_2 \theta_1
   \,,
 $$
@@ -1577,13 +1577,13 @@ $$
   \array{
      && & \rightrightarrows &\dashv& \rightsquigarrow & / & \e & \stackrel{bosonic/fermionic}{}
      \\
-     && & \bot && \bot 
+     && & \bot && \bot
      \\
      &&  & \rightsquigarrow &\dashv& Rh & = loc_{\mathbb{R}^{0|1}}
      \\
      && & \vee &\stackrel{super}{}& \vee
      \\
-     \stackrel{infinitesimal/reduced}{} &\overline{\Re} & / & \Re &\stackrel{}{\dashv}& \Im &  &  & 
+     \stackrel{infinitesimal/reduced}{} &\overline{\Re} & / & \Re &\stackrel{}{\dashv}& \Im &  &  &
      \\
      && & \bot && \bot
      \\
@@ -1597,11 +1597,11 @@ $$
      \\
      \stackrel{discrete}{} & \overline{\flat} & / & \flat &\stackrel{quantity}{\dashv}& \sharp & = loc_{\not\not}  &   & \stackrel{continuous\; (intensive/extensive)}{}
      \\
-     && & \vee &\stackrel{ground}{}& \vee 
+     && & \vee &\stackrel{ground}{}& \vee
      \\
-     && & \emptyset &\dashv& \ast & 
+     && & \emptyset &\dashv& \ast &
   }
-$$ 
+$$
 
 Prop. \ref{TheHexagon} here gives a decomposition of types into their purely even-graded part and their purely fermionic part
 
@@ -1611,7 +1611,7 @@ $$
     \\
     & & &  & & \nearrow_{} && \searrow
     \\
-     && && X && && 
+     && && X && &&
    \stackrel{\rightrightarrows}{\e(X)}
     \\
     &  &  &  & & \searrow && \nearrow_{}
@@ -1621,7 +1621,7 @@ $$
   \,.
 $$
 
-A [[nLab:substance]] subject to the [[nLab:Pauli exclusion principle]] given by the above super-grading is yet more rigid than just by the [[nLab:elasticity]] we had before: it exhibits [[nLab:solidity]]. 
+A [[nLab:substance]] subject to the [[nLab:Pauli exclusion principle]] given by the above super-grading is yet more rigid than just by the [[nLab:elasticity]] we had before: it exhibits [[nLab:solidity]].
 
 $\,$
 
@@ -1665,7 +1665,7 @@ In traditional [[nLab:mathematical physics]] this is familiar from the concept o
 
 **Physical law**
 
-Or rather, classical mechanics is encoded by [[nLab:prequantized Lagrangian correspondences]], the prequantization expressing the [[nLab:prequantum bundle]], an [[nLab:action functional]] and hence the [[nLab:equations of motion|laws of motion]]. 
+Or rather, classical mechanics is encoded by [[nLab:prequantized Lagrangian correspondences]], the prequantization expressing the [[nLab:prequantum bundle]], an [[nLab:action functional]] and hence the [[nLab:equations of motion|laws of motion]].
 
 By the discussion there, a [[nLab:prequantized Lagrangian correspondence]] is itself again just a correspondence, but now in [[nLab:context]], hence between [[nLab:dependent types]], namely depending on a type of [[nLab:phase and phase space in physics|phases]].
 
@@ -1681,11 +1681,11 @@ $$
     \\
     & {}^{\mathllap{{initial}\atop {values}}}\swarrow && \searrow^{\mathrlap{{Hamiltonian} \atop {evolution}}}
     \\
-    {{phase\,space} \atop {incoming}} 
+    {{phase\,space} \atop {incoming}}
   && \swArrow_{{action} \atop {functional}} && {{phase\,space} \atop {outgoing}}
     \\
-    & {}_{\mathllap{{prequantum}\atop {bundle}_{in}}}\searrow 
-    && 
+    & {}_{\mathllap{{prequantum}\atop {bundle}_{in}}}\searrow
+    &&
     \swarrow_{\mathrlap{{prequantum} \atop {bundle}_{out}}}
     \\
     && {{2-group} \atop {of\,phases}}
@@ -1738,23 +1738,23 @@ For more on this see at
 #### The idea
  {#TheIdea}
 
-Including in homotopy type theory the progression of [[nLab:modal operators]] that we have found above 
+Including in homotopy type theory the progression of [[nLab:modal operators]] that we have found above
 
 $$
   \array{
-      &&& && & id &\dashv& id 
+      &&& && & id &\dashv& id
      \\
       &&& && & \vee && \vee
      \\
       &&& && & \rightrightarrows &\dashv& \rightsquigarrow & / & \e & \stackrel{bosonic/fermionic}{}
      \\
-      \stackrel{solidity}{} &&& && & \bot && \bot 
+      \stackrel{solidity}{} &&& && & \bot && \bot
      \\
       &&& && & \rightsquigarrow &\dashv& Rh & = loc_{\mathbb{R}^{0\vert 1}}& & \stackrel{rheonomic}{}
      \\
       &&& && & \vee &\stackrel{super}{}& \vee
      \\
-     &&& \stackrel{infinitesimal/reduced}{} &\overline{\Re} & / & \Re &\dashv& \Im &  &  & 
+     &&& \stackrel{infinitesimal/reduced}{} &\overline{\Re} & / & \Re &\dashv& \Im &  &  &
      \\
      \stackrel{elasticity}{} &&& && & \bot && \bot
      \\
@@ -1768,11 +1768,11 @@ $$
      \\
      &&& \stackrel{discrete}{} &\overline{\flat} & / & \flat &\stackrel{quantity}{\dashv}& \sharp & = loc_{\not\not} &   & \stackrel{continuous\; (intensive/extensive)}{}
      \\
-     &&& && & \vee &\stackrel{ground}{}& \vee 
+     &&& && & \vee &\stackrel{ground}{}& \vee
      \\
-     &&& && & \emptyset &\dashv& \ast & 
+     &&& && & \emptyset &\dashv& \ast &
   }
-$$ 
+$$
 
 
 
@@ -1782,12 +1782,12 @@ We now indicate some of these new constructions.
 
 ##### Maurer-Cartan forms
 
-Let $G$ be a an [[nLab:∞-group]] type. This means that there is specified a pointed connected type $\mathbf{B}G$ and an [[nLab:equivalence]] $G\simeq \Omega \mathbf{B}G$ with its [[nLab:loop space object]]. We say that $\mathbf{B}G$ is the _[[nLab:delooping]]_ of $G$. Notice that all this happens internal to the ambient cohesive homotopy type theory, which makes $\mathbf{B}G$ have the interpretation of the [[nLab:moduli ∞-stack]] of cohesive $G$-[[nLab:principal ∞-bundles]], instead of just the bare homotopy type of the [[nLab:classifying space]] 
+Let $G$ be a an [[nLab:∞-group]] type. This means that there is specified a pointed connected type $\mathbf{B}G$ and an [[nLab:equivalence]] $G\simeq \Omega \mathbf{B}G$ with its [[nLab:loop space object]]. We say that $\mathbf{B}G$ is the _[[nLab:delooping]]_ of $G$. Notice that all this happens internal to the ambient cohesive homotopy type theory, which makes $\mathbf{B}G$ have the interpretation of the [[nLab:moduli ∞-stack]] of cohesive $G$-[[nLab:principal ∞-bundles]], instead of just the bare homotopy type of the [[nLab:classifying space]]
 
 $$
   B G \simeq &#643; \mathbf{B}G
   \,.
-$$ 
+$$
 
 This richer geometric structure is what the boldface in $\mathbf{B}G$ is meant to remind us of.
 
@@ -1798,7 +1798,7 @@ Denote the first and second [[nLab:homotopy fiber]] of the comparison map  $\fla
 
 $$
 
-  G 
+  G
   \stackrel{\theta_G}{\longrightarrow}
   \flat_{dR}\mathbf{B}G
   \longrightarrow
@@ -1818,7 +1818,7 @@ This double homotopy fiber $\theta_G$ has the interpretation of being the [[nLab
 
 Let $\mathbb{G}$ be an [[nLab:abelian ∞-group]] type. The group of _[[nLab:phase and phase space in physics|phases]]_.
 
-This being abelian just means that there is specified a [[nLab:delooping]] type $\mathbf{B} \mathbb{G}$ and an equivalence $\mathbb{G}\simeq \Omega \mathbf{B} \mathbb{G}$ with its [[nLab:loop space object]], and that with $\mathbf{B}^0 \mathbb{G} \coloneqq \mathbb{G}$ we have inductively that $\mathbf{B}^n \mathbb{G}$ is itself equipped with the structure of an [[nLab:abelian ∞-group]]. 
+This being abelian just means that there is specified a [[nLab:delooping]] type $\mathbf{B} \mathbb{G}$ and an equivalence $\mathbb{G}\simeq \Omega \mathbf{B} \mathbb{G}$ with its [[nLab:loop space object]], and that with $\mathbf{B}^0 \mathbb{G} \coloneqq \mathbb{G}$ we have inductively that $\mathbf{B}^n \mathbb{G}$ is itself equipped with the structure of an [[nLab:abelian ∞-group]].
 
 For the present purpose we will assume in addition that $\mathbb{G}$ is [[nLab:0-truncated]], which makes it simply an [[nLab:abelian group]].
 
@@ -1833,7 +1833,7 @@ $$
   \mathbf{\Omega}^{2}_{cl}
   \to
 
-  \cdots  
+  \cdots
   \to
   \flat_{dR} \mathbf{B}^2 \mathbb{G}
   \to
@@ -1924,7 +1924,7 @@ $$
 Given this, write
 
 $$
-  \tilde G 
+  \tilde G
   \coloneqq G \underset{\flat_{dR}\mathbf{B}G}{\times} \mathbf{\Omega}^1_{flat}(-,\mathfrak{g})
 $$
 
@@ -1933,7 +1933,7 @@ $$
 +-- {: .num_example }
 ###### Example
 
-For $G$ 0-truncated, then the canonical choice is $\mathbf{\Omega}^1_{flat}(-,\mathfrak{g}) = \flat_{dR}\mathbf{B}G$. With this one has $\tilde G \simeq G$. 
+For $G$ 0-truncated, then the canonical choice is $\mathbf{\Omega}^1_{flat}(-,\mathfrak{g}) = \flat_{dR}\mathbf{B}G$. With this one has $\tilde G \simeq G$.
 
 On the other extreme, for $G = \mathbf{B}^{p+1}\mathbb{G}$ then the canonical choice is $\mathbf{\Omega}^1_{flat}(-,\mathfrak{g}) = \mathbf{\Omega}^{p+2}_{cl}$. With this one has $\tilde G \simeq \mathbf{B}^{p+1}\mathbb{G}_{conn}$.
 
@@ -1944,7 +1944,7 @@ This means that in general $\tilde G$ is a homotopy fiber product of $G$ with $\
 +-- {: .num_prop #WZWTermFromCocycle}
 ###### Proposition
 
-Given a group cocycle $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^{p+2}$ and a form refinement $\mu$ as in def. \ref{FormRefinementOfCocycle}, then there exists an essentially unique [[nLab:prequantization]] 
+Given a group cocycle $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^{p+2}$ and a form refinement $\mu$ as in def. \ref{FormRefinementOfCocycle}, then there exists an essentially unique [[nLab:prequantization]]
 
 $$
   \mathbf{L}_{WZW}
@@ -1980,7 +1980,7 @@ $$
   }
 $$
 
-is a [[nLab:pullback]] square. 
+is a [[nLab:pullback]] square.
 
 =--
 
@@ -1999,7 +1999,7 @@ $$
   }
 $$
 
-To see this, notice by the discussion at _[[nLab:synthetic differential geometry]]_ that for $D$ an [[nLab:infinitesimally thickened point]], then for any $X \in \mathbf{H}$ the [[nLab:mapping space]] $[D,X]$ is the [[nLab:jet bundle]] of $X$ with jets of order as encoded by the infinitesimal order of $D$. In particular if $\mathbb{D}^1(1)$ is the first order infinitesimal interval defined by the fact that its [[nLab:algebra of functions]] is the [[nLab:algebra of dual numbers]] $C^\infty(\mathbb{D}^1(1)) = (\mathbb{R} \oplus \epsilon \mathbb{R})/(\epsilon^2)$, and $X$ is a [[nLab:smooth manifold]], then 
+To see this, notice by the discussion at _[[nLab:synthetic differential geometry]]_ that for $D$ an [[nLab:infinitesimally thickened point]], then for any $X \in \mathbf{H}$ the [[nLab:mapping space]] $[D,X]$ is the [[nLab:jet bundle]] of $X$ with jets of order as encoded by the infinitesimal order of $D$. In particular if $\mathbb{D}^1(1)$ is the first order infinitesimal interval defined by the fact that its [[nLab:algebra of functions]] is the [[nLab:algebra of dual numbers]] $C^\infty(\mathbb{D}^1(1)) = (\mathbb{R} \oplus \epsilon \mathbb{R})/(\epsilon^2)$, and $X$ is a [[nLab:smooth manifold]], then
 
 $$
   [\mathbb{D}^1(1), X]\simeq T X
@@ -2074,7 +2074,7 @@ $$
 +-- {: .num_cor }
 ###### Corollary
 
-The bosonic space $\stackrel{\rightsquigarrow}{X}$ underlying 
+The bosonic space $\stackrel{\rightsquigarrow}{X}$ underlying
 a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-manifold
 
 =--
@@ -2086,7 +2086,7 @@ a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-
 ###### Definition
 
 Given $X \in \mathbf{H}$, its _infinitesimal disk bundle_ $T_{inf} X\to X$
-is the [[nLab:pullback]] of the [[nLab:unit of a monad|unit]] of the 
+is the [[nLab:pullback]] of the [[nLab:unit of a monad|unit]] of the
 [[nLab:infinitesimal shape modality]] along itself
 
 $$
@@ -2158,9 +2158,9 @@ $$
     \flat X &\longrightarrow& \Im X
   }
   \,.
-$$ 
+$$
 
-More generally, for any $k \in \mathbb{N}$ then the _order $k$ relative flat modality_ is the pullback in 
+More generally, for any $k \in \mathbb{N}$ then the _order $k$ relative flat modality_ is the pullback in
 
 $$
   \array{
@@ -2171,7 +2171,7 @@ $$
     \flat X &\longrightarrow& \Im X
   }
   \,.
-$$ 
+$$
 
 
 =--
@@ -2250,7 +2250,7 @@ in $\mathbf{H}_{/\mathbf{B}GL(V)}$.
 +-- {: .num_prop #LeftTranslationFraming}
 ###### Proposition
 
-The [[nLab:group object]] $V$, canonically regarded as a $V$-manifold, carries a canonical framing, def. \ref{Framing}, $\phi_{li}$, induced by left translation. 
+The [[nLab:group object]] $V$, canonically regarded as a $V$-manifold, carries a canonical framing, def. \ref{Framing}, $\phi_{li}$, induced by left translation.
 
 =--
 
@@ -2321,8 +2321,8 @@ We call this the _left invariant $G$-structure_.
 +-- {: .num_defn #IntegrabilityOfGStructure}
 ###### Definition
 
-For $X$ a $V$-manifold, then 
-a [[nLab:G-structure]] on $X$, def. \ref{GStructure}, is 
+For $X$ a $V$-manifold, then
+a [[nLab:G-structure]] on $X$, def. \ref{GStructure}, is
 _[[nLab:integrable G-structure|integrable]]_ if for any $V$-[[nLab:atlas]] $V \leftarrow U \rightarrow X$  the pullback of the $G$-structure on $X$ to $V$ is equivalent there to  the left-inavariant $G$-structure on $V$ of example \ref{GStructureFromLeftTranslationFraming}, i.e. if we have an [[nLab:correspondence]] in the double [[nLab:slice topos]] $(\mathbf{H}_{/\mathbf{B}GL(V)})_{/G\mathbf{Struc}}$ of the form
 
 $$
@@ -2365,7 +2365,7 @@ Finally, the $G$-structure is _order $k$ infinitesimally integrable_ if this hol
 ###### Definition
 
 
-Consider an [[nLab:infinity-action]] of $GL(V)$ on $V$ which linearizes to the canonical $GL(V)$-action on $\mathbb{D}^V_e$ by def. \ref{GeneralLinearGroup}. Form the [[nLab:semidirect product]] $GL(V) \rtimes V$. Consider any group homomorphism $G\to GL(V)$. 
+Consider an [[nLab:infinity-action]] of $GL(V)$ on $V$ which linearizes to the canonical $GL(V)$-action on $\mathbb{D}^V_e$ by def. \ref{GeneralLinearGroup}. Form the [[nLab:semidirect product]] $GL(V) \rtimes V$. Consider any group homomorphism $G\to GL(V)$.
 
 A _$(G\to G\rtimes V)$-[[nLab:Cartan geometry]]_ is a $V$-manifold $X$ equipped with a $G$-structure, def. \ref{GStructure}. The Cartan geometry is called _(infinitesimally) integrable_ if the $G$-structure is so, according to def. \ref{IntegrabilityOfGStructure}.
 
@@ -2376,7 +2376,7 @@ A _$(G\to G\rtimes V)$-[[nLab:Cartan geometry]]_ is a $V$-manifold $X$ equipped 
 
 For $V$ an [[nLab:abelian group]], then in traditional contexts the infinitesimal integrability of def. \ref{IntegrabilityOfGStructure} comes down to the [[nLab:torsion of a G-structure]] vanishing. But for $V$ a [[nLab:nonabelian group]], this definition instead enforces that the torsion is on each [[nLab:infinitesimal disk]] the intrinsic left-invariant torsion of $V$ itself.
 
-Traditionally this is rarely considered, matching the fact that ordinary [[nLab:vector spaces]], regarded as [[nLab:translation groups]] $V$, are [[nLab:abelian groups]]. But [[nLab:super vector spaces]] regarded (in suitable dimension) as [[nLab:super translation groups]] are _[[nLab:nonabelian groups]]_. Therefore super-vector spaces $V$ may carry intrinsic torsion, and therefore first-order integrable $G$-structures on $V$-manifolds are torsion-ful. 
+Traditionally this is rarely considered, matching the fact that ordinary [[nLab:vector spaces]], regarded as [[nLab:translation groups]] $V$, are [[nLab:abelian groups]]. But [[nLab:super vector spaces]] regarded (in suitable dimension) as [[nLab:super translation groups]] are _[[nLab:nonabelian groups]]_. Therefore super-vector spaces $V$ may carry intrinsic torsion, and therefore first-order integrable $G$-structures on $V$-manifolds are torsion-ful.
 
 Indeed, this is a phenomenon known as the [[nLab:torsion constraints in supergravity]]. Curiously, as discussed there, for the case of [[nLab:11-dimensional supergravity]] the [[nLab:equations of motion]] of the gravity theory are _equivalent_ to the super-Cartan geometry satisfying this torsion constraint. This way super-Cartan geometry gives a direct general abstract route right into the heart of [[nLab:M-theory]].
 
@@ -2431,7 +2431,7 @@ $$
   \,.
 $$
 
-Accordingly, as in def. \ref{IntegrabilityOfGStructure} we say that $\mathbf{L}_{WZW}^X$ is an _infinitesimally integrable globalization_ if this correspondence exists after restriction along the inclusion $\flat^{rel} U \to U$ of the [[nLab:infinitesimal disks]] in $X$ and such that 
+Accordingly, as in def. \ref{IntegrabilityOfGStructure} we say that $\mathbf{L}_{WZW}^X$ is an _infinitesimally integrable globalization_ if this correspondence exists after restriction along the inclusion $\flat^{rel} U \to U$ of the [[nLab:infinitesimal disks]] in $X$ and such that
 
 1. the induced section of the [[nLab:associated infinity-bundle|associated]]  $[\mathbb{D}(1)^V,\mathbf{B}^{p+1}\mathbb{G}_{conn}]$-[[nLab:fiber infinity-bundle]] is _definite_ on the restriction $\mathbf{L}_{WZW}^{\mathbb{D}}$ of $\mathbf{L}_{WZW}^V$ to the infinitesimal disk;
 
@@ -2444,7 +2444,7 @@ If $\mathbf{B}^{p+1}\mathbb{G}_{conn}$ had no [[nLab:higher gauge transformation
 +-- {: .num_prop #DefiniteGlobalizationsToGStructure}
 ###### Proposition
 
-There is a canonical [[nLab:(∞,1)-functor]] from (infinitesimally integrable) definite globalizations of $\mathbf{L}_{WZW}^X$ over a $V$-manifold $X$ to (infinitesimally integrable) $G$-structures on $X$, def. \ref{GStructure}, for 
+There is a canonical [[nLab:(∞,1)-functor]] from (infinitesimally integrable) definite globalizations of $\mathbf{L}_{WZW}^X$ over a $V$-manifold $X$ to (infinitesimally integrable) $G$-structures on $X$, def. \ref{GStructure}, for
 
 $$
   G = intens(\mathbf{Stab}_{GL(V)}(\mathbf{L}_{WZW}^{\mathbb{D}^V}))
@@ -2476,7 +2476,7 @@ Recall specifically that
 
 1. The definite globalization of the WZW term $\mathbf{L}_{\mathrm{WZW}}$ induces a  $Stab(\mathbf{L}_{WZW})$ structure on $X$ and the requirement that this be infinitesimally integrable is a [[nLab:torsion of a G-structure|torsion constraint]] on $X$.
 
-We now find an externalization of the idea such that 
+We now find an externalization of the idea such that
 
 1. There is a canonical bouquet of higher group cocycles and their [[nLab:∞-group extensions]] emanating from the unique 0-truncated purely fermionic type -- the [[nLab:superpoint]].
 
@@ -2504,7 +2504,7 @@ We now spell out the construction of this model and indicate the proof of this s
 +-- {: .num_defn #SupergeometricModel}
 ###### Definition
 
-Write 
+Write
 
 * [[nLab:CartSp]] for the site of [[nLab:Cartesian spaces]];
 
@@ -2515,7 +2515,7 @@ Write
 
 There are then "semidirect product" sites $CartSp \rtimes InfinPoint$ and $CartSp \rtimes SuperPoint$ (whose objects are [[nLab:Cartesian products]] of the given form inside [[nLab:synthetic differential supergeometry]] and whose morphisms are all morphisms in that context (not just the product morphisms)).
 
-Set then 
+Set then
 
 $$
   Smooth \infty Grpd \coloneqq Sh_\infty(CartSp)
@@ -2551,7 +2551,7 @@ $$
   \stackrel{\hookrightarrow}{\longleftarrow}
   CartSp\rtimes InfPoint
   \stackrel{\longleftarrow}{\stackrel{\hookrightarrow}{\longleftarrow}}
-  CartSp \rtimes SuperPoint  
+  CartSp \rtimes SuperPoint
   \,.
 $$
 
@@ -2571,14 +2571,14 @@ Passing to [[nLab:(∞,1)-categories of (∞,1)-sheaves]], this yields, via [[nL
 
 $$
   \array{
-    & && && &\longleftarrow& 
+    & && && &\longleftarrow&
     \\
-    & && &\hookrightarrow& &\hookrightarrow& 
+    & && &\hookrightarrow& &\hookrightarrow&
     \\
     & &\longleftarrow& &\longleftarrow& &\longleftarrow&
     \\
     \Delta \colon
-    & 
+    &
     \infty Grpd
     &\hookrightarrow&
     Smooth \infty Grpd
@@ -2631,22 +2631,22 @@ With this the rightmost adjoint quadruple gives the [[nLab:Aufhebung]] of $\Re \
 The model in def. \ref{SupergeometricModel} admits also the refinement of the [[nLab:infinitesimal shape modality]] to an infinite tower
 
 $$
-  &#643; 
+  &#643;
   \lt
   \Im
-  = 
+  =
   \Im_{(0)}
-  \lt 
+  \lt
   \Im_{(1)}
   \lt
   \Im_{(2)}
-  \lt 
+  \lt
   \Im_{(3)}
-  \lt 
+  \lt
   \cdots
 $$
 
-characterizing $k$th order infinitesimals. Let 
+characterizing $k$th order infinitesimals. Let
 
 $$
   \ast
@@ -2670,11 +2670,11 @@ be the stratification of $InfPoint$ by its [[nLab:full subcategory|full subcateg
 +-- {: .num_prop #DeterminateNegationsRealized}
 ###### Proposition
 
- 
-The model in def. \ref{SupergeometricModel} verifies the required determinate negations 
+
+The model in def. \ref{SupergeometricModel} verifies the required determinate negations
 
 1. determinate negations I:
- 
+
 
    * $&#643; \ast \simeq \ast$;
 
@@ -2688,7 +2688,7 @@ The model in def. \ref{SupergeometricModel} verifies the required determinate ne
 
 =--
 
-  
+
 +-- {: .proof}
 ###### Proof
 
@@ -2720,12 +2720,12 @@ Since the site $S$ of $\mathbf{H} \coloneqq SuperFormalSmooth\infty Grpds$  has 
 
 $$
   \flat X \simeq X(\ast)
-$$ 
+$$
 
 
 (where we may leave the constant re-embedding implicit, due to it being [[nLab:fully faithful functor|fully faithful]]).
 
-Moreover, for every object $U\in \mathcal{S}$ there exists a morphism $i \colon \ast \to U$ hence for every $X\in \mathbf{H}$ and every $U$ there exists a morphism $i^\ast \colon X(U)\to \flat X$. This means that if $\flat X \simeq \emptyset$ then $X(U) \simeq \emptyset$ for all $U \in \mathcal{S}$ and hence $X\simeq \emptyset$. 
+Moreover, for every object $U\in \mathcal{S}$ there exists a morphism $i \colon \ast \to U$ hence for every $X\in \mathbf{H}$ and every $U$ there exists a morphism $i^\ast \colon X(U)\to \flat X$. This means that if $\flat X \simeq \emptyset$ then $X(U) \simeq \emptyset$ for all $U \in \mathcal{S}$ and hence $X\simeq \emptyset$.
 
 We now show that this condition is equivalent to the required Aufhebung:
 
@@ -2780,7 +2780,7 @@ $$
     & \simeq
     \mathbf{H}(\stackrel{\rightrightarrows}{U \times D_s} , \Im X)
     \\
-    &\simeq 
+    &\simeq
     \mathbf{H}(\Re(\stackrel{\rightrightarrows}{U \times D_s}) , X)
     \\
     & \simeq
@@ -2798,7 +2798,7 @@ Here the crucial step is the observation that on representables, by construction
 
 =--
 
-But observe that 
+But observe that
 
 +-- {: .num_prop #CompletenessOfOppositionsInSuperFormalSmoothTypes}
 ###### Proposition
@@ -2820,7 +2820,7 @@ The definition would require that
 
 $$
   \stackrel{\rightsquigarrow}{\mathbb{R}^{0|2}}
-    \longrightarrow 
+    \longrightarrow
   \stackrel{\rightrightarrows}{\mathbb{R}^{0|2}}
 $$
 
@@ -2849,12 +2849,12 @@ The progressive system of moments above, yields, by prop. \ref{DeterminateNegati
 
 Both have familiar structure of an [[nLab:abelian group]] object, $\mathbb{R}$ being the [[nLab:additive group]], hence there are arbitrary [[nLab:deloopings]] $\mathbf{B}^n \mathbb{R}^{0|1}$ and $\mathbf{B}^{n}\mathbb{R}$.
 
-Given two types, there are the [[nLab:judgements]] in which these appear as 
+Given two types, there are the [[nLab:judgements]] in which these appear as
 subject and as predicate, in the sense discussed [above](#JudgementInFormalization).
 
 There are no non-trivial judgements with (a delooping of) $\mathbb{R}$ as the subject and (a delooping of) $\mathbb{R}^{0|1}$ as the predicate. But there turn out to be some exceptional judgements with subject $\mathbb{R}^{0|q}$ and predicate $\mathbf{B}^d \mathbb{R}$.
 
-By example \ref{PrincipalBundlesAsJudgements} this leads to the deduction of the object which is the homotopy fibers of the corresponding maps. From these one obtains further judgements, then further objects, and so forth. This way a "bouquet" of objects is induced from the initial ones. 
+By example \ref{PrincipalBundlesAsJudgements} this leads to the deduction of the object which is the homotopy fibers of the corresponding maps. From these one obtains further judgements, then further objects, and so forth. This way a "bouquet" of objects is induced from the initial ones.
 
 
 We now discuss how this bouquet first of all yields [[nLab:super Minkowski spacetime]] and then further the [[nLab:extended super Minkowski spacetimes]] arising from [[nLab:super p-brane]] condensates ([FSS](#FSS)).
@@ -2917,7 +2917,7 @@ $$
   d\theta\wedge d\theta
   \in CE(\mathbb{R}^{0\vert 1})
   \,.
-$$ 
+$$
 
 The [[nLab:Lie algebra extension]]
 
@@ -2955,7 +2955,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This is still purely of negative bosonic moment in that 
+This is still purely of negative bosonic moment in that
 $e(\mathbb{R}^{0|2}) \simeq \mathbb{R}^{0|2}$, but it is no longer has purely no moment opposed to bosonic moment (witnessing that the fermionic opposition is not complete, lemma \ref{CompletenessOfOppositionsInSuperFormalSmoothTypes}), instead
 
 $$
@@ -2980,7 +2980,7 @@ $$
   \mathbb{R}^3
 $$
 
-represented by the cocycles of the form 
+represented by the cocycles of the form
 
 $$
   a_{11}
@@ -3019,7 +3019,7 @@ is 3-dimensional [[nLab:super Minkowski spacetime]].
 ###### Proof
 
 This follows by inspection of the real [[nLab:spin representations]]
-in dimension 3, see the details spelled out at 
+in dimension 3, see the details spelled out at
 _[spin representation -- via division algebras -- Example d=3](http://ncatlab.org/nlab/show/spin%20representation#RealSpinorRepsIn3d)_).
 
 =--
@@ -3056,7 +3056,7 @@ A definite globalization, of this 3-cocycle over a $\mathbb{R}^{3\vert \mathbf{2
 ###### Proposition
 
 The joint [[nLab:stabilizer]] of $GL(\mathbb{R}^{2,1\vert 2})$
-of the Lie bracket and the 3-cocycle is the [[nLab:pin group]] $Pin(2,1)$, the unoriented generalization of the [[nLab:spin group]] $Spin(2,1)$, 
+of the Lie bracket and the 3-cocycle is the [[nLab:pin group]] $Pin(2,1)$, the unoriented generalization of the [[nLab:spin group]] $Spin(2,1)$,
 the [[nLab:double cover]] of the [[nLab:Lorentz group]] $SO(2,1)$.
 
 =--
@@ -3085,12 +3085,12 @@ $$
 
 There is a 1-dimensional space of $Spin(2,1)$-invariant 2-cocycles
 on $\mathbb{R}^{2,1\vert \mathbf{2} + \overline{\mathbf{2}}$.
-The [[nLab:Lie algebra extension]] classified by that 
+The [[nLab:Lie algebra extension]] classified by that
 is 4d [[nLab:super Minkowski spacetime]]
 
 $$
   \array{
-    \mathbb{R}^{3,1\vert 4} 
+    \mathbb{R}^{3,1\vert 4}
     \\
     \downarrow
     \\
@@ -3141,7 +3141,7 @@ $$
 
 ###### Lorentz symmetry
 
-Notice that so far we have obtained 3-dimensional 
+Notice that so far we have obtained 3-dimensional
 and 4-dimensional  Minkowski spacetime and the WZW-term for the [[nLab:superstring]]
 and the [[nLab:membrane]] propagating on it without assuming knowledge of the [[nLab:Lorentz group]]. In fact we assumed nothing but the presence of the [[nLab:real line]] $\mathbb{R}$ and the [[nLab:odd line]] $\mathbb{R}^{0|1}$ and we have simply investigated their cohomology.
 
@@ -3178,12 +3178,12 @@ $$
 $$
 
 is surjective. This imples that if $g \in GL(\mathbb{R}^{d-1,1|N})$ preserves both the bracket and the cocycle for all $\psi, \phi \in S$ and $v \in V$
-to 
+to
 $$
   \eta( [g(\psi),g(\phi)], g(v) )
   =
   \eta( g([\psi,\phi]), g(v) )
-  = 
+  =
   \eta( [\psi,\phi], v )
 $$
 
@@ -3301,7 +3301,7 @@ First-order integrable $(Spin(10,1)\hookrightarrow Iso(\mathbb{R}^{10,1\vert \ma
 +-- {: .proof}
 ###### Proof
 
-([Howe 97](http://ncatlab.org/nlab/show/torsion+constraints+in+supergravity#Howe97)) shows that imposing (on some [[nLab:chart]]) $\mathbf{d} E^a + \omega^{a}{}_b \wedge E^b - \bar \psi \Gamma^a \psi  = 0$ implies (and hence is equivalent to) the equations of motion of [[nLab:11d supergravity]]. These equations (see e.g. [D'Auria-Fr&#233; 82, p. 31](http://ncatlab.org/nlab/show/11-dimensional%20supergravity#DAuriaFre)) then show that furthermore requiring $\mathbf{d} \psi + \tfrac{1}{2}\omega_{a b} \Gamma^{a b}\psi = 0$ (and hence requiring the full supertorsion tensor to be that of super-Minkowski spacetime) puts the [[nLab:field strength]] of the [[nLab:gravitino]] and of the [[nLab:supergravity C-field]] to 0. 
+([Howe 97](http://ncatlab.org/nlab/show/torsion+constraints+in+supergravity#Howe97)) shows that imposing (on some [[nLab:chart]]) $\mathbf{d} E^a + \omega^{a}{}_b \wedge E^b - \bar \psi \Gamma^a \psi  = 0$ implies (and hence is equivalent to) the equations of motion of [[nLab:11d supergravity]]. These equations (see e.g. [D'Auria-Fr&#233; 82, p. 31](http://ncatlab.org/nlab/show/11-dimensional%20supergravity#DAuriaFre)) then show that furthermore requiring $\mathbf{d} \psi + \tfrac{1}{2}\omega_{a b} \Gamma^{a b}\psi = 0$ (and hence requiring the full supertorsion tensor to be that of super-Minkowski spacetime) puts the [[nLab:field strength]] of the [[nLab:gravitino]] and of the [[nLab:supergravity C-field]] to 0.
 
 =--
 
@@ -3316,7 +3316,7 @@ Vacuum Einstein solutions as in prop. \ref{VacuumSolutionsIn11d}, are considered
 +-- {: .num_prop }
 ###### Proposition
 
-Given a [[nLab:definite globalization of WZW term|definite globalization]] $\mathbf{L}_{WZW}^X$ of a super $p$-brane WZW term $\mathbf{L}_{WZW}^V$, then the [[nLab:stabilizer infinity-group]] of $\mathbf{L}_{WZW}$ is the integrated [[nLab:BPS charge]] algebra of this solution of supergravity. 
+Given a [[nLab:definite globalization of WZW term|definite globalization]] $\mathbf{L}_{WZW}^X$ of a super $p$-brane WZW term $\mathbf{L}_{WZW}^V$, then the [[nLab:stabilizer infinity-group]] of $\mathbf{L}_{WZW}$ is the integrated [[nLab:BPS charge]] algebra of this solution of supergravity.
 
 =--
 
@@ -3368,7 +3368,7 @@ Our **paragraph numbering** is as follows:
 | Hegel's logic |  [[modal type theory|modal]] [[homotopy type theory]] |  |
 |-----|------|---|
 | **subjektive Begriffslogik** | **[[type theory]]/[[natural deduction]]** | [&#167;1280](#1280), [Law94b](#Lawvere94b) |
-| Begriff, concept, notion | [[type]] | [&#167;1280](#1280), [MaL&#246;73](#MartinLoef73), [MaL&#246;90](#MartinLoef90) [Sale 77](#Sale77), [Se94](#Sergeraert94) [LaPr14](#LadymanPresnel14) |
+| Begriff, concept, notion | [[type]] | [&#167;1280](#1280), [MaL&#246;73](#MartinLoef73), [MaL&#246;90](#MartinLoef90) [Sale 77](#Sale77), [Se94](#Sergeraert94) [Ash11](#Asher11) [LaPr14](#LadymanPresnel14) |
 | Urteil | [[judgement]] | [MaL&#246;96](#MartinLoef96) |
 | Schluss (syllogism) | [[cut elimination]], [[natural deduction]] | [Ge35](#Gentzen35), [RMR 94, 2.3](#PalmeReyesMacnamaraReyes94) |
 | Grund (unvermittelt) | [[antecedent]] | [&#167;1021](#1021) |
@@ -3376,7 +3376,7 @@ Our **paragraph numbering** is as follows:
 | entering into existence | [[term introduction]] | [&#167;1033](#1033), [&#167;1035](#1035) |
 | moment | [[modality]], [[modal operator]] ([[idempotent monad]] ([[comonad|co-]])[[monad]]) |  |
 | unity of opposites |  [[adjoint modality]] (moment $\dashv$ co-moment) | [&#167;908](#908), [Law91](#Lawvere91), [[Cohesive Toposes and Cantor's "lauter Einsen"|Law94]], [[Unity and Identity of Opposites in Calculus and Physics|Law96]] |
-| negative | [[cofiber]] of [[counit of a comonad]] | [&#167;911](#911), [&#167;938](#938) | 
+| negative | [[cofiber]] of [[counit of a comonad]] | [&#167;911](#911), [&#167;938](#938) |
 | unity of opposite unities of opposites | [[adjoint triple]] [[adjoint modality]] $\left(\array{moment &\dashv& comoment \\ \bot && \bot \\ comoment &\dashv& cocomoment }\right)$  |  |
 | sphere | [[level of a topos|level]] | [&#167;194](#194) |
 | Aufhebung | [[Aufhebung]], inclusion of adjoint modality in higher [[level of a topos|level]] | [Law89](Aufhebung#Law89b) |
@@ -3408,7 +3408,7 @@ Our **paragraph numbering** is as follows:
 | absolute indifference  | [[adjoint modality]] ($id \dashv id$) | [&#167;803](#803), [&#167;808](#808), [&#167;812](#812) |
 | **Wesenslogik** | **[[homotopy type theory]]** |   |
 | Wesen, essence | the ambient [[(∞,1)-category]], ambient [[(∞,1)-topos]] | [&#167;803](#803), [&#167;812](#812), [&#167;828](#828) |
-| essence opposing itself, Bewegung von Nichts zu Nichts  | $id \dashv id$ | [&#167;813](#813), [&#167;823](#823), [&#167;835](#835), [&#167;839](#839) | 
+| essence opposing itself, Bewegung von Nichts zu Nichts  | $id \dashv id$ | [&#167;813](#813), [&#167;823](#823), [&#167;835](#835), [&#167;839](#839) |
 |  | $ \array{ id &\dashv& id & = \overline{\ast} \\ \vee && \vee \\ \vdots && \vdots \\ \vee && \vee \\  \emptyset &\dashv& \ast & = \overline{id} } $ |  [Setzende Reflexion](#SetzendeReflexion), [&#167;853b](#853b) |
 | essence appears as reflected in itself | [[object classifier]] = [[type of types]] = [[universe]] $Type$ | [&#167;816](#816), [&#167;834](#834), [&#167;850](#850), [&#167;1037](#1037), [Luo11,2.5](type+of+types#Luo11), [MaL&#246;74, p. 6](type+of+types#MartinLoef74) [Pal](type+of+types#Palmgren), [Rat](type+of+types#Rathjen) |
 | essence as infinite return-into-self | [[universe enlargement|cumulative hierarchy]] of universe levels $Type_1 \lt Type_2 \lt Type_3 \lt \cdots $ | [&#167;860b](#860b) |
@@ -3435,7 +3435,7 @@ Our **paragraph numbering** is as follows:
 | Substanz   | the whole [[differential cohesion|differential]] [[cohesive (∞,1)-topos]]/[[cohesive homotopy type theory]]   |  [&#167;1235](#1235), [&#167;1238](#1238), [&#167;1281](#1281) |
 | Accidenz | type $\mathbb{A}$ exhibiting a moment, as in $&#643; \someq loc_{\mathbb{A}}$ | [&#167;1236](#1236), [&#167;1237](#1237), [&#167;1238](#1238)  |
 | **Objektivit&#228;t des Begriffs** |  |  |
-| der mechanische Proce&#223; |  code execution | [&#167;1529b](#1529b), [&#167;1552b](#1552b), [&#167;1572](#1572) | 
+| der mechanische Proce&#223; |  code execution | [&#167;1529b](#1529b), [&#167;1552b](#1552b), [&#167;1572](#1572) |
 | der absolute Mechanismus | [[classical mechanics]] |   |
 | das Gesetz | laws of nature, [[equations of motion]]  |  ([&#167;1572](#1572), [&#167;1575](#1575)) |
 | der Chemismus | in guise of (quantum-)chemistry: [[quantum mechanics]] | [&#167;1579a](#1579a) |
@@ -3551,8 +3551,8 @@ $$
     \\
     &&
     \\
-    &&  && && && (A \stackrel{\simeq}{\to} B) & 
-     \stackrel{\stackrel{abs.\,Wirklichkeit}{\simeq}}{\underset{wes.\,Verhaeltnis}{\longleftarrow}} & ('A' = 'B') & 
+    &&  && && && (A \stackrel{\simeq}{\to} B) &
+     \stackrel{\stackrel{abs.\,Wirklichkeit}{\simeq}}{\underset{wes.\,Verhaeltnis}{\longleftarrow}} & ('A' = 'B') &
     \\
     &&  && && &\stackrel{das\;Aeussere}{}& \mathbf{H} &  & Type & \stackrel{das\;Innere}{}
     \\
@@ -3566,14 +3566,14 @@ $$
     \\
     && && && && & Erscheinung
     \\
-    && 
+    &&
     \\
     && && Wesen && & \stackrel{}{} & \sum_W W^\ast & \stackrel{}{\dashv} & \prod_W W^\ast & \stackrel{Zufaelligkeit}{}
     \\
     && && && &\stackrel{Moeglichkeit}{}& W^\ast \sum_W &\stackrel{}{\dashv}& W^\ast \prod_W & \stackrel{Notwendigkeit}{}
     \\
     \\
-    && &&  && 
+    && &&  &&
     \\
     \\
     && && &&\stackrel{An\& Fuersichsein}{}&& id &\stackrel{}{\dashv}& id
@@ -3603,10 +3603,10 @@ $$
     \\
     && &&&&\stackrel{reines\;Sein}{}&\stackrel{Nichts}{}& \emptyset &\stackrel{Werden}{\dashv}& \ast & \stackrel{Sein}{}
     \\
-    && && && 
+    && && &&
     \\
     \\
-    {Subjektive \atop Logik}{} && && Begriff && 
+    {Subjektive \atop Logik}{} && && Begriff &&
   }
 $$
 
@@ -4120,7 +4120,7 @@ So $\sharp$ is the version of $\ast$ ([[being]]) in the next level, which indeed
 > &#167;196 Determinateness thus isolated by itself in the form of being is quality
 
 
-> {#EL91ZusatzA} EL&#167;91ZusatzA Die Grundlage aller Bestimmtheit ist die Negation (_omnis determinatio est negatio_, wie [[Spinoza]] sagt). 
+> {#EL91ZusatzA} EL&#167;91ZusatzA Die Grundlage aller Bestimmtheit ist die Negation (_omnis determinatio est negatio_, wie [[Spinoza]] sagt).
 
 ###### c. Etwas / Something
  {#Etwas}
@@ -4133,7 +4133,7 @@ So $\sharp$ is the version of $\ast$ ([[being]]) in the next level, which indeed
 
 
 
->  &#167;209a This sublating of the distinction is more than a mere taking back and external omission of it again, or than a simple return to the simple beginning, to determinate being as such. The distinction cannot be omitted, for it is. What is, therefore, in fact present is determinate being in general, distinction in it, and sublation of this distinction; determinate being, not as devoid of distinction as at first, but as again equal to itself through sublation of the distinction, the simple oneness of determinate being resulting from this sublation. 
+>  &#167;209a This sublating of the distinction is more than a mere taking back and external omission of it again, or than a simple return to the simple beginning, to determinate being as such. The distinction cannot be omitted, for it is. What is, therefore, in fact present is determinate being in general, distinction in it, and sublation of this distinction; determinate being, not as devoid of distinction as at first, but as again equal to itself through sublation of the distinction, the simple oneness of determinate being resulting from this sublation.
 
 
 > {#209b} &#167;209b Die&#223; Aufgehobenseyn des Unterschieds ist die eigne Bestimmtheit des Daseyns; so ist es Insichseyn; das Daseyn ist Daseyendes, Etwas.
@@ -4148,14 +4148,14 @@ Now, at least in as far as [[sheaf toposes]] are concerned, then determining a t
 
 The archetypical case of this is the [[classifying topos]] for objects. Internally, this is the topos obtained from the base topos by adjoining what today is called a _generic object_, but what one might just as well call an _object-in-itself_ (Objekt an sich). See ([&#167;227](#227), [EL&#167;124](#EL124), [#EL124Zusatz](EL&#167;124Zusatz)).
 
-More general sheaf toposes encode the forcing of more objects, and of relations between them. In either case, the _Dasein_ (being-there) exhibited by a topos over a base topos brings with it things (objects) which thereby "are there". 
+More general sheaf toposes encode the forcing of more objects, and of relations between them. In either case, the _Dasein_ (being-there) exhibited by a topos over a base topos brings with it things (objects) which thereby "are there".
 
 See also [EL&#167;124Zusatz](#EL124Zusatz).
 
 
 > {#210a} &#167;210a Das Etwas ist die erste Negation der Negation...
 
-> &#167;210a Something is the first negation of negation... 
+> &#167;210a Something is the first negation of negation...
 
 >  {#210b} &#167;210b ...als einfache seiende Beziehung auf sich. Dasein, Leben, Denken usf. bestimmt sich wesentlich zum Daseienden, Lebendigen, Denkenden (Ich) usf. Diese Bestimmung ist von der h&#246;chsten Wichtigkeit, um nicht bei dem Dasein, Leben, Denken usf., auch nicht bei der Gottheit (statt Gottes) als Allgemeinheiten stehenzubleiben. Etwas gilt der Vorstellung mit Recht als ein Reelles. Jedoch ist Etwas noch eine sehr oberfl&#228;chliche Bestimmung; wie Realit&#228;t und Negation, das Dasein und dessen Bestimmtheit zwar nicht mehr die leeren &#8211; Sein und Nichts &#8211;, aber ganz abstrakte Bestimmungen sind. Deswegen sind sie auch die gel&#228;ufigsten Ausdr&#252;cke, und die philosophisch nicht gebildete Reflexion gebraucht sie am meisten, gie&#223;t ihre Unterscheidungen darein und meint daran etwas recht gut und fest Bestimmtes zu haben. &#8211; Das Negative des Negativen ist als Etwas nur der Anfang des Subjekts, &#8211; das Insichsein nur erst ganz unbestimmt. Es bestimmt sich fernerhin zun&#228;chst als F&#252;rsichseiendes und so fort, bis es erst im Begriff die konkrete Intensit&#228;t des Subjekts erh&#228;lt. Allen diesen Bestimmungen liegt die negative[123] Einheit mit sich zugrunde. Aber dabei ist die Negation als erste, als Negation &#252;berhaupt wohl zu unterscheiden von der zweiten, der Negation der Negation, welche die konkrete, absolute Negativit&#228;t, wie jene erste dagegen nur die abstrakte Negativit&#228;t ist.
 
@@ -4171,7 +4171,7 @@ See also [EL&#167;124Zusatz](#EL124Zusatz).
 
 In the  _Lesser Logic_ it has:
 
-> {#EL91} EL&#167;91 Die Negation, nicht mehr das abstrakte Nichts, sondern als ein Dasein und Etwas, 
+> {#EL91} EL&#167;91 Die Negation, nicht mehr das abstrakte Nichts, sondern als ein Dasein und Etwas,
 
 ##### B. Die Endlichkeit / Finitude.
 
@@ -4226,7 +4226,7 @@ This is the [[Aufhebung]] discussed around [&#167;182](#182), [&#167;183](#183)
 
 > {#226} &#167;226 Die&#223; f&#252;hrt zu einer weitern Bestimmung. Ansichseyn und Seyn-f&#252;r-Anderes sind zun&#228;chst verschieden; aber da&#223; Etwas dasselbe, was es an sich ist, auch an ihm hat, und umgekehrt, was es als Seyn-f&#252;r-Anderes ist, auch an sich ist,&#8212;die&#223; ist die Identit&#228;t des Ansichseyns und Seyns-f&#252;r-Anderes, nach der Bestimmung, da&#223; das Etwas selbst ein und dasselbe beider Momente ist, sie also ungetrennt in ihm sind.&#8212;Es ergiebt sich formell diese Identit&#228;t schon in der Sph&#228;re des Daseyns, aber ausdr&#252;cklicher in der Betrachtung des Wesens und dann des Verh&#228;ltnisses der Innerlichkeit und &#196;u&#223;erlichkeit, und am bestimmtesten in der Betrachtung der Idee, als der Einheit des Begriffs und der Wirklichkeit.
 
-> &#167;226 This leads to a further determination. Being-in-itself and being-for-other are, in the first instance, distinct; but that something also has within it the same character that it is in itself, and, conversely, that what it is as being-for-other it also is in itself-this is the identity of being-in-itself and being-for-other, in accordance with the determination that the something itself is one and the same something of both moments, which, therefore, are undividedly present in it. This identity is already formally given in the sphere of determinate being, but more expressly in the consideration of essence and of the relation of inner and outer, and most precisely in the consideration of the Idea as the unity of the Notion and actuality. 
+> &#167;226 This leads to a further determination. Being-in-itself and being-for-other are, in the first instance, distinct; but that something also has within it the same character that it is in itself, and, conversely, that what it is as being-for-other it also is in itself-this is the identity of being-in-itself and being-for-other, in accordance with the determination that the something itself is one and the same something of both moments, which, therefore, are undividedly present in it. This identity is already formally given in the sphere of determinate being, but more expressly in the consideration of essence and of the relation of inner and outer, and most precisely in the consideration of the Idea as the unity of the Notion and actuality.
 
 |  Sph&#228;re |     |    Moment      |  Einheit |   Komoment      |          |
 |------|--------|------------|---|------------------|----------------|
@@ -4767,9 +4767,9 @@ But later when _Nature_ has appeared, the unity of attraction and repulsion inde
 ##### A. Die reine Quantit&#228;t / Pure quantity
  {#PureQuantity}
 
-> {#395a} &#167;395a Die Quantit&#228;t ist das aufgehobene F&#252;rsichsein; das repellierende Eins, das sich gegen das ausgeschlossene Eins nur negativ verhielt, in die Beziehung mit demselben &#252;bergegangen, verh&#228;lt sich identisch zu dem Anderen und hat damit seine Bestimmung verloren; das F&#252;rsichsein ist in Attraktion &#252;bergegangen. Die absolute Spr&#246;digkeit des repellierenden Eins ist in diese Einheit zerflossen, welche aber, als dies Eins enthaltend, durch die inwohnende Repulsion zugleich bestimmt, als Einheit des Au&#223;ersichseins Einheit mit sich selbst ist. 
+> {#395a} &#167;395a Die Quantit&#228;t ist das aufgehobene F&#252;rsichsein; das repellierende Eins, das sich gegen das ausgeschlossene Eins nur negativ verhielt, in die Beziehung mit demselben &#252;bergegangen, verh&#228;lt sich identisch zu dem Anderen und hat damit seine Bestimmung verloren; das F&#252;rsichsein ist in Attraktion &#252;bergegangen. Die absolute Spr&#246;digkeit des repellierenden Eins ist in diese Einheit zerflossen, welche aber, als dies Eins enthaltend, durch die inwohnende Repulsion zugleich bestimmt, als Einheit des Au&#223;ersichseins Einheit mit sich selbst ist.
 
-> &#167;395a Quantity is sublated being-for-self; the repelling one which related itself only negatively to the excluded one, having passed over into relation to it, treats the other as identical with itself, and in doing so has lost its determination: being-for-self has passed over into attraction. The absolute brittleness of the repelling one has melted away into this unity which, however, as containing this one, is at the same time determined by the immanent repulsion, and as unity of the self-externality is unity with itself. 
+> &#167;395a Quantity is sublated being-for-self; the repelling one which related itself only negatively to the excluded one, having passed over into relation to it, treats the other as identical with itself, and in doing so has lost its determination: being-for-self has passed over into attraction. The absolute brittleness of the repelling one has melted away into this unity which, however, as containing this one, is at the same time determined by the immanent repulsion, and as unity of the self-externality is unity with itself.
 
 
 > {#395b} &#167;395b Die Attraktion ist auf diese Weise als das Moment der Kontinuit&#228;t in der Quantit&#228;t.
@@ -4783,10 +4783,10 @@ But later when _Nature_ has appeared, the unity of attraction and repulsion inde
 
 This kind of continuity is expressed by the [[sharp modality]] $\sharp$.
 
-> {#397a} &#167;397a Unmittelbar hat daher die Gr&#246;&#223;e in der Kontinuit&#228;t das Moment der Diskretion, - die Repulsion, wie sie nun Moment in der Quantit&#228;t ist. 
+> {#397a} &#167;397a Unmittelbar hat daher die Gr&#246;&#223;e in der Kontinuit&#228;t das Moment der Diskretion, - die Repulsion, wie sie nun Moment in der Quantit&#228;t ist.
 
 
-> &#167;397a In continuity, therefore, magnitude immediately possesses the moment of discreteness &#8212; repulsion, as now a moment in quantity. 
+> &#167;397a In continuity, therefore, magnitude immediately possesses the moment of discreteness &#8212; repulsion, as now a moment in quantity.
 
 So by [&#167;395b](#395b) and [&#167;397a](#397a):
 
@@ -4927,14 +4927,14 @@ The [[continuum]].
 
 [[extensive and intensive quantity]]
 
-In modern [[thermodynamics]] 
+In modern [[thermodynamics]]
 
 * an _[[extensive quantity]]_ is one expressed by a [[differential form]] in positve degree (for instance a mass density 3-form on Euclidean 3-space) -- this is close to the "extension" of differential forms in [[Grassmann]]'s _[[Ausdehnungslehre]]_;
 
 * an _[[intensive quantity]]_ is one expressed by a differential form of degree 0, namely by a function (for instance a temperator function on that Euclidean 3-space).
 
 
-The existence and difference between these two concepts is neatly encoded by the [[sharp modality]] $\sharp$: 
+The existence and difference between these two concepts is neatly encoded by the [[sharp modality]] $\sharp$:
 
 
 an intensive quantity object such as the smooth sheaf $\mathbb{R}$ of real numbers is characterized by being a [[concrete object]], witnessed by the fact that the [[unit of a monad|unit]] of the sharp modality is a [[monomorphism]]
@@ -5201,11 +5201,11 @@ See the [Proce&#223;](#Process).
 
 So indeed the Essence is in opposition to itself, which is what the trivial [[unity of opposites]] $id \dashv id$ expresses See also [&#167;839](#839)
 
-> {#815} &#167;815 Das Wesen steht zwischen Sein und Begriff und macht die Mitte derselben und seine Bewegung den &#220;bergang vom Sein in den Begriff aus. Das Wesen ist das Anundf&#252;rsichsein, aber dasselbe in der Bestimmung des Ansichseins; denn seine allgemeine Bestimmung ist, aus dem Sein herzukommen oder die erste Negation des Seins zu sein. Seine Bewegung besteht darin, die Negation oder Bestimmung an ihm zu setzen, dadurch sich Dasein zu geben und das als unendliches F&#252;rsichsein zu werden, was es an sich ist. So gibt es sich sein Dasein, das seinem Ansichsein gleich ist, und wird der Begriff. 
- 
-> &#167;815 Essence stands between being and Notion; it constitutes their mean, and its movement is the transition from being into the Notion. Essence is being-in-and-for-itself, but in the determination of being-in-itself; for the general determination of essence is to have proceeded from being, or to be the first negation of being. Its movement consists in positing within itself the negation or determination, thereby giving itself determinate being and becoming as infinite being-for-self what it is in itself. It thus gives itself its determinate being that is equal to its being-in-itself and becomes Notion. 
- 
-Der Begriff ist das daseiende Wesen. 
+> {#815} &#167;815 Das Wesen steht zwischen Sein und Begriff und macht die Mitte derselben und seine Bewegung den &#220;bergang vom Sein in den Begriff aus. Das Wesen ist das Anundf&#252;rsichsein, aber dasselbe in der Bestimmung des Ansichseins; denn seine allgemeine Bestimmung ist, aus dem Sein herzukommen oder die erste Negation des Seins zu sein. Seine Bewegung besteht darin, die Negation oder Bestimmung an ihm zu setzen, dadurch sich Dasein zu geben und das als unendliches F&#252;rsichsein zu werden, was es an sich ist. So gibt es sich sein Dasein, das seinem Ansichsein gleich ist, und wird der Begriff.
+
+> &#167;815 Essence stands between being and Notion; it constitutes their mean, and its movement is the transition from being into the Notion. Essence is being-in-and-for-itself, but in the determination of being-in-itself; for the general determination of essence is to have proceeded from being, or to be the first negation of being. Its movement consists in positing within itself the negation or determination, thereby giving itself determinate being and becoming as infinite being-for-self what it is in itself. It thus gives itself its determinate being that is equal to its being-in-itself and becomes Notion.
+
+Der Begriff ist das daseiende Wesen.
 
 > {#816} &#167;816 Das Wesen scheint zuerst in sich selbst, oder ist Reflexion
 
@@ -5335,7 +5335,7 @@ which in turn is the ambient category and its [[type universe]]. Hence this give
 
 ##### C Die Reflexion / Reflection
 
-> {#833} &#167;833 Der Schein ist dasselbe was die Reflexion ist, aber er ist die Reflexion als unmittlebare. 
+> {#833} &#167;833 Der Schein ist dasselbe was die Reflexion ist, aber er ist die Reflexion als unmittlebare.
 
 > &#167;833 Illusory being is the same thing as reflection; but it is reflection as immediate.
 
@@ -5412,7 +5412,7 @@ with its interpretation as the initial opposition of [[being]] $\ast$ and [[noth
 > {#843} &#167;843 Die reflektierende Bewegung ist somit nach dem Betrachteten als absoluter Gegensto&#223; in sich selbst zu nehmen.  Denn die Voraussetzung der R&#252;ckkehr in sich - das, woraus das Wesen herkommt und erst als dieses Zur&#252;ckkommen ist -, ist nur in der R&#252;ckkehr selbst. Das Hinausgehen &#252;ber das Unmittelbare, von dem die Reflexion anf&#228;ngt, ist vielmehr erst durch dies Hinausgehen; und das Hinausgehen &#252;ber das Unmittelbare ist das Ankommen bei demselben. Die Bewegung wendet sich als Fortgehen unmittelbar in ihr selbst um und ist nur so Selbstbewegung - Bewegung, die aus sich kommt, insofern die setzende Reflexion voraussetzende, aber als voraussetzende Reflexion schlechthin setzende ist.
 
 > &#167;843 It follows, therefore, from the foregoing considerations that the reflective movement is to be taken as an absolute recoil upon itself. For the presupposition of the return-into-self-that from which essence comes, and is only as this return-is only in the return itself. The transcending of the immediate from which reflection starts is rather the outcome of this transcending; and the transcending of the immediate is the arrival at it. The movement, as an advance, immediately turns round upon itself and only so is self-movement &#8212; a movement which comes from itself in so far as positing reflection is presupposing, but, as presupposing reflection, is simply positing reflection.
- 
+
 > {#844} &#167;844 So ist die Reflexion sie selbst und ihr Nichtsein, und ist nur sie selbst, indem sie das Negative ihrer ist, denn nur so ist das aufheben des Negativen zugleich als ein  Zusammengehen mit sich.
 
 > &#167;844 Thus reflection is itself and its non-being, and is only itself, in that it is the negative of itself, for only thus is the sublating of the negative at the same time a coincidence with itself.
@@ -5434,9 +5434,9 @@ Anmerkung
 ###### (3) Bestimmende Reflexion
 
 
-> {#853a} &#167;853a Die bestimmende Reflexion ist &#252;berhaupt die Einheit der setzenden und der &#228;u&#223;eren Reflexion. Die&#223; ist n&#228;her zu betrachten. 
+> {#853a} &#167;853a Die bestimmende Reflexion ist &#252;berhaupt die Einheit der setzenden und der &#228;u&#223;eren Reflexion. Die&#223; ist n&#228;her zu betrachten.
 
-> &#167;853a Determining reflection is in general the unity of positing and external reflection. This is to be considered in more detail. 
+> &#167;853a Determining reflection is in general the unity of positing and external reflection. This is to be considered in more detail.
 
 
 > {#853b} &#167;853b 1. Die &#228;u&#223;ere Reflexion f&#228;ngt vom unmittelbaren Seyn an, die setzende vom Nichts. Die &#228;u&#223;ere Reflexion, die bestimmend wird, setzt ein Anderes, aber das Wesen, an die Stelle des aufgehobenen Seins;
@@ -5449,7 +5449,7 @@ $$
     \\
     \vee && \vee
     \\
-    \vdots &\uparrow& \vdots 
+    \vdots &\uparrow& \vdots
     \\
     \vee && \vee
     \\
@@ -5457,13 +5457,13 @@ $$
   }
 $$
 
-> {#854a} &#167;854a Das Gesetzte ist daher ein Anderes, aber so, da&#223; die Gleichheit der Reflexion mit sich schlechthin erhalten ist; denn das Gesetzte ist nur als Aufgehobenes, als Beziehung auf die R&#252;ckkehr in sich selbst.  - In der Sph&#228;re des Seins war das Dasein das Sein, das die Negation an ihm hatte, und das Sein der unmittelbare Boden und Element dieser Negation, die daher selbst die unmittelbare war.  Dem Dasein entspricht in der Sph&#228;re des Wesens das Gesetztsein. Es ist gleichfalls ein Dasein, aber sein Boden ist das Sein als Wesen oder als reine Negativit&#228;t; es ist eine Bestimmtheit oder Negation nicht als seiend, sondern unmittelbar als aufgehoben. 
+> {#854a} &#167;854a Das Gesetzte ist daher ein Anderes, aber so, da&#223; die Gleichheit der Reflexion mit sich schlechthin erhalten ist; denn das Gesetzte ist nur als Aufgehobenes, als Beziehung auf die R&#252;ckkehr in sich selbst.  - In der Sph&#228;re des Seins war das Dasein das Sein, das die Negation an ihm hatte, und das Sein der unmittelbare Boden und Element dieser Negation, die daher selbst die unmittelbare war.  Dem Dasein entspricht in der Sph&#228;re des Wesens das Gesetztsein. Es ist gleichfalls ein Dasein, aber sein Boden ist das Sein als Wesen oder als reine Negativit&#228;t; es ist eine Bestimmtheit oder Negation nicht als seiend, sondern unmittelbar als aufgehoben.
 
-> &#167;854a What is posited is consequently an other, but in such a manner that the equality of reflection with itself is completely preserved; for what is posited is only as sublated, as a relation to the returninto-self. In the sphere of being, determinate being was the being in which negation was present, and being was the immediate base and element of this negation, which consequently was itself immediate. In the sphere of essence, positedness corresponds to determinate being. It is likewise a determinate being but its base is being as essence or as pure negativity; it is a determinateness or negation, not as affirmatively present but immediately as sublated. 
+> &#167;854a What is posited is consequently an other, but in such a manner that the equality of reflection with itself is completely preserved; for what is posited is only as sublated, as a relation to the returninto-self. In the sphere of being, determinate being was the being in which negation was present, and being was the immediate base and element of this negation, which consequently was itself immediate. In the sphere of essence, positedness corresponds to determinate being. It is likewise a determinate being but its base is being as essence or as pure negativity; it is a determinateness or negation, not as affirmatively present but immediately as sublated.
 
-> {#854b} &#167;854b Das Dasein ist nur Gesetztsein; dies ist der Satz des Wesens vom Dasein. 
+> {#854b} &#167;854b Das Dasein ist nur Gesetztsein; dies ist der Satz des Wesens vom Dasein.
 
-> &#167;854b Determinate being is merely posited being or positedness; this is the proposition of essence about determinate being. 
+> &#167;854b Determinate being is merely posited being or positedness; this is the proposition of essence about determinate being.
 
 
 > {#854c} &#167;854c Das Gesetztsein steht einerseits dem Dasein, andererseits dem Wesen gegen&#252;ber und ist als die Mitte zu betrachten, welche das Dasein mit dem Wesen und umgekehrt das Wesen mit dem Dasein zusammenschlie&#223;t. - Wenn man sagt, eine Bestimmung ist nur ein Gesetztsein, so kann dies daher den doppelten Sinn haben; sie ist dies im Gegensatze gegen das Dasein oder gegen das Wesen. In jenem Sinne wird das Dasein f&#252;r etwas H&#246;heres genommen als das Gesetztsein und dieses der &#228;u&#223;eren Reflexion, dem Subjektiven zugeschrieben. In der Tat aber ist das Gesetztsein das H&#246;here; denn als Gesetztsein ist das Dasein als das, was es an sich ist, als Negatives, ein schlechthin nur auf die R&#252;ckkehr in sich bezogenes. Deswegen ist das Gesetztsein nur ein Gesetztsein in R&#252;cksicht auf das Wesen, als die Negation des Zur&#252;ckgekehrtseins in sich selbst.
@@ -5488,7 +5488,7 @@ $$
 
 See above at [&#167;816](#816)
 
-> {#863} &#167;863 So wird die wesentliche Bestimmung der Identit&#228;t in dem Satze ausgesprochen: Alles ist sich selbst gleich; $A = A$. 
+> {#863} &#167;863 So wird die wesentliche Bestimmung der Identit&#228;t in dem Satze ausgesprochen: Alles ist sich selbst gleich; $A = A$.
 
 > &#167;863 Thus the essential category of identity is enunciated in the proposition: everything is identical with itself, $A = A$.
 
@@ -5542,7 +5542,7 @@ Hegel's terminology "[[first law of thought]]" follows that of [[Johann Fichte]]
 
 > &#167;886 1. Two things are different, it is said, in that they, etc. 'In that' is, in one and the same respect, in the same ground of determination. It is the difference of reflection, not the otherness of determinate being. One determinate being and another determinate being are posited as falling apart, each of them, as determined against the other, has an immediate being for itself. The other of essence, on the contrary, is the other in and for itself, not the other as other of an other, existing outside it but simple determinateness in itself. In the sphere of determinate being, too, otherness 'and determinateness proved to be of this nature, to be simple determinateness, identical opposition; but this identity revealed itself only as the transition of one determinateness into the other. Here, in the sphere of reflection, difference appears as reflected difference, which is thus posited as it is in itself.
 
-Given a moment $\bigcirc$ and two types $X$ and $Y$ that are not equivalent, then if also $\bigcirc X$ is not equivalent to $\bigcirc Y$ we may say that $X$ and $Y$ are different _in that_ their $\bigcirc$-moments are (already) different. 
+Given a moment $\bigcirc$ and two types $X$ and $Y$ that are not equivalent, then if also $\bigcirc X$ is not equivalent to $\bigcirc Y$ we may say that $X$ and $Y$ are different _in that_ their $\bigcirc$-moments are (already) different.
 
 If hower these moments are equivalent, then $X$ and $Y$ are similar in this respect. [similarity](#MomentsAndSimilarity).
 
@@ -5582,7 +5582,7 @@ Via the formalization of _[similarity](#MomentsAndSimilarity)_ this "alike, simp
 ###### (c)  Der Gegensatz / Opposition
 
 > {#908} &#167;908 Im Gegensatze ist die bestimmte Reflexion, der Unterschied vollendet.
-Er ist die Einheit der Identit&#228;t und der Verschiedenheit; 
+Er ist die Einheit der Identit&#228;t und der Verschiedenheit;
 
 > &#167;908 In opposition, the determinate rejection, difference, finds its completion. It is the unity of identity and difference; its moments are different in one identity and thus are opposites.
 
@@ -5636,7 +5636,7 @@ Technically this is the same adjunction as that between [[nothing]] and [[being]
 > &#167;938 The negative is, therefore, the whole opposition based, as opposition, on itself, absolute difference that is not related to an other; as opposition, it excludes identity from itself &#8212; but in doing so excludes itself; for as self-relation it is determined as the very identity that it excludes.
 
 ###### 2. Der Widerspruch l&#246;st sich auf
- 
+
 
 > {#943} &#167;943 Nach dieser positiven Seite, da&#223; die Selbstst&#228;ndigkeit im Gegensatze, als ausschlie&#223;ende Reflexion sich zum Gesetztseyn macht, und es ebenso sehr aufhebt, Gesetztseyn zu seyn, ist der Gegensatz nicht nur zu Grunde, sondern in seinen Grund zur&#252;ckgegangen.&#8212; Die ausschlie&#223;ende Reflexion des selbstst&#228;ndigen Gegensatzes macht ihn zu einem Negativen, nur Gesetzten; sie setzt dadurch ihre zun&#228;chst selbstst&#228;ndigen Bestimmungen, das Positive und Negative, zu solchen herab, welche nur Bestimmungen sind; und indem so das Gesetztseyn zum Gesetztseyn gemacht wird, ist es &#252;berhaupt in seine Einheit mit sich zur&#252;ckgekehrt; es ist das einfache Wesen, aber das Wesen als Grund. Durch das Aufheben der sich an sich selbst widersprechenden Bestimmungen des Wesens, ist dieses wiederhergestellt, jedoch mit der Bestimmung, ausschlie&#223;ende Reflexionseinheit zu seyn,&#8212;einfache Einheit, welche sich selbst als Negatives bestimmt, aber in diesem Gesetztseyn unmittelbar sich selbst gleich und mit sich zusammen-gegangen ist.
 
@@ -5742,7 +5742,7 @@ On this see the discussion around [&#167;945](#945)
 
 > Der Form geh&#246;rt &#252;berhaupt alles Bestimmte an; es ist Formbestimmung, insofern es ein Gesetztes, hiermit von einem solchen, dessen Form es ist, Unterschiedenes ist; die Bestimmtheit als Qualit&#228;t ist eins mit ihrem Substrat, dem Seyn; das Seyn ist das unmittelbar Bestimmte, das von seiner Bestimmtheit noch nicht unterschieden,&#8212;oder das in ihr noch nicht in sich reflektirt, so wie diese daher eine seyende, noch nicht eine Gesetzte ist.&#8212;Die Formbestimmungen des Wesens sind ferner als die Reflexions-Bestimmtheiten, ihrer n&#228;hern Bestimmtheit nach, die oben betrachteten Momente der Reflexion. Die Identit&#228;t, und der Unterschied, dieser Theils als Verschiedenheit, Theils als Gegensatz. Ferner aber geh&#246;rt auch die Grundbeziehung dazu, insofern sie zwar die aufgehobene Reflexions-Bestimmung aber dadurch das Wesen zugleich als Gesetztes ist. Dagegen geh&#246;rt zur Form nicht die Identit&#228;t, welche der Grund in sich hat, n&#228;mlich da&#223; das Gesetztseyn als aufgehobenes und das Gesetztseyn als solches,&#8212;der Grund und das Begr&#252;ndete,&#8212;Eine Reflexion ist, welche das Wesen als einfache Grundlage ausmacht, die das Bestehen der Form ist. Allein die&#223; Bestehen ist im Grunde gesetzt; oder die&#223; Wesen ist selbst wesentlich als bestimmtes; somit ist es auch wieder das Moment der Grundbeziehung und Form.&#8212;Die&#223; ist die absolute Wechselbeziehung der Form und des Wesens, da&#223; dieses einfache Einheit des Grundes und des Begr&#252;ndeten, darin aber eben selbst bestimmt oder Negatives ist, und sich als Grundlage von der Form unterscheidet, aber so zugleich selbst Grund und Moment der Form wird.
 
-> {#973a} &#167;973a Das Wesen hat eine Form und Bestimmungen derselben. 
+> {#973a} &#167;973a Das Wesen hat eine Form und Bestimmungen derselben.
 
 > &#167;973a Essence has a form and determinations of the form.
 
@@ -5754,7 +5754,7 @@ Morover, given a [[type]] $X$ in the Wesen, hence in [[cohesive homotopy type th
 See the discussion below [&#167;989](#989) for the dual moment.
 
 
-> {#973b} &#167;973b Erst als Grund hat es eine feste Unmittelbarkeit oder ist Substrat. 
+> {#973b} &#167;973b Erst als Grund hat es eine feste Unmittelbarkeit oder ist Substrat.
 
 > &#167;973b It is only as ground that it has a fixed immediacy or is a substrate.
 
@@ -5920,11 +5920,11 @@ From the _Shorter Logic_:
 
 > {#EL124} EL&#167;124 Die Reflexion-in-Anderes des Existierenden ist aber ungetrennt von der Reflexion-in-sich; der Grund ist ihre Einheit, aus der die Existenz hervorgegangen ist. Das Existierende enth&#228;lt daher die Relativit&#228;t und seinen mannigfachen Zusammenhang mit anderen Existierenden an ihm selbst und ist in sich als Grund reflektiert. So ist das Existierende Ding. Das Ding-an-sich, das in der Kantischen Philosophie so ber&#252;hmt geworden, zeigt sich hier in seiner Entstehung, n&#228;mlich als die abstrakte Reflexion-in-sich, an der gegen die Reflexion-in-Anderes und gegen die unterschiedenen Bestimmungen &#252;berhaupt als an der leeren Grundlage derselben festgehalten wird.
 
-> {#EL124Zusatz} EL&#167;124Zusatz  Wenn behauptet wird, da&#223; das Ding-an-sich unerkennbar sei, so ist dies insofern zuzugeben, als man unter dem Erkennen das Auffassen eines Gegenstandes in seiner konkreten Bestimmtheit zu verstehen hat, das Ding-an-sich aber nichts anderes ist als das ganz abstrakte und unbestimmte Ding &#252;berhaupt.  
+> {#EL124Zusatz} EL&#167;124Zusatz  Wenn behauptet wird, da&#223; das Ding-an-sich unerkennbar sei, so ist dies insofern zuzugeben, als man unter dem Erkennen das Auffassen eines Gegenstandes in seiner konkreten Bestimmtheit zu verstehen hat, das Ding-an-sich aber nichts anderes ist als das ganz abstrakte und unbestimmte Ding &#252;berhaupt.
 
 See also [&#167;227](#227)
 
-The abstract and undetermined thing in itself: the generic object $X$ in the [classifying topos for objects](classifying+topos#ForObjects) $\mathbf{H}[X] = [\infty Grpd_{fin}, \mathbf{H}]$. 
+The abstract and undetermined thing in itself: the generic object $X$ in the [classifying topos for objects](classifying+topos#ForObjects) $\mathbf{H}[X] = [\infty Grpd_{fin}, \mathbf{H}]$.
 
 Recall that the nothing-anti-modal types, hence the $\ast \underset{\emptyset}{\coprod}(-)$-modal types (algebras over the [[maybe monad]]) are the [[pointed objects]]. Positing a pointed thing in itself in $\mathbf{H}[X_\ast]$ would be to posit a thing that negates nothingness. (Not sure if Hegel's text ever says it this way (maybe [&#167;210a](#210a), [EL&#167;91](#EL91)), but this is now how it comes out of the formalization.)
 
@@ -5932,7 +5932,7 @@ The notion $\mathbf{H}[X_\ast]$ with a nothing-negating thing-in-itself carries 
 
 See also [&#167;209b](#209b).
 
-> EL&#167;124ZusatzB Mit demselben Recht &#252;brigens, mit welchem vom Ding-an-sich gesprochen wird, w&#228;re auch von der Qualit&#228;t-an-sich, von der Quantit&#228;t-an-sich und ebenso weiter von allen &#252;brigen Kategorien zu sprechen und  w&#252;rden darunter diese Kategorien in ihrer abstrakten Unmittelbarkeit, d. h. abgesehen von ihrer Entwicklung und inneren Bestimmtheit zu verstehen sein.  Es ist insofern als eine Willk&#252;r des Verstandes zu betrachten, wenn gerade nur das Ding in seinem Ansich fixiert wird. Weiter pflegt nun aber auch das Ansich auf den Inhalt der nat&#252;rlichen sowohl als auch der geistigen Welt angewendet und demgem&#228;&#223; z. B. von der Elektrizit&#228;t oder von der Pflanze an sich und ebenso vom Menschen oder vom Staat an sich gesprochen und unter dem Ansich dieser Gegenst&#228;nde das Rechte und Eigentliche derselben verstanden zu werden. Hiermit verh&#228;lt es sich nicht anders als mit dem Ding-an-sich &#252;berhaupt, und zwar n&#228;her so, da&#223;, wenn bei dem blo&#223;en Ansich der Gegenst&#228;nde stehengeblieben wird, dieselben nicht in ihrer Wahrheit, sondern in der einseitigen Form der blo&#223;en Abstraktion aufgefa&#223;t werden. So ist z. B. der Mensch-an-sich das Kind, dessen Aufgabe darin besteht, nicht in diesem abstrakten und unentwickelten Ansich zu verharren, sondern das, was es zun&#228;chst nur an sich ist - n&#228;mlich ein freies und vern&#252;nftiges Wesen -, auch f&#252;r sich zu werden. Ebenso ist der Staat-an-sich der noch unentwickelte, patriarchalische Staat, in welchem die im Begriff des Staats liegenden verschiedenen politischen Funktionen noch nicht zu ihrer begriffsm&#228;&#223;igen Konstituierung gelangt sind. In demselben Sinn kann auch der Keim als die Pflanze-an-sich betrachtet werden. Aus diesen Beispielen ist zu entnehmen, da&#223; man sich sehr im Irrtum befindet, wenn man meint, das Ansich der Dinge oder das Ding-an-sich &#252;berhaupt sei etwas f&#252;r unser Erkennen Unzug&#228;ngliches. Alle Dinge sind zun&#228;chst an sich, allein es hat dabei nicht sein Bewenden, und so wie der Keim, welcher die Pflanze an sich ist, nur dies ist, sich zu entwickeln, so schreitet auch das Ding &#252;berhaupt &#252;ber sein blo&#223;es Ansich, als die abstrakte Reflexion-in-sich, dazu fort, sich auch als Reflexion-in-Anderes zu erweisen, und so hat es Eigenschaften. 
+> EL&#167;124ZusatzB Mit demselben Recht &#252;brigens, mit welchem vom Ding-an-sich gesprochen wird, w&#228;re auch von der Qualit&#228;t-an-sich, von der Quantit&#228;t-an-sich und ebenso weiter von allen &#252;brigen Kategorien zu sprechen und  w&#252;rden darunter diese Kategorien in ihrer abstrakten Unmittelbarkeit, d. h. abgesehen von ihrer Entwicklung und inneren Bestimmtheit zu verstehen sein.  Es ist insofern als eine Willk&#252;r des Verstandes zu betrachten, wenn gerade nur das Ding in seinem Ansich fixiert wird. Weiter pflegt nun aber auch das Ansich auf den Inhalt der nat&#252;rlichen sowohl als auch der geistigen Welt angewendet und demgem&#228;&#223; z. B. von der Elektrizit&#228;t oder von der Pflanze an sich und ebenso vom Menschen oder vom Staat an sich gesprochen und unter dem Ansich dieser Gegenst&#228;nde das Rechte und Eigentliche derselben verstanden zu werden. Hiermit verh&#228;lt es sich nicht anders als mit dem Ding-an-sich &#252;berhaupt, und zwar n&#228;her so, da&#223;, wenn bei dem blo&#223;en Ansich der Gegenst&#228;nde stehengeblieben wird, dieselben nicht in ihrer Wahrheit, sondern in der einseitigen Form der blo&#223;en Abstraktion aufgefa&#223;t werden. So ist z. B. der Mensch-an-sich das Kind, dessen Aufgabe darin besteht, nicht in diesem abstrakten und unentwickelten Ansich zu verharren, sondern das, was es zun&#228;chst nur an sich ist - n&#228;mlich ein freies und vern&#252;nftiges Wesen -, auch f&#252;r sich zu werden. Ebenso ist der Staat-an-sich der noch unentwickelte, patriarchalische Staat, in welchem die im Begriff des Staats liegenden verschiedenen politischen Funktionen noch nicht zu ihrer begriffsm&#228;&#223;igen Konstituierung gelangt sind. In demselben Sinn kann auch der Keim als die Pflanze-an-sich betrachtet werden. Aus diesen Beispielen ist zu entnehmen, da&#223; man sich sehr im Irrtum befindet, wenn man meint, das Ansich der Dinge oder das Ding-an-sich &#252;berhaupt sei etwas f&#252;r unser Erkennen Unzug&#228;ngliches. Alle Dinge sind zun&#228;chst an sich, allein es hat dabei nicht sein Bewenden, und so wie der Keim, welcher die Pflanze an sich ist, nur dies ist, sich zu entwickeln, so schreitet auch das Ding &#252;berhaupt &#252;ber sein blo&#223;es Ansich, als die abstrakte Reflexion-in-sich, dazu fort, sich auch als Reflexion-in-Anderes zu erweisen, und so hat es Eigenschaften.
 
 ###### b. Die Eigenschaft.
 
@@ -5942,16 +5942,16 @@ See also [&#167;209b](#209b).
 
 ###### c. Die Wechselwirkung der Dinge.
 
-> {#1064} &#167;1064 Das Ding-an-sich existiert wesentlich; die &#228;u&#223;erliche Unmittelbarkeit und die Bestimmtheit geh&#246;rt zu seinem Ansichsein oder zu seiner Reflexion-in-sich. Das Ding-an-sich ist dadurch ein Ding, das Eigenschaften hat, und es sind dadurch mehrere Dinge, die nicht durch eine ihnen fremde Ruecksicht, sondern sich durch sich selbst voneinander unterscheiden. 
+> {#1064} &#167;1064 Das Ding-an-sich existiert wesentlich; die &#228;u&#223;erliche Unmittelbarkeit und die Bestimmtheit geh&#246;rt zu seinem Ansichsein oder zu seiner Reflexion-in-sich. Das Ding-an-sich ist dadurch ein Ding, das Eigenschaften hat, und es sind dadurch mehrere Dinge, die nicht durch eine ihnen fremde Ruecksicht, sondern sich durch sich selbst voneinander unterscheiden.
 
 > &#167;1064 The thing-in-itself essentially exists; the external immediacy and determinateness belongs to its in-itself or to its reflection-into-self. By virtue of this, the thing-in-itself is a thing which has properties, and hence there are a number of things which are distinguished from one another not in respect of something alien to them but through themselves.
 
 
-> {#1065a} &#167;1065a Diese mehreren verschiedenen Dinge stehen in wesentlicher Wechselwirkung durch ihre Eigenschaften; die Eigenschaft ist diese Wechselbeziehung selbst, und das Ding ist nichts au&#223;er derselben; 
+> {#1065a} &#167;1065a Diese mehreren verschiedenen Dinge stehen in wesentlicher Wechselwirkung durch ihre Eigenschaften; die Eigenschaft ist diese Wechselbeziehung selbst, und das Ding ist nichts au&#223;er derselben;
 
-> &#167;1065a These many different things stand in essential reciprocal action via their properties; the property is this reciprocal relation itself and apart from it the thing is nothing; 
+> &#167;1065a These many different things stand in essential reciprocal action via their properties; the property is this reciprocal relation itself and apart from it the thing is nothing;
 
-This is the concept of [[structuralism]]. As discussed there, at least to some extent this is captured by [[category theory]], where the nature of [[objects]] is entirely determined and only determined by the [[morphisms]] relating objects to each other. 
+This is the concept of [[structuralism]]. As discussed there, at least to some extent this is captured by [[category theory]], where the nature of [[objects]] is entirely determined and only determined by the [[morphisms]] relating objects to each other.
 
 Hence we read _thing_ here as _object_ of the ambient [[topos]].
 
@@ -6010,7 +6010,7 @@ It is maybe noteworthy that some physics appears here in the Wesenslogik, even t
 
 (see also [&#167;226](#226))
 
-The "form of being" is to refer to the category of being, hence to the ambient $\infty$-category. Opposed to that is the [[type universe]] which is the inner reflection of that inside itself, see also [&#167;1163b](#1163b). 
+The "form of being" is to refer to the category of being, hence to the ambient $\infty$-category. Opposed to that is the [[type universe]] which is the inner reflection of that inside itself, see also [&#167;1163b](#1163b).
 
 Their unity hence must be [[univalence]]. See also ([&#167;1159](1159), [&#167;1187](#1187)).
 
@@ -6024,11 +6024,11 @@ Their unity hence must be [[univalence]]. See also ([&#167;1159](1159), [&#167;1
 
 > {#1158b} &#167;1158b in it, formless essence and unstable Appearance, or mere subsistence devoid of all determination and unstable manifoldness, have their truth.
 
-> {#1158c} &#167;1158c Existence is, indeed, the immediacy which has proceeded from ground, but form is not as yet posited in it. In determining and forming itself it is Appearance; and when this subsistence which is determined only as reflection-into-an-other is developed further into reflection-into-self, it becomes two worlds, two totalities of the content, one of which is determined as reflected into itself, the other as reflected into an other. 
+> {#1158c} &#167;1158c Existence is, indeed, the immediacy which has proceeded from ground, but form is not as yet posited in it. In determining and forming itself it is Appearance; and when this subsistence which is determined only as reflection-into-an-other is developed further into reflection-into-self, it becomes two worlds, two totalities of the content, one of which is determined as reflected into itself, the other as reflected into an other.
 
 >  {#1158d} &#167;1158d Das wesentliche Verh&#228;ltnis aber stellt ihre Formbeziehung dar, deren Vollendung das Verh&#228;ltnis des Inneren und &#196;u&#223;eren ist
 
-> &#167;1158d But the essential relation exhibits their form relation, the consummation of which is the relation of inner and outer in which the content of both is only one identical substrate and equally only one identity of form. 
+> &#167;1158d But the essential relation exhibits their form relation, the consummation of which is the relation of inner and outer in which the content of both is only one identical substrate and equally only one identity of form.
 
 Relation between inner and outer: comparison map $(A \stackrel{\simeq}{\to}B) \to (A = B)$.
 
@@ -6065,7 +6065,7 @@ This we come to in more detail below.
 
 ##### A. Die Auslegung des Absoluten
 
-> &#167;1163b {#1163b} die Beziehung von Seyn und Wesen hat sich bis zum Verh&#228;ltnisse des Innern und Aeu&#223;ern fortgebildet.  Das Innere ist das Wesen aber als die Totalit&#228;t, welche wesentlich die Bestimmung hat, auf das Seyn bezogen und unmittelbar Seyn zu seyn.  Das Aeu&#223;ere ist das Seyn, aber mit der wesentlichen Bestimmung, auf die Reflexion bezogen unmittelbar ebenso verh&#228;ltni&#223;lose Identit&#228;t mit dem Wesen zu seyn. 
+> &#167;1163b {#1163b} die Beziehung von Seyn und Wesen hat sich bis zum Verh&#228;ltnisse des Innern und Aeu&#223;ern fortgebildet.  Das Innere ist das Wesen aber als die Totalit&#228;t, welche wesentlich die Bestimmung hat, auf das Seyn bezogen und unmittelbar Seyn zu seyn.  Das Aeu&#223;ere ist das Seyn, aber mit der wesentlichen Bestimmung, auf die Reflexion bezogen unmittelbar ebenso verh&#228;ltni&#223;lose Identit&#228;t mit dem Wesen zu seyn.
 
 > &#167;1163b the connection between being and essence has progressed to the relation of inner and outer. The inner is essence, but as totality, which essentially has the determination of connection with being and immediately to be being. The outer is being, but with the essential determination of being connected with reflection, and equally to be immediately a relationless identity with essence.
 
@@ -6091,7 +6091,7 @@ This unity is [[univalence]], see [&#167;1149](#1149), [&#167;1159](#1159), [&#1
   {#DieWirklichkeitKapitel2}
 
 
-> &#167;1187 {#1187} Das Absolute ist die Einheit des Innern und Aeu&#223;ern als erste, ansichseyende Einheit. 
+> &#167;1187 {#1187} Das Absolute ist die Einheit des Innern und Aeu&#223;ern als erste, ansichseyende Einheit.
 
 > &#167;1187 The absolute is the unity of inner and outer as initial, implicit unity.
 
@@ -6157,7 +6157,7 @@ $$
   \,,
 $$
 
-often called the _[[function monad]]_. To see which meaning this has we need to consider its action on a type which is not a [[mere proposition]] (for a mere proposition $P$ in the absolute context is either [[true]] or [[false]] and hence so is $\prod_W W^\ast$, there is nothing interesting happening in this case). For $V\in \mathbf{H}$ any type, then 
+often called the _[[function monad]]_. To see which meaning this has we need to consider its action on a type which is not a [[mere proposition]] (for a mere proposition $P$ in the absolute context is either [[true]] or [[false]] and hence so is $\prod_W W^\ast$, there is nothing interesting happening in this case). For $V\in \mathbf{H}$ any type, then
 
 $$
   \prod_W W^\ast V
@@ -6167,7 +6167,7 @@ $$
   (W\to V)
 $$
 
-is the space of $V$-valued functions on the space of [[possible worlds]]. A modern mathematical incarnation of spaces of "possible worlds" (possible configurations of a system under consideration) are [[probability spaces]] (e.g. [Toronto-McCarthy 10b, slide 23](function+monad#TorontoMcCarthy10b)). Now the space of ([[measurable function|measurable]]) functions on a probability space $W$ is to be interpreted as its space of _[[random variables]]_ ([[stochastic variables]]). 
+is the space of $V$-valued functions on the space of [[possible worlds]]. A modern mathematical incarnation of spaces of "possible worlds" (possible configurations of a system under consideration) are [[probability spaces]] (e.g. [Toronto-McCarthy 10b, slide 23](function+monad#TorontoMcCarthy10b)). Now the space of ([[measurable function|measurable]]) functions on a probability space $W$ is to be interpreted as its space of _[[random variables]]_ ([[stochastic variables]]).
 
 In the context of [[monad (in computer science)|monads in computer science]], the [[function monad]] $[W,-]$ is called the _[[reader monad]]_ (notably in the [[Haskell]] [[programming language]]). This terminology reflects the intended usage where $W$ is a type of input that is read in from a device such as a keyboard. When used this way, then the terms of $W$ are indeed entirely random as far as the program that reads them in is concerned. Indeed, software prgrams that require genuine randomness (as opposed to pseudo-randomness) as input, such as programs the generate keys for cryptography, commonly ask the user to hit some keys on the keyboard or read other data from external input devices. When such software models input via a [[reader monad]], then the terms of the relevant type $[W,V]$ _are_ precisely the kind of random variables in the physical universe that probability theory is designed to model.
 
@@ -6177,7 +6177,7 @@ In this vein, the Haskell-introduction [Verdier 14](function+monad#Verdier14) sa
 
 In a more technical style the very same point may be found made in ([Toronto-McCarthy 10b, slide 24](http://ncatlab.org/nlab/show/function+monad#TorontoMcCarthy10b)) and then  [Toronto-McCarthy 10b, slide 35](function+monad#TorontoMcCarthy10b), where it says:
 
-> you could interpret this by regarding random variables as reader monad computations. 
+> you could interpret this by regarding random variables as reader monad computations.
 
 In the [Toronto-McCarthy 10a, 2.2](function+monad#TorontoMcCarthy10b) the authors call the monad $\prod_W W^\ast = [W,-]$ the _random variable idiom_.
 
@@ -6293,9 +6293,9 @@ seems clear.
 
 > &#167;1236 The movement of accidentality therefore exhibits in each of its moments the illusory showing in one another of the categories of being and of the reflective determinations of essence.
 
-> {#1237} &#167;1237 Diese Bewegung der Accidentalit&#228;t ist die Aktuosit&#228;t der Substanz, als ruhiges Hervorgehen ihrer selbst. 
+> {#1237} &#167;1237 Diese Bewegung der Accidentalit&#228;t ist die Aktuosit&#228;t der Substanz, als ruhiges Hervorgehen ihrer selbst.
 
-> &#167;1237 This movement of accidentality is the actuosity of substance as a tranquil coming forth of itself. 
+> &#167;1237 This movement of accidentality is the actuosity of substance as a tranquil coming forth of itself.
 
 Where for instance the [[shape modality]] $&#643;$ determines a category of being, as discussed above, we may ask if it happens to be, accidentally, exhibited by a type/object $\mathbb{A}$ in that $&#643; \simeq loc_{\mathbb{A}}$ is the [[localization]] at $\mathbb{A}\to\ast$. If so, then this $\mathbb{A}$ has the interpretation of theing the [[continuum]], e.g. the [[real line]] in [[smooth infinity-groupoids]].
 
@@ -6340,7 +6340,7 @@ _[[Spinoza's system]]_
 
 
 
-> &#167;1291a The foregoing is to be regarded as the Notion of the Notion. It may seem to differ from what is elsewhere understood by 'notion' and in that case we might be asked to indicate how that which we have here found to be the Notion is contained in other conceptions or explanations. On the one hand, however, there can be no question of a confirmation based on the authority of the ordinary understanding of the term; in the science of the Notion its content and character can be guaranteed solely by the immanent deduction which contains its genesis and which already lies behind us. On the other hand, the Notion as here deduced must, of course, be recognisable in principle in what is elsewhere presented as the concept of the Notion. But it is not so easy to discover what others have said about the nature of the Notion. For in the main they do not concern themselves at all with the question, presupposing that everyone who uses the word automatically knows what it means. Latterly, one could have felt all the more relieved from any need to trouble about the Notion since, just as it was the fashion for a while to say everything bad about the imagination, and then the memory, so in philosophy it became the habit some time ago, a habit which in some measure still exists, to heap every kind of slander on the Notion, on what is supreme in thought, while the incomprehensible and non-comprehension are, on the contrary, regarded as the pinnacle of science and morality. 
+> &#167;1291a The foregoing is to be regarded as the Notion of the Notion. It may seem to differ from what is elsewhere understood by 'notion' and in that case we might be asked to indicate how that which we have here found to be the Notion is contained in other conceptions or explanations. On the one hand, however, there can be no question of a confirmation based on the authority of the ordinary understanding of the term; in the science of the Notion its content and character can be guaranteed solely by the immanent deduction which contains its genesis and which already lies behind us. On the other hand, the Notion as here deduced must, of course, be recognisable in principle in what is elsewhere presented as the concept of the Notion. But it is not so easy to discover what others have said about the nature of the Notion. For in the main they do not concern themselves at all with the question, presupposing that everyone who uses the word automatically knows what it means. Latterly, one could have felt all the more relieved from any need to trouble about the Notion since, just as it was the fashion for a while to say everything bad about the imagination, and then the memory, so in philosophy it became the habit some time ago, a habit which in some measure still exists, to heap every kind of slander on the Notion, on what is supreme in thought, while the incomprehensible and non-comprehension are, on the contrary, regarded as the pinnacle of science and morality.
 
 > {#1291b} &#167;1291b Ich beschr&#228;nke mich hier auf eine Bemerkung, die f&#252;r das Auffassen der hier entwickelten Begriffe dienen kann und es erleichtern mag, sich darein zu finden. Der Begriff, insofern er zu einer solchen Existenz gediehen ist, welche selbst frei ist, ist nichts anderes als Ich oder das reine Selbstbewu&#223;tsein. Ich habe wohl Begriffe, d.h. bestimmte Begriffe; aber Ich ist der reine Begriff selbst, der als Begriff zum Dasein gekommen ist. Wenn man daher an die Grundbestimmungen, welche die Natur des Ich ausmachen, erinnert, so darf man voraussetzen, da&#223; an etwas Bekanntes, d. i. der Vorstellung Gel&#228;ufiges erinnert wird. Ich aber ist erstlich diese reine sich auf sich beziehende Einheit, und dies nicht unmittelbar, sondern indem es von aller Bestimmtheit und Inhalt abstrahiert und in die Freiheit der schrankenlosen Gleichheit mit sich selbst zur&#252;ckgeht. So ist es Allgemeinheit, Einheit, welche nur durch jenes negative Verhalten, welches als das Abstrahieren erscheint, Einheit mit sich ist und dadurch alles Bestimmtsein in sich aufgel&#246;st enth&#228;lt. Zweitens ist Ich ebenso unmittelbar als die sich auf sich selbst beziehende Negativit&#228;t Einzelheit, absolutes Bestimmtsein, welches sich Anderem gegen&#252;berstellt und es ausschlie&#223;t; individuelle Pers&#246;nlichkeit. Jene absolute Allgemeinheit, die ebenso unmittelbar absolute Vereinzelung ist, und ein Anundf&#252;rsichsein, welches schlechthin Gesetztsein und nur dies Anundf&#252;rsichsein durch die Einheit mit dem Gesetztsein ist, macht ebenso die Natur des Ich als des Begriffes aus; von dem einen und dem anderen ist nichts zu begreifen, wenn nicht die angegebenen beiden Momente zugleich in ihrer Abstraktion und zugleich in ihrer vollkommenen Einheit aufgefa&#223;t werden
 
@@ -6432,22 +6432,22 @@ see [above](#FormalizationConcepts)
 
 The _Shorter Logic_ on this transition:
 
-> EL&#167;91ZusatzB Man spricht so z. B. von der Realit&#228;t eines Plans oder einer Absicht und versteht dann darunter, da&#223; dergleichen nicht mehr ein nur Inneres, Subjektives, sondern ins Dasein herausgetreten sei. In demselben Sinn kann dann auch der Leib die Realit&#228;t der Seele und dies Recht die Realit&#228;t der Freiheit oder, ganz allgemein, die Welt die Realit&#228;t des g&#246;ttlichen Begriffs genannt werden. 
+> EL&#167;91ZusatzB Man spricht so z. B. von der Realit&#228;t eines Plans oder einer Absicht und versteht dann darunter, da&#223; dergleichen nicht mehr ein nur Inneres, Subjektives, sondern ins Dasein herausgetreten sei. In demselben Sinn kann dann auch der Leib die Realit&#228;t der Seele und dies Recht die Realit&#228;t der Freiheit oder, ganz allgemein, die Welt die Realit&#228;t des g&#246;ttlichen Begriffs genannt werden.
 
 
 ### Objektivit&#228;t / Objectivity
 
 > {#1530a} &#167;1530a Im ersten Buche der objektiven Logik wurde das abstrakte Sein dargestellt als &#252;bergehend in das Dasein, aber ebenso zur&#252;ckgehend in das Wesen. Im zweiten zeigt sich das Wesen, da&#223; es sich zum Grunde bestimmt, dadurch in die Existenz tritt und sich zur Substanz realisiert, aber wieder in den Begriff zur&#252;ckgeht.
 
-> &#167;1530a In Book One of the Objective Logic, abstract being was exhibited as passing over into determinate being, but equally as withdrawing into essence. In Book Two, essence reveals itself as determining itself into ground, thereby entering into Existence and realising itself as substance, but again withdrawing into the Notion. 
+> &#167;1530a In Book One of the Objective Logic, abstract being was exhibited as passing over into determinate being, but equally as withdrawing into essence. In Book Two, essence reveals itself as determining itself into ground, thereby entering into Existence and realising itself as substance, but again withdrawing into the Notion.
 
 > {#1530b} &#167;1530b Vom Begriffe ist nun zun&#228;chst gezeigt worden, da&#223; er sich zur Objektivit&#228;t bestimmt. Es erhellt von selbst, da&#223; dieser letztere &#220;bergang seiner Bestimmung nach dasselbe ist, was sonst in der Metaphysik als der Schlu&#223; vom Begriffe, n&#228;mlich vom Begriffe Gottes auf sein Dasein, oder als der sogenannte ontologische Beweis vom Dasein Gottes vorkam.
 
-> &#167;1530b Of the Notion, now, we have shown to begin with that it determines itself into objectivity. It is self-evident that this latter transition is identical in character with what formerly appeared in metaphysics as the inference from the notion, namely, the notion of God, to his existence, or as the so-called ontological proof of the existence of God. 
+> &#167;1530b Of the Notion, now, we have shown to begin with that it determines itself into objectivity. It is self-evident that this latter transition is identical in character with what formerly appeared in metaphysics as the inference from the notion, namely, the notion of God, to his existence, or as the so-called ontological proof of the existence of God.
 
 > {#1530c} &#167;1530c Es ist ebenso bekannt, da&#223; der erhabenste Gedanke [[Descartes]]', da&#223; der Gott das ist, dessen Begriff sein Sein in sich schlie&#223;t, nachdem er in die schlechte Form des formalen Schlusses, n&#228;mlich in die Form jenes Beweises herabgesunken, endlich der Kritik der Vernunft und dem Gedanken, da&#223; sich das Dasein nicht aus dem Begriffe herausklauben lasse, unterlegen ist. Einiges diesen Beweis Betreffende ist schon fr&#252;her beleuchtet worden; im ersten Teile, S. 88 ff., indem das Sein in seinem n&#228;chsten Gegensatze, dem Nichtsein, verschwunden und als die Wahrheit beider sich das Werden gezeigt hat, ist die Verwechslung bemerklich gemacht worden, wenn bei einem bestimmten Dasein nicht das Sein desselben, sondern sein bestimmter Inhalt festgehalten und daher gemeint wird, wenn dieser bestimmte Inhalt, z.B. hundert Taler, mit einem anderen bestimmten Inhalte, z.B. dem Kontexte meiner Wahrnehmung, meinem Verm&#246;genszustand verglichen und dabei ein Unterschied gefunden wird, ob jener Inhalt zu diesem hinzukomme oder nicht, &#8211; als ob dann vom Unterschiede des Seins und Nichtseins oder gar vom Unterschiede des Seins und des Begriffes gesprochen werde. Ferner ist[402] daselbst S. 119 und II. Teil, S. 78 die in dem ontologischen Beweise vorkommende Bestimmung eines Inbegriffs aller Realit&#228;ten beleuchtet worden.
 
-> &#167;1530c It is equally well known that [[Descartes]]' sublimest thought, that God is that whose notion includes within itself its being, after being degraded into the defective form of the formal syllogism, that is, into the form of the said proof, finally succumbed to the Critique of Reason and to the thought that existence cannot be extracted from the notion. Some points connected with this proof have already been elucidated. In Vol. 1, pp. 86 sqq., where being has vanished in its immediate opposite, non-being, and becoming has shown itself as the truth of both, attention was drawn to the confusion that arises when, in the case of a particular determinate being, what is fixed on is not the being of that determinate being but its determinate content; then, comparing this determinate content, for example a hundred dollars, with another determinate content, for example, with the context of my perception or the state of my finances, it is found that it makes a difference whether the former content is added to the latter or not &#8211; and it is imagined that what has been discussed is the difference between being and non-being, or even the difference between being and the Notion. Further, in the same Vol., p. 112 and Vol. II, p. 442 we elucidated a determination that occurs in the ontological proof, that of a sum-total of all realities. 
+> &#167;1530c It is equally well known that [[Descartes]]' sublimest thought, that God is that whose notion includes within itself its being, after being degraded into the defective form of the formal syllogism, that is, into the form of the said proof, finally succumbed to the Critique of Reason and to the thought that existence cannot be extracted from the notion. Some points connected with this proof have already been elucidated. In Vol. 1, pp. 86 sqq., where being has vanished in its immediate opposite, non-being, and becoming has shown itself as the truth of both, attention was drawn to the confusion that arises when, in the case of a particular determinate being, what is fixed on is not the being of that determinate being but its determinate content; then, comparing this determinate content, for example a hundred dollars, with another determinate content, for example, with the context of my perception or the state of my finances, it is found that it makes a difference whether the former content is added to the latter or not &#8211; and it is imagined that what has been discussed is the difference between being and non-being, or even the difference between being and the Notion. Further, in the same Vol., p. 112 and Vol. II, p. 442 we elucidated a determination that occurs in the ontological proof, that of a sum-total of all realities.
 
 
 > {#1530d} &#167;1530d Den wesentlichen Gegenstand jenes Beweises, den Zusammenhang des Begriffes und des Daseins, betrifft aber die eben geschlossene Betrachtung des Begriffs und des ganzen Verlaufs, durch den er sich zur Objektivit&#228;t bestimmt. Der Begriff ist als absolut mit sich identische Negativit&#228;t das sich selbst Bestimmende; es ist bemerkt worden, da&#223; er schon, indem er sich in der Einzelheit zum Urteil entschlie&#223;t, sich als Reales, Seiendes setzt; diese noch abstrakte Realit&#228;t vollendet sich in der Objektivit&#228;t.
@@ -6509,7 +6509,7 @@ determinism
 
 > {#1551} &#167;1551 If objects are regarded merely as self-enclosed totalities, they cannot act on one another. In this determination they are the same thing as the monads, which for this very reason were thought of as exercising no influence whatever on one another. But the concept of a monad is, just for this reason, a defective reflection. For first it is a determinate conception of the monad's merely implicit totality; as a certain degree of the development and positedness of its representation of the world, it is determinate; now while it is a self-enclosed totality, it is also indifferent to this determinateness; therefore the determinateness is not its own, but one that is posited by another object. Secondly it is an immediate in general, in so far as it is supposed to be merely a mirroring entity; its relation to itself is therefore abstract universality; hence it is a determinate being open to others. To gain the freedom of substance it is not sufficient to represent it as a totality that is complete within itself and has nothing to receive from without. On the contrary, the mechanical [begrifflose], merely mirrored relation to itself is precisely a passivity towards another. Similarly determinateness, whether taken as the determinateness of something that is or of a mirroring entity, that is a degree of the monad's own spontaneous development, is something external; the degree that the development reaches has its limit in an other. To shift the reciprocity of substances on to a predetermined harmony means nothing more than to convert it into a presupposition, that is, to withdraw it from the Notion. The need to avoid the interaction of substances was based on the moment of absolute self-subsistence and originality which was made a fundamental assumption. But since the positedness, the degree of development, does not correspond to this in-itself, it has for that very reason its ground in an other.
 
-> {#1552a} &#167;1552a When treating of the relationship of substantiality, we showed that it passes over into the causal relationship. But here what is, no longer has the determination of a substance, but of an object; the causal relationship has been superseded in the Notion; the originality of one substance in relation to the other has shown itself to be illusory, its action to be transition into the opposed substance. This relationship therefore has no objectivity. Hence in so far as the one object is posited in the form of subjective unity as active cause, this no longer counts as an original determination but as something mediated; the active object has this its determination only by means of another object. Mechanism, since it belongs to the sphere of the Notion, has that posited within it which proved to be the truth of the causal relationship, namely that the cause, which is supposed to be the original and self-subsistent factor is essentially effect, positedness, as well. In mechanism therefore the causality of the object is immediately a non-originality; it is indifferent to this its determination, therefore its being cause is for it something contingent. 
+> {#1552a} &#167;1552a When treating of the relationship of substantiality, we showed that it passes over into the causal relationship. But here what is, no longer has the determination of a substance, but of an object; the causal relationship has been superseded in the Notion; the originality of one substance in relation to the other has shown itself to be illusory, its action to be transition into the opposed substance. This relationship therefore has no objectivity. Hence in so far as the one object is posited in the form of subjective unity as active cause, this no longer counts as an original determination but as something mediated; the active object has this its determination only by means of another object. Mechanism, since it belongs to the sphere of the Notion, has that posited within it which proved to be the truth of the causal relationship, namely that the cause, which is supposed to be the original and self-subsistent factor is essentially effect, positedness, as well. In mechanism therefore the causality of the object is immediately a non-originality; it is indifferent to this its determination, therefore its being cause is for it something contingent.
 
 > {#1552b} &#167;1552b Insofern k&#246;nnte man wohl sagen, da&#223; die Kausalit&#228;t der Substanzen nur ein Vorgestelltes ist. Aber eben diese vorgestellte Kausalit&#228;t ist der Mechanismus, indem er dies ist, da&#223; die Kausalit&#228;t, als identische Bestimmtheit verschiedener Substanzen, somit als das Untergehen ihrer Selbst&#228;ndigkeit in dieser Identit&#228;t, ein blo&#223;es Gesetztsein ist; die Objekte sind gleichg&#252;ltig gegen diese Einheit und erhalten sich gegen sie. Aber ebensosehr ist auch diese ihre gleichg&#252;ltige Selbst&#228;ndigkeit ein blo&#223;es Gesetztsein, sie sind darum f&#228;hig, sich zu vermischen und zu aggregieren und als Aggregat zu einem Objekte zu werden. Durch diese Gleichg&#252;ltigkeit ebensowohl gegen ihren &#220;bergang als gegen ihre Selbst&#228;ndigkeit sind die Substanzen Objekte.
 
@@ -6523,7 +6523,7 @@ mechanism is vorgestellte causality
 
 > {#1562} &#167;1562 Das erste Moment dieses realen Prozesses ist nun wie vorhin die Mitteilung
 
-> &#167;1562 Now the first moment of this real process is, as before, communication. 
+> &#167;1562 Now the first moment of this real process is, as before, communication.
 
 ###### Das Produkt des mechanischen Prozesses
 
@@ -6543,7 +6543,7 @@ This means that this law is _natural law_, preconfiguring the physics discussed 
 
 > {#1575} &#167;1575 Diese selbstbestimmende, die &#228;u&#223;erliche Objektivit&#228;t in die Idealit&#228;t absolut zur&#252;ckf&#252;hrende Einheit ist Prinzip von Selbstbewegung; die Bestimmtheit dieses Beseelenden, welche der Unterschied des Begriffes selbst ist, ist das Gesetz.
 
-> &#167;1575 This self-determining unity that absolutely reduces external objectivity to ideality is the principle of self-movement the determinateness of this animating principle, which is the difference of the Notion itself, is law. 
+> &#167;1575 This self-determining unity that absolutely reduces external objectivity to ideality is the principle of self-movement the determinateness of this animating principle, which is the difference of the Notion itself, is law.
 
 This law of the mechanism, is the deterministic physical laws of nature, this is made more explicit below in ([&#167;1597e](#1597e)).
 
@@ -6558,10 +6558,10 @@ This law of the mechanism, is the deterministic physical laws of nature, this is
 ##### Das chemische Objekt
  {#DasChemischeObject}
 
-> {#1579a} &#167;1579a The chemical object is distinguished from the mechanical by the fact that the latter is a totality indifferent to determinateness, whereas in the case of the chemical object the determinateness, and consequently the relation to other and the kind and manner of this relation, belong to its nature. 
+> {#1579a} &#167;1579a The chemical object is distinguished from the mechanical by the fact that the latter is a totality indifferent to determinateness, whereas in the case of the chemical object the determinateness, and consequently the relation to other and the kind and manner of this relation, belong to its nature.
 
 The mechanism [above](#Mechanismus) is deterministic [[classical mechanics]].
-While at Hegel's times of course there was no idea of the required refinement of that, the phenomenological problem was evident: chemical reactions and in fact [[solid state physics]] have no explanation in classical point particle mechanics, not even qualitatively. The way two atoms may interact to become a molecule is distinctly outside the scope of classical point particle mechanics. Today we understand such chemical reaction to be due to [[quantum physics]] ([[quantum chemistry]]). It is worth remembering how important this is for a decent theoretical explanation of observed nature: without quantum mechanics, there are no solids, no soft matter, the world would be a dust of points without quantum mechanics. 
+While at Hegel's times of course there was no idea of the required refinement of that, the phenomenological problem was evident: chemical reactions and in fact [[solid state physics]] have no explanation in classical point particle mechanics, not even qualitatively. The way two atoms may interact to become a molecule is distinctly outside the scope of classical point particle mechanics. Today we understand such chemical reaction to be due to [[quantum physics]] ([[quantum chemistry]]). It is worth remembering how important this is for a decent theoretical explanation of observed nature: without quantum mechanics, there are no solids, no soft matter, the world would be a dust of points without quantum mechanics.
 
 Thus [[chemistry]] and [[solid state physics]] ([[cohesion]], [[elasticity]], [[solidity]],...) is that hallmark of quantum physics which is visible to the naked eye at human scaes, but ubiquituously so. Turning to chemistry as that aspect of the laws of nature which goes beyond classical mechanics towards quantum mechanics is the closest possible step towards fundamental physics possible at Hegel's time. And that is what he does.
 
@@ -6594,7 +6594,7 @@ Die Antithesis: &#187;Es ist keine Freiheit, sondern alles in der Welt geschieht
 
 > &#167;1597e Thus in order to prove the thesis we have first to assume that there is no other causality than that according to natural laws, that is, according to the necessity of mechanism in general, including chemism. This proposition w e find to be selfcontradictory, because we take natural law to consist just in this, that nothing happens without a cause sufficiently determined a priori, which cause therefore must contain an absolute spontaneity within itself; that is, the assumption opposed to the thesis is contradictory because it contradicts the thesis.
 
-In modern terminology this is the issue of choice of [[boundary conditions]] for the [[equations of motion]] that are taken as the laws of nature. 
+In modern terminology this is the issue of choice of [[boundary conditions]] for the [[equations of motion]] that are taken as the laws of nature.
 
 {#HilbertWeltgesetze} [[David Hilbert]] has famously reflected on the issue of bundary conditions for _Weltgesetze_ (today roughly: [[theory of everything|theories of everything]]) in view of the modern theory of [[gravity]] ([[general relativity]]) and has wondered whether imposing certain canonical boundary conditions (such as periodic boundary conditions in time) would lead to what he called "Hegelian physiscs" where the nature of the world follows from pure thought. This is reproduced in ([Sauer-Majer 09, p. 417, 423](#SauerMajer09))
 
@@ -6631,7 +6631,7 @@ With _Notion/Begriff_ being _[[type]]_ and _[[true]]_ being (under [[proposition
 
 Moreover, by [&#167;1630b](#1630b) this is to have a _concrete_ and _external_ aspect to it. Hence both by the understanding of _externalization_ as [[representation]]/[[model]] as well as by the understanding of _[[concrete general]]_ as a [[category]] of [[models]] of a [[theory]] the Idea is to be thought of as the [[category]] of these definable terms. This is known as the _[[term model]]_ of the given ([[modal type theory|modal]] [[type theory]]).
 
-Specifically, under [[propositions as types]] this includes all witnesses of the [[true|truth]] of [[propositions]], hence the Idea is the collection of all the "true concepts", the actual facts that may be [[proof|proven]] from the given [[modal type theory]]. 
+Specifically, under [[propositions as types]] this includes all witnesses of the [[true|truth]] of [[propositions]], hence the Idea is the collection of all the "true concepts", the actual facts that may be [[proof|proven]] from the given [[modal type theory]].
 
 Compare this to [[Wittgenstein]]'s:
 
@@ -6685,7 +6685,7 @@ In the _Lectures on the History of Philosophy_ it is clarified that _The Idea_ h
 
 Now that the Idea has appeared in the _Logic_, nature springs out of it (as announced in [&#167;53](#53)). The _[shorter Logic](#EPSBOI)_ ends with [EL&#167;244](#EL244).
 
-> {#1641a} &#167;1641a Zun&#228;chst aber ist die Idee auch wieder erst nur unmittelbar oder nur in ihrem Begriffe, die objektive Realit&#228;t ist dem Begriffe zwar angemessen, aber noch nicht zum Begriffe befreit, und er existiert nicht f&#252;r sich als der Begriff. 
+> {#1641a} &#167;1641a Zun&#228;chst aber ist die Idee auch wieder erst nur unmittelbar oder nur in ihrem Begriffe, die objektive Realit&#228;t ist dem Begriffe zwar angemessen, aber noch nicht zum Begriffe befreit, und er existiert nicht f&#252;r sich als der Begriff.
 
 > &#167;1641a In the first instance, however, the Idea is once again only immediate or only in its Notion; objective reality is, it is true, conformable to the Notion, but it is not yet liberated into the Notion, and the latter does not exist explicitly for itself as Notion.
 
@@ -6720,7 +6720,7 @@ Now that the Idea has appeared in the _Logic_, nature springs out of it (as anno
 
 > {#1648} &#167;1648 Aber die &#196;u&#223;erlichkeit ist im Leben zugleich als die einfache Bestimmtheit seines Begriffs; so ist die Seele allgegenw&#228;rtig in diese Mannigfaltigkeit ausgegossen und bleibt zugleich schlechthin das einfache Einssein des konkreten Begriffs mit sich selbst.  Am Leben, an dieser Einheit seines Begriffs in der &#196;u&#223;erlichkeit der Objektivit&#228;t, in der absoluten Vielheit der atomistischen Materie, gehen dem Denken, das sich an die Bestimmungen der Reflexionsverh&#228;ltnisse und des formalen Begriffes h&#228;lt, schlechthin alle seine Gedanken aus; die Allgegenwart des Einfachen in der vielfachen &#196;u&#223;erlichkeit ist f&#252;r die Reflexion ein absoluter Widerspruch und, insofern sie dieselbe zugleich aus der Wahrnehmung des Lebens auffassen, hiermit die Wirklichkeit dieser Idee zugeben mu&#223;, ein unbegreifliches Geheimnis, weil sie den Begriff nicht erfa&#223;t und den Begriff nicht als die Substanz des Lebens.
 
-> &#167;1648  But in life externality is at the same time present as the simple determinateness of its Notion; thus the soul is an omnipresent outpouring of itself into this multiplicity and at the same remains absolutely the simple oneness of the concrete Notion with itself. The thinking that clings to the determinations of the relationships of reflection and of the formal Notion, when it comes to consider life, this unity of its Notion in the externality of objectivity, in the absolute multiplicity of atomistic matter, finds all its thoughts without exception are of no avail; the omnipresence of the simple in manifold externality is for reflection an absolute contradiction, and as reflection must at the same time apprehend this omnipresence from its perception of life and therefore admit the actuality of this Idea, it is an incomprehensible mystery for it, because it does not grasp the Notion, and the Notion as the substance of life. 
+> &#167;1648  But in life externality is at the same time present as the simple determinateness of its Notion; thus the soul is an omnipresent outpouring of itself into this multiplicity and at the same remains absolutely the simple oneness of the concrete Notion with itself. The thinking that clings to the determinations of the relationships of reflection and of the formal Notion, when it comes to consider life, this unity of its Notion in the externality of objectivity, in the absolute multiplicity of atomistic matter, finds all its thoughts without exception are of no avail; the omnipresence of the simple in manifold externality is for reflection an absolute contradiction, and as reflection must at the same time apprehend this omnipresence from its perception of life and therefore admit the actuality of this Idea, it is an incomprehensible mystery for it, because it does not grasp the Notion, and the Notion as the substance of life.
 
 ##### The living individual
 
@@ -6884,11 +6884,11 @@ see also [PN&#167;193b](#PN193b)
 
 [[synthetic geometry]], see also [PN&#167;256b](#PN256b)
 
-> {#PN256a} PN&#167;256a Aber der Unterschied ist wesentlich bestimmter, qualitativer Unterschied. Als solcher ist er $\alpha$) zun&#228;chst Negation des Raumes selbst, weil dieser das unmittelbar unterschiedlose Au&#223;ersichsein ist, -- der Punkt. 
+> {#PN256a} PN&#167;256a Aber der Unterschied ist wesentlich bestimmter, qualitativer Unterschied. Als solcher ist er $\alpha$) zun&#228;chst Negation des Raumes selbst, weil dieser das unmittelbar unterschiedlose Au&#223;ersichsein ist, -- der Punkt.
 
 > {#PN256b} PN&#167;256b $\beta$) Die Negation ist aber Negation des Raumes, d. i. sie ist selbst r&#228;umlich; der Punkt als wesentlich diese Beziehung, d.i. als sich aufhebend, ist die Line, das erste anders-, d.i. R&#228;umlich-sein des Punktes. $\gamma$) Die Wahrheit des Andersseins ist aber die Negation der Negation. Die Linie geht daher in die Fl&#228;che &#252;ber, welche einerseits eine Bestimmtheit gegen Linie und Punkt, und so Fl&#228;che &#252;berhaupt, andererseits aber die aufgehobene Negation des Raumes ist, somit Wiederherstellung der  r&#228;umlichen Totalit&#228;t, welche nunmehr das negative Moment an ihr hat; -- umschlie&#223;ende Oberfl&#228;che, die einen einzelnen ganzen Raum absondert.
 
-Hence out of the point there emanates the line, out of the line the plane, etc. Such a hierarchy of extensions by which spacetime emanates out of the point appears in the 
+Hence out of the point there emanates the line, out of the line the plane, etc. Such a hierarchy of extensions by which spacetime emanates out of the point appears in the
 [[schreiber:The brane bouquet|the brane bouquet]] discuss above in _[Formalization -- Nature -- Spacetime](#FormalizationNatureSpacetime)_: from the (super-)point $\mathbb{R}^{0|N}$ emanate the [[super Minkowski spacetimes]] $\mathbb{R}^{d-1,1|N}$ by central extension via the $(-\Gamma-)$, prop. \ref{3dSuperMinkowskiSpacetime}.
 
 > {#PN256b} PN&#167;256b Da&#223; die Linie nicht aus Punkten, die Fl&#228;che nicht aus Linien besteht, geht aus ihrem Begriffe hervor, da die Linie vielmehr der Punkt als au&#223;er sich seiend, n&#228;mlich sich auf den Raum beziehend und sich aufhebend, die Fl&#228;che ebenso die aufgehobene, au&#223;er sich seiende Linie ist. &#8211;
@@ -7232,7 +7232,12 @@ $$
 > &#167;577 Der dritte Schlu&#223; ist die Idee der Philosophie, welche die sich wissende Vernunft, das Absolut-Allgemeine zu ihrer Mitte hat, die sich in Geist und Natur entzweit, jenen zur Voraussetzung als den Proze&#223; der subjektiven T&#228;tigkeit der Idee und diese zum allgemeinen Extreme macht, als den Proze&#223; der an sich, objektiv, seienden Idee. Das Sich-Urteilen der Idee in die beiden Erscheinungen (&#167; 575/6) bestimmt dieselben als ihre (der sich wissenden Vernunft) Manifestationen, und es vereinigt sich in ihr, da&#223; die Natur der Sache, der Begriff, es ist, die sich fortbewegt und entwickelt, und diese Bewegung ebensosehr die T&#228;tigkeit des Erkennens ist, die ewige an und f&#252;r sich seiende Idee sich ewig als absoluter Geist bet&#228;tigt, erzeugt und genie&#223;t.[394]
 
 
+
+
+
 ## **References**
+
+### General
 
 Texts with background, introduction and survey include
 
@@ -7256,10 +7261,6 @@ A quick survey of the theme of the idea expressing itself via the spirit in natu
 
 * {#PSEJul14} musingsofacigarettesmokingman, _[P.SE comment](http://philosophy.stackexchange.com/a/14554/5473)_, July 2014
 
-Hegel himself expands on the relation of the _Science of Logic_ to the [[Tao Te Ching]] in
-
-* {#Hegel27} [[Georg Hegel]], _[[Lectures on the Philosophy of Religion]]_, Volume II: Determinate Religion. Edited by Peter C. Hodgson; translated by R.F. Brown, P.C. Hodgson, and J.M. Stewart, with the assistance of J.P. Fitzer and H.S. Harris. Berkeley: University of California Press, 1995 (orig. 1987). (Translation of: Vorlesungen &#252;ber die Philosophie der Religion.)  This extract (pp. 556-561) is from the Lectures of 1827; A. Immediate Religion, or Nature Religion; 1. The Religion of Magic; c. The State Religion of the Chinese Empire and the Dao. ([web](http://www.autodidactproject.org/quote/hegel-tao1.html))
-
 Further comments on Hegel's text include
 
 * {#Heidegger58} [[Martin Heidegger]], _Hegel and the Greeks_, Conference of the Academy of Sciences at Heidelberg, July 26, 1958 ([web](http://www.morec.com/hegelgre.htm))
@@ -7268,9 +7269,9 @@ Further comments on Hegel's text include
 
 * {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co.
 
-Comments on the general aim of a fundamental logic based on [[dialectic]] are in
 
-* {#Wandschneider99} [[Dieter Wandschneider]], _Dialektik als Letztbegr&#252;ndung der Logik_, in Koreanische Hegelgesellschaft (ed.), _Festschrift f&#252;r Sok-Zin Lim_ Seoul 1999, 255&#8211;278 ([pdf](http://www.philosophie.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaabpltw))
+
+### Mysticism
 
 Texts amplifying the [[hermeticism]], [[gnosticism]] and [[mysticism]] of Hegel's system include
 
@@ -7284,7 +7285,25 @@ Texts amplifying the [[hermeticism]], [[gnosticism]] and [[mysticism]] of Hegel'
 
 * {#Stanfield14} Phil Stanfield, _Hegel, Mystic_, 2014 ([part I](http://philipstanfield.com/2014/09/22/hegel-mystic/), [part II](http://philipstanfield.com/2014/09/23/hegel-mystic-part-two/), [part III](http://philipstanfield.com/2014/09/24/hegel-mystic-part-three-2/))
 
+Hegel himself expands on the relation of the _Science of Logic_ to the [[Tao Te Ching]] in
 
+* {#Hegel27} [[Georg Hegel]], _[[Lectures on the Philosophy of Religion]]_, Volume II: Determinate Religion. Edited by Peter C. Hodgson; translated by R.F. Brown, P.C. Hodgson, and J.M. Stewart, with the assistance of J.P. Fitzer and H.S. Harris. Berkeley: University of California Press, 1995 (orig. 1987). (Translation of: Vorlesungen &#252;ber die Philosophie der Religion.)  This extract (pp. 556-561) is from the Lectures of 1827; A. Immediate Religion, or Nature Religion; 1. The Religion of Magic; c. The State Religion of the Chinese Empire and the Dao. ([web](http://www.autodidactproject.org/quote/hegel-tao1.html))
+
+
+### Relation to Logic, Mathematics and Physics
+
+Comments on the general aim of a fundamental logic based on [[dialectic]] are in
+
+* {#Wandschneider99} [[Dieter Wandschneider]], _Dialektik als Letztbegr&#252;ndung der Logik_, in Koreanische Hegelgesellschaft (ed.), _Festschrift f&#252;r Sok-Zin Lim_ Seoul 1999, 255&#8211;278 ([pdf](http://www.philosophie.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaabpltw))
+
+Related discussion in view of [[infinitesimals]] is in
+
+* {#Cohen83} [[Hermann Cohen]], _Das Prinzip der Infinitesimal-Methode und seine Geschichte_ , Berlin 1883. ([html](http://www.gleichsatz.de/b-u-t/archiv/Cohen/hc-infinit1.html))
+
+
+Reflections by [[David Hilbert]] on the claim that laws of physics may follow from pure concepts, in view of more modern developments in physics, are reproduced around pages 417, 423 of
+
+* {#SauerMajer09} [[Tilman Sauer]], [[Ulrich Majer]] with  Arne Schirrmacher, Heinz-J&#252;rgen Schmidt (eds.), _David Hilbert's "Lectures on the foundations of physics"_, 1915-1927 : relativity, quantum theory and epistemology, Springer 2009
 
 
 Comments on the similarity of Hegel's physics to aspects of [[general relativity]] are in
@@ -7295,13 +7314,53 @@ and the idea of matter emerging from space and time has apparently influenced
 
 * {#Weyl19} [[Hermann Weyl]], _Raum, Zeit, Materie_, 1919 ([web](https://archive.org/details/raumzeitmateriev00weyl))
 
-Related discussion in view of [[infinitesimals]] is in
 
 
 
 
-* {#Cohen83} [[Hermann Cohen]], _Das Prinzip der Infinitesimal-Methode und seine Geschichte_ , Berlin 1883. ([html](http://www.gleichsatz.de/b-u-t/archiv/Cohen/hc-infinit1.html))
+### Concept logic as Type theory
+ {#ReferencesConceptLogicAsTypeTheory}
 
+The idea that the [[types]] in [[type theory]] are (mathematical) _concepts_ or _notions_ (i.e. "Begriffe", as in the [formalization dictionary](#Dictionary) above ) is arguably implicit in the original
+
+* {#MartinLoef73} [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
+
+where it says in section 1.1:
+
+> Every mathematical object is of a certain type [...] a type is well defined if we understand (or _grasp_ to use a word favoured by Kreisel 1970) what it means to be an object of that type.
+
+and
+
+* {#MartinLoef90} [[Per Martin-Löf]], _A path from logic to metaphysics_, talk at _Nuovi problemi della logica e della filosofia della scienza_, Jan 1990 ([pdf](https://github.com/michaelt/martin-lof/raw/master/pdfs/A-path-from-logic-to-metaphysics-1991.pdf))
+
+where it says on p. 1 (to be read with [[propositions as types]] in mind):
+
+> ...by saying that a concept has existence, I mean that there exists an object which falls under the concept. So to say that a proposition is true is the same as to say that the concept 'proof of the proposition' has existence...
+
+The explicit statement "a type is a concept"  appears for instance (referring both to types of mathematical objects as well as to [[data types]] in [[computer science]]) in:
+
+* {#Sale77} [[Arhtur Sale]], _Primitive data types_, The Australian Computer Journal, Vol. 9, No. 2, July 1977 ([pdf](http://eprints.utas.edu.au/139/1/PrimitiveData.pdf))
+
+The explicit statement "a type is a 'mathematical' concept" appears on p. 6 of
+
+* {#Sergeraert94} [[Francis Sergeraert]], _The computability problem in algebraic topology_, Advances in mathematics 104, 1-29, 1994 [pdf](http://www-fourier.ujf-grenoble.fr/~sergerar/Papers/Advances.pdf)
+
+and with explicit reference to [[type theory]] in
+
+* {#Asher11} [[Nicholas Asher]], _A Web of Words, Lexical Meaning in Context_, Cambridge University Press (2011) ([pdf](http://www.phil.pku.edu.cn/cllct/ann_attachments/asher_webofwords.pdf)) 
+
+where it says on pages 37/38:
+
+> $[...]$ this leads us to the hypothesis that types are concepts.
+
+With explicit reference to [[homotopy type theory]] the proposal that "type" should be read as a "concept"  is voiced in
+
+* {#LadymanPresnel14} [[James Ladyman]], [[Stuart Presnell]], _Does Homotopy Type Theory Provide a Foundation for Mathematics?_, British Journal for the Philosophy of Science axw006 2014 ([PhilArchive](http://philsci-archive.pitt.edu/11143/), [doi.org/10.1093/bjps/axw006 ](https://doi.org/10.1093/bjps/axw006))
+
+
+
+### Formalizations
+ {#ReferencesFormalizations}
 
 Proposals for formalizing some of Hegel's thoughts in terms of [[algebra]] may be identified in
 
@@ -7342,46 +7401,13 @@ Texts on [[foundations of mathematics]] which comment on the circularity (or not
 
 The formalization of _Schluss_ by [[natural deduction]] originates in
 
-
 * {#Gentzen35} [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ 39(1), Springer-Verlag 1935. <http://dx.doi.org/10.1007/BF01201353> (English translation _Investigations into Logical Deduction_ in Szabo)
 
-The idea that the [[types]] in [[type theory]] are (mathematical) _concepts_ or _notions_ (i.e. "Begriffe", as in the [formalization dictionary](#Dictionary) above ) is arguably implicit in the original
-
-* {#MartinLoef73} [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
-
-where it says in section 1.1:
-
-> Every mathematical object is of a certain type [...] a type is well defined if we understand (or _grasp_ to use a word favoured by Kreisel 1970) what it means to be an object of that type.
-
-and 
-
-* {#MartinLoef90} [[Per Martin-Löf]], _A path from logic to metaphysics_, talk at _Nuovi problemi della logica e della filosofia della scienza_, Jan 1990 ([pdf](https://github.com/michaelt/martin-lof/raw/master/pdfs/A-path-from-logic-to-metaphysics-1991.pdf))
-
-where it says on p. 1 (to be read with [[propositions as types]] in mind):
-
-> ...by saying that a concept has existence, I mean that there exists an object which falls under the concept. So to say that a proposition is true is the same as to say that the concept 'proof of the proposition' has existence...
-
-The explicit statement "a type is a concept"  appears for instance (referring both to types of mathematical objects as well as to [[data types]] in [[computer science]]) in:
-
-* {#Sale77} [[Arhtur Sale]], _Primitive data types_, The Australian Computer Journal, Vol. 9, No. 2, July 1977 ([pdf](http://eprints.utas.edu.au/139/1/PrimitiveData.pdf))
-
-The explicit statement "a type is a 'mathematical' concept" appears on p. 6 of
-
-* {#Sergeraert94} [[Francis Sergeraert]], _The computability problem in algebraic topology_, Advances in mathematics 104, 1-29, 1994 [pdf](http://www-fourier.ujf-grenoble.fr/~sergerar/Papers/Advances.pdf)
-
-An explicit suggestion that "[[type]]" in [[homotopy type theory]] should be read as a "concept"  is in
-
-* {#LadymanPresnel14} [[James Ladyman]], [[Stuart Presnell]], _Does Homotopy Type Theory Provide a Foundation for Mathematics?_, 2014 ([web](http://philsci-archive.pitt.edu/11143/)) 
-
-Reflections by [[David Hilbert]] on the claim that laws of physics may follow from pure concepts, in view of more modern developments in physics, are reproduced around pages 417, 423 of
-
-* {#SauerMajer09} [[Tilman Sauer]], [[Ulrich Majer]] with  Arne Schirrmacher, Heinz-J&#252;rgen Schmidt (eds.), _David Hilbert's "Lectures on the foundations of physics"_, 1915-1927 : relativity, quantum theory and epistemology, Springer 2009
-
-Further references referred to in the context of the formalization discussed [above])(#FormalizationText) includes
+Further references referred to in the context of the formalization discussed [above](#FormalizationText) include the following:
 
 * {#BunkeNikolausVoelkl13} [[nLab:Ulrich Bunke]], [[nLab:Thomas Nikolaus]], [[nLab:Michael Völkl]], _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures, October 2014 ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
-* {#FSS} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, Volume 12, Issue 02 (2015) 1550018 
+* {#FSS} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, Volume 12, Issue 02 (2015) 1550018
 
 * {#Johnstone02} [[nLab:Peter Johnstone]], _[[nLab:Sketches of an Elephant|Sketches of an Elephant -- A Topos Theory Compendium]], Oxford 2002.
 
@@ -7390,6 +7416,7 @@ Further references referred to in the context of the formalization discussed [ab
 * {#NSS} [[nLab:Thomas Nikolaus]], [[nLab:Urs Schreiber]], [[nLab:Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-Bundles -- General theory]]_, Journal of Homotopy and Related Structures, June 2014 ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
 
 * {#dcct} [[nLab:Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
 
 * {#PalmeReyesMacnamaraReyes94} [[Marie La Palme Reyes]], John Macnamara, [[Gonzalo Reyes]] , _Functoriality and Grammatical Role in Syllogisms_ , Notre Dame J. Formal Logic **35** no.1 (1994) pp.41-66. ([Euclid](http://projecteuclid.org/euclid.ndjfl/1040609293), [pdf](http://projecteuclid.org/download/pdf_1/euclid.ndjfl/1040609293))
 
@@ -7404,3 +7431,4 @@ Further references referred to in the context of the formalization discussed [ab
 * {#Shulman14} [[nLab:Michael Shulman]], _[[homotopytypetheory:model of type theory in an (infinity,1)-topos]]_
 
 * {#UFP13} [[nLab:Univalent Foundations Project]], _[[nLab:Homotopy Type Theory -- Univalent Foundations of Mathematics]]_, 2013
+
