@@ -5,5 +5,7 @@
 
 * [[Knizhnik-Zamolodchikov equation]]
 
+* [[conformal bootstrap]]
+
 category: people
 
