@@ -239,11 +239,13 @@ According to ([Schwede 97](#Schwede97), Lemma 3.1.3), this model structure is [[
 
 ### Simplicial commutative $k$-algebras
 
+The following is a variant of the model structure on simplicial commutative algebras that is implied by the above general theorem.
+
 +-- {: .num_prop}
 ###### Proposition
 **(second model structure)**
 
-Let $T$ be the [[Lawvere theory]] for commutative [[associative algebras]] over a ring $k$. Then $CAlg_k$ becomes a [[simplicial model category]] with
+Let $T$ be the [[Lawvere theory]] for  ([[associative algebra|associative]] and) [[commutative algebras]] over a [[ring]] $k$. Then $(cAlg_k)^{\Delta^{op}}$ becomes a [[simplicial model category]] with
 
 * weak equivalences the morphisms whose underlying morphism of simplicial sets are weak equivalences in the [[classical model structure on simplicial sets]];
 
@@ -251,7 +253,7 @@ Let $T$ be the [[Lawvere theory]] for commutative [[associative algebras]] over 
 
 =--
 
-This appears as ([GoerssSchemmerhorn, theorem 4.17](#GoerssSchemmerhorn)).
+This appears as ([Goerss-Schemmerhorn, theorem 4.17](#GoerssSchemmerhorn)).
 
 
 ### Simplicial Lie algebras
