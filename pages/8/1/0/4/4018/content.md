@@ -38,7 +38,7 @@ $$\{x \in X: \vdash_Y R(f_1(x), \ldots, f_n(x))\} \in \mathcal{U}$$
 
 for any chosen representatives $f_1, \ldots, f_n$. Note that the well-definedness of the interpretations of functions and relations depends only on the filter axioms. 
 
-That the ultrapower is a model of the theory is a consequence of Los's theorem. (Here one needs all of the ultrafilter conditions, in particular
+That the ultrapower is a model of the theory is a consequence of [[Los ultraproduct theorem|Los's theorem]]. (Here one needs all of the ultrafilter conditions, in particular
 one needs condition 4 in order to accommodate satisfaction of formulas involving instances of negation.)
 
 ## Sheaf-theoretic interpretation
