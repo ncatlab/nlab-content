@@ -87,4 +87,5 @@ There is an analogous statement for ultraproducts of structures in [[continuous 
 [[Michael Makkai]]. Stone duality for first order logic. Advances in Mathematics, 65(2):97&#8211;170, 1987.
 
 [[!redirects Los theorem]]
+[[!redirects Los ultraproduct theorem]]
 [[!redirects transfer principle]]
