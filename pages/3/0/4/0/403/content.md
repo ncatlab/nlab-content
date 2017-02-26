@@ -349,3 +349,4 @@ An old discussion on variants of internal categories, crossed modules and 2-grou
 
 [[!redirects category object]]
 [[!redirects category objects]]
+[[!redirects internal nerve]]
