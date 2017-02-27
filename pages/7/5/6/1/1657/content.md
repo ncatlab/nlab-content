@@ -29,20 +29,20 @@ For the general theory of measure spaces, we first need a _[[measurable space]]_
 The original notation for an integral (going back to [[Gottfried Leibniz]]) was
 \[ \label{Leibniz} \int_a^b f(x) \,\mathrm{d}x \]
 (where $f(x)$ would be replaced by some formula in the variable $x$).  In modern measure theory, we can now understand this as the integral of the [[measurable function]] $f$ on the [[interval]] $[a,b]$ relative to [[Lebesgue measure]].  If we wish to generalise from Lebesgue measure to an arbitrary measure $\mu$ and generalise from $[a,b]$ to an arbitrary measurable set $S$, then we can write
-\[ \label{full} \int_S f(x) \,\mu(\mathrm{d}x) \]
+\[ \label{full} \int_{x\in{S}} f(x) \,\mu(\mathrm{d}x) \]
 instead.  Now, if $f$ is not given by a formula but rather explicitly named, then there is no need for the dummy variable $x$, so we should write
 \[ \label{simple} \int_S f \,\mu .\]
 However, it has been more common to keep the symbol '$\mathrm{d}$' and write
 \[ \label{excessive} \int_S f \,\mathrm{d}\mu .\]
 (Note that '$\mathrm{d}$' can be read as 'with respect to' in both (eq:Leibniz) and (eq:excessive), although meaning different things; in the former case, it indicates the dummy variable, while in the latter case, it indicates the measure.)  This notation then leads to replacing (eq:full) with
-\[ \label{switched} \int_S f(x) \,\mathrm{d}\mu(x) .\]
+\[ \label{switched} \int_{x\in{S}} f(x) \,\mathrm{d}\mu(x) .\]
 This last notation, however, hides the fact that integrating a function with respect to a measure is a way of multiplying a function by a measure to get a new measure; the integral of $f$ on $S$ with respect to $\mu$ is simply the measure of $S$ with respect to $f \mu$, as can be seen in (eq:simple).  Compare also notation for [[Radon?Nikodym derivatives]].
 
 It is also possible to take the entire expression '$\mathrm{d}\mu$' as the name of the measure, writing $\mathrm{d}\mu(A)$ even where the common notation is $\mu(A)$.  In that case, the common expression (eq:excessive) is literally the same as (what would otherwise be) (eq:simple), although (eq:switched) is not quite the same as (what would otherwise be) (eq:full).
 
 We will use (eq:simple) below (although other forms may well be found on other pages).
 
-See [Usenet discussion](http://groups.google.com/group/sci.math.research/browse_thread/thread/e28593bfd6b83aac/67a61d19e8f4d57f), and contrast (eq:switched) with the [Stieltjes integral](http://secure.wikimedia.org/wikipedia/en/wiki/Stieltjes_integral).  (The point is that it is $\mathrm{d}x$, not just $x$, that gives us the relevant measure in (eq:Leibniz).)  The notation (eq:simple) has also been used in an introductory graduate-level course by [[John Baez]].
+See [Usenet discussion](http://groups.google.com/group/sci.math.research/browse_thread/thread/e28593bfd6b83aac/67a61d19e8f4d57f), and contrast (eq:switched) with the [Stieltjes integral](https://en.wikipedia.org/wiki/Stieltjes_integral).  (The point is that it is $\mathrm{d}x$, not just $x$, that gives us the relevant measure in (eq:Leibniz).)  The notation (eq:simple) has also been used in an introductory graduate-level course by [[John Baez]].
 
 There is also some variation in notation as to whether to use a roman '$\mathrm{d}$' or an italic '$\mathit{d}$'; roman is more common in England and italic in America.  But of course, that variation should not cause any difficulties!
 
@@ -191,7 +191,7 @@ Thus integration can be seen as a way of multiplying a function by a measure to 
 
 The [[Radon-Nikodym derivative]] is about reversing this (dividing two measures to get a function).
 
-Other topics: absolute continuity, etc.
+Other topics: absolute continuity, etc.  (Refer to &lt;http://tobybartels.name/notes/#Radon>.)
 
 
 ## Noncommutative measure theory
