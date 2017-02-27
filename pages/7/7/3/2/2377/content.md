@@ -45,7 +45,7 @@ Note that experts will probably always prefer to build their own car/OS; the goa
 
 ### Types
 
-SEAR is a theory about three kinds of things: **sets**, **elements**, and **relations**.  Every element, and every variable that ranges over elements, is always associated to something denoting a set (which might be a constant or a variable); we say it is an element **of** that set.  If $x$ is an element of $A$ we write $x\in A$; note that this is not an *assertion* which may be true or false, but a *typing* declaration.  In formal terms, this means that SEAR is a [[dependent type theory]], with a type of sets, a type of elements for each set term, and a type of relations for each pair of set terms. 
+SEAR is a theory about three kinds of things: **sets**, **elements**, and **relations**.  Every element, and every variable that ranges over elements, is always associated to something denoting a set (which might be a constant or a variable); we say it is an element **of** that set.  If $x$ is an element of $A$ we write $x\in A$; note that this is not an *assertion* which may be true or false, but a *typing* declaration.  In formal terms, this means that SEAR is a [[dependent type theory|dependently typed]] theory, with a type of sets, a type of elements for each set term, and a type of relations for each pair of set terms. 
 
 One consequence of this is that whenever we [[quantification|quantify]] over elements we must always quantify over elements *of some set*; thus we can say "for all elements $x\in A$" but not "for all elements $x$."  Another consequence is that the assertion $x=y$ is only well-formed (a precondition to its being true _or_ false) if $x$ and $y$ are elements of the same set.
 
