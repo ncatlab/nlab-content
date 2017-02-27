@@ -23,17 +23,34 @@
 
 **Mathematical physics** is a discipline at the interface of [[mathematics]] and [[physics]], concerned with developing mathematical models of physical phenomena and mathematical apparatus arising or needed in such models. It intersects with **theoretical physics** which deals with theoretical arguments in consideration of physical phenomena and the development of models of known and of conjectured physics; theoretical physics is in a sense wider as it deals also with interpretations, non-rigorous and sometimes speculative argument from experiments or from rough comparisons of different models and various experimental data, not entering or forming together a necessarily compatible mathematical entity. For example, the calculations of fitting parameters and adjusting models to complicated experimental data, called the [[phenomenology]] is part of the work of a theoretical physicist, but most such work is not nowadays considered to belong to mathematical physics, unless one is developing a really new mathematical model or tool for such work. 
 
-In the famous list of [[Hilbert's problems]], the [[Hilbert's sixth problem|sixth problem]] states:
+## History
+
+Historically, there has been some variance as to what exactly is comprised by "mathematical physics", see ([Fadeev 00](#Fadeev00)) for some history. 
+
+In the beginning of the 20th century the term was understood very broadly:
+
+> Not only [[Henri Poincaré ]], bu also [[Albert Einstein]], were called mathematical physicists. Newly established theoretical chairs were called chairs of mathematical physics. It follows from the documents in the archives of the Nobel Committee that MP had a right to appear both in the nominations and discussion of the candidates for the Nobel Prize in physics. Roughly speaking, the concept of Mathematical Physics covered theoretical papers where mathematical formulae were used. ([Fadeev 00, p. 1](#Fadeev00))
+
+Also, in the list of [[Hilbert's problems]] of mathematics, the [[Hilbert's sixth problem|sixth problem]] regards the mathematical formulation of physics as one of the core problems in mathematics:
 
 > **6. Mathematical Treatment of the Axioms of Physics.** The investigations on the [[foundations]] of [[geometry]] suggest the problem: To treat in the same manner, by means of [[axioms]], those [[physics|physical sciences]] in which already today [[mathematics]] plays an important part; in the first rank are the [[probability theory|theory of probabilities]] and [[mechanics]].
 
-More recently, one also sometimes uses a less familiar term **physical mathematics** for the study of mathematical constructions inspired by models of theoretical physics; thus the final aim may be more mathematical (say finding a new topological invariant using physical intuition) than in the mathematical physics. However there is no clean boundary and to some extent the two notions are interchangeable.
 
-## Attitudes towards mathematics
+However, the 1920 and 1930s  the term "mathematical physics" began to be reserved more exclusively for the activity of making precise arguments that are already more or less understood by theoretical physicists informally. The term began to be referred to mathematical tools used in physics or yet more specifically in [[classical physics]] as the theory of [[partial differential equations]] and [[variational calculus]] and in [[quantum physics]] as [[functional analysis]] and [[representation theory]]. 
 
-It is quite possible to work on physical theories while viewing mathematics merely as a tool to facilitate calculation. However, some of the greatest names of mathematical physics have sought a more profound role for it in the belief that very deep mathematical ideas are required to describe nature. For instance, [[Paul Dirac]] expresses such a view here
+> One sees the quest for the rigorous mathematical theorems about results which are understood by physicists in their own way. ([Fadeev 00, p. 2](#Fadeev00))
 
->It seems to be one of the fundamental features of nature that fundamental physical laws are described in terms of a mathematical theory of great beauty and power, needing quite a high standard of mathematics for one to understand it. You may wonder: Why is nature constructed along these lines? One can only answer that our present knowledge seems to show that nature is so constructed. We simply have to accept it. One could perhaps describe the situation by saying that God is a mathematician of a very high order, and He used very advanced mathematics in constructing the universe. (Paul Dirac, *The Evolution of the Physicist's Picture of Nature*, Scientific American 1963)
+More recently this narrow understanding has been called into question: [Fadeev 00, p. 3](#Fadeev00) writes:
+
+> I consider as the main goal of Mathematical Physics the use of mathematical intuition for the derivation of really new results in the fundamental physics. In this sense, Mathematical Physics and Theoretical Physics are competitors.  Their goals in unraveling the laws of the structure of matter coincide. However, the methods and even the estimates of the importance of the results of work may differ quite significally. 
+
+In a similar spirit of trying to break out of an overly restrictive understanding of the term "mathematical physics" [[Gregory Moore]] has been advocating the alrternative ter **physical mathematics** for the study of mathematical constructions inspired by models of theoretical physics ([Moore 14](#Moore14)).
+
+
+
+Some of the greatest names of mathematical physics have sought a more profound role for it in the belief that very deep mathematical ideas are required to describe nature. For instance, [[Paul Dirac]] expresses such a view here
+
+> It seems to be one of the fundamental features of nature that fundamental physical laws are described in terms of a mathematical theory of great beauty and power, needing quite a high standard of mathematics for one to understand it. You may wonder: Why is nature constructed along these lines? One can only answer that our present knowledge seems to show that nature is so constructed. We simply have to accept it. One could perhaps describe the situation by saying that God is a mathematician of a very high order, and He used very advanced mathematics in constructing the universe. (Paul Dirac, *The Evolution of the Physicist's Picture of Nature*, Scientific American 1963)
 
 This view led Dirac to advocate the following as a methodology
 
@@ -57,6 +74,11 @@ The version of this belief in the necessity of deep mathematics for physics to b
 
 ## References and links
 
+
+* {#Fadeev00} [[Ludwig Faddeev]], _Modern Mathematical Physics: what it should be?_, in Fokos, Grigoryan, Kibble, Zegarlinski (eds) _Mathematical Physics 2000_, World Scientific (2000) ([arXiv:math-ph/0002018](https://arxiv.org/abs/math-ph/0002018))
+
+
+
 A historically inclined article is in 
 
 * Wikipedia,  _[Mathematical physics](http://en.wikipedia.org/wiki/Mathematical_physics)_ 
@@ -67,7 +89,7 @@ An exposition from the point of view of modern [[gauge theory]] is in
 
 Some observations from the point of view of [[string theory]] are in
 
-* [[Gregory Moore]], _[[Physical Mathematics and the Future]]_ (2014)
+* {#Moore14} [[Gregory Moore]], _[[Physical Mathematics and the Future]]_ (2014)
 
 For an extensive list of literature see
 
