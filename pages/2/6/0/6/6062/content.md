@@ -822,7 +822,7 @@ Model structurs on algebras over operads in chain complexes were discussed gener
 
 The full model structure on dg-coalgebras (in characteristic 0) and the Quillen equivalence of dg-Lie algebras as well as the interpretation in terms of formal $\infty$-stacks is due to
 
-* {#Hinich98} [[Vladimir Hinich]], _DG coalgebras as formal stacks_ ([arXiv:9812034](http://arxiv.org/abs/math/9812034))
+* {#Hinich98} [[Vladimir Hinich]], _DG coalgebras as formal stacks_, Journal of pure and applied algebra 162.2 (2001): 209-250 ([arXiv:9812034](http://arxiv.org/abs/math/9812034))
  
 In 
 
