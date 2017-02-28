@@ -365,6 +365,10 @@ Textbook accounts include
 
 * Jet Nestruev, _Smooth Manifolds and Observables_ , Springer LNM **220** Heidelberg 2003.
 
+Smooth manifolds are defined as locally ringed spaces in
+
+* Juan A. Navarro Gonz&#225;lez, and Juan B. Sancho de Salas, _$C^\infty$-Differentiable Spaces_, Springer LNM **1824** 2003.
+
 Discussion of smooth manifolds as colimits of the Cech nerves of their good open covers is also at 
 
 * MathOverflow, _[Gluing of manifolds and the Hausdorff condition](http://mathoverflow.net/questions/65684/gluing-of-manifolds-and-the-hausdorff-condition)_
