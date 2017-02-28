@@ -62,13 +62,13 @@ If $C$ is cocomplete and $C^T$ has reflexive coequalizers, then $C^T$ is cocompl
 First observe that if $(c, \xi: T c \to c)$ is a $T$-algebra, then $\xi$ is the coequalizer of the reflexive fork 
 
 $$\array{
-F U c & \stackrel{F \eta U c}{\longrightarrow} & F U F U c & \stackrel{\overset{\varepsilon F U c}{\longrightarrow}}{\underset{F U \varepsilon c}{\longrightarrow}} & F U c
+F U c & \stackrel{F \eta U c}{\longrightarrow} & F U F U c & \stackrel{\overset{\varepsilon F U c}{\longrightarrow}}{\underset{F \xi}{\longrightarrow}} & F U c
 }$$ 
 
 To show $C^T$ has coproducts, let $(c_i, \xi_i)$ be a collection of algebras. Then $F(\sum_i U c_i)$ is the coproduct $\sum_i F U c_i$ in $C^T$ (since $F$ preserves coproducts and $C$ has them). We have a reflexive fork 
 
 $$\array{
-\sum_i F U c_i & \stackrel{\sum_i F \eta U c_i}{\to} & \sum_i F U F U c_i & \stackrel{\overset{\sum_i \varepsilon F U c_i}{\longrightarrow}}{\underset{\sum_i F U \varepsilon c}{\longrightarrow}} & \sum_i F U c_i
+\sum_i F U c_i & \stackrel{\sum_i F \eta U c_i}{\to} & \sum_i F U F U c_i & \stackrel{\overset{\sum_i \varepsilon F U c_i}{\longrightarrow}}{\underset{\sum_i F \xi_i}{\longrightarrow}} & \sum_i F U c_i
 }$$ 
 
 and it is not difficult to show that the coequalizer in $C^T$ of this diagram is the coproduct $\sum_i c_i$. 
