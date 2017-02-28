@@ -60,7 +60,7 @@ Let $(\mathfrak{g}, [-,-]$ be a [[simplicial Lie algebra]]. Then the [[normalize
 
 $$
   [-,-]_{N \mathfrak{g}}
-  \;\;
+  \;\colon\;
   (N \mathfrak{g}) \otimes_k (N \mathfrak{g})
     \overset{\nabla}{\longrightarrow}
   N (\mathfrak{g} \otimes_k \mathfrak{g})
