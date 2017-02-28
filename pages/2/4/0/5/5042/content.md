@@ -22,7 +22,7 @@
 
 [[dg-Lie algebras]] may be thought of as the "strict" [[strong homotopy Lie algebras]]. As such they support a [[homotopy theory]]. The _[[model category]]_ structure on dg-Lie algebras is one way to present this homotopy theory. This is used for instance in [[deformation theory]], see at _[[formal moduli problems]]_.
 
-For dg-Lie algebras in positive degree and over the rational numbers this model structure, due to ([Quillen 69](#Quillen69)) is one of the algebraic models for presenting [[rational homotopy theory]] (see there) of [[simply connected topological spaces]].
+For dg-Lie algebras in positive degree and over the rational numbers this model structure, due to ([Quillen 69, theorem II](#Quillen69)) is one of the algebraic models for presenting [[rational homotopy theory]] (see there) of [[simply connected topological spaces]].
 
 ## Definition
 
