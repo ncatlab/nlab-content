@@ -41,4 +41,6 @@ Volume 7 (1997) 61-99 ([pdf](http://www.heldermann-verlag.de/jlt/jlt07/MICHPL.PD
 
 * [[Karl-Hermann Neeb]], _Monastir summer school: Infinite-dimensional Lie groups_ ([pdf](http://www.math.uni-hamburg.de/home/wockel/data/monastir.pdf))
 
+* [[Karl-Hermann Neeb]], _Towards a Lie theory of locally convex groups_  ([pdf](http://arxiv.org/pdf/1501.06269.pdf))
+
 [[!redirects infinite-dimensional Lie groups]]
