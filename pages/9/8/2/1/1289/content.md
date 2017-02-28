@@ -68,3 +68,6 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 * Robert El Bashir, Jiri Velebil, _Simultaneously Reflective And Coreflective Subcategories of Presheaves_ ([TAC](http://www.tac.mta.ca/tac/volumes/10/16/10-16abs.html))
 
 [[!redirects coreflective subcategories]]
+
+[[!redirects coreflective embedding]]
+[[!redirects coreflective embeddings]]
