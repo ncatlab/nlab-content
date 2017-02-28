@@ -46,11 +46,14 @@ See ([May, theorem 8.4](#May)).
 
 ### Relation to pointed $n$-connected objects
 
-The inclusion $sSet_{(n-1)} \hookrightarrow sSet^{*/}$ of $n$-fold [[reduced simplicial set|reduced]] simplicial sets (those with a single $k$-simplex for all $k \leq n-1$) into all [[pointed object|pointed]] simplicial sets is a [[coreflective subcategory]] with coreflector being forming of the $n$th Eilenberg subcomplex
+The inclusion $sSet_{(n-1)} \hookrightarrow sSet^{*/}$ of $n$-fold [[reduced simplicial set]]  (those with a single $k$-simplex for all $k \leq n-1$) into all [[pointed object|pointed]] simplicial sets is a [[coreflective subcategory]] with coreflector being forming of the $n$th Eilenberg subcomplex
 
 $$
   sSet^{*/}
-  \stackrel{\overset{}{\hookleftarrow}}{\underset{E_n(-,*)}{\to}}
+    \underoverset
+      {\underset{E_n(-,*)}{\longrightarrow}}
+      {\overset{}{\hookleftarrow}}
+      {\bot}
   sSet_{n-1}
   \,.
 $$
