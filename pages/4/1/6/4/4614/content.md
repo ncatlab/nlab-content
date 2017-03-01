@@ -89,7 +89,7 @@ $$
   {\Vert X_\bullet \Vert} = \coprod_{n} X_n\times \Delta^n_{Top} /{\sim_+}
 $$
 
-where the [[equivalence relation]] "$\sim_+$" identifies $(x,f_* p) \in X_l\times \Delta^l_{Top}$ with $(p,f^* x) \in X_k\times \Delta^k_{Top}$ only when $[k] \to [l]$ is a coface map.
+where the [[equivalence relation]] "$\sim_+$" identifies $(x,f_* p) \in X_l\times \Delta^l_{Top}$ with $(f^* x,p) \in X_k\times \Delta^k_{Top}$ only when $[k] \to [l]$ is a coface map.
 
 +-- {: .num_example #GeometricRealizationOfThePoint}
 ###### Example
