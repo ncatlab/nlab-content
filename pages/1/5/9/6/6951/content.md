@@ -15,9 +15,11 @@
 
 ## Idea
 
-Kripke--Joyal semantics is a natural [[semantics]] in a [[topos]].
+**Kripke-Joyal semantics** is a higher order generalization of the semantic interpretation proposed initially by Beth, Gregorczyk, and Kripke for [[intuitionistic predicate logic]]. It provides a notion of _'local truth'_ or _'validity at a stage'_ in a [[topos]].
 
-The [[Mitchell–Bénabou language]] of a [[topos]] is a [[higher-order logic|higher-order]] [[type theory]] in which one can write [[ordinary mathematics]], which can then be [[internalisation|interpreted in]] the [[topos]] using the Kripke--Joyal semantics.  
+By giving a semantics to formulas written in the [[higher-order logic|higher-order]] [[type theory]] used to express [[ordinary mathematics]] in a topos, the Kripke-Joyal semantics serves as [[semantics|semantic]] interface between the [[internalisation|internal (syntactic) description]] of mathematical objects using the [[Mitchell–Bénabou language]] and the external description.  
+
+Kripke-Joyal semantics provide rules and prescriptions for semantic interpretation for general toposes but these prescriptions may simplify for special classes of toposes e.g. the rules resulting for [[presheaf toposes]] over posets (when restricted to first-order formulas) correspond to the original notion of model for IPL considered by [[Saul Kripke|Kripke]] et al.
 
 
 ## Related concepts
@@ -28,24 +30,40 @@ The [[Mitchell–Bénabou language]] of a [[topos]] is a [[higher-order logic|hi
 
 * [[stack semantics]]
 
-* A Kripke model is the special case of a presheaf topos over a poset.
-
+* [[forcing]]
 
 ## References
 
-Textbook introductions include
+For the origins in the semantics of intuitionistic logic consult
 
-section VI.6 of
+* E. Beth, _Semantic construction of intuitionistic logic_ , Mededel. Kon. Ned. Akad. Wetensch. Afd. letterkunde N. S. **19** no.13 (1956).
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
+* A. Grzegorczyk, _A philosophically plausible formal interpretation of intuitionistic logic_ , Indagationes Mathematicae **26** (1964) pp.596&#8211;601.
 
-Lecture notes include
+* S. A. Kripke, _Semantical analysis of intuitionistic logic I_ , pp.92-130 in Crossley, Dummett (eds.), _Formal Systems and Recursive Functions_ , North-Holland Amsterdam 1965.
 
-* [[Ieke Moerdijk]],  [[Jaap van Oosten]], _Topos theory_, lecture notes (2007) ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf)) (page 58 and following)
+* H. C. M. de Swart, _An intuitionistically plausible interpretation of intuitionistic logic_ , JSL **42** no. 4 (1977) pp.564-578.
+
+Most textbooks on topos theory have a section on Kripke-Joyal semantics. Particularly thorough are 
+
+* [[Francis Borceux]], _Handbook of categorical Algebra vol.3_ , Cambridge UP 1994. (section 6.6)
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (section VI.6-7)
+
+Freely available online are
+
+* {#Goldblatt84} R. Goldblatt, _Topoi - The Categorical Analysis of Logic_ , 2nd ed. North-Holland Amsterdam 1984. (Dover reprint New York 2006; [project euclid](http://projecteuclid.org/euclid.bia/1403013939), section XIV.6)
+
+* [[Ieke Moerdijk]],  [[Jaap van Oosten]], _Topos theory_, lecture notes (2007). ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf), page 58ff)
+
+A generalization to [[quantales]] is in
+
+* R. Goldblatt, _A Kripke-Joyal Semantics for Noncommutative Logic in Quantales_ , pp.209-225 in Governatori, Hodkinson, Venema (eds.), _Avances in Model Logic vol. 6_ , College Publications London 2006. ([draft](http://www.mcs.vuw.ac.nz/~rob/papers/aiml11printed.pdf))
 
 [[!redirects Kripke model]]
 [[!redirects Kripke models]]
 
+[[!redirects Beth-Kripke-Joyal semantics]]
 [[!redirects Kripke-Joyal semantics]]
 [[!redirects Kripke–Joyal semantics]]
 [[!redirects Kripke--Joyal semantics]]
