@@ -96,6 +96,9 @@ Expositions include
 
 * Luciano Boi, _Geometrical and topological foundations of theoretical physics: From gauge theories to string program_, 2003 ([pdf](http://www.emis.de/journals/HOA/IJMMS/2004/33-361777.pdf))
 
+* A.P. Balachandran, G. Marmo, B.-S. Skagerstam, A. Stern, _Gauge Theories and Fibre Bundles - Applications to Particle Dynamics_, Springer "Lecture Notes in Physics", 188 (1983) ([arXiv:1702.08910](https://arxiv.org/abs/1702.08910))
+
+* P. Balachandran, G. Marmo, B.-S. Skagerstam, A. Stern, _Classical Topology and Quantum States_ (World Scientific, Singapore, 1991).
 
 category: motivation
 
