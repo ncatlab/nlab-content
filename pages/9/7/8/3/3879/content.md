@@ -44,19 +44,19 @@ More recently this narrow understanding has been called into question: [Fadeev 0
 
 > I consider as the main goal of Mathematical Physics the use of mathematical intuition for the derivation of really new results in the fundamental physics. In this sense, Mathematical Physics and Theoretical Physics are competitors.  Their goals in unraveling the laws of the structure of matter coincide. However, the methods and even the estimates of the importance of the results of work may differ quite significally. 
 
-In a similar spirit of trying to break out of an overly restrictive understanding of the term "mathematical physics" [[Gregory Moore]] has been advocating the alrternative ter **physical mathematics** for the study of mathematical constructions inspired by models of theoretical physics ([Moore 14](#Moore14)).
+In a similar spirit of trying to break out of an overly restrictive understanding of the term "mathematical physics" [[Gregory Moore]] has been advocating the alternative term **physical mathematics** for the study of mathematical constructions inspired by models of theoretical physics ([Moore 14](#Moore14)).
 
 
 
-Some of the greatest names of mathematical physics have sought a more profound role for it in the belief that very deep mathematical ideas are required to describe nature. For instance, [[Paul Dirac]] expresses such a view here
+Some of the greatest names of mathematical physics have sought a more profound role for it in the belief that very deep mathematical ideas are required to describe nature. For instance, [[Paul Dirac]] expresses such a view here:
 
 > It seems to be one of the fundamental features of nature that fundamental physical laws are described in terms of a mathematical theory of great beauty and power, needing quite a high standard of mathematics for one to understand it. You may wonder: Why is nature constructed along these lines? One can only answer that our present knowledge seems to show that nature is so constructed. We simply have to accept it. One could perhaps describe the situation by saying that God is a mathematician of a very high order, and He used very advanced mathematics in constructing the universe. (Paul Dirac, *The Evolution of the Physicist's Picture of Nature*, Scientific American 1963)
 
-This view led Dirac to advocate the following as a methodology
+This view led Dirac to advocate the following as a methodology:
 
 >The trend of mathematics and physics towards unification provides the physicist with a powerful new method of research into the foundations of his subject, a method which has not yet been applied successfully, but which I feel confident will prove its value in the future. The method is to begin by choosing that branch of mathematics which one thinks will form the basis of the new theory. One should be influenced very much in this choice by considerations of mathematical beauty. It would probably be a good thing also to give a preference to those branches of mathematics that have an interesting group of transformations underlying them, since transformations play an important role in modern physical theory, both relativity and quantum theory seeming to show that transformations are of more fundamental importance than equations. Having decided on the branch of mathematics, one should proceed to develop it along suitable lines, at the same time looking for that way in which it appears to lend itself naturally to physical interpretation. ([The Relation between Mathematics and Physics](http://www.damtp.cam.ac.uk/events/strings02/dirac/speach.html))
 
-[[Hermann Weyl]] helped develop many of the ingredients of modern mathematical physics, as [[Michael Atiyah]] explains  
+[[Hermann Weyl]] helped develop many of the ingredients of modern mathematical physics, as [[Michael Atiyah]] explains:  
 
 >The past 25 years have seen the rise of gauge theories&#8211;Kaluza-Klein models of high dimensions, string theories, and now M-theory, as physicists grapple with the challenge of combining all the basic forces of nature into one all embracing theory. This requires sophisticated mathematics involving Lie groups, manifolds, differential operators, all of which are part of Weyl's inheritance. There is no doubt that he would have been an enthusiastic supporter and admirer of this fusion of mathematics and physics. No other mathematician could claim to have initiated more of the theories that are now being explored. His vision has stood the test of time. (Michael Atiyah, *Hermann Weyl: 1885-1955*)
 
