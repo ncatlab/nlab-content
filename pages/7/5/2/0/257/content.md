@@ -269,13 +269,20 @@ Thus the previous case now gives that the bottom left vertical morphism is a wea
 ### Redundancy in the defining factorization systems
  {#RedundancyInTheAxioms}
 
-It is clear that given a model category structure, any two of the three classes of special morphisms (cofibrations, fibrations, weak equivalences) determine the third:
+It is clear that:
+
++-- {: .num_remark #AnyTwooClassesDetermineTheThird}
+###### Remark
+
+Given a model category structure, any two of the three classes of special morphisms (cofibrations, fibrations, weak equivalences) determine the third:
 
 * given $W$ and $C$, we have $F = RLP(W \cap C)$;
 
 * given $W$ and $F$, we have $C = LLP(W \cap F)$;
 
 * given $C$ and $F$, we find $W$ as the class of morphisms which factor into a morphism in $C \cap W$ followed by a morphism in $F \cap W$.
+
+=--
 
 But, in fact, already the cofibrations and the fibrant objects determine the model structure.
 
@@ -293,7 +300,7 @@ This statement appears for instance as ([Joyal, prop. E.1.10](#Joyal))
 
 Let $\mathcal{E}$ with $C,F,W \subset Mor(\mathcal{E})$ be a model category.
 
-By the above remark it is sufficient to show that the cofibrations and the fibrant objects determine the class of weak equivalences. Moreover, these are already determined by the weak equivalences between cofibrant objects, because for $u : A \to B$ any morphism, [[functorial factorization|functorial]] cofibrant replacement $\emptyset \hookrightarrow \hat A \stackrel{\simeq}{\to} A$ and $\emptyset \hookrightarrow \hat B \stackrel{\simeq}{\to} B$ with 2-out-of-3 implies that $u$ is a weak equivalence precisely if $\hat u : \hat A \to \hat B $ is.
+By remark \ref{AnyTwooClassesDetermineTheThird} it is sufficient to show that the cofibrations and the fibrant objects determine the class of weak equivalences. Moreover, these are already determined by the weak equivalences between cofibrant objects, because for $u : A \to B$ any morphism, [[functorial factorization|functorial]] cofibrant replacement $\emptyset \hookrightarrow \hat A \stackrel{\simeq}{\to} A$ and $\emptyset \hookrightarrow \hat B \stackrel{\simeq}{\to} B$ with 2-out-of-3 implies that $u$ is a weak equivalence precisely if $\hat u : \hat A \to \hat B $ is.
 
 By the nature of the [[homotopy category]] $Ho$ of $\mathcal{E}$ and by the [[Yoneda lemma]], a morphism $\hat u : \hat A \to \hat B$ between cofibrant objects is a weak equivalence precisely if for every fibrant object $X$ the map
 
