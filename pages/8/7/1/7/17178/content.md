@@ -810,6 +810,12 @@ Under the Quillen equivalence of prop.
 
 * {#Jardine15} [[John F. Jardine]], section 10 of _[[Local homotopy theory]]_, 2016
 
+Symmetric spectra in more general [[model categories]] (using the [[Bousfield-Friedlander theorem]]) are discussed in 
+
+* {#Schwede97} [[Stefan Schwede]], section 3 of _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 104 ([pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf))
+
+* {#Hovey} [[Mark Hovey]], _Spectra and symmetric spectra in general model categories_, Journal of Pure and Applied Algebra Volume 165, Issue 1, 23 November 2001, Pages 63&#8211;127 ([arXiv:math/0004051](https://arxiv.org/abs/math/0004051))
+
 [[!redirects sequential spectra]]
 
 [[!redirects sequential prespectrum]]
