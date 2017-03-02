@@ -32,15 +32,37 @@ In the special case that the underlying [[(∞,1)-category]] is equivalent to ju
 
 (...)
 
+## Properties
+
+### Coalgebra objects
+ {#CoalgebraObjects}
+
+ Every object in a Cartesian monoidal $\infty$-category is canonically a [[comonoid object]] via the [[diagonal map]]. See also at _[[(infinity,n)-category of correspondences]]_ the section _[Via coalgebras](%28infinity%2Cn%29-category+of+correspondences#DefinitionViaCoalgebras)_.
+
 
 ## References
 
 Section 2.4 of 
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
+ 
+[[!redirects cartesian monoidal (infinity,1)-categories]]
 
 
 [[!redirects cartesian monoidal (∞,1)-category]]
 [[!redirects cartesian monoidal (∞,1)-categories]]
-[[!redirects cartesian monoidal (infinity,1)-categories]]
+
+
+[[!redirects Cartesian monoidal (infinity,1)-category]]
+[[!redirects Cartesian monoidal (infinity,1)-categories]]
+
+[[!redirects Cartesian monoidal (∞,1)-category]]
+[[!redirects Cartesian monoidal (∞,1)-categories]]
+
+[[!redirects cartesian monoidal infinity,1-category]]
+[[!redirects cartesian monoidal infinity,1-categories]]
+
+
+[[!redirects Cartesian monoidal infinity,1-category]]
+[[!redirects Cartesian monoidal infinity,1-categories]]
+
