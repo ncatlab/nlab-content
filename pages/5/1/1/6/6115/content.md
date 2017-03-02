@@ -79,6 +79,7 @@ In [[twisted cohomology]].
 
 * [[ex-space]]
 
+* the [[K-theory]] of spectra parameterized over a connected $X$ is the _[[A-theory]]_ of $X$.
 
 ## References
  {#References}
