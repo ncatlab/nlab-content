@@ -110,6 +110,7 @@ An ordinary [[vector bundle]] is a [[bundle]] of $k$-[[module]]s for $k$ some [[
 
 [[!include homological and higher algebra -- table]]
 
+* [[comodule spectrum]]
 
 * [[ring spectrum]], [[algebra spectrum]]
 
@@ -139,7 +140,6 @@ The refinement of this statement to a [[Quillen equivalence]] is due to
 
 * {#SchwedeShipley} [[Stefan Schwede]], [[Brooke Shipley]], _Stable model categories are categories of modules_ , Topology 42 (2003), 103-153 ([pdf](http://www.math.uic.edu/~bshipley/classTopFinal.pdf))
  
-
 Applications to [[string topology]] are discussed in
 
 * {#BCT} [[Andrew Blumberg]], [[Ralph Cohen]], [[Constantin Teleman]], _Open-closed field theories, string topology and Hochschild homology_ ([arXiv:0906.5198](http://arxiv.org/abs/0906.5198))
