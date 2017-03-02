@@ -28,7 +28,7 @@ Dual to the concept of a [[module spectrum]] over a [[ring spectrum]] is a _como
 ### Over suspension spectra
  {#OverSuspensionSpectra}
 
-The [[suspension spectrum]] $\Sigma^\infty X = \mathbb{S}[X]$ of any [[∞-groupoid]] ([[homotopy type]] of a  [[topological space]]) $X$ is canonically a [[coring spectrum]] by the fact that every $X$, is uniquely a [[coalgebra object]] in the [[Cartesian monoidal (∞,1)-category]] [[∞Grpd]] via the [[codiagonal]] ([here](cartesian+monoidal+infinity%2C1-category#CoalgebraObjects)), and using that $\Sigma^\infty$ is a [[strong monoidal functor]].
+The [[suspension spectrum]] $\Sigma^\infty X = \mathbb{S}[X]$ of any [[∞-groupoid]] ([[homotopy type]] of a  [[topological space]]) $X$ is canonically a [[coring spectrum]] by the fact that every $X$, is uniquely a [[coalgebra object]] in the [[Cartesian monoidal (∞,1)-category]] [[∞Grpd]] via the [[diagonal]] ([here](cartesian+monoidal+infinity%2C1-category#CoalgebraObjects)), and using that $\Sigma^\infty$ is a [[strong monoidal functor]].
 
 If $X$ is [[connected object in an (∞,1)-topos]] (the homotopy type of a [[connected topological space]]) then $\mathbb{S}[X]$-comodule spectra are equivalently [[module spectra]] over the [[∞-group ∞-ring]] $\mathbb{S}[\Omega X]$ of the [[loop space]] [[∞-group]] of $X$.
 
