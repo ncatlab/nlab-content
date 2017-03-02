@@ -18,9 +18,9 @@
 ## Idea
 
 A **rational topological space** is a [[topological space]] 
-all whose (reduced) [[integral cohomology|integral homology]] groups are [[vector space]]s over the rational numbers $\mathbb{Q}$. 
+all whose (reduced) [[integral cohomology|integral homology]] groups are [[vector space]]s over the [[rational numbers]] $\mathbb{Q}$. 
 
-Every simply connected [[topological space]] has a [[rationalization]]
+Every [[simply connected topological space|simply connected]] [[topological space]] has a [[rationalization]]
 and passing to that rationalization amounts to forgetting all
 [[torsion]] information in the homology groups and the 
 [[homotopy group]]s of that space. So rational spaces are a 
@@ -37,22 +37,19 @@ This is the topic of [[rational homotopy theory]].
 
 A [[topological space]] is called _rational_ if 
 
-* it is
-simply connected in that the 1st [[homotopy group]] vanishes, $\pi_1 X = 0$ 
+1. it is [[simply connected topological space|simply connected]] in that the 1st [[homotopy group]] vanishes, $\pi_1 X = 0$  (more generally we may use [[nilpotent topological spaces]] here)
 
-* and the following 
-equivalent conditions are satisfied
+1. and the following equivalent conditions are satisfied
 
-  1. the collection of [[homotopy group]]s form a $\mathbb{Q}$-[[vector space]],
+   1. the collection of [[homotopy group]]s form a $\mathbb{Q}$-[[vector space]],
 
-  1. the [[reduced cohomology|reduced homology]] of $X$, $\tilde H_*(X,\mathbb{Z})$ is a $\mathbb{Q}$-[[vector space]],
+   1. the [[reduced cohomology|reduced homology]] of $X$, $\tilde H_*(X,\mathbb{Z})$ is a $\mathbb{Q}$-[[vector space]],
 
-  1. the [[reduced cohomology|reduced homology]] of the [[loop space]] $\Omega X$ of $X$, $\tilde H_*(\Omega X,\mathbb{Z})$ is a $\mathbb{Q}$-[[vector space]].
+   1. the [[reduced cohomology|reduced homology]] of the [[loop space]] $\Omega X$ of $X$, $\tilde H_*(\Omega X,\mathbb{Z})$ is a $\mathbb{Q}$-[[vector space]].
 
 
 A morphism $\ell : X \to Y$ of simply connected [[topological space]] is
-called a **[[rationalization]]** of $X$ if $Y$ is a rational topological space
-and if $\ell$ induces an [[isomorphism]] in rational homology
+called a **[[rationalization]]** of $X$ if $Y$ is a rational topological space and if $\ell$ induces an [[isomorphism]] in rational homology
 
 $$
   H_*(\ell,\mathbb{Q}) : H_*(X,\mathbb{Q}) \stackrel{\simeq}{\to} H_*(Y,\mathbb{Q})
