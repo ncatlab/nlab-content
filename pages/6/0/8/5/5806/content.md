@@ -105,7 +105,7 @@ is equivalently the [[(∞,n)-category]] of [[En-algebras]] and [[(∞,1)-bimodu
 
 (This immediately implies that every object in $Corr_n(\mathbf{H})$ is a self-[[fully dualizable object]].)
 
-To see how this works, consider $X \in \mathbf{H}$ any object regarded as a coalgebra in $\mathbf{H}$ via its [[diagonal map]]. Then a [[comodule]] $E$ over it is a [[co-action]]
+To see how this works, consider $X \in \mathbf{H}$ any object regarded as a coalgebra in $\mathbf{H}$ via its [[diagonal map]] ([here](cartesian+monoidal+infinity%2C1-category#CoalgebraObjects)). Then a [[comodule]] $E$ over it is a [[co-action]]
 
 $$
   E \to E \times X
