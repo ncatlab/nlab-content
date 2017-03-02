@@ -37,7 +37,7 @@ In some monoidal categories, e.g. of (super)[[vector space]]s, and of [[Hilbert 
 Let $k$ be a [[commutative ring]] and let $\mathcal{M} = Mod(k)$.  Then one has the following properties:
 
 * The category of comodules over a [[coalgebra]] is [[comonadic]] over $Mod(k)$.
-* It is [[cocomplete]] and [[complete]].
+* It is [[cocomplete]] and [[complete category|complete]].
 * It has a [[cogenerator]].
 
 See [Wischnewsky](#Wischnewsky).
@@ -48,12 +48,16 @@ See [Wischnewsky](#Wischnewsky).
 
 * The category of [[linear representations]] of an [[affine group]] is equivalent to the category of comodules over a [[Hopf algebra]].
 
+## Related concepts
+
+* [[comodule spectrum]]
+
 ## References
 
 Properties of the category of comodules over a [[coalgebra]] are studied in
 
-* [[Manfred Wischnewsky]], _On linear representations of affine groups, I_, Pacific Journal of Mathematics, Vol. 61, No. 2, 1975, [Project Euclid](http://projecteuclid.org/euclid.pjm/1102868049).
-{#Wischnewsky}
+* {#Wischnewsky} Manfred Wischnewsky, _On linear representations of affine groups, I_, Pacific Journal of Mathematics, Vol. 61, No. 2, 1975, [Project Euclid](http://projecteuclid.org/euclid.pjm/1102868049).
+
 
 [[!redirects comodules]]
 [[!redirects co-module]]
