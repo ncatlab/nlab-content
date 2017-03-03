@@ -252,6 +252,8 @@ This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a di
 
 ## Related concepts
 
+* [[super-scheme]], [[spectral super-scheme]]
+
 * [[integration over supermanifolds]]
 
 * [[super vector bundle]] 
