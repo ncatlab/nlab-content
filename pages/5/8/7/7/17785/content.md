@@ -719,6 +719,8 @@ This follows immediately from combining the associativity and unitality (and sym
 
 * [[Deligne's theorem on tensor categories]]
 
+* [[spectral super-scheme]]
+
 ## References
 
 General accounts include
