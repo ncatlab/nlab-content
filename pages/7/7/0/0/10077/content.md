@@ -117,21 +117,23 @@ One can show that for near-rings, cocommutativity is automatic, in which case th
 
 ### Commutative monoids
 
-Let $S$, $T$, and $M$ be $\star$-monoids in a normal duoidal category, and $\sigma:S\to M$ and $\tau:T\to M$ be $\star$-monoid maps.  We say that $\sigma$ and $\tau$ **commute** if the following diagram commutes:
+Let $S$ and $T$ be objects, and $M$ be a $\star$-monoid, in a normal duoidal category, and $\sigma:S\to M$ and $\tau:T\to M$ be morphisms.  We say that $\sigma$ and $\tau$ **commute** if the following diagram commutes:
 $$\array{
   T\diamond S & \xrightarrow{\cong} &
-  (T\star I) \diamond (I \star S) & \to &
-  (T\diamond I) \star (I\diamond S) \\
+  (T\star J) \diamond (J \star S) & \to &
+  (T\diamond J) \star (J\diamond S) \\
   ^\cong\downarrow  &&&& \downarrow^{\tau \star \sigma}\\
-  (I\star T) \diamond (S \star I) &&&& M\star M\\
+  (J\star T) \diamond (S \star J) &&&& M\star M\\
   \downarrow &&&& \downarrow^{mult}\\
-  (I\diamond S) \star (T\diamond I) & \xrightarrow{\sigma \star \tau} &
+  (J\diamond S) \star (T\diamond J) & \xrightarrow{\sigma \star \tau} &
   M\star M & \xrightarrow{mult} & M.
 }
 $$
 We say that $M$ is **commutative** if $id_M$ and $id_M$ commute.
 
 In a braided monoidal category regarded as a normal duoidal one, this reduces to the usual notion of [[commutative monoid]] object.  On the other hand, in the endofunctor-like examples above, it results in the notion of [[commutative monad]] or [[commutative theory]].
+
+More generally, in a not-necessarily-normal duoidal category, we can define commutativity for morphisms into a $\star$-monoid that is a $J$-$\diamond$-bimodule.  This is equivalent to commutativity for $\star$-monoids in the *normalized* duoidal category, which is the category of $J$-$\diamond$-bimodules with an induced duoidal structure.  In particular, a commutative $\star$-monoid in the normalization is the same as a *duoid* in the original category: a $\star$-monoid in the monoidal category of $\diamond$-monoids.
 
 ## Related concepts
 
