@@ -40,7 +40,7 @@ that appear in, or rather that _define_ [[string theory]] and [[M-theory]] ("M-t
 </div>
 
 Now in higher generalization of how an invariant 2-cocycle on some [[super Minkowski spacetime]] corresponds to a [[central extension|central]]
-super-[[Lie algebra extension]] of it to a higher dimensional spacetime, so ever higher cocycle,
+super-[[Lie algebra extension]] of it to a higher dimensional spacetime, so every higher cocycle,
 i.e. every $p+2$-cocycle for $p \geq 1$, corresponds to a [[super Lie n-algebra|super Lie (p+1)-algebra]] extension
 of [[super Minkowski spacetime]], sometimes called an "[[extended super Minkowski spacetime]]".
 It turns out that on the [[super Lie n-algebra]] extensions defined by the cocycles for the [[super-string]] and the [[super-membrane]]
@@ -5124,7 +5124,7 @@ $\,$
   {#DoubleDimensionalReductionIdea}
 
 
-The original example of [[double dimensional reduction]] 
+The original example of [[double dimensional reduction]]
 ([Duff-Howe-Inami-Stelle 87](double dimensional reduction#DuffHoweInamiStelle87)) is supposed to underly the [[duality in string theory|duality]] between [[M-theory]] and [[type IIA string theory]]. In this case
 
 * [[spacetime]] $X_{11}$ is an 11d [[circle]]-[[fiber bundle]] locally of the form $X_{11} =  X_{10} \times S^1$ over a 10d base spacetime;
@@ -6745,23 +6745,18 @@ These relations are not to be ignored.
 This we turn to now.
 
 
+$\,$
 
 
 ## Dualities
  {#Dualities}
 
-$\,$
 
 We discuss now how
-
 by repeatedly applying
-
 the super $L_\infty$-algebraic dimensional reduction/oxidation isomorphism of prop. \ref{DimensionalReduction}
-
 to the descended cocycles ([above](#Fields)) from the [[schreiber:brane bouquet]]
-
 yields super $L_\infty$-algebraic equivalences
-
 that reflect the pertinent [[dualities in string theory]]
 
 1. between [[M-theory]] and [[type IIA string theory]] by [[KK-compactification]]
@@ -6778,7 +6773,7 @@ $\,$
 
 $\,$
 
-We now discuss each aspect of this picture.
+We discuss now each aspect of this picture.
 
 $\,$
 
