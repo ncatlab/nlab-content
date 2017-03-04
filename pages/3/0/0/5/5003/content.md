@@ -15,7 +15,7 @@ The [[knot group]] of the trefoil knot (calculated either by the Dehn or Wirting
 
 * $\langle x,y \mid x y x=y x y\rangle$, which is the [[braid group]], **Br 3**;
 
-*  $\langle a,b | a^2= b^3\rangle$, in which the pair of numbers, $(2,3)$ is apparent.  These reflect the fact that the trefoil is a $(2,3)$-[[torus knot]]. (Of course, it is also a (3,2)-torus knot.)
+*  $\langle a,b | a^2= b^3\rangle$, in which the pair of numbers, $(2,3)$, is apparent.  These reflect the fact that the trefoil is a $(2,3)$-[[torus knot]]. (Of course, it is also a (3,2)-torus knot.)
 
 
 +-- {: .un_remark}
