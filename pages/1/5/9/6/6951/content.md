@@ -43,7 +43,7 @@ $$
 \array{
 & &\{x|\varphi(x)\}&\to & 1 &\\
  &\nearrow&\downarrow &  &\downarrow &\mathsf{true} \\
-1&\overset{x_0}{\to}& X &\underset{\varphi(x)}{\to} & \Omega&
+1&\underset{x_0}{\to}& X &\underset{\varphi(x)}{\to} & \Omega&
 }
 $$
 
@@ -67,8 +67,31 @@ Whereas $\{x|\varphi(x)\}$ represents the set of elements satifying $\varphi$ in
 
 ## Properties
 
-...
+One can now unwind the forcing relation $U\models \varphi (\alpha)$ recursively over the syntactic composition of $\varphi$. This results in a collection of semantic rules that is commonly referred to as the _Kripke-Joyal semantics_ and permits to make contact with the original rules proposed by Kripke for intuitionistic logic in 1965.
 
+These rules are often useful for translating step by step an object defined by a formula of the Mitchell-B&#233;nabou into a concrete mathematical object in the topos.
+
+First of all, the forcing relation is _monotone_ and _local_ :
+
++-- {: .num_prop #Monotone_Local}
+###### Proposition
+If $f:V\to U$ and $U\models \varphi (\alpha)$ then $V\models \varphi (\alpha\circ f)$. Conservely, if $f:V\to U$ is _epic_ and $V\models \varphi (\alpha\circ f)$ then $U\models \varphi (\alpha)$.
+=--
+
+The short proof can be found in MacLane-Moerdijk ([1994](#MM94), p.304). Note that the proposition gives a first hint of the importance of epimorphisms or _covers_ in this semantics, testimony of its geometric underpinning.
+
++-- {: .num_prop #Kripke-Joyal}
+###### Theorem
+Let $\mathcal{E}$ be an elementary topos and $\alpha:U\to X\,$ a generalized element of $X\in\mathcal{E}$ . The forcing relation $\models$ satisfies
+
+1. $U\models \varphi(\alpha)\wedge \varpsi(\alpha)$ iff $U\models \varphi(\alpha)$ and $U\models\wedge \varpsi(\alpha)\,$.
+
+2. $U\models \varphi(x)\vee \varpsi(x)$ iff there exists maps $g:U_1\to U$ and $g_2:U_2\to U$ with $g_1+g_2:U_1+U_2\to U$ epi and such that $U_1\models \varphi(\alpha\circ g_1)$ and $U\models\wedge \varpsi(\alpha\circ g_2)\,$.
+
+3. $U\models \varphi(\alpha)\Rightarrow \varpsi(\alpha)$ iff for any $g:V\to U$ $V\models \varphi(\alpha\circ g)$ implies $V\models\varpsi(\alpha\circ g)\,$.
+
+=--
+...
 
 ## Lawvere on Kripke-Joyal semantics
 
@@ -114,10 +137,8 @@ A more recent overview is in
 
 * D. van Dalen, _Intuitionistic Logic_ , pp.224-257 in Goble (ed.), _The Blackwell Guide to Philosophical Logic_ , Oxford 2001. (pp.237-240)
 
-The topos-theoretic generalization is usually attributed to [[André Joyal]] who observed in the early 70s that this topos semantics subsumes various notions of forcing but his work was apparently not published. Early references are
+The topos-theoretic generalization is usually attributed to [[André Joyal]] who observed in the early 70s that this topos semantics subsumes various notions of forcing but his work was apparently not published. An early reference is
 
-* [[Gerhard Osius|G. Osius]], _The internal and external aspect of logic and set theory in elementary topoi_ , Cah. Top. G&#233;om. Diff. Cat. **XV**  no. 2 (1974) pp.157-180. ([numdam](http://www.numdam.org/item?id=CTGDC_1974__15_2_157_0))
-   
 * [[Gerhard Osius|G. Osius]], _A note on Kripke-Joyal semantics for the internal language of topoi_ , Springer LNM **445** (1975) pp.349-354.
 
 The following texts stress the connection to Cohen and Kripke's work
