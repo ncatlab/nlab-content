@@ -22,9 +22,18 @@
 
 The notion of an _elementary (∞,1)-topos_ is the analog of the notion of _[[elementary topos]]_ in [[(∞,1)-category theory]].
 
-This is in contrast to the notion of an _[[(∞,1)-topos]] [[equivalence of (∞,1)-categories|equivalent]] to an [[(∞,1)-category of (∞,1)-sheaves]]_, the analog of a [[sheaf topos]], which is more specific (see [[geometric homotopy type theory]]). 
+This is in contrast to the notion of a _Grothendieck_ _[[(∞,1)-topos]] [[equivalence of (∞,1)-categories|equivalent]] to an [[(∞,1)-category of (∞,1)-sheaves]]_, the analog of a [[sheaf topos]], which is more specific (see [[geometric homotopy type theory]]). 
 
-While every [[(∞,1)-sheaf]] [[(∞,1)-topos]] provides [[categorical semantics]] for [[homotopy type theory]] with a [[univalence|univalent]] Tarskian-[[type of types]] (and [[higher inductive types]]), one idea is roughly that elementary $(\infty,1)$-topos should be defined as the larger class which is exactly the [[categorical semantics]] for homotopy type theory in this sense. For more on this see at
+While every _Grothendieck_ [[(∞,1)-topos]] provides [[categorical semantics]] for [[homotopy type theory]] with a [[univalence|univalent]] Tarskian-[[type of types]] (and [[higher inductive types]]), one idea is roughly that elementary $(\infty,1)$-toposes should be defined as a larger class which precisely provides the [[categorical semantics]] for homotopy type theory in this sense.
+
+Grothendieck $(\infty,1)$-toposes have many properties that are not reflected in type theory due to the finitary nature of type theory; the question is to find appropriate "finitary shadows" of them.  For instance, one can construct initial algebras for endofunctors using a transfinite induction argument; thus in type theory we postulate the existence of inductive types.  So the question is: what class of "infinitary constructions" that are available in Grothendieck $(\infty,1)$-toposes can be described finitarily by something that deserves the name "higher inductive type"? 
+
+For more on this see 
+
+* [[Michael Shulman]], [[Peter Lumsdaine]], 2016, _Semantics and syntax of
+higher inductive types_, ([slides](http://home.sandiego.edu/~shulman/papers/stthits.pdf))
+
+and at
 
 * _[[homotopytypetheory:model of type theory in an (infinity,1)-topos]]_
 
