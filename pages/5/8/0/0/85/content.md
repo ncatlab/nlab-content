@@ -753,6 +753,10 @@ The concept originates in
 
 * {#Day70} [[Brian Day]], _On closed categories of functors_, Reports of the Midwest Category Seminar IV, Lecture Notes in Mathematics Vol. 137. Springer-Verlag, 1970, pp 1-38 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/DayReport.pdf))
 
+The universal property of the Day convolution, in the sense of free monoidal cocompletion, is discussed in
+
+* Geun  Bin Im and G. M. Kelly, _A universal property of the convolution monoidal structure_, J. Pure Appl. Algebra 43 (1986), no. 1, 75-88.
+
 General discussion includes
 
 * [[Todd Trimble]] on Day convolution [here](http://golem.ph.utexas.edu/category/2008/01/the_concept_of_a_space_of_stat.html#c014365)
