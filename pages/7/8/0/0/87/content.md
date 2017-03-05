@@ -249,7 +249,7 @@ In Makkai's paper referenced below, he proves that $Ana(C,D)$ is small under the
 
 ##Anafunctors in homotopy type theory
 
-Anafunctors are unnecessary when using "saturated/univalent" categories in [[homotopy type theory]], because of their [functor comprehension principle](https://ncatlab.org/michaelshulman/show/functor+comprehension+principle). An anafunctor is a span whose first leg is a surjective and fully faithful functor, but for saturated categories any such functor is an equivalence (in the strong sense of having an inverse), so any anafunctor is equivalent to a functor.
+Anafunctors are unnecessary when using "saturated/univalent" categories in [[homotopy type theory]] (see Def. 9.1.3 of [[the HoTT book]], and Chap. 9 notes), because of their [functor comprehension principle](https://ncatlab.org/michaelshulman/show/functor+comprehension+principle). An anafunctor is a span whose first leg is a surjective and fully faithful functor, but for saturated categories any such functor is an equivalence (in the strong sense of having an inverse), so any anafunctor is equivalent to a functor.
 
 
 ## Related concepts
