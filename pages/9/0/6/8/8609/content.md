@@ -90,7 +90,7 @@ Here we write "$X$" also for the morphism $X \to *$.
 
 ### Relation to type theory
 
-Under the [[relation between category theory and type theory]] the dependent is the [[categorical semantics]] of [[dependent sum types]] .
+Under the [[relation between category theory and type theory]] the dependent sum is the [[categorical semantics]] of [[dependent sum types]] .
 
 Notice that under the identification of [[propositions as types]],  [[dependent sum types]] (or rather their [[bracket types]]) correspond to  [[existential quantification]] $\exists x\colon X, P x$.  
 
