@@ -247,6 +247,10 @@ COSHEP is actually stronger than necessary for this; all that is really needed i
 
 In Makkai's paper referenced below, he proves that $Ana(C,D)$ is small under the assumption of his [[small cardinality selection axiom]], which also follows from SVC.  It is not obvious, however, what the [[structural set theory|structural]] counterparts of these two axioms might be.  Although they carry the same feel that "choice is violated only in a small way," Makkai's proof from SCSA is an "injective" approach, in that the set of possibilities for the objects of $F$ is constructed mainly from $D$, rather than purely from $C$ as in the "projective" approach above using COSHEP or WISC.
 
+##Anafunctors in homotopy type theory
+
+Anafunctors are unnecessary when using "saturated/univalent" categories in [[homotopy type theory]], because of their [functor comprehension principle](https://ncatlab.org/michaelshulman/show/functor+comprehension+principle). An anafunctor is a span whose first leg is a surjective and fully faithful functor, but for saturated categories any such functor is an equivalence (in the strong sense of having an inverse), so any anafunctor is equivalent to a functor.
+
 
 ## Related concepts
 
