@@ -22,6 +22,8 @@ A *duoidal category* is a [[category]] with two [[monoidal category|monoidal str
 
 ## Definition
 
+### Duoidal categories
+
 A **duoidal category**, or **2-monoidal category**, is a [[pseudomonoid]] in the [[2-category]] $MonCat_l$ of [[monoidal categories]] and [[lax monoidal functors]].  Thus it is a monoidal category, say $(C,\diamond,I)$, together with an additional monoidal structure $(C,\star,J)$ such that $\star:C\times C\to C$ and $J:1\to C$ are [[lax monoidal functors]] with respect to $(\diamond,I)$ and the [[coherence]] axioms of $(C,\diamond,I)$ are [[monoidal natural transformations]] with respect to $(\diamond,I)$.  The laxity of $\star$ consists of [[natural transformations]]
 $$ (A\star B) \diamond (C\star D) \to (A\diamond C) \star (B\diamond D) $$
 and
@@ -37,6 +39,18 @@ It is equivalent to ask that $(C,\diamond,I)$ is a pseudomonoid structure on $(C
 The map $I\to J$ is actually determined by the rest of the structure; it is the composite
 $$I \xrightarrow{\cong} (J\star I)\diamond (I\star J) \to (J\diamond I) \star (I\diamond J) \xrightarrow{\cong} J $$
 as well as the dual composite.  If this map is an isomorphism, the duoidal category is called **normal**.
+
+### Duoidal functors
+
+There are three natural kinds of functors between duoidal categories, which are compatibly lax or colax with respect to $\star$ and $\diamond$.  The possible choices of lax and colax seem like there should be four, but in fact only three of them work; in the fourth case the compatibility condition would involve wrong-way composites due to the non-invertibility of the duoidal interchange constraints.
+
+### Virtual duoidal categories
+
+A **virtual duoidal category** is a pseudomonoid in the 2-category of [[multicategories]].  That is, it is a multicategory with a monoidal structure $(C,\star,J)$: the $\diamond$-monoidal structure is replaced by the multicategory structure.  Since every monoidal category can be regarded as a [[representable multicategory]], and multicategory functors correspond exactly to lax monoidal functors, duoidal categories can be identified with virtual duoidal categories in which the multicategory structure is representable.
+
+In particular, note that $J$ in a virtual duoidal category is a functor of multicategories $1\to C$, i.e. precisely a [[monoid]] in the multicategory $C$.  As part of this monoid structure it has a unit map $()\to J$; we say that the virtual duoidal category $C$ is **normal** if this map exhibits $J$ as a unit object for the multicategory structure.
+
+Nearly all the definitions given below for duoidal categories (except for coduoids and colax/colax functors) make sense just as well for virtual ones.
 
 
 ## Examples
@@ -55,16 +69,18 @@ as well as the dual composite.  If this map is an isomorphism, the duoidal categ
 
 * The category $FF(C)$ of [[functorial factorizations]] on a category $C$ is a duoidal category.  The $\star$ product of functorial factorizations $F$ and $F'$ is obtained by $F$-factoring a morphism and then $F'$-factoring the first factor, while the $\diamond$ product is obtained by $F$-factoring a morphism and then $F'$-factoring the *second* factor.
 
-* The category $C=[V,V]$ of endofunctors of a closed symmetric monoidal category $V$ is duoidal, with $\star$ being functor composition and $\diamond$ being Day convolution.  (There are size issues here, which can perhaps be resolved using local-presentability and accessibility.)  This duoidal category is normal with $I=J$ being the identity functor.
+* The category $C=[V,V]$ of endofunctors of a closed symmetric monoidal category $V$ is *virtually* duoidal, with $\star$ being functor composition the multicategory structure being "the one that would be represented by Day convolution if it existed".  That is, a morphism $(F,G) \to H$ is a natural transformation $F\otimes G \to H\circ \otimes$ between functors $V\times V \to V$, and so on.  This multicategory structure is not generally representable, since the convolution product requires colimits of the size of the domain category, but $V$ can't in general be expected to have $V$-sized colimits.  However, if $V$ is monoidally [[locally presentable category|locally presentable]], then we can restrict to the subcategory $End_\kappa(V)$ of $\kappa$-accessible endofunctors, and in this case there is no problem, since $End_\kappa(V) \simeq [V_\kappa,V]$  where $V_\kappa$ is the essentially small subcategory of $\kappa$-presentable objects.  If $V=Set$ then this (virtual) duoidal structure is normal with $I=J$ being the identity functor, but for general $V$ it need not be normal.
 
-* Consider the functor category $[FinSet,Set]$, which is equivalent to the category $[Set,Set]_f$ of [[finitary endofunctors]] of $Set$.  Since the composite of finitary endofunctors is finitary, we have an induced composition monoidal structure $\star$.  We can define $\diamond$ by convolution with the monoidal structure of $FinSet$, making $[FinSet,Set]$ duoidal.
+* As special case of the preceding when $V=Set$ and $\kappa=\omega$, consider the functor category $[FinSet,Set]$, which is equivalent to the category $[Set,Set]_f$ of [[finitary endofunctors]] of $Set$.  Since the composite of finitary endofunctors is finitary, we have an induced composition monoidal structure $\star$.  We can define $\diamond$ by convolution with the monoidal structure of $FinSet$, making $[FinSet,Set]$ duoidal.
+
+* More generally, instead of $End_\kappa(V) = [V_\kappa,V]$ we can consider any category $[V',V]$ where $V'$ is a small monoidal subcategory of $V$ as long as the category of functors $V\to V$ that are left Kan extended from $V'$ is closed under composition.  For instance, if $A$ is a monoidal category and $V=[A^{op},Set]$ with $V'=A$, then $[V',V] \simeq Prof(A,A)$ is the category of endo-profunctors of $A$, which is therefore duoidal.  More generally, the category of endo-proarrows of any monoidal object in a [[proarrow equipment]] is duoidal by a similar construction: $\star$ is proarrow composition and $\diamond$ is convolution with the monoidal structure on both sides.
 
 * We can do something similar for [[generalized operads]] with respect to any [[monoidal monad|monoidal]] [[pseudomonad]] on [[Prof]].  For instance, with the pseudomonad for symmetric monoidal categories, we obtain a duoidal structure on the category of [[collections]].
 
 
 ## Structures in duoidal categories
 
-### Bimonoids
+### Bimonoids, bicomonoids, and duoids
 
 In a duoidal category $C$, the category $Mon_\diamond(C)$ of [[monoid]] objects with respect to $\diamond$ is again a monoidal category under the $\star$ product.  Specifically, if $A$ and $B$ are $\diamond$-monoids, then the multiplication of $A\star B$ is 
 $$ (A\star B) \diamond (A\star B) \to (A\diamond A) \star (B\diamond B) \to A\star B.$$
@@ -73,6 +89,8 @@ We define a **[[bimonoid]]** in $C$ to be a [[comonoid]] in the monoidal categor
 Of course, if $C$ is [[braided monoidal category|braided]], this reduces to the usual definition of [[bimonoid]] in a braided monoidal category.
 
 A nontrivially duoidal example is that a bimonoid with respect to the duoidal structure on functorial factorizations described above is precisely an [[algebraic weak factorization system]].
+
+Similarly, a **[[duoid]]** is defined to be a $\star$-monoid in the monoidal category $(\Mon_\diamond(C),\star)$ of $\diamond$-monoids, while a *coduoid* is a $\diamond$-comonoid in the category of $\star$-comonoids.  Duoids, bimonoids, and coduoids in $C$ are equivalently duoidal functors $1\to C$ of the three possible kinds (see above).
 
 ### Rings and near-rings
 
@@ -115,9 +133,15 @@ Of course, this all makes sense in particular in a braided monoidal category reg
 
 One can show that for near-rings, cocommutativity is automatic, in which case the Hopf monoid $(R,add,\Delta)$ can equivalently be regarded as a Hopf monoid in the *cartesian* monoidal category $CComon_\star(C)$ of cocommutative comonoids in $(C, \star, J)$.  In this case, the above definitions coincide with the definitions of (near-)rings in the [[colax-distributive rig category]] induced by $\diamond$ and the cartesian structure of $CComon_\star(C)$. However, for general (near)-rigs, the definitions do not coincide, because cocommutativity is not automatic for near-rigs.
 
-### Commutative monoids
+### Strong and commutative monoids
 
-Let $S$ and $T$ be objects, and $M$ be a $\star$-monoid, in a normal duoidal category, and $\sigma:S\to M$ and $\tau:T\to M$ be morphisms.  We say that $\sigma$ and $\tau$ **commute** if the following diagram commutes:
+Note that the constraints $J\diamond J\to J$ and $I\to J$ make $J$ into a $\diamond$-monoid, and indeed also a bimonoid (since it is certainly a $\star$-comonoid).  Also, just as the category of $\diamond$-monoids is $\star$-monoidal, the category of left, right, or bi-$\diamond$-modules over any bimonoid $A$ is $\star$-monoidal, with actions such as
+$$(M\star N) \diamond A \to (M\star N) \diamond (A\star A) \to (M\diamond A) \star (N\diamond A) \to M\star N.$$
+If $C$ admits reflexive coequalizers preserved in each variable by $\diamond$, then the category of $(A,\diamond)$-bimodules is in fact duoidal, with $\diamond$ the usual tensor product of bimodules.  (In the absence of such coequalizers, this category is virtually duoidal.)
+
+We define a **strong $\star$-monoid** in a duoidal category to be a $\star$-monoid in the monoidal category of $J$-$\diamond$-bimodules.  In the duoidal categories of endofunctors considered above, this reproduces the usual notion of [[strong functor]].  Note that in a *normal* duoidal category, every object is uniquely a $J$-bimodule, so every $\star$-monoid is strong; and conversely, the duoidal category of $(J,\diamond)$-bimodules is (when it exists) always normal.
+
+Now let $S$ and $T$ be arbitrary objects and $M$ a strong $\star$-monoid.  We say that two morphisms $\sigma:S\to M$ and $\tau:T\to M$ be morphisms **commute** if the following diagram commutes:
 $$\array{
   T\diamond S & \xrightarrow{\cong} &
   (T\star J) \diamond (J \star S) & \to &
@@ -133,7 +157,11 @@ We say that $M$ is **commutative** if $id_M$ and $id_M$ commute.
 
 In a braided monoidal category regarded as a normal duoidal one, this reduces to the usual notion of [[commutative monoid]] object.  On the other hand, in the endofunctor-like examples above, it results in the notion of [[commutative monad]] or [[commutative theory]].
 
-More generally, in a not-necessarily-normal duoidal category, we can define commutativity for morphisms into a $\star$-monoid that is a $J$-$\diamond$-bimodule.  This is equivalent to commutativity for $\star$-monoids in the *normalized* duoidal category, which is the category of $J$-$\diamond$-bimodules with an induced duoidal structure.  In particular, a commutative $\star$-monoid in the normalization is the same as a *duoid* in the original category: a $\star$-monoid in the monoidal category of $\diamond$-monoids.
+
+## Relation to intercategories
+
+A duoidal category is the same as an [[intercategory]] with one object and only identity horizontal arrows, vertical arrows, horizontal cells, and vertical cells.  The objects of the duoidal category are the basic cells of the intercategory, and its morphisms are the cubes.  Like duoidal categories, intercategories support three (but not four) different kinds of morphism.
+
 
 ## Related concepts
 
@@ -151,6 +179,10 @@ More generally, in a not-necessarily-normal duoidal category, we can define comm
 * Zoran Petri&#263; and [[Todd Trimble]] 2014, _Symmetric bimonoidal intermuting categories and $\omega \times \omega$ reduced bar constructions_, Applied Categorical Structures 22(3): 467-499, [arXiv:0906.2954](http://arxiv.org/abs/0906.2954)
 
 
+[[!redirects duoidal category]]
 [[!redirects duoidal categories]]
 [[!redirects 2-monoidal category]]
 [[!redirects 2-monoidal categories]]
+
+[[!redirects virtual duoidal category]]
+[[!redirects virtual duoidal categories]]
