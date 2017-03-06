@@ -947,6 +947,34 @@ The first statement is immediate. The second follows by applying the transpose t
 
 =--
 
+
+
+### Pseudo-Majorana spinors and Symplectic structure
+
+In $d = 5$, for example, the reality/Majorana condition 
+
+$$
+  \psi = C \Gamma_0^T \psi^\ast
+$$
+
+from prop. \ref{MajoranaConjugationIsRealStructure}
+has no solution. But if we consider the [[direct sum]] of two copies of the complex spinor
+representation space, with elements denoted $\psi_1$ and $\psi_2$, then the following condition does have a solution
+
+$$
+  C \Gamma_0^T \psi_1^\ast = -\psi_2
+  \;\;\;\;
+  C \Gamma_0^T \psi_2^\ast = +\psi_1
+$$
+
+(e.g [Castellani-D'Auria-Fr&#233;, II.8.41](#CastellaniDAuriaFre)). Comparison with prop. \ref{MajoranaConjugationIsRealStructure}
+and def. \ref{MajoranaSpinorGeneral} shows that this exhibits a quaternionic structure on the 
+original complex spinor space, and hence a real structure on its direct sum double.
+
+
+
+
+
 ### Majorana-Weyl spinors
 
 
