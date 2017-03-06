@@ -363,7 +363,7 @@ $$
 
 for some vector space $S$.
 
-Moreover the super Lie bracket on $\mathfrak{s}$ restrict to that of $\mathfrak{g}$ when restricted to  $\mathfrak{g} \otimes_{k}\mathfrak{k}$
+Moreover the super Lie bracket on $\mathfrak{s}$ restricts to that of $\mathfrak{g}$ when restricted to  $\mathfrak{g} \otimes_{k}\mathfrak{g}$
 and otherwise constitutes
 
 1. a bilinear map
@@ -382,7 +382,7 @@ and otherwise constitutes
 This yields the claimed [[stuff, structure, property|structure]]. The claimed [[stuff, structure, property|properties]]
 of these linear maps are now just a restatement of the super-Jacobi identity in terms of this data:
 
-1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{even} \otimes_k \mathfrak{s}_{even} \otimes_k \mathfrak{s}_{even}$ is equivalently the Jacobi identity in $\mathfrak{g}$ and hence is no new constraint;
+1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{even} \otimes_k \mathfrak{s}_{even} \otimes_k \mathfrak{s}_{even}$ is equivalently the Jacobi identity on $\mathfrak{g}$ and hence is no new constraint.
 
 1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{even} \otimes_k \mathfrak{s}_{even} \otimes_k \mathfrak{s}_{odd}$ says that for $t_1,t_2 \in \mathfrak{g}$ and $\phi \in S$ then
 
@@ -398,7 +398,7 @@ of these linear maps are now just a restatement of the super-Jacobi identity in 
    $$
 
    which means equivalently that $\rho_{(-)}$ is a Lie algebra homomorphism from $\mathfrak{g}$ to the
-   [[endomorphism Lie algebra]] of $S$.
+   [[endomorphism Lie algebra]] of $S$, hence that it is a [[Lie algebra representation]] of $\mathfrak{g}$ on $S$.
 
 1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{even} \otimes_k \mathfrak{s}_{odd}  \otimes_k \mathfrak{s}_{odd}$ says that for $t \in \mathfrak{g}$ and $\phi,\psi \in S$ then
 
@@ -415,14 +415,14 @@ of these linear maps are now just a restatement of the super-Jacobi identity in 
      [\psi,(\psi,\psi)] = [ (\psi,\psi), \psi  ] - [\psi, (\psi, \psi)]
    $$
 
-   and hence that
+   and hence in particular that
 
    $$
      [(\psi,\psi),\psi] =  \rho_{(\psi,\psi)}(\psi) = 0
      \,.
    $$
 
-   Hence it only remains to show that this special case is in fact equivalent to the full odd-odd-odd super Jacobi identity. This follows by polarization: First inser $\psi = \phi_1 + \phi_2$ into the above cubic condition to obtain a quadratic condition, then polarize once more in $\phi_2$.
+   Therefore it only remains to show that this special case is in fact equivalent to the full odd-odd-odd super Jacobi identity. This follows by polarization: First insert $\psi = \phi_1 + \phi_2$ into the above cubic condition to obtain a quadratic condition, then polarize once more in $\phi_2$.
 
 =--
 
@@ -478,7 +478,8 @@ These are the standard _[[supersymmetry]] algebras_ in the physics literature.
 
 =--
 
-But beware that there are more super-extensions of the Poincar&#233; Lie algebra:
+But beware that there are more super-extensions of the Poincar&#233; Lie algebra: (The following example uses facts which we establish further below,
+the reader may want to skip this now and come back to it later.)
 
 +-- {: .num_example #AnExotiSuperExtensionOfThePoincareLieAlgebra}
 ###### Example
@@ -534,8 +535,8 @@ One may add further natural conditions on the super-extension in order to narrow
    [[S-matrices]] in [[field theory]].
 
 
-1. Below in _[supersymmetry from the superpoint](#SupersymmetryFromTheSuperpoint)_ we discuss something at least
-related. The [[super Poincaré Lie algebras]] at least in certain dimensions are singled out from a different perspective:
+Below in _[supersymmetry from the superpoint](#SupersymmetryFromTheSuperpoint)_ we discuss a more
+fundamental statement: The [[super Poincaré Lie algebras]] at least in certain dimensions are singled out from a different perspective:
 they are precisely the result of iterative maximal invariant [[central extensions]] of the superpoint.
 
 =--
@@ -1753,7 +1754,7 @@ $$
 
 
 
-#### Majorana representations and Real structure
+#### Majorana spinors and Real structure
  {#MajoranaSpinorsAndRealStructure}
 
 We now define [[Majorana spinors]] in the traditional way, and then demonstrate that these are
@@ -2208,6 +2209,29 @@ This is the case for $d = 10 = 2 \cdot 5$, but not for $d = 8 = 2 \cdot 4$ neith
 
 
 
+
+
+#### Pseudo-Majorana spinors and Symplectic structure
+
+In $d = 5$, for example, the reality/Majorana condition 
+
+$$
+  \psi = C \Gamma_0^T \psi^\ast
+$$
+
+from prop. \ref{MajoranaConjugationIsRealStructure}
+has no solution. But if we consider the [[direct sum]] of two copies of the complex spinor
+representation space, with elements denoted $\psi_1$ and $\psi_2$, then the following condition does have a solution
+
+$$
+  C \Gamma_0^T \psi_1^\ast = -\psi_2
+  \;\;\;\;
+  C \Gamma_0^T \psi_2^\ast = +\psi_1
+$$
+
+(e.g [Castellani-D'Auria-Fr&#233;, II.8.41](#CastellaniDAuriaFre)). Comparison with prop. \ref{MajoranaConjugationIsRealStructure}
+and def. \ref{MajoranaSpinorGeneral} shows that this exhibits a quaternionic structure on the 
+original complex spinor space, and hence a real structure on its direct sum double.
 
 
 
@@ -5191,19 +5215,21 @@ Further constraints follow from requiring [[super-unitary representations]] ([Mi
  {#SupersymmetryFromTheSuperpoint}
 
 
+We discuss now how supersymmetry and spin representations emerge from 
+forming consecutive maximal invariant central extensions starting from the [[superpoint]] ([Huerta-Schreiber 17](#MTheoryFromTheSuperpoint)).
+
 +-- {: .num_prop}
 ###### Proposition
 
 Consider the [[nLab:superpoint]]
 
 $$
-  \;\;\;\;\;\; \mathbb{R}^{0\vert 1}
+  \mathbb{R}^{0\vert 1}
 $$
 
 regarded as an abelian [[nLab:super Lie algebra]], via example \ref{SuperVectorSpaceAsAbelianSuperLieAlgebra}.
 
 Its maximal [[central extension]] is
-
 the $N = 1$ super-[[nlab:worldline]] of the [[nLab:superparticle]]:
 
 $$
@@ -5231,7 +5257,7 @@ $$
 Then consider the [[nLab:superpoint]]
 
 $$
-  \;\;\;\;\;\; \mathbb{R}^{0\vert 2}
+  \mathbb{R}^{0\vert 2}
   \,.
 $$
 
@@ -5277,15 +5303,8 @@ where $C_{\alpha \beta}$ is the [[nLab:charge conjugation matrix]].
 +-- {: .proof #FromSuperpointTo3dProof}
 ###### Proof
 
-$\,$
 
-Recall that
-
-$d$-dimensional [[nlab:central extensions]] of [[nLab:super Lie algebras]] $\mathfrak{g}$
-
-are classified by [[nLab:Lie algebra cohomology|2-cocycles]].
-
-These are super-skew symmetric [[nLab:bilinear maps]]
+Recall that $d$-dimensional [[nlab:central extensions]] of [[nLab:super Lie algebras]] $\mathfrak{g}$ are classified by [[nLab:Lie algebra cohomology|2-cocycles]]. These are super-skew symmetric [[nLab:bilinear maps]]
 
 $$
   \mu_2
@@ -5295,21 +5314,14 @@ $$
   \mathbb{R}^d
 $$
 
-satisfying a cocycle condition.
-
-The extension $\widehat{\mathfrak{g}}$ that this classifies
-
-has underlying [[nLab:super vector space]]
-
-the [[nLab:direct sum]]
+satisfying a cocycle condition. The extension $\widehat{\mathfrak{g}}$ that this classifies has underlying [[nLab:super vector space]]
+the [[direct sum]]
 
 $$
   \widehat{\mathfrak{g}} \coloneqq \mathfrak{g} \oplus \mathbb{R}^d
 $$
 
-an the new super Lie bracket is given
-
-on pairs $(x,c) \in \mathfrak{g} \oplus \mathbb{R}^d$
+an the new super Lie bracket is given on pairs $(x,c) \in \mathfrak{g} \oplus \mathbb{R}^d$
 
 by
 
@@ -5321,35 +5333,18 @@ $$
 $$
 
 The condition that the new bracket $[-,-]_{\mu_2}$ satisfies the super [[nLab:Jacobi identity]]
-
 is equivalent to the cocycle condition on $\mu_2$.
 
-Now
+Now in the case that $\mathfrak{g} = \mathbb{R}^{0\vert q}$, then the cocycle condition is trivial and a 2-cocycle is just a _symmetric_ [[nLab:bilinear form] on the $q$ fermionic dimensions.
 
-in the case that $\mathfrak{g} = \mathbb{R}^{0\vert q}$,
-
-then the cocycle condition is trivial
-
-and a 2-cocycle is just a _symmetric_ [[nLab:bilinear form]]
-
-on the $q$ fermionic dimensions.
-
-So
-
-in the case $\mathfrak{g} = \mathbb{R}^{0\vert 1}$
-
-there is a unique such, up to scale, namely
+So in the case $\mathfrak{g} = \mathbb{R}^{0\vert 1}$ there is a unique such, up to scale, namely
 
 $$
   \mu_2(a Q,b Q) = a b P
   \,.
 $$
 
-But
-
-in the case $\mathfrak{g} = \mathbb{R}^{0\vert 2}$
-
-there is a 3-dimensional space of 2-cocycles, namely
+But in the case $\mathfrak{g} = \mathbb{R}^{0\vert 2}$ there is a 3-dimensional space of 2-cocycles, namely
 
 $$
   \mu_2
@@ -5382,9 +5377,7 @@ $$
   \right.
 $$
 
-If this is identified with the three coordinates
-
-of 3d [[nLab:Minkowski spacetime]]
+If this is identified with the three coordinates of 3d [[Minkowski spacetime]]
 
 $$
   \mathbb{R}^{2,1}
@@ -5398,9 +5391,7 @@ $$
   \right)
 $$
 
-then the pairing is the claimed one
-
-(see at _[supersymmetry -- in dimensions 3,4,6,10](https://ncatlab.org/nlab/show/geometry+of+physics+--+supersymmetry#InTermsOfNormedDivisionAlgebraInDimension3To10)_).
+then the pairing is the claimed one (see at _[supersymmetry -- in dimensions 3,4,6,10](https://ncatlab.org/nlab/show/geometry+of+physics+--+supersymmetry#InTermsOfNormedDivisionAlgebraInDimension3To10)_).
 
 =--
 
@@ -5412,7 +5403,7 @@ $\,$
 
 +-- {: .num_theorem}
 ###### Theorem
-**([J. Huerta](#MTheoryFromTheSuperpoint))
+**([Huerta-Schreiber 17](#MTheoryFromTheSuperpoint))**
 
 The [[nLab:diagram]] of [[nLab:super Lie algebras]] shown on the right
 
@@ -5420,31 +5411,19 @@ The [[nLab:diagram]] of [[nLab:super Lie algebras]] shown on the right
 <img src="https://ncatlab.org/schreiber/files/SpacetimeExtensions.png" width="250">
 </div>
 
-is obtained by consecutively forming
+is obtained by consecutively forming maximal central extensions invariant with respect to the maximal subgroup of automorphisms for which there are invariant cocycles at all.
 
-maximal central extensions
+Here $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ is the $d$, $\mathbf{N}$ super-translation [[nLab:supersymmetry]] algebra.
 
-invariant with respect to
-
-the maximal subgroup of automorphisms
-
-for which there are invariant cocycles at all.
-
-Here $\mathbb{R}^{d-1,1\vert \mathbf{N}}$
-
-is the $d$, $\mathbf{N}$ super-translation [[nLab:supersymmetry]] algebra.
-
-And these subgroups are
-
-the [[nLab:spin group]] covers $Spin(d-1,1)$
-
-of the [[nLab:Lorentz groups]] $O(d-1,1)$.
+And these subgroups are the [[nLab:spin group]] covers $Spin(d-1,1)$ of the [[nLab:Lorentz groups]] $O(d-1,1)$.
 
 =--
 
-$\,$
 
-Side remark: That every [[nLab:super Minkowski spacetime]] is _some_ [[nLab:central extension]] of some [[nLab:superpoint]]  is elementary.
++-- {: .num_remark}
+###### Remark
+
+That every [[nLab:super Minkowski spacetime]] is _some_ [[nLab:central extension]] of some [[nLab:superpoint]]  is elementary.
 This was highlighted in ([Chryssomalakos-Azc&#225;rraga-Izquierdo-Bueno 99,
 2.1](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#CAIB99)).
 But most central extensions of superpoints
@@ -5453,17 +5432,11 @@ The point of the above proposition
 is to restrict attention to _iterated invariant_ central extensions
 and to find that these single out the super-Minkowski spacetimes.
 
-$\,$
+=--
 
 **Conclusion:**
 
-Just from studying iterated invariant [[nLab:central extensions]]
-
-of [[nLab:super Lie algebras]],
-
-starting with the [[nLab:superpoint]],
-
-we  (re-)discover
+Just from studying iterated invariant [[nLab:central extensions]] of [[nLab:super Lie algebras]], starting with the [[nLab:superpoint]], we  (re-)discover
 
 1. [[nLab:pseudo-Riemannian geometry|Lorentzian geometry]],
 
@@ -5535,5 +5508,5 @@ A neat collection of background on the real [[normed division algebras]] themsel
 
 The derivation of the process of higher invariant extensions that leads from the [[nLab:superpoint]] to [[nLab:11-dimensional supergravity]]:
 
-* {#MTheoryFromTheSuperpoint} [[nLab:John Huerta]], [[nLab:Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_
+* {#MTheoryFromTheSuperpoint} [[nLab:John Huerta]], [[nLab:Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_ ([arXiv:1702.01774](https://arxiv.org/abs/1702.01774))
 
