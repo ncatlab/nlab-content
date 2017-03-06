@@ -224,7 +224,7 @@ Gentle introductions include
 
 * [[Andrej Bauer]], _Five Stages of Accepting Constructive Mathematics_, talk at IAS March 18, 2013  ([video](http://video.ias.edu/members/1213/0318-AndrejBauer)), Bull. Amer. Math. Soc., 2016 ([publisher](http://www.ams.org/journals/bull/0000-000-00/S0273-0979-2016-01556-4/home.html))
 
-* [[Fred Richman]], _Interview with a constructive mathematician_,  Modern Logic 6 (1996), no. 3, 247&#8211;271 ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=1400617))
+* [[Fred Richman]], _[Interview with a constructive mathematician](http://math.fau.edu/richman/Docs/intrview.html)_,  Modern Logic 6 (1996), no. 3, 247&#8211;271 ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=1400617))
 
 * {#Blechschmidt15} [[Ingo Blechschmidt]], _Double-negation translation and CPS transforms_, 2015 ([pdf](http://rawgit.com/iblech/talk-constructive-mathematics/master/negneg-translation-notes.pdf))
 
@@ -242,7 +242,7 @@ Other references include the following.
 
 *  [[Michael Makkai]] (1996). [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/).
 
-*  [[Fred Richman]] (2000). [Constructive mathematics without choice](http://www.math.fau.edu/Richman/HTML/nsf.htm).
+*  [[Fred Richman]] (2000). [Constructive mathematics without choice](http://math.fau.edu/richman/HTML/nsf.htm).
 
 *  [[Paul Taylor]] (1996). Intuitionistic Sets and Ordinals. Available (with several other references) at [Induction, recursion, replacement and the ordinals](http://www.PaulTaylor.EU/ordinals/index.php).
 
