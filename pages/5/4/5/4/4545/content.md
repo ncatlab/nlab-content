@@ -16,12 +16,12 @@
 > ... under construction ...
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-The _automorphism $\infty$-Lie algebra_ $aut(\mathfrak{g})$ of an [[∞-Lie algebra]] $\mathfrak{g}$ -- or dually $aut(CE(\mathfrak{g}))$ of the corresponding [[Chevalley-Eilenberg algebra]] -- has in degree $k$ the [[derivation]]s on $CE(\mathfrak{g})$ of degree $-k$.
+The _automorphism $\infty$-Lie algebra_ $aut(\mathfrak{g})$ of an [[∞-Lie algebra]] $\mathfrak{g}$ -- or dually $aut(CE(\mathfrak{g}))$ of the corresponding [[Chevalley-Eilenberg algebra]] -- has in degree $k$ the [[derivations]] on $CE(\mathfrak{g})$ of degree $-k$. The [[higher Lie algebra]] version of the [[automorphism Lie algebra]] of an ordinary [[Lie algebra]].
 
 In terms of [[rational homotopy theory]] $aut(\mathfrak{g})$ is a model for the rationalization of the  group of [[automorphisms]]s of the [[rational space]] $\exp(\mathfrak{g})$ corresponding to $CE(\mathfrak{g})$ under the [[Sullivan construction]].
 
@@ -90,6 +90,8 @@ is the [[classifying space]] for $Aut(X)$-[[principal bundle]]s, i.e. for [[bund
 * The [[inner derivation Lie 2-algebra]] $inn(\mathfrak{g})$ is the full subalgebra of the automorphism $\infty$-Lie algebra on the _inner_ derivations of the [[Chevalley-Eilenberg algebra]] of a [[Lie algebra]] $\mathfrak{g}$.
 
 ## Related concepts
+
+* [[automorphism Lie algebra]]
 
 * [[deformation theory]]
 
