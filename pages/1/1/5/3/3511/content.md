@@ -49,6 +49,7 @@ One [[model category]] structure presenting this is the [[model structure on mar
 ### Properties
 
 #### Limits and colimits in $(\infty,1)$Cat
+ {#LimitsAndColimits}
 
 [[limit in a quasi-category|Limits and colimits]] over a [[(∞,1)-functor]] with values in $(\infty,1)Cat$ may be reformulation in terms of the  [[universal fibration of (infinity,1)-categories]] $Z \to \infty Grpd^{op}$ 
 
