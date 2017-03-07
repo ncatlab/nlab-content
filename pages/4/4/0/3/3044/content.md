@@ -225,13 +225,15 @@ $$
 
 ## Related concepts
 
-* [[rational homotopy theory]]
+* [[model structure on dg-coalgebras]]
 
 * [[model structure for L-∞ algebras]]
 
 * [[model structure on dg-Lie algebras]], [[model structure on simplicial Lie algebras]]
 
 * [[model structure on coalgebras over a comonad]]
+
+* [[rational homotopy theory]]
 
 ## References
 
