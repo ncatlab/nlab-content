@@ -120,6 +120,8 @@ J. Pure Appl. Algebra 175 (2002), no. 1-3, 243--265.
 
 * R. Wisbauer, _Algebras versus coalgebras_,  Appl. Categ. Structures __16__  (2008),  no. 1-2, 255--295.
 
+* [[Francisco Marmolejo]] and [[Adrian Vazquez-Marquez]], *No-iteration mixed distributive laws*, [doi](https://doi.org/10.1017/S0960129514000656)
+
 [[!redirects distributive laws]]
 
 [[!redirects distributivity law]]
