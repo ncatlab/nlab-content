@@ -2315,7 +2315,10 @@ Also discussion of the [[derived hom spaces]] in categories of fibrant objects i
 
 
 * {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- Presentations]]_ ([arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
- 
+
+and also in
+
+* [[Geoffroy Horel]], *Brown categories and bicategories*, [arxiv](https://arxiv.org/abs/1506.02851)
 
 
 Usage of categories of fibrant objects for the [[homotopical structure on C*-algebras]] is in :
@@ -2325,5 +2328,11 @@ Usage of categories of fibrant objects for the [[homotopical structure on C*-alg
 Categories of fibrant objects form a convenient setting for the study of [[homotopy type theory]]:
 
 * Jeremy Avigad, Chris Kapulkin, Peter LeFanu Lumsdaine, _Homotopy limits in type theory_ [1304.0680](http://arxiv.org/abs/1304.0680)
+
+It is shown in the following paper that categories of fibrant objects are themselves fibrant in the [[model structure on categories with weak equivalences]]:
+
+* Lennart Meier, *Fibration Categories are Fibrant Relative Categories*, [arxiv](https://arxiv.org/abs/1503.02036)
+ {#Meier}
+
 
 [[!redirects categories of fibrant objects]]
