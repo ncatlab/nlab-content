@@ -27,7 +27,11 @@ Let $C$ be a [[differential graded-cocommutative coalgebra]] over a [[field]]. T
 
 * fibrations are the [[surjections]] whose [[kernel]] is such that its underlying [[comodule]] over the underlying [[coalgebra]] of $C$ is an [[injective object]].
 
-This is due to ([Positelski 11, theorem 8.2](#Positelski11)). Reviewed as ([Pridham 13, prop. 2.2](#Pridham13)).
+This is due to ([Positelski 11, 8.2 Theorem (a)](#Positelski11)).
+
+There is another model structure where the fibrations in addition satisfy the condition that their kernel $K$ satisfies that for all acyclic $N$, then $\underline{Hom}_C(N,K)$ is acyclic.
+
+This is due to ([Positelski 11, 8.2 Remark](#Positelski11)), there called the "model category structure of the first kind".  This is also reviewed as ([Pridham 13, prop. 2.2](#Pridham13)).
 
 
 ## Related concepts
