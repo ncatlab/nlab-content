@@ -47,6 +47,9 @@ See also at _[[A-theory]]_.
 ## Related concepts
 
 
+* [[dg-comodule]]
+
+
 ## References
 
 * {#HessShipley14} [[Kathryn Hess]], [[Brooke Shipley]], _Waldhausen K-theory of spaces via comodules_, Advances in Mathematics 290 (2016): 1079-1137 ([arXiv:1402.4719](https://arxiv.org/abs/1402.4719))
