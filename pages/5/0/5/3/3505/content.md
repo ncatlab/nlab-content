@@ -38,6 +38,7 @@ The model category structure on $RelCat$ is obtained from that on [[bisimplicial
 
 * [[Clark Barwick]] and [[Dan Kan]], _Relative categories; another model for the homotopy theory of homotopy theories_ ([arXiv:math/1011.1691](http://arxiv.org/abs/1011.1691))
 
+It is shown in [Meier](#Meier) that [[categories of fibrant objects]] are fibrant in this model structure.
 
 ### Nerve functors
 
@@ -58,3 +59,6 @@ The compatibility of the various nerve and simplicial localization functors is i
   * _A Thomason-like Quillen equivalence between quasi-categories and relative categories_ ([arXiv:math/1101.0772](http://arxiv.org/abs/1101.0772))
 
   * _Partial model categories and their simplicial nerves_ ([arXiv:math/1102.2512](http://arxiv.org/abs/1102.2512))
+
+* Lennart Meier, *Fibration Categories are Fibrant Relative Categories*, [arxiv](https://arxiv.org/abs/1503.02036)
+ {#Meier}
