@@ -58,7 +58,7 @@ play a pivotal role in the [[Hopf invariant one]] theorem and the [[Adams spectr
 
 
 <div style="float:left;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/schreiber/files/SpacetimeExtensions.png" width="250">
+<img src="https://ncatlab.org/schreiber/files/TheSpacetimeExtensions.png" width="250">
 </div>
 
 Conversely, it turns out that the [[super Minkowski spacetimes]] in these dimensions may be characterized by
@@ -479,7 +479,7 @@ These are the standard _[[supersymmetry]] algebras_ in the physics literature.
 =--
 
 But beware that there are more ("exotic") super-extensions of the Poincar&#233; Lie algebra
-than the "standard supersymmetry" [[super Poincaré Lie algebra]] from example \ref{SuperExtensionOfPoincare}: 
+than the "standard supersymmetry" [[super Poincaré Lie algebra]] from example \ref{SuperExtensionOfPoincare}:
 (The following example uses facts which we establish further below,
 the reader may want to skip this now and come back to it later.)
 
@@ -980,7 +980,7 @@ induce them:
 ###### Definition
 
 For $d \in \mathbb{N}$, the **[[spin group]]** $Spin(d-1,1)$ is the group of
-even graded elements of the Clifford algebra $Cl(\mathbb{R}^{d-1},1)$ (def. \ref{CliffordAlgebra})
+even graded elements of the Clifford algebra $Cl(\mathbb{R}^{d-1,1})$ (def. \ref{CliffordAlgebra})
 which are [[unitary operator|unitary]] with respect to the conjugation operation $\overline{(-)}$
 from def. \ref{CliffordAlgebra}:
 
@@ -1072,7 +1072,7 @@ a linear combination of generators, which are excluded from the group $Spin(d-1,
 
 
 To see that the homomorphism is surjective, use that all elements of $SO(d-1,1)$
-are products of [[rotations]] in hyperplanes. If a hyperplane is spanned by
+are products of [[rotations]] in hyperplanes. If a hyperplane is spanned by the [[bivector]]
 $(\omega^{a b})$, then such a rotation is given, via example \ref{CliffordConjugtionReflectionAndRotation}
 by the conjugation action by
 $$
@@ -1141,17 +1141,19 @@ of $V$ with the [[complexification]] of a [[real vector space]] $V_+$, namely th
 A quaternionic structure, def. \ref{RealStructure}, on $V$ gives it the structure of a left [[module]]
 over the [[quaternions]] (def. \ref{TheQuaternions}) extending the underlying structure of a module over the complex numbers. Namely let
 
-1. $I \coloneqq i(-) \colon V \to V$ be the operation of acting with $i \in \mathbb{C}$
+1. $I \coloneqq i(-) \colon V \to V$ be the operation of multiplying with $i \in \mathbb{C}$
 
 1. $J \coloneqq \phi \colon V \to V$ be the given endomorphisms,
 
-then the conjugate complex linearity of $\phi$ means that
+1. $K \coloneqq I \circ J$ their composite,
+
+then the conjugate complex linearity of $\phi$ implies that
 
 $$
   J \circ I = - I \circ J
 $$
 
-and hence with $J^2 = -1$ and $I^2 = -1$ this means that $I$, $J$ and $K \coloneqq I \circ J$ act like the imaginary quaternions.
+and hence with $J^2 = -1$ and $I^2 = -1$ this means that $I$, $J$ and $K$ act like the imaginary [[quaternions]].
 
 =--
 
@@ -1302,7 +1304,7 @@ This abstract isomorphism
 $$
   Cl(\mathbb{R}^{2\nu-1,1}) \otimes_{\mathbb{R}} \mathbb{C}
     \;\simeq\;
-  Mat_{d^\nu \times 2^\nu}(\mathbb{C})
+  Mat_{2^\nu \times 2^\nu}(\mathbb{C})
 $$
 
 is realized by the construction of the Dirac representation, below in prop. \ref{CliffordAlgebraRepresentation}.
@@ -1349,7 +1351,7 @@ $$
 Then there is a choice of complex linear representation of the [[Clifford algebra]] $Cl(\mathbb{R}^{d-1,1})$ (def. \ref{CliffordAlgebra}) on the [[complex vector space]]
 
 $$
-  V \coloneqq \mathbb{C}^{2^{\nu}}
+  V \coloneqq \mathbb{C}^{(2^{\nu})}
 $$
 
 such that
@@ -1592,7 +1594,7 @@ of the [[eigenspaces]] $V_{\pm}$ of the chirality operator, respectively. These 
 +-- {: .num_defn #DiracConjugate}
 ###### Definition
 
-For a Clifford algebra representation on $\mathbb{C}^\nu$ as in prop. \ref{CliffordAlgebraRepresentation}, we write
+For a Clifford algebra representation on $\mathbb{C}^{(2^\nu)}$ as in prop. \ref{CliffordAlgebraRepresentation}, we write
 
 $$
   \overline{(-)}
@@ -1620,7 +1622,7 @@ $$
 +-- {: .num_prop #CliffordRepresentationIsDiracSelfConjugate}
 ###### Proposition
 
-The operator adjoint $\overline{A}$ of a $\nu \times \nu$-matrix $A$ with respect to the Dirac pairing of def. \ref{DiracConjugate}, characterized by
+The operator adjoint $\overline{A}$ of a $2^\nu \times 2^\nu$-matrix $A$ with respect to the Dirac pairing of def. \ref{DiracConjugate}, characterized by
 
 $$
   \langle A (-), (-)\rangle
@@ -2088,9 +2090,9 @@ For a Clifford algebra representation on $\mathbb{C}^\nu$ as in prop. \ref{Cliff
 $$
   (-)^T C
   \;\colon\;
-  Mat_{\nu \times 1}(\mathbb{C})
+  Mat_{2^\nu \times 1}(\mathbb{C})
     \longrightarrow
-  Mat_{1 \times \nu}(\mathbb{C})
+  Mat_{1 \times 2^\nu}(\mathbb{C})
 $$
 
 (from complex column vectors to complex row vectors) which is given by transposition followed by [[matrix multiplication]] from the right by the [[charge conjugation matrix]] according to prop. \ref{MajoranaConjugationIsRealStructure} is called the
@@ -2104,7 +2106,7 @@ $$
 +-- {: .num_prop #TheMajoranaConditionInComponents}
 ###### Proposition
 
-In dimensions $d = 4,8,9,10,11$ a spinor $\psi \in \mathbb{C}^{2^\nu}$ is a real spinor according to def. \ref{MajoranaSpinorGeneral} with respect to the [[real structure]] from prop. \ref{MajoranaConjugationIsRealStructure}, precisely if
+In dimensions $d = 4,8,9,10,11$ a spinor $\psi \in \mathbb{C}^{(2^\nu)}$ is a real spinor according to def. \ref{MajoranaSpinorGeneral} with respect to the [[real structure]] from prop. \ref{MajoranaConjugationIsRealStructure}, precisely if
 
 $$
   \psi = C \Gamma_0^T \psi^\ast
@@ -5216,7 +5218,7 @@ Further constraints follow from requiring [[super-unitary representations]] ([Mi
 ## Supersymmetry from the superpoint
  {#SupersymmetryFromTheSuperpoint}
 
-Above we have discussed the definition and classification of [[supersymmetry]] in the 
+Above we have discussed the definition and classification of [[supersymmetry]] in the
 strict sense of "spacetime supersymmetry" and specifically in the
 strict sense of super-extensions (def. \ref{SuperExtensions}) of the [[Poincaré Lie algebra]]
 by [[real spin representations]]. However, example \ref{AnExotiSuperExtensionOfThePoincareLieAlgebra}
@@ -5423,7 +5425,7 @@ But in fact this information is contained. To see this, consider the following
   Its Lie algebra of
   _infinitesimal internal symmetries_
   is the [[stabilizer]] of $\mathfrak{g}_{\mathrm{even}}$
-  inside the [[automorphism Lie algebra]] 
+  inside the [[automorphism Lie algebra]]
   $$
     \mathfrak{int}(\mathfrak{g}) \coloneqq \mathrm{Stab}_{\mathfrak{aut}(\mathfrak{g})_{\mathrm{even}}}(\mathfrak{g}_{\mathrm{even}})
     \,,
@@ -5463,7 +5465,7 @@ But in fact this information is contained. To see this, consider the following
   The internal automorphisms according to def. \ref{internalsymm}) of
   the super-Minkowski Lie algebra $\mathbb{R}^{d-1,1\vert N}$ (def. \ref{SuperMinkowskiSpacetime})
   are called the _[[R-symmetries]]_ in the physics literature (e.g. [Freed 99, p. 56](#Freed99)).
-    
+
 =--
 
 +-- {: .num_defn #MaximalInvariantCentralExtension}
@@ -5473,7 +5475,7 @@ But in fact this information is contained. To see this, consider the following
 
   Let $\mathfrak{g}$ be a [[super Lie algebra]] (def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional}).
   Let $\mathfrak{h} \hookrightarrow \mathfrak{aut}(\mathfrak{g})_{\mathrm{even}}$
-  be a sub-Lie algebra of its [[automorphism Lie algebra]] 
+  be a sub-Lie algebra of its [[automorphism Lie algebra]]
   and let
   $$
     \array{
@@ -5488,11 +5490,11 @@ But in fact this information is contained. To see this, consider the following
   $\widehat{\mathfrak{g}}$ is
 
   1. an _$\mathfrak{h}$-invariant central extension_ if the 2-cocycles that classify the extension are $\mathfrak{h}$-invariant 2-cocycles,
- 
+
   1. an _invariant central extension_ if it is $\mathfrak{h}$-invariant and $\mathfrak{h} = \mathfrak{ext}_{\mathrm{simp}}(\mathfrak{g})$ is the [[semisimple Lie algebra|semisimple]] part of its external automorphism Lie algebra (def. \ref{internalsymm});
- 
-  1.a _maximal $\mathfrak{h}$-invariant central extension_ if it is an $\mathfrak{h}$-invariant central extension such that the $n$-tuple of $\mathfrak{h}$-invariant 2-cocycles that classifies it is a linear basis for the $\mathfrak{h}$-invariant cohomology $H^2(\mathfrak{g},\mathbb{R})^{ \mathfrak{h} }$ 
-  
+
+  1.a _maximal $\mathfrak{h}$-invariant central extension_ if it is an $\mathfrak{h}$-invariant central extension such that the $n$-tuple of $\mathfrak{h}$-invariant 2-cocycles that classifies it is a linear basis for the $\mathfrak{h}$-invariant cohomology $H^2(\mathfrak{g},\mathbb{R})^{ \mathfrak{h} }$
+
 =--
 
 
@@ -5503,14 +5505,14 @@ But in fact this information is contained. To see this, consider the following
 The [[diagram]] of [[super Lie algebras]] shown on the right
 
 <div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/schreiber/files/SpacetimeExtensions.png" width="250">
+<img src="https://ncatlab.org/schreiber/files/TheSpacetimeExtensions.png" width="250">
 </div>
 
 is obtained by consecutively forming maximal invariant central extensions according to def. \ref{MaximalInvariantCentralExtension}.
 
 Here $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ is the $d$, $\mathbf{N}$ super-translation [[supersymmetry]] algebra from def. \ref{SuperMinkowskiSpacetime}.
 
-Moreover, in each case the semisimple part of the external automorphism is the Lie algebra of the corresponding 
+Moreover, in each case the semisimple part of the external automorphism is the Lie algebra of the corresponding
 [[spin group]].
 
 =--
