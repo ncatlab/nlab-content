@@ -61,8 +61,8 @@ play a pivotal role in the [[Hopf invariant one]] theorem and the [[Adams spectr
 <img src="https://ncatlab.org/schreiber/files/TheSpacetimeExtensions.png" width="250">
 </div>
 
-Conversely, it turns out that the [[super Minkowski spacetimes]] in these dimensions may be characterized by
-forming iterated invariant [[central extensions]], starting with the [[superpoint]] ([J. Huerta](#MTheoryFromTheSuperpoint)). This shows that
+Conversely, it turns out (theorem \ref{SuperpointMaximalInvariantCentralExtensions} below) that the [[super Minkowski spacetimes]] in these dimensions are characterized as being the
+iterated maximal invariant [[central extensions]] of the [[superpoint]] ([Huerta-Schreiber 17](#MTheoryFromTheSuperpoint)). This shows that
 supersymmetry in the special sense of spacetime supersymmetry is mathematically singled out among all [[supergroups]].
 Given that [[supergroups]] themselves are mathematically singled out by [[Deligne's theorem on tensor categories]],
 this shows that spacetime [[supersymmetry]] is not an ad-hoc concept and is of intrinsic interest independently of debated speculations on
@@ -3721,7 +3721,7 @@ Under this identification the operation of trace reversal from def. \ref{TraceRe
 corresponds to _time reversal_ in that
 
 $$
-  \widetlde{
+  \widetilde{
   \left(
     \array{
       x_0 + x_1 & y
@@ -3817,7 +3817,7 @@ In particular we establish the following table of [exceptional isomorphisms of s
 +-- {: .num_remark}
 ###### Remark
 
-Prop .\ref{SpacetimeAsMatrices} immediately implies that for $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}\}$
+Prop. \ref{SpacetimeAsMatrices} immediately implies that for $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}\}$
 then there is a [[monomorphism]] from the [[special linear group]] $SL(2,\mathbb{K})$ to the [[spin group]]
 in the given dimension:
 
@@ -5498,7 +5498,7 @@ But in fact this information is contained. To see this, consider the following
 =--
 
 
-+-- {: .num_theorem}
++-- {: .num_theorem #SuperpointMaximalInvariantCentralExtensions}
 ###### Theorem
 **([Huerta-Schreiber 17](#MTheoryFromTheSuperpoint))**
 
