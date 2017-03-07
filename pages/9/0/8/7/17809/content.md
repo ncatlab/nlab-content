@@ -267,7 +267,7 @@ $$
     \underoverset
      {\underset{ \overset{ \rightsquigarrow}{(-)} }{\longleftarrow}}
      {\hookrightarrow}
-     {\bot}
+     {\phantom{AA}\bot\phantom{AA}}
   sLieAlg
 $$
 
@@ -319,7 +319,7 @@ is equivalently the following data:
 
 1. a [[vector space]] $S$;
 
-1. a Lie action of $\mathfrak{g}$ on $S$, hence a Lie algebra homomorphism
+1. a Lie action of $\mathfrak{g}$ on $S$, hence a Lie algebra [[homomorphism]]
 
    $$
      \rho_{(-)} : \mathfrak{g} \longrightarrow \mathfrak{gl}(S)
@@ -478,7 +478,9 @@ These are the standard _[[supersymmetry]] algebras_ in the physics literature.
 
 =--
 
-But beware that there are more super-extensions of the Poincar&#233; Lie algebra: (The following example uses facts which we establish further below,
+But beware that there are more ("exotic") super-extensions of the Poincar&#233; Lie algebra
+than the "standard supersymmetry" [[super Poincaré Lie algebra]] from example \ref{SuperExtensionOfPoincare}: 
+(The following example uses facts which we establish further below,
 the reader may want to skip this now and come back to it later.)
 
 +-- {: .num_example #AnExotiSuperExtensionOfThePoincareLieAlgebra}
@@ -515,7 +517,7 @@ $\mathbb{R}^{d-1,1}$. Hence we get an "exotic" super-extension of the [[Poincar�
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #FurtherConditionsToSingleOutOrdinarySupersymmetry}
 ###### Remark
 
 By prop. \ref{DataInSuperExtension} the data in example \ref{SuperExtensionOfPoincare} is sufficient for
@@ -2213,7 +2215,7 @@ This is the case for $d = 10 = 2 \cdot 5$, but not for $d = 8 = 2 \cdot 4$ neith
 
 #### Pseudo-Majorana spinors and Symplectic structure
 
-In $d = 5$, for example, the reality/Majorana condition 
+In $d = 5$, for example, the reality/Majorana condition
 
 $$
   \psi = C \Gamma_0^T \psi^\ast
@@ -2230,7 +2232,7 @@ $$
 $$
 
 (e.g [Castellani-D'Auria-Fr&#233;, II.8.41](#CastellaniDAuriaFre)). Comparison with prop. \ref{MajoranaConjugationIsRealStructure}
-and def. \ref{MajoranaSpinorGeneral} shows that this exhibits a quaternionic structure on the 
+and def. \ref{MajoranaSpinorGeneral} shows that this exhibits a quaternionic structure on the
 original complex spinor space, and hence a real structure on its direct sum double.
 
 
@@ -5214,23 +5216,35 @@ Further constraints follow from requiring [[super-unitary representations]] ([Mi
 ## Supersymmetry from the superpoint
  {#SupersymmetryFromTheSuperpoint}
 
+Above we have discussed the definition and classification of [[supersymmetry]] in the 
+strict sense of "spacetime supersymmetry" and specifically in the
+strict sense of super-extensions (def. \ref{SuperExtensions}) of the [[Poincaré Lie algebra]]
+by [[real spin representations]]. However, example \ref{AnExotiSuperExtensionOfThePoincareLieAlgebra}
+showed that there are other exotic super-extensions of the [[Poincaré Lie algebra]] which are not of this form.
 
-We discuss now how supersymmetry and spin representations emerge from 
+While there are further conditions, motivated from [[physics]], which one may impose to single out the "ordinary" super-extensions
+from the exotic ones (remark \ref{FurtherConditionsToSingleOutOrdinarySupersymmetry})
+this raises the question which fundamental mathematical principle, if any, singles out the "ordinary" super-extensions.
+
+Here we discuss one such principle. Supersymmetry and spin representations emerge from
 forming consecutive maximal invariant central extensions starting from the [[superpoint]] ([Huerta-Schreiber 17](#MTheoryFromTheSuperpoint)).
 
-+-- {: .num_prop}
+Before giving the general definition and discussion, we consider the simplest case right away:
+
+
++-- {: .num_prop #3dSuperMinkowskiFromExtensionOfTheSuperpoint}
 ###### Proposition
 
-Consider the [[nLab:superpoint]]
+Consider the [[superpoint]]
 
 $$
   \mathbb{R}^{0\vert 1}
 $$
 
-regarded as an abelian [[nLab:super Lie algebra]], via example \ref{SuperVectorSpaceAsAbelianSuperLieAlgebra}.
+regarded as an abelian [[super Lie algebra]], via example \ref{SuperVectorSpaceAsAbelianSuperLieAlgebra}.
 
 Its maximal [[central extension]] is
-the $N = 1$ super-[[nlab:worldline]] of the [[nLab:superparticle]]:
+the $N = 1$ super-[[worldline]] of the [[superparticle]]:
 
 $$
   \array{
@@ -5254,7 +5268,7 @@ $$
   $$
 
 
-Then consider the [[nLab:superpoint]]
+Then consider the [[superpoint]]
 
 $$
   \mathbb{R}^{0\vert 2}
@@ -5262,9 +5276,9 @@ $$
 $$
 
 
-Its maximal [[nLab:central extension]] is
+Its maximal [[central extension]] is
 
-the $d = 3$, $N = 1$ [[nLab:super Minkowski spacetime]]
+the $d = 3$, $N = 1$ [[super Minkowski spacetime]]
 
 $$
   \array{
@@ -5281,7 +5295,7 @@ $$
 
 * whose odd part is $\mathbb{R}^2$, regarded as
 
-  the [[nLab:Majorana spinor]] representation $\mathbf{2}$
+  the [[Majorana spinor]] representation $\mathbf{2}$
 
   of $Spin(2,1) \simeq SL(2,\mathbb{R})$
 
@@ -5294,7 +5308,7 @@ $$
     \,P^a
   $$
 
-where $C_{\alpha \beta}$ is the [[nLab:charge conjugation matrix]].
+where $C_{\alpha \beta}$ is the [[charge conjugation matrix]].
 
 =--
 
@@ -5303,8 +5317,7 @@ where $C_{\alpha \beta}$ is the [[nLab:charge conjugation matrix]].
 +-- {: .proof #FromSuperpointTo3dProof}
 ###### Proof
 
-
-Recall that $d$-dimensional [[nlab:central extensions]] of [[nLab:super Lie algebras]] $\mathfrak{g}$ are classified by [[nLab:Lie algebra cohomology|2-cocycles]]. These are super-skew symmetric [[nLab:bilinear maps]]
+Recall that $d$-dimensional [[central extensions]] of [[super Lie algebras]] $\mathfrak{g}$ are classified by [[Lie algebra cohomology|2-cocycles]]. These are super-skew symmetric [[bilinear maps]]
 
 $$
   \mu_2
@@ -5314,7 +5327,7 @@ $$
   \mathbb{R}^d
 $$
 
-satisfying a cocycle condition. The extension $\widehat{\mathfrak{g}}$ that this classifies has underlying [[nLab:super vector space]]
+satisfying a cocycle condition. The extension $\widehat{\mathfrak{g}}$ that this classifies has underlying [[super vector space]]
 the [[direct sum]]
 
 $$
@@ -5332,10 +5345,10 @@ $$
   \,.
 $$
 
-The condition that the new bracket $[-,-]_{\mu_2}$ satisfies the super [[nLab:Jacobi identity]]
+The condition that the new bracket $[-,-]_{\mu_2}$ satisfies the super [[Jacobi identity]]
 is equivalent to the cocycle condition on $\mu_2$.
 
-Now in the case that $\mathfrak{g} = \mathbb{R}^{0\vert q}$, then the cocycle condition is trivial and a 2-cocycle is just a _symmetric_ [[nLab:bilinear form] on the $q$ fermionic dimensions.
+Now in the case that $\mathfrak{g} = \mathbb{R}^{0\vert q}$, then the cocycle condition is trivial and a 2-cocycle is just a _symmetric_ [[bilinear form] on the $q$ fermionic dimensions.
 
 So in the case $\mathfrak{g} = \mathbb{R}^{0\vert 1}$ there is a unique such, up to scale, namely
 
@@ -5395,27 +5408,110 @@ then the pairing is the claimed one (see at _[supersymmetry -- in dimensions 3,4
 
 =--
 
-$\,$
 
-This phenomenon continues:
+On the face of it prop. \ref{3dSuperMinkowskiFromExtensionOfTheSuperpoint} only produces the
+super-translation super Lie algebra in 3d, without identifying the fact that its odd components transform
+as [[spinors]] under the [[spin group]] (def. \ref{SpinGroup})
+[[double cover]] (prop. \ref{SpinDoubleCover}) of the [[proper orthochronous Lorentz group]] (def. \ref{LorentzGroup}).
+But in fact this information is contained. To see this, consider the following
 
-$\,$
++-- {: .num_defn #internalsymm}
+###### Definition
+**(external and internal symmetries)**
+
+  Let $\mathfrak{g}$ be a [[super Lie algebra]] (def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional}).
+  Its Lie algebra of
+  _infinitesimal internal symmetries_
+  is the [[stabilizer]] of $\mathfrak{g}_{\mathrm{even}}$
+  inside the [[automorphism Lie algebra]] 
+  $$
+    \mathfrak{int}(\mathfrak{g}) \coloneqq \mathrm{Stab}_{\mathfrak{aut}(\mathfrak{g})_{\mathrm{even}}}(\mathfrak{g}_{\mathrm{even}})
+    \,,
+  $$
+  hence is the sub-Lie algebra
+  of derivations $\Delta$ on those which vanish on $\mathfrak{g}_{\mathrm{even}} \hookrightarrow \mathfrak{g}$.
+  This is clearly a normal sub-Lie algebra, so that the [[quotient]]
+  $$
+    \mathfrak{ext}(\mathfrak{g}) \coloneqq \mathrm{aut}(\mathfrak{g})_{\mathrm{even}}/\mathfrak{int}(\mathfrak{g})
+  $$
+  of all automorphisms by internal ones is
+  again a Lie algebra, the Lie algebra of _external symmetries_ of $\mathfrak{g}$, sitting in a [[short exact sequence]]
+  $$
+    0 \to
+    \mathfrak{int}(\mathfrak{g}) \hookrightarrow \mathfrak{aut}(\mathfrak{g})_{\mathrm{even}}
+     \to
+    \mathfrak{ext}(\mathfrak{g})
+     \to 0
+     \,.
+  $$
+  Finally, the Lie algebra of _simple external automorphisms_
+  $$
+    \mathfrak{ext}_{\mathrm{simp}}(\mathfrak{g})
+      \hookrightarrow
+    \mathfrak{ext}(\mathfrak{g})
+      \hookrightarrow
+    \mathfrak{aut}(\mathfrak{g})
+  $$
+  is the maximal [[semisimple Lie algebra|semi-simple]] sub-Lie algebra of the external automorphism Lie algebra.
+
+=--
+
++-- {: .num_example #symmetryR}
+###### Example
+**(R-symmetry)**
+
+  The internal automorphisms according to def. \ref{internalsymm}) of
+  the super-Minkowski Lie algebra $\mathbb{R}^{d-1,1\vert N}$ (def. \ref{SuperMinkowskiSpacetime})
+  are called the _[[R-symmetries]]_ in the physics literature (e.g. [Freed 99, p. 56](#Freed99)).
+    
+=--
+
++-- {: .num_defn #MaximalInvariantCentralExtension}
+###### Definition
+**(maximal invariant central extensions)**
+
+
+  Let $\mathfrak{g}$ be a [[super Lie algebra]] (def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional}).
+  Let $\mathfrak{h} \hookrightarrow \mathfrak{aut}(\mathfrak{g})_{\mathrm{even}}$
+  be a sub-Lie algebra of its [[automorphism Lie algebra]] 
+  and let
+  $$
+    \array{
+      V &\longrightarrow& \widehat{\mathfrak{g}}
+      \\
+      && \downarrow
+      \\
+      && \mathfrak{g}
+    }
+  $$
+  be a [[central extension]] of $\mathfrak{g}$ by a vector space $V$ in even degree. Then we say that:
+  $\widehat{\mathfrak{g}}$ is
+
+  1. an _$\mathfrak{h}$-invariant central extension_ if the 2-cocycles that classify the extension are $\mathfrak{h}$-invariant 2-cocycles,
+ 
+  1. an _invariant central extension_ if it is $\mathfrak{h}$-invariant and $\mathfrak{h} = \mathfrak{ext}_{\mathrm{simp}}(\mathfrak{g})$ is the [[semisimple Lie algebra|semisimple]] part of its external automorphism Lie algebra (def. \ref{internalsymm});
+ 
+  1.a _maximal $\mathfrak{h}$-invariant central extension_ if it is an $\mathfrak{h}$-invariant central extension such that the $n$-tuple of $\mathfrak{h}$-invariant 2-cocycles that classifies it is a linear basis for the $\mathfrak{h}$-invariant cohomology $H^2(\mathfrak{g},\mathbb{R})^{ \mathfrak{h} }$ 
+  
+=--
+
 
 +-- {: .num_theorem}
 ###### Theorem
 **([Huerta-Schreiber 17](#MTheoryFromTheSuperpoint))**
 
-The [[nLab:diagram]] of [[nLab:super Lie algebras]] shown on the right
+The [[diagram]] of [[super Lie algebras]] shown on the right
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/schreiber/files/SpacetimeExtensions.png" width="250">
 </div>
 
-is obtained by consecutively forming maximal central extensions invariant with respect to the maximal subgroup of automorphisms for which there are invariant cocycles at all.
+is obtained by consecutively forming maximal invariant central extensions according to def. \ref{MaximalInvariantCentralExtension}.
 
-Here $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ is the $d$, $\mathbf{N}$ super-translation [[nLab:supersymmetry]] algebra.
+Here $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ is the $d$, $\mathbf{N}$ super-translation [[supersymmetry]] algebra from def. \ref{SuperMinkowskiSpacetime}.
 
-And these subgroups are the [[nLab:spin group]] covers $Spin(d-1,1)$ of the [[nLab:Lorentz groups]] $O(d-1,1)$.
+Moreover, in each case the semisimple part of the external automorphism is the Lie algebra of the corresponding 
+[[spin group]].
 
 =--
 
@@ -5423,7 +5519,7 @@ And these subgroups are the [[nLab:spin group]] covers $Spin(d-1,1)$ of the [[nL
 +-- {: .num_remark}
 ###### Remark
 
-That every [[nLab:super Minkowski spacetime]] is _some_ [[nLab:central extension]] of some [[nLab:superpoint]]  is elementary.
+That every [[super Minkowski spacetime]] is _some_ [[central extension]] of some [[superpoint]]  is elementary.
 This was highlighted in ([Chryssomalakos-Azc&#225;rraga-Izquierdo-Bueno 99,
 2.1](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#CAIB99)).
 But most central extensions of superpoints
@@ -5434,21 +5530,22 @@ and to find that these single out the super-Minkowski spacetimes.
 
 =--
 
-**Conclusion:**
 
-Just from studying iterated invariant [[nLab:central extensions]] of [[nLab:super Lie algebras]], starting with the [[nLab:superpoint]], we  (re-)discover
+**Conclusion.**
 
-1. [[nLab:pseudo-Riemannian geometry|Lorentzian geometry]],
+Hence just from studying iterated invariant [[central extensions]] of [[super Lie algebras]], starting with the [[superpoint]], we  (re-)discover
 
-1. [[nLab:spin geometry]].
+1. [[pseudo-Riemannian geometry|Lorentzian geometry]],
 
-1. [[nLab:super spacetimes]].
+1. [[spin geometry]].
+
+1. [[super spacetimes]].
 
 In the next chapter _[[geometry of physics -- fundamental super p-branes]]_ we discuss that this process
 continues through _higher_ central extensions to yield not only [[super-spacetime]], but also the [[super p-branes]]
 propagating on it.
 
-> Perhaps we need to understand the nature of time itself better. $[...]$ One natural way to approach that question would be to understand in what sense time itself is an emergent concept, and one natural way to make sense of such a notion is to understand how pseudo-Riemannian geometry can emerge from more fundamental and abstract notions such as categories of branes. ([[nLab:Greg Moore|G. Moore]], p.41 of "[[nLab:Physical Mathematics and the Future]]", talk at [Strings 2014](http://physics.princeton.edu/strings2014/))
+> Perhaps we need to understand the nature of time itself better. $[...]$ One natural way to approach that question would be to understand in what sense time itself is an emergent concept, and one natural way to make sense of such a notion is to understand how pseudo-Riemannian geometry can emerge from more fundamental and abstract notions such as categories of branes. ([[Greg Moore|G. Moore]], p.41 of "[[Physical Mathematics and the Future]]", talk at [Strings 2014](http://physics.princeton.edu/strings2014/))
 
 
 
@@ -5506,7 +5603,7 @@ A neat collection of background on the real [[normed division algebras]] themsel
 * {#Baez02} [[John Baez]], _The Octonions_,  Bull. Amer. Math. Soc. 39 (2002), 145-205. ([web](http://math.ucr.edu/home/baez/octonions/octonions.html))
 
 
-The derivation of the process of higher invariant extensions that leads from the [[nLab:superpoint]] to [[nLab:11-dimensional supergravity]]:
+The derivation of the process of higher invariant extensions that leads from the [[superpoint]] to [[11-dimensional supergravity]]:
 
-* {#MTheoryFromTheSuperpoint} [[nLab:John Huerta]], [[nLab:Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_ ([arXiv:1702.01774](https://arxiv.org/abs/1702.01774))
+* {#MTheoryFromTheSuperpoint} [[John Huerta]], [[Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_ ([arXiv:1702.01774](https://arxiv.org/abs/1702.01774))
 
