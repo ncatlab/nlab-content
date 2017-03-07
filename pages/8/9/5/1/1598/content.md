@@ -131,9 +131,11 @@ Accordingly, so does the notion of Lie group generalize to [[Lie 2-group]], ... 
 
 ### Basic examples
 
-The [[real line]] $\mathbb{R}$ with its standard [[smooth structure]] and the group operation being addition is a Lie group. So is every [[Cartesian space]] $\mathbb{R}^n$ with the componentwise addition of real numbers.
+* The [[real line]] $\mathbb{R}$ with its standard [[smooth structure]] and the group operation being addition is a Lie group. So is every [[Cartesian space]] $\mathbb{R}^n$ with the componentwise addition of real numbers.
 
-The [[quotient]] of $\mathbb{R}$ by the subgroup of [[integer]]s $\mathbb{Z} \hookrightarrow \mathbb{R}$ is the [[circle group]] $S^1 = \mathbb{R}/\mathbb{Z}$. The quotient $\mathbb{R}^n/\mathbb{Z}^n$ is the $n$-[[dimension|dimensional]] [[torus]].
+* The [[quotient]] of $\mathbb{R}$ by the subgroup of [[integer]]s $\mathbb{Z} \hookrightarrow \mathbb{R}$ is the [[circle group]] $S^1 = \mathbb{R}/\mathbb{Z}$. The quotient $\mathbb{R}^n/\mathbb{Z}^n$ is the $n$-[[dimension|dimensional]] [[torus]].
+
+* The [[automorphism group]] of any Lie group is canonically itself a Lie group: the _[[automorphism Lie group]]_.
 
 ### Classical Lie groups
 
