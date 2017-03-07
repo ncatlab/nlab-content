@@ -50,6 +50,8 @@ See [Wischnewsky](#Wischnewsky).
 
 ## Related concepts
 
+* [[dg-comodule]]
+
 * [[comodule spectrum]]
 
 
