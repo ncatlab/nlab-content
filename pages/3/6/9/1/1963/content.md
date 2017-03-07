@@ -315,12 +315,15 @@ $$
 
 * [[p-derivation]]
 
+* [[derivation Lie algebra]]
+
+
 ## References
 
 Derivations on [[infinity-algebra over an (infinity,1)-operad|algebras]] over a [[dg-operad]] are discussed in section 7 of
 
-* [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
- {#Hinich}
+* {#Hinich} [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+ 
  
 
 
