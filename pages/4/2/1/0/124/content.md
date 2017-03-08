@@ -62,7 +62,7 @@ Finally, mixing this point of view with the second one, we can regard toposes ov
 
  (ix) 'A topos is the category of maps of a power allegory'
 
- (x) 'A topos is a category whose canonical indexing over ifself is complete and well-powered'
+ (x) 'A topos is a category whose canonical indexing over itself is complete and well-powered'
 
  (xi) 'A topos is the spatial manifestation of a giraud frame'
 
@@ -344,7 +344,7 @@ A survey is in
 
 Original source of (Grothendieck) topoi:
 
-* [[SGA4]] Expos&#233; IV by Gorthendieck and Verdier (and Expos&#233; V for cohomology in a (Grothendieck) topos)
+* [[SGA4]] Expos&#233; IV by Grothendieck and Verdier (and Expos&#233; V for cohomology in a (Grothendieck) topos)
 
 That every topos is an [[adhesive category]] is discussed in 
 
@@ -362,7 +362,7 @@ According to appendix C.1 in
 * {#LawvereRosebrugh03} [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_ , Cambridge UP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
 
 > "Topos" is a Greek term intended to describe the objects studied by
-"[analysis situs](http://en.wikipedia.org/wiki/Analysis_Situs_(paper))," the Latin term previously established by Poincar&#233; to signify the science of place [or situation]; in keeping with those ideas, a $\mathcal{U}$-topos was shown to have presentations in various "sites".
+"[analysis situs](http://en.wikipedia.org/wiki/Analysis_Situs_%28paper%29)," the Latin term previously established by Poincar&#233; to signify the science of place [or situation]; in keeping with those ideas, a $\mathcal{U}$-topos was shown to have presentations in various "sites".
 
 
 
