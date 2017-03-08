@@ -249,7 +249,10 @@ Every dg-coalgebra is the [[filtered colimit]] of its finite-dimensional sub-dg-
 
 =--
 
-This is due to ([Getzler-Goerss 99](#GetzlerGoerss99)), in generalization to the analogous fact for plain [[coalgebras]], see at _[coalgebra -- As filtered colimits](coalgebra#AsFilteredColimits)_. This plays a role for instance for constructing [[model structures for L-infinity algebras]], see [there](model+structure+for+L-infinity+algebras#OnProAlg).
+This is due to ([Getzler-Goerss 99](#GetzlerGoerss99)), in generalization to the analogous fact for plain [[coalgebras]], see at _[coalgebra -- As filtered colimits](coalgebra#AsFilteredColimits)_. 
+
+
+See also at _[[L-infinity algebra]]_ the section _[Ind-Conilpotency](L-infinity-algebra#IndConilpotency)_. This plays a role for instance for constructing [[model structures for L-infinity algebras]], see [there](model+structure+for+L-infinity+algebras#OnProAlg).
 
 
 ## References
@@ -267,5 +270,3 @@ The [[model structure on dg-coalgebras]] is due to
 [[!redirects dg-coalgebra]]
 [[!redirects dg-coalgebras]]
 
-[[!redirects differential graded-cocommutative coalgebra]]
-[[!redirects differential graded-cocommutative coalgebras]]
