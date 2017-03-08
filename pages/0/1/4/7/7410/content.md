@@ -49,9 +49,9 @@ Stated in this form, it's easy to see that the [[theory of algebraically closed 
 
 * In the theory of an equivalence relation with two infinite classes, the type (over the empty set) of a point in any model is isolated in the Stone space by the formula which says which equivalence class that point belongs to.
 
-Types generalize points by replacing them with their principal ultrafilters of definable sets. The simplest first order theories are generalizations of algebraic geometry where points correspond to special (e.g. maximal, prime) ideals in a ring; types generalize points in some of such cases. Other "spectral" intuition also applies. 
+* Types generalize points by replacing them with their principal ultrafilters of definable sets. The simplest first order theories are generalizations of algebraic geometry where points correspond to special (e.g. maximal, prime) ideals in a ring; types generalize points in some of such cases. Other "spectral" intuition also applies. 
 
-Finally, one may expand the model $M$ a larger model $M'$. The elements of automorphism group of the larger model will move the "points" around and a type will become an orbit for the larger model $M'$. This point of view is used especially for the generalization, so called [[Galois type]]s.
+* Finally, one may expand the model $M$ a larger model $M'$. The elements of automorphism group of the larger model will move the "points" around and a type will become an orbit for the larger model $M'$. This point of view is used especially for the generalization, so called [[Galois type]]s.
 
 ## Relation to measures
 
