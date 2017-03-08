@@ -44,10 +44,10 @@ The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[qu
 +-- {: .num_theorem} 
 ###### Theorem 
 **(Kaplansky)** 
-A [[projective module]] over a commutative local ring is free. 
+A [[projective module]] over a commutative local ring is a [[free module]]. 
 =-- 
 
-An exposition of the proof may be found [here](http://blog.jpolak.org/?p=363). A constructive proof of a finitary weakening of Kaplansky's theorem proceeds as follows.
+An exposition of the proof may be found [here](http://blog.jpolak.org/?p=363). A [[constructive mathematics|constructive]] proof of a finitary weakening of Kaplansky's theorem proceeds as follows.
 
 +-- {: .num_lemma}
 ###### Lemma
