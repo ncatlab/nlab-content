@@ -21,13 +21,19 @@ A [[model category]] structure on the category of [[comodules]] in [[chain compl
 
 ## Details
 
-Let $C$ be a [[differential graded-cocommutative coalgebra]] over a [[field]]. Then there exists a [[model category]] structure on the category $C dgCoMod$ of [[dg-comodules]] over $C$ whose
+Let $C$ be a [[differential graded-cocommutative coalgebra]] over a [[field]]. 
+
+**Model structure of the second kind**
+
+There exists a [[model category]] structure on the category $C dgCoMod$ of [[dg-comodules]] over $C$ whose
 
 * weak equivalences are the [[quasi-isomorphisms]];
 
 * fibrations are the [[surjections]] whose [[kernel]] is such that its underlying [[comodule]] over the underlying [[coalgebra]] of $C$ is an [[injective object]].
 
 This is due to ([Positelski 11, 8.2 Theorem (a)](#Positelski11)).
+
+**Model structure of the first kind**
 
 There is another model structure where the fibrations in addition satisfy the condition that their kernel $K$ satisfies that for all acyclic $N$, then $\underline{Hom}_C(N,K)$ is acyclic.
 
