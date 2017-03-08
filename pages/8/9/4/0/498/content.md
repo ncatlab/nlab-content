@@ -40,6 +40,7 @@ The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[qu
 ## Properties
 
 ### Kaplansky's theorem 
+ {#KaplanskyTheorem}
 
 +-- {: .num_theorem} 
 ###### Theorem 
