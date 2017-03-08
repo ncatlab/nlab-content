@@ -39,6 +39,10 @@ Note that, since a local Artin algebra has a unique [[prime ideal]], its spectru
 
 ## References
 
+* [[The Stacks Project]]
+
+  * [10.100. Flatness criteria over Artinian rings](http://stacks.math.columbia.edu/tag/051E)
+
 Local Artin $\infty$-algebras are discussed in
 
 * [[Jacob Lurie]], _Formal moduli problems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-X.pdf))
