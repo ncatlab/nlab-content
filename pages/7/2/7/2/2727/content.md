@@ -123,7 +123,7 @@ This influential note brought [[Dana Scott]] to write "Constructive Validity" (a
 
 Also [[William Lawvere]] was there, lecturing on [[hyperdoctrines]]. Lawvere told [[Steve Awodey]] that the basic example of a morphism of hyperdoctrines from the proof-relevant one to the proof-irrelevant one was influenced by Kreisel, not Howard, who attended Lawvere's Chicago lectures in the 60s. See pages 2 and 3 of 
 
-* [[William Lawvere]] interviewed by Felice Cardone, _The role of Cartesian closed categories in foundations_, March 2000 ([link](https://dl.dropboxusercontent.com/u/92056191/Archive/temporary_new_material/lawvere-cardone-2000.html))
+* [[William Lawvere]] interviewed by Felice Cardone, _The role of Cartesian closed categories in foundations_, March 2000 ([link](https://dl.dropboxusercontent.com/u/92056191/Archive/temporary_new_material/lawvere-cardone-2000/lawvere-cardone-2000.pdf))
 
 But the story started earlier with what has been called the [[Brouwer-Heyting-Kolmogorov interpretation]] of [[intuitionistic logic]], highlighted for instance in ([Troelstra 91](#Troelstra91)), which identifies a proposition with the collection of its proofs. This view goes back to an observation of Kolmogorov that the formalisation of Brouwer's ideas by Heyting in 1930 can be semantically interpreted as a calculus of 'Aufgaben' - problems (and solutions), reported in
 
