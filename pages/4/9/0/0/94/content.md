@@ -565,6 +565,27 @@ $L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibr
 
 ## Properties
 
+### Ind-Conilpotency
+ {#IndConilpotency}
+
++-- {: .num_remark #IndConilpotency}
+###### Remark
+**([Pridham 10, remark 3.15, remark 3.13](#Pridham))**
+
+For $\mathfrak{g}$ an $L_\infty$-algebra, then its CE chain [[dgc-coalgebra]] $CE_\bullet(\mathfrak{g})$ ([above](#ReformulationInSemifreeDgCoalgebra)) is _ind-conilpotent_.
+
+This means that $CE_\bullet(\mathfrak{g})$ is a [[filtered colimit]] of sub-dg-coalgebras which are conilpotent, in that for each of them there is $n \in \mathbb{N}$ such that their $n$-fold coproduct vanishes. As such these are like "co-[[local Artin algebras]]".
+
+Moreover, since every dg-coalgebra is the [[union]] of its finite-dimensonal subalgebras (see at _[[dg-coalgebra]]_ the section _[As filtered colimits of finite-dimensional pieces](differential+graded+coalgebra#AsFilteredColimits)_), this means that $CE_\bullet(\mathfrak{g})$ is a [[filtered colimit]] of finite dimensional conilpotent coalgebras.
+
+This implies that the dual Chevalley-Eilenberg cochain algebra $CE^\bullet(\mathfrak{g})$ is a [[filtered limit]] of finite-dimensional nilpotent [[dgc-algebras]] (actual [[local Artin algebras]]).
+
+=--
+
+
+
+
+
 ### Model category structure 
 
 See [[model structure for L-∞ algebras]].
