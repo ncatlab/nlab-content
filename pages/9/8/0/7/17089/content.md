@@ -222,4 +222,28 @@ In [[double field theory]]:
 
 * [[Olaf Hohm]], [[Barton Zwiebach]], _$L_\infty$ Algebras and Field Theory_ ([arXiv:1701.08824](https://arxiv.org/abs/1701.08824))
 
+### Related expositions
+
+* [[fiber bundles in physics]]
+
+* [[higher category theory and physics]]
+
+* [[string theory FAQ]]
+
+* [[motives in physics]]
+
+* [[Hilbert's sixth problem]]
+
+* [[model theory and physics]]
+
+* [[motivation for sheaves, cohomology and higher stacks]]
+
+* [[applications of (higher) category theory]]
+
+* [[motivation for higher differential geometry]]
+
+* [[motivation for cohesion]]
+
+
+
 
