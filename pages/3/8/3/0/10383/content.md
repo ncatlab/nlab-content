@@ -82,13 +82,26 @@ And so on and so forth. In short: all global structure in [[field theory]] is co
 
 * [[twisted smooth cohomology in string theory]]
 
-* [[motivation for higher differential geometry]]
+* [[motivation for sheaves, cohomology and higher stacks]]
 
 * [[higher category theory and physics]]
 
+* [[string theory FAQ]]
+
+* [[motivation for higher differential geometry]]
+
+* [[applications of (higher) category theory]]
+
+* [[motivation for cohesion]]
+
+* [[Hilbert's sixth problem]]
+
 * [[motives in physics]]
 
-* [[string theory FAQ]]
+* [[model theory and physics]]
+
+* [[L-infinity algebras in physics]]
+
 
 ## References
 
