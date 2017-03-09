@@ -15,7 +15,7 @@ An [[algebraic theory]] $T$ is a __Mal'cev theory__ when $T$ contains a Mal'cev 
 
 1. in the category of $T$-algebras, every [[internal relation|internal]] [[reflexive relation]] is a [[congruence]];
 
-2. in the category of $T$-algebras, the composite (as internal relations) of any two congruences as a congruence;
+2. in the category of $T$-algebras, the composite (as internal relations) of any two congruences is a congruence;
 
 3. in the category of $T$-algebras, the composition of equivalence relations is commutative.
 
