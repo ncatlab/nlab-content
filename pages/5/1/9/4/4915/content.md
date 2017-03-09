@@ -215,10 +215,33 @@ The local aspects of 2-dimensional conformal field theory are governed by [[vert
 
 ## Related pages
 
+
+* [[geometry of physics]]
+
+* [[fiber bundles in physics]]
+
+* [[higher category theory and physics]]
+
+* [[string theory FAQ]]
+
+* [[twisted smooth cohomology in string theory]]
+
+* [[motives in physics]]
+
+* [[Hilbert's sixth problem]]
+
+* [[model theory and physics]]
+
+* [[L-infinity algebras in physics]]
+
 * [[motivation for sheaves, cohomology and higher stacks]]
+
+* [[applications of (higher) category theory]]
 
 * [[motivation for higher differential geometry]]
 
 * [[motivation for cohesion]]
 
-* [[higher category theory and physics]]
+
+
+
