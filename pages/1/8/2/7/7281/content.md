@@ -28,6 +28,9 @@ The [[basis theorem]] asserts that, with the [[axiom of choice]], every vector s
 * [[orthogonal basis]]
 * [[basis in functional analysis]]
 
+* [[dual basis]]
+
+* [[basis]]
 
 [[!redirects Hamel basis]]
 [[!redirects Hamel bases]]
