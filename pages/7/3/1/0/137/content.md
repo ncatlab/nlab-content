@@ -37,8 +37,14 @@ X &              &   &              & Z \\
 \right)
 \quad\quad \Rightarrow \quad\quad 
 \left(\array{
-X & \rightarrow^{f} & Y & \rightrightarrows^g_h & Z \\
-}\right)$$
+   X 
+     & \overset{f}{\longrightarrow} & 
+   Y 
+     & \underoverset{h}{g}{\rightrightarrows}
+     & 
+   Z \\
+}\right)
+$$
 
 ## Examples
 
@@ -75,7 +81,7 @@ The following are equivalent
 +-- {: .num_prop}
 ###### Proposition
 
-Every [[coequalizer]]
+Every [[coequalizer]] $x \to y$
 
 $$
   z \stackrel{\to}{\to} x \to y
