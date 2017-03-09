@@ -69,13 +69,31 @@ But a geometry modeled on a [[small category|small]] [[full subcategory]] of [[T
 
 * [[geometry of physics]]
 
-* [[motivation for sheaves, cohomology and higher stacks]]
+* [[fiber bundles in physics]]
 
-* [[motivation for higher differential geometry]]
+* [[higher category theory and physics]]
+
+* [[string theory FAQ]]
+
+* [[twisted smooth cohomology in string theory]]
+
+* [[motives in physics]]
+
+* [[Hilbert's sixth problem]]
+
+* [[model theory and physics]]
+
+* [[L-infinity algebras in physics]]
+
+* [[motivation for sheaves, cohomology and higher stacks]]
 
 * [[applications of (higher) category theory]]
 
-* [[higher category theory and physics]]
+* [[motivation for higher differential geometry]]
+
+* [[motivation for cohesion]]
+
+
 
 category: motivation
 
