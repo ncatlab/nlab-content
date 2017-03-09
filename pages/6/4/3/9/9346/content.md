@@ -545,19 +545,35 @@ also
 
 ## Further expositions, introductions and lectures
 
-Other entries on the $n$Lab with related lecture notes, expositions and introductions include
+Other entries on the $n$Lab with related lecture notes, expositions and introductions include the following:
 
 * [[geometry of physics]]
 
 * [[fiber bundles in physics]]
 
+* [[L-infinity algebras in physics]]
+
+* [[motives in physics]]
+
+* [[higher category theory and physics]]
+
+* [[motivation for sheaves, cohomology and higher stacks]]
+
+* [[motivation for higher differential geometry]]
+
+* [[applications of (higher) category theory]]
+
 * [[twisted smooth cohomology in string theory]]
 
 * [[motivation for higher differential geometry]]
 
-* [[higher category theory and physics]]
+* [[motivation for cohesion]]
 
-* [[motives in physics]]
+* [[Hilbert's sixth problem]]
+
+* [[model theory and physics]]
+
+* [[L-infinity algebras in physics]]
 
 
 ## References
