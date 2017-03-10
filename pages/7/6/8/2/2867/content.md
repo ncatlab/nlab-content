@@ -208,7 +208,7 @@ $$
 given by 
 
 $$
-  \delta_A([n], a) = ([n], (A, A, \cdots, A))
+  \delta_A([n], a) = ([n], a^n)
   \,.
 $$
 
