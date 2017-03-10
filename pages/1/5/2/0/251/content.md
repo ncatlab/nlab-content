@@ -198,7 +198,7 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 
 * Jeffrey C. Morton, [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930).
 
-* [[Ronnie Brown]] and C.B. Spencer, [Double groupoids and crossed modules](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1976__17_4_343_0), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **17** (1976), 343--362.
+* [[Ronnie Brown]] and C.B. Spencer, [Double groupoids and crossed modules](http://www.numdam.org/item/CTGDC_1976__17_4_343_0), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **17** (1976), 343--362.
 
 * [[Ronnie Brown]]  and [[Philip Higgins]], [The equivalence of $\infty$-groupoids
 and crossed  complexes,](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1981__22_4/CTGDC_1981__22_4_371_0/CTGDC_1981__22_4_371_0.pdf)  _Cah. Top. G&#233;om. Diff_. 22 (1981) 371-386.
