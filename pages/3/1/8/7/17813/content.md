@@ -215,7 +215,7 @@ $$
 from the [[worldsheet]] $\Sigma$ to target [[spacetime]] $X$.
 
 The central theorem of perturbative superstring theory
-(the no ghost theorem with[[GSO projection]]) says that the excitation spectrum of such a [[2d SCFT]] are the quanta of the [[perturbation theory|perturbations]] of a higher dimensional [[effective field theory|effective]] [[supergravity]] [[field theory]] on target spacetime, hence transforms under [[supersymmetry]] on target spacetime.
+(the no ghost theorem with [[GSO projection]]) says that the excitation spectrum of such a [[2d SCFT]] are the quanta of the [[perturbation theory|perturbations]] of a higher dimensional [[effective field theory|effective]] [[supergravity]] [[field theory]] on target spacetime, hence transforms under [[supersymmetry]] on target spacetime.
 
 This is the fundamental prediction of the assumption of fundamental strings:
 
@@ -229,7 +229,7 @@ implies
 
 1. that it is the [[superstring]] (worldsheet [[supersymmetry]] mixes the worldsheet bosons and fermions), precisely: the [[Neveu-Schwarz-Ramond superstring]], which then in addition implies...
 
-1. that its [[target space]] [[effective field theory]] is a [[supergravity]] theory, hence that also the effective target space fields exhibit _local_ [[supersymmetry]] (i.e. "high energy supersymmetry", different from "low energy supersymettry" that the [[LHC]] was looking for).
+1. that its [[target space]] [[effective field theory]] is a [[supergravity]] theory, hence that also the effective target space fields exhibit _local_ [[supersymmetry]] (i.e. "high energy supersymmetry", different from "low energy supersymmetry" that the [[LHC]] was looking for).
 
 | main theorem of [[perturbative string theory|perturbative super-string theory]] |
 |-------------------------------------------------------------------------------------------------|
@@ -242,7 +242,7 @@ appears as a miracle from the point of view of the [[Neveu-Schwarz-Ramond supers
 It comes out this way by non-trivial computation, but is not manifest in the theory.
 
 In order to improve on this situation, [[Michael Green]] and [[John Schwarz]] searched for and found ([Green-Schwarz 81](#GreenSchwarz81), [Green-Schwarz 82](#GreenSchwarz82) [Green-Schwarz 84](#GreenSchwarz84), for the history see [Schwarz 16, slides 24-25](#Schwarz16)) a suitably equivalent string [[action functional]] that would manifestly exhibit [[spacetime]] [[supersymmetry]].
-Acordingly, the this is now called the _[[Green-Schwarz action functional]]_.
+Acordingly, this is now called the _[[Green-Schwarz action functional]]_.
 
 | [[action functional]] for [[superstring]] | manifest [[supersymmetry]] |
 |----|---|
