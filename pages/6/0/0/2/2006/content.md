@@ -134,6 +134,10 @@ In [[type theory|typed]] [[functional programming]] Kleisli composition is used 
 
 ## References
 
+The original source is
+
+* H. Kleisli, _Every standard construction is induced by a pair of adjoint functors_ , Proc. Amer. Math. Soc. **16** (1965) pp.544&#8211;546. ([AMS](http://www.ams.org/journals/proc/1965-016-03/S0002-9939-1965-0177024-4/))
+
 * Jen&#246; Szigeti, _On limits and colimits in the Kleisli category_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 24 no. 4 (1983), p. 381-391 ([NUMDAM](http://www.numdam.org/item?id=CTGDC_1983__24_4_381_0))
 
 Discussion of cases where the inclusion of the Kleisli category into the [[Eilenberg-Moore category]] is a [[reflective subcategory]] is in
@@ -157,4 +161,3 @@ Discussion of Kleisli categories in [[type theory]] is in
 [[!redirects Kleisli functions]]
 
 [[!redirects Kleisli composition]]
-
