@@ -46,7 +46,7 @@ $$
   \right.
 $$
 
-This is the 1-dimensional $N$-extended [[super translation super Lie algebra]]. We ay think of this as the super-translational symmetry of 1-dimensional $N$-extended [[super Minkowski spacetime]].
+This is the 1-dimensional $N$-extended [[super translation super Lie algebra]]. We may think of this as the super-translational symmetry of 1-dimensional $N$-extended [[super Minkowski spacetime]].
 
 Consider then super [[Lie algebra representations]] of $\mathbb{R}^{1 \vert N}$ on [[super vector spaces]] of smooth [[superfields]] on $\mathbb{R}^{1 \vert N}$ (regarded as a [[supermanifold]]) and such that the bosonic generator $P$ acts as the [[derivative]] operator on [[smooth functions]] on $\mathbb{R}^1$ in each component. If in addition the representation is such that in the canonical [[linear basis]] the odd generators $Q_I$ send even/odd basis elements $\phi_i$ to single odd/even basis elements $\psi_j$ (as opposed to [[linear combinations]] of them), hence if the $Q_I$ act apart from degree-shift and possibly [[differentiation]] by [[permutations]] on the components of the [[superfields]], then this representation of $\mathbb{R}^{1\vert N}$ is called _adinkraic_. ([Zhang 13, p. 16](#Zhang13)).
 
@@ -97,7 +97,9 @@ and further developed in the article
 
 * [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], T. Hubsch, [[Kevin Iga]], [[Greg Landweber]], _On Graph-Theoretic Identifications of Adinkras, Supersymmetry Representations and Superfields_, Int. J. Mod. Phys. A22: 869-930, 2007 ([arXiv:math-ph/0512016](https://arxiv.org/abs/math-ph/0512016))
 
-and many more ("DFGHIL collaboration"). 
+and many more ("DFGHIL collaboration"), for instance
+
+* Wes Caldwell, Alejandro Diaz, Isaac Friend, [[Jim Gates]], Jr., Siddhartha Harmalkar, Tamar Lambert-Brown, Daniel Lay, Karina Martirosova, Victor Meszaros, Mayowa Omokanwaye, Shaina Rudman, Daniel Shin, Anthony Vershov, _On the Four Dimensional Holoraumy of the $4D$, $\mathcal{N} = 1$ Complex Linear Supermultiplet_ ([arXiv:1702.05453](https://arxiv.org/abs/1702.05453))
 
 The [[dimensional reduction]] of the standard [[supermultiplets]] of $d = 4, N = 1$ supersymmetry to adinkraic representations of $d = 1, N=4$ is due to
 
