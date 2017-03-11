@@ -36,7 +36,7 @@ A **(predicative) elementary $(\infty,1)$-topos** is an $(\infty,1)$-category $E
 
 * $E$ has finite [[(∞,1)-limit|limits and colimits]]
 * $E$ is [[locally cartesian closed (∞,1)-category|locally cartesian closed]]
-* For any morphism $p:Y\to X$ in $E$, there exists an [[object classifier]] in $E$ classifying a class of morphisms that (1) includes $p$ and (2) is closed under fiberwise finite limits and colimits and dependent products.
+* For any morphism $p:Y\to X$ in $E$, there exists an [[object classifier]] in $E$ classifying a class of morphisms that (1) includes $p$ and (2) is closed under fiberwise finite limits and colimits, composition (i.e. dependent sums), and dependent products.
 
 An elementary $(\infty,1)$-topos $E$...
 
