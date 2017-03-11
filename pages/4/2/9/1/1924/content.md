@@ -33,6 +33,9 @@ Some results invoking the Calkin algebra rely on extra [[axioms]] in [[set theor
 
 There are also some analogues of the above results where the separable Hilbert space is replaced by an arbitrary infinite-dimensional complex Hilbert space. For instance, the [[Proper Forcing Axiom]] (PFA) implies that for every Calkin algebra, all automorphisms are inner ([Farah 2011b](#Farah11b)).
 
+Another result ([Farah and Hirshberg 2016](#FarahHirshberg16)) of Farah and Hirshberg states that the Calkin algebra of a separable Hilbert space is not countably [[homogeneous structure|homogeneous]]; in particular, it cannot be realized as a [[Fraïssé limit]] of [[continuous logic|metric structures]].
+
+
 ## Related entries
 
 * [[BrownDouglasFillmore theory]]
@@ -45,6 +48,8 @@ There are also some analogues of the above results where the separable Hilbert s
 
 * {#Farah11a} Ilijas Farah, _All automorphisms of the Calkin algebra are inner_, Annals of Mathematics 173 (2011), 619-661, doi: 10.4007/annals.2011.173.2.1 [arXiv:0705.3085](https://arxiv.org/abs/0705.3085)
 * {#Farah11b} Ilijas Farah, _All automorphisms of all Calkin algebras_, Math. Res. Lett. 18 (2011), no. 3, 489-503 [arXiv:1007.4034](https://arxiv.org/abs/1007.4034)
+
+* {#FarahHirshberg16} Ilijas Farah and Ilan Hirshberg, _The Calkin algebra is not countably homogeneous_, Proc. AMS, to appear. [arXiv:1506.07455](https://arxiv.org/abs/1506.07455)
 
 * {#Rinot13} Assaf Rinot, _Open coloring and the cardinal invariant $\mathfrak{b}$_, (2013) [blog post](http://blog.assafrinot.com/?p=3243)
 
