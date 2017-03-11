@@ -43,6 +43,8 @@ Any further details about the nature of this hypothetical dark matter remain elu
 
 ## References
 
+### General
+
 Review includes
 
 * {#Einasto09} Jaan Einasto, _Dark matter_ ([arXiv:0901.0632](https://arxiv.org/abs/0901.0632)) 2009
@@ -56,7 +58,20 @@ Review includes
 * {#Resonaances} Resonaances, _[How many neutrinos in the sky](http://resonaances.blogspot.de/2013/01/how-many-neutrinos-in-sky.html)_
 
 * [[Ethan Siegel]], _[Seven independent pieces of evidence for dark matter](https://medium.com/starts-with-a-bang/7-independent-pieces-of-evidence-for-dark-matter-3692126a2283)_, _[Ten things everyone should know about dark matter](https://medium.com/starts-with-a-bang/10-facts-everyone-should-know-about-dark-matter-1ce2b222cf08)_ 2015
- 
+
+### Axions
+
+The observation that the "invisible [[axion]]" is a cadidate for dark matter is due to
+
+* {#PreskillWiseWilcek83} [[John Preskill]], M. Wise, [[Frank Wilcek]], _Comology of the invisible axion_, Phys. Lett. B 120:127-32 (1983)
+
+A proposal that [[axions]] account for [[fuzzy dark matter]], and thus fix the [[WIMP]] model for dark matter with its problem of reproducing galactic rotation curves, is in
+
+* {#HOTW16} Lam Hui, Jeremiah P. Ostriker, Scott Tremaine, [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_ ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
+
+### Lightest super-partner 
+
+
 The observation that the lightest supersymmetric particle is a natural dark matter candidate goes back to 
 
 * {#EHNOS84} [[John Ellis]],  J.S. Hagelin, Dimitri V. Nanopoulos, [[Keith Olive]], M. Srednicki  _Supersymmetric relics from the Big Bang_, Nuclear Physics B 238[2]: 453-76, 1984 ([SPIRE](http://inspirehep.net/record/191839?ln=en))
@@ -65,9 +80,6 @@ with review in
 
 * {#EllisOlive10} [[John Ellis]], [[Keith Olive]], _Supersymmetric Dark Matter Candidates_ ([arXiv:1001.3651](http://arxiv.org/abs/1001.3651))
 
-A proposal that [[axions]] account for dark matter is in
-
-* {#HOTW16} Lam Hui, Jeremiah P. Ostriker, Scott Tremaine, [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_ ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
 
 
 [[!redirects WIMP]]
