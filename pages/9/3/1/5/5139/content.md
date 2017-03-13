@@ -80,6 +80,12 @@ See [[Ek-Algebras]].
 
 See _[[symmetric monoidal (∞,n)-category]]_.
 
+## Related concepts
+
+* [[A-∞ algebra]]
+
+* [[Hopf E-∞ algebra]]
+
 ## References
 
 * [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/gils.pdf))
