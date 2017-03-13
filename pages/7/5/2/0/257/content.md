@@ -72,7 +72,7 @@ satisfying the following conditions:
 +-- {: .num_defn #ModelCategory}
 ###### Definition
 
-A **model category** is a [[complete category|complete]] and [[cocomplete category]] $\mathcal{C}$ equipped with a model structur according to def. \ref{ModelStructure}.
+A **model category** is a [[complete category|complete]] and [[cocomplete category]] $\mathcal{C}$ equipped with a model structure according to def. \ref{ModelStructure}.
 
 =--
 
