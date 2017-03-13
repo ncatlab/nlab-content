@@ -199,7 +199,14 @@ This is due to ([Butz](#Butz)) and ([Moerdijk](#Moerdijk)).
 
 * For $X$ any [[topological space]], the  [[category of sheaves|topos of sheaves]] on (the [[category of open subsets]] of) $X$ has enough points (def. \ref{EnoughPoints}): a morphism of sheaves is a mono-/epi-/isomorphism precisely if it is so on every [[stalk]]. 
 
-* Points of [[over-topos]]es are discussed at <a href="http://ncatlab.org/nlab/show/over-topos#Points">over topos -- points</a>.
+* Points of [[over-toposes]] are discussed at <a href="http://ncatlab.org/nlab/show/over-topos#Points">over topos -- points</a>.
+
+### Rings and algebraic theories
+ {#Rings}
+
+The category of points of the presheaf topos over $Ring_{fp}^{op}$, the dual of the category of finitely presented [[rings]], is the category of all rings (without a size or presentation restriction). In fact this holds for any [[algebraic theory]], not only for the theory of commutative rings. See also at  _[[Gabriel-Ulmer duality]]_, _[[flat functors]]_.
+
+
 
 ### Of a local topos
 
