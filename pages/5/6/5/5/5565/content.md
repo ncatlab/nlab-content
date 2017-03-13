@@ -109,7 +109,12 @@ and $Grpd_{nat}$ is the [[transferred model structure]] obtained from $sSet_{Qui
 
 ## References
 
-This model category structure appears originally in
+Some aspects (like the pullback stability of fibrations of groupoids in its prop. 2.8) appeared in 
+
+* {#Brown70} [[Ronnie Brown]], _Fibrations of groupoids_, Journal of Algebra
+Volume 15, Issue 1, May 1970, Pages 103-132
+
+The full model category structure appears originally in
 
 * {#Anderson78} D.W. Anderson, _Fibrations and Geometric Realizations_ , Bull. Am. Math Soc. 84, 765-786, (1978), 765-786.
 
