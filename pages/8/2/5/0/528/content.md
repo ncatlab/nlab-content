@@ -209,6 +209,8 @@ More general 3-vector spaces are given by _[[hopfish algebras]]_ and generally b
 
 * [[change of rings theorem]]
 
+* [[Hopf ring spectrum]]
+
 ## References
 
 * [[Kenneth Brown]], _Hopf algebras_, lectures ([pdf](http://www.maths.gla.ac.uk/~kab/Hopf%20lects%201-8.pdf))
