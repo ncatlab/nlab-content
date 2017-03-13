@@ -4,6 +4,12 @@
 [[!redirects Hopf E-infinity algebras]]
 [[!redirects Hopf E-∞ algebras]]
 
+[[!redirects Hopf E-infinity ring]]
+[[!redirects Hopf E-infinity rings]]
+[[!redirects Hopf E-infinity-ring]]
+[[!redirects Hopf E-infinity-rings]]
+
+
 ## Idea
 
 The pairing of the concepts of [[commutative Hopf algebra]] and [[E-∞ algebra]]: the [[formal dual]] of a [[spectral group scheme]], that is, a [[group scheme]] in [[E-∞ geometry]].
