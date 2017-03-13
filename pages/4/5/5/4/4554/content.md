@@ -23,6 +23,7 @@ The _factorisation lemma_ ([Brown 73](#Brown73), prop. \ref{TheFactorizationLemm
 
 A key corollary of the factorization lemma is the statement, widely known as _Ken Brown's lemma_ (prop. \ref{KenBrownLemma} below) which says that for a functor from a category of fibrant objects  to be a [[homotopical functors]], it is sufficient already that it sends acyclic fibrations to weak equivalences. 
 
+For more background, see also at _[[Introduction to Stable homotopy theory -- P|Introduction to classical homotopy theory]]_ [this lemma](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma).
 
 ## Factorisation lemma
 
