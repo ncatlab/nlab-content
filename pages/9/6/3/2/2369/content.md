@@ -52,6 +52,8 @@ Under the [[Brown representability theorem]], the [[generalized cohomology theor
 
 * [[periodic ring spectrum]]
 
+* [[Hopf ring spectrum]]
+
 * [[model structure for ring spectra]]
 
 * [[Boardman homomorphism]], [[Adams spectral sequence]]
