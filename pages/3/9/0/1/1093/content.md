@@ -42,7 +42,7 @@ on those presheaves which are [[sheaves]] with respect to $J$.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #SheafInclusionIsReflective}
 ###### Proposition
 
 Every category of sheaves is a [[reflective subcategory]]
