@@ -515,6 +515,9 @@ Discussion of fundamental constructions of [[algebraic geometry]] from the persp
 
 * {#Blechschmidt16} [[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, thesis ([pdf](http://rawgit.com/iblech/internal-methods/master/notes.pdf))
 
+* [[Ingo Blechschmidt]], _Internal methods_ [github repository](https://github.com/iblech/internal-methods)
+
+
 [[!redirects internal logic]]
 [[!redirects internal logics]]
 [[!redirects internal language]]
