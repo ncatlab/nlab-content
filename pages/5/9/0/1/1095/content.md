@@ -24,6 +24,7 @@
 The notion of $(\infty,1)$-category of $(\infty,1)$-sheaves is the generalization of the notion of [[category of sheaves]] from [[category theory]] to the [[higher category theory]] of [[(∞,1)-categories]].
 
 ## Definition
+ {#Definition}
 
 +-- {: .num_defn #CategoryOfSheaves}
 ###### Definition
