@@ -67,7 +67,7 @@ The observation that the "invisible [[axion]]" is a cadidate for dark matter is 
 
 A proposal that [[axions]] account for [[fuzzy dark matter]], and thus fix the [[WIMP]] model for dark matter with its problem of reproducing galactic rotation curves, is in
 
-* {#HOTW16} Lam Hui, Jeremiah P. Ostriker, Scott Tremaine, [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_ ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
+* {#HOTW16} Lam Hui, Jeremiah P. Ostriker, Scott Tremaine, [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_, Phys. Rev. D 95, 043541 (2017) ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
 
 ### Lightest super-partner 
 
