@@ -72,21 +72,24 @@ So a category with all dependent products is necessarily a category with all [[p
 +-- {: .num_prop #RelationToSections}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[cartesian closed category]] with all [[limit]]s and note that $\mathcal{C}/*\cong\mathcal{C}$. Let $X \in C$ be any object and identify it with the terminal morphism $X\to *$. Then the dependent product functor
+Let $\mathcal{C}$ be a [[cartesian closed category]] with all [[limit]]s and note that $\mathcal{C}_{(\ast}\cong\mathcal{C}$. Let $X \in C$ be any object and identify it with the terminal morphism $X\to *$. Then the dependent product functor
 
 $$
-  \mathcal{C}/X
-   \stackrel{\overset{- \times X}{\leftarrow}}{\underset{\prod_{x \in X}}{\to}}
+  \mathcal{C}_{/X}
+   \underoverset
+       {\underset{\prod_{x \in X}}{\longrightarrow}}
+      {\overset{- \times X}{\longleftarrow}}
+      {\bot}
   \mathcal{C}
 $$
 
-sends [[bundle]]s $P \to X$ to their [[space of sections|object of sections]]. 
+sends [[bundles]] $P \to X$ to their [[space of sections|object of sections]]. 
 
 $$
   \prod_{x \in X} P_x
-  \simeq
+    \simeq
   \Gamma_X(P)
-  :=  
+    :=  
   [X,P] \times_{[X,X]} \{id\}
   \,.
 $$
@@ -96,11 +99,11 @@ $$
 +-- {: .proof}
 ###### Proof
 
-One computes for every $A \in \mathcal{C}$
+We check the characterizing [[natural isomorphism]] for the adjunction: For every  $A \in \mathcal{C}$ we have the following sequence of natural isos:
 
 $$
   \begin{aligned}
-    \mathcal{C}/X(A \times X, P \to X)
+    \mathcal{C}_{/X}(A \times X, P \to X)
       &= 
     \mathcal{C}(A \times X, P ) \times_{\mathcal{C}(A \times X, X)} \{p_2\}
     \\
@@ -166,6 +169,8 @@ The dependent product is the [[categorical semantics]] of what in [[type theory]
 
 ## Examples
 
+### In toposes
+
 Dependent products (and sums) exist in any [[topos]]:
 
 +-- {: .un_prop }
@@ -179,6 +184,189 @@ Moreover, $f^*$ preserves the  [[subobject classifier]] and [[internal hom]]s.
 This is ([MacLaneMoerdijk, theorem 2 in section IV, 7](#MacLaneMoerdijk)).
 
 The dependent product plays a role in the definition of [[universe in a topos]].
+
+
+### Along $\mathbf{B}H \to \mathbf{B}G$
+ {#AlongDeloopingsOfGroupHomomorphisms}
+
+
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $G$ an group object in $\mathbf{H}$ (an [[∞-group]]), then the [[slice (∞,1)-topos]] over its [[delooping]] may be identified with the [[(∞,1)-category]] of $G$-[[∞-actions]] (see there for more):
+
+
+$$
+  Act_G(\mathbf{H}) \simeq \mathbf{H}_{/\mathbf{B}G}
+  \,.
+$$
+
+Under this identification, then dependent product along a morphism of the form $\mathbf{B}H \to \mathbf{B}G$ (corresponding to an [[∞-group]] homomorphism $H \to G$) corresponds to forming [[coinduced representations]].
+
+### Along $\ast \to \mathbf{B}G$
+ {#AlongPointInclusionIntoBG}
+
+As the special case of the [above](#AlongDeloopingsOfGroupHomomorphisms) for $H = 1$ the trivial group we obtain the following:
+
++-- {: .num_prop #GeneralReduction}
+###### Proposition
+
+Let $\mathbf{H}$ be any  [[(∞,1)-topos]] and let $G$ be a group object in $\mathbf{H}$ (an [[∞-group]]). Then the dependent product along the canonical point inclusion
+
+$$
+  i \;\colon\; \ast \to \mathbf{B}G
+$$ 
+
+into the [[delooping]] of $G$ takes the following form: 
+
+There is a pair of [[adjoint ∞-functors]] of the form
+
+$$
+  \mathbf{H}
+    \underoverset
+      { \underset{\underset{i}{\prod} \simeq [G,-]/G}{\longrightarrow}}
+      { \overset{i^\ast \simeq hofib}{\longleftarrow}}
+      {\bot}
+  \mathbf{H}_{/\mathbf{B}G}
+  \,,
+$$
+
+
+where
+
+* $hofib$ denotes the operation of taking the [[homotopy fiber]] of a map to $\mathbf{B}G$ over the canonical basepoint;
+
+* $[G,-]$ denotes the [[internal hom]] in $\mathbf{H}$;
+
+* $[G,-]/G$ denotes the [[homotopy quotient]] by the [[conjugation action|conjugation]] [[∞-action]] for $G$ equipped with its canonical [[∞-action]] by left multiplication and the argument
+regarded as equipped with its trivial $G$-$\infty$-action 
+
+  (for $G = S^1$ then this is the [[cyclic loop space]] construction).
+
+Hence for
+
+* $\hat X \to X$ a $G$-[[principal ∞-bundle]]
+
+* $A$ a [[coefficient]] object, such as for some [[differential cohomology|differential]] [[generalized cohomology theory]]
+
+then there is a [[natural equivalence]]
+
+
+$$
+  \underset{
+    \text{original} \atop \text{fluxes}
+  }{
+  \underbrace{
+    \mathbf{H}(\hat X\;,\; A)
+  }
+  }
+    \;\;
+    \underoverset
+      {\underset{oxidation}{\longleftarrow}}
+      {\overset{reduction}{\longrightarrow}}
+      {\simeq}
+    \;\;
+  \underset{
+     \text{doubly} \atop { \text{dimensionally reduced} \atop \text{fluxes} }
+  }{
+  \underbrace{
+    \mathbf{H}(X \;,\; [G,A]/G)
+  }
+  }
+$$
+
+given by
+
+$$
+  \left(
+     \hat X \longrightarrow A
+  \right)
+  \;\;\;
+    \leftrightarrow
+  \;\;\;
+  \left(
+    \array{
+       X && \longrightarrow && [G,A]/G
+       \\
+       & \searrow && \swarrow
+       \\
+       && \mathbf{B}G
+    }
+  \right)
+$$
+
+=--
+
++-- {: .proof #DimensionalReductionAbstractly}
+###### Proof
+
+The statement that $i^\ast \simeq hofib$ follows immediately by the definitions. What we need to show see is that the [[dependent product]] along $i$ is given as claimed.
+
+To that end, first observe that the [[conjugation action]] on $[G,X]$ is the [[internal hom]] in
+the [[(∞,1)-category]] of $G$-[[∞-actions]] $Act_G(\mathbf{H})$.
+Under the [[equivalence of (∞,1)-categories]]
+
+$$
+  Act_G(\mathbf{H}) \simeq \mathbf{H}_{/\mathbf{B}G}
+$$
+
+(from [NSS 12](geometry+of+physics+-+fundamental+super+p-branes#NSS12)) then $G$ with its canonical [[∞-action]] is $(\ast \to \mathbf{B}G)$
+and $X$ with the trivial action is $(X \times \mathbf{B}G \to \mathbf{B}G)$.
+
+Hence
+
+$$
+  [G,X]/G
+    \simeq
+  [\ast, X \times \mathbf{B}G]_{\mathbf{B}G}
+  \;\;\;\;\;
+  \in
+   \mathbf{H}_{/\mathbf{B}G}
+  \,.
+$$
+
+So far this is the very definition of what $[G,X]/G \in \mathbf{H}_{/\mathbf{B}G}$ is to mean in the first place.
+
+But now since the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$ is itself [[cartesian closed (infinity,1)-category|cartesian closed]], via
+
+$$
+  E \times_{\mathbf{B}G}(-)
+  \;\;\;
+   \dashv
+  \;\;\;
+  [E,-]_{\mathbf{B}G}
+$$
+
+it is immediate that
+there is the following sequence of [[natural equivalences]]
+
+$$
+  \begin{aligned}
+   \mathbf{H}_{/\mathbf{B}G}(Y, [G,X]/G)
+   & \simeq
+   \mathbf{H}_{/\mathbf{B}G}(Y, [\ast, X \times \mathbf{B}G]_{\mathbf{B}G})
+   \\
+   & \simeq
+   \mathbf{H}_{/\mathbf{B}G}(
+     Y \times_{\mathbf{B}G} \ast,
+     \underset{p^\ast X}{\underbrace{X \times \mathbf{B}G }}
+  )
+  \\
+  & \simeq
+  \mathbf{H}(
+     \underset{hofib(Y)}{\underbrace{p_!(Y \times_{\mathbf{B}G} \ast)}},
+     X
+  )
+  \\
+  & \simeq
+  \mathbf{H}(hofib(Y),X)
+  \end{aligned}
+$$
+
+Here $p \colon \mathbf{B}G \to \ast$ denotes the terminal morphism and $p_! \dashv p^\ast$ denotes the [[base change]] along it.
+
+
+=--
+
+See also at _[[double dimensional reduction]]_ for more on this.
+
 
 
 ## Related concepts
