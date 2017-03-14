@@ -39,4 +39,9 @@ $$
 
 The factor of 1/12 is conventional and chosen for normalisation purposes.
 
+
+## Related concepts
+
+* [[W-algebra]]
+
 [[!redirects Virasoro Lie algebra]]
