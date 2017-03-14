@@ -30,8 +30,8 @@ There is no consensus as to what this modification of Newtonian gravity _means_.
 
 ## References
 
-* Beno&#238;t Famaey and Stacy S. McGaugh, _Modified Newtonian Dynamics (MOND): Observational Phenomenology and Relativistic Extensions_ ([web](http://relativity.livingreviews.org/Articles/lrr-2012-10/))
-
-* Chiu Man Ho, Djordje Minic, _Cold Dark Matter with MOND Scaling_ ([arXiv:1005.3537](http://arxiv.org/abs/1005.3537))
+* Beno&#238;t Famaey and Stacy S. McGaugh, _Modified Newtonian Dynamics (MOND): Observational Phenomenology and Relativistic Extensions_,2012, Living Reviews in Relativity, 15, 10  ([arXiv:1112.3960](https://arxiv.org/abs/1112.3960))
 
 * Joe Silk, Gary A. Mamon, _The Current Status of Galaxy Formation_ ([arXiv:1207.3080](http://arxiv.org/abs/1207.3080))
+
+* {#Dodelson11} Scott Dodelson, _The Real Problem with MOND_,  Int. J. Mod. Phys. D, 20, 2749 (2011).  ([arXiv:https://arxiv.org/abs/1112.1320](https://arxiv.org/abs/1112.1320))
