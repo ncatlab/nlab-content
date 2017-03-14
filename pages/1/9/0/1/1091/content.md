@@ -449,7 +449,7 @@ $$
 
 =--
 
-+-- {: .num_defn #SymmetricPowers}
++-- {: .num_example #SymmetricPowers}
 ###### Example
 **(symmetric powers)**
 
