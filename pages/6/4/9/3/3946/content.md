@@ -18,17 +18,17 @@ The definition of wavefront sets is motivated by a version of a [[Paley-Wiener t
 **(Paley-Wiener for $C^{\infty}_0$)**
 
 
-The vector space of smooth compactly supported functions is (algebraically and topologically) [[isomorphism|isomorphic]], via the [[Fourier transform]], to the space of entire functions $F$ which satisfy the following estimate: there is a positive constant $B$ such that for every [[integer]] $n \gt 0$ there is a constant $C_n$ such that:
+The vector space $C_0^{\infty}(\mathbb{R}^n)$ of smooth compactly supported functions is (algebraically and topologically) [[isomorphism|isomorphic]], via the [[Fourier transform]], to the space of entire functions $F$ which satisfy the following estimate: there is a positive constant $B$ such that for every [[integer]] $m \gt 0$ there is a constant $C_m$ such that:
 $$ 
-      F(z) \le C_n (1 + |z|)^{-n} \exp{ (B \; |\operatorname{Im}(z)|)}
+      F(z) \le C_m (1 + |z|)^{-m} \exp{ (B \; |\operatorname{Im}(z)|)}
 $$ 
 
 =--
 
 ### Smoothness
 
-We call a smooth compactly supported function that is identical $1$ in a neighbourhood of a point $x_0$ a **cutoff** function at $x_0$.
-Let $U \subset \mathbb{R}$ be open, we identify the [[cotangent bundle]] of $U$ with $U \times \mathbb{R}^n$. A subset of $U \times \mathbb{R}^n$ is said to be **conic** if it stable under the transformation
+We call a smooth compactly supported function that is identically $1$ in a neighbourhood of a point $x_0$ a **cutoff** function at $x_0$.
+Let $U \subset \mathbb{R}^n$ be open, we identify the [[cotangent bundle]] of $U$ with $U \times \mathbb{R}^n$. A subset of $U \times \mathbb{R}^n$ is said to be **conic** if it is stable under the transformation
 $$
     (x, \zeta) \mapsto (x, \rho \zeta) \quad \text{with} \; \rho \gt 0
 $$
@@ -36,7 +36,7 @@ $$
 +-- {: .un_def}
 ###### Definition
 
-Let $f$ be a distribution and $(x_0, \zeta_0)$ with $\zeta_0 \neq 0$ be a point of the cotangent bundle of $U$. f is **smooth** in $(x_0, \zeta_0)$ if there is a cutoff function $\chi$ in $x_0$ and an open cone $\Gamma_0$ in $\mathbb{R}^n$ containing $\zeta_0$ such that for every $m \gt 0$ there is a nonnegative constant $C_m$ such that for all $\zeta \in \Gamma_0$:
+Let $f$ be a distribution and $(x_0, \zeta_0)$ with $\zeta_0 \neq 0$ be a point of the cotangent bundle of $U$. $f$ is **smooth** in $(x_0, \zeta_0)$ if there is a cutoff function $\chi$ in $x_0$ and an open cone $\Gamma_0$ in $\mathbb{R}^n$ containing $\zeta_0$ such that for every $m \gt 0$ there is a nonnegative constant $C_m$ such that for all $\zeta \in \Gamma_0$:
 $$
 \| \mathcal{F}(\chi f) (\zeta)   \| \le C_m (1 + \| \zeta \|)^{-m}
 $$ 
@@ -60,12 +60,12 @@ Let $U \subseteq \mathbb{R}^n$ be an open subset, $T^* U$ its cotangent bundle a
 
 ## Examples
 
-### Onedimensional Examples
-We take a brief look at distributions on $\mathcal{D} \mathbb{R}$ with singular support consisting of the origin. In one dimension, at the origin, there are of course exactly two directions along which a distribution could be smooth, namely $\zeta \le 0$ and $\zeta \gt 0$.
+### One-dimensional Examples
+We take a brief look at distributions on $\mathcal{D} (\mathbb{R})$ with singular support consisting of the origin. In one dimension, at the origin, there are of course exactly two directions along which a distribution could be smooth, namely $\zeta \lt 0$ and $\zeta \gt 0$.
 
 We define the [[Fourier transform]] to be
 $$
-\mathcal{F}(f)(\zeta) = \hat f (\zeta) = \int_{- \infty}^{\infty} f(x) \exp(-2 \pi i x \zeta)
+\mathcal{F}(f)(\zeta) = \hat f (\zeta) = \int_{- \infty}^{\infty} f(x) \exp(-2 \pi i x \zeta) dx
 $$
 
 For the delta distribution $\delta$, we have $\mathcal{F}(\delta) = 1$, which does not satisfy the decay condition of smoothness.
