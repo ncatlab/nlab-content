@@ -24,23 +24,25 @@ The [[standard model of cosmology]] including [[dark energy]] and [[dark matter]
 
 Curiously though, the particular behaviour of experimental data on these "small" cosmological scales turns out to have a surprisingly simple and universal phenomenological fit by a simple modification of the [[force]] law of [[Newtonian mechanics]] ("Newton's third law", corrections from [[general relativity]] are typically very small for the effects in question). 
 
-_MOND_ is the abbreviation for this _modified Newtonian gravity_ ([Milgrom 83 a](#Milgrom83a), [Milgrom 83 b](#Milgrom83b), [Milgrom 83 c](#Milgrom83c)). This refers to a simple formula 
-
-$$
-  F = m \,\mu(a/a_0)\, a
-$$
-
-for some interpolating function $\mu \colon \mathbb{R} \to \mathbb{R}$
-that formally modifies Newton's third law 
+_MOND_ is the abbreviation for this _modified Newtonian dynamics_ ([Milgrom 83 a](#Milgrom83a), [Milgrom 83 b](#Milgrom83b), [Milgrom 83 c](#Milgrom83c)). This refers to the proposal of modifying Newton's third law 
 
 $$
   F = m a
 $$
 
-relating the [[force]] experienced by a body of [[mass]] $m$ to its [[acceleration]] $a$.
+relating the [[force]] experienced by a body of [[mass]] $m$ to its [[acceleration]] $a$ by an expression of the form
+
+$$
+  F = m \,\mu(a/a_0)\, a
+$$
+
+for some acceleration scale $a_0$ and some interpolating function $\mu \colon \mathbb{R} \to \mathbb{R}$.
 
 The motivation is that choosing the constant $a_0$ and the function $\mu$ suitably, then such a modified formula surprisingly well fits the rotation-velocities of observed [[galaxies]] in dependence of the radius, something which the [[standard model of cosmology]] with [[dark matter]] still has some problems with fitting properly (but see [Kaplinghat-Turner 02](#KaplinghatTurner02), [BLSF 09](#BLSF09), [Chan 13](#Chan13)). 
 
+Of course an ad-hoc such modification of the basic laws of physics breaks many established properties of physics, such as the [[principle of equivalence]] in [[general relativity]] and various [[conservation laws]]. It must be that this modified Newtonian force law is the effect of some more fundamental theory. The only proposal for such a theory apart from gravity+dark matter itself ([Kaplinghat-Turner 02](#KaplinghatTurner02), [BLSF 09](#BLSF09), [Chan 13](#Chan13)) is to add to Einstein gravity a unit vector field and a scalar field ([Bekenstein 04](#Bekenstein04), "TeVeS"), themselves thus otherwise unobserved "dark fields", as it were  but, as opposed to say the [[axion]] dark matter candidate, not motivated beyond the desire to fit galaxy rotation curves.
+
+Even if one accepts this, the resulting theory fails to describe global cosmological structures ([Dodelson 11](#Dodelson11)).
 
 ## Related concepts
 
@@ -56,15 +58,21 @@ Due to
 
 * {#Milgrom83c} M. Milgrom,  (1983). "A modification of the Newtonian dynamics - Implications for galaxy systems". Astrophysical Journal. 270: 384. Bibcode:1983ApJ...270..384M. doi:10.1086/161132..
 
+* {#Bekenstein04} [[Jacob Bekenstein]], _Relativistic gravitation theory for the modified Newtonian dynamics paradigm_, Physical Review D, 70 (8): 083509, ([arXiv:astro-ph/0403694](https://arxiv.org/abs/astro-ph/0403694))
+
 General review:
 
 * Beno&#238;t Famaey and Stacy S. McGaugh, _Modified Newtonian Dynamics (MOND): Observational Phenomenology and Relativistic Extensions_,2012, Living Reviews in Relativity, 15, 10  ([arXiv:1112.3960](https://arxiv.org/abs/1112.3960))
 
 * Joe Silk, Gary A. Mamon, _The Current Status of Galaxy Formation_ ([arXiv:1207.3080](http://arxiv.org/abs/1207.3080))
 
+* Wikipedia, _[Modified Newtonian dynamics](https://en.wikipedia.org/wiki/Modified_Newtonian_dynamics)_
+
+* Wikipedia, _[Tensor&#8211;vector&#8211;scalar gravity](https://en.wikipedia.org/wiki/Tensor%E2%80%93vector%E2%80%93scalar_gravity)_
+
 Problems of MOND:
 
-* {#Dodelson11} Scott Dodelson, _The Real Problem with MOND_,  Int. J. Mod. Phys. D, 20, 2749 (2011).  ([arXiv:https://arxiv.org/abs/1112.1320](https://arxiv.org/abs/1112.1320))
+* {#Dodelson11} Scott Dodelson, _The Real Problem with MOND_,  Int. J. Mod. Phys. D, 20, 2749 (2011).  ([arXiv:1112.1320](https://arxiv.org/abs/1112.1320))
 
 Deriving the MOND phenomenology from dark matter:
 
