@@ -20,9 +20,27 @@
 
 ## Idea
 
-_MOND_ is the abbreviation for _modified Newtonian gravity_. This refers to a simple formula that formally modifies the formula for Newtonian [[gravity]] in a way that surprisingly well fits the rotation-velocities of observed [[galaxies]] in dependece of the radius, something which the [[standard model of cosmology]] with [[dark matter]] still has some problems with fitting properly. 
+The [[standard model of cosmology]] including [[dark energy]] and [[dark matter]] is in very good agreement with observation on scales above those of galaxies, but in its standard version becomes problematic below this scale (there are variants that address this, such as [[fuzzy dark matter]]).
 
-There is no consensus as to what this modification of Newtonian gravity _means_. It must be a numerical fit to some kind of physics that is to date not understood more fundamentally.
+Curiously though, the particular behaviour of experimental data on these "small" cosmological scales turns out to have a surprisingly simple and universal phenomenological fit by a simple modification of the [[force]] law of [[Newtonian mechanics]] ("Newton's third law", corrections from [[general relativity]] are typically very small for the effects in question). 
+
+_MOND_ is the abbreviation for this _modified Newtonian gravity_ ([Milgrom 83 a](#Milgrom83a), [Milgrom 83 b](#Milgrom83b), [Milgrom 83 c](#Milgrom83c)). This refers to a simple formula 
+
+$$
+  F = m \,\mu(a/a_0)\, a
+$$
+
+for some interpolating function $\mu \colon \mathbb{R} \to \mathbb{R}$
+that formally modifies Newton's third law 
+
+$$
+  F = m a
+$$
+
+relating the [[force]] experienced by a body of [[mass]] $m$ to its [[acceleration]] $a$.
+
+The motivation is that choosing the constant $a_0$ and the function $\mu$ suitably, then such a modified formula surprisingly well fits the rotation-velocities of observed [[galaxies]] in dependence of the radius, something which the [[standard model of cosmology]] with [[dark matter]] still has some problems with fitting properly (but see [Kaplinghat-Turner 02](#KaplinghatTurner02), [BLSF 09](#BLSF09), [Chan 13](#Chan13)). 
+
 
 ## Related concepts
 
@@ -30,8 +48,29 @@ There is no consensus as to what this modification of Newtonian gravity _means_.
 
 ## References
 
+Due to
+
+* {#Milgrom83a} M. Milgrom,  (1983). "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis". Astrophysical Journal. 270: 365&#8211;370. Bibcode:1983ApJ...270..365M. doi:10.1086/161130.
+
+* {#Milgrom83b} M. Milgrom,  (1983). "A modification of the Newtonian dynamics - Implications for galaxies". Astrophysical Journal. 270: 371&#8211;389. Bibcode:1983ApJ...270..371M. doi:10.1086/161131.
+
+* {#Milgrom83c} M. Milgrom,  (1983). "A modification of the Newtonian dynamics - Implications for galaxy systems". Astrophysical Journal. 270: 384. Bibcode:1983ApJ...270..384M. doi:10.1086/161132..
+
+General review:
+
 * Beno&#238;t Famaey and Stacy S. McGaugh, _Modified Newtonian Dynamics (MOND): Observational Phenomenology and Relativistic Extensions_,2012, Living Reviews in Relativity, 15, 10  ([arXiv:1112.3960](https://arxiv.org/abs/1112.3960))
 
 * Joe Silk, Gary A. Mamon, _The Current Status of Galaxy Formation_ ([arXiv:1207.3080](http://arxiv.org/abs/1207.3080))
 
+Problems of MOND:
+
 * {#Dodelson11} Scott Dodelson, _The Real Problem with MOND_,  Int. J. Mod. Phys. D, 20, 2749 (2011).  ([arXiv:https://arxiv.org/abs/1112.1320](https://arxiv.org/abs/1112.1320))
+
+Deriving the MOND phenomenology from dark matter:
+
+* {#KaplinghatTurner02} Manoj Kaplinghat, Michael S. Turner, _How Cold Dark Matter Theory Explains Milgrom's Law_, Astrophys.J. 569 (2002) L19 ([arXiv:astro-ph/0107284](https://arxiv.org/abs/astro-ph/0107284))
+
+* {#BLSF09} Jean-Philippe Bruneton, Stefano Liberati, Lorenzo Sindoni, Benoit Famaey, _Reconciling MOND and dark matter?_, Journal of Cosmology and Astroparticle Physics, Issue 03, pp. 021 (2009) ([arXiv:0811.3143](https://arxiv.org/abs/0811.3143))
+
+* {#Chan13} Man Ho Chan, _Reconciliation of MOND and Dark Matter theory_, Phys. Rev. D, 88, 103501 (2013) ([arXiv:1310.6801](https://arxiv.org/abs/1310.6801))
+
