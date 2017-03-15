@@ -54,6 +54,8 @@ Each of these definitions can be unraveled to give a more explicit definition, a
 
 ## Examples
 
+* As with any notion of profunctor, the appropriate [[hom functor|hom]] should be a double profunctor. In fact, since there are 2 kinds of morphism, there are 2 different hom profunctors. Following the convention above, the _horizontal_ hom is a profunctor $C &#8696; C$ and is given by the canonical span $C_0 \stackrel{s}{\leftarrow} C_1 \stackrel{t}{\to} C_0$ and the vertical hom is just the horizontal hom on the transpose.
+
 * If $C$ and $D$ are [[strict 2-categories]] regarded as vertically-discrete double categories, then a double profunctor $C &#8696; D$ is the same as a $Cat$-[[enriched category|enriched]] [[profunctor]], i.e. a strict 2-functor $D^{op}\times C \to Cat$.  There is a corresponding statement in the pseudo case (see below).
 
 * On the other hand, if $C$ and $D$ are 2-categories regarded as *horizontally*-discrete double categories, then a double profunctor $C &#8696; D$ is the same as a lax 2-functor $D^{co}\times C \to Span$, or equivalently a normal lax 2-functor $D^{co}\times C \to Prof$.
