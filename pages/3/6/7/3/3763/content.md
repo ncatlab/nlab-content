@@ -13,7 +13,7 @@ A double profunctor can be defined in several equivalent ways.  In each case, ho
 
 ### As internal profunctors in Cat
 
-Since a (strict) double category is an [[internal category]] in [[Cat]], it makes sense to define a **double profunctor** to be an internal profunctor in $Cat$.  Thus, if $C$ and $D$ are double categories, a double profunctor $C &#8696; D$ consists of a span $C_0 \leftarrow H \to D_0$ in $Cat$, together with actions $C_1 \times_{C_0} H \to H$ and $H\times_{D_0} D \to H$ which are associative and commute with each other.
+Since a (strict) double category is an [[internal category]] in [[Cat]], it makes sense to define a **double profunctor** to be an internal profunctor in $Cat$.  Thus, if $C$ and $D$ are double categories, a double profunctor $C &#8696; D$ consists of a span $C_0 \leftarrow H \to D_0$ in $Cat$, together with actions $C_1 \times_{C_0} H \to H$ and $H\times_{D_0} D_1 \to H$ which are associative and commute with each other.
 
 
 ### As collages in DblCat
