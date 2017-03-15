@@ -110,13 +110,13 @@ The free topos was first constructed by H. Volger. A second construction appears
 
 Freyd's proof of the above properties appears first in
 
-* [[Jim Lambek]], [[Phil Scott]], _Intutionist Type Theory and the Free Topos_ , JPAA **19** (1980) pp. 215-257. {#LambekScott80}
+* [[Jim Lambek]], [[Phil Scott]], _Intuitionist Type Theory and the Free Topos_ , JPAA **19** (1980) pp. 215-257. {#LambekScott80}
 
 On the relation between the proof and the topos-theoretic techniques in the proof see
 
 * A. Scedrov, [[Phil Scott]], _A note on the Friedman Slash and Freyd Covers_ , pp. 443-452 in _The LEJ Brouwer Centenary Symposium_ , North Holland Amsterdam 1982.
 
-* [[Jim Lambek]], [[Phil Scott]], _New Proofs of some intuitionistic principles_ , Zeit. f&#252;r Math. Logik **29** (1983) pp. 493-504.
+* [[Jim Lambek]], [[Phil Scott]], _New proofs of some intuitionistic principles_ , Zeit. f&#252;r Math. Logik **29** (1983) pp. 493-504.
 
 For textbook accounts of the free topos see
 
