@@ -208,15 +208,19 @@ Note that the version of the theorem for fundamental groups does not apply, sinc
 
 See also this [mathoverflow discussion](http://mathoverflow.net/questions/40945/compelling-evidence-that-two-basepoints-are-better-than-one)
 
-The following paper gives the general theorem for the fundamental groupoid on a set of base points: 
+The use of a set of base points for a pushout theorem and so determining the fundamental group of the circle was published in
+
+*[[Ronnie Brown]] Groupoids andvan Kampen's theorem. Proc. London Math. Soc. (3) 17 (1967) 385-401.
+
+The more general theorem for the fundamental groupoid on a set of base points: 
 
 * [[Ronnie Brown]] and A. Razak,  _A van Kampen theorem for unions of
 non-connected  spaces_, _Archiv. Math. 42 (1984) 85-88. [pdf](http://pages.bangor.ac.uk/pdffiles/brown-razak.pdf) 
 
-The pushout theorem is among  applications of groupoids to $1$-dimensional homotopy theory and to the Jordan Curve Theorem in:
+The pushout theorem is among  applications of groupoids to $1$-dimensional homotopy theory (e.g. gluing theorem, covering spaces, orbit spaces) and to the Jordan Curve Theorem in:
 
 *[[Ronnie Brown]] 
-[Topology and Groupoids](http://pages.bangor.ac.uk/~mas010/topgpds.html) , Booksurge (2006). Available from amazon. 
+[Topology and Groupoids](http://groupoids.org.uk/topgpds.html) , Booksurge (2006). pdf available;  book available from amazon. 
 
 The proof for  pushouts  is discussed in some detail in
 
