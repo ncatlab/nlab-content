@@ -158,16 +158,18 @@ Let $C \subset \mathbb{R}^n$ be a [[star-shaped]] [[open subset]] of a [[Cartesi
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #LiteratureOnStarShapedOpenDiffeoToOpenBall}
 ###### Remark
 
-Theorem \ref{StarShapedOpenDiffeomorphicToOpenBall} is a [[folk theorem]], but explicit proofs in the literature are very hard to find. See the discussion at [References](#References). An explicit proof has been written out by Stefan Born, and this appears as the proof of [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in ([Ferus](#Ferus)).
+Theorem \ref{StarShapedOpenDiffeomorphicToOpenBall} is a [[folk theorem]], but explicit proofs in the literature are hard to find. See the discussion at [References](#References). An explicit proof has been written out by Stefan Born, and this appears as the proof of [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in ([Ferus 07](#Ferus07)). A simplr proof is given in [Gonnord-Tosel 98](#GonnordTosel98) reproduced [here](http://mathoverflow.net/a/212595/381).
 
 =--
 
+Here is another proof:
+
 +-- {: .proof}
 ###### Proof
-Suppose $T$ is a star-shaped open subset of ${\mathbb {R}}^n$ centered at the origin. Theorem 2.29 in [Lee](#Lee) proves that there is a function $f$ on ${\mathbb{R}}^n$ such that $f\gt 0$ on $T$ and $f$ vanishes on the complement of $T$. By applying bump functions we can assume that $f\le 1$ everywhere and $f=1$ in an open $\epsilon$-neighborhood of the origin; by rescaling the ambient space we can assume $\epsilon=2$.
+Suppose $T$ is a star-shaped open subset of ${\mathbb {R}}^n$ centered at the origin. Theorem 2.29 in [Lee](#Lee) proves that there is a function $f$ on ${\mathbb{R}}^n$ such that $f\gt 0$ on $T$ and $f$ vanishes on the complement of $T$. By applying [[bump functions]] we can assume that $f\le 1$ everywhere and $f=1$ in an open $\epsilon$-neighborhood of the origin; by rescaling the ambient space we can assume $\epsilon=2$.
 
 The smooth vector field $V\colon x\mapsto f(x)\cdot x/{\|x\|}$ is defined on the complement of the origin in $T$. Multiply $V$ by a smooth bump function $0\le b\le 1$ such that $b=1$ for ${\|x\|} \gt 1/2$ and $b=0$ in a neighborhood of 0.
 The new vector field $V$ extends smoothly to the origin and defines a smooth global flow $F\colon \mathbb{R} \times T\to T$. (The parameter of the flow is all of $\mathbb{R}$ and not just some interval $(-\infty,A)$ because the norm of $V$ is bounded by 1.) Observe that for $1/2\lt {\|x\|} \lt 2$ the vector field $V$ equals $x\mapsto x/{\|x\|}$. Also, all flow lines of $V$ are radial rays.
@@ -246,14 +248,18 @@ That an open subset $U \subseteq \mathbb{R}^4$ homeomorphic to $\mathbb{R}^4$ eq
 
 The proof that open star-shaped regions are diffeomorphic to a ball appears as [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in
 
-* [[Dirk Ferus]], _Analysis III_ (2007) ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf)) 
-{#Ferus}
+* {#Ferus07} [[Dirk Ferus]], _Analysis III_ (2007) ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf)) 
+
 
 It is a lengthy proof, due to Stefan Born. 
 
 A simpler version of the proof apparently appears on page 60 of
 
-* St&#233;phane Gonnord, Nicolas Tosel, _Calcul Diff&#233;rentiel_ , ellipses (1998)
+* {#GonnordTosel98} St&#233;phane Gonnord, Nicolas Tosel, _Calcul Diff&#233;rentiel_, ellipses (1998) 
+
+and is reproduced in
+
+* MO [here](http://mathoverflow.net/a/212595/381))
 
 Apparently this proof is little known. For instance in a remark below lemma 10.5.5 of
 
@@ -265,8 +271,8 @@ it says:
 
 And in 
 
-* Jeffrey Lee, _Manifolds and differential geometry_  (2009)
- {#Lee} 
+* {#Lee}  Jeffrey Lee, _Manifolds and differential geometry_  (2009)
+ 
 
 one finds the statement:
 
@@ -277,20 +283,20 @@ Here "Grom" refers to
 * M. Gromov, _Convex sets and K&#228;hler manifolds_ , Advances in differential geometry and topology. F. Tricerri ed., World Sci., Singapore,
 (1990), 1-38. ([pdf](http://www.ihes.fr/~gromov/PDF/%5B68%5D.pdf))
 
-where the relevant statement is 1.4.C1 on page 8. Note however that the diffeomorphism considered there is only of $C^1$ class, not $C^\infty$, so that this is not a proof, either. 
+where the relevant statement is 1.4.C1 on page 8. Note however that the diffeomorphism considered there is only of $C^1$ class, not $C^\infty$, so this is not a proof either.
 
-For a discussion of diffeomorphisms between geodesically convex regions and open balls see [[good open cover]].
+For a discussion of diffeomorphisms between geodesically convex regions and open balls see at _[[good open cover]]_.
 
 See also the Math Overflow discussion [here](http://mathoverflow.net/questions/41853/explicit-diffeomorphim-between-open-simplex-and-open-ball). 
 
 ### Combinatorial
 
 
-* [[Andre Joyal]], _Disks, duality and Theta-categories_ ([[JoyalThetaCategories.pdf:file]])
- {#Joyal}
+* {#Joyal} [[Andre Joyal]], _Disks, duality and Theta-categories_ ([[JoyalThetaCategories.pdf:file]])
+ 
 
-* [[Mihaly Makkai]], Marek Zawadowski, _Duality for Simple $\omega$-Categories and Disks_ ([TAC](http://www.emis.de/journals/TAC/volumes/8/n7/8-07abs.html))
- {#MakkaiZawadowski}
+* {#MakkaiZawadowski} [[Mihaly Makkai]], Marek Zawadowski, _Duality for Simple $\omega$-Categories and Disks_ ([TAC](http://www.emis.de/journals/TAC/volumes/8/n7/8-07abs.html))
+ 
 
 [[!redirects ball]]
 [[!redirects balls]]
