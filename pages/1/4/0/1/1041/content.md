@@ -53,7 +53,7 @@ where $p$ is a [[cokernel]], hence  an [[epimorphism|epi]], and $i$ is a [[kerne
 
 An **abelian category** is a [[pre-abelian category]] satisfying the following equivalent conditions.
 
-1. For every [[morphism]] $f$, the canonical morphism $\bar{f} \colon coker(ker(f)) \to ker(coker(f))$ of prop. \ref{DecompositionOfMorphisms} is an [[isomorphism]].
+1. For every [[morphism]] $f$, the canonical morphism $\bar{f} \colon coker(ker(f)) \to ker(coker(f))$ of prop. \ref{DecompositionOfMorphisms} is an [[isomorphism]] (hence providing an [[image]] factorization $A \to im(f) \to B$).
 
 1. Every [[monomorphism]] is a [[kernel]] and every [[epimorphism]] is a [[cokernel]].
 
