@@ -151,7 +151,7 @@ In dimension 4 the analog statement fails due to the existence of [[exotic smoot
 
 =--
 
-+-- {: .num_theorem}
++-- {: .num_theorem #StarShapedOpenDiffeomorphicToOpenBall}
 ###### Theorem
 
 Let $C \subset \mathbb{R}^n$ be a [[star-shaped]] [[open subset]] of a [[Cartesian space]]. Then $C$ is [[diffeomorphic]] to $\mathbb{R}^n$.
@@ -161,7 +161,7 @@ Let $C \subset \mathbb{R}^n$ be a [[star-shaped]] [[open subset]] of a [[Cartesi
 +-- {: .num_remark}
 ###### Remark
 
-This is a *folk theorem*. But explicit proofs in the literature are very hard to find. See the discussion at [References](#References). An explicit proof has been written out by Stefan Born, and this appears as the proof of [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in ([Ferus](#Ferus)).
+Theorem \ref{StarShapedOpenDiffeomorphicToOpenBall} is a [[folk theorem]], but explicit proofs in the literature are very hard to find. See the discussion at [References](#References). An explicit proof has been written out by Stefan Born, and this appears as the proof of [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in ([Ferus](#Ferus)).
 
 =--
 
