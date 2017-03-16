@@ -57,8 +57,7 @@ where $B \Sigma_n$ denotes the [[homotopy type]] of the [[classifying space]] of
 
 In particular for $R = \mathbb{S}$ the [[sphere spectrum]], then  $Sym_{\mathbb{S}}\mathbb{S}$ is nontrivial. This, and its structure of a [[Hopf ring spectrum]], is discussed in [Strickland-Turner 97](#StricklandTurner97).
 
-Similarly, if $E = \Sigma^n R \simeq R \wedge S^n$ is a [[suspension]] of $R$, regarded as an $R$-[[module spectrum]], then
-
+{#OnSuspensionOfGroundRingInIntroduction} Similarly, if $E = \Sigma^n R \simeq R \wedge S^n$ is a [[suspension]] of $R$, regarded as an $R$-[[module spectrum]], then
 $$
   \begin{aligned}
     Sym_R(\Sigma^n R)
@@ -75,7 +74,6 @@ $$
   \end{aligned}
   \,,
 $$
-
 where on the right we have the [[Thom space]] of the [[vector bundle]] $\tau_n$ [[associated bundle|associated]] to the $\Sigma(n)$-[[universal principal bundle]] via the canonical [[action]] of $\Sigma(n)$ on $\mathbb{R}^n$ (see also at [symmetric group -- Classifying space and Thom space](permutation#ClassifyingSpaceAndThomSpace)).
 
 The operation $Sym_R$ is of course functorial, and hence any choice of $R$-linear map $f_x \colon R \to E$ induces morphisms
