@@ -863,7 +863,7 @@ Discussion of _topological_ boundaries ([[branes]]) and suface [[QFT with defect
 * [[Anton Kapustin]], [[Natalia Saulina]], _Surface operators in 3d TFT and 2d Rational CFT_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
  {#KapustinSaulina11}
 
-* [[Anton Kapustin]], [[Natalia Saulina]], _Bicategories for boundary conditions and for surface defects in 3-d TFT_,  	Nucl.Phys.B845:393-435,2011 ([arXiv:1203.4568](http://arxiv.org/abs/1203.4568))
+* [[Anton Kapustin]], [[Natalia Saulina]], _Topological boundary conditions in abelian Chern-Simons theory_,  	Nucl.Phys.B845:393-435,2011 ([arXiv:1008.0654](http://arxiv.org/abs/1008.0654))
  {#KapustinSaulina12}
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Alessandro Valentino]], _Bicategories for boundary conditions and for surface defects in 3-d TFT_ ([arXiv:1203.4568](http://arxiv.org/abs/1203.4568))
@@ -971,7 +971,7 @@ Because we work modulo constants, the construction in this paper doesn't give an
 
 The BV-formalism for Chern-Simons theory on manifolds with [[boundary]] is discussed in
 
-* [[Anton Alekseev]], Yves Barmaz, [[Pavel Mnev]], _Chern-Simons Theory with Wilson Lines and Boundary in the BV-BFV Formalism_ ([arXiv:1212.6256](arxiv.org/abs/1212.6256))
+* [[Anton Alekseev]], Yves Barmaz, [[Pavel Mnev]], _Chern-Simons Theory with Wilson Lines and Boundary in the BV-BFV Formalism_ ([arXiv:1212.6256](http://arxiv.org/abs/1212.6256))
  {#AlekseevBarmazMnev}
 
 based on 
