@@ -103,28 +103,10 @@ modulates [[circle 2-bundles with connection]] mapping to circle 2-connections "
 +-- {: .num_defn #DifferentialConcretificationForAbelianNConnections}
 ###### Definition
 
-For $\Sigma \in \mathbf{H}$ any [[object]], the **differential concretification** of the [[internal hom]] ([[mapping ∞-stack]]) $[\Sigma, \mathbf{B}^n \mathbb{G}_{conn}]$ is the iterated [[(∞,1)-pullback]]
+For $\Sigma \in \mathbf{H}$ any [[object]], the **differential concretification** of the [[internal hom]] ([[mapping ∞-stack]]) $[\Sigma, \mathbf{B}^n \mathbb{G}_{conn}]$ is defined as follows:
 
-$$
-  (\mathbf{B}^{n-1}\mathbb{G})
-  \mathbf{Conn}(\Sigma)
-  \;
-  \coloneqq
-  \;
-  \sharp_1 [\Sigma, \mathbf{B}^n \mathbb{G}_{conn}]
-  \underset{
-    \sharp_1 [\Sigma, \mathbf{B}(\mathbf{B}^{n-1}\mathbb{G}_{conn})]
-  }{\times}
-  \sharp_2 [\Sigma, \mathbf{B}(\mathbf{B}^{n-1}\mathbb{G}_{conn})]
-  \underset{\sharp_2 [\Sigma, \mathbf{B}^2(\mathbf{B}^{n-2}\mathbb{G}_{conn})]}{\times}
-  \cdots
-  \underset{\sharp_{n-1}[\Sigma, \mathbf{B}^n \mathbb{G}]}{\times}
-  [\Sigma, \mathbf{B}^n \mathbb{G}]
-  \,,
-$$
+(...)
 
-
-where $\sharp_k(-)$ denotes the [[n-image|k-image]] of the [[unit of a monad|unit]] of the [[sharp modality]] $\sharp$.
 
 =--
 
