@@ -46,6 +46,8 @@ Under the [[Brown representability theorem]], the [[generalized cohomology theor
 
 * [[symmetric ring spectrum]]
 
+* [[symmetric algebra spectrum]]
+
 * [[module spectrum]], [[algebra spectrum]]
 
 * [[functor with smash products]]
