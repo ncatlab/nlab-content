@@ -1,4 +1,6 @@
 
+[[Daniel Quillen]] has proven many things, and various theorems carry his name:
+
 * [[Quillen's theorem A]]
 
 * [[Quillen's theorem B]]
