@@ -6,6 +6,31 @@
 
 A **double profunctor** is an appropriate notion of [[profunctor]] between [[double categories]].
 
+Thinking of a profunctor $H : C &#8696; D$ as representing some notion of [[heteromorphism]], double profunctors either represent a notion of _vertical_ heteromorphism or _horizontal_ heteromorphism. For clarity, this article focuses on the horizontal double profunctors. Vertical double profunctors can be defined by taking the transpose.
+
+That is, $H$ defines for each $c\in C, d \in D$ a set of horizontal heteromorphisms from $d$ to $c$ $H(d,c)$ so that a heteromorphism $h \in H(d,c)$ can be composed with horizontal morphisms $f : d' \to d$  in $D$  and $g : c \to c'$ in $C$ to yield a $f;h;g \in H(d',c')$.
+
+Furthermore, $H$ defines for each heteromorphisms $h \in H(d,c), h' \in H(d',c')$ and _vertical_ arrows $\alpha : d \to d', \beta : c \to c'$ a notion of hetero-2-cell:
+
+$$
+  \begin{matrix}
+    d
+    &\stackrel{h}{\to} &
+    c  
+    \\
+    {}^{\mathllap{\alpha}}\downarrow
+    &\Downarrow^{\mathrlap{\phi}}&
+    \downarrow^{\mathrlap{\beta}}
+    \\
+    d'
+    &\underset{h'}{\to} &
+    c'
+ \end{matrix}  
+$$
+
+That can be composed vertically with hetero-2-cells along $h,h'$ and horizontally with 2-cells in $D, C$ of the appropriate shape along $\alpha, \beta$.
+
+
 ## Definition
 
 A double profunctor can be defined in several equivalent ways.  In each case, however, we must choose whether to regard the "vertical" or the "horizontal" direction as primary; applying transposes results in a different notion of double profunctor.
