@@ -105,6 +105,8 @@ By ([Strickland 98](#Strickland98)) we have that if $G$ is the [[formal group]] 
 
 * [[logarithmic cohomology operation]]
 
+* [[spectral symmetric algebra]]
+
 ## References
 
 The basic idea is nicely described in 
@@ -114,6 +116,8 @@ The basic idea is nicely described in
 (from which some of the above text is adapted).
 
 More technical surveys include
+
+* [[Charles Rezk]], _Lectures on power operations_ ([dvi](http://www.math.uiuc.edu/~rezk/power-operation-lectures.dvi)) (2006)
 
 * [[Charles Rezk]], _Power operations in Morava E-theory --  a survey_ (2009) ([pdf](http://www.math.uiuc.edu/~rezk/midwest-2009-power-ops.pdf))
 
@@ -129,7 +133,7 @@ The original articles are
 
 * [[Charles Rezk]], _Power operations for Morava E-theory of height 2 at the prime 2_ ([arXiv:0812.1320](http://arxiv.org/abs/0812.1320))
 
-* {#Rezk09} [[Charles Rezk]], _The congruence criterion for power operations in Morava E-theory_ ([arXiv:0902.2499](http://arxiv.org/abs/0902.2499))
+* {#Rezk09} [[Charles Rezk]], _The congruence criterion for power operations in Morava E-theory_, Homology, Homotopy and Applications, 11(2), 327-379 ([arXiv:0902.2499](http://arxiv.org/abs/0902.2499))
 
 More discussion in the generality of [[E-infinity arithmetic geometry]] is in 
 
