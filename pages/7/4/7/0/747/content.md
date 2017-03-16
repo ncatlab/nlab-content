@@ -995,6 +995,15 @@ also left proper.
 
 But the local model structures are not in general right proper anymore.
 
++-- {: .num_prop #OverSiteWithEnoughPointsWeakEquivalencesDetectedOnStalks}
+###### Proposition
+
+Let $C$ be a [[site]] with [[point of a topos|enough points]]. Then the weak equivalences in the local model structures on $sPSh(C)$ are the [[stalk]]-wise [[weak homotopy equivalences]] of simplicial sets.
+
+=--
+
+p. 12 [here](http://www.math.uiuc.edu/K-theory/0175/))
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -1005,7 +1014,7 @@ simplicial sets.
 
 =--
 
-This is true for instance for the injective Jardine model structure when $C$ has [[point of a topos|enough points]]. (e.g. recalled on p. 12 [here](http://www.math.uiuc.edu/K-theory/0175/)).
+By prop. \ref{OverSiteWithEnoughPointsWeakEquivalencesDetectedOnStalks} this is true for instance for the injective Jardine model structure when $C$ has [[point of a topos|enough points]].
 
 +-- {: .proof}
 ###### Proof
