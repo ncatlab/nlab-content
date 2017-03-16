@@ -83,6 +83,8 @@ This is a stable version of the [[monoidal Dold-Kan correspondence]]. See there 
 
 * [[ring spectrum]], [[module spectrum]]
 
+* [[symmetric algebra spectrum]]
+
 * [[A-∞ algebra]], [[algebra in an (∞,1)-category]]
 
 ## References
