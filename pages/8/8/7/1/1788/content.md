@@ -25,11 +25,11 @@ The following gives a sufficient condition for modeling [[n-image]] factorizatio
 +-- {: .num_prop #nImageFactroizationModeledOnSimplicialPrsheaves}
 ###### Proposition
 
-Let $C$ be a site with [[point of a topos|enough points]], so that the weak equivalences in $sPSh(C)_{\mathrm{loc}}$ are detected on [[stalks]] ([this prop.](model+structure+on+simplicial+presheaves#OverSiteWithEnoughPointsWeakEquivalencesDetectedOnStalks)). Then given a morphism of [[Kan complex]]-valued [[simplicial presheaves]] 
+Let $C$ be a site with [[point of a topos|enough points]], so that the weak equivalences in $sPSh(C)_{\mathrm{loc}}$ are detected on [[stalks]] ([this prop.](model+structure+on+simplicial+presheaves#OverSiteWithEnoughPointsWeakEquivalencesDetectedOnStalks)). Then given a morphism of [[Kan complex]]-valued [[simplicial presheaves]]
 
 $$
   f \colon X \longrightarrow Y$ in $sPSh(C)
-$$ 
+$$
 
 such that both  $X$ and $Y$ are [[homotopy n-types|homotopy k-types]] for some finite $k \in \mathbb{N}$, then its [[n-image]] factorization in the [[(∞,1)-topos]] $L_{lwhe} sPSh(C)_{loc}$ for any $n \in \mathbb{N}$ is presented by any factorization $X \longrightarrow im_{n}(f) \longrightarrow Y$ in $sPSh(C)$ through some Kan-complex valued simplicial presheaf $im_n(f)$ such that for each object $U \in C$ the [[simplicial homotopy groups]] satisfy the following conditions:
 
@@ -50,37 +50,134 @@ Evalutation on [[stalks]] is a [[filtered colimit]] which preserves the [[finite
 
 In order to appeal to prop. \ref{nImageFactroizationModeledOnSimplicialPrsheaves} we are interested in explicit models for $n$-image factorization of morphisms of [[Kan complexes]]. The following gives such for the special case that the the morphism of Kan complexes is the image under the [[Dold-Kan correspondence]] of a [[chain map]] between [[chain complexes]].
 
-+-- {: .num_prop #nImageFactorizationOnChainComplex}
-###### Proposition
++-- {: .num_defn #ChainComplexnPlusOneImageInDegreen}
+###### Definition
 
 Let $f_\bullet \colon V_\bullet \longrightarrow W_\bullet$
-be a [[chain map]] between [[chain complexes]].
+be a [[chain map]] between [[chain complexes]]
 
-For $n \in \mathbb{N}$, define 
+For $n \in \mathbb{N}$, define
 
 $$
   (im_{n+1}(f))_n
-  \;\coloneqq\;
+    \;\coloneqq\;
   coker(\,
      ker(\partial_V) \cap ker(f_n)
-     \to 
+     \to
      V_n
   \,)
 $$
 
-which for the following is usefully thought of as
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+For the following it is helpful to think of the abelian group $(im_{n+1}(f))_n$ in def. \ref{ChainComplexnPlusOneImageInDegreen} in the following equivalent ways.
+
+Define an [[equivalence relation]] on $V_n$ by
+
+$$
+  \left(
+     v_n \sim v'_n
+  \right)
+  \;\Leftrightarrow\;
+  \left(
+    (\partial_V v_n = \partial_V v'_n)
+    \;\text{and}\;
+    (f_n(v_n) = f_n(v'_n))
+  \right)
+  \,.
+$$
+
+Then
+
+$$
+  (im_{n+1}(f))_n \simeq V_n/_\sim
+$$
+
+is equivalently the set of [[equivalence classes]] of this equivalence relation, which inherits abelian group structure since the eqivalence relation is linear.
+
+This is because the equivalence relation says equivalently that
+
+$$
+  \left(
+     v_n \sim v'_n
+  \right)
+  \;\Leftrightarrow\;
+  \left(
+    v_n - v'_n \;\in\; ker(\partial_V) \cap ker(f_n)
+  \right)
+$$
+
+and hence is generated under linearity by
+
+$$
+  \left(
+     v_n \sim 0
+  \right)
+  \;\Leftrightarrow\;
+  \left(
+    v_n  \in ker(\partial_V) \cap ker(f_n)
+  \right)
+  \,.
+$$
+
+Moreover, notice that the [[Dold-Kan correspondence]]
+
+$$
+  DK
+  \;\colon\;
+  Ch_{\bullet \geq 0}
+    \longrightarrow
+  KanCplx
+$$
+
+factors through [[globe|globular]] [[strict omega-groupoids]] ([here](Dold-Kan+correspondence#GlobularAndCubical)). An [[n-morphism]] in the [[strict omega-groupoid]] $DK(V_\bullet)$ is of the form
+
+$$
+  (v_{n-1})
+    \overset{\phantom{AA}v_n\phantom{AA}}{\longrightarrow}
+  (v_{n-1} + \partial v_n)
+  \,.
+$$
+
+In terms of these morphisms the [[equivalence relation]] above says that two of them are equivalent precisely if
+
+1. they are "[[parallel morphisms]]" in that they have the same [[source]] and [[target]];
+
+1. they have the same image under $f$ in the [[n-morphisms]] of  $DK(W_\bullet)$.
+
+
+This suggests yet another equivalent way to think of $(im_{n+1}(f))_n$: it is the [[disjoint union]] over the [[target]] $(n-1)$-cells in $V_{n-1}$ of the images under $f$ of the sets of $n$-cells from zero to that target:
 
 $$
   (im_{n+1}(f))_n
    \simeq
    \underset{v_{n-1} \in V_{n-1}}{\sqcup}
     \left\{
-      f_n(v_n) \vert \partial v_n = v_{n-1}
+      f_n(v_n) \vert v_n \in V_n \,\text{and}\,\partial v_n = v_{n-1}
     \right\}
   \,.
 $$
 
-Then consider the following diagram of [[abelian groups]]:
+
+=--
+
++-- {: .num_lemma #ImageFactorizationForChainComplexes}
+###### Lemma
+
+Let $f_\bullet \colon V_\bullet \longrightarrow W_\bullet$
+be a [[chain map]] between [[chain complexes]] and let
+$n \in \mathbb{N}$.
+
+
+Consider the [[abelian group]] $(im_{n+1}(f)_n)$
+from def. \ref{ChainComplexnPlusOneImageInDegreen}.
+
+Then the following [[diagram]] of [[abelian groups]]
+[[commuting diagram|commutes]]:
 
 $$
   \array{
@@ -88,11 +185,11 @@ $$
     \\
     \downarrow^{\mathrlap{\partial_{V}}}
      &&
-    \downarrow^{\mathrlap{\partial_{W}}}    
+    \downarrow^{\mathrlap{\partial_{W}}}
      &&
-    \downarrow^{\mathrlap{\partial_{W}}}    
+    \downarrow^{\mathrlap{\partial_{W}}}
     \\
-    V_{n+2} 
+    V_{n+2}
       &\overset{f_{n+2}}{\longrightarrow}&
     W_{n+2}
       &\overset{=}{\longrightarrow}&
@@ -100,11 +197,11 @@ $$
     \\
     \downarrow^{\mathrlap{\partial_{V}}}
      &&
-    \downarrow^{\mathrlap{\partial_{W}}}    
+    \downarrow^{\mathrlap{\partial_{W}}}
      &&
-    \downarrow^{\mathrlap{\partial_{W}}}    
+    \downarrow^{\mathrlap{\partial_{W}}}
     \\
-    V_{n+1} 
+    V_{n+1}
       &\overset{f_{n+1}}{\longrightarrow}&
     W^{res}_{n+1}
       &\overset{}{\longrightarrow}&
@@ -114,23 +211,23 @@ $$
      &&
     \downarrow^{\mathrlap{\partial_W}}
      &\text{(pb)}&
-    \downarrow^{\mathrlap{\partial_{W}}}    
+    \downarrow^{\mathrlap{\partial_{W}}}
     \\
-    V_n 
-      &\overset{f}{\longrightarrow}& 
+    V_n
+      &\overset{f}{\longrightarrow}&
     im_{n+1}(f)_n
-     &\hookrightarrow&
+     &\overset{(f_n(a),\partial_V a) \mapsto f(a)}{\longrightarrow}&
     W_n
     \\
     \downarrow^{\mathrlap{\partial_V}}
     &&
-    \downarrow
+    \downarrow^{\mathrlap{(f_n(a),\partial_V a) \mapsto \partial_V a}}
     &&
     \downarrow^{\mathrlap{\partial_W}}
     \\
-    V_{n-1} 
-      &\overset{=}{\longrightarrow}& 
-    V_{n-1} 
+    V_{n-1}
+      &\overset{=}{\longrightarrow}&
+    V_{n-1}
       &\overset{f_{n-1}}{\longrightarrow}&
     W_{n-1}
     \\
@@ -140,9 +237,9 @@ $$
     &&
     \downarrow^{\mathrlap{\partial_W}}
     \\
-    V_{n-2} 
-      &\overset{=}{\longrightarrow}& 
-    V_{n-2} 
+    V_{n-2}
+      &\overset{=}{\longrightarrow}&
+    V_{n-2}
       &\overset{f_{n-2}}{\longrightarrow}&
     W_{n-2}
     \\
@@ -168,13 +265,76 @@ $$
   \,.
 $$
 
-This is a model for the [[n-image|(n+1)-image factorization]] of $f$ in that on [[homology groups]] the following holds:
+=--
+
++-- {: .proof}
+###### Proof
+
+First of all we need to check that the four squares in the middle commute:
+
+$$
+  \array{
+    V_{n+1}
+      &\overset{f_{n+1}}{\longrightarrow}&
+    W^{res}_{n+1}
+      &\overset{}{\longrightarrow}&
+    W_{n+1}
+    \\
+    \downarrow^{\mathrlap{\partial_{V}}}
+     &&
+    \downarrow^{\mathrlap{\partial_W}}
+     &\text{(pb)}&
+    \downarrow^{\mathrlap{\partial_{W}}}
+    \\
+    V_n
+      &\overset{f}{\longrightarrow}&
+    im_{n+1}(f)_n
+     &\longrightarrow&
+    W_n
+    \\
+    \downarrow^{\mathrlap{\partial_V}}
+    &&
+    \downarrow
+    &&
+    \downarrow^{\mathrlap{\partial_W}}
+    \\
+    V_{n-1}
+      &\overset{=}{\longrightarrow}&
+    V_{n-1}
+      &\overset{f_{n-1}}{\longrightarrow}&
+    W_{n-1}
+  }
+  \,.
+$$
+
+On the bottom left, for $v_n \in V_n$, then
+
+
+=--
+
++-- {: .num_prop #nImageFactorizationOnChainComplex}
+###### Proposition
+
+Let $f_\bullet \colon V_\bullet \to W_\bullet$ be a [[chain map]],
+and let $n \in \mathbb{N}$. Then the factorization from lemma \ref{ImageFactorizationForChainComplexes}
+
+$$
+  f
+  \;\colon\;
+  V_\bullet
+   \longrightarrow
+  (im_{n+1}(f))_\bullet
+    \longrightarrow
+  W_\bullet
+$$
+
+is a model for the [[n-image|(n+1)-image factorization]] of $f$ in that on [[homology groups]] the following holds:
 
 1. $H_{\bullet \lt n}(V) \overset{\simeq}{\to} H_{\bullet \lt n}(im_{n+1}(f))$ are [[isomorphisms]];
 
 1. $H_n(V) \to H_n(im_{n+1}(f)) \hookrightarrow H_n(W)$ is the [[image|image factorization]] of $H_n(f)$;
 
-1. $H_{\bullet \gt n}(im_{n+1}(f)) \overset{\simeq}{\to} H_{\bullet \gt n}(W)$   are [[isomorphisms]]
+1. $H_{\bullet \gt n}(im_{n+1}(f)) \overset{\simeq}{\to} H_{\bullet \gt n}(W)$   are [[isomorphisms]].
 
 
 =--
@@ -182,7 +342,7 @@ This is a model for the [[n-image|(n+1)-image factorization]] of $f$ in that on 
 +-- {: .proof}
 ###### Proof (but check)
 
-This follows by elementary and straightforward direct inspection. 
+This follows by elementary and straightforward direct inspection.
 
 =--
 
@@ -231,11 +391,11 @@ $$
 +-- {: .num_defn #ModuliOfnFormConnection}
 ###### Definition
 
-For $\Sigma$ a [[smooth manifold]], write 
+For $\Sigma$ a [[smooth manifold]], write
 
 $$
   (\mathbf{B}^p U(1)) \mathbf{Conn}(\Sigma)
-  \in 
+  \in
   sPSh(CartSp)
 $$
 
@@ -305,13 +465,13 @@ $$
   \;\simeq\;
   DK\left(
     C^\infty(\Sigma \times U, U(1))
-     \to 
+     \to
     \Omega^1(\Sigma \times U)
-      \to 
+      \to
     \Omega^2(\Sigma \times U)
-     \to 
+     \to
     \cdots
-      \to 
+      \to
     \Omega^{p+1}(\Sigma \times U)
   \right)
 $$
@@ -323,11 +483,11 @@ $$
     \simeq
   DK\left(
     C^\infty(\Sigma \times U, U(1))
-     \to 
+     \to
     \Omega^{1,0}(\Sigma \times U)
-     \to 
+     \to
     \Omega^{2,0}(\Sigma \times U)
-      \to 
+      \to
     \cdots
       \to
     \Omega^{p+1,0}(\Sigma \times U)
@@ -343,15 +503,15 @@ $$
     \simeq
   DK\left(
     C^\infty(\Sigma \times U, U(1))
-     \to 
+     \to
     \Omega^{1,0}(\Sigma \times U)
-     \to 
+     \to
     \cdots
      \to
     \Omega^{k,0}(\Sigma \times U)
      \to
     0
-      \to 
+      \to
     \cdots
       \to
     0
@@ -372,7 +532,7 @@ $$
 
 is an objectwise Kan fibration, because so is $\mathbf{B}^{p+1}U(1)_{conn^{k+1}} \to \mathbf{B}^{p+1}U(1)_{conn^k}$ by def. \ref{TruncatedDelgneComplexes}, and both $[\Sigma,-]$ as well as $\sharp$ are right Quillen functors from $sPSh(C)$ with its global projective model structre to itself.
 
-It follows ([this prop.](homotopy+pullback#HomotopyPullbackByOrdinaryPullback)) that the homotopy fiber product in question 
+It follows ([this prop.](homotopy+pullback#HomotopyPullbackByOrdinaryPullback)) that the homotopy fiber product in question
 is presented by the plain 1-categorical fiber product. Since $DK$ is right adjoint, this in turn is given by the degreewise fiber product of the corresponding chain complexes. By direct inspection this means that
 
 $$
@@ -386,17 +546,17 @@ $$
    DK
    \left(
       C^\infty(\Sigma \times U, U(1))
-        \to 
+        \to
       \Omega^{1,0}(\Sigma \times U)
-        \to 
+        \to
       \cdots
         \to
       \Omega^{k,0}(\Sigma \times U)
         \to
       (\sharp \Omega^{k+1}(\Sigma \times -))(U)
-        \to 
+        \to
       0
-       \to 
+       \to
       \cdots
         \to
       0
@@ -411,7 +571,7 @@ $$
   DK
   (
     C^\infty(\Sigma \times U)
-     &\to& 
+     &\to&
     \Omega^1(\Sigma \times U)
       &\to&
     \cdots
@@ -428,12 +588,12 @@ $$
   )
   \\
     \downarrow
-    && 
+    &&
     \downarrow
     &&
     &&
     \downarrow
-    && 
+    &&
     \downarrow
     &&
     \downarrow
@@ -444,7 +604,7 @@ $$
    DK
    (
       C^\infty(\Sigma \times U, U(1))
-        &\to& 
+        &\to&
       \Omega^{1,0}(\Sigma \times U)
         &\to&
       \cdots
@@ -454,11 +614,11 @@ $$
       (\sharp \Omega^{k+1}(\Sigma \times -))(U)
         &\to&
       0
-       &\to& 
+       &\to&
       \cdots
         &\to&
       0
-   ) 
+   )
   }
 $$
 
@@ -467,7 +627,7 @@ Observe that in degree $(p+1)-(k+1)$ the ordinary image is
 $$
   im\left(
     \Omega^{k+1}(\Sigma \times U)
-      \to 
+      \to
      (\sharp \Omega^{k+1}(\Sigma \times -))(U)
   \right)
    \simeq
@@ -525,7 +685,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Let $\Sigma \simeq \underset{\longrightarrow}{\lim}_i^h U_i$ be the realization of the Cech nerve of a good open cover. Then 
+Let $\Sigma \simeq \underset{\longrightarrow}{\lim}_i^h U_i$ be the realization of the Cech nerve of a good open cover. Then
 
 $$
   \underset{\longleftarrow}{\lim}_i (\mathbf{B}^p  U(1))\mathbf{Conn}_{p+1}(U_i)
