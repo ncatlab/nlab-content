@@ -1,5 +1,17 @@
-[[!redirects symmetric algebra spectrum]]
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -58,13 +70,13 @@ $$
     & \simeq 
     R \wedge \left(
       \underset{n \in \mathbb{N}}{\coprod}
-      (B \Sigma(n))^{\mathbb{R}^n}
+      (B \Sigma(n))^{\tau_n}
     \right)
   \end{aligned}
   \,,
 $$
 
-where on the right we have the [[Thom space]] of the [[vector bundle]] [[associated bundle|associated]] to the $\Sigma(n)$-[[universal principal bundle]] via the canonical [[action]] of $\Sigma(n)$ on $\mathbb{R}^n$.
+where on the right we have the [[Thom space]] of the [[vector bundle]] $\tau_n$ [[associated bundle|associated]] to the $\Sigma(n)$-[[universal principal bundle]] via the canonical [[action]] of $\Sigma(n)$ on $\mathbb{R}^n$ (see also at [symmetric group -- Classifying space and Thom space](permutation#ClassifyingSpaceAndThomSpace)).
 
 The operation $Sym_R$ is of course functorial, and hence any choice of $R$-linear map $f_x \colon R \to E$ induces morphisms
 
@@ -121,3 +133,5 @@ Symmetric algebras in the context of [[power operation]] on [[generalized (Eilen
 * {#Rezk14} [[Charles Rezk]], _Isogenies, power operations, and homotopy theory_, article ([pdf](http://www.math.uiuc.edu/~rezk/rezk-icm-talk-posted.pdf)) and talk at ICM 2014 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-icm-2014-slides.pdf))
 
 [[!redirects symmetric algebra spectra]]
+
+[[!redirects symmetric algebra spectrum]]
