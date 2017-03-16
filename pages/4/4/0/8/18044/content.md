@@ -78,7 +78,7 @@ $$
     \wedge
     \left(
        \underset{n \in \mathbb{N}}{\coprod}
-        B \Sigma(n)^{\mathbb{R}^n}
+        B \Sigma(n)^{\tau_n}
     \right)_+
     \\
     & \simeq
@@ -88,6 +88,7 @@ $$
   \,.
 $$
 
+where on the right we have the [[Thom space]] of the [[vector bundle]] $\tau_n$ [[associated bundle|associated]] to the $\Sigma(n)$-[[universal principal bundle]] via the canonical [[action]] of $\Sigma(n)$ on $\mathbb{R}^n$ (see also at [symmetric group -- Classifying space and Thom space](permutation#ClassifyingSpaceAndThomSpace)).
 
 
 
@@ -109,3 +110,11 @@ $$
 
 [[!redirects spectral super scheme]]
 [[!redirects spectral super schemes]]
+
+[[!redirects spectral superpoint]]
+[[!redirects spectral superpoints]]
+[[!redirects spectral super point]]
+[[!redirects spectral super points]]
+[[!redirects spectral super-point]]
+[[!redirects spectral super-points]]
+
