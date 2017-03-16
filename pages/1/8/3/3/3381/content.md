@@ -58,7 +58,7 @@ One may regard the symmetric group $S_n$ as the [[general linear group]] in dime
 ### Classifying space and universal Thom space
  {#ClassifyingSpaceAndThomSpace}
 
-The [[classifying space]] $B \Sigma(n)$ of the symmetric group on $n$ elements may be presented by $Emd(\{1,\cdots, n\}, \mathbb{R}^\infty)/\Sigma(n)$.
+The [[classifying space]] $B \Sigma(n)$ of the symmetric group on $n$ elements may be presented by $End(\{1,\cdots, n\}, \mathbb{R}^\infty)/\Sigma(n)$, the [[Fadell's configuration space]] on $n$ unordered points in $\mathbb{R}^\infty$.
 
 
 Write $\tau_n$ for the [[rank]] $n$ [[vector bundle]] over this which exhibits the canonical [[action]] of $\Sigma(n)$ on $\mathbb{R}^n$, by permutation of [[coordinates]].
