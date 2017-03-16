@@ -110,7 +110,7 @@ $$ \array {
 
 * [[Bourbaki]], _Alg&#232;bre_, chap. III, &#167; 6.
 
-The [[symmetric algebra spectum]] of the [[sphere spectrum]], and its structure as a [[Hopf ring spectrum]] is discussed in
+The [[symmetric algebra spectrum]] of the [[sphere spectrum]], and its structure as a [[Hopf ring spectrum]] is discussed in
 
 * [[Neil Strickland]], [[Paul Turner]], _Rational Morava $E$-theory and $D S^0$_, Topology Volume 36, Issue 1, January 1997, Pages 137-151 ([pdf](http://hopf.math.purdue.edu/Strickland-PTurner/rme.pdf))
 
