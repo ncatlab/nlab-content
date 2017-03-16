@@ -49,6 +49,48 @@ That [[E-infinity algebras]] over [[even cohomology theory|even]] [[periodic rin
 
 Hence it makes sense to define spectral/$E_\infty$ super-geometry simply to be [[E-∞ geometry]] over [[even cohomology theory|even]] [[periodic ring spectra]].
 
+## Examples
+
+### Spectral superpoint
+  {#SpectralSuperpoint}
+
+The ordinary [[superpoint]] over some [[field]] $k$ is the [[spectrum of a commutative ring]] of the graded [[symmetric algebra]] on a single odd generator ("graded [[ring of dual numbers]]")
+
+$$
+  \mathbb{A}_k^{0 \vert 1}
+  \;\simeq\;
+  Spec( \,Sym_k (k[1])\, )
+$$ 
+
+Accordingly, for $R$ an [[even cohomology theory|even]] [[periodic ring spectrum]], then the _spectral superpoint_ $R^{0 \vert 1}$ should be the [[spectral scheme]] given by the [[spectral symmetric algebra]] on the [[suspension spectrum]] of $R$:
+
+$$
+  \begin{aligned}
+    R^{0 \vert 1}
+     &\coloneqq
+    Spec
+    \left(
+      Sym_R (\Sigma R)
+    \right)
+    \\
+    & \simeq
+    R
+    \wedge
+    \left(
+       \underset{n \in \mathbb{N}}{\coprod}
+        B \Sigma(n)^{\mathbb{R}^n}
+    \right)_+
+    \\
+    & \simeq
+    R \wedge
+    Sym_{\mathbb{S}}(\Sigma \mathbb{S})
+  \end{aligned}
+  \,.
+$$
+
+
+
+
 ## References
 
 
@@ -64,3 +106,6 @@ Hence it makes sense to define spectral/$E_\infty$ super-geometry simply to be [
 [[!redirects spectral supergeometry]]
 [[!redirects E-∞ supergeometry]]
 [[!redirects E-infinity supergeometry]]
+
+[[!redirects spectral super scheme]]
+[[!redirects spectral super schemes]]
