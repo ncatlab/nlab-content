@@ -23,7 +23,7 @@ $$
   \;.
 $$
 
-It is precisely in [[positive characteristic]] $p$ that this operation is indeed an algebra [[homomorphism]]. 
+It is precisely in [[positive characteristic]] $p$ that this operation is indeed an algebra [[homomorphism]] ("[[freshman dream arithmetic]]"). 
 
 The Frobenius map is the shadow of the [[power operations]] in [[multiplicative cohomology theory]]/[[higher algebra]] ([Lurie, remark 2.2.7](#Lurie)).
 
@@ -97,10 +97,11 @@ If $X$ is a $k$-scheme $X^{(p)}$ is a $k$-scheme, too.
 Since the completion functor ${}^\hat\;:Sch_k\to fSch_k$ commutes with the above constructions the Frobenius morphism can be defined for [[formal scheme|formal k-schemes]], too.
 
 ### In terms of symmetric products
+ {#InTermsOfSymmetricProducts}
 
 We give here another characterization of the [[Frobenius morphism]] in terms of symmetric products.
 
-Let $p$ be a prime number, let $k$ be a field of [[characteristic]] $p$, let $V$ be a $k$-vector space, let $\otimes^p V$ denote the $p$-fold tensor power of $V$, let $TS^p V$ denote the subspace of symmetric tensors. Then we have the symmetrization operator
+Let $p$ be a prime number, let $k$ be a field of [[characteristic]] $p$, let $V$ be a $k$-vector space, let $\otimes^p V$ denote the $p$-fold tensor power of $V$, let $TS^p V$ denote the subspace of symmetric tensors, yielding the [[symmetric algebra]]. Then we have the symmetrization operator
 
 $$s_V:
 \begin{cases}
@@ -109,16 +110,26 @@ $$s_V:
 a_1\otimes\cdots\otimes a_n\mapsto \Sigma_{\sigma\in S_p}a_{\sigma(1)}\otimes\cdots\otimes a_{\sigma(n)}
 \end{cases}$$
 
-end the linear map
+and the linear map
 
-$$\alpha_V:
+$$
+\alpha_V 
+  \colon
 \begin{cases}
-TS^p V\to\otimes^p V
-\\
-a\otimes \lambda\mapsto\lambda(a\otimes\cdots\otimes a)
+  V^{(p)} \to\otimes^p V
+  \\
+  a\otimes \lambda\mapsto\lambda(a\otimes\cdots\otimes a)
 \end{cases}$$
 
-then the map $V^{(p)}\stackrel{\alpha_V}{\to}TS^p V\to TS^p V/s(\otimes^p V)$ is bijective and we define $\lambda_V:TS^p V\to V^{(p)}$ by
+then the map $V^{(p)}\stackrel{\alpha_V}{\to}TS^p V\to TS^p V/s(\otimes^p V)$ is [[bijective]] and we define 
+
+$$
+  \lambda_V
+   \;\colon\;
+  TS^p V\to V^{(p)}
+$$ 
+
+by
 
 $$\lambda_V\circ s=0$$
 
@@ -129,7 +140,7 @@ $$\lambda_V \circ \alpha_V= id$$
 
 If $A$ is a $k$-ring we have that $TS^p A$ is a $k$-ring and $\lambda_A$ is a $k$-ring morphism.
 
-If $X=Sp_k A$ is a ring spectrum we abbreviate $S^p X=S^p_k X:=Sp_k (TS^p A)$ and the following diagram is commutative.
+If $X=Sp_k A$ is the [[spectrum of a commutative ring]] we abbreviate $S^p X 0 S^p_k X \coloneqq Sp_k (TS^p A)$ and the following diagram is commutative.
 
 $$\array{
 X
@@ -146,11 +157,11 @@ X^p
 
 ### For fields
 
-* Frobenius is always [[injective]]. Note that the Frobenius morphism of schemes (see below) is *not* always a monomorphism.
+* The Frobenius morphism on algebras is always [[injective]]. Note that the Frobenius morphism of schemes (see below) is *not* always a monomorphism.
 
-* The [[image]] of Frobenius is the set of elements of $k$ with a $p$-th root and is sometimes denoted $k^{1/p}$.
+* The [[image]] of the Frobenius morphism is the set of elements of $k$ with a $p$-th root and is sometimes denoted $k^{1/p}$.
 
-* Frobenius is [[surjective]] if and only if $k$ is [[perfect field|perfect]].
+* The Frobenius morphism is [[surjective]] if and only if $k$ is [[perfect field|perfect]].
 
 ### As elements of the Galois group
  {#AsElementsOfGaloisGroup}
