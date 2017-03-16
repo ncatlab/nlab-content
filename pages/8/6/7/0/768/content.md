@@ -768,6 +768,13 @@ between [[homotopy classes]] of functions from $X$ to $B O(n)$ and isomorphism c
 A full proof is spelled out in ([Hatcher, section 1.2, theorem 1.16](#Hatcher))
 
 
+### For symmetric principal bundles
+
+* the _unordered_ [[Fadell's configuration space]] of $n$ points in $\mathbb{R}^\infty$ is a model for the classifying space $B \Sigma(n)$ of the [[symmetric group]] $\Sigma(n)$;
+
+* the _ordered_ configuration space of $n$ points, equipped with the canonical $\Sigma(n)$-[[action]], is a model for the $\Sigma(n)$-[[universal principal bundle]].
+
+
 ### For crossed complexes
 
 We discuss here classifying spaces of [[crossed complex]]es.
