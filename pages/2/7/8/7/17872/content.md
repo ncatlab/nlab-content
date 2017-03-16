@@ -1,4 +1,5 @@
 
+## Idea
 
 The 2-[[periodic ring spectrum]]-version of [[Morava K-theory]].
 
