@@ -41,6 +41,8 @@ Historically the theory of general relativity was developed by [[Albert Einstein
 
 * Emil T. Akhmedov, _Lectures on General Theory of Relativity_ ([arXiv:1601.04996](https://arxiv.org/abs/1601.04996))
 
+* Pietro Menotti, _Lectures on gravitation_ ([arXiv:1703.05155](https://arxiv.org/abs/1703.05155))
+
 [[!redirects General Relativity]]
 
 [[!redirects theory of general relativity]]
