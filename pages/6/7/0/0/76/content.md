@@ -52,6 +52,14 @@ In a model category, a morphism which is both a fibration and a weak equivalence
 
 ### Examples 
 
+
+* [[topological homotopy theory]], [[classical model structure on topological spaces]],
+
+* [[simplicial homotopy theory]], [[classical model structure on simplicial sets]]
+
+
+* [[localic homotopy theory]]
+
 For a (higher) category theorist, the following examples of model categories are perhaps the most useful to keep in mind:
 
  * $C=$ sets, $W=$ isomorphisms.  _All_ morphisms are both fibrations and cofibrations.  The $(\infty,1)$-category presented is again the 1-category $Set$.
@@ -197,8 +205,8 @@ Brief indications of open questions and future directions (as of 2013) of [[alge
 
 and in
 
-* _Problems in homotopy theory_ ([wiki](http://topology-octopus.herokuapp.com/problemsinhomotopytheory/show/HomePage))
- {#ProblemsInHomotopyTheoryWiki}
+* {#ProblemsInHomotopyTheoryWiki} _Problems in homotopy theory_ ([wiki](http://topology-octopus.herokuapp.com/problemsinhomotopytheory/show/HomePage))
+ 
 
 
 
