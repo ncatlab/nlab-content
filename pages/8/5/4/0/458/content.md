@@ -397,6 +397,7 @@ There is also a notion of [[internal locale]], see also [[internal site]].
 
 * [[profinite space]], [[profinite reflection]]
 
+* [[localic homotopy theory]]
 
 ## References 
 
@@ -428,23 +429,23 @@ An introductory survey is
 
 Plenty of material is also in part C (volume 2) of
 
-*  [[Peter Johnstone]], _[[Elephant|Sketches of an elephant: a topos theory compendium]]_.
- {#Johnstone}
+* {#Johnstone} [[Peter Johnstone]], _[[Elephant|Sketches of an elephant: a topos theory compendium]]_.
+ 
 
 Locales are also discussed in section IX.1 of 
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
-{#MacLaneMoerdijk}
+* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+
 
 Lex totality is the subject of an article of Street, 
 
-* [[Ross Street]], Notions of Topos, Bull. Australian Math. Soc. 23 (1981), 199-208. 
-{#Street}
+* {#Street} [[Ross Street]], Notions of Topos, Bull. Australian Math. Soc. 23 (1981), 199-208. 
+
 
 The connection between locales and toposes via lex totality plays a tacit role throughout the influential monograph 
 
-* [[André Joyal]] and [[Myles Tierney]], _An Extension of the Galois Theory of Grothendieck_, Memoirs of the American Mathematical Society 51 (1984). 
-{#JT}
+* {#JT} [[André Joyal]] and [[Myles Tierney]], _An Extension of the Galois Theory of Grothendieck_, Memoirs of the American Mathematical Society 51 (1984). 
+
 
 
 [[!redirects locale]]
