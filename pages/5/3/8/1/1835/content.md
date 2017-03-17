@@ -135,6 +135,12 @@ Different authors take different approaches to the underlying set-theoretic issu
 Demazure-Gabriel steer a middle course involving [[universes]]: assuming two universes $U$ and $V$ with $\mathbb{N} \in U \in V$, one has a category of "small rings" (belonging to $U$) and a category of sets (belonging to $V$) and one considers functors $M \to Set$ from small rings (called "models") to (not necessarily small) sets. They remark that the device of using universes is really just a convenience that could mostly be dispensed with: one could work within the standard Bernays-G&#246;del framework by assuming that the models are inclusive enough to hold various standard commutative algebra constructions (e.g., quotients, localizations, completions) while still remaining a small category. However, since they wish to avail themselves of direct limits in the category of models, they choose to work with universes instead. 
 =-- 
 
+## Properties
+
+* [[schemes are sober]]
+
+(...)
+
 ## Generalizations
 
 In [[algebraic geometry]] this is a basic object of study, since the revolution of [[Grothendieck]]. There are generalizations like [[relative schemes]] (which are just objects in a [[slice category]] $Sch/S$), relative [[noncommutative scheme]]s in [[noncommutative algebraic geometry]] introduced by A. Rosenberg in terms of categories and covers defined using pairs of [[adjoint functors]], the generalized schemes of [[Nikolai Durov]], the [[algebraic stack]]s of [[Deligne-Mumford stack|Deligne-Mumford]] and Artin, the dg-schemes of Kapranov, the [[derived scheme]]s of [[Jacob Lurie]], the higher [[algebraic stack]]s of [[Bertrand Toen|Toën]]--Vezzosi, almost schemes (Ofer Gabber and Lorenzo Ramero), formal schemes (Cartier--Grothendieck), [[locally affine spaces]] in the fpqc, fppf or &#233;tale topology (Grothendieck), [[algebraic spaces]], etc. See also [[generalized scheme]].
