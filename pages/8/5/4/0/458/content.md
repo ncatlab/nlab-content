@@ -190,6 +190,8 @@ A [[topological space]] $X$ with $X \cong X_{L P}$ is called **[[sober space|sob
 A locale with $X \cong X_{P L}$ is called **[[spatial locale|spatial]]** or **topological**; one also says that it has **enough points**.
 =--
 
+see also MO [here](http://math.stackexchange.com/a/1904289/58526)
+
 +-- {: .num_cor}
 ###### Corollary
 
