@@ -195,6 +195,8 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 
 ## Related entries 
 
+* [[law of double negation]]
+
 * [[Heyting algebra]] 
 
 * [[Boolean algebra]] 
