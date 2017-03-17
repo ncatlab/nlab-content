@@ -145,9 +145,12 @@ Expository lecture notes:
 
 * {#Armstrong17} Drew Armstrong, _Introduction to Geometry_, 2017 ([pdf](http://www.math.miami.edu/~armstrong/daVinci/HGnotes.pdf)) 
  
-A textbook account of the axiomatization of Euclidean geometry is
+Textbook accounts of the axiomatization of Euclidean geometry include these:
 
 * [[Wolfram Schwabhäuser]], [[Wanda Szmielew]], [[Alfred Tarski]], _Mathematische Methoden in der Geometrie_, Springer 1983
+
+* {#Petrunin13} [[Anton Petrunin]], _Euclidean Plane and its Relatives; a minimalistic introduction_, ([arXiv:1302.1630](https://arxiv.org/abs/1302.1630))
+
 
 Full formalization of this book in [[Coq]] (as [[synthetic geometry]] but following Tarski's work) is discussed at 
 
