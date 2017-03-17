@@ -19,7 +19,7 @@
 * table of contents
 {:toc}
 
-## Idea 
+## Idea
 
 Bousfield localization is a procedure that to a [[model category]] structure $C$ assigns a new one with more weak equivalences. It is a special case of a [[localization of model categories]], corresponding to the homotopy-version of the notion of [[localization]] of categories by [[reflective subcategories]].
 
@@ -28,10 +28,10 @@ The historically original example is the [[Bousfield localization of spectra]]. 
 ## Definition
 
 +-- {: .num_defn }
-###### First definition 
+###### First definition
 
 
-A _left Bousfield localization_ $C_{loc}$ of a model category $C$ is another model category structure on the same underlying category with the same cofibrations, 
+A _left Bousfield localization_ $C_{loc}$ of a model category $C$ is another model category structure on the same underlying category with the same cofibrations,
 
 $$
   cof_{C_{loc}} = cof_c
@@ -48,10 +48,10 @@ $$
 
 While that's a very simple definition, it turns out that something interesting happens to the fibrations when we keep the cofibrations fixed and increase the weak equivalences.
 
-+-- {: .num_remark }
-###### Remark 
++-- {: .num_remark #ImmediateImpiciationsOfLeftBousfieldLocalization}
+###### Remark
 
-It follows directly that 
+It follows directly that
 
 * $C_{loc}$ has as fibrations a subset of fibrations of $C$
 
@@ -116,20 +116,20 @@ Such a localization is determined by the collection $S$ of _[[local object|local
 
 More in detail, the weak equivalences that are added under Bousfield localization are ''$S$-local weak equivalences" for some set $S \subset Mor(C)$. We will see [below](#LocHasToBeSLoc) why this is necessarily the case if $C$ is a [[cofibrantly generated model category]]. For the moment, we take the following to be a refined definition of left Bousfield localization.
 
-Let $C$ be a 
+Let $C$ be a
 
-* [[proper model category|left proper]] 
+* [[proper model category|left proper]]
 
-* [[cofibrantly generated model category|cofibrantly generated]] 
+* [[cofibrantly generated model category|cofibrantly generated]]
 
-* [[simplicial model category]]. 
+* [[simplicial model category]].
 
 * $S \subset cof_C \subset Mor(C)$ be a subclass of cofibrations with cofibrant domain.
 
-We want to characterize objects in $C$ that "see elements of $S$ as weak equivalences". Notice that 
+We want to characterize objects in $C$ that "see elements of $S$ as weak equivalences". Notice that
 
 +-- {: .num_lemma }
-###### Observation 
+###### Observation
 
 In an ordinary category $C$, by the [[Yoneda lemma]] a morphism $f : A \to B$ is an [[isomorphism]] precisely if for all objects $X$ the morphism
 
@@ -137,7 +137,7 @@ $$
   Hom_C(f,X) : Hom_C(B,X) \to Hom_C(A,X)
 $$
 
-is an [[isomorphism]] (of sets, i.e. a [[bijection]]). 
+is an [[isomorphism]] (of sets, i.e. a [[bijection]]).
 
 =--
 
@@ -145,7 +145,7 @@ So we can "test isomorphism by homming them into objects".
 This phenomenon we use now the other way round, to characterize new weak equivalences:
 
 +-- {: .num_defn }
-###### Definition 
+###### Definition
 **($S$-local objects and $S$-local weak equivalences)**
 
 Say that
@@ -158,7 +158,7 @@ Say that
 
   is a trivial [[Kan fibration]];
 
-* conversely, say that a cofibration $f : A \hookrightarrow B$ is an $S$-local weak equivalence if for all $S$-local fibrant objects $X$ the morphism $C(f,X) : C(B,X) \to 
+* conversely, say that a cofibration $f : A \hookrightarrow B$ is an $S$-local weak equivalence if for all $S$-local fibrant objects $X$ the morphism $C(f,X) : C(B,X) \to
 C(A,X)$ is a trivial [[Kan fibration]].
 
 =--
@@ -167,7 +167,7 @@ This is a slightly simplified version of a more general definition using [[deriv
 
 
 +-- {: .num_def }
-###### Definition 
+###### Definition
 **($S$-local objects and $S$-local weak equivalences)**
 
 Assume that we have fibrant and cofibrant replacement functors $P,Q : C \to C$. Then say
@@ -180,7 +180,7 @@ Assume that we have fibrant and cofibrant replacement functors $P,Q : C \to C$. 
 
   is a [[model structure on simplicial sets|weak equivalence of simplicial sets]];
 
-* conversely, say that a cofibration $f : A \hookrightarrow B$ is an $S$-local weak equivalence if for all $S$-local objects $X$ the morphism $C(Q f,P X) : C(Q B,P X) \to 
+* conversely, say that a cofibration $f : A \hookrightarrow B$ is an $S$-local weak equivalence if for all $S$-local objects $X$ the morphism $C(Q f,P X) : C(Q B,P X) \to
 C(Q A,P X)$ is a weak equivalence.
 
 That this second condition is indeed compatible with the first one is shown [here](http://ncatlab.org/nlab/show/local+object#PropInModCat).
@@ -190,16 +190,16 @@ That this second condition is indeed compatible with the first one is shown [her
 We write $W_S$ for the collection of $S$-local weak equivalences.
 
 +-- {: .num_remark }
-###### Remark 
+###### Remark
 
-For every weak equivalence $f : A \stackrel{\simeq}{\to} B$ between cofibrant objects and every fibrant object $X$ it follows generally from the fact that $C$ is an [[SSet]]-[[enriched category]] that 
+For every weak equivalence $f : A \stackrel{\simeq}{\to} B$ between cofibrant objects and every fibrant object $X$ it follows generally from the fact that $C$ is an [[SSet]]-[[enriched category]] that
 
 $$
   C(f,X) : C(B,X) \to C(A,X)
 $$
 
-is a weak equivalence of simplicial sets. 
-This is described in detail at 
+is a weak equivalence of simplicial sets.
+This is described in detail at
 [enriched homs from cofibrants to fibrants](http://ncatlab.org/nlab/show/%28infinity%2C1%29-categorical+hom-space#EnrichedHomsCofToFib).
 
 =--
@@ -207,7 +207,7 @@ This is described in detail at
 Here this implies in particular
 
 +-- {: .num_lemma }
-###### Observation 
+###### Observation
 
 
 Every ordinary weak equivalence is also $S$-local weak equivalence.
@@ -222,7 +222,7 @@ $$
 Therefore, for any set $S$, we can consider the left Bousfield localization at the $S$-local weak equivalences $W_S$:
 
 +-- {: .num_defn }
-###### Definition 
+###### Definition
 **(left Bousfield localization)**
 
 The left Bousfield localization $L_S C$ of $C$ **at $S$** is, if it exists, the new model category structure on $C$ with
@@ -237,7 +237,7 @@ The left Bousfield localization $L_S C$ of $C$ **at $S$** is, if it exists, the 
 
 Assume that the left Bousfield localization $L_S C$ of a given model category at a class $S$ of cofibrations with cofibrant domain exists. Then it has the following properties.
 
-#### Fibrants in $L_S C$ are the $S$-local fibrants in $C$ 
+#### Fibrants in $L_S C$ are the $S$-local fibrants in $C$
 
 +-- {: .num_prop }
 ###### Proposition
@@ -249,7 +249,7 @@ The fibrant objects in $L_S C$ are precisely the fibrant objects in $C$ that are
 +-- {: .proof}
 ###### Proof
 
-To see this, we modify, if necessary, the set $S$ in a convenient way without changing the class $W_S$ of $S$-[[local object|local weak equivalence]]s that it defines. 
+To see this, we modify, if necessary, the set $S$ in a convenient way without changing the class $W_S$ of $S$-[[local object|local weak equivalence]]s that it defines.
 
 
 **Lemma** We may add to $S$ any set of $S$-local cofibrations without changing the collection of $S$-[[local object]]s and hence without changing the collection of $S$-local weak equivalences themselves. In particular, we may add to $S$ without changing $W_S$
@@ -257,21 +257,21 @@ To see this, we modify, if necessary, the set $S$ in a convenient way without ch
 * all generating acyclic cofibrations of $C$, i.e. $J \subset S$;
 
 
-* for every original morphism $f : A \to B$ in $S$ and for every $n \in \mathbb{N}$ also the canonical morphism 
+* for every original morphism $f : A \to B$ in $S$ and for every $n \in \mathbb{N}$ also the canonical morphism
 
   $$
-    \tilde f : (Q_f := A \cdot 
-    \Delta^n \coprod_{A \cdot \partial \Delta^n} 
+    \tilde f : (Q_f := A \cdot
+    \Delta^n \coprod_{A \cdot \partial \Delta^n}
     B \cdot \partial \Delta^n) \to B \cdot \Delta^n
     \,,
-  $$ 
+  $$
 
-  where $A \cdot \Delta^n$ etc. denotes 
+  where $A \cdot \Delta^n$ etc. denotes
   the [[copower|tensoring]] of $C$ over [[SSet]].
 
 **Proof of the Lemma**
 
-We discuss why these morphisms of the latter type are indeed $S$-local cofibrations with cofibrant domain: 
+We discuss why these morphisms of the latter type are indeed $S$-local cofibrations with cofibrant domain:
 
 to see that $\tilde f$ is indeed a cofibration notice that for every commuting diagram
 
@@ -307,7 +307,7 @@ $$
   \array{
     \partial \Delta^n &\to& C(B,X)
     \\
-    \downarrow^{\mathllap{\in cof_{SSet} \cap W_{SSet}\quad}} 
+    \downarrow^{\mathllap{\in cof_{SSet} \cap W_{SSet}\quad}}
     && \quad \downarrow^{\in fib_{SSet}}
     \\
     \Delta^n &\to& C(A,X)
@@ -321,9 +321,9 @@ Therefore $\tilde f : Q_f \to B \cdot \Delta^n $ is indeed a cofibration.
 
 Notice that in these arguments we made use of
 
-* the [[power]]ing and [[copower]]ing of the [[simplicially enriched category]] $C$ over [[SSet]] 
+* the [[power]]ing and [[copower]]ing of the [[simplicially enriched category]] $C$ over [[SSet]]
 
-* and of the [[Quillen bifunctor]] property of the [[copower]]ing which ensures that the fibrations and cofibrations are as indicated. 
+* and of the [[Quillen bifunctor]] property of the [[copower]]ing which ensures that the fibrations and cofibrations are as indicated.
 
 Next, again using the [[Quillen bifunctor]] property of the [[copower|tensoring]] of $C$ over [[SSet]] we find that with $A$ cofibrant in $C$ and $\Delta^n$ being cofibrant in [[SSet]] it follows that $A \cdot \Delta^n$ is cofibrant; similarly for the other cases. The coproduct of two cofibrant objects is cofibrant because cofibrations are preserved under pushout. Therefore $Q_f$ is indeed a cofibrant domain of our cofibration.
 
@@ -337,7 +337,7 @@ $$
     &\stackrel{\in W}{\leftarrow}&
     [\partial \Delta^n, [B,X]]
     \\
-    \uparrow^{\mathrlap{\in fib}} && 
+    \uparrow^{\mathrlap{\in fib}} &&
     \uparrow
     \\
     [\Delta^n,[A,X]]
@@ -348,7 +348,7 @@ $$
     \\
     &&&& [B \cdot \Delta^n, X]
   }
-$$ 
+$$
 
 in [[SSet]]. Here the top and the lowest morphisms are weak equivalences by the fact that $[B,X] \to [A,X]$ is an acyclic Kan fibration by the characterization of $S$-[[local object|local cofibrations]] and the fact that [[SSet]] is an [[SSet]]-[[enriched model category]]. Similarly for the fibration on the left, which implies by right [[proper model category|properness]] of [[SSet]] that the bottom horizontal morphism is a weak equivalence, which finally implies by [[category with weak equivalences|2-out-of-3]] that the morphism in question is a weak equivalence.
 
@@ -392,7 +392,7 @@ $$
   \,,
 $$
 
-and in terms of this a lift 
+and in terms of this a lift
 
 $$
   \array{
@@ -417,7 +417,7 @@ $$
   \,.
 $$
 
-Since $\{\partial \Delta^n \to \Delta^n | n \in \mathbb{N}\}$ are the generating acylic fibrations in the standard [[model structure on simplicial sets]], this shows the extension property of $S$ with respect to all $\tilde f$ means that all $C(s,X) : C(B,X) \to C(A,X)$ are acyclic [[Kan fibration]]s. 
+Since $\{\partial \Delta^n \to \Delta^n | n \in \mathbb{N}\}$ are the generating acylic fibrations in the standard [[model structure on simplicial sets]], this shows the extension property of $S$ with respect to all $\tilde f$ means that all $C(s,X) : C(B,X) \to C(A,X)$ are acyclic [[Kan fibration]]s.
 
 Conversely, if $X$ is fibrant and $S$-local, then for all $A \to B$ in $S$ the map $[B,X] \to [A,X]$ in $SSet$ is an acyclic [[Kan fibration]] hence in particular its underlying map of sets $Hom_C(B,X) \to Hom_C(A,X)$ is a surjection, so $X$ has the extension property.
 
@@ -429,12 +429,12 @@ Conversely, if it is $S$-local and fibrant in $C$; then, as mentioned before, fo
 =--
 
 
-#### Fibrant replacement in $L_S W$ -- localization of objects 
+#### Fibrant replacement in $L_S W$ -- localization of objects
 
 If $S$ is a small set, we may apply the [[small object argument]] to $S$. If we apply it to factor all morphisms $X \to {*}$ to the [[terminal object]] we obtain a functorial factorization componentwise of the form
 
 $$
-  X \stackrel{\eta_X \in cell(S)\subset W_S}{\to} 
+  X \stackrel{\eta_X \in cell(S)\subset W_S}{\to}
   T X \stackrel{inj(S)}{\to} {*}
   \,.
 $$
@@ -453,7 +453,8 @@ in $L_S C$ relating an object to its fibrant approximation.
 #### $S$-local weak equivalences between $S$-local objects are weak equivalences
 
 
-+-- {: .num_prop }
+
++-- {: .num_prop #LocalWeakEquivalencesBetweenLocalObjects}
 ###### Proposition
 
 The $S$-local weak equivalences between $S$-local fibrant objects are precisely the original weak equivalences between these objects.
@@ -463,16 +464,162 @@ The $S$-local weak equivalences between $S$-local fibrant objects are precisely 
 +-- {: .proof}
 ###### Proof
 
-Consider the full subcategory $Ho_S(C) \subset Ho(C)$ 
+Consider the full subcategory $Ho_S(C) \subset Ho(C)$
 of the [[homotopy category]] of $C$ on the $S$-[[local object]]s. The image of an $S$-local weak equivalence
 $f : A \to B$ in there satisfies for _every_ object $X$
 in there that $Hom_{Ho_S(C)}(f,X)$ is an [[isomorphism]].
-By the [[Yoneda lemma]] this implies that $f$ is an 
+By the [[Yoneda lemma]] this implies that $f$ is an
 isomorphism in $Ho_S(C)$. Since that is a [[full subcategory]], it follows that $f$ is also an isomorphism in $Ho(C)$. But that means precisely that it is a weak equivalence in $C$.
 
 =--
 
+It follows that also the fibrations between local objects remain the same:
 
++-- {: .num_prop #LocalFibrationsBetweenLocalObjectsAreGlobalFibrations }
+###### Proposition
+
+Consider a left Bousfield localization
+with [[functorial factorization]] (e.g. of a [[combinatorial model category]], via the [[small object argument]]).
+
+Then 
+if $X, Y \in Fib_{loc}$ are [[local objects]], a morphism
+$p \colon X\longrightarrow Y$ between them is a fibration with respect to the local model structure precisely already if it is a fibration with respect to the original model structure.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+From remark \ref{ImmediateImpiciationsOfLeftBousfieldLocalization} we already know that $Fib_{loc} \subset Fib$, generally. Hence we need to show that if $p \in Fib$ with $X$ and $Y$ local, then $p \in Fib_{loc}$.
+
+So given a [[lifting problem]] of the form
+
+$$
+  \array{
+     A &\overset{f}{\longrightarrow}& X \mathrlap{\in Fib_{loc}}
+     \\
+     {}^{\mathllap{\in W_{loc} \cap Cof}}\downarrow
+       &&
+     \downarrow^{\mathrlap{\in Fib}}
+     \\
+     B &\underset{g}{\longrightarrow}& Y \mathrlap{\in Fib_{loc}}
+  }
+$$
+
+we need to exhibit a lift. (In labeling the arrows we use throughout that $Cof_{loc} = Cof$.)
+
+By assumption of [[functorial factorization]] we may factor this diagram
+as follows:
+
+$$
+  \array{
+     A
+       &\overset{\in W_{loc} \cap Cof }{\longrightarrow}&
+     \widehat{A}
+       &\overset{\in Fib_{loc}}{\longrightarrow}&
+     X \mathrlap{\in Fib_{loc}}
+     \\
+     {}^{\mathllap{\in W_{loc} \cap Cof}} \downarrow
+       &&
+       \downarrow^{\mathrlap{  }}
+       &&
+     \downarrow^{\mathrlap{\in Fib}}
+     \\
+     B
+       &\underset{\in W_{loc} \cap Cof}{\longrightarrow}&
+     \widehat{B}
+       &\underset{ \in Fib_{loc} }{\longrightarrow}&
+     Y \mathrlap{\in Fib_{loc}}
+  }
+$$
+
+
+
+It follows that $\widehat{A}, \widehat{B} \in Fib_{loc}$.
+
+
+Consider next the further factorization of the middle vertical morphism 
+as $\overset{W_{loc} \cap Cof}{\longrightarrow} \overset{\in Fib_{loc}}{\longrightarrow}$
+
+$$
+  \array{
+     A
+       &\overset{\in W_{loc} \cap Cof }{\longrightarrow}&
+     \widehat{A}
+       &\overset{\in Fib_{loc}}{\longrightarrow}&
+     X \mathrlap{\in Fib_{loc}}
+     \\
+     {}^{\mathllap{id}}\downarrow
+       &&
+     {}^{\mathllap{\in W \cap Cof}}\downarrow
+       &&
+     \downarrow^{\mathrlap{\in Fib}}
+     \\
+     A
+       &\longrightarrow&
+     \widehat{\widehat{A}}
+       &\longrightarrow&
+     Y
+     \\
+     {}^{\mathllap{\in W_{loc} \cap Cof}}\downarrow
+        &&
+     \downarrow^{\mathrlap{\in Fib_{loc}}}
+       &&
+     \downarrow^{\mathrlap{id}}
+     \\
+     B
+       &\underset{\in W_{loc} \cap Cof}{\longrightarrow}&
+     \widehat{B}
+       &\underset{ \in Fib_{loc} }{\longrightarrow}&
+     Y \mathrlap{\in Fib_{loc}}
+  }
+$$
+
+Since it follows that  $\widehat A, \widehat{\widehat A} \in Fib_{loc}$ we invoke prop. \ref{LocalWeakEquivalencesBetweenLocalObjects}
+to conclude that the top middle morphism is not just in $W_{loc} \cap Cof$ 
+but indeed in $W \cap Cof$, as shown. 
+This means that we have [[lifting]] in the top right square. Moreover, 
+we also evidently have lifting in the bottom left square. 
+
+$$
+  \array{
+     A
+       &\overset{\in W_{loc} \cap Cof }{\longrightarrow}&
+     \widehat{A}
+       &\overset{\in Fib_{loc}}{\longrightarrow}&
+     X \mathrlap{\in Fib_{loc}}
+     \\
+     {}^{\mathllap{id}}\downarrow
+       &&
+     {}^{\mathllap{\in W \cap Cof}}\downarrow
+       &{}^{\mathllap{\exists}}\nearrow&
+     \downarrow^{\mathrlap{\in Fib}}
+     \\
+     A
+       &\longrightarrow&
+     \widehat{\widehat{A}}
+       &\longrightarrow&
+     Y
+     \\
+     {}^{\mathllap{\in W_{loc} \cap Cof}}\downarrow
+        &{}^{\mathllap{\exists}}\nearrow&
+     \downarrow^{\mathrlap{\in Fib_{loc}}}
+       &&
+     \downarrow^{\mathrlap{id}}
+     \\
+     B
+       &\underset{\in W_{loc} \cap Cof}{\longrightarrow}&
+     \widehat{B}
+       &\underset{ \in Fib_{loc} }{\longrightarrow}&
+     Y \mathrlap{\in Fib_{loc}}
+  }
+$$
+
+
+Together, these lifts
+constitute the desired total lift.
+
+=--
 
 #### Every Bousfield localization is of this form {#LocHasToBeSLoc}
 
@@ -483,14 +630,14 @@ We now show that every localization in the first sense is indeed of the second k
 +-- {: .num_prop }
 ###### Proposition
 
-In the context of left proper, cofibrantly generated simplicial model categories, 
+In the context of left proper, cofibrantly generated simplicial model categories,
 
 for $C_{loc}$ a left Bousfield localization of $C$ (i.e. a structure with the same cofibrations as $C$ and more weak equivalences), there is a set $S \subset Mor(C)$ such that
 
 $$
   C_{loc} = L_S C
   \,.
-$$ 
+$$
 
 =--
 
@@ -516,7 +663,7 @@ $$
   \array{
     X' &\stackrel{\in cof_C}{\to}& Y'
     \\
-    \downarrow^{\mathrlap{\in W_C}} 
+    \downarrow^{\mathrlap{\in W_C}}
      && \downarrow^{\mathrlap{\in W_C}}
     \\
     X &\stackrel{f}{\to}& Y
@@ -531,7 +678,7 @@ $$
   C(Y',Z) \to C(X',Z)
 $$
 
-is a trivial fibration. Either by assumption or by the [characterization of S-local cofibrations](http://ncatlab.org/nlab/show/local+object#PropInModCat) this is the case if $Z$ is $S$-local and fibrant in $C$. The first statement is one of the direct consequences of the definition of $C_{loc}$ and the second follows because $S = J_{C_{loc}}$. 
+is a trivial fibration. Either by assumption or by the [characterization of S-local cofibrations](http://ncatlab.org/nlab/show/local+object#PropInModCat) this is the case if $Z$ is $S$-local and fibrant in $C$. The first statement is one of the direct consequences of the definition of $C_{loc}$ and the second follows because $S = J_{C_{loc}}$.
 
 
 =--
@@ -546,8 +693,8 @@ Let $C$ and $D$ be categories for which left Bousfield localization exists, and 
 
 $$
   (L \dashv R)
-  : 
-  C 
+  :
+  C
   \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
   D
 $$
@@ -556,8 +703,8 @@ be a [[Quillen equivalence]]. Then for every small set $S \subset Mor(D)$ there 
 
 $$
   (L \dashv R)
-  : 
-  C_{L(S)} 
+  :
+  C_{L(S)}
   \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
   D_{S}
   \,.
@@ -610,9 +757,9 @@ The first part is theorem 3.3.19 in _ModLoc_ . The second part is prop 3.3.4, wh
 
 ## Existence of localizations for combinatorial model categories {#Existence}
 
-We discuss the existence of left Bousfield localization in the context of [[combinatorial model category|combinatorial model categories]]. A similar existence result is available in the context of [[cellular model category|cellular model categories]], but for the combinatorial case a somewhat better theory is available. 
+We discuss the existence of left Bousfield localization in the context of [[combinatorial model category|combinatorial model categories]]. A similar existence result is available in the context of [[cellular model category|cellular model categories]], but for the combinatorial case a somewhat better theory is available.
 
-By the corollary to [Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) on presentations for [[combinatorial model category|combinatorial model categories]] we have that every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to a [[proper model category|left proper]] [[simplicial model category|simplicial]] combinatorial model category. 
+By the corollary to [Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) on presentations for [[combinatorial model category|combinatorial model categories]] we have that every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to a [[proper model category|left proper]] [[simplicial model category|simplicial]] combinatorial model category.
 
 Therefore there is little loss in assuming this extra structure, which the following statement of the theorem does.
 
@@ -620,15 +767,15 @@ Therefore there is little loss in assuming this extra structure, which the follo
 +-- {: .num_theorem }
 ###### Theorem
 
-If $C$ is a 
+If $C$ is a
 
-* [[proper model category|left proper]] 
+* [[proper model category|left proper]]
 
 * [[simplicial model category|simplicial]]
 
-* [[combinatorial model category]] 
+* [[combinatorial model category]]
 
-* and $S \subset Mor(C)$ is a small [[set]] of morphisms, 
+* and $S \subset Mor(C)$ is a small [[set]] of morphisms,
 
 then the left Bousfield localization $L_S C$ does exist as a [[combinatorial model category]].
 
@@ -646,22 +793,22 @@ Moreover, it satisfies the following conditions:
 +-- {: .proof}
 ###### Proof
 
-A proof of this making use of [Jeff Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) for [[combinatorial model category|combinatorial model categories]] appears 
-as [[Higher Topos Theory|HTT, prop. A.3.7.3]] and 
-as theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067) and as theorem 4.7 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf). 
+A proof of this making use of [Jeff Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) for [[combinatorial model category|combinatorial model categories]] appears
+as [[Higher Topos Theory|HTT, prop. A.3.7.3]] and
+as theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067) and as theorem 4.7 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf).
 
 We follow [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf) for the proof that the assumptions of Smith's recognition theorem are satisfied and follow [[Higher Topos Theory|HTT, prop. A.3.7.3]] for the characterization of the fibrant objects. The details are spelled out in the following subsections.
 
 =--
 
 
-### Prerequisites for the proof 
+### Prerequisites for the proof
 
 The proof we give is self-contained, except that it builds on the following notions and facts.
 
 #### Small objects
 
-A [[cardinal number]] $\kappa$ is _regular_ if it is not the cardinality of a union of $\lt \kappa$ sets of size $\lt \kappa$. 
+A [[cardinal number]] $\kappa$ is _regular_ if it is not the cardinality of a union of $\lt \kappa$ sets of size $\lt \kappa$.
 
 A [[poset]] $J$ is a $\kappa$-[[directed set]] if all subsets of cardinality $\lt \kappa$ have a common upper bound. A $\kappa$-[[directed colimit]] is a [[colimit]] $\lim_\to F$ over a functor $F : J \to C$.
 
@@ -680,7 +827,7 @@ In particular, in a locally presentable category the [[small object argument]] f
 
 #### Combinatorial model categories
 
-A [[combinatorial model category]] is a [[locally presentable category]] that is equipped with a [[cofibrantly generated model category]] structure. So in particular there is a set of generating (acyclic) cofibrations that map between [[small object]]s. 
+A [[combinatorial model category]] is a [[locally presentable category]] that is equipped with a [[cofibrantly generated model category]] structure. So in particular there is a set of generating (acyclic) cofibrations that map between [[small objects]].
 
 [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#SmithTheorem) says that a [[locally presentable category]] has a combinatorial model category structure already if it has weak equivalences and generating cofibrations satisfying a simple condition and if weak equivalences form an [[accessible category|accessible]] [[subcategory]] of the [[arrow category]]. This means that only two thirds of the data for a generic combinatorial model category needs to be checked and greatly facilitates checking model category structures.
 
@@ -688,7 +835,8 @@ A [[combinatorial model category]] is a [[locally presentable category]] that is
 
 So we may assume without much restriction of generality that we are dealing with the localization of a [[proper model category|left proper]] [[combinatorial simplicial model category]].
 
-Since the [[small object argument]] applies, a [[combinatorial model category]] has fibrant- and cofibrant-replacement functors $P,Q : C \to C$. 
+Since the [[small object argument]] applies, a [[combinatorial model category]] has fibrant- and cofibrant-replacement functors $P,Q : C \to C$
+([[functorial factorization]]).
 
 By the axioms of an [[enriched model category]] it follows that the functor
 
@@ -696,16 +844,16 @@ $$
   \mathbf{R}Hom_C := C(Q(-),P(-)): C^{op} \times C \to SSet
 $$
 
-takes values in [[Kan complex]]es. This is called the [[derived hom space]] functor of $C$: we think of $\mathbf{R}Hom(X,Y)$ as the [[∞-groupoid]] of maps from $X$ to $Y$, homotopies of maps, homotopies of homotopies, etc.
+takes values in [[Kan complexes]]. This is called the [[derived hom space]] functor of $C$: we think of $\mathbf{R}Hom(X,Y)$ as the [[∞-groupoid]] of maps from $X$ to $Y$, homotopies of maps, homotopies of homotopies, etc.
 
 
 #### Local objects
 
 An ordinary [[reflective subcategory]] $C_{loc} \stackrel{\stackrel{T}{\leftarrow]}}{\hookrightarrow} C$ is specified by the preimages $S = T^{-1}(isos)$ of the isomorphisms under $T$ as the full subcategory on the $S$-[[local object]]s $X$: those such that $Hom_C(A \stackrel{s \in S}{\to}B, X)$ are isomorphisms.
 
-The analogous statement in the context of model categories uses the [[derived hom space]] functor instead: given a collection $S \subset Mor(C)$ an object $X$ is called an $S$-[[local object]] if $\mathbf{R}Hom_C(A \stackrel{s \in S}{\to} B, X)$ are weak equivalences. 
+The analogous statement in the context of model categories uses the [[derived hom space]] functor instead: given a collection $S \subset Mor(C)$ an object $X$ is called an $S$-[[local object]] if $\mathbf{R}Hom_C(A \stackrel{s \in S}{\to} B, X)$ are weak equivalences.
 
-Similarly, the collection $W_S$  of morphisms $f : E \to F$ such that for all $S$-local objects $X$ $\mathbf{R}Hom_C(f,X)$ is a weak equivalence is called the collection of $S$-[[local object|local weak equivalence]]s. 
+Similarly, the collection $W_S$  of morphisms $f : E \to F$ such that for all $S$-local objects $X$ $\mathbf{R}Hom_C(f,X)$ is a weak equivalence is called the collection of $S$-[[local object|local weak equivalence]]s.
 
 A [lemma by Lurie](http://ncatlab.org/nlab/show/local+object#PropInModCat) says that for $A \stackrel{s \in S}{\hookrightarrow} B$ a cofibration and $X$ fibrant, $X$ is $S$-local precisely if $C(s,X) : C(B,X) \to C(A,X)$ is an [[Kan fibration|acyclic Kan fibration]]. This helps identifying the $S$-local fibrant objects.
 
@@ -715,7 +863,7 @@ In an ordinary category, a [[limit]] diagram is one such that applying $Hom_C(X,
 
 In a model category, this has an analog with respect to the [[derived hom space]] functor $\mathbf{R}Hom_C$. A [[homotopy limit]] diagram is one sent by all $\mathbf{R}Hom_C(-,X)$ to a homotopy limit (...). Similarly for homotopy colimits.
 
-Sometimes ordinary (co)limits in a model category are already also homotopy colimits: 
+Sometimes ordinary (co)limits in a model category are already also homotopy colimits:
 
 * an [observation by Barwick](http://ncatlab.org/nlab/show/local+object#PropInModCat) shows that in a [[proper model category|left proper]] [[simplicial model category]] ordinary [[pushout]]s along cofibrations are already homotopy colimits.
 
@@ -724,7 +872,7 @@ Sometimes ordinary (co)limits in a model category are already also homotopy coli
 Since these are the two operations under which $cell(cof_c \cap W_C)$ is closed, this facilitates finding this closure given that by the above the elements of $cof_C \cap W_S$ are characterized by their images under $\mathbf{R}Hom_C(-,X)$ for $S$-local $X$.
 
 
-#### Size issues 
+#### Size issues
 
 The following proof uses the [[small object argument]] several times. In particular, at one point it is applied relative to the collection $S$ of morphisms at which we localize. It is at this point that we need that assumption that $S$ is indeed a (small) [[set]], and not a proper [[class]].
 
@@ -745,15 +893,15 @@ To establish this we need two [properties of accessible categories](http://ncatl
 =--
 
 
-#### Recognition of the combinatorial model structure 
+#### Recognition of the combinatorial model structure
 
-Using [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem), for establishing the [[combinatorial model category]] structure, it is sufficient to 
+Using [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem), for establishing the [[combinatorial model category]] structure, it is sufficient to
 
 * exhibit a [[set]] $I$ of cofibrations of $L_S C$ such that $inj(I) \subset W_{L_S C}$ and such that $cof(I) \cap W_{L_S C}$ is closed under [[pushout]] and [[transfinite composition]].
 
 * check that the weak equivalences form an accessibly embedded accessible subcategory.
 
-For the first item choose $I := I_C$ with $I_C$ any set of generating cofibrations of $C$, that exists by assumption on $C$. 
+For the first item choose $I := I_C$ with $I_C$ any set of generating cofibrations of $C$, that exists by assumption on $C$.
 Then $inj(I) = inj(I_C) = fib_C \cap W_C \subset W_C \subset W_{L_S C}$.
 
 It remains to demonstrate closure of $cof(I) \cap W_{L_S C} = cof_C \cap W_{L_S C}$ under pushout and transfinite composition.
@@ -764,7 +912,7 @@ One elegant way to see this, following [Bar](http://www.math.harvard.edu/~clarkb
 
 * all [[transfinite composition]] colimits in a [[combinatorial model category]] are homotopy colimits (details are [here](http://ncatlab.org/nlab/show/combinatorial+model+category#properties_17))
 
-By their definition in terms of the [[derived hom space]] functor, $S$-local weak equivalences in $C$ are preserved under [[homotopy limit|homotopy colimit]]s: 
+By their definition in terms of the [[derived hom space]] functor, $S$-local weak equivalences in $C$ are preserved under [[homotopy limit|homotopy colimit]]s:
 
 for $K \stackrel{}{\to}L$ an $S$-local morphism -- a morphism in $W_{L_S C}$ -- and for
 
@@ -885,7 +1033,7 @@ The above statement is generalized to the context of [[enriched model category]]
 +-- {: .num_theorem }
 ###### Theorem (existence of enriched Bousfield localization)
 
-Let 
+Let
 
 * $V$ be a [[tractable model category|tractable]] [[symmetric monoidal category|symmetric]] [[monoidal model category]];
 
@@ -922,9 +1070,9 @@ This is ([Barwick, theorem 4.46](#Barwick)).
 
 
 
-## Examples and Applications 
+## Examples and Applications
 
-### Categories to which the general existence theorem applies 
+### Categories to which the general existence theorem applies
 
 The following [[model category|model categories]] $C$ are left [[proper model category|proper]] [[cellular model category|cellular]]/[[combinatorial model category|combinatorial]], so that the above theorem applies and for every [[set]] $S \subset Mor(C)$ the Bousfield localization $L_S C$ does exist.
 
@@ -940,20 +1088,20 @@ If $C$ is a left [[proper model category|proper]] ([[simplicial model category|s
 
 * the [[functor category]] $[D,C]$ for any ([[simplicially enriched category|simplicial]]) [[small category]]  $D$ (using the [[global model structure on functors]]);
 
-* the [[over category]] $C/s$ for any object $x \in C$ . 
+* the [[over category]] $C/s$ for any object $x \in C$ .
 
 ### At derived idempotent monads
 
-The [[Bousfield-Friedlander theorem]] gives Bousfield localizations at the [[derived functor]]-version of [[idempotent monads]]. 
+The [[Bousfield-Friedlander theorem]] gives Bousfield localizations at the [[derived functor]]-version of [[idempotent monads]].
 
 See there for more examples of this general construction.
 
 ### Localization of spectra
 
-see _[[Bousfield localization of spectra]]_ 
+see _[[Bousfield localization of spectra]]_
 
 
-### Local model structure on presheaves 
+### Local model structure on presheaves
 
 Left Bousfield localization produces the _local_ [[model structure on homotopical presheaves]]. For instance the [[local model structure on simplicial presheaves]].
 
@@ -968,9 +1116,9 @@ As described at [[presentable (∞,1)-category]], an [[(∞,1)-category]] $\math
 
 The _proof_ of this proceeds via Bousfield localization, and effectively exhibits Bousfield localization as the procedure that models [[localization of an (∞,1)-category]] when $(\infty,1)$-categories are modeled by model categories.
 
-For notice that 
+For notice that
 
-1. a presentable $(\infty,1)$-category $\mathbf{C}$ is one arising as the [[localization of an (∞,1)-category|localization]] 
+1. a presentable $(\infty,1)$-category $\mathbf{C}$ is one arising as the [[localization of an (∞,1)-category|localization]]
 
    $$
      \mathbf{C} \simeq S^{-1} Funct(K,\infty Grpd) = S^{-1}PSh_{(\infty,1)}(K)
@@ -978,18 +1126,18 @@ For notice that
 
    of an [[(∞,1)-category of (∞,1)-presheaves]]
 
-1. every [[(∞,1)-category of (∞,1)-presheaves]]    
+1. every [[(∞,1)-category of (∞,1)-presheaves]]
    $PSh_{(\infty,1)}(K)  \simeq ([K,SSet]_{inj})^\circ$ arises as
-   the subcategory of fibrant-cofibrant objects of the 
+   the subcategory of fibrant-cofibrant objects of the
    global [[model structure on simplicial presheaves]];
 
-1. in terms of the [[simplicial model category]] 
-   $[K,SSet]_{inj}$ the prescription for 
+1. in terms of the [[simplicial model category]]
+   $[K,SSet]_{inj}$ the prescription for
    [[localization of an (∞,1)-category|localization as an (∞,1)-category]] and passing to the subcategory of fibrant-cofibrant objects of the Bousfield localization $L_S [K,SSet]_{inj}$ is literally the same: in both cases one passes to the full subcategory on the $S$-[[local object]]s.
 
 Moreover, by [Dugger's theorem on combinatorial model categories](http://ncatlab.org/nlab/show/combinatorial+model+category#duggers_theorem_13) every [[combinatorial simplicial model category]] arises this way.
 
-This is the argument of [[Higher Topos Theory|HTT, prop A.3.7.6]]. 
+This is the argument of [[Higher Topos Theory|HTT, prop A.3.7.6]].
 
 This gives a good conceptual interpretation of Bousfield localization, since the [[localization of an (∞,1)-category]] is nothing but an adjunction
 
@@ -1008,10 +1156,10 @@ So we find the diagram
 
 $$
   \array{
-      Sh_{(\infty,1)}(K) 
+      Sh_{(\infty,1)}(K)
      &\stackrel{\stackrel{lex}{\leftarrow}}{\hookrightarrow}
      &
-     PSh_{(\infty,1)}(K) 
+     PSh_{(\infty,1)}(K)
      &&&
      abstract\;higher\;categorical\;def
      \\
@@ -1036,9 +1184,9 @@ $$
 Here $(-)^\circ$ denotes passing to the full [[simplicially enriched category|simplicially enriched]] [[subcategory]] on the fibrant-cofibrant objects, regarding that as an [[(∞,1)-category]]. (If one wants to regard that as a [[quasi-category]], then $(-)^\circ$ also involves taking the [[homotopy coherent nerve]] of this simplicially enriched category.)
 
 
-### Localization of triangulated categories 
+### Localization of triangulated categories
 
-There is also a notion of 
+There is also a notion of
 [[Bousfield localization of triangulated categories]].
 
 Under suitable conditions it should be true that for $C$ a model category whose [[homotopy category]] $Ho(C)$ is a [[triangulated category]] the homotopy category of a left Bousfield localization of $C$ is the left Bousfield localization of $Ho(C)$. See [this answer on MO](http://mathoverflow.net/a/136517/1291).
@@ -1052,12 +1200,12 @@ Under suitable conditions it should be true that for $C$ a model category whose 
 
 
 
-## References 
+## References
 
 Bousfield localization appears as definition 3.3.1 in
 
-* **ModLoc**, [[Philip Hirschhorn|P. Hirschhorn]],  _Model categories and their localizations_, volume 99 
-of Mathematical Surveys and Monographs , American Mathematical Society, 
+* **ModLoc**, [[Philip Hirschhorn|P. Hirschhorn]],  _Model categories and their localizations_, volume 99
+of Mathematical Surveys and Monographs , American Mathematical Society,
 2009,
 
 for left proper [[cellular model category|cellular model categories]].
@@ -1075,7 +1223,7 @@ A detailed discussion of Bousfield localization in the general context of [[enri
 * {#Barwick} [[Clark Barwick]], _On (enriched) left Bousfield localization of model categories_ ([arXiv:0708.2067](http://arxiv.org/abs/0708.2067))
 
 * [[Clark Barwick]], _On the Dreaded Right Bousfield Localization_ ([arXiv:0708.3435](http://arxiv.org/abs/0708.3435))
- 
+
 Bousfield localization_ ([pdf](http://www.math.harvard.edu/~clarkbar/complete.pdf))
 
 in terms of [[enriched model category|enriched]] [[tractable model category|tractable model categories]].
@@ -1103,4 +1251,4 @@ Vol. 355, No. 9 (Sep., 2003), pp. 3611-3623 ([JSTOR](http://www.jstor.org/stable
 [[!redirects left Bousfield localisation]]
 [[!redirects left Bousfield localisations]]
 [[!redirects right Bousfield localisation]]
-[[!redirects right Bousfield localisations]]
+[[!redirects right Bousfield localisations]] 
