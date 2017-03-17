@@ -59,9 +59,11 @@ synthetic geometry. A genuinely synthetic axiomatization of differential geometr
 
 * {#Tarski} [[Alfred Tarski]], _What is elementary geometry?_, in _The axiomatic method. With special reference to geometry and physics_ Proceedings of an International Symposium held at the Univ. of Calif., Berkeley, Dec. 26, 1957-Jan. 4, 1958 (ed. L. Henkin, P. Suppes, and A. Tarski), Studies in Logic and the Foundations of Mathematics, Amsterdam: North-Holland (1959), pp. 16&#8211;29. ([pdf](http://www.geographicknowledge.de/SeminarLFG/Tarski_Whatiselementarygeometry.pdf))
 
-A textbook account of the axiomatization of [[Euclidean geometry]] is
+Textbook accounts of the axiomatization of [[Euclidean geometry]] includes these:
 
 * [[Wolfram Schwabhäuser]], [[Wanda Szmielew]], [[Alfred Tarski]], _Mathematische Methoden in der Geometrie_, Springer 1983
+
+* {#Petrunin13} [[Anton Petrunin]], _Euclidean Plane and its Relatives; a minimalistic introduction_, ([arXiv:1302.1630](https://arxiv.org/abs/1302.1630))
 
 Full formalization of the first part of this book in [[Coq]] (as synthetic geometry but following Tarski's work) is discussed at 
 
