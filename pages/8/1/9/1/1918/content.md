@@ -169,6 +169,9 @@ Specific examples should be found on the pages for specific separation axioms.
 
 The English Wikipedia has [a decent article](http://secure.wikimedia.org/wikipedia/en/wiki/Separation_axiom), but since I ([[Toby Bartels]]) wrote that too, it\'s not really an independent source.  But you can check the references there!
 
+Lecture notes include
+
+* Vipul Naik, _Topology: The journey into separation axioms_ ([pdf](http://www.cmi.ac.in/~vipul/mathjourneys/contytopologysep.pdf))
 
 [[!redirects topologically distinct points]]
 [[!redirects topologically disjoint sets]]
