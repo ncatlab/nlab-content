@@ -4,7 +4,8 @@
 ###Context###
 #### Homotopy theory
 +--{: .hide}
-[[!include homotopy - contents]]=--
+[[!include homotopy - contents]]
+=--
 #### Model category theory
 +--{: .hide}
 [[!include model category theory - contents]]
@@ -28,9 +29,9 @@ $$
 
 The classical example is the category of [[topological spaces]] with weak equivalences those [[continuous functions]] which are _[[homotopy equivalences]]_ or _[[weak homotopy equivalences]]_. The corresponding homotopy category is often referred to as "the homotopy category", by default, or the "[[classical homotopy category]]" for emphasis. This turns out to be equivalent to the category of topological spaces or (for weak homotopy equivalences) of just those [[homeomorphism|homoemorphic]] to [[CW-complexes]] with [[left homotopy]]-[[homotopy class|classes]] of continuous functions between them, whence the name "homotopy category".
 
-The existence of a homotopy category, as well as tractable presentations of it typically require extra [[properties]] of the class of weak equivalences (such as that they admit a [[calculus of fractions]]) or even extra [[structure]] (such as [[fibration category]]/[[cofibration category]] structure, or full [[model category]] structure, or further enhancements of that to [[simplicial model category]] structures, etc).
+The existence of a homotopy category, as well as tractable presentations of it typically require extra [[properties]] of the class of weak equivalences (such as that they admit a [[calculus of fractions]]) or even extra [[structure]] (such as [[fibration category]]/[[cofibration category]] structure, or full [[model category]] structure, or further enhancements of that to [[simplicial model category]] structures, etc). See at _[[homotopy category of a model category]]_ for more on this.
 
-More generally, to every [[(∞,1)-category]] is associated a homotopy category, whose morphisms are literally the [[homotopy classes]] of the original morphisms (see also at _[[homotopy category of an (∞,1)-category]]_).
+More generally, to every [[(∞,1)-category]] is associated a homotopy category, whose morphisms are literally the [[homotopy classes]] of the original morphisms. See at _[[homotopy category of an (∞,1)-category]]_ for more on this.
 
 These two concepts of "homotopy category" are compatible: to a [[category with weak equivalences]] is associated, if it exsists, an [[(∞,1)-category]] obtained by universally forcing the [[weak equivalences]] to become actual [[homotopy equivalences]], also called the _[[simplicial localization]]_ $L_W \mathcal{C}$ at the weak equivalences. The homotopy categories of $(\mathcal{C},W)$ and of $L_W \mathcal{C}$ coincide, which justifies the terminology "homotopy category" generally.
 
