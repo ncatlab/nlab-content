@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 # The separation axioms
-* tic
+* table of contents
 {: toc}
 
 ## Idea
@@ -164,3 +175,6 @@ The English Wikipedia has [a decent article](http://secure.wikimedia.org/wikiped
 [[!redirects separated sets]]
 [[!redirects separation axiom]]
 [[!redirects separation axioms]]
+
+[[!redirects T0]]
+[[!redirects T1]]
