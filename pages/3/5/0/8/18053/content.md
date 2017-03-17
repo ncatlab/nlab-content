@@ -51,7 +51,7 @@ A _Fra&#239;ss&#233; limit_ $\underset{\rightarrow}{\operatorname{Flim}}(\mathca
 
 - Olivia Caramello remarks in her topos-theoretic Fra&#239;ss&#233; paper (linked below) that the [[classifying topos]] of an [[omega-categorical]] structure $A$ presentable as a Fra&#239;ss&#233; limit is precisely the [[category of G-sets|category of continuous Aut(A)]]-sets, where the automorphism group of $A$ is equipped with the topology of pointwise convergence.
 
-- It is interesting when a structure is presentable as both a Fra&#239;ss&#233; limit and ultraproduct of finite structures. In more suggestive terminology, this means that the _generic_ and the _almost-sure_ (one way of obtaining the almost-sure theory of a collection of finite structures is to take the theory of their ultraproduct) theories of the underlying collection of finite structures coincide. For example, the countable random graph above satisfies a zero-one law.
+- It is interesting when a structure is presentable as both a Fra&#239;ss&#233; limit and (an elementary submodel of) an ultraproduct of finite structures. In more suggestive terminology, this means that the _generic_ and the _almost-sure_ (one way of obtaining the almost-sure theory of a collection of finite structures is to take the theory of their ultraproduct) theories of the underlying collection of finite structures coincide. For example, the countable random graph above satisfies a zero-one law.
 
 - Recently, Zilber has been trying to study [[field with one element|F_1-geometry]] by 'fusing' the algebraic closures of finite fields together with a Hrushovski construction and studying a nonstandard extension ([[ultrapower]]) of the result.
 
