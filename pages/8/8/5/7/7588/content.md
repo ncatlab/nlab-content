@@ -15,7 +15,7 @@
 
 ## Idea
 
-__Pointless topology__ is any formulation of [[topology]] not based on the notion of [[topological space]] as a [[set]] of [[points]] equipped with [[extra structure]].  (A pointless space must still be this set with [[extra stuff]], of course, as long as there is a [[functor]] mapping a space to its set of points.)  Pointless topology *has* points, but they are not fundamental; and a particular [[space]] may well have no points and yet be far from [[empty space|empty]].
+__Point-free topology__ (often referred to as _pointless topology_ [Johnstone 83](#Johnstone83)  ) is any formulation of [[topology]] not based on the notion of [[topological space]] as a [[set]] of [[points]] equipped with [[extra structure]].  (A pointless space must still be this set with [[extra stuff]], of course, as long as there is a [[functor]] mapping a space to its set of points.)  Pointless topology *has* points, but they are not fundamental; and a particular [[space]] may well have no points and yet be far from [[empty space|empty]].
 
 In [[locale theory]], for example, one studies the set of [[open subspaces]] (with the extra structure of a [[frame]]) as the fundamental notion.  In [[formal topology]], one studies a set of *[[base for a topology|basic]]* open subspaces (with the extra structure of a [[posite]] with [[positivity predicate|positivity]], although the [[isomorphisms]] of formal spaces don\'t respect these sets).
 
@@ -34,12 +34,15 @@ Working in a given [[logic|logical]] context $\mathcal{L}$, suppose that one def
 The above is a __pointwise__ formulation of topology if it is [[proof|provable]] (in $\mathcal{L}$) that $pt$ is a [[generator]] in $S$ but __pointless__ if this is not provable.  (One could have stronger notions of pointlessness by asking that this be refutable; if using [[intuitionistic logic]], this could be further strengthened.)
 =--
 
+## Related concepts
+
+* [[localic homotopy theory]]
 
 ## References
 
 An introduction to [[locale theory]] is
 
-* [[Peter Johnstone]] (1983); _The point of pointless topology_; Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1, 41--53; [Euclid](http://projecteuclid.org/euclid.bams/1183550014).
+* {#Johnstone83} [[Peter Johnstone]] (1983); _The point of pointless topology_; Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1, 41--53; [Euclid](http://projecteuclid.org/euclid.bams/1183550014).
 
 This is, in its own words, to be read as the trailer for Johnstone's book _[[Stone Spaces]]_, which see.
 
@@ -47,7 +50,14 @@ For [[formal topology]], see
 
 *  [[Giovanni Sambin]] (2001); _Some points in formal topology_; [pdf](http://www.math.unipd.it/~sambin/txt/SP.pdf).
 
+* {#Palmgren05} [[Erik Palmgren]], _From Intuitionistic to Point-Free Topology: On the Foundation of Homotopy Theory_, Logicism, Intuitionism, and Formalism Volume 341 of the series Synthese Library pp 237-253, 2005 ([pdf](http://www2.math.uu.se/~palmgren/homotopy_rev2.pdf))
 
 [[!redirects pointless topology]]
+
 [[!redirects pointwise topology]]
 [[!redirects point-wise topology]]
+
+
+[[!redirects pointfree topology]]
+
+[[!redirects pointless topology]]
