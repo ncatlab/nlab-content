@@ -64,10 +64,14 @@ intended to
 
 > bridge the gap between a standard course in quantum field theory and recent fascinating developments in the studies of on-shell scattering amplitudes.
 
+Similarly
+
+* Tomasz R. Taylor, _A Course in Amplitudes_ ([arXiv:1703.05670](https://arxiv.org/abs/1703.05670))
+
 A historical overview of the development of on-shell methods/analytic methods is in 
 
-* [[Lance Dixon]], _Calculating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
- {#Dixon13}
+* {#Dixon13} [[Lance Dixon]], _Calculating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
+ 
 
 
 ### Analytic methods
