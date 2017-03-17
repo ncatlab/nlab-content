@@ -19,11 +19,11 @@
 
 ## Definition
 
-The **plane** is the [[Cartesian space]] $\mathbb{R}^2$.
+The **plane** is the [[Cartesian space]] $\mathbb{R}^2$. This is naturally a [[topological space]], a [[manifold]], and a [[smooth manifold]].
 
-## Properties
+This is the stage of [[Euclidean geometry]].
 
-This is naturally a [[topological space]], a [[manifold]], a [[smooth manifold]].
+
 
 ## Related concepts
 
@@ -31,7 +31,13 @@ This is naturally a [[topological space]], a [[manifold]], a [[smooth manifold]]
 
 * [[real line]]
 
-* **plane**
+* **plane**, [[surface]]
+
+## References
+
+For discussion of the plane via [[axioms]] for the points and lines in it ([[synthetic geometry]]) see the references at _[[Euclidean geometry]]_.
+
+
 
 [[!redirects planes]]
 
