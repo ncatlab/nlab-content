@@ -155,7 +155,7 @@ $$ 0 \to A \to X \to C \to 0 $$
 An exact category $C$ in the present sense is a full [[subcategory]]
 of an [[abelian category]] $\hat C$ such that the collection
 of all sequences $0 \to A \to X \to B \to 0$
-in $C$ that are [[exact sequence]]s in $\hat C$ has the property that for every [[exact sequence]] $A \to X \to B$ in $\hat C$ with $A$ and $B$  \in $C$ also their "sum" $X$ is in $C$.
+in $C$ that are [[exact sequence]]s in $\hat C$ has the property that for every [[exact sequence]] $A \to X \to B$ in $\hat C$ with $A$ and $B \in C$ also their "sum" $X$ is in $C$.
 
 Given an exact category $C$ with the inherited notion of exact sequences this way, the definition of its Grothendieck group is as above.
 
