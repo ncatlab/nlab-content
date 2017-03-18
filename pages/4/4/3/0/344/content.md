@@ -60,7 +60,9 @@ If an extensive category also has [[finitely complete category|finite limits]], 
   $$\bigsqcup_{a\in A} X_a \cong
 X_{a_0} \sqcup \bigsqcup_{a\neq a_0} X_a \cong
 X_{a_0} \sqcup X_{a_1} \sqcup \bigsqcup_{a\neq a_0,a_1} X_a$$
-  for any $a_0, a_1\in A$.  Therefore, if a finitary-extensive category has infinitary pullback-stable coproducts, it is necessarily infinitary-extensive.  In particular, a cocomplete [[locally cartesian closed category]] is finitary extensive if and only if it is infinitary extensive.  Thus, for instance, any cocomplete [[elementary topos]] is infinitary extensive.
+  for any $a_0, a_1\in A$.  Therefore, if a finitary-extensive category has infinitary pullback-stable coproducts, it is necessarily infinitary-extensive.  In particular, a cocomplete [[locally cartesian closed category]] is finitary extensive if and only if it is infinitary extensive.
+
+* As a further special case of the preceding, since an [[elementary topos]] is finitary extensive, any cocomplete elementary topos is infinitary extensive.  However, in this case, one of the arguments for finitary extensivity applies directly to the infinitary case and does *not* require classical logic; see [[toposes are extensive]].
 
 * See [[familial regularity and exactness]] for a generalization of extensivity and its relationship to [[exact category|exactness]].
 
