@@ -125,6 +125,48 @@ in [[Cat]]. This satisfies the assumptions of the [[adjoint lifting theorem]] an
 
 =--
 
++-- {: .num_prop #PresMono}
+###### Proposition
+If a logical functor $F : \mathcal{E} \to \mathcal{F}$ has a left adjoint $L$, then $L$ preserves [[monomorphisms]], and indeed induces a bijection between subobjects of $A\in \mathcal{F}$ and subobjects of $L A\in \mathcal{E}$.
+=--
++-- {: .proof}
+###### Proof
+Since $F(\Omega_{\mathcal{E}}) = \Omega_{\mathcal{F}}$, we have a bijection
+$$ Sub_{\mathcal{F}}(A) \cong \mathcal{F}(A,\Omega_{\mathcal{F}}) \cong \mathcal{E}(L A,\Omega_{\mathcal{E}}) \cong Sub_{\mathcal{E}}(L A).$$
+It remains to check that this bijection is implemented by the action of $L$, which can be done with [[partial map classifiers]]; see ([Johnstone, Lemma A2.4.8](#Johnstone)).
+=--
+
++-- {: .num_prop #CharPullback}
+###### Proposition
+For a logical functor $F : \mathcal{E} \to \mathcal{F}$ having a left adjoint $L$, the following are equivalent:
+
+1. The induced functor $L':\mathcal{F} \to \mathcal{E}/L 1$ is an [[equivalence of categories]], i.e. the adjunction $L\dashv F$ can be identified with the pullback adjunction $\mathcal{E}/B \rightleftarrows \mathcal{E}$ for some $B$ (namely $L1$).
+1. $L$ is [[conservative functor|conservative]].
+1. $L$ is [[faithful functor|faithful]].
+1. $L$ preserves [[equalizers]].
+1. $L$ preserves [[pullbacks]].
+=--
+This appears as ([Johnstone, Prop. A2.3.8](#Johnstone)).
++-- {: .proof}
+###### Proof
+The left adjoint of pullback has all the other properties.  Any pullback-preserving functor preserves equalizers.  An equalizer-preserving functor is faithful as soon as it reflects invertibility of monomorphisms, which follows from Proposition \ref{PresMono} above.  A faithful functor reflects monos and epis, hence is conservative once its domain is [[balanced category|balanced]].  
+
+Finally, if $L$ is conservative then so is $L'$, and its right adjoint $F'$ (given by $F$ followed by pullback along $\eta : 1 \to F L 1$) is also logical, hence cartesian closed.  Thus, $L'\dashv F'$ is a [[Hopf adjunction]] for the cartesian monoidal structures, and $L'$ preserves the terminal object.  Now the counit of $L'\dashv F'$ can be factored as
+$$ L' F' A \cong L'(1\times F' A) \xrightarrow{\cong} L' 1 \times A \cong 1\times A\cong A $$
+so it is an isomorphism.  By the triangle identity, $L'(\eta)$ is an isomorphism, but $L'$ is conservative, hence the unit $\eta$ is also an isomorphism, and $L'\dashv F'$ is an equivalence.
+=--
+
+This appears as ([Johnstone, cor. A2.2.10](#Johnstone)).
+
++-- {: .num_cor #LogicalMorphismsRightAdjointToCartesianFunctors}
+###### Corollary
+If a logical functor is [[right adjoint]] to a [[left exact functor]], then it is an [[equivalence of categories]].
+=--
+
+This appears as ([Johnstone, scholium 2.3.9](#Johnstone)).
+
+
+
 ### Preserved structures
 
 In particular, a logical functor preserves the truth of all sentences in the [[internal logic]].  If it is moreover [[conservative functor|conservative]], then it also *reflects* the truth of such sentences.  For example, the [[transfer principle]] of [[nonstandard analysis]] can be stated as the fact that a certain functor is logical and conservative.
@@ -135,17 +177,8 @@ The difference between geometric and logical functors between toposes is, in a c
 
 However, while frame homomorphisms naturally categorified by geometric functors, a more precise categorification of Heyting algebra homomorphisms would be [[Heyting functors]], which preserve the internal first-order logic, but not the higher-order logic as logical functors do.
 
-+-- {: .num_prop #LogicalMorphismsRightAdjointToCartesianFunctors}
++-- {: .num_prop #LogicalMorphismsAsDirectImages}
 ###### Proposition
-
-If a logical functor is [[right adjoint]] to a [[cartesian functor]], then it is an [[equivalence of categories]].
-
-=--
-
-This appears as ([Johnstone, scholium 2.3.9](#Johnstone)).
-
-+-- {: .num_cor #LogicalMorphismsAsDirectImages}
-###### Corollary
 
 A logical functor is the [[direct image]] of a [[geometric morphism]] precisely if it is an [[equivalence of categories|equivalence]].
 
@@ -154,7 +187,7 @@ A logical functor is the [[direct image]] of a [[geometric morphism]] precisely 
 +-- {: .proof}
 ###### Proof
 
-Since by definition the direct image of a geometric morphism has a [[left adjoint]] that preserves [[finite limit]]s and hence is in particular a [[cartesian morphism]]
+Since by definition the direct image of a geometric morphism has a [[left adjoint]] that preserves [[finite limits]].
 
 =--
 
