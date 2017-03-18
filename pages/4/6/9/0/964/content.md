@@ -37,7 +37,7 @@ A **frame** $\mathcal{O}$ is
 
 * that has 
 
-  * all small [[coproduct]]s, called [[join|joins]] $\bigvee$
+  * all [[small limit|small]] [[coproduct]]s, called [[join|joins]] $\bigvee$
 
   * all [[finite limits]], called [[meet|meets]] $\wedge$
 
