@@ -32,29 +32,92 @@ There are at least two ambiguities in the above sketch of a definition based on 
 
 +--{: .un_defn}
 ###### Definition
-An **elementary $(\infty,1)$-topos** is an $(\infty,1)$-category $E$ such that
+An **elementary $(\infty,1)$-topos** is an $(\infty,1)$-category $\mathbf{E}$ such that
 
-* $E$ has finite [[(∞,1)-limit|limits and colimits]]
-* $E$ is [[locally cartesian closed (∞,1)-category|locally cartesian closed]]
+* $\mathbf{E}$ has finite [[(∞,1)-limit|limits and colimits]]
+* $\mathbf{E}$ is [[locally cartesian closed (∞,1)-category|locally cartesian closed]]
 * There exists a [[subobject classifier]] (an [[object classifier]] that classifies the collection of all [[monomorphisms in an (∞,1)-category]])
-* For any morphism $p:Y\to X$ in $E$, there exists an [[object classifier]] in $E$ classifying a class of morphisms that (1) includes $p$ and (2) is closed under fiberwise finite limits and colimits, composition (i.e. dependent sums), and dependent products.
+* For any morphism $f:Y\to X$ in $\mathbf{E}$, there exists an [[object classifier]] in $\mathbf{E}$ classifying a class of morphisms that (1) includes $p$ and (2) is closed under fiberwise finite limits and colimits, composition (i.e. dependent sums), and dependent products.
 =--
 
-Note that this definition is "impredicative" just like an [[elementary topos]], in that it has a classifier for *all* subobjects.  We can't categorify this to a classifier for all objects due to size paradoxes; the existence of "enough" object classifiers closed under all the basic operations is the "next best thing".  In an elementary 1-topos we can construct finite colimits and dependent exponentials from non-dependent exponentials and the subobject classifier (or equivalently from [[power objects]]), but in the $\infty$-case this seems unlikely to be true since subobjects tell us less about objects that are not 0-truncated.
+Note that this definition is "impredicative" just like an [[elementary topos]], in that it has a classifier for *all* subobjects.  We can't categorify this to a classifier for all objects due to size paradoxes; the existence of "enough" object classifiers closed under all the basic operations is the "next best thing".  We will refer to an object classifier satisfying (2) above as a **universe**.
 
 ## Properties
 
-It is reasonable to hope for a coherence theorem showing that any elementary $(\infty,1)$-topos in the above sense admits a model of homotopy type theory with non-recursive [[higher inductive type|HITs]] (corresponding to the the finite colimits), univalent [[type of types|universes]] (perhaps only weakly Tarski ones), and [[propositional resizing]].  See, for instance, [[homotopytypetheory:model of type theory in an (infinity,1)-topos]] and [relation between type theory and category theory -- Univalent homotopy type theory and infinity-toposes](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence).  Furthermore, although not present explicitly in the definition, the following additional structure comes for free:
+It is reasonable to hope for a coherence theorem showing that any elementary $(\infty,1)$-topos in the above sense admits a model of homotopy type theory with non-recursive [[higher inductive type|HITs]] (corresponding to the the finite colimits), univalent [[type of types|universes]] (perhaps only weakly Tarski ones), and [[propositional resizing]].  See, for instance, [[homotopytypetheory:model of type theory in an (infinity,1)-topos]] and [relation between type theory and category theory -- Univalent homotopy type theory and infinity-toposes](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence).
 
-1. Universe cumulativity: for any object classifier $p:V\to U$, there is an object classifier $p':V'\to U'$ such that (1) $p$ is a pullback of $p'$, and also (2) $U\to 1$ is a pullback of $p'$.  To see this, apply the assumption about existence of object classifiers to the coproduct map $V+U \to U+1$.
+In an elementary 1-topos we can construct finite colimits and dependent exponentials from non-dependent exponentials and the subobject classifier (or equivalently from [[power objects]]).  In the $\infty$-case this seems less likely to be true, since subobjects tell us less about objects that are not 0-truncated.  However, there is still a good deal of extra structure that "comes for free" from the above definition.
 
-1. A [[natural numbers object]].  Intuitively, it seems as if $\Omega(S^1)$ (which can be constructed using finite limits and colimits) ought to be the [[integers]] and we should be able to construct the natural numbers from it; but it is unclear to the authors of this page how to do that.  Instead, we can (using the impredicative subobject classifier) define the smallest subobject of an object classifier $p:V\to U$ that contains the initial object and is closed under taking coproducts with the terminal object.  This is almost right, but it is not 0-truncated.  We could 0-truncate it, but to get a universal property relative to all objects rather than only 0-truncated ones, we can instead impose structure making the objects rigid, such as a partial order or a graph.  This argument is formalized in type theory [here](#ConstructingNat); to be precise either it would have to be translated manually into category-theoretic language, or the above conjecture about interpreting type theory in an elementary $(\infty,1)$-topos would have to be proven.
++-- {: .un_theorem}
+###### Theorem
+The initial object $0$ of $\mathbf{E}$ is [[strict initial object|strict]], i.e. any morphism $A\to 0$ is an equivalence.
+=--
++-- {: .proof}
+###### Proof
+Just as for 1-categories, this is true in any cartesian closed $(\infty,1)$-category.  For if there is a morphism $f:A\to 0$ then the projection $A\times 0 \to A$ has a section $(1_A,f)$, so that $A$ is a retract of $A\times 0$; but $A\times 0 \cong 0$ by cartesian closedness since $(A\times -)$ has a right adjoint and hence preserves colimits.
+=--
 
-1. The [[(n-connected, n-truncated) factorization system]].  The case $n=-1$ can be constructed impredicatively using the subobject classifier: internally, $\Vert A \Vert$ is the smallest [[truth value]] implied by $A$.  Then we can induct on *external* natural numbers, defining $\Vert A \Vert_{n+1}$ to be the $(-1)$-image of the composite $A \to U^A \to (U')^A$, where the second map is the $n$-truncation.  Note that in general it "goes up a universe level", so that the $n$-truncation "goes up $n+2$ universe levels".  However, unlike type theory, an elementary $(\infty,1)$-topos has no globally chosen tower of universes, so this doesn't literally make sense to say.  What we can say is that with this construction, it is not clear whether we can find object classifiers that are *closed* under the $n$-truncation.
++-- {: .un_theorem}
+###### Theorem
+Binary coproducts in $\mathbf{E}$ are [[disjoint coproducts|disjoint]], i.e. the injections $i:A\to A+B$ and $j:B\to A+B$ are monic, and their pullback is initial.
+=--
++-- {: .proof}
+###### Proof
+This is also just like a corresponding proof for 1-toposes (see [[toposes are extensive]]).  Define $R$ and $S$ to make the following squares pullbacks:
+$$\array{ R & \xrightarrow{r} & A & \xleftarrow{s} & S\\
+  ^{r'}\downarrow && \downarrow^i && \downarrow\\
+  A & \xrightarrow{i} & A+B & \xleftarrow{j} & B}$$
+Specifically, $(r,r')$ is the [[kernel pair]] of $i$.  In particular, there is an induced diagonal $\triangle : A \to R$ such that $r \triangle = 1_A$.  On the other hand, since $\mathbf{E}$ is locally cartesian closed, pullback preserves colimits, so $(r,s)$ is a coproduct diagram.  Thus, the pair of morphisms $1_R:R\to R$ and $\triangle \circ s : S\to R$ factor (uniquely) through some $h:A\to R$, so that in particular $h r = 1_R$.  Thus, $r:R\to A$ has both a left and a right inverse, so it is an equivalence, and hence $i$ is monic.  Dually, $j$ is monic.
 
-   However, [(Rijke17)](#Rijke17) shows (again in type theory) that using finite colimits and the natural numbers, the $(-1)$-truncation can be constructed without raising the universe level.  Assuming (as always) that this can be translated into $(\infty,1)$-category theory, it implies that we *can* find object classifiers closed under the $(-1)$-truncation, and hence (by induction) under the $n$-truncation for all $n$.  Moreover, with a natural numbers object this induction can be performed internally, obtaining in particular object classifiers closed under the $n$-truncation for all $n$ at once.
+Now we claim that any two morphisms $f,g:S\to X$ with domain $S$ are equivalent.  For the pair of morphisms $R \xrightarrow{r} A \to A+X$ and $S \xrightarrow{f} X \to A+X$ factor uniquely through $A$ (which, recall, is the coproduct $R+S$).  But since $r$ is an equivalence, this factorization must be (equivalent to) the left coprojection $A\to A+X$.  Therefore, the composite $S \xrightarrow{f} X \to A+X$ is equivalent to the composite $S \xrightarrow{s} A \to A+X$, and similarly so is the composite $S \xrightarrow{g} X \to A+X$.  Since $X\to A+X$ is monic by the previous paragraph, $f\simeq g$.
 
-1. It seems likely that the construction of [[W-types]] in any elementary 1-topos can be repeated in the $(\infty,1)$-case.
+Finally, since $0$ is a strict initial object, $0\to S$ is monic.  And of course $1_S : S\to S$ is also monic, and these two monomorphisms are classified by two maps $f,g:S\to \Omega$ into the subobject classifier.  By the previous paragraph, $f\simeq g$, hence $S\cong 0$ and is initial.
+=--
+
++-- {: .un_theorem}
+###### Theorem
+For any finite family of morphisms $\{f_i : Y_i \to X_i\}_{i\in I}$, there exists a universe classifying all the $f_i$.
+=--
++-- {: .proof}
+###### Proof
+Since $f_i$ is the pullback of $\sum_i f_i$ along the injection $X_i \to \sum_i X_i$ (this follows from extensivity), a universe classifying $\sum_i f_i$ must also classify each $f_i$.
+=--
+
+In particular, we have "universe cumulativity":
+
++-- {: .un_cor}
+###### Corollary
+For any universe $p:V\to U$, there is a universe $p':V'\to U'$ that classifies both $p$ and $U\to 1$.
+=--
+
++-- {: .un_theorem}
+###### Theorem
+All finite colimits are [[van Kampen colimit|van Kampen]].
+=--
++-- {: .proof}
+###### Proof
+Since $\mathcal{E}$ is locally cartesian closed, all colimits are pullback-stable, so it suffices to show descent.  Suppose $D$ is a finite [[simplicial set]] and $F^\rhd:G^\rhd:D^\rhd \to \mathcal{E}$ are colimiting cones under diagrams $F,G:D\to \mathcal{E}$, and let $\alpha^\rhd : F\rhd \to G^\rhd$ be a natural transformation whose restriction $\alpha:F\to G : D\to \mathcal{E}$ is [[equifibered natural transformation|equifibered]].  Let $p:V\to U$ be a universe classifying $\alpha_d : F_d \to G_d$ for each vertex $d\in D_0$.  Then $\alpha$ is the pullback of $p$ along a cocone $q:G\to U$, yielding a cocone $r : \alpha \to p$ in $\mathcal{E}^\to$ which is equifibered.
+
+Since $\alpha^\rhd$ is colimiting under $\alpha:D\to \mathcal{E}^\to$, we have an induced map $\alpha_\star \to p$, where $\star\in D^\rhd$ is the cocone vertex.  But since colimits are pullback-stable, the pullback of $G^\rhd$ along $p$ is a colimiting cocone under $F$, and hence isomorphic to $F^\rhd$.  Thus, $\alpha^\rhd$ is equifibered.
+=--
+
++-- {: .un_theorem}
+###### Theorem
+There exists a [[natural numbers object]].
+=--
+
+Intuitively, it seems as if $\Omega(S^1)$ (which can be constructed using finite limits and colimits) ought to be the [[integers]] and we should be able to construct the natural numbers from it; but it is unclear to the authors of this page how to do that.  Instead, we can (using the impredicative subobject classifier) define the smallest subobject of an object classifier $p:V\to U$ that contains the initial object and is closed under taking coproducts with the terminal object.  This is almost right, but it is not 0-truncated.  We could 0-truncate it, but to get a universal property relative to all objects rather than only 0-truncated ones, we can instead impose structure making the objects rigid, such as a partial order or a graph.  This argument is formalized in type theory [here](#ConstructingNat); to be precise either it would have to be translated manually into category-theoretic language, or the above conjecture about interpreting type theory in an elementary $(\infty,1)$-topos would have to be proven.
+
++-- {: .un_theorem}
+###### Theorem
+There is an [[(n-connected, n-truncated) factorization system]].
+=--
+
+The case $n=-1$ can be constructed impredicatively using the subobject classifier: internally, $\Vert A \Vert$ is the smallest [[truth value]] implied by $A$.  Then we can induct on *external* natural numbers, defining $\Vert A \Vert_{n+1}$ to be the $(-1)$-image of the composite $A \to U^A \to (U')^A$, where the second map is the $n$-truncation.  Note that in general it "goes up a universe level", so that the $n$-truncation "goes up $n+2$ universe levels".  However, unlike type theory, an elementary $(\infty,1)$-topos has no globally chosen tower of universes, so this doesn't literally make sense to say.  What we can say is that with this construction, it is not clear whether we can find object classifiers that are *closed* under the $n$-truncation.
+
+However, [(Rijke17)](#Rijke17) shows (again in type theory) that using finite colimits and the natural numbers, the $(-1)$-truncation can be constructed without raising the universe level.  Assuming (as always) that this can be translated into $(\infty,1)$-category theory, it implies that we *can* find object classifiers closed under the $(-1)$-truncation, and hence (by induction) under the $n$-truncation for all $n$.  Moreover, with a natural numbers object this induction can be performed internally, obtaining in particular object classifiers closed under the $n$-truncation for all $n$ at once.
+
+It seems likely that the construction of [[W-types]] in any elementary 1-topos can be repeated in the $(\infty,1)$-case.
 
 There is some structure that the definition probably does not imply, namely a semantic counterpart of arbitrary *recursive* [[higher inductive types]], such as arbitrary [[localization]].  It is certain that these cannot always be constructed in an elementary 1-topos: for instance, HITs imply that all (even infinitary) [[algebraic theories]] have initial algebras, whereas this cannot be proven in [[ZF]] without the [[axiom of choice]] (under appropriate [[large cardinal]] hypotheses).  Thus, it seems very unlikely that they can be constructed in an elementary $(\infty,1)$-topos.  Moreover, it is even unclear exactly what $(\infty,1)$-categorical structure should correspond to arbitrary [[higher inductive types]], not least because we lack an accepted general definition of an "arbitrary HIT".
 
@@ -63,12 +126,14 @@ However, although this is an open question, it is arguably not a question about 
 
 ## Definition (predicative case)
 
-Since there is no consensus even on the definition of [[predicative topos|predicative 1-topos]], it seems less likely that there is a definitive answer for a predicative $(\infty,1)$-topos.  However, it should probably include *at least* the following axioms:
+Since there is no consensus even on the definition of [[predicative topos|predicative 1-topos]], it seems less likely that there is a definitive answer for a predicative $(\infty,1)$-topos.  However, it should probably include *at least* the following axioms (which as we have seen above, are all true in the impredicative case although not included in the definition):
 
 * $E$ has finite [[(∞,1)-limit|limits and colimits]]
 * $E$ is [[locally cartesian closed (∞,1)-category|locally cartesian closed]]
-* For any morphism $p:Y\to X$ in $E$, there exists an [[object classifier]] in $E$ classifying a class of morphisms that (1) includes $p$ and (2) is closed under fiberwise finite limits and colimits, composition (i.e. dependent sums), and dependent products.
+* For any finite family of morphisms $\{f_i:Y_i\to X_i\}_{i\in I}$, there exists a universe classifying each $f_i$.
 * $E$ has a [[natural numbers object]], and perhaps also [[W-types]].
+
+Note that the stronger universe axiom implies, as above, that finite colimits are van Kampen, and in particular therefore that finite coproducts are disjoint.  Instead of strengthening this axiom, we could assume explicitly that finite coproducts are disjoint, and then repeat the proof of descent given above.
 
 ## Related pages
 
