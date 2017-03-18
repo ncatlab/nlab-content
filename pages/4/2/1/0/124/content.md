@@ -154,6 +154,10 @@ Accordingly there is a [[2-category]] [[Topos]] of toposes, whose
 
 ## Properties
 
+### Extensivity
+
+Every topos is an [[extensive category]].  For [[Grothendieck toposes]], infinitary extensivity is part of the characterizing [[Giraud's theorem]].  For elementary toposes, see [[toposes are extensive]].
+
 ### Adhesiveness
 
 Every topos is an [[adhesive category]]. For [[Grothendieck toposes]] this follows immediately from the adhesion of [[Set]], for elementary toposes it is due to ([Lack-Sobocinski](#LackSobocinski)).
