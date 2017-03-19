@@ -130,7 +130,7 @@ Notice that the squares on the right are _not_ [[homotopy pullback]] squares. (T
 
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192))
 
-* {#HopkinsMahowaldSadofsky94} [[Michael Hopkins]], [[Mark Mahowald]], [[Hal Sadofsky]], _Constructions of elements in Picard groups_, Contemporary mathematics, Volume 158, 1994 in [[eric Friedlander]], [[Mark Mahowald]] (eds.), _Topology and Representatin theory_ ([doi:10.1090/conm/158/01454](http://dx.doi.org/10.1090/conm/158/01454))
+* {#HopkinsMahowaldSadofsky94} [[Michael Hopkins]], [[Mark Mahowald]], [[Hal Sadofsky]], _Constructions of elements in Picard groups_, Contemporary mathematics, Volume 158, 1994 in [[Eric Friedlander]], [[Mark Mahowald]] (eds.), _Topology and Representatin theory_ ([doi:10.1090/conm/158/01454](http://dx.doi.org/10.1090/conm/158/01454))
 
 
 [[!redirects permutation]]
