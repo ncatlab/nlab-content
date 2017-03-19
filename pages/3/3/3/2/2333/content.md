@@ -18,7 +18,9 @@ Of particular importance are convex spaces parametrized by the interval $P = [0,
 
 A __convex space__ is a [[set]] $X$ equipped with:
 
-* a [[semiring|(semi)]][[ring]] $P$, so that for each element $p \in P$, there exists an operation $c_p: X \times X \to X$,
+* a multiplicatively closed subset $Q$ of a [[semiring|(semi)]][[ring]] $P$, so that for each element $p\in Q$ there exists an element $q\in Q$ such that $p+q=1$, and
+
+* an operation $c_p: X \times X \to X$ defined for all $p\in Q$,
 
 such that the following identities always hold:
 
