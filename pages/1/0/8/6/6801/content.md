@@ -30,10 +30,13 @@ The original reference is
 
 * [[Nathan Seiberg]], _New theories in six dimensions and matrix description of M-theory on $T^5$ and $T^5/\mathbb{Z}_2$_ Phys. Lett. B408 (1997) 98&#8211;104 ([arXiv:arXiv:hep-th/9705221](http://xxx.lanl.gov/abs/arXiv:hep-th/9705221))
 
-A review is in 
+Review is in 
+
 
 * [[Ofer Aharony]], _A brief review of "little string theories"_ , Class. Quant. Grav. 17 (2000) 929&#8211;938,
 ([arXiv:hep-th/9911147](http://arxiv.org/abs/hep-th/9911147)). 
+
+* [[David Kutasov]], _Introduction to Little String Theory_, Lectures 2001 ([pdf](http://users.ictp.it/~pub_off/lectures/lns007/Kutasov/Kutasov.pdf))
 
 Little string theories on [[heterotic string theory]] [[NS5-branes]] with $N = (1,0)$ [[supersymmetry]] are discussed in
 
