@@ -45,7 +45,7 @@ Some $G$-representations are special and hence some tractor bundles are singled 
 
 * By the axioms on [[Cartan geometries]] (see also at [[Cartan connection]]) the tractor bundle corresponding to the [[quotient]] $\mathfrak{g}/\mathfrak{h}$ is [[isomorphism|isomorphic]] to the [[tangent bundle]] $T X$. 
 
-* The inclusion $\mathfrak{p}\hookrightarrow \mathfrak{g}$ of the [[Lie algebra]] of the [[parabolic subgroup]] induces a tractor subbundle $P \underset{H}{\times} \mathfrak{g} \hookrightarrow P \underset{G}{\times}\mathfrak{g}$ denoted
+* The inclusion $\mathfrak{p}\hookrightarrow \mathfrak{g}$ of the [[Lie algebra]] of the [[parabolic subgroup]] induces a tractor subbundle $P \underset{H}{\times} \mathfrak{p} \hookrightarrow P \underset{H}{\times}\mathfrak{g}$ denoted
 
   $$
     \mathcal{A}^0 X \hookrightarrow \mathcal{A}X
@@ -59,7 +59,7 @@ Some $G$-representations are special and hence some tractor bundles are singled 
 
   (e.g [&#268;ap-Sou&#269;ek 07, p. 12](#CapSoucek07)). 
 
-* Dually, the tractor bundle associated to $(\mathfrak{g}/\mathfrak{p})^\ast \simeq \mathfrak{p}_+$ is $\mathcal{A}^1 X $ whis is [[isomorphism|isomorphic]] to the [[cotangent bundle]] $T^\ast X$.
+* Dually, the tractor bundle associated to $(\mathfrak{g}/\mathfrak{p})^\ast \simeq \mathfrak{p}_+$ is $\mathcal{A}^1 X $ which is [[isomorphism|isomorphic]] to the [[cotangent bundle]] $T^\ast X$.
 
   $$
     \mathcal{A}^1 X \simeq T^\ast X
@@ -79,7 +79,7 @@ Some $G$-representations are special and hence some tractor bundles are singled 
     \wedge^{k+1} \mathfrak{p}_+ \otimes V \longrightarrow \wedge^{k} \mathfrak{p}_+ \otimes V
   $$
 
-  (often called the _Kostant codifferential_ $\patial^\ast$ is this parabolic context) and hence gives homomorphisms of natural bundles
+  (often called the _Kostant codifferential_ $\partial^\ast$ is this parabolic context) and hence gives homomorphisms of natural bundles
 
   $$
     \partial^\ast_k \colon \Lambda^{k+1} T^\ast X \otimes_X V X \longrightarrow \Lambda^{k} T^\ast X \otimes_X V X
