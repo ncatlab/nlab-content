@@ -1,110 +1,11 @@
 
-Let
-
-$$
-  \mathcal{C}
-    \underoverset
-      {\underset{R}{\longrightarrow}}
-      {\overset{L}{\longleftarrow}}
-      {\bot}
-  \mathcal{D}
-$$
-
-be a [[Quillen adjunction]] betwen [[model categories]] which admit [[functorial factorization]].
-
-We consider the derived [[adjunction unit]].
-
-
-Let $X \in \mathcal{D}$ be any [[object]]. First consider a cofibrant replacement
-
-$$
-  \array{
-    X_{cof}
-    \\
-    \downarrow^{\mathrlap{\in \mathrm{W} \cap Fib}}
-    \\
-    X
-  }
-  \,.
-$$
-
-Then apply $L$ to this
-
-$$
-  \array{
-    L(X_{cof})
-    \\
-    \downarrow^{}
-    \\
-    L(X)
-  }
-  \,.
-$$
-
-Then apply fibrant replacement functorially
-
-
-$$
-  \array{
-    L(X_{cof})
-     &\overset{\in W \cap Cof}{\longrightarrow}&
-    (L(X_{cof}))^{fib}
-    \\
-    \downarrow^{}
-      &&
-    \downarrow
-    \\
-    L(X)
-      &\underset{\in W \cap Cof}{\longrightarrow}&
-    (L(X))^{fib}
-  }
-  \,.
-$$
-
-Then apply $R$
-
-
-$$
-  \array{
-     R L (X_{cof})
-       &\overset{R (j \in W \cap Cof)}{\longrightarrow}&
-     R (L X_{cof})^{fib}
-     \\
-     \downarrow^{\mathrlap{\in W \cap Fib}}
-       &&
-     \downarrow
-     \\
-     R L X &\underset{}{\longrightarrow}& R((L X)^{fib})
-  }
-$$
-
-The derived unit is now modeled by the top composite morphism in 
-
-$$
-  \array{
-     X_{cof}
-      &\overset{\eta_{X_{cof}}}{\longrightarrow}&
-     R L (X_{cof})
-       &\overset{R (j \in W \cap Cof)}{\longrightarrow}&
-     R (L X_{cof})^{fib}
-     \\
-     \downarrow
-     &&
-     \downarrow^{\mathrlap{\in W \cap Fib}}
-       &&
-     \downarrow
-     \\
-     X
-      &\underset{\eta_X}{\longrightarrow}&
-     R L X &\underset{}{\longrightarrow}& R((L X)^{fib})
-  }
-$$
 .
 
 .
 
 .
 
+.
 
 ***
 
