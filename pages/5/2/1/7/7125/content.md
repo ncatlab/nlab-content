@@ -285,7 +285,7 @@ Of course, more interesting examples of the gluing construction abound as well. 
 
 * [[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, LNM **269** Springer Heidelberg 1972. (expos&#233; IV, sect. 9; in particular: sect. 9.5) {#SGA4}
 
-* [[Gavin Wraith]], _Artin Glueing_ , JPAA **4** (1974) pp.345-358.
+* [[Gavin Wraith]], _Artin Glueing_ , JPAA **4** (1974) pp.345-358 [link](http://www.sciencedirect.com/science/article/pii/0022404974900140).
 
 * [[Aurelio Carboni]], [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_ , Mathematical Structures in Computer Science **5** (1995) pp.441-459. ([pdf](http://journals.cambridge.org/article_S0960129500001183))
 {#CJ}
