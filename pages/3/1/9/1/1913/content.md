@@ -242,6 +242,15 @@ A basic introduction with an eye towards applications in [[physics]] is in secti
 
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
 
+An introductory wiki-format textbook is
+
+* {#Dray_GDF} Tevian Dray, _The Geometry of Differential Forms_, [web](http://physics.oregonstate.edu/coursewikis/GDF/)
+
+published as half of
+
+* Tevian Dray, _Differential Forms and the Geometry of General Relativity_, A K Peters/CRC Press, 2014,
+ [web](http://physics.oregonstate.edu/coursewikis/DFGGR/bookinfo/).
+
 The equivalence between differential forms and smooth functors on the [[path groupoid]] in low degree is discussed in
 
 * Schreiber & Waldorf, _Smooth Functors vs. Differential Forms_ ([arXiv](http://arxiv.org/abs/0802.0663))
