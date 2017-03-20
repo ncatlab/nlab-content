@@ -46,10 +46,10 @@ A [[topological space]] $X$ has _enough points_ if the following equivalent cond
 
 ### Separation
 
-* Sobriety is a separation property that is stronger than [[T0]], but incomparable with [[T1]].  With [[classical logic]], every [[Hausdorff space]] is sober (see at _[[Hausdorff implies sober]]_), but this can fail [[constructive mathematics|constructively]].
+* Sobriety is a [[separation property]] that is stronger than [[T0]], but incomparable with [[T1]].  With [[classical logic]], every [[Hausdorff space]] is sober (see at _[[Hausdorff implies sober]]_), but this can fail [[constructive mathematics|constructively]].
 
 $$
-  Hausdorff \Rightarrow sober \Rightarrow T0
+  Hausdorff = T_2 \Rightarrow sober \Rightarrow T_0
 $$
 
 ### Reflection
