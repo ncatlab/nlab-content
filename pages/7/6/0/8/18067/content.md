@@ -139,6 +139,8 @@ Symmetric algebras in the context of [[power operation]] on [[generalized (Eilen
 
 * {#Rezk14} [[Charles Rezk]], _Isogenies, power operations, and homotopy theory_, article ([pdf](http://www.math.uiuc.edu/~rezk/rezk-icm-talk-posted.pdf)) and talk at ICM 2014 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-icm-2014-slides.pdf))
 
+[[!redirects spectral symmetric algebra]]
+
 [[!redirects symmetric algebra spectra]]
 
 [[!redirects symmetric algebra spectrum]]
