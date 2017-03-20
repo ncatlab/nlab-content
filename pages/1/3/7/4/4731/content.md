@@ -78,7 +78,7 @@ $$
   \,,
 $$
 
-for collections of structure constants $\{C^a{}_{b c}\}$ (the bracket on $\mathfrak{g}_0$) and $\{r^i_a\}$ (the differential $\mathfrak{g}_1 \to \mathfrak{g}_0$) and $\{\alph^i{}_{a j}\}$ (the [[action]] of $\mathfrak{g}_0$ on $\mathfrak{g}_1$) and $\{r_{a b c}\}$ (the "Jacobiator" for the bracket on $\mathfrak{g}_0$).
+for collections of structure constants $\{C^a{}_{b c}\}$ (the bracket on $\mathfrak{g}_0$) and $\{r^i_a\}$ (the differential $\mathfrak{g}_1 \to \mathfrak{g}_0$) and $\{\alpha^i{}_{a j}\}$ (the [[action]] of $\mathfrak{g}_0$ on $\mathfrak{g}_1$) and $\{r_{a b c}\}$ (the "Jacobiator" for the bracket on $\mathfrak{g}_0$).
 
 These constants are subject to constraints (the weak [[Jacobi identity]] and its higher [[coherence law]]s) which are precisely equivalent to the condition
 
@@ -114,7 +114,7 @@ The [[curvature]] of this is $(\beta, H)$, where the 2-form component ("fake cur
 
 $$
   \beta^a = d_{dR} A^a + \frac{1}{2}C^a{}_{b c} A^b \wedge A^c
-  + r^a{}i B^i
+  + r^{a}_{i} B^i
 $$
 
 and whose 3-form component is 
@@ -126,7 +126,7 @@ $$
    +
    \alpha^i{}_{a j} A^a \wedge B^j
    +
-   t_{a b c} A^a \wedge A^b \wedge A^c
+   r_{a b c} A^a \wedge A^b \wedge A^c
   \,.
 $$
 
