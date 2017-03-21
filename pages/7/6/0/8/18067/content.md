@@ -19,7 +19,7 @@
 
 ## Idea
 
-Given a [[ring spectrum]] $R$ and [[module spectrum]] $E$ over $R$, there is the [[free construction|free]] $R$-[[algebra spectrum]] induced by $E$, this is the _symmetric algebra_ spectrum $Sym_R E$, in direct analogy to the construction of [[symmetric algebras]] on [[vector spaces]].
+Given a [[ring spectrum]] $R$ and [[module spectrum]] $E$ over $R$, there is the [[free construction|free]] $R$-[[algebra spectrum]] induced by $E$, this is the _symmetric algebra_ spectrum $Sym_R E$, in direct analogy to the construction of [[symmetric algebras]] on [[vector spaces]] (e.g. [Khan 16}(#Khan16)).
 
 The underlying spectrum of the symmetric algebra is simply the [[direct sum]] ([[wedge sum]] of spectra) of all the $n$-fold [[smash products]] of $E$ over $R$ [[homotopy quotient|homotopy quotiented]] by the canonical [[∞-action]] of the [[symmetric group]] $\Sigma(n)$ (by [[permutation]] of factors):
 
@@ -31,7 +31,7 @@ $$
   \,.
 $$
 
-In contrast to ordinary [[symmetric algebras]] on ordinary [[modules]] over ordinary [[rings]], this means that the symmetric algebra on $R$ itself, regarded as a [[module spectrum]] itself is non-trivial
+In contrast to ordinary [[symmetric algebras]] on ordinary [[modules]] over ordinary [[rings]], this means that the symmetric algebra on $R$ itself, regarded as a [[module spectrum]] itself has interesting structure:
 
 $$
   \begin{aligned}
@@ -57,6 +57,29 @@ where $B \Sigma_n$ denotes the [[homotopy type]] of the [[classifying space]] of
 
 In particular for $R = \mathbb{S}$ the [[sphere spectrum]], then  the _absolute [[spectral affine line]]_ $Sym_{\mathbb{S}}\mathbb{S}$ is nontrivial. This, and its structure of a [[Hopf ring spectrum]], is discussed in [Strickland-Turner 97](#StricklandTurner97).
 
+More generally, 
+
+$$
+  R\{x_1, \cdots, x_n\} \coloneqq Sym_R (R^{\vee^n})
+$$
+
+is like a [[polynomial ring|polynomial]] [[algebra spectrum]] over $R$. 
+Beware that there is a similar construction that is in general different, namely
+
+$$
+  R[X_1, \cdots, x_n] \coloneqq R \wedge \Sigma^\infty(\mathbb{N}_+)
+$$
+
+where on the right we have the "monoid $\infty$-algebra" of the [[natural numbers]], directly analogous to the [[∞-group ∞-ring]] construction. There is a canonical comparison homomorphisms
+
+$$
+  R\{x_1, \cdots, x_n\} \longrightarrow R[x_1, \cdots, x_n]
+  \,.
+$$
+
+This is an [[equivalence]] if $R$ is of [[characteristic zero]] ([Khan 16, prop. 2.7.4](#Khan16)).
+
+
 {#OnSuspensionOfGroundRingInIntroduction} Similarly, if $E = \Sigma^n R \simeq R \wedge S^n$ is a [[suspension]] of $R$, regarded as an $R$-[[module spectrum]], then
 $$
   \begin{aligned}
@@ -75,6 +98,7 @@ $$
   \,,
 $$
 where on the right we have the [[Thom space]] of the [[vector bundle]] $\tau_n$ [[associated bundle|associated]] to the $\Sigma(n)$-[[universal principal bundle]] via the canonical [[action]] of $\Sigma(n)$ on $\mathbb{R}^n$ (see also at [symmetric group -- Classifying space and Thom space](permutation#ClassifyingSpaceAndThomSpace)).
+
 
 The operation $Sym_R$ is of course functorial, and hence any choice of $R$-linear map $f_x \colon R \to E$ induces morphisms
 
@@ -139,8 +163,19 @@ Symmetric algebras in the context of [[power operation]] on [[generalized (Eilen
 
 * {#Rezk14} [[Charles Rezk]], _Isogenies, power operations, and homotopy theory_, article ([pdf](http://www.math.uiuc.edu/~rezk/rezk-icm-talk-posted.pdf)) and talk at ICM 2014 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-icm-2014-slides.pdf))
 
+See also
+
+* {#Khan16} [[Adeel Khan]], sections 2.6 and 2.7 of _Brave new motivic homotopy theory I_ ([arXiv:1610.06871](https://arxiv.org/abs/1610.06871))
+
 [[!redirects spectral symmetric algebra]]
 
 [[!redirects symmetric algebra spectra]]
 
 [[!redirects symmetric algebra spectrum]]
+
+[[!redirects spectral polynomial algebra]]
+[[!redirects spectral polynomial algebras]]
+
+[[!redirects spectral polynomial ring]]
+[[!redirects spectral polynomial rings]]
+
