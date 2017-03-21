@@ -131,7 +131,7 @@ we recall [[super Lie algebras]] and discuss their generalization to [[super L-�
 * _[Super L-infinity cohomology and FDAs](#SuperLInfinityCohomologyAndFDAs)_.
 
 We will be associating a fundamental $p$-brane with each invariant super $L_\infty$-cocycle.
-We explain how this is given by a variant of the operation of higher [[Lie integration]] in 
+We explain how this is given by a variant of the operation of higher [[Lie integration]] in
 
 * _[From L-infinity-cocycles to higher WZW models](#FromCocyclesToWZW)_
 
@@ -841,7 +841,7 @@ This makes it immediate how to generalize to [[super L-infinity algebras]]:
 +-- {: .num_defn #SuperLInfinityAlgebra}
 ###### Definition
 
-A **[[super L-∞ algebra]]** is an [[L-∞ algebra]] [[internalization|internal to]] the [[symmetric monoidal category]] of [[super vector spaces]] (def. \ref{CategoryOfSuperVectorSpaces}).
+A **[[super L-∞ algebra]]** is an [[L-∞ algebra]] [[internalization|internal to]] the [[symmetric monoidal category]] of [[super vector spaces]] ([def. ](geometry+of+physics+--+superalgebra#CategoryOfSuperVectorSpaces)).
 
 =--
 
@@ -1186,7 +1186,7 @@ $$
 Standard facts in [[homotopy theory]] assert that $hofib(f)$ is well-defined up to [[quasi-isomorphism]].
 See at _[Introduction to homotopy theory -- Homotopy fibers](https://ncatlab.org/nlab/show/Introduction+to+Stable+homotopy+theory+--+P#HomotopyFibers)_.
 
-The following is the ky fact about homotopy fibers in the homotopy theory of super $L_\infty$-algebras
+The following is the key fact about homotopy fibers in the homotopy theory of super $L_\infty$-algebras
 which we will use:
 
 +-- {: .num_prop #HomotopyFibersOfLInfinityCocycles}
@@ -1291,10 +1291,10 @@ This is exactly the ordinary formula for the central extension of $\mathfrak{g}$
 We have discussed super $L_\infty$-cohomology [above](#SuperLInfinityCohomologyAndFDAs) in generality.
 Further [below](#Branes) we consider the exceptional invariant super $L_\infty$-cohomology classes
 that emanate out of the [[superpoint]]. There we will see that each of them is to correspond to precisely
-one species of [[super p-branes]] as discussed in the [[string theory]] literature. Here, in order 
+one species of [[super p-branes]] as discussed in the [[string theory]] literature. Here, in order
 to substantiate this, we discuss in generality how by the mathematics of higher [[Lie integration]]
-every super $L_\infty$-cocycle induces a functional on a [[mapping space]] that 
-may be regarded as the [[action functional]] defining a [[sigma-model]] description for a 
+every super $L_\infty$-cocycle induces a functional on a [[mapping space]] that
+may be regarded as the [[action functional]] defining a [[sigma-model]] description for a
 fundamental $p$-brane. These are higher order generalizations of the famous _[[Wess-Zumino-Witten model]]_.
 
 ### Higher Lie integration
@@ -1803,7 +1803,8 @@ $$
   \,.
 $$
 
-By the [[nLab:homotopy fiber product]] characterization of the [[nLab:Deligne complex]], prop. \ref{HomotopyFiberProductCharacterizationOfDeligneComplex}, this yields a morphism of the form
+By the [[homotopy fiber product]] characterization of the [[Deligne complex]] ([prop.](Deligne+cohomology#HomotopyFiberProductCharacterization)),
+this yields a morphism of the form
 
 $$
   \mathbf{L}_{WZW}^{\mu}
@@ -2276,7 +2277,7 @@ Below we find as examples of this general phenomenon
 $\,$
 
 Given one stage of consecutive $L_\infty$-cocycles, def. \ref{LInfinityCocycle}
-(e.g in the [[brane bouquet]] discussed [below](#TheBraneBouquet))
+(e.g in the [[schreiber:brane bouquet]] discussed [below](#TheBraneBouquet))
 
 $$
   \array{
@@ -7259,7 +7260,7 @@ Let $\mathbf{H}$ be any  [[(∞,1)-topos]] such as
 
 * the [[classical model structure on topological spaces|classical homotopy theory on topological spaces]]  as above
 
-* or better the [[homotopy theory]] of [[super formal smooth infinity-groupoid|supergeometric homotopy types]]
+* or better: the [[homotopy theory]] of [[super formal smooth infinity-groupoid|supergeometric homotopy types]]
 
 and let $G$ be an [[∞-group]] in $\mathbf{H}$ such as
 
@@ -7436,7 +7437,7 @@ $\,$
 
 Hence in order to apply [[double dimensional reduction]]
 to [[super p-branes]]
-we now specialize the above formalization to
+we now specialize the above general formalization (prop. \ref{GeneralReduction}) to
  **cyclification of [[super L-∞ algebras]]** ([FSS 16b](#FSS16b))
 
 $\,$
@@ -7468,7 +7469,7 @@ $$
          \underset{\text{new generator} \atop \text{in degree 2}}{\underbrace{\langle \omega_2 \rangle}}
       \right)
       \;,\;
-  d_{\mathfrak{d}\mathfrak{g}/\mathbb{R}}
+  d_{\mathfrak{L}\mathfrak{g}/\mathbb{R}}
   \;\colon\;
   \left\{
     \array{
@@ -7542,7 +7543,7 @@ of $\mathfrak{L}\mathfrak{g}$ by an $\mathbb{R}$-action.
 
 
 The following says that the $L_\infty$-cyclification from prop.  \ref{Cyclification}
-indeed does model correspond to the topological cyclification from prop. \ref{CorrectReductionOnTopologicalSpaces}.
+indeed does model the topological cyclification from prop. \ref{CorrectReductionOnTopologicalSpaces}.
 
 
 
@@ -7641,13 +7642,13 @@ $\,$
 ###### Proposition
 **([Fiorenza-Sati-Schreiber 16b, prop. 3.5](#FSS16b))**
 
-For
+Let
 
 $$
   \array{
      \widehat{\mathfrak{g}}
      \\
-     \downarrow
+     {}^{\mathllap{\pi}}\downarrow
      \\
      \mathfrak{g}
      \\
@@ -7657,24 +7658,75 @@ $$
   }
 $$
 
-a [[central extension]] of [[super Lie-∞ algebras]], then the operation
-of sending a super $L_\infty$-homomorphsm of the form
+a [[central extension]] of [[super L-∞ algebras]]. According to prop. \ref{HomotopyFibersOfLInfinityCocycles}
+we have
 
 $$
-  \widehat{\mathfrak{g}} \overset{\phi}{\longrightarrow} \mathfrak{h}
+  CE(\widehat{\mathfrak{g}})
+    \simeq
+  CE(\mathfrak{g})[e, d e = \mu_2]
+  \,.
 $$
 
-to the composite
+and hence every generator $\alpha_p \in CE(\widehat{\mathfrak{g}})$ has a unique decomposition
 
 $$
+  \alpha_p = \beta_p - e \wedge \tilde \alpha_{p-1}
+$$
+
+where $\beta_p$ and $\tilde \alpha_{p-1}$ do not involve the generator $e$. We may think of this as
+
+$$
+  \pi_\ast(\alpha_p) \coloneqq \tilde \alpha_{p-1}
+  \;\;\;\;\,\;
+  \alpha_p|_{\mathfrak{g}} \coloneqq \beta_p
+  \,.
+$$
+
+Under this identification any super $L_\infty$-homomorphism
+
+$$
+  \phi \;\colon\; \widehat{\mathfrak{g}} \overset{\phi}{\longrightarrow} \mathfrak{h}
+$$
+
+hence a [[dg-algebra]] homomorphism
+
+$$
+  \phi^\ast  
+    \;\colon\;
+  CE(\mathfrak{h})
+     \longrightarrow
+  CE(\widehat{\mathfrak{g}})
+$$
+
+gives rise to a homomorphism of the form
+
+$$
+  \tilde \phi
+    \;\colon\;
   \mathfrak{g}
-    \longrightarrow
-  \mathfrak{L}\widehat{\mathfrak{g}}/\mathbb{R}
-    \overset{\mathfrak{L}\phi/\mathbb{R}}{\longrightarrow}
-  \mathfrak{L}\mathfrak{h}/\mathbb{R}
+    &#180;\longrightarrow
+  \mathfrak{L}\mathfrak{g}/\mathbb{R}
 $$
 
-produces a [[natural bijection]]
+which, in the notation of def. \ref{Cyclification}, is given dually by
+
+$$
+  \tilde \phi^\ast
+  \colon 
+  \left\{
+    \array{
+      \alpha & \mapsto (\phi^\ast \alpha)|_{\mathfrak{g}}
+      \\
+      s \alpha & \mapsto \pi_\ast(\phi^\ast \alpha)
+      \\
+      \omega_2 \mapsto \mu_2
+    }
+  \right.
+  \,.
+$$
+
+Moreover, this construction constitutes a [[natural bijection]]
 
 $$
   \array{
@@ -7733,6 +7785,18 @@ the canonical 2-cocycle on the cyclification is taken to the 2-cocycle classifyi
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+If $CE(\mathfrak{h})$ in prop. \ref{DimensionalReduction} has generators in degree 1, then 
+the operation $\tilde \phi^\ast$ involves sending generators in degree 0 to multiples of the 
+ground field. This makes $\tilde \phi$ a "[[[curved L-∞ algebra|curved]]" $L_\infty$-homomorphism.
+Hence for prop. \ref{DimensionalReduction} to give a pair of [[adjoint functors]] we need to regard it
+in the category of $L_\infty$-algebras with curved morphisms between them. But in applications
+$\mathfrak{h}$ typically contains no generators of degree 1, in which case the above natural bijection
+exists on the category of plain $L_\infty$-homomorphisms.
+
+=--
 
 
 +-- {: .num_example}
