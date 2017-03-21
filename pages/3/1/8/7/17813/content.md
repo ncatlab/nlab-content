@@ -7658,7 +7658,7 @@ $$
   }
 $$
 
-a [[central extension]] of [[super L-∞ algebras]]. According to prop. \ref{HomotopyFibersOfLInfinityCocycles}
+be a [[central extension]] of [[super L-∞ algebras]]. According to prop. \ref{HomotopyFibersOfLInfinityCocycles}
 we have
 
 $$
@@ -7705,7 +7705,7 @@ $$
   \tilde \phi
     \;\colon\;
   \mathfrak{g}
-    &#180;\longrightarrow
+    \longrightarrow
   \mathfrak{L}\mathfrak{g}/\mathbb{R}
 $$
 
@@ -7720,7 +7720,7 @@ $$
       \\
       s \alpha & \mapsto \pi_\ast(\phi^\ast \alpha)
       \\
-      \omega_2 \mapsto \mu_2
+      \omega_2 & \mapsto \mu_2
     }
   \right.
   \,.
@@ -7779,7 +7779,7 @@ $$
 $$
 
 between super $L_\infty$-homomorphisms out of the exteded super $L_\infty$-algebra $\widehat{\mathfrak{g}}$
-and homomorphism out of the base $\mathfrak{g}$ into the cyclification of the original coefficients
+and homomorphism out of the base $\mathfrak{g}$ into the cyclification (def. \ref{Cyclification}) of the original coefficients
 with the latter constrained so that
 the canonical 2-cocycle on the cyclification is taken to the 2-cocycle classifying the given extension.
 
@@ -7790,7 +7790,7 @@ the canonical 2-cocycle on the cyclification is taken to the 2-cocycle classifyi
 
 If $CE(\mathfrak{h})$ in prop. \ref{DimensionalReduction} has generators in degree 1, then 
 the operation $\tilde \phi^\ast$ involves sending generators in degree 0 to multiples of the 
-ground field. This makes $\tilde \phi$ a "[[[curved L-∞ algebra|curved]]" $L_\infty$-homomorphism.
+ground field. This makes $\tilde \phi$ a "[[curved L-∞ algebra|curved]]" $L_\infty$-homomorphism.
 Hence for prop. \ref{DimensionalReduction} to give a pair of [[adjoint functors]] we need to regard it
 in the category of $L_\infty$-algebras with curved morphisms between them. But in applications
 $\mathfrak{h}$ typically contains no generators of degree 1, in which case the above natural bijection
@@ -7841,7 +7841,7 @@ $$
   \mathfrak{h} \coloneqq b^{(p+1)+1} \mathbb{R}
 $$
 
-be the  [[line Lie n-algebra|line Lie (p+3)-algebra]]
+be the  [[line Lie n-algebra|line Lie (p+3)-algebra]] (prop. \ref{HomotopyFibersOfLInfinityCocycles})
 and consider any [[super p-brane|super (p+1)-brane]] cocycle from the old [[brane scan]] in dimension $d+1$
 
 $$
@@ -8052,7 +8052,7 @@ by repeatedly applying
 the super $L_\infty$-algebraic dimensional reduction/oxidation isomorphism of prop. \ref{DimensionalReduction}
 to the descended cocycles ([above](#Fields)) from the [[schreiber:brane bouquet]]
 yields super $L_\infty$-algebraic equivalences
-that reflect the pertinent [[dualities in string theory]]
+that reflect the pertinent [[dualities in string theory]]:
 
 1. between [[M-theory]] and [[type IIA string theory]] by [[KK-compactification]]
 
