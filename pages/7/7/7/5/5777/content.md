@@ -51,5 +51,6 @@ See also
 
 * {#Hennion13}  [[Benjamin Hennion]], _Tangent Lie algebra of derived Artin stacks_,  Journal f&#252;r die reine und angewandte Mathematik (Crelles Journal), December 2015 ([arXiv:1312.3167](http://arxiv.org/abs/1312.3167), [DOI:10.1515/crelle-2015-0065](http://dx.doi.org/10.1515/crelle-2015-0065))
 
+* Sam Raskin, p. 2,3 of _The cotangent stack_ (<a href="http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Sept22(Dmodstack1).pdf">pdf</a>)
 
 [[!redirects tangent complexes]]
