@@ -26,7 +26,7 @@ In [[physics]] and [[chemistry]] ([[solid state physics]]), _cohesion_ refers to
 
 ### In natural philosophy
 
-In [[Georg Hegel]]'s _[[Encyclopedia of the Philosophical Sciences]]_ there is discussion of the _[[cohesion]]_ of some substance. 
+In [[Georg Hegel]]'s _[[Encyclopedia of the Philosophical Sciences]]_ there is discussion of the cohesion of some substance. 
 
 ### In categorical logic / topos theory
 
