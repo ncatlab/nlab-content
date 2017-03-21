@@ -6,9 +6,10 @@
 
 A **convex space** (also called **barycentric algebra** and other terms, invented independently many times) is a set equipped with a notion of taking weighted averages, or convex-[[linear combinations]], of its elements.  Do not confuse this with an (abstract) _[[convex set]]_ , which a special kind of convex space, also defined below.
 
-A convex space is a [[set]] $X$ equipped with a family of maps $c_p : X \times X \to X$ satisfying some natural axioms (described below). All commutative nonunital rings are convex spaces, with the map $c_p(x,y) = x + p(y-x)$. 
+The [[category]] of convex spaces is an algebraic theory, being the affine part of the theory of $K$-(semi)modules with only the idempotent operations.  This definition is used by [Meng(1989)], and many basic properties of the category are detailed therein.  The category is complete, cocomplete, symmetric monoidal closed under the (usual) tensor product construction, and has a cogenerator [Borger and Kemper (1994)].   The subcategory consisting of the single object, the unit interval, is dense (left-adequate) in the category, and consequently every convex space is a canonical colimit.  Equivalently, the restricted Yoneda embedding is still full and faithful. This follows from Isbell's theorem on left adequate subcategories for algebraic theories.  A more detailed description is given by [Sturtz (2017)], where the existence of the dense subcategory is exploited to relate the category of convex spaces to the Giry algebras.
 
-Convex spaces may be important in the foundations of [[probability theory]].  The [[category]] of convex spaces is [[semicartesian monoidal category|semicartesian monoidal]] but not [[cartesian monoidal category|cartesian monoidal]].
+Axiomatically, a convex space can be characterized as a [[set]] $X$ equipped with a family of maps $c_p : X \times X \to X$ satisfying some natural axioms (described below). All commutative nonunital rings are convex spaces, with the map $c_p(x,y) = x + p(y-x)$. 
+
 
 The [[monad]] assigning to any set the free convex space on that set is a [[finitary monad|finitary]] [[commutative monad]].  We can thus follow Durov in thinking of it as a [[generalized ring]].  This allows us to think of convex spaces as 'modules' of a generalized ring, very much as [[vector spaces]] are modules of a field.  This is also true of the relatives of convex spaces: [[affine space|affine spaces]] and [[conical space|conical spaces]].  For example, all **affine spaces** are convex spaces as defined below.
 
@@ -72,6 +73,8 @@ Convex spaces have been rediscovered many times under many different names.  Ref
 
 *  _[[Handbook of Analysis and its Foundations]]_, Section 12.7 (short and to the point).
 
+*Borger & Kemper, Cogenerators for convex spaces, Applied Categorical Struc- tures, Vol. 2 (1994), 1-11.
+ 
 *  Romanowska, Smith, Or&#322;owska; Abstract barycentric algebras; [pdf](http://staff.science.uva.nl/~gfontain/tacl09-abstracts/tacl2009_submission_48.pdf).  This generalises from $[0,1]$ to an arbitrary $L \Pi$-algebra ($L$ for '&#321;ukasiewicz', $\Pi$ for 'product', so think of $[0,1]$ as a space of fuzzy truth values).
 
 *  Romanowska & Smith (1985); Modal Theory: An Algebraic Approach to Order, Geometry, and Convexity; Res. Exp. Math. 9; Heldermann-Verlag, Berlin, 1985.
@@ -85,6 +88,8 @@ Convex spaces have been rediscovered many times under many different names.  Ref
 
 * Bart Jacobs, _Duality for convexity_ [arXiv/0911.3834](http://arxiv.org/abs/0911.3834)
 
+* Kirk Sturtz, _The equivalence between the category of Giry algebras and Convex Spaces_[arXiv/1703.03240] (https://arxiv.org/pdf/1703.03240.pdf)
+
 * Shiri Artstein-Avidan, Vitali Milman, _The concept of duality in convex analysis, and the characterization of the Legendre transform_, Annals of Math. __169__, n.2, 661-674 (2009) 
 
 * Joe Flood, _Semiconvex geometry_, J. Austral. Math. Soc. Ser. A **30** (1980/81), 496-&#8211;510. 
@@ -92,6 +97,9 @@ Convex spaces have been rediscovered many times under many different names.  Ref
 * T. Swirszcz, _Monadic functors and categories of convex sets_ , Preprint No. **70**, _Proc. Inst. Math. Pol. Acad. Sci._, Warsaw; _Monadic functors and convexity_, _Bull. Acad. Polon. Sci. Ser. Sci. Math. Astronom. Phys._ **22** (1974), 39--42. 
 
 * Stanley P. Gudder, _Convexity and mixtures_, SIAM Review **19** (1977), 221--240; _A general theory of convexity_, Milan Journal of Mathematics, **49** (1979), 89--96.
+
+* [[Xiao-qing Meng]], _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
+ {#Meng}
 
 Many other references, and a discussion of how convex spaces have been repeatedly rediscovered, can be found at the $n$-Category Caf&#233; post [Convex Spaces](http://golem.ph.utexas.edu/category/2009/04/convex_spaces.html).
 
