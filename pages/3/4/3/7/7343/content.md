@@ -165,6 +165,5 @@ Discussion of construction of just [[N=1 D=4 super Yang-Mills theory]] this way 
 
 * Ibrahima Bah, Christopher Beem, Nikolay Bobev, Brian Wecht, _Four-Dimensional SCFTs from M5-Branes_ ([arXiv:1203.0303](http://arxiv.org/abs/1203.0303))
 
-[[!redirects Higgs branch]]
 
 [[!redirects N=2 D=4 sYM]]
