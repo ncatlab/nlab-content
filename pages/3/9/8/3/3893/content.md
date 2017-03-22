@@ -39,6 +39,8 @@ A _Cartan geometry_ is a space equipped with a _[[Cartan connection]]_. See ther
 
 * [[G-structure]], [[homothety]]
 
+* [[parabolic geometry]]
+
 * [[tractor bundle]]
 
 * [[higher Cartan geometry]]
