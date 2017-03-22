@@ -777,8 +777,11 @@ The local Chern-Simons term as an action functional for quantum field theory app
 
 The [[geometric quantization]] and [[path integral]] [[quantization]] of Chern-Simons theory and the relation of its [[Wilson line]] [[observables]] to the [[Jones polynomial]] was introduced in
 
-* [[Edward Witten]] _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
- {#Witten}
+* {#Witten} [[Edward Witten]] _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
+ 
+and also, indepndently at the same time
+
+* [[Jürg Fröhlich]], C. King, _The Chern-Simons theory and knot polynomials_, Comm. Math. Phys. Volume 126, Number 1 (1989), 167-199 ([project euclid](https://projecteuclid.org/euclid.cmp/1104179728))
 
 It derives its name from the [[Chern-Simons forms]] that were originally introduced in 
 
