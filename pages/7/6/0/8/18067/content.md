@@ -19,7 +19,7 @@
 
 ## Idea
 
-Given a [[ring spectrum]] $R$ and [[module spectrum]] $E$ over $R$, there is the [[free construction|free]] $R$-[[algebra spectrum]] induced by $E$, this is the _symmetric algebra_ spectrum $Sym_R E$, in direct analogy to the construction of [[symmetric algebras]] on [[vector spaces]] (e.g. [Khan 16}(#Khan16)).
+Given a [[ring spectrum]] $R$ and [[module spectrum]] $E$ over $R$, there is the [[free construction|free]] $R$-[[algebra spectrum]] induced by $E$, this is the _symmetric algebra_ spectrum $Sym_R E$, in direct analogy to the construction of [[symmetric algebras]] on [[vector spaces]] (e.g. [Khan 16](#Khan16)).
 
 The underlying spectrum of the symmetric algebra is simply the [[direct sum]] ([[wedge sum]] of spectra) of all the $n$-fold [[smash products]] of $E$ over $R$ [[homotopy quotient|homotopy quotiented]] by the canonical [[∞-action]] of the [[symmetric group]] $\Sigma(n)$ (by [[permutation]] of factors):
 
@@ -67,7 +67,7 @@ is like a [[polynomial ring|polynomial]] [[algebra spectrum]] over $R$.
 Beware that there is a similar construction that is in general different, namely
 
 $$
-  R[X_1, \cdots, x_n] \coloneqq R \wedge \Sigma^\infty(\mathbb{N}_+)
+  R[x_1, \cdots, x_n] \coloneqq R \wedge \Sigma^\infty(\mathbb{N}_+)
 $$
 
 where on the right we have the "monoid $\infty$-algebra" of the [[natural numbers]], directly analogous to the [[∞-group ∞-ring]] construction. There is a canonical comparison homomorphisms
