@@ -74,6 +74,9 @@ $$
 
 recalled e.g. as [Ravenel, theorem 1.4.2](#Ravenel)
 
+### As a CW spectrum
+
+The spectrum $B P$ can be constructed as a [[CW spectrum]] (cf. Priddy 1980) starting from the $p$-local sphere spectrum $S^0 = X_0$ by minimally attaching cells to $X_n$ to kill $\pi_{2n+1}(X_n)$.
 
 ## Related concepts
 
@@ -89,6 +92,10 @@ The original article is
  
 * [[Frank Adams]], part II.16 of _[[Stable homotopy and generalised homology]]_,1974
 
+An alternate construction was noted by Priddy
+
+* [[Stewart Priddy]], _A cellular construction of BP and other irreducible spectra_, [Math. Z.](http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN002423782) 173 (1980), pp 29-34.
+
 A textbook account is in section 4 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel4.pdf)) of
 
 * {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_ ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
@@ -97,7 +104,6 @@ A textbook account is in section 4 ([pdf](http://www.math.rochester.edu/people/f
 The truncated version is discussed in
 
 * [[Tyler Lawson]], [[Niko Naumann]], _Truncated Brown-Peterson spectra_ (2012) ([pdf](http://www.math.umn.edu/~tlawson/jmm-boston-handout.pdf))
-
 
 [[!redirects Brown-Peterson spectra]]
 
