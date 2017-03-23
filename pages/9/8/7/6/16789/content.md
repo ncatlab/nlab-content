@@ -43,14 +43,176 @@ $$
     && \downarrow^\mathrlap{p}
     \\
     && S^4 &\stackrel{}{\longrightarrow}& \mathbf{B} SU(2)
-  }
+  }   
 $$
 
-Here the idea is that $S^7$ can be construed as $\{(x, y) \in \mathbb{H}^2: {|x|}^2 + {|y|}^2 = 1\}$, with $p$ mapping $(x, y)$ to $x/y$ as an element in the [[projective line]] $\mathbb{P}^1(\mathbb{H}) \cong S^4$, with each [[fiber]] a [[torsor]] parametrized by quaternionic [[scalars]] $\lambda$ of unit [[norm]] (so $\lambda \in S^3$).  This canonical $S^3$-bundle (or $SU(2)$-bundle) is classified by a map $S^4 \to \mathbf{B} SU(2)$. 
+Here the idea is that $S^7$ may be construed as 
+
+$$
+  \begin{array}
+  S^7  
+    &\simeq
+  S(\mathbb{H}^4)
+  \\
+  & \simeq
+  \{(x, y) \in \mathbb{H}^2: {|x|}^2 + {|y|}^2 = 1\}, 
+  \end{array}
+$$
+
+with $p$ mapping $(x, y)$
+to $x/y$ as an element in the [[projective line]] $\mathbb{P}^1(\mathbb{H}) \cong S^4$, with each [[fiber]] a [[torsor]] parametrized by quaternionic [[scalars]] $\lambda$ of unit [[norm]] (so $\lambda \in S^3$).  This canonical $S^3$-bundle (or $SU(2)$-bundle) is classified by a map $S^4 \to \mathbf{B} SU(2)$. 
+
+{#HopfParameterization} There are other useful ways to paramerize the quaternionic Hopf fibration, such as the original _[[Hopf construction]]_, see there the section _[Hopf fibrations](Hopf+construction#HopfFibrations)_. By this paramterization $S^4$ is identified as $S^4 \simeq S(\mathbb{R} \oplus \mathbb{H})$.
 
 ### Exotic smooth structures
 
 It is open whether the 4-sphere admits an [[exotic smooth structure]]. See ([Freedman-Gompf-Morrison-Walker 09](#FreedmanGompfMorrisonWalker09)) for review.
+
+
+### $SU(2)$ action
+ {#QuaternionAction}
+
+If we identify $\mathbb{R}^5 \simeq_{\mathbb{Q}} \mathbb{R} \oplus \mathbb{H}$ with the [[direct sum]] of the [[real line]] with the [[real vector space]] underlying the [[quaternions]], so that
+
+$$
+ S^4 \simeq S(\mathbb{R} \oplus \mathbb{H})
+$$
+
+as in the discussion of the quaternionic Hopf fibration [above](#HopfParameterization), then there is induced an [[action]] of the group [[special unitary group|SU(2)]] on the 4-sphere, by identifying 
+
+$$
+  SU(2) \simeq S(\mathbb{Q})
+$$
+
+and then acting by left multipication.
+
+
+
+#### Circle action
+  {#CircleAction}
+
+As a sspecial case of the $SU(2)$-action from [above](#QuaternionAction), we discuss the induced circle action via the embedding
+
+$$
+  S^1 \simeq U(1) \hookrightarrow SU(2)
+  \,.
+$$
+
+Consider the following [[circle group]] [[action]] on the 4-sphere
+
++-- {: .num_defn #CircleActionOn4Sphere}
+###### Definition
+
+Regard
+
+$$
+  S^4 \simeq S(\mathbb{R} \oplus \mathbb{H})
+$$
+
+as the unit sphere inside the [[direct sum]] (as [[real vector spaces]]) of the [[real numbers]] with the [[quaternions]]. This induces a [[circle action]] on $S^4$ via the canonical circle action by multiplication with quaternions from the lft via $S^1 ) U(1) \hookrightarrow SU(2) \hookrightarrow \mathbb{H}$.
+
+=--
+
+The resulting ordinary [[quotient]] is $S^4/_{ord} S^1 \simeq S^3$ and the [[projection]] $S^4 \to S^3$ is the [[suspension]] of the [[complex Hopf fibration]] $S^3 \to S^2$.
+
+The [[fixed point]] set of the action is the two poles introduced by the suspension, hence forms the [[0-sphere]] space. Since this is not the [[empty set]], the [[homotopy quotient]] $S^4 // S^1$ of the [[circle action]] differs from $S^3$, but there is still the canonical [[projection]]
+
+$$
+  S^4//S^1 \longrightarrow S^4 / S^1 \simeq S^3
+  \,.
+$$ 
+
+Hence both $S^4$ and $S^4 // S^1$ are canonically [[homotopy types]] over $S^3$. A [[minimal dg-module]] presentation in [[rational homotopy theory]] for these projections is given in [Roig & Saralegi-Aranguren 00, second page](#RoigSaralegiAranguren00):
+
+Write
+
+$$
+  CE(\mathfrak{l}(S^3))) = Sym^\bullet \langle \underset{\text{deg 3}}{\underbrace{h_3}} \rangle
+$$
+
+for the [[minimal Sullivan model]] of the [[3-sphere]]. Then [[minimal KS-models]] for $S^4$ and $S^4 // S^1$, as [[dg-modules]] over $CE(\mathfrak{l}(S^3))$ are given as follows:
+
+$$
+  S^4 
+  \;\;:\;\;
+  Sym^\bullet \langle h_3\rangle 
+  \otimes
+  \langle 
+     f_{2p}, \omega_{2(p+1)} \,\vert\, p \in \mathbb{N} 
+  \rangle
+  \,,
+  d \colon
+  \left\{
+    \begin{aligned}
+      f_0 & \mapsto 0 
+      \\
+      f_2 & \mapsto h_3
+      \\
+      f_{2p+4} & \mapsto h_3 \wedge f_{2p+2}
+      \\
+      \omega_{4} & \mapsto 0
+      \\
+      \omega_{2p+6} & \mapsto h_3 \wedge \omega_{2p+4}
+    \end{aligned}
+    \right.
+$$
+
+{#MinimaldgmoduleForRationalS4ModS1}
+$$
+  S^4 // S^1
+  \;\;\colon\;\;
+  Sym^\bullet  \langle h_3 , \omega_2 \rangle 
+   \otimes
+  \langle 
+     f_{2p}, \omega_{2(p+1)} \,\vert\, p \in \mathbb{N}
+  \rangle
+  \,,
+  d \colon
+  \left\{
+    \begin{aligned}
+      f_0 & \mapsto 0
+      \\
+      f_2 & \mapsto h_3
+      \\
+      f_{2p+4} &\mapsto h_3 \wedge f_{2p+2}
+      \\
+      \omega_2 & \mapsto 0
+      \\
+      \omega_{2p+2} & \mapsto h_3 \wedge \omega_{2p}
+    \end{aligned}
+  \right.
+$$
+
+
+Notice how we changed the notation of the generators compared to [Roig & Saralegi-Aranguren 00, second page](#RoigSaralegiAranguren00), to bring out the pattern:
+
+|    Roig    |       here      |
+|------------|-----------------|
+|     $a$    |        $h_3$    |
+|     $1$    |       $f_0$     |
+|  $c_{2n}$  |    $f_{2n+2}$   |
+| $c_{2n+1}$ | $\omega_{2n+4}$ |
+|    $e$     |    $\omega_2$   |
+
+
+#### M5-brane orbifolds
+
+The [[supersymmetry|supersymmetric]] [[Freund-Rubin compactifications]] of [[11-dimensional supergravity]] which are [[Cartesian products]] of 7-dimensional [[anti-de Sitter spacetime]] with a compact 4-dimensional [[orbifold]]
+
+$$
+  AdS_7 \times X_4
+$$
+
+(the [[near horizon geometry]] of a [[black brane|black]] [[M5-brane]]) are all of the form
+
+$$
+  X_4 \simeq S^4//G
+$$
+
+where $G \subset SU(2)$ is a [[finite group|finite]] [[subgroup]] of $SU(2)$ (i.e. an [[ADE classification|ADE group]]), [[action|acting]] via the identification $S^4 \simeq S(\mathbb{R} \oplus \mathbb{H})$ as [above](#QuaternionAction), and where the double slash denotes the [[homotopy quotient]] ([[orbifold quotient]]).
+
+See ([AFHS 98, section 5.2](#AFHS98), [MF 12, section 8.3](#MF12)).
+
 
 
 ### Free and cyclic loop space
@@ -270,111 +432,6 @@ $$
 =--
 
 
-
-### Circle action
-  {#CircleAction}
-
-Consider the following [[circle group]] [[action]] on the 4-sphere
-
-+-- {: .num_defn #CircleActionOn4Sphere}
-###### Definition
-
-Regard
-
-$$
-  S^4 \simeq S(\mathbb{R} \oplus \mathbb{H})
-$$
-
-as the unit sphere inside the [[direct sum]] (as [[real vector spaces]]) of the [[real numbers]] with the [[quaternions]]. This induces a [[circle action]] on $S^4$ via the canonical circle action by multiplication with quaternions from the lft via $S^1 ) U(1) \hookrightarrow SU(2) \hookrightarrow \mathbb{H}$.
-
-=--
-
-The resulting ordinary [[quotient]] is $S^4/_{ord} S^1 \simeq S^3$ and the [[projection]] $S^4 \to S^3$ is the [[suspension]] of the [[complex Hopf fibration]] $S^3 \to S^2$.
-
-The [[fixed point]] set of the action is the two poles introduced by the suspension, hence forms the [[0-sphere]] space. Since this is not the [[empty set]], the [[homotopy quotient]] $S^4 // S^1$ of the [[circle action]] differs from $S^3$, but there is still the canonical [[projection]]
-
-$$
-  S^4//S^1 \longrightarrow S^4 / S^1 \simeq S^3
-  \,.
-$$ 
-
-Hence both $S^4$ and $S^4 // S^1$ are canonically [[homotopy types]] over $S^3$. A [[minimal dg-module]] presentation in [[rational homotopy theory]] for these projections is given in [Roig & Saralegi-Aranguren 00, second page](#RoigSaralegiAranguren00):
-
-Write
-
-$$
-  CE(\mathfrak{l}(S^3))) = Sym^\bullet \langle \underset{\text{deg 3}}{\underbrace{h_3}} \rangle
-$$
-
-for the [[minimal Sullivan model]] of the [[3-sphere]]. Then [[minimal KS-models]] for $S^4$ and $S^4 // S^1$, as [[dg-modules]] over $CE(\mathfrak{l}(S^3))$ are given as follows:
-
-$$
-  S^4 
-  \;\;:\;\;
-  Sym^\bullet \langle h_3\rangle 
-  \otimes
-  \langle 
-     f_{2p}, \omega_{2(p+1)} \,\vert\, p \in \mathbb{N} 
-  \rangle
-  \,,
-  d \colon
-  \left\{
-    \begin{aligned}
-      f_0 & \mapsto 0 
-      \\
-      f_2 & \mapsto h_3
-      \\
-      f_{2p+4} & \mapsto h_3 \wedge f_{2p+2}
-      \\
-      \omega_{4} & \mapsto 0
-      \\
-      \omega_{2p+6} & \mapsto h_3 \wedge \omega_{2p+4}
-    \end{aligned}
-    \right.
-$$
-
-{#MinimaldgmoduleForRationalS4ModS1}
-$$
-  S^4 // S^1
-  \;\;\colon\;\;
-  Sym^\bullet  \langle h_3 , \omega_2 \rangle 
-   \otimes
-  \langle 
-     f_{2p}, \omega_{2(p+1)} \,\vert\, p \in \mathbb{N}
-  \rangle
-  \,,
-  d \colon
-  \left\{
-    \begin{aligned}
-      f_0 & \mapsto 0
-      \\
-      f_2 & \mapsto h_3
-      \\
-      f_{2p+4} &\mapsto h_3 \wedge f_{2p+2}
-      \\
-      \omega_2 & \mapsto 0
-      \\
-      \omega_{2p+2} & \mapsto h_3 \wedge \omega_{2p}
-    \end{aligned}
-  \right.
-$$
-
-
-Notice how we changed the notation of the generators compared to [Roig & Saralegi-Aranguren 00, second page](#RoigSaralegiAranguren00), to bring out the pattern:
-
-|    Roig    |       here      |
-|------------|-----------------|
-|     $a$    |        $h_3$    |
-|     $1$    |       $f_0$     |
-|  $c_{2n}$  |    $f_{2n+2}$   |
-| $c_{2n+1}$ | $\omega_{2n+4}$ |
-|    $e$     |    $\omega_2$   |
-
-
-
-
-### Relating cyclic loop space with the circle homotopy quotient
-
 The [[unit of an adjunction|unit]] of the [[double dimensional reduction]]-[[adjunction]] 
 
 $$
@@ -409,7 +466,11 @@ $$
 
 from the [[homotopy quotient]] by the [[circle action]] (def. \ref{CircleActionOn4Sphere}), to the [[cyclic loop space]] of the 4-sphere.
 
-(...)
+
+
+
+
+
 
 
 
@@ -422,6 +483,11 @@ from the [[homotopy quotient]] by the [[circle action]] (def. \ref{CircleActionO
 * {#FreedmanGompfMorrisonWalker09} [[Michael Freedman]], [[Robert Gompf]], [[Scott Morrison]], [[Kevin Walker]], _Man and machine thinking about the smooth 4-dimensional Poincar&#233; conjecture_, Quantum Topology, Volume 1, Issue 2 (2010), pp. 171-208 ([arXiv:0906.5177](http://arxiv.org/abs/0906.5177))
 
 * {#RoigSaralegiAranguren00} [[Agustí Roig]], [[Martintxo Saralegi-Aranguren]], _Minimal Models for Non-Free Circle Actions_, Illinois Journal of Mathematics, volume 44, number 4 (2000) ([arXiv:math/0004141](https://arxiv.org/abs/math/0004141))
+
+* {#AFHS98} [[Bobby Acharya]], [[José Figueroa-O'Farrill]], [[Chris Hull]], B. Spence, _Branes at conical singularities and holography_ , Adv. Theor. Math. Phys. 2 (1998) 1249&#8211;1286
+
+* {#MF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+
 
 
 [[!redirects 4-spheres]]
