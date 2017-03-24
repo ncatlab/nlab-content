@@ -178,6 +178,7 @@ See also
 
 * [[Yde Venema]], _Algebras and Coalgebras_, &#167;6 (p.332-426) in Blackburn, van Benthem, Wolter, _Handbook of modal logic_, Elsevier, 2007.
 
+* [[Mark Weber]], *Polynomials in categories with pullbacks*, [TAC](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html)
 
 [[!redirects polynomial functor]]
 [[!redirects polynomial functors]]
