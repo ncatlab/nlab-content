@@ -273,13 +273,17 @@ Review includes:
 
 ### In string theory
 
-Discssion of the various ways that axions naturally appea in [[string theory]]  is in
+Discssion of the various ways that axions naturally appear in [[string theory]]  is in
 
 * {#SvrcekWitten06} Peter Svrcek, [[Edward Witten]], _Axions In String Theory_, JHEP 0606:051,2006 ([arXiv:hep-th/0605206](http://arxiv.org/abs/hep-th/0605206))
 
 and discuss specifically for the [[F-theory]] sector of string theory is in
 
 * {#Grimm14} Thomas Grimm, _Axion Inflation in F-theory_ ([arXiv:1404.4268](http://arxiv.org/abs/1404.4268))
+
+Discussion of stringy axion cosmology (such as [[fuzzy dark matter]]) is in 
+
+* Asimina Arvanitaki, Savas Dimopoulos, Sergei Dubovsky, Nemanja Kaloper, John March-Russell, _String Axiverse_, Phys.Rev.D81:123530,2010 ([arXiv:0905.4720](https://arxiv.org/abs/0905.4720))
 
 
 ### Experimental signature
