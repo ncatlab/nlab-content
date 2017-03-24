@@ -152,6 +152,14 @@ Note also that for any virtual double category $X$, there is another virtual dou
 
 ...
 
+## Obtaining the relevant monads
+
+Each of the above contexts for generalized multicategories requires a monad of a certain sort.  Various technologies exist for producing examples of such monads, for instance:
+
+* [[clubs]] and [[polynomial monads]] give ways to construct cartesian monads.
+* [[relative pseudomonads]] give a way to construct pseudomonads on bicategories like $Prof$.
+* [[double clubs]] and [[double polynomials]] give ways to construct monads on double categories.
+
 
 ## References
 
