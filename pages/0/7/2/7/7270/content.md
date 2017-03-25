@@ -108,5 +108,9 @@ The Steinberg relations are modelled on observed relations amongst the elementar
 
 This is a [[universal central extension]] and its kernel is [[Milnor's K2]].
 
+##Syzygies for the Steinberg group
 
+These are discussed in
+
+* M. M. Kapranov and M. Saito, _Hidden Stasheff polytopes in algebraic K-theory and in the space of Morse functions_, Higher homotopy structure in topology and mathematical physics (Poughkeepsie, N.Y. 1996), Contemporary Mathematics, vol. 227, AMS, 1999, pp. 191 &#8211; 225.
 
