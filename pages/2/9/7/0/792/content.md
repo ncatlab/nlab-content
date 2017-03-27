@@ -87,7 +87,7 @@ In these papers the $U(1)$-[[gerbe]] ([[circle 2-bundle with connection]]) does 
 
 The formalization with the above data originates in 
 
-* {#BunkeSchick05} [[Ulrich Bunke]], [[Thomas Schick]], _On the topology of T-duality_ ([pdf](http://www.uni-math.gwdg.de/schick/publ/totduali.pdf))
+* {#BunkeSchick05} [[Ulrich Bunke]], [[Thomas Schick]], _On the topology of T-duality_, Rev.Math.Phys.17:77-112,2005, ([arXiv:math/0405132](https://arxiv.org/abs/math/0405132))
 
 
 and
