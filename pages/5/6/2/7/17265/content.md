@@ -148,7 +148,7 @@ $$
   \,.
 $$
 
-For $n \in \mathb{N}$, $n \geq 1$ and for $x \colon \ast \to X$
+For $n \in \mathbb{N}$, $n \geq 1$ and for $x \colon \ast \to X$
 any point, then the $n$th **[[homotopy group]]** $\pi_n(X)$ of $X$ at $x$
 is the [[group]] 
 
