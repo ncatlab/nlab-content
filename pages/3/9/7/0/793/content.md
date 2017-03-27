@@ -229,7 +229,7 @@ In this context T-duality is described as an isomorphism of [[standard Courant a
 
 One special cases of T-duality is [[mirror symmetry]].
 
-* Andrew Strominger, Shing-Tung Yau, Eric Zaslow, _Mirror Symmetry is T-Duality_, Nucl.Phys.B479:243-259,1996 (DOI 10.1016/0550-3213(96)00434-8) [hep-th/9606040](http://arxiv.org/abs/hep-th/9606040)
+* [[Andrew Strominger]], [[Shing-Tung Yau], [[Eric Zaslow]], _Mirror Symmetry is T-Duality_, Nucl. Phys. B 479:243-259,1996 (DOI 10.1016/0550-3213(96)00434-8) [hep-th/9606040](http://arxiv.org/abs/hep-th/9606040)
 
 ### In Langlands duality
 
