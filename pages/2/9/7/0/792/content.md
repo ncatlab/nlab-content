@@ -75,41 +75,39 @@ of a certain prescribed [[integral transform]]-form ([Bunke-Rumpf-Schick 08, p. 
 
 ## References
 
-The simple version of topological T-duality, when $X$ is a principal circle bundle, was originally developed in 
+The concept was introduced on the level of differential form data in
 
 * {#BouwknegtEvslinMathai04} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _T-Duality: Topology Change from H-flux_, Commun.Math.Phys.249:383-415,2004 ([hep-th/0306062](http://arxiv.org/abs/hep-th/0306062)) 
 
-and the torus bundle case was introduced in 
-
 * {#BouwknegtHannabusMathai04} [[Peter Bouwknegt]], [[Keith Hannabus]] [[Varghese Mathai]], _T-duality for principal torus bundles_, JHEP 0403 (2004) 018 ([hep-th/0312284](http://arxiv.org/abs/hep-th/0312284)) 
 
-In these papers the $U(1)$-[[gerbe]] ([[circle 2-bundle with connection]]) does not appear, but an integral [[differential 3-form]], representing its [[Dixmier-Douady class]] does. Note that if the [[Eilenberg-MacLane spectrum|integral]] [[cohomology group]] $H^3(X,\mathbb{Z})$ of $X$ has [[torsion]] in dimension three, not all gerbes will arise in this way. 
-
-The formalization with the above data originates in 
+In these papers the $U(1)$-[[gerbe]] ([[circle 2-bundle with connection]]) does not appear, but an integral [[differential 3-form]], representing its [[Dixmier-Douady class]] does. Note that if the [[Eilenberg-MacLane spectrum|integral]] [[cohomology group]] $H^3(X,\mathbb{Z})$ of $X$ has [[torsion]] in dimension three, not all gerbes will arise in this way.  The formalization with the above data originates in 
 
 * {#BunkeSchick05} [[Ulrich Bunke]], [[Thomas Schick]], _On the topology of T-duality_, Rev.Math.Phys.17:77-112,2005, ([arXiv:math/0405132](https://arxiv.org/abs/math/0405132))
 
-
-and
-
 * {#BunkeRumpfSchick08} {#BunkeRumpfSchick08} [[Ulrich Bunke|U. Bunke]], P. Rumpf, [[Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_,  Rev. Math. Phys. 18, 1103 (2006). ([arXiv:math.GT/0501487](http://arxiv.org/abs/math.GT/0501487))
 
-A refined description is in 
+* [[Ulrich Bunke]], [[Markus Spitzweck]] (Regensburg), [[Thomas Schick]], _Periodic twisted cohomology and T-duality_, Ast&#233;risque No. 337 (2011), vi+134 pp. ISBN: 978-2-85629-307-2
+
+A refined version of this using [[smooth stacks]] is due to
 
 * [[Ulrich Bunke]], [[Thomas Nikolaus]], _T-Duality via Gerby Geometry and Reductions_ ([arXiv:1305.6050](http://arxiv.org/abs/1305.6050))
 
 * {#Nikolaus14} [[Thomas Nikolaus]], _[[T-Duality in K-theory and Elliptic Cohomology]]_, talk at _String Geometry Network Meeting_, Feb 2014, ESI Vienna ([website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html))
 
-
-There is a [[C*-algebra|C*-algebraic]] version of toplogical T-duality, discussed for instance at
+There is also [[C*-algebra|C*-algebraic]] version of toplogical T-duality, .e. in [[noncommutative topology]], which sees also topological T-duals in [[non-commutative geometry]]:
 
 * [[Varghese Mathai]], [[Jonathan Rosenberg]], _T-Duality for Torus Bundles with H-Fluxes via Noncommutative Topology_ ([arXiv](http://arxiv.org/abs/hep-th/0401168))
+
+The equivalence of the [[C*-algebra|C*-algebraic]] to the Bunke-Schick version, when the latter exists, is discussed in
+
+* Ansgar Schneider, _Die lokale Struktur von T-Dualitn&#228;tstripeln_ ([arXiv:0712.0260](https://arxiv.org/abs/0712.0260))
 
 Jonathan Rosenberg has also written a little introductory book for mathematicians:
 
 * [[Jonathan Rosenberg]], _Topology, $C^*$-algebras, and string duality_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:05632075&type=pdf&format=complete))
 
-A discussion that instead of [[noncommutative geometry]] uses [[topological groupoids]] is in 
+Another discussion that instead of [[noncommutative geometry]] uses [[topological groupoids]] is in 
 
 * Calder Daenzer, _A groupoid approach to noncommutative T-duality_ ([arXiv:0704.2592](http://arxiv.org/abs/0704.2592))
 
@@ -117,9 +115,9 @@ The [[bi-brane]] perspective on T-duality is amplified in
 
 * {#SarkissianSchweigert08} Gor Sarkissian, [[Christoph Schweigert]], _Some remarks on defects and duality_ ([arXiv:0810.3159](http://arxiv.org/abs/0810.3159))
 
-The refinement of topology T-duality to [[differential cohomology]], hence to an operation on the [[differential K-theory]] classes that model the [[RR-field]] is in
+The refinement of topological T-duality to [[differential cohomology]], hence to an operation on the [[differential K-theory]] classes that model the [[RR-field]] is in
 
-* {#KahleValentino} [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_ 
+* {#KahleValentino} [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_, Communications in Mathematical Physics, Volume 16, Issue 02, April 2014 ([arXiv:0912.2516](http://arxiv.org/abs/0912.2516))
  
 
 ## Blog resources
