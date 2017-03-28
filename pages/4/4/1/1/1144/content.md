@@ -670,7 +670,7 @@ This gives the condition in the above definition: the differential of any new el
 ###### Definition
 **(Sullivan models)**
 
-For $X$ a [[simply connected]] [[topological space]] $X$, a **Sullivan (minimal) model** for $X$ is a Sullivan (minimal) algebra $(\wedge^\bullet V^^ \ast, d_V)$ equipped with a [[quasi-isomorphism]]
+For $X$ a [[simply connected]] [[topological space]] $X$, a **Sullivan (minimal) model** for $X$ is a Sullivan (minimal) algebra $(\wedge^\bullet V^\ast, d_V)$ equipped with a [[quasi-isomorphism]]
 
   $$
     (\wedge^\bullet V^*, d_V)
@@ -797,7 +797,7 @@ This is due to ([Bousfield-Gugenheim 76, section 8](#BousfieldGugenheim76)) Revi
 
 +-- {: .num_defn #NilpotentObjects}
 ###### Definition
-**(subcategories of nilpotent objects of finite type)
+**(subcategories of nilpotent objects of finite type)**
 
 Write
 
@@ -810,8 +810,6 @@ Write
    1. [[finite type]]: the $\mathbb{Q}$-vector space $H_\bullet(X,\mathbb{Q})$ are of [[finite number|finite]] [[dimension]].
 
 1. $Ho(dgcAlg^{fin}_{\mathbb{Q},nil})$ for the [[full subcategory]] on the [[differential graded-commutative algebras]] which are equivalent to [[minimal Sullivan models]] $(\wedge^\bullet V, d)$ (def. \ref{SullivanAlgebra}) for which the [[graded vector space]] $V$ is of [[finite type]], i.e. is degreewise of [[finite number|finite]] [[dimension]] over $\mathbb{Q}$.
-
-=--
 
 [Bousfield-Gugenheim 76, p. viii](#BousfieldGugenheim76)
 
