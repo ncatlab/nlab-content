@@ -85,6 +85,7 @@ which is the [[inversion involution]] (given by sending any element to its [[inv
 
 * [[toric variety]]
 
+* [[noncommutative torus]]
 
 
 ## References
