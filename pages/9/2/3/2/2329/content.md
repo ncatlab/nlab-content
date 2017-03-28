@@ -42,7 +42,7 @@ A [[morphism]] of locally ringed space is a morphism of ringed spaces $(f,f^\sha
 ## References
 
 
-* [[Aise Johan de Jong]], section 19.2 in _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
+* [[Aise Johan de Jong]], _[[The Stacks Project]]_, ([tag 01HA](http://stacks.math.columbia.edu/tag/01HA))
 {#deJong}
 
 * [[James Milne]], section 4 of _[[Lectures on Étale Cohomology]]_
