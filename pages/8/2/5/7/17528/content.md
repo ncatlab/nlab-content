@@ -233,15 +233,15 @@ Both these conditions are equivalent to multiplication by $p$ being invertible.
 
 For $J \subset \mathbb{N}$ a set of [[prime numbers]], consider the [[direct sum]] $\underset{p \in J}{\oplus} \mathbb{Z}/p\mathbb{Z}$ of [[cyclic groups]] of [[order of a group|order]] $p$.
 
-The operation of $\underset{p \in J}{\otimes} \mathbb{Z}/p\mathbb{Z}$-localization of abelian groups according to def. \ref{AbelianGroupLocal} is called **inverting the primes** in $J$.
+The operation of $\underset{p \in J}{\oplus} \mathbb{Z}/p\mathbb{Z}$-localization of abelian groups according to def. \ref{AbelianGroupLocal} is called **inverting the primes** in $J$.
 
 Specifically 
 
 1. for $J = \{p\}$ a single prime then $\mathbb{Z}/p\mathbb{Z}$-localization is called **localization away from $p$**;
 
-1. for $J$ the set of all primes except $p$ then $\underset{p \in J}{\otimes} \mathbb{Z}/p\mathbb{Z}$-localization is called **localization at $p$;
+1. for $J$ the set of all primes except $p$ then $\underset{p \in J}{\oplus} \mathbb{Z}/p\mathbb{Z}$-localization is called **localization at $p$;
 
-1. for $J$ the set of all primes, then $\underset{p \in J}{\otimes} \mathbb{Z}/p\mathbb{Z}$-localizaton is called **[[rationalization]]**..
+1. for $J$ the set of all primes, then $\underset{p \in J}{\oplus} \mathbb{Z}/p\mathbb{Z}$-localizaton is called **[[rationalization]]**..
 
 =--
 
