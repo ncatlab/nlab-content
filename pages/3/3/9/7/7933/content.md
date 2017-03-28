@@ -329,7 +329,6 @@ with further indications in
 The special case of geometric quantization over infinitesimal [[action groupoids]] can be described in terms of [[BRST complexes]]. For references on this see _[Geometric quantization -- References -- Geometric BRST quantization](http://ncatlab.org/nlab/show/geometric+quantization#ReferencesBRST)_.
 
 
-
 Higher geometric quantization in a [[cohesive (∞,1)-topos]] over [[smooth ∞-groupoids]] is discussed in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Chris Rogers]], _[[schreiber:infinity-geometric prequantization]]_
