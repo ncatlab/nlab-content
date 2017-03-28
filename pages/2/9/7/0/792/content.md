@@ -117,7 +117,7 @@ The [[bi-brane]] perspective on T-duality is amplified in
 
 The refinement of topological T-duality to [[differential cohomology]], hence to an operation on the [[differential K-theory]] classes that model the [[RR-field]] is in
 
-* {#KahleValentino} [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_, Communications in Mathematical Physics, Volume 16, Issue 02, April 2014 ([arXiv:0912.2516](http://arxiv.org/abs/0912.2516))
+* {#KahleValentino} [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_, Communications in Contemporary Mathematics, Volume 16, Issue 02, April 2014 ([arXiv:0912.2516](http://arxiv.org/abs/0912.2516))
  
 
 ## Blog resources
