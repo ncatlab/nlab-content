@@ -102,18 +102,20 @@ We consider the following fields on the worldsheet:
 
 * $\tilde X : \Sigma \to \mathbb{R}/(2\pi/R)\mathbb{Z} = S^1_R$ -- a circle-valued function; this is the standard $\sigma$-model field describing propagation of the string on the circle;
 
-* $X_{i} : \partial \Sigma \to S^1_R$ -- the boundary values of this field;
+* $X_{i} : \partial \Sigma_{(i)} \to S^1_R$ -- the boundary values of this field;
 
 
 * $b \in \Omega^1(\Sigma, \mathbb{R})$ -- a 1-form; this is the auxiliary field that will not contribute to the dynamics but serves to make the T-duality manifest.
 
 
-Consider then the [[action functional]] on this collection of fields given by the assignment
+Consider then the following [[action functional]] on this collection of fields given by the assignment
 
 $$
   S'_E(\tilde X,b) = \frac{1}{2 \pi}
   \int_\Sigma
-  (\frac{1}{2} b \wedge \star b  - b \wedge d \tilde X)
+  \left(
+     \frac{1}{2} b \wedge \star b  - b \wedge d \tilde X
+  \right)
   -
   \frac{i}{2 \pi} \sum_{i = 1}^s
   \int_{\partial \Sigma_{(i)}}
