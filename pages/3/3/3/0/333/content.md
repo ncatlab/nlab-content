@@ -62,6 +62,8 @@ In noncommutative geometry various homotopical and (co)homological invariants we
 
 * [[groupoid algebra]]
 
+* [[noncommutative torus]]
+
 * [[noncommutative scheme]]
 
 * [[non-commutative analytic space]]
