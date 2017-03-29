@@ -1,5 +1,5 @@
 
-# Toby Bartels 
+# Toby Bartels
 
 I am [Toby Bartels](http://tobybartels.name/).
 
@@ -9,7 +9,7 @@ My main interests here are the [[foundations]] of mathematics, including [[const
 
 The regulars here may be especially interested in my PhD dissertation, [Higher Gauge Theory I: 2-Bundles](http://tobybartels.name/2bundles/).
 
-I also have [[Toby Bartels :HomePage|my own personal web here]], although not much is on it.
+I also have [[Toby Bartels:HomePage|my own personal web here]], although not much is on it.
 
 
 category: people
