@@ -560,87 +560,87 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 ##References
 
-* {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - SGA 4_ , LNM **269** Springer Heidelberg 1972. (sec. IV 7.6., pp.414-416)
+* {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), *Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - SGA 4*, LNM **269** Springer Heidelberg 1972. (sec. IV 7.6., pp.414-416)
 
-* [[John Baez|J. C. Baez]], [[Mike Shulman|M. Shulman]], _Lectures on n-categories and cohomology_ , pp.1-68 in J. C. Baez, P. May (eds.), _Towards Higher Categories_, Springer Heidelberg 2010. ([preprint](http://math.ucr.edu/home/baez/cohomology.pdf))
+* [[John Baez|J. C. Baez]], [[Mike Shulman|M. Shulman]], *Lectures on n-categories and cohomology*, pp.1-68 in J. C. Baez, P. May (eds.), *Towards Higher Categories*, Springer Heidelberg 2010. ([preprint](http://math.ucr.edu/home/baez/cohomology.pdf))
 &#8206;
-* {#Berto07} F. Berto, _Hegel's Dialectic as a Semantic Theory: An Analytical Reading_ , European Journal of Philosophy **15** no.1 (2007) pp.19-39. ([philpapers](http://philpapers.org/rec/BERHDA))
+* {#Berto07} F. Berto, *Hegel's Dialectic as a Semantic Theory: An Analytical Reading*, European Journal of Philosophy **15** no.1 (2007) pp.19-39. ([philpapers](http://philpapers.org/rec/BERHDA))
 
-* {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
+* {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, *Open Localizations*, JPAA **74** (1991) pp.229-238.
 
-* J. Climent Vidal, J. Soliveres Tur, _Functors of Lindenbaum-Tarski, Schematic Interpretations, and Adjoint Cylinders between Sentential Logics_ , Notre Dame Journal of Formal Logic **49** no.2 (2008) pp.185-202. ([pdf](https://projecteuclid.org/download/pdfview_1/euclid.ndjfl/1210859927))
+* J. Climent Vidal, J. Soliveres Tur, *Functors of Lindenbaum-Tarski, Schematic Interpretations, and Adjoint Cylinders between Sentential Logics*, Notre Dame Journal of Formal Logic **49** no.2 (2008) pp.185-202. ([pdf](https://projecteuclid.org/download/pdfview_1/euclid.ndjfl/1210859927))
 &#8206;
-* H. F. Fulda, _Aufheben_ , pp.318-320 in Ritter (ed.), _Historisches W&#246;rterbuch der Philosophie_ , Schwabe Basel 1971.  ([Heidi](http://archiv.ub.uni-heidelberg.de/volltextserver/16307/))
+* H. F. Fulda, *Aufheben*, pp.318-320 in Ritter (ed.), *Historisches W&#246;rterbuch der Philosophie*, Schwabe Basel 1971.  ([Heidi](http://archiv.ub.uni-heidelberg.de/volltextserver/16307/))
 
-* {#Giovanelli15} M. Giovanelli, _Trendelenburg and the Concept of Negation in Post-Kantian Philosophy_ , to appear in Munk (ed.), _Proceedings of the Amsterdam 2010 Colloquium: Natur des Denkens und das Denken der Natur: Spinoza, Trendelenburg, und H. Cohen_. ([draft](https://www.dropbox.com/s/mxm4db8id7je924/Giovanelli%2C%20Marco%20-%20Trendenleburg%20and%20the%20Concept%20of%20Negation%20in%20Post-Kantian%20Philosophy%20Proceedings%20of%20the%20Connference.pdf?dl=0))
+* {#Giovanelli15} M. Giovanelli, *Trendelenburg and the Concept of Negation in Post-Kantian Philosophy*, to appear in Munk (ed.), *Proceedings of the Amsterdam 2010 Colloquium: Natur des Denkens und das Denken der Natur: Spinoza, Trendelenburg und H. Cohen*. ([draft](https://www.dropbox.com/s/mxm4db8id7je924/Giovanelli%2C%20Marco%20-%20Trendenleburg%20and%20the%20Concept%20of%20Negation%20in%20Post-Kantian%20Philosophy%20Proceedings%20of%20the%20Connference.pdf?dl=0))
 
-* {#Goldblatt84} R. Goldblatt, _Topoi - The Categorical Analysis of Logic_ , 2nd ed. North-Holland Amsterdam 1984. (Dover reprint New York 2006; [project euclid](http://projecteuclid.org/euclid.bia/1403013939))
+* {#Goldblatt84} R. Goldblatt, *Topoi - The Categorical Analysis of Logic*, 2nd ed. North-Holland Amsterdam 1984. (Dover reprint New York 2006; [project euclid](http://projecteuclid.org/euclid.bia/1403013939))
 
-* {#Diff} [[G. W. F. Hegel]], _Differenz des Fichte'schen und Schelling'schen Systems der Philosophie_ , pp.7-138 in Moldenhauer, Michel (eds.), _Werke 2_ , Suhrkamp Frankfurt 1986[1801].
+* {#Diff} [[G. W. F. Hegel]], *Differenz des Fichte'schen und Schelling'schen Systems der Philosophie*, pp.7-138 in Moldenhauer, Michel (eds.), *Werke 2*, Suhrkamp Frankfurt 1986[1801].
 
-* {#Begriff} [[G. W. F. Hegel]], _Begriffslehre f&#252;r die Mittelklasse (1809/10)_ , pp.139-162 in Moldenhauer, Michel (eds.), _Werke 4_ , Suhrkamp Frankfurt 1986.
+* {#Begriff} [[G. W. F. Hegel]], *Begriffslehre f&#252;r die Mittelklasse (1809/10)*, pp.139-162 in Moldenhauer, Michel (eds.), *Werke 4*, Suhrkamp Frankfurt 1986.
 
-* {#WdL} [[G. W. F. Hegel]], _[[Science of Logic|Wissenschaft der Logik]] I_ , Suhrkamp Frankfurt 1986[1812/13; revised 1831].
+* {#WdL} [[G. W. F. Hegel]], *[[Science of Logic|Wissenschaft der Logik]] I*, Suhrkamp Frankfurt 1986[1812/13; revised 1831].
 
-* {#JS96}[[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
+* {#JS96}[[Peter Johnstone|P. Johnstone]], *Remarks on Quintessential and Persistent Localizations*, TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
-* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) pp.289-319.
+* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], *On the Complete Lattice of Essential Localizations*, Bull. Soc. Math. de Belgique **XLI** (1989) pp.289-319.
 
-* {#KRRZ11} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no.5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
+* {#KRRZ11} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, *Levels in the toposes of simplicial sets and cubical sets*, JPAA **215** no.5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
 
-* {#Koch09} A. F. Koch, _Hegel's Science of Logic_ , Lectures Emory University 2009. ([pdf](http://www.philosophie.uni-hd.de/md/philsem/personal/koch_hegel_science_of_logic_winter_2016.pdf))
+* {#Koch09} A. F. Koch, *Hegel's Science of Logic*, Lectures Emory University 2009. ([pdf](http://www.philosophie.uni-hd.de/md/philsem/personal/koch_hegel_science_of_logic_winter_2016.pdf))
 
-* {#Krahn14} R. Krahn, _The Sublations of Dialectics: Hegel and the Logic of Aufhebung_ , PhD Guelf University Ontario 2014. ([link](https://atrium.lib.uoguelph.ca/xmlui/handle/10214/8222))
+* {#Krahn14} R. Krahn, *The Sublations of Dialectics: Hegel and the Logic of Aufhebung*, PhD Guelf University Ontario 2014. ([link](https://atrium.lib.uoguelph.ca/xmlui/handle/10214/8222))
 
-* {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
+* {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, *Generic Figures and their Glueings*, Polimetrica Milano 2004.
 
-* {#Law89a} [[F. W. Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
+* {#Law89a} [[F. W. Lawvere]], *Qualitative Distinctions between some Toposes of Generalized Graphs*, Cont. Math. **92** (1989) pp.261-299.
 
-* {#Law89b} [[F. W. Lawvere]], _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_ , Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp.51-74. 
+* {#Law89b} [[F. W. Lawvere]], *Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"*, Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp.51-74. 
 
-* {#Law91a} [[F. W. Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ , pp.1-13 in LNM **1488** Springer Heidelberg 1991.
+* {#Law91a} [[F. W. Lawvere]], *[[Some Thoughts on the Future of Category Theory]]*, pp.1-13 in LNM **1488** Springer Heidelberg 1991.
 
-* {#Law91b} [[F. W. Lawvere]], _More on Graphic Toposes_ , Cah. Top. G&#233;om. Diff. Cat. **XXXII** no.1 (1991) pp.5-10. ([pdf](archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
+* {#Law91b} [[F. W. Lawvere]], *More on Graphic Toposes*, Cah. Top. G&#233;om. Diff. Cat. **XXXII** no.1 (1991) pp.5-10. ([pdf](archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
 &#8206;
-* {#Law92} [[F. W. Lawvere]], _Categories of Space and Quantity_, pp.14-30 in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter Berlin 1992.
+* {#Law92} [[F. W. Lawvere]], _Categories of Space and Quantity_, pp.14-30 in: J. Echeverria et al (eds.), *The Space of mathematics*, de Gruyter Berlin 1992.
 
-* {#Law94a} [[F. W. Lawvere]], _Cohesive Toposes and Cantor's 'lauter Einsen'_ , Phil. Math. **2** no.3 (1994) pp.5-15.
+* {#Law94a} [[F. W. Lawvere]], *Cohesive Toposes and Cantor's 'lauter Einsen'*, Phil. Math. **2** no.3 (1994) pp.5-15.
 
-* {#Law94b} [[F. W. Lawvere]], _Tools for the Advancement of Objective Logic: Closed Categories and Toposes_, pp.43-56 in: J. Macnamara, G. E. Reyes (eds.), _The Logical Foundations of Cognition_ , Oxford UP 1994.
+* {#Law94b} [[F. W. Lawvere]], _Tools for the Advancement of Objective Logic: Closed Categories and Toposes_, pp.43-56 in: J. Macnamara, G. E. Reyes (eds.), *The Logical Foundations of Cognition*, Oxford UP 1994.
 
-* {#Law96} [[F. W. Lawvere]], _[[Unity and Identity of Opposites in Calculus and Physics]]_ , App. Cat. Struc **4** (1996) pp.167-174.
+* {#Law96} [[F. W. Lawvere]], *[[Unity and Identity of Opposites in Calculus and Physics]]*, App. Cat. Struc **4** (1996) pp.167-174.
 
-* {#Law99} [[F. W. Lawvere]], _Kinship and Mathematical Categories_ , pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
+* {#Law99} [[F. W. Lawvere]], *Kinship and Mathematical Categories*, pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
 
-* {#Law00} [[F. W. Lawvere]], _Adjoint Cylinders_, message to catlist November 2000. ([link](http://permalink.gmane.org/gmane.science.mathematics.categories/1683))
+* {#Law00} [[F. W. Lawvere]], *Adjoint Cylinders*, message to catlist November 2000. ([link](http://permalink.gmane.org/gmane.science.mathematics.categories/1683))
 
-* {#Law02} [[F. W. Lawvere]], _Linearization of graphic toposes via Coxeter groups_ , JPAA **168** (2002) pp.425-436.
+* {#Law02} [[F. W. Lawvere]], *Linearization of graphic toposes via Coxeter groups*, JPAA **168** (2002) pp.425-436.
 
-* {#Law07} [[F. W. Lawvere]], _Axiomatic cohesion_ , TAC **19** no.3 (2007) pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+* {#Law07} [[F. W. Lawvere]], *Axiomatic cohesion*, TAC **19** no.3 (2007) pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
-* {#Law09} [[F. W. Lawvere]], _Open Problems in Topos Theory_ , ms. (2009). ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf)) {#Law09}
+* {#Law09} [[F. W. Lawvere]], *Open Problems in Topos Theory*, ms. (2009). ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf)) {#Law09}
 
-* {#Law13} [[F. W. Lawvere]], _Combinatorial Topology_, message to catlist November 2013. ([link](http://comments.gmane.org/gmane.science.mathematics.categories/7920))
+* {#Law13} [[F. W. Lawvere]], *Combinatorial Topology*, message to catlist November 2013. ([link](http://comments.gmane.org/gmane.science.mathematics.categories/7920))
 
-* {#LawvereMenni15} [[F. W. Lawvere]], [[Matías Menni|M. Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, TAC **30** no. 26 (2015) pp.909-932. ([abstract](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
+* {#LawvereMenni15} [[F. W. Lawvere]], [[Matías Menni|M. Menni]], *Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness*, TAC **30** no. 26 (2015) pp.909-932. ([abstract](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
 
-* {#LW11}[[Rory Lucyshyn-Wright|R. Lucyshyn-Wright]], _Totally Distributive Toposes_ , arXiv.1108.4032 (2011). ([pdf](http://arxiv.org/pdf/1108.4032v3))
+* {#LW11}[[Rory Lucyshyn-Wright|R. Lucyshyn-Wright]], *Totally Distributive Toposes*, arXiv.1108.4032 (2011). ([pdf](http://arxiv.org/pdf/1108.4032v3))
 
-* {#Menni09} [[Matías Menni|M. Menni]], _Algebraic Categories whose Projectives are Explicitly Free_ , TAC **22** no.29 (2009) pp.509-541. ([pdf](http://www.tac.mta.ca/tac/volumes/22/20/22-20.pdf))
+* {#Menni09} [[Matías Menni|M. Menni]], *Algebraic Categories whose Projectives are Explicitly Free*, TAC **22** no.29 (2009) pp.509-541. ([pdf](http://www.tac.mta.ca/tac/volumes/22/20/22-20.pdf))
 
-* {#Menni12} [[Matías Menni|M. Menni]], _Bimonadicity and the Explicit Base Property_ , TAC **26** no.22 (2012) pp.554-581. ([pdf](http://www.tac.mta.ca/tac/volumes/26/22/26-22.pdf))
+* {#Menni12} [[Matías Menni|M. Menni]], *Bimonadicity and the Explicit Base Property*, TAC **26** no.22 (2012) pp.554-581. ([pdf](http://www.tac.mta.ca/tac/volumes/26/22/26-22.pdf))
 
-* J. Petitot, _La Neige est Blanche ssi... Pr&#233;dication et Perception_ , Math. Inf. Sci. Hum **35** no.140 (1997) pp.35-50. ([pdf](http://archive.numdam.org/article/MSH_197_140_35_0.pdf))
+* J. Petitot, *La Neige est Blanche ssi... Pr&#233;dication et Perception*, Math. Inf. Sci. Hum **35** no.140 (1997) pp.35-50. ([pdf](http://archive.numdam.org/article/MSH_197_140_35_0.pdf))
 
-* J. P. Pertille, _Aufhebung - Meta-categoria da L&#243;gica Hegeliana_ , Revista Eletr&#244;nica Estudos Hegelianos **8** no.15 (2011) pp.58-66. ([pdf](http://www.hegelbrasil.org/reh_2011_2_art4.pdf))
+* J. P. Pertille, *Aufhebung - Meta-categoria da L&#243;gica Hegeliana*, Revista Eletr&#244;nica Estudos Hegelianos **8** no.15 (2011) pp.58-66. ([pdf](http://www.hegelbrasil.org/reh_2011_2_art4.pdf))
 
-* [[Bob Rosebrugh|R. Rosebrugh]], R. J. Wood, _Distributive Adjoint Strings_ , TAC **1** no.6 (1995) pp.119-145. ([pdf](http://www.tac.mta.ca/tac/volumes/1995/n6/v1n6.pdf))
+* [[Bob Rosebrugh|R. Rosebrugh]], R. J. Wood, *Distributive Adjoint Strings*, TAC **1** no.6 (1995) pp.119-145. ([pdf](http://www.tac.mta.ca/tac/volumes/1995/n6/v1n6.pdf))
 
-* [[R. Street]], _The petit topos of globular sets_ , JPAA **154** (2000) pp.299-315.
+* [[R. Street]], *The petit topos of globular sets*, JPAA **154** (2000) pp.299-315.
 
-* {#VT01}[[Enrico Vitale|E. M. Vitale]], _Essential Localizations and Infinitary Exact Completions_ , TAC **8** no.17 (2001) pp.465-480. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n17/n17.pdf))
+* {#VT01}[[Enrico Vitale|E. M. Vitale]], *Essential Localizations and Infinitary Exact Completions*, TAC **8** no.17 (2001) pp.465-480. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n17/n17.pdf))
 
-* {#WR93}[[Gavin C. Wraith]], _Using the Generic Interval_ , Cah. Top. G&#233;om. Diff. Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
+* {#WR93}[[Gavin C. Wraith]], *Using the Generic Interval*, Cah. Top. G&#233;om. Diff. Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
 
 
 
