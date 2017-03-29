@@ -33,6 +33,7 @@ _String diagrams_ are a graphical calculus for expressing operations in a [[mono
 Many operations in monoidal categories that look rather unenlightening in symbols become very obvious in string diagram calculus, such as the [[trace]]: an output wire gets bent around and connects to an input.
 
 
+
 ## Variations
 
 There are many additional structures on monoidal categories, or similar structures, which can usually be represented by encoding further geometric properties.  For instance:
@@ -45,13 +46,13 @@ There are many additional structures on monoidal categories, or similar structur
 
 * string diagrams can be extended to represent [[monoidal functors]] in several ways.  One nice way is described in [these slides](http://web.science.mq.edu.au/~mmccurdy/cms2010talk.pdf), and can also be done with "3D regions" as drawn [here](http://golem.ph.utexas.edu/category/2010/08/the_geometry_of_monoidal_fibra.html#c034428).
 
-* there is also a string diagram calculus for [[bicategories]], which extends that for monoidal categories regarded as one-object bicategories.  Thus, the strings now represent 1-cells and the nodes 2-cells, leaving the two-dimensional planar regions cut out by the strings to represent the 0-cells.  This makes it manifest that in general, string diagram notation is _Poincar&#233; dual_ to the [[globe|globular]] notation: where one uses $d$-dimensional symbolds the other uses $(2-d)$-dimensional symbols.
+* there is also a string diagram calculus for [[bicategories]], which extends that for monoidal categories regarded as one-object bicategories.  Thus, the strings now represent 1-cells and the nodes 2-cells, leaving the two-dimensional planar regions cut out by the strings to represent the 0-cells.  This makes it manifest that in general, string diagram notation is _Poincar&#233; dual_ to the [[globe|globular]] notation: where one uses $d$-dimensional symbols, the other uses $(2-d)$-dimensional symbols.
 
 * Similarly, one can extend this to "[[surface diagrams]]" for [[3-categories]] (including [[monoidal bicategories]]) and so on; see for instance [[toddtrimble:Surface diagrams|here]].
 
 * As explained [here](http://sbseminar.wordpress.com/2007/07/12/the-operadic-periodic-table/), in the presence of certain levels of duality it may be better to work with diagrams on cylinders or spheres rather than in boxes. This relates to [[planar algebras]] and [[canopolis|canopolises]]. 
 
-* A string diagram calculus for [[monoidal fibrations]] can be obtained as a generalization of C.S. Peirce's "existential graphs."  The ideas are essentially contained in ([Brady-Trimble 98](#BradyTrimble98)) and developed in ([Ponto-Shulman 12](#PontoShulman12)) , and was discussed [here](http://golem.ph.utexas.edu/category/2010/08/the_geometry_of_monoidal_fibra.html).
+* A string diagram calculus for [[monoidal fibrations]] can be obtained as a generalization of C.S. Peirce's "existential graphs."  The ideas are essentially contained in ([Brady-Trimble 98](#BradyTrimble98)) and developed in ([Ponto-Shulman 12](#PontoShulman12)), and was discussed [here](http://golem.ph.utexas.edu/category/2010/08/the_geometry_of_monoidal_fibra.html).
 
 * String diagrams for [[closed monoidal categories]] (see also at _[[Kelly-Mac Lane graph]]_) are similar to those for [[autonomous categories]], but a bit subtler, involving "boxes" to separate parts of the diagram.  They were used informally [here](http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation), but can also be done in essentially the same way as the [[proof net]]s used in [[intuitionistic logic|intuitionistic]] [[linear logic]]; see [this paper](http://hal.inria.fr/docs/00/34/73/36/PDF/prfnet1.pdf).  Proof nets for [[classical mathematics|classical]] [[linear logic]] similarly give string diagrams for [[*-autonomous categories]].
 
