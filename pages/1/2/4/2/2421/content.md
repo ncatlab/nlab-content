@@ -172,7 +172,7 @@ The super-translation group is the $(1|1)$-dimensional case of the [[super Eucli
 
 ## Finite super-groups
 
-There is a finite analogon for super-groups that does not quite fit in the framework presented here:
+There is a finite analog for super-groups that does not quite fit in the framework presented here:
 
 +-- {: .num_defn}
 ###### Definition
