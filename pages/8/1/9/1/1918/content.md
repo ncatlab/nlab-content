@@ -185,7 +185,7 @@ The English Wikipedia has [a decent article](http://secure.wikimedia.org/wikiped
 
 Lecture notes include
 
-* Vipul Naik, _Topology: The journey into separation axioms_ ([pdf](http://www.cmi.ac.in/~vipul/mathjourneys/contytopologysep.pdf))
+* {#Naik} [[Vipul Naik]], _Topology: The journey into separation axioms_ ([pdf](http://www.cmi.ac.in/~vipul/mathjourneys/contytopologysep.pdf))
 
 [[!redirects topologically distinct points]]
 [[!redirects topologically disjoint sets]]
