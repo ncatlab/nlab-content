@@ -1,14 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
-
 
 # The separation axioms
 * table of contents
@@ -23,7 +22,7 @@ These axioms are all of the form of saying that two subsets (of certain forms) i
 
 In this fashion one may impose a hierarchy of stronger axioms. For example demanding that given two distinct points, then each of them is contained in some open subset not containing the other ($T_1$) or that such a pair of open subsets around two distinct points may in addition be chosen to be disjoint ($T_2$). This last condition, $T_2$, also called the _[[Hausdorff topological space|Hausdorff condition]]_ is the most common among all separation axioms. Often (but by far not always) this is considered by default.
 
-Originally there were four separation axioms $T_0, T_1, T_2, T_3$, nowadays one considers various more. For instance there is a similar sequence of axioms called $R_0, R_1, R_2, R_3$ which are of the same form, except that they do not start with mentioning two set-theoretically distinct points, but two points satisfying the conclusion of $T_0$. This and more is spelled out [below](#TheClassicalTheory).
+Originally there were four separation axioms $T_1, T_2, T_3, T_4$; nowadays one considers various more. Besides the extrapolation of the original sequence from $T_0$ through $T_6$ (with $T_{2\frac{1}{2}}$ and $T_{3\frac{1}{2}}$ interpolated), there is a similar sequence of axioms called $R_0, R_1, R_2, R_3$ (with their extrapolations and interpolations) of the same form, except that they do not start with mentioning two set-theoretically distinct points, but two points satisfying the conclusion of $T_0$. This and more is spelled out [below](#TheClassicalTheory).
 
 There are also axioms that do not follow the pattern of "if certain two subsets are separated in some weak sense, then they are also separated in some stronger sense", but that still axiomatize some kind of separatedness. For example the condition on a [[topological space]] being [[sober topological space|sober]] is of a different nature, but is implied by $T_2$ and implies $T_0$. Notice that via their [[full subcategory|full embdding]] into [[locales]], [[sober topological spaces]] may be understood without reference to their underlying set pf points at all.
 
