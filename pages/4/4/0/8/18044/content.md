@@ -74,16 +74,20 @@ $$
     \right)
     \\
     & \simeq
+    Spec\left(
     R
     \wedge
     \left(
        \underset{n \in \mathbb{N}}{\coprod}
         B \Sigma(n)^{\tau_n}
     \right)_+
+    \right)
     \\
     & \simeq
+    Spec\left(
     R \wedge
     Sym_{\mathbb{S}}(\Sigma \mathbb{S})
+    \right)
   \end{aligned}
   \,.
 $$
