@@ -49,6 +49,8 @@ If the universal object $(End(d),a)$ exists then there is a unique structure of 
 
 * [[endofunctor]]
 
+* [[EI-category]]
+
 
 [[!redirects endomorphism]]
 [[!redirects endomorphisms]]
