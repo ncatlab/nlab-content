@@ -217,12 +217,15 @@ A writeup finally appeared as
 
 * {#FFLL16} Kuen-Bang Hou ([[Favonia]]), [[Eric Finster]], [[Dan Licata]], [[Peter LeFanu Lumsdaine]], _A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory_ ([arXiv.1605.03227](https://arxiv.org/abs/1605.03227))
 
-
 Another unwinding to ordinary mathematical language of the above [code](#Favonia) was meanwhile given 
 
 * {#Rezk14} [[Charles Rezk]], _Proof of the Blakers-Massey theorem_, 2014 [pdf](http://www.math.uiuc.edu/~rezk/freudenthal-and-blakers-massey.pdf).
 
+Further developments along these lines are in
 
+* {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _A Generalized Blakers-Massey Theorem_ ([arXiv:1703.09050](https://arxiv.org/abs/1703.09050))
+
+* {#AnelBiedermanFinsterJoyal17b} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _Goodwillie's Calculus of Functors and Higher Topos Theory_ ([arXiv:1703.09632](https://arxiv.org/abs/1703.09632))
 
 ### In shape theory
 
