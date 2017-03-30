@@ -96,7 +96,7 @@ We define $L_H C^\mathbf{T}(X,Y)$ to be $\varinjlim_\mathbf{T} \nu(C^\mathbf{T}(
 * Composition is given by $\nu(\vee)$
 * The identities $Id_X$ are those maps $\Delta^0\to C^\mathbf{T}(X,X)$ classifying the unique empty zigzag
 
-It remains to show that the $\nu(\vee^{t,t'}_{XYZ})$ assemble to a morphism of simplicial sets $\vee_{XYZ}:L_H C^\mathbf{T}(X,Y)\times L_H C^\mathbf{T}(Y,Z)\to L_H C^\mathbf{T}(X,Z)$ "in the limit", as it were.  By the universality  of colimits in $SSet$ and the fact that $\nu$ is a right adjoint, we have that $L_H C^\mathbf{T}(X,Y)\times L_H C^\mathbf{T}(Y,Z)\cong $\varinjlim_\mathbf{T} \nu(C^\mathbf{T}(X,Y)\times C^\mathbf{T}(Y,Z)$.  
+It remains to show that the $\nu(\vee^{t,t'}_{XYZ})$ assemble to a morphism of simplicial sets $\vee_{XYZ}:L_H C^\mathbf{T}(X,Y)\times L_H C^\mathbf{T}(Y,Z)\to L_H C^\mathbf{T}(X,Z)$ "in the limit", as it were.  By the universality  of colimits in $SSet$ and the fact that $\nu$ is a right adjoint, we have that $L_H C^\mathbf{T}(X,Y)\times L_H C^\mathbf{T}(Y,Z)\cong \varinjlim_\mathbf{T} \nu(C^\mathbf{T}(X,Y)\times C^\mathbf{T}(Y,Z)$.  
 
 Then to prove that everything assembles correctly, we may need to use some sort of [[coend]], but I'm not too sure.
 
