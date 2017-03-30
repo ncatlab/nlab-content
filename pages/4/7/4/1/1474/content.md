@@ -84,9 +84,9 @@ The topology on a [[compact space|compact]] Hausdorff space is given precisely b
 A compact Hausdorff [[locale]] (or space) is necessarily [[regular locale|regular]]; a regular locale (or $T_0$ space) is necessarily Hausdorff.  Accordingly, [[locale]] theory usually speaks of 'compact regular' locales instead of 'compact Hausdorff' locales, since the definition of regularity is easier and more natural.  Then a version of the previous paragraph works for compact regular locales *without* the ultrafilter theorem, and indeed [[constructive mathematics|constructively]] over any [[topos]].
 
 
-### Soberity
+### Sobriety
 
-Every Hausdorff space is a [[sober topological space]]: _[[Hausdorff implies sober]]_
+Every Hausdorff space is a [[sober topological space]]: _[[Hausdorff implies sober]]_.  (This is not constructively valid.)
 
 
 ### Compact subspaces
@@ -97,6 +97,7 @@ Every Hausdorff space is a [[sober topological space]]: _[[Hausdorff implies sob
 [[compact subspaces of Hausdorff spaces are closed]].
 
 =--
+
 
 ### Reflection
  {#HausdorffReflection}
@@ -132,6 +133,7 @@ The reader can now easily define a _sequentially $R_1$ space_.
 
 The most obvious definition for a [[locale]] $X$ to be **Hausdorff** is that its [[diagonal]] $X\to X\times X$ is a closed (and hence proper) inclusion.  However, if $X$ is a [[sober space]] regarded as a locale, this might not coincide with the condition for $X$ to be Hausdorff as a space, since the product $X\times X$ in the category of locales might not coincide with the product in the category of spaces.  But it does coincide if $X$ is a [[locally compact locale]], so in that case the two notions of Hausdorff are the same.
 
+
 ### Separated toposes and schemes
 
 This notion of a _Hausdorff locale_ is a special case of that of _[[Hausdorff topos]]_ in [[topos theory]]. This also includes notions such as a _[[separated scheme]]_ etc.  The corresponding relative notion (over an arbitrary [[base topos]]) is that of _[[separated geometric morphism]]_. For schemes see _[[separated morphism of schemes]]_.
@@ -155,11 +157,11 @@ In particular, the statement "all discrete locales are localically strongly Haus
 
 However, non-discrete spaces can constructively be localically strongly Hausdorff without having decidable equality.  For instance, any [[regular space]] is also regular as a locale, and hence localically strongly Hausdorff.  We can also say:
 
-+--{: .num_theorem #Apartness}
++-- {: .num_theorem #Apartness}
 ###### Theorem
 In any topological space $X$, let $x\#y$ mean that there exist opens $U,V$ with $x\in U$ and $y\in V$ and $U\cap V = \emptyset$; then $\#$ is always an [[inequality relation]].  If the spatial product $X\times X$ coincides with the locale product (such as if $X$ is [[locally compact space|locally compact]]), then $X$ is localically strongly Hausdorff if and only if $\#$ is an [[apartness relation]] and every open set in $X$ is $\#$-open (i.e. for any $x\in U$ and $y\in X$ we have $y\in U \vee x\#y$).
 =--
-+--{: .proof}
++-- {: .proof}
 ###### Proof
 Note that $\#$ is, as a subset $W_\# \subseteq X\times X$, the exterior of the diagonal in the product topology, mentioned above.  If $X$ is localically strongly Hausdorff, then $W_\#$ *must* be the open set of which the diagonal is the complementary closed sublocale, since it is the largest open set disjoint from the diagonal.
 
