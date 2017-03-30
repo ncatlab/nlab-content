@@ -212,10 +212,11 @@ Other standard operations on categories include
 
 ## Related concepts
 
-* [[continuous category]]
-
 * [[enriched category]]
 
+  * [[continuous category]]
+
+* [[EI-category]]
 
 * [[0-category]], [[(0,1)-category]]
 
