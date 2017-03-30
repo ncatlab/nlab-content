@@ -73,6 +73,8 @@ In [[n-category|higher categories]], isomorphisms generalise to [[equivalence]]s
 
 * [[equivalence of (∞,1)-categories]]
 
+* [[EI-category]]
+
 
 [[!redirects isomorphic]]
 [[!redirects isomorphisms]]
