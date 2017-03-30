@@ -126,7 +126,7 @@ For $G = (S^1)^{\times_n}$ a [[torus]]:
 
 * [[John Greenlees]], [[Brooke Shipley]], _An algebraic model for rational torus-equivariant spectra_ ([arXiv:1101.2511](http://arxiv.org/abs/1101.2511))
 
-For $G = SO(3)$ and hence also for the finite groups of [[ADE classification|ADE type]]:
+For $G = SO(3)$ and hence also for the [[finite groups]] of [[ADE classification|ADE type]]:
 
 * [[John Greenlees]], _Rational SO(3)-Equivariant Cohomology Theories_, in _Homotopy methods in algebraic topology_ (Boulder, CO, 1999), Contemp. Math. 271, Amer. Math. Soc. (2001) 99 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5444))
 
