@@ -58,7 +58,7 @@ of the bundle projection.
 
 For $X$ a [[compact topological space]], $Th(V)$ is a model for [[generalized the|the]] [[one-point compactification]] of the total space $V$.
 
-The Thom space of the rank-$n$ [[universal vector bundle]] over the [[classifying space]] $B O(n)$ of the [[orthogonal group]] is usuelly denoted $M O(n)$. As $n$ ranges, these spaces form the [[Thom spectrum]].
+The Thom space of the rank-$n$ [[universal vector bundle]] over the [[classifying space]] $B O(n)$ of the [[orthogonal group]] is usually denoted $M O(n)$. As $n$ ranges, these spaces form the [[Thom spectrum]].
 
 ## Definition 
  {#Definition}
