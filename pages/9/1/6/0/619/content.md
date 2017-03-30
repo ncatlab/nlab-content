@@ -227,7 +227,7 @@ This is [AdamekRosicky, theorem 6.28](#AdamekRosicky)
 ###### Theorem
 The strong [[Vop?nka's principle]] is equivalent to:
 
-For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hookrightarrow C$ which is closed under [[limit]]s is a reflective subcategory; further on, $D$ is then also locally presentable
+For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hookrightarrow C$ which is closed under [[limit]]s is a reflective subcategory; further on, $D$ is then also locally presentable.
 =--
 (Remark after corollary 6.24 in [Adamek-Rosicky book](#AdamekRosicky)).
 
