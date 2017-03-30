@@ -41,7 +41,7 @@ The original reference for [[finite groups]] is
 
 * G. Triantafillou, _Equivariant rational homotopy theory_, chapter III of [[Peter May]], _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comeza&#732;na, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
 
-but beware that [Scull 01](#Scull01) claims some theorems in there are not correct. Corrrected statements for finite groups as well as generalization to [[compact Lie groups]], at least to the [[circle group]], is due to
+but beware that [Scull 01](#Scull01) claims that the statement about minimal model there is not correct. Corrrected statements for finite groups as well as generalization to [[compact Lie groups]], at least to the [[circle group]], is due to
 
 * {#Scull01} Laura Scull, _Rational $S^1$-equivariant homotopy theory_, Transactions of the AMS, Volume 354, Number 1, Pages 1-45 2001 ([pdf](http://www.ams.org/journals/tran/2002-354-01/S0002-9947-01-02790-8/S0002-9947-01-02790-8.pdf))
 
