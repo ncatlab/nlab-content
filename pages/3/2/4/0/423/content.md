@@ -90,11 +90,11 @@ such that for all $x,y,z \in X$:
 +-- {: .num_example}
 ###### Example
 
-Every [[normed vector space]] $(V, {\Vert -\Vert})$
+Every [[normed vector space]] $(V, {\vert - \vert})$
 becomes a [[metric space]] according to def. \ref{MetricSpace} by setting
 
 $$
-  d(x,y) \coloneqq {\Vert x-y\Vert}
+  d(x,y) \coloneqq {\vert x-y \vert}
   \,.
 $$
 
