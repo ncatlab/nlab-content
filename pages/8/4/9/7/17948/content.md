@@ -56,7 +56,7 @@ Im Folgenden geben wir eine kurze Einf&#252;hrung zu den zentralen Konzepten und
 
 Die zentrale Idee der Topologie ist es, [[spaces|Räume]] mit "[[continuous maps|stetigen Abbildungen]]" zwischen ihnen zu betrachten. 
 
-Historisch wurde das Konzept der Stetigkeit zuerst in der [[analysis|Analysis]] pr&#228;zise gemacht, durch "[[epsilontic analysis|epsilontische Analysis]]" von [[open balls|offenen Bällen]], an diese wird unten in def. \ref{EpsilonDeltaDefinitionOfContinuity} erinnert. Dann realisierte man dass dies eine elegantere Formulierung durch den Begriffe der _[[open sets|offenen Mengen]]_ hat, dies ist unten Prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets}. Der Begriff des  _[[topological spaces|topologischen Raumes]]_ ergibt sich wenn man von diesem allgemeinen Begriff der offenen Mengen ausgeht, dies ist Def. \ref{TopologicalSpaces} unten.
+Historisch wurde das Konzept der Stetigkeit zuerst in der [[analysis|Analysis]] pr&#228;zise gemacht, durch "[[epsilontic analysis|epsilontische Analysis]]" von [[open balls|offenen Bällen]], an diese wird unten in def. \ref{EpsilonDeltaDefinitionOfContinuity} erinnert. Dann realisierte man dass dies eine elegantere Formulierung durch den Begriffe der _[[open sets|offenen Mengen]]_ hat, dies ist unten Prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets}. Der Begriff des  _[[topological spaces|topologischen Raumes]]_ ergibt sich wenn man von diesem allgemeinen Begriff der offenen Mengen ausgeht, dies ist Def. \ref{TopologicalSpace} unten.
 
 
 Sei daher zun&#228;chst an folgende elementare Begriffe der [[analysis|Analysis]] erinnert:
@@ -215,7 +215,7 @@ und
 
 Dies motiviert die folgende allgemeinere Definition:
 
-+-- {: .num_defn #TopologicalSpaces}
++-- {: .num_defn #TopologicalSpace}
 ###### Definition
 **(topologische R&#228;ume)**
 
@@ -309,7 +309,7 @@ Unser motivierendes Beispiel ist also folgendes
 ###### Beispiel
 **(metrische Topologie)**
 
-Sei $(X,d)$ ein [[metric space|metrischer Raum]]. Dann ist seine Menge von offenen Mengen im Sinne von def. \ref{OpenSubsetsOfAMetricSpace} eine _[[topological space|Topologie]]_ auf $X$, macht also $X$ zu einem _[[topological space|topologischen Raum]]_ im Sinne von def. \ref{TopologicalSpaces}. Dies wird die _[[metric topology|metrische topologie]]_ genannt. 
+Sei $(X,d)$ ein [[metric space|metrischer Raum]]. Dann ist seine Menge von offenen Mengen im Sinne von def. \ref{OpenSubsetsOfAMetricSpace} eine _[[topological space|Topologie]]_ auf $X$, macht also $X$ zu einem _[[topological space|topologischen Raum]]_ im Sinne von def. \ref{TopologicalSpace}. Dies wird die _[[metric topology|metrische topologie]]_ genannt. 
 
 Kurz gesagt, die [[open balls|offenen Bälle]] in einem metrischen Raum sind die "[[basis of a topology|Basis]]" f&#252;r die [[metric topology|metrische Topologie]].
 
@@ -354,7 +354,7 @@ Die Illustration rechts zeigt zwei offene Untermengen in dem [[square|Quadrat]],
 ###### Beispiel
 **(topologischer Quotientenraum)**
 
-Sei $(X,\tau_X)$ ein [[topological space|topologischer Raum]] (def. \ref{TopologicalSpaces}) und sei 
+Sei $(X,\tau_X)$ ein [[topological space|topologischer Raum]] (def. \ref{TopologicalSpace}) und sei 
 
 $$
   R_\sim \subset X \times X
