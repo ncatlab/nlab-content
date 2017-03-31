@@ -76,14 +76,17 @@ There is also a topological property of [[Cech-complete space|Čech-completeness
 
 When [[Bill Lawvere]] interpreted (in [Lawvere 1973](#Lawvere1973)) [[metric spaces]] as certain [[enriched categories]], he found that a metric space was complete if and only if every [[adjunction]] of [[bimodules]] over the enriched category is induced by an [[enriched functor]].  Accordingly, this becomes the notion of [[Cauchy-complete category]].  (Note that one *must* say 'Cauchy' here, since this is *weaker* than being a [[complete category]], which is based on an incompatible analogy.)
 
+## Related concepts
+
+* a complete [[normed vector space]] is a _[[Banach space]]_
 
 ## References
 
-*  A.V. Arkhangel&#8242;skii (1977).  _Complete space_.  Matematicheskaya entsiklopediya.  [Updated English version](https://www.encyclopediaofmath.org/index.php/Complete_space). 
-   {#Ark1977}
+*  {#Ark1977} A.V. Arkhangel&#8242;skii (1977).  _Complete space_.  Matematicheskaya entsiklopediya.  [Updated English version](https://www.encyclopediaofmath.org/index.php/Complete_space). 
+   
 
-*  [[Bill Lawvere]] (1973).  _Metric spaces, generalized logic and closed categories_.  Reprinted in [[TAC]], 1986.  [Web](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html).
-   {#Lawvere1973}
+*  {#Lawvere1973} [[Bill Lawvere]] (1973).  _Metric spaces, generalized logic and closed categories_.  Reprinted in [[TAC]], 1986.  [Web](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html).
+   
 
 
 [[!redirects complete space]]
