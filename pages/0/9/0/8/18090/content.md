@@ -26,6 +26,8 @@ For introduction to genuine _[[homotopy theory]]_ see at
 
 ***
 
+_[[topology|Topology]]_
+
 #Contents#
 * table of contents
 {:toc}
@@ -35,11 +37,14 @@ $\,$
 
 ## Point-set topology
 
+
+
 ### Continuity
  {#Continuity}
 
-The key idea of topology is to study [[spaces]] with "[[continuous maps]]" between them. The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to the concept of [[topological spaces]], def. \ref{TopologicalSpaces} below.
-
+The key idea of topology is to study [[spaces]] with "[[continuous maps]]" between them. The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to a more 
+abstract concept of "continuous space", this is the concept of _[[topological spaces]]_, def. \ref{TopologicalSpaces} below.
+Topology is the study if the [[category]] of [[topological spaces]].
 
 First recall the basic concepts from [[analysis]]:
 
@@ -55,17 +60,18 @@ A _[[metric space]]_ is
 
 such that for all $x,y,z \in X$:
 
-1. $d(x,y) = 0 \;\;\Leftrightarrow\;\; x = y$
-
 1. (symmetry) $d(x,y) = d(y,x)$
 
 1. ([[triangle inequality]]) $d(x,y)+ d(y,z) \geq d(x,z)$.
 
+1. (non-degeneracy) $d(x,y) = 0 \;\;\Leftrightarrow\;\; x = y$
+
 =--
 
+A key source of metric spaces are [[norm|normed]] _[[vector spaces]]_:
 
-+-- {: .num_example}
-###### Example
++-- {: .num_defn #NormedVectorSpace}
+###### Dedfinition
 **(normed vector space)**
 
 A _[[normed vector space]]_ is
@@ -88,6 +94,11 @@ such that for all $c \in \mathbb{R}$, $v , w \in V$ it holds true that
 
 1. (non-degenracy) if ${\vert v\vert} = 0$ then $v = 0$.
 
+=--
+
++-- {: .num_prop #MetricSpaceFromNormedVectorSpace}
+###### Proposition
+
 Every [[normed vector space]] $(V, {\vert - \vert})$
 becomes a [[metric space]] according to def. \ref{MetricSpace} by setting
 
@@ -96,9 +107,15 @@ $$
   \,.
 $$
 
-Examples of normed vector spaces include the following
+=--
 
-1. for $n \in \mathbb{R}$, the [[Cartesian space]]
+Examples of normed vector spaces (def. \ref{NormedVectorSpace}) and hence, via prop. \ref{MetricSpaceFromNormedVectorSpace},
+of metric spaces include the following:
+
++-- {: .num_example }
+###### Example
+
+1. for $n \in \mathbb{N}$, the [[Cartesian space]]
 
    $$
      \mathbb{R}^n
@@ -124,27 +141,22 @@ Examples of normed vector spaces include the following
      \,.
    $$
 
-=--
+1. more generally, for $n \in \mathbb{N}$, and $p \in \mathbb{N}$, $p \geq 1$, then the [[Cartesian space]] $\mathbb{R}^n$ carries the [[p-norm]]
 
-We now reformulate this analytic concept in terms of the simple but important concept of _[[open sets]]_:
+   $$ 
+     {\vert \vec x \vert}_p  \coloneqq \root p {\sum_i {|x_i|^p}} 
+   $$
 
-+-- {: .num_defn #OpenBalls}
-###### Definition
-**(neighbourhood and open set)**
+The graphics on the right (grabbed from Wikipedia) shows unit circles in $\mathbb{R}^2$ with respect to various [[p-norms]].
 
-Let $(X,d)$, be a [[metric space]]. Then for every element $x \in X$ and every  $\epsilon \in \mathbb{R}_+$ a [[positive number|positive]] [[real number]], write
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Vector-p-Norms_qtl1.svg/220px-Vector-p-Norms_qtl1.svg.png" width="250">
+</div>
 
-$$
-  B^\circ_x(\epsilon)
-    \;\coloneqq\;
-  \left\{
-    y \in X \;\vert\; d(x,y) \lt \epsilon
-  \right\}
-$$
-
-for the [[open ball]] of [[radius]] $\epsilon$ around $x$.
 
 =--
+
+
 
 
 +-- {: .num_defn #EpsilonDeltaDefinitionOfContinuity}
@@ -178,6 +190,27 @@ where $B^\circ$ denotes the [[open ball]] (definition \ref{OpenBalls}).
 The function $f$ is called just _continuous_ if it is continuous at every point $x \in X$.
 
 =--
+
+We now reformulate this analytic concept in terms of the simple but important concept of _[[open sets]]_:
+
++-- {: .num_defn #OpenBalls}
+###### Definition
+**(neighbourhood and open set)**
+
+Let $(X,d)$, be a [[metric space]]. Then for every element $x \in X$ and every  $\epsilon \in \mathbb{R}_+$ a [[positive number|positive]] [[real number]], write
+
+$$
+  B^\circ_x(\epsilon)
+    \;\coloneqq\;
+  \left\{
+    y \in X \;\vert\; d(x,y) \lt \epsilon
+  \right\}
+$$
+
+for the [[open ball]] of [[radius]] $\epsilon$ around $x$.
+
+=--
+
 
 +-- {: .num_defn #OpenSubsetsOfAMetricSpace}
 ###### Definition
@@ -585,6 +618,92 @@ Several separation axioms may also be interpreted in broader contexts that plain
 ### Compactness
 
 * [[compact topological space]]
+
+
+Recall the concept of [[convergence]] via [[epsilontic analysis]]:
+
++-- {: .num_defn #Sequences}
+###### Definition
+
+Given a [[set]] $X$, then a _[[sequence]]_ of elements in $X$ is a [[function]]
+
+$$
+  x_{(-)}
+    \;\colon\;
+  \mathbb{N}
+    \longrightarrow
+  X
+$$
+
+from the [[natural numbers]] to $X$. 
+
+=--
+
++-- {: .num_defn #Convergence}
+###### Definition
+
+Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). 
+Then a [[sequence]] 
+
+$$
+  x_{(-)}
+    \;\colon\;
+  \mathbb{N}
+    \longrightarrow
+  X
+$$
+
+in the underlying set $X$ (def. \ref{Sequences}) is said to _[[convergence|converge]]_ to a point $y \in X$, denoted
+
+$$
+  x_i \overset{i \to \infty}{\longrightarrow} y
+$$
+
+if 
+
+$$
+  \underset{ {\epsilon \in \mathbb{R}}  \atop {\epsilon \gt 0} }{\forall}
+  \underset{N_\epsilon \in \mathbb{N}}{\exists}
+  \underset{ {i \in \mathbb{N}} \atop {i \gt N_\epsilon} }{\forall}
+  d(x_i, y) \leq \epsilon
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #CauchySequence}
+###### Definition
+
+Given a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}), then a [[sequence]] of points in $X$ (def. \ref{Sequences})
+
+$$
+  x_{(-)} \;\colon\;  \mathbb{N}  \longrightarrow X
+$$
+
+is called a _[[Cauchy sequence]]_ if
+
+$$
+  \underset{{\epsilon \in \mathbb{R}} \atop {\epsilon \gt 0}}{\forall}
+  \underset{N_\epsilon \in \mathbb{N}}{\exists}
+  \underset{{i,j \in \mathbb{N}} \atop {i,j \gt N_{\epsilon}}}{\forall}
+  :
+  d(x_i, x_j) \leq \epsilon
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #CompleteMetricSpace}
+###### Definition
+
+A [[metric space]] $(X,d)$ (def. \ref{MetricSpace}), for which every [[Cauchy sequence]] (def. \ref{CauchySequence})
+[[convergence|converges]] (def. \ref{Convergence}) is called a _[[complete metric space]]_.
+
+A [[normed vector space]], regarded as a metric space via prop. \ref{MetricSpaceFromNormedVectorSpace} that is
+is complete in this sense is called a _[[Banach space]]_.
+
+=--
+
 
 
 
