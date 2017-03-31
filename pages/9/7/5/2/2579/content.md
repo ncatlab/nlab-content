@@ -210,6 +210,8 @@ where we recall that how the colimit of the hom space can be multiplied by the g
 
 * [[dual abelian group scheme]]
 
+* [[spectral group scheme]]
+
 ## References
 
 * M. Artin, J. E. Bertin, M. Demazure, P. Gabriel, A. Grothendieck, M. Raynaud, J.-P. Serre, _Schemas en groupes_, i.e. SGA III-1, III-2, III-3
