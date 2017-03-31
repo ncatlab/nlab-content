@@ -55,6 +55,12 @@ In [[functional analysis]], one considers [[topological vector spaces]] of infin
 
 * [[limit of a sequence]]
 
+* [[sequentially compact space]]
+
+Not all that related, but similar sounding:
+
+* [[sequential limit]]
+
 [[!redirects sequence]]
 [[!redirects sequences]]
 [[!redirects infinite sequence]]
@@ -64,3 +70,9 @@ In [[functional analysis]], one considers [[topological vector spaces]] of infin
 [[!redirects sequential nets]]
 [[!redirects presequence]]
 [[!redirects presequences]]
+
+[[!redirects subsequence]]
+[[!redirects subsequence]]
+
+[[!redirects sub-sequence]]
+[[!redirects sub-sequence]]
