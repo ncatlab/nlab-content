@@ -224,7 +224,7 @@ For topological spaces, this is either a definition of "proper map" (closed with
 
 On compact [[metric spaces]]:
 
-* Roland Speicher, _Compact metric spaces- [pdf](http://www.mast.queensu.ca/~speicher/Chapter10.pdf)
+* Roland Speicher, _Compact metric spaces_ ([pdf](http://www.mast.queensu.ca/~speicher/Chapter10.pdf))
 
 * Alan Sokal, _Compactness of metric spaces_ ([pdf](http://www.ucl.ac.uk/~ucahad0/3103_handout_2.pdf))
 
@@ -254,3 +254,5 @@ For [[proper base change theorem]] e.g.
 [[!redirects compact sets]]
 
 [[!redirects compact]]
+
+[[!redirects compactness]]
