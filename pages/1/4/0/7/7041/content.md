@@ -48,6 +48,13 @@ By performing the above construction in [[charts]], we obtain, in any [[smooth m
 
 * wikipedia, _[bump function](http://en.wikipedia.org/wiki/Bump_function)_
 
+An different example is examined in detail in
+
+* Juan Arias de Reyna, _An infinitely differentiable function with compact support: Definition and properties_, arXiv:[1702.05442](https://arxiv.org/abs/1702.05442) (English translation of: _Definici&#243;n y estudio de una funci&#243;n indefinidamente diferenciable de soporte compacto_, Rev. Real Acad. Ciencias 76 (1982) 21-38 available from [Universidad de Sevilla repository](http://hdl.handle.net/11441/28557))
+
+One can also build bump functions that are _nowhere_ analytic (as opposed to merely on the boundary of the support, as above) using, for instance, the Fabius function:
+
+* Wikipedia, [_Fabius function_](https://en.wikipedia.org/wiki/Fabius_function)
 
 [[!redirects bump function]]
 [[!redirects bump functions]]
