@@ -105,9 +105,9 @@ If [[type theory]] is treated as a theory of set-like objects, then it behaves a
 Now the natural definition of (1-)category is something like a [[complete Segal space]], where the type of objects is 1-truncated (a [[groupoid]]) and equivalent to the [[core]] of the category.  Now (even though identity types exist in HoTT), not every category has an underlying *set* of objects, so again a category cannot be made into a strict category in any canonical way.  But again, we still have $Disc\colon Set \to Cat$ and we can define strict categories.
 
 
-### Na&#239;ve categories as fibered categories
+### Fibered categories
 
-In [[Jean Bénabou]]'s 1985 paper _Fibered categories and the foundations of naive category theory_, it is argued that the right notion of a category in/over another category $\mathbf{B}$ is given by a [[Grothendieck fibration|fibered category]] $p\colon \mathbf{F} \to \mathbf{B}$, possibly with some additional structure corresponding to the "definability" (representability of certain sieves of $\mathbf{B}$) of equality of parallel pairs, isomorphisms, etc. (See [[indexed category]] for more motivation.) In this context, equality of objects is available precisely when the fibration is [[split fibration|split]].
+In [[Jean Bénabou]]'s 1985 paper _[[Fibered categories and the foundations of naive category theory]]_, it is argued that the right notion of a category in/over another category $\mathbf{B}$ is given by a [[Grothendieck fibration|fibered category]] $p\colon \mathbf{F} \to \mathbf{B}$, possibly with some additional structure corresponding to the "definability" (representability of certain sieves of $\mathbf{B}$) of equality of parallel pairs, isomorphisms, etc. (See [[indexed category]] for more motivation.) In this context, equality of objects is available precisely when the fibration is [[split fibration|split]].
 
 In particular, if $\mathbf{B}$ is locally small and has [[pullback|pullbacks]], then an [[internal category]] object $C$ in $\mathbf{B}$ (in the traditional sense) gives rise to an honest functor $\mathbf{B} (-, C)\colon \mathbf{B}^{op} \to Cat$ and so a split fibration $\int_\mathbf{B} \mathbf{B} (-, C) \to \mathbf{B}$ by the [[Grothendieck construction]].
 
