@@ -21,12 +21,14 @@
 
 The term 'Lebesgue space' can stand for two distinct notions: one is the general notion of [[measure space]] (compare the [Springer Encyclopaedia of Mathematics](http://eom.springer.de/L/l057910.htm)) and another is the notion of $L^p$ space (or $L_p$ space).  Here we discuss the latter.
 
-Sometimes '$L_p$' is used as a synonym for $L^p$; sometimes it is used to mean $L^{1/p}$.
+Lebesgue spaces $L^p$ in this sense are [[normed vector spaces]] of [[functions]] on a [[measure space]], equipped with the suitable version of the [[p-norm]].
+
+Beware that sometimes the notation '$L_p$' is used as a synonym for $L^p$; sometimes it is used to mean $L^{1/p}$.
 
 
 ## Definitions
 
-If $1 \leq p \lt \infty$ is a [[real number]] and $(\Omega,\mu)$ is a [[measure space]], one considers the **$L^p$ space** $L_p(\Omega)$ of (equivalence classes of) [[measurable function|measurable]] (complex- or real-valued) functions $f\colon \Omega \to \mathbb{K}$ whose (absolute values of) $p$th powers are integrable; i.e. whose [[norm]] 
+If $1 \leq p \lt \infty$ is a [[real number]] and $(\Omega,\mu)$ is a [[measure space]], one considers the **$L^p$ space** $L_p(\Omega)$ of (equivalence classes of) [[measurable function|measurable]] (complex- or real-valued) functions $f\colon \Omega \to \mathbb{K}$ whose (absolute values of) $p$th powers are integrable; i.e. whose [[p-norm]] 
 
 $$ {\|f\|_p} = \left(\int_\Omega {|f|^p} \,d\mu\right)^{1/p} $$
 
