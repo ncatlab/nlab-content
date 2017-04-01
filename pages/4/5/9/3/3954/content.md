@@ -80,4 +80,8 @@ Reviews of the interpretation of forcing as the passge to [[classifying toposes]
 
 * Andrej Skedrov, _Forcing and classifying topoi_
 
+For more see
+
+* {#Roberts15} [[David Roberts]], _Class forcing and topos theory_, talk at _[Topos at l'IHES](https://indico.math.cnrs.fr/event/747/)_ 2015 ([talk notes pdf](https://www.dropbox.com/s/vk1efw7lsvta80p/Roberts_IHES.pdf?dl=0),  [video recording](https://youtu.be/4AaSySq8-GQ))
+
 [[!redirects forcing]]
