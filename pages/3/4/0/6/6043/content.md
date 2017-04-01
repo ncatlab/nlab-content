@@ -107,6 +107,7 @@ The collection of (bounded) multiplicative seminorms on a ([[Banach space|Banach
      {\vert \vec x \vert}_p  \coloneqq \root p {\sum_i {|x_i|^p}} 
    $$
 
+1. The [[p-norm]] generalizes to [[sequence spaces]] and [[Lebesgue spaces]]. 
 
 
 ### Minkowski Functionals
@@ -151,3 +152,25 @@ This is a semi-norm on $V$.
 [[!redirects Minkowski functionals]]
 [[!redirects normed vector space]]
 [[!redirects normed vector spaces]]
+
+[[!redirects normed vector space]]
+[[!redirects normed vector spaces]]
+[[!redirects normable vector space]]
+[[!redirects normable vector spaces]]
+[[!redirects pseudonormed vector space]]
+[[!redirects pseudonormed vector spaces]]
+[[!redirects seminormed vector space]]
+[[!redirects seminormed vector spaces]]
+
+[[!redirects normed space]]
+[[!redirects normed spaces]]
+[[!redirects normable space]]
+[[!redirects normable spaces]]
+[[!redirects pseudonormed space]]
+[[!redirects pseudonormed spaces]]
+[[!redirects seminormed space]]
+[[!redirects seminormed spaces]]
+
+[[!redirects vector measure]]
+[[!redirects vector measures]]
+
