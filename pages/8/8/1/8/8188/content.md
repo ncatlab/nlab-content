@@ -19,14 +19,15 @@
 
 ## Sequence spaces
 
-The sequences spaces are basic examples of [[topological vector spaces]].  They all have a discrete flavour that (maybe) makes them easy to understand, but they are not actually [[discrete spaces]].
-
-The classical sequence spaces are spaces of [[infinite sequences]] (hence the name), although they work for [[functions]] on any [[set]].
-
-
-## Terminology
+A classical _sequence space_ is a [[vector space]] of [[sequences]] of [[real numbers]], equipped with a [[p-norm]] that makes it a [[normed vector space]]. More generally one may consider spaces of functions on any set. 
 
 Specific sequence spaces are usually known through their symbolic names, such as '$c_0$' and '$l^p$', that appear below.  The term 'sequence space' is useful as a general name without symbols in it.
+
+The sequences spaces are basic examples of [[topological vector spaces]].  They all have a discrete flavour that (maybe) makes them easy to understand, but they are not actually [[discrete spaces]].
+
+The generalization of sequences space to spaces of functions on more general [[measure spaces]] are the _[[Lebesgue spaces]]_.
+
+
 
 
 ## Definitions
