@@ -231,6 +231,10 @@ which we simply invert to get the map $f$ above.
 One central application of balls is as building blocks for [[covering]]s. See [[good open cover]] for some statements.
 
 
+## Related concepts
+
+* [[unit ball]]
+
 ## References 
  {#References}
 
