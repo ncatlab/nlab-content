@@ -9,10 +9,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -20,7 +19,14 @@ For $p \in \mathbb{R}$, $p \geq 1$, the _$p$-norm_ is a [[norm]] on suitable [[r
 
 For $p = 2$ the $p$-norm is the standard _Euclidean norm_, defining [[Euclidean spaces]] and [[Hilbert spaces]] of [[square integrable functions]].
 
-For $p = \infty$ one takes the $p$-norm to be given by the [[supremum]] over the components of vectors, then called the _supremum norm_.
+For $p = \infty$ the $p$-norm (found by taking the limit $p \to \infty$) is the [[supremum]] (or [[essential supremum]] in the continuous case) of the absolute values of the components of vectors, then called the _supremum norm_.
+
+For $0 \leq p \lt 1$, the definition makes sense, but the result is not a norm, as [[Minkowski's inequality]] (the [[triangle inequality]] for $p$-norms) fails.  A variant definition for $p \leq 1$ (which agrees with the usual definition for $p = 1$, preserving continuity in $p$) leaves out the $p$th root; then the result satisfies the triangle inequality (and indeed is a [[metric]]) but fails to be a norm because it is not positive-homogeneous of degree $1$ (but of degree $p$ instead).  Such a thing is called an [[F-norm]].
+
+For $p = 0$, the unmodified $p$-norm (defined by the limit as $p \searrow 0$) is infinite if there is more than one nonzero entry and is the absolute value of the one nonzero entry if there is only one (or 0 if there is none); the modified $p$-norm (without the root) is the number of nonzero entries, but the triangle inequality continues to fail in this case.  Therefore, there is a further modified $0$-norm, given by
+$$ {\|(x_1, x_2, \ldots)\|_0} = \sum_{n=1}^\infty \frac {2^{-n} {|x_n|}} {1 + {|x_n|}} $$
+for $l^0$, which is an $F$-norm.  (But I don\'t know what is the justification for thinking of this as a $p$-norm for $p = 0$.)
+
 
 ## Definition
 
@@ -33,14 +39,13 @@ The concept of $p$-norm makes sense in increasing generality,
 * _[For spaces of measurable functions](#OnLebesgueSpaces)_.
 
 
-
 ### The $p$-norm on finite dimensional vector spaces
  {#ThePNorm}
 
-For $n \in \mathbb{N}$, $p \in \mathbb{R}$, $p \gt 0$, the _$p$-norm_ ${\Vert - \Vert}_p$ is the [[norm]] on the [[real vector space|real]] [[finite dimensional vector space]] $\mathbb{R}^n$ given by the $p$th [[root]] of the [[sum]] of the $p$-[[powers]] of the [[absolute value]] of the components of a given [[vector]] $\vec x = (x)_{i = 1}^n \in \mathbb{R}^n$: 
+For $n \in \mathbb{N}$, $p \in \mathbb{R}$, $p \gt 0$, the _$p$-norm_ $\Vert - \Vert_p$ is the [[norm]] on the [[real vector space|real]] [[finite dimensional vector space]] $\mathbb{R}^n$ given by the $p$th [[root]] of the [[sum]] of the $p$-[[powers]] of the [[absolute value]] of the components of a given [[vector]] $\vec x = (x)_{i = 1}^n \in \mathbb{R}^n$: 
 
 $$ 
-  {\Vert \vec x \Vert}_p  \coloneqq \root p {\sum_i {\vert x_i\vert^p}} 
+  {\Vert \vec x \Vert_p}  \coloneqq \root p {\sum_i {\vert x_i\vert^p}} 
 $$
 
 Equipping it with this [[norm]] makes $\mathbb{R}^n$ a  _[[normed vector space]]_.
@@ -50,7 +55,7 @@ For $p = 2$ this is the _Euclidean norm_, the standard norm that defines [[Eucli
 For $p = \infty$ one takes the [[supremum]] over the [[absolute values]] of the components
 
 $$
-  \Vert \vec x\Vert_\infty
+  {\Vert \vec x\Vert_\infty}
     \;\coloneqq\;
   \underset{1 \leq i \leq n}{\sub} {\vert x_i\vert}
   \,.
@@ -79,7 +84,7 @@ $$
 For $p \geq 1$ the the [[function]]
 
 $$
-  {\Vert -\Vert}_p
+  {\Vert -\Vert_p}
   \;\colon\;
   \ell^p
     \longrightarrow
@@ -87,9 +92,9 @@ $$
 $$
 
 $$
-  \Vert (x_i)_{i \in \mathbb{N}} \Vert
+  {\Vert (x_i)_{i \in \mathbb{N}} \Vert_p}
     \;\coloneqq\;
-  \root{p}{\underset{i \in \mathbb{N}}{\sum} {\vert x_i\vert}^p}
+  \root{p}{\underset{i \in \mathbb{N}}{\sum} {\vert x_i\vert^p}}
 $$
 
 defines a [[norm]] on this [[real vector space]]. This [[normed vector space]] is [[complete metric space|complete]], hence a [[Banach space]]. This is called the _[[sequence space]]_.
@@ -97,7 +102,7 @@ defines a [[norm]] on this [[real vector space]]. This [[normed vector space]] i
 For $p = \infty$ one takes $\ell^\infty$ to be the space of bounded sequences and
 
 $$
-  \Vert (x_i)_{i \in \mathbb{N}} \Vert
+  {\Vert (x_i)_{i \in \mathbb{N}} \Vert_\infty}
    \;\coloneqq\;
   \underset{k \in \mathbb{N}}{sup} {\vert x_k\vert }
 $$
@@ -111,31 +116,31 @@ to be the [[supremum]] over the [[absolute values]] of the components of the seq
 More generally, for $(X,\mu)$ a [[measure space]], write $L^p(X)$ for the [[vector space]] of [[equivalence classes]] of those [[measurable functions]] $f \colon X \to \mathbb{R}$, for which the [[integral]]
 
 $$
-  \int_X {\vert f \vert}^p  d\mu \;\lt\; \infty
+  \int_X {\vert f \vert^p}  d\mu \;\lt\; \infty
 $$
 
-exists, and where two such functioons are regarded as equivalent, $f_1 \sim f_2$, if
+exists, and where two such functions are regarded as equivalent, $f_1 \sim f_2$, if
 
 $$
-  \int_X {\vert f_2 - f_1 \vert}^p  d\mu \;=\; 0
+  \int_X {\vert f_2 - f_1 \vert^p}  d\mu \;=\; 0
   \,. 
 $$
 
 On this space the function
 
 $$
-  {\Vert -\Vert}_p
+  {\Vert -\Vert_p}
   \;\colon\;
   L^p(X) \longrightarrow \mathbb{R}
 $$
 
 $$
-  {\Vert f \Vert}_p
+  {\Vert f \Vert_p}
   \;\colon\;
-  \root{p}{\int_X {\vert f\vert}^p} d\mu 
+  \root{p}{\int_X {\vert f\vert^p}} d\mu 
 $$
 
-defines a [[norm]]. The [[triangle inequality]] holds due to [[Minkowki's inequality]].  The [[normed vector space]] $(L^p(X), {\Vert- \Vert}_p)$ is also called a _[[Lebesgue space]]_.
+defines a [[norm]]. The [[triangle inequality]] holds due to [[Minkowki's inequality]].  The [[normed vector space]] $(L^p(X), {\Vert- \Vert_p})$ is also called a _[[Lebesgue space]]_.
 
 
 ## References
@@ -144,7 +149,12 @@ defines a [[norm]]. The [[triangle inequality]] holds due to [[Minkowki's inequa
 
 * German Wikipedia, _[p-Norm](https://de.wikipedia.org/wiki/P-Norm)_
 
+
+[[!redirects p-norm]]
 [[!redirects p-norms]]
+
+[[!redirects Lebesgue norm]]
+[[!redirects Lebesgue norms]]
 
 [[!redirects Euclidean norm]]
 [[!redirects Euclidean norms]]
