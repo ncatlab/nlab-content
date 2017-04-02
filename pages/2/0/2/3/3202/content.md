@@ -43,11 +43,16 @@ For $0 \leq p \lt 1$, one can modify the definition to make $L^p$ into an [[F-sp
 
 ## Minkowski's inequality 
 
-We offer here a proof that ${\|f\|_p}$ defines a norm in the case $1 \lt p \lt \infty$; the cases $p = 1$ and $p = \infty$ follow by continuity and are easy to check from first principles. The most usual textbook proofs involve a clever application of [[Hölder's inequality]]; the following proof is more straightforwardly geometric. All functions $f$ may be assumed to be real- or complex-valued. 
+We offer here a proof that ${\|f\|_p}$ indeed defines a norm in the case $1 \lt p \lt \infty$, in that it satisfies the [[triangle inequality]]. This is usually known as _[[Minkowski's inequality]]_.
+
+(The cases $p = 1$ and $p = \infty$ follow by continuity and are easy to check from first principles.) 
+
+The most usual textbook proofs involve a clever application of [[Hölder's inequality]]; the following proof is more straightforwardly geometric. All functions $f$ may be assumed to be real- or complex-valued. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
-Suppose $1 \leq p \leq \infty$, and suppose $\Omega$ is a measure space with measure $\mu$. Then the function ${|(-)|_p}\colon L^p(\Omega, \mu) \to \mathbb{R}$ defined by  
+
+Suppose $1 \leq p \leq \infty$, and suppose $\Omega$ is a [[measure space]] with [[measure]] $\mu$. Then the function ${|(-)|_p}\colon L^p(\Omega, \mu) \to \mathbb{R}$ defined by  
 $${\|f\|_p} \coloneqq (\int_\Omega {|f|^p} \,d\mu)^{1/p}$$ 
 defines a [[norm]]. 
 =-- 
@@ -60,7 +65,7 @@ One must verify three things:
 
 1. Triangle inequality: ${\|f + g\|_p} \leq {\|f\|_p} + {\|g\|_p}$. 
 
-The first two properties are obvious, so it remains to prove the last, which is also called __Minkowski's inequality__. 
+The first two properties are obvious, so it remains to prove the last, which is also called __[[Minkowski's inequality]]__. 
 
 Our proof of Minkowski's inequality is broken down into a series of simple lemmas. The plan is to boil it down to two things: the scaling axiom, and convexity of the function $x \mapsto {|x|^p}$ (as a function from real or complex numbers to nonnegative real numbers). 
 
@@ -173,7 +178,3 @@ category: analysis
 [[!redirects L_2 spaces]]
 
 
-[[!redirects Minkowski inequality]]
-[[!redirects Minkowski's inequality]]
-[[!redirects Minkowski's inequality]]
-[[!redirects Minkowski\'s inequality]]
