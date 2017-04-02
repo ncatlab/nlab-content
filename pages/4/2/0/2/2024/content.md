@@ -46,7 +46,7 @@ In impredicative constructive mathematics, overt locales can be characterized by
 
 ## Examples
 
-* At least in impredicative constructive mathematics, the locale induced by a topological space is overt. An open subset $U$ is positive if and only if it is inhabited.
+* At least in impredicative constructive mathematics, the [[topological locale|locale induced by a topological space]] is overt. An open subset $U$ is positive if and only if it is inhabited.
 
 * At least in impredicative constructive mathematics, the [[spectrum of a commutative ring]] $A$ (defined as the locale whose frame is the frame of radical ideals) is overt if and only if any element of $A$ is nilpotent or not nilpotent.
 
