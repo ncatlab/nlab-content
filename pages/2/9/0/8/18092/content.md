@@ -140,7 +140,7 @@ $$
   \root{p}{\int_X {\vert f\vert^p}} d\mu 
 $$
 
-defines a [[norm]]. The [[triangle inequality]] holds due to [[Minkowki's inequality]].  The [[normed vector space]] $(L^p(X), {\Vert- \Vert_p})$ is also called a _[[Lebesgue space]]_.
+defines a [[norm]]. The [[triangle inequality]] holds due to [[Minkowski's inequality]].  The [[normed vector space]] $(L^p(X), {\Vert- \Vert_p})$ is also called a _[[Lebesgue space]]_.
 
 
 ## References
