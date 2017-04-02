@@ -44,6 +44,12 @@ In the case of [[locales]], it is sufficient to require the above definition onl
 
 In impredicative constructive mathematics, overt locales can be characterized by the *positive covering lemma*: $X$ is overt iff every open $U\in O(X)$ can be covered by positive opens, and iff every covering of an open $U$ can be refined to a covering by positive elements.
 
+## Examples
+
+* At least in impredicative constructive mathematics, the locale induced by a topological space is overt. An open subset $U$ is positive if and only if it is inhabited.
+
+* At least in impredicative constructive mathematics, the [[spectrum of a commutative ring]] $A$ (defined as the locale whose frame is the frame of radical ideals) is overt if and only if any element of $A$ is nilpotent or not nilpotent.
+
 ## Remarks
 
 As compact spaces go with [[proper maps]], so overt spaces go with [[open maps]].  Indeed, $X$ is compact if and only if the unique map $X \to pt$ to the [[point]] is proper, while $X$ is overt if and only if the unique map $X \to pt$ is open.  Similarly, if $X\to pt$ is instead [[closed map|closed]], then $X$ is [[covert space|covert]].
