@@ -35,18 +35,19 @@ To begin with, let $C$ and $D$ be [[groupoids]], and let $F: C \to D$ be a [[fun
 * $F$ **forgets at most structure** if $F$ is [[faithful functor|faithful]];
 * $F$ **forgets at most stuff** regardless.
 
-{#Strengthening} Depending on author and situation, more properties are required of a functor to forget structure ([Ehresmann 57](#Ehresmann57), [Ehresmann 65](#Ehresmann65), [Adamek-Rosicky-Vitale 09, remark 13.18](#AdamekRosickyVitale)):
-
-1. $p$ is an [[amnestic functor]] ($p$-vertical [[isomorphisms]] are [[identities]]),
-
-1. $p$ is an [[isofibration]].
-
 
 Another way to break down the possibilities (used in a $3$-way [[factorization system|factorisation system]]) is as follows:
 
 * $F$ **forgets only properties** if $F$ is [[full functor|full]] and faithful;
 * $F$ **forgets purely structure** if $F$ is [[essentially surjective functor|essentially surjective]] (on objects) and faithful;
 * $F$ **forgets purely stuff** if $F$ is essentially surjective and full.
+
+{#Strengthening} Depending on author and the strictness of the situation, more properties are required of a functor to forget structure ([Ehresmann 57](#Ehresmann57), [Ehresmann 65](#Ehresmann65), [Adamek-Rosicky-Vitale 09, remark 13.18](#AdamekRosickyVitale)):
+
+1. $F$ is an [[amnestic functor]] ($F$-vertical [[isomorphisms]] are [[identities]]),
+
+1. $F$ is an [[isofibration]].
+
 
 
 ### Interpretation in terms of k-surjectivity
