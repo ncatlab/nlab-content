@@ -33,7 +33,7 @@ To begin with, let $C$ and $D$ be [[groupoids]], and let $F: C \to D$ be a [[fun
 * $F$ **forgets at most structure** if $F$ is [[faithful functor|faithful]];
 * $F$ **forgets at most stuff** regardless.
 
-{#Strengthening} These are minimal conditions. Usually for a [[faithful functor]] $p$ to be a structure-forgetting functor, one demands in addition that ([Adamek-Rosicky-Vitale, remark 13.18](#AdamekRosickyVitale))
+{#Strengthening} Depending on author and situation, more properties are required of a functor to forget structure ([Ehresmann 57](#Ehresmann57), [Ehresmann 65](#Ehresmann65), [Adamek-Rosicky-Vitale 09, remark 13.18](#AdamekRosickyVitale)):
 
 1. $p$ is an [[amnestic functor]] ($p$-vertical [[isomorphisms]] are [[identities]]),
 
@@ -242,7 +242,11 @@ For the [[(∞,1)-topos]] [[∞-Grpd]] of [[∞-groupoid]]s the analog of the su
 * a pedagogical comparison to quadratic, linear, and constant polynomials ([PDF](http://math.ucr.edu/home/baez/qg-spring2004/polynomials.pdf)) by Toby Bartels in 2004;
 * [section 2.4, p. 15](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=15) and [section 3.1, p. 17](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=17) of J. Baez and M. Shulman, _[[Lectures on n-Categories and Cohomology]]_ ([arXiv](http://arxiv.org/abs/math/0608420)).
 
-* {#AdamekRosickyVitale} Adamek, Rosicky, Vitale, _Algebraic theories_
+* {#Ehresmann57} [[Charles Ehresmann]], _Gattungen in Lokalen Strukturen_, 1957
+
+* {#Ehresmann65} [[Charles Ehresman]], _Cat&#233;gories et Structures_, Dunod, 1965
+
+* {#AdamekRosickyVitale09} Adamek, Rosicky, Vitale, _Algebraic theories_ [pdf](http://www.iti.cs.tu-bs.de/~adamek/algebraic_theories.pdf) (2009)
 
 
 [[!redirects stuff, structure, property]]
