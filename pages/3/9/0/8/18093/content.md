@@ -1,4 +1,3 @@
-[[!redirects Minkowki's inequality]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -10,14 +9,14 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-What is commonly known as _Minkowski's inequality_ is the statement that the [[p-norm]] $\Vert f\Vert_p \coloneqq \root{p}{\int_X {\vert f\vert}^p d\mu}$ on [[Lebesgue spaces]] indeed satisfies the [[triangle inequality]].
+What is commonly known as _Minkowski's inequality_ is the statement that the [[p-norm]] ${\Vert f\Vert_p} \coloneqq \root{p}{\int_X {\vert f\vert^p} d\mu}$ on [[Lebesgue spaces]] indeed satisfies the [[triangle inequality]].
+
 
 ## Proofs
 
@@ -82,6 +81,7 @@ $$\int_\Omega {|t u + (1-t)v|^p} \,d\mu \leq \int_\Omega t{|u|}^p + (1-t){|v|}^p
 by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done. 
 =-- 
 
+
 ## Related concepts
 
 * [[Hölder's inequality]]
@@ -95,9 +95,14 @@ by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done.
 
 * [[eom]], _[Minkowski inequality](https://www.encyclopediaofmath.org/index.php/Minkowski_inequality)_
 
+
 [[!redirects Minkowski inequality]]
 
 [[!redirects Minkowski inequality]]
 [[!redirects Minkowski's inequality]]
 [[!redirects Minkowski's inequality]]
 [[!redirects Minkowski\'s inequality]]
+[[!redirects Minkowski/'s inequality]]
+
+[[!redirects Minkowki's inequality]]
+[[!redirects Minkowki's inequality]]
