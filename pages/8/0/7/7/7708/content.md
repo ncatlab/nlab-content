@@ -33,6 +33,9 @@ One may formalize the notion of structure using the language of [[category theor
 
 * $p$ is an [[isofibration]].
 
+{#StrictStructure} However, notice that these two conditions violate the [[principle of equivalence]] for [[categories]]. In the terminology of _[[strict categories]]_ one might hence refer to these conditions as expressing "strict extra structure".
+
+
 ## Notions of structure 
 
 A special class of examples of this is the notion of [[structure in model theory]]. In this case one defines a "language" $L$ that describes the constants, functions (say operations) and relations with which we want to equip sets, and then sets equipped with those operations and relations are called $L$-[[structure in model theory|structures]] for that language. (Equivalently one might say "sets with $L$-structure". Or one might generally say "$X$-structure" for "set with $X$-structure".) In this case there is a [[faithful functor]] from $L$-structures to their underlying sets, and so this is a special case of the general definition.
@@ -73,7 +76,7 @@ Generally the [[forgetful functor]] from a category of algebras over an [[algebr
 
 * {#Ehresmann57} [[Charles Ehresmann]], _Gattungen in Lokalen Strukturen_, 1957
 
-* {#Ehresmann65} [[Charles Ehresman]], _Cat&#233;gories et Structures_, Dunod, 1965
+* {#Ehresmann65} [[Charles Ehresmann]], _Cat&#233;gories et Structures_, Dunod, 1965
 
 * {#AdamekRosickyVitale09} Adamek, Rosicky, Vitale, _Algebraic theories_ [pdf](http://www.iti.cs.tu-bs.de/~adamek/algebraic_theories.pdf) (2009)
 
