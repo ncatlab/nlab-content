@@ -23,11 +23,15 @@
 
 It is common in informal language to speak of mathematical objects "equipped with extra structure" of some sort. The archetypical examples are [[algebras over a Lawvere theory]] in [[Set]]: these are [[sets]] equipped with the structure of certain algebraic operations. For instance a [[group]] $(G, e, {\cdot})$ is a [[set]] $G$ equipped with a binary operation ${\cdot} : G \times G \to G$, etc.
 
-{#InCategoryTheory} One may formalize the notion of structure using the language of [[category theory]]. This is discussed at _[[stuff, structure, property]]_. In that formalization [[objects]] in some [[category]] $D$ are objects in some category $C$ _equipped with extra structure_ if there is a [[functor]] $p \colon D \to C$ which is a [[faithful functor]] and possibly is in addition required to satisfy the following conditions ([Adamek-Rosicky-Vitale, remark 13.18](#AdamekRosickyVitale)):
+One may formalize the notion of structure using the language of [[category theory]]. This is discussed at _[[stuff, structure, property]]_. In that formalization [[objects]] in some [[category]] $D$ are objects in some category $C$ _equipped with extra structure_ if there is a [[functor]] $p \colon D \to C$ which at least
 
-1. $p$ is an [[amnestic functor]] ($p$-vertical [[isomorphisms]] are [[identities]]),
+* is a [[faithful functor]].
 
-1. $p$ is an [[isofibration]].
+{#InCategoryTheory} Depending on author and situation, more properties are required of this functor ([Ehresmann 57](#Ehresmann57), [Ehresmann 65](#Ehresmann65), [Adamek-Rosicky-Vitale 09, remark 13.18](#AdamekRosickyVitale)):
+
+* $p$ is an [[amnestic functor]] ($p$-vertical [[isomorphisms]] are [[identities]]),
+
+* $p$ is an [[isofibration]].
 
 ## Notions of structure 
 
@@ -61,11 +65,17 @@ Generally the [[forgetful functor]] from a category of algebras over an [[algebr
 
 * Evident as the notion of _mathematical structure_ may seem these days, it was at least not made explicit until the middle of the 20th century. Then it was the influence of the _[[Bourbaki]]_-project (see there for more) and then later the development of [[category theory]] which made the notion explicit and finally led to the above formalization.
 
-* [[functions]] that preserves extra structure are called _[[homomorphisms]]_; [[relations]] that preserve extra structure are called _[[logical relations]]_
+* [[functions]] that preserves extra structure are called _[[homomorphisms]]_; [[relations]] that preserve extra structure are called [[logical relations]]_
 
 * [[Birkhoff's HSP theorem]]
 
-* {#AdamekRosickyVitale} Adamek, Rosicky, Vitale, _Algebraic theories_
+## References
+
+* {#Ehresmann57} [[Charles Ehresmann]], _Gattungen in Lokalen Strukturen_, 1957
+
+* {#Ehresmann65} [[Charles Ehresman]], _Cat&#233;gories et Structures_, Dunod, 1965
+
+* {#AdamekRosickyVitale09} Adamek, Rosicky, Vitale, _Algebraic theories_ [pdf](http://www.iti.cs.tu-bs.de/~adamek/algebraic_theories.pdf) (2009)
 
 [[!redirects structure]]
 [[!redirects structures]]
