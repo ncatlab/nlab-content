@@ -4,7 +4,7 @@
 
 ## Idea 
 
-H&#246;lder's inequality is a basic inequality in analysis, used to prove that if the reciprocals of positive numbers $p, q$ sum to $1$ (cf. harmonic [[mean]]), then the [[L-p space|Banach spaces]] $L^p, L^q$ are Banach duals of one another. 
+H&#246;lder's inequality is a basic inequality in analysis, used to prove that if the sum of positive numbers $p, q$ equals their product, then the [[L-p space|Banach spaces]] $L^p, L^q$ are Banach duals of one another. 
 
 ## Statements 
 
@@ -75,11 +75,11 @@ Thus the idea is clear, and it's just a matter of technique from here. We let th
 
 $$(B')^\perp \coloneqq \{f \in L^p: (\forall_{g \in B'})|\langle f, g \rangle| \leq 1\}$$ 
 
-which is clearly convex, being an intersection of convex sets $\{f: |\langle f, g \rangle| \leq 1\}$, one for each $g \in B'$. H&#246;lder's inequality itself just asserts the containment $B \subseteq (B')^\perp$. All we want now is an actual equality $B = (B')^\perp$, i.e., we want to show that if $|\langle f, g \rangle| \leq 1$ whenever $\|g\|_q \leq 1$, then $\|f\|_p \leq 1$. But we already did that calculation when we proved $L^p \hookrightarrow (L^q)^\ast$ is an isometry. Explicitly, let $u = f/\|f\|_p$ and $g = |u|^{p-1}$. Then $|\langle u, g\rangle| = 1$ and $\|g\|_q = 1$, so 
+which is clearly convex, being an intersection of convex sets $\{f: |\langle f, g \rangle| \leq 1\}$, one for each $g \in B'$. H&#246;lder's inequality itself just asserts the containment $B \subseteq (B')^\perp$. All we want now is an actual equality $B = (B')^\perp$, i.e., we want to show that if $|\langle f, g \rangle| \leq 1$ whenever $\|g\|_q \leq 1$, then $\|f\|_p \leq 1$. But we already did that calculation when we proved $L^p \hookrightarrow (L^q)^\ast$ is an isometry. Explicitly, given $f$ such that $\|g\|_q \leq 1$ implies $|\langle f, g \rangle| \leq 1$, choose $h$ such that $f h = |f|^p$ (and $h = 0$ where $f = 0$). Then $|h| = |f|^{p-1} = |f|^{p/q}$, so $|h|^q = |f|^p$ whence $\|h\|_q^q = \|f\|_p^p$. Put $g = \frac{h}{\|h\|_q}$; since $\|g\|_q \leq 1$, it follows by the condition on $f$ that $1 \geq |\langle f, g \rangle|$. But this gives 
 
-$$\frac1{\|f\|_p} |\langle f, g \rangle| = |\langle \frac{f}{\|f\|_p}, g \rangle| \geq 1$$ 
+$$1 \geq \frac1{\|h\|_q} \int_X f h = \frac1{\|f\|_p^{p/q}} \int_X |f|^p = \|f\|_p^{p - p/q} = \|f\|_p$$ 
 
-and so $|\langle f, g\rangle| \geq \|f\|_p$. Thus, if $|\langle f, g \rangle| \leq 1$ just for that one choice of $g \in B'$, then $\|f\|_p \leq 1$ as desired. 
+as was to be shown. 
 
 The standard derivation of Minkowski's inequality from H&#246;lder's inequality is nothing more than a very tidied-up rendering of this argument, but without the additional conceptual explanation given here. 
 
