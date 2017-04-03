@@ -10,7 +10,7 @@ H&#246;lder's inequality is a basic inequality in analysis, used to prove that i
 
 Let $(X, \mu)$ be a [[measure space]], and for $p \gt 0$ let $L^p$ denote $L^p(X, \mu)$, the Banach space of complex-valued functions on $X$ with finite [[p-norm]]  considered modulo almost everywhere equality. Suppose $p, q$ are positive real numbers such that $\frac1{p} + \frac1{q} = 1$. Then **H&#246;lder's inequality** states that for any $f \in L^p, g \in L^q$ we have 
 
-$$\int_X \left| f g \right| \leq \|f\|_p \|g\|_q$$ 
+$$\int_X \left| f g \right| \leq {\|f\|_p} {\|g\|_q}$$ 
 
 (in particular, $f g$ is an $L^1$ function). 
 
@@ -43,17 +43,17 @@ $$e^{t x + (1-t)y} \leq t e^x + (1-t)e^y$$
 
 where equality holds iff $e^x = e^y$. All one has to do is put $t = \frac1{p}$ and arrange $x, y$ so that $e^x = a^p$ and $e^y = b^q$. 
 
-Then, to prove $|\langle f, g \rangle| \leq \|f\|_p \|g\|_q$, we may assume $f, g$ nonzero (so their norms are positive) and normalize them to unit vectors $u = f/\|f\|_p, v = g/\|g\|_q$, so that now the object is to prove 
+Then, to prove ${|\langle f, g \rangle|} \leq {\|f\|_p} {\|g\|_q}$, we may assume $f, g$ nonzero (so their norms are positive) and normalize them to unit vectors $u = f/{\|f\|_p}, v = g/{\|g\|_q}$, so that now the object is to prove 
 
-$$\int_X |u| \cdot |v| \leq 1.$$ 
+$$\int_X {|u|} \cdot {|v|} \leq 1.$$ 
 
-But since we are dealing with unit vectors, we have $\int_X |u|^p = 1$ and $\int_X |v|^q = 1$, and now what we want follows straightaway from Young's inequality applied to integrands: 
+But since we are dealing with unit vectors, we have $\int_X {|u|^p} = 1$ and $\int_X {|v|^q} = 1$, and now what we want follows straightaway from Young's inequality applied to integrands: 
 
-$$\int_X |u| \cdot |v| \leq \int_X \frac{|u|^p}{p} + \frac{|v|^q}{q} = \frac1{p} + \frac1{q} = 1$$ 
+$$\int_X {|u|} \cdot {|v|} \leq \int_X \frac{|u|^p}{p} + \frac{|v|^q}{q} = \frac1{p} + \frac1{q} = 1$$ 
 
 and so the proof of H&#246;lder's inequality is complete. 
 
-To prove that the norm of the pairing $\langle -, - \rangle$ is exactly $1$ (is not less than $1$), it's enough to take any $u \in L^p$ of norm $1$, so $f = |u|$ is a nonnegative function of norm $1$, and then put $g = f^{p-1} = f^{p/q}$. We then have $f^p = g^q$ (almost) everywhere, where we then have $f g = \frac{f^p}{p} + \frac{g^q}{q}$, and now 
+To prove that the norm of the pairing $\langle -, - \rangle$ is exactly $1$ (is not less than $1$), it's enough to take any $u \in L^p$ of norm $1$, so $f = {|u|}$ is a nonnegative function of norm $1$, and then put $g = f^{p-1} = f^{p/q}$. We then have $f^p = g^q$ (almost) everywhere, where we then have $f g = \frac{f^p}{p} + \frac{g^q}{q}$, and now 
 
 $$\int_X f g = \int_X \frac{f^p}{p} + \frac{g^q}{q} = \frac1{p} + \frac1{q} = 1.$$ 
 
@@ -69,15 +69,15 @@ Recall that [[Minkowski's inequality]] is just the [[triangle inequality]] in th
 
 What seemingly most such presentations lack is motivation for the trick, so let us try to say something about this. 
 
-First, Minkowski's inequality can be restated as asserting the convexity of the unit ball $B = \{f \in L^p: \|f\|_p \leq 1\}$ of $L^p$. If we place ourselves for a moment in the context of $L^p$ *real*-valued functions, then it suffices to show that $B$ is the intersection of a collection of [[affine space|affine]] half-spaces, say $H_\lambda = \{f \in L^p: \lambda(f) \leq 1\}$ where $\lambda: L^p \to \mathbb{R}$ is a (continuous) linear functional. But with hindsight into the meaning of H&#246;lder's inequality, seen as paving the way to characterizing linear functionals on $L^p$ as those of the form $\lambda(g) = (f \mapsto \langle f, g \rangle)$ for some $g \in L^q$, it's only natural to see whether we can find a sufficiently large collection $B'$ of such $g$ such that $B = \bigcap_{g \in B'} H_{\lambda(g)}$, and in fact the intuition is that the unit ball $B'$ in $L^q$ ought to work. 
+First, Minkowski's inequality can be restated as asserting the convexity of the unit ball $B = \{f \in L^p: {\|f\|_p} \leq 1\}$ of $L^p$. If we place ourselves for a moment in the context of $L^p$ *real*-valued functions, then it suffices to show that $B$ is the intersection of a collection of [[affine space|affine]] half-spaces, say $H_\lambda = \{f \in L^p: \lambda(f) \leq 1\}$ where $\lambda: L^p \to \mathbb{R}$ is a (continuous) linear functional. But with hindsight into the meaning of H&#246;lder's inequality, seen as paving the way to characterizing linear functionals on $L^p$ as those of the form $\lambda(g) = (f \mapsto \langle f, g \rangle)$ for some $g \in L^q$, it's only natural to see whether we can find a sufficiently large collection $B'$ of such $g$ such that $B = \bigcap_{g \in B'} H_{\lambda(g)}$, and in fact the intuition is that the unit ball $B'$ in $L^q$ ought to work. 
 
-Thus the idea is clear, and it's just a matter of technique from here. We let the relation $|\langle f, g \rangle| \leq 1$ on $L^p \times L^q$ set up a [[Galois connection]] between subsets of $L^p$ and subsets of $L^q$. The connection takes the unit ball $B'$ in $L^q$ to 
+Thus the idea is clear, and it's just a matter of technique from here. We let the relation ${|\langle f, g \rangle|} \leq 1$ on $L^p \times L^q$ set up a [[Galois connection]] between subsets of $L^p$ and subsets of $L^q$. The connection takes the unit ball $B'$ in $L^q$ to 
 
-$$(B')^\perp \coloneqq \{f \in L^p: (\forall_{g \in B'})|\langle f, g \rangle| \leq 1\}$$ 
+$$(B')^\perp \coloneqq \{f \in L^p: (\forall_{g \in B'}) {|\langle f, g \rangle|} \leq 1\}$$ 
 
-which is clearly convex, being an intersection of convex sets $\{f: |\langle f, g \rangle| \leq 1\}$, one for each $g \in B'$. H&#246;lder's inequality itself just asserts the containment $B \subseteq (B')^\perp$. All we want now is an actual equality $B = (B')^\perp$, i.e., we want to show that if $|\langle f, g \rangle| \leq 1$ whenever $\|g\|_q \leq 1$, then $\|f\|_p \leq 1$. But we already did that calculation when we proved $L^p \hookrightarrow (L^q)^\ast$ is an isometry. Explicitly, given $f$ such that $\|g\|_q \leq 1$ implies $|\langle f, g \rangle| \leq 1$, choose $h$ such that $f h = |f|^p$ (and $h = 0$ where $f = 0$). Then $|h| = |f|^{p-1} = |f|^{p/q}$, so $|h|^q = |f|^p$ whence $\|h\|_q^q = \|f\|_p^p$. Put $g = \frac{h}{\|h\|_q}$; since $\|g\|_q \leq 1$, it follows by the condition on $f$ that $1 \geq |\langle f, g \rangle|$. But this gives 
+which is clearly convex, being an intersection of convex sets $\{f: {|\langle f, g \rangle|} \leq 1\}$, one for each $g \in B'$. H&#246;lder's inequality itself just asserts the containment $B \subseteq (B')^\perp$. All we want now is an actual equality $B = (B')^\perp$, i.e., we want to show that if ${|\langle f, g \rangle|} \leq 1$ whenever ${\|g\|_q} \leq 1$, then ${\|f\|_p} \leq 1$. But we already did that calculation when we proved $L^p \hookrightarrow (L^q)^\ast$ is an isometry. Explicitly, given $f$ such that ${\|g\|_q} \leq 1$ implies ${|\langle f, g \rangle|} \leq 1$, choose $h$ such that $f h = {|f|^p}$ (and $h = 0$ where $f = 0$). Then ${|h|} = {|f|^{p-1}} = {|f|^{p/q}}$, so ${|h|^q} = {|f|^p}$ whence ${\|h\|_q^q} = {\|f\|_p^p}$. Put $g = \frac{h}{{\|h\|_q}}$; since ${\|g\|_q} \leq 1$, it follows by the condition on $f$ that $1 \geq {|\langle f, g \rangle|}$. But this gives 
 
-$$1 \geq \frac1{\|h\|_q} \int_X f h = \frac1{\|f\|_p^{p/q}} \int_X |f|^p = \|f\|_p^{p - p/q} = \|f\|_p$$ 
+$$1 \geq \frac1{{\|h\|_q}} \int_X f h = \frac1{{\|f\|_p^{p/q}}} \int_X {|f|^p} = {\|f\|_p^{p - p/q}} = {\|f\|_p}$$ 
 
 as was to be shown. 
 
