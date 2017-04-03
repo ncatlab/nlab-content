@@ -217,14 +217,18 @@ The original references for the shape theory of metric compacta are:
 * [[K. Borsuk]], _Concerning homotopy properties of compacta_, Fund Math. 62 (1968) 223-254
 * [[K. Borsuk]], _Theory of Shape_, Monografie Matematyczne Tom 59,Warszawa 1975.
 
-The 'ANR-systems' approach of Marde&#353;i&#263; and Segal appeared in
+A generalization in categorical approach is given in
 
-* [[Sibe Mardesic|S. Marde?i?]] and J. Segal, _Shapes of compacta and ANR-systems, Fund. Math. 72 (1971) 41-59,
+* W. Holszty&#324;ski, _An extension and axiomatic characterization of Borsuk's theory of shape_, Fund. Math. 70 (1971) no. 2, 157&#8211;168 [pdf](https://www.impan.pl/shop/en/publication/transaction/download/product/79189)
+
+The 'ANR-systems' approach of Marde&#353;i&#263; and Segal appeared a bit later in
+
+* [[Sibe Mardesic|S. Marde?i?]], J. Segal, _Shapes of compacta and ANR-systems, Fund. Math. 72 (1971) 41-59,
 
 and is fully developed in 
 
-* [[Sibe Mardesic|S. Marde?i?]], J. Segal, (1982) Shape Theory, North 
-Holland. 
+* [[Sibe Mardesic|S. Marde?i?]], J. Segal, _Shape theory_, North 
+Holland, 1982.
 
 The more or less equivalent pro-object approach was independently developed by Porter in 
 
@@ -270,7 +274,6 @@ The relationship between invariants of $C^*$-algebras and the shape of their spe
  {#Blackadar}
 
 
-
 The links are with K-theory and Kasparov's theory. This connection and a related one to 'asymptotic morphisms' is explored in some neat notes by Anderson and Grodal:
 
 * [Noncommutative topology - homotopy functors and E-theory](http://www.math.ku.dk/~jg/papers/etheory.html)
@@ -282,7 +285,7 @@ That connection with [[asymptotic morphisms]] is fully explored in the work of [
 
 * [[Marius Dadarlat|Marius D?d?rlat]], Terry A. Loring, _Deformations of topological spaces predicted by E-theory_, in Algebraic methods in operator theory, pages 316-327. Birkh&#228;user 1994. 
 
-For links with dynamical systems, see the early paper,
+For links with dynamical systems see the early paper
 
 *  [[H. M. Hastings]], _Shape theory and dynamical systems_ in M.G.Markely and 
 W.Perizzo: The structure of attractors in dynamical systems, Lect. Notes in 
@@ -290,12 +293,9 @@ Math. 688 (1978) 150-160. Springer-Verlag.
 
 and more recently
 
-*  [[Joel W. Robbin]], Dietmar A. Salamon, _Dynamical systems, Shape Theory and the Conley  index_, Ergodic Theory Dynam. Systems 8 (1988) 375 -  393,
+*  [[Joel W. Robbin]], Dietmar A. Salamon, _Dynamical systems, shape theory and the Conley  index_, Ergodic Theory Dynam. Systems 8 (1988) 375 -  393,
 
-* A. Giraldo, M. A. Mor&#243;n, F. R. Ruiz del Portal, [[J. M. R. Sanjurjo]], _Shape of global 
-attractors in topological spaces_, Nonlinear Analysis 60 (2005) 837 - 847
-
-and 
+* A. Giraldo, M. A. Mor&#243;n, F. R. Ruiz del Portal, [[J. M. R. Sanjurjo]], _Shape of global attractors in topological spaces_, Nonlinear Analysis 60 (2005) 837 - 847
 
 *  J. Garc&#237;a Calcines, [[Luis Javier Hernández|L. J. Hernández]] and [[Teresa Rivas|M.T. Rivas]],  _Limit and end functors of dynamical systems via exterior spaces, _ [Preprint (2011)](http://www.unirioja.es/cu/luhernan/puben.html).
 
