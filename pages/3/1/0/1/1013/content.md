@@ -48,6 +48,9 @@ Another way to break down the possibilities (used in a $3$-way [[factorization s
 
 1. $F$ is an [[isofibration]].
 
+However, notice that these two conditions violate the [[principle of equivalence]] for [[categories]]. In the terminology of _[[strict categories]]_ one might hence refer to these conditions as expressing "strict extra structure".
+
+
 
 
 ### Interpretation in terms of k-surjectivity
@@ -247,7 +250,7 @@ For the [[(∞,1)-topos]] [[∞-Grpd]] of [[∞-groupoid]]s the analog of the su
 
 * {#Ehresmann57} [[Charles Ehresmann]], _Gattungen in Lokalen Strukturen_, 1957
 
-* {#Ehresmann65} [[Charles Ehresman]], _Cat&#233;gories et Structures_, Dunod, 1965
+* {#Ehresmann65} [[Charles Ehresmann]], _Cat&#233;gories et Structures_, Dunod, 1965
 
 * {#AdamekRosickyVitale09} Adamek, Rosicky, Vitale, _Algebraic theories_ [pdf](http://www.iti.cs.tu-bs.de/~adamek/algebraic_theories.pdf) (2009)
 
