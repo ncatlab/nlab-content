@@ -62,7 +62,7 @@ as its objects and morphism of the underlying globular objects respecting all th
 
 * The last condition in the above definition says that all pairs of composition operations satisfy the [[exchange law]].
 
-* $\omega$-Categories can also be understood as the directed limit of the sequence of iterated [[enriched category theory|enrichements]]
+* $\omega$-Categories can also be understood as the directed limit of the sequence of iterated [[enriched category theory|enrichments]]
 $$
   (0 Cat = Set)
   \hookrightarrow
