@@ -23,15 +23,15 @@
 
 It is common in informal language to speak of mathematical objects "equipped with extra structure" of some sort. The archetypical examples are [[algebras over a Lawvere theory]] in [[Set]]: these are [[sets]] equipped with the structure of certain algebraic operations. For instance a [[group]] $(G, e, {\cdot})$ is a [[set]] $G$ equipped with a binary operation ${\cdot} : G \times G \to G$, etc.
 
-One may formalize the notion of structure using the language of [[category theory]]. This is discussed at _[[stuff, structure, property]]_. In that formalization [[objects]] in some [[category]] $D$ are objects in some category $C$ _equipped with extra structure_ if there is a [[functor]] $p \colon D \to C$ which at least
+One may formalize the notion of structure using the language of [[category theory]]. This is discussed at _[[stuff, structure, property]]_. In that formalization [[objects]] in some [[category]] $D$ are objects in some category $C$ _equipped with extra structure_ if there is a [[functor]] $p \colon D \to C$ such that
 
-* is a [[faithful functor]].
+* $p$ is a [[faithful functor]].
 
 {#InCategoryTheory} Depending on author and situation, more properties are required of this functor ([Ehresmann 57](#Ehresmann57), [Ehresmann 65](#Ehresmann65), [Adamek-Rosicky-Vitale 09, remark 13.18](#AdamekRosickyVitale)):
 
 * $p$ is an [[amnestic functor]] ($p$-vertical [[isomorphisms]] are [[identities]]),
 
-* $p$ is an [[isofibration]].
+* $p$ is an [[isofibration]] (isomorphisms can be lifted along $p$).
 
 {#StrictStructure} However, notice that these two conditions violate the [[principle of equivalence]] for [[categories]]. In the terminology of _[[strict categories]]_ one might hence refer to these conditions as expressing "strict extra structure".
 
@@ -72,6 +72,7 @@ Generally the [[forgetful functor]] from a category of algebras over an [[algebr
 
 * [[Birkhoff's HSP theorem]]
 
+
 ## References
 
 * {#Ehresmann57} [[Charles Ehresmann]], _Gattungen in Lokalen Strukturen_, 1957
@@ -79,6 +80,7 @@ Generally the [[forgetful functor]] from a category of algebras over an [[algebr
 * {#Ehresmann65} [[Charles Ehresmann]], _Cat&#233;gories et Structures_, Dunod, 1965
 
 * {#AdamekRosickyVitale09} Adamek, Rosicky, Vitale, _Algebraic theories_ [pdf](http://www.iti.cs.tu-bs.de/~adamek/algebraic_theories.pdf) (2009)
+
 
 [[!redirects structure]]
 [[!redirects structures]]
