@@ -27,12 +27,19 @@ Beware that sometimes the notation '$L_p$' is used as a synonym for $L^p$; somet
 
 
 ## Definitions
+ {#Definition}
 
-If $1 \leq p \lt \infty$ is a [[real number]] and $(\Omega,\mu)$ is a [[measure space]], one considers the **$L^p$ space** $L_p(\Omega)$ of (equivalence classes of) [[measurable function|measurable]] (complex- or real-valued) functions $f\colon \Omega \to \mathbb{K}$ whose (absolute values of) $p$th powers are integrable; i.e. whose [[p-norm]] 
+If $1 \leq p \lt \infty$ is a [[real number]] and $(\Omega,\mu)$ is a [[measure space]], one considers the **$L^p$ space** $L_p(\Omega)$, which is the [[vector space]] of [[equivalence classes]] of those [[measurable function|measurable]] (complex- or real-valued) functions $f\colon \Omega \to \mathbb{K}$ whose (absolute values of) $p$th powers are integrable, in that the integral
 
-$$ {\|f\|_p} = \left(\int_\Omega {|f|^p} \,d\mu\right)^{1/p} $$
+$$ 
+  {\|f\|_p} 
+    \coloneqq \left(\int_\Omega {|f|^p} \,d\mu\right)^{1/p} 
+  \lt \infty
+$$
 
-is finite.
+exists. Two such are taken to be equivalent, $f \sim g$, if ${\|f-g\|_p} = 0$. For $p = 2$ this is the space $L^2$ of [[square integrable functions]].
+
+On these spaces $L^p(X)$ of equivalence classes of $p$-power integrable functions, the function ${\|f\|_p}$ satisfies the [[triangle inequality]] (due to [[Minkowski's inequality]], see [below](#MinkowskiInequality)) and hence defines a [[norm]], the _[[p-norm]]_, making them [[normed vector spaces]].
 
 The $L^p$ spaces are examples of [[Banach spaces]]; they are continuous analogues of $l^p$ spaces of $p$-summable series. (Indeed, $l^p(S)$, for $S$ a [[set]], is simply $L^p(S)$ if $S$ is equipped with [[counting measure]].)
 
@@ -42,7 +49,8 @@ For $0 \leq p \lt 1$, one can modify the definition to make $L^p$ into an [[F-sp
 
 
 ## Minkowski's inequality 
-
+ {#MinkowskiInequality}
+ 
 We offer here a proof that ${\|f\|_p}$ indeed defines a norm in the case $1 \lt p \lt \infty$, in that it satisfies the [[triangle inequality]]. This is usually known as _[[Minkowski's inequality]]_.
 
 (The cases $p = 1$ and $p = \infty$ follow by continuity and are easy to check from first principles.) 
