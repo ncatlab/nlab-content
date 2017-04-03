@@ -21,7 +21,7 @@ Every [[operad]] defines and is defined by a [[category]] -- its _category of op
 
 * [[morphism]]s are tuples consisting of maps of sets between these sequences of colors, and a $k$-ary operation of the operad for each collection of $k$ source colors that are mapped to the same target color.
 
-This is a universal construction: the category of operators is the free [[semicartesian monoidal category]] on the free semicartesian operad on the given operad.
+This is a universal construction: the category of operators is the free [[semicartesian monoidal category]] on the free semicartesian operad on the given operad.  It also generalizes in a straightforward way to "colored operads", i.e. [[multicategories]].
 
 
 ## Definition
@@ -84,9 +84,10 @@ which is an [[isomorphism]] that identifies $A_n$ with the $n$-fold cartesian [[
 The morphisms $h \in Hom_A((c_1, \cdots, c_n), d)$ of $A$ are recovered as the collection of morphisms in $C_A$ from $(c_1, \cdots, c_n)$ to $(d)$ that cover the morphism $\langle n\rangle \to \langle 1\rangle$ in $FinSet_*$ whose [[preimage]] of the point contains just the point.
 
 
-### Relation to endomorphism operads
+### Relation to underlying multicategories
 
-Forming categories of operators is left 2-adjoint to forming _[[endomorphism operads]]_. For the moment, see there for more details.
+Forming categories of operators is left 2-adjoint to forming the [[representable multicategory|underlying multicategory]] of a semi-cartesian monidal category.  (For a left adjoint to the underlying multicategory of an arbitrary monoidal category, see instead [[props]].)  For the moment, see there for more details.
+
 
 ## Related concepts
 
