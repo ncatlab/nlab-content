@@ -314,6 +314,10 @@ The relation to [[Langlands dual groups]] is discussed in
 
 * {#DaenzerErp} [[Calder Daenzer]], [[Erik Van Erp]], _T-Duality for Langlands Dual Groups_ ([arXiv:1211.0763](http://arxiv.org/abs/1211.0763))
  
+For [[RR-fields]]:
+
+* {#Hori99} [[Kentaro Hori]], _D-branes, T-duality and Index theory_, Adv. Theor. Math. Phys. 3 (1999) 281 ([arXiv:hep-th/9902102](https://arxiv.org/abs/hep-th/9902102))
+
 #### With supergeometry
 
 Discussion of T-duality that takes into account the [[super p-brane]] charges (i.e. the fermionic components of the [[RR-fields]]) on [[super spacetime]], hence also of [[Green-Schwarz action functionals]], includes the following:
