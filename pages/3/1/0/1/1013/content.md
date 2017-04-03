@@ -23,6 +23,8 @@ This is a generalization of parts of traditional [[Postnikov tower]]/[[(n-connec
 
 See also at _[[structure type]]_ and _[[stuff type]]_.
 
+Note that this account operates under the [[principle of equivalence]], where constructions are taken to be invariant under morphisms which are invertible in a maximally weak sense. When working with various amounts of [[strict n-category|strictness]], further requirements are appropriate, some of which are noted below.
+
 
 ## Definitions
 
