@@ -511,3 +511,11 @@ The fully abstract higher categorical concept in terms of [[stabilization|stabil
 
 [[!redirects module]]
 [[!redirects modules]]
+
+[[!redirects module over a ring]]
+[[!redirects modules over a ring]]
+[[!redirects module over rings]]
+
+[[!redirects module over a commutative ring]]
+[[!redirects modules over a commutative ring]]
+[[!redirects modules over commutative rings]]
