@@ -37,12 +37,12 @@ $$
 be the [[action]] of $G$ on $P$ and
 
 $$
-  \rho_* : \mathfrak{g} \to \Gamma(T X)
+  \rho_* : \mathfrak{g} \to \Gamma(T P)
 $$
 
 its derivative, sending each element $x \in \mathfrak{g}$ to the [[vector field]] on $P$ that at $p \in P$ is the push-forward $\rho(p,-)_*(x)$.
 
-For $v \in \Gamma(T X)$ and $\omega$ a differential form on $P$ write $\iota_v \omega$ for the contraction.
+For $v \in \Gamma(T P)$ and $\omega$ a differential form on $P$ write $\iota_v \omega$ for the contraction.
 
 +-- {: .num_defn}
 ###### Definition
