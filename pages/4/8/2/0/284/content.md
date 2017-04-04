@@ -379,6 +379,10 @@ An introduction to [[higher category theory]] through $(\infty,1)$-categories is
 
 * Omar Antol&#237;n Camarena, _A whirlwind tour of the world of $(\infty,1)$-categories_, 2013 ([arXiv:1303.4669](http://arxiv.org/abs/1303.4669))
 
+A foundational set of lecture notes is developing in 
+
+* [[Denis-Charles Cisinski]], _Higher category theory and homotopical algebra_ ([pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
+
 A survey with an eye towards [[higher algebra]] is in 
 
 * [[Moritz Groth]], _A short course on $\infty$-categories_ ([pdf](http://www.math.uni-bonn.de/~mgroth/InfinityCategories.pdf))
@@ -387,7 +391,7 @@ Lecture notes are in
 
 * [[Dylan Wilson]], _Lectures on higher categories_ ([pdf](https://sites.google.com/a/uw.edu/dwilson/notes))
 
-* [[Emily Riehl]], _[[Categorical Homotopy Theory]]_
+* [[Emily Riehl]], _[[Categorical HoDmotopy Theory]]_
 
 See also
 
