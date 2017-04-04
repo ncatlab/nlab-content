@@ -121,7 +121,7 @@ There is an [[operad|operadic]] analog of the relation between quasi-categories 
 
 ## References
 
-The idea of a [[homotopy coherent nerve]] has been around for some time.  It seems first to have been made explicit by [[Cordier]] in 1980, and the link with quasi-categories was first made explicit in the joint work of him with [[Tim Porter|Porter]], although that work owed a lot to earlier ideas of  [[Michael Boardman|Boardman]] and [[Rainer Vogt|Vogt]] about seven years earlier.  Precise references are given and the history discussed more fully at the entry, [[homotopy coherent nerve]]. 
+The idea of a [[homotopy coherent nerve]] has been around for some time.  It was first  made explicit by [[Cordier]] in 1980, and the link with quasi-categories was then used in the joint work of him with [[Tim Porter|Porter]]. That work owed a lot to earlier ideas of  [[Michael Boardman|Boardman]] and [[Rainer Vogt|Vogt]] about seven years earlier who had used a more topologically based approach.  Precise references are given and the history discussed more fully at the entry, [[homotopy coherent nerve]]. 
 
 The [[Quillen equivalence]] between the [[model structure for quasi-categories]] and the [[model structure on sSet-categories]] is described in
 
