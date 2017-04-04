@@ -8415,41 +8415,367 @@ $\,$
 The archetypical [[duality in string theory]] is _[[T-duality]]_, which relates the [[F1-brane|F1]]/[[D-brane|Dp]]/[[NS5-brane|NS5]]-[[super p-branes]] of [[type IIA string theory]] on a [[superspacetime]] which is a [[circle]] [[fiber bundle]] over a 9d base to those of [[type IIB string theory]] on a dual circle fibration with the fiber size inverted in string length units. The [[F1-brane|F1]]/[[D-brane|Dp]]-[[super p-brane]] charges on both sides of this [[duality in physics|duality]] take values in [[twisted K-theory]], and hence the mathematical statement here is that dual circle fibrations of this form induce an equivalence in [[twisted K-theory]]. This T-duality equivalence of F1/D$p$-brane charges in [[twisted K-theory]] is known in the literature as "[[topological T-duality]]".
 
 
+
+$\,$
+
+We consider now the D-brane cocycles
+
+on type IIA and IIB superspacetime
+
+and dimensional reduce _both_ to their joint 9d base space.
+
+There we discover a hidden [[nLab:duality in string theory|duality]]: _[[nLab:T-duality]]_.
+
+$\,$
+
++-- {: .num_prop #CoefficientsIsoOnTDuality}
+###### Proposition
+**([Fiorenza-Sati-Schreiber 16b, prop. 5.1](#FSS16b))**
+
+  The cyclification $\mathfrak{L}\mathfrak{l}(\mathrm{KU}/BU(1))/\mathbb{R}$
+  (def. \ref{Cyclification})
+  of $\mathfrak{l}(\mathrm{KU}/BU(1))$ (def. \ref{RationalTwistedku})
+  has CE-algebra
+  $$
+    \mathrm{CE}(\mathfrak{L}\mathfrak{l}(\mathrm{KU}/BU(1))/\mathbb{R})
+    =
+    \left\{
+       \array{
+         d c_2 = 0\,,\;\;\;\;d \tilde c_2 = 0
+         \\
+         d h_3 = - c_2 \wedge \tilde c_2
+         \\
+         d \omega_{2p+2} = h_3 \wedge \omega_{2p} + c_2 \wedge \omega_{2p+1}
+         \\
+         d \omega_{2p+1} = h_3 \wedge \omega_{2p-1} + \tilde c_2 \wedge \omega_{2p}
+       }
+    \right\}\;.
+  $$
+  The cyclification $\mathfrak{L}\mathfrak{l}(\Sigma\mathrm{KU}/BU(1))/\mathbb{R}$
+  of $\mathfrak{l}(\Sigma\mathrm{KU}/BU(1))$
+  has CE-algebra
+  $$
+    \mathrm{CE}(\mathfrak{L}\mathfrak{l}(\Sigma\mathrm{KU}/BU(1))/\mathbb{R})
+    =
+    \left\{
+       \begin{array}{l}
+         d c_2 = 0 \,, \;\;\;\; d \tilde c_2 = 0
+         \\
+         d h_3 = - c_2 \wedge \tilde c_2
+         \\
+         d \omega_{2p+2} = h_3 \wedge \omega_{2p} + \tilde c_2 \wedge \omega_{2p+1}
+         \\
+         d \omega_{2p+1} = h_3 \wedge \omega_{2p-1} + c_2 \wedge \omega_{2p}
+       \end{array}
+    \right\}\;.
+  $$
+  Hence there is an $L_\infty$-isomorphism of the form
+  $$
+    \phi_T
+     \;:\;
+    \mathfrak{l}( \mathcal{L}(\mathrm{KU}/BU(1))/S^1 )
+      \underoverset{\simeq}{\phantom{AA}\phi_T \phantom{AA}}{\longrightarrow}
+    \mathfrak{l}( \mathcal{L}(\Sigma\mathrm{KU}/BU(1))/S^1 )
+  $$
+
+  relating the cyclifications of the rational twisted KU-coefficients,
+  which is given by
+  $$
+         c_2 \leftrightarrow \tilde c_2\;, \qquad
+         h_3 \mapsto h_3\;, \qquad
+         \omega_{p} \mapsto \omega_p
+             \;.
+  $$
+
+=--
+
++-- {: .proof}
+###### Proof
+([skip proof](#HencePostcomposition))
+
+By def. \ref{Cyclification}, as a polynomial algebra the CE-algebra of $\mathfrak{L}\mathfrak{l}(\mathrm{KU}/BU(1))$ is obtained from the CE-algebra of $\mathfrak{l}(\mathrm{KU}/BU(1))$ by adding a shifted copy of each generator. We denote by $\omega_{2p-1}$ the shifted copy of $\omega_{2p}$ and by $-\tilde{c}_2$ the shifted copy of $h_3$. The differential is then defined by
+$$
+d\omega_{2p+2}=h_3 \wedge \omega_{2p}\;, \qquad d\omega_{2p+1}=h_3 \wedge \omega_{2p-1} + \tilde{c}_2\wedge \omega_{2p}\;, \qquad dh_3=0,\qquad d\tilde{c}_2=0\;.
+$$
+Next, again by def. \ref{Cyclification}, the CE-algebra of $\mathfrak{L}\mathfrak{l}(\mathrm{KU}/BU(1))/\mathbb{R}$
+is obtained by adding a further degree 2 generator $c_2$ and defining the differential as
+$$
+\array{
+d\omega_{2p+2}= h_3 \wedge \omega_{2p} + c_2\wedge \omega_{2p+1}\;, & \qquad
+ d\omega_{2p+1}= h_3 \wedge \omega_{2p-1} + \tilde{c}_2\wedge \omega_{2p}\;,
+\\
+ dc_2=0\;,  \qquad d\tilde{c}_2=0\;,  &
+ \qquad \quad  dh_3=  - c_2\wedge \tilde{c}_2\;.
+}
+$$
+The proof for $\mathfrak{L}\mathfrak{l}(\Sigma\mathrm{KU}/BU(1))/\mathbb{R}$ is completely analogous.
+
+=--
+
+$\,$
+
+{#HencePostcomposition} Hence postcomposition with $\phi_T$
+
+sends the doubly dimensionally reduced IIA/B D-brane cocycles
+
+to _some_ otber super $L_\infty$-cocycles.
+
+The following theorem says that
+
+indeed it takes them into each other:
+
+$\,$
+
++-- {: .num_theorem #CocycleTDuality}
+###### Theorem
+**([Fiorenza-Sati-Schreiber 16b, theorem 5.3](#FSS16b))**
+
+The following [[nLab:commuting diagram|diagram commutes]]
+
+<img src="https://ncatlab.org/schreiber/files/CocycleTDualityIso.png" width="600">
+
+In particular this means that
+
+1. $(\pi^{IIA/IIB}_9)_\ast \left( \mu^{IIA/IIB}_{F1} \right) = - c_2^{IIA/IIB}$.
+
+1. $(\pi_9^{IIA})_\ast - e_9^{IIA} \wedge (-)\vert_{8+1} \;\colon\; C^{IIA} \mapsto C^{IIB}$.
+
+=--
+
+$\,$
+
+The first of these two conditions is
+
+the super $L_\infty$-version of the axiom for
+
+_[[nLab:topological T-duality]]_ due to [Bouwknegt-Evslin-Mathai 04](https://ncatlab.org/nlab/show/topological%20T-duality#BouwknegtEvslinMathai04).
+
+$\,$
+
+<img src="https://ncatlab.org/schreiber/files/CorrespondenceConditionTDuality.png" width="650">
+
+$\,$
+
+To understand the second condition
+
+pass to the correspondence super $L_\infty$-algebra.
+
+$\,$
+
++-- {: .num_prop #CorrespondenceForTDuality}
+###### Proposition
+**([Fiorenza-Sati-Schreiber 16b, prop. 6.2](#FSS16b))**
+
+
+ We have a diagram of super $L_\infty$-algebras of the following form
+
+<img src="https://ncatlab.org/schreiber/files/LInfinityTDualityCorrespondence.png" width="600">
+
+such that  on the classifying 3-cocycles
+
+$\nu$ is given by the _Poincar&#233; form_
+$$
+  \mathcal{P}
+    :=
+  e_9^{\mathrm{IIA}} \wedge e_9^{\mathrm{IIB}}
+$$
+as
+$$
+  p_B^\ast (\mu_{{}_{F1}}^{\mathrm{IIB}} )- p_A^\ast (\mu_{{}_{F1}}^{\mathrm{IIA}})
+    =
+   d  \mathcal{P}
+   \,.
+$$
+
+=--
+
+$\,$
+
+This now is the super $L_\infty$-version of the
+
+refined formulation of [[nLab:topological T-duality]]
+
+due to [Bunke-Schick 04](https://ncatlab.org/nlab/show/topological+T-duality#BunkeSchick04):
+
+<img src="https://ncatlab.org/schreiber/files/BunkeTopologicalTDuality.png" width="600">
+
+$\,$
+
++-- {: .num_prop #PullPushIso}
+###### Proposition
+**([Fiorenza-Sati-Schreiber 16b, prop. 64](#FSS16b))**
+
+The [[nLab:integral transform]] of pull-push through this [[nLab:correspondence]] is an
+[[nLab:isomorphism]]
+
+  $$
+    (\pi_9^{\mathrm{IIA}})_\ast \circ \nu^\ast \circ (\pi_9^{\mathrm{IIB}})^\ast
+      \;:\;
+    H_{\mu_{F1}^{\mathrm{IIA}}} \left( \mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}, \mathfrak{l}(\mathrm{KU})  \right)
+      \longrightarrow
+    H_{\mu_{F1}^{\mathrm{IIB}}} \left( \mathbb{R}^{9,1\vert \mathbf{16} + {\mathbf{16}}}, \mathfrak{l}(\Sigma \mathrm{KU})   \right)
+  $$
+
+ Moreover, it identifies the type IIA D-brane cocycles with those
+  of type IIB (from def. \ref{TheDBraneCocycles}), as in Theorem \ref{CocycleTDuality}:
+  $$
+    \begin{aligned}
+      \exp(-f_2^{\mathrm{IIB}}) \wedge  C^{\mathrm{IIB}}
+      & =
+    (\pi_9^{\mathrm{IIA}})_\ast \circ \nu^\ast \circ (\pi_9^{\mathrm{IIB}})^\ast
+      \left(
+        \exp(-f_2^{\mathrm{IIA}}) \wedge C^{\mathrm{IIA}}
+      \right)
+      \\
+      & =
+      (\pi_9^{\mathrm{IIA}})_\ast \left(
+      \exp(\mathcal{P}) \wedge (\pi_9^{\mathrm{IIB}})^\ast \left( \exp(-f^{\mathrm{IIA}}_2) \wedge C^{\mathrm{IIA}} \right)
+    \right)
+    \end{aligned}
+    \,,
+  $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One checks that
+
+$$
+  (\pi_9^{\mathrm{IIA}})_\ast \left(
+      \exp(\mathcal{P}) \wedge (\pi_9^{\mathrm{IIB}})^\ast \left( - \right)
+  \right)
+  =
+  (\pi_9^{\mathrm{IIA}})_\ast(-) - e_9^{IIA} \wedge (- )\vert|_{8+1}
+  \,.
+$$
+
+With this the statement follows from theorem \ref{CocycleTDuality}, item 2.
+
+=--
+
 $\,$
 
 
-The IIA and the IIB spacetime both extend the single $N = 2$ 9d spacetime
+
+$\,$
+
+Prop. \ref{PullPushIso} is the super $L_\infty$-algebraic analog of the [Bunke-Schick 04, theorem 3.13](https://ncatlab.org/nlab/show/topological+T-duality#BunkeSchick04).
+
+In fact on CE-algebras this is the _Buscher rules for RR-fields_
+
+also known as  _Hori's formula_  ([Hori 99](https://ncatlab.org/nlab/show/T-duality#Hori99)).
+
+$\,$
+
+To see why the above [[nLab:correspondence]] as in [Bunke-Schick 04](https://ncatlab.org/nlab/show/topological+T-duality#BunkeSchick04)
+
+follows from the [[nLab:double dimensional reduction]] isomorphism $\phi_T$
+
+it is useful to break up the doubly dimensionally reduced cocycles $ \mathcal{L}( \, \mu_{F1,Dp}^{IIA/B} \, ) $
+
+into the part for the fiber bundle and the part for the K-cocycles:
+
+$\,$
+
++-- {: .num_defn #Lie2AlgebraTDuality}
+###### Definition
+
+The _[[nLab:T-duality 2-group|delooped T-duality Lie 2-algebra]]_ $B \mathcal{T}_1$
+
+is the [[nLab:homotopy fiber]] of the [[nLab:cup product|cup square]] of the [[nLab:first Chern class]]
+
+$$
+  B \mathcal{T}_1
+    \overset{}{\longrightarrow}
+  B \mathbb{R} \oplus B \mathbb{R}
+    \overset{\phantom{A}c_1 \cup \tilde c_1 \phantom{A}}{\longrightarrow}
+  B^3 \mathbb{R}
+$$
+
+hence by prop. \ref{HigherCentralExtension}
+
+$$
+  CE( B \mathcal{T}_1 )
+    \;=\;
+  \left\{
+    \array{
+       d c_2 = 0, \;\; d \tilde c_2 = 0
+       \\
+       d h_3 = - c_2 \wedge \tilde c_2
+    }
+  \right\}
+  \,.
+$$
+
+=--
+
+$\,$
+
++-- {: .num_prop}
+###### Proposition
+**([FSS 16b, prop. 7.3](#FSS16b))**
+
+The dimensionally reduced twistd K-theory coefficients from prop. \ref{CoefficientsIsoOnTDuality}
+
+sit in a [[nLab:homotopy fiber sequence]] of the form
 
 $$
   \array{
-    \mathbb{R}^{9,1\vert \mathbf{16} + \mathbf{16}}
-      && &&
-    \mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}
+    \mathfrak{l}(\, KU \oplus \Sigma KU \,)
+    &\longrightarrow&
+    \mathfrak{l}(\, \mathcal{L}( KU/BU(1))/S 1 \,)
     \\
-    & \searrow && \swarrow
+    &&
+    \downarrow
     \\
-    && \mathbb{R}^{8,1\vert \mathbf{16} + \mathbf{16}}
+    && B \mathcal{T}_1
   }
 $$
 
-Apply [[double dimensional reduction]] of the unified $F1/Dp$-cocycles
+exhibiting (via [NSS 12](#NSS12)) an [[nLab:∞-action]]
 
-in IIA and IIB along both of these.
+of the [[nLab:T-duality 2-group|T-duality Lie 2-algebra]] from def. \ref{Lie2AlgebraTDuality}
 
-The resulting cyclified $L_\infty$-cocycles in 9d turn out to be $L_\infty$-equivalent.
+on $\mathfrak{l}(\, KU \oplus \Sigma KU \,)$.
 
-([FSS16b, sections 5 and 6](#FSS16b))
-
-One derives the following picture
+=--
 
 $\,$
 
-<img src="https://ncatlab.org/schreiber/files/FTheoryPicture.png" width="900">
++-- {: .num_prop #TdualityCorrespondenceFromHomotopyFiber}
+###### Proposition
+**([FSS 16b, prop. 7.5](#FSS16b))**
+
+The [[nLab:homotopy fiber]] of the cyclified IIA/B cocycles (theorem \ref{CocycleTDuality})
+
+projected to the [[nLab:T-duality 2-group|T-duality Lie 2-algebra]] $B \mathcal{T}_1$ (def. \ref{Lie2AlgebraTDuality})
+
+are the super $L_\infty$-algeberas $p_{A}^\ast \widehat{ \mathbb{R}^{9,1 \vert \mathbf{16} + \overline{\mathbf{16}}} }$ and $p_B^\ast( \widehat{ \mathbb{R}^{9,1\vert \mathbf{16} + \mathbf{16}} } )$ from prop. \ref{CorrespondenceForTDuality}
+
+hence the [Bunke-Schick 04](#BunkeSchick04)-type correspondence
+
+follows from theorem \ref{CocycleTDuality}
+
+via $\infty$-functoriality of homotopy fibers:
+
+<img src="https://ncatlab.org/schreiber/files/HomotopyFibersTDuality.png" width="650">
+
+
+=--
 
 $\,$
 
+Prop. \ref{TdualityCorrespondenceFromHomotopyFiber} implies that we may study T-duality
 
-(...)
+in terms of [[nLab:principal 2-bundles]] for the [[nLab:T-duality 2-group]]
+
+over 9d super-manifolds locally modeled on $\mathbb{R}^{8,1\vert \mathbf{16} + \mathbf{16}}$.
+
+This is the [[nLab:supergeometry|supergeometric]] refinement
+
+of the 2-bundle perspective on [[nLab:T-folds]] due to ([Nikolaus 14](https://ncatlab.org/nlab/show/T-fold#Nikolaus14)).
 
 $\,$
 
