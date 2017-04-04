@@ -232,6 +232,7 @@ Since $T Alg$ is reflective in the cocomplete $T/\mathcal{A}$, it is cocomplete.
 
 
 ## Colimits of monads
+{#ColimitsOfMonads}
 
 When speaking of colimits of monads, we are not interested merely in colimits in the category of monads, but *algebraic colimits* in the following sense.  Let $V:K\to Monad (\mathcal{A})$ be a diagram in the category of monads on $\mathcal{A}$, and define a **$V$-algebra** to be an object $A$ together with $V_k$-algebra structures which commute with the images of morphisms in $K$.
 
