@@ -50,6 +50,8 @@ Under the [[Brown representability theorem]], the [[generalized cohomology theor
 
 * [[module spectrum]], [[algebra spectrum]]
 
+* [[Gorenstein ring spectrum]]
+
 * [[functor with smash products]]
 
 * [[periodic ring spectrum]]
