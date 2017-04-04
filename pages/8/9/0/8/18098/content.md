@@ -17,7 +17,7 @@
 
 ## Idea
 
-The definition of a **Gorenstein** [[ring spectrum]] is motivated by the [[Gorenstein ring|Gorenstein condition]] for [[rings]]. A Gorenstein ring, $R$, is a commutative [[Noetherian ring|Noetherian]] [[local ring]] such that the [[Ext]]-group $Ext^{\ast}_R(k, R)$ is one [[dimension|dimensional]] as a $k$-[[vector space]]. This last condition may be restated as the property that the [[homology]] of the ([[derived functor|right derived]]) Hom complex $Hom_R(k, R)$ is equivalent to a [[suspension]] of $k$.
+The definition of a **Gorenstein** [[ring spectrum]] is motivated by the [[Gorenstein ring|Gorenstein condition]] for [[rings]]. A Gorenstein ring, $R$, is a commutative [[Noetherian ring|Noetherian]] [[local ring]] such that the [[Ext]]-group $Ext^{\ast}_R(k, R)$ is one [[dimension|dimensional]] as a $k$-[[vector space]], where $k$ is the [[residue field]] of $R$. This last condition may be restated as the property that the [[homology]] of the ([[derived functor|right derived]]) Hom complex $Hom_R(k, R)$ is equivalent to a [[suspension]] of $k$.
 
 Thus, a [[ring spectrum]] $\mathbf{R} \to \mathbf{k}$ is said to be Gorenstein if there is an [[equivalence in an (infinity,1)-category|equivalence]] of $\mathbf{R}$-[[module spectra]] $Hom_{\mathbf{R}}(\mathbf{k}, \mathbf{R}) \simeq \Sigma^a\mathbf{k}$ for some [[integer]] $a$.
 
