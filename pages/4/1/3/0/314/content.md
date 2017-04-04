@@ -437,7 +437,7 @@ Another example is that all [[finite limits]] can be computed in terms of [[pull
 ###### Covariant Hom commutes with limits
 
 For $C$ a [[locally small]] category,
-for $F : D^{op} \to C$ a functor and writing $C(c, F(-)) : CD^{op} \to Set$, we have
+for $F : D^{op} \to C$ a functor and writing $C(c, F(-)) : D^{op} \to Set$, we have
 $$
   C(c, lim F) \simeq lim C(c, F(-))
   \,.
