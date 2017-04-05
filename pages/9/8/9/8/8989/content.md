@@ -1,4 +1,8 @@
 
+> For the closure of a subset of a topological space, see at _[[closed subset]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
