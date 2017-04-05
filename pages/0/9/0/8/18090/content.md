@@ -338,6 +338,10 @@ Conversely, assume that $f^{-1}$ takes open subsets to open subsets. Then for ev
 +-- {: .num_example}
 ###### Example
 
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/HeavisideFunction.png" width="300>
+</div>
+
 Consider $\mathbb{R}$ as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) and consider the [[step function]]
 
 $$
@@ -345,7 +349,7 @@ $$
 $$
 
 $$
-  H \colon x \mapsto 
+  H \colon x \mapsto
   \left\{
     \array{
       0 & \vert \, x \leq 0
@@ -356,7 +360,9 @@ $$
   \,.
 $$
 
-Consider then for $a \lt b \in \mathbb{R}$ the [[open interval]] $(a,b) \subset \mathbb{R}$, 
+> graphics grabbed from [Vickers 89](#Vickers89)
+
+Consider then for $a \lt b \in \mathbb{R}$ the [[open interval]] $(a,b) \subset \mathbb{R}$,
 an [[open subset]] accordiing to example \ref{OpenAndClosedIntervals}.
 The [[preimage]] of this open subset is
 
@@ -375,7 +381,7 @@ $$
       (0,\infty) & \vert \, 0 \leq a \lt 1 \;\;\text{and}\;\; b \gt 1
       \\
       (-\infty, 0] & \vert \, a \lt 0 \;\;\text{and}\;\; b \leq 1
-      \\       
+      \\
     }
   \right.
   \,.
@@ -389,7 +395,7 @@ By example \ref{OpenAndClosedIntervals}, the last of these preimages listed is n
 ### Topological spaces
  {#TopologicalSpaces}
 
-Due to prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} 
+Due to prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets}
 we should pay attention to [[open subsets]]. It turns out that the following closure
 property is what _characterizes_ the concept:
 
@@ -413,7 +419,7 @@ and
 
 =--
 
-Proposition \ref{OpenSubsetsOfMetricSpaceClosureProperties} motivates 
+Proposition \ref{OpenSubsetsOfMetricSpaceClosureProperties} motivates
 the following generalized definition, which abstracts away from the concept of [[metric space]]
 just its system of [[open subsets]]:
 
@@ -451,10 +457,10 @@ But beware that there are other kinds of spaces in mathematics.
 +-- {: .num_remark}
 ###### Remark
 
-The simple definition of [[open subsets]] in def. \ref{TopologicalSpace} and the simple 
+The simple definition of [[open subsets]] in def. \ref{TopologicalSpace} and the simple
 implementation of the _principle of continuity_ below in def. \ref{ContinuousMaps}
 gives the field of [[topology]] its fundamental and universal flavor. The combinatorial nature of these definitions makes
-topology be closely related to [[formal logic]] (for more on this see at _[[locale]]_).
+topology be closely related to [[formal logic]], see [Vickers 89](#Vickers89).
 
 =--
 
@@ -497,7 +503,11 @@ Here is some common further terminology relating to topological spaces:
 ###### Definition
 **(closed subsets)**
 
-Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}). Then 
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/ClosedAndOpenSubsets.png" width="300">
+</div>
+
+Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}). Then
 a [[subset]] $S$ of $X$ is called a _[[closed subset]]_ if its [[complement]] $X \backslash S$ is an  _[[open subset]]_:
 
 $$
@@ -505,13 +515,16 @@ $$
   \phantom{AAA}
     \Leftrightarrow
   \phantom
-    X\backslash S\,\, \text{is open} 
+    X\backslash S\,\, \text{is open}
   \,.
 $$
+
+> graphics grabbed from [Vickers 89](#Vickers89)
 
 If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that _$x$ is a closed point of $X$_.
 
 Given any subset $S \subset X$, then is _[[closure]]_ $Cl(X)$ is the smalled closed subset containing $S$.
+
 
 =--
 
@@ -526,7 +539,7 @@ $$
   \tau_1 \subset \tau_2
 $$
 
-hence if every open subset of $X$ with respect to $\tau_1$ is also regarded as open by $\tau_2$, then 
+hence if every open subset of $X$ with respect to $\tau_1$ is also regarded as open by $\tau_2$, then
 one says that
 
 * the topology $\tau_2$ is _[[finer topology|finer]]_ than the topology $\tau_2$
@@ -559,21 +572,21 @@ The following shows all the topologies on the 3-element set (up to [[permutation
 **(discrete and co-discrete topology)**
 
 Let $S$ be any [[set]]. Then there are always the following two extreme
-possibilities of equipping $X$ with a topology $\tau \subset P(X)$ in the sense of 
+possibilities of equipping $X$ with a topology $\tau \subset P(X)$ in the sense of
 def. \ref{TopologicalSpace}, and hence making it a [[topological space]]:
 
-1. $\tau \coloneq P(S)$ the set of _all_ open subsets; 
+1. $\tau \coloneq P(S)$ the set of _all_ open subsets;
 
    this is called the _[[discrete topology]]_ on $S$, it is the [[finer topology|finest topology]] (def. \ref{TopologyFinerCoarser}) on $X$,
-   
+
    we write $Disc(S)$ for the resulting topological space;
 
 1. $\tau \coloneqq \{ \emptyset, S \}$ the set contaning only the [[empty set|empty]] subset of $S$ and all of $S$ itself;
 
    this is called the _[[codiscrete topology]]_ on $S$, it is the [[coarser topology|coarsest topology]] (def. \ref{TopologyFinerCoarser}) on $X$
-   
+
    we write $CoDisc(S)$ for the resulting topological space.
-   
+
 The reason for this terminology is best seen when considering [[continuous functions]] into these (co-)disctete topological spaces.
 See example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces} below.
 
@@ -583,7 +596,7 @@ See example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces} below.
 #### Continuous functions
  {#ContinuousFunctions}
 
-With the concept of [[topological spaces]] (def. \ref{TopologicalSpace}) 
+With the concept of [[topological spaces]] (def. \ref{TopologicalSpace})
 it is now immediate to formally implement in abstract generality the
 statement of prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets}:
 
@@ -697,7 +710,7 @@ $$
 
 An [[isomorphism]] in the [[category]] [[Top]] of [[topological spaces]] with [[continuous functions]] between them is called a _[[homeomorphism]]_.
 
-Hence a _[[homeomoprhism]]_ is a [[continuous function]]
+Hence a _[[homeomorphism]]_ is a [[continuous function]]
 
 $$
   f \;\colon\; X \longrightarrow Y
@@ -901,7 +914,7 @@ All separation axioms are satisfied by [[metric spaces]], from whom the concept 
 
 Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}).
 
-For $x \neq y \in X$ any two points in the underlying set of $X$ which are not [[equality|equal]] as elements of this set, 
+For $x \neq y \in X$ any two points in the underlying set of $X$ which are not [[equality|equal]] as elements of this set,
 consider the following [[propositions]]:
 
 * **(T0)** _There exists a [[neighbourhood]] of one of the two points which does not contain the other point._
@@ -917,19 +930,25 @@ $$
   \,.
 $$
 
-The topological space $X$ is called a _$T_n$-topological space_ or just _$T_n$-space_, for short, 
+The topological space $X$ is called a _$T_n$-topological space_ or just _$T_n$-space_, for short,
 if it satisfies proposition $T_n$ above for
 all pairs of distinct points.
 
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/HausdorffProperty.png" width="190">
+</div>
+
 A $T_2$-topological space is also called a _[[Hausdorff topological space]]_.
+
+> graphics grabbed from [Vickers 89](#Vickers89)
 
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
-A [[topological space]] is $T_1$ (def. \ref{HausdorffTopologicalSpace}) precisely if 
-all its points are [[closed points]] (def. \ref{ClosedSubset}). 
+A [[topological space]] is $T_1$ (def. \ref{HausdorffTopologicalSpace}) precisely if
+all its points are [[closed points]] (def. \ref{ClosedSubset}).
 
 =--
 
@@ -945,10 +964,10 @@ $$
   \,.
 $$
 
-The [[reflector]] $H$ acts as follows: 
+The [[reflector]] $H$ acts as follows:
 
 For $(X,\tau) \in Top$ any topological space. Consider the [[equivalence relation]] on the underlying set $X$
-for which $x \sim y$ precisely if for every [[continuous function]] $f \colon X \to Y$ into a 
+for which $x \sim y$ precisely if for every [[continuous function]] $f \colon X \to Y$ into a
 Hausdorff space $Y$ we have $f(x) = f(y)$. Then the set of [[equivalence classes]]
 
 $$
@@ -2346,6 +2365,8 @@ Introductory textbooks to topology include
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000)
 
 * {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
+
+* {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989)
 
 See also
 
