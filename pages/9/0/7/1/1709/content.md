@@ -411,9 +411,9 @@ $$
 
 Twisted cohomology in terms of such morphisms $\tau$ is effectively considered in
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_ ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+* {#AndoBlumbergGepner10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in [[Jonathan Rosenberg]] et al. (eds.), _Superstrings, Geometry, Topology, and $C^\ast$-algebras_, volume 81 of _Proceedings of Symposia in Pure Mathematics_, 2009 ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
 
-and in unpublished work of [[Ulrich Bunke]] et al. For more on this see the discussion at [[(∞,1)-vector bundle]].
+and in unpublished work of [[Ulrich Bunke]] et al. For more on this see the discussion at _[[(∞,1)-vector bundle]]_.
 
 More generally one can hence twist with maps
 
