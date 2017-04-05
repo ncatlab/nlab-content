@@ -290,8 +290,7 @@ such that [[pre-images]] under $f$ of open subsets of $Y$ are open subsets of $X
 =--
 
 
-The simple definition of [[open subsets]] and the simple _principle of equivalence_
-gives topology its fundamental and universal flavor. The combinatorial nature of these definitions makes
+The simple definition of [[open subsets]] and the simple _principle of continuity_ gives topology its fundamental and universal flavor. The combinatorial nature of these definitions makes
 topology closely related to [[formal logic]] (for more on this see at _[[locale]]_).
 
 
