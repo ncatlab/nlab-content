@@ -23,7 +23,7 @@ The most famous twist is by a class in degree 3 [[ordinary cohomology]] (geometr
 ### By sections of associated $K U$-bundles
 
 
-Write $K U$ for the [[spectrum]] of complex [[topological K-theory]]. Its degree-0 space is, up to [[weak homotopy equivalence]],  the space 
+Write [[KU]] for the [[spectrum]] of complex [[topological K-theory]]. Its degree-0 space is, up to [[weak homotopy equivalence]],  the space 
 
 $$
   B U \times \mathbb{Z} = {\lim_\to}_n B U(n) \times \mathbb{Z}
@@ -36,14 +36,14 @@ $$
   \,.
 $$
 
-The ordinary [[topological K-theory]] of a [[topological space]] $X$ is
+The ordinary [[topological K-theory]] of a suitable [[topological space]] $X$ is given by the set of [[homotopy classes]] of maps from (the [[suspension spectrum]] of) $X$ to $KU$:
 
 $$
   K(X)_\bullet \simeq [X, (K U)_\bullet]
   \,.
 $$
 
-The [[projective unitary group]] $P U(\mathcal{H})$ (a [[topological group]]) acts canonically by [[automorphism]]s on $(K U)_0$. Therefore for $P \to X$ any $PU(\mathcal{H})$-[[principal bundle]], we can form the [[associated bundle]] $P \times_{P U(\mathcal{H})} (K U)_0$.
+The [[projective unitary group]] $P U(\mathcal{H})$ (a [[topological group]]) acts canonically by [[automorphism]]s on $(K U)_0$. (This follows by the identificatioon of $KU_0$ with the space of [[Fredholm operators]], see [below](#ByBundlesOfFredholmOperators)) Therefore for $P \to X$ any $PU(\mathcal{H})$-[[principal bundle]], we can form the [[associated bundle]] $P \times_{P U(\mathcal{H})} (K U)_0$.
 
 Since the [[homotopy type]] of $P U(\mathcal{H})$ is that of an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, there is precisely one isomorphism class of such bundles representing a class $\alpha \in H^3(X, \mathbb{Z})$.
 
@@ -67,7 +67,7 @@ $$
   \Gamma_X(P^\alpha \times_{P U(\mathcal{H})} B U)
   \,.
 $$
-
+a
 
 =--
 
@@ -338,9 +338,12 @@ Discussion in terms of [[Karoubi K-theory]]/[[Clifford module bundles]] is in
 
 * [[Max Karoubi]], _Clifford modules and twisted K-theory_, Proceedings of the International Conference on Clifford algebras (ICCA7) ([arXiv:0801.2794](http://arxiv.org/abs/0801.2794))
 
-The perspective of twisted K-theory by sections of a $K U$-bundle of spectra is discussed for instance in section 22 of 
+The perspective of twisted K-theory by sections of a $K U$-bundle of spectra ([[parameterized spectra]]) is discussed in
 
-* {#MaySigurdsson} [[Peter May|May]], Sigurdsson, _Parametrized homotopy theory_ ([pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf)) AMS Lecture notes 132
+* {#MaySigurdsson} [[Peter May|May]], Sigurdsson, section 22 of _Parametrized homotopy theory_ ([pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf)) AMS Lecture notes 132
+
+* {#AndoBlumbergGepner10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], section 7 of _Twists of K-theory and TMF_, in [[Jonathan Rosenberg]] et al. (eds.), _Superstrings, Geometry, Topology, and $C^\ast$-algebras_, volume 81 of _Proceedings of Symposia in Pure Mathematics_, 2009 ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+
  
 
 See the references at _[[(infinity,1)-vector bundle]]_ for more on this.
@@ -357,16 +360,16 @@ and for generalization to [[groupoid K-theory]] also ([FHT 07, around p. 26](#FH
 
 (which establishes the relation to [[KK-theory]]).
 
-* [[Max Karoubi]], _Twisted bundles and twisted K-theory_, [arxiv/1012.2512](http://arxiv.org/abs/1012.2512) 
- {#Karoubi}
+* {#Karoubi} [[Max Karoubi]], _Twisted bundles and twisted K-theory_, [arxiv/1012.2512](http://arxiv.org/abs/1012.2512) 
+ 
 
 * {#Pennig} [[Ulrich Pennig]], _Twisted K-theory with coefficients in $C^\ast$-algebras_, ([arXiv:1103.4096](http://arxiv.org/abs/1103.4096))
  
 
 Discussion in terms of [[vectorial bundles]] is in
 
-* [[Kiyonori Gomi]], _Twisted K-theory and finite-dimensional approximation_ ([arXiv](http://arxiv.org/abs/0803.2327))
- {#Gomi}
+* {#Gomi} [[Kiyonori Gomi]], _Twisted K-theory and finite-dimensional approximation_ ([arXiv](http://arxiv.org/abs/0803.2327))
+ 
 
 * {#GomiTerashima} [[Kiyonori Gomi]] und Yuji Terashima, _Chern-Weil Construction for Twisted K-Theory_ Communication ins Mathematical Physics, Volume 299, Number 1, 225-254, 
  
@@ -378,5 +381,13 @@ The twisted version of [[differential K-theory]] is discussed in
 Twists of $K \mathbb{R}$-theory relevant for [[orientifold]]s are discussed in 
 
 * El-ka&#239;oum M. Moutuou, _Twistings of KR for Real groupoids_ ([arXiv:1110.6836](http://arxiv.org/abs/1110.6836))
+
+Discussion of twisted [[K-homology]]:
+
+* [[Bai-Ling Wang]], _Gemometric cycles, index theory and twisted K-homology_ ([arXiv:0710.1625](https://arxiv.org/abs/0710.1625))
+
+* [[Eckhard Meinrenken]], _Twisted K-homology and group-valued moment maps_,  International Mathematics Research Notices 2012 (20) (2012), 4563--4618 ([arXiv:1008.1261](https://arxiv.org/abs/1008.1261))
+
+* Bei Liu, _Twisted K-homology,Geometric cycles and T-duality_ ([arXiv:1411.1575](https://arxiv.org/abs/1411.1575))
 
 [[!redirects twisted K-theories]]
