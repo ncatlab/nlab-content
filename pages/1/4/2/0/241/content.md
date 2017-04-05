@@ -197,6 +197,8 @@ Street's characterization of Grothendieck toposes is given in
 [[!redirects Giraud's axioms]]
 [[!redirects Giraud\'s axiom]]
 [[!redirects Giraud\'s axioms]]
+[[!redirects Giraud/'s axiom]]
+[[!redirects Giraud/'s axioms]]
 [[!redirects Giraud's axiom]]
 [[!redirects Giraud's axioms]]
 
