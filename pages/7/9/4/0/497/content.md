@@ -58,6 +58,8 @@ In particular, this shows how the [[double negation]] [[modality]] can be regard
 
 * [[law of double negation]]
 
+* [[proof by contradiction]]
+
 ## References
 
 ### General
@@ -65,7 +67,7 @@ In particular, this shows how the [[double negation]] [[modality]] can be regard
 ### In homotopy type theory
  {#ReferencesInHomotopyTypeTheory}
 
-In [[homotopy type theory]]
+In [[homotopy type theory]]:
 
 * [[Univalent Foundations Project]], section 3.5 _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
