@@ -47,7 +47,7 @@ If the topology on $K$ is given by an [[absolute value]] $|{-}|$, then we can go
 If
 
 1. ${\|x + y\|} \leq {\|x\|} + {\|y\|}$ for each vector $x$ and vector $y$ and
-2. ${\|a x\|} \leq {|a|} {\|x\|}$ for each scalar $a$ and vector $x$,
+2. ${\|a x\|} = {|a|} {\|x\|}$ for each scalar $a$ and vector $x$,
 
 then $\|{-}\|$ is a __[[seminorm]]__.
 =--
@@ -93,7 +93,7 @@ If
 then $(V,{\|{-}\|})$ is a __[[Fréchet space]]__.
 =--
 
-Finally, $F Sp$ is the [[category]] whose [[objects]] are F-spaces and whose morphisms are [[short linear maps]]; that said, often people really study the [[essential image]] of that category within the category of [[topological vector spaces]], or [[equivalence of categories|equivalently]] the category whose objects are F-spaces and whose morphisms are [[continuous map|continuous]] linear maps.
+Finally, $F Sp$ is the [[category]] whose [[objects]] are F-spaces and whose morphisms are [[short linear maps]]; that said, often people really study the [[essential image]] of that category within the category of [[topological vector spaces]], or [[equivalence of categories|equivalently]] the category whose objects are F-spaces and whose morphisms are [[continuous map|continuous]] linear maps.  (This is especially so with Fr&#233;chet spaces, which have a common alternative definition that makes no reference to a canonical metric.)
 
 
 ## Examples
