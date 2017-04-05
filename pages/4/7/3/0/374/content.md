@@ -186,6 +186,10 @@ The [[nLab:Cartesian space]] $\mathbb{R}^n$ with its standard notion of open sub
 
 ## Related concepts
 
+* [[separation axioms]]
+
+* [[finer topology]], [[coarser topology]]
+
 * [[first countable topological space]], [[second countable topological space]], [[separable topological space]], [[Hausdorff topological space]], [[topological manifold]]
 
 * [[locale]], [[topos]]
