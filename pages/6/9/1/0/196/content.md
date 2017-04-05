@@ -57,10 +57,39 @@ If we regard sets as [[discrete categories]], then a **function** is a [[functor
 
 See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow.net/questions/63265/what-are-maps-between-proper-classes)
 
+## Examples
 
+* [[empty function]]
+
+* [[constant function]]
+
+Many functions that carry special names map some [[ring]] or [[field]] like the [[real numbers]] or [[complex numbers]] to itself:
+
+* [[polynomial]]
+
+* [[exponential]]
+
+* [[step function]]
+
+* [[trigonometric function]]
+
+* [[hypergeometric function]]
+
+* [[special function]]
+
+* ...
+
+Special properties these may have:
+
+* [[continuous function]], [[analytic function]], [[smooth function]]
+
+...
 ## Related concepts
 
 * [[map]]
+
+* [[partial function]], [[partial recursive function]]
+
 
 * [[function set]]
 
@@ -70,11 +99,7 @@ See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow
 
 * [[fixed point]]
 
-* [[constant function]]
-
-* [[empty function]]
-
-* [[partial recursive function]]
+* [[motivic function]]
 
 * [[functor]]
 
@@ -87,8 +112,6 @@ See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow
 * [[(∞,1)-functor]]
 
 * [[(∞,n)-functor]]
-
-* [[motivic function]]
 
 
 [[!redirects function]]
