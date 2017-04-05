@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _filter space_ is a generalisation of a [[topological space]] based on the concept of [[convergence]] of [[filters]] (or [[nets]]) as fundamental.  The [[category]] of filter spaces is a [[quasitopos]] and may be thought of as a [[nice category of spaces]] that includes [[Top]] as a [[full subcategory]]. Filter spaces include [[convergence spaces]] as a full sub-quasitopos and [[Choquet spaces]] and [[limit spaces]] as full sub-[[cartesian closed category|ccc]]s.
+A _filter space_ is a generalisation of a [[topological space]] based on the concept of [[convergence]] of [[filters]] (or [[nets]]) as fundamental.  The [[category]] of filter spaces is a [[quasitopos]] and may be thought of as a [[nice category of spaces]] that includes [[Top]] as a [[full subcategory]]. Filter spaces include [[convergence spaces]], [[Choquet spaces]], and [[Kuratowski limit spaces]] as [[full subcategory|full sub]]-[[quasitoposes]].
 
 
 ## Definitions
