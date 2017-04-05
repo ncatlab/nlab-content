@@ -52,12 +52,18 @@ These properties of subsequential spaces should be compared with analogous ones 
 * Matias Menni and Alex Simpson, _Topological and Limit-space Subcategories of
 Countably-based Equilogical Spaces_, 2001. [PDF](http://homepages.inf.ed.ac.uk/als/Research/Sources/subcats.pdf)
 
-[[!redirects L-space]]
-[[!redirects L-spaces]]
-[[!redirects limit space]]
-[[!redirects limit spaces]]
+
 [[!redirects subsequential space]]
 [[!redirects subsequential spaces]]
+
 [[!redirects sequential pseudotopological space]]
 [[!redirects sequential pseudotopological spaces]]
 [[!redirects sequential convergence space]]
+[[!redirects sequential convergence spaces]]
+
+[[!redirects Kuratowski limit space]]
+[[!redirects Kuratowski limit spaces]]
+[[!redirects limit space]]
+[[!redirects limit spaces]]
+[[!redirects L-space]]
+[[!redirects L-spaces]]
