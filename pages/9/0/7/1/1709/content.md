@@ -632,8 +632,12 @@ Details on Larmore's work on twisted cohomology are at
 
 The abstract discussion of twisted nonabelian cohomology in $\infty$-toposes is in 
 
-* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]],  _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
-  {#NikolausSchreiberStevenson12}
+* {#NikolausSchreiberStevenson12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]],  _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
+  
+
+Twisted [[generalized (Eilenberg-Steenrod) cohomology]] theory is discussed in
+
+* [[Chris Douglas]], _Twisted stable homotopy theory_ PhD thesis 2005 ([pdf](https://dspace.mit.edu/bitstream/handle/1721.1/33095/62174705-MIT.pdf?sequence=2))
 
 The abstract discussion of twisted ES-type cohomology in the [[stable (infinity,1)-category of spectra]] is in
 
