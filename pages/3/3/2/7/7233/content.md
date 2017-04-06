@@ -414,6 +414,8 @@ Surveys include
 
 * [[Spiro Karigiannis]], _$G_2$-manifolds -- Exceptional structures in geometry arising from exceptional algebra_ ([pdf](http://www.math.uwaterloo.ca/~karigian/talks/waterloo.pdf)) 
 
+* {#Karigiannis14} [[Spiro Karigiannis]], _$G_2$-Conifolds: A survey_, 2014 ([pdf](http://www.math.uni-hamburg.de/sgstructures/hamburg-talk-2.pdf))
+
 * {#Hitchin} [[Nigel Hitchin]], _Special holonomy and beyond_, Clay Mathematics Proceedings ([pdf](https://people.maths.ox.ac.uk/hitchin/hitchinlist/clay.pdf))
 
 
@@ -449,7 +451,7 @@ Discussion of the [[moduli space]] of $G_2$-structures includes
 
 * {#GrigorianYau08} [[Sergey Grigorian]], [[Shing-Tung Yau]], _Local geometry of the $G_2$ moduli space_, Commun.Math.Phys.287:459-488,2009 ([arXiv:0802.0723](http://arxiv.org/abs/0802.0723))
 
-* [[Spiro Karigiannis]], [[Naichung Conan Leung]]_, _Hodge Theory for G2-manifolds: Intermediate Jacobians and Abel-Jacobi maps_, Proceedings of the London Mathematical Society (3) 99, 297-325 (2009) ([arXiv:0709.2987](http://arxiv.org/abs/0709.2987) [talk slides pdf](http://www.math.uwaterloo.ca/~karigian/talks/g2modulispace.pdf)
+* [[Spiro Karigiannis]], [[Naichung Conan Leung]], _Hodge Theory for G2-manifolds: Intermediate Jacobians and Abel-Jacobi maps_, Proceedings of the London Mathematical Society (3) 99, 297-325 (2009) ([arXiv:0709.2987](http://arxiv.org/abs/0709.2987) [talk slides pdf](http://www.math.uwaterloo.ca/~karigian/talks/g2modulispace.pdf)
 
 
 ### Variants and generalizations
