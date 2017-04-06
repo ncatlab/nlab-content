@@ -230,14 +230,31 @@ Discussion of abelian higher gauge theory in terms of [[differential cohomology]
 * Tohru Eguchi, Peter Gilkey, Andrew Hanson, _Gravitation, gauge theories and differential geometry_, Physics Reports __66__:6 (1980) 213&#8212;393 [pdf](http://empg.maths.ed.ac.uk/Activities/GT/EGH.pdf)
 
 ### In AQFT
+ {#ReferencesInAQFT}
 
-Discussion in the context of [[AQFT]] (or at least with aiming for such a formualtion) includes the following
+Standard discussion of gauge theory in the context of [[algebraic quantum field theory]] ([[AQFT]]) includes
 
 * [[Franco Strocchi]], section 4 of _Relativistic Quantum Mechanics and Field Theory_, Found.Phys. 34 (2004) 501-527 ([arXiv:hep-th/0401143](http://arxiv.org/abs/hep-th/0401143))
 
-and more specifically on the [problem of locality](field+%28physics%29#IdeaLocality).
+For [[AQFT on curved spacetimes]] the axioms of AQFT need to be promoted to a context of [[higher geometry]] unless [locality](field+%28physics%29#IdeaLocality) is broken, see the expositions at 
 
-* {#BDS} Marco Benini, [[Claudio Dappiaggi]], Alexander Schenkel, _Quantized Abelian principal connections on Lorentzian manifolds_, Communications in Mathematical Physics 2013 ([arXiv:1303.2515](http://arxiv.org/abs/1303.2515))
+* _[[schreiber:Higher field bundles for gauge fields]]_
+
+* {#Schenkel14} [[Alexander Schenkel]], _On the problem of gauge theories
+in locally covariant QFT_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([web](field+bundle#Schenkel14)) 
+
+This was established in
+
+* {#BDS} Marco Benini, [[Claudio Dappiaggi]], [[Alexander Schenkel]], _Quantized Abelian principal connections on Lorentzian manifolds_, Communications in Mathematical Physics 2013 ([arXiv:1303.2515](http://arxiv.org/abs/1303.2515))
+
+and the program of improving the axioms of [[AQFT on curved spacetimes]] to the [[stack|stacky]] context in order to accomodate gauge theory includes the following articles:
+
+* {#BeniniSchenkelSzabo15} [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Homotopy colimits and global observables in Abelian gauge theory_ ([arXiv:1503.08839](http://arxiv.org/abs/1503.08839))
+
+* [[Marco Benini]], [[Alexander Schenkel]], _Quantum field theories on categories fibered in groupoids_ ([arXiv:1610.06071](https://arxiv.org/abs/1610.06071))
+
+* [[Marco Benini]], [[Alexander Schenkel]], [[Urs Schreiber]], _The stack of Yang-Mills fields on Lorentzian manifolds_ ([arXiv:1704.01378](https://arxiv.org/abs/1704.01378))
+
  
 
 ### Dualities
