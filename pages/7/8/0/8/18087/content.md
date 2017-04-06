@@ -10,7 +10,7 @@ An F-norm is a non-homogeneous variant of a [[norm]]: a translation-invariant [[
 
 ## Definitions
 
-Let $K$ be a [[topological field]] (typically the [[real numbers]] or the [[complex numbers]], but conceivably only a [[topological ring]], or at least a [[commutative ring|commutative]] one); we will call the elements of $K$ ''scalars''.  Let $V$ be a [[vector space]] (or [[module over a ring|module]]) over $K$; we will call the elements of $V$ ''vectors''.  Let $\|{-}\|$ be a [[function]] from (the underlying set of) $V$ to the set of [[real numbers]].
+Let $K$ be a [[topological field]] (typically the [[real numbers]] or the [[complex numbers]], but conceivably only a [[topological ring]], or at least a [[commutative ring|commutative]] one); we will call the elements of $K$ _scalars_.  Let $V$ be a [[vector space]] (or [[module over a ring|module]]) over $K$; we will call the elements of $V$ _vectors_.  Let $\|{-}\|$ be a [[function]] from (the underlying set of) $V$ to the set of [[real numbers]].
 
 +-- {: .num_defn #Gseminorm}
 ###### Definition
