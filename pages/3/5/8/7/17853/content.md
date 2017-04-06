@@ -23,7 +23,7 @@ When the uniformity of $X$ is defined in terms of uniform covers, then the equiv
 
 With [[excluded middle]], we can take $C'$ to be $C$.
 
-Note that uniform regularity is not literally a "uniformization" of [[regular space|regularity]] but rather of [[locally decomposable space|local decomposability]]; so it could also be called **uniform local decomposability**.  In the case of uniform spaces, it implies regularity (see below), so we generally call it uniform regularity; however, for [[quasi-uniform spaces]] we should probably speak instead about uniform local decomposability.
+Note that uniform regularity is not literally a "uniformization" of [[regular space|regularity]] but rather of [[locally decomposable space|local decomposability]]; so it could also be called **uniform local decomposability**.  In the case of uniform spaces, it implies regularity (see below), so we generally call it uniform regularity; however, for [[quasi-uniform spaces]] (and [[uniform convergence spaces]]) it would be more proper to say 'uniformly locally decomposable' instead.
 
 
 ## Examples
