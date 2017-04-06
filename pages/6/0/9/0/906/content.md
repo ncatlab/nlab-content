@@ -45,6 +45,17 @@ Equivalently, a topological space is sequential iff it is a [[quotient space]] (
 * The category of sequential spaces is [[cartesian closed category|cartesian closed]]. See also [[convenient category of topological spaces]]. 
 
 
+## In constructive mathematics
+
+Everything above assumes [[excluded middle]] (and probably at least [[countable choice]]).  Without that, it\'s hard to prove the existence of any nontrivial sequential spaces.
+
+For example, to prove that the [[real line]] is sequential as a topological space, we must find, given a set $A$ and a point $x$ such that every sequence converging to $x$ is eventually in $A$, a [[positive real number]] $\delta$ such that ${]x - \delta, x + \delta[} \subseteq A$, and it\'s not clear how to construct that number from the data at hand.  (One might consider various specific sequences that converge to $x$, such as $(x + 1/n)_n$ and $(x - 1/n)_n$, and use them to find upper bounds on $\delta$; but no finite set of sequences will give an entire interval around $x$, and proving that an infinite set of sequences that does cover an entire interval has a uniform positive upper bound on $\delta$ is very tricky.)
+
+The usual proof that the real line (or any first-countable topological space) is sequential uses [[excluded middle]] and [[countable choice]]:  Supposing that $A$ is not open, consider $x \in A$ such that $x \notin Int(A)$, pick for each $\delta = 1/n$ (or for each of the countably many basic neighbourhoods $U_n$ of $x$ in a general first-countable space) a point $y_n$ such that $d(x,y_n) \lt 1/n$ (or such that $y_n \in U_n$) but $y_n \notin A$ (which must exist since none of these balls/neighbourhoods are contained in $A$), note that $\lim_n y_n = x$, and get a contradiction.
+
+For this reason, constructive analysis often requires the use of general [[nets]] (or [[filters]]) in situations where classical analysis can get by with sequences.  (It is trivially true, in any topological space, that a set $A$ is open if every *net* that converges to an element $x$ of $A$ belongs eventually to $A$, or equivalently that $A$ belongs to any filter that converges to $x$; you just use the [[neighbourhood filter]] of $x$.)
+
+
 ## References 
 
 * R. Engelking, _General topology_
