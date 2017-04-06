@@ -22,9 +22,9 @@
 
 [Brown-Comenetz 76](#BrownComenetz76) introduced the [[spectrum]] $I_{\mathbb{Q}/\mathbb{Z}}$ which [[Brown representability theorem|represents]] the [[cohomology theory]] that assigns to a [[spectrum]] $X$ the [[Pontrjagin duals]] $Hom_{\mathbb{Z}}(\pi_{- \ast} X, \mathbb{Q}/\mathbb{Z})$ of its [[homotopy groups]].
 
-If $X$ is a spectrum whose homotopy groups are finite, then the natural "double-duality" map $X \to I_{\mathbb{Q}/\mathbb{Z}} I_{\mathbb{Q}/\mathbb{Z}} X$ (the [[unit of a monad|unit]] of the corresponding [[continuation monad]]) is an [[equivalence in an (infinity,1)-category|equivalence]] (see at _[[dualizing object in a closed category]]_).
+If $X$ is a spectrum whose [[stable homotopy groups]] are [[finite groups]], then the natural "double-duality" map $X \to I_{\mathbb{Q}/\mathbb{Z}} I_{\mathbb{Q}/\mathbb{Z}} X$ (the [[unit of a monad|unit]] of the corresponding [[continuation monad]]) is an [[equivalence in an (infinity,1)-category|equivalence]] (see at _[[dualizing object in a closed category]]_).
 
-The Brown-Comentz spectrum $I_{\mathbb{Q}/\mathbb{Z}}$ has an "integral" refinement which is the [[Anderson spectrum]] $I_{\mathbb{Z}}$ inducing [[Anderson duality]].
+The Brown-Comenetz spectrum $I_{\mathbb{Q}/\mathbb{Z}}$ has an "integral" refinement which is the [[Anderson spectrum]] $I_{\mathbb{Z}}$ inducing [[Anderson duality]].
 
 ## Properties
 
@@ -43,6 +43,6 @@ The Brown-Comentz spectrum $I_{\mathbb{Q}/\mathbb{Z}}$ has an "integral" refinem
 * E. H. Brown, Jr. and M. Comenetz, _Pontrjagin duality for generalized homology and cohomology theories_, Amer. J. Math. 98 (1976), no. 1, 1&#8211;27.
  {#BrownComenetz76}
 
-* [[Vesna Stojanoska]], Duality for Topological Modular Forms ([arXiv:1105.3968](http://arxiv.org/abs/1105.3968))
+* [[Vesna Stojanoska]], _Duality for Topological Modular Forms_ ([arXiv:1105.3968](http://arxiv.org/abs/1105.3968))
 
 
