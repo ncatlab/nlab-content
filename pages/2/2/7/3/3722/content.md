@@ -162,6 +162,8 @@ The other direction is harder.
 
 * [[closed point]]
 
+* [[irreducible closed subspace]]
+
 * [[open subset]]
 
 * [[clopen subset]]
