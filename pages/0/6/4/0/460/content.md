@@ -78,10 +78,8 @@ The following non-example shows that sobriety is not a hereditary separation pro
 
 ## References
 
-For instance around definition IX.3.2 of
+* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], around definition IX.3.2 in _[[Sheaves in Geometry and Logic]]_
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
-{#MacLaneMoerdijk}
 
 * Sober spaces in the [$\pi$-base](http://topology.jdabbs.com/properties/73).
 
