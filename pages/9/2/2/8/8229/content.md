@@ -31,3 +31,5 @@ The study of the [[topology]] of [[manifolds]] of low [[dimension]], notably of 
 ## References
 
 * Wikipedia, _[Low-dimensional topology](http://en.wikipedia.org/wiki/Low-dimensional_topology)_
+
+[[!redirects low dimensional topology]]
