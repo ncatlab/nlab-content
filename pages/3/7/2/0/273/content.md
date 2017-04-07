@@ -39,7 +39,7 @@ Parallel to this development of the notion of [[descent|descent and codescent]] 
 
 * Kenneth S. Brown, _Abstract Homotopy Theory and Generalized Sheaf Cohomology_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Abstract%20homotopy%20theory%20and%20generalized%20sheaf%20cohomology.pdf))
 
-Both approaches are different, but closely related. Their relation is via the notion of [[descent|codescent]].
+The two approaches are different, but closely related. Their relation is via the notion of [[descent|codescent]].
 
 There is a chain of inclusions
 
