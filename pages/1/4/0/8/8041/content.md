@@ -1,10 +1,27 @@
 
-Given [[sets]] $A$ and $B$ and a [[function]] $f\colon A \to B$, the __inverse function__ of $f$ (if it exists) if the function $f^{-1}\colon B \to A$ such that both [[composite function]]s $f \circ f^{-1}$ and $f^{-1} \circ f$ are [[identity functions]].  Note that $f$ has an inverse function if and only if $f$ is a [[bijection]], in which case this inverse function is unique.
+#Contents#
+* table of contents
+{:toc}
 
-Inverse functions are [[inverse morphisms]] in the category [[Set]] of sets.
+
+## Definition
+
+Given [[sets]] $A$ and $B$ and a [[function]] $f\colon A \to B$, the __inverse function__ of $f$ (if it exists) if the function $f^{-1}\colon B \to A$ such that both [[composition|composite functions]] $f \circ f^{-1}$ and $f^{-1} \circ f$ are [[identity functions]].  Note that $f$ has an inverse function if and only if $f$ is a [[bijection]], in which case this inverse function is unique.
+
+Inverse functions are [[inverse morphisms]] in the [[category]] [[Set]] of sets.
 
 More generally, in any [[concrete category]], the inverse of any [[isomorphism]] is given by the inverse of the corresponding function between [[underlying sets]].
 
+
+## Related concepts
+
+* [[inverse]], [[inverse morphisms]]
+
+* [[isomorphism]]
+
+Not really related
+
+* [[inverse image]]
 
 [[!redirects inverse function]]
 [[!redirects inverse functions]]
