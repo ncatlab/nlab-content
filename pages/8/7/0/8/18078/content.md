@@ -1,4 +1,23 @@
 
+ $                                     
+  \array{                              
+    && T_2 = \text{Hausdorff}
+    \\
+    & \swArrow && \seArrow
+    \\
+    T_1 && && \text{sober}
+    \\
+    & \seArrow && \swArrow
+    \\
+    && T_0 = \text{Kolmogorov}
+  }
+ $
+
+| [[separation axioms]]                 |
+|---------------------------------------|
+| $\array{&& T_2 = \text{Hausdorff} \\ & \swArrow && \seArrow \\ T_1 && && \text{sober} \\ & \seArrow && \swArrow \\ && T_0 = \text{Kolmogorov} } $ |
+
+
 [[ClosedAndOpenSubsets.png:file]]
 
 <img src="https://ncatlab.org/nlab/files/ClosedAndOpenSubsets.png" width="300">
