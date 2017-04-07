@@ -181,6 +181,8 @@ If the locale product $X\times X$ does not coincide with the spatial product, th
 
 ## Related concepts
 
+* [[non-Hausdorff topological space]]
+
 * [[locally Hausdorff topological space]]
 
 
