@@ -172,14 +172,18 @@ Some applications to [[analysis]] require more general [[convergence spaces]] or
 
 * [[Cantor space]]
 
-* [[long line]]
+* [[long line]], [[line with two origins]]
+
+* [[projective space]], [[complex projective space]]
+
+* [[classifying space]]
 
 ...
 
 +-- {: .num_example}
 ###### Example
 
-The [[nLab:Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets [[nLab:topological base|generated from]]: [[nLab:unions]] of [[open balls]] $D^n \subset \mathbb{R}^n$.
+The [[Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets [[topological base|generated from]]: [[unions]] of [[open balls]] $D^n \subset \mathbb{R}^n$.
 
 =--
 
