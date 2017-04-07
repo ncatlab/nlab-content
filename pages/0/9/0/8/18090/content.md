@@ -16,7 +16,7 @@
 ***
 
 This page is going to contain a detailed introduction to basic [[topology]] ([[point-set topology]])
-starting from scratch with motivation from [[analysis]] 
+starting from scratch with motivation from [[analysis]]
 and ending with the first elementary application of [[homotopy theory]]: [[covering spaces]].
 
 > Under construction.
@@ -40,49 +40,51 @@ and renders it more foundational, generalizing the concept of [[metric spaces]] 
 
 Hence [[topology]] is the study of the [[category]] whose [[objects]] are [[topological spaces]], and whose
 [[morphisms]] are [[continuous functions]] (see also remark \ref{TopCategory} below).
-This category is much more flexible than that of [[metric spaces]], for example it admits to construct
+This category is much more flexible than that of [[metric spaces]], for example it admits the construction of 
 arbitrary [[quotients]] and [[intersections]] of spaces.
-Topology underlies or informs many and diverse areas of mathematics, such as
+Accordingly, topology underlies or informs many and diverse areas of mathematics, such as
 [[functional analysis]], [[operator algebra]], [[manifold]]/[[scheme]] theory, hence [[algebraic geometry]] and [[differential geometry]],
 and the study of [[topological groups]], [[topological vector spaces]], [[local  rings]], etc.. Not the least, it gives rise to
 the field of [[homotopy theory]], where one considers also continuous deformations of continuous functions themselves ("[[homotopies]]").
-Topology has itself many branches,
+Topology itself has many branches,
 such as _[[low-dimensional topology]]_ or _[[topological domain theory]]_.
 
 A popular imagery for the concept of a [[continuous function]] is provided by deformations of [[elasticity|elastic]]
-physical bodies, which may be deformed by stretching them, but without tearing them. For example there is
-a continous function from the [[torus]] to the surface of a coffee mug, which maps half of the torus to the
+physical bodies, which may be deformed by streetching them without tearing. The canonical illustration is
+a continous [[bijection|bijective]] function from the [[torus]] to the surface of a coffee mug, which maps half of the torus to the
 handle of the coffee mug, and continuously deforms parts of the other half in order to form the actual cup.
-Moreover, the [[inverse function]] to this function is also continuous. This means that in the [[category]]
-of [[topological spaces]] the torus and the coffee mug, both regarded as [[topological spaces]], are "[[isomorphism|the same]]"
+Since the [[inverse function]] to this function is itself continuous 
+the torus and the coffee mug, both regarded as [[topological spaces]], are "[[isomorphism|the same]]"
 for all practical purposes, one says they are _[[homeomorphic]]_.
 
 On the other hand, there is _no_ [[homeomorphism]] from the [[torus]] to the [[sphere]], signifying that these
 represent two topologically distinct spaces. Parts of topology is concerned with studying [[homeomorphism]]-[[invariants]]
 of topological spaces which allow to detect by means of [[algebra|algebraic]] manipulations
-whether two topological spaces may are homeomorphic
+whether two topological spaces are homeomorphic
 (or more generally [[homotopy equivalence|homotopy equivalent]]). This is called _[[algebraic topology]]_.
 A basic algebraic invariant is the [[fundamental group]] of a topological space (discussed [below](#FundamentalGroup)),
-which measures how many ways there are two wind loops inside a topological space.
+which measures how many ways there are to wind loops inside a topological space.
 
 Beware that the popular imagery of "[[rubber-sheet geometry]]" only captures part of the full scope of topology,
 in that it invokes spaces that _locally_ still look like [[metric spaces]].
 But the concept of topological spaces is a good bit more general.
 Notably [[finite topological spaces]] are either [[discrete topological space|discrete]] or very much unlike
-[[metric spaces]], they play a role in [[categorical logic]]. Also [[geometry]] exotic topological
+[[metric spaces]], they play a role in [[categorical logic]]. Also in [[geometry]] exotic topological
 spaces frequently arise when  forming non-free [[quotients]].
-In order to gauge just how many of such "exotic" examples of topological  spaces beyond [[metric spaces]] one wishes
+In order to gauge just how many of such "exotic" examples of topological  spaces beyond locally [[metric spaces]] one wishes
 to admit in the theory,
 extra "[[separation axioms]]" are imposed on topological spaces (see [below](#SeparationAxiom)), and the flavour of topology as a field
-depends on this choice, to some extent.
+depends on this choice.
 
-Among the separation axiom, the axiom of [[sober topological space|soberity]] stands out, on the one
+Among the separation axiom, the axiom of [[sober topological space|soberity]] (see [below](#SoberSpaces)) stands out, on the one
 hand because this is the weakest axiom that is still naturally satisfied in applications to [[algebraic geometry]] ([[schemes are sober]])
 and [[computer science]] ([Vickers 89](#Vickers89)) and on the other hand because it fully realizes the strong roots that
 topology has in [[formal logic]]: [[sober topological spaces]] are entirely characterized by the inclusion relations
 (logical [[implications]]) among their [[open subsets]] ([[propositions]]). This naturally leads to a natural
-and very fruitful generalization of [[topology]] to more general "purely logic-determined spaces", called _[[locales]]_,
-_[[toposes]]_ and _[[higher topos theory|higher toposes]]_.
+and very fruitful generalization of [[topology]] to more general "purely logic-determined spaces", called _[[locales]]_
+and in yet more generality _[[toposes]]_ and _[[higher topos theory|higher toposes]]_. While the latter are beyond 
+the scope of this introduction, their rich theory and relation to the [[foundations]] of mathematics and geometry
+provides an outlook on the relevance of the basic ideas of [[topology]].
 
 
 $\,$
@@ -963,10 +965,10 @@ In this fashion one may impose a hierarchy of stronger axioms. For example deman
 
 However, there are respectable areas of mathematics that involve topological spaces where the Hausdorff axiom fails, but
 a weaker axiom is still satisfied, called [[sober topological spaces|soberity]].
-This is the case notably in [[algebraic geometry]] ([[schemes are sober]]) and in [[computer science]] ([Vickers 89](#Vickers89)). 
+This is the case notably in [[algebraic geometry]] ([[schemes are sober]]) and in [[computer science]] ([Vickers 89](#Vickers89)).
 These [[sober topological spaces]] are singled out by the fact that they are entirely characterized by their
 [[partially ordered sets]] [[frame of opens|of open subsets]] and may hence be understood independently from their
-underlying sets of points. 
+underlying sets of points.
 
 | [[separation axioms]]                 |
 |---------------------------------------|
@@ -1047,7 +1049,8 @@ equipped with the [[quotient topology]] (example \ref{QuotientTopology}) is the 
 
 =--
 
-
+#### Sober topological spaces
+ {#SoberSpaces}
 
 
 ### Compactness
