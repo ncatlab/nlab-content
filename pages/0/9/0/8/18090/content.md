@@ -16,7 +16,8 @@
 ***
 
 This page is going to contain a detailed introduction to basic [[topology]] ([[point-set topology]])
-starting from scratch and ending with the first elementary application of [[homotopy theory]]: [[covering spaces]].
+starting from scratch with motivation from [[analysis]] 
+and ending with the first elementary application of [[homotopy theory]]: [[covering spaces]].
 
 > Under construction.
 
@@ -26,7 +27,65 @@ For introduction to genuine _[[homotopy theory]]_ see at
 
 ***
 
-_[[topology|Topology]]_
+$\,$
+
+The idea of _[[topology]]_ is to study "[[spaces]]" with "[[continuous functions]]" between them.
+Specifically one consider [[functions]] between [[sets]] (whence "[[point-set topology]]", see [below](#PointSetTopology))
+such that there is a concept for what it means that these functions depend
+continuously on their arguments, in that that their values do not "jump".
+Such a concept of [[continuous function|continuity]] is familiar from [[analysis]] on [[metric spaces]],
+(recalled [below](#Continuity)) but the definition in topology generalizes this analytic concept
+and renders it more foundational, generalizing the concept of [[metric spaces]] to that of _[[topological spaces]]_.
+(def. \ref{TopologicalSpace} below).
+
+Hence [[topology]] is the study of the [[category]] whose [[objects]] are [[topological spaces]], and whose
+[[morphisms]] are [[continuous functions]] (see also remark \ref{TopCategory} below).
+This category is much more flexible than that of [[metric spaces]], for example it admits to construct
+arbitrary [[quotients]] and [[intersections]] of spaces.
+Topology underlies or informs many and diverse areas of mathematics, such as
+[[functional analysis]], [[operator algebra]], [[manifold]]/[[scheme]] theory, hence [[algebraic geometry]] and [[differential geometry]],
+and the study of [[topological groups]], [[topological vector spaces]], [[local  rings]], etc.. Not the least, it gives rise to
+the field of [[homotopy theory]], where one considers also continuous deformations of continuous functions themselves ("[[homotopies]]").
+Topology has itself many branches,
+such as _[[low-dimensional topology]]_ or _[[topological domain theory]]_.
+
+A popular imagery for the concept of a [[continuous function]] is provided by deformations of [[elasticity|elastic]]
+physical bodies, which may be deformed by stretching them, but without tearing them. For example there is
+a continous function from the [[torus]] to the surface of a coffee mug, which maps half of the torus to the
+handle of the coffee mug, and continuously deforms parts of the other half in order to form the actual cup.
+Moreover, the [[inverse function]] to this function is also continuous. This means that in the [[category]]
+of [[topological spaces]] the torus and the coffee mug, both regarded as [[topological spaces]], are "[[isomorphism|the same]]"
+for all practical purposes, one says they are _[[homeomorphic]]_.
+
+On the other hand, there is _no_ [[homeomorphism]] from the [[torus]] to the [[sphere]], signifying that these
+represent two topologically distinct spaces. Parts of topology is concerned with studying [[homeomorphism]]-[[invariants]]
+of topological spaces which allow to detect by means of [[algebra|algebraic]] manipulations
+whether two topological spaces may are homeomorphic
+(or more generally [[homotopy equivalence|homotopy equivalent]]). This is called _[[algebraic topology]]_.
+A basic algebraic invariant is the [[fundamental group]] of a topological space (discussed [below](#FundamentalGroup)),
+which measures how many ways there are two wind loops inside a topological space.
+
+Beware that the popular imagery of "[[rubber-sheet geometry]]" only captures part of the full scope of topology,
+in that it invokes spaces that _locally_ still look like [[metric spaces]].
+But the concept of topological spaces is a good bit more general.
+Notably [[finite topological spaces]] are either [[discrete topological space|discrete]] or very much unlike
+[[metric spaces]], they play a role in [[categorical logic]]. Also [[geometry]] exotic topological
+spaces frequently arise when  forming non-free [[quotients]].
+In order to gauge just how many of such "exotic" examples of topological  spaces beyond [[metric spaces]] one wishes
+to admit in the theory,
+extra "[[separation axioms]]" are imposed on topological spaces (see [below](#SeparationAxiom)), and the flavour of topology as a field
+depends on this choice, to some extent.
+
+Among the separation axiom, the axiom of [[sober topological space|soberity]] stands out, on the one
+hand because this is the weakest axiom that is still naturally satisfied in applications to [[algebraic geometry]] ([[schemes are sober]])
+and [[computer science]] ([Vickers 89](#Vickers89)) and on the other hand because it fully realizes the strong roots that
+topology has in [[formal logic]]: [[sober topological spaces]] are entirely characterized by the inclusion relations
+(logical [[implications]]) among their [[open subsets]] ([[propositions]]). This naturally leads to a natural
+and very fruitful generalization of [[topology]] to more general "purely logic-determined spaces", called _[[locales]]_,
+_[[toposes]]_ and _[[higher topos theory|higher toposes]]_.
+
+
+$\,$
 
 #Contents#
 * table of contents
@@ -36,13 +95,15 @@ $\,$
 
 
 ## Point-set topology
+ {#PointSetTopology}
+
 
 
 
 ### Analytic continuity
  {#Continuity}
 
-The key idea of topology is to study [[spaces]] with "[[continuous maps]]" between them. The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to a more
+The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to a more
 abstract concept of "continuous space", this is the concept of _[[topological spaces]]_, def. \ref{TopologicalSpace} below.
 Topology is the study if the [[category]] of [[topological spaces]].
 
@@ -283,13 +344,13 @@ Regard the [[real numbers]] $\mathbb{R}$ as the 1-dimensional [[Euclidean space]
 
 For $a \lt b \in \mathbb{R}$ consider the following [[subsets]]:
 
-1. $(a,b) \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x \lt b \right\}$
+1. $(a,b) \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x \lt b \right\}$ $\phantom{AA}$ (open interval)
 
-1. $(a,b] \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x \leq b \right\}$
+1. $(a,b] \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x \leq b \right\}$ $\phantom{AA}$ (half-open interval)
 
-1. $[a,b) \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x \lt b \right\}$
+1. $[a,b) \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x \lt b \right\}$ $\phantom{AA}$ (halfopen interval)
 
-1. $[a,b] \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x \leq b \right\}$.
+1. $[a,b] \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x \leq b \right\}$ $\phantom{AA}$ (closed interval)
 
 The first of these is an open subset according to def. \ref{OpenSubsetsOfAMetricSpace}, the other three are not.
 The first one is called an _[[open interval]]_, the last one a _[[closed interval]]_
@@ -309,6 +370,7 @@ The first two of these are open subsets, the last two are not.
 
 =--
 
+We may now reprase the analytic definition of continuity entirely in terms of open subsets (def. \refOpenSubsetsOfAMetricSpace{}).
 
 +-- {: .num_prop #ContinuityBetweenMetricSpacesInTermsOfOpenSets}
 ###### Proposition
@@ -891,22 +953,29 @@ Generally the [[homeomorphism]] class of a [[closed manifold|closed]] [[orientab
 
 
 ### Separation axioms
+ {#SeparationAxiom}
 
 The plain definition of _[[topological space]]_ happens to allow examples where distinct points or distinct subsets of the underlying set of a topological space appear as as more-or-less unseparable as seen by the topology on that set. In many applications one wants to exclude at least some of such degenerate examples from the discussion. The relevant conditions to be imposed on top of the plain [[axioms]] of a [[topological space]] are hence known as _[[separation axioms]]_.
 
 These axioms are all of the form of saying that two subsets (of certain forms) in the topological space are 'separated' from each other in one sense if they are 'separated' in a (generally) weaker sense. For example the weakest axiom (called $T_0$) demands that if two points are distinct as elements of the underlying set of points, then there exists at least one [[open subset]] that contains one but not the other.
 
-In this fashion one may impose a hierarchy of stronger axioms. For example demanding that given two distinct points, then each of them is contained in some open subset not containing the other ($T_1$) or that such a pair of open subsets around two distinct points may in addition be chosen to be disjoint ($T_2$). This last condition, $T_2$, also called the _[[Hausdorff topological space|Hausdorff condition]]_ is the most common among all separation axioms. Often (but by far not always) this is considered by default.
+In this fashion one may impose a hierarchy of stronger axioms. For example demanding that given two distinct points, then each of them is contained in some open subset not containing the other ($T_1$) or that such a pair of open subsets around two distinct points may in addition be chosen to be disjoint ($T_2$). This last condition, $T_2$, also called the _[[Hausdorff topological space|Hausdorff condition]]_ is the most common among all separation axioms. Often in [[topology]], this axiom is considered by default.
 
-Originally there were four separation axioms $T_1, T_2, T_3, T_4$; nowadays one considers various more. Besides the extrapolation of the original sequence from $T_0$ through $T_6$ (with $T_{2\frac{1}{2}}$ and $T_{3\frac{1}{2}}$ interpolated), there is a similar sequence of axioms called $R_0, R_1, R_2, R_3$ (with their extrapolations and interpolations) of the same form, except that they do not start with mentioning two set-theoretically distinct points, but two points satisfying the conclusion of $T_0$. This and more is spelled out [below](#TheClassicalTheory).
+However, there are respectable areas of mathematics that involve topological spaces where the Hausdorff axiom fails, but
+a weaker axiom is still satisfied, called [[sober topological spaces|soberity]].
+This is the case notably in [[algebraic geometry]] ([[schemes are sober]]) and in [[computer science]] ([Vickers 89](#Vickers89)). 
+These [[sober topological spaces]] are singled out by the fact that they are entirely characterized by their
+[[partially ordered sets]] [[frame of opens|of open subsets]] and may hence be understood independently from their
+underlying sets of points. 
 
-There are also axioms that do not follow the pattern of "if certain two subsets are separated in some weak sense, then they are also separated in some stronger sense", but that still axiomatize some kind of separatedness. For example the condition on a [[topological space]] being [[sober topological space|sober]] is of a different nature, but is implied by $T_2$ and implies $T_0$. Notice that via their [[full subcategory|full embdding]] into [[locales]], [[sober topological spaces]] may be understood without reference to their underlying set pf points at all.
+| [[separation axioms]]                 |
+|---------------------------------------|
+| $\array{&& T_2 = \text{Hausdorff} \\ & \swArrow && \seArrow \\ T_1 && && \text{sober} \\ & \seArrow && \swArrow \\ && T_0 = \text{Kolmogorov} } $ |
 
 All separation axioms are satisfied by [[metric spaces]], from whom the concept of topological space was originally abstracted [above](#TopologicalSpaces). Hence imposing some of them may also be understood as gauging just how far one allows topological spaces to generalize away from metric spaces
 
 
 #### $T_n$-Topological spaces
-
 
 
 +-- {: .num_defn #HausdorffTopologicalSpace}
