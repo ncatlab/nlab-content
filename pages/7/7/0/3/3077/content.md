@@ -36,6 +36,9 @@ Let $L$ denote the long line, and $R$ the long ray.
 $$\{t \in I: \im H(t, -) \text{is bounded}\}$$ 
 is both closed and open. It also contains $0$, hence is all of $I$. But it can't contain $t = 1$, contradiction. 
 
+## Related concepts
+
+* [[line with two origins]]
 
 ## References 
 
@@ -43,7 +46,7 @@ is both closed and open. It also contains $0$, hence is all of $I$. But it can't
 
 * Steen and Seebach, _Counterexamples in Topology_. Springer-Verlag, New York, 1978. Reprinted by Dover Publications, New York, 1995. 
 
-* J. Munkres, _Topology_ (2nd edition). Prentice-Hall, 2000. 
+* [[James Munkres]], _Topology_ (2nd edition). Prentice-Hall, 2000. 
 
 
 [[!redirects long line]]
