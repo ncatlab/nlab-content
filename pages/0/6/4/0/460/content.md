@@ -25,9 +25,9 @@ A [[topological space]] $X$ is **sober** if its [[points]] are exactly determine
 
 * The [[function]] from points of $X$ to the _completely prime [[filters]]_ of its open-set lattice is a [[bijection]].
 
-* (Assuming classical logic) $X$ is [[T0]] and every [[irreducible closed set]] (non-empty closed set that is not the [[union]] of any two non-empty closed sets) is the [[topological closure|closure]] of a (unique, by $T_0$) point.
+* (Assuming classical logic) every [[irreducible closed set]] (non-empty closed set that is not the [[union]] of any two proper closed subsets) is the [[topological closure|closure]] of a point.
 
-In each case, half of the definition is that $X$ is $T_0$, the other half states that $X$ has __enough points__:
+In each case, half of the definition is that $X$ is [[T0]], the other half states that $X$ has __enough points__:
 
 +-- {: .num_defn #EnoughPointsOfATopologicalSpace}
 ###### Definition
@@ -38,7 +38,7 @@ A [[topological space]] $X$ has _enough points_ if the following equivalent cond
 
 * The [[function]] from points of $X$ to the _completely prime [[filters]]_ of its [[lattice of open subsets|open-set lattice]] is a [[surjection]].
 
-* (Assuming classical logic) every [[irreducible closed set]] (non-empty closed set that is not the union of any two non-empty closed sets) is the [[topological closure|closure]] of a point.
+* (Assuming classical logic) every [[irreducible closed set]] (non-empty closed set that is not the [[union]] of any two proper closed subsets) is the [[topological closure|closure]] of a point.
 
 =--
 
