@@ -77,6 +77,113 @@ That is, convergence in a Hausdorff space is unique.
 
 ## Properties
 
+### Hausdorff reflection
+ {#HausdorffReflection}
+
++-- {: .num_prop #Hausdorffication}
+###### Proposition
+**(Hausdorff reflection)**
+
+For every [[topological space]] $X$ there exists
+a [[Hausdorff topological space]] $H X$ 
+and a [[continuous function]]
+
+$$
+  h_X
+    \;\colon\;
+  X \longrightarrow H X
+$$
+
+which is the  "closest approximation from the left" to $X$ by a Hausdorff topological space, in that
+for $Y$ any [[Hausdorff topological space]], then [[continuous functions]] of the form
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+are in [[bijection]] with [[continuous function]] of the form
+
+$$
+  \tilde f \;\colon\; H X \longrightarrow Y
+$$
+
+and such that the bijection is constituted by
+
+$$
+  f = \tilde f \circ h_X
+  \;\colon\;
+    X
+      \overset{h_X}{\longrightarrow}
+    H X
+      \overset{\tilde f}{\longrightarrow}
+    Y
+  \,.
+$$
+
+
+Here $H X$ (or more precisely $h_X$) is also called the _Hausdorff reflction_ or _Hausdorff reflection of $X$.
+
+Specifically, consider the [[equivalence relation]] $\sim$ on the underlying set $X$
+for which $x \sim y$ precisely if for every [[continuous function]] $f \colon X \to Y$ into any
+[[Hausdorff topological space]] $Y$ we have $f(x) = f(y)$. Then the set of [[equivalence classes]]
+
+$$
+  H X \coloneqq X /{\sim}
+$$
+
+equipped with the [[quotient topology]] is the Hausdorff reflection of $X$,
+and the comparison map $h_X$ is the quotient map $X \to X/{\sim}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First observe that every continuous function $f \colon X \longrightarrow Y$ into a Hausdorff space $Y$
+factors uniquely via $h_X$ through a continuous function $\tilde f$
+
+$$
+  f = \tilde f \circ h_X
+$$
+
+where
+
+$$
+  \tilde f \colon [x] \mapsto f(x)
+  \,.
+$$
+
+That this is well defined and continuous follows directly from the definitions.
+
+What remains to be seen is that $H X$ is indeed a Hausdorff space. Hence assume that $[x] \neq [y] \in H X$.
+By construction of $H X$ this means that there exists a Hausdorff space $Y$ and a continuous function
+$f \colon X \longrightarrow Y$ such that $f(x) \neq f(y) \in Y$. Accordingly, since $Y$ is Hausdorff,
+there exist disjoint open neighbourhoods $U_x, U_Y \in \tau_Y$. Moreover, by the previous statement there
+exists a continuous function $\tilde f \colon H X \to Y$ with $\tilde f([x]) = f(x)$ and $\tilde f([y]) = f(y)$.
+Since, by the nature of continuous functions,
+the pre-images $\tilde f^{-1}( U_x ), \tilde f^{-1}([y]) \subset H X$ are still disjoint and open,
+we have found disjoint neighbourhoods of $[x]$ and $[y]$. Hence $H X$ is Hausdorff.
+
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In the language of [[category theory]] the Hausdorff reflection of prop. \ref{Hausdorffication}
+says that [[Hausdorff topological spaces]] form a [[reflective subcategory]] of all [[topological spaces]].
+
+$$
+  Top_{Haus}
+    \underoverset{\bot}{\overset{H}{\longleftarrow}}{\underset{\iota}{\hookrightarrow}}
+  Top
+  \,.
+$$
+
+=--
+
+
+
 ### Monadicity
 
 The topology on a [[compact space|compact]] Hausdorff space is given precisely by the (existent because compact, unique because Hausdorff) limit of each [[ultrafilter]] on the space.  Accordingly, compact Hausdorff topological spaces are (perhaps surprisingly) described by a (large) [[algebraic theory]].  In fact, the category of compact Hausdorff spaces is [[monadic functor|monadic]] (over [[Set]]); the [[monad]] in question maps each set to the set ultrafilters on it.  (The results of this paragraph require the [[ultrafilter theorem]], a weak form of the [[axiom of choice]]; see [[ultrafilter monad]].)
@@ -86,7 +193,7 @@ A compact Hausdorff [[locale]] (or space) is necessarily [[regular locale|regula
 
 ### Sobriety
 
-Every Hausdorff space is a [[sober topological space]]: _[[Hausdorff implies sober]]_.  (This is not constructively valid.)
+Using [[classical logic]] (but not in [[constructive logic]]) every Hausdorff space is a [[sober topological space]]: _[[Hausdorff implies sober]]_.  
 
 
 ### Compact subspaces
@@ -98,11 +205,6 @@ Every Hausdorff space is a [[sober topological space]]: _[[Hausdorff implies sob
 
 =--
 
-
-### Reflection
- {#HausdorffReflection}
-
-The inclusion [[functor]] of Hausdorff topological spaces into all [[topological spaces]] is a [[reflective subcategory]] inclusion. The [[left adjoint]] to the inclusion functor is accordingly often called _Hausdorff refletion_.
 
 
 ## Related notions
@@ -212,3 +314,16 @@ Comments on the relation to [[topos theory]] are for instance in
 [[!redirects preregular spaces]]
 [[!redirects reciprocal space]]
 [[!redirects reciprocal spaces]]
+
+[[!redirects Hausdorffication]]
+[[!redirects Hausdorffications]]
+
+[[!redirects Hausdorffification]]
+[[!redirects Hausdorffifications]]
+
+[[!redirects Hausdorff reflection]]
+[[!redirects Hausdorff reflections]]
+
+[[!redirects Hausdorffzation]]
+[[!redirects Hausdorffizations]]
+
