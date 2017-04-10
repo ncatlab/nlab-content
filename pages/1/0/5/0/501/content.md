@@ -116,6 +116,8 @@ The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equiva
 
 * the [[cardinality]] of a finite set is a [[finite number]]
 
+* [[cofinite subset]]
+
 * [[countable ordinal]]
 
 * [[finite-dimensional vector space]]
