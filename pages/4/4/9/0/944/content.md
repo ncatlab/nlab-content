@@ -41,7 +41,9 @@ This Sierpinski space
 
 * is a [[locally contractible space]];
 
-* has a [[focal point]].
+* has a [[focal point]];
+
+* is a [[sober topological space]] (but not [[separation axiom|T1]]).
 
 According properties are inherited by the [[Sierpinski topos]] and the [[Sierpinski (∞,1)-topos]] over $Sierp$.
 
