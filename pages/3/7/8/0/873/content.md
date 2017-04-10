@@ -36,6 +36,11 @@ The concept of subset as it appears here generalises to [[subobject]] in categor
 
 When the abstract set $A$ is fixed, a subset $B$ of $A$ may be thought of as a __[[concrete structure|concrete]] set__.
 
+## Related concepts
+
+* [[subtype]]
+
+* [[cofinite subset]]
 
 [[!redirects subset]]
 [[!redirects subsets]]
