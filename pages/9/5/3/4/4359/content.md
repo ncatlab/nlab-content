@@ -14,6 +14,9 @@
 
 ## Definition
 
++-- {: .num_defn #ClosedIrreducible}
+###### Definition
+
 Given a [[topological space]] $X$, a [[closed subspace]] $F$ of $X$ is __irreducible__ if it is [[inhabited]] and not the [[union]] of two closed proper (i.e. smaller) subspaces. In other words, $F$ is irreducible if whenever $F_1$ and $F_2$ are closed subsets of $X$ such that 
 
 $$
@@ -21,6 +24,86 @@ $$
 $$
 
 then $F_1 = F$ or $F_2 = F$.
+
+=--
+
+Equivalently this may be expressed in terms of [[open subsets]]:
+
++-- {: .num_prop #OpenSubsetVersionOfClosedIrreducible}
+###### Proposition
+
+Let $(X, \tau)$ be a [[topological space]], and let $P \in \tau \subset P(X)$ be a proper [[open subset]],
+so that the [[complement]] $F \coloneqq X\backslash P$ is an [[inhabited]] [[closed subspace]]. Then $F$ 
+is [[irreducible closed subspace|irreducible]] in the sense of def. \ref{ClosedIrreducible} precisely if whenever $U_1,U_2 \in \tau$ are open subsets
+with $U_1 \cap U_2 \subset P$ then $U_1 \subset P$ or $U_2 \subset P$:
+
+$$
+  X \backslash P \,\text{irreducible}
+  \;\Leftrightarrow\;
+  \left(
+    \underset{U_1, U_2 \in \tau}{\forall } 
+    \left(
+      U_1 \cap U_2 \subset P 
+      \;\Rightarrow\;
+      \left(U_1 \subset P \;\text{or}\; U_2 \subset P\right)
+    \right)
+  \right)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Every [[closed subset]] $F_i \subset F$ may be exhibited as the [[complement]]
+
+$$
+  F_i = F \backslash U_i
+$$
+
+for some open subset $U_i \in \tau$. Observe that under this identification the condition
+that $U_1 \cap U_2 \subset P$ is equivalent to the condition that $F_1 \cup F_2 = F$,
+because it is equivalent to the equation labeled $(\star)$ in the following sequence of equations:
+
+$$
+\begin{aligned}
+  F_1 \cup F_2
+  & = 
+  (F \backslash U_1) \cup (F \backslash U_2) 
+  \\
+  & 
+  = \left( X \backslash (P \cup U_1) \right) \cup \left( X \backslash P \cup U_2 \right)
+  \\
+  & = X \backslash ( P \cup (U_1 \cap U_2)  )  
+  \\
+  & \stackrel{(\star)}{=}   X \backslash P 
+  \\
+  & = F  
+\end{aligned}
+\,.
+$$
+
+Similarly, the condition that $U_i \subset P$ is equivalent to the condition that $F_i = F$,
+because it is quivalent to the equality $(\star)$ in the following sequence of equalities:
+
+$$
+  \begin{aligned}
+    F_i &= F \backslash U_i
+    \\
+    & = X \backslash ( P \cup U_i )
+    \\
+    & \stackrel{(\star)}{=} X \backslash P
+    \\
+    & = 
+    F
+  \end{aligned}
+  \,.
+$$
+
+Under these equivalences, the two conditions are manifestly the same.
+
+=--
+
 
 ## Properties
 
