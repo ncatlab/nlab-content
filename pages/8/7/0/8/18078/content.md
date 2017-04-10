@@ -1,4 +1,9 @@
 
+| [[separation axioms]]                 |
+|---------------------------------------|
+| $\array{\\ &&& T_2 = \text{Hausdorff}  \\ && \swArrow && \seArrow \\ \, & T_1 && && \text{sober} & \, \\ && \seArrow && \swArrow \\ &&& T_0 = \text{Kolmogorov} \\ }  $ |
+
+
  $                                     
   \array{                              
     && T_2 = \text{Hausdorff}
