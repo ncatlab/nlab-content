@@ -151,6 +151,8 @@ Some applications to [[analysis]] require more general [[convergence spaces]] or
 
 * [[codiscrete topological space]]
 
+* [[cofinite topology]]
+
 * [[Alexandroff space]]
 
 * [[spectral topological space]]
