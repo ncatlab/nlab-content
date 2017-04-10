@@ -99,7 +99,8 @@ $\,$
 ## Point-set topology
  {#PointSetTopology}
 
-
+In this first part we discuss the foundations of the concept of "sets equipped with topology" 
+([[topological spaces]]) and of [[continuous functions]] between them.
 
 
 ### Analytic continuity
@@ -553,6 +554,7 @@ for this topological space and call it _the [[point]]_.
 
 =--
 
+
 Our motivating example now reads as follows:
 
 +-- {: .num_example #MetricTopology}
@@ -667,18 +669,6 @@ While the example of [[metric space]] topologies (example \ref{MetricTopology}) 
 for the concept of [[topological spaces]], it is important to notice that the concept
 of topological spaces is considerably more general:
 
-
-+-- {: .num_example}
-###### Example
-
-The following shows all the topologies on the 3-element set (up to [[permutation]] of elements)
-
-<img src="https://ncatlab.org/nlab/files/TopologiesOn3ElementSet.png" width="400">
-
-> graphics grabbed from [Munkres 75](#Munkres75)
-
-=--
-
 +-- {: .num_example #CoDiscreteTopology}
 ###### Example
 **(discrete and co-discrete topology)**
@@ -701,6 +691,45 @@ def. \ref{TopologicalSpace}, and hence making it a [[topological space]]:
 
 The reason for this terminology is best seen when considering [[continuous functions]] into these (co-)disctete topological spaces.
 See example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces} below.
+
+=--
+
++-- {: .num_defn #TopologyCofinite}
+###### Definition
+
+Given a [[set]] $X$, then the _[[cofinite topology]]_ or _finite complement topology_ on $X$ is the [[topological space|topology]] 
+(def. \ref{TopologicalSpace}) whose [[open subsets]] are precisely
+
+1. all [[cofinite subsets]];
+
+1. the [[empty set]].
+
+=--
+
+
++-- {: .num_example #SierpinskiSpace}
+###### Example
+
+On the 2-element set $\{0,1\}$ there are (up to [[permutation]] of elements) three distinct topologies:
+
+1. the _[[codiscrete topology]]_ (def. \ref{CoDiscreteTopology}) $\tau = \left\{   \emptyset, \{0,1\}  \right\}$;
+
+1. the _[[discrete topology]]_ (def. \ref{CoDiscreteTopology}), $\tau = \left\{   \emptyset, \{0\}, \{1\} \{0,1\}  \right\}$;
+
+1. the _[[Sierpinski space]]_ topology $\tau = \left\{\emptyset, \{1\} \{0,1\}  \right\}$.
+
+=--
+
+
+
++-- {: .num_example}
+###### Example
+
+The following shows all the topologies on the 3-element set (up to [[permutation]] of elements)
+
+<img src="https://ncatlab.org/nlab/files/TopologiesOn3ElementSet.png" width="400">
+
+> graphics grabbed from [Munkres 75](#Munkres75)
 
 =--
 
@@ -872,7 +901,7 @@ says that the point $\ast$ is the _[[terminal object]]_ in the [[category]] [[To
 +-- {: .num_example }
 ###### Example
 
-For $(X, \tau)$ a [[toplogical space]] then for $x \in X$ any element of the underlyiing set,
+For $(X, \tau)$ a [[topological space]] then for $x \in X$ any element of the underlyiing set,
 there is a unique continuous function
 
 $$
@@ -1263,7 +1292,7 @@ contain $x$.
 
 +-- {: .num_prop #Hausdorffication}
 ###### Proposition
-**(Hausdorffication)**
+**(Hausdorff reflection)**
 
 For every [[topological space]] $X$ (def. \ref{TopologicalSpace}) there exists
 a [[Hausdorff topological space]] $H X$ (def. \ref{HausdorffTopologicalSpace})
@@ -1302,7 +1331,7 @@ $$
 $$
 
 
-Here $H X$ (or more precisely $h_X$) is also called the _Hausdorffification_ of $X$.
+Here $H X$ (or more precisely $h_X$) is also called the _Hausdorff reflection_ (or _Hausdorffication_) of $X$.
 
 Specifically, consider the [[equivalence relation]] $\sim$ on the underlying set $X$
 for which $x \sim y$ precisely if for every [[continuous function]] $f \colon X \to Y$ into any
@@ -1312,7 +1341,7 @@ $$
   H X \coloneqq X /{\sim}
 $$
 
-equipped with the [[quotient topology]] (example \ref{QuotientTopology}) is the Hausdorffification of $X$,
+equipped with the [[quotient topology]] (example \ref{QuotientTopology}) is the Hausdorff reflection of $X$,
 and the comparison map $h_X$ is the quotient map $X \to X/{\sim}$.
 
 =--
@@ -1348,10 +1377,10 @@ we have found disjoint neighbourhoods of $[x]$ and $[y]$. Hence $H X$ is Hausdor
 
 =--
 
-+-- {: .num_example #SuperVectorSpaceAsAbelianSuperLieAlgebra}
-###### Example
++-- {: .num_remark }
+###### Remark
 
-In the language of [[category theory]] (def. \ref{TopCategory}), the Hausdorffication of prop. \ref{Hausdorffication}
+In the language of [[category theory]] (def. \ref{TopCategory}), the Hausdorff reflection of prop. \ref{Hausdorffication}
 says that [[Hausdorff topological spaces]] form a [[reflective subcategory]] of all [[topological spaces]].
 One denotes this as follows:
 
@@ -1378,7 +1407,7 @@ $$
 
 is called a _[[fully faithful functor]]_.
 
-The symbol "$\bot$" above indicates that the Hausdorffification functor $H$ forms an [[adjoint pair]] with this
+The symbol "$\bot$" above indicates that the Hausdorff reflection functor $H$ forms an [[adjoint pair]] with this
 inclusion functor $\iota$, with $\iota$ [[right adjoint]] and $H$ [[left adjoint]]. This means that there
 is a  [[natural bijection]]
 
@@ -1416,8 +1445,23 @@ well defined according to example \ref{IrreducibleClosureOfPoint}) is [[bijectiv
 
 =--
 
++-- {: .num_prop #T0FromSober}
+###### Proposition
 
-+-- {: .num_prop}
+Every [[sober topological space]] (def. \ref{Sober}) is $T_0$ (def. \ref{HausdorffTopologicalSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{S0InTermsOfClosureOfPoints}.
+
+=--
+
+
+
++-- {: .num_prop #SoberFromHausdorff}
 ###### Proposition
 **([[Hausdorff implies sober]])**
 
@@ -1437,7 +1481,7 @@ The second statement clearly implies the first. To see the second
 statement, suppose that $F$ is an irreducible closed subspace which
 contained two distinct points $x \neq y$. Then by the Hausdorff property
 there are disjoint neighbourhoods $U_x, U_y$, and hence it would follow that
-$F \backslash U_x$ and $F \backslash U_y$ were distinct proper closed subsets of
+the rlative [[complements]] $F \backslash U_x$ and $F \backslash U_y$ were distinct proper closed subsets of
 $F$ with
 
 $$
@@ -1446,10 +1490,38 @@ $$
 
 in contradiction to the assumption that $F$ is irreducible.
 
-This shows that every every irreducible closed subset is a singleton. 
+This [[proof by contradiction|proves by contradiction]] that every irreducible closed subset is a singleton.
 Conversely, generally the [[topological closure]] of every singleton is irreducible closed, by example \ref{IrreducibleClosureOfPoint}.
 
 =--
+
+By prop. \ref{T0FromSober} and prop. \ref{SoberFromHausdorff} we have the implications on the right of the following diagram:
+
+| [[separation axioms]]                 |
+|---------------------------------------|
+| $\array{\\ &&& T_2 = \text{Hausdorff}  \\ && \swArrow && \seArrow \\ \, & T_1 && && \text{sober} & \, \\ && \seArrow && \swArrow \\ &&& T_0 = \text{Kolmogorov} \\ }  $ |
+
+But there there is no implication betwee $T_1$ and sobriety:
+
++-- {: .num_defn }
+###### Proposition
+
+The [[intersection]] of the [[classes]] of [[sober topological spaces]] (def. \ref{Sober}) and $T_1$-topological spaces (def. \ref{HausdorffTopologicalSpace}) is not [[empty set|empty]], but neither class is contained within the other.
+
+=--
+
+That the intersection is not empty follows from prop. \ref{SoberFromHausdorff}.
+That neither class is contained in the other is shown by the following counter-examples:
+
++-- {: .num_exampl}
+###### Example
+
+* The [[Sierpinski space]] (def. \ref{SierpinskiSpace}) is sober, but not $T_1$.
+
+* The [[cofinite topology]] (def. \ref{TopologyCofinite}) on a non-[[finite set]] is $T_1$ but not sober. 
+
+=--
+
 
 
 ### Compactness
