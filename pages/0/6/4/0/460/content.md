@@ -60,9 +60,188 @@ $$
   Hausdorff = T_2 \Rightarrow sober \Rightarrow T_0
 $$
 
-### Reflection
+### As locales with enough points
+ {#AsLocalesWithEnoughPoints}
 
-The [[category]] of sober spaces is [[reflective subcategory|reflective]] in the category of all topological spaces; the [[left adjoint]] is called the **soberification**.  This reflection is also induced by the [[idempotent adjunction]] between spaces and [[locales]]; thus sober spaces are precisely those spaces that are the space of points of some [[locale]], and the [[category]] of sober spaces is [[equivalence of categories|equivalent]] to the category of [[locales with enough points]]. 
+What makes the concept of sober topological spaces special is that
+for them the concept of [[continuous functions]] may be expressed entirely in terms
+of the relations between their [[open subsets]], disregarding the underlying set of points of which these open are in fact subsets. 
+In order to express this
+property, we first introduce the following terminology:
+
++-- {: .num_defn #HomomorphismOfFramesOfOpens}
+###### Definition
+
+Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be [[topological spaces]].
+Then a function
+
+$$
+  \tau_X \longleftarrow \tau_Y \;\colon\; \phi
+$$
+
+between their [[frame of opens|sets of open subsets]] is called a _[[frame]] [[homomorphism]]_ if it preserves
+
+1. inclusions;
+
+1. arbitrary [[unions]];
+
+1. [[finite number|finite]] [[intersections]].
+
+In other words, $\phi$ is a frame homomorphism if
+
+1. for every inclusion $U_1 \subset U_2$ with $U_1, U_2 \in \tau_Y \subset P(Y)$ then
+
+   $$
+     \phi(U_1) \subset \phi(U_2) \;\;\;\;\;\;\; \in \tau_X
+     \,,
+   $$
+
+1. for every [[set]] $I$ and every $I$-indexed set $\{U_i \in \tau_Y\}_{i \in I}$ of elements of $\tau_Y$, then
+
+   $$
+     \phi\left(\underset{i \in I}{\cup} U_i\right) \;=\; \underset{i \in I}{\cup} \phi(U_i)\;\;\;\;\in \tau_X
+     \,,
+   $$
+
+1. for every [[finite set]] $J$ and every $J$-indexed set $\{U_j \in \tau_Y\}$ of elements in $\tau_Y$, then
+
+   $$
+     \phi\left(\underset{j \in J}{\cap} U_j\right)
+       \;=\;
+     \underset{j \in J}{\cap} \phi(U_j)
+     \;\;\;\;
+     \in \tau_X
+     \,.
+   $$
+
+=--
+
+For
+
+$$
+  f \;\colon\; (X,\tau_X) \longrightarrow (Y, \tau_Y)
+$$
+
+a [[continuous function]], then its function of [[pre-images]]
+
+$$
+  \tau_X \longleftarrow \tau_Y \;\colon\; f^{-1}
+$$
+
+is a frame homomorphism according to def. \ref{HomomorphismOfFramesOfOpens}.
+
+For sober topological spaces the converse holds:
+
++-- {: .num_prop}
+###### Proposition
+
+If $(X,\tau_X)$ and $(Y,\tau_Y)$ are [[sober topological spaces]], then
+for every frame homomorphism (def. \ref{HomomorphismOfFramesOfOpens})
+
+$$
+  \tau_X \longleftarrow \tau_Y \;\colon\; \phi
+$$
+
+there is a unique [[continuous function]] $f \colon X \to Y$ such that $\phi$ is the function 
+of forming [[pre-images]] under $f$:
+
+$$
+  \phi = f^{-1}
+  \,.
+$$
+
+=--
+
+Stated more abstractly this says that sober topological spaces are equivalent the [[locales with enough points]].
+
++-- {: .proof}
+###### Proof
+
+Let $\ast = (\{x\}, \tau_\ast = \{\emptyset, \{1\}\})$ be the [[point]] [[topological space]].
+
+By precomposition
+
+$$
+  \ast \longrightarrow X \longrightarrow Y
+$$
+
+it is sufficient to see that frame homomorphisms of the form
+
+$$
+  \tau_\ast \longleftarrow \tau_X \;\colon\; \phi_\ast
+$$
+
+are in bijection to the underlying $X$, identified with the continuous functions
+$\ast \to (X,\tau)$. 
+
+To this end, consider the [[union]] $U_{\emptyset}$ of all elements $U \in \tau_x$ such that $\phi_\ast(U) = \emptyset$:
+
+$$
+  U_{\emptyset}
+    \coloneqq
+  \underset{{U \in \tau_X} \atop {\phi_\ast(U) = \emptyset} }{\cup} 
+   U
+  \,.
+$$
+
+Then observe that if there are two elements $U_1, U_2 \in \tau_X$ with $U_1 \cap U_2 = U_{\emptyset}$
+then $U_1 \subset U_{\emptyset}$ or $U_2 \subset U_{\emptyset}$.
+This is because
+
+$$
+  \begin{aligned}
+    \phi_\ast(U_1 \cap U_2) 
+    & = 
+    \phi(U_1) \cap \phi(U_2) 
+    \\
+    & \subset \phi(U_{\emptyset}) 
+    \\
+    & = 
+    \emptyset
+  \end{aligned}
+  \,,
+$$
+
+(where the first equality holds because $\phi$ preserves finite intersections, the inclusion holds because $\phi$ respects
+inclusions, and the second equality holds because $\phi$ preserves arbitrary unions).
+But in $\tau_\ast = \{\emptyset, \{1\}\}$ the intersection of two open subsets is empty precisely if at least one of them is empty,
+hence $\phi(U_1) = \emptyset$ or $\phi(U_2) = \emptyset$. But this means that $U_1 \subset U_{\emptyset}$ or $U_2 \subset U_{\emptyset}$,
+as claimed.
+
+Now according to [this prop.](irreducible+closed+subspace#OpenSubsetVersionOfClosedIrreducible)
+this condition identifies the [[complement]] 
+$X \backslash U_{\emptyset}$ as an [[irreducible closed subspace]] of $(X,\tau)$. 
+Therefore by assumption of [[sober topological space|sobriety]] of $(X,\tau)$ there is a unique point
+$x \in X$ with $X \backslash U_{\emptyset} = Cl(\{x\})$. In particular this means that for $U_x$ an open 
+neighbourhood of $x$, then $U_x$ is not a subset of $U_\emptyset$, and so it follows that $\phi(U_x) = \{1\}$.
+In conclusion we have found a unique $x \in X$ such that
+
+$$
+  \phi  
+    \;\colon\;
+  U \mapsto 
+  \left\{
+    \array{
+      \{1\} & \vert \,\text{if}\, x \in U
+      \\
+      \emptyset & \vert \, \text{otherwise}
+    }
+  \right.
+  \,.
+$$
+
+This is precisely the the [[inverse image]] function of the continuous function $\ast \to X$ which sends $1 \mapsto x$.
+
+=--
+
+
+
+### Reflection
+ {#Reflection}
+
+The [[category]] of sober spaces is [[reflective subcategory|reflective]] in the category of all topological spaces; the [[left adjoint]] is called the **soberification**.  
+
+This reflection is also induced by the [[idempotent adjunction]] between spaces and [[locales]]; thus sober spaces are precisely those spaces that are the space of points of some [[locale]], and the [[category]] of sober spaces is [[equivalence of categories|equivalent]] to the category of [[locales with enough points]]. 
 
 ### Enough points
 
