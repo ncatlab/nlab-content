@@ -104,7 +104,7 @@ In this first part we discuss the foundations of the concept of "sets equipped w
 ([[topological spaces]]) and of [[continuous functions]] between them.
 
 
-### Analytic continuity
+### Background from Analysis
  {#Continuity}
 
 The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to a more
@@ -112,7 +112,7 @@ abstract concept of "continuous space", this is the concept of _[[topological sp
 Topology is the study if the [[category]] of [[topological spaces]].
 
 
-#### Via epsilontic analysis
+#### Metric spaces
 
 First recall the basic concepts from [[analysis]]:
 
@@ -254,6 +254,9 @@ the [[p-norm]] generalizes to non-[[finite dimensional vector spaces]] such as [
 
 =--
 
+
+#### Continuity
+
 The following now is the fairly obvious definition of continuity for functions between metric spaces.
 
 +-- {: .num_defn #EpsilonDeltaDefinitionOfContinuity}
@@ -313,12 +316,6 @@ at which it changes its value.
 
 =--
 
-
-
-
-
-#### Via open subsets
-
 We now reformulate the analytic concept of continuity from def. \ref{EpsilonDeltaDefinitionOfContinuity} in terms of the simple but important concept of _[[open sets]]_:
 
 
@@ -374,7 +371,7 @@ The first two of these are open subsets, the last two are not.
 
 =--
 
-We may now reprase the analytic definition of continuity entirely in terms of open subsets (def. \refOpenSubsetsOfAMetricSpace{}).
+We may now reprase the analytic definition of continuity entirely in terms of open subsets (def. \ref{OpenSubsetsOfAMetricSpace}).
 
 +-- {: .num_prop #ContinuityBetweenMetricSpacesInTermsOfOpenSets}
 ###### Proposition
@@ -458,11 +455,164 @@ By example \ref{OpenAndClosedIntervals}, the last of these preimages listed is n
 =--
 
 
+
+
+
+
+#### Convergence
+
+Recall the concept of [[convergence]] of [[sequences]] in [[metric spaces]] via [[epsilontic analysis]]:
+
++-- {: .num_defn #Sequences}
+###### Definition
+
+Given a [[set]] $X$, then a _[[sequence]]_ of elements in $X$ is a [[function]]
+
+$$
+  x_{(-)}
+    \;\colon\;
+  \mathbb{N}
+    \longrightarrow
+  X
+$$
+
+from the [[natural numbers]] to $X$.
+
+A _[[sub-sequence]]_ of such a sequence is a sequence of the form
+
+$$
+  x_{\iota(-)}
+   \;\colon\;
+  \mathbb{N}
+    \overset{\iota}{\hookrightarrow}
+  \mathbb{N}
+    \overset{x_{(-)}}{\longrightarrow}
+  X
+$$
+
+for some [[injection]] $\iota$.
+
+=--
+
++-- {: .num_defn #Convergence}
+###### Definition
+
+Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}).
+Then a [[sequence]]
+
+$$
+  x_{(-)}
+    \;\colon\;
+  \mathbb{N}
+    \longrightarrow
+  X
+$$
+
+in the underlying set $X$ (def. \ref{Sequences}) is said to _[[convergence|converge]]_ to a point $y \in X$, denoted
+
+$$
+  x_i \overset{i \to \infty}{\longrightarrow} y
+$$
+
+if
+
+$$
+  \underset{ {\epsilon \in \mathbb{R}}  \atop {\epsilon \gt 0} }{\forall}
+  \left(
+  \underset{N_\epsilon \in \mathbb{N}}{\exists}
+  \left(
+  \underset{ {i \in \mathbb{N}} \atop {i \gt N_\epsilon} }{\forall}
+  \;
+  d(x_i, y) \leq \epsilon
+  \right)
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #CauchySequence}
+###### Definition
+
+Given a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}), then a [[sequence]] of points in $X$ (def. \ref{Sequences})
+
+$$
+  x_{(-)} \;\colon\;  \mathbb{N}  \longrightarrow X
+$$
+
+is called a _[[Cauchy sequence]]_ if
+
+$$
+  \underset{{\epsilon \in \mathbb{R}} \atop {\epsilon \gt 0}}{\forall}
+  \left(
+  \underset{N_\epsilon \in \mathbb{N}}{\exists}
+  \left(
+  \underset{{i,j \in \mathbb{N}} \atop {i,j \gt N_{\epsilon}}}{\forall}
+  \;
+  d(x_i, x_j) \leq \epsilon
+  \right)
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #CompleteMetricSpace}
+###### Definition
+
+A [[metric space]] $(X,d)$ (def. \ref{MetricSpace}), for which every [[Cauchy sequence]] (def. \ref{CauchySequence})
+[[convergence|converges]] (def. \ref{Convergence}) is called a _[[complete metric space]]_.
+
+A [[normed vector space]], regarded as a metric space via prop. \ref{MetricSpaceFromNormedVectorSpace} that
+is complete in this sense is called a _[[Banach space]]_.
+
+=--
+
+
+
+
+#### Compactness 
+
+Recall the concept of [[compactness]] of [[metric spaces]] via [[epsilontic analysis]]:
+
+
+
++-- {: .num_defn #SequentiallyCompact}
+###### Definition
+
+A [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) is called _[[sequentially compact space|sequentially compact]]_
+if every [[sequence]] in $X$ has a subsequence (def. \ref{Sequences}) which [[convergence|converges]] (def. \ref{Convergence}).
+
+=--
+
+The key fact to translate this [[epsilontic analysis|epsilontic]] definition of compactness to a concept that
+makes sense for general [[topological space]] is the following:
+
++-- {: .num_prop}
+###### Proposition
+
+For a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) the following are equivalent:
+
+1. $X$ is [[sequentially compact space|sequentially compact]];
+
+1. every [[open cover]] $\{U_i \to X\}_{i \in I}$ of $X$ has
+ a _finite subcover_ in that there is a [[finite set|finite]] [[subset]] $J \subset I$ such that
+ $\{U_i \to X\}_{i \in J}$ is still a cover of $X$: $\underset{i \in J}{\cup} U_i = X$.
+
+
+=--
+
+
+
+
+
+
+
 ### Topological spaces
  {#TopologicalSpaces}
 
 Due to prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets}
-we should pay attention to [[open subsets]]. It turns out that the following closure
+we should pay attention to [[open subsets]] in [[metric spaces]]. It turns out that the following closure
 property is what _characterizes_ the concept:
 
 +-- {: .num_prop #OpenSubsetsOfMetricSpaceClosureProperties}
@@ -488,6 +638,14 @@ and
 Proposition \ref{OpenSubsetsOfMetricSpaceClosureProperties} motivates
 the following generalized definition, which abstracts away from the concept of [[metric space]]
 just its system of [[open subsets]]:
+
+
+
+
+
+
+
+
 
 #### Topologies
 
@@ -702,7 +860,7 @@ $$
   S \subset X\,\, \text{is closed}
   \phantom{AAA}
     \Leftrightarrow
-  \phantom
+  \phantom{AAA}
     X\backslash S\,\, \text{is open}
   \,.
 $$
@@ -714,6 +872,44 @@ If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that _$x$ is a c
 Given any subset $S \subset X$, then is _[[topological closure]]_ $Cl(X)$ is the smalled closed subset containing $S$.
 
 =--
+
++-- {: .num_prop #ConvergenceInClosedSubspace}
+###### Proposition
+
+Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}), regarded as a [[topological space]] via example \ref{MetricTopology},
+and let $V \subset X$ be a [[subset]]. Then the following are equivalent:
+
+1. $V \subset X$ is a [[closed subspace]] according to def. \ref{ClosedSubset}.
+
+1. For every [[sequence]] $x_i \in V \subset X$ (def. \ref{Sequences}) with elements in $V$, which [[convergence|converges]]
+   as a sequence in $X$ (def. \ref{Convergence}) it also converges in $V$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First assume that $V \subset X$ is closed and that $x_i \overset{i \to \infty}{\longrightarrow} x_{\infty}$ for some
+$x_\infty \in X$. We need to show that then $x_\infty \in V$. Suppose it were not, then 
+$x_\infty \in X\backslash V$. Since by definition this [[complement]] $X \backslash V$ is an [[open subset]], 
+it follows that there exists a [[real number]] $\epsilon \gt 0$ such that the [[open ball]] 
+around $x$ of radius $\epsilon$ is still contained in the complement: $B^\circ_x(\epsilon) \subset X \backslash V$.
+But since the sequence is assumed to converge in $X$, this means that there exists $N_\epsilon$ such that all 
+$x_{i \gt N_{\epsilon}}$ are in $B^\circ_x(\epsilon)$, hence in $X\backslash V$. This contradicts the assumption that
+all $x_i$ are in $V$, and hence we have [[proof by contradiction|proved by contradiction]] that $x_\infty \in V$.
+
+Conversely, assume that for all sequences in $V$ that converge to some $x_\infty \in X$ then $x_\infty \in V \subset W$.
+We need to show that then $V$ is closed, hence that $X \backslash V \subset X$ is an open subset, hence that for every
+$x \in X \backslash V$ we may find a real number $\epsilon \gt 0$ such that the [[open ball]] $B^\circ_x(\epsilon)$ around $x$ 
+of radius $\epsilon$ is still contained in
+$X \backslash V$. Suppose on the contrary that such $\epsilon$ did not exist. This would mean that for each $k \in \mathbb{N}$
+with $k \geq 1$ then the [[intersection]] $B^\circ_x(1/k) \cap V$ is [[inhabited|non-empty]]. Hence then we could choose
+points $x_k \in B^\circ_x(1/k) \cap V$ in these intersections. These would form a sequence which clearly converges to   
+the original $x$, and so by assumption we would conclude that $x \in V$, which violates the assumption that $x \in X \backslash V$.
+Hence we [[proof by contradiction|proved by contradiction]] $X \backslash V$ is in fact open.
+
+=--
+
 
 +-- {: .num_defn #ClosedIrreducible}
 ###### Definition
@@ -1817,141 +2013,7 @@ A [[Hausdorff topological space|Hausdorff]] [[topological space]] $X$ (def. \ref
 
 =--
 
-#### Compact metric spaces
 
-We recall now how for [[metric spaces]] this concept of compactness is equivalent to the
-one via [[convergence|converging]] [[sub-sequences]].
-So recall the concept of [[convergence]] and [[compactness]] of [[metric spaces]] via [[epsilontic analysis]]:
-
-+-- {: .num_defn #Sequences}
-###### Definition
-
-Given a [[set]] $X$, then a _[[sequence]]_ of elements in $X$ is a [[function]]
-
-$$
-  x_{(-)}
-    \;\colon\;
-  \mathbb{N}
-    \longrightarrow
-  X
-$$
-
-from the [[natural numbers]] to $X$.
-
-A _[[sub-sequence]]_ of such a sequence is a sequence of the form
-
-$$
-  x_{\iota(-)}
-   \;\colon\;
-  \mathbb{N}
-    \overset{\iota}{\hookrightarrow}
-  \mathbb{N}
-    \overset{x_{(-)}}{\longrightarrow}
-  X
-$$
-
-for some [[injection]] $\iota$.
-
-=--
-
-+-- {: .num_defn #Convergence}
-###### Definition
-
-Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}).
-Then a [[sequence]]
-
-$$
-  x_{(-)}
-    \;\colon\;
-  \mathbb{N}
-    \longrightarrow
-  X
-$$
-
-in the underlying set $X$ (def. \ref{Sequences}) is said to _[[convergence|converge]]_ to a point $y \in X$, denoted
-
-$$
-  x_i \overset{i \to \infty}{\longrightarrow} y
-$$
-
-if
-
-$$
-  \underset{ {\epsilon \in \mathbb{R}}  \atop {\epsilon \gt 0} }{\forall}
-  \left(
-  \underset{N_\epsilon \in \mathbb{N}}{\exists}
-  \left(
-  \underset{ {i \in \mathbb{N}} \atop {i \gt N_\epsilon} }{\forall}
-  \;
-  d(x_i, y) \leq \epsilon
-  \right)
-  \right)
-  \,.
-$$
-
-=--
-
-+-- {: .num_defn #CauchySequence}
-###### Definition
-
-Given a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}), then a [[sequence]] of points in $X$ (def. \ref{Sequences})
-
-$$
-  x_{(-)} \;\colon\;  \mathbb{N}  \longrightarrow X
-$$
-
-is called a _[[Cauchy sequence]]_ if
-
-$$
-  \underset{{\epsilon \in \mathbb{R}} \atop {\epsilon \gt 0}}{\forall}
-  \left(
-  \underset{N_\epsilon \in \mathbb{N}}{\exists}
-  \left(
-  \underset{{i,j \in \mathbb{N}} \atop {i,j \gt N_{\epsilon}}}{\forall}
-  \;
-  d(x_i, x_j) \leq \epsilon
-  \right)
-  \right)
-  \,.
-$$
-
-=--
-
-+-- {: .num_defn #CompleteMetricSpace}
-###### Definition
-
-A [[metric space]] $(X,d)$ (def. \ref{MetricSpace}), for which every [[Cauchy sequence]] (def. \ref{CauchySequence})
-[[convergence|converges]] (def. \ref{Convergence}) is called a _[[complete metric space]]_.
-
-A [[normed vector space]], regarded as a metric space via prop. \ref{MetricSpaceFromNormedVectorSpace} that 
-is complete in this sense is called a _[[Banach space]]_.
-
-=--
-
-+-- {: .num_defn #SequentiallyCompact}
-###### Definition
-
-A [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) is called _[[sequentially compact space|sequentially compact]]_
-if every [[sequence]] in $X$ has a subsequence (def. \ref{Sequences}) which [[convergence|converges]] (def. \ref{Convergence}).
-
-=--
-
-The key fact to translate this [[epsilontic analysis|epsilontic]] definition of compactness to a concept that
-makes sense for general [[topological space]] is the following:
-
-+-- {: .num_prop}
-###### Proposition
-
-For a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) the following are equivalent:
-
-1. $X$ is [[sequentially compact space|sequentially compact]];
-
-1. every [[open cover]] $\{U_i \to X\}_{i \in I}$ of $X$ has
- a _finite subcover_ in that there is a [[finite set|finite]] [[subset]] $J \subset I$ such that
- $\{U_i \to X\}_{i \in J}$ is still a cover of $X$: $\underset{i \in J}{\cup} U_i = X$.
-
-
-=--
 
 
 
