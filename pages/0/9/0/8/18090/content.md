@@ -40,7 +40,7 @@ and renders it more foundational, generalizing the concept of [[metric spaces]] 
 
 Hence [[topology]] is the study of the [[category]] whose [[objects]] are [[topological spaces]], and whose
 [[morphisms]] are [[continuous functions]] (see also remark \ref{TopCategory} below).
-This category is much more flexible than that of [[metric spaces]], for example it admits the construction of 
+This category is much more flexible than that of [[metric spaces]], for example it admits the construction of
 arbitrary [[quotients]] and [[intersections]] of spaces.
 Accordingly, topology underlies or informs many and diverse areas of mathematics, such as
 [[functional analysis]], [[operator algebra]], [[manifold]]/[[scheme]] theory, hence [[algebraic geometry]] and [[differential geometry]],
@@ -53,7 +53,7 @@ A popular imagery for the concept of a [[continuous function]] is provided by de
 physical bodies, which may be deformed by streetching them without tearing. The canonical illustration is
 a continous [[bijection|bijective]] function from the [[torus]] to the surface of a coffee mug, which maps half of the torus to the
 handle of the coffee mug, and continuously deforms parts of the other half in order to form the actual cup.
-Since the [[inverse function]] to this function is itself continuous 
+Since the [[inverse function]] to this function is itself continuous
 the torus and the coffee mug, both regarded as [[topological spaces]], are "[[isomorphism|the same]]"
 for all practical purposes, one says they are _[[homeomorphic]]_.
 
@@ -82,7 +82,7 @@ and [[computer science]] ([Vickers 89](#Vickers89)) and on the other hand becaus
 topology has in [[formal logic]]: [[sober topological spaces]] are entirely characterized by the inclusion relations
 (logical [[implications]]) among their [[open subsets]] ([[propositions]]). This naturally leads to a natural
 and very fruitful generalization of [[topology]] to more general "purely logic-determined spaces", called _[[locales]]_
-and in yet more generality _[[toposes]]_ and _[[higher topos theory|higher toposes]]_. While the latter are beyond 
+and in yet more generality _[[toposes]]_ and _[[higher topos theory|higher toposes]]_. While the latter are beyond
 the scope of this introduction, their rich theory and relation to the [[foundations]] of mathematics and geometry
 provides an outlook on the relevance of the basic ideas of [[topology]].
 
@@ -528,6 +528,31 @@ topology be closely related to [[formal logic]], see [Vickers 89](#Vickers89).
 
 =--
 
++-- {: .num_example #Point}
+###### Example
+
+On a [[singleton]] set $\{x\}$ there exists a unique topology $\tau$
+making it a [[topological space]] according to def. \ref{TopologicalSpace},
+namely
+
+$$
+  \tau =
+  \left\{
+    \emptyset , \{x\}
+  \right\}
+  \,.
+$$
+
+We write
+
+$$
+  \ast \coloneqq (\{x\}, \left\{ \emptyset, \{x\}\right\})
+$$
+
+for this topological space and call it _the [[point]]_.
+
+=--
+
 Our motivating example now reads as follows:
 
 +-- {: .num_example #MetricTopology}
@@ -594,7 +619,7 @@ Given any subset $S \subset X$, then is _[[topological closure]]_ $Cl(X)$ is the
 +-- {: .num_defn #ClosedIrreducible}
 ###### Definition
 
-A [[closed subset]] $S \subset X$ (def. \ref{ClosedSubset}) of a [[topological space]] $X$ is called _irreducibe_ if it is 
+A [[closed subset]] $S \subset X$ (def. \ref{ClosedSubset}) of a [[topological space]] $X$ is called _irreducibe_ if it is
 [[inhabited|non-empty]] and not the [[union]] of two closed proper (i.e. smaller) subsets. In other words, $S$ is irreducible if whenever
 $S_1, S_2 \subset X$ are two [[closed subspace]] such that
 
@@ -609,7 +634,7 @@ then $S_1 = S$ or $S_2 = S$.
 +-- {: .num_example #IrreducibleClosureOfPoint}
 ###### Example
 
-For $x \in X$ a [[point]] inside a [[topological space]], then 
+For $x \in X$ a [[point]] inside a [[topological space]], then
 the [[topological closure|closure]] $Cl(\{x\})$ of the [[singleton]] [[subset]] $\{x\} \subset X$
 is [[irreducible closed subset|irrducible]] (def. \ref{ClosedIrreducible}).
 
@@ -680,6 +705,13 @@ See example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces} below.
 =--
 
 
+
+
+
+
+
+
+
 #### Continuous functions
  {#ContinuousFunctions}
 
@@ -727,7 +759,7 @@ $$
 $$
 
 between the underlying [[sets]] is [[continuous function|continuous]] in the sense of def. \ref{ContinuousMaps}
-precisely if [[pre-images]] under $f$ of [[closed subsets]] of $Y$ (def. \ref{ClosedSubset}) are 
+precisely if [[pre-images]] under $f$ of [[closed subsets]] of $Y$ (def. \ref{ClosedSubset}) are
 closed subsets of $X$.
 
 =--
@@ -772,11 +804,11 @@ $$
   X_3 \overset{h}{\longrightarrow} X_4
 $$
 
-three [[continuous functions]], then 
+three [[continuous functions]], then
 
 $$
   f_3 \circ (f_2 \circ f_1)
-   = 
+   =
   (f_3 \circ f_2) \circ f_1
   \;\colon\;
   X_1 \longrightarrow X_3
@@ -788,7 +820,7 @@ each topological space $X$ there exists the [[identity]] function $id_X \colon X
 and for $f \colon X_1 \to X_2$ any continuous function then
 
 $$
-  id_{X_2} \circ f  \;=\; f \;=\; f \circ id_{X_1} 
+  id_{X_2} \circ f  \;=\; f \;=\; f \circ id_{X_1}
   \,.
 $$
 
@@ -807,6 +839,47 @@ by [[diagrams]], like this one:
 <img src="https://ncatlab.org/nlab/files/AssociativityDiagram.png" width="400">
 
 > graphics grabbed from [Lawvere-Schanuel 09](#category+theory#LawvereSchanuel09).
+
+=--
+
+$\,$
+
+
+**Examples of continous functions**
+
+
++-- {: .num_example #TerminalityOfThePoint}
+###### Example
+
+For $(X,\tau)$ any topological space, then there is a unique continuous function
+
+$$
+  X \longrightarrow \ast
+$$
+
+from $X$ to the [[point]] (def. \ref{Point}).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the language of [[category theory]] (remark \ref{TopCategory}), example \ref{TerminalityOfThePoint}
+says that the point $\ast$ is the _[[terminal object]]_ in the [[category]] [[Top]] of topological spaces.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+For $(X, \tau)$ a [[toplogical space]] then for $x \in X$ any element of the underlyiing set,
+there is a unique continuous function
+
+$$
+  \ast \longrightarrow X
+$$
+
+from the [[point]] (def. \ref{Point}), whose image in $X$ is that element.
 
 =--
 
@@ -1066,12 +1139,13 @@ underlying sets of points.
 
 | [[separation axioms]]                 |
 |---------------------------------------|
-| $\array{\\ &&& T_2 = \text{Hausdorff}  \\ && \swArrow && \seArrow \\ \, & T_1 && && \text{sober} & \, \\ && \seArrow && \swArrow \\ &&& T_0 = \text{Kolmogorov} } \\ $ |
+| $\array{\\ &&& T_2 = \text{Hausdorff}  \\ && \swArrow && \seArrow \\ \, & T_1 && && \text{sober} & \, \\ && \seArrow && \swArrow \\ &&& T_0 = \text{Kolmogorov} \\ }  $ |
 
-All separation axioms are satisfied by [[metric spaces]], from whom the concept of topological space was originally abstracted [above](#TopologicalSpaces). Hence imposing some of them may also be understood as gauging just how far one allows topological spaces to generalize away from metric spaces
+All separation axioms are satisfied by [[metric spaces]] (def. \ref{MetricSpace}), from whom the concept of topological space was originally abstracted [above](#TopologicalSpaces). Hence imposing some of them may also be understood as gauging just how far one allows topological spaces to generalize away from metric spaces
 
 
 #### $T_n$-Topological spaces
+ {#TnTopologicalSpaces}
 
 
 +-- {: .num_defn #HausdorffTopologicalSpace}
@@ -1086,7 +1160,7 @@ consider the following [[propositions]]:
 
 * **(T1)** _There exist [[neighbourhoods]] of both points which do not contain the other point._
 
-* **(T2)** _There exists [[neighbourhoods]]_ of both points which do not intersect each other.
+* **(T2)** _There exists [[neighbourhoods]]_ of both points which do not intersect each other._
 
 Notice that these propositions imply each other as
 
@@ -1095,13 +1169,21 @@ $$
   \,.
 $$
 
+For definiteness, we re-state these conditions formally. Write $x,y \in X$ for points in $X$, write $U_x, U_y \in \tau$ for open [[neihghbouthoods]] of these points
+
+* **(T0**) $\underset{x \neq y}{\forall} \left(
+    \left( \underset{U_x}{\exists} ( \{x\} \cap U_y = \emptyset ) \vee \left( \{y\} \cap U_x = \emptyset  \right) \right)$
+
+* **((T1)** $\underset{x \neq y}{\forall} \underset{U_x,U_y}{\exists} \left( \{x\} \cap U_y = \emptyset \,\wedge \, \{y\} \cap U_x = \emptyset \right)$
+
+* **(T2)** $\underset{x \neq y}{\forall} \underset{U_x, U_y}{\exists} \left( U_x \cap U_y = \emptyset\right)$
 
 <div style="float:left;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/HausdorffProperty.png" width="190">
 </div>
 
 The topological space $X$ is called a _$T_n$-topological space_ or just _$T_n$-space_, for short,
-if it satisfies proposition $T_n$ above for
+if it satisfies condition $T_n$ above for
 all pairs of distinct points.
 
 A $T_2$-topological space is also called a _[[Hausdorff topological space]]_.
@@ -1110,54 +1192,203 @@ A $T_2$-topological space is also called a _[[Hausdorff topological space]]_.
 
 =--
 
-The conditions $T_0$ and $T_1$ have the following equivalent form in terms of [[topological closures]] of points:
+**Separation of points in terms of topological closures of points**
+
+The conditions $T_0$ and $T_1$ have the following equivalent form in terms of [[topological closures]] (def. \ref{ClosedSubset})
+of points:
 
 +-- {: .num_prop #S0InTermsOfClosureOfPoints}
 ###### Proposition
+**(T0 in terms of topological closures)**
 
-A [[topological space]] $(X,\tau)$ is $T_0$ (def. \ref{HausdorffTopologicalSpace}) 
-precisely if the function
-
-$$
-  Cl(\{-\}) \;\colon\; X \longrightarrow IrrClSub(X)
-$$
-
+A [[topological space]] $(X,\tau)$ is $T_0$ (def. \ref{HausdorffTopologicalSpace})
+precisely if the function $Cl(\{-\})4
 from the underlying set of $X$ to the set of [[irreducible closed subsets]] of $X$ (def. \ref{ClosedIrreducible},
-well defined according to example \ref{IrreducibleClosureOfPoint}) is [[injective function|injective]].
+which is well defined according to example \ref{IrreducibleClosureOfPoint}), is [[injective function|injective]]:
+
+$$
+  Cl(\{-\}) \;\colon\; X \hookrightarrow IrrClSub(X)
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Assume first that $X$ is $T_0$. Then we need to show that if $x,y \in X$ are such that
+$Cl(\{x\}) = Cl(\{y\})$ then $x = y$. Hence assume that $Cl(\{x\}) = Cl(\{y\})$.
+Since the closure of a point is the [[complements]] of the union of the open subsets not containing the point,
+this means that the union of open subsets that do not contain $x$
+is the same as the union of open subsets that do not contain $y$. Hence every
+open subset that does not contain $x$ also does not contain $y$, and vice versa.
+By $T_0$ this is not the case when $x \neq y$, hence it follows that $x = y$.
+
+Conversely, assume that if $x,y \in X$ are such that $Cl\{x\} = Cl\{y\}$ then $x = y$.
+We need to show that if $x \neq y$ then there exists an open neigbourhood around one of the
+two points not containing the other. Hence assume that $x \neq y$.
+By assumption it follows that $Cl(\{x\) \neq Cl(\{y\})$.
+Since the closure of a point is the [[complements]] of the union of the open subsets not containing the point, this
+means that there must be at least one open subset which contains $x$ but not $y$, or vice versa.
+By definition this means that $(X,\tau)$ is $T_0$.
+
 
 =--
 
 +-- {: .num_prop}
 ###### Proposition
+**(T1 in terms of topological closures)**
 
-A [[topological space]] is $T_1$ (def. \ref{HausdorffTopologicalSpace}) precisely if
+A [[topological space]] $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) precisely if
 all its points are [[closed points]] (def. \ref{ClosedSubset}).
 
 =--
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .proof}
+###### Proof
 
-The category of Hausdorff topological spaces is a [[reflective subcategory]] of that of all topological spaces.
+Assume first that $(X,\tau)$ is $T_1$. We need to show that for every point $x \in X$ we have
+$Cl(\{x\}) = \{x\}$. Since the closure of a point is the [[complement]] of the union of all open subsets not containing this point,
+this is the case precisely if the union of all open subsets not containing $x$ is $X \backslash \{x\}$, hence
+if every point $y \neq x$ is member of at least one open subset not containing $x$. This is true by $T_1$.
+
+Conversely, assume that for all $x \in X$ then $Cl(\{x\}) = \{x\}$. Then for $x \neq y \in X$ two
+distinct points we need to produce an open subset of $y$ that does not contain $x$. But as before,
+since $Cl(\{x\})$ is the complement of the union of all open subsets that do not contain $x$, and
+the assumption $Cl\{x\} = \{x\}$ means that $y$ is member of one of these open subsets that do not
+contain $x$.
+
+=--
+
+
++-- {: .num_prop #Hausdorffication}
+###### Proposition
+**(Hausdorffication)**
+
+For every [[topological space]] $X$ (def. \ref{TopologicalSpace}) there exists
+a [[Hausdorff topological space]] $H X$ (def. \ref{HausdorffTopologicalSpace})
+and a [[continuous function]]
 
 $$
-  Top_{Haus}
-    \underoverset{\bot}{\overset{H}{\longleftarrow}}{\hookrightarrow}
-  Top
+  h_X
+    \;\colon\;
+  X \longrightarrow H X
+$$
+
+which is the  "closest approximation from the left" to $X$ by a Hausdorff topological space, in that
+for $Y$ any [[Hausdorff topological space]], then [[continuous functions]] of the form
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+are in [[bijection]] with [[continuous function]] of the form
+
+$$
+  \tilde f \;\colon\; H X \longrightarrow Y
+$$
+
+and such that the bijection is constituted by
+
+$$
+  f = \tilde f \circ h_X
+  \;\colon\;
+    X
+      \overset{h_X}{\longrightarrow}
+    H X
+      \overset{\tilde f}{\longrightarrow}
+    Y
   \,.
 $$
 
-The [[reflector]] $H$ acts as follows:
 
-For $(X,\tau) \in Top$ any topological space. Consider the [[equivalence relation]] on the underlying set $X$
-for which $x \sim y$ precisely if for every [[continuous function]] $f \colon X \to Y$ into a
-Hausdorff space $Y$ we have $f(x) = f(y)$. Then the set of [[equivalence classes]]
+Here $H X$ (or more precisely $h_X$) is also called the _Hausdorffification_ of $X$.
+
+Specifically, consider the [[equivalence relation]] $\sim$ on the underlying set $X$
+for which $x \sim y$ precisely if for every [[continuous function]] $f \colon X \to Y$ into any
+[[Hausdorff ^topological space]] $Y$ we have $f(x) = f(y)$. Then the set of [[equivalence classes]]
 
 $$
   H X \coloneqq X /{\sim}
 $$
 
-equipped with the [[quotient topology]] (example \ref{QuotientTopology}) is the Hausdorffification of $X$.
+equipped with the [[quotient topology]] (example \ref{QuotientTopology}) is the Hausdorffification of $X$,
+and the comparison map $h_X$ is the quotient map $X \to X/{\sim}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First observe that every continuous function $f \colon X \longrightarrow Y$ into a Hausdorff space $Y$
+factors uniquely via $h_X$ through a continuous function $\tilde f$
+
+$$
+  f = \tilde f \circ h_X
+$$
+
+where
+
+$$
+  \tilde f \colon [x] \mapsto f(x)
+  \,.
+$$
+
+That this is well defined and continuous follows directly from the definitions.
+
+What remains to be seen is that $H X$ is indeed a Hausdorff space. Hence assume that $[x] \neq [y] \in H X$.
+By construction of $H X$ this means that there exists a Hausdorff space $Y$ and a continuous function
+$f \colon X \longrightarrow Y$ such that $f(x) \neq f(y) \in Y$. Accordingly, since $Y$ is Hausdorff,
+there exist disjoint open neighbourhoods $U_x, U_Y \in \tau_Y$. Moreover, by the previous statement there
+exists a continuous function $\tilde f \colon H X \to Y$ with $\tilde f([x]) = f(x)$ and $\tilde f([y]) = f(y)$.
+Since, by the nature of continuous functions,
+the pre-images $\tilde f^{-1}( U_x ), \tilde f^{-1}([y]) \subset H X$ are still disjoint and open,
+we have found disjoint neighbourhoods of $[x]$ and $[y]$. Hence $H X$ is Hausdorff.
+
+
+=--
+
++-- {: .num_example #SuperVectorSpaceAsAbelianSuperLieAlgebra}
+###### Example
+
+In the language of [[category theory]] (def. \ref{TopCategory}), the Hausdorffication of prop. \ref{Hausdorffication}
+says that [[Hausdorff topological spaces]] form a [[reflective subcategory]] of all [[topological spaces]].
+One denotes this as follows:
+
+$$
+  Top_{Haus}
+    \underoverset{\bot}{\overset{H}{\longleftarrow}}{\underset{\iota}{\hookrightarrow}}
+  Top
+  \,.
+$$
+
+Here
+
+$$
+  \iota \;\colon\; Top_{Haus} \hookrightarrow Top
+$$
+
+is the [[functor]] which regards a Hausdorff topological space $X$ just as a topological space $\iota(X)$, and identifies
+the [[homomorphisms]] $X \to Y$ with the homomorphisms $\iota(X) \to \iota(Y)$: after all, both are simply the
+continuous functions. A functor with this property
+
+$$
+  Hom(X,Y) \overset{\simeq}{\longrightarrow} Hom(\iota(X), \iota(Y))
+$$
+
+is called a _[[fully faithful functor]]_.
+
+The symbol "$\bot$" above indicates that the Hausdorffification functor $H$ forms an [[adjoint pair]] with this
+inclusion functor $\iota$, with $\iota$ [[right adjoint]] and $H$ [[left adjoint]]. This means that there
+is a  [[natural bijection]]
+
+$$
+  Hom_{Top}( X, \iota(Y) )
+    \;\simwq\;
+  Hom_{Top}(H X, Y)
+$$
+
+just as in the statement of prop. \ref{Hausdorffication}.
 
 =--
 
@@ -1188,8 +1419,35 @@ well defined according to example \ref{IrreducibleClosureOfPoint}) is [[bijectiv
 
 +-- {: .num_prop}
 ###### Proposition
+**([[Hausdorff implies sober]])**
 
-[[Hausdorff implies sober]]
+Every [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}) is
+a [[sober topological space]] (def. \ref{Sober}).
+
+More specifically, in a Hausdorff topological space
+the [[irreducible closed subspaces]] (def. \ref{ClosedIrreducible})
+are precisely the [[singleton]] [[subspaces]] (def. \ref{TopologicalSubspace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The second statement clearly implies the first. To see the second
+statement, suppose that $F$ is an irreducible closed subspace which
+contained two distinct points $x \neq y$. Then by the Hausdorff property
+there are disjoint neighbourhoods $U_x, U_y$, and hence it would follow that
+$F \backslash U_x$ and $F \backslash U_y$ were distinct proper closed subsets of
+$F$ with
+
+$$
+  F = (F \backslash U_x) \cup (F \backslash U_y)
+$$
+
+in contradiction to the assumption that $F$ is irreducible.
+
+This shows that every every irreducible closed subset is a singleton. 
+Conversely, generally the [[topological closure]] of every singleton is irreducible closed, by example \ref{IrreducibleClosureOfPoint}.
 
 =--
 
@@ -1387,6 +1645,9 @@ The [[Heine-Borel theorem]] asserts that a subspace $S \subset \mathbb{R}^n$ of 
 A [[discrete space]] is compact iff its underlying set is [[finite set|finite]].  In [[constructive mathematics]], a discrete space is compact iff its underlying set is [[Kuratowski-finite]].
 
 =--
+
+
+
 
 
 #### Compact-open topology
