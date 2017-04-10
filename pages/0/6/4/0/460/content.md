@@ -15,7 +15,15 @@
 
 ## Idea 
 
-If $\mathcal{O}(X)$ is the topology on a [[topological space]] $X$, and if a map $\mathcal{O}(X) \to \mathcal{O}(1)$ that preserves finite meets and arbitrary joins is considered an instance of "seeing a point $1 \to X$", then $X$ is "sober" if every point we see is really there (i.e., is induced from a point = continuous map $1 \to X$), and if we never see double. 
+If $\mathcal{O}(X)$ is the topology on a [[topological space]] $X$ (i.e. its [[frame of opens]]), and if a map $\mathcal{O}(X) \to \mathcal{O}(1)$ that preserves finite [[meets]] and arbitrary [[joins]] (a [[homomorphism]] of [[frames]]) is considered an instance of "seeing a point $1 \to X$", then $X$ is _sober_ precisely if every point we see is really there (i.e., is induced from a [[continuous function] $1 \to X$), and if we never see double. 
+
+The condition that a [[topological space]] be _sober_ is an extra condition akin to a [[separation axiom]]. In fact with [[classical logic]] it is a condition implied by the $T_2$ [[separation axiom]] ([[Hausdorff implies sober]]) and implying $T_0$.
+
+| [[separation axioms]]                 |
+|---------------------------------------|
+| $\array{\\ &&& T_2 = \text{Hausdorff}  \\ && \swArrow && \seArrow \\ \, & T_1 && && \text{sober} & \, \\ && \seArrow && \swArrow \\ &&& T_0 = \text{Kolmogorov} \\ }  $ |
+
+But the soberity condition on a topological space has deeper meaning. It means that [[continuous functions]] betwen sober topolgical spaces are entirely determined by their [[inverse image]] functions on the [[frames of opens]], disregarding the underlying sets of points. Technically this means that the sober topological spaces are precisely the [[locales]] among the topological spaces.
 
 ## Definition
 
