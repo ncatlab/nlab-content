@@ -52,9 +52,11 @@ Fix two sets ([[subsets]]) $F$ and $G$ of $S$.
    \;\;\equiv\;\;
    \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; U \cap G = \empty \;\wedge\; F \cap V = \empty .$$
    Notice that separated sets must be topologically disjoint.
-*  They are __separated by neighbourhoods__ if they have disjoint neighbourhoods:
+
+*  {#SeparatedByNeighbourhoods} They are __separated by neighbourhoods__ if they have disjoint neighbourhoods:
    $$ \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; U \cap V = \empty .$$
    Notice that sets separated by neighbourhoods must be separated.
+
 *  They are __separated by closed neighbourhoods__ if they have disjoint closed neighbourhoods:
    $$ \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; Cl(U) \cap Cl(V) = \empty .$$
    Notice that sets separated by closed neighbourhoods must be separated by neighbourhoods.
