@@ -78,7 +78,7 @@ Given a wedge $e: w \to F$ and a map $f: v \to w$, we obtain a wedge $e f: v \to
 
 +-- {: .num_defn}
 ###### Definition
-Let $F: C^{op} \times C \to X$ be a functor. An **end** of $F$ is a universal wedge, ie. a wedge $e: w \to F$ such that any other wedge $e': w' \to F$ factors through $e$ via a map $w' \to w$.
+Let $F: C^{op} \times C \to X$ be a functor. An **end** of $F$ is a universal wedge, ie. a wedge $e: w \to F$ such that any other wedge $e': w' \to F$ factors through $e$ via a unique map $w' \to w$.
 =--
 
 Dually, a cowedge is given by maps $F(c, c) \to w$ satisfying similar commutativity conditions, and a coend is a universal cowedge.
