@@ -103,6 +103,13 @@ $$ {\|x\|_p} = \sum_i {|x_i|^p} $$
 (so without the $p$th root) to ensure that the [[triangle inequality]] (\ref{Gseminorm}.3) holds.
 
 
+## Properties
+
+The uniqueness theorem for [[complete space|complete]] [[norms]] in [[dream mathematics]] applies also to F-norms: assuming [[excluded middle]], [[dependent choice]], and the (classically false) [[Borel property]], two complete F-norms on a given [[vector space]] over the [[real numbers]] must be [[topological equivalence|topologically equivalent]].  See [[norm#dreamUnique]].
+
+
+category: analysis
+
 [[!redirects F-space]]
 [[!redirects F-spaces]]
 [[!redirects F space]]
