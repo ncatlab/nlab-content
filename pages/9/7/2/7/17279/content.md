@@ -15,3 +15,7 @@ What is called _resurgence theory_ is a mathematical formalization of what in ph
 
 * Marco Serone, Gabriele Spada, Giovanni Villadoro, _Instantons from Perturbation Theory_ ([arXiv:1612.04376](https://arxiv.org/abs/1612.04376))
 
+* Itzykson seminar at IHES,  _Resurgence and Quantization_, April 2017 ([web](https://www.fondation-hadamard.fr/fr/lmh-mathematiques-et-physique/seminaire-itzykson))
+
+
+[[!redirects resurgence]]
