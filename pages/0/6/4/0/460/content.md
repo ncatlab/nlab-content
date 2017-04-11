@@ -369,9 +369,13 @@ The [[category]] of sober spaces is [[reflective subcategory|reflective]] in the
 
 This reflection is also induced by the [[idempotent adjunction]] between spaces and [[locales]]; thus sober spaces are precisely those spaces that are the spaces of points of some [[locale]], and the [[category]] of sober spaces is [[equivalence of categories|equivalent]] to the category of [[locales with enough points]]. 
 
+Recall the [[point]] topological space $\ast \coloneqq ( \{1\}, \tau_\ast = \left\{ \emptyset, \{1\}\right\} )$.
 
 
-Let $(X,\tau)$ be a [[topological space]]. Recall the [[point]] topological space $\ast \coloneqq ( \{1\}, \tau_\ast = \left\{ \emptyset, \{1\}\right\} )$.
++-- {: .num_defn #SoberificationConstruction}
+###### Definition
+
+Let $(X,\tau)$ be a [[topological space]]. 
 
 Define $S X$ to be the set
 
@@ -392,7 +396,7 @@ $$
   \,.
 $$
 
-There is a function
+Consider the function
 
 $$
   \array{
@@ -404,17 +408,65 @@ $$
 
 which sends an element $x \in X$ to the function which assigns [[inverse images]] of the [[constant function]] $const_x \;\colon\; \{1\} \to X$ on that element.
 
+=--
+
++-- {: .num_lemma #SoberificationConstructionWellDefined}
+###### Lemma
+
+The construction $(S X, \tau_{S X})$ in def. \ref{SoberificationConstruction} is a [[topological space]], and the function $s_X \colon X \to S X$ is a [[continuous function]]
+
+$$
+  s_X \colon (X, \tau_X) \longrightarrow (S X, \tau_{S X})
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
 To see that $s_X$ is continuous, observe that $s_X^{-1}(\tilde U) = U$, by construction.
 
-Observe that by lemma \ref{FrameHomomorphismsToPointAreIrrClSub} there is an identification $S X \simeq IrrClSub(X)$ and under this identification $s_X$ is identified with the map $x \mapsto Cl(\{x\})$. Hence $s_X$ is 
+=--
 
-* a monomorphism precisely if $X$ is $T_0$;
++-- {: .num_prop}
+###### Proposition
 
-* a bijection precisely if $X$ is sober. 
+Hence $s_X$ is 
 
-Moreover, $S X$ is sober. ([Johnstone, lemma II.1.7](#Johnstone))
+* an [[injection]] precisely if $X$ is [[separation axiom|T0]];
+
+* a [[bijection]] precisely if $X$ is sober. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that by lemma \ref{FrameHomomorphismsToPointAreIrrClSub} there is an identification $S X \simeq IrrClSub(X)$ and under this identification $s_X$ is identified with the map $x \mapsto Cl(\{x\})$. 
+
+Hence the second statement follows by definition, and the first statement by [this prop.](separation+axioms#T0InTermsOfClosureOfPoints)
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
 
 
+For $(X,\tau)$ a [[topological space]], then the topological space $(S X, \tau_{S X})$ from def. \ref{SoberificationConstruction}, lemma \ref{SoberificationConstructionWellDefined} is sober. 
+
+=--
+
+(e.g. [Johnstone, lemma II 1.7](#Johnstone))
+
++-- {: .proof}
+###### Proof
+
+Let $S X \backslash \tilde U$ be an [[irreducible closed subspace]] of $(S X, \tau_{S X})$. We need to show that it is the [[topological closure]] of a unique element $\phi \in S X$.
+
+Observe then that also $X \backslash U$ is irreducible. To see this use [this prop.](irreducible closed subspace#OpenSubsetVersionOfClosedIrreducible), saying that irreducibility of $X \backslash U$ is equivalent to $U_1 \cap U_2 \subset U \Rightarrow (U_1 \subset U) or (U_2 \subset U)$. But if $U_1 \cap U_2 \subset U$ then also $\tilde U_1 \cap \tilde U_2 \subset \tilde U$ (because...) and hence by assumption in $\tilde U$ it follows that $\tilde U_1 \subset \tilde U$ or $\tilde U_2 \subset \tilde U$. This in turn implies $U_1 \subset U$ or $U_2 \subset U$ (??)
+
+=--
 
 
 ### Enough points
