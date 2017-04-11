@@ -163,7 +163,12 @@ Conversely, any [[topological space]] has a [[frame of opens|frame of open subse
 
 ## Examples
 
-* For $X$ a [[topological space]], the [[category of open subsets]] of $X$ is a frame: the [[frame of opens]]. 
++-- {: .num_example}
+###### Example
+
+For $X$ a [[topological space]], the [[category of open subsets]] of $X$ is a frame: the [[frame of opens]]. 
+
+=--
 
 +-- {: .num_prop} 
 ###### Proposition 
