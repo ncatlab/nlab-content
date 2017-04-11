@@ -79,22 +79,14 @@ $$
   \tau_X \longleftarrow \tau_Y \;\colon\; \phi
 $$
 
-between their [[frame of opens|sets of open subsets]] is called a _[[frame]] [[homomorphism]]_ if it preserves
-
-1. inclusions;
+between their [[frame of opens|sets of open subsets]] is called a _[[frame]] [[homomorphism]]_
+if it preserves
 
 1. arbitrary [[unions]];
 
 1. [[finite number|finite]] [[intersections]].
 
 In other words, $\phi$ is a frame homomorphism if
-
-1. for every inclusion $U_1 \subset U_2$ with $U_1, U_2 \in \tau_Y \subset P(Y)$ then
-
-   $$
-     \phi(U_1) \subset \phi(U_2) \;\;\;\;\;\;\; \in \tau_X
-     \,,
-   $$
 
 1. for every [[set]] $I$ and every $I$-indexed set $\{U_i \in \tau_Y\}_{i \in I}$ of elements of $\tau_Y$, then
 
@@ -109,12 +101,48 @@ In other words, $\phi$ is a frame homomorphism if
      \phi\left(\underset{j \in J}{\cap} U_j\right)
        \;=\;
      \underset{j \in J}{\cap} \phi(U_j)
-     \;\;\;\;
-     \in \tau_X
+     \;\;\;\;\in \tau_X
      \,.
    $$
 
 =--
+
++-- {: .num_remark #PreservationOfInclusionsByFrameHomomorphism}
+###### Remark
+
+A [[frame]] [[homomorphism]] $\phi$ as in def. \ref{HomomorphismOfFramesOfOpens}
+necessarily also preserves inclusions in that 
+
+* for every inclusion $U_1 \subset U_2$ with $U_1, U_2 \in \tau_Y \subset P(Y)$ then
+
+  $$
+    \phi(U_1) \subset \phi(U_2) \;\;\;\;\;\;\; \in \tau_X
+    \,.
+  $$
+  
+This is because inclusions are witnessed by unions
+
+$$
+  (U_1 \subset U_2)
+    \;\Leftrightarrow\;
+  \left( U_1 \cup U_2 = U_2 \right)
+$$
+
+and by finite intersections:
+
+$$
+  (U_1 \subset U_2)
+    \;\Leftrightarrow\;
+  \left(
+    U_1 \cap U_2 = U_1
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
 
 For
 
@@ -129,6 +157,8 @@ $$
 $$
 
 is a frame homomorphism according to def. \ref{HomomorphismOfFramesOfOpens}.
+
+=--
 
 For sober topological spaces the converse holds:
 
@@ -152,27 +182,22 @@ $$
 
 =--
 
-Stated more abstractly this says that sober topological spaces are equivalent the [[locales with enough points]].
+Stated more abstractly this says that sober topological spaces are [[equivalence of categories|equivalently]] the [[locales with enough points]].
 
 +-- {: .proof}
 ###### Proof
 
 Let $\ast = (\{x\}, \tau_\ast = \{\emptyset, \{1\}\})$ be the [[point]] [[topological space]].
 
-By precomposition
-
-$$
-  \ast \longrightarrow X \longrightarrow Y
-$$
-
-it is sufficient to see that frame homomorphisms of the form
+We first consider the special case of frame homomorphisms of the form
 
 $$
   \tau_\ast \longleftarrow \tau_X \;\colon\; \phi_\ast
 $$
 
-are in bijection to the underlying $X$, identified with the continuous functions
-$\ast \to (X,\tau)$. 
+and show that these are in bijection to the underlying set $X$, identified with the continuous functions
+$\ast \to (X,\tau)$.
+
 
 To this end, consider the [[union]] $U_{\emptyset}$ of all elements $U \in \tau_x$ such that $\phi_\ast(U) = \emptyset$:
 
@@ -184,17 +209,21 @@ $$
   \,.
 $$
 
-Then observe that if there are two elements $U_1, U_2 \in \tau_X$ with $U_1 \cap U_2 = U_{\emptyset}$
-then $U_1 \subset U_{\emptyset}$ or $U_2 \subset U_{\emptyset}$.
+Then observe that: 
+
+
+$(\ast)$ _If there are two elements $U_1, U_2 \in \tau_X$ with $U_1 \cap U_2 \subset U_{\emptyset}$
+then $U_1 \subset U_{\emptyset}$ or $U_2 \subset U_{\emptyset}$._
+
 This is because
 
 $$
   \begin{aligned}
     \phi_\ast(U_1 \cap U_2) 
     & = 
-    \phi(U_1) \cap \phi(U_2) 
+    \phi_\ast(U_1) \cap \phi_\ast(U_2) 
     \\
-    & \subset \phi(U_{\emptyset}) 
+    & \subset \phi_\ast(U_{\emptyset}) 
     \\
     & = 
     \emptyset
@@ -202,14 +231,14 @@ $$
   \,,
 $$
 
-(where the first equality holds because $\phi$ preserves finite intersections, the inclusion holds because $\phi$ respects
-inclusions, and the second equality holds because $\phi$ preserves arbitrary unions).
+(where the first equality holds because $\phi_\ast$ preserves finite intersections by def. \ref{HomomorphismOfFramesOfOpens}, the inclusion holds because $\phi_\ast$ respects
+inclusions by remark \ref{PreservationOfInclusionsByFrameHomomorphism}, and the second equality holds because $\phi_\ast$ preserves arbitrary unions by def. \ref{HomomorphismOfFramesOfOpens}).
 But in $\tau_\ast = \{\emptyset, \{1\}\}$ the intersection of two open subsets is empty precisely if at least one of them is empty,
 hence $\phi(U_1) = \emptyset$ or $\phi(U_2) = \emptyset$. But this means that $U_1 \subset U_{\emptyset}$ or $U_2 \subset U_{\emptyset}$,
 as claimed.
 
 Now according to [this prop.](irreducible+closed+subspace#OpenSubsetVersionOfClosedIrreducible)
-this condition identifies the [[complement]] 
+this condition $(\ast)$ identifies the [[complement]] 
 $X \backslash U_{\emptyset}$ as an [[irreducible closed subspace]] of $(X,\tau)$. 
 Therefore by assumption of [[sober topological space|sobriety]] of $(X,\tau)$ there is a unique point
 $x \in X$ with $X \backslash U_{\emptyset} = Cl(\{x\})$. In particular this means that for $U_x$ an open 
@@ -217,7 +246,7 @@ neighbourhood of $x$, then $U_x$ is not a subset of $U_\emptyset$, and so it fol
 In conclusion we have found a unique $x \in X$ such that
 
 $$
-  \phi  
+  \phi_\ast  
     \;\colon\;
   U \mapsto 
   \left\{
@@ -231,6 +260,31 @@ $$
 $$
 
 This is precisely the the [[inverse image]] function of the continuous function $\ast \to X$ which sends $1 \mapsto x$.
+
+Hence this establishes the bijection between frame homomorphisms of the form $\tau_\ast \longleftarrow \tau_X$
+and continuous functions of the form $\ast \to (X,\tau)$.
+
+With this it follows that a general frame homomorphism of the form $\tau_X \overset{\phi}{\longleftarrow} \tau_Y$
+defines a function of sets $X \overset{f}{\longrightarrow} Y$ by [[composition]]:
+
+$$
+  \array{
+    X &\overset{f}{\longrightarrow}& Y
+    \\
+    (\tau_\ast \leftarrow \tau_X)
+    &\mapsto&
+    (\tau_\ast \leftarrow \tau_X \overset{\phi}{\longleftarrow} \tau_Y)
+  }
+  \,.
+$$
+
+By the previous analysis, an element $U_Y \in \tau_Y$ is sent to $\{1\}$ under this composite precisely if
+the corresponding point $\ast \to X \overset{f}{\longrightarrow} Y$ is in $U_Y$, and similarly for 
+an element $U_X \in \tau_X$. It follows that $\phi(U_Y) \in \tau_X$ is precisely that subset of 
+points in $X$ which are sent by $f$ to elements of $U_Y$, hence that $\phi = f^{-1}$ is the [[pre-image]]
+function of $f$. Since $\phi$ by definition sends open subsets of $Y$ to open subsets of $X$, it follows
+that $f$ is indeed a continuous function. This proves the claim in generality.
+
 
 =--
 
@@ -248,7 +302,7 @@ This reflection is also induced by the [[idempotent adjunction]] between spaces 
 A topological space has enough points in the sense of def. \ref{EnoughPointsOfATopologicalSpace} if and only if its $T_0$ quotient is sober.  The category of topological spaces with enough points is a [[reflective subcategory]] of the category [[Top]] of all topological spaces, and a topological space is [[T0]] iff this reflection is sober.
 
 
-## Examples 
+## Examples and Non-examples
 
 * With [[classical logic]], every [[Hausdorff space]] is sober, but this can fail [[constructive mathematics|constructively]]. See at _[[Hausdorff implies sober]]_.
 
@@ -259,12 +313,16 @@ A topological space has enough points in the sense of def. \ref{EnoughPointsOfAT
   * The [[cofinite topology]] on a non-[[finite set]] is $T_1$ but not sober. 
 
  
-
 * The topological space underlying any [[scheme]] is sober. See at _[[schemes are sober]]_.
 
-## Non-examples
 
-* Any nontrivial [[indiscrete space]] is not sober, since it is not $T_0$. More interestingly, the space $R^2$ with the [[Zariski topology]] is $T_1$ but not sober, since every subvariety is an irreducible closed set which is not the [[topological closure|closure]] of a point.  Its _soberification_ is, unsurprisingly, the [[scheme]] $Spec(R[x,y])$, which contains "generic points" whose closures are the subvarieties. 
+Further examples of spaces that are _not_ sober includes the following:
+
+* Any nontrivial [[indiscrete space]] is not sober, since it is not $T_0$. 
+
+More interestingly: 
+
+* For $R$ a [[commutative ring]], then the space $R^2$ with the [[Zariski topology]] is $T_1$ but not sober, since every subvariety is an irreducible closed set which is not the [[topological closure|closure]] of a point.  Its _soberification_ is, unsurprisingly, the [[scheme]] $Spec(R[x,y])$, which contains "generic points" whose closures are the subvarieties. 
 
 The following non-example shows that sobriety is not a hereditary separation property, i.e., [[topological subspaces]] of sober spaces need not be sober:
 
