@@ -67,7 +67,7 @@ What makes the concept of sober topological spaces special is that
 for them the concept of [[continuous functions]] may be expressed entirely in terms
 of the relations between their [[open subsets]], disregarding the underlying set of points of which these open are in fact subsets. 
 In order to express this
-property, we first introduce the following terminology:
+property (proposition \ref{FrameMorphismsBetweenOpensOfSoberSpaces} below), we first introduce the following terminology:
 
 +-- {: .num_defn #HomomorphismOfFramesOfOpens}
 ###### Definition
@@ -162,7 +162,7 @@ is a frame homomorphism according to def. \ref{HomomorphismOfFramesOfOpens}.
 
 For sober topological spaces the converse holds:
 
-+-- {: .num_prop}
++-- {: .num_prop #FrameMorphismsBetweenOpensOfSoberSpaces}
 ###### Proposition
 
 If $(X,\tau_X)$ and $(Y,\tau_Y)$ are [[sober topological spaces]], then
@@ -187,7 +187,7 @@ Stated more abstractly this says that sober topological spaces are [[equivalence
 +-- {: .proof}
 ###### Proof
 
-Let $\ast = (\{x\}, \tau_\ast = \{\emptyset, \{1\}\})$ be the [[point]] [[topological space]].
+Let $\ast = (\{1\}, \tau_\ast = \{\emptyset, \{1\}\})$ be the [[point]] [[topological space]].
 
 We first consider the special case of frame homomorphisms of the form
 
@@ -259,7 +259,7 @@ $$
   \,.
 $$
 
-This is precisely the the [[inverse image]] function of the continuous function $\ast \to X$ which sends $1 \mapsto x$.
+This is precisely the [[inverse image]] function of the continuous function $\ast \to X$ which sends $1 \mapsto x$.
 
 Hence this establishes the bijection between frame homomorphisms of the form $\tau_\ast \longleftarrow \tau_X$
 and continuous functions of the form $\ast \to (X,\tau)$.
@@ -290,12 +290,51 @@ that $f$ is indeed a continuous function. This proves the claim in generality.
 
 
 
-### Reflection
+### Soberification reflection
  {#Reflection}
 
 The [[category]] of sober spaces is [[reflective subcategory|reflective]] in the category of all topological spaces; the [[left adjoint]] is called the **soberification**.  
 
-This reflection is also induced by the [[idempotent adjunction]] between spaces and [[locales]]; thus sober spaces are precisely those spaces that are the space of points of some [[locale]], and the [[category]] of sober spaces is [[equivalence of categories|equivalent]] to the category of [[locales with enough points]]. 
+This reflection is also induced by the [[idempotent adjunction]] between spaces and [[locales]]; thus sober spaces are precisely those spaces that are the spaces of points of some [[locale]], and the [[category]] of sober spaces is [[equivalence of categories|equivalent]] to the category of [[locales with enough points]]. 
+
+
+
+Let $(X,\tau)$ be a [[topological space]]. Recall the [[point]] topological space $\ast \coloneqq ( \{1\}, \tau_\ast = \left\{ \emptyset, \{1\}\right\} )$.
+
+Define $S X$ to be the set
+
+$$
+  S X \coloneqq Hom_{Frame}( \tau_X, \tau_\ast )
+$$
+
+of [[frame]] [[homomorphisms]] from the [[frame of opens]] of $X$ to that of the point. Define a topology $\tau_{S X} \subset P(S X)$ on this set by declaring it to have one element $\tilde U$ for each element $U \in \tau_X$ and given by
+
+$$
+  \tilde U
+    \;\coloneqq\;
+  \left\{
+    \phi \in S X
+    \,\vert\,
+    \phi(U) = \{1\}
+  \right\}
+  \,.
+$$
+
+There is a function
+
+$$
+  \array{
+    X &\overset{s_X}{\longrightarrow}& S X
+    \\
+    x &\mapsto& (const_x)^{-1}
+  }
+$$
+
+which sends an element $x \in X$ to the function which assigns [[inverse images]] of the [[constant function]] $const_x \;\colon\; \{1\} \to X$ on that element.
+
+To see that $s_X$ is continuous, observe that $s_X^{-1}(\tilde U) = U$, by construction.
+
+
 
 ### Enough points
 
