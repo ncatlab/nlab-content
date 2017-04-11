@@ -157,7 +157,8 @@ $$
 +-- {: .proof}
 ###### Proof
 
-There are various ways to construct $h_X$, see below prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces} and prop. ...
+There are various ways to construct $h_X$, see below prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces} and prop. \ref{HausdorffReflectionViaClosureOfDiagonal}.
+
 
 =--
 
@@ -175,7 +176,7 @@ says that
 
    $$
      Top_{Haus}
-       \underoverset{\overset{H}{\longleftarrow}}{\underset{\iota}{\hookrightarrow}}{\bot}
+       \underoverset{\underset{\iota}{\hookrightarrow}}{\overset{H}{\longleftarrow}}{\bot}
      Top
      \,.
    $$
@@ -183,8 +184,7 @@ says that
 
 =--
 
-There are various ways to see the existence and to construct the Hausdorff reflection. :
-
+There are various ways to see the existence and to construct the Hausdorff reflection. The following is maybe the quickest way to see the existence, even though it leaves the actual construction rather implicit.
 
 
 +-- {: .num_prop #HausdorffReflectionViaHomsIntoAllHausdorffSpaces}
@@ -232,10 +232,62 @@ Since, by the nature of continuous functions,
 the pre-images $\tilde f^{-1}( U_x ), \tilde f^{-1}([y]) \subset H X$ are still disjoint and open,
 we have found disjoint neighbourhoods of $[x]$ and $[y]$. Hence $H X$ is Hausdorff.
 
+=--
+
+The following is a more direct way to actually construct the Hausdorff reflection:
+
++-- {: .num_prop #HausdorffReflectionViaClosureOfDiagonal}
+###### Proposition
+
+
+Let $X$ be a [[topological space]] and write $Cl(\Delta_X)$ for the [[topological closure]] of the [[image]] of the [[diagonal]] map 
+
+$$
+  \array{
+     X &\overset{\Delta_X}{\longrightarrow}& Y
+     \\
+     x &\mapsto& (x,x)
+  }
+$$
+
+in the [[product topological space]] $X \times X$. Define an [[equivalence relation]] $\sim$ on $X$ to be given by $Cl(\Delta_X)$, i.e.
+
+$$
+  (x \sim y)
+    \;\Leftrightarrow\;
+  (x,y) \in Cl(\Delta_X)
+  \,.
+$$
+
+Then in [[classical logic]] the [[quotient topological space]]
+
+$$
+  H X \coloneqq X/\sim
+$$
+
+is a Hausdorff topological space and the [[quotient]] map
+
+$$
+  h_X \;\colon\; X \longrightarrow H X
+$$
+
+exhibits $H X$ as the Hausdorff reflection of $X$, according to prop. \ref{HausdorffReflection}.
+
+In particular this implies that $X$ is Hausdorff precisely if the diagonal $\Delta_X \colon X \to X \times X$ is a [[closed map]].
 
 =--
 
++-- {: .proof}
+###### Proof
 
+
+Observe that two points $x,y \in X$ are not [separated by neighbourhoods](separation+axioms#SeparatedByNeighbourhoods) precisely if $(x,y) \in Cl(\Delta_X)$. Because the latter means equivalently that every basic open neighbourhood $U_x \times U_y$ of $(x,y)$ in the product topology $X \times X$ contains a point $(z,z)$ on the diagonal, which means equivalently that $z \in U_x \cap U_y$, hence equivalently that $x$ and $y$ are not separated by open neighbourhoods.
+
+This directly implies that $X/\sim$ is Hausdorff.
+
+To see that every continuous function $f \colon X \longrightarrow Y$ into a Hausdorff space $Y$ factors uniquely through this $H X$, we need to see that if $(x,y) \in Cl(\Delta_X)$ then $f(x) = f(y)$. Assume on the contrary that $f(x) \neq f(y)$. Then by $Y$ being Hausdorff, this would imply the existence of disjoint open neighbourhoods $V_{f(x)}$ and $V_{f(y)}$. By continuity of $f$, their preimages $f^{-1}(V_{f(x)})$ and $f^{-1}(V_{f(y)})$ would still be disjoint open neighbourhoods, now of $x$ and $y$, contradicting the fact that these do not exist, by the previous statement. This proves the claim [[proof by contradiction|by contradiction]].
+
+=--
 
 ### Monadicity
 
