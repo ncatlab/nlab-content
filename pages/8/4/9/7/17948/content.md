@@ -18,7 +18,7 @@
 =--
 
 
-Diese Seite behandelt _Topologie_ als **Untergebiet der [[mathematics|Mathemaik]]**.  Zu "Topologie" im Sinne von **[[structured set|Struktur]]** auf einer [[set|Menge]], siehe _[[topological space|topologischer Raum]]_.
+Diese Seite behandelt _Topologie_ als **Untergebiet der [[mathematics|Mathematik]]**.  Zu "Topologie" im Sinne von **[[structured set|Struktur]]** auf einer [[set|Menge]], siehe _[[topological space|topologischer Raum]]_.
 
 ***
 
@@ -47,7 +47,7 @@ Im Folgenden geben wir eine kurze Einf&#252;hrung zu den zentralen Konzepten und
 
 * _[Zusammenhangskomponenten](#ConnectedComponents)_
 
-* _[Fundamentalgruppe](#FundamentalGroup)_
+* _[Fundamentalgruppe](#FundamentalGroups)_
 
 * _[&#220;berlagerungsr&#228;ume](#CoveringSpaces)_
 
@@ -944,7 +944,7 @@ Die en&#228;chset topologische Invariante nach den [[connected components|Zusamm
 
 
 ### Fundamentalgruppe
- {#FundamentalGroup}
+ {#FundamentalGroups}
 
 
 +-- {: .num_defn #FundamentalGroup}
