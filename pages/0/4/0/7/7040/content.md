@@ -34,6 +34,8 @@ Besides the axioms themselves, other nice properties hold in dream mathematics. 
 
 *  On a [[localizable measure|localisable measure space]], the [[dual vector space|dual]] of the [[Lebesgue space]] $L^\infty$ is $L^1$ (so these two spaces are [[reflexive Banach space|reflexive]]).
 
+*  Any two [[complete space|complete]] [[norms]] (or even [[F-norms]]) on a given [[vector space]] over the [[real numbers]] must be [[topological equivalence|topologically equivalent]], which nicely explains why you have never seen two *specific* inequivalent complete norms on a given real vector space.
+
 
 ## References
 
