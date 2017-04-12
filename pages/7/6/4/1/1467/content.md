@@ -176,6 +176,12 @@ The [[Heine-Borel theorem]] asserts that a subspace $S \subset \mathbb{R}^n$ of 
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+[[sequentially compact metric spaces are equivalently compact metric spaces]]
+
+=--
 
 +-- {: .num_prop }
 ###### Proposition
