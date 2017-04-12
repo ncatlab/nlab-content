@@ -1,17 +1,25 @@
 
-## Background
-
-* [[homotopy theory]]
+**[[homotopy theory]]**
 
 * [[algebraic topology]], [[simplicial homotopy theory]]
 
-* [[homotopy]]
+## Introductions
+
+* [[Introduction to Homotopy Theory]]
+
+* [[geometry of physics -- homotopy types]]
+
+## Background
+
+* [[homotopy]], [[higher homotopy]]
 
 * [[homotopy type]]
 
 ## Variations
 
 * [[stable homotopy theory]]
+
+* [[geometric homotopy theory]]
 
 * [[proper homotopy theory]]
 
