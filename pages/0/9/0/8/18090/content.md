@@ -3,6 +3,27 @@
 {:principle: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 
+
+***
+
+This page is a detailed introduction to basic [[topology]].
+Starting from scratch (required background is just a basic concept of _[[sets]]_), and amplifying motivation from [[analysis]],
+it first develops standard [[point-set topology]] ([[topological spaces]]). 
+In passing, some basics of [[category theory]] make an informal appearance,
+used to transparently summarize some conceptually important aspects of the theory, such as the [[reflective subcategory|reflection]] into 
+[[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]].
+The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
+and ends with their first application to the classification of [[covering spaces]].
+
+For introduction to genuine _[[homotopy theory]]_ see instead
+at _[[Introduction to Homotopy Theory]]_.
+
+> Under construction.
+
+***
+
+$\,$
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -12,20 +33,6 @@
 =--
 =--
 =--
-
-***
-
-This page is a detailed introduction to basic [[topology]] ([[point-set topology]])
-starting from scratch with motivation from [[analysis]]
-and ending with the first elementary application of [[homotopy theory]]: [[covering spaces]].
-For introduction to genuine _[[homotopy theory]]_ see instead 
-at _[[Introduction to Homotopy Theory]]_.
-
-> Under construction.
-
-***
-
-$\,$
 
 
 #Contents#
@@ -60,14 +67,14 @@ a continous [[bijection|bijective]] function from the [[torus]] to the surface o
 handle of the coffee mug, and continuously deforms parts of the other half in order to form the actual cup.
 Since the [[inverse function]] to this function is itself continuous,
 the torus and the coffee mug, both regarded as [[topological spaces]], are "[[isomorphism|the same]]"
-for all practical purposes, one says they are _[[homeomorphic]]_.
+for the purposes of [[topology]], one says they are _[[homeomorphic]]_.
 
-On the other hand, there is _no_ [[homeomorphism]] from the [[torus]] to the [[sphere]], signifying that these
+On the other hand, there is _no_ [[homeomorphism]] from the [[torus]] to, for instance, the [[sphere]], signifying that these
 represent two topologically distinct spaces. Part of topology is concerned with studying [[homeomorphism]]-[[invariants]]
 of topological spaces which allow to detect by means of [[algebra|algebraic]] manipulations
 whether two topological spaces are homeomorphic
 (or more generally [[homotopy equivalence|homotopy equivalent]]). This is called _[[algebraic topology]]_.
-A basic algebraic invariant is the [[fundamental group]] of a topological space (discussed [below](#FundamentalGroup)),
+A basic algebraic invariant is the [[fundamental group]] of a topological space (discussed [below](#FundamentalGroups)),
 which measures how many ways there are to wind loops inside a topological space.
 
 Beware that the popular imagery of "[[rubber-sheet geometry]]" only captures part of the full scope of topology,
@@ -81,7 +88,8 @@ to admit in the theory,
 extra "[[separation axioms]]" are imposed on topological spaces (see [below](#SeparationAxiom)), and the flavour of topology as a field
 depends on this choice.
 
-Among the separation axioms, the axiom of [[sober topological space|soberity]] (see [below](#SoberSpaces)) stands out, on the one
+Among the separation axioms, the _[[Hausdorff topological space|Hausdorff space]]_ axiom is most popular
+(see [below](#TnTopologicalSpaces)) the weaker axiom of [[sober topological space|soberity]] (see [below](#SoberSpaces)) stands out, on the one
 hand because this is the weakest axiom that is still naturally satisfied in applications to [[algebraic geometry]] ([[schemes are sober]])
 and [[computer science]] ([Vickers 89](#Vickers89)) and on the other hand because it fully realizes the strong roots that
 topology has in [[formal logic]]: [[sober topological spaces]] are entirely characterized by the
@@ -107,12 +115,11 @@ In this first part we discuss the foundations of the concept of "sets equipped w
 ### Metric spaces
  {#Continuity}
 
-The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to a more
-abstract concept of "continuous space", this is the concept of _[[topological spaces]]_, def. \ref{TopologicalSpace} below.
-Topology is the study of the [[category]] of [[topological spaces]].
+The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to a more abstract concept of "continuous space", this is the concept of _[[topological spaces]]_, def. \ref{TopologicalSpace} below.
 
-
-First recall the basic concepts from [[analysis]]:
+Here we briefly recall the relevant basic concepts from [[analysis]], as a motivation for various definitions in 
+[[topology]]. The reader who either already recalls these concepts in analysis
+or is content with ignoring the motivation of topology from analysis should skip right away to the section _[Topological spaces](#TopologicalSpaces)_.
 
 +-- {: .num_defn #MetricSpace}
 ###### Definition
@@ -276,6 +283,7 @@ the [[p-norm]] generalizes to non-[[finite dimensional vector spaces]] such as [
 
 
 #### Continuity
+ {#ContinuityInAnalysis}
 
 The following now is the fairly obvious definition of continuity for functions between metric spaces.
 
@@ -446,7 +454,7 @@ $$
 > graphics grabbed from [Vickers 89](#Vickers89)
 
 Consider then for $a \lt b \in \mathbb{R}$ the [[open interval]] $(a,b) \subset \mathbb{R}$,
-an [[open subset]] accordiing to example \ref{OpenAndClosedIntervals}.
+an [[open subset]] according to example \ref{OpenAndClosedIntervals}.
 The [[preimage]] of this open subset is
 
 $$
@@ -685,7 +693,7 @@ A set $X$ equipped with such a [[topology]] is called a _[[topological space]]_.
 
 In the field of [[topology]] it is common to eventually simply say "[[space]]" as shorthand for "[[topological space]]".
 This is especially so as further qualifiers are added, such as "Hausdorff  space" (def. \ref{HausdorffTopologicalSpace} below).
-But beware that there are other kinds of spaces in mathematics.
+But beware that there are other kinds of [[spaces]] in mathematics.
 
 =--
 
@@ -695,7 +703,9 @@ But beware that there are other kinds of spaces in mathematics.
 The simple definition of [[open subsets]] in def. \ref{TopologicalSpace} and the simple
 implementation of the _principle of continuity_ below in def. \ref{ContinuousMaps}
 gives the field of [[topology]] its fundamental and universal flavor. The combinatorial nature of these definitions makes
-topology be closely related to [[formal logic]], see [Vickers 89](#Vickers89).
+topology be closely related to [[formal logic]]. This becomes more manifest still for the "[[sober topological space]]"
+discussed [below](#SoberSpaces). For more on this perspective see also at _[[locale]]_. 
+An introductory textbook amplifying this perspective is ([Vickers 89](#Vickers89)).
 
 =--
 
@@ -717,13 +727,14 @@ one says that
 
 * the topology $\tau_2$ is _[[finer topology|finer]]_ than the topology $\tau_2$
 
-* the topology $\tau_1$ is _[[coarser topology|corarser]]_ than the topology $\tau_1$.
+* the topology $\tau_1$ is _[[coarser topology|coarser]]_ than the topology $\tau_1$.
 
 =--
 
 
 
 #### Examples
+ {#TopologicalSpacesExamples}
 
 We discuss some basic examples of [[topological spaces]] (def. \ref{TopologicalSpace}).
 
@@ -775,7 +786,7 @@ making it a [[topological space]] according to def. \ref{TopologicalSpace},
 namely
 
 $$
-  \tau 
+  \tau
     \coloneqq
   \left\{
     \emptyset , \{1\}
@@ -789,7 +800,7 @@ regarded as the 0-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}).
 We write
 
 $$
-  \ast \coloneqq (\{x\}, \left\{ \emptyset, \{x\}\right\})
+  \ast \coloneqq (\{1\}, \left\{ \emptyset, \{1\}\right\})
 $$
 
 for this topological space and call it _the [[point]]_.
@@ -803,7 +814,7 @@ On the 2-element set $\{0,1\}$ there are (up to [[permutation]] of elements) thr
 
 1. the _[[codiscrete topology]]_ (def. \ref{CoDiscreteTopology}) $\tau = \left\{   \emptyset, \{0,1\}  \right\}$;
 
-1. the _[[discrete topology]]_ (def. \ref{CoDiscreteTopology}), $\tau = \left\{   \emptyset, \{0\}, \{1\} \{0,1\}  \right\}$;
+1. the _[[discrete topology]]_ (def. \ref{CoDiscreteTopology}), $\tau = \left\{   \emptyset, \{0\}, \{1\}, \{0,1\}  \right\}$;
 
 1. the _[[Sierpinski space]]_ topology $\tau = \left\{\emptyset, \{1\}, \{0,1\}  \right\}$.
 
@@ -829,7 +840,7 @@ Let $S$ be any [[set]]. Then there are always the following two extreme
 possibilities of equipping $X$ with a topology $\tau \subset P(X)$ in the sense of
 def. \ref{TopologicalSpace}, and hence making it a [[topological space]]:
 
-1. $\tau \coloneq P(S)$ the set of _all_ open subsets;
+1. $\tau \coloneqq P(S)$ the set of _all_ open subsets;
 
    this is called the _[[discrete topology]]_ on $S$, it is the [[finer topology|finest topology]] (def. \ref{TopologyFinerCoarser}) on $X$,
 
@@ -872,7 +883,7 @@ $$
 $$
 
 is the topological space whose underlying set is the [[disjoint union]] of the underlying sets of the summand spaces,
-and whose open subsets are precisely the disjoint unions of the open subsets of the summand spaces. 
+and whose open subsets are precisely the disjoint unions of the open subsets of the summand spaces.
 
 In particular, for $I$ any index set, then the disjoint union
 
@@ -966,7 +977,7 @@ identifying the remaining sides (the _[[torus]]_).
 =--
 
 
-These constructions of [[discrete topological spaces]], [[quotient topological spaces]], [[topological subspaces]] and of [[product topological spaces]] are simple examples of **[[limits]]** and of **[[colimits]]** of topological spaces. The [[category]] [[Top]] of topological spaces has the convenient property that _all_ [[limits]] and [[colimits]] (over [[small diagrams]]) exist in it. We discuss this below in 
+These constructions of [[discrete topological spaces]], [[quotient topological spaces]], [[topological subspaces]] and of [[product topological spaces]] are simple examples of **[[limits]]** and of **[[colimits]]** of topological spaces. The [[category]] [[Top]] of topological spaces has the convenient property that _all_ [[limits]] and [[colimits]] (over [[small diagrams]]) exist in it. We discuss this below in
 _[Universal constructions](#UniversalConstructions)_
 
 
@@ -1149,7 +1160,7 @@ Under these equivalences, the two conditions are manifestly the same.
 =--
 
 We will consider yet another equivalent characterization of irreducible closed subsets.
-Stating this requires the following concept of "[[frame]]" [[homomorphism]], 
+Stating this requires the following concept of "[[frame]]" [[homomorphism]],
 the natural kind of [[homomorphisms]] between [[topological spaces]] if we were to forget the
 underlying set of points of a topological space, and only remember the set $\tau_X$ with its
 finite intersections and arbitrary unions:
@@ -1512,6 +1523,7 @@ A [[continuous function]] $f \colon (X,\tau_X) \to (Y, \tau_Y)$ (def. \ref{Conti
 
 
 #### Examples
+ {#ContinuousFunctionsExamples}
 
 We discuss some basic examples of [[continuous functions]] (def. \ref{ContinuousMaps}) between [[topological spaces]] (def. \ref{TopologicalSpace}).
 
@@ -1615,6 +1627,8 @@ which are open by the axioms on the topology $\tau_X$.
 
 
 #### Homeomorphism
+ {#Homeomorphisms}
+
 
 With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous maps]]) of the [[category]] [[Top]] thus defined
 (remark \ref{TopCategory}), we obtain the concept of "sameness" in topology. To make this precise, one says that a [[morphism]]
@@ -1636,7 +1650,7 @@ $$
   \,.
 $$
 
-Since such $g$ is unique if it exsist, one often writes "$f^{-1}$" for this [[inverse morphism]]. However, in the context 
+Since such $g$ is unique if it exsist, one often writes "$f^{-1}$" for this [[inverse morphism]]. However, in the context
 of [[topology]] then $f^{-1}$ usually refers to the [[pre-image]] function of a given [[function]] $f$, and in these
 notes we will stick to this usage.
 
@@ -1704,10 +1718,10 @@ of the [[Euclidean plane]] (def. \ref{EuclideanNorm}).
 The underlying function of sets of $f$ is a [[bijection]]. The [[inverse function]] of sets however fails to be continuous
 at $(1,0) \in S^1 \subset \mathbb{R}^2$. Hence this $f$ is _not_ a [[homeomorphism]].
 
-Indeed, below we see that the two topological spaces $[0,2\pi)$ and $S^1$ are distinguished by 
+Indeed, below we see that the two topological spaces $[0,2\pi)$ and $S^1$ are distinguished by
 topological invariants and hence not homeomorphic. For example $S^1$ is a [[compact topological space]]
 (def. \ref{CompactTopologicalSpace})
-while $[0,2\pi)$ is not, and $S^1$ has a non-trivial [[fundamental group]], while that of $[0,2\pi)$ 
+while $[0,2\pi)$ is not, and $S^1$ has a non-trivial [[fundamental group]], while that of $[0,2\pi)$
 is trivial (def. \ref{FundamentalGroup}).
 
 
@@ -1891,6 +1905,8 @@ underlying sets of points.
 All separation axioms are satisfied by [[metric spaces]] (def. \ref{MetricSpace}), from whom the concept of topological space was originally abstracted [above](#TopologicalSpaces). Hence imposing some of them may also be understood as gauging just how far one allows topological spaces to generalize away from metric spaces
 
 
+
+
 #### $T_n$-Topological spaces
  {#TnTopologicalSpaces}
 
@@ -1900,12 +1916,14 @@ All separation axioms are satisfied by [[metric spaces]] (def. \ref{MetricSpace}
 
 Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}).
 
+
+For $x \neq y \in X$ any two points in the underlying set of $X$ which are not [[equality|equal]] as elements of this set,
+consider the following [[propositions]]:
+
 <div style="float:left;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/HausdorffProperty.png" width="190">
 </div>
 
-For $x \neq y \in X$ any two points in the underlying set of $X$ which are not [[equality|equal]] as elements of this set,
-consider the following [[propositions]]:
 
 * **(T0)** _There exists a [[neighbourhood]] of one of the two points which does not contain the other point._
 
@@ -1914,6 +1932,10 @@ consider the following [[propositions]]:
 * **(T2)** _There exists [[neighbourhoods]]_ of both points which do not intersect each other._
 
 > graphics grabbed from [Vickers 89](#Vickers89)
+
+The topological space $X$ is called a _$T_n$-topological space_ or just _$T_n$-space_, for short,
+if it satisfies condition $T_n$ above for all pairs of distinct points.
+A $T_2$-topological space is also called a _[[Hausdorff topological space]]_.
 
 
 Notice that these propositions evidently imply each other as
@@ -1933,11 +1955,7 @@ For definiteness, we re-state these conditions formally. Write $x,y \in X$ for p
 * **(T2)** $\underset{x \neq y}{\forall} \left( \underset{U_x, U_y}{\exists} \left( U_x \cap U_y = \emptyset\right) \right)$
 
 
-The topological space $X$ is called a _$T_n$-topological space_ or just _$T_n$-space_, for short,
-if it satisfies condition $T_n$ above for
-all pairs of distinct points.
 
-A $T_2$-topological space is also called a _[[Hausdorff topological space]]_.
 
 
 =--
@@ -2016,7 +2034,7 @@ contain $x$.
 **($T_2$ in terms of topological closures)**
 
 A [[topological space]] $(X,\tau_X)$ is $T_2$=[[Hausdorff topological space|Hausdorff]] (def. \ref{HausdorffTopologicalSpace})
-precisely if the [[diagonal]] function $\Delta_X \colon (X, \tau_X) \longrightarrow (X \times X, \tau_{X \times X})$ 
+precisely if the [[diagonal]] function $\Delta_X \colon (X, \tau_X) \longrightarrow (X \times X, \tau_{X \times X})$
 (example \ref{Diagonal}) is a [[closed map]] (def. \ref{OpenMap}).
 
 =--
@@ -2027,7 +2045,7 @@ precisely if the [[diagonal]] function $\Delta_X \colon (X, \tau_X) \longrightar
 If $(X,\tau_X)$ is Hausdorff, then by definition for every pair of distinct points $x \neq y \in X$ there exists open neighbourhoods
 $U_x, U_y \in \tau_X$ such that $U_x \cap U_y = \emptyset$. In terms of the [[product topology]] (example \ref{BinaryProductTopologicalSpace})
 this means that every point $(x,y) \in X \times X$ which is not on the diagonal has an open neighbourhood $U_x \times U_y$ which
-still does not contain the diagonal. By definition, this means that in fact every [[subset]] of the diagonal is a 
+still does not contain the diagonal. By definition, this means that in fact every [[subset]] of the diagonal is a
 [[closed subset]] of $X \times X$, hence in particular those that are in the image under $\Delta_X$ of closed subsets of $X$.
 Hence $\Delta_X$ is a closed map.
 
@@ -2251,7 +2269,7 @@ To see that every continuous function $f \colon X \longrightarrow Y$ into a Haus
 
 
 
-#### Sober topological spaces
+### Sober spaces
  {#SoberSpaces}
 
 The characterization of the $T_0$-condition in prop. \ref{T0InTermsOfClosureOfPoints}
@@ -2359,12 +2377,12 @@ That neither class is contained in the other is shown by the following counter-e
 What makes the concept of [[sober topological spaces]] special is that
 for them the concept of [[continuous functions]] may be expressed entirely in terms
 of the relations between their [[open subsets]], disregarding the underlying
-set of points of which these open are in fact subsets. 
+set of points of which these open are in fact subsets.
 
 Recall from example \ref{ContinuousFunctionGivesFrameHomomorphism}
 that for very [[continuous function]] $f \colon (X, \tau_X) \to (Y, \tau_Y)$
 the [[pre-image]] function $f^{-1} \colon \tau_Y \to \tau_X$ is a [[frame]] [[homomorphism]]
-(def. \ref{HomomorphismOfFramesOfOpens}). 
+(def. \ref{HomomorphismOfFramesOfOpens}).
 
 For sober topological spaces the converse holds:
 
@@ -2699,7 +2717,7 @@ Here on the right we used again lemma \ref{UnitIntoSXDetectsT0AndSoberity} to fi
 
 
 
-### Compactness
+### Compact spaces
 
 A [[metric space]] is called _[[sequentially compact space|sequntially compact]]_ (recalled below as def. \ref{SequentiallyCompact})
 if every [[sequence]] of points in it has a [[sub-sequence]] which [[convergence|converges]]. Here we discuss how
@@ -2757,10 +2775,6 @@ A [[discrete space]] is compact iff its underlying set is [[finite set|finite]].
 =--
 
 
-
-
-
-#### Compact-open topology
 
 +-- {: .num_defn #CompactOpenTopology}
 ###### Definition
@@ -3108,7 +3122,7 @@ classification of [[covering spaces]].
 We have seen above that for $n \geq 1$  then the [[open ball]] $B_0^\circ(1)$ in $\mathbb{R}^n$ is _not_ [[homeomorphic]] to, notably, the point $\ast = \mathbb{R}^0$ (example \ref{OpenBallsHomeomorphicToRn}, theorem \ref{TopologicalInvarianceOfDimension}). Nevertheless, intuitively the $n$-ball is a "continuous deformation" of the point, obtained as the radius of the $n$-ball tends to zero.
 
 This intuition is made precise by observing that there is a [[continuous function]] out of the [[product topological space]]
-(example \ref{ProductTopologicalSpace}) of the open ball with the closed [[interval]]
+(example \ref{BinaryProductTopologicalSpace}) of the open ball with the closed [[interval]]
 
 $$
   \eta \colon [0,1] \times B_0^\circ(1)  \longrightarrow \mathbb{R}^n
@@ -3425,7 +3439,7 @@ The next topological invariant after the [[connected components]] is the _[[fund
 
 
 ### Fundamental group
- {#FundamentalGroup}
+ {#FundamentalGroups}
 
 
 +-- {: .num_defn #FundamentalGroup}
