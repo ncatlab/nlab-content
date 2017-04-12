@@ -8,9 +8,9 @@
 
 This page is a detailed introduction to basic [[topology]].
 Starting from scratch (required background is just a basic concept of _[[sets]]_), and amplifying motivation from [[analysis]],
-it first develops standard [[point-set topology]] ([[topological spaces]]). 
+it first develops standard [[point-set topology]] ([[topological spaces]]).
 In passing, some basics of [[category theory]] make an informal appearance,
-used to transparently summarize some conceptually important aspects of the theory, such as the [[reflective subcategory|reflection]] into 
+used to transparently summarize some conceptually important aspects of the theory, such as the [[reflective subcategory|reflection]] into
 [[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]].
 The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
 and ends with their first application to the classification of [[covering spaces]].
@@ -117,7 +117,7 @@ In this first part we discuss the foundations of the concept of "sets equipped w
 
 The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to a more abstract concept of "continuous space", this is the concept of _[[topological spaces]]_, def. \ref{TopologicalSpace} below.
 
-Here we briefly recall the relevant basic concepts from [[analysis]], as a motivation for various definitions in 
+Here we briefly recall the relevant basic concepts from [[analysis]], as a motivation for various definitions in
 [[topology]]. The reader who either already recalls these concepts in analysis
 or is content with ignoring the motivation of topology from analysis should skip right away to the section _[Topological spaces](#TopologicalSpaces)_.
 
@@ -597,12 +597,7 @@ is complete in this sense is called a _[[Banach space]]_.
 =--
 
 
-
-
-#### Compactness
-
-Recall the concept of [[compactness]] of [[metric spaces]] via [[epsilontic analysis]]:
-
+Finally recall the concept of [[compactness]] of [[metric spaces]] via [[epsilontic analysis]]:
 
 
 +-- {: .num_defn #SequentiallyCompact}
@@ -614,9 +609,9 @@ if every [[sequence]] in $X$ has a subsequence (def. \ref{Sequences}) which [[co
 =--
 
 The key fact to translate this [[epsilontic analysis|epsilontic]] definition of compactness to a concept that
-makes sense for general [[topological space]] is the following:
+makes sense for general [[topological space]] ([below](#CompactSpaces)) is the following:
 
-+-- {: .num_prop}
++-- {: .num_prop #CompactnessImpliedBySequentialCompactnessForMetricSpace}
 ###### Proposition
 
 For a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) the following are equivalent:
@@ -627,9 +622,9 @@ For a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) the following are equiva
  a _finite subcover_ in that there is a [[finite set|finite]] [[subset]] $J \subset I$ such that
  $\{U_i \to X\}_{i \in J}$ is still a cover of $X$: $\underset{i \in J}{\cup} U_i = X$.
 
-
 =--
 
+For a proof see at _[[sequentially compact metric spaces are equivalently compact metric spaces]]_.
 
 
 
@@ -704,7 +699,7 @@ The simple definition of [[open subsets]] in def. \ref{TopologicalSpace} and the
 implementation of the _principle of continuity_ below in def. \ref{ContinuousMaps}
 gives the field of [[topology]] its fundamental and universal flavor. The combinatorial nature of these definitions makes
 topology be closely related to [[formal logic]]. This becomes more manifest still for the "[[sober topological space]]"
-discussed [below](#SoberSpaces). For more on this perspective see also at _[[locale]]_. 
+discussed [below](#SoberSpaces). For more on this perspective see also at _[[locale]]_.
 An introductory textbook amplifying this perspective is ([Vickers 89](#Vickers89)).
 
 =--
@@ -2718,6 +2713,7 @@ Here on the right we used again lemma \ref{UnitIntoSXDetectsT0AndSoberity} to fi
 
 
 ### Compact spaces
+ {#CompactSpaces}
 
 A [[metric space]] is called _[[sequentially compact space|sequntially compact]]_ (recalled below as def. \ref{SequentiallyCompact})
 if every [[sequence]] of points in it has a [[sub-sequence]] which [[convergence|converges]]. Here we discuss how
