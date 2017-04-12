@@ -123,7 +123,7 @@ The closed structure on a category $\mathcal{V}_0$ is an enrichment context $\ma
 
 Closed categories were first defined here:
 
-* {#EK65} [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).  (Please don\'t put a link to unauthorised copies here, since this may put the nLab, whose servers are located within the United States, at legal liability.  See [discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2048).)
+* {#EK65} [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).  
 
 Their [[coherence theorem]] was considered in terms of [[Kelly-Mac Lane graphs]] in 
 
