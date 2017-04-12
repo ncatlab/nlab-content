@@ -1,3 +1,4 @@
+[[!redirects sequentially compact space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -41,7 +42,7 @@ A topological space is **sequentially compact** if every [[sequence]] in it has 
 The following is a list of properties of and pertaining to sequentially compact spaces.
 
 
-1. For a [[metric space]], the notions of sequential compactness and compactness coincide.
+1. For a [[metric space]], the notions of sequential compactness and compactness coincide. See at _[[sequentially compact metric spaces are equivalently compact metric spaces]]_.
 
 2. The [[Eberlein-Smulian theorem|Eberlein–Šmulian theorem]] states that in a [[Banach space]], for a subset with regard to the [[weak topology]], compactness and sequentially compactness are both equivalent to the weaker notion of [[countably compact space|countable compactness]].
 
