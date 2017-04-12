@@ -1,4 +1,29 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For general [[topological spaces]] the condition of being [[compact topological space|compact]] is strictly stronger than the condition of beiing [[sequentially compact]]. However for [[metric spaces]] the two conditions happen to be equivalent
+
+## Statement
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -22,7 +47,7 @@ Consider the [[topological closures]] of the sub-sequences that omit the first $
 $$
   F_n
    \;\coloneqq\;
-  Cl(\left\{ 
+  Cl(\left\{
     x_k \,\vert\, k \geq n
   \right\})
 $$
@@ -35,18 +60,18 @@ $$
 
 for their [[open subset|open]] [[complements]].
 
-Assume now that 
+Assume now that
 
 $$
-  (\star) 
-  \phantom{AA} 
+  (\star)
+  \phantom{AA}
   \underset{n \in \mathbb{N}}{\cap} F_n \;= \; \emptyset
 $$
 
-or equivalently that 
+or equivalently that
 
 $$
-  \underset{n \in \mathbb{N}}{\cup} U_n 
+  \underset{n \in \mathbb{N}}{\cup} U_n
   \;=\;
   X
   \,,
@@ -55,17 +80,17 @@ $$
 hence that $\{U_n \to X\}_{n \in \mathbb{N}}$ is an [[open cover]]. By the assumption that $X$ is compact, this would imply that there is a [[finite set|finite]] [[subset]] $\{i_1 \lt i_2 \lt  \cdots \lt i_k\} \subset \mathbb{N}$ with
 
 $$
-  \begin{array}
+  \array{
     X & = U_{i_1} \cup U_{i_2} \cup \cdots \cup U_{i_k}
     \\
     & = U_{i_k}
-  \end{array}
+  }
   \,.
 $$
 
 This in turn would mean that $F_{i_k} = \empty$, which contradicts the construction of $F_{i_k}$. Hence we have a [[proof by contradiction]] that assumption $(\ast)$ is wrong, and hence that there must exist an element
 
-$$   
+$$
   x \in \underset{n \in \mathbb{N}}{\cap} F_n
   \,.
 $$
@@ -75,14 +100,32 @@ By definition of [[topological closure]] this means that for all $n$ the [[open 
 $$
   B^\circ_x(1/(n+1))
   \,\cap\,
-  \{x_k \,\vert\, k \geq n \} 
+  \{x_k \,\vert\, k \geq n \}
   \;\neq\;
   \emptyset
   \,.
-$$ 
+$$
 
 Picking one point $(x'_n)$ in the $n$th such intersection for all $n$ hence defines a sub-sequence, which converges to $x$.
 
+This proves that compact implies sequentially compact for metric spaces.
 
+For the converse, assume now that $(X,d)$ is sequentially compact. Let $\{U_i \to X\}_{i \in I}$ be an [[open cover]] of $X$. We need to show that there exists a finite sub-cover.
 
-=--
+Now by the [[Lebesgue number lemma]], there exists a positive real number $\delta \gt 0$ such that for each $x \in X$ there is $i_x \in I$ such that $B^\circ_x(\delta) \subset U_{i_x}$.
+
+Moreover, since [[sequentially compact metric spaces are totally bounded]], there exists then  a [[finite set]] $S \subset X$ such that
+
+$$
+   X
+     \;=\;
+   \underset{s \in S}{\cup}
+   B^\circ_s(\delta)
+   \,.
+$$
+
+Therefore $\{U_{i_s} \to X\}_{s \in S}$ is a finite sub-cover.
+
+This shows that for metric spaces sequentially compact implies compact.
+
+=-- 
