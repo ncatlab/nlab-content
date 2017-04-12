@@ -9,6 +9,13 @@ A [[homotopy]] of [[homotopies]].
 
 ## Related concepts
 
+* [[homotopy theory]]
+
+* [[identity type]]
+
 * [[higher gauge transformation]]
 
 [[!redirects higher homotopies]]
+
+[[!redirects homotopy of homotopies]]
+[[!redirects homotopies of homotopies]]
