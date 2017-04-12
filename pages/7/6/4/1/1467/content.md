@@ -198,6 +198,8 @@ For topological spaces, this is either a definition of "proper map" (closed with
 
 ## Related concepts
 
+* [[Lebesgue number lemma]]
+
 * [[sequentially compact space]]
 
 * [[paracompact topological space]], [[strongly compact topological space]]
