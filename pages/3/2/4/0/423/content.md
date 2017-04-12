@@ -52,7 +52,7 @@ The following gives a quick introduction to some of the core concepts and tools 
 
 * _[Connected components](#ConnectedComponents)_
 
-* _[Fundamental group](#FundamentalGroup)_
+* _[Fundamental group](#FundamentalGroups)_
 
 * _[Covering spaces](#CoveringSpaces)_
 
@@ -963,7 +963,7 @@ The next topological invariant after the [[connected components]] is the _[[fund
 
 
 ### Fundamental group
- {#FundamentalGroup}
+ {#FundamentalGroups}
 
 
 +-- {: .num_defn #FundamentalGroup}
