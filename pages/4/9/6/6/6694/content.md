@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -86,7 +85,7 @@ In particular then both $(X,\tau_X)$ and $(Y, \tau_Y)$ are [[compact Hausdorff s
 Write $g \colon Y \to X$ for the [[inverse function]] of $f$. 
 
 We need to show that $g$ is continuous, hence that for $U \subset X$ an [[open subset]], then also its [[pre-image]] $g^{-1}(U) \subset Y$ is open in $Y$.
-By passage to [[complements]], this is equivalent to the statement that for $ \subset X$ a [[closed subset]] then the [[pre-image]] $g^{-1}(C) \subset Y$ is also closed in $Y$. 
+By passage to [[complements]], this is equivalent to the statement that for $C \subset X$ a [[closed subset]] then the [[pre-image]] $g^{-1}(C) \subset Y$ is also closed in $Y$. 
 
 But since $g$ is the [[inverse function]] to $f$, its [[pre-images]] are the [[images]] of $f$. Hence the last statement above equivalently says that $f$ sends closed subsets to closed subsets. This is true by prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}.
 
