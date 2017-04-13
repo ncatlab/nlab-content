@@ -49,11 +49,16 @@ For the second, let $G \subseteq H$ be compact.  As it is a compact subset of a 
 
 ## Related entries
 
-* [[compact subspaces of Hausdorff spaces are closed]]
 
 * [[a CW-complex is a Hausdorff space]]
 
 * [[Hausdorff implies sober]]
+
+* [[closed subsets of compact spaces are compact]]
+
+* [[compact subspaces of Hausdorff spaces are closed]]
+
+* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
 
 [[!redirects map from compact space to Hausdorff space]]
