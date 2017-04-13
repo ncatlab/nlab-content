@@ -56,6 +56,10 @@ The hard part is proving that a complete totally bounded space is compact; the c
 
 We could also try to generalise Theorem \ref{classical} to subspaces of other metric spaces, but this fails: every compact subspace of a metric space is closed and bounded (which is the easy direction), but not conversely.
 
+Another variant of these statements is:
+
+* _[[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]_
+
 
 ## Logical status
 
