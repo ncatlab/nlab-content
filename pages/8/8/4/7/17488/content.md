@@ -5,24 +5,7 @@
 
 ***
 
-+-- {: .standout}
-
-
-[V4D2 -- Algebraic Topology II](https://basis.uni-bonn.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=109556&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
-
-> **Stable Homotopy Theory**
->
-> Dr. [[Urs Schreiber]]
-
-[[Introduction to Stable homotopy theory|Lecture]] and [[Introduction to Stable homotopy theory -- S|Seminar]]
-
-=--
-
-<br/>
-
-
-**Abstract** _We give an introduction to the [[stable homotopy category]] and to its key computational tool, the [[Adams spectral sequence]]. To that end we introduce the modern tools, such as [[model categories]] and [[highly structured ring spectra]]. In the accompanying [[Introduction to Stable homotopy theory -- S|seminar]] we consider applications to [[cobordism theory]] and [[complex oriented cohomology]] such as to converge in the end to a glimpse of the modern picture of [[chromatic homotopy theory]]._
-
+We give an introduction to the [[stable homotopy category]] and to its key computational tool, the [[Adams spectral sequence]]. To that end we introduce the modern tools, such as [[model categories]] and [[highly structured ring spectra]]. In the accompanying [[Introduction to Stable homotopy theory -- S|seminar]] we consider applications to [[cobordism theory]] and [[complex oriented cohomology]] such as to converge in the end to a glimpse of the modern picture of [[chromatic homotopy theory]]._
 
 ***
 
@@ -45,14 +28,12 @@ Next section: _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spe
 <br/>
 
 
-#Contents#
+#Stable homotopy theory -- Sequential spectra#
 * table of contents
 {:toc}
 
-## **Part 1) Stable homotopy theory**
- {#StableHomotopyTheory}
 
-
+$\,$
 
 The _[[Introduction to Stable homotopy theory -- P|Prelude on Classical homotopy theory]]_ ended with the following phenomenon:
 
@@ -119,7 +100,7 @@ The _[[stable homotopy category]]_ $Ho(Spectra)$ is to be the result of stabiliz
 
 $$
 \begin{matrix}
-     Ho(Top^{\ast/}) 
+     Ho(Top^{\ast/})
       &
       \underoverset{\xrightarrow[\quad\Omega\quad]{}}{\xleftarrow{\quad\Sigma\quad}}{\scriptsize{\bot}}
       &
@@ -129,7 +110,7 @@ $$
      &&
      \left.\scriptsize{\mathllap{\Sigma^\infty}}\right\downarrow \dashv \left\uparrow\scriptsize{\mathrlap{\Omega^\infty}}\right.
      \\
-     Ho(Spectra) 
+     Ho(Spectra)
      &
      \underoverset{\xrightarrow[\quad\Omega\quad]{}}{\xleftarrow{\quad\Sigma\quad}}{\simeq}
      &
@@ -143,7 +124,7 @@ $$
   \array{
      (Top_{cg}^{\ast/})_{Quillen}
       &
-      \underoverset{\underoverset{\Omega}{\bot}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{} 
+      \underoverset{\underoverset{\Omega}{\bot}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{}
       &
      (Top^{\ast/}_{cg})_{Quillen}
      \\
@@ -177,22 +158,19 @@ There is a variety of different models for the [[stable homotopy theory]] of spe
 
 1. [[excisive functors]] with their [[model structure for excisive functors]]
 
-As one moves down this list, the objects modelling the spectra become richer. This means on the one hand that their abstract properties become better as one moves down the list, on the other hand it means that it is more immediate to construct and manipulate examples as one stays further up in the list. 
+As one moves down this list, the objects modelling the spectra become richer. This means on the one hand that their abstract properties become better as one moves down the list, on the other hand it means that it is more immediate to construct and manipulate examples as one stays further up in the list.
 
-We start with plain sequential spectra in [1.1)](#SequentialSpectraSection) as a transparent means to construct the [[stable homotopy category]]. In order to discuss [[ring spectra]] below in [1.3)](#HigherAlgebra), it is convenient to first pass to the richer model of [[highly structured spectra]], this we do in [1.2)](#SymmetricSpectra). 
+We start with plain sequential spectra as a transparent means to construct the [[stable homotopy category]]. In order to discuss [[ring spectra]] it is convenient to first pass to the richer model of [[highly structured spectra]], this we do in 
+_[Part II](Introduction+to+Stable+homotopy+theory+--+1-2)_
 
 
-
-### **1.1)** Sequential spectra
- {#SequentialSpectraSection}
-
-The most lighweight model for [[spectra]] are _[[sequential spectra]]_. They support most of [[stable homotopy theory]] in a straightforward way, and have the advantage that examples tend to be immediate (for instance the proof of the [[Brown representability theorem]] spits out sequential spectra). 
+The most lighweight model for [[spectra]] are _[[sequential spectra]]_. They support most of [[stable homotopy theory]] in a straightforward way, and have the advantage that examples tend to be immediate (for instance the proof of the [[Brown representability theorem]] spits out sequential spectra).
 
 The key disadvantage of sequential spectra is that they do not support a functorial [[smash product of spectra]] before passing to the [[stable homotopy category]], much less a [[symmetric smash product of spectra]]. This is the structure needed for a decent discussion of the [[higher algebra]] of [[ring spectra]]. To accomodate this, further [below](#SymmetricSpectra) we enhance sequential spectra to the more [[highly structured spectrum|highly structured]] models given by [[symmetric spectra]] and [[orthogonal spectra]]. But all these models are connected by a [[free-forgetful adjunction]] and for working with either it is useful to have the means to pass back and forth between them.
 
-#### Sequential pre-spectra 
+## Sequential pre-spectra
 
-The following def. \ref{SequentialSpectra} is the traditional component-wise definition of [[sequential spectra]]. It was first stated in ([Lima 58](spectrum#Lima58)) and became widely appreciated with ([Boardman 65](spectrum#Boardman65)).  
+The following def. \ref{SequentialSpectra} is the traditional component-wise definition of [[sequential spectra]]. It was first stated in ([Lima 58](spectrum#Lima58)) and became widely appreciated with ([Boardman 65](spectrum#Boardman65)).
 
 > It is generally supposed that [[George Whitehead|G. W. Whitehead]] also had something to do with it, but the latter takes a modest attitude about that. ([Adams 74, p. 131](#Adams74))
 
@@ -205,19 +183,19 @@ Throughout, our ambient [[category]] of [[topological spaces]] is $Top_{cg}$, th
 
 A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]**, or just **[[sequential spectrum]]** for short (or even just **[[spectrum]]), is
 
-1. an $\mathbb{N}$-[[graded object|graded]] [[pointed topological space|pointed]] [[compactly generated topological space]]  
+1. an $\mathbb{N}$-[[graded object|graded]] [[pointed topological space|pointed]] [[compactly generated topological space]]
 
    $$
      X_\bullet = (X_n \in Top_{cg}^{\ast/})_{n \in \mathbb{N}}
-   $$ 
+   $$
 
-   (the **component spaces**); 
+   (the **component spaces**);
 
-1. pointed [[continuous functions]] 
+1. pointed [[continuous functions]]
 
    $$
      \sigma_n \colon S^1 \wedge X_n \to X_{n+1}
-   $$ 
+   $$
 
    for all $n \in \mathbb{N}$ (the **structure maps**) from the [[smash product]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects))  of one component space with the standard [[1-sphere]] to the next component space.
 
@@ -257,19 +235,19 @@ from [[Introduction to Stable homotopy theory -- P|classical homotopy theory]] (
 
 A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]**, or just **[[sequential spectrum]]** for short (or even just **[[spectrum]]), is
 
-1. an $\mathbb{N}$-[[graded object|graded]] [[pointed topological space|pointed]] [[compactly generated topological space]]  
-  
+1. an $\mathbb{N}$-[[graded object|graded]] [[pointed topological space|pointed]] [[compactly generated topological space]]
+
    $$
      X_\bullet = (X_n \in Top_{cg}^{\ast/})_{n \in \mathbb{N}}
-   $$ 
+   $$
 
-   (the **component spaces**); 
+   (the **component spaces**);
 
-1. pointed [[continuous functions]] 
+1. pointed [[continuous functions]]
 
    $$
      \tilde \sigma_n \colon X_n \to Maps(S^1,X_{n+1})_\ast
-   $$ 
+   $$
 
    for all $n \in \mathbb{N}$ (the **adjunct structure maps**) from one component space to the pointed [[mapping space]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces), [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)) out of $S^1$ into the next component space.
 
@@ -319,7 +297,7 @@ $$
 +-- {: .num_example #StandardSphereSpectrum}
 ###### Example
 
-The [[suspension spectrum]] (example \ref{SuspensionSpectrum}) of the point is the **standard sequential [[sphere spectrum]]** 
+The [[suspension spectrum]] (example \ref{SuspensionSpectrum}) of the point is the **standard sequential [[sphere spectrum]]**
 
 $$
   \mathbb{S}_{seq} \coloneqq \Sigma^\infty S^0
@@ -327,8 +305,8 @@ $$
 $$
 
 Its $n$th component space is the standard [[n-sphere]]
- 
-$$ 
+
+$$
   (\mathbb{S}_{seq})_n = S^n
   \,.
 $$
@@ -338,7 +316,7 @@ $$
 +-- {: .num_example #ThomSpectra}
 ###### Example
 
-A fundamental example of a spectrum that is not just a [[suspension spectrum]] is the universal real [[Thom spectrum]], denoted [[MO]]. For details on this see  _[Part S -- Thom spectra](Introduction+to+Stable+homotopy+theory%20--%20S#ThomSpectra)_. 
+A fundamental example of a spectrum that is not just a [[suspension spectrum]] is the universal real [[Thom spectrum]], denoted [[MO]]. For details on this see  _[Part S -- Thom spectra](Introduction+to+Stable+homotopy+theory%20--%20S#ThomSpectra)_.
 
 There are are also the universal complex [[Thom spectrum]] denoted [[MU]], and the universal symplectic Thom spectrum denoted [[MSp]]. Their standard construction first yields an example of a "sequential $S^2$-spectrum"; which we introduce below in def. \ref{SequentialTSpectra}; and then there is an [[adjunction]] (prop. \ref{AdjunctionBetweenSequentialSpectraAndSequentialTSpectra}) that canonically turns this into an ordinary sequential spectrum.
 
@@ -439,12 +417,12 @@ be a morphism, with component maps fitting into commuting squares of the form
 
 $$
   \array{
-    S^1 \wedge X_n \wedge K 
+    S^1 \wedge X_n \wedge K
       &\overset{S^1 \wedge f_n}{\longrightarrow}&
     S^1 \wedge Y_n
     \\
-    {}^{\mathllap{\sigma^X_n \wedge K}}\downarrow 
-      && 
+    {}^{\mathllap{\sigma^X_n \wedge K}}\downarrow
+      &&
     \downarrow^{\sigma^Y_n}
     \\
     X_{n+1} \wedge K
@@ -473,11 +451,11 @@ $$
       &\overset{\widetilde{S^1 \wedge f_n}}{\longrightarrow}&
     Maps(K,S^1 \wedge Y_n)_\ast
     \\
-    {}^{\mathllap{\sigma_n^X}}\downarrow 
-      && 
+    {}^{\mathllap{\sigma_n^X}}\downarrow
+      &&
     \downarrow^{\mathrlap{Maps(K,\sigma_n^Y)_\ast}}
     \\
-    X_{n+1} 
+    X_{n+1}
       &\overset{\widetilde{f_{n+1}}}{\longrightarrow}&
     Maps(K, Y_{n+1})_\ast
   }
@@ -495,8 +473,8 @@ $$
       &\overset{S^1 \wedge \widetilde{f_n}}{\longrightarrow}&
     S^1 \wedge Maps(K, Y_n)_\ast
     \\
-    {}^{\mathllap{\sigma_n^X}}\downarrow 
-      && 
+    {}^{\mathllap{\sigma_n^X}}\downarrow
+      &&
     \downarrow^{\mathrlap{\sigma_n^{Maps(K,Y)_\ast}}}
     \\
     X_{n+1}
@@ -509,7 +487,7 @@ $$
 This gives the structure maps for a homomorphism
 
 $$
-  \tilde f 
+  \tilde f
     \;\colon\;
   X \longrightarrow Maps(K,Y)_\ast
   \,.
@@ -559,11 +537,11 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By def. \ref{SequentialSpectra} the components $f_n$ of a homomorphism of [[sequential spectra]] of the form 
+By def. \ref{SequentialSpectra} the components $f_n$ of a homomorphism of [[sequential spectra]] of the form
 
 $$
   \Sigma^\infty X \overset{f}{\longrightarrow} Y
-$$ 
+$$
 
 have to make these diagrams commute
 
@@ -590,7 +568,7 @@ $$
 
 
 
-##### Stable homotopy groups
+### Stable homotopy groups
 
 In analogy to how [[homotopy groups]] are the fundamental invariants in [[Introduction to Stable homotopy theory -- P|classial homotopy theory]], the fundamental invariants of stable homtopy theory are _stable homtopy groups_:
 
@@ -642,7 +620,7 @@ $$
 The colimit starts at
 
 $$
-  k = 
+  k =
   \left\{
     \array{
       0 & if \; q \geq 0
@@ -672,7 +650,7 @@ The two component morphisms given in def. \ref{StableHomotopyGroups} indeed agre
 +-- {: .proof}
 ###### Proof
 
-Consider the following instance of the defining naturality square of the $(S^1 \wedge (-)) \dashv Maps(S^1,-)_\ast$-adjunction of prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}: 
+Consider the following instance of the defining naturality square of the $(S^1 \wedge (-)) \dashv Maps(S^1,-)_\ast$-adjunction of prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}:
 
 $$
   \array{
@@ -680,8 +658,8 @@ $$
       &\overset{\simeq}{\longrightarrow}&
     [X_k, Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
     \\
-    {}^{\mathllap{[S^1 \wedge \alpha, \sigma_k]}}\downarrow 
-      && 
+    {}^{\mathllap{[S^1 \wedge \alpha, \sigma_k]}}\downarrow
+      &&
     \downarrow^{\mathrlap{[\alpha, Maps(S^1,\sigma_k)_\ast]_\ast}}
     \\
     [S^1 \wedge S^{q+k}, X_{k+1}]_\ast
@@ -740,7 +718,7 @@ is an isomorphism for $q \leq 2n$. This implies first of all that every $\Sigma^
 $$
   \begin{aligned}
     \pi_0(\Sigma X) & \simeq \ast
-    \\    
+    \\
     \pi_1(\Sigma^2 X) & \simeq \pi_0(\Sigma X) \simeq \ast
     \\
     \pi_2(\Sigma^3 X) & \simeq \pi_1(\Sigma^2 X) \simeq \pi_0(\Sigma X) \simeq \ast
@@ -755,8 +733,8 @@ $$
   \pi^S_q(X) \simeq \pi_{q + (q+2)}(\Sigma^{q+2}X)
   \,.
 $$
- 
-Historically, this fact was one of the motivations for finding a [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory} below). 
+
+Historically, this fact was one of the motivations for finding a [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory} below).
 
 =--
 
@@ -769,9 +747,9 @@ Historically, this fact was one of the motivations for finding a [[stable homoto
 A morphism $f \colon X \longrightarrow Y$ of [[sequential spectra]], def. \ref{SequentialSpectra}, is called a **[[stable weak homotopy equivalence]]**, if its image under the [[stable homotopy group]]-functor of def. \ref{StableHomotopyGroups} is an [[isomorphism]]
 
 $$
-  \pi_\bullet(f) 
-    \;\colon\; 
-  \pi_\bullet(X) 
+  \pi_\bullet(f)
+    \;\colon\;
+  \pi_\bullet(X)
     \overset{\simeq}{\longrightarrow}
   \pi_\bullet(Y)
   \,.
@@ -783,7 +761,7 @@ $$
 
 
 
-##### Omega-spectra
+### Omega-spectra
  {#OmegaSpectra}
 
 
@@ -803,7 +781,7 @@ $$
 
 $$
   \array{
-    \vdots && \vdots 
+    \vdots && \vdots
     \\
     a_3 && a_2 && a_1 && \cdots
     \\
@@ -824,10 +802,10 @@ $$
 
 This allows to recover the $\mathbb{Z}$-graded abelian group $\{a_n\}_{n \in \mathbb{Z}}$ from an $\mathbb{N}$-sequence of $\mathbb{N}$-graded abelian groups.
 
-Then consider the case that the $\mathbb{N}$-graded abelian groups here are [[homotopy groups]] of some [[topological space]]. Then shifting the degree of the component groups corresponds to forming [[loop spaces]], because for any topological space $X$ then 
+Then consider the case that the $\mathbb{N}$-graded abelian groups here are [[homotopy groups]] of some [[topological space]]. Then shifting the degree of the component groups corresponds to forming [[loop spaces]], because for any topological space $X$ then
 
 $$
-  \pi_\bullet(\Omega X) 
+  \pi_\bullet(\Omega X)
   \simeq
   \pi_{\bullet + 1}(X)
   \,.
@@ -934,7 +912,7 @@ $$
   \,.
 $$
 
-Now assume, by [[induction]], that sets of objects $\{Z_{i,k}\}_{k \in \mathbb{N}}$ and maps $\{Z_{i,k} \overset{\tilde \sigma_{i,k}}{\to} \Omega Z_{i,k+1}\}_{k \in \mathbb{N}}$ have been constructed for some $i \in \mathbb{N}$. 
+Now assume, by [[induction]], that sets of objects $\{Z_{i,k}\}_{k \in \mathbb{N}}$ and maps $\{Z_{i,k} \overset{\tilde \sigma_{i,k}}{\to} \Omega Z_{i,k+1}\}_{k \in \mathbb{N}}$ have been constructed for some $i \in \mathbb{N}$.
 
 Then construct $Z_{i+1,k}\in Top_{cg}$ by factorizing $\tilde \sigma_{i,k}$, with respect to the model structure $(Top^{\ast/}_{cg})_{Quillen}$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces))  as a classical cofibration followed by a classical weak equivalence. More specifically, apply the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) with respect to the set of generating cofibrations $I_{Top}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalGeneratingCofibrations)) to produce [[functorial factorizations]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FunctorialWeakFactorizationSystem)) into a [[relative cell complex]] followed by a [[weak homotopy equivalence]] (just as in the proof of [this lemma](Introduction+to+Stable+homotopy+theory+--+P#FactorizationInTopQuillen)):
 
@@ -958,7 +936,7 @@ $$
     \overset{\phi_{i,k}}{\longrightarrow}
   \Omega Z_{i,k+1}
     \overset{\Omega (\iota_{i,k+1})}{\longrightarrow}
-  \Omega Z_{i+1,k+1} 
+  \Omega Z_{i+1,k+1}
   \,.
 $$
 
@@ -1006,13 +984,13 @@ $$
     & =
     \Omega(\iota_{i,k+1}) \circ (\phi_{i,k} \circ \iota_{i,k})
     \\
-    & = 
+    & =
     \Omega(\iota_{i,k+1}) \circ \tilde \sigma_{i,k}
   \end{aligned}
   \,.
 $$
 
-Now let $Q X$ be the spectrum with component spaces the [[colimit]] 
+Now let $Q X$ be the spectrum with component spaces the [[colimit]]
 
 $$
   (Q X)_k \coloneqq \underset{\longrightarrow}{\lim}_i Z_{i,k}
@@ -1025,12 +1003,12 @@ $$
   \;\coloneqq\;
   \underset{\longrightarrow}{\lim} \tilde \sigma_{i,k}
   \;\colon\;
-  Q X 
+  Q X
   \longrightarrow \Omega(Q X)
   \,.
 $$
 
-Notice that this is indeed well-defined: since each component map $X_{i,k} \to X_{i+1,k}$ is a [[relative cell complex]] and since the [[1-sphere]] $S^1$ is [[compact topological space|compact]], it follows ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)) that 
+Notice that this is indeed well-defined: since each component map $X_{i,k} \to X_{i+1,k}$ is a [[relative cell complex]] and since the [[1-sphere]] $S^1$ is [[compact topological space|compact]], it follows ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)) that
 
 $$
   \begin{aligned}
@@ -1049,11 +1027,11 @@ $$
 $$
 
 
-Finally, let 
+Finally, let
 
 $$
   \eta_X \colon X \to Q X
-$$ 
+$$
 
 be degreewise the inclusion of the first component ($i = 0$) into the colimit. By construction, this is a homomorphism of sequential spectra (according to def. \ref{SequentialSpectrumViaAdjunctStructureMaps}).
 
@@ -1082,11 +1060,11 @@ Let $X\in SeqSpec(Top_{cg})$ be a [[sequential prespectrum]] with $j_X \colon X 
 
 Since the colimit defining $Q X$ is a [[transfinite composition]] of [[relative cell complexes]], each component map $X_k \to (Q X)_k$ is itself a relative cell complex. Since [[n-spheres]] are [[compact topological spaces]], it follows ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)) that each element of a [[homotopy group]] in $\pi_\bullet((Q X)_k)$ is in the image of a finite stage $\pi_\bullet(Z_{i,k})$ for some $i \in \mathbb{N}$. From this, all statements follow by inspection at finite stages.
 
-Regarding first statement: 
+Regarding first statement:
 
-Since each $\tilde \sigma_{i,k}$ by construction is a weak homotopy equivalence followed by an inclusion of stages in the colimit, as any element of $\pi_q((Q X)_k)$ is sent along $\tilde \sigma^{Q X}_k$ it passes through one such $\pi_q(\tilde \sigma_{i ,k})$ at some stage $i$, hence also through all the following, and is hence identically preserved in the colimit. 
+Since each $\tilde \sigma_{i,k}$ by construction is a weak homotopy equivalence followed by an inclusion of stages in the colimit, as any element of $\pi_q((Q X)_k)$ is sent along $\tilde \sigma^{Q X}_k$ it passes through one such $\pi_q(\tilde \sigma_{i ,k})$ at some stage $i$, hence also through all the following, and is hence identically preserved in the colimit.
 
-Regarding the second statement: 
+Regarding the second statement:
 
 By the previous statement and by example \ref{StableHomotopyGroupsOfOmegaSpectrum}, the map $\pi_\bullet(\eta_X) \colon \pi_\bullet(X)\to \pi_\bullet(Q X)$ is given in degree $q \geq 0$ by
 
@@ -1109,11 +1087,11 @@ and similarly in degree $q\lt 0$. Now using the compactness of the spheres and t
 $$
   \begin{aligned}
     \pi_q( (Q X)_0 )
-    & 
+    &
     =
     \pi_q (\underset{\longrightarrow}{\lim}_k Z_{k,0})
     \\
-    & \simeq 
+    & \simeq
     \underset{\longrightarrow}{\lim}_k \pi_q ( Z_{k,0})
     \\
     & \simeq
@@ -1122,16 +1100,16 @@ $$
   \,,
 $$
 
-where the last isomorphism is $\pi_q$ applied to the composite of the weak homotopy equivalences 
+where the last isomorphism is $\pi_q$ applied to the composite of the weak homotopy equivalences
 
 $$
-  Z_{k,0} 
+  Z_{k,0}
     \underoverset{\in W_{cl}}{\phi_{k-1,0}}{\longrightarrow}
   \Omega Z_{k-1,1}
     \to \cdots
   \to
   \Omega^k Z_{0,k}
-  = 
+  =
   \Omega^k X_k
   \,.
 $$
@@ -1148,12 +1126,12 @@ If $\eta_X$ is degrewise a weak homotopy equivalence, then by applying [[two-out
 
 $$
   \array{
-    X_n 
+    X_n
       &\underoverset{\in W_{cl}}{(j_X)_n}{\longrightarrow}&
     (Q X)_n
     \\
-    {}^{\mathllap{\tilde \sigma^X_n}}\downarrow 
-      && 
+    {}^{\mathllap{\tilde \sigma^X_n}}\downarrow
+      &&
     \downarrow^{\mathrlap{\tilde \sigma^{Q X}_n}}_{\mathrlap{\in W_{cl}}}
     \\
     Maps(S^1,X_{n+1})
@@ -1174,7 +1152,7 @@ The fourth statement follows with similar reasoning.
 In the case that $X$ is a [[CW-spectrum]] (def. \ref{CWSpectrum}) then the sequence of resolutions in the definition of [[spectrification]] in def. \ref{SpectrificationForTopologicalSequentialSpectra} is not necessary, and one may simply consider
 
 $$
-  (Q_{CW} X)_n 
+  (Q_{CW} X)_n
     \;\coloneqq\;
   \underset{\longrightarrow}{\lim}_k
   \Omega^k X_{n+k}
@@ -1188,16 +1166,16 @@ See for instance ([Lewis-May-Steinberger 86, p. 3](spectrification#LewisMayStein
 
 
 
-##### As topological diagrams
+### As topological diagrams
  {#TopologicalDiagramsSequentialSpectra}
 
-In order to conveniently understand the stable [[model category]] structure on spectra, we now consider an equivalent reformulation of the component-wise definition of sequential spectra, def. \ref{SequentialSpectra}, as [[topologically enriched functors]] ([defn. ](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)). 
+In order to conveniently understand the stable [[model category]] structure on spectra, we now consider an equivalent reformulation of the component-wise definition of sequential spectra, def. \ref{SequentialSpectra}, as [[topologically enriched functors]] ([defn. ](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)).
 
 
 +-- {: .num_defn #CategoriesOfStandardSpheres}
 ###### Definition
 
-Write 
+Write
 
 $$
   \iota \;\colon\; StdSpheres \longrightarrow Top_{cg}^{\ast/}
@@ -1216,7 +1194,7 @@ for the non-full [[topologically enriched category|topologically enriched]] [[su
       \array{
         \ast & for & k \lt 0
         \\
-        S^k 
+        S^k
         & otherwise
       }
     \right.
@@ -1235,7 +1213,7 @@ $$
   \,.
 $$
 
-This induces the category 
+This induces the category
 
 $$
   [StdSpheres, Top^{\ast/}_{cg}]
@@ -1283,15 +1261,15 @@ being the [[adjunct]] of the component map of $X$ on spheres of consecutive dime
 +-- {: .proof}
 ###### Proof
 
-First observe that from its components on consecutive spheres the functor $X$ is already uniquely determined. Indeed, by definition the hom-space between non-consecutive spheres $StdSpheres(S^n, S^{n+k})$ is the 
+First observe that from its components on consecutive spheres the functor $X$ is already uniquely determined. Indeed, by definition the hom-space between non-consecutive spheres $StdSpheres(S^n, S^{n+k})$ is the
 [[smash product]] of the hom-spaces between the consecutive spheres, for instance:
 
 $$
   \array{
     S^1 \wedge S^1 & = & StdSpheres(S^n, S^{n+1}) \wedge StdSpheres(S^{n+1}, S^{n+2})
     \\
-    {}^{\mathllap{\simeq}}\downarrow 
-      && 
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
     {}^{\mathllap{\simeq}}\downarrow^{\circ}
     \\
     S^2 & = & StdSpheres(S^n , S^{n+2})
@@ -1307,7 +1285,7 @@ Now observe that a [[natural transformation]] $f \colon X \to Y$ between two fun
 
 $$
   \array{
-    X(S^n) 
+    X(S^n)
       &\overset{f_n}{\longrightarrow}&
     Y^{S^{n}}
     \\
@@ -1326,7 +1304,7 @@ By the smash/hom adjunction, the square equivalently factors as
 
 $$
   \array{
-    X(S^n) 
+    X(S^n)
       &\overset{f_n}{\longrightarrow}&
     Y^{S^{n}}
     \\
@@ -1369,7 +1347,7 @@ Under the equivalence of prop. \ref{SequentialSpectraAsDiagramSpectra}, the gene
 +-- {: .num_prop #LimitsAndColimitsOfSequentialSpectra}
 ###### Proposition
 
-The category $SeqSpec(Top_{cq})$ of sequential spectra (def. \ref{SequentialSpectra}) has all [[limits]] and [[colimits]], and they are computed objectwise: 
+The category $SeqSpec(Top_{cq})$ of sequential spectra (def. \ref{SequentialSpectra}) has all [[limits]] and [[colimits]], and they are computed objectwise:
 
 Given
 
@@ -1420,7 +1398,7 @@ moreover:
    $$
      \underset{\longleftarrow}{\lim}_i X(i)_n
       \overset{\underset{\longleftarrow}{\lim}_i \tilde \sigma_n^{X(i)}}{\longrightarrow}
-     \underset{\longleftarrow}{\lim}_i Maps(S^1, X(i)_n)_\ast 
+     \underset{\longleftarrow}{\lim}_i Maps(S^1, X(i)_n)_\ast
      \simeq
      Maps(S^1, \underset{\longleftarrow}{\lim}_i X(i)_n)_\ast
    $$
@@ -1456,7 +1434,7 @@ $$
 +-- {: .num_example #WedgeSumOfSpectra}
 ###### Example
 
-The [[coproduct]] of [[spectra]] $X, Y \in SeqSpec(Top_{cg})$, called the **wedge sum of spectra** 
+The [[coproduct]] of [[spectra]] $X, Y \in SeqSpec(Top_{cg})$, called the **wedge sum of spectra**
 
 $$
   X \vee Y
@@ -1500,7 +1478,7 @@ $$
   \,.
 $$
 
-By the functoriality of the [[smash product|smash]] [[tensoring]], the factoring 
+By the functoriality of the [[smash product|smash]] [[tensoring]], the factoring
 
 $$
   \nabla_{S^0} \;\colon\; S^0 \vee S^0 \longrightarrow I_+ \longrightarrow S^0
@@ -1511,7 +1489,7 @@ of the [[codiagonal]] on the [[0-sphere]] through the standard interval with a b
 $$
   \nabla_X
   \;\colon\;
-  X \vee X 
+  X \vee X
     \overset{X \wedge (S^0 \vee S^0  \to I_+)}{\longrightarrow}
   X \wedge (I_+)
    \overset{X \wedge (I_+ \to S^0) }{\longrightarrow}
@@ -1523,7 +1501,7 @@ $$
 =--
 
 
-##### Suspension and looping
+### Suspension and looping
 
 We discuss models for the operation of [[reduced suspension]] and forming [[loop space objects]] of sequential spectra.
 
@@ -1544,7 +1522,7 @@ For $X$ a sequential spectrum, then
 For $X\in SeqSpec(Top_{cg})$, the standard suspension $X \wedge S^1$ of def. \ref{SequentialSpectrumRealSuspension} is equivalently the [[cofiber]] (formed via prop. \ref{LimitsAndColimitsOfSequentialSpectra}) of the canonical inclusion of boundaries into the standard [[cylinder spectrum]]  $X \wedge (I_+)$ of example \ref{StandardCylinderSpectrumSequential}:
 
 $$
-  X \wedge S^1 
+  X \wedge S^1
     \simeq
   cofib\left(
     X \vee X \to X \wedge (I_+)
@@ -1581,7 +1559,7 @@ For $X$ a [[sequential spectrum]] (def. \ref{SequentialSpectra}) and $k \in \mat
 
 For $X$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, then
 
-1. the **alternative suspension** of $X$ is the sequential spectrum $\Sigma X$ with 
+1. the **alternative suspension** of $X$ is the sequential spectrum $\Sigma X$ with
 
    1. $(\Sigma X)_n \coloneqq S^1 \wedge X_n$ ([[smash product]] on the left ([defn.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects)))
 
@@ -1609,22 +1587,22 @@ In various references the "alternative suspension" from def. \ref{SequentialSpec
 +-- {: .num_remark #StandardAndAlternativeSuspensionAreNotDirectlyComparable}
 ###### Remark
 
-There is no direct [[natural isomorphism]] between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}). This is due to the non-trivial graded commutativity ([[braiding]]) of smash products of spheres. (We discuss braiding of the smash product more in detail in [[Introduction to Stable homotopy theory -- 1-2|Part 1.2]], [this example](Introduction+to+Stable+homotopy+theory+--+1-2#PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory)). 
+There is no direct [[natural isomorphism]] between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}). This is due to the non-trivial graded commutativity ([[braiding]]) of smash products of spheres. (We discuss braiding of the smash product more in detail in [[Introduction to Stable homotopy theory -- 1-2|Part 1.2]], [this example](Introduction+to+Stable+homotopy+theory+--+1-2#PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory)).
 
 Namely a [[natural isomorphism]] $\phi \colon \Sigma X \longrightarrow X \wedge S^1$ (or alternatively the other way around) would have to make the following diagrams commute:
 
 $$
   \array{
-     S^1 \wedge S^1 \wedge X_n 
-       &\overset{id_{S^1} \wedge \phi_n}{\longrightarrow}& 
+     S^1 \wedge S^1 \wedge X_n
+       &\overset{id_{S^1} \wedge \phi_n}{\longrightarrow}&
      S^1 \wedge X_n \wedge S^1
      \\
-     {}^{\mathllap{S^1 \wedge \sigma_n}}\downarrow 
-       &(nc)& 
+     {}^{\mathllap{S^1 \wedge \sigma_n}}\downarrow
+       &(nc)&
      \downarrow^{\mathrlap{\sigma_n \wedge S^1}}
      \\
-     S^1 \wedge X_{n+1} 
-       &\underset{\phi_{n+1}}{\longrightarrow}& 
+     S^1 \wedge X_{n+1}
+       &\underset{\phi_{n+1}}{\longrightarrow}&
      X_{n+1} \wedge S^1
   }
 $$
@@ -1634,9 +1612,9 @@ and [[natural transformation|naturally]] so in $X$.
 The only evident option is to have $\phi$ be the [[braiding]] homomorphisms of the [[smash product]]
 
 $$
-  \phi_n = \tau_{S^1, X_n} 
-    \;\colon\; 
-   S^1 \wedge X_{n} 
+  \phi_n = \tau_{S^1, X_n}
+    \;\colon\;
+   S^1 \wedge X_{n}
      \overset{\simeq}{\to}
    X_{n} \wedge S^1
   \,.
@@ -1646,12 +1624,12 @@ It may superficially look like this makes the above diagram commute, but it does
 
 $$
   \array{
-     S_a^1 \wedge S_b^1 \wedge X_n 
-       &\longrightarrow& 
+     S_a^1 \wedge S_b^1 \wedge X_n
+       &\longrightarrow&
      S_a^1 \wedge X_n \wedge S_b^1
      \\
-     {}^{\mathllap{S^1_a \wedge \sigma_n}}\downarrow 
-       &(nc)& 
+     {}^{\mathllap{S^1_a \wedge \sigma_n}}\downarrow
+       &(nc)&
      \downarrow^{\mathrlap{\sigma_n \wedge S^1_b}}
      \\
      S_a^1 \wedge X_{n+1} &\underset{}{\longrightarrow}& X_{n+1} \wedge S_b^1
@@ -1673,7 +1651,7 @@ $$
   S^2_a \wedge S^1_b \longrightarrow S^1_b \wedge S^2_a
 $$
 
-and this map is indeed trivial, up to homotopy. This we make precise as lemma \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory} below. 
+and this map is indeed trivial, up to homotopy. This we make precise as lemma \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory} below.
 
 More generally, the kind of issue encountered here is taken care of by the concept of _[[symmetric spectra]]_, to which we turn in _[[Introduction to Stable homotopy theory -- 1-2|Part 1.2]]_.
 
@@ -1702,16 +1680,16 @@ The constructions from def. \ref{SequentialSpectrumRealSuspension}, def. \ref{Sh
 +-- {: .proof}
 ###### Proof
 
-Regarding the first statement: 
+Regarding the first statement:
 
-A morphism of the form 
+A morphism of the form
 $f \;\colon\; X[-1] \longrightarrow Y$ has components of the form
 
 $$
   \array{
     \vdots && \vdots
     \\
-    X_2 &\overset{f_2}{\longrightarrow}& Y_3  
+    X_2 &\overset{f_2}{\longrightarrow}& Y_3
     \\
     X_1 &\overset{f_2}{\longrightarrow}& Y_2
     \\
@@ -1727,8 +1705,8 @@ $$
   \array{
     \ast &\overset{(S^1 \wedge f_0) = 0}{\longrightarrow}& S^1 \wedge Y_0
     \\
-    {}^{\mathllap{\sigma^{X[-1]}_0 = 0}}\downarrow 
-      && 
+    {}^{\mathllap{\sigma^{X[-1]}_0 = 0}}\downarrow
+      &&
     \downarrow^{\mathrlap{\sigma^Y_0}}
     \\
     X_0 &\overset{f_1}{\longrightarrow}& Y_1
@@ -1742,7 +1720,7 @@ $$
   \array{
     \vdots && \vdots
     \\
-    X_2 &\overset{f_2}{\longrightarrow}& Y_3  
+    X_2 &\overset{f_2}{\longrightarrow}& Y_3
     \\
     X_1 &\overset{f_2}{\longrightarrow}& Y_2
     \\
@@ -1764,13 +1742,13 @@ This follows by applying the ([[smash product]]$\dashv$[[pointed mapping space]]
 Morphisms $f\colon \Sigma X \to Y$ in the sense of def. \ref{SequentialSpectra} are in components given by commuting diagrams of this form:
 
 $$
-  \array{  
-    S^1 \wedge S^1 \wedge X_{n} 
+  \array{
+    S^1 \wedge S^1 \wedge X_{n}
       &\overset{S^1 \wedge f_{n}}{\longrightarrow}&
     S^1 \wedge Y_{n}
     \\
-    {}^{\mathllap{S^1 \wedge \sigma_n^X}}\downarrow 
-     && 
+    {}^{\mathllap{S^1 \wedge \sigma_n^X}}\downarrow
+     &&
     \downarrow^{\mathrlap{\sigma^Y_n}}
     \\
     S^1 \wedge X_{n+1} &\underset{f_{n+1}}{\longrightarrow}& Y_{n+1}
@@ -1791,7 +1769,7 @@ $$
   \,.
 $$
 
-(To see this in full detail, for instance for the [[adjunct]] of the left and bottom morphism: chase the identity $id_{S^1 \wedge X_{n+1}}$ in both ways 
+(To see this in full detail, for instance for the [[adjunct]] of the left and bottom morphism: chase the identity $id_{S^1 \wedge X_{n+1}}$ in both ways
 
 $$
   \array{
@@ -1799,8 +1777,8 @@ $$
       &\overset{\simeq}{\longrightarrow}&
     Hom(X_{n+1}, Maps(S^1, S^1 \wedge X_{n+1})_\ast)
     \\
-    {}^{\mathllap{Hom(S^1 \wedge \sigma^X_n, f_{n+1})}}\downarrow 
-    && 
+    {}^{\mathllap{Hom(S^1 \wedge \sigma^X_n, f_{n+1})}}\downarrow
+    &&
     \downarrow^{\mathrlap{Hom(\sigma^X_n, Maps(S^1, f_{n+1})_\ast)}}
     \\
     Hom(S^1 \wedge S^1 \wedge X_n, Y_{n+1})
@@ -1817,8 +1795,8 @@ $$
   \array{
     X_n &\overset{\widetilde {f_n}}{\longrightarrow}& Maps(S^1,Y_n)_\ast
     \\
-    {}^{\mathllap{\tilde \sigma_n}}\downarrow 
-      && 
+    {}^{\mathllap{\tilde \sigma_n}}\downarrow
+      &&
     \downarrow^{\mathrlap{Maps(S^1,\tilde \sigma^Y_n)_\ast}}
     \\
     Maps(S^1, X_{n+1})_\ast
@@ -1848,7 +1826,7 @@ $$
   \array{
      Top_{cg}^{\ast/}
       &
-      \underoverset{\underoverset{\Omega}{\bot}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{} 
+      \underoverset{\underoverset{\Omega}{\bot}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{}
       &
      Top^{\ast/}_{cg}
      \\
@@ -1875,10 +1853,10 @@ Here the top horizontal adjunction is from prop. \ref{SuspensionAndLoopAdjunctio
 +-- {: .proof}
 ###### Proof
 
-It is sufficient to check 
+It is sufficient to check
 
 $$
-  \Sigma^\infty \circ \Sigma \simeq \Sigma \circ \Sigma^\infty 
+  \Sigma^\infty \circ \Sigma \simeq \Sigma \circ \Sigma^\infty
   \,.
 $$
 
@@ -1890,7 +1868,7 @@ $$
 
 follows by uniqueness of adjoints.
 
-So let $X \in Top_{cg}^{\ast/}$. Then 
+So let $X \in Top_{cg}^{\ast/}$. Then
 
 * $(\Sigma \Sigma^\infty X)_n = S^1 \wedge S^n \wedge X$,
 
@@ -1920,7 +1898,7 @@ $$
 
 
 
-#### The strict model structure on sequential spectra
+## The strict model structure on sequential spectra
  {#StrictModelStructureOnSequentialSpectra}
 
 The [[model category]] structure on [[sequential spectra]] which [[presentable (infinity,1)-category|presents]] [[stable homotopy theory]] is the "stable model structure" discussed [below](#TheStableModelStructure). Its fibrant-cofibrant objects are (in particular) [[Omega-spectra]], hence are the proper [[spectrum objects]] among the pre-spectrum objects.
@@ -1972,10 +1950,10 @@ of standard generating (acyclic) cofibrations ([def.](Introduction+to+Stable+hom
 Write
 
 $$
-  I_{seq}^{strict} 
-    \coloneqq 
-  \left\{ 
-    y(S^n) \cdot i_+ 
+  I_{seq}^{strict}
+    \coloneqq
+  \left\{
+    y(S^n) \cdot i_+
   \right\}_{{S^n \in StdSpheres,} \atop {i_+ \in I_{Top^{\ast/}}}}
   \;\;
   \in [StdSpheres, Top^{\ast/}] \simeq SeqSpec(Top)
@@ -1985,9 +1963,9 @@ and
 
 $$
   J_{seq}^{strict}
-    \coloneqq 
-  \left\{ 
-    y(S^n) \cdot j_+ 
+    \coloneqq
+  \left\{
+    y(S^n) \cdot j_+
   \right\}_{{ S^n \in StdSpheres} \atop {j_+ \in J_{Top^{\ast/}}}}
   \;\;
   \in [StdSpheres, Top^{\ast/}] \simeq SeqSpec(Top)
@@ -2110,7 +2088,7 @@ $$
     & \searrow^{\mathrlap{h_{n+1}}}
     \\
     S^1 \wedge Y_n &\stackrel{\sigma_n^Y}{\longrightarrow}& Y_{n+1}
-    && 
+    &&
     \\
     & \searrow^{\mathrlap{S^1 \wedge l_n}} && \searrow^{\mathrlap{l_{n+1}}} & \downarrow
     \\
@@ -2123,14 +2101,14 @@ This is a [[cocone]] under the commuting square for the structure maps, and ther
 
 $$
   \array{
-    S^1 \wedge Y_n 
-      \underset{S^1 \wedge X_n}{\sqcup} 
+    S^1 \wedge Y_n
+      \underset{S^1 \wedge X_n}{\sqcup}
     X_{n+1}
       &\stackrel{(\sigma_n^A \circ S^1 \wedge l_n,\;h_{n+1})}{\longrightarrow}&
     A_{n+1}
     \\
-    {}^{\mathllap{f_n \Box \sigma^X_n}}\downarrow 
-      &{}^{\mathllap{l_{n+1}}}\nearrow& 
+    {}^{\mathllap{f_n \Box \sigma^X_n}}\downarrow
+      &{}^{\mathllap{l_{n+1}}}\nearrow&
     \downarrow
     \\
     Y_{n+1} &\stackrel{}{\longrightarrow}& B_{n+1}
@@ -2142,7 +2120,9 @@ This shows that $f_\bullet$ is a strict cofibration precisely if, in addition to
 
 =--
 
-##### Suspension and looping
+
+
+### Suspension and looping
 
 +-- {: .num_prop #SigmaInfinityIsQuillenOnStrictModelStructureOnSequential}
 ###### Proposition
@@ -2171,7 +2151,7 @@ It is clear that $\Omega^\infty$ preserves fibrations and acyclic cofibrations. 
 
 Just for the record, we spell out a direct argument that also $\Sigma^\infty$ preserves cofibrations and acyclic cofibrations:
 
-Let $f \colon X\longrightarrow Y$ be a morphism in $Top^{\ast/}_{cg}$ and 
+Let $f \colon X\longrightarrow Y$ be a morphism in $Top^{\ast/}_{cg}$ and
 
 $$
   \Sigma^\infty f \colon \Sigma^\infty X \longrightarrow \Sigma^\infty Y
@@ -2183,9 +2163,9 @@ Since the structure maps in a [[suspension spectrum]], example \ref{SuspensionSp
 
 $$
   (\Sigma^\infty X)_{n+1}
-    \underset{S^1 \wedge (\Sigma^\infty X)_n}{\coprod} 
+    \underset{S^1 \wedge (\Sigma^\infty X)_n}{\coprod}
    S^1 \wedge (\Sigma^\infty Y)_n
-    \simeq 
+    \simeq
   S^1 \wedge (\Sigma^\infty Y)_n
   \,.
 $$
@@ -2204,12 +2184,12 @@ This shows that $\Sigma^\infty$ is a left Quillen functor.
 The $(\Sigma \dashv \Omega)$-[[adjunction]] from prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec} is a [[Quillen adjunction]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) with respect to the strict model structure on sequential spectra of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
 
 $$
-   SeqSpec(Top_{cg})_{strict}  
+   SeqSpec(Top_{cg})_{strict}
      \underoverset
        {\underset{\Omega}{\longrightarrow}}
        {\overset{\Sigma}{\longleftarrow}}
        {\bot}
-   SeqSpec(Top_{cg})_{strict}   
+   SeqSpec(Top_{cg})_{strict}
   \,.
 $$
 
@@ -2222,7 +2202,7 @@ Since the (acyclic) fibrations of $SeqSpec(Top_{cg})_{strict}$ are by definition
 
 =--
 
-In summary, prop. \ref{StabilizationAdjunctionSquareExists}, prop. \ref{SigmaInfinityIsQuillenOnStrictModelStructureOnSequential} and prop.  \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential} say that 
+In summary, prop. \ref{StabilizationAdjunctionSquareExists}, prop. \ref{SigmaInfinityIsQuillenOnStrictModelStructureOnSequential} and prop.  \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential} say that
 
 +-- {: .num_cor #SuspensionLoopingAdjunctionSystemForStrictModelStructure}
 ###### Corollary
@@ -2234,7 +2214,7 @@ $$
   \array{
      (Top_{cg}^{\ast/})_{Quillen}
       &
-      \underoverset{\underoverset{\Omega}{\bot}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{} 
+      \underoverset{\underoverset{\Omega}{\bot}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{}
       &
      (Top^{\ast/}_{cg})_{Quillen}
      \\
@@ -2257,15 +2237,18 @@ $$
 
 =--
 
-Further [below](#StableModelStructureOnSequentialSpectra) we pass to the stable model structure in order to make the bottom adjunction in this diagram become a [[Quillen equivalence]]. This stable model structure will have more weak equivalences than the strict model structure, but will have the same cofibrations. Therefore we first consider now cofibrancy conditions already in the strict model structure. 
+Further [below](#StableModelStructureOnSequentialSpectra) we pass to the stable model structure in order to make the bottom adjunction in this diagram become a [[Quillen equivalence]]. This stable model structure will have more weak equivalences than the strict model structure, but will have the same cofibrations. Therefore we first consider now cofibrancy conditions already in the strict model structure.
 
-##### CW-spectra
+
+
+
+### CW-spectra
  {#CWSpectra}
 
 +-- {: .num_defn #CWSpectrum}
 ###### Definition
 
-A [[sequential spectrum]] $X$ (def. \ref{SequentialSpectra}) is called a **[[cell spectrum]]** if 
+A [[sequential spectrum]] $X$ (def. \ref{SequentialSpectra}) is called a **[[cell spectrum]]** if
 
 1. all component spaces $X_n$ are [[cell complexes]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex));
 
@@ -2309,7 +2292,7 @@ $$
     \Sigma^\infty S^p[-q]
   }
   \,,
-$$ 
+$$
 
 where the left vertical morphism is the image under the $-q$th shift spectrum functor (def. \ref{ShiftedSpectrum}) of the image under the [[suspension spectrum]] functor (example \ref{SuspensionSpectrum}) of the basic cell inclusion $(i_p)_+$ of [[pointed topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)). This is a cofibration by prop. \ref{SigmaInfinityIsQuillenOnStrictModelStructureOnSequential}, and so also the middle vertical morphism is a cofibration, by theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}. Using the [[pasting law]] for pushouts, we find that the [[cofiber]] of the middle vertical morphisms (hence its [[homotopy cofiber]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)) in the strict model structure) is $\Sigma^\infty S^p[-q]$ (not $\Sigma^\infty S^p_+[-q]\;$(!)). This is a shift of a trunction of the [[sphere spectrum]].
 
@@ -2339,9 +2322,9 @@ Let $\kappa$ be an [[regular cardinal]] and let $X$ be a $\kappa$-cell spectrum,
 +-- {: .proof}
 ###### Proof
 
-By remark \ref{StrictModelStructureCellAttachmentToSpectra} the attachment of stable cells is by [[free spectra]] (def. \ref{FreeSequentialSpectra}) on [[compact topological spaces]]. By prop. \ref{LeftAdjointnessOfFreeSpectrum} maps out of them are equivalently maps of component spaces in the lowest nontrivial degree. Since compact topological spaces are small with respect to relative cell complex inclusions ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)), all these cells are small. 
+By remark \ref{StrictModelStructureCellAttachmentToSpectra} the attachment of stable cells is by [[free spectra]] (def. \ref{FreeSequentialSpectra}) on [[compact topological spaces]]. By prop. \ref{LeftAdjointnessOfFreeSpectrum} maps out of them are equivalently maps of component spaces in the lowest nontrivial degree. Since compact topological spaces are small with respect to relative cell complex inclusions ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)), all these cells are small.
 
-Now notice that $\kappa$-[[filtered colimits]] of sets commute with $\kappa$-small limtis of sets ([prop.](filtered+limit#FilteredColimitsCommuterWithFiniteLimits)). By assumption $X$ is a $\kappa$-small [[transfinite composition]] of [[pushouts]] of $\kappa$-small [[coproducts]], all three of which are $\kappa$-small colimits; and let $Y$ be the codomain of a $\kappa$-small relative cell complex inclusion, hence itself a $\kappa$-small colimit. 
+Now notice that $\kappa$-[[filtered colimits]] of sets commute with $\kappa$-small limtis of sets ([prop.](filtered+limit#FilteredColimitsCommuterWithFiniteLimits)). By assumption $X$ is a $\kappa$-small [[transfinite composition]] of [[pushouts]] of $\kappa$-small [[coproducts]], all three of which are $\kappa$-small colimits; and let $Y$ be the codomain of a $\kappa$-small relative cell complex inclusion, hence itself a $\kappa$-small colimit.
 
 Now if $A = \underset{\longrightarrow}{\lim}_n \sigma_n$ is a $\kappa$-small colimit of $\kappa$-small objects $\sigma_n$, and $Y = \underset{\longrightarrow}{\lim}_i Y_i$ is a $\kappa$-small colimit, then
 
@@ -2352,27 +2335,27 @@ $$
     Hom( \underset{\longrightarrow}{\lim}_\sigma c_\sigma,  \underset{\longrightarrow}{\lim}_i Y_i )
     \\
     & \simeq
-    \underset{\longleftarrow}{\lim}_\sigma 
+    \underset{\longleftarrow}{\lim}_\sigma
     Hom(c_\sigma, \underset{\longrightarrow}{\lim}_i Y_i )
     \\
     & \simeq
-    \underset{\longleftarrow}{\lim}_\sigma  
+    \underset{\longleftarrow}{\lim}_\sigma
     \,
-    \underset{\longrightarrow}{\lim}_i 
+    \underset{\longrightarrow}{\lim}_i
     Hom(c_\sigma, Y_i )
     \\
     & \simeq
-    \underset{\longrightarrow}{\lim}_i 
+    \underset{\longrightarrow}{\lim}_i
     \,
-    \underset{\longleftarrow}{\lim}_\sigma  
+    \underset{\longleftarrow}{\lim}_\sigma
     Hom(c_\sigma, Y_i )
     \\
     & \simeq
-    \underset{\longrightarrow}{\lim}_i 
+    \underset{\longrightarrow}{\lim}_i
     Hom(\underset{\longrightarrow}{\lim}_\sigma  c_\sigma, Y_i )
     \\
     & \simeq
-    \underset{\longrightarrow}{\lim}_i 
+    \underset{\longrightarrow}{\lim}_i
     Hom(A, Y_i )
   \end{aligned}
   \,.
@@ -2415,7 +2398,7 @@ In particular [[cell spectra]] and specifically [[CW-spectra]] (def. \ref{CWSpec
 ###### Proof
 
 The [[initial object]] in $SeqSpec(Top_{cg})_{strict}$ is the spectrum $\ast$ that is constant on the point (example \ref{InitialSequentialSpectrum}).
-A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} if 
+A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} if
 
 1. the morphism $\ast \to X_0$ is a classical cofibration, hence if the object $X_0$ is a classical cofibrant object, hence a [[retract]] of a [[cell complex]];
 
@@ -2501,7 +2484,7 @@ $$
     \\
     \hat X
   }
-$$ 
+$$
 
 such that $\phi$ is [[n-connected continuous function|n-connected]].
 
@@ -2518,10 +2501,10 @@ Moreover:
 +-- {: .num_prop #CWApproximationForContinuousFunctions}
 ###### Proposition
 
-For every [[continuous function]] $f \colon A \longrightarrow X$ out of a [[CW-complex]] $A$, there exists a [[relative CW-complex]] $\hat f \colon A \longrightarrow \hat X$ that factors $f$ followed by a [[weak homotopy equivalence]] 
+For every [[continuous function]] $f \colon A \longrightarrow X$ out of a [[CW-complex]] $A$, there exists a [[relative CW-complex]] $\hat f \colon A \longrightarrow \hat X$ that factors $f$ followed by a [[weak homotopy equivalence]]
 
 $$
-  \array{   
+  \array{
      A && \overset{f}{\longrightarrow} && X
      \\
      & {}_{\mathllap{\hat f}}\searrow && \nearrow_{\mathrlap{{\phi} \atop {\in WHE}}}
@@ -2542,14 +2525,14 @@ $$
   \array{
     A &\overset{f_0}{\longrightarrow}& X_0 &\overset{f_2}{\longrightarrow}& X_1 &\longrightarrow & \cdots
     \\
-    &{}_{\mathllap{f}}\searrow & \downarrow^{\mathrlap{\phi_0}} & \swarrow_{\mathrlap{\phi_1}} & \cdots 
+    &{}_{\mathllap{f}}\searrow & \downarrow^{\mathrlap{\phi_0}} & \swarrow_{\mathrlap{\phi_1}} & \cdots
     \\
     && X
   }
   \,,
 $$
 
-where each $f_n$ is a [[relative CW-complex]] adding cells exactly of dimension $n$, and where $\phi_n$ in [[n-connected continuous function|n-connected]]. 
+where each $f_n$ is a [[relative CW-complex]] adding cells exactly of dimension $n$, and where $\phi_n$ in [[n-connected continuous function|n-connected]].
 
 Let then $\hat X$ be the [[colimit]] over the sequence (its [[transfinite composition]]) and $\hat f \colon A \to X$ the induced component map. By definition of relative CW-complexes, this $\hat f$ is itself a relative CW-complex.
 
@@ -2559,7 +2542,7 @@ $$
   \array{
     A &\overset{f_0}{\longrightarrow}& X_0 &\overset{f_1}{\longrightarrow}& X_1 &\longrightarrow & \cdots
     \\
-    &{}_{\mathllap{}}\searrow & \downarrow^{\mathrlap{}} & \swarrow_{\mathrlap{}} & \cdots 
+    &{}_{\mathllap{}}\searrow & \downarrow^{\mathrlap{}} & \swarrow_{\mathrlap{}} & \cdots
     \\
     && \hat X
     \\
@@ -2577,12 +2560,12 @@ Finally to see that $\phi$ is a weak homotopy equivalence: since [[n-spheres]] a
 +-- {: .num_prop #CWApproximationForSequentialSpectra}
 ###### Proposition
 
-For $X$ any topological [[sequential spectrum]] (def.\ref{SequentialSpectra}), then there exists a [[CW-spectrum]] $\hat X$ (def. \ref{CWSpectrum}) and a homomorphism 
+For $X$ any topological [[sequential spectrum]] (def.\ref{SequentialSpectra}), then there exists a [[CW-spectrum]] $\hat X$ (def. \ref{CWSpectrum}) and a homomorphism
 
 $$
   \phi \;\colon\;  \hat X \overset{\in W_{strict}}{\longrightarrow} X
   \,.
-$$ 
+$$
 
 which is degreewise a [[weak homotopy equivalence]], hence a weak equivalence in the strict model structure of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
 
@@ -2594,10 +2577,10 @@ which is degreewise a [[weak homotopy equivalence]], hence a weak equivalence in
 First let $\hat X_0 \longrightarrow X_0$ be a CW-approximation of the component space in degree 0, via prop. \ref{CWApproximationForContinuousFunctions}. Then proceed by [[induction]]: suppose that for $n \in \mathbb{N}$ a [[CW-approximation]] $\phi_{k \leq n} \colon  \hat X_{k \leq n} \to X_{k \leq n}$ has been found such that all the structure maps in degrees $\lt n$ are respected. Consider then the composite continuous function
 
 $$
-  S^1 \wedge \hat X_n 
-    \overset{S^1 \wedge \phi_n}{\longrightarrow} 
-  S^1 \wedge X_n 
-    \overset{\sigma_n}{\longrightarrow} 
+  S^1 \wedge \hat X_n
+    \overset{S^1 \wedge \phi_n}{\longrightarrow}
+  S^1 \wedge X_n
+    \overset{\sigma_n}{\longrightarrow}
   X_{n+1}
   \,.
 $$
@@ -2605,10 +2588,10 @@ $$
 Applying prop. \ref{CWApproximationForContinuousFunctions} to this function factors it as
 
 $$
-  S^1 \wedge \hat X_n 
-    \hookrightarrow 
-  \hat X_{n+1} 
-    \overset{\phi_{n+1}}{\longrightarrow} 
+  S^1 \wedge \hat X_n
+    \hookrightarrow
+  \hat X_{n+1}
+    \overset{\phi_{n+1}}{\longrightarrow}
   X_{n+1}
   \,.
 $$
@@ -2616,9 +2599,9 @@ $$
 Hence we have obtained the next stage $\hat X_{n+1}$ of the CW-approximation. The respect for the structure maps is just this factorization property:
 
 $$
-  \array{  
-    S^1 \wedge \hat X_n 
-      &\overset{S^1 \wedge \phi_n}{\longrightarrow}& 
+  \array{
+    S^1 \wedge \hat X_n
+      &\overset{S^1 \wedge \phi_n}{\longrightarrow}&
     S^1 \wedge X_n
     \\
     {}^{incl}\downarrow && \downarrow^{\mathrlap{\sigma_n}}
@@ -2630,7 +2613,10 @@ $$
 
 =--
 
-##### Topological enrichment
+
+
+
+### Topological enrichment
   {#TopologicalEnrichment}
 
 We discuss here how the [[hom-set]] of homomorphisms between any two sequential spectra is naturally equipped with a topology, and how these _[[hom-spaces]]_ interact well with the strict model structure on sequential spectra from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}. This is in direct analogy to the compatibility of compactly generated [[mapping spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces)) with the [[classical model structure on topological spaces|classical model structure on compactly generated topological spaces]] discussed at _[Classical homotopy theory -- Topological enrichment](Introduction+to+Stable+homotopy+theory+--+P#TopologicalEnrichment)_. It gives an improved handle on the analysis of morphisms of spectra below in [the proof of the stable model structure](#ProofOfTheStableModelStructureOnSequentialSpectra) and it paves the way to the discussion of fully fledge _[[mapping spectra]]_ below in _[[Introduction to Stable homotopy theory -- 1-2|part 1.2]]_. There we will give a fully general account of the principles underlying the following. Here we just consider a pragmatic minimum that allows us to proceed.
@@ -2641,7 +2627,7 @@ We discuss here how the [[hom-set]] of homomorphisms between any two sequential 
 +-- {: .num_defn #HomSpaceBetweenSequentialSpectra}
 ###### Definition
 
-For $X, Y \in SeqSpec(Top_{cg})$ two [[sequential spectra]] (def. \ref{SequentialSpectra}) let 
+For $X, Y \in SeqSpec(Top_{cg})$ two [[sequential spectra]] (def. \ref{SequentialSpectra}) let
 
 $$
   SeqSpec(X,Y) \in Top_{cg}^{\ast/}
@@ -2650,7 +2636,7 @@ $$
 be the [[pointed topological space]] whose underlying set is the [[hom-set]] $Hom_{SeqSpec(Top_{cg})}(X,Y)$ of homomorphisms from $X$ to $Y$, and which is equipped with the [[final topology]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#InitialAndFinalTopologies)) generated by those functions
 
 $$
-  \phi 
+  \phi
     \;\colon\;
   K \longrightarrow Hom_{SeqSpec(Top_{cg})}(X,Y)
 $$
@@ -2658,7 +2644,7 @@ $$
 out of [[compact topological space|compact]] [[Hausdorff spaces]] $K$, for which there exists a homomorphism of spectra
 
 $$
-  \tilde \phi 
+  \tilde \phi
     \;\colon\;
   X\wedge K
     \longrightarrow
@@ -2698,22 +2684,22 @@ We also saw that, by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+
 
 $$
   Fib_{cl}^{\Box Cof_{cl}}
-  \subset 
-  Fib_{cl} 
+  \subset
+  Fib_{cl}
   \;\,,
   \;\:\;\;
   Fib_{cl}^{\Box (Cof_{cl} \cap W_{cl})}
-  \subset 
+  \subset
   Fib_{cl} \cap W_{cl}
   \;\,,
   \;\;\;
   (Fib_{cl} \cap W_{cl})^{\Box Cof_{cl}}
   \subset
-  Fib_{cl} \cap W_{cl}  
+  Fib_{cl} \cap W_{cl}
   \,.
-$$ 
+$$
 
-Now that we passed from spaces to spectra, def. \ref{TensoringAndPoweringOfSequentialSpectra} generalizes the smash product of spaces to the smash tensoring of sequential spectra by spaces, and generalizes the pointed mapping space construction for spaces to the powering of a space into a sequential spectrum. Accordingly there is now the analogous concept of _[[pushout product]]_ with respect to smash tensoring, and of _pullback powering_ with respect to smash powering. 
+Now that we passed from spaces to spectra, def. \ref{TensoringAndPoweringOfSequentialSpectra} generalizes the smash product of spaces to the smash tensoring of sequential spectra by spaces, and generalizes the pointed mapping space construction for spaces to the powering of a space into a sequential spectrum. Accordingly there is now the analogous concept of _[[pushout product]]_ with respect to smash tensoring, and of _pullback powering_ with respect to smash powering.
 
 From the way things are presented, it is immediate that these operations on spectra satisfy the analogous compatibility condition with the strict model structure on spectra from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, in fact this follows generally for topologically enriched functor categories and is inherited via prop. \ref{SequentialSpectraAsDiagramSpectra}. But since this will be important for some of the discussion to follow, we here make it explicit:
 
@@ -2721,9 +2707,9 @@ From the way things are presented, it is immediate that these operations on spec
 +-- {: .num_defn #PushoutProductWithRespectToSmashTensoring}
 ###### Definition
 
-Let $f \;\colon \; X \to Y$ be a morphism in $SeqSpec(Top_{cg})$ (def. \ref{SequentialSpectra}) and let $i \;\colon\; A \to B$ a morphism in $Top_{cg}^{\ast/}$. 
+Let $f \;\colon \; X \to Y$ be a morphism in $SeqSpec(Top_{cg})$ (def. \ref{SequentialSpectra}) and let $i \;\colon\; A \to B$ a morphism in $Top_{cg}^{\ast/}$.
 
-Their **[[pushout product]] with respect to smash tensoring** is the universal morphism 
+Their **[[pushout product]] with respect to smash tensoring** is the universal morphism
 
 $$
   f \Box i
@@ -2776,8 +2762,8 @@ $$
     \\
     Maps(B,Y)_\ast && (pb) && Maps(A,X)_\ast
     \\
-    & {}_{\mathllap{Maps(i,Y)_\ast}}\searrow 
-      && 
+    & {}_{\mathllap{Maps(i,Y)_\ast}}\searrow
+      &&
     \swarrow_{\mathrlap{Maps(A,p)_\ast}}
     \\
     && Maps(A,Y)_\ast
@@ -2787,13 +2773,13 @@ $$
 
 where $Maps(-,-)_\ast$ denotes the smash powering from def. \ref{TensoringAndPoweringOfSequentialSpectra}.
 
-Similarly, for $f \colon X \to Y$ and $i \colon A \to B$ both morphisms of sequential spectra, then their pullback powering is the universal morphism 
+Similarly, for $f \colon X \to Y$ and $i \colon A \to B$ both morphisms of sequential spectra, then their pullback powering is the universal morphism
 
 $$
   f^{\Box i} \coloneqq (SeqSpec(B,f), SeqSpec(i,X))
 $$
 
-in 
+in
 
 $$
   \array{
@@ -2807,8 +2793,8 @@ $$
     \\
     SeqSpec(B,Y)_\ast && (pb) && SeqSpec(A,X)_\ast
     \\
-    & {}_{\mathllap{SeqSpec(i,Y)_\ast}}\searrow 
-      && 
+    & {}_{\mathllap{SeqSpec(i,Y)_\ast}}\searrow
+      &&
     \swarrow_{\mathrlap{SeqSpec(A,p)_\ast}}
     \\
     && SeqSpec(A,Y)_\ast
@@ -2924,14 +2910,17 @@ $$
   \,.
 $$
 
-By prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}, for $X$ a [[CW-spectrum]] then the standard [[cylinder spectrum]] $X \wedge (I_+)$ is a good cyclinder object ([def.](Introduction+to+Stable+homotopy+theory+--+P#PathAndCylinderObjectsInAModelCategory)) on a cofibrant object. 
+By prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}, for $X$ a [[CW-spectrum]] then the standard [[cylinder spectrum]] $X \wedge (I_+)$ is a good cyclinder object ([def.](Introduction+to+Stable+homotopy+theory+--+P#PathAndCylinderObjectsInAModelCategory)) on a cofibrant object.
 
 Since moreover every object in $SeqSpec(Top_{cg})_{strict}$ is fibrant, the statement follows (with [this lemma](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)).
 
 =--
 
 
-#### The stable model structure on sequential spectra
+
+
+
+## The stable model structure on sequential spectra
  {#StableModelStructureOnSequentialSpectra}
 
 
@@ -2939,7 +2928,12 @@ The actual spectrum objects of interest in [[stable homotopy theory]] are not th
 
 Such a situation is called a _[[Bousfield localization of model categories|Bousfield localization of a model category]]_.
 
-##### Bousfield localization
+
+
+
+
+
+### Bousfield localization
 
 In plain [[category theory]], a _[[localization]]_ of a [[category]] $\mathcal{C}$ is equivalently a [[full subcategory]]
 
@@ -2976,12 +2970,12 @@ $$
 is [[equivalence of categories|equivalently]] the [[localization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) of $\mathcal{C}$ at the "$L$-equivalences", namely at those morphisms $f$ such that $L(f)$ is an isomorphism. Hence one also speaks of _[[reflective localizations]]_.
 
 The following concept of _[[Bousfield localization of model categories]]_ is the evident lift of this concept of [[reflective localization]] from the realm of categories to the realm of [[model categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)), where isomorphism is generealized to weak equivalence and where [[adjoint functors]] are taken to exhibit [[Quillen adjunctions]].
- 
+
 +-- {: .num_defn #BousfieldLocalizationOfModelCategories}
 ###### Definition
 
 
-A **[[left Bousfield localization of model categories|left Bousfield localization]]** $\mathcal{C}_{loc}$ of a [[model category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) is another model category structure on the same underlying category with the same cofibrations, 
+A **[[left Bousfield localization of model categories|left Bousfield localization]]** $\mathcal{C}_{loc}$ of a [[model category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) is another model category structure on the same underlying category with the same cofibrations,
 
 $$
   Cof_{loc} = Cof
@@ -3023,7 +3017,7 @@ Given a [[left Bousfield localization of model categories|left Bousfield localiz
 
    $$
      Ho(\mathcal{C}_{loc})
-       \underoverset   
+       \underoverset
          {\underset{\mathbb{R} id}{\longrightarrow}}
          {\overset{\mathbb{L}id}{\longleftarrow}}
          {\bot}
@@ -3042,14 +3036,14 @@ Using the properties of the [[weak factorization systems]] ([def.](Introduction+
 
 $$
   \begin{aligned}
-    Fib_{loc} 
-      &= 
+    Fib_{loc}
+      &=
     (Cof_{loc} \cap W_{loc})Inj
     \\
-      &\subset 
-    (Cof_{loc} \cap W)Inj 
+      &\subset
+    (Cof_{loc} \cap W)Inj
     \\
-      & = 
+      & =
     Fib
   \end{aligned}
 $$
@@ -3060,12 +3054,12 @@ $$
   \begin{aligned}
     Fib_{loc} \cap W_{loc}
       & =
-    Cof_{loc} Inj 
+    Cof_{loc} Inj
     \\
-      & = 
-    Cof \, Inj 
+      & =
+    Cof \, Inj
     \\
-      & = 
+      & =
     Fib \cap W
   \end{aligned}
  \,.
@@ -3084,7 +3078,7 @@ The left adjoint to this inclusion is given by $\mathbb{L}id$, by the general pr
 
 
 
-In plain [[category theory]], given a [[reflective subcategory]] 
+In plain [[category theory]], given a [[reflective subcategory]]
 
 $$
   \mathcal{C}_{loc}
@@ -3098,9 +3092,9 @@ $$
 then the composite
 
 $$
-  Q \coloneqq i \circ L  
-    \;\colon\; 
-  \mathcal{C} 
+  Q \coloneqq i \circ L
+    \;\colon\;
+  \mathcal{C}
     \longrightarrow
   \mathcal{C}
 $$
@@ -3116,8 +3110,8 @@ The following is the lift of this alternative perspective of reflective localiza
 Let $\mathcal{C}$ be a [[model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) which is [[right proper model category|right proper]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#RightProperModelCategory)), in that [[pullback]] along fibrations preserves weak equivalences.
 
 Say that a **Quillen idempotent monad** on $\mathcal{C}$ is
- 
-1. an [[endofunctor]] 
+
+1. an [[endofunctor]]
 
    $Q \;\colon\;  \mathcal{C} \longrightarrow \mathcal{C}$
 
@@ -3178,13 +3172,13 @@ a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad}, say t
 
 1. **a $Q$-fibration** if it has the [[right lifting property]] against the morphisms that are both ($Q$-)cofibrations as well as $Q$-weak equivalences.
 
-Write 
+Write
 
 $$
   \mathcal{C}_Q
-$$ 
+$$
 
-for $\mathcal{C}$ equipped with these classes of morphisms. 
+for $\mathcal{C}$ equipped with these classes of morphisms.
 
 =--
 
@@ -3196,7 +3190,7 @@ We establish a couple of lemmas that will prove that the model structure indeed 
 +-- {: .num_lemma #FirstLemmaForBousfieldFriedlander}
 ###### Lemma
 
-In the situation of def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}, 
+In the situation of def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad},
 a morphism is an acyclic fibration in $\mathcal{C}_Q$ precisely if it is an acyclic fibration in $\mathcal{C}$.
 
 =--
@@ -3210,10 +3204,10 @@ Let $f$ be a fibration and a weak equivalence. Since $Q$ preserves weak equivale
 In the other direction, let $f \;\colon\; X \longrightarrow Y $ be a $Q$-acyclic $Q$-fibration. Consider its factorization into a cofibration followed by an acyclic fibration
 
 $$
-  f 
-    \;\colon\; 
-  X  
-    \underoverset{\in Cof}{i}{\longrightarrow} 
+  f
+    \;\colon\;
+  X
+    \underoverset{\in Cof}{i}{\longrightarrow}
   Z
     \underoverset{\in W \cap Fib}{p}{\longrightarrow}
   Y
@@ -3242,8 +3236,8 @@ $$
   \array{
     A &\overset{\alpha}{\longrightarrow}& X
     \\
-    {}^{\mathllap{i}}_{\mathllap{\in W_Q \cap Cof_Q}}\downarrow 
-     && 
+    {}^{\mathllap{i}}_{\mathllap{\in W_Q \cap Cof_Q}}\downarrow
+     &&
     \downarrow^{\mathrlap{f}}
     \\
     B &\underset{\beta}{\longrightarrow}& Y
@@ -3266,22 +3260,22 @@ $$
   \simeq
   \;\;\;\;\;\;
   \array{
-    Q(A) 
-     &\underoverset{\in W \cap Cof}{j_\alpha}{\longrightarrow}& 
-    Z 
-     &\underoverset{\in Fib}{p_\alpha}{\longrightarrow}& 
+    Q(A)
+     &\underoverset{\in W \cap Cof}{j_\alpha}{\longrightarrow}&
+    Z
+     &\underoverset{\in Fib}{p_\alpha}{\longrightarrow}&
     Q(X)
     \\
-    {}^{\mathllap{Q(i)}}\downarrow 
+    {}^{\mathllap{Q(i)}}\downarrow
       &&
     \downarrow^{\pi}
-      && 
+      &&
     \downarrow^{\mathrlap{Q(f)}}
     \\
-    Q(B) 
-      &\underoverset{j_\beta}{\in W \cap Cof}{\longrightarrow}& 
-    W 
-      &\underoverset{p_\beta}{\in Fib}{\longrightarrow}& 
+    Q(B)
+      &\underoverset{j_\beta}{\in W \cap Cof}{\longrightarrow}&
+    W
+      &\underoverset{p_\beta}{\in Fib}{\longrightarrow}&
     Q(Y)
   }
 $$
@@ -3293,22 +3287,22 @@ Now consider the pullback of the right square above along the naturality square 
 $$
   \array{
     \alpha \colon
-    & 
-    A 
+    &
+    A
       &\overset{(j_\alpha \circ \eta_A, \alpha)}{\longrightarrow}&
     Z \underset{Q(X)}{\times} X
       &\overset{}{\longrightarrow}&
     X
     \\
-    & {}^{\mathllap{i}}\downarrow 
+    & {}^{\mathllap{i}}\downarrow
       &&
     \downarrow^{\mathrlap{(\pi,f)}}
       &&
     \downarrow^{\mathrlap{f}}&
     \\
-    \beta \colon 
-    & 
-    B 
+    \beta \colon
+    &
+    B
       &\underset{(j_\beta\circ\eta_B,\beta)}{\longrightarrow}&
     W \underset{Q(Y)}{\times} Y
       &\underset{}{\longrightarrow}&
@@ -3324,33 +3318,33 @@ We claim that $(\pi,f)$ here is a weak equivalence. This implies that we find th
 $$
   \array{
     \alpha \colon
-    & 
-    A 
+    &
+    A
       &\overset{(j_\alpha \circ \eta_A, \alpha)}{\longrightarrow}&
     Z \underset{Q(X)}{\times} X
       &\overset{}{\longrightarrow}&
     X
     \\
-    & {}^{\mathllap{id}}\downarrow 
+    & {}^{\mathllap{id}}\downarrow
       &&
     {}^{\mathllap{\in W \cap Cof}}\downarrow
       &{}^{\mathllap{\exists}}\nearrow&
     \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib}}&
     \\
-    & 
-    A 
-      &\longrightarrow& 
+    &
+    A
+      &\longrightarrow&
       &\overset{\phantom{AAAAAAA}}{\longrightarrow}&
     Y
     \\
-    & {}^{\mathllap{i}}_{\mathllap{\in Cof}}\downarrow 
+    & {}^{\mathllap{i}}_{\mathllap{\in Cof}}\downarrow
       &{}^{\mathllap{\exists}}\nearrow&
     \downarrow^{\mathrlap{\in W \cap Fib}}
       &&
     \downarrow^{\mathrlap{id}}&
     \\
-    \beta \colon & 
-    B 
+    \beta \colon &
+    B
       &\underset{(j_\beta\circ\eta_B,\beta)}{\longrightarrow}&
     W \underset{Q(Y)}{\times} Y
       &\longrightarrow&
@@ -3365,20 +3359,20 @@ Consider the diagram
 
 $$
   \array{
-     Q(A) 
-       &\underoverset{\in W \cap Cof}{j_\alpha}{\longrightarrow}& 
+     Q(A)
+       &\underoverset{\in W \cap Cof}{j_\alpha}{\longrightarrow}&
      Z
        &\underoverset{\in W}{pr_1}{\longleftarrow}&
      Z \underset{Q(X)}{\times} X
      \\
-     {}^{\mathllap{Q(i)}}_{\mathllap{\in W}}\downarrow 
-       && 
+     {}^{\mathllap{Q(i)}}_{\mathllap{\in W}}\downarrow
+       &&
      \downarrow^{\mathrlap{\pi}}
-       && 
+       &&
      \downarrow^{\mathrlap{(\pi,f)}}
      \\
-     Q(B) 
-       &\underoverset{j_\beta}{\in W \cap Cof}{\longrightarrow}& 
+     Q(B)
+       &\underoverset{j_\beta}{\in W \cap Cof}{\longrightarrow}&
      Z
        &\underoverset{pr_2}{\in W}{\longleftarrow}&
      W \underset{Q(X)}{\times} X
@@ -3404,7 +3398,7 @@ Then the [[Bousfield localization of model categories|Bousfield localization]] m
 
 =--
 
-([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01), [Goerss-Jardine 96, chapter X, lemma 4.5, lemma 4.6, theorem 4.1](#GoerssJardine96)) 
+([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01), [Goerss-Jardine 96, chapter X, lemma 4.5, lemma 4.6, theorem 4.1](#GoerssJardine96))
 
 +-- {: .proof}
 ###### Proof
@@ -3420,7 +3414,7 @@ So we may conclude by showing the existence of $(W_Q \cap Cof_Q, \; Fib_Q)$ fact
 First we consider the case of morphisms of the form $f \colon Q(Y) \to Q(Y)$. These may be factored with respect to $\mathcal{C}$ as
 
 $$
-  f 
+  f
   \;\colon\;
   Q(X)
     \underoverset{\in W \cap Cof}{\in i}{\longrightarrow}
@@ -3434,7 +3428,7 @@ Here $i$ is already a $Q$-acyclic $Q$-cofibration, since $Q$ preserves weak equi
 
 $$
   \array{
-  f 
+  f
   \colon
   &
   Q(X)
@@ -3444,10 +3438,10 @@ $$
   Q(Y)
   \\
   &
-  \downarrow^{\mathrlap{\eta_{Q(X)}}}_{\mathrlap{\in W}} 
-    && 
-  \downarrow^{\mathrlap{\eta_Z}} 
-    && 
+  \downarrow^{\mathrlap{\eta_{Q(X)}}}_{\mathrlap{\in W}}
+    &&
+  \downarrow^{\mathrlap{\eta_Z}}
+    &&
   \downarrow^{\mathrlap{\eta_{Q(Y)}}}_{\mathrlap{\in W}}
   \\
   &
@@ -3463,7 +3457,7 @@ $$
 where $\eta_{Q(X)}$ and $\eta_{Q(Y)}$ are weak equivalences by idempotency (the second clause in def. \ref{QuillenIdempotentMonad}), and $Q(i)$ is a weak equivalence since $Q$ preserves weak equivalences. Hence by [[two-out-of-three]] also $\eta_Z$ is a weak equivalence. Therefore lemma \ref{SecondLemmaForBousfieldFriedlander} gives that $p$ is a $Q$-fibration, and hence the above factorization is already as desired
 
 $$
-  f 
+  f
   \;\colon\;
   Q(X)
     \underoverset{\in W_Q \cap Cof_Q}{\in i}{\longrightarrow}
@@ -3478,25 +3472,25 @@ Now for an arbitrary morphism $g \colon X \to Y$, form a factorization of $Q(g)$
 $$
   \array{
     g \colon
-    & 
-    X 
+    &
+    X
       &\overset{\tilde i}{\longrightarrow}&
     Z \underset{Q(Y)}{\times} Y
       &\overset{\tilde p \in Fib_{Q}}{\longrightarrow}&
     Y
     \\
     &
-    {}^{\mathllap{\eta_X}}_{\mathllap{\in W_Q}}\downarrow 
-      && 
-    \downarrow^{\mathrlap{\eta'}}_{\mathrlap{}} 
-      &(pb)& 
+    {}^{\mathllap{\eta_X}}_{\mathllap{\in W_Q}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\eta'}}_{\mathrlap{}}
+      &(pb)&
     \downarrow^{\mathrlap{\eta_Y}}_{\mathrlap{\in W_Q}}
     \\
     Q(g)
     \colon
     &
     Q(Y)
-      &\underoverset{i}{\in W_Q}{\longrightarrow}& 
+      &\underoverset{i}{\in W_Q}{\longrightarrow}&
     Z
       &\underoverset{p}{\in Fib_Q}{\longrightarrow}&
     Q(Y)
@@ -3509,7 +3503,7 @@ This exhibits $\eta'$ as the pullback of a $Q$-weak equivalence along a fibratio
 Observe that $\tilde p$ is a $Q$-fibration, because it is the pullback of a $Q$-fibration and because $Q$-fibrations are defined by a right lifting property (def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}) and hence closed under pullback ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)) Finally, apply factorization in $(Cof,\; W\cap Fib)$ to $\tilde i$ to obtain the desired factorization
 
 $$
-  f 
+  f
   \;\colon\;
   \underoverset{W_Q \cap Cof}{\tilde i_L}{\longrightarrow}
   \underoverset{W \cap Fib = W_Q \cap Fib_Q}{\tilde i_R}{\longrightarrow}
@@ -3527,11 +3521,11 @@ While this establishes the $Q$-model structure, so far this leaves open a more e
 
 For $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
 a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad},
-then a morphism $f \colon X \to Y$ in $\mathcal{C}$ is a $Q$-fibration (def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}) precisely if 
+then a morphism $f \colon X \to Y$ in $\mathcal{C}$ is a $Q$-fibration (def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}) precisely if
 
 1. $f$ is a fibration;
 
-1. the $\eta$-naturality square on $f$ 
+1. the $\eta$-naturality square on $f$
 
    $$
      \array{
@@ -3563,13 +3557,13 @@ First consider the case that $f$ is a fibration and that the square is a homotop
 Factor $Q(f)$ as
 
 $$
-  Q(f) 
+  Q(f)
     \;\colon\;
   Q(X)
     \underoverset{\in W \cap Cof}{i}{\longrightarrow}
   Z
     \underoverset{\in Fib}{p}{\longrightarrow}
-  Q(Y)  
+  Q(Y)
   \,.
 $$
 
@@ -3579,16 +3573,16 @@ $$
   \array{
     X &\overset{\eta_X}{\longrightarrow}& Q(X)
     \\
-    {}^{\mathllap{\tilde i}}_{\mathllap{\in W}}\downarrow 
-      && 
+    {}^{\mathllap{\tilde i}}_{\mathllap{\in W}}\downarrow
+      &&
     \downarrow^{\mathrlap{i}}_{\mathrlap{\in W}}
     \\
-    Y \underset{Q(Y)}{\times} Z 
+    Y \underset{Q(Y)}{\times} Z
       &\overset{p^\ast \eta_Y}{\longrightarrow}&
     Z
     \\
-    {}^{\mathllap{\tilde p}}_{\mathllap{\in Fib_Q}}\downarrow 
-      &(pb)& 
+    {}^{\mathllap{\tilde p}}_{\mathllap{\in Fib_Q}}\downarrow
+      &(pb)&
     \downarrow^{\mathrlap{p}}_{\mathrlap{\in Fib_Q}}
     \\
     Y &\underset{\eta_Y}{\longrightarrow}& Q(Y)
@@ -3601,7 +3595,7 @@ Here $\tilde i$ is a weak equivalence by assumption that the diagram exhibits a 
 $$
   \tilde i
   \;\colon\;
-  X 
+  X
     \underoverset{\in W \cap Cof}{j}{\longrightarrow}
   \hat X
     \underoverset{\in W \cap Fib = W_Q \cap Fib_Q}{\pi}{\longrightarrow}
@@ -3615,8 +3609,8 @@ $$
   \array{
     X &\overset{=}{\longrightarrow}& X
     \\
-    {}^{\mathllap{j}}_{\mathllap{\in W \cap Cof}}\downarrow 
-      &{}^{\mathllap{\exists}}\nearrow& 
+    {}^{\mathllap{j}}_{\mathllap{\in W \cap Cof}}\downarrow
+      &{}^{\mathllap{\exists}}\nearrow&
     \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib}}
     \\
     \hat X
@@ -3627,20 +3621,20 @@ $$
   \leftrightarrow
   \;\;\;\;\;\;\;\;\;\;\;\;
   \array{
-    X 
-      &\overset{j}{\longrightarrow}& 
-    \hat X 
+    X
+      &\overset{j}{\longrightarrow}&
+    \hat X
       &\overset{\exists}{\longrightarrow}&
     X
     \\
-    {}^{\mathllap{}f}\downarrow 
+    {}^{\mathllap{}f}\downarrow
       &&
     \downarrow^{\mathrlap{\tilde p \circ \pi}}
       &&
     \downarrow^{\mathrlap{f}}
     \\
     Y &=& Y &=& Y
-  } 
+  }
   \,.
 $$
 
@@ -3652,32 +3646,32 @@ So factor $Q(f)$ as before, and consider the pasting composite of the factorizat
 
 $$
   \array{
-    X 
+    X
       &\underoverset{\in W_Q}{\eta_X}{\longrightarrow}&
-    Q(X) 
+    Q(X)
       &\underoverset{\in W \subset W_Q}{\eta_{Q(X)}}{\longrightarrow}&
     Q(Q(X))
     \\
     {}^{\mathllap{\tilde i}}_{\mathllap{\in W_Q}}\downarrow
-      && 
+      &&
     {}^{\mathllap{i}}_{\mathllap{\in W\subset W_Q}}\downarrow
-      && 
+      &&
     \downarrow^{\mathrlap{Q(i)}}_{\mathrlap{\in W}}
     \\
-    Y \underset{Q(Y)}{\times} Z 
+    Y \underset{Q(Y)}{\times} Z
       &\underoverset{\in W_Q}{p^\ast \eta_Y}{\longrightarrow}&
     Z
       &\underoverset{\in W}{\eta_Z}{\longrightarrow}&
     Q(Z)
     \\
-    {}^{\mathllap{\tilde p}}_{\mathllap{\in Fib_Q}}\downarrow 
-      &(pb)& 
+    {}^{\mathllap{\tilde p}}_{\mathllap{\in Fib_Q}}\downarrow
+      &(pb)&
     \downarrow^{\mathrlap{p}}_{\mathrlap{\in Fib_Q \subset Fib}}
       &&
     \downarrow^{\mathrlap{Q(p)}}
     \\
-    Y 
-      &\underoverset{\eta_Y}{\in W_Q}{\longrightarrow}& 
+    Y
+      &\underoverset{\eta_Y}{\in W_Q}{\longrightarrow}&
     Q(Y)
       &\underoverset{\eta_{Q(Y)}}{\in W \subset W_Q}{\longrightarrow}&
     Q(Q(Y))
@@ -3694,20 +3688,20 @@ Now by [[natural transformation|naturality]] of $\eta$, that total bottom rectan
 
 $$
   \array{
-    Y \underset{Q(Y)}{\times} Z 
+    Y \underset{Q(Y)}{\times} Z
       &\overset{\eta_{\left(Y \underset{Q(Y)}{\times} Z\right)}}{\longrightarrow}&
     Q(Y \underset{Q(Y)}{\times} Z)
       &\underoverset{\in W}{Q(p^\ast \eta_Y)}{\longrightarrow}&
     Q(Z)
     \\
-    {}^{\mathllap{\tilde p}}_{\mathllap{\in Fib_Q}}\downarrow 
-      && 
+    {}^{\mathllap{\tilde p}}_{\mathllap{\in Fib_Q}}\downarrow
+      &&
     \downarrow^{\mathrlap{Q(\tilde p)}}_{\mathrlap{}}
       &&
     \downarrow^{\mathrlap{Q(p)}}
     \\
-    Y 
-      &\underset{\eta_Y}{\longrightarrow}& 
+    Y
+      &\underset{\eta_Y}{\longrightarrow}&
     Q(Y)
       &\underoverset{Q(\eta_Y)}{\in W}{\longrightarrow}&
     Q(Q(Y))
@@ -3717,7 +3711,7 @@ $$
 
 where now $Q(p^\ast \eta_Y) \in W$ since $p^\ast \eta_Y \in W_Q$, as we had just established. This means again that the right square is a homotopy pullback ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)), and since the total rectangle still is a homotopy pullback itself, by the previous remark, so is now also the left square, by the other direction of the [[pasting law]] for homotopy pullbacks ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)).
 
-So far this establishes that the $\eta$-naturality square of $\tilde p$ is a homotopy pullback. We still need to show that also the $\eta$-naturality square of $f$ is a homotopy pullback. 
+So far this establishes that the $\eta$-naturality square of $\tilde p$ is a homotopy pullback. We still need to show that also the $\eta$-naturality square of $f$ is a homotopy pullback.
 
 Factor $\tilde i$ as a cofibration followed by an acyclic fibration. Since $\tilde i$ is also a $Q$-weak equivalence, by the above, [[two-out-of-three]] for $Q$-fibrations gives that this factorization is of the form
 
@@ -3732,14 +3726,14 @@ $$
   \,.
 $$
 
-As in the first part of the proof, but now with $(W \cap Cof, Fib)$ replaced by $(W_Q \cap Cof_Q, Fib_Q)$ and using lifting in the $Q$-model structure, this yields the situation 
+As in the first part of the proof, but now with $(W \cap Cof, Fib)$ replaced by $(W_Q \cap Cof_Q, Fib_Q)$ and using lifting in the $Q$-model structure, this yields the situation
 
 $$
   \array{
     X &\overset{=}{\longrightarrow}& X
     \\
-    {}^{\mathllap{j}}_{\mathllap{\in W_Q \cap Cof_Q}}\downarrow 
-      &{}^{\mathllap{\exists}}\nearrow& 
+    {}^{\mathllap{j}}_{\mathllap{\in W_Q \cap Cof_Q}}\downarrow
+      &{}^{\mathllap{\exists}}\nearrow&
     \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib_Q}}
     \\
     \hat X
@@ -3750,20 +3744,20 @@ $$
   \leftrightarrow
   \;\;\;\;\;\;\;\;\;\;\;\;
   \array{
-    X 
-      &\overset{j}{\longrightarrow}& 
-    \hat X 
+    X
+      &\overset{j}{\longrightarrow}&
+    \hat X
       &\overset{\exists}{\longrightarrow}&
     X
     \\
-    {}^{\mathllap{}f}\downarrow 
+    {}^{\mathllap{}f}\downarrow
       &&
     \downarrow^{\mathrlap{\tilde p \circ \pi}}
       &&
     \downarrow^{\mathrlap{f}}
     \\
     Y &=& Y &=& Y
-  } 
+  }
   \,.
 $$
 
@@ -3777,7 +3771,9 @@ In conclusion, we have exhibited $f$ as a [[retract]] (in the [[arrow category]]
 
 
 
-##### Proof of the stable model structure
+
+
+### Proof of the stable model structure
  {#ProofOfTheStableModelStructure}
 
 We show now that the operation of [[Omega-spectrification]] of topological sequental spectra, from def. \ref{SpectrificationForTopologicalSequentialSpectra}, is a Quillen idempotent monad in the sense of def. \ref{QuillenIdempotentMonad}. Via the [[Bousfield-Friedlander theorem]] (prop. \ref{BousfieldFriedlanderTheorem}) this establishes the stable model structure on topological sequential spectra in theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} below.
@@ -3808,9 +3804,9 @@ $$
   }
 $$
 
-is taken by $Q$ to a homotopy pullback square. By prop. \ref{LimitsAndColimitsOfSequentialSpectra} we need to check that this is the case for the $k$th component space of the sequential spectra in the diagram, for all $k \in \mathbb{N}$.  
+is taken by $Q$ to a homotopy pullback square. By prop. \ref{LimitsAndColimitsOfSequentialSpectra} we need to check that this is the case for the $k$th component space of the sequential spectra in the diagram, for all $k \in \mathbb{N}$.
 
-Let $Z^X_{i,k}$, $Z^Y_{i,k}$ etc. denote the objects appearing in the definition of $(Q X)_k \coloneqq \underset{\longrightarrow}{\lim}_i Z^X_{i,k}$, $(Q Y)_k \coloneqq \underset{\longrightarrow}{\lim}_i Z^Y_{i,k} $, etc. (def. \ref{SpectrificationForTopologicalSequentialSpectra}). 
+Let $Z^X_{i,k}$, $Z^Y_{i,k}$ etc. denote the objects appearing in the definition of $(Q X)_k \coloneqq \underset{\longrightarrow}{\lim}_i Z^X_{i,k}$, $(Q Y)_k \coloneqq \underset{\longrightarrow}{\lim}_i Z^Y_{i,k} $, etc. (def. \ref{SpectrificationForTopologicalSequentialSpectra}).
 
 
 Use the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) for the set $J_{(Top^{\ast/})}$ of acyclic generating cofibrations in $(Top^{\ast/}_{cg})_{Quillen}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)) to construct a [[functorial factorization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FunctorialFactorization)) through acyclic [[relative cell complex]] inclusions ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)) followed by [[Serre fibrations]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#SerreFibration)) in each degree:
@@ -3828,15 +3824,15 @@ Notice that by construction $Z^K_{\bullet,k}$ and $Z^Y_{\bullet,k}$ are sequence
 
 $$
   \array{
-    Z^X_{i,k} 
+    Z^X_{i,k}
      &\overset{\in J_{(Top^{\ast/})} Cell}{\longrightarrow}&
     W_i
     \\
-    {}_{\mathllap{\in I_{(Top^{\ast/})}Cell }}\downarrow 
-     && 
+    {}_{\mathllap{\in I_{(Top^{\ast/})}Cell }}\downarrow
+     &&
     \downarrow
     \\
-    Z^X_{i+1,k} 
+    Z^X_{i+1,k}
      &\overset{\in J_{(Top^{\ast/})} Cell}{\longrightarrow}&
     W_{i+1}
   }
@@ -3846,20 +3842,20 @@ $$
 that also $W_\bullet$ is a sequence of relative cell complex inclusions: a cell in $W_i$ is given by the top square in the following diagram, and the total rectangle is the image of that cell as a cell in $W_{i+1}$:
 
 $$
-  \array{ 
+  \array{
     S^{n-1} &\overset{i_n}{\longrightarrow}& D^{n-1}
     \\
     \downarrow && \downarrow
     \\
-    Z^X_{i,k} 
+    Z^X_{i,k}
      &\overset{\in J_{(Top^{\ast/})} Cell}{\longrightarrow}&
     W_i
     \\
-    {}_{\mathllap{\in I_{(Top^{\ast/})}Cell }}\downarrow 
-     && 
+    {}_{\mathllap{\in I_{(Top^{\ast/})}Cell }}\downarrow
+     &&
     \downarrow
     \\
-    Z^X_{i+1,k} 
+    Z^X_{i+1,k}
      &\overset{\in J_{(Top^{\ast/})} Cell}{\longrightarrow}&
     W_{i+1}
   }
@@ -3875,18 +3871,18 @@ $$
   (Q Y)_k
 $$
 
-for each $k \in \mathbb{N}$. 
+for each $k \in \mathbb{N}$.
 
 Consider then the commuting diagrams
 
 $$
   \array{
-     Z^B_{i,k} 
-       &\longrightarrow& 
-     Z^Y_{i,k} 
+     Z^B_{i,k}
+       &\longrightarrow&
+     Z^Y_{i,k}
        &\overset{\in Fib_{cl}}{\longleftarrow}&
-     W_i 
-       &\overset{\in W_{cl}\in Cof_{cl}}{\longleftarrow}& 
+     W_i
+       &\overset{\in W_{cl}\in Cof_{cl}}{\longleftarrow}&
      Z^X_{i,k}
      \\
       \downarrow^{\mathrlap{\phi^B}}_{\mathrlap{\in W_{cl}}}
@@ -3935,11 +3931,11 @@ $$
       Z^B_{i,k} \underset{Z^Y_{i,k}}{\times}
      W_i
      \\
-     & {}_{\mathllap{\phi \in W_{cl}}}\searrow  
-       && 
+     & {}_{\mathllap{\phi \in W_{cl}}}\searrow
+       &&
     \swarrow_{\mathrlap{\kappa \in W_{cl}}}
      \\
-     && 
+     &&
      \Omega^i(
        B_{i+k}\underset{Y_{i+k}}{\times} X_{i+k}
      )
@@ -3969,8 +3965,8 @@ $$
      \underset{\longrightarrow}{\lim}_i W_i
    \right)
    =
-  (Q B)_k 
-    \underset{(Q Y)_k}{\times} 
+  (Q B)_k
+    \underset{(Q Y)_k}{\times}
   \left(
     \underset{\longrightarrow}{\lim}_i W_i
   \right)
@@ -3987,11 +3983,11 @@ This exhibits (degreewise and hence globally) the [[homotopy pullback]] property
 The [[Omega-spectrification]] $(Q,\eta)$ from def. \ref{SpectrificationForTopologicalSequentialSpectra} is a Quillen idempotent monad in the sense of def. \ref{QuillenIdempotentMonad} on the strict model structre theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}:
 
 $$
-  Q 
-    \;\colon\; 
+  Q
+    \;\colon\;
   SeqSpec(Top_{cg})_{strict}
     \longrightarrow
-  SeqSpec(Top_{cg})_{strict}  
+  SeqSpec(Top_{cg})_{strict}
   \,.
 $$
 
@@ -4005,9 +4001,9 @@ $$
 
 First notice that the strict model structure is indeed [[right proper model category|right proper]], as demanded in def. \ref{QuillenIdempotentMonad}: Since every object in $SeqSpec(Top_{cg})$ is fibrant (this being so degreewise in $(Top_{cg}^{\ast/})_{Quillen}$) this follows from [this lemma](Introduction+to+Stable+homotopy+theory+--+P#InCfPullbackAlongFibrationPreservesWeakEquivalences).
 
-The first two conditions required on a Quillen idempotent monad in def. \ref{QuillenIdempotentMonad} are explicit in prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}. 
+The first two conditions required on a Quillen idempotent monad in def. \ref{QuillenIdempotentMonad} are explicit in prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}.
 
-The third condition follows from lemma \ref{OmegaSpectrificationOfSequentiaSpectraPreservesHomotopyPullback}: A pullback of a $Q$-equivalence along a fibration is a [[homotopy pullback]] and is hence sent by $Q$ to another homotopy pullback square. 
+The third condition follows from lemma \ref{OmegaSpectrificationOfSequentiaSpectraPreservesHomotopyPullback}: A pullback of a $Q$-equivalence along a fibration is a [[homotopy pullback]] and is hence sent by $Q$ to another homotopy pullback square.
 
 $$
   \array{
@@ -4065,7 +4061,7 @@ Moreover, its fibrant objects are precisely the [[Omega-spectra]] (def.\ref{Omeg
 
 Let $(Q,\eta)$ be the [[Omega-spectrification]] operation from def. \ref{SpectrificationForTopologicalSequentialSpectra}. According to prop. \ref{OmegaSpectrificationOnTopologicalSequentialSpectraIsQuillenIdempotentMonad} this is a Quillen-idempotent monad (def. \ref{QuillenIdempotentMonad}) on $SeqSpec(Top_{cg})_{strict}$. Hence the [[Bousfield-Friedlander theorem]] (prop. \ref{BousfieldFriedlanderTheorem}) asserts that the [[Bousfield localization of model categories|Bousfield localization]] of  the strict model structure at the $Q$-equivalences exists. By prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra} these are precisely the stable weak homotopy equivalences.
 
-Finally, by prop. \ref{CharacterizationOfFibrationsInBFModelStructures} an object $X \in SeqSpec(Top_{cg})_{stable}$ is fibrant in $SeqSpec(Top_{cg})_{stable}$ precisely if 
+Finally, by prop. \ref{CharacterizationOfFibrationsInBFModelStructures} an object $X \in SeqSpec(Top_{cg})_{stable}$ is fibrant in $SeqSpec(Top_{cg})_{stable}$ precisely if
 
 $$
   \array{
@@ -4084,10 +4080,12 @@ exhibits a [[homotopy pullback]] in $SeqSpec(Top_{cg})_{strict}$. Since every  o
 
 
 
-##### Stability of the homotopy theory
+
+
+### Stability of the homotopy theory
  {#StabilityOfTheStableModelStructure}
 
-We discuss that the stable model structure $SeqSpec(Top_{cg})_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a _[[stable model category]]_, in that the canonical [[reduced suspension]] operation is an [[equivalence of categories]] from the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) to itself. This is theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory} below. 
+We discuss that the stable model structure $SeqSpec(Top_{cg})_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a _[[stable model category]]_, in that the canonical [[reduced suspension]] operation is an [[equivalence of categories]] from the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) to itself. This is theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory} below.
 
 
 +-- {: .num_defn #StableModelCategory}
@@ -4157,7 +4155,7 @@ $$
   [\Sigma X,Z]_{stable}
 $$
 
-is a [[bijection]]. By the fact that the stable model structure is a [[left Bousfield localization]] of the strict model structure with fibrant objects the [[Omega-spectra]], this is the case equivalently (using [this lemma](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)) if 
+is a [[bijection]]. By the fact that the stable model structure is a [[left Bousfield localization]] of the strict model structure with fibrant objects the [[Omega-spectra]], this is the case equivalently (using [this lemma](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)) if
 
 $$
   [\Sigma f, Z]_{strict}
@@ -4167,7 +4165,7 @@ $$
   [\Sigma X,Z]_{strict}
 $$
 
-is a bijection for all Omega-spectra $Z$. Now by the [[Quillen adjunction]] $\Sigma \dashv \Omega$ on the strict model category (prop. \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential}) this is equivalent to 
+is a bijection for all Omega-spectra $Z$. Now by the [[Quillen adjunction]] $\Sigma \dashv \Omega$ on the strict model category (prop. \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential}) this is equivalent to
 
 $$
   [f, \Omega Z]_{strict}
@@ -4194,7 +4192,7 @@ being a bijection for all $\Omega Z$. But this is indeed a bijection, since $f$ 
 +-- {: .num_lemma #CounitOfFakeSuspensionAndShiftIsStableEquivalence}
 ###### Lemma
 
-For $X$ a [[sequential spectrum]], then (using remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra} to suppress parenthesis) 
+For $X$ a [[sequential spectrum]], then (using remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra} to suppress parenthesis)
 
 1. the structure maps constitute a homomorphism
 
@@ -4239,22 +4237,22 @@ and in degree $n \geq 1$ these:
 
 $$
   \array{
-     S^1 \wedge S^1 \wedge X_{n-1} 
-        &\overset{S^1 \wedge \sigma_{n-1}}{\longrightarrow}& 
+     S^1 \wedge S^1 \wedge X_{n-1}
+        &\overset{S^1 \wedge \sigma_{n-1}}{\longrightarrow}&
      X_n
      \\
      {}^{\mathllap{S^1 \wedge \sigma_{n-1}}}\downarrow
        &&
      \downarrow^{\mathrlap{\sigma_n}}
      \\
-     S^1 \wedge X_{n} 
-       &\underset{\sigma_n}{\longrightarrow}& 
+     S^1 \wedge X_{n}
+       &\underset{\sigma_n}{\longrightarrow}&
      X_{n+1}
   }
   \,.
 $$
 
-But in all these cases commutativity it trivially satisfied. 
+But in all these cases commutativity it trivially satisfied.
 
 That the adjunct structure maps constitute a morphism $X \to \Omega X[1]$ follows [[formal dual|dually]].
 
@@ -4292,7 +4290,7 @@ $$
 
 Sending $\sigma_n^Y$ down gives $\sigma_n^Y \circ S^1 \wedge f_{n-1}$ which equals (by the homomorphism property) $f_n \circ \sigma_n^X$. Instead sending $\sigma_n^Y$ to the right yields $\tilde \sigma_n^Y$ and then down yields $\tilde \sigma_n^Y \circ f_{n-1}$. By commutativity this is adjunct to $f_n \circ \sigma_n^X$.)
 
-Hence 
+Hence
 
 $$
   [X, Y]_{strict} \overset{}{\longrightarrow} [\Sigma X[-1],Y]_{strict}
@@ -4322,7 +4320,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The total derived functor of $\Sigma$ exists, because by lemma \ref{FakeLoopingPreservesOmegaSpectra} $\Sigma$ preserves stable weak homotopy equivalences. Also the shift functor $[-1]$ from def. \ref{ShiftedSpectrum} clearly preserves stable equivalences, hence both descend to the homotopy category. 
+The total derived functor of $\Sigma$ exists, because by lemma \ref{FakeLoopingPreservesOmegaSpectra} $\Sigma$ preserves stable weak homotopy equivalences. Also the shift functor $[-1]$ from def. \ref{ShiftedSpectrum} clearly preserves stable equivalences, hence both descend to the homotopy category.
 There, by prop. \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}
 and remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}, they are inverses of each other, up to isomorphism.
 
@@ -4338,8 +4336,8 @@ The canonical suspension functor on the [[homotopy category of a model category|
 +-- {: .proof}
 ###### Proof
 
-By [[CW-approximation]] (prop. \ref{CWApproximationForSequentialSpectra}), every object in the stable homotopy category is represented by a [[CW-spectrum]]. 
-By prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}, on [[CW-spectra]] the canonical suspension functor on the homotopy category (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) is represented by the "standard suspension" operation of def. \ref{SequentialSpectrumRealSuspension}. 
+By [[CW-approximation]] (prop. \ref{CWApproximationForSequentialSpectra}), every object in the stable homotopy category is represented by a [[CW-spectrum]].
+By prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}, on [[CW-spectra]] the canonical suspension functor on the homotopy category (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) is represented by the "standard suspension" operation of def. \ref{SequentialSpectrumRealSuspension}.
 
 =--
 
@@ -4353,9 +4351,9 @@ According to remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparabl
 
 Observe that the definition of the category $SeqSpec(Top_{cg})$ of [[sequential spectra]] in def. \ref{SequentialSpectra} does not require anything specific of the circle $S^1$: the same kind of definition may be considered for any other pointed topological space $T$ in place of $S^1$.  The construction of the stable model structure $SeqSpec(Top_{cg})_{stable}$ in theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} does depend on the nature of $S^1$, but only in that it uses that the [[n-spheres]] $S^n = (S^1)^{\wedge n}$
 
-1. co-represent [[homotopy groups]] in the classical pointed homotopy category: $[S^n, -]_{\ast}\simeq \pi_n(-)$; 
+1. co-represent [[homotopy groups]] in the classical pointed homotopy category: $[S^n, -]_{\ast}\simeq \pi_n(-)$;
 
-1. are [[compact topological space|compact]], so that maps out of them factor through finite stages of [[transfinite compositions]] of [[relative cell complex]] inclusions. 
+1. are [[compact topological space|compact]], so that maps out of them factor through finite stages of [[transfinite compositions]] of [[relative cell complex]] inclusions.
 
 Both points still hold with $S^1$ replaced by $S^1 \wedge K_+$, for $K$ any [[contractible topological space|contractible]] [[compact topological space|compact]] topological space. Moreover, since only the [[stable homotopy groups]] matter for the construction of the stable model category, one could replace $S^1$ by any $S^k$: While the smash powers $(S^k)^{\wedge n}$ co-represent only every $k$th homotopy group, this is still sufficient for co-represent all the stable homotopy groups.
 
@@ -4369,10 +4367,10 @@ Let $T = K_+ \in Top^{\ast/}_{cg}$ be a [[compact topological space|compact]] [[
 A **sequential $T \wedge S^k$-spectrum** is a sequence of component spaces $X_{k n} \in Top_{cg}$ for $n \in \mathbb{N}$, and a sequence of structure maps of the form
 
 $$
-  \sigma_{k,n} 
-    \;\colon\;  
-   T \wedge S^k \wedge X_{k n} 
-     \longrightarrow 
+  \sigma_{k,n}
+    \;\colon\;
+   T \wedge S^k \wedge X_{k n}
+     \longrightarrow
    X_{k(n+1)}
   \,.
 $$
@@ -4381,16 +4379,16 @@ A homomorphism of sequential $T \wedge S^k$-spectra $f \colon X \to Y$ is a sequ
 
 $$
   \array{
-    T \wedge S^k \wedge X_{k n } 
-      &\overset{T \wedge S^k \wedge f_{k n}}{\longrightarrow}& 
+    T \wedge S^k \wedge X_{k n }
+      &\overset{T \wedge S^k \wedge f_{k n}}{\longrightarrow}&
     T \wedge S^k \wedge Y_{k n}
     \\
-    {}^{\mathllap{\sigma_{k,n}^{X}}}\downarrow 
-      && 
+    {}^{\mathllap{\sigma_{k,n}^{X}}}\downarrow
+      &&
     \downarrow^{\mathrlap{\sigma_{k,n}^Y}}
     \\
-    X_{k(n+1)} 
-      &\underset{f_{k(n+1)}}{\longrightarrow}& 
+    X_{k(n+1)}
+      &\underset{f_{k(n+1)}}{\longrightarrow}&
     Y_{k(n+1)}
   }
   \,.
@@ -4409,13 +4407,13 @@ for the resulting [[category]] of sequential $T \wedge S^k$-spectra.
 +-- {: .num_prop #StableModelStructureOnS2Spectra}
 ###### Proposition
 
-For any $T \wedge S^k$ as in def. \ref{SequentialTSpectra}, there exists a [[model category]] structure 
+For any $T \wedge S^k$ as in def. \ref{SequentialTSpectra}, there exists a [[model category]] structure
 
 $$
   Seq_{T\wedge S^k}Spec(Top_{cg})_{stable}
 $$
 
-on the category of sequential $T\wedge S^k$-spectra, where 
+on the category of sequential $T\wedge S^k$-spectra, where
 
 * the weak equivalences are the morphisms that induce isomorphisms under $\underset{\longrightarrow}{\lim}_{k n \in k \mathbb{N}}\pi_{k n}(-)$;
 
@@ -4438,7 +4436,7 @@ For $k \in \mathbb{N}$, $k \geq 1$, there is a pair of [[adjoint functors]]
 
 $$
   SeqSpec(Top_{cg})
-    \underoverset  
+    \underoverset
      {\underset{R_k}{\longrightarrow}}
      {\overset{L_k}{\longleftarrow}}
      {\bot}
@@ -4447,10 +4445,10 @@ $$
 
 between sequential spectra (def. \ref{SequentialSpectra}) and sequential $S^k$-spectra (def. \ref{SequentialTSpectra})
 
-* where $(R_k X)_{k n} \coloneqq X_{k n}$ and 
+* where $(R_k X)_{k n} \coloneqq X_{k n}$ and
 
   $$
-    \sigma_n^{R_k X} 
+    \sigma_n^{R_k X}
       \;\colon\;
     S^k X_{k n}
       \simeq
@@ -4465,19 +4463,19 @@ between sequential spectra (def. \ref{SequentialSpectra}) and sequential $S^k$-s
     X_{k(n+1)}
   $$
 
-* and where 
+* and where
 
   $$
-   (L_k \mathcal{X})_n 
-     \coloneqq 
-   \left\{ 
-     \array{ 
+   (L_k \mathcal{X})_n
+     \coloneqq
+   \left\{
+     \array{
         \mathcal{X}_n & if \; n \in k \mathbb{N}
-        \\ 
+        \\
         S^q \wedge \mathcal{X}_{n-q} & if \; q \lt k \; and \; n-q \in k \mathbb{N}
      }
    \right.
-  $$ 
+  $$
 
   and
 
@@ -4535,7 +4533,7 @@ Since here the left map is an identity, this uniquely fixes the odd-graded compo
 
 $$
   \array{
-    S^2 \wedge \mathcal{X}_{2n} &\overset{S^2 \wedge f_{2n}}{\longrightarrow}& 
+    S^2 \wedge \mathcal{X}_{2n} &\overset{S^2 \wedge f_{2n}}{\longrightarrow}&
     S^2 \wedge Y_{2 n}
     \\
     {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{S^1 \wedge \sigma_{2n}^Y}}
@@ -4559,7 +4557,7 @@ $$
 
 and hence establishes the adjunction isomorphism.
 
-Finally to see that the [[adjunction unit]] is a [[stable weak homotopy equivalence]]: for $X \in SeqSpec(Top_{cg})$ then the morphism of stable homotopy groups induced from 
+Finally to see that the [[adjunction unit]] is a [[stable weak homotopy equivalence]]: for $X \in SeqSpec(Top_{cg})$ then the morphism of stable homotopy groups induced from
 
 $$
   L_2 R_2 X \longrightarrow X
@@ -4569,12 +4567,12 @@ is in degree $q$ given by
 
 $$
   \array{
-     \underset{\longrightarrow}{\lim} (\cdots &\to& \pi_{q+2k}(X_{2k}) && \longrightarrow && \pi_{q+2k+2}(X_{q+2k+2}) &\to& \cdots ) &=& 
+     \underset{\longrightarrow}{\lim} (\cdots &\to& \pi_{q+2k}(X_{2k}) && \longrightarrow && \pi_{q+2k+2}(X_{q+2k+2}) &\to& \cdots ) &=&
      \pi_q(L_2 R_2 X)
      \\
      && {}^{\mathllap{\simeq}}\downarrow && && {}^{\mathllap{\simeq}}\downarrow && && \downarrow
      \\
-     \underset{\longrightarrow}{\lim} (\cdots &\to& \pi_{q+2k}(X_{2k}) &\longrightarrow& \pi_{2+2k+1}(X_{2k+1}) &\longrightarrow& \pi_{q+2k+2}(X_{q+2k+2}) &\to& \cdots ) &=& 
+     \underset{\longrightarrow}{\lim} (\cdots &\to& \pi_{q+2k}(X_{2k}) &\longrightarrow& \pi_{2+2k+1}(X_{2k+1}) &\longrightarrow& \pi_{q+2k+2}(X_{q+2k+2}) &\to& \cdots ) &=&
      \pi_q(X)
   }
   \,.
@@ -4587,14 +4585,14 @@ From this it is clear by inspection that the induced vertical map on the right i
 +-- {: .num_defn #RestrictionFunctorsFromT1SpectraToT2Spectra}
 ###### Definition
 
-For 
+For
 
 $$
   \alpha
   \;\colon\;
-  T_1 \wedge S^{k} 
+  T_1 \wedge S^{k}
     \longrightarrow
-  T_2 \wedge S^{k} 
+  T_2 \wedge S^{k}
 $$
 
 any morphism, write
@@ -4604,7 +4602,7 @@ $$
   \;\colon\;
   Seq_{T_2 \wedge S^{k}}Spect(Top_{cg})
    \longrightarrow
-  Seq_{T_1 \wedge S^{k}}Spect(Top_{cg})  
+  Seq_{T_1 \wedge S^{k}}Spect(Top_{cg})
 $$
 
 for the functor from the category of sequential $T_2 \wedge S^{k}$-spectra (def. \ref{SequentialTSpectra}) to that of $T_1 \wedge S^{k}$-spectra which sends any $X$ to $\alpha^\ast X$ with
@@ -4636,7 +4634,7 @@ for the canonical inclusion. Then the induced functor $i^\ast$ from def. \ref{Re
 
 $$
   Seq_{T\wedge S^1}Spec(Top_{cg})_{stable}
-    \underoverset   
+    \underoverset
       {\underset{i^\ast}{\longrightarrow}}
       {\overset{L}{\longleftarrow}}
       {\simeq_{Qu}}
@@ -4654,7 +4652,7 @@ between the stable model structures of sequential $S^k$-spectra and of sequentia
 
 Write $p \colon T \wedge S^1 \to S^1$ for the canonical projection.
 
-A morphism 
+A morphism
 
 $$
   f \;\colon\; X \longrightarrow i^\ast Y
@@ -4672,18 +4670,18 @@ $$
     \\
     S^1 \wedge X_n && T \wedge S^1 \wedge Y_n
     \\
-    {}^{\mathllap{\sigma_n^X}}\downarrow 
+    {}^{\mathllap{\sigma_n^X}}\downarrow
       &&
     \downarrow^{\mathrlap{\sigma_n^Y}}
     \\
-    X_{n+1} 
+    X_{n+1}
       &\underset{f_{n+1}}{\longrightarrow}&
     Y_{n+1}
   }
   \,.
 $$
 
-Since $p \circ i = id$, every such diagram factors as 
+Since $p \circ i = id$, every such diagram factors as
 
 $$
   \array{
@@ -4693,20 +4691,20 @@ $$
     \\
     {}^{\mathllap{i \wedge id}}\downarrow && \downarrow^{\mathrlap{i \wedge id}}
     \\
-    T \wedge S^1 \wedge X_n 
-      &\overset{T \wedge S^1 \wedge f_n}{\longrightarrow}& 
+    T \wedge S^1 \wedge X_n
+      &\overset{T \wedge S^1 \wedge f_n}{\longrightarrow}&
     T \wedge S^1 \wedge Y_n
     \\
     {}^{\mathllap{p \wedge id}}\downarrow && \downarrow
     \\
-    S^1 \wedge X_n 
-      && 
+    S^1 \wedge X_n
+      &&
     \\
-    {}^{\mathllap{\sigma_n^X}}\downarrow 
+    {}^{\mathllap{\sigma_n^X}}\downarrow
       &&
     \downarrow^{\mathrlap{\sigma_n^Y}}
     \\
-    X_{n+1} 
+    X_{n+1}
       &\underset{f_{n+1}}{\longrightarrow}&
     Y_{n+1}
   }
@@ -4782,7 +4780,7 @@ This implies the statement, since by lemma \ref{AdjunctionBetweenSequentialSpect
 $$
   \Sigma X
     \simeq
-  L_2 R_2 (\Sigma X) 
+  L_2 R_2 (\Sigma X)
     \underoverset{\simeq}{L_2 \tau}{\longrightarrow}
   L_2 R_2 (X \wedge S^1)
     \simeq
@@ -4801,13 +4799,13 @@ $$
   S^1 \wedge S^2
 $$
 
-for the [[braiding]] isomorphism, which swaps the first two canonical coordinates with the third. Since the homotopy class of this map is trivial in that 
+for the [[braiding]] isomorphism, which swaps the first two canonical coordinates with the third. Since the homotopy class of this map is trivial in that
 
 $$
   [\tau_{S^2, S^1}]
   =
   1
-  \in 
+  \in
   \mathbb{Z}
   \simeq
   \pi_3(S^3)
@@ -4817,17 +4815,17 @@ is the trivial element in the [[homotopy groups of spheres]] (and that is the po
 
 $$
   \array{
-    S^3 
-      &\overset{i_0}{\longrightarrow}& 
+    S^3
+      &\overset{i_0}{\longrightarrow}&
    (I_+) \wedge S^3
-      &\overset{i_1}{\longleftarrow}& 
+      &\overset{i_1}{\longleftarrow}&
    S^3
    \\
-   & {}_{\mathllap{id}}\searrow 
-     & \downarrow & 
+   & {}_{\mathllap{id}}\searrow
+     & \downarrow &
    \swarrow_{\mathrlap{\tau_{S^2, S^1}}}
    \\
-   && S^3 
+   && S^3
   }
   \,.
 $$
@@ -4840,8 +4838,8 @@ $$
        &\overset{\tau_{S^2 \wedge X_{2n}, S^1} }{\longleftarrow}&
      S^2 \wedge X_{2n} \wedge S^1
      \\
-     {}^{\mathllap{S^1 \wedge (\sigma_{2n+1} \circ (S^1 \wedge \sigma_{2n}))}}\downarrow 
-       && 
+     {}^{\mathllap{S^1 \wedge (\sigma_{2n+1} \circ (S^1 \wedge \sigma_{2n}))}}\downarrow
+       &&
      \downarrow^{\mathrlap{(\sigma_{2n+1} \circ (S^1 \wedge \sigma_{2n})) \wedge S^1 }}
      \\
      S^1 \wedge X_{2(n+1)}
@@ -4855,31 +4853,31 @@ this yields the diagram
 $$
   \array{
     S^3 \wedge X_{2n}
-      &\overset{i_0}{\longrightarrow}& 
+      &\overset{i_0}{\longrightarrow}&
    (I_+) \wedge S^3 \wedge X_{2n}
-      &\overset{i_1}{\longleftarrow}& 
+      &\overset{i_1}{\longleftarrow}&
    S^3 \wedge X_{2n}
      &\underoverset{\simeq}{S^2\wedge \tau_{ X_{2n}, S^1}}{\longleftarrow}&
    S^2 \wedge X_{2n} \wedge S^1
    \\
-   & {}_{\mathllap{id}}\searrow 
-     & \downarrow & 
+   & {}_{\mathllap{id}}\searrow
+     & \downarrow &
    \swarrow_{\mathrlap{\tau_{S^2, S^1} \wedge X_n}}
-   && & \downarrow 
+   && & \downarrow
    \\
-   && 
-   S^3 \wedge X_{2n} 
-     && 
-     && 
+   &&
+   S^3 \wedge X_{2n}
+     &&
+     &&
    \downarrow^{\mathrlap{(\sigma_{2n+1}\circ (S^1 \wedge \sigma_{2n})) \wedge S^1}}
    \\
    &&
    &  {}_{\mathllap{S^1 \wedge (\sigma_{2n+1}\circ (S^1 \wedge \sigma_{2n}))}}\searrow
-   & 
+   &
    &&
    \downarrow
    \\
-    && && 
+    && &&
    S^1 \wedge X_{2 n}
     &\underoverset{\tau_{X_{2n}, S^1}}{\simeq}{\longleftarrow}&
    X_{2n} \wedge S^1
@@ -4912,7 +4910,7 @@ $$
   R_2 (\Sigma X)
    \simeq
   i_0^\ast Z
-    \simeq 
+    \simeq
   i_0^\ast p^\ast V
     \simeq
   V
@@ -4937,7 +4935,7 @@ We conclude:
 The stable model structure $SeqSpec(Top)_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} indeed gives a [[stable model category]] in the sense of def. \ref{StableModelCategory}, in that the canonically induced [[reduced suspension]] functor ([prop. ](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) on its [[homotopy category of a model category|homotopy category]] is an [[equivalence of categories]]
 
 $$
-  \Sigma 
+  \Sigma
     \;\colon\;
   Ho(SeqSpec(Top)_{stable})
    \overset{\simeq}{\longrightarrow}
@@ -5007,7 +5005,7 @@ $$
   \array{
      (Top_{cg}^{\ast/})_{Quillen}
       &
-      \underoverset{\underoverset{\Omega}{\bot}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{} 
+      \underoverset{\underoverset{\Omega}{\bot}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{}
       &
      (Top^{\ast/}_{cg})_{Quillen}
      \\
@@ -5077,9 +5075,11 @@ where the horizontal adjunctions are the canonically induced (via [this prop.](I
 
 
 
-##### Cofibrant generation
 
-We show that the stable model structure $SeqSpec(Top_{cg})_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)). 
+
+### Cofibrant generation
+
+We show that the stable model structure $SeqSpec(Top_{cg})_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)).
 
 We will not use the result of this section in the remainder of part 1.1, but the following argument is the blueprint for the proof of the [[model structure on orthogonal spectra]] that we consider in [[Introduction to Stable homotopy theory -- 1-2|part 1.2]], in the section _[The stable model structure on structured spectra](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableModelStructure)_, and it will be used in the proof of the Quillen equivalence of $SeqSpec(Top_{cg})_{stable}$ to the stable [[model structure on orthogonal spectra]] ([thm.](Introduction+to+Stable+homotopy+thepry+--+1-2#SequentialSpectraQuillenEquivalence)).
 
@@ -5094,7 +5094,7 @@ In order to express the generating (acyclic) cofibrations, we need the following
 For $K \in Top_{cg}^{\ast/}$, and $n \in \mathbb{N}$, write $F_n K \in SeqSpec(Top_{cg})$ for the **[[free spectrum]]** on $K$ at $n$, with components
 
 $$
-  (F_n K)_q \coloneqq 
+  (F_n K)_q \coloneqq
   \left\{
     \array{
       \ast & for \; q \lt n
@@ -5110,7 +5110,7 @@ $$
   \sigma_q
   \;\colon\;
   S^1 \wedge (F_n K)_q
-  = 
+  =
   S^1 \wedge S^{q-n} \wedge K
   \overset{\simeq}{\longrightarrow}
   S^{q+1-n} \wedge K
@@ -5124,7 +5124,7 @@ For $n \in \mathbb{N}$, write
 $$
   k_n
   \;\colon\;
-  F_{n+1}S^1 
+  F_{n+1}S^1
   \longrightarrow
   F_n S^0
 $$
@@ -5184,7 +5184,7 @@ Just as forming suspension spectra is left adjoint to extracting the 0th compone
 For $n \in \mathbb{N}$, let
 
 $$
-  Ev_n 
+  Ev_n
     \;\colon\;
   SeqSpec(Top_{cg})
     \longrightarrow
@@ -5226,11 +5226,11 @@ The proof is verbatim as that of prop. \ref{SigmaInfinityOmegaInfinity}, just wi
 +-- {: .num_defn #GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}
 ###### Definition
 
-Write 
+Write
 
 $$
-  I_{seq}^{stable} 
-    \coloneqq 
+  I_{seq}^{stable}
+    \coloneqq
   I_{seq}^{strict}
   \;\;
   \in SeqSpec(Top)
@@ -5240,7 +5240,7 @@ for the set of morphisms appearing already in def. \ref{GeneratingAndGeneratingA
 
 $$
   J_{seq}^{stable}
-    \coloneqq 
+    \coloneqq
   J_{seq}^{strict}
    \;\sqcup\:
   \{
@@ -5276,7 +5276,7 @@ It only remains to show that the stable acyclic cofibrations are precisely the r
 +-- {: .num_lemma #CorepresentationOfAdjunctStructureMaps}
 ###### Lemma
 
-The morphisms of [[free spectra]] $\{k_n\}_{n \in \mathbb{N}}$ from def. \ref{FreeSequentialSpectra} co-represent the adjunct structure maps of sequential spectra from def. \ref{SequentialSpectrumViaAdjunctStructureMaps}, in that for $X \in SeqSpec(Top_{cg})$, then 
+The morphisms of [[free spectra]] $\{k_n\}_{n \in \mathbb{N}}$ from def. \ref{FreeSequentialSpectra} co-represent the adjunct structure maps of sequential spectra from def. \ref{SequentialSpectrumViaAdjunctStructureMaps}, in that for $X \in SeqSpec(Top_{cg})$, then
 
 $$
   \array{
@@ -5342,8 +5342,8 @@ But that $(n+1)$st component is just the component that similarly determines the
 $$
   SeqSpec(k_n,-)
    \;\colon\;
-  X_n 
-   = 
+  X_n
+   =
   SeqSpec(S^0, X_n)
     \stackrel{f \mapsto \sigma_n^X \circ \Sigma f}{\longrightarrow}
   \Maps(S^1, X_{n+1})_\ast
@@ -5355,10 +5355,10 @@ $$
 It remains to see that this is indeed the $(\Sigma \dashv \Omega)$-[[adjunct]] of $\sigma_n^X$. By the general formula for [[adjuncts]], this is
 
 $$
-  \tilde \sigma_n^X 
-    \;\colon\; 
-  X_n 
-     \stackrel{\eta}{\longrightarrow} 
+  \tilde \sigma_n^X
+    \;\colon\;
+  X_n
+     \stackrel{\eta}{\longrightarrow}
   \Omega \Sigma X_n
      \stackrel{\Omega \sigma_n^X}{\longrightarrow}
   \Omega X_{n+1}
@@ -5368,10 +5368,10 @@ $$
 To compare to the above, we check what this does on points: $S^0 \stackrel{f}{\longrightarrow} X_n$ is sent to the composite
 
 $$
-   S^0 
+   S^0
      \stackrel{f}{\longrightarrow}
-   X_n 
-     \stackrel{\eta}{\longrightarrow} 
+   X_n
+     \stackrel{\eta}{\longrightarrow}
    \Omega \Sigma X_n
      \stackrel{\Omega \sigma_0^X}{\longrightarrow}
    \Omega X_{n+1}
@@ -5395,13 +5395,13 @@ $$
 +-- {: .num_lemma #ElementsOfKAreStableEquivalencesAndStrictCofibrationsForSequentialSpectra}
 ###### Lemma
 
-Every element in $J_{seq}^{stable}$ (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}) is 
+Every element in $J_{seq}^{stable}$ (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}) is
 an acyclic cofibration in the model structure $SeqSpec(Top_{cg})_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}.
 
 =--
 
 +-- {: .proof}
-###### Proof 
+###### Proof
 
 For the elements in $J_{seq}^{strict}$ this is part of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
 It only remains to see that the morphisms $k_n \Box i_+$ are stable acyclic cofibrations.
@@ -5420,11 +5420,11 @@ The reason for considering the set $\{k_n \Box i_+\}$ is to make the following t
 +-- {: .num_lemma #KInjectivesAreAcyclicCofibrationsForSequentialSpectra}
 ###### Lemma
 
-A morphism $f \colon X \to Y$ in $SeqSpec(Top)$ is a $J_{seq}^{stable}$-[[injective morphism]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#LiftingAndExtension)) precisely if 
+A morphism $f \colon X \to Y$ in $SeqSpec(Top)$ is a $J_{seq}^{stable}$-[[injective morphism]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#LiftingAndExtension)) precisely if
 
 1. it is fibration in the strict model structure (hence degreewise a fibration);
 
-1. for all $n \in \mathbb{N}$ the [[commuting squares]] of structure map compatibilities on the underlying [[sequential spectra]] 
+1. for all $n \in \mathbb{N}$ the [[commuting squares]] of structure map compatibilities on the underlying [[sequential spectra]]
 
    $$
      \array{
@@ -5461,7 +5461,7 @@ By theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, lift
 +-- {: .num_lemma #KInjectiveStableEquivalencesAreStrictEquivalencesForSequentialSpectra}
 ###### Lemma
 
-A morphism in $SeqSpec(Top)$ which is both 
+A morphism in $SeqSpec(Top)$ which is both
 
 1. a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra});
 
@@ -5475,36 +5475,36 @@ is an acyclic fibration in the strict model structure, hence is degreewise a [[w
 +-- {: .proof}
 ###### Proof
 
-Let $f \colon X \to B$ be both a stable weak homotopy equivalence as well as a $K$-[[injective morphism]]. Since $K$ contains the generating acyclic cofibrations for the strict model structure, $f$ is in particular a strict fibration, hence a degreewise fibration. 
+Let $f \colon X \to B$ be both a stable weak homotopy equivalence as well as a $K$-[[injective morphism]]. Since $K$ contains the generating acyclic cofibrations for the strict model structure, $f$ is in particular a strict fibration, hence a degreewise fibration.
 
 Consider the fiber $F$ of $f$, hence the morphism $F \to \ast$ which is the pullback of $f$ along $\ast \to B$. Notice that since $f$ is a strict fibration, this is the [[homotopy fiber]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)) of $f$ in the strict model structure.
 
-We claim that 
+We claim that
 
 1. $F$ is an Omega-spectrum;
 
-1. $F\to \ast$ is a stable weak homotopy equivalence. 
+1. $F\to \ast$ is a stable weak homotopy equivalence.
 
-The first item follows since $F$, being the pullback of a $K$-injective morphisms, is a $K$-[[injective object]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)), so that, by lemma \ref{KInjectivesAreAcyclicCofibrationsForSequentialSpectra}, $F$ it is an Omega-spectrum. 
+The first item follows since $F$, being the pullback of a $K$-injective morphisms, is a $K$-[[injective object]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)), so that, by lemma \ref{KInjectivesAreAcyclicCofibrationsForSequentialSpectra}, $F$ it is an Omega-spectrum.
 
-For the second item: 
+For the second item:
 
 Since $F \to X \overset{f}{\to} B$ is degreewise a [[homotopy fiber sequence]], there are degreewise its [[long exact sequences of homotopy groups]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#LongExactSequeceOfHomotopyGroups))
 
 $$
   \cdots
-   \to 
+   \to
   \pi_{\bullet + 1}(B_n)
    \longrightarrow
-  \pi_\bullet(F_n) 
-   \longrightarrow 
+  \pi_\bullet(F_n)
+   \longrightarrow
   \pi_\bullet(X_n)
     \overset{(f_n)_\ast}{\longrightarrow}
   \pi_\bullet(B_n)
     \to
   \cdots
    \to
-  \pi_1(B_n) 
+  \pi_1(B_n)
    \longrightarrow
   \pi_0(F_n)
     \longrightarrow
@@ -5521,8 +5521,8 @@ $$
     \overset{f_\ast}{\longrightarrow}
   \pi_{\bullet + 1}(B)
    \longrightarrow
-  \pi_\bullet(F) 
-   \longrightarrow 
+  \pi_\bullet(F)
+   \longrightarrow
   \pi_\bullet(X)
     \overset{(f_\ast}{\longrightarrow}
   \pi_\bullet(B)
@@ -5533,8 +5533,8 @@ $$
 is still a [[long exact sequence]].
 
 Since, by assumption, $f_\ast$ is an isomorphism, this exactness implies that $\pi_\bullet(F) = 0$, and hence that $F \to \ast$ is a stable weak homotopy equivalence. But since, by the first item above, $F$ is an [[Omega-spectrum]], it follows (via example \ref{StableHomotopyGroupsOfOmegaSpectrum}) that $F \to \ast$ is even a degreewise weak homotopy equivalence, hence that $\pi_\bullet(F_n)\simeq 0$ for all $n \in \mathbb{N}$.
- 
-Feeding this back into the above degreewise [[long exact sequence of homotopy groups]] now implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
+
+Feeding this back into the above degreewise [[long exact sequence of homotopy groups]] now implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree.
 
 To deduce the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that by assumption of $K$-injectivity, lemma \ref{KInjectivesAreAcyclicCofibrationsForSequentialSpectra} gives that $f_0$ is the pullback (in topological spaces) of $\Omega (f_{1})$. But by the above $\Omega f_{1}$ is a weak homotopy equivalence, and since $\Omega = Maps(S^1,-)_\ast$ is a  right Quillen functor (prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}) it is also a Serre fibration. Therefore $f_0$ is the pullback of an acyclic Serre fibration and hence itself a weak homotopy equivalence.
 
@@ -5553,12 +5553,12 @@ The [[retracts]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfM
 
 Since all elements of $J_{seq}^{stable}$ are stable weak equivalences and strict cofibrations by  lemma \ref{ElementsOfKAreStableEquivalencesAndStrictCofibrationsForSequentialSpectra}, it follows that every retract of a relative $J_{seq}^{stable}$-cell complex has the same property.
 
-In the other direction, let $f$ be a stable acyclic cofibration. Apply the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) to factor it 
+In the other direction, let $f$ be a stable acyclic cofibration. Apply the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) to factor it
 
 $$
   f \colon \underoverset{J_{seq}^{stable}Cell}{i}{\to}
  \underoverset{J_{seq}^{stable} Inj}{p}{\to}
-$$ 
+$$
 
 as a $J_{seq}^{stable}$-[[relative cell complex]] $i$ followed by a $J_{seq}^{stable}$-[[injective morphism]] $p$. By the previous statement $i$ is a stable weak homotopy equivalence, and hence by assumption and by [[two-out-of-three]] so is $p$. Therefore lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalencesForSequentialSpectra} implies that $p$ is a strict acyclic fibration. But then the assumption that $f$ is a strict cofibration means that it has the [[left lifting property]] against $p$, and so the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) implies that $f$ is a retract of the relative $J_{seq}^{stable}$-cell complex $i$.
 
@@ -5573,7 +5573,8 @@ This completes the proof of theorem \ref{AlternativeStableModelStructureOnSequen
 
 
 
-#### The stable homotopy category
+
+## The stable homotopy category
  {#StableHomotopyCategory}
 
 +-- {: .num_defn #TheStableHomotopyCategory}
@@ -5587,7 +5588,7 @@ $$
   Ho(SeqSpec(Top_{cg})_{stable})
 $$
 
-for the [[homotopy category of a model category|homotopy category]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) of the stable [[model structure on topological sequential spectra]] from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}. 
+for the [[homotopy category of a model category|homotopy category]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) of the stable [[model structure on topological sequential spectra]] from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}.
 
 This is called the **[[stable homotopy category]]**.
 
@@ -5597,7 +5598,10 @@ This is called the **[[stable homotopy category]]**.
 The [[stable homotopy category]] of def. \ref{TheStableHomotopyCategory} inherits particularly nice properties that are usefully axiomatized for themselves. This axiomatics is called _[[triangulated category]]_ structure (def. \ref{CategoryWithCofiberSequences} below) where the "triangles" are referring to the structure of the long fiber sequences and long cofiber sequences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)) which happen to coincide in stable homotopy theory.
 
 
-##### Additivity
+
+
+
+### Additivity
  {#Additivity}
 
 The [[stable homotopy category]] $Ho(Spectra)$ is the analog in [[homotopy theory]] of the category [[Ab]] of [[abelian groups]] in [[homological algebra]]. While the stable homotopy category is _not_ an _[[abelian category]]_, as [[Ab]] is, but a homotopy-theoretic version of that to which we turn [below](#TriangulatedStructure), it _is_ an [[additive category]].
@@ -5615,15 +5619,15 @@ The [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) has [[fi
 +-- {: .proof}
 ###### Proof
 
-Having finite coproducts means 
+Having finite coproducts means
 
-1. having empty coproducts, hence [[initial objects]], 
+1. having empty coproducts, hence [[initial objects]],
 
-1. and having binary coproducts. 
+1. and having binary coproducts.
 
 Regarding the initial object:
 
-The spectrum $\Sigma^\infty \ast$ ([[suspension spectrum]] (example \ref{SuspensionSpectrum}) on the point) is both an [[initial object]] and a [[terminal object]] in $SeqSpec(Top_{cg})$. This implies in particular that it is both fibrant and cofibrant. Finally its standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is trivial $(\Sigma^\infty \ast) \wedge (I_+)\simeq \Sigma^\infty \ast$. All together with means that for $X$ any fibrant-cofibrant spectrum, then 
+The spectrum $\Sigma^\infty \ast$ ([[suspension spectrum]] (example \ref{SuspensionSpectrum}) on the point) is both an [[initial object]] and a [[terminal object]] in $SeqSpec(Top_{cg})$. This implies in particular that it is both fibrant and cofibrant. Finally its standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is trivial $(\Sigma^\infty \ast) \wedge (I_+)\simeq \Sigma^\infty \ast$. All together with means that for $X$ any fibrant-cofibrant spectrum, then
 
 $$
   Hom_{Ho(Spectra)}(\Sigma^\infty \ast, Z)
@@ -5637,7 +5641,7 @@ and so $\Sigma^\infty \ast$ also represents the initial object in the stable hom
 
 Now regarding binary coproducts:
 
-By prop. \ref{CWApproximationForSequentialSpectra} and prop. \ref{CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}, every spectrum has a cofibrant replacement by a [[CW-spectrum]]. By prop. \ref{ClosureOfCWSpectra} the [[wedge sum]] $X \vee Y$ of two CW-spectra is still a CW-spectrum, hence still cofibrant. 
+By prop. \ref{CWApproximationForSequentialSpectra} and prop. \ref{CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}, every spectrum has a cofibrant replacement by a [[CW-spectrum]]. By prop. \ref{ClosureOfCWSpectra} the [[wedge sum]] $X \vee Y$ of two CW-spectra is still a CW-spectrum, hence still cofibrant.
 
 Let $P$ and $Q$ be fibrant and cofibrant replacement functors, respectively, as in the section_[Classical homotopy theory -- The homotopy category](Introduction+to+Stable+homotopy+theory+--+P#TheHomotopyCategory)_.
 
@@ -5656,7 +5660,7 @@ But since $X \vee Y$ is cofibrant and $Z$ is fibrant, there is a natural isomorp
 $$
   Hom_{SeqSpec}(P(X \vee Y), Q Z)/_\sim
   \overset{\simeq}{\longrightarrow}
-  Hom_{SeqSpec}(X \vee Y, Z)/_\sim  
+  Hom_{SeqSpec}(X \vee Y, Z)/_\sim
   \,.
 $$
 
@@ -5669,7 +5673,7 @@ $$
 (due to the fact that the [[smash product]] of compactly generated [[pointed topological spaces]] distributes this way over wedge sum of pointed spaces). This means that also left homotopies out of $X \vee Y$ are in natural bijection with pairs of left homotopies out of the summands separately, and hence that there is a natural isomorphism
 
 $$
-  Hom_{SeqSpec}(X \vee Y, Z)/_\sim  
+  Hom_{SeqSpec}(X \vee Y, Z)/_\sim
     \overset{\simeq}{\longrightarrow}
   Hom_{SeqSpec}(X,Z)/_\sim \times Hom_{SeqSpec}(Y,Z)/_\sim
   \,.
@@ -5691,7 +5695,7 @@ The composite of all these isomorphisms proves the claim.
 +-- {: .num_defn #GroupStructureOnHomsInStableHomotopyCategory}
 ###### Definition
 
-Define [[group]] structure on the [[pointed set|pointed]] [[hom-sets]] of the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) 
+Define [[group]] structure on the [[pointed set|pointed]] [[hom-sets]] of the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory})
 
 $$
   [X,Y] \in Grp
@@ -5720,10 +5724,10 @@ The group structure on $[X,Y]$ in def. \ref{GroupStructureOnHomsInStableHomotopy
 +-- {: .proof}
 ###### Proof
 
-Recall ([prop](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory), [rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)) that the group structure is given by concatenation of loops 
+Recall ([prop](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory), [rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)) that the group structure is given by concatenation of loops
 
 $$
-  X 
+  X
     \overset{\Delta_X}{\to}
   X \times X
     \overset{(f,g)}{\longrightarrow}
@@ -5734,7 +5738,7 @@ $$
 $$
 
 
-That the group structure is abelian follows via the [[Eckmann-Hilton argument]] from the fact that there is always a compatible second (and indeed arbitrarily many compatible) further group structures, since, by stability 
+That the group structure is abelian follows via the [[Eckmann-Hilton argument]] from the fact that there is always a compatible second (and indeed arbitrarily many compatible) further group structures, since, by stability
 
 $$
   [X,Y]
@@ -5808,11 +5812,11 @@ $$
 
 where $S^1_{[0,2]}$ denotes the sphere of length 2.
 
-Here the leftmost square and the rightmost square are the naturality squares of the [[equivalence of categories]] $(\Sigma\dashv \Omega)$ (theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}). 
+Here the leftmost square and the rightmost square are the naturality squares of the [[equivalence of categories]] $(\Sigma\dashv \Omega)$ (theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}).
 
-The second square from the left and the second square from the right exhibit the equivalent expression of $\Omega$ as the [[right derived functor]] of (either the standard or the alternative, by lemma \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory}) degreewise loop space functor. Here we let $\Sigma X$ denote any fibrant representative, for notational brevity, and use that the derived functor of a right Quillen functor is given on fibrant objects by the original functor followed by cofibrant replacement ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ComputationOfLeftRightDerivedFunctorsViaResolutions)). 
+The second square from the left and the second square from the right exhibit the equivalent expression of $\Omega$ as the [[right derived functor]] of (either the standard or the alternative, by lemma \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory}) degreewise loop space functor. Here we let $\Sigma X$ denote any fibrant representative, for notational brevity, and use that the derived functor of a right Quillen functor is given on fibrant objects by the original functor followed by cofibrant replacement ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ComputationOfLeftRightDerivedFunctorsViaResolutions)).
 
-The middle square is the image under $Q$ of the evident naturality square 
+The middle square is the image under $Q$ of the evident naturality square
 for concatenation of loops. This is where we use that we have the standard model for forming loop spaces and concatenation of loops ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)): the diagram commutes because the loops are always poinwise pushed forward along the map $f$.
 
 =--
@@ -5822,7 +5826,7 @@ It is conventional ([Adams 74, p. 138](#Adams74)) to furthermore make the follow
 +-- {: .num_defn #GradedAbelianGroupStructureOnHomsInTheHomotopyCategory}
 ###### Definition
 
-For $X, Y \in Ho(Spectra)$ two [[spectra]], define the $\mathbb{Z}$-[[graded abelian group]] 
+For $X, Y \in Ho(Spectra)$ two [[spectra]], define the $\mathbb{Z}$-[[graded abelian group]]
 
 $$
   [X,Y]_\bullet \; \in Ab^{\mathbb{Z}}
@@ -5831,25 +5835,25 @@ $$
 to be in degree $n$ the abelian hom group of lemma \ref{StableHomotopyCategoryIsAbEnriched} out of $X$ into the $n$-fold [[suspension]] of $Y$ (lemma \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory}):
 
 $$
-  [X,Y]_n 
+  [X,Y]_n
      \;\coloneqq\;
   [X, \Sigma^{-n} Y]
   \,.
 $$
 
-Defining the composition of  $f_1 \in [X,Y]_{n_1}$ with $f_2 \in [Y,Z]_{n_2}$ to be the composite 
+Defining the composition of  $f_1 \in [X,Y]_{n_1}$ with $f_2 \in [Y,Z]_{n_2}$ to be the composite
 
 $$
-  X 
-    \overset{f_1}{\longrightarrow} 
+  X
+    \overset{f_1}{\longrightarrow}
   \Sigma^{-n_1} Y
-    \overset{\Sigma^{-n_2}(f_2)}{\longrightarrow} 
+    \overset{\Sigma^{-n_2}(f_2)}{\longrightarrow}
   \Sigma^{-n_2}(\Sigma^{-n_1} Z)
     \simeq
   \Sigma^{-n_1 - n_2} Z
 $$
 
-gives the [[stable homotopy category]] the structure of an $Ab^{\mathbb{Z}}$-[[enriched category]]. 
+gives the [[stable homotopy category]] the structure of an $Ab^{\mathbb{Z}}$-[[enriched category]].
 
 =--
 
@@ -5886,7 +5890,7 @@ Here the equivalences used are
 
 1. the isomorphism $\Sigma \simeq [1]$ of suspension with the shift spectrum (def. \ref{ShiftedSpectrum}) on $Ho(Spectra)$ of lemma \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}, together with the nature of $\Omega^\infty$ from prop. \ref{SigmaInfinityOmegaInfinity}.
 
-The latter expression 
+The latter expression
 
 $$
   \tilde E^n(X) \simeq [X, E_n]_\ast
@@ -5925,7 +5929,7 @@ where the last two hom-sets are again those of the [[classical homotopy category
 
 $$
   E^0(X)
-  \simeq 
+  \simeq
   [X, \underset{\longrightarrow}{\lim}_k \Omega^k E_k]_\ast
   \,.
 $$
@@ -5958,7 +5962,7 @@ $$
   [X,\Sigma^\bullet E]
 $$
 
-is called the reduced $E$-cohomology of the spectrum $X$. 
+is called the reduced $E$-cohomology of the spectrum $X$.
 
 Beware that here one usually drops the tilde sign.
 
@@ -5966,7 +5970,7 @@ Beware that here one usually drops the tilde sign.
 
 
 In summary, lemma \ref{StableHomotopyCategoryHasCoproducts} and lemma \ref{StableHomotopyCategoryIsAbEnriched} state that the [[stable homotopy category]] is an [[Ab-enriched category]] with finite [[coproducts]]. This is called an _[[additive category]]_:
- 
+
 +-- {: .num_defn #AdditiveCategory}
 ###### Definition
 
@@ -5976,7 +5980,7 @@ An **[[additive category]]** is a [[category]] which is
 
    (sometimes called a [[pre-additive category]]--this means that each [[hom-set]] carries the structure of an [[abelian group]] and composition is [[bilinear map|bilinear]])
 
-1. which admits [[finite limit|finite]] [[coproducts]] 
+1. which admits [[finite limit|finite]] [[coproducts]]
 
    (and hence, by prop. \ref{ProductsAreBiproducts} below, finite [[products]] which coincide with the coproducts, hence finite [[biproducts]]).
 
@@ -5985,11 +5989,11 @@ An **[[additive category]]** is a [[category]] which is
 +-- {: .num_prop #ProductsAreBiproducts}
 ###### Proposition
 
-In an [[Ab-enriched category]], a [[finite product|finite]] [[product]] is also a [[coproduct]], and dually.  
+In an [[Ab-enriched category]], a [[finite product|finite]] [[product]] is also a [[coproduct]], and dually.
 
-This statement includes the zero-ary case: any [[terminal object]] is also an [[initial object]], hence a [[zero object]] (and dually), hence every [[additive category]] (def. \ref{AdditiveCategory}) has a [[zero object]].  
+This statement includes the zero-ary case: any [[terminal object]] is also an [[initial object]], hence a [[zero object]] (and dually), hence every [[additive category]] (def. \ref{AdditiveCategory}) has a [[zero object]].
 
-More precisely, for $\{X_i\}_{i \in I}$ a [[finite set]] of objects in an Ab-enriched category, then the unique morphism 
+More precisely, for $\{X_i\}_{i \in I}$ a [[finite set]] of objects in an Ab-enriched category, then the unique morphism
 
 $$
   \underset{i \in I}{\coprod} X_i \longrightarrow \underset{j \in I}{\prod} X_j
@@ -6013,7 +6017,7 @@ $$
 Consider now the case of binary (co-)products. Using the existence of the [[zero object]], hence of [[zero morphisms]], then in addition to its canonical [[projection]] maps $p_i \colon X_1 \times X_2 \to X_i$, any binary [[product]] also receives "injection" maps $X_i \to X_1 \times X_2$, and dually for the [[coproduct]]:
 
 $$
-  \array{  
+  \array{
     X_1 && && X_2
     \\
     & \searrow^{\mathrlap{(id,0)}} && {}^{\mathllap{(0,id)}}\swarrow
@@ -6025,12 +6029,12 @@ $$
     X_1 && && X_2
   }
   \;\;\;\;\;\;\;\;\;\;\;\;\,,\;\;\;\;\;\;\;\;\;\;\;\;
-  \array{  
+  \array{
     X_1 && && X_2
     \\
     & \searrow^{\mathrlap{i_{X_1}}} && {}^{\mathllap{i_{X_2}}}\swarrow
     \\
-    {}^{\mathllap{id_{X_1}}}\downarrow 
+    {}^{\mathllap{id_{X_1}}}\downarrow
      && X_1 \sqcup X_2 && \downarrow^{\mathrlap{id_{X_2}}}
     \\
     & \swarrow_{\mathrlap{(id,0)}} && {}_{\mathllap{(0,id)}}\searrow
@@ -6040,15 +6044,15 @@ $$
   \,.
 $$
 
-Observe some basic compatibility of the $Ab$-enrichment with the product: 
+Observe some basic compatibility of the $Ab$-enrichment with the product:
 
-First, for $(\alpha_1,\beta_1), (\alpha_2, \beta_2)\colon R \to X_1 \times X_2$ then 
+First, for $(\alpha_1,\beta_1), (\alpha_2, \beta_2)\colon R \to X_1 \times X_2$ then
 
 $$
   (\star)
   \;\;\;\;\;\;
-  (\alpha_1,\beta_1) + (\alpha_2, \beta_2) 
-    = 
+  (\alpha_1,\beta_1) + (\alpha_2, \beta_2)
+    =
   (\alpha_1+ \alpha_2 , \; \beta_1 + \beta_2)
 $$
 
@@ -6063,18 +6067,18 @@ $$
   +
   (0, id) \circ p_2
     =
-  id_{X_1 \times X_2} 
+  id_{X_1 \times X_2}
   \,.
 $$
 
 (We may check this, via the [[Yoneda lemma]] on [[generalized elements]]: for $(\alpha, \beta) \colon R \to X_1\times X_2$ any morphism, then $(id,0)\circ p_1 \circ (\alpha,\beta) = (\alpha,0)$ and $(0,id)\circ p_2\circ (\alpha,\beta) = (0,\beta)$, so the statement follows with equation $(\star)$.)
 
 
-Now observe that for $f_i \;\colon\; X_i \to Q$ any two morphisms, the sum 
+Now observe that for $f_i \;\colon\; X_i \to Q$ any two morphisms, the sum
 
 $$
-  \phi 
-    \;\coloneqq\; 
+  \phi
+    \;\coloneqq\;
   f_1 \circ p_1 + f_2 \circ p_2
     \;\colon\;
   X_1 \times X_2
@@ -6085,14 +6089,14 @@ $$
 gives a morphism of [[cocones]]
 
 $$
-  \array{  
+  \array{
     X_1 && && X_2
     \\
     & \searrow^{\mathrlap{(id,0)}} && {}^{\mathllap{(0,id)}}\swarrow
     \\
     {}^{\mathllap{id_{X_1}}}\downarrow && X_1 \times X_2 && \downarrow^{\mathrlap{id_{X_2}}}
     \\
-    &  && 
+    &  &&
     \\
     X_1 && \downarrow^{\mathrlap{\phi}} && X_2
     \\
@@ -6108,15 +6112,15 @@ Moreover, this is unique: suppose $\phi'$ is another morphism filling this diagr
 $$
   \begin{aligned}
     (\phi-\phi')
-    & = 
+    & =
     (\phi - \phi') \circ id_{X_1 \times X_2}
     \\
-    &= 
+    &=
     (\phi - \phi') \circ ( (id_{X_1},0) \circ p_1 + (0,id_{X_2})\circ p_2 )
     \\
     & =
     \underset{ = 0}{\underbrace{(\phi - \phi') \circ (id_{X_1}, 0)}} \circ p_1
-    + 
+    +
     \underset{ = 0}{\underbrace{(\phi - \phi') \circ (0, id_{X_2})}} \circ p_2
     \\
     & = 0
@@ -6159,7 +6163,7 @@ A **[[semiadditive category]]** is a [[category]] that has all [[finite products
 In a [[semiadditive category]], def. \ref{SemiadditiveCategory}, the [[hom-sets]] acquire the structure of [[commutative monoids]] by defining the sum of two morphisms $f,g \;\colon\; X \longrightarrow Y$ to be
 
 $$
-  f + g 
+  f + g
     \;\coloneqq\;
   X \overset{\Delta_X}{\to} X \times X
   \simeq
@@ -6184,20 +6188,20 @@ The [[associativity]] and commutativity of $+$ follows directly from the corresp
 
 $$
   \array{
-    W 
-      &\overset{\Delta_W}{\longrightarrow}& 
+    W
+      &\overset{\Delta_W}{\longrightarrow}&
     W \times W
       &\overset{\simeq}{\longrightarrow}&
     W \oplus W
     \\
     \downarrow^{\mathrlap{e}}
       &&
-    \downarrow^{\mathrlap{e \times e}} 
-      && 
+    \downarrow^{\mathrlap{e \times e}}
+      &&
     \downarrow^{\mathrlap{e \oplus e}}
     \\
-    X 
-      &\overset{\Delta_X}{\to}& 
+    X
+      &\overset{\Delta_X}{\to}&
     X \times X
       &\simeq&
     X \oplus X
@@ -6217,7 +6221,7 @@ $$
       &&
     \downarrow^{\mathrlap{h}}
     \\
-      && 
+      &&
       &&
       &&
     Z \oplus Z
@@ -6255,8 +6259,8 @@ $$
     \\
     {}^{\mathllap{\Delta_X}}\downarrow && \uparrow^{\mathrlap{\nabla_Y =}}_{\mathrlap{p_1 + p_2}}
     \\
-    X \oplus X 
-      &\underset{f \oplus g}{\longrightarrow}& 
+    X \oplus X
+      &\underset{f \oplus g}{\longrightarrow}&
    Y\oplus Y
   }
   \,.
@@ -6299,12 +6303,12 @@ By lemma \ref{StableHomotopyCategoryHasCoproducts} and lemma \ref{StableHomotopy
 
 
 
-##### Triangulated structure
+### Triangulated structure
  {#TriangulatedStructure}
 
-We have seen [above](#Additivity) that the [[stable homotopy category]] $Ho(Spectra)$ is an [[additive category]]. In the context of [[homological algebra]], when faced with an [[additive category]] one next asks for the existence of [[kernels]] ([[fibers]]) and [[cokernels]] ([[cofibers]]) to yield a [[pre-abelian category]], and then asks that these are suitably compatible, to yield an [[abelian category]]. 
+We have seen [above](#Additivity) that the [[stable homotopy category]] $Ho(Spectra)$ is an [[additive category]]. In the context of [[homological algebra]], when faced with an [[additive category]] one next asks for the existence of [[kernels]] ([[fibers]]) and [[cokernels]] ([[cofibers]]) to yield a [[pre-abelian category]], and then asks that these are suitably compatible, to yield an [[abelian category]].
 
-Now here in [[stable homotopy theory]], the concept of kernels and cokernels is replaced by that of [[homotopy fibers]] and [[homotopy cofibers]]. That these certainly exist for homotopy theories presented by [[model categories]] was the topic of the general discussion in the section _[Homotopy theory -- Homotopy fibers](#Introduction+to+Stable+homotopy+theory+--+P#HomotopyFibers)_. Various of the properties they satisfy was the topic of the sections _[Homotopy theory -- Long sequences](Introduction+to+Stable+homotopy+theory+--+P#LongSequences)_ and _[Homotopy theory -- Homotopy pullbacks.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbacks)_. For the special case of _stable homotopy theory_ we will find a crucial further property relating homotopy fibers to homotopy cofibers. 
+Now here in [[stable homotopy theory]], the concept of kernels and cokernels is replaced by that of [[homotopy fibers]] and [[homotopy cofibers]]. That these certainly exist for homotopy theories presented by [[model categories]] was the topic of the general discussion in the section _[Homotopy theory -- Homotopy fibers](#Introduction+to+Stable+homotopy+theory+--+P#HomotopyFibers)_. Various of the properties they satisfy was the topic of the sections _[Homotopy theory -- Long sequences](Introduction+to+Stable+homotopy+theory+--+P#LongSequences)_ and _[Homotopy theory -- Homotopy pullbacks.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbacks)_. For the special case of _stable homotopy theory_ we will find a crucial further property relating homotopy fibers to homotopy cofibers.
 
 The axiomatic formulation of a subset of these properties of stable homotopy fibers and stable homotopy cofibers is called a _[[triangulated category]]_ structure. This is the analog in [[stable homotopy theory]] of [[abelian category]] structure in [[homological algebra]].
 
@@ -6339,12 +6343,12 @@ A **[[triangulated category]]** is
 1. a sub-[[class]] $CofSeq \subset Mor(Ho^{\Delta[3]})$ of the class of triples of composable morphisms, called the class of **distinguished triangles**, where each element that starts at $A$ ends at $\Sigma A$; we write these as
 
    $$
-     A 
-       \overset{}{\longrightarrow} 
-     B 
-       \overset{}{\longrightarrow} 
-     B/A 
-       \overset{}{\longrightarrow} 
+     A
+       \overset{}{\longrightarrow}
+     B
+       \overset{}{\longrightarrow}
+     B/A
+       \overset{}{\longrightarrow}
      \Sigma A
      \,,
    $$
@@ -6375,24 +6379,24 @@ such that the following conditions hold:
   If $(f,g,h)$ is a distinguished triangle and there is a [[commuting diagram]] in $Ho$ of the form
 
   $$
-    \array{    
-     A &\overset{f}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
+    \array{
+     A &\overset{f}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A
      \\
-     \downarrow^{\mathrlap{\in Iso}} && \downarrow^{\mathrlap{\in Iso}} 
+     \downarrow^{\mathrlap{\in Iso}} && \downarrow^{\mathrlap{\in Iso}}
      && \downarrow^{\mathrlap{\in Iso}}
      && \downarrow^{\mathrlap{\in Iso}}
      \\
-     A' &\overset{f'}{\longrightarrow}& B' &\overset{g'}{\longrightarrow}& B'/A' &\overset{h'}{\longrightarrow}& \Sigma A'      
-     
+     A' &\overset{f'}{\longrightarrow}& B' &\overset{g'}{\longrightarrow}& B'/A' &\overset{h'}{\longrightarrow}& \Sigma A'
+
     }
   $$
 
   (with all vertical morphisms being [[isomorphisms]]) then $(f',g',h')$ is also a distinguished triangle.
-  
+
 * **T1** For every object $X \in Ho$ then $(0,id_X,0)$ is a distinguished triangle
 
   $$
-    0 \longrightarrow X \overset{id_X}{\longrightarrow} X 
+    0 \longrightarrow X \overset{id_X}{\longrightarrow} X
     \overset{}{\longrightarrow} 0
     \,;
   $$
@@ -6413,50 +6417,50 @@ such that the following conditions hold:
 * **T3** Given a [[commuting diagram]] in $Ho$ of the form
 
   $$
-    \array{    
-     A &\overset{}{\longrightarrow}& 
-     B &\overset{}{\longrightarrow}& 
-     B/A &\overset{}{\longrightarrow}& \Sigma A      
+    \array{
+     A &\overset{}{\longrightarrow}&
+     B &\overset{}{\longrightarrow}&
+     B/A &\overset{}{\longrightarrow}& \Sigma A
      \\
      \downarrow^{\mathrlap{\phi_A}}
-     && \downarrow^{\mathrlap{\phi_B}} 
-     && 
-     && 
+     && \downarrow^{\mathrlap{\phi_B}}
+     &&
+     &&
      \\
-     A' &\overset{}{\longrightarrow}& B' &\overset{}{\longrightarrow}& B'/A' &\overset{}{\longrightarrow}& \Sigma A'           
+     A' &\overset{}{\longrightarrow}& B' &\overset{}{\longrightarrow}& B'/A' &\overset{}{\longrightarrow}& \Sigma A'
     }
   $$
 
   where the top and bottom are distinguished triangles, then there exists a morphism $B/A \to B'/A'$ such as to make the completed diagram commute
-  
+
   $$
-    \array{    
-     A &\overset{}{\longrightarrow}& B &\overset{}{\longrightarrow}& B/A &\overset{}{\longrightarrow}& \Sigma A      
+    \array{
+     A &\overset{}{\longrightarrow}& B &\overset{}{\longrightarrow}& B/A &\overset{}{\longrightarrow}& \Sigma A
      \\
      \downarrow^{\mathrlap{\phi_A}}
-     && \downarrow^{\mathrlap{\phi_B}} 
+     && \downarrow^{\mathrlap{\phi_B}}
      && \downarrow^{\mathrlap{\exists}}
      && \downarrow^{\mathrlap{\Sigma \phi_A}}
      \\
-     A' &\overset{}{\longrightarrow}& B' &\overset{}{\longrightarrow}& B'/A' &\overset{}{\longrightarrow}& \Sigma A'           
+     A' &\overset{}{\longrightarrow}& B' &\overset{}{\longrightarrow}& B'/A' &\overset{}{\longrightarrow}& \Sigma A'
     }
   $$
 
 * **T4 ([[octahedral axiom]])** For every pair of composable morphisms $f \colon A \to B$ and $f' \colon B \to D$ then there is a [[commutative diagram]] of the form
-  
+
   $$
     \array{
-      A 
-        &\overset{f}{\longrightarrow}& 
-      B 
-        &\overset{g}{\longrightarrow}& 
-      B/A 
+      A
+        &\overset{f}{\longrightarrow}&
+      B
+        &\overset{g}{\longrightarrow}&
+      B/A
         &\overset{h}{\longrightarrow}&
       \Sigma A
       \\
       {}^{\mathllap{=}}\downarrow && {}^{\mathllap{f'}}\downarrow && \downarrow^{\mathrlap{x}} && \downarrow^{\mathrlap{=}}
       \\
-      A 
+      A
         &\underset{f' \circ f}{\longrightarrow}&
       D
         &\underset{g''}{\longrightarrow}&
@@ -6464,18 +6468,18 @@ such that the following conditions hold:
         &\underset{h''}{\longrightarrow}&
       \Sigma A
       \\
-      && {}^{\mathllap{g'}}\downarrow && \downarrow^{\mathrlap{y}} 
+      && {}^{\mathllap{g'}}\downarrow && \downarrow^{\mathrlap{y}}
       \\
-      && 
-      D/B 
-       &\underset{\simeq}{\longrightarrow}& 
+      &&
+      D/B
+       &\underset{\simeq}{\longrightarrow}&
       D/B
       \\
       && {}^{\mathllap{h'}}\downarrow && \downarrow^{\mathrlap{(\Sigma g)\circ h'}}
       \\
-        && 
-      \Sigma B 
-        &\underset{\Sigma g}{\longrightarrow}& 
+        &&
+      \Sigma B
+        &\underset{\Sigma g}{\longrightarrow}&
       \Sigma B/A
     }
   $$
@@ -6490,10 +6494,10 @@ such that the following conditions hold:
 ###### Proposition
 
 The [[stable homotopy category]] $Ho(Spectra)$ from def. \ref{TheStableHomotopyCategory}, equipped with the canonical suspension functor $\Sigma \colon Ho(Spectra) \overset{\simeq}{\longrightarrow} Ho(Spectra)$ (according to [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) is a [[triangulated category]] (def. \ref{CategoryWithCofiberSequences}) for the distinguished triangles being the closure under isomorphism of triangles of the images (under localization $SeqSpec(Top_{cg})_{stable} \to Ho(Spectra)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) of the stable model category of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory})
-of the canonical long [[homotopy cofiber sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)) 
+of the canonical long [[homotopy cofiber sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence))
 
 $$
-  A \overset{f}{\longrightarrow} B 
+  A \overset{f}{\longrightarrow} B
   \overset{}{\longrightarrow} hocofib(f)
   \longrightarrow
   \Sigma A
@@ -6510,15 +6514,15 @@ $$
 
 By prop. \ref{TheStableHomotopyCategoryIsAdditive} the stable homotopy category is additive, by theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory} the functor $\Sigma$ is an equivalence.
 
-The axioms T0 and T1 are immediate from the definition of homotopy cofiber sequences. 
+The axioms T0 and T1 are immediate from the definition of homotopy cofiber sequences.
 
 The axiom T2 is the very characterization of long [[homotopy cofiber sequences]] (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)).
 
 Regarding axiom T3:
 
-By the factorization axioms of the [[model category]] we may represent the morphisms $A \to A'$ and $B \to B'$ in the homotopy category by cofibrations in the model category. Then $B \to B/A$ and $B' \to B'/A'$ are represented by their ordinary [[cofibers]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber), [prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiberIndependentOfChoiceOfFibrantReplacement)). 
+By the factorization axioms of the [[model category]] we may represent the morphisms $A \to A'$ and $B \to B'$ in the homotopy category by cofibrations in the model category. Then $B \to B/A$ and $B' \to B'/A'$ are represented by their ordinary [[cofibers]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber), [prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiberIndependentOfChoiceOfFibrantReplacement)).
 
-We may assume without restriction ([lemma](#Introduction+to+Stable+homotopy+theory+--+P#RepresentingHomotopyCommutativeSquaresByCommutativeSquares)) that the [[commuting square]] 
+We may assume without restriction ([lemma](#Introduction+to+Stable+homotopy+theory+--+P#RepresentingHomotopyCommutativeSquaresByCommutativeSquares)) that the [[commuting square]]
 
 $$
   \array{
@@ -6539,21 +6543,21 @@ Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra
 
   $$
     \array{
-      A 
-        &\overset{f}{\longrightarrow}& 
-      B 
-        &\overset{g}{\longrightarrow}& 
-      B/A 
+      A
+        &\overset{f}{\longrightarrow}&
+      B
+        &\overset{g}{\longrightarrow}&
+      B/A
         &\overset{h}{\longrightarrow}&
       \Sigma A
       \\
-      {}^{\mathllap{=}}\downarrow 
-        &(1)& 
-      {}^{\mathllap{f'}}\downarrow 
-        &(2)& 
+      {}^{\mathllap{=}}\downarrow
+        &(1)&
+      {}^{\mathllap{f'}}\downarrow
+        &(2)&
       \downarrow^{\mathrlap{x}} && \downarrow^{\mathrlap{=}}
       \\
-      A 
+      A
         &\underset{f' \circ f}{\longrightarrow}&
       D
         &\underset{g''}{\longrightarrow}&
@@ -6561,18 +6565,18 @@ Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra
         &\underset{h''}{\longrightarrow}&
       \Sigma A
       \\
-      && {}^{\mathllap{g'}}\downarrow &(3)& \downarrow^{\mathrlap{y}} && 
+      && {}^{\mathllap{g'}}\downarrow &(3)& \downarrow^{\mathrlap{y}} &&
       \\
-      && 
-      D/B 
-       &\underset{\simeq}{\longrightarrow}& 
+      &&
+      D/B
+       &\underset{\simeq}{\longrightarrow}&
       D/B
       \\
       && {}^{\mathllap{h'}}\downarrow && \downarrow^{\mathrlap{(\Sigma g)\circ h'}}
       \\
-        && 
-      \Sigma B 
-        &\underset{\Sigma g}{\longrightarrow}& 
+        &&
+      \Sigma B
+        &\underset{\Sigma g}{\longrightarrow}&
       \Sigma B/A
     }
   $$
@@ -6581,21 +6585,21 @@ The fact that the second horizontal morphism from below is indeed an isomorphism
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/OctahedralProofFromPastingPushouts.jpg" width="400"></div>
 
-Draw all homotopy cofibers as [[homotopy pushout]] squares ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)) with one edge going to the point.  Then assemble the squares (1)-(3) in the pasting composite of two cubes on top of each other: (1) as the left face of the top cube, (2) as the middle face where the two cubes touch, and (3) as the front face of the bottom cube. All remaining edges are points. This way the rear and front face of the top cube and the left and right face of the bottom cube are homotopy pushouts by construction. Also the top face 
+Draw all homotopy cofibers as [[homotopy pushout]] squares ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)) with one edge going to the point.  Then assemble the squares (1)-(3) in the pasting composite of two cubes on top of each other: (1) as the left face of the top cube, (2) as the middle face where the two cubes touch, and (3) as the front face of the bottom cube. All remaining edges are points. This way the rear and front face of the top cube and the left and right face of the bottom cube are homotopy pushouts by construction. Also the top face
 
 $$
   \array{
      A &\longrightarrow & \ast
      \\
-     {}^{\mathllap{\simeq}}\downarrow 
-       && 
+     {}^{\mathllap{\simeq}}\downarrow
+       &&
      \downarrow
      \\
      A &\longrightarrow& \ast
   }
 $$
 
-is a homotopy pushout, since two opposite edges of it are weak equivalences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)). From this the [[pasting law]] for homotopy pushouts ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)) gives that also the middle square (2) is a homotopy pushout. Applying the pasting law once more this way, now for the bottom cube, gives that the bottom square 
+is a homotopy pushout, since two opposite edges of it are weak equivalences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)). From this the [[pasting law]] for homotopy pushouts ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)) gives that also the middle square (2) is a homotopy pushout. Applying the pasting law once more this way, now for the bottom cube, gives that the bottom square
 
 $$
   \array{
@@ -6627,7 +6631,9 @@ All we used in the proof (of prop. \ref{StableHomotopyCategoryIsTriangulated}) o
 
 
 
-##### Long fiber-cofiber sequences
+
+
+### Long fiber-cofiber sequences
 
 In [[homotopy theory]] there are generally long [[homotopy fiber sequences]] to the left and long [[homotopy cofiber sequences]] to the right, as discussed in the section _[Homotopy theory -- Long sequences](Introduction+to+Stable+homotopy+theory+--+P#LongSequences)_. We prove now, in the generality of the axiomatics of [[triangulated categories]] (since the [[stable homotopy category]] is triangulated by prop. \ref{StableHomotopyCategoryIsTriangulated}), that in [[stable homotopy theory]] both these sequences are long in both directions, and in fact coincide.
 
@@ -6639,13 +6645,13 @@ $\,$
 +-- {: .num_lemma #CompositesInADistinguishedTriangleAreZero}
 ###### Lemma
 
-For $(Ho,\Sigma, CofSeq)$ a [[triangulated category]], def. \ref{CategoryWithCofiberSequences}, and 
+For $(Ho,\Sigma, CofSeq)$ a [[triangulated category]], def. \ref{CategoryWithCofiberSequences}, and
 
 $$
   A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A
 $$
 
-a distinguished triangle, then 
+a distinguished triangle, then
 
 $$
   g\circ f = 0
@@ -6662,9 +6668,9 @@ Consider the [[commuting diagram]]
 
 $$
   \array{
-    A 
-      &\overset{id}{\longrightarrow}& 
-    A 
+    A
+      &\overset{id}{\longrightarrow}&
+    A
       &\overset{}{\longrightarrow}&
     0
       &\overset{}{\longrightarrow}&
@@ -6672,25 +6678,25 @@ $$
     \\
     \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{f}}
     \\
-    A 
-      &\overset{f}{\longrightarrow}& 
-    B 
-      &\overset{g}{\longrightarrow}& 
-    B/A 
-      &\overset{h}{\longrightarrow}& 
-    \Sigma A    
+    A
+      &\overset{f}{\longrightarrow}&
+    B
+      &\overset{g}{\longrightarrow}&
+    B/A
+      &\overset{h}{\longrightarrow}&
+    \Sigma A
   }
   \,.
 $$
 
-Observe that the top part is a distinguished triangle by axioms T1 and T2 in def. \ref{CategoryWithCofiberSequences}. Hence by T3 there is an extension to 
+Observe that the top part is a distinguished triangle by axioms T1 and T2 in def. \ref{CategoryWithCofiberSequences}. Hence by T3 there is an extension to
 a commuting diagram of the form
 
 $$
   \array{
-    A 
-      &\overset{id}{\longrightarrow}& 
-    A 
+    A
+      &\overset{id}{\longrightarrow}&
+    A
       &\overset{}{\longrightarrow}&
     0
       &\overset{}{\longrightarrow}&
@@ -6700,13 +6706,13 @@ $$
     && \downarrow
     && \downarrow^{\mathrlap{\Sigma f}}
     \\
-    A 
-      &\overset{f}{\longrightarrow}& 
-    B 
-      &\overset{g}{\longrightarrow}& 
-    B/A 
-      &\overset{h}{\longrightarrow}& 
-    \Sigma A    
+    A
+      &\overset{f}{\longrightarrow}&
+    B
+      &\overset{g}{\longrightarrow}&
+    B/A
+      &\overset{h}{\longrightarrow}&
+    \Sigma A
   }
   \,.
 $$
@@ -6728,8 +6734,8 @@ $$
 
 then the sequences of [[abelian groups]]
 
-1. (long cofiber sequence) 
-    
+1. (long cofiber sequence)
+
    $$
     [\Sigma A, X]_\ast
       \overset{[h,X]_\ast}{\longrightarrow}
@@ -6749,7 +6755,7 @@ then the sequences of [[abelian groups]]
        \overset{[X,g]_\ast}{\longrightarrow}
      [X,B/A]_\ast
        \overset{[X,h]_\ast}{\longrightarrow}
-     [X,\Sigma A]_\ast 
+     [X,\Sigma A]_\ast
    $$
 
 are [[long exact sequences]].
@@ -6765,17 +6771,17 @@ Since $g \circ f = 0$ by lemma \ref{CompositesInADistinguishedTriangleAreZero}, 
 
 $$
   \array{
-    A 
-      &\overset{f}{\longrightarrow}& 
-    B 
-      &\overset{g}{\longrightarrow}& 
-    B/A 
-      &\overset{h}{\longrightarrow}& 
+    A
+      &\overset{f}{\longrightarrow}&
+    B
+      &\overset{g}{\longrightarrow}&
+    B/A
+      &\overset{h}{\longrightarrow}&
     \Sigma A
     \\
     \downarrow && {}^{\mathllap{\psi}}\downarrow
     \\
-    0 
+    0
       &\overset{}{\longrightarrow}&
     X
       &\overset{id}{\longrightarrow}&
@@ -6792,17 +6798,17 @@ The top part of this diagram is a distinguished triangle by assumption, and the 
 
 $$
   \array{
-    A 
-      &\overset{f}{\longrightarrow}& 
-    B 
-      &\overset{g}{\longrightarrow}& 
-    B/A 
-      &\overset{h}{\longrightarrow}& 
+    A
+      &\overset{f}{\longrightarrow}&
+    B
+      &\overset{g}{\longrightarrow}&
+    B/A
+      &\overset{h}{\longrightarrow}&
     \Sigma A
     \\
     \downarrow && {}^{\mathllap{\psi}}\downarrow && \downarrow^{\mathrlap{\phi}} && \downarrow
     \\
-    0 
+    0
       &\overset{}{\longrightarrow}&
     X
       &\overset{id}{\longrightarrow}&
@@ -6817,9 +6823,9 @@ Here the commutativity of the middle square exhibits the desired conclusion.
 
 This shows that the first sequence in question is exact at $[B,X]_\ast$. Applying the same reasoning to the distinguished triangle $(g,h,-\Sigma f)$ provided by T2 yields exactness at $[B/A,X]_\ast$.
 
-Regarding the second case: 
+Regarding the second case:
 
-Again, from lemma \ref{CompositesInADistinguishedTriangleAreZero} it is immediate that 
+Again, from lemma \ref{CompositesInADistinguishedTriangleAreZero} it is immediate that
 
 $$
   im([X,f]_\ast) \subset ker([X,g]_\ast)
@@ -6831,17 +6837,17 @@ To that end, consider the commuting diagram
 
 $$
   \array{
-    X 
-      &\longrightarrow& 
-    0 
-      &\longrightarrow& 
-    \Sigma X 
-      &\overset{- \Sigma id}{\longrightarrow}& 
+    X
+      &\longrightarrow&
+    0
+      &\longrightarrow&
+    \Sigma X
+      &\overset{- \Sigma id}{\longrightarrow}&
     \Sigma X
     \\
     \downarrow^{\mathrlap{\psi}} && \downarrow
     \\
-     B 
+     B
        &\overset{g}{\longrightarrow}&
      B/A
        &\overset{h}{\longrightarrow}&
@@ -6858,22 +6864,22 @@ Now the top part of this diagram is a distinguished triangle by conditions T1 an
 
 $$
   \array{
-    X &\longrightarrow& 
-    0 
-      &\longrightarrow& 
-    \Sigma X 
-      &\overset{- \Sigma id}{\longrightarrow}& 
+    X &\longrightarrow&
+    0
+      &\longrightarrow&
+    \Sigma X
+      &\overset{- \Sigma id}{\longrightarrow}&
     \Sigma X
     \\
-    \downarrow^{\mathrlap{\psi}} 
-      && 
+    \downarrow^{\mathrlap{\psi}}
+      &&
     \downarrow
       &&
     \downarrow^{\mathrlap{\tilde \phi}}
       &&
     \downarrow^{\mathrlap{\Sigma \psi}}
     \\
-     B 
+     B
        &\overset{g}{\longrightarrow}&
      B/A
        &\overset{h}{\longrightarrow}&
@@ -6907,15 +6913,15 @@ This concludes the exactness of the second sequence at $[X,B]_\ast$. As before, 
 Consider a morphism of distinguished triangles in a triangulated category (def. \ref{CategoryWithCofiberSequences}):
 
 $$
-  \array{    
-   A &\overset{}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
+  \array{
+   A &\overset{}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A
    \\
-   \downarrow^{\mathrlap{a}} 
-   && \downarrow^{\mathrlap{b}} 
+   \downarrow^{\mathrlap{a}}
+   && \downarrow^{\mathrlap{b}}
    && \downarrow^{\mathrlap{c}}
    && \downarrow^{\mathrlap{\Sigma a}}
    \\
-   A' &\overset{}{\longrightarrow}& B' &\overset{}{\longrightarrow}& B'/A' &\overset{}{\longrightarrow}& \Sigma A'          
+   A' &\overset{}{\longrightarrow}& B' &\overset{}{\longrightarrow}& B'/A' &\overset{}{\longrightarrow}& \Sigma A'
    }
  \,.
 $$
@@ -6930,16 +6936,16 @@ If two out of $\{a,b,c\}$ are isomorphisms, then so is the third.
 Consider the image of the situation under the hom-functor $[X,-]_\ast$ out of any object $X$:
 
 $$
-  \array{    
+  \array{
    [X,A]_\ast &\overset{}{\longrightarrow}& [X,B]_\ast &\overset{g}{\longrightarrow}& [X,B/A]_\ast &\overset{h}{\longrightarrow}& [X,\Sigma A]_\ast &\longrightarrow& [X,\Sigma B]_\ast
    \\
-   \downarrow^{\mathrlap{a_\ast}} 
-   && \downarrow^{\mathrlap{b_\ast}} 
+   \downarrow^{\mathrlap{a_\ast}}
+   && \downarrow^{\mathrlap{b_\ast}}
    && \downarrow^{\mathrlap{c_\ast}}
    && \downarrow^{\mathrlap{(\Sigma a)_\ast }}
    && \downarrow^{\mathrlap{(\Sigma b)_\ast }}
    \\
-   [X,A']_\ast &\overset{}{\longrightarrow}& [X,B']_\ast &\overset{}{\longrightarrow}& [X,B'/A']_\ast &\overset{}{\longrightarrow}& [X,\Sigma A']_\ast &\longrightarrow& [X,\Sigma B']_\ast           
+   [X,A']_\ast &\overset{}{\longrightarrow}& [X,B']_\ast &\overset{}{\longrightarrow}& [X,B'/A']_\ast &\overset{}{\longrightarrow}& [X,\Sigma A']_\ast &\longrightarrow& [X,\Sigma B']_\ast
    }
  \,,
 $$
@@ -6970,12 +6976,12 @@ By T0 there is some distinguished triangle of the form $(f,g',h')$. By T2 this g
 
 $$
   \array{
-    \Sigma A 
+    \Sigma A
       &\overset{-\Sigma f}{\longrightarrow}&
     \Sigma B
       &\overset{-\Sigma g}{\longrightarrow}&
     \Sigma C
-      &\overset{-\Sigma h}{\longrightarrow}&    
+      &\overset{-\Sigma h}{\longrightarrow}&
     \Sigma^2 A
     \\
     {}^{\mathllap{=}}\downarrow
@@ -6986,12 +6992,12 @@ $$
     &&
     {}^{\mathllap{=}}\downarrow
     \\
-    \Sigma A 
+    \Sigma A
       &\overset{-\Sigma f}{\longrightarrow}&
     \Sigma B
       &\overset{-\Sigma g'}{\longrightarrow}&
     \Sigma C
-      &\overset{-\Sigma h'}{\longrightarrow}&    
+      &\overset{-\Sigma h'}{\longrightarrow}&
     \Sigma^2 A
   }
   \,.
@@ -7001,20 +7007,20 @@ Now lemma \ref{TwoOutOfThreeForMorphismsOfDistinguishedTriangles} gives that $c'
 
 =--
 
-In conclusion: 
+In conclusion:
 
 +-- {: .num_prop #LongFiberSequencesOfMapsOfSpectra}
 ###### Proposition
 
-Let 
+Let
 
 $$
-  X 
-    \overset{f}{\longrightarrow} 
+  X
+    \overset{f}{\longrightarrow}
   Y
     \overset{g}{\longrightarrow}
   Z
-$$ 
+$$
 
 be a [[homotopy cofiber sequence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)) of spectra in the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) $Ho(Spectra)$. Let $A \in Ho(Spectra)$ be any other spectrum. Then the [[abelian groups|abelian]] [[hom-object|hom-groups]] of the [[stable homotopy category]] (def. \ref{GroupStructureOnHomsInStableHomotopyCategory}, lemma \ref{StableHomotopyCategoryIsAbEnriched}) sit in [[long exact sequences]] of the form
 
@@ -7053,7 +7059,7 @@ This suggests that homotopy cofiber sequences coincide with homotopy fiber seque
 +-- {: .num_prop #HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra}
 ###### Proposition
 
-In the [[stable homotopy category]], a sequence of morphisms is a [[homotopy cofiber sequence]] precisely if it is a [[homotopy fiber sequence]]. 
+In the [[stable homotopy category]], a sequence of morphisms is a [[homotopy cofiber sequence]] precisely if it is a [[homotopy fiber sequence]].
 
 Specifically for $f \colon X \longrightarrow Y$ any morphism in $Ho(Spectra)$, then there is an [[isomorphism]]
 
@@ -7065,8 +7071,8 @@ between the [[homotopy fiber]] and the looping of the [[homotopy cofiber]], whic
 
 $$
   \array{
-     \Omega Y 
-       &\overset{}{\longrightarrow}& 
+     \Omega Y
+       &\overset{}{\longrightarrow}&
      hofib(f)
        &\longrightarrow&
      X
@@ -7099,8 +7105,8 @@ Label the diagram in question as follows
 
 $$
   \array{
-     \Omega Y 
-       &\overset{a}{\longrightarrow}& 
+     \Omega Y
+       &\overset{a}{\longrightarrow}&
      hofib(f)
        &\overset{b}{\longrightarrow}&
      X
@@ -7149,7 +7155,7 @@ Consider then the [[commuting diagram]]
 
 $$
   \array{
-     \Omega Y 
+     \Omega Y
        &\overset{a}{\longrightarrow}&
      hofib(f)
        &\overset{\phi}{\longrightarrow}&
@@ -7157,13 +7163,13 @@ $$
        &\overset{d}{\longrightarrow}&
      \Omega \Sigma X \simeq X
      \\
-     \downarrow 
+     \downarrow
        &&
-     \downarrow 
+     \downarrow
        &&
-     \downarrow 
+     \downarrow
        &&
-     \downarrow 
+     \downarrow
      \\
      \ast
        &\longrightarrow&
@@ -7173,15 +7179,15 @@ $$
        &\longrightarrow&
      Cone(X)
      \\
-     \downarrow 
+     \downarrow
        &&
      \downarrow^{\mathrlap{f}}
        &&
-     \downarrow 
+     \downarrow
        &&
-     \downarrow 
+     \downarrow
      \\
-     Y 
+     Y
        &\underset{=}{\longrightarrow}&
      Y
        &\underset{}{\longrightarrow}&
@@ -7208,15 +7214,15 @@ $$
     \\
     \downarrow && \downarrow && \downarrow
     \\
-    X 
-      &\overset{id}{\longrightarrow}& 
+    X
+      &\overset{id}{\longrightarrow}&
     X
       &\longrightarrow&
     Cone(X)
     \\
     \downarrow && \downarrow && \downarrow
     \\
-    Y 
+    Y
       &\longrightarrow&
     \ast
       &\longrightarrow&
@@ -7241,8 +7247,8 @@ So far we have shown that
 
 $$
   \array{
-     \Omega Y 
-       &\longrightarrow& 
+     \Omega Y
+       &\longrightarrow&
      hofib(f)
        &\longrightarrow&
      X
@@ -7269,8 +7275,8 @@ $$
   \array{
      [A, \Omega X]
        &\longrightarrow&
-     [A,\Omega Y] 
-       &\longrightarrow& 
+     [A,\Omega Y]
+       &\longrightarrow&
      [A,hofib(f)]
        &\longrightarrow&
      [A,X]
@@ -7332,7 +7338,7 @@ $$
   [\mathbb{S}, X]
 $$
 
-between its [[stable homotopy group]] in degree 0 (def. \ref{StableHomotopyGroups}) and the hom-group (according to def. \ref{AdditiveCategory}, prop. \ref{TheStableHomotopyCategoryIsAdditive}) in the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) from the [[sphere spectrum]] (def. \ref{StandardSphereSpectrum}) into $X$. 
+between its [[stable homotopy group]] in degree 0 (def. \ref{StableHomotopyGroups}) and the hom-group (according to def. \ref{AdditiveCategory}, prop. \ref{TheStableHomotopyCategoryIsAdditive}) in the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) from the [[sphere spectrum]] (def. \ref{StandardSphereSpectrum}) into $X$.
 
 Generally, with respect to the graded hom-groups of def. \ref{GradedAbelianGroupStructureOnHomsInTheHomotopyCategory} we have
 
@@ -7350,7 +7356,7 @@ $$
 
 The hom-set in the homotopy category is equivalently given by the [[left homotopy]]-equivalence classes out of a cofibrant representative of $\mathbb{S}$ into a fibrant representative of $X$ ([lemma](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)).
 
-The standard sphere spectrum $\mathbb{S}_{std} \coloneqq \Sigma^\infty S^0$ is a [[CW-spectrum]] and hence cofibrant, by prop. \ref{CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}. Moreover, this implies by prop. \ref{CylinderSpectrumOverCWSpectrumIsGood} that left homotopies out of $\mathbb{S}_{str}$ are represented by the standard sequential [[cylinder spectrum]] 
+The standard sphere spectrum $\mathbb{S}_{std} \coloneqq \Sigma^\infty S^0$ is a [[CW-spectrum]] and hence cofibrant, by prop. \ref{CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}. Moreover, this implies by prop. \ref{CylinderSpectrumOverCWSpectrumIsGood} that left homotopies out of $\mathbb{S}_{str}$ are represented by the standard sequential [[cylinder spectrum]]
 
 $$
   \mathbb{S}_{std} \wedge (I_+)
@@ -7359,9 +7365,9 @@ $$
   \,.
 $$
 
-By theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}, fibrant replacement for $X$ is provided by its [[spectrification]] $Q X$ according to def. \ref{SpectrificationForTopologicalSequentialSpectra}. 
+By theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}, fibrant replacement for $X$ is provided by its [[spectrification]] $Q X$ according to def. \ref{SpectrificationForTopologicalSequentialSpectra}.
 
-So it follows that $[\mathbb{S},X]_\ast$ is given by left homotopy classes of morphisms 
+So it follows that $[\mathbb{S},X]_\ast$ is given by left homotopy classes of morphisms
 
 $$
   \Sigma^\infty S^0 = \mathbb{S}_{std} \longrightarrow Q X
@@ -7379,7 +7385,7 @@ $$
   \ast \longrightarrow (Q X)_0
 $$
 
-in $Top_{cg}$, hence equivalently points in $(Q X)_0$. Analogously, a [[left homotopy]] 
+in $Top_{cg}$, hence equivalently points in $(Q X)_0$. Analogously, a [[left homotopy]]
 
 $$
   \Sigma^\infty (I_+) \longrightarrow (Q X)_0
@@ -7391,13 +7397,13 @@ $$
   I \longrightarrow (Q X)_0
 $$
 
-in $Top_{cg}$. 
+in $Top_{cg}$.
 
 In conclusion this establishes an isomorphism
 
 $$
-  [\mathbb{S},X]_\ast 
-    \simeq  
+  [\mathbb{S},X]_\ast
+    \simeq
   \pi_0( (Q X)_0 )
 $$
 
@@ -7419,15 +7425,15 @@ As a consequence:
 +-- {: .num_prop #LongExactSequenceOfStableHomotopyGroups}
 ###### Proposition
 
-Let 
+Let
 
 $$
-  X 
-    \overset{f}{\longrightarrow} 
+  X
+    \overset{f}{\longrightarrow}
   Y
     \overset{g}{\longrightarrow}
   Z
-$$ 
+$$
 
 be a [[homotopy cofiber sequence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)) in the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}). Then there is induced a [[long exact sequence of homotopy groups|long exact sequence]] of [[stable homotopy groups]] (def. \ref{StableHomotopyGroups}) of the form
 
@@ -7466,7 +7472,7 @@ As an example, we check explicitly what we already deduced abstractly in prop. \
 For $X,Y \in SeqSpec(Top_{cg})$, then the canonical morphism
 
 $$
-  X \vee Y 
+  X \vee Y
    \longrightarrow
   X \times Y
 $$
@@ -7474,12 +7480,12 @@ $$
 out of the [[coproduct]] ([[wedge sum]], example \ref{WedgeSumOfSpectra}) into the [[product]] (via prop. \ref{LimitsAndColimitsOfSequentialSpectra}), given by
 
 $$
-  \array{  
+  \array{
     X && && Y
     \\
     & \searrow^{\mathrlap{i_X}} && {}^{\mathllap{i_X}}\swarrow
     \\
-    {}^{\mathllap{id_X}}\downarrow 
+    {}^{\mathllap{id_X}}\downarrow
      && X \sqcup Y && \downarrow^{\mathrlap{id_Y}}
     \\
     & \swarrow_{\mathrlap{(id,0)}} && {}_{\mathllap{(0,id)}}\searrow
@@ -7503,7 +7509,7 @@ represents an [[isomorphism]] in the [[stable homotopy category]].
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{CWApproximationForSequentialSpectra}, we may represent both $X$ and $Y$ by [[CW-spectra]] (def. \ref{CWSpectrum}) in $(SeqSpec(Top_{cg})_{stable})_c[W_{st}^{-1}]$. Then the canonical morphism 
+By prop. \ref{CWApproximationForSequentialSpectra}, we may represent both $X$ and $Y$ by [[CW-spectra]] (def. \ref{CWSpectrum}) in $(SeqSpec(Top_{cg})_{stable})_c[W_{st}^{-1}]$. Then the canonical morphism
 
 $$
   i_X \colon X \longrightarrow X \vee Y
@@ -7527,7 +7533,7 @@ $$
   \pi_\bullet(X \vee Y)
    \longrightarrow
   \pi_\bullet(Y)
-   \to 
+   \to
   0
   \,.
 $$
@@ -7535,7 +7541,7 @@ $$
 Finally, due to the fact that the inclusion and projection for one of the two summands constitute a [[retraction]], this is a [[split exact sequence]], hence exhibits an isomorphism
 
 $$
-  \pi_k(X \vee Y)  
+  \pi_k(X \vee Y)
   \overset{\simeq}{\longrightarrow}
   \pi_k(X)\oplus \pi_k(Y)
    \simeq
@@ -7551,16 +7557,16 @@ for all $k$. But this just says that $X \vee Y \to X \times Y$ is a [[stable wea
 
 
 +-- {: .num_remark}
-###### Final Remark 
+###### Final Remark
 
-For a [[tower of fibrations]] of spectra, the long sequences of stable homotopy groups associated with any (co-)fiber sequence of spectra, from prop. \ref{LongExactSequenceOfStableHomotopyGroups}, combine to an [[exact couple]]. The induced [[spectral sequence of a tower of fibrations]] is the central tool of computation in [[stable homotopy theory]]. 
+For a [[tower of fibrations]] of spectra, the long sequences of stable homotopy groups associated with any (co-)fiber sequence of spectra, from prop. \ref{LongExactSequenceOfStableHomotopyGroups}, combine to an [[exact couple]]. The induced [[spectral sequence of a tower of fibrations]] is the central tool of computation in [[stable homotopy theory]].
 
 We discuss how these spectral sequences arise in the section _[[Introduction to Stable homotopy theory -- I|Interlude -- Spectral sequences]]_.
 
 We discuss in detail the special case of the [[Adams spectral sequences]] in the section _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_.
 
 =--
- 
+
 
 
 But for handling any of these spectral sequences it is convenient, or, in many cases, necessary to have multiplicative structure available, induced from a  [[symmetric monoidal smash product of spectra]]. This we turn to in  _[[Introduction to Stable homotopy theory -- 1-2|part 1.2 -- Structured spectra]]_.
@@ -7580,7 +7586,7 @@ A classical textbook  on stable homotopy theory for "unstructured" spectra is
 
 * {#Adams74} [[Frank Adams]], part III sections 2, 4-7 of _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
-For establishing the stable model structure on spectra we use the [[Bousfield-Friedlander theorem]] as discussed in 
+For establishing the stable model structure on spectra we use the [[Bousfield-Friedlander theorem]] as discussed in
 
 * {#GoerssJardine96} [[Paul Goerss]], [[Rick Jardine]], section X.4 of _[[Simplicial homotopy theory]]_, (1996)
 
