@@ -18,7 +18,7 @@
 
 ## Idea 
 
-A [[topological space]] is called _sequentially compact_ if every [[sequence]] of points in that space has a sub-sequence which [[convergence|converges]]. In general this concept is weaker than that of actual [[compact space|compactness]], but for some types of [[topological spaces]], such as [[metric spaces]], it is equivalent.
+A [[topological space]] is called _sequentially compact_ if every [[sequence]] of points in that space has a sub-sequence which [[convergence|converges]]. In general this concept neither implies nor is implied by that of actual [[compact space|compactness]], but for some types of [[topological spaces]], such as [[metric spaces]], it is equivalent.
 
 [[compact space|Compactness]] is an extremely useful concept in [[topology]].  The basic idea is that a [[topological space]] is [[compact space|compact]] if it isn't "fuzzy around the edges".
 
