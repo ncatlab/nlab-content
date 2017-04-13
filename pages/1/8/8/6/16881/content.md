@@ -1,9 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 # The Extreme Value Theorem
 * table of contents
 {: toc}
 
 ## Idea
+
+The classical _extreme value theorem_ states that a [[continuous function]] on the [[bounded subset|bounded]] [[closed interval]] $[0,1]$ with values in the [[real numbers]] does attain its [[maximum]] and its [[minimum]]. This is a special case in [[analysis]] of the more general statement in [[topology]] that [[continuous images of compact spaces are compact]].
 
 Although the Extreme Value Theorem (EVT) is often stated as a theorem about [[continuous maps]], it\'s really about [[semicontinuous maps]].
 
@@ -20,10 +33,15 @@ Similarly, and consequently (by replacing $f$ with $-f$), if $f$ is [[lower semi
 
 In [[constructive mathematics]], this statement is correct in [[locale theory]] (in a sense that we should explain here!), but if we are speaking of pointwise functions defined on a real interval, then it fails in general.  However, we have approximate versions; in particular, it is constructive that $\ran f$ is bounded and has (if real-valued and pointwise-continuous) a real infimum and supremum.  However, the EVT interacts subtly with the [[fan theorem]]; the fan theorem is equivalent to the statement that whenever a pointwise-continuous real-valued function $f$ on $[0,1]$ satisfies $m \lt f \lt M$, then $m \lt \inf f$ and $\sup f \lt M$, which (once the existence of $\inf f$ and $\sup f$ is granted) may be viewed as a contrapositive form of the EVT.  (In fact, the fan theorem is separately equivalent to the statement that every continuous function on $[0,1]$ is [[uniformly continuous map|uniformly continuous]] and to the statement that every uniformly continuous function on $[0,1]$ has this contrapositive property.)  But without the fan theorem, even this contrapositive form cannot be proved (in marked contrast to similar theorems such as the [[intermediate value theorem]] and the [[mean value theorem]]), and in fact it is false in [[Russian constructivism]] (give a counterexample?).  (Does the full semicontinuous version follow from the fan theorem?)
 
+## Related concepts
+
+* [[continuous images of compact spaces are compact]]
 
 ## References
 
-* Karin U. Katz, Mikhail G. Katz, Taras Kudryk. Toward a clarity of the extreme value theorem. [arXiv:1404.5658](http://arxiv.org/abs/1404.5658).
+* Wikipedia, _[Extreme value theorem](https://en.wikipedia.org/wiki/Extreme_value_theorem)_
+
+* Karin U. Katz, Mikhail G. Katz, Taras Kudryk, _Toward a clarity of the extreme value theorem_ ([arXiv:1404.5658](http://arxiv.org/abs/1404.5658))
 
 
 [[!redirects extreme value theorem]]
