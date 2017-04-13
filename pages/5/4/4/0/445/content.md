@@ -224,6 +224,8 @@ Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of
 
 * [[kernel]], [[cokernel]]
 
+* [[continuous images of compact spaces are compact]]
+
 [[!redirects images]]
 [[!redirects corestriction]]
 [[!redirects regular image]] 
