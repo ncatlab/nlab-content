@@ -78,7 +78,7 @@ To see this, consider a [[dense subspace]] of a topological space. For instance 
 
 * [[Hausdorff implies sober]]
 
-* [[map from compact space to Hausdorff space]]
+* [[maps from compact spaces to Hausdorff spaces are closed and proper]]
 
 ## References
 
