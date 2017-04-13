@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -8,13 +19,41 @@
 +-- {: .num_prop }
 ###### Proposition
 
-A [[compact subspace]] of a [[Hausdorff topological space]] is a [[closed subspace]].
+A [[compact subspace]] $K$ of a [[Hausdorff topological space]] $X$ is a [[closed subspace]].
 
 =--
 
-A proof is spelled out at 
++-- {: .proof}
+###### Proof
 
-* ProofWiki _[Compact Subspace of Hausdorff Space is Closed](https://proofwiki.org/wiki/Compact_Subspace_of_Hausdorff_Space_is_Closed)_
+Let $x \in X \backslash K$ be any point of $X$ not contained in $K$. We need to show that there exists an [[open neighbourhood]] of $x$ in $X$ which does not [[intersection|intersect]] $X$.
+
+By assumption that $X$ is Hausdorff, there exist for each $y \in K$ disjoint open neighbourhoods $y \subset U_y \subset X$ and $x \subset V_y \subset X$. Clearly the [[union]] of all the $U_y$ is an [[open cover]] of $K$
+
+$$
+  K \subset \underset{y \in K}{\cup} U_y
+  \,.
+$$
+
+Hence by assumption that $K$ is compact, there exists a [[finite set|finite]] [[subset]] $S \subset K$ of points in $K$ such that the $U_s$ for $s \in S$ still cover $K$:
+
+
+$$
+  K \subset \underset{y \in S \subset K}{\cup} U_y
+  \,.
+$$
+
+Since $S$ is finite, the intersection
+
+$$
+  U_x \coloneqq  \underset{y \in S \subset K}{\cap} V_y
+$$
+
+is still open, and by construction it is disjoint from all $U_y$ for $y \in S$, hence in particular disjoint from $K$, and it contains $x$. Hence $U_x$ is an open neighbourhood of $x$ as required.
+
+
+=--
+
 
 ## Related entries
 
@@ -23,4 +62,9 @@ A proof is spelled out at
 * [[Hausdorff implies sober]]
 
 * [[map from compact space to Hausdorff space]]
+
+## References
+
+* ProofWiki, _[Compact Subspace of Hausdorff Space is Closed](https://proofwiki.org/wiki/Compact_Subspace_of_Hausdorff_Space_is_Closed)_
+
 
