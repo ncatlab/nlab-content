@@ -72,6 +72,8 @@ To see this, consider a [[dense subspace]] of a topological space. For instance 
 
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
+* [[continuous images of compact spaces are compact]]
+
 * [[a CW-complex is a Hausdorff space]]
 
 * [[Hausdorff implies sober]]
