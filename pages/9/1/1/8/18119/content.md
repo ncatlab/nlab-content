@@ -52,4 +52,5 @@ See the proofs there.
 
 * [[map from compact space to Hausdorff space]]
 
+* [[continuous images of compact spaces are compact]]
 
