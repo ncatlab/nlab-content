@@ -246,6 +246,11 @@ Discussion of extremal/BPS [[black branes]] in [[supergravity]] (especially in [
 
 * Cristine N. Ferreira, _BPS solution for eleven-dimensional supergravity with a conical defect configuration_ ([arXiv:1312.0578](http://arxiv.org/abs/1312.0578))
 
+
+Specifically for $1/2^n$-BPS states of intersecting [[M-branes]] in 11d there is discussion in 
+
+* {#Tseytlin96} [[Anton Tseytlin]], _Harmonic superpositions of M-branes_, Nucl.Phys.B475:149-163,1996 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035)) also in [[Chris Hull]] (ed.) chapter 5 of _[[The World in Eleven Dimensions]]_
+
 Discussion in the context of multiple [[M2-branes]] in the  [[BLG model]] is in
 
 * {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], Sunil Mukhi, Constantinos Papageorgakis, section 1.6 of _Multiple Membranes in M-theory_ ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546))
