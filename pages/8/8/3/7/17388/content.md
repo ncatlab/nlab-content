@@ -57,6 +57,10 @@ is still open, and by construction it is disjoint from all $U_y$ for $y \in S$, 
 
 ## Related entries
 
+* [[closed subsets of compact spaces are compact]]
+
+* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
+
 * [[a CW-complex is a Hausdorff space]]
 
 * [[Hausdorff implies sober]]
