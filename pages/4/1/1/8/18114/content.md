@@ -20,7 +20,7 @@
 
 ## Idea
 
-For general [[topological spaces]] the condition of being [[compact topological space|compact]] is strictly stronger than the condition of beiing [[sequentially compact]]. However for [[metric spaces]] the two conditions happen to be equivalent
+For general [[topological spaces]] the condition of being [[compact topological space|compact]] neither implies nor is implied by being [[sequentially compact]]. However for [[metric spaces]] the two conditions happen to be equivalent
 
 ## Statement
 
