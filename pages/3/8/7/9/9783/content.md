@@ -42,10 +42,14 @@ The family of all bounded sets of a quasigauge space (and hence of the more part
 
 +-- {: .num_defn #bset}
 ###### Definition
-Let $E$ be a [[LCTVS]].  A subset $B \subseteq E$ is **bounded** if whenever $U \subseteq E$ is a neighbourhood of $0$ then there is some [[real number]] $r$ such that $B \subseteq r U$.
+Let $E$ be a [[LCTVS]].  A subset $B \subseteq E$ is **bounded** if whenever $U \subseteq E$ is a [[neighbourhood]] of $0$ then there is some [[real number]] $r$ such that $B \subseteq r U$.
 =--
 
 The family of all bounded sets of a LCTVS defines a [[bornology]] on its [[underlying set]].
+
+## Related concepts
+
+* [[totally bounded metric space]]
 
 
 [[!redirects bounded set]]
