@@ -15,7 +15,7 @@
 
 ## Between topological spaces
 
-While every [[continuous map]] sends [[compact subsets]] to [[compact subsets]], it is not true in general that the [[preimage]] of a compact set along a continuous map is compact.
+While every [[continuous map]] sends [[compact subsets]] to [[compact subsets]] (see at _[[continuous images of compact spaces are compact]]_), it is not true in general that the [[preimage]] of a compact set along a continuous map is compact.
 
 A [[continuous function]] $f : X \to Y$ between [[topological space]]s is **proper** if the [[inverse image]] of any [[compact space|compact]] subset is itself compact.
 
@@ -68,6 +68,7 @@ The topos-theoretic condition refers only to directed unions of subterminal obje
 
 * [[proper homotopy theory]]
 
+* [[maps from compact spaces to Hausdorff spaces are closed and proper]]
 
 ## References
 
