@@ -31,9 +31,13 @@ A proof is spelled out at
 
 * [[Hausdorff implies sober]]
 
+* [[map from compact space to Hausdorff space]]
+
+* [[closed subsets of compact spaces are compact]]
+
 * [[compact subspaces of Hausdorff spaces are closed]]
 
-* [[map from compact space to Hausdorff space]]
+* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
 
 [[!redirects every CW-complex is a Hausdorff space]]
