@@ -122,3 +122,5 @@ The idea captured by corollary \ref{ContinuousBijectionsFromCompactSpacesToHausd
 [[!redirects map from a compact space to a Hausdorff space]]
 [[!redirects maps from a compact space to a Hausdorff space]]
 [[!redirects maps from compact spaces to Hausdorff spaces]]
+
+[[!redirects continuous bijections from compact spaces to Hausdorff spaces are homeomorphisms]]
