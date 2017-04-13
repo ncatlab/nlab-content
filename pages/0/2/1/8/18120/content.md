@@ -33,7 +33,7 @@ Let $f \colon (X,\tau_X) \longrightarrow (Y,\tau_Y)$ be a [[continuous function]
 
 1. $f \colon X \to Y$ is a [[surjective function]].
 
-Then also $(Y,\tau_Y)$ is [[compact topological space|compact]]
+Then also $(Y,\tau_Y)$ is [[compact topological space|compact]].
 
 =--
 
@@ -76,7 +76,7 @@ with $im(f)$ regarded as a [[topological subspace]] of $Y$. Now by construction 
 
 ## Related statements
 
-* [[map from compact space to Hausdorff space]]
+* [[maps from compact spaces to Hausdorff spaces are closed and proper]]
 
 * [[closed subsets of compact spaces are compact]]
 
@@ -86,3 +86,5 @@ with $im(f)$ regarded as a [[topological subspace]] of $Y$. Now by construction 
 
 
 [[!redirects continuous image of a compact space is compact]]
+
+[[!redirects continuous surjections out of compact spaces have compact codomain]]
