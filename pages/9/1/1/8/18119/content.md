@@ -50,7 +50,7 @@ See the proofs there.
 
 * [[Hausdorff implies sober]]
 
-* [[map from compact space to Hausdorff space]]
+* [[maps from compact spaces to Hausdorff spaces are closed and proper]]
 
 * [[continuous images of compact spaces are compact]]
 
