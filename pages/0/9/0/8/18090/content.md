@@ -998,10 +998,10 @@ _[Universal constructions](#UniversalConstructions)_
 
 #### Closed subsets
  {#ClosedSubsets}
- 
+
 The [[complements]] of [[open subsets]] in a [[topological space]] are called _[[closed subsets]]_
 (def. \ref{ClosedSubset} below).
-This simple definition indeed captures the concept of closure in the [[analysis|analytic]] 
+This simple definition indeed captures the concept of closure in the [[analysis|analytic]]
 sense of [[convergence]] of [[sequences]] (prop. \ref{ConvergenceInClosedSubspace} below). Of particular interest for the theory of topological spaces in the discussion of [[separation axioms]] [below](#SeparationAxioms) are those closed subsets which are
 "[[irreducible closed subset|irreducible]]" (def. \ref{ClosedIrreducible} below). These happen to be equivalently the
 "[[frame]] homomorphisms" (def. \ref{HomomorphismOfFramesOfOpens}) to the [[frame of opens]] of the point
@@ -1078,6 +1078,7 @@ A special role in the theory is played by the "irreducible" closed subspaces:
 
 +-- {: .num_defn #ClosedIrreducible}
 ###### Definition
+**([[irreducible closed subspace]])**
 
 A [[closed subset]] $S \subset X$ (def. \ref{ClosedSubset}) of a [[topological space]] $X$ is called _[[irreducible closed subspace|irreducible]]_ if it is
 [[inhabited|non-empty]] and not the [[union]] of two closed proper (i.e. smaller) subsets. In other words, $S$ is irreducible if whenever
@@ -1105,6 +1106,7 @@ in terms of complementary open subsets:
 
 +-- {: .num_prop #OpenSubsetVersionOfClosedIrreducible}
 ###### Proposition
+**(irreducible closed subsets in terms of prime open subsets)**
 
 Let $(X, \tau)$ be a [[topological space]], and let $P \in \tau \subset P(X)$ be a proper [[open subset]],
 so that the [[complement]] $F \coloneqq X\backslash P$ is an [[inhabited]] [[closed subspace]]. Then $F$
@@ -1112,7 +1114,9 @@ is [[irreducible closed subspace|irreducible]] in the sense of def. \ref{ClosedI
 with $U_1 \cap U_2 \subset P$ then $U_1 \subset P$ or $U_2 \subset P$:
 
 $$
-  X \backslash P \,\text{irreducible}
+  \left(
+    X \backslash P \,\text{irreducible}
+  \right)
   \;\Leftrightarrow\;
   \left(
     \underset{U_1, U_2 \in \tau}{\forall }
@@ -1188,6 +1192,7 @@ finite intersections and arbitrary unions:
 
 +-- {: .num_defn #HomomorphismOfFramesOfOpens}
 ###### Definition
+**([[frame]] homomorphisms)**
 
 Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be [[topological spaces]] (def. \ref{TopologicalSpace}).
 Then a function
@@ -1501,7 +1506,7 @@ $$
   \,.
 $$
 
-Finally, the composition operation is also clearly _[[unitality|unita]]_, in that for
+Finally, the composition operation is also clearly _[[unitality|unital]]_, in that for
 each topological space $X$ there exists the [[identity]] function $id_X \colon X \to X$
 and for $f \colon X_1 \to X_2$ any continuous function then
 
@@ -1517,12 +1522,20 @@ One summarizes this situation by saying that:
 
 1. [[continuous functions]] constitute the _[[morphisms]]_ ([[homomorphisms]])
 
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/AssociativityDiagram.png" width="400">
+</div>
+
 of  a _[[category]]_, called the _[[category of topological spaces]]_ ("[[Top]]" for short).
 
 It is useful to depict collections of [[objects]] with [[morphisms]] between them
 by [[diagrams]], like this one:
 
-<img src="https://ncatlab.org/nlab/files/AssociativityDiagram.png" width="400">
+$\,$
+
+$\,$
+
+$\,$
 
 > graphics grabbed from [Lawvere-Schanuel 09](#category+theory#LawvereSchanuel09).
 
@@ -2005,7 +2018,7 @@ the following are equivalent:
 +-- {: .num_example}
 ###### Example
 
-Let $(X,\tau)$ be a [[topological space]] satisfying the $T_i$ [[separation axiom]] according to 
+Let $(X,\tau)$ be a [[topological space]] satisfying the $T_i$ [[separation axiom]] according to
 def. \ref{HausdorffTopologicalSpace}. Then also every [[topological subspace]] of $(X,\tau)$ (def. \ref{SubspaceTopology}) satisfies $T_i$.
 
 =--
@@ -2115,12 +2128,12 @@ Not every [[universal construction]] of [[topological spaces]] applied to [[Haus
 results again in a Hausdorff topological space, notably [[quotient space]] constructions need not
 (example \ref{LineWithTwoOrigins} below).
 
-But there is a universal way, called _[[Hausdorff reflection]]_ (prop. \ref{HausdorffReflection} below), 
-to approximate any topological space "from the left" by a Hausdorff topological spaces. 
+But there is a universal way, called _[[Hausdorff reflection]]_ (prop. \ref{HausdorffReflection} below),
+to approximate any topological space "from the left" by a Hausdorff topological spaces.
 
 Hence if one wishes to work withing the [[full subcategory]] of the [[Hausdorff topological spaces]]
 among all [[topological space]], then the correct way to construct quotients and other _[[colimits]]_
-(see [below](#UniversalConstructions)) is to first construct them as usual for topological spaces, 
+(see [below](#UniversalConstructions)) is to first construct them as usual for topological spaces,
 and then apply the Hausdorff reflection to the result.
 
 
@@ -2128,7 +2141,7 @@ and then apply the Hausdorff reflection to the result.
 ###### Example
 **([[line with two origins]])**
 
-Consider the [[disjoint union]] $\mathbb{R} \sqcup \mathbb{R}$ of two copies of the [[real line]] $\mathbb{R}$ regarded 
+Consider the [[disjoint union]] $\mathbb{R} \sqcup \mathbb{R}$ of two copies of the [[real line]] $\mathbb{R}$ regarded
 as the 1-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm}) with its [[metric topology]] (def. \ref{MetricTopology}). Moreover, consider the [[equivalence relation]] on the underlying set which identifies every
 point $x_i$ in the $i$th copy of $\mathbb{R}$ ($i \in \{0,1\}$) with the corresponding point in the other, the $(1-i)$th copy, except when $x = 0$:
 
@@ -2218,7 +2231,7 @@ $$
   \mathbb{R}/\sim
 $$
 
-is a [[codiscrete topological space]] (def. \ref{CoDiscreteTopology}), hence in particular a 
+is a [[codiscrete topological space]] (def. \ref{CoDiscreteTopology}), hence in particular a
 [[non-Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}).
 
 =--
@@ -2441,7 +2454,7 @@ $$
   H \;\colon\; Top \longrightarrow Top_{Haus}
 $$
 
-of the [[line with two origns]] from example \ref{LineWithTwoOrigins} is the [[real line]] itself:
+of the [[line with two origins]] from example \ref{LineWithTwoOrigins} is the [[real line]] itself:
 
 $$
   H\left(
@@ -2465,6 +2478,7 @@ immediately suggests the following strengthening:
 
 +-- {: .num_defn #Sober}
 ###### Definition
+**([[sober topological space]])**
 
 A [[topological space]] $(X,\tau)$ is called a _[[sober topological space]]_
 precisely if every [[irreducible closed subspace]] (def. \ref{IrreducibleClosureOfPoint})
@@ -2481,6 +2495,7 @@ well defined according to example \ref{IrreducibleClosureOfPoint}) is [[bijectiv
 
 +-- {: .num_prop #T0FromSober}
 ###### Proposition
+**(sober implies $T_0$)**
 
 Every [[sober topological space]] (def. \ref{Sober}) is $T_0$ (def. \ref{HausdorffTopologicalSpace}).
 
@@ -2840,7 +2855,7 @@ So let $p_1 \neq p_2 \in S X$ be two distinct points. This means that there exis
 +-- {: .num_prop}
 ###### Proposition
 
-For $(X, \tau_X)$ any [[topological space]], for $(Y,\tau_Y^{sob})$ a sober topological space, and for $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ a [[continuous function]], then it factors uniquely through the soberification $s_X \colon (X, \tau_X) \longrigtharrow (S X, \tau_{S X})$ from def. \ref{SoberificationConstruction}, lemma \ref{SoberificationConstructionWellDefined}
+For $(X, \tau_X)$ any [[topological space]], for $(Y,\tau_Y^{sob})$ a sober topological space, and for $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ a [[continuous function]], then it factors uniquely through the soberification $s_X \colon (X, \tau_X) \longrightarrow (S X, \tau_{S X})$ from def. \ref{SoberificationConstruction}, lemma \ref{SoberificationConstructionWellDefined}
 
 $$
   \array{
@@ -2908,17 +2923,18 @@ Here on the right we used again lemma \ref{UnitIntoSXDetectsT0AndSoberity} to fi
 ### Compact spaces
  {#CompactSpaces}
 
-From the discussion of [[compact topological space|compact]] [[metric spaces]] in 
+From the discussion of [[compact topological space|compact]] [[metric spaces]] in
 def. \ref{MetricSpaceSequentiallyCompact} and prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace}
 it is now immediate how to generalize these concepts to [[topological spaces]].
 
-The most naive version of the definition directly generalizes the concept via converging 
+The most naive version of the definition directly generalizes the concept via converging
 sequences from def. \ref{MetricSpaceSequentiallyCompact}:
 
 +-- {: .num_defn #TopologicalSpaceSequeneConverging}
 ###### Definition
+**(converging sequence in a topological space)**
 
-Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}) and let 
+Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}) and let
 $(x_n)_{n \in \mathbb{N}}$ be a [[sequence]] of points $(x_n)$ in $X$ (def. \ref{Sequences}).
 We say that this sequence _[[convergence|converges]]_ in $(X,\tau)$ to a point $x_\infty \in X$,
 denoted
@@ -2992,10 +3008,10 @@ A [[topological space]] $X$ (def. \ref{TopologicalSpace}) is called a
 ###### Remark
 **(terminology issue regarding "compact")**
 
-beware that the following terminology issue persists in the literature:
+Beware that the following terminology issue persists in the literature:
 
-Some authors use "compact" to mean "Hausdorff and compact". To disambiguate this,
-some authors (mostly in [[algebraic geometry]]) say "quasi-compact" for what we call 
+Some authors use "compact" to mean "[[compact Hausdorff space|Hausdorff and compact]]". To disambiguate this,
+some authors (mostly in [[algebraic geometry]]) say "quasi-compact" for what we call
 "compact" in prop. \ref{CompactTopologicalSpace}.
 
 =--
@@ -3003,34 +3019,92 @@ some authors (mostly in [[algebraic geometry]]) say "quasi-compact" for what we 
 +-- {: .num_example }
 ###### Example
 
-A [[discrete topological space]] (def. \ref{CoDiscreteTopology}) is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) 
+A [[discrete topological space]] (def. \ref{CoDiscreteTopology}) is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
 precisely if its underlying set is [[finite set|finite]].
 
 =--
 
 In terms of these definitions, the familiar statement about metric spaces from prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace} now says equivalently that
-[[sequentially compact metric spaces are equivalently compact metric spaces]]. But for 
+[[sequentially compact metric spaces are equivalently compact metric spaces]]. But for
 general topological spaces being sequntially compact neighther implies nor is implied by being compact (...examples...).
 
-In [[analysis]] the key recognition principle for compact spaces is the following:
 
-+-- {: .num_prop }
-###### Proposition
-**([[Heine-Borel theorem]])**
+In [[analysis]] the [[extreme value theorem]] asserts that a [[real number|real]]-valued [[continuous function]]
+on the [[bounded subset|bounded]] [[closed interval]] (def. \ref{OpenAndClosedIntervals}) attains its
+[[maximum]] and [[minimum]]. The following is the generalization of this statement to general topological spaces:
 
-For $n \in \mathbb{N}$, regard $\mathbb{R}^n$ as the $n$-dimensional [[Euclidean space]] via example \ref{EuclideanNorm},
-regarded as a [[topological space]] via its [[metric topology]] (def. \ref{MetricTopology}).
++-- {: .num_lemma #ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain}
+###### Lemma
+**([[continuous surjections out of compact spaces have compact codomain]])**
 
-Then for a [[topological subspace]] $S \subset \mathbb{R}^n$ the following are equivalent: 
+Let $f \colon (X,\tau_X) \longrightarrow (Y,\tau_Y)$ be a [[continuous function]] between [[topological spaces]] such that
 
-1. $S$ is  [[compact topological space|compact]] according to def. \ref{CompactTopologicalSpace},
+1. $(X,\tau_X)$ is a [[compact topological space]];
 
-1. $S$ is [[closed subset|closed]] (def. \ref{ClosedSubset}) and [[bounded subset|bounded]] (def. \ref{MetricSpaceBoundedSubset}).
+1. $f \colon X \to Y$ is a [[surjective function]].
+
+Then also $(Y,\tau_Y)$ is [[compact topological space|compact]].
 
 =--
 
++-- {: .proof}
+###### Proof
+
+Let $\{U_i \subset Y\}_{i \in I}$ be an [[open cover]] of $Y$. We need show that this has a finite sub-cover.
+
+By the continuity of $f$ the [[pre-images]] $f^{-1}(U_i)$ are [[open subsets]] of $X$, and by the surjectivity of $f$ they form an [[open cover]] $\{f^{-1}(U_i) \subset X\}_{i \in I}$ of $X$. Hence by compactness of $X$, there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
+$\{f^{-1}(U_i) \subset X\}_{i \in J \subset I}$ is still an open cover of $X$. Finall, using again that $f$ is assumed to be surjective, it follows that
+
+$$
+  \begin{aligned}
+    Y
+      & = f(X)
+    \\
+      & = f\left( \underset{i \in J}{\cup} f^{-1}(U_i) \right)
+    \\
+      & = \underset{i \in J}{\cup} U_i
+  \end{aligned}
+$$
+
+which means that also $\{U_i \subset Y\}_{i \in J \subset I}$ is still an open cover of $Y$, and in particular a finite subcover of the original cover.
+
+=--
+
+
++-- {: .num_cor #ContinuousImageOfACompactSpaceIsCompact}
+###### Corollary
+**([[continuous images of compact spaces are compact]])**
+
+If $f \colon X \longrightarrow Y$ is a [[continuous function]] out of a [[compact topological space]] $X$ which is not necessarily [[surjective function|surjective]], then we may consider its [[image]] factorization
+
+$$
+  f \;\colon\; X \longrightarrow im(f) \hookrightarrow Y
+$$
+
+with $im(f)$ regarded as a [[topological subspace]] of $Y$. Now by construction $X \to \im(f)$ is surjective, and so lemma \ref{ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain} implies that $im(f)$ is compact.
+
+=--
+
+The converse to cor. \ref{ContinuousImageOfACompactSpaceIsCompact} does not hold in general: the
+pre-image of a compact subset under a continuous function need not be compact again. If this is
+the case, then we speak of _[[proper maps]]_:
+
++-- {: .num_defn #ProperContinuous}
+###### Definition
+**([[proper maps]])**
+
+A [[continuous function]] $f  \colon (X, \tau_X) \to (Y, \tau_Y)$
+is called _[[proper map|proper]]_ if for $C \in Y$ a [[compact topological space|compact]] [[topological subspace]]
+of $Y$, then also its [[pre-image]] $f^{-1}(C)$ is [[compact topological space|compact]] in $X$.
+
+=--
+
+
+
+
 +-- {: .num_defn #CompactOpenTopology}
 ###### Definition
+**([[mapping space]])**
 
 For $X$ a [[topological space]] and $Y$ a [[locally compact topological space]] (in that for every point, every [[neighbourhood]] contains a [[compact topological space|compact]] neighbourhood), the **[[mapping space]]**
 
@@ -3079,16 +3153,35 @@ $$
 
 
 
-#### Relation to closed spaces
+#### Relation to Hausdorff spaces
+
+We discuss some important relations between the concepts of compact spaces and of [[Hausdorff topological spaces]].
+
+In [[analysis]] the key recognition principle for compact spaces is the following:
+
++-- {: .num_prop }
+###### Proposition
+**([[Heine-Borel theorem]])**
+
+For $n \in \mathbb{N}$, regard $\mathbb{R}^n$ as the $n$-dimensional [[Euclidean space]] via example \ref{EuclideanNorm},
+regarded as a [[topological space]] via its [[metric topology]] (def. \ref{MetricTopology}).
+
+Then for a [[topological subspace]] $S \subset \mathbb{R}^n$ the following are equivalent:
+
+1. $S$ is  [[compact topological space|compact]] according to def. \ref{CompactTopologicalSpace},
+
+1. $S$ is [[closed subset|closed]] (def. \ref{ClosedSubset}) and [[bounded subset|bounded]] (def. \ref{MetricSpaceBoundedSubset}).
+
+=--
+
 
 In general [[topological spaces]], the generalized analogue of the [[Heine-Borel theorem]] is the following:
-
 
 +-- {: .num_prop}
 ###### Proposition
 **([[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]])**
 
-Let $(X,\tau)$ be a [[compact topological space|compact]] [[Hausdorff topological space]] 
+Let $(X,\tau)$ be a [[compact topological space|compact]] [[Hausdorff topological space]]
 (def. \ref{HausdorffTopologicalSpace}, def. \ref{CompactTopologicalSpace}) and let $Y \subset X$
 be a [[topological subspace]]. Then the following are equivalent:
 
@@ -3098,13 +3191,19 @@ be a [[topological subspace]]. Then the following are equivalent:
 
 =--
 
-We **prove** this in two parts, as lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact} and lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}:
++-- {: .proof}
+###### Proof
+
+By  lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact} and lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}.
+
+=--
+
 
 +-- {: .num_lemma #ClosedSubsetsOfCompactSpacesAreCompact}
 ###### Lemma
 **([[closed subsets of compact spaces are compact]])**
 
-Let $(X,\tau)$ be a [[compact topological space]] (def. \ref{CompactTopologicalSpace}), and let $Y \subset X$ be a 
+Let $(X,\tau)$ be a [[compact topological space]] (def. \ref{CompactTopologicalSpace}), and let $Y \subset X$ be a
 [[closed subspace|closed]] [[topological subspace]]. Then also $Y$ is [[compact topological space|compact]].
 
 =--
@@ -3114,7 +3213,7 @@ Let $(X,\tau)$ be a [[compact topological space]] (def. \ref{CompactTopologicalS
 
 Let $\{V_i \subset Y\}_{i \in I}$ be an [[open cover]] of $Y$. We need to show that this has a finite sub-cover.
 
-By definition of the [[topological subspace|subspace topology]], there exist open subsets $U_i$ of $X$ with 
+By definition of the [[topological subspace|subspace topology]], there exist open subsets $U_i$ of $X$ with
 
 $$
   V_i = U_i \cap Y
@@ -3128,13 +3227,13 @@ $$
 $$
 
 is an [[open cover]] of $X$. Now by the assumption that $X$ is compact, this latter cover has a finite subcover,
-hence there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that 
+hence there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
 
 $$
   \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in J \subset I}
 $$
 
-is still an oopen cover of $X$, hence in particular intersects to a finite open cover of $Y$. 
+is still an oopen cover of $X$, hence in particular intersects to a finite open cover of $Y$.
 But since $Y \cap ( X \backsalsh Y ) = \empty$, it follows that indeed
 
 $$
@@ -3142,7 +3241,6 @@ $$
 $$
 
 is a cover of $Y$, and in indeed a finite subcover of the original one.
-
 
 =--
 
@@ -3187,6 +3285,85 @@ is still open, and by construction it is disjoint from all $U_y$ for $y \in S$, 
 
 
 =--
+
+
++-- {: .num_prop #MapsFromCompactSpacesToHausdorffSpacesAreClosed}
+###### Proposition
+**([[maps from compact spaces to Hausdorff spaces are closed and proper]])**
+
+Let $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ be a [[continuous function]] between [[topological spaces]] such that
+
+1. $(X,\tau_X)$ is a [[compact topological space]];
+
+1. $(Y,\tau_Y)$ is a [[Hausdorff topological space]].
+
+Then $f$ is
+
+1. a [[closed map]] (def. \ref{OpenMap});
+
+1. a [[proper map]] (def. \ref{ProperContinuous}).)
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first statement, we need to show that if $C \subset X$ is a [[closed subset]] of $X$, then also $f(C) \subset Y$ is a closed subset of $Y$.
+
+Now
+
+1. since [[closed subsets of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}) it follows that $C \subset C$ is also compact;
+
+1. since [[continuous images of compact spaces are compact]] (cor. \ref{ContinuousImageOfACompactSpaceIsCompact}) it then follows that $f(C) \subset Y$ is compact;
+
+1. since [[compact subspaces of Hausdorff spaces are closed]] (lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}) it finally follow that $f(C)$ is also closed in $Y$.
+
+For the second statement we need to show that if $C \subset Y$ is a [[compact topological space|compact subset]], then also its [[pre-image]] $f^{-1}(C)$ is compact.
+
+Now
+
+1. since [[compact subspaces of Hausdorff spaces are closed]] (lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}) it follows that $C \subse Y$ is closed;
+
+1. since [[pre-images]] under continuous of closed subsets are closed (prop. \ref{ClosedSubsetContinuity}), also $f^{-1}(C) \subset X$ is closed;
+
+1. since [[closed subsets of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), it follows that $f^{-1}(C)$ is compact.
+
+=--
+
+
++-- {: .num_cor #ContinuousBijectionsFromCompactSpacesToHausdorffSpacesAreHomeomorphisms}
+###### Corollary ######
+**([[continuous bijections from compact spaces to Hausdorff spaces are homeomorphisms]])**
+
+Let $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ be a [[continuous function]] between [[topological spaces]] such that
+
+1. $(X,\tau_X)$ is a [[compact topological space]];
+
+1. $(Y,\tau_Y)$ is a [[Hausdorff topological space]].
+
+1. $f \;\colon\; X \longrightarrow Y$ is a [[bijection]] of [[sets]].
+
+Then $f$ is a [[homeomorphism]], i. e. its [[inverse function]] $Y \to X$ is also a [[continuous function]].
+
+In particular then both $(X,\tau_X)$ and $(Y, \tau_Y)$ are [[compact Hausdorff spaces]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Write $g \colon Y \to X$ for the [[inverse function]] of $f$.
+
+We need to show that $g$ is continuous, hence that for $U \subset X$ an [[open subset]], then also its [[pre-image]] $g^{-1}(U) \subset Y$ is open in $Y$.
+By prop. \ref{ClosedSubsetContinuity} this is equivalent to the statement that for $ \subset X$ a [[closed subset]] then the [[pre-image]] $g^{-1}(C) \subset Y$ is also closed in $Y$.
+
+But since $g$ is the [[inverse function]] to $f$, its [[pre-images]] are the [[images]] of $f$. Hence the last statement above equivalently says that $f$ sends closed subsets to closed subsets. This is true by prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}.
+
+=--
+
+
+
+
 
 
 
