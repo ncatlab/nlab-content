@@ -86,7 +86,7 @@ Notably [[finite topological spaces]] are either [[discrete topological space|di
 [[metric spaces]] (example \ref{FiniteT1SpacesAreDiscrete} below), they play a role in [[categorical logic]]. Also in [[geometry]] exotic topological spaces frequently arise when  forming non-free [[quotients]].
 In order to gauge just how many of such "exotic" examples of topological  spaces beyond locally [[metric spaces]] one wishes
 to admit in the theory,
-extra "[[separation axioms]]" are imposed on topological spaces (see [below](#SeparationAxiom)), and the flavour of topology as a field
+extra "[[separation axioms]]" are imposed on topological spaces (see [below](#SeparationAxioms)), and the flavour of topology as a field
 depends on this choice.
 
 Among the separation axioms, the _[[Hausdorff topological space|Hausdorff space]]_ axiom is most popular
@@ -997,10 +997,20 @@ _[Universal constructions](#UniversalConstructions)_
 
 
 #### Closed subsets
+ {#ClosedSubsets}
+ 
+The [[complements]] of [[open subsets]] in a [[topological space]] are called _[[closed subsets]]_
+(def. \ref{ClosedSubset} below).
+This simple definition indeed captures the concept of closure in the [[analysis|analytic]] 
+sense of [[convergence]] of [[sequences]] (prop. \ref{ConvergenceInClosedSubspace} below). Of particular interest for the theory of topological spaces in the discussion of [[separation axioms]] [below](#SeparationAxioms) are those closed subsets which are
+"[[irreducible closed subset|irreducible]]" (def. \ref{ClosedIrreducible} below). These happen to be equivalently the
+"[[frame]] homomorphisms" (def. \ref{HomomorphismOfFramesOfOpens}) to the [[frame of opens]] of the point
+(prop. \ref{FrameHomomorphismsToPointAreIrrClSub} below).
+
 
 +-- {: .num_defn #ClosedSubset}
 ###### Definition
-**(closed subsets)**
+**([[closed subsets]])**
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/ClosedAndOpenSubsets.png" width="300">
@@ -1028,6 +1038,7 @@ Given any subset $S \subset X$, then is _[[topological closure]]_ $Cl(X)$ is the
 
 +-- {: .num_prop #ConvergenceInClosedSubspace}
 ###### Proposition
+**(convergence in closed subspaces)**
 
 Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}), regarded as a [[topological space]] via example \ref{MetricTopology},
 and let $V \subset X$ be a [[subset]]. Then the following are equivalent:
@@ -1272,6 +1283,7 @@ the [[point]] topological space $\ast = (\{1\}, \tau_\ast = \left\{\emptyset, \{
 
 +-- {: .num_prop #FrameHomomorphismsToPointAreIrrClSub}
 ###### Proposition
+**(irreducible closed subsets are equivalently frame homomorphisms to frame of opens of the point)**
 
 For $(X,\tau)$ a [[topological space]], then there is a [[bijection]] between
 the [[irreducible closed subspaces]] of $(X,\tau)$ (def. \ref{ClosedIrreducible}) and the
@@ -1636,7 +1648,7 @@ which are open by the axioms on the topology $\tau_X$.
 =--
 
 
-#### Homeomorphism
+#### Homeomorphisms
  {#Homeomorphisms}
 
 
@@ -1893,7 +1905,7 @@ Generally the [[homeomorphism]] class of a [[closed manifold|closed]] [[orientab
 
 
 ### Separation axioms
- {#SeparationAxiom}
+ {#SeparationAxioms}
 
 The plain definition of _[[topological space]]_ happens to allow examples where distinct points or distinct subsets of the underlying set of a topological space appear as as more-or-less unseparable as seen by the topology on that set. In many applications one wants to exclude at least some of such degenerate examples from the discussion. The relevant conditions to be imposed on top of the plain [[axioms]] of a [[topological space]] are hence known as _[[separation axioms]]_.
 
@@ -2908,7 +2920,7 @@ sequences from def. \ref{MetricSpaceSequentiallyCompact}:
 
 Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}) and let 
 $(x_n)_{n \in \mathbb{N}}$ be a [[sequence]] of points $(x_n)$ in $X$ (def. \ref{Sequences}).
-We say that this sequence _[[convergnce|converges]]_ in $(X,\tau)$ to a point $x_\infty \in X$,
+We say that this sequence _[[convergence|converges]]_ in $(X,\tau)$ to a point $x_\infty \in X$,
 denoted
 
 $$
@@ -2923,7 +2935,7 @@ $$
     x_n \overset{n \to \infty}{\longrightarrow} x_\infty
   \right)
    \;\Leftrightarrow\;
-  \underset{U_{x_\infty} \in \tau_X}{\forall}
+  \underset{{U_{x_\infty} \in \tau_X} \atop {x_\infty \in U_{X_\infty}}}{\forall}
   \left(
     \underset{k \in \mathbb{N}}{\exists}
     \left(
@@ -2938,6 +2950,7 @@ $$
 
 +-- {: .num_defn }
 ###### Definition
+**([[sequentially compact topological space]])**
 
 Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}). It is called
 _[[sequentially compact topological space|sequentially compact]]_ if for every [[sequence]]
@@ -2951,6 +2964,7 @@ also another definition of compactness for topological spaces:
 
 +-- {: .num_defn #OpenCover}
 ###### Definition
+**([[open cover]])**
 
 An _[[open cover]]_ of a [[topological space]] $X$ (def. \ref{TopologicalSpace})
 is a [[set]] $\{U_i \subset X\}_{i \in I}$ of [[open subsets]] $U_i$ of $X$,
@@ -2965,6 +2979,7 @@ $$
 
 +-- {: .num_defn #CompactTopologicalSpace}
 ###### Definition
+**([[compact topological space]])**
 
 A [[Hausdorff topological space|Hausdorff]] [[topological space]] $X$ (def. \ref{TopologicalSpace}) is called a
  _[[compact topological space]]_ if every [[open cover]] $\{U_i \to X\}_{i \in I}$ (def. \ref{OpenCover}) has
@@ -2986,7 +3001,7 @@ precisely it its underlying set is [[finite set|finite]].
 ###### Proposition
 **([[Heine-Borel theorem]])**
 
-For $n \in \mathbb{N}$, regard $\mathbb{R}^n$ as the $n$-dimensional [[Euxclidean space]] via example \ref{EuclideanNorm},
+For $n \in \mathbb{N}$, regard $\mathbb{R}^n$ as the $n$-dimensional [[Euclidean space]] via example \ref{EuclideanNorm},
 regarded as a [[topological space]] via its [[metric topology]] (def. \ref{MetricTopology}).
 
 Then for a [[topological subspace]] $S \subset \mathbb{R}^n$ the following are equivalent: 
@@ -2998,14 +3013,46 @@ Then for a [[topological subspace]] $S \subset \mathbb{R}^n$ the following are e
 =--
 
 
-
 +-- {: .num_prop }
 ###### Proposition
+**([[compact subspaces of Hausdorff spaces are closed]])**
 
-[[compact subspaces of Hausdorff spaces are closed]].
+Let $(X,\tau)$ be a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace})
+and let $K \subset X$ be a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
+[[topological subspace]] (def. \ref{SubspaceTopology}). Then $K \subset X$ is also a [[closed subspace]] (def. \ref{ClosedSubset}).
 
 =--
 
++-- {: .proof}
+###### Proof
+
+Let $x \in X \backslash K$ be any point of $X$ not contained in $K$. We need to show that there exists an [[open neighbourhood]] of $x$ in $X$ which does not [[intersection|intersect]] $X$.
+
+By assumption that $X$ is Hausdorff, there exist for each $y \in K$ disjoint open neighbourhoods $y \subset U_y \subset X$ and $x \subset V_y \subset X$. Clearly the [[union]] of all the $U_y$ is an [[open cover]] of $K$
+
+$$
+  K \subset \underset{y \in K}{\cup} U_y
+  \,.
+$$
+
+Hence by assumption that $K$ is compact, there exists a [[finite set|finite]] [[subset]] $S \subset K$ of points in $K$ such that the $U_s$ for $s \in S$ still cover $K$:
+
+
+$$
+  K \subset \underset{y \in S \subset K}{\cup} U_y
+  \,.
+$$
+
+Since $S$ is finite, the intersection
+
+$$
+  U_x \coloneqq  \underset{y \in S \subset K}{\cap} V_y
+$$
+
+is still open, and by construction it is disjoint from all $U_y$ for $y \in S$, hence in particular disjoint from $K$, and it contains $x$. Hence $U_x$ is an open neighbourhood of $x$ as required.
+
+
+=--
 
 
 
