@@ -71,4 +71,4 @@ is a cover of $Y$, and in indeed a finite subcover of the original one.
 
 * [[map from compact space to Hausdorff space]]
 
-
+* [[continuous images of compact spaces are compact]]
