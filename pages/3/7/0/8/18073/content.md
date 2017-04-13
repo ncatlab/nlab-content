@@ -56,6 +56,8 @@ Conversely, generally the [[topological closure]] of every singleton is irreduci
 
 * [[a CW-complex is a Hausdorff space]]
 
+* [[continuous images of compact spaces are compact]]
+
 * [[map from compact space to Hausdorff space]]
 
 * [[closed subsets of compact spaces are compact]]
@@ -65,9 +67,12 @@ Conversely, generally the [[topological closure]] of every singleton is irreduci
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
 
+
 ## References
 
 * Topospaces, _[Hausdorff implies sober](https://topospaces.subwiki.org/wiki/Hausdorff_implies_sober)_
+
+[[!redirects Hausdorff spaces are sober]]
 
 [[!redirects every Hausdorff space is a sober space]]
 [[!redirects every Hausdorff topological space is a sober topological space]]
