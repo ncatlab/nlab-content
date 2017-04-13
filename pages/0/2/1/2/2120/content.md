@@ -193,9 +193,12 @@ Also, when a property is not always preserved it is useful to label those maps w
 ### Properties preserved
 
 1. By definition, the preimage of an open set is open.
-2. Similarly, the preimage of an [[closed set]] is closed.
-3. The [[image]] of a [[connected space|connected subset]] is again connected.
-4. The image of a [[compact space|compact subset]] is again compact.
+
+1. Similarly, the preimage of an [[closed set]] is closed.
+
+1. The [[image]] of a [[connected space|connected subset]] is again connected.
+
+1. The image of a [[compact space|compact subset]] is again compact (see at _[[continuous images of compact subsets are compact]]_)
 
 
 ### Special maps
