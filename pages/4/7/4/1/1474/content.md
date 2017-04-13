@@ -301,7 +301,7 @@ A compact Hausdorff [[locale]] (or space) is necessarily [[regular locale|regula
 Using [[classical logic]] (but not in [[constructive logic]]) every Hausdorff space is a [[sober topological space]]: _[[Hausdorff implies sober]]_.  
 
 
-### Compact subspaces
+### Relation to compact spaces
 
 +-- {: .num_prop }
 ###### Proposition
@@ -310,7 +310,12 @@ Using [[classical logic]] (but not in [[constructive logic]]) every Hausdorff sp
 
 =--
 
++-- {: .num_prop }
+###### Proposition
 
+[[maps from compact spaces to Hausdorff spaces are closed and proper]]
+
+=--
 
 ## Related notions
 
