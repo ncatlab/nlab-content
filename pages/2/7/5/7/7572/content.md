@@ -70,6 +70,10 @@ In [[constructive mathematics]], one sees several definitions of 'compact', whic
 In [[locale theory]] and other approaches to [[pointless topology]], the open-cover definition of 'compact' is clearly correct, and the failure of CTB spaces to be compact (constructively) may be seen as a consequence of working with points.  Already in Bishop\'s weak system of constructivism, every CTB metric space $X$ gives rise to a compact locale, which classically (assuming [[excluded middle]] and [[dependent choice]]) is the [[locale of open subsets]] of $X$ but constructively requires a more nuanced construction; see [Vickers](#CTBlocale).
 
 
+## Related concepts
+
+* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
+
 ## References
 
 [According to Wikipedia](https://en.wikipedia.org/wiki/Heine%E2%80%93Borel_theorem#History_and_motivation), the theorem was first proved by [[Pierre Cousin]] in 1895.  It is named after [[Eduard Heine]] (who used it but did not prove it) and [[Émile Borel]] (who proved a limited version of it), an instance of [[Baez's law]].
