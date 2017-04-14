@@ -118,7 +118,7 @@ By the [[Brown representability theorem]] every [[spectrum]] $A$ induces a [[gen
 For $X$ a [[topological space]] and $A$ a [[spectrum]], the generalized homology of spectrum of $X$ with coefficients in $E$ is 
 
 $$
-  X \smash A := \Sigma^\infty(X)\smash A
+  X \wedge A := \Sigma^\infty(X)\wedge A
   \,,
 $$
 
