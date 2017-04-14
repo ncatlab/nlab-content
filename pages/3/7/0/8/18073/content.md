@@ -54,6 +54,8 @@ Conversely, generally the [[topological closure]] of every singleton is irreduci
 
 * [[schemes are sober]]
 
+* [[compact Hausdorff spaces are normal]]
+
 * [[a CW-complex is a Hausdorff space]]
 
 * [[continuous images of compact spaces are compact]]
