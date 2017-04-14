@@ -1,16 +1,17 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -120,7 +121,7 @@ for the [[point]], regarded, uniquely, as a topological space.
 ###### Proposition
 
 For $(X,\tau)$ a [[topological space]], then there is a [[bijection]] between
-the [[irreducible closed subspaces]] of $(X,\tau)$  and the
+the [[irreducible closed subspaces]] of $(X,\tau)$ and the
 [[frame]] [[homomorphisms]] from $\tau_X$ to $\tau_\ast$, given by
 
 $$
@@ -224,7 +225,12 @@ This does preserve
 Hence this is indeed a frame homomorphism $\tau_X \to \tau_\ast$.
 
 Clearly these two operations are inverse to each other.
+=--
 
++-- {: .num_remark #locales}
+###### Remark
+
+Note that frame homomorphisms from $\tau_X$ to $\tau_\ast$ are the same thing as [[continuous maps]] from the [[locale]] $\mathcal{O}_\ast$ to the locale $\mathcal{O}_X$ (that is, in the other direction, regarding the frames of opens as instead being locales).  Thus, the irreducible closed subspaces correspond to what *should* be the points of the space, if we regard it as much as possible as a locale, that is the [[points of the locale]] $\mathcal{O}_X$.  At a more elementary level, these are also the same thing as the [[completely prime filters]] in the frame $\tau_X$.
 =--
 
 
