@@ -1,4 +1,6 @@
 
+$\supset$
+
 [[ClosedIntervalQuotientedToCircle.pdf:file]]
 
 <img src="http://ncatlab.org/nlab/files/ClosedIntervalQuotientedToCircle.pdf">
