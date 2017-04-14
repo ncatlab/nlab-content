@@ -39,7 +39,7 @@ It is then a theorem that this $\lim$ generates a [[convergence space|convergenc
 Every compact Hausdorff space is [[regular space|regular]] and [[sober space|sober]] and so defines a compact regular locale.  Again, the [[axiom of choice]] gives us a converse: every compact regular locale is spatial and so comes from a compactum.
 >Probably this is also equivalent to the ultrafilter principle, but I need to check.
 
-Note that every compact Hausdorff space (topological or localic) is not only regular but also [[normal space|normal]].
+Note that every compact Hausdorff space (topological or localic) is not only regular but also [[normal space|normal]]. See _[[compact Hausdorff spaces are normal]]_.
 
 
 ## Compacta as algebras {#algebras} 
