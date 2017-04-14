@@ -532,7 +532,7 @@ So let $p_1 \neq p_2 \in S X$ be two distinct points. This means that there exis
 +-- {: .num_prop}
 ###### Proposition
 
-For $(X, \tau_X)$ any [[topological space]], for $(Y,\tau_Y^{sob})$ a sober topological space, and for $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ a [[continuous function]], then it factors uniquely through the soberification $s_X \colon (X, \tau_X) \longrigtharrow (S X, \tau_{S X})$ from def. \ref{SoberificationConstruction}, lemma \ref{SoberificationConstructionWellDefined}
+For $(X, \tau_X)$ any [[topological space]], for $(Y,\tau_Y^{sob})$ a sober topological space, and for $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ a [[continuous function]], then it factors uniquely through the soberification $s_X \colon (X, \tau_X) \longrightarrow(S X, \tau_{S X})$ from def. \ref{SoberificationConstruction}, lemma \ref{SoberificationConstructionWellDefined}
 
 $$
   \array{
@@ -637,7 +637,7 @@ The following non-example shows that sobriety is not a hereditary separation pro
 
 * Sober spaces in the [$\pi$-base](http://topology.jdabbs.com/properties/73).
 
-[[!redirects sober]]
+[[!redirects sober]]l
 [[!redirects sober topological space]]
 [[!redirects sober topological spaces]]
 [[!redirects sober topology]]
