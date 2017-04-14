@@ -192,6 +192,9 @@ Hence:
 
 [[sequentially compact metric spaces are equivalently compact metric spaces]]
 
+[[countably compact metric spaces are equivalently compact metric spaces]]
+
+
 =--
 
 +-- {: .num_prop}
@@ -231,7 +234,9 @@ For topological spaces, this is either a definition of "proper map" (closed with
 
 * [[Lebesgue number lemma]]
 
-* [[sequentially compact space]]
+* [[sequentially compact topological space]]
+
+* [[countably compact topological space]]
 
 * [[paracompact topological space]], [[strongly compact topological space]]
 
