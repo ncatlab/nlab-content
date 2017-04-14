@@ -42,6 +42,8 @@ When the abstract set $A$ is fixed, a subset $B$ of $A$ may be thought of as a _
 
 * [[cofinite subset]]
 
+* [[saturated subset]]
+
 [[!redirects subset]]
 [[!redirects subsets]]
 
