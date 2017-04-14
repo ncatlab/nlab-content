@@ -1,4 +1,9 @@
 
+[[ClosedIntervalQuotientedToCircle.pdf:file]]
+
+<img src="http://ncatlab.org/nlab/files/ClosedIntervalQuotientedToCircle.pdf">
+
+
 * **(T0**) $\underset{x \neq y}{\forall} \left(
     \left( \underset{U_y}{\exists} \left( \{x\} \cap U_y = \emptyset \right) \right) \vee \left( \underset{U_x}{\exists} \left( U_x \cap \{y\} = \emptyset  \right) \right) \right)$
 
