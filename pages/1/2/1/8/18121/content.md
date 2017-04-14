@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -9,10 +9,10 @@ The following terminology is used in [[topology]]:
 
 +-- {: .num_defn #SubsetSaturated}
 ###### Definition
-**([[saturated subset]])**
+**(saturated subset)**
 
 Let $f \;\colon\; X \longrightarrow Y$ be a [[function]] of [[sets]]. 
-Then a [[subset]] $S \subset X$ is called an _$f$-[[saturated subset]]_ (or just _separated subset_, if $f$ is understood)
+Then a [[subset]] $S \subset X$ is called an _$f$-[[saturated subset]]_ (or just _saturated subset_, if $f$ is understood)
 if $S$ is the [[pre-image]] of its [[image]]:
 
 $$
@@ -110,8 +110,5 @@ that $U \supset C$.
 =--
 
 
-
-
-
-
+[[!redirects saturated subset]]
 [[!redirects saturated subsets]]
