@@ -60,9 +60,9 @@ closed and $f$-saturated subsets to closed subsets.
 
 Let
 
-1. $f \;\colon\; (X, \tau_X) \longrightarrow (Y, \tau_Y)$ be a [[closed map]] (def. \ref{OpenMap}).
+1. $f \;\colon\; (X, \tau_X) \longrightarrow (Y, \tau_Y)$ be a [[closed map]].
 
-1. $C \subset X$ be a [[closed subset]] (def. \ref{ClosedSubset}) which is $f$-[[saturated subset|saturatd]] (def. \ref{DetectViaSaturatedSubsetsContinuousQuotientMap});
+1. $C \subset X$ be a [[closed subset]] (def. \ref{ClosedSubset}) which is $f$-[[saturated subset|saturatd]];
 
 1. $U \supset C$ an [[open subset]] containing $C$
 
@@ -91,13 +91,12 @@ has the desired properties. To see this, observe first that
 
 1. hence the image $f(X\backslash U)$ is closed, since $f$ is assumed to be a closed map;
 
-1. hence the pre-image $f^{-1}\left( f\left(  X \backslash U \right)\right)$ is closed, since $f$ is continuous
-   (using prop. \ref{ClosedSubsetContinuity}), therefore its complement $V$ is indeed open;
+1. hence the pre-image $f^{-1}\left( f\left(  X \backslash U \right)\right)$ is closed, since $f$ is continuous, therefore its complement $V$ is indeed open;
 
 1. this pre-image $f^{-1}\left( f\left(  X \backslash U \right) \right)$ is saturated, as all pre-images clearly are, 
    and hence also its complement $V$ is saturated, by lemma \ref{ComplementOfSaturatedSubsetIsSaturated}. 
 
-Therefore it only remains to see that $U \supset V \supset C$.
+Therefore it now only remains to see that $U \supset V \supset C$.
 
 The inclusion $U \supset V$ means equivalently that $f^{-1}\left( f\left(  X \backslash U \right)\right) \supset X \backslash U$,
 which is clearly the case. 
