@@ -1,22 +1,22 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea 
 
-What is called _the line with two origins_ is the [[topological space]] which results by "gluing" a copy of the real line identically to itself, except at the origin. This is a basic example of a [[non-Hausdorff topological space]] and of the fact that [[quotient topological spaces]] of [[Hausdorff topological spaces]] need not be Hausdorff themselves.
+What is called _the line with two origins_ is the [[topological space]] which results by "gluing" a copy of the real line identically to itself, except at the origin. This is a basic example of a [[non-Hausdorff topological space]] (even a non-Hausdorff [[smooth manifold]]) and of the fact that [[quotient topological spaces]] of [[Hausdorff topological spaces]] need not be Hausdorff themselves.
+
 
 ## Definition
 
@@ -108,12 +108,30 @@ $$
   \mathbb{R}
 $$
 
+However, it is [[T1]] and [[sober space|sober]].
+
+It is also a [[topological manifold]], even a [[smooth manifold]], except that one often requires such to be Hausdorff to rule out examples such as this.  In a similar vein, it is [[locally compact space|locally compact]] (and a [[compact space|compact]] version can be made by starting with $[{-1,1}]$ instead of $\mathbb{R}$), [[paracompact space|paracompact]], and so forth.
+
+
 ## Related concepts
 
 * [[long line]]
+
 
 ## References
 
 * Wikipedia, _[Line with two origins](https://topospaces.subwiki.org/wiki/Line_with_two_origins)_
 
+
+[[!redirects line with two origins]]
 [[!redirects lines with two origins]]
+[[!redirects lines with two origins each]]
+[[!redirects line with double origin]]
+[[!redirects lines with double origin]]
+[[!redirects lines with double origins]]
+[[!redirects line with doubled origin]]
+[[!redirects lines with doubled origin]]
+[[!redirects lines with doubled origins]]
+[[!redirects line with doubled point]]
+[[!redirects lines with doubled point]]
+[[!redirects lines with doubled points]]
