@@ -12,7 +12,7 @@ The following terminology is used in [[topology]]:
 **([[saturated subset]])**
 
 Let $f \;\colon\; X \longrightarrow Y$ be a [[function]] of [[sets]]. 
-Then a [[subset]] $S \subset S$ is called an _$f$-[[saturated subset]]_ (or just _separated subset_, if $f$ is understood)
+Then a [[subset]] $S \subset X$ is called an _$f$-[[saturated subset]]_ (or just _separated subset_, if $f$ is understood)
 if $S$ is the [[pre-image]] of its [[image]]:
 
 $$
