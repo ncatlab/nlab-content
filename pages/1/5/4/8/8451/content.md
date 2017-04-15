@@ -90,9 +90,17 @@ Of course, exchangeability may not represent the strength of one's prior beliefs
 
 * {#BBF} A. Bach, H. Blank, H. Francke, _Bose-Einstein statistics derived from the statistics of classical particles_, Lettere Al Nuovo Cimento Series 2, Volume 43, Issue 4, pp 195-198.
 
+Placing Bayesian inference in a category theoretic setting occurs in
+
+* [[Kirk Sturtz]] _Bayesian Inference using the Symmetric Monoidal Closed Category Structure_, ([ arXiv:1601.02593](https://arxiv.org/abs/1601.02593))
+
+* [[Jared Culbertson]], [[Kirk Sturtz]] _Bayesian machine learning via category theory_, ([arXiv:1312.1445](https://arxiv.org/abs/1312.1445))
+
 Discussion of applications in [[astronomy]] and [[cosmology]] includes
 
 * [[Jörg Rachen]] _Bayesian Classification of Astronomical Objects -- and what is behind it_ ([arXiv:1302.2429](http://arxiv.org/abs/1302.2429))
+
+
 
 
 [[!redirects Bayesian reasoning]]
