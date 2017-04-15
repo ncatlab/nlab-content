@@ -15,9 +15,11 @@
 
 ##Idea 
 
-Given two maps between homotopy types with a common codomain, $f: A \to X$ and $g: B \to X$, we denote by $A \ast_X B$ the [[pushout]] of their [[pullback]], $A \times_X B$. Then the **join** of $f$ and $g$, $f \ast g$ is the induced map from $A \ast_X B$ to $X$.
+Given two maps between homotopy types with a common codomain, $f: A \to X$ and $g: B \to X$, we denote by $A \ast_X B$ the [[pushout]] of their [[pullback]], $A \times_X B$. Then the **join** of $f$ and $g$, written $f \ast g$, is the induced map from $A \ast_X B$ to $X$.
 
-The join of two maps is the fiberwise join of their respective fibres. Hence, when $X \equiv 1$, this construction corresponds to the ordinary join of types.
+When $X \equiv \mathbf{1}$, the unit type, we write $A \ast_{\mathbf{1}} B$ as $A \ast B$, the join of the two types. 
+
+The join of two maps is the fiberwise join of their respective fibres. 
 
 The [[sequential colimit]] $f^{\ast \infty}$ of the join
 powers $f^{\ast n}$ is equivalent to the [[image]] inclusion of $f$. When $X \equiv 1$, the infinite join power $A^{\ast \infty}$ is the [[propositional truncation]] of $A$.
