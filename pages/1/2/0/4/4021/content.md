@@ -132,6 +132,10 @@ Lecture notes include
 
 For references related to [[Giry's monad]] and variants see there.
 
+For a setting of probability theory within category theory see
+
+* [[Kirk Sturtz]], _Categorical Probability Theory_ ([arXiv:1406.6030](https://arxiv.org/abs/1406.6030))
+
 For big picture in probability theory see answers to 
 
 * MathOverflow: [is-there-an-introduction-to-probability-theory-from-a-structuralist-categorical-p](http://mathoverflow.net/questions/20740/is-there-an-introduction-to-probability-theory-from-a-structuralist-categorical-p)
