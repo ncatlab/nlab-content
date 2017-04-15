@@ -637,7 +637,7 @@ In the case that $X_\bullet$ is the classifier of the [[codomain fibration]], th
 
 * [[higher inductive type]], [[initial algebra of a presentable ∞-monad]]
 
-
+* [[coinductive type]]
 
 ## References
  {#References}
