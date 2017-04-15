@@ -21,10 +21,20 @@ When $X \equiv \mathbf{1}$, the unit type, we write $A \ast_{\mathbf{1}} B$ as $
 
 The join of two maps is the fiberwise join of their respective fibres. 
 
-The [[sequential colimit]] $f^{\ast \infty}$ of the join
-powers $f^{\ast n}$ is equivalent to the [[image]] inclusion of $f$. When $X \equiv 1$, the infinite join power $A^{\ast \infty}$ is the [[propositional truncation]] of $A$.
+## Examples
+
+The [[sequential colimit]] $f \ast^{\infty}$ of the join
+powers $f \ast^{n}$ is equivalent to the [[image]] inclusion of $f$. 
+
+When $X \equiv \mathbf{1}$, the infinite join power $A \ast^{\infty}$ is the [[propositional truncation]] of $A$.
+
+When $pt: \mathbf{1} \to \mathbf{B} G$, the point in a delooped group, $pt \ast^{\infty}$ is the [[Milnor construction]].
 
 The join of two [[embeddings]] is an embedding, and an embedding is [[idempotent]] for the join construction. 
+
+The unique map of type $\mathbf{0} \to X$ is a unit for the join operation.
+
+
 
 ##Related concepts
 
