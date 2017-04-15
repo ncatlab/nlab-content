@@ -2271,41 +2271,79 @@ Clearly one may and does consider further variants of the
 separation axioms $T_0$, $T_1$ and $T_2$ from def. \ref{HausdorffTopologicalSpace}. 
 
 
-+-- {: .num_defn #NormalSubspace}
++-- {: .num_defn #NormalSpace}
 ###### Definition
 
-Let $(X,\tau)$ be a $T_1$-[[topological space]] (def. \ref{HausdorffTopologicalSpace}).
+Let $(X,\tau)$ be [[topological space]] (def. \ref{HausdorffTopologicalSpace}).
 
-Consider the following further conditions
+Consider the following conditions
 
-* **(T3)** For $x \in X$ a point and $C \subset X$ a [[closed subset]] (def. \ref{ClosedSubset}) not containing $x$,
+* **(T3)** $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $x \in X$ a point and $C \subset X$ a [[closed subset]] (def. \ref{ClosedSubset}) not containing $x$,
   then there exist disjoint [[open neighbourhoods]] $U_x \supset \{x\}$ and $U_C \supset C$.
 
-* **(T4)** For $C_1, C_2 \subset X$ disjoint [[closed subsets]] (def. \ref{ClosedSubset})
+* **(T4)** $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $C_1, C_2 \subset X$ disjoint [[closed subsets]] (def. \ref{ClosedSubset})
   then there exist disjoint [[open neighbourhoods]] $U_{C_i} \supset C_i$.
 
-If $(X,\tau)$ satisfies $T_3$ it is also called a _[[regular topological space]]_.
+If $(X,\tau)$ satisfies $T_3$ it is said to be a _$T_3$-space_ also called a _[[regular topological space]]_.
 
-If $(X,\tau)$ satisfies $T_4$ it is also called a _[[normal topological space]]_.
+If $(X,\tau)$ satisfies $T_4$ it is to be a _$T_4$-space_ also called a _[[normal topological space]]_.
 
 =--
+
+Observe that:
+
++-- {: .num_prop #ImplicationsAmongTheSeparationAxioms}
+###### Proposition
+
+The separation axioms imply each other as
+
+$$
+  T_4 \Rightarrow T_3 \Rightarrow T_2 \Rightarrow T_1 \Rightarrow T_0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The implications 
+
+$$
+  T_2 \rightarrow T_1 \Rightarrow T_0
+$$
+
+and
+
+$$
+  T_4 \Rightarrow T_3
+$$
+
+are immediate from the definitions. The remaining implication $T_3 \Rightarrow T_2$ 
+follows with prop. \ref{AllPointsClosedEquivalentToT1}.
+
+=--
+
+Hence instead of saying "$X$ is $T_1$ and ..." one could just as well phrase 
+the conditions $T_3$ and $T_4$ as "$X$ is $T_2$ and ...", which would render 
+the proof of prop. \ref{ImplicationsAmongTheSeparationAxioms} even more trivial.
 
 
 In summary:
 
-**Separation Axioms**
+**the main [[separation axiom|Separation Axioms]]**
 
 | number | name | statement | reformulation |
 |--------|------|-----------|---------------|
 | $T_0$  | Kolmogorov | given two distinct points, at least one of them has an open neighbourhood not containing the other point |  every irreducible closed subset is the closure of at most one point |
 | $T_1$  |      | given two distinct points, both have an open neighbourhood not containing the other point | all points are closed |
 | $T_2$  | [[Hausdorff topological space|Hausdorff]] | given two distinct points, they have disjoint open neighbourhoods | the diagonal is a closed map  |
-| $T_3$  | [[regular topological space|regular]] |  all points are closed and  given two closed subsets, at least one of them has an open neighbourhood disjoint from the other closed subset |  |
-| $T_4$  | [[normal topological space|normal]] | all points are closed and given two closed subsets, both of then have open neighbourhoods not intersecting the other closed subset |  |
+| $T_3$  | [[regular topological space|regular]] |  all points are closed and  given two disjoint closed subsets, at least one of them has an open neighbourhood disjoint from the other closed subset |  |
+| $T_4$  | [[normal topological space|normal]] | all points are closed and given two disjoint closed subsets, both of them have open neighbourhoods not intersecting the other closed subset |  |
 
 
 
-
+$\,$
 
 ### Hausdorff reflection
  {#HausdorffReflections}
@@ -3393,7 +3431,7 @@ be a [[topological subspace]]. Then the following are equivalent:
 +-- {: .proof}
 ###### Proof
 
-By  lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact} and lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}.
+By  lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact} and prop \ref{CompactSubspacesOfHausdorffSpacesAreClosed}.
 
 =--
 
@@ -3443,9 +3481,74 @@ is a cover of $Y$, and in indeed a finite subcover of the original one.
 
 =--
 
-
-+-- {: .num_lemma #CompactSubspacesOfHausdorffSpacesAreClosed}
++-- {: .num_lemma #SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}
 ###### Lemma
+**(separation by neighbourhoods of points from compact subspaces in Hausdorff spaces)**
+
+Let
+
+1. $(X,\tau)$ be a [[Hausdorff topological space]];
+
+1. $Y \subset X$ a [[compact topological space|compact]] [[subspace]].
+
+
+Then for every $x \in X \backslash Y$ there exists
+
+1. an [[open neighbourhood]] $U_x \supset \{x\}$;
+
+1. an open neighbourhood $U_Y \supset Y$
+
+such that
+
+* they are still disjoint: $U_x \cap U_Y = \emptyset$.
+
+=--
+
++-- {: .proof}
+###### Proof
+of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}
+
+By the assumption that $(X,\tau)$ is Hausdorff, we find for every point $y \in Y$ disjoint open neighbourhoods $U_{x,y} \supset \{x\}$ and $U_y \supset \{y\}$. By the nature of the [[subspace topology]] of $Y$, the restriction of all the $U_y$ to $Y$ is an [[open cover]] of $Y$:
+
+$$
+  \left\{
+    (U_y \cap Y) \subset Y
+  \right\}_{y \in Y}
+  \,.
+$$
+
+Now by the assumption that $Y$ is compact, there exists a finite subcover, hence a [[finite set]] $S \subset Y$ such that
+
+$$
+  \left\{
+    (U_y \cap Y) \subset Y
+  \right\}_{y \in S \subset Y}
+$$
+
+is still a cover.
+
+But the finite intersection
+
+$$
+  U_x \coloneqq \underset{s \in S \subset Y}{\cap} U_{x,s}
+$$
+
+of the corresponding open neighbourhoods of $x$ is still open, and by construction it is disjoint from all the $U_{s}$, hence in particular from their union
+
+$$
+  U_Y \coloneqq \underset{s \in S \subset Y}{\cup}  U_s
+  \,.
+$$
+
+
+Therefore $U_x$ and $U_Y$ are two open subsets as required.
+
+=--
+
+In the same way we prove:
+
++-- {: .num_prop #CompactSubspacesOfHausdorffSpacesAreClosed}
+###### Proposition
 **([[compact subspaces of Hausdorff spaces are closed]])**
 
 Let $(X,\tau)$ be a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace})
@@ -3515,13 +3618,13 @@ Now
 
 1. since [[continuous images of compact spaces are compact]] (cor. \ref{ContinuousImageOfACompactSpaceIsCompact}) it then follows that $f(C) \subset Y$ is compact;
 
-1. since [[compact subspaces of Hausdorff spaces are closed]] (lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}) it finally follow that $f(C)$ is also closed in $Y$.
+1. since [[compact subspaces of Hausdorff spaces are closed]] (prop. \ref{CompactSubspacesOfHausdorffSpacesAreClosed}) it finally follow that $f(C)$ is also closed in $Y$.
 
 For the second statement we need to show that if $C \subset Y$ is a [[compact topological space|compact subset]], then also its [[pre-image]] $f^{-1}(C)$ is compact.
 
 Now
 
-1. since [[compact subspaces of Hausdorff spaces are closed]] (lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}) it follows that $C \subse Y$ is closed;
+1. since [[compact subspaces of Hausdorff spaces are closed]] (prop. \ref{CompactSubspacesOfHausdorffSpacesAreClosed}) it follows that $C \subse Y$ is closed;
 
 1. since [[pre-images]] under continuous of closed subsets are closed (prop. \ref{ClosedSubsetContinuity}), also $f^{-1}(C) \subset X$ is closed;
 
@@ -3559,6 +3662,40 @@ By prop. \ref{ClosedSubsetContinuity} this is equivalent to the statement that f
 But since $g$ is the [[inverse function]] to $f$, its [[pre-images]] are the [[images]] of $f$. Hence the last statement above equivalently says that $f$ sends closed subsets to closed subsets. This is true by prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}.
 
 =--
+
+
++-- {: .num_defn #CompactHausdorffSpacesAreNormal}
+###### Proposition
+**([[compact Hausdorff spaces are normal]])**
+
+Every [[compact Hausdorff topological space]] is a [[normal topological space]] (def. \ref{NormalSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First we claim that $(X,\tau)$ is [[regular topological space|regular]]. To show this, we need to find for each point $x \in X$ and each disjoint closed subset $Y \in X$ dijoint open neighbourhoods $U_x \supset \{x\}$ and $U_Y \supset Y$. But since [[closed subspaces of compact spaces are compact]], the subset $Y$ is in fact compact, and hence this is in fact the statement of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}.
+
+Next to show that $(X,\tau)$ is indeed normal, we apply the idea of the proof of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces} once more:
+
+Let $Y_1, Y_2 \subset X$ be two disjoint closed subspaces. By the previous statement then for every point $y_1 \in Y$ we find disjoint open neighbourhoods $U_{y_1} \subset \{y_1\}$ and $U_{Y_2,y_1} \supset Y_2$. The union of the $U_{y_1}$ is a cover of $Y_1$, and by compactness of $Y_1$ there is a finite subset $S \subset Y$ such that
+
+$$
+  U_{Y_1} \coloneqq \underset{s \in S \subset Y_1}{\cup} U_{y_1}
+$$
+
+is an open neighbourhood of $Y_1$ and
+
+$$
+  U_{Y_2} \coloneqq \underset{s \in S \subset Y}{\cap} U_{Y_2,s}
+$$
+
+is an open neighbourhood of $Y_2$, and both are disjoint.
+
+=--
+
+
 
 
 
@@ -3663,7 +3800,7 @@ Observe that these are [[closed subsets]], because in the Hausdorff space $(Y, \
 by prop. \ref{AllPointsClosedEquivalentToT1}, and since pre-images under continuous functions preserves closed subsets by
 prop. \ref{ClosedSubsetContinuity}.
 
-Now since [[compact Hausdorff spaces are normal]]  it follows (def. \ref{NormalSubspace}) that we may find disjoint open subset $U_1, U_2 \in \tau_X$
+Now since [[compact Hausdorff spaces are normal]]  it follows (by def. \ref{NormalSpace}) that we may find disjoint open subset $U_1, U_2 \in \tau_X$
 such that
 
 $$
