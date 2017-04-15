@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+##Idea 
+
+Given two maps between homotopy types with a common codomain, $f: A \to X$ and $g: B \to X$, we denote by $A \ast_X B$ the [[pushout]] of their [[pullback]], $A \times_X B$. Then the **join** of $f$ and $g$, $f \ast g$ is the induced map from $A \ast_X B$ to $X$.
+
+The join of two maps is the fiberwise join of their respective fibres. Hence, when $X \equiv 1$, this construction corresponds to the ordinary join of types.
+
+The [[sequential colimit]] $f^{\ast \infty}$ of the join
+powers $f^{\ast n}$ is equivalent to the [[image]] inclusion of $f$. When $X \equiv 1$, the infinite join power $A^{\ast \infty}$ is the [[propositional truncation]] of $A$.
+
+The join of two [[embeddings]] is an embedding, and an embedding is [[idempotent]] for the join construction. 
+
+##Related concepts
+
+* [[join of simplicial sets]]
+
+##References
+
+* {#Rijke17} [[Egbert Rijke]], _The join construction_ ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
