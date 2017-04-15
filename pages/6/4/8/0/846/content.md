@@ -655,13 +655,13 @@ $$
   C \star D(x,y) = 
   \left\{
     \array{
-       C(x,y) & for x,y \in C
+       C(x,y) & for\; x,y \in C
        \\
-       D(x,y) & for x,y \in D
+       D(x,y) & for\; x,y \in D
        \\
-       \emptyset & for x \in D, y \in C
+       \emptyset & for \;x \in D, y \in C
        \\
-       * & for x \in C , y \in D
+       * & for\; x \in C , y \in D
    }
   \right.
 $$
@@ -704,6 +704,8 @@ This is [[Higher Topos Theory|HTT, corollary 4.2.1.4]].
 * [[join of topological spaces]]
 
 * [[join of categories]], [[join of quasi-categories]]
+
+* [[join of maps]]
 
 
 ## References
