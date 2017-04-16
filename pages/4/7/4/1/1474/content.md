@@ -226,16 +226,16 @@ That this is well defined and continuous follows directly from the definitions.
 What remains to be seen is that $H X$ is indeed a Hausdorff space. Hence assume that $[x] \neq [y] \in H X$.
 By construction of $H X$ this means that there exists a Hausdorff space $Y$ and a surjective continuous function
 $f \colon X \longrightarrow Y$ such that $f(x) \neq f(y) \in Y$. Accordingly, since $Y$ is Hausdorff,
-there exist disjoint open neighbourhoods $U_x, U_Y \in \tau_Y$. Moreover, by the previous statement there
+there exist disjoint open neighbourhoods $U_x, U_y \in \tau_Y$. Moreover, by the previous statement there
 exists a continuous function $\tilde f \colon H X \to Y$ with $\tilde f([x]) = f(x)$ and $\tilde f([y]) = f(y)$.
 Since, by the nature of continuous functions,
-the pre-images $\tilde f^{-1}( U_x ), \tilde f^{-1}([y]) \subset H X$ are still disjoint and open,
+the pre-images $\tilde f^{-1}( U_x ), \tilde f^{-1}(U_y) \subset H X$ are still disjoint and open,
 we have found disjoint neighbourhoods of $[x]$ and $[y]$. Hence $H X$ is Hausdorff.
 
 =--
 
 
-The following is a more direct way of actually constucting the Hausdorff reflection:
+The following is a more direct way of actually constructing the Hausdorff reflection:
 
 +-- {: .num_prop #HausdorffReflectionViaTransitiveClosureOfDiagonal}
 ###### Proposition
