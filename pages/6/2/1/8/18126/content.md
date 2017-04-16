@@ -937,18 +937,36 @@ of [[limits]] in the [[category of topological spaces]].
 
 +-- {: .num_example #SubspaceTopology}
 ###### Example
-**(subspace topology)**
+**([[topological subspace|subspace topology]])**
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/OpenSubsetsOfSquareInsidePlane.png" width="200">
 </div>
 
-Let $(X, \tau_X)$ be a [[topological space]], and let $X_0 \hookrightarrow X$ be a [[subset]] of the underlying set. Then the corresponding _[[topological subspace]]_ has $X_0$ as its underlying set, and its open subsets are those subsets of $X_0$ which arise as restrictions of open subsets of $X$.
+Let $(X, \tau_X)$ be a [[topological space]], and let $S \subset X$ be a [[subset]] of the underlying set. Then the corresponding _[[topological subspace]]_ has $S$ as its underlying set, and its open subsets are those subsets of $S$ which arise as restrictions of open subsets of $X$.
 
-(Also called the _[[initial topology]]_ of the inclusion map.)
+$$
+  \left(
+    U_S \subset S\,\,\text{open}
+  \right)
+    \,\Leftrightarrow\,
+  \left(
+     \underset{U_X \in \tau_X}{\exists} U_S = U_X \cap S
+  \right)
+  \,.
+$$
+
+(This is also called the _[[initial topology]]_ of the inclusion map.)
+
+Notice that this makes the inclusion function
+
+$$
+  (S, \tau_S) \hookrightarrow (X, \tau_X)
+$$
+
+a [[continuous function]].
 
 The picture on the right shows two open subsets inside the [[square]], regarded as a [[topological subspace]] of the [[plane]] $\mathbb{R}^2$:
-
 
 > graphics grabbed from [Munkres 75](#Munkres75)
 
@@ -1053,9 +1071,48 @@ precisely if $f$ sends open and $f$-[[saturated subsets]] in $X$ (def. \ref{Subs
 By lemma \ref{ComplementOfSaturatedSubsetIsSaturated} this is the case precisely if it sends
 closed and $f$-saturated subsets to closed subsets.
 
+=--
 
++-- {: .num_example #ImageFactorization}
+###### Example
+**([[image factorization]])**
+
+Let $f \;\colon\; (X, \tau_X) \longrightarrow (Y,\tau_Y)$ be a [[continuous function]]. 
+
+Write $f(X) \subset Y$ for the [[image]] of $f$
+on underlying sets, and consider the resulting factorization of $f$ through $f(X)$ on underlying sets:
+
+$$
+  f 
+  \;\colon\;
+  X 
+    \overset{\text{surjective}}{\longrightarrow}
+  f(C)
+    \overset{\text{injective}}{\longrightarrow}
+  Y
+  \,.
+$$
+
+There are the following two ways to topologize the [[image]] $f(X)$ such as to make this a sequence of
+two continuous functions:
+
+1. By example \ref{SubspaceTopology} $f(X)$ inherits a [[topological subspace|subspace topology]] from $(Y,\tau_Y)$
+which makes the inclusion $f(X) \longrightarrow Y$ a [[continuous function]].
+
+   Observe that this also makes $X \to f(X)$ a continuous function: An open subset of $f(X)$
+   in this case is of the form $U_Y \cap f(X)$ for $U_Y \in \tau_Y$, and $f^{-1}( U_Y \cap f(X) ) = f^{-1}(U_Y)$,
+   which is open in $X$ since $f$ is continuous.
+   
+1. By example \ref{QuotientTopologicalSpace} $f(X)$ inherits a [[quotient topological space|quotient topology]] from $(X,\tau_X)$
+   which makes the surjection $X \longrightarrow Y$ a [[continuous function]]. 
+   
+   Observe that this also makes $f(X) \longrightarrow Y$ a continuous function: The preimage under this map of an
+   open subset $U_Y \in \tau_Y$ is the restriction $U_Y \cap f(X)$, and the pre-image of that under $X \to f(X)$ is
+   $f^{-1}(U_Y)$, as before, which is open since $f$ is continuous, and therefore $U_Y \cap f(X)$ is open in the 
+   quotient topology.
 
 =--
+
 
 $\,$
 
@@ -2161,11 +2218,23 @@ the following are equivalent:
 
 =--
 
-+-- {: .num_example}
-###### Example
++-- {: .num_prop #TiSubspaces}
+###### Proposition
 
 Let $(X,\tau)$ be a [[topological space]] satisfying the $T_i$ [[separation axiom]] according to
-def. \ref{HausdorffTopologicalSpace}. Then also every [[topological subspace]] of $(X,\tau)$ (def. \ref{SubspaceTopology}) satisfies $T_i$.
+def. \ref{HausdorffTopologicalSpace}. Then also every [[topological subspace]] $S \subset X$ (def. \ref{SubspaceTopology}) satisfies $T_i$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $x, y \in S \subset X$ be two distinct points. We need to construct various open neighbourhoods of these
+in $S$
+not containing the other point and possibly (for $T_2$) not intersecting each other.
+Now by assumptions that the ambient space $(X,\tau)$ satisfies the given axiom, there exist
+open neighbourhoods with the analogous properties in $X$. By the nature of the subspace topology, 
+their restriction to $S$ are still open, and clearly still satisfy these properties.
 
 =--
 
@@ -2313,7 +2382,7 @@ $$
 The implications
 
 $$
-  T_2 \rightarrow T_1 \Rightarrow T_0
+  T_2 \Rightarrow T_1 \Rightarrow T_0
 $$
 
 and
@@ -2354,20 +2423,20 @@ by default in the literature, when topological spaces are considered.
 
 $\,$
 
-### Hausdorff reflection
+### $T_n$ reflection
  {#HausdorffReflections}
 
-Not every [[universal construction]] of [[topological spaces]] applied to [[Hausdorff topological spaces]]
-results again in a Hausdorff topological space, notably [[quotient space]] constructions need not
+Not every [[universal construction]] of [[topological spaces]] applied to $T_n$-spaces
+results again in a $T_n$ topological space, notably [[quotient space]] constructions need not
 (example \ref{LineWithTwoOrigins} below).
 
-But there is a universal way, called _[[Hausdorff reflection]]_ (prop. \ref{HausdorffReflection} below),
-to approximate any topological space "from the left" by a Hausdorff topological spaces.
+But at least for $T_0$, $T_1$ and $T_2$  there is a  universal way, called _[[reflective subcategory|reflection]]_ (prop. \ref{HausdorffReflection} below),
+to approximate any topological space "from the left" by a $T_n$ topological spaces.
 
-Hence if one wishes to work withing the [[full subcategory]] of the [[Hausdorff topological spaces]]
+Hence if one wishes to work withing the [[full subcategory]] of the $T_n$
 among all [[topological space]], then the correct way to construct quotients and other _[[colimits]]_
 (see [below](#UniversalConstructions)) is to first construct them as usual for topological spaces,
-and then apply the Hausdorff reflection to the result.
+and then apply the $T_n$-reflection to the result.
 
 
 +-- {: .num_example #LineWithTwoOrigins}
@@ -2471,19 +2540,19 @@ is a [[codiscrete topological space]] (def. \ref{CoDiscreteTopology}), hence in 
 
 +-- {: .num_prop #HausdorffReflection}
 ###### Proposition
-**(Hausdorff reflection)**
+**($T_n$-reflection)**
 
-For every [[topological space]] $X$ there exists
-a [[Hausdorff topological space]] $H X$ and a [[continuous function]]
+Let $n \in \{0,1,2\}$. Then for every [[topological space]] $X$ there exists
+a $T_n$-topological space $T_n X$ for  and a [[continuous function]]
 
 $$
-  h_X
+  t_n(X)
     \;\colon\;
-  X \longrightarrow H X
+  X \longrightarrow T_n X
 $$
 
-which is the  "closest approximation from the left" to $X$ by a Hausdorff topological space, in that
-for $Y$ any [[Hausdorff topological space]], then [[continuous functions]] of the form
+which is the  "closest approximation from the left" to $X$ by a $T_n$-topological space, in that
+for $Y$ any $T_n$-space, then [[continuous functions]] of the form
 
 $$
   f \;\colon\; X \longrightarrow Y
@@ -2492,40 +2561,42 @@ $$
 are in [[bijection]] with [[continuous function]] of the form
 
 $$
-  \tilde f \;\colon\; H X \longrightarrow Y
+  \tilde f \;\colon\; T_n X \longrightarrow Y
 $$
 
 and such that the bijection is constituted by
 
 $$
-  f = \tilde f \circ h_X
+  f = \tilde f \circ t_n(X)
   \;\colon\;
     X
       \overset{h_X}{\longrightarrow}
-    H X
+    T_n X
       \overset{\tilde f}{\longrightarrow}
     Y
   \,.
 $$
 
-Here $H X$ (or more precisely $h_X$) is also called the _Hausdorff reflection_ (or _Hausdorffication_ or similar) of $X$.
+Here $X \overset{t_n(X)}{\longrightarrow} T_n(X)$ is also called the _$T_n$-reflection_ of $X$.
 
-Moreover, the operation $H(-)$ extends to [[continuous functions]] $f \colon X \to Y$
+Moreover, the operation $T_n(-)$ extends to [[continuous functions]] $f \colon X \to Y$
 
 $$
   (X \overset{f}{\to} Y)
     \;\mapsto\;
-  (H X \overset{H f}{\to} H Y)
+  (T_n X \overset{T_n f}{\to} T_n Y)
 $$
 
-by setting
+such as to preserve [[composition]] of functions as well as [[identity functions]]:
 
 $$
-  H f \;\colon\; [x] \mapsto [f(x)]
+  T_n g \circ T_n f = T_n(g \circ f)
+  \phantom{AA}
   \,,
+  \phantom{AA}
+  T_n id_X = id_{T_n X}
+  \,
 $$
-
-where $[x]$ denotes the [[equivalence class]] under $\sim_X$ of any $x \in X$.
 
 Finally, the comparison map is compatible with this in that the follows [[commuting squares|squares commute]]:
 
@@ -2535,7 +2606,7 @@ $$
       \\
       {}^{\mathllap{h_X}}\downarrow && \downarrow^{\mathrlap{h_Y}}
       \\
-      H X &\underset{H f}{\longrightarrow}& H Y
+      T_n X &\underset{T_n f}{\longrightarrow}& T_n Y
   }
   \,.
 $$
@@ -2543,29 +2614,22 @@ $$
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-There are various ways to construct $h_X$, see below prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces} 
-and prop. ....
-
-
-=--
 
 +-- {: .num_remark }
 ###### Remark
+**([[reflective subcategories]])**
 
-In the language of [[category theory]] the Hausdorff reflection of prop. \ref{HausdorffReflection}
+In the language of [[category theory]] (remark \ref{TopCategory}) the $T_n$-reflection of prop. \ref{HausdorffReflection}
 says that
 
-1. $H$ is a _[[functor]]_ $H \;\colon\; Top \longrightarrow Top_{Haus}$ from the [[category]] [[Top]] of [[topological spaces]] to the [[full subcategory]] $Top_{Haus} \overset{\iota}{\hookrightarrow} Top$ of Hausdorff topological spaces;
+1. $T_n(-)$ is a _[[functor]]_ $T_n \;\colon\; Top \longrightarrow Top_{T_n}$ from the [[category]] [[Top]] of [[topological spaces]] to the [[full subcategory]] $Top_{T_n} \overset{\iota}{\hookrightarrow} Top$ of Hausdorff topological spaces;
 
-1. $h_X \colon X \to H X$ is a [[natural transformation]] from the [[identity functor]] on [[Top]] to the functor $\iota \circ H$
+1. $t_n(X) \colon X \to T_n X$ is a _[[natural transformation]]_ from the [[identity functor]] on [[Top]] to the functor $\iota \circ T_n$
 
-1. [[Hausdorff topological spaces]] form a [[reflective subcategory]] of all [[topological spaces]] in that $H$ is [[left adjoint]] to the inclusion functor $\iota$
+1. $T_n$-topological spaces form a [[reflective subcategory]] of all [[topological spaces]] in that $T_n$ is [[left adjoint]] to the inclusion functor $\iota$; this situation is denoted as follows:
 
    $$
-     Top_{Haus}
+     Top_{T_n}
        \underoverset{\underset{\iota}{\hookrightarrow}}{\overset{H}{\longleftarrow}}{\bot}
      Top
      \,.
@@ -2574,31 +2638,31 @@ says that
 
 =--
 
-There are various ways to see the existence and to construct the Hausdorff reflection. The following is maybe the quickest way to see the existence, even though it leaves the actual construction rather implicit.
+There are various ways to see the existence and to construct the $T_n$-reflections. The following is the quickest way to see the existence, even though it leaves the actual construction rather implicit.
 
 
 +-- {: .num_prop #HausdorffReflectionViaHomsIntoAllHausdorffSpaces}
 ###### Proposition
 
-Let $(X,\tau)$ be a [[topological space]] and consider the [[equivalence relation]] $\sim$ on the underlying set $X$
+Let $n \in \{0,1,2\}$. Let $(X,\tau)$ be a [[topological space]] and consider the [[equivalence relation]] $\sim$ on the underlying set $X$
 for which $x \sim y$ precisely if for every [[surjective function|surjective]] [[continuous function]] $f \colon X \to Y$ into any
-[[Hausdorff topological space]] $Y$ we have $f(x) = f(y)$.
+$T_n$-topological space $Y$ we have $f(x) = f(y)$.
 
 Then the set of [[equivalence classes]]
 
 $$
-  H X \coloneqq X /{\sim}
+  T_n X \coloneqq X /{\sim}
 $$
 
-equipped with the [[quotient topology]] is a [[Hausdorff topological space]] and the quotient map $h_X \;\colon\; X \to X/{\sim}$ exhibits the Hausdorff reflection of $X$, according to prop. \ref{HausdorffReflection}.
+equipped with the [[quotient topology]] is a $T_n$-topological space, and the quotient map $t_n(X) \;\colon\; X \to X/{\sim}$ exhibits the $T_n$-reflection of $X$, according to prop. \ref{HausdorffReflection}.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-First observe that every continuous function $f \colon X \longrightarrow Y$ into a Hausdorff space $Y$
-factors uniquely via $h_X$ through a continuous function $\tilde f$
+First we observe that every continuous function $f \colon X \longrightarrow Y$ into a $T_n$-topological space $Y$
+factors uniquely via $t_n(X)$ through a continuous function $\tilde f$
 
 $$
   f = \tilde f \circ h_X
@@ -2611,36 +2675,61 @@ $$
   \,.
 $$
 
-That this is well defined and continuous follows directly from the definitions.
+To see this, first factor $f$ through its [[image]] $f(X)$
 
-What remains to be seen is that $H X$ is indeed a Hausdorff space. Hence assume that $[x] \neq [y] \in H X$.
-By construction of $H X$ this means that there exists a Hausdorff space $Y$ and a surjective continuous function
-$f \colon X \longrightarrow Y$ such that $f(x) \neq f(y) \in Y$. Accordingly, since $Y$ is Hausdorff,
-there exist disjoint open neighbourhoods $U_x, U_Y \in \tau_Y$. Moreover, by the previous statement there
-exists a continuous function $\tilde f \colon H X \to Y$ with $\tilde f([x]) = f(x)$ and $\tilde f([y]) = f(y)$.
-Since, by the nature of continuous functions,
-the pre-images $\tilde f^{-1}( U_x ), \tilde f^{-1}([y]) \subset H X$ are still disjoint and open,
-we have found disjoint neighbourhoods of $[x]$ and $[y]$. Hence $H X$ is Hausdorff.
+$$
+  f \;\colon\; X \longrightarrow f(X) \hookrightarrow Y
+$$
+
+equipped with its [[topological subspace|subspace topology]] as a subspace of $Y$ (example \ref{ImageFactorization}). By
+prop. \ref{TiSubspaces} also $f(X)$ is a $T_n$-topological space if $Y$ is. 
+
+It follows by definition of $t_n(X)$ that the factorization exists at the level of sets as stated, 
+since if $x_1, x_2 \in X$ have the same [[equivalence class]] $[x_1] = [x_2]$ in $T_n X$, then 
+by definition they have the same image under all continuous surjective functions to a $T_n$-space, hence in particular
+under $X \to f(X)$. This means that $\tilde f$ as above is well defined.
+
+What remains to be seen is that $T_n X$ as constructed is indeed a $T_n$-topological space. 
+Hence assume that $[x] \neq [y] \in T_n X$ are two distinct points. We need to open neighbourhoods
+around one or both of these point not containing the other point and possibly disjoint to each other.
+
+Now by definition of $T_n X$ this means that there exists a $T_n$-topological space $Y$ and a surjective continuous function
+$f \colon X \longrightarrow Y$ such that $f(x) \neq f(y) \in Y$. Accordingly, since $Y$ is $T_n$,
+there exist the respective kinds of neighbourhoods around these image points in $Y$. Moreover, by the previous statement there
+exists a continuous function $\tilde f \colon T_n X \to Y$ with $\tilde f([x]) = f(x)$ and $\tilde f([y]) = f(y)$.
+By the nature of continuous functions,
+the pre-images of these open neighbourhoods in $Y$ are still open in $X$ and still
+satisfy the required disjunction properties. Therefore $T_n X$ is a $T_n$-space.
 
 =--
 
-The following is a more direct way to actually construct the Hausdorff reflection:
 
-(...)
++-- {: .num_prop #KolmogorvQuotient}
+###### Proposition
+**([[Kolmogorov quotient]])**
+
+Let $(X,\tau)$ be a [[topological space]]. Consider the [[relation]] on the underlying set
+by which $x_1 \sim x_1$ precisely if neighther $x_i$ has an [[open neighbourhood]] not containing the other.
+This is an [[equivalence relation]]. The [[quotient topological space]] $X \to X/\sim$ by this
+equivalence relation (def. \ref{QuotientTopologicalSpace}) exhibits the $T_0$-reflection of $X$ according to prop. \ref{HausdorffReflection}.
+
+=--
+
+
 
 +-- {: .num_example}
 ###### Example
 
-The [[Hausdorff reflection]] (prop. \ref{HausdorffReflection})
+The [[Hausdorff reflection]] ($T_2$-reflection, prop. \ref{HausdorffReflection})
 
 $$
-  H \;\colon\; Top \longrightarrow Top_{Haus}
+  T_2 \;\colon\; Top \longrightarrow Top_{Haus}
 $$
 
 of the [[line with two origins]] from example \ref{LineWithTwoOrigins} is the [[real line]] itself:
 
 $$
-  H\left(
+  T_2\left(
     \left(
       \mathbb{R} \sqcup \mathbb{R}
     \right)/\sim
@@ -2659,8 +2748,8 @@ $$
 ## Sober spaces
  {#SoberSpaces}
 
-The characterization of the $T_0$-condition in prop. \ref{T0InTermsOfClosureOfPoints}
-immediately suggests the following strengthening:
+The alternative characterization of the $T_0$-condition in prop. \ref{T0InTermsOfClosureOfPoints}
+immediately suggests the following strengthening, different from the $T_1$-condition:
 
 +-- {: .num_defn #Sober}
 ###### Definition
@@ -3269,13 +3358,13 @@ which means that also $\{U_i \subset Y\}_{i \in J \subset I}$ is still an open c
 ###### Corollary
 **([[continuous images of compact spaces are compact]])**
 
-If $f \colon X \longrightarrow Y$ is a [[continuous function]] out of a [[compact topological space]] $X$ which is not necessarily [[surjective function|surjective]], then we may consider its [[image]] factorization
+If $f \colon X \longrightarrow Y$ is a [[continuous function]] out of a [[compact topological space]] $X$ which is not necessarily [[surjective function|surjective]], then we may consider its [[image factorization]]
 
 $$
   f \;\colon\; X \longrightarrow im(f) \hookrightarrow Y
 $$
 
-with $im(f)$ regarded as a [[topological subspace]] of $Y$. Now by construction $X \to \im(f)$ is surjective, and so lemma \ref{ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain} implies that $im(f)$ is compact.
+as in example \ref{ImageFactorization}. Now by construction $X \to \im(f)$ is surjective, and so lemma \ref{ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain} implies that $im(f)$ is compact.
 
 =--
 
