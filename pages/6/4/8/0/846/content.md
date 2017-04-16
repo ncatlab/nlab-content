@@ -456,9 +456,9 @@ $$
   d_i (\sigma, \tau) = 
   \left\{
     \array{
-      (d_i \sigma, \tau) & if i \leq j , j \neq 0
+      (d_i \sigma, \tau) & if\; i \leq j , j \neq 0
       \\
-      (\sigma, d_{i-j-1}) & if i \gt j, k \neq 0
+      (\sigma, d_{i-j-1}) & if\; i \gt j, k \neq 0
     }
   \right.
 $$
@@ -594,7 +594,7 @@ $$
   \,.
 $$
 
-Notice that while thus $\Delta[n+1] \simeq  \Delta[0]\star\Delta[n] \simeq \Delta[n] \star \Delta[0]$ the identifications of the cone point of course differ in both cases. The asymmetry is seen for instance by restricting attenion to the cone over the boundary of the $n$-simplex, where we have
+Notice that while thus $\Delta[n+1] \simeq  \Delta[0]\star\Delta[n] \simeq \Delta[n] \star \Delta[0]$ the identifications of the cone point of course differ in both cases. The asymmetry is seen for instance by restricting attention to the cone over the boundary of the $n$-simplex, where we have
 
 $$
   \partial \Delta[n] \star \Delta[0] = \Lambda_{n+1}[n+1]
