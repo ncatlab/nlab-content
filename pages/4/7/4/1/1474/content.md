@@ -28,7 +28,7 @@ There are many equivalent ways of characterizing a space $S$ as __Hausdorff__. T
 +-- {: .num_defn #classical}
 ###### Definition
 
-Given points $x$ and $y$ of $S$, if $x \neq y$, then there exist [[open neighbourhoods]] $U$ of $x$ and $V$ of $y$ in $S$ that are [[disjoint subsets|disjoint]]: such that their [[intersection]] $U \cap V$ is the [[empty set]] (or explicitly, such that $x' \ne y'$ whenever $x' \in U$ and $y' \in V$).
+Given points $x$ and $y$ of $S$, if $x \neq y$, then there exist [[open neighbourhoods]] $U$ of $x$ and $V$ of $y$ in $S$ that are [[disjoint subsets|disjoint]]: sutch that their [[intersection]] $U \cap V$ is the [[empty set]] (or explicitly, such that $x' \ne y'$ whenever $x' \in U$ and $y' \in V$).
 =--
 
 That is, any two distinct points can be _separated_ by open neighbourhoods, and it is simply a mundane way of saying that $\ne$ is [[open subset|open]] in the [[product topology]] on $S \times S$.
@@ -157,7 +157,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-There are various ways to construct $h_X$, see below prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces} and prop. \ref{HausdorffReflectionViaClosureOfDiagonal}.
+There are various ways to construct $h_X$, see below prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces} and prop. (...).
 
 
 =--
@@ -191,7 +191,7 @@ There are various ways to see the existence and to construct the Hausdorff refle
 ###### Proposition
 
 Let $(X,\tau)$ be a [[topological space]] and consider the [[equivalence relation]] $\sim$ on the underlying set $X$
-for which $x \sim y$ precisely if for every [[continuous function]] $f \colon X \to Y$ into any
+for which $x \sim y$ precisely if for every [[surjective function|surjective]] [[continuous function]] $f \colon X \to Y$ into any
 [[Hausdorff topological space]] $Y$ we have $f(x) = f(y)$. 
 
 Then the set of [[equivalence classes]]
@@ -224,7 +224,7 @@ $$
 That this is well defined and continuous follows directly from the definitions.
 
 What remains to be seen is that $H X$ is indeed a Hausdorff space. Hence assume that $[x] \neq [y] \in H X$.
-By construction of $H X$ this means that there exists a Hausdorff space $Y$ and a continuous function
+By construction of $H X$ this means that there exists a Hausdorff space $Y$ and a surjective continuous function
 $f \colon X \longrightarrow Y$ such that $f(x) \neq f(y) \in Y$. Accordingly, since $Y$ is Hausdorff,
 there exist disjoint open neighbourhoods $U_x, U_Y \in \tau_Y$. Moreover, by the previous statement there
 exists a continuous function $\tilde f \colon H X \to Y$ with $\tilde f([x]) = f(x)$ and $\tilde f([y]) = f(y)$.
@@ -234,60 +234,10 @@ we have found disjoint neighbourhoods of $[x]$ and $[y]$. Hence $H X$ is Hausdor
 
 =--
 
-The following is a more direct way to actually construct the Hausdorff reflection:
+The following is a more direct way of actually constucting the Hausdorff reflection:
 
-+-- {: .num_prop #HausdorffReflectionViaClosureOfDiagonal}
-###### Proposition
+(...)
 
-
-Let $X$ be a [[topological space]] and write $Cl(\Delta_X)$ for the [[topological closure]] of the [[image]] of the [[diagonal]] map 
-
-$$
-  \array{
-     X &\overset{\Delta_X}{\longrightarrow}& X \times X
-     \\
-     x &\mapsto& (x,x)
-  }
-$$
-
-in the [[product topological space]] $X \times X$. Define an [[equivalence relation]] $\sim$ on $X$ to be given by $Cl(\Delta_X)$, i.e.
-
-$$
-  (x \sim y)
-    \;\Leftrightarrow\;
-  (x,y) \in Cl(\Delta_X)
-  \,.
-$$
-
-Then in [[classical logic]] the [[quotient topological space]]
-
-$$
-  H X \coloneqq X/\sim
-$$
-
-is a Hausdorff topological space and the [[quotient]] map
-
-$$
-  h_X \;\colon\; X \longrightarrow H X
-$$
-
-exhibits $H X$ as the Hausdorff reflection of $X$, according to prop. \ref{HausdorffReflection}.
-
-In particular this implies that $X$ is Hausdorff precisely if the diagonal $\Delta_X \colon X \to X \times X$ is a [[closed map]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-
-Observe that two points $x,y \in X$ are not [separated by neighbourhoods](separation+axioms#SeparatedByNeighbourhoods) precisely if $(x,y) \in Cl(\Delta_X)$. Because the latter means equivalently that every basic open neighbourhood $U_x \times U_y$ of $(x,y)$ in the product topology $X \times X$ contains a point $(z,z)$ on the diagonal, which means equivalently that $z \in U_x \cap U_y$, hence equivalently that $x$ and $y$ are not separated by open neighbourhoods.
-
-This directly implies that $X/\sim$ is Hausdorff.
-
-To see that every continuous function $f \colon X \longrightarrow Y$ into a Hausdorff space $Y$ factors uniquely through this $H X$, we need to see that if $(x,y) \in Cl(\Delta_X)$ then $f(x) = f(y)$. Assume on the contrary that $f(x) \neq f(y)$. Then by $Y$ being Hausdorff, this would imply the existence of disjoint open neighbourhoods $V_{f(x)}$ and $V_{f(y)}$. By continuity of $f$, their preimages $f^{-1}(V_{f(x)})$ and $f^{-1}(V_{f(y)})$ would still be disjoint open neighbourhoods, now of $x$ and $y$, contradicting the fact that these do not exist, by the previous statement. This proves the claim [[proof by contradiction|by contradiction]].
-
-=--
 
 ### Monadicity
 
@@ -438,7 +388,7 @@ Comments on the relation to [[topos theory]] are for instance in
 [[!redirects reciprocal spaces]]
 
 [[!redirects Hausdorffication]]
-[[!redirects Hausdorffications]]
+[[!redirects Hausdorffications]]su
 
 [[!redirects Hausdorffification]]
 [[!redirects Hausdorffifications]]
