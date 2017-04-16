@@ -2112,6 +2112,9 @@ consider the following [[propositions]]:
 
 The topological space $X$ is called a _$T_n$-topological space_ or just _$T_n$-space_, for short,
 if it satisfies condition $T_n$ above for all pairs of distinct points.
+
+A $T_0$-topological space is also called a _[[Kolmogorov space]]_.
+
 A $T_2$-topological space is also called a _[[Hausdorff topological space]]_.
 
 
@@ -2284,9 +2287,9 @@ Consider the following conditions
 * **(T4)** $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $C_1, C_2 \subset X$ disjoint [[closed subsets]] (def. \ref{ClosedSubset})
   then there exist disjoint [[open neighbourhoods]] $U_{C_i} \supset C_i$.
 
-If $(X,\tau)$ satisfies $T_3$ it is said to be a _$T_3$-space_ also called a _[[regular topological space]]_.
+If $(X,\tau)$ satisfies $T_3$ it is said to be a _$T_3$-space_ also called a _[[regular Hausdorff topological space]]_.
 
-If $(X,\tau)$ satisfies $T_4$ it is to be a _$T_4$-space_ also called a _[[normal topological space]]_.
+If $(X,\tau)$ satisfies $T_4$ it is to be a _$T_4$-space_ also called a _[[normal Hausdorff topological space]]_.
 
 =--
 
@@ -2333,14 +2336,20 @@ In summary:
 
 **the main [[separation axiom|Separation Axioms]]**
 
+{#TableOfMainSeparationAxioms}
 | number | name | statement | reformulation |
 |--------|------|-----------|---------------|
 | $T_0$  | Kolmogorov | given two distinct points, at least one of them has an open neighbourhood not containing the other point |  every irreducible closed subset is the closure of at most one point |
 | $T_1$  |      | given two distinct points, both have an open neighbourhood not containing the other point | all points are closed |
 | $T_2$  | [[Hausdorff topological space|Hausdorff]] | given two distinct points, they have disjoint open neighbourhoods | the diagonal is a closed map  |
-| $T_3$  | [[regular topological space|regular]] |  all points are closed and  given two disjoint closed subsets, at least one of them has an open neighbourhood disjoint from the other closed subset |  |
-| $T_4$  | [[normal topological space|normal]] | all points are closed and given two disjoint closed subsets, both of them have open neighbourhoods not intersecting the other closed subset |  |
+| $T_3$  | [[regular Hausdorff topological space|regular Hausdorff]] |  all points are closed; and given two disjoint closed subsets, at least one of them has an open neighbourhood disjoint from the other closed subset |  |
+| $T_4$  | [[normal Hausdorff topological space|normal Hausdorff]] | all points are closed; and given two disjoint closed subsets, both of them have open neighbourhoods not intersecting the other closed subset |  |
 
+$\,$
+
+Notice that there is a whole zoo of further variants of [[separation axioms]] that are considered in the literature.
+But the above are maybe the main ones. Specifically $T_2$ = Hausdorff is the most popular one, often considered
+by default in the literature, when topological spaces are considered.
 
 
 $\,$
@@ -2537,7 +2546,8 @@ $$
 +-- {: .proof}
 ###### Proof
 
-There are various ways to construct $h_X$, see below prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces} and prop. \ref{HausdorffReflectionViaClosureOfDiagonal}.
+There are various ways to construct $h_X$, see below prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces} 
+and prop. ....
 
 
 =--
@@ -2571,7 +2581,7 @@ There are various ways to see the existence and to construct the Hausdorff refle
 ###### Proposition
 
 Let $(X,\tau)$ be a [[topological space]] and consider the [[equivalence relation]] $\sim$ on the underlying set $X$
-for which $x \sim y$ precisely if for every [[continuous function]] $f \colon X \to Y$ into any
+for which $x \sim y$ precisely if for every [[surjective function|surjective]] [[continuous function]] $f \colon X \to Y$ into any
 [[Hausdorff topological space]] $Y$ we have $f(x) = f(y)$.
 
 Then the set of [[equivalence classes]]
@@ -2604,7 +2614,7 @@ $$
 That this is well defined and continuous follows directly from the definitions.
 
 What remains to be seen is that $H X$ is indeed a Hausdorff space. Hence assume that $[x] \neq [y] \in H X$.
-By construction of $H X$ this means that there exists a Hausdorff space $Y$ and a continuous function
+By construction of $H X$ this means that there exists a Hausdorff space $Y$ and a surjective continuous function
 $f \colon X \longrightarrow Y$ such that $f(x) \neq f(y) \in Y$. Accordingly, since $Y$ is Hausdorff,
 there exist disjoint open neighbourhoods $U_x, U_Y \in \tau_Y$. Moreover, by the previous statement there
 exists a continuous function $\tilde f \colon H X \to Y$ with $\tilde f([x]) = f(x)$ and $\tilde f([y]) = f(y)$.
@@ -2616,58 +2626,7 @@ we have found disjoint neighbourhoods of $[x]$ and $[y]$. Hence $H X$ is Hausdor
 
 The following is a more direct way to actually construct the Hausdorff reflection:
 
-+-- {: .num_prop #HausdorffReflectionViaClosureOfDiagonal}
-###### Proposition
-
-
-Let $X$ be a [[topological space]] and write $Cl(\Delta_X)$ for the [[topological closure]] of the [[image]] of the [[diagonal]] map
-
-$$
-  \array{
-     X &\overset{\Delta_X}{\longrightarrow}& X \times X
-     \\
-     x &\mapsto& (x,x)
-  }
-$$
-
-in the [[product topological space]] $X \times X$. Define an [[equivalence relation]] $\sim$ on $X$ to be given by $Cl(\Delta_X)$, i.e.
-
-$$
-  (x \sim y)
-    \;\Leftrightarrow\;
-  (x,y) \in Cl(\Delta_X)
-  \,.
-$$
-
-Then in [[classical logic]] the [[quotient topological space]]
-
-$$
-  H X \coloneqq X/\sim
-$$
-
-is a Hausdorff topological space and the [[quotient]] map
-
-$$
-  h_X \;\colon\; X \longrightarrow H X
-$$
-
-exhibits $H X$ as the Hausdorff reflection of $X$, according to prop. \ref{HausdorffReflection}.
-
-In particular this implies that $X$ is Hausdorff precisely if the diagonal $\Delta_X \colon X \to X \times X$ is a [[closed map]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-
-Observe that two points $x,y \in X$ are not [separated by neighbourhoods](separation+axioms#SeparatedByNeighbourhoods) precisely if $(x,y) \in Cl(\Delta_X)$. Because the latter means equivalently that every basic open neighbourhood $U_x \times U_y$ of $(x,y)$ in the product topology $X \times X$ contains a point $(z,z)$ on the diagonal, which means equivalently that $z \in U_x \cap U_y$, hence equivalently that $x$ and $y$ are not separated by open neighbourhoods.
-
-This directly implies that $X/\sim$ is Hausdorff.
-
-To see that every continuous function $f \colon X \longrightarrow Y$ into a Hausdorff space $Y$ factors uniquely through this $H X$, we need to see that if $(x,y) \in Cl(\Delta_X)$ then $f(x) = f(y)$. Assume on the contrary that $f(x) \neq f(y)$. Then by $Y$ being Hausdorff, this would imply the existence of disjoint open neighbourhoods $V_{f(x)}$ and $V_{f(y)}$. By continuity of $f$, their preimages $f^{-1}(V_{f(x)})$ and $f^{-1}(V_{f(y)})$ would still be disjoint open neighbourhoods, now of $x$ and $y$, contradicting the fact that these do not exist, by the previous statement. This proves the claim [[proof by contradiction|by contradiction]].
-
-=--
+(...)
 
 +-- {: .num_example}
 ###### Example
@@ -3559,7 +3518,7 @@ and let $C \subset X$ be a [[compact topological space|compact]] (def. \ref{Comp
 +-- {: .proof}
 ###### Proof
 
-Let $x \in X \backslash C$ be any point of $X$ not contained in $C$. We need to show that there exists an [[open neighbourhood]] of $x$ in $X$ which does not [[intersection|intersect]] $C$. 
+Let $x \in X \backslash C$ be any point of $X$ not contained in $C$. We need to show that there exists an [[open neighbourhood]] of $x$ in $X$ which does not [[intersection|intersect]] $C$.
 This is implied by lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}.
 
 =--
