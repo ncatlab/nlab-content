@@ -235,7 +235,7 @@ we have found disjoint neighbourhoods of $[x]$ and $[y]$. Hence $H X$ is Hausdor
 =--
 
 
-The following is a more direct way of actually constructing the Hausdorff reflection:
+Some readers may find the following a more direct way of constructing the Hausdorff reflection:
 
 +-- {: .num_prop #HausdorffReflectionViaTransitiveClosureOfDiagonal}
 ###### Proposition
@@ -252,7 +252,7 @@ Now for $(X,\tau_X)$ a [[topological space]], define by [[induction]] for each [
 
 We start the induction with the trivial equivalence relation:
 
-* $r^0_X \coloneq \Delta_X$;
+* $r^0_X \coloneqq \Delta_X$;
 
 For a [[successor ordinal]] we set
 
