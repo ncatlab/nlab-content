@@ -234,10 +234,44 @@ we have found disjoint neighbourhoods of $[x]$ and $[y]$. Hence $H X$ is Hausdor
 
 =--
 
+
 The following is a more direct way of actually constucting the Hausdorff reflection:
 
-(...)
++-- {: .num_prop #HausdorffReflectionViaTransitiveClosureOfDiagonal}
+###### Proposition
 
+For $(Y,\tau_Y)$ a [[topological space]], write $r_Y \subset Y \times Y$
+for the [[transitive relation|transitive closure]] of tthe [[relation]] given by the [[topological closure]] $Cl(\Delta_Y)$ of the [[image]] of the [[diagonal]] $\Delta_Y \colon Y \hookrightarrow Y \times Y$.
+
+$$
+  r_Y \coloneqq Trans(Cl(Delta_Y))
+  \,.
+$$
+
+Now for $(X,\tau_X)$ a [[topological space]], define by [[induction]] for each [[ordinal number]] $\alpha$ an [[equivalence relation]] $r^\alpha$ on $X$ as follows, where we write $q^\alpha \colon X \to H^\alpha(X)$ for the corresponding [[quotient topological space]] projection:
+
+We start the induction with the trivial equivalence relation:
+
+* $r^0_X \coloneq \Delta_X$;
+
+For a [[successor ordinal]] we set
+
+* $r_X^{\alpha+1} \coloneqq \left\{ (a,b) \in X \times X  \,\vert\, (q^\alpha(a), q^\alpha(b)) \in r_{H^\alpha(X)} \right\}$
+
+and for a [[limit ordinal]] $\alpha$ we set
+
+* $r_X^\alpha \coloneqq \underset{\beta \lt \alpha}{\cup} r_X^\beta$.
+
+Then:
+
+1. there exists an ordinal $\alpha$ such that $r_X^\alpha = r_X^{\alpha+1}$
+
+1. for this $\alpha$ then $H^\alpha(X) = H(X)$ is the Hausdorff reflection from prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces}.
+
+
+=--
+
+([vanMunster 14, section 4](#vanMunster14))
 
 ### Monadicity
 
@@ -360,7 +394,7 @@ See also
 
 A detailed discussion of Hausdorff reflection is in 
 
-* Bart van Munster, _The Hausdorff quotient_, 2014 ([pdf](https://www.math.leidenuniv.nl/scripties/BachVanMunster.pdf))
+* {#vanMunster14} Bart van Munster, _The Hausdorff quotient_, 2014 ([pdf](https://www.math.leidenuniv.nl/scripties/BachVanMunster.pdf))
 
 Comments on the relation to [[topos theory]] are for instance in
 
