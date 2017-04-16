@@ -27,7 +27,7 @@ The main separation axims are these:
 {#TableOfMainSeparationAxioms}
 | number | name | statement | reformulation |
 |--------|------|-----------|---------------|
-| $T_0$  | Kolmogorov | given two distinct points, at least one of them has an open neighbourhood not containing the other point |  every irreducible closed subset is the closure of at most one point |
+| $T_0$  | [[Kolmogorov space|Kolmogorov]] | given two distinct points, at least one of them has an open neighbourhood not containing the other point |  every irreducible closed subset is the closure of at most one point |
 | $T_1$  |      | given two distinct points, both have an open neighbourhood not containing the other point | all points are closed |
 | $T_2$  | [[Hausdorff topological space|Hausdorff]] | given two distinct points, they have disjoint open neighbourhoods | the diagonal is a closed map  |
 | $T_3$  | [[regular Hausdorff topological space|regular Hausdorff]] |  all points are closed; and given two disjoint closed subsets, at least one of them has an open neighbourhood disjoint from the other closed subset |  |
@@ -249,6 +249,234 @@ On the other hand, if you want to use *more* symbols, then you can:
 It would be easy to invent an $N_i$ series for the various kinds of normal spaces, but nobody seems to have done so yet.
 
 Other terms are also in use, principally 'Tychonoff' for [[Tychonoff space|completely regular Hausdorff]] ($T_{3\frac{1}{2}}$).
+
+
+
+### Reflection
+ {#Reflection}
+
++-- {: .num_prop #HausdorffReflection}
+###### Proposition
+**($T_n$-reflection)**
+
+Let $n \in \{0,1,2\}$. Then for every [[topological space]] $X$ there exists
+a $T_n$-topological space $T_n X$ for  and a [[continuous function]]
+
+$$
+  t_n(X)
+    \;\colon\;
+  X \longrightarrow T_n X
+$$
+
+which is the  "closest approximation from the left" to $X$ by a $T_n$-topological space, in that
+for $Y$ any $T_n$-space, then [[continuous functions]] of the form
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+are in [[bijection]] with [[continuous function]] of the form
+
+$$
+  \tilde f \;\colon\; T_n X \longrightarrow Y
+$$
+
+and such that the bijection is constituted by
+
+$$
+  f = \tilde f \circ t_n(X)
+  \;\colon\;
+    X
+      \overset{h_X}{\longrightarrow}
+    T_n X
+      \overset{\tilde f}{\longrightarrow}
+    Y
+  \,.
+$$
+
+Here $X \overset{t_n(X)}{\longrightarrow} T_n(X)$ may be called the _$T_n$-reflection_ of $X$.
+For $n = 0$ this is known as the _[[Kolmogorov quotient]]_ construction (see prop. \ref{KolmogorovQuotient} below). For $n = 2$
+it is known as _[[Hausdorff reflection]]_ or _Hausdorffication_ or similar.
+
+
+
+Moreover, the operation $T_n(-)$ extends to [[continuous functions]] $f \colon X \to Y$
+
+$$
+  (X \overset{f}{\to} Y)
+    \;\mapsto\;
+  (T_n X \overset{T_n f}{\to} T_n Y)
+$$
+
+such as to preserve [[composition]] of functions as well as [[identity functions]]:
+
+$$
+  T_n g \circ T_n f = T_n(g \circ f)
+  \phantom{AA}
+  \,,
+  \phantom{AA}
+  T_n id_X = id_{T_n X}
+  \,
+$$
+
+Finally, the comparison map is compatible with this in that the follows [[commuting squares|squares commute]]:
+
+$$
+  \array{
+      X &\overset{f}{\longrightarrow}& Y
+      \\
+      {}^{\mathllap{h_X}}\downarrow && \downarrow^{\mathrlap{h_Y}}
+      \\
+      T_n X &\underset{T_n f}{\longrightarrow}& T_n Y
+  }
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
+**([[reflective subcategories]])**
+
+In the language of [[category theory]] the $T_n$-reflection of prop. \ref{HausdorffReflection}
+says that
+
+1. $T_n(-)$ is a _[[functor]]_ $T_n \;\colon\; Top \longrightarrow Top_{T_n}$ from the [[category]] [[Top]] of [[topological spaces]] to the [[full subcategory]] $Top_{T_n} \overset{\iota}{\hookrightarrow} Top$ of Hausdorff topological spaces;
+
+1. $t_n(X) \colon X \to T_n X$ is a _[[natural transformation]]_ from the [[identity functor]] on [[Top]] to the functor $\iota \circ T_n$
+
+1. $T_n$-topological spaces form a [[reflective subcategory]] of all [[topological spaces]] in that $T_n$ is [[left adjoint]] to the inclusion functor $\iota$; this situation is denoted as follows:
+
+   $$
+     Top_{T_n}
+       \underoverset{\underset{\iota}{\hookrightarrow}}{\overset{H}{\longleftarrow}}{\bot}
+     Top
+     \,.
+   $$
+
+
+=--
+
+There are various ways to see the existence and to construct the $T_n$-reflections. The following is the quickest way to see the existence, even though it leaves the actual construction rather implicit.
+
+
++-- {: .num_prop #HausdorffReflectionViaHomsIntoAllHausdorffSpaces}
+###### Proposition
+
+Let $n \in \{0,1,2\}$. Let $(X,\tau)$ be a [[topological space]] and consider the [[equivalence relation]] $\sim$ on the underlying set $X$
+for which $x \sim y$ precisely if for every [[surjective function|surjective]] [[continuous function]] $f \colon X \to Y$ into any
+$T_n$-topological space $Y$ we have $f(x) = f(y)$.
+
+Then the set of [[equivalence classes]]
+
+$$
+  T_n X \coloneqq X /{\sim}
+$$
+
+equipped with the [[quotient topology]] is a $T_n$-topological space, and the quotient map $t_n(X) \;\colon\; X \to X/{\sim}$ exhibits the $T_n$-reflection of $X$, according to prop. \ref{HausdorffReflection}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First we observe that every continuous function $f \colon X \longrightarrow Y$ into a $T_n$-topological space $Y$
+factors uniquely via $t_n(X)$ through a continuous function $\tilde f$
+
+$$
+  f = \tilde f \circ h_X
+$$
+
+where
+
+$$
+  \tilde f \colon [x] \mapsto f(x)
+  \,.
+$$
+
+To see this, first factor $f$ through its [[image]] $f(X)$
+
+$$
+  f \;\colon\; X \longrightarrow f(X) \hookrightarrow Y
+$$
+
+equipped with its [[topological subspace|subspace topology]] as a subspace of $Y$ (example \ref{ImageFactorization}). It follows that $f(X)$ is a $T_n$-topological space if $Y$ is. 
+
+It follows by definition of $t_n(X)$ that the factorization exists at the level of sets as stated, 
+since if $x_1, x_2 \in X$ have the same [[equivalence class]] $[x_1] = [x_2]$ in $T_n X$, then 
+by definition they have the same image under all continuous surjective functions to a $T_n$-space, hence in particular
+under $X \to f(X)$. This means that $\tilde f$ as above is well defined.
+
+What remains to be seen is that $T_n X$ as constructed is indeed a $T_n$-topological space. 
+Hence assume that $[x] \neq [y] \in T_n X$ are two distinct points. We need to open neighbourhoods
+around one or both of these point not containing the other point and possibly disjoint to each other.
+
+Now by definition of $T_n X$ this means that there exists a $T_n$-topological space $Y$ and a surjective continuous function
+$f \colon X \longrightarrow Y$ such that $f(x) \neq f(y) \in Y$. Accordingly, since $Y$ is $T_n$,
+there exist the respective kinds of neighbourhoods around these image points in $Y$. Moreover, by the previous statement there
+exists a continuous function $\tilde f \colon T_n X \to Y$ with $\tilde f([x]) = f(x)$ and $\tilde f([y]) = f(y)$.
+By the nature of continuous functions,
+the pre-images of these open neighbourhoods in $Y$ are still open in $X$ and still
+satisfy the required disjunction properties. Therefore $T_n X$ is a $T_n$-space.
+
+=--
+
+Here are alternative constructions of the reflections:
+
++-- {: .num_prop #KolmogorovQuotient}
+###### Proposition
+**([[Kolmogorov quotient]])**
+
+Let $(X,\tau)$ be a [[topological space]]. Consider the [[relation]] on the underlying set
+by which $x_1 \sim x_1$ precisely if neighther $x_i$ has an [[open neighbourhood]] not containing the other.
+This is an [[equivalence relation]]. The [[quotient topological space]] $X \to X/\sim$ by this
+equivalence relation  exhibits the $T_0$-reflection of $X$ according to prop. \ref{HausdorffReflection}.
+
+=--
+
++-- {: .num_prop #HausdorffReflectionViaTransitiveClosureOfDiagonal}
+###### Proposition
+**([[Hausdorff reflection]])**
+
+For $(Y,\tau_Y)$ a [[topological space]], write $r_Y \subset Y \times Y$
+for the [[transitive relation|transitive closure]] of tthe [[relation]] given by the [[topological closure]] $Cl(\Delta_Y)$ of the [[image]] of the [[diagonal]] $\Delta_Y \colon Y \hookrightarrow Y \times Y$.
+
+$$
+  r_Y \coloneqq Trans(Cl(Delta_Y))
+  \,.
+$$
+
+Now for $(X,\tau_X)$ a [[topological space]], define by [[induction]] for each [[ordinal number]] $\alpha$ an [[equivalence relation]] $r^\alpha$ on $X$ as follows, where we write $q^\alpha \colon X \to H^\alpha(X)$ for the corresponding [[quotient topological space]] projection:
+
+We start the induction with the trivial equivalence relation:
+
+* $r^0_X \coloneqq \Delta_X$;
+
+For a [[successor ordinal]] we set
+
+* $r_X^{\alpha+1} \coloneqq \left\{ (a,b) \in X \times X  \,\vert\, (q^\alpha(a), q^\alpha(b)) \in r_{H^\alpha(X)} \right\}$
+
+and for a [[limit ordinal]] $\alpha$ we set
+
+* $r_X^\alpha \coloneqq \underset{\beta \lt \alpha}{\cup} r_X^\beta$.
+
+Then:
+
+1. there exists an ordinal $\alpha$ such that $r_X^\alpha = r_X^{\alpha+1}$
+
+1. for this $\alpha$ then $H^\alpha(X) = H(X)$ is the Hausdorff reflection from prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces}.
+
+
+=--
+
+([vanMunster 14, section 4](Hausdorff+space#vanMunster14))
+
+
+
+
+
 
 
 ### Other axioms
