@@ -2267,8 +2267,8 @@ $\,$
 
 **Further separation axioms**
 
-Clearly one may and does consider further variants of the 
-separation axioms $T_0$, $T_1$ and $T_2$ from def. \ref{HausdorffTopologicalSpace}. 
+Clearly one may and does consider further variants of the
+separation axioms $T_0$, $T_1$ and $T_2$ from def. \ref{HausdorffTopologicalSpace}.
 
 
 +-- {: .num_defn #NormalSpace}
@@ -2307,7 +2307,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The implications 
+The implications
 
 $$
   T_2 \rightarrow T_1 \Rightarrow T_0
@@ -2319,13 +2319,13 @@ $$
   T_4 \Rightarrow T_3
 $$
 
-are immediate from the definitions. The remaining implication $T_3 \Rightarrow T_2$ 
+are immediate from the definitions. The remaining implication $T_3 \Rightarrow T_2$
 follows with prop. \ref{AllPointsClosedEquivalentToT1}.
 
 =--
 
-Hence instead of saying "$X$ is $T_1$ and ..." one could just as well phrase 
-the conditions $T_3$ and $T_4$ as "$X$ is $T_2$ and ...", which would render 
+Hence instead of saying "$X$ is $T_1$ and ..." one could just as well phrase
+the conditions $T_3$ and $T_4$ as "$X$ is $T_2$ and ...", which would render
 the proof of prop. \ref{ImplicationsAmongTheSeparationAxioms} even more trivial.
 
 
@@ -3506,7 +3506,6 @@ such that
 
 +-- {: .proof}
 ###### Proof
-of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}
 
 By the assumption that $(X,\tau)$ is Hausdorff, we find for every point $y \in Y$ disjoint open neighbourhoods $U_{x,y} \supset \{x\}$ and $U_y \supset \{y\}$. By the nature of the [[subspace topology]] of $Y$, the restriction of all the $U_y$ to $Y$ is an [[open cover]] of $Y$:
 
@@ -3545,46 +3544,23 @@ Therefore $U_x$ and $U_Y$ are two open subsets as required.
 
 =--
 
-In the same way we prove:
+This immediately implies the following:
 
 +-- {: .num_prop #CompactSubspacesOfHausdorffSpacesAreClosed}
 ###### Proposition
 **([[compact subspaces of Hausdorff spaces are closed]])**
 
 Let $(X,\tau)$ be a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace})
-and let $K \subset X$ be a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
-[[topological subspace]] (def. \ref{SubspaceTopology}). Then $K \subset X$ is also a [[closed subspace]] (def. \ref{ClosedSubset}).
+and let $C \subset X$ be a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
+[[topological subspace]] (def. \ref{SubspaceTopology}). Then $C \subset X$ is also a [[closed subspace]] (def. \ref{ClosedSubset}).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Let $x \in X \backslash K$ be any point of $X$ not contained in $K$. We need to show that there exists an [[open neighbourhood]] of $x$ in $X$ which does not [[intersection|intersect]] $X$.
-
-By assumption that $X$ is Hausdorff, there exist for each $y \in K$ disjoint open neighbourhoods $y \subset U_y \subset X$ and $x \subset V_y \subset X$. Clearly the [[union]] of all the $U_y$ is an [[open cover]] of $K$
-
-$$
-  K \subset \underset{y \in K}{\cup} U_y
-  \,.
-$$
-
-Hence by assumption that $K$ is compact, there exists a [[finite set|finite]] [[subset]] $S \subset K$ of points in $K$ such that the $U_s$ for $s \in S$ still cover $K$:
-
-
-$$
-  K \subset \underset{y \in S \subset K}{\cup} U_y
-  \,.
-$$
-
-Since $S$ is finite, the intersection
-
-$$
-  U_x \coloneqq  \underset{y \in S \subset K}{\cap} V_y
-$$
-
-is still open, and by construction it is disjoint from all $U_y$ for $y \in S$, hence in particular disjoint from $K$, and it contains $x$. Hence $U_x$ is an open neighbourhood of $x$ as required.
-
+Let $x \in X \backslash C$ be any point of $X$ not contained in $C$. We need to show that there exists an [[open neighbourhood]] of $x$ in $X$ which does not [[intersection|intersect]] $C$. 
+This is implied by lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}.
 
 =--
 
