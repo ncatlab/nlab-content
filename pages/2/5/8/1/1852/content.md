@@ -79,6 +79,8 @@ The class of normal spaces was introduced by Tietze (1923) and Aleksandrov--Urys
 
 [[!redirects normal Hausdorff space]]
 [[!redirects normal Hausdorff spaces]]
+[[!redirects normal Hausdorff topological space]]
+[[!redirects normal Hausdorff topological spaces]]
 
 [[!redirects R3 space]]
 [[!redirects R3 spaces]]
