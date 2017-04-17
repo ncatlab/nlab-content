@@ -549,20 +549,35 @@ See also the entry
 
 * Wikipedia, _[Separation axiom](http://secure.wikimedia.org/wikipedia/en/wiki/Separation_axiom)_
 
-(One of the main authors of the present entry, [[Toby Bartels]], is also one of the main authors of the Wikipedia entry.)
+(This is not really an independent reference, since one of the main authors of the present entry is also one of the main authors of the Wikipedia entry.)
 
-[[!redirects topologically distinct points]]
-[[!redirects topologically disjoint sets]]
-[[!redirects separated sets]]
+
 [[!redirects separation axiom]]
 [[!redirects separation axioms]]
-
 [[!redirects separation property]]
 [[!redirects separation properties]]
 
 
+[[!redirects topologically distinct point]]
+[[!redirects topologically distinct points]]
+
+[[!redirects topologically disjoint set]]
+[[!redirects topologically disjoint sets]]
+[[!redirects topologically disjoint subset]]
+[[!redirects topologically disjoint subsets]]
+[[!redirects topologically disjoint subspace]]
+[[!redirects topologically disjoint subspaces]]
+
+[[!redirects separated set]]
+[[!redirects separated sets]]
+[[!redirects separated subset]]
+[[!redirects separated subsets]]
+[[!redirects separated subspace]]
+[[!redirects separated subspaces]]
+
+
 [[!redirects T1]]
-c
+
 [[!redirects T1 space]]
 [[!redirects T1 spaces]]
 [[!redirects T1-space]]
