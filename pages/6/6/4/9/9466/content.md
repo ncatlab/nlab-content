@@ -7,11 +7,16 @@ Cauchy\'s student [[Karl Weierstrass]] defined limits in terms of [[Richard Dede
 
 Cauchy is associated with:
 
+* [[Cauchy sequences]]
+
 *  the [[Cauchy group theorem]]
+
 *  [[Cauchy sequences]] (and thus [[Cauchy nets]], [[Cauchy filters]], and [[Cauchy spaces]], although Cauchy himself knew none of these)
+
 *  the [[Cauchy-Riemann equation|Cauchy–Riemann equations]]
 
 *  the [[Cauchy integral theorem]] and [[Cauchy integral formula]]
+
 *  the [[Cauchy integral]]
 
 *  [[Cours d'Analyse]], a textbook on [[infinitesimal analysis]]/[[epsilontic analysis]]
