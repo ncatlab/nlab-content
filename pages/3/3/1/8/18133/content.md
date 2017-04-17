@@ -19,6 +19,8 @@ Formalisms that make infinitesimal analysis precise include
 
 * [[nonstandard analysis]]
 
+* [[nilpotent infinitesimal]]
+
 ## References
 
 * [[Augustin Cauchy]], _[[Cours d'Analyse]]_ (1821)
