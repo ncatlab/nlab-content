@@ -400,7 +400,7 @@ Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Say that
 
 1. A _[[neighbourhood]]_ of a point $x \in X$ is a [[subset]] $U_x \subset X$ which contains some [[open ball]] $B_x^\circ(\epsilon) \subset U_x$ around $x$ (def. \ref{OpenBalls}).
 
-1. An _[[open subset]]_ of $X$ is a [[subset]] $U \subset X$ such that for every $x \in U$ it also contains an [[open ball]] around $x$ (def. \ref{OpenBalls}).
+1. An _[[open subset]]_ of $X$ is a [[subset]] $U \subset X$ such that for every $x \in U$ it also contains an [[open ball]] $B^\circ_x(\epsilon)$ around $x$ (def. \ref{OpenBalls}).
 
 1. An _[[open neighbourhood]]_ of a point $x \in X$ is a [[neighbourhood]] $U_x$ of $x$ which is also an open subset, hence equivalently this is any open subset of $X$ that contains $x$.
 
@@ -700,14 +700,14 @@ $$
     \left(
     \underset{ {i \in \mathbb{N}} \atop {i \gt n} }{\forall}
     \;
-    d(x_i, y) \leq \epsilon
+    d(x_i, x_\infty) \leq \epsilon
     \right)
     \right)
   \right)
   \,.
 $$
 
-Here the point $x_\infty$ is called the _[[limit of the sequence]]_. 
+Here the point $x_\infty$ is called the _[[limit of a sequence|limit of the sequence]]_. 
 Often one writes $\underset{i \to \infty}{\lim}x_i$ for this point.
 
 =--
@@ -734,9 +734,9 @@ $$
   \left(
     \underset{{\epsilon \in \mathbb{R}} \atop {\epsilon \gt 0}}{\forall}
     \left(
-    \underset{N_\epsilon \in \mathbb{N}}{\exists}
+    \underset{N \in \mathbb{N}}{\exists}
     \left(
-    \underset{{i,j \in \mathbb{N}} \atop {i,j \gt N_{\epsilon}}}{\forall}
+    \underset{{i,j \in \mathbb{N}} \atop {i,j \gt N }}{\forall}
     \;
     d(x_i, x_j) \leq \epsilon
     \right)
@@ -785,14 +785,27 @@ For a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) the following are equiva
 1. for every [[set]] $\{U_i \subset X\}_{i \in I}$ of [[open subsets]] $U_i$ of $X$ (def. \ref{OpenSubsetsOfAMetricSpace})
    which cover $X$ in that $X = \underset{i \in I}{\cup} U_i$, then
    there exists a [[finite set|finite]] [[subset]] $J \subset I$ of these open subsets which still covers
-   $X$ in that also $X = \underset{i \in J \subset I}{\cup} U_i = X$.
+   $X$ in that also $X = \underset{i \in J \subset I}{\cup} U_i$.
 
 =--
 
-The proof of prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace}
+The **proof** of prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace}
 is most conveniently formulated with some of the terminology of topology in hand, which we introduce now.
+Therefore we postpone the proof to [below](#ProofOfSequentiallyCompactMetricSpacesAreEquivCompact).
 
 
+$\,$
+
+In **summary** prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} and prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace}
+show that the purely combinatorial 
+and in particular non-[[epsilontic analysis|epsilontic]] concept of _[[open subsets]]_ captures a substantial part of the nature of
+[[metric spaces]] in [[analysis]]. This motivates to reverse the logic and consider "[[spaces]]" which are
+_only_ characterized by what counts as their open subsets. These are the _[[topological spaces]]_
+which we turn to now in def. \ref{TopologicalSpace} (or, more generally, these are the "[[locales]]", which we briefly
+remark on further below in remark \ref{Locales}).
+
+
+$\,$
 
 
 
@@ -810,9 +823,9 @@ property is what _characterizes_ the concept:
 
 The collection of [[open subsets]] of a [[metric space]] $(X,d)$ as in def. \ref{OpenSubsetsOfAMetricSpace} has the following properties:
 
-1. The [[intersection]] of any [[finite number]] of open subsets is again an open subset.
-
 1. The [[union]] of any [[set]] of open subsets is again an open subset.
+
+1. The [[intersection]] of any [[finite number]] of open subsets is again an open subset.
 
 In particular
 
@@ -865,12 +878,14 @@ The simple definition of [[open subsets]] in def. \ref{TopologicalSpace} and the
 implementation of the _principle of continuity_ below in def. \ref{ContinuousMaps}
 gives the field of [[topology]] its fundamental and universal flavor. The combinatorial nature of these definitions makes
 topology be closely related to [[formal logic]]. This becomes more manifest still for the "[[sober topological space]]"
-discussed [below](#SoberSpaces). For more on this perspective see also at _[[locale]]_.
+discussed [below](#SoberSpaces). For more on this perspective see also the remark on _[[locale]]_ below, remark \ref{Locales}.
 An introductory textbook amplifying this perspective is ([Vickers 89](#Vickers89)).
 
 =--
 
-Here is some common **further terminology** relating to topological spaces:
+$\,$
+
+Here is some common **further terminology** regarding topological spaces:
 
 +-- {: .num_defn #TopologyFinerCoarser}
 ###### Definition
@@ -892,6 +907,31 @@ one says that
 
 =--
 
++-- {: .num_defn #TopologyBase}
+###### Definition
+**([[basis for the topology]])**
+
+Let $(X, \tau)$ be a [[topological space]], def. \ref{TopologicalSpace},
+and let
+
+$$
+  B \subset \tau
+$$
+
+be a [[subset]] of its set of [[open subsets]]. We say that
+
+1. $B$ is a _[[topological base|basis for the topology]]_ if every open subset $O \in \tau$ is a [[union]] of elements of $B$;
+
+1. $B$ is a _[[topological base|sub-basis for the topology]]_ if every open subset $O \in \tau $ is a [[union]] of [[finitary intersections|finite intersections]] of elements of $B$.
+
+Alternatively, $B \subset \tau$ is a sub-basis for $\tau$ if $\tau$ is the coarsest topology (def. \ref{TopologyFinerCoarser})
+which contains $B$.
+
+=--
+
+Often it is convenient to define topologies by defining some (sub-)basis (def. \ref{TopologyBase}). Examples are the definition 
+of the binary [[product topological space|product topology]] below in def. \ref{BinaryProductTopologicalSpace} below, 
+or of the [[compact-open topology]] on [[mapping spaces]] below in def. \ref{CompactOpenTopology}.
 
 
 
@@ -913,26 +953,6 @@ Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Then the collection 
 
 Stated more concisely: the [[open balls]] in a metric space constitute a "[[basis of a topology|basis]]" for the [[metric topology]]:
 
-+-- {: .num_defn #TopologyBase}
-###### Definition
-
-Let $(X, \tau)$ be a [[topological space]], def. \ref{TopologicalSpace},
-and let
-
-$$
-  B \subset \tau
-$$
-
-be a [[subset]] of its set of [[open subsets]]. We say that
-
-1. $B$ is a _[[topological base|basis for the topology]]_ if every open subset $O \in \tau$ is a [[union]] of elements of $B$;
-
-1. $B$ is a _[[topological base|sub-basis for the topology]]_ if every open subset $O \in \tau $ is a [[union]] of [[finitary intersections]] of elements of $B$.
-
-=--
-
-Often it is convenient to define topologies by defining some (sub-)basis. An example is the definition of the
-[[compact-open topology]] on [[mapping spaces]] below in def. \ref{CompactOpenTopology}.
 
 While the example of [[metric space]] topologies (example \ref{MetricTopology}) is the motivating example
 for the concept of [[topological spaces]], it is important to notice that the concept
@@ -963,7 +983,11 @@ regarded as the 0-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}).
 We write
 
 $$
-  \ast \coloneqq (\{1\}, \left\{ \emptyset, \{1\}\right\})
+  \ast 
+    \coloneqq 
+  \left(
+    \left\{1\right\}, \left\{ \emptyset, \left\{1\right\}\right\}
+  \right)
 $$
 
 for this topological space and call it _the [[point]]_.
@@ -1015,29 +1039,28 @@ def. \ref{TopologicalSpace}, and hence making it a [[topological space]]:
 
    we write $CoDisc(S)$ for the resulting topological space.
 
-The reason for this terminology is best seen when considering [[continuous functions]] into or out of these (co-)discrete topological spaces.
-See example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces} below.
+The reason for this terminology is best seen when considering [[continuous functions]] into or out of these (co-)discrete topological spaces, we come to this in example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces} below.
 
 =--
 
-+-- {: .num_defn #TopologyCofinite}
-###### Definition
++-- {: .num_example #TopologyCofinite}
+###### Example
 
 Given a [[set]] $X$, then the _[[cofinite topology]]_ or _finite complement topology_ on $X$ is the [[topological space|topology]]
 (def. \ref{TopologicalSpace}) whose [[open subsets]] are precisely
 
-1. all [[cofinite subsets]];
+1. all [[cofinite subsets]] $S \subset X$ (i.e. those such that the [[complement]] $X \backslash S$ is a [[finite set]]);
 
 1. the [[empty set]].
 
-If $X$ is a [[finite set]] (but not otherwise) then the cofinite topology on $X$ coincides with the [[discrete topological space|discrete topology]] on $X$ (example \ref{CoDiscreteTopology}).
+If $X$ is itself a [[finite set]] (but not otherwise) then the cofinite topology on $X$ coincides with the [[discrete topological space|discrete topology]] on $X$ (example \ref{CoDiscreteTopology}).
 
 =--
 
 
 
-+-- {: .num_defn #DisjointUnionOfTopologicalSpaces}
-###### Definition
++-- {: .num_example #DisjointUnionOfTopologicalSpaces}
+###### Example
 
 For $\{(X_i, \tau_i)\}_{i \in I}$ a [[set]] of topological spaces, then their _[[disjoint union]]_
 
@@ -1061,7 +1084,7 @@ on that index set.
 
 +-- {: .num_example #BinaryProductTopologicalSpace}
 ###### Example
-**(binary product topological space)**
+**([[product topological space|binary product topological space]])**
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/ProductTopology.png" width="300">
@@ -3081,7 +3104,7 @@ That neither class is contained in the other is shown by the following counter-e
 
 * The [[Sierpinski space]] (def. \ref{SierpinskiSpace}) is sober, but not $T_1$.
 
-* The [[cofinite topology]] (def. \ref{TopologyCofinite}) on a non-[[finite set]] is $T_1$ but not sober.
+* The [[cofinite topology]] (example \ref{TopologyCofinite}) on a non-[[finite set]] is $T_1$ but not sober.
 
 =--
 
@@ -3188,9 +3211,9 @@ that $f$ is indeed a continuous function. This proves the claim in generality.
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #Locales}
 ###### Remark
-**(locales)**
+**([[locales]])**
 
 Proposition \ref{FrameMorphismsBetweenOpensOfSoberSpaces}
 is often stated as saying that sober topological spaces are [[equivalence of categories|equivalently]] the
@@ -3486,7 +3509,7 @@ $$
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_defn #SequentiallyCompactTopologicalSpace}
 ###### Definition
 **([[sequentially compact topological space]])**
 
@@ -3546,12 +3569,119 @@ precisely if its underlying set is [[finite set|finite]].
 
 =--
 
-In terms of these definitions, the familiar statement about metric spaces from prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace} now says equivalently that
-[[sequentially compact metric spaces are equivalently compact metric spaces]]. But for
-general topological spaces being sequntially compact neighther implies nor is implied by being compact (...examples...).
+In terms of these definitions, the familiar statement about metric spaces from prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace} now equivalently says the following
 
 
-In [[analysis]] the [[extreme value theorem]] asserts that a [[real number|real]]-valued [[continuous function]]
++-- {: .num_prop #SequentiallyCompactMetricSpacesAreEquivCompact}
+###### Proposition
+**([[sequentially compact metric spaces are equivalently compact metric spaces]])**
+
+If $(X,d)$ is a [[metric space]], regarded as a [[topological space]] via its [[metric topology]] (def. \ref{MetricTopology}), then the following are equivalent:
+
+1. $(X,d)$ is a [[compact topological space]] (def. \ref{CompactTopologicalSpace}).
+
+1. $(X,d)$ is a [[sequentially compact topological space]] (def. \ref{SequentiallyCompactTopologicalSpace}).
+
+=--
+
++-- {: .proof #ProofOfSequentiallyCompactMetricSpacesAreEquivCompact}
+###### Proof
+of prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace} and  prop. \ref{SequentiallyCompactMetricSpacesAreEquivCompact}
+
+Assume first that $(X,d)$ is a [[compact topological space]]. Let $(x_k)_{k \in \mathbb{N}}$ be a [[sequence]] in $X$. We need to show that it has a sub-sequence which [[convergence|converges]].
+
+Consider the [[topological closures]] of the sub-sequences that omit the first $n$ elements of the sequence
+
+$$
+  F_n
+   \;\coloneqq\;
+  Cl(\left\{
+    x_k \,\vert\, k \geq n
+  \right\})
+$$
+
+and write
+
+$$
+  U_n \coloneqq X \backslash F_n
+$$
+
+for their [[open subset|open]] [[complements]].
+
+Assume now that the [[intersection]] of all the $F_n$ were [[empty set|empty]]
+
+$$
+  (\star)
+  \phantom{AA}
+  \underset{n \in \mathbb{N}}{\cap} F_n \;= \; \emptyset
+$$
+
+or equivalently that the [[union]] of all the $U_n$ were all of $X$
+
+$$
+  \underset{n \in \mathbb{N}}{\cup} U_n
+  \;=\;
+  X
+  \,,
+$$
+
+hence that $\{U_n \to X\}_{n \in \mathbb{N}}$ were an [[open cover]]. By the assumption that $X$ is compact, this would imply that there is a [[finite set|finite]] [[subset]] $\{i_1 \lt i_2 \lt  \cdots \lt i_k\} \subset \mathbb{N}$ with
+
+$$
+  \begin{aligned}
+    X & = U_{i_1} \cup U_{i_2} \cup \cdots \cup U_{i_k}
+    \\
+    & = U_{i_k}
+  \end{aligned}
+  \,.
+$$
+
+This in turn would mean that $F_{i_k} = \empty$, which contradicts the construction of $F_{i_k}$. Hence we have a [[proof by contradiction]] that assumption $(\ast)$ is wrong, and hence that there must exist an element
+
+$$
+  x \in \underset{n \in \mathbb{N}}{\cap} F_n
+  \,.
+$$
+
+By definition of [[topological closure]] this means that for all $n$ the [[open ball]] $B^\circ_x(1/(n+1))$ around $x$ of [[radius]] $1/(n+1)$ must intersect the $n$th of the above subsequence:
+
+$$
+  B^\circ_x(1/(n+1))
+  \,\cap\,
+  \{x_k \,\vert\, k \geq n \}
+  \;\neq\;
+  \emptyset
+  \,.
+$$
+
+Picking one point $(x'_n)$ in the $n$th such intersection for all $n$ hence defines a sub-sequence, which converges to $x$.
+
+This proves that compact implies sequentially compact for metric spaces.
+
+For the converse, assume now that $(X,d)$ is sequentially compact. Let $\{U_i \to X\}_{i \in I}$ be an [[open cover]] of $X$. We need to show that there exists a finite sub-cover.
+
+Now by the [[Lebesgue number lemma]], there exists a positive real number $\delta \gt 0$ such that for each $x \in X$ there is $i_x \in I$ such that $B^\circ_x(\delta) \subset U_{i_x}$.
+Moreover, since [[sequentially compact metric spaces are totally bounded]], there exists then  a [[finite set]] $S \subset X$ such that
+
+$$
+   X
+     \;=\;
+   \underset{s \in S}{\cup}
+   B^\circ_s(\delta)
+   \,.
+$$
+
+Therefore $\{U_{i_s} \to X\}_{s \in S}$ is a finite sub-cover as required.
+
+=--
+
+
+In contrast to prop. \ref{SequentiallyCompactMetricSpacesAreEquivCompact}, for
+general topological spaces being sequentially compact neighther implies nor is implied by being compact (...examples...).
+
+$\,$
+
+In [[analysis]], the [[extreme value theorem]] asserts that a [[real number|real]]-valued [[continuous function]]
 on the [[bounded subset|bounded]] [[closed interval]] (def. \ref{OpenAndClosedIntervals}) attains its
 [[maximum]] and [[minimum]]. The following is the generalization of this statement to general topological spaces:
 
