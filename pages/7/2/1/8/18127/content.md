@@ -19,18 +19,22 @@ and ends with their first application to the classification of [[covering spaces
 
 > Under construction.
 
-***
+$\m$
 
 main page: _[[Introduction to Topology]]_
 
 previous chapter: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set topology]]_
 
-**this chapter**: Introduction to Topology 2 -- Basic Homotopy Theory
+this chapter: **Introduction to Topology 2 -- Basic Homotopy Theory**
 
 $\,$
 
-For introduction to more general and abstract _[[homotopy theory]]_ see instead at _[[Introduction to Homotopy Theory]]_.
+For introduction to genuine _[[homotopy theory]]_ see instead
+at _[[Introduction to Homotopy Theory]]_.
 
+
+
+***
 
 $\,$
 
