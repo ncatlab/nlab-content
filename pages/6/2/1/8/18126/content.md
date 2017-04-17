@@ -17,7 +17,7 @@ used to transparently summarize some conceptually important aspects of the theor
 The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
 and ends with their first application to the classification of [[covering spaces]].
 
-***
+$\,$
 
 main page: _[[Introduction to Topology]]_
 
@@ -27,11 +27,11 @@ next chapter: _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Bas
 
 $\,$
 
-
 For introduction to more general and abstract _[[homotopy theory]]_ see instead
 at _[[Introduction to Homotopy Theory]]_.
 
 
+***
 
 $\,$
 
@@ -295,6 +295,14 @@ More generally, for $n \in \mathbb{N}$, and $p \in \mathbb{N}$, $p \geq 1$, then
      {\Vert \vec x \Vert}_p  \coloneqq \root p {\sum_i {|x_i|^p}}
    $$
 
+One also sets
+
+$$
+  {\Vert \vec x \Vert}_\infty \coloneqq \underset{i \in I}{max} {\vert x_i \vert}
+$$
+
+and calls this the _[[supremum norm]]_.
+
 The graphics on the right (grabbed from Wikipedia) shows unit circles (def. \ref{OpenBalls}) in $\mathbb{R}^2$ with respect to various [[p-norms]].
 
 By the [[Minkowski inequality]],
@@ -379,9 +387,12 @@ We now reformulate the analytic concept of continuity from def. \ref{EpsilonDelt
 
 Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Say that
 
-1. A _[[neighbourhood]]_ of a point $x \in X$ is a [[subset]] $x \in U \subset X$ which contains some [[open ball]] $B_x^\circ(\epsilon)$ around $x$ (def. \ref{OpenBalls}).
+1. A _[[neighbourhood]]_ of a point $x \in X$ is a [[subset]] $U_x \subset X$ which contains some [[open ball]] $B_x^\circ(\epsilon) \subset U_x$ around $x$ (def. \ref{OpenBalls}).
 
-1. An _[[open subset]]_ of $X$ is a [[subset]] $U \subset X$ such that for every $x \in U$ it also contains a [[neighbourhood]] of $x$.
+1. An _[[open subset]]_ of $X$ is a [[subset]] $U \subset X$ such that for every $x \in U$ it also contains an [[open ball]] around $x$ (def. \ref{OpenBalls}).
+
+1. An _[[open neighbourhood]]_ of a point $x \in X$ is a [[neighbourhood]] $U_x$ of $x$ which is also an open subset, hence  
+   equivalently this is any open subset of $X$ that contains $x$.
 
 =--
 
@@ -394,18 +405,19 @@ The following picture shows a point $x$, some [[open balls]] $B_i$ containing it
 
 +-- {: .num_example #OpenAndClosedIntervals}
 ###### Example
+**(open/closed [[intervals]])**
 
 Regard the [[real numbers]] $\mathbb{R}$ as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}).
 
 For $a \lt b \in \mathbb{R}$ consider the following [[subsets]]:
 
-1. $(a,b) \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x \lt b \right\}$ $\phantom{AA}$ (open interval)
+1. $(a,b) \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x \lt b \right\}$ $\phantom{AA}$ (*open interval*)
 
-1. $(a,b] \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x \leq b \right\}$ $\phantom{AA}$ (half-open interval)
+1. $(a,b] \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x \leq b \right\}$ $\phantom{AA}$ (*half-open interval*)
 
-1. $[a,b) \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x \lt b \right\}$ $\phantom{AA}$ (half-open interval)
+1. $[a,b) \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x \lt b \right\}$ $\phantom{AA}$ (*half-open interval*)
 
-1. $[a,b] \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x \leq b \right\}$ $\phantom{AA}$ (closed interval)
+1. $[a,b] \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x \leq b \right\}$ $\phantom{AA}$ (*closed interval*)
 
 The first of these is an open subset according to def. \ref{OpenSubsetsOfAMetricSpace}, the other three are not.
 The first one is called an _[[open interval]]_, the last one a _[[closed interval]]_
@@ -413,15 +425,23 @@ and the middle two are called _[[half-open intervals]]_.
 
 Similarly for $a,b \in \mathbb{R}$ one considers
 
-1. $(-\infty,b) \coloneqq \left\{ x \in \mathbb{R} \vert x \lt b  \right\}$
+1. $(-\infty,b) \coloneqq \left\{ x \in \mathbb{R} \vert x \lt b  \right\}$ (*unbounded open interval*)
 
-1. $(a,\infty) \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x  \right\}$
+1. $(a,\infty) \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x  \right\}$ (*unbounded open interval*)
 
-1. $(-\infty,b] \coloneqq \left\{ x \in \mathbb{R} \vert x \leq b  \right\}$
+1. $(-\infty,b] \coloneqq \left\{ x \in \mathbb{R} \vert x \leq b  \right\}$ (*unbounded half-open interval*)
 
-1. $[a,\infty) \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x  \right\}$
+1. $[a,\infty) \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x  \right\}$ (*unbounded half-open interval*)
 
 The first two of these are open subsets, the last two are not.
+
+For completeness we may also consider
+
+* $(-\infty , \infty) = \mathbb{R}$
+
+* $(a,a) = \emptyset$ 
+
+which are both open, according to def. \ref{TopologicalSpace}.
 
 =--
 
@@ -1802,7 +1822,7 @@ and such that $V$ is $f$-[[saturated subset|saturated]].
 +-- {: .proof}
 ###### Proof
 
-We claim that the [[complement]] of $X$ by the $f$-saturation of the complement of $X$ by $U$ spring
+We claim that the [[complement]] of $X$ by the $f$-saturation (def. \ref{SubsetSaturated}) of the complement of $X$ by $U$ 
 
 $$
   V \coloneqq X \backslash \left(  f^{-1}\left( f\left(  X \backslash U \right)  \right) \right)
