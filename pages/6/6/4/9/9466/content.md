@@ -10,12 +10,13 @@ Cauchy is associated with:
 *  the [[Cauchy group theorem]]
 *  [[Cauchy sequences]] (and thus [[Cauchy nets]], [[Cauchy filters]], and [[Cauchy spaces]], although Cauchy himself knew none of these)
 *  the [[Cauchy-Riemann equation|Cauchy–Riemann equations]]
+
 *  the [[Cauchy integral theorem]] and [[Cauchy integral formula]]
 *  the [[Cauchy integral]]
 
 *  [[Cours d'Analyse]], a textbook on [[infinitesimal analysis]]/[[epsilontic analysis]]
 
-*  [[Cauchy's mistake]] (from his 1821 textbook [[Cours d'Analyse]])
+*  [[Cauchy sum theorem]] ("[[Cauchy's mistake]]") from his 1821 textbook [[Cours d'Analyse]]
 
 
 category: people
