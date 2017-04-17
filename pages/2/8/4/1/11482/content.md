@@ -39,6 +39,8 @@ See at _[[elliptic curve]]_ and at _[[Möbius transformation]]_ for more.
 
 ## References
 
+Named after [[Karl Weierstrass]].
+
 * Wikipedia, _[Weierstrass's elliptic functions](https://en.wikipedia.org/wiki/Weierstrass's_elliptic_functions)_
 
 [[!redirects Weierstrass elliptic functions]]
