@@ -1,3 +1,4 @@
+[[!redirects a CW-complex is a Hausdorff space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
