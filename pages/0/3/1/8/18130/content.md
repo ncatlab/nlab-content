@@ -39,6 +39,8 @@ This construction is the reflector exhibiting Kolmogorov spaces as a [[reflectiv
 
 * [[Hausdorff topological space]]
 
+* [[nice topological space]]
+
 ## References
 
 * Wikipedia, _[Kolmogorov space](https://en.wikipedia.org/wiki/Kolmogorov_space)_
