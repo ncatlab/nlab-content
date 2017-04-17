@@ -15,11 +15,7 @@ In passing, some basics of [[category theory]] make an informal appearance,
 used to transparently summarize some conceptually important aspects of the theory, such as the [[reflective subcategory|reflection]] into
 [[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]].
 The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
-and ends with their first application to the classification of [[covering spaces]].
-
-For introduction to genuine _[[homotopy theory]]_ see instead
-at _[[Introduction to Homotopy Theory]]_.
-
+and ends with their first application to the classification of [[covering spaces]]
 
 ***
 
@@ -29,6 +25,9 @@ $\,$
 
 **part II**: _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Basic Homotopy Theory]]_
 
+$\,$
+
+For introduction to more general and abstract _[[homotopy theory]]_ see instead at _[[Introduction to Homotopy Theory]]_.
 
 $\,$
 
@@ -57,10 +56,10 @@ continuously on their arguments, in that that their values do not "jump".
 Such a concept of [[continuous function|continuity]] is familiar from [[analysis]] on [[metric spaces]],
 (recalled [below](#Continuity)) but the definition in topology generalizes this analytic concept
 and renders it more foundational, generalizing the concept of [[metric spaces]] to that of _[[topological spaces]]_.
-(def. \ref{TopologicalSpace} below).
+([this def.](Introduction+to+Topology+--+1#TopologicalSpace) below).
 
 Hence [[topology]] is the study of the [[category]] whose [[objects]] are [[topological spaces]], and whose
-[[morphisms]] are [[continuous functions]] (see also remark \ref{TopCategory} below).
+[[morphisms]] are [[continuous functions]] (see also [this remark](Introduction+to+Topology+--+1#TopCategory) below).
 This category is much more flexible than that of [[metric spaces]], for example it admits the construction of
 arbitrary [[quotients]] and [[intersections]] of spaces.
 Accordingly, topology underlies or informs many and diverse areas of mathematics, such as
@@ -90,7 +89,7 @@ Beware that the popular imagery of "[[rubber-sheet geometry]]" only captures par
 in that it invokes spaces that _locally_ still look like [[metric spaces]].
 But the concept of topological spaces is a good bit more general.
 Notably [[finite topological spaces]] are either [[discrete topological space|discrete]] or very much unlike
-[[metric spaces]] (example \ref{FiniteT1SpacesAreDiscrete} below), they play a role in [[categorical logic]]. Also in [[geometry]] exotic topological spaces frequently arise when  forming non-free [[quotients]].
+[[metric spaces]] ([this example](Introduction+to+Topology+--+1#FiniteT1SpacesAreDiscrete) below), they play a role in [[categorical logic]]. Also in [[geometry]] exotic topological spaces frequently arise when  forming non-free [[quotients]].
 In order to gauge just how many of such "exotic" examples of topological  spaces beyond locally [[metric spaces]] one wishes
 to admit in the theory,
 extra "[[separation axioms]]" are imposed on topological spaces (see [below](#SeparationAxioms)), and the flavour of topology as a field
