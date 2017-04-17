@@ -157,7 +157,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-There are various ways to construct $h_X$, see below prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces} and prop. (...).
+There are various ways to construct $h_X$, see below prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces} and prop. \ref{HausdorffReflectionViaTransitiveClosureOfDiagonal}
 
 
 =--
@@ -272,6 +272,7 @@ Then:
 =--
 
 ([vanMunster 14, section 4](#vanMunster14))
+
 
 ### Monadicity
 
