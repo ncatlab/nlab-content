@@ -70,8 +70,10 @@ from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles c
 
 * [[Joyal-Tierney calculus]]
 
-[[!redirects lifting]]
 [[!redirects lifts]]
+
+[[!redirects lifting]]
+[[!redirects liftings]]
 
 [[!redirects lifting property]]
 [[!redirects lifting properties]]
