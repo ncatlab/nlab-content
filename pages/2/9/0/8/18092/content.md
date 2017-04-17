@@ -21,7 +21,7 @@ For $p = 2$ the $p$-norm is the standard _Euclidean norm_, defining [[Euclidean 
 
 For $p = \infty$ the $p$-norm (found by taking the limit $p \to \infty$) is the [[supremum]] (or [[essential supremum]] in the continuous case) of the absolute values of the components of vectors, then called the _supremum norm_.
 
-For $0 \leq p \lt 1$ one may to some extent still make sense of the formulas that define $p$-norms (see at _[Generalizations](#Generalizations)_ below), but the resulting concepts are no longer genuine norms.
+For $0 \leq p \lt 1$ one may still make sense of the formulas that define $p$-norms for $p \geq 1$ (see at _[Generalizations](#Generalizations)_ below), but the resulting concepts are no longer genuine norms.
 
 
 ## Definition
