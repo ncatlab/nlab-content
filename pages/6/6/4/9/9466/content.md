@@ -12,7 +12,10 @@ Cauchy is associated with:
 *  the [[Cauchy-Riemann equation|Cauchy–Riemann equations]]
 *  the [[Cauchy integral theorem]] and [[Cauchy integral formula]]
 *  the [[Cauchy integral]]
-*  [[Cauchy's mistake]] (from his 1821 textbook)
+
+*  [[Cours d'Analyse]], a textbook on [[infinitesimal analysis]]/[[epsilontic analysis]]
+
+*  [[Cauchy's mistake]] (from his 1821 textbook [[Cours d'Analyse]])
 
 
 category: people
