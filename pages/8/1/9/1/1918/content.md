@@ -235,9 +235,10 @@ In general, the names in this diagram are:
 
 Warning: $T_i$ for $i \geq 3$ has been used in different ways in the past, and perhaps by some schools still.  Also, all of the $R_i$ terms are rare.  It is safest to say, for example, 'normal Hausdorff' for $T_4$ and clearer to say, for example, 'normal regular' for $R_3$.  If you want to avoid the subscript terms entirely, then you can, by doing the above and the following:
 
+* $T_{2\tfrac{1}{2}}$ = [[Urysohn space|Urysohn]]
 *  $T_2$ = [[Hausdorff space|Hausdorff]],
 *  $T_1$ = accessible,
-*  $T_0$ = Kolmogorov,
+*  $T_0$ = [[Kolmogorov space|Kolmogorov]],
 *  $R_1$ = reciprocal,
 *  $R_0$ = symmetric.
 
