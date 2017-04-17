@@ -27,4 +27,4 @@ Formalisms that make infinitesimal analysis precise include
 
 category: reference
 
-
+[[!redirects infinitesimal calculus]]
