@@ -17,9 +17,6 @@ used to transparently summarize some conceptually important aspects of the theor
 The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
 and ends with their first application to the classification of [[covering spaces]].
 
-For introduction to genuine _[[homotopy theory]]_ see instead
-at _[[Introduction to Homotopy Theory]]_.
-
 ***
 
 main page: _[[Introduction to Topology]]_
@@ -27,6 +24,13 @@ main page: _[[Introduction to Topology]]_
 **this chapter:** _Introduction to Topology 1 -- Point-set topology_
 
 next chapter: _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Basic Homotopy Theory]]_
+
+$\,$
+
+
+For introduction to more general and abstract _[[homotopy theory]]_ see instead
+at _[[Introduction to Homotopy Theory]]_.
+
 
 
 $\,$
@@ -123,7 +127,7 @@ The concept of continuity was made precise first in [[analysis]], in terms of [[
 
 Here we briefly recall the relevant basic concepts from [[analysis]], as a motivation for various definitions in
 [[topology]]. The reader who either already recalls these concepts in analysis
-or is content with ignoring the motivation of topology from analysis should skip right away to the section _[Topological spaces](#TopologicalSpaces)_.
+or is content with ignoring the motivation coming from analysis should skip right away to the section _[Topological spaces](#TopologicalSpaces)_.
 
 +-- {: .num_defn #MetricSpace}
 ###### Definition
@@ -176,11 +180,13 @@ $$
   S_x(\epsilon)
     \;\coloneqq\;
   \left\{
-    y \in X \;\vert\; d(x,y) = \epsilom
+    y \in X \;\vert\; d(x,y) = \epsilon
   \right\}
 $$
 
 for the [[sphere]] of [[radius]] $\epsilon$ around $x$.
+
+For $\epsilon = 1$ we also speak of the _unit open/closed ball_ and the _unit sphere_.
 
 =--
 
@@ -191,7 +197,7 @@ For $(X,d)$ a [[metric space]] (def. \ref{MetricSpace}) then a [[subset]] $S \su
 is called a _[[bounded subset]]_ if $S$ is contained in some [[open ball]] (def. \ref{OpenBalls})
 
 $$
-  S \ubset B^\circ_x(r)
+  S \subset B^\circ_x(r)
 $$
 
 around some $x \in X$ of some [[radius]] $r \in \mathbb{R}$.
@@ -2408,7 +2414,7 @@ In summary:
 {#TableOfMainSeparationAxioms}
 | number | name | statement | reformulation |
 |--------|------|-----------|---------------|
-| $T_0$  | Kolmogorov | given two distinct points, at least one of them has an open neighbourhood not containing the other point |  every irreducible closed subset is the closure of at most one point |
+| $T_0$  | [[Kolmogorov topological space|Kolmogorov]] | given two distinct points, at least one of them has an open neighbourhood not containing the other point |  every irreducible closed subset is the closure of at most one point |
 | $T_1$  |      | given two distinct points, both have an open neighbourhood not containing the other point | all points are closed |
 | $T_2$  | [[Hausdorff topological space|Hausdorff]] | given two distinct points, they have disjoint open neighbourhoods | the diagonal is a closed map  |
 | $T_3$  | [[regular Hausdorff topological space|regular Hausdorff]] |  all points are closed; and given two disjoint closed subsets, at least one of them has an open neighbourhood disjoint from the other closed subset |  |
@@ -2577,7 +2583,11 @@ $$
   \,.
 $$
 
-Here $X \overset{t_n(X)}{\longrightarrow} T_n(X)$ is also called the _$T_n$-reflection_ of $X$.
+Here $X \overset{t_n(X)}{\longrightarrow} T_n(X)$ may be called the _$T_n$-reflection_ of $X$.
+For $n = 0$ this is known as the _[[Kolmogorov quotient]]_ construction (see prop. \ref{KolmogorovQuotient} below). For $n = 2$
+it is known as _[[Hausdorff reflection]]_ or _Hausdorffication_ or similar.
+
+
 
 Moreover, the operation $T_n(-)$ extends to [[continuous functions]] $f \colon X \to Y$
 
@@ -2703,8 +2713,9 @@ satisfy the required disjunction properties. Therefore $T_n X$ is a $T_n$-space.
 
 =--
 
+Here are alternative constructions of the reflections:
 
-+-- {: .num_prop #KolmogorvQuotient}
++-- {: .num_prop #KolmogorovQuotient}
 ###### Proposition
 **([[Kolmogorov quotient]])**
 
@@ -2714,6 +2725,7 @@ This is an [[equivalence relation]]. The [[quotient topological space]] $X \to X
 equivalence relation (def. \ref{QuotientTopologicalSpace}) exhibits the $T_0$-reflection of $X$ according to prop. \ref{HausdorffReflection}.
 
 =--
+
 
 
 
