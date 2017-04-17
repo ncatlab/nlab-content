@@ -60,7 +60,7 @@ $$
 
 for their [[open subset|open]] [[complements]].
 
-Assume now that
+Assume now that the [[intersection]] of all the $F_n$ were [[empty set|empty]]
 
 $$
   (\star)
@@ -68,7 +68,7 @@ $$
   \underset{n \in \mathbb{N}}{\cap} F_n \;= \; \emptyset
 $$
 
-or equivalently that
+or equivalently that the [[union]] of all the $U_n$ were all of $X$
 
 $$
   \underset{n \in \mathbb{N}}{\cup} U_n
@@ -77,14 +77,14 @@ $$
   \,,
 $$
 
-hence that $\{U_n \to X\}_{n \in \mathbb{N}}$ is an [[open cover]]. By the assumption that $X$ is compact, this would imply that there is a [[finite set|finite]] [[subset]] $\{i_1 \lt i_2 \lt  \cdots \lt i_k\} \subset \mathbb{N}$ with
+hence that $\{U_n \to X\}_{n \in \mathbb{N}}$ were an [[open cover]]. By the assumption that $X$ is compact, this would imply that there is a [[finite set|finite]] [[subset]] $\{i_1 \lt i_2 \lt  \cdots \lt i_k\} \subset \mathbb{N}$ with
 
 $$
-  \array{
+  \begin{aligned}
     X & = U_{i_1} \cup U_{i_2} \cup \cdots \cup U_{i_k}
     \\
     & = U_{i_k}
-  }
+  \end{aligned}
   \,.
 $$
 
@@ -113,7 +113,6 @@ This proves that compact implies sequentially compact for metric spaces.
 For the converse, assume now that $(X,d)$ is sequentially compact. Let $\{U_i \to X\}_{i \in I}$ be an [[open cover]] of $X$. We need to show that there exists a finite sub-cover.
 
 Now by the [[Lebesgue number lemma]], there exists a positive real number $\delta \gt 0$ such that for each $x \in X$ there is $i_x \in I$ such that $B^\circ_x(\delta) \subset U_{i_x}$.
-
 Moreover, since [[sequentially compact metric spaces are totally bounded]], there exists then  a [[finite set]] $S \subset X$ such that
 
 $$
@@ -124,9 +123,7 @@ $$
    \,.
 $$
 
-Therefore $\{U_{i_s} \to X\}_{s \in S}$ is a finite sub-cover.
-
-This shows that for metric spaces sequentially compact implies compact.
+Therefore $\{U_{i_s} \to X\}_{s \in S}$ is a finite sub-cover as required.
 
 =-- 
 
