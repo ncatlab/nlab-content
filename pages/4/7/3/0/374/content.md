@@ -198,6 +198,8 @@ The [[Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets 
 
 * [[first countable topological space]], [[second countable topological space]], [[separable topological space]], [[Hausdorff topological space]], [[topological manifold]]
 
+* [[topological property]]
+
 * [[locale]], [[topos]]
 
 * [[proximity space]], [[uniform space]], [[syntopogenous space]]
