@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _topological property_ is a property of [[topological spaces]] which is [[invariant]] under _[[isomorphism]]_ of topological spaces, hence under [[homeomorphism]]. A _homeomorphism invariant_.
+
+## Related concepts
+
+* [[uniform property]]
+
+* [[epsilontic analysis]]
+
+## References
+
+* Wikipedia, _[Topological property](https://en.wikipedia.org/wiki/Topological_property)_
+
+
+[[!redirects topological properties]]
