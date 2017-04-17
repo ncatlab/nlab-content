@@ -35,6 +35,11 @@ Every uniformly continuous map between uniform spaces is [[continuous map|contin
 
 A [[composite]] of uniformly continuous maps is uniformly continuous, as is any [[identity function]] between (quasi)uniform spaces.  The composite of two antiuniformly continuous maps is uniformly continuous.  Thus uniform spaces are the [[objects]] of a [[category]] whose morphisms are the uniformly continuous maps as [[morphisms]], and quasiuniform spaces are the objects of two categories: one with uniformly continuous maps as morphisms and one with both uniformly continuous maps and antiuniformly continuous maps as morphisms (so that quasiuniform spaces are the objects of an $\mathcal{M}$-[[M-category|category]]).
 
+## Related concepts
+
+* [[uniform convergence]]
+
+* [[uniform property]]
 
 [[!redirects uniform continuity]]
 [[!redirects uniformly continuous]]
