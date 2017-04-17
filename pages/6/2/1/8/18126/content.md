@@ -615,9 +615,22 @@ witnesses that the step function is not continuous at $x = 0$.
 
 
 
-### Convergence
+### Compactness
+ {#CompactMetricSpaces}
 
-Recall the concept of [[convergence]] of [[sequences]] in [[metric spaces]] via [[epsilontic analysis]]:
+A key application of [[metric spaces]] in [[analysis]] is that they allow a formalization of what it means
+for an infinite [[sequence]] of elements in the metric space (def. \ref{Sequences} below)  
+to _[[convergence|converge]]_ to a [[limit of a sequence]] (def. \ref{Convergence}).
+Of particular interest are therefore those metric spaces for which each sequence has a converging subsequence:
+the [[sequentially compact metric spaces]] (def. \ref{MetricSpaceSequentiallyCompact}). 
+
+We now briefly recall these concepts from [[analysis]]. Then, in the above spirit, we reformulate
+the epsilontic definition of sequential compactness equivalently in terms of [[open subsets]].
+This gives a useful definition that generalizes to [[topological spaces]], the _[[compact topological spaces]]_
+discussed further [below](#CompactSpaces).
+
+
+
 
 +-- {: .num_defn #Sequences}
 ###### Definition
@@ -653,7 +666,7 @@ for some [[injection]] $\iota$.
 
 +-- {: .num_defn #Convergence}
 ###### Definition
-**([[convergence]])**
+**([[convergence]] to [[limit of a sequence]])**
 
 Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}).
 Then a [[sequence]]
@@ -693,6 +706,9 @@ $$
   \right)
   \,.
 $$
+
+Here the point $x_\infty$ is called the _[[limit of the sequence]]_. 
+Often one writes $\underset{i \to \infty}{\lim}x_i$ for this point.
 
 =--
 
@@ -748,6 +764,7 @@ Finally recall the concept of _[[compactness]]_ of [[metric spaces]] via [[epsil
 
 +-- {: .num_defn #MetricSpaceSequentiallyCompact}
 ###### Definition
+**([[sequentially compact metric space]])**
 
 A [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) is called _[[sequentially compact space|sequentially compact]]_
 if every [[sequence]] in $X$ has a subsequence (def. \ref{Sequences}) which [[convergence|converges]] (def. \ref{Convergence}).
@@ -759,6 +776,7 @@ makes sense for general [[topological space]] ([below](#CompactSpaces)) is the f
 
 +-- {: .num_prop #CompactnessImpliedBySequentialCompactnessForMetricSpace}
 ###### Proposition
+**([[sequentially compact metric spaces are equivalently compact metric spaces]])**
 
 For a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) the following are equivalent:
 
@@ -771,8 +789,8 @@ For a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) the following are equiva
 
 =--
 
-For a proof see at _[[sequentially compact metric spaces are equivalently compact metric spaces]]_.
-This proof is most conveniently formulated some of the terminology of topology which we introduce in the following.
+The proof of prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace}
+is most conveniently formulated with some of the terminology of topology in hand, which we introduce now.
 
 
 
