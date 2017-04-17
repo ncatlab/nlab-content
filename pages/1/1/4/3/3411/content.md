@@ -28,7 +28,7 @@ Recall that $f$ is a __[[continuous map]]__ if the [[preimage]] of every [[open 
 
 #### Examples 
 
-* For any two topological spaces $X$, $Y$, the projection map $\pi \colon X \times Y \to Y$ is open. 
+* For any two topological spaces $X$, $Y$, the projection map $\pi \colon X \times Y \to Y$ out of the [[product topological space]] is open. 
 
 * If $G$ is a [[topological group]] and $H$ is a subgroup, then the projection to the coset space $p \colon G \to G/H$, where $G/H$ is provided with the quotient topology (making $p$ a quotient map), is open. This follows easily from the observation that if $U$ is open in $G$, then so is 
 $$p^{-1}(p(U)) = U H = \bigcup_{h \in H} U h$$ 
