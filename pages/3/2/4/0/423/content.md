@@ -1381,6 +1381,36 @@ $\,$
 $\,$
 
 
+
+## Basic facts
+ {#BasicFacts}
+
+* [[Hausdorff spaces are sober]], [[schemes are sober]]
+
+* [[CW-complexes are Hausdorff]]
+
+* [[compact Hausdorff spaces are normal]]
+
+* [[continuous image of a compact space is compact]]
+
+* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
+
+* [[quotient projections out of compact Hausdorff spaces are closed precisely if the codomain is Hausdorff]]
+
+
+## Central theorems
+ {#CentralTheorems}
+
+* [[Tietze extension theorem]]
+
+* [[topological invariance of dimension]]
+
+* [[Brouwer's fixed point theorem]]
+
+* [[Jordan curve theorem]]
+
+
+
 ## Related entries
  {#RelatedEntries}
 
