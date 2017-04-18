@@ -34,7 +34,7 @@ as well as
 
 We have:
 
-* a ([[syntactic category]] of a) [[Lawvere theory]] $T$ (or the equivalent in any [[doctrine]]) $T$ is an _abstract general_ or _abstract universal_ (_abstraktes Allgemeines_)
+* a ([[syntactic category]] of a) [[Lawvere theory]] $T$ (or the equivalent in any [[doctrine]]) $T$ is an _abstract general_ or _abstract universal_ (*abstraktes Allgemeines*)
 
 * the [[category]] $T Mod(E)$ of $T$-[[models]]/[[algebra over an algebraic theory|algebras]] in any context $E$ is a _concrete general_ or _concrete universal_
 
