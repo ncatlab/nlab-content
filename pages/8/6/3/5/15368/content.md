@@ -19,7 +19,7 @@
 The key conditions on a [[distance]] function for _[[metric spaces]]_ and on _[[norms]]_ on [[normed vector spaces]] is that the distance $d(x,z)$ between any two points $x,z$ is no larger than the sum of the distances $d(x,y) + d(y,z)$ via any third point $y$
 
 $$
-  d(x,z) \leq d(x,y) + d(x,z)
+  d(x,z) \leq d(x,y) + d(y,z)
   \,.
 $$
 
@@ -78,7 +78,7 @@ $$
   \,.
 $$ 
 
-Moreover, the [[unitality]] condition is part of the non-degenracy condition on a me, and the [[associativity]] condition is automatically satisfied once [[composition]] is defined.
+Moreover, the [[unitality]] condition is part of the non-degeneracy condition on a me, and the [[associativity]] condition is automatically satisfied once [[composition]] is defined.
 
 ## References
 
