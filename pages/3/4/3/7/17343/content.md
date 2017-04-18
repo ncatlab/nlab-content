@@ -5,10 +5,14 @@
 ***
 
 
-This pages given a detailed introduction to classical _[[homotopy theory]]_, starting with the concept of [[homotopy]] in
+This pages gives a detailed introduction to classical _[[homotopy theory]]_, starting with the concept of [[homotopy]] in
 [[topological spaces]] and motivating from this the "abstract homotopy theory" in general [[model categories]].
 
+$\,$
+
 For background on basic [[topology]] see at _[[Introduction to Topology]]_.
+
+For application to [[homological algebra]] see at _[[schreiber:Introduction to Homological algebra]]_.
 
 For application to [[stable homotopy theory]] see at  _[[Introduction to Stable homotopy theory]]_.
 
