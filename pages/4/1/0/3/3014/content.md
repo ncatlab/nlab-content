@@ -29,7 +29,7 @@ This is a vague term, but some of the things that it might mean are:
 
 *  working in [[Set]], in contrast to working [[internalization|internally]] to some other [[topos]] or more general [[category]];
 
-*  allowing [[evil]] or otherwise violating the normative perspectives of [[higher category theory]];
+*  violating the [[principle of equivalence]] or other normative perspectives of [[higher category theory]];
 
 *  use of non-[[structural set theory|structural]] aspects of [[material set theory]].
 
