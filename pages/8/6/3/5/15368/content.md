@@ -78,7 +78,7 @@ $$
   \,.
 $$ 
 
-Moreover, the [[unitality]] condition is part of the non-degeneracy condition on a me, and the [[associativity]] condition is automatically satisfied once [[composition]] is defined.
+Moreover, the [[unitality]] condition is part of the non-degeneracy condition on a metric, $d(x, y) = 0$ iff $x = y$, and the [[associativity]] condition is automatically satisfied once [[composition]] is defined.
 
 ## References
 
