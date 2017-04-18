@@ -1995,7 +1995,7 @@ For $a \in \mathbb{R}$ the [[constant function]]
 
 $$
   \array{
-    \mathbb{R} &\overset{const_a}{\longrigharrow}& \mathbb{R}
+    \mathbb{R} &\overset{const_a}{\longrightarrow}& \mathbb{R}
     \\
     x &\mapsto& a
   }
