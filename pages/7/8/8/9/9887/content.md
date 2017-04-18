@@ -173,7 +173,7 @@ Another proof due to [[Mike Hopkins]] is in
 
 Refinement to [[smooth spectra]] and [[differential K-theory]] is in 
 
-* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], section 6.3 pf _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
+* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], section 6.3 of _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
 Discussion of the [[E-∞ ring]] structure involved is around theorem 3.1 of  
 
