@@ -37,14 +37,14 @@ $$
 
 then this [[inequality]] expresses that the straight path from $x$ to $z$ is always shorter or at worst as long as the path from $x$ to $z$ via $y$.
 
-However, [[normed fields]] and hence [[normed vector spaces]] for which this example gives the correct intuition are rare among all normed fields and vector spaces, they are called the _[[archimedean]]_ such cases. Most norms instead satisfy the stronger [[ultrametric]] triangle inequality which says that
+However, [[normed fields]] and hence [[normed vector spaces]] for which this example gives the correct intuition are rare among all normed fields and vector spaces (they are the _[[archimedean]]_ ones).  Most norms instead satisfy the stronger [[ultrametric]] triangle inequality which says that
 
 $$
   {\vert f + g \vert} \leq max({\vert f\vert}, {\vert g\vert })
   \,.
 $$
 
-These are called _[[non-archimedean]].
+A norm with this property is called _[[non-archimedean]].
 
 ## Interpretation in enriched category theory
  {#InterpretationInEnrichedCategoryTheory}
