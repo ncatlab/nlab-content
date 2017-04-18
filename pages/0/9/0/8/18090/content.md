@@ -26,7 +26,7 @@ $\,$
 
 $\,$
 
-For introduction to more general and abstract _[[homotopy theory]]_ see instead at _[[Introduction to Homotopy Theory]]_.
+For introduction to abstract _[[homotopy theory]]_ see instead at _[[Introduction to Homotopy Theory]]_.
 
 ***
 
@@ -109,16 +109,24 @@ and in yet more generality _[[toposes]]_ and _[[higher topos theory|higher topos
 the scope of this introduction, their rich theory and relation to the [[foundations]] of mathematics and geometry
 provides an outlook on the relevance of the basic ideas of [[topology]].
 
+$\,$
+
+$\,$
 
 ## Point-set Topology
 
-see at _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_
+This chapter is at _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_
+
+$\,$
+
+$\,$
 
 
 ## Basic Homotopy Theory
 
-see at _[[Introduction to Topology -- 2|Introduction to Topology 1 -- Basic Homotopy Theory]]_
+This chapter is at _[[Introduction to Topology -- 2|Introduction to Topology 1 -- Basic Homotopy Theory]]_
 
+$\,$
 
 ## References
 
@@ -148,7 +156,7 @@ frankfurt.de/64271720/TopNotes_Spring
 
 Disucssion of [[sober topological spaces]] is in
 
-* {#Johnstone82} [[Peter Johnstone]], section II 1. of _Stone Spaces_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
+* {#Johnstone82} [[Peter Johnstone]], section II 1. of _Stone Spaces_, Cambridge Studies in Advanced Mathematics __3P__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
 
 
 
