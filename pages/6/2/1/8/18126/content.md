@@ -12,7 +12,7 @@ This page is a detailed introduction to basic [[topology]].
 Starting from scratch (required background is just a basic concept of _[[sets]]_), and amplifying motivation from [[analysis]],
 it first develops standard [[point-set topology]] ([[topological spaces]]).
 In passing, some basics of [[category theory]] make an informal appearance,
-used to transparently summarize some conceptually important aspects of the theory, such as 
+used to transparently summarize some conceptually important aspects of the theory, such as
 [[initial topology|initial]] and [[final topologies]] and the [[reflective subcategory|reflection]] into
 [[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]].
 The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
@@ -333,8 +333,8 @@ $$
   f \;\colon\; X \longrightarrow Y
 $$
 
-is said to be _continuous at a point $x \in X$_ if for 
-every [[positive number|positive]] [[real number]] $\epsilon$ 
+is said to be _continuous at a point $x \in X$_ if for
+every [[positive number|positive]] [[real number]] $\epsilon$
 there exists a [[positive number|positive]] [[real number]] $\delta$ such that
 for all $x' \in X$ that are a distance $\lt \delta$ from $x$ then their image $f(x')$
 is a distance at most $\epsilon$ from $f(x)$:
@@ -351,7 +351,7 @@ $$
         \left(
           d_X(x,x') \lt \delta
         \right)
-           \;\;\Rightarrow\;\; 
+           \;\;\Rightarrow\;\;
         \left(
           d_Y(\,f(x), f(x')\,) \lt \epsilon
         \right)
@@ -413,6 +413,19 @@ The following picture shows a point $x$, some [[open balls]] $B_i$ containing it
 
 > graphics grabbed from [Munkres 75](#Munkres75)
 
+
++-- {: .num_example #OpenEmptySet} 
+###### Example
+
+Notice that for $(X,d)$ a [[metric space]], then the [[empty set|empty]] [[subset]] $\emptyset \subset X$
+is always an [[open subset]] of $(X,d)$ according to def. \ref{OpenSubsetsOfAMetricSpace}.
+This is because the clause for open subsets $U \subset X$ says that "for every point $x \in U$ there exists...",
+but since there is no $x$ in $U = \emptyset$, this clause is always satisfied in this case.
+
+Conversely, the entire set $X$ is always an open subset of $(X,d)$.
+
+=--
+
 +-- {: .num_example #OpenAndClosedIntervals}
 ###### Example
 **(open/closed [[intervals]])**
@@ -449,7 +462,7 @@ For completeness we may also consider
 
 * $(-\infty , \infty) = \mathbb{R}$
 
-* $(a,a) = \emptyset$ 
+* $(a,a) = \emptyset$
 
 which are both open, according to def. \ref{TopologicalSpace}.
 
@@ -465,7 +478,7 @@ Let $(X,d_X)$ and $(Y,d_Y)$ be two [[metric space]] (def. \ref{MetricSpace}).
 Then a [[function]] $f \colon X \to Y$ is [[continuous function|continuous]] in the [[epsilontic analysis|epsilontic]] sense of def. \ref{EpsilonDeltaDefinitionOfContinuity} precisely if it has the property that its [[pre-images]] of [[open subsets]] of $Y$ (in the sense of def. \ref{OpenSubsetsOfAMetricSpace}) are open subsets of $X$:
 
 $$
-  \left( 
+  \left(
     f \,\, \text{continuous}
   \right)
     \;\;\Leftrightarrow\;\;
@@ -497,7 +510,7 @@ $\,$ $\,$ _Continuous pre-Images of open subsets are open._
 +-- {: .proof}
 ###### Proof
 
-Observe, by direct unwinding the definitions, 
+Observe, by direct unwinding the definitions,
 that the epsilontic definition of continuity (def. \ref{EpsilonDeltaDefinitionOfContinuity}) says equivalently in
 terms of [[open balls]] (def. \ref{OpenBalls}) that
 $f$ is continous at $x$ precisely if for every open ball $B^\circ_{f(x)}(\epsilon)$ around an image
@@ -510,7 +523,7 @@ $$
       f \,\,\text{continuous at}\,\, x
     \right)
     & \Leftrightarrow \;
-    \underset{\epsilon \gt 0}{\forall}  
+    \underset{\epsilon \gt 0}{\forall}
     \left(
       \underset{\delta \gt 0}{\exists}
       \left(
@@ -532,19 +545,19 @@ $$
 
 With this observation the proof immediate. For the record, we spell it out:
 
-First assume that $f$ is continuous in the epsilontic sense. Then for $O_Y \subset Y$ any [[open subset]] and $x \in f^{-1}(O_Y)$ any point in the pre-image, we need to show that there exists an [[open neighbourhood]] of $x$ in $f^{-1}(O_Y)$. 
+First assume that $f$ is continuous in the epsilontic sense. Then for $O_Y \subset Y$ any [[open subset]] and $x \in f^{-1}(O_Y)$ any point in the pre-image, we need to show that there exists an [[open neighbourhood]] of $x$ in $f^{-1}(O_Y)$.
 
 That $O_Y$ is open in $Y$ means by definition that there exists an [[open ball]] $B^\circ_{f(x)}(\epsilon)$ in $O_Y$ around $f(x)$
-for some radius $\epsilon$. By the assumption that $f$ is continuous and using the above observation, this implies that there exists an 
+for some radius $\epsilon$. By the assumption that $f$ is continuous and using the above observation, this implies that there exists an
 open ball $B^\circ_x(\delta)$ in $X$ such that $f(B^\circ_x(\delta)) \subset B^\circ_{f(x)}(\epsilon) \subset Y$,
 hence such that $B^\circ_x(\delta) \subset f^{-1}\left(B^{\circ}_{f(x)}(\epsilon)\right) \subset f^{-1}(O_Y)$.
 Hence this is an open ball of the required kind.
 
 Conversely, assume that the pre-image function $f^{-1}$ takes open subsets to open subsets. Then for every $x \in X$ and $B_{f(x)}^\circ(\epsilon) \subset Y$ an [[open ball]] around its image, we need to produce an open ball $B_x^\circ(\delta) \subset X$ around $x$
-such that $f(B_x^\circ(\delta)) \subset B^\circ_{f(x)}(\epsilon)$. 
+such that $f(B_x^\circ(\delta)) \subset B^\circ_{f(x)}(\epsilon)$.
 
 But by definition of open subsets, $B^\circ_{f(x)}(\epsilon) \subset Y$ is open, and therefore by assumption on $f$
-its pre-image $f^{-1}(B^\circ_{f(x)}(\epsilon)) \subset X$ is also an open subset of $X$. Again by definition of 
+its pre-image $f^{-1}(B^\circ_{f(x)}(\epsilon)) \subset X$ is also an open subset of $X$. Again by definition of
 open subsets, this implies that it contains an open ball as required.
 
 
@@ -564,7 +577,7 @@ $$
   \array{
     \mathbb{R} &\overset{H}{\longrightarrow}& \mathbb{R}
     \\
-    x 
+    x
       &\mapsto&
     \left\{
       \array{
@@ -605,7 +618,7 @@ $$
 
 By example \ref{OpenAndClosedIntervals}, all except the last of these pre-images listed are open subsets.
 
-The failure of the last of the pre-images listed  to be open 
+The failure of the last of the pre-images listed  to be open
 witnesses that the step function is not continuous at $x = 0$.
 
 =--
@@ -619,10 +632,10 @@ witnesses that the step function is not continuous at $x = 0$.
  {#CompactMetricSpaces}
 
 A key application of [[metric spaces]] in [[analysis]] is that they allow a formalization of what it means
-for an infinite [[sequence]] of elements in the metric space (def. \ref{Sequences} below)  
+for an infinite [[sequence]] of elements in the metric space (def. \ref{Sequences} below)
 to _[[convergence|converge]]_ to a [[limit of a sequence]] (def. \ref{Convergence}).
 Of particular interest are therefore those metric spaces for which each sequence has a converging subsequence:
-the [[sequentially compact metric spaces]] (def. \ref{MetricSpaceSequentiallyCompact}). 
+the [[sequentially compact metric spaces]] (def. \ref{MetricSpaceSequentiallyCompact}).
 
 We now briefly recall these concepts from [[analysis]]. Then, in the above spirit, we reformulate
 the epsilontic definition of sequential compactness equivalently in terms of [[open subsets]].
@@ -685,7 +698,7 @@ $$
   x_i \overset{i \to \infty}{\longrightarrow} x_\infty
 $$
 
-if for every [[positive number|positive]] [[real number]] $\epsilon$, there exists a [[natural number]] $n$, such that 
+if for every [[positive number|positive]] [[real number]] $\epsilon$, there exists a [[natural number]] $n$, such that
 all elements in the sequence after the $n$th one have [[distance]] less than $\epsilon$ from $x_\infty$.
 
 $$
@@ -707,7 +720,7 @@ $$
   \,.
 $$
 
-Here the point $x_\infty$ is called the _[[limit of a sequence|limit of the sequence]]_. 
+Here the point $x_\infty$ is called the _[[limit of a sequence|limit of the sequence]]_.
 Often one writes $\underset{i \to \infty}{\lim}x_i$ for this point.
 
 =--
@@ -797,7 +810,7 @@ Therefore we postpone the proof to [below](#ProofOfSequentiallyCompactMetricSpac
 $\,$
 
 In **summary** prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} and prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace}
-show that the purely combinatorial 
+show that the purely combinatorial
 and in particular non-[[epsilontic analysis|epsilontic]] concept of _[[open subsets]]_ captures a substantial part of the nature of
 [[metric spaces]] in [[analysis]]. This motivates to reverse the logic and consider "[[spaces]]" which are
 _only_ characterized by what counts as their open subsets. These are the _[[topological spaces]]_
@@ -815,7 +828,8 @@ $\,$
 
 Due to prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets}
 we should pay attention to [[open subsets]] in [[metric spaces]]. It turns out that the following closure
-property is what _characterizes_ the concept:
+property, which follow directly from the definitions, is at the heart of the concept:    
+
 
 +-- {: .num_prop #OpenSubsetsOfMetricSpaceClosureProperties}
 ###### Proposition
@@ -827,15 +841,27 @@ The collection of [[open subsets]] of a [[metric space]] $(X,d)$ as in def. \ref
 
 1. The [[intersection]] of any [[finite number]] of open subsets is again an open subset.
 
-In particular
+=--
 
-* the [[empty set]] is open (being the union of no subsets)
++-- {: .num_remark #EmptyIntersection}
+###### Remark
+**(empty union and empty intersection)**
 
-and
+Notice the degenerate case of [[unions]] $\underset{i \in I}{\cup} U_i$ 
+and [[intersections]] $\underset{i \in I}{\cap} U_i$ of [[subsets]] $U_i \subset X$ for the case that they
+are indexed by the [[empty set]] $I = \emptyset$: 
 
-* the whole set $X$ itself is open (being the intersection of no subsets).
+1. the _empty union_ is the empty set itself;
+
+1. the _empty intersection_ is all of $X$.
+
+(The second of these may seem less obvious than the first. We discuss the general logic behind these kinds of phenomena [below](#UniversalConstructions).)
+
+This way prop. \ref{OpenSubsetsOfMetricSpaceClosureProperties} 
+is indeed compatible with the degenerate cases of examples of open subsets in example \ref{OpenEmptySet}.
 
 =--
+
 
 Proposition \ref{OpenSubsetsOfMetricSpaceClosureProperties} motivates
 the following generalized definition, which abstracts away from the concept of [[metric space]]
@@ -844,9 +870,9 @@ just its system of [[open subsets]]:
 
 +-- {: .num_defn #TopologicalSpace}
 ###### Definition
-**(topological spaces)**
+**([[topological spaces]])**
 
-Given a [[set]] $X$, then a _topology_ on $X$ is a collection $\tau$ of [[subsets]] of $X$ called the _[[open subsets]]_, hence a [[subset]] of the [[power set]]
+Given a [[set]] $X$, then a _topology_ on $X$ is a collection $\tau$ of [[subsets]] of $X$ called the _[[open subsets]]_, hence a [[subset]] of the [[power set]] $P(X)$
 
 $$
   \tau \subset P(X)
@@ -857,6 +883,15 @@ such that this is closed under forming
 1. finite [[intersections]];
 
 1. arbitrary [[unions]].
+
+In particular (by remark \ref{EmptyIntersection}):
+
+* the [[empty set]] $\emptyset \subset X$ is in $\tau$ (being the union of no subsets)
+
+and
+
+* the whole set $X \subset X$ itself is in $\tau$ (being the intersection of no subsets).
+
 
 A set $X$ equipped with such a [[topology]] is called a _[[topological space]]_.
 
@@ -877,21 +912,22 @@ But beware that there are other kinds of [[spaces]] in mathematics.
 The simple definition of [[open subsets]] in def. \ref{TopologicalSpace} and the simple
 implementation of the _principle of continuity_ below in def. \ref{ContinuousMaps}
 gives the field of [[topology]] its fundamental and universal flavor. The combinatorial nature of these definitions makes
-topology be closely related to [[formal logic]]. This becomes more manifest still for the "[[sober topological space]]"
-discussed [below](#SoberSpaces). For more on this perspective see also the remark on _[[locale]]_ below, remark \ref{Locales}.
+[[topology]] be closely related to [[formal logic]]. This becomes more manifest still for the "[[sober topological space]]"
+discussed [below](#SoberSpaces). For more on this perspective see the remark on _[[locales]]_ below, remark \ref{Locales}.
 An introductory textbook amplifying this perspective is ([Vickers 89](#Vickers89)).
 
 =--
 
 $\,$
 
-Here is some common **further terminology** regarding topological spaces:
+Before we look at first examples [below](#TopologicalSpacesExamples), 
+here is some common **further terminology** regarding topological spaces:
 
 There is an evident [[partial ordering]] on the set of topologies that a given set may carry:
 
 +-- {: .num_defn #TopologyFinerCoarser}
 ###### Definition
-**(finer/coarser topologies)**
+**([[finer topology|finer/coarser topologies]])**
 
 Let $X$ be a [[set]], and let $\tau_1, \tau_2 \in P(X)$ be two [[topological space|topologies]] on $X$,
 hence two choices of [[open subsets]] for $X$, making it a [[topological space]]. If
@@ -909,7 +945,7 @@ one says that
 
 =--
 
-With any kind of [[mathematical structure|structure]] on [[sets]], it is of interest how to 
+With any kind of [[mathematical structure|structure]] on [[sets]], it is of interest how to
 "[[generators and relations|generate]]" such structures from a small amount of data:
 
 +-- {: .num_defn #TopologyBase}
@@ -925,23 +961,23 @@ $$
 
 be a [[subset]] of its set of [[open subsets]]. We say that
 
-1. $\beta$ is a _[[topological base|basis for the topology]]_ if every open subset $O \in \tau$ is a [[union]] of elements of $\beta$;
+1. $\beta$ is a _[[topological base|basis for the topology]]_ $\tau$ if every open subset $O \in \tau$ is a [[union]] of elements of $\beta$;
 
 1. $\beta$ is a _[[topological base|sub-basis for the topology]]_ if every open subset $O \in \tau $ is a [[union]] of [[finitary intersections|finite intersections]] of elements of $\beta$.
 
 
 =--
 
-Often it is convenient to define topologies by defining some (sub-)basis (def. \ref{TopologyBase}). Examples are the 
-the [[metric topology]] below def. \ref{MetricTopology}, 
-the [[product topological space|binary product topology]] below in def. \ref{BinaryProductTopologicalSpace} below, 
+Often it is convenient to _define_ topologies by defining some (sub-)basis as in def. \ref{TopologyBase}. Examples are the
+the [[metric topology]] below def. \ref{MetricTopology},
+the [[product topological space|binary product topology]] in def. \ref{BinaryProductTopologicalSpace} below,
 and the [[compact-open topology]] on [[mapping spaces]] below in def. \ref{CompactOpenTopology}.
 To make use of this, we need to recognize sets of open subsets that serve as the basis for some topology:
 
 +-- {: .num_lemma }
 ###### Lemma
 
-Let $X$ be a set.  
+Let $X$ be a set.
 
 1. A collection $\beta \subset P(X)$ of [[subsets]] of $X$ is a [[basis of a topology|basis]]
 for some topology $\tau \subset P(X)$ (def. \ref{TopologyBase}) precisely if
@@ -957,13 +993,16 @@ for some topology $\tau \subset P(X)$ (def. \ref{TopologyBase}) precisely if
 =--
 
 
+$\,$
 
 ### Examples
  {#TopologicalSpacesExamples}
 
-We discuss some basic examples of [[topological spaces]] (def. \ref{TopologicalSpace}).
+We discuss here some basic examples of [[topological spaces]] (def. \ref{TopologicalSpace}), to get a feeling for 
+the scope of the concept. Topological spaces are ubiquituous in [[mathematics]], so that there are many more examples 
+and many more classes of examples than could be listed.
 
-Our motivating example now reads as follows:
+First of all, our motivating example from [above](#Continuity) now reads as follows:
 
 +-- {: .num_example #MetricTopology}
 ###### Example
@@ -1006,8 +1045,8 @@ $$
 We write
 
 $$
-  \ast 
-    \coloneqq 
+  \ast
+    \coloneqq
   \left(
     \left\{1\right\}, \left\{ \emptyset, \left\{1\right\}\right\}
   \right)
@@ -1246,7 +1285,7 @@ Here $f^{-1}(f(S))$ is also called the _$f$-saturation_ of $S$.
 ###### Example
 **(pre-images are saturated subsets)**
 
-For $f \;\colon\; X \to Y$ any [[function]] of [[sets]], and $S_Y \subset Y$ any [[subset]] of $Y$, then the 
+For $f \;\colon\; X \to Y$ any [[function]] of [[sets]], and $S_Y \subset Y$ any [[subset]] of $Y$, then the
 [[pre-image]] $f^{-1}(S_Y) \subset X$ is an $f$-[[saturated subset]] of $X$ (def. \ref{SubsetSaturated}).
 
 =--
@@ -1284,15 +1323,15 @@ closed and $f$-saturated subsets to closed subsets.
 ###### Example
 **([[image factorization]])**
 
-Let $f \;\colon\; (X, \tau_X) \longrightarrow (Y,\tau_Y)$ be a [[continuous function]]. 
+Let $f \;\colon\; (X, \tau_X) \longrightarrow (Y,\tau_Y)$ be a [[continuous function]].
 
 Write $f(X) \subset Y$ for the [[image]] of $f$
 on underlying sets, and consider the resulting factorization of $f$ through $f(X)$ on underlying sets:
 
 $$
-  f 
+  f
   \;\colon\;
-  X 
+  X
     \overset{\text{surjective}}{\longrightarrow}
   f(C)
     \overset{\text{injective}}{\longrightarrow}
@@ -1309,13 +1348,13 @@ which makes the inclusion $f(X) \longrightarrow Y$ a [[continuous function]].
    Observe that this also makes $X \to f(X)$ a continuous function: An open subset of $f(X)$
    in this case is of the form $U_Y \cap f(X)$ for $U_Y \in \tau_Y$, and $f^{-1}( U_Y \cap f(X) ) = f^{-1}(U_Y)$,
    which is open in $X$ since $f$ is continuous.
-   
+
 1. By example \ref{QuotientTopologicalSpace} $f(X)$ inherits a [[quotient topological space|quotient topology]] from $(X,\tau_X)$
-   which makes the surjection $X \longrightarrow Y$ a [[continuous function]]. 
-   
+   which makes the surjection $X \longrightarrow Y$ a [[continuous function]].
+
    Observe that this also makes $f(X) \longrightarrow Y$ a continuous function: The preimage under this map of an
    open subset $U_Y \in \tau_Y$ is the restriction $U_Y \cap f(X)$, and the pre-image of that under $X \to f(X)$ is
-   $f^{-1}(U_Y)$, as before, which is open since $f$ is continuous, and therefore $U_Y \cap f(X)$ is open in the 
+   $f^{-1}(U_Y)$, as before, which is open since $f$ is continuous, and therefore $U_Y \cap f(X)$ is open in the
    quotient topology.
 
 =--
@@ -1395,8 +1434,8 @@ Then the [[topological interior]] of $S$ (def. \ref{IntSubset}) equals the [[com
 [[topological closure]] $Cl(X\backslash S)$ of the complement of $S$:
 
 $$
-  Int(S) 
-    = 
+  Int(S)
+    =
   X \backslash Cl\left(
     X \backslash S
   \right)
@@ -1969,7 +2008,7 @@ maps every [[open subset]] $U \subset \mathbb{R}$ to the [[singleton set]] $\{a\
 ###### Example
 
 Write $Disc(\mathbb{R})$ for the set of [[real numbers]] equipped with its [[discrete topology]] (def. \ref{CoDiscreteTopology})
-and $\mathbb{R}$ for the set of [[real numbers]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]] 
+and $\mathbb{R}$ for the set of [[real numbers]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]]
 (def. \ref{EuclideanNorm}, def. \ref{MetricTopology}). Then the [[identity function]] on the underlying sets
 
 $$
@@ -1993,12 +2032,12 @@ $$
   \exp(-) \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}
 $$
 
-maps all of $\mathbb{R}$ (which is a closed subset $\mathbb{R} = \mathbb{R} \backslash \emptyset$) to 
+maps all of $\mathbb{R}$ (which is a closed subset $\mathbb{R} = \mathbb{R} \backslash \emptyset$) to
 the [[half-open interval]] $(0,\infty] \subset \mathbb{R}$, which is not closed.
 
 =--
 
-Those continuous function that do happen to preserve 
+Those continuous function that do happen to preserve
 open or closed subsets get a special name:
 
 +-- {: .num_defn #OpenMap}
@@ -2022,7 +2061,7 @@ $$
   \pi_i \;\colon\; (X_1 \times X_2, \tau_{X_1 \times X_2}) \longrightarrow (X_i, \tau_{X_i})
 $$
 
-out of their [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) are [[open maps]] (def. \ref{OpenMap}). 
+out of their [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) are [[open maps]] (def. \ref{OpenMap}).
 
 =--
 
@@ -2053,7 +2092,7 @@ and such that $V$ is $f$-[[saturated subset|saturated]].
 +-- {: .proof}
 ###### Proof
 
-We claim that the [[complement]] of $X$ by the $f$-saturation (def. \ref{SubsetSaturated}) of the complement of $X$ by $U$ 
+We claim that the [[complement]] of $X$ by the $f$-saturation (def. \ref{SubsetSaturated}) of the complement of $X$ by $U$
 
 $$
   V \coloneqq X \backslash \left(  f^{-1}\left( f\left(  X \backslash U \right)  \right) \right)
@@ -2579,7 +2618,7 @@ Let $x, y \in S \subset X$ be two distinct points. We need to construct various 
 in $S$
 not containing the other point and possibly (for $T_2$) not intersecting each other.
 Now by assumptions that the ambient space $(X,\tau)$ satisfies the given axiom, there exist
-open neighbourhoods with the analogous properties in $X$. By the nature of the subspace topology, 
+open neighbourhoods with the analogous properties in $X$. By the nature of the subspace topology,
 their restriction to $S$ are still open, and clearly still satisfy these properties.
 
 =--
@@ -3032,14 +3071,14 @@ $$
 $$
 
 equipped with its [[topological subspace|subspace topology]] as a subspace of $Y$ (example \ref{ImageFactorization}). By
-prop. \ref{TiSubspaces} also $f(X)$ is a $T_n$-topological space if $Y$ is. 
+prop. \ref{TiSubspaces} also $f(X)$ is a $T_n$-topological space if $Y$ is.
 
-It follows by definition of $t_n(X)$ that the factorization exists at the level of sets as stated, 
-since if $x_1, x_2 \in X$ have the same [[equivalence class]] $[x_1] = [x_2]$ in $T_n X$, then 
+It follows by definition of $t_n(X)$ that the factorization exists at the level of sets as stated,
+since if $x_1, x_2 \in X$ have the same [[equivalence class]] $[x_1] = [x_2]$ in $T_n X$, then
 by definition they have the same image under all continuous surjective functions to a $T_n$-space, hence in particular
 under $X \to f(X)$. This means that $\tilde f$ as above is well defined.
 
-What remains to be seen is that $T_n X$ as constructed is indeed a $T_n$-topological space. 
+What remains to be seen is that $T_n X$ as constructed is indeed a $T_n$-topological space.
 Hence assume that $[x] \neq [y] \in T_n X$ are two distinct points. We need to open neighbourhoods
 around one or both of these point not containing the other point and possibly disjoint to each other.
 
