@@ -74,9 +74,143 @@ In [[constructive mathematics]], one sees several definitions of 'compact', whic
 In [[locale theory]] and other approaches to [[pointless topology]], the open-cover definition of 'compact' is clearly correct, and the failure of CTB spaces to be compact (constructively) may be seen as a consequence of working with points.  Already in Bishop\'s weak system of constructivism, every CTB metric space $X$ gives rise to a compact locale, which classically (assuming [[excluded middle]] and [[dependent choice]]) is the [[locale of open subsets]] of $X$ but constructively requires a more nuanced construction; see [Vickers](#CTBlocale).
 
 
-## Related concepts
+
+## Proofs
+ {#Proofs}
+
+For definiteness, we restate the versions which we prove:
+
++-- {: .num_lemma #CompactClosedInterval}
+###### Lemma
+**(closed interval is compact)**
+
+In [[classical mathematics]]:
+
+For any $a \lt b \in \mathbb{R}$ the [[closed interval]]
+
+$$
+  [a,b] \subset \mathbb{R}
+$$
+
+regarded with its [[topological subspace|subspace topology]] is a [[compact topological space]] (def. \ref{CompactTopologicalSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since all the closed intervals are [[homeomorphism|homeomorphic]]
+it is sufficient to show the statement for $[0,1]$. Hence let $\{U_i \subset [0,1]\}_{i \in I}$ be an 
+open cover. We need to show that it has an open subcover.
+
+Say that an element $x \in [0,1]$ is _admissible_ if the closed sub-interval $[0,x]$ is covered by 
+finitely many of the $U_i$. In this terminlogy, what we need to show is that $1$ is admissible.
+
+Observe from the definition that 
+
+1. 0 is admissible,
+
+1. if $y \lt x \in [0,1]$ and $x$ is admissible, then also $y$ is admissible.
+
+This means that the set of admissible $x$ forms either an [[open interval]] $[0,g)$ or a [[closed interval]]
+$[0,g]$, for some $g \in [0,1]$. We need to show that the latter is true, and for $g = 1$. 
+We do so by observing that the alternatives lead to contradictions:
+
+1. Assume that the set of admissible values were an open interval $[0,g)$. By assumption there would be 
+   a finite subset $J \subset I$ such that $\{U_i \subset [0,1] \}_{i \in J \subset I}$ were a finite 
+   open cover of $[0,g)$. Accordingly, since there is some $i_g \in I$ such that $g \in U_{i_g}$, the union
+   $\{U_i\}_{i \in J } \sqcup \{U_{i_g}\}$ were a finite cover of the closed interval $[0,g]$, 
+   contradicting the assumption that $g$ itself is not admissible (since it is not contained in $[0,g)$).
+   
+1. Assume that the set of admissible values were a closed interval $[0,g]$ for $g \lt 1$. 
+   By assumption there would then be a finite set $J \subset I$ such that $\{U_i \subset [0,1]\}_{i \in J \subset I}$
+   were a finite cover of $[0,g]$. Hence there would be an index $i_g \in J$ such that $g \in U_{i_g}$.
+   But then by the nature of open subsets in the Euclidean space $\mathbb{R}$, this $U_{i_g}$ would also 
+   contain an open ball $B^\circ_g(\epsilon) = (g-\epsilon, g + \epsilon)$. This would mean that 
+   the set of admissible values includes the open interval $[0,g+ \epsilon)$, contradicting the assumption.
+   
+This gives a [[proof by contradiction]].
+
+=--
+
+
++-- {: .num_prop #BorelHeine}
+###### Proposition
+**([[Heine-Borel theorem]] classically)**
+
+For $n \in \mathbb{N}$, regard $\mathbb{R}^n$ as the $n$-dimensional [[Euclidean space]],
+regarded as a [[topological space]] via its [[metric topology]].
+
+Then in [[classical mathematics]] for a [[topological subspace]] $S \subset \mathbb{R}^n$ the following are equivalent:
+
+1. $S$ is  [[compact topological space|compact]],
+
+1. $S$ is [[closed subset|closed]] and [[bounded subset|bounded]].
+
+=--
+
++-- {: .proof #BorelHeineProof}
+###### Proof
+
+First consider a [[subset]] $S \subset \mathbb{R}^n$ which is closed and bounded. We need to show that
+regarded as a [[topological subspace]] it is [[compact topological space|compact]].
+
+The assumption that $S$ is bounded by (hence contained in) some [[open ball]] $B^\circ_x(\epsilon)$ in $\mathbb{R}^n$ 
+implies that it is contained in $\{ (x_i)_{i = 1}^n \in \mathbb{R}^n \,\vert\, -\epsilon \leq x_i \leq \epsilon \}$.
+This topological subspace is homeomorphic to the $n$-cube
+$[-\epsilon, \epsilon]^n$. Since the closed interval $[-\epsilon, \epsilon]$
+is compact by lemma \ref{CompactClosedInterval}, the [[Tychonoff theorem]]
+implies that this $n$-cube is compact. Since [[closed subspaces of compact spaces are compact]] this implies that $S$ is compact.
+
+Conversely, assume that $S \subset \mathbb{R}^n$ is a compact subspace. We need to show that it is closed and bounded.
+
+The first statement follows since 
+the [[Euclidean space]] $\mathbb{R}^n$ is [[Hausdorff topological space|Hausdorff]]
+and since [[compact subspaces of Hausdorff spaces are closed]].
+
+Hence what remains is to show that $S$ is bounded.
+
+To that end, choose any [[positive number|positive]] [[real number]] $\epsilon \in \mathbb{R}_{\gt 0}$
+and consider the [[open cover]] of all of $\mathbb{R}^n$ by the open [[n-cubes]] 
+
+$$
+  (k_1-\epsilon, k_1+1+\epsilon) 
+    \times 
+  (k_2-\epsilon, k_2+1+\epsilon)
+    \times  
+      \cdots
+    \times
+  (k_n-\epsilon, k_n+1+\epsilon)
+$$
+
+for [[n-tuples]] of [[integers]] $(k_1, k_2 , \cdots, k_n ) \in \mathbb{Z}^n$.
+The restrictions of these to $S$ hence form an open cover of the subspace $S$. By the assumption that 
+$S$ is compact, there is then a finite subset of $n$-tuples of integers such that the 
+corresponding $n$-cubes still cover $S$. But the union of any finite number of bounded closed $n$-cubes
+in $\mathbb{R}^n$ is clearly a bounded subset, and hence so is $S$.
+
+=--
+
+
+
+
+## Related theorem
+
 
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
+
+* [[Tietze extension theorem]]
+
+* [[Tychonoff theorem]]
+
+* [[topological invariance of dimension]]
+
+* [[Brouwer's fixed point theorem]]
+
+* [[Jordan curve theorem]]
+
+
+
 
 ## References
 
@@ -88,8 +222,8 @@ A proof is spelled out for instance at
 
 On constructing a compact locale from a CTB metric space:
 
-*  [[Steve Vickers]], [Localic completion of generalized metric spaces](http://www.tac.mta.ca/tac/volumes/14/15/14-15abs.html)
-   {#CTBlocale}
+*  {#CTBlocale} [[Steve Vickers]], [Localic completion of generalized metric spaces](http://www.tac.mta.ca/tac/volumes/14/15/14-15abs.html)
+   
 
 
 [[!redirects Heine-Borel theorem]]
