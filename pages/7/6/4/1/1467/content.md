@@ -125,7 +125,7 @@ for every open $V$ in $Y$.
 A [[de Morgan duality|dual]] condition is satisfied by an [[overt space]].
 
 
-+-- {: .num_remark}
++-- {: .num_remark #DifferingTerminology}
 ###### Remark
 **(differing terminology)**
 
@@ -288,7 +288,7 @@ For topological spaces, this is either a definition of "proper map" (closed with
 
 * [[countably compact topological space]]
 
-* [[paracompact topological space]], [[strongly compact topological space]]
+* [[paracompact topological space]], [[locally compact topological space]], [[strongly compact topological space]]
 
 * [[compactification]]
 
