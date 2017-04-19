@@ -40,7 +40,7 @@ For $\mathbf{H}$ an [[(∞,1)-topos]] and $T \mathbf{H}$ its [[tangent (∞,1)-t
 
 ## Related concepts
 
-* [[linear type theory]]
+* [[dependent linear type theory]]
 
 * [[modal homotopy type]]
 
