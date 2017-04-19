@@ -24,7 +24,7 @@ A topological space  may have very little separating it from '[[manifold]]ness',
 
 The **Warsaw circle** $S_W $ is the [[subset]] of the [[plane]], $\mathbb{R}^2$, specified by
 
-$$\{(x,\sin(\frac{1}{x}) \mid -\frac{1}{2\pi} \lt x \leq \frac{1}{2\pi}, x \neq 0\}\cup \{(0,y) | -1 \leq y \leq 1\} \cup C,$$ 
+$$\{(x,\sin\left(\frac{1}{x}\right)) \mid -\frac{1}{2\pi} \lt x \leq \frac{1}{2\pi}, x \neq 0\}\cup \{(0,y) | -1 \leq y \leq 1\} \cup C,$$ 
 where $C$ is an arc in $\mathbb{R}^2$ joining $(\frac{1}{2\pi}, 0)$ and $(-\frac{1}{2\pi}, 0)$, disjoint from the other two subsets specified above except at its endpoints.
 
 It looks something like [[warsaw.pdf|this:file]]:
