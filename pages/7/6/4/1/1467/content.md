@@ -58,7 +58,7 @@ In any case, compactness can be characterized in terms of [[proper filter]] or e
 +-- {: .num_defn #refinement}
 ###### Definition
 
-$X$ is compact iff every [[proper filter]]/[[net]] on $X$ has a [[convergence|convergent]] proper [[refinement]]/subnet.
+$X$ is compact iff every [[proper filter]]/[[net]] on $X$ has a [[convergence|convergent]] proper [[refinement]]/[[subnet]].
 
 =--
 
@@ -223,9 +223,49 @@ A [[discrete space]] is compact iff its underlying set is [[finite set|finite]].
 
 ## Examples
 
-Every [[closed interval]] is compact.
+### General
 
-By the [[Tychonoff theorem]], every [[product topological spaces]]spring
+Every bounded [[closed interval]] $[a,b] \subset \mathbb{R}$ is compact.
+
+By the [[Tychonoff theorem]], every [[product topological spaces]] of compact spaces is again compact. 
+
+This implies the [[Heine-Borel theorem]], saying that every [[bounded subset|bounded]] and [[closed subset]] of a [[Euclidean space]] is compact.
+
+### Compact spaces which are not sequentially compact
+ {#CompactSpacesWhichAreNotSequentiallyCompact}
+
+A famous example of a space that is compact, but not [[sequentially compact space|sequentially compact]] is the product space
+$$
+    \{0,1\}^{I} \coloneqq \{0, 1\}^{[0, 1]}
+  \coloneqq \underset{[0,1]}{\prod} \{0,1\}
+$$
+with the [[product topology]]. 
+
+This space is compact by the [[Tychonoff theorem]].
+
+But it is not [[sequentially compact topological space|sequentially compact]]. We now discuss why. (We essentially follow [Steen-Seebach 70, item 105](#SteenSeebach70)).
+ 
+Points of $\{0,1\}^{I}$ are functions $I \to \{0,1\}$, and the product topology is the topology of pointwise convergence.
+
+Define a sequence $(a_n)$ in $I^{I}$ with $a_n(x)$ being the nth digit in the binary expansion of $x$ (we make the convention that binary expansions do not end in sequences of $1$s).  Let $a \coloneqq (a_{n_k})$ be a subsequence and define $p_a \in I$ by the binary expansion that has a $0$ in the $n_k$th position if $k$ is even and a $1$ if $k$ is odd (and, for definiteness and to ensure that this fits with our convention, define it to be $0$ elsewhere).  Then the projection of $(a_{n_k})$ at the $p_a$th coordinate is $1, 0, 1,0,...$ which is not convergent.  Hence $(a_{n_k})$ is not convergent.
+
+(Basically that's the diagonal trick of [[Cantor's theorem]]).
+
+However, as $\{0,1\}^I$ is compact, $a$ has a [[convergence|convergent]] [[subnet]].  An explicit construction of a convergent subset, given a [[cluster point]] $a$, is as follows.  A function $a \colon I \to \{0,1\}$ is a [[cluster point]] of $(a_n)$ if, for any $p_1, \dots, p_n \in I$ the set
+
+$$
+A(p_1,\dots,p_n) \coloneqq \{k \in \mathbb{R} : a_k(p_i) = a(p_i) \forall i\}
+$$
+
+is infinite.  We index our subnet by the family of finite subsets of $I$ and define the subnet function $\mathcal{F}(I) \to \mathbb{N}$ to be
+
+$$
+\{p_1,\dots,p_n\} \mapsto \min A(p_1,\dots,p_n)
+$$
+
+This is a convergent sub-[[net]].
+
+
 
 
 ## In synthetic topology
@@ -269,6 +309,9 @@ For topological spaces, this is either a definition of "proper map" (closed with
 
 ## References
 
+Examples of compact spaces that are not sequentially compact are in
+
+* {#SteenSeebach70} Lynn Steen, J. Arthur Seebach, _Counterexamples in Topology_, Springer-Verlag, New York (1970) 2nd edition,  (1978), Reprinted by Dover Publications, New York, 1995
 
 On compact [[metric spaces]]:
 
