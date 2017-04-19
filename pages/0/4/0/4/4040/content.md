@@ -20,11 +20,20 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[topological subspace|subspace]], [[quotient topological space|quotient space]], [[product topological space|product space]]
 
-* [[initial topology]], [[final topology]]
-
 * [[category]] [[Top]]
 
   * [[convenient category of topological spaces]]
+
+## Constructions
+
+* [[subspace]]
+
+* [[quotient space]]
+
+* [[product space]], [[disjoint union space]]
+
+* [[initial topology]], [[final topology]]
+
 
 ## Extra stuff, structure, properties
 
