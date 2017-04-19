@@ -1,0 +1,205 @@
+# Contents 
+* table of contents 
+{:toc}
+
+(This page is under construction... Will get back to this -- Todd.) 
+
+## Statement and introduction 
+
+The Tychonoff theorem for locales states that a small product of compact locales is compact. Remarkably, and in stark contrast to the Tychonoff theorem for compact spaces, this result requires only constructive reasoning for its proof; in particular, the axiom of choice (or some other choice principle) is not needed. 
+
+Our account of this result is adapted from [Johnstone and Vickers](#JV91), who provide a convenient conceptual niche for the Tychonoff theorem in terms of the closed category of preframes. Our plan here is to extract just enough from their account to give a relatively short proof of the Tychonoff theorem, without building up much of their theory of preframes -- which is of interest in its own right of course and a source of conceptual explanation. 
+
+The key result is the finitary case, that the product of *two* compact locales is compact, or equivalently that the coproduct of two compact frames is compact. For topological spaces the standard argument is well-known, and appears regularly in undergraduate courses, but crucially uses spatiality (existence of enough points) as a kind of "crutch". The reader might like to try his or her own hand at proving this result for general locales where the crutch is no longer available, to appreciate that a somewhat different approach may be needed even for the finitary case. 
+
+## Frames and the category of sup-lattices 
+
+The category of locales is by definition opposite to the category of frames; following Joyal and Tierney, we consider frames as idempotent commutative monoids in the symmetric monoidal closed (smc) category $Sup$ consisting of sup-lattices. 
+
+The category of frames is the full subcategory of the category of commutative [[quantales]] $(Q, \cdot, 1)$, consisting of the *idempotent* commutative quantales, meaning that $x \leq 1$ for all $x \in Q$ (the quantale unit $1$ is the top element $\top$), and $x \cdot x = x$ for all $x \in Q$. 
+
++-- {: .num_prop} 
+###### Proposition 
+**(Joyal-Tierney)** 
+The coproduct of a collection of frames coincides with their coproduct in the category of commutative quantales. 
+=-- 
+
+As commutative quantales are just commutative monoids in $(Sup, \otimes)$, the coproduct of two commutative quantales $P, Q$ is given by the tensor product $P \otimes Q$ in $Sup$. This is just the dual form of the general result recounted [here](/nlab/show/cocommutative+coalgebra#relation_to_cartesian_monoidal_categories). Thus the binary coproduct of two frames $X, Y$ is their sup-lattice tensor product $X \otimes Y$. The nullary coproduct is the monoidal unit in $Sup$. Furthermore, 
+
++-- {: .num_theorem} 
+###### Theorem 
+**(Joyal-Tierney)** 
+The forgetful functor $Frame \to Sup$ preserves and reflects filtered colimits. 
+Thus the coproduct of a family of frames $\{F_i\}_{i \in S}$ may be computed as 
+
+$$\sum_{i \in S} F_i = colim_{finite\; F \subseteq S} \otimes_{i \in F} F_i$$ 
+
+where the colimit is over the filtered diagram of finite subsets and inclusions between them. 
+=-- 
+
+Much of the proof of the Tychonoff theorem will be concentrated in explicit manipulations with sup-lattice tensor products; we turn to this next. 
+
+## Symmetric monoidal closed structure for sup-lattices
+
+The closed structure of $Sup$ has internal homs $[X, Y]$, the poset of sup-preserving maps between sup-lattices $X, Y$, which are sup-lattices. As sup-preserving maps between sup-lattices are left adjoints (by an adjoint functor theorem), we may also denote the internal hom as $Ladj(X, Y)$. Note that sup-lattices are inf-lattices (a poset $X$ is a sup-lattice iff $X^{op}$ is a sup-lattice), and it will be convenient also to consider $Radj(X, Y)$, the sup/inf-lattice of right adjoints $X \to Y$. 
+
+We specially point out the sup-lattice $\mathbf{2} = \{0 \leq 1\}$ (if we are generalizing from $Set$ to a topos, we use instead the subobject clasifier $\Omega$ which is an internal sup-lattice). This is the unit for the smc structure on $Sup$: we have $[\mathbf{2}, X] \cong X$. Its opposite $\mathbf{2}^{op}$ or $\Omega^{op}$ plays the role of dualizing object: homming into it, we calculate 
+
+$$Ladj(X, \mathbf{2}^{op}) \cong Radj(\mathbf{2}^{op}, X)^{op} \cong Ladj(\mathbf{2}, X^{op}) \cong X^{op}.$$ 
+
+Here the first isomorphism takes a left adjoint $f: X \to \mathbf{2}^{op}$ to its right adjoint $g: \mathbf{2}^{op} \to X$ in the opposite direction, and it also reverses 2-cells, i.e., takes an inequality $f \leq f'$ of left adjoints to 
+a mated inequality $g' \leq g$ of right adjoints. The second isomorphism is a case of taking a functor $g: \mathbf{2}^{op} \to X$ to its opposite $g^{op}: \mathbf{2} \to X^{op}$; this reverses direction of 2-cells. The double dual embedding 
+
+$$X \to Ladj(Ladj(X, \mathbf{2}^{op}), \mathbf{2}^{op})$$ 
+
+is thus identified (up to canonical isomorphism) with 
+
+$$X \stackrel{id}{\to} X^{op\; op} = X$$ 
+
+making $\mathbf{2}^{op}$ a dualizing object: the smc category $Sup$ is a $\ast$-autonomous category, with $(-)^\ast = (-)^{op}: Sup^{op} \to Sup$. 
+
+Being a $\ast$-autonomous category, we have an isomorphism $X \otimes Y \cong [X, Y^{op}]^{op}$. This results from the isomorphisms 
+
+$$(X \otimes Y)^{op} \cong Ladj(X \otimes Y, \mathbf{2}^{op}) \cong Ladj(X, Ladj(Y, \mathbf{2}^{op})) \cong Ladj(X, Y^{op}).$$ 
+
+This observation saves us from having to construct $X \otimes Y$ explicitly as a coequalizer of a free sup-lattice $P(X \times Y)$ (of $\mathbf{2}$-valued presheaves on the poset $X \times Y$). We may thus write 
+
+$$X \otimes Y \cong Radj(X^{op}, Y);$$ 
+
+this isomorphism takes $w \in X \otimes Y$ to the right adjoint $\phi_w: X^{op} \to Y$ defined by $\phi_w(u) = \bigvee_{v: u \otimes v \leq w} v$. Equally well, there is a canonical isomorphism $X \otimes Y \cong Radj(Y^{op}, X)$ taking $w \in X \otimes Y$ to a right adjoint $\psi_w: Y^{op} \to X$, and the pair $(\phi_w, \psi_w)$ forms a contravariant Galois connection with $\psi_w^{op} \dashv \phi_w$. 
+
++-- {: .num_example} 
+###### Example 
+Recall the classical proof that a product of two compact topological spaces $X, Y$ is compact. A standard lemma, sometimes called the *tube lemma*, is that for any open cover $A$ of $X \times Y$ and any $x \in X$, there is an open neighborhood $U$ of $x$ such that $U \times Y$ is finitely covered by $A$. Proof: Some finite subset $F \subseteq A$ covers $\{x\} \times Y$; put $W = \bigcup F$. For each $y \in Y$ there are neighborhoods $U$ of $x$ and $V$ of $y$ such that $U \otimes V \leq W$. The collection $\{V: x \in \psi_W(V)\}$ thus covers $Y$, hence there is a finite subcover $V_1, \ldots, V_n$. Putting $U = \bigwedge_i \psi_W(V_i)$, we have for all $i$ that $V_i \leq \phi_W(\psi_W(V_i)) \leq \phi_W(U)$ (the last inequality is by contravariance), hence $Y = \bigvee_i V_i \leq \phi_W(U)$, i.e., $U \times Y \leq W$. 
+=--  
+
+Any $w \in X \otimes Y$ can be represented as a supremum of elements of the form $u \otimes v$, but one virtue of the identification $X \otimes Y \cong [X, Y^{op}]^{op}: w \mapsto \phi_w$ is that it allows one to give a canonical such representation: 
+
++-- {: .num_defn} 
+###### Definition 
+For sup-lattices $X, Y$, the *canonical representation* of $w \in X \otimes Y$ (as a sup of tensors $u \otimes v$ with $u \in X$, $v \in Y$) is $w = \bigvee_{u \in X} u \otimes \phi_w(u)$. 
+=-- 
+
+## Preframe representations 
+
++-- {: .num_defn} 
+###### Definition 
+A *preframe* is a poset with directed joins and finite meets that distribute over directed joins. A *preframe map* is a poset map that preserves finite meets and directed joins. 
+=-- 
+
+A frame is *a fortiori* a preframe. As far as the Tychonoff theorem is concerned, the decisive advantage of preframes is that the notion of compactness of frames can be described categorically in terms of preframe maps. 
+
+Recall that a frame $X$ is *compact* if whenever its top element $\top$ is the join of a directed subset $J \subseteq X$, then $\top \in J$. Equivalently, 
+
++-- {: .num_prop #char} 
+###### Proposition 
+Let $X$ be a frame, and let $\chi_\top: X \to \mathbf{2}$ be the characteristic map of the poset inclusion $\top: 1 \hookrightarrow X$. Then $X$ is *compact* iff $\chi_\top$ is a preframe map. (Of course $\phi_\top$ preserves finite meets for any frame, so the essential condition is preservation of directed joins). 
+=-- 
+
+An essential insight of Johnstone and Vickers is that since directed joins commute with finite meets, the theory of preframes is essentially a commutative theory, and thus the category of preframes forms a symmetric monoidal closed category; moreover, frames are exactly those preframes $X$ such that the binary join operation $\vee: X \times X \to X$ is a preframe map in each separate variable. Thus, frames can be described either as commutative monoids $(X, \wedge, \top)$ in the smc category of sup-lattices, or as commutative monoids $(X, \vee, \bot)$ in the smc category of preframes. In either case, coproducts of frames can be described as tensor products in either of these smc categories, with preframe tensors offering a description that is, roughly speaking, "De Morgan dual" to the sup-lattice tensor description. 
+
+This motivates a construction that is "De Morgan dual" to tensor products $u \otimes v$ for elements $u \in X, v \in Y$. 
+
++-- {: .num_defn} 
+###### Definition 
+For elements $u \in X$ and $v \in Y$ in frames $X, Y$, define their *par* $u \parr v$ in the sup-lattice $X \otimes Y$ by the formula $u \parr v = (u \otimes \top_Y) \vee (\top_X \otimes v)$. 
+=-- 
+
+The following proposition is easily checked. 
+
++-- {: .num_prop #prop} 
+###### Proposition 
+**(Johnstone-Vickers)** 
+If $X, Y$ are frames, then 
+
+1. For each $u \in X$, the map $u \parr -: Y \to X \otimes Y$ is a preframe map, and similarly for each $v \in Y$ the map $- \parr v: X \to X \otimes Y$ is a preframe map. 
+
+1. The map $\parr: X \times Y \to X \otimes Y$ preserves arbitrary sups (jointly in the two arguments). 
+
+1. $u \otimes v = (u \parr \bot_Y) \wedge (\bot_X \parr v)$. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+Given frames $X, Y$, any finite join of tensors $\bigvee_{i \in F} u_i \otimes v_i$ can be expressed as a finite meet of pars. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+For each subset $S \subseteq F$, put $u_S \coloneqq \bigvee_{i \in S} u_i$ and $v_S = \bigvee_{i \in S} v_i$, and let $\neg S$ denote the complement $F \setminus S$. 
+
+Exploiting Proposition \ref{prop} and finite distributivity in the frame $X \otimes Y$, we have 
+
+$$\array{
+\bigvee_{i \in F} u_i \otimes v_i & = & \bigvee_{i \in F} (u_i \parr \bot_Y) \wedge (\bot_X \parr v_i) \\ 
+ & = & \bigwedge_{f: F \to \{u, v\}} \left[(\bigvee_{i \in f^{-1}(u)} u_i \parr \bot_Y) \vee (\bigvee_{i \in f^{-1}(v)} \bot_X \parr v_i)\right] \\ 
+ & = & \bigwedge_{S \subseteq F} u_S \parr v_{\neg S}
+}$$ 
+
+which proves the proposition. 
+=-- 
+
+This leads to a canonical preframe representation of elements $w \in X \otimes Y$ in a frame coproduct, where $w$ is expressed as a directed join of finite meets of par expressions. We have 
+
+$$\array{
+w & = & \bigvee_{u \in X} u \otimes \phi_w(u) \\ 
+ & = & \bigvee_{finite\; F \subseteq X} \bigvee_{u \in F} u \otimes \phi_w(u) \\ 
+ & = & \bigvee_{fin.\; F \subseteq X} \bigwedge_{S \subseteq F} \left[(\bigvee_{u \in S} u) \parr (\bigvee_{u \notin S} \phi_w(u))\right]
+}$$ 
+
+## Finitary Tychonoff theorem 
+
+Now suppose $X, Y$ are compact frames, which by Proposition \ref{char} means precisely that the characteristic maps $\chi_{\top_X}: X \to \mathbf{2}$ and $\chi_{\top_Y}: Y \to \mathbf{2}$ preserve directed joins and finite meets. 
+
++-- {: .num_theorem} 
+###### Theorem 
+**(Finitary Tychonoff theorem)** 
+The frame $X \otimes Y$ is compact. 
+=-- 
+
+Before giving the proof, we might as well say where it comes from. We have remarked earlier that the category of preframes is symmetric monoidal closed; let $\parr$ denote its monoidal product. Then, as $\mathbf{2}$ is a frame, the map $\vee: \mathbf{2} \times \mathbf{2} \to \mathbf{2}$ is a preframe map in each separate variable, and thus induces a canonical preframe map (which we again denote by $\vee$): $\mathbf{2} \parr \mathbf{2} \to \mathbf{2}$. Since $\chi_{\top_X}$ and $\chi_{\top_Y}$ are preframe maps by assumption, we may form a composite of preframe maps 
+
+$$X \parr Y \stackrel{\chi_{\top_X} \parr \chi_{\top_Y}}{\to} \mathbf{2} \parr \mathbf{2} \stackrel{\vee}{\to} \mathbf{2}.$$ 
+
+Call this preframe map $h$. Now, as remarked earlier, the preframe tensor $X \parr Y$ gives the coproduct of $X$ and $Y$. Then one proves that $h(w) = 1$ implies $w = \top_{X \parr Y}$; that is to say, $h = \chi_{\top_{X \parr Y}}$, meaning that the coproduct of $X$ and $Y$ is compact. 
+
+Or so this is how Johnstone and Vickers proceed; our account circumvents the building up of the closed category infrastructure of preframes which lies in the conceptual background. 
+
++-- {: .proof} 
+###### Proof 
+Exploiting the canonical preframe representation of elements $w \in X \otimes Y$ from the previous section, define $h: X \otimes Y \to \mathbf{2}$ by the formula 
+
+$$h(w) = \bigvee_{fin.\; F \subseteq X} \bigwedge_{S \subseteq F} \left[\chi_{\top_X}(\bigvee_{u \in S} u) \vee \chi_{\top_Y}(\bigvee_{u \notin S} \phi_w(u))\right]$$ 
+
+Now $h$ preserves directed joins and finite meets, due to the fact that directed joins and finite meets commute with directed joins and finite meets, and that $\vee$ preserves directed joins and finite meets in separate variables, and that $w \mapsto \phi_w$ is a poset isomorphism (so preserves directed joins and finite meets). 
+
+Now suppose $h(w) = 1$. Then for some finite subset $F \subseteq X$ we have, for every subset $S \subseteq F$, that either $\bigvee_{u \in S} u = \top_X$ or $\bigvee_{u \notin S} \phi_w(u) = \top_Y$. But since $\top_X \parr v = \top_{X \otimes Y} = u \parr \top_Y$ for any $u \in X, v \in Y$, we conclude  
+
+$$\array{
+w & = & \bigvee_{fin.\; F \subseteq X} \bigwedge_{S \subseteq F} (\bigvee_{u \in S} u) \parr (\bigvee_{u \notin S} \phi_w(u)) \\ 
+ & = & \bigvee_{fin.\; F \subseteq X} \bigwedge_{S \subseteq F} \top_{X \otimes Y} \\ 
+ & = & \top_{X \otimes Y}
+}$$ 
+
+Thus we have shown $h = \chi_{\top_{X \otimes Y}}$ is a preframe map. 
+=-- 
+
++-- {: .num_theorem} 
+###### Theorem 
+**(Tychonoff theorem)** 
+An arbitrary coproduct of compact frames $\sum_{i \in I} X_i$ is compact. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+We may assume all the frames $X_i$ are non-trivial, i.e. non-terminal. Then each coproduct inclusion $\otimes_{i \in F} X_i \hookrightarrow \otimes_{j \in F'} X_j$, where $F, F'$ are finite subsets of $I$ and $F \subseteq F'$, is an embedding. 
+(...)
+=-- 
+
+
+## References 
+
+Peter Johnstone and Steven Vickers, *Preframe presentation present*, in A. Carboni, M.C. Pedicchio, G. Rosolini (eds.) *Category Theory* (Proceedings, Como 1990), Springer Lectures Notes in Mathematics 1488 (1991), 193-212. ([online pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.438.8880&rep=rep1&type=pdf)) 
+ {#JV91} 
+
+Citation to this [link](http://dml.cz/bitstream/handle/10338.dmlcz/106680/CommentatMathUnivCarol_029-1988-4_3.pdf) to be added... 
