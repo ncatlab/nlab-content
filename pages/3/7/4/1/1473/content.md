@@ -188,20 +188,6 @@ One method of proof uses [[ultrafilter]] [[convergence]]. Let $\langle X_\alpha 
 The axiom of choice is used in step 2 to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice at this step.  The ultrafilter theorem is used in step 3, and this is the only other place where a choice principle is needed. In other words, working over a choice-free set theory like [[ZFC|ZF]] or even BZ (bounded Zermelo set theory), the ultrafilter principle (UF) implies Tychonoff's theorem for Hausdorff spaces. 
 =-- 
 
-+--{.query}
-
-[[Todd Trimble|Todd]]: Regarding the need for [[excluded middle]]: it's not so clear that there's any direct argument. For it's at this point where we have to use the ultrafilter theorem, in order to produce a witnessing ultrafilter. Witness to what? The statement as it stands involves universal quantification over ultrafilters, so the witness would be in view of a contradiction.
-
- [[Toby Bartels|Toby]]: Note that we use excluded middle in two places for a proof by contradiction; I\'ll try to remove these if possible. ([[Todd Trimble|Todd]]: I've rearranged the argument in the first step; the first formulation I gave looked unnecessarily "choice-y".) 
- 
-[[Todd Trimble|Todd]]: Yes, although I'm not too fussed about using indirect arguments, since in a topos, excluded middle follows from AC. I don't know whether it also follows from a weaker choice principle equivalent to the ultrafilter theorem, but I guess I wouldn't be surprised if it did. 
-
-_Toby_:  As far as I know, UF and EM are independent (although I\'m not certain).  So I\'m interested in whether the Hausdorff case requires EM as well as UF.
-
-_Todd_: I wrote John Bell about this, and he kindly responded. Apparently you are right: UF (or BPIT) implies only a weakened version of EM: $\neg x \vee \neg\neg x = 1$. He referred me to his paper <a href="http://publish.uwo.ca/~jbell/BOOLCON.pdf">Boolean Algebras and Distributive Lattices Treated Constructively</a>, for this (among much else). 
-
-_Toby_:  Great, hard results!  Although I\'m not sure that his ultrafilter theorem is the same as mine, since he talks about ultrafilters in arbitrary distributive lattices, while I would use [[ultrafilter|a constructively stronger definition]] of ultrafilter in a powerset.  But I should be able to figure out what carries over, now that I have a result to go for.
-=--
 
 
 ### Proof of converses
