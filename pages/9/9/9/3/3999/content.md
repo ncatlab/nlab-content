@@ -1,4 +1,3 @@
-[[!redirects sequentially compact space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -79,49 +78,39 @@ In [[metric spaces]] for example both notions coincide, see at [[sequentially co
 
 This is _not_ a contradiction to the statement that compact is equivalent to every [[net]] having a convergent subnet: Given a sequence in a compact space, its convergent _subnet_ need not be a _subsequence_ (see [[net]] for a definition of subnet).
 
-## Examples and counter-examples
+## Examples and counter-examples 
+ {#Examples}
 
-### A Compact Space that is not Sequentially Compact 
+A [[metric space]] is sequentially compact precisely if it is [[compact topological space|compact]]. See at _[[sequentially compact metric spaces are equivalently compact metric spaces]]_.
 
-This counter-example is based on [Steen-Seebach, item 105](#SteenSeebach)
+In general neither of these two properties implies the other:
 
-A famous example of a space that is compact, but not sequentially compact, is the product space
-$$
-    \{0,1\}^{I} := \{0, 1\}^{[0, 1]}
-$$
-with the [[product topology]]. It is compact by the [[Tychonoff theorem]]. 
+* Examples of a sequentially compact spaces which are not compact are given in in ([Buskes-Rooij 97, example 13.5](#BuskesRooij97), [Patty 08, chapter 4, example 13](#Patty08)).
 
-Points of $\{0,1\}^{I}$ are functions $I \to \{0,1\}$, and the product topology is the topology of pointwise convergence.
+* An example of a [[compact topological space]] which is not sequentially compact is given in ([Steen-Seebach 70, item 105](#SteenSeebach70)). See at [compact space -- Compact spaces which are not sequentially compact](compact+space#CompactSpacesWhichAreNotSequentiallyCompact).
 
-Define a sequence $(a_n)$ in $I^{I}$ with $a_n(x)$ being the nth digit in the binary expansion of $x$ (we make the convention that binary expansions do not end in sequences of $1$s).  Let $a \coloneqq (a_{n_k})$ be a subsequence and define $p_a \in I$ by the binary expansion that has a $0$ in the $n_k$th position if $k$ is even and a $1$ if $k$ is odd (and, for definiteness and to ensure that this fits with our convention, define it to be $0$ elsewhere).  Then the projection of $(a_{n_k})$ at the $p_a$th coordinate is $1, 0, 1,0,...$ which is not convergent.  Hence $(a_{n_k})$ is not convergent.
 
-(Basically that's the diagonal trick of [[Cantor's theorem]]).
-
-However, as $\{0,1\}^I$ is compact, $a$ has a convergent subnet.  An explicit construction of a convergent subset, given a cluster point $a$, is as follows.  A function $a \colon I \to \{0,1\}$ is a cluster point of $(a_n)$ if, for any $p_1, \dots, p_n \in I$ the set
-
-$$
-A(p_1,\dots,p_n) \coloneqq \{k \in \mathbb{R} : a_k(p_i) = a(p_i) \forall i\}
-$$
-
-is infinite.  We index our subnet by the family of finite subsets of $I$ and define the subnet function $\mathcal{F}(I) \to \mathbb{N}$ to be
-
-$$
-\{p_1,\dots,p_n\} \mapsto \min A(p_1,\dots,p_n)
-$$
-
-This is a convergent subnet.
 
 ## References 
 
+* {#BuskesRooij97} Buskes, van Rooij, _Topological Spaces: From  Distance to Neighbourhood_, Springer 1997
+
+* {#SteenSeebach70} Lynn Steen, J. Arthur Seebach, _Counterexamples in Topology_, Springer-Verlag, New York (1970) 2nd edition,  (1978), Reprinted by Dover Publications, New York, 1995
+
+* {#Patty08} Wayne Patty, _Foundations of Topology_, Jones and Bartlett Publishers (2008)
+
+See also
+
 * Wikipedia, _[Sequentially compact space](https://en.wikipedia.org/wiki/Sequentially_compact_space)_
 
-* {#SteenSeebach} Steen, Seebach: _Counterexamples in Topology_
 
+
+[[!redirects sequentially compact space]]
+[[!redirects sequentially compact spaces]]
 
 [[!redirects sequentially compact]]
 [[!redirects sequential compactness]]
-[[!redirects sequentially compact space]]
-[[!redirects sequentially compact spaces]]
+
 
 [[!redirects sequentially compact metric space]]
 [[!redirects sequentially compact metric spaces]]
