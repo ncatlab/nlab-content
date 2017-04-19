@@ -1521,7 +1521,7 @@ $$
     \\
     & = \underset{ {U \subset S} \atop {U \subset X \, \text{open}}  }{\cap} \left( X \backslash U \right)
     \\
-    & = \underset{{C\, closed} \atop {C \supset X \backslash S}}{\cap} \left( C \right)
+    & = \underset{ {C \supset X \backslash S} \atop {C\, closed}  }{\cap} \left( C \right)
     \\
     & = Cl(X \backslash S)
   \end{aligned}
@@ -1529,6 +1529,9 @@ $$
 
 =--
 
+
+The terminology "closed" subspace for complements of opens is justified by the following statement,
+which yet more shows how the combinatorial concept of open subsets captures key phenomena in analysis:
 
 +-- {: .num_prop #ConvergenceInClosedSubspace}
 ###### Proposition
@@ -1548,15 +1551,15 @@ and let $V \subset X$ be a [[subset]]. Then the following are equivalent:
 ###### Proof
 
 First assume that $V \subset X$ is closed and that $x_i \overset{i \to \infty}{\longrightarrow} x_{\infty}$ for some
-$x_\infty \in X$. We need to show that then $x_\infty \in V$. Suppose it were not, then
-$x_\infty \in X\backslash V$. Since by definition this [[complement]] $X \backslash V$ is an [[open subset]],
-it follows that there exists a [[real number]] $\epsilon \gt 0$ such that the [[open ball]]
-around $x$ of radius $\epsilon$ is still contained in the complement: $B^\circ_x(\epsilon) \subset X \backslash V$.
+$x_\infty \in X$. We need to show that then $x_\infty \in V$. Suppose it were not, hence that
+$x_\infty \in X\backslash V$. Since, by definition, this [[complement]] $X \backslash V$ is an [[open subset]],
+it would follow that there exists a [[real number]] $\epsilon \gt 0$ such that the [[open ball]]
+around $x$ of radius $\epsilon$ were still contained in the complement: $B^\circ_x(\epsilon) \subset X \backslash V$.
 But since the sequence is assumed to converge in $X$, this means that there exists $N_\epsilon$ such that all
 $x_{i \gt N_{\epsilon}}$ are in $B^\circ_x(\epsilon)$, hence in $X\backslash V$. This contradicts the assumption that
 all $x_i$ are in $V$, and hence we have [[proof by contradiction|proved by contradiction]] that $x_\infty \in V$.
 
-Conversely, assume that for all sequences in $V$ that converge to some $x_\infty \in X$ then $x_\infty \in V \subset W$.
+Conversely, assume that for all sequences in $V$ that converge to some $x_\infty \in X$ then $x_\infty \in V \subset X$.
 We need to show that then $V$ is closed, hence that $X \backslash V \subset X$ is an open subset, hence that for every
 $x \in X \backslash V$ we may find a real number $\epsilon \gt 0$ such that the [[open ball]] $B^\circ_x(\epsilon)$ around $x$
 of radius $\epsilon$ is still contained in
@@ -1575,7 +1578,8 @@ A special role in the theory is played by the "irreducible" closed subspaces:
 **([[irreducible closed subspace]])**
 
 A [[closed subset]] $S \subset X$ (def. \ref{ClosedSubset}) of a [[topological space]] $X$ is called _[[irreducible closed subspace|irreducible]]_ if it is
-[[inhabited|non-empty]] and not the [[union]] of two closed proper (i.e. smaller) subsets. In other words, $S$ is irreducible if whenever
+[[inhabited|non-empty]] and not the [[union]] of two closed proper (i.e. smaller) subsets. In other words, 
+a [[inhabited|non.empty]] $S$ is irreducible if whenever
 $S_1, S_2 \subset X$ are two [[closed subspace]] such that
 
 $$
@@ -1588,6 +1592,7 @@ then $S_1 = S$ or $S_2 = S$.
 
 +-- {: .num_example #IrreducibleClosureOfPoint}
 ###### Example
+**(closures of points are irreducible)**
 
 For $x \in X$ a [[point]] inside a [[topological space]], then
 the [[topological closure|closure]] $Cl(\{x\})$ of the [[singleton]] [[subset]] $\{x\} \subset X$
@@ -1595,14 +1600,14 @@ is [[irreducible closed subset|irrducible]] (def. \ref{ClosedIrreducible}).
 
 =--
 
-Sometimes it is useful to re-express the condition of irreducibility of closed subspace
+Sometimes it is useful to re-express the condition of irreducibility of closed subspaces
 in terms of complementary open subsets:
 
 +-- {: .num_prop #OpenSubsetVersionOfClosedIrreducible}
 ###### Proposition
 **(irreducible closed subsets in terms of prime open subsets)**
 
-Let $(X, \tau)$ be a [[topological space]], and let $P \in \tau \subset P(X)$ be a proper [[open subset]],
+Let $(X, \tau)$ be a [[topological space]], and let $P \in \tau $ be a proper [[open subset]],
 so that the [[complement]] $F \coloneqq X\backslash P$ is an [[inhabited]] [[closed subspace]]. Then $F$
 is [[irreducible closed subspace|irreducible]] in the sense of def. \ref{ClosedIrreducible} precisely if whenever $U_1,U_2 \in \tau$ are open subsets
 with $U_1 \cap U_2 \subset P$ then $U_1 \subset P$ or $U_2 \subset P$:
@@ -1647,6 +1652,17 @@ $$
   \\
   &
   = \left( X \backslash (P \cup U_1) \right) \cup \left( X \backslash P \cup U_2 \right)
+  \\
+  & = X \backslash 
+  \left(
+    \left(
+      P \cup U_1
+    \right)
+    \cap
+    \left(
+      P \cup U_2
+    \right)
+  \right)
   \\
   & = X \backslash ( P \cup (U_1 \cap U_2)  )
   \\
@@ -1702,7 +1718,7 @@ if it preserves
 
 1. [[finite number|finite]] [[intersections]].
 
-In other words, $\phi$ is a frame homomorphism if
+In other words, $\phi$ is a frame homomorphism precisely if
 
 1. for every [[set]] $I$ and every $I$-indexed set $\{U_i \in \tau_Y\}_{i \in I}$ of elements of $\tau_Y$, then
 
@@ -1725,6 +1741,7 @@ In other words, $\phi$ is a frame homomorphism if
 
 +-- {: .num_remark #PreservationOfInclusionsByFrameHomomorphism}
 ###### Remark
+**(frame homomorphisms preserve inclusions)**
 
 A [[frame]] [[homomorphism]] $\phi$ as in def. \ref{HomomorphismOfFramesOfOpens}
 necessarily also preserves inclusions in that
@@ -1786,7 +1803,7 @@ the [[point]] topological space $\ast = (\{1\}, \tau_\ast = \left\{\emptyset, \{
 
 For $(X,\tau)$ a [[topological space]], then there is a [[bijection]] between
 the [[irreducible closed subspaces]] of $(X,\tau)$ (def. \ref{ClosedIrreducible}) and the
-[[frame]] [[homomorphisms]] from $\tau_X$ to $\tau_\ast$, given by
+[[frame]] [[homomorphisms]] from $\tau_X$ to $\tau_\ast$, and this bijection is given by
 
 $$
   \array{
@@ -1796,7 +1813,7 @@ $$
     \\
     \phi
       &\mapsto&
-    X \backslash U_\emptyset(\phi)
+    X \backslash \left( U_\emptyset(\phi) \right)
   }
 $$
 
@@ -1895,7 +1912,7 @@ Clearly these two operations are inverse to each other.
 
 
 
-
+$\,$
 
 
 
@@ -1954,7 +1971,7 @@ closed subsets of $X$.
 +-- {: .proof}
 ###### Proof
 
-Taking [[pre-images]] commutes with taking [[complements]].
+This follows since taking [[pre-images]] commutes with taking [[complements]].
 
 =--
 
@@ -2141,19 +2158,19 @@ $\{a\} \in \mathbb{R}$ it is not open.
 +-- {: .num_example}
 ###### Example
 
-Regard the set of [[real numbers]] $\mathbb{R}$ equipped with its [[Euclidean space|Euclidean]] [[metric topology]]
+Consider the set of [[real numbers]] $\mathbb{R}$ equipped with its [[Euclidean space|Euclidean]] [[metric topology]]
 (def. \ref{EuclideanNorm}, def. \ref{MetricTopology}). The [[exponential function]]
 
 $$
   \exp(-) \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}
 $$
 
-maps all of $\mathbb{R}$ (which is a closed subset $\mathbb{R} = \mathbb{R} \backslash \emptyset$) to
-the [[half-open interval]] $(0,\infty] \subset \mathbb{R}$, which is not closed.
+maps all of $\mathbb{R}$ (which is a closed subset, since $\mathbb{R} = \mathbb{R} \backslash \emptyset$) to
+the [[open interval]] $(0,\infty) \subset \mathbb{R}$, which is not closed.
 
 =--
 
-Those continuous function that do happen to preserve
+Those continuous functions that do happen to preserve
 open or closed subsets get a special name:
 
 +-- {: .num_defn #OpenMap}
@@ -2170,6 +2187,7 @@ A [[continuous function]] $f \colon (X,\tau_X) \to (Y, \tau_Y)$ (def. \ref{Conti
 
 +-- {: .num_example}
 ###### Example
+**([[projections]] are open)**
 
 For $(X_1,\tau_{X_1})$ and $(X_2,\tau_{X_2})$ two [[topological spaces]], then the projection maps
 
@@ -2183,65 +2201,9 @@ out of their [[product topological space]] (def. \ref{BinaryProductTopologicalSp
 
 Below in prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed} we find a large supply of [[closed maps]].
 
-+-- {: .num_lemma #SaturatedOpenNeighbourhoodsOfSaturatedClosedSubsets}
-###### Lemma
-**(saturated open neighbourhoods of saturated closed subsets under closed maps)**
-
-Let
-
-1. $f \;\colon\; (X, \tau_X) \longrightarrow (Y, \tau_Y)$ be a [[closed map]] (def. \ref{OpenMap});
-
-1. $C \subset X$ be a [[closed subset]] of $X$ (def. \ref{ClosedSubset}) which is $f$-[[saturated subset|saturated]] (def. \ref{DetectViaSaturatedSubsetsContinuousQuotientMap});
-
-1. $U \supset C$ an [[open subset]] containing $C$;
-
-then there exists a smaller open subset $V$ still containing $C$
-
-$$
-  U \supset V \supset C
-$$
-
-and such that $V$ is $f$-[[saturated subset|saturated]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-We claim that the [[complement]] of $X$ by the $f$-saturation (def. \ref{SubsetSaturated}) of the complement of $X$ by $U$
-
-$$
-  V \coloneqq X \backslash \left(  f^{-1}\left( f\left(  X \backslash U \right)  \right) \right)
-$$
-
-has the desired properties. To see this, observe first that
-
-1. the [[complement]] $X \backslash U$ is closed, since $U$ is assumed to be open;
-
-1. hence the image $f(X\backslash U)$ is closed, since $f$ is assumed to be a closed map;
-
-1. hence the pre-image $f^{-1}\left( f\left(  X \backslash U \right)\right)$ is closed, since $f$ is continuous
-   (using prop. \ref{ClosedSubsetContinuity}), therefore its complement $V$ is indeed open;
-
-1. this pre-image $f^{-1}\left( f\left(  X \backslash U \right) \right)$ is saturated (example \ref{PreImagesAreSaturatedSubsets})
-   and hence also its complement $V$ is saturated, by lemma \ref{ComplementOfSaturatedSubsetIsSaturated}.
-
-Therefore it now only remains to see that $U \supset V \supset C$.
-
-The inclusion $U \supset V$ means equivalently that $f^{-1}\left( f\left(  X \backslash U \right)\right) \supset X \backslash U$,
-which is clearly the case.
-
-The inclusion $V \supset C$ meas that $f^{-1}\left( f\left(  X \backslash U \right) \right) \,\cap \, C = \emptyset$.
-Since $C$ is saturated by assumption, this means that $f^{-1}\left( f\left(  X \backslash U \right)\right) \,\cap \, f^{-1}(f(C)) = \emptyset$.
-This in turn holds precisely if $f\left(  X \backslash U \right) \,\cap \, f(C)  = \emptyset$.
-Since $C$ is saturated, this holds precisely if $X \backslash U \cap C = \emptyset$, and this is true by the assumption
-that $U \supset C$.
-
-=--
 
 
-
-
+$\,$
 
 
 ### Examples
@@ -2251,8 +2213,9 @@ We discuss some basic examples of [[continuous functions]] (def. \ref{Continuous
 
 +-- {: .num_example #TerminalityOfThePoint}
 ###### Example
+**(point space is [[terminal object|terminal]])**
 
-For $(X,\tau)$ any topological space, then there is a unique continuous function
+For $(X,\tau)$ any topological space, then there is a unique continuous function (which we denote by the same symbol)
 
 $$
   X \longrightarrow \ast
@@ -2260,11 +2223,6 @@ $$
 
 from $X$ to the [[point]] (def. \ref{Point}).
 
-=--
-
-+-- {: .num_remark}
-###### Remark
-**(point space is [[terminal object|terminal]])**
 
 In the language of [[category theory]] (remark \ref{TopCategory}), example \ref{TerminalityOfThePoint}
 says that the point $\ast$ is the _[[terminal object]]_ in the [[category]] [[Top]] of topological spaces.
@@ -2356,12 +2314,54 @@ $$
 $$
 
 To see this, it is sufficient to see that the [[preimages]] of [[basis for a topology|basic opens]] $U_1 \times U_2$
-in $\tau_{X \times X}$ are in $\tau_X$.But these pre-images are the [[intersections]] $U_1 \cap U_2 \subset X$,
+in $\tau_{X \times X}$ are in $\tau_X$. But these pre-images are the [[intersections]] $U_1 \cap U_2 \subset X$,
 which are open by the axioms on the topology $\tau_X$.
 
 =--
 
-Sometimes it is useful to recognize [[topological quotient space]] projections via [[saturated subsets]]
+
++-- {: .num_example #ImageFactorization}
+###### Example
+**([[image factorization]])**
+
+Let $f \;\colon\; (X, \tau_X) \longrightarrow (Y,\tau_Y)$ be a [[continuous function]].
+
+Write $f(X) \subset Y$ for the [[image]] of $f$
+on underlying sets, and consider the resulting factorization of $f$ through $f(X)$ on underlying sets:
+
+$$
+  f
+  \;\colon\;
+  X
+    \overset{\text{surjective}}{\longrightarrow}
+  f(X)
+    \overset{\text{injective}}{\longrightarrow}
+  Y
+  \,.
+$$
+
+There are the following two ways to topologize the [[image]] $f(X)$ such as to make this a sequence of
+two continuous functions:
+
+1. By example \ref{SubspaceTopology} $f(X)$ inherits a [[topological subspace|subspace topology]] from $(Y,\tau_Y)$
+which makes the inclusion $f(X) \longrightarrow Y$ a [[continuous function]].
+
+   Observe that this also makes $X \to f(X)$ a continuous function: An open subset of $f(X)$
+   in this case is of the form $U_Y \cap f(X)$ for $U_Y \in \tau_Y$, and $f^{-1}( U_Y \cap f(X) ) = f^{-1}(U_Y)$,
+   which is open in $X$ since $f$ is continuous.
+
+1. By example \ref{QuotientTopologicalSpace} $f(X)$ inherits a [[quotient topological space|quotient topology]] from $(X,\tau_X)$
+   which makes the surjection $X \longrightarrow f(X)$ a [[continuous function]].
+
+   Observe that this also makes $f(X) \longrightarrow Y$ a continuous function: The preimage under this map of an
+   open subset $U_Y \in \tau_Y$ is the restriction $U_Y \cap f(X)$, and the pre-image of that under $X \to f(X)$ is
+   $f^{-1}(U_Y)$, as before, which is open since $f$ is continuous, and therefore $U_Y \cap f(X)$ is open in the
+   quotient topology.
+
+=--
+
+
+Sometimes it is useful to recognize [[quotient topological space]] projections via [[saturated subsets]]
 (essentially another term for pre-images of underlying sets):
 
 +-- {: .num_defn #SubsetSaturated}
@@ -2369,7 +2369,7 @@ Sometimes it is useful to recognize [[topological quotient space]] projections v
 **([[saturated subset]])**
 
 Let $f \;\colon\; X \longrightarrow Y$ be a [[function]] of [[sets]].
-Then a [[subset]] $S \subset S$ is called an _$f$-[[saturated subset]]_ (or just _saturated subset_, if $f$ is understood)
+Then a [[subset]] $S \subset X$ is called an _$f$-[[saturated subset]]_ (or just _saturated subset_, if $f$ is understood)
 if $S$ is the [[pre-image]] of its [[image]]:
 
 $$
@@ -2401,7 +2401,7 @@ Observe that:
 
 Let $f \colon X \longrightarrow Y$ be a [[function]]. Then a [[subset]] $S \subset X$
 is $f$-saturated (def. \ref{SubsetSaturated}) precisely if its [[complement]]
-$X \backslash S$ is so.
+$X \backslash S$ is saturated.
 
 =--
 
@@ -2424,47 +2424,68 @@ closed and $f$-saturated subsets to closed subsets.
 
 =--
 
-+-- {: .num_example #ImageFactorization}
-###### Example
-**([[image factorization]])**
+We record the following technical lemma about saturated subspaces, which we will need below 
+to prove prop. \ref{QuotientProjectionsOutOfCompactHausdorffSpacesAreClosedPreciselyIfTheCodomainIsHausdorff}.
 
-Let $f \;\colon\; (X, \tau_X) \longrightarrow (Y,\tau_Y)$ be a [[continuous function]].
++-- {: .num_lemma #SaturatedOpenNeighbourhoodsOfSaturatedClosedSubsets}
+###### Lemma
+**(saturated open neighbourhoods of saturated closed subsets under closed maps)**
 
-Write $f(X) \subset Y$ for the [[image]] of $f$
-on underlying sets, and consider the resulting factorization of $f$ through $f(X)$ on underlying sets:
+Let
+
+1. $f \;\colon\; (X, \tau_X) \longrightarrow (Y, \tau_Y)$ be a [[closed map]] (def. \ref{OpenMap});
+
+1. $C \subset X$ be a [[closed subset]] of $X$ (def. \ref{ClosedSubset}) which is $f$-[[saturated subset|saturated]] (def. \ref{SubsetSaturated});
+
+1. $U \supset C$ an [[open subset]] containing $C$;
+
+then there exists a smaller open subset $V$ still containing $C$
 
 $$
-  f
-  \;\colon\;
-  X
-    \overset{\text{surjective}}{\longrightarrow}
-  f(C)
-    \overset{\text{injective}}{\longrightarrow}
-  Y
-  \,.
+  U \supset V \supset C
 $$
 
-There are the following two ways to topologize the [[image]] $f(X)$ such as to make this a sequence of
-two continuous functions:
+and such that $V$ is $f$-[[saturated subset|saturated]].
 
-1. By example \ref{SubspaceTopology} $f(X)$ inherits a [[topological subspace|subspace topology]] from $(Y,\tau_Y)$
-which makes the inclusion $f(X) \longrightarrow Y$ a [[continuous function]].
+=--
 
-   Observe that this also makes $X \to f(X)$ a continuous function: An open subset of $f(X)$
-   in this case is of the form $U_Y \cap f(X)$ for $U_Y \in \tau_Y$, and $f^{-1}( U_Y \cap f(X) ) = f^{-1}(U_Y)$,
-   which is open in $X$ since $f$ is continuous.
++-- {: .proof}
+###### Proof
 
-1. By example \ref{QuotientTopologicalSpace} $f(X)$ inherits a [[quotient topological space|quotient topology]] from $(X,\tau_X)$
-   which makes the surjection $X \longrightarrow Y$ a [[continuous function]].
+We claim that the [[complement]] of $X$ by the $f$-saturation (def. \ref{SubsetSaturated}) of the complement of $X$ by $U$
 
-   Observe that this also makes $f(X) \longrightarrow Y$ a continuous function: The preimage under this map of an
-   open subset $U_Y \in \tau_Y$ is the restriction $U_Y \cap f(X)$, and the pre-image of that under $X \to f(X)$ is
-   $f^{-1}(U_Y)$, as before, which is open since $f$ is continuous, and therefore $U_Y \cap f(X)$ is open in the
-   quotient topology.
+$$
+  V \coloneqq X \backslash \left(  f^{-1}\left( f\left(  X \backslash U \right)  \right) \right)
+$$
+
+has the desired properties. To see this, observe first that
+
+1. the [[complement]] $X \backslash U$ is closed, since $U$ is assumed to be open;
+
+1. hence the image $f(X\backslash U)$ is closed, since $f$ is assumed to be a closed map;
+
+1. hence the pre-image $f^{-1}\left( f\left(  X \backslash U \right)\right)$ is closed, since $f$ is continuous
+   (using prop. \ref{ClosedSubsetContinuity}), therefore its complement $V$ is indeed open;
+
+1. this pre-image $f^{-1}\left( f\left(  X \backslash U \right) \right)$ is saturated (example \ref{PreImagesAreSaturatedSubsets})
+   and hence also its complement $V$ is saturated, by lemma \ref{ComplementOfSaturatedSubsetIsSaturated}.
+
+Therefore it now only remains to see that $U \supset V \supset C$.
+
+The inclusion $U \supset V$ means equivalently that $f^{-1}\left( f\left(  X \backslash U \right)\right) \supset X \backslash U$,
+which is clearly the case.
+
+The inclusion $V \supset C$ meas that $f^{-1}\left( f\left(  X \backslash U \right) \right) \,\cap \, C = \emptyset$.
+Since $C$ is saturated by assumption, this means that $f^{-1}\left( f\left(  X \backslash U \right)\right) \,\cap \, f^{-1}(f(C)) = \emptyset$.
+This in turn holds precisely if $f\left(  X \backslash U \right) \,\cap \, f(C)  = \emptyset$.
+Since $C$ is saturated, this holds precisely if $X \backslash U \cap C = \emptyset$, and this is true by the assumption
+that $U \supset C$.
 
 =--
 
 
+
+$\,$
 
 
 ### Homeomorphisms
@@ -2791,7 +2812,7 @@ saying that the the [[functor|functorial]] construction $(-) \times (-)$ of [[pr
 gives the [[category]] [[Top]] of [[topological spaces]] the [[structure]] of a
 [[monoidal category]] which is [[symmetric monoidal category|symmetrically]] [[braided monoidal category|braided]].
 
-From this, a basic result of [[category theory]], the _[[MacLane coherence theorem]]_, guarantees that there is
+From this, a basic result of [[category theory]], the _[[coherence theorem for monoidal categories|MacLane coherence theorem]]_, guarantees that there is
 no essential ambiguityin re-backeting arbitrary iterations of the binary product topological space construction.
 Accordingly, we may write
 
@@ -2963,6 +2984,7 @@ Generally the [[homeomorphism]] class of a [[closed manifold|closed]] [[orientab
 
 
 
+$\,$
 
 
 
@@ -4537,10 +4559,10 @@ which means that also $\{U_i \subset Y\}_{i \in J \subset I}$ is still an open c
 If $f \colon X \longrightarrow Y$ is a [[continuous function]] out of a [[compact topological space]] $X$ which is not necessarily [[surjective function|surjective]], then we may consider its [[image factorization]]
 
 $$
-  f \;\colon\; X \longrightarrow im(f) \hookrightarrow Y
+  f \;\colon\; X \longrightarrow f(X) \hookrightarrow Y
 $$
 
-as in example \ref{ImageFactorization}. Now by construction $X \to \im(f)$ is surjective, and so lemma \ref{ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain} implies that $im(f)$ is compact.
+as in example \ref{ImageFactorization}. Now by construction $X \to f(X)$ is surjective, and so lemma \ref{ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain} implies that $f(X)$ is compact.
 
 =--
 
@@ -5001,6 +5023,8 @@ follows since $\pi$ is a [[closed map]] by prop. \ref{MapsFromCompactSpacesToHau
 =--
 
 
+The following proposition allows to recognize when a [[quotient space]] of a compact Hausdorff space is
+itself still Hausdorff.
 
 +-- {: .num_prop #QuotientProjectionsOutOfCompactHausdorffSpacesAreClosedPreciselyIfTheCodomainIsHausdorff}
 ###### Proposition
@@ -5059,7 +5083,7 @@ $$
 
 Moreover, by lemma \ref{SaturatedOpenNeighbourhoodsOfSaturatedClosedSubsets} we may find these $U_i$ such that they
 are both [[saturated subsets]] (def. \ref{SubsetSaturated}). Therefore finally lemma \ref{SaturatedOpenNeighbourhoodsOfSaturatedClosedSubsets}
-say that the images $\pi(U_i)$ are open in $(Y,\tau_Y)$. These are now clearly disjoint open neighbourhoods of $y_1$ and $y_2$.
+says that the images $\pi(U_i)$ are open in $(Y,\tau_Y)$. These are now clearly disjoint open neighbourhoods of $y_1$ and $y_2$.
 
 =--
 
@@ -5095,7 +5119,8 @@ regarded as a [[topological subspace]] of the 2-dimensional [[Euclidean space]] 
 
 This is clearly a [[continuous function]] and a [[bijection]] on the underlying sets.
 Moreover, since [[continuous images of compact spaces are compact]] (cor. \ref{ContinuousImageOfACompactSpaceIsCompact})
-$[0,1]$
+and since the closed interval $[0,1]$ is compact (example \ref{CompactClosedInterval}) we also obtain another proof that 
+the [[circle]] is compact.
 
 Hence by prop. \ref{ContinuousBijectionsFromCompactSpacesToHausdorffSpacesAreHomeomorphisms}
 the above map is in fact a [[homeomorphism]]
@@ -5118,7 +5143,7 @@ $$
 $$
 
 is _not_ a homeomorphism, even though this, too, is a bijection on the the underlying sets.
-But the [[half-open interval]] $[0,2\pi)$ is not compact, and hence prop. \ref{QuotientProjectionsOutOfCompactHausdorffSpacesAreClosedPreciselyIfTheCodomainIsHausdorff}
+But the [[half-open interval]] $[0,2\pi)$ is not compact, and hence prop. \ref{ContinuousBijectionsFromCompactSpacesToHausdorffSpacesAreHomeomorphisms}
 does not apply.
 
 =--
