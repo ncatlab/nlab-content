@@ -1428,6 +1428,9 @@ The following is an (incomplete) list of available $n$Lab entries related to top
 
 * [[Top]] [[CW-complex]], [[general topology]]
 * [[induced topology]], [[subspace]], [[interior]], [[boundary]], [[closure]]
+
+* [[product topological space]], [[disjoint union topological space]]
+
 * [[sphere]], [[metric space]], [[metrizable space]]
 * [[topological space]], [[continuous map]], [[homeomorphism]], [[neighborhood]]
 * [[pointed space]], [[contractible space]], [[connected space]], [[second countable space]]
