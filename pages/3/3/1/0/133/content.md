@@ -76,6 +76,7 @@ The following statements are all equivalent to the axiom of choice in $Set$ (alt
 
 
 ## Variants
+ {#Variants}
 
 There are a number of weaker axioms which are implied by the full axiom of choice.  Some of these are valid or accepted more generally than the full AC, and/or suffice for some of the usual applications of choice.  In particular, the full axiom of choice is generally rejected in [[constructive mathematics]], whereas some of these weaker forms of choice may be accepted, such as (in order of increasing strength) [[countable choice]], [[dependent choice]], and [[COSHEP]].
 
