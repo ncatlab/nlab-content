@@ -35,5 +35,9 @@ The [[singular homology]] of product topological spaces is informed by
 
 * [[tensor product of chain complexes]]
 
+* [[disjoint union topological space]]
+
 [[!redirects product topological spaces]]
+
 [[!redirects product space]]
+[[!redirects product spaces]]
