@@ -613,7 +613,7 @@ Important examples of pairs of spaces that are _not_ homeomorphic include the fo
 
 
 +-- {: .num_theorem #TopologicalInvarianceOfDimension}
-###### Theorem
+###### # Theorem
 **([[topological invariance of dimension]])**
 
 For $n_1, n_2 \in \mathbb{N}$ but $n_1 \neq n_2$, then the [[Cartesian spaces]] $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$ are _not_ [[homeomorphic]].
@@ -1399,12 +1399,16 @@ $\,$
 * [[quotient projections out of compact Hausdorff spaces are closed precisely if the codomain is Hausdorff]]
 
 
+
+
 ## Central theorems
  {#CentralTheorems}
 
 * [[Tietze extension theorem]]
 
 * [[Tychonoff theorem]]
+
+* [[Heine-Borel theorem]]
 
 * [[topological invariance of dimension]]
 
