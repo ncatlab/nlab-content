@@ -2461,11 +2461,11 @@ $$
 
 Generally, every [[open ball]] in $\mathbb{R}^n$ (def. \ref{OpenBalls}) is [[homeomorphic]] to all of $\mathbb{R}^n$.
 
-Similarly, for all $a \lt b \in \mathbb{R}$ 
+Similarly, for all $a \lt b \in \mathbb{R}$
 
 1. the [[open intervals]] $(a,b) \subset \mathbb{R}$
-(example \ref{OpenAndClosedIntervals}) equipped with their [[topological subspace|subspace topology]] 
-are all homeomorphic to each other, 
+(example \ref{OpenAndClosedIntervals}) equipped with their [[topological subspace|subspace topology]]
+are all homeomorphic to each other,
 
 1. the closed intervals $[a,b]$ are all homeomorphic to each other,
 
@@ -2478,13 +2478,13 @@ are all homeomorphic to each other,
 +-- {: .num_example #CartesianSymmetricMonoidalTop}
 ###### Example
 
-Let $(X,\tau_X)$, $(Y,\tau_Y)$ and $(Z, \tau_Z)$ be [[topological spaces]]. 
+Let $(X,\tau_X)$, $(Y,\tau_Y)$ and $(Z, \tau_Z)$ be [[topological spaces]].
 
 Then:
 
 1. There is a [[homeomorphism]] between the two ways of bracketing the three factors when forming their
    [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}), called the _[[associator]]_:
-    
+
    $$
      \alpha_{X,Y,Z}
        \;\colon\;
@@ -2509,9 +2509,9 @@ Then:
    $$
      \lambda_X \;\colon\; \ast \times (X, \tau_X)  \overset{\simeq}{\longrightarrow} (X,\tau_X)
    $$
-   
+
    and
-   
+
    $$
      \rho_X \;\colon\; (X, \tau_X) \times \ast \overset{\simeq}{\longrightarrow} (X, \tau_X)
      \,.
@@ -2528,10 +2528,10 @@ Then:
      \,.
    $$
 
-Moreover, all these homeomorphisms are compatible with each other, in that they make the 
+Moreover, all these homeomorphisms are compatible with each other, in that they make the
 following [[commuting diagram|diagrams commute]]:
 
-1. (triangle identity) 
+1. (triangle identity)
    $$
      \array{
         & (X \times \ast ) \times Y &\stackrel{\alpha_{X,\ast,Y}}{\longrightarrow} & X \times (\ast \times Y)
@@ -2545,7 +2545,7 @@ following [[commuting diagram|diagrams commute]]:
      }
    $$
 
-1. {#PentagonIdentity} ([[pentagon identity]]) 
+1. {#PentagonIdentity} ([[pentagon identity]])
    $$
      \array{
        && (W \times X) \times (Y \times Z)
@@ -2568,7 +2568,7 @@ following [[commuting diagram|diagrams commute]]:
      }
    $$
 
-1. (hexagon identities) 
+1. (hexagon identities)
    $$
      \array{
        (X \times Y) \times Z
@@ -2615,16 +2615,16 @@ following [[commuting diagram|diagrams commute]]:
 1. (symmetry)
 
    $$
-     \beta_{Y,X} \circ \beta_{X,Y} 
+     \beta_{Y,X} \circ \beta_{X,Y}
       \;=\;
      id \;\colon\; (X_1 \times X_2 \tau_{X_1 \times X_2}) \to (X_1 \times X_2 \tau_{X_1 \times X_2})
      \,.
    $$
 
-In the language of [[category theory]] (remark \ref{TopCategory}), this is summarized by 
+In the language of [[category theory]] (remark \ref{TopCategory}), this is summarized by
 saying that the the [[functor|functorial]] construction $(-) \times (-)$ of [[product topological spaces]]
-(example \ref{FunctorialProductSpace}) 
-gives the [[category]] [[Top]] of [[topological spaces]] the [[structure]] of a 
+(example \ref{FunctorialProductSpace})
+gives the [[category]] [[Top]] of [[topological spaces]] the [[structure]] of a
 [[monoidal category]] which is [[symmetric monoidal category|symmetrically]] [[braided monoidal category|braided]].
 
 From this, a basic result of [[category theory]], the _[[MacLane coherence theorem]]_, guarantees that there is
@@ -2652,7 +2652,7 @@ without putting parenthesis.
 
 Let $n \in \mathbb{N}$, and let $[a_i, b_i] \subset \mathbb{R}$ for $i \in \{1, \cdots, n\}$
 be $n$ [[closed intervals]] in the [[real line]] (example \ref{OpenAndClosedIntervals}), regarded as [[topological subspaces]] of the
-1-dimensional [[Euclidean space]]. Then the [[product topological space]] 
+1-dimensional [[Euclidean space]]. Then the [[product topological space]]
 (def. \ref{BinaryProductTopologicalSpace}, example \ref{CartesianSymmetricMonoidalTop})
 of all these intervals is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism})
 to the corresponding [[topological subspace]] of the $n$-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm}):
@@ -2666,7 +2666,7 @@ $$
     \underset{i}{\forall}
       a_i \leq x_i \leq b_i
   \right\}
-    \subset 
+    \subset
   \mathbb{R}^n
   \,.
 $$
@@ -4020,35 +4020,35 @@ regarded with its [[topological subspace|subspace topology]] is a [[compact topo
 ###### Proof
 
 Since all the closed intervals are [[homeomorphism|homeomorphic]] (by example \ref{OpenBallsHomeomorphicToRn})
-it is sufficient to show the statement for $[0,1]$. Hence let $\{U_i \subset [0,1]\}_{i \in I}$ be an 
+it is sufficient to show the statement for $[0,1]$. Hence let $\{U_i \subset [0,1]\}_{i \in I}$ be an
 open cover. We need to show that it has an open subcover.
 
-Say that an element $x \in [0,1]$ is _admissible_ if the closed sub-interval $[0,x]$ is covered by 
+Say that an element $x \in [0,1]$ is _admissible_ if the closed sub-interval $[0,x]$ is covered by
 finitely many of the $U_i$. In this terminlogy, what we need to show is that $1$ is admissible.
 
-Observe from the definition that 
+Observe from the definition that
 
 1. 0 is admissible,
 
 1. if $y \lt x \in [0,1]$ and $x$ is admissible, then also $y$ is admissible.
 
 This means that the set of admissible $x$ forms either an [[open interval]] $[0,g)$ or a [[closed interval]]
-$[0,g]$, for some $g \in [0,1]$. We need to show that the latter is true, and for $g = 1$. 
+$[0,g]$, for some $g \in [0,1]$. We need to show that the latter is true, and for $g = 1$.
 We do so by observing that the alternatives lead to contradictions:
 
-1. Assume that the set of admissible values were an open interval $[0,g)$. By assumption there would be 
-   a finite subset $J \subset I$ such that $\{U_i \subset [0,1] \}_{i \in J \subset I}$ were a finite 
+1. Assume that the set of admissible values were an open interval $[0,g)$. By assumption there would be
+   a finite subset $J \subset I$ such that $\{U_i \subset [0,1] \}_{i \in J \subset I}$ were a finite
    open cover of $[0,g)$. Accordingly, since there is some $i_g \in I$ such that $g \in U_{i_g}$, the union
-   $\{U_i\}_{i \in J } \sqcup \{U_{i_g}\}$ were a finite cover of the closed interval $[0,g]$, 
+   $\{U_i\}_{i \in J } \sqcup \{U_{i_g}\}$ were a finite cover of the closed interval $[0,g]$,
    contradicting the assumption that $g$ itself is not admissible (since it is not contained in $[0,g)$).
-   
-1. Assume that the set of admissible values were a closed interval $[0,g]$ for $g \lt 1$. 
+
+1. Assume that the set of admissible values were a closed interval $[0,g]$ for $g \lt 1$.
    By assumption there would then be a finite set $J \subset I$ such that $\{U_i \subset [0,1]\}_{i \in J \subset I}$
    were a finite cover of $[0,g]$. Hence there would be an index $i_g \in J$ such that $g \in U_{i_g}$.
-   But then by the nature of open subsets in the Euclidean space $\mathbb{R}$, this $U_{i_g}$ would also 
-   contain an open ball $B^\circ_g(\epsilon) = (g-\epsilon, g + \epsilon)$. This would mean that 
+   But then by the nature of open subsets in the Euclidean space $\mathbb{R}$, this $U_{i_g}$ would also
+   contain an open ball $B^\circ_g(\epsilon) = (g-\epsilon, g + \epsilon)$. This would mean that
    the set of admissible values includes the open interval $[0,g+ \epsilon)$, contradicting the assumption.
-   
+
 This gives a [[proof by contradiction]].
 
 =--
@@ -4076,7 +4076,7 @@ of open subsets of $X$ and $Y$:
 $$
   U_i
     \;=\;
-  \underset{k_i \in K_i}{\cup} \left( 
+  \underset{k_i \in K_i}{\cup} \left(
      V_{k_i} \times W_{k_i}
   \right)
   \phantom{AAAA}
@@ -4109,13 +4109,13 @@ $$
 is again an open cover of $X \times Y$.
 
 But by construction, each element $V_{k_i} \times W_{k_i}$ of this new cover is contained in at least one
-$U_{j(k_i)}$ of the original cover. 
+$U_{j(k_i)}$ of the original cover.
 Therefore it is now sufficient to show that there is
 a finite subcover of $(\star)$, consisting of elements indexed by $k_i \in K_{fin} \subset K$ for some
 [[finite set]] $K_{fin}$. Because then the corresponding $U_{j(k_i)}$ for $k_i \in K_{fin}$ form a finite subcover
 of the original cover.
 
-In order to see that $(\star)$ has a finite subcover, first fix a point $x \in X$ and 
+In order to see that $(\star)$ has a finite subcover, first fix a point $x \in X$ and
 write $\{x\} \subset X$ for the corresponding [[singleton]] [[topological subspace]].
 By example \ref{ConcreteAndAbstractPoint} this is [[homeomorphism|homeomorphic]] to the abstract
 [[point]] space $\ast$.
@@ -4131,10 +4131,10 @@ Therefore, since $(Y,\tau_Y)$ is assumed to be [[compact topological space|compa
 $$
   \left\{
     \left(
-      (V_{k_1} \times W_{k_1}) \cap (\{x\} \times Y) 
+      (V_{k_1} \times W_{k_1}) \cap (\{x\} \times Y)
     \right)
-      \;\subset\; 
-    \{x\}\times Y 
+      \;\subset\;
+    \{x\}\times Y
   \right\}_{k_i \in K}
 $$
 
@@ -4146,8 +4146,8 @@ because if not then we may simply remove that index and still have a (finite) su
 By finiteness of $J_x$ it now follows that the intersection
 
 $$
-  V_x 
-    \;\coloneqq\; 
+  V_x
+    \;\coloneqq\;
   \underset{k_i \in J_x}{\cap} V_{k_i}
 $$
 
@@ -4173,7 +4173,7 @@ $$
   \,.
 $$
 
-Since by construction $V_x \subset V_{k_i}$ for all $k_i \in J_x \subset K$, it follows 
+Since by construction $V_x \subset V_{k_i}$ for all $k_i \in J_x \subset K$, it follows
 that we have found a finite cover not just of $\{x\} \times Y$ but of $V_x \times Y$
 
 $$
@@ -4185,7 +4185,7 @@ $$
 
 To conclude, observe  that $\{V_x \subset X\}_{x \in X}$ is clearly an open cover of $X$,
 so that by the assumption that also $X$ is compact there is a finite set of points $S \subset X$
-so that $\{V_x \subset X\}_{x \in S \subset X}$ is still a cover. 
+so that $\{V_x \subset X\}_{x \in S \subset X}$ is still a cover.
 In summary then
 
 $$
@@ -4306,9 +4306,21 @@ Therefore $\{U_{i_s} \to X\}_{s \in S}$ is a finite sub-cover as required.
 
 =--
 
++-- {: .num_remark}
+###### Remark
+**(neither compactness nor sequential compactness implies the other)**
 
-In contrast to prop. \ref{SequentiallyCompactMetricSpacesAreEquivCompact}, for
-general topological spaces being sequentially compact neighther implies nor is implied by being compact (...examples...).
+Beware that, in contrast to prop. \ref{SequentiallyCompactMetricSpacesAreEquivCompact}, for
+general topological spaces being [[sequentially compact space|sequentially compact]] neither implies nor is implied by being 
+[[compact topological space|compact]]. The corresponding counter-examples are maybe beyond the scope of this
+note, but see here:
+
+* an example of a compact topological space which is not sequentially compact is given in ([Steen-Seebach 70, item 105](#SteenSeebach70)),
+  see at [compact space -- Compact spaces which are not sequentially compact](compact+space#CompactSpacesWhichAreNotSequentiallyCompact);
+
+* an example of a sequentially compact space which is not compact is discussed in ([Patty 08, chapter 4, example 13](#Patty08)).
+
+=--
 
 $\,$
 
@@ -4622,7 +4634,7 @@ of the [[Heine-Borel theorem]] (prop. \ref{BorelHeine})
 First consider a [[subset]] $S \subset \mathbb{R}^n$ which is closed and bounded. We need to show that
 regarded as a [[topological subspace]] it is [[compact topological space|compact]].
 
-The assumption that $S$ is bounded by (hence contained in) some [[open ball]] $B^\circ_x(\epsilon)$ in $\mathbb{R}^n$ 
+The assumption that $S$ is bounded by (hence contained in) some [[open ball]] $B^\circ_x(\epsilon)$ in $\mathbb{R}^n$
 implies that it is contained in $\{ (x_i)_{i = 1}^n \in \mathbb{R}^n \,\vert\, -\epsilon \leq x_i \leq \epsilon \}$.
 By example \ref{ClosedIntervalsProduct}, this  topological subspace is homeomorphic to the $n$-cube
 $[-\epsilon, \epsilon]^n$. Since the closed interval $[-\epsilon, \epsilon]$
@@ -4632,28 +4644,28 @@ implies that this $n$-cube is compact. Since [[closed subspaces of compact space
 
 Conversely, assume that $S \subset \mathbb{R}^n$ is a compact subspace. We need to show that it is closed and bounded.
 
-The first statement follows since 
+The first statement follows since
 the [[Euclidean space]] $\mathbb{R}^n$ is [[Hausdorff topological space|Hausdorff]] (example \ref{HausdorffMetricSpace})
 and since [[compact subspaces of Hausdorff spaces are closed]] (prop. \ref{CompactSubspacesOfHausdorffSpacesAreClosed}).
 
 Hence what remains is to show that $S$ is bounded.
 
 To that end, choose any [[positive number|positive]] [[real number]] $\epsilon \in \mathbb{R}_{\gt 0}$
-and consider the [[open cover]] of all of $\mathbb{R}^n$ by the open [[n-cubes]] 
+and consider the [[open cover]] of all of $\mathbb{R}^n$ by the open [[n-cubes]]
 
 $$
-  (k_1-\epsilon, k_1+1+\epsilon) 
-    \times 
+  (k_1-\epsilon, k_1+1+\epsilon)
+    \times
   (k_2-\epsilon, k_2+1+\epsilon)
-    \times  
+    \times
       \cdots
     \times
   (k_n-\epsilon, k_n+1+\epsilon)
 $$
 
 for [[n-tuples]] of [[integers]] $(k_1, k_2 , \cdots, k_n ) \in \mathbb{Z}^n$.
-The restrictions of these to $S$ hence form an open cover of the subspace $S$. By the assumption that 
-$S$ is compact, there is then a finite subset of $n$-tuples of integers such that the 
+The restrictions of these to $S$ hence form an open cover of the subspace $S$. By the assumption that
+$S$ is compact, there is then a finite subset of $n$-tuples of integers such that the
 corresponding $n$-cubes still cover $S$. But the union of any finite number of bounded closed $n$-cubes
 in $\mathbb{R}^n$ is clearly a bounded subset, and hence so is $S$.
 
@@ -4960,21 +4972,21 @@ Examples include the construction of [[quotient topological spaces]] of metric s
 anymore (e.g. example \ref{LineWithTwoOrigins}), and hence in particular are not metric spaces anymore (by example \ref{HausdorffMetricSpace}).
 
 Now from a more abstract point of view, a [[quotient topological space]] is a special case of a "[[colimit]]" of topological
-spaces. This we explain now. 
+spaces. This we explain now.
 
 Generally, for every [[diagram]] in the [[category]] [[Top]] of topological space (remark \ref{TopCat}),
-hence for every collection of topological spaces with a system of [[continuous functions]] betwen them, then 
-there exists a further topological space, called the _[[colimit|colimiting]] space_ of the diagram, 
-which may be thought of as the result of "gluing" all the spaces in the diagram together, while using the 
+hence for every collection of topological spaces with a system of [[continuous functions]] betwen them, then
+there exists a further topological space, called the _[[colimit|colimiting]] space_ of the diagram,
+which may be thought of as the result of "gluing" all the spaces in the diagram together, while using the
 maps between them in order to identify those parts "along which" the spaces are to be glued.
 
 One may formalize this intuition by saying that the colimiting space has the property that it receives compatible continuous functions
 from all the spaces in the diagram, and that it is characterized by the fact that it is
-_[[universal property|universal with this property]]_: every compatible system of maps to another space uniquely 
+_[[universal property|universal with this property]]_: every compatible system of maps to another space uniquely
 factors through the colimiting one.
 
-Therefore forming colimits of topological spaces is a convenient means to construct new spaces which have 
-prescribed properties for continuous functions out of them. We implicitly used a simple special case of this 
+Therefore forming colimits of topological spaces is a convenient means to construct new spaces which have
+prescribed properties for continuous functions out of them. We implicitly used a simple special case of this
 phenomenon in the proof of the [[Hausdorff reflection]] in prop. \ref{HausdorffReflection}, when we concluded
 the existence of certain unique factorizing maps out of the Hausdorff qotient of a topological space.
 
@@ -4984,7 +4996,7 @@ Here one considers topological spaces with the [[universal property]] of having 
 functions into a given [[diagram]] of spaces.
 
 Most constructions of new topological spaces that one builds from given spaces are obtained by forming limits and/or colimits
-of diagrams of the original spaces. 
+of diagrams of the original spaces.
 
 
 
@@ -5262,11 +5274,25 @@ $\,$
 
 $\,$
 
+(...)
 
-Next section _[[Introduction to Topology -- 2]]_.
+$\,$
 
 
-## References
+***
+
+$\,$
+
+This concludes _Section 1 [[point-set topology|Point-set topology]]_.
+
+For the next section see_[[Introduction to Topology -- 2|Secton 2 -- Basic homotopy theory]]_.
+
+$\,$
+
+***
+
+
+## Re..ferences
 
 Introductory textbooks to topology include
 
