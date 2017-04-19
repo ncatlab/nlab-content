@@ -2835,9 +2835,9 @@ All separation axioms are satisfied by [[metric spaces]] (def. \ref{MetricSpace}
 
 +-- {: .num_defn #HausdorffTopologicalSpace}
 ###### Definition
+**(the first three [[separation axioms]])**
 
 Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}).
-
 
 For $x \neq y \in X$ any two points in the underlying set of $X$ which are not [[equality|equal]] as elements of this set,
 consider the following [[propositions]]:
@@ -4195,7 +4195,7 @@ $$
   \right\}_{{x \in S \subset X} \atop { k_i \in J_x \subset K }}
 $$
 
-is a finite subcover of $X \times Y$ as required.
+is a finite subcover as required.
 
 
 =--
@@ -4954,9 +4954,39 @@ does not apply.
  {#UniversalConstructions}
 
 
-One point of the general definition of "[[topological space]]" is that it admits constructions which intuitively should exist on "continuous spaces", but which do not in general exist, for instance, as [[metric spaces]].
+One point of the general definition of [[topological space]] [above](#TopologicalSpaces) is that it admits constructions which intuitively should exist on "continuous spaces", but which do not in general exist on  [[metric spaces]].
 
-We discuss [[universal constructions]] in [[Top]], such as [[limits]]/[[colimits]], etc.
+Examples include the construction of [[quotient topological spaces]] of metric spaces, which are not [[Hausdorff space|Hausdorff]]
+anymore (e.g. example \ref{LineWithTwoOrigins}), and hence in particular are not metric spaces anymore (by example \ref{HausdorffMetricSpace}).
+
+Now from a more abstract point of view, a [[quotient topological space]] is a special case of a "[[colimit]]" of topological
+spaces. This we explain now. 
+
+Generally, for every [[diagram]] in the [[category]] [[Top]] of topological space (remark \ref{TopCat}),
+hence for every collection of topological spaces with a system of [[continuous functions]] betwen them, then 
+there exists a further topological space, called the _[[colimit|colimiting]] space_ of the diagram, 
+which may be thought of as the result of "gluing" all the spaces in the diagram together, while using the 
+maps between them in order to identify those parts "along which" the spaces are to be glued.
+
+One may formalize this intuition by saying that the colimiting space has the property that it receives compatible continuous functions
+from all the spaces in the diagram, and that it is characterized by the fact that it is
+_[[universal property|universal with this property]]_: every compatible system of maps to another space uniquely 
+factors through the colimiting one.
+
+Therefore forming colimits of topological spaces is a convenient means to construct new spaces which have 
+prescribed properties for continuous functions out of them. We implicitly used a simple special case of this 
+phenomenon in the proof of the [[Hausdorff reflection]] in prop. \ref{HausdorffReflection}, when we concluded
+the existence of certain unique factorizing maps out of the Hausdorff qotient of a topological space.
+
+[[formal dual|Dual]] to the concept of [[colimits]] of topological space is that of "[[limits]]" of
+[[diagrams]] of topological spaces (not to be confused with [[limits of sequences]] _in_ a topological space).
+Here one considers topological spaces with the [[universal property]] of having compatible continuous
+functions into a given [[diagram]] of spaces.
+
+Most constructions of new topological spaces that one builds from given spaces are obtained by forming limits and/or colimits
+of diagrams of the original spaces. 
+
+
 
 +-- {: .num_defn #InitialAndFinalTopologies}
 ###### Definition
