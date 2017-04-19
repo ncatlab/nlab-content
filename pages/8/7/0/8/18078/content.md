@@ -1,8 +1,140 @@
++-- {: .num_example}
+###### Example
 
-$$
-  \ast 
-    \coloneqq 
-  \left(
-    \left\{1\right\}, \left\{ \emptyset, \left\{1\right\}\right\}
-  \right)
-$$
+Let $(X,\tau_X)$, $(Y,\tau_Y)$ and $(Z, \tau_Z)$ be [[topological spaces]]. 
+
+Then:
+
+1. There is a [[homeomorphism]] between the two ways of bracketing the three factors when forming their
+   [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}), called the _[[associator]]_:
+    
+   $$
+     \alpha_{X,Y,Z}
+       \;\colon\;
+     \left(
+       (X, \tau_X) \times (Y, \tau_Y)
+     \right)
+     \times
+     (Z, \tau_Z)
+       \overset{\simeq}{\longrightarrow}
+     (X,\tau_X)
+      \times
+     \left(
+       (Y,\tau_Y)
+        \times
+       (Z, \tau_Z)
+     \right)
+     \,.
+   $$
+
+1. There are [[homeomorphism]] between $(X,\tau)$ and its [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) with the [[point]] $\ast$ (example \ref{Point}), called the left and right _[[unitors]]_:
+
+   $$
+     \lambda_X \;\colon\; \ast \times (X, \tau_X)  \overset{\simeq}{\longrightarrow} (X,\tau_X)
+   $$
+   
+   and
+   
+   $$
+     \rho_X \;\colon\; (X, \tau_X) \times \ast \overset{\simeq}{\longrightarrow} (X, \tau_X)
+     \,.
+   $$
+
+1. There is a [[homeomorphism]] between the results of the two orders in which to form their [[product topological spaces]] (def. \ref{BinaryProductTopologicalSpace}), called the _[[braiding]]_:
+
+   $$
+     \beta_{X,Y}
+       \;\colon\;
+     (X,\tau_X) \times (Y,\tau_Y)
+       \overset{\simeq}{\longrightarrow}
+     (Y,\tau_Y) \times (X, \tau_X)
+     \,.
+   $$
+
+Moreover, all these homeomorphisms are compatible with each other, in that they make the 
+following [[commuting diagram|diagrams commute]]:
+
+1. (triangle identity) 
+   $$
+     \array{
+        & (X \times \ast ) \times Y &\stackrel{\alpha_{X,\ast,Y}}{\longrightarrow} & X \times (\ast \times Y)
+         \\
+         & {}_{\rho_x \times id_Y}\searrow
+         && \swarrow_{id_X \times \lambda_Y}
+         &
+        \\
+        &&
+        X \times Y
+     }
+   $$
+
+1. {#PentagonIdentity} ([[pentagon identity]]) 
+   $$
+     \array{
+       && (W \times X) \times (Y \times Z)
+       \\
+       & {}^{\mathllap{\alpha_{W \times X, Y, Z}}}\nearrow
+        &&
+       \searrow^{\mathrlap{\alpha_{W,X,Y \times Z}}}
+       \\
+       ((W \times X ) \times Y) \times Z
+        && &&
+       (W \times (X \times (Y \times Z)))
+       \\
+       {}^{\mathllap{\alpha_{W,X,Y}} \times id_Z }\downarrow
+        && &&
+       \uparrow^{\mathrlap{ id_W \times \alpha_{X,Y,Z} }}
+       \\
+       (W \times (X \times Y)) \times Z
+         && \underset{\alpha_{W,X \times Y, Z}}{\longrightarrow} &&
+       W \times ( (X \times Y) \times Z )
+     }
+   $$
+
+1. (hexagon identities) 
+   $$
+     \array{
+       (X \times Y) \times Z
+         &\stackrel{\alpha_{X,Y,Z}}{\longrightarrow}&
+       X \times (Y \times Z)
+       &\stackrel{\beta_{X,Y \times Z}}{\longrightarrow}&
+       (Y \times Z) \times X
+       \\
+       \downarrow^{\beta_{X,Y} \times id_Z}
+       &&&&
+       \downarrow^{\alpha_{Y,Z,X}}
+       \\
+       (Y \times X) \times Z
+       &\stackrel{\alpha_{Y,X,Z}}{\longrightarrow}&
+       Y \times (X \times Z)
+       &\stackrel{id_Y \times \beta_{X,Y}}{\longrightarrow}&
+       Y \times (Z \times X)
+     }
+   $$
+
+   and
+
+   $$
+     \array{
+        X \times (Y \times Z)
+          &\stackrel{a\alpha^{inv}_{X,Y,Z}}{\longrightarrow}&
+        (X \times Y) \times Z
+         &\stackrel{\beta_{X \times Y, Z}}{\longrightarrow}&
+        Z \times (X \times Y)
+        \\
+          \downarrow^{id_X \times \beta_{Y,Z}}
+        &&&&
+          \downarrow^{\alpha^{inv}_{Z,X,Y}}
+        \\
+        X \times (Z \times Y)
+          &\stackrel{\alpha^{inv}_{X,Z,Y}}{\longrightarrow}&
+        (X \times Z) \times Y
+          &\stackrel{\beta_{X,Z} \times id}{\longrightarrow}&
+        (Z \times X) \times Y
+       }
+     \,,
+   $$
+
+
+
+=--
