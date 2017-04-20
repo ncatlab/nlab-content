@@ -142,7 +142,7 @@ $$
   (\alpha_1+ \alpha_2 , \; \beta_1 + \beta_2)
 $$
 
-(using that the projections $p_1$ and $p_2$ are linear and by the universal property of the porduct).
+(using that the projections $p_1$ and $p_2$ are linear and by the universal property of the product).
 
 Second, $(id,0) \circ p_1$ and $(0,id) \circ p_2$ are two projections on $X_1\times X_2$ whose sum is the identity:
 
