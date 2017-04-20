@@ -143,11 +143,10 @@ The colimit over a [[nLab:Set|Set]]-valued functor $F : D \to Set$ is a quotient
   $$
   If $D$ is a [[filtered category]] then the relation $\sim$ already is an equivalence relation.
 
-## Limits and colimits in Grp
-(..)
 
-## Limits and colimits in Top
-(..)
+## Limits and colimits of topological spaces
+
+See at _[[Top]]_ the section _[Universal constructions](Top#UniversalConstructions)_
 
 ## Limits and colimits in a preordered set
 (..)
