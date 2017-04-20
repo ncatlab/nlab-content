@@ -139,6 +139,8 @@ Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even
 
 ## Properties
 
+### Various
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -219,6 +221,10 @@ Hence:
 A [[discrete space]] is compact iff its underlying set is [[finite set|finite]].  In [[constructive mathematics]], a discrete space is compact iff its underlying set is [[Kuratowski-finite]].
 
 =--
+
+### Relation to compact objects in $Top$
+
+One might expect that compact topological spaces are precisely the [[compact objects]] in [[Top]] in the abstract sense of [[category theory]], but this identification requires care, the naive version fails. See at _[compact object -- Compact objects in Top](compact+object#CompactObjectsInTop)_
 
 
 ## Examples
