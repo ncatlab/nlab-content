@@ -295,7 +295,7 @@ topology closely related to [[formal logic]] (for more on this see at _[[locale]
 
 
 +-- {: .num_remark}
-###### Remark
+###### # Remark
 **(the category of topological spaces)**
 
 The [[composition]] of [[continuous functions]] is clearly [[associativity|associative]] and [[unitality|unital]].
@@ -1534,6 +1534,10 @@ See also [[examples in topology]].
 * [[sources in computational topology]]
 
 ## References
+
+A canonical compendium is
+
+* {#Bourbaki71} [[Nicolas Bourbaki]], chapter 1 _Topological Structures_ of _Elements of Mathematics III: General topology_, Springer 1971, 1990
 
 Introductory textbooks to topology include
 
