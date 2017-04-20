@@ -26,6 +26,8 @@ A [[generalized (Eilenberg-Steenrod) cohomology]]-functor is by definition homot
 
 ## Related concepts
 
+* [[homeomorphism invariant]]
+
 * [[characteristic class]]
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
