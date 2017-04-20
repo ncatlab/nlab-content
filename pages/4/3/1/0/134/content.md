@@ -15,9 +15,9 @@
 
 ## Definition
 
-**Top** denotes the [[category]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[continuous functions]] between them. Its [[isomorphisms]] are the [[homeomorphisms]].
+**Top** denotes the [[category]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[continuous functions]] between them. Its [[isomorphisms]] are the [[homeomorphisms]]. 
 
-
+For exposition see _[[Introduction to Topology -- 1|Introduction to point-set topology]]_.
 
 Often one considers (sometimes by default) [[subcategories]] of [[nice topological spaces]] such as [[compactly generated topological spaces]], notably because these are [[cartesian closed category|cartesian closed]]. There other other [[convenient categories of topological spaces]]. With any one such choice understood, it is often useful to regard it as "the" category of topological spaces.
 
@@ -388,7 +388,9 @@ For proof see [there](subspace+topology#pushout).
 
 ## References
 
-* {#Bourbaki71} [[Nicolas Bourbaki]], _Elements of Mathematics -- General topology_, 1971, 1990
+For general references see those listed at _[[topology]]_, such as
+
+* {#Bourbaki71} [[Nicolas Bourbaki]], chapter 1 _Topological Structures_ of _Elements of Mathematics III: General topology_, Springer 1971, 1990
 
 See also 
 
