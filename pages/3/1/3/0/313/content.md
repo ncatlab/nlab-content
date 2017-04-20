@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Category theory
+#### Category theory#
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
@@ -21,6 +21,8 @@ $$\array{A & \overset{f}{\to} & B\\
   C& \underset{g}{\to} & D}$$
 by drawing some objects (or dots labeled by objects) connected by arrows labeled by morphisms.
 
+This terminology is often used when speaking about [[limits]] and [[colimits]]; that is, we speak about "the limit or colimit of a diagram." 
+
 There are two natural ways to give the notion of "diagram" a formal definition.  One is to say that a diagram is a [[functor]], usually one whose domain is a (very) [[small category]].  This level of generality is sometimes convenient.
 
 On the other hand, a more direct representation of what we draw on the page, when we "draw a diagram," only involves labeling the vertices and edges of a [[directed graph]] (or [[quiver]]) by objects and morphisms of the category.  This sort of diagram can be identified with a functor whose domain is a [[free category]], and this is the most common context when we talk about diagrams "commuting."
@@ -28,16 +30,370 @@ On the other hand, a more direct representation of what we draw on the page, whe
 
 ## Definitions
 
-Let $C$ be a [[category]].
 
 ### Diagrams shaped like categories
+ {#CategoryShapedDiagrams}
 
-+-- {: .num_defn}
+We discuss here diagrams of the "shape of a small catgeory", as well as the concept of [[cones]]/[[cocones]] over these and [[limit|limiting]]/[[colimit|colimiting]] (co-)cones. There is a quick abstract functorial definition
+
+* _[functorial definition](#CategoryShapedDiagramFunctorially)_
+
+and there is a more long-winded but more explicit definition in terms of components 
+
+* _[component definition](#CategoryShapedDiagramInComponents)_.
+
+#### Functorial definition
+ {#CategoryShapedDiagramFunctorially}
+
+We state the concise functorial definition of diagrams of the shape of categories.
+
++-- {: .num_defn #AbstractDefinition}
 ###### Definition
-If $J$ is a category, then a __diagram__ in $C$ of shape $J$ is simply a [[functor]] $D\colon J \to C$.
+**(functorial definition)**
+
+Let $\mathcal{C}$ be a [[category]] and let  $\mathcal{I}$  [[small category]],
+
+Then 
+
+1. a _diagram $X$ of shape $\mathcal{I}$ in $\mathcal{C}$_ is a [[functor]] of the form
+
+   $$
+     X \;\colon\; \mathcal{I} \longrightarrow \mathcal{C}
+     \,,
+   $$
+
+1. the _category of $\mathcal{I}$-shaped diagrams in $\mathcal{C}$_ is the [[functor category]] $Funct(\mathcal{I}, \mathcal{C})$;
+
+1. a diagram $X \colon \mathcal{I} \to \mathcal{C}$ is _constant_ if it is a [[constant functor]]
+
+   $$
+     const_{\tilde X}
+       \;\colon\;  
+     \mathcal{I} 
+       \overset{\exists!}{\longrightarrow} 
+     \ast
+       \overset{\tilde X}{\longrightarrow}
+     \mathcal{C}
+   $$
+
+   in which case it is given by the data of a single object $\tilde X$;
+
+1. a _[[cone]]_ $C$ over a diagram $X \colon \mathcal{I} \to \mathcal{C}$ with _tip_ an object $\tilde X \in \mathcal{C}$ is a [[natural transformation]] from the constant diagram $const_{\tilde X} \colon \mathcal{I} \to \ast \to \mathcal{C}$ to $X$:
+
+   $$
+     C \;\colon\; const_{\tilde X} \Rightarrow X
+   $$
+
+1. a _[[cocone]]_ $C$ under a diagram $X \colon \mathcal{I} \to \mathcal{C}$ is a [[natural transformation]] to a constant diagram $const_{\tilde X} \colon \mathcal{I} \to \ast \to \mathcal{C}$ from $X$:
+
+   $$
+     C \;\colon\; X \Rightarrow const_{\tilde X}
+   $$
+
+1. the _limiting cone_ (or  _[[limit]]_, for short) over a diagram $X$ is, if it exists, the [[initial object]] in the [[category]] of [[cones]] over $X$, which means that it is a cone $C_{lim}$ with tip denoted $\underset{\longleftarrow}{\lim}_i X_i$ such that for every other cone $C$ with tip $\tilde X$ there is a unique [[natural transformation]] $\phi \colon const_{\tilde X} \Rightarrow const_{\underset{\longrightarrow}{\lim}_i X_i}$ such that
+
+   $$
+     C = C_{lim} \circ \phi
+   $$ 
+
+1. the _colimiting cone_ (or _[[colimit]]_, for short) under a diagram $X$ is, if it exists, the [[terminal object]] in the [[category]] of [[cocones]] under $X$, which means that it is a co-cone $C_{lim}$ with tip denoted $\underset{\longrightarrow}{\lim}_i X_i$ such that for every other cocone $C$ with tip $\tilde X$ there is a unique [[natural transformation]] $\phi \colon  const_{\underset{\longrightarrow}{\lim}_i X_i} \Rightarrow const_{\tilde X}$ such that
+
+   $$
+     C = \phi \circ C_{lim}
+     \,.
+   $$ 
+
 =--
 
-This terminology is often used when speaking about [[limits]] and [[colimits]]; that is, we speak about "the limit or colimit of a diagram."  Similarly, it is common to call the [[functor category]] $C^J$ the "category of diagrams in $C$ of shape $J$".
+
+#### Component definition
+ {#CategoryShapedDiagramInComponents}
+
+We state an explicit component-based definition of diagrams o the shape of categories.
+
++-- {: .num_defn #Diagram}
+###### Definition
+**([[diagram]] in a [[category]])**
+
+A [[diagram]] $X_\bullet$ in a [[category] is
+
+1. a [[set]] $\{ X_i \}_{i \in I}$ of [[objects]] in the category;
+
+1. for every [[pair]] $(i,j) \in I \times I$ of labels of objects a [[set]]
+   $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[morphisms]] between these objects;
+  
+1. for each [[triple]] $i,j,k \in I$ [[function]]
+
+   $$
+     comp_{i,j,k} I_{i,j} \;\colon\; \times I_{j,k} \longrightarrow I_{i,k}
+   $$
+ 
+such that 
+
+1. for every $i \in I$ the [[identity morphisms]] $id_{X_i} \colon X_i \to X_i$ is part of the diagram;
+
+1. $comp$ is [[associativity|associtive]] and [[unital]] in the evident sense,
+
+1. for every composable pair of morphisms 
+
+  $$
+    X_i 
+      \overset{f_{\alpha} }{\longrightarrow} 
+    X_j
+      \overset{ f_{\beta} }{\longrightarrow}
+    X_k
+  $$
+  
+  then the [[composition|composite]] of these two morphisms equals the morphisms of the diagram that is 
+  labeled by the value of $comp_{i,j,k}$ on their labels:
+  
+  $$
+    f_{\beta} \circ f_\alpha 
+    \,=\,
+    f_{comp_{i,j,k}( \alpha, \beta )}
+    \,.
+  $$
+  
+The last condition we depict as follows:
+
+$$
+  \array{ 
+    && X_j
+    \\
+    & {}^{\mathllap{f_{\alpha}}}\nearrow && \searrow^{\mathrlap{f_{\beta}}}
+    \\
+    X_i && \underset{ comp_{i,j,k}(\alpha,\beta) }{\longrightarrow} && X_k
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .num_defn #Cone}
+###### Definition
+**([[cone]] over a [[diagram]])**
+
+Consider a [[diagram]] 
+
+$$
+  X_\bullet
+    \,=\,
+  \left(
+     \left\{
+       X_i \overset{f_\alpha}{\longrightarrow} X_j
+     \right\}_{i,j \in I, \alpha \in I_{i,j}}
+     \,,\,
+     \mathrm{comp}
+  \right)
+$$
+
+in some [[category]] (def. \ref{Diagram}). Then 
+
+1. a _[[cone]]_ over this diagram is
+
+   1. an [[object]] $\tilde X$ in the category;
+   
+   1. for each $i \in I$ a morphism $\tilde X \overset{p_i}{\longrightarrow} X_i$ in the category
+   
+   such that
+
+   * for all $(i,j) \in I \times I$ and all $\alpha \in I_{i,j}$ then the condition
+   
+     $$
+       f_{\alpha} \circ p_i = p_j
+     $$
+     
+     holds, which we depict as follows:  
+
+     $$
+       \array{
+         && \tilde X
+         \\
+         & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p'_j}}
+         \\
+         X_i 
+           && \underset{f_\alpha}{\longrightarrow} &&
+         X_j
+       }
+     $$
+     
+1. a _[[co-cone]]_ over this diagram is
+
+   1. an [[object]] $\tilde X$ in the category;
+
+   1. for each $i \in I$ a morphism $q_i \colon X_i \longrightarrow \tilde X$ in the category
+
+   such that
+
+   * for all $(i,j) \in I \times I$ and all $\alpha \in I_{i,j}$ then the condition
+
+     $$
+       q_j \circ f_{\alpha} = q_i
+     $$
+
+     holds, which we depict as follows:
+
+     $$
+       \array{
+         X_i && \overset{f_\alpha}{\longrightarrow} && X_j
+         \\
+         & {}_{\mathllap{q_i}}\searrow && \swarrow_{\mathrlap{q_j}}
+         \\
+         && \tilde X
+       }
+       \,.
+     $$
+
+=--
+
+
+
++-- {: .num_defn #LimitingCone}
+###### Definition
+
+Consider a [[diagram]]
+
+$$
+  X_\bullet
+    \,=\,
+  \left(
+     \left\{
+       X_i \overset{f_\alpha}{\longrightarrow} X_j
+     \right\}_{i,j \in I, \alpha \in I_{i,j}}
+     \,,\,
+     \mathrm{comp}
+  \right)
+$$
+
+in some [[category]] (def. \ref{Diagram}). Then
+
+1. its _[[limit|limiting cone]]_ (or just _[[limit]]_ for short) is, if it exists,
+   [[generalized the|the]] [[cone]] 
+   
+   $$
+     \left\{
+     \array{
+       && \underset{\longleftarrow}{\lim}_i X_i
+       \\
+       & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
+       \\
+       X_i
+         && \underset{f_\alpha}{\longrightarrow} &&
+       X_j
+     }
+     \right\}
+   $$
+
+   over this diagram (def. \ref{Cone}) which is _universal_ or _initial_ among all 
+   possible cones,
+   in that it has the property that for
+
+   $$
+     \left\{
+     \array{
+       && \tilde X
+       \\
+       & {}^{\mathllap{p'_i}}\swarrow && \searrow^{\mathrlap{p'_j}}
+       \\
+       X_i
+         && \underset{f_\alpha}{\longrightarrow} &&
+       X_j
+     }
+     \right\}
+   $$
+   
+   any other [[cone]], then there is a unique morphism
+   
+   $$
+     \phi \;\colon\; \tilde X \overset{}{\longrightarrow} \underset{\longrightarrow}{\lim}_i X_i
+   $$
+   
+   that factors the given cone through the limiting cone, in that for all $i \in I$ then
+   
+   $$
+     p'_i = p_i \circ \phi
+   $$
+   
+   which we depict as follows:
+
+   $$
+     \array{
+       \tilde X
+       \\
+       {}^{\mathllap{\phi}}\downarrow & \searrow^{\mathrlap{p_i}}
+       \\
+       \underset{\longrightarrow}{\lim}_i X_i
+       &\underset{p_i}{\longrightarrow}& 
+       X_i
+     }
+   $$
+
+1. its _[[colimit|colimiting cocone]]_ (or just _[[colimit]]_ for short) is, if it exists,
+   [[generalized the|the]] [[cocone]]
+
+   $$
+     \left\{
+     \array{
+       X_i
+         && \underset{f_\alpha}{\longrightarrow} &&
+       X_j
+       \\
+       & {}^{\mathllap{q_i}}\searrow && \swarrow^{\mathrlap{q_j}}
+       \\
+       \\
+       && \underset{\longrightarrow}{\lim}_i X_i
+     }
+     \right\}
+   $$
+
+   under this diagram (def. \ref{Cone}) which is _universal_ or _terminal_ among all
+   possible co-cones,
+   in that it has the property that for
+
+   $$
+     \left\{
+     \array{
+       X_i
+         && \underset{f_\alpha}{\longrightarrow} &&
+       X_j
+       \\
+       & {}^{\mathllap{q'_i}}\searrow && \swarrow_{\mathrlap{q'_j}}
+       \\
+       && \tilde X
+     }
+     \right\}
+   $$
+
+   any other [[cocone]], then there is a unique morphism
+
+   $$
+     \phi \;\colon\;  \underset{\longrightarrow}{\lim}_i X_i \overset{}{\longrightarrow} \tilde X
+   $$
+
+   that factors the given co-cone through the co-limiting cocone, in that for all $i \in I$ then
+
+   $$
+     q'_i = \phi \circ q_i
+   $$
+
+   which we depict as follows:
+
+   $$
+     \array{
+       X_i
+       &\overset{q_i}{\longrightarrow}&
+       \underset{\longrightarrow}{\lim}_i X_i
+       \\
+       {}^{\mathllap{\phi}}\downarrow & \swarrow^{\mathrlap{q'_i}}
+       \\
+       \tilde X
+     }
+   $$
+
+=--
+
+
 
 ### Diagrams shaped like graphs
 
