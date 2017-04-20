@@ -95,3 +95,7 @@ There is a straightforward generalization to an adjunction of $n$ variables, whi
 [[!redirects n-variable adjunctions]]
 [[!redirects adjunction of n variables]]
 [[!redirects adjunctions of n variables]]
+[[!redirects multivariable adjunction]]
+[[!redirects multivariable adjunctions]]
+[[!redirects multi-variable adjunction]]
+[[!redirects multi-variable adjunctions]]
