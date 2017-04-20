@@ -1190,12 +1190,12 @@ $$
   \right)
     \,\Leftrightarrow\,
   \left(
-     \underset{U_X \in \tau_X}{\exists} \left/ U_S = U_X \cap S \right)
+     \underset{U_X \in \tau_X}{\exists} \left( U_S = U_X \cap S \right)
   \right)
   \,.
 $$
 
-(This is also called the _[[initial topology]]_ of the inclusion map.)
+(This is also called the _[[initial topology]]_ of the inclusion map. We come back to this below in def. \ref{InitialAndFinalTopologies}.)
 
 
 The picture on the right shows two open subsets inside the [[square]], regarded as a [[topological subspace]] of the [[plane]] $\mathbb{R}^2$:
@@ -1230,7 +1230,7 @@ and
 
   is open in $X$.
 
-(This is also called the _[[final topology]]_ of the projection $\pi$.)
+(This is also called the _[[final topology]]_ of the projection $\pi$. We come back to this below in def. \ref{InitialAndFinalTopologies}. )
 
 Often one considers this with input datum not the equivalence relation, but any [[surjection]]
 
@@ -1256,7 +1256,7 @@ commutes with taking unions and with taking intersections.
 <img src="https://ncatlab.org/nlab/files/ProductTopology.png" width="300">
 </div>
 
-For $(X_1,\tau_{X_1})$ and $(X_2, \tau_{X_2})$ two [[topological spaces]], then their _[[product topological space|binary product topological space]]_
+For $(X_1,\tau_{X_1})$ and $(X_2, \tau_{X_2})$ two [[topological spaces]], then their _[[product topological space|binary product topological space]]_ 
 has as underlying set the [[Cartesian product]] $X_1 \times X_2$ of the corresponding two underlying sets,
 and its topology is generated from the [[basis for a topology|basis]] (def. \ref{TopologyBase})
 given by the Cartesian products $U_1 \times U_2$ of the opens $U_i \in \tau_i$.
@@ -1269,14 +1269,18 @@ of [[limits]] in the [[category of topological spaces]].
 
 =--
 
-The following example shows how all these ingredients and construction principles
-may be compbined:
+The following example illustrates how all these ingredients and construction principles
+may be combined. 
+We will examine this example in more detail below in example \ref{HomeomorphismBetweenTopologicalAndCombinatorialCircle},
+after we have introduced the concept of _[[homeomorphisms]]_ [below](#Homeomorphisms).
 
 +-- {: .num_example }
 ###### Example
 
-Consider the [[closed interval]] $[0,1] \subset \mathbb{R}$ from example \ref{OpenAndClosedIntervals},
-regarded as a [[subspace]] (def. \ref{SubspaceTopology}) of the 1-dimensional [[Euclidean space]].
+Consider the [[real numbers]] $\mathbb{R}$ as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm})
+and hence as a [[topological space]] via the corresponding [[metric topology]] (example \ref{MetricTopology}).
+Moreover, consider the [[closed interval]] $[0,1] \subset \mathbb{R}$ from example \ref{OpenAndClosedIntervals},
+regarded as a [[subspace]] (def. \ref{SubspaceTopology}) of $\mathbb{R}$.
 
 The [[product space]] (example \ref{BinaryProductTopologicalSpace}) of this interval with itself
 
@@ -1285,8 +1289,8 @@ $$
 $$
 
 
-is a topological space modelling the square. The [[quotient space]] (example \ref{QuotientTopologicalSpace}) of that
-by the relation which identifies a pair of opposite sides is a model for the [[cylinder]]. 
+is a topological space modelling the closed square. The [[quotient space]] (example \ref{QuotientTopologicalSpace}) of that
+by the relation which identifies a pair of opposite sides is a model for the [[cylinder]].
 The further quotient by the relation that identifies the remaining pair of sides yields a model for the [[torus]].
 
 <img src="https://ncatlab.org/nlab/files/QuotientOfSquareIsCylinderAndTorus.png" width="660">
@@ -1294,8 +1298,6 @@ The further quotient by the relation that identifies the remaining pair of sides
 
 > graphics grabbed from [Munkres 75](#Munkres75)
 
-We will examine this example in more detail below in example \ref{HomeomorphismBetweenTopologicalAndCombinatorialCircle},
-after we have introduced the concept of _[[homeomorphisms]]_ [below](#Homeomorphisms).
 
 =--
 
@@ -1354,22 +1356,41 @@ Given any subset $S \subset X$, then is _[[topological closure]]_ $Cl(X)$ is the
 $$
   Cl(S)
     \;\coloneqq\;
-  \underset{{S \subset C } \atop {C \subset X\, \text{closed}} }{\cap} C
+  \underset{ {C \subset X\, \text{closed}  }   \atop {S \subset C }  }{\cap} \left( C \right)
   \,.
 $$
 
 =--
+
+
++-- {: .num_example }
+###### Example
+
+Regard the [[real numbers]] as the 1-dimensional [[Euclidean space]] and equipped with the
+corresponding [[metric topology]]. Let $a \lt b \in \mathbb{R}$. Then the [[topological closure]]
+(def. \ref{ClosedSubset}) of the [[open interval]] $(a,b) \subset \maathbb{R}$
+(example \ref{OpenAndClosedIntervals}) is the [[closed interval]] $[a,b] \subset \mathbb{R}$:
+
+$$
+  Cl\left(\,(a,b)\,\right)
+  \,=\,
+  [a,b]
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_remark #deMorgan}
 ###### Remark
 **([[de Morgan's law]])**
 
 In reasoning about [[closed subsets]] in [[topology]] we are concerned with [[complements]] of [[unions]] and
-[[intersections]] as well as with [[unions]]/[[intersections]] of [[complements]]. Recall therefore 
+[[intersections]] as well as with [[unions]]/[[intersections]] of [[complements]]. Recall therefore
 that taking [[complements]] of [[subsets]] exchanges [[unions]] with [[intersections]]
 ([[de Morgan's law]]):
 
-Given a [[set]] $X$ and a  set of subsets 
+Given a [[set]] $X$ and a  set of subsets
 
 $$
   \{S_i \subset S\}_{i \in I}
@@ -1436,11 +1457,11 @@ $$
    \phantom{AA}
      \Leftrightarrow
    \phantom{AA}
-   \left(
-     \underset{ {x \in U_x \subset X} \atop { U_x \, \text{open}}  }{\forall}
-     \left(
-       \not ( U_x \cap S = \emptyset )
-     \right)
+   \not\left(
+     \underset{ {U \subset X \backslash S, \text{open}}  \atop  { U \subset X\backslash  } }{\exists}
+      \left(
+        x \in U
+      \right)
    \right)
    \,.
 $$
@@ -1491,18 +1512,44 @@ $$
 
 =--
 
++-- {: .num_example }
+###### Example
+
+Regard the [[real numbers]] as the 1-dimensional [[Euclidean space]] and equipped with the
+corresponding [[metric topology]]. Let $a \lt b \in \mathbb{R}$. Then the [[topological interior]]
+(def. \ref{IntSubset}) of the [[closed interval]] $[a,b] \subset \maathbb{R}$
+(example \ref{OpenAndClosedIntervals}) is the [[open interval]] $(a,b) \subset \mathbb{R}$:
+
+$$
+  Int\left(\,[a,b]\,\right)
+  \,=\,
+  (a,b)
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_lemma #RelationClAndInt}
 ###### Lemma
 **(duality between closure and interior)**
 
 Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]].
-Then the [[topological interior]] of $S$ (def. \ref{IntSubset}) equals the [[complement]] of the
+Then the [[topological interior]] of $S$ (def. \ref{IntSubset}) is the same as the [[complement]] of the
 [[topological closure]] $Cl(X\backslash S)$ of the complement of $S$:
 
 $$
   X \backslash Int(S)
-  =
-  Cl( X \backslash S )
+  \, = \,
+  Cl(\, X \backslash S \,)
+$$
+
+and conversely
+
+$$
+  X \backslash Cl(S)
+  \, = \,
+  Int(\, X \backslash S \,)  
   \,.
 $$
 
@@ -1531,7 +1578,7 @@ $$
 
 
 The terminology "closed" subspace for complements of opens is justified by the following statement,
-which yet more shows how the combinatorial concept of open subsets captures key phenomena in analysis:
+which is a further example of how the combinatorial concept of open subsets captures key phenomena in analysis:
 
 +-- {: .num_prop #ConvergenceInClosedSubspace}
 ###### Proposition
@@ -1543,7 +1590,7 @@ and let $V \subset X$ be a [[subset]]. Then the following are equivalent:
 1. $V \subset X$ is a [[closed subspace]] according to def. \ref{ClosedSubset}.
 
 1. For every [[sequence]] $x_i \in V \subset X$ (def. \ref{Sequences}) with elements in $V$, which [[convergence|converges]]
-   as a sequence in $X$ (def. \ref{Convergence}) it also converges in $V$.
+   as a sequence in $X$ (def. \ref{Convergence}) to some $x_\infty \in X$, then $x_\infty \in V \subset X$.
 
 =--
 
@@ -1552,10 +1599,10 @@ and let $V \subset X$ be a [[subset]]. Then the following are equivalent:
 
 First assume that $V \subset X$ is closed and that $x_i \overset{i \to \infty}{\longrightarrow} x_{\infty}$ for some
 $x_\infty \in X$. We need to show that then $x_\infty \in V$. Suppose it were not, hence that
-$x_\infty \in X\backslash V$. Since, by definition, this [[complement]] $X \backslash V$ is an [[open subset]],
+$x_\infty \in X\backslash V$. Since, by assumption on $V$, this [[complement]] $X \backslash V \subset X$ is an [[open subset]],
 it would follow that there exists a [[real number]] $\epsilon \gt 0$ such that the [[open ball]]
 around $x$ of radius $\epsilon$ were still contained in the complement: $B^\circ_x(\epsilon) \subset X \backslash V$.
-But since the sequence is assumed to converge in $X$, this means that there exists $N_\epsilon$ such that all
+But since the sequence is assumed to converge in $X$, this would mean that there exists $N_\epsilon$ such that all
 $x_{i \gt N_{\epsilon}}$ are in $B^\circ_x(\epsilon)$, hence in $X\backslash V$. This contradicts the assumption that
 all $x_i$ are in $V$, and hence we have [[proof by contradiction|proved by contradiction]] that $x_\infty \in V$.
 
@@ -1564,7 +1611,7 @@ We need to show that then $V$ is closed, hence that $X \backslash V \subset X$ i
 $x \in X \backslash V$ we may find a real number $\epsilon \gt 0$ such that the [[open ball]] $B^\circ_x(\epsilon)$ around $x$
 of radius $\epsilon$ is still contained in
 $X \backslash V$. Suppose on the contrary that such $\epsilon$ did not exist. This would mean that for each $k \in \mathbb{N}$
-with $k \geq 1$ then the [[intersection]] $B^\circ_x(1/k) \cap V$ is [[inhabited|non-empty]]. Hence then we could choose
+with $k \geq 1$ then the [[intersection]] $B^\circ_x(1/k) \cap V$ were [[inhabited|non-empty]]. Hence then we could choose
 points $x_k \in B^\circ_x(1/k) \cap V$ in these intersections. These would form a sequence which clearly converges to
 the original $x$, and so by assumption we would conclude that $x \in V$, which violates the assumption that $x \in X \backslash V$.
 Hence we [[proof by contradiction|proved by contradiction]] $X \backslash V$ is in fact open.
@@ -1578,8 +1625,8 @@ A special role in the theory is played by the "irreducible" closed subspaces:
 **([[irreducible closed subspace]])**
 
 A [[closed subset]] $S \subset X$ (def. \ref{ClosedSubset}) of a [[topological space]] $X$ is called _[[irreducible closed subspace|irreducible]]_ if it is
-[[inhabited|non-empty]] and not the [[union]] of two closed proper (i.e. smaller) subsets. In other words, 
-a [[inhabited|non.empty]] $S$ is irreducible if whenever
+[[inhabited|non-empty]] and not the [[union]] of two closed proper (i.e. smaller) subsets. In other words,
+a [[inhabited|non-empty]] closed subset $S \subset X$ is irreducible if whenever
 $S_1, S_2 \subset X$ are two [[closed subspace]] such that
 
 $$
@@ -1596,7 +1643,7 @@ then $S_1 = S$ or $S_2 = S$.
 
 For $x \in X$ a [[point]] inside a [[topological space]], then
 the [[topological closure|closure]] $Cl(\{x\})$ of the [[singleton]] [[subset]] $\{x\} \subset X$
-is [[irreducible closed subset|irrducible]] (def. \ref{ClosedIrreducible}).
+is [[irreducible closed subset|irreducible]] (def. \ref{ClosedIrreducible}).
 
 =--
 
@@ -1608,7 +1655,7 @@ in terms of complementary open subsets:
 **(irreducible closed subsets in terms of prime open subsets)**
 
 Let $(X, \tau)$ be a [[topological space]], and let $P \in \tau $ be a proper [[open subset]],
-so that the [[complement]] $F \coloneqq X\backslash P$ is an [[inhabited]] [[closed subspace]]. Then $F$
+so that the [[complement]] $F \coloneqq X\backslash P$ is an [[inhabited|non-empty]] [[closed subspace]]. Then $F$
 is [[irreducible closed subspace|irreducible]] in the sense of def. \ref{ClosedIrreducible} precisely if whenever $U_1,U_2 \in \tau$ are open subsets
 with $U_1 \cap U_2 \subset P$ then $U_1 \subset P$ or $U_2 \subset P$:
 
@@ -1653,7 +1700,7 @@ $$
   &
   = \left( X \backslash (P \cup U_1) \right) \cup \left( X \backslash P \cup U_2 \right)
   \\
-  & = X \backslash 
+  & = X \backslash
   \left(
     \left(
       P \cup U_1
@@ -1669,6 +1716,7 @@ $$
   & \stackrel{(\star)}{=}   X \backslash P
   \\
   & = F
+  \,.
 \end{aligned}
 \,.
 $$
@@ -1690,7 +1738,7 @@ $$
   \,.
 $$
 
-Under these equivalences, the two conditions are manifestly the same.
+Under these identifications, the two conditions are manifestly the same.
 
 =--
 
@@ -1698,7 +1746,7 @@ We will consider yet another equivalent characterization of irreducible closed s
 Stating this requires the following concept of "[[frame]]" [[homomorphism]],
 the natural kind of [[homomorphisms]] between [[topological spaces]] if we were to forget the
 underlying set of points of a topological space, and only remember the set $\tau_X$ with its
-finite intersections and arbitrary unions:
+operations inuced by taking finite intersections and arbitrary unions:
 
 +-- {: .num_defn #HomomorphismOfFramesOfOpens}
 ###### Definition
@@ -1727,7 +1775,7 @@ In other words, $\phi$ is a frame homomorphism precisely if
      \,,
    $$
 
-1. for every [[finite set]] $J$ and every $J$-indexed set $\{U_j \in \tau_Y\}$ of elements in $\tau_Y$, then
+1. for every [[finite set]] $J$ and every $J$-indexed set $\{U_j \in \tau_Y\}_{j \in J}$ of elements in $\tau_Y$, then
 
    $$
      \phi\left(\underset{j \in J}{\cap} U_j\right)
@@ -1761,7 +1809,7 @@ $$
   \left( U_1 \cup U_2 = U_2 \right)
 $$
 
-and by finite intersections:
+or alternatively because inclusions are witnessed by finite intersections:
 
 $$
   (U_1 \subset U_2)
@@ -1776,6 +1824,7 @@ $$
 
 +-- {: .num_example #ContinuousFunctionGivesFrameHomomorphism}
 ###### Example
+**(pre-images of continuous functions are frame homomorphisms)**
 
 For
 
@@ -1808,7 +1857,7 @@ the [[irreducible closed subspaces]] of $(X,\tau)$ (def. \ref{ClosedIrreducible}
 $$
   \array{
     Hom_{Frame}(\tau_X, \tau_\ast)
-      &\underoverset{\simeq}{}{\longrightarrow}&
+      &\underoverset{}{\simeq}{\longrightarrow}&
     IrrClSub(X)
     \\
     \phi
@@ -1823,7 +1872,7 @@ $$
   U_{\emptyset}(\phi)
     \coloneqq
   \underset{{U \in \tau_X} \atop {\phi(U) = \emptyset} }{\cup}
-   U
+   \left( U \right)
   \,.
 $$
 
@@ -1859,9 +1908,9 @@ $$
   \,,
 $$
 
-(where the first equality holds because $\phi$ preserves finite intersections by def. \ref{HomomorphismOfFramesOfOpens}, the inclusion holds because $\phi$ respects
+where the first equality holds because $\phi$ preserves finite intersections by def. \ref{HomomorphismOfFramesOfOpens}, the inclusion holds because $\phi$ respects
 inclusions by remark \ref{PreservationOfInclusionsByFrameHomomorphism}, and the second equality holds because $\phi$ preserves arbitrary unions
-by def. \ref{HomomorphismOfFramesOfOpens}).
+by def. \ref{HomomorphismOfFramesOfOpens}.
 But in $\tau_\ast = \{\emptyset, \{1\}\}$ the intersection of two open subsets is empty precisely if at least one of them is empty,
 hence $\phi(U_1) = \emptyset$ or $\phi(U_2) = \emptyset$. But this means that $U_1 \subset U_{\emptyset}(\phi)$ or $U_2 \subset U_{\emptyset}(\phi)$, as claimed.
 
@@ -1949,6 +1998,8 @@ $$
 such that [[pre-images]] under $f$ of open subsets of $Y$ are open subsets of $X$.
 
 =--
+
+
 
 We may equivalently state this in terms of [[closed subsets]]:
 
@@ -2114,98 +2165,6 @@ $$
 
 $\,$
 
-
-Beware that in general a continuous function itself (as opposed to its [[pre-image]] function) neither
-preserves [[open subsets]], nor [[closed subsets]], as the following examples show:
-
-+-- {: .num_example}
-###### Example
-
-Regard the [[real numbers]] $\mathbb{R}$ as the 1-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm})
-equipped with the [[metric topology]] (def. \ref{MetricTopology}).
-For $a \in \mathbb{R}$ the [[constant function]]
-
-$$
-  \array{
-    \mathbb{R} &\overset{const_a}{\longrightarrow}& \mathbb{R}
-    \\
-    x &\mapsto& a
-  }
-$$
-
-maps every [[open subset]] $U \subset \mathbb{R}$ to the [[singleton set]] $\{a\} \subset \mathbb{R}$, which is not open.
-
-=--
-
-+-- {: .num_example}
-###### Example
-
-Write $Disc(\mathbb{R})$ for the set of [[real numbers]] equipped with its [[discrete topology]] (def. \ref{CoDiscreteTopology})
-and $\mathbb{R}$ for the set of [[real numbers]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]]
-(def. \ref{EuclideanNorm}, def. \ref{MetricTopology}). Then the [[identity function]] on the underlying sets
-
-$$
-  id_{\mathbb{R}} \;\colon\; Disc(\mathbb{R}) \longrightarrow \mathbb{R}
-$$
-
-is a [[continuous function]] (see also example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces}).
-A [[singleton set|singleton]] [[subset]] $\{a\} \in Disc(\mathbb{R})$ is open, but regarded as a subset
-$\{a\} \in \mathbb{R}$ it is not open.
-
-
-=--
-
-+-- {: .num_example}
-###### Example
-
-Consider the set of [[real numbers]] $\mathbb{R}$ equipped with its [[Euclidean space|Euclidean]] [[metric topology]]
-(def. \ref{EuclideanNorm}, def. \ref{MetricTopology}). The [[exponential function]]
-
-$$
-  \exp(-) \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}
-$$
-
-maps all of $\mathbb{R}$ (which is a closed subset, since $\mathbb{R} = \mathbb{R} \backslash \emptyset$) to
-the [[open interval]] $(0,\infty) \subset \mathbb{R}$, which is not closed.
-
-=--
-
-Those continuous functions that do happen to preserve
-open or closed subsets get a special name:
-
-+-- {: .num_defn #OpenMap}
-###### Definition
-**([[open maps]] and [[closed maps]])**
-
-A [[continuous function]] $f \colon (X,\tau_X) \to (Y, \tau_Y)$ (def. \ref{ContinuousMaps}) is called
-
-*  an _[[open map]]_ if the [[image]] under $f$ of an [[open subset]] of $X$ is an open subset of $Y$;
-
-* a _[[closed map]]_ if the [[image]] under $f$ of a [[closed subset]] of $X$ (def. \ref{ClosedSubset}) is a closed subset of $Y$.
-
-=--
-
-+-- {: .num_example}
-###### Example
-**([[projections]] are open)**
-
-For $(X_1,\tau_{X_1})$ and $(X_2,\tau_{X_2})$ two [[topological spaces]], then the projection maps
-
-$$
-  \pi_i \;\colon\; (X_1 \times X_2, \tau_{X_1 \times X_2}) \longrightarrow (X_i, \tau_{X_i})
-$$
-
-out of their [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) are [[open maps]] (def. \ref{OpenMap}).
-
-=--
-
-Below in prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed} we find a large supply of [[closed maps]].
-
-
-
-$\,$
-
-
 ### Examples
  {#ContinuousFunctionsExamples}
 
@@ -2247,7 +2206,7 @@ $$
     \ast \overset{f}{\to} X
     \,\vert\, f \,\,\text{continuous}
   \right\}
-    \;\simeq\; 
+    \;\simeq\;
   X
 $$
 
@@ -2360,6 +2319,98 @@ which makes the inclusion $f(X) \longrightarrow Y$ a [[continuous function]].
 
 =--
 
+$\,$
+
+Beware that in general a continuous function itself (as opposed to its [[pre-image]] function) neither
+preserves [[open subsets]], nor [[closed subsets]], as the following examples show:
+
++-- {: .num_example}
+###### Example
+
+Regard the [[real numbers]] $\mathbb{R}$ as the 1-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm})
+equipped with the [[metric topology]] (def. \ref{MetricTopology}).
+For $a \in \mathbb{R}$ the [[constant function]]
+
+$$
+  \array{
+    \mathbb{R} &\overset{const_a}{\longrightarrow}& \mathbb{R}
+    \\
+    x &\mapsto& a
+  }
+$$
+
+maps every [[open subset]] $U \subset \mathbb{R}$ to the [[singleton set]] $\{a\} \subset \mathbb{R}$, which is not open.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Write $Disc(\mathbb{R})$ for the set of [[real numbers]] equipped with its [[discrete topology]] (def. \ref{CoDiscreteTopology})
+and $\mathbb{R}$ for the set of [[real numbers]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]]
+(def. \ref{EuclideanNorm}, def. \ref{MetricTopology}). Then the [[identity function]] on the underlying sets
+
+$$
+  id_{\mathbb{R}} \;\colon\; Disc(\mathbb{R}) \longrightarrow \mathbb{R}
+$$
+
+is a [[continuous function]] (see also example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces}).
+A [[singleton set|singleton]] [[subset]] $\{a\} \in Disc(\mathbb{R})$ is open, but regarded as a subset
+$\{a\} \in \mathbb{R}$ it is not open.
+
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Consider the set of [[real numbers]] $\mathbb{R}$ equipped with its [[Euclidean space|Euclidean]] [[metric topology]]
+(def. \ref{EuclideanNorm}, def. \ref{MetricTopology}). The [[exponential function]]
+
+$$
+  \exp(-) \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}
+$$
+
+maps all of $\mathbb{R}$ (which is a closed subset, since $\mathbb{R} = \mathbb{R} \backslash \emptyset$) to
+the [[open interval]] $(0,\infty) \subset \mathbb{R}$, which is not closed.
+
+=--
+
+Those continuous functions that do happen to preserve
+open or closed subsets get a special name:
+
++-- {: .num_defn #OpenMap}
+###### Definition
+**([[open maps]] and [[closed maps]])**
+
+A [[continuous function]] $f \colon (X,\tau_X) \to (Y, \tau_Y)$ (def. \ref{ContinuousMaps}) is called
+
+*  an _[[open map]]_ if the [[image]] under $f$ of an [[open subset]] of $X$ is an open subset of $Y$;
+
+* a _[[closed map]]_ if the [[image]] under $f$ of a [[closed subset]] of $X$ (def. \ref{ClosedSubset}) is a closed subset of $Y$.
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[projections]] are open)**
+
+For $(X_1,\tau_{X_1})$ and $(X_2,\tau_{X_2})$ two [[topological spaces]], then the projection maps
+
+$$
+  \pi_i \;\colon\; (X_1 \times X_2, \tau_{X_1 \times X_2}) \longrightarrow (X_i, \tau_{X_i})
+$$
+
+out of their [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) are [[open maps]] (def. \ref{OpenMap}).
+
+=--
+
+Below in prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed} we find a large supply of [[closed maps]].
+
+
+
+$\,$
+
 
 Sometimes it is useful to recognize [[quotient topological space]] projections via [[saturated subsets]]
 (essentially another term for pre-images of underlying sets):
@@ -2424,7 +2475,7 @@ closed and $f$-saturated subsets to closed subsets.
 
 =--
 
-We record the following technical lemma about saturated subspaces, which we will need below 
+We record the following technical lemma about saturated subspaces, which we will need below
 to prove prop. \ref{QuotientProjectionsOutOfCompactHausdorffSpacesAreClosedPreciselyIfTheCodomainIsHausdorff}.
 
 +-- {: .num_lemma #SaturatedOpenNeighbourhoodsOfSaturatedClosedSubsets}
@@ -4497,7 +4548,7 @@ Therefore $\{U_{i_s} \to X\}_{s \in S}$ is a finite sub-cover as required.
 **(neither compactness nor sequential compactness implies the other)**
 
 Beware that, in contrast to prop. \ref{SequentiallyCompactMetricSpacesAreEquivCompact}, for
-general topological spaces being [[sequentially compact space|sequentially compact]] neither implies nor is implied by being 
+general topological spaces being [[sequentially compact space|sequentially compact]] neither implies nor is implied by being
 [[compact topological space|compact]]. The corresponding counter-examples are maybe beyond the scope of this
 note, but see here:
 
@@ -5119,7 +5170,7 @@ regarded as a [[topological subspace]] of the 2-dimensional [[Euclidean space]] 
 
 This is clearly a [[continuous function]] and a [[bijection]] on the underlying sets.
 Moreover, since [[continuous images of compact spaces are compact]] (cor. \ref{ContinuousImageOfACompactSpaceIsCompact})
-and since the closed interval $[0,1]$ is compact (example \ref{CompactClosedInterval}) we also obtain another proof that 
+and since the closed interval $[0,1]$ is compact (example \ref{CompactClosedInterval}) we also obtain another proof that
 the [[circle]] is compact.
 
 Hence by prop. \ref{ContinuousBijectionsFromCompactSpacesToHausdorffSpacesAreHomeomorphisms}
