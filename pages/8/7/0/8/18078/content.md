@@ -1,47 +1,22 @@
 
-What we use in these kinds of arguments is that 
-taking [[complements]] exchanges [[unions]] with [[intersections]]
-([[de Morgan laws]]):
-
-Given a set of subsets $\{S_i \subset S\}_{i \in I}$, then
-
 $$
-  X \backslash 
-  \left(
-     \underset{i \in I}{\cup}  S_i
-  \right)
-  \;\;=\;\;
-   \underset{i \in I}{\cap}
-   \left(
-      X \backslash S_i
-   \right)
-$$
-
-$$
-  X \backslash 
-  \left(
-     \underset{i \in I}{\cap}  S_i
-  \right)
-  \;\;=\;\;
-   \underset{i \in I}{\cup}
-   \left(
-      X \backslash S_i
-   \right)
-$$
-
-
-
-
-$$
-  \begin{aligned}
-    \underset{ {S \subset C }  \atop { C \subset X\,\text{closed} } }{\cap} 
-    \left(C \right)
-    & =
-    \underset{ { U \subset X \backslash S } \atop {U \subset X\, \text{open}}  }{\cap} \left( X \backslash U \right)
+  \array{
+    Cl\left( \,(a,b)\, \right)
+     \,=\,
+    [a,b]
+    &&
+    Int\left( \, (a,b) \,  \right)
+    \,=\,
+    (a,b)
     \\
-    & = X \backslash
-    \left(
-       \underset{ {U \subset X \backslash S} \atop { U \subset X\, \text{open} }}{\cup} U
-    \right)
-  \end{aligned}
+    \\
+    Cl\left( [a,b] \right)
+     \,=\,
+    [a,b]
+    &&
+    Int\left(\,[a,b]\,\right)
+    \,=\,
+    (a,b)
+  }
+  \,.
 $$
