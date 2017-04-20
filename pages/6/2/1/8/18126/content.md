@@ -2051,11 +2051,18 @@ This follows since taking [[pre-images]] commutes with taking [[complements]].
 
 =--
 
+$\,$
 
+We close this introduction of the concept
+of [[continuous functions]] between [[topological spaces]] with an informal remark
+on the resulting global structure, the "[[category of topological spaces]]", remark \ref{TopCategory}.
+This is a language that serves to make transparent key phenomena in [[topology]]
+which we encounter further below, such as the [Tn-reflection](#HausdorffReflections) (remark \ref{ReflectiveSubcategory}),
+and the [universal constructions](#UniversalConstructions).
 
 +-- {: .num_remark #TopCategory}
 ###### Remark
-**(the category of topological spaces)**
+**([[concrete category|concrete]] [[category of topological spaces]])**
 
 For $X_1, X_2, X_3$ three [[topological spaces]] and for
 
@@ -2104,7 +2111,6 @@ $$
   \,.
 $$
 
-
 One summarizes this situation by saying that:
 
 1. [[topological spaces]] constitute the _[[objects]]_
@@ -2128,6 +2134,101 @@ $\,$
 
 > graphics grabbed from [Lawvere-Schanuel 09](#category+theory#LawvereSchanuel09).
 
+There are other categories. For instance there is the [[category of sets]] ("[[Set]]" for short) whose
+
+1. [[objects]] are [[sets]];
+
+1. [[morphisms]] are plain [[functions]] between these.
+
+The two categories [[Top]] and [[Set]] are different, but related. After all,
+
+1. an [[object]] of [[Top]] (hence a [[topological space]]) is an [[object]] of [[Set]] (hence a [[sence]])
+equipped with [[extra structure]] (namely with a [[topological space|topology]])
+
+1. a [[morphism]] in [[Top]] (hence a [[continuous function]]) is a [[morphism]] in [[Set]] (hence a plain [[function]])
+   with the special property that it preserves this extra structure.
+
+Hence we have the _underlying set assigning function_
+
+$$
+  \array{
+    Top &\overset{U}{\longrightarrow}& Set
+    \\
+    \\
+    (X,\tau) &\overset{\phantom{AAa}}{\mapsto}& X
+  }
+$$
+
+from the [[class]] of topological spaces to the class of sets. But more is true:
+every [[continuous function]] between topological spaces is, by definition,
+in particular a function on underlying sets:
+
+$$
+  \array{
+    Top &\overset{U}{\longrightarrow}& Set
+    \\
+    \\
+    (X,\tau_X) &\overset{\phantom{AAA}}{\mapsto}& X
+    \\
+    {}^{\mathllap{f}}\downarrow &\overset{}{\mapsto}& \downarrow^{\mathrlap{f}}
+    \\
+    (Y, \tau_Y) &\underset{\phantom{AAA}}{\mapsto}& Y
+  }
+$$
+
+and this assignment trivially respects the [[composition]] of morphisms and the [[unit morphisms]].
+
+Such a [[function]] between [[classes]] of [[objects]] of [[categories]], which is extended to a
+function on the [[sets]] of [[homomorphisms]] between these objects in a way that respects [[composition]]
+and [[unit morphisms]] is called a _[[functor]]_.  If we write an arrow between categories
+
+$$
+  U \;\colon\; Top \longrightarrow Set
+$$
+
+then it is understood that we mean not just a [[function]] between their [[classes]] of [[objects]],
+but a [[functor]].
+
+The functor $U$ at hand has the special property that it does not do
+much except _[[stuff, structure, property|forgetting extra structure]]_, namely the extra structure on a
+set $X$ given by a choice of topology $\tau_X$. One also speaks of a _[[forgetful functor]]_.
+
+This is intuitively clear, and we may easily formalize it: The [[functor]] $U$ has the special property
+that as a [[function]] between [[sets]] of [[homomorphisms]] ("[[hom sets]]", for short) it is [[injective function|injective]].
+More in detail, given topological spaces $(X,\tau_X)$ and $(Y,\tau_Y)$ then the component function of $U$
+from the set of [[continuous function]] between these spaces to the set of plain functions between their underlying sets
+
+$$
+  \array{
+    \left\{
+      (X,\tau_X)
+        \underoverset{\text{continuous}}{\text{function}}{\longrightarrow}
+      (Y,\tau_Y)
+    \right\}
+      &\;\overset{\phantom{AA}U\phantom{AA}}{\mapsto}\;&
+    \left\{
+      X
+        \overset{\text{function}}{\longrightarrow}
+      Y
+    \right\}
+  }
+$$
+
+is an [[injective function]].
+
+A [[functor]] with this property that its component function
+between all [[hom-sets]] is injective is called a _[[faithful functor]]_.
+
+A [[category]] equipped with a [[faithful functor]] to [[Set]] is called a _[[concrete category]]_.
+
+Hence [[Top]] is canonically a [[concrete category]].
+
+
+
+
+
+
+
 =--
 
 
@@ -2136,7 +2237,7 @@ $\,$
 **(product topological space construction is functorial)**
 
 Let $(X_1,\tau_{X_1})$, $(X_2, \tau_{X_2})$, $(Y_1, \tau_{Y_1})$ and $(Y_2, \tau_{Y_2})$ be [[topological spaces]].
-Then for all pairs of [[continuous functions]]
+Then for all [[pairs]] of [[continuous functions]]
 
 $$
   f_1 \;\colon\; (X_1, \tau_{X_1}) \longrightarrow (Y_1, \tau_{Y_1})
@@ -2636,7 +2737,7 @@ $$
   \,.
 $$
 
-If there is _some_, possibly unspecified, homeomorphism between topological spaces $(X,\tau_X)$ and $(Y,\tau_Y)$, 
+If there is _some_, possibly unspecified, homeomorphism between topological spaces $(X,\tau_X)$ and $(Y,\tau_Y)$,
 then we also write
 
 $$
@@ -2682,7 +2783,7 @@ The underlying function of sets of $f$ is a [[bijection]]. The [[inverse functio
 at $(1,0) \in S^1 \subset \mathbb{R}^2$. Hence this $f$ is _not_ a [[homeomorphism]].
 
 Indeed, below we see that the two topological spaces $[0,2\pi)$ and $S^1$ are distinguished by
-[[topological invariants]], meaning that they cannot be homeomorphic via any (other) choice of homeomorphism. 
+[[topological invariants]], meaning that they cannot be homeomorphic via any (other) choice of homeomorphism.
 For example $S^1$ is a [[compact topological space]]
 (def. \ref{CompactTopologicalSpace})
 while $[0,2\pi)$ is not, and $S^1$ has a non-trivial [[fundamental group]], while that of $[0,2\pi)$
@@ -2712,7 +2813,7 @@ between [[topological spaces]] (def. \ref{ContinuousMaps}). Then the following a
 
 It is clear from the definition that a homeomorphism in particular has to be a bijection.
 The condition that the [[inverse function]] $Y \leftarrow X \colon g$ be continuous means
-that the [[pre-image]] function of $g$ sends open subsets to open subsets. By $g$ being the inverse to 
+that the [[pre-image]] function of $g$ sends open subsets to open subsets. By $g$ being the inverse to
 $f$, that pre-image function is equal to $f$, regarded as a function on subsets:
 
 $$
@@ -2811,8 +2912,8 @@ $$
 
 =--
 
-While mainly the interest in a homeomorphism is in it being 
-non-obvious from the definitions, many homeomorphisms that appear 
+While mainly the interest in a homeomorphism is in it being
+non-obvious from the definitions, many homeomorphisms that appear
 in practice exhibit "obvious re-identifications"
 
 
@@ -2995,7 +3096,7 @@ $\,$
 
 
 The following are a sequence of examples all of the form that an abstractly
-constructed topological space is homeomorphic to a certain subspaee of a Euclidean space. 
+constructed topological space is homeomorphic to a certain subspaee of a Euclidean space.
 These examples are going to be useful in further developments below, for example
 in the [proof below](#BorelHeineProof) of the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}).
 
@@ -3659,7 +3760,7 @@ $$
 =--
 
 
-+-- {: .num_remark }
++-- {: .num_remark #ReflectiveSubcategory}
 ###### Remark
 **([[reflective subcategories]])**
 
@@ -5332,7 +5433,7 @@ anymore (e.g. example \ref{LineWithTwoOrigins}), and hence in particular are not
 Now from a more abstract point of view, a [[quotient topological space]] is a special case of a "[[colimit]]" of topological
 spaces. This we explain now.
 
-Generally, for every [[diagram]] in the [[category]] [[Top]] of topological space (remark \ref{TopCat}),
+Generally, for every [[diagram]] in the [[category]] [[Top]] of topological spaces (remark \ref{TopCat}),
 hence for every collection of topological spaces with a system of [[continuous functions]] betwen them, then
 there exists a further topological space, called the _[[colimit|colimiting]] space_ of the diagram,
 which may be thought of as the result of "gluing" all the spaces in the diagram together, while using the
@@ -5355,6 +5456,298 @@ functions into a given [[diagram]] of spaces.
 
 Most constructions of new topological spaces that one builds from given spaces are obtained by forming limits and/or colimits
 of diagrams of the original spaces.
+
+
+### Limits in a category
+ {#LimitsInACategory}
+
+
++-- {: .num_defn #Diagram}
+###### Definition
+**([[diagram]] in a [[category]])**
+
+A [[diagram]] $\mathcal{I}$ in a [[category]], such as the [[category]] [[Top]] of [[topological spaces]]
+or the category [[Set]] of [[sets]] from remark \ref{TopCategory}, is
+
+1. a [[set]] $\{ X_i \}_{i \in I}$ of [[objects]] in the category;
+
+1. for every [[pair]] $(i,j) \in I \times I$ of labels of objects a [[set]]
+   $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[morphisms]] between these objects;
+  
+1. for each [[triple]] $i,j,k \in I$ [[function]]
+
+   $$
+     comp_{i,j,k} I_{i,j} \;\colon\; \times I_{j,k} \longrightarrow I_{i,k}
+   $$
+ 
+such that 
+
+1. for every $i \in I$ the [[identity morphisms]] $id_{X_i} \colon X_i \to X_i$ is part of the diagram;
+
+1. $comp$ is [[associativity|associtive]] and [[unital]] in the evident sense,
+
+1. for every composable pair of morphisms 
+
+  $$
+    X_i 
+      \overset{f_{\alpha} }{\longrightarrow} 
+    X_j
+      \overset{ f_{\beta} }{\longrightarrow}
+    X_k
+  $$
+  
+  then the [[composition|composite]] of these two morphisms equals the morphisms of the diagram that is 
+  labeled by the value of $comp_{i,j,k}$ on their labels:
+  
+  $$
+    f_{\beta} \circ f_\alpha 
+    \,=\,
+    f_{comp_{i,j,k}( \alpha, \beta )}
+    \,.
+  $$
+  
+The last condition we depict as follows:
+
+$$
+  \array{ 
+    && X_j
+    \\
+    & {}^{\mathllap{f_{\alpha}}}\nearrow && \searrow^{\mathrlap{f_{\beta}}}
+    \\
+    X_i && \underset{ comp_{i,j,k}(\alpha,\beta) }{\longrightarrow} && X_k
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .num_defn #Cone}
+###### Definition
+**([[cone]] over a [[diagram]])**
+
+Consider a [[diagram]] 
+
+$$
+  \mathcal{I}
+    \,=\,
+  \left(
+     \left\{
+       X_i \overset{f_\alpha}{\longrightarrow} X_j
+     \right\}_{i,j \in I, \alpha \in I_{i,j}}
+     \,,\,
+     \mathrm{comp}
+  \right)
+$$
+
+in some [[category]] (def. \ref{Diagram}). Then 
+
+1. a _[[cone]]_ over this diagram is
+
+   1. an [[object]] $\tilde X$ in the category;
+   
+   1. for each $i \in I$ a morphism $\tilde X \overset{p_i}{\longrightarrow} X_i$ in the category
+   
+   such that
+
+   * for all $(i,j) \in I \times I$ and all $\alpha \in I_{i,j}$ then the condition
+   
+     $$
+       f_{\alpha} \circ p_i = p_j
+     $$
+     
+     holds, which we depict as follows:  
+
+     $$
+       \array{
+         && \tilde X
+         \\
+         & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p'_j}}
+         \\
+         X_i 
+           && \underset{f_\alpha}{\longrightarrow} &&
+         X_j
+       }
+     $$
+     
+1. a _[[co-cone]]_ over this diagram is
+
+   1. an [[object]] $\tilde X$ in the category;
+
+   1. for each $i \in I$ a morphism $q_i \colon X_i \longrightarrow \tilde X$ in the category
+
+   such that
+
+   * for all $(i,j) \in I \times I$ and all $\alpha \in I_{i,j}$ then the condition
+
+     $$
+       q_j \circ f_{\alpha} = q_i
+     $$
+
+     holds, which we depict as follows:
+
+     $$
+       \array{
+         X_i && \overset{f_\alpha}{\longrightarrow} && X_j
+         \\
+         & {}_{\mathllap{q_i}}\searrow && \swarrow_{\mathrlap{q_j}}
+         \\
+         && \tilde X
+       }
+       \,.
+     $$
+
+=--
+
++-- {: .num_defn #LimitingCone}
+###### Definition
+
+Consider a [[diagram]]
+
+$$
+  \mathcal{I}
+    \,=\,
+  \left(
+     \left\{
+       X_i \overset{f_\alpha}{\longrightarrow} X_j
+     \right\}_{i,j \in I, \alpha \in I_{i,j}}
+     \,,\,
+     \mathrm{comp}
+  \right)
+$$
+
+in some [[category]] (def. \ref{Diagram}). Then
+
+1. its _[[limit|limiting cone]]_ (or just _[[limit]]_ for short) is, if it exists,
+   [[generalized the|the]] [[cone]] 
+   
+   $$
+     \left\{
+     \array{
+       && \underset{\longleftarrow}{\lim}_i X_i
+       \\
+       & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
+       \\
+       X_i
+         && \underset{f_\alpha}{\longrightarrow} &&
+       X_j
+     }
+     \right\}
+   $$
+
+   over this diagram (def. \ref{Cone}) which is _universal_ or _initial_ among all 
+   possible cones,
+   in that it has the property that for
+
+   $$
+     \left\{
+     \array{
+       && \tilde X
+       \\
+       & {}^{\mathllap{p'_i}}\swarrow && \searrow^{\mathrlap{p'_j}}
+       \\
+       X_i
+         && \underset{f_\alpha}{\longrightarrow} &&
+       X_j
+     }
+     \right\}
+   $$
+   
+   any other [[cone]], then there is a unique morphism
+   
+   $$
+     \phi \;\colon\; \tilde X \overset{}{\longrightarrow} \underset{\longrightarrow}{\lim}_i X_i
+   $$
+   
+   that factors the given cone through the limiting cone, in that for all $i \in I$ then
+   
+   $$
+     p'_i = p_i \circ \phi
+   $$
+   
+   which we depict as follows:
+
+   $$
+     \array{
+       \tilde X
+       \\
+       {}^{\mathllap{\phi}}\downarrow & \searrow^{\mathrlap{p_i}}
+       \\
+       \underset{\longrightarrow}{\lim}_i X_i
+       &\underset{p_i}{\longrightarrow}& 
+       X_i
+     }
+   $$
+
+1. its _[[colimit|colimiting cocone]]_ (or just _[[colimit]]_ for short) is, if it exists,
+   [[generalized the|the]] [[cocone]]
+
+   $$
+     \left\{
+     \array{
+       X_i
+         && \underset{f_\alpha}{\longrightarrow} &&
+       X_j
+       \\
+       & {}^{\mathllap{q_i}}\searrow && \swarrow^{\mathrlap{q_j}}
+       \\
+       \\
+       && \underset{\longrightarrow}{\lim}_i X_i
+     }
+     \right\}
+   $$
+
+   under this diagram (def. \ref{Cone}) which is _universal_ or _terminal_ among all
+   possible co-cones,
+   in that it has the property that for
+
+   $$
+     \left\{
+     \array{
+       X_i
+         && \underset{f_\alpha}{\longrightarrow} &&
+       X_j
+       \\
+       & {}^{\mathllap{q'_i}}\searrow && \swarrow_{\mathrlap{q'_j}}
+       \\
+       && \tilde X
+     }
+     \right\}
+   $$
+
+   any other [[cocone]], then there is a unique morphism
+
+   $$
+     \phi \;\colon\;  \underset{\longrightarrow}{\lim}_i X_i \overset{}{\longrightarrow} \tilde X
+   $$
+
+   that factors the given co-cone through the co-limiting cocone, in that for all $i \in I$ then
+
+   $$
+     q'_i = \phi \circ q_i
+   $$
+
+   which we depict as follows:
+
+   $$
+     \array{
+       X_i
+       &\overset{q_i}{\longrightarrow}&
+       \underset{\longrightarrow}{\lim}_i X_i
+       \\
+       {}^{\mathllap{\phi}}\downarrow & \swarrow^{\mathrlap{q'_i}}
+       \\
+       \tilde X
+     }
+   $$
+
+=--
+
+
+(...)
+
+### Limits in $Top$
+ {#LimitsInTop}
 
 
 
