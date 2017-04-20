@@ -5458,58 +5458,58 @@ Most constructions of new topological spaces that one builds from given spaces a
 of diagrams of the original spaces.
 
 
-### Limits in a category
- {#LimitsInACategory}
+### Limits and colimits
+ {#LimitsAndColimits}
 
 
 +-- {: .num_defn #Diagram}
 ###### Definition
 **([[diagram]] in a [[category]])**
 
-A [[diagram]] $\mathcal{I}$ in a [[category]], such as the [[category]] [[Top]] of [[topological spaces]]
+A [[diagram]] $X_\bullet$ in a [[category]], such as the [[category]] [[Top]] of [[topological spaces]]
 or the category [[Set]] of [[sets]] from remark \ref{TopCategory}, is
 
 1. a [[set]] $\{ X_i \}_{i \in I}$ of [[objects]] in the category;
 
 1. for every [[pair]] $(i,j) \in I \times I$ of labels of objects a [[set]]
    $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[morphisms]] between these objects;
-  
+
 1. for each [[triple]] $i,j,k \in I$ [[function]]
 
    $$
      comp_{i,j,k} I_{i,j} \;\colon\; \times I_{j,k} \longrightarrow I_{i,k}
    $$
- 
-such that 
+
+such that
 
 1. for every $i \in I$ the [[identity morphisms]] $id_{X_i} \colon X_i \to X_i$ is part of the diagram;
 
 1. $comp$ is [[associativity|associtive]] and [[unital]] in the evident sense,
 
-1. for every composable pair of morphisms 
+1. for every composable pair of morphisms
 
   $$
-    X_i 
-      \overset{f_{\alpha} }{\longrightarrow} 
+    X_i
+      \overset{f_{\alpha} }{\longrightarrow}
     X_j
       \overset{ f_{\beta} }{\longrightarrow}
     X_k
   $$
-  
-  then the [[composition|composite]] of these two morphisms equals the morphisms of the diagram that is 
+
+  then the [[composition|composite]] of these two morphisms equals the morphisms of the diagram that is
   labeled by the value of $comp_{i,j,k}$ on their labels:
-  
+
   $$
-    f_{\beta} \circ f_\alpha 
+    f_{\beta} \circ f_\alpha
     \,=\,
     f_{comp_{i,j,k}( \alpha, \beta )}
     \,.
   $$
-  
+
 The last condition we depict as follows:
 
 $$
-  \array{ 
+  \array{
     && X_j
     \\
     & {}^{\mathllap{f_{\alpha}}}\nearrow && \searrow^{\mathrlap{f_{\beta}}}
@@ -5526,10 +5526,10 @@ $$
 ###### Definition
 **([[cone]] over a [[diagram]])**
 
-Consider a [[diagram]] 
+Consider a [[diagram]]
 
 $$
-  \mathcal{I}
+  X_\bullet
     \,=\,
   \left(
      \left\{
@@ -5540,23 +5540,23 @@ $$
   \right)
 $$
 
-in some [[category]] (def. \ref{Diagram}). Then 
+in some [[category]] (def. \ref{Diagram}). Then
 
 1. a _[[cone]]_ over this diagram is
 
    1. an [[object]] $\tilde X$ in the category;
-   
+
    1. for each $i \in I$ a morphism $\tilde X \overset{p_i}{\longrightarrow} X_i$ in the category
-   
+
    such that
 
    * for all $(i,j) \in I \times I$ and all $\alpha \in I_{i,j}$ then the condition
-   
+
      $$
        f_{\alpha} \circ p_i = p_j
      $$
-     
-     holds, which we depict as follows:  
+
+     holds, which we depict as follows:
 
      $$
        \array{
@@ -5564,12 +5564,12 @@ in some [[category]] (def. \ref{Diagram}). Then
          \\
          & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p'_j}}
          \\
-         X_i 
+         X_i
            && \underset{f_\alpha}{\longrightarrow} &&
          X_j
        }
      $$
-     
+
 1. a _[[co-cone]]_ over this diagram is
 
    1. an [[object]] $\tilde X$ in the category;
@@ -5601,11 +5601,12 @@ in some [[category]] (def. \ref{Diagram}). Then
 
 +-- {: .num_defn #LimitingCone}
 ###### Definition
+**([[limit|limiting cone]] over a [[diagram]])**
 
 Consider a [[diagram]]
 
 $$
-  \mathcal{I}
+  X_\bullet
     \,=\,
   \left(
      \left\{
@@ -5619,8 +5620,8 @@ $$
 in some [[category]] (def. \ref{Diagram}). Then
 
 1. its _[[limit|limiting cone]]_ (or just _[[limit]]_ for short) is, if it exists,
-   [[generalized the|the]] [[cone]] 
-   
+   [[generalized the|the]] [[cone]]
+
    $$
      \left\{
      \array{
@@ -5635,7 +5636,7 @@ in some [[category]] (def. \ref{Diagram}). Then
      \right\}
    $$
 
-   over this diagram (def. \ref{Cone}) which is _universal_ or _initial_ among all 
+   over this diagram (def. \ref{Cone}) which is _universal_ or _initial_ among all
    possible cones,
    in that it has the property that for
 
@@ -5652,19 +5653,19 @@ in some [[category]] (def. \ref{Diagram}). Then
      }
      \right\}
    $$
-   
+
    any other [[cone]], then there is a unique morphism
-   
+
    $$
      \phi \;\colon\; \tilde X \overset{}{\longrightarrow} \underset{\longrightarrow}{\lim}_i X_i
    $$
-   
+
    that factors the given cone through the limiting cone, in that for all $i \in I$ then
-   
+
    $$
      p'_i = p_i \circ \phi
    $$
-   
+
    which we depict as follows:
 
    $$
@@ -5674,7 +5675,7 @@ in some [[category]] (def. \ref{Diagram}). Then
        {}^{\mathllap{\phi}}\downarrow & \searrow^{\mathrlap{p_i}}
        \\
        \underset{\longrightarrow}{\lim}_i X_i
-       &\underset{p_i}{\longrightarrow}& 
+       &\underset{p_i}{\longrightarrow}&
        X_i
      }
    $$
@@ -5744,12 +5745,84 @@ in some [[category]] (def. \ref{Diagram}). Then
 =--
 
 
-(...)
 
-### Limits in $Top$
- {#LimitsInTop}
++-- {: .num_prop #SetLimits}
+###### Proposition
+**(limits of sets)**
+
+Let
+
+$$
+  X_\bullet
+    \,=\,
+  \left(
+     \left\{
+       X_i \overset{f_\alpha}{\longrightarrow} X_j
+     \right\}_{i,j \in I, \alpha \in I_{i,j}}
+  \right)
+$$
+
+be a [[diagram]] of [[sets]] (def. \ref{Diagram}). Then
+
+1. its [[limit|limit cone]] (def. \ref{LimitingCone}) exists and is given by the following [[subset]] of the [[Cartesian product]]
+   $\underset{i \in I}{\times} X_i$
+   of all the [[sets]] $X_i$ appearing in the diagram
+
+   $$
+     \underset{\longleftarrow}{\lim}_i X_i
+     \,\overset{\phantom{AAA}}{\hookrightarrow}\,
+     \underset{i \in I}{\times} X_i
+   $$
+
+   on those [[tuples]] of elements which match the [[graphs]] of the functions appearing in the diagram:
+
+   $$
+     \underset{\longleftarrow}{\lim}_{i} X_i
+     \;\simeq\;
+     \left\{
+       (x_i)_{i \in I} \in \underset{i \in I}{\times} X_i
+       \,\vert\,
+       \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\forall}
+       \left(
+         f_{\alpha}(x_i) = x_j
+       \right)
+     \right\}
+   $$
+
+1. its [[colimit|colimiting co-cone]] (def. \ref{LimitingCone}) exists and s given by the [[quotient set]] of the [[disjoint union]] $\underset{i \in I}{\sqcup} X_i$ of all the [[sets]] $X_i$ appearing in the diagram
+
+   $$
+     \underset{i \in I}{\sqcup} X_i
+       \,\overset{\phantom{AAA}}{\longrightarrow}\,
+     \underset{\longrightarrow}{\lim}_{i \in I} X_i
+   $$
+
+   with respect to the [[equivalence relation]] which is generated from the [[graphs]] of the functions in the diagram:
+
+   $$
+     \underset{\longrightarrow}{\lim}_i X_i
+     \;\simeq\;
+     \left(
+       \underset{i \in I}{\sqcup} X_i
+     \right)/
+     \left(
+       (x \sim x')
+         \Leftrightarrow
+       \left(
+         \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\exists}
+         \left(
+           f_\alpha(x) = x'
+         \right)
+       \right)
+     \right)
+   $$
 
 
+=--
+
+
+
+Now we turn to limits of diagrams of topological spaces.
 
 +-- {: .num_defn #InitialAndFinalTopologies}
 ###### Definition
@@ -5863,7 +5936,7 @@ The case of the colimit is [[formal dual|formally dual]].
 
 $\,$
 
-**Examples of (co-)limits of topological spaces**
+### Examples
 
 
 +-- {: .num_example #PointTopologicalSpaceAsEmptyLimit}
@@ -6045,11 +6118,13 @@ $\,$
 
 ## References
 
-Introductory textbooks to topology include
+A canonical compendium is
 
-* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000)
+* {#Bourbaki71} [[Nicolas Bourbaki]], chapter 1 _Topological Structures_ of _Elements of Mathematics III: General topology_, Springer 1971, 1990
 
-* {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
+Introductory textbooks include
+
+* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall (1975, 2000)
 
 * {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989)
 
@@ -6063,16 +6138,9 @@ Lecture notes include
 
 * [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
-* Alex Kuronya, _Introduction to topology_, 2010 ([pdf](https://www.uni-
-frankfurt.de/64271720/TopNotes_Spring
-10.pdf))
-
-* Anatole Katok, Alexey Sossinsky, _Introduction to modern topology and geometry_ ([pdf](http://www.personal.psu.edu/axk29/MASS-07/Background-forMASS.pdf))
-
 Disucssion of [[sober topological spaces]] is in
 
 * {#Johnstone82} [[Peter Johnstone]], section II 1. of _Stone Spaces_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
-
 
 See also
 
