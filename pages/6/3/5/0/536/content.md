@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###e
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
@@ -17,14 +17,15 @@
 
 An _algebraic [[theory]]_ is a concept in [[universal algebra]] that describes a specific type of algebraic gadget, such as [[group|groups]] or [[ring|rings]]. An individual group or ring is a _model_ of the appropriate theory. Roughly speaking, an algebraic theory consists of a specification of operations and laws that these operations must satisfy.
 
+
 ### Categorical formulation
 
-Traditionally, algebraic theories were described in terms of [[logic|logical syntax]], as [[theory|first-order theories]] whose [[signatures]] have only function symbols, no relation symbols, and all of whose [[axioms]] are [[universal quantifier|universally quantified]] [[equations]].  Such descriptions may be viewed as _presentations_ of a theory, analogous to 
-[[generators and relations]] presentations of [[groups]]. In particular, different logical presentations can lead to equivalent mathematical objects. 
+Traditionally, algebraic theories were described in terms of [[logic|logical syntax]], as [[theory|first-order theories]] whose [[signatures]] have only function symbols, no relation symbols, and all of whose [[axioms]] are [[equational law]]s ([[universal quantifier|universally quantified]] [[equations]] between terms built out of these function symbols).  Such descriptions may be viewed as _presentations_ of a theory, analogous to [[generators and relations]] as presentations of [[groups]]. In particular, different logical presentations can lead to equivalent mathematical objects. 
 
 In his thesis, [[Bill Lawvere]] undertook a more invariant description of (finitary) algebraic theories. Here _all_ the definable operations of an algebraic theory, or rather their equivalence classes modulo the equational axioms imposed by the theory, are packaged together to form the morphisms of a category with finite products, called a [[Lawvere theory]]. None of these operations are considered "primitive", so a Lawvere theory doesn't play favorites among operations. 
 
 This article is about generalized Lawvere theories. The article [[Lawvere theory]] treats the traditional notion of finitary, single-sorted Lawvere theories, with worked examples. The core of the present article is a working out of the precise connection between infinitary (multi-sorted) Lawvere theories and monads. 
+
 
 ### Basic Intuitions 
 
@@ -41,6 +42,7 @@ The generic "category of arities" $n$ is, in the finitary case, the category opp
 $$x^{-}: FinSet^{op} \to T$$ 
 
 that is essentially surjective (each object of $T$ is isomorphic to $x^n$ for some arity $n$). As we see below, this definition is a cornerstone to a very elegant theory of algebraic theories. 
+
 
 ### Extensions 
 
@@ -70,6 +72,7 @@ In summary, then, here is the connection between the logical and categorial desc
 
 Then any small algebraic category is algebraic, and any algebraic category is large algebraic, but neither implication may be reversed.
 
+
 #### Multi-sorted operations 
 
 Lawvere theories can also be generalized to handle multi-sorted operations. If $S$ is a set of sorts, then multisorted operations are of the form 
@@ -82,9 +85,11 @@ $$(Set^S)^{op} \to T$$
 
 and the development goes through very much as in the single-sorted case. 
 
+
 #### Generalized Algebraic Theories
 
 See _[[generalized algebraic theory]]_.
+
 
 ## Definition
 
@@ -101,13 +106,16 @@ is essentially surjective.
 
 =--
 
+
 ### Variations 
 
 Algebraic theories can be extended or specialized in various directions. Here are a few variations on the theme. 
 
+
 #### Essentially algebraic theories
 
 _[[essentially algebraic theory|Essentially algebraic theories]]_ allow for partially-defined operations.  Just as finitary algebraic theories can be understood as Lawvere theories, which live in the [[doctrine]] of [[cartesian monoidal category|cartesian monoidal categories]], so finitary essentially algebraic theories can be understood by a generalisation to [[finitely complete category|finitely complete categories]].
+
 
 #### Multisorted algebraic theories
 
@@ -150,11 +158,13 @@ $$(Set/S)^{op} \stackrel{\Pi}{\to} C' \to C$$
 
 where the second functor $C' \to C$ is an equivalence, so we may as well work with the functor $\Pi: (Set/S)^{op} \to C'$. 
 
+
 #### Commutative theories
 
 _[[commutative algebraic theory|Commutative algebraic theories]]_ are (single-sorted) algebraic theories for which each operation is an algebra homomorphism. These form an important subclass. Their categories of models are [[closed monoidal category|closed]]: the [[hom sets]] have a natural model-structure (algebra-structure), and the enriched Hom-functor has a [[left adjoint]], _[[tensor product]]_. 
 
 The theory of complete lattices and suprema-preserving functions is an interesting (non-finitary) example.
+
 
 ## Relation to monads
  {#RelationToMonads}
@@ -172,9 +182,13 @@ $$\Pi: (Set/S)^{op} \to C$$
 
 which we may assume to be the identity on objects. We define an adjoint pair between the category of models $Mod(C, Set)$, consisting of product-preserving functors $C \to Set$ and transformations between them, and the category $Set/S$. We also denote this model category by $Prod(C, Set)$. 
 
-* **Remark:** Observe that $(Set/S)^{op}$ is a Lawvere theory which is the theory of $S$-multi-sorted sets,  
++-- {: .num_remark}
+###### Remark
+
+Observe that $(Set/S)^{op}$ is a Lawvere theory which is the theory of $S$-multi-sorted sets,  
 $$Prod((Set/S)^{op}, Set) \stackrel{- \circ i}{\simeq} Set^S \simeq Set/S,$$ 
 where the first equivalence obtains precisely because $(Set/S)^{op}$ is the free category with products generated by $S$. 
+=--
 
 Let $y: C^{op} \to Mod(C, Set)$ be the Yoneda embedding, taking $c$ to the product-preserving functor $hom(c, -): C \to Set$. 
 
@@ -321,11 +335,12 @@ and the fact that $Y$ preserves products, we see that the component of $f$ at $\
 Thus $A$ is an equivalence, with essential inverse $M$. 
 =--
 
+
 ## Metaphor
 
-Ring theory is a branch of mathematics with a well-developed terminology. A ring $A$ determines and is determined by an algebraic theory, whose models are left $A$-modules and whose n-ary operations have the form
-$$(x_1,\ldots ,x_n) \to a_1x_1+\ldots +a_n x_n$$
-for some n-tuple $(a_1,\ldots ,a_n)$ of elements of $A$. We may call such an algebraic theory **annular**. The pun _model/module_ is due to Jon Beck. The notion that an algebraic theory is a generalized ring is often a fertile one, that automatically provides a slew of suggestive terminology and interesting problems. Many fundamental ideas of ring/module-theory are simply the restriction to annular algebraic theories of ideas that apply more widely to algebraic theories and their models.
+Ring theory is a branch of mathematics with a well-developed terminology. A ring $A$ determines and is determined by an algebraic theory, whose models are left $A$-modules and whose $n$-ary operations have the form
+$$(x_1,\ldots ,x_n) \to a_1 x_1 + \cdots + a_n x_n$$
+for some n-tuple $(a_1,\ldots ,a_n)$ of elements of $A$. We may call such an algebraic theory **annular**. The pun _model/module_ is due to [[Jon Beck]]. The notion that an algebraic theory is a generalized ring is often a fertile one, that automatically provides a slew of suggestive terminology and interesting problems. Many fundamental ideas of ring/module-theory are simply the restriction to annular algebraic theories of ideas that apply more widely to algebraic theories and their models.
 
 Let us denote the category of models and homomorphisms (in $Set$) of an algebraic theory $A$ by $A Mod$.  Then compare the following to their counterparts in ring theory:
 
@@ -367,6 +382,8 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 
 * B. Badzioch, "Algebraic Theories in Homotopy Theory", Annals of Mathematics, 155, 895--913 (2002).
 
+
+[[!redirects algebraic theory]]
 [[!redirects algebraic theories]]
 
 [[!redirects finitary algebraic theory]]
