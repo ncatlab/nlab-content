@@ -108,11 +108,11 @@ $$
 +-- {: .num_example}
 ###### Example
 
-<div style="float:left;margin:0 10px 10px 0;">
+<div style="float:right;margin:0 10px 10px 0;">
 <img src="http://ncatlab.org/nlab/files/GluingHemispheres.jpg" width="400"></div>
 
 
-If we take the defining boundary inclusion $\iota_n \colon S^{n-1} \to D^n$ itself as an attaching map, then we are gluing to $n$-disks to each other along their common boundary. The result is the $(n+1)$-sphere:
+If we take the defining boundary inclusion $\iota_n \colon S^{n-1} \to D^n$ itself as an attaching map, then we are gluing two $n$-disks to each other along their common boundary $S^{n-1}$. The result is the $(n+1)$-sphere:
 
 $$
   \array{
@@ -209,7 +209,7 @@ such that
      \,.
    $$
 
-1. the map $f \colon X \to Y$ is the [[colimit]] over this sequence:
+1. $Y = \underset{k\in \mathbb{N}}{\cup} X_k$ is the [[union]] of all these cell attachments, and $f \colon X \to Y$ is the canonical inclusion; or stated more abstractly: the map $f \colon X \to Y$ is the inclusion of the first component of the diagram into its [[colimit|colimiting cocone]] $\underset{\longrightarrow}{\lim}_k X_k$:
 
    $$
      \array{
