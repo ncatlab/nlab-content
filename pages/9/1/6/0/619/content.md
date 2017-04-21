@@ -286,6 +286,14 @@ A category of [[concrete presheaves]] inside a [[category of presheaves]] on a [
 
 =--
 
+
++-- {: .num_example }
+###### Example
+
+In a [[recollement]] situation, we have several reflectors and coreflectors. We have a reflective and coreflective subcategory $i_*: A' \hookrightarrow A$ with reflector $i^*$ and coreflector $i^!$. The functor $j^*$ is both a reflector for the reflective subcategory $j_*: A'' \hookrightarrow A$, and a coreflector for the coreflective subcategory $j_!: A'' \hookrightarrow A$.
+
+=--
+
 +-- {: .num_example #TheReflectiveSubcategoriesOfSet}
 ###### Example
 
