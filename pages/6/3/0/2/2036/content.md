@@ -52,13 +52,37 @@ $$
   [a,b,c] \coloneqq (a b) c - a (b c)
 $$
 
-is [[alternating map|alternating]], in that whenever two of the three arguments are equal, the result is zero.  Over a [[field]] whose [[characteristic]] is different from $2$, then, or more generally over any [[commutative ring]] in which $2$ is invertible or even cancellable, alternativity is equivalent to the condition that the associator is [[skew-symmetric function|skew-symmetric]], in that for any [[permutation]] $\sigma$ of three elements then $[a_{\sigma_1}, a_{\sigma_2}, a_{\sigma_3}] = (-1)^{\vert \sigma\vert} [a_1, a_2, a_3]$ for ${\vert\sigma\vert}$ the [[signature of a permutation|signature of the permutation]].
+is [[alternating map|alternating]], in that whenever two of the three arguments are equal, the result is zero.
+=--
+
++-- {: .num_cor #skewsymmetry}
+###### Corollary
+
+Alternativity implies that the associator is [[skew-symmetric function|skew-symmetric]], in that for any [[permutation]] $\sigma$ of three elements then $[a_{\sigma_1}, a_{\sigma_2}, a_{\sigma_3}] = (-1)^{\vert \sigma\vert} [a_1, a_2, a_3]$ for ${\vert\sigma\vert}$ the [[signature of a permutation|signature of the permutation]].  Over a [[field]] whose [[characteristic]] is different from $2$, or more generally over any [[commutative ring]] in which $2$ is invertible or even cancellable, alternativity is equivalent to skew-symmetry of the associator.
 =--
 
 +-- {: .proof}
 ###### Proof
 
-In one direction, alternativity together with the multi-linearity of the product says that the associator is skew symmetric in adjacent arguments
+In one direction, left alternativity says directly that the associator is alternating in the first two arguments:
+
+$$
+  [x,x,y] = (x x) y - x (x y) = (x x) y - (x x) y = 0 ,
+$$
+
+and right alternativity says the same thing in the last two arguments:
+
+$$
+  [x,y,y] = (x y) y - x (y y) = (x y) y - (x y) y = 0 .
+$$
+
+To be fully alternating, we then argue using multi-linearity of the associator:
+
+$$
+  [x,y,x] = [x,x,x] + [x,y,x] + [y,x,x] + [y,y,x] = [(x+y),(x+y),x] = 0 .
+$$
+
+Multilinearity also proves that the associator is skew-symmetric, in adjacent arguments:
 
 $$
   0 = [(x+y),(x+y),z] = [x,y,z] + [y,x,z]
@@ -82,7 +106,7 @@ $$
   \end{aligned}
 $$
 
-using the assumption that $2$ is cancellable in $A$. Similarly for $[y,x,x] = 0$. 
+using the assumption that $2$ is cancellable in $A$, and similarly for $[y,x,x] = 0$. 
 =--
 
 +-- {: .num_prop #ArtinTheorem}
