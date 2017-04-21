@@ -14,7 +14,7 @@
 =--
 
 #CW complexes
-* table of contents
+* table of contentsF
 {: toc}
 
 
@@ -46,6 +46,7 @@ The terminology "CW-complex" goes back to [[John Henry Constantine Whitehead]] (
 =--
 
 ## Definition
+  {#Definition}
 
 
 In the following let [[Top]] be the [[category]] of [[topological spaces]], or any of its variants, [[convenient category of topological spaces]].
@@ -129,6 +130,28 @@ $$
 
 
 =--
+
++-- {: .num_example }
+###### Example
+
+A single cell attachment of a 0-cell, according to def. \ref{SingleCellAttachment} is the same as forming the [[disjoint union space]] $X \sqcup \ast$ with the [[point]] space $\ast$:
+
+$$
+  \array{
+     (S^{-1} = \emptyset) &\overset{\exists !}{\longrightarrow}&  X
+     \\
+     \downarrow &(po)& \downarrow
+     \\
+     (D^0 = \ast) &\longrightarrow& X \sqcup \ast
+  }
+  \,.
+$$
+
+In particular if we start with the [[empty topological space]] $X = \emptyset$ itself, then by attaching 0-cells we obtain a [[discrete topological space]]. To this then we may attach higher dimensional cells.
+
+
+=--
+
 
 +-- {: .num_defn #CellAttachments}
 ###### Definition
@@ -223,7 +246,7 @@ such that
 
 If here $X = \emptyset$ is the [[empty space]] then the result is a map $\emptyset \hookrightarrow Y$, which is equivalently just a space $Y$ built form "attaching cells to nothing". This is then called just a _topological [[cell complex]]_ of countable hight.
 
-Finally, a topological (relative) cell complex of countable hight is called a **CW-complex** is the cell attachment $X_k \to X_{k+1}$ is entirely by $(k+1)$-cells, 
+Finally, a topological (relative) cell complex of countable hight is called a **CW-complex** is the $(k+1)$-st cell attachment $X_k \to X_{k+1}$ is entirely by $(k+1)$-cells, hence exhibited specifically by a pushout of the following form:
 
 $$
   \array{
