@@ -218,7 +218,7 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[monoid]], [[monoid object]]
 
-* [[nonunital ring]]
+* [[nonunital ring]], [[nonassociative ring]]
 
 * [[group]], [[group object]]
 
