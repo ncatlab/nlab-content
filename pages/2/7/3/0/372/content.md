@@ -26,6 +26,8 @@ An initial object may also be called _coterminal_, _universal initial_, _co-univ
 Initial objects are the [[duality|dual]] concept to [[terminal object]]s: an initial object in $C$ is the same as a terminal object in $C^{op}$.  An object that is both initial and terminal is called a [[zero object]].
 
 
+Hence the initial object may also be viewed as the [[colimit]] over the [[empty diagram]].
+
 ## Examples
 
 * An initial object in a [[partial order|poset]] is a [[bottom element]].
