@@ -62,7 +62,9 @@ The two definitions are provably equivalent, but only using the [[contraction ru
 
 * [[empty set]]
 
-* [[nothing]]
+* [[nothing]], 
+
+* [[empty space]], [[empty category]], [[empty diagram]]
 
 * [[sum type]]
 * [[unit type]]
