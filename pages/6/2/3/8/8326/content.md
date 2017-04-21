@@ -7354,6 +7354,8 @@ where it says on page 129:
 >_Types are general concepts_: This statement represents the main conceptual
 basis of the whole idea of using CTT [constructive type theory] as a language to formalize knowledge processes.
 
+as well as
+
 * {#Asher11} [[Nicholas Asher]], _A Web of Words, Lexical Meaning in Context_, Cambridge University Press (2011) ([pdf](http://www.phil.pku.edu.cn/cllct/ann_attachments/asher_webofwords.pdf)) 
 
 where it says on pages 37/38:
