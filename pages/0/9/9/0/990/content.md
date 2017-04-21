@@ -31,6 +31,8 @@ The [[octonions]] are a (slightly) non-associative real [[normed division algebr
 
 ## Related concepts
 
+* [[nonassociative ring]]
+
 * [[noncommutative algebra]], [[nonunital algebra]]
 
 ## References
