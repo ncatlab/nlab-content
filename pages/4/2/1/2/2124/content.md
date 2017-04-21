@@ -251,6 +251,10 @@ Specifically for $1/2^n$-BPS states of intersecting [[M-branes]] in 11d there is
 
 * {#Tseytlin96} [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl.Phys.B475:149-163,1996 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035)) also in [[Chris Hull]] (ed.) chapter 5 of _[[The World in Eleven Dimensions]]_
 
+see also 
+
+* [[Igor Bandos]], [[Jose de Azcarraga]], Jose Izquierdo, Jerzy Lukierski, _BPS states in M-theory and twistorial constituents_, Phys.Rev.Lett.86:4451-4454,2001 ([arXiv:hep-th/0101113](https://arxiv.org/abs/hep-th/0101113))
+
 Discussion in the context of multiple [[M2-branes]] in the  [[BLG model]] is in
 
 * {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], Sunil Mukhi, Constantinos Papageorgakis, section 1.6 of _Multiple Membranes in M-theory_ ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546))
