@@ -38,7 +38,7 @@ For application to [[stable homotopy theory]] see at  _[[Introduction to Stable 
 $\,$
 
 
-While the field of [[algebraic topology]] clearly originates in [[topology]], it is not actually interested in [[topological spaces]] regarded up to topological [[isomorphism]], namely [[homeomorphism]] ("point-set topology"), but only in topological spaces regarded up to [[weak homotopy equivalence]] -- hence it is interested only in the "weak [[homotopy types]]" of topological spaces. This is so notably because [[ordinary cohomology]] [[cohomology group|groups]] are [[invariants]] of the (weak) [[homotopy type]] of topological spaces but do not detect their [[homeomorphism]] class.
+While the field of [[algebraic topology]] clearly originates in [[topology]], it is not actually interested in [[topological spaces]] regarded up to topological [[isomorphism]], namely [[homeomorphism]] ("[[point-set topology]]"), but only in topological spaces regarded up to [[weak homotopy equivalence]] -- hence it is interested only in the "weak [[homotopy types]]" of topological spaces. This is so notably because [[ordinary cohomology]] [[cohomology group|groups]] are [[invariants]] of the (weak) [[homotopy type]] of topological spaces but do not detect their [[homeomorphism]] class.
 
 The [[category]] of topological spaces obtained by [[localization of a category|forcing]] [[weak homotopy equivalences]] to become [[isomorphisms]] is the "[[classical homotopy category]]" [[Ho(Top)]]. This homotopy category however has forgotten a little too much information: homotopy theory really wants the [[weak homotopy equivalences]] not to become plain [[isomorphisms]], but to become actual [[homotopy equivalences]]. The structure that reflects this is called a _[[model category]]_ structure (short for "category of models for [[homotopy types]]"). For classical homotopy theory this is accordingly called the _[[classical model structure on topological spaces]]_. This we review here.
 
@@ -46,7 +46,7 @@ The [[category]] of topological spaces obtained by [[localization of a category|
 ## Topological homotopy theory
  {#BackgroundOnTopologicalHomotopyTheoryFromAlgebraicTopology}
 
-This section recalls relevant concepts from actual [[topology]] ("point-set topology") and highlights facts that motivate the axiomatics of [[model categories]] [below](#ModelCategoryTheory). We prove two technical lemmas (lemma \ref{CompactSubsetsAreSmallInCellComplexes} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}) that serve to establish the abstract homotopy theory of topological spaces [further below](#TheClassicalModelStructureOfTopologicalSpaces).
+This section recalls relevant concepts from actual [[topology]] ("[[point-set topology]]") and highlights facts that motivate the axiomatics of [[model categories]] [below](#ModelCategoryTheory). We prove two technical lemmas (lemma \ref{CompactSubsetsAreSmallInCellComplexes} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}) that serve to establish the abstract homotopy theory of topological spaces [further below](#TheClassicalModelStructureOfTopologicalSpaces).
 
 **Literature** ([Hirschhorn 15](#Hirschhorn15))
 
@@ -1141,7 +1141,7 @@ In many applications, however,  all that matters is that there is _some_ (relati
 
 =--
 
-The following lemma \ref{CompactSubsetsAreSmallInCellComplexes}, together with lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} below are the only two statements of the entire development here that involve the [[concrete particular]] nature of [[topological spaces]] ("point-set topology"), everything beyond that is [[general abstract]] homotopy theory.
+The following lemma \ref{CompactSubsetsAreSmallInCellComplexes}, together with lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} below are the only two statements of the entire development here that involve the [[concrete particular]] nature of [[topological spaces]] ("[[point-set topology]]"), everything beyond that is [[general abstract]] homotopy theory.
 
 +-- {: .num_lemma #CompactSubsetsAreSmallInCellComplexes}
 ###### Lemma
@@ -1782,7 +1782,7 @@ The commutativity of the outer square says that $f_\ast \alpha'$ is constant, he
 =--
 
 
-The following lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}, together with lemma \ref{CompactSubsetsAreSmallInCellComplexes} above, are the only two statements of the entire development here that crucially involve the [[concrete particular]] nature of [[topological spaces]] ("point-set topology"), everything beyond that is [[general abstract]] homotopy theory.
+The following lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}, together with lemma \ref{CompactSubsetsAreSmallInCellComplexes} above, are the only two statements of the entire development here that crucially involve the [[concrete particular]] nature of [[topological spaces]] ("[[point-set topology]]"), everything beyond that is [[general abstract]] homotopy theory.
 
 +-- {: .num_lemma #AcyclicSerreFibrationsAreTheJTopFibrations}
 ###### Lemma
@@ -5948,7 +5948,7 @@ The sets $I_{Top^{\ast/}}$ and $J_{Top^{\ast/}}$ in def. \ref{GeneratingCofibrat
 +-- {: .proof}
 ###### Proof
 
-Due to the fact that in $J_{Top^{\ast/}}$ a basepoint is freely adjoined, lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} goes through verbatim for the pointed case, with $J_{Top}$ replaced by $J_{Top^{\ast/}}$, as do the other two lemmas above that depend on point-set topology, lemma \ref{CompactSubsetsAreSmallInCellComplexes} and lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences}. With this, the rest of the proof follows by the same general abstract reasoning as [above](#TheClassicalModelStructureOfTopologicalSpaces) in the proof of theorem \ref{TopQuillenModelStructure}.
+Due to the fact that in $J_{Top^{\ast/}}$ a basepoint is freely adjoined, lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} goes through verbatim for the pointed case, with $J_{Top}$ replaced by $J_{Top^{\ast/}}$, as do the other two lemmas above that depend on [[point-set topology]], lemma \ref{CompactSubsetsAreSmallInCellComplexes} and lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences}. With this, the rest of the proof follows by the same general abstract reasoning as [above](#TheClassicalModelStructureOfTopologicalSpaces) in the proof of theorem \ref{TopQuillenModelStructure}.
 
 =--
 
@@ -6409,7 +6409,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By example \ref{CWComplexIsCompactlyGenerated}, the sets $I_{Top}$ and $J_{Top}$ are indeed in $Mor(Top_{cg})$. By example \ref{ProductOfCWWithLocallyCompactCWIsCompactlyGenerated} all arguments above about left homotopies between maps out of these basic cells go through verbatim in $Top_{cg}$. Hence the three technical lemmas above depending on actual point-set topology,  topology, lemma \ref{CompactSubsetsAreSmallInCellComplexes}, lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}, go through verbatim as before. Accordingly, since the remainder of the proof of theorem \ref{TopQuillenModelStructure} of $Top_{Quillen}$ follows by general abstract arguments from these, it also still goes through verbatim for $(Top_{cg})_{Quillen}$ (repeatedly use the [[small object argument]] and the [[retract argument]] to establish the two weak factorization systems).
+By example \ref{CWComplexIsCompactlyGenerated}, the sets $I_{Top}$ and $J_{Top}$ are indeed in $Mor(Top_{cg})$. By example \ref{ProductOfCWWithLocallyCompactCWIsCompactlyGenerated} all arguments above about left homotopies between maps out of these basic cells go through verbatim in $Top_{cg}$. Hence the three technical lemmas above depending on actual [[point-set topology]],  topology, lemma \ref{CompactSubsetsAreSmallInCellComplexes}, lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}, go through verbatim as before. Accordingly, since the remainder of the proof of theorem \ref{TopQuillenModelStructure} of $Top_{Quillen}$ follows by general abstract arguments from these, it also still goes through verbatim for $(Top_{cg})_{Quillen}$ (repeatedly use the [[small object argument]] and the [[retract argument]] to establish the two weak factorization systems).
 
 Hence the (acyclic) cofibrations in $(Top_{cg})_{Quillen}$ are identified with those in $Top_{Quillen}$, and so the inclusion is a part of a [[Quillen adjunction]] (def. \ref{QuillenAdjunction}). To see that this is a [[Quillen equivalence]] (def. \ref{QuillenEquivalence}), it is sufficient to check that for $X$ a compactly generated space then a continuous function $f \colon X \longrightarrow Y$ is a [[weak homotopy equivalence]] (def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}) precisely if the [[adjunct]] $\tilde f \colon X \to k(Y)$ is a weak homotopy equivalence. But, by lemma \ref{ContinuousFunctionsOutOfCompactlyGeneratedFactorThroughCompactlyGeneratedClosureOfCodomain}, $\tilde f$ is the same function as $f$, just considered with different codomain. Hence the result follows with prop. \ref{kificationComparisonIsWeakHomotopyEquivalence}.
 
