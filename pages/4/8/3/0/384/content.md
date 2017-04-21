@@ -20,15 +20,16 @@
 
 ## Idea
 
-A **CW-complex** is a [[nice topological space]] which is or can be built up inductively, by a process of attaching [[n-disks]] $D^n$ along their [[boundary]] [[n-spheres|(n-1)-spheres]] $S^{n-1}$ for all $n \in \mathbb{N}$: a [[cell complex]] built from the basic topological cells $S^{n-1} \hookrightarrow D^n$. 
+A **CW-complex** is a [[nice topological space|nice]] [[topological space]] which is, or can be, built up inductively, by a process of attaching [[n-disks]] $D^n$ along their [[boundary]] [[n-spheres|(n-1)-spheres]] $S^{n-1}$ for all $n \in \mathbb{N}$: a [[cell complex]] built from the basic topological cells $S^{n-1} \hookrightarrow D^n$. 
 
 Being, therefore,  essentially combinatorial objects, CW complexes are the principal objects of interest in [[algebraic topology]]; in fact, most spaces of interest to algebraic topologists are [[homotopy equivalence|homotopy equivalent]] to CW-complexes. Notably the [[geometric realization]] of every [[simplicial set]], hence also of every [[groupoid]], [[2-groupoid]], etc., is a CW complex. 
 
 Also, CW complexes are the [[cofibrant objects]] in the [[classical model structure on topological spaces]]. 
 This means in particular that _every_  topological space is _[[weak homotopy equivalence|weakly homotopy equivalent]]_ to a CW-complex (but need not be [[homotopy equivalence|strongly homotopy equivalent]] to one). See also at _[[CW-approximation]]_.  Since every topological space is a [[fibrant object]] in this [[model category]] structure, this means that the [[full subcategory]] of [[Top]] on the CW-complexes is a category of "homotopically very good representatives" of [[homotopy types]]. See at _[[homotopy theory]]_ and _[[homotopy hypothesis]]_ for more on this.
 
-## Terminology
- {#Terminology}
++-- {: .num_remark}
+###### Remark
+**(origin of the "CW" terminology)**
 
 The terminology "CW-complex" goes back to [[John Henry Constantine Whitehead]] (see [Hatcher, "Topology of cell complexes", p. 520](#HatcherTopologyOfCellComplexes)). It stands for the following two properties shared by any CW complex:
 
@@ -39,8 +40,76 @@ The terminology "CW-complex" goes back to [[John Henry Constantine Whitehead]] (
 
 (Whitehead called the [[interior]] of the [[n-disks]] the "cells", so that their closure of each cell is the corresponding $n$-disk.)
 
+=--
 
 ## Definition
+
+> Will merge the following two in a moment:
+
+### One 
+
+In the following let [[Top]] be the [[category]] of [[topological spaces]], or any of its variants, [[convenient category of topological spaces]].
+
+For $n \in \mathbb{N}$ write
+
+* $D^n \in Top$ for the [[n-disk]], for instance realized as the [[closed ball|closed unit ball]] in the $n$-dimensional [[Euclidean space]] $\mathbb{R}^n$ and equipped with the induced [[subspace topology]];
+
+* $S^{n-1} \in Top$ for the [[n-sphere|(n-1)-sphere]], for instance realized as the [[boundary]] of the [[n-disk]];
+
+* $i_n \;\colon\; S^{n-1} \hookrightarrow D^n$ for the [[continuous function]] that exhibits this [[boundary]] inclusion. 
+
+  We also call these functions the _generating cofibrations_ of the [[classical model structure on topological spaces]].
+
+For $X$ any [[topological space]] and for $n \in \mathbb{N}$, then an **$n$-cell attachment** to $X$ is the [[pushout]] ("attaching space") of a generating cofibration
+
+$$
+  \array{
+    S^{n-1} &\stackrel{\phi}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow &(po)& \downarrow
+    \\
+    D^n &\longrightarrow& X \underset{S^{n-1}}{\sqcup} D^n & = X \cup_\phi D^n
+  }
+$$
+
+along some [[continuous function]] $\phi$.
+
+A continuous function $f \colon X \longrightarrow Y$ is called a **topological [[relative cell complex]]** if it is exhibited by a (possibly infinite) sequence of cell attachments to $X$, in that it is a [[transfinite composition]] (def. \ref{TransfiniteComposition}) of [[pushouts]] (example \ref{PushoutInTop})
+
+$$
+  \array{
+    \underset{i}{\coprod} S^{n_i - 1} &\longrightarrow& X_{k}
+    \\
+    {}^{\mathllap{\underset{i}{\coprod}\iota_{n_i}}}\downarrow
+     &(po)&
+    \downarrow
+    \\
+    \underset{i}{\coprod} D^{n_i} &\longrightarrow& X_{k+1}
+  }
+$$
+
+of [[coproducts]] (example \ref{DisjointUnionOfTopologicalSpacesIsCoproduct}) of [[generating cofibrations]] (def. \ref{TopologicalGeneratingCofibrations}).
+
+A topological space $X$ is a **[[cell complex]]** if $\emptyset \longrightarrow X$ is a relative cell complex.
+
+A relative cell complex is called a **finite relative cell complex** if it is obtained from a [[finite number]] of cell attachments.
+
+A (relative) cell complex is called a (relative) **CW-complex** if the above transfinite composition is countable
+
+$$
+  \array{
+    X = X_0 &\longrightarrow& X_1 &\longrightarrow& X_2 &\longrightarrow& \cdots
+    \\
+    & {}_{\mathllap{f}}\searrow & \downarrow & \swarrow && \cdots
+    \\
+    && Y = \underset{\longrightarrow}{\lim} X_\bullet
+  }
+$$
+
+and if $X_k$ is obtained from $X_{k-1}$ by attaching cells precisely only of [[dimension]] $k$.
+
+
+### Two
 
 A CW-complex is a topological space $X$ equipped with a sequence of spaces and continuous maps
 
