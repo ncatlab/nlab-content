@@ -59,15 +59,17 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 ## Examples
 
+* [[empty space]], [[point space]]
+
 * [[discrete space]], [[codiscrete space]]
 
 * [[Euclidean space]]
 
-  * [[point]], [[real line]], [[plane]]
+  * [[real line]], [[plane]]
 
-* [[sphere]], [[ball]], [[annulus]]
+* [[sphere]], [[ball]], 
 
-* [[circle]], [[torus]]
+* [[circle]], [[torus]], [[annulus]]
 
 * [[polytope]], [[polyhedron]]
 
@@ -75,9 +77,11 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[Cantor space]], [[Sierpinski space]]
 
-* [[long line]], [[Warsaw circle]]
+* [[long line]], [[line with two origins]]
 
-* [[line with two origins]]
+* [[Warsaw circle]]
+
+
 
 ## Basic statements
 
