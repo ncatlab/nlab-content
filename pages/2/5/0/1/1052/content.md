@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _cocone_ under a [[commuting diagram]] is an [[object]] equipped with [[morphism]]s from each vertex of the diagram into it, such that all new diagrams arising this way commute.
+A _cocone_ under a [[diagram]] is an [[object]] equipped with [[morphism]]s from each vertex of the diagram into it, such that all new diagrams arising this way commute.
 
 A cocone which is [[universal property|universal]] is a [[colimit]].
 
