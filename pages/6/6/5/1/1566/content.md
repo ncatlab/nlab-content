@@ -33,6 +33,8 @@ Commutative monoids with [[homomorphisms]] between them form a _[[category of co
 
 ## Related concepts
 
+* [[commutative magma]]
+
 * [[CMon]]
 
 * [[group completion]]
