@@ -59,6 +59,9 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 
 * [[Lie integration]], which constructs a [[simply connected space|simply connected]] [[Lie group]] from a finite-dimensional real [[Lie algebra]]. The coreflector is Lie differentiation (taking a Lie group to its associated Lie algebra), and the [[counit]] is the natural map to a given Lie group $G$ from the universal [[covering space]] of the [[connected space|connected component]] at the identity of $G$. 
 
+* In a [[recollement]] situation, we have several reflectors and coreflectors. We have a reflective and coreflective subcategory $i_*: A' \hookrightarrow A$ with reflector $i^*$ and coreflector $i^!$. The functor $j^*$ is both a reflector for the reflective subcategory $j_*: A'' \hookrightarrow A$, and a coreflector for the coreflective subcategory $j_!: A'' \hookrightarrow A$.
+
+
 ## References
 
 * [[Jiri Adamek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series 189
