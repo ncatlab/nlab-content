@@ -74,7 +74,7 @@ $$
 
 (meaning that this [[subgroup]] is the [[stabilizer subgroup]] of the embedding). 
 
-Now consider instead [[super Minkowski spacetime]] $\mathbb{R}^{10,1\vert \mathbf{32}}$ (with $\mathbf{32}$ the irreducible [[Majorana spinor]] representation in 11), hence the local model [[superspace]] for [[super spacetimes]] in [[11-dimensional supergravity]]. We are to ask what subspace of the [[spin representation]] $\mathbf{32}$ preserves the embedding in that the [spinor bilinear pairing](Majorana+spinor#TheSpinorPairingToVectors) $\overline{\psi}_1 \Gamma \psi_2$ on that subspace lands in $\mathbb{R}^{2,1} \hookrightarrow Iso(2,1) \hookrightarrow Iso(10,1)$. This is found to be the case precisely for a half-dimensional subspace, and hence we may lift the above to a super-embedding of the form
+Now consider instead [[super Minkowski spacetime]] $\mathbb{R}^{10,1\vert \mathbf{32}}$ (with $\mathbf{32}$ the irreducible [[Majorana spinor]] representation in 11), hence the local model [[superspace]] for [[super spacetimes]] in [[11-dimensional supergravity]]. We are to ask what subspace of the [[spin representation]] $\mathbf{32}$ preserves the embedding in that the [spinor bilinear pairing](Majorana+spinor#TheSpinorPairingToVectors) $\overline{\psi}_1 \Gamma \psi_2$ on that subspace lands in $\mathbb{R}^{2,1} \hookrightarrow Iso(2,1) \hookrightarrow Iso(10,1)$ ([Sorokin 99, sectin 5.1](#Sorokin99)). This is found to be the case for a half-dimensional subspace, and hence we may lift the above to a super-embedding of the form
 
 
 $$
