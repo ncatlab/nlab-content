@@ -22,7 +22,7 @@
 
 To every nonsingular [[algebraic curve]] $C$ (over the [[complex numbers]]) of [[genus of a surface|genus]] $g$ one associates the Jacobian variety or simply Jacobian $J(C)$ either via [[differential 1-forms]] or equivalently via [[line bundles]]:
 
-the Jacobian is the the [[moduli space]] of [[degree of a coherent sheaf|degree]]-$0$ [[line bundles]] over $C$, i.e. the connected component 
+the Jacobian is the [[moduli space]] of [[degree of a coherent sheaf|degree]]-$0$ [[line bundles]] over $C$, i.e. the connected component 
 
 $$
   Jac(X) = Pic_0(X)
