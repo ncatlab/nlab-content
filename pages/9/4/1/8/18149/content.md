@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _nonassociative ring_ is like a [[ring]], but without the requirement that the product operation be an [[associative operation]]. 
+
+## Examples
+
+Examples include [[nonassociative algebras]].
+
+## Related concepts
+
+* [[nonunital ring]]
+
+* [[noncommutative ring]]
+
+[[!redirects nonassociative rings]]
+
+[[!redirects non-associative ring]]
+[[!redirects non-associative rings]]
