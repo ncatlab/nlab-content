@@ -62,7 +62,7 @@ This says that a poset is a [[(0,1)-category]] or equivalently a [[thin category
 
 Equivalently, we may define a poset to be a [[skeletal category|skeletal]] [[thin category|thin]] category, or equivalently a skeletal [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]].
 
-When we do this, we are soon led to contemplate a slight generalization of partial orders: namely [[preorder|preorders]].  The reason is that the antisymmetry law, saying that $x \le y$ and $y \le x$ imply $x = y$, is [[evil]] in a certain sense.  (On the other hand, it is not evil if taken as a *definition* of [[equality]].)
+When we do this, we are soon led to contemplate a slight generalization of partial orders: namely [[preorder|preorders]].  The reason is that the antisymmetry law, saying that $x \le y$ and $y \le x$ imply $x = y$, violates the [[principle of equivalence]] in a certain sense.  (On the other hand, it does not violate it if taken as a *definition* of [[equality]].)
 
 
 ### Monotone functions 
