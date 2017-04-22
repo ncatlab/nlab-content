@@ -33,3 +33,6 @@ Discussion in [[cohesive homotopy type theory]] is in
 * [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_ ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584))
 
 [[!redirects Brouwer fixed point theorem]]
+
+[[!redirects Brouwer fixed-point theorem]]
+[[!redirects Brouwer's fixed-point theorem]]
