@@ -1,4 +1,13 @@
 
+
+***
+
+This entry discusses the general notion of _[[derived functor]]_ specified to the special context of [[homological algebra]], hence to functors between [[categories of chain complexes]].
+
+In the literature this is often understood to be the default case of derived functors. For more discussion of how the following relates to the more general concepts of derived functors see at _[derived functor -- In homological algebra](derived+functor#InHomologicalAlgebra)_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -9,12 +18,6 @@
 =--
 =--
 
-
-This entry discusses the general notion of _[[derived functor]]_ specified to the special context of [[homological algebra]], hence to functors between [[categories of chain complexes]].
-
-In the literature this is often understood to be the default case of derived functors. For more discussion of how the following relates to the more general concepts of derived functors see at _[derived functor -- In homological algebra](derived+functor#InHomologicalAlgebra)_.
-
-***
 
 #Contents#
 * table of contents
