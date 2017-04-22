@@ -5,60 +5,67 @@
 
 $\,$
 
-$\,$
+This page collects introductory seminar notes to the concepts of [[generalized (Eilenberg-Steenrod) cohomology theory]], basics of [[cobordism theory]] and [[complex oriented cohomology]].
 
-
-+-- {: .standout}
-
-[S4D2 -- Graduate Seminar on Topology](https://basis.uni-bonn.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=107560&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
-
-$\;\;\;\;\;\;\;\;\;\;\;$ **Complex oriented cohomology**
-
-$\;\;\;\;\;\;\;\;\;\;\;$ Dr. [[Urs Schreiber]]
-
-$\;\;\;\;\;\;\;\;\;\;\;$ 
-
-=---
 
 $\,$
 
-**Abstract.** _The [[category]] of those [[generalized cohomology theories]] that are equipped with a universal "[[complex oriented cohomology theory|complex]] [[orientation in generalized cohomology|orientation]]" happens to unify within it the abstract structure theory of [[stable homotopy theory]] with the concrete richness of the [[differential topology]] of [[cobordism theory]] and of the [[arithmetic geometry]] of [[formal group laws]], such as [[elliptic curves]]. In the seminar we work through classical results in [[algebraic topology]], organized such as to give in the end a first glimpse of the modern picture of [[chromatic homotopy theory]]._
+_The [[category]] of those [[generalized cohomology theories]] that are equipped with a universal "[[complex oriented cohomology theory|complex]] [[orientation in generalized cohomology|orientation]]" happens to unify within it the abstract structure theory of [[stable homotopy theory]] with the concrete richness of the [[differential topology]] of [[cobordism theory]] and of the [[arithmetic geometry]] of [[formal group laws]], such as [[elliptic curves]]. In the seminar we work through classical results in [[algebraic topology]], organized such as to give in the end a first glimpse of the modern picture of [[chromatic homotopy theory]]._
 
 
+
+$\,$
+
+For background on [[stable homotopy theory]] see _[[Introduction to Stable homotopy theory]]_.
+
+For application to/of the [[Adams spectral sequence]] see _[[Introduction to the Adams Spectral Sequence]]_
 
 $\,$
 
 ***
 
-Accompanying notes.
+$\,$
 
-Main page: _[[Introduction to Stable homotopy theory]]_.
 
-***
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
 
 #Contents#
 * table of contents
 {:toc}
 
-## Seminar) Complex oriented cohomology
 
+$\,$
 
 **Outline.** We start with two classical topics of [[algebraic topology]] that first run independently in parallel:
 
-* [S.1) Generalized cohomology](#S1GeneralizedCohomology)
+* [1) Generalized cohomology](#S1GeneralizedCohomology)
 
-* [S.2) Cobordism theory](#S2CobordismTheory)
+* [2) Cobordism theory](#S2CobordismTheory)
 
 The development of either of these happens to give rise to the concept of _[[spectra]]_ and via this concept it turns out that both topics are intimately related. The unification of both is our third topic
 
-* [S.3) Complex oriented cohomology](#ComplexOrientedCohomologyTheory)
+* [3) Complex oriented cohomology](#ComplexOrientedCohomologyTheory)
 
 $\,$
 
 **Literature.** ([Kochman 96](#Kochman96)).
 
 
-### **S.1)** Generalized cohomology
+##  Generalized cohomology
  {#S1GeneralizedCohomology}
 
 **Idea.** The concept that makes [[algebraic topology]] be about methods of [[homological algebra]] applied to [[topology]] is that of [[generalized homology]] and [[generalized cohomology]]: these are [[covariant functors]] or [[contravariant functors]], respectively,
@@ -69,10 +76,11 @@ $$
 
 from (sufficiently nice) [[topological spaces]] to $\mathbb{Z}$-[[graded abelian groups]], such that a few key properties of the [[homotopy types]] of topological spaces is preserved as one passes them from [[Ho(Top)]] to the much more tractable [[abelian category]] [[Ab]].
 
-**Literature.** ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02), [Kochman 96, 3.4, 4.2](#Kochman96), [Schwede 12, II.6](#Schwede12)) 
+**Literature.** ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02), [Kochman 96, 3.4, 4.2](#Kochman96), [Schwede 12, II.6](#Schwede12))
 
 
-#### Generalized cohomology functors
+
+### Generalized cohomology functors
  {#GeneralizedHomologyAndCohomologyFunctors}
 
 **Idea.** A [[generalized (Eilenberg-Steenrod) cohomology]] theory is such a contravariant functor which satisfies the key properties exhibited by [[ordinary cohomology]] (as computed for instance by [[singular cohomology]]), notably [[homotopy invariance]] and [[excision]], _except_ that its value on the point is not required to be concentrated in degree 0. Dually for [[generalized homology]]. There are two versions of the axioms, one for [[reduced cohomology]], and they are equivalent if properly set up.
@@ -84,7 +92,7 @@ An important example of a generalised cohomology theory other than [[ordinary co
 
 $\,$
 
-##### Reduced cohomology
+#### Reduced cohomology
 
 
 The traditional formulation of reduced generalized cohomology in terms of point-set topology is this:
@@ -92,24 +100,24 @@ The traditional formulation of reduced generalized cohomology in terms of point-
 +-- {: .num_defn #ReducedGeneralizedCohomology}
 ###### Definition
 
-A **[[reduced cohomology theory]]** is 
+A **[[reduced cohomology theory]]** is
 
 1. a [[functor]]
 
    $$
-     \tilde E^\bullet 
-      \;\colon\; 
+     \tilde E^\bullet
+      \;\colon\;
      (Top^{\ast/}_{CW})^{op} \longrightarrow Ab^{\mathbb{Z}}
    $$
 
    from the [[opposite category|opposite]] of [[pointed topological spaces]] ([[CW-complexes]]) to $\mathbb{Z}$-[[graded abelian groups]] ("[[cohomology groups]]"), in components
 
    $$
-     \tilde E 
-       \;\colon\; 
+     \tilde E
+       \;\colon\;
      (X \stackrel{f}{\longrightarrow} Y)
        \mapsto
-     (\tilde E^\bullet(Y) 
+     (\tilde E^\bullet(Y)
        \stackrel{f^\ast}{\longrightarrow}
      \tilde E^\bullet(X))
      \,,
@@ -120,14 +128,14 @@ A **[[reduced cohomology theory]]** is
    $$
      \sigma_E
        \;\colon\;
-     \tilde E^\bullet(-) 
-       \overset{\simeq}{\longrightarrow} 
-     \tilde E^{\bullet +1}(\Sigma -) 
+     \tilde E^\bullet(-)
+       \overset{\simeq}{\longrightarrow}
+     \tilde E^{\bullet +1}(\Sigma -)
    $$
 
 such that:
 
-1. **([[homotopy invariance]])** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
+1. **([[homotopy invariance]])** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]]
 
    $$
      f_1^\ast = f_2^\ast
@@ -137,8 +145,8 @@ such that:
 1. {#ReducedExactnessAxiom} **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow Cone(i)$ the induced [[mapping cone]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ConeAndMappingCylinder)), then this gives an [[exact sequence]] of graded abelian groups
 
    $$
-     \tilde E^\bullet(Cone(i)) 
-      \overset{j^\ast}{\longrightarrow} 
+     \tilde E^\bullet(Cone(i))
+      \overset{j^\ast}{\longrightarrow}
      \tilde E^\bullet(X)
        \overset{i^\ast}{\longrightarrow}
      \tilde E^\bullet(A)
@@ -158,8 +166,8 @@ This is equivalent (prop. \ref{HomotopyTheoreticVersionOfCohomologyFunctorDefIsE
 A **reduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]]** is a [[functor]]
 
 $$
-  \tilde E^\bullet 
-   \;\colon\; 
+  \tilde E^\bullet
+   \;\colon\;
   Ho(Top^{\ast/})^{op} \longrightarrow Ab^{\mathbb{Z}}
 $$
 
@@ -168,9 +176,9 @@ from the [[opposite category|opposite]] of the pointed [[classical homotopy cate
 $$
   \sigma
     \;\colon\;
-  \tilde E^{\bullet +1}(\Sigma -) 
-    \overset{\simeq}{\longrightarrow} 
-  \tilde E^\bullet(-) 
+  \tilde E^{\bullet +1}(\Sigma -)
+    \overset{\simeq}{\longrightarrow}
+  \tilde E^\bullet(-)
 $$
 
 such that:
@@ -188,12 +196,12 @@ As a consequence (prop. \ref{HomotopyTheoreticVersionOfCohomologyFunctorDefIsEqu
 A **reduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]]** is a [[functor]]
 
 $$
-  \tilde E^\bullet 
-   \;\colon\; 
+  \tilde E^\bullet
+   \;\colon\;
   (Top^{\ast/})^{op} \longrightarrow Ab^{\mathbb{Z}}
 $$
 
-from the [[opposite category|opposite]] of the category of [[pointed topological spaces]] to $\mathbb{Z}$-[[graded abelian groups]], such that 
+from the [[opposite category|opposite]] of the category of [[pointed topological spaces]] to $\mathbb{Z}$-[[graded abelian groups]], such that
 
 * **(WHE)** it takes [[weak homotopy equivalences]] to isomorphisms
 
@@ -202,9 +210,9 @@ and equipped with [[natural isomorphism]], to be called the **[[suspension isomo
 $$
   \sigma
     \;\colon\;
-  \tilde E^{\bullet +1}(\Sigma -) 
-    \overset{\simeq}{\longrightarrow} 
-  \tilde E^\bullet(-) 
+  \tilde E^{\bullet +1}(\Sigma -)
+    \overset{\simeq}{\longrightarrow}
+  \tilde E^\bullet(-)
 $$
 
 such that
@@ -216,13 +224,13 @@ such that
 +-- {: .num_prop #HomotopyTheoreticVersionOfCohomologyFunctorDefIsEquivalent}
 ###### Proposition
 
-The three definitions 
+The three definitions
 
-* def. \ref{ReducedGeneralizedCohomology}  
+* def. \ref{ReducedGeneralizedCohomology}
 
-* def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically} 
+* def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically}
 
-* def. \ref{ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor} 
+* def. \ref{ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor}
 
 are indeed equivalent.
 
@@ -259,9 +267,9 @@ Prop. \ref{HomotopyTheoreticVersionOfCohomologyFunctorDefIsEquivalent} naturally
 +-- {: .num_defn #GeneralizedCohomologyOnGeneralInfinityCategory}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) with $\mathcal{C}^{\ast/}$ its [[slice model structure|pointed model category]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)). 
+Let $\mathcal{C}$ be a [[model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) with $\mathcal{C}^{\ast/}$ its [[slice model structure|pointed model category]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)).
 
-A **reduced additive [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]] ** on $\mathcal{C}$ is 
+A **reduced additive [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]] ** on $\mathcal{C}$ is
 
 1. a [[functor]]
 
@@ -275,7 +283,7 @@ A **reduced additive [[generalized (Eilenberg-Steenrod) cohomology|generalized c
      \sigma \; \colon \; \tilde E^\bullet \longrightarrow \tilde E^{\bullet+1} \circ \Sigma
    $$
 
-such that 
+such that
 
 * **(exactness)** $\tilde E^\bullet$ takes [[homotopy cofiber sequences]] to [[exact sequences]].
 
@@ -293,7 +301,7 @@ We say $\tilde E^\bullet$ is **additive** if in addition
 * {#WedgeAxiom} **([[wedge axiom]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical morphism
 
   $$
-    \tilde E^\bullet(\vee_{i \in I} X_i) 
+    \tilde E^\bullet(\vee_{i \in I} X_i)
     \longrightarrow
     \prod_{i \in I} \tilde E^\bullet(X_i)
   $$
@@ -320,7 +328,7 @@ $$
     \\
     {}^{\mathllap{\sigma_E}}\downarrow && \downarrow^{\mathrlap{\sigma_F}}
     \\
-    \tilde E^{\bullet + 1}(\Sigma X) 
+    \tilde E^{\bullet + 1}(\Sigma X)
     &\overset{\eta_{\Sigma X}}{\longrightarrow}&
     \tilde F^{\bullet + 1}(\Sigma X)
   }
@@ -346,8 +354,8 @@ $$
 then the corresponding **[[connecting homomorphism]]** is the composite
 
 $$
-  \partial 
-    \;\colon\; 
+  \partial
+    \;\colon\;
   E^\bullet(X)
    \stackrel{\sigma}{\longrightarrow}
   E^{\bullet+1}(\Sigma X)
@@ -366,10 +374,10 @@ The [[connecting homomorphisms]] of def. \ref{ConnectinHomomorphismForCohomology
 $$
   \cdots
    \stackrel{\partial}{\longrightarrow}
-  E^{\bullet}(Z) 
-    \longrightarrow 
-  E^\bullet(Y) 
-    \longrightarrow 
+  E^{\bullet}(Z)
+    \longrightarrow
+  E^\bullet(Y)
+    \longrightarrow
   E^\bullet(X)
     \stackrel{\partial}{\longrightarrow}
   E^{\bullet+1}(Z)
@@ -389,7 +397,8 @@ By the defining exactness of $E^\bullet$, def. \ref{GeneralizedCohomologyOnGener
 
 
 
-##### Unreduced cohomology
+
+#### Unreduced cohomology
 
 Given a reduced [[generalized cohomology theory]] as in def. \ref{ReducedGeneralizedCohomology}, we may "un-reduce" it and evaluate it on unpointed topological spaces $X$ simply by evaluating it on $X_+$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#BasePointAdjoined)). It is conventional to further generalize to [[relative cohomology]] and evaluate on unpointed subspace inclusions $i \colon A \hookrightarrow X$, taken as placeholders for their [[mapping cones]] $Cone(i_+)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#UnreducedMappingConeAsReducedConeOfBasedPointAdjoined)).
 
@@ -398,7 +407,7 @@ In the following a _pair_ $(X,U)$ refers to a [[subspace]] inclusion of [[topolo
 +-- {: .num_defn #GeneralizedCohomologyTheory}
 ###### Definition
 
-A _[[cohomology theory]]_ (unreduced, [[relative cohomology|relative]]) is 
+A _[[cohomology theory]]_ (unreduced, [[relative cohomology|relative]]) is
 
 1. a [[functor]]
 
@@ -406,24 +415,24 @@ A _[[cohomology theory]]_ (unreduced, [[relative cohomology|relative]]) is
      E^\bullet : (Top_{CW}^{\hookrightarrow})^{op} \to Ab^{\mathbb{Z}}
    $$
 
-   to the category of $\mathbb{Z}$-[[graded abelian groups]], 
+   to the category of $\mathbb{Z}$-[[graded abelian groups]],
 
 1. {#ConnectingHomomorphismOfUnreducedCohomology} a [[natural transformation]] of degree +1, to be called the **[[connecting homomorphism]]**, of the form
 
    $$
-     \delta_{(X,A)} 
-       \;\colon\;  
+     \delta_{(X,A)}
+       \;\colon\;
      E^\bullet(A, \emptyset) \to E^{\bullet + 1}(X, A)
      \,.
-   $$ 
+   $$
 
 such that:
 
-1. **(homotopy invariance)** For $f \colon (X_1,A_1) \to (X_2,A_2)$ a [[homotopy equivalence]] of pairs, then 
+1. **(homotopy invariance)** For $f \colon (X_1,A_1) \to (X_2,A_2)$ a [[homotopy equivalence]] of pairs, then
 
    $$
-     E^\bullet(f) 
-      \;\colon\; 
+     E^\bullet(f)
+      \;\colon\;
      E^\bullet(X_2,A_2) \stackrel{\simeq}{\longrightarrow} E^\bullet(X_1,A_1)
    $$
 
@@ -431,35 +440,35 @@ such that:
 
 1. {#ExactnessUnreduced} **(exactness)** For $A \hookrightarrow X$ the induced sequence
 
-   $$ 
-     \cdots 
-       \to 
-     E^n(X, A) 
-       \longrightarrow 
-     E^n(X) 
+   $$
+     \cdots
+       \to
+     E^n(X, A)
        \longrightarrow
-     E^n(A) 
-       \stackrel{\delta}{\longrightarrow} 
-     E^{n+1}(X, A) 
-       \to 
-     \cdots 
+     E^n(X)
+       \longrightarrow
+     E^n(A)
+       \stackrel{\delta}{\longrightarrow}
+     E^{n+1}(X, A)
+       \to
+     \cdots
    $$
 
    is a [[long exact sequence]] of [[abelian groups]].
 
-1. **([[excision]])** For $U \hookrightarrow A \hookrightarrow X$ such that $\overline{U} \subset Int(A)$, then the natural inclusion of the pair $i \colon (X-U, A-U) \hookrightarrow (X, A)$ induces an isomorphism 
+1. **([[excision]])** For $U \hookrightarrow A \hookrightarrow X$ such that $\overline{U} \subset Int(A)$, then the natural inclusion of the pair $i \colon (X-U, A-U) \hookrightarrow (X, A)$ induces an isomorphism
 
    $$
-     E^\bullet(i) 
-      \;\colon\; 
+     E^\bullet(i)
+      \;\colon\;
      E^n(X, A)
       \overset{\simeq}{\longrightarrow}
-     E^n(X-U, A-U)  
+     E^n(X-U, A-U)
    $$
 
 We say $E^\bullet$ is **additive** if it takes [[coproducts]] to [[products]]:
 
-* {#UnreducedAdditivity} **(additivity)** If $(X, A) = \coprod_i (X_i, A_i)$ is a [[coproduct]], then the canonical comparison morphism 
+* {#UnreducedAdditivity} **(additivity)** If $(X, A) = \coprod_i (X_i, A_i)$ is a [[coproduct]], then the canonical comparison morphism
 
   $$
     E^n(X, A) \overset{\simeq}{\longrightarrow} \prod_i E^n(X_i, A_i)
@@ -471,7 +480,7 @@ We say $E^\bullet$ is **ordinary** if its value on the point is concentrated in 
 
 * **(Dimension)**: $E^{\bullet \neq 0}(\ast,\emptyset) = 0$.
 
-A [[homomorphism]] of unreduced cohomology theories 
+A [[homomorphism]] of unreduced cohomology theories
 
 $$
   \eta \;\colon\; E^\bullet \longrightarrow F^\bullet
@@ -485,7 +494,7 @@ $$
      \\
      {}^{\mathllap{\delta_E}}\downarrow && \downarrow^{\mathrlap{\delta_F}}
      \\
-     E^{\bullet +1}(X,A) 
+     E^{\bullet +1}(X,A)
        &\overset{\eta_{(X,A)}}{\longrightarrow}&
      F^{\bullet +1}(X,A)
   }
@@ -494,7 +503,7 @@ $$
 
 =--
 
-e.g. ([AGP 02, def. 12.1.1 ](#AguilarGitlerPrieto02)). 
+e.g. ([AGP 02, def. 12.1.1 ](#AguilarGitlerPrieto02)).
 
 
 +-- {: .num_defn #AlternativeFormulationOfExcisionAxiom}
@@ -505,13 +514,13 @@ The excision axiom in def. \ref{GeneralizedCohomologyTheory} is equivalent to th
 For all $A,B \hookrightarrow X$ with $X = Int(A) \cup Int(B)$, then the inclusion
 
 $$
-  i \colon (A, A \cap B) \longrightarrow (X,B) 
+  i \colon (A, A \cap B) \longrightarrow (X,B)
 $$
 
 induces an isomorphism,
 
 $$
-  i^\ast 
+  i^\ast
     \;\colon\;
   E^\bullet(X, B)
     \overset{\simeq}{\longrightarrow}
@@ -525,12 +534,12 @@ $$
 +-- {: .proof}
 ###### Proof
 
-In one direction, suppose that $E^\bullet$ satisfies the original excision axiom. Given $A,B$ with $X = \Int(A) \cup Int(B)$, set $U \coloneqq X-A$ and observe that 
+In one direction, suppose that $E^\bullet$ satisfies the original excision axiom. Given $A,B$ with $X = \Int(A) \cup Int(B)$, set $U \coloneqq X-A$ and observe that
 
 $$
   \begin{aligned}
-     \overline{U} 
-        & = \overline{X-A} 
+     \overline{U}
+        & = \overline{X-A}
      \\ & = X- Int(A)
      \\ & \subset Int(B)
   \end{aligned}
@@ -543,16 +552,16 @@ $$
   \,.
 $$
 
-Hence the excision axiom implies $  E^\bullet(X, B) \overset{\simeq}{\longrightarrow} E^\bullet(A, A \cap B)$. 
+Hence the excision axiom implies $  E^\bullet(X, B) \overset{\simeq}{\longrightarrow} E^\bullet(A, A \cap B)$.
 
 Conversely, suppose $E^\bullet$ satisfies the alternative condition. Given $U \hookrightarrow A \hookrightarrow X$ with $\overline{U} \subset Int(A)$, observe that we have a cover
 
 $$
   \begin{aligned}
-          Int(X-U) \cup Int(A) 
+          Int(X-U) \cup Int(A)
       & = (X - \overline{U}) \cap \Int(A)
    \\ & \supset (X - Int(A)) \cap Int(A)
-   \\ & = X   
+   \\ & = X
   \end{aligned}
 $$
 
@@ -581,7 +590,7 @@ The following lemma shows that the dependence in pairs of spaces in a generalize
 +-- {: .num_lemma #EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient}
 ###### Lemma
 
-Let $E^\bullet$ be an cohomology theory, def. \ref{GeneralizedCohomologyTheory}, and let $A \hookrightarrow X$. Then there is an isomorphism 
+Let $E^\bullet$ be an cohomology theory, def. \ref{GeneralizedCohomologyTheory}, and let $A \hookrightarrow X$. Then there is an isomorphism
 
 $$
   E^\bullet(X,A)
@@ -595,7 +604,7 @@ If moreover $A \hookrightarrow X$ is (the [[retract]] of) a [[relative cell comp
 
 $$
   E^\bullet(p)
-    \;\colon\; 
+    \;\colon\;
   E^\bullet(X/A,\ast)
     \longrightarrow
   E^\bullet(X,A)
@@ -644,7 +653,7 @@ $$
 +-- {: .num_example #GeneralizedCohomologyOnHomotopyQuotientMaps}
 ###### Example
 
-As an important special case of : Let $(X,x)$ be a [[pointed topological space|pointed]] [[CW-complex]]. For $p\colon (Cone(X), X) \to (\Sigma X,\{x\})$ the quotient map from the reduced cone on $X$ to the [[reduced suspension]], then 
+As an important special case of : Let $(X,x)$ be a [[pointed topological space|pointed]] [[CW-complex]]. For $p\colon (Cone(X), X) \to (\Sigma X,\{x\})$ the quotient map from the reduced cone on $X$ to the [[reduced suspension]], then
 
 $$
   E^\bullet(p)
@@ -652,7 +661,7 @@ $$
   E^\bullet(Cone(X),X)
    \overset{\simeq}{\longrightarrow}
   E^\bullet(\Sigma X, \{x\})
-$$ 
+$$
 
 is an isomorphism.
 
@@ -673,7 +682,7 @@ induces a [[long exact sequence]] of cohomology groups of the form
 $$
   \cdots
    \to
-  E^{q-1}(Y,Z) 
+  E^{q-1}(Y,Z)
     \stackrel{\bar \delta}{\longrightarrow}
   E^q(X,Y)
     \stackrel{}{\longrightarrow}
@@ -684,12 +693,12 @@ $$
   \cdots
 $$
 
-where 
+where
 
 $$
-  \bar \delta 
+  \bar \delta
     \;\colon \;
-  E^{q-1}(Y,Z) 
+  E^{q-1}(Y,Z)
    \longrightarrow
   E^{q-1}(Y)
    \stackrel{\delta}{\longrightarrow}
@@ -761,7 +770,7 @@ Given $E^\bullet$ an unreduced cohomology theory, def. \ref{GeneralizedCohomolog
 
 $$
   \cdots
-  \to 
+  \to
   E^{n-1}(A \cap B , C)
   \overset{\bar \delta}{\longrightarrow}
   E^n(X,C)
@@ -781,7 +790,8 @@ e.g. ([Switzer 75, theorem 7.19](#Switzer75), [Aguilar-Gitler-Prieto 02, theorem
 
 
 
-##### Relation between unreduced and reduced cohomology
+
+#### Relation between unreduced and reduced cohomology
  {#RelationBetweenUnreducedAndReducedCohomology}
 
 +-- {: .num_defn #FromUnreducedToReducedCohomology}
@@ -800,7 +810,7 @@ $$
 This is clearly [[functor|functorial]]. Take the [[suspension isomorphism]] to be the composite
 
 $$
-  \sigma 
+  \sigma
    \;\colon\;
   \tilde E^{\bullet+1}(\Sigma X)
    =
@@ -844,7 +854,7 @@ Unwinding the constructions shows that this makes the following [[commuting diag
 
 $$
   \array{
-     \tilde E^\bullet(X\cup Cone(A)) 
+     \tilde E^\bullet(X\cup Cone(A))
         &\overset{\simeq}{\longrightarrow}&
      E^\bullet(X,A)
      \\
@@ -868,7 +878,7 @@ where the vertical sequence on the right is exact by prop. \ref{ExactSequenceOfA
 ###### Definition
 **(reduced to unreduced cohomology)**
 
-Let $(\tilde E^\bullet, \sigma)$ be a [[reduced cohomology theory]], def. \ref{ReducedGeneralizedCohomology}. Define an unreduced cohomolog theory $E^\bullet$, def. \ref{GeneralizedCohomologyTheory}, by 
+Let $(\tilde E^\bullet, \sigma)$ be a [[reduced cohomology theory]], def. \ref{ReducedGeneralizedCohomology}. Define an unreduced cohomolog theory $E^\bullet$, def. \ref{GeneralizedCohomologyTheory}, by
 
 $$
   E^\bullet(X,A)
@@ -914,9 +924,9 @@ One composite is
 
 $$
   \begin{aligned}
-    E^\bullet 
+    E^\bullet
     & \mapsto
-    (\tilde E^\bullet \colon (X,x) \mapsto E^\bullet(X,\{x\})) 
+    (\tilde E^\bullet \colon (X,x) \mapsto E^\bullet(X,\{x\}))
     \\
     & \mapsto
     ((E')^\bullet \colon (X,A) \mapsto E^\bullet( X_+ \cup Cone(A_+) ), \ast)
@@ -934,13 +944,13 @@ $$
      & \mapsto
     (E^\bullet \colon (X,A) \mapsto \tilde E^\bullet(X_+ \cup Cone(A_+)))
     \\
-    & \mapsto 
+    & \mapsto
     ((\tilde E')^\bullet \colon X \mapsto \tilde E^\bullet(X_+ \cup Cone(*_+)))
   \end{aligned}
 $$
 
 where on the right we have the reduced mapping cone of the point inclusion with a point adoined. As before, this is isomorphic to the unreduced mapping cone of the point inclusion. That finally is clearly homotopy equivalent to $X$, and so now the natural isomorphism follows with homotopy invariance.
- 
+
 =--
 
 Finally we record the following basic relation between reduced and unreduced cohomology:
@@ -965,12 +975,12 @@ The pair $\ast \hookrightarrow X$ induces the sequence
 
 $$
   \cdots
-   \to 
+   \to
   E^{\bullet-1}(\ast)
     \stackrel{\delta}{\longrightarrow}
   \tilde E^\bullet(X)
     \stackrel{}{\longrightarrow}
-  E^\bullet(X) 
+  E^\bullet(X)
     \stackrel{}{\longrightarrow}
   E^\bullet(\ast)
     \stackrel{\delta}{\longrightarrow}
@@ -979,17 +989,17 @@ $$
   \cdots
 $$
 
-which by the exactness clause in def. \ref{GeneralizedCohomologyTheory} is [[exact sequence|exact]]. 
+which by the exactness clause in def. \ref{GeneralizedCohomologyTheory} is [[exact sequence|exact]].
 
-Now since the composite $\ast \to X \to \ast$ is the identity, the morphism 
+Now since the composite $\ast \to X \to \ast$ is the identity, the morphism
 $E^\bullet(X) \to E^\bullet(\ast)$ has a [[section]] and so is in particular an [[epimorphism]]. Therefore, by exactness, the [[connecting homomorphism]] vanishes, $\delta = 0$ and we have a [[short exact sequence]]
 
 $$
-  0 
-    \to 
+  0
+    \to
   \tilde E^\bullet(X)
     \stackrel{}{\longrightarrow}
-  E^\bullet(X) 
+  E^\bullet(X)
     \stackrel{}{\longrightarrow}
   E^\bullet(\ast)
     \to
@@ -1001,7 +1011,10 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 
 =--
 
-##### Generalized homology functors
+
+
+
+#### Generalized homology functors
 
 All of the above has a dual version with [[generalized cohomology]] replaced by [[generalized homology]]. For ease of reference, we record these dual definitions:
 
@@ -1011,8 +1024,8 @@ All of the above has a dual version with [[generalized cohomology]] replaced by 
 A **reduced homology theory** is a [[functor]]
 
 $$
-  \tilde E_\bullet 
-   \;\colon\; 
+  \tilde E_\bullet
+   \;\colon\;
   (Top^{\ast/}_{CW}) \longrightarrow Ab^{\mathbb{Z}}
 $$
 
@@ -1020,10 +1033,10 @@ from the category of [[pointed topological spaces]] ([[CW-complexes]]) to $\math
 
 $$
   \tilde E _\bullet
-    \;\colon\; 
+    \;\colon\;
   (X \stackrel{f}{\longrightarrow} Y)
     \mapsto
-  (\tilde E_\bullet(X) 
+  (\tilde E_\bullet(X)
     \stackrel{f_\ast}{\longrightarrow}
   \tilde E_\bullet(Y))
   \,,
@@ -1034,14 +1047,14 @@ and equipped with a [[natural isomorphism]] of degree +1, to be called the **[[s
 $$
   \sigma
     \;\colon\;
-  \tilde E_\bullet(-) 
-    \overset{\simeq}{\longrightarrow} 
-  \tilde E_{\bullet +1}(\Sigma -) 
+  \tilde E_\bullet(-)
+    \overset{\simeq}{\longrightarrow}
+  \tilde E_{\bullet +1}(\Sigma -)
 $$
 
 such that:
 
-1. **([[homotopy invariance]])** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
+1. **([[homotopy invariance]])** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]]
 
    $$
      f_1_\ast = f_2_\ast
@@ -1052,10 +1065,10 @@ such that:
 
    $$
      \tilde E_\bullet(A)
-      \overset{i_\ast}{\longrightarrow} 
+      \overset{i_\ast}{\longrightarrow}
      \tilde E_\bullet(X)
        \overset{j_\ast}{\longrightarrow}
-     \tilde E_\bullet(Cone(i)) 
+     \tilde E_\bullet(Cone(i))
      \,.
    $$
 
@@ -1066,7 +1079,7 @@ We say $\tilde E_\bullet$ is **additive** if in addition
   $$
     \oplus_{i \in I} \tilde E_\bullet(X_i)
       \longrightarrow
-    \tilde E^\bullet(\vee_{i \in I} X_i) 
+    \tilde E^\bullet(\vee_{i \in I} X_i)
   $$
 
   from the [[direct sum]] of the value on the summands to the value on the [[wedge sum]] ([prop.](Introduction+to+Stable+homotopy+theory -- P#WedgeSumAsCoproduct)), is an [[isomorphism]].
@@ -1089,7 +1102,7 @@ $$
     \\
     {}^{\mathllap{\sigma_E}}\downarrow && \downarrow^{\mathrlap{\sigma_F}}
     \\
-    \tilde E_{\bullet + 1}(\Sigma X) 
+    \tilde E_{\bullet + 1}(\Sigma X)
     &\overset{\eta_{\Sigma X}}{\longrightarrow}&
     \tilde F_{\bullet + 1}(\Sigma X)
   }
@@ -1110,21 +1123,21 @@ $$
 to the category of $\mathbb{Z}$-[[graded abelian groups]], as well as a [[natural transformation]] of degree +1, to be called the **[[connecting homomorphism]]**, of the form
 
 $$
-  \delta_{(X,A)} 
-    \;\colon\;  
+  \delta_{(X,A)}
+    \;\colon\;
   E_{\bullet + 1}(X, A)
     \longrightarrow
-  E^\bullet(A, \emptyset)  
+  E^\bullet(A, \emptyset)
   \,.
-$$ 
+$$
 
 such that:
 
-1. **(homotopy invariance)** For $f \colon (X_1,A_1) \to (X_2,A_2)$ a [[homotopy equivalence]] of pairs, then 
+1. **(homotopy invariance)** For $f \colon (X_1,A_1) \to (X_2,A_2)$ a [[homotopy equivalence]] of pairs, then
 
    $$
-     E_\bullet(f) 
-      \;\colon\; 
+     E_\bullet(f)
+      \;\colon\;
      E_\bullet(X_1,A_1) \stackrel{\simeq}{\longrightarrow} E_\bullet(X_2,A_2)
    $$
 
@@ -1132,35 +1145,35 @@ such that:
 
 1. {#ExactnessUnreduced} **(exactness)** For $A \hookrightarrow X$ the induced sequence
 
-   $$ 
-     \cdots 
-       \to 
-     E_{n+1}(X, A) 
-       \stackrel{\delta}{\longrightarrow} 
-     E_n(A) 
+   $$
+     \cdots
+       \to
+     E_{n+1}(X, A)
+       \stackrel{\delta}{\longrightarrow}
+     E_n(A)
        \longrightarrow
-     E_n(X) 
-       \longrightarrow 
-     E_n(X, A) 
-       \to 
-     \cdots 
+     E_n(X)
+       \longrightarrow
+     E_n(X, A)
+       \to
+     \cdots
    $$
 
    is a [[long exact sequence]] of [[abelian groups]].
 
-1. **([[excision]])** For $U \hookrightarrow A \hookrightarrow X$ such that $\overline{U} \subset Int(A)$, then the natural inclusion of the pair $i \colon (X-U, A-U) \hookrightarrow (X, A)$ induces an isomorphism 
+1. **([[excision]])** For $U \hookrightarrow A \hookrightarrow X$ such that $\overline{U} \subset Int(A)$, then the natural inclusion of the pair $i \colon (X-U, A-U) \hookrightarrow (X, A)$ induces an isomorphism
 
    $$
-     E_\bullet(i) 
-      \;\colon\; 
-     E_n(X-U, A-U)  
+     E_\bullet(i)
+      \;\colon\;
+     E_n(X-U, A-U)
       \overset{\simeq}{\longrightarrow}
      E_n(X, A)
    $$
 
 We say $E^\bullet$ is **additive** if it takes [[coproducts]] to [[direct sums]]:
 
-* **(additivity)** If $(X, A) = \coprod_i (X_i, A_i)$ is a [[coproduct]], then the canonical comparison morphism 
+* **(additivity)** If $(X, A) = \coprod_i (X_i, A_i)$ is a [[coproduct]], then the canonical comparison morphism
 
   $$
     \oplus_i E^n(X_i, A_i) \overset{\simeq}{\longrightarrow} E^n(X, A)
@@ -1172,7 +1185,7 @@ We say $E_\bullet$ is **ordinary** if its value on the point is concentrated in 
 
 * **(Dimension)**: $E_{\bullet \neq 0}(\ast,\emptyset) = 0$.
 
-A [[homomorphism]] of unreduced homology theories 
+A [[homomorphism]] of unreduced homology theories
 
 $$
   \eta \;\colon\; E_\bullet \longrightarrow F_\bullet
@@ -1182,7 +1195,7 @@ is a [[natural transformation]] of the underlying functors that is compatible wi
 
 $$
   \array{
-     E_{\bullet +1}(X,A) 
+     E_{\bullet +1}(X,A)
        &\overset{\eta_{(X,A)}}{\longrightarrow}&
      F_{\bullet +1}(X,A)
      \\
@@ -1195,14 +1208,16 @@ $$
 
 =--
 
-##### Multiplicative cohomology theories
+
+
+#### Multiplicative cohomology theories
 
 The [[generalized cohomology theories]] considered above assign _[[cohomology groups]]_. It is familiar from [[ordinary cohomology]] with [[coefficients]] not just in a group but in a [[ring]], that also the cohomology groups inherit compatible ring structure. The generalization of this phenomenon to generalized cohomology theories is captured by the concept of [[multiplicative cohomology theories]]:
 
 +-- {: .num_defn #PairingOfUnreducedCohomologyTheories}
 ###### Definition
 
-Let $E_1, E_2, E_3$ be three unreduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theories]] ([def.](generalized+cohomology+theory#GeneralizedCohomologyTheory)). A **pairing of cohomology theories** 
+Let $E_1, E_2, E_3$ be three unreduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theories]] ([def.](generalized+cohomology+theory#GeneralizedCohomologyTheory)). A **pairing of cohomology theories**
 
 $$
   \mu \;\colon\; E_1 \Box E_2 \longrightarrow E_3
@@ -1225,7 +1240,7 @@ such that this is compatible with the connecting homomorphisms $\delta_i$ of $E_
 $$
   \array{
     E_1^{n_1}(A)
-      \otimes 
+      \otimes
     E_2^{n_2}(Y,B)
       &\overset{\delta_1 \otimes id_2}{\longrightarrow}&
     E_1^{n_1+1}(X,A) \otimes E_2^{n_2}(Y,B)
@@ -1246,13 +1261,13 @@ and
 $$
   \array{
     E_1^{n_1}(X,A)
-      \otimes 
+      \otimes
     E_2^{n_2}(B)
       &\overset{(-1)^{n_1} id_1 \otimes \delta_2}{\longrightarrow}&
     E_1^{n_1+1}(X,A) \otimes E_2^{n_2}(Y,B)
     \\
-    {}^{\mathllap{\mu_{n_1,n_2}}}\downarrow 
-      && 
+    {}^{\mathllap{\mu_{n_1,n_2}}}\downarrow
+      &&
     \downarrow^{\mathrlap{\mu_{n_1, n_2 + 1}}}
     \\
    \underoverset
@@ -1272,7 +1287,7 @@ where the isomorphisms in the bottom left are the [excision isomorphisms](genera
 +-- {: .num_defn #MultiplicativeCohomologyTheory}
 ###### Definition
 
-An (unreduced) **multiplicative cohomology theory** is an unreduced [[generalized cohomology theory]] theory $E$ (def. \ref{GeneralizedCohomologyTheory}) equipped with 
+An (unreduced) **multiplicative cohomology theory** is an unreduced [[generalized cohomology theory]] theory $E$ (def. \ref{GeneralizedCohomologyTheory}) equipped with
 
 1. (external multiplication) a pairing (def. \ref{PairingOfUnreducedCohomologyTheories}) of the form $\mu \;\colon\; E \Box E  \longrightarrow E$;
 
@@ -1286,12 +1301,12 @@ such that
 
 The mulitplicative cohomology theory is called **commutative** (often considered by default) if in addition
 
-* **(graded commutativity)** 
+* **(graded commutativity)**
 
-  $$  
+  $$
     \array{
       E^{n_1}(X,A) \otimes E^{n_2}(Y,B)
-      &\overset{(u \otimes v) \mapsto (-1)^{n_1 n_2} (v \otimes u) }{\longrightarrow}& 
+      &\overset{(u \otimes v) \mapsto (-1)^{n_1 n_2} (v \otimes u) }{\longrightarrow}&
       E^{n_2}(Y,B) \otimes E^{n_1}_{X,A}
       \\
       {}^{\mathllap{\mu_{n_1,n_2}}}\downarrow && \downarrow^{\mathrlap{\mu_{n_2,n_1}}}
@@ -1367,7 +1382,7 @@ $$
     \\
     {}^{\mathllap{\mu_{n_1,n_2}}}\downarrow && \downarrow^{\mathrlap{\mu_{n_1,n_2}}}
     \\
-    E^{n_1 + n_2}(A)     
+    E^{n_1 + n_2}(A)
       &\overset{\delta}{\longrightarrow}&
      E_3^{n_1 + n_2+ 1}(X,B)
   }
@@ -1378,7 +1393,8 @@ $$
 
 
 
-#### Brown representability theorem
+
+### Brown representability theorem
  {#BrownRepresentabilityTheorem}
 
 
@@ -1391,7 +1407,9 @@ As a first application, [[Eilenberg-MacLane spectra]] representing [[ordinary co
 **Literature.** ([Switzer 75, section 9](#Switzer75), [Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochman 96, 3.4](#Kochman96))
 
 
-##### Traditional discussion
+
+
+#### Traditional discussion
  {#BrownRepresentabilityTraditional}
 
 
@@ -1435,7 +1453,7 @@ Under the relation between reduced and unreduced cohomology [above](#RelationBet
 Every [[Brown functor]] $F$ (def. \ref{BrownFunctorTraditional}) is [[representable functor|representable]], hence there exists $X \in Top_{\geq 1}^{\ast/}$ and a [[natural isomorphism]]
 
 $$
-  [-,X]_{\ast} \overset{\simeq}{\longrightarrow} F(-)  
+  [-,X]_{\ast} \overset{\simeq}{\longrightarrow} F(-)
 $$
 
 (where $[-,-]_\ast$ denotes the [[hom-functor]] of $Ho(Top_{\geq 1}^{\ast/})$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets))).
@@ -1444,10 +1462,10 @@ $$
 
 (e.g. [AGP 02, theorem 12.2.22](#AguilarGitlerPrieto02))
 
-+-- {: .num_remark #ConnectivityInTraditionalBrownRepresentability} 
++-- {: .num_remark #ConnectivityInTraditionalBrownRepresentability}
 ###### Remark
 
-A key subtlety in theorem \ref{BrownRepresentabilityForTraditionalBrownFunctors} is the restriction to _connected_ pointed topological spaces in def. \ref{BrownFunctorTraditional}. This comes about since the proof of the theorem requires that continuous functions $f \colon X \longrightarrow Y$ that induce isomorphisms on pointed homotopy classes 
+A key subtlety in theorem \ref{BrownRepresentabilityForTraditionalBrownFunctors} is the restriction to _connected_ pointed topological spaces in def. \ref{BrownFunctorTraditional}. This comes about since the proof of the theorem requires that continuous functions $f \colon X \longrightarrow Y$ that induce isomorphisms on pointed homotopy classes
 
 $$
   [S^n,X]_\ast \longrightarrow [S^n,Y]_\ast
@@ -1464,9 +1482,9 @@ The representability result applied degreewise to an additive reduced cohomology
 +-- {: .num_defn #OmegaSpectrum}
 ###### Definition
 
-An **[[Omega-spectrum]]** $X$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#OmegaSpectrum)) is 
+An **[[Omega-spectrum]]** $X$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#OmegaSpectrum)) is
 
-1. a sequence $\{X_n\}_{n \in \mathbb{N}}$ of [[pointed topological spaces]] $X_n \in Top^{\ast/}$ 
+1. a sequence $\{X_n\}_{n \in \mathbb{N}}$ of [[pointed topological spaces]] $X_n \in Top^{\ast/}$
 
 1. [[weak homotopy equivalences]]
 
@@ -1491,13 +1509,13 @@ Every [additive](#WedgeAxiom) [[reduced cohomology theory]] $\tilde E^\bullet(-)
 
    $$
      \array{
-       \tilde E^{n}(X) 
-         &\overset{\sigma_n(X)}{\longrightarrow}& 
+       \tilde E^{n}(X)
+         &\overset{\sigma_n(X)}{\longrightarrow}&
          &\longrightarrow&
-       \tilde E^{n+1}(\Sigma X) 
+       \tilde E^{n+1}(\Sigma X)
        \\
-       {}^{\mathllap{\simeq}}\downarrow 
-         && && 
+       {}^{\mathllap{\simeq}}\downarrow
+         && &&
        \downarrow^{\mathrlap{\simeq}}
        \\
        [X,E_n]_\ast
@@ -1541,7 +1559,7 @@ $$
 $$
 
 where $E_{n+1}$ is any pointed topological space with the given connected component $E_{n+1}^{(0)}$.
- 
+
 Now the [suspension isomorphism](#SuspensionIsomorphismForReducedGeneralizedCohomology) of $\tilde E$ says that $E_n \in Ho(Top^{\ast/})$ representing $\tilde E^n$ exists and is given by $\Omega E_{n+1}^{(0)}$:
 
 $$
@@ -1589,7 +1607,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The [additivity](#WedgeAxiom) is immediate from the construction. 
+The [additivity](#WedgeAxiom) is immediate from the construction.
 The [exactnes](#ReducedExactnessAxiom) follows from the [[long exact sequences]] of [[homotopy cofiber sequences]] given by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence).
 
 =--
@@ -1622,7 +1640,8 @@ See also in  _[[Introduction to Stable homotopy theory -- 1|part 1]]_ [this exam
 =--
 
 
-##### Application to ordinary cohomology
+
+#### Application to ordinary cohomology
  {#BrownRepresentabilityAppliedToOrdinaryCohomology}
 
 +-- {: .num_example #EilenbergMacLaneSpectrum}
@@ -1642,7 +1661,7 @@ $$
   \right.
 $$
 
-Hence singular cohomology is a [generalized cohomology theory](#S1GeneralizedCohomology) which is "[[ordinary cohomology]]" in the sense of def. \ref{AdditiveOrdinary}. 
+Hence singular cohomology is a [generalized cohomology theory](#S1GeneralizedCohomology) which is "[[ordinary cohomology]]" in the sense of def. \ref{AdditiveOrdinary}.
 
 Applying the [[Brown representability theorem]] as in prop. \ref{AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum} hence produces an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}) whose $n$th component space is characterized as having [[homotopy groups]] concentrated in degree $n$ on $A$. These are called _[[Eilenberg-MacLane spaces]]_  $K(A,n)$
 
@@ -1693,9 +1712,11 @@ $$
 (e.g. [Aguilar-Gitler-Prieto 02, theorem 12.3.6](#AguilarGitlerPrieto02))
 
 
-##### Homotopy-theoretic discussion
 
-Using abstract [[homotopy theory]] in the guise of [[model category]] theory (see the _[[Introduction to Stable homotopy theory -- P|lecture notes on classical homotopy theory]]), the traditional proof and further discussion of the [[Brown representability theorem]] [above](#BrownRepresentabilityTraditional) becomes more transparent ([Lurie 10, section 1.4.1](#LurieHigherAlgebra), for exposition see also [Mathew 11](Brown+representability+theorem#Mathew11)). 
+
+#### Homotopy-theoretic discussion
+
+Using abstract [[homotopy theory]] in the guise of [[model category]] theory (see the _[[Introduction to Stable homotopy theory -- P|lecture notes on classical homotopy theory]]), the traditional proof and further discussion of the [[Brown representability theorem]] [above](#BrownRepresentabilityTraditional) becomes more transparent ([Lurie 10, section 1.4.1](#LurieHigherAlgebra), for exposition see also [Mathew 11](Brown+representability+theorem#Mathew11)).
 
 This abstract homotopy-theoretic proof uses the general concept of [[homotopy colimits]] in [[model categories]] as well as the concept of [[derived hom-spaces]] ("[[(∞,1)-category|∞-categories]]"). Even though in the accompanying [[Introduction to Stable homotopy theory -- P|Lecture notes on classical homotopy theory]] these concepts are only briefly indicated, the following is included for the interested reader.
 
@@ -1712,18 +1733,18 @@ $$
 
 (from the [[opposite category|opposite]] of the [[homotopy category of a model category|homotopy category]] of $\mathcal{C}$ to [[Set]])
 
-is called a **[[Brown functor]]** if 
+is called a **[[Brown functor]]** if
 
 1. it sends small [[coproducts]] to [[products]];
 
-1. it sends [[homotopy pushouts]] in $\mathcal{C}\to Ho(\mathcal{C})$ to [[weak pullbacks]] in [[Set]] (see remark \ref{WeakPullbacks}). 
+1. it sends [[homotopy pushouts]] in $\mathcal{C}\to Ho(\mathcal{C})$ to [[weak pullbacks]] in [[Set]] (see remark \ref{WeakPullbacks}).
 
 =--
 
 +-- {: .num_remark #WeakPullbacks}
 ###### Remark
 
-A _[[weak pullback]]_ is a diagram that satisfies the existence clause of a [[pullback]], but not necessarily the uniqueness condition. Hence the second clause in def. \ref{BrownFunctorOnInfinityCategory} says that for a [[homotopy pushout]] square 
+A _[[weak pullback]]_ is a diagram that satisfies the existence clause of a [[pullback]], but not necessarily the uniqueness condition. Hence the second clause in def. \ref{BrownFunctorOnInfinityCategory} says that for a [[homotopy pushout]] square
 
 $$
   \array{
@@ -1731,7 +1752,7 @@ $$
     \\
     \downarrow &\swArrow& \downarrow
     \\
-    Y &\longrightarrow& X \underset{Z}{\sqcup}Y 
+    Y &\longrightarrow& X \underset{Z}{\sqcup}Y
   }
 $$
 
@@ -1796,7 +1817,7 @@ This is equivalently the [[group]]-structure of the first ([[fundamental group|f
 $$
   Ho(\mathcal{C})(\Sigma X, -)
    \;\colon\;
-  Y 
+  Y
    \mapsto
   Ho(\mathcal{C})(\Sigma X, Y)
    \simeq
@@ -1811,7 +1832,7 @@ $$
 +-- {: .num_example #TheClassicalPointedConnectedHomotopyCategoryAsDomainForTheAbstractBrownRepresentabilityTheorem}
 ###### Example
 
-In bare [[pointed homotopy types]] $\mathcal{C} = Top^{\ast/}_{Quillen}$, the ([[homotopy types]] of) [[n-spheres]] $S^n$ are [[cogroup]] objects for $n \geq 1$, but not for $n = 0$, by example \ref{SuspensionsAreHCogroupObjects}. And of course they are [[compact object in an (∞,1)-category|compact objects]]. 
+In bare [[pointed homotopy types]] $\mathcal{C} = Top^{\ast/}_{Quillen}$, the ([[homotopy types]] of) [[n-spheres]] $S^n$ are [[cogroup]] objects for $n \geq 1$, but not for $n = 0$, by example \ref{SuspensionsAreHCogroupObjects}. And of course they are [[compact object in an (∞,1)-category|compact objects]].
 
 So while $\{S^n\}_{n \in \mathbb{N}}$ generates all of the homotopy theory of $Top^{\ast/}$, the latter is _not_ an example of def. \ref{CompactGenerationByCogroupObjects} due to the failure of $S^0$ to have [[cogroup]] structure.
 
@@ -1883,11 +1904,11 @@ $$
   \,.
 $$
 
-Now in this pointed situation we may use that 
+Now in this pointed situation we may use that
 
 $$
   \begin{aligned}
-    \pi_n \mathcal{C}(-,-) & \simeq \pi_0 \mathcal{C}(-,\Omega^n(-)) 
+    \pi_n \mathcal{C}(-,-) & \simeq \pi_0 \mathcal{C}(-,\Omega^n(-))
     \\
     & \simeq \pi_0\mathcal{C}(\Sigma^n(-),-)
     \\
@@ -1942,10 +1963,10 @@ To see this, first notice that we may directly find an extension $\eta_0$ along 
 $$
   \eta_0
   \;\colon\;
-   X 
+   X
      \sqcup
    \left(
-     \underset{{i \in I,} \atop {\gamma \colon S_i \stackrel{}{\to} F}}{\coprod} 
+     \underset{{i \in I,} \atop {\gamma \colon S_i \stackrel{}{\to} F}}{\coprod}
      S_i
    \right)
    \longrightarrow
@@ -1957,21 +1978,21 @@ to be the canonical map. (Using that $F$, by assumption, turns coproducts into p
 To turn the surjection thus constructed into a bijection, we now successively form quotients of $X_0$. To that end proceed by [[induction]] and suppose that $\eta_n \colon X_n \to F$ has been constructed. Then for $i \in I$ let
 
 $$
-  K_i 
-    \coloneqq 
+  K_i
+    \coloneqq
   ker
-  \left( 
-     Ho(\mathcal{C})(S_i, X_n) 
-        \stackrel{\eta_n \circ (-)}{\longrightarrow} 
-     F(S_i) 
+  \left(
+     Ho(\mathcal{C})(S_i, X_n)
+        \stackrel{\eta_n \circ (-)}{\longrightarrow}
+     F(S_i)
    \right)
 $$
 
 be the [[kernel]] of  $\eta_n$ evaluated on $S_i$. These $K_i$ are the pieces that need to go away in order to make a bijection. Hence define $X_{n+1}$ to be their joint [[homotopy cofiber]]
 
 $$
-  X_{n+1} 
-     \coloneqq 
+  X_{n+1}
+     \coloneqq
    coker\left(
      \left(
         \underset{{i \in I,} \atop {\gamma \in K_i}}{\sqcup} S_i
@@ -2003,11 +2024,11 @@ $$
   \Leftrightarrow
   \;\;\;\;\;\;\;\;\;\;\;
   \array{
-    && F(X_{n+1}) &\longrightarrow& \ast 
+    && F(X_{n+1}) &\longrightarrow& \ast
     \\
     &{}^{\mathllap{\exists \eta_{n+1}}}\nearrow& \downarrow^{\mathrlap{epi}} && \downarrow
     \\
-    \ast &\overset{\eta_n}{\longrightarrow}& ker\left((\gamma^\ast\right)_{{i \in I} \atop {\gamma \in K_i}}) &\longrightarrow& \ast 
+    \ast &\overset{\eta_n}{\longrightarrow}& ker\left((\gamma^\ast\right)_{{i \in I} \atop {\gamma \in K_i}}) &\longrightarrow& \ast
     \\
     &{}_{\mathllap{\eta_n}}\searrow& \downarrow &(pb)& \downarrow
     \\
@@ -2051,7 +2072,7 @@ $$
     \\
     & {}_{\mathllap{(\eta_{2n+1})_{n}}}\searrow& \downarrow^{\mathrlap{\exists \eta}} & \swarrow_{\mathrlap{(\eta_{2n})_n}}
     \\
-    && F    
+    && F
   }
   \;\;\;\;\;\;\;\;\;
   \Leftrightarrow
@@ -2086,10 +2107,10 @@ $$
     \\
     &{}^{\mathllap{ \exists \hat \gamma}}\nearrow& \downarrow
     \\
-    S_i 
+    S_i
       &\overset{\gamma}{\longrightarrow}&
-    X' 
-      = 
+    X'
+      =
     \underset{\longrightarrow}{\lim}_n X_n
   }
   \,.
@@ -2104,7 +2125,7 @@ $$
     X_{n(\gamma)}
     &\overset{\eta_n}{\longrightarrow}& F
     \\
-    & \downarrow && \downarrow & 
+    & \downarrow && \downarrow &
     \\
     & \ast &\longrightarrow& X_{n(\gamma)+1}
     \\
@@ -2116,7 +2137,7 @@ $$
 
 This concludes the proof of Lemma ($\star$).
 
-Now apply the construction given by this lemma to the case 
+Now apply the construction given by this lemma to the case
 $X_0 \coloneqq 0$ and the unique $\eta_0 \colon 0 \stackrel{\exists !}{\to} F$. Lemma $(\star)$ then produces an object $X'$ which represents $F$ on all the $S_i$, and we want to show that this $X'$ actually represents $F$ generally, hence that for every $Y \in \mathcal{C}$ the function
 
 $$
@@ -2155,7 +2176,7 @@ $$
     Y &\longrightarrow& Z
   }
 $$
- 
+
 along the [[codiagonal]] of $Y$. Using that $F$ sends this to a [[weak pullback]] by assumption, we obtain an extension $\bar \eta$ of $\eta'$ along $X' \to Z$. Applying Lemma $(\star)$ to this gives a further extension $\bar \eta' \colon Z' \to Z$ which now makes the following diagram
 
 $$
@@ -2219,8 +2240,8 @@ $$
   \array{
     H^\bullet(coker(f_2))
       &\longrightarrow&
-    H^\bullet(Y_2) 
-      &\stackrel{f^\ast_2}{\longrightarrow}& 
+    H^\bullet(Y_2)
+      &\stackrel{f^\ast_2}{\longrightarrow}&
     H^\bullet(X_2)
       &\stackrel{}{\longrightarrow}&
     H^{\bullet+1}(\Sigma coker(f_2))
@@ -2229,15 +2250,15 @@ $$
     \\
     H^\bullet(coker(f_1))
       &\longrightarrow&
-    H^\bullet(Y_1) 
-      &\stackrel{f^\ast_1}{\longrightarrow}& 
+    H^\bullet(Y_1)
+      &\stackrel{f^\ast_1}{\longrightarrow}&
     H^\bullet(X_1)
       &\stackrel{}{\longrightarrow}&
     H^{\bullet+1}(\Sigma coker(f_1))
   }
 $$
 
-Here the outer vertical morphisms are [[isomorphisms]], as shown, due to the [[pasting law]] (see also at _[fiberwise recognition of stable homotopy pushouts](homotopy+pullback#FiberwiseRecognitionInStableCase)_). 
+Here the outer vertical morphisms are [[isomorphisms]], as shown, due to the [[pasting law]] (see also at _[fiberwise recognition of stable homotopy pushouts](homotopy+pullback#FiberwiseRecognitionInStableCase)_).
 This means that the [[four lemma]] applies to this diagram. Inspection shows that this implies the claim.
 
 =--
@@ -2245,7 +2266,7 @@ This means that the [[four lemma]] applies to this diagram. Inspection shows tha
 +-- {: .num_cor }
 ###### Corollary
 
-Let $\mathcal{C}$ be a [[model category]] which satisfies the conditions of theorem \ref{BrownRepresentabilityOnPresentableInfinityCategories}, and let $(H^\bullet, \delta)$ be a reduced additive [[generalized cohomology]] functor on $\mathcal{C}$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}. Then there exists a [[spectrum object]] $E \in Stab(\mathcal{C})$ such that 
+Let $\mathcal{C}$ be a [[model category]] which satisfies the conditions of theorem \ref{BrownRepresentabilityOnPresentableInfinityCategories}, and let $(H^\bullet, \delta)$ be a reduced additive [[generalized cohomology]] functor on $\mathcal{C}$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}. Then there exists a [[spectrum object]] $E \in Stab(\mathcal{C})$ such that
 
 1. $H\bullet$ is degreewise [[representable functor|represented]] by $E$:
 
@@ -2257,7 +2278,7 @@ Let $\mathcal{C}$ be a [[model category]] which satisfies the conditions of theo
 1. the [[suspension isomorphism]] $\delta$ is given by the structure morphisms $\tilde \sigma_n \colon E_n \to \Omega E_{n+1}$ of the spectrum, in that
 
    $$
-     \delta 
+     \delta
        \colon
      H^n(-)
       \simeq
@@ -2281,7 +2302,9 @@ Via prop. \ref{CohomologyFunctorOnInfinityCategoryIsBrownFunctor}, theorem \ref{
 =--
 
 
-#### Milnor exact sequence
+
+
+### Milnor exact sequence
  {#S2MilnorExactSequence}
 
 
@@ -2292,7 +2315,9 @@ We need this for instance for the computation of [[Conner-Floyd Chern classes]] 
 **Literature.** ([Switzer 75, section 7 from def. 7.57 on](#Switzer75), [Kochman 96, section 4.2](#Kochman96), [Goerss-Jardine 99, section VI.2](#GoerssJardine99), )
 
 
-##### $Lim^1$ 
+
+
+#### $Lim^1$
  {#Lim1}
 
 
@@ -2315,12 +2340,12 @@ $$
   \underset{n}{\prod} A_n
 $$
 
-for the homomorphism given by 
+for the homomorphism given by
 
 $$
-  \partial \;\colon\; 
-    (a_n)_{n \in \mathbb{N}} 
-  \mapsto  
+  \partial \;\colon\;
+    (a_n)_{n \in \mathbb{N}}
+  \mapsto
     (a_n - f_n(a_{n+1}))_{n \in \mathbb{N}}.
 
 =--
@@ -2356,7 +2381,7 @@ $$
 then $\underset{\longleftarrow}{\lim}^1 A_\bullet$ is the [[cokernel]] of the map $\partial$ in def. \ref{TheBoundaryMapDefiningLim1}, hence the group that makes a [[long exact sequence]] of the form
 
 $$
-  0 \to 
+  0 \to
   \underset{\longleftarrow}{\lim}_n A_n
   \longrightarrow
   \underset{n}{\prod} A_n
@@ -2378,7 +2403,7 @@ The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon Ab^{(\mathbb{N}, \geq)
 1. for every [[short exact sequence]] $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0 \;\;\; \in Ab^{(\mathbb{N}, \geq)}$ then the induced sequence
 
    $$
-    0 
+    0
     \to
     \underset{\longleftarrow}{\lim}_n A_n
     \to
@@ -2413,11 +2438,11 @@ $$
   \coloneqq
   \left[
     0
-   \to 
+   \to
   \underset{deg \, 0}{\underbrace{\underset{n}{\prod} A_n}}
     \overset{\partial}{\longrightarrow}
   \underset{deg\, 1}{\underbrace{\underset{n}{\prod} A_n}}
-   \to 
+   \to
    0
   \right]
 $$
@@ -2428,10 +2453,10 @@ Then by remark \ref{LimitAsKernelAnalogousToLim1} and def. \ref{Lim1ViaCokernel}
 With this, then for a short exact sequence of towers $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0$ the long exact sequence in question is the [[long exact sequence in homology]] of the corresponding short exact sequence of complexes
 
 $$
-  0 
-    \to 
-  L^\bullet(A_\bullet) 
-    \longrightarrow 
+  0
+    \to
+  L^\bullet(A_\bullet)
+    \longrightarrow
   L^\bullet(B_\bullet)
     \longrightarrow
   L^\bullet(C_\bullet)
@@ -2464,27 +2489,27 @@ $$
     \cdots \overset{id}{\to}
     A \overset{id}{\to}
     \underset{= (r_n)_{n+1}}{\underbrace{A}} \overset{id}{\to}
-    \underset{= (r_n)_n}{\underbrace{A}} 
+    \underset{= (r_n)_n}{\underbrace{A}}
        \overset{id}{\to}
     \underset{= (r_n)_{n-1}}{\underbrace{0}}
-    \to 
+    \to
     0
     \to
     \cdots
     \to
     0
-    \to 
+    \to
     0
   \right]
   \,.
 $$
 
-Since $(-)_n$ itself is evidently an [[exact functor]], its right adjoint preserves injective objects ([prop.](injective+object#RightAdjointsOfExactFunctorsPreserveInjectives)). 
+Since $(-)_n$ itself is evidently an [[exact functor]], its right adjoint preserves injective objects ([prop.](injective+object#RightAdjointsOfExactFunctorsPreserveInjectives)).
 
-So with $A_\bullet \in Ab^{(\mathbb{N}, \geq)}$, let $A_n \hookrightarrow \tilde A_n$ be an injective resolution of the abelian group $A_n$, for each $n \in \mathbb{N}$. Then 
+So with $A_\bullet \in Ab^{(\mathbb{N}, \geq)}$, let $A_n \hookrightarrow \tilde A_n$ be an injective resolution of the abelian group $A_n$, for each $n \in \mathbb{N}$. Then
 
 $$
-  A_\bullet 
+  A_\bullet
     \overset{(\eta_n)_{n \in \mathbb{N}}}{\longrightarrow}
   \underset{n \in \mathbb{R}}{\prod}
   r_n A_n
@@ -2507,15 +2532,15 @@ The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon Ab^{(\mathbb{N}, \geq)
 +-- {: .proof}
 ###### Proof
 
-By lemma \ref{TowersOfAbelianGroupsHasEnoughInjectives} there are [[enough injectives]] in $Ab^{(\mathbb{N}, \geq)}$. 
-So for $A_\bullet \in Ab^{(\mathbb{N}, \geq)}$ the given tower of abelian groups, let 
+By lemma \ref{TowersOfAbelianGroupsHasEnoughInjectives} there are [[enough injectives]] in $Ab^{(\mathbb{N}, \geq)}$.
+So for $A_\bullet \in Ab^{(\mathbb{N}, \geq)}$ the given tower of abelian groups, let
 
 $$
-  0 
-    \to 
-  A_\bullet 
-    \overset{j^0}{\longrightarrow} 
-  J^0_\bullet 
+  0
+    \to
+  A_\bullet
+    \overset{j^0}{\longrightarrow}
+  J^0_\bullet
     \overset{j^1}{\longrightarrow}
   J^1_\bullet
     \overset{j^2}{\longrightarrow}
@@ -2524,7 +2549,7 @@ $$
   \cdots
 $$
 
-be an [[injective resolution]]. We need to show that 
+be an [[injective resolution]]. We need to show that
 
 $$
   \underset{\longleftarrow}{\lim}^1 A_\bullet
@@ -2568,9 +2593,9 @@ $$
 
 Therefore by the second item of prop. \ref{PropertiesOfLim1} the long exact sequence from the first item of prop. \ref{PropertiesOfLim1} applied to the [[short exact sequence]]
 
-$$ 
+$$
   0
-   \to 
+   \to
   A_\bullet
    \overset{j^0}{\longrightarrow}
   J^0_\bullet
@@ -2592,12 +2617,12 @@ $$
   \underset{\longleftarrow}{\lim}(ker(j^2)_\bullet)
     \longrightarrow
   \underset{\longleftarrow}{\lim}^1 A_\bullet
-    \longrightarrow 
-  0 
+    \longrightarrow
+  0
   \,.
 $$
 
-Exactness of this sequence gives the desired identification 
+Exactness of this sequence gives the desired identification
 $  \underset{\longleftarrow}{\lim}^1 A_\bullet
     \simeq
   (\underset{\longleftarrow}{\lim}(ker(j^2)_\bullet))/im(\underset{\longleftarrow}{\lim}(j^1))
@@ -2625,17 +2650,17 @@ The following is a kind of double dual version of the $\lim^1$ construction whic
 +-- {: .num_lemma #lim1AndExt1}
 ###### Lemma
 
-Given a [[cotower]] 
+Given a [[cotower]]
 
 $$
   A_\bullet = (A_0 \overset{f_0}{\to} A _1 \overset{f_1}{\to} A_2 \to \cdots)
-$$ 
+$$
 
 of [[abelian groups]], then for every abelian group $B \in Ab$ there is a [[short exact sequence]] of the form
 
 $$
-  0 
-    \to 
+  0
+    \to
   \underset{\longleftarrow}{\lim}^1_n Hom(A_n, B)
     \longrightarrow
   Ext^1( \underset{\longrightarrow}{\lim}_n A_n, B )
@@ -2666,7 +2691,7 @@ $$
 which sends $a_n \in A_n$ to $a_n - f_n(a_n)$. Its [[cokernel]] is the [[colimit]] over the cotower, but its [[kernel]] is  trivial (in contrast to the otherwise [[formal dual|formally dual]] situation in remark \ref{LimitAsKernelAnalogousToLim1}). Hence (as opposed to the long exact sequence in def. \ref{Lim1ViaCokernel}) there is a [[short exact sequence]] of the form
 
 $$
-  0 
+  0
     \to
   \underset{n}{\oplus} A_n
     \overset{\tilde \partial}{\longrightarrow}
@@ -2702,7 +2727,7 @@ where we used that [[direct sum]] is the [[coproduct]] in abelian groups, so tha
 
 $$
   Hom(A_\bullet,B)
-  = 
+  =
   (  \cdots \to Hom(A_2,B) \to Hom(A_1,B) \to  Hom(A_0,B) )
   \,.
 $$
@@ -2712,7 +2737,8 @@ Hence truncating this long sequence by forming kernel and cokernel of $\partial$
 =--
 
 
-##### Mittag-Leffler condition
+
+#### Mittag-Leffler condition
 
 +-- {: .num_defn #MittagLefflerCondition}
 ###### Definition
@@ -2724,7 +2750,7 @@ $$
 $$
 
 is said to satify the **[[Mittag-Leffler condition]]** if for all $k$ there exists $i \geq k$ such that for all $j \geq i \geq k$ the [[image]] of the [[homomorphism]] $A_i \to A_k$ equals that of $A_j \to A_k$
- 
+
 $$
   im(A_i \to A_k) \simeq im(A_j \to A_k)
   \,.
@@ -2763,15 +2789,16 @@ One needs to show that with the Mittag-Leffler condition, then the [[cokernel]] 
 =--
 
 
-##### Mapping telescopes
 
-Given a sequence 
+#### Mapping telescopes
+
+Given a sequence
 
 $$
   X_\bullet
   =
   \left(
-  X_0 
+  X_0
    \overset{f_0}{\longrightarrow}
   X_1
    \overset{f_1}{\longrightarrow}
@@ -2793,7 +2820,7 @@ $$
   X_\bullet
   =
   \left(
-  X_0 
+  X_0
    \overset{f_0}{\longrightarrow}
   X_1
    \overset{f_1}{\longrightarrow}
@@ -2809,7 +2836,7 @@ $$
   Tel(X_\bullet)
   \coloneqq
   \left(
-  \underset{n \in \mathbb{N}}{\sqcup}  
+  \underset{n \in \mathbb{N}}{\sqcup}
   \left(
     X_n \times [n,n+1]
   \right)
@@ -2830,7 +2857,7 @@ $$
   Tel(X_\bullet)
   \coloneqq
   \left(
-  \underset{n \in \mathbb{N}}{\sqcup}  
+  \underset{n \in \mathbb{N}}{\sqcup}
   \left(
     X_n \wedge [n,n+1]_+
   \right)
@@ -2867,15 +2894,15 @@ $$
 
 is a [[homotopy equivalence]], hence ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences)) a weak homotopy equivalence. A concrete construction of a homotopy inverse is given for instance in ([Switzer 75, proof of prop. 7.53](#Switzer75)).
 
-Moreover, since spheres are [[compact object|compact]], so that elements of [[homotopy groups]] $\pi_q(Tel(X))$ are represented at some finite stage $\pi_q(Tel(X_n))$ it follows that 
+Moreover, since spheres are [[compact object|compact]], so that elements of [[homotopy groups]] $\pi_q(Tel(X))$ are represented at some finite stage $\pi_q(Tel(X_n))$ it follows that
 
 $$
-  \underset{\longrightarrow}{\lim}_n \pi_q(Tel(X_n)) 
-    \overset{\simeq}{\longrightarrow} 
+  \underset{\longrightarrow}{\lim}_n \pi_q(Tel(X_n))
+    \overset{\simeq}{\longrightarrow}
   \pi_q(Tel(X))
 $$
 
-are [[isomorphisms]] for all $q\in \mathbb{N}$ and all choices of basepoints (not shown). 
+are [[isomorphisms]] for all $q\in \mathbb{N}$ and all choices of basepoints (not shown).
 
 Together these two facts imply that in the following commuting square, three morphisms are isomorphisms, as shown.
 
@@ -2889,7 +2916,7 @@ $$
     \\
     \underset{\longleftarrow}{\lim}_n \pi_q(X_n)
     &\underset{\simeq}{\longrightarrow}&
-    \pi_q(X)    
+    \pi_q(X)
   }
   \,.
 $$
@@ -2898,13 +2925,16 @@ Therefore also the remaining morphism is an isomorphism ([[two-out-of-three]]). 
 
 =--
 
-##### Milnor exact sequences
+
+
+
+#### Milnor exact sequences
 
 +-- {: .num_prop #MilnorExactSequence}
 ###### Proposition
 **(Milnor exact sequence for homotopy groups)**
 
-Let 
+Let
 
 $$
   \cdots \to X_3 \overset{p_2}{\longrightarrow} X_2 \overset{p_1}{\longrightarrow} X_1 \overset{p_0}{\longrightarrow} X_0
@@ -2913,23 +2943,23 @@ $$
 be a [[tower of fibrations]] ([[Serre fibrations]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#SerreFibration))). Then for each $q \in \mathbb{N}$ there is a [[short exact sequence]]
 
 $$
-  0 
+  0
   \to
   \underset{\longleftarrow}{\lim}^1_i \pi_{q+1}(X_i)
   \longrightarrow
   \pi_q(\underset{\longleftarrow}{\lim}_i X_i)
   \longrightarrow
   \underset{\longleftarrow}{\lim}_i \pi_q(X_i)
-  \to 
+  \to
   0
   \,,
 $$
 
-for $\pi_\bullet$ the [[homotopy group]]-functor (exact as [[pointed sets]] for $i = 0$, as [[groups]] for $i \geq 1$) which says that 
+for $\pi_\bullet$ the [[homotopy group]]-functor (exact as [[pointed sets]] for $i = 0$, as [[groups]] for $i \geq 1$) which says that
 
 1. the failure of the [[limit]] over the homotopy groups of the stages of the tower to equal the homotopy groups of the [[limit]] of the tower is at most in the [[kernel]] of the canonical comparison map;
 
-1. that kernel is the $\underset{\longleftarrow}{\lim}^1$ (def. \ref{Lim1ViaCokernel}) of the homotopy groups of the stages. 
+1. that kernel is the $\underset{\longleftarrow}{\lim}^1$ (def. \ref{Lim1ViaCokernel}) of the homotopy groups of the stages.
 
 =--
 
@@ -2938,7 +2968,7 @@ An elementary but tedious proof is indicated in ([Bousfield-Kan 72, chapter IX, 
 +-- {: .proof}
 ###### Proof
 
-With respect to the [[classical model structure on simplicial sets]] or the [[classical model structure on topological spaces]], a tower of fibrations as stated is a fibrant object in the injective [[model structure on functors]] $[(\mathbb{N},\geq), sSet]_{inj}$ ($[(\mathbb{N},\geq), Top]_{inj}$) ([prop](projectively+cofibrant+diagram#CofibrantCotowerDiagram)). Hence the plain [[limit]] over this diagram represents the [[homotopy limit]]. By the discussion there, up to weak equivalence that homotopy limit is also the pullback in 
+With respect to the [[classical model structure on simplicial sets]] or the [[classical model structure on topological spaces]], a tower of fibrations as stated is a fibrant object in the injective [[model structure on functors]] $[(\mathbb{N},\geq), sSet]_{inj}$ ($[(\mathbb{N},\geq), Top]_{inj}$) ([prop](projectively+cofibrant+diagram#CofibrantCotowerDiagram)). Hence the plain [[limit]] over this diagram represents the [[homotopy limit]]. By the discussion there, up to weak equivalence that homotopy limit is also the pullback in
 
 $$
   \array{
@@ -2969,7 +2999,7 @@ The [[long exact sequence of homotopy groups]] of this fiber sequence goes
 $$
   \cdots
    \to
-  \underset{n}{\prod} \pi_{q+1}(X_n)  
+  \underset{n}{\prod} \pi_{q+1}(X_n)
    \longrightarrow
   \underset{n}{\prod} \pi_{q+1}(X_n)
     \longrightarrow
@@ -2997,19 +3027,19 @@ Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underse
 Then the canonical morphisms make a [[short exact sequence]]
 
    $$
-     0 
-      \to 
+     0
+      \to
      \underset{\longleftarrow}{\lim}^1_n \tilde E^{\bullet-1}(X_n)
       \longrightarrow
      \tilde E^{\bullet}(X)
       \longrightarrow
      \underset{\longleftarrow}{\lim}_n \tilde E^{\bullet}(X_n)
-     \to 
+     \to
      0
      \,,
    $$
 
-saying that 
+saying that
 
 1. the failure of the canonical comparison map $\tilde E^\bullet(X) \to \underset{\longleftarrow}{\lim} \tilde E^\bullet(X_n)$ to the [[limit]] of the [[cohomology groups]] on the finite stages to be an [[isomorphism]] is at most in a non-vanishing [[kernel]];
 
@@ -3024,32 +3054,32 @@ e.g. ([Switzer 75, prop. 7.66](#Switzer75), [Kochmann 96, prop. 4.2.2](#Kochmann
 ###### Proof
 
 
-For 
+For
 
 $$
   X_\bullet
-  = 
+  =
   \left(
-    X_0 
+    X_0
       \overset{i_0}{\hookrightarrow}
-    X_1 
+    X_1
       \overset{i_1}{\hookrightarrow}
-    X_2 
+    X_2
       \overset{i_1}{\hookrightarrow}
     \cdots
   \right)
-$$ 
+$$
 
 the sequence of stages of the ([[pointed topological space|pointed]]) [[CW-complex]] $X = \underset{\longleftarrow}{\lim}_n X_n$, write
 
 $$
   \begin{aligned}
-    A_X 
-    &\coloneqq 
+    A_X
+    &\coloneqq
     \underset{n \in \mathbb{N}}{\sqcup} X_{2n} \times [2n,{2n}+1];
   \\
-    B_X 
-    &\coloneqq 
+    B_X
+    &\coloneqq
     \underset{n \in \mathbb{N}}{\sqcup} X_{(2n+1)} \times [2n+1,{2n}+2].
   \end{aligned}
 $$
@@ -3069,7 +3099,7 @@ $$
   \,.
 $$
 
-Observe that 
+Observe that
 
 1. $A_X \cup B_X \simeq Tel(X_\bullet)$;
 
@@ -3083,7 +3113,7 @@ and that there are [[homotopy equivalences]]
 
 1. $Tel(X_\bullet) \simeq X$.
 
-The first two are obvious, the third is [this proposition](mapping+telescope#TelescopeOfCWComplexEquivalentToTheOriginal). 
+The first two are obvious, the third is [this proposition](mapping+telescope#TelescopeOfCWComplexEquivalentToTheOriginal).
 
 This implies that the [[Mayer-Vietoris sequence]] ([prop.](generalized+cohomology#MayerVietorisSequenceInGeneralizedCohomology)) for $\tilde E^\bullet$ on the cover $A \sqcup B \to X$ is isomorphic to the bottom horizontal sequence in the following diagram:
 
@@ -3092,7 +3122,7 @@ $$
      \tilde E^{\bullet-1}(A_X)\oplus \tilde E^{\bullet-1}(B_X)
       &\longrightarrow&
     \tilde E^{\bullet-1}(A_X \cap B_X)
-      &\longrightarrow& 
+      &\longrightarrow&
     \tilde E^\bullet(X)
       &\overset{(\iota_{A_x})^\ast - (\iota_{B_x})^\ast}{\longrightarrow}&
     \tilde E^\bullet(A_X)\oplus \tilde E^\bullet(B_X)
@@ -3101,8 +3131,8 @@ $$
     \\
     \downarrow^{\mathrlap{\simeq}}
      &&
-    \downarrow^{\mathrlap{\simeq}} 
-      && 
+    \downarrow^{\mathrlap{\simeq}}
+      &&
     \downarrow^{\mathrlap{=}}
       &&
     {}^{\mathllap{(id, -id)}}\downarrow^{\mathrlap{\simeq}}
@@ -3111,8 +3141,8 @@ $$
     \\
     \underset{n}{\prod}\tilde E^{\bullet-1}(X_n)
       &\underset{\partial}{\longrightarrow}&
-    \underset{n}{\prod}\tilde E^{\bullet-1}(X_n) 
-      &\longrightarrow& 
+    \underset{n}{\prod}\tilde E^{\bullet-1}(X_n)
+      &\longrightarrow&
     \tilde E^\bullet(X)
       &\overset{(i_n^\ast)_{n}}{\longrightarrow}&
     \underset{n}{\prod}\tilde E^\bullet(X_n)
@@ -3141,8 +3171,8 @@ This is the morphism from def. \ref{TheBoundaryMapDefiningLim1} for the sequence
 
 $$
    \cdots
-    \to 
-  \tilde E^\bullet(X_{n+1}) 
+    \to
+  \tilde E^\bullet(X_{n+1})
     \overset{i_n^\ast}{\longrightarrow}
   \tilde E^\bullet(X_n)
     \overset{i_n^\ast}{\longrightarrow}
@@ -3252,7 +3282,7 @@ For $X,E \in Ho(Spectra)$ two [[spectra]] such that the tower $n \mapsto E^{n -1
 By prop. \ref{Lim1VanihesUnderMittagLeffler} the assumption implies that the $lim^1$-term in prop. \ref{CohomologyOfSpectraMilnorSequence} vanishes, hence by exactness it follows that in this case there is an [[isomorphism]]
 
 $$
-  [X,E] 
+  [X,E]
     \simeq
    E^0(X)
      \overset{\simeq}{\longrightarrow}
@@ -3264,7 +3294,9 @@ $$
 
 
 
-#### Serre-Atiyah-Hirzebruch spectral sequence
+
+
+### Serre-Atiyah-Hirzebruch spectral sequence
  {#SerreAtiyahHirzebruchSpectralSequence}
 
 **Idea.** Another important tool for computing [[generalized cohomology]] is to reduce it to the computation of [[ordinary cohomology]] with [[coefficients]]. Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] known as the _[[Atiyah-Hirzebruch spectral sequence]]_ (AHSS) which serves to compute $E$-cohomology of $F$-[[fiber bundles]] over a [[simplicial complex]] $X$ in terms of [[ordinary cohomology]] with [[coefficients]] in the generalized cohomology $E^\bullet(F)$ of the fiber. For $E = $ [[HA]] this is known as the _[[Serre spectral sequence]]_.
@@ -3274,12 +3306,13 @@ The [[Atiyah-Hirzebruch spectral sequence]] in turn is a consequence of the "[[C
 We need the AHSS for instance for the computation of [[Conner-Floyd Chern classes]] [below](#ConnerFloydChernClasses).
 
 
-**Literature.** ([Kochman 96, section 2.2 and 4.2](#Kochman96)) 
+**Literature.** ([Kochman 96, section 2.2 and 4.2](#Kochman96))
 
-See also the accompanying  _[[Introduction to Stable homotopy theory -- I|lecture notes on spectral sequences]]_. 
+See also the accompanying  _[[Introduction to Stable homotopy theory -- I|lecture notes on spectral sequences]]_.
 
 
-##### Converging spectral sequences
+
+#### Converging spectral sequences
 
 +-- {: .num_defn #CohomologySpectralSequence}
 ###### Definition
@@ -3288,13 +3321,13 @@ A **cohomology [[spectral sequence]]** $\{E_r^{p,q}, d_r\}$ is
 
 1. a sequence $\{E_r^{\bullet,\bullet}\}$ (for $r \in \mathbb{N}$, $r \geq 1$) of [[bigraded object|bigraded]] [[abelian groups]] (the "pages");
 
-1. a sequence of [[linear maps]] (the "[[differentials]]") 
+1. a sequence of [[linear maps]] (the "[[differentials]]")
 
    $$
      \{d_r \;\colon\; E_r^{\bullet,\bullet} \longrightarrow E_r^{\bullet+r, \bullet-r+1}\}
    $$
 
-such that 
+such that
 
 * $H_{r+1}^{\bullet,\bullet}$ is the [[cochain cohomology]] of $d_r$, i.e. $E_{r+1}^{\bullet, \bullet} = H(E_r^{\bullet,\bullet},d_r)$, for all $r \in \mathbb{N}$, $r \geq 1$.
 
@@ -3309,7 +3342,7 @@ $$
   C^\bullet = \underset{s}{\cup} F^s C^\bullet \;\;\;\; and \;\;\;\; 0 = \underset{s}{\cap} F^s C^\bullet
 $$
 
-then the spectral sequence is said to **converge** to  $C^\bullet$, denoted, 
+then the spectral sequence is said to **converge** to  $C^\bullet$, denoted,
 
 $$
   E_2^{\bullet,\bullet} \Rightarrow C^\bullet
@@ -3317,7 +3350,7 @@ $$
 
 if
 
-1.  in each bidegree $(s,t)$ the sequence $\{E_r^{s,t}\}_r$ eventually becomes constant on a group 
+1.  in each bidegree $(s,t)$ the sequence $\{E_r^{s,t}\}_r$ eventually becomes constant on a group
 
     $E_\infty^{s,t} \coloneqq E_{\gg 1}^{s,t}$;
 
@@ -3326,7 +3359,7 @@ if
    $E_\infty^{s,t} \simeq F^s C^{s+t} / F^{s+1}C^{s+t}$.
 
 
-{#MultiplicativeSpectralSequence} The converging spectral sequence is called a **[[multiplicative spectral sequence]]** if 
+{#MultiplicativeSpectralSequence} The converging spectral sequence is called a **[[multiplicative spectral sequence]]** if
 
 1. $\{E_2^{\bullet,\bullet}\}$ is equipped with the structure of a [[bigraded object|bigraded]] [[associative algebra|algebra]];
 
@@ -3401,7 +3434,7 @@ where $g^{-1}$ denotes the operation of sending one equivalence class to the equ
 ###### Proposition
 **(cohomological spectral sequence of an exact couple)**
 
-Given an exact couple, def. \ref{ExactCoupleAndDerivedExactCouple}, 
+Given an exact couple, def. \ref{ExactCoupleAndDerivedExactCouple},
 
 $$
   \array{
@@ -3413,7 +3446,7 @@ $$
   }
 $$
 
-its derived exact couple 
+its derived exact couple
 
 $$
   \array{
@@ -3425,7 +3458,7 @@ $$
   }
 $$
 
-is itself an exact couple. Accordingly there is induced a sequence of exact couples 
+is itself an exact couple. Accordingly there is induced a sequence of exact couples
 
 $$
   \array{
@@ -3454,15 +3487,15 @@ $$
   \end{aligned}
 $$
 
-is a cohomological spectral sequence, def. \ref{CohomologySpectralSequence}. 
+is a cohomological spectral sequence, def. \ref{CohomologySpectralSequence}.
 
 (As before in prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple}, the notation $g^{-n}$ with $n \in \mathbb{N}$ denotes the function given by choosing, on representatives, a [[preimage]] under $g^n = \underset{n\;times}{\underbrace{g \circ \cdots \circ g \circ g}}$, with the implicit claim that all possible choices represent the same equivalence class.)
 
-If for every bidegree $(s,t)$ there exists $R_{s,t} \gg 1$ such that for all $r \geq R_{s,t}$ 
+If for every bidegree $(s,t)$ there exists $R_{s,t} \gg 1$ such that for all $r \geq R_{s,t}$
 
 1. $g \colon D^{s+R,t-R} \stackrel {\simeq}{\longrightarrow} D^{s+R -1, t-R-1}$;
 
-1. $g\colon D^{s-R+1, t+R-2} \stackrel{0}{\longrightarrow} D^{s-R,t+R-1}$ 
+1. $g\colon D^{s-R+1, t+R-2} \stackrel{0}{\longrightarrow} D^{s-R,t+R-1}$
 
 then this spectral sequence converges to the [[inverse limit]] group
 
@@ -3475,7 +3508,7 @@ $$
   \right)
 $$
 
-filtered by 
+filtered by
 
 $$
   F^p G^\bullet \coloneqq ker(G^\bullet \to D^{p-1, \bullet - p+1})
@@ -3497,18 +3530,18 @@ $$
   ker(d_{r-1}) \coloneqq ker(h \circ g^{-r+2} \circ f)
 $$
 
-consists of those elements $x$ such that $g^{-r+2} (f(x)) = g(y)$, for some $y$, hence 
+consists of those elements $x$ such that $g^{-r+2} (f(x)) = g(y)$, for some $y$, hence
 
 $$
   ker(d_{r-1})^{s,t} \simeq f^{-1}(g^{r-1}(D^{s+r-1,t-r+1}))
   \,.
 $$
 
-By assumption there is for each $(s,t)$ an $R_{s,t}$ such that for all $r \geq R_{s,t}$ then $ker(d_{r-1})^{s,t}$ is independent of $r$. 
+By assumption there is for each $(s,t)$ an $R_{s,t}$ such that for all $r \geq R_{s,t}$ then $ker(d_{r-1})^{s,t}$ is independent of $r$.
 
 Moreover, $im(d_{r-1})$ consists of the image under $h$ of those $x \in D^{s-1,t}$ such that $g^{r-2}(x)$ is in the image of $f$, hence (since $im(f) = ker(g)$ by exactness of the exact couple) such that $g^{r-2}(x)$ is in the kernel of $g$, hence such that $x$ is in the kernel of $g^{r-1}$. If $r \gt R$ then by assumption $g^{r-1}|_{D^{s-1,t}} = 0$ and so then $im(d_{r-1}) = im(h)$.
 
-(Beware this subtlety: while $g^{R_{s,t}}|_{D^{s-1,t}}$ vanishes by the convergence assumption, the expression $g^{R_{s,t}}|_{D^{s+r-1,t-r+1}}$ need not vanish yet. Only the higher power $g^{R_{s,t}+ R_{s+1,t+2}+2}|_{D^{s+r-1,t-r+1}}$ is again guaranteed to vanish. ) 
+(Beware this subtlety: while $g^{R_{s,t}}|_{D^{s-1,t}}$ vanishes by the convergence assumption, the expression $g^{R_{s,t}}|_{D^{s+r-1,t-r+1}}$ need not vanish yet. Only the higher power $g^{R_{s,t}+ R_{s+1,t+2}+2}|_{D^{s+r-1,t-r+1}}$ is again guaranteed to vanish. )
 
 It follows that
 
@@ -3526,7 +3559,7 @@ $$
     \underoverset{\simeq}{f}{\longrightarrow}
     im(g^{R-1}) \cap im(f)
     \\
-    & 
+    &
     \simeq
     im(g^{R-1}) \cap ker(g)
   \end{aligned}
@@ -3536,7 +3569,7 @@ where in last two steps we used once more the exactness of the exact couple.
 
 {#InfinityPageIsSubgroupOfImageOfFirstPageUnderf}(Notice that the above equation means in particular that the $E_\infty$-page is a sub-group of the image of the $E_1$-page under $f$.)
 
-The last group above is that of elements $x \in G^n$ which map to zero in $D^{p-1,n-p+1}$ and where two such are identified if they agree in $D^{p,n-p}$, hence indeed 
+The last group above is that of elements $x \in G^n$ which map to zero in $D^{p-1,n-p+1}$ and where two such are identified if they agree in $D^{p,n-p}$, hence indeed
 
 $$
   E_\infty^{p,n-p} \simeq F^p G^n / F^{p+1} G^n
@@ -3582,18 +3615,18 @@ $$
   \,.
 $$
 
-But in general this need not be the case. 
+But in general this need not be the case.
 
 One sufficient condition that these exact sequences split is that they consist of homomorphisms of $R$-[[modules]], for some [[ring]] $R$, and that $E_\infty^{p,\bullet}$ are [[projective modules]] (for instance [[free modules]]) over $R$. Because then the [[Ext]]-group $Ext^1_R(E_\infty^{p,\bullet},-)$ vanishes, and hence all extensions are trivial, hence split.
 
 So for instance for every spectral sequence in [[vector spaces]] the extension problem is trivial (since every vector space is a free module).
 
 =--
- 
 
 
 
-##### The AHSS
+
+#### The AHSS
 
 The following proposition requires, in general, to evaluate cohomology functors not just on [[CW-complexes]], but on all topological spaces. Hence we invoke prop. \ref{HomotopyTheoreticVersionOfCohomologyFunctorDefIsEquivalent} to regard a [[reduced cohomology theory]] as a contravariant functor on all pointed topological spaces, which sends [[weak homotopy equivalences]] to isomorphisms (def. \ref{ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor}).
 
@@ -3602,7 +3635,7 @@ The following proposition requires, in general, to evaluate cohomology functors 
 ###### Proposition
 **(Serre-Cartan-Eilenberg-Whitehead-Atiyah-Hirzebruch spectral sequence)**
 
-Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor)). Let $B$ be a [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#SerreFibration)), such that all its [[fibers]] are [[weakly contractible topological space|weakly contractible]] or such that $B$ is [[simply connected topological space|simply connected]]. In either case all [[fibers]] are identified with a typical fiber $F$ up to [[weak homotopy equivalence]] by connectedness ([this example](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)), and well defined up to unique iso in the homotopy category by simply connectedness: 
+Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor)). Let $B$ be a [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#SerreFibration)), such that all its [[fibers]] are [[weakly contractible topological space|weakly contractible]] or such that $B$ is [[simply connected topological space|simply connected]]. In either case all [[fibers]] are identified with a typical fiber $F$ up to [[weak homotopy equivalence]] by connectedness ([this example](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)), and well defined up to unique iso in the homotopy category by simply connectedness:
 
 $$
   \array{
@@ -3624,23 +3657,23 @@ If at least one of the following two conditions is met
 then there is a cohomology [[spectral sequence]], def. \ref{CohomologySpectralSequence}, whose $E_2$-page is the [[ordinary cohomology]] $H^\bullet(B,A^\bullet(F))$ of $B$ with [[coefficients]] in the $A$-[[cohomology groups]] $A^\bullet(F)$ of the fiber, and which converges to the $A$-cohomology groups of the total space
 
 $$
-  E_2^{p,q} 
-    = 
-  H^p(B, A^q(F)) 
+  E_2^{p,q}
+    =
+  H^p(B, A^q(F))
    \;
-    \Rightarrow 
+    \Rightarrow
    \;
   A^\bullet(X)
-$$ 
+$$
 
 with respect to the filtering given by
 
 $$
-  F^p A^\bullet(X) 
-   \coloneqq 
+  F^p A^\bullet(X)
+   \coloneqq
   ker\left(
-    A^\bullet(X) 
-      \to 
+    A^\bullet(X)
+      \to
     A^\bullet(X_{p-1})
   \right)
   \,,
@@ -3660,7 +3693,7 @@ $$
   \array{
     \underset{s,t}{\prod} A^{s+t}(X_{s})
     &&
-      \stackrel{}{\longrightarrow} 
+      \stackrel{}{\longrightarrow}
     &&
     \underset{s,t}{\prod} A^{s+t}(X_{s})
     \\
@@ -3681,7 +3714,7 @@ $$
   \,,
 $$
 
-where we take $X_{\gg 1} = X$ and $X_{\lt 0} = \emptyset$. 
+where we take $X_{\gg 1} = X$ and $X_{\lt 0} = \emptyset$.
 
 In order to determine the $E_2$-page, we analyze the $E_1$-page: By definition
 
@@ -3692,7 +3725,7 @@ $$
 $$
 
 
-Let $C(s)$ be the set of $s$-dimensional cells of $B$, and notice that for $\sigma \in C(s)$ then 
+Let $C(s)$ be the set of $s$-dimensional cells of $B$, and notice that for $\sigma \in C(s)$ then
 
 $$
   (\pi^{-1}(\sigma), \pi^{-1}(\partial \sigma)) \simeq (D^n, S^{n-1}) \times F_\sigma
@@ -3700,8 +3733,8 @@ $$
 $$
 
 where $F_\sigma$ is [[weak homotopy equivalence|weakly homotopy equivalent]] to $F$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)).
- 
-This implies that 
+
+This implies that
 
 $$
   \begin{aligned}
@@ -3724,14 +3757,14 @@ $$
   \,,
 $$
 
-where we used the relation to [[reduced cohomology]] $\tilde A$, prop. \ref{ReducedToUnreducedGeneralizedCohomology} together with lemma \ref{EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient}, 
-then the [wedge axiom](#WedgeAxiom) and the [suspension isomorphism](#SuspensionIsomorphismForReducedGeneralizedCohomology) of the latter. 
+where we used the relation to [[reduced cohomology]] $\tilde A$, prop. \ref{ReducedToUnreducedGeneralizedCohomology} together with lemma \ref{EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient},
+then the [wedge axiom](#WedgeAxiom) and the [suspension isomorphism](#SuspensionIsomorphismForReducedGeneralizedCohomology) of the latter.
 
-The last group $C^s_{cell}(B,A^t(F))$ appearing in this sequence of isomorphisms is that of [[cellular cohomology|cellular cochains]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)) of degree $s$ on $B$ with [[coefficients]] in the group $A^t(F)$. 
+The last group $C^s_{cell}(B,A^t(F))$ appearing in this sequence of isomorphisms is that of [[cellular cohomology|cellular cochains]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)) of degree $s$ on $B$ with [[coefficients]] in the group $A^t(F)$.
 
-Since [[cellular cohomology]] of a [[CW-complex]] agrees with its [[singular cohomology]] ([thm.](Introduction+to+Stable+homotopy+theory+--+I#CelluarEquivalentToSingularFromSpectralSequence)), hence with its [[ordinary cohomology]], to conclude that the $E_2$-page is as claimed, it is now sufficient to show that the differential $d_1$ coincides with the differential in the [[cellular cochain complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)). 
+Since [[cellular cohomology]] of a [[CW-complex]] agrees with its [[singular cohomology]] ([thm.](Introduction+to+Stable+homotopy+theory+--+I#CelluarEquivalentToSingularFromSpectralSequence)), hence with its [[ordinary cohomology]], to conclude that the $E_2$-page is as claimed, it is now sufficient to show that the differential $d_1$ coincides with the differential in the [[cellular cochain complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)).
 
-We discuss this now for $\pi = id$, hence $X = B$ and $F = \ast$. The general case works the same, just with various factors of $F$ appearing in the following: 
+We discuss this now for $\pi = id$, hence $X = B$ and $F = \ast$. The general case works the same, just with various factors of $F$ appearing in the following:
 
 Consider the following diagram, which [[commuting diagram|commutes]] due to the [[natural transformation|naturality]] of the [connecting homomorphism](#ConnectingHomomorphismOfUnreducedCohomology) $\delta$ of $A^\bullet$:
 
@@ -3743,14 +3776,14 @@ $$
       & =&  \underset{i \in I_{s-1}}{\prod} A^t(\ast)
       && \longrightarrow &&
     \underset{i \in I_s}{\prod} A^t(\ast)
-    & = & 
+    & = &
     C_{cell}^{s}(X,A^t(\ast))
     \\
     && & {}^{\mathllap{\simeq}}\downarrow && && \downarrow^{\mathrlap{\simeq}}
     \\
-    && & \underset{i \in I_{s-1}}{\prod} \tilde A^{s+t-1}(S^{s-1}) 
+    && & \underset{i \in I_{s-1}}{\prod} \tilde A^{s+t-1}(S^{s-1})
       && &&
-    \underset{i \in I_s}{\prod} \tilde A^{s+t}(S^{s}) 
+    \underset{i \in I_s}{\prod} \tilde A^{s+t}(S^{s})
     \\
     && & {}^{\mathllap{\simeq}}\downarrow && && \downarrow^{\mathrlap{\simeq}}
     \\
@@ -3761,10 +3794,10 @@ $$
       &\overset{\delta}{\longrightarrow}&
     A^{s+t}(X_s, X_{s-1})
     \\
-    && & 
+    && &
     \downarrow && \downarrow && \downarrow
     \\
-    && & 
+    && &
     A^{s+t-1}(S^{s-1}, \emptyset)
       &\overset{}{\longrightarrow}&
     A^{s+t-1}(S^{s-1})
@@ -3778,7 +3811,7 @@ Here the bottom vertical morphisms are those induced from any chosen cell inclus
 
 The differential $d_1$ in the spectral sequence is the middle horizontal composite. From this the vertical isomorphisms give the top horizontal map. But the bottom horizontal map identifies this top horizontal morphism componentwise with the restriction to the boundary of cells. Hence the top horizontal morphism is indeed the coboundary operator $\partial^\ast$ for the [[cellular cohomology]] of $X$ with coefficients in $A^\bullet(\ast)$ ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)). This cellular cohomology coincides with [[singular cohomology]] of the [[CW-complex]] $X$ ([thm.](https://ncatlab.org/nlab/show/Introduction+to+Stable+homotopy+theory+--+I#CelluarEquivalentToSingularFromSpectralSequence)), hence computes the [[ordinary cohomology]] of $X$.
 
-Now to see the convergence. If $B$ is finite dimensional then the convergence condition as stated in prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} is met.  Alternatively, if $A^\bullet(F)$ is bounded below in degree, then by the above analysis the $E_1$-page has a horizontal line below which it vanishes. Accordingly the same is then true for all higher pages, by each of them being the cohomology of the previous page. Since the differentials go right and down, eventually they pass beneath this vanishing line and become 0. This is again the condition needed in the proof of prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} to obtain convergence. 
+Now to see the convergence. If $B$ is finite dimensional then the convergence condition as stated in prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} is met.  Alternatively, if $A^\bullet(F)$ is bounded below in degree, then by the above analysis the $E_1$-page has a horizontal line below which it vanishes. Accordingly the same is then true for all higher pages, by each of them being the cohomology of the previous page. Since the differentials go right and down, eventually they pass beneath this vanishing line and become 0. This is again the condition needed in the proof of prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} to obtain convergence.
 
 By that proposition the convergence is to the [[inverse limit]]
 
@@ -3794,10 +3827,12 @@ $$
 If $X$ is finite dimensional or more generally if the sequences that this limit is over satisfy the [[Mittag-Leffler condition]] (def. \ref{MittagLefflerCondition}), then this limit is $A^\bullet(X)$, by prop. \ref{Lim1VanihesUnderMittagLeffler}.
 
 
- 
+
 =--
 
-##### Multiplicative structure
+
+
+#### Multiplicative structure
 
 +-- {: .num_prop #AHSSForMultiplicativeCohomologyIsMultiplicative}
 ###### Proposition
@@ -3814,9 +3849,9 @@ A decent proof is spelled out in ([Kochman 96, prop. 4.2.9](#Kochman96)). Use th
 Given a multiplicative cohomology theory $(A,\mu,1)$ (def. \ref{MultiplicativeCohomologyTheory}), then for every [[Serre fibration]] $X \to B$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#SerreFibration)) all the differentials in the corresponding [[Atiyah-Hirzebruch spectral sequence]] of prop. \ref{AHSSExistence}
 
 $$
-  H^\bullet(B,A^\bullet(F)) 
+  H^\bullet(B,A^\bullet(F))
   \;\Rightarrow\;
-  A^\bullet(X) 
+  A^\bullet(X)
 $$
 
 are linear over $A^\bullet(\ast)$.
@@ -3832,7 +3867,7 @@ $$
   \array{
     \underset{s,t}{\prod} A^{s+t}(X_{s})
     &&
-      \stackrel{}{\longrightarrow} 
+      \stackrel{}{\longrightarrow}
     &&
     \underset{s,t}{\prod} A^{s+t}(X_{s})
     \\
@@ -3867,10 +3902,10 @@ By prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} its differentials on
 For $E$ a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and $X$ a finite [[CW-complex]], then the [[Kronecker pairing]]
 
 $$
-  \langle-,-\rangle_X 
-    \;\colon\; 
+  \langle-,-\rangle_X
+    \;\colon\;
    E^{\bullet_1}(X) \otimes E_{\bullet_2}(X) \longrightarrow \pi_{\bullet_2-\bullet_1}(E)
-$$ 
+$$
 
 extends to a compatible pairing of [[Atiyah-Hirzebruch spectral sequences]].
 
@@ -3880,19 +3915,22 @@ extends to a compatible pairing of [[Atiyah-Hirzebruch spectral sequences]].
 
 
 
-### **S.2)** Cobordism theory
+
+## Cobordism theory
  {#S2CobordismTheory}
 
-**Idea.** As one passes from [[abelian groups]] to [[spectra]], a miracle happens: even though the latter are just the proper embodiment of [[linear algebra]] in the context of [[homotopy theory]] ("[[higher algebra]]") their inspection reveals that spectra natively know about deep phenomena of [[differential topology]], [[index theory]] and in fact [[string theory]] (for instance via a close relation between _[[genera and partition functions - table|genera and partition functions]]_). 
+**Idea.** As one passes from [[abelian groups]] to [[spectra]], a miracle happens: even though the latter are just the proper embodiment of [[linear algebra]] in the context of [[homotopy theory]] ("[[higher algebra]]") their inspection reveals that spectra natively know about deep phenomena of [[differential topology]], [[index theory]] and in fact [[string theory]] (for instance via a close relation between _[[genera and partition functions - table|genera and partition functions]]_).
 
-A strong manifestation of this phenomenon comes about in [[complex oriented cohomology theory]]/[[chromatic homotopy theory]] that we eventually come to [below](#ComplexOrientedCohomologyTheory). It turns out to be higher algebra over the complex Thom spectrum [[MU]]. 
+A strong manifestation of this phenomenon comes about in [[complex oriented cohomology theory]]/[[chromatic homotopy theory]] that we eventually come to [below](#ComplexOrientedCohomologyTheory). It turns out to be higher algebra over the complex Thom spectrum [[MU]].
 
 Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The seminal result of [[Thom's theorem]] says that the [[stable homotopy groups]] of [[MO]] form the [[cobordism ring]] of [[cobordism]]-[[equivalence classes]] of [[manifolds]]. In the course of discussing this _[[cobordism theory]]_ one encounters various phenomena whose complex version also governs the complex oriented cohomology theory that we are interested in [below](#ComplexOrientedCohomologyTheory).
 
 **Literature.** ([Kochman 96, chapter I and sections II.2, II6](Kochman96)). A quick efficient account is in ([Malkiewich 11](#Malkiewich11)). See also ([Aguilar-Gitler-Prieto 02, section 11](#AguilarGitlerPrieto02)).
 
 
-#### Classifying spaces and $G$-Structure 
+
+
+### Classifying spaces and $G$-Structure
  {#ClassifyingSpaces}
 
 **Idea.** Every [[manifold]] $X$ of [[dimension]] $n$ carries a canonical [[vector bundle]] of [[rank]] $n$: its [[tangent bundle]]. There is a [[universal vector bundle]] of rank $n$, of which all others arise by [[pullback]], up to [[isomorphism]]. The base space of this universal bundle is hence called the [[classifying space]] and denoted $B GL(n) \simeq B O(n)$ (for $O(n)$ the [[orthogonal group]]). This may be realized as the [[homotopy type]] of a [[direct limit]] of [[Grassmannian manifolds]]. In particular the tangent bundle of a manifold $X$ is classified by a map $X \longrightarrow B O(n)$, unique up to homotopy. For $G$ a [[subgroup]] of $O(n)$, then a lift of this map through the canonical map $B G \longrightarrow B O(n)$ of classifying spaces is a _[[G-structure]]_ on $X$
@@ -3905,7 +3943,7 @@ $$
     \\
     X &\longrightarrow& B O(n)
   }
-$$ 
+$$
 
 for instance an [[orientation]] for the inclusion $SO(n) \hookrightarrow O(n)$ of the [[special orthogonal group]], or an [[almost complex structure]] for the inclusion $U(n) \hookrightarrow O(2n)$ of the [[unitary group]].
 
@@ -3913,7 +3951,9 @@ All this generalizes, for instance from tangent bundles to [[normal bundles]] wi
 
 **Literature.** ([Kochman 96, 1.3-1.4](#Kochman96)), for stable normal structures also ([Stong 68, beginning of chapter II](#Stong68))
 
-##### Coset spaces
+
+
+#### Coset spaces
 
 +-- {: .num_prop #QuotientProjectionForCompactLieGroupActingFreelyOnManifoldIsPrincipa}
 ###### Proposition
@@ -3940,7 +3980,7 @@ $$
   G \longrightarrow G/H
 $$
 
-is an $H$-[[principal bundle]] (hence in particular a [[Serre fibration]]).  
+is an $H$-[[principal bundle]] (hence in particular a [[Serre fibration]]).
 
 =--
 
@@ -3948,7 +3988,7 @@ is an $H$-[[principal bundle]] (hence in particular a [[Serre fibration]]).
 +-- {: .num_prop #ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup}
 ###### Proposition
 
-For $G$ a [[compact Lie group]] and $K \subset H \subset G$ [[closed subspace|closed]] [[subgroups]], then the [[projection]] map on [[coset spaces]] 
+For $G$ a [[compact Lie group]] and $K \subset H \subset G$ [[closed subspace|closed]] [[subgroups]], then the [[projection]] map on [[coset spaces]]
 
 $$
   p \;\colon\; G/K \longrightarrow G/H
@@ -3972,20 +4012,22 @@ $$
 
 =--
 
-##### Orthogonal and Unitary groups
+
+
+#### Orthogonal and Unitary groups
 
 +-- {: .num_prop #OrthogonalGroupIsCompact}
 ###### Proposition
 
 The orthogonal group $O(n)$ is [[compact topological space]], hence in particular a [[compact Lie group]].
- 
+
 =--
 
 +-- {: .num_prop #UnitaryGroupIsCompact}
 ###### Proposition
 
 The unitary group $U(n)$ is [[compact topological space]], hence in particular a [[compact Lie group]].
- 
+
 =--
 
 +-- {: .num_example #nSphereAsCosetSpace}
@@ -4061,7 +4103,7 @@ $$
   \,.
 $$
 
-By prop. \ref{OrthogonalGroupIsCompact} and by corollary \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal}, the projection $O(n+1)\to O(n+1)/O(n)$ is a [[Serre fibration]]. Furthermore, example \ref{nSphereAsCosetSpace} identifies the [[coset]] with the [[n-sphere]] 
+By prop. \ref{OrthogonalGroupIsCompact} and by corollary \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal}, the projection $O(n+1)\to O(n+1)/O(n)$ is a [[Serre fibration]]. Furthermore, example \ref{nSphereAsCosetSpace} identifies the [[coset]] with the [[n-sphere]]
 
 $$
   S^{n}\simeq O(n+1)/O(n)
@@ -4084,7 +4126,7 @@ $$
   \cdots
 $$
 
-Since $\pi_{\lt n}(S^n) = 0$, this implies that 
+Since $\pi_{\lt n}(S^n) = 0$, this implies that
 
 $$
   \pi_{\lt n-1}(O(n))
@@ -4133,7 +4175,7 @@ $$
   \,.
 $$
 
-By prop. \ref{UnitaryGroupIsCompact} and corollary \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal}, the projection $U(n+1)\to U(n+1)/U(n)$ is a [[Serre fibration]]. Furthermore, example \ref{nSphereAsCosetSpace} identifies the [[coset]] with the [[n-sphere|(2n+1)-sphere]] 
+By prop. \ref{UnitaryGroupIsCompact} and corollary \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal}, the projection $U(n+1)\to U(n+1)/U(n)$ is a [[Serre fibration]]. Furthermore, example \ref{nSphereAsCosetSpace} identifies the [[coset]] with the [[n-sphere|(2n+1)-sphere]]
 
 $$
   S^{2n+1}\simeq U(n+1)/U(n)
@@ -4156,7 +4198,7 @@ $$
   \cdots
 $$
 
-Since $\pi_{\leq 2n}(S^{2n+1}) = 0$, this implies that 
+Since $\pi_{\leq 2n}(S^{2n+1}) = 0$, this implies that
 
 $$
   \pi_{\lt 2n}(U(n))
@@ -4178,7 +4220,8 @@ is surjective. Hence now the statement follows by induction over $k-n$.
 
 
 
-##### Stiefel manifolds and Grassmannians
+
+#### Stiefel manifolds and Grassmannians
 
 Throughout we work in the [[category]] $Top_{cg}$ of [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)). For these the [[Cartesian product]] $X \times (-)$ is a [[left adjoint]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#CartesianClosureOfTopcg)) and hence preserves [[colimits]].
 
@@ -4251,7 +4294,7 @@ $$
   \array{
     O(n) &\hookrightarrow& V_n(\mathbb{R}^k)
     \\
-    && \downarrow 
+    && \downarrow
     \\
     && Gr_n(\mathbb{R}^k)
   }
@@ -4263,7 +4306,7 @@ $$
   \array{
     U(n) &\hookrightarrow& V_n(\mathbb{C}^k)
     \\
-    && \downarrow 
+    && \downarrow
     \\
     && Gr_n(\mathbb{C}^k)
   }
@@ -4301,7 +4344,7 @@ $$
 
 =--
 
-A proof is spelled out in ([Hatcher, section 1.2 (pages 31-34)](Grassmannian#Hatcher)). 
+A proof is spelled out in ([Hatcher, section 1.2 (pages 31-34)](Grassmannian#Hatcher)).
 
 +-- {: .num_prop #CWComplexStructureOnStiefelManifold}
 ###### Proposition
@@ -4312,7 +4355,7 @@ The [[Stiefel manifolds]] $V_n(\mathbb{R}^k)$ and $V_n(\mathbb{C}^k)$ from def. 
 
 e.g. ([James 59, p. 3](Stiefel+manifold#James59), [James 76, p. 5 with p. 21](Stiefel+manifold#James76), [Blaszczyk 07](Stiefel+manifold#Blaszczyk07))
 
-(And I suppose with that cell structure the inclusions $V_n(\mathbb{R}^k) \hookrightarrow V_n(\mathbb{R}^{k+1})$ are subcomplex inclusions.) 
+(And I suppose with that cell structure the inclusions $V_n(\mathbb{R}^k) \hookrightarrow V_n(\mathbb{R}^{k+1})$ are subcomplex inclusions.)
 
 
 
@@ -4333,8 +4376,8 @@ $$
     \longrightarrow
   O(k)
     \longrightarrow
-  O(k)/O(k-n) 
-    = 
+  O(k)/O(k-n)
+    =
   V_n(\mathbb{R}^k)
   \,.
 $$
@@ -4381,8 +4424,8 @@ $$
     \longrightarrow
   U(k)
     \longrightarrow
-  U(k)/U(k-n) 
-    = 
+  U(k)/U(k-n)
+    =
   V_n(\mathbb{C}^k)
   \,.
 $$
@@ -4406,28 +4449,29 @@ $$
   \,.
 $$
 
-This implies the claim. 
+This implies the claim.
 
 =--
- 
 
 
-##### Classifying spaces
+
+
+#### Classifying spaces
 
 +-- {: .num_defn #EOn}
 ###### Definition
 
-By def. \ref{RealAndComplexGrassmannian} there are canonical inclusions 
+By def. \ref{RealAndComplexGrassmannian} there are canonical inclusions
 
 $$
   Gr_n(\mathbb{R}^k) \hookrightarrow Gr_n(\mathbb{R}^{k+1})
-$$ 
+$$
 
 and
 
 $$
   Gr_n(\mathbb{C}^k) \hookrightarrow Gr_n(\mathbb{C}^{k+1})
-$$ 
+$$
 
 for all $k \in \mathbb{N}$. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions), or rather in $Top_{cg}$, see [this cor.](Introduction+to+Stable+homotopy+theory#--#P#kTopIsCoreflectiveSubcategory)) over these inclusions is denoted
 
@@ -4444,17 +4488,17 @@ $$
 
 respectively.
 
-Moreover, by def. \ref{StiefelManifold} there are canonical inclusions 
+Moreover, by def. \ref{StiefelManifold} there are canonical inclusions
 
 $$
    V_n(\mathbb{R}^k) \hookrightarrow V_n(\mathbb{R}^{k+1})
-$$ 
+$$
 
 and
 
 $$
   V_n(\mathbb{C}^k) \hookrightarrow V_n(\mathbb{C}^{k+1})
-$$ 
+$$
 
 that are compatible with the $O(n)$-[[action]] and with the $U(n)$-action, respectively. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions), or rather in $Top_{cg}$, see [this cor.](Introduction+to+Stable+homotopy+theory#--#P#kTopIsCoreflectiveSubcategory)) over these inclusions, regarded as equipped with the induced $O(n)$-[[action]], is denoted
 
@@ -4481,7 +4525,7 @@ $$
     \\
     \downarrow
     \\
-    B O(n) 
+    B O(n)
   }
   \right)
   \;\;
@@ -4508,7 +4552,7 @@ $$
     \\
     \downarrow
     \\
-    B U(n) 
+    B U(n)
   }
   \right)
   \;\;
@@ -4548,13 +4592,13 @@ are the corresponding **[[universal vector bundles]]**.
 Since the [[Cartesian product]] $O(n)\times (-)$ in [[compactly generated topological spaces]] preserves colimits, it follows that the colimiting bundle is still an $O(n)$-[[principal bundle]]
 
 $$
-  \begin{aligned} 
+  \begin{aligned}
     (E O(n))/O(n)
     &
     \simeq
     (\underset{\longrightarrow}{\lim}_k V_{n}(\mathbb{R}^k))/O(n)
     \\
-    & \simeq 
+    & \simeq
     \underset{\longrightarrow}{\lim}_k (V_n(\mathbb{R}^k)/O(n))
     \\
     & \simeq
@@ -4612,7 +4656,7 @@ There are canonical maps
 $$
   Gr_{n_1}(\mathbb{R}^{k_1})
   \times
-  Gr_{n_2}(\mathbb{R}^{k_2})  
+  Gr_{n_2}(\mathbb{R}^{k_2})
   \longrightarrow
   Gr_{n_1 + n_2}(\mathbb{R}^{k_1 + k_2})
 $$
@@ -4622,7 +4666,7 @@ and
 $$
   Gr_{n_1}(\mathbb{C}^{k_1})
   \times
-  Gr_{n_2}(\mathbb{C}^{k_2})  
+  Gr_{n_2}(\mathbb{C}^{k_2})
   \longrightarrow
   Gr_{n_1 + n_2}(\mathbb{C}^{k_1 + k_2})
 $$
@@ -4722,7 +4766,7 @@ $$
   \,.
 $$
 
-Since by cor. \ref{EOnIsWeaklyContractible} $\pi_\bullet(E O(n))= 0$, exactness of the sequence implies that 
+Since by cor. \ref{EOnIsWeaklyContractible} $\pi_\bullet(E O(n))= 0$, exactness of the sequence implies that
 
 $$
   \pi_\bullet(B O(n))
@@ -4745,7 +4789,7 @@ For $n \in \mathbb{N}$ there are [[homotopy fiber sequence]] ([def.](Introductio
 
 $$
   S^n
-    \longrightarrow 
+    \longrightarrow
   B O(n)
     \longrightarrow
   B O(n+1)
@@ -4755,7 +4799,7 @@ and
 
 $$
   S^{2n+1}
-    \longrightarrow 
+    \longrightarrow
   B U(n)
     \longrightarrow
   B U(n+1)
@@ -4784,7 +4828,7 @@ such that $S^n$ is the ordinary [[fiber]] of $B O(n)\to \tilde B O(n+1)$, and an
 +-- {: .proof}
 ###### Proof
 
-Take $\tilde B O(n) \coloneqq (E O(n+1))/O(n)$. 
+Take $\tilde B O(n) \coloneqq (E O(n+1))/O(n)$.
 
 To see that the canonical map $B O(n)\longrightarrow (E O(n+1))/O(n)$ is a [[weak homotopy equivalence]] consider the [[commuting diagram]]
 
@@ -4839,9 +4883,9 @@ $$
   O(n+1)/O(n) \simeq S^n
 $$
 
-of example \ref{nSphereAsCosetSpace}. 
+of example \ref{nSphereAsCosetSpace}.
 
-The argument for the complex case is directly analogous, concluding instead with the identification 
+The argument for the complex case is directly analogous, concluding instead with the identification
 
 $$
   U(n+1)/U(n)\simeq S^{2n+1}
@@ -4852,12 +4896,14 @@ from example \ref{nSphereAsCosetSpace}.
 
 =--
 
-##### $G$-Structure on the Stable normal bundle
+
+
+#### $G$-Structure on the Stable normal bundle
 
 +-- {: .num_defn #ClassifyingMapOfNormalBundle}
 ###### Definition
 
-Given a [[smooth manifold]] $X$ of [[dimension]] $n$ and equipped with an [[embedding]] 
+Given a [[smooth manifold]] $X$ of [[dimension]] $n$ and equipped with an [[embedding]]
 
 $$
   i \;\colon\; X \hookrightarrow \mathbb{R}^k
@@ -4867,9 +4913,9 @@ for some $k \in \mathbb{N}$, then the **classifying map of its normal bundle** i
 
 $$
   g_i \;\colon\; X \to Gr_{k-n}(\mathbb{R}^k) \hookrightarrow B O(k-n)
-$$ 
-  
-which sends $x \in X$ to the normal of the [[tangent space]] 
+$$
+
+which sends $x \in X$ to the normal of the [[tangent space]]
 
 $$
   N_x X = (T_x X)^{\perp} \hookrightarrow \mathbb{R}^k
@@ -4886,8 +4932,8 @@ $$
 consisting of those vectors which are [[orthogonal]] to the [[tangent vectors]] of $X$:
 
 $$
-  N_i 
-    \coloneqq 
+  N_i
+    \coloneqq
   \left\{
     x\in X, v \in T_{i(x)}\mathbb{R}^k
     \;\vert\;
@@ -4901,11 +4947,11 @@ $$
 +-- {: .num_defn #BfStructure}
 ###### Definition
 
-A **$(B,f)$-structure** is 
+A **$(B,f)$-structure** is
 
 1. for each $n\in \mathbb{N}$ a [[pointed topological space|pointed]] [[CW-complex]] $B_n \in Top_{CW}^{\ast/}$
 
-1. equipped with a pointed [[Serre fibration]] 
+1. equipped with a pointed [[Serre fibration]]
 
    $$
      \array{
@@ -4948,8 +4994,8 @@ $$
       &\overset{\mu_{n_1, n_2}}{\longrightarrow}&
     B_{n_1 + n_2}
     \\
-    {}^{\mathllap{f_{n_1} \times f_{n_2}}}\downarrow 
-      && 
+    {}^{\mathllap{f_{n_1} \times f_{n_2}}}\downarrow
+      &&
     \downarrow^{\mathrlap{f_{n_1 + n_2}}}
     \\
     B O(n_1) \times B O(n_2)
@@ -4957,7 +5003,7 @@ $$
     B O(n_1 + n_2)
   }
 $$
- 
+
 and which satisfy the evident [[associativity]] and [[unitality]], for $B_0 = \ast$ the unit, and, finally, which commute with the maps $g$ in that all $n_1,n_2, n_3 \in \mathbb{N}$ these squares commute:
 
 
@@ -4967,8 +5013,8 @@ $$
       &\overset{id \times g_{n_2,n_2+n_3}}{\longrightarrow}&
     B_{n_1} \times B_{n_2 + n_3}
     \\
-    {}^{\mathllap{\mu_{n_1, n_2}}}\downarrow 
-      && 
+    {}^{\mathllap{\mu_{n_1, n_2}}}\downarrow
+      &&
     \downarrow^{\mathrlap{\mu_{n_1,n_2 + n_3}}}
     \\
     B_{n_1 + n_2}
@@ -4985,8 +5031,8 @@ $$
       &\overset{g_{n_1,n_1+n_3} \times id}{\longrightarrow}&
     B_{n_1+n_3} \times B_{n_2 }
     \\
-    {}^{\mathllap{\mu_{n_1, n_2}}}\downarrow 
-      && 
+    {}^{\mathllap{\mu_{n_1, n_2}}}\downarrow
+      &&
     \downarrow^{\mathrlap{\mu_{n_1 + n_3 , n_2}}}
     \\
     B_{n_1 + n_2}
@@ -5063,18 +5109,18 @@ Given a [[smooth manifold]] $X$ of [[dimension]] $n$, and given a $(B,f)$-struct
      \,.
    $$
 
-The equivalence relation on such structures is to be that generated by the relation $((i_{X})_1, \hat g_1) \sim ((i_{X})_,\hat g_2)$ if 
+The equivalence relation on such structures is to be that generated by the relation $((i_{X})_1, \hat g_1) \sim ((i_{X})_,\hat g_2)$ if
 
 1. $k_2 \geq k_1$
 
-1. the second inclusion factors through the first as 
+1. the second inclusion factors through the first as
 
    $$
-     (i_X)_2 
-       \;\colon\; 
-     X 
+     (i_X)_2
+       \;\colon\;
+     X
        \overset{(i_X)_1}{\hookrightarrow}
-     \mathbb{R}^{k_1} 
+     \mathbb{R}^{k_1}
        \hookrightarrow
      \mathbb{R}^{k_2}
    $$
@@ -5084,7 +5130,7 @@ The equivalence relation on such structures is to be that generated by the relat
    $$
      \hat g_2
        \;\colon\;
-     X 
+     X
        \overset{\hat g_1}{\longrightarrow}
      B_{k_1-n}
        \overset{g_{k_1-n, k_2-n}}{\longrightarrow}
@@ -5096,21 +5142,24 @@ The equivalence relation on such structures is to be that generated by the relat
 
 
 
-#### Thom spectra
+
+### Thom spectra
  {#ThomSpectra}
- 
-**Idea**. Given a [[vector bundle]] $V$ of rank $n$ over a [[compact topological space]], then its [[one-point compactification]] is equivalently the result of forming the bundle $D(V) \hookrightarrow V$ of unit [[n-balls]], and identifying with one single point all the boundary unit [[n-spheres]] $S(V)\hookrightarrow V$. Generally, this construction $Th(C) \coloneqq D(V)/S(V)$ is called the _[[Thom space]]_ of $V$. 
+
+**Idea**. Given a [[vector bundle]] $V$ of rank $n$ over a [[compact topological space]], then its [[one-point compactification]] is equivalently the result of forming the bundle $D(V) \hookrightarrow V$ of unit [[n-balls]], and identifying with one single point all the boundary unit [[n-spheres]] $S(V)\hookrightarrow V$. Generally, this construction $Th(C) \coloneqq D(V)/S(V)$ is called the _[[Thom space]]_ of $V$.
 
 Thom spaces occur notably as codomains for would-be [[left inverses]] of [[embeddings]] of [[manifolds]] $X \hookrightarrow Y$. The _[[Pontrjagin-Thom collapse map]]_ $Y \to Th(N X)$ of such an embedding is a continuous function going the other way around, but landing not quite in $X$ but in the [[Thom space]] of the [[normal bundle]] of $X$ in $Y$. Composing this further with the classifying map of the [[normal bundle]] lands in the Thom space of the [[universal vector bundle]] over the [[classifying space]] $B O(k)$, denoted $M O(k)$. In particular in the case that $Y = S^n$ is an [[n-sphere]] (and every manifold embeds into a large enough $n$-sphere, see also at [[Whitney embedding theorem]]), the [[Pontryagin-Thom collapse map]] hence associates with every manifold an element of a [[homotopy group]] of a universal Thom space $M O(k)$.
 
-This curious construction turns out to have excellent formal properties: as the dimension ranges, the universal Thom spaces arrange into a [[spectrum]], called the _[[Thom spectrum]]_, and the homotopy groups defined by the Pontryagin-Thom collapse pass along to the [[stable homotopy groups]] of this spectrum. 
+This curious construction turns out to have excellent formal properties: as the dimension ranges, the universal Thom spaces arrange into a [[spectrum]], called the _[[Thom spectrum]]_, and the homotopy groups defined by the Pontryagin-Thom collapse pass along to the [[stable homotopy groups]] of this spectrum.
 
 Moreover, via [[Whitney sum]] of [[vector bundle]] the [[Thom spectrum]] naturally is a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)), and under the Pontryagin-Thom collapse the [[Cartesian product]] of manifolds is compatible with this ring structure.
 
 **Literature.** ([Kochman 96, 1.5](#Kochman96), [Schwede 12, chapter I, example 1.16](#Schwede12))
 
 
-##### Thom spaces
+
+
+#### Thom spaces
 
 +-- {: .num_defn #ThomSpace}
 ###### Definition
@@ -5123,7 +5172,7 @@ Let $X$ be a [[topological space]] and let $V \to X$ be a [[vector bundle]] over
 
    $S(V) \overset{i_V}{\hookrightarrow} D(V) \hookrightarrow V$;
 
-1. the **[[Thom space]]** $Th(V)$ is the [[cofiber]] (formed in [[Top]] ([prop.](Top#DescriptionOfLimitsAndColimitsInTop))) of $i_V$ 
+1. the **[[Thom space]]** $Th(V)$ is the [[cofiber]] (formed in [[Top]] ([prop.](Top#DescriptionOfLimitsAndColimitsInTop))) of $i_V$
 
    $$
      Th(V) \coloneqq cofib(i_V)
@@ -5238,7 +5287,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Notice that 
+Notice that
 
 1. $D(V_1 \oplus V_2) \simeq D(V_2|_{Int D(V_1)}) \cup S(V_1)$;
 
@@ -5284,12 +5333,12 @@ $$
 +-- {: .num_example #ThomSpaceConstructionReducingToSuspension}
 ###### Example
 
-By prop. \ref{SuspensionOfThomSpaces} and remark \ref{ThomSpaceForRankZeroBundle}  the Thom space (def. \ref{ThomSpace}) of a trivial vector bundle of rank $n$ is the $n$-fold [[suspension]] of the base space 
+By prop. \ref{SuspensionOfThomSpaces} and remark \ref{ThomSpaceForRankZeroBundle}  the Thom space (def. \ref{ThomSpace}) of a trivial vector bundle of rank $n$ is the $n$-fold [[suspension]] of the base space
 
 $$
   \begin{aligned}
-    Th(X \times \mathbb{R}^n) 
-    & \simeq S^n \wedge Th(X\times \mathbb{R}^0) 
+    Th(X \times \mathbb{R}^n)
+    & \simeq S^n \wedge Th(X\times \mathbb{R}^0)
     \\
     & \simeq S^n \wedge (X_+)
   \end{aligned}
@@ -5350,7 +5399,7 @@ $$
    \overset{i^\ast}{\longrightarrow}
   H^{\bullet}(S(V))
     \to
-  \cdots  
+  \cdots
   \,.
 $$
 
@@ -5360,7 +5409,7 @@ Since the cohomology in degree $k$ only depends on the $k$-skeleton, and since f
 
 
 
-##### Universal Thom spectra $M G$
+#### Universal Thom spectra $M G$
 
 +-- {: .num_prop #PullbackOfUniversalOnBundleUnderCoordinateRestriction}
 ###### Proposition
@@ -5413,9 +5462,9 @@ $$
   }
 $$
 
-where the bottom morphism is the canonical inclusion ([def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)). 
+where the bottom morphism is the canonical inclusion ([def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)).
 
-Now we claim that taking the [[colimit]] in each of the four corners of this system of pullback diagrams yields again a pullback diagram, and this proves the claim. 
+Now we claim that taking the [[colimit]] in each of the four corners of this system of pullback diagrams yields again a pullback diagram, and this proves the claim.
 
 To see this, remember that we work in the category $Top_{cg}$ of [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)). By their nature, we may test the [[universal property]] of a would-be [[pullback]] space already by mapping [[compact topological spaces]] into it. Now observe that all the inclusion maps in the four corners of this system of diagrams are [[relative cell complex]] inclusions, by prop. \ref{CWComplexStructure}. Together this implies (via [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)) that we may test the universal property of the colimiting square at finite stages. And so this implies the claim by the above fact that at each finite stage there is a pullback diagram.
 
@@ -5430,7 +5479,7 @@ The **universal real [[Thom spectrum]]** $M O$ is the [[spectrum]], which is rep
 
 $$
   (M O)_n \coloneqq Th(E O(n)\underset{O(n)}{\times}\mathbb{R}^n)
-$$ 
+$$
 
 of the rank-$n$ [[universal vector bundle]], and whose structure maps are the image under the [[Thom space]] functor $Th(-)$ of the top morphisms in prop. \ref{PullbackOfUniversalOnBundleUnderCoordinateRestriction}, via the homeomorphisms of prop. \ref{SuspensionOfThomSpaces}:
 
@@ -5438,11 +5487,11 @@ $$
   \sigma_n
    \;\colon\;
   \Sigma (M O)_n
-    \simeq 
+    \simeq
   Th(\mathbb{R}\oplus (E O(n)\underset{O(n)}{\times} \mathbb{R}^n))
-    \stackrel{}{\longrightarrow} 
-  Th(E O(n+1) \underset{O(n+1)}{\times} \mathbb{R}^{n+1}) 
-    = 
+    \stackrel{}{\longrightarrow}
+  Th(E O(n+1) \underset{O(n+1)}{\times} \mathbb{R}^{n+1})
+    =
   (M O)_{n+1}
   \,.
 $$
@@ -5498,7 +5547,7 @@ Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}), then the pul
 
 $$
   \array{
-    \mathbb{R} \oplus V^{\mathcal{B}}_n 
+    \mathbb{R} \oplus V^{\mathcal{B}}_n
       &\overset{e_{n,n+1}}{\longrightarrow}&
     V^{\mathcal{B}}_{n+1}
     \\
@@ -5593,7 +5642,7 @@ $$
   (M \mathcal{B})_{n_1 + n_2}
 $$
 
-which are [[associativity|associative]] by the associativity condition in a multiplicative $(B,f)$-structure. The unit is 
+which are [[associativity|associative]] by the associativity condition in a multiplicative $(B,f)$-structure. The unit is
 
 
 $$
@@ -5626,7 +5675,10 @@ Because in this case $B_n \simeq \ast$ and so $E^{\mathcal{B}}_n \simeq \mathbb{
 
 =--
 
-##### Pontrjagin-Thom construction
+
+
+
+#### Pontrjagin-Thom construction
 
 
 
@@ -5643,7 +5695,7 @@ $$
   \right\}
 $$
 
-for some $\epsilon \in \mathbb{R}$, $\epsilon \gt 0$, small enough such that the map 
+for some $\epsilon \in \mathbb{R}$, $\epsilon \gt 0$, small enough such that the map
 
 $$
   N_i X \longrightarrow \tau_i X
@@ -5655,7 +5707,7 @@ $$
   (i(x),v) \mapsto (i(x), \epsilon (1-e^{- {\vert v\vert}}) v )
 $$
 
-is a [[diffeomorphism]]. 
+is a [[diffeomorphism]].
 
 =--
 
@@ -5679,8 +5731,8 @@ Given an embedding $i \colon X \hookrightarrow \mathbb{R}^k$ with a tubuluar nei
 1. there exists a continous function
 
    $$
-     \mathbb{R}^k 
-       \longrightarrow 
+     \mathbb{R}^k
+       \longrightarrow
      \overline{ \tau_i(X)}/\partial \overline{\tau_i(X)}
    $$
 
@@ -5710,7 +5762,7 @@ The **Pontrjagin-Thom construction** is the further composite
 $$
   \xi_i
   \;\colon\;
-  S^k 
+  S^k
    \longrightarrow
   Th(N_i X)
    \overset{Th(e_i)}{\longrightarrow}
@@ -5719,7 +5771,7 @@ $$
   (M O)_{k-n}
 $$
 
-with the image under the [[Thom space]] construction of the morphism of vector bundles 
+with the image under the [[Thom space]] construction of the morphism of vector bundles
 
 $$
   \array{
@@ -5734,11 +5786,11 @@ $$
 induced by the classifying map $g_i$ of the normal bundle (def. \ref{ClassifyingMapOfNormalBundle}).
 
 
-This defines an element 
+This defines an element
 
 $$
   [S^{n+(k-n)} \overset{\xi_i}{\to} (M O)_{k-n}]
-    \in 
+    \in
   \pi_{n} M O
 $$
 
@@ -5749,7 +5801,7 @@ More generally, for $X$ a smooth manifold with normal [[(B,f)-structure]] $(X,i,
 $$
   \xi_i
     \;\colon\;
-  S^k 
+  S^k
    \longrightarrow
   Th(N_i X)
    \overset{Th(\hat e_i)}{\longrightarrow}
@@ -5758,7 +5810,7 @@ $$
   (M \mathcal{B})_{k-n}
 $$
 
-with 
+with
 
 $$
   \array{
@@ -5798,7 +5850,7 @@ $$
 
 It is clear that the homotopies of classifying maps of $\mathcal{B}$-structures that are devided out in def. \ref{ManifoldWithBfStructure} map to homotopies of representatives of stable homotopy groups. What needs to be shown is that the construction respects the enlargement of the embedding spaces.
 
-Given a embedded manifold $X \overset{i}{\hookrightarrow}\mathbb{R}^{k_1}$ with normal $\mathcal{B}$-structure 
+Given a embedded manifold $X \overset{i}{\hookrightarrow}\mathbb{R}^{k_1}$ with normal $\mathcal{B}$-structure
 
 $$
   \array{
@@ -5824,21 +5876,21 @@ for its image under the [[Pontrjagin-Thom construction]] (def. \ref{PontrjaginTh
 
 $$
   \array{
-    && 
+    &&
     B_{k_1-n}
-      &\overset{g_{k_1-n, k_1+ k_2 -n}}{\longrightarrow}&  
+      &\overset{g_{k_1-n, k_1+ k_2 -n}}{\longrightarrow}&
     B_{k_1 + k_2-n}
     \\
-    & {}^{\mathllap{\hat g_i}}\nearrow 
+    & {}^{\mathllap{\hat g_i}}\nearrow
     &
        \downarrow^{\mathrlap{f_{k_1 - n} \times f_{k_2}}}
      &&
        \downarrow^{\mathrlap{f_{k_1 + k_2-n}}}
     \\
-    X 
-      &\underset{g_i}{\longrightarrow}& 
-    B O(k_1-n) 
-      &\longrightarrow& 
+    X
+      &\underset{g_i}{\longrightarrow}&
+    B O(k_1-n)
+      &\longrightarrow&
     B O(k_1 + k_2-n)
   }
   \,.
@@ -5856,8 +5908,8 @@ $$
     \\
     \downarrow &(pb)& \downarrow &(pb)& \downarrow
     \\
-    X 
-      &\underset{\hat g_i}{\longrightarrow}& 
+    X
+      &\underset{\hat g_i}{\longrightarrow}&
     B_{k_1-n}
       &\underset{g_{k_1-n, k_1 + k_2 - n}}{\longrightarrow}&
     B_{k_1 +k_2 - n}
@@ -5900,7 +5952,9 @@ This manifestly identifies $\alpha_{k_2}$ as being the image of $\alpha$ under t
 
 
 
-#### Bordism and Thom's theorem
+
+
+### Bordism and Thom's theorem
  {#ThomTheorem}
 
 **Idea.** By the [[Pontryagin-Thom collapse]] construction [above](#ThomSpectra), there is an assignment
@@ -5916,7 +5970,7 @@ $$
   \,.
 $$
 
-[[Thom's theorem]] states that this homomorphism is an [[isomorphism]]. 
+[[Thom's theorem]] states that this homomorphism is an [[isomorphism]].
 
 More generally, for $\mathcal{B}$ a multiplicative [[(B,f)-structure]], def. \ref{BfStructure}, there is such an identification
 
@@ -5928,7 +5982,10 @@ between the ring of $\mathcal{B}$-cobordism classes of manifolds with $\mathcal{
 
 **Literature.** ([Kochman 96, 1.5](#Kochman96))
 
-##### Bordism
+
+
+
+#### Bordism
 
 Throughout, let $\mathcal{B}$ be a multiplicative [[(B,f)-structure]] (def. \ref{BfStructure}).
 
@@ -5954,7 +6011,7 @@ $$
   fr \;\colon\; t \mapsto \cos(\pi t) \cdot e_1 + \sin(\pi t) \cdot e_2
 $$
 
-of its [[normal bundle]]. 
+of its [[normal bundle]].
 
 Let now $\mathcal{B}$ be a [[(B,f)-structure]] (def. \ref{BfStructure}). Then for $X \overset{i}{\hookrightarrow}\mathbb{R}^k$ any embedded manifold with $\mathcal{B}$-structure $\hat g \colon X \to B_{k-n}$ on its [[normal bundle]] (def. \ref{ManifoldWithBfStructure}), define its **negative** or **orientation reversal**  $-(X,i,\hat g)$ of $(X,i, \hat g)$ to be the restriction of the structured manifold
 
@@ -5962,7 +6019,7 @@ $$
   (X \times I \overset{(i,e)}{\hookrightarrow} \mathbb{R}^{k+2}, \hat g \times fr)
 $$
 
-to $t = 1$. 
+to $t = 1$.
 
 =--
 
@@ -6016,7 +6073,8 @@ e.g. ([Kochmann 96, prop. 1.5.3](#Kochmann96))
 
 
 
-##### Thom's theorem
+
+#### Thom's theorem
  {#SectionThomTheorem}
 
 Recall that the [[Pontrjagin-Thom construction]] (def. \ref{PontrjaginThomConstruction}) associates to an embbeded manifold $(X,i,\hat g)$ with normal $\mathcal{B}$-structure (def. \ref{ManifoldWithBfStructure}) an element in the [[stable homotopy group]] $\pi_{dim(X)}(M \mathcal{B})$ of the universal $\mathcal{B}$-[[Thom spectrum]] in degree the dimension of that manifold.
@@ -6043,7 +6101,7 @@ from the $\mathcal{B}$-[[bordism ring]] (def. \ref{BordismGroupAndBordismRing}) 
 
 By prop. \ref{PontrjaginThomConstructionGivesWellDefinedStableHomotopyGroup} the underlying function of sets is well-defined before dividing out the bordism relation (def. \ref{BordismRelation}). To descend this further to a function out of the set underlying the bordism ring, we need to see that the Pontrjagin-Thom construction respects the bordism relation. But the definition of bordism is just so as to exhibit under $\xi$ a [[left homotopy]] of representatives of homotopy groups.
 
-Next we need to show that it is 
+Next we need to show that it is
 
 1. a group homomorphism;
 
@@ -6087,7 +6145,7 @@ $$
     B_{k_1 + k_2 - n_1 - n_2}
   }
   \,.
-$$ 
+$$
 
 To the Pontrjagin-Thom construction of the product manifold is by definition the top composite in the diagram
 
@@ -6101,10 +6159,10 @@ $$
       &\overset{\kappa_{k_1-n_1, k_2-n_2}}{\longrightarrow}&
     Th(V^{\mathcal{B}}_{k_1 + k_2 - n_1 - n_2})
     \\
-    {}^{\mathllap{\simeq}}\downarrow 
-      && 
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
     \downarrow^{\mathrlap{\simeq}}
-      && 
+      &&
     \downarrow^{\mathrlap{\simeq}}
       &&
     \downarrow^{\mathrlap{=}}
@@ -6165,16 +6223,16 @@ $$
     \downarrow &(pb)& \downarrow &(pb)& \downarrow
     \\
     B_{k-n}
-      &\longrightarrow& 
-    (B_{k-n})_+ \simeq Th(B_{k-n}) 
+      &\longrightarrow&
+    (B_{k-n})_+ \simeq Th(B_{k-n})
     &\underset{Th(0)}{\longrightarrow}& Th(V^{\mathcal{B}}_{k-n})
     \\
     \downarrow &(pb)& \downarrow &(pb)& \downarrow
     \\
     B O(k-n)
-      &\longrightarrow& 
-    (B O(k-n))_+ \simeq Th(B O(k-n)) 
-      &\longrightarrow& 
+      &\longrightarrow&
+    (B O(k-n))_+ \simeq Th(B O(k-n))
+      &\longrightarrow&
     Th(V^{B O}_{k-n})
   }
   \,.
@@ -6188,7 +6246,7 @@ $$
     \\
     {}^{\mathllap{g_i}}\downarrow &(pb)& \downarrow
     \\
-    Gr_{k-n}(\mathbb{R}^k) 
+    Gr_{k-n}(\mathbb{R}^k)
       &\overset{i}{\longrightarrow}&
     Th( V_{k-n}(\mathbb{R}^k) \underset{O(k-n)}{\times} \mathbb{R}^{k-n})
   }
@@ -6220,14 +6278,14 @@ The first condition is guaranteed by [[Sard's theorem]], the second by [[Thom's 
 
 
 
-#### Thom isomorphism
+### Thom isomorphism
  {#ThomIsomorphism}
 
 
 **Idea.** If a [[vector bundle]] $E \stackrel{p}{\longrightarrow} X$ of [[rank]] $n$ carries a cohomology class $\omega \in H^n(Th(E),R)$  that looks fiberwise like a [[volume form]] -- a [[Thom class]] -- then the operation of pulling back from base space and then forming the [[cup product]] with this [[Thom class]] is an [[isomorphism]] on (reduced) cohomology
 
 $$
-  ( (-) \cup \omega) \circ p^\ast 
+  ( (-) \cup \omega) \circ p^\ast
   \;\colon\;
   H^\bullet(X,R) \stackrel{\simeq}{\longrightarrow} \tilde H^{\bullet+n}(Th(E),R)
   \,.
@@ -6244,7 +6302,10 @@ Composed with pullback along the [[Pontryagin-Thom collapse map]], the Thom isom
 
 **Literature.** ([Kochman 96, 2.6](#Kochman96))
 
-##### Thom-Gysin sequence
+
+
+
+#### Thom-Gysin sequence
 
 The _[[Thom-Gysin sequence]]_ is a type of [[long exact sequence in cohomology]] induced by a [[spherical fibration]] and expressing the [[cohomology groups]] of the total space in terms of those of the base plus correction. The sequence may be obtained as a corollary of the [[Serre spectral sequence]] for the given fibration. It induces, and is induced by, the [[Thom isomorphism]].
 
@@ -6269,9 +6330,9 @@ be a [[Serre fibration]] over a [[simply connected topological space|simply conn
 Then there exists an element $c \in H^{n+1}(E; R)$ (in the [[ordinary cohomology]] of the total space with [[coefficients]] in $R$, called the **Euler class** of $\pi$) such that the [[cup product]] operation $c \cup (-)$ sits in a [[long exact sequence]] of [[cohomology groups]] of the form
 
 $$
-  \cdots 
-   \to 
-   H^k(B; R) 
+  \cdots
+   \to
+   H^k(B; R)
      \stackrel{\pi^\ast}{\longrightarrow}
    H^k(E; R)
     \stackrel{}{\longrightarrow}
@@ -6290,7 +6351,7 @@ $$
 +-- {: .proof #ProofOfThomGysinSequence}
 ###### Proof
 
-Under the given assumptions there is the corresponding [[Serre spectral sequence]] 
+Under the given assumptions there is the corresponding [[Serre spectral sequence]]
 
 $$
   E_2^{s,t}
@@ -6345,7 +6406,7 @@ Now since the [[coefficients]] $R$ is a [[ring]], the [[Serre spectral sequence]
 To make use of this, write
 
 $$
-  \iota \coloneqq 1 \in H^0(B;R) \stackrel{\simeq}{\longrightarrow} E_{n+1}^{0,n} 
+  \iota \coloneqq 1 \in H^0(B;R) \stackrel{\simeq}{\longrightarrow} E_{n+1}^{0,n}
 $$
 
 for the unit in the [[cohomology ring]] $H^\bullet(B;R)$, but regarded as an element in bidegree $(0,n)$ on the $(n+1)$-page of the spectral sequence. (In particular $\iota$ does _not_ denote the unit in bidegree $(0,0)$, and hence $d_{n+1}(\iota)$ need not vanish; while by the [[derivation]] property, it does vanish on the actual unit $1 \in H^0(B;R) \simeq E_{n+1}^{0,0}$.)
@@ -6353,20 +6414,20 @@ for the unit in the [[cohomology ring]] $H^\bullet(B;R)$, but regarded as an ele
 Write
 
 $$
-  c 
-    \coloneqq 
-  d_{n+1}(\iota) 
+  c
+    \coloneqq
+  d_{n+1}(\iota)
    \;\;
-  \in E_{n+1}^{n+1,0} 
-    \stackrel{\simeq}{\longrightarrow} 
+  \in E_{n+1}^{n+1,0}
+    \stackrel{\simeq}{\longrightarrow}
   H^{n+1}(B; R)
 $$
 
 for the image of this element under the differential. We will show that this is the Euler class in question.
 
-To that end, notice that every element in $E_{n+1}^{\bullet,n}$ is of the form $\iota \cdot b$ for $b\in E_{n+1}^{\bullet,0} \simeq H^\bullet(B;R)$. 
+To that end, notice that every element in $E_{n+1}^{\bullet,n}$ is of the form $\iota \cdot b$ for $b\in E_{n+1}^{\bullet,0} \simeq H^\bullet(B;R)$.
 
-(Because the [[multiplicative spectral sequence|multiplicative structure]] gives a group homomorphism $\iota \cdot(-) \colon H^\bullet(B;R) \simeq E_{n+1}^{0,0} \to E^{0,n}_{n+1} \simeq H^\bullet(B;R)$, which is an isomorphism because the product in the spectral sequence does come from the [[cup product]] in the [[cohomology ring]], see for instance ([Kochman 96, first equation in the proof of prop. 4.2.9](#Kochmann96)), and since hence $\iota$ does act like the unit that it is in $H^\bullet(B;R)$). 
+(Because the [[multiplicative spectral sequence|multiplicative structure]] gives a group homomorphism $\iota \cdot(-) \colon H^\bullet(B;R) \simeq E_{n+1}^{0,0} \to E^{0,n}_{n+1} \simeq H^\bullet(B;R)$, which is an isomorphism because the product in the spectral sequence does come from the [[cup product]] in the [[cohomology ring]], see for instance ([Kochman 96, first equation in the proof of prop. 4.2.9](#Kochmann96)), and since hence $\iota$ does act like the unit that it is in $H^\bullet(B;R)$).
 
 
 Now since $d_{n+1}$ is a graded [[derivation]] and vanishes on $E_{n+1}^{\bullet,0}$ (by the above degree reasoning), it follows that its action on any element is uniquely fixed to be given by the product with $c$:
@@ -6420,7 +6481,7 @@ $$
      \downarrow
      \\
      0
-  }  
+  }
   \,.
 $$
 
@@ -6438,13 +6499,13 @@ Concatenating these with the above exact sequences yields the desired [[long exa
 +-- {: .num_lemma #ImplicationsOfSparesnessOfSSSForSphericalFibration}
 ###### Lemma
 
-Consider a cohomology [[spectral sequence]] converging to some [[filtered object|filtered]] [[graded abelian group]] $F^\bullet C^\bullet$ such that 
+Consider a cohomology [[spectral sequence]] converging to some [[filtered object|filtered]] [[graded abelian group]] $F^\bullet C^\bullet$ such that
 
 1. $F^0 C^\bullet = C^\bullet$;
 
 1. $F^{s} C^{\lt s} = 0$;
 
-1. $E_\infty^{s,t} = 0$ unless $t = 0$ or $t = n$, 
+1. $E_\infty^{s,t} = 0$ unless $t = 0$ or $t = n$,
 
 for some $n \in \mathbb{N}$, $n \geq 1$. Then there are [[short exact sequences]] of the form
 
@@ -6475,7 +6536,7 @@ We may use this to either shift away the filtering degree
 
 or to shift away the offset of the filtering to the total degree:
 
-* if $0 \leq t-1 \leq n-1$ then $F^{s+1}C^{s+t} = F^{s+1}C^{(s+1)+(t-1)} 
+* if $0 \leq t-1 \leq n-1$ then $F^{s+1}C^{s+t} = F^{s+1}C^{(s+1)+(t-1)}
   \underoverset{\simeq}{i^{-(t-1)}}{\longrightarrow} F^{s+t}C^{(s+1)+(t-1)} = F^{s+t}C^{s+t}$
 
 Moreover, by the assumption that if $t \lt 0$ then $F^{s}C^{s+t} = 0$, we also get
@@ -6489,33 +6550,33 @@ In summary this yields the vertical isomorphisms
 
 $$
   \array{
-  0 
-    &\to& 
-  F^{s+1}C^{s+n} 
-    &\longrightarrow& 
-  F^{s}C^{s+n} 
-    &\longrightarrow& 
-  E_\infty^{s,n} 
-    &\to& 
+  0
+    &\to&
+  F^{s+1}C^{s+n}
+    &\longrightarrow&
+  F^{s}C^{s+n}
+    &\longrightarrow&
+  E_\infty^{s,n}
+    &\to&
   0
   \\
-  && 
-    {}^{\mathllap{i^{-(n-1)}}}\downarrow^{\mathrlap{\simeq}} 
+  &&
+    {}^{\mathllap{i^{-(n-1)}}}\downarrow^{\mathrlap{\simeq}}
   &&
     {}^{\mathllap{i^{s-1}}}\downarrow^{\mathrlap{\simeq}}
   &&
     \downarrow^{\mathrlap{=}}
   \\
-  0 
-    &\to& 
+  0
+    &\to&
   F^{s+n}C^{s+n}
   \simeq
-  E_\infty^{s+n,0} 
-    &\longrightarrow& 
-  C^{s+n} 
-    &\longrightarrow& 
+  E_\infty^{s+n,0}
+    &\longrightarrow&
+  C^{s+n}
+    &\longrightarrow&
   E_\infty^{s,n}
-    &\to& 
+    &\to&
   0
   }
 $$
@@ -6526,12 +6587,12 @@ and hence with the top sequence here being exact, so is the bottom sequence.
 
 
 
-##### Thom isomorphism
+#### Thom isomorphism
 
 +-- {: .num_prop #ThomIsomorphismOverSimplyConnectedCWComplex}
 ###### Proposition
 
-Let $V \to B$ be a topological [[vector bundle]] of [[rank]] $n \gt 0$ over a [[simply connected topological space|simply connected]] [[CW-complex]] $B$. Let $R$ be a [[commutative ring]]. 
+Let $V \to B$ be a topological [[vector bundle]] of [[rank]] $n \gt 0$ over a [[simply connected topological space|simply connected]] [[CW-complex]] $B$. Let $R$ be a [[commutative ring]].
 
 There exists an element $c \in H^n(Th(V);R)$ (in the [[ordinary cohomology]], with [[coefficients]] in $R$, of the [[Thom space]] of $V$, called a **[[Thom class]]**) such that forming the [[cup product]] with $c$ induces an [[isomorphism]]
 
@@ -6546,9 +6607,9 @@ of degree $n$ from the unreduced [[cohomology group]] of $B$ to the [[reduced co
 =--
 
 +-- {: .proof #ProofOfThomIsomorphismViaFiberwiseThomSpaceFibration}
-###### Proof 
+###### Proof
 
-Choose an [[orthogonal structure]] on $V$. Consider the _fiberwise_ [[cofiber]] 
+Choose an [[orthogonal structure]] on $V$. Consider the _fiberwise_ [[cofiber]]
 
 $$
   E \coloneqq D(V)/_B S(V)
@@ -6577,7 +6638,7 @@ Observe that this has the following properties
 1. the [[Thom space]] $Th(V)\simeq E/B$ is the quotient of $E$ by the base space, because of the [[pasting law]] applied to the following pasting diagram of [[pushout]] squares
 
    $$
-     \array{ 
+     \array{
        S(V) &\longrightarrow& D(V)
        \\
        \downarrow &(po)& \downarrow
@@ -6622,7 +6683,7 @@ $$
     && H^{\bullet-n}(B)
   }
   \,.
-$$ 
+$$
 
 By the second point above this is [[split exact sequence|split]], as shown by the diagonal isomorphism in the top right. By the third point above there is the horizontal exact sequence, as shown, which is the [exact sequence in relative cohomology](generalized+cohomology#ExactnessUnreduced) $\cdots \to H^\bullet(E,B) \to H^\bullet(E) \to H^\bullet(B) \to \cdots$ induced from the section $B \hookrightarrow E$.
 
@@ -6637,7 +6698,7 @@ $$
     \tilde H^\bullet(Th(V))
       &\overset{(id,0)}{\hookrightarrow}&
     \tilde H^\bullet(Th(V))
-      \oplus 
+      \oplus
     H^\bullet(B)
       &\underset{(0,id)}{\longrightarrow}&
     H^\bullet(B)
@@ -6646,7 +6707,7 @@ $$
     \\
     && H^{\bullet-n}(B)
   }
-$$ 
+$$
 
 and hence an isomorphism
 
@@ -6657,11 +6718,11 @@ $$
   \,.
 $$
 
-To see that this is the inverse of a morphism of the form $c \cup (-)$, inspect the [proof of the Gysin sequence](#ProofOfThomGysinSequence). This shows that $H^{\bullet-n}(B)$ here is identified with elements that on the second page of the corresponding [[Serre spectral sequence]] are cup products 
+To see that this is the inverse of a morphism of the form $c \cup (-)$, inspect the [proof of the Gysin sequence](#ProofOfThomGysinSequence). This shows that $H^{\bullet-n}(B)$ here is identified with elements that on the second page of the corresponding [[Serre spectral sequence]] are cup products
 
 $$
   \iota \cup b
-$$ 
+$$
 
 with $\iota$ fiberwise the canonical class $1 \in H^n(S^n)$ and with $b \in H^\bullet(B)$ any element. Since $H^\bullet(-;R)$ is a [[multiplicative cohomology theory]] (because the [[coefficients]] form a [[ring]] $R$), cup producs are preserved as one passes to the $E_\infty$-page of the spectral sequence, and the morphism $H^\bullet(E) \to B^\bullet(B)$ above, hence also the isomorphism $\tilde H^\bullet(Th(V)) \to H^\bullet(B)$, factors through the $E_\infty$-page (see towards the end of the [proof of the Gysin sequence](#ProofOfThomGysinSequence)). Hence the image of $\iota$ on the $E_\infty$-page is the Thom class in question.
 
@@ -6670,7 +6731,7 @@ with $\iota$ fiberwise the canonical class $1 \in H^n(S^n)$ and with $b \in H^\b
 
 
 
-#### Orientation in generalized cohomology
+### Orientation in generalized cohomology
  {#OrientationAndFiberIntegration}
 
 
@@ -6687,29 +6748,31 @@ Specifically we are interested in [[complex oriented cohomology]] theories $E$, 
 
 $\,$
 
-##### Universal $E$-orientation
+
+
+#### Universal $E$-orientation
 
 +-- {: .num_defn #EOrientationOfAVectorBundle}
 ###### Definition
 
-Let $E$  be a [[multiplicative cohomology theory]] (def. \ref{MultiplicativeCohomologyTheory}) and let $V \to X$ be a topological [[vector bundle]] of [[rank]] $n$. Then an **$E$-[[orientation in generalized cohomology|orientation]]** or **$E$-[[Thom class]]** on $V$ is an element of degree $n$ 
+Let $E$  be a [[multiplicative cohomology theory]] (def. \ref{MultiplicativeCohomologyTheory}) and let $V \to X$ be a topological [[vector bundle]] of [[rank]] $n$. Then an **$E$-[[orientation in generalized cohomology|orientation]]** or **$E$-[[Thom class]]** on $V$ is an element of degree $n$
 
 $$
   u \in \tilde E^n(Th(V))
-$$ 
+$$
 
-in the [[reduced cohomology|reduced]] $E$-[[cohomology ring]] of the [[Thom space]] (def. \ref{ThomSpace}) of $V$, such that for every point $x \in X$ its restriction $i_x^* u$ along 
+in the [[reduced cohomology|reduced]] $E$-[[cohomology ring]] of the [[Thom space]] (def. \ref{ThomSpace}) of $V$, such that for every point $x \in X$ its restriction $i_x^* u$ along
 
 $$
-  i_x 
-    \;\colon\; 
+  i_x
+    \;\colon\;
   S^n \simeq Th(\mathbb{R}^n) \overset{Th(e_x)}{\longrightarrow} Th(V)
-$$ 
+$$
 
 (for $\mathbb{R}^n \overset{fib_x}{\hookrightarrow} V$ the [[fiber]] of $V$ over $x$) is a _generator_, in that it is of the form
 
 $$
-  i^\ast u = \epsilon \cdot \gamma_n 
+  i^\ast u = \epsilon \cdot \gamma_n
 $$
 
 for
@@ -6717,7 +6780,7 @@ for
 * $\epsilon \in \tilde E^0(S^0) $ a [[unit]] in $E^\bullet$;
 
 * $\gamma_n \in \tilde E^n(S^n)$ the image of the multiplicative unit
-  under the [[suspension isomorphism]] $\tilde E^0(S^0) \stackrel{\simeq}{\to}\tilde E^n(S^n)$.   
+  under the [[suspension isomorphism]] $\tilde E^0(S^0) \stackrel{\simeq}{\to}\tilde E^n(S^n)$.
 
 =--
 
@@ -6726,13 +6789,13 @@ for
 +-- {: .num_remark}
 ###### Remark
 
-Recall that a _[[(B,f)-structure]]_ $\mathcal{B}$ (def. \ref{BfStructure}) is a system of [[Serre fibrations]] $B_n \overset{f_n}{\longrightarrow} B O(n)$ over the [[classifying spaces]] for [[orthogonal structure]] equipped with maps  
+Recall that a _[[(B,f)-structure]]_ $\mathcal{B}$ (def. \ref{BfStructure}) is a system of [[Serre fibrations]] $B_n \overset{f_n}{\longrightarrow} B O(n)$ over the [[classifying spaces]] for [[orthogonal structure]] equipped with maps
 
 $$
   g_{n,n+1} \;\colon\; B_n \longrightarrow B_{n+1}
-$$ 
+$$
 
-covering the canonical inclusions of classifying spaces. For instance for $G_n \to O(n)$ a compatible system of [[topological group]] [[homomorphisms]], then the $(B,f)$-structure given by the [[classifying spaces]] $B G_n$ (possibly suitably resolved for the maps $B G_n \to B O(n)$ to become Serre fibrations) defines _[[G-structure]]_. 
+covering the canonical inclusions of classifying spaces. For instance for $G_n \to O(n)$ a compatible system of [[topological group]] [[homomorphisms]], then the $(B,f)$-structure given by the [[classifying spaces]] $B G_n$ (possibly suitably resolved for the maps $B G_n \to B O(n)$ to become Serre fibrations) defines _[[G-structure]]_.
 
 Given a $(B,f)$-structure, then there are the [[pullbacks]] $V^{\mathcal{B}}_n \coloneqq f_n^\ast (E O(n)\underset{O(n)}{\times}\mathbb{R}^n)$ of the [[universal vector bundles]] over $B O(n)$, which are the _universal vector bundles equipped with $(B,f)$-structure_
 
@@ -6750,10 +6813,10 @@ $$
 Finally recall that there are canonical morphisms ([prop.](Thom+spectrum#PullbackOfUniversalOnBundleUnderCoordinateRestriction))
 
 $$
-  \phi_n 
-    \;\colon\; 
-  \mathbb{R} \oplus V^{\mathcal{B}}_n 
-    \longrightarrow 
+  \phi_n
+    \;\colon\;
+  \mathbb{R} \oplus V^{\mathcal{B}}_n
+    \longrightarrow
   V^{\mathcal{B}}_{n+1}
 $$
 
@@ -6766,8 +6829,8 @@ $$
 Let $E$  be a [[multiplicative cohomology theory]] and let $\mathcal{B}$ be a multiplicative [[(B,f)-structure]]. Then a **universal $E$-orientation for vector bundles with $\mathcal{B}$-structure** is an $E$-orientation, according to def. \ref{EOrientationOfAVectorBundle}, for each rank-$n$ universal vector bundle with $\mathcal{B}$-structure:
 
 $$
-  \xi_n 
-    \in 
+  \xi_n
+    \in
   \tilde E^n(Th(E_n^{\mathcal{B}}))
   \;\;\;\;
   \forall n \in \mathbb{N}
@@ -6777,24 +6840,24 @@ such that these are compatible in that
 
 1. for all $n \in \mathbb{N}$ then
 
-   $$  
+   $$
      \xi_n = \phi_n^\ast \xi_{n+1}
      \,,
    $$
 
-   where 
+   where
 
    $$
-     \xi_n 
-      \in 
-     \tilde E^n(Th(V_n)) 
-       \simeq 
+     \xi_n
+      \in
+     \tilde E^n(Th(V_n))
+       \simeq
      \tilde E^{n+1}(\Sigma Th(V_n))
-        \simeq 
-     \tilde E^{n+1}(Th(\mathbb{R}\oplus V_n))   
+        \simeq
+     \tilde E^{n+1}(Th(\mathbb{R}\oplus V_n))
    $$
 
-   (with the first isomorphism is the [[suspension isomorphism]] of $E$ and the second exhibiting the [[homeomorphism]] of Thom spaces $Th(\mathbb{R} \oplus V)\simeq \Sigma Th(V)$ (prop. \ref{SuspensionOfThomSpaces}) and where 
+   (with the first isomorphism is the [[suspension isomorphism]] of $E$ and the second exhibiting the [[homeomorphism]] of Thom spaces $Th(\mathbb{R} \oplus V)\simeq \Sigma Th(V)$ (prop. \ref{SuspensionOfThomSpaces}) and where
 
    $$
      \phi_n^\ast
@@ -6831,7 +6894,7 @@ from the universal $\mathcal{B}$-[[Thom spectrum]] to a spectrum which via the [
 +-- {: .proof}
 ###### Proof
 
-The [[Thom spectrum]] $M\mathcal{B}$ has a standard structure of a [[CW-spectrum]]. Let now $E$ denote a [[sequential spectrum|sequential]] [[Omega-spectrum]] representing the multiplicative cohomology theory of the same name. Since, in the standard [[model structure on topological sequential spectra]], [[CW-spectra]] are cofibrant ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra)) and Omega-spectra are fibrant ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentialSpectraIsModelCategory)) we may represent all morphisms in the [[stable homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory)) by actual morphisms 
+The [[Thom spectrum]] $M\mathcal{B}$ has a standard structure of a [[CW-spectrum]]. Let now $E$ denote a [[sequential spectrum|sequential]] [[Omega-spectrum]] representing the multiplicative cohomology theory of the same name. Since, in the standard [[model structure on topological sequential spectra]], [[CW-spectra]] are cofibrant ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra)) and Omega-spectra are fibrant ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentialSpectraIsModelCategory)) we may represent all morphisms in the [[stable homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory)) by actual morphisms
 
 $$
   \xi
@@ -6846,7 +6909,7 @@ of sequential spectra (due to [this lemma](Introduction+to+Stable+homotopy+theor
 Now by definition ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialSpectra)) such a homomorphism is precissely a sequence of base-point preserving [[continuous functions]]
 
 $$
-  \xi_n 
+  \xi_n
     \;\colon\;
   (M\mathcal{B})_n
    =
@@ -6863,8 +6926,8 @@ $$
      &\overset{S^1 \wedge \xi_n}{\longrightarrow}&
     S^1 \wedge E_n
     \\
-    {}^{\mathllap{\sigma^{M\mathcal{B}}_n}}\downarrow 
-      && 
+    {}^{\mathllap{\sigma^{M\mathcal{B}}_n}}\downarrow
+      &&
     \downarrow^{\mathrlap{\sigma^E_n}}
     \\
     Th(V^{\mathcal{B}}_{n+1})
@@ -6879,8 +6942,8 @@ $$
        &\overset{\xi_n}{\longrightarrow}&
      E_n
      \\
-     {}^{\mathllap{\tilde \sigma^{M\mathcal{B}}_n}}\downarrow 
-       && 
+     {}^{\mathllap{\tilde \sigma^{M\mathcal{B}}_n}}\downarrow
+       &&
      \downarrow^{\mathrlap{\tilde \sigma^E_n}}
      \\
      Maps(S^1,Th(V^{\mathcal{B}}_{n+1}))
@@ -6889,7 +6952,7 @@ $$
   }
 $$
 
-for all $n \in \mathbb{N}$. 
+for all $n \in \mathbb{N}$.
 
 First of all this means (via the identification given by the [[Brown representability theorem]], see prop. \ref{AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum}, that the components $\xi_n$ are equivalently representatives of elements in the [[cohomology groups]]
 
@@ -6901,13 +6964,13 @@ $$
 
 Now by the definition of universal [[Thom spectra]] (def. \ref{UniversalThomSpectrum}, def. \ref{UniversalThomSpectrumForBfStructure}), the structure map $\sigma_n^{M\mathcal{B}}$ is just the map $\phi_n \colon \mathbb{R}\oplus Th(V^{\mathcal{B}}_n)\to Th(V_{n+1}^{\mathcal{B}})$ from above.
 
-Moreover, by the [[Brown representability theorem]], the [[adjunct]]   $\tilde \sigma_n^E \circ \xi_n$ (on the right) of $\sigma^E_n \circ S^1 \wedge \xi_n$ (on the left) is what represents (again by prop. \ref{AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum}) the image of 
+Moreover, by the [[Brown representability theorem]], the [[adjunct]]   $\tilde \sigma_n^E \circ \xi_n$ (on the right) of $\sigma^E_n \circ S^1 \wedge \xi_n$ (on the left) is what represents (again by prop. \ref{AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum}) the image of
 
 $$
   \xi_n \in E^n(Th(V^{\mathcal{B}}_n))
 $$
 
-under the [[suspension isomorphism]]. Hence the [[commutative square|commutativity]] of the above squares is equivalently the first compatibility condition from def. \ref{EOrientationOfABfStructure}: $\xi_n \simeq \phi_n^\ast \xi_{n+1}$ in $\tilde E^{n+1}(Th(\mathbb{R}\oplus V_n^{\mathcal{B}}))$ 
+under the [[suspension isomorphism]]. Hence the [[commutative square|commutativity]] of the above squares is equivalently the first compatibility condition from def. \ref{EOrientationOfABfStructure}: $\xi_n \simeq \phi_n^\ast \xi_{n+1}$ in $\tilde E^{n+1}(Th(\mathbb{R}\oplus V_n^{\mathcal{B}}))$
 
 Next,  $\xi$ being a homomorphism of [[ring spectra]] means equivalently (we should be modelling $M\mathcal{B}$ and $E$ as [[structured spectra]] ([here.](Introduction+to+Stable+homotopy+theory+--+1-1#DiagramSpectra)) to be more precise on this point, but the conclusion is the same) that for all $n_1, n_2\in \mathbb{N}$ then
 
@@ -6917,8 +6980,8 @@ $$
       &\overset{}{\longrightarrow}&
     Th(V_{n_1 + n_2})
     \\
-    {}^{\mathllap{\xi_{n_1} \wedge \xi_{n_2}}}\downarrow 
-      && 
+    {}^{\mathllap{\xi_{n_1} \wedge \xi_{n_2}}}\downarrow
+      &&
     \downarrow^{\mathrlap{\xi_{n_1 + n_2}}}
     \\
     E_{n_1} \wedge E_{n_2}
@@ -6942,18 +7005,18 @@ $$
 This is given by the component maps
 
 $$
-  e_n 
+  e_n
     \;\colon\;
-  S^n 
+  S^n
     \simeq
   Th(\mathbb{R}^n)
     \longrightarrow
   Th(V_{n}^{\mathcal{B}})
 $$
 
-that are induced by including the fiber of $V_{n}^{\mathcal{B}}$. 
+that are induced by including the fiber of $V_{n}^{\mathcal{B}}$.
 
-Accordingly the composite 
+Accordingly the composite
 
 $$
   \mathbb{S}
@@ -6968,7 +7031,9 @@ has as components the restrictions $i^\ast \xi_n$ appearing in def. \ref{EOrient
 =--
 
 
-##### Complex projective space
+
+
+#### Complex projective space
 
 For the fine detail of the discussion of [[complex oriented cohomology theories]] [below](#ComplexOrientatioon), we recall basic facts about [[complex projective space]].
 
@@ -6977,10 +7042,10 @@ Complex projective space $\mathbb{C}P^n$ is the [[projective space]] $\mathbb{A}
 As $n$ ranges, there are natural inclusions
 
 $$
-  \ast = \mathbb{C}P^0 
-    \hookrightarrow 
-  \mathbb{C}P^1 
-    \hookrightarrow 
+  \ast = \mathbb{C}P^0
+    \hookrightarrow
+  \mathbb{C}P^1
+    \hookrightarrow
   \mathbb{C}P^2
     \hookrightarrow
   \mathbb{C}P^3
@@ -6998,7 +7063,7 @@ For $n \in \mathbb{N}$, then **complex $n$-dimensional complex projective space*
 
 $$
   \mathbb{C}P^n \coloneqq (\mathbb{C}^{n+1}-\{0\})/_\sim
-$$ 
+$$
 
 of the [[Cartesian product]] of $(n+1)$-copies of the [[complex plane]], with the origin removed, by the [[equivalence relation]]
 
@@ -7048,9 +7113,9 @@ $$
 +-- {: .num_prop #ComplexProjectiveSpaceAsS1Quotient}
 ###### Proposition
 
-For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiveSpace}, is equivalently 
+For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiveSpace}, is equivalently
 
-1. the [[coset]] 
+1. the [[coset]]
 
    $$
      \mathbb{C}P^n \simeq U(n+1)/(U(n) \times U(1))
@@ -7071,7 +7136,7 @@ For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiv
 
 To see the second characterization from def. \ref{ComplexProjectiveSpace}:
 
-With ${\vert -\vert} \colon \mathbb{C}^{n} \longrightarrow \mathbb{R}$ the standard [[norm]], then every element $\vec z \in \mathbb{C}^{n+1}$ is identified under the defining equivalence relation with 
+With ${\vert -\vert} \colon \mathbb{C}^{n} \longrightarrow \mathbb{R}$ the standard [[norm]], then every element $\vec z \in \mathbb{C}^{n+1}$ is identified under the defining equivalence relation with
 
 $$
   \frac{1}{\vert \vec z\vert}\vec z \in S^{2n-1} \hookrightarrow \mathbb{C}^{n+1}
@@ -7092,7 +7157,7 @@ $$
   \array{
      S^{2n+1} &\longrightarrow& S^{2n+1}/S^1 \simeq \mathbb{C}P^n
      \\
-     {}^{\mathllap{\iota_{2n+2}}}\downarrow 
+     {}^{\mathllap{\iota_{2n+2}}}\downarrow
        &(po)& \downarrow
      \\
      D^{2n+2} &\longrightarrow& \mathbb{C}P^{n+1}
@@ -7105,24 +7170,24 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Given homogenous coordinates $(z_0, z_1, \cdots, z_n, z_{n+1}, z_{n+2}) \in \mathbb{C}^{n+2}$ for $\mathbb{C}P^{n+1}$, let 
+Given homogenous coordinates $(z_0, z_1, \cdots, z_n, z_{n+1}, z_{n+2}) \in \mathbb{C}^{n+2}$ for $\mathbb{C}P^{n+1}$, let
 
 $$
   \phi \coloneqq -arg(z_{n+2})
-$$ 
+$$
 
 be the [[phase]] of $z_{n+2}$. Then under the equivalence relation defining $\mathbb{C}P^{n+1}$ these coordinates represent the same element as
 
 $$
   \frac{1}{\vert \vec z\vert}(e^{i \phi} z_0, e^{i \phi}z_1,\cdots, e^{i \phi}z_{n+1}, r)
   \,,
-$$ 
+$$
 
-where 
+where
 
 $$
   r = {\vert z_{n+2}\vert}\in [0,1) \subset \mathbb{C}
-$$ 
+$$
 
 is the [[absolute value]] of $z_{n+2}$. Representatives $\vec z'$ of this form (${\vert \vec z' \vert = 1}$ and $z'_{n+2} \in [0,1]$) parameterize the [[n-disk|2n+2-disk]] $D^{2n+2}$ ($2n+3$ real parameters subject to the one condition that the sum of their norm squares is unity) with [[boundary]] the $(2n+1)$-sphere at $r = 0$. The only remaining part of the action of $\mathbb{C}-\{0\}$ which fixes the form of these representatives is $S^1$ acting on the elements with $r = 0$ by phase shifts on the $z_0, \cdots, z_{n+1}$. The quotient of this remaining action on $D^{2(n+1)}$ identifies its boundary $S^{2n+1}$-sphere with $\mathbb{C}P^{n}$, by prop. \ref{ComplexProjectiveSpaceAsS1Quotient}.
 
@@ -7137,7 +7202,7 @@ $$
   H_k(\mathbb{C}P^n,A)\simeq
   \left\{
     \array{
-       A & for \; k \;even\; and \; k \leq 2n 
+       A & for \; k \;even\; and \; k \leq 2n
        \\
        0 & otherwise
     }
@@ -7145,14 +7210,14 @@ $$
   \,.
 $$
 
-Similarly the [[ordinary cohomology]] [[cohomology groups|groups]] of $\mathbb{C}P^n$ is 
+Similarly the [[ordinary cohomology]] [[cohomology groups|groups]] of $\mathbb{C}P^n$ is
 
 $$
   H^k(\mathbb{C}P^n,A)
    \simeq
   \left\{
     \array{
-       A & for \; k \;even\; and \; k \leq 2n 
+       A & for \; k \;even\; and \; k \leq 2n
        \\
        0 & otherwise
     }
@@ -7186,24 +7251,24 @@ $$
 +-- {: .proof}
 ###### Proof
 
-First consider the case that the coefficients are the [[integers]] $A = \mathbb{Z}$. 
+First consider the case that the coefficients are the [[integers]] $A = \mathbb{Z}$.
 
 Since $\mathbb{C}P^n$ admits the structure of a [[CW-complex]] by prop. \ref{CellComplexStructureOnComplexProjectiveSpace}, we may compute its [[ordinary homology]] equivalently as its [[cellular homology]] ([thm.](Introduction+to+Stable+homotopy+theory+--+I#CelluarEquivalentToSingularFromSpectralSequence)). By definition ([defn.](cellular+homology#CellularChainComplex)) this is the [[chain homology]] of the chain complex of [[relative homology]] groups
 
 $$
   \cdots
-    \overset{\partial_{cell}}{\longrightarrow}   
+    \overset{\partial_{cell}}{\longrightarrow}
   H_{q+2}((\mathbb{C}P^n)_{q+2}, (\mathbb{C}P^n)_{q+1})
-   \overset{\partial_{cell}}{\longrightarrow}   
+   \overset{\partial_{cell}}{\longrightarrow}
   H_{q+1}((\mathbb{C}P^n)_{q+1}, (\mathbb{C}P^n)_{q})
    \overset{\partial_{cell}}{\longrightarrow}
   H_{q}((\mathbb{C}P^n)_{q}, (\mathbb{C}P^n)_{q-1})
-    \overset{\partial_{cell}}{\longrightarrow}   
-  \cdots  
+    \overset{\partial_{cell}}{\longrightarrow}
+  \cdots
   \,,
 $$
 
-where $(-)_q$ denotes the $q$th stage of the [[CW-complex]]-structure. Using the CW-complex structure provided by prop. \ref{CellComplexStructureOnComplexProjectiveSpace}, then there are cells only in every second degree, so that 
+where $(-)_q$ denotes the $q$th stage of the [[CW-complex]]-structure. Using the CW-complex structure provided by prop. \ref{CellComplexStructureOnComplexProjectiveSpace}, then there are cells only in every second degree, so that
 
 $$
   (\mathbb{C}P^n)_{2k+1} = (\mathbb{C}P)_{2k}
@@ -7261,10 +7326,10 @@ This also implies that the projection maps
 
 $$
   H^\bullet((\mathbb{C}P^\infty)_{2n+2}, R)
-  = 
-  H^\bullet(\mathbb{C}P^{n+1}, R) 
-  \to 
-  H^\bullet(\mathbb{C}P^{n+}, R) 
+  =
+  H^\bullet(\mathbb{C}P^{n+1}, R)
+  \to
+  H^\bullet(\mathbb{C}P^{n+}, R)
   =
   H^\bullet((\mathbb{C}P^\infty)_{2n}, R)
 $$
@@ -7275,8 +7340,8 @@ $$
   \begin{aligned}
     H^\bullet(\mathbb{C}P^\infty, R)
     \\
-    & 
-     \simeq 
+    &
+     \simeq
     H^\bullet( \underset{\longleftarrow}{\lim}_n \mathbb{C}P^n , R)
    \\
     &\simeq \underset{\longrightarrow}{\lim}_n H^\bullet(\mathbb{C}P^n, R)
@@ -7297,7 +7362,7 @@ where the last step is [this prop.](formal+scheme#FormalPowerSeries).
 
 There is in general a choice to be made in interpreting the [[cohomology groups]] of a [[multiplicative cohomology theory]] $E$ (def. \ref{MultiplicativeCohomologyTheory}) as a [[ring]]:
 
-a priori $E^\bullet(X)$ is a sequence 
+a priori $E^\bullet(X)$ is a sequence
 
 $$
   \{E^n(X)\}_{n \in \mathbb{Z}}
@@ -7375,7 +7440,9 @@ See also for instance remark 1.1. in [[Jacob Lurie]]: _[[A Survey of Elliptic Co
 =--
 
 
-##### Complex orientation
+
+
+#### Complex orientation
  {#ComplexOrientatioon}
 
 +-- {: .num_defn #ComplexOrientedCohomologyTheories}
@@ -7402,13 +7469,13 @@ A [[multiplicative cohomology theory]] $E$ (def. \ref{MultiplicativeCohomologyTh
 
 1. The element $1 \in \pi_0(E)$ is in the [[image]] of the morphism $\tilde i^\ast$.
 
-A **complex orientation** on a [[multiplicative cohomology theory]] $E^\bullet$ is an element 
+A **complex orientation** on a [[multiplicative cohomology theory]] $E^\bullet$ is an element
 
 $$
   c_1^E \in \tilde E^2(B U(1))
 $$
 
-(the "first [[generalized Chern class]]") such that 
+(the "first [[generalized Chern class]]") such that
 
 $$
   i^\ast c^E_1 = 1 \in \pi_0(E)
@@ -7420,7 +7487,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Since $B U(1) \simeq K(\mathbb{Z},2)$ is the [[classifying space]] for [[complex line bundles]], it follows that a complex orientation on $E^\bullet$ induces an $E$-[[generalized Chern class|generalization]] of the [[first Chern class]] which to a [[complex line bundle]] $\mathcal{L}$ on $X$ classified by $\phi \colon X \to B U(1)$ assigns the class $c_1(\mathcal{L}) \coloneqq \phi^\ast c_1^E$. This construction extends to a general construction of $E$-[[Chern classes]]. 
+Since $B U(1) \simeq K(\mathbb{Z},2)$ is the [[classifying space]] for [[complex line bundles]], it follows that a complex orientation on $E^\bullet$ induces an $E$-[[generalized Chern class|generalization]] of the [[first Chern class]] which to a [[complex line bundle]] $\mathcal{L}$ on $X$ classified by $\phi \colon X \to B U(1)$ assigns the class $c_1(\mathcal{L}) \coloneqq \phi^\ast c_1^E$. This construction extends to a general construction of $E$-[[Chern classes]].
 
 =--
 
@@ -7428,7 +7495,7 @@ Since $B U(1) \simeq K(\mathbb{Z},2)$ is the [[classifying space]] for [[complex
 +-- {: .num_prop #CohomologyRingOfBU1ForComplexOrientedCohomologyTheory}
 ###### Proposition
 
-Given a [[complex oriented cohomology theory]] $(E^\bullet, c^E_1)$ (def. \ref{ComplexOrientedCohomologyTheories}), then there is an [[isomorphism]] of [[graded rings]] 
+Given a [[complex oriented cohomology theory]] $(E^\bullet, c^E_1)$ (def. \ref{ComplexOrientedCohomologyTheories}), then there is an [[isomorphism]] of [[graded rings]]
 
 $$
   E^\bullet(\mathbb{C}P^\infty) \simeq E^\bullet(\ast)[ [ c_1^E ] ]
@@ -7444,7 +7511,7 @@ between the $E$-[[cohomology ring]] of infinite-dimensional complex projective s
 
 Using the [[CW-complex]]-structure on $\mathbb{C}P^\infty$ from prop. \ref{CellComplexStructureOnComplexProjectiveSpace}, given by inductively identifying $\mathbb{C}P^{n+1}$ with the result of attaching a single $2n$-cell to $\mathbb{C}P^n$. With this structure, the unique 2-cell inclusion $i \;\colon\; S^2 \hookrightarrow \mathbb{C}P^\infty$ is identified with the canonical map $S^2 \to B U(1)$.
 
-Then consider the [[Atiyah-Hirzebruch spectral sequence]] (prop. \ref{AHSSExistence}) for the $E$-cohomology of $\mathbb{C}P^n$. 
+Then consider the [[Atiyah-Hirzebruch spectral sequence]] (prop. \ref{AHSSExistence}) for the $E$-cohomology of $\mathbb{C}P^n$.
 
 $$
   H^\bullet(\mathbb{C}P^n, E^\bullet(\ast))
@@ -7453,7 +7520,7 @@ $$
   \,.
 $$
 
-Since, by prop. \ref{OrdinaryCohomologyOfComplexProjectiveSpace}, the [[ordinary cohomology]] with [[integer]] [[coefficients]] of complex projective space is 
+Since, by prop. \ref{OrdinaryCohomologyOfComplexProjectiveSpace}, the [[ordinary cohomology]] with [[integer]] [[coefficients]] of complex projective space is
 
 $$
   H^\bullet(\mathbb{C}P^n, \mathbb{Z}) \simeq \mathbb{Z}[c_1]/((c_1)^{n+1})
@@ -7529,10 +7596,10 @@ A first consequence is that the projection maps
 
 $$
   E^\bullet((\mathbb{C}P^\infty)_{2n+2})
-  = 
-  E^\bullet(\mathbb{C}P^{n+1}) 
-  \to 
-  E^\bullet(\mathbb{C}P^{n+}) 
+  =
+  E^\bullet(\mathbb{C}P^{n+1})
+  \to
+  E^\bullet(\mathbb{C}P^{n+})
   =
   E^\bullet((\mathbb{C}P^\infty)_{2n})
 $$
@@ -7545,7 +7612,7 @@ $$
      & \simeq
     E^\bullet(\mathbb{C}P^\infty)
     \\
-    & \simeq 
+    & \simeq
     E^\bullet( \underset{\longleftarrow}{\lim}_n \mathbb{C}P^n )
    \\
     &\simeq \underset{\longrightarrow}{\lim}_n E^\bullet(\mathbb{C}P^n)
@@ -7566,13 +7633,15 @@ where the last step is [this prop.](formal+scheme#FormalPowerSeries).
 
 $\,$
 
-### **S.3)** Complex oriented cohomology
+
+
+## Complex oriented cohomology
  {#ComplexOrientedCohomologyTheory}
 
 
 **Idea.** Given the concept of [[orientation in generalized cohomology]] as [above](#OrientationAndFiberIntegration), it is clearly of interest to consider [[cohomology theories]] $E$ such that there exists an [[orientation in generalized cohomology|orientation]]/[[Thom class]] on the [[universal vector bundle]] over any [[classifying space]] $B G$ (or rather: on its induced [[spherical fibration]]), because then _all_ $G$-[[associated bundle|associated]] [[vector bundles]] inherit an orientation.
 
-Considering this for $G = U(n)$ the [[unitary groups]] yields the concept of _[[complex oriented cohomology theory]]_. 
+Considering this for $G = U(n)$ the [[unitary groups]] yields the concept of _[[complex oriented cohomology theory]]_.
 
 It turns out that a complex orientation on a generalized cohomology theory $E$ in this sense is already given by demanding that there is a suitable generalization of the [[first Chern class]] of [[complex line bundles]] in $E$-cohomology. By the [[splitting principle]], this already implies the existence of [[generalized Chern classes]] ([[Conner-Floyd Chern classes]]) of all degrees, and these are the required universal generalized [[Thom classes]].
 
@@ -7583,10 +7652,12 @@ Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply ad
 
 
 
-#### Chern classes
+
+
+### Chern classes
  {#ChernClasses}
 
-**Idea**. In particular [[ordinary cohomology]] [[HR]] is canonically a [[complex oriented cohomology theory]]. The behaviour of general [[Conner-Floyd Chern classes]] to be discussed [below](#ConnerFloydChernClasses) follows closely the behaviour of the ordinary [[Chern classes]]. 
+**Idea**. In particular [[ordinary cohomology]] [[HR]] is canonically a [[complex oriented cohomology theory]]. The behaviour of general [[Conner-Floyd Chern classes]] to be discussed [below](#ConnerFloydChernClasses) follows closely the behaviour of the ordinary [[Chern classes]].
 
 An ordinary [[Chern class]] is a [[characteristic class]] of [[complex vector bundles]], and since there is the [[classifying space]] $B U$ of complex vector bundles, the _universal_ Chern classes are those of the [[universal complex vector bundle]] over the [[classifying space]] $B U$, which in turn are just the [[ordinary cohomology]] classes in $H^\bullet(B U)$
 
@@ -7596,7 +7667,7 @@ $$
   S^{2n-1} \longrightarrow B U(n-1) \longrightarrow B U(n)
 $$
 
-the [[Thom-Gysin exact sequence]], a special case of the [[Serre spectral sequence]]. 
+the [[Thom-Gysin exact sequence]], a special case of the [[Serre spectral sequence]].
 
 Pullback of Chern classes along the canonical map $(B U(1))^n \longrightarrow B U(n)$ identifies them with the [[elementary symmetric polynomials]] in the [[first Chern class]] in $H^2(B U(1))$. This is the _[[splitting principle]]_.
 
@@ -7605,7 +7676,9 @@ Pullback of Chern classes along the canonical map $(B U(1))^n \longrightarrow B 
 $\,$
 
 
-##### Existence
+
+
+#### Existence
 
 +-- {: .num_prop #GeneratorsOfCohomologyOfBunChernClasses}
 ###### Proposition
@@ -7619,10 +7692,10 @@ $$
   \,.
 $$
 
-Moreover, for $B i \colon B U(n_1) \longrightarrow BU(n_2)$ the canonical inclusion for $n_1 \leq n_2 \in \mathbb{N}$, then the induced pullback map on cohomology 
+Moreover, for $B i \colon B U(n_1) \longrightarrow BU(n_2)$ the canonical inclusion for $n_1 \leq n_2 \in \mathbb{N}$, then the induced pullback map on cohomology
 
 $$
-   (B i)^\ast 
+   (B i)^\ast
      \;\colon\;
    H^\bullet(B U(n_2))
      \longrightarrow
@@ -7667,7 +7740,7 @@ $$
   \,.
 $$
 
-Consider the induced [[Thom-Gysin sequence]] (prop. \ref{ThomGysinSequence}). 
+Consider the induced [[Thom-Gysin sequence]] (prop. \ref{ThomGysinSequence}).
 
 In odd degrees $2k+1 \lt 2n$ it gives the [[exact sequence]]
 
@@ -7681,7 +7754,7 @@ $$
   H^{2k+1}(B U(n))
    \overset{(B i)^\ast}{\longrightarrow}
   \underset{\simeq 0}{\underbrace{H^{2k+1}(B U(n-1))}}
-  \to 
+  \to
   \cdots
   \,,
 $$
@@ -7702,12 +7775,12 @@ $$
   H^{2k+1}(B U(n))
    \overset{(B i)^\ast}{\longrightarrow}
   \underset{\simeq 0}{\underbrace{H^{2k+1}(B U(n-1))}}
-  \to 
+  \to
   \cdots
   \,,
 $$
 
-where again the right term vanishes by the induction assumption. Hence [[exact sequence|exactness]] now gives that 
+where again the right term vanishes by the induction assumption. Hence [[exact sequence|exactness]] now gives that
 
 $$
   H^{2k+1-2n}(B U(n))
@@ -7715,7 +7788,7 @@ $$
   H^{2k+1}(B U(n))
 $$
 
-is an [[epimorphism]], and so with the previous statement it follows that 
+is an [[epimorphism]], and so with the previous statement it follows that
 
 $$
   H^{2k+1}(B U(n)) \simeq 0
@@ -7737,7 +7810,7 @@ $$
   H^{2k}(B U(n-1))
    \longrightarrow
   \underset{\simeq 0}{\underbrace{H^{2k +1 - 2n}(B U(n))}}
-  \to 
+  \to
   \cdots
   \,.
 $$
@@ -7745,7 +7818,7 @@ $$
 Here the left term vanishes by the induction assumption, while the right term vanishes by the previous statement. Hence we have a [[short exact sequence]]
 
 $$
-  0   
+  0
    \to
   H^{2k-2n}(B U(n))
    \longrightarrow
@@ -7759,7 +7832,7 @@ $$
 for all $k$. In degrees $\bullet\leq 2n$ this says
 
 $$
-  0   
+  0
    \to
   \mathbb{Z}
    \overset{c_n \cup (-)}{\longrightarrow}
@@ -7783,15 +7856,17 @@ $$
     & \simeq
     (\mathbb{Z}[c_1, \cdots, c_{n}])_{\bullet \leq 2n}
   \end{aligned}
-  \,.  
+  \,.
 $$
 
-Now by another induction over these short exact sequences, the claim follows. 
+Now by another induction over these short exact sequences, the claim follows.
 
 =--
 
 
-##### Splitting principle
+
+
+#### Splitting principle
 
 
 +-- {: .num_lemma #FromBUnTOBU1nPullbackInCohomologyIsInjective}
@@ -7817,10 +7892,10 @@ A **proof** of lemma \ref{FromBUnTOBU1nPullbackInCohomologyIsInjective} via anal
 +-- {: .num_prop #SplittingPrincipleForChernClasses}
 ###### Proposition
 
-For $k \leq n \in \mathbb{N}$ let $B i_n \;\colon\; B (U(1)^n) \longrightarrow B U(n)$ be the canonical map. Then the induced pullback operation on [[ordinary cohomology]] is of the form 
+For $k \leq n \in \mathbb{N}$ let $B i_n \;\colon\; B (U(1)^n) \longrightarrow B U(n)$ be the canonical map. Then the induced pullback operation on [[ordinary cohomology]] is of the form
 
 $$
-  (B i_n)^\ast 
+  (B i_n)^\ast
   \;\colon\;
   \mathbb{Z}[c_1, \cdots, c_k]
   \longrightarrow
@@ -7830,7 +7905,7 @@ $$
 and sends the $k$th Chern class $c_k$ (def. \ref{GeneratorsOfCohomologyOfBunChernClasses}) to the $k$th [[elementary symmetric polynomial]] in the $n$ copies of the [[first Chern class]]:
 
 $$
-  (B i_n)^\ast 
+  (B i_n)^\ast
     \;\colon\;
   c_k \mapsto \sigma_k( (c_1)_1, \cdots, (c_1)_n )
   \coloneqq
@@ -7917,7 +7992,7 @@ $$
     &=
     (B i_{n-1})^\ast c_{k \lt n}
     \\
-    = 
+    =
     \sigma_k( (c_1)_1, \cdots, \widehat{(c_1)_t}, \cdots, (c_1)_n )
   \end{aligned}
   \,.
@@ -7934,13 +8009,13 @@ $$
   \,.
 $$
 
-This implies the claim for $k \lt n$. 
+This implies the claim for $k \lt n$.
 
 For the case $k = n$ the commutativity of the diagram and the fact that the right map is zero on $c_n$ by prop. \ref{GeneratorsOfCohomologyOfBunChernClasses} shows that the element $(B j_{\hat t})^\ast (B i_n)^\ast c_n = 0$ for all $1 \leq t \leq n$. But by lemma \ref{FromBUnTOBU1nPullbackInCohomologyIsInjective} the morphism $(B i_n)^\ast$, is injective, and hence $(B i_n)^\ast(c_n)$ is non-zero. Therefore for this to be annihilated by the morphisms that send $(c_1)_t$ to zero, for all $t$, the element must be proportional to all the $(c_1)_t$. By degree reasons this means that it has to be the product of all of them
 
 $$
   \begin{aligned}
-    (B i_n)^{\ast}(c_n) 
+    (B i_n)^{\ast}(c_n)
      & = (c_1)_1 \otimes (c_1)_2 \otimes \cdots \otimes (c_1)_n
      \\
      & = \sigma_n( (c_1)_1, \cdots, (c_1)_n )
@@ -7985,7 +8060,7 @@ $$
 
 =--
 
-e.g. ([Kochmann 96, corollary 2.3.4](#Kochmann96)) 
+e.g. ([Kochmann 96, corollary 2.3.4](#Kochmann96))
 
 +-- {: .proof}
 ###### Proof
@@ -8022,13 +8097,13 @@ $$
   \,,
 $$
 
-where the last equation is by prop. \ref{SplittingPrincipleForChernClasses}. 
+where the last equation is by prop. \ref{SplittingPrincipleForChernClasses}.
 
 Now the [[elementary symmetric polynomial]] on the right decomposes as required by the left hand side of this equation as follows:
 
 $$
   \sigma_t((c_1)_1, \cdots, (c_1)_n)
-    \;=\; 
+    \;=\;
   \underoverset{r = 0}{t}{\sum}
   \sigma_r((c_1)_1, \cdots, (c_1)_{n-k})
   \cdot
@@ -8040,7 +8115,7 @@ where we agree with $\sigma_q((c_1)_1, \cdots, (c_1)_p) = 0$ if $q \gt p$. It fo
 
 $$
   (\mu_k^\ast \otimes \mu_{n-k}^\ast) \mu_{k,n-k}^\ast(c_t)
-  = 
+  =
   (\mu_k^\ast \otimes \mu_{n-k}^\ast)
   \left(
     \underoverset{r=0}{t}{\sum} c_r \otimes c_{t-r}
@@ -8055,10 +8130,11 @@ Since $(\mu_k^\ast \otimes \mu_{n-k}^\ast)$ is a monomorphism by lemma \ref{From
 
 
 
-#### Conner-Floyd Chern classes
+
+### Conner-Floyd Chern classes
  {#ConnerFloydChernClasses}
 
-**Idea.** For $E$ a [[complex oriented cohomology theory]], then the generators of the $E$-[[cohomology groups]] of the [[classifying space]] $B U$ are called the _[[Conner-Floyd Chern classes]]_, in $E^\bullet(B U)$. 
+**Idea.** For $E$ a [[complex oriented cohomology theory]], then the generators of the $E$-[[cohomology groups]] of the [[classifying space]] $B U$ are called the _[[Conner-Floyd Chern classes]]_, in $E^\bullet(B U)$.
 
 Using basic properties of the classifying space $B U(1)$ via its incarnation as the infinite [[complex projective space]] $\mathbb{C}P^\infty$, one finds that the [[Atiyah-Hirzebruch spectral sequences]]
 
@@ -8077,8 +8153,8 @@ This is the key input for the discussion of [[formal group laws]] [below](#Forma
 
 Combining the [[Atiyah-Hirzebruch spectral sequence]] with the [[splitting principle]] as for ordinary Chern classes [above](#ChernClasses) yields, similarly, that in general Conner-Floyd classes are generated, over $\pi_\bullet(E)$, from the ordinary Chern classes.
 
-Finally one checks that Conner-Floyd classes canonically serve as [[Thom classes]] for $E$-cohomology of the [[universal complex vector bundle]], thereby showing that [[complex oriented cohomology theories]] are indeed canonically [[orientation in generalized cohomology|oriented]] on ([[spherical fibrations]] of) [[complex vector bundles]]. 
- 
+Finally one checks that Conner-Floyd classes canonically serve as [[Thom classes]] for $E$-cohomology of the [[universal complex vector bundle]], thereby showing that [[complex oriented cohomology theories]] are indeed canonically [[orientation in generalized cohomology|oriented]] on ([[spherical fibrations]] of) [[complex vector bundles]].
+
 **Literature.** ([Kochman 96, section 4.3](#Kochman96) [Adams 74, part I.4, part II.2 II.4, part III.10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
 
 +-- {: .num_prop #ConnerFloyedClasses}
@@ -8096,17 +8172,17 @@ $$
 Moreover, pullback along the canonical inclusion $B U(n) \to B U(n+1)$ is the identity on $c_k^E$ for $k \leq n$ and sends $c_{n+1}^E$ to zero.
 
 For $E$ being [[ordinary cohomology]], this reduces to the ordinary [[Chern classes]] of prop. \ref{GeneratorsOfCohomologyOfBunChernClasses}.
- 
+
 =--
 
 For details see ([Pedrotti 16, prop. 3.1.14](#Pedrotti16)).
 
 
 
-#### Formal group laws of first CF-Chern classes
+### Formal group laws of first CF-Chern classes
  {#FormalGroupLaws}
 
-**Idea.** The [[classifying space]] $B U(1)$ for [[complex line bundles]] is a [[homotopy type]] canonically equipped with commutative group structure ([[infinity-group]]-structure), corresponding to the [[tensor product]] of [[complex line bundles]]. By the above, for $E$ a [[complex oriented cohomology theory]] the first [[Conner-Floyd Chern class]] of these complex line bundles generates the $E$-cohomology of $B U(1)$, it follows that the [[cohomology ring]] $E^\bullet(B U(1)) \simeq \pi_\bullet(E)[ [ c_1 ] ]$ behaves like the ring of $\pi_\bullet(E)$-valued functions on a 1-dimensional commutative [[formal group]] equipped with a canonical [[coordinate]] function $c_1$. This is called a _[[formal group law]]_ over the [[graded commutative ring]] $\pi_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)). 
+**Idea.** The [[classifying space]] $B U(1)$ for [[complex line bundles]] is a [[homotopy type]] canonically equipped with commutative group structure ([[infinity-group]]-structure), corresponding to the [[tensor product]] of [[complex line bundles]]. By the above, for $E$ a [[complex oriented cohomology theory]] the first [[Conner-Floyd Chern class]] of these complex line bundles generates the $E$-cohomology of $B U(1)$, it follows that the [[cohomology ring]] $E^\bullet(B U(1)) \simeq \pi_\bullet(E)[ [ c_1 ] ]$ behaves like the ring of $\pi_\bullet(E)$-valued functions on a 1-dimensional commutative [[formal group]] equipped with a canonical [[coordinate]] function $c_1$. This is called a _[[formal group law]]_ over the [[graded commutative ring]] $\pi_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)).
 
 On abstract grounds it follows that there exists a commutative ring $L$ and a universal (1-dimensional commutative) formal group law $\ell$ over $L$. This is called the _[[Lazard ring]]_. [[Lazard's theorem]] identifies this ring concretely: it turns out to simply be the [[polynomial ring]] on generators in every even degree.
 
@@ -8115,7 +8191,9 @@ Further below this has profound implications on the structure theory for complex
 **Literature.** ([Kochman 96, section 4.4](#Kochman96), [Lurie 10, lectures 1 and 2](#Lurie10))
 
 
-##### Formal group laws
+
+
+#### Formal group laws
 
 +-- {: .num_defn #AdicRing}
 ###### Definition
@@ -8168,7 +8246,7 @@ $$
   AdicRing \hookrightarrow ProRing
 $$
 
-from [[adic rings]] (def. \ref{AdicRing}) to [[pro-rings]], given by 
+from [[adic rings]] (def. \ref{AdicRing}) to [[pro-rings]], given by
 
 $$
   (A,I) \mapsto ( (A/I^{\bullet}))
@@ -8200,7 +8278,7 @@ $$
   \;\colon\;
   R[ [ x_1, \cdots, x_n ] ]
    \longrightarrow
-  R [ [ x_1, \cdots, x_n, \, y_1, \cdots, y_n ] ] 
+  R [ [ x_1, \cdots, x_n, \, y_1, \cdots, y_n ] ]
 $$
 
 in $Adic R CAlg$ satisfying unitality, associativity.
@@ -8209,7 +8287,7 @@ This is a **commutative formal group law** if it is an abelian group object, hen
 
 =--
 
-This is equivalently a set of $n$ power series $F_i$ of $2n$ variables $x_1,\ldots,x_n,y_1,\ldots,y_n$ such that (in notation $x=(x_1,\ldots,x_n)$, $y=(y_1,\ldots,y_n)$, $F(x,y) = (F_1(x,y),\ldots,F_n(x,y))$) 
+This is equivalently a set of $n$ power series $F_i$ of $2n$ variables $x_1,\ldots,x_n,y_1,\ldots,y_n$ such that (in notation $x=(x_1,\ldots,x_n)$, $y=(y_1,\ldots,y_n)$, $F(x,y) = (F_1(x,y),\ldots,F_n(x,y))$)
 
 $$
   F(x,F(y,z))=F(F(x,y),z)
@@ -8234,48 +8312,48 @@ $$
 (the image ]$ under $\mu$ in $R[ [ x,y ] ]$ of the element $t \in R [ [ t ] ]$) such that
 
 
-1. (unitality) 
+1. (unitality)
 
    $$
      \mu(x,0) = x$ and $\mu(0,x) = x
      \,;
    $$
 
-1. (associativity) 
+1. (associativity)
 
    $$
      \mu(x,\mu(y,z)) = \mu(\mu(x,y),z)
      \,;
    $$
 
-1. (commutativity) 
-  
+1. (commutativity)
+
    $$
      \mu(x,y) = \mu(y,x)
      \,.
    $$
 
-The first condition means equivalently that 
+The first condition means equivalently that
 
 $$
-  a_{i,0} 
-    = 
+  a_{i,0}
+    =
   \left\{
     \array{
       1 & if i = 0
       \\
-      0 & otherwise 
+      0 & otherwise
     }
   \right.
   \;\;\;\;\,,
   \;\;\;\;\;
-  a_{0,i} 
-    = 
+  a_{0,i}
+    =
   \left\{
     \array{
       1 & if i = 0
       \\
-      0 & otherwise 
+      0 & otherwise
     }
   \right.
   \,.
@@ -8290,13 +8368,13 @@ $$
   \,.
 $$
 
-The existence of inverses is no extra condition: by [[induction]] on the index $i$ one finds that there exists a unique 
+The existence of inverses is no extra condition: by [[induction]] on the index $i$ one finds that there exists a unique
 
 $$
   \iota(x) = \underset{i \geq 1}{\sum} \iota(x)_i x^i
 $$
 
-such that 
+such that
 
 $$
   \mu(x,iota(x)) = x
@@ -8310,7 +8388,10 @@ Hence 1-dimensional formal group laws over $R$ are equivalently [[monoids]] in $
 
 =--
 
-##### Formal group laws from complex orientation
+
+
+
+#### Formal group laws from complex orientation
 
 Let again $B U(1)$ be the [[classifying space]] for [[complex line bundles]], modeled, in particular, by infinite [[complex projective space]] $\mathbb{C}P^\infty)$.
 
@@ -8385,7 +8466,7 @@ $$
   \pi_\bullet(E)[ [ c^E_1 \otimes 1 , \, 1 \otimes c^E_1 ] ]
 $$
 
-from prop. \ref{CohomologyRingOfBU1ForComplexOrientedCohomologyTheory}, the operation 
+from prop. \ref{CohomologyRingOfBU1ForComplexOrientedCohomologyTheory}, the operation
 
 $$
   \pi_\bullet(E)
@@ -8421,15 +8502,17 @@ $$
 
 ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology)).
 
-Under different choices of orientation, one obtains different but isomorphic formal group laws. 
+Under different choices of orientation, one obtains different but isomorphic formal group laws.
 
 
 =--
 
 
-##### The universal 1d commutative formal group law and Lazard's theorem
 
-It is immediate that there exists a ring carrying a universal formal group law. For observe that for $\underset{i,j}{\sum} a_{i,j} x_1^i x_1^j$ an element in a [[formal power series]] algebra, then the condition that it defines a [[formal group law]] is equivalently a sequence of polynomial [[equations]] on the [[coefficients]] $a_k$. For instance the commutativity condition means that 
+
+#### The universal 1d commutative formal group law and Lazard's theorem
+
+It is immediate that there exists a ring carrying a universal formal group law. For observe that for $\underset{i,j}{\sum} a_{i,j} x_1^i x_1^j$ an element in a [[formal power series]] algebra, then the condition that it defines a [[formal group law]] is equivalently a sequence of polynomial [[equations]] on the [[coefficients]] $a_k$. For instance the commutativity condition means that
 
 $$
   a_{i,j} = a_{j,i}
@@ -8438,7 +8521,7 @@ $$
 and the unitality constraint means that
 
 $$
-  a_{i 0} 
+  a_{i 0}
   =
   \left\{
     \array{
@@ -8450,7 +8533,7 @@ $$
   \,.
 $$
 
-Similarly associativity is equivalently a condition on combinations of triple products of the coefficients. It is not necessary to even write this out, the important point is only that it is some polynomial equation. 
+Similarly associativity is equivalently a condition on combinations of triple products of the coefficients. It is not necessary to even write this out, the important point is only that it is some polynomial equation.
 
 This allows to make the following definition
 
@@ -8489,7 +8572,7 @@ The grading is chosen with regards to the formal group laws arising from [[compl
 
 $$
  deg(a_{i j} x^i y^j)
-  = 
+  =
   deg(a_i,j) + i deg(x) + j deg(y)
   =
   -2
@@ -8515,7 +8598,7 @@ $$
   f_\ast \ell = \mu
   \,.
 $$
- 
+
 =--
 
 +-- {: .proof}
@@ -8525,7 +8608,7 @@ If the formal group law $\mu$ has coefficients $\{c_{i,j}\}$, then in order that
 
 $$
   \underset{i,j}{\sum} f(a_{i,j}) x^i y^j
-  = 
+  =
   \underset{i,j}{\sum} c_{i,j} x^i y^j
 $$
 
@@ -8568,13 +8651,13 @@ Deeper is the fact expressed by the [[Milnor-Quillen theorem on MU]]: the Lazard
 
 1. every [[complex oriented cohomology|complex orientation]] on $E$ induced a 1-dimensional commutative [[formal group law]] ([prop.](complex+oriented+cohomology+theory#ComplexOrientedCohomologyTheoryFormalGroupLaw))
 
-1. under forming stable homtopy groups every ring spectrum homomorphism $M U \to E$ induces a ring homomorphism 
+1. under forming stable homtopy groups every ring spectrum homomorphism $M U \to E$ induces a ring homomorphism
 
    $$
      L \simeq \pi_\bullet(M U) \longrightarrow \pi_\bullet(E)
    $$
 
-   and hence, by the universality of $L$, a formal group law over $\pi_\bullet(E)$. 
+   and hence, by the universality of $L$, a formal group law over $\pi_\bullet(E)$.
 
 This is the formal group law given by the above complex orientation.
 
@@ -8587,7 +8670,7 @@ Hence the universal group law over the Lazard ring is a kind of [[decategorifica
 
 
 
-#### Complex cobordism
+### Complex cobordism
  {#ComplexCobordismCohomology}
 
 **Idea.** There is a [[weak homotopy equivalence]] $\phi \colon B U(1)\stackrel{\simeq}{\longrightarrow} M U(1)$ between the [[classifying space]] for [[complex line bundles]] and the  [[Thom space]] of the [[universal vector bundle|universal complex line bundle]]. This gives an element $\pi_\ast(c_1) \in M U^2(B U(1))$ in the [[complex cobordism cohomology]] of $B U(1)$ which makes the universal complex [[Thom spectrum]] [[MU]] become a [[complex oriented cohomology theory]].
@@ -8595,18 +8678,19 @@ Hence the universal group law over the Lazard ring is a kind of [[decategorifica
 This turns out to be a [[universal complex orientation on MU]]: for every other [[homotopy commutative ring spectrum]] $E$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) there is an equivalence between complex orientations on $E$ and homotopy classes of homotopy ring spectrum homomorphisms
 
 $$
-  \{M U \longrightarrow E\}_{/\simeq} 
-     \;\simeq\; 
+  \{M U \longrightarrow E\}_{/\simeq}
+     \;\simeq\;
   \{complex\;orientations\;on\;E\}
   \,.
 $$
 
-Hence [[complex oriented cohomology theory]] is [[higher algebra]] over [[MU]]. 
+Hence [[complex oriented cohomology theory]] is [[higher algebra]] over [[MU]].
 
 **Literature.** ([Schwede 12, example 1.18](#Schwede12), [Kochman 96, section 1.4, 1.5, 4.4](#Kochman96), [Lurie 10, lectures 5 and 6](#Lurie10))
 
 
-##### Conner-Floyd-Chern classes are Thom classes
+
+#### Conner-Floyd-Chern classes are Thom classes
 
 We discuss that for $E$ a [[complex oriented cohomology theory]], then the $n$th universal [[Conner-Floyd-Chern class]] $c^E_n$ is in fact a universal [[Thom class]] for rank $n$ [[complex vector bundles]]. On the one hand this says that the choice of a [[complex oriented cohomology theory|complex orientation]] on $E$ indeed universally [[orientation in generalized cohomology|orients]] all [[complex vector bundles]]. On the other hand, we interpret this fact [below](#ComplexOrientationAsRingSpectrumMaps) as the [[unitality]] condition on a [[homomorphism]] of [[homotopy commutative ring spectra]] $M U \to E$ which represent that universal orienation.
 
@@ -8641,18 +8725,18 @@ $$
 
 (by the proof of prop. \ref{SphereFibrationOverInclusionOfClassifyingSpaces}).
 
-Now the [[universal principal bundle]] $E U(n)$ is (def. \ref{EOn)}) equivalently the colimit 
+Now the [[universal principal bundle]] $E U(n)$ is (def. \ref{EOn)}) equivalently the colimit
 
 $$
   E U(n) \simeq \underset{\longrightarrow}{\lim}_k  U(k)/U(k-n)
   \,.
 $$
 
-Here each [[Stiefel manifold]]/[[coset spaces]] $U(k)/U(k-n)$ is equivalently the space of (complex) $n$-dimensional subspaces of $\mathbb{C}^k$ that are equipped with an orthonormal (hermitian) [[linear basis]]. The [[universal vector bundle]] 
+Here each [[Stiefel manifold]]/[[coset spaces]] $U(k)/U(k-n)$ is equivalently the space of (complex) $n$-dimensional subspaces of $\mathbb{C}^k$ that are equipped with an orthonormal (hermitian) [[linear basis]]. The [[universal vector bundle]]
 
 $$
-  E U(n) \underset{U(n)}{\times} \mathbb{C}^n 
-    \simeq 
+  E U(n) \underset{U(n)}{\times} \mathbb{C}^n
+    \simeq
   \underset{\longrightarrow}{\lim}_k  U(k)/U(k-n) \underset{U(n)}{\times} \mathbb{C}^n
 $$
 
@@ -8671,7 +8755,7 @@ In particular:
 The canonical map from the [[classifying space]] $B U(1) \simeq \mathbb{C}P^\infty$ (the inifnity [[complex projective space]]) to the [[Thom space]] of the [[universal vector bundle|universal]] [[complex line bundle]] is a [[weak homotopy equivalence]]
 
 $$
-  B U(1) 
+  B U(1)
     \overset{\in W_{cl}}{\longrightarrow}
   M U(1)
    \coloneqq
@@ -8695,7 +8779,7 @@ $$
     & \simeq E U(1)
   \end{aligned}
   \,.
-$$ 
+$$
 
 But the [[universal principal bundle]] is [[contractible topological space|contractible]]
 
@@ -8765,9 +8849,9 @@ In view of lemma \ref{SphereBundleBunminus1} and using that the disk bundle is h
 $$
   \begin{aligned}
     \tilde E^\bullet( Th(E U(n) \underset{U(n)}{\times} \mathbb{C}^n ) )
-    & 
+    &
     =
-    E^\bullet( D(E U(n) \underset{U(n)}{\times} \mathbb{C}^n), S(E U(n) 
+    E^\bullet( D(E U(n) \underset{U(n)}{\times} \mathbb{C}^n), S(E U(n)
 \underset{U(n)}{\times} \mathbb{C}^n) )
     \\
     & \simeq
@@ -8806,7 +8890,7 @@ $$
   c^E_n \in \tilde E(Th( E U(n) \underset{U(n)}{\times} \mathbb{C}^n ))
 $$
 
-(using the identification of lemma \ref{UniversalComplexVectorBundleThomSpace}) is a [[Thom class]] in that its restriction to the Thom space of any fiber is a suspension of a unit in $\pi_0(E)$. 
+(using the identification of lemma \ref{UniversalComplexVectorBundleThomSpace}) is a [[Thom class]] in that its restriction to the Thom space of any fiber is a suspension of a unit in $\pi_0(E)$.
 
 =--
 
@@ -8832,7 +8916,9 @@ Hence it is now sufficient to see that each factor restricts to a unit on the fi
 
 =--
 
-##### Complex orientation as ring spectrum maps
+
+
+#### Complex orientation as ring spectrum maps
  {#ComplexOrientationAsRingSpectrumMaps}
 
 For the present purpose:
@@ -8925,7 +9011,7 @@ $$
     S^2 \wedge E_{2n}
     \\
     \downarrow
-      && 
+      &&
     \downarrow
     \\
     M U_{2(n+1)}
@@ -8934,7 +9020,7 @@ $$
   }
 $$
 
-commute strictly (not just up to homotopy). 
+commute strictly (not just up to homotopy).
 
 To begin with, pick a map
 
@@ -8948,12 +9034,12 @@ Assume then by [[induction]] that maps $f_{2k}$ have been found for $k \leq n$. 
 
 $$
   \array{
-    S^2 \wedge M U_{2n} 
+    S^2 \wedge M U_{2n}
       &\overset{id \wedge f_{2n}}{\longrightarrow}&
     S^2 \wedge E_{2n}
     \\
     \downarrow
-      &\swArrow& 
+      &\swArrow&
     \downarrow
     \\
     M U_{2} \wedge M U_{2 n}
@@ -9002,7 +9088,7 @@ The unitality condition demands that the diagram
 
 $$
   \array{
-    \mathbb{S} 
+    \mathbb{S}
       &\overset{}{\longrightarrow}&
     M U
     \\
@@ -9012,11 +9098,11 @@ $$
   }
 $$
 
-commutes in the [[stable homotopy category]] $Ho(Spectra)$. In components this means that 
+commutes in the [[stable homotopy category]] $Ho(Spectra)$. In components this means that
 
 $$
   \array{
-    S^{2n} 
+    S^{2n}
       &\overset{}{\longrightarrow}&
     M U_{2n}
     \\
@@ -9026,7 +9112,7 @@ $$
   }
 $$
 
-commutes up to homotopy, hence that the restriction of $c_n$ to a fiber is the $2n$-fold suspension of the unit of $E_{2n}$. But this is the statement of prop. \ref{ThomClassesCFClass}: the Chern classes are universal Thom classes. 
+commutes up to homotopy, hence that the restriction of $c_n$ to a fiber is the $2n$-fold suspension of the unit of $E_{2n}$. But this is the statement of prop. \ref{ThomClassesCFClass}: the Chern classes are universal Thom classes.
 
 Hence componentwise all these triangles commute up to some homotopy. Now we invoke the [[Milnor sequence]] for generalized cohomology of spectra (prop. \ref{CohomologyOfSpectraMilnorSequence}). Observe that the [[tower]] of abelian groups $n \mapsto E^{n_1}(S^n)$ is actually constant ([[suspension isomorphism]]) hence trivially satisfies the [[Mittag-Leffler condition]] and so a homotopy of morphisms of spectra $\mathbb{S} \to E$ exists as soon as there are componentwise homotopies (cor. \ref{WithSomeLefflerTheHomsOfSpectraAreHomotopicIfComponentsAre}).
 
@@ -9038,11 +9124,11 @@ $$
       &\overset{c \wedge c}{\longrightarrow}&
     E \wedge E
     \\
-    \downarrow 
-      && 
+    \downarrow
+      &&
     \downarrow
     \\
-    M U 
+    M U
       &\underset{c}{\longrightarrow}&
     E
   }
@@ -9058,7 +9144,7 @@ $$
       &\overset{c_{n_1} \wedge c_{n_2}}{\longrightarrow}&
     E_{2 n_1} \wedge E_{2 n_2}
     \\
-    \downarrow 
+    \downarrow
       &&
     \downarrow
     \\
@@ -9104,21 +9190,21 @@ So let $c, c' \colon M U \to E$ be two morphisms of homotopy commutative ring sp
 It remains to see that these homotopies may be chosen compatibly such as to form a single homotopy of maps of spectra
 
 $$
-  f \;\colon\; M U \wedge I_+ \longrightarrow E 
+  f \;\colon\; M U \wedge I_+ \longrightarrow E
   \,,
 $$
 
 This follows due to the existence of the [[Milnor exact sequence|Milnor]] [[short exact sequence]] from prop. \ref{CohomologyOfSpectraMilnorSequence}:
 
 $$
-  0 
+  0
     \to
   \underset{\longleftarrow}{\lim}^1_n E^{-1}( \Sigma^{-2n} M U_{2n} )
     \longrightarrow
-  E^0(M U) 
-    \longrightarrow 
+  E^0(M U)
+    \longrightarrow
   \underset{\longleftarrow}{\lim}_n E^0( \Sigma^{-2n} M U_{2n} )
-    \to 
+    \to
   0
   \,.
 $$
@@ -9126,7 +9212,7 @@ $$
 Here the [[Mittag-Leffler condition]] (def. \ref{MittagLefflerCondition}) is clearly satisfied (by prop. \ref{ConnerFloyedClasses} and lemma \ref{UniversalComplexVectorBundleThomSpace}  all relevant maps are epimorphisms, hence the condition is satisfied by example \ref{MittagLefflerSatisfiedInParticularForTowerOfSurjections}). Hence the [[lim^1]]-term vanishes (prop. \ref{Lim1VanihesUnderMittagLeffler}), and so by exactness the canonical morphism
 
 $$
-  E^0(M U) 
+  E^0(M U)
     \overset{\simeq}{\longrightarrow}
   \underset{\longleftarrow}{\lim}_n E^0( \Sigma^{-2n} M U_{2n} )
 $$
@@ -9136,7 +9222,8 @@ is an [[isomorphism]]. This says that two homotopy classes of morphisms $M U \to
 =--
 
 
-#### Homology of $M U$
+
+### Homology of $M U$
  {#HomologyOfMU}
 
 **Idea.** Since, by the above, every [[complex oriented cohomology theory]] $E$ is indeed [[orientation in generalized cohomology|oriented]] over [[complex vector bundles]], there is a [[Thom isomorphism]] which reduces the computation of the $E$-[[homology of MU]], $E_\bullet(M U)$ to that of the [[classifying space]] $B U$. The homology of $B U$, in turn, may be determined by the duality with its cohomology ([[universal coefficient theorem]]) via [[Kronecker pairing]] and the induced duality of the corresponding [[Atiyah-Hirzebruch spectral sequences]] (prop. \ref{AHSSPairing}) from the Conner-Floyd classes [above](#ConnerFloydChernClasses). Finally, via the [[Hurewicz homomorphism]]/[[Boardman homomorphism]] the homology of $M U$ gives a first approximation to the [[homotopy groups]] of [[MU]].
@@ -9144,7 +9231,10 @@ is an [[isomorphism]]. This says that two homotopy classes of morphisms $M U \to
 **Literature.** ([Kochman 96, section 2.4, 4.3](#Kochman96), [Lurie 10, lecture 7](#Lurie10))
 
 
-#### Milnor-Quillen theorem on $M U$
+
+
+
+### Milnor-Quillen theorem on $M U$
  {#QuillenTheoremOnMU}
 
 **Idea.** From the computation of the [[homology of MU]] [above](#HomologyOfMU) and applying the [[Boardman homomorphism]], one deduces that the [[stable homotopy groups]] $\pi_\bullet(MU)$ of [[MU]] are finitely generated. This implies that it is suffient to compute them over the [[p-adic integers]] for all primes $p$. Using the [[change of rings theorem]], this finally is obtained from inspection of the filtration in the $H\mathbb{F}_p$-[[Adams spectral sequence]] for $MU$. This is Milnor's theorem wich together with [[Lazard's theorem]] shows that there is an isomorphism of rings $L \simeq \pi_\bullet(M U)$ with the [[Lazard ring]]. Finally [[Quillen's theorem on MU]] says that this isomorphism is exhibited by the universal ring homomorphism $L \longrightarrow \pi_\bullet(M U)$ which classifies the universal complex orientation on $M U$.
@@ -9152,15 +9242,19 @@ is an [[isomorphism]]. This says that two homotopy classes of morphisms $M U \to
 **Literature.** ([Kochman 96, section 4.4](#Kochman96), [Lurie 10, lecture 10](#Lurie10))
 
 
-#### Landweber exact functor theorem
 
-**Idea.** By the above, every [[complex oriented cohomology theory]] induces a [[formal group law]] from its first [[Conner-Floyd Chern class]]. Moreover, [[Quillen's theorem on MU]] together with [[Lazard's theorem]] say that the [[cohomology ring]] $\pi_\bullet(M U)$ of [[complex cobordism cohomology]] [[MU]] is the classifying ring for formal group laws. 
 
-The _[[Landweber exact functor theorem]]_ says that, conversely, forming the [[tensor product]] of [[complex cobordism cohomology theory]] ([[MU]]) with a [[Landweber exactness|Landweber exact]] [[ring]] via some [[formal group law]] yields a [[cohomology theory]], hence a [[complex oriented cohomology theory]]. 
+### Landweber exact functor theorem
+
+**Idea.** By the above, every [[complex oriented cohomology theory]] induces a [[formal group law]] from its first [[Conner-Floyd Chern class]]. Moreover, [[Quillen's theorem on MU]] together with [[Lazard's theorem]] say that the [[cohomology ring]] $\pi_\bullet(M U)$ of [[complex cobordism cohomology]] [[MU]] is the classifying ring for formal group laws.
+
+The _[[Landweber exact functor theorem]]_ says that, conversely, forming the [[tensor product]] of [[complex cobordism cohomology theory]] ([[MU]]) with a [[Landweber exactness|Landweber exact]] [[ring]] via some [[formal group law]] yields a [[cohomology theory]], hence a [[complex oriented cohomology theory]].
 
 **Literature.** ([Lurie 10, lectures 15,16](#Lurie10))
 
-### Outlook: Geometry of $Spec(MU)$
+
+
+## Outlook: Geometry of $Spec(MU)$
 
 The grand conclusion of [[Quillen's theorem on MU]] ([above](#QuillenTheoremOnMU)): [[complex oriented cohomology theory]] is essentially the [[spectral geometry]] over $Spec(M U)$, and the latter is a kind of derived version of the [[moduli stack of formal groups]] (1-dimensional commutative).
 
@@ -9192,7 +9286,7 @@ We follow in outline the textbook
 
 For some basics in [[algebraic topology]] see also
 
-* {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+* {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975.
 
 Specifically for **S.1) Generalized cohomology** a neat account is in:
 
@@ -9204,8 +9298,8 @@ For **S.2) Cobordism theory** an efficient collection of the highlights is in
 * {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
 except that it omits proof of the [[Leray-Hirsch theorem]]/[[Serre spectral sequence]] and that of the [[Thom isomorphism]], but see the references there and see ([Kochman 96](#Kochman96), [Aguilar-Gitler-Prieto 02, section 11.7](#AguilarGitlerPrieto02)) for details.
- 
-For **S.3) Complex oriented cohomology** besides ([Kochman 96, chapter 4](#Kochman96)) have a look at 
+
+For **S.3) Complex oriented cohomology** besides ([Kochman 96, chapter 4](#Kochman96)) have a look at
 
 * {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
@@ -9218,3 +9312,4 @@ See also
 * {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
 
+[[!redirects Introduction to Stable homotopy theory -- S]]
