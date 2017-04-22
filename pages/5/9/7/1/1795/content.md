@@ -33,11 +33,11 @@ For another definition of image of a functor, see [(2,1)-image](http://ncatlab.o
 
 Note that if $F$ is not [[pseudomonic functor|pseudomonic]], then its essential image, defined in this way, need not be equivalent to its ordinary image.
 
-## Considerations of evil
+## Considerations of the principle if equivalence
 
-Note that the property of "belonging to the image" (said of an object or morphism) is [[evil]]; of two [[equivalence|equivalent]] objects, one may belong while the other does not.  Passing to the essential image removes this, so that the property of "belonging to the essential image" is no longer evil.
+Note that the property of "belonging to the image" (said of an object or morphism) breaks the [[principle of equivalence]] of [[category theory]]; of two [[equivalence|equivalent]] objects, one may belong while the other does not.  Passing to the essential image removes this, so that the property of "belonging to the essential image" respects the [[principle of equivalence]].
 
-Of course, the property of "being equal to the essential image" (said of a subcategory) is evil, as is the property of "being replete".  But $D$ is a replete subcategory of $C$ if and only if the property of belonging to $D$ (said of an object or morphism) is not evil.
+Of course, the property of "being equal to the essential image" (said of a subcategory) violates the [[principle of equivalence]], as is the property of "being replete".  But $D$ is a replete subcategory of $C$ if and only if the property of belonging to $D$ (said of an object or morphism) does not violate the principle of equivalence.
 
 ## Remarks
 
