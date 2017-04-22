@@ -8,33 +8,36 @@
 | [[volume form]] | ([[virtual fundamental class|virtual]]) [[fundamental class]] |
 | [[Riemann integration|Riemann]]/[[Lebesgue integration]] [[integration of differential forms|of differential forms]] | [[push-forward in generalized cohomology]]/[[fiber integration in differential cohomology|in differential cohomology]] |
 
-### Analytic integration
+## Analytic integration
 
-* [[Riemann integration]], [[Lebesgue integration]]
+[[integral calculus]]
 
-* [[line integral]]/[[contour integration]]
+[[Riemann integration]], [[Lebesgue integration]]
 
-* [[integration of differential forms]]
+[[line integral]]/[[contour integration]]
 
-* [[integration over supermanifolds]], [[Berezin integral]], [[fermionic path integral]]
+[[integration of differential forms]]
 
-* [[Kontsevich integral]], [[Selberg integral]], [[elliptic Selberg integral]]
+[[integration over supermanifolds]], [[Berezin integral]], [[fermionic path integral]]
 
-### Cohomological integration
+[[Kontsevich integral]], [[Selberg integral]], [[elliptic Selberg integral]]
 
-* [[integration in ordinary differential cohomology]]
+## Cohomological integration
 
-* [[integration in differential K-theory]]
+[[integration in ordinary differential cohomology]]
 
-* [[Riemann-Roch theorem]]
+[[integration in differential K-theory]]
 
-### Variants
+[[Riemann-Roch theorem]]
 
-* [[path integral]]
+## Variants
 
-* [[Batalin-Vilkovisky integral]]
+[[Lie integration]]
 
-* [[Lie integration]]
+[[path integral]]
+
+[[Batalin-Vilkovisky integral]]
+
 
 
 [[!redirects integration theory  - contents]]
