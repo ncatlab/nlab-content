@@ -1,9 +1,9 @@
 
 **[[homological algebra]]**
 
-and
+(also [[nonabelian homological algebra]])
 
-**[[nonabelian homological algebra]]**
+_[[schreiber:HAI|Introduction]]_
 
 ### Context
 
@@ -58,13 +58,6 @@ and
 
   * [[flat resolution]]
 
-* [[derived functor]]
-
-  * [[Tor]], [[Ext]]
-
-  * [[homotopy limit]], [[homotopy colimit]]
-
-* [[abelian sheaf cohomology]]
 
 ### Stable homotopy theory notions
 
@@ -81,6 +74,15 @@ and
   * [[A-∞-category]]
 
 * [[(∞,1)-category of chain complexes]]
+
+* [[derived functor]], [[derived functor in homological algebra]]
+
+  * [[Tor]], [[Ext]]
+
+  * [[homotopy limit]], [[homotopy colimit]]
+
+* [[abelian sheaf cohomology]]
+
 
 ### Constructions
 
