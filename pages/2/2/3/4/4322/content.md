@@ -1,15 +1,22 @@
 
-**[[manifold]]s** and **[[cobordism]]s**
+**[[manifolds]]** and **[[cobordisms]]**
+
+[[cobordism theory]], _[[Introduction to Cobordism and Complex Oriented Cohomology|Introduction]]_
 
 ## Definitions
 
 * [[manifold]]
 
-  * [[coordinate chart]], [[atlas]]
+  * [[coordinate chart]], [[atlas]], [[smooth structure]]
 
   * [[orientation]], [[spin structure]], [[string structure]], [[fivebrane structure]]
 
   * [[smooth manifold]], [[Riemannian manifold]], [[complex manifold]]
+
+* [[infinite dimensional manifold]]
+
+  * [[Banach manifold]], [[Hilbert manifold]], [[ILH manifold]], [[Frechet manifold]], [[convenient manifold]]
+
 
 * [[cobordism]]
 
@@ -29,9 +36,6 @@
 
     * [[genus]]
 
-* [[infinite dimensional manifold]]
-
-  * [[Banach manifold]], [[Hilbert manifold]], [[ILH manifold]], [[Frechet manifold]], [[convenient manifold]]
 
 ## Genera and invariants
 
