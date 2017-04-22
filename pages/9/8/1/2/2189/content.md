@@ -25,7 +25,9 @@
 ## Idea
  {#Idea}
 
-The [[mathematics|mathematical]] field of _analysis_ is concerned with the concept of [[convergence]] of [[sequences]] (or more generally: of _[[nets]]_), in particular as concerns the _[[infinitesimal analysis]]_ that gives rise to the theory of [[differentiation]] and [[integration]] ("[[calculus]]"). One formalization of these concepts is in terms of "[[epsilontic analysis]]" on [[metric spaces]]. Many such epsilontic concepts from analysis however have equivalent formulations in terms of simple [[combinatorics]] of [[open subsets]] with respect to the [[metric topology]] of metric spaces, and this way the field of analysis has a large overlap with the field of _[[topology]]_, this is particularly true for [[functional analysis]] and the theory of [[topological vector spaces]].
+In [[mathematics]], _analysis_ usually refers to any of a broad family of fields that deals with a general theory of _[[limit of a sequence|limits]]_ in the sense of [[convergence]] of [[sequences]] (or more generally of [[nets]]), particularly those fields that pursue developments that originated in "the [[calculus]]", i.e., the theory of [[differentiation]] ([[differential calculus]]) and [[integration]] ([[integral calculus]]) of [[real numbers|real]] and [[complex numbers|complex]]-valued [[functions]]. The classical foundation of this general subject is usually based on the idea that the [[real numbers|real number system]] is describable as the (essentially unique) [[complete space|complete]] [[ordered field]], or more generally on the concept of [[metric spaces]]. Their [[distance]] functions allow to formalize concepts like [[continuous functions|continuity]] and [[convergence]] in terms of existence of sufficiently small [[open balls]]. Many concepts of this "[[epsilontic analysis]]" have equivalent formulations in terms of simple [[combinatorics]] of [[open subsets]] with respect to the [[metric topology]] of metric spaces, and this way the field of analysis has a large overlap with the field of _[[topology]]_, this is particularly true for [[functional analysis]] and the theory of [[topological vector spaces]].
+
+Analysis can also refer to other responses to the problem of founding these developments, especially "[[infinitesimal analysis]]" which admits [[infinitesimal quantities]] not found in the classical real number system and which takes various forms, for example the [[nonstandard analysis]] first introduced by [[Abraham Robinson]]. Or it may refer to "[[synthetic differential geometry|synthetic differential analysis]]" whose rigorous foundations were largely introduced by [[William Lawvere]] and other [[category theory|category theorists]] who, following the example of [[Alexander Grothendieck]], consider [[nilpotent infinitesimals]] instead of invertible ones as a basis for understanding [[differentiation]].
 
 
 ## Entries related to analysis
@@ -74,7 +76,9 @@ Very relevant for [[quantization]] is also the geometric study of differential o
 
 Textbooks include
 
-* Erich Schechter, _[[Handbook of Analysis and its Foundations]]_ ([web](http://www.math.vanderbilt.edu/~schectex/ccc/))
+* {#Rudin64} [[Walter Rudin]], _Principles of Mathematical Analysis_, McGraw-Hill (1964, 1976) ([pdf](https://notendur.hi.is/vae11/%C3%9Eekking/principles_of_mathematical_analysis_walter_rudin.pdf))
+
+* [[Eric Schechter]], _[[Handbook of Analysis and its Foundations]]_, Academic Press (1996) ([web](http://www.math.vanderbilt.edu/~schectex/ccc/))
 
 Discussion of the history, amplifying its roots all the way back in [[Zeno's paradoxes of motion]] is in 
 
