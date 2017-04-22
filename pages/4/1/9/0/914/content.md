@@ -81,9 +81,9 @@ The equivalence between these is as follows:
 So from the perspective of definition (\ref{AA}), there are enough (\ref{Willard})-subnets and (\ref{Kelley})-subnets, up to equivalence.
 
 
-## Logic of nets 
+### Logic of nets 
 
-A property of elements of $X$ (given by a [[subset]] $S$ of $X$) can be applied to nets in $X$.  
+A [[property]] of [[elements]] of a [[set]] $X$ (given by the [[subset]] $S \subset X$ of those elements of $X$ satisfying this property) may be applied to nets in $X$.  
 
 +-- {.num_defn #EventuallyAndFrequently}
 ###### Definition
@@ -110,7 +110,7 @@ and other analogues of theorems from [[predicate logic]].  Note that the last it
 A similar logic is satisfied by '[[almost everywhere]]' and its dual ('not almost nowhere' or 'somewhere significant') in [[measure spaces]].
 
 
-## Nets and filters 
+### Nets and filters 
 
 A net $\nu$ in a set $X$ defines a proper [[filter]] of [[subsets]] of $X$, called the __[[eventuality filter]]__ of the net.  It consists simply of those subsets of $X$ that $\nu$ is eventually in, def. \ref{EventuallyAndFrequently}.  (Recall that a _filter_ of subsets is a collection of subsets that is closed under intersection and taking supersets; the filter is _proper_ if each set in it is inhabited.)
 
@@ -135,7 +135,7 @@ Although nets are perhaps more familiar, due to their similarity to sequences, o
 
 ## References
 
-* Erich Schechter, sections 7.14--7.21 of _[[Handbook of Analysis and its Foundations]]_ 
+* {#Schechter96} [[Eric Schechter]], sections 7.14--7.21 of _[[Handbook of Analysis and its Foundations]]_, Academic Press (1996)
 
 
 [[!redirects net]]
