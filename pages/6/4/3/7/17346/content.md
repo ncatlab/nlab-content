@@ -3,24 +3,16 @@
 
 ***
 
-
-
- _We give an introduction to the [[stable homotopy category]] and to its key computational tool, the [[Adams spectral sequence]]. To that end we introduce the modern tools, such as [[model categories]] and [[highly structured ring spectra]]. In the accompanying [[Introduction to Stable homotopy theory -- S|seminar]] we consider applications to [[cobordism theory]] and [[complex oriented cohomology]] such as to converge in the end to a glimpse of the modern picture of [[chromatic homotopy theory]]._
-
+This page gives a detailed introduction to the [[Adams spectral sequence]] in its general [[spectrum|spectral]] form
+([[Adams-Novikov spectral sequence]]).
 
 $\,$
 
-***
+For background on [[spectral sequences]] see _[[Introduction to Spectral Sequences]]_.
 
-Lecture notes.
+For background on [[stable homotopy theory]] see _[[Introduction to Stable homotopy theory]]_.
 
-Main page: _[[Introduction to Stable homotopy theory]]_.
-
-Previous section: _[[Introduction to Stable homotopy theory -- 1|Part 1 -- Stable homotopy theory]]_
-
-This section: **Part 2 -- Adams spectral sequences**
-
-Next section: _[[Introduction to Stable homotopy theory -- S|Seminar -- Complex oriented cohomology]]_
+For background on  [[complex oriented cohomology]] see _[[Introduction to Cobordism and Complex Oriented Cohomology]]_.
 
 ***
 
@@ -7025,5 +7017,7 @@ For the special case of the [[classical Adams spectral sequence]] and of the [[A
 
 * {#Kochman96} [[Stanley Kochman]], chapter 5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
+
+[[!redirects Introduction to Stable homotopy theory -- 2]]
 
 
