@@ -51,7 +51,7 @@ One consequence of this is that whenever we [[quantification|quantify]] over ele
 
 In a similar manner, every relation is always associated to an ordered pair of sets, the first called its **[[source]]** and the second its **[[target]]** (thus the fundamental relations in SEAR are binary relations).  If $\varphi$ is a relation from $A$ to $B$ we write $\varphi:A\looparrowright B$.  As with elements, the assertion $\varphi=\psi$ is only well-formed if $\varphi$ and $\psi$ have the same source and the same target.
 
-Implicit in the existence of three types of things is that nothing is both a set and an element, etc., so in particular a statement such as $x=A$ is not well-formed if $x$ is an element and $A$ a set.  Furthermore, SEAR does not include an equality relation between sets: even if $A$ and $B$ are both sets we do not consider $A=B$ to be well-formed.  (Thus SEAR adheres to the philosophy of "speak no [[evil]].")
+Implicit in the existence of three types of things is that nothing is both a set and an element, etc., so in particular a statement such as $x=A$ is not well-formed if $x$ is an element and $A$ a set.  Furthermore, SEAR does not include an equality relation between sets: even if $A$ and $B$ are both sets we do not consider $A=B$ to be well-formed.  (Thus SEAR respects the [[principle of equivalence]].)
 
 The final piece of data that we have is a notion of when a relation $\varphi:A\looparrowright B$ **holds** of a pair of elements $x\in A$ and $y\in B$.  We write $\varphi(x,y)$ when $\varphi$ holds of $x$ and $y$.
 
@@ -274,7 +274,7 @@ If $U$ existed, Axiom 2 would imply that any relation $A\looparrowright U$ had a
 
 What this axiom asserts is actually a bit weaker than the precise ghost of a tabulation of $P$; that would require instead of (2) that for any $a\in A$ and any set $X$ with $P(a,X)$, there exists a $b\in B$ with $p(b)=a$ and $M_b\cong X$.  However, this stronger statement is still inconsistent, because if we took $A=1$ and $P=\top$ it would resurrect $U$ in the form of $B$!  The form given above is weak enough to keep the dead in their graves, yet strong enough to be useful.  (The former statement follows from the discussion below about inter-interpretability of SEAR and ZF, at least as long as the reader believes that ZF is consistent.  The latter remains to be gone more into.)
 
-_Exercise: why is adherence to "speak no evil" necessary for Axiom 5 to be reasonable as stated?_
+_Exercise: why respect for the [[principle of equivalence]] necessary for Axiom 5 to be reasonable as stated?_
 
 
 #### Applications of collection
