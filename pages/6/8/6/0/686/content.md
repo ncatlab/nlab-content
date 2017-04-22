@@ -23,7 +23,7 @@
 
 In general, a _2-limit_ is the sort of limit appropriate in a (weak) [[2-category]].  See [[2-limit]] for details.  However, when we happen to be in a [[strict 2-category]] we also have another notion at our disposal.  Since strict 2-categories are just categories  [[enriched category|enriched]] over [[Cat]], we can apply the usual notions of [[weighted limit]]s in enriched categories verbatim.  (Historically, these were called _2-limits_ while the up-to-isomorphism limits were called _bilimits_.)
 
-Because enriched category theory doesn't know anything about the 2-categorical nature of Cat, the resulting limits can have cones that commute strictly and have universal properties expressed by isomorphisms of categories; thus they can be [[evil]].  However, such strict limits often turn out to be technically useful even if we are fundamentally only interested in the non-strict notions, since in many strict 2-categories we can use tools of enriched category theory to construct strict limits, and then by considering suitably non-evil strict limits we can construct (non-strict) limits.  This is reminiscent of the use of strict structures in [[homotopy theory]] as a tool to get at weak ones, and in fact a precise comparison can be made (see below).
+Because enriched category theory doesn't know anything about the 2-categorical nature of Cat, the resulting limits can have cones that commute strictly and have universal properties expressed by isomorphisms of categories; thus they can violate the [[principle of equivalence]].  However, such strict limits often turn out to be technically useful even if we are fundamentally only interested in the non-strict notions, since in many strict 2-categories we can use tools of enriched category theory to construct strict limits, and then by considering suitably strict limits in accord with the [[principle of equivalence]] we can construct (non-strict) limits.  This is reminiscent of the use of strict structures in [[homotopy theory]] as a tool to get at weak ones, and in fact a precise comparison can be made (see below).
 
 
 ## Classification 
@@ -36,13 +36,13 @@ It just occured to me that 'strict initial object' conflicts with this.  But unl
 Heh, you're right.  I suppose we could try calling strict initial objects _stable initial objects_, which would make more sense anyway since they are really the 0-ary version of a stable coproduct.  But there's probably not likely to be any real confusion created by the two uses of strict.
 =--
 
-* A **strict 2-limit** (or just _strict limit_) in a strict 2-category is just a [[Cat]]-enriched (weighted) limit.  This means that its cones must commute strictly (although weakness can be built in via the weighting, see below), and its universal property is expressed by an isomorphism of categories.  Note that a strict limit is not necessarily a limit, because it may be [[evil]].  (cf. [[red herring principle]].)
+* A **strict 2-limit** (or just _strict limit_) in a strict 2-category is just a [[Cat]]-enriched (weighted) limit.  This means that its cones must commute strictly (although weakness can be built in via the weighting, see below), and its universal property is expressed by an isomorphism of categories.  Note that a strict limit is not necessarily a limit, because it may violate the [[principle of equivalence]].  (cf. [[red herring principle]].)
 
 * A **pseudo limit** (or _strict pseudo limit_ if it is necessary to emphasize the strictness) is a limit whose cones commute up to coherent 2-cell isomorphism, but whose universal property can still be expressed by an _isomorphism_ of categories.  For any weight $W$, there is another weight $W'$ (a [[cofibrant replacement]] of $W$) such that pseudo $W$-weighted limits are equivalent to strict $W'$-weighted ones.  The idea is that $W'$ includes explicitly all the extra isomorphisms in a pseudo $W$-cone.  Since any isomorphism of categories is _a fortiori_ an equivalence of categories, any pseudo limit is also a limit.
 
 * A **strict lax limit** is a limit whose cones commute only up to a coherent transformation in one direction, but again whose universal property is expressed by an isomorphism.  Likewise we have **strict oplax limits** where the transformation goes in the other direction.  Strict lax and oplax limits can also be rephrased as strict (non-lax) limits for a different weight.  As in the pseudo case, any strict (op)lax limit is also an (op)lax limit.
 
-More generally, any non-[[evil]] strict limit (one which doesn't demand equality of objects) will also be a limit.  Two formal versions of this statement involve [[flexible limit]]s and the more restrictive [[PIE-limit]]s.  In particular, any strict flexible limit is also a limit.  Since pseudo limits are PIE-limits, it follows that any strict 2-category which admits (strict) PIE-limits also admits all limits, even if it fails to admit some (evil) strict limits.  The category of algebras and pseudo morphisms for any [[2-monad]], such as [[MonCat]], is a good example of a 2-category having strict PIE-limits but not all strict limits.
+More generally, any strict limit respects the [[principle of equivalence]] (one which doesn't demand equality of objects) will also be a limit.  Two formal versions of this statement involve [[flexible limit]]s and the more restrictive [[PIE-limit]]s.  In particular, any strict flexible limit is also a limit.  Since pseudo limits are PIE-limits, it follows that any strict 2-category which admits (strict) PIE-limits also admits all limits, even if it fails to admit some equivalence-violatiing strict limits.  The category of algebras and pseudo morphisms for any [[2-monad]], such as [[MonCat]], is a good example of a 2-category having strict PIE-limits but not all strict limits.
 
 
 ## Pseudo limits and homotopy limits 
@@ -52,7 +52,7 @@ If there is a [[model category]] structure on the 1-category underlying the give
 
 ## Examples 
 
-Any ordinary 1-limit can be made into a strict 2-limit simply by boosting up its ordinary universal property (a bijection of sets) to an isomorphism of hom-categories.  Thus we have strict products, strict pullbacks, strict equalizers, and so on.  Of these, strict products (including terminal objects) are non-evil (and thus are also limits), while others such as pullbacks and equalizers tend to be evil.
+Any ordinary 1-limit can be made into a strict 2-limit simply by boosting up its ordinary universal property (a bijection of sets) to an isomorphism of hom-categories.  Thus we have strict products, strict pullbacks, strict equalizers, and so on.  Of these, strict products (including terminal objects) respect the [[principle of equivalence]] (and thus are also limits), while others such as pullbacks and equalizers tend to violate the [[principle of equivalence]].
 
 * For example, a strict terminal object is an object 1 such that $K(X,1)$ is _isomorphic_ to the [[terminal category]], for any object $X$.
 
@@ -70,7 +70,7 @@ These are to be distinguished from:
 
 * The **iso-[[inserter]]** of $f,g:A\rightrightarrows B$ is a universal object $E$ equipped with a morphism $e:E\to A$ and a 2-cell isomorphism $f e \cong g e$.
 
-The pseudo pullback, pseudo equalizer, iso-comma object, and iso-inserter are all strict Cat-weighted limits; their universal property is expressed by an isomorphism of categories.  Usually the pseudo pullback and iso-comma object are not isomorphic, and likewise the pseudo equalizer and iso-inserter are not isomorphic.  However, both the pseudo pullback and iso-comma object are non-evil and represent a pullback; therefore they are _equivalent_ when they both exist.  Likewise, the pseudo equalizer and iso-inserter both represent an equalizer, and are equivalent when they both exist.
+The pseudo pullback, pseudo equalizer, iso-comma object, and iso-inserter are all strict Cat-weighted limits; their universal property is expressed by an isomorphism of categories.  Usually the pseudo pullback and iso-comma object are not isomorphic, and likewise the pseudo equalizer and iso-inserter are not isomorphic.  However, both the pseudo pullback and iso-comma object respect the [[principle of equivalence]] and represent a pullback; therefore they are _equivalent_ when they both exist.  Likewise, the pseudo equalizer and iso-inserter both represent an equalizer, and are equivalent when they both exist.
 
 If one is mostly interested in (non-strict) limits, then there is little harm in using "pseudo pullback" to mean "iso-comma object" or "pullback," as is common in the literature.  However, with _lax_ limits the situation is more serious.  Speaking precisely, in the _lax_ version of a limit, the triangles in the limiting cone are made to commute up to a specified transformation in one direction, but there are still specified projections to _each_ object in the diagram.  For example:
 
@@ -84,7 +84,7 @@ In particular, the strict lax pullback is quite different from the following mor
 
 Even in their non-strict forms, the lax pullback and comma object are distinct.  Usually the comma object is the more important one, but calling it a "lax pullback" should be avoided.
 
-Here are some more important examples of 2-limits, all of which come in strict and weak forms and are non-evil.
+Here are some more important examples of 2-limits, all of which come in strict and weak forms and respect the [[principle of equivalence]].
 
 * The **[[inserter]]** of a pair of parallel arrows $f,g:A \;\rightrightarrows\; B$ is a universal object $I$ equipped with a map $i:I\to A$ and a 2-cell $f i \to g i$.
 
