@@ -63,9 +63,9 @@ For a summary of the mathematical foundations of category theory, see Mike Shulm
 #### The concept of _identity_
 {#Identity}
 
-One way to think of category theory is as a framework in which the idea is formalized that every kind of [[equality]] is really secretly a choice of [[isomorphism]] or [[equivalence]]. In some sense the notion of identity is potentially [[evil]], in a technical sense.
+One way to think of category theory is as a framework in which the idea is formalized that every kind of [[equality]] is really secretly a choice of [[isomorphism]] or [[equivalence]]. In some sense the notion of identity potentially breaks the [[principle of equivalence]].
 
-[[Michael Makkai]] works on a language, [[FOLDS]] ('first-order logic with dependent sorts'), which is designed to make it impossible to formulate any [[evil]] statements.
+[[Michael Makkai]] works on a language, [[FOLDS]] ('first-order logic with dependent sorts'), which is designed to make it impossible to formulate any statements that break the [[principle of equivalence]].
 
 
 ### Categorial foundations of mathematics
