@@ -23,7 +23,7 @@ Two [[diagrams]] $D,D'$ in a [[category]] $C$ (e.g.: directed systems, sub-poset
 In most cases where the word "cofinal" is used, it seems to be the case $D'$ is a subdiagram of $D$ in whatever sense of subdiagram appears suitable.  In that case the cofinality is equivalent to the inclusion [[functor]] being a **[[cofinal functor]]**.
 
 
-As defined above, no relation is posited between $D$ and $D'$, and so it seems not too evil to define cofinalness[^1] as "a single object is a colimit for both diagrams".
+As defined above, no relation is posited between $D$ and $D'$, and so it seems not too much in violation of the [[principle of equivalence]] to define cofinalness[^1] as "a single object is a colimit for both diagrams".
 
 
 
