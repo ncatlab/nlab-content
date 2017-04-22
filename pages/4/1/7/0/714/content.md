@@ -49,7 +49,7 @@ which
 
 1. is an [[involution]] $\dagger \circ \dagger = \mathrm{id}_C$.
 
-Note that regarded as an extra structure on categories, a &#8224;-structure is [[evil]], since it imposes equations on objects.
+Note that regarded as an extra structure on categories, the concept of &#8224;-structure violates the [[principle of equivalence]], since it imposes equations on objects.
 
 
 ### Special morphisms
@@ -269,7 +269,7 @@ but it does not reflect them. Because two objects in a &#8224;-category can be i
 
 In other words the forgetful functor $DCat\to Cat$ is wrong.
 This may explains why a &#8224;-category cannot be
-regarded as a category equipped a homotopy invariant structure, as discussed in more detail in the example sections of the entry [[evil]].
+regarded as a category equipped a homotopy invariant structure, as discussed in more detail in the example sections of the entry _[[principle of equivalence]]_.
 
 
 But the notion of &#8224;-category is perfectly reasonable
