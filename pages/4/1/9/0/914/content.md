@@ -24,12 +24,14 @@ _Nets_ are generalisations of [[sequences]] that are used especially in [[topolo
 
 ## Definitions
 
+### Nets
+
 A __net__ $\nu$ in a [[set]] $X$ is a [[direction|directed set]] $A$ and a [[function]] $\nu: A \to X$; we say that $A$ _indexes_ the net.  The notation used is based on the special case of an infinite [[sequence]]; the value of the [[function]] $\nu$ at the index $i$ is written $\nu_i$.  Indeed, an infinite sequence in $X$ is a net indexed by the [[natural numbers]].
 
 Although $A$, being a [[directed set]], is equipped with a [[preorder]], the net is not required to preserve this in any way.  This forms an exception to the rule of thumb that a preordered set may be replaced by its quotient [[partial order|poset]].  You can get around this if you instead define a net in $X$ as a [[multi-valued function]] from a partially ordered directed set $A$ to $X$.  Although there is not much point to doing this in general, it can make a difference if you put restrictions on the possibilities for $A$, in particular if you consider the definition of [[sequence]].  In some [[type theory|type-theoretic]] [[foundations]] of mathematics, you can get the same effect by defining a net to be an 'operation' (a [[prefunction]], like a function but not required to preserve [[equality]]).
 
 
-## Subnets
+### Subnets
 
 There are several different definitions of 'subnet' in the literature, all of which intend to generalise subsequences.  We give them in order of increasing generality.  Note that it is Definition \ref{AA} which is correct in that it corresponds precisely to refinement of filters.  However, the other two definitions are sufficient (in a sense to be made precise at the end of this section) and may be easier to work with.
 
@@ -133,7 +135,7 @@ Although nets are perhaps more familiar, due to their similarity to sequences, o
 
 ## References
 
-*  _[[HAF]]_, Sections 7.14--7.21
+* Erich Schechter, sections 7.14--7.21 of _[[Handbook of Analysis and its Foundations]]_ 
 
 
 [[!redirects net]]
