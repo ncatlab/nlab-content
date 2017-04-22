@@ -9,17 +9,20 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-The formulation of [[analysis]] using explicit [[infinitesimal objects]] is sometimes called _infinitesimal analysis_, in contrast to [[epsilontic analysis]].
+Once _infinitesimal analysis_ was a synonym for "infinitesimal [[calculus]]", hence for the foundations of the theory of [[differentiation]] and [[integration]], but it has come to  refer to the formulation of [[analysis]] using explicit [[infinitesimal objects]], in contrast to [[epsilontic analysis]].
 
 Formalisms that make infinitesimal analysis precise include
 
-* [[synthetic differential geometry]]
+* [[synthetic differential geometry]] with [[nilpotent infinitesimals]]
 
-* [[nonstandard analysis]]
+* [[nonstandard analysis]] with non-nilpotent infinitesimals
 
-* [[nilpotent infinitesimal]]
 
 ## References
 
