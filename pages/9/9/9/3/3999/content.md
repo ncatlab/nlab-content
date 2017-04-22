@@ -72,7 +72,7 @@ The following is a list of properties of and pertaining to sequentially compact 
 
 ### Relationship to Compactness 
 
-[[compact space|Compactness]] does not imply sequentially compactness, nor does sequentially compactness imply compactness, without further assumptions (see for example wikipedia: [compact spaces](http://en.wikipedia.org/wiki/Compact_space)).
+[[compact space|Compactness]] does not imply sequentially compactness, nor does sequentially compactness imply compactness, without further assumptions, see at _[Examples and counter-examples](#Examples)_ below.
 
 In [[metric spaces]] for example both notions coincide, see at [[sequentially compact metric spaces are equivalently compact metric spaces]]. (This is a consequence of the [[Lebesgue number lemma]] and the fact that  [[sequentially compact metric spaces are totally bounded]].)
 
@@ -85,9 +85,9 @@ A [[metric space]] is sequentially compact precisely if it is [[compact topologi
 
 In general neither of these two properties implies the other:
 
-* Examples of a sequentially compact spaces which are not compact are given in in ([Buskes-Rooij 97, example 13.5](#BuskesRooij97), [Patty 08, chapter 4, example 13](#Patty08)).
+* Examples of a sequentially compact spaces which are not compact are given in in ([Buskes-Rooij 97, example 13.5](#BuskesRooij97), [Patty 08, chapter 4, example 13](#Patty08), [Vermeeren 10, prop. 18](#Vermeeren10)).
 
-* An example of a [[compact topological space]] which is not sequentially compact is given in ([Steen-Seebach 70, item 105](#SteenSeebach70)). See at [compact space -- Compact spaces which are not sequentially compact](compact+space#CompactSpacesWhichAreNotSequentiallyCompact).
+* An example of a [[compact topological space]] which is not sequentially compact is given in ([Steen-Seebach 70, item 105](#SteenSeebach70)), recalled at [Vermeeren 10, prop. 17](#Vermeeren10). See at [compact space -- Compact spaces which are not sequentially compact](compact+space#CompactSpacesWhichAreNotSequentiallyCompact).
 
 
 
@@ -98,6 +98,9 @@ In general neither of these two properties implies the other:
 * {#SteenSeebach70} Lynn Steen, J. Arthur Seebach, _Counterexamples in Topology_, Springer-Verlag, New York (1970) 2nd edition,  (1978), Reprinted by Dover Publications, New York, 1995
 
 * {#Patty08} Wayne Patty, _Foundations of Topology_, Jones and Bartlett Publishers (2008)
+
+* {#Vermeeren10} [[Stijn Vermeeren]], _Sequences and nets in topology_, 2010 ([pdf](http://stijnvermeeren.be/download/mathematics/nets.pdf))
+
 
 See also
 
