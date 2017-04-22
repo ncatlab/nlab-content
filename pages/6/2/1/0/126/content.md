@@ -38,11 +38,11 @@ These conditions ensure that $D$ is a category in its own right and the inclusio
 * A __[[wide subcategory]]__ if every object of $C$ is also an object of $D$.
 
 
-## Non-evil variants
+## Variants in accord with the principle of equivalence
 
 Just as subsets of a [[set]] $X$ can be identified with isomorphism classes of [[monomorphism|monic]] functions into $X$, subcategories of a category $C$ can be identified with isomorphism classes of monic _functors_ into $C$.  A functor is easily verified to be monic iff it is [[faithful functor|faithful]] and injective on objects.  This can be generalized to monomorphisms in a [[strict 2-category]].
 
-However, this notion is [[evil]] since being injective-on-objects refers to equality of objects.  This raises the question: what is a good non-evil definition of **subobject** in a [[2-category]]?  It is the contention of the authors of this page that there are multiple such definitions.  Two evident ones are:
+However, this notion violates the [[principle of equivalence]] since being injective-on-objects refers to equality of objects.  This raises the question: what is a good definition of **subobject** in a [[2-category]] in accord with the [[principle of equivalence]]?  It is the contention of the authors of this page that there are multiple such definitions.  Two evident ones are:
 
 * A morphism $f: A\to B$ in a 2-category $K$ is **1-monic** if it is full and faithful, i.e. $K(X,A) \to K(X,B)$ is full and faithful for all $X$.  A **1-subobject** of $B$ is an [[equivalence]] class of 1-monomorphisms into $B$, and a **1-subcategory** is a 1-subobject in $Cat$.
 * Likewise, $f$ is **2-monic** if $K(X,A) \to K(X,B)$ is faithful for all $X$.  A **2-subobject** of $B$ is an equivalence class of 2-monomorphisms into $B$, and a **2-subcategory** is a 2-subobject in $Cat$.
