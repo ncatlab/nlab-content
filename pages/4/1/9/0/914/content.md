@@ -27,12 +27,15 @@ Nets are also called _Moore--Smith sequences_ and are equivalent (in a certain s
 The concept of nets is motivated from the fact that where plain [[sequences]] detect [[topology|topological]] properties in [[metric spaces]], in generally they fail to do so in more general [[topological spaces]]. 
 For example [[sequentially compact metric spaces are equivalently compact metric spaces]], but for general [[topological spaces]] being [[sequentially compact space|sequentially compact]] neither implies nor is implied by being [[compact space|compact]] (see at _[[sequentially compact space]]_ [Examples and counter-examples](sequentially+compact+topological+space#Examples)). 
 
-Inspection of these counter-examples reveals that the problem is that sequences indexed by the [[natural numbers]] may be "too short" in that they cannot go deep enough into uncountable territory, and they are "too slim" in that they proceed to their potential limiting point only from one direction, instead of from many at once. The use of general [[directed sets]] in place of just the [[natural numbers]] fixed these two issues. 
+Inspection of these counter-examples reveals that the problem is that sequences indexed by the [[natural numbers]] may be "too short" in that they cannot go deep enough into uncountable territory, and they are "too slim" in that they proceed to their potential limiting point only from one direction, instead of from many at once. The use of general [[directed sets]] for nets in place of just the [[natural numbers]] for sequences fixes these two issues. 
+
+While the concept of nets is similar to that of sequences, one gets a cleaner theory still by considering not the nets themselves but their "[[filters]] of subsets which they eventually meet" (def. \ref{EventuallyAndFrequently} below), called their _[[eventuality filters]]_ (def. \ref{EventualityFilter} below). For example equivalent filters are equal (in contrast to nets) and (unless in [[predicative mathematics]]) the set of filters on a set $X$ is [[small set|small]] (not a proper class).
 
 
 ## Definitions
 
 ### Directed sets
+
 
 +-- {: .num_defn #DirectedSet}
 ###### Definition
@@ -101,9 +104,47 @@ You can get around this if you instead define a net in $X$ as a [[multi-valued f
 
 =--
 
++-- {.num_defn #EventuallyAndFrequently}
+###### Definition
+**([[eventually]] and frquently)**
+
+Consider [[net]] $\nu \colon A \to X$ (def. \ref{Net}), and given a [[subset]] $S \subset X$. We say that 
+
+1. $\nu$ is _[[eventually]] in $S$_ if there exists $i \in A$ such that $\nu_j \in S$ for every $j \ge i$.  
+
+1. $\nu$ is _frequently in $S$_ if for every index $i \in A$, then $\nu_j \in S$ for some $j \ge i$.  
+
+=--
+
++-- {.num_remark}
+###### Remark
+
+Sometimes one says 'infinitely often' in place of 'frequently' in def. \ref{EventuallyAndFrequently} and even 'cofinitely often' in place of 'eventually'; these derive from the special case of sequences, where they may be taken literally.
+
+=--
+
++-- {: .num_defn #Convergence}
+###### Definition
+**([[convergence]] of [[nets]])**
+
+Let $(X,\tau)$ be a [[topological space]], and let $\nu \colon A \to X$ be a [[net]] in the underlying set (def. \ref{Net}).
+
+We say that the net $\nu$ 
+
+1. _[[convergence|converges]]_ to an element $x \in X$ if given any [[neighbourhood]] $U$ of $x$, $\nu$ is eventually in $U$ (def. \ref{EventuallyAndFrequently}); 
+
+1. _clusters_ at $x$ if, for every [[neighbourhood]] $U$ of $x$, $\nu$ is frequently in $U$ (also def. \ref{EventuallyAndFrequently}).  
+
+=--
+
+
+
+
 ### Subnets
 
-There are several different definitions of 'subnet' in the literature, all of which intend to generalise the concept of subsequences.  We give them in order of increasing generality.  Note that it is Definition \ref{AA} which is correct in that it corresponds precisely to refinement of filters.  However, the other two definitions are sufficient (in a sense made precise by theorem \ref{EquivalenceOfDefinitionsOfSubnets} below) and may be easier to work with.
+The definition of the concept of _sub-nets_ of a net requires some care. The point of the definition is to ensure that prop \ref{...} below becomes true, which characterizes [[compact topological spaces]] as those in which every net has a sub-net that [[convergence|converges]] (def. \ref{Convergence}).
+
+There are several different definitions of 'subnet' in the literature, all of which intend to generalise the concept of subsequences.  We state them now in order of increasing generality.  Note that it is Definition \ref{AA} which is correct in that it corresponds precisely to refinement of filters.  However, the other two definitions (def. \ref{Willard}, def. \ref{Kelley}) are sufficient (in a sense made precise by theorem \ref{EquivalenceOfDefinitionsOfSubnets} below) and may be easier to work with.
 
 
 +-- {.num_defn #Willard}
@@ -150,7 +191,7 @@ The [[eventuality filter]] of $y$ (def. \ref{EventualityFilter}) refines the eve
 =--
 
 
-The equivalence between these definitionsis as follows:
+The equivalence between these definitions is as follows:
 
 +-- {.num_theorem #EquivalenceOfDefinitionsOfSubnets}
 ###### Theorem
@@ -166,37 +207,9 @@ The equivalence between these definitionsis as follows:
 So from the perspective of definition (\ref{AA}), there are enough (\ref{Willard})-subnets and (\ref{Kelley})-subnets, up to equivalence.
 
 
-### Logic of nets 
 
-A [[property]] of [[elements]] of a [[set]] $X$ (given by the [[subset]] $S \subset X$ of those elements of $X$ satisfying this property) may be applied to nets in $X$.  
-
-+-- {.num_defn #eEventuallyAndFrequently}
-###### Definition
-
-We say that $\nu$ is __[[eventually]]__ in $S$ if for some index $i$, $\nu_j \in S$ for every $j \ge i$.  Dually, we say that $\nu$ is __frequently__ in $S$ if for every index $i$, $\nu_j \in S$ for some $j \ge i$.  
-
-=--
-
-+-- {.num_remark}
-###### Remark
-
-Sometimes one says 'infinitely often' in place of 'frequently' and even 'cofinitely often' in place of 'eventually'; these derive from the special case of sequences, where they may be taken literally.
-=--
-
-Being eventually in $S$, def. \ref{EventuallyAndFrequently}, is a weakening of being always in $S$ (given by Lawvere\'s [[universal quantifier]] $\forall_\nu$), while being frequently in $S$ is a strengthening of being sometime in $S$ (given by the [[particular quantifier]] $\exists_\nu$).  Indeed we can build a [[formal logic]] out of these.  Use $\ess\forall i, p[\nu_i]$ or $\ess\forall_\nu p$ to mean that a predicate $p$ in $X$ is eventually true, and use $\ess\exists i, p[\nu_i]$ or $\ess\exists_\nu p$ to mean that $p$ is frequently true.  Then we have:
-$$\forall_\nu p \;\Rightarrow\; \ess\forall_\nu p \;\Rightarrow\; \ess\exists_\nu p \;\Rightarrow\; \exists_\nu p$$
-$$\ess\forall_\nu (p \wedge q) \;\Leftrightarrow\; \ess\forall_\nu p \wedge \ess\forall_\nu q$$
-$$\ess\exists_\nu (p \wedge q) \;\Rightarrow\; \ess\exists_\nu p \wedge \ess\exists_\nu q$$
-$$\ess\forall_\nu (p \vee q) \;\Leftarrow\; \ess\forall_\nu p \wedge \ess\forall_\nu q$$
-$$\ess\exists_\nu (p \vee q) \;\Leftrightarrow\; \ess\exists_\nu p \vee \ess\exists_\nu q$$
-$$\ess\forall_\nu \neg{p} \;\Leftrightarrow\; \neg\ess\exists_\nu p$$
-and other analogues of theorems from [[predicate logic]].  Note that the last item listed requires [[excluded middle]] even though its analogue from ordinary predicate logic does not.
-
-A similar logic is satisfied by '[[almost everywhere]]' and its dual ('not almost nowhere' or 'somewhere significant') in [[measure spaces]].
-
-
-### Nets and filters
- {#NetsAnd} 
+### Eventuality filters
+ {#NetsAndFilters} 
 
 Recall that: 
 
@@ -237,7 +250,18 @@ $$
 
 =--
 
-Nets are considered __equivalent__ if they have the same eventuality filter; in other words, by def. \ref{AA} and theorem \ref{EquivalenceOfDefinitionsOfSubnets}, if they are both subnets of each other.  In particular, they define the same logical quantifiers and are therefore equivalent for the application to topology below.  (Of course, it is possible to distinguish them by using the standard logical quantifiers instead.)
++-- {: .num_remark}
+###### Remark
+**(equivalence of nets)**
+
+Two nets are to be considered __equivalent__ if they have the same [[eventuality filter]] according to def. \ref{EventualityFilter}. 
+By def. \ref{AA} and theorem \ref{EquivalenceOfDefinitionsOfSubnets}, this means equivalently that they are both subnets of each other.  
+
+In particular, equivalent nets define the same logical quantifiers (see [below](#LogicOfNets)) and are therefore indeed equivalent for the application to [[topology]] (see [below](#RelationToTopology)).  
+
+(Of course, it is possible to distinguish them by using the standard logical quantifiers instead.)
+
+=--
 
 
 Conversely,  every [[filter]] is the [[eventuality filter]] of some net:
@@ -255,7 +279,7 @@ $$
   \right) 
   \,\Leftrightarrow\,
   \left(
-    U \subseteq V$ 
+    U \subset V$ 
   \right)
   \phantom{AAA}
   \text{(regardless of}\, x\, \text{and} \, y\text{)}  
@@ -270,7 +294,7 @@ $$
   \array{
     \left(
       \underset{U \in \mathcal{F}}{\sqcup} U
-    \right)_{\superset}
+    \right)_{\supset}
       &\overset{\nu_{\mathcal{F}}}{\longrightarrow}&
     X
     \\
@@ -289,13 +313,37 @@ Given a [[set]] $X$ and a [[filter]] of subsets $\mathcal{F} \subset P(X)$ (def.
 =--
 
 
-## Nets in topological spaces 
 
-A net $\nu$ in a [[topological space]] __[[convergence|converges]]__ to a point $x$ in the space if, given any [[neighbourhood]] $U$ of $x$, $\nu$ is eventually in $U$ (def. \ref{EventuallyAndFrequently}); $\nu$ __clusters__ at $x$ if, for every neighbourhood $U$ of $x$, $\nu$ is frequently in $U$ (also def. \ref{EventuallyAndFrequently}).  One can in fact recover the topology on the set $X$ simply by knowing which nets converge to which points.  It is possible to define elementary conditions on this [[convergence]] relation that characterise whether it is topological (that is whether it comes from a topology on $X$), although these are a bit complicated.
+## Properties
+
+### Relation to topology
+ {#RelationToTopology}
+
+One may in fact recover the topology $\tau$ on the set $X$ simply by knowing which nets converge to which points.  It is possible to define elementary conditions on this [[convergence]] relation that characterise whether it is topological (that is whether it comes from a topology on $X$), although these are a bit complicated.
 
 By keeping only the simple conditions, one gets the definition of a [[convergence space]]; this is a more general concept than a topological space and includes many non-topological situations where we want to say that a sequence converges to some value (such as convergence in measure).  It is also very nice to describe [[compact space|compact]] and [[Hausdorff space|Hausdorff]] spaces in terms of the convergence relation.
 
-Although nets are perhaps more familiar, due to their similarity to sequences, one gets a cleaner theory by talking about filters, since equivalent filters are equal and (as long as one is not a [[predicative mathematics|predicativist]]) the set of filters on a set $X$ is small (not a proper class).
+
+
+
+### Logic of nets 
+ {#LogicOfNets}
+
+A [[property]] of [[elements]] of a [[set]] $X$ (given by the [[subset]] $S \subset X$ of those elements of $X$ satisfying this property) may be applied to nets in $X$.  
+
+
+Being eventually in $S$, def. \ref{EventuallyAndFrequently}, is a weakening of being always in $S$ (given by the [[universal quantifier]] $\forall_\nu$), while being frequently in $S$ is a strengthening of being sometime in $S$ (given by the [[particular quantifier]] $\exists_\nu$).  Indeed we can build a [[formal logic]] out of these.  Use $\ess\forall i, p[\nu_i]$ or $\ess\forall_\nu p$ to mean that a predicate $p$ in $X$ is eventually true, and use $\ess\exists i, p[\nu_i]$ or $\ess\exists_\nu p$ to mean that $p$ is frequently true.  Then we have:
+$$\forall_\nu p \;\Rightarrow\; \ess\forall_\nu p \;\Rightarrow\; \ess\exists_\nu p \;\Rightarrow\; \exists_\nu p$$
+$$\ess\forall_\nu (p \wedge q) \;\Leftrightarrow\; \ess\forall_\nu p \wedge \ess\forall_\nu q$$
+$$\ess\exists_\nu (p \wedge q) \;\Rightarrow\; \ess\exists_\nu p \wedge \ess\exists_\nu q$$
+$$\ess\forall_\nu (p \vee q) \;\Leftarrow\; \ess\forall_\nu p \wedge \ess\forall_\nu q$$
+$$\ess\exists_\nu (p \vee q) \;\Leftrightarrow\; \ess\exists_\nu p \vee \ess\exists_\nu q$$
+$$\ess\forall_\nu \neg{p} \;\Leftrightarrow\; \neg\ess\exists_\nu p$$
+and other analogues of theorems from [[predicate logic]].  Note that the last item listed requires [[excluded middle]] even though its analogue from ordinary predicate logic does not.
+
+A similar logic is satisfied by '[[almost everywhere]]' and its dual ('not almost nowhere' or 'somewhere significant') in [[measure spaces]].
+
+
 
 
 ## Related concepts
