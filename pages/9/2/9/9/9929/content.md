@@ -18,6 +18,14 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A _complex oriented cohomology theory_ is a [[generalized (Eilenberg-Steenrod) cohomology theory]] which is [[orientation in generalized cohomology|oriented]] on all [[complex vector bundles]]. Examples include [[ordinary cohomology]], complex [[topological K-theory]], [[elliptic cohomology]] and [[cobordism cohomology]].
+
+The collection of all complex oriented cohomology theories turns out to be parameterized over the [[moduli stack of formal group laws]]. The [[stratification]] of this stack by the [[height of a formal group|height of formal group]] leads to the stratification of complex oriented cohomology theory by "[[chromatic level]]", a perspective also known as _[[chromatic homotopy theory]]_.
+
+For more detailed introduction see at _[[Introduction to Cobordism and Complex Oriented Cohomology]]_.
+
 ## Definition
  {#Definition}
 
@@ -655,12 +663,24 @@ is a [[Thom class]].
 
 ## References
 
+Textbook accounts include
+
 * [[Frank Adams]], part II, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
 
 * {#Kochmann96} [[Stanley Kochmann]], section 4.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
+Introduction includes
+
+* _[[Introduction to Cobordism and Complex Oriented Cohomology]]_
+
+* {#Pedrotti16} [[Riccardo Pedrotti]], _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
+
+
+The perspective of [[chromatic homotopy theory]] originates in
+
 * {#Hopkins99} [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
+and is further developed in
 
 * {#LurieLecture} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes, 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html))
 
@@ -670,9 +690,6 @@ is a [[Thom class]].
 
 See also the references at _[equivariant cohomology -- References -- Complex oriented cohomology](equivariant+cohomology#InComplexOrientedGeneralizedCohomologyTheory)_-.
 
-A writeup of complete details of some basic facts is in
-
-* {#Pedrotti16} [[Riccardo Pedrotti]], _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
 
 
 More recent developments include
