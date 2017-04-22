@@ -20,14 +20,14 @@
 ## Idea 
  {#Idea}
 
-A _net_ in a [[set]] $X$ is simply a [[function]] from a [[directed set]] $D$ to $X$. Special cases of nets are [[sequences]], for which $D = \mathbb{N}_{\leq}$ is the [[natural numbers]]. Regarded as a generalization of sequences, nets are used in [[topology]] for formalization of the concept of [[convergence]].
+A _net_ in a [[set]] $X$ is a [[function]] from a [[directed set]] $D$ to $X$. Special cases of nets are [[sequences]], for which $D = \mathbb{N}_{\leq}$ is the [[natural numbers]]. Regarded as a generalization of sequences, nets are used in [[topology]] for formalization of the concept of [[convergence]].
 
-Nets are also called _Moore--Smith sequences_ and are equivalent (in a certain sense) to [[proper filters]], their _[[eventuality filters]]_.
+Nets are also called _Moore--Smith sequences_ and are equivalent (in a certain sense) to [[proper filters]] (def. \ref{Filter} below), their _[[eventuality filters]]_ (def. \ref{EventualityFilter} below).
 
 The concept of nets is motivated from the fact that where plain [[sequences]] detect [[topology|topological]] properties in [[metric spaces]], in generally they fail to do so in more general [[topological spaces]]. 
 For example [[sequentially compact metric spaces are equivalently compact metric spaces]], but for general [[topological spaces]] being [[sequentially compact space|sequentially compact]] neither implies nor is implied by being [[compact space|compact]] (see at _[[sequentially compact space]]_ [Examples and counter-examples](sequentially+compact+topological+space#Examples)). 
 
-Inspection of these counter-examples reveals that the problem is that sequences indexed by the [[natural numbers]] may be "too short" in that they cannot go deep enough into incountable territory, and they are "too slim" in that they proceed to their potential limiting point only from one direction, instead of from many at once. The use of general [[directed sets]] in place of just the [[natural numbers]] fixed these two issues. 
+Inspection of these counter-examples reveals that the problem is that sequences indexed by the [[natural numbers]] may be "too short" in that they cannot go deep enough into uncountable territory, and they are "too slim" in that they proceed to their potential limiting point only from one direction, instead of from many at once. The use of general [[directed sets]] in place of just the [[natural numbers]] fixed these two issues. 
 
 
 ## Definitions
@@ -40,13 +40,14 @@ Inspection of these counter-examples reveals that the problem is that sequences 
 
 A _[[directed set]]_ is
 
-* a [[preordered set]] $(D, \leq)$, hence a set $D$ equipped with a [[reflexive]] and [[transitive]] [[relation]] $\leq$
+* a [[preordered set]] $(D, \leq)$, hence a set $D$ equipped with a [[reflexive relation|reflexive]] and [[transitive]] [[relation]] $\leq$
 
 such that
 
 * every [[finite set|finite]] [[subset]] has an [[upper bound]], hence for any $a,b \in D$ there exists $c \in D$ with $a \leq c$ and $b \leq c$.
 
 =--
+
 
 +-- {: .num_example #DirectedSetOfNaturalNumbers}
 ###### Example
@@ -57,6 +58,13 @@ lower-or-equal relation $\leq$ form a [[directed set]] (def. \ref{DirectedSet}).
 
 =--
 
++-- {: .num_example #DirectedSetOfNeighbourhods}
+###### Example
+**([[directed set]] of [[neighbourhoods]])**
+
+Let $(X, \tau)$ be a [[topological space]] and let $x \in X$ be an element of the underlying set. Then then set of $(Nbhd_X(x)_{\superset})$ [[neighbourhoods]] of $x$, ordered by _reverse_ inclusion, is a [[directed set]] (def. \ref{DirectedSet}).
+
+=--
 
 
 ### Nets
@@ -138,7 +146,7 @@ Notice that the function $f$ in definitions \ref{Willard} and \ref{Kelley} is _n
 
 Given a net $(x_{\alpha})$ with index set $A$, and a net $(y_{\beta})$ with an index set $B$, we say that $y$ is a __subnet__ of $x$ if:
 
-The [[eventuality filter]] of $y$ (def. \ref{EventualityFilter}) refines the eeventuality filter of $x$.  (Explicitly, for every $\alpha \in A$ there is a $\beta \in B$ such that, for every $\beta_1 \geq \beta \in B$ there is an $\alpha_1 \geq \alpha \in A$ such that $y_{\beta_1} = x_{\alpha_1}$.)
+The [[eventuality filter]] of $y$ (def. \ref{EventualityFilter}) refines the eventuality filter of $x$.  (Explicitly, for every $\alpha \in A$ there is a $\beta \in B$ such that, for every $\beta_1 \geq \beta \in B$ there is an $\alpha_1 \geq \alpha \in A$ such that $y_{\beta_1} = x_{\alpha_1}$.)
 =--
 
 
@@ -162,7 +170,7 @@ So from the perspective of definition (\ref{AA}), there are enough (\ref{Willard
 
 A [[property]] of [[elements]] of a [[set]] $X$ (given by the [[subset]] $S \subset X$ of those elements of $X$ satisfying this property) may be applied to nets in $X$.  
 
-+-- {.num_defn #EventuallyAndFrequently}
++-- {.num_defn #eEventuallyAndFrequently}
 ###### Definition
 
 We say that $\nu$ is __[[eventually]]__ in $S$ if for some index $i$, $\nu_j \in S$ for every $j \ge i$.  Dually, we say that $\nu$ is __frequently__ in $S$ if for every index $i$, $\nu_j \in S$ for some $j \ge i$.  
@@ -194,17 +202,17 @@ Recall that:
 
 +-- {: .num_defn #Filter}
 ###### Definition
+**([[filter]])**
 
 Given a [[set]] $X$ then a [[set]] of [[subsets]] of $X$, hence a subset of the [[power set]]
 
 $$
-  F \subset P(X)
+  \mathcal{F} \subset P(X)
 $$
 
+is called a _[[filter]]_ of subsets if it is closed under [[intersections]] and under taking supersets.
 
-is called a _filter_ of subsets if it is closed under [[intersections]] and taking supersets.
-
-The filter $F$ is called _proper_ if each set in it is [[inhabited subset|inhabited]].
+The filter $\mathcal{F}$ is called _proper_ if each set in it is [[inhabited subset|inhabited]].
 
 =--
 
@@ -214,11 +222,11 @@ The filter $F$ is called _proper_ if each set in it is [[inhabited subset|inhabi
 
 Let $X$ be a [[set]] and let $\nu \colon D \to X$ be a net in $X$ (def. \ref{Net}).
 
-The _[[eventuality filter]]_ $F_\nu$ of the net $\nu$ is the [[filter]] (def. \ref{Filter}) onsisting of the subsets that $\nu$ is _eventually in_, according to def. \ref{EventuallyAndFrequently}.
+The _[[eventuality filter]]_ $\mathcal{F}_\nu$ of the net $\nu$ is the [[filter]] (def. \ref{Filter}) onsisting of the subsets that $\nu$ is _eventually in_, according to def. \ref{EventuallyAndFrequently}.
 
 $$
   \left(
-    (U \subset X) \in F_\nu
+    (U \subset X) \in \mathcal{F}_\nu
   \right)
    \,\Leftrightarrow\,
   \left(
@@ -227,13 +235,58 @@ $$
   \,.
 $$
 
+=--
 
+Nets are considered __equivalent__ if they have the same eventuality filter; in other words, by def. \ref{AA} and theorem \ref{EquivalenceOfDefinitionsOfSubnets}, if they are both subnets of each other.  In particular, they define the same logical quantifiers and are therefore equivalent for the application to topology below.  (Of course, it is possible to distinguish them by using the standard logical quantifiers instead.)
+
+
+Conversely,  every [[filter]] is the [[eventuality filter]] of some net:
+
++-- {: .num_defn #FilterNet}
+###### Definition
+
+Let $X$ be a [[set]] and let  $\mathcal{F} \subset P(X)$ be a [[filter]] of subsets of $X$ (def. \ref{Filter}).
+
+Consider the [[disjoint union]] $\underset{U \in \mathcal{F}}{\sqcup}$ of subsets in  $\mathcal{F}$, hence the set whose elements are [[pairs]] of the form $(U,x)$, where $x \in U \in \mathcal{F}$. Equipped with the ordering 
+
+$$ 
+  \left(
+    (U,x) \geq (V,y)  
+  \right) 
+  \,\Leftrightarrow\,
+  \left(
+    U \subseteq V$ 
+  \right)
+  \phantom{AAA}
+  \text{(regardless of}\, x\, \text{and} \, y\text{)}  
+}
+$$
+
+the fact that $\mathcal{F}$ is a proper filter implies that this is a [[directed set]] according to def. \ref{DirectedSet}. (It is actually enough to use only a base of the filters).
+
+Then the _filter net_ $\nu_F$ of $\mathcal{F}$ is the [[net]] on $X$ (def. \ref{Net}) given by
+
+$$
+  \array{
+    \left(
+      \underset{U \in \mathcal{F}}{\sqcup} U
+    \right)_{\superset}
+      &\overset{\nu_{\mathcal{F}}}{\longrightarrow}&
+    X
+    \\
+    (U,x) &\overset{\phantom{AAA}}{\mapsto}& x
+  }
+  \,.
+$$
 
 =--
 
-Conversely, any [[filter]] $\mathcal{F}$ defines a net whose eventuality filter is $\mathcal{F}$.  Let $A$ be the [[disjoint union]] of $\mathcal{F}$; that is, an element of $A$ is of the form $(U,x)$, where $x \in U \in \mathcal{F}$.  Define $(U,x) \geq (V,y)$ iff $U \subseteq V$ (regardless of $x$ and $y$).  Since $\mathcal{F}$ is a filter, one can show that $A$ is a [[directed set]] (one needs here that $\mathcal{F}$ is proper).  Define $\nu(U,x)$ to be $x$; then $\nu$ is a net in $X$ whose eventuality filter is $\mathcal{F}$ again.  (It is actually enough to use only a base of the filter when defining $A$.)
++-- {: .num_prop}
+###### Proposition
 
-Nets are considered __equivalent__ if they have the same eventuality filter; in other words, they are both subnets of each other.  In particular, they define the same logical quantifiers and are therefore equivalent for the application to topology below.  (Of course, it is possible to distinguish them by using the standard logical quantifiers instead.)
+Given a [[set]] $X$ and a [[filter]] of subsets $\mathcal{F} \subset P(X)$ (def. \ref{Filter}), then $\mathcal{F}$ is the [[eventuality filter]] (def. \ref{EventualityFilter}) of its filter net (def. \ref{FilterNet}).
+
+=--
 
 
 ## Nets in topological spaces 
