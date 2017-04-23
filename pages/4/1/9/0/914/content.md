@@ -61,6 +61,8 @@ lower-or-equal relation $\leq$ form a [[directed set]] (def. \ref{DirectedSet}).
 
 =--
 
+The key class of examples of nets, underlying their relation to [[topology]] ([below](#RelationToTopology)) is the following:
+
 +-- {: .num_example #DirectedSetOfNeighbourhods}
 ###### Example
 **([[directed set]] of [[neighbourhoods]])**
@@ -319,9 +321,76 @@ Given a [[set]] $X$ and a [[filter]] of subsets $\mathcal{F} \subset P(X)$ (def.
 ### Relation to topology
  {#RelationToTopology}
 
-One may in fact recover the topology $\tau$ on the set $X$ simply by knowing which nets converge to which points.  It is possible to define elementary conditions on this [[convergence]] relation that characterise whether it is topological (that is whether it comes from a topology on $X$), although these are a bit complicated.
 
-By keeping only the simple conditions, one gets the definition of a [[convergence space]]; this is a more general concept than a topological space and includes many non-topological situations where we want to say that a sequence converges to some value (such as convergence in measure).  It is also very nice to describe [[compact space|compact]] and [[Hausdorff space|Hausdorff]] spaces in terms of the convergence relation.
+
++-- {: .num_prop #TopologyDetectedByNets}
+###### Proposition
+**(topology detected by nets)**
+
+Using the [[axiom of choice]] then:
+
+Let $(X, \tau)$ be a [[topological space]]. Then a [[subset]] $(U \subset X)$ is [[open subset|open]] in $X$ (is an element of $\tau \subset P(X)$) precisely if its [[complement]] $X \backslash S$ is a [[closed subset]] as seen not just by sequences but by nets, in that no [[net]] with elements in $X\backslash S$,  $\nu \colon A \to X\backslash S \hookrightarrow X$, [[converges]] to an element in $S$.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In one direction, let $S \subset X$ be open, and consider a net $\nu \colon A \to X \backslash S \subset X$. We need to show that for every point $x \in S$, $x$ is not a limiting point of the net.
+
+But by assumption then $S$ is a [[neighbourhood]] of $x$ which does not contain any element of the net, and so by definition of convergence it is not a limit of this net.
+
+Conversely, let $S \subset X$ be a subset that is not open. We need to show that then there exists a net $\nu \colon A \to X\backslash S \subset X$ that converges to a point in $S$.
+
+For $x \in X$, consider the [[directed set]] $Nbhd_X(x)$ of [[open neighbourhoods]] of this element (example \ref{DirectedSetOfNeighbourhods}).
+Now the fact that the set $S$ is not open means that there exists an element $s \in S \subset X$ such that every [[open neighbourhood]] $U$ of $s$ intersects $X \backslash S$. This means that we may [[axiom of choice|choose]] elements $x_U \in U \cap (X \backslash S)$, and hence define a net
+
+$$
+  \array{
+    Nbhds_X(s) &\overset{\nu}{\longrightarrow}& X \backslash S  \subset X
+    \\
+    U &\mapsto& x_U
+  }
+  \,.
+$$
+
+But by construction this net has the property that for every neighbourhood $V$ of $s$ there exists $U \in Nbhd_X(s)$ such that for all $U' \subset U$ then $x_{U'} \in V$, namely $U = V$. Hence the net converges to $s$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+**(continuous functions detected by nets)**
+
+Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be two [[topological space]]. Then a [[function]] $f \colon X \to Y$ between their underlying sets is [[continuous function|continuous]] precisely if for every net $\vu \colon A \to X$ that converges to some $x \in X$, the net $f\circ \vu$ converges to  $f(y)\in Y$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In one direction, suppose that $f \colon X \to Y$ is continuous, and that $\nu \colon A \to X$ converges to some $x \in X$. We need to show that $f \citc \nu$ converges to $f(y) \in Y$, hence that for every neighbourhood $U_{f(y)} \subset Y$ there exists $i \in A$ such that $f(\nu(j)) \in U_{f(y)}$ for all $j \geq i$.
+
+But since $f$ is continuous, the [[pre-image]] $f^{-1}(U_{f(y)}) \subset X$ is an open neighbourhood of $x$, and so by the assumption that $\nu$ converges there is an $i \in A$ such that $\nu(j) \in f^{-1}(U_{f(y)})$ for all $j \geq i$. By applying $f$, this is the required statement.
+
+Conversely, suppose that $f$ is not continuous, and that the net $\nu$ converges to some $x \in X$. We need to show that then $f \circ \nu$ does not converge to $f(x)$.
+
+Now that $f$ is not continuous means that there exists an open subset $U \subset Y$ such that the pre-image $f^{-1}(U)$ is not open. By prop. \ref{TopologyDetectedByNets} this means that there exists a net $\nu$ in $X \backslash f^{-1}(U)$ that converges to an element $x \in f^{-1}(U)$. But this means that $f \circ \nu$ is a net in the $Y \backslash U$, which is a [[closed subset]] by the assumption that $U$ is open. Again by prop. \ref{TopologyDetectedByNets} this means that $f\circ \nu$ converges to an element in $Y \backslash U$, and hence not to $f(x) \in U$. 
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+It is possible to define elementary conditions on this [[convergence]] relation that characterise whether it is topological (that is whether it comes from a topology on $X$), although these are a bit complicated.
+
+By keeping only the simple conditions, one gets the definition of a [[convergence space]]; this is a more general concept than a topological space and includes many non-topological situations where we want to say that a sequence converges to some value (such as convergence in measure).  
+
+=--
+
+It is also very nice to describe [[compact space|compact]] and [[Hausdorff space|Hausdorff]] spaces in terms of the convergence relation.
 
 
 
