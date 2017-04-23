@@ -1035,10 +1035,10 @@ The following simplistic example of a (metric) topological space is important fo
 ###### Example
 **([[empty space]] and [[point space]])**
 
-On the [[empty set]] there exists a unique topology. 
-We write $\emptyset$ also for the resulting [[topological space]], 
+On the [[empty set]] there exists a unique topology.
+We write $\emptyset$ also for the resulting [[topological space]],
 which we call the _[[empty topological space]]_.
- 
+
 On a [[singleton]] set $\{1\}$ there exists a unique topology $\tau$
 making it a [[topological space]] according to def. \ref{TopologicalSpace},
 namely
@@ -4487,6 +4487,35 @@ some authors (mostly in [[algebraic geometry]], but also for instance [Waldhause
 
 =--
 
+There are several equivalent reformulation of the compactness condition:
+
++-- {: .num_prop #ClosedSubsetFormulationOfCompactness}
+###### Proposition
+**([[compact topological space|compactness]] in terms of closed subsets)**
+
+Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
+
+1. $(X,\tau)$ is [[compact topological space|compact]] in the sense of def. \ref{CompactTopologicalSpace}.
+
+1. Let $\{C_i \subset X\}_{i \in I}$ be a set of [[closed subsets]] (def. \ref{ClosedSubset}) such that their [[intersection]]
+   is [[empty set|empty]] $\underset{i \in I}{\cap} C_i = \emptyset$, then there is a [[finite set|finite]] [[subset]]
+   $J \subset I$ such that the corresponding finite intersection is still empty $\underset{i \in  J \subset i}{\cap} C_i = \emptyset$.
+   
+1. Let $\{C_i \subset X\}_{i \in I}$ be a set of [[closed subsets]] (def. \ref{ClosedSubset}) such that it enjoys the 
+   _[[finite intersection property]]_, meaning that for every [[finite set|finite]] [[subset]] $J \subset I$ then 
+   the corresponding finite intersection is [[inhabited set|non-empty]] $\underset{i \in J \subset I}{\cap} C_i \neq \emptyset$.
+   Then also the total intersection is [[inhabited set|non-empty]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The equivalence between the first and the second statement is immediate by [[de Morgan's law]].
+The equivalence between the first and the third proceeds similarly, via a [[proof by contradiction]].
+
+=--
+
 +-- {: .num_example }
 ###### Example
 **(finite discrete spaces are compact)**
@@ -6129,7 +6158,8 @@ $$
   i_n \colon S^{n-1}\longrightarrow D^n
 $$
 
-be the canonical inclusion of the standard [[n-sphere|(n-1)-sphere]] as the [[boundary]] of the standard [[n-disk]] (both regarded as [[topological spaces]] with their [[subspace topology]] as subspaces of the [[Cartesian space]] $\mathbb{R}^n$).
+be the canonical inclusion of the standard [[n-sphere|(n-1)-sphere]] as the [[boundary]] of the standard [[n-disk]]
+from example \ref{SpheresAndDisks}.
 
 
 <div style="float:left;margin:0 10px 10px 0;">
