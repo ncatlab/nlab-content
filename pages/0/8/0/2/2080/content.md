@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
 #### $(0,1)$-Category theory
 +-- {: .hide}
 [[!include (0,1)-category theory - contents]]
@@ -70,6 +74,8 @@ In [[type theory]]
 * [[hypothetical judgement]]
 
 * [[linear implication]]
+
+* [[contrapositive]]
 
 
 [[!redirects implication]]
