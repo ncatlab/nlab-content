@@ -1,10 +1,27 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+
 In [[propositional logic]], the __contrapositive rule__ states that it is valid to derive $\neg{Q} \to \neg{P}$ from $P \to Q$ (where $\neg$ is [[negation]] and $\to$ is [[implication]]).  In symbols:
 $$ \frac {P \to Q} {\neg{Q} \to \neg{P}} \;CP $$
 The combination of this rule, followed by modus ponens (the [[elimination rule]] for implication) was traditionally called _modus tollens_:
 $$ \frac {\displaystyle\frac{P \to Q} {\neg{Q} \to \neg{P}} \;CP \;\;\; \neg{Q}} {\neg{P}} \; \to\mathcal{E} $$
 
-The contrapositive rule is valid in [[intuitionistic logic]], not just in [[classical logic]]; however, the reverse rule is valid only in classical logic.  Another intuitionistically valid rule, this one reversible, is
+The contrapositive rule is valid in [[intuitionistic logic]], not just in [[classical logic]]; however, the reverse rule is valid only in classical logic. 
+
+Another intuitionistically valid rule, this one reversible, is
 $$ \frac {P \to \neg{Q}} {Q \to \neg{P}} $$
 as both statements are equivalent to the negation of $P \wedge Q$ (where $\wedge$ is [[conjunction]]).  However, the superficially similar
 $$ \frac {\neg{P} \to Q} {\neg{Q} \to P} $$
@@ -16,3 +33,6 @@ is again valid only classically.
 
 [[!redirects contrapositive rule]]
 [[!redirects contrapositive rules]]
+
+[[!redirects contraposition]]
+[[!redirects contrapositions]]
