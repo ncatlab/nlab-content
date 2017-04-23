@@ -139,6 +139,8 @@ In the proof of prop. \ref{sequentiallyCompactMetricSpacesAreEquivCompact} the i
 
 ## Related statements
 
+* [[compact spaces equivalently have converging subnet of every net]]
+
 * [[countably compact metric spaces are equivalently compact metric spaces]]
 
 * [[sequentially compact metric spaces are totally bounded]]
