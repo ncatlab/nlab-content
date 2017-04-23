@@ -1,0 +1,23 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
+
+## Idea
+
+For [[metric spaces]] with their [[metric topology]] it is true that [[sequentially compact metric spaces are equivalently compact metric spaces]]. The analogous statement fails for more general [[topological spaces]]: for them, being [[sequentially compact topological space|sequentially compact]] in general neither implies nor is implied by being [[compact topological space|compact]] (see the counter-examples [here](sequentially+compact+topological+space#Examples)).
+
+But the failure of this equivalence is not due to a deficit in the concept of [[convergence]] but in the concept of [[sequences]] and sub-sequences. If the latter are generalized to [[nets]] and [[sub-nets]] (beware that the definition of sub-nets is slightly non-obvious), then the analogue of the statement remains true in generality: A topological space is [[compact topological space|compact]] precisely if every [[net]] in it has a [[sub-net]] that [[convergence]].
+
