@@ -49,7 +49,7 @@ such that
 
 for all $a$, $b$, $U$, and $V$.
 
-We interpret the elements of $S$ as __basic opens__ in the formal space.  We call $\top$ the __[[improper subset|entire space]]__ and $a \cap b$ and the __[[intersection]]__ of $a$ and $b$.  We say that $a$ is __covered__ by $U$ or that $U$ is a __[[cover]]__ of $a$ if $a \lhd U$.  We say that $a$ is __positive__ or __[[inhabited subset|inhabited]]__ if $\Diamond a$.  (For a [[topological space]] equipped with a strict [[topological base]] $S$, taking these intepretations literally does in fact define a formal space; see the Examples.)
+We interpret the elements of $S$ as __basic opens__ in the formal space.  We call $\top$ the __[[improper subset|entire space]]__ and $a \cap b$ the __[[intersection]]__ of $a$ and $b$.  We say that $a$ is __covered__ by $U$ or that $U$ is a __[[cover]]__ of $a$ if $a \lhd U$.  We say that $a$ is __positive__ or __[[inhabited subset|inhabited]]__ if $\Diamond a$.  (For a [[topological space]] equipped with a strict [[topological base]] $S$, taking these intepretations literally does in fact define a formal space; see the Examples.)
 
 Some immediate points to notice:
 
