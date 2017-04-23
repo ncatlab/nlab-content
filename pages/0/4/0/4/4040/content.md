@@ -18,7 +18,9 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[open map]], [[closed map]]
 
-* [[topological subspace|subspace]], [[quotient topological space|quotient space]], [[product topological space|product space]]
+* [[sequence]], [[net]], [[sub-net]], [[filter]]
+
+* [[convergence]]
 
 * [[category]] [[Top]]
 
@@ -96,6 +98,16 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
 * [[quotient projections out of compact Hausdorff spaces are closed precisely if the codomain is Hausdorff]]
+
+* [[compact spaces equivalently have converging subnet of every net]]
+
+  * [[Lebesgue number lemma]]
+
+  * [[sequentially compact metric spaces are equivalently compact metric spaces]]
+
+  * [[compact spaces equivalently have converging subnet of every net]]
+
+  * [[sequentially compact metric spaces are totally bounded]]
 
 ## Theorems
 
