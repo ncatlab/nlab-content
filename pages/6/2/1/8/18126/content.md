@@ -1690,7 +1690,7 @@ Let $(X,d)$ be a [[metric space]], regarded as a [[topological space]] via its [
 Then every point $x \in X$ is closed (def \ref{ClosedSubset}),
 hence every singleton subset $\{x\} \subset X$ is irreducible according to def. \ref{IrreducibleClosureOfPoint}.
 
-Let $\mathbb{R}$ be the 1-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm})
+Let $\mathbb{R}$ be the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm})
 with its [[metric topology]] (example \ref{MetricTopology}). Then for $a \lt c \subset \mathbb{R}$
 the closed interval $[a,c] \subset \mathbb{R}$ (example \ref{OpenAndClosedIntervals} ) is _not_
 irreducible, since for any $b \in \mathbb{R}$ with $a \lt b \lt c$ it is the union of two smaller closed subintervals:
@@ -2377,11 +2377,11 @@ $$
 between the continuous functions from the point to any topological space, and the underlying set of that topological space.
 
 More generally, for $(X,\tau_X)$ and $(Y,\tau_Y)$ two topological spaces, then a continuous
-function $f \colon X \to Y$ between them is called a _[[constant function]]_ with value some point $y \in Y$ if it
+function $X \to Y$ between them is called a _[[constant function]]_ with value some point $y \in Y$ if it
 factors through the point spaces as
 
 $$
-  f 
+  const_y
     \;\colon\;
   X \overset{\exists !}{\longrightarrow} \ast \overset{y}{\longrightarrow} Y
   \,.
@@ -2428,7 +2428,8 @@ Also:
 ###### Example
 **([[diagonal]])**
 
-For $X$ a [[set]], its _[[diagonal]]_ $\Delta_X$ is the [[function]]
+For $X$ a [[set]], its _[[diagonal]]_ $\Delta_X$ is the [[function]] from $X$
+to the [[Cartesian product]] of $X$ with itsef, given by
 
 $$
   \array{
@@ -2436,8 +2437,9 @@ $$
      \\
      x &\mapsto& (x,x)
   }
-  \,.
 $$
+
+
 
 For $(X,\tau)$ a [[topological space]], then the diagonal is a [[continuous function]]
 to the [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) of $X$ with itself.
@@ -2478,14 +2480,14 @@ There are the following two ways to topologize the [[image]] $f(X)$ such as to m
 two continuous functions:
 
 1. By example \ref{SubspaceTopology} $f(X)$ inherits a [[topological subspace|subspace topology]] from $(Y,\tau_Y)$
-which makes the inclusion $f(X) \longrightarrow Y$ a [[continuous function]].
+which evidently makes the inclusion $f(X) \longrightarrow Y$ a [[continuous function]].
 
    Observe that this also makes $X \to f(X)$ a continuous function: An open subset of $f(X)$
    in this case is of the form $U_Y \cap f(X)$ for $U_Y \in \tau_Y$, and $f^{-1}( U_Y \cap f(X) ) = f^{-1}(U_Y)$,
    which is open in $X$ since $f$ is continuous.
 
 1. By example \ref{QuotientTopologicalSpace} $f(X)$ inherits a [[quotient topological space|quotient topology]] from $(X,\tau_X)$
-   which makes the surjection $X \longrightarrow f(X)$ a [[continuous function]].
+   which evidently makes the surjection $X \longrightarrow f(X)$ a [[continuous function]].
 
    Observe that this also makes $f(X) \longrightarrow Y$ a continuous function: The preimage under this map of an
    open subset $U_Y \in \tau_Y$ is the restriction $U_Y \cap f(X)$, and the pre-image of that under $X \to f(X)$ is
@@ -2502,9 +2504,9 @@ preserves [[open subsets]], nor [[closed subsets]], as the following examples sh
 +-- {: .num_example}
 ###### Example
 
-Regard the [[real numbers]] $\mathbb{R}$ as the 1-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm})
+Regard the [[real numbers]] $\mathbb{R}$ as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm})
 equipped with the [[metric topology]] (example \ref{MetricTopology}).
-For $a \in \mathbb{R}$ the [[constant function]]
+For $a \in \mathbb{R}$ the [[constant function]] (example \ref{PointsViaContinuousFunctions})
 
 $$
   \array{
@@ -2523,13 +2525,13 @@ maps every [[open subset]] $U \subset \mathbb{R}$ to the [[singleton set]] $\{a\
 
 Write $Disc(\mathbb{R})$ for the set of [[real numbers]] equipped with its [[discrete topology]] (def. \ref{CoDiscreteTopology})
 and $\mathbb{R}$ for the set of [[real numbers]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]]
-(def. \ref{EuclideanNorm}, example \ref{MetricTopology}). Then the [[identity function]] on the underlying sets
+(example \ref{EuclideanNorm}, example \ref{MetricTopology}). Then the [[identity function]] on the underlying sets
 
 $$
   id_{\mathbb{R}} \;\colon\; Disc(\mathbb{R}) \longrightarrow \mathbb{R}
 $$
 
-is a [[continuous function]] (see also example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces}).
+is a [[continuous function]] (a special case of example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces}).
 A [[singleton set|singleton]] [[subset]] $\{a\} \in Disc(\mathbb{R})$ is open, but regarded as a subset
 $\{a\} \in \mathbb{R}$ it is not open.
 
@@ -2540,7 +2542,7 @@ $\{a\} \in \mathbb{R}$ it is not open.
 ###### Example
 
 Consider the set of [[real numbers]] $\mathbb{R}$ equipped with its [[Euclidean space|Euclidean]] [[metric topology]]
-(def. \ref{EuclideanNorm}, example \ref{MetricTopology}). The [[exponential function]]
+(example \ref{EuclideanNorm}, example \ref{MetricTopology}). The [[exponential function]]
 
 $$
   \exp(-) \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}
@@ -2576,7 +2578,26 @@ $$
   \pi_i \;\colon\; (X_1 \times X_2, \tau_{X_1 \times X_2}) \longrightarrow (X_i, \tau_{X_i})
 $$
 
-out of their [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) are [[open maps]] (def. \ref{OpenMap}).
+out of their [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) 
+
+$$
+  \array{
+    X_1 \times X_2 &\overset{\pi_1}{\longrightarrow}& X_1
+    \\
+    (x_1, x_2) &\overset{\phantom{AAA}}{\mapsto}& x_1
+  }
+$$
+
+$$
+  \array{
+    X_1 \times X_2 &\overset{\pi_2}{\longrightarrow}& X_2
+    \\
+    (x_1, x_2) &\overset{\phantom{AAA}}{\mapsto}& x_2
+  }
+$$
+
+
+are [[open maps]] (def. \ref{OpenMap}).
 
 =--
 
@@ -2663,7 +2684,7 @@ Let
 
 1. $C \subset X$ be a [[closed subset]] of $X$ (def. \ref{ClosedSubset}) which is $f$-[[saturated subset|saturated]] (def. \ref{SubsetSaturated});
 
-1. $U \supset C$ an [[open subset]] containing $C$;
+1. $U \supset C$ be an [[open subset]] containing $C$;
 
 then there exists a smaller open subset $V$ still containing $C$
 
@@ -2671,7 +2692,7 @@ $$
   U \supset V \supset C
 $$
 
-and such that $V$ is $f$-[[saturated subset|saturated]].
+and such that $V$ is still $f$-[[saturated subset|saturated]].
 
 =--
 
@@ -2693,16 +2714,18 @@ has the desired properties. To see this, observe first that
 1. hence the pre-image $f^{-1}\left( f\left(  X \backslash U \right)\right)$ is closed, since $f$ is continuous
    (using prop. \ref{ClosedSubsetContinuity}), therefore its complement $V$ is indeed open;
 
-1. this pre-image $f^{-1}\left( f\left(  X \backslash U \right) \right)$ is saturated (example \ref{PreImagesAreSaturatedSubsets})
-   and hence also its complement $V$ is saturated, by lemma \ref{ComplementOfSaturatedSubsetIsSaturated}.
+1. this pre-image $f^{-1}\left( f\left(  X \backslash U \right) \right)$ is saturated (by example \ref{PreImagesAreSaturatedSubsets})
+   and hence also its complement $V$ is saturated (by lemma \ref{ComplementOfSaturatedSubsetIsSaturated}).
 
 Therefore it now only remains to see that $U \supset V \supset C$.
 
-The inclusion $U \supset V$ means equivalently that $f^{-1}\left( f\left(  X \backslash U \right)\right) \supset X \backslash U$,
+By [[de Morgan's law]] (remark \ref{deMorgan}) the inclusion $U \supset V$ is equivalent to the inclusion $f^{-1}\left( f\left(  X \backslash U \right)\right) \supset X \backslash U$,
 which is clearly the case.
 
-The inclusion $V \supset C$ meas that $f^{-1}\left( f\left(  X \backslash U \right) \right) \,\cap \, C = \emptyset$.
-Since $C$ is saturated by assumption, this means that $f^{-1}\left( f\left(  X \backslash U \right)\right) \,\cap \, f^{-1}(f(C)) = \emptyset$.
+The inclusion $V \supset C$ is equivalent to 
+$f^{-1}\left( f\left(  X \backslash U \right) \right) \,\cap \, C = \emptyset$.
+Since $C$ is saturated by assumption, this is 
+equivalent to $f^{-1}\left( f\left(  X \backslash U \right)\right) \,\cap \, f^{-1}(f(C)) = \emptyset$.
 This in turn holds precisely if $f\left(  X \backslash U \right) \,\cap \, f(C)  = \emptyset$.
 Since $C$ is saturated, this holds precisely if $X \backslash U \cap C = \emptyset$, and this is true by the assumption
 that $U \supset C$.
@@ -2731,7 +2754,7 @@ $$
   X \overset{g}{\longleftarrow} Y
 $$
 
-which is an [[inverse]] in the sense that
+which is an [[inverse]] in the sense that both its [[compositions]] with $f$ yield an [[identity morphism]]:
 
 $$
   f \circ g = id_Y \;\;\;\;\; and \;\;\;\;\; g \circ f = id_X
@@ -2746,7 +2769,9 @@ notes we will stick to this usage and never use "$(-)^{-1}$" to denote [[inverse
 ###### Definition
 **([[homeomorphisms]])**
 
-An [[isomorphism]] in the [[category]] [[Top]] of [[topological spaces]] with [[continuous functions]] between them is called a _[[homeomorphism]]_.
+An [[isomorphism]] in the [[category]] [[Top]] (remark \ref{TopCategory}) 
+of [[topological spaces]] (def. \ref{TopologicalSpace}) with [[continuous functions]] between them (def. \ref{ContinuousMaps})
+is called a _[[homeomorphism]]_.
 
 Hence a _[[homeomorphism]]_ is a [[continuous function]]
 
@@ -2785,7 +2810,7 @@ If there is _some_, possibly unspecified, homeomorphism between topological spac
 then we also write
 
 $$
-  (X.\tau_X) \,\simeq\, (Y,\tau_Y)
+  (X,\tau_X) \,\simeq\, (Y,\tau_Y)
 $$
 
 and say that the two topological spaces _are homeomorphic._
@@ -2797,13 +2822,15 @@ and say that the two topological spaces _are homeomorphic._
 ###### Remark
 
 If $f \colon (X, \tau_X) \to (Y, \tau_Y)$ is a [[homeomorphism]] (def. \ref{Homeomorphism}) with inverse coninuous function $g$, then
-of course also $g$ is a homeomophism, with inverse continuous function $f$.
 
-The underlying function of sets $f \colon X \to Y$ of a homeomorphism $f$ is necessarily a [[bijection]].
+
+1. also $g$ is a homeomophism, with inverse continuous function $f$;
+
+1. the underlying function of sets $f \colon X \to Y$ of a homeomorphism $f$ is necessarily a [[bijection]], with inverse bijection $g$.
 
 =--
 
-Beware that not every [[continuous function]] which is [[bijection|bijective]] on underlying sets
+But beware that not every [[continuous function]] which is [[bijection|bijective]] on underlying sets
 is a homeomorphism. While an [[inverse function]] $g$ will exists on the level of functions of sets, this inverse may fail
 to be continuous:
 
@@ -2821,7 +2848,7 @@ $$
 $$
 
 from the [[half-open interval]] (def. \ref{OpenAndClosedIntervals}) to the unit circle $S^1 \coloneqq S_0(1) \subset \mathbb{R}^2$ (def. \ref{OpenBalls}), regarded as a [[topological subspace]] (example \ref{SubspaceTopology})
-of the [[Euclidean plane]] (def. \ref{EuclideanNorm}).
+of the [[Euclidean plane]] (example \ref{EuclideanNorm}).
 
 The underlying function of sets of $f$ is a [[bijection]]. The [[inverse function]] of sets however fails to be continuous
 at $(1,0) \in S^1 \subset \mathbb{R}^2$. Hence this $f$ is _not_ a [[homeomorphism]].
@@ -2831,7 +2858,7 @@ Indeed, below we see that the two topological spaces $[0,2\pi)$ and $S^1$ are di
 For example $S^1$ is a [[compact topological space]]
 (def. \ref{CompactTopologicalSpace})
 while $[0,2\pi)$ is not, and $S^1$ has a non-trivial [[fundamental group]], while that of $[0,2\pi)$
-is trivial ([this prop.](Introduction+to+Topology -- 2#FundamentalGroup)).
+is trivial ([this prop.](Introduction+to+Topology+--+2#FundamentalGroup)).
 
 =--
 
@@ -2857,7 +2884,7 @@ between [[topological spaces]] (def. \ref{ContinuousMaps}). Then the following a
 
 It is clear from the definition that a homeomorphism in particular has to be a bijection.
 The condition that the [[inverse function]] $Y \leftarrow X \colon g$ be continuous means
-that the [[pre-image]] function of $g$ sends open subsets to open subsets. By $g$ being the inverse to
+that the [[pre-image]] function of $g$ sends open subsets to open subsets. But by $g$ being the inverse to
 $f$, that pre-image function is equal to $f$, regarded as a function on subsets:
 
 $$
@@ -2881,11 +2908,12 @@ Now we consider some actual **examples** of [[homeomorphisms]]:
 
 +-- {: .num_example #ConcreteAndAbstractPoint}
 ###### Example
+**(concrete point homeomorphic to abstract point space)**
 
 Let $(X,\tau_X)$ be a [[inhabited|non-empty]] [[topological space]], and let $x \in X$ be any point.
 Regard the corresponding [[singleton]] [[subset]] $\{x\} \subset X$ as equipped with its
 [[topological subspace|subspace topology]] $\tau_{\{x\}}$ (example \ref{SubspaceTopology}). Then this is
-[[homomorphism|homeomorphic]] to the abstract [[point space]] from example \ref{Point}:
+[[homomorphism|homeomorphic]] (def. \ref{Homeomorphism}) to the abstract [[point space]] from example \ref{Point}:
 
 $$
   (\{x\}, \tau_{\{x\}} ) \,\simeq\, \ast
@@ -2899,12 +2927,13 @@ $$
 ###### Example
 **(open interval homeomorphic to the real line)**
 
-Regard the [[real line]] as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}).
+Regard the [[real line]] as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology}).
 
-The open [[interval]] $(-1,1)$ (def. \ref{OpenAndClosedIntervals}) is [[homeomorphic]] to all of the [[real line]]
+Then the open [[interval]] $(-1,1) \subset \mathbb{R}$ (def. \ref{OpenAndClosedIntervals}) 
+regarded with its [[subspace topology]] (example \ref{SubspaceTopology}) is [[homeomorphic]] (def.\ref{Homeomorphism}) to all of the [[real line]]
 
 $$
-  (0,1) \,\simeq\, \mathbb{R}^1
+  (-1,1) \,\simeq\, \mathbb{R}^1
   \,.
 $$
 
@@ -2956,9 +2985,10 @@ $$
 
 =--
 
-While mainly the interest in a homeomorphism is in it being
+While mostly the interest in a given homeomorphism is in it being
 non-obvious from the definitions, many homeomorphisms that appear
-in practice exhibit "obvious re-identifications"
+in practice exhibit "obvious re-identifications" for which it is
+of interest to leave them _consistently implicit_:
 
 
 +-- {: .num_example #CartesianSymmetricMonoidalTop}
@@ -2970,7 +3000,7 @@ Let $(X,\tau_X)$, $(Y,\tau_Y)$ and $(Z, \tau_Z)$ be [[topological spaces]].
 
 Then:
 
-1. There is a [[homeomorphism]] between the two ways of bracketing the three factors when forming their
+1. There is an evident [[homeomorphism]] between the two ways of bracketing the three factors when forming their
    [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}), called the _[[associator]]_:
 
    $$
@@ -2992,7 +3022,7 @@ Then:
      \,.
    $$
 
-1. There are [[homeomorphism]] between $(X,\tau)$ and its [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) with the [[point space]] $\ast$ (example \ref{Point}), called the left and right _[[unitors]]_:
+1. There are evident [[homeomorphism]] between $(X,\tau)$ and its [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) with the [[point space]] $\ast$ (example \ref{Point}), called the left and right _[[unitors]]_:
 
    $$
      \lambda_X \;\colon\; \ast \times (X, \tau_X)  \overset{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow} (X,\tau_X)
@@ -3005,7 +3035,7 @@ Then:
      \,.
    $$
 
-1. There is a [[homeomorphism]] between the results of the two orders in which to form their [[product topological spaces]] (def. \ref{BinaryProductTopologicalSpace}), called the _[[braiding]]_:
+1. There is an evident [[homeomorphism]] between the results of the two orders in which to form their [[product topological spaces]] (def. \ref{BinaryProductTopologicalSpace}), called the _[[braiding]]_:
 
    $$
      \beta_{X,Y}
@@ -3017,7 +3047,7 @@ Then:
    $$
 
 Moreover, all these homeomorphisms are compatible with each other, in that they make the
-following [[commuting diagram|diagrams commute]]:
+following [[commuting diagram|diagrams commute]] (recall remark \ref{TopCategory}):
 
 1. (triangle identity)
    $$
@@ -3113,7 +3143,7 @@ In the language of [[category theory]] (remark \ref{TopCategory}), all this is s
 saying that the the [[functor|functorial]] construction $(-) \times (-)$ of [[product topological spaces]]
 (example \ref{FunctorialProductSpace})
 gives the [[category]] [[Top]] of [[topological spaces]] the [[structure]] of a
-[[monoidal category]] which is [[symmetric monoidal category|symmetrically]] [[braided monoidal category|braided]].
+_[[monoidal category]]_ which moreover is _[[symmetric monoidal category|symmetrically]] [[braided monoidal category|braided]]_.
 
 From this, a basic result of [[category theory]], the _[[coherence theorem for monoidal categories|MacLane coherence theorem]]_, guarantees that there is
 no essential ambiguity re-backeting arbitrary iterations of the binary product topological space construction,
@@ -3140,7 +3170,7 @@ $\,$
 
 
 The following are a sequence of examples all of the form that an abstractly
-constructed topological space is homeomorphic to a certain subspaee of a Euclidean space.
+constructed topological space is homeomorphic to a certain subspace of a Euclidean space.
 These examples are going to be useful in further developments below, for example
 in the [proof below](#BorelHeineProof) of the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}).
 
@@ -3158,10 +3188,11 @@ in the [proof below](#BorelHeineProof) of the [[Heine-Borel theorem]] (prop. \re
 
 Let $n \in \mathbb{N}$, and let $[a_i, b_i] \subset \mathbb{R}$ for $i \in \{1, \cdots, n\}$
 be $n$ [[closed intervals]] in the [[real line]] (example \ref{OpenAndClosedIntervals}), regarded as [[topological subspaces]] of the
-1-dimensional [[Euclidean space]]. Then the [[product topological space]]
+1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]] 
+(example \ref{MetricTopology}). Then the [[product topological space]] 
 (def. \ref{BinaryProductTopologicalSpace}, example \ref{CartesianSymmetricMonoidalTop})
 of all these intervals is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism})
-to the corresponding [[topological subspace]] of the $n$-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm}):
+to the corresponding [[topological subspace]] of the $n$-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}):
 
 $$
   [a_1, b_1] \times [a_2, b_2] \times \cdots \times [a_n, b_n]
@@ -3170,7 +3201,7 @@ $$
     \vec x \in \mathbb{R}^n
     \,\vert\,
     \underset{i}{\forall}
-      a_i \leq x_i \leq b_i
+      (a_i \leq x_i \leq b_i)
   \right\}
     \subset
   \mathbb{R}^n
@@ -3183,8 +3214,8 @@ $$
 ###### Proof
 
 There is a canonical [[bijection]] between the underlying sets.
-It remains to see that this as well and its inverse are [[continuous functions]].
-For this it is sufficient to see that under this bijection the defining [[basis of a topology|basis]]
+It remains to see that this, as well and its inverse, are [[continuous functions]].
+For this it is sufficient to see that under this bijection the defining [[basis of a topology|basis]] (def. \ref{TopologyBase})
 for the [[product topological space|product topology]] is also a basis for the [[topological subspace|subspace topology]].
 But this is immediate from lemma \ref{RecognizingTopologicalBasis}.
 
@@ -3198,7 +3229,7 @@ But this is immediate from lemma \ref{RecognizingTopologicalBasis}.
 As topological spaces, the [[closed interval]] $[0,1]$ (def. \ref{OpenAndClosedIntervals}) with its two endpoints identified is [[homeomorphic]] (def. \ref{Homeomorphism}) to the standard [[circle]]:
 
 $$
-  [0,1]_{/(0 \sim 1)} \;\; \underset{homeo}{\simeq} \;\; S^1
+  [0,1]_{/(0 \sim 1)} \;\; \simeq \;\; S^1
   \,.
 $$
 
@@ -3215,7 +3246,7 @@ $$
 $$
 
 equipped with the [[subspace topology]] (example \ref{SubspaceTopology}) of the plane $\mathbb{R}^2$,
-which itself equipped with its standard [[metric topology]] (example \ref{MetricTopology}).
+which is itself equipped with its standard [[metric topology]] (example \ref{MetricTopology}).
 
 Moreover, let
 
@@ -3291,7 +3322,7 @@ More generally, an [[open set]] in $\mathbb{R}^{n_1}$ is never homeomorphic to a
 
 =--
 
-The proof of theorem \ref{TopologicalInvarianceOfDimension} is surprisingly hard, given how obvious the statement seems intuitively. It requires tools from a field called _[[algebraic topology]]_ (notably [[Brouwer's fixed point theorem]] or [[topological K-theory]]).
+The proof of theorem \ref{TopologicalInvarianceOfDimension} is surprisingly hard, given how obvious the statement seems intuitively. It requires tools from the field of _[[algebraic topology]]_ (notably [[Brouwer's fixed point theorem]] or [[topological K-theory]]).
 
 
 
@@ -3629,7 +3660,7 @@ and then apply the $T_n$-reflection to the result.
 **([[line with two origins]])**
 
 Consider the [[disjoint union]] $\mathbb{R} \sqcup \mathbb{R}$ of two copies of the [[real line]] $\mathbb{R}$ regarded
-as the 1-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology}). Moreover, consider the [[equivalence relation]] on the underlying set which identifies every
+as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology}). Moreover, consider the [[equivalence relation]] on the underlying set which identifies every
 point $x_i$ in the $i$th copy of $\mathbb{R}$ ($i \in \{0,1\}$) with the corresponding point in the other, the $(1-i)$th copy, except when $x = 0$:
 
 $$
@@ -3694,7 +3725,7 @@ $$
 ###### Example
 
 Consider the [[real line]] $\mathbb{R}$ regarded
-as the 1-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology})
+as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology})
 and consider the [[equivalence relation]] $\sim$ on $\mathbb{R}$ which identifies two [[real numbers]] if they
 differ by a [[rational number]]:
 
@@ -5490,7 +5521,7 @@ $$
   $$
 
 * to the unit [[circle]] $S^1 = S_0(1) \subset \mathbb{R}^2$ (def. \ref{OpenBalls})
-regarded as a [[topological subspace]] of the 2-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm}) equipped with its
+regarded as a [[topological subspace]] of the 2-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) equipped with its
 [[metric topology]] (example \ref{MetricTopology}).
 
 This is clearly a [[continuous function]] and a [[bijection]] on the underlying sets.
