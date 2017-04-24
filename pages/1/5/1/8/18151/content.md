@@ -93,11 +93,11 @@ This is because
 
 $$
   \begin{aligned}
-    \phi(U_1 \cap U_2)
-    & =
     \phi(U_1) \cap \phi(U_2)
+    & =
+    \phi(U_1 \cap U_2)
     \\
-    & \subset \phi(U_{\emptyset})
+    & \subset \phi(U_{\emptyset}(\phi))
     \\
     & =
     \emptyset
@@ -105,8 +105,9 @@ $$
   \,,
 $$
 
-(where the first equality holds because $\phi$ preserves finite intersections, the inclusion holds because $\phi$ respects
-inclusions, and the second equality holds because $\phi$ preserves arbitrary unions).
+where the first equality holds because $\phi$ preserves finite intersections by def. \ref{HomomorphismOfFramesOfOpens}, the inclusion holds because $\phi$ respects
+inclusions by remark \ref{PreservationOfInclusionsByFrameHomomorphism}, and the second equality holds because $\phi$ preserves arbitrary unions
+by def. \ref{HomomorphismOfFramesOfOpens}.
 But in $\tau_\ast = \{\emptyset, \{1\}\}$ the intersection of two open subsets is empty precisely if at least one of them is empty,
 hence $\phi(U_1) = \emptyset$ or $\phi(U_2) = \emptyset$. But this means that $U_1 \subset U_{\emptyset}(\phi)$ or $U_2 \subset U_{\emptyset}(\phi)$, as claimed.
 
@@ -135,15 +136,15 @@ This does preserve
 
 1. arbitrary unions
 
-   because $\phi(\underset{i}{\cup} U_i) = \{0\}$ precisely if $\underset{i}{\cup}U_i \subset U_0$ which is the
-   case precisely if all $U_i \subset U_0$, which means that all $\phi(U_i) = \emptyset$ and $\underset{i}{\cup}\emptyset = \emptyset$;
+   because $\phi(\underset{i}{\cup} U_i) = \{\emptyset\}$ precisely if $\underset{i}{\cup}U_i \subset U_0$ which is the
+   case precisely if all $U_i \subset U_0$, which means that all $\phi(U_i) = \emptyset$ and because $\underset{i}{\cup}\emptyset = \emptyset$;
 
    while $\phi(\underset{i}{\cup}U_1) = \{1\}$ as soon as one of the $U_i$ is not contained in $U_0$, which means that
    one of the $\phi(U_i) = \{1\}$ which means that $\underset{i}{\cup} \phi(U_i) = \{1\}$;
 
-1. finite intersections,
+1. finite intersections
 
-   because if $U_1 \cap U_2 \in U_0$, then by $(\ast)$ $U_1 \in U_0$ or $U_2 \in U_0$, whence $\phi(U_1) = \emptyset$
+   because if $U_1 \cap U_2 \subset U_0$, then by $(\ast)$ $U_1 \in U_0$ or $U_2 \in U_0$, whence $\phi(U_1) = \emptyset$
    or $\phi(U_2) = \emptyset$, whence with $\phi(U_1 \cap U_2) = \emptyset$ also $\phi(U_1) \cap \phi(U_2) = \emptyset$;
 
    while if $U_1 \cap U_2$ is not contained in $U_0$ then neither $U_1$ nor $U_2$ is contained in $U_0$ and hence with
@@ -151,7 +152,8 @@ This does preserve
 
 Hence this is indeed a frame homomorphism $\tau_X \to \tau_\ast$.
 
-Clearly these two operations are inverse to each other.
+Finally, it is clear that these two operations are inverse to each other.
+
 =--
 
 
