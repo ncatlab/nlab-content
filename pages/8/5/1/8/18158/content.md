@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Zariski topology_ is a [[topological space|topology]] on the [[prime spectrum of a commutative ring]].
+
+## Definition
+
+## Related concepts
+
+* [[Zariski site]]
+
+## References
+
+* Jim Carrell, Zariski topology etc [[CarrellZariskiTopology.pdf:file]]
+
+[[!redirects Zariski topologies]]
