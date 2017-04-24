@@ -1,101 +1,81 @@
 
++-- {: .num_lemma #ZariskiClorsuredOfPont}
+###### Lemma
 
-Regarding the second point, in one direction we have the immediate implication
+Let $R$ be a [[commutative ring]] and consider $Spec(R) = (PrimeIdl(R), \tau_{Spec(R)})$ its [[prime spectrum of a commutative ring|prime spectrum]] equipped with the Zariski topology (def. \ref{ZariskiClosedSubsetsInSpecR}).
+
+Then the [[topological closure]] of a point $p \in PrimeIdl(R)$ is $V(p) \subset PrimeIdl(R)$ (def. \ref{ZariskiClosedSubsetsInSpecR}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition the topological closure of $\{p\}$ is
+
+$$
+  Cl(\{p\}) \underset{ {I \in Idl(R) } \atop { p \in V(I) }  }{\cap} V(I)
+  \,.
+$$
+
+Hence unwinding the definitions, we have the following sequence of logical equivalences:
 
 $$
   \begin{aligned}
-    & 
-    p \in \underset{i \in I}{\cup} V(\mathcal{F}_i)
+    & q \in Cl(\{q\})
+    \\
+    \Leftrightarrow\; &
+    q \in 
+    \underset{ {I \in Idl(R)} \atop { p \in V(I) }   }{\cap} V(I)
     \\
     \Leftrightarrow\;
     &
-    \underset{i \in I}{\exists}
-    \left(
-      \mathcal{F}_i \subset p
-    \right)
-    \\
-    \Rightarrow \;   
-    &
-    \underset{(f_i) \in \underset{i \in I}{\prod} \mathcal{F}_i}{\forall}
-    \left(
-      \underset{i \in I}{\prod} f_i \in p
-    \right)
+    \underset{ { I \in Idl(R) } \atop { I \subset p } }{\forall} (q \in V(I))
     \\
     \Leftrightarrow\;
     &
-    p
-    \in
-    V\left(
-      \underset{i \in I}{\prod} \mathcal{F}_i
-    \right) 
-    \,.
+    \underset{ { I \in Idl(R) } \atop { I \subset p } }{\forall} (I \subset q)
+    \\
+    \Leftrightarrow\;
+    &
+    p \subset q
+    \\
+    \Leftrightarrow\;
+     &
+    q \in V(p)
   \end{aligned}
 $$
 
-For the converse direction we need to show that
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+Let $R$ be a [[commutative ring]], consider the [[topological space]] $Spec(R) = (PrimeIdl(R),\tau_{Spec(R)})$, i.e. its [[prime spectrum of a commutative ring|prime spectrum]] equpped with the Zariski topology from def. \ref{ZariskiClosedSubsetsInSpecR}. 
+
+Then the [[closed points]] of $Spec(R)$ correspond precisely to the [[maximal ideals]] of $R$, i.e. if $p \in PrimeIdl(R)$ is a [[prime ideal]], regarded as a point of $Spec(R)$, then the [[singleton set]] $\{p\}$ coincides with its [[topological closure]] precisely if $p$ happens to be in fact a [[maximal ideal]], i.e. $p \in MaxIdl(R) \subset PrimeIdl(R)$:
 
 $$
   \left(
-    p
-    \in
-      V\left(
-        \underset{i \in I}{\prod} \mathcal{F}_i
-      \right) 
-   \right)
-     \;\Rightarrow\;
-   \left(
-     p
-     \in 
-     \underset{i \in I}{\cup} V(\mathcal{F}_1)   
-   \right)
-  \,.
-$$
-
-hence that 
-
-$$
-  \left(
-    \underset{(f_i) \in \underset{i \in I}{\prod} \mathcal{F}_i }{\forall}
-    \left(
-      \underset{i \in I}{\prod} f_i \in p
-    \right)
+     \{p\} = Cl(\{p\})
   \right)
-  \;\Rightarrow\;
+  \Leftrightarrow
   \left(
-    \underset{i \in I}{\exists}
-    \left(
-      \underset{f_i \in \mathcal{F}_i}{\forall}
-      \left(
-         f_i \in p
-      \right)
-    \right)
+    p \in MaxIdl(R) \subset PrimeIdl(R)
   \right)
   \,.
 $$
 
-By [[excluded middle]], this is equivalent to its [[contraposition]], which by [[de Morgan's law]] is
+=--
 
-$$
-  \left(
-    \underset{i \in I}{\forall}
-    \left(
-      \underset{f_i \in \mathcal{F}_i}{\exists}
-      \not
-      \left(
-         f_i \in p
-      \right)
-    \right)
-  \right)
-  \;\Rightarrow\;
-  \left(
-    \underset{(f_i) \in \underset{i \in I}{\prod} \mathcal{F}_i }{\exists}
-    \not
-    \left(
-      \underset{i \in I}{\prod} f_i \in p
-    \right)
-  \right)
-  \,.
-$$
++-- {: .proof}
+###### Proof
 
 
-This holds by the assumption that $p$ is a [[prime ideal]].
+
+
+=--
+
+
+
