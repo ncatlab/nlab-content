@@ -571,6 +571,7 @@ The **proof** uses [[Hilbert's Nullstellensatz]].
 
 +-- {: .num_defn #ZariskiClosedSubsetsInSpecR}
 ###### Definition
+**(Zariski topology on set of prime ideals)**
 
 Let $R$ be a [[commutative ring]]. Write $PrimeIdl(R)$ for its set of [[prime ideals]]. For $\mathcal{F} \subset R$ any subset of elements of the ring, consider the subsets of those prime ideals that contain $\mathcal{F}$:
 
@@ -588,8 +589,9 @@ These are called the _Zariski [[closed subsets]]_ of $PrimeIdl(R)$. Their [[comp
 
 =--
 
-+-- {: .num_defn #MetricSpaceBoundedSubset}
-###### Definition
++-- {: .num_prop #WellDefinedZariskiTopologyOnSpecR}
+###### Proposition
+**(Zariski topology well defined)**
 
 Let $R$ be a [[commutative ring]]. Then the collection of Zariski openn subsets (def. \ref{ZariskiClosedSubsetsInSpecR}) in its set of [[prime ideals]]
 
