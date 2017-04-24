@@ -15,7 +15,7 @@
 
 ## Idea
 
-The [[spectrum of a commutative ring|spectrum]] of the [[commutative ring]] $\mathbb{Z}$ of [[integers]].
+$Spec(\mathbb{Z})$ denotes the [[spectrum of a commutative ring|spectrum]] of the [[commutative ring]] $\mathbb{Z}$ of [[integers]]. For details see at _[[Zariski topology]]_ [this example](Zariski+topology#SpecZ).
 
 The [[gros topos|gros]] [[etale topos]] over $Spec(\mathbb{Z})$ is the context for [[arithmetic geometry]]. By the discussion at _[[Borger's absolute geometry]]_ it sits via an [[essential geometric morphism]] over the [[F1]]-[[topos]]:
 
