@@ -19,7 +19,7 @@
 
 ## Idea
 
-Regarding the quantized [[string]] as a [[2-spectral triple]], then it defines a [[spectral geometry]] (typically but not necessarily a [[noncommutative geometry]]) which is the effective spacetime as seen by this quantum string (as read of from, notably, its [[energy]] [[spectrum of a linear operator|spectrum]]). For the [[open string]] the most prominent aspect of its [[2d SCFT]] [[worldsheet]] theory are its [[boundary conditions]]. In the spectral interpretation these correspond to the presence of [[D-branes]] in the effective target spacetime. Much geometric information is contained in these D-brane states, and the resulting concept of (noncommutative) geometry has accordingly been calld _D-brane geometry_ or _D-geometry_ for short.
+Regarding the quantized [[string]] as a [[2-spectral triple]], then it defines a [[spectral geometry]] (typically but not necessarily a [[noncommutative geometry]]) which is the effective spacetime as seen by this quantum string (as read of from, notably, its [[energy]] [[spectrum of a linear operator|spectrum]]). For the [[open string]] the most prominent aspect of its [[2d SCFT]] [[worldsheet]] theory are its [[boundary conditions]]. In the spectral interpretation these correspond to the presence of [[D-branes]] in the effective target spacetime. Much geometric information is contained in these D-brane states, and the resulting concept of (noncommutative) geometry has accordingly been called _D-brane geometry_ or _D-geometry_ for short.
 
 ## References
 
