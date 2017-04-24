@@ -23,11 +23,13 @@
 The _Zariski topology_ is a [[topological space|topology]] on the [[prime spectrum of a commutative ring]]. This serves as the basis for much of [[algebraic geometry]].
 
 
-We consider the definition in increasing generality:
+{#Outline} We consider the definition in increasing generality and sophistication:
 
-1. [On affine spaces](#OnAffineSpace) $\mathbb{A}^n_k$;
+1. First we discuss the naive Zariski topology [on affine spaces](#OnAffineSpace) $k^n$, consider the classical proofs and discover thereby the special role of prime ideals and maximal ideals;
 
-1. [On affine varieties](#OnAffineVarieties) $Spec(R)$.
+1. then we turn to the modern definition of the Zariski topology [on affine varieties](#OnAffineVarieties) $Spec(R)$ which takes the concept of prime (and maximal) ideals as primary, and again we provide the classical arguments;
+
+1. finally we discuss the abstract category theoretic perspective on these matters [in terms of Galois connections](#InTermsOfGaloisConnections) and obtain slick category theoretic proofs of all the previous statements.
 
 
 ## On affine space
@@ -938,6 +940,21 @@ $$
 
  
 =--
+
+## In terms of Galois connections
+ {#InTermsOfGaloisConnections}
+
+(...)
+
+In classical algebraic geometry over an [[algebraically closed field]] $k$, the [[Nullstellensatz]] concerns the [[fixed points]] of a standard [[Galois connection]] between [[ideals]] $I$ of the [[polynomial ring]] $k[x_1, \ldots, x_n]$ and [[subsets]] $V \subseteq k^n$. The [[Galois connection]] is induced by a [[relation]] $I \perp V$ iff $f(x) = 0$ for all $f \in I, x \in V$. Accordingly, letting $Idl(k[x_1, \ldots, x_n])$ be the set of ideals ordered by inclusion and $P(k^n)$ the set of subsets of $k^n$ ordered by inclusion, there are contravariant maps $Ideal: P(k^n) \to Idl(k[x_1, \ldots, x_n])$ and $Var: Idl(k[x_1, \ldots, x_n]) \to P(k^n)$ defined by 
+
+$$Ideal(S) = \{f \in k[x_1, \ldots, x_n]: \forall_x x \in S \Rightarrow f(x) = 0\}, \qquad Var(I) = \{x \in k^n: \forall_f f \in I \Rightarrow f(x) = 0\}$$ 
+
+which defines the Galois connection. 
+
+The [[fixed points]] of $Var \circ Ideal: P(k^n) \to P(k^n)$ are, by definition, the [[closed subsets]] of the Zariski topology on the [[affine space]] $k^n$ ("affine space" here in the sense of algebraic geometry). These are the closed subvarieties of $k^n$. 
+
+(...)
 
 
 ## Related concepts
