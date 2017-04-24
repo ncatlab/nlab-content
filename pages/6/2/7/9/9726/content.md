@@ -34,7 +34,7 @@ The analog of [[spin geometry]] as one passes from [[spinning particles]] to [[s
 
 * _The String Geometry Research Network_ ([website](http://www-app.uni-regensburg.de/Fakultaeten/MAT/waldorf/Stringgeometry/index.php?show=home)).
 
-detauiled discussion of the relation to [[spin geometry]] in [[smooth loop spaces]] is in 
+detailed discussion of the relation to [[spin geometry]] in [[smooth loop spaces]] is in 
 
 * [[Konrad Waldorf]], _String geometry vs. spin geometry on loop spaces_ ([arXiv:1403.5656](http://arxiv.org/abs/1403.5656))
 
