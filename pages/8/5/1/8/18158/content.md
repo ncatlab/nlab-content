@@ -23,7 +23,7 @@
 The _Zariski topology_ is a [[topological space|topology]] on the [[prime spectrum of a commutative ring]]. This serves as the basis for much of [[algebraic geometry]].
 
 
-We consider the definition in increasing generality
+We consider the definition in increasing generality:
 
 1. [On affine spaces](#OnAffineSpace) $\mathbb{A}^n_k$;
 
@@ -331,7 +331,10 @@ Here the first equality is the definition of [[topological closure]], the second
 
 =--
 
-#### Relation to ideals
+#### Irreducible closed subsets as prime ideals
+
+In every [[topological space]] the [[irreducible closed subsets]] play a special role, as being precisely the points in the space as seen in its incarnation as a [[locale]] ([this prop.](irreducible%20closed%20subspace#FrameHomomorphismsToPointAreIrrClSub)). The following shows that in the Zariski topology the irreducible closed subsets all come from [[prime ideals]] in the corresponding [[polynomial ring]], and that when the [[ground field]] is [[algebraically closed field|algebraically closed]], then they are in fact in bijection to the prime ideals. See also at _[[schemes are sober]]_.
+
 
 +-- {: .num_defn #VanishingIdeal}
 ###### Definition
@@ -363,7 +366,7 @@ This set is clearly an [[ideal]] in the [[polynomial]] [[ring]]  $k[X_1, \cdots,
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #PrimeVanishingIdealOfIrreducibleZariskiClosed}
 ###### Proposition
 
 With [[excluded middle]] then:
@@ -410,7 +413,7 @@ $$
   V(\mathcal{F})
    = 
   (V(\mathcal{F}) \cap F(\{f\}))
-  \cup
+  \,\,\cup\,\,
   (V(\mathcal{F}) \cap F(\{g\}) ) 
   \,.
 $$
@@ -469,10 +472,10 @@ $$
 
 Now for the converse, assume that $I(V(\mathcal{F}))$ is a prime ideal, and that $V(\mathcal{F}) = V(\mathcal{F}_1) \cup V(\mathcal{F}_2)$. We need to show that $V(\mathcal{F})  = V(\mathcal{F}_1)$ or that $V(\mathcal{F}) = V(\mathcal{F}_2)$.
 
-Assume on the contrary, that thre existed elements
+Assume on the contrary, that there existed elements
 
 $$ 
-  (a_1, \cdots, a_n) \in V(\mathcal{F_1}) \backslash V(\mathcal{F}_2)
+  (a_1, \cdots, a_n) \in V(\mathcal{F}_1) \backslash V(\mathcal{F}_2)
   \;\text{and}\;
   (b_1, \cdots, b_n) \in V(\mathcal{F}_2) \backslash V(\mathcal{F}_1)
   \,
@@ -513,15 +516,93 @@ $$
 which were in contradiction to the assumption that $I(V(\mathcal{F}))$ is a prime ideal. Hence we have a [[proof by contradiction]].
 
 
+=--
+
+Proposition \ref{PrimeVanishingIdealOfIrreducibleZariskiClosed} gives an [[injection]]
+
+
+$$
+  \left\{
+    \array{
+      \text{irreducible Zariski closed}
+      \\
+      V(\mathcal{F}) \subset k^n
+    }
+  \right\}
+  \overset{\phantom{AAA}}{\hookrightarrow}
+  \left\{
+    \array{
+      \text{prime ideals}
+      \\
+      I \in k[X_1, \cdots, X_n]
+    }
+  \right\}
+  \,.
+$$
+
+The following says that for [[algebraically closed fields]] then this is in fact a [[bijection]]:
+
++-- {: .num_prop}
+###### Proposition
+
+Let $k = \overline{k}$ be an [[algebraically closed field]] and  let $n \in \mathbb{N}$. Then the function
+
+$$
+  \array{
+    IrrClSub(\mathbb{A}^n_k)
+      &\overset{}{\longrightarrow}&
+    PrimeIdl(k[X_1, \cdots, X_n])
+    \\
+    V(\mathcal{F})
+      &\overset{\phantom{AAA}}{\mapsto}&
+    I(V(\mathcal{F}))
+  }
+$$
+
+from prop. \ref{PrimeVanishingIdealOfIrreducibleZariskiClosed} is a [[bijection]].
 
 =--
 
+The **proof** uses [[Hilbert's Nullstellensatz]].
 
 
 ## On affine varieties
  {#OnAffineVarieties}
 
-(...)
++-- {: .num_defn #ZariskiClosedSubsetsInSpecR}
+###### Definition
+
+Let $R$ be a [[commutative ring]]. Write $PrimeIdl(R)$ for its set of [[prime ideals]]. For $\mathcal{F} \subset R$ any subset of elements of the ring, consider the subsets of those prime ideals that contain $\mathcal{F}$:
+
+$$
+  V(\mathcal{F})
+   \;\coloneqq\;
+  \left\{
+    p \in PrimeIdl(R) \,\vert\, \mathcal{F} \subset p
+  \right\}
+  \,.
+$$
+
+These are called the _Zariski [[closed subsets]]_ of $PrimeIdl(R)$. Their [[complements]] are called the _Zariski open subsets_. 
+
+
+=--
+
++-- {: .num_defn #MetricSpaceBoundedSubset}
+###### Definition
+
+Let $R$ be a [[commutative ring]]. Then the collection of Zariski openn subsets (def. \ref{ZariskiClosedSubsetsInSpecR}) in its set of [[prime ideals]]
+
+$$
+  \tau_{Spec(R)} \subset P(PrimeIdl(R))
+$$
+
+satisfies the axioms of a [[topological space|topology]], the _Zariski topology_.
+
+=--
+
+This [[topological space]] $(PrimeIdl(R), \tau_{Spec(R)})$  equipped with the induced structure of a [[locally ringed space]] (...) is called the _[[prime spectrum of a commutative ring|prime spectrum of the commutative ring]]_, an [[affine algebraic variety]]. (...)
+
 
 ## Related concepts
 
