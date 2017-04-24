@@ -51,7 +51,7 @@ to the inclusion $M/d \hookrightarrow C/d$.  More generally, an image of a singl
 
 * In algebraic categories such as [[Grp]], for $M=$ monomorphisms, this also reproduces the ordinary notions of image.
 
-* In [[Top]], for $M=$ [[subspace]] inclusions, the $M$-image is the set-theoretic image topologized as a [[subspace]] of the [[target|codomain]].  On the other hand, for $M=$ injective continuous maps, the $M$-image is the set-theoretic image topologized as a [[quotient space]] of the [[source|domain]].
+* In [[Top]], for $M=$ [[subspace]] inclusions, the $M$-image is the set-theoretic image topologized as a [[subspace]] of the [[target|codomain]].  On the other hand, for $M=$ injective continuous maps, the $M$-image is the set-theoretic image topologized as a [[quotient space]] of the [[source|domain]]. For more basic details see at _[[Introduction to Topology -- 1]]_ [here](#ImageFactorization).
 
 * A [[regular category]] can be defined as a [[finitely complete category]] in which all images exist for $M=$ monomorphisms, and such images are moreover stable under [[pullback]].  In particular, this includes any [[topos]].
 
