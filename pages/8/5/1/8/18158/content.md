@@ -20,16 +20,331 @@
 
 ## Idea
 
-The _Zariski topology_ is a [[topological space|topology]] on the [[prime spectrum of a commutative ring]].
+The _Zariski topology_ is a [[topological space|topology]] on the [[prime spectrum of a commutative ring]]. This serves as the basis for much of [[algebraic geometry]].
 
-## Definition
+
+We consider the definition in increasing generality
+
+1. [On affine spaces](#OnAffineSpace) $\mathbb{A}^n_k$;
+
+1. [On affine varieties](spring) $Spec(R)$.
+
+
+## On affine space
+ {#OnAffineSpace}
+
+
+### Definition
+
++-- {: .num_defn  #ZariskiOpenSubsetsOnAffineSpace}
+###### Definition
+**(Zariski topology on affine space)**
+
+Let $k$ be a [[field]], let $n \in \mathbb{N}$, and write $k[X_1, \cdots, X_n]$ for the [[set]] of [[polynomials]] in $n$ [[variables]] over $k$.
+
+For $\mathcal{F} \subset k[X_1, \cdots, X_n]$ a subset of polynomials, let the  subset $V(\mathcal{P}) \subset k^n$ of the $n$-fold [[Cartesian product]] of the underlying set of $k$ (the _vanishing set_ of $\mathcal{F}$) be the subset of points on which all these polynomials jointly vanish:
+
+$$
+  V(\mathcal{F}) 
+    \coloneqq 
+  \left\{
+     (a_1, \cdots, a_n) \in k^n
+     \,\vert\,
+     \underset{f \in \mathcal{F}}{\forall} f(a_1, \cdots, a_n) = 0
+  \right\}
+  \,.
+$$
+
+These subsets are called the _Zariski [[closed subsets]]_.
+
+Write
+
+$$
+  \tau_{\mathbb{A}^n_k}
+  \;\coloneqq\;
+  \left\{
+    k^n \backslash V(\mathcal{F}) \subset k^n
+    \,\vert\,
+    \mathcal{F} \subset k[X_1, \cdots, X_n]
+  \right\}
+$$
+
+for the set of [[complements]] of subsets the Zariski closed subsets. These are called the _Zariski [[open subsets]]_ of $k^n$.
+
+ 
+=--
+
++-- {: .num_prop #VerifyingZariskiTopologyOnAffineSpace}
+###### Proposition
+**(Zariski topology is well defined)**
+
+Assuming [[excluded middle]], then:
+
+For $k$ a [[field]] and $n \in \mathbb{N}$, then the Zariski open subsets of $k^n$ (def. \ref{ZariskiOpenSubsetsOnAffineSpace}) form a [[topological space|topology]]. The resulting [[topological space]]
+
+$$
+  \mathbb{A}^n_k
+  \;\coloneqq\;
+  \left(
+     k^n, \tau_{\mathbb{A}^n_k}
+  \right)
+$$
+
+is also called the $n$-dimensional _[[affine space]]_ over $k$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to show for $\{\mathcal{F}_i \subset k[X_1, \cdots, X_n]\}_{i \in I}$ a set of subsets of polynomials that
+
+1.  $\underset{i \in I}{\cup} \left(k^n \backslash V(\mathcal{F}_i)\right) = k^n \backslash V(\mathcal{F}_\cup)$ for some $\mathcal{F}_\cup \subset k[X_1, \cdots, X_n]$;
+
+1. if $I$ is [[finite set|finite]] then $\underset{i \in I}{\cap} \left( k^n \backslash V(\mathcal{F}_{\cap})\right) = k^n \backslash \mathcal{F}_\cap$ for some $\mathcal{F}_{\cap} \subset k[X_1, \cdots, X_n]$.
+
+By [[de Morgan's law]] for [[complements]] (and using [[excluded middle]]) this is equivalent to 
+
+1.  $\underset{i \in I}{\cap} V(\mathcal{F}_i) = V(\mathcal{F}_\cup)$ for some $\mathcal{F}_\cup \subset k[X_1, \cdots, X_n]$;
+
+1. if $I$ is [[finite set|finite]] then $\underset{i \in I}{\cup} V(\mathcal{F}_i) =  V(\mathcal{F}_{\cap})$ for some $\mathcal{F}_{\cap} \subset k[X_1, \cdots, X_n]$.
+
+We claim that we may take
+
+1. $\mathcal{F}_\cup = \underset{i \in I}{\cup} \mathcal{F}_i$
+
+1. $\mathcal{F}_{\cap} = \underset{i \in I}{\prod} \mathcal{F}_i \coloneqq \left\{ \underset{i \in I}{\prod} f_i \,\vert\, f_i \in \mathcal{F}_i \right\}$.
+
+(In the second line we have the set of all those polynomials which arise as products of polynomials with one factor from each of the $\mathcal{F}_i$.)
+
+Regarding the first point:
+
+$$
+  \begin{aligned}
+    & (a_1, \cdots, a_n) \in \underset{i \in I}{\cap} V(\mathcal{F}_i)
+    \\
+    \Leftrightarrow\;
+     &
+     \underset{i \in I}{\forall}
+     \left( 
+        (a_1, \cdots, a_n) \in V(\mathcal{F}_i)
+     \right)
+     \\
+     \Leftrightarrow\;
+    &
+     \underset{i \in I}{\forall} 
+     \left(
+       \underset{f \in \mathcal{F}_i}{\forall} 
+       \left(
+         f(a_1, \cdots, a_n) = 0
+       \right)
+     \right)
+    \\
+    \Leftrightarrow\;
+    &
+    \underset{f \in \underset{i \in I}{\cup} \mathcal{F}_i}{\forall}
+    \left(
+       f(a_1, \cdots, a_n) = 0
+    \right)
+    \\
+    \Leftrightarrow\;
+    &
+    (a_1, \cdots, a_n)
+    \in 
+    V\left(
+      \underset{i \in I}{\cup} \mathcal{F}_i
+    \right)
+  \end{aligned}
+$$
+
+Regarding the second point, in one direction we have the immediate implication
+
+$$
+  \begin{aligned}
+    & 
+    (a_1, \cdots, a_n) \in \underset{i \in I}{\cup} V(\mathcal{F}_1)
+    \\
+    \Leftrightarrow\;
+    &
+    \underset{i \in I}{\exists}
+    \left(
+      \underset{f \in \mathcal{F}_i}{\forall}
+      \left(
+        f(a_1, \cdots, a_n) = 0
+      \right)
+    \right)
+    \\
+    \Rightarrow \;   
+    &
+    \underset{(f_i) \in \underset{i \in I}{\prod} \mathcal{F}_i}{\forall}
+    \left(
+      \underset{i \in I}{\prod} f_i(a_1, \cdots, a_n) = 0
+    \right)
+    \\
+    \Leftrightarrow\;
+    &
+    (a_1, \cdots, a_n)
+    \in
+    V\left(
+      \underset{i \in I}{\prod} \mathcal{F}_i
+    \right) 
+    \,.
+  \end{aligned}
+$$
+
+For the converse direction we need to show that
+
+$$
+  \left(
+    (a_1 , \cdots , a_n)
+    \in
+      V\left(
+        \underset{i \in I}{\prod} \mathcal{F}_i
+      \right) 
+   \right)
+     \;\Rightarrow\;
+   \left(
+     (a_1, \cdots, a_n)
+     \in 
+     \underset{i \in I}{\cup} V(\mathcal{F}_1)   
+   \right)
+  \,.
+$$
+
+hence that 
+
+$$
+  \left(
+    \underset{(f_i) \in \underset{i \in I}{\prod} \mathcal{F}_i }{\forall}
+    \left(
+      \underset{i \in I}{\prod} f_i(a_1, \cdots, a_n) = 0
+    \right)
+  \right)
+  \;\Rightarrow\;
+  \left(
+    \underset{i \in I}{\exists}
+    \left(
+      \underset{f_i \in \mathcal{F}_i}{\forall}
+      \left(
+         f_i(a_1, \cdots, a_n) = 0
+      \right)
+    \right)
+  \right)
+  \,.
+$$
+
+By [[excluded middle]], this is equivalent to its [[contraposition]], which by [[de Morgan's law]] is
+
+$$
+  \left(
+    \underset{i \in I}{\forall}
+    \left(
+      \underset{f_i \in \mathcal{F}_i}{\exists}
+      \left(
+         f_i(a_1, \cdots, a_n) \neq 0
+      \right)
+    \right)
+  \right)
+  \;\Rightarrow\;
+  \left(
+    \underset{(f_i) \in \underset{i \in I}{\prod} \mathcal{F}_i }{\exists}
+    \left(
+      \underset{i \in I}{\prod} f_i(a_1, \cdots, a_n) \neq 0
+    \right)
+  \right)
+  \,.
+$$
+
+This now is true by the assumption that $k$ is a [[field]]: If all factors $f_i(a_1, \dots a_n) \in k$ are non-zero, then their product $\underset{i \in I}{\prod} f_i(a_1, \cdots, a_n) \in k$ is non-zero.
+
+=--
+
+### Properties
+
++-- {: .num_prop}
+###### Proposition
+
+For $k$ a [[field]] and $n \in \mathbb{N}$, consider a [[subset]]
+
+$$
+  S \subset k^n
+$$
+
+of the underlying set of the $n$-fold [[Cartesian product]] of $k$ with itself. Then the [[topological closure]] $Cl(S)$ of this subset with respect to the Zariski topology $\tau_{\mathbb{A}^n_k}$ (def. \ref{ZariskiOpenSubsetsOnAffineSpace}) is the vanishing set of all those polynomials that vanish on $S$:
+
+$$
+  Cl(S)
+  \;=\;
+  \left\{
+    f \in k[X_1, \cdots, X_n]
+    \,\vert\,
+    \underset{(a_1, \cdots, a_n) \in S}{\forall} f(a_1, \cdots, a_n) = 0
+  \right\}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We compute as follows:
+
+$$  
+  \begin{aligned}
+    Cl(S)
+     & \coloneqq
+    \underset{ {C \subset k^n \, \text{closed}} \atop {C \supset S} }{\cap}
+    C
+    \\
+    & =
+    \underset{
+       { \mathcal{F} \subset k[X_1, \cdots, X_n] }
+       \atop
+       { S \subset V(\mathcal{F}) }
+    }{\cap} V(\mathcal{F})
+    \\
+    & = 
+    V\left(
+      \underset{
+         { \mathcal{F} \subset k[X_1, \cdots, X_n] }
+         \atop
+         { S \subset V(\mathcal{F}) }
+      }{\cup} \mathcal{F}
+      \right)
+    \\
+    & = 
+    V \left(
+      \left\{
+        f \in k[X_1, \cdots, X_2]
+        \,\vert\,
+        \underset{(a_1, \cdots, a_n) \in S}{\forall} f(a_1, \cdots, a_n) = 0
+      \right\}
+    \right)
+    \,.
+  \end{aligned}
+$$
+
+Here the first equality is the definition of [[topological closure]], the second is the definition of closed subsets in the Zariski topology (def. \ref{ZariskiOpenSubsetsOnAffineSpace}), the third is the expression of intersections of these in terms of unions of polynomials as in the proof of prop. \ref{VerifyingZariskiTopologyOnAffineSpace}, and then the last one is immediate.
+
+=--
+
+
+## On affine varieties
+ {#OnAffineVarieties}
+
+(...)
 
 ## Related concepts
 
 * [[Zariski site]]
 
+* [[schemes are sober]]
+
 ## References
 
-* Jim Carrell, Zariski topology etc [[CarrellZariskiTopology.pdf:file]]
+Lecture notes include
+
+* Jim Carrell, _Zariski topology_ etc [[CarrellZariskiTopology.pdf:file]]
 
 [[!redirects Zariski topologies]]
