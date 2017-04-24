@@ -2176,10 +2176,10 @@ There are other categories. For instance there is the [[category of sets]] ("[[S
 The two categories [[Top]] and [[Set]] are different, but related. After all,
 
 1. an [[object]] of [[Top]] (hence a [[topological space]]) is an [[object]] of [[Set]] (hence a [[set]])
-equipped with [[extra structure]] (namely with a [[topological space|topology]])
+equipped with [[extra structure]] (namely with a [[topological space|topology]]);
 
 1. a [[morphism]] in [[Top]] (hence a [[continuous function]]) is a [[morphism]] in [[Set]] (hence a plain [[function]])
-   with the special property that it preserves this extra structure.
+   with the [[extra property]] that it preserves this extra structure.
 
 Hence we have the _underlying set assigning function_
 
@@ -2338,7 +2338,7 @@ produce examples of continuous functions with prescribed "[[universal properties
 ###### Example
 **(point space is [[terminal object|terminal]])**
 
-For $(X,\tau)$ any topological space, then there is a unique continuous function (which we denote by the same symbol)
+For $(X,\tau)$ any topological space, then there is a unique continuous function 
 
 $$
   X \longrightarrow \ast
@@ -2354,10 +2354,10 @@ says that the point $\ast$ is the _[[terminal object]]_ in the [[category]] [[To
 
 +-- {: .num_example #PointsViaContinuousFunctions}
 ###### Example
-**(points as continuous functions)**
+**([[constant functions]])**
 
 For $(X, \tau)$ a [[topological space]] then for $x \in X$ any element of the underlying set,
-there is a unique continuous function
+there is a unique continuous function (which we denote by the same symbol)
 
 $$
   x \;\colon\; \ast \longrightarrow X
@@ -2375,6 +2375,17 @@ $$
 $$
 
 between the continuous functions from the point to any topological space, and the underlying set of that topological space.
+
+More generally, for $(X,\tau_X)$ and $(Y,\tau_Y)$ two topological spaces, then a continuous
+function $f \colon X \to Y$ between them is called a _[[constant function]]_ with value some point $y \in Y$ if it
+factors through the point spaces as
+
+$$
+  f 
+    \;\colon\;
+  X \overset{\exists !}{\longrightarrow} \ast \overset{y}{\longrightarrow} Y
+  \,.
+$$
 
 =--
 
