@@ -35,6 +35,7 @@ The _Zariski topology_ is a [[topological space|topology]] on the [[prime spectr
 ## On affine space
  {#OnAffineSpace}
 
+We consider here, for $k$ a [[field]], the [[vector space]] $k^n$ equipped with a Zariski topology. This is the original definition of Zariski topology, and serves well to motivate the concept, but eventually it was superceded by a more refined concept of Zariski topologies of prime spectra, discussed in the next subsection [below](#OnAffineVarieties). In example \ref{AffinSpaceAsPrimeSpectrum} below we reconsider the naive case of interest in this subsection here from that more refined perspective.
 
 ### Definition
 
@@ -360,7 +361,6 @@ $$
     \,\vert\,
     \underset{(a_1, \cdots, a_n) \in V(\mathcal{F})}{\forall} f(a_1, \cdots, a_n) = 0
   \right\}
-  \;\subset
   \,.
 $$
 
@@ -384,7 +384,7 @@ Let $k$ be a [[field]], let $n \in \mathbb{N}$, and let $V(\mathcal{F}) \subset 
 +-- {: .proof}
 ###### Proof
 
-In one direction, assume that $V(\beta)$ is irreducible and consider $f,g \in k[X_1, \cdots, X_n]$ with $f \cdot g \in I(V(\mathcal{F}))$. We need to show that then alrady $f \in I(V(\mathcal{F}))$ or $g \in I(V(\mathcal{F}))$.
+In one direction, assume that $V(\mathcal{F#})$ is irreducible and consider $f,g I\in k[X_1, \cdots, X_n]$ with $f \cdot g \in I(V(\mathcal{F}))$. We need to show that then alrady $f \in I(V(\mathcal{F}))$ or $g \in I(V(\mathcal{F}))$.
 
 Now since $k$ is a field, we have 
 
@@ -579,7 +579,7 @@ Prop \ref{ZariskiClosedSubsetsInSpecR} suggests to consider the set of [[prime i
 
 
 ## On affine varieties
- {#OopenAffineVarieties}
+ {#OnAffineVarieties}
 
 
 ### Definition
@@ -851,9 +851,16 @@ $$
 ###### Proposition
 **([[maximal ideals]] are [[closed points]])
 
+Assuming [[excluded middle]] and the [[axiom of choice]] then:
+
 Let $R$ be a [[commutative ring]], consider the [[topological space]] $Spec(R) = (PrimeIdl(R),\tau_{Spec(R)})$, i.e. its [[prime spectrum of a commutative ring|prime spectrum]] equipped with the Zariski topology from def. \ref{ZariskiClosedSubsetsInSpecR}.
 
-Then every [[maximal ideal]] $\mathfrak{m} \in MaxIdl(R) \subset PrimeIdl(R)$ is a [[closed point]] of $Spec(R)$
+Then the inclusion of [[maximal ideals]] $\mathfrak{m} \in MaxIdl(R) \subset PrimeIdl(R)$ into all [[prime ideals]] is precisely the inclusion of the subset of [[closed points]] into all points of $Spec(R)$.
+
+$$
+  ClosedPoints(Spec(R)) \simeq MaxIdl(R) \subset PrimeIdl(R)
+  \,.
+$$
 
 =--
 
@@ -872,13 +879,46 @@ $$
   \mathfrak{m} = V(\mathfrak{m})
 $$
 
-By definition $V(\mathfrak{m})$ contains all the prime ideals $p$ such that $\mathfrak{m} \subset p$. That $\mathfrak{m}$ is maximal means that it is not conained in larger proper ideal, in particular not in any larger prime ideal, and hence $V(\mathfrak{m}) = \{\mathfrak{m}\}$.
+precisely if $\mathfrak{m}$ is maximal.
+
+In one direction, assume that $\mathfrak{m}$ is maximal. By definition $V(\mathfrak{m})$ contains all the prime ideals $p$ such that $\mathfrak{m} \subset p$. That $\mathfrak{m}$ is maximal means that it is not contained in a larger proper ideal, in particular not in any larger prime ideal, and hence $V(\mathfrak{m}) = \{\mathfrak{m}\}$.
+
+In the other direction, assume that $V(\mathfrak{m}) = \{\mathfrak{m}\}$. This means that the ideal $\mathfrak{m}$ is not contained in any prime ideal. But with the [[axiom of choice]] this implies that it is not contained in any proper ideal $I$. For assume on the contrary that there were a proper ideal $I$ with $\mathfrak{m} \subset I$. Using the [[axiom of choice]] then $I$ would be contained in a maximal ideal (by [this prop.](maximal+ideal#EveryProperIdealisContainedInAMaximalOne)), hence in particular in a prime ideal, which is in contradiction to the assumption that $\mathfrak{m}$ is not properly contained in a prime ideal.
 
 
 =--
 
 
 ### Examples
+
++-- {: .num_example #AffinSpaceAsPrimeSpectrum}
+###### Example
+**(affine space as prime spectrum)**
+
+Reconsider the case where $R = k[X_1,\cdots, X_n]$
+is a [[polynomial ring]], as in the discussion of the naive affine space $k^n$
+[above](#OnAffineSpace). 
+
+Observe that, by \ref{MaximalIdealsAreClosedPoints}, the [[closed points]] in the [[prime spectrum of a commutative ring|prime spectrum]] $Spec(k[X_1, \cdots, X_n])$ correspond to the [[maximal ideals]] in the [[polynomial ring]]. These are of the form 
+
+$$
+  (a_1, \cdots, a_n)
+  \coloneqq
+  \left(
+   (X_1 - a_1) \cdot (X_2 - a_2) \cdots (X_n - a_n)
+  \right)
+$$
+
+and hence are in bijection with the points of the naive affine space
+
+$$
+  k^n \simeq MaxIdl(k[X_1, \cdots, X_n])
+  \,.
+$$
+
+There is however also [[prime ideals]] in $k[X_1, \cdots, X_n]$ which are not maximal. For instance $(0)$.
+
+=--
 
 +-- {: .num_prop #SpecZ}
 ###### Proposition
