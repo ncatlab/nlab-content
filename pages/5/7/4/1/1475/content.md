@@ -31,7 +31,7 @@ In as far as it holds or is assumed to hold, Zorn's lemma is a standard method f
 
 ## Statement and proofs
 
-+-- {: .num_defn }
++-- {: .num_defn #ChainAndUpperBound}
 ###### Definition
 
 * Given a [[preorder|preordered]] set $(S, \leq)$, an element $x$ of $S$ is _[[maximal element|maximal]]_ if $y \leq x$ whenever $x \leq y$.  
