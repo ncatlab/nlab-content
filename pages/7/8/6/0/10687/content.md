@@ -26,7 +26,7 @@ more is in chapter 5, section 1 there.
 The formulation in terms of the [[spectral sequence of a filtered stable homotopy type]] is in 
 
 * [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the
-Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php) ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
+Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php) ([pdf](https://web.archive.org/web/20140909224838/http://www.math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
  {#Wilson13}
 
 See also 
