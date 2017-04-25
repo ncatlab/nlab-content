@@ -17,5 +17,6 @@ What is called _resurgence theory_ is a mathematical formalization of what in ph
 
 * Itzykson seminar at IHES,  _Resurgence and Quantization_, April 2017 ([web](https://www.fondation-hadamard.fr/fr/lmh-mathematiques-et-physique/seminaire-itzykson))
 
+* [[Ricardo Schiappa]], _Resurgence Asymptotics in String Theory_, talk at IHES 2017 ([video](https://www.youtube.com/watch?v=8tw4MaBwTEA))
 
 [[!redirects resurgence]]
