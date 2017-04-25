@@ -1,81 +1,42 @@
 
-+-- {: .num_lemma #ZariskiClorsuredOfPont}
-###### Lemma
+In one direction, assume that $V(\mathcal{F})$ is irreducible, and that $f,g \in R$ with $f \cdot g \in \mathcal{F}$. We need to show that then already $f \in \mathcal{F}$ or $g \in \mathcal{F}$. 
 
-Let $R$ be a [[commutative ring]] and consider $Spec(R) = (PrimeIdl(R), \tau_{Spec(R)})$ its [[prime spectrum of a commutative ring|prime spectrum]] equipped with the Zariski topology (def. \ref{ZariskiClosedSubsetsInSpecR}).
-
-Then the [[topological closure]] of a point $p \in PrimeIdl(R)$ is $V(p) \subset PrimeIdl(R)$ (def. \ref{ZariskiClosedSubsetsInSpecR}).
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By definition the topological closure of $\{p\}$ is
-
-$$
-  Cl(\{p\}) \underset{ {I \in Idl(R) } \atop { p \in V(I) }  }{\cap} V(I)
-  \,.
-$$
-
-Hence unwinding the definitions, we have the following sequence of logical equivalences:
+Observe that $V(\mathcal{F}) \subset V((f)) \cup V((g))$. This is because 
 
 $$
   \begin{aligned}
-    & q \in Cl(\{q\})
-    \\
-    \Leftrightarrow\; &
-    q \in 
-    \underset{ {I \in Idl(R)} \atop { p \in V(I) }   }{\cap} V(I)
+    & p \in V(\mathcal{F})
     \\
     \Leftrightarrow\;
     &
-    \underset{ { I \in Idl(R) } \atop { I \subset p } }{\forall} (q \in V(I))
+    \mathcal{F} \subset p
+    \\
+    \Rightarrow \;
+    &
+    f \cdot g \in p
+    \\
+    \Rightarrow\;
+    &
+    \left(
+      f \in p
+    \right)
+    \,\text{or}\,
+    \left(
+      g \in p
+    \right)
     \\
     \Leftrightarrow\;
     &
-    \underset{ { I \in Idl(R) } \atop { I \subset p } }{\forall} (I \subset q)
+    \left(
+      p \in V(g)
+    \right)
+    \,\text{or}\,
+    \left(
+      p \in V(f) 
+    \right)
     \\
     \Leftrightarrow\;
     &
-    p \subset q
-    \\
-    \Leftrightarrow\;
-     &
-    q \in V(p)
+    p \in V(f) \cup V(g)
   \end{aligned}
 $$
-
-=--
-
-
-+-- {: .num_prop }
-###### Proposition
-
-Let $R$ be a [[commutative ring]], consider the [[topological space]] $Spec(R) = (PrimeIdl(R),\tau_{Spec(R)})$, i.e. its [[prime spectrum of a commutative ring|prime spectrum]] equpped with the Zariski topology from def. \ref{ZariskiClosedSubsetsInSpecR}. 
-
-Then the [[closed points]] of $Spec(R)$ correspond precisely to the [[maximal ideals]] of $R$, i.e. if $p \in PrimeIdl(R)$ is a [[prime ideal]], regarded as a point of $Spec(R)$, then the [[singleton set]] $\{p\}$ coincides with its [[topological closure]] precisely if $p$ happens to be in fact a [[maximal ideal]], i.e. $p \in MaxIdl(R) \subset PrimeIdl(R)$:
-
-$$
-  \left(
-     \{p\} = Cl(\{p\})
-  \right)
-  \Leftrightarrow
-  \left(
-    p \in MaxIdl(R) \subset PrimeIdl(R)
-  \right)
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-
-
-
-=--
-
-
-
