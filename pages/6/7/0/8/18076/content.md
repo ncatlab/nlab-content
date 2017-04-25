@@ -1,14 +1,40 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]h
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Statement
 
-The [[topological space]] underlying a [[scheme]] is a [[sober topological space]]. In particular locally the [[Zariski topology]] on the [[prime spectrum of a commutative ring]] is sober. _For details see [this prop](Zariski+topology#ZariskiTopologyIsSober).
++-- {: .num_prop #SchemesAreSober}
+###### Proposition
 
-If instead of the [[prime spectrum of a commutative ring]] one considers only the [[topological subspace]] of [[maximal ideals]], as in algebraic geometry before the introduction of schemes, then one does not get a sober space.
-But if the ring is a [[Jacobson ring]] (any prime ideal is an intersection of maximal ideals), then the [[soberification]] of this subspace is the prime spectrum.
+The [[topological space]] underlying a [[scheme]] is a [[sober topological space]]. In particular for [[affine schemes]]: The [[Zariski topology]] on the [[prime spectrum of a commutative ring]] is sober. 
+
+=--
+
+For **proof** see [this prop](Zariski+topology#ZariskiTopologyIsSober) at _[[Zariski topology]]_.
+
++-- {: .num_remark}
+###### Remark
+
+If instead of the [[prime spectrum of a commutative ring]] one considers only the [[topological subspace]] of [[maximal ideals]] in prop. \ref{SchemesAreSober}, as in [[algebraic geometry]] before the introduction of [[schemes]] by [[Alexander Grothendieck]], then one does not get a sober space. But if the ring is a [[Jacobson ring]] (in that every [[prime ideal]] in the ring is an [[intersection]] of [[maximal ideals]]), then the [soberification](sober+topological+space#Reflection) of the [[topological subspace]] of maximal ideals inside the prime ideals is the full prime spectrum.
+
+=--
 
 
 ## Related statements
