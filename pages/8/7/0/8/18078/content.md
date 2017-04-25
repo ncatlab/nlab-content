@@ -1,42 +1,17 @@
 
-In one direction, assume that $V(\mathcal{F})$ is irreducible, and that $f,g \in R$ with $f \cdot g \in \mathcal{F}$. We need to show that then already $f \in \mathcal{F}$ or $g \in \mathcal{F}$. 
 
-Observe that $V(\mathcal{F}) \subset V((f)) \cup V((g))$. This is because 
+Recall:
 
-$$
-  \begin{aligned}
-    & p \in V(\mathcal{F})
-    \\
-    \Leftrightarrow\;
-    &
-    \mathcal{F} \subset p
-    \\
-    \Rightarrow \;
-    &
-    f \cdot g \in p
-    \\
-    \Rightarrow\;
-    &
-    \left(
-      f \in p
-    \right)
-    \,\text{or}\,
-    \left(
-      g \in p
-    \right)
-    \\
-    \Leftrightarrow\;
-    &
-    \left(
-      p \in V(g)
-    \right)
-    \,\text{or}\,
-    \left(
-      p \in V(f) 
-    \right)
-    \\
-    \Leftrightarrow\;
-    &
-    p \in V(f) \cup V(g)
-  \end{aligned}
-$$
++-- {: .num_prop #PrimeIdealTheorem}
+###### Proposition
+**([[prime ideal theorem]])
+
+Assuming the [[axiom of choice]] or at least the [[ultrafilter principle]] then:
+
+For $R$ a [[commutative ring]] and $I \subset R$ a [[proper ideal]], then $I$ is contained in some [[prime ideal]].
+
+=--
+
+The [[axiom of choice]] even implies that every proper ideal is contained in a [[maximal ideal]] (by [this prop.](maximal+ideal#EveryProperIdealisContainedInAMaximalOne)).
+
+
