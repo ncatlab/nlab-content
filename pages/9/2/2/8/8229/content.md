@@ -28,8 +28,12 @@ The study of the [[topology]] of [[manifolds]] of low [[dimension]], notably of 
 
 * [[arithmetic topology]]
 
+* [[van Kampen theorem]]
+
 ## References
 
 * Wikipedia, _[Low-dimensional topology](http://en.wikipedia.org/wiki/Low-dimensional_topology)_
+
+* John Stillwell, _Classical Topology and Combinatorial Group Theory_, Springer (1980, 1993) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/stillwell1x.pdf))
 
 [[!redirects low dimensional topology]]
