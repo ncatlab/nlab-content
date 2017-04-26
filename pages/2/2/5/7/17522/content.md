@@ -21,6 +21,76 @@
 
 Given two [[vector bundles]] $V_1 \to X$ and $V_2 \to X$ over the same base space $X$, their _tensor product of vector bundles_ $V_1 \otimes V_2 \to X$ is the vector bundle over $X$ whose [[fiber]] over any point is the [[tensor product of vector spaces]] (i.e. the [[tensor product of modules]]) of the respective fibers of $V_1$ and $V_2$.
 
+## Details
+
+We discuss in detail the construction of the tensor product oof vector bundles as a construction in [[topological spaces]].
+
+For all of the following the [[ground field]] $k$ may be taken to be the [[real numbers]] $\mathbb{R}$ or the [[complex numbers]] $\mathbb{C}$, corresponding to [[real vector bundles]] and [[complex vector bundles]], respectively. 
+
+Recall first how the [[topological space|topology]] on the total space of a [[vector bundle]] arises as the [[quotient topological space]] of the corresponding trivial bundle over an [[open cover]] quotiented by  
+
++-- {: .num_defn}
+###### Definition
+
+Let $X$ be a [[topological space]]. For $k$ a [[topological field]], and for $n \in \mathbb{N}$, then a _topological $k$-[[vector bundle]] of [[rank of a vector bundle|rank]] $n$ over $X$_ 
+
+is
+
+1. a [[topological space]] $E$;
+
+1. a [[continuous function]] $p \colon E \to X$;
+
+1. for each $x \in X$ the structure of a [[vector space]] on the the [[pre-image]] $p^{-1}(\{\})$ of the [[singleton set|singleton]] [[subset]] $\{x\} \subset X$ (the _[[fiber]]_ of the vector bundle over $x$)
+
+such that 
+
+1.  there exists an [[open cover]] $\{U_i \to X\}_{i \in I}$ of $X$ 
+
+1. and for each $i \in I$ a [[homeomorphism]]
+
+   $$
+     \phi_i \;\colon\; E|_{U_i} \overset{\simeq}{\longrightarrow} U_i \times \mathbb{R}^n
+   $$
+
+   from the restriction of $E$ to the open subset $U_i \subset X$ to the [[product topological space]] of $U_i$ with the canonical $n$-dimensional 
+
+1. such that $\phi_i$ is
+
+   1. a map over $U_i$, in that it makes [[fibers]] to fibers: $\phi_i(p^{-1}(x)) \subset \{x\} \times \mathbb{R}^n$
+
+   1. a fiberwise $k-[[linear map]].
+
+Such an open cover is also called a _trivializing cover_ for the vector bundle, and the choice of homeomorphisms $\{\phi_i\}_{i \in I}$ is called a _[[local trivialization]]_.
+
+This may equivalently but conveniently be stated a bit more [[category theory|category theoretically]]
+
+(...)
+
+* there exists a [[pullback square]] in the [[category]] [[Top]] of [[topological spaces]] of the form
+
+  $$
+    \array{
+      \left(\underset{i \in I}{\sqcup} U_i\right) \times k^n
+        &\overset{(\phi_i)}{\longrightarrow}&
+      E
+      \\
+      {}^{\mathllap{pr}_1}\downarrow &(pb)& \downarrow^{\mathrlap{p}}
+      \\
+      \underset{i \in I}{\sqcup} U_i
+      &\longrightarrow&
+      X
+    }
+  $$
+
+  (where $\underset{i \in I}{\sqcup} U_I$ denotes the [[disjoint union space]])
+
+  such that $(\phi_i)$ is fiberwise $k$-linear.
+
+
+=--
+
+Now...
+
 ## Related concepts
 
 * [[direct sum of vector bundles]]
