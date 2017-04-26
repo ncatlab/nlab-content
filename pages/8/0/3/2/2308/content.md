@@ -131,7 +131,7 @@ $$
 
 e.g. [AGP 02, theorem 12.1.12](#AGP02)
 
-For more see at _[generalized cohomology -- Relation btween reduced and unreduced](generalized+cohomology#RelationBetweenReducedAndUnreduced)_.
+For more see at _[generalized cohomology -- Relation btween reduced and unreduced](generalized+Eilenberg-Steenrod+cohomology#RelationBetweenReducedAndUnreduced)_.
 
 ## Related entries
 
