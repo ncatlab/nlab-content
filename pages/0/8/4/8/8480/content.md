@@ -38,7 +38,7 @@ In [[category theory]] the concept of fixed points admits [[categorification]]: 
 
 See also at
 
-* _[[fixed point of an adjunction]]_
+* _[[fixed point of an adjunction]]_ (which in particular restricts to a concept of fixed points of a [[Galois correspondence]])
 
 In [[homotopy theory]] the concept of fixed point becomes that of
 
@@ -206,7 +206,7 @@ Todd: Here "idempotent" involves a coassociativity condition. To be related to s
 
 * [[Lawvere's fixed point theorem]]
 
-* [[fixed point of an adjunction]]
+* [[fixed point of an adjunction]] (which in particular restricts to a concept of fixed points of a [[Galois correspondence]])
 
 ## References 
 
