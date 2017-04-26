@@ -4,7 +4,7 @@
 
 ## Idea 
 
-A topological field is a [[field]] equipped with a topology such that all of the field operations are continuous. 
+A topological field is a [[field]] equipped with a topology such that all of the field operations are [[continuous functions]]. 
 
 ## Definition 
 
@@ -42,6 +42,14 @@ One straightforward approach, at least if we are thinking along lines of [[exclu
 Some commentary might be in order. Clearly $U$ plays the role of the [[group of units]] of $K$, realized as a [[subobject]] by $j: U \to K$. Axiom 3. says that $0$ and $U$ exhaust all of $K$, but without going so far to say that $(0, j): 1 + U \to K$ is an [[isomorphism]], an inappropriately strong condition in the case of $Top$ (as it would force the point $0: 1 \to K$ to be open, making $K$ a [[discrete space]]). 
 
 Axiom 2. is more subtle: a mono $k: A \to B$ in $Top$ is regular iff $A$ has the subspace topology inherited from $B$ via $k$. So Axiom 2. interpreted in $Top$ says that the subspace topology on $U$ coming from its inclusion into $K$ coincides with the topology it has by definition, viz. the subspace topology coming from its embedding $i$ in $K \times K$. Notice that inversion on $U$ is continuous if we use the definitional topology, since inversion is effected by permuting the two factors of $K \times K$. Thus Axiom 2. is a sneaky way of forcing inversion on $U$ with the subspace topology from $K$ to be continuous (and in fact it is equivalent to continuity of inversion). 
+
+## Examples
+
+* The [[real numbers]] with their [[metric topology]] as a [[Euclidean space]];
+
+* The [[complex numbers]], similarly,
+
+etc.
 
 [[!redirects topological field]]
 [[!redirects topological fields]]
