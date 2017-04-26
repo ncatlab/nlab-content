@@ -31,7 +31,8 @@ One may say that 'fibre bundles are [[fibrations]]' by the [[Milnor slide trick]
 
 In the most general sense, a __bundle__ over an object $B$ in a [[category]] $C$ is a [[morphism]] $p: E \to B$ in $C$.
 
-In an appropriate contexts, a __fibre bundle__ over $B$ with standard fibre $F$ may be defined as a bundle over $B$ such that, given any [[global element]] $x: 1 \to B$, the [[pullback]] of $E$ along $x$ is isomorphic to $F$.  Certainly this definition is appropriate whenever $C$ has a [[terminal object]] $1$ which is a [[separator]], as in a [[well-pointed category]]; even then, however, one often wants the more restrictive notion below.
+In an appropriate contexts, a __fibre bundle__ over $B$ with standard fibre $F$ may be defined as a bundle over $B$ such that, given any [[global element]] $x: 1 \to B$, the [[pullback]] of $E$ along $x$ is isomorphic to $F$. 
+Certainly this definition is appropriate whenever $C$ has a [[terminal object]] $1$ which is a [[separator]], as in a [[well-pointed category]]; even then, however, one often wants the more restrictive notion below.
 
 One often writes a typical fibre bundle in shorthand as $F \to E \to B$ or
 $$ \array {
@@ -41,7 +42,7 @@ $$ \array {
 } $$
 even though there is not a single morphism $F \to E$ but instead one for each global element $x$ (and none at all if $B$ has no global elements!).
 
-If $C$ is a [[site]], then a __locally trivial fibre bundle__ over $B$ with standard fibre $F$ is a bundle over $B$ with a [[cover]] $(j_\alpha: U_\alpha \to B)_\alpha$ such that, for each index $\alpha$, the pullback $E_\alpha$ of $E$ along $j_\alpha$ is isomorphic in the [[slice category]] $C/{U_\alpha}$ to the [[trivial bundle]] $U_\alpha \times F$.
+If $C$ is a [[site]], then a __locally trivial fibre bundle__ over $B$ with typical fibre $F$ is a bundle over $B$ with a [[cover]] $(j_\alpha: U_\alpha \to B)_\alpha$ such that, for each index $\alpha$, the pullback $E_\alpha$ of $E$ along $j_\alpha$ is isomorphic in the [[slice category]] $C/{U_\alpha}$ to the [[trivial bundle]] $U_\alpha \times F$ (a _[[local trivialization]]_).
 
 One can also drop $F$ and define a slightly more general notion of __locally trivial bundle__ over $B$ as a bundle over $B$ with a cover $(j_\alpha: U_\alpha \to B)_\alpha$ such that, for each index $\alpha$, there is a fibre $F_\alpha$ and an isomorphism in $C/{U_\alpha}$ between the pullback $E_\alpha$ and the trivial bundle $U_\alpha \times F_\alpha$.  Every locally trivial fibre bundle is obviously a locally trivial bundle; the converse holds if $B$ is [[connected object|connected]].
 
