@@ -32,9 +32,9 @@ Recall first how the [[topological space|topology]] on the total space of a [[ve
 +-- {: .num_defn}
 ###### Definition
 
-Let $X$ be a [[topological space]]. For $k$ a [[topological field]], and for $n \in \mathbb{N}$, then a _topological $k$-[[vector bundle]] of [[rank of a vector bundle|rank]] $n$ over $X$_ 
+Let $X$ be a [[topological space]], let $k$ be [[topological field]], and let  $n \in \mathbb{N}$ be a [[natural number]]. 
 
-is
+A _topological $k$-[[vector bundle]] of [[rank of a vector bundle|rank]] $n$ over $X$_  is
 
 1. a [[topological space]] $E$;
 
@@ -49,22 +49,28 @@ such that
 1. and for each $i \in I$ a [[homeomorphism]]
 
    $$
-     \phi_i \;\colon\; E|_{U_i} \overset{\simeq}{\longrightarrow} U_i \times \mathbb{R}^n
+     \phi_i \;\colon\; E|_{U_i} \overset{\simeq}{\longrightarrow} U_i \times k^n
    $$
 
    from the restriction of $E$ to the open subset $U_i \subset X$ to the [[product topological space]] of $U_i$ with the canonical $n$-dimensional 
 
-1. such that $\phi_i$ is
+1. such that 
 
-   1. a map over $U_i$, in that it makes [[fibers]] to fibers: $\phi_i(p^{-1}(x)) \subset \{x\} \times \mathbb{R}^n$
+   1. \phi is a map over $U_i$, in that it makes [[fibers]] to fibers: $\phi_i(p^{-1}(x)) \subset \{x\} \times \mathbb{R}^n$
 
-   1. a fiberwise $k-[[linear map]].
+   1. \phi is a fiberwise $k$-[[linear map]].
 
 Such an open cover is also called a _trivializing cover_ for the vector bundle, and the choice of homeomorphisms $\{\phi_i\}_{i \in I}$ is called a _[[local trivialization]]_.
 
-This may equivalently but conveniently be stated a bit more [[category theory|category theoretically]]
+This may equivalently but conveniently be stated a bit more [[category theory|category theoretically]] as follows:
 
-(...)
+A _topological $k$-vector bundle of rank $n$ over $X$_ is
+
+1. an [[object]] $[E \overset{p}{\to} X]$ in the [[slice category]] of [[Top]] over $X$;
+
+1. the structure of an $[X \times k^n \overset{pr_1}{\to} X]$-[[module object]] on $[E \overset{p}{\to} X]$, where $[X \times k^n \overset{pr_1}{\to} X]$ is regarded as a [[field]] [[internaliization]] internal to $Top_{/X}$ in the canonical way;
+
+such that
 
 * there exists a [[pullback square]] in the [[category]] [[Top]] of [[topological spaces]] of the form
 
