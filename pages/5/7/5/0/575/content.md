@@ -74,6 +74,7 @@ which means we have a Galois connection between $f$ and $g$ under this definitio
 * [[adjoint modality]]
 * [[adjunction]]
 * Every Galois connection is an [[idempotent adjunction]].
+* [[nucleus of a profunctor]]
 
 ## References
 
