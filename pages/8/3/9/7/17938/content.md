@@ -5,20 +5,60 @@
 
 ## Idea
 
-A [[continuous function]]
+The original "Peano (space-filling) curve" was a [[surjective]] [[continuous function]] $I \to I^2$, where $I = [0, 1]$ is the unit [[interval]]. The existence of such an entity (due to Peano) came as a surprise. 
 
-$$
-  \mathbb{R}^1 \to \mathbb{R}^2
-$$
+One may characterize exactly which [[Hausdorff spaces]] arise as the continuous [[images]] of a unit interval. These are called *Peano spaces*. 
 
-which is [[surjective]].
+One can similarly show that there is a continuous surjection $\mathbb{R}^1 \to \mathbb{R}^2$, and similarly characterize which spaces arise as continuous images of the real line. These are sometimes called *$\sigma$-Peano spaces*. 
+
+## Hahn-Mazurkiewicz theorem 
+
+The eponymous theorem may be stated as follows: 
+
++-- {: .num_theorem} 
+###### Theorem 
+A Hausdorff space $X$ admits a continuous surjection $f: I \to X$ if and only if it is a [[connected space|connected, locally connected]] [[compact space|compact]] [[metrizable space]]. 
+=-- 
+
+(N.B. According to the nLab, connected spaces are [[inhabited set|nonempty]]!) 
+
+The "only if" half is relatively easy; see [here](https://ncatlab.org/nlab/show/connected+space#arcconnectedness) for some details. The "if" half is rather more involved, but [Willard's General Topology](https://www.amazon.com/dp/0486434796/?tag=stackoverfl08-20) contains a proof. A space $X$ satisfying the stated conditions is called a **Peano space**. 
+
+Given this characterization, it is not difficult to characterize which spaces are continuous images of $\mathbb{R}$: 
+
++-- {: .num_theorem} 
+###### Theorem 
+A [[path-connected space|path-connected]] Hausdorff space $X$ admits a continuous surjection $\mathbb{R} \to X$ if and only if it is a $\sigma$-Peano space, i.e., a countable union $\bigcup_{n: \mathbb{N}} A_n$ of Peano spaces. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The "only if" half being fairly obvious, the "if" part may be proved as follows. Since there are continuous surjections $[0, \infty) \to \mathbb{R}$ and $\mathbb{R} \to [0, \infty)$, it suffices to show that a $\sigma$-Peano space admits a continuous surjection from $[0, \infty)$. For each $n \in \mathbb{N}$ choose a continuous surjection $f_n: [2 n, 2 n + 1] \to A_n$. Then for each $n$ choose a path $g_n: [2 n + 1, 2 n + 2] \to X$ such that $g_n(2 n + 1) = f_n(2 n + 1)$ and $g_n(2 n + 2) = f_{n+1}(2 n + 2)$. Then the $f_n$ and $g_n$ paste together to form a continuous surjection $[0, \infty) \to X$. 
+=-- 
+
+An example of such a space is the [[Warsaw circle]]. 
 
 ## Related concepts
 
-*  [[topological invariance of dimension]]
+* [[topological invariance of dimension]] 
+
+* [[connected space]] 
 
 ## References
 
-* Wikipedia, _[Peano curve](https://en.wikipedia.org/wiki/Peano_curve)_
+* Wikipedia, _[Peano curve](https://en.wikipedia.org/wiki/Peano_curve)_ 
+
+The proof of the Hahn-Mazurkiewicz theorem is given in section 31 (page 219ff) within chapter 8 of Willard's classic text: 
+
+* Stephen Willard, *General Topology* (Dover Edition 2004). Originally published by Addison-Wesley, 1970. ([link to vendor](https://www.amazon.com/dp/0486434796/?tag=stackoverfl08-20))  
+
+The question of which spaces are continuous images of the real line was asked (and answered with dispatch by Jeff Strom) at MathOverflow: 
+
+* Todd Trimble (https://mathoverflow.net/users/2926/todd-trimble), continuous images of open intervals, URL (version: 2014-05-25): [https://mathoverflow.net/q/168084](https://mathoverflow.net/questions/168084/continuous-images-of-open-intervals) 
 
 [[!redirects Peano curves]]
+[[!redirects Peano space-filling curve]] 
+[[!redirects Peano space-filling curves]] 
+[[!redirects Peano space]] 
+[[!redirects Peano spaces]] 
+[[!redirects Hahn-Mazurkiewicz theorem]] 
