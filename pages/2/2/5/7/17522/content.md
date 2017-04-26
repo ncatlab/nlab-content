@@ -31,6 +31,7 @@ Recall first how the [[topological space|topology]] on the total space of a [[ve
 
 +-- {: .num_defn}
 ###### Definition
+**([[vector bundle]])**
 
 Let $X$ be a [[topological space]], let $k$ be [[topological field]], and let  $n \in \mathbb{N}$ be a [[natural number]]. 
 
@@ -40,7 +41,7 @@ A _topological $k$-[[vector bundle]] of [[rank of a vector bundle|rank]] $n$ ove
 
 1. a [[continuous function]] $p \colon E \to X$;
 
-1. for each $x \in X$ the structure of a [[vector space]] on the the [[pre-image]] $p^{-1}(\{\})$ of the [[singleton set|singleton]] [[subset]] $\{x\} \subset X$ (the _[[fiber]]_ of the vector bundle over $x$)
+1. for each $x \in X$ the structure of a [[vector space]] on the [[pre-image]] $p^{-1}(\{x\})$ of the [[singleton set|singleton]] [[subset]] $\{x\} \subset X$ (the _[[fiber]]_ of the vector bundle over $x$)
 
 such that 
 
@@ -68,34 +69,103 @@ A _topological $k$-vector bundle of rank $n$ over $X$_ is
 
 1. an [[object]] $[E \overset{p}{\to} X]$ in the [[slice category]] of [[Top]] over $X$;
 
-1. the structure of an $[X \times k^n \overset{pr_1}{\to} X]$-[[module object]] on $[E \overset{p}{\to} X]$, where $[X \times k^n \overset{pr_1}{\to} X]$ is regarded as a [[field]] [[internaliization]] internal to $Top_{/X}$ in the canonical way;
+1. the structure of a $k_X$-[[module object]] on $[E \overset{p}{\to} X]$, 
+
+   where $k_X \coloneqq [X \times k^n \overset{pr_1}{\to} X] \in Top_{/X}$ is regarded as a [[field]] [[internalization|internal]] to $Top_{/X}$ in the canonical way;
 
 such that
 
-* there exists a [[pullback square]] in the [[category]] [[Top]] of [[topological spaces]] of the form
+1. there exists an [[open cover]] $\{U_i \subset X\}_{i \in I}$
+
+   with [[disjoint union space]] to be denoted
+   
+   $$  
+     \mathcal{U} \coloneqq \underset{i \in I}{\sqcup} U_i
+   $$
+
+   equipped with the induced [[continuous function]]
+
+   $$
+     c \;\colon\; \mathcal{U} \longrightarrow X
+   $$
+
+1. there exists an [[isomorphism]] of $k_{\mathcal{U}}$-[[module objects]] in $Top_{/\mathcal{U}}$
+
+   $$
+     \phi \;\colon\; \mathcal{U} \times k \overset{\simeq}{\longrightarrow} c^\ast E
+   $$
+
+   where
+
+   $$
+     c^\ast \;\colon\; Top_{/X} \longrightarrow Top_{/\mathcal{U}}
+   $$
+
+   is the [[pullback]] [[functor]] ([[base change]]) along the cover projection $c$;
+
+In terms of [[diagrams]] in $Top$ this situation looks as follows:
 
   $$
     \array{
-      \left(\underset{i \in I}{\sqcup} U_i\right) \times k^n
+      \mathcal{U} \times k^n &\underoverset{\simeq}{\phi}{\longrightarrow}&
+      c^\ast E
         &\overset{(\phi_i)}{\longrightarrow}&
       E
       \\
-      {}^{\mathllap{pr}_1}\downarrow &(pb)& \downarrow^{\mathrlap{p}}
+      & {}_{\mathllap{pr_1}}\searrow&
+      \downarrow &(pb)& \downarrow^{\mathrlap{p}}
       \\
+      &&
       \underset{i \in I}{\sqcup} U_i
       &\longrightarrow&
       X
     }
   $$
-
-  (where $\underset{i \in I}{\sqcup} U_I$ denotes the [[disjoint union space]])
-
-  such that $(\phi_i)$ is fiberwise $k$-linear.
-
-
+  
 =--
 
-Now...
+Observe that for $p \colon E \to X$ a vector bundle, we may recover $E$ from the data of the [[local trivialization]] as the [[quotient space]]
+
+$$
+  E 
+   \simeq
+  \left(
+    \underset{i \in I}{\sqcup} \left( U_i \times k^n\right)
+  \right)/(\sim_{g})
+$$
+
+where $\sim_g$ denotes the relation given by the [[transition functions]].
+
+Hence let now $E_1, E_2$ be two $k$-vector bundles over $X$. We may always find an [[open cover]] such that both of them have a [[local trivialization]] over that cover. (Find trivializing open covers for either bundles and then form their joint refinement.) Hence we have then
+
+
+$$
+  E_1
+   \simeq
+  \left(
+    \underset{i \in I}{\sqcup} \left( U_i \times k^{n_1}\right)
+  \right)/(\sim_{(g_1)})
+  \;\;\;\;\;\;
+  E_2
+   \simeq
+  \left(
+    \underset{i \in I}{\sqcup} \left( U_i \times k^{n_2}\right)
+  \right)/(\sim_{(g_2)})
+  \,.
+$$
+
+With this the _tensor product_ of these two vector bundles is
+
+$$
+  E_1 \otimes E_2
+   \coloneqq
+  \left(
+    \underset{i \in I}{\sqcup} \left( U_i \times (k^{n_1} \otimes_k k^{n_2}\right)
+  \right)/(\sim_{(g_1 \otimes g_2)})
+  \,.
+$$
+
+
 
 ## Related concepts
 
