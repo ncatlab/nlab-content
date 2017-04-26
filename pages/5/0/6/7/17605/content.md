@@ -6,4 +6,6 @@
 
 * [[finite topological space]]
 
+* [[Quillen's theorem A]]
+
 category: people
