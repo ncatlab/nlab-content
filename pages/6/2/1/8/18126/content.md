@@ -3377,11 +3377,11 @@ For $n_1, n_2 \in \mathbb{N}$ but $n_1 \neq n_2$, then the
  [[Euclidean spaces]] $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$ (example \ref{EuclideanNorm}, example \ref{MetricTopology})
  are _not_ [[homeomorphic]].
 
-More generally, an [[open subsset]] in $\mathbb{R}^{n_1}$ is never homeomorphic to an open subset in $\mathbb{R}^{n_2}$ if $n_1 \neq n_2$.
+More generally, an [[open subset]] in $\mathbb{R}^{n_1}$ is never homeomorphic to an open subset in $\mathbb{R}^{n_2}$ if $n_1 \neq n_2$.
 
 =--
 
-The proof of theorem \ref{TopologicalInvarianceOfDimension} is surprisingly hard, given how obvious the statement seems intuitively. It requires tools from the field of _[[algebraic topology]]_ (notably [[Brouwer's fixed point theorem]] or [[topological K-theory]]).
+The proof of theorem \ref{TopologicalInvarianceOfDimension} is surprisingly hard, given how obvious the statement seems intuitively. It requires tools from the field of _[[algebraic topology]]_ (for example [[ordinary cohomology]], [[Brouwer's fixed point theorem]] or [[topological K-theory]]).
 
 
 
@@ -3720,9 +3720,9 @@ results again in a $T_n$ topological space, notably [[quotient space]] construct
 But at least for $T_0$, $T_1$ and $T_2$  there is a  universal way, called _[[reflective subcategory|reflection]]_ (prop. \ref{HausdorffReflection} below),
 to approximate any topological space "from the left" by a $T_n$ topological spaces.
 
-Hence if one wishes to work withing the [[full subcategory]] of the $T_n$
+Hence if one wishes to work within the [[full subcategory]] of the $T_n$
 among all [[topological space]], then the correct way to construct quotients and other _[[colimits]]_
-(see [below](#UniversalConstructions)) is to first construct them as usual for topological spaces,
+(see [below](#UniversalConstructions)) is to first construct them as usual [[quotient topological spaces]] (example \ref{QuotientTopologicalSpace}),
 and then apply the $T_n$-reflection to the result.
 
 
@@ -6535,4 +6535,3 @@ Disucssion of [[sober topological spaces]] is in
 See also
 
 * [[Topospaces]], a Wiki with basic material on topology.
-
