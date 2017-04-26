@@ -20,7 +20,7 @@
 
 ## Idea ##
 
-The _comma category_ of two [[functors]] $f : C \to E$ and $g : D \to E$ is like an [[arrow category]] of $E$ where all arrows have their [[source]] in the image of $f$ and their [[target]] in the image of $g$ (and the morphisms between arrows keep track of how these sources and targets are in these images). It is a kind of [[2-pullback]]: a directed refinement of the [[homotopy pullback]] of two functors between groupoids.
+The _comma category_ of two [[functors]] $f : C \to E$ and $g : D \to E$ is a [[category]] like an [[arrow category]] of $E$ where all arrows have their [[source]] in the image of $f$ and their [[target]] in the image of $g$ (and the morphisms between arrows keep track of how these sources and targets are in these images). It is a kind of [[2-pullback]]: a [[directed homotopy theory|directed]] refinement of the [[homotopy pullback]] of two functors between [[groupoids]].
 
 
 ## Definition
@@ -162,9 +162,13 @@ See at
 
 * [[functors and comma categories]]
 
+## Related concepts
 
-## Further reading ##
+* [[Quillen's theorem A]]
 
-[a low-tech description with several special cases identified in somewhat archaic terminology](http://tobybartels.name/notes/#comma)
+
+## References
+
+* [[Toby Bartels]], _[Comma categories](http://tobybartels.name/notes/#comma)_
 
 [[!redirects comma categories]]
