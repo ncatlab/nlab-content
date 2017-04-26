@@ -1351,20 +1351,14 @@ $$
 
 These satisfy:
 
-1. For all $S \in P(X)$ then  
-   $
-     S \subseteq I_E \circ V_E(S)
-   $ 
+1. For all $S \in P(X)$ then  $S \subseteq I_E \circ V_E(S)$.
 
 1. $I_E \circ V_E$ is [[idempotent]] and [[covariant functor|covariant]].
 
 
 and
 
-1. For all $T \in P(Y)$ then  
-   $
-     T \subseteq V_E \circ I_E(T)
-   $ 
+1. For all $T \in P(Y)$ then $T \subseteq V_E \circ I_E(T)$.
 
 1. $V_E \circ I_E$ is [[idempotent]] and [[covariant functor|covariant]].
 
