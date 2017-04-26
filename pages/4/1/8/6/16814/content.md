@@ -19,9 +19,9 @@
 
 ## Idea
 
-While a (left or right) [[adjoint]] to a [[functor]] may be understood as the best approximation (from one side or the other) of a possibly non-existent inverse, any pair of [[adjoint functors]] restricts to an [[equivalence of categories]] on [[subcategories]]. These subcategories are sometimes known as the _center_ of the adjunction, their objects are sometimes known as the [[fixed point of an endofunctor|fixed points]] of the adjunction.
+While a (left or right) [[adjoint]] to a [[functor]] may be understood as the best approximation (from one side or the other) of a possibly non-existent [[inverse]], any pair of [[adjoint functors]] restricts to an [[equivalence of categories]] on [[subcategories]]. These subcategories are sometimes known as the _center_ of the adjunction, their objects are sometimes known as the _fixed points_ of the adjunction.
 
-The [[equivalences of categories]] that arise from fixed points of adjunctions this way are often known as [[dualities]]. Examples include [[Pontrjagin duality]], [[Gelfand duality]], [[Stone duality]], and the [[Isbell duality]] between [[commutative rings]] and [[affine schemes]].
+The [[equivalences of categories]] that arise from fixed points of adjunctions this way are often known as [[dualities]]. Examples include _[[Pontrjagin duality]]_, _[[Gelfand duality]]_, _[[Stone duality]]_, and the _[[Isbell duality]]_ between [[commutative rings]] and [[affine schemes]].
 
 ## Definition
 
