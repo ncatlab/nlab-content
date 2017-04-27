@@ -261,7 +261,7 @@ Other terms are also in use, principally 'Tychonoff' for [[Tychonoff space|compl
 **($T_n$-reflection)**
 
 Let $n \in \{0,1,2\}$. Then for every [[topological space]] $X$ there exists
-a $T_n$-topological space $T_n X$ for  and a [[continuous function]]
+a $T_n$-topological space $T_n X$ and a [[continuous function]] of the forma
 
 $$
   t_n(X)
@@ -288,16 +288,18 @@ $$
   f = \tilde f \circ t_n(X)
   \;\colon\;
     X
-      \overset{h_X}{\longrightarrow}
+      \overset{t_n(X)}{\longrightarrow}
     T_n X
       \overset{\tilde f}{\longrightarrow}
     Y
   \,.
 $$
 
-Here $X \overset{t_n(X)}{\longrightarrow} T_n(X)$ may be called the _$T_n$-reflection_ of $X$.
-For $n = 0$ this is known as the _[[Kolmogorov quotient]]_ construction (see prop. \ref{KolmogorovQuotient} below). For $n = 2$
-it is known as _[[Hausdorff reflection]]_ or _Hausdorffication_ or similar.
+Here $X \overset{t_n(X)}{\longrightarrow} T_n(X)$ is called the _$T_n$-reflection_ of $X$.
+
+* For $n = 0$ this is known as the _[[Kolmogorov quotient]]_ construction (see prop. \ref{KolmogorovQuotient} below). 
+
+* For $n = 2$ this is known as _[[Hausdorff reflection]]_ or _Hausdorffication_ or similar.
 
 
 
@@ -312,21 +314,30 @@ $$
 such as to preserve [[composition]] of functions as well as [[identity functions]]:
 
 $$
-  T_n g \circ T_n f = T_n(g \circ f)
+  (T_n g) \circ (T_n f) = T_n(g \circ f)
   \phantom{AA}
   \,,
   \phantom{AA}
-  T_n id_X = id_{T_n X}
+  T_n (id_X) = id_{T_n X}
   \,
 $$
 
-Finally, the comparison map is compatible with this in that the follows [[commuting squares|squares commute]]:
+Finally, the comparison map is compatible with this in that for all continuous functions $f \colon X \to Y$ then 
+
+$$
+  t_n(Y) \circ f
+   =
+  T_n(f)\circ t_n(X)
+$$
+
+
+hence then follows [[commuting squares|squares commutes]]:
 
 $$
   \array{
       X &\overset{f}{\longrightarrow}& Y
       \\
-      {}^{\mathllap{h_X}}\downarrow && \downarrow^{\mathrlap{h_Y}}
+      {}^{\mathllap{t_n(X)}}\downarrow && \downarrow^{\mathrlap{t_n(Y)}}
       \\
       T_n X &\underset{T_n f}{\longrightarrow}& T_n Y
   }
@@ -335,6 +346,8 @@ $$
 
 
 =--
+
+We give a **proof** of the existence of this reflection below as the proof of prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces}.
 
 
 +-- {: .num_remark }
@@ -357,6 +370,52 @@ says that
      \,.
    $$
 
+Generally, an _[[adjoint functor|adjunction]]_ between two [[functors]] 
+
+$$
+  L \;\colon\; \mathcal{C} \leftrightarrow \mathcal{D} \;\colon\; R
+$$
+
+is for all pairs of objects $c \in \mathcal{C}$, $d \in \mathcal{D}$ a [[bijection]] between sets of [[morphisms]] of the form
+
+$$
+  \left\{
+     L(c) \longrightarrow d
+  \right\}
+  \simeq
+  \left\{
+    c \longrightarrow R(d)
+  \right\}
+  \,.
+$$
+
+i.e.
+
+$$
+  Hom_{\mathcal{D}}(L(c), d)
+  \underoverset{\simeq}{\phi_{c,d}}{\longrightarrow}
+  Hom_{\mathcal{C}}(c, R(d))
+$$
+
+and such that these bijections are "[[natural bijection|natural]]" in that they for all pairs of morphisms $f \colon c' \to c$ and $g \colon d \to d'$ then the folowing [[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    Hom_{\mathcal{D}}(L(c), d)
+      &\underoverset{\simeq}{\phi_{c,d}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c, R(d))
+    \\
+    {\mathllap{g \circ (-) \circ L(f)}}\downarrow 
+       &&
+    \downarrow{\mathrlap{ R(g) \circ (-) \circ f }}
+    \\
+    Hom_{\mathcal{C}}(L(c'), d')
+     &\underoverset{\simeq}{\phi_{c',d'}}{\longrightarrow}&
+    Hom_{\mathcal{D}}(c', R(d'))
+  }
+  \,.
+$$
+
 
 =--
 
@@ -365,6 +424,7 @@ There are various ways to see the existence and to construct the $T_n$-reflectio
 
 +-- {: .num_prop #HausdorffReflectionViaHomsIntoAllHausdorffSpaces}
 ###### Proposition
+**($T_n$-reflection via surjections into $T_n$-spaces)**
 
 Let $n \in \{0,1,2\}$. Let $(X,\tau)$ be a [[topological space]] and consider the [[equivalence relation]] $\sim$ on the underlying set $X$
 for which $x \sim y$ precisely if for every [[surjective function|surjective]] [[continuous function]] $f \colon X \to Y$ into any
@@ -408,7 +468,20 @@ equipped with its [[topological subspace|subspace topology]] as a subspace of $Y
 It follows by definition of $t_n(X)$ that the factorization exists at the level of sets as stated, 
 since if $x_1, x_2 \in X$ have the same [[equivalence class]] $[x_1] = [x_2]$ in $T_n X$, then 
 by definition they have the same image under all continuous surjective functions to a $T_n$-space, hence in particular
-under $X \to f(X)$. This means that $\tilde f$ as above is well defined.
+under $X \to f(X)$. This means that $\tilde f$ as above is well defined. Moreover, it is clear that this is the unique factorization.
+
+To see that $\tilde f$ is continuous, consider $U \in Y$ an open subset. We need to show that $\tilde f^{-1}(U)$ is open in $X/\sim$. But by definition of the [[topological quotient space|quotient topology]], this is open precisely if its pre-image under the quotient projection $t_n(X)$ is open, hence precisely if
+
+$$
+  (t_n(X))^{-1}(\tilde f^{-1}(U))
+  =
+  ( \tilde f \circ t_n(X) )^{-1}(U)
+  =
+  f(U)
+$$
+
+is open in $X$. But this is the case by the assumption that $f$ is continuous.
+
 
 What remains to be seen is that $T_n X$ as constructed is indeed a $T_n$-topological space. 
 Hence assume that $[x] \neq [y] \in T_n X$ are two distinct points. We need to open neighbourhoods
