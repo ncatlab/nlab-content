@@ -245,6 +245,11 @@ Other standard operations on categories include
 
 ## References
 
+The concept originates in
+
+* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], _General Theory of Natural Equivalences_,  Transactions of the American Mathematical Society
+Vol. 58, No. 2 (Sep., 1945), pp. 231-294 ([JSTOR](http://www.jstor.org/stable/1990284))
+
 The standard textbook is
 
 * [[Saunders MacLane]], _[[Categories Work|Categories for the working mathematician]]_
