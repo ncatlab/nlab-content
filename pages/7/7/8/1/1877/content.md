@@ -158,7 +158,7 @@ The two maps $\varphi_K \varphi_{K'}$ and $\psi \bar\psi'$ are contiguous.
 
 Before proving this, note that contiguity implies homotopy and that
 $\varphi_K \varphi_{K'}$ is homotopic to the identity map on $K_R$ after
-realisation, i.e., this proves the following modulo the proof of the proposition:
+realisation, i.e., this proves the following modulo the proof of the proposition (see addendum below):
 
 +-- {: .un_theorem}
 ###### Dowker's Theorem 
@@ -197,6 +197,27 @@ forms a simplex in $K_R$, i.e.
 $\varphi_K \varphi_{K'}$ and $\psi \bar \psi'$ are contiguous.
 
 =--
+
+**Addendum.** In the current form, it is difficult to see why $\bar\psi' \psi$ should be homotopic to the identity on $|L_R|$. Notice that this is a necessary step in proving the homotopy equivalence between $|K_R|$ and $|L_R|$. The purpose of this addendum is to make a slightly different claim which yields a homotopy equivalence between $|K_R|$ and $|L_R|$.
+
+From above, observe that we have maps $\bar\psi \varphi_{K'}:K_R'' \rightarrow L_R$ and $\varphi_L \bar\psi' : K_R'' \rightarrow L_R$. Dowker proves the following:
+
++-- {: .un_proposition}
+###### Proposition (Dowker 1952, Lemma 6, p. 89)
+
+The two maps $\bar\psi \varphi_{K'}$ and $\varphi_L \bar\psi'$ are contiguous.
+=--
+
+Thus upon passing to the geometric realization, we get that the realizations of the maps are homotopic, i.e. $|\bar\psi| \simeq |\bar\psi'|$. Notice that we are using the fact that $|\varphi_{K'}|$ and $|\varphi_L|$ are homotopic to the respective identity maps. 
+
+Thus we obtain $|\psi||\bar\psi'| \simeq |\psi||\bar\psi|$, and in particular, the latter composition is homotopic to the identity on $|K_R|$.
+
+By symmetric arguments, we obtain the following results:
+
+1. $\bar\psi \psi'$ and $\varphi_L \varphi_{L'}$ are contiguous.
+2. $\varphi_K \psi'$ and $\psi \varphi_{L'}$ are contiguous.
+
+Passing to the geometric realization, we get that $|\bar\psi| |\psi'|$ is homotopic to the identity on $|L_R|$, and also that $|\psi'|\simeq |\psi|$. Thus we see that $|\bar\psi||\psi|$ is homotopic to the identity on $|L_R|$. It follows that $|\psi|: |L_R| \rightarrow |K_R|$ is a homotopy equivalence, with $|\bar\psi|$ as its homotopy inverse. 
 
 
 ## References
