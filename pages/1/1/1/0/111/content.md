@@ -245,6 +245,8 @@ Other standard operations on categories include
 
 ## References
 
+(See also the references at _[[category theory]]_.)
+
 The concept originates in
 
 * {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], _General Theory of Natural Equivalences_,  Transactions of the American Mathematical Society
