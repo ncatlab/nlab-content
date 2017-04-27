@@ -71,7 +71,7 @@ Actually, this definition is slightly weaker than the previous one in the absenc
 Special cases of example \ref{RefinementOfSystemsOfSubsets} include refinement of [[filters]] and refinement of [[open covers]] of [[topological spaces]].
 
 
-Let $(X,\tau)$ be a [[topological space]], and let $\{U_i \subset X\}_{i \in I}}$ be a set of [[open subsets]] which [[cover|covers]] $X$ in that $\underset{i \in I}{\cup} U_i \;= \;X$.
+Let $(X,\tau)$ be a [[topological space]], and let $\{U_i \subset X\}_{i \in I}$ be a set of [[open subsets]] which [[cover|covers]] $X$ in that $\underset{i \in I}{\cup} U_i \;= \;X$.
 
 Then a _refinement_ of this open cover is a set of open subsets $\{V_j \subset X\}_{j \in J}$ which is still an [[open cover]] in itself and such that for each $j \in J$ there exists an $i \in I$ with $V_j \subset U_i$.
 
