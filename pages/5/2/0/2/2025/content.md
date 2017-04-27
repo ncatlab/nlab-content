@@ -336,6 +336,7 @@ From the first two properties, it follows that $Comp$ is a [[pretopos]], meaning
 
 * [[compact space]], [[locally compact space]].
 
+* [[paracompact Hausdorff space]]
 
 [[!redirects compactum]]
 [[!redirects compacta]]
