@@ -146,19 +146,33 @@ $$
 
 Assume first that $X$ is $T_0$. Then we need to show that if $x,y \in X$ are such that
 $Cl(\{x\}) = Cl(\{y\})$ then $x = y$. Hence assume that $Cl(\{x\}) = Cl(\{y\})$.
-Since the closure of a point is the [[complements]] of the union of the open subsets not containing the point,
+Since the closure of a point is the [[complement]] of the union of the open subsets not containing the point,
 this means that the union of open subsets that do not contain $x$
-is the same as the union of open subsets that do not contain $y$. Hence every
-open subset that does not contain $x$ also does not contain $y$, and vice versa.
-By $T_0$ this is not the case when $x \neq y$, hence it follows that $x = y$.
+is the same as the union of open subsets that do not contain $y$:
+
+$$
+  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{x\} } }{\cup} \left( U \right)
+  \;=\;
+  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{y\} } }{\cup} \left( U \right)
+$$
+
+But if the two points were distinct, $x \neq y$, then by $T_0$ one of the above unions would contain $x$ or $y$, while the other would not, in contradiction to the above equality. Hence we have a [[proof by contradiction]].
 
 Conversely, assume that if $x,y \in X$ are such that $Cl\{x\} = Cl\{y\}$ then $x = y$.
 We need to show that if $x \neq y$ then there exists an open neighbourhood around one of the
-two points not containing the other. Hence assume that $x \neq y$.
-By assumption it follows that $Cl(\{x\} \neq Cl(\{y\})$.
-Since the closure of a point is the [[complements]] of the union of the open subsets not containing the point, this
-means that there must be at least one open subset which contains $x$ but not $y$, or vice versa.
-By definition this means that $(X,\tau)$ is $T_0$.
+two points not containing the other. 
+
+Hence assume that $x \neq y$.
+By assumption it follows that $Cl(\{x\} \neq Cl(\{y\})$, hence that now
+
+$$
+  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{x\} } }{\cup} \left( U \right)
+  \;\neq\;
+  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{y\} } }{\cup} \left( U \right)
+ \,.
+$$
+
+This means that there must be at least one open subset which contains $x$ but not $y$, or vice versa.
 
 
 =--
