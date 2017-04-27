@@ -53,6 +53,8 @@ In [[propositional logic]], we fix a single context (considered the [[empty cont
 
 ## Related concepts
 
+* [[property]]
+
 * [[mere proposition]]
 
 * [[type of propositions]], [[bracket type]], [[h-proposition]]
