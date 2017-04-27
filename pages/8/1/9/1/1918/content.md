@@ -620,6 +620,7 @@ Immediately after this example of a non-Hausdorff space, [Tietze 23](#Tietze23) 
 
 * [[nice topological space]]
 
+* [[separation axioms in terms of lifting properties]]
 
 
 ## References
