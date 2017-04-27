@@ -94,7 +94,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[CW-complexes are Hausdorff]]
 
-* [[compact Hausdorff spaces are normal]]
+* [[compact Hausdorff spaces are normal|(para-)compact Hausdorff spaces are normal]]
 
 * [[continuous image of a compact space is compact]]
 
@@ -112,6 +112,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
   * [[sequentially compact metric spaces are totally bounded]]
 
+* [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
+
 ## Theorems
 
 * [[Tietze extension theorem]]
@@ -120,9 +122,9 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[Heine-Borel theorem]]
 
-* [[topological invariance of dimension]]
-
 * [[Brouwer's fixed point theorem]]
+
+* [[topological invariance of dimension]]
 
 * [[Jordan curve theorem]]
 
