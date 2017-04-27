@@ -1,30 +1,124 @@
-Assume first that $X$ is $T_0$. Then we need to show that if $x,y \in X$ are such that
-$Cl(\{x\}) = Cl(\{y\})$ then $x = y$. Hence assume that $Cl(\{x\}) = Cl(\{y\})$.
-Since the closure of a point is the [[complements]] of the union of the open subsets not containing the point,
-this means that the union of open subsets that do not contain $x$
-is the same as the union of open subsets that do not contain $y$. 
+
++-- {: .num_example #ZariskiClosedSubsetsInaffineViaGalois}
+###### Example
+**(Zariski closed subsets in affine space via Galois connection)**
+
+
+Let $k$ be a [[field]] and let $n \in \mathbb{N}$, and write $k[X_1, \cdots, X_n]$ for the [[polynomial ring]] over $k$  in $n$ [[variables]].  Define a [[relation]] 
 
 $$
-  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{x\} } }{\cup} \left( U \right)
+  E \hookrightarrow k[x_1, \ldots, x_n] \times k^n
+$$
+
+by 
+
+$$
+  E(f, x)\coloneqq \left( f(x) = 0\right)
+  \,.
+$$
+
+By def. \ref{GaloisConnection} and prop. \ref{GaloisConnectionAsAdjunction} we obtain the corresponding [[Galois connection]] of the form
+
+$$
+  P(k[X_1, \cdots, X_n])
+     \underoverset{\underset{V_E}{\longrightarrow}}{\overset{I_E}{\longleftarrow}}{\bot}
+  P(k^n)^{op}
+$$
+
+(where now $k[X_1, \cdots, X_n]$ and $k^n$ denote their underlying sets).
+
+Here by def. \ref{GaloisConnection} the function
+
+$$
+  V_E \;\colon\; P(k[x_1, \ldots, x_n]) \longrightarrow P(k^n)
+$$ 
+
+sends a set $\mathcal{F}$ of [[polynomials]]  to its corresponding *[[variety]]*, 
+
+$$
+  V_E(\mathcal{F}) = \{\vec x \in k^n \,\vert\, \forall_{f \in k[x_1, \ldots, x_n]} \; (f \in \mathcal{F}) \Rightarrow (f(x) = 0)\}
+  \,.
+$$
+
+These are just the Zariski closed subsets from def. \ref{ZariskiOpenSubsetsOnAffineSpace}.
+
+In the other direction, 
+
+$$
+  I_E \;\colon\; P(k^n) \longrightarrow P(k[x_1, \ldots, x_n])
+$$ 
+
+sends a set of points $T \subseteq k^n$ to its corresponding *[[vanishing ideal]]* 
+
+$$
+  I_E(T) = \{f \in k[x_1, \ldots, x_n] \,\vert\, \forall_{x: k^n} \; x \in T \Rightarrow f(x) = 0\}
+$$
+
+which we considered earlier in def. \ref{VanishingIdeal}.
+
+
+=--
+
+We may now use the abstract theory of Galois connections to verify that Zariski closed subsets form a [[topological space|topology]]:
+
++-- {: .num_prop }
+###### Proposition
+
+Using [[excluded middle]], then:
+
+The set of Zariski closed subsets of $k^n$ from example \ref{ZariskiClosedSubsetsInaffineViaGalois} constitutes a [[topological space|topology]] in that it is closed under
+
+1. arbitrary intersections;
+
+1. finite untions.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first point: From prop. \ref{GaloisConnectionAsAdjunction} we know that $V_E$ takes unions to intersections, hence that
+
+$$
+  \underset{i \in I}{\cap} V_E(\mathcal{F}_i) 
   \;=\;
-  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{y\} } }{\cup} \left( U \right)
+  V_E\left(
+    \underset{i \in I}{\cup} \mathcal{F}_i
+  \right)
+  \,.
 $$
 
-But if the two points were distinct, $x \neq y$, then by $T_0$ one of the above unions would contain $x$ or $y$, while the other would not, in contradiction to the above equality. Hence we have a [[proof by contradiction]].
+Regarding the second point, we exploit the [[commutative ring]] structure of $k[x_1, \ldots, x_n]$. It is sufficient to show that the set of Zariski closed sets is closed under the empty union and under binary unions.
 
-Conversely, assume that if $x,y \in X$ are such that $Cl\{x\} = Cl\{y\}$ then $x = y$.
-We need to show that if $x \neq y$ then there exists an open neighbourhood around one of the
-two points not containing the other. 
+The empty union is the entire space $k^n$, which is $V(1)$ (the variety associated with the constant polynomial $1$), 
 
-Hence assume that $x \neq y$.
-By assumption it follows that $Cl(\{x\} \neq Cl(\{y\})$, hence that now
+Hence it only remains to see closure under binary unions.
+
+To this end, recall from prop. \ref{GaloisClosureOperator} that we may replace $\mathcal{F}$ with the corresponding ideal
 
 $$
-  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{x\} } }{\cup} \left( U \right)
-  \;\neq\;
-  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{y\} } }{\cup} \left( U \right)
- \,.
+  I \coloneqq I_E \circ V_E(\mathcal{F})
+$$ 
+
+without changing the variety:
+
+$$
+  V_E(I) = V_E(\mathcal{F})
+  \,.
 $$
 
-This means that there must be at least one open subset which contains $x$ but not $y$, or vice versa.
+With this it is sufficient to show that
 
+$$
+  V_E(I) \cup V_E(I') = V(I \cdot I')
+$$ 
+
+where $I \cdot I'$ is the ideal consisting of finite sums of elements of the form $f g$ with $f \in I$ and $g \in I'$. 
+
+We conclude by proving this statement:
+
+Applying the contravariant operator $V_E$ to the inclusions $I \cdot I' \subseteq I$ and $I \cdot I' subseteq I'$ (which are clear since $I, I'$ are ideals), we derive $V_E(I) \subseteq V_E(I \cdot I')$ and $V_E(I') \subseteq V(I \cdot I')$, so the inclusion $V_E(I) \cup V_E(I') \subseteq V(I \cdot I')$ is automatic. 
+
+In the other direction, to prove $V(I \cdot I') \subseteq V_E(I) \cup V(I')$, suppose $x \in V(I \cdot I')$ and that $x$ *doesn't* belong to $V(I)$. Then $f(x) \neq 0$ for some $f \in I$. For every $g \in I'$, we have $f(x)g(x) = (f \cdot g)(x) = 0$ since $f \cdot g \in I \cdot I'$ and $x \in V_E(I \cdot I')$. Now divide by $f(x)$ to get $g(x) = 0$ for every $g \in I'$, so that $x \in V_E(I')$. 
+
+=-- 
