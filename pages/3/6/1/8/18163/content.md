@@ -1,0 +1,8 @@
+
+* [webpage](http://mishap.sdf.org/)
+
+## related $n$Lab entries
+
+* [[separation axioms in terms of lifting properties]]
+
+category: people
