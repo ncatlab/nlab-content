@@ -85,6 +85,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[Warsaw circle]]
 
+* [[Peano curve]]
 
 
 ## Basic statements
