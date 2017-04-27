@@ -1,7 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Manifolds and cobordisms
++-- {: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
 
-A _topological manifold_ is a [[manifold]] built from transition functions that are [[continuous functions]].
 
-One says _topological manifold_ to distinguish from other cases, such as [[smooth manifold]]s.
+A _topological manifold_ is a [[manifold]] whose [[transition functions]] that are plain [[continuous functions]].
+
+One says _topological manifold_ to distinguish from other cases, such as [[smooth manifolds]].
+
+See at _[[manifold]]_ for more.
 
 [[!redirects topological manifolds]]
