@@ -20,7 +20,17 @@ A [[cover]] which is locally a [[finite cover]].
 
 ## Definition
 
-A [[cover]] ([[open cover]]) $\{U_\alpha\}$ of a [[topological space]] $X$ is **locally finite** if for all $x\in X$, there is an neighbourhood $N \ni x$ such that $N \cap U_\alpha \neq \emptyset$ for only a finite number of $\alpha$.
++-- {: .num_defn }
+###### Definition
+**(locally finite cover)**
+
+Let $(X,\tau)$ be a [[topological space]].
+
+An [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finite_ if for all points $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only finitely many elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
+
+=--
+
+## Properties
 
 Any open cover defined by a (generalized) [[partition of unity]] has a locally finite shrinking. 
 
