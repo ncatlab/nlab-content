@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _topological property_ is a property of [[topological spaces]] which is [[invariant]] under _[[isomorphism]]_ of topological spaces, hence under [[homeomorphism]]: _homeomorphism invariant_.
+A _topological property_ is a [[property]]/[[predicate]] of [[topological spaces]] which is [[invariant]] under _[[isomorphism]]_ of topological spaces, hence under [[homeomorphism]]: _homeomorphism invariant_.
 
 
 ## Related concepts
