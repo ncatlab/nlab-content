@@ -1,15 +1,29 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The original "Peano (space-filling) curve" was a [[surjective]] [[continuous function]] $I \to I^2$, where $I = [0, 1]$ is the unit [[interval]]. The existence of such an entity (due to Peano) came as a surprise. 
+The original "Peano (space-filling) curve" is a _[[surjective]]_ [[continuous function]] $I \to I^2$, from the [[closed interval]] $I = [0, 1]$ to the [[product space|product]] with itself, the [[square]]. The existence of such an entity (due to Peano) came as a surprise. 
 
 One may characterize exactly which [[Hausdorff spaces]] arise as the continuous [[images]] of a unit interval. These are called *Peano spaces*. 
 
-One can similarly show that there is a continuous surjection $\mathbb{R}^1 \to \mathbb{R}^2$, and similarly characterize which spaces arise as continuous images of the real line. These are sometimes called *$\sigma$-Peano spaces*. 
+One can similarly show that there is a continuous surjection $\mathbb{R}^1 \to \mathbb{R}^2$ from the [[real line]] to the [[plane]] (both regarded as [[Euclidean spaces]] equipped with their [[metric topology]]), and similarly characterize which spaces arise as continuous images of the real line. These are sometimes called *$\sigma$-Peano spaces*. 
+
+Notice that, while of course there is also an injection $\mathbb{R} \to \mathbb{R}^2$, there is _no_ [[homeomorphism]] between these two spaces, or generally between [[Euclidean  spaces]] of differing [[dimension]]. This is the statement of _[[topological invariance of dimension]]_.
 
 ## Hahn-Mazurkiewicz theorem 
 
@@ -17,7 +31,7 @@ The eponymous theorem may be stated as follows:
 
 +-- {: .num_theorem} 
 ###### Theorem 
-A Hausdorff space $X$ admits a continuous surjection $f: I \to X$ if and only if it is a [[connected space|connected, locally connected]] [[compact space|compact]] [[metrizable space]]. 
+A [[Hausdorff space]] $X$ admits a [[continuous function|continuous]] [[surjection]] $f: I \to X$ from the [[closed interval]] $I$ if and only if it is a [[connected space|connected, locally connected]] [[compact space|compact]] [[metrizable space]]. 
 =-- 
 
 (N.B. According to the nLab, connected spaces are [[inhabited set|nonempty]]!) 
@@ -54,7 +68,7 @@ The proof of the Hahn-Mazurkiewicz theorem is given in section 31 (page 219ff) w
 
 The question of which spaces are continuous images of the real line was asked (and answered with dispatch by Jeff Strom) at MathOverflow: 
 
-* Todd Trimble (https://mathoverflow.net/users/2926/todd-trimble), continuous images of open intervals, URL (version: 2014-05-25): [https://mathoverflow.net/q/168084](https://mathoverflow.net/questions/168084/continuous-images-of-open-intervals) 
+* [[Todd Trimble]] (https://mathoverflow.net/users/2926/todd-trimble), continuous images of open intervals, URL (version: 2014-05-25): [https://mathoverflow.net/q/168084](https://mathoverflow.net/questions/168084/continuous-images-of-open-intervals) 
 
 [[!redirects Peano curves]]
 [[!redirects Peano space-filling curve]] 
