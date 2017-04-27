@@ -5,6 +5,10 @@
 +-- {: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
 =--
 =--
 
@@ -18,9 +22,9 @@
 <img src="https://ncatlab.org/nlab/files/ChartsOfAManifold.png" width="500"> 
 </div>
 
-A _manifold_ is a [[topological space]] which looks locally like a [[Cartesian space]], commonly a finite-dimensional Cartesian space $\mathbb{R}^n$ but possibly an infinite-dimensional [[topological vector space]]-
+A _manifold_ is a [[topological space]] which looks locally like a [[Cartesian space]], commonly a finite-dimensional Cartesian space $\mathbb{R}^n$, in which case one speaks of a _manifold of [[dimension]] $n$_ or _$n$-fold_, but possibly an infinite-dimensional [[topological vector space]], in which case one has an [[infinite-dimensional manifold]].
 
-What "locally looks like" means depends on what sort of structure we are considering a Cartesian space to embody. At one extreme, we can think of $\mathbb{R}^n$ as merely a [[topological space]]. Or, $\mathbb{R}^n$ may be considered as carrying more rigid types of structure, such as $C^k$-[[differential structure]], [[smooth structure]], piecewise-linear (PL) structure, real [[analytic function|analytic structure]], affine structure, hyperbolic structure, foliated structure, etc., etc. Accordingly we have notions of [[topological manifold]], [[differential manifold]], [[smooth manifold]], etc. By default these are modeled on finite [[dimension]]al spaces, but most notions have generalizations to a corresponding notion of [[infinite dimensional manifold]].
+What "locally looks like" means depends on what sort of structure we are considering a Cartesian space to embody. At one extreme, we can think of $\mathbb{R}^n$ as merely a [[topological space]]. Or, $\mathbb{R}^n$ may be considered as carrying more rigid types of structure, such as $C^k$-[[differential structure]], [[smooth structure]], piecewise-linear (PL) structure, real [[analytic function|analytic structure]], affine structure, hyperbolic structure, foliated structure, etc., etc. Accordingly we have notions of _[[topological manifold]]_, _[[differentiable manifold]]_, _[[smooth manifold]]_, _[[analytic manifold]]_ etc. By default these are modeled on [[finite number|finite]] [[dimension|dimensional]] spaces, but most notions have generalizations to a corresponding notion of [[infinite dimensional manifold]].
 
 > graphics grabbed from [[The Geometry of Physics - An Introduction|Frankel]]
 
