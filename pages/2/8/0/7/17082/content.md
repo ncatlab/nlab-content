@@ -62,7 +62,13 @@ from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles c
 
 (If this lift is unique, we say that $f$ is **[[orthogonal]]** $f \perp g$ to $g$.)
 
-##Related concepts
+## Examples
+
+* [[model category]]
+
+* [[separation axioms in terms of lifting properties]]
+
+## Related concepts
 
 * [[factorization system]]
 * [[homotopy lifting property]]
