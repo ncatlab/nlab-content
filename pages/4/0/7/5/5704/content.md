@@ -82,8 +82,8 @@ $$
 
 whose underlying function $f \colon X \longrightarrow Y$ is [[surjective function|surjective]]
 exhibits $\tau_Y$ as the corresponding [[quotient topological space|quotient topology]]
-precisely if $f$ sends open and $f$-[[saturated subsets]] in $X$ (def. \ref{SubsetSaturated}) to open subsets of $Y$.
-By lemma \ref{ComplementOfSaturatedSubsetIsSaturated} this is the case precisely if it sends
+precisely if $f$ sends open and $f$-[[saturated subsets]] in $X$ to open subsets of $Y$.
+By [this lemma](saturated+subset#ComplementOfSaturatedSubsetIsSaturated)  this is the case precisely if it sends
 closed and $f$-saturated subsets to closed subsets.
 
 =--
@@ -117,3 +117,6 @@ closed and $f$-saturated subsets to closed subsets.
 
 [[!redirects quotient topological space]]
 [[!redirects quotient topological spaces]]
+
+[[!redirects topological quotient space]]
+[[!redirects topological quotient spaces]]
