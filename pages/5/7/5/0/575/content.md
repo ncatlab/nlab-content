@@ -21,13 +21,13 @@ In [[order theory]] the term *Galois connection* (due to [Ore 44](#Ore44), who s
 
 The term _Galois correspondence_ is also in use. For some authors it is synonymous to "Galois connection", others reserve it for its restriction to its [[fixed point of an adjunction|fixed points]], where it becomes an [[adjoint equivalence]].
 
-The example that gives the concept its name is the relation between [[subgroups]] and [[subfields]] in [[Galois theory]] (see [below](#GaloisTheory)), but adjuntions between posets, hence Galois connections, appear also in many other and entirely different contexts, #see further [below](#Examples).
+The example that gives the concept its name is the relation between [[subgroups]] and [[subfields]] in [[Galois theory]] (see [below](#GaloisTheory)), but adjunctions between posets, hence Galois connections, appear also in many other and entirely different contexts, see further [below](#Examples).
 
 ## Definition
  {#Definition}
 
 
-Gven [[posets]] $A$ and $B$, a __Galois connection__ between $A$ and $B$ is a pair of order-reversing [[functions]] $f \colon A\to B$ and $g \colon B\to A$ such that $a\le g(f(a))$ and $b\le f(g(b))$ for all $a\in A$, $b\in B$.
+Given [[posets]] $A$ and $B$, a __Galois connection__ between $A$ and $B$ is a pair of order-reversing [[functions]] $f \colon A\to B$ and $g \colon B\to A$ such that $a\le g(f(a))$ and $b\le f(g(b))$ for all $a\in A$, $b\in B$.
 
 A **Galois correspondence** is a Galois connection which is an [[adjoint equivalence]] (so $a = g(f(a))$ and $b = f(g(b))$ for all $a \in A$, $b \in B$). 
 
@@ -199,7 +199,7 @@ These satisfy:
 
 1. For all $S \in P(X)$ then  $S \subset I_E \circ V_E(S)$.
 
-1. For all $S \in P(X)$ then $V_E \circ I_E \circ V_E (S)  =  V_E(S)
+1. For all $S \in P(X)$ then $V_E \circ I_E \circ V_E (S)  =  V_E(S)$.
 
 1. $I_E \circ V_E$ is [[idempotent]] and [[covariant functor|covariant]].
 
