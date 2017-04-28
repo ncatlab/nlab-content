@@ -1,4 +1,47 @@
 
+[[UrysohnConstruction.png:file]]
+
+<img src="https://ncatlab.org/nlab/files/UrysohnConstruction.png" width="400">
+
+Let $(X,\tau)$ be a [[normal topological space]] and let $A, B \subset X$ be two [[closed subsets]] which are disjoint
+
+$$
+  A \cap B = \emptyset
+  \,.
+$$
+
+Then for all $n \in \mathbb{N}$ and $ a \in \{0, \cdots, 2^n-1\}$ there exists [[open subsets]] $U_{a/2^n}, V_{a/2^n}$ such that 
+
+1. $U_{a/2^n} \supset A$ and $V_{a/2^n} \supset B$ (they are open neighbourhoods of $A$ and $B$, respectively)
+
+1. $U_{a/2^n} \cap V_{a/2^n} = \emptyset$ (they are disjoint at the same index value)
+
+1. if $a_1/2^{n_1} \lt a_2/2^{n_2}$ then 
+
+   $U_{a_1/2^{n_1}} \subset X \backslash V_{a_1/2^{n_1}} \subset U_{a_2/s^2^{n_2}}$
+
+
+
+Define
+
+$$
+  U(1) \coloneqq X \backlash B
+  \phantom{AAA}
+  V(1) \coloneqq X \backslash A
+$$
+
+By normality, we may find open neighbourhoods
+
+$$
+  U(1/2) \supset A
+  \phantom{AAA}
+  V(1/2) \supset B
+$$
+
+$$
+  A \subset U(1/2) \subset U(1)
+$$
+
 $\notin$
 
 {#TableOfMainSeparationAxioms}
