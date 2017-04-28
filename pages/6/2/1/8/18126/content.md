@@ -3732,7 +3732,7 @@ $Cl(\{x\}) = Cl(\{y\})$ then $x = y$. Hence assume that $Cl(\{x\}) = Cl(\{y\})$.
 Since the closure of a point is the [[complement]] of the union of the open subsets not containing the point
 (lemma \ref{UnionOfOpensGivesClosure}),
 this means that the union of open subsets that do not contain $x$
-is the same as the union of open subsets that do not contain $y$.
+is the same as the union of open subsets that do not contain $y$:
 
 $$
   \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{x\} } }{\cup} \left( U \right)
@@ -3820,6 +3820,7 @@ $\,$
 
 Clearly one may and does consider further variants of the
 separation axioms $T_0$, $T_1$ and $T_2$ from def. \ref{HausdorffTopologicalSpace}.
+We consider two more:
 
 
 +-- {: .num_defn #NormalSpace}
@@ -3871,7 +3872,9 @@ $$
 $$
 
 are immediate from the definitions. The remaining implication $T_3 \Rightarrow T_2$
-follows with prop. \ref{AllPointsClosedEquivalentToT1}.
+follows with prop. \ref{AllPointsClosedEquivalentToT1}: This says that by assumotion of $T_1$
+then all points in $(X.\tau)$ are closed, and with this the condition $T_2$ is manifestly
+a special case of the condition for $T_3$.
 
 =--
 
@@ -3879,6 +3882,115 @@ Hence instead of saying "$X$ is $T_1$ and ..." one could just as well phrase
 the conditions $T_3$ and $T_4$ as "$X$ is $T_2$ and ...", which would render
 the proof of prop. \ref{ImplicationsAmongTheSeparationAxioms} even more trivial.
 
+$\,$
+
+
++-- {: .num_lemma #PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
+###### Lemma
+**([[shrinking lemma]])**
+
+Let $X$ be a [[topological space]] which is [[normal topological space|normal]] (def. \ref{NormalSpace}) and let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]].
+
+Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that the [[topological closure]] $Cl(V_i)$ of its elements 
+(def. \ref{ClosedSubset}) is contained in the original patches:
+
+$$
+  \underset{i \in I}{\forall}
+  \left(
+     V_i \subset Cl(V_i) \subset U_i
+  \right)
+  \,.
+$$
+
+=--
+
+
+$\,$
+
+
+As before we have equivalent reformulations of the further separation axioms
+
+**Further separation axioms in terms of topological closures**
+
++-- {: .num_prop #T3InTermsOfTopologicalClosures}
+###### Proposition
+**($T_3$ in terms of topological closures)**
+
+A [[topological space]] $(X,\tau)$ is [[regular Hausdorff space]] (def. \ref{NormalSpace}), precisely if 
+all points are closed and for all [[closed subsets]] $x \in X$ with [[open neighbourhood]] $U \supset \{x\}$ there exists a smaller open neighbourhood $V \supset \{x\}$ whose [[topological closure]] $Cl(V)$ is still contained in $U$:
+
+$$
+  \{x\} \subset V \subset Cl(V) \subset U
+  \,.
+$$
+
+=--
+
+The **proof** of prop. \re{T3InTermsOfTopologicalClosures} is the direct  specialization of the following proof for prop. \ref{T4InTermsOfTopologicalClosures} to the case that $C = \{x\}$ (using that by $T_1$, which is part of the definition of $T_3$, the singleton subset is indeed closed by prop. \ref{T1InTermsOfClosureOfPoints}).
+
+
++-- {: .num_prop #T4InTermsOfTopologicalClosures}
+###### Proposition
+**($T_4$ in terms of topological closures)**
+
+A [[topological space]] $(X,\tau)$ is [[normal Hausdorff space]] (def. \refNormalSpace{}), precisely if all points are closed and for all [[closed subsets]] $C \subset X$ with [[open neighbourhood]] $U \supset C$ there exists a smaller open neighbourhood $V \supset C$ whose [[topological closure]] $Cl(V)$ is still contained in $U$:
+
+$$
+  C \subset V \subset Cl(V) \subset U
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In one direction, assume that $(X,\tau)$ is normal, and consider $C \subset U$. It follows that the [[complement]] of the open subset $U$ is closed and disjoint from $C$:
+
+$$
+  C \cap X \backslash U = \emptyset
+  \,.
+$$
+
+Therefore by assumption of normality of $(X,\tau)$, there exists open neighbourhoods $V \supset C$ and $W \supset X \backslash U$ with
+
+$$
+  V \cap W = \emptyset
+  \,.
+$$
+
+But this means that
+
+$$
+  V \subset X \backslash W
+$$
+
+and since the [[complement]] $X \backslash W$ of the open set $W$ is closed, it still contains the closure of $V$, so that we have
+
+$$
+  C \subset V \subset Cl(V) \subset X \backslash W \subset U
+  \,.
+$$
+
+In the other direction, assume that for every open neighbourhood $U \supset C$ of a closed subset $C$ there exists a smaller open neighbourhood $V$ with $C \subset V \subset Cl(V) \subset U$. Consider disjoint closed subsets $C_1, C_2 \subset X$. We need to produce disjoint open neighbourhoods for them.
+
+From their disjointness it follows that $X \backslash C_2 \supset C_1$ is an open neighbourhood. Hence by assumption there is an open neighbourhood $V$ with
+
+$$
+  C_1 \subset V \subset Cl(V) \subset X \backslash C_2
+  \,.
+$$
+
+Thus $V \supset C_1$ and $X \backslash Cl(X) \supset C_2$ are two disjoint open neighbourhoods, as required.
+
+=--
+
+
+
+
+$\,$
+
+$\,$
 
 In summary:
 
@@ -3887,11 +3999,12 @@ In summary:
 {#TableOfMainSeparationAxioms}
 | number | name | statement | reformulation |
 |--------|------|-----------|---------------|
-| $T_0$  | [[Kolmogorov topological space|Kolmogorov]] | given two distinct points, at least one of them has an open neighbourhood not containing the other point |  every irreducible closed subset is the closure of at most one point |
+| $T_0$  | [[Kolmogorov space|Kolmogorov]] | given two distinct points, at least one of them has an open neighbourhood not containing the other point |  every irreducible closed subset is the closure of at most one point |
 | $T_1$  |      | given two distinct points, both have an open neighbourhood not containing the other point | all points are closed |
 | $T_2$  | [[Hausdorff topological space|Hausdorff]] | given two distinct points, they have disjoint open neighbourhoods | the diagonal is a closed map  |
-| $T_3$  | [[regular Hausdorff topological space|regular Hausdorff]] |  all points are closed; and given two disjoint closed subsets, at least one of them has an open neighbourhood disjoint from the other closed subset |  |
-| $T_4$  | [[normal Hausdorff topological space|normal Hausdorff]] | all points are closed; and given two disjoint closed subsets, both of them have open neighbourhoods not intersecting the other closed subset |  |
+| $T_{\gt 2}$ |  |  $T_1$ and... | all points are closed and... |
+| $T_3$  | [[regular Hausdorff topological space|regular Hausdorff]] |  ...given two disjoint closed subsets, at least one of them has an open neighbourhood disjoint from the other closed subset | ...every neighbourhood of a point contains the closure of an open neghbourhood |
+| $T_4$  | [[normal Hausdorff topological space|normal Hausdorff]] | ...given two disjoint closed subsets, both of them have open neighbourhoods not intersecting the other closed subset | ...every neighbourhood of a closed set also contains the closure of an open neighbourhood |
 
 $\,$
 
@@ -5324,7 +5437,7 @@ $$
   \,.
 $$
 
-By the assumption that $Y$ is closed, the [[complement]] $X \backsalsh Y$ is an open subset of $X$, and therefore
+By the assumption that $Y$ is closed, the [[complement]] $X \backslash Y$ is an open subset of $X$, and therefore
 
 $$
   \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in I}
@@ -5781,6 +5894,254 @@ But the [[half-open interval]] $[0,2\pi)$ is not compact, and hence prop. \ref{C
 does not apply.
 
 =--
+
+
+
+
+
+
+
+
+
+## Paracompact spaces
+
+
++-- {: .num_defn #LocallyFiniteCover}
+###### Definition
+**([[locally finite cover]])**
+
+Let $(X,\tau)$ be a [[topological space]].
+
+An [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finite_ if for all point $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only finitely many elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
+
+=--
+
++-- {: .num_defn #RefinementOfOpenCovers}
+###### Definition
+**([[refinement]] of [[open covers]])
+
+
+Let $(X,\tau)$ be a [[topological space]], and let $\{U_i \subset X\}_{i \in I}$ be a [[open cover]].
+
+Then a _[[refinement]]_ of this open cover is a set of open subsets $\{V_j \subset X\}_{j \in J}$ which is still an [[open cover]] in itself and such that for each $j \in J$ there exists an $i \in I$ with $V_j \subset U_i$.
+
+=--
+
++-- {: .num_defn #ParacompactSpace}
+###### Definition
+**([[paracompact topological space]])**
+
+A [[topological space]] $(X,\tau)$ is called _[[paracompact topological space|paracompact]]_ if every [[open cover]] of $X$ has a [[refinement]] (def. \ref{RefinementOfOpenCovers}) by a [[locally finite open cover]] (def. \ref{LocallyFiniteCover}).
+
+=--
+
+The following says that if there exists a [[locally finite cover|locally finite]] [[refinement]] of a cover, then in fact there exists one with the same index set as the original cover. This will be useful in some of the proofs that follow.
+
++-- {: .num_lemma #LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}
+###### Lemma
+
+Let $(X,\tau)$ be a [[topological space]], let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]], and let $(\phi \colon J \to I), \{V_j \subset X\}_{j \in J})$, be a [[refinement]] to a [[locally finite cover]].
+
+Then  $\left\{ W_i \subset X \right\}_{i \in I}$ with
+
+$$
+  W_i
+    \;\coloneqq\;
+  \left\{
+    \underset{j \in \phi^{-1}(\{i\})}{\cup} V_j
+  \right\}
+$$
+
+is still a [[refinement]] of $\{U_i \subset X\}_{i \in I}$ to a [[locally finite cover]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+It is clear by construction that $W_i \subset U_i$, hence that we have a [[refinement]]. We need to show local finiteness.
+
+Hence consider $x \in X$. By the assumption that $\{V_j \subset X\}_{j \in J}$ is locally finite, it follows that there exists an [[open neighbourhood]] $U_x \supset \{x\}$ and a [[finite set|finitee]] [[subset]] $K \subset J$ such that
+
+$$
+  \underset{j \in J\backslash K}{\forall} \left( U_x \cap V_j = \emptyset \right)
+  \,.
+$$
+
+Hence by construction
+
+$$
+  \underset{I \in I\backslash \phi(K)}{\forall} \left( U_x \cap W_i = \emptyset \right)
+  \,.
+$$
+
+Since the [[image]] $\phi(K) \subset I$ is still a [[finite set]], this shows that $\{W_i \subset X\}_{i \in I}$ is locally finite.
+
+
+=--
+
+
+
+
+
+
+### Partitions of unity
+ {#PartitionsOfUnity}
+
+
++-- {: .num_defn #PartitionOfUnity}
+###### Definition
+**([[partition of unity]])**
+
+Let $(X,\tau)$ be a [[topological space]], and let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]]. Then a _[[partition of unity]] subordinate to the cover_ is
+
+* a [[set]] $\{f_i\}_{i \in I}$ of [[continuous functions]]
+
+  $$
+    f_i \;\colon\; U_i \longrightarrow [0,1]
+  $$
+
+  (where $U_i \subset X$ and $[0,1] \subset \mathbb{R}$ are equipped with their [[subspace topology]], the [[real numbers]] $\mathbb{R}$ is regarded as the 1-dimensional [[Euclidean space]] equipped with its [[metric topology]]);
+
+such that with
+
+$$
+  Supp(f_i) \coloneqq Cl\leff( f_i^{-1}( (0,1] ) \right)
+$$
+
+denoting the [[support]] of $f_i$ (the [[topological closure]] of the subset of points on which it does not vanish) then
+
+1. $\underset{i \in I}{\forall} \left( Supp(f_i) \subset U_i \right)$;
+
+1. $\left\{ Supp(f_i) \subset X \right\}_{i \in I}$  is a [[locally finite cover]] (def. \ref{LocallyFiniteCover});
+
+1. $\underset{x \in X}{\forall} \left(  \underset{i \in I}{\sum} f_i(x) = 1 \right)$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Due to the second clause in def. \ref{PartitionOfUnity}, the [[sum]] in the third clause involves only a [[finite number]] of elements not equal to zero, and therefore is well defined.
+
+=--
+
++-- {: .num_prop #ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}
+###### Proposition
+
+Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
+
+1. $(X,\tau)$ is a [[paracompact Hausdorff space]].
+
+1. Every [[open cover]] of $(X,\tau)$ admits a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}).
+
+=--
+
+
++-- {: .proof #OpenCoverOfParacompactHausdorffSpaceAdmitsPartitionOfUnityProof}
+###### Proof
+
+One direction is immediate: Assume that every open cover $\{U_i \subset X\}_{i \in I}$ admits a subordinate partition of unity $\{f_i\}_{i \in I}$. Then by definition (def. \ref{PartitionOfUnity}) $\{ Int(Supp(f)_i)  \subset X\}_{i \in I}$ is a locally finite open cover refining the original one.
+
+We need to show the converse: If $(X,\tau)$ is a [[paracompact topological space]], then for every [[open cover]] $\{U_i \subset X\}_{i \in I}$ there is a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}).
+
+To that end, first apply lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} to the given locally finite open cover $\{U_i \subset X\}$, to obtain a smaller locally finite open cover $\{V_i \subset X\}_{i \in I}$, and then apply the lemma once more to that result to get a yet small open cover  $\{W_i \subset X\}_{i \in I}$, so that now
+
+$$
+  \underset{i \in I}{\forall}
+  \left(
+     W_i \subset Cl(W_i) \subset V_i \subset Cl(V_i) \subset U_i
+  \right)
+  \,.
+$$
+
+It follows that for each $i \in I$ we have two disjoint [[closed subsets]], namely the [[topological closure]] $Cl(W_i)$ and the [[complement]] $X \backslash V_i$
+
+$$
+  Cl(W_i) \cap X\backslash V_i = \emptyset
+  \,.
+$$
+
+Now since [[paracompact Hausdorff spaces are normal]], [[Urysohn's lemma]] says that there exist [[continuous functions]]
+
+$$
+  h_i \;\colon\; X \longrightarrow [0,1]
+$$
+
+with the property that
+
+$$
+  h_i( Cl(W_i) ) = \{1\}
+  \,,
+  \phantom{AAA}
+  h_i( X \backslash V_i ) = \{0\}
+  \,.
+$$
+
+This means in particular that $h_i^{-1}((0,1]) \subset V_i$ and hence that
+
+$$
+  Supp(h_i) =  Cl(h_i^{-1}((0,1])) \subset Cl(V_i) \subset U_i
+  \,.
+$$
+
+By construction, the set of function $\{h_i\}_{i \in I}$ already satisfies two of the three conditions on a partition of unity subordinate to $\{U_i \subset X\}_{i \in I}$ from def. \ref{PartitionOfUnity}.
+It just remains to normalize these functions so that they indeed sum to unity. To that end, consider the continuous function
+
+$$
+  h \;\colon\; X \longrightarrow [0,1]
+$$
+
+defined on $x \in X$
+
+$$
+  h(x) \coloneqq \underset{i \in I}{\sum} h_i(x)
+  \,.
+$$
+
+Notice that the [[sum]] on the right has only a [[finite number]] of non-zero summands, due to the local finiteness of the cover, so that this is well-defined.
+
+
+Then set
+
+$$
+  f_i \;\coloneqq\;  g_i/g
+  \,.
+$$
+
+This is now manifestly such that $\underset{i \in I}{\sum} f_i = 1$, and so
+
+$$
+  \left\{
+     f_i
+  \right\}_{i \in I}
+$$
+
+is a partition of unity as required.
+
+
+=--
+
+
+
+
+
+
+
+### Manifolds
+
+* [[topological manifold]]
+
+* [[smooth manifold]]
+
+* [[tangent space]]
+
+* [[tangent bundle]]
+
+* [[frame bundle]]
+
+* [[G-structure]]
 
 
 
@@ -6659,6 +7020,9 @@ For the next section see _[[Introduction to Topology -- 2|Secton 2 -- Basic homo
 $\,$
 
 ***
+
+
+
 
 
 ## References
