@@ -30,33 +30,42 @@ In particular [[compact Hausdorff spaces are normal]].
 +-- {: .proof}
 ###### Proof
 
-In one direction, let $(X,\tau)$ be a paracompact Hausdorff space, let $x \in X$ be a point, and let $C \subset X$ be a [[closed subset]] not containing $x$. We need to find disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_C \supset C$.
+Let $(X,\tau)$ be a paracompact Hausdorff space
 
-First of all, by the Hausdorff property there exists for each $c \in C$ disjoint open neighbourhods $U_{x_{c}} \supset \{x\}$ and $U_c \supset \{c\}$. As $c$ ranges, the latter clearly form an open cover $\{U_c \subset X\}_{c \in C}$ of $C$, and so
+We first show that it is [[regular topological space|regular]]: To that end,
+let $x \in X$ be a point, and let $C \subset X$ be a [[closed subset]] not containing $x$. We need to find disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_C \supset C$.
+
+First of all, by the Hausdorff property there exists for each $c \in C$ disjoint open neighbourhods $U_{x,c} \supset \{x\}$ and $U_c \supset \{c\}$. As $c$ ranges, the latter clearly form an open cover $\{U_c \subset X\}_{c \in C}$ of $C$, and so
 
 $$
   \{U_c \subset X\}_{c \in C} \cup X \backslash C
 $$
 
-is an open cover of $X$. By paracompactness of $(X,\tau)$, there exists a locally finite refinement of $X$, and by [this lemma](locally+finite+cover#LocallyFiniteRefinementImpliesLocallyFiniteCoverWithOriginalIndexSet) we may assume its elements to share the original index set and be containd in the original elements
+is an open cover of $X$. By paracompactness of $(X,\tau)$, there exists a locally finite refinement of $X$, and by [this lemma](locally+finite+cover#LocallyFiniteRefinementImpliesLocallyFiniteCoverWithOriginalIndexSet) we may assume its elements to share the original index set and be contained in the original elements. We discard all the elements of this refinement that do not intersect $C$ and this obtain a locally finite collection of open subsets
 
 $$
- \{V_c \subset U_c \subset  X\}_{c \in C} \cup \{V_{X \backslash C} \subset X\}
+  \{V_c \subset U_c \subset  X\}_{c \in C' \subset C}
+$$
+
+with 
+
+$$
+  C \subset \underset{c \in C}{\cup} V_c
+  \;\,,
+  \;\;\;
+  \underset{c \in C'}{\forall} ( C \cap V_c \neq \emptyet)
+$$
+
+By definition this means that there exists an open neighbourhood $W_x \supset \{x\}$ and a finite subset $K \subset C'$ such that 
+$\underset{c \in C \backslash K}{\forall}( W_x \cap V_c = \emptyset )$ while $\underset{k \in K \subset C}{\forall}( W_x \cap V_k \neq \emptyset )$. 
+
+For each $k \in K$ choose a point
+
+$$
+  c_k \in C \cap V_k
   \,.
 $$
 
-
-By intersecting the elements of this refinement with $C$, this yields a locally finite subcover $\{V_j \cap C \subset C\}_{j \in J}$ of $C$.
-
-By definition this means that there exists an open neighbourhood $W_x \supset \{x\}$ and a finite subset $K \subset J$ such $\underset{j \in J \backslash K}{\forall}( W_x \cap (V_j \cap C) = \emptyset )$ while $\underset{j \in K \subset J}{\forall}( W_x \cap (V_j \cap C) \neq \emptyset )$. Hence we may choose points
-in these non-empty intersections:
-
-$$
-  \left\{
-     c_k \in W_x \cap (V_k \cap C)
-  \right\}_{k \in K}
-  \,.
-$$
 
 Consider then 
 
@@ -82,17 +91,30 @@ $$
   \,.
 $$
 
-These are open neighbourhoods of $\{x\}$ and of $C$, respectively, as they are the finite intersection and union, respectively of open sets. Also these are disjoint,
+These are clearly open neighbourhoods of $\{x\}$ and of $C$, respectively. Moreover they are disjoint,
 
 $$
   U_x \cap U_C = \emptyset
   \,.
 $$
 
-This is because only finitely many of the $V_i$ intersect $W$, by local finiteness, and those that do are the $V_{c_k} \subset U_{c_k}$ which by construction are each disjoint from $U_x$.
+This is because only finitely many of the $V_i$ intersect $W_x$, by local finiteness, and those that do are the $V_{c_k} \subset U_{c_k}$ which by construction are each disjoint from $U_x$.
 
-In the other direction... 
+This estabishes that $(X,\tau)$ is regular. Now we prove that it is normal.
 
+To this end, let now $C_1, C_2 \subset X$ be two disjoint closed subsets. We need to find disjoint open neighbourhoods for them.
+
+By the previous discussion of regularity, we have for every $c \in C_1$ disjoint open beighbourhoods $U_{c} \supset \{c\}$ and U_{C_2,c}) \subset C_2$. Hence
+
+$$
+  \left\{
+     U_c \subset X
+  \right\}_{c \in C_1}
+  \cup
+  X \backslash C
+$$
+
+is an open  cover of $X$.
 
 =--
 
