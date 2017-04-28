@@ -13,16 +13,42 @@
 * table of contents
 {:toc}
 
+## Idea
+
+_Urysohn's lemma_ (prop. \ref{UrysohnLemma} below) states that on a [[normal topological space]] disjoint [[closed subsets]] may be separated by [[continuous functions]] in the sense that a continuous function exists which takes value 0 on one of the two subsets and value 1 on the other (called an "Urysohn function", def. \ref{UrysohnFunction}) below. In fact the  existence of such functions is equivalent to a space being normal (remark \ref{Equivalence} below).
+
+Urysohn's lemma is a key ingredient for instance in the proof of the [[Tietze extension theorem]] and in the proof of the existence of [[partitions of unity]] on [[paracompact topological spaces]].  See the list of implications [below](#Implications).
 
 ## Statement
 
++-- {: .num_defn #UrysohnFunction}
+###### Definition
+**(Urysohn function)**
 
-*Urysohn's lemma* is the following assertion, due to [[Pavel Urysohn]]. 
+Let $X$ be a [[topological space]], and let $A,B \subset X$ be disjoint [[closed subsets]]. Then an _Urysohn function_ for this situation is 
+
+* a [[continuous function]] $f \colon X \to [0,1]$
+
+to the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]], that takes the value 0 on $A$ and the value 1 on $B$:
+
+$$
+  f(A) = \{0\}
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  f(B) = \{1\}
+  \,.
+$$ 
+
+=--
+
+
 
 +-- {: .num_prop #UrysohnLemma} 
 ###### Proposition
+**(Urysohn's lemma)**
 
-Let $X$ be a [[normal topological space|normal]] (or $T_4$) [[topological space]], and let $C, D \subset X$ be two disjoint [[closed subsets]] of $X$. Then there exists a [[continuous function]] $f: X \to [0, 1]$ such that $f(x) = 0$ for all $x \in C$ and $f(x) = 1$ for all $x \in D$. 
+Let $X$ be a [[normal topological space|normal]] (or $T_4$) [[topological space]], and let $A,B \subset X$ be two disjoint [[closed subsets]] of $X$. Then there exists an Urysohn function (def. \ref{UrysohnFunction}).
 
 
 =-- 
@@ -30,18 +56,174 @@ Let $X$ be a [[normal topological space|normal]] (or $T_4$) [[topological space]
 +-- {: .num_remark}
 ###### Remark
 
-Beware that the function in prop. \ref{UrysohnLemma} may take the values 0 or 1 even outside of the two subsets. The condition that the function takes value 0 or 1, respectively, precisely on the two subsets corresponds to _[[perfectly normal spaces]]_.
+Beware that the function in prop. \ref{UrysohnLemma} may take the values 0 or 1 even outside of the two subsets. The condition that the function takes value 0 or 1, respectively, _precisely_ on the two subsets corresponds to _[[perfectly normal spaces]]_.
 
 =--
 
-## Related statement
++-- {: .num_remark #Equivalence}
+###### Remark
+
+It is immediate that, conversely, the existence of an Urysohn function (def. \ref{UrysohnFunction}) implies that the topological space is [[normal topological space|normal]]. For let $A, B \subset X$ be disjoint closed subsets, and consider a continuous function $f \colon X \to [0,1]$ with $f(A) = \{0\}$ and $f(B) = \{1\}$ then 
+
+$$
+  U_A \coloneqq f^{-1}([0,1/3)
+  \phantom{AAA}
+  U_B \coloneqq f^{-1}((2/3,1])
+$$
+
+are disjoint open neighbourhoods of these subsets. 
+
+Hence Urysohn's lemma shows that a topological space being normal is _equivalent_ to it admitting Urysohn functions.
+
+=--
+
+## Proof
+
++-- {: .proof}
+###### Proof
+of Urysohn's lemma, prop. \ref{UrysohnLemma}
+
+
+Set
+
+$$
+  C_0 \coloneqq A
+  \phantom{AAA}
+  U_1 \coloneqq X \backslash B
+  \,.
+$$
+
+Since by assumption
+
+$$
+  A \cap B = \emptyset
+  \,.
+$$
+
+we have 
+
+$$
+  C_0 \subset U_1
+  \,.
+$$
+
+Notice that (by [this lemma](separation+axioms#T4InTermsOfTopologicalClosures)) if a space is normal then every open neighbourhood $U \supset C$ of closed subset $C$ contains a smaller neighbourhood $V$ together with its closure $Cl(V)$
+
+$$
+  U \subset V \subset Cl(V) \subset C
+  \,.
+$$
+
+Apply this fact successively to the above situation to obtain the following infinite sequence of nested open subsets $U_r$ and closed subsets $C_r$
+
+$$
+  \array{
+    C_0 &&  &&  &&  &\subset&  &&  &&  && U_1
+    \\
+    C_0 &&  &\subset&  && U_{1/2} &\subset& C_{1/2} &&  &\subset&  && U_1
+    \\
+    C_0 &\subset& U_{1/4} &\subset& C_{1/4} &\subset& U_{1/2} &\subset& C_{1/2} &\subset& U_{3/4} &\subset& C_{3/4} &\subset& U_1
+  }
+$$
+
+and so on, labeled by the [[dyadic rational numbers]]
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/UrysohnConstruction.png" width="400">
+</div>
+
+
+$$
+ \{ U_{r} \subset X \}_{r \in \mathbb{Q}_{dy}}
+$$
+
+with the property that 
+
+$$
+  \underset{r \in \mathbb{Q}_{dy}}{\forall}
+  \left(
+     A \subset U_r \subset X\backslash B
+  \right)
+$$
+
+and
+
+$$
+  \left(
+     r_1 \lt r_2
+  \right)
+   \Rightarrow
+  \left(
+     \left(U_{r_1} \subset U_{r_2}\right)
+     \,\text{and}\,
+     \left(
+      U_1 \neq U_2
+     \right)
+  \right)
+  \,.
+$$
+
+Define then the function
+
+$$
+  f \;\colon\; X \longrightarrow [0,1]
+$$
+
+to assign to a point $x \in X$ the [[infimum]] of the labels of those open subsets in this sequence that contain $x$:
+
+$$
+  f(x) 
+     \coloneqq
+  inf\left\{ r \,\vert\,  x\in U_r \right\}
+$$
+
+
+This function clearly has the property that $f(A) = \{0\}$  and $f(B) = \{1\}$. It only remains to see that it is continuous.
+
+Observe that for $\alpha \in [0,1]$ then
+
+$$
+  f^{-1}((\alpha, 1])
+    =
+  \underset{r \gt \alpha}{\cup} U_r
+$$
+
+and
+
+$$
+  f^{-1}([0,\alpha))
+    =
+  \underset{r \lt \alpha}{\cup} U_r
+$$
+
+These are open subsets. Now every [[topological basis|basic]] open subset of $[0,1]$ is a finite intersection of those of the form $[0,\alpha)$ and $(\alpha, 1]$, and hence all pre-images undr $f$ of these are open. Therefore $f$ is continuous.
+
+
+=--
+
+
+
+
+## Implications
+ {#Implications}
+
+Urysohn's lemma is key in the proof of many other theorems, for instance
 
 * [[Tietze extension theorem]]
+
+* [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
+
+## Related statements
+
 
 * [[paracompact Hausdorff spaces are normal]]
 
 
 ## References
+
+Due to [[Pavel Urysohn]].
+
+* [[Terence Tao]], _[245B, Notes 12: Continuous functions on locally compact Hausdorff spaces](https://terrytao.wordpress.com/2009/03/02/245b-notes-12-continuous-functions-on-locally-compact-hausdorff-spaces/#more-1844)_
 
 * [Proof at planetmath](http://planetmath.org/proofofurysohnslemma)
 
