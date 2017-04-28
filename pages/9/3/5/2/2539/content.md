@@ -31,7 +31,7 @@ The _Tietze extension theorem_ says that [[continuous function]]s extend from [[
 +-- {: .num_theorem}
 ###### Theorem
 
-For $X$ a [[normal topological space]] and $A \subset X$ a [[closed subset]], there is for every [[continuous function]] $f  A \to \mathbb{R}$ to the [[real line]] a continuous function $F \colon X \to \mathbb{R}$ extending it, i.e. such that $F|_A = f$.
+For $X$ a [[normal topological space]] and $A \subset X$ a [[closed subset]], there is for every [[continuous function]] $f \colon A \to \mathbb{R}$ to the [[real line]] a continuous function $F \colon X \to \mathbb{R}$ extending it, i.e. such that $F|_A = f$.
 
 =--
 
