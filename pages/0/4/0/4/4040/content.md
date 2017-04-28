@@ -116,6 +116,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 ## Theorems
 
+* [[Urysohn's lemma]]
+
 * [[Tietze extension theorem]]
 
 * [[Tychonoff theorem]]
