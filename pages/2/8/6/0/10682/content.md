@@ -1,9 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Statement
+
+
 *Urysohn's lemma* is the following assertion, due to [[Pavel Urysohn]]. 
 
-+-- {: .num_theorem} 
-###### Theorem 
-Let $X$ be a [[separation axiom|normal]] (or $T_4$) [[topological space|space]], and let $C, D$ be two disjoint [[closed sets]] of $X$. Then there exists a [[continuous function]] $f: X \to [0, 1]$ such that $f(x) = 0$ for all $x \in C$ and $f(x) = 1$ for all $x \in D$. 
++-- {: .num_prop #UrysohnLemma} 
+###### Proposition
+
+Let $X$ be a [[normal topological space|normal]] (or $T_4$) [[topological space]], and let $C, D$ be two disjoint [[closed subsets]] of $X$. Then there exists a [[continuous function]] $f: X \to [0, 1]$ such that $f(x) = 0$ for all $x \in C$ and $f(x) = 1$ for all $x \in D$. 
+
+
 =-- 
+
++-- {: .num_remark}
+###### Remark
+
+Beware that the function in prop. \ref{UrysohnLemma} may take the values 0 or 1 even outside of the two subsets. The condition that the function takes value 0 or 1, respectively, precisely on the two subsets corresponds to _[[perfectly normal spaces]]_.
+
+=--
+
+
+
 
 ## References
 
