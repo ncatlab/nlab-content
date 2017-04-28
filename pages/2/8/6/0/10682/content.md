@@ -22,7 +22,7 @@
 +-- {: .num_prop #UrysohnLemma} 
 ###### Proposition
 
-Let $X$ be a [[normal topological space|normal]] (or $T_4$) [[topological space]], and let $C, D$ be two disjoint [[closed subsets]] of $X$. Then there exists a [[continuous function]] $f: X \to [0, 1]$ such that $f(x) = 0$ for all $x \in C$ and $f(x) = 1$ for all $x \in D$. 
+Let $X$ be a [[normal topological space|normal]] (or $T_4$) [[topological space]], and let $C, D \subset X$ be two disjoint [[closed subsets]] of $X$. Then there exists a [[continuous function]] $f: X \to [0, 1]$ such that $f(x) = 0$ for all $x \in C$ and $f(x) = 1$ for all $x \in D$. 
 
 
 =-- 
@@ -34,12 +34,18 @@ Beware that the function in prop. \ref{UrysohnLemma} may take the values 0 or 1 
 
 =--
 
+## Related statement
 
+* [[Tietze extension theorem]]
+
+* [[paracompact Hausdorff spaces are normal]]
 
 
 ## References
 
 * [Proof at planetmath](http://planetmath.org/proofofurysohnslemma)
+
+* Wikipedia, _[Urysohn's lemma](https://en.wikipedia.org/wiki/Urysohn%27s_lemma)_
 
 Lectures notes include 
 
