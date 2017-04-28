@@ -7,9 +7,20 @@
 
 The term "support" means different things in different parts of mathematics:
 
-### In analysis and cohomology
+### In set theory
 
-Given $f : X \to A$ some quantity (a [[function]] or more generally some [[cocycle]]) and for $A$ a [[pointed object]] with the point playing the role of a [[zero]] [[generalized element|element]], the _support_ of $f$ is the [[subobject]] of $X$ on which $f$ is non-zero.
+Given $f \colon X \to A$ a [[function]] to  $A$ a [[pointed object]] with the point playing the role of a [[zero]] [[generalized element|element]], then the _support_ of $f$ is the [[subobject]] of $X$ on which $f$ is non-zero.
+
+### In topology
+
+In [[topology]] the support of a [[continuous function]] $f \colon X \to A$ as above is usually taken to be the [[topological closure]] of the set of point on which $f$ vanishes
+
+$$
+  Supp(f) = Cl(\{x \in X \vert f(x) \neq 0 \in A\})
+  \,.
+$$
+
+
 
 ### In topos theory and type theory
 
@@ -22,3 +33,7 @@ support = [[n-truncated object in an (infinity,1)-category|(-1)-truncation]]
 * [[compactly supported cohomology]]
 
 * [[split support]]
+
+## References
+
+* Wikipedia, _[Support (mathematics)](https://en.wikipedia.org/wiki/Support_(mathematics))_
