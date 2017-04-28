@@ -40,7 +40,9 @@ What this means is that the open sets $u_j^{-1}(0,1]$ form an open cover _refini
 
 ## Properties
 
-[[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
+### Relation to locally finite open covers
+
+* [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
 
 [[Normal spaces]] have the property that every [[locally finite cover]] has a subordinate partition of unity.
 
