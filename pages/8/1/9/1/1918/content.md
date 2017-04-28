@@ -683,3 +683,15 @@ See also the entry
 [[!redirects T_1 topological spaces]]
 [[!redirects T_1-topological space]]
 [[!redirects T_1-topological spaces]]
+
+[[!redirects normal topological space]]
+[[!redirects normal topological spaces]]
+[[!redirects normal space]]
+[[!redirects normal spaces]]
+
+
+[[!redirects perfectly normal topological space]]
+[[!redirects perfectly normal topological spaces]]
+[[!redirects perfectly normal space]]
+[[!redirects perfectly normal spaces]]
+
