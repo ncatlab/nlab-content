@@ -94,7 +94,7 @@ Due to the second clause in def. \ref{PartitionOfUnity}, the [[sum]] in the thir
 
 ## Proof
 
-The non-trivial direction to show is:
+The non-trivial direction to be shown is:
 
 +-- {: .num_prop}
 ###### Proposition
