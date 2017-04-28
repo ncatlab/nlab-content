@@ -251,7 +251,7 @@ $$f^{-1}(p) \subseteq B_1 \cup \ldots \cup B_n \subseteq f^{-1}(U).$$
 Put $C = B_1 \cup \ldots \cup B_n$. The first inclusion is equivalent to $p \in \forall_f(C)$ by the adjunction $f^{-1} \dashv \forall_f$. The second inclusion implies $\forall_f(C) \subseteq \forall_f f^{-1}(U) = U$, where the equality $\forall_f f^{-1} = id$, equivalent to $\exists_f f^{-1} = id$, follows from surjectivity of $f$. Thus we have shown $\forall_f(\mathcal{C})$ is a base. 
 =-- 
 
-The converse of this lemma is the celebrated Hahn-Mazurkiewicz theorem: 
+The converse of this lemma is the celebrated [[Hahn-Mazurkiewicz theorem]]: 
 
 +-- {: .num_theorem} 
 ###### Theorem 
