@@ -28,6 +28,8 @@ Interestingly, (2) cannot be interpreted as a [[locale|localic]] group, although
 * **rational number**
 
   * a finite [[field extension]] of $\mathbb{Q}$ is called a _[[number field]]_
+
+  * [[dyadic rational number]]
    
 * [[algebraic number]]
 * [[Gaussian number]]
