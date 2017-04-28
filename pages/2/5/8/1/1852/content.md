@@ -68,6 +68,10 @@ The class of normal spaces was introduced by Tietze (1923) and Aleksandrov--Urys
 [[!redirects Normal space]]
 [[!redirects Normal spaces]]
 
+[[!redirects normal topological space]]
+[[!redirects normal topological spaces]]
+
+
 [[!redirects T4 space]]
 [[!redirects T4 spaces]]
 [[!redirects T4-space]]
@@ -94,8 +98,6 @@ The class of normal spaces was introduced by Tietze (1923) and Aleksandrov--Urys
 [[!redirects normal regular space]]
 [[!redirects normal regular spaces]]
 
-[[!redirects normal topological space]]
-[[!redirects normal topological spaces]]
 
 [[!redirects normal locale]]
 [[!redirects normal locales]]
