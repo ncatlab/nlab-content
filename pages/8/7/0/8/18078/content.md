@@ -10,39 +10,19 @@ $$
   \,.
 $$
 
-Then for all $n \in \mathbb{N}$ and $ a \in \{0, \cdots, 2^n-1\}$ there exists [[open subsets]] $U_{a/2^n}, V_{a/2^n}$ such that 
-
-1. $U_{a/2^n} \supset A$ and $V_{a/2^n} \supset B$ (they are open neighbourhoods of $A$ and $B$, respectively)
-
-1. $U_{a/2^n} \cap V_{a/2^n} = \emptyset$ (they are disjoint at the same index value)
-
-1. if $a_1/2^{n_1} \lt a_2/2^{n_2}$ then 
-
-   $U_{a_1/2^{n_1}} \subset X \backslash V_{a_1/2^{n_1}} \subset U_{a_2/s^2^{n_2}}$
-
-
-
-Define
+Set
 
 $$
-  U(1) \coloneqq X \backlash B
+  C_1 \coloneqq A
   \phantom{AAA}
-  V(1) \coloneqq X \backslash A
+  U_0 \coloneqq X \backslash B
+  \,.
 $$
 
-By normality, we may find open neighbourhoods
+Then by [this lemma](separation+axioms#T4InTermsOfTopologicalClosures)
 
-$$
-  U(1/2) \supset A
-  \phantom{AAA}
-  V(1/2) \supset B
-$$
 
-$$
-  A \subset U(1/2) \subset U(1)
-$$
 
-$\notin$
 
 {#TableOfMainSeparationAxioms}
 | number | name | statement | reformulation |
