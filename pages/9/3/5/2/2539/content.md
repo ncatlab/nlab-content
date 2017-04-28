@@ -92,6 +92,8 @@ defines an element in $C^\infty(\mathbb{R}^n)/I$.
 
 ## Related theorems
 
+* [[Urysohn's lemma]]
+
 * the [[Hadamard lemma]]
 
 * [[Borel's theorem]]
