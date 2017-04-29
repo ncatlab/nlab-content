@@ -22,17 +22,17 @@ These axioms are all of the form of saying that two subsets (of certain forms) i
 
 In this fashion one may impose a hierarchy of stronger axioms. For example demanding that given two distinct points, then each of them is contained in some open subset not containing the other ($T_1$) or that such a pair of open subsets around two distinct points may in addition be chosen to be disjoint ($T_2$). This last condition, $T_2$, also called the _[[Hausdorff topological space|Hausdorff condition]]_ is the most common among all separation axioms. Often (but by far not always) this is considered by default.
 
-The main separation axims are these:
+The main separation axioms are these:
+
 {#TableOfMainSeparationAxioms}
 | number | name | statement | reformulation |
 |--------|------|-----------|---------------|
 | $T_0$  | [[Kolmogorov space|Kolmogorov]] | given two distinct points, at least one of them has an open neighbourhood not containing the other point |  every irreducible closed subset is the closure of at most one point |
 | $T_1$  |      | given two distinct points, both have an open neighbourhood not containing the other point | all points are closed |
 | $T_2$  | [[Hausdorff topological space|Hausdorff]] | given two distinct points, they have disjoint open neighbourhoods | the diagonal is a closed map  |
-| $T_{\gt 2}$ |  |  $T_1$ and... | all points are closed and... |   
-| $T_3$  | [[regular Hausdorff topological space|regular Hausdorff]] |  ...given two disjoint closed subsets, at least one of them has an open neighbourhood disjoint from the other closed subset | ...every neighbourhood of a point contains the closure of an open neghbourhood |
-| $T_4$  | [[normal Hausdorff topological space|normal Hausdorff]] | ...given two disjoint closed subsets, both of them have open neighbourhoods not intersecting the other closed subset | ...every neighbourhood of a closed set also contains the closure of an open neighbourhood |
-
+| $T_{\gt 2}$ |  |  $T_1$ and... | all points are closed and... |
+| $T_3$  | [[regular Hausdorff topological space|regular Hausdorff]] |  ...given a point and a closed subset not containing it, they have disjoint open neighbourhoods  | ...every neighbourhood of a point contains the closure of an open neighbourhood |
+| $T_4$  | [[normal Hausdorff topological space|normal Hausdorff]] | ...given two disjoint closed subsets, they have disjoint open neighbourhoods | ...every neighbourhood of a closed set also contains the closure of an open neighbourhood |
 
 Originally in [Tietze 23](#Tietze23) the four separation axioms $T_2, T_3, T_4, T_5$ were considered (see at _[History](#History)_ below for more); nowadays one considers various more. Besides the extrapolation of the original sequence from $T_0$ through $T_6$ (with $T_{2\frac{1}{2}}$ and $T_{3\frac{1}{2}}$ interpolated), there is a similar sequence of axioms called $R_0, R_1, R_2, R_3$ (with their extrapolations and interpolations) of the same form, except that they do not start with mentioning two set-theoretically distinct points, but two points satisfying the conclusion of $T_0$. This and more is spelled out [below](#TheClassicalTheory).
 
