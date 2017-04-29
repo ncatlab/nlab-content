@@ -155,6 +155,10 @@ This construction is used a lot in [[Cech cohomology]]. For instance it can be u
 
 * M. Mather, _Paracompactness and partitions of unity_, PhD thesis, Cambridge (1965).
 
+Discussion of partitions of unity in [[intuitionistic mathematics]] is in
+
+* {#Waaldijk96} [[Frank Waaldijk]], section 3.1 of _modern intuitionistic topology_, 1996 ([pdf](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf))
+
 
 [[!redirects partition of unity]]
 [[!redirects partitions of unity]]
