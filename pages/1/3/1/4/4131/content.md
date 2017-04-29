@@ -137,6 +137,10 @@ This coverage is *not* in general a [[basis for the Grothendieck topology]], bec
 [[!redirects basis of a topology]]
 [[!redirects bases of a topology]]
 [[!redirects bases of topologies]]
+
+[[!redirects topological basis]]
+[[!redirects topological basises]]
+
 [[!redirects base for a topological space]]
 [[!redirects basis for a topological space]]
 [[!redirects bases for a topological space]]
