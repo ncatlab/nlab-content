@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Functional analysis
++-- {: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
+
 # Concepts of basis in functional analysis
-* tic
+* table of contents
 {: toc}
 
 ## Idea
@@ -70,9 +81,6 @@ category: functional analysis
 [[!redirects basis in functional analysis]]
 [[!redirects bases in functional analysis]]
 [[!redirects basises in functional analysis]]
-
-[[!redirects topological basis]]
-[[!redirects topological basises]]
 
 [[!redirects Schauder basis]]
 [[!redirects Schauder bases]]
