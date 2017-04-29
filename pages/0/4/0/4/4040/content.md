@@ -12,6 +12,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[topological space]] (see also _[[locale]]_)
 
+* [[topological closure|closure]], [[topological interior|interior]], [[topological boundary|boundary]]
+
 * [[separation axiom]]
   
 * [[continuous function]], [[homeomorphism]]
