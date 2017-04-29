@@ -13,6 +13,10 @@ A [[topological space]] $X$ is __normal__ if it satisfies:
 
 *  $T_4$: for every two [[closed subspace|closed]] [[disjoint subsets]] $A,B \subset X$ there are (optionally [[open subspace|open]]) [[neighborhoods]] $U \supset A$, $V \supset B$ such that $U \cap V$ is [[empty set|empty]].
 
+By [[Urysohn's lemma]] this is equivalent to the condition
+
+* for every two [[closed subspace|closed]] [[disjoint subsets]] $A,B \subset X$ there exists an [[Urysohn function]] that separates them.
+
 Often one adds the requirement
 
 *  $T_1$: every [[point]] in $X$ is closed.
