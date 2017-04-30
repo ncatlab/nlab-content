@@ -14,3 +14,5 @@ A [[cover]] by a [[countable set]] of patches.
 * [[locally finite cover]]
 
 * [[countably compact topological space]]
+
+[[!redirects countable covers]]
