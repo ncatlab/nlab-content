@@ -13,7 +13,7 @@ The shrinking lemma is needed in the proof that [[ paracompact Hausdorff spaces 
 ###### Lemma
 **(shrinking lemma)**
 
-Assuming the [[axiom of choice]] then:
+Assuming [[excluded middle]] and the [[axiom of choice]] then:
 
 Let $X$ be a [[topological space]] which is [[normal topological space|normal]] and let $\{U_i \subset X\}_{i \in I}$ be a [[locally finite cover|locally finite]] [[open cover]].
 
@@ -29,6 +29,84 @@ $$
 
 =--
 
+We prove this in  increasing generality, for for binary open covers, then for finite covers, then for countable locally finite covers, and finally for general locally finite covers.
+
++-- {: .num_lemma #ShrinkingLemmaForBinaryCover}
+###### Lemma
+**(shrinking lemma for binary covers)**
+
+Let $(X,\tau)$ be a [[normal topological space]] and let $\{U \subset X\}_{i \in \{1,2\}}$ an [[open cover]] by two [[open subsets]].
+
+Then there exists an open set $V_1 \subset X$ whose [[topological closure]] is contained in $U_1$
+
+$$
+  V_1 \subset Cl(V_1) \subset U_1
+$$
+
+and such that $\{V_1,U_2\}$ is still an open cover of $X$. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $U_1 \cup U_2 = X$ it follows (by [[de Morgan's law]]) that their [[complements]] $X \backslash U_i$ are [[disjoint subset|disjoint]] [[closed subsets]]. Hence by normality of $(X,\tau)$ there exist disjoint open subsets 
+
+$$
+  V_1 \supset X \backslash U_2
+  \phantom{AAA}
+  V_2 \supset X \backslash U_1
+  \,.
+$$
+
+By their disjointness, we have the following inclusions:
+
+$$
+  V_1 \subset X \backslash V_2 \subset U_1
+  \,.
+$$
+
+In particular, since $X \backslash V_2$ is closed, this means that $Cl(V_1) \subset X \backslash(V_2)$.
+
+Hence it only remains to observe that $V_1 \cup U_2 = X$, by definition of $V_1$.
+
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+Let $(X,\tau)$ be a [[normal topological space]], and let $\{U_i \subset X\}_{i \in \{1, \cdots, n\}}$ be an [[open cover]] with a [[finite number]] $n \in \mathbb{N}$ of patches. Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that $Cl(V_i) \subset U_i$ for all $i \in I$.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By [[induction]] using lemma \ref{ShrinkingLemmaForBinaryCover}.
+
+To begin with, consider $\{ U_1, \underoverset{i = 2}{n}{\cup} U_i\}$. This is a binary open cover, and hence lemma \ref{ShrinkingLemmaForBinaryCover} gives an open subset $V_1 \subset X$ with $V_1 \subset Cl(V_1) \subset U_1$ such that $\{V_1, \underoverset{i = 2}{n}{\cup} U_i\}$ is still an open cover, and accordingly so is
+
+$$
+  \{ V_1  \} \cup \left\{ U_i \right\}_{i \in \{2, \cdots, n\}}
+  \,.
+$$
+
+Similarly we next find an open subset $V_2 \subset X$ with $V_2 \subset Cl(V_2) \subset U_2$ and such that
+
+$$
+  \{ V_1, ,V_2  \} \cup \left\{ U_i \right\}_{i \in \{3, \cdots, n\}}
+$$
+ 
+is an open cover. After $n$ such steps we are left with an open cover $\{V_i \subset X\}_{i \in \{1, \cdots, n\}}$ as required.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+=--
 
 ## References
 
