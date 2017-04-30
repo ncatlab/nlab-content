@@ -1,12 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ##Idea##
 
 
-The **K-topology** is a topology on the [[real number|reals]] $\mathbb{R}$ which is finer than the usual [[topology]], but such that the new open sets are 'piled up' on the positive side of 0 (and actually are all contained in $[0,1)$) and have lots of 'holes'. It is useful for constructing topological counterexamples.
+The **K-topology** is a [[topological space|topology]] on the [[real number|reals]] $\mathbb{R}$ which is [[finer topology|finer]] than the [[Euclidean space|Euclidean]] [[metric topology]], but such that the new open sets are 'piled up' on the positive side of 0 (and actually are all contained in the [[half-open interval]] $[0,1)$) and have lots of 'holes'. It is useful for constructing counterexamples in [[topology]].
+
+For instance the K-topology is an example of a [[topological space]] that is [[Hausdorff topological space|Hausdorff]] $(T_2)$ but not [[normal Hausdorff space|normal]] ($T_4$).
 
 
 ##Definition ##
@@ -15,4 +28,7 @@ The **K-topology** is a topology on the [[real number|reals]] $\mathbb{R}$ which
 
 ##Application##
 
-The set of [[rational numbers]], with the subspace topology inherited from the inclusion $\mathbb{Q} \hookrightarrow \mathbb{R}_K$, is an example of a non-[[regular space|regular]], [[path-connected space|totally path-disconnected]] [[Hausdorff space|Hausdorff]] space. This space can be used to construct a [[quasitopological groupoid]] which isn't a [[internal groupoid|topological groupoid]].
+The set of [[rational numbers]], with the [[subspace topology]] inherited from the inclusion $\mathbb{Q} \hookrightarrow \mathbb{R}_K$, is an example of a non-[[regular space|regular]], [[path-connected space|totally path-disconnected]] [[Hausdorff space|Hausdorff]] space. This space can be used to construct a [[quasitopological groupoid]] which isn't a [[internal groupoid|topological groupoid]].
+
+
+[[!redirects K-topologies]]
