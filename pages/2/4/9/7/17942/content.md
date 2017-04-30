@@ -42,9 +42,18 @@ For a [[topos]]-theoretic notion of locally $n$-connected see _[[locally n-conne
 [[!redirects semi-locally simply-connected topological space]]
 [[!redirects semi-locally simply-connected topological spaces]]
 
+[[!redirects semi-locally simply connected topological space]]
+[[!redirects semi-locally simply connected topological spaces]]
+
 [[!redirects semi-locally simply-connected space]]
 [[!redirects semi-locally simply-connected spaces]]
+
+[[!redirects semi-locally simply connected space]]
+[[!redirects semi-locally simply connected spaces]]
+
 
 [[!redirects locally simply-connected space]]
 [[!redirects locally simply-connected spaces]]
 
+[[!redirects locally simply connected space]]
+[[!redirects locally simply connected spaces]]
