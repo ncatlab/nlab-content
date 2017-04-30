@@ -5,7 +5,7 @@
 
 ## Idea
 
-Continuous truth provides a [[topos semantics]] for Brouwer's continuity principles in [[intuitionistic mathematics]].  The topos is intuitively the [[gros topos]] of sheaves on some category of spaces.
+Continuous truth provides a [[topos]] [[categorical semantics]] for Brouwer's continuity principles in [[intuitionistic mathematics]].  The topos is intuitively the [[gros topos]] of [[sheaves]] on some category of spaces.
 
 
 ## References
