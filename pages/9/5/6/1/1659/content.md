@@ -42,6 +42,7 @@ In some forms of constructive mathematics, especially in the Russian school, it 
 
 * [[countable ordinal]]
 
+* [[countable cover]]
 
 [[!redirects countable set]]
 [[!redirects countable sets]]
