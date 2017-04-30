@@ -70,7 +70,8 @@ arbitrary [[quotients]] and [[intersections]] of spaces.
 Accordingly, topology underlies or informs many and diverse areas of mathematics, such as
 [[functional analysis]], [[operator algebra]], [[manifold]]/[[scheme]] theory, hence [[algebraic geometry]] and [[differential geometry]],
 and the study of [[topological groups]], [[topological vector spaces]], [[local  rings]], etc.. Not the least, it gives rise to
-the field of [[homotopy theory]], where one considers also continuous deformations of continuous functions themselves ("[[homotopies]]").
+the field of [[homotopy theory]], where one considers also continuous deformations of continuous functions themse
+lves ("[[homotopies]]").
 Topology itself has many branches,
 such as _[[low-dimensional topology]]_ or _[[topological domain theory]]_.
 
@@ -157,6 +158,7 @@ such that for all $x,y,z \in X$:
 
 +-- {: .num_defn #OpenBalls}
 ###### Definition
+**([[open balls]])**
 
 Let $(X,d)$, be a [[metric space]]. Then for every element $x \in X$ and every  $\epsilon \in \mathbb{R}_+$ a [[positive number|positive]] [[real number]], we write
 
@@ -368,6 +370,71 @@ $$
 The function $f$ is said to be _continuous_ if it is continuous at every point $x \in X$.
 
 =--
+
++-- {: .num_example #DistanceFunctionFromsubset}
+###### Example
+**(distance function from a subset is continuous)**
+
+Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace})
+and let $S \subset X$ be a [[subset]] of the underlying set.
+Define then the function
+
+$$
+  d(S,-) \;\colon\; X \to \mathbb{R}
+$$
+
+from the underlying set $X$ to the [[real numbers]] by assigning to a point $x \in X$ the [[infimum]] of the [[distances]] from $x$ to $s$, as 
+$s$ ranges over the elements of $S$:
+
+$$
+  d(S,x) \coloneqq inf \left\{ d(s,x) \,\vert\,  s\in S  \right\}
+  \,.
+$$
+
+This is a continuous function, with $\mathbb{R}$ regarded as a [[metric space]] via its [[Euclidean norm]] (example \ref{EuclideanNorm}).
+
+In particular the original distance function $d(x,-) = d(\{x\,-})$ is continuous in both its arguments.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $x \in X$ and let $\epsilon$ be a positive real number. We need to find a positive real number
+\delta$ such that for $y \in X$ with $d(x,y) \lt \delta$ then ${\vert d(S,x) - d(S,y) \vert} \lt \epsilon$.
+
+For $s \in S$ and $y \in X$, consider the [[triangle inequalities]]
+
+$$
+  \begin{aligned}
+    d(s,x) & \leq d(s,y) + d(y,x) 
+    \\
+    d(s,y) & \leq d(s,x) + d(x,y) 
+  \end{aligned}
+  \,.
+$$
+
+Forming the [[infimum]] over $s \in S$ of all terms appearing here yields
+
+$$
+  \begin{aligned}
+    d(S,x) & \leq d(S,y) + d(y,x)
+    \\
+    d(S,y) & \leq d(S,x) + d(x,y)
+  \end{aligned}
+$$
+
+which implies
+
+$$
+  {\vert d(S,x) - d(S,y) \vert} \leq d(x,y)
+  \,.
+$$
+
+This means that we may take for instance $\delta \coloneqq \epsilon$.
+
+=--
+
 
 +-- {: .num_example #PolynoialsAreContinuous}
 ###### Example
@@ -3571,7 +3638,12 @@ which we discuss in the following.
 
 These axioms are all of the form of saying that two subsets (of certain kinds) in the topological space are 'separated' from each other in one sense if they are 'separated' in a (generally) weaker sense. For example the weakest axiom (called $T_0$) demands that if two points are distinct as elements of the underlying set of points, then there exists at least one [[open subset]] that contains one but not the other.
 
-In this fashion one may impose a hierarchy of stronger axioms. For example demanding that given two distinct points, then each of them is contained in some open subset not containing the other ($T_1$) or that such a pair of open subsets around two distinct points may in addition be chosen to be [[disjoint subsets|disjoint]] ($T_2$). This last condition, $T_2$, also called the _[[Hausdorff topological space|Hausdorff condition]]_ is the most common among all separation axioms. Historically this axiom was originally taken as part of the definition of topological spaces,
+In this fashion one may impose a hierarchy of stronger axioms. For example demanding that given two distinct points, then each of them is contained in some open subset not containing the other ($T_1$) or that such a pair of open subsets around two distinct points may in addition be chosen to be [[disjoint subsets|disjoint]] ($T_2$). Below in _[Tn-spaces](TnTopologicalSpaces)_ we discuss the following hierarchy:
+
+{#TableOfMainSeparationAxioms}
+[[!include main separation axioms -- table]]
+
+The condition, $T_2$, also called the _[[Hausdorff topological space|Hausdorff condition]]_ is the most common among all separation axioms. Historically this axiom was originally taken as part of the definition of topological spaces,
 and it is still often (but by no means always) considered by default.
 
 However, there are respectable areas of mathematics that involve topological spaces where the Hausdorff axiom fails, but
@@ -3579,14 +3651,13 @@ a weaker axiom is still satisfied, called [[sober topological spaces|soberity]].
 This is the case notably in [[algebraic geometry]] ([[schemes are sober]]) and in [[computer science]] ([Vickers 89](#Vickers89)).
 These _[[sober topological spaces]]_ are singled out by the fact that they are entirely characterized by their
 [[frame of opens|sets of open subsets]] with their union and intersection structure (as in def. \ref{HomomorphismOfFramesOfOpens})
-and may hence be understood independently from their underlying sets of points.
+and may hence be understood independently from their underlying sets of points. This we discuss [further below](#SoberSpaces).
 
-| [[separation axioms]]                 |
+| hierarchy of [[separation axioms]]                 |
 |---------------------------------------|
-| $\array{\\ &&& T_2 = \text{Hausdorff}  \\ && \swArrow && \seArrow \\ \, & T_1 && && \text{sober} & \, \\ && \seArrow && \swArrow \\ &&& T_0 = \text{Kolmogorov} \\ }  $ |
+| $\array{ &&&\text{metric space}  \\ &&& \Downarrow \\ &&& \vdots \\ &&& \Downarrow \\ &&& T_4  = \text{normal Hausdorff} \\ &&& \Downarrow \\ &&& T_3 = \text{regular Hausdorff} \\ &&& \Downarrow \\ &&& T_2 = \text{Hausdorff}  \\ && \swArrow && \seArrow \\ \, & T_1 && && \text{sober} & \, \\ && \seArrow && \swArrow \\ &&& T_0 = \text{Kolmogorov} \\ }  $ |
 
-All separation axioms are satisfied by [[metric spaces]] (def. \ref{MetricSpace}), from whom the concept of topological space was originally abstracted [above](#TopologicalSpaces). Hence imposing some of them may also be understood as gauging just how far one allows topological spaces to generalize away from metric spaces
-
+All separation axioms are satisfied by [[metric spaces]] (example \ref{HausdorffMetricSpace}, example \ref{MetricSpacesAreNormal} below), from whom the concept of topological space was originally abstracted [above](#TopologicalSpaces). Hence imposing some of them may also be understood as gauging just how far one allows topological spaces to generalize away from metric spaces
 
 
 
@@ -3594,8 +3665,8 @@ All separation axioms are satisfied by [[metric spaces]] (def. \ref{MetricSpace}
 ### $T_n$ spaces
  {#TnTopologicalSpaces}
 
-There are many variants of separation axims. The classical ones are labeled $T_n$
-(for German "Trennungsaxiom"). These we now introduce in def. \ref{HausdorffTopologicalSpace} and def. \ref{NormalSpace}:
+There are many variants of separation axims. The classical ones are labeled $T_n$ 
+(for German "Trennungsaxiom") with $n \in \{0,1,2,3,4,5\}$ or higher. These we now introduce in def. \ref{HausdorffTopologicalSpace} and def. \ref{NormalSpace}.
 
 +-- {: .num_defn #HausdorffTopologicalSpace}
 ###### Definition
@@ -3644,7 +3715,7 @@ The following is evident but important:
 
 +-- {: .num_prop #TnImplications}
 ###### Proposition
-**($T_n$ are topological properties of increasing strength)**
+**($T_n$ are [[topological properties]] of increasing strength)**
 
 The separation properties $T_n$ from def. \ref{HausdorffTopologicalSpace} are
 _[[topological properties]]_ in that if two topological spaces
@@ -3852,12 +3923,63 @@ If $(X,\tau)$ satisfies $T_4$ it is to be a _$T_4$-space_ also called a _[[norma
 
 =--
 
++-- {: .num_example #MetricSpacesAreNormal}
+###### Example
+**([[metric spaces]] are [[normal space|normal]])**
+
+Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}) regarded as a [[topological space]]
+via its [[metric topology]] (example \ref{MetricTopology}). Then this is a [[normal Hausdorff space]] (def. \ref{NormalSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{HausdorffMetricSpace} that metric spaces are $T_2$, hence in particular $T_1$.
+What we need to show is that given two [[disjoint subsets|disjoint]] [[closed subsets]] $C_1, C_2 \subset X$
+then their exists [[disjoint subset|disjoint]] [[open neighbourhoods]] $U_{C_1} \subset C_1$
+and $U_{C_2} \supset C_2$.
+
+Recall the function
+
+$$
+  d(S,-) \colon X \to \mathbb{R}
+$$
+
+
+computing distances from a subset $S \subset X$ (example \ref{DistanceFunctionFromsubset}). Then the
+[[unions]] of [[open balls]] (def. \ref{OpenBalls})
+
+$$
+  U_{C_1}
+    \coloneqq
+  \underset{x_1 \in C_1}{\cup} B^\circ_{x_1}( d(C_2,x_1) )
+$$
+
+and
+
+$$
+  U_{C_2}
+    \coloneqq
+  \underset{x_2 \in C_2}{\cup} B^\circ_{x_2}( d(C_1,x_2) )
+  \,.
+$$
+
+have the required properties.
+
+=--
+
+
+
+
 Observe that:
 
 +-- {: .num_prop #ImplicationsAmongTheSeparationAxioms}
 ###### Proposition
+**($T_n$ are topological properties of increasing strength)**
 
-The separation axioms from def. \ref{HausdorffTopologicalSpace}, def. \ref{NormalSpace} imply each other as
+The separation axioms from def. \ref{HausdorffTopologicalSpace}, def. \ref{NormalSpace} 
+are [[topological properties]] (def. \ref{Homeomorphism}) which imply each other as
 
 $$
   T_4 \Rightarrow T_3 \Rightarrow T_2 \Rightarrow T_1 \Rightarrow T_0
@@ -3892,14 +4014,99 @@ Hence instead of saying "$X$ is $T_1$ and ..." one could just as well phrase
 the conditions $T_3$ and $T_4$ as "$X$ is $T_2$ and ...", which would render
 the proof of prop. \ref{ImplicationsAmongTheSeparationAxioms} even more trivial.
 
+The following shows that not every $T_2$-space/Hausdorff space is $T_3$/regular
+
++-- {: .num_defn #KTopology}
+###### Definition
+**([[K-topology]])**
+
+Write
+
+$$
+  K \coloneqq \{1/n \,\vert\, n \in \mathbb{N}_{\geq 1}\} \subset \mathbb{R}
+$$
+
+for the [[subset]] of [[natural number|natural]] [[fractions]] inside the [[real numbers]].
+
+Define a [[topological basis]] $\beta \subset P(\mathbb{R})$ on $\mathbb{R}$ consisting of all the [[open intervals]] as well as the [[complements]] of $K$ inside them:
+
+$$
+  \beta
+    \;\coloneqq\;
+  \left\{
+    (a,b),
+    \,\vert\,
+    a\lt b \in \mathbb{R}
+  \right\}
+   \,\cup\,
+  \left\{
+    (a,b) \backslash K,
+    \,\vert\,
+    a\lt b \in \mathbb{R}
+  \right\}
+  \,.
+$$
+
+The [[topological space|topology]] $\tau_{\beta} \subset P(\mathbb{R})$ which is generated from this [[topological basis]] is called the _K-topology_.
+
+We may denote the resulting [[topological space]] by
+
+$$
+  \mathbb{R}_K
+   \;\coloneqq\;
+  ( \mathbb{R}, \tau_{\beta}\}
+  \,.
+$$
+
+This is a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}) which is not a [[regular Hausdorff space]], 
+hence (by prop. \ref{ImplicationsAmongTheSeparationAxioms}) in particular not a [[normal Hausdorff space]] (def. \ref{NormalSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By construction the K-topology is [[finer topology|finer]] (def. \ref{TopologyFinerCoarser}) than the usual [[Euclidean space|euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology}). Since the latter is Hausdorff (example \ref{HausdorffMetricSpace}), so is $\mathbb{R}_K$. It remains to see that $\mathbb{R}_K$ contains a point and a [[disjoint subset|disjoint]] closed subset such that do not have [[disjoint subset|disjoint]] [[open neighbourhoods]].
+
+But this is the case essentially by construction: Observe that
+
+$$
+  \mathbb{R} \backslash K
+  \;=\;
+  (-\infty,-1/2)
+    \cup
+  \left(
+    (-1,1) \backslash K
+  \right)
+    \cup
+  (1/2, \infty)
+$$
+
+is an open subset in $\mathbb{R}_K$, whence
+
+$$
+  K = \mathbb{R} \backslash ( \mathbb{R} \backslash K  )
+$$
+
+is a [[closed subset]] of $\mathbb{R}_K$.
+
+
+But every [[open neighbourhood]] of $\{0\}$ contains at least $(-\epsilon, \epsilon) \backslash K$ for some positive real number $\epsilon$. There exists then $n \in \mathbb{N}_{\geq 0}$ with $1/n \lt \epsilon$ and $1/n \in K$. An open neighbourhood of $K$ needs to contain an open interval around $1/n$, and hence will have non-trivial intersection with $(-\epsilon, \epsilon)$. Therefore $\{0\}$ and $K$ may not be separated by disjoint open neighbourhoods, and so $\mathbb{R}_K$ is not normal.
+
+
+
+=--
+
+
 
 
 $\,$
 
 
+**Further separation axioms in terms of topological closures**
+
 As before we have equivalent reformulations of the further separation axioms.
 
-**Further separation axioms in terms of topological closures**
 
 +-- {: .num_prop #T3InTermsOfTopologicalClosures}
 ###### Proposition
@@ -3974,56 +4181,10 @@ Thus $V \supset C_1$ and $X \backslash Cl(X) \supset C_2$ are two disjoint open 
 
 =--
 
+But the $T_4$/normality axiom has yet another equivalent reformulation, which is of a different nature,
+and will be important when we discuss [[paracompact topological spaces]] [below](#ParacompactSpaces):
 
-$\,$
-
-In summary, **the main [[separation axioms]]** and their reformulation are the following:
-
-{#TableOfMainSeparationAxioms}
-| number | name | statement | reformulation |
-|--------|------|-----------|---------------|
-| $T_0$  | [[Kolmogorov space|Kolmogorov]] | given two distinct points, at least one of them has an open neighbourhood not containing the other point |  every irreducible closed subset is the closure of at most one point |
-| $T_1$  |      | given two distinct points, both have an open neighbourhood not containing the other point | all points are closed |
-| $T_2$  | [[Hausdorff topological space|Hausdorff]] | given two distinct points, they have disjoint open neighbourhoods | the diagonal is a closed map  |
-| $T_{\gt 2}$ |  |  $T_1$ and... | all points are closed and... |
-| $T_3$  | [[regular Hausdorff topological space|regular Hausdorff]] |  ...given a point and a closed subset not containing it, they have disjoint open neighbourhoods  | ...every neighbourhood of a point contains the closure of an open neighbourhood |
-| $T_4$  | [[normal Hausdorff topological space|normal Hausdorff]] | ...given two disjoint closed subsets, they have disjoint open neighbourhoods | ...every neighbourhood of a closed set also contains the closure of an open neighbourhood |
-
-$\,$
-
-Notice that there is a whole zoo of further variants of [[separation axioms]] that are considered in the literature.
-But the above are the main ones. Specifically $T_2$ = Hausdorff is the most popular one, often considered
-by default in the literature, when topological spaces are considered.
-
-$\,$
-
-We discuss a few more properties related to the separation axioms that we will need further below.
-
-1. the [[shrinking lemma]], lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} below;
-
-1. [[Urysohn's lemma]], prop. \ref{UrysohnLemma} below.
-
-
-+-- {: .num_lemma #PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
-###### Lemma
-**([[shrinking lemma]])**
-
-Let $X$ be a [[topological space]] which is [[normal topological space|normal]] (def. \ref{NormalSpace}) and let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]].
-
-Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that the [[topological closure]] $Cl(V_i)$ of its elements
-(def. \ref{ClosedSubset}) is contained in the original patches:
-
-$$
-  \underset{i \in I}{\forall}
-  \left(
-     V_i \subset Cl(V_i) \subset U_i
-  \right)
-  \,.
-$$
-
-=--
-
-The following concept if _[[Urysohn functions]]_ is another approach of thinking about separation
+The following concept of _[[Urysohn functions]]_ is another approach of thinking about separation
 of subsets in a topological space, not in terms of their neighbourhoods, but in terms of
 continuous real-valued "indicator functions" that take different values on the subsets.
 But the [[Urysohn lemma]] (prop. \ref{UrysohnLemma} below) implies that this concept of separation
@@ -4377,6 +4538,12 @@ $$
 are disjoint open neighbourhoods as required.
 
 =--
+
+
+
+
+
+
 
 
 
@@ -6274,6 +6441,7 @@ does not apply.
 
 
 ## Paracompact spaces
+ {#ParacompactSpaces}
 
 
 +-- {: .num_defn #LocallyFiniteCover}
@@ -6285,6 +6453,27 @@ Let $(X,\tau)$ be a [[topological space]].
 An [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finite_ if for all point $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only finitely many elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
 
 =--
+
++-- {: .num_lemma #PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
+###### Lemma
+**([[shrinking lemma]])**
+
+Let $X$ be a [[topological space]] which is [[normal topological space|normal]] (def. \ref{NormalSpace}) and let $\{U_i \subset X\}_{i \in I}$ be a [[locally finite cover|locally finite]] [[open cover]] (def. \ref{LocallyFiniteCover}).
+
+Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ (hence with the same index set) 
+such that the [[topological closure]] $Cl(V_i)$ of its elements (def. \ref{ClosedSubset}) is contained in the original patches:
+
+$$
+  \underset{i \in I}{\forall}
+  \left(
+     V_i \subset Cl(V_i) \subset U_i
+  \right)
+  \,.
+$$
+
+=--
+
+
 
 +-- {: .num_defn #RefinementOfOpenCovers}
 ###### Definition
