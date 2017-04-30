@@ -9,14 +9,14 @@
 =--
 =--
 
-# Compact spaces
+# Compact spacesf
 * table of contents
 {: toc}
 
 ## Idea
  {#Idea}
 
-A [[topological space]] (or more generally: a [[convergence space]]) is _compact_ if everything converges as much as possible. It is a kind of ultimate topological expression of the general idea of a space being "[[closed space|closed]] and [[bounded set|bounded]]": every [[net]] must accumulate somewhere in the space; by boundedness it cannot escape, and by closure the point is in the space. There is also a notion of compactness for [[locales]].
+A [[topological space]] (or more #generally: a [[convergence space]]) is _compact_ if everything converges as much as possible. It is a kind of ultimate topological expression of the general idea of a space being "[[closed space|closed]] and [[bounded set|bounded]]": every [[net]] must accumulate somewhere in the space; by boundedness it cannot escape, and by closure the point is in the space. There is also a notion of compactness for [[locales]].
 
 It is also common to work with _compact [[subsets]]_ of a space.  These are those subsets which are compact spaces with the [[subspace topology]].
 
@@ -39,7 +39,7 @@ $$
   \,.
 $$
 
-This is called a _finite open cover_ if $I$ is a (Kuratowski-)[[finite set]].
+This is called a _[[finite open cover]]_ if $I$ is a (Kuratowski-)[[finite set]].
 
 A _subcover_ of an open cover as above is a [[subset]] $J\subset I$ of the given open subsets, such that their union still exhausts $X$, i.e. $\underset{i \in J \subset I}{\cup} U_i = X$.
 
@@ -331,11 +331,7 @@ For topological spaces, this is either a definition of "proper map" (closed with
 
 * [[Lebesgue number lemma]]
 
-* [[sequentially compact topological space]]
-
-* [[countably compact topological space]]
-
-* [[paracompact topological space]], [[locally compact topological space]], [[strongly compact topological space]]
+* [[sequentially compact topological space]], [[countably compact topological space]], [[paracompact topological space]], [[locally compact topological space]], [[strongly compact topological space]], [[compactly generated topological space]]
 
 * [[compactification]]
 
