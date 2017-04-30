@@ -1,0 +1,12 @@
+
+## Related concepts
+
+* [[interpretation of quantum mechanics]]
+
+* [[propositions as projections]]
+
+## References
+
+* Wikipedia, _[Wave function collapse](https://en.wikipedia.org/wiki/Wave_function_collapse)_
+
+[[!redirects collapse of the wave function]]
