@@ -22,7 +22,7 @@
 
 ## Definition
 
-A [[topological space]] is called _countably compact_ if every [[open cover]] consisting of a [[countable set]] of [[open subsets]] admits a finite subcover, hence if there is a [[finite set|finite]] [[subset]] of the open in the original cover which still cover the space.
+A [[topological space]] is called _countably compact_ if every [[open cover]] consisting of a [[countable set]] of [[open subsets]] (every [[countable cover]]) admits a [[finite cover|finite subcover]], hence if there is a [[finite set|finite]] [[subset]] of the open in the original cover which still cover the space.
 
 ## Properties
 
@@ -32,6 +32,12 @@ A [[topological space]] is called _countably compact_ if every [[open cover]] co
 
 * [[compact topological space]]
 
+* [[countably compact topological space]]
+
 * [[sequentially compact topological space]]
+
+* [[paracompact topological space]]
+
+* [[strongly compact topological space]]
 
 [[!redirects countably compact spaces]]
