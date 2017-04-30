@@ -1,11 +1,21 @@
 
+## Idea
+
+In [[topology]], the "shrinking lemma" (lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}) below states that on a [[normal topological space]] the patches of every [[locally finite cover]] may be replaced by smaller patches which still cover the space, but such that their [[topological closures]] are contained in the original patches. 
+
+If there is more than a [[countable set]] of elements in the original cover, then this conclusion requires [[Zorn's lemma]], hence the [[axiom of choice]].
+
+The shrinking lemma is needed in the proof that [[ paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]].
+
 ## Statement
 
 +-- {: .num_lemma #PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
 ###### Lemma
 **(shrinking lemma)**
 
-Let $X$ be a [[topological space]] which is [[normal topological space|normal]] and let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]].
+Assuming the [[axiom of choice]] then:
+
+Let $X$ be a [[topological space]] which is [[normal topological space|normal]] and let $\{U_i \subset X\}_{i \in I}$ be a [[locally finite cover|locally finite]] [[open cover]].
 
 Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that the [[topological closure]] $Cl(V_i)$ of its elements is cotained in the original patches:
 
