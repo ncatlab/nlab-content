@@ -175,13 +175,25 @@ But every [[open neighbourhood]] of $\{0\}$ contains at least $(-\epsilon, \epsi
 
 * The [[Tietze extension theorem]] applies to normal spaces.
 
+In fact the Tietze extension theorem can serve as a basis of a categorical characterization of normal spaces: a (Hausdorff) space $X$ is normal if and only if every function $f: A \to \mathbb{R}$ from a [[closed subspace]] $A \subspace X$ admits an extension $\tilde{f}: X \to \mathbb{R}$, or what is the same, every [[regular monomorphism]] into $X$ in $Haus$ has the [[lift|left lifting property]] with respect to the map $\mathbb{R} \to 1$. (See [Gavrilovich](#MG) for further categorical characterizations of various topological properties in terms of lifting problems.)  
 
+The category of normal spaces and continuous maps seems not to be very well-behaved. It admits equalizers of pairs of maps $f, g: X \rightrightarrows Y$ (it is computed as in $Top$ or $Haus$; one uses the fact that closed subspaces of normal spaces are normal), but (curiously) it does not have [[products]] -- or at least it is not closed under products in $Top$. It follows that this category is not a reflective subcategory of $Top$, as $Haus$ is. 
+
++-- {: .num_example} 
+###### Example 
+If $\omega_1$ is the first uncountable ordinal with the order topology, and $\widebar{\omega_1}$ its one-point compactification, then $X = \omega_1 \times \widebar{\omega_1}$ with the product topology is not normal. Indeed, let $\infty \in \widebar{\omega_1}$ be the unique point in the complement of $\omega_1 \hookrightarrow \widebar{\omega_1}$; then it may be shown that every open set $U$ in $X$ that includes the closed set $A = \{(x, x): x \neq \infty\}$ in $X$ must somewhere intersect the closed set $\omega_1 \times \{\infty\}$ which is disjoint from $A$. For if that were false, then we could define an increasing sequence $x_n \in \omega_1$ by recursion, letting $x_0 = 0$ and letting $x_{n+1} \in \omega_1$ be the least element that is greater than $x_n$ and such that $(x_n, x_{n+1}) \notin U$. Then, letting $b \in \omega_1$ be the least upper bound of this increasing sequence, the sequence $(x_n, x_{n+1})$ converges to $(b, b)$, and yet the neighborhood $U$ of $(b, b)$ contains none of the points of this sequence, which is a contradiction. 
+=-- 
+
+This example also shows that general subspaces of normal spaces need not be normal, since $\omega_1 \times \widebar{\omega_1}$ is an open subspace of the compact Hausdorff space $\widebar{\omega_1} \times \widebar{\omega_1}$, which is itself normal. 
 
 ## References
 
 The class of normal spaces was introduced by Tietze (1923) and Aleksandrov--Uryson (1924). 
 
 * Ryszard Engelking, __General topology__, (Monographie Matematyczne, tom 60) Warszawa 1977; expanded Russian edition Mir 1986.
+
+* {#MG} Misha Gavrilovich, *Point set topology as diagram chasing computations*, arxiv:1408.6710v1 ([pdf](https://arxiv.org/pdf/1408.6710.pdf)). 
+
 
 
 [[!redirects normal space]]
