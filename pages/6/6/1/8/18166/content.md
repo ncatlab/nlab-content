@@ -20,6 +20,8 @@
 +-- {: .num_theorem #ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}
 ###### Theorem
 
+Assuming [[excluded middle]] and the [[axiom of choice]] then:
+
 Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
 
 1. $(X,\tau)$ is a [[paracompact Hausdorff space]].
@@ -163,9 +165,11 @@ Since the [[image]] $\phi(K) \subset I$ is still a [[finite set]], this shows th
 ###### Lemma
 **([[shrinking lemma]])**
 
-Let $X$ be a [[topological space]] which is [[normal topological space|normal]] and let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]].
+Let $X$ be a [[topological space]] which is [[normal topological space|normal]] and let $\{U_i \subset X\}_{i \in I}$ be a [[locally finite cover|locally finite]] [[open cover]].
 
-Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that the [[topological closure]] $Cl(V_i)$ of its elements is contained in the original patches:
+Assuming the [[axiom of choice]] then:
+
+There exists another open cover $\{V_i \subset X\}_{i \in I}$ such that the [[topological closure]] $Cl(V_i)$ of its elements is contained in the original patches:
 
 $$
   \underset{i \in I}{\forall}
