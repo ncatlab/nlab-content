@@ -89,6 +89,17 @@ In general neither of these two properties implies the other:
 
 * An example of a [[compact topological space]] which is not sequentially compact is given in ([Steen-Seebach 70, item 105](#SteenSeebach70)), recalled at [Vermeeren 10, prop. 17](#Vermeeren10). See at [compact space -- Compact spaces which are not sequentially compact](compact+space#CompactSpacesWhichAreNotSequentiallyCompact).
 
+## Related concepts
+
+* [[compact topological space]]
+
+* [[countably compact topological space]]
+
+* [[paracompact topological space]]
+
+* [[locally compact topological space]]
+
+* [[compactly generated topological space]]
 
 
 ## References 
