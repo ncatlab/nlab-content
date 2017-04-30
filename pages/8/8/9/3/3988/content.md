@@ -119,5 +119,9 @@ The set of [[rational numbers]], with the [[subspace topology]] inherited from t
 
 =--
 
+## Related concepts
+
+* [[Dowker space]]
+
 
 [[!redirects K-topologies]]
