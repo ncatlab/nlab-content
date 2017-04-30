@@ -29,7 +29,7 @@ $$
 
 ### In terms of coordinate expression
 
-If differential forms are defines by [[Yoneda extension]] from differential forms on [[Cartesian spaces]] then pullback is given on $X = \mathbb{R}^{\tilde k}$ and $Y = \mathbb{R}^k$ and on 1-forms 
+If differential forms are defined by [[Yoneda extension]] from differential forms on [[Cartesian spaces]] then pullback is given on $X = \mathbb{R}^{\tilde k}$ and $Y = \mathbb{R}^k$ and on 1-forms 
 
 $$
   \omega = \sum_{i = 1}^k \omega_i \mathbf{d}x^i
