@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* table of contents
+* table of contents#
 {: toc}
 
 ## Definition 
@@ -223,8 +223,10 @@ This appears as ([[Higher Topos Theory|HTT, lemma 7.2.3.5]]).
 
 The notion of paracompact space was introduced in
 
-* [[Jean Dieudonné]] in 1944. 
+* [[Jean Dieudonné]], _Une g&#233;n&#233;ralisation des espaces compacts_, Journal de Math&#233;matiques Pures et Appliqu&#233;es, Neuvi&#232;me S&#233;rie, 23: 65&#8211;76 (1944)
 
+
+Acounts include
 
 * R. Engelking, _General topology_, chapter 5 is dedicated to paracompact spaces
 
