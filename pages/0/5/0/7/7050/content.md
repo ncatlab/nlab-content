@@ -43,7 +43,7 @@ More precisely, if we have a homotopy equivalence $f: X\to X^\prime$, is $f$ hom
 
 Some original sources:
 
-*  [[J. H. C. Whitehead]], _Simple homotopy type_, Amer. J. Math., 72,  (1950), 1 -567.
+*  [[J. H. C. Whitehead]], _Simple homotopy type_, Amer. J. Math., 72,  (1950), 1 - 57.
 
 * [[J. Milnor]], _Whitehead torsion_, Bull. Amer. math. Soc., 72 (1966), 358 - 426.
 
