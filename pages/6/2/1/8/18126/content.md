@@ -383,7 +383,7 @@ $$
   d(S,-) \;\colon\; X \to \mathbb{R}
 $$
 
-from the underlying set $X$ to the [[real numbers]] by assigning to a point $x \in X$ the [[infimum]] of the [[distances]] from $x$ to $s$, as 
+from the underlying set $X$ to the [[real numbers]] by assigning to a point $x \in X$ the [[infimum]] of the [[distances]] from $x$ to $s$, as
 $s$ ranges over the elements of $S$:
 
 $$
@@ -407,9 +407,9 @@ For $s \in S$ and $y \in X$, consider the [[triangle inequalities]]
 
 $$
   \begin{aligned}
-    d(s,x) & \leq d(s,y) + d(y,x) 
+    d(s,x) & \leq d(s,y) + d(y,x)
     \\
-    d(s,y) & \leq d(s,x) + d(x,y) 
+    d(s,y) & \leq d(s,x) + d(x,y)
   \end{aligned}
   \,.
 $$
@@ -3665,7 +3665,7 @@ All separation axioms are satisfied by [[metric spaces]] (example \ref{Hausdorff
 ### $T_n$ spaces
  {#TnTopologicalSpaces}
 
-There are many variants of separation axims. The classical ones are labeled $T_n$ 
+There are many variants of separation axims. The classical ones are labeled $T_n$
 (for German "Trennungsaxiom") with $n \in \{0,1,2,3,4,5\}$ or higher. These we now introduce in def. \ref{HausdorffTopologicalSpace} and def. \ref{NormalSpace}.
 
 +-- {: .num_defn #HausdorffTopologicalSpace}
@@ -3682,11 +3682,11 @@ consider the following [[propositions]]:
 </div>
 
 
-* **(T0)** _There exists a [[neighbourhood]] of one of the two points which does not contain the other point._
+* **(T0)** *There exists a [[neighbourhood]] of one of the two points which does not contain the other point.*
 
-* **(T1)** _There exist [[neighbourhoods]] of both points which do not contain the other point._
+* **(T1)** *There exist [[neighbourhoods]] of both points which do not contain the other point.*
 
-* **(T2)** _There exists [[neighbourhoods]]_ of both points which do not intersect each other._
+* **(T2)** *There exists [[neighbourhoods]]_ of both points which do not intersect each other.*
 
 > graphics grabbed from [Vickers 89](#Vickers89)
 
@@ -3978,7 +3978,7 @@ Observe that:
 ###### Proposition
 **($T_n$ are topological properties of increasing strength)**
 
-The separation axioms from def. \ref{HausdorffTopologicalSpace}, def. \ref{NormalSpace} 
+The separation axioms from def. \ref{HausdorffTopologicalSpace}, def. \ref{NormalSpace}
 are [[topological properties]] (def. \ref{Homeomorphism}) which imply each other as
 
 $$
@@ -4018,7 +4018,7 @@ The following shows that not every $T_2$-space/Hausdorff space is $T_3$/regular
 
 +-- {: .num_defn #KTopology}
 ###### Definition
-**([[K-topology]])**
+**(K-topology)**
 
 Write
 
@@ -4058,42 +4058,8 @@ $$
   \,.
 $$
 
-This is a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}) which is not a [[regular Hausdorff space]], 
+This is a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}) which is not a [[regular Hausdorff space]],
 hence (by prop. \ref{ImplicationsAmongTheSeparationAxioms}) in particular not a [[normal Hausdorff space]] (def. \ref{NormalSpace}).
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By construction the K-topology is [[finer topology|finer]] (def. \ref{TopologyFinerCoarser}) than the usual [[Euclidean space|euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology}). Since the latter is Hausdorff (example \ref{HausdorffMetricSpace}), so is $\mathbb{R}_K$. It remains to see that $\mathbb{R}_K$ contains a point and a [[disjoint subset|disjoint]] closed subset such that do not have [[disjoint subset|disjoint]] [[open neighbourhoods]].
-
-But this is the case essentially by construction: Observe that
-
-$$
-  \mathbb{R} \backslash K
-  \;=\;
-  (-\infty,-1/2)
-    \cup
-  \left(
-    (-1,1) \backslash K
-  \right)
-    \cup
-  (1/2, \infty)
-$$
-
-is an open subset in $\mathbb{R}_K$, whence
-
-$$
-  K = \mathbb{R} \backslash ( \mathbb{R} \backslash K  )
-$$
-
-is a [[closed subset]] of $\mathbb{R}_K$.
-
-
-But every [[open neighbourhood]] of $\{0\}$ contains at least $(-\epsilon, \epsilon) \backslash K$ for some positive real number $\epsilon$. There exists then $n \in \mathbb{N}_{\geq 0}$ with $1/n \lt \epsilon$ and $1/n \in K$. An open neighbourhood of $K$ needs to contain an open interval around $1/n$, and hence will have non-trivial intersection with $(-\epsilon, \epsilon)$. Therefore $\{0\}$ and $K$ may not be separated by disjoint open neighbourhoods, and so $\mathbb{R}_K$ is not normal.
-
-
 
 =--
 
@@ -6460,7 +6426,7 @@ An [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finit
 
 Let $X$ be a [[topological space]] which is [[normal topological space|normal]] (def. \ref{NormalSpace}) and let $\{U_i \subset X\}_{i \in I}$ be a [[locally finite cover|locally finite]] [[open cover]] (def. \ref{LocallyFiniteCover}).
 
-Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ (hence with the same index set) 
+Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ (hence with the same index set)
 such that the [[topological closure]] $Cl(V_i)$ of its elements (def. \ref{ClosedSubset}) is contained in the original patches:
 
 $$
