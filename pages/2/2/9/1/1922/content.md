@@ -174,7 +174,7 @@ The [[real numbers]] equipped with their [[K-topology]] $\mathbb{R}_K$ are a [[H
 +-- {: .proof}
 ###### Proof
 
-By construction the K-topology is [[finer topology|finer]] than the usual [[Euclidean space|euclidean]] [[metric topology]]. Since the latter is Hausdorff, so is $\mathbb{R}_K$. It remains to see that $\mathbb{R}_K$ contains a point and a [[disjoint subset|disjoint]] closed subset such that do not have dijoint [[open neighbourhoods]].
+By construction the K-topology is [[finer topology|finer]] than the usual [[Euclidean space|euclidean]] [[metric topology]]. Since the latter is Hausdorff, so is $\mathbb{R}_K$. It remains to see that $\mathbb{R}_K$ contains a point and a [[disjoint subset|disjoint]] closed subset such that they do not have disjoint [[open neighbourhoods]].
 
 But this is the case essentially by construction: Observe that 
 
