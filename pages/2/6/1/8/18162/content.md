@@ -16,10 +16,33 @@
 
 ## Idea
 
-... formulation of [[separation axioms]] in terms of [[lifting properties]]...
+... [[category theory|category-theoretic]] formulation of [[separation axioms]] in terms of [[lifting properties]]...
+
+## Details
+
+### $T_4$/Normality
+
+The [[Tietze extension theorem]] applies to [[normal spaces]].
+
+Accordingly, a (Hausdorff) space $X$ is normal if and only if every function $f \colon A \to \mathbb{R}$ from a [[closed subspace]] $A \subset X$ admits an [[extension]] $\tilde{f}: X \to \mathbb{R}$, 
+
+$$
+  \array{
+    A &\overset{f}{\longrightarrow}& \mathbb{R}
+    \\
+    \downarrow & \nearrow_{\mathrlap{\tilde f}}
+    \\
+    X
+  }
+$$
+
+
+or what is the same, every [[regular monomorphism]] into $X$ in $Haus$ has the [[left lifting property]] with respect to the map $\mathbb{R} \to 1$. 
 
 
 ## References
 
 * [[Misha Gavrilovich]], _The unreasonable power of the lifting property in
 elementary mathematics_ ([pdf](http://mishap.sdf.org/by:gavrilovich/expressive_power_of_the_lifting_property.pdf))
+
+* {#MG} [[Misha Gavrilovich]], *Point set topology as diagram chasing computations* ([arXiv:1408.6710](https://arxiv.org/abs/1408.6710)). 
