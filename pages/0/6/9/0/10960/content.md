@@ -1,7 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Immanuel_Kant)
 
 ## Related $n$Lab entries
+
+* [[Critique of Pure Reason]]
 
 * [[category (philosophy)]]
 
