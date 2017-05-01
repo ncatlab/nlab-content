@@ -177,12 +177,12 @@ But every [[open neighbourhood]] of $\{0\}$ contains at least $(-\epsilon, \epsi
 
 =-- 
 
-+-- {: .num_example} 
++-- {: .num_example #Morse} 
 ###### Counter-Example 
 
 If $\omega_1$ is the first un-[[countable ordinal]] with the [[order topology]], and $\widebar{\omega_1}$ its [[one-point compactification]], then $X = \omega_1 \times \widebar{\omega_1}$ with the [[product topology]] is not normal. 
 
-Indeed, let $\infty \in \widebar{\omega_1}$ be the unique point in the [[complement]] of $\omega_1 \hookrightarrow \widebar{\omega_1}$; then it may be shown that every open set $U$ in $X$ that includes the closed set $A = \{(x, x): x \neq \infty\}$ in $X$ must somewhere intersect the closed set $\omega_1 \times \{\infty\}$ which is disjoint from $A$. For if that were false, then we could define an increasing sequence $x_n \in \omega_1$ by recursion, letting $x_0 = 0$ and letting $x_{n+1} \in \omega_1$ be the least element that is greater than $x_n$ and such that $(x_n, x_{n+1}) \notin U$. Then, letting $b \in \omega_1$ be the least [[upper bound]] of this increasing sequence, the sequence $(x_n, x_{n+1})$ converges to $(b, b)$, and yet the neighborhood $U$ of $(b, b)$ contains none of the points of this sequence, which is a contradiction. 
+Indeed, let $\infty \in \widebar{\omega_1}$ be the unique point in the [[complement]] of $\omega_1 \hookrightarrow \widebar{\omega_1}$; then it may be shown that every open set $U$ in $X$ that includes the closed set $A = \{(x, x): x \neq \infty\}$ in $X$ must somewhere intersect the closed set $\omega_1 \times \{\infty\}$ which is disjoint from $A$. For if that were false, then we could define an increasing sequence $x_n \in \omega_1$ by recursion, letting $x_0 = 0$ and letting $x_{n+1} \in \omega_1$ be the least element that is greater than $x_n$ and such that $(x_n, x_{n+1}) \notin U$. Then, letting $b \in \omega_1$ be the [[supremum]] of this increasing sequence, the sequence $(x_n, x_{n+1})$ converges to $(b, b)$, and yet the neighborhood $U$ of $(b, b)$ contains none of the points of this sequence, which is a contradiction. 
 =-- 
 
 This example also shows that general subspaces of normal spaces need not be normal, since $\omega_1 \times \widebar{\omega_1}$ is an open subspace of the compact Hausdorff space $\widebar{\omega_1} \times \widebar{\omega_1}$, which is itself normal. 
@@ -210,7 +210,7 @@ In fact the Tietze extension theorem can serve as a basis of a [[category theory
 ### The category of normal spaces
  {#CategoryOfNormalSpaces}
 
-The [[category]] of normal topological spaces with [[continuous maps]] between them seems not to be very well-behaved. It admits [[equalizers]] of pairs of maps $f, g: X \rightrightarrows Y$ (it is computed as in $Top$ or $Haus$; one uses the fact that closed subspaces of normal spaces are normal), but (curiously) it does not have [[products]] -- or at least it is not closed under products in $Top$. It follows that this category is not a [[reflective subcategory]] of $Top$, as $Haus$ is. 
+Although normal spaces are "nice" spaces (being for example [[Tychonoff spaces]], by [[Urysohn's lemma]]), the [[category]] of normal topological spaces with [[continuous maps]] between them seems not to be very well-behaved. (Cf. the rule of thumb expressed in [[dichotomy between nice objects and nice categories]].) It admits [[equalizers]] of pairs of maps $f, g: X \rightrightarrows Y$ (computed as in $Top$ or $Haus$; one uses the easy fact that closed subspaces of normal spaces are normal). However it curiously does not have [[products]] -- or at least it is not closed under products in $Top$, as shown by Counter-Example \ref{Morse}. It follows that this category is not a [[reflective subcategory]] of $Top$, as $Haus$ is. 
 
 
 ## References
