@@ -1,4 +1,10 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Aristotle)
 
+## related $n$Lab entries
+
+* [[syllogism]]
+
+* [[Science of Logic]]
+
 category: people
