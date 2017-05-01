@@ -153,7 +153,7 @@ Some applications to [[analysis]] require more general [[convergence spaces]] or
 
 * [[cofinite topology]]
 
-* [[Alexandroff space]]
+* [[order topology]] [[specialization topology]], [[Scott topology]]
 
 * [[spectral topological space]]
 
@@ -180,7 +180,9 @@ Some applications to [[analysis]] require more general [[convergence spaces]] or
 
 * [[long line]], [[line with two origins]]
 
-* [[projective space]], [[complex projective space]]
+* [[K-topology]]
+
+* [[projective space]], [[real projective space]], [[complex projective space]]
 
 * [[classifying space]]
 
