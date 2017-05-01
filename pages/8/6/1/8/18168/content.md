@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -121,7 +132,7 @@ This issue is evaded if we consider [[locally finite covers]]:
 
 +-- {: .num_lemma #ShrinkingLemmaForLocallyFiniteCountableCovers}
 ###### Lemma
-**(shrining lemma for locally finite countable covers)**
+**(shrinking lemma for locally finite countable covers)**
 
 Let $(X,\tau)$ be a [[normal topological space]] and $\{U_i \subset X\}_{i \in \mathbb{N}}$ a [[locally finite cover|locally finite]] [[countable cover]]. Then there exists [[open subsets]] $V_i \subset X$ for $i \in \mathbb{N}$ such that $V_i \subset Cl(V_i) \subset U_i$ and such that $\{V_i \subset X\}_{i \in \mathbb{N}}$ is still a cover.
 
@@ -161,7 +172,7 @@ We now invoke [[Zorn's lemma]] to generalize the shrinking lemma for finitely ma
 
 +-- {: .proof}
 ###### Proof
-of lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
+of the general shrinking lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
 
 Let $\{U_i \subset X\}_{i \in I}$ be the given locally finite cover of the normal space $(X,\tau)$. Consider the set $S$ of [[pairs]] $(J, \mathcal{V})$ consisting of
 
