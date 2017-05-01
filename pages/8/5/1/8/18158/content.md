@@ -605,7 +605,7 @@ Prop \ref{ZariskiClosedSubsetsInSpecR} suggests to consider the set of [[prime i
 ###### Example
 
 If the [[field]] $k$ is _not_ a [[finite field]], then the
-Zariski topology on affine space (def. \ref{ZariskiOpenSubsetsOnAffineSpace}) is _not_ [[Hausdorff topological space|Hausdorff]].
+Zariski topology on the [[affine space]] (def. \ref{ZariskiOpenSubsetsOnAffineSpace}) is _not_ [[Hausdorff topological space|Hausdorff]].
 
 This is because the solution set to a system of [[polynomials]] over an infinite polynomial is always a [[finite set]]. This means that in this case all the Zariski closed subsets $V(\mathcal{F})$ are [[finite sets]]. This in turn implies that the [[intersection]] of _every_ pair of [[inhabited set|non-empty]] Zariski open subsets is [[inhabited|non-empty]].
 
