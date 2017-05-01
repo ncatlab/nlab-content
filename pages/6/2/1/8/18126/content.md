@@ -3826,24 +3826,14 @@ $$
 
 But if the two points were distinct, $x \neq y$, then by $T_0$ one of the above unions would contain $x$ or $y$, while the other would not, in contradiction to the above equality. Hence we have a [[proof by contradiction]].
 
-Conversely, assume that if $x,y \in X$ are such that $Cl\{x\} = Cl\{y\}$ then $x = y$.
-We need to show that if $x \neq y$ then there exists an open neighbourhood around one of the
-two points not containing the other.
+Conversely, assume that $\left( Cl\{x\} = Cl\{y\}\right) \Rightarrow \left( x = y\right)$, and assume that $x \neq y$.
+Hence by [[contraposition]] $\mathrm{Cl}(\{x\}) \neq \mathrm{Cl}(\{y\})$. We need to show that there exists
+an open set which contains one of the two points, but not the other.
 
-Hence assume that $x \neq y$.
-By assumption it follows that $Cl(\{x\} \neq Cl(\{y\})$, hence that now
-
-$$
-  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{x\} } }{\cup} \left( U \right)
-  \;\neq\;
-  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{y\} } }{\cup} \left( U \right)
- \,.
-$$
-
-This means that there must be at least one open subset which contains $x$ but not $y$, or vice versa.
-
-
-
+Assume there were no such open subset. By lemma \ref{UnionOfOpensGivesClosure} this would mean
+that $x \in \mathrm{Cl}(\{y\})$ and that $y \in \mathrm{Cl}(\{x\})$. But this would imply that
+$Cl(\{x\}) \subset \mathrm{Cl}(\{y\)$ and that $\mathrm{Cl}(\{y\}) \subset \mathrm{Cl}(\{x\})$,
+hence that $\mathrm{Cl}(\{x\}) = \mathrm{Cl}(\{y\})$. This is a [[proof by contradiction]].
 
 =--
 
