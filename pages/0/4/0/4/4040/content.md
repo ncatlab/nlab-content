@@ -75,6 +75,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[discrete space]], [[codiscrete space]]
 
+* [[order topology]], [[specialization topology]], [[Scott topology]]
+
 * [[Euclidean space]]
 
   * [[real line]], [[plane]]
