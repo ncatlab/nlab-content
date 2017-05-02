@@ -5300,7 +5300,7 @@ That neither class is contained in the other is shown by the following counter-e
 What makes the concept of [[sober topological spaces]] special is that
 for them the concept of [[continuous functions]] may be expressed entirely in terms
 of the relations between their [[open subsets]], disregarding the underlying
-set of points of which these open are in fact subsets.
+set of points of which these opens are in fact subsets.
 
 Recall from example \ref{ContinuousFunctionGivesFrameHomomorphism}
 that for every [[continuous function]] $f \colon (X, \tau_X) \to (Y, \tau_Y)$
@@ -5401,7 +5401,9 @@ is often stated as saying that sober topological spaces are [[equivalence of cat
 "[[locales with enough points]]" ([Johnstone 82, II 1.](#Johnstone82)). Here "[[locale]]" refers to a concept akin to topological spaces where one considers
 _just_ a "[[frame of open subsets]]" $\tau_X$, without requiring that its elements be actual [[subsets]] of some ambient set.
 The natural notion of [[homomorphism]] between such generalized topological spaces are clearly the [[frame]] homomorphisms
-$\tau_X \leftarrow \tau_Y$ as above. From this persepctive, prop. \ref{FrameMorphismsBetweenOpensOfSoberSpaces} says that
+$\tau_X \leftarrow \tau_Y$ from def. \ref{HomomorphismOfFramesOfOpens}. 
+
+From this perspective, prop. \ref{FrameMorphismsBetweenOpensOfSoberSpaces} says that
 sober topological spaces $(X, \tau_X)$ are entirely characterized by their [[frames of opens]] $\tau_X$ and just so happen to
 "have enough points" such that these are actual open subsets of some ambient set, namely of $X$.
 
@@ -5412,7 +5414,7 @@ sober topological spaces $(X, \tau_X)$ are entirely characterized by their [[fra
 
 ### Sober reflection
 
-We saw above in prop. \ref{HausdorffReflection} that every toopological space has a "best approximation from the left" by a [[Hausdorff topological space]]. We now discuss the analogous statement for [[sober topological spaces]].
+We saw above in prop. \ref{HausdorffReflection} that every $T_n$-toopological space for $n \in \{0,1,2\}$ has a "best approximation from the left" by a $T_n$-topological space (for $n = 2$: "[[Hausdorff reflection]]"). We now discuss the analogous statement for [[sober topological spaces]].
 
 
 Recall again the [[point topological space]]  $\ast \coloneqq ( \{1\}, \tau_\ast = \left\{ \emptyset, \{1\}\right\} )$
@@ -5421,16 +5423,17 @@ Recall again the [[point topological space]]  $\ast \coloneqq ( \{1\}, \tau_\ast
 
 +-- {: .num_defn #SoberificationConstruction}
 ###### Definition
+**([[sober reflection]])**
 
 Let $(X,\tau)$ be a [[topological space]].
 
 Define $S X$ to be the set
 
 $$
-  S X \coloneqq Hom_{Frame}( \tau_X, \tau_\ast )
+  S X \coloneqq FrameHom( \tau_X, \tau_\ast )
 $$
 
-of [[frame]] [[homomorphisms]] from the [[frame of opens]] of $X$ to that of the point. Define a [[topological space|topology]] $\tau_{S X} \subset P(S X)$ on this set by declaring it to have one element $\tilde U$ for each element $U \in \tau_X$ and given by
+of [[frame]] [[homomorphisms]] (def. \ref{HomomorphismOfFramesOfOpens}) from the [[frame of opens]] of $X$ to that of the point. Define a [[topological space|topology]] $\tau_{S X} \subset P(S X)$ on this set by declaring it to have one element $\tilde U$ for each element $U \in \tau_X$ and given by
 
 $$
   \tilde U
@@ -5455,10 +5458,13 @@ $$
 
 which sends an element $x \in X$ to the function which assigns [[inverse images]] of the [[constant function]] $const_x \;\colon\; \{1\} \to X$ on that element.
 
+We are going to call this function the _[[sober reflection]]_ of $X$. 
+
 =--
 
 +-- {: .num_lemma #SoberificationConstructionWellDefined}
 ###### Lemma
+**([[sober reflection]] is well defined)**
 
 The construction $(S X, \tau_{S X})$ in def. \ref{SoberificationConstruction} is a [[topological space]], and the function $s_X \colon X \to S X$ is a [[continuous function]]
 
@@ -5517,7 +5523,7 @@ $$
   \,,
 $$
 
-where now we used that the frame homomorphism $p$ preserves finite intersections.
+where we used that the frame homomorphism $p$ preserves finite intersections.
 
 To see that $s_X$ is continuous, observe that $s_X^{-1}(\tilde U) = U$, by construction.
 
@@ -5525,15 +5531,14 @@ To see that $s_X$ is continuous, observe that $s_X^{-1}(\tilde U) = U$, by const
 
 +-- {: .num_lemma #UnitIntoSXDetectsT0AndSoberity}
 ###### Lemma
+**([[sober reflection]] detects $T_0$ and soberity)**
 
 For $(X, \tau_X)$ a [[topological space]],
 the function $s_X \colon X \to S X$ from def. \ref{SoberificationConstruction} is
 
-1. an [[injection]] precisely if $X$ is $T_0$ (def. \ref{HausdorffTopologicalSpace});
+1. an [[injection]] precisely if $(X,\tau_X)$ is $T_0$ (def. \ref{HausdorffTopologicalSpace});
 
-1. a [[bijection]] precisely if $X$ is [[sober topological space|sober]] (def. \ref{Sober}).
-
-   In this case $s_X$ is in fact a [[homeomorphism]].
+1. a [[bijection]] precisely if $(X,\tau_Y)$ is [[sober topological space|sober]] (def. \ref{Sober}), in which  case $s_X$ is in fact a [[homeomorphism]] (def. \ref{Homeomorphism}).
 
 =--
 
@@ -5542,7 +5547,7 @@ the function $s_X \colon X \to S X$ from def. \ref{SoberificationConstruction} i
 
 By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} there is an identification $S X \simeq IrrClSub(X)$ and via this $s_X$ is identified with the map $x \mapsto Cl(\{x\})$.
 
-Hence the second statement follows by definition, and the first statement by [this prop.](separation+axioms#T0InTermsOfClosureOfPoints).
+Hence the second statement follows by definition, and the first statement by prop. \ref{T0InTermsOfClosureOfPoints}.
 
 That in the second case $s_X$ is in fact a homeomorphism follows from the definition of the opens $\tilde U$: they are identified with the opens $U$ in this case (...expand...).
 
@@ -5551,12 +5556,11 @@ That in the second case $s_X$ is in fact a homeomorphism follows from the defini
 
 +-- {: .num_lemma #SoberificationIsIndeedSober}
 ###### Lemma
+**([[soberification]] lands in [[sober spaces]], e.g. [Johnstone 82, lemma II 1.7](#Johnstone82))**
 
 For $(X,\tau)$ a [[topological space]], then the topological space $(S X, \tau_{S X})$ from def. \ref{SoberificationConstruction}, lemma \ref{SoberificationConstructionWellDefined} is sober.
 
 =--
-
-(e.g. [Johnstone 82, lemma II 1.7](#Johnstone82))
 
 +-- {: .proof}
 ###### Proof
@@ -5565,20 +5569,22 @@ Let $S X \backslash \tilde U$ be an [[irreducible closed subspace]] of $(S X, \t
 
 Observe first that also $X \backslash U$ is irreducible.
 
-To see this use [this prop.](irreducible+closed+subspace#OpenSubsetVersionOfClosedIrreducible), saying that irreducibility of $X \backslash U$ is equivalent to $U_1 \cap U_2 \subset U \Rightarrow (U_1 \subset U) or (U_2 \subset U)$. But if $U_1 \cap U_2 \subset U$ then also $\tilde U_1 \cap \tilde U_2 \subset \tilde U$ (as in the [proof](#ProofOfSoberificationConstructionWellDefined) of lemma \ref{SoberificationConstructionWellDefined}) and hence by assumption on $\tilde U$ it follows that $\tilde U_1 \subset \tilde U$ or $\tilde U_2 \subset \tilde U$. By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} this in turn implies $U_1 \subset U$ or $U_2 \subset U$.  In conclusion, this shows that also $X \backslash U$ is irreducible .
+To see this use prop. \ref{OpenSubsetVersionOfClosedIrreducible}, saying that irreducibility of $X \backslash U$ is equivalent to $U_1 \cap U_2 \subset U \Rightarrow (U_1 \subset U) or (U_2 \subset U)$. But if $U_1 \cap U_2 \subset U$ then also $\tilde U_1 \cap \tilde U_2 \subset \tilde U$ (as in the [proof](#ProofOfSoberificationConstructionWellDefined) of lemma \ref{SoberificationConstructionWellDefined}) and hence by assumption on $\tilde U$ it follows that $\tilde U_1 \subset \tilde U$ or $\tilde U_2 \subset \tilde U$. By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} this in turn implies $U_1 \subset U$ or $U_2 \subset U$.  In conclusion, this shows that also $X \backslash U$ is irreducible .
 
 By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} this irreducible closed subspace corresponds to a point $p \in S X$. By that same lemma, this frame homomorphism $p \colon \tau_X \to \tau_\ast$ takes the value $\emptyset$ on all those opens which are inside $U$. This means that the [[topological closure]] of this point is just $S X \backslash \tilde U$.
 
 This shows that there exists at least one point of which $X \backslash \tilde U$ is the topological closure. It remains to see that there is no other such point.
 
-So let $p_1 \neq p_2 \in S X$ be two distinct points. This means that there exists $U \in \tau_X$ with $p_1(U) \neq p_2(U)$. Equivalently this says that $\tilde U$ contains one of the two points, but not the other. This means that $(S X, \tau_{S X})$ is [[separation axiom|T0]]. By [this prop.](separation+axioms#T0InTermsOfClosureOfPoints) this is equivalent to there being no two points with the same topological closure.
+So let $p_1 \neq p_2 \in S X$ be two distinct points. This means that there exists $U \in \tau_X$ with $p_1(U) \neq p_2(U)$. Equivalently this says that $\tilde U$ contains one of the two points, but not the other. This means that $(S X, \tau_{S X})$ is [[separation axiom|T0]]. 
+By prop. \ref{T0InTermsOfClosureOfPoints} this is equivalent to there being no two points with the same topological closure.
 
 =--
 
 +-- {: .num_prop}
 ###### Proposition
+**(unique factorization through soberification)**
 
-For $(X, \tau_X)$ any [[topological space]], for $(Y,\tau_Y^{sob})$ a sober topological space, and for $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ a [[continuous function]], then it factors uniquely through the soberification $s_X \colon (X, \tau_X) \longrightarrow (S X, \tau_{S X})$ from def. \ref{SoberificationConstruction}, lemma \ref{SoberificationConstructionWellDefined}
+For $(X, \tau_X)$ any [[topological space]], for $(Y,\tau_Y^{sob})$ a sober topological space, and for $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ a [[continuous function]], then it factors uniquely through the [[soberification]] $s_X \colon (X, \tau_X) \longrightarrow (S X, \tau_{S X})$ from def. \ref{SoberificationConstruction}, lemma \ref{SoberificationConstructionWellDefined}
 
 $$
   \array{
@@ -5597,7 +5603,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the construction in def. \ref{SoberificationConstruction}, we the outer part of the following square [[commuting square|commutes]]:
+By the construction in def. \ref{SoberificationConstruction}, we find that the outer part of the following square [[commuting square|commutes]]:
 
 $$
   \array{
@@ -5641,6 +5647,855 @@ Here on the right we used again lemma \ref{UnitIntoSXDetectsT0AndSoberity} to fi
 
 =--
 
+
+$\,$
+
+## Universal constructions
+ {#UniversalConstructions}
+
+
+One point of the general definition of [[topological space]] [above](#TopologicalSpaces) is that it admits constructions which intuitively should exist on "continuous spaces", but which do not in general exist on  [[metric spaces]].
+
+Examples include the construction of [[quotient topological spaces]] of metric spaces, which are not [[Hausdorff space|Hausdorff]]
+anymore (e.g. example \ref{LineWithTwoOrigins}), and hence in particular are not metric spaces anymore (by example \ref{HausdorffMetricSpace}).
+
+Now from a more abstract point of view, a [[quotient topological space]] is a special case of a "[[colimit]]" of topological
+spaces. This we explain now.
+
+Generally, for every [[diagram]] in the [[category]] [[Top]] of topological spaces (remark \ref{TopCat}),
+hence for every collection of topological spaces with a system of [[continuous functions]] betwen them, then
+there exists a further topological space, called the _[[colimit|colimiting]] space_ of the diagram,
+which may be thought of as the result of "gluing" all the spaces in the diagram together, while using the
+maps between them in order to identify those parts "along which" the spaces are to be glued.
+
+One may formalize this intuition by saying that the colimiting space has the property that it receives compatible continuous functions
+from all the spaces in the diagram, and that it is characterized by the fact that it is
+_[[universal property|universal with this property]]_: every compatible system of maps to another space uniquely
+factors through the colimiting one.
+
+Therefore forming colimits of topological spaces is a convenient means to construct new spaces which have
+prescribed properties for continuous functions out of them. We implicitly used a simple special case of this
+phenomenon in the proof of the [[Hausdorff reflection]] in prop. \ref{HausdorffReflection}, when we concluded
+the existence of certain unique factorizing maps out of the Hausdorff qotient of a topological space.
+
+[[formal dual|Dual]] to the concept of [[colimits]] of topological space is that of "[[limits]]" of
+[[diagrams]] of topological spaces (not to be confused with [[limits of sequences]] _in_ a topological space).
+Here one considers topological spaces with the [[universal property]] of having compatible continuous
+functions into a given [[diagram]] of spaces.
+
+Most constructions of new topological spaces that one builds from given spaces are obtained by forming limits and/or colimits
+of diagrams of the original spaces.
+
+
+### Limits and colimits
+ {#LimitsAndColimits}
+
+
++-- {: .num_defn #Diagram}
+###### Definition
+**([[diagram]] in a [[category]])**
+
+A [[diagram]] $X_\bullet$ in a [[category]], such as the [[category]] [[Top]] of [[topological spaces]]
+or the category [[Set]] of [[sets]] from remark \ref{TopCategory}, is
+
+1. a [[set]] $\{ X_i \}_{i \in I}$ of [[objects]] in the category;
+
+1. for every [[pair]] $(i,j) \in I \times I$ of labels of objects a [[set]]
+   $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[morphisms]] between these objects;
+
+1. for each [[triple]] $i,j,k \in I$ [[function]]
+
+   $$
+     comp_{i,j,k} \;\colon\; I_{i,j} \times I_{j,k} \longrightarrow I_{i,k}
+   $$
+
+such that
+
+1. for every $i \in I$ the [[identity morphisms]] $id_{X_i} \colon X_i \to X_i$ is part of the diagram;
+
+1. $comp$ is [[associativity|associtive]] and [[unital]] in the evident sense,
+
+1. for every composable pair of morphisms
+
+  $$
+    X_i
+      \overset{f_{\alpha} }{\longrightarrow}
+    X_j
+      \overset{ f_{\beta} }{\longrightarrow}
+    X_k
+  $$
+
+  then the [[composition|composite]] of these two morphisms equals the morphisms of the diagram that is
+  labeled by the value of $comp_{i,j,k}$ on their labels:
+
+  $$
+    f_{\beta} \circ f_\alpha
+    \,=\,
+    f_{comp_{i,j,k}( \alpha, \beta )}
+    \,.
+  $$
+
+The last condition we depict as follows:
+
+$$
+  \array{
+    && X_j
+    \\
+    & {}^{\mathllap{f_{\alpha}}}\nearrow && \searrow^{\mathrlap{f_{\beta}}}
+    \\
+    X_i && \underset{ comp_{i,j,k}(\alpha,\beta) }{\longrightarrow} && X_k
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .num_defn #Cone}
+###### Definition
+**([[cone]] over a [[diagram]])**
+
+Consider a [[diagram]]
+
+$$
+  X_\bullet
+    \,=\,
+  \left(
+     \left\{
+       X_i \overset{f_\alpha}{\longrightarrow} X_j
+     \right\}_{i,j \in I, \alpha \in I_{i,j}}
+     \,,\,
+     \mathrm{comp}
+  \right)
+$$
+
+in some [[category]] (def. \ref{Diagram}). Then
+
+1. a _[[cone]]_ over this diagram is
+
+   1. an [[object]] $\tilde X$ in the category;
+
+   1. for each $i \in I$ a morphism $\tilde X \overset{p_i}{\longrightarrow} X_i$ in the category
+
+   such that
+
+   * for all $(i,j) \in I \times I$ and all $\alpha \in I_{i,j}$ then the condition
+
+     $$
+       f_{\alpha} \circ p_i = p_j
+     $$
+
+     holds, which we depict as follows:
+
+     $$
+       \array{
+         && \tilde X
+         \\
+         & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p'_j}}
+         \\
+         X_i
+           && \underset{f_\alpha}{\longrightarrow} &&
+         X_j
+       }
+     $$
+
+1. a _[[co-cone]]_ over this diagram is
+
+   1. an [[object]] $\tilde X$ in the category;
+
+   1. for each $i \in I$ a morphism $q_i \colon X_i \longrightarrow \tilde X$ in the category
+
+   such that
+
+   * for all $(i,j) \in I \times I$ and all $\alpha \in I_{i,j}$ then the condition
+
+     $$
+       q_j \circ f_{\alpha} = q_i
+     $$
+
+     holds, which we depict as follows:
+
+     $$
+       \array{
+         X_i && \overset{f_\alpha}{\longrightarrow} && X_j
+         \\
+         & {}_{\mathllap{q_i}}\searrow && \swarrow_{\mathrlap{q_j}}
+         \\
+         && \tilde X
+       }
+       \,.
+     $$
+
+=--
+
++-- {: .num_defn #LimitingCone}
+###### Definition
+**([[limit|limiting cone]] over a [[diagram]])**
+
+Consider a [[diagram]]
+
+$$
+  X_\bullet
+    \,=\,
+  \left(
+     \left\{
+       X_i \overset{f_\alpha}{\longrightarrow} X_j
+     \right\}_{i,j \in I, \alpha \in I_{i,j}}
+     \,,\,
+     \mathrm{comp}
+  \right)
+$$
+
+in some [[category]] (def. \ref{Diagram}). Then
+
+1. its _[[limit|limiting cone]]_ (or just _[[limit]]_ for short) is, if it exists,
+   [[generalized the|the]] [[cone]]
+
+   $$
+     \left\{
+     \array{
+       && \underset{\longleftarrow}{\lim}_i X_i
+       \\
+       & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
+       \\
+       X_i
+         && \underset{f_\alpha}{\longrightarrow} &&
+       X_j
+     }
+     \right\}
+   $$
+
+   over this diagram (def. \ref{Cone}) which is _universal_ or _initial_ among all
+   possible cones,
+   in that it has the property that for
+
+   $$
+     \left\{
+     \array{
+       && \tilde X
+       \\
+       & {}^{\mathllap{p'_i}}\swarrow && \searrow^{\mathrlap{p'_j}}
+       \\
+       X_i
+         && \underset{f_\alpha}{\longrightarrow} &&
+       X_j
+     }
+     \right\}
+   $$
+
+   any other [[cone]], then there is a unique morphism
+
+   $$
+     \phi \;\colon\; \tilde X \overset{}{\longrightarrow} \underset{\longrightarrow}{\lim}_i X_i
+   $$
+
+   that factors the given cone through the limiting cone, in that for all $i \in I$ then
+
+   $$
+     p'_i = p_i \circ \phi
+   $$
+
+   which we depict as follows:
+
+   $$
+     \array{
+       \tilde X
+       \\
+       {}^{\mathllap{\phi}}\downarrow & \searrow^{\mathrlap{p_i}}
+       \\
+       \underset{\longrightarrow}{\lim}_i X_i
+       &\underset{p_i}{\longrightarrow}&
+       X_i
+     }
+   $$
+
+1. its _[[colimit|colimiting cocone]]_ (or just _[[colimit]]_ for short) is, if it exists,
+   [[generalized the|the]] [[cocone]]
+
+   $$
+     \left\{
+     \array{
+       X_i
+         && \underset{f_\alpha}{\longrightarrow} &&
+       X_j
+       \\
+       & {}^{\mathllap{q_i}}\searrow && \swarrow^{\mathrlap{q_j}}
+       \\
+       \\
+       && \underset{\longrightarrow}{\lim}_i X_i
+     }
+     \right\}
+   $$
+
+   under this diagram (def. \ref{Cone}) which is _universal_ or _terminal_ among all
+   possible co-cones,
+   in that it has the property that for
+
+   $$
+     \left\{
+     \array{
+       X_i
+         && \underset{f_\alpha}{\longrightarrow} &&
+       X_j
+       \\
+       & {}^{\mathllap{q'_i}}\searrow && \swarrow_{\mathrlap{q'_j}}
+       \\
+       && \tilde X
+     }
+     \right\}
+   $$
+
+   any other [[cocone]], then there is a unique morphism
+
+   $$
+     \phi \;\colon\;  \underset{\longrightarrow}{\lim}_i X_i \overset{}{\longrightarrow} \tilde X
+   $$
+
+   that factors the given co-cone through the co-limiting cocone, in that for all $i \in I$ then
+
+   $$
+     q'_i = \phi \circ q_i
+   $$
+
+   which we depict as follows:
+
+   $$
+     \array{
+       X_i
+       &\overset{q_i}{\longrightarrow}&
+       \underset{\longrightarrow}{\lim}_i X_i
+       \\
+       {}^{\mathllap{\phi}}\downarrow & \swarrow^{\mathrlap{q'_i}}
+       \\
+       \tilde X
+     }
+   $$
+
+=--
+
+
+
++-- {: .num_prop #SetLimits}
+###### Proposition
+**(limits of sets)**
+
+Let
+
+$$
+  X_\bullet
+    \,=\,
+  \left(
+     \left\{
+       X_i \overset{f_\alpha}{\longrightarrow} X_j
+     \right\}_{i,j \in I, \alpha \in I_{i,j}}
+  \right)
+$$
+
+be a [[diagram]] of [[sets]] (def. \ref{Diagram}). Then
+
+1. its [[limit|limit cone]] (def. \ref{LimitingCone}) exists and is given by the following [[subset]] of the [[Cartesian product]]
+   $\underset{i \in I}{\times} X_i$
+   of all the [[sets]] $X_i$ appearing in the diagram
+
+   $$
+     \underset{\longleftarrow}{\lim}_i X_i
+     \,\overset{\phantom{AAA}}{\hookrightarrow}\,
+     \underset{i \in I}{\times} X_i
+   $$
+
+   on those [[tuples]] of elements which match the [[graphs]] of the functions appearing in the diagram:
+
+   $$
+     \underset{\longleftarrow}{\lim}_{i} X_i
+     \;\simeq\;
+     \left\{
+       (x_i)_{i \in I} \in \underset{i \in I}{\times} X_i
+       \,\vert\,
+       \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\forall}
+       \left(
+         f_{\alpha}(x_i) = x_j
+       \right)
+     \right\}
+   $$
+
+1. its [[colimit|colimiting co-cone]] (def. \ref{LimitingCone}) exists and s given by the [[quotient set]] of the [[disjoint union]] $\underset{i \in I}{\sqcup} X_i$ of all the [[sets]] $X_i$ appearing in the diagram
+
+   $$
+     \underset{i \in I}{\sqcup} X_i
+       \,\overset{\phantom{AAA}}{\longrightarrow}\,
+     \underset{\longrightarrow}{\lim}_{i \in I} X_i
+   $$
+
+   with respect to the [[equivalence relation]] which is generated from the [[graphs]] of the functions in the diagram:
+
+   $$
+     \underset{\longrightarrow}{\lim}_i X_i
+     \;\simeq\;
+     \left(
+       \underset{i \in I}{\sqcup} X_i
+     \right)/
+     \left(
+       (x \sim x')
+         \Leftrightarrow
+       \left(
+         \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\exists}
+         \left(
+           f_\alpha(x) = x'
+         \right)
+       \right)
+     \right)
+   $$
+
+
+=--
+
+
+
+Now we turn to limits of diagrams of topological spaces.
+
++-- {: .num_defn #InitialAndFinalTopologies}
+###### Definition
+
+Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological spaces]], and let $S \in Set$ be a bare [[set]]. Then
+
+* For $\{S \stackrel{f_i}{\to} S_i \}_{i \in I}$ a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[minimum]] collection of [[open subsets]] such that all $f_i \colon (S,\tau_{initial}(\{f_i\}_{i \in I}))\to X_i$ are [[continuous function|continuous]].
+
+* For $\{S_i \stackrel{f_i}{\to} S\}_{i \in I}$ a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[maximum]] collection of [[open subsets]] such that all $f_i \colon X_i \to (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
+
+=--
+
++-- {: .num_example #TopologicalSubspace}
+###### Example
+
+For $X$ a single topological space, and $\iota_S \colon S \hookrightarrow U(X)$ a subset of its underlying set, then the initial topology $\tau_{intial}(\iota_S)$, def. \ref{InitialAndFinalTopologies}, is the [[subspace topology]], making
+
+$$
+  \iota_S
+  \;\colon\;
+  (S, \tau_{initial}(\iota_S))
+  \hookrightarrow
+  X
+$$
+
+a [[topological subspace]] inclusion.
+
+=--
+
++-- {: .num_example #QuotientTopology}
+###### Example
+
+Conversely, for $p_S \colon U(X) \longrightarrow S$ an [[epimorphism]], then the final topology $\tau_{final}(p_S)$ on $S$ is the _[[quotient topology]]_.
+
+=--
+
+
+
+
++-- {: .num_prop #DescriptionOfLimitsAndColimitsInTop}
+###### Proposition
+
+Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$ be an $I$-[[diagram]] in [[Top]] (a [[functor]] from $I$ to $Top$), with components denoted $X_i = (S_i, \tau_i)$, where $S_i \in Set$ and $\tau_i$ a topology on $S_i$. Then:
+
+1. The [[limit]] of $X_\bullet$ exists and is given by [[generalized the|the]] topological space whose underlying set is [[generalized the|the]] limit in [[Set]] of the underlying sets in the diagram, and whose topology is the [[initial topology]], def. \ref{InitialAndFinalTopologies}, for the functions $p_i$ which are the limiting [[cone]] components:
+
+   $$
+     \array{
+       && \underset{\longleftarrow}{\lim}_{i \in I} S_i
+       \\
+       & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
+       \\
+       S_i && \underset{}{\longrightarrow} && S_j
+     }
+     \,.
+   $$
+
+   Hence
+
+   $$
+     \underset{\longleftarrow}{\lim}_{i \in I} X_i
+     \simeq
+     \left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)
+   $$
+
+1. The [[colimit]] of $X_\bullet$ exists and is the topological space whose underlying set is the colimit in [[Set]] of the underlying diagram of sets, and whose topology is the [[final topology]], def. \ref{InitialAndFinalTopologies} for the component maps $\iota_i$ of the colimiting [[cocone]]
+
+   $$
+     \array{
+       S_i && \longrightarrow && S_j
+       \\
+       & {}_{\mathllap{\iota_i}}\searrow && \swarrow_{\mathrlap{\iota_j}}
+       \\
+       && \underset{\longrightarrow}{\lim}_{i \in I} S_i
+     }
+     \,.
+   $$
+
+   Hence
+
+   $$
+     \underset{\longrightarrow}{\lim}_{i \in I} X_i
+     \simeq
+     \left(\underset{\longrightarrow}{\lim}_{i \in I} S_i,\; \tau_{final}(\{\iota_i\}_{i \in I})\right)
+   $$
+
+=--
+
+(e.g. [Bourbaki 71, section I.4](#Bourbaki71))
+
++-- {: .proof}
+###### Proof
+
+The required [[universal property]] of $\left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)$ is immediate: for
+
+$$
+  \array{
+    && (S,\tau)
+    \\
+    & {}^{\mathllap{f_i}}\swarrow && \searrow^{\mathrlap{f_j}}
+    \\
+    X_i && \underset{}{\longrightarrow} && X_i
+  }
+$$
+
+any [[cone]] over the diagram, then by construction there is a unique function of underlying sets $S \longrightarrow \underset{\longleftarrow}{\lim}_{i \in I} S_i$ making the required diagrams commute, and so all that is required is that this unique function is always [[continuous function|continuous]]. But this is precisely what the initial topology ensures.
+
+The case of the colimit is [[formal dual|formally dual]].
+
+=--
+
+$\,$
+
+### Examples
+
+
++-- {: .num_example #PointTopologicalSpaceAsEmptyLimit}
+###### Example
+
+The limit over the empty diagram in $Top$ is the [[point space]] $\ast$ (example \ref{Point}).
+
+=--
+
++-- {: .num_example #DisjointUnionOfTopologicalSpacesIsCoproduct}
+###### Example
+
+For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[coproduct]] $\underset{i \in I}{\sqcup} X_i \in Top$ is their
+_[[disjoint union]]_ (example \ref{DisjointUnionOfTopologicalSpaces}).
+
+=--
+
++-- {: .num_example #InfiniteProductTopologicalSpace}
+###### Example
+
+For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[product]] $\underset{i \in I}{\prod} X_i \in Top$ is the [[Cartesian product]] of the underlying sets equipped with the _[[product topology]]_, also called the _[[Tychonoff product]]_.
+
+In the case that $S$ is a [[finite set]], such as for binary product spaces $X \times Y$, then a [[basis for a topology|sub-basis]] for the product topology is given by the [[Cartesian products]] of the open subsets of (a basis for) each factor space.
+
+=--
+
+
++-- {: .num_example #EqualizerInTop}
+###### Example
+
+The [[equalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the equalizer of the underlying functions of sets
+
+$$
+  eq(f,g)
+   \hookrightarrow
+  S_X
+    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}}
+  S_Y
+$$
+
+(hence the largets subset of $S_X$ on which both functions coincide) and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
+
+=--
+
+
++-- {: .num_example #CoequalizerInTop}
+###### Example
+
+The [[coequalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the coequalizer of the underlying functions of sets
+
+$$
+  S_X
+    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}}
+  S_Y
+    \longrightarrow
+  coeq(f,g)
+$$
+
+(hence the [[quotient set]] by the [[equivalence relation]] generated by $f(x) \sim g(x)$ for all $x \in X$)  and equipped with the [[quotient topology]], example \ref{QuotientTopology}.
+
+=--
+
++-- {: .num_example #PushoutInTop}
+###### Example
+
+For
+
+$$
+  \array{
+     A &\overset{g}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{f}}\downarrow
+     \\
+     X
+  }
+$$
+
+two [[continuous functions]] out of the same [[domain]], then the [[colimit]] under this diagram is also called the _[[pushout]]_, denoted
+
+$$
+  \array{
+     A &\overset{g}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{g_\ast f}}
+     \\
+     X &\longrightarrow& X \sqcup_A Y
+     \,.
+  }
+  \,.
+$$
+
+(Here $g_\ast f$ is also called the pushout of $f$, or the _[[base change|cobase change]]_ of $f$ along $g$.) If $g$ is an inclusion, one also write $X \cup_f Y$ and calls this the _attaching space_.
+
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/AttachingSpace.jpg" width="450"></div>
+
+By example \ref{CoequalizerInTop} the pushout/attaching space is the [[quotient topological space]]
+
+$$
+  X \sqcup_A Y \simeq (X\sqcup Y)/\sim
+$$
+
+of the [[disjoint union]] of $X$ and $Y$ subject to the [[equivalence relation]] which identifies a point in $X$ with a point in $Y$ if they have the same pre-image in $A$.
+
+(graphics from [Aguilar-Gitler-Prieto 02](#AguilarGitlerPrieto02))
+
+=--
+
+
+
+
+
+
++-- {: .num_example #TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}
+###### Example
+
+As an important special case of example \ref{PushoutInTop},  let
+
+$$
+  i_n \colon S^{n-1}\longrightarrow D^n
+$$
+
+be the canonical inclusion of the standard [[n-sphere|(n-1)-sphere]] as the [[boundary]] of the standard [[n-disk]]
+from example \ref{SpheresAndDisks}.
+
+
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="http://ncatlab.org/nlab/files/GluingHemispheres.jpg" width="400"></div>
+
+Then the colimit in [[Top]] under the diagram, i.e. the [[pushout]] of $i_n$ along itself,
+
+$$
+  \left\{
+     D^n \overset{i_n}{\longleftarrow} S^{n-1} \overset{i_n}{\longrightarrow}
+     D^n
+  \right\}
+  \,,
+$$
+
+is the [[n-sphere]] $S^n$:
+
+$$
+  \array{
+    S^{n-1} &\overset{i_n}{\longrightarrow}& D^n
+    \\
+    {}^{\mathllap{i_n}}\downarrow &(po)& \downarrow
+    \\
+    D^n &\longrightarrow& S^n
+  }
+  \,.
+$$
+
+(graphics from Ueno-Shiga-Morita 95)
+
+=--
+
+
+
++-- {: .num_defn #SingleCellAttachment}
+###### Definition
+**(single cell attachment)**
+
+For $X$ any [[topological space]] and for $n \in \mathbb{N}$, then an _$n$-cell attachment_ to $X$ is the result of gluing an [[n-disk]] to $X$, along a prescribed image of its bounding [[n-sphere|(n-1)-sphere]] (def. \ref{SpheresAndDisks}):
+
+Let
+
+$$
+  \phi \;\colon\; S^{n-1} \longrightarrow X
+$$
+
+be a [[continuous function]], then the "attaching space"
+
+$$
+  X \cup_\phi D^n \,\in Top
+$$
+
+is the topological space which is the [[pushout]] of the boundary inclusion of the $n$-sphere along $\phi$, hence the universal space that makes the following [[commuting diagram|diagram commute]]:
+
+$$
+  \array{
+    S^{n-1} &\stackrel{\phi}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow &(po)& \downarrow
+    \\
+    D^n &\longrightarrow& X \cup_\phi D^n
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example }
+###### Example
+
+A single cell attachment of a 0-cell, according to example \ref{SingleCellAttachment} is the same as forming the [[disjoint union space]] $X \sqcup \ast$ with the [[point]] space $\ast$:
+
+$$
+  \array{
+     (S^{-1} = \emptyset) &\overset{\exists !}{\longrightarrow}&  X
+     \\
+     \downarrow &(po)& \downarrow
+     \\
+     (D^0 = \ast) &\longrightarrow& X \sqcup \ast
+  }
+  \,.
+$$
+
+In particular if we start with the [[empty topological space]] $X = \emptyset$ itself, then by attaching 0-cells we obtain a [[discrete topological space]]. To this then we may attach higher dimensional cells.
+
+
+=--
+
+
++-- {: .num_defn #CellAttachments}
+###### Definition
+**(attaching many cells at once)**
+
+
+If we have a [[set]] of attaching maps $\{S^{n_i-1} \overset{\phi_i}{\longrightarrow} X\}_{i \in I}$ (as in def. \ref{SingleCellAttachment}), all to the same space $X$, we may think of these as one single continuous function out of the [[disjoint union space]] of their [[domain]] spheres
+
+$$
+  (\phi_i)_{i \in I}
+    \;\colon\;
+  \underset{i \in I}{\sqcup}
+  S^{n_i-1}
+   \longrightarrow
+  X
+  \,.
+$$
+
+Then the result of attaching _all_ the corresponding $n$-cells to $X$ is the pushout of the corresponding [[disjoint union]] of boundary inclusions:
+
+$$
+  \array{
+    \underset{i \in I}{\sqcup} S^{n_i - 1}
+      &\overset{(\phi_i)_{i \in I}}{\longrightarrow}&
+    X
+    \\
+    \downarrow
+      &(po)&
+    \downarrow
+    \\
+    \underset{i \in I}{\sqcup} D^n
+      &\longrightarrow&
+    X \cup_{(\phi_i)_{i \in I}} \left(\underset{i \in I}{\sqcup} D^n\right)
+  }
+  \,.
+$$
+
+=--
+
+Apart from attaching a set of cells all at once to a fixed base space, we may "attach cells to cells" in that after forming a given cell attachment, then we further attach cells to the resulting attaching space, and ever so on:
+
++-- {: .num_defn #RelativeCellComplexes}
+###### Definition
+**([[relative cell complexes]] and [[CW-complexes]])
+
+
+Let $X$ be a topological space, then
+A _topological [[relative cell complex]]_ of countable height based on $X$ is a [[continuous function]]
+
+$$
+  f \colon X \longrightarrow Y
+$$
+
+and a [[sequential diagram]] of [[topological space]] of the form
+
+$$
+  X = X_0 \hookrightarrow X_1 \hookrightarrow X_2 \hookrightarrow X_3 \hookrightarrow \cdots
+$$
+
+such that
+
+1. each $X_k \hookrightarrow X_{k+1}$ is exhibited as a cell attachment according to def. \ref{CellAttachments}, hence presented by a [[pushout]] diagram of the form
+
+   $$
+     \array{
+       \underset{i \in I}{\sqcup} S^{n_i - 1}
+         &\overset{(\phi_i)_{i \in I}}{\longrightarrow}&
+       X_k
+       \\
+       \downarrow
+         &(po)&
+       \downarrow
+       \\
+       \underset{i \in I}{\sqcup} D^{n_i}
+         &\longrightarrow&
+      X_{k+1}
+     }
+     \,.
+   $$
+
+1. $Y = \underset{k\in \mathbb{N}}{\cup} X_k$ is the [[union]] of all these cell attachments, and $f \colon X \to Y$ is the canonical inclusion; or stated more abstractly: the map $f \colon X \to Y$ is the inclusion of the first component of the diagram into its [[colimit|colimiting cocone]] $\underset{\longrightarrow}{\lim}_k X_k$:
+
+   $$
+     \array{
+       X = X_0 &\longrightarrow& X_1 &\longrightarrow& X_2 &\longrightarrow& \cdots
+       \\
+       & {}_{\mathllap{f}}\searrow & \downarrow & \swarrow && \cdots
+       \\
+       && Y = \underset{\longrightarrow}{\lim} X_\bullet
+     }
+   $$
+
+If here $X = \emptyset$ is the [[empty space]] then the result is a map $\emptyset \hookrightarrow Y$, which is equivalently just a space $Y$ built form "attaching cells to nothing". This is then called just a _topological [[cell complex]]_ of countable hight.
+
+Finally, a topological (relative) cell complex of countable hight is called a **CW-complex** is the $(k+1)$-st cell attachment $X_k \to X_{k+1}$ is entirely by $(k+1)$-cells, hence exhibited specifically by a pushout of the following form:
+
+$$
+  \array{
+    \underset{i \in I}{\sqcup} S^{k}
+      &\overset{(\phi_i)_{i \in I}}{\longrightarrow}&
+    X_k
+    \\
+    \downarrow
+      &(po)&
+    \downarrow
+    \\
+    \underset{i \in I}{\sqcup} D^{k+1}
+      &\longrightarrow&
+    X_{k+1}
+  }
+  \,.
+$$
+
+A _[[finite CW-complex]]_ is one which admits a presentation in which there are only finitely many attaching maps, and similarly a _countable CW-complex_ is one which admits a presentation with countably many attaching maps.
+
+Given a CW-complex, then $X_n$ is also called its $n$-[[skeleton]].
+
+=--
 
 
 
@@ -6793,7 +7648,7 @@ where it guarantees notably that the [[abelian sheaf cohomology]] of a topologic
 [[Cech cohomology]].
 
 A key fact is that [[paracompact topological spaces]] and [[normal topological space|normal]]
-spaces are equivalently those (prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}) all whose [[open covers]] admit a subordinate [[partition of unit]] (def. \ref{PartitionOfUnity} below), namely a set of [[real number|real]]-valued [[continuous functions]]
+spaces are equivalently those (prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}) all whose [[open covers]] admit a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity} below), namely a set of [[real number|real]]-valued [[continuous functions]]
 each of which is [[support|supported]] in only one patch of the cover, but whose [[sum]] is the unit function.
 Existence of such partitions imply that structures on topological spaces which are glued together via [[linear maps]]
 (such as [[vector bundles]]) are well behaved.
@@ -7276,853 +8131,6 @@ is a partition of unity as required.
 
 
 
-
-## Universal constructions
- {#UniversalConstructions}
-
-
-One point of the general definition of [[topological space]] [above](#TopologicalSpaces) is that it admits constructions which intuitively should exist on "continuous spaces", but which do not in general exist on  [[metric spaces]].
-
-Examples include the construction of [[quotient topological spaces]] of metric spaces, which are not [[Hausdorff space|Hausdorff]]
-anymore (e.g. example \ref{LineWithTwoOrigins}), and hence in particular are not metric spaces anymore (by example \ref{HausdorffMetricSpace}).
-
-Now from a more abstract point of view, a [[quotient topological space]] is a special case of a "[[colimit]]" of topological
-spaces. This we explain now.
-
-Generally, for every [[diagram]] in the [[category]] [[Top]] of topological spaces (remark \ref{TopCat}),
-hence for every collection of topological spaces with a system of [[continuous functions]] betwen them, then
-there exists a further topological space, called the _[[colimit|colimiting]] space_ of the diagram,
-which may be thought of as the result of "gluing" all the spaces in the diagram together, while using the
-maps between them in order to identify those parts "along which" the spaces are to be glued.
-
-One may formalize this intuition by saying that the colimiting space has the property that it receives compatible continuous functions
-from all the spaces in the diagram, and that it is characterized by the fact that it is
-_[[universal property|universal with this property]]_: every compatible system of maps to another space uniquely
-factors through the colimiting one.
-
-Therefore forming colimits of topological spaces is a convenient means to construct new spaces which have
-prescribed properties for continuous functions out of them. We implicitly used a simple special case of this
-phenomenon in the proof of the [[Hausdorff reflection]] in prop. \ref{HausdorffReflection}, when we concluded
-the existence of certain unique factorizing maps out of the Hausdorff qotient of a topological space.
-
-[[formal dual|Dual]] to the concept of [[colimits]] of topological space is that of "[[limits]]" of
-[[diagrams]] of topological spaces (not to be confused with [[limits of sequences]] _in_ a topological space).
-Here one considers topological spaces with the [[universal property]] of having compatible continuous
-functions into a given [[diagram]] of spaces.
-
-Most constructions of new topological spaces that one builds from given spaces are obtained by forming limits and/or colimits
-of diagrams of the original spaces.
-
-
-### Limits and colimits
- {#LimitsAndColimits}
-
-
-+-- {: .num_defn #Diagram}
-###### Definition
-**([[diagram]] in a [[category]])**
-
-A [[diagram]] $X_\bullet$ in a [[category]], such as the [[category]] [[Top]] of [[topological spaces]]
-or the category [[Set]] of [[sets]] from remark \ref{TopCategory}, is
-
-1. a [[set]] $\{ X_i \}_{i \in I}$ of [[objects]] in the category;
-
-1. for every [[pair]] $(i,j) \in I \times I$ of labels of objects a [[set]]
-   $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[morphisms]] between these objects;
-
-1. for each [[triple]] $i,j,k \in I$ [[function]]
-
-   $$
-     comp_{i,j,k} \;\colon\; I_{i,j} \times I_{j,k} \longrightarrow I_{i,k}
-   $$
-
-such that
-
-1. for every $i \in I$ the [[identity morphisms]] $id_{X_i} \colon X_i \to X_i$ is part of the diagram;
-
-1. $comp$ is [[associativity|associtive]] and [[unital]] in the evident sense,
-
-1. for every composable pair of morphisms
-
-  $$
-    X_i
-      \overset{f_{\alpha} }{\longrightarrow}
-    X_j
-      \overset{ f_{\beta} }{\longrightarrow}
-    X_k
-  $$
-
-  then the [[composition|composite]] of these two morphisms equals the morphisms of the diagram that is
-  labeled by the value of $comp_{i,j,k}$ on their labels:
-
-  $$
-    f_{\beta} \circ f_\alpha
-    \,=\,
-    f_{comp_{i,j,k}( \alpha, \beta )}
-    \,.
-  $$
-
-The last condition we depict as follows:
-
-$$
-  \array{
-    && X_j
-    \\
-    & {}^{\mathllap{f_{\alpha}}}\nearrow && \searrow^{\mathrlap{f_{\beta}}}
-    \\
-    X_i && \underset{ comp_{i,j,k}(\alpha,\beta) }{\longrightarrow} && X_k
-  }
-  \,.
-$$
-
-
-=--
-
-+-- {: .num_defn #Cone}
-###### Definition
-**([[cone]] over a [[diagram]])**
-
-Consider a [[diagram]]
-
-$$
-  X_\bullet
-    \,=\,
-  \left(
-     \left\{
-       X_i \overset{f_\alpha}{\longrightarrow} X_j
-     \right\}_{i,j \in I, \alpha \in I_{i,j}}
-     \,,\,
-     \mathrm{comp}
-  \right)
-$$
-
-in some [[category]] (def. \ref{Diagram}). Then
-
-1. a _[[cone]]_ over this diagram is
-
-   1. an [[object]] $\tilde X$ in the category;
-
-   1. for each $i \in I$ a morphism $\tilde X \overset{p_i}{\longrightarrow} X_i$ in the category
-
-   such that
-
-   * for all $(i,j) \in I \times I$ and all $\alpha \in I_{i,j}$ then the condition
-
-     $$
-       f_{\alpha} \circ p_i = p_j
-     $$
-
-     holds, which we depict as follows:
-
-     $$
-       \array{
-         && \tilde X
-         \\
-         & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p'_j}}
-         \\
-         X_i
-           && \underset{f_\alpha}{\longrightarrow} &&
-         X_j
-       }
-     $$
-
-1. a _[[co-cone]]_ over this diagram is
-
-   1. an [[object]] $\tilde X$ in the category;
-
-   1. for each $i \in I$ a morphism $q_i \colon X_i \longrightarrow \tilde X$ in the category
-
-   such that
-
-   * for all $(i,j) \in I \times I$ and all $\alpha \in I_{i,j}$ then the condition
-
-     $$
-       q_j \circ f_{\alpha} = q_i
-     $$
-
-     holds, which we depict as follows:
-
-     $$
-       \array{
-         X_i && \overset{f_\alpha}{\longrightarrow} && X_j
-         \\
-         & {}_{\mathllap{q_i}}\searrow && \swarrow_{\mathrlap{q_j}}
-         \\
-         && \tilde X
-       }
-       \,.
-     $$
-
-=--
-
-+-- {: .num_defn #LimitingCone}
-###### Definition
-**([[limit|limiting cone]] over a [[diagram]])**
-
-Consider a [[diagram]]
-
-$$
-  X_\bullet
-    \,=\,
-  \left(
-     \left\{
-       X_i \overset{f_\alpha}{\longrightarrow} X_j
-     \right\}_{i,j \in I, \alpha \in I_{i,j}}
-     \,,\,
-     \mathrm{comp}
-  \right)
-$$
-
-in some [[category]] (def. \ref{Diagram}). Then
-
-1. its _[[limit|limiting cone]]_ (or just _[[limit]]_ for short) is, if it exists,
-   [[generalized the|the]] [[cone]]
-
-   $$
-     \left\{
-     \array{
-       && \underset{\longleftarrow}{\lim}_i X_i
-       \\
-       & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
-       \\
-       X_i
-         && \underset{f_\alpha}{\longrightarrow} &&
-       X_j
-     }
-     \right\}
-   $$
-
-   over this diagram (def. \ref{Cone}) which is _universal_ or _initial_ among all
-   possible cones,
-   in that it has the property that for
-
-   $$
-     \left\{
-     \array{
-       && \tilde X
-       \\
-       & {}^{\mathllap{p'_i}}\swarrow && \searrow^{\mathrlap{p'_j}}
-       \\
-       X_i
-         && \underset{f_\alpha}{\longrightarrow} &&
-       X_j
-     }
-     \right\}
-   $$
-
-   any other [[cone]], then there is a unique morphism
-
-   $$
-     \phi \;\colon\; \tilde X \overset{}{\longrightarrow} \underset{\longrightarrow}{\lim}_i X_i
-   $$
-
-   that factors the given cone through the limiting cone, in that for all $i \in I$ then
-
-   $$
-     p'_i = p_i \circ \phi
-   $$
-
-   which we depict as follows:
-
-   $$
-     \array{
-       \tilde X
-       \\
-       {}^{\mathllap{\phi}}\downarrow & \searrow^{\mathrlap{p_i}}
-       \\
-       \underset{\longrightarrow}{\lim}_i X_i
-       &\underset{p_i}{\longrightarrow}&
-       X_i
-     }
-   $$
-
-1. its _[[colimit|colimiting cocone]]_ (or just _[[colimit]]_ for short) is, if it exists,
-   [[generalized the|the]] [[cocone]]
-
-   $$
-     \left\{
-     \array{
-       X_i
-         && \underset{f_\alpha}{\longrightarrow} &&
-       X_j
-       \\
-       & {}^{\mathllap{q_i}}\searrow && \swarrow^{\mathrlap{q_j}}
-       \\
-       \\
-       && \underset{\longrightarrow}{\lim}_i X_i
-     }
-     \right\}
-   $$
-
-   under this diagram (def. \ref{Cone}) which is _universal_ or _terminal_ among all
-   possible co-cones,
-   in that it has the property that for
-
-   $$
-     \left\{
-     \array{
-       X_i
-         && \underset{f_\alpha}{\longrightarrow} &&
-       X_j
-       \\
-       & {}^{\mathllap{q'_i}}\searrow && \swarrow_{\mathrlap{q'_j}}
-       \\
-       && \tilde X
-     }
-     \right\}
-   $$
-
-   any other [[cocone]], then there is a unique morphism
-
-   $$
-     \phi \;\colon\;  \underset{\longrightarrow}{\lim}_i X_i \overset{}{\longrightarrow} \tilde X
-   $$
-
-   that factors the given co-cone through the co-limiting cocone, in that for all $i \in I$ then
-
-   $$
-     q'_i = \phi \circ q_i
-   $$
-
-   which we depict as follows:
-
-   $$
-     \array{
-       X_i
-       &\overset{q_i}{\longrightarrow}&
-       \underset{\longrightarrow}{\lim}_i X_i
-       \\
-       {}^{\mathllap{\phi}}\downarrow & \swarrow^{\mathrlap{q'_i}}
-       \\
-       \tilde X
-     }
-   $$
-
-=--
-
-
-
-+-- {: .num_prop #SetLimits}
-###### Proposition
-**(limits of sets)**
-
-Let
-
-$$
-  X_\bullet
-    \,=\,
-  \left(
-     \left\{
-       X_i \overset{f_\alpha}{\longrightarrow} X_j
-     \right\}_{i,j \in I, \alpha \in I_{i,j}}
-  \right)
-$$
-
-be a [[diagram]] of [[sets]] (def. \ref{Diagram}). Then
-
-1. its [[limit|limit cone]] (def. \ref{LimitingCone}) exists and is given by the following [[subset]] of the [[Cartesian product]]
-   $\underset{i \in I}{\times} X_i$
-   of all the [[sets]] $X_i$ appearing in the diagram
-
-   $$
-     \underset{\longleftarrow}{\lim}_i X_i
-     \,\overset{\phantom{AAA}}{\hookrightarrow}\,
-     \underset{i \in I}{\times} X_i
-   $$
-
-   on those [[tuples]] of elements which match the [[graphs]] of the functions appearing in the diagram:
-
-   $$
-     \underset{\longleftarrow}{\lim}_{i} X_i
-     \;\simeq\;
-     \left\{
-       (x_i)_{i \in I} \in \underset{i \in I}{\times} X_i
-       \,\vert\,
-       \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\forall}
-       \left(
-         f_{\alpha}(x_i) = x_j
-       \right)
-     \right\}
-   $$
-
-1. its [[colimit|colimiting co-cone]] (def. \ref{LimitingCone}) exists and s given by the [[quotient set]] of the [[disjoint union]] $\underset{i \in I}{\sqcup} X_i$ of all the [[sets]] $X_i$ appearing in the diagram
-
-   $$
-     \underset{i \in I}{\sqcup} X_i
-       \,\overset{\phantom{AAA}}{\longrightarrow}\,
-     \underset{\longrightarrow}{\lim}_{i \in I} X_i
-   $$
-
-   with respect to the [[equivalence relation]] which is generated from the [[graphs]] of the functions in the diagram:
-
-   $$
-     \underset{\longrightarrow}{\lim}_i X_i
-     \;\simeq\;
-     \left(
-       \underset{i \in I}{\sqcup} X_i
-     \right)/
-     \left(
-       (x \sim x')
-         \Leftrightarrow
-       \left(
-         \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\exists}
-         \left(
-           f_\alpha(x) = x'
-         \right)
-       \right)
-     \right)
-   $$
-
-
-=--
-
-
-
-Now we turn to limits of diagrams of topological spaces.
-
-+-- {: .num_defn #InitialAndFinalTopologies}
-###### Definition
-
-Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological spaces]], and let $S \in Set$ be a bare [[set]]. Then
-
-* For $\{S \stackrel{f_i}{\to} S_i \}_{i \in I}$ a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[minimum]] collection of [[open subsets]] such that all $f_i \colon (S,\tau_{initial}(\{f_i\}_{i \in I}))\to X_i$ are [[continuous function|continuous]].
-
-* For $\{S_i \stackrel{f_i}{\to} S\}_{i \in I}$ a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[maximum]] collection of [[open subsets]] such that all $f_i \colon X_i \to (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
-
-=--
-
-+-- {: .num_example #TopologicalSubspace}
-###### Example
-
-For $X$ a single topological space, and $\iota_S \colon S \hookrightarrow U(X)$ a subset of its underlying set, then the initial topology $\tau_{intial}(\iota_S)$, def. \ref{InitialAndFinalTopologies}, is the [[subspace topology]], making
-
-$$
-  \iota_S
-  \;\colon\;
-  (S, \tau_{initial}(\iota_S))
-  \hookrightarrow
-  X
-$$
-
-a [[topological subspace]] inclusion.
-
-=--
-
-+-- {: .num_example #QuotientTopology}
-###### Example
-
-Conversely, for $p_S \colon U(X) \longrightarrow S$ an [[epimorphism]], then the final topology $\tau_{final}(p_S)$ on $S$ is the _[[quotient topology]]_.
-
-=--
-
-
-
-
-+-- {: .num_prop #DescriptionOfLimitsAndColimitsInTop}
-###### Proposition
-
-Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$ be an $I$-[[diagram]] in [[Top]] (a [[functor]] from $I$ to $Top$), with components denoted $X_i = (S_i, \tau_i)$, where $S_i \in Set$ and $\tau_i$ a topology on $S_i$. Then:
-
-1. The [[limit]] of $X_\bullet$ exists and is given by [[generalized the|the]] topological space whose underlying set is [[generalized the|the]] limit in [[Set]] of the underlying sets in the diagram, and whose topology is the [[initial topology]], def. \ref{InitialAndFinalTopologies}, for the functions $p_i$ which are the limiting [[cone]] components:
-
-   $$
-     \array{
-       && \underset{\longleftarrow}{\lim}_{i \in I} S_i
-       \\
-       & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
-       \\
-       S_i && \underset{}{\longrightarrow} && S_j
-     }
-     \,.
-   $$
-
-   Hence
-
-   $$
-     \underset{\longleftarrow}{\lim}_{i \in I} X_i
-     \simeq
-     \left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)
-   $$
-
-1. The [[colimit]] of $X_\bullet$ exists and is the topological space whose underlying set is the colimit in [[Set]] of the underlying diagram of sets, and whose topology is the [[final topology]], def. \ref{InitialAndFinalTopologies} for the component maps $\iota_i$ of the colimiting [[cocone]]
-
-   $$
-     \array{
-       S_i && \longrightarrow && S_j
-       \\
-       & {}_{\mathllap{\iota_i}}\searrow && \swarrow_{\mathrlap{\iota_j}}
-       \\
-       && \underset{\longrightarrow}{\lim}_{i \in I} S_i
-     }
-     \,.
-   $$
-
-   Hence
-
-   $$
-     \underset{\longrightarrow}{\lim}_{i \in I} X_i
-     \simeq
-     \left(\underset{\longrightarrow}{\lim}_{i \in I} S_i,\; \tau_{final}(\{\iota_i\}_{i \in I})\right)
-   $$
-
-=--
-
-(e.g. [Bourbaki 71, section I.4](#Bourbaki71))
-
-+-- {: .proof}
-###### Proof
-
-The required [[universal property]] of $\left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)$ is immediate: for
-
-$$
-  \array{
-    && (S,\tau)
-    \\
-    & {}^{\mathllap{f_i}}\swarrow && \searrow^{\mathrlap{f_j}}
-    \\
-    X_i && \underset{}{\longrightarrow} && X_i
-  }
-$$
-
-any [[cone]] over the diagram, then by construction there is a unique function of underlying sets $S \longrightarrow \underset{\longleftarrow}{\lim}_{i \in I} S_i$ making the required diagrams commute, and so all that is required is that this unique function is always [[continuous function|continuous]]. But this is precisely what the initial topology ensures.
-
-The case of the colimit is [[formal dual|formally dual]].
-
-=--
-
-$\,$
-
-### Examples
-
-
-+-- {: .num_example #PointTopologicalSpaceAsEmptyLimit}
-###### Example
-
-The limit over the empty diagram in $Top$ is the [[point space]] $\ast$ (example \ref{Point}).
-
-=--
-
-+-- {: .num_example #DisjointUnionOfTopologicalSpacesIsCoproduct}
-###### Example
-
-For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[coproduct]] $\underset{i \in I}{\sqcup} X_i \in Top$ is their
-_[[disjoint union]]_ (example \ref{DisjointUnionOfTopologicalSpaces}).
-
-=--
-
-+-- {: .num_example #InfiniteProductTopologicalSpace}
-###### Example
-
-For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[product]] $\underset{i \in I}{\prod} X_i \in Top$ is the [[Cartesian product]] of the underlying sets equipped with the _[[product topology]]_, also called the _[[Tychonoff product]]_.
-
-In the case that $S$ is a [[finite set]], such as for binary product spaces $X \times Y$, then a [[basis for a topology|sub-basis]] for the product topology is given by the [[Cartesian products]] of the open subsets of (a basis for) each factor space.
-
-=--
-
-
-+-- {: .num_example #EqualizerInTop}
-###### Example
-
-The [[equalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the equalizer of the underlying functions of sets
-
-$$
-  eq(f,g)
-   \hookrightarrow
-  S_X
-    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}}
-  S_Y
-$$
-
-(hence the largets subset of $S_X$ on which both functions coincide) and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
-
-=--
-
-
-+-- {: .num_example #CoequalizerInTop}
-###### Example
-
-The [[coequalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the coequalizer of the underlying functions of sets
-
-$$
-  S_X
-    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}}
-  S_Y
-    \longrightarrow
-  coeq(f,g)
-$$
-
-(hence the [[quotient set]] by the [[equivalence relation]] generated by $f(x) \sim g(x)$ for all $x \in X$)  and equipped with the [[quotient topology]], example \ref{QuotientTopology}.
-
-=--
-
-+-- {: .num_example #PushoutInTop}
-###### Example
-
-For
-
-$$
-  \array{
-     A &\overset{g}{\longrightarrow}& Y
-     \\
-     {}^{\mathllap{f}}\downarrow
-     \\
-     X
-  }
-$$
-
-two [[continuous functions]] out of the same [[domain]], then the [[colimit]] under this diagram is also called the _[[pushout]]_, denoted
-
-$$
-  \array{
-     A &\overset{g}{\longrightarrow}& Y
-     \\
-     {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{g_\ast f}}
-     \\
-     X &\longrightarrow& X \sqcup_A Y
-     \,.
-  }
-  \,.
-$$
-
-(Here $g_\ast f$ is also called the pushout of $f$, or the _[[base change|cobase change]]_ of $f$ along $g$.) If $g$ is an inclusion, one also write $X \cup_f Y$ and calls this the _attaching space_.
-
-<div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/AttachingSpace.jpg" width="450"></div>
-
-By example \ref{CoequalizerInTop} the pushout/attaching space is the [[quotient topological space]]
-
-$$
-  X \sqcup_A Y \simeq (X\sqcup Y)/\sim
-$$
-
-of the [[disjoint union]] of $X$ and $Y$ subject to the [[equivalence relation]] which identifies a point in $X$ with a point in $Y$ if they have the same pre-image in $A$.
-
-(graphics from [Aguilar-Gitler-Prieto 02](#AguilarGitlerPrieto02))
-
-=--
-
-
-
-
-
-
-+-- {: .num_example #TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}
-###### Example
-
-As an important special case of example \ref{PushoutInTop},  let
-
-$$
-  i_n \colon S^{n-1}\longrightarrow D^n
-$$
-
-be the canonical inclusion of the standard [[n-sphere|(n-1)-sphere]] as the [[boundary]] of the standard [[n-disk]]
-from example \ref{SpheresAndDisks}.
-
-
-<div style="float:left;margin:0 10px 10px 0;">
-<img src="http://ncatlab.org/nlab/files/GluingHemispheres.jpg" width="400"></div>
-
-Then the colimit in [[Top]] under the diagram, i.e. the [[pushout]] of $i_n$ along itself,
-
-$$
-  \left\{
-     D^n \overset{i_n}{\longleftarrow} S^{n-1} \overset{i_n}{\longrightarrow}
-     D^n
-  \right\}
-  \,,
-$$
-
-is the [[n-sphere]] $S^n$:
-
-$$
-  \array{
-    S^{n-1} &\overset{i_n}{\longrightarrow}& D^n
-    \\
-    {}^{\mathllap{i_n}}\downarrow &(po)& \downarrow
-    \\
-    D^n &\longrightarrow& S^n
-  }
-  \,.
-$$
-
-(graphics from Ueno-Shiga-Morita 95)
-
-=--
-
-
-
-+-- {: .num_defn #SingleCellAttachment}
-###### Definition
-**(single cell attachment)**
-
-For $X$ any [[topological space]] and for $n \in \mathbb{N}$, then an _$n$-cell attachment_ to $X$ is the result of gluing an [[n-disk]] to $X$, along a prescribed image of its bounding [[n-sphere|(n-1)-sphere]] (def. \ref{SpheresAndDisks}):
-
-Let
-
-$$
-  \phi \;\colon\; S^{n-1} \longrightarrow X
-$$
-
-be a [[continuous function]], then the "attaching space"
-
-$$
-  X \cup_\phi D^n \,\in Top
-$$
-
-is the topological space which is the [[pushout]] of the boundary inclusion of the $n$-sphere along $\phi$, hence the universal space that makes the following [[commuting diagram|diagram commute]]:
-
-$$
-  \array{
-    S^{n-1} &\stackrel{\phi}{\longrightarrow}& X
-    \\
-    {}^{\mathllap{\iota_n}}\downarrow &(po)& \downarrow
-    \\
-    D^n &\longrightarrow& X \cup_\phi D^n
-  }
-  \,.
-$$
-
-=--
-
-
-+-- {: .num_example }
-###### Example
-
-A single cell attachment of a 0-cell, according to example \ref{SingleCellAttachment} is the same as forming the [[disjoint union space]] $X \sqcup \ast$ with the [[point]] space $\ast$:
-
-$$
-  \array{
-     (S^{-1} = \emptyset) &\overset{\exists !}{\longrightarrow}&  X
-     \\
-     \downarrow &(po)& \downarrow
-     \\
-     (D^0 = \ast) &\longrightarrow& X \sqcup \ast
-  }
-  \,.
-$$
-
-In particular if we start with the [[empty topological space]] $X = \emptyset$ itself, then by attaching 0-cells we obtain a [[discrete topological space]]. To this then we may attach higher dimensional cells.
-
-
-=--
-
-
-+-- {: .num_defn #CellAttachments}
-###### Definition
-**(attaching many cells at once)**
-
-
-If we have a [[set]] of attaching maps $\{S^{n_i-1} \overset{\phi_i}{\longrightarrow} X\}_{i \in I}$ (as in def. \ref{SingleCellAttachment}), all to the same space $X$, we may think of these as one single continuous function out of the [[disjoint union space]] of their [[domain]] spheres
-
-$$
-  (\phi_i)_{i \in I}
-    \;\colon\;
-  \underset{i \in I}{\sqcup}
-  S^{n_i-1}
-   \longrightarrow
-  X
-  \,.
-$$
-
-Then the result of attaching _all_ the corresponding $n$-cells to $X$ is the pushout of the corresponding [[disjoint union]] of boundary inclusions:
-
-$$
-  \array{
-    \underset{i \in I}{\sqcup} S^{n_i - 1}
-      &\overset{(\phi_i)_{i \in I}}{\longrightarrow}&
-    X
-    \\
-    \downarrow
-      &(po)&
-    \downarrow
-    \\
-    \underset{i \in I}{\sqcup} D^n
-      &\longrightarrow&
-    X \cup_{(\phi_i)_{i \in I}} \left(\underset{i \in I}{\sqcup} D^n\right)
-  }
-  \,.
-$$
-
-=--
-
-Apart from attaching a set of cells all at once to a fixed base space, we may "attach cells to cells" in that after forming a given cell attachment, then we further attach cells to the resulting attaching space, and ever so on:
-
-+-- {: .num_defn #RelativeCellComplexes}
-###### Definition
-**([[relative cell complexes]] and [[CW-complexes]])
-
-
-Let $X$ be a topological space, then
-A _topological [[relative cell complex]]_ of countable height based on $X$ is a [[continuous function]]
-
-$$
-  f \colon X \longrightarrow Y
-$$
-
-and a [[sequential diagram]] of [[topological space]] of the form
-
-$$
-  X = X_0 \hookrightarrow X_1 \hookrightarrow X_2 \hookrightarrow X_3 \hookrightarrow \cdots
-$$
-
-such that
-
-1. each $X_k \hookrightarrow X_{k+1}$ is exhibited as a cell attachment according to def. \ref{CellAttachments}, hence presented by a [[pushout]] diagram of the form
-
-   $$
-     \array{
-       \underset{i \in I}{\sqcup} S^{n_i - 1}
-         &\overset{(\phi_i)_{i \in I}}{\longrightarrow}&
-       X_k
-       \\
-       \downarrow
-         &(po)&
-       \downarrow
-       \\
-       \underset{i \in I}{\sqcup} D^{n_i}
-         &\longrightarrow&
-      X_{k+1}
-     }
-     \,.
-   $$
-
-1. $Y = \underset{k\in \mathbb{N}}{\cup} X_k$ is the [[union]] of all these cell attachments, and $f \colon X \to Y$ is the canonical inclusion; or stated more abstractly: the map $f \colon X \to Y$ is the inclusion of the first component of the diagram into its [[colimit|colimiting cocone]] $\underset{\longrightarrow}{\lim}_k X_k$:
-
-   $$
-     \array{
-       X = X_0 &\longrightarrow& X_1 &\longrightarrow& X_2 &\longrightarrow& \cdots
-       \\
-       & {}_{\mathllap{f}}\searrow & \downarrow & \swarrow && \cdots
-       \\
-       && Y = \underset{\longrightarrow}{\lim} X_\bullet
-     }
-   $$
-
-If here $X = \emptyset$ is the [[empty space]] then the result is a map $\emptyset \hookrightarrow Y$, which is equivalently just a space $Y$ built form "attaching cells to nothing". This is then called just a _topological [[cell complex]]_ of countable hight.
-
-Finally, a topological (relative) cell complex of countable hight is called a **CW-complex** is the $(k+1)$-st cell attachment $X_k \to X_{k+1}$ is entirely by $(k+1)$-cells, hence exhibited specifically by a pushout of the following form:
-
-$$
-  \array{
-    \underset{i \in I}{\sqcup} S^{k}
-      &\overset{(\phi_i)_{i \in I}}{\longrightarrow}&
-    X_k
-    \\
-    \downarrow
-      &(po)&
-    \downarrow
-    \\
-    \underset{i \in I}{\sqcup} D^{k+1}
-      &\longrightarrow&
-    X_{k+1}
-  }
-  \,.
-$$
-
-A _[[finite CW-complex]]_ is one which admits a presentation in which there are only finitely many attaching maps, and similarly a _countable CW-complex_ is one which admits a presentation with countably many attaching maps.
-
-Given a CW-complex, then $X_n$ is also called its $n$-[[skeleton]].
-
-=--
 
 
 
