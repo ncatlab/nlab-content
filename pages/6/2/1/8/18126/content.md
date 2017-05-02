@@ -71,8 +71,8 @@ arbitrary [[quotients]] and [[intersections]] of spaces.
 Accordingly, topology underlies or informs many and diverse areas of mathematics, such as
 [[functional analysis]], [[operator algebra]], [[manifold]]/[[scheme]] theory, hence [[algebraic geometry]] and [[differential geometry]],
 and the study of [[topological groups]], [[topological vector spaces]], [[local  rings]], etc.. Not the least, it gives rise to
-the field of [[homotopy theory]], where one considers also continuous deformations of continuous functions themse
-lves ("[[homotopies]]").
+the field of [[homotopy theory]], where one considers also continuous deformations of 
+continuous functions themselves ("[[homotopies]]").
 Topology itself has many branches,
 such as _[[low-dimensional topology]]_ or _[[topological domain theory]]_.
 
@@ -107,7 +107,7 @@ extra "[[separation axioms]]" are imposed on topological spaces (see [below](#Se
 depends on this choice.
 
 Among the separation axioms, the _[[Hausdorff topological space|Hausdorff space]]_ axiom is most popular
-(see [below](#TnTopologicalSpaces)) the weaker axiom of [[sober topological space|soberity]] (see [below](#SoberSpaces)) stands out, on the one
+(see [below](#TnTopologicalSpaces)). But the weaker axiom of [[sober topological space|soberity]] (see [below](#SoberSpaces)) stands out, on the one
 hand because this is the weakest axiom that is still naturally satisfied in applications to [[algebraic geometry]] ([[schemes are sober]])
 and [[computer science]] ([Vickers 89](#Vickers89)) and on the other hand because it fully realizes the strong roots that
 topology has in [[formal logic]]: [[sober topological spaces]] are entirely characterized by the
@@ -133,7 +133,7 @@ $\,$
 +-- {: principle}
 **([[classical logic]])**
 
-The [[proofs]] in the following freely used [[excluded middle]]/[[proof by contradiction]]
+The [[proofs]] in the following freely use the [[principle of excluded middle]], hence [[proof by contradiction]],
 and in a few places they also use the [[axiom of choice]]/[[Zorn's lemma]]. 
 
 Hence we discuss [[topology]] in its traditional form with [[classical logic]]. 
@@ -4690,17 +4690,17 @@ $$
  \,.
 $$
 
-(In these derivations we repeatedly use that $(0,1] \cap \mathbb{Q}_{dy}$ is dense in $[0,1]$, and we use the [[contrapositions]] of $(\star)$ and $(\star \star)$.)
+(In these derivations we repeatedly use that $(0,1] \cap \mathbb{Q}_{dy}$ is [[dense subset|dense]] in $[0,1]$ (def. \ref{ClosedSubset}), and we use the [[contrapositions]] of $(\star)$ and $(\star \star)$.)
 
 
 Now since the subsets $\{ [0,\alpha), (\alpha,1]\}_{\alpha \in [0,1]}$
-form a [[topological subbase|sub-base]] for the Euclidean metric topology on $[0,1]$, it follows that all pre-images of $f$ are open, hence that $f$ is continuous.
-
-
+form a [[topological subbase|sub-base]] (def. \ref{TopologyBase}) for the Euclidean metric topology on $[0,1]$, it follows that all pre-images of $f$ are open, hence that $f$ is continuous.
 
 =--
 
-As a corollary we obtain:
+As a corollary of [[Urysohn's lemma]] we obtain yet another equivalent reformulation of the normality of topological spaces,
+this one now of a rather different character than the re-formulations in terms of explicit topological closures
+considered above:
 
 +-- {: .num_prop #NormalityEquivalentToUrysohnFunctionsExsist}
 ###### Proposition
@@ -5662,8 +5662,8 @@ anymore (e.g. example \ref{LineWithTwoOrigins}), and hence in particular are not
 Now from a more abstract point of view, a [[quotient topological space]] is a special case of a "[[colimit]]" of topological
 spaces. This we explain now.
 
-Generally, for every [[diagram]] in the [[category]] [[Top]] of topological spaces (remark \ref{TopCat}),
-hence for every collection of topological spaces with a system of [[continuous functions]] betwen them, then
+Generally, for every [[diagram]] in the [[category]] [[Top]] of topological spaces (remark \ref{TopCategory}),
+hence for every collection of topological spaces with a system of [[continuous functions]] between them, then
 there exists a further topological space, called the _[[colimit|colimiting]] space_ of the diagram,
 which may be thought of as the result of "gluing" all the spaces in the diagram together, while using the
 maps between them in order to identify those parts "along which" the spaces are to be glued.
@@ -5686,9 +5686,22 @@ functions into a given [[diagram]] of spaces.
 Most constructions of new topological spaces that one builds from given spaces are obtained by forming limits and/or colimits
 of diagrams of the original spaces.
 
+[[!include universal constructions of topological spaces -- table]]
+
+We now discuss this in generality and then consider these examples.
+
+$\,$
 
 ### Limits and colimits
  {#LimitsAndColimits}
+
+The concept of _[[limit]] of a [[diagram]] of [[topological spaces]]_ is a generalization of concepts like 
+[[product topological space]] and [[topological subspaces]].
+
+
+The concept of _[[colimit]] of a [[diagram]] of [[topological spaces]]_ is a generalization of concepts like
+[[disjoint union topological space]] and [[quotient topological space]]
+
 
 
 +-- {: .num_defn #Diagram}
@@ -5703,7 +5716,7 @@ or the category [[Set]] of [[sets]] from remark \ref{TopCategory}, is
 1. for every [[pair]] $(i,j) \in I \times I$ of labels of objects a [[set]]
    $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[morphisms]] between these objects;
 
-1. for each [[triple]] $i,j,k \in I$ [[function]]
+1. for each [[triple]] $i,j,k \in I$ a [[function]]
 
    $$
      comp_{i,j,k} \;\colon\; I_{i,j} \times I_{j,k} \longrightarrow I_{i,k}
@@ -5713,7 +5726,7 @@ such that
 
 1. for every $i \in I$ the [[identity morphisms]] $id_{X_i} \colon X_i \to X_i$ is part of the diagram;
 
-1. $comp$ is [[associativity|associtive]] and [[unital]] in the evident sense,
+1. $comp$ is [[associativity|associative]] and [[unital]] in the evident sense,
 
 1. for every composable pair of morphisms
 
@@ -6185,10 +6198,12 @@ _[[disjoint union]]_ (example \ref{DisjointUnionOfTopologicalSpaces}).
 
 +-- {: .num_example #InfiniteProductTopologicalSpace}
 ###### Example
+**([[product spaces]] with [[Tychonoff topology]])**
 
 For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[product]] $\underset{i \in I}{\prod} X_i \in Top$ is the [[Cartesian product]] of the underlying sets equipped with the _[[product topology]]_, also called the _[[Tychonoff product]]_.
 
-In the case that $S$ is a [[finite set]], such as for binary product spaces $X \times Y$, then a [[basis for a topology|sub-basis]] for the product topology is given by the [[Cartesian products]] of the open subsets of (a basis for) each factor space.
+In the case that $S$ is a [[finite set]], such as for binary product spaces $X \times Y$, then a [[basis for a topology|sub-basis]] for the Tychonoff product topology is given by the [[Cartesian products]] of the open subsets of (a basis for) each factor space.
+Hence in this case the Tychonoff topology coincides with that of the binary product space topology in example \ref{BinaryProductTopologicalSpace}.
 
 =--
 
@@ -6257,11 +6272,11 @@ $$
   \,.
 $$
 
-(Here $g_\ast f$ is also called the pushout of $f$, or the _[[base change|cobase change]]_ of $f$ along $g$.) If $g$ is an inclusion, one also write $X \cup_f Y$ and calls this the _attaching space_.
+(Here $g_\ast f$ is also called the pushout of $f$, or the _[[base change|cobase change]]_ of $f$ along $g$.) If $g$ is an inclusion, one also write $X \cup_f Y$ and calls this the _[[attaching space]]_.
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/AttachingSpace.jpg" width="450"></div>
 
-By example \ref{CoequalizerInTop} the pushout/attaching space is the [[quotient topological space]]
+By example \ref{CoequalizerInTop} the [[pushout]]/[[attaching space]] is the [[quotient topological space]]
 
 $$
   X \sqcup_A Y \simeq (X\sqcup Y)/\sim
@@ -6327,7 +6342,7 @@ $$
 ###### Definition
 **(single cell attachment)**
 
-For $X$ any [[topological space]] and for $n \in \mathbb{N}$, then an _$n$-cell attachment_ to $X$ is the result of gluing an [[n-disk]] to $X$, along a prescribed image of its bounding [[n-sphere|(n-1)-sphere]] (def. \ref{SpheresAndDisks}):
+For $X$ any [[topological space]] and for $n \in \mathbb{N}$, then an _$n$-cell [[attaching space|attachment]]_ to $X$ is the result of gluing an [[n-disk]] to $X$, along a prescribed image of its bounding [[n-sphere|(n-1)-sphere]] (def. \ref{SpheresAndDisks}):
 
 Let
 
@@ -6335,7 +6350,7 @@ $$
   \phi \;\colon\; S^{n-1} \longrightarrow X
 $$
 
-be a [[continuous function]], then the "attaching space"
+be a [[continuous function]], then the "[[attaching space]]"
 
 $$
   X \cup_\phi D^n \,\in Top
@@ -6360,7 +6375,7 @@ $$
 +-- {: .num_example }
 ###### Example
 
-A single cell attachment of a 0-cell, according to example \ref{SingleCellAttachment} is the same as forming the [[disjoint union space]] $X \sqcup \ast$ with the [[point]] space $\ast$:
+A single cell [[attaching space|attachment]] of a 0-cell, according to example \ref{SingleCellAttachment} is the same as forming the [[disjoint union space]] $X \sqcup \ast$ with the [[point]] space $\ast$:
 
 $$
   \array{
@@ -6373,7 +6388,7 @@ $$
   \,.
 $$
 
-In particular if we start with the [[empty topological space]] $X = \emptyset$ itself, then by attaching 0-cells we obtain a [[discrete topological space]]. To this then we may attach higher dimensional cells.
+In particular if we start with the [[empty topological space]] $X = \emptyset$ itself, then by [[attaching space|attaching]] 0-cells we obtain a [[discrete topological space]]. To this then we may attach higher dimensional cells.
 
 
 =--
@@ -6384,7 +6399,7 @@ In particular if we start with the [[empty topological space]] $X = \emptyset$ i
 **(attaching many cells at once)**
 
 
-If we have a [[set]] of attaching maps $\{S^{n_i-1} \overset{\phi_i}{\longrightarrow} X\}_{i \in I}$ (as in def. \ref{SingleCellAttachment}), all to the same space $X$, we may think of these as one single continuous function out of the [[disjoint union space]] of their [[domain]] spheres
+If we have a [[set]] of [[attaching maps]] $\{S^{n_i-1} \overset{\phi_i}{\longrightarrow} X\}_{i \in I}$ (as in def. \ref{SingleCellAttachment}), all to the same space $X$, we may think of these as one single continuous function out of the [[disjoint union space]] of their [[domain]] spheres
 
 $$
   (\phi_i)_{i \in I}
@@ -6507,7 +6522,7 @@ Given a CW-complex, then $X_n$ is also called its $n$-[[skeleton]].
 
 From the discussion of [[compact topological space|compact]] [[metric spaces]] in
 def. \ref{MetricSpaceSequentiallyCompact} and prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace}
-it is now immediate how to generalize the concept to [[topological spaces]]
+it immediate how to generalize the concept to [[topological spaces]]
 to obtain a notion of _[[compact topological spaces]]_ (def. \ref{SequentiallyCompactTopologicalSpace}
 and def. \ref{CompactTopologicalSpace} below). These compact spaces play a special role in [[topology]],
 much like [[finite dimensional vector spaces]] do in [[linear algebra]].
