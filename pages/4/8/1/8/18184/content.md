@@ -55,6 +55,11 @@ For more on this see at _[Top -- Universal constructions](Top#UniversalConstruct
 
 * In forming topological [[cell complexes]] such as [[CW-complexes]], one consecutively forms attaching spaces along [[n-sphere]] inclusions as [[boundaries]] of [[n-disks]].
 
+## Related concepts
+
+[[!include universal constructions of topological spaces -- table]]
+
+
 ## References
 
 * Wikipedia, _[Adjunction space](https://en.wikipedia.org/wiki/Adjunction_space)_
