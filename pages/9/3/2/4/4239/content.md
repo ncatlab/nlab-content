@@ -52,7 +52,7 @@ A Calabi-Yau category with a single object is the same (or rather: is equivalent
 
 ### $(\infty,1)$-categorical
 
-A **Calabi-Yau $A_\infty$-category** of _dimension_ $d \in \mathbb{N}$ is an [[A-∞ category]] $C$ equipped for each pair $a,b$ of [[object]]s a morphism of [[chain complex]]es
+A **Calabi-Yau $A_\infty$-category** of _dimension_ $d \in \mathbb{N}$ is an [[A-∞ category]] $C$ equipped with, for each pair $a,b$ of [[object]]s, a morphism of [[chain complex]]es
 
 $$
   \langle -,-\rangle_{a,b}
