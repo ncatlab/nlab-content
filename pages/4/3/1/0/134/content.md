@@ -30,7 +30,14 @@ The [[homotopy category]] of $Top$ given by its [[localization]] at the [[weak h
 ### Universal constructions
  {#UniversalConstructions}
 
-We discuss [[universal constructions]] in [[Top]], such as [[limits]]/[[colimits]], etc. The following definition suggests that universal constructions be seen in the context of $Top$ as a [[topological concrete category]] (see Proposition \ref{topcat} below): 
+We discuss [[universal constructions]] in [[Top]], such as [[limits]]/[[colimits]], etc. The following definition suggests that universal constructions be seen in the context of $Top$ as a [[topological concrete category]] (see Proposition \ref{topcat} below).
+
+$\,$
+
+[[!include universal constructions of topological spaces -- table]]
+
+$\,$
+
 
 +-- {: .num_defn #InitialAndFinalTopologies}
 ###### Definition
