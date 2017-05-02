@@ -636,6 +636,9 @@ Wenn wir uns in dieser ersten Periode aufgehalten haben, so k&#246;nnen wir dies
 ### Introduction
 
 ### Bacon and B&#246;hme
+  {#BaconAndBoehme}
+
+(...) [[Jakob Böhme]] (...)
 
 ### Period of the thinking mind
 
