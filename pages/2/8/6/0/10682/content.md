@@ -112,7 +112,7 @@ $$
   \,.
 $$
 
-Notice that (by [this lemma](separation+axioms#T4InTermsOfTopologicalClosures)) if a space is normal then every open neighbourhood $U \supset C$ of closed subset $C$ contains a smaller neighbourhood $V$ together with its closure $Cl(V)$
+Notice that (by [this lemma](separation+axioms#T4InTermsOfTopologicalClosures)) if a space is normal then every open neighbourhood $U \supset C$ of a closed subset $C$ contains a smaller neighbourhood $V$ together with its closure $Cl(V)$
 
 $$
   U \subset V \subset Cl(V) \subset C
@@ -143,15 +143,6 @@ $$
 $$
 
 with the property 
-
-$$
-  \underset{r \in (0,1] \cap \mathbb{Q}_{dy}}{\forall}
-  \left(
-     A \subset U_r \subset X\backslash B
-  \right)
-$$
-
-and
 
 $$
   \underset{r_1,r_2 \in (0,1] \cap \mathbb{Q}_{dy}}{\forall}
