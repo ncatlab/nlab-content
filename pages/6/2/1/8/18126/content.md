@@ -7,6 +7,7 @@
 
 
 
+
 ***
 
 This page is a detailed introduction to basic [[topology]].
@@ -127,6 +128,25 @@ In this first part we discuss the foundations of the concept of "sets equipped w
 ([[topological spaces]]) and of [[continuous functions]] between them.
 
 
+$\,$
+
++-- {: principle}
+**([[classical logic]])**
+
+The [[proofs]] in the following freely used [[excluded middle]]/[[proof by contradiction]]
+and in a few places they also use the [[axiom of choice]]/[[Zorn's lemma]]. 
+
+Hence we discuss [[topology]] in its traditional form with [[classical logic]]. 
+
+We do however highlight the role of [[frame]] homomorphisms (def. \ref{HomomorphismOfFramesOfOpens} below) and that of [[sober topological spaces]] (def. \ref{Sober} below). These concepts pave the way to a [[constructive mathematics|constructive]]
+formulation of [[topology]] in terms not of [[topological spaces]]but in terms of _[[locales]]_, 
+see remark \ref{Locales} below.
+The reader interested in questions of [[intuitionistic mathematics]] in topology may benefit from looking at ([Waaldijk 96](topology#Waaldijk96)).
+
+=--
+
+
+$\,$
 
 ## Metric spaces
  {#Continuity}
@@ -1405,6 +1425,98 @@ Notice that
 =--
 
 
+The following important class of [[topological spaces]] form the foundation of [[algebraic geometry]]:
+ 
++-- {: .num_example}
+###### Example
+**([[Zariski topology]] on [[affine space]])**
+
+Let $k$ be a [[field]], let $n \in \mathbb{N}$, and write $k[X_1, \cdots, X_n]$ for the [[set]] of [[polynomials]] in $n$ [[variables]] over $k$.
+
+For $\mathcal{F} \subset k[X_1, \cdots, X_n]$ a subset of polynomials, let the  subset $V(\mathcal{P}) \subset k^n$ of the $n$-fold [[Cartesian product]] of the underlying set of $k$ (the _vanishing set_ of $\mathcal{F}$) be the subset of points on which all these polynomials jointly vanish:
+
+$$
+  V(\mathcal{F})
+    \coloneqq
+  \left\{
+     (a_1, \cdots, a_n) \in k^n
+     \,\vert\,
+     \underset{f \in \mathcal{F}}{\forall} f(a_1, \cdots, a_n) = 0
+  \right\}
+  \,.
+$$
+
+These subsets are called the _Zariski [[closed subsets]]_.
+
+Write
+
+$$
+  \tau_{\mathbb{A}^n_k}
+  \;\coloneqq\;
+  \left\{
+    k^n \backslash V(\mathcal{F}) \subset k^n
+    \,\vert\,
+    \mathcal{F} \subset k[X_1, \cdots, X_n]
+  \right\}
+$$
+
+for the set of [[complements]] of subsets the Zariski closed subsets. These are called the _Zariski [[open subsets]]_ of $k^n$.
+
+The Zariski open subsets of $k^n$  form a [[topological space|topology]] (def. \ref{TopologicalSpace}),
+called the _[[Zariski topology]]_. The resulting [[topological space]]
+
+$$
+  \mathbb{A}^n_k
+  \;\coloneqq\;
+  \left(
+     k^n, \tau_{\mathbb{A}^n_k}
+  \right)
+$$
+
+is also called the $n$-dimensional _[[affine space]]_ over $k$.
+
+
+=--
+
+More generally
+
++-- {: .num_example}
+###### Example
+**([[Zariski topology]] on the [[prime spectrum of a commutative ring]])**
+
+Let $R$ be a [[commutative ring]]. Write $PrimeIdl(R)$ for its set of [[prime ideals]]. For $\mathcal{F} \subset R$ any subset of elements of the ring, consider the subsets of those prime ideals that contain $\mathcal{F}$:
+
+$$
+  V(\mathcal{F})
+   \;\coloneqq\;
+  \left\{
+    p \in PrimeIdl(R) \,\vert\, \mathcal{F} \subset p
+  \right\}
+  \,.
+$$
+
+These are called the _Zariski [[closed subsets]]_ of $PrimeIdl(R)$. Their [[complements]] are called the _Zariski open subsets_.
+
+Then the collection of Zariski open subsets in its set of [[prime ideals]]
+
+$$
+  \tau_{Spec(R)} \subset P(PrimeIdl(R))
+$$
+
+satisfies the axioms of a [[topological space|topology]] (def. \ref{TopologicalSpace}), the _[[Zariski topology]]_.
+
+This [[topological space]]
+
+$$
+  Spec(R) \coloneqq (PrimeIdl(R), \tau_{Spec(R)})
+$$
+
+is called (the space underlying) the _[[prime spectrum of a commutative ring|prime spectrum of the commutative ring]]_.
+
+
+=--
+
+
 
 $\,$
 
@@ -1742,7 +1854,7 @@ We need to show that then $V$ is closed, hence that $X \backslash V \subset X$ i
 $x \in X \backslash V$ we may find a real number $\epsilon \gt 0$ such that the [[open ball]] $B^\circ_x(\epsilon)$ around $x$
 of radius $\epsilon$ is still contained in
 $X \backslash V$. Suppose on the contrary that such $\epsilon$ did not exist. This would mean that for each $k \in \mathbb{N}$
-with $k \geq 1$ then the [[intersection]] $B^\circ_x(1/k) \cap V$ were [[inhabited|non-empty]]. Hence then we could choose
+with $k \geq 1$ then the [[intersection]] $B^\circ_x(1/k) \cap V$ were [[inhabited|non-empty]]. Hence then we could [[axiom of choice|choose]]
 points $x_k \in B^\circ_x(1/k) \cap V$ in these intersections. These would form a sequence which clearly converges to
 the original $x$, and so by assumption we would conclude that $x \in V$, which violates the assumption that $x \in X \backslash V$.
 Hence we [[proof by contradiction|proved by contradiction]] $X \backslash V$ is in fact open.
@@ -4622,11 +4734,11 @@ $\,$
 ### $T_n$ reflection
  {#HausdorffReflections}
 
-While the [[topological subspace]] construction preserves the $T_n$-property  for $n \in \{0,1,2\$ 
+While the [[topological subspace]] construction preserves the $T_n$-property  for $n \in \{0,1,2\$
 (exmaple \ref{TiSubspaces}) the construction of [[quotient topological spaces]] in general does not,
 as shown by examples \ref{RQuotientedByQ} and \ref{LineWithTwoOrigins}.
 
-Further [below](#UniversalConstructions) we will see that, generally, among all [[universal constructions]] 
+Further [below](#UniversalConstructions) we will see that, generally, among all [[universal constructions]]
 in the [[category]] [[Top]] of all  [[topological spaces]] those
 that are [[limits]] preserve the $T_n$ property, while those that are [[colimits]] in general do not.
 
@@ -4830,9 +4942,9 @@ $$
   \,.
 $$
 
-In the case of the [[reflective subcategory]] inclusion $(T_n \dashv \iota)$ of the category of $T_n$-spaces into 
+In the case of the [[reflective subcategory]] inclusion $(T_n \dashv \iota)$ of the category of $T_n$-spaces into
 the category [[Top]] of all topological spaces this adjunction unit is precisely the $T_n$-reflection
-$t_n(X) \colon X \to \iota( T_n(X))$ (only that we originally left the re-embedding $\iota$ notationally implicit). 
+$t_n(X) \colon X \to \iota( T_n(X))$ (only that we originally left the re-embedding $\iota$ notationally implicit).
 
 =--
 
@@ -4859,7 +4971,7 @@ $$
   \,.
 $$
 
-Then 
+Then
 
 1. the set of [[equivalence classes]]
 
@@ -4867,8 +4979,8 @@ Then
      T_n X \coloneqq X /{\sim}
    $$
 
-   equipped with the [[quotient topology]] (example \ref{QuotientTopologicalSpace}) is a $T_n$-topological space, 
-  
+   equipped with the [[quotient topology]] (example \ref{QuotientTopologicalSpace}) is a $T_n$-topological space,
+
 1. the quotient projection
 
    $$
@@ -4901,7 +5013,7 @@ $$
   \,.
 $$
 
-First observe that this is indeed well defined as a function of underlying sets. 
+First observe that this is indeed well defined as a function of underlying sets.
 To that end, factor $f$ through its [[image]] $f(X)$
 
 $$
@@ -4910,14 +5022,14 @@ $$
 
 equipped with its [[topological subspace|subspace topology]] as a subspace of $Y$ (example \ref{ImageFactorization}). By
 prop. \ref{TiSubspaces} also the image $f(X)$ is a $T_n$-topological space, since $Y$ is.
-This means that if two elements $x_1, x_2 \in X$ have the same equivalence class, then, by definition of the 
+This means that if two elements $x_1, x_2 \in X$ have the same equivalence class, then, by definition of the
 equivalence relation, they have the same image under _all_ comntinuous surjective functions into a $T_n$-space,
 hence in particular they have the same image under $f \colon X \overset{\text{surjective}}{\longrightarrow} f(X) \hookrightarrow Y$:
 
 $$
   \begin{aligned}
-    ( [x_1] = [x_2]) & \Leftrightarrow\, (x_1 \sim x_2) 
-    \\ 
+    ( [x_1] = [x_2]) & \Leftrightarrow\, (x_1 \sim x_2)
+    \\
     & \Rightarrow\, ( f(x_1) = f(x_2) )
     \,.
   \end{aligned}
@@ -4925,7 +5037,7 @@ $$
 
 This shows that $\tilde f$ is well defined as a function between sets.
 
-To see that $\tilde f$ is also continuous, consider $U \in Y$ an open subset. We need to show that 
+To see that $\tilde f$ is also continuous, consider $U \in Y$ an open subset. We need to show that
 the pre-image $\tilde f^{-1}(U)$ is open in $X/\sim$. But by definition of the [[quotient topological space|quotient topology]] (example \ref{QuotientTopologicalSpace}), this is open precisely if its pre-image under the quotient projection $t_n(X)$ is open, hence precisely if
 
 $$
@@ -4936,10 +5048,10 @@ $$
     \\
     & =
     f^{-1}(U)
-  \emd{aligned}
+  \end{aligned}
 $$
 
-is open in $X$. But this is the case by the assumption that $f$ is continuous. Hence $\tilde f$ is indeed the unique 
+is open in $X$. But this is the case by the assumption that $f$ is continuous. Hence $\tilde f$ is indeed the unique
 continuous function as required.
 
 What remains to be seen is that $T_n X$ as constructed is indeed a $T_n$-topological space.
@@ -4947,7 +5059,7 @@ Hence assume that $[x] \neq [y] \in T_n X$ are two distinct points. We need to p
 around one or both of these point not containing the other point and possibly disjoint to each other.
 
 Now by definition of $T_n X$ the assumption $[x] \neq [y]$ means that there exists a $T_n$-topological space $Y$ and a surjective continuous function
-$f \colon X \overset{surjective}{\longrightarrow} Y$ such that $f(x) \neq f(y) \in Y$: 
+$f \colon X \overset{surjective}{\longrightarrow} Y$ such that $f(x) \neq f(y) \in Y$:
 
 $$
   ( [x_1] \neq [x_2] )
@@ -4955,7 +5067,7 @@ $$
   \underset{ { Y \in Top_{T_m}  \atop { X \underoverset{\text{surjective}}{f}{\longrightarrow}  } } }{\exists}
   \left(
     f(x_1) \neq f(x_2)
-  \right)  
+  \right)
   \,.
 $$
 
@@ -4981,7 +5093,7 @@ equivalence relation (def. \ref{QuotientTopologicalSpace}) exhibits the $T_0$-re
 
 =--
 
-A more explicit construction of the Hausdorff quotient than given by prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces} 
+A more explicit construction of the Hausdorff quotient than given by prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces}
 is rather more involved:
 
 +-- {: .num_prop #HausdorffReflectionViaTransitiveClosureOfDiagonal}
@@ -5058,7 +5170,7 @@ $\,$
 While the original formulation of the [[separation axioms]] $T_n$ from def. \ref{HausdorffTopologicalSpace} and def. \ref{NormalSpace}
 clearly does follow some kind of pattern, its equivalent reformulation in terms of closure conditions in
 prop. \ref{T0InTermsOfClosureOfPoints}, prop. \ref{T1InTermsOfTopologicalClosure}, prop \ref{T2InTermsOfClosedDiagonal},
-prop. \ref{T3InTermsOfTopologicalClosures} and prop. \ref{T4InTermsOfTopologicalClosures} suggests rather different patterns. 
+prop. \ref{T3InTermsOfTopologicalClosures} and prop. \ref{T4InTermsOfTopologicalClosures} suggests rather different patterns.
 Therefore it is worthwhile to also consider separation-like axioms that are not among the original list.
 
 In partticular, the alternative characterization of the $T_0$-condition in prop. \ref{T0InTermsOfClosureOfPoints}
@@ -8045,8 +8157,6 @@ Introductory textbooks include
 
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall (1975, 2000)
 
-* {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989)
-
 Lecture notes include
 
 * {#Waldhausen} [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
@@ -8058,9 +8168,15 @@ See also the references at _[[algebraic topology]]_.
 
 The standard literature typically omits the following important topics:
 
-Discussion of [[sober topological spaces]] is in
+
+Discussion of [[sober topological spaces]] is briefly in
 
 * {#Johnstone82} [[Peter Johnstone]], section II 1. of _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
+
+An introductory textbook that takes sober spaces, and their relation to logic, as the starting point for toplogy is
+
+* {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989)
+
 
 Detailed discussion of the [[Hausdorff reflection]] is in
 
