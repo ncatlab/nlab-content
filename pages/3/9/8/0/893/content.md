@@ -1,3 +1,45 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+ {#Idea}
+
+There are many systems of _[[formal logic]]_. By "classical logic" one broadly refers to those such systems which reflect the kind of logic as understood, quite literally, by the classics, say starting with [[Aristotelian logic]]. If you have never heard of any alternative system of logic, then classical logic is just the kind of logic that you do have heard about.
+
+There is some variance in what exactly counts as classical and as non-classical in [[logic]], but one main characteristic of classical logic is its use of the _[[principle of excluded middle]]_. This says that every [[proposition]] is either [[true]] or [[false]].
+
+It is the apparent self-evidency of this principle of excluded middle that made people take it for granted for a long period of 
+human civilization, such that it became "classical". 
+
+One consequence of the [[principle of excluded middle]] in classical logic is the possibility to
+obtain [[proof]] of a [[proposition]] by showing that its [[negation]] is [[false]] ([[proof by contradiction]]).
+Evident as this may superficially seem, it has the noteworthy consequence that one may for instance prove 
+[[existential quantifier|existence]] of mathematical objects without having any way to actually construct an example.
+
+This "non-constructive" nature of classical logic eventually led people to consider alternative and hence _non-classical_
+systems of logic, such as [[constructive logic]]/[[intuitionistic logic]], where the [[principle of excluded middle]],
+and possibly other principle of classical logic, are not considered by default.
+
+There are other principles that are often associated with classical logic, which still seemed self-evident at a time,
+but maybe less so than the principle of excluded middle. One such is the _[[axiom of choice]]_ or one of its
+equivalent incarnations, such as [[Zorn's lemma]]. The presently most popular formal [[foundation of mathematics]] via the [[set theory]], called _[[ZFC]]_, embodies both the [[principle of excluded middle]] as well as the [[axiom of choice]]. In this form classical logic serves as the foundation for _[[classical mathematics]]_. 
+
+
+## Details
+
 Classical logic is the form of [[logic]] usually accepted and taught as standard among working mathematicians, and traced back (at least) to Aristotle.  Some particular features that distinguish classical logic are (perhaps not a complete list):
 
 * a [[distributive lattice]] of logical operations ($\wedge$ and $\vee$);
@@ -10,15 +52,15 @@ In [[category theory]] (and in the [[foundations]] of mathematics generally), it
 
 ## Classical propositional logic 
 
-Before describing what makes a propositional logic 'classical', let us quickly recall what propositional logic is in the first place. 
+Before describing what makes a [[propositional logic]] 'classical', let us quickly recall what propositional logic is in the first place. 
 
-In general, a (deductive) [[logic]] specifies rules of syntax for forming well-formed formulas which can be considered as assertions, and rules of inference for deriving one formula (called a 'conclusion') from other formulas (called 'premises'), in such a way that truth of the conclusion follows on the assumption of truth of the premises. In short, a formal logic specifies a mode of reasoning that is considered valid for a particular mathematical context. 
+In general, a (deductive) [[logic]] specifies rules of [[syntax]] for forming well-formed [[formulas]] which can be considered as assertions, and rules of inference for deriving one formula (called a 'conclusion') from other formulas (called 'premises'), in such a way that truth of the conclusion follows on the assumption of truth of the premises. In short, a [[formal logic]] specifies a mode of reasoning that is considered valid for a particular mathematical context. 
 
-In [[propositional logic]], one forms a formula by applying basic logical operations such as $\wedge$ ('and'), $\vee$ ('or'), and $\Rightarrow$ ('implies')  to simpler formulas. The simplest formulas are called atomic formulas, and usually take the form of an equation $s = t$ between two terms (and underneath there are rules for term formation as well), or something like $R(a_1, \ldots, a_n)$ where $R$ stands for some basic relation (between terms $a_1, \ldots, a_n$) belonging to whatever language one is working with. A standard list of *propositional* operations would be 
+In [[propositional logic]], one forms a formula by applying basic logical operations such as $\wedge$ ('[[logical conjunction|and]]'), $\vee$ ('[[logical disjunction|or]]'), and $\Rightarrow$ ('[[implication|implies]]')  to simpler formulas. The simplest formulas are called atomic formulas, and usually take the form of an [[equation]] $s = t$ between two [[terms]] (and underneath there are rules for term formation as well), or something like $R(a_1, \ldots, a_n)$ where $R$ stands for some basic relation (between terms $a_1, \ldots, a_n$) belonging to whatever language one is working with. A standard list of *propositional* operations would be 
 
 * $\wedge, \vee, \Rightarrow$ (binary operations), $\neg$ ('not', an unary operator), and $\top, \bot$ ('true' and 'false', basic logical constants or nullary operators). 
 
-Missing from propositional logic *per se* are quantifiers such as $\exists$ and $\forall$, which properly speaking belong to [[predicate logic]]. (One way of thinking about propositional logic is that it treats formulas as assertions "all of the same type", whereas quantifiers allow one to shift between classes of assertions of one type to assertions of another type.) 
+Missing from propositional logic *per se* are [[quantifiers]] such as $\exists$ ([[existential quantifier]]) and $\forall$ ([[universal quantifier]]), which properly speaking belong to [[predicate logic]]. (One way of thinking about propositional logic is that it treats formulas as assertions "all of the same type", whereas quantifiers allow one to shift between classes of assertions of one type to assertions of another type.) 
 
 As we said, there are also rules of inference. There are various styles in which these are presented, such as [[natural deduction]] or [[sequent calculus]]. But a simple example might look like this: 
 
@@ -33,3 +75,7 @@ One knows that one is in the realm of *classical* propositional logic if the pos
 $$A \Rightarrow B \equiv \neg A \vee B$$ 
 
 and in fact the different types of propositional logic are usually conveniently described by specifying what type of algebraic structure we get on the poset of provable equivalence classes. For example, in [[intuitionistic logic]] this poset forms a [[Heyting algebra]]. 
+
+## Related concepts
+
+* [[material set theory]]
