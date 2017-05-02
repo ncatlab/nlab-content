@@ -14,7 +14,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -137,5 +137,10 @@ Somebody -- maybe [[Samuel Eilenberg]] -- (-- check --) suggested to Whitehead t
 Postnikov uses the term _mapping cocylinder_ , while for on Whitehead's complaint he comments: 
 
 > we do not see a particular criminal in the cocone terminology, but will anyway not use it.
+
+## Related concepts
+
+[[!include universal constructions of topological spaces -- table]]
+
 
 [[!redirects mapping cocones]]
