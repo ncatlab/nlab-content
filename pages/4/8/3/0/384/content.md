@@ -20,7 +20,7 @@
 
 ## Idea
 
-A **CW-complex** is a [[nice topological space|nice]] [[topological space]] which is, or can be, built up inductively, by a process of attaching [[n-disks]] $D^n$ along their [[boundary]] [[n-spheres|(n-1)-spheres]] $S^{n-1}$ for all $n \in \mathbb{N}$: a [[cell complex]] built from the basic topological cells $S^{n-1} \hookrightarrow D^n$. 
+A **CW-complex** is a [[nice topological space|nice]] [[topological space]] which is, or can be, built up inductively, by a process of [[attaching space|attaching]] [[n-disks]] $D^n$ along their [[boundary]] [[n-spheres|(n-1)-spheres]] $S^{n-1}$ for all $n \in \mathbb{N}$: a [[cell complex]] built from the basic topological cells $S^{n-1} \hookrightarrow D^n$. 
 
 Being, therefore,  essentially combinatorial objects, CW complexes are the principal objects of interest in [[algebraic topology]]; in fact, most spaces of interest to algebraic topologists are [[homotopy equivalence|homotopy equivalent]] to CW-complexes. Notably the [[geometric realization]] of every [[simplicial set]], hence also of every [[groupoid]], [[2-groupoid]], etc., is a CW complex. 
 
@@ -77,7 +77,7 @@ Notice that
 ###### Definition
 **(single cell attachment)**
 
-For $X$ any [[topological space]] and for $n \in \mathbb{N}$, then an **$n$-cell attachment** to $X$ is the result of gluing an [[n-disk]] to $X$, along a prescribed image of its bounding [[n-sphere|(n-1)-sphere]] (def. \ref{SpheresAndDisks}):
+For $X$ any [[topological space]] and for $n \in \mathbb{N}$, then an **$n$-cell [[attaching space|attachment]]** to $X$ is the result of gluing an [[n-disk]] to $X$, along a prescribed image of its bounding [[n-sphere|(n-1)-sphere]] (def. \ref{SpheresAndDisks}):
 
 Let
 
@@ -85,7 +85,7 @@ $$
   \phi \;\colon\; S^{n-1} \longrightarrow X
 $$
 
-be a [[continuous function]], then the "attaching space"
+be a [[continuous function]], then the _[[attaching space]]_
 
 $$
   X \cup_\phi D^n \,\in Top
@@ -134,7 +134,7 @@ $$
 +-- {: .num_example }
 ###### Example
 
-A single cell attachment of a 0-cell, according to def. \ref{SingleCellAttachment} is the same as forming the [[disjoint union space]] $X \sqcup \ast$ with the [[point]] space $\ast$:
+A single cell [[attaching space|attachment]] of a 0-cell, according to def. \ref{SingleCellAttachment} is the same as forming the [[disjoint union space]] $X \sqcup \ast$ with the [[point]] space $\ast$:
 
 $$
   \array{
@@ -147,7 +147,7 @@ $$
   \,.
 $$
 
-In particular if we start with the [[empty topological space]] $X = \emptyset$ itself, then by attaching 0-cells we obtain a [[discrete topological space]]. To this then we may attach higher dimensional cells.
+In particular if we start with the [[empty topological space]] $X = \emptyset$ itself, then by [[attaching space|attaching]] 0-cells we obtain a [[discrete topological space]]. To this then we may attach higher dimensional cells.
 
 
 =--
