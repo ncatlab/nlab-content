@@ -1,0 +1,13 @@
+
+## Idea
+
+A method of [[formal proof]].
+
+## Related concepts
+
+* [[proof by contradiction]]
+
+## References
+
+* {#bauer} [[Andrej Bauer]], _[Proof of negation and proof by contradiction](http://math.andrej.com/2010/03/29/proof-of-negation-and-proof-by-contradiction/)_ 2010
+
