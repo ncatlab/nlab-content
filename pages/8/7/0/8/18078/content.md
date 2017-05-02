@@ -1,66 +1,12 @@
-+-- {: .num_prop #T2InTermsOfClosedDiagonal}
-###### Proposition
-**($T_2$ in terms of topological closures)**
+**examples of [universal constructions of topological spaces](Top#UniversalConstructions)**
 
-A [[topological space]] $(X,\tau_X)$ is $T_2$=[[Hausdorff topological space|Hausdorff]]
-precisely if the [[image]] of the [[diagonal]]
-
-$$
-  \array{
-     X &\overset{\Delta_X}{\longrightarrow}& X \times X
-     \\
-     x &\overset{\phantom{AAA}}{\mapsto}& (x,x)
-  }
-$$
-
-is a [[closed subset]] in the [[product topological space]]
-$(X \times X, \tau_{X \times X})$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Observe that the Hausdorff condition is equivalently rephrased in terms of the product topology as: _Every point $(x,y) \in X$ which is not on the diagonal has an open neighbourhood $U_{(x,y)} \times U_{(x,y)}$ which still does not intersect the diagonal_, hence:
-
-$$
-  \begin{aligned}
-    & (X,\tau)\,\text{Hausdorff}
-    \\
-    \Leftrightarrow
-    & 
-  \underset{(x,y) \in (X \times X) \backslash \Delta_X(X) }{\forall}
-  \left(
-      \underset{U_{(x,y)} \times V_{(x,y)} \in \tau_{X \times Y}}{\exists}
-      \left(
-        \left(
-          (x,y) \in U_{(x,y)} \times V_{(x,y)}
-        \right)
-        \,\text{and}\,
-        \left(
-           U_{(x,y)} \times V_{(x,y)} \cap \Delta_X(X) = \emptyset
-        \right)
-      \right)
-  \right)
-  \end{aligned}
-$$
-
-Therefore if $X$ is Hausdorff, then the diagonal $\Delta_X(X) \subset X \times X$ is the complement of a union of such open sets, and hence is closed:
+| $\phantom{AAAA}$[[limits]] | $\phantom{AAAA}$[[colimits]] |
+|------------|--------------|
+| $\,$[[product topological space]]  $\,$| $\,$ [[disjoint union topological space]] $\,$ |
+| $\,$ [[topological subspace]] $\,$ | $\,$ [[quotient topological space]] $\,$ |
+| $\,$ fiber space $\,$ | $\,$ [[attaching space]] $\,$ |
+| $\,$ [[mapping cocylinder]], [[mapping cocone]] $\,$ | $\,$ [[mapping cylinder]], [[mapping cone]], [[mapping telescope]] $\,$ |
+|  |  $\,$ [[cell complex]], [[CW-complex]] $\,$  |
 
 
-$$
-  (X, \tau)\, \text{Hausdorff}
-  \;\;\;\Rightarrow \;\;\;
-  \Delta_X(X)
-  =
-  X \backslash
-  \left(
-    \underset{(x,y) \in (X \times X) \backslash \Delta_X(X)}{\cup}
-    U_{(x,y)} \times V_{(x,y)}
-  \right)
-  \,.
-$$
-
-Conversely, if the diagonal is closed, then (by [this lemma](Introduction+to+Topology+--+1#UnionOfOpensGivesClosure)) every point $(x,y) \in X \times X$ not on the diagonal, hence with $x \neq y$, has an open neighbourhood $U_{(x,y)} \times V_{(x,y)}$ still not intersecting the diagonal, hence so that $U_{(x,y)} \cap V_{(x,y)} = \emptyset$. Thus $(X,\tau)$ is Hausdorff.
-
-=--
+[[universal constructions of topological spaces -- table]]
