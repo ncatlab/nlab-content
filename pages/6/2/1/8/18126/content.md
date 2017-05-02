@@ -7,6 +7,7 @@
 
 
 
+
 ***
 
 This page is a detailed introduction to basic [[topology]].
@@ -4172,12 +4173,12 @@ $$
 +-- {: .proof}
 ###### Proof
 
-In one direction, assume that $(X,\tau)$ is normal, and consider 
+In one direction, assume that $(X,\tau)$ is normal, and consider
 
 $$
   C \subset U
   \,.
-$$ 
+$$
 
 It follows that the [[complement]] of the open subset $U$ is closed and disjoint from $C$:
 
@@ -4190,7 +4191,7 @@ Therefore by assumption of normality of $(X,\tau)$, there exist open neighbourho
 
 $$
 
-  V \supset C 
+  V \supset C
   \,, \phantom{AA}
   W \supset X \backslash U
   \phantom{AA}
@@ -4214,14 +4215,14 @@ $$
 
 as required.
 
-In the other direction, assume that for every open neighbourhood $U \supset C$ of a closed subset $C$ there exists a smaller open neighbourhood $V$ with 
+In the other direction, assume that for every open neighbourhood $U \supset C$ of a closed subset $C$ there exists a smaller open neighbourhood $V$ with
 
 $$
   C \subset V \subset Cl(V) \subset U
   \,.
 $$
 
-Consider disjoint closed subsets 
+Consider disjoint closed subsets
 
 $$
   C_1, C_2 \subset X
@@ -4229,15 +4230,15 @@ $$
   \phantom{AAA}
   C_1 \cap C_2 = \emptyset
   \,.
-$$ 
+$$
 
 We need to produce disjoint open neighbourhoods for them.
 
-From their disjointness it follows that 
+From their disjointness it follows that
 
 $$
   X \backslash C_2 \supset C_1
-$$ 
+$$
 
 is an open neighbourhood. Hence by assumption there is an open neighbourhood $V$ with
 
@@ -4246,13 +4247,13 @@ $$
   \,.
 $$
 
-Thus 
+Thus
 
 $$
   V \supset C_1
     \,, \phantom{AAAA}
   X \backslash Cl(V) \supset C_2
-$$ 
+$$
 
 are two disjoint open neighbourhoods, as required.
 
@@ -4297,7 +4298,7 @@ to the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[met
 ###### Proposition
 **([[Urysohn's lemma]])**
 
-Let $X$ be a [[normal Hausdorff topological space]] (def. \ref{NormalSpace}), and let $A,B \subset X$ 
+Let $X$ be a [[normal Hausdorff topological space]] (def. \ref{NormalSpace}), and let $A,B \subset X$
 be two [[disjoint subset|disjoint]] [[closed subsets]] of $X$. Then there exists an [[Urysohn function]] separating $A$ from $B$ (def. \ref{UrysohnFunction}).
 
 
@@ -4621,14 +4622,15 @@ $\,$
 ### $T_n$ reflection
  {#HausdorffReflections}
 
-Not every [[universal construction]] of [[topological spaces]] applied to $T_n$-spaces
-results again in a $T_n$ topological space, notably [[quotient space]] constructions need not
-(as in example \ref{LineWithTwoOrigins}).
+Not every [[universal construction]] of [[topological spaces]] applied to $T_n$-spaces (as
+[above](#TnTopologicalSpaces))
+results again in a $T_n$ topological space, notably [[quotient space]] constructions need not,
+as shown by examples \ref{RQuotientedByQ} and \ref{LineWithTwoOrigins}.
 
 But at least for $T_0$, $T_1$ and $T_2$  there is a  universal way, called _[[reflective subcategory|reflection]]_ (prop. \ref{HausdorffReflection} below),
-to approximate any topological space "from the left" by a $T_n$ topological spaces.
+to approximate any topological space "from the left" by a $T_n$ topological spaces
 
-Hence if one wishes to work within the [[full subcategory]] of the $T_n$
+Hence if one wishes to work within the [[full subcategory]] of the $T_n$-spaces
 among all [[topological space]], then the correct way to construct quotients and other _[[colimits]]_
 (see [below](#UniversalConstructions)) is to first construct them as usual [[quotient topological spaces]] (example \ref{QuotientTopologicalSpace}),
 and then apply the $T_n$-reflection to the result.
@@ -4640,13 +4642,19 @@ and then apply the $T_n$-reflection to the result.
 **($T_n$-reflection)**
 
 Let $n \in \{0,1,2\}$. Then for every [[topological space]] $X$ there exists
-a $T_n$-topological space $T_n X$ and a [[continuous function]]
 
-$$
-  t_n(X)
-    \;\colon\;
-  X \longrightarrow T_n X
-$$
+
+1. a $T_n$-topological space $T_n X$
+
+1. a [[continuous function]]
+
+   $$
+     t_n(X)
+       \;\colon\;
+     X \longrightarrow T_n X
+   $$
+
+   called the _$T_n$-reflection_ of $X$,
 
 which is the  "closest approximation from the left" to $X$ by a $T_n$-topological space, in that
 for $Y$ any $T_n$-space, then [[continuous functions]] of the form
@@ -4671,10 +4679,17 @@ $$
     T_n X
       \overset{\tilde f}{\longrightarrow}
     Y
+  \phantom{AAAA}i.e. \phantom{AA}
+  \array{
+    X && \overset{f}{\longrightarrow} && Y
+    \\
+    & {}_{\mathllap{t_n(X)}}\searrow && \nearrow_{\mathrlap{\tilde f}}
+    \\
+    && T_n X
+  }
   \,.
 $$
 
-Here $X \overset{t_n(X)}{\longrightarrow} T_n(X)$ is called the _$T_n$-reflection_ of $X$.
 
 * For $n = 0$ this is known as the _[[Kolmogorov quotient]]_ construction (see prop. \ref{KolmogorovQuotient} below).
 
@@ -4702,21 +4717,28 @@ $$
   \,
 $$
 
-Finally, the comparison map is compatible with this in that the following [[commuting squares|squares commute]]:
+Finally, the comparison map is compatible with this in that
 
 $$
+  t_n(Y) \circ f
+    =
+  T_n(f) \circ t_n(X)
+  \phantom{AAAAA}
   \array{
       X &\overset{f}{\longrightarrow}& Y
       \\
-      {}^{\mathllap{h_X}}\downarrow && \downarrow^{\mathrlap{h_Y}}
+      {}^{\mathllap{t_n(X)}}\downarrow && \downarrow^{\mathrlap{t_n(Y)}}
       \\
-      T_n X &\underset{T_n f}{\longrightarrow}& T_n Y
+      T_n X &\underset{T_n(f)}{\longrightarrow}& T_n Y
   }
   \,.
 $$
 
 
 =--
+
+We **prove** this via a concrete construction of $T_n$-reflection in prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces} below.
+But first we pause to comment on the bigger picture of the $T_n$-reflection:
 
 
 +-- {: .num_remark #ReflectiveSubcategory}
@@ -4734,7 +4756,7 @@ says that
 
    $$
      Top_{T_n}
-       \underoverset{\underset{\iota}{\hookrightarrow}}{\overset{H}{\longleftarrow}}{\bot}
+       \underoverset{\underset{\phantom{A}\iota\phantom{A}}{\hookrightarrow}}{\overset{\phantom{A}H\phantom{A}}{\longleftarrow}}{\bot}
      Top
      \,.
    $$
@@ -4751,7 +4773,9 @@ $$
   \left\{
      L(c) \longrightarrow d
   \right\}
-  \simeq
+  \phantom{A}
+    \leftrightarrow
+  \phantom{A}
   \left\{
     c \longrightarrow R(d)
   \right\}
@@ -4762,7 +4786,7 @@ i.e.
 
 $$
   Hom_{\mathcal{D}}(L(c), d)
-  \underoverset{\simeq}{\phi_{c,d}}{\longrightarrow}
+  \underoverset{\phantom{AA}\simeq \phantom{AA}}{\phi_{c,d}}{\longrightarrow}
   Hom_{\mathcal{C}}(c, R(d))
 $$
 
@@ -4771,7 +4795,7 @@ and such that these bijections are "[[natural bijection|natural]]" in that they 
 $$
   \array{
     Hom_{\mathcal{D}}(L(c), d)
-      &\underoverset{\simeq}{\phi_{c,d}}{\longrightarrow}&
+      &\underoverset{\phantom{AA}\simeq\phantom{AA}}{\phi_{c,d}}{\longrightarrow}&
     Hom_{\mathcal{C}}(c, R(d))
     \\
     {\mathllap{g \circ (-) \circ L(f)}}\downarrow
@@ -4779,7 +4803,7 @@ $$
     \downarrow{\mathrlap{ R(g) \circ (-) \circ f }}
     \\
     Hom_{\mathcal{C}}(L(c'), d')
-     &\underoverset{\simeq}{\phi_{c',d'}}{\longrightarrow}&
+     &\underoverset{\phantom{AA}\simeq\phantom{AA}}{\phi_{c',d'}}{\longrightarrow}&
     Hom_{\mathcal{D}}(c', R(d'))
   }
   \,.
@@ -4787,23 +4811,50 @@ $$
 
 =--
 
-There are various ways to see the existence and to construct the $T_n$-reflections. The following is the quickest way to see the existence, even though it leaves the actual construction rather implicit.
+$\,$
 
+There are various ways to see the existence and to construct the $T_n$-reflections. The following is the quickest way to see the existence, even though it leaves the actual construction rather implicit.
 
 +-- {: .num_prop #HausdorffReflectionViaHomsIntoAllHausdorffSpaces}
 ###### Proposition
+**($T_n$-reflection via explicit quotients)**
+
 
 Let $n \in \{0,1,2\}$. Let $(X,\tau)$ be a [[topological space]] and consider the [[equivalence relation]] $\sim$ on the underlying set $X$
-for which $x \sim y$ precisely if for every [[surjective function|surjective]] [[continuous function]] $f \colon X \to Y$ into any
-$T_n$-topological space $Y$ we have $f(x) = f(y)$.
-
-Then the set of [[equivalence classes]]
+for which $x_1 \sim x_2$ precisely if for every [[surjective function|surjective]] [[continuous function]] $f \colon X \to Y$ into any
+$T_n$-topological space $Y$ (def. \ref{HausdorffTopologicalSpace}) we have $f(x_1) = f(x_2)$:
 
 $$
-  T_n X \coloneqq X /{\sim}
+  (x_1 \sim x_2)
+    \;\coloneqq\;
+  \underset{ { Y \in Top_{T_n} } \atop { X \underoverset{\text{surjective}}{f}{\to} Y  }  }{\forall}
+  \left(
+    f(x) = f(y)
+  \right)
+  \,.
 $$
 
-equipped with the [[quotient topology]] is a $T_n$-topological space, and the quotient map $t_n(X) \;\colon\; X \to X/{\sim}$ exhibits the $T_n$-reflection of $X$, according to prop. \ref{HausdorffReflection}.
+Then 
+
+1. the set of [[equivalence classes]]
+
+  $$
+    T_n X \coloneqq X /{\sim}
+  $$
+
+  equipped with the [[quotient topology]] (example \ref{QuotientTopologicalSpace}) is a $T_n$-topological space, 
+  
+1. the quotient projectioon
+
+   $$
+     \array{
+       X & \overset{t_n(X)}{\longrightarrow} &  X/{\sim}
+       \\
+       x &\overset{\phantom{AAA}}{\mapsto}& [x]
+     }
+   $$
+
+   exhibits the $T_n$-reflection of $X$, according to prop. \ref{HausdorffReflection}.
 
 =--
 
@@ -4811,52 +4862,71 @@ equipped with the [[quotient topology]] is a $T_n$-topological space, and the qu
 ###### Proof
 
 First we observe that every continuous function $f \colon X \longrightarrow Y$ into a $T_n$-topological space $Y$
-factors uniquely via $t_n(X)$ through a continuous function $\tilde f$
+factors uniquely, via $t_n(X)$ through a continuous function $\tilde f$:
 
 $$
-  f = \tilde f \circ h_X
+  f = \tilde f \circ t_n(X)
 $$
 
-where
+Clearly this continuous function $\tilde f$ is unique if it exists, because its underlying function of sets
+must be given by
 
 $$
   \tilde f \colon [x] \mapsto f(x)
   \,.
 $$
 
-To see this, first factor $f$ through its [[image]] $f(X)$
+First observe that this is indeed well defined as a function of underlying sets. 
+To that end, factor $f$ through its [[image]] $f(X)$
 
 $$
   f \;\colon\; X \longrightarrow f(X) \hookrightarrow Y
 $$
 
 equipped with its [[topological subspace|subspace topology]] as a subspace of $Y$ (example \ref{ImageFactorization}). By
-prop. \ref{TiSubspaces} also $f(X)$ is a $T_n$-topological space if $Y$ is.
+prop. \ref{TiSubspaces} also the image $f(X)$ is a $T_n$-topological space, since $Y$ is.
+This means that if two elements $x_1, x_2 \in X$ have the same equivalence class, then, by definition of the 
+equivalence relation, they have the same image under _all_ comntinuous surjective functions into a $T_n$-space,
+hence in particular they have the same image under $f \colon X \overset{\text{surjective}}{\longrightarrow} f(X) \hookrightarrow Y$
 
-It follows by definition of $t_n(X)$ that the factorization exists at the level of sets as stated,
-since if $x_1, x_2 \in X$ have the same [[equivalence class]] $[x_1] = [x_2]$ in $T_n X$, then
-by definition they have the same image under all continuous surjective functions to a $T_n$-space, hence in particular
-under $X \to f(X)$. This means that $\tilde f$ as above is well defined.
-Moreover, it is clear that this is the unique factorization.
+$$
+  ( [x_1] = [x_2]) \,\Leftrightarrow\, (x_1 \sim x_2) \,\Rightarrow\, ( f(x_1) = f(x_2) )
+  \,.
+$$
 
-To see that $\tilde f$ is continuous, consider $U \in Y$ an open subset. We need to show that $\tilde f^{-1}(U)$ is open in $X/\sim$. But by definition of the [[quotient topological space|quotient topology]], this is open precisely if its pre-image under the quotient projection $t_n(X)$ is open, hence precisely if
+This shows that $\tilde f$ is well defined.
+
+To see that $\tilde f$ is also continuous, consider $U \in Y$ an open subset. We need to show that $\tilde f^{-1}(U)$ is open in $X/\sim$. But by definition of the [[quotient topological space|quotient topology]] (example \ref{QuotientTopologicalSpace}) , this is open precisely if its pre-image under the quotient projection $t_n(X)$ is open, hence precisely if
 
 $$
   (t_n(X))^{-1} \left( \tilde f^{-1}\left(U\right)  \right)
   =
   \left( \tilde f \circ t_n(X) \right)^{-1}(U)
   =
-  f(U)
+  f^{-1}(U)
 $$
 
-is open in $X$. But this is the case by the assumption that $f$ is continuous.
+is open in $X$. But this is the case by the assumption that $f$ is continuous. Hence $\tilde f$ is indeed the unique 
+continuous function as required.
 
 What remains to be seen is that $T_n X$ as constructed is indeed a $T_n$-topological space.
 Hence assume that $[x] \neq [y] \in T_n X$ are two distinct points. We need to produce open neighbourhoods
 around one or both of these point not containing the other point and possibly disjoint to each other.
 
 Now by definition of $T_n X$ the assumption $[x] \neq [y]$ means that there exists a $T_n$-topological space $Y$ and a surjective continuous function
-$f \colon X \longrightarrow Y$ such that $f(x) \neq f(y) \in Y$. Accordingly, since $Y$ is $T_n$,
+$f \colon X \overset{surjective}{\longrightarrow} Y$ such that $f(x) \neq f(y) \in Y$: 
+
+$$
+  ( [x_1] \neq [x_2] )
+  \;\Leftrightarrow\;
+  \underset{ { Y \in Top_{T_m}  \atop { X \underoverset{\text{surjective}}{f}{\longrightarrow}  } } }{\exists}
+  \left(
+    f(x_1) \neq f(x_2)
+  \right)  
+  \,.
+$$
+
+Accordingly, since $Y$ is $T_n$,
 there exist the respective kinds of neighbourhoods around these image points in $Y$. Moreover, by the previous statement there
 exists the continuous function $\tilde f \colon T_n X \to Y$ with $\tilde f([x]) = f(x)$ and $\tilde f([y]) = f(y)$.
 By the nature of continuous functions,
