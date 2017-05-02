@@ -30,18 +30,24 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
   * [[convenient category of topological spaces]]
 
-## Constructions
-
-* [[subspace]]
-
-* [[quotient space]], [[attaching space]]
-
-* [[product space]], [[disjoint union space]]
+## [Universal constructions](Top#UniversalConstructions)
 
 * [[initial topology]], [[final topology]]
 
+* [[subspace]], [[quotient space]], 
 
-## Extra stuff, structure, properties
+* fiber space, [[attaching space]]
+
+* [[product space]], [[disjoint union space]]
+
+* [[mapping cylinder]], [[mapping cocylinder]]
+
+* [[mapping cone]], [[mapping cocone]]
+
+* [[mapping telescope]]
+
+
+## [[stuff, structure, property|Extra stuff, structure, properties]]
 
 * [[nice topological space]]
 
