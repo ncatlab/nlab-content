@@ -13,46 +13,60 @@
 =--
 
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-... [[category theory|category-theoretic]] formulation of [[separation axioms]] in terms of [[lifting properties]]...
-
-### Notation for maps of finite topological spaces
+In [[topology]], some of the [[separation axioms]] that may be considered on [[topological spaces]] may equivalently be refomrulated in temrs of [[lifting properties]] ([Gavrilovich 14](#MG)). 
 
 
-A topological space comes with a _specialisation preorder_ on its points: for
-points $x,y \in X$,  $x \leq y$ iff $y \in cl x$ , or equivalently,  a category whose
-objects are points of ${X}$ and there is a unique morphism $x{\searrow}y$ iff $y \in cl x$.
-
-For a finite topological space $X$, the specialisation preorder or equivalently
-the category uniquely determines the space: a subset of ${X}$ is closed iff it is
-downward closed, or equivalently, there are no morphisms going outside the
-subset.
+## Background and notation
 
 
-The monotone maps (i.e. functors) are the continuous maps for this topology.
+A [[topological space]] comes with a _[[specialisation preorder]]_ on its points: for
+points $x,y \in X$,  $x \leq y$ iff $y \in cl x$ ($y$ is in the [[topological closure]] of $x$), or equivalently. The resulting [[preordered set]] may be regarded as a [[category]] whose
+[[objects]] are the points of ${X}$ and where there is a unique [[morphism]] $x{\searrow}y$ iff $y \in cl x$.
+
+For a [[finite topological space]] $X$, the specialisation preorder or equivalently the corresponding category uniquely determines the space: a [[subset]] of ${X}$ is [[closed subset|closed]] iff it is
+[[downward closed subset|downward closed]], or equivalently, there are no morphisms going outside the subset.
+
+
+The monotone maps (i.e. [[functors]]) are the [[continuous maps]] for this topology.
 
 We denote a finite topological space by a list of the arrows (morphisms) in
-the corresponding category; '$\leftrightarrow $' denotes an isomorphism and '$=$' denotes
-the identity morphism.  An arrow between two such lists denotes
-a continuous map (a functor) which sends each point to the correspondingly
-labelled point, but possibly turning some morphisms into identity morphisms,
-thus gluing some points. 
+the corresponding category; '$\leftrightarrow $' denotes an [[isomorphism]] and '$=$' denotes the [[identity morphism]].  An arrow between two such lists denotes a [[continuous map]] (a functor) which sends each point to the correspondingly labelled point, but possibly turning some morphisms into identity morphisms, thus gluing some points. 
 
-Thus, each point goes to "itself" and  
+With this notation, we may display continuous functions for instance between the [[discrete space]] on two points, the [[Sierpinski space]], the [[antidiscrete space]] and the [[point space]] as follows (where each point is understood to be mapped to the point of the same name in the next space):
+
 $$
- \{a,b\}\longrightarrow \{a{\searrow}b\}\longrightarrow \{a\leftrightarrow b\}\longrightarrow \{a=b\}
-$$
-denotes
-$$
-  (discrete-space-on-two-points)\longrightarrow (Sierpinski-space)\longrightarrow (antidiscrete-space)\longrightarrow (single-point)
+  \array{
+  \{a,b\}
+     &\longrightarrow& 
+  \{a{\searrow}b\}
+     &\longrightarrow& 
+  \{a\leftrightarrow b\}
+    &\longrightarrow& 
+  \{a=b\}
+  \\
+  \text{(discrete space)}
+     &\longrightarrow& 
+  \text{(Sierpinski space)}
+    &\longrightarrow& 
+  \text{(antidiscrete space)}
+    &\longrightarrow& 
+  \text{(single point)}
+  }
 $$
 
 In $A \longrightarrow  B$, each object and each morphism in $A$ necessarily appears in {B} as well; we avoid listing 
 the same object or morphism twice. Thus 
 both 
 $$
-\{a\} \longrightarrow  \{a,b\}\text{ and } \{a\} \longrightarrow  \{b\}
+\{a\} \longrightarrow  \{a,b\}
+  \phantom{AAA} \text{ and } \phantom{AAA} 
+\{a\} \longrightarrow  \{b\}
 $$ 
 denote the same map from a single point to the discrete space with two points.
 Both
@@ -63,21 +77,24 @@ In $\{a{\searrow}b\}$, the point $a$ is open and point ${b}$ is closed.
 
 
 
-### Separation conditions in terms of arrows
+## Separation conditions in terms of arrows
 
 Fix two sets ([[subsets]]) $F$ and $G$ of $S$.
 
 *  The sets $F$ and $G$ are __[[disjoint sets|disjoint]]__ if their [[intersection]] is [[empty set|empty]]:
+
    $$ F \cap G = \empty .$$
-   In terms of arrows,  the following map is well-defined: $S_{F,G}: S \longrightarrow  \{F,G,x\}$ such that $S_{F,G}{x)=F$ for $x in F$, $S_{F,G}{x)=G$ for $x \in G$, and $S_{F,G}{x)=x$ for $x \notin F\cup G$.
+
+   In terms of arrows,  the following map is well-defined: 
+   $S_{F,G}: S \longrightarrow  \{F,G,x\}$ such that 
+   $S_{F,G}(x)=F$ for $x \in F$, $S_{F,G}(x)=G$ for $x \in G$, and $S_{F,G}(x)=x$ for $x \notin F\cup G$.
 
 *  They are __topologically disjoint__ if there exists a [[neighbourhood]] of one set that is disjoint from the other set:
    $$ (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty) \;\vee\; (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty) .$$
    In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow G \leftrightarrow x \}$ factors as 
 
-FIXME
 
-### Separation axioms as lifting properties 
+## Separation axioms as lifting properties 
 
 In all of the following definitions, ${X}$ is  a topological space.
 
@@ -114,12 +131,12 @@ $$    \{x,y\} \hookrightarrow  {X} \,\rightthreetimes\,  \{x{\searrow}X{\swarrow
 Thus, $X$ is Hausdorff if and only if it is both T0
 and R1. Every Hausdorff space is also T1.
 
-*  $X$ is $T2\frac12$, or Urysohn, if any two distinct points in $X$ are separated by
+*  $X$ is $T2\frac{1}{2}$, or Urysohn, if any two distinct points in $X$ are separated by
 closed neighbourhoods, i.e.
 $$
  \{x,y\} \hookrightarrow  {X} \,\rightthreetimes\,  \{x{\searrow}x'{\swarrow}X{\searrow}y'{\swarrow}y\} \longrightarrow  \{x=x'=X=y'=y\}
 $$
-Every $T2\frac12$ space is also Hausdorff.
+Every $T2\frac{1}{2}$ space is also Hausdorff.
 
 *  $X$ is completely Hausdorff, or completely T2, if any two distinct points in
 X are separated by a continuous function, i.e. 
@@ -129,7 +146,7 @@ $$
 point space $\{x,y\}$.
 
 Every completely Hausdorff space is
-also $ T2\frac 12 $.
+also $ T2\frac{1}{2} $.
 
 *  $X$ is regular if, given any point {x} and closed subset $F$ in $X$ such that {x} does
 not belong to $F$, they are separated by neighbourhoods, i.e.
@@ -140,7 +157,7 @@ space, any such {x} and{F} will also be separated by closed neighbourhoods.) Eve
 regular space is also R1.
 
 *  $X$ is regular Hausdorff, or T3, if it is both T0 and regular.[1] Every
-regular Hausdorff space is also $T2\frac12$.
+regular Hausdorff space is also $T2\frac{1}{2}$.
 
 *  $X$ is completely regular if, given any point ${x}$ and closed set $F$ in $X$ such
 that ${x}$ does not belong to $F$, they are separated by a continuous function, i.e. 
@@ -152,7 +169,7 @@ where points $F$ and $1$ are topologically indistinguishable, $[0,1]$ goes to $x
 Every
 completely regular space is also regular.
 
-*  $X$ is Tychonoff, or T3$\frac12$, completely T3, or completely regular Hausdorff, if
+*  $X$ is Tychonoff, or T3$\frac{1}{2}$, completely T3, or completely regular Hausdorff, if
 it is both T0 and completely regular.[2] Every Tychonoff space is both regular
 Hausdorff and completely Hausdorff.
 
@@ -192,7 +209,7 @@ completely normal.
 
 
 
-## Details
+## Merge or discard
 
 
 
