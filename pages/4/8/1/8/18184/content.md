@@ -24,7 +24,9 @@ More [[category theory|abstractly]], attaching spaces are [[pushouts]] along [[m
 
 ## Definition
 
-The attaching space may be realized as the [[quotient topological space]] of the [[disjoint union space]] $X \sqcup Y$ by the [[equivalence relation]] which identifies a point $x \in A \subset X$ with its [[image]] $f(x) \in Y$:
+Let $X,Y \in Top$ be [[topological spaces]], let $A \subset X$ be a [[topological subspace]] and let $f \colon A \to Y$ be a [[continuous function]].
+ 
+Then the _attaching space_ $X \cup_f Y \in Top$ may be realized as the [[quotient topological space]] of the [[disjoint union space]] $X \sqcup Y$ by the [[equivalence relation]] which identifies a point $x \in A \subset X$ with its [[image]] $f(x) \in Y$:
 
 
 $$
