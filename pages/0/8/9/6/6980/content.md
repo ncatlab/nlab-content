@@ -65,9 +65,16 @@ While all this does contradict some of Jaffe-Quinn's claims, it may still harmon
 Thus a proof *qua* witness is a construction, and in more elaborated developments (for instance in [[intensional type theory]]) a formal proof is itself a mathematical object, with internal mathematical structure. 
 =-- 
 
+## Proof methods
+ {#ProofMethods}
+
+* [[refutation by contradiction]]
+
+* [[proof by contradiction]], 
+
+
 ## Related concepts
 
-* [[proof by contradiction]], [[proof of negation]]
 
 * [[computational trinitarianism]]
 
