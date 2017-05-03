@@ -8,6 +8,8 @@
 
 Refutation by contradiction is also called *proof of negation*, but this can be confusing because there may be other "indirect" ways to prove a negation.
 
+Rarely one finds logics that have a basic notion of "refutation of $A$" that is distinct from (though generally closely related to) a "proof of $\neg A$".  In that case, refutation by contradiction is more precisely a method of refuting $A$ by deriving a contradiction from an assumption of $A$, which then requires an extra step to get to a proof of $\neg A$.
+
 ## Related concepts
 
 * [[proof by contradiction]]
