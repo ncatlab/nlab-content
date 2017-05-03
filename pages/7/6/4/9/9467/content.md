@@ -44,7 +44,7 @@ on $[0,1]$.  (We can make this a function on all of $\mathbb{R}$ by letting $f_n
 
 Another counterexample is
 $$ f_n(x) \coloneqq \exp ({-n {|x|}}) .$$
-(The [[absolute value]] is here only to handle negative values of $x$; the example is [[analytic function|analytic]] on $[0,\infty[$.)  Now $f_\infty(0) = 1$, while $f_\infty(x) = 0$ for $x \ne 0$.
+(The [[absolute value]] is here only to handle negative values of $x$; the example is [[analytic function|analytic]] on $]0,\infty[$.)  Now $f_\infty(0) = 1$, while $f_\infty(x) = 0$ for $x \ne 0$.
 
 
 ## Proofs
