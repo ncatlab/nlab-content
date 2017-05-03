@@ -22,15 +22,18 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
 _Intuitionistic mathematics_ is a variety of [[constructive mathematics]] done according to the principles accepted by [[L.E.J. Brouwer]] and his philosophy of _intuitionism_.
+
+But beware the terminological ambiguity: Brouwerian intuitionism includes [[axioms]] that contradict [[classical logic]]; but other people use "intuitionistic" to mean the same as what in other contexts is called "[[constructive|constuctive mathematics]]", i.e. mathematics without the [[principle of excluded middle]] or the [[axiom of choice]] but nothing added that contradicts them.  
 
 
 ## Terminology
 
 There are a variety of ways to use the term 'intuitionistic'.  We list them here, roughly from the most specific to the most general, and contrast (where appropriate) with the term 'constructive':
 
-*  __Intuitionism__ is an early-20th-century [[philosophy of mathematics]] developed by Brouwer, according to which [[mathematics]] is a free creation of a mind, and valid results are about what that mind creates (rather than about an external reality, as in [[platonism]], or about nothing, as in [[formalism]]).  From this controversial starting point, Brouwer drew even more controversial conclusions about both mathematics and [[logic]] (which he saw as derived from mathematics, rather than conversely as in [[logicism]]).  Intuitionism is one particular philosophy of [[constructivism]].
+*  __Intuitionism__ is an early-20th-century [[philosophy of mathematics]] developed by [[Brouwer]], according to which [[mathematics]] is a free creation of a mind, and valid results are about what that mind creates (rather than about an external reality, as in [[platonism]], or about nothing, as in [[formalism]]).  From this controversial starting point, Brouwer drew even more controversial conclusions about both [[mathematics]] and [[logic]] (which he saw as derived from mathematics, rather than conversely as in [[logicism]]).  Intuitionism is one particular philosophy of [[constructivism]].
 
 *  __Intuitionistic mathematics__ is mathematics along the lines of the mathematics that Brouwer came up with.  However, it\'s not necessary to accept Brouwer\'s philosophy to practise intuitionistic mathematics; conversely, one may accept Brouwer\'s philosophical starting place but not his conclusions about the resulting mathematics.  Intuitionistic mathematics is one particular variety of [[constructive mathematics]].
 
