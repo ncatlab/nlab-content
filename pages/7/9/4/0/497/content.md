@@ -14,7 +14,7 @@
 
 ## Idea
 
-In [[logic]], the principle of **excluded middle** states that every [[truth value]] is either [[true]] or [[false]]. (This is sometimes called the '[[axiom]]' or 'law' of excluded middle, either to emphasise that it is or is not optional; 'principle' is a relatively neutral term.) One of the many meanings of [[classical logic]] is to emphasise that this principle holds in the logic; in contrast, it fails in [[intuitionistic logic]].
+In [[logic]], the principle of **excluded middle** states that every [[truth value]] is either [[true]] or [[false]] ([Aristotle, MP1011b24](#AristotleMetaphysics)). (This is sometimes called the '[[axiom]]' or 'law' of excluded middle, either to emphasise that it is or is not optional; 'principle' is a relatively neutral term.) One of the many meanings of [[classical logic]] is to emphasise that this principle holds in the logic; in contrast, it fails in [[intuitionistic logic]].
 
 The principle of excluded middle (hereafter, PEM), as a statement about truth values themselves, is accepted by nearly all mathematicians ([[classical mathematics]]); those who doubt or deny it are a distinct minority, the [[constructive mathematics|constructivists]]. However, when one [[internalization|internalises]] mathematics in [[categories]] other than [[Set|the category of sets]], there is no doubt that excluded middle often fails [[internal logic|internally]]. See the examples listed at [[internal logic]]. (Those categories in which excluded middle holds are called [[Boolean category|Boolean]]; in general, the adjective 'Boolean' is often used to indicate the applicability of PEM.)
 
@@ -66,6 +66,9 @@ In particular, this shows how the [[double negation]] [[modality]] can be regard
 
 ### In homotopy type theory
  {#ReferencesInHomotopyTypeTheory}
+
+
+* {#AristotleMetaphysics} [[Aristotle]], _[[Metaphysics (Aristotle)|Metaphysics]]_, 1011b24: "Of any one subject, one thing must be either asserted or denied" 
 
 In [[homotopy type theory]]:
 
