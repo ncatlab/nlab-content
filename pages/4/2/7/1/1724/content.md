@@ -17,3 +17,6 @@ An [[inhabited subset|inhabited]], [[open subset|open]] lower set of [[rational 
 [[!redirects lower sets]]
 [[!redirects lower subset]]
 [[!redirects lower subsets]]
+
+[[!redirects downward closed subset]]
+[[!redirects downward closed subsets]]
