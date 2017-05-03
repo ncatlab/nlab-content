@@ -55,7 +55,7 @@ For more on this see at _[Top -- Universal constructions](Top#UniversalConstruct
 
 ## Examples
 
-* In forming topological [[cell complexes]] such as [[CW-complexes]], one consecutively forms space attachments along [[n-sphere]] inclusions as [[boundaries]] of [[n-disks]]. These are called _cell attachments_.
+* In forming topological [[cell complexes]] such as [[CW-complexes]], one consecutively forms space attachments along [[n-sphere|(n-1)-sphere]] inclusions as [[boundaries]] of [[n-disks]]. These are called _cell attachments_.
 
 ## Related concepts
 
