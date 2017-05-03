@@ -18,9 +18,9 @@
 
 <div style="float:right;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/AttachingSpace.jpg" width="400"></div>
 
-In [[topology]], an _attaching space_ is a [[topological space]], denoted $X \cup_{f} Y$, which is constructed by "attaching" or "gluing" two topological spaces $X$ and $Y$ along a [[topological subspace]] $A \subset X$ by means of a [[continuous function]] $f \colon A \to Y$. The function $f$ is then called the _attaching map_. The alternative term, _adjunction space_, is also used.
- 
-More [[category theory|abstractly]], attaching spaces are [[pushouts]] along [[monomorphisms]] in the [[category]] [[Top]] of all [[topological spaces]]. The [[formal dual|formally dual]] concept is that of [[fiber]] spaces or more generally of [[fiber products]] of topological spaces.
+In [[topology]], the result of a _space attachment_ (sometimes called an _attaching space_ or _adjunction space_) is a [[topological space]], denoted $X \cup_{f} Y$, which is constructed by "attaching" or "gluing" two topological spaces $X$ and $Y$ along a [[topological subspace]] $A \subset X$ by means of a [[continuous function]] $f \colon A \to Y$. The function $f$ is then called the _attaching map_. 
+
+More [[category theory|abstractly]], space attachments are [[pushouts]] along [[monomorphisms]] in the [[category]] [[Top]] of all [[topological spaces]]. The [[formal dual|formally dual]] concept is that of [[fiber]] spaces or more generally of [[fiber products]] of topological spaces.
 
 ## Definition
 
@@ -55,7 +55,7 @@ For more on this see at _[Top -- Universal constructions](Top#UniversalConstruct
 
 ## Examples
 
-* In forming topological [[cell complexes]] such as [[CW-complexes]], one consecutively forms attaching spaces along [[n-sphere]] inclusions as [[boundaries]] of [[n-disks]].
+* In forming topological [[cell complexes]] such as [[CW-complexes]], one consecutively forms space attachments along [[n-sphere]] inclusions as [[boundaries]] of [[n-disks]]. These are called _cell attachments_.
 
 ## Related concepts
 
@@ -66,6 +66,9 @@ For more on this see at _[Top -- Universal constructions](Top#UniversalConstruct
 
 * Wikipedia, _[Adjunction space](https://en.wikipedia.org/wiki/Adjunction_space)_
 
+[[!redirects space attachments]]
+
+[[!redirects attaching space]]
 [[!redirects attaching spaces]]
 
 [[!redirects attaching map]]
