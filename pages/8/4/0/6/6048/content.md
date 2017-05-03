@@ -27,7 +27,7 @@ Later, with the [[BFSS matrix model]] some people gained
 more confidence in the idea, by identifying the corresponding degrees
 of freedom in a special case ([Nicolai-Helling 98](#NicolaiHelling98), [Dasgupta-Nicolai-Plefka 02](#DasguptaNicolaiPlefka02)). See also at _[[membrane matrix model]]_. 
 
-In a more modern perspective, the M2-brane [[worldvolume]] theory appears under _[AdS4-CFT3 duality](AdS-CFT#AdS4CFT3)_ as a [[holographic principle|holographic dual]] of a [[4-dimensional Chern-Simons theory]]. Indeed, its [[Green-Schwarz action functional]] is entirely controled by the [[super Lie algebra|super]]-[[Lie algebra cocycle|Lie algebra 4-cocycle]] of [[super Minkowski spacetime]] given by the [[brane scan]]. This exhibits the M2-brane worldvolume theory as a 3-dimensional [[schreiber:∞-Wess-Zumini-Witten theory|higher WZW model]].
+In a more modern perspective, the M2-brane [[worldvolume]] theory appears under _[AdS4-CFT3 duality](AdS-CFT#AdS4CFT3)_ as a [[holographic principle|holographic dual]] of a [[4-dimensional Chern-Simons theory]]. Indeed, its [[Green-Schwarz action functional]] is entirely controled by the [[super Lie algebra|super]]-[[Lie algebra cocycle|Lie algebra 4-cocycle]] of [[super Minkowski spacetime]] given by the [[brane scan]]. This exhibits the M2-brane worldvolume theory as a 3-dimensional [[higher dimensional WZW model]].
 
 ## Definition
 
@@ -154,6 +154,9 @@ The interpretation of the M2-brane [[worldvolume]] theory as related to the [[BF
 * {#NicolaiHelling98} [[Hermann Nicolai]], Robert Helling, _Supermembranes and M(atrix) Theory_,  Lectures given by H. Nicolai at the Trieste Spring School on Non-Perturbative Aspects of String Theory and Supersymmetric Gauge Theories, 23 - 31 March 1998 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103))
   
 * {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav.Cosmol.8:1,2002; Rev.Mex.Fis.49S1:1-10, 2003 ([arXiv:hep-th/0201182](http://arxiv.org/abs/hep-th/0201182))
+
+* [[Gijs van den Oord]], _On Matrix Regularisation of
+Supermembranes_, 2006 ([pdf](http://web.science.uu.nl/itf/Teaching/2006/vandenOord.pdf))
 
 Meanwhile [[AdS-CFT duality]] was recognized in 
 
