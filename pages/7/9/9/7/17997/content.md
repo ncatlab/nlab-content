@@ -1,5 +1,13 @@
 
-
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
 
 
 
@@ -9,9 +17,9 @@
 
 ## Idea
 
-relates the [[topological K-theory]] of the [[product topological space]] with a [[2-sphere]] to the K-theory ring of the original space with a generator for the [[basic line bundle on the 2-sphere]] adjoined
+The _fundamental product theorem in K-theory_ is a statement relating the [[topological K-theory]]-ring of a [[product topological space]] with the [[2-sphere]] to the K-theory ring of the original space with a generator for the [[basic line bundle on the 2-sphere]] adjoined.
 
-one big step in a proof of [[Bott periodicity]] for [[topological K-theory]] over the complex numbers
+This theorem in particular serves as a substantial step in a [[proof]] of [[Bott periodicity]] for [[topological K-theory]].
 
 
 ## Statement
@@ -42,8 +50,8 @@ $$
 
 ## References
 
-* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+* {#Hatcher} [[Allen Hatcher]], section 2.1 (from p. 45 on) in _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
-* {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
+* {#Wirthmuller12} [[Klaus Wirthmüller]], section 6, from p. 19 on _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
 
