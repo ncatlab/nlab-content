@@ -8,7 +8,7 @@
 
 Refutation by contradiction is also called *proof of negation*, but this can be confusing because there may be other "indirect" ways to prove a negation.
 
-Rarely one finds logics that have a basic notion of "refutation of $A$" that is distinct from (though generally closely related to) a "proof of $\neg A$".  In that case, refutation by contradiction is more precisely a method of refuting $A$ by deriving a contradiction from an assumption of $A$, which then requires an extra step to get to a proof of $\neg A$.
+Rarely one finds logics that have a basic notion of "refutation of $A$" that is distinct from (though generally closely related to) a "proof of $\neg A$" [(Nelson 1949)](#Nelson49).  In that case, refutation by contradiction is more precisely a method of refuting $A$ by deriving a contradiction from an assumption of $A$, which then requires an extra step to get to a proof of $\neg A$.
 
 ## Related concepts
 
@@ -17,5 +17,7 @@ Rarely one finds logics that have a basic notion of "refutation of $A$" that is 
 ## References
 
 * {#bauer} [[Andrej Bauer]], _[Proof of negation and proof by contradiction](http://math.andrej.com/2010/03/29/proof-of-negation-and-proof-by-contradiction/)_ 2010
+
+* {#Nelson49} David Nelson, Constructible Falsity, _The Journal of Symbolic Logic_, Vol. 14, No. 1 (Mar., 1949), pp. 16-26. ([jstor](http://www.jstor.org/stable/2268973))
 
 [[!redirects proof of negation]]
