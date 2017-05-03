@@ -30,7 +30,7 @@ $$
 
 This theorem in particular serves as a substantial step in a [[proof]] of [[Bott periodicity]] for [[topological K-theory]].
 
-The usual [[proof]] proceeds by first identifying all [[vector bundles]] on $X \times S^2$ via an $X$-paramertized [[clutching construction]], thn showing that all the clutching functions are [[homotopy|homotopic]] to [[Laurent series]] clutching functions, and then analyzing these.
+The usual [[proof]] proceeds by first realizing all [[vector bundles]] on $X \times S^2$ via an $X$-parameterized [[clutching construction]], then showing that all the clutching functions are [[homotopy|homotopic]] to those that are [[Laurent series]] as functions on $S^1$, and then analyzing these.
 
 
 
