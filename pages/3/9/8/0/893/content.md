@@ -17,7 +17,7 @@
 ## Idea
  {#Idea}
 
-There are many systems of _[[formal logic]]_. By "classical logic" one broadly refers to those such systems which reflect the kind of logic as understood, quite literally, by the classics, say starting with [[Aristotle]]. If you have never heard of any alternative system of logic, then classical logic is just the kind of logic that you have heard about.
+There are many systems of _[[formal logic]]_. By "classical logic" one broadly refers to those such systems which reflect the kind of logic as understood, quite literally, by the classics, say starting with [Aristotle, Metaphysics 1011b24](excluded+middle#AristotleMetaphysics). If you have never heard of any alternative system of logic, then classical logic is just the kind of logic that you have heard about.
 
 There is some variance in what exactly counts as classical and as non-classical in [[logic]], but one main characteristic of classical logic is its use of the _[[principle of excluded middle]]_. Informally this says that every [[proposition]] is either [[true]] or [[false]]; slightly more carefully it says that for any proposition, either it or its negation is true, where the 'or' is to be read in an 'internal' sense, i.e., as a formal disjunction.
 
