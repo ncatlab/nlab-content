@@ -17,9 +17,22 @@
 
 ## Idea
 
-The _fundamental product theorem in K-theory_ is a statement relating the [[topological K-theory]]-ring of a [[product topological space]] with the [[2-sphere]] to the K-theory ring of the original space with a generator for the [[basic line bundle on the 2-sphere]] adjoined.
+For $X$ a [[compact Hausdorff space]] The _fundamental product theorem in K-theory_ identifies 
+
+1. the [[topological K-theory]]-[[commutative ring|ring]] $K(X \times S^2)$ of the [[product topological space]] $X \times S^2$ with the [[2-sphere]] $S^2 $;
+
+1. the K-theory ring $K(X)$ of the original space $X$ with a generator $H$ for the [[basic line bundle on the 2-sphere]] adjoined:
+
+$$
+  K(X \times S^2) \simeq K(X) \otimes_{\mathbb{Z}} \mathbb{Z}[H]/(H-1)^2
+  \,.
+$$
 
 This theorem in particular serves as a substantial step in a [[proof]] of [[Bott periodicity]] for [[topological K-theory]].
+
+The usual [[proof]] proceeds by first identifying all [[vector bundles]] on $X \times S^2$ via an $X$-paramertized [[clutching construction]], thn showing that all the clutching functions are [[homotopy|homotopic]] to [[Laurent series]] clutching functions, and then analyzing these.
+
+
 
 
 ## Statement
@@ -52,6 +65,6 @@ $$
 
 * {#Hatcher} [[Allen Hatcher]], section 2.1 (from p. 45 on) in _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
-* {#Wirthmuller12} [[Klaus Wirthmüller]], section 6, from p. 19 on _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
+* {#Wirthmuller12} [[Klaus Wirthmüller]], section 6 (from p. 19 on) in _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
 
