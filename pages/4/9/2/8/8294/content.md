@@ -45,14 +45,14 @@ $$
 
 itself.
 
-The **space of solutions** of this equation is the [[dependent sum]] over all pairs of terms for which [[equality]] holds
+The **space of [[solutions]]** of this equation is the [[dependent sum]] over all pairs of terms for which [[equality]] holds
 
 $$
   \vdash \sum_{{x : X} \atop {y : Y}} (\phi(x) = \psi(y)) : Type
   \,.
 $$
 
-Hence a particular **solution** $sol$ is a [[term]] of this type
+Hence a particular **[[solution]]** $sol$ is a [[term]] of this type
 
 $$
   \vdash sol : \sum_{{x : X} \atop {y : Y}} (\phi(x) = \psi(y))
