@@ -14,7 +14,7 @@ The __specialisation order__ is a way of turning any [[topological space]] $X$ i
 ###### Definition 
 Given a topological space $X$ with topology $\mathcal{O}(X)$, the specialization order $\leq$ is defined by either of the following two equivalent conditions: 
 
-1. $x \leq y$ if and only if $x$ belongs to the closure of $\{y\}$; we say that $x$ is a __specialisation__ of $y$. 
+1. $x \leq y$ if and only if $x$ belongs to the [[topological closure]] of $\{y\}$; we say that $x$ is a __specialisation__ of $y$. 
 
 1. $x \leq y$ if and only if $\forall_{U \colon \mathcal{O}(X)} (x \in U) \Rightarrow (y \in U).$
 
