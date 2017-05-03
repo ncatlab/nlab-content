@@ -19,22 +19,15 @@
 
 There are many systems of _[[formal logic]]_. By "classical logic" one broadly refers to those such systems which reflect the kind of logic as understood, quite literally, by the classics, say starting with [Aristotle, Metaphysics 1011b24](excluded+middle#AristotleMetaphysics). If you have never heard of any alternative system of logic, then classical logic is just the kind of logic that you have heard about.
 
-There is some variance in what exactly counts as classical and as non-classical in [[logic]], but one main characteristic of classical logic is its use of the _[[principle of excluded middle]]_. Informally this says that every [[proposition]] is either [[true]] or [[false]]; slightly more carefully it says that for any proposition, either it or its negation is true, where the 'or' is to be read in an 'internal' sense, i.e., as a formal disjunction.
+There is some variance in what exactly counts as classical and as non-classical in [[logic]], but one main characteristic of classical logic is its use of the _[[principle of excluded middle]]_. Informally this says that every [[proposition]] is either [[true]] or [[false]]. (Slightly more carefully it says that for any proposition $P$, either it or its [[negation]] is true, where the 'or' is to be read in an 'internal' sense, i.e., as a formal disjunction $P \vee \neg P$.) 
 
-It is the apparent self-evidency of this principle of excluded middle that made people take it for granted for a long period of human civilization, such that it became "classical". 
+It is the apparent self-evidence of this principle of excluded middle that made people take it for granted for a long period of human civilization, so that it became "classical". 
 
-One consequence of the [[principle of excluded middle]] in classical logic is the possibility to
-obtain [[proof]] of a [[proposition]] by showing that its [[negation]] is [[false]] ([[proof by contradiction]]).
-Evident as this may superficially seem, it has the noteworthy consequence that one may for instance prove 
-[[existential quantifier|existence]] of mathematical objects without having any way to actually construct an example.
+One consequence of the [[principle of excluded middle]] in classical logic is the possibility to obtain [[proof]] of a [[proposition]] by showing that its [[negation]] is [[false]] ([[proof by contradiction]]). Evident as this may superficially seem, it has the noteworthy consequence that one may for instance prove [[existential quantifier|existence]] of mathematical objects without having any way to actually construct an example.
 
-This "non-constructive" nature of classical logic eventually led people to consider alternative and hence _non-classical_
-systems of logic, such as [[constructive logic]]/[[intuitionistic logic]], where the [[principle of excluded middle]],
-and possibly other principle of classical logic, are not considered by default.  Other considerations such as the [[internal logic]] of [[categories]] also led to constructive/intuitionistic logics.  More recently, other "nonclassical" logics such as [[linear logic]], [[paraconsistent logic]], [[relevance logic]], [[quantum logic]], and so on have also gained prominence.
+This "non-constructive" nature of classical logic eventually led people to consider alternative and hence _non-classical_ systems of logic, such as [[constructive logic]]/[[intuitionistic logic]], where the [[principle of excluded middle]], and possibly other principle of classical logic, are not considered by default.  Other considerations such as the [[internal logic]] of [[categories]] also led to constructive/intuitionistic logics.  More recently, other "nonclassical" logics such as [[linear logic]], [[paraconsistent logic]], [[relevance logic]], [[quantum logic]], and so on have also gained prominence.
 
-There are other principles that are often associated with classical logic, which still seemed self-evident at a time,
-but maybe less so than the principle of excluded middle. One such is the _[[axiom of choice]]_ or one of its
-equivalent incarnations, such as [[Zorn's lemma]]. The presently most popular formal [[foundation of mathematics]] via the [[set theory]], called _[[ZFC]]_, includes both the [[principle of excluded middle]] as well as the [[axiom of choice]]. In this form classical logic serves as the foundation for _[[classical mathematics]]_. 
+There are other principles that are often associated with classical logic, which still seemed self-evident at a time, but maybe less so than the principle of excluded middle. One such is the [[set theory|set-theoretic]] _[[axiom of choice]]_ or one of its equivalent incarnations, such as [[Zorn's lemma]]. The presently most popular formal [[foundation of mathematics]] via the [[set theory]], called _[[ZFC]]_, includes both the [[principle of excluded middle]] as well as the [[axiom of choice]]. In this form classical logic serves as the foundation for _[[classical mathematics]]_. 
 
 
 ## Details
