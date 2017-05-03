@@ -71,7 +71,7 @@ arbitrary [[quotients]] and [[intersections]] of spaces.
 Accordingly, topology underlies or informs many and diverse areas of mathematics, such as
 [[functional analysis]], [[operator algebra]], [[manifold]]/[[scheme]] theory, hence [[algebraic geometry]] and [[differential geometry]],
 and the study of [[topological groups]], [[topological vector spaces]], [[local  rings]], etc.. Not the least, it gives rise to
-the field of [[homotopy theory]], where one considers also continuous deformations of 
+the field of [[homotopy theory]], where one considers also continuous deformations of
 continuous functions themselves ("[[homotopies]]").
 Topology itself has many branches,
 such as _[[low-dimensional topology]]_ or _[[topological domain theory]]_.
@@ -134,12 +134,12 @@ $\,$
 **([[classical logic]])**
 
 The [[proofs]] in the following freely use the [[principle of excluded middle]], hence [[proof by contradiction]],
-and in a few places they also use the [[axiom of choice]]/[[Zorn's lemma]]. 
+and in a few places they also use the [[axiom of choice]]/[[Zorn's lemma]].
 
-Hence we discuss [[topology]] in its traditional form with [[classical logic]]. 
+Hence we discuss [[topology]] in its traditional form with [[classical logic]].
 
 We do however highlight the role of [[frame]] homomorphisms (def. \ref{HomomorphismOfFramesOfOpens} below) and that of [[sober topological spaces]] (def. \ref{Sober} below). These concepts pave the way to a [[constructive mathematics|constructive]]
-formulation of [[topology]] in terms not of [[topological spaces]] but in terms of _[[locales]]_, 
+formulation of [[topology]] in terms not of [[topological spaces]] but in terms of _[[locales]]_,
 see remark \ref{Locales} below.
 The reader interested in questions of [[intuitionistic mathematics]] in topology may benefit from looking at ([Waaldijk 96](topology#Waaldijk96)).
 
@@ -1129,12 +1129,23 @@ of topological spaces is considerably more general, as some of the following exa
 The following simplistic example of a (metric) topological space is important for the theory
 (for instance in prop. \ref{FrameHomomorphismsToPointAreIrrClSub}):
 
+
 +-- {: .num_example #Point}
 ###### Example
 **([[empty space]] and [[point space]])**
 
-On the [[empty set]] there exists a unique topology.
-We write $\emptyset$ also for the resulting [[topological space]],
+On the [[empty set]] there exists a unique topology $\tau$ making it a [[topological space]] according to def. \ref{TopologicalSpace}.
+We write also 
+
+$$
+  \emptyset
+    \;\coloneqq\;
+   \left(
+     \emptyset, \tau_{\emptyset} = \{ \emptyset  \}
+   \right)
+$$ 
+
+for the resulting [[topological space]],
 which we call the _[[empty topological space]]_.
 
 On a [[singleton]] set $\{1\}$ there exists a unique topology $\tau$
@@ -1250,7 +1261,7 @@ as simple special cases of a general construction principle.
 
 +-- {: .num_example #DisjointUnionOfTopologicalSpaces}
 ###### Example
-**([[disjoint union]])**
+**([[disjoint union space]])**
 
 For $\{(X_i, \tau_i)\}_{i \in I}$ a [[set]] of topological spaces, then their _[[disjoint union]]_
 
@@ -1426,7 +1437,7 @@ Notice that
 
 
 The following important class of [[topological spaces]] form the foundation of [[algebraic geometry]]:
- 
+
 +-- {: .num_example}
 ###### Example
 **([[Zariski topology]] on [[affine space]])**
@@ -1943,7 +1954,7 @@ $$
   \,.
 $$
 
-THe open subset $P \subset X$ with this property are also called the _prime open subsets_ in $\tau_X$.
+The open subsets $P \subset X$ with this property are also called the _prime open subsets_ in $\tau_X$.
 
 =--
 
@@ -3893,7 +3904,7 @@ $$
   B^\circ_y(d(x,y)) \supset \{y\}
 $$
 
-are disjoint open neighbourhoods. 
+are disjoint open neighbourhoods.
 
 
 =--
@@ -5401,7 +5412,7 @@ is often stated as saying that sober topological spaces are [[equivalence of cat
 "[[locales with enough points]]" ([Johnstone 82, II 1.](#Johnstone82)). Here "[[locale]]" refers to a concept akin to topological spaces where one considers
 _just_ a "[[frame of open subsets]]" $\tau_X$, without requiring that its elements be actual [[subsets]] of some ambient set.
 The natural notion of [[homomorphism]] between such generalized topological spaces are clearly the [[frame]] homomorphisms
-$\tau_X \leftarrow \tau_Y$ from def. \ref{HomomorphismOfFramesOfOpens}. 
+$\tau_X \leftarrow \tau_Y$ from def. \ref{HomomorphismOfFramesOfOpens}.
 
 From this perspective, prop. \ref{FrameMorphismsBetweenOpensOfSoberSpaces} says that
 sober topological spaces $(X, \tau_X)$ are entirely characterized by their [[frames of opens]] $\tau_X$ and just so happen to
@@ -5458,7 +5469,7 @@ $$
 
 which sends an element $x \in X$ to the function which assigns [[inverse images]] of the [[constant function]] $const_x \;\colon\; \{1\} \to X$ on that element.
 
-We are going to call this function the _[[sober reflection]]_ of $X$. 
+We are going to call this function the _[[sober reflection]]_ of $X$.
 
 =--
 
@@ -5575,7 +5586,7 @@ By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} this irreducible closed subs
 
 This shows that there exists at least one point of which $X \backslash \tilde U$ is the topological closure. It remains to see that there is no other such point.
 
-So let $p_1 \neq p_2 \in S X$ be two distinct points. This means that there exists $U \in \tau_X$ with $p_1(U) \neq p_2(U)$. Equivalently this says that $\tilde U$ contains one of the two points, but not the other. This means that $(S X, \tau_{S X})$ is [[separation axiom|T0]]. 
+So let $p_1 \neq p_2 \in S X$ be two distinct points. This means that there exists $U \in \tau_X$ with $p_1(U) \neq p_2(U)$. Equivalently this says that $\tilde U$ contains one of the two points, but not the other. This means that $(S X, \tau_{S X})$ is [[separation axiom|T0]].
 By prop. \ref{T0InTermsOfClosureOfPoints} this is equivalent to there being no two points with the same topological closure.
 
 =--
@@ -5695,26 +5706,26 @@ $\,$
 ### Limits and colimits
  {#LimitsAndColimits}
 
-The concept of _[[limit]] of a [[diagram]] of [[topological spaces]]_ is a generalization of concepts like 
+The concept of _[[limit]] of a [[diagram]] of [[topological spaces]]_ is a generalization of concepts like
 [[product topological space]] and [[topological subspaces]].
 
 
 The concept of _[[colimit]] of a [[diagram]] of [[topological spaces]]_ is a generalization of concepts like
 [[disjoint union topological space]] and [[quotient topological space]]
 
+$\,$
 
 
 +-- {: .num_defn #Diagram}
 ###### Definition
 **([[diagram]] in a [[category]])**
 
-A [[diagram]] $X_\bullet$ in a [[category]], such as the [[category]] [[Top]] of [[topological spaces]]
-or the category [[Set]] of [[sets]] from remark \ref{TopCategory}, is
+A [[diagram]] $X_\bullet$ of [[sets]] or of [[topological spaces]] is
 
-1. a [[set]] $\{ X_i \}_{i \in I}$ of [[objects]] in the category;
+1. a [[set]] $\{ X_i \}_{i \in I}$ of [[objects]] (i.e. sets or topological spaces)
 
 1. for every [[pair]] $(i,j) \in I \times I$ of labels of objects a [[set]]
-   $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[morphisms]] between these objects;
+   $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[morphisms]] between these objects (i.e. [[functions]] or [[continuous functions]]);
 
 1. for each [[triple]] $i,j,k \in I$ a [[function]]
 
@@ -5724,9 +5735,9 @@ or the category [[Set]] of [[sets]] from remark \ref{TopCategory}, is
 
 such that
 
-1. for every $i \in I$ the [[identity morphisms]] $id_{X_i} \colon X_i \to X_i$ is part of the diagram;
+1. for every $i \in I$ the [[identity morphisms]] $f_i = id_{X_i} \colon X_i \to X_i$ is part of the diagram;
 
-1. $comp$ is [[associativity|associative]] and [[unital]] in the evident sense,
+1. $comp$ is [[associativity|associative]] and [[unital]] in in the evident sense
 
 1. for every composable pair of morphisms
 
@@ -5738,7 +5749,7 @@ such that
     X_k
   $$
 
-  then the [[composition|composite]] of these two morphisms equals the morphisms of the diagram that is
+  then the [[composition|composite]] of these two morphisms equals the morphism of the diagram that is
   labeled by the value of $comp_{i,j,k}$ on their labels:
 
   $$
@@ -5761,6 +5772,255 @@ $$
   \,.
 $$
 
+=--
+
+On the face of it the definition \ref{Diagram} may look a little baroque, but we see in remark \ref{FunctorialDefinitionOfDiagrams}
+below how it has a convenient re-packaging. More importantly for our purposes, all concrete examples of diagrams
+that we will be concerned with here are fairly simplistic examples of the general definition:
+
+
++-- {: .num_example #DiscreteDiagram}
+###### Example
+**([[discrete category|discrete]] [[diagram]] and [[empty diagram]])**
+
+Let $I$ be any [[set]], and for each $(i,j) \in I \times I$ let $I_{i,j}$
+either by the [[empty set]] if the indices do not agree, or else [[generalized the|the]]
+[[singleton set]], whose unique element we denote by $id_i$: 
+
+$$
+  I_{i,j}
+    \coloneqq
+  \left\{
+    \array{
+      \emptyset & \vert \, i \neq j
+      \\
+      \{id_i\} & \,\vert\, I = j
+    }
+  \right.
+  \,.
+$$
+
+There is a unique choice for the composition function for these sets to 
+index a [[diagram]] according to def. \ref{Diagram}. 
+
+The corresponding diagrams
+are simply a set of sets/topological spaces with no non-trivial morphisms between them.
+This is called a _[[discrete category|discrete]] [[diagram]]_. 
+
+
+Notice that here the index set may be [[empty set]], $I = \emptyset$, in which case the 
+corresponding diagram consists of no data. This is also called the _[[empty diagram]]_.
+
+=--
+
++-- {: .num_defn #ParallelMorphisms}
+###### Definition
+**([[parallel morphisms]] [[diagram]])**
+
+Let $I = \{a, b\}$ be the [[set]] with two elements, and consider the sets
+
+
+$$
+  I_{i,j}
+    \;\coloneq\;
+  \left\{
+    \array{
+      \{id_i\} &\vert\, i = j
+      \\
+      \{ 1,2 \} &\vert\, (i = a) \,\text{and}\, (j = b)
+      \\
+      \emptyset & \vert \, (i=b) \,\text{and}\, (j = a) 
+    }
+  \right\}
+  \,.
+$$
+
+Again there is a unique composition function that makes this the index data of a diagram according to 
+def. \ref{Diagram}.
+
+Such a diagram is called a _pair of [[parallel morphisms]]_:
+
+$$
+  X_a 
+    \underoverset
+      {\underset{f_2}{\longrightarrow}}
+      {\overset{f_1}{\longrightarrow}}
+      {\phantom{AAAAA}}
+  X_b
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #SpanDiagram}
+###### Example
+**([[span]] and [[cospan]] [[diagram]])**
+
+Let $I = \{a,b,c\}$ and 
+
+$$
+  I_{i ,j}
+   = 
+  \left\{
+    \array{
+      \{id_i\} & \vert \, i = j
+      \\
+      \{f_1\} & \vert \, (i = c) \,\text{and}\, (j = a)
+      \\
+      \{f_2\} & \vert \, (i = c) \,\text{and}\, (j = b)
+      \\
+      \emptyset & \vert \, \text{otherwise}
+    }
+  \right.
+$$
+
+
+Again there is a unique composition function for this. The corresponding diagrams look like this:
+
+$$
+  \array{
+    && X_c
+    \\
+    & {}^{\mathllap{f_1}}\swarrow && \searrow^{\mathrlap{f_2}}
+    \\
+    X_a && && X_b
+  }
+  \,.
+$$
+
+This is called a _[[span]] [[diagram]]_. 
+
+Similary, there is the _[[cospan]]_ diagram of the form
+
+$$
+  \array{
+    && X_c
+    \\
+    & {}^{\mathllap{f_1}}\nearrow && \nwarrow^{\mathrlap{f_2}}
+    \\
+    X_a && && X_b
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[tower]] [[diagram]])**
+
+Let $I = \mathbb{N}$ be the set of [[natural numbers]] and consider
+
+$$
+  I_{i,j}
+   \;\coloneqq\;
+  \left\{
+    \array{
+      \{f_{i,j}\} & \vert \, i \leq j
+      \\
+      \emptyset & \vert \, \text{otherwise}
+    }
+  \right.
+$$
+
+Once more, there is a unique choice of composition function for this to index
+diagrams according to def. \ref{Diagram}. These are called _[[tower]] [[diagrams]]_
+
+
+$$
+   X_0 
+     \overset{f_{0,1}}{\longrightarrow}
+   X_1 
+     \overset{f_{1,2}}{\longrightarrow}
+   X_2 
+     \overset{f_{2,3}}{\longrightarrow}
+   X_3
+     \overset{}{\longrightarrow}
+   \cdots
+   \,.
+$$
+
+
+Similarly there are co-tower diagram
+
+$$
+   X_0
+     \overset{f_{0,1}}{\longleftarrow}
+   X_1
+     \overset{f_{1,2}}{\longleftarrow}
+   X_2
+     \overset{f_{2,3}}{\longleftarrow}
+   X_3
+     \overset{}{\longleftarrow}
+   \cdots
+   \,.
+$$
+
+
+=--
+
+
++-- {: .num_defn #FunctorialDefinitionOfDiagrams}
+###### Remark
+**([[diagrams]] are [[functors]])**
+
+Of course the definition of a _[[diagram]]_ of sets or topological space in def. \ref{Diagram}
+has a succint reformulation in the language of [[category theory]] (remark \ref{TopCategory}) above:
+
+A glance at definition \ref{Diagram} shows that the data
+
+$$
+  \mathcal{I} \coloneqq (I, (I_{i,j})_{i,j \in I}, \{comp_{i,j,k}\}_{i,j,k \in I} )
+$$
+
+itself defines a [[category]]: its
+
+* set of [[objects]] is $I$;
+
+* set of [[morphisms]] between objects $(i,j) \in I \times I$ is $I_{i,j}$;
+
+* [[identity morphisms]] are the $f_i \in I_{i,j}$;
+
+* [[composition]] operation is given by the functions $c_{i, j ,j}$.
+
+One difference between this category $\mathcal{I}$ and the categories [[Set]] of sets or [[Top]]
+of topological spaces is that the collection of objects in $\mathcal{I}$ is an actual [[set]]
+instead of a proper [[class]]. To amplify this one also says that $\mathcal{I}$ is a "[[small category]]".
+
+Moreover, with this identification made, then it is clear that all the data that makes up the diagram in 
+def. \ref{Diagram} is equivalently re-formulated simply by saying that a diagram in a
+category $\mathcal{C}$ is a [[functor]]
+
+$$
+  X_\bullet \;\colon\; \mathcal{I} \longrightarrow \mathcal{C} 
+  \,.
+$$
+
+Here the choice of $\mathcal{I}$ is also called the "shape" of the diagram, and one speaks of an
+_$\mathfrak{I}$-shaped diagram in $\\mathcal{C}$_.
+
+So for example an _$\mmathcal{I}$-shaped diagram of sets_ is a choice of a [[small category]] $\mathcal{I}$
+and of a [[functor]] of the form
+
+$$
+  X_\bullet  
+    \;\colon\;
+  \mathcal{I} \longrightarrow Set
+  \,,
+$$
+
+while an $\mathcal{I}$-shaped diagram of topological spaces is a functor of the form
+
+$$
+  X_\bullet
+   \;\colon\;
+  \mathcal{I}
+    \longrightarrow
+  Top
+$$
+
+and so on.
 
 =--
 
@@ -5768,7 +6028,7 @@ $$
 ###### Definition
 **([[cone]] over a [[diagram]])**
 
-Consider a [[diagram]]
+Consider a [[diagram]] of sets or of topological spaces (def. \ref{Diagram})
 
 $$
   X_\bullet
@@ -5780,15 +6040,16 @@ $$
      \,,\,
      \mathrm{comp}
   \right)
+  \,.
 $$
 
-in some [[category]] (def. \ref{Diagram}). Then
+Then
 
 1. a _[[cone]]_ over this diagram is
 
-   1. an [[object]] $\tilde X$ in the category;
+   1. an [[object]] $\tilde X$ (i.e. a set or a topological space)
 
-   1. for each $i \in I$ a morphism $\tilde X \overset{p_i}{\longrightarrow} X_i$ in the category
+   1. for each $i \in I$ a morphism $\tilde X \overset{p_i}{\longrightarrow} X_i$ (i.e. a function or a continuous function)
 
    such that
 
@@ -5841,11 +6102,53 @@ in some [[category]] (def. \ref{Diagram}). Then
 
 =--
 
++-- {: .num_example}
+###### Example
+**()**
+
+Let $f,g \colon \mathbb{R} \to \mathbb{R}$ two [[functions]], and consider the
+corresponding [[parallel morphism]] [[diagram]] of sets (example \ref{ParallelMorphisms}):
+
+$$
+  \mathbb{R}
+    \underoverset
+      {\underset{f_2}{\longrightarrow}}
+      {\overset{f_1}{\longrightarrow}}
+      {\phantom{AAAAA}}
+  \mathbb{R}
+  \,.
+$$
+
+Then a [[cone]] over this diagram with tip the [[singleton]] set $\ast$ is a _[[solution]]_ to 
+the [[equation]] $f(x) = g(x)$
+
+$$
+  \array{
+    && \ast
+    \\
+    & \swarrow && \searrow
+    \\
+    \mathbb{R}
+      &&
+      \underoverset
+        {\underset{f_2}{\longrightarrow}}
+        {\overset{f_1}{\longrightarrow}}
+        {\phantom{AAAAA}}
+      &&
+    \mathbb{R}
+  }
+  \,.
+$$
+
+ 
+=--
+
+
 +-- {: .num_defn #LimitingCone}
 ###### Definition
 **([[limit|limiting cone]] over a [[diagram]])**
 
-Consider a [[diagram]]
+Consider a [[diagram]] of sets or of topological spaces (def. \ref{Diagram}):
 
 $$
   X_\bullet
@@ -5859,7 +6162,7 @@ $$
   \right)
 $$
 
-in some [[category]] (def. \ref{Diagram}). Then
+ Then
 
 1. its _[[limit|limiting cone]]_ (or just _[[limit]]_ for short) is, if it exists,
    [[generalized the|the]] [[cone]]
@@ -5990,7 +6293,7 @@ in some [[category]] (def. \ref{Diagram}). Then
 
 +-- {: .num_prop #SetLimits}
 ###### Proposition
-**(limits of sets)**
+**([limits and colimits of sets](limits+and+colimits+by+example#limcoliminset))**
 
 Let
 
@@ -6064,10 +6367,12 @@ be a [[diagram]] of [[sets]] (def. \ref{Diagram}). Then
 
 
 
-Now we turn to limits of diagrams of topological spaces.
+Now we turn to limits of diagrams of topological spaces. In order to describe these, we
+consider the following general way of constructing [[topological space|topologies]]:
 
 +-- {: .num_defn #InitialAndFinalTopologies}
 ###### Definition
+**([[initial topology]] and [[final topology]])**
 
 Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological spaces]], and let $S \in Set$ be a bare [[set]]. Then
 
@@ -6075,12 +6380,20 @@ Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological s
 
 * For $\{S_i \stackrel{f_i}{\to} S\}_{i \in I}$ a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[maximum]] collection of [[open subsets]] such that all $f_i \colon X_i \to (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
 
+Other terminology used is:
+
+| [[initial topology]] | [[final topology]] |
+|----------------------|--------------------|
+|  weak topology       | strong  topology   |
+| coarse topology      | fine topology      |
+
 =--
 
-+-- {: .num_example #TopologicalSubspace}
++-- {: .num_example #TopologicalSubspaceInitial}
 ###### Example
+**([[subspace topology]] as an [[initial topology]])**
 
-For $X$ a single topological space, and $\iota_S \colon S \hookrightarrow U(X)$ a subset of its underlying set, then the initial topology $\tau_{intial}(\iota_S)$, def. \ref{InitialAndFinalTopologies}, is the [[subspace topology]], making
+For $X$ a single [[topological space]], and $\iota_S \colon S \hookrightarrow U(X)$ a subset of its underlying set, then the [[initial topology]] $\tau_{intial}(\iota_S)$, def. \ref{InitialAndFinalTopologies}, is the [[subspace topology]] from example \ref{SubspaceTopology}, making
 
 $$
   \iota_S
@@ -6094,18 +6407,20 @@ a [[topological subspace]] inclusion.
 
 =--
 
-+-- {: .num_example #QuotientTopology}
++-- {: .num_example #QuotientTopologyFinal}
 ###### Example
+**([[quotient topology]] as a [[final topology]])**
 
-Conversely, for $p_S \colon U(X) \longrightarrow S$ an [[epimorphism]], then the final topology $\tau_{final}(p_S)$ on $S$ is the _[[quotient topology]]_.
+Conversely, for $p_S \colon U(X) \longrightarrow S$ an [[epimorphism]], then the [[final topology]] $\tau_{final}(p_S)$ on $S$,
+from def. \ref{InitialAndFinalTopologies}, is the [[quotient topology]] from example \ref{QuotientTopologicalSpace}.
 
 =--
 
 
 
-
 +-- {: .num_prop #DescriptionOfLimitsAndColimitsInTop}
 ###### Proposition
+**([limits and colimits of topological spaces](limits+and+colimits+by+example#OfTopologicalSpaces))**
 
 Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$ be an $I$-[[diagram]] in [[Top]] (a [[functor]] from $I$ to $Top$), with components denoted $X_i = (S_i, \tau_i)$, where $S_i \in Set$ and $\tau_i$ a topology on $S_i$. Then:
 
@@ -6183,16 +6498,29 @@ $\,$
 
 +-- {: .num_example #PointTopologicalSpaceAsEmptyLimit}
 ###### Example
+**([[empty space]] and [[point space]] as empty [[colimit]] and [[limit]])**
 
-The limit over the empty diagram in $Top$ is the [[point space]] $\ast$ (example \ref{Point}).
+Consider the [[empty diagram]] (example \ref{DiscreteDiagram}) as a diagram of [[topological spaces]].
+
+1. The [[limit]] over the [[empty diagram]] is the [[point space]] $\ast$ (example \ref{Point}).
+
+1. The [[colimit]] over the [[empty diagram]] is the [[empty topological space]] $\emptyset$ (example \ref{Point}).
 
 =--
 
 +-- {: .num_example #DisjointUnionOfTopologicalSpacesIsCoproduct}
 ###### Example
+**(binary [[product topological space]] and [[disjoint union space]] as [[limit]] and [[colimit]])**
 
-For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[coproduct]] $\underset{i \in I}{\sqcup} X_i \in Top$ is their
-_[[disjoint union]]_ (example \ref{DisjointUnionOfTopologicalSpaces}).
+Consider a [[discrete category|discrete]] [[diagram]] consisting of two objects $X, Y$ (example \ref{DiscreteDiagram}).
+
+Its [[limit]] is called the _[[Cartesian product]]_ $X \times Y$.
+
+Its [[colimit]] is called the _[[coproduct]]_ $x \sqcup Y$.
+
+In topological spaces this yields the binary product topological space (example \ref{BinaryProductTopologicalSpace})
+and the [[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces}).
+
 
 =--
 
@@ -6340,7 +6668,7 @@ $$
 
 +-- {: .num_defn #SingleCellAttachment}
 ###### Definition
-**(single cell attachment)**
+**(single cell [[space attachment|attachment]])**
 
 For $X$ any [[topological space]] and for $n \in \mathbb{N}$, then an _$n$-cell [[attaching space|attachment]]_ to $X$ is the result of gluing an [[n-disk]] to $X$, along a prescribed image of its bounding [[n-sphere|(n-1)-sphere]] (def. \ref{SpheresAndDisks}):
 
@@ -6388,7 +6716,7 @@ $$
   \,.
 $$
 
-In particular if we start with the [[empty topological space]] $X = \emptyset$ itself, then by [[attaching space|attaching]] 0-cells we obtain a [[discrete topological space]]. To this then we may attach higher dimensional cells.
+In particular if we start with the [[empty topological space]] $X = \emptyset$ itself (example \ref{Point}), then by [[attaching space|attaching]] 0-cells we obtain a [[discrete topological space]]. To this then we may attach higher dimensional cells.
 
 
 =--
@@ -6396,7 +6724,7 @@ In particular if we start with the [[empty topological space]] $X = \emptyset$ i
 
 +-- {: .num_defn #CellAttachments}
 ###### Definition
-**(attaching many cells at once)**
+**([[space attachment|attaching]] many cells at once)**
 
 
 If we have a [[set]] of [[attaching maps]] $\{S^{n_i-1} \overset{\phi_i}{\longrightarrow} X\}_{i \in I}$ (as in def. \ref{SingleCellAttachment}), all to the same space $X$, we may think of these as one single continuous function out of the [[disjoint union space]] of their [[domain]] spheres
@@ -8186,7 +8514,8 @@ $\,$
 
 A canonical compendium is
 
-* {#Bourbaki71} [[Nicolas Bourbaki]], chapter 1 _Topological Structures_ in _Elements of Mathematics III: General topology_,  Springer (1971, 1990)
+* {#Bourbaki71} [[Nicolas Bourbaki]], chapter 1 _Topological Structures_ in _Elements of Mathematics III: General topology_,  Spring
+er (1971, 1990)
 
 Introductory textbooks include
 
