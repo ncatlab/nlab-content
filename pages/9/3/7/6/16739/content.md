@@ -60,9 +60,10 @@ as desired.
 
 The dual _first_ De Morgan law $\not (a\vee b) = \not a\wedge\not b$ is valid in every Heyting algebra.
 
-## Properties
+## Examples
 
 * Every [[Boolean algebra]] is a De Morgan algebra.
+* The topology of the [[Sierpinski space]] is a De Morgan algebra.
 
 ## Related entries
 
