@@ -60,6 +60,8 @@ In particular, this shows how the [[double negation]] [[modality]] can be regard
 
 * [[proof by contradiction]]
 
+* [[De Morgan law]]
+
 ## References
 
 ### General
