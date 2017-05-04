@@ -20,13 +20,15 @@ A [[1-morphism]] in a [[2-category]] is an _[[equivalence]]_ if there exists ano
 
 ## Examples
 
-* An equivalence in a [[1-category]] regarded as a [[2-category]] with only trivial [[2-morphisms]] is just an [[isomorphism]].
+* An equivalence in a [[1-category]] regarded as a [[2-category]] with only trivial [[2-morphisms]] is just an _[[isomorphism]]_.
 
-* An equivalence in the 2-category [[Cat]] of all [[categories]] is an [[equivalence of categories]].
+* An equivalence in the 2-category [[Cat]] of all [[categories]] is an _[[equivalence of categories]]_.
+
+* An equivalence in the 2-category of [[algebras]] with [[bimodules]] as 1-morphisms and [[intertwiners]] as 2-morphisms (see [here](bimodule#AsMorphismsInA2Category)) is a _[[Morita equivalence]]_.
 
 ## Related concepts
 
-* [[homotopy equivalence]], [[weak homotopy equivalence]]
+* [[homotopy equivalence]]
 
 * [[equivalence in an (infinity,1)-category]]
 
