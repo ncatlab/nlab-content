@@ -4,6 +4,6 @@
 |------------|--------------|
 | $\,$[[product topological space]]  $\,$| $\,$ [[disjoint union topological space]] $\,$ |
 | $\,$ [[topological subspace]] $\,$ | $\,$ [[quotient topological space]] $\,$ |
-| $\,$ fiber space $\,$ | $\,$ [[attaching space]] $\,$ |
+| $\,$ fiber space $\,$ | $\,$ [[space attachment]] $\,$ |
 | $\,$ [[mapping cocylinder]], [[mapping cocone]] $\,$ | $\,$ [[mapping cylinder]], [[mapping cone]], [[mapping telescope]] $\,$ |
 |  |  $\,$ [[cell complex]], [[CW-complex]] $\,$  |
