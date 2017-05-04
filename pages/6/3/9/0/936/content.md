@@ -128,6 +128,8 @@ Vogt's Lemma plays a key role in the proof of Vogt's theorem (cf. [[homotopy coh
 
 * [[homotopy equivalence of toposes]]
 
+* [[equivalence in a 2-category]]
+
 * [[equivalence in an (∞,1)-category]]
 
 * [[equivalence of (∞,1)-categories]]
