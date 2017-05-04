@@ -93,7 +93,17 @@ In [[SGA1]], Grothendieck defined the [[algebraic fundamental group]] of a [[sch
 +-- {: .num_example}
 ###### Example
 
-Any group has a [[profinite completion of a group|profinite completion]]. 
+Any group has a [[profinite completion of a group|profinite completion]], given by taking the projective limit of the group's quotients by its finite index normal subgroups.
+
+A finite index subgroup of a profinite group is not necessarily open. Here is a standard way to obtain examples of such. Let $G$ be a finite group, and let $G^{\mathcal{U}}$ be its [[ultrapower]] with respect to some [[ultrafilter]] $\mathcal{U}$ on $\mathbb{N}$. Since the cardinality and group structure of the _finite_ group $G$ is first-order expressible, the [[Los ultraproduct theorem]] tells us $G^{\mathcal{U}} \simeq G.$ There is a canonical quotient map
+
+$$
+\prod_{\mathbb{N}} G \overset{\pi_{\mathcal{U}}}{\twoheadrightarrow} G^{\mathcal{U}} \simeq G
+$$
+
+whose kernel $K \overset{\mathrm{df}}{=} \operatorname{ker}(\pi_{\mathcal{U}})$ has finite index in the profinite group $\prod_{\mathbb{N}} G$ because its surjective image has finite index also. Since every ultrafilter contains the cofinite filter, $K$ meets every basic open of the product topology on $\prod_{\mathbb{N}} G$ and so is dense. Since no proper open subset of $\prod_{\mathbb{N}} G$ is dense, $K$ is not open.
+
+A profinite group is called **strongly complete** if it is isomorphic to its own profinite completion. Since a profinite group $G$ is isomorphic to the projective limit of its quotients by open finite index normal subgroups, a profinite group is strongly complete if and only if its open finite index normal subgroups are cofinal among its finite index normal subgroups, if and only if all of its finite index subgroups are open (see e.g. [this MO answer](https://mathoverflow.net/a/122475)).
 
 =--
 
