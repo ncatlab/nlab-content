@@ -53,7 +53,7 @@ By standard theorems, homotopy types in topological can also be 'modeled' by man
 
 In most cases the tools of [[homotopy theory]], in particular [[model category|model categories]], can be used to establish these equivalences.
 
-The sense of 'modeled' is related to Whithead's [[algebraic homotopy|algebraic homotopy theory]]. A setting such as those above acts as a model for homotopy types if there are comparison functors between $\Spaces$ and the category, and some notion of homotopy within the category yielding an equivalence of [[homotopy category|homotopy categories]]. 
+The sense of 'modeled' is related to Whitehead's [[algebraic homotopy|algebraic homotopy theory]]. A setting such as those above acts as a model for homotopy types if there are comparison functors between $\Spaces$ and the category, and some notion of homotopy within the category yielding an equivalence of [[homotopy category|homotopy categories]]. 
 
 +-- {: .num_remark}
 ###### Remark
