@@ -31,7 +31,7 @@ There are precisely three types of such formal group laws:
 
 * the formal group law on [[elliptic curve]].
 
-An **elliptic cohomology** theory is an eve [[periodic cohomology theory|periodic]] [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology]] theory whose corresponding formal group is an elliptic curve, hence which is [[Brown representability theorem|represented]] by an [[elliptic spectrum]].
+An **elliptic cohomology** theory is an even [[periodic cohomology theory|periodic]] [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology]] theory whose corresponding formal group is an elliptic curve, hence which is [[Brown representability theorem|represented]] by an [[elliptic spectrum]].
 
 e.g. [Lurie, def. 1.2](#Lurie), see also at _[[elliptic spectrum]]_
 
