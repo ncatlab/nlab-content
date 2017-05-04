@@ -343,7 +343,7 @@ $$
     & =
     V \left(
       \left\{
-        f \in k[X_1, \cdots, X_2]
+        f \in k[X_1, \cdots, X_n]
         \,\vert\,
         \underset{(a_1, \cdots, a_n) \in S}{\forall} f(a_1, \cdots, a_n) = 0
       \right\}
