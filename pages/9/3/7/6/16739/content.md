@@ -25,7 +25,7 @@
 
 ## Idea
 
-A **De Morgan** or **Stone algebra** [^stone] is a [[Heyting algebra]] that satisfies the De Morgan laws, which may be considered a weak form of the [[law of excluded middle]]. The corresponding logic is an interesting intermediate logic between [[intuitionistic logic]] and [[classical logic]].
+A **De Morgan** or **Stone algebra** [^stone] is a [[Heyting algebra]] that satisfies the [[De Morgan laws]], which may be considered a weak form of the [[law of excluded middle]]. The corresponding logic is an interesting intermediate logic between [[intuitionistic logic]] and [[classical logic]].
 
 [^stone]: Called a **Stone lattice** as well in the literature on lattice theory.
 
@@ -33,7 +33,7 @@ A **De Morgan** or **Stone algebra** [^stone] is a [[Heyting algebra]] that sati
 
 A [[Heyting algebra]] $M$ that satisfies the following equivalent conditions is called a _De Morgan algebra_:
 
-1. For all $a,b \in M$: $\not(a\wedge b) =\not a\vee\not b$. (second **De Morgan law**)
+1. For all $a,b \in M$: $\not(a\wedge b) =\not a\vee\not b$. (second **[[De Morgan law]]**)
 
 1. For all $a\in M$: $\not a\vee\not\not a=\top$.
 
