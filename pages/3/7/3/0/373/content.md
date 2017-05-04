@@ -253,6 +253,8 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 
 * **2-category**
 
+  [[equivalence in a 2-category]]
+
 * [[3-category]]
 
 * [[n-category]]
