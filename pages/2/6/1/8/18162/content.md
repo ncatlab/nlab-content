@@ -79,19 +79,63 @@ In $\{a{\searrow}b\}$, the point $a$ is open and point ${b}$ is closed.
 
 ## Separation conditions in terms of arrows
 
+
 Fix two sets ([[subsets]]) $F$ and $G$ of $S$.
 
 *  The sets $F$ and $G$ are __[[disjoint sets|disjoint]]__ if their [[intersection]] is [[empty set|empty]]:
-
    $$ F \cap G = \empty .$$
+   In terms of arrows,  the following map is well-defined: $S_{F,G}: S \longrightarrow  \{F\leftrightarrow G \leftrightarrow \bullet \}$ such that $S_{F,G}{x)=F$ for $x in F$, $S_{F,G}{x)=G$ for $x \in G$, and $S_{F,G}{x)=\bullet$ for $x \notin F\cup G$.
+*  They are __topologically disjoint__ if there exists a [[neighbourhood]] of one set that is disjoint from the other set:  
+$$ (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty) \;\vee\; (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty) .$$
+   In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors either as
+$$ S_{F,G}: S \longrightarrow   \{F \leftrightarrow U \stackrel{\circ} \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U \stackrel{\circ}=\bullet \leftrightarrow G \}$$ or $$ S_{F,G}: S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V \stackrel{\circ} \leftrightarrow G \} \longrightarrow
+     \{F \leftrightarrow \bullet = V \stackrel{\circ} \leftrightarrow G \} $$ where
+    $ U \stackrel{\circ}$, $ V \stackrel{\circ} $ maps to $\bullet$.
+   Notice that topologically disjoint sets must be disjoint.
 
-   In terms of arrows,  the following map is well-defined: 
-   $S_{F,G}: S \longrightarrow  \{F,G,x\}$ such that 
-   $S_{F,G}(x)=F$ for $x \in F$, $S_{F,G}(x)=G$ for $x \in G$, and $S_{F,G}(x)=x$ for $x \notin F\cup G$.
+*  They are __separated__ if each set has a neighbourhood that is disjoint from the other set:
+   $$ (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty) \;\wedge\; (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty)
+   \;\;\equiv\;\;
+   \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; U \cap G = \empty \;\wedge\; F \cap V = \empty .$$
+   
+   In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors both as $$ S_{F,G}: S \longrightarrow   \{F \leftrightarrow U \stackrel{\circ} \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U \stackrel{\circ}=\bullet \leftrightarrow G \}$$
+and as $$ S_{F,G}: S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V \stackrel{\circ} \leftrightarrow G \} \longrightarrow \{F \leftrightarrow \bullet = V \stackrel{\circ} \leftrightarrow G \} $$ where
+    $ U \stackrel{\circ}$, $ V \stackrel{\circ} $ maps to $\bullet$.
+   Notice that separated sets must be topologically disjoint.
 
-*  They are __topologically disjoint__ if there exists a [[neighbourhood]] of one set that is disjoint from the other set:
-   $$ (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty) \;\vee\; (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty) .$$
-   In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow G \leftrightarrow x \}$ factors as 
+*  {#SeparatedByNeighbourhoods} They are __separated by neighbourhoods__ if they have disjoint neighbourhoods:
+   $$ \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; U \cap V = \empty .$$
+   The arrow  $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as 
+   $S \longrightarrow \{F \leftrightarrow  U \stackrel{\circ} \searrow \bullet \swarrow  V \stackrel{\circ} \leftrightarrow G$
+   Notice that sets separated by neighbourhoods must be separated.
+*  They are __separated by closed neighbourhoods__ if they have disjoint closed neighbourhoods:
+   $$ \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; Cl(U) \cap Cl(V) = \empty .$$
+   The arrow  $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as
+   $$ S \longrightarrow \{ F \leftrightarrow U \searrow U' \swarrow \bullet \searrow V' \searrow V \leftrightarrow G \}
+   \longrightarrow \{ F \leftrightarrow U = U' = \bullet = V' = V \leftrightarrow G \} $$
+   Notice that sets separated by closed neighbourhoods must be separated by neighbourhoods.
+*  They are __separated by a function__ if there exists a continuous [[real number|real]]-valued [[function]] on the space that maps $F$ to $0$ and $G$ to $1$:
+   $$ \exists\; f: S \to \mathbf{R},\; F \subseteq f^*(\{0\}) \;\wedge\; G \subseteq f^*(\{1\}) .$$
+    The arrow  $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as    
+    $$ S \longrightarrow   \{0'\} \cup [0,1] \cup \{1'\}  \longrightarrow  \{ 0'=F \leftrightarrow \bullet \leftrightarrow  1'=G\}
+  $$
+  where points $0',0$ and $1,1'$ are topologically indistinguishable,
+  and $0'$ maps to $F$, and $1'$ maps to $G$, and $[0,1]$ maps to $\bullet$.
+  Notice that sets separated by a function must be separated by closed neighbourhoods (the preimages of $[-\epsilon, \epsilon]$ and $[1-\epsilon, 1+\epsilon]$).
+*  Finally, they are __precisely separated by a function__ if there exists a continuous real-valued function on the space that maps precisely $F$ to $0$ and $G$ to $1$:
+   $$ \exists\; f: S \to \mathbf{R},\; F = f^*(\{0\}) \;\wedge\; G = f^*(\{1\}) .$$
+    The arrow  $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as    
+    $$ S \longrightarrow   [0,1]  \longrightarrow  \{ 0=F \leftrightarrow \bullet\leftrightarrow  1=G\}
+  $$
+  where
+  $0'$ maps to $F$, and $1'$ maps to $G$, and $(0,1)$ maps to $\bullet$.
+  Notice that sets separated by a function must be separated by closed neighbourhoods (the preimages of $[-\epsilon, \epsilon]$ and $[1-\epsilon, 1+\epsilon]$).
+   Notice that sets precisely separated by a function must be separated by a function.
+
+Often $F$ and $G$ will be points (identified with their [[singleton]] subsets); in that case, one usually says _distinct_ in place of _disjoint_.
+
+Often $F$ or $G$ will be closed sets; notice that disjoint closed sets are automatically separated, while a closed set and a point, if disjoint, are automatically topologically disjoint.
+
 
 
 ## Separation axioms as lifting properties 
