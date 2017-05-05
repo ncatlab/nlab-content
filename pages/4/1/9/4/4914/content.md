@@ -95,7 +95,9 @@ By the [[Yoneda lemma for bicategories]], the object $P$ determines (up to canon
 
 ## Related concepts
 
-* [[diagram]], [[internal presheaf]], [[internal sheaf]]
+* [[diagram]], [[commuting diagram]], [[free diagram]]
+
+* [[internal presheaf]], [[internal sheaf]]
 
 * [[internal (co-)limit]]
 
