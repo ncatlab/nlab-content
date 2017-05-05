@@ -5001,7 +5001,7 @@ $$
   \,.
 $$
 
-One may show that it follows that the image $\tilde under $\phi_{c,d}$ of a general morphism $f \colon c \to d$
+One may show that it follows that the image $\tilde f$ under $\phi_{c,d}$ of a general morphism $f \colon c \to d$
 (called the _[[adjunct]]_ of $f$) is given by this [[composition|composite]]:
 
 $$
@@ -5165,7 +5165,7 @@ equivalence relation (def. \ref{QuotientTopologicalSpace}) exhibits the $T_0$-re
 
 A more explicit construction of the Hausdorff quotient than given by prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces}
 is rather more involved. The issue is that the relation "$x$ and $y$ are not separated by disjoint open neighbourhoods"
-is not [[transitive transitive|transitive]];
+is not [[transitive relation|transitive]];
 
 +-- {: .num_prop #HausdorffReflectionViaTransitiveClosureOfDiagonal}
 ###### Proposition
@@ -5773,7 +5773,8 @@ We have seen [above](#BasicConstructions) various construction principles for [[
 such as [[topological subspaces]] and [[topological quotient spaces]]. It turns out that
 these constructions enjoy certain
 "[[universal properties]]" which allow us to find [[continuous functions]] into or out of these
-spaces, respectively (example \ref{UniversalPropertyOfQuotientSpace} below).
+spaces, respectively (examples \ref{UniversalPropertyOfBinaryProductSpace}, example \ref{UniversalPropertyOfDisjointUnionSpace} and \ref{UniversalPropertyOfQuotientSpace} below).
+
 Since this is useful for handling topological spaces (we secretly used the universal property of the
 quotient space construction already in the proof of prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces}), we next consider,
 in def. \ref{LimitingCone} below, more general
@@ -6267,7 +6268,7 @@ Then
        \array{
          && \tilde X
          \\
-         & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p'_j}}
+         & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
          \\
          X_i
            && \underset{f_\alpha}{\longrightarrow} &&
@@ -6732,32 +6733,102 @@ Here is a key property of (co-)limits:
 
 +-- {: .num_prop #HomFunctorPreservesLimits}
 ###### Proposition
-**(homomorphisms into a limit cone are the limit of the homomorphisms into the diagram)**
+**(functions into a limit cone are the limit of the functions into the diagram)**
 
 Let $\{X_i \overset{f_\alpha}{\longrightarrow} X_j\}_{i,j \in I, \alpha \in I_{i,j}}$
 be a [[free diagram]] (def. \ref{Diagram}) of sets or of topological spaces.
 
 1. If the [[limit]] $\underset{\longleftarrow}{\lim}_i X_i \in \mathcal{C}$ exists (def. \ref{LimitingCone}), then
-   the [[set]] of [[homomorphisms]] into this limiting object is the limit over the sets $Hom(-,-)$ of (continuous) functions 
+   the [[set]] of (continuous) function into this limiting object is the limit over the sets $Hom(-,-)$ of (continuous) functions 
    ("[[homomorphisms]]") into the components $X_i$:
 
    $$
      Hom\left(\,Y\,, \,\underset{\longleftarrow}{\lim}_i X_i \, \right)
-      \simeq
+      \;\simeq\;
      \underset{\longleftarrow}{\lim}_i Hom\left(\,Y\,, \,X_i\, \right)
+     \,.
+   $$
+   
+   Here on the right we have the limit over the free diagram of sets
+   
+   $$
+     \left\{
+       Hom(Y,X_i) \overset{f_\alpha \circ (-)}{\longrightarrow} Hom(Y, X_j)
+     \right\}_{i,j \in I, \alpha \in I_{i,j}}
+     \,.
    $$
 
 
 1. If the [[colimit]] $\underset{\longrightarrow}{\lim}_i X_i \in \mathcal{C}$ exists, then
-   the [[set]] of [[homomorphisms]] out of this colimiting object is the colimit over the sets of
+   the [[set]] of (continuous) functions out of this colimiting object is the colimit over the sets of
    morphisms out of the components of $X_i$
 
    $$
      Hom\left(\,\underset{\longrightarrow}{\lim}_i X_i\,,\, Y\,\right)
-       \simeq
+       \;\simeq\;
      \underset{\longrightarrow}{\lim} Hom\left(\, X_i\,, \,Y\, \right)
      \,.
    $$
+   
+   Here on the right we have the colimit over the free diagram of sets
+   
+   $$
+     \left\{
+       Hom(X_i, Y)
+         \overset{(-)\circ f_\alpha}{\longrightarrow}
+       Hom(X_j, Y)
+     \right\}_{i,j \in I, \alpha \in I_{i,j}}
+     \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We give the proof of the first statement. The proof of the second statement is directly analogous
+(just reverse the direction of all maps).
+
+First observe that by the very definition of limiting cones, maps out of some $Y$ into them are in natural bijection
+with the set $Cones(Y, \{X_i \overset{f_\alpha}{\to} X_j\})$ of cones over the corresponding diagram with tip $Y$:
+
+$$
+  Hom(Y, \underset{\longleftarrow}{\lim}_{i \in I} X_i)  
+    \;\simeq\;
+  Cones(Y, \{X_i \overset{f_\alpha}{\to} X_j\} )
+  \,.
+$$
+
+Hence it remains to show that there is also a natural bijection:
+
+$$
+  Cones(Y, \{X_i \overset{f_\alpha}{\to} X_j\} )
+    \;\simeq\;
+  \underset{\longleftarrow}{\lim}_{i} Hom(Y,X_i)
+  \,.
+$$
+
+Now again by the very definition of limiting cones, a single element in the limit on the right is equivalently a cone of the form
+
+$$
+  \left\{
+  \array{
+    && \ast
+    \\
+    & {}^{\mathllap{const_{p_i}}}\swarrow && \searrow^{\mathrlap{const_{p_j}}}
+    \\
+    Hom(Y,X_i)
+     && \underset{f_\alpha \circ (-)}{\longrightarrow} &&
+    Hom(Y,X_j)
+  }
+  \right\}
+  \,.
+$$
+
+This is for each $i \in I$ a choice of map $p_i \colon Y \to X_i$ , such that  for each $i,j \in I$
+and $\alpha \in I_{i,j}$ we have $f_\alpha \circ p_i = p_j$. And indeed, this is precisely the characterization of an element in the 
+set $  Cones(Y, \{X_i \overset{f_\alpha}{\to} X_j\} )$.
+
 
 =--
 
@@ -6782,11 +6853,50 @@ $$
   \,.
 $$
 
-Observe that with prop. \ref{HomFunctorPreservesLimits} it follows that
+Observe that
 
-1. [[left adjoint functors]] preserve [[colimits]]
+1. [[left adjoint functors]] preserve [[colimits]];
 
-1. [[right adjoint functors]] preserve [[limits]]
+1. [[right adjoint functors]] preserve [[limits]].
+
+To see this, let $\underset{\longleftarrow}{\lim}_i X_i$ 
+be the limit over some diagram $\left\{ X_i \overset{f_\alpha}{\to} X_j\right\}_{i,j \in I, \alpha \in I_{i,j}}$.
+To test what a right adjoint functor does to this, we may map any object $Y$ into it. Using prop. \ref{HomFunctorPreservesLimits} this yields
+
+$$
+  \begin{aligned}
+    Hom(Y, R(\underset{\longleftarrow}{\lim}_i X_i))
+    & \simeq
+    Hom(L(Y), \underset{\longleftarrow}{\lim}_i X_i)
+    \\
+    & \simeq
+    \underset{\longleftarrow}{\lim}_i Hom(L(Y), X_i)
+    \\
+    & \simeq
+    \underset{\longleftarrow}{\lim}_i Hom(Y, R(X_i))
+    \\
+    & \simeq Hom(Y, \underset{\longleftarrow}{\lim}_i R(Y_i))
+    \,.
+  \end{aligned}
+$$
+
+Since this is true for all $Y$ it [[Yoneda lemma|follows]] that 
+
+$$
+  R(\underset{\leftarrow}{\lim}_i X_i)
+  \simeq
+  \underset{\leftarrow}{\lim}_i R(X_i)
+  \,.
+$$
+
+Similarly one finds that
+
+$$
+  L(\underset{\rightarrow}{\lim}_i X_i)
+  \simeq
+  \underset{\rightarrow}{\lim}_i L(X_i)
+  \,.
+$$
 
 This implies that if we have a [[reflective subcategory]] of topological spaces
 
