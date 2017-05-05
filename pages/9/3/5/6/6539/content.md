@@ -1,17 +1,17 @@
-Given a field $k$, a $k$-vector space pairing between $k$-bialgebras $H$ and $K$ is a $k$-linear map $\langle, \rangle : H\times K\to k$ such that 
+Given a field $k$, a $k$-vector space pairing between $k$-bialgebras $H$ and $K$  such that 
 
 $$
 \langle h\otimes h', \Delta_K k\rangle = \langle h h', k\rangle
 $$
 
 $$
-\langle \Delta (h), k\otimes k' \rangle = \langle h, k\otimes k'\rangle
+\langle \Delta_H h, k\otimes k' \rangle = \langle h, k k'\rangle
 $$
 
 (where on the left hand side $\langle,\rangle$ denotes the map $H\otimes H\otimes K\otimes K\to k$ given by
-$\langle h\otimes h, k\otimes k'\rangle = \langle h,k\rangle \langle h',k' \rangle$), is called the __bialgebra pairing__.
+$\langle h\otimes h', k\otimes k'\rangle = \langle h,k\rangle \langle h',k' \rangle$), is called the __bialgebra pairing__.
 
-The bialgebra pairing which is perfect as $k$-vector space pairing (i. e. if $\langle h, k\rangle = 0$ implies that either $h$ or $k$ is $0$) is called the bialgebra duality. 
+The bialgebra pairing which is perfect as $k$-vector space pairing (i. e. if $\langle h, K\rangle = 0$ implies that $h$ is $0$ and $\langle H,k\rangle$ implies that $k$ is $0$) is called the bialgebra duality. 
 
 If $H$ and $K$ are Hopf algebras then the compatibility with antipodes is $\langle h, S k \rangle = \langle S h, k\rangle$. 
  
