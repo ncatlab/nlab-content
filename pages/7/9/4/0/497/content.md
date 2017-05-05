@@ -46,7 +46,7 @@ While PEM is not valid in constructive mathematics, its double negation
 
 $$ \neg\neg(A\vee \neg A)$$
 
-is valid.  Ony way to see this is to note that $\neg (A\vee B) = \neg A \wedge \neg B$ is one of [[de Morgan's laws]] that is constructively valid, and $\neg (\neg A \wedge \neg\neg A)$ is easy to prove (it is an instance of the [[law of non-contradiction]]).
+is valid.  One way to see this is to note that $\neg (A\vee B) = \neg A \wedge \neg B$ is one of [[de Morgan's laws]] that is constructively valid, and $\neg (\neg A \wedge \neg\neg A)$ is easy to prove (it is an instance of the [[law of non-contradiction]]).
 
 However, a more direct argument makes the structure of the proof more clear.  When [[beta-reduced]], the [[proof term]] is $\lambda x. x(inr(\lambda a. x(inl(a))))$.   This means that we first assume $\neg (A\vee \neg A)$ for a contradiction, for which it suffices (by assumption) to prove $A\vee \neg A$.  We prove that by proving $\neg A$, which we prove by assuming $A$ for a contradiction.  But now we can reach a contradiction by invoking (again) our assumption of $\neg (A\vee \neg A)$ and proving $A\vee \neg A$ this time using our new assumption of $A$.  In other words, we start out claiming that $\neg A$, but whenever that "bluff gets called" by someone supplying an $A$ and asking us to yield a contradiction, we retroactively change our minds and claim that $A$ instead, using the $A$ that we were just given as evidence.
 
