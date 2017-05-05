@@ -306,6 +306,75 @@ One method of proof uses [[ultrafilter]] [[convergence]]. Let $\langle X_\alpha 
 The [[axiom of choice]] is used in step 2 to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice at this step.  The ultrafilter theorem is used in step 3, and this is the only other place where a choice principle is needed. In other words, working over a choice-free set theory like [[ZFC|ZF]] or even BZ (bounded Zermelo set theory), the ultrafilter principle (UF) implies Tychonoff's theorem for Hausdorff spaces. 
 =-- 
 
+### Short proof via ultrafilter convergence
+
+A map $g$ is proper ([Bourbaki, General Topology, I\S10.2, Thm.1(d), p.101]) iff for each ultrafilter $U$ on each set $X$ it holds
+$$X \longrightarrow X\cup\{\infty\} \rightthreetimes g $$
+where 
+$X \longrightarrow X\cup\{\infty\} $
+denotes the inclusion of the set $X$ with discrete topology into the set $X$ adjoined one extra point $\infty$
+with the following topology [Bourbaki, General Topology, I\S6.5, Definition 5, Example]:
+a subset of $X\cup\{\infty\}$ is open iff it either does not contain $\infty$ or is of form $Z\cup\{\infty\}$
+where $Z\in U$ is big according to the ultrafilter $U$.  
+(The topology on $X$ does not have to be discrete: a subset of $X\cup\{\infty\}$ is open iff it either does not contain $\infty$ and is open in $X$  or is of form $Z\cup\{\infty\}$
+where $Z\in U$ is big according to the ultrafilter $U$
+and $Z$ is open in $X$.)
+
+
+A space $K$ is compact iff the map $K\longrightarrow \{*\}$ sending $K$ to a single point is proper.
+
+The Tychonoff theorem follows from the universality property of the product.
+
++-- {: .num_remark #Taimanov} 
+###### Remark
+One can avoid mentioning ultrafilters altogether, at least for Hausdorff spaces, using Taimanov theorem. 
+
+Call a map $f$ _ultrafilter-like_ iff $f$ has the left lifting property wrt each proper, equivalently closed,
+map of finite topological spaces. Taimanov theorem implies that a map $g$ of normal (T4) spaces is proper 
+iff $f \rightthreetimes g$ for each ultrafilter-like $f$.  
+
+
+Using notation explained just below,  this can expressed as follows:
+Taimanov theorem says that
+a Hausdorff space $K$ is compact iff
+$K\longrightarrow \{*\} \,\in\,  (\{\{a\}\longrightarrow \{a{\searrow}b\}\}^r_{\le 3})^{lr}$,
+or in fact  
+ $$     \{\, \{a\leftrightarrow b\}\longrightarrow \{a=b\},\, \{a{\searrow}b\}\longrightarrow \{a=b\},\,
+     \{b\}\longrightarrow \{a{\searrow}b\},\,\{a{\swarrow}o{\searrow}b\}\longrightarrow \{a=o=b\}\,\,\}^{lr}$$  
+For a property ${C}$ of arrows (morphisms) in a category, define
+$$ C^l := \{ {f} :\text{ for each }g \in C\text{ }{f} \,\rightthreetimes\,  {g} \} $$
+$$ C^r := \{ {g} :\text{ for each }f \in C\text{ }{f} \,\rightthreetimes\,  {g} \} $$
+$$ C^{lr}:=(C^l)^r, ... $$
+here $f \,\rightthreetimes\,  g$ reads " $f$ has the left lifting property wrt $g$ ",
+" $f$ is (left) orthogonal to $g$ ",
+i.e.  for  $f:A\longrightarrow B$, $g:X\longrightarrow Y$,
+$f \,\rightthreetimes\, g$ iff for each $i:A\longrightarrow X$, $j:B\longrightarrow Y$ such that $ig=fj$ ("the square commutes"),
+there is $j':B\longrightarrow X$ such that $fj'=i$ and $j'g=j$ ("there is a diagonal
+making the diagram commute").
+
+Finally,
+$$
+  C_{\le n} := \{ {f} : {f} \in {C},\text{ both the domain and range of }f \text{ are finite of size
+                  less or equal than }n \}.
+$$
+and
+$\{a\}\longrightarrow \{a{\searrow}b\}$ denotes the inclusion of the open point $a$ into the Sierpinski space $ \{a{\searrow}b\}$.
+=--
+
+These observations give rise to the following question.
+
++-- {: .num_remark #TaimanovQ} 
+###### Question
+Question. Is $((\{a\}\longrightarrow \{a{\searrow}b\})^r_{\le 4})^{lr}$
+the class of proper maps?
+=--
+
+Considerations above show it is contained in the class of proper maps and
+that it contains proper maps between normal (T4) spaces (this is what gives
+the standard proof of the Taimanov theorem).
+
+
+
 
 
 ### Proof of converses
@@ -388,6 +457,10 @@ and its modern version is due to
 The proof using convergence of nets is due to
 
 * {#Chernoff92} Paul R. Chernoff, _A Simple Proof of Tychonoff's Theorem Via Nets_,  The American Mathematical Monthly Vol. 99, No. 10 (Dec., 1992), pp. 932-934 ([jstor](http://www.jstor.org/stable/2324485))
+
+The short proof via ultrafilters follows 
+
+* {#BourbakiGeneralTopology} [[Bourbaki]], _General Topology_, I\S10.2, Thm.1(d), p.101
 
 
 See also
