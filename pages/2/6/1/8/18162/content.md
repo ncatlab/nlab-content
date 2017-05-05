@@ -102,19 +102,19 @@ Fix two sets ([[subsets]]) $F$ and $G$ of $S$.
 
    In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors either as 
 
-   $$ S_{F,G}: S \longrightarrow   \{F \leftrightarrow U \stackrel{\circ} \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U \stackrel{\circ}=\bullet \leftrightarrow G \}$$ 
+   $$ S_{F,G}: S \longrightarrow   \{F \leftrightarrow U  \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U =\bullet \leftrightarrow G \}$$ 
 
    or 
 
    $$ 
      S_{F,G}
       \colon 
-     S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V \stackrel{\circ} \leftrightarrow G \} 
+     S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V  \leftrightarrow G \} 
        \longrightarrow
-     \{F \leftrightarrow \bullet = V \stackrel{\circ} \leftrightarrow G \}   
+     \{F \leftrightarrow \bullet = V  \leftrightarrow G \}   
    $$ 
 
-   where $U \stackrel{\circ}$, $ V \stackrel{\circ} $ maps to $\bullet$.
+   where $U$, $V$ maps to $\bullet$.
    Notice that topologically disjoint sets must be disjoint.
 
 *  They are __separated__ if each set has a neighbourhood that is disjoint from the other set:
@@ -133,7 +133,7 @@ Fix two sets ([[subsets]]) $F$ and $G$ of $S$.
    $$ 
      S_{F,G}
        \colon 
-     S \longrightarrow  \{F \leftrightarrow U \stackrel{\circ} \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U \stackrel{\circ}=\bullet \leftrightarrow G \}
+     S \longrightarrow  \{F \leftrightarrow U \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U \stackrel{\circ}=\bullet \leftrightarrow G \}
    $$
 
    and as 
@@ -141,16 +141,16 @@ Fix two sets ([[subsets]]) $F$ and $G$ of $S$.
    $$ 
      S_{F,G}
        \colon 
-     S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V \stackrel{\circ} \leftrightarrow G \} \longrightarrow \{F \leftrightarrow \bullet = V \stackrel{\circ} \leftrightarrow G \} 
+     S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V  \leftrightarrow G \} \longrightarrow \{F \leftrightarrow \bullet = V  \leftrightarrow G \} 
    $$ 
 
-   where $ U \stackrel{\circ}$, $V \stackrel{\circ} $ maps to $\bullet$.
+   where $ U $, $V $ maps to $\bullet$.
    Notice that separated sets must be topologically disjoint.
 
 *  {#SeparatedByNeighbourhoods} They are __separated by neighbourhoods__ if they have disjoint neighbourhoods:
    $$ \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; U \cap V = \empty .$$
    The arrow  $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as 
-   $S \longrightarrow \{F \leftrightarrow  U \stackrel{\circ} \searrow \bullet \swarrow  V \stackrel{\circ} \leftrightarrow G$
+   $S \longrightarrow \{F \leftrightarrow  U  \searrow \bullet \swarrow  V \leftrightarrow G\}\longrightarrow \{F \leftrightarrow  U  = \bullet =  V \leftrightarrow G\}$
    Notice that sets separated by neighbourhoods must be separated.
 *  They are __separated by closed neighbourhoods__ if they have disjoint closed neighbourhoods:
    $$ \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; Cl(U) \cap Cl(V) = \empty .$$
@@ -298,7 +298,7 @@ completely normal.
 +--
 #### Remark. 
 Note that a standard proof of Uryhson lemma may be represented as follows: iterate the lifting property to prove 
-$$ \emptyset \longrightarrow X\longrightarrow \rightthreetimes \{x \searrow x_1 \swarrow ... \searrow x_n \swarrow y \} \longrightarrow  \{x \searrow x_1 = ... = x_n \swarrow y \}$$
+$$ \emptyset \longrightarrow X\rightthreetimes \{x \swarrow x_1 \searrow ... \swarrow x_n \searrow y \} \longrightarrow  \{x \swarrow x_1 = ... = x_n \searrow y \}$$
  Then pass to the infinite limit to construct a map 
 $ X \longrightarrow  \mathbb{R}$.
 =--
