@@ -84,14 +84,35 @@ Fix two sets ([[subsets]]) $F$ and $G$ of $S$.
 
 *  The sets $F$ and $G$ are __[[disjoint sets|disjoint]]__ if their [[intersection]] is [[empty set|empty]]:
    $$ F \cap G = \empty .$$
-   In terms of arrows,  the following map is well-defined: $S_{F,G}: S \longrightarrow  \{F\leftrightarrow G \leftrightarrow \bullet \}$ such that $S_{F,G}{x)=F$ for $x \in F$, $S_{F,G}{x)=G$ for $x \in G$, and $S_{F,G}{x)=\bullet$ for $x \notin F\cup G$.
+
+   In terms of arrows,  the following map is well-defined: $S_{F,G}: S \longrightarrow  \{F\leftrightarrow G \leftrightarrow \bullet \}$ such that $S_{F,G}(x)=F$ for $x in F$, $S_{F,G}(x)=G$ for $x \in G$, and $S_{F,G}(x)=\bullet$ for $x \notin F\cup G$.
+
 *  They are __topologically disjoint__ if there exists a [[neighbourhood]] of one set that is disjoint from the other set:  
 $$ (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty) \;\vee\; (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty) .$$
-   In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors either as $$ S_{F,G}: S \longrightarrow   \{F \leftrightarrow U \stackrel{\circ} \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U \stackrel{\circ}=\bullet \leftrightarrow G \}$$ or 
-$$ S_{F,G}: S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V \stackrel{\circ} \leftrightarrow G \} \longrightarrow
-     \{F \leftrightarrow \bullet = V \stackrel{\circ} \leftrightarrow G \} $$ where
-    $ U \stackrel{\circ}$, $ V \stackrel{\circ} $ maps to $\bullet$.
+
+   In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors either as
+
+   $$ 
+     S_{F,G}
+       : 
+     S \longrightarrow   \{F \leftrightarrow U \stackrel{\circ} \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U \stackrel{\circ}=\bullet \leftrightarrow G \}
+   $$ 
+
+   or 
+  
+   $$ 
+     S_{F,G}
+       : 
+     S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V \stackrel{\circ} \leftrightarrow G \} \longrightarrow
+     \{F \leftrightarrow \bullet = V \stackrel{\circ} \leftrightarrow G \}    
+   $$ 
+
+   where
+ 
+   $U \stackrel{\circ}$, $ V \stackrel{\circ} $ maps to $\bullet$.
+
    Notice that topologically disjoint sets must be disjoint.
+
 
 *  They are __separated__ if each set has a neighbourhood that is disjoint from the other set:
    $$ (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty) \;\wedge\; (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty)
@@ -251,12 +272,7 @@ where $(0,1)$ goes to the open point $X$, and $0$ goes to $0$, and $1$ goes to $
 Every perfectly normal space is also
 completely normal.
 
-+--
-#### Remark. 
-Note that a standard proof of Uryhson lemma may be represented as follows: iterate the lifting property to prove $$\emptyset \longrightarrow X\longrightarrow \rightthreetimes \{x \searrow x_1 \swarrow ... \searrow x_n \swarrow y \} \longrightarrow  \{x \searrow x_1 = ... = x_n \swarrow y \}$$
- Then pass to the infinite limit to construct a map 
-$$ X \longrightarrow  {\mathbb R} .$$
-=--
+
 
 ## Merge or discard
 
