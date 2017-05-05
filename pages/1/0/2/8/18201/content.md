@@ -25,6 +25,8 @@ Due to the simplicity of the concept of free diagrams, these types of [[limits]]
 ## Exposition 
  {#Exposition}
 
+We give an exposition of free diagrams, and their [[cones]] and [[limits]], intentionally avoiding abstract or sophisticated language, expressing everything just in components.
+
 For concreteness, we speak in the following of [[sets]]. We say "[[map]]" to mean _[[function]]_ between these.
 
 
