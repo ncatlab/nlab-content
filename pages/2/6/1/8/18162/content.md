@@ -327,10 +327,15 @@ $$
 
 or what is the same, every [[regular monomorphism]] into $X$ in $Haus$ has the [[left lifting property]] with respect to the map $\mathbb{R} \to 1$. 
 
+## Related concepts
+
+* [Tychonoff theorem -- Proof via lifting properties](Tychonoff+theorem#ProofViaTaimanovTheoremAndLiftingProperties)
 
 ## References
 
 * [[Misha Gavrilovich]], _The unreasonable power of the lifting property in
 elementary mathematics_ ([pdf](http://mishap.sdf.org/by:gavrilovich/expressive_power_of_the_lifting_property.pdf))
 
-* {#MG} [[Misha Gavrilovich]], *Point set topology as diagram chasing computations* ([arXiv:1408.6710](https://arxiv.org/abs/1408.6710)) [pdf](http://mishap.sdf.org/mints-lifting-property-as-negation-DMG_5_no_4_2014.pdf) 
+* {#MG} [[Misha Gavrilovich]], *Point set topology as diagram chasing computations* ([arXiv:1408.6710](https://arxiv.org/abs/1408.6710), [pdf](http://mishap.sdf.org/mints-lifting-property-as-negation-DMG_5_no_4_2014.pdf))
+
+
