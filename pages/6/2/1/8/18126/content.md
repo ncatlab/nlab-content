@@ -2597,7 +2597,7 @@ For $(X,\tau)$ any [[topological space]], then there is a _unique_ continuous fu
 1. from the [[empty topological space]] (def. \ref{Point}) $X$
 
    $$
-     \emptyset  
+     \emptyset
        \overset{\phantom{AA} \exists ! \phantom{AA} }{\longrightarrow}
      X
    $$
@@ -2611,11 +2611,11 @@ For $(X,\tau)$ any [[topological space]], then there is a _unique_ continuous fu
 
 
 In the language of [[category theory]] (remark \ref{TopCategory}), this
-says that 
+says that
 
 1. the [[empty topological space]] is the _[[initial object]]_
 
-1. the [[point space]] $\ast$ is the _[[terminal object]]_ 
+1. the [[point space]] $\ast$ is the _[[terminal object]]_
 
 in the [[category]] [[Top]] of topological spaces.
 
@@ -2869,7 +2869,7 @@ $$
 
 are [[open maps|open]] [[continuous functions]]  (def. \ref{OpenMap}).
 
-This is because, by definition, every open subset $O \subset X_1 \times X_2$ in the product space topology is a union of products of 
+This is because, by definition, every open subset $O \subset X_1 \times X_2$ in the product space topology is a union of products of
 open subsets $U_i \in X_1$ and $V_i \in X_2$ in the factor spaces
 
 $$
@@ -5353,9 +5353,9 @@ Finally, soberity is indeed strictly weaker that Hausdorffness:
 ###### Example
 **([[schemes are sober]])**
 
-The [[Zariski topology]] on an [[affine space]] (example \ref{ZariskiTopologyOnAffineSpace}) or 
+The [[Zariski topology]] on an [[affine space]] (example \ref{ZariskiTopologyOnAffineSpace}) or
 more generally on the [[prime spectrum of a commutative ring]] (example \ref{ZariskiTopologyOnPrimeSpectrum})
-is 
+is
 
 1. [[sober topological space|sober]] (def \ref{Sober});
 
@@ -5827,10 +5827,10 @@ $$
   \,.
 $$
 
-But in fact these two components completely characterize the function into the product: There is a 
+But in fact these two components completely characterize the function into the product: There is a
 ([[natural bijection|natural]]) [[bijection]] between continuous functions into the product space
 and pairs of continuous functions into the two factor spaces:
- 
+
 $$
   \array{
     &
@@ -6019,8 +6019,11 @@ $\,$
 ### Limits and colimits
  {#LimitsAndColimits}
 
-We consider now the general definition of [[diagrams]] of [[topological spaces]] (def. \ref{Diagram} below),
-their [[cones]] and [[co-cones]] (def. \ref{Cone}) as well as [[limit|limiting cones]] and [[colimit|colimiting cocones]] (def. \ref{LimitingCone} below). Then we use these concepts to see generally why [[limits]] (such as [[product spaces]] and [[subspaces]])
+We consider now the general definition of [[free diagrams]] of [[topological spaces]] (def. \ref{Diagram} below),
+their [[cones]] and [[co-cones]] (def. \ref{Cone}) as well as [[limit|limiting cones]] and [[colimit|colimiting cocones]] (def. \ref{LimitingCone} below). 
+
+Then we use these concepts to see generally (remark \ref{CoLimitsInNiceTopologicalSpaces} below) 
+why [[limits]] (such as [[product spaces]] and [[subspaces]])
 of $T_{n \leq 2}$-spaces and of [[sober spaces]] are again $T_n$ or sober, respectively, and to see that the
 correct [[colimits]] (such as [[disjoint union spaces]] and [[quotient spaces]]) of $T_n$- or sober spaces
 are instead the _$T_n$-reflection_ (prop. \ref{HausdorffReflection}) or sober reflection (prop. \ref{SoberReflection}), respectively, of these
@@ -6032,65 +6035,16 @@ $\,$
 
 +-- {: .num_defn #Diagram}
 ###### Definition
-**([[diagram]] in a [[category]])**
+**([[free diagram]] of [[sets]]/[[topological spaces]])**
 
-A _[[diagram]]_ $X_\bullet$ of [[sets]] or of [[topological spaces]] is
+A _[[free diagram]]_ $X_\bullet$ of [[sets]] or of [[topological spaces]] is
 
-1. a [[set]] $\{ X_i \}_{i \in I}$ of [[objects]] (i.e. of sets or topological spaces)
+1. a [[set]] $\{ X_i \}_{i \in I}$ of [[sets]] or [[topological spaces]];
 
-1. for every [[pair]] $(i,j) \in I \times I$ of labels of objects a [[set]]
-   $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[morphisms]] between these objects (i.e. [[functions]] or [[continuous functions]]);
-
-1. for each [[triple]] $i,j,k \in I$ a [[function]]
-
-   $$
-     comp_{i,j,k} \;\colon\; I_{i,j} \times I_{j,k} \longrightarrow I_{i,k}
-   $$
-
-such that
-
-1. for every $i \in I$ the [[identity morphisms]] $f_i = id_{X_i} \colon X_i \to X_i$ is part of the diagram;
-
-1. $comp$ is [[associativity|associative]] and [[unital]] in in the evident sense
-
-1. for every composable pair of morphisms
-
-  $$
-    X_i
-      \overset{f_{\alpha} }{\longrightarrow}
-    X_j
-      \overset{ f_{\beta} }{\longrightarrow}
-    X_k
-  $$
-
-  then the [[composition|composite]] of these two morphisms equals the morphism of the diagram that is
-  labeled by the value of $comp_{i,j,k}$ on their labels:
-
-  $$
-    f_{\beta} \circ f_\alpha
-    \,=\,
-    f_{comp_{i,j,k}( \alpha, \beta )}
-    \,.
-  $$
-
-The last condition we depict as follows:
-
-$$
-  \array{
-    && X_j
-    \\
-    & {}^{\mathllap{f_{\alpha}}}\nearrow && \searrow^{\mathrlap{f_{\beta}}}
-    \\
-    X_i && \underset{ comp_{i,j,k}(\alpha,\beta) }{\longrightarrow} && X_k
-  }
-  \,.
-$$
+1. for every [[pair]] $(i,j) \in I \times I$ of labels, a [[set]]
+   $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[functions]] or [[continuous functions]] between these.
 
 =--
-
-On the face of it the definition \ref{Diagram} may look a little baroque, but we see in remark \ref{FunctorialDefinitionOfDiagrams}
-below how it has a convenient re-packaging. More importantly for our purposes, all concrete examples of diagrams
-that we will be concerned with here are fairly simplistic examples of the general definition:
 
 
 +-- {: .num_example #DiscreteDiagram}
@@ -6106,21 +6060,24 @@ $$
     \coloneqq
   \left\{
     \array{
-      \emptyset & \vert \, i \neq j
+      \emptyset & \vert & i \neq j
       \\
-      \{id_i\} & \,\vert\, I = j
+      \{id_i\} & \vert & I = j
     }
   \right.
   \,.
 $$
 
-There is a unique choice for the composition function for these sets to
-index a [[diagram]] according to def. \ref{Diagram}.
-
-The corresponding diagrams
-are simply a set of sets/topological spaces with no non-trivial morphisms between them.
+The corresponding [[free diagrams]] (def. \ref{Diagram})
+are simply a set of sets/topological spaces with no specified (continuous) functions between them.
 This is called a _[[discrete category|discrete]] [[diagram]]_.
 
+For example for $I = \{1,2,3\}$ the set with 3-elements, then such a diagram looks like this:
+
+$$
+  X_1 \phantom{AAA} X_2 \phantom{AAA} X_3
+  \,.
+$$
 
 Notice that here the index set may be [[empty set]], $I = \emptyset$, in which case the
 corresponding diagram consists of no data. This is also called the _[[empty diagram]]_.
@@ -6139,20 +6096,18 @@ $$
     \;\coloneqq\;
   \left\{
     \array{
-      \{id_i\} &\vert\, i = j
+      \{id_i\} & \vert & i = j
       \\
-      \{ 1,2 \} &\vert\, (i = a) \,\text{and}\, (j = b)
+      \{ 1,2 \} & \vert & (i = a) \,\text{and}\, (j = b)
       \\
-      \emptyset & \vert \, (i=b) \,\text{and}\, (j = a)
+      \emptyset & \vert & (i=b) \,\text{and}\, (j = a)
     }
   \right\}
   \,.
 $$
 
-Again there is a unique composition function that makes this the index data of a diagram according to
-def. \ref{Diagram}.
-
-Such a diagram is called a _pair of [[parallel morphisms]]_:
+The corresponding [[free diagrams]] (def. \ref{Diagram}) are called _pairs of [[parallel morphisms]]_.
+They may be depicted like so:
 
 $$
   X_a
@@ -6189,8 +6144,7 @@ $$
   \right.
 $$
 
-
-Again there is a unique composition function for this. The corresponding diagrams look like this:
+The corresponding [[free diagrams]] (def. \ref{Diagram}) look like so:
 
 $$
   \array{
@@ -6238,8 +6192,8 @@ $$
   \right.
 $$
 
-Once more, there is a unique choice of composition function for this to index
-diagrams according to def. \ref{Diagram}. These are called _[[tower]] [[diagrams]]_
+The corresponding [[free diagrams]] (def. \ref{Diagram}) are called _[[tower]] [[diagrams]]_.
+They look as follows:
 
 
 $$
@@ -6275,85 +6229,19 @@ $$
 =--
 
 
-+-- {: .num_defn #FunctorialDefinitionOfDiagrams}
-###### Remark
-**([[diagrams]] are [[functors]])**
-
-Of course the definition of a _[[diagram]]_ of sets or topological space in def. \ref{Diagram}
-has a succint reformulation in the language of [[category theory]] (remark \ref{TopCategory}) above:
-
-A glance at definition \ref{Diagram} shows that the data
-
-$$
-  \mathcal{I} \coloneqq (I, (I_{i,j})_{i,j \in I}, \{comp_{i,j,k}\}_{i,j,k \in I} )
-$$
-
-itself defines a [[category]]: its
-
-* set of [[objects]] is $I$;
-
-* set of [[morphisms]] between objects $(i,j) \in I \times I$ is $I_{i,j}$;
-
-* [[identity morphisms]] are the $f_i \in I_{i,j}$;
-
-* [[composition]] operation is given by the functions $c_{i, j ,j}$.
-
-One difference between this category $\mathcal{I}$ and the categories [[Set]] of sets or [[Top]]
-of topological spaces is that the collection of objects in $\mathcal{I}$ is an actual [[set]]
-instead of a proper [[class]]. To amplify this one also says that $\mathcal{I}$ is a "[[small category]]".
-
-Moreover, with this identification made, then it is clear that all the data that makes up the diagram in
-def. \ref{Diagram} is equivalently re-formulated simply by saying that a diagram in a
-category $\mathcal{C}$ is a [[functor]]
-
-$$
-  X_\bullet \;\colon\; \mathcal{I} \longrightarrow \mathcal{C}
-  \,.
-$$
-
-Here the choice of $\mathcal{I}$ is also called the "shape" of the diagram, and one speaks of an
-_$\mathfrak{I}$-shaped diagram in $\\mathcal{C}$_.
-
-So for example an _$\mmathcal{I}$-shaped diagram of sets_ is a choice of a [[small category]] $\mathcal{I}$
-and of a [[functor]] of the form
-
-$$
-  X_\bullet
-    \;\colon\;
-  \mathcal{I} \longrightarrow Set
-  \,,
-$$
-
-while an $\mathcal{I}$-shaped diagram of topological spaces is a functor of the form
-
-$$
-  X_\bullet
-   \;\colon\;
-  \mathcal{I}
-    \longrightarrow
-  Top
-$$
-
-and so on.
-
-=--
 
 +-- {: .num_defn #Cone}
 ###### Definition
-**([[cone]] over a [[diagram]])**
+**([[cone]] over a [[free diagram]])**
 
-Consider a [[diagram]] of sets or of topological spaces (def. \ref{Diagram})
+Consider a [[free diagram]] of sets or of topological spaces (def. \ref{Diagram})
 
 $$
   X_\bullet
     \,=\,
-  \left(
-     \left\{
-       X_i \overset{f_\alpha}{\longrightarrow} X_j
-     \right\}_{i,j \in I, \alpha \in I_{i,j}}
-     \,,\,
-     \mathrm{comp}
-  \right)
+  \left\{
+    X_i \overset{f_\alpha}{\longrightarrow} X_j
+  \right\}_{i,j \in I, \alpha \in I_{i,j}}
   \,.
 $$
 
@@ -6361,9 +6249,9 @@ Then
 
 1. a _[[cone]]_ over this diagram is
 
-   1. an [[object]] $\tilde X$ (i.e. a set or a topological space)
+   1. a [[set]] or [[topological space]] $\tilde X$;
 
-   1. for each $i \in I$ a morphism $\tilde X \overset{p_i}{\longrightarrow} X_i$ (i.e. a function or a continuous function)
+   1. for each $i \in I$ a [[function]] or [[continuous function]] $\tilde X \overset{p_i}{\longrightarrow} X_i$ 
 
    such that
 
@@ -6389,9 +6277,9 @@ Then
 
 1. a _[[co-cone]]_ over this diagram is
 
-   1. an [[object]] $\tilde X$ in the category;
+   1. a set or topological space $\tilde X$;
 
-   1. for each $i \in I$ a morphism $q_i \colon X_i \longrightarrow \tilde X$ in the category
+   1. for each $i \in I$ a function or continuous function $q_i \colon X_i \longrightarrow \tilde X$;
 
    such that
 
@@ -6417,26 +6305,11 @@ Then
 =--
 
 
-+-- {: .num_remark #ConesAreNaturalTransformations}
-###### Remark
-**([[cones]] are [[natural transformations]])**
-
-
-In the language of [[category theory]] (remark \ref{TopCategory})
-and in view of the interpretation of [[diagrams]] as [[functors]]  (remark \ref{FunctorialDefinitionOfDiagrams})
-then the definition of [[cone]] in def. \ref{Cone} simply says that a [[cone]]
-is a [[natural transformation]] from a _[[constant functor]]_ to the [[functor]] that exbits the
-given diagram.
-
-
-=--
-
-
 +-- {: .num_example}
 ###### Example
 **([[solutions]] to [[equations]] are [[cones]])**
 
-Let $f,g \colon \mathbb{R} \to \mathbb{R}$ two [[functions]], and consider the
+Let $f,g \colon \mathbb{R} \to \mathbb{R}$ two [[functions]] from the [[real numbers]] to themselves, and consider the
 corresponding [[parallel morphism]] [[diagram]] of sets (example \ref{ParallelMorphisms}):
 
 $$
@@ -6449,14 +6322,14 @@ $$
   \,.
 $$
 
-Then a [[cone]] over this diagram with tip the [[singleton]] set $\ast$ is a _[[solution]]_ to
+Then a [[cone]] (def. \ref{Cone}) over this feee diagram with tip the [[singleton]] set $\ast$ is a _[[solution]]_ to
 the [[equation]] $f(x) = g(x)$
 
 $$
   \array{
     && \ast
     \\
-    & \swarrow && \searrow
+    & {}^{\mathllap{const_x}}\swarrow && \searrow^{\mathrlap{const_y}}
     \\
     \mathbb{R}
       &&
@@ -6470,6 +6343,20 @@ $$
   \,.
 $$
 
+Namely the components of the cone are two functions of the form
+
+$$
+  cont_x, const_y \;\colon\; \ast \to \mathbb{R}
+$$
+
+hence equivalently two [[real numbers]], and the conditions on these are
+
+$$
+  f_1 \circ const_x = const_y
+  \phantom{AAAA}
+  f_2 \circ const_x = const_y
+  \,.
+$$
 
 =--
 
@@ -6478,21 +6365,16 @@ $$
 ###### Definition
 **([[limit|limiting cone]] over a [[diagram]])**
 
-Consider a [[diagram]] of sets or of topological spaces (def. \ref{Diagram}):
+Consider a [[free diagram]] of sets or of topological spaces (def. \ref{Diagram}):
 
 $$
-  X_\bullet
-    \,=\,
-  \left(
-     \left\{
-       X_i \overset{f_\alpha}{\longrightarrow} X_j
-     \right\}_{i,j \in I, \alpha \in I_{i,j}}
-     \,,\,
-     \mathrm{comp}
-  \right)
+  \left\{
+    X_i \overset{f_\alpha}{\longrightarrow} X_j
+  \right\}_{i,j \in I, \alpha \in I_{i,j}}
+  \,.
 $$
 
- Then
+Then
 
 1. its _[[limit|limiting cone]]_ (or just _[[limit]]_ for short) is, if it exists,
    [[generalized the|the]] [[cone]]
@@ -6511,9 +6393,8 @@ $$
      \right\}
    $$
 
-   over this diagram (def. \ref{Cone}) which is _universal_ or _initial_ among all
-   possible cones,
-   in that it has the property that for
+   over this diagram (def. \ref{Cone}) which is _[[universal property|universal]]_ among all possible cones,
+   in that for
 
    $$
      \left\{
@@ -6529,7 +6410,7 @@ $$
      \right\}
    $$
 
-   any other [[cone]], then there is a unique morphism
+   any other [[cone]], then there is a unique continuous function
 
    $$
      \phi \;\colon\; \tilde X \overset{}{\longrightarrow} \underset{\longrightarrow}{\lim}_i X_i
@@ -6573,8 +6454,7 @@ $$
      \right\}
    $$
 
-   under this diagram (def. \ref{Cone}) which is _universal_ or _terminal_ among all
-   possible co-cones,
+   under this diagram (def. \ref{Cone}) which is _[[universal property|universal]]_ among all possible co-cones,
    in that it has the property that for
 
    $$
@@ -6591,7 +6471,7 @@ $$
      \right\}
    $$
 
-   any other [[cocone]], then there is a unique morphism
+   any other [[cocone]], then there is a unique continuous function
 
    $$
      \phi \;\colon\;  \underset{\longrightarrow}{\lim}_i X_i \overset{}{\longrightarrow} \tilde X
@@ -6619,69 +6499,22 @@ $$
 
 =--
 
-Here is a key property of (co-)limits:
-
-+-- {: .num_prop #HomFunctorPreservesLimits}
-###### Proposition
-**(homomorphisms into a limit cone are the limit of the homomorphisms into the diagram)**
-
-Let $\mathcal{C}$ be a [[category]] (such as [[Set]] or [[Top]]) and let
-$$
-  X_\bullet \colon \mathcal{I} \longrightarrow \mathcal{C}
-$$
-
-be a [[diagram]] in $\mathcal{C}$.
-
-1. If the [[limit]] $\underset{\longleftarrow}{\lim}_i X_i \in \mathcal{C}$ exists, then
-   the [[set]] of [[homomorphisms]] into this limiting object os the limit over the sets of morphisms into the
-   components $X_i$:
-
-   $$
-     Hom_{\mathcal{C}}\left(\,Y\,, \,\underset{\longleftarrow}{\lim}_i X_i \, \right)
-      \simeq
-     \underset{\longleftarrow}{\lim}_i Hom_{Set}\left(\,Y\,, \,X_i\, \right)
-   $$
-
-
-1. If the [[colimit]] $\underset{\longrightarrow}{\lim}_i X_i \in \mathcal{C}$ exists, then
-   the [[set]] of [[homomorphisms]] out of this colimiting object is the colimit over the sets of
-   morphisms out of the components of $X_i$
-
-   $$
-     Hom_{\mathcal{C}}\left(\,\underset{\longrightarrow}{\lim}_i X_i\,,\, Y\,\right)
-       \simeq
-     \underset{\longrightarrow}{\lim} Hom_{Set}\left(\, X_i\,, \,Y\, \right)
-     \,.
-   $$
-
-=--
-
-
-
-This concludes the general definition of universal constructions. Before we consider explicit
-examples [below](#UniversalConstructionsExamples) we now first consider a more explicit
-description of these limits of colimits of diagrams of sets and of topological spaces.
 
 $\,$
+
+
+Here is a more explicit description
 
 
 +-- {: .num_prop #SetLimits}
 ###### Proposition
 **([limits and colimits of sets](limits+and+colimits+by+example#limcoliminset))**
 
-Let
+Let $\left\{ X_i \overset{f_\alpha}{\longrightarrow} X_j \right\}_{i,j \in I, \alpha \in I_{i,j}}$
+be a [[free diagram]] (def. \ref{Diagram}) of sets (i.e. of [[discrete topological spaces]]). Then
 
-$$
-  X_\bullet
-    \,\colon\,
-  \mathcal{I}
-    \longrightarrow
-  Set
-$$
-
-be a [[diagram]] of [[sets]] (def. \ref{Diagram}, using the notation from remark \ref{FunctorialDefinitionOfDiagrams}). Then
-
-1. its [[limit|limit cone]] (def. \ref{LimitingCone}) exists and is given by the following [[subset]] of the [[Cartesian product]]
+1. its [[limit|limit cone]] (def. \ref{LimitingCone}) exists and is given by 
+   (the [[discrete topological space]] on) the following [[subset]] of the [[Cartesian product]]
    $\underset{i \in I}{\times} X_i$
    of all the [[sets]] $X_i$ appearing in the diagram
 
@@ -6870,10 +6703,45 @@ The case of the colimit is [[formal dual|formally dual]].
 
 =--
 
+$\,$
+
 We discuss a list of examples of (co-)limits of topological spaces in a moment [below](#UniversalConstructionsExamples),
 but first we conclude with the main theoretical impact of the concept of topological (co-)limits for our our purposes.
 
+Here is a key property of (co-)limits:
 
++-- {: .num_prop #HomFunctorPreservesLimits}
+###### Proposition
+**(homomorphisms into a limit cone are the limit of the homomorphisms into the diagram)**
+
+Let $\{X_i \overset{f_\alpha}{\longrightarrow} X_j\}_{i,j \in I, \alpha \in I_{i,j}}$
+be a [[free diagram]] (def. \ref{Diagram}) of sets or of topological spaces.
+
+1. If the [[limit]] $\underset{\longleftarrow}{\lim}_i X_i \in \mathcal{C}$ exists (def. \ref{LimitingCone}), then
+   the [[set]] of [[homomorphisms]] into this limiting object is the limit over the sets $Hom(-,-)$ of (continuous) functions 
+   ("[[homomorphisms]]") into the components $X_i$:
+
+   $$
+     Hom\left(\,Y\,, \,\underset{\longleftarrow}{\lim}_i X_i \, \right)
+      \simeq
+     \underset{\longleftarrow}{\lim}_i Hom\left(\,Y\,, \,X_i\, \right)
+   $$
+
+
+1. If the [[colimit]] $\underset{\longrightarrow}{\lim}_i X_i \in \mathcal{C}$ exists, then
+   the [[set]] of [[homomorphisms]] out of this colimiting object is the colimit over the sets of
+   morphisms out of the components of $X_i$
+
+   $$
+     Hom\left(\,\underset{\longrightarrow}{\lim}_i X_i\,,\, Y\,\right)
+       \simeq
+     \underset{\longrightarrow}{\lim} Hom\left(\, X_i\,, \,Y\, \right)
+     \,.
+   $$
+
+=--
+
+Using this, we find the following:
 
 +-- {: .num_remark #CoLimitsInNiceTopologicalSpaces}
 ###### Remark
@@ -6969,7 +6837,7 @@ $$
 
 Consider a [[discrete category|discrete]] [[diagram]] consisting of two objects $X, Y$ (example \ref{DiscreteDiagram}).
 
-Its [[limit]] is called the _[[Cartesian product]]_ $X \times Y$. In topological space this limit is the 
+Its [[limit]] is called the _[[Cartesian product]]_ $X \times Y$. In topological space this limit is the
 [[product topological space]], by the universal property observed in example \ref{UniversalPropertyOfBinaryProductSpace}.
 [
 Its [[colimit]] is called the _[[coproduct]]_ $X \sqcup Y$. In topological spaces this is the [[disjoint union space]],
@@ -6978,7 +6846,7 @@ by the universal property observed in example \ref{UniversalPropertyOfDisjointUn
 =--
 
 The first important application of the general concept of limits of diagrams of topological spaces
-is now the following example \ref{InfiniteProductTopologicalSpace} of product spaces with an 
+is now the following example \ref{InfiniteProductTopologicalSpace} of product spaces with an
 non-[[finite set]] of factors. It turns out that the correct topology on the underlying infinite [[Cartesian product]]
 of sets is _not_ the naive generalization of the binary product topology, but instead is the corresponding
 [[weak topology]], here called the _[[Tychonoff topology]]_.
@@ -6987,7 +6855,7 @@ of sets is _not_ the naive generalization of the binary product topology, but in
 ###### Example
 **(general [[product spaces]] with [[Tychonoff topology]])**
 
-Consider an arbitrary [[discrete category|discrete]] [[diagram]] (def. \ref{DiscreteDiagram}), 
+Consider an arbitrary [[discrete category|discrete]] [[diagram]] (def. \ref{DiscreteDiagram}),
 hence a [[set]] $\{X_i\}_{i \in I}$ of topological spaces, indexed by any [[set]] $I$, not necessarily a [[finite set]].
 
 The [[limit]] over this diagram is called the _[[product topological space]]_ of the spaces in the diagram, and denoted
@@ -6999,7 +6867,7 @@ $$
   \,.
 $$
 
-By prop. \ref{SetLimits} and prop. \ref{TopologicalSubspaceInitial}, the underlying set of this product space is 
+By prop. \ref{SetLimits} and prop. \ref{TopologicalSubspaceInitial}, the underlying set of this product space is
 just the [[Cartesian product]] of the underlying sets, hence the set of [[tuples]] $(x_i \in X_i)_{i \in I}$. This comes
 for each $i \in I$ with the [[projection]] map
 
@@ -7012,7 +6880,7 @@ $$
   \,.
 $$
 
-By prop. \ref{TopologicalSubspaceInitial} and def. \ref{InitialAndFinalTopologies}, the topology on this set 
+By prop. \ref{TopologicalSubspaceInitial} and def. \ref{InitialAndFinalTopologies}, the topology on this set
 is the [[coarse topology|coarsest]] topology such that the [[pre-images]] $pr_i(U)$ of open subsets $U \subset X_i$
 under these projection maps are open. Now one such pre-image is a [[Cartesian product]] of open subsets of the form
 
@@ -7025,7 +6893,7 @@ $$
 where all factors are the corresponding total space, except for the $i$th factor, which is the given $U \subset X_i$:
 
 $$
-  U_j = 
+  U_j =
   \left\{
     \array{
       U & \vert \, j = i
@@ -7036,8 +6904,8 @@ $$
   \,.
 $$
 
-The [[coarse topology|coarsest topology]] that contains these open subsets ist that generated by these subsets regarded as 
-a [[topological base|sub-basis for the topology]] (def. \ref{TopologyBase}), hence the arbitrary unions of the finite intersections of 
+The [[coarse topology|coarsest topology]] that contains these open subsets ist that generated by these subsets regarded as
+a [[topological base|sub-basis for the topology]] (def. \ref{TopologyBase}), hence the arbitrary unions of the finite intersections of
 subsets of the above form.
 
 Now the finite intersections of subsets of the above form are the subsets of the form
@@ -7048,10 +6916,10 @@ $$
   \underset{j \in I}{\prod} X_j
 $$
 
-such that there is a [[finite set]] [[subset]] $K \subset J$ with 
+such that there is a [[finite set]] [[subset]] $K \subset J$ with
 
 $$
-  U_j 
+  U_j
     =
   \left\{
     \array{
@@ -7067,10 +6935,10 @@ Hence the product topology is equivalently that generated by these subsets when 
 
 This is also known as the _[[Tychonoff topology]]_.
 
-Notice the subtlety: Naively could have considered as open subsets the unions of products of open 
+Notice the subtlety: Naively could have considered as open subsets the unions of products of open
 subsets of the factors, without the constraint that only finitely many of them differ from the corresponding total space.
 This also defines a topology, called the _[[box topology]]_. For a [[finite set|finite index set]] $I$ this coincides with the
-topologgy obtained by applying the binary product topological space construction. But for infinite index sets it does not. 
+topologgy obtained by applying the binary product topological space construction. But for infinite index sets it does not.
 
 =--
 
