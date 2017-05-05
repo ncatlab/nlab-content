@@ -21,7 +21,7 @@
 
 ## Idea
 
-In the strict sense of the word, a _cartesian product_ is a [[product]] in [[Set]], the category of [[sets]]. Hence for $S_1$ and $S_2$ two [[sets]], their cartesian product is the set denoted $S_1\times S_2$ whose elements are pairs of elements in $S_1$ and $S_2$, respectively.
+In the strict sense of the word, a _cartesian product_ is a [[product]] in [[Set]], the category of [[sets]]. Hence for $S_1$ and $S_2$ two [[sets]], their cartesian product is the set denoted $S_1\times S_2$ whose elements are [[ordered pairs]] of elements in $S_1$ and $S_2$, respectively.
 
 The abstract concept of such [[products]] generalizes from [[Set]] to any other [[category]] (as a special case of a category-theoretic _[[limit]]_), only that in general products of any given [[objects]] may or may not actually exist in that category. 
 
