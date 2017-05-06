@@ -400,9 +400,9 @@ the class of proper maps?
 
 Considerations above show that it is contained in the class of proper maps and that it contains proper maps between normal (T4) spaces (this is what gives the standard proof of the Taimanov theorem).
 
+### Proof via the closed-projection characterization of compactness 
 
-
-
+See [[closed-projection characterization of compactness]]. 
 
 ### Proof of converses
 
