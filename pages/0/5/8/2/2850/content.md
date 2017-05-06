@@ -30,6 +30,8 @@ Riemannian geometry is hence equivalently the [[Cartan geometry]] for inclusions
 
 * [[fundamental theorem of Riemannian geometry]]
 
+* [[Nash embedding theorem]]
+
 * [[Laplace operator]], [[wave equation]]
 
 * [[spectral geometry]], [[hearing the shape of a drum]], [[spectral triple]]
