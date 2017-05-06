@@ -102,24 +102,29 @@ and since $i: A \to B$ is the equalizer of the pair $(f, g)$, there is a unique 
 
 * Similarly, in [[Ab]], and more generally any [[abelian category]], every monomorphism is regular.
 
-+-- {: .num_prop}
++-- {: .num_prop #RegularMonomorphismsOfTopologicalSpaces}
 ###### Proposition
 **(regular monomorphisms of [[topological spaces]])**
 
 In the [[category]] [[Top]] of [[topological space]], 
 
-1. the [[monomorphisms]] are the those [[continuous functions]] which are [[injective functions]]
+1. the [[monomorphisms]] are the those [[continuous functions]] which are [[injective functions]];
 
-1. the regular monomorphsms are the [[topological embeddings]] (that is, the injective continuous functions whose sources have the [[induced topology|topologies induced]] from their targets); these are in fact all of the [[extremal monomorphisms]].
+1. the regular monomorphisms are the [[topological embeddings]] (that is, the injective continuous functions whose sources have the [[induced topology|topologies induced]] from their targets); these are in fact all of the [[extremal monomorphisms]].
 
 =--
 
 +-- {: .proof}
 ###### Proof 
 
-Use prop \ref{RegEquEff}.
+Regarding the first statement: An injective continuous function $f \colon X \to Y$ clearly has the cancellation propert that defines monomorpjisms: for parallel continuous functions $g_1,g_2 \colon Z \to X$: if $f \circ g_1 = f \circ g_1$, then $g_1 = g_2$ because continuous functions are equal precisely if their underlying functions of sets are equal. Conversely, if $f$ has the cacellation property, then testing on points $g_1, g_2 \colon \ast \to X$ gives that $f$ is injective.
 
-If $i: X \to Y$ is a subspace embedding, then we form the cokernel pair $(i_1, i_2)$ by taking the [[pushout]] of $i$ against itself (in the category of sets, and using the [[quotient topology]] on a [[disjoint union space]]). The equalizer of that pair is the set-theoretic equalizer of that pair of functions endowed with the [[subspace topology]]. Since monos in $Set$ are regular, we get the function $i$ back with the subspace topology. This completes the proof. 
+Regarding the second statement: from the construction of [[equalizers]] in [[Top]] ([this example](Top#EqualizerInTop)) we have that these are topological subspace inclusions.
+
+Conversely, let  $i \colon X \to Y$ be a [[topological subspace embedding]]. We need to show that this is the equalizer of some pair of parallel morphisms.
+
+To that end, form the [[cokernel pair]] $(i_1, i_2)$ by taking the [[pushout]] of $i$ against itself (in the category of sets, and using the [[quotient topology]] on a [[disjoint union space]]). By prop. \ref{RegEquEff}, the equalizer of that pair is the set-theoretic equalizer of that pair of functions endowed with the [[subspace topology]]. Since monomorphisms in [[Set]] are regular, we get the function $i$ back and (again by ([this example](Top#EqualizerInTop))) it is equiiped with the subspace topology. 
+
 =--
 
 +-- {: .num_prop}
@@ -248,12 +253,12 @@ In practice this is of particular relevance for the $\infty$-version of [[regula
 
 ## References
 
-* [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. ([pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
-{#AdamekHerrlichStrecker}
+* {#AdamekHerrlichStrecker} [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. ([pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
 
 
-* [[C. Cassidy]], [[M. Hébert]], and [[Max Kelly]] _Reflective subcategories, localizations and factorizationa systems_. Journal of the Australian Mathematical Society (Series A) 38.03 (1985): 287-329.
-{#CassidyHebertKelly}
+
+* {#CassidyHebertKelly} [[C. Cassidy]], [[M. Hébert]], and [[Max Kelly]] _Reflective subcategories, localizations and factorizationa systems_. Journal of the Australian Mathematical Society (Series A) 38.03 (1985): 287-329.
+
 
 
 [[!redirects regular monomorphism]]
