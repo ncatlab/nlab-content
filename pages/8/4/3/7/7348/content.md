@@ -26,7 +26,7 @@ Let $f : X \to Y$ be a [[differentiable function]].
 ###### Definition
 
 
-The function $f : X \to Y$ is called an **immersion** precisely if the canonical morphism
+A [[differentiable function]] $f : X \to Y$ is called an **immersion** precisely if the canonical morphism
 
 $$
   T X \to X \times_Y T Y \eqqcolon f^* T Y
@@ -50,7 +50,7 @@ $$
 
 given by the [[differential]] of $f$ going between the [[tangent bundles]].
 
-Equivalently this means the following.
+Equivalently this means the following:
 
 +-- {: .num_defn}
 ###### Definition
@@ -65,7 +65,35 @@ between the [[tangent space]] of $X$ at $x$ and the tangent space of $Y$ at $f(y
 
 =--
 
-An immersion whose underlying [[continuous function]] is an [[embedding]] of [[topological spaces]] is an _[[embedding of smooth manifolds]]_.
++-- {: .num_defn #EmbeddingOfSmoothManifolds}
+###### Definition
+**([[embedding of smooth manifolds]])**
+
+An immersion whose underlying [[continuous function]] is an [[embedding of topological spaces]] is called an an _[[embedding of smooth manifolds]]_.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/Immersion.png" width="150">
+</div>
+
+Consider an immersion $f \;\colon\; (0,1) \to \mathbb{R}^2$ as shown on the right. This is not a [[embedding of smooth manifolds]]: around the points where the image either crosses itself, or touches itself the pre-images under $f$ of open subsets of $\mathbb{R}^2$ do not exhaust the open subsets of $(0,1)$.
+
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/Figure8Immersion.png" width="400">
+</div>
+
+Concretely, consider the function  $(sin(2-), sin(-)) \;\colon\; (-\pi, \pi) \longrightarrow \mathbb{R}^2$
+
+> graphics grabbed from <a href="https://books.google.de/books?id=xygVcKGPsNwC&lpg=PP1&pg=PA86&redir_esc=y#v=onepage&q&f=false">Lee</a>
+
+
+=--
+
+
 
 ## Properties
 
