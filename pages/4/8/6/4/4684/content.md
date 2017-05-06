@@ -37,10 +37,16 @@ A _topological manifold_ of _[[dimension]] $n$_ (also "$n$-fold") is
 
 such that 
 
-* every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which is [[homeomorphism|homeomorphic]] to the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]].
+* ("locally Euclidean") every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which is [[homeomorphism|homeomorphic]] to the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]].
 
 =--
 
++-- {: .num_example}
+###### Counter-Example
+
+An example of a [[topological space]] which is locally Euclidean as in def. \ref{TopologicalManifold} but a [[non-Hausdorff topological space]], and hence not a topological manifold in the usual sense, is the [[line with two oigins]].
+
+=--
 
 +-- {: .num_defn #Charts}
 ###### Definition
@@ -86,8 +92,11 @@ Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold
 
 =--
 
+## Differentiable manifolds
+
 +-- {: .num_defn #Differentiable manifold}
 ###### Definition
+**([[differntiable manifold|differentiable]] and [[smooth manifolds]])**
 
 For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifold]]_ is 
 
@@ -132,6 +141,8 @@ Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ 
 
 
 ## References
+
+See also
 
 * Wikipedia, _[Topological manifold](https://en.wikipedia.org/wiki/Topological_manifold)_
 
