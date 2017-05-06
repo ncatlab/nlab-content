@@ -9,6 +9,23 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
+
+A _differentiable manifold_ is a [[topological space]] which is _locally_ [[homeomorphism|homeomorphic]] to a [[Euclidean space]] (a [[topological manifold]]) and such that the [[gluing functions]] which relate these Euclidean [[local charts]] to each other are [[differentiable functions]], for a fixed degree of differentiability. If one considers arbitrary differentiablity, then one speaks of [[smooth manifolds]]. For a general discussion see at _[[manifold]]_.
+
+
+Differential and smooth manifolds are the basis for much of [[differential geometry]]. They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].
+
+If one relaxes the condition of locally being isomorphic to a Euclidean space to admitting local smooth maps from a Euclidean space, then one obtains the concept of [[diffeological spaces]] or even [[smooth sets]], see at _[[generalized smooth space]]_ for more on this.
+
+The generalization of differentiable manifolds to [[higher differential geometry]] are [[orbifolds]] and more generally [[differentiable stacks]]. If one combines this with the generalization to [[smooth sets]] then one obtains the concept of [[smooth stacks]] and eventually [[smooth infinity-stacks]].
+
+
+
 ## Background on topological manfiolds
 
 
@@ -31,7 +48,7 @@ such that
 +-- {: .num_remark}
 ###### Remark
 
-There is some variance in the choice of regularity condition in def. \ref{TopologicalManifold}. Often it is required in addition to being a [[paracompact Hausdorff space]] that a manifold have a [[countable set]] of [[connected components]], which then means that it is [[sigma-compact]].
+There is some variance in the choice of regularity condition in def. \ref{TopologicalManifold}. Often it is required in addition to being a [[paracompact Hausdorff space]] that a manifold have a [[countable set]] of [[connected components]], which then means that it is [[sigma-compact topological space|sigma-compact]].
 
 This is the relevant condition for the [[Whitney embedding theorem]] to apply.
 
@@ -98,9 +115,9 @@ For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifol
 A $p$-fold [[differentiable function]] between $p$-fold differentiable manifolds 
 
 $$
-  (X, \{\mathbb{R}^{n} \overset{\phi_i}{\to} U_i \subset X\}_{i \in I})
+  \left(X,\, \{\mathbb{R}^{n} \overset{\phi_i}{\to} U_i \subset X\}_{i \in I} \right)
    \overset{\phantom{AA}f\phantom{AA}}{\longrightarrow}
-  (Y, \{\mathbb{R}^{n'} \overset{\psi_j}{\to} V_j \subset Y\}_{j \in J})
+  \left(Y,\, \{\mathbb{R}^{n'} \overset{\psi_j}{\to} V_j \subset Y\}_{j \in J} \right)
 $$ 
 
 is 
@@ -130,7 +147,20 @@ Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ 
 
 =--
 
+## Related concepts
 
+* [[diffeological space]], [[smooth set]]
+
+* [[orbifold]]
+
+* [[differentiable stack]], [[smooth stack]], [[smooth infinity-stack]]
+
+
+## References
+
+See also 
+
+* Wikipedia, _[Differentiable manifold](https://en.wikipedia.org/wiki/Differentiable_manifold)_
 
 
 [[!redirects differential manifold]]
