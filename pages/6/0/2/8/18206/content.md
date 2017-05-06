@@ -40,6 +40,7 @@ Embeddings of topological spaces are precisely the [[regular monomorphisms]] in 
 
 =-- 
 
+For **proof** see at _[[Top]]_ [this proposition](Top#MonoEpiMorphisms).
 
 
 
