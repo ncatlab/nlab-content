@@ -1,0 +1,58 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+An _embedding of topological spaces_ is a [[continuous function]] $f \colon X \to Y$ between [[topological spaces]], such that considering its [[image factorization]]
+
+$$
+  f 
+    \;\colon\;
+  X
+    \overset{\phantom{A}\simeq\phantom{A}}{\longrightarrow}
+  f(X)
+    \overset{\phantom{AAA}}{\hookrightarrow}
+  Y
+$$
+
+with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]], then $X \to f(X)$ is a [[homeomorphism]].
+
+## Properties
+
++-- {: .num_prop #TopologicalEmbeddingsAreTheRegularMonos} 
+###### Proposition 
+
+Embeddings of topological spaces are precisely the [[regular monomorphisms]] in the [[category]] [[Top]] of all [[topological spaces]]. 
+
+=-- 
+
+
+
+
+## Related concepts
+
+* [[embedding]]
+
+* [[embedding of smooth manifolds]]
+
+[[!redirects embeddings of topological spaces]]
+
+[[!redirects topological embedding]]
+[[!redirects topological embeddings]]
+
+[[!redirects topological subspace embedding]]
+[[!redirects topological subspace embeddings]]
