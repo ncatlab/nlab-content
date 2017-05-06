@@ -24,7 +24,14 @@
 ## Idea
 
 
-A _smooth manifold_ is a [[space]] that is _locally [[isomorphic]]_ to a [[Cartesian space]] $\mathbb{R}^n$ equipped with its canonical [[smooth structure]].
+A [[differentiable manifold]] is a [[topological space]] which is _locally_ [[homeomorphism|homeomorphic]] to a [[Euclidean space]] (a [[topological manifold]]) and such that the [[gluing functions]] which relate these Euclidean [[local charts]] to each other are [[differentiable functions]], for a fixed degree of differentiability. If one considers arbitrary differentiablity, then one speaks of _smooth manifolds_. For a general discussion see at _[[manifold]]_.
+
+Differential and smooth manifolds are the basis for much of [[differential geometry]]. They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].
+
+If one relaxes the condition of locally being isomorphic to a Euclidean space to admitting local smooth maps from a Euclidean space, then one obtains the concept of [[diffeological spaces]] or even [[smooth sets]], see at _[[generalized smooth space]]_ for more on this.
+
+The generalization of differentiable manifolds to [[higher differential geometry]] are [[orbifolds]] and more generally [[differentiable stacks]]. If one combines this with the generalization to [[smooth sets]] then one obtains the concept of [[smooth stacks]] and eventually [[smooth infinity-stacks]].
+
 
 
 ## Definition
@@ -350,6 +357,13 @@ For more see at _[[embedding of smooth manifolds into formal duals of R-algebras
 * [[infinite dimensional smooth manifold]]
 
 * [[pro-manifold]]
+
+* [[diffeological space]], [[smooth set]]
+
+* [[orbifold]]
+
+* [[differentiable stack]], [[smooth stack]], [[smooth infinity-stack]]
+
 
 * [differential cohesion -- structures - Cohesive manifolds (separated)](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#CohesivemanifoldsSeparated)
 
