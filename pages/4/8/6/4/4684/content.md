@@ -13,11 +13,105 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
-A _topological manifold_ is a [[manifold]] whose [[transition functions]] that are plain [[continuous functions]].
+## Idea
 
-One says _topological manifold_ to distinguish from other cases, such as [[smooth manifolds]].
+A _topological manifold_ is a [[topological space]] (usually required to be [[Hausdorff topological space|Hausdorff]] and [[paracompact topological space|paracompact]]) which is _locally_ [[homeomorphism|homeomorphic]] to a [[Euclidean space]] $\mathbb{R}^n$ equipped with its [[metric topology]].
 
-See at _[[manifold]]_ for more.
+Often one is interested in extra structure on topological manifolds, that make them for instance into [[differentiable manifolds]] or [[smooth manifolds]] or [[analytic manifolds]] or [[complex manifolds]], etc. See at _[[manifold]]_ for more on the general concept.
+
+## Definition
+
++-- {: .num_defn #TopologicalManifold}
+###### Definition
+**(topological manifold)**
+
+Let $n \in \mathbb{N}$ be a [[natural number]].
+
+A _topological manifold_ of _[[dimension]] $n$_ (also "$n$-fold") is 
+
+* a [[paracompact Hausdorff topological space]] $X$ 
+
+such that 
+
+* every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which is [[homeomorphism|homeomorphic]] to the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]].
+
+=--
+
+
++-- {: .num_defn #Charts}
+###### Definition
+**([[local chart]] and [[atlas]] and [[gluing function]])
+
+Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold}), then 
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/ChartsOfAManifold.png" width="400"> 
+</div>
+
+
+1. an [[open subset]] $U \subset X$ and a [[homeomorphism]] $\phi \colon \mathbb{R}^n \overset{\phantom{A}\simeq\phantom{A}}{\to} U$ is also called a _[[local coordinate chart]]_ of $X$.
+
+1. an [[open cover]] of $X$ by local charts $\left\{ \mathbb{R}^n \overset{\phi_i}{\to} U \subset X \right\}_{i \in I}$ is called an _[[atlas]]_ of the topological manifold.
+
+1. denoting for each $i,j \in I$ the [[intersection]] of the $i$th chart with the $j$th chart in such an atlas by
+
+   $$
+     U_{i j} \coloneqq U_i \cap U_j
+   $$ 
+
+   then the induced homeomorphism
+
+   $$
+     \mathbb{R}^n
+       \supset
+        \phantom{AA}
+     \phi_i^{-1}(U_{i j})
+       \overset{\phantom{A}\phi_i\phantom{A}}{\longrightarrow}
+     U_{i j}
+       \overset{\phantom{A}\phi_j^{-1}\phantom{A}}{\longrightarrow}
+     \phi_j^{-1}(U_{i j})
+       \phantom{AA}
+       \subset
+     \mathbb{R}^n
+   $$
+
+   is called the _[[gluing function]]_ from chart $i$ to chart $j$.
+
+> graphics grabbed from [[The Geometry of Physics - An Introduction|Frankel]]
+
+
+=--
+
++-- {: .num_defn #Differentiable manifold}
+###### Definition
+
+For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifold]]_ is 
+
+1. a [[topological manifold]] $X$ (def. \ref{TopologicalManifold});
+
+1. an [[atlas]] $\{\mathbb{R}^n \overset{\phi_i}{\to} X\}$ (def. \ref{Charts}) all whose [[gluing functions]]  are $p$ times continuously [[differentiable function|differentiable]].
+
+A $p$-fold [[differentiable function]] between $p$-fold differentiable manifolds $(X, \{\mathbb{R}^{n} \overset{\phi_i}{\to} U_i \subset X\}_{i \in I})$ and $(Y, \{\mathbb{R}^{n'} \overset{\spi_j}{\to} V_j \subset\}_{j \in J})$ is a [[continuous function]] $f \colon X \to Y$ such that for all $x \in X$ and charts $U_i \supset \{x\}$, $V_j \supset \{y\}$ then 
+
+$$
+  \psi_j^{-1} circ f \circ \phi_i 
+$$
+
+is $p$-fold differentiable. 
+
+For $p = \infty$ one speaks of [[smooth manifolds]] with [[smooth functions]] between them 
+
+=--
+
+
+## References
+
+* Wikipedia, _[Topological manifold](https://en.wikipedia.org/wiki/Topological_manifold)_
+
 
 [[!redirects topological manifolds]]
+
