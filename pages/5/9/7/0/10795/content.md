@@ -11,6 +11,8 @@ Given a [[commutative ring]] $R$, its _spectrum_ is the [[topological space]] wh
 
 ## Related concepts
 
+* [[projective spectrum]]
+
 * [[spectrum (geometry)]]
 
   * [[prime spectrum]]
