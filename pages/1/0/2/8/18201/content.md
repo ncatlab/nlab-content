@@ -22,17 +22,83 @@ Many important types of [[limits]] and [[colimits]] are over free diagrams, for 
 
 Due to the simplicity of the concept of free diagrams, these types of [[limits]] and [[colimits]] may be discussed in a very low-brow way, without even making the concept of _[[category]]_ and _[[functor]]_ explicit. For this see the _[Exposition](#Exposition)_ below.
 
-## Exposition 
- {#Exposition}
 
-We give an exposition of free diagrams, and their [[cones]] and [[limits]], intentionally avoiding abstract or sophisticated language, expressing everything just in components.
+## Definition
 
-For concreteness, we speak in the following of [[sets]]. We say "[[map]]" to mean _[[function]]_ between these.
-
+Recall that 
 
 +-- {: .num_defn #Diagram}
 ###### Definition
-**([[free diagram]])**
+**([[diagram]])**
+
+For $\mathcal{C}$ a [[category]], then a _[[diagram]] in $\mathcal{C}$_ is 
+
+1. a [[small category]] $\mathcal{I}$ , the _shape_ of the diagram;
+
+1. a [[functor]] $X_\bullet \;\colon\; \mathcal{I} \to \mathcal{C}$.
+
+=--
+
++-- {: .num_defn #FreeCategory}
+###### Definition
+**([[free category]])**
+
+There is a [[free-forgetful adjunction]]
+
+$$
+  Cat
+    \underoverset
+      {\underset{Underlying}{\longrightarrow}}
+      {\overset{Free}{\longleftarrow}}
+      {\bot}
+  DirGraph
+$$
+
+between the [[1-categories]] of [[categories]] and that of [[directed graphs]]. 
+
+A _[[free category]]_ is one in the [[image]] of this [[left adjoint]] functor $Free \colon DirGraph \to Cat$ (sometimes called a "[[path category]]").
+
+=--
+
+
++-- {: .num_defn #FreeDiagram}
+###### Definition
+**(free diagram)**
+
+A _[[free diagram]]_ in a [[category]] $\mathcal{C}$ is a [[diagram]] in $\mathcal{C}$ (def. \ref{Diagram}) whose shape is a [[free category]] (def. \ref{FreeCategory}). 
+
+In other words, a free diagram in $\mathcal{C}$ is
+
+1. a [[directed graph]] $I$;
+
+1. a [[functor]] of the form $X_\bullet \;\colon\; Free(I) \to \mathcal{C}$.
+
+=--
+
+## Examples
+
++-- {: .num_example}
+###### Example
+
+Types of free diagrams that are commonly encountered in practice, as well as the names of the [[limits]]/[[colimits]] over them are shown in the following table
+
+[[!include free diagrams -- table]]
+
+=--
+
+
+
+## Exposition 
+ {#Exposition}
+
+We give an exposition of free diagrams, and their [[cones]] and [[limits]], intentionally avoiding abstract category-theoretic language, expressing everything just in components. See also at _[[limits and colimits by example]]_.
+
+For concreteness, we speak in the following of [[sets]]. We say "[[map]]" to mean _[[function]]_ between these. 
+
+
++-- {: .num_defn #FreeDiagramInComponents}
+###### Definition
+**([[free diagram]] in components)**
 
 A _[[free diagram]]_ $X_\bullet$ of [[sets]] is 
 
@@ -229,7 +295,7 @@ $$
 ###### Definition
 **([[cone]] over a [[free diagram]])**
 
-Consider a [[free diagram]] (def. \ref{Diagram}) of sets 
+Consider a [[free diagram]] (def. \ref{FreeDiagramInComponents}) of sets 
 
 $$
   X_\bullet
@@ -361,7 +427,7 @@ $$
 ###### Definition
 **([[limit|limiting cone]] over a [[free diagram]])**
 
-Consider a [[free diagram]] of sets (def. \ref{Diagram}):
+Consider a [[free diagram]] of sets (def. \ref{FreeDiagramInComponents}):
 
 $$
   X_\bullet
@@ -505,7 +571,7 @@ $$
   \right\}_{i \in I, \alpha \in I_{i,j}}
 $$
 
-be a [[free diagram]] (def. \ref{Diagram}) of [[sets]]. Then
+be a [[free diagram]] (def. \ref{FreeDiagramInComponents}) of [[sets]]. Then
 
 1. its [[limit|limit cone]] (def. \ref{LimitingCone}) exists and is given by the following [[subset]] of the [[Cartesian product]] $\underset{i \in I}{\prod} X_i$ of all the [[sets]] $X_i$ appearing in the diagram
 
