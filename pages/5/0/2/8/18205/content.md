@@ -35,3 +35,4 @@ A [[topological space]] is called _sigma-compact_ if it is the [[union]] of a [[
 [[!redirects ∞-compact space]]
 [[!redirects ∞-compact spaces]]
 
+[[!redirects sigma-compact]]
