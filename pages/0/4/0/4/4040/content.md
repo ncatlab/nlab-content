@@ -20,6 +20,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
   
 * [[continuous function]], [[homeomorphism]]
 
+* [[topological embedding|embedding]]
+
 * [[open map]], [[closed map]]
 
 * [[sequence]], [[net]], [[sub-net]], [[filter]]
