@@ -1,0 +1,103 @@
+# Contents 
+* table of contents 
+{:toc} 
+
+## Statement and proof 
+
+There are a number of categorically-flavored ways of characterizing [[compact spaces]]; for example, as [[relational beta-modules]] $X$ where the beta-module structure $\xi: \beta(X) \to X$ is an [[entire relation]] (satisfies $1_{\beta(X)} \leq \xi^\circ \xi$). One of the more useful characterizations, as emphasized by Walter Tholen, is given by the following elementary statement: 
+
++-- {: .num_theorem #char} 
+###### Theorem 
+A [[topological space]] $X$ is compact if and only if for every space $Y$, the [[projection map]] $\pi: Y \times X \to Y$ is a [[closed map]]. 
+=-- 
+
+In this article we will collect a number of proofs and points of view on this result, and show how it makes possible a very direct hands-on proof of the [[Tychonoff theorem]], without the need for infrastructure such as ultrafilters or nets. This type of proof may be adapted for use in undergraduate classrooms. 
+
+The "only if" half is covered in essentially every textbook and should be routine for any working mathematician, although it seems proofs often use needlessly many indices and look as though they tacitly invoke the [[axiom of choice]]. Our proof should help circumvent that impression. 
+
++-- {: .num_prop} 
+###### Proposition 
+If $X, Y$ are spaces with $X$ compact, then $\pi: Y \times X \to Y$ is a closed map. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $C \subseteq Y \times X$ be a closed set; we must show the [[direct image]] $\pi(C)$ is closed in $Y$. Suppose $y \notin \pi(C)$; equivalently, suppose $\pi^{-1}(y) = \{y\} \times X$ does not intersect $C$. We want to find an open neighborhood $V$ of $y$ that does not intersect $\pi(C)$, or equivalently such that $(V \times X) \cap C = \emptyset$. Consider the collection of all open $U \subseteq X$ such that $(W \times U) \cap C = \emptyset$ for some open neighborhood $W$ of $y$. This collection covers $X$, since $(y, x) \notin C$ for every $x \in X$ and by closure of $C$ we can therefore find a neighborhood $W \times U$ of $(y, x)$ that doesn't intersect $C$. By compactness of $X$, this collection has a finite subcover, say $U_1, \ldots, U_n$. For each of these $U_i$ there is a corresponding $W_i$ such that $(W_i \times U_i) \cap C = \emptyset$ (in fact there is a unique largest such $W_i$: just take the union of all such). Now put $V = \bigcap_{i=1}^n W_i$. We have for each $i$ between $1$ and $n$ that $V \times U_i \subseteq W_i \times U_i \subseteq \neg C$, hence 
+
+$$V \times X = V \times \bigcup_{i=1}^n W_i = \bigcup_{i=1}^n V \times W_i \subseteq \neg C$$ 
+
+so that $(V \times X) \cap C = \emptyset$. 
+=-- 
+
+The "if" half is not quite so routine. We will first give a very direct proof that doesn't involve any fancy machinery (such as [[ultrafilters]]), although the fancy machinery does help give a better conceptual understanding of what is really going on, as we explain later. 
+
++-- {: .num_prop} 
+###### Proposition 
+If $X$ is a space with the property that the projection $\pi: Y \times X \to Y$ is a closed map for every space $Y$, then $X$ is compact. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Given a space $X$ satisfying this property, let $(C_i)_{i \in I}$ be any collection of closed sets of $X$ having the finite intersection property, that any intersection of finitely many $C_i$ is [[inhabited set|inhabited]]. Compactness of $X$ will follow if we can show $\bigcap_{i \in I} C_i$ is inhabited. 
+
+Given that collection, construct a space $Y$ whose underlying set is formed by adjoining a point $\infty$ to the underlying set of $X$ (let us write $Y = X \cup \{\infty\}$ by abuse of language), and topologized by taking subbasis elements to consist of any subset of $X$ and any subset of the form $C_i \cup \{\infty\}$. Let $K \subseteq Y \times X$ be the closure of the set $\Delta = \{(x, x): x \in X\}$. By hypothesis, $\pi(K)$ is closed in $Y$, and contains $X$. But it must also contain $\infty$ because the finite intersection property of the collection $(C_i)$ guarantees that $\infty$ is not an open point of $Y$. It follows that $K$ contains a point of the form $(\infty, x)$. 
+
+This means that every neighborhood $(C_i \cup \{\infty\}) \times U$ of $(\infty, x)$ intersects the diagonal $\Delta$ in an inhabited set. In other words, $C_i \cap U$ is inhabited. But this means that $x \in C_i$ for every $i$, for if $x \notin C_i$ for some $i$, then by closure of $C_i$ we could find an open neighborhood $U$ of $x$ such that $C_i \cap U = \emptyset$. Hence $x \in \bigcap_{i \in I} C_i$, making this intersection nonempty, as required. 
+=-- 
+
+(Note: I learned of this proof during an email exchange with [[Tom Leinster]], who in turn learned it from Ioan James.)
+
+## Tychonoff theorem 
+
+It has been observed that the closed-projection formulation of compactness allows a fairly efficient proof of the [[Tychonoff theorem]]. First a very routine lemma. 
+
++-- {: .num_lemma} 
+###### Lemma 
+Let $(X_i)_{i: I}$ be a family of spaces. Then for a point $x$ and subset $A$ of $\prod_{i: I} X_i$, we have $x \in Cl(A)$ if, for every finite $F \subseteq I$, we have $\pi_F(x) \in Cl(\pi_F(A))$ under the projection operator $\pi_F: \prod_{i: I} X_i \to \prod_{i: F} X_i$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Suppose $x \notin Cl(A)$, so that there is an open neighborhood $U$ of $x$ such that $U \cap A = \emptyset$. Sets of the form $\pi_i^{-1}(U_i)$ for open $U_i \subseteq X_i$ form a [[subbase|subbasis]] of the product topology, so there is a basis element $\pi_F^{-1}(V)$ (for some $V = U_1 \times \ldots \times U_n$) that is a neighborhood of $x$ and contained in $U$, so we have $A \cap \pi_F^{-1}(V) = \emptyset$ or $A \subseteq \neg \pi_F^{-1}(V) = \pi_F^{-1}(\neg V)$ or what is the same, $\pi_F(A) \subseteq \neg V$ or $\pi_F(A) \cap V = \emptyset$. Since $V$ is a neighborhood of $\pi_F(x)$ not intersecting $\pi_F(A)$, we conclude $\pi_F(x) \notin Cl(\pi_F(A))$. 
+=-- 
+
++-- {: .num_theorem} 
+###### Theorem 
+**(Tychonoff)** 
+The [[cartesian product]] of a small family of compact spaces with the product topology is again compact. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $(X_\alpha)_{\alpha \lt \kappa}$ be a family of compact spaces indexed by an [[ordinal]] $\kappa$. According to Theorem \ref{char}, it is enough to show that the projection 
+
+$$Y \times \prod_{\alpha \lt \kappa} X_\alpha \to Y$$ 
+
+is a closed map for any space $Y$. We do this by [[induction]] on $\kappa$. The case $\kappa = 0$ is trivial. 
+
+It will be convenient to introduce some notation. For $\gamma \leq \kappa$, let $X^\gamma$ denote the product $Y \times \prod_{\alpha \lt \gamma} X_\alpha$ (so $X^0 = Y$ in this notation), and for $\beta \leq \gamma$ let $\pi_\beta^\gamma: X^\gamma \to X^\beta$ be the obvious projection map. Let $K \subseteq X^\kappa$ be closed, and put $K_\beta \coloneqq Cl(\pi_{\beta}^\kappa(K))$. In particular $K_\kappa = K$ since $K$ is closed, and we are done if we show $\pi_0^\kappa(K) = K_0$. 
+
+Assume as inductive hypothesis that starting with any $x_0 \in K_0$ there is $x_\beta \in K_\beta$ such that whenever $\beta \lt \gamma \lt \kappa$, the compatibility condition $\pi_\beta^\gamma(x_\gamma) = x_\beta$ holds. In particular, $\pi_0^\beta(x_\beta) = x_0$ for all $\beta \lt \kappa$, and we are now trying to extend this up to $\kappa$. 
+
+If $\kappa = \beta + 1$ is a successor cardinal, then the projection 
+
+$$\pi_\beta^\kappa: X^\beta \times X_\beta \to X^\beta$$ 
+
+is a closed map since $X_\beta$ is compact. Thus $\pi_\beta^\kappa(K) = Cl(\pi_\beta^\kappa(K)) = K_\beta$ since $K$ is closed, so there exists $x_\kappa \in K$ with $\pi_\beta^\kappa(x_\kappa) = x_\beta$, and then 
+
+$$\pi_0^\kappa(x_\kappa) = \pi_0^\beta \pi_\beta^\kappa (x_\kappa) = \pi_0^\beta(x_\beta) = x_0$$ 
+
+as desired. 
+
+If $\kappa$ is a limit ordinal, then we may regard $X^\kappa$ as the [[inverse limit]] of spaces $(X^\beta)_{\beta \lt \kappa}$ with the obvious transition maps $\pi_\beta^\gamma$ between them. Hence the tuple $(x_\beta)_{\beta \lt \kappa}$ defines an element $x_\kappa$ of $X^\kappa$, and all that remains is to check that $x_\kappa \in K$. But since $K$ is closed, the lemma indicates it is sufficient to check that for every finite set $F$ of ordinals below $\kappa$, that $\pi_F(x_\kappa) \in Cl(\pi_F(K))$ (as a subspace of $\prod_{\alpha \in F} X_\alpha$). But for every such $F$ there is some $\beta \lt \kappa$ that dominates all the elements of $F$. One then checks 
+
+$$\pi_F(x_\kappa) = \pi_F^\beta \pi_\beta^\kappa(x_\kappa) = \pi_F^\beta(x_\beta) \in \pi_F^\beta(K_\beta) = \pi_F^\beta(Cl(\pi_\beta^\kappa(K))) \subseteq Cl(\pi_F^\beta \pi_\beta^\kappa(K)) = Cl(\pi_F(K))$$ 
+
+where the inclusion indicated as $\subseteq$ just results from continuity of $\pi_F^\beta$. This completes the proof. 
+=-- 
+
+
+
+## References 
+
+* [[Maria Manuel Clementino]] and [[Walter Tholen]], *Tychonoff's theorem in a category*, Proc. Amer. Math. Soc., Vol. 124 No. 11 (Nov. 1996), 3311-3314. ([pdf](http://www.ams.org/journals/proc/1996-124-11/S0002-9939-96-03435-1/S0002-9939-96-03435-1.pdf))
