@@ -53,7 +53,7 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 
 ##Properties
 
-* $a\backslash b=0$ iff $a\backslash b\leq O$ iff $a\leq b\vee 0$ iff $a\leq b$. In particular, $a\backslash a=0$.
+* $a\backslash b=0$ iff $a\backslash b\leq 0$ iff $a\leq b\vee 0$ iff $a\leq b$. In particular, $a\backslash a=0$.
 
 * As \_$\backslash x$ has a right adjoint it preserves colimits hence: $(a\vee b)\backslash x =(a\backslash x)\vee (b\backslash x)\quad$.
 
