@@ -8,7 +8,7 @@
 =--
 =--
 
-
+fmonom
 #Contents#
 * table of contents
 {:toc}
@@ -362,14 +362,35 @@ The [[forgetful functor]] $U$ from def. \ref{ForgetfulFunctorFromTopToSet} exhib
 =--
 
 
-### Mono-/Epimorphisms, Quotients and Intersections
+### Mono-/Epimorphisms
+ {#MonoEpiMorphisms}
 
-+-- {: .num_prop #SubspaceInclusionsAreRegularMonos} 
-###### Proposition 
++-- {: .num_prop #SubspaceInclusionsAreRegularMonos}
+###### Proposition
+**([[regular monomorphisms]] of [[topological spaces]])**
 
-The [[topological subspace]] inclusions, example \ref{TopologicalSubspace}, are precisely the [[regular monomorphisms]] in $Top$. 
+In the [[category]] [[Top]] of [[topological space]], 
 
-=-- 
+1. the [[monomorphisms]] are the those [[continuous functions]] which are [[injective functions]];
+
+1. the [[regular monomorphisms]] are the [[topological embeddings]] (i.e. those continuous functions which are [[homeomorphisms]] onto their [[images]] equipped with the [[subspace topology]]).
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+Regarding the first statement: An injective continuous function $f \colon X \to Y$ clearly has the cancellation propert that defines monomorpjisms: for parallel continuous functions $g_1,g_2 \colon Z \to X$: if $f \circ g_1 = f \circ g_1$, then $g_1 = g_2$ because continuous functions are equal precisely if their underlying functions of sets are equal. Conversely, if $f$ has the cacellation property, then testing on points $g_1, g_2 \colon \ast \to X$ gives that $f$ is injective.
+
+Regarding the second statement: from the construction of [[equalizers]] in [[Top]] (example \ref{EqualizerInTop}) we have that these are topological subspace inclusions.
+
+Conversely, let  $i \colon X \to Y$ be a [[topological subspace embedding]]. We need to show that this is the equalizer of some pair of parallel morphisms.
+
+To that end, form the [[cokernel pair]] $(i_1, i_2)$ by taking the [[pushout]] of $i$ against itself (in the category of sets, and using the [[quotient topology]] on a [[disjoint union space]]). By [this prop.](regular+monomorphism#RegEquEff), the equalizer of that pair is the set-theoretic equalizer of that pair of functions endowed with the [[subspace topology]]. Since monomorphisms in [[Set]] are regular, we get the function $i$ back, and again by example \ref{EqualizerInTop}, it gets equipped with the subspace topology. This completes the proof. 
+
+=--
+
+### Intersections and quotients
 
 +-- {: .num_lemma #pushout} 
 ###### Lemma 
