@@ -25,7 +25,7 @@ An _embedding of smooth manifolds_ is a [[smooth function]] $f : X \hookrightarr
 
 ### Whitney embedding theorem
 
-Every [[smooth manifold]] (of finite [[dimension]], [[Hausdorff space|Hausdorff]] and [[second countable space|second countable]]) has an embedding into a [[Cartesian space]].
+Every [[smooth manifold]] (of finite [[dimension]], [[Hausdorff space|Hausdorff]] and [[second countable space|second countable]]) has an embedding into a [[Cartesian space]]. ([[Whitney embedding theorem]])
 
 ## Space of Embeddings ##
 
@@ -142,6 +142,9 @@ Now we pick some embedding $\psi _{0} \colon M \to V$ which, by applying $S^{-}$
 =--
 
 ## References
+
+
+* Paul Rapoport, _Introduction to Immersion, Embeddingand the Whitney Embedding Theorem_, 2015 ([pdf](http://schapos.people.uic.edu/MATH549_Fall2015_files/Survey%20Paul.pdf))
 
 * Emery Thomas, _Embedding manifolds in Euclidean space_, Osaka Journal Mathematics 13 (1976) ([pdf](http://ir.library.osaka-u.ac.jp/metadb/up/LIBOJMK01/ojm13_01_12.pdf))
 
