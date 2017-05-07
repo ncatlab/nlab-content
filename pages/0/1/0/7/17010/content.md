@@ -298,6 +298,20 @@ In most cases of interest one is doing [[geometry]] using stereographic projecti
 
 * [[orthogonal group|orthogonal]] [[group action]] fixing $v,-v$ pointwise (note that these two points are sent to "$\infty$" and $0$, respectively, under $\sigma$)
 
+## Over other fields 
+
+Stereographic projection is a general [[algebraic geometry|geometric]] technique which can be applied to other [[commutative rings]] $k$ besides $k = \mathbb{R}$. We give a brief taste of this for the case of [[fields]]. For simplicity, we focus on [[conic sections]], i.e., solutions sets in the [[projective plane]] $\mathbb{P}^2(k)$ to [[polynomial|homogeneous polynomials]] of [[degree]] $2$. 
+
+Via stereographic projection, all *pointed*[^1] nonsingular conic sections $C \subset \mathbb{P}^2(k)$ are isomorphic and can be identified explicitly with a projective line $\mathbb{P}^1(k)$ by means of a [[stereographic projection]]. 
+
+Geometrically, if $p$ is the chosen basepoint of $C$ and $L \subset \mathbb{P}^2(k)$ is a line not incident to $p$, then for any other point $q$ of $C$ the unique line $L(p, q)$ incident to $p$ and $q$ intersects $L$ in exactly one point, denoted $\phi(q)$. (Here $\phi(p)$ to be the intersection of the _tangent_ to $p$ at $C$ with $L$; this can be considered the basepoint of $L$.) In the opposite direction, to each point $x$ of $L$, the line $L(p, x)$ intersects $C$ in $p$ and (since a quadratic with one root will also have another root) another point $q$ (which might be the same as $p$; this happens precisely when $L(p, x)$ is the tangent to $C$ at $p$); this gives the inverse $\phi^{-1}(x) = q$. In this way we obtain an isomorphism $\phi: C \to L$ of subvarieties. 
+
++-- {: .num_example #PythagoreanTriples} 
+###### Example 
+In the case $k = \mathbb{Q}$ and the conic $x^2 + y^2 = 1$, stereographic projection from the point $(-1, 0)$ to the line $x = 0$ ...
+=-- 
+
+
 ## Related entries
 
 * [[Riemann sphere]]
