@@ -3,12 +3,21 @@
 
 In [[logic]], **game semantics** is used to provide a semantic interpretation of logical constructions in terms of strategies for opposing players to win a game which corresponds to some proposition.
 
+##Related pages
+
+* [linear logic](linear+logic#game_semantics)
+
 ## References
 
 * Wilfred Hodges, 2013, _Logic and Games_, ([SEP](https://plato.stanford.edu/entries/logic-games/)) 
 
+* [[André Joyal]], 1977, _Remarques sur la th&#233;orie des jeux deux personnes_, Gazette des Sciences Math&#233;matiques du Qu&#233;bec 4, 46&#8211;52.
+
+* [[Robin Cockett]], [[Geoff Cruttwell]] and K. Saff, _Combinatorial Game Categories_, ([pdf](https://www.mta.ca/uploadedFiles/Community/Bios/Geoff_Cruttwell/CGC.pdf))
+
+
 For attempts to formulate a game semantics for dependent type theory, see
 
-* [[Matthijs Vakar]], [[Radha Jagadeesan]], [[Samson Abramsky]], _Game Semantics for Dependent Types_, ([pdf](https://users.ox.ac.uk/~magd3996/research/I%26C%20Submission.pdf))
+* [[Matthijs Vákár]], [[Radha Jagadeesan]], [[Samson Abramsky]], _Game Semantics for Dependent Types_, ([pdf](https://users.ox.ac.uk/~magd3996/research/I%26C%20Submission.pdf))
 
-* Norihiro Yamada, _Game Semantics for Martin-L&#246;f Type Theory, ([arXiv:1610.01669](https://arxiv.org/abs/1610.01669))
+* Norihiro Yamada, _Game Semantics for Martin-L&#246;f Type Theory_, ([arXiv:1610.01669](https://arxiv.org/abs/1610.01669))
