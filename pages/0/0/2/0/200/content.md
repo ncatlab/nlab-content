@@ -1,6 +1,49 @@
-_Ring_ is the category of [[rings]] (with unit) and ring [[homomorphisms]] (that preserve the unit).
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#The category $Ring$ or rings#
+* table of contents
+{:toc}
+
+## Definition
+
+_Ring_ is the category of [[rings]] (with [[unital ring|unit]]) and ring [[homomorphisms]] (that preserve the unit).
 
 A _ring_ is a [[monoid]] [[internalization|in]] [[Ab]], where $Ab$ is the category of [[abelian group|abelian groups]].  So, $Ring$ is an example of a category of [[internal monoids]].
+
+## Properties
+
+### Epi/Monomorphisms
+
+Every [[surjective function|surjective]] [[homomorphism]] of rings is an [[epimorphism]] in $Ring$, but not every epimorphism is surjective. 
+
+A counterexample is the defining inclusion $\mathbb{Z} \hookrightarrow \mathbb{Q}$ of the ring of [[integers]] into the ring of [[rational numbers]]. This is an injective epimorphism of rings.
+
+For more see for instance at [[Stacks Project]], _[10.106 Epimorphisms of rings](http://stacks.math.columbia.edu/tag/04VM)_.
+
+
+## Related categories
+
+* [[Mod]]
+
+* [[CRing]]
+
+## References
+
+* [[Stacks Project]], _[10.106 Epimorphisms of rings](http://stacks.math.columbia.edu/tag/04VM)_
 
 [[!redirects category of rings]]
 
