@@ -5,7 +5,11 @@
 
 ## Idea
 
-A [[cover]] by a [[finite set]] of patches
+A _finite cover_ is a [[cover]] by a [[finite set]] of patches.
+
+A _finite open cover_ is an [[open cover]] with a [[finite set]] of patches.
+Finite open covers appear in the definition of [[compact topological spaces]]
+
 
 ## Related concepts
 
@@ -16,3 +20,6 @@ A [[cover]] by a [[finite set]] of patches
 * [[compact topological space]]
 
 [[!redirects finite covers]]
+
+[[!redirects finite open cover]]
+[[!redirects finite open covers]]
