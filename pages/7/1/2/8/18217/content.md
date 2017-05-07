@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statetement
+
+Every [[rational function]] is a [[continuous function]] on its [[domain]] of definition.
+
+This follows directly from the fact that [[polynomial funcitons are continuous]]
+
+
+## References
+
+A proof using [[epsilontic analysis]] is spelled out for instance around corollary 3.16 here:
+
+* [pdf](https://www.math.ucdavis.edu/~hunter/m125a/intro_analysis_ch3.pdf)
+
+[[!redirects polynomials are continuous functions]]
+
