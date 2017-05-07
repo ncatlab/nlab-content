@@ -1,12 +1,4 @@
 
-[[Immersion.png:file]]
+[[StereographicProjection.png:file]]
 
-<img src="https://ncatlab.org/nlab/files/Immersion.png" width="300">
-
-[[Submersion.png:file]]
-
-<img src="https://ncatlab.org/nlab/files/Submersion.png" width="300">
-
-[[Figure8Immersion.png:file]]
-
-<img src="https://ncatlab.org/nlab/files/Figure8Immersion.png" width="300">
+<img src="https://ncatlab.org/nlab/files/StereographicProjection.png" >
