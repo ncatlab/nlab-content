@@ -21,7 +21,7 @@
 
 ## Idea
 
-An _infinitesimal extension_ of a [[ring]] $R$ is an [[epimorphism]] $\widehat R \to R$ whose [[kernel]] is a [[nilpotent ideal]], hence a nilpotent [[ring extension]].
+An _infinitesimal extension_ of a [[ring]] $R$ is [[quotient]] map $\widehat R \to R$ whose [[kernel]] is a [[nilpotent ideal]], hence a nilpotent [[ring extension]].
 
 If already the product of any two elements in the kernel is zero, this is also called a _square-zero extension_. See also at _[[tangent category]]_ and at _[[Mod]]_ for more on this.
 
