@@ -19,6 +19,9 @@
 
 Given a [[polynomial]] $P \in \mathbb{R}[X]$ over the [[real numbers]], we may regard it as a [[function]] $P \colon \mathbb{R} \longrightarrow \mathbb{R}$. If here $\mathbb{R}$ is regarded as a [[Euclidean space]] (equipped with its [[metric topology]]), then this is a [[continuous function]].
 
+## Related concepts
+
+* [[rational functions are continuous]]
 
 ## References
 
