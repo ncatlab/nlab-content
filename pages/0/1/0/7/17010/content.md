@@ -258,7 +258,9 @@ $$
 $$
 
 
-of [[open balls]] $B^\circ_x(\epsilon) \subset \mathbb{R}^{n+1}$ in the ambient Euclidean space. It is clear (...) that the images of these intersections in the equatorial hyperplane are open.
+of [[open balls]] $B^\circ_x(\epsilon) \subset \mathbb{R}^{n+1}$ in the ambient Euclidean space. 
+
+{#ItIsClearThat} It is clear (...) that the images of these intersections in the equatorial hyperplane are open.
 
 
 =--
