@@ -20,7 +20,7 @@ A _differentiable manifold_ is a [[topological space]] which is _locally_ [[home
 
 Differential and smooth manifolds are the basis for much of [[differential geometry]]. They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].
 
-If one relaxes the condition of locally being isomorphic to a Euclidean space to admitting local smooth maps from a Euclidean space, then one obtains the concept of [[diffeological spaces]] or even [[smooth sets]], see at _[[generalized smooth space]]_ for more on this.
+If one relaxes the condition from being locally isomorphic to a Euclidean space to admitting local smooth maps from a Euclidean space, then one obtains the concept of [[diffeological spaces]] or even [[smooth sets]], see at _[[generalized smooth space]]_ for more on this.
 
 The generalization of differentiable manifolds to [[higher differential geometry]] are [[orbifolds]] and more generally [[differentiable stacks]]. If one combines this with the generalization to [[smooth sets]] then one obtains the concept of [[smooth stacks]] and eventually [[smooth infinity-stacks]].
 
@@ -163,16 +163,25 @@ Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ 
 
 For $n \in \mathbb{N}$ then [[Cartesian space]] $\mathbb{R}^n$ equipped with the atlas consisting of the single [[chart]] $\mathbb{R}^n \overset{id}{\to} \mathbb{R}^n$ is a [[smooth manifold]], in particularly a $p$-fold differentiable manifold for every $p \in \mathbb{N}$ according to def. \ref{DifferentiableManifold}.
 
-Similarly the [[open disk]] $D^n$ becomes a [[smooth  manifold]] when equipped with the atlas whose single chart is the [[homeomoprhism]] $\mathbb{R}^n \to D^n$.
+Similarly the [[open disk]] $D^n$ becomes a [[smooth  manifold]] when equipped with the atlas whose single chart is the [[homeomorphism]] $\mathbb{R}^n \to D^n$.
 
 =--
 
 +-- {: .num_example}
 ###### Example
 
-For all $n \in \mathbb{N}$, the [[n-sphere]] $S^n$ becomes a smooth manfold, with [[atlas]] consisting of two [[local charts]], one covering a little bitmore than the upper [[hemisphere]], the other covering a little bit more than the lower hemisphere.
+For all $n \in \mathbb{N}$, the [[n-sphere]] $S^n$ becomes a smooth manfold, with [[atlas]] consisting of the two [[local charts]] that are given by the [[inverse functions]] of the [[stereographic projection]] from the two poles of the sphere onto the [[equator|equatorial]] hyperplane 
 
-(...)
+$$
+  \left\{
+     \mathbb{R}^n 
+       \underoverset{\simeq}{\sigma^{-1}_i}{\longrightarrow}
+     S^n
+  \right\}_{i \in \{+,-\}}
+  \,.
+$$
+
+By the formulas given in [this prop.](stereographic+projection#StandardStereographicProjection) the induced [[gluing function]] $\mathbb{R}^n \backslash \{0\} \to \mathbb{R}^n \backslash \{0\}$ is smooth.
 
 =--
 
@@ -188,9 +197,12 @@ For all $n \in \mathbb{N}$, the [[n-sphere]] $S^n$ becomes a smooth manfold, wit
 
 ## References
 
+* {#Schlichtkrull08} [[Henrik Schlichtkrull]], _Differentiable manifolds_, 2008 ([pdf](http://www.math.ku.dk/~jakobsen/geom2/manusgeom2.pdf))
+
 See also 
 
 * Wikipedia, _[Differentiable manifold](https://en.wikipedia.org/wiki/Differentiable_manifold)_
+
 
 
 [[!redirects differential manifold]]
