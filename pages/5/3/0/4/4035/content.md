@@ -14,7 +14,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -32,6 +32,8 @@ If an open cover has the property that all the $U_i$ and all of their finite non
 
 ## Related concepts
 
+* [[finite open cover]]
+
 * [[closed cover]]
 
 * [[schedule]]
@@ -42,3 +44,4 @@ If an open cover has the property that all the $U_i$ and all of their finite non
 
 [[!redirects open covering]]
 [[!redirects open coverings]]
+
