@@ -25,9 +25,9 @@
 
 $Diff$ (also called $Man$ or $Mfd$) is the [[category]] whose 
 
-* [[objects]] are ([[paracompact topological space|paracompact]]) [[smooth manifolds]];
+* [[objects]] are [[differentiable manifolds]] ([[smooth manifolds]]);
 
-* [[morphisms]] are [[smooth functions]] between these.
+* [[morphisms]] are [[differentiable functions]] ([[smooth functions]]) between these.
 
 
 =--
