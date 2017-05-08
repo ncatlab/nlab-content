@@ -19,6 +19,9 @@ In [[category theory]] concept of _epimorphism_ is a generalization or strengthe
 
 The [[formal duality|formally dual concept]] is that of _[[monomorphism]]_, similarly related to the concept of [[injective function]].
 
+Common jargon includes "is a mono" or "is monic" for "is a monomorphism", and "is an epi" or "is epic" for "is an epimorphism", and "is an iso" for "is an isomorphism".
+
+
 ## Definition
 
 A [[morphism]]  $f \colon X \to Y$ in some [[category]] is called an _epimorphism_ (sometimes abbrieviated to _epi_), or described as being _epic_, if for every other [[object]] $Z$ and every [[pair of parallel morphisms]] $g_1,g_2 \colon Y \to Z$ then 
