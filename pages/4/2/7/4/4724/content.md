@@ -17,17 +17,24 @@
 
 A _differentiable manifold_ is a [[topological space]] which is _locally_ [[homeomorphism|homeomorphic]] to a [[Euclidean space]] (a [[topological manifold]]) and such that the [[gluing functions]] which relate these Euclidean [[local charts]] to each other are [[differentiable functions]], for a fixed degree of differentiability. If one considers arbitrary differentiablity then one speaks of _[[smooth manifolds]]_ and if one demands [[analytic function|analytic]] gluing functions then one speaks of _[[analytic manifolds]]_. For a general discussion see at _[[manifold]]_.
 
+Accordingly, a differentiable manifold is a space to which the tools of ([[infinitesimal analysis|infinitesimal]]) [[analysis]] may be applied _locally_. 
+Notably we may ask whether a [[continuous function]] between differentiable manifolds is [[differentiation|differentiable]]
+by computing its [[derivatives]] pointwise in any of the Euclidean [[coordinate charts]]. 
 
-Differential and smooth manifolds are the basis for much of [[differential geometry]]. They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].
+In particular one may consider smooth functions from the [[real line]] into any smooth manifold $X$, "smooth curves" in $X$. The [[equivalence classes]] of these that have the same first [[derivative]] at a given point capture the idea of "infinitsimal smooth paths" through that point in the manifold, called its _[[tangent vectors]]_. All the tangent vectors at one point $x \in X$ constitute the [[tangent space]] $T_x X$, and the collection of all these tangent spaces yields another differentiable manifold, called the _[[tangent bundle]]_ $T X$. This happens to be a [[vector bundle]] which is [[associated bundle|associated]] to a [[principal bundle]], called the _[[frame bundle]]_ $Fr(X)$. 
 
-If one relaxes the condition from being locally isomorphic to a Euclidean space to admitting local smooth maps from a Euclidean space, then one obtains the concept of [[diffeological spaces]] or even [[smooth sets]], see at _[[generalized smooth space]]_ for more on this.
+By equipping the [[tangent bundle]] or [[frame bundle]] of a differentiable manifold with [[extra properties]] or [[extra structure]] one encodes _[[geometry]]_ on the manifold. For example equipping them with [[orthogonal structure]] encodes [[Riemannian geometry]] on manifolds. More generally one may consider any _[[G-structure]]_ on the frame bundle and thereby equip the manifold with the corresponding _[[Cartan geometry]]_, for instance _[[complex geometry]]_, _[[conformal geometry]]_ etc.
 
-The generalization of differentiable manifolds to [[higher differential geometry]] are [[orbifolds]] and more generally [[differentiable stacks]]. If one combines this with the generalization to [[smooth sets]] then one obtains the concept of [[smooth stacks]] and eventually [[smooth infinity-stacks]].
+This way differential and smooth manifolds are the basis for [[differential geometry]]. They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]]. In fact both of these concepts are unified within _[[synthetic differential geometry]]_.
+
+If one relaxes the condition on differentiable manifold from it being locally isomorphic to a Euclidean space to it just admitting local smooth maps from a Euclidean space, then one obtains the more general concept of [[diffeological spaces]] or even [[smooth sets]], see at _[[generalized smooth space]]_ for more on this. If one generalizes here [[differentiable functions]] to [[simplicial algebra|simplicial]] differentiable functions one obtains concepts of _[[derived smooth manifold]]_.
+
+The generalization of differentiable manifolds to [[higher differential geometry]] are [[orbifolds]] and more generally [[differentiable stacks]]. If one combines this with the generalization to [[smooth sets]] then one obtains the concept of [[smooth stacks]] and eventually [[smooth infinity-stacks]]. 
 
 
 ## Definition
 
-## Topological manifolds
+### Topological manifolds
 
 For convenience, we first recall here some background on [[topological manifolds]]:
 
@@ -153,13 +160,15 @@ such that
 
 Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ is the identity function. In this case the above exhibits a passage to a different, but equivalent, differentiable atlas.
 
+Hence there is a [[category]] [[Diff]]${}_p$ whose [[objects]] are $C^p$-[[differentiable manifolds]] and whose [[morphisms]] are $C^p$-[[differentiable functions]].
+
 =--
 
 ## Examples
 
 +-- {: .num_example #DifferentiableManifoldCartesianSpace}
 ###### Example
-**([[Cartesian space]])
+**([[Cartesian spaces]] as [[smooth manifolds]])
 
 For $n \in \mathbb{N}$ then [[Cartesian space]] $\mathbb{R}^n$ equipped with the atlas consisting of the single [[chart]] $\mathbb{R}^n \overset{id}{\to} \mathbb{R}^n$ is a [[smooth manifold]], in particularly a $p$-fold differentiable manifold for every $p \in \mathbb{N}$ according to def. \ref{DifferentiableManifold}.
 
@@ -169,6 +178,7 @@ Similarly the [[open disk]] $D^n$ becomes a [[smooth  manifold]] when equipped w
 
 +-- {: .num_example}
 ###### Example
+**([[n-spheres]] as [[smooth manifolds]])**
 
 For all $n \in \mathbb{N}$, the [[n-sphere]] $S^n$ becomes a smooth manfold, with [[atlas]] consisting of the two [[local charts]] that are given by the [[inverse functions]] of the [[stereographic projection]] from the two poles of the sphere onto the [[equator|equatorial]] hyperplane 
 
