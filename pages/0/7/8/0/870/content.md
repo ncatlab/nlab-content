@@ -82,11 +82,12 @@ In the [[foundations]] of [[constructive mathematics]], __De Morgan\'s Law__ usu
 $$ \neg(p \wedge q) \vdash \neg{p} \vee \neg{q} ,$$
 since every other aspect of the first two lines is already constructively valid, the claim that negation mediates the De Morgan self-duality already has a name (the [[double negation]] law, equivalent to the principle of [[excluded middle]]), and no other line involves only operators that appear in intuitionstic [[propositional calculus]].
 
+
 ## Related concepts
 
 * [[De Morgan algebra]]
 
-* [[exluded middle]]
+* [[excluded middle]]
 
 
 [[!redirects De Morgan duality]]
