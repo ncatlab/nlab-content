@@ -29,6 +29,8 @@ $$
 
 is called the _product topological space_ of the two original spaces.
 
+The [[formal duality|formally dual]] concept is that of [[disjoint union topological spaces]].
+
 More generally, consider any index [[set]] $I$ and an $I$-indexed set $\{X_i, \tau_i\}_{i \in I}$ of [[topological spaces]]. Then the _product topology_ $\tau_{prod}$ or _[[Tychonoff topology]]_ on the [[Cartesian product]] $\underset{i \in I}{\prod} X_i$ of underlying sets is equivalently
 
 1. the topology generated from the [[sub-base of a topology|sub-base]] given by products $\underset{i \in I}{\prod} U_i$ with $U_i \subset X_i$ open, but _all except one of the factors_ equal to the corresponding $X_i$, 
@@ -68,6 +70,61 @@ and hence in this case it does _not_ enjoy the [[universal property]] of the pro
 
 [[!include universal constructions of topological spaces -- table]]
 
+## Definition
+
++-- {: .num_defn #ProductTopologicalSpace}
+###### Definition
+
+Let $\{(X_i, \tau_i)\}_{i \in I}$ be a [[set]] of [[topological spaces]]. Then their _product topological space_ has as underlying set the [[Cartesian product]] $\underset{i \in I}{\prod} X_i$ of the underlying sets, and has as topology $\tau_{prod} \subset P(\underset{i \in I}{\prod} X_i)$ the [[coarse topology|coarsest topology]] such that all the [[projection]] maps
+
+$$
+   p_i 
+  \;\colon\;
+   \underset{i \in I}{\prod} X_i
+   \longrightarrow
+    X_i
+$$
+
+become [[continuous functions]] (calle the _Tychonoff topology_). 
+
+This means equivalently that $\tau_{prod}$ is the topology generated from the [[sub-base of a topology|sub-base]] 
+
+$$
+   \beta_{prod}
+   \;\coloneqq\;
+   \left\{
+      p_i^{-1}(U_i) \subset \underset{i \in I}{\prod} X_i
+      \;\vert\;
+      i \in I, U_i \subset X_i \, \text{open} 
+   \right\}
+   \,.
+$$
+
+=---
+
+Notice that 
+
+$$
+  p_i^{-1}(U_i)
+  =
+  U_i 
+  \times
+  \left(\underset{j \in I \backslash \{i\}}{\prod} X_j\right)
+$$
+
+and that 
+
+$$
+  p_i^{-1}(U_i)
+  \cap
+  p_j^{-1}(U_j)
+  =
+  U_i \times U_j
+  \times
+  \left(\underset{k \in I \backslash \{i,j\}}{\prod} X_k\right)
+$$
+
+etc.
 
 ## Examples
 
@@ -130,6 +187,18 @@ This image is the _[[Cantor space]]_ as a subspace of the closed interval.
 
 ## Properties
 
+### Universal property
+
+The product topological space construction from def. \ref{ProductTopologicalSpace} is the [[limit]] in [[Top]] over the [[discrete category|discrete]] [[diagram]] consisting of the factor spaces, hence the [[category theory|category theoretic]] [[product]]. 
+
+For **proof** see at [Top -- Universal constructions](Top#UniversalConstructions).
+
+### The Tychonoff theorem
+
+The [[Tychonoff theorem]] states that the product space of any set of [[compact topological spaces]] (with its Tychonoff topology) is itself compact.
+
+### Relation to singular (co)homology
+
 The [[singular homology]] of product topological spaces is informed by
 
 * [[Eilenberg-Zilber theorem]]
@@ -140,6 +209,13 @@ The [[singular homology]] of product topological spaces is informed by
 
 * [[tensor product of chain complexes]]
 
+## References
+
+The _Tychonoff topology_ is named after [[A. N. Tychonoff]].
+
+* [[Terence Tao]], _Notes on products of topological spaces_ ([pdf](http://www.math.ucla.edu/~tao/resource/general/121.1.00s/product.pdf))
+
+* [[Florian Herzig]], _Product topology_ ([pdf](http://www.math.toronto.edu/~herzig/MAT327-lecturenotes08.pdf))
 
 
 
@@ -147,3 +223,49 @@ The [[singular homology]] of product topological spaces is informed by
 
 [[!redirects product space]]
 [[!redirects product spaces]]
+
+
+[[!redirects Tychonoff product]]
+[[!redirects Tychonoff products]]
+[[!redirects Tychonov product]]
+[[!redirects Tychonov products]]
+[[!redirects Tykhonoff product]]
+[[!redirects Tykhonoff products]]
+[[!redirects Tykhonov product]]
+[[!redirects Tykhonov products]]
+[[!redirects Tichonoff product]]
+[[!redirects Tichonoff products]]
+[[!redirects Tichonov product]]
+[[!redirects Tichonov products]]
+[[!redirects Tikhonoff product]]
+[[!redirects Tikhonoff products]]
+[[!redirects Tikhonov product]]
+[[!redirects Tikhonov products]]
+[[!redirects Тиьонов product]]
+[[!redirects Тиьонов products]]
+
+[[!redirects Tychonoff topology]]
+[[!redirects Tychonoff topologies]]
+[[!redirects Tychonov topology]]
+[[!redirects Tychonov topologies]]
+[[!redirects Tykhonoff topology]]
+[[!redirects Tykhonoff topologies]]
+[[!redirects Tykhonov topology]]
+[[!redirects Tykhonov topologies]]
+[[!redirects Tichonoff topology]]
+[[!redirects Tichonoff topologies]]
+[[!redirects Tichonov topology]]
+[[!redirects Tichonov topologies]]
+[[!redirects Tikhonoff topology]]
+[[!redirects Tikhonoff topologies]]
+[[!redirects Tikhonov topology]]
+[[!redirects Tikhonov topologies]]
+[[!redirects Тиьонов topology]]
+[[!redirects Тиьонов topologies]]
+
+[[!redirects topological product]]
+[[!redirects topological products]]
+
+[[!redirects product topology]]
+[[!redirects product topologies]]
+
