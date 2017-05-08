@@ -24,7 +24,7 @@ Common jargon includes "is a mono" or "is monic" for "is a monomorphism", and "i
 
 ## Definition
 
-A [[morphism]]  $f \colon X \to Y$ in some [[category]] is called an _epimorphism_ (sometimes abbrieviated to _epi_), or described as being _epic_, if for every other [[object]] $Z$ and every [[pair of parallel morphisms]] $g_1,g_2 \colon Y \to Z$ then 
+A [[morphism]]  $f \colon X \to Y$ in some [[category]] is called an _epimorphism_ (sometimes abbrieviated to _epi_, or described as being _epic_), if for every other [[object]] $Z$ and every [[pair of parallel morphisms]] $g_1,g_2 \colon Y \to Z$ then 
 
 $$
   \left(
