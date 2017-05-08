@@ -18,6 +18,8 @@
 The notion of  _monomorphism_ is the generalization of the notion of _injective map of sets_ from the [[category]] [[Set]] to arbitrary [[category|categories]].
 
 The [[formal duality|formally dual]] concept is that of _[[epimorphism]]_, which similarly generalizes (or strengthens) the concept of [[surjective function]].
+
+Common jargon includes "is a mono" or "is monic" for "is a monomorphism", and "is an epi" or "is epic" for "is an epimorphism", and "is an iso" for "is an isomorphism".
  
 ## Definition
 
