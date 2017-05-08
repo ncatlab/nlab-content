@@ -138,7 +138,7 @@ $$
     \\
     & {}^{\mathllap{f_i}}\swarrow && \searrow^{\mathrlap{f_j}} 
     \\
-    X_i && \underset{}{\longrightarrow} && X_i
+    X_i && \underset{}{\longrightarrow} && X_j
   }
 $$
 
