@@ -97,10 +97,13 @@ In classical mathematics, at least, formulas with unbounded quantifiers can be c
 * [[universal quantifier]], [[dependent product]]
 
 ## Related concepts
+ {#RelatedConcepts}
 
 * [[de dicto and de re]]
 
 * [[Lévy hierarchy]]
+
+* [[elimination of quantifiers]]
 
 ## References
 
