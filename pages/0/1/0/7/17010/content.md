@@ -249,19 +249,7 @@ $$
   \right)
 $$
 
-So far we have shown that stereographic projection is a bijective continuous function as claimed. To conclude that this is a homeomorphism, it is now sufficient to see that the [[inverse function]] of $\sigma$ is also continuous, hence that $\sigma$ itself  (under taking [[images]]) sends open subsets of $S^n \backslash \{p\}$ to open subsets of $\mathbb{R}^n$.
-
-Since taking images preserves unions, it is sufficient to check this on the canonical [[base for the topology]], which is given by those subsets that are intersections 
-
-$$
-  B^\circ_x(\epsilon) \cap S^n \backslash \{p\}
-$$
-
-
-of [[open balls]] $B^\circ_x(\epsilon) \subset \mathbb{R}^{n+1}$ in the ambient Euclidean space. 
-
-{#ItIsClearThat} It is clear (...) that the images of these intersections in the equatorial hyperplane are open.
-
+In particular therefore also an [[inverse function]] to the stereographic projection exists and is a [[rational function]], hence continuous. So we have exhibited a homeomorphism as required.
 
 =--
 
