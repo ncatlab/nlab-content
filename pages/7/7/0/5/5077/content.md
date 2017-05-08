@@ -59,6 +59,10 @@ For the strong topology in functional analysis, see the [[strong operator topolo
 
 The original version of this article was posted by [[Vishal Lama]] at [[nlabmeta:induced topology]].
 
+See also
+
+* Wikipedia, _[Initial topology](https://en.wikipedia.org/wiki/Initial_topology)_, _[Final topology](https://en.wikipedia.org/wiki/Final_topology)_, 
+
 
 [[!redirects weak topology]]
 [[!redirects weak topologies]]
