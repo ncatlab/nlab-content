@@ -208,3 +208,5 @@ This coverage is *not* in general a [[basis for the Grothendieck topology]], bec
 [[!redirects fundamental systems of neighbourhoods]]
 
 
+[[!redirects sub-base for a topology]]
+[[!redirects sub-bases for a topology]]
