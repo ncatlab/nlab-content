@@ -459,7 +459,7 @@ This means that we may take for instance $\delta \coloneqq \epsilon$.
 
 +-- {: .num_example #PolynoialsAreContinuous}
 ###### Example
-**([[polynomials are continuous functions]])**
+**([[rational functions are continuous]])**
 
 Consider the [[real line]] $\mathbb{R}$ regarded as the
 1-dimensional [[Euclidean space]] $\mathbb{R}$ from example \ref{EuclideanNorm}.
@@ -475,12 +475,14 @@ $$
 $$
 
 is a [[continuous function]] in the sense of def. \ref{EpsilonDeltaDefinitionOfContinuity}.
+Hence [[polynomials are continuous functions]].
 
-Similarly for instance
+Similarly [[rational functions are continuous]] on their [[domain]] of definition:
+for $P,Q \in \mathbb{R}[X]$ two polynomials, then $\frac{f_P}{f_Q} \colon \mathbb{R} \backslash \{x | f_Q(x) = 0\} \to \mathbb{R}$
+is a continuous function.
 
-* forming the [[square root]] is a continuous function $\sqrt(-) \colon \mathbb{R}_{\geq 0} \to \mathbb{R}_{\geq 0}$;
+Also for instance forming the [[square root]] is a continuous function $\sqrt(-) \colon \mathbb{R}_{\geq 0} \to \mathbb{R}_{\geq 0}$.
 
-* forming the multiplicativ inverse is a continuous function $1/(-) \;\colon\; \mathbb{R}_{\gt 0} \to \mathbb{R}_{\gt 0}$.
 
 =--
 
@@ -6504,7 +6506,7 @@ Then
 ###### Example
 **([[equalizer]])**
 
-Let 
+Let
 
 $$
   X_1
@@ -6612,7 +6614,7 @@ be a [[free diagram]] of sets  (def. \ref{Diagram}). Then
      \underset{\longleftarrow}{\lim}_{i} X_i
      \;\simeq\;
      \left\{
-       (x_i)_{i \in I} 
+       (x_i)_{i \in I}
        \,\vert\,
        \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\forall}
        \left(
@@ -6622,7 +6624,7 @@ be a [[free diagram]] of sets  (def. \ref{Diagram}). Then
    $$
 
    and the projection functions are $p_i \colon (x_j)_{j \in I} \mapsto x_i$.
-         
+
 1. its [[colimit|colimiting co-cone]] (def. \ref{LimitingCone}) is given by the [[quotient set]] of the [[disjoint union]] $\underset{i \in I}{\sqcup} X_i$ of all the [[sets]] $X_i$ appearing in the diagram
 
    $$
@@ -6652,7 +6654,7 @@ be a [[free diagram]] of sets  (def. \ref{Diagram}). Then
    $$
 
    and the injection functions are the evident maps to [[equivalence classes]]:
-   
+
    $$
      q_i \;\colon\; x_i \mapsto [x_i]
      \,.
@@ -6697,7 +6699,7 @@ $$
     & {}^{\mathllap{p'_i}}\swarrow && \searrow^{\mathrlap{p'_j}}
     \\
     X_i
-      && \underset{f_\alpha}{\longrightarrow} && 
+      && \underset{f_\alpha}{\longrightarrow} &&
     X_j
   }
   \,.
@@ -6708,7 +6710,7 @@ then $f_\alpha(x'_i) = x'_j$. But this is precisely the relation used in the con
 is a unique map
 
 $$
-  \ast 
+  \ast
     \longrightarrow
      \left\{
        (x_k)_{k \in I}
@@ -6727,7 +6729,7 @@ $$
     \ast
     \\
     \downarrow & \searrow^{\mathrlap{p'_i}}
-    \\   
+    \\
      \left\{
        (x_k)_{k \in I}
        \,\vert\,
@@ -6743,7 +6745,7 @@ $$
 
 namely that map is the one that picks the element $(x'_i)_{i \in I}$.
 
-This shows that every cone with tip a singleton factors uniquely through the claimed limiting cone. But 
+This shows that every cone with tip a singleton factors uniquely through the claimed limiting cone. But
 then for a cone with tip an arbitrary set $Y$, this same argument applies to all the single elements of $Y$.
 
 =--
