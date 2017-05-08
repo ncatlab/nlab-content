@@ -10,7 +10,7 @@ A [[sheaf of vertex operator algebras]] (in fact a [[vertex operator algebroid]]
 
 ## Properties
 
-### Fine resolutuion
+### Fine resolution
 
 The chiral de Rham complex [[sheaf of vertex operator algebras]] as a [[resolution]] to a [[fine sheaf]] by the _[[chiral Dolbeault complex]]_ ([Cheung 10](#Cheung10)).
 
