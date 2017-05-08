@@ -308,7 +308,13 @@ Geometrically, if $p$ is the chosen basepoint of $C$ and $L \subset \mathbb{P}^2
 
 +-- {: .num_example #PythagoreanTriples} 
 ###### Example 
-In the case $k = \mathbb{Q}$ and the conic $x^2 + y^2 = 1$, stereographic projection from the point $(-1, 0)$ to the line $x = 0$ ...
+For the case $k = \mathbb{Q}$ and the rational conic $C = \{(x, y) \in \mathbb{Q} \times \mathbb{Q}: x^2 + y^2 = 1\}$, stereographic projection from the point $(-1, 0)$ on $C$ to the rational line $x = 0$ defines an isomorphism of [[algebraic varieties]] $C \to \mathbb{P}^1(\mathbb{Q})$. As the calculations above show, its inverse takes $(0, t)$ (for $t \in \mathbb{Q}$) to $(\frac{1 - t^2}{1 + t^2}, \frac{2 t}{1 + t^2})$. 
+
+A Pythagorean triple is a triple of integers $(a, b, c)$ such that $a^2 + b^2 = c^2$, so that $(\frac{a}{c}, \frac{b}{c})$ lies on $C$. The isomorphism indicates that for each such point on $C$ (written as a pair of fractions in reduced form), there is a rational number $t = \frac{p}{q}$ (again in reduced form) so that 
+
+$$\frac{a}{c} = \frac{1 - t^2}{1 + t^2} = \frac{q^2 - p^2}{q^2 + p^2}, \qquad \frac{b}{c} = \frac{2 t}{1 + t^2} = \frac{2 p q}{q^2 + p^2}.$$ 
+
+If we assume $a, b, c$ are coprime, and further (re)arrange the triple so that $a$ is odd and $b$ is even, one may quickly conclude from the first of this pair of equations that $p, q$ must have opposite parity. A little further argumentation then shows $q^2 - p^2, 2 p q, q^2 + p^2$ must be mutually coprime, so that in fact $a = q^2 - p^2, b = 2 p q$, and $c = q^2 + p^2$. Thus we arrive at the classical parametrization of Pythagorean triples, essentially on the basis of the geometry of stereographic projection! 
 =-- 
 
 
