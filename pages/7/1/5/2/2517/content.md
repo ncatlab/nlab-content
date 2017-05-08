@@ -54,7 +54,7 @@ $$
 given by 
 
 $$
-  (x,d) \mapsto  (\epsilon \mapsto x + d \epsilon)
+  (x,d) \mapsto  (\epsilon \mapsto x + \epsilon d)
 $$
 
 is an [[isomorphism]].
@@ -64,10 +64,10 @@ is an [[isomorphism]].
  {#ForWeilAlgebras}
 
 We  can consider the [[internalization|internal]] $R$-algebra object
-$R \oplus \epsilon R := (R \times R, \cdot, +)$ in $T$, whose underlying object is
-$R \times R$, with addition $(x,q)+(x',q'):=(x+x',q+q')$ and multiplication $(x, q ) \cdot (x', q') = (x x',x q ' + q x')$.
+$R \oplus \epsilon R \coloneqq (R \times R, \cdot, +)$ in $T$, whose underlying object is
+$R \times R$, with addition $(x,q)+(x',q') \coloneqq (x+x',q+q')$ and multiplication $(x, q ) \cdot (x', q') = (x x',x q ' + q x')$.
 
-For $A$ an algebra object in $T$, write $Spec_R(A) := Hom_{R Alg(T)}(A,R) \subset R^A$
+For $A$ an algebra object in $T$, write $Spec_R(A) \coloneqq Hom_{R Alg(T)}(A,R) \subset R^A$
 for the object of $R$-algebra homomorphisms from $A$ to $R$.
 
 Then one checks that
@@ -81,7 +81,7 @@ The element $q \in D \subset R$, $q^2 = 0$ corresponds to the algebra homomorphi
 $(a,d) \mapsto a + q d$.
 
 Using this, we can rephrase the standard Kock--Lawvere axiom by saying that the
-canonical moprhism
+canonical morphism
 
 $$
   R \oplus \epsilon R \to R^{Spec_R(R \oplus \epsilon R)}
@@ -89,7 +89,7 @@ $$
 
 is an [[isomorphism]].
 
-Notice that $(R \oplus \epsilon R)$ is a [[Weil algebra]]/[[Artin algebra]]:
+Notice that $(R \oplus \epsilon R)$ is a [[infinitesimally thickened point|Weil algebra]]/[[Artin algebra]]:
 
 an $R$-algebra
 that is finite dimensional and whose underlying [[ring]] is a local ring, i.e.
