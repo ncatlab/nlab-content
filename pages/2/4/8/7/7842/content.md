@@ -1,5 +1,5 @@
 
-Augustus de Morgan is a 19th-century mathematician and logician most famous for the [[de Morgan laws]], even though he did not formulate them.  He did, however, contribute (along with [[George Boole]], [[Charles Peirce]], etc) to the work of making [[logic]] into a mathematical discipline.
+Augustus De Morgan is a 19th-century mathematician and logician most famous for the [[De Morgan laws]], even though he did not formulate them.  He did, however, contribute (along with [[George Boole]], [[Charles Peirce]], etc) to the work of making [[logic]] into a mathematical discipline.
 
 
 ## Quotations
@@ -10,3 +10,6 @@ Augustus de Morgan is a 19th-century mathematician and logician most famous for 
 
 
 category: people
+
+[[!redirects Augustus De Morgan]]
+[[!redirects Augustus de Morgan]]
