@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -12,27 +13,22 @@
 =--
 =--
 
-
 # Contents
 * automatic table of contents goes here
-{:toc}
-
-[[!redirects demorgan topos]]
-[[!redirects de Morgan topos]]
-[[!redirects De Morganisation]]
-[[!redirects De Morgan toposes]]
-[[!redirects de Morgan toposes]]
-[[!redirects DeMorgan topos]]
+{: toc}
 
 
 ## Idea
+
 A **De Morgan topos** $\mathcal{E}$ is a middle thing between a [[Boolean topos]] with a [[classical logic|classical internal logic]] and a general [[topos]] with an [[intuitionistic logic|intuitionistic internal logic]], in that the lattices of [[subobjects]] in $\mathcal{E}$ obey a weak form of the [[law of excluded middle]] which defines a [[De Morgan algebra]].
 
 The de Morgan property has many equivalent formulations and many facets making the class of de Morgan toposes an important one in [[topos theory]]. From the perspective on toposes as generalized spaces they correspond to _extremally disconnected spaces_ in [[topology]].
 
+
 ## Definition
 
-A topos $\mathcal{E}$ is called a _De Morgan topos_ if its [[subobject classifier]] $\Omega$ is an internal [[De Morgan algebra]].
+A topos $\mathcal{E}$ is called a __De Morgan topos__ if its [[subobject classifier]] $\Omega$ is an internal [[De Morgan algebra]].
+
 
 ## Examples
 
@@ -43,6 +39,7 @@ A topos $\mathcal{E}$ is called a _De Morgan topos_ if its [[subobject classifie
 * The topos $Sh(X)$ of sheaves on a topological space $X$ is De Morgan precisely iff $X$ is extremally disconnected, i.e. the closure of every open subset is open. (Since $Set^{\to}$ is equivalently the topos of sheaves on [[Sierpinski space]] it instantiates this case as well.)
 
 * [[injective topos|Injective Grothendieck toposes]] are De Morgan (cf. [Johnstone 2002, p.739](#Johnstone)).
+
 
 ## Some equivalent formulations
 
@@ -81,6 +78,7 @@ Let $\mathcal{E}$ be a topos. The following are equivalent:
 
 The first few equivalences are based mainly on the validity of the "law of excluded middle" for elements of the form $\neg a$ in any [[De Morgan algebra]]. For the rest see e.g. [Johnstone (2002, pp.999-1000)](#Johnstone).
 
+
 ## Properties
 
 The following shows that 'being De Morgan' is a _local property_ i.e. stable under slicing. This is immediate from the fact that the functor $\mathcal{E}\to\mathcal{E}/A$ sending $X$ to the projection $p_A: X\times A\to A$ is [[logical functor|logical]] hence preserves the various equivalent formulations of De Morgan's law.
@@ -98,6 +96,7 @@ Let $\mathcal{C}$ be a small category. The [[presheaf topos]] $Set^{\mathcal{C}^
 This result due to [[Peter Johnstone]] appears e.g. in [Johnstone (1979)](#Johnstone79). Compare also the generalizations in [Kock-Reyes (1994)](#KR94) and [Caramello (2012)](#Caramello12).
 
 Since the [[dense topology]] coincides with the [[atomic site|atomic topology]] on $\mathcal{C}$ satisfying the Ore condition the preceding proposition implies that the [[double negation|double negation subtopos]] of a De Morgan presheaf topos $Set^{\mathcal{C}^{op}}$ is always [[atomic topos|atomic]].
+
 
 ### De Morganization
 
@@ -119,11 +118,13 @@ In analogy with [[skeletal geometric morphism|skeletal geometric morphisms]] tha
 A topos $\mathcal{E}$ is De Morgan iff every geometric morphism $\mathcal{F}\to\mathcal{E}$ is $m$-skeletal. $\qed$
 =--
 
+
 ### The Gleason cover
 
 Another way to associate a De Morgan topos to an arbitrary topos $\mathcal{E}$ was proposed by [[Peter Johnstone]] in the late 70s (Johnstone [1979b](#Johnstone79b), [1980](#J80)). The so called _Gleason cover_ $\gamma\mathcal{E}$ of $\mathcal{E}$ generalizes a construction in [[topology]] that covers an arbitrary [[space]] by an extremally disconnected topological space.
 
 ......
+
 
 ### Relation to cohesion
 
@@ -149,6 +150,7 @@ A topos $\mathcal{E}$ is locally homotopically trivial iff $\mathcal{E}$ is a De
 
 For situations where subobjects of $1$ generate see e.g. [Johnstone (1977, sec.5.3 pp.145ff)](#Johnstone77). For a [[Grothendieck topos]] $\mathcal{E}$, this happens precisely when $\mathcal{E}$ is equivalent to $Sh(L)$ for some [[locale]] $L$. From e.g. [Borceux (1994, p.443)](#Borceux94) it follows then that $Sh(L)$ _is homotopically trivial_ precisely when $L$ is a _De Morgan locale_.
 
+
 ### Relation to model theory
 
 ....
@@ -160,6 +162,7 @@ Let $\mathcal{T}$ be a coherent theory. Then $\mathcal{T}$ admits a [[model comp
 
 This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is attributed to a preprint of [[André Joyal]] and [[Gonzalo E. Reyes]].
 
+
 ## Related entries
 
 * [[De Morganization]]
@@ -169,6 +172,7 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 * [[Boolean topos]]
 * [[law of excluded middle]]
 * [[skeletal geometric morphism]]
+
 
 ## References
 
@@ -219,3 +223,20 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 * {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
 
 * M. E. Szabo, _Categorical De Morgan laws_ , Alg. Universalis **12** (1981) pp.93-102.
+
+
+[[!redirects De Morgan topos]]
+[[!redirects de Morgan topos]]
+[[!redirects De Morgan topoi]]
+[[!redirects de Morgan topoi]]
+[[!redirects De Morgan toposes]]
+[[!redirects de Morgan toposes]]
+
+[[!redirects DeMorgan topos]]
+[[!redirects demorgan topos]]
+[[!redirects De Morgan Topos]]
+
+[[!redirects De Morganization]]
+[[!redirects De Morganisation]]
+[[!redirects De Morganizations]]
+[[!redirects De Morganisations]]
