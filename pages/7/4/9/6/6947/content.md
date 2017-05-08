@@ -150,6 +150,8 @@ Notice that before the $(-1)$-truncation the operation remembers not just _that_
 
 * [[possibility]]
 
+* [[elimination of quantifiers]]
+
 ## References
 
 The observation that [[substitution]] forms an [[adjoint pair]]/[[adjoint triple]] with the existantial/universal quantifiers is due to
