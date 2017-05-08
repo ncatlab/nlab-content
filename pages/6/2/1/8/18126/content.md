@@ -17,7 +17,7 @@ In passing, some basics of [[category theory]] make an informal appearance,
 used to transparently summarize some conceptually important aspects of the theory, such as
 [[initial topology|initial]] and [[final topologies]] and the [[reflective subcategory|reflection]] into
 [[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]].
-We close with discussion of the basics of [[topological manifolds]] and [[differentiable manifolds]], 
+We close with discussion of the basics of [[topological manifolds]] and [[differentiable manifolds]],
 laying the foundations for [[differential geometry]].
 The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
 and ends with their first application to the classification of [[covering spaces]].
@@ -6051,6 +6051,18 @@ A _[[free diagram]]_ $X_\bullet$ of [[sets]] or of [[topological spaces]] is
 
 =--
 
+$\,$
+
+{#FreeDiagramsExamples} Here is a list of basic and important examples of free diagrams
+
+* _discrete diagrams and the empty diagram_ (example \ref{DiscreteDiagram});
+
+* _pairs of parallel morphisms_ (example \ref{ParallelMorphisms});
+
+* _span and cospan diagram_ (example \ref{SpanDiagram});
+
+* _tower and cotower diagram_ (example \ref{TowerDiagram}).
+
 
 +-- {: .num_example #DiscreteDiagram}
 ###### Example
@@ -6161,7 +6173,7 @@ $$
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #TowerDiagram}
 ###### Example
 **([[tower]] [[diagram]])**
 
@@ -6489,9 +6501,9 @@ Then
 
 $\,$
 
-All the limits and colimits over the free diagram in the above list of examples have special names:
-
-
+We now briefly mention the names and comment on the general nature of the limits and colimits over the free diagrams
+from the list of examples [above](#FreeDiagramsExamples). Further [below](#UniversalConstructionsExamples)
+we discuss examples in more detail.
 
 [[!include free diagrams -- table]]
 
@@ -6502,12 +6514,13 @@ All the limits and colimits over the free diagram in the above list of examples 
 Consider the [[empty diagram]] (def. \ref{DiscreteDiagram}).
 
 1. A [[cone]] over the empty diagram is just an object $X$, with no further structure or condition.
-The [[universal property]] of the [[limit]] "$\ast$" over the empty diagram is hence that
-for every object $X$, there is a unique map of the form $X \to \ast$. Such an object $\ast$ is called a _[[terminal object]]_.
+The [[universal property]] of the [[limit]] "$\top$" over the empty diagram is hence that
+for every object $X$, there is a unique map of the form $X \to \top$, with no further condition. 
+Such an object $\top$ is called a _[[terminal object]]_.
 
 1. A [[co-cone]] over the empty diagram is just an object $X$, with no further structure or condition.
-The [[universal property]] of the [[colimit]] "$0$" over the empty diagram is hence that
-for every object $X$, there is a unique map of the form $0 \to X$. Such an object $\ast$ is called a _[[initial object]]_.
+The [[universal property]] of the [[colimit]] "$\bot$" over the empty diagram is hence that
+for every object $X$, there is a unique map of the form $\bot \to X$. Such an object $\bot$ is called an _[[initial object]]_.
 
 =--
 
@@ -6521,7 +6534,7 @@ i.e. just a set of objects.
 
 1. The [[limit]] over this diagram is called the _[[Cartesian product]]_, denoted $\underset{i \in I}{\prod} X_i$;
 
-1. The [[colimit]] over this diagram is called the _[[coproducts]]_, denoted $\underset{i \in I}{\coprod} X_i$.
+1. The [[colimit]] over this diagram is called the _[[coproduct]]_, denoted $\underset{i \in I}{\coprod} X_i$.
 
 
 =--
@@ -6669,15 +6682,17 @@ $$
 
 $\,$
 
-
-Here is a more explicit description of the limiting cone over a diagram of sets:
+Often the defining [[universal property]] of a limit/colimit construction is all that one 
+wants to know. But sometimes it is useful to have an explicit description of the limits/colimits, 
+not the least because this proves that these actually exist.
+Here is the explicit description of the (co-)limiting cone over a diagram of sets:
 
 
 +-- {: .num_prop #SetLimits}
 ###### Proposition
 **([limits and colimits of sets](limits+and+colimits+by+example#limcoliminset))**
 
-Let 
+Let
 
 $$
   \left\{ X_i \overset{f_\alpha}{\longrightarrow} X_j \right\}_{i,j \in I, \alpha \in I_{i,j}}
@@ -6789,8 +6804,9 @@ $$
       && \underset{f_\alpha}{\longrightarrow} &&
     X_j
   }
-  \;\;\;\;\; =
-  \;\;\;\;\;
+  \phantom{AAAAA} 
+    =
+  \phantom{AAAAA}
   \array{
     && \ast
     \\
@@ -6803,13 +6819,13 @@ $$
   \,.
 $$
 
-As shown on the right, the data in such a cone is equivantly for each $i \in I$ an element $x'_i \in X_i$, such that for all $i, j \in I$ and $\alpha \in I_{i,j}$
+As shown on the right, the data in such a cone is equivantly: for each $i \in I$ an element $x'_i \in X_i$, such that for all $i, j \in I$ and $\alpha \in I_{i,j}$
 then $f_\alpha(x'_i) = x'_j$. But this is precisely the relation used in the construction of the limit above and hence there
 is a unique map
 
 $$
   \ast
-    \longrightarrow
+    \overset{(x'_i)_{i \in I}}{\longrightarrow}
      \left\{
        (x_k)_{k \in I}
        \,\vert\,
@@ -6857,27 +6873,45 @@ of underlying sets, and then equipping the result with a topology as follows:
 ###### Definition
 **([[initial topology]] and [[final topology]])**
 
-Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological spaces]], and let $S \in Set$ be a bare [[set]]. Then
+Let $\{(X_i, \tau_i)\}_{i \in I}$ be a [[set]] of [[topological spaces]], and let $S$ be a bare [[set]]. Then
 
 * For
 
   $$
-    \{S \overset{\phantom{AA}f_i\phantom{AA}}{\longrightarrow} S_i \}_{i \in I}
+    \{S \overset{\phantom{AA}p_i\phantom{AA}}{\longrightarrow} X_i \}_{i \in I}
   $$
 
-  a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{f_i\}_{i \in I})$ is the
-  [[coarse topology|coarsest]] topology on $S$ (def. \ref{InitialAndFinalTopologies}) such that all $f_i \colon (S,\tau_{initial}(\{f_i\}_{i \in I})) \longrightarrow X_i$ are [[continuous function|continuous]].
-
+  a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{p_i\}_{i \in I})$ is the
+  [[coarse topology|coarsest]] topology on $S$ (def. \ref{InitialAndFinalTopologies}) such that all $f_i \colon (S,\tau_{initial}(\{p_i\}_{i \in I})) \longrightarrow X_i$ are [[continuous function|continuous]].
+  
+  By lemma \ref{RecognizingTopologicalBasis} this is equivalently
+  the topology whose open subsets are the unions of finite intersections of the preimages of the open subsets of the 
+  component spaces under the projection maps, hence the topology generated from the [[sub-base for a topology|sub-base]]
+  $$
+    \beta_{ini}(\{p_i\} )
+      = 
+    \left\{ 
+      p_i^{-1}(U_i)
+      \;\vert\;
+      i \in I,\, U_i \subset X_i \, \text{open}
+    \right\}
+    \,.
+  $$
+  
+  
 * For
 
   $$
-    \{S_i \overset{\phantom{AA}f_i\phantom{AA}}{\longrightarrow} S\}_{i \in I}
+    \{X_i \overset{\phantom{AA}f_i\phantom{AA}}{\longrightarrow} S\}_{i \in I}
   $$
 
   a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the
-  [[fine topology|finest]] topology on $S$ (def. \ref{InitialAndFinalTopologies}) such that all $f_i \colon X_i \longrightarrow (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
+  [[fine topology|finest]] topology on $S$ (def. \ref{InitialAndFinalTopologies}) such that all $q_i \colon X_i \longrightarrow (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
+  
+  Hence a subset $U \subset S$ is open in the final topology precisely if 
+  for all $i \in I$ then the [[pre-image]] $q_i^{-1}(U) \subset X_i$ is open.
 
-Other terminology used is shown in this table:
+Beware that there is a variation of synonyms for in use:
 
 | $\,$ [[limit]]  [[topological space|topology]] $\,$ | $\,$ [[colimit]] [[topological space|topology]] $\,$ |
 |-------------------------------|------------------------------|
@@ -6893,13 +6927,13 @@ We have already seen [above](#BasicConstructions) simple examples of initial and
 ###### Example
 **([[subspace topology]] as an [[initial topology]])**
 
-For $X$ a single [[topological space]], and $\iota_S \colon S \hookrightarrow U(X)$ a subset of its underlying set, then the [[initial topology]] $\tau_{intial}(\iota_S)$, def. \ref{InitialAndFinalTopologies}, is the [[subspace topology]] from example \ref{SubspaceTopology}, making
+For $(X,\tau)$ a single [[topological space]], and $q \colon S \hookrightarrow X$ a [[subset]] of its underlying set, then the [[initial topology]] $\tau_{intial}(p)$, def. \ref{InitialAndFinalTopologies}, is the [[subspace topology]] from example \ref{SubspaceTopology}, making
 
 $$
-  \iota_S
+  p
   \;\colon\;
-  (S, \tau_{initial}(\iota_S))
-  \hookrightarrow
+  (S, \tau_{initial}(p))
+    \overset{\phantom{AA}}{\hookrightarrow}
   X
 $$
 
@@ -6911,12 +6945,19 @@ a [[topological subspace]] inclusion.
 ###### Example
 **([[quotient topology]] as a [[final topology]])**
 
-Conversely, for $p_S \colon U(X) \longrightarrow S$ an [[epimorphism]], then the [[final topology]] $\tau_{final}(p_S)$ on $S$,
-from def. \ref{InitialAndFinalTopologies}, is the [[quotient topology]] from example \ref{QuotientTopologicalSpace}.
+Conversely, for $(X,\tau)$ a [[topological space]] and for $q \colon X \longrightarrow S$ a [[surjective function]]
+out of its underlying set, then the [[final topology]] $\tau_{final}(q)$ on $S$,
+from def. \ref{InitialAndFinalTopologies}, is the [[quotient topology]] from example \ref{QuotientTopologicalSpace},
+making $q$ a continuous function:
+
+$$
+  q \;\colon\; (X,\tau) \overset{}{\longrightarrow} (S, \tau_{final}(q))
+  \,.
+$$
 
 =--
 
-Now we have all the ingredients to compute limits and colimits of diagrams of topological spaces:
+Now we have all the ingredients to explicitly construct limits and colimits of diagrams of topological spaces:
 
 +-- {: .num_prop #DescriptionOfLimitsAndColimitsInTop}
 ###### Proposition
@@ -6925,24 +6966,24 @@ Now we have all the ingredients to compute limits and colimits of diagrams of to
 Let
 
 $$
-  \left\{ X_i \overset{\phantom{AA}f_\alpha \phantom{AA}}{\longrightarrow} X_j \right\}_{i,j \in I, \alpha \in I_{i,j}}
+  \left\{ (X_i, \tau_i) \overset{\phantom{AA}f_\alpha \phantom{AA}}{\longrightarrow} (X_j, \tau_j) \right\}_{i,j \in I, \alpha \in I_{i,j}}
 $$
 
 be a [[free diagram]] of [[topological spaces]] (def. \ref{Diagram}).
 
 1. The [[limit]] over this free diagram (def. \ref{LimitingCone}) is given by [[generalized the|the]] topological space
 
-   1. whose underlying set is [[generalized the|the]] limit of the underlying sets according to prop. \ref{SetLimits}
+   1. whose underlying set is [[generalized the|the]] limit of the underlying sets according to prop. \ref{SetLimits};
 
    1. whose topology is the [[initial topology]], def. \ref{InitialAndFinalTopologies}, for the functions $p_i$ which are the limiting [[cone]] components:
 
    $$
      \array{
-       && \underset{\longleftarrow}{\lim}_{i \in I} S_i
+       && \underset{\longleftarrow}{\lim}_{k \in I} X_k
        \\
        & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
        \\
-       S_i && \underset{}{\longrightarrow} && S_j
+       X_i && \underset{}{\longrightarrow} && X_j
      }
      \,.
    $$
@@ -6950,9 +6991,9 @@ be a [[free diagram]] of [[topological spaces]] (def. \ref{Diagram}).
    Hence
 
    $$
-     \underset{\longleftarrow}{\lim}_{i \in I} X_i
-     \simeq
-     \left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)
+     \underset{\longleftarrow}{\lim}_{i \in I} (X_i, \tau_i)
+     \;\simeq\;
+     \left(\underset{\longleftarrow}{\lim}_{i \in I} X_i,\; \tau_{initial}\left(\{p_i\}_{i \in I} \right) \right)
    $$
 
 1. The [[colimit]] over the free diagram (def. \ref{LimitingCone}) is [[generalized the|the]] topological space
@@ -6963,11 +7004,11 @@ be a [[free diagram]] of [[topological spaces]] (def. \ref{Diagram}).
 
    $$
      \array{
-       S_i && \longrightarrow && S_j
+       X_i && \longrightarrow && X_j
        \\
-       & {}_{\mathllap{\iota_i}}\searrow && \swarrow_{\mathrlap{\iota_j}}
+       & {}_{\mathllap{q_i}}\searrow && \swarrow_{\mathrlap{q_j}}
        \\
-       && \underset{\longrightarrow}{\lim}_{i \in I} S_i
+       && \underset{\longrightarrow}{\lim}_{k \in I} X_k
      }
      \,.
    $$
@@ -6975,9 +7016,9 @@ be a [[free diagram]] of [[topological spaces]] (def. \ref{Diagram}).
    Hence
 
    $$
-     \underset{\longrightarrow}{\lim}_{i \in I} X_i
-     \simeq
-     \left(\underset{\longrightarrow}{\lim}_{i \in I} S_i,\; \tau_{final}(\{\iota_i\}_{i \in I})\right)
+     \underset{\longrightarrow}{\lim}_{i \in I} (X_i, \tau_i)
+     \;\simeq\;
+     \left(\underset{\longrightarrow}{\lim}_{i \in I} X_i,\; \tau_{final}(\{q_i\}_{i \in I})\right)
    $$
 
 =--
@@ -6987,23 +7028,63 @@ be a [[free diagram]] of [[topological spaces]] (def. \ref{Diagram}).
 +-- {: .proof}
 ###### Proof
 
-The required [[universal property]] of $\left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)$ is immediate: for
+We discuss the first case, the second is directly analogous: 
+
+Consider any [[cone]] over the given free diagram:
 
 $$
   \array{
-    && (S,\tau)
+    && (\tilde X,\tau_{\tilde X})
     \\
-    & {}^{\mathllap{f_i}}\swarrow && \searrow^{\mathrlap{f_j}}
+    & {}^{\mathllap{p'_i}}\swarrow && \searrow^{\mathrlap{p'_j}}
     \\
-    X_i && \underset{}{\longrightarrow} && X_i
+    (X_i, \tau_i) && \underset{}{\longrightarrow} && (X_j, \tau_j)
   }
 $$
 
-any [[cone]] over the diagram, then by construction there is a unique function of underlying sets $S \longrightarrow \underset{\longleftarrow}{\lim}_{i \in I} S_i$ making the required diagrams commute, and so all that is required is that this unique function is always [[continuous function|continuous]]. But this is precisely what the initial topology ensures.
+By the nature of the limiting cone of the underlying diagram of underlying sets, 
+which always exists by prop. \ref{SetLimits}, there is a unique function of underlying sets of the form
 
-The case of the colimit is [[formal dual|formally dual]].
+$$
+  \phi \;\colon\; \tilde X \longrightarrow \underset{\longleftarrow}{\lim}_{i \in I} S_i
+$$
+
+satisfying the required conditions $p_i \circ \phi = p'_i$.  Since this is already unique
+on the underlying sets, it is sufficient to 
+show that this function is always [[continuous function|continuous]] with respect to the 
+[[initial topology]].
+
+Hence let $U \subset \underset{\longleftarrow}{\lim}_i X_i$ be in $\tau_{initial}( \{p_i\} )$.
+By def. \ref{InitialAndFinalTopologies}, this means that $U$ is a union of finite intersections
+of subsets of the form $p_i^{-1}(U_i)$ with $U_i \subset X_i$ open. But since taking pre-images
+preserves unions and intersections, and since unions and intersections of opens in $(\tilde X, \tau_{\tilde X})$
+are again open, it is sufficient to consider $U$ of the form $U = p_i^{-1}(U_i)$. But then
+by the condition that $p_i \circ \phi = p'_i$ we find
+
+$$
+  \begin{aligned}
+    \phi^{-1}\left(
+      p_i^{-1}\left(
+        U_i
+      \right)
+    \right)
+    & =
+    \left(
+       p_i \circ \phi
+    \right)^{-1}(U_i)
+    \\
+    & =
+    (p'_i)^{-1}\left( U_i \right)
+    \,,
+  \end{aligned}
+$$
+
+and this is open by the assumption that $p'_i$ is continuous.
 
 =--
+
+
+
 
 $\,$
 
@@ -7026,37 +7107,41 @@ be a [[free diagram]] (def. \ref{Diagram}) of sets or of topological spaces.
    $$
      Hom\left(\,Y\,, \,\underset{\longleftarrow}{\lim}_i X_i \, \right)
       \;\simeq\;
-     \underset{\longleftarrow}{\lim}_i Hom\left(\,Y\,, \,X_i\, \right)
+     \underset{\longleftarrow}{\lim}_i \left( Hom\left(\,Y\,, \,X_i\, \right) \right)
      \,.
    $$
 
-   Here on the right we have the limit over the free diagram of sets
+   Here on the right we have the limit over the free diagram of sets given by the operations $f_\alpha \circ (-)$
+   of post-composition with the maps in the original diagram:
 
    $$
      \left\{
-       Hom(Y,X_i) \overset{f_\alpha \circ (-)}{\longrightarrow} Hom(Y, X_j)
+       Hom(Y,X_i) 
+          \overset{\phantom{A} f_\alpha \circ (-) \phantom{A} }{\longrightarrow} 
+       Hom(Y, X_j)
      \right\}_{i,j \in I, \alpha \in I_{i,j}}
      \,.
    $$
 
 
 1. If the [[colimit]] $\underset{\longrightarrow}{\lim}_i X_i \in \mathcal{C}$ exists, then
-   the [[set]] of (continuous) functions out of this colimiting object is the colimit over the sets of
-   morphisms out of the components of $X_i$
+   the [[set]] of (continuous) functions out of this colimiting object is the limit over the sets of
+   morphisms out of the components of $X_i$:
 
    $$
      Hom\left(\,\underset{\longrightarrow}{\lim}_i X_i\,,\, Y\,\right)
        \;\simeq\;
-     \underset{\longrightarrow}{\lim} Hom\left(\, X_i\,, \,Y\, \right)
+     \underset{\longleftarrow}{\lim} \left( Hom\left(\, X_i\,, \,Y\, \right) \right)
      \,.
    $$
 
-   Here on the right we have the colimit over the free diagram of sets
+   Here on the right we have the colimit over the free diagram of sets given by the operations
+   $(-) \circ f_\alpha$ of pre-composition with the original maps:
 
    $$
      \left\{
        Hom(X_i, Y)
-         \overset{(-)\circ f_\alpha}{\longrightarrow}
+         \overset{\phantom{A} (-)\circ f_\alpha \phantom{A}}{\longrightarrow}
        Hom(X_j, Y)
      \right\}_{i,j \in I, \alpha \in I_{i,j}}
      \,.
@@ -7070,26 +7155,34 @@ be a [[free diagram]] (def. \ref{Diagram}) of sets or of topological spaces.
 We give the proof of the first statement. The proof of the second statement is directly analogous
 (just reverse the direction of all maps).
 
-First observe that by the very definition of limiting cones, maps out of some $Y$ into them are in natural bijection
-with the set $Cones(Y, \{X_i \overset{f_\alpha}{\to} X_j\})$ of cones over the corresponding diagram with tip $Y$:
+First observe that, by the very definition of limiting cones, maps out of some $Y$ into them are in natural bijection
+with the set $Cones\left(Y, \{X_i \overset{f_\alpha}{\to} X_j\} \right)$ of cones over the corresponding diagram with tip $Y$:
 
 $$
-  Hom(Y, \underset{\longleftarrow}{\lim}_{i \in I} X_i)
+  Hom\left(
+    Y, 
+    \underset{\longleftarrow}{\lim}_{i} X_i
+  \right)
     \;\simeq\;
-  Cones(Y, \{X_i \overset{f_\alpha}{\to} X_j\} )
+  Cones\left(
+    Y, \{X_i \overset{f_\alpha}{\to} X_j\} 
+  \right)
   \,.
 $$
 
-Hence it remains to show that there is also a natural bijection:
+Hence it remains to show that there is also a natural bijection like so:
 
 $$
-  Cones(Y, \{X_i \overset{f_\alpha}{\to} X_j\} )
+  Cones\left(
+    Y, 
+    \{X_i \overset{f_\alpha}{\to} X_j\} 
+  \right)
     \;\simeq\;
-  \underset{\longleftarrow}{\lim}_{i} Hom(Y,X_i)
+  \underset{\longleftarrow}{\lim}_{i} \left( Hom(Y,X_i) \right)
   \,.
 $$
 
-Now again by the very definition of limiting cones, a single element in the limit on the right is equivalently a cone of the form
+Now, again by the very definition of limiting cones, a single element in the limit on the right is equivalently a cone of the form
 
 $$
   \left\{
@@ -7106,9 +7199,9 @@ $$
   \,.
 $$
 
-This is for each $i \in I$ a choice of map $p_i \colon Y \to X_i$ , such that  for each $i,j \in I$
+This is equivalently for each $i \in I$ a choice of map $p_i \colon Y \to X_i$ , such that  for each $i,j \in I$
 and $\alpha \in I_{i,j}$ we have $f_\alpha \circ p_i = p_j$. And indeed, this is precisely the characterization of an element in the
-set $  Cones(Y, \{X_i \overset{f_\alpha}{\to} X_j\} )$.
+set $  Cones\left( Y, \{X_i \overset{f_\alpha}{\to} X_j\} \right)$.
 
 
 =--
@@ -7122,62 +7215,53 @@ Using this, we find the following:
 Recall from remark \ref{ReflectiveSubcategory} the concept of [[adjoint functors]]
 
 $$
-  L \colon \mathcal{C} \leftrightarrow \mathcal{D} \colon R
+  \mathcal{C}
+    \underoverset
+      {\underset{\phantom{A}R\phantom{A}}{\longrightarrow}}
+      {\overset{\phantom{A}L\phantom{A}}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
 $$
 
 witnessed by [[natural isomorphisms]]
 
 $$
-  Hom_{\mathcal{D}}(L(c),d)
+  Hom_{\mathcal{D}}\left( L(c),d \right)
     \simeq
-  Hom_{\mathcal{C}}(c,R(d))
+  Hom_{\mathcal{C}}\left( c,R(d) \right)
   \,.
 $$
 
-Observe that
+Then:
 
-1. [[left adjoint functors]] preserve [[colimits]];
+1. the [[left adjoint functor]] $L$ preserve [[colimits]] (def. \ref{LimitingCone}) 
 
-1. [[right adjoint functors]] preserve [[limits]].
+   in that for every [[diagram]] $\{X_i \overset{f_\alpha}{\to} X_j\}$ in $\mathcal{D}$ there
+   is a [[natural isomorphism]] of the form
+   
+   $$
+     L \left(
+       \underset{\longrightarrow}{\lim}_i X_i
+     \right)
+     \;\simeq\;
+     \underset{\longrightarrow}{\lim}_i L(X_i)
+   $$
 
-To see this, let $\underset{\longleftarrow}{\lim}_i X_i$
-be the limit over some diagram $\left\{ X_i \overset{f_\alpha}{\to} X_j\right\}_{i,j \in I, \alpha \in I_{i,j}}$.
-To test what a right adjoint functor does to this, we may map any object $Y$ into it. Using prop. \ref{HomFunctorPreservesLimits} this yields
+1. the [[right adjoint functor]] $R$ preserve [[limits]] (def. \ref{LimitingCone})
 
-$$
-  \begin{aligned}
-    Hom(Y, R(\underset{\longleftarrow}{\lim}_i X_i))
-    & \simeq
-    Hom(L(Y), \underset{\longleftarrow}{\lim}_i X_i)
-    \\
-    & \simeq
-    \underset{\longleftarrow}{\lim}_i Hom(L(Y), X_i)
-    \\
-    & \simeq
-    \underset{\longleftarrow}{\lim}_i Hom(Y, R(X_i))
-    \\
-    & \simeq Hom(Y, \underset{\longleftarrow}{\lim}_i R(Y_i))
-    \,.
-  \end{aligned}
-$$
+   in that for every [[diagram]] $\{X_i \overset{f_\alpha}{\to} X_j\}$ in $\mathcal{C}$ there
+   is a [[natural isomorphism]] of the form
+   
+   $$
+     R
+     \left(
+       \underset{\longleftarrow}{\lim}_i X_i
+     \right)
+     \;\simeq\;
+     \underset{\longleftarrow}{\lim}_i R(X_i)
+     \,.
+   $$
 
-Since this is true for all $Y$ it [[Yoneda lemma|follows]] that
-
-$$
-  R(\underset{\leftarrow}{\lim}_i X_i)
-  \simeq
-  \underset{\leftarrow}{\lim}_i R(X_i)
-  \,.
-$$
-
-Similarly one finds that
-
-$$
-  L(\underset{\rightarrow}{\lim}_i X_i)
-  \simeq
-  \underset{\rightarrow}{\lim}_i L(X_i)
-  \,.
-$$
 
 This implies that if we have a [[reflective subcategory]] of topological spaces
 
@@ -7199,7 +7283,61 @@ then
 
 1. colimits in $Top_{nice}$ are computed as the reflection $L$ of the colimit in $Top$.
 
+For example let $\{(X_i, \tau_i) \overset{f_\alpha}{\to} (X_j, \tau_j) \}$ be a diagram of Hausdorff spaces, regarded
+as a diagram of general topological spaces. Then
 
+1. not only is the limit of topological spaces $\underset{\longleftarrow}{\lim}_i (X_i, \tau_i)$ according to prop. \ref{DescriptionOfLimitsAndColimitsInTop} again a Hausdorff space, but it also satisfies its universal property with
+respect to the category of Hausdorff spaces;
+
+1. not only is the reflection $T_2 \left( \underset{\longrightarrow}{\lim}_i X_i \right)$ 
+of the colimit as topological spaces a Hausdorff space
+(while the colimit as topological spaces in general is not), but this reflection does satisfy the
+universal property of a colimit with respect to the category of Hausdorff spaces.
+
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First to see that right/left adjoint functors preserve limits/colimits: 
+We discuss the case of the right adjoint functor preserving limits. The other case is
+directly anlogous (just reverse the direction of all arrows).
+
+So let  $\underset{\longleftarrow}{\lim}_i X_i$
+be the limit over some diagram $\left\{ X_i \overset{f_\alpha}{\to} X_j\right\}_{i,j \in I, \alpha \in I_{i,j}}$.
+To test what a right adjoint functor does to this, we may map any object $Y$ into it. Using prop. \ref{HomFunctorPreservesLimits} this yields
+
+$$
+  \begin{aligned}
+    Hom(Y, R(\underset{\longleftarrow}{\lim}_i X_i))
+    & \simeq
+    Hom(L(Y), \underset{\longleftarrow}{\lim}_i X_i)
+    \\
+    & \simeq
+    \underset{\longleftarrow}{\lim}_i Hom(L(Y), X_i)
+    \\
+    & \simeq
+    \underset{\longleftarrow}{\lim}_i Hom(Y, R(X_i))
+    \\
+    & \simeq Hom(Y, \underset{\longleftarrow}{\lim}_i R(Y_i))
+    \,.
+  \end{aligned}
+$$
+
+Since this is true for all $Y$, it [[Yoneda lemma|follows]] that
+
+$$
+  R(\underset{\leftarrow}{\lim}_i X_i)
+  \simeq
+  \underset{\leftarrow}{\lim}_i R(X_i)
+  \,.
+$$
+
+Now to see that limits/colimits in the reflective subcategory are computed as claimed.
+
+(...)
 
 =--
 
@@ -7233,13 +7371,14 @@ and it is universal precisely if there is a unique continuous function to (respe
 This is the case for the point space (respectively empty space) by example \ref{TerminalityOfThePoint}:
 
 $$
-  X \overset{\phantom{AA} \exists ! \phantom{AA}}{\longrightarrow} \ast
-$$
-
-$$
-  \emptyset \overset{\phantom{AA} \exists! \phantom{AA}}{\longrightarrow} X
+  \emptyset  
+    \overset{ \phantom{AA} \exists ! \phantom{AA} }{\longrightarrow}
+  X 
+    \overset{\phantom{AA} \exists ! \phantom{AA}}{\longrightarrow} 
+  \ast
   \,.
 $$
+
 
 =--
 
