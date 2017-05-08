@@ -79,23 +79,21 @@ Assume the ambient context is one of the following (see below at _[Variants](#Va
 
 * [[classical mathematics]] with the [[axiom of choice]];
 
-* [[internal category]] theory with "functor" meaning _[[anafunctor]]_;
+* [[constructive mathematics|constructive]] or [[internal category|internal]] category theory with "functor" meaning _[[anafunctor]]_;
 
-* [[homotopy type theory]] with ...
+* [[homotopy type theory]] with formalization as in [Ahrens, Kapulkin, and Shulman](https://golem.ph.utexas.edu/category/2013/03/category_theory_in_homotopy_ty.html).
 
 Let $F \colon \mathcal{C} \to \mathcal{D}$ be a [[functor]]. Then the following are equivalent:
 
 1. $F$ is part of an equivalence of categories in the sense of def. \ref{EquivalenceViaInverseFunctor}
 
-1. $F$ is 
+2. $F$ is 
 
-   1. an [[essentially surjective functor]]
+   1. an [[essentially surjective functor]] and
 
-   1. a [[fully faithful functor]].
+   2. a [[fully faithful functor]].
 
 =--
-
-
 
 
 ## Variants {#Variants}
