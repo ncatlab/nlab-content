@@ -90,6 +90,6 @@ Online discussion includes
 
 [[!redirects mathematical structure]]
 [[!redirects mathematical structures]]
-
+[[!redirects first-order structure]]
 [[!redirects structure (in model theory)]]
 [[!redirects structures (in model theory)]]
