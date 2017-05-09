@@ -209,6 +209,9 @@ The [[singular homology]] of product topological spaces is informed by
 
 * [[tensor product of chain complexes]]
 
+[[!include universal constructions of topological spaces -- table]]
+
+
 ## References
 
 The _Tychonoff topology_ is named after [[A. N. Tychonoff]].
