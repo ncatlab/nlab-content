@@ -10,11 +10,12 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
- [[Georg Cantor]] used to define the [[continuum]] as a **perfect space** that is [[connected space|connected]] as well. Hence, the property of 'being perfect', as the name indicates as well, can be viewed as forming part of the concept of a 'prototypical' topological space.
+
+[[Georg Cantor]] used to define the [[continuum]] as a **perfect space** that is [[connected space|connected]] as well. Hence, the property of 'being perfect', as the name indicates as well, can be viewed as forming part of the concept of a 'prototypical' [[topological space]].
 
 ## Definition
 
@@ -49,3 +50,6 @@ In a topological space $X$, a [[subset]] is said to be _perfect_ if it is [[clos
 [[!redirects perfect set]] 
 [[!redirects perfect spaces]] 
 [[!redirects perfect sets]] 
+
+[[!redirects perfect topological space]]
+[[!redirects perfect topological spaces]]
