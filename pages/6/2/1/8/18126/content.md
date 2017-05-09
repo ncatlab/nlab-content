@@ -6515,7 +6515,7 @@ Consider the [[empty diagram]] (def. \ref{DiscreteDiagram}).
 
 1. A [[cone]] over the empty diagram is just an object $X$, with no further structure or condition.
 The [[universal property]] of the [[limit]] "$\top$" over the empty diagram is hence that
-for every object $X$, there is a unique map of the form $X \to \top$, with no further condition. 
+for every object $X$, there is a unique map of the form $X \to \top$, with no further condition.
 Such an object $\top$ is called a _[[terminal object]]_.
 
 1. A [[co-cone]] over the empty diagram is just an object $X$, with no further structure or condition.
@@ -6682,8 +6682,8 @@ $$
 
 $\,$
 
-Often the defining [[universal property]] of a limit/colimit construction is all that one 
-wants to know. But sometimes it is useful to have an explicit description of the limits/colimits, 
+Often the defining [[universal property]] of a limit/colimit construction is all that one
+wants to know. But sometimes it is useful to have an explicit description of the limits/colimits,
 not the least because this proves that these actually exist.
 Here is the explicit description of the (co-)limiting cone over a diagram of sets:
 
@@ -6804,7 +6804,7 @@ $$
       && \underset{f_\alpha}{\longrightarrow} &&
     X_j
   }
-  \phantom{AAAAA} 
+  \phantom{AAAAA}
     =
   \phantom{AAAAA}
   \array{
@@ -6883,22 +6883,22 @@ Let $\{(X_i, \tau_i)\}_{i \in I}$ be a [[set]] of [[topological spaces]], and le
 
   a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{p_i\}_{i \in I})$ is the
   [[coarse topology|coarsest]] topology on $S$ (def. \ref{InitialAndFinalTopologies}) such that all $f_i \colon (S,\tau_{initial}(\{p_i\}_{i \in I})) \longrightarrow X_i$ are [[continuous function|continuous]].
-  
+
   By lemma \ref{RecognizingTopologicalBasis} this is equivalently
-  the topology whose open subsets are the unions of finite intersections of the preimages of the open subsets of the 
+  the topology whose open subsets are the unions of finite intersections of the preimages of the open subsets of the
   component spaces under the projection maps, hence the topology generated from the [[sub-base for a topology|sub-base]]
   $$
     \beta_{ini}(\{p_i\} )
-      = 
-    \left\{ 
+      =
+    \left\{
       p_i^{-1}(U_i)
       \;\vert\;
       i \in I,\, U_i \subset X_i \, \text{open}
     \right\}
     \,.
   $$
-  
-  
+
+
 * For
 
   $$
@@ -6907,8 +6907,8 @@ Let $\{(X_i, \tau_i)\}_{i \in I}$ be a [[set]] of [[topological spaces]], and le
 
   a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the
   [[fine topology|finest]] topology on $S$ (def. \ref{InitialAndFinalTopologies}) such that all $q_i \colon X_i \longrightarrow (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
-  
-  Hence a subset $U \subset S$ is open in the final topology precisely if 
+
+  Hence a subset $U \subset S$ is open in the final topology precisely if
   for all $i \in I$ then the [[pre-image]] $q_i^{-1}(U) \subset X_i$ is open.
 
 Beware that there is a variation of synonyms for in use:
@@ -7028,7 +7028,7 @@ be a [[free diagram]] of [[topological spaces]] (def. \ref{Diagram}).
 +-- {: .proof}
 ###### Proof
 
-We discuss the first case, the second is directly analogous: 
+We discuss the first case, the second is directly analogous:
 
 Consider any [[cone]] over the given free diagram:
 
@@ -7042,7 +7042,7 @@ $$
   }
 $$
 
-By the nature of the limiting cone of the underlying diagram of underlying sets, 
+By the nature of the limiting cone of the underlying diagram of underlying sets,
 which always exists by prop. \ref{SetLimits}, there is a unique function of underlying sets of the form
 
 $$
@@ -7050,8 +7050,8 @@ $$
 $$
 
 satisfying the required conditions $p_i \circ \phi = p'_i$.  Since this is already unique
-on the underlying sets, it is sufficient to 
-show that this function is always [[continuous function|continuous]] with respect to the 
+on the underlying sets, it is sufficient to
+show that this function is always [[continuous function|continuous]] with respect to the
 [[initial topology]].
 
 Hence let $U \subset \underset{\longleftarrow}{\lim}_i X_i$ be in $\tau_{initial}( \{p_i\} )$.
@@ -7116,8 +7116,8 @@ be a [[free diagram]] (def. \ref{Diagram}) of sets or of topological spaces.
 
    $$
      \left\{
-       Hom(Y,X_i) 
-          \overset{\phantom{A} f_\alpha \circ (-) \phantom{A} }{\longrightarrow} 
+       Hom(Y,X_i)
+          \overset{\phantom{A} f_\alpha \circ (-) \phantom{A} }{\longrightarrow}
        Hom(Y, X_j)
      \right\}_{i,j \in I, \alpha \in I_{i,j}}
      \,.
@@ -7160,12 +7160,12 @@ with the set $Cones\left(Y, \{X_i \overset{f_\alpha}{\to} X_j\} \right)$ of cone
 
 $$
   Hom\left(
-    Y, 
+    Y,
     \underset{\longleftarrow}{\lim}_{i} X_i
   \right)
     \;\simeq\;
   Cones\left(
-    Y, \{X_i \overset{f_\alpha}{\to} X_j\} 
+    Y, \{X_i \overset{f_\alpha}{\to} X_j\}
   \right)
   \,.
 $$
@@ -7174,8 +7174,8 @@ Hence it remains to show that there is also a natural bijection like so:
 
 $$
   Cones\left(
-    Y, 
-    \{X_i \overset{f_\alpha}{\to} X_j\} 
+    Y,
+    \{X_i \overset{f_\alpha}{\to} X_j\}
   \right)
     \;\simeq\;
   \underset{\longleftarrow}{\lim}_{i} \left( Hom(Y,X_i) \right)
@@ -7234,11 +7234,11 @@ $$
 
 Then:
 
-1. the [[left adjoint functor]] $L$ preserve [[colimits]] (def. \ref{LimitingCone}) 
+1. the [[left adjoint functor]] $L$ preserve [[colimits]] (def. \ref{LimitingCone})
 
    in that for every [[diagram]] $\{X_i \overset{f_\alpha}{\to} X_j\}$ in $\mathcal{D}$ there
    is a [[natural isomorphism]] of the form
-   
+
    $$
      L \left(
        \underset{\longrightarrow}{\lim}_i X_i
@@ -7251,7 +7251,7 @@ Then:
 
    in that for every [[diagram]] $\{X_i \overset{f_\alpha}{\to} X_j\}$ in $\mathcal{C}$ there
    is a [[natural isomorphism]] of the form
-   
+
    $$
      R
      \left(
@@ -7289,7 +7289,7 @@ as a diagram of general topological spaces. Then
 1. not only is the limit of topological spaces $\underset{\longleftarrow}{\lim}_i (X_i, \tau_i)$ according to prop. \ref{DescriptionOfLimitsAndColimitsInTop} again a Hausdorff space, but it also satisfies its universal property with
 respect to the category of Hausdorff spaces;
 
-1. not only is the reflection $T_2 \left( \underset{\longrightarrow}{\lim}_i X_i \right)$ 
+1. not only is the reflection $T_2 \left( \underset{\longrightarrow}{\lim}_i X_i \right)$
 of the colimit as topological spaces a Hausdorff space
 (while the colimit as topological spaces in general is not), but this reflection does satisfy the
 universal property of a colimit with respect to the category of Hausdorff spaces.
@@ -7301,7 +7301,7 @@ universal property of a colimit with respect to the category of Hausdorff spaces
 +-- {: .proof}
 ###### Proof
 
-First to see that right/left adjoint functors preserve limits/colimits: 
+First to see that right/left adjoint functors preserve limits/colimits:
 We discuss the case of the right adjoint functor preserving limits. The other case is
 directly anlogous (just reverse the direction of all arrows).
 
@@ -7350,8 +7350,6 @@ $\,$
 We now discuss a list of examples of [[universal constructions]] of [[topological spaces]]
 as introduced in generality [above](#UniversalConstructions).
 
-$\,$
-
 [[!include universal constructions of topological spaces -- table]]
 
 $\,$
@@ -7361,20 +7359,22 @@ $\,$
 **([[empty space]] and [[point space]] as empty [[colimit]] and [[limit]])**
 
 Consider the [[empty diagram]] (example \ref{DiscreteDiagram}) as a diagram of [[topological spaces]].
+By example \ref{TerminalInitialObject} the limit and colimit (def. \ref{LimitingCone}) over this type of diagram are the 
+_[[terminal object]]_ and _[[initial object]]_, respectively. Applied to topological spaces we find:
 
-1. The [[limit]] over the [[empty diagram]] is the [[point space]] $\ast$ (example \ref{Point}).
+1. The [[limit]] of topological spaces over the [[empty diagram]] is the [[point space]] $\ast$ (example \ref{Point}).
 
-1. The [[colimit]] over the [[empty diagram]] is the [[empty topological space]] $\emptyset$ (example \ref{Point}).
+1. The [[colimit]] of topological spaces over the [[empty diagram]] is the [[empty topological space]] $\emptyset$ (example \ref{Point}).
 
 This is because for an empty diagram, the a (co-)cone is just a topological space, without any further data or properties,
 and it is universal precisely if there is a unique continuous function to (respectively from) this space to any other space $X$.
 This is the case for the point space (respectively empty space) by example \ref{TerminalityOfThePoint}:
 
 $$
-  \emptyset  
+  \emptyset
     \overset{ \phantom{AA} \exists ! \phantom{AA} }{\longrightarrow}
-  X 
-    \overset{\phantom{AA} \exists ! \phantom{AA}}{\longrightarrow} 
+  (X, \tau)
+    \overset{\phantom{AA} \exists ! \phantom{AA}}{\longrightarrow}
   \ast
   \,.
 $$
@@ -7386,36 +7386,46 @@ $$
 ###### Example
 **(binary [[product topological space]] and [[disjoint union space]] as [[limit]] and [[colimit]])**
 
-Consider a [[discrete category|discrete]] [[diagram]] consisting of two objects $X, Y$ (example \ref{DiscreteDiagram}).
+Consider a [[discrete category|discrete]] [[diagram]] consisting of two topological spaces $(X,\tau_X), (Y,\tau_Y)$ (example \ref{DiscreteDiagram}). Generally, it [[limit]] and [[colimit]] is the _[[product]]_ $X \times Y$ and _[[coproduct]]_ $X \sqcup Y$, respectively
+(example \ref{CoProduct}).
 
-Its [[limit]] is called the _[[Cartesian product]]_ $X \times Y$. In topological space this limit is the
-[[product topological space]], by the universal property observed in example \ref{UniversalPropertyOfBinaryProductSpace}.
-[
-Its [[colimit]] is called the _[[coproduct]]_ $X \sqcup Y$. In topological spaces this is the [[disjoint union space]],
-by the universal property observed in example \ref{UniversalPropertyOfDisjointUnionSpace}.
+1. In topological space this [[product]] is the binary [[product topological space]] from example \ref{BinaryProductTopologicalSpace}, by the universal property observed in example \ref{UniversalPropertyOfBinaryProductSpace}:
+
+   $$
+     (X,\tau_X) \times (Y, \tau_Y) \simeq (X \times Y, \tau_{X \times Y})
+     \,.
+   $$
+
+
+1. In topological spaces, this [[coproduct]] is the [[disjoint union space]] from example \ref{DisjointUnionOfTopologicalSpaces},
+by the universal property observed in example \ref{UniversalPropertyOfDisjointUnionSpace}:
+
+   $$
+     (X, \tau_X) \sqcup (Y, \tau_Y) \simeq ( X \sqcup Y, \tau_{X \sqcup Y} )
+     \,.
+   $$
 
 =--
 
-The first important application of the general concept of limits of diagrams of topological spaces
-is now the following example \ref{InfiniteProductTopologicalSpace} of product spaces with an
+So far these examples just reproduces simple constructions which we already considered. 
+Now the first important application of the general concept of limits of diagrams of topological spaces
+is the following example \ref{InfiniteProductTopologicalSpace} of product spaces with an
 non-[[finite set]] of factors. It turns out that the correct topology on the underlying infinite [[Cartesian product]]
 of sets is _not_ the naive generalization of the binary product topology, but instead is the corresponding
 [[weak topology]], here called the _[[Tychonoff topology]]_.
 
 +-- {: .num_example #InfiniteProductTopologicalSpace}
 ###### Example
-**(general [[product spaces]] with [[Tychonoff topology]])**
+**(general [[product topological spaces]] with [[Tychonoff topology]])**
 
 Consider an arbitrary [[discrete category|discrete]] [[diagram]] of topological spaces (def. \ref{DiscreteDiagram}),
-hence a [[set]] $\{X_i\}_{i \in I}$ of topological spaces, indexed by any [[set]] $I$, not necessarily a [[finite set]].
+hence a [[set]] $\{(X_i, \tau_i)\}_{i \in I}$ of topological spaces, indexed by any [[set]] $I$, not necessarily a [[finite set]].
 
 The [[limit]] over this diagram (a _[[Cartesian product]]_, example \ref{CoProduct})
 is called the _[[product topological space]]_ of the spaces in the diagram, and denoted
 
 $$
-  \underset{i \in I}{\prod} X_i
-  \;\in\;
-  Top
+  \underset{i \in I}{\prod} (X_i, \tau_i)
   \,.
 $$
 
@@ -7437,60 +7447,63 @@ is the [[coarse topology|coarsest]] topology such that the [[pre-images]] $pr_i(
 under these projection maps are open. Now one such pre-image is a [[Cartesian product]] of open subsets of the form
 
 $$
-  \underset{j \in I}{\prod} U_i
-  \;\subset\;
-  \underset{j \in J}{\prod} X_j
-$$
-
-where all factors are the corresponding total space, except for the $i$th factor, which is the given $U \subset X_i$:
-
-$$
-  U_j =
-  \left\{
-    \array{
-      U & \vert \, j = i
-      \\
-      X_j & \vert\, j \neq i
-    }
-  \right.
+  p_i^{-1}(U_i)
+    \;=\;
+  U_i
+  \times
+  \left(
+    \underset{j \in I \backslash \{i\}}{\prod} X_j
+  \right)
+  \; \subset \;
+  \underset{j \in I}{\prod} X_j
   \,.
 $$
+
 
 The [[coarse topology|coarsest topology]] that contains these open subsets ist that generated by these subsets regarded as
-a [[topological base|sub-basis for the topology]] (def. \ref{TopologyBase}), hence the arbitrary unions of the finite intersections of
+a [[topological base|sub-basis for the topology]] (def. \ref{TopologyBase}), hence the arbitrary unions of finite intersections of
 subsets of the above form.
 
-Now the finite intersections of subsets of the above form are the subsets of the form
+Observe that a binary intersection of these generating open is (for $i \neq j$):
 
 $$
-  \underset{j \in I}{\prod} U_j
-  \;\subset\;
-  \underset{j \in I}{\prod} X_j
+  p_i^{-1}(U_i)
+    \cap 
+  p_j^{-1}(U_j)
+    \;\simeq\;
+  U_i \times U_j
+  \times
+  \left(
+    \underset{k \in I \backslash \{i.j\}}{\prod} X_k
+  \right)
 $$
 
-such that there is a [[finite set|finite]] [[subset]] $K \subset J$ with
+and generally for a [[finite set|finite]] [[subset]] $J \subset I$ then 
 
 $$
-  U_j
-    =
-  \left\{
-    \array{
-      U_j \subset X_j \, \text{open} &\vert&  j \in K \subset J
-      \\
-      X_j & \vert & \text{otherwise}
-    }
-  \right.
+  \underset{j \in J \subset I}{\cap} p_i^{-1}(U_i)
+  \;=\;
+  \left(
+    \underset{j \in J \subset I}{\prod} U_j
+  \right)
+  \times
+  \left(
+    \underset{i \in I\backslash J}{\prod} X_i
+  \right)
   \,.
 $$
 
-Hence the product topology is equivalently that generated by these subsets when regarded as a [[basis for the topology]].
+Therefore the open subsets of the product topology are unions of those of this form.
+Hence the product topology is equivalently that generated by these subsets when regarded as a [[basis for the topology]] (def. \ref{TopologyBase}).
 
 This is also known as the _[[Tychonoff topology]]_.
 
-Notice the subtlety: Naively could have considered as open subsets the unions of products of open
+Notice the subtlety: Naively we could have considered as open subsets the unions of products 
+$\underset{i \in I}{\prod}U_i$ of open
 subsets of the factors, without the constraint that only finitely many of them differ from the corresponding total space.
-This also defines a topology, called the _[[box topology]]_. For a [[finite set|finite index set]] $I$ this coincides with the
-topology obtained by applying the binary product topological space construction. But for infinite index sets it does not.
+This also defines a topology, called the _[[box topology]]_. For a [[finite set|finite index set]] $I$ 
+the box topology coincides with the product space (Tychinoff) topology, but for non-finite $I$ it is strictly
+[[fine topology|finer]] (def. \ref{TopologyFinerCoarser}).
 
 =--
 
@@ -7502,17 +7515,19 @@ topology obtained by applying the binary product topological space construction.
 ###### Example
 **([[equalizer]] of [[continuous functions]])**
 
-The [[equalizer]] (example \ref{Equalizer}) of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the equalizer of the underlying functions of sets
+The [[equalizer]] (example \ref{Equalizer}) of two [[continuous functions]] 
+$f, g \colon (X,\tau_X) \stackrel{\longrightarrow}{\longrightarrow} (Y,\tau_Y)$ is the equalizer of the underlying functions of sets
 
 $$
   eq(f,g)
    \hookrightarrow
-  S_X
-    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}}
-  S_Y
+  X
+    \stackrel{\overset{\phantom{A}f\phantom{A}}{\longrightarrow}}{\underset{\phantom{A}g\phantom{Aaaaaaaa}}{\longrightarrow}}
+  Y
 $$
 
-(hence the largest subset of $S_X$ on which both functions coincide) and equipped with the [[subspace topology]], example \ref{SubspaceTopology}.
+(hence the largest subset of $Y$ on which both functions coincide) and equipped with the [[subspace topology]]
+from example \ref{SubspaceTopology}.
 
 =--
 
@@ -7521,17 +7536,18 @@ $$
 ###### Example
 **([[coequalizer]] of [[continuous functions]])**
 
-The [[coequalizer]]  of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the coequalizer of the underlying functions of sets
+The [[coequalizer]]  of two [[continuous functions]] $f, g \colon (X,\tau_X) \stackrel{\longrightarrow}{\longrightarrow} (Y,\tau_Y)$ is the coequalizer of the underlying functions of sets
 
 $$
-  S_X
-    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}}
-  S_Y
+  X
+    \stackrel{\overset{\phantom{A}f\phantom{A}}{\longrightarrow}}{\underset{\phantom{A}g\phantom{A}}{\longrightarrow}}
+  Y
     \longrightarrow
   coeq(f,g)
 $$
 
-(hence the [[quotient set]] by the [[equivalence relation]] generated by $f(x) \sim g(x)$ for all $x \in X$)  and equipped with the [[quotient topology]], example \ref{QuotientTopologicalSpace}.
+(hence the [[quotient set]] by the [[equivalence relation]] generated by the [[relation]]
+$f(x) \sim g(x)$ for all $x \in X$)  and equipped with the [[quotient topology]], example \ref{QuotientTopologicalSpace}.
 
 =--
 
