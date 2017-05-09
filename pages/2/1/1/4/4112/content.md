@@ -167,16 +167,20 @@ Cantor space, especially in its guise as a subspace of the real line, is quite f
 
 *  The Cantor set is a precisely self-similar [[fractal]] with [[Hausdorff dimension]] $\log_3 2 \approx 0.631$. 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #Theorem} 
 ###### Theorem 
-A space is [[homeomorphism|homeomorphic]] to Cantor space if and only if it is nonempty, compact, totally disconnected, metrizable, and perfect. 
+
+A [[topological space]] is [[homeomorphism|homeomorphic]] to Cantor space if and only if it is [[inhabited set|nonempty]], [[compact topological space|compact]], [[totally disconnected topological space|totally disconnected]], [[metric  space|metrizable]], and [[perfect topological space|perfect]]. 
+
 =-- 
 
-This result is sometimes called Brouwer's theorem. It can be seen from the perspective of [[Stone duality]], where the dual result is that any two [[countable set|countable]] [[atom|atomless]] [[Boolean algebras]] are [[isomorphism|isomorphic]]; this dual result can be proven by a [[back-and-forth argument]]. 
+This result is sometimes called **[[Brouwer]]'s theorem**. It can be seen from the perspective of [[Stone duality]], where the dual result is that any two [[countable set|countable]] [[atom|atomless]] [[Boolean algebras]] are [[isomorphism|isomorphic]]; this dual result can be proven by a [[back-and-forth argument]]. 
 
-+-- {: .num_cor} 
++-- {: .num_cor #CorA} 
 ###### Corollary 
-The one-point [[compactification]] $\widebar{X}$ of a space $X$ that is [[second-countable space|second-countable]] [[local compactum|locally compact]] Hausdorff, totally disconnected and perfect, is homeomorphic to Cantor space (provided $X$ is not itself compact). 
+
+The  [[one-point compactification]] $\widebar{X}$ of a space $X$ that is [[second-countable space|second-countable]] [[local compactum|locally compact]] [[Hausdorff topological space|Hausdorff]], [[totally disconnected space|totally disconnected]] and perfect, is homeomorphic to Cantor space (provided $X$ is not itself compact). 
+
 =-- 
 
 +-- {: .proof} 
