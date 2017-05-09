@@ -25,7 +25,7 @@ For internal [[1-categories]] in HoTT (as opposed to more general internal [[(in
 
 ## References
 
-The relation between [[complete Segal space|Segal completeness]] for internal categories in HoTT and the [[univalence axiom]] had been pointed out in
+The relation between [[complete Segal space|Segal completeness]] (now often "Rezk completeness") for internal categories in HoTT and the [[univalence axiom]] had been pointed out in
 
 * [[Urs Schreiber]], _[Segal completenes and Univalence](https://golem.ph.utexas.edu/category/2012/05/segalcompleteness_and_univalen.html)_, 2012
 
