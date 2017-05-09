@@ -2,7 +2,8 @@
 
 | $\phantom{AAAA}$[[limits]] | $\phantom{AAAA}$[[colimits]] |
 |------------|--------------|
-| $\,$[[product topological space]]  $\,$| $\,$ [[disjoint union topological space]] $\,$ |
+|  $\,$ [[point space]]$\,$ | $\,$ [[empty space]] $\,$ |
+| $\,$ [[product topological space]]  $\,$| $\,$ [[disjoint union topological space]] $\,$ |
 | $\,$ [[topological subspace]] $\,$ | $\,$ [[quotient topological space]] $\,$ |
 | $\,$ fiber space $\,$ | $\,$ [[space attachment]] $\,$ |
 | $\,$ [[mapping cocylinder]], [[mapping cocone]] $\,$ | $\,$ [[mapping cylinder]], [[mapping cone]], [[mapping telescope]] $\,$ |
