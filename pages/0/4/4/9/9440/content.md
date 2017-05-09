@@ -1,6 +1,10 @@
 
 * [webpage](http://www.pitt.edu/~krk56/)
 
+## related $n$Lab entries
+
+* [[internal category in homotopy type theory]]
+
 category: people
 
 [[!redirects Krzysztof Kapulkin]]
