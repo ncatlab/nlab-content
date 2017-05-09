@@ -17,6 +17,7 @@
 
 The _point space_ $\ast$ is the [[topological space]] whose underlying set is [[generalized the|the]] [[singleton]], and equipped with the unique topology that this set carries.
 
+
 ## Properties
 
 ### General
@@ -159,7 +160,8 @@ Finally, it is clear that these two operations are inverse to each other.
 
 ## Related concepts
 
-* [[empty space]]
+[[!include universal constructions of topological spaces -- table]]
+
 
 * [[Sierpinski space]]
 
