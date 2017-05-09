@@ -40,7 +40,7 @@ More generally:
 
 For $U \subset \mathbb{R}^n$ an [[open subset]] of a [[Cartesian space]], for any $n \in \mathbb{N}$, and for $f \colon U \to \mathbb{R}^n$ a [[continuous map|continuous]] [[injective map]], then its [[image]] $f(U)$ is also an [[open subset]].
 
-In other words, continuous injections between Cartesian spaces are [[open maps]].  
+In other words, continuous injections between Cartesian spaces of the same [[dimension]] are [[open maps]].  
 
 =--
 
@@ -54,7 +54,7 @@ For $n_1, n_2 \in \mathbb{N}$, there is a [[continuous map|continuous]] [[inject
 =--
 
 +-- {: .proof}
-####### Proof
+###### Proof
 
 If $n_1 \leq n_2$, use $\iota_{n_1,n_2}\colon (x_1, \ldots, x_{n_1}) \mapsto (x_1, \ldots, x_{n_1}, \vec{0})$, where $\vec{0}$ consists of $n_2 - n_1$ copies of $0$.  If $n_1 \gt n_2$, then supposing a continuous injection $f\colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$, compose $f$ with $\iota_{n_2,n_1}$ to get a map from $\mathbb{R}^{n_1}$ to itself, also a continuous injection.  By invariance of domain (theorem \ref{InvarianceOfDomain}), the [[image]] of this map is open in $\mathbb{R}^{n_1}$, yet contained in the range of $\iota_{n_2,n_1}$, and the only open subset of that range is [[empty subset|empty]], a contradiction since $\mathbb{R}^{n_1}$ is not empty.
 =--
