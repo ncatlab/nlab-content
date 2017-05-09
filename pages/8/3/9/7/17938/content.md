@@ -27,30 +27,40 @@ Notice that, while of course there is also an injection $\mathbb{R} \to \mathbb{
 
 ## Construction 
 
-One of the quickest constructions of a surjective continuous map $f: I \to I \times I$ seems to be due to Lebesgue and is closely connected with the Cantor-Lebesgue function. 
+There are many constructions of space-filling curves, but one of the quickest is due to Lebesgue and is closely connected with the Cantor-Lebesgue function. 
 
-[[Cantor space]] (following the "middle thirds" construction) can be described as the subspace $C$ of $[0, 1]$ consisting of points whose base-$3$ expansion $.a_1 a_2 a_3 \ldots = \sum_{i=1}^{\infty} \frac{a_i}{3^i}$ has $a_i \in \{0, 2\}$ for all $i$. The Cantor-Lebesgue function is the unique monotone function $\phi: I \to I$ such that 
+[[Cantor space]] (following the "middle thirds" construction) can be described as the subspace $C$ of $[0, 1]$ consisting of points whose base-$3$ expansion $.a_1 a_2 a_3 \ldots = \sum_{i=1}^{\infty} \frac{a_i}{3^i}$ has $a_i \in \{0, 2\}$ for all $i$. Define a function $\phi: C \to I$ by 
 
 $$\phi\left(\sum_{i=1}^\infty \frac{a_i}{3^i}\right) = \sum_{i=1}^\infty \frac{a_i/2}{2^i}$$ 
 
-(so that we just replace $2$'s in the base $3$ representation by $1$'s and reinterpret the sequence as representing a number in base $2$). Notice that some pairs of distinct points in Cantor space are mapped to the same in $I$, for example 
+(i.e., replace $2$'s in the base $3$ representation by $1$'s and reinterpret the sequence as representing a number in base $2$). Notice that $\phi$ maps the two endpoints of any one of the open intervals removed during the middle-thirds construction to the same point, e.g., for the first middle third we have 
 
-$$\phi(.20022022222222\ldots_3) = \phi(.2002220000000\ldots)$$ 
+$$\phi(.02222222\ldots_3) = .01111111\ldots_2 = 10000000\ldots_2 = \phi(.20000000\ldots_3).$$ 
 
-where one has a tail $022222\ldots$ and the other a tail $200000\ldots$. We define $\phi$ to be constant on each such interval having the points of such a pair as its endpoints. 
-
-It is very easy to see that the restriction $\phi: C \to I$ is a continuous surjective map. 
+In any case, it is very easy to see that the restriction $\phi: C \to I$ is a continuous surjective map. 
 
 Now: $C$ is homeomorphic to the [[product space]] $2^\mathbb{N}$, a countable product of copies of the [[discrete space]] $2 = \{0, 1\}$. Of course we also have a bijection $\mathbb{N} \cong \mathbb{N} + \mathbb{N}$, inducing a homeomorphism 
 
 $$2^\mathbb{N} \cong 2^{\mathbb{N} + \mathbb{N}} \cong 2^\mathbb{N} \times 2^\mathbb{N}$$ 
 
-or a homeomorphism $pair: C \cong C \times C$. We may exploit this to construct a continuous surjection 
+or a homeomorphism, which we may call a "pairing function" (see [[Jonsson-Tarski algebra]]), $pair: C \cong C \times C$. We use this to construct a continuous surjection 
 
-$$C \stackrel{pair}{\to} C \times C \stackrel{\phi \times \phi}{\to} I \times I$$ 
+$$C \stackrel{pair}{\to} C \times C \stackrel{\phi \times \phi}{\to} I \times I,$$ 
 
-and now we simply extend this to a continuous function ...
+denoted say $g: C \to I \times I$, and Lebesgue's idea is to extend $g$ to a continuous function $f: I \to I \times I$ by linear interpolation: if $x \in I$ belongs to one of the open intervals $(a, b)$ removed during the middle thirds construction, say $x = t a + (1 - t)b$ for some $t \in (0, 1)$, then define 
 
+$$f(x) = t g(a) + (1 - t)g(b).$$ 
+
+Obviously $f$ is continuous at each such interior point $x$ (being an affine function), and so it remains to check that $f$ is continuous at each point of $C$. So let $a \in C$, and let us prove that $f(x) \to f(a)$ as $x$ approaches $a$ from the right (a similar argument will prove continuity from the left). This is obvious if $a$ is the left endpoint of one of the removed open intervals; otherwise $a$ is a limit from the right of points of $C$. Now $g: C \to I$ is continuous, so for all $\epsilon \gt 0$ there exists $\delta \gt 0$ such that ${|g(x) - g(a)|} \lt \epsilon$ whenever $x \in [a, a + \delta)$ and $x \in C$. What if $x \notin C$? Shrinking $\delta$ if need be, we may assume $a + \delta$ is a right-hand endpoint of a removed open interval, and consider the case where $x \in [a, a + \delta)$ and $x \notin C$, say $x \in (b, c)$ where $(b, c)$ is a removed open interval and $b, c \in [a, a + \delta)$. But we get the same bound as before: putting $x = t b + (1 - t)c$, we have 
+
+$$\array{
+{|f(x) - f(a)|} & = & {\left|[t g(b) + (1 - t)g(c)] - g(a)\right|} \\ 
+ & = & {\left|t(g(b) - g(a)) + (1 - t)(g(c) - g(a))\right|} \\ 
+ & \leq & t{\left|g(b) - g(a)\right|} + (1 - t){\left|g(c) - g(a)\right|} \\ 
+ & \lt & t\epsilon + (1 - t)\epsilon = \epsilon
+}$$ 
+
+which completes the demonstration. 
 
 
 ## Hahn-Mazurkiewicz theorem 
