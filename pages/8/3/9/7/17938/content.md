@@ -25,6 +25,34 @@ One can similarly show that there is a continuous surjection $\mathbb{R}^1 \to \
 
 Notice that, while of course there is also an injection $\mathbb{R} \to \mathbb{R}^2$, there is _no_ [[homeomorphism]] between these two spaces, or generally between [[Euclidean  spaces]] of differing [[dimension]]. This is the statement of _[[topological invariance of dimension]]_.
 
+## Construction 
+
+One of the quickest constructions of a surjective continuous map $f: I \to I \times I$ seems to be due to Lebesgue and is closely connected with the Cantor-Lebesgue function. 
+
+[[Cantor space]] (following the "middle thirds" construction) can be described as the subspace $C$ of $[0, 1]$ consisting of points whose base-$3$ expansion $.a_1 a_2 a_3 \ldots = \sum_{i=1}^{\infty} \frac{a_i}{3^i}$ has $a_i \in \{0, 2\}$ for all $i$. The Cantor-Lebesgue function is the unique monotone function $\phi: I \to I$ such that 
+
+$$\phi\left(\sum_{i=1}^\infty \frac{a_i}{3^i}\right) = \sum_{i=1}^\infty \frac{a_i/2}{2^i}$$ 
+
+(so that we just replace $2$'s in the base $3$ representation by $1$'s and reinterpret the sequence as representing a number in base $2$). Notice that some pairs of distinct points in Cantor space are mapped to the same in $I$, for example 
+
+$$\phi(.20022022222222\ldots_3) = \phi(.2002220000000\ldots)$$ 
+
+where one has a tail $022222\ldots$ and the other a tail $200000\ldots$. We define $\phi$ to be constant on each such interval having the points of such a pair as its endpoints. 
+
+It is very easy to see that the restriction $\phi: C \to I$ is a continuous surjective map. 
+
+Now: $C$ is homeomorphic to the [[product space]] $2^\mathbb{N}$, a countable product of copies of the [[discrete space]] $2 = \{0, 1\}$. Of course we also have a bijection $\mathbb{N} \cong \mathbb{N} + \mathbb{N}$, inducing a homeomorphism 
+
+$$2^\mathbb{N} \cong 2^{\mathbb{N} + \mathbb{N}} \cong 2^\mathbb{N} \times 2^\mathbb{N}$$ 
+
+or a homeomorphism $pair: C \cong C \times C$. We may exploit this to construct a continuous surjection 
+
+$$C \stackrel{pair}{\to} C \times C \stackrel{\phi \times \phi}{\to} I \times I$$ 
+
+and now we simply extend this to a continuous function ...
+
+
+
 ## Hahn-Mazurkiewicz theorem 
 
 The eponymous theorem may be stated as follows: 
