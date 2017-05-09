@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Content#
 * table of contents
 {:toc}
@@ -11,6 +23,10 @@ In a [[topological space]] $(X,\tau)$ a point $x \in X$ is called a _closed poin
 ## Related concepts
 
 * [[irreducible closed subset]]
+
+* [[open point]]
+
+* [[interior point]]
 
 ## Properties
 
