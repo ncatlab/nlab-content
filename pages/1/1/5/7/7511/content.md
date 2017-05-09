@@ -5,7 +5,7 @@
 
 ## Idea
 
-In [[classical logic|boolean]] [[propositional logic]], a _tautology_ is any [[proposition]] whose validity is unconditional --- independent of the validity of its propositional variables. Several generalizations are possible. On the one hand, the family of boolean tautolgies is also the family of boolean [[theorems]]: a proposition is a boolean tautology iff it has a boolean proof. On the other hand, construing a boolean proposition as a [[universal quantification|universalized]] [[equation]] in the language of [[boolean algebras]], the boolean propositions are also the (universal, first-order) propositions of the form $P(x_1,...,x_n) = \top$ that are valid in every boolean algebra.
+In [[classical logic|boolean]] [[propositional logic]], a _tautology_ is any [[proposition]] whose validity is unconditional --- independent of the validity of its propositional variables. Several generalizations are possible. On the one hand, the family of boolean tautologies is also the family of boolean [[theorems]]: a proposition is a boolean tautology iff it has a boolean proof. On the other hand, construing a boolean proposition as a [[universal quantification|universalized]] [[equation]] in the language of [[boolean algebras]], the boolean propositions are also the (universal, first-order) propositions of the form $P(x_1,...,x_n) = \top$ that are valid in every boolean algebra.
 
 Of course, tautologies exist in other logics besides boolean logic, although boolean logic is perhaps the simplest nontrivial case.
 
