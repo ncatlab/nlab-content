@@ -8,7 +8,7 @@
 $\,$
 
 
-This entry is a detailed introduction to the [[stable homotopy category]] and to its key computational tool, the [[Adams spectral sequence]]. To that end we introduce the modern tools, such as [[model categories]] and [[highly structured ring spectra]]. In the accompanying [[Introduction to Stable homotopy theory -- S|seminar]] we consider applications to [[cobordism theory]] and [[complex oriented cohomology]] such as to converge in the end to a glimpse of the modern picture of [[chromatic homotopy theory]]._
+This entry is a detailed introduction to the [[stable homotopy category]] and to its key computational tool, the [[Adams spectral sequence]]. To that end we introduce the modern tools, such as [[model categories]] and [[highly structured ring spectra]]. In the accompanying [[Introduction to Stable homotopy theory -- S|seminar]] we consider applications to [[cobordism theory]] and [[complex oriented cohomology]] such as to converge in the end to a glimpse of the modern picture of [[chromatic homotopy theory]].
 
 
 
@@ -21,28 +21,40 @@ $\,$
 {#AA} Lecture notes. $\;\;\;\;\;\;\;$ (web version requires Firefox browser -- [free download](https://www.mozilla.org/en-US/firefox/new/))
 <br/>
 <br/>
-_[[Introduction to Stable homotopy theory -- P|Prelude -- Classical homotopy theory]]_ ([[IntroductionToStableHomotopyTheory-P-161227.pdf:file]] 111 pages)
+
+
+
+_[[Introduction to Stable homotopy theory -- P|Prelude -- Classical homotopy theory]]_ ([[IntroductionToStableHomotopyTheory-P-170509.pdf:file]] 111 pages)
 <br/>
 <br/>
 _[[Introduction to Stable homotopy theory -- 1|Part 1 -- Stable homotopy theory]]_ 
 <br/>
 <br/>
-* _[[Introduction to stable homotopy theory -- 1-1|Part 1.1 -- Sequential Spectra]]_ ([[IntroductionToStableHomotopyTheory-1-1-161227.pdf:file]], 80 pages)
+$\,\,$ _[[Introduction to stable homotopy theory -- 1-1|Part 1.1 -- Sequential Spectra]]_ ([[IntroductionToStableHomotopyTheory-1-1-170509.pdf:file]], 79 pages)
 <br/>
 <br/>
-* _[[Introduction to Stable homotopy theory -- 1-2|Part 1.2 -- Structured Spectra]]_ ([[IntroductionToStableHomotopyTheory-1-2-161227.pdf:file]], 75 pages)
+$\,\,$ _[[Introduction to Stable homotopy theory -- 1-2|Part 1.2 -- Structured Spectra]]_ ([[IntroductionToStableHomotopyTheory-1-2-170509.pdf:file]], 75 pages)
 <br/>
 <br/>
-_[[Introduction to Stable homotopy theory -- I|Interlude -- Spectral sequences]]_ ([[IntroductionToStableHomotopyTheory-I-161227.pdf:file]], 16 pages)
+_[[Introduction to Stable homotopy theory -- I|Interlude -- Spectral sequences]]_ ([[IntroductionToStableHomotopyTheory-I-170509.pdf:file]], 15 pages)
 <br/>
 <br/>
-_[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_ ([[IntroductionToStableHomotopyTheory-2-161227.pdf:file]], 54 pages)
+_[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_ ([[IntroductionToStableHomotopyTheory-2-170509.pdf:file]], 53 pages)
 <br/>
 <br/>
-_[[Introduction to Cobordism and Complex Oriented Cohomology]]_ ([[IntroductionToStableHomotopyTheory-S-161227.pdf:file]], 76 pages)
+_[[Introduction to Cobordism and Complex Oriented Cohomology|Examples and Applications -- Cobordism and Complex Oriented Cohomology]]_ ([[IntroductionToStableHomotopyTheory-S-161227.pdf:file]], 76 pages)
+<br/>
+<br/>
+**total file** ([[IntroductionToStableHomotopyTheory-170509.pdf:file]], 418 pages)
+<br/>
+<br/>
+Background reading:
 <br/>
 <br/>
 _[[schreiber:Introduction to Homological algebra|Background -- Introduction to Homological algebra]]_ ([[IntroductionToHomologicalAlgebra-161227.pdf:file]], 83 pages)
+<br/>
+<br/>
+_[[Introduction to Topology|Background -- Introduction to Topology]]_ ([pdf](https://ncatlab.org/nlab/files/IntroductionToTopologyI-170509.pdf), 122 pages)
 
 ***
 
@@ -86,7 +98,7 @@ $$
   \,.
 $$
 
-Most of [[linear algebra]] and [[algebraic geometry]] passes along as [[abelian groups]] are generalized to [[spectra]] and turns into something remarkably rich, called _[[brave new algebra]]_, _[[higher algebra]]_ and _[[E-∞ geometry|spectral geometry]]_. In particular the analog of the theory of ([[commutative ring|commutative]]) [[rings]] and their [[modules]] exist, given by ([[commutative ring spectrum|commutative]]) [[ring spectra]] ([[E-∞ rings]], [[A-∞ rings]]) and [[module spectra]] ([[∞-modules]]). 
+Most of [[linear algebra]] and [[algebraic geometry]] passes along as [[abelian groups]] are generalized to [[spectra]] and turns into something remarkably rich, called _[[brave new algebra]]_, _[[higher algebra]]_ and _[[E-∞ geometry|spectral geometry]]_. In particular the analog of the theory of ([[commutative ring|commutative]]) [[rings]] and their [[modules]] exists, given by ([[commutative ring spectrum|commutative]]) [[ring spectra]] ([[E-∞ rings]], [[A-∞ rings]]) and [[module spectra]] ([[∞-modules]]). 
 
 ### 2) Adams spectral sequences
  {#ANSS}
