@@ -64,7 +64,7 @@ The Parmenides dialogue has influenced, and its topics (and mysterious style) ha
 
 * {#deLaurentiis04} A. de Laurentiis, _On Hegel's reading of Plato's Parmenides_, 2004 
 
-* {#Priest12} G. Priest , _The Parmenides: a Dialetheic Interpretation_ ,  Plato J.Int. Plato Soc.**12** (2012)([link](http://gramata.univ-paris1.fr/Plato/article120.html))
+* {#Priest12} G. Priest, _The Parmenides: a Dialetheic Interpretation_,  Plato J.Int. Plato Soc.**12** (2012)([link](http://gramata.univ-paris1.fr/Plato/article120.html))
 
 [[!redirects Parmenides]]
 
