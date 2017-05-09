@@ -379,9 +379,9 @@ Other texts include
 
 ### Foundations
 
-The [[foundation]] of category theory in [[homotopy type theory]] (via the notion of [[internal category in an (infinity,1)-category]]) is discussed in 
+The [[foundation]] of category theory in [[homotopy type theory]] (see at _[[internal category in homotopy type theory]]_) is discussed in 
 
-* Benedikt Ahrens, [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_ ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
+* [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_ ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
 
 
 ### Course notes
