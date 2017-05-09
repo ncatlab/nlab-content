@@ -161,7 +161,7 @@ Cantor space, especially in its guise as a subspace of the real line, is quite f
 
 *  Cantor space is [[connected space|totally disconnected]]. 
 
-*  Cantor space is [[metric space|metrizable]], and every compact metrizable space is a [[quotient space]] of Cantor space.
+*  Cantor space is [[metric space|metrizable]], and every compact metrizable space is a [[quotient space]] of Cantor space (see Theorem \ref{HA} below).
 
 *  As a subspace of $\mathbb{R}$, the Cantor set is [[perfect space|perfect]] and [[uncountable set|uncountable]] but of [[Lebesgue measure|Lebesgue]] [[null set|measure zero]].
 
@@ -192,11 +192,13 @@ It follows from this result that all such spaces $X$ are homeomorphic: they all 
 
 Cantor space is also a "universal" compact metric space in the following sense. 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #HA} 
 ###### Theorem 
 **(Hausdorff-Alexandroff)** 
 Every compact metric space is a continuous image of Cantor space. 
 =-- 
+
+This implies that every compact metric space is a [[quotient space]] of Cantor space, since a surjective map between [[compact Hausdorff spaces]] is a closed surjection, and closed surjections are quotient maps. 
 
 +-- {: .proof} 
 ###### Proof 
