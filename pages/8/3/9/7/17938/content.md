@@ -29,21 +29,21 @@ Notice that, while of course there is also an injection $\mathbb{R} \to \mathbb{
 
 There are many constructions of space-filling curves, but one of the quickest is due to Lebesgue and is closely connected with the Cantor-Lebesgue function. 
 
-[[Cantor space]] (following the "middle thirds" construction) can be described as the subspace $C$ of $[0, 1]$ consisting of points whose base-$3$ expansion $.a_1 a_2 a_3 \ldots = \sum_{i=1}^{\infty} \frac{a_i}{3^i}$ has $a_i \in \{0, 2\}$ for all $i$. Define a function $\phi: C \to I$ by 
+[[Cantor space]] (following the "middle thirds" construction) can be described as the subspace $C$ of $[0, 1]$ consisting of points whose base-$3$ representation $.a_1 a_2 a_3 \ldots = \sum_{i=1}^{\infty} \frac{a_i}{3^i}$ has $a_i \in \{0, 2\}$ for all $i$ (no $1$\'s). Define a function $\phi: C \to I$ by 
 
 $$\phi\left(\sum_{i=1}^\infty \frac{a_i}{3^i}\right) = \sum_{i=1}^\infty \frac{a_i/2}{2^i}$$ 
 
-(i.e., replace $2$'s in the base $3$ representation by $1$'s and reinterpret the sequence as representing a number in base $2$). Notice that $\phi$ maps the two endpoints of any one of the open intervals removed during the middle-thirds construction to the same point, e.g., for the first middle third we have 
+(i.e., replace $2$'s in the base $3$ representation by $1$'s and reinterpret the sequence as representing a number in base $2$). Notice that $\phi$ maps the two endpoints of any one of the open intervals removed during the middle-thirds construction to the same point, e.g., for the first middle third $(\frac1{3}, \frac{2}{3})$ we have 
 
 $$\phi(.02222222\ldots_3) = .01111111\ldots_2 = 10000000\ldots_2 = \phi(.20000000\ldots_3).$$ 
 
-In any case, it is very easy to see that the restriction $\phi: C \to I$ is a continuous surjective map. 
+In any case, it is very easy to see that $\phi: C \to I$ is a continuous surjective map. 
 
 Now: $C$ is homeomorphic to the [[product space]] $2^\mathbb{N}$, a countable product of copies of the [[discrete space]] $2 = \{0, 1\}$. Of course we also have a bijection $\mathbb{N} \cong \mathbb{N} + \mathbb{N}$, inducing a homeomorphism 
 
 $$2^\mathbb{N} \cong 2^{\mathbb{N} + \mathbb{N}} \cong 2^\mathbb{N} \times 2^\mathbb{N}$$ 
 
-or a homeomorphism that we may call a "pairing function" (see [[Jonsson-Tarski algebra]]), $pair: C \cong C \times C$. We use this to construct a continuous surjection 
+and hence a "pairing function" $pair: C \cong C \times C$ that is a homeomorphism (see [[Jonsson-Tarski algebra]]). We use this to construct a continuous surjection 
 
 $$C \stackrel{pair}{\to} C \times C \stackrel{\phi \times \phi}{\to} I \times I,$$ 
 
@@ -51,7 +51,16 @@ denoted say $g: C \to I \times I$, and Lebesgue's idea is to extend $g$ to a con
 
 $$f(x) = t g(a) + (1 - t)g(b).$$ 
 
-Obviously $f$ is continuous at each such interior point $x$ (being locally an [[affine map]] there), and so it remains to check that $f$ is continuous at each point of $C$. So let $a \in C$, and let us prove that $f(x) \to f(a)$ as $x$ approaches $a$ from the right (a similar argument will prove continuity from the left). This is obvious if $a$ is the left endpoint of one of the removed open intervals, again because $f$ is affine to the immediate right of $a$. If not, then $a$ is a limit from the right of points of $C$. Now $g: C \to I$ is continuous, so for every $\epsilon \gt 0$ there exists $\delta \gt 0$ such that ${|g(x) - g(a)|} \lt \epsilon$ whenever $x \in [a, a + \delta)$ and $x \in C$. What if $x \notin C$? Shrinking $\delta$ if need be, we may assume $a + \delta$ is a right-hand endpoint of a removed open interval, and consider the case where $x \in [a, a + \delta)$ and $x \notin C$, say $x \in (b, c)$ where $(b, c)$ is a removed open interval and $b, c \in [a, a + \delta)$. But we get the same $\epsilon$-bound as before: putting $x = t b + (1 - t)c$, we have 
++-- {: .num_prop} 
+###### Proposition 
+The function $f: I \to I \times I$ thus defined is surjective and continuous. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Surjectivity follows from the fact that its restriction $g: C \to I \times I$ is surjective. 
+
+Obviously for each open interval removed in the middle thirds construction, $f$ is continuous at each interior point $x$ (being locally an [[affine map]] there), and so it remains to check that $f$ is continuous at each point of $C$. So let $a \in C$, and let us prove that $f(x) \to f(a)$ as $x$ approaches $a$ from the right; a similar argument will prove continuity from the left. This is obvious if $a$ is the left endpoint of one of the removed open intervals, again because $f$ is affine to the immediate right of $a$. If not, then $a$ is a limit from the right of points of $C$. Now $g: C \to I$ is continuous, so for every $\epsilon \gt 0$ there exists $\delta \gt 0$ such that ${|g(x) - g(a)|} \lt \epsilon$ whenever $x \in [a, a + \delta)$ and $x \in C$. What if $x \notin C$? Shrinking $\delta$ if need be, we may assume $a + \delta$ is a right-hand endpoint of a removed open interval, and consider the case where $x \in [a, a + \delta)$ and $x \notin C$, say $x \in (b, c)$ where $(b, c)$ is a removed open interval and $b, c \in [a, a + \delta)$. But we get the same $\epsilon$-bound as before: putting $x = t b + (1 - t)c$, we have 
 
 $$\array{
 {|f(x) - f(a)|} & = & {\left|[t g(b) + (1 - t)g(c)] - g(a)\right|} \\ 
@@ -61,6 +70,9 @@ $$\array{
 }$$ 
 
 which completes the demonstration. 
+=-- 
+
+The same method can be used to exhibit a space-filling curve $I \to I^S$ for any set $S$ of finite or countable [[cardinality]]. Note that in the case where $S$ is a singleton, where we extend the inclusion map $C \hookrightarrow I$ to $I \to I$ by linear interpolation, we get the [Cantor-Lebesgue function](https://en.wikipedia.org/wiki/Cantor_function). 
 
 
 ## Hahn-Mazurkiewicz theorem 
