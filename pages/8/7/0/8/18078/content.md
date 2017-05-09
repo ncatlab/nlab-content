@@ -1,4 +1,10 @@
-
-[[StereographicProjection.png:file]]
-
-<img src="https://ncatlab.org/nlab/files/StereographicProjection.png" >
+$$
+  eq(f,g)
+   \hookrightarrow
+  X
+    \underoverset
+      {\underset{\phantom{A}g\phantom{A}}{\longrightarrow}}
+      {\overset{\phantom{A}f\phantom{A}}{\longrightarrow}}
+      {}
+  Y
+$$
