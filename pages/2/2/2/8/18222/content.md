@@ -1,0 +1,8 @@
+
+* [webpage](http://benedikt-ahrens.de/)
+
+## related $n$Lab entries
+
+* [[internal category in homotopy type theory]]
+
+category: people
