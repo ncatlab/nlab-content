@@ -19,7 +19,7 @@
 > under construction
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -86,6 +86,8 @@ There is also the notion of
 of a topological space or manifold. This is a priori an independent notion of cover, but for the standard [[Grothendieck topologies]] on [[Top]], [[Diff]], etc. the projection $\{\hat X \to X\}$ from a covering space is a covering family.
 
 ## Related concepts
+
+* [[open cover]]
 
 * [[covering]]
 
