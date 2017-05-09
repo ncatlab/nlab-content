@@ -288,6 +288,8 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 
 * [[HoTT methods for homotopy theorists]]
 
+* [[internal category in homotopy type theory]]
+
 * [[Homotopy Type System]]
 
 * [[modal homotopy type theory]]
@@ -299,6 +301,8 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 * [[directed homotopy type theory]]
 
   [[opetopic type theory]]
+
+
 
 [[!include homotopy n-types - table]]
 
