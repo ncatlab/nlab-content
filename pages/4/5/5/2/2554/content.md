@@ -1,7 +1,7 @@
 
 **[[homotopy theory]]**
 
-* [[algebraic topology]], [[simplicial homotopy theory]]
+* [[algebraic topology]], [[simplicial homotopy theory]], [[stable homotopy theory]]
 
 ## Introductions
 
