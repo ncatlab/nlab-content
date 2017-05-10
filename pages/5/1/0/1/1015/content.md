@@ -70,6 +70,12 @@ There is also [[algebraic set theory]], in which a material set theory is interp
 
 * [[type theory]]
 
+* [[constructive set theory]]
+
+* [[algebraic set theory]]
+
+* [[descriptive set theory]]
+
 ## Literature
 
 ### General
