@@ -46,9 +46,12 @@ To prove Tychonoff's theorem for [[Hausdorff topological spaces]] only, the full
 
 * [elementary proof for the finitary case](#ElementaryProofOfFinitaryCase)
 
+* [elementary proof via closed-projection characterization](#ElementaryProofViaClosedProjectionCharacterization)
+
 * [proof via net convergence](#ProofViaNets)
 
 * [proof via ultrafilter convergence](#ProofViaUltrafilters)
+
 
 ### Elementary proof of finitary case
  {#ElementaryProofOfFinitaryCase}
@@ -191,6 +194,15 @@ is a finite subcover as required.
 t
 
 =--
+
+
+### Elementary proof of general case via closed-projection characterization
+ {#ElementaryProofViaClosedProjectionCharacterization}
+
+Another equivalent characterization of compactness of a space $X$ is that for all spaces $Y$ then the [[projection]] $\pi_Y \;\colon\; Y \times X \to Y$ out of the [[product topological space]] is a [[closed map]], see at _[[closed-projection characterization of compactness]]_.
+
+This characterization allows an elementary proof of the general Tychonoff theorem, see [there](closed-projection+characterization+of+compactness#TychonoffTheorem).
+
 
 
 ### Proof via net convergence
@@ -400,9 +412,6 @@ the class of proper maps?
 
 Considerations above show that it is contained in the class of proper maps and that it contains proper maps between normal (T4) spaces (this is what gives the standard proof of the Taimanov theorem).
 
-### Proof via the closed-projection characterization of compactness 
-
-See [[closed-projection characterization of compactness]]. 
 
 ### Proof of converses
 
