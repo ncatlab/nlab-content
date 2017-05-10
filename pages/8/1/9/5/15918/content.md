@@ -75,6 +75,8 @@ The third axiom is actually redundant, being an instance of the induction scheme
 
 * [[Robinson arithmetic]]
 
+* [[Heyting arithmetic]]
+
 ## References
 
 Named after [[Guiseppe Peano]]
