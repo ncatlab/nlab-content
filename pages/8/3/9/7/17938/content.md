@@ -72,7 +72,7 @@ $$\array{
 which completes the demonstration. 
 =-- 
 
-The same method can be used to exhibit a space-filling curve $I \to I^S$ for any set $S$ of finite or countable [[cardinality]]. Note that in the case where $S$ is a singleton, where we extend the inclusion map $C \hookrightarrow I$ to $I \to I$ by linear interpolation, we get the [Cantor-Lebesgue function](https://en.wikipedia.org/wiki/Cantor_function). 
+The same method can be used to exhibit a space-filling curve $I \to I^S$ for any set $S$ of finite or countable [[cardinality]]. Note that in the case where $S$ is a singleton, where we extend the surjection $C \to I$ to $I \to I$ by linear interpolation, we get the [Cantor-Lebesgue function](https://en.wikipedia.org/wiki/Cantor_function). 
 
 
 ## Hahn-Mazurkiewicz theorem 
