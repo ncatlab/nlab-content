@@ -1,3 +1,4 @@
+[[!redirects projective sets]]
 
 > For _[[projective object]]_, see there instead.
 
@@ -18,3 +19,5 @@ A _projective set_ is a [[set]] obtained from [[Borel sets]] via [[projections]]
 ## References
 
 * [[eom]], _[Projective set](https://www.encyclopediaofmath.org/index.php/Projective_set)_
+
+[[!redirects projective sets]] 
