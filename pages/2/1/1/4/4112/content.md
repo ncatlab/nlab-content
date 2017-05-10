@@ -26,29 +26,29 @@ What is called _Cantor space_, after [[Georg Cantor]], is the [[topological spac
 
 $$
   \array{
-    [0 && && &&  1]
+    \mathrlap{[0} && &,& &&  \mathllap{1]}
     \\
-    [0, && \tfrac{1}{3}] 
-     &\phantom{(\tfrac{1}{2}, \tfrac{2}{3})} &  [\tfrac{2}{3}, && 1]
+    \mathrlap{[0} &,& \mathllap{\tfrac{1}{3}]} 
+     &\phantom{(\tfrac{1}{2}, \tfrac{2}{3})} 
+     &  \mathrlap{[\tfrac{2}{3}} &,& \mathllap{1]}
     \\
-    [0,\tfrac{1}{9}]
+    \mathrlap{[0,\tfrac{1}{9}]}
     &
-    \phantom{ (\tfrac{1}{9}, \tfrac{2}{9}) }
+    \phantom{AAAAAAAA}
     &
-    [\tfrac{2}{9}, \tfrac{1}{3} ]
+    \mathllap{[\tfrac{2}{9}, \tfrac{1}{3} ]}
     &
     \phantom{  (\tfrac{1}{3}, \tfrac{2}{3}) }
     &
-    [\tfrac{2}{3}, \tfrac{7}{9}],
+    \mathrlap{[\tfrac{2}{3}, \tfrac{7}{9}]}
     &
-    \phantom{ (\tfrac{7}{9}, \tfrac{8}{9}  )  }
+    \phantom{AAAAAAAA}
     &
-    [\tfrac{8}{9}, 1]
+    \mathllap{[\tfrac{8}{9}, 1]}
     \\
     &&& \vdots
   }
 $$
-
 
 Cantor space is a fundamental object of [[descriptive set theory]]; some indications of its use may be found at [[Polish space]]. Among its applications is a simple construction of a "[[Peano curve|space-filling curve]]" (q.v.).
 
