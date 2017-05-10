@@ -34,7 +34,7 @@ If $X, Y$ are [[topological spaces]] with $X$ [[compact topological space|compac
 =-- 
 
 +-- {: .proof} 
-###### Proof t
+###### Proof 
 Let $C \subseteq Y \times X$ be a [[closed subset]]; we must show the [[direct image]] $\pi(C)$ is closed in $Y$. Suppose $y \notin \pi(C)$; equivalently, suppose that the [[pre-image]] $\pi^{-1}(y) = \{y\} \times X$ does not intersect $C$. By the nature of closed subsets ([this lemma](Introduction+to+Topology+--+1#UnionOfOpensGivesClosure)) it is sufficient that we find an [[open neighborhood]] $V$ of $y$ that does not [[intersection|intersect]] $\pi(C)$, or equivalently such that $(V \times X) \cap C = \emptyset$. Consider the collection of all open $U \subseteq X$ such that $(W \times U) \cap C = \emptyset$ for some [[open neighborhood]] $W$ of $y$. This collection [[open cover|covers]] $X$, since $(y, x) \notin C$ for every $x \in X$ and by closure of $C$ we can therefore find a neighborhood $W \times U$ of $(y, x)$ that doesn't intersect $C$. By compactness of $X$, this [[open cover]] has a [[finite cover|finite]] subcover, say $U_1, \ldots, U_n$. For each of these $U_i$ there is a corresponding $W_i$ such that $(W_i \times U_i) \cap C = \emptyset$ (in fact there is a unique largest such $W_i$: just take the union of all such). Now put $V \coloneqq \bigcap_{i=1}^n W_i$. We have for each $i$ between $1$ and $n$ that $V \times U_i \subseteq W_i \times U_i \subseteq \neg C$ (the [[complement]] of $C$ in $X \times Y$), hence 
 
 $$V \times X \;=\; V \times \bigcup_{i=1}^n U_i \;=\; \bigcup_{i=1}^n V \times U_i \subseteq \neg C$$ 
@@ -61,7 +61,7 @@ Given that collection, construct a space $Y$ whose underlying set ${|Y|}$ is for
 This means that every [[neighborhood]] $(C_i \cup \{\infty\}) \times U$ of $(\infty, x)$ intersects the [[diagonal]] $\Delta$ in an inhabited set. In other words, $C_i \cap U$ is inhabited. But this means that $x \in C_i$ for every $i$, for if $x \notin C_i$ for some $i$, then by closure of $C_i$ we could find an open neighborhood $U$ of $x$ such that $C_i \cap U = \emptyset$. Hence $x \in \bigcap_{i \in I} C_i$, making this intersection inhabited, as required. 
 =-- 
 
-+-- {: .num_remark} 
++-- {: .num_remark #Acknowledgement} 
 ###### Remark 
 I ([[Todd Trimble]]) learned of this particular arrangement of proof during an email exchange with [[Tom Leinster]], who told me he learned it from [[Ioan James]]. I don't know who first invented it though. Pedagogically it is attractive because it avoids any need to discuss nets or ultrafilters or filters; it's just straight-up topology of the kind taught at typical American undergraduate institutions. 
 =-- 
