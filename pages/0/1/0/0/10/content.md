@@ -306,7 +306,7 @@ Conversely, assume that $X$ is the nerve of a linear order. We show that then it
 
 [[Andre Joyal]] showed that $Set^{{\Delta}^{op}}$, the category of [[simplicial sets]], is the classifying topos for [[linear intervals]]. 
 
-Specifically a [[geometric morphism]] from $Set$ to $Set^{{\Delta}^{op}}$ is an [[linear interval]] in [[Set]], meaning a [[totally ordered set]] with distinct [[top]] and [[bottom]] elements. In general, a linear interval is a model for the one-sorted [[geometric theory]] whose [[signature]] consists of a binary [[relation]] $\leq$ and two [[constant|constants]] $0$, $1$, subject to the following [[axiom|axioms]]: 
+Specifically a [[geometric morphism]] from $Set$ to $Set^{{\Delta}^{op}}$ is an [[linear interval]] in [[Set]], meaning a [[totally ordered set]] with distinct [[top]] and [[bottom]] elements.  In general, a linear interval is a model for the one-sorted [[geometric theory]] whose [[signature]] consists of a binary [[relation]] $\leq$ and two [[constant|constants]] $0$, $1$, subject to the following [[axiom|axioms]]: 
 
 * $\vdash (x \leq x)$
 * $\exists_y (x \leq y) \wedge (y \leq z) \vdash (x \leq z)$ 
@@ -315,7 +315,9 @@ Specifically a [[geometric morphism]] from $Set$ to $Set^{{\Delta}^{op}}$ is an 
 * $\vdash (0 \leq x) \wedge (x \leq 1)$ 
 * $(0 = 1) \vdash false$ 
 
-(Joyal calls this a **strict** linear interval; by removing the hypothesis of distinct top and bottom, one arrives at a weaker notion he calls "linear interval". Linear intervals in this sense are classified by the topos $Set^{\Delta_{a}^{op}}$, where $\Delta_a$, sometimes called the algebraist's Delta or the augmented [[simplex category]], is the category of all finite ordinals including the empty one.) 
+(Joyal calls this a **strict** linear interval; by removing the hypothesis of distinct top and bottom, one arrives at a weaker notion he calls "linear interval". Linear intervals in this sense are classified by the topos $Set^{\Delta_{a}^{op}}$, where $\Delta_a$, sometimes called the algebraist's Delta or the augmented [[simplex category]], is the category of all finite ordinals including the empty one.)
+
+The generic such interval is $\Delta^1 \in Set^{{\Delta}^{op}}$; see [[generic interval]] for more details and references.
 
 ### For abstract circles
 
