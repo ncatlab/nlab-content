@@ -50,6 +50,8 @@ Computable mathematics is an instance of [[intuitionistic mathematics]] (see e.g
 
 * [[computable physics]]
 
+* [[descriptive set theory]]
+
 ## References
 
 The relation to [[constructive mathematics]] and [[realizability]] is discussed in
@@ -72,3 +74,6 @@ For [[computable analysis]] see
 
 [[!redirects computability theory]]
 [[!redirects computability theories]]
+
+[[!redirects recursion theory]]
+[[!redirects recursion theories]]
