@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -36,6 +35,8 @@ and developed in
 
 
 ## For associative and dg-algebras
+
+From Ben Webster on [mathoverflow](https://mathoverflow.net/a/394/2362):
 
 There are a lot of algebras whose derived categories are equivalent in surprising ways.  [[Morita equivalences]] are pretty simple, especially for finite dimensional algebras; essentially the only free parameter is the dimension of the object.
 
