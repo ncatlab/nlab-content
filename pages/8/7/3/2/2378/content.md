@@ -210,9 +210,107 @@ We moreover have a homeomorphism $Map(X,Map(Y,Z))\cong Map(X\times Y,Z)$ if in a
 
 =--
 
-## Metric spaces
+## Examples
 
-If $Y$ is a [[metric space]] then the compact-open topology on $Map(X,Y)$ is the _topology of uniform convergence on compact subsets_ in the sense that $f_n \to f$ in $Map(X,Y)$ with the compact-open topology iff for every compact subset $K\subset X$, $f_n \to f$ uniformly on $K$. If (in addition) the domain $X$ is compact then this is the _topology of uniform convergence_.
+### Maps out of the point space
+
++-- {: .num_example #MappingSpaceOutOfPoint}
+###### Example
+**([[mapping space]] construction out of the [[point space]] is the identity)**
+
+The [[point space]] $\ast$  is clearly a [[locally compact topological space]]. Hence for every [[topological space]] $(X,\tau)$ the mapping space $Maps(\ast, (X,\tau))$ exists. This is [[homeomorphism|homeomorphic]]  to the space $(x,\tau)$ itself:
+
+$$
+  Maps(\ast, (X,\tau))
+    \simeq
+  (X,\tau)
+  \,.
+$$
+
+=--
+
+
+
+### Maps into metric spaces
+
+If $Y$ is a [[metric space]] then the compact-open topology on $Map(X,Y)$ is the _topology of uniform convergence on compact subsets_ in the sense that $f_n \to f$ in $Map(X,Y)$ with the compact-open topology iff for every compact subset $K\subset X$, $f_n \to f$ uniformly on $K$. If (in addition) the domain $X$ is compact then this is the _[[topology of uniform convergence]]_.
+
+### Loop spaces and path spaces
+
++-- {: .num_example #LoopSpace}
+###### Example
+**([[loop space]] and [[path space]])**
+
+Let $(X,\tau)$ be any [[topological space]].
+
+1. The standard [[circle]] $S^1$ is a [[compact Hausdorff space]]
+   [[open subspaces of compact Hausdorff spaces are locally compact|hence]] a [[locally compact topological space]]. Accordingly the [[mapping space]]
+
+   $$
+     \mathcal{L} X \coloneqq Maps( S^1, (X,\tau) )
+   $$
+
+   exists. This is called the _[[free loop space]]_ of $(X,\tau)$.
+
+   If both $S^1$ and $X$ are equipped with a choice of point ("[[basepoint]]") $s_0 \in S^1$, $x_0 \in X$, then the [[topological subspace]]
+
+   $$
+     \Omega X \subset \mathcal{L}X
+   $$
+
+   on those functions which take the basepoint of $S^1$ to that of $X$, is called the _[[loop space]]_ of $X$,
+   or sometimes _[[based loop space]]_, for emphasis.
+
+1. Similarly the [[closed interval]] is a [[compact Hausdorff space]]
+   [[open subspaces of compact Hausdorff spaces are locally compact|hence]] a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}). Accordingly the [[mapping space]]
+
+   $$
+     Maps( [0,1], (X,\tau) )
+   $$
+
+   exists. Again if $X$ is equipped with a choice of basepoint $x_0 \in X$, then the [[topological subspace]] of those functions that take $0 \in [0,1]$ to that chosen basepoint is called the _[[path space]]_ of $(X\tau)$:
+
+   $$
+     P X \subset Maps( [0,1], (X,\tau) )
+     \,.
+   $$
+
+Notice that we may encode these subspaces more abstractly in terms of [[universal properties]]:
+
+The path space and the loop space are characterized, up to [[homeomorphisms]], as being the [[limit|limiting cones]]
+in the following [[pullback]] diagrams of topological spaces:
+
+1. [[loop space]]: 
+
+   $$
+     \array{
+       \Omega X &\longrightarrow& Maps(S^1, (X,\tau))
+       \\
+       \downarrow &(pb)& \downarrow^{\mathrlap{Maps(const_{s_0}, id_{(X,\tau)})}}
+       \\
+       \ast &\underset{const_{x_0}}{\longrightarrow}& X \simeq Maps(\ast,(X,\tau))
+     }
+     \,.
+   $$
+
+1. [[path space]]: 
+
+   $$
+     \array{
+       P X &\longrightarrow& Maps([0,1], (X,\tau))
+       \\
+       \downarrow &(pb)& \downarrow^{\mathrlap{Maps(const_x, id_{(X,\tau)})}}
+       \\
+       \ast &\underset{const_{x_0}}{\longrightarrow}& X \simeq Maps(\ast,(X,\tau))
+     }
+   $$
+
+Here on the right we are using that the mapping space construction is a [[functor]] and we are using example \ref{MappingSpaceOutOfPoint} in the
+identification on the bottom right mapping space out of the point space.
+
+
+=--
+
 
 
 ## Related concepts
