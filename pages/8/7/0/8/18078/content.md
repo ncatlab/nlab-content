@@ -1,28 +1,2 @@
 
-
-$$
-  \array{
-    \mathrlap{[0} && &,& &&  \mathllap{1]}
-    \\
-    \mathrlap{[0} &,& \mathllap{\tfrac{1}{3}]} 
-     &\phantom{(\tfrac{1}{2}, \tfrac{2}{3})} 
-     &  \mathrlap{[\tfrac{2}{3}} &,& \mathllap{1]}
-    \\
-    \mathrlap{[0,\tfrac{1}{9}]}
-    &
-    \phantom{AAAAAAAA}
-    &
-    \mathllap{[\tfrac{2}{9}, \tfrac{1}{3} ]}
-    &
-    \phantom{  (\tfrac{1}{3}, \tfrac{2}{3}) }
-    &
-    \mathrlap{[\tfrac{2}{3}, \tfrac{7}{9}]}
-    &
-    \phantom{AAAAAAAA}
-    &
-    \mathllap{[\tfrac{8}{9}, 1]}
-    \\
-    &&& \vdots
-  }
-$$
-
+$\nsubset$
