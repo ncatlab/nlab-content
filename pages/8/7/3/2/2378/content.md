@@ -56,7 +56,7 @@ Let $(X, \mathcal{O}_{X})$ be a [[topological space]]. We denote by $\mathcal{O}
 +-- {: .num_note}
 ###### Notation
 
-Let $(X, \mathcal{O}_{X})$ be a [[topological space]]. Let $A$ be a subset of $X$. We denote by $\overline{A}$ the closure of $A$ in $X$ with respect to  $\mathcal{O}_{X}$.
+Let $(X, \mathcal{O}_{X})$ be a [[topological space]]. Let $A$ be a subset of $X$. We denote by $\overline{A}$ the [[topological closure]] of $A$ in $X$ with respect to  $\mathcal{O}_{X}$.
 
 =--
 
@@ -183,7 +183,7 @@ We make the following observations.
 +-- {: .num_cor #GivesExponentialObject}
 ###### Corollary
 
-Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$  be [[topological spaces]]. Suppose that $(X, \mathcal{O}_{X})$ is locally compact. Then $(Y^{X}, \mathcal{O}_{Y^{X}})$ together with the corresponding map $ev$ defines an exponential object in the category $\mathsf{Top}$ of all topological spaces.
+Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$  be [[topological spaces]]. Suppose that $(X, \mathcal{O}_{X})$ is locally compact. Then $(Y^{X}, \mathcal{O}_{Y^{X}})$ together with the corresponding map $ev$ defines an [[exponential object]] in the [[category]] [[Top]] of all topological spaces.
 
 =--
 
