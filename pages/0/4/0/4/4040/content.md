@@ -99,7 +99,9 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[classifying space]]
 
-* [[compact-open topology|mapping space]], [[loop space]], [[path space]]
+* [[mapping spaces]]: [[compact-open topology]], [[topology of uniform convergence]]
+
+  * [[loop space]], [[path space]]
 
 * [[Zariski topology]]
 
