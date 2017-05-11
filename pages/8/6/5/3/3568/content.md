@@ -23,7 +23,7 @@ Fall 2014 [[seminar on factorization algebras]].
 ***
 Academic Activities:
 
-July, [[Lie Theory and ]]
+July 2017, [Lie Theory and Mathematical Physics](https://ncatlab.org/higherstructureconferences/show/Lie+Theory+and+Mathematical+Physics)
 
 16.04.2017--21.04.2017, [Banff](http://www.birs.ca/events/2017/5-day-
 workshops/17w5023)
