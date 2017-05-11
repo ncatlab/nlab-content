@@ -7910,8 +7910,10 @@ Given a CW-complex, then $X_n$ is also called its $n$-[[skeleton]].
  {#CompactSpaces}
 
 We discuss _[[compact topological spaces]]_ (def \ref{CompactTopologicalSpace} below), the generalization
-of compact metric spaces [above](#CompactMetricSpaces) . Compact spaces
-are in some sense the "small" objects among topological spaces, analogous in [[topology]] to what [[finite-dimensional vector spaces]] are in [[linear algebra]], and equally important in the theory.
+of compact metric spaces [above](#CompactMetricSpaces). Compact spaces
+are in some sense the "small" objects among topological spaces, analogous in [[topology]] to what 
+[[finite sets]] are in [[set theory]], or what 
+[[finite-dimensional vector spaces]] are in [[linear algebra]], and equally important in the theory.
 
 $\,$
 
@@ -8123,6 +8125,79 @@ We do so by observing that the alternatives lead to contradictions:
 This gives a [[proof by contradiction]].
 
 =--
+
+In [[analysis]], the [[extreme value theorem]] asserts that a [[real number|real]]-valued [[continuous function]]
+on the [[bounded subset|bounded]] [[closed interval]] (def. \ref{OpenAndClosedIntervals}) attains its
+[[maximum]] and [[minimum]]. The following is the generalization of this statement to general topological spaces:
+
++-- {: .num_lemma #ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain}
+###### Lemma
+**([[continuous surjections out of compact spaces have compact codomain]])**
+
+Let $f \colon (X,\tau_X) \longrightarrow (Y,\tau_Y)$ be a [[continuous function]] between [[topological spaces]] such that
+
+1. $(X,\tau_X)$ is a [[compact topological space]] (def. \ref{CompactTopologicalSpace});
+
+1. $f \colon X \to Y$ is a [[surjective function]].
+
+Then also $(Y,\tau_Y)$ is [[compact topological space|compact]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\{U_i \subset Y\}_{i \in I}$ be an [[open cover]] of $Y$ (def. \ref{OpenCover}). We need show that this has a finite sub-cover.
+
+By continuity of $f$, the [[pre-images]] $f^{-1}(U_i)$ are [[open subsets]] of $X$, and by the surjectivity of $f$ they form an [[open cover]] $\{f^{-1}(U_i) \subset X\}_{i \in I}$ of $X$. Hence by compactness of $X$, there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
+$\{f^{-1}(U_i) \subset X\}_{i \in J \subset I}$ is still an open cover of $X$. Finally, using again that $f$ is assumed to be surjective, it follows that
+
+$$
+  \begin{aligned}
+    Y
+      & = f(X)
+    \\
+      & = f\left( \underset{i \in J}{\cup} f^{-1}(U_i) \right)
+    \\
+      & = \underset{i \in J}{\cup} U_i
+  \end{aligned}
+$$
+
+which means that also $\{U_i \subset Y\}_{i \in J \subset I}$ is still an open cover of $Y$, and in particular a finite subcover of the original cover.
+
+=--
+
+
++-- {: .num_cor #ContinuousImageOfACompactSpaceIsCompact}
+###### Corollary
+**([[continuous images of compact spaces are compact]])**
+
+If $f \colon X \longrightarrow Y$ is a [[continuous function]] out of a [[compact topological space]] $X$ (def. \ref{CompactTopologicalSpace})
+which is not necessarily [[surjective function|surjective]], then we may consider its [[image factorization]]
+
+$$
+  f \;\colon\; X \overset{\phantom{AAA}}{\longrightarrow} f(X) \overset{\phantom{AAA}}{\hookrightarrow} Y
+$$
+
+as in example \ref{ImageFactorization}. Now by construction $X \to f(X)$ is surjective, and so lemma \ref{ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain} implies that $f(X)$ is compact.
+
+=--
+
+The converse to cor. \ref{ContinuousImageOfACompactSpaceIsCompact} does not hold in general: the
+pre-image of a compact subset under a continuous function need not be compact again. If this is
+the case, then we speak of _[[proper maps]]_:
+
++-- {: .num_defn #ProperContinuous}
+###### Definition
+**([[proper maps]])**
+
+A [[continuous function]] $f  \colon (X, \tau_X) \to (Y, \tau_Y)$
+is called _[[proper map|proper]]_ if for $C \in Y$ a [[compact topological space|compact]] [[topological subspace]]
+of $Y$, then also its [[pre-image]] $f^{-1}(C)$ is [[compact topological space|compact]] in $X$.
+
+=--
+
+
 
 There is also the following more subtle equivalent reformulation of compactness:
 
@@ -8645,15 +8720,29 @@ $$
 ###### Remark
 **(terminology issue regarding "locally compact")**
 
-On top of the terminology issue inherited from that of "compact" (remark \ref{CompactTerminology}),
+On top of the terminology issue inherited from that of "compact", remark \ref{CompactTerminology}
+(regarding whether or not to require "[[Hausdorff topological space|Hausdorff]]" with "compact"; we do not),
 the definition of "locally compact" is subject to further ambiguity in the literature.
 There are various definitions of locally compact spaces alternative to def. \ref{LocallyCompactSpace}.
 For [[Hausdorff topological spaces]] all these definitions
 happen to be equivalent, but in general they are not.
-The version we state in def. \ref{LocallyCompactSpace} is the one that makes prop. \ref{ExponentialObjectCompactOpen}
-below work _without_ requiring the Hausdorff property.
+The version we state in def. \ref{LocallyCompactSpace} is the one that gives the 
+[[universal property]] of the mapping space, prop. \ref{UniversalPropertyOfMappingSpace}
+below, without_ requiring the Hausdorff property.
 
 =--
+
++-- {: .num_example #OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}
+###### Example
+**([[open subspaces of compact Hausdorff spaces are locally compact]])**
+
+Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\sub} K$
+of a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
+[[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}) is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
+
+=--
+
+We **prove** this below as prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreNormalProp}, after having established a list of convenient general facts about compact Hausdorff spaces.
 
 
 
@@ -9229,7 +9318,49 @@ is an open neighbourhood of $Y_2$, and both are disjoint.
 
 =--
 
+With these statements in hand, the remaining proof of example \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}
+is immediate:
 
++-- {: .num_prop #OpenSubspacesOfCompactHausdorffSpacesAreNormalProp}
+###### Proposition
+**([[open subspaces of compact Hausdorff spaces are locally compact]])**
+
+Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\sub} K$
+of a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
+[[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}) is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
+
+=--
+
++-- {: .proof #ProofOfOpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}
+###### Proof
+
+Let $X$ be a [[topological space]] such that it arises as a [[topological subspace]] $X \subset K$
+of a [[compact Hausdorff space]]. We need to show that $X$ is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
+
+Let $x \in X$ be a point and let $U_x \subset X$ an open neighbourhood.  We need to produce a small open neighbourhood
+whose closure is compact and still contained in $U_x$.
+
+By the nature of the [[subspace topology]] there exists an open subset $V_x\subset K$ such that $U_x = X \cap V_x$.
+Since $X$ is assumed to be open, it follows that $U$ is also open as a subset of $K$. 
+Since [[compact Hausdorff spaces are normal]] (prop. \ref{CompactHausdorffSpacesAreNormal}) it 
+follows by prop. \ref{T4InTermsOfTopologicalClosures} that 
+there exists a smaller open neighbourhood $W_x \subset K$ whose [[topological closure]] is still contained in $U_x$,
+and since [[closed subspaces of compact spaces are compact]] (prop. \ref{ClosedSubsetsOfCompactSpacesAreCompact}):
+
+$$
+  \{x\} \subset W_x \subset \underset{\text{cpt}}{Cl(W_x)} \subset V_x \subset K
+  \,.
+$$
+
+The intersection of this situation with $X$ is the required smaller compact neighbourhood $Cl(W_x) \cap X$:
+
+$$
+  \{x\} \subset W_x \cap X \subset \underset{\text{cpt}}{Cl(W_x)} \cap X \subset U_x \subset X
+  \,.
+$$
+
+
+=--
 
 
 $\,$
@@ -9242,77 +9373,6 @@ We discuss some important relations between the concept of [[compact topological
 that of [[quotient topological spaces]].
 
 $\,$
-
-In [[analysis]], the [[extreme value theorem]] asserts that a [[real number|real]]-valued [[continuous function]]
-on the [[bounded subset|bounded]] [[closed interval]] (def. \ref{OpenAndClosedIntervals}) attains its
-[[maximum]] and [[minimum]]. The following is the generalization of this statement to general topological spaces:
-
-+-- {: .num_lemma #ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain}
-###### Lemma
-**([[continuous surjections out of compact spaces have compact codomain]])**
-
-Let $f \colon (X,\tau_X) \longrightarrow (Y,\tau_Y)$ be a [[continuous function]] between [[topological spaces]] such that
-
-1. $(X,\tau_X)$ is a [[compact topological space]] (def. \ref{CompactTopologicalSpace});
-
-1. $f \colon X \to Y$ is a [[surjective function]].
-
-Then also $(Y,\tau_Y)$ is [[compact topological space|compact]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Let $\{U_i \subset Y\}_{i \in I}$ be an [[open cover]] of $Y$ (def. \ref{OpenCover}). We need show that this has a finite sub-cover.
-
-By continuity of $f$, the [[pre-images]] $f^{-1}(U_i)$ are [[open subsets]] of $X$, and by the surjectivity of $f$ they form an [[open cover]] $\{f^{-1}(U_i) \subset X\}_{i \in I}$ of $X$. Hence by compactness of $X$, there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
-$\{f^{-1}(U_i) \subset X\}_{i \in J \subset I}$ is still an open cover of $X$. Finally, using again that $f$ is assumed to be surjective, it follows that
-
-$$
-  \begin{aligned}
-    Y
-      & = f(X)
-    \\
-      & = f\left( \underset{i \in J}{\cup} f^{-1}(U_i) \right)
-    \\
-      & = \underset{i \in J}{\cup} U_i
-  \end{aligned}
-$$
-
-which means that also $\{U_i \subset Y\}_{i \in J \subset I}$ is still an open cover of $Y$, and in particular a finite subcover of the original cover.
-
-=--
-
-
-+-- {: .num_cor #ContinuousImageOfACompactSpaceIsCompact}
-###### Corollary
-**([[continuous images of compact spaces are compact]])**
-
-If $f \colon X \longrightarrow Y$ is a [[continuous function]] out of a [[compact topological space]] $X$ (def. \ref{CompactTopologicalSpace})
-which is not necessarily [[surjective function|surjective]], then we may consider its [[image factorization]]
-
-$$
-  f \;\colon\; X \overset{\phantom{AAA}}{\longrightarrow} f(X) \overset{\phantom{AAA}}{\hookrightarrow} Y
-$$
-
-as in example \ref{ImageFactorization}. Now by construction $X \to f(X)$ is surjective, and so lemma \ref{ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain} implies that $f(X)$ is compact.
-
-=--
-
-The converse to cor. \ref{ContinuousImageOfACompactSpaceIsCompact} does not hold in general: the
-pre-image of a compact subset under a continuous function need not be compact again. If this is
-the case, then we speak of _[[proper maps]]_:
-
-+-- {: .num_defn #ProperContinuous}
-###### Definition
-**([[proper maps]])**
-
-A [[continuous function]] $f  \colon (X, \tau_X) \to (Y, \tau_Y)$
-is called _[[proper map|proper]]_ if for $C \in Y$ a [[compact topological space|compact]] [[topological subspace]]
-of $Y$, then also its [[pre-image]] $f^{-1}(C)$ is [[compact topological space|compact]] in $X$.
-
-=--
 
 
 +-- {: .num_prop}
@@ -9341,7 +9401,7 @@ Then $\tau_X$ is the [[quotient topological space|quotient topology]] inherited 
 +-- {: .proof}
 ###### Proof
 
-We need to show that an subset $U \subset Y$ is an [[open subset]] $(Y , \tau_Y)$ precisely if its [[pre-image]] $\pi^{-1}(U) \subset X$
+We need to show that a subset $U \subset Y$ is an [[open subset]] $(Y , \tau_Y)$ precisely if its [[pre-image]] $\pi^{-1}(U) \subset X$
 is an open subset in $(X,\tau_X)$. Equivalenty, as in prop. \ref{ClosedSubsetContinuity}, we need to show that $U$ is a [[closed subset]]
 precisely if $\pi^{-1}(U)$ is a closed subset. The implication
 
@@ -9413,7 +9473,7 @@ Observe that these are [[closed subsets]], because in the Hausdorff space $(Y, \
 by prop. \ref{T1InTermsOfTopologicalClosure}, and since pre-images under continuous functions preserves closed subsets by
 prop. \ref{ClosedSubsetContinuity}.
 
-Now since [[compact Hausdorff spaces are normal]]  it follows (by def. \ref{NormalSpace}) that we may find disjoint open subset $U_1, U_2 \in \tau_X$
+Now since [[compact Hausdorff spaces are normal]] (prop. \ref{CompactHausdorffSpacesAreNormal}) it follows (by def. \ref{NormalSpace}) that we may find disjoint open subset $U_1, U_2 \in \tau_X$
 such that
 
 $$
@@ -10186,6 +10246,165 @@ For the next section see _[[Introduction to Topology -- 2|Secton 2 -- Basic homo
 $\,$
 
 ***
+
+
+## Index
+
+**Basic concepts**
+
+* [[open subset]], [[closed subset]]
+
+* [[topological space]] (see also _[[locale]]_)
+
+* [[basis for the topology]], [[finer topology|finer/coarser topology]]
+
+* [[topological closure|closure]], [[topological interior|interior]], [[topological boundary|boundary]]
+
+* [[separation axiom]]
+
+* [[continuous function]], [[homeomorphism]]
+
+* [[topological embedding|embedding]]
+
+* [[open map]], [[closed map]]
+
+* [[sequence]], [[net]], [[sub-net]], [[filter]]
+
+* [[convergence]]
+
+* [[category]] [[Top]]
+
+  * [[convenient category of topological spaces]]
+
+**[Universal constructions](Top#UniversalConstructions)**
+
+* [[initial topology]], [[final topology]]
+
+* [[subspace]], [[quotient space]],
+
+* fiber space, [[attaching space]]
+
+* [[product space]], [[disjoint union space]]
+
+* [[mapping cylinder]], [[mapping cocylinder]]
+
+* [[mapping cone]], [[mapping cocone]]
+
+* [[mapping telescope]]
+
+
+**[[stuff, structure, property|Extra stuff, structure, properties]]**
+
+* [[nice topological space]]
+
+* [[metric space]]
+
+* [[Kolmogorov space]], [[Hausdorff space]], [[regular space]], [[normal space]]
+
+* [[sober space]]
+
+* [[compact space]] ([[sequentially compact topological space|sequentially compact]], [[countably compact topological space|countably compact]], [[paracompact space|paracompact]], [[countably paracompact topological space|countably paracompact]], [[locally compact topological space|locally compact]], [[strongly compact topological space|strongly compact]])
+
+* [[compactly generated space]]
+
+* [[second-countable space]], [[first-countable space]]
+
+* [[contractible space]], [[locally contractible space]]
+
+* [[connected space]], [[locally connected space]]
+
+* [[simply-connected space]], [[locally simply-connected space]]
+
+* [[topological vector space]], [[Banach space]], [[Hilbert space]]
+
+* [[topological manifold]]
+
+* [[CW-complex]]
+
+**Examples**
+
+* [[empty space]], [[point space]]
+
+* [[discrete space]], [[codiscrete space]]
+
+* [[order topology]], [[specialization topology]], [[Scott topology]]
+
+* [[Euclidean space]]
+
+  * [[real line]], [[plane]]
+
+* [[sphere]], [[ball]],
+
+* [[circle]], [[torus]], [[annulus]]
+
+* [[polytope]], [[polyhedron]]
+
+* [[projective space]] ([[real projective space|real]], [[complex projective space|complex]])
+
+* [[classifying space]]
+
+* [[compact-open topology|mapping space]], [[loop space]], [[path space]]
+
+* [[Zariski topology]]
+
+* [[Cantor space]], [[Sierpinski space]]
+
+* [[long line]], [[line with two origins]]
+
+* [[K-topology]], [[Dowker space]]
+
+* [[Warsaw circle]]
+
+* [[Peano curve]]
+
+
+**Basic statements**
+
+* [[Hausdorff spaces are sober]]
+
+* [[CW-complexes are Hausdorff]]
+
+* [[compact Hausdorff spaces are normal|(para-)compact Hausdorff spaces are normal]]
+
+* [[continuous image of a compact space is compact]]
+
+* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
+
+* [[open subspaces of compact Hausdorff spaces are locally compact]]
+
+* [[quotient projections out of compact Hausdorff spaces are closed precisely if the codomain is Hausdorff]]
+
+* [[compact spaces equivalently have converging subnet of every net]]
+
+  * [[Lebesgue number lemma]]
+
+  * [[sequentially compact metric spaces are equivalently compact metric spaces]]
+
+  * [[compact spaces equivalently have converging subnet of every net]]
+
+  * [[sequentially compact metric spaces are totally bounded]]
+
+* [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
+
+**Theorems**
+
+* [[Urysohn's lemma]]
+
+* [[Tietze extension theorem]]
+
+* [[tube lemma]]
+
+* [[Tychonoff theorem]]
+
+* [[Heine-Borel theorem]]
+
+* [[Brouwer's fixed point theorem]]
+
+* [[topological invariance of dimension]]
+
+* [[Jordan curve theorem]]
+
+
 
 
 
