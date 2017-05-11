@@ -26,7 +26,7 @@ A locally compact [[Hausdorff space|Hausdorff]] space may also be called a _loca
 
 1. Clearly, any [[discrete space]] is locally compact. 
 
-2. An [[open subspace]] of a compact Hausdorff space is locally compact. In fact, every locally compact Haudorff space $X$ arises in this way, since it can be considered an open subspace in its [[one-point compactification]] $X \sqcup \{\infty\}$ (where the open neighborhoods of the adjoined point $\infty$ are precisely those of the form $K^c \sqcup \{\infty\}$, where $K^c$ is the complement of a compact subset $K \subseteq X$). 
+2. [[open subspaces of compact Hausdorff spaces are locally compact]]. In fact, every locally compact Haudorff space $X$ arises in this way, since it can be considered an open subspace in its [[one-point compactification]] $X \sqcup \{\infty\}$ (where the open neighborhoods of the adjoined point $\infty$ are precisely those of the form $K^c \sqcup \{\infty\}$, where $K^c$ is the complement of a compact subset $K \subseteq X$). 
 
 3. The reals, complexes, and $\mathfrak{p}$-adic completions of [[algebraic number field]]s (with respect to a prime ideal $\mathfrak{p}$ in the ring of integers) are locally compact. In characteristic $p$, the field of [[Laurent series]] $\mathbb{F}_q((t))$ over a finite field with $q$ elements, topologized with respect to a discrete valuation, is locally compact. In fact, any non-discrete locally compact [[field]] must be of one of these types; they are called [[local field]]s. 
 
@@ -34,7 +34,7 @@ A locally compact [[Hausdorff space|Hausdorff]] space may also be called a _loca
 
 5. Topological [[manifold]]s (including "pathological examples" like [[long line]]s), being locally homeomorphic to $\mathbb{R}^n$, are locally compact. 
 
-6. The only Hausdorff [[topological vector space]]s that are locally compact are finite-dimensional Euclidean spaces. More generally, a TVS is locally compact if and only if its Hausdorff quotient has finite dimension. 
+6. The only Hausdorff [[topological vector space]]s that are locally compact are finite-dimensional Euclidean spaces. More generally, a TVS is locally compact if and only if its [[Hausdorff reflection]] has finite dimension. 
 
 
 ## Properties
