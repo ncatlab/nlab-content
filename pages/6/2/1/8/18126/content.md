@@ -7909,22 +7909,27 @@ Given a CW-complex, then $X_n$ is also called its $n$-[[skeleton]].
 ## Compact spaces
  {#CompactSpaces}
 
-We discuss _[[compact topological spaces]]_ (def \ref{CompactTopologicalSpace}) below. These
+We discuss _[[compact topological spaces]]_ (def \ref{CompactTopologicalSpace} below), the generalization
+of compact metric spaces [above](#CompactMetricSpaces) . Compact spaces
 are in some sense the "small" objects among topological spaces, analogous in [[topology]] to what [[finite-dimensional vector spaces]] are in [[linear algebra]], and equally important in the theory.
 
 $\,$
 
 
-Prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace} suggests the following simple definition:
+Prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace} suggests the following simple definition
+\ref{CompactTopologicalSpace}:
 
 +-- {: .num_defn #OpenCover}
 ###### Definition
 **([[open cover]])**
 
-An _[[open cover]]_ of a [[topological space]] $X$ (def. \ref{TopologicalSpace})
+An _[[open cover]]_ of a [[topological space]] $(X,\tau)$ (def. \ref{TopologicalSpace})
 is a [[set]] $\{U_i \subset X\}_{i \in I}$ of [[open subsets]] $U_i$ of $X$,
 indexed by some [[set]] $I$, such that their [[union]] is all of $X$:
 $\underset{i \in I}{\cup} U_i \;=\; X$.
+
+A _subcover_ of a cover is a [[subset]] $J \subset I$ such that $\{U_i \subset X\}_{i \in J \subset I}$
+is still a cover.
 
 =--
 
@@ -7933,9 +7938,9 @@ $\underset{i \in I}{\cup} U_i \;=\; X$.
 **([[compact topological space]])**
 
 A [[topological space]] $X$ (def. \ref{TopologicalSpace}) is called a
- _[[compact topological space]]_ if every [[open cover]] $\{U_i \to X\}_{i \in I}$ (def. \ref{OpenCover}) has
+ _[[compact topological space]]_ if every [[open cover]] $\{U_i \subset X\}_{i \in I}$ (def. \ref{OpenCover}) has
  a _[[finite cover|finite subcover]]_ in that there is a [[finite set|finite]] [[subset]] $J \subset I$ such that
- $\{U_i \to X\}_{i \in J}$ is still a cover of $X$ in that also  $\underset{i \in J}{\cup} U_i = X$.
+ $\{U_i \subset X\}_{i \in J}$ is still a cover of $X$ in that also  $\underset{i \in J}{\cup} U_i = X$.
 
 =--
 
@@ -7947,15 +7952,17 @@ Beware that the following terminology issue persists in the literature:
 
 Some authors use "compact" to mean "[[compact Hausdorff space|Hausdorff and compact]]". To disambiguate this,
 some authors (mostly in [[algebraic geometry]], but also for instance [Waldhausen](#Waldhausen)) say "quasi-compact" for what we call
-"compact" in prop. \ref{CompactTopologicalSpace}.
+"compact" in def. \ref{CompactTopologicalSpace}.
 
 =--
 
-There are several equivalent reformulations of the compactness condition. An immediate reformulation is this:
+There are several equivalent reformulations of the compactness condition. An immediate reformulation is
+prop. \ref{ClosedSubsetFormulationOfCompactness}, a more subtle one is prop. \ref{ClosedProjectionCharacterizationOfCompactness}
+further below.
 
 +-- {: .num_prop #ClosedSubsetFormulationOfCompactness}
 ###### Proposition
-**([[compact topological space|compactness]] in terms of closed subsets)**
+**([[compact topological space|compactness]] in terms of [[closed subsets]])**
 
 Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
 
@@ -7977,23 +7984,32 @@ Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
 
 The equivalence between the first and the second statement is immediate from the definitions after expressing
 open subsets as complements of closed subsets $U_i = X \backslash C_i$ and applying [[de Morgan's law]]
-(remark \ref{deMorgan})
+(remark \ref{deMorgan}).
 
 We discuss the equivalence between the first and the third statement:
 
 In one direction, assume that $(X,\tau)$ is compact in the sense of def. \ref{CompactTopologicalSpace}, and that $\{C_i \subset X\}_{i \in I}$ satisfies the [[finite intersection property]]. We need to show that then $\underset{i \in I}{\cap} C_i \neq \emptyset$.
 
-Assume that this were not the case, hence assume that $\underset{i \in I}{\cap} C_i = \emptyset$. This would imply that the open [[complements]] $U_i \coloneqq X \backslash C_i$ were an [[open cover]] of $X$, because (using [[de Morgan's law]])
+Assume that this were not the case, hence assume that $\underset{i \in I}{\cap} C_i = \emptyset$. This would imply that the open [[complements]] were an [[open cover]] of $X$ (def. \ref{OpenCover})
+
+$$
+  \left\{
+     U_i \coloneqq X \backslash C_i
+  \right\}_{i \in I}
+  \,,
+$$
+
+because (using [[de Morgan's law]], remark \ref{deMorgan})
 
 $$
   \begin{aligned}
-    \underset{i \in I}{\cup} U_i
+    \underset{i \in I}{\cup} U_i\;
     & \coloneqq
     \underset{i \in I}{\cup} X \backslash C_i
     \\
     & = X \backslash \left( \underset{i \in I}{\cap}C_i \right)
     \\
-    & X \backslash \emptyset
+    & = X \backslash \emptyset
     \\
     & = X
   \end{aligned}
@@ -8031,9 +8047,12 @@ Conversely, assume that every set of closed subsets in $X$ with the finite inter
 
 Write $C_i \coloneqq X \backslash U_i$ for the closed complements of these open subsets.
 
-Assume that there were no finite subset $J \subset I$ such that $\underset{i \in J \subset I}{\cup} U_i = X$. By [[de Morgan's law]] this means equivalently that there were no finite subset $J$ such that $\underset{i \in J \subset I}{\cap} C_i = \emptyset$, hence it would mean that $\{C_i \subset X\}_{i \in I }$ satisfied the finite intersection property.
+Assume on the contrary
+that there were no finite subset $J \subset I$ such that $\underset{i \in J \subset I}{\cup} U_i = X$,
+hence no finite subset such that
+$\underset{i \in J \subset I}{\cap} C_i = \emptyset$. This would mean that $\{C_i \subset X\}_{i \in I }$ satisfied the finite intersection property.
 
-But by assumption this would then imply that $\underset{i \in I}{\cap} C_i \neq \emptyset$, which, again by de Morgan, would mean that $\underset{i \in I}{\cup} U_i \neq X$. But this contradicts the assumption that the $\{U_i \subset X\}_{i \in I}$ are a cover. Hence we have a [[proof by contradiction]].
+But by assumption this would imply that $\underset{i \in I}{\cap} C_i \neq \emptyset$, which, again by de Morgan, would mean that $\underset{i \in I}{\cup} U_i \neq X$. But this contradicts the assumption that the $\{U_i \subset X\}_{i \in I}$ are a cover. Hence we have a [[proof by contradiction]].
 
 
 =--
@@ -8057,7 +8076,9 @@ $$
   [a,b] \subset \mathbb{R}
 $$
 
-regarded with its [[topological subspace|subspace topology]] is a [[compact topological space]] (def. \ref{CompactTopologicalSpace}).
+regarded with its [[topological subspace|subspace topology]]
+of [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology}) is
+a [[compact topological space]] (def. \ref{CompactTopologicalSpace}).
 
 =--
 
@@ -8066,7 +8087,7 @@ regarded with its [[topological subspace|subspace topology]] is a [[compact topo
 
 Since all the closed intervals are [[homeomorphism|homeomorphic]] (by example \ref{OpenBallsHomeomorphicToRn})
 it is sufficient to show the statement for $[0,1]$. Hence let $\{U_i \subset [0,1]\}_{i \in I}$ be an
-open cover. We need to show that it has an open subcover.
+[[open cover]] (def. \ref{OpenCover}). We need to show that it has an open subcover.
 
 Say that an element $x \in [0,1]$ is _admissible_ if the closed sub-interval $[0,x]$ is covered by
 finitely many of the $U_i$. In this terminology, what we need to show is that $1$ is admissible.
@@ -8077,8 +8098,13 @@ Observe from the definition that
 
 1. if $y \lt x \in [0,1]$ and $x$ is admissible, then also $y$ is admissible.
 
-This means that the set of admissible $x$ forms either an [[open interval]] $[0,g)$ or a [[closed interval]]
-$[0,g]$, for some $g \in [0,1]$. We need to show that the latter is true, and for $g = 1$.
+This means that the set of admissible $x$ forms either
+
+1. an [[open interval]] $[0,g)$
+
+1. or a [[closed interval]] $[0,g]$,
+
+for some $g \in [0,1]$. We need to show that the latter is true, and for $g = 1$.
 We do so by observing that the alternatives lead to contradictions:
 
 1. Assume that the set of admissible values were an open interval $[0,g)$. By assumption there would be
@@ -8117,22 +8143,22 @@ Let $(X,\tau_X)$ be a [[topological space]]. The following are equivalent:
        \longrightarrow
      (Y, \tau_Y)
    $$
-   
+
    is a [[closed map]].
 
 =--
 
 +-- {: .proof}
-###### Proof 
+###### Proof
 ([due to Todd Trimble](closed-projection+characterization+of+compactness#Acknowledgement))
 
-In one direction, assume that (X,\tau_X)$ is compact and let $C \subset Y \times X$ be a closed subset.
+In one direction, assume that $(X,\tau_X)$ is compact and let $C \subset Y \times X$ be a closed subset.
 We need to show that $\pi_Y(C) \subset Y$ is closed.
 
-By lemma \ref{UnionOfOpensGivesClosure} this is equivalent to showing that every point $y \in Y \backslash C$
+By lemma \ref{UnionOfOpensGivesClosure} this is equivalent to showing that every point $y \in Y \backslash \pi_Y(C)$
 in the complement of $\pi_Y(C)$ has an open neighbourhood $V_y \supset \{y\}$ which does not intersect $\pi_Y(C)$:
 $$
-  V_Y \cap \pi_Y(C) = \emptyset
+  V_y \cap \pi_Y(C) = \emptyset
   \,.
 $$
 This is clearly equivalent to
@@ -8158,8 +8184,8 @@ Observe that this is an [[open cover]] of $X$: For every $x \in X$ then $(y,x) \
 and by closure of $C$ this means that there exists an open neighbourhood of $(y,x)$  in $Y \times X$ not intersecting $C$,
 and by nature of the [[product topology]] this contains an open neighbourhood of the form $V \times U$.
 
-Hence by compactness of $X$, there exists a finite subcover $\{ U_j \}_{j \in J}$ of $X$ and corresponding 
-$\{V_j\}_{j \in J}$ with $V_j \times U_j \cap C = \emptyset$.
+Hence by compactness of $X$, there exists a finite subcover $\{ U_j \subset X \}_{j \in J}$ of $X$ and a corresponding
+set $\{V_j \subset Y\}_{j \in J}$ with $V_j \times U_j \cap C = \emptyset$.
 
 The resulting open neighbourhood
 
@@ -8185,7 +8211,7 @@ $$
 $$
 
 Conversely, assume that $\pi_Y \colon Y \times X \to X$ is a closed map for all $Y$. We need to show
-that $X$ is compact. By prop. \ref{ClosedSubsetFormulationOfCompactness} this means that 
+that $X$ is compact. By prop. \ref{ClosedSubsetFormulationOfCompactness} this means equivalently that
 for every set $\{C_i \subset X\}_{i \in I}$ of closed subsets and satisfying the [[finite intersection property]],
 then $\underset{i \in I}{\cap} C_i \neq \emptyset$.
 
@@ -8198,49 +8224,51 @@ Construct a new topological space $(Y, \tau_Y)$ by
 Then consider the topological closure of the "diagonal" $\Delta$ in $Y \times X$
 
 $$
-  K 
-    \coloneqq 
+  K
+    \coloneqq
   Cl\left(
     \Delta
   \right)
-  \phantom{AAA}
-   \Delta \coloneqq 
-   \left\{ 
+  \phantom{AA}\text{with} \phantom{AA}
+   \Delta \coloneqq
+   \left\{
       (x,x) \in Y \times X \,\vert\, x \in X
    \right\}
   \,.
 $$
 
 
-We claim that there exists $x \in X$ such that 
+We claim that there exists $x \in X$ such that
 
 $$
   (\infty,x) \in K
   \,.
 $$
 
-This is because 
+This is because
 
 $$
   \pi_Y(K) \subset Y \,\,\text{is closed}
-$$ 
+$$
 
-by assumption and 
+by assumption and
 
 $$
   X \subset \pi_Y(K)
-$$ 
+$$
 
 by construction. So if $\infty$ were not in $\pi_Y(K)$, then, by lemma \ref{UnionOfOpensGivesClosure},
 it would have an open neighbourhood not intersecting $X$. But by definition of $\tau_Y$, the open neighbourhoods
 of $\infty$ are the finite intersections of $C_i \cup \{\infty\}$, and by the assumed [[finite intersection property]]
 all their finite intersections do still intersect $X$.
 
-Since thus $(\infty,x) \in K$, lemma \ref{UnionOfOpensGivesClosure} gives again that 
+Since thus $(\infty,x) \in K$, lemma \ref{UnionOfOpensGivesClosure} gives again that
 all of its open neighbourhoods intersect the diagonal, hence that for all $i \in I$ and $U_x \supset \{x\}$ open then
 
 $$
-  (C_i \cup \{ \infty \} ) \times U_x 
+  \left(
+    (C_i \cup \{ \infty \} ) \times U_x
+  \right)
   \;\cap\;
   \Delta
   \;\neq\;
@@ -8248,20 +8276,21 @@ $$
   \,.
 $$
 
-This means equivalently that 
+This means equivalently that
 
 $$
   C_i \cap U_x \neq \emptyset
-  \,.
 $$
 
-But by closure of $C_i$ and using lemma \ref{UnionOfOpensGivesClosure}, this means that 
+for all open neighbourhoods $U_x \supset \{x\}$.
+
+But by closure of $C_i$ and using lemma \ref{UnionOfOpensGivesClosure}, this means that
 
 $$
   x \in C_i
 $$
 
-for all $i$, hence that 
+for all $i$, hence that
 
 $$
   \underset{i \in I}{\cap} C_i \neq \emptyset
@@ -8275,7 +8304,7 @@ as required.
 
 +-- {: .num_prop #TychonoffTheorem}
 ###### Proposition
-**([[Tychonoff theorem]])**
+**([[Tychonoff theorem]] --  the [[product space]] of [[compact spaces]] is [[compact space|compact]])**
 
 Let $\{(X_i, \tau_i)\}_{i \in I}$ be a [[set]] of [[compact topological spaces]] (def. \ref{CompactTopologicalSpace}).
 Then also their [[product space]] $\underset{i \in I}{\prod}(X_i, \tau_i)$ (example \ref{InfiniteProductTopologicalSpace})
@@ -8283,14 +8312,14 @@ is compact.
 
 =--
 
-We now give a proof of the finitary case of the Tychonoff theorem using the 
-[[closed-projection characterization of compactness]] (prop. \ref{ClosedProjectionCharacterizationOfCompactness}).
+We now give a proof of the finitary case of the Tychonoff theorem using the
+[[closed-projection characterization of compactness]] from prop. \ref{ClosedProjectionCharacterizationOfCompactness}.
 This elementary proof generalizes fairly directly to an elementary proof of the general case: see [here](closed-projection+characterization+of+compactness#TychonoffTheorem).
 
 +-- {: .proof}
 ###### Proof of the finitary case
 
-By prop. \ref{ClosedProjectionCharacterizationOfCompactness} it is sufficient to show that 
+By prop. \ref{ClosedProjectionCharacterizationOfCompactness} it is sufficient to show that
 for every topological space $(Y,\tau_Y)$ then the projection
 
 $$
@@ -8300,14 +8329,14 @@ $$
   \times
   \left(
     \underset{i \in \{1, \cdots, n\}}{\prod} (X_i, \tau_i)
-  \right)  
+  \right)
     \longrightarrow
   (Y, \tau_Y)
 $$
 
 is a closed map. We proceed by [[induction]]. For $n = 0$ the statement is obvious.
 Suppose it has been proven for some $n \in \mathbb{N}$. Then
-the projection is the composite of two closed maps
+the projection for $n+1$ factors is the composite of two consecutive projections
 
 $$
   \pi_Y
@@ -8319,23 +8348,25 @@ $$
   Y \times \left(\underset{i \in \{1, \cdots, ,n\} }{\prod} X_i \right)
     \longrightarrow
   Y
+  \,.
 $$
 
 
-(by prop. \ref{ClosedProjectionCharacterizationOfCompactness}, 
-the first map is closed since $(X_{n+1}, \tau_{n+1})$ is compact by the assumption of the proposition, and similarly the second is closed
-by induction assumtion). Hence the composite is a closed map.
+By prop. \ref{ClosedProjectionCharacterizationOfCompactness},
+the first map here is closed since $(X_{n+1}, \tau_{n+1})$ is compact by the assumption of the proposition, and similarly the second is closed
+by induction assumtion. Hence the composite is a closed map.
 
 
 =--
 
 
 
-Of course we also want to claim that sequentially compact metric spaces are compact.
+Of course we also want to claim that [[sequentially compact metric spaces]] (def. \ref{MetricSpaceSequentiallyCompact}) are compact
+as topological spaces when rgarded with their [[metric topology]] (example \ref{MetricTopology}):
 
 +-- {: .num_defn #TopologicalSpaceSequenceConverging}
 ###### Definition
-**(converging sequence in a topological space)**
+**([[convergence|converging]] [[sequence]] in a [[topological space]])**
 
 Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}) and let
 $(x_n)_{n \in \mathbb{N}}$ be a [[sequence]] of points $(x_n)$ in $X$ (def. \ref{Sequences}).
@@ -8346,7 +8377,7 @@ $$
   x_n \overset{n \to \infty}{\longrightarrow} x_\infty
 $$
 
-if for each open [[neighbourhood]] $U_{x_\infty}$ of $x_\infty$ there exists a $k \in \mathbb{N}$ such that
+if for each [[open neighbourhood]] $U_{x_\infty}$ of $x_\infty$ there exists a $k \in \mathbb{N}$ such that
 for all $n \geq k$ then $x_n \in U_{x_\infty}$:
 
 $$
@@ -8354,6 +8385,7 @@ $$
     x_n \overset{n \to \infty}{\longrightarrow} x_\infty
   \right)
    \;\Leftrightarrow\;
+  \left(
   \underset{{U_{x_\infty} \in \tau_X} \atop {x_\infty \in U_{X_\infty}}}{\forall}
   \left(
     \underset{k \in \mathbb{N}}{\exists}
@@ -8362,23 +8394,37 @@ $$
         \, x_n \in U_{x_\infty} \,
     \right)
   \right)
+  \right)
   \,.
 $$
 
 =--
 
+Accordingly it makes sense to consider the following:
+
++-- {: .num_defn #SequentiallyCompactTopologicalSpace}
+###### Definition
+**([[sequentially compact topological space]])**
+
+Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}). It is called
+_[[sequentially compact topological space|sequentially compact]]_ if for every [[sequence]]
+of points $(x_n)$ in $X$ (def. \ref{Sequences}) there exists a sub-sequence $(x_{n_k})_{k \in \mathbb{N}}$
+which [[convergence|converges]] acording to def. \ref{TopologicalSpaceSequenceConverging}.
+
+=--
+
+
 +-- {: .num_prop #SequentiallyCompactMetricSpacesAreEquivCompact}
 ###### Proposition
 **([[sequentially compact metric spaces are equivalently compact metric spaces]])**
 
-If $(X,d)$ is a [[metric space]], regarded as a [[topological space]] via its [[metric topology]] (example \ref{MetricTopology}), then the following are equivalent:
+If $(X,d)$ is a [[metric space]] (def. \ref{MetricSpace}), regarded as a [[topological space]] via its [[metric topology]] (example \ref{MetricTopology}), then the following are equivalent:
 
 1. $(X,d)$ is a [[compact topological space]] (def. \ref{CompactTopologicalSpace}).
 
-1. $(X,d)$ is a [[sequentially compact topological space]] (def. \ref{SequentiallyCompactTopologicalSpace}).
+1. $(X,d)$ is a [[sequentially compact metric space]] (def. \ref{MetricSpaceSequentiallyCompact}) hence a [[sequentially compact topological space]] (def. \ref{SequentiallyCompactTopologicalSpace}).
 
 =--
-
 
 
 +-- {: .proof #ProofOfSequentiallyCompactMetricSpacesAreEquivCompact}
@@ -8422,7 +8468,8 @@ $$
   \,,
 $$
 
-hence that $\{U_n \to X\}_{n \in \mathbb{N}}$ were an [[open cover]]. By the assumption that $X$ is compact, this would imply that there is a [[finite set|finite]] [[subset]] $\{i_1 \lt i_2 \lt  \cdots \lt i_k\} \subset \mathbb{N}$ with
+hence that $\{U_n \subset X\}_{n \in \mathbb{N}}$ were an [[open cover]]. By the assumption that $X$ is compact, this
+would imply that there were a [[finite set|finite]] [[subset]] $\{i_1 \lt i_2 \lt  \cdots \lt i_k\} \subset \mathbb{N}$ with
 
 $$
   \begin{aligned}
@@ -8440,7 +8487,7 @@ $$
   \,.
 $$
 
-By definition of [[topological closure]] this means that for all $n$ the [[open ball]] $B^\circ_x(1/(n+1))$ around $x$ of [[radius]] $1/(n+1)$ must intersect the $n$th of the above subsequence:
+By definition of [[topological closure]] this means that for all $n$ the [[open ball]] $B^\circ_x(1/(n+1))$ around $x$ of [[radius]] $1/(n+1)$ must intersect the $n$th of the above subsequences:
 
 $$
   B^\circ_x(1/(n+1))
@@ -8451,11 +8498,11 @@ $$
   \,.
 $$
 
-Picking one point $(x'_n)$ in the $n$th such intersection for all $n$ hence defines a sub-sequence, which converges to $x$.
+If we [[axiom of choice|choose]] one point $(x'_n)$ in the $n$th such intersection for all $n$ this defines a sub-sequence, which converges to $x$.
 
-This proves that compact implies sequentially compact for metric spaces.
+In summary this proves that _compact_ implies _sequentially compact_ for metric spaces.
 
-For the converse, assume now that $(X,d)$ is sequentially compact. Let $\{U_i \to X\}_{i \in I}$ be an [[open cover]] of $X$. We need to show that there exists a finite sub-cover.
+For the converse, assume now that $(X,d)$ is sequentially compact. Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] of $X$. We need to show that there exists a finite sub-cover.
 
 Now by the [[Lebesgue number lemma]], there exists a positive real number $\delta \gt 0$ such that for each $x \in X$ there is $i_x \in I$ such that $B^\circ_x(\delta) \subset U_{i_x}$.
 Moreover, since [[sequentially compact metric spaces are totally bounded]], there exists then  a [[finite set]] $S \subset X$ such that
@@ -8472,19 +8519,6 @@ Therefore $\{U_{i_s} \to X\}_{s \in S}$ is a finite sub-cover as required.
 
 =--
 
-Accordingly it makes sense to consider the following
-
-+-- {: .num_defn #SequentiallyCompactTopologicalSpace}
-###### Definition
-**([[sequentially compact topological space]])**
-
-Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}). It is called
-_[[sequentially compact topological space|sequentially compact]]_ if for every [[sequence]]
-of points $(x_n)$ in $X$ (def. \ref{Sequences}) there exists a sub-sequence $(x_{n_k})_{k \in \mathbb{N}}$
-which [[convergence|converges]] acording to def. \ref{TopologicalSpaceSequenceConverging}.
-
-=--
-
 
 +-- {: .num_remark}
 ###### Remark
@@ -8492,92 +8526,30 @@ which [[convergence|converges]] acording to def. \ref{TopologicalSpaceSequenceCo
 
 Beware that, in contrast to prop. \ref{SequentiallyCompactMetricSpacesAreEquivCompact}, for
 general topological spaces being [[sequentially compact space|sequentially compact]] neither implies nor is implied by being
-[[compact topological space|compact]]. 
+[[compact topological space|compact]].
 
-1. The [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) $\underset{r \in [0,1)}{\prod} Disc(\{0,1\})$ 
-   of copies of the [[discrete topological space]] (example \ref{CoDiscreteTopology}) indexed by the elements 
+1. The [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) $\underset{r \in [0,1)}{\prod} Disc(\{0,1\})$
+   of copies of the [[discrete topological space]] (example \ref{CoDiscreteTopology}) indexed by the elements
    of the [[half-open interval]] is compact by the [[Tychonoff theorem]] (prop. \ref{TychonoffTheorem}),
-   but the sequence $x_n$ with $\pi_r(x_n) = n\text{th digit of the binary expansion of}\, r$ has no convergent
-   subsequence.
+   but the sequence $x_n$ with
 
-1. conversely, there are spaces that are sequentially compact, but not compact, see [Vermeeren 10, prop. 18](sequentially+compact+topological+space#Vermeeren10).
+   $$
+     \pi_r(x_n) = n\text{th digit of the binary expansion of}\, r
+   $$
 
-=--
+   has no convergent subsequence.
 
-$\,$
-
-In [[analysis]], the [[extreme value theorem]] asserts that a [[real number|real]]-valued [[continuous function]]
-on the [[bounded subset|bounded]] [[closed interval]] (def. \ref{OpenAndClosedIntervals}) attains its
-[[maximum]] and [[minimum]]. The following is the generalization of this statement to general topological spaces:
-
-+-- {: .num_lemma #ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain}
-###### Lemma
-**([[continuous surjections out of compact spaces have compact codomain]])**
-
-Let $f \colon (X,\tau_X) \longrightarrow (Y,\tau_Y)$ be a [[continuous function]] between [[topological spaces]] such that
-
-1. $(X,\tau_X)$ is a [[compact topological space]];
-
-1. $f \colon X \to Y$ is a [[surjective function]].
-
-Then also $(Y,\tau_Y)$ is [[compact topological space|compact]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Let $\{U_i \subset Y\}_{i \in I}$ be an [[open cover]] of $Y$. We need show that this has a finite sub-cover.
-
-By the continuity of $f$ the [[pre-images]] $f^{-1}(U_i)$ are [[open subsets]] of $X$, and by the surjectivity of $f$ they form an [[open cover]] $\{f^{-1}(U_i) \subset X\}_{i \in I}$ of $X$. Hence by compactness of $X$, there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
-$\{f^{-1}(U_i) \subset X\}_{i \in J \subset I}$ is still an open cover of $X$. Finall, using again that $f$ is assumed to be surjective, it follows that
-
-$$
-  \begin{aligned}
-    Y
-      & = f(X)
-    \\
-      & = f\left( \underset{i \in J}{\cup} f^{-1}(U_i) \right)
-    \\
-      & = \underset{i \in J}{\cup} U_i
-  \end{aligned}
-$$
-
-which means that also $\{U_i \subset Y\}_{i \in J \subset I}$ is still an open cover of $Y$, and in particular a finite subcover of the original cover.
+1. conversely, there are spaces that are sequentially compact, but not compact, see for instance [Vermeeren 10, prop. 18](sequentially+compact+topological+space#Vermeeren10).
 
 =--
 
 
-+-- {: .num_cor #ContinuousImageOfACompactSpaceIsCompact}
-###### Corollary
-**([[continuous images of compact spaces are compact]])**
 
-If $f \colon X \longrightarrow Y$ is a [[continuous function]] out of a [[compact topological space]] $X$ which is not necessarily [[surjective function|surjective]], then we may consider its [[image factorization]]
+There are various variants of the concept of compact spaces, for instance
 
-$$
-  f \;\colon\; X \longrightarrow f(X) \hookrightarrow Y
-$$
+* [[locally compact topological spaces]] (def. \ref{LocallyCompactSpace});
 
-as in example \ref{ImageFactorization}. Now by construction $X \to f(X)$ is surjective, and so lemma \ref{ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain} implies that $f(X)$ is compact.
-
-=--
-
-The converse to cor. \ref{ContinuousImageOfACompactSpaceIsCompact} does not hold in general: the
-pre-image of a compact subset under a continuous function need not be compact again. If this is
-the case, then we speak of _[[proper maps]]_:
-
-+-- {: .num_defn #ProperContinuous}
-###### Definition
-**([[proper maps]])**
-
-A [[continuous function]] $f  \colon (X, \tau_X) \to (Y, \tau_Y)$
-is called _[[proper map|proper]]_ if for $C \in Y$ a [[compact topological space|compact]] [[topological subspace]]
-of $Y$, then also its [[pre-image]] $f^{-1}(C)$ is [[compact topological space|compact]] in $X$.
-
-=--
-
-
-There are various variants of the concept of compact spaces.
+* [[paracompact topological spaces]] (def. \ref{ParacompactSpace}).
 
 +-- {: .num_defn #LocallyCompactSpace}
 ###### Definition
@@ -8602,7 +8574,7 @@ $$
 On top of the terminology issue inherited from that of "compact" (remark \ref{CompactTerminology}),
 the definition of "locally compact" is subject to further ambiguity in the literature.
 There are various definitions of locally compact spaces alternative to def. \ref{LocallyCompactSpace}.
-For [[Hausdorff topological spaces]] all these definitions used
+For [[Hausdorff topological spaces]] all these definitions
 happen to be equivalent, but in general they are not.
 The version we state in def. \ref{LocallyCompactSpace} is the one that makes prop. \ref{ExponentialObjectCompactOpen}
 below work _without_ requiring the Hausdorff property.
@@ -8611,12 +8583,12 @@ below work _without_ requiring the Hausdorff property.
 
 
 
-+-- {: .num_defn #CompactOpenTopology}
-###### Definition
-**([[mapping space]] with [[compact-open topology]])**
++-- {: .num_example #CompactOpenTopology}
+###### Example
+**(topological [[mapping space]] with [[compact-open topology]])**
 
 For $X$ a [[topological space]] and $Y$ a [[locally compact topological space]] (def. \ref{LocallyCompactSpace})
-then the **[[mapping space]]**
+then the _[[compact-open topology|mapping space]]_
 
 $$
   \left(
@@ -8626,47 +8598,57 @@ $$
 
 is the [[topological space]]
 
-* whose underlying set $X^Y$ is the set of [[continuous functions]] $Y \to X$,
+* whose underlying set $X^Y \coloneqq Hom_Top(Y,X)$ is the set of [[continuous functions]] $Y \to X$;
 
 * whose topology $\tau_{(X^Y)}$ is generated from the [[topological basis|sub-basis for the topology]] (def. \ref{TopologyBase})
-  which is given by subsets denoted
+  which is given by subsets are denoted
 
-  $U^K \subset Hom_{Top}(Y,X)$ for
+  $U^K \subset Hom_{Top}(Y,X)$ for labels
 
-  * $K \hookrightarrow Y$ a [[compact topological space|compact]] subset
+  * $K \subset Y$ a [[compact topological space|compact]] subset,
 
-  * $U \hookrightarrow X$ an [[open subset]]
+  * $U \subset X$ an [[open subset]]
 
-  and defined to be those subsets of all those [[continuous functions]] $f$ that fit into a [[commuting diagram]] of the form
+  and defined to be those subsets of all those [[continuous functions]] $f$ that take $K$ to $U$:
 
   $$
-    \array{
-       K &\hookrightarrow& Y
-       \\
-       \downarrow && \downarrow^{\mathrlap{f}}
-       \\
-       U &\hookrightarrow& X
-    }
-    \,.
+    U^K
+    \;\coloneqq\;
+    \left\{
+      f \colon X \overset{\text{continuous}}{\longrightarrow} Y
+      \;\;\;\vert\;\;\;
+      \array{
+         K &\hookrightarrow& Y
+         \\
+         \downarrow && \downarrow^{\mathrlap{f}}
+         \\
+         U &\hookrightarrow& X
+      }
+    \right\}
+      \,.
   $$
 
-Accordingly this $\tau_{(X^Y)}$ is called the _[[compact-open topology]]_ on the set of functions.
+Accordingly this topology $\tau_{(X^Y)}$ is called the _[[compact-open topology]]_ on the set of functions.
 
-The construction extends to a [[functor]]
-
-$$
-  (-)^{(-)} \;\colon\; Top_{lcomp}^{op} \times Top \longrightarrow Top
-  \,.
-$$
 
 =--
 
-+-- {: .num_prop #ExponentialObjectCompactOpen}
-###### Proposition
++-- {: .num_remark}
+###### Remark
+**(topological mapping space is [[exponential object]])**
 
-For $X$ a [[topological space]] and $Y$ a [[locally compact topological space]],
-then then [[mapping space]] $X^Y$ with its [[compact-open topology]] from def. \ref{CompactOpenTopology}
-is an [[exponential object]] in [[Top]].
+The construction of topological mapping spaces in example \ref{CompactOpenTopology}
+extends to a [[functor]] (remark \ref{TopCategory})
+
+$$
+  (-)^{(-)} \;\colon\; Top_{lcpt}^{op} \times Top \longrightarrow Top
+$$
+
+from the [[product category]] of the category [[Top]] of all [[topological spaces]] (remark \ref{TopCategory})
+with the [[opposite category]] of the [[subcategory]] of [[locally compact topological spaces]].
+
+Moreover, for $(Y,X) \in Top^{op}_{lcpt} \times top$ then the mapping space $(X^Y, \tau_{(X^Y)})$
+is an _[[exponential object]]_ in [[Top]].
 
 =--
 
@@ -8678,9 +8660,11 @@ $\,$
 
 ### Relation to Hausdorff spaces
 
-We discuss some important relations between the concepts of compact spaces and of [[Hausdorff topological spaces]].
+We discuss some important relations between the concepts of
+[[compact topological spaces]] (def. \ref{CompactTopologicalSpace})
+and of [[Hausdorff topological spaces]] (def. \ref{HausdorffTopologicalSpace}).
 
-
+$\,$
 
 
 +-- {: .num_prop}
@@ -9010,6 +8994,82 @@ $\,$
 
 
 ### Relation to quotient spaces
+
+We discuss some important relations between the concept of [[compact topological spaces]] and
+that of [[quotient topological spaces]].
+
+$\,$
+
+In [[analysis]], the [[extreme value theorem]] asserts that a [[real number|real]]-valued [[continuous function]]
+on the [[bounded subset|bounded]] [[closed interval]] (def. \ref{OpenAndClosedIntervals}) attains its
+[[maximum]] and [[minimum]]. The following is the generalization of this statement to general topological spaces:
+
++-- {: .num_lemma #ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain}
+###### Lemma
+**([[continuous surjections out of compact spaces have compact codomain]])**
+
+Let $f \colon (X,\tau_X) \longrightarrow (Y,\tau_Y)$ be a [[continuous function]] between [[topological spaces]] such that
+
+1. $(X,\tau_X)$ is a [[compact topological space]] (def. \ref{CompactTopologicalSpace});
+
+1. $f \colon X \to Y$ is a [[surjective function]].
+
+Then also $(Y,\tau_Y)$ is [[compact topological space|compact]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\{U_i \subset Y\}_{i \in I}$ be an [[open cover]] of $Y$ (def. \ref{OpenCover}). We need show that this has a finite sub-cover.
+
+By continuity of $f$, the [[pre-images]] $f^{-1}(U_i)$ are [[open subsets]] of $X$, and by the surjectivity of $f$ they form an [[open cover]] $\{f^{-1}(U_i) \subset X\}_{i \in I}$ of $X$. Hence by compactness of $X$, there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
+$\{f^{-1}(U_i) \subset X\}_{i \in J \subset I}$ is still an open cover of $X$. Finally, using again that $f$ is assumed to be surjective, it follows that
+
+$$
+  \begin{aligned}
+    Y
+      & = f(X)
+    \\
+      & = f\left( \underset{i \in J}{\cup} f^{-1}(U_i) \right)
+    \\
+      & = \underset{i \in J}{\cup} U_i
+  \end{aligned}
+$$
+
+which means that also $\{U_i \subset Y\}_{i \in J \subset I}$ is still an open cover of $Y$, and in particular a finite subcover of the original cover.
+
+=--
+
+
++-- {: .num_cor #ContinuousImageOfACompactSpaceIsCompact}
+###### Corollary
+**([[continuous images of compact spaces are compact]])**
+
+If $f \colon X \longrightarrow Y$ is a [[continuous function]] out of a [[compact topological space]] $X$ (def. \ref{CompactTopologicalSpace})
+which is not necessarily [[surjective function|surjective]], then we may consider its [[image factorization]]
+
+$$
+  f \;\colon\; X \overset{\phantom{AAA}}{\longrightarrow} f(X) \overset{\phantom{AAA}}{\hookrightarrow} Y
+$$
+
+as in example \ref{ImageFactorization}. Now by construction $X \to f(X)$ is surjective, and so lemma \ref{ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain} implies that $f(X)$ is compact.
+
+=--
+
+The converse to cor. \ref{ContinuousImageOfACompactSpaceIsCompact} does not hold in general: the
+pre-image of a compact subset under a continuous function need not be compact again. If this is
+the case, then we speak of _[[proper maps]]_:
+
++-- {: .num_defn #ProperContinuous}
+###### Definition
+**([[proper maps]])**
+
+A [[continuous function]] $f  \colon (X, \tau_X) \to (Y, \tau_Y)$
+is called _[[proper map|proper]]_ if for $C \in Y$ a [[compact topological space|compact]] [[topological subspace]]
+of $Y$, then also its [[pre-image]] $f^{-1}(C)$ is [[compact topological space|compact]] in $X$.
+
+=--
 
 
 +-- {: .num_prop}
