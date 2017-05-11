@@ -4858,7 +4858,7 @@ $\,$
  {#HausdorffReflections}
 
 While the [[topological subspace]] construction preserves the $T_n$-property  for $n \in \{0,1,2\$
-(exmaple \ref{TiSubspaces}) the construction of [[quotient topological spaces]] in general does not,
+(example \ref{TiSubspaces}) the construction of [[quotient topological spaces]] in general does not,
 as shown by examples \ref{RQuotientedByQ} and \ref{LineWithTwoOrigins}.
 
 Further [below](#UniversalConstructions) we will see that, generally, among all [[universal constructions]]
@@ -7911,8 +7911,8 @@ Given a CW-complex, then $X_n$ is also called its $n$-[[skeleton]].
 
 We discuss _[[compact topological spaces]]_ (def \ref{CompactTopologicalSpace} below), the generalization
 of compact metric spaces [above](#CompactMetricSpaces). Compact spaces
-are in some sense the "small" objects among topological spaces, analogous in [[topology]] to what 
-[[finite sets]] are in [[set theory]], or what 
+are in some sense the "small" objects among topological spaces, analogous in [[topology]] to what
+[[finite sets]] are in [[set theory]], or what
 [[finite-dimensional vector spaces]] are in [[linear algebra]], and equally important in the theory.
 
 $\,$
@@ -8380,7 +8380,7 @@ as required.
 The [[closed-projection characterization of compactness]] (prop. \ref{ClosedProjectionCharacterizationOfCompactness})
 yields direct proof of important facts in [[topology]]:
 
-* The _[[tube lemma]]_, prop. \ref{TheTubeLemma} below, 
+* The _[[tube lemma]]_, prop. \ref{TheTubeLemma} below,
 
 * The _[[Tychonoff theorem]]_, prop. \ref{TychonoffTheore} below.
 
@@ -8726,7 +8726,7 @@ the definition of "locally compact" is subject to further ambiguity in the liter
 There are various definitions of locally compact spaces alternative to def. \ref{LocallyCompactSpace}.
 For [[Hausdorff topological spaces]] all these definitions
 happen to be equivalent, but in general they are not.
-The version we state in def. \ref{LocallyCompactSpace} is the one that gives the 
+The version we state in def. \ref{LocallyCompactSpace} is the one that gives the
 [[universal property]] of the mapping space, prop. \ref{UniversalPropertyOfMappingSpace}
 below, without_ requiring the Hausdorff property.
 
@@ -8740,6 +8740,8 @@ Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\s
 of a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
 [[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}) is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
 
+In particular [[compact Hausdorff spaces]] themselves are [[locally compact topological space|locally compact]].
+
 =--
 
 We **prove** this below as prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreNormalProp}, after having established a list of convenient general facts about compact Hausdorff spaces.
@@ -8750,7 +8752,7 @@ We **prove** this below as prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreNo
 ###### Example
 **(topological [[mapping space]] with [[compact-open topology]])**
 
-For 
+For
 
 1. $(X, \tau_X)$ a [[locally compact topological space]] (def. \ref{LocallyCompactSpace})
 
@@ -8800,7 +8802,7 @@ is the [[topological space]]
       \,.
   $$
 
-Accordingly this topology $\tau_{cpt-op}$ is called the _[[compact-open topology]]_ on the set of functions.
+Accordingly this topology $\tau_{\text{cpt-op}}$ is called the _[[compact-open topology]]_ on the set of functions.
 
 =--
 
@@ -8961,7 +8963,7 @@ hence $f$ is continuous.
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #TopologicalMappingSpaceIsExponentialObject}
 ###### Remark
 **(topological mapping space is [[exponential object]])**
 
@@ -8980,6 +8982,98 @@ $$
 
 from the [[product category]] of the category [[Top]] of all [[topological spaces]] (remark \ref{TopCategory})
 with the [[opposite category]] of the [[subcategory]] of [[locally compact topological spaces]].
+
+
+=--
+
++-- {: .num_example #MappingSpaceOutOfPoint}
+###### Example
+**([[mapping space]] construction out of the [[point space]] is the identity)**
+
+The [[point space]] $\ast$ (example \ref{Point}) is clearly a [[locally compact topological space]].
+Hence for every [[topological space]] $(X,\tau)$ the [[compact-open topology|mapping space]] $Maps(\ast, (X,\tau))$
+(exmaple \ref{CompactOpenTopology}) exists. This is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) to the space $(x,\tau)$ itself:
+
+$$
+  Maps(\ast, (X,\tau))
+    \simeq
+  (X,\tau)
+  \,.
+$$
+
+=--
+
++-- {: .num_example #LoopSpace}
+###### Example
+**([[loop space]] and [[path space]])**
+
+Let $(X,\tau)$ be any [[topological space]].
+
+1. The [[circle]] $S^1$ (example \ref{SpheresAndDisks}) is a [[compact Hausdorff space]] (example \ref{ExamplesOfCompactHausdorffSpaces})
+   hence, by prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}, a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}). Accordingly the [[mapping space]]
+
+   $$
+     \mathcal{L} X \coloneqq Maps( S^1, (X,\tau) )
+   $$
+
+   exists (def. \ref{CompactOpenTopology}). This is called the _[[free loop space]]_ of $(X,\tau)$.
+
+   If both $S^1$ and $X$ are equipped with a choice of point ("[[basepoint]]") $s_0 \in S^1$, $x_0 \in X$, then the [[topological subspace]]
+
+   $$
+     \Omega X \subset \mathcal{L}X
+   $$
+
+   on those functions which take the basepoint of $S^1$ to that of $X$, is called the _[[loop space]]_ of $X$,
+   or sometimes _[[based loop space]]_, for emphasis.
+
+1. Similarly the [[closed interval]] is a [[compact Hausdorff space]] (example \ref{ExamplesOfCompactHausdorffSpaces})
+   hence, by prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}, a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}). Accordingly the [[mapping space]]
+
+   $$
+     Maps( [0,1], (X,\tau) )
+   $$
+
+   exists (def. \ref{CompactOpenTopology}). Again if $X$ is equipped with a choice of basepoint $x_0 \in X$, then the [[topological subspace]]
+   of those functions that take $0 \in [0,1]$ to that chosen basepoint is called the _[[path space]]_ of $(X\tau)$:
+
+   $$
+     P X \subset Maps( [0,1], (X,\tau) )
+     \,.
+   $$
+
+Notice that we may encode these subspaces more abstractly in terms of [[universal properties]]:
+
+The path space and the loop space are characterized, up to [[homeomorphisms]], as being the [[limit|limiting cones]]
+in the following [[pullback]] diagrams of topological spaces (example \ref{Pushout}):
+
+1. [[loop space]]: 
+
+   $$
+     \array{
+       \Omega X &\longrightarrow& Maps(S^1, (X,\tau))
+       \\
+       \downarrow &(pb)& \downarrow^{\mathrlap{Maps(const_{s_0}, id_{(X,\tau)})}}
+       \\
+       \ast &\underset{const_{x_0}}{\longrightarrow}& X \simeq Maps(\ast,(X,\tau))
+     }
+     \,.
+   $$
+
+1. [[path space]]:
+
+   $$
+     \array{
+       P X &\longrightarrow& Maps([0,1], (X,\tau))
+       \\
+       \downarrow &(pb)& \downarrow^{\mathrlap{Maps(const_x, id_{(X,\tau)})}}
+       \\
+       \ast &\underset{const_{x_0}}{\longrightarrow}& X \simeq Maps(\ast,(X,\tau))
+     }
+   $$
+
+Here on the right we are using that the mapping space construction is a [[functor]] as shown in remark \ref{TopologicalMappingSpaceIsExponentialObject}, and we are using example \ref{MappingSpaceOutOfPoint} in the
+identification on the bottom right mapping space out of the point space.
 
 
 =--
@@ -9210,7 +9304,15 @@ in $\mathbb{R}^n$ is clearly a bounded subset, and hence so is $S$.
 
 =--
 
++-- {: .num_example #ExamplesOfCompactHausdorffSpaces}
+###### Example
+**(examples of [[compact Hausdorff spaces]])**
 
+For $n \in \mathbb{N}$, the [[n-sphere]] $S^n$ (example \ref{SpheresAndDisks})
+is a [[compact topological space]], being a closed and bounded subspace of $\mathbb{R}^n$, hence by prop. \ref{BorelHeine}.
+
+
+=--
 
 +-- {: .num_prop #MapsFromCompactSpacesToHausdorffSpacesAreClosed}
 ###### Proposition
@@ -9325,7 +9427,7 @@ is immediate:
 ###### Proposition
 **([[open subspaces of compact Hausdorff spaces are locally compact]])**
 
-Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\sub} K$
+Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\subset} K$
 of a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
 [[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}) is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
 
@@ -9341,9 +9443,9 @@ Let $x \in X$ be a point and let $U_x \subset X$ an open neighbourhood.  We need
 whose closure is compact and still contained in $U_x$.
 
 By the nature of the [[subspace topology]] there exists an open subset $V_x\subset K$ such that $U_x = X \cap V_x$.
-Since $X$ is assumed to be open, it follows that $U$ is also open as a subset of $K$. 
-Since [[compact Hausdorff spaces are normal]] (prop. \ref{CompactHausdorffSpacesAreNormal}) it 
-follows by prop. \ref{T4InTermsOfTopologicalClosures} that 
+Since $X$ is assumed to be open, it follows that $U$ is also open as a subset of $K$.
+Since [[compact Hausdorff spaces are normal]] (prop. \ref{CompactHausdorffSpacesAreNormal}) it
+follows by prop. \ref{T4InTermsOfTopologicalClosures} that
 there exists a smaller open neighbourhood $W_x \subset K$ whose [[topological closure]] is still contained in $U_x$,
 and since [[closed subspaces of compact spaces are compact]] (prop. \ref{ClosedSubsetsOfCompactSpacesAreCompact}):
 
