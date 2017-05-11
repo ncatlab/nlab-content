@@ -236,12 +236,12 @@ point space $\{x,y\}$.
 Every completely Hausdorff space is
 also $ T2\frac{1}{2} $.
 
-*  $X$ is regular if, given any point {x} and closed subset $F$ in $X$ such that {x} does
+*  $X$ is regular if, given any point ${x}$ and closed subset $F$ in $X$ such that ${x}$ does
 not belong to $F$, they are separated by neighbourhoods, i.e.
 $$    \{x\} \longrightarrow  {X} \,\rightthreetimes\,  \{x{\searrow}X{\swarrow}U{\searrow}F\} \longrightarrow  \{x=X=U{\searrow}F\}
 $$
 (In fact, in a regular
-space, any such {x} and{F} will also be separated by closed neighbourhoods.) Every
+space, any such ${x}$ and ${F}$ will also be separated by closed neighbourhoods.) Every
 regular space is also R1.
 
 *  $X$ is regular Hausdorff, or T3, if it is both T0 and regular.[1] Every
