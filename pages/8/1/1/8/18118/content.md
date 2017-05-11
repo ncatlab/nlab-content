@@ -62,6 +62,8 @@ is a cover of $Y$, and in indeed a finite subcover of the original one.
 
 ## Related statements
 
+* [[open subspaces of compact Hausdorff spaces are locally compact]]
+
 * [[compact subspaces of Hausdorff spaces are closed]]
 
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
