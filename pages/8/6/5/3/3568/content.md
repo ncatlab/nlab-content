@@ -23,6 +23,13 @@ Fall 2014 [[seminar on factorization algebras]].
 ***
 Academic Activities:
 
+July, [[Lie Theory and ]]
+
+16.04.2017--21.04.2017, [Banff](http://www.birs.ca/events/2017/5-day-
+workshops/17w5023)
+
+12.04.2017--15.04.2017, Toronto
+
 17.07.2016--23.07.2016, visit [Anton](http://www.unige.ch/math/en/people/alekseev/) in Geneva
 
 02.07.2016--09.07.2016, [Poisson 2016, ETH Zurich](http://www.unige.ch/math/Poisson2016/), if you want to [see](http://www.video.ethz.ch/conferences/2016/poisson/day2/d2eb6d7a-7dff-4fa8-ade7-2390b9299340.html?autoplay=true) how nervous I was while giving the talk :-P
