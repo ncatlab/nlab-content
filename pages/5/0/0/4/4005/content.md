@@ -4,7 +4,7 @@
 
 ## Idea
 
-The **Hawaiian earring space** is a famous counterexample in [[topology]] which shows the need for care in hypotheses to develop a good theory of [[covering space]]s. 
+The **Hawaiian earring space** is a famous counterexample in [[algebraic topology]] which shows the need for care in hypotheses to develop a good theory of [[covering space]]s. 
 
 It is an example of a space which is not [[semi-locally simply connected space|semi-locally simply connected]]. 
 
@@ -17,5 +17,9 @@ $$\bigcup_{n \in \mathbb{N}} \{(x, y) \in \mathbb{R}^2: (x - 1/2^n)^2 + y^2 = 1/
 endowed with [[subspace topology]] inherited from $\mathbb{R}^2$. 
 
 Every neighborhood of $(0, 0)$ has non-contractible loops inside it (this would not be the case under the [[CW topology]], where the result would be a countable bouquet of circles). 
+
+More abstractly: the Hawaiian earring space can be described up to homeomorphism as the [[one-point compactification]] of a [[coproduct]] (in [[Top]]; the topology being the disjoint sum topology) of [[countably infinite set|countably]] many open [[intervals]]. This shows that the specific radii converging to zero (which was taken to be $1/2^n$ above) don't actually matter. 
+
+Viewed in terms of [[general topology]], it would be hard to sell the Hawaiian earring as a genuinely "pathological space": it is [[compactum|compact, Hausdorff]], [[connected space|connected and locally path-connected]], etc. It's really through the lens of algebraic topology and particularly the classical theory of covering spaces that it seems strange (it is not a [[CW complex]], it is not semi-locally simply connected, its [[fundamental group]] is hard to compute). 
 
 [[!redirects Hawaiian earring spaces]]
