@@ -43,6 +43,8 @@ What us _uniform_ about this convergence is that the bound $N(\epsilon)$ is requ
 
 * [[uniform property]]
 
+* [[topology of uniform convergence]]
+
 ## References
 
 * Wikipedia, _[Uniform convergence](https://en.wikipedia.org/wiki/Uniform_convergence)_
