@@ -1,4 +1,6 @@
 
+> This page discusses the general concept of mapping spaces and internal homs. For mapping spaces in topology, see at _[[compact-open topology]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
