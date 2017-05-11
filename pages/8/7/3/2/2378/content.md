@@ -144,7 +144,7 @@ To demonstrate this, we make the following observations.
 
 3) By 1), we have that $\{x\} \times A \subset f^{-1}(U)$. 
 
-4) Let $\mathcal{O}_{X \times A}$ denote the subspace topology on $X \times A$ with respect to $\mathcal{O}_{X \times Y}$. By 2), we have that $f^{-1}(U) \cap (X \times A) \in \mathcal{O}_{X \times A}$. 
+4) Let $\mathcal{O}_{X \times A}$ denote the [[subspace topology]] on $X \times A$ with respect to $\mathcal{O}_{X \times Y}$. By 2), we have that $f^{-1}(U) \cap (X \times A) \in \mathcal{O}_{X \times A}$. 
 
 5) By 3), we have that $\{x \} \times A \subset f^{-1}(U) \cap (X \times A)$. 
 
