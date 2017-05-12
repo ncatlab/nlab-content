@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Background
 
 +-- {: .num_defn #LocallyCompactSpace}
@@ -37,24 +52,52 @@ If $f$ is a [[proper map]], then it is a [[closed map]].
 
 =--
 
-Proof:
 
-Let $C \subset X$ be a closed subset. We need to show that every $y \in Y \backslash f(C)$ has an open neighbourhood $U_y \supset \{y\}$ not intersecting $f(C)$.
 
-By local compactness, $y$ has an open neighbourhood $V_y$ whose topological closure $Cl(V_y)$ is compact. Hence since $f$ is proper, also $f^{-1}(Cl(V_y)) \subset X$ is compact. Then also 
-$C \cap f^{-1}(Cl(V_y))$ is compact, and hence so is 
++-- {: .proof}
+###### Proof
+
+Let $C \subset X$ be a [[closed subset]]. We need to show that every $y \in Y \backslash f(C)$ has an open neighbourhood $U_y \supset \{y\}$ not intersecting $f(C)$ (by [this prop.](Introduction+to+topology+--+1#UnionOfOpensGivesClosure)).
+
+By local compactness of $(Y,\tau_Y)$ (def. \ref{LocallyCompactSpace}), $y$ has an open neighbourhood $V_y$ whose topological closure $Cl(V_y)$ is compact. Hence since $f$ is proper, also $f^{-1}(Cl(V_y)) \subset X$ is compact. Then also the intersection $C \cap f^{-1}(Cl(V_y))$ is compact, and hence so is 
 
 $$
   f(C \cap f^{-1}(Cl(V_y)))
   =
   f(C) \cap (Cl(V))
+  \;
+  \subset Y
+  \,.
 $$ 
 
-This is also a [[closed subset]], since [[compact subspaces of Hausdorff spaces are closed]]. Now
+This is also a [[closed subset]], since [[compact subspaces of Hausdorff spaces are closed]]. Therefore
 
 $$
-  U_y \coloneqq V_y \backslash f(C \cap f^{-1}(Cl(V_y)))
+  U_y \coloneqq V_y \backslash ( f(C) \cap (Cl(V_y)) ) = V_y \backslash f(C)
 $$
 
-is the required open neighbourhod.
+is an open neighbourhod of $y$ not intersecting $f(C)$.
 
+=--
+
+## Related statements
+
+* [[maps from compact spaces to Hausdorff spaces are closed and proper]]
+
+* [[a CW-complex is a Hausdorff space]]
+
+* [[Hausdorff implies sober]]
+
+* [[continuous image of a compact space is compact]]
+
+* [[closed subsets of compact spaces are compact]]
+
+* [[compact subspaces of Hausdorff spaces are closed]]
+
+* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
+
+* [[quotient projections out of compact Hausdorff spaces are closed precisely if the codomain is Hausdorff]]
+
+* [[paracompact Hausdorff spaces are normal]]
+
+* [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
