@@ -460,6 +460,11 @@ Strictification is discussed in
 
 * [[Vladimir Voevodsky]], [Notes on type systems](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/expressions_current.pdf)
 
+A comparison of various models, internally in type theory, is in
+
+* [[Benedikt Ahrens]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], *Categorical structures for type theory in univalent foundations*, [arxiv](https://arxiv.org/abs/1705.04310)
+
+
 
 [[!redirects categorical model of dependent types]]
 [[!redirects categorical models of dependent types]]
