@@ -39,6 +39,29 @@ A locally compact [[Hausdorff space|Hausdorff]] space may also be called a _loca
 
 ## Properties
 
+### General
+
++-- {: .num_prop}
+###### Proposition
+**([[proper maps to locally compact spaces are closed]])**
+
+Let
+
+1. $(X,\tau_X)$ be a [[topological space]],
+
+1. $(Y,\tau_Y)$ a [[locally compact topological space]] according to def. \ref{LocallyCompactSpace},
+
+1. $f \colon X \to Y$ a [[continuous function]].
+
+Then:
+
+If $f$ is a [[proper map]], then it is a [[closed map]].
+
+=--
+
+
+
+
 ### Category-theoretic properties
 
 Perhaps the most important consequence of local compactness (as defined above) for categorical topology is that locally compact spaces are [[exponential object|exponentiable]], i.e., if $Y$ is locally compact, then $Y \times -: Top \to Top$ has a [[adjunction|right adjoint]] $(-)^Y: Top \to Top$. In fact, this is almost an abstract definition of local compactness: for [[sober spaces]], local compactness is equivalent to being exponentiable. Cf. the situation for [[locales]]: a result of Hyland is that locale is [[locally compact locale|locally compact]] if and only if it is exponentiable.  (See [[exponential law for spaces]] and [[compact-open topology]] for more details.) 
