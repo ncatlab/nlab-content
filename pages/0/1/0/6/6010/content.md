@@ -13,13 +13,21 @@
 * table of contents
 {:toc}
 
+
 ## Definition
 
-An _embedding of smooth manifolds_ is a [[smooth function]] $f : X \hookrightarrow Y$ such that
++-- {: .num_defn #SmoothManifoldsEmbedding}
+###### Definition
+**(embedding of smooth manifolds)**
+
+An _embedding of smooth manifolds_ is a [[smooth function]] $f : X \hookrightarrow Y$ between [[smooth manifolds]] $X$ and $Y$ such that
 
 1. $f$ is an [[immersion of smooth manifolds|immersion]];
 
 1. the underlying [[continuous function]] is an [[embedding of topological spaces]].
+
+=--
+
 
 ## Examples
  {#Examples}
@@ -33,7 +41,7 @@ An _embedding of smooth manifolds_ is a [[smooth function]] $f : X \hookrightarr
 </div>
 
 Consider an immersion $f \;\colon\; (a,b) \to \mathbb{R}^2$ of an [[open interval]] into the [[Euclidean plane]] (or the [[2-sphere]]) as shown on the right. This is not a [[embedding of smooth manifolds]]: around the points where the image crosses itself, the function is not even injective, but even 
-at the points where it just touches itself, the pre-images under $f$ of open subsets of $\mathbb{R}^2$ do not exhaust the open subsets of $(a,b)$, hence do not yield the [[subspace topology]].
+a#t the points where it just touches itself, the pre-images under $f$ of open subsets of $\mathbb{R}^2$ do not exhaust the open subsets of $(a,b)$, hence do not yield the [[subspace topology]].
 
 
 <div style="float:left;margin:0 10px 10px 0;">
@@ -49,6 +57,23 @@ As a concrete examples, consider the function  $(sin(2-), sin(-)) \;\colon\; (-\
 
 
 ## Properties
+
+### Basic properties
+
++-- {: .num_prop}
+###### Proposition
+**(proper injective immersions are equivalently the closed embeddings)**
+
+Let $X$ and $Y$ be [[smooth manifolds]], and let $f \colon X \to Y$ be a [[smooth function]]. Then the following are equivalent
+
+1. $f$ is a [[proper map|proper]][[injective function|injective]]  [[immersion]];
+
+1. $f$ is a closed embedding.
+
+=--
+
+(...)
+
 
 ### Embedding into Euclidean space
  {#EmbeddingIntoEuclideanSpace}
