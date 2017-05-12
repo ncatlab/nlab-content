@@ -15,9 +15,18 @@
 * table of contents
 {:toc}
 
+## Idea
+
+An _[[embedding]] of [[topological spaces]]_ is a [[continuous function]] which is a [[homeomorphism]] onto its [[image]].
+
 ## Definition
 
-An _embedding of topological spaces_ is a [[continuous function]] $f \colon X \to Y$ between [[topological spaces]], such that considering its [[image factorization]]
++-- {: .num_defn #EmbeddingOfTopologicalSpaces}
+###### Definition
+**(embedding of topological spaces)**
+
+Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be [[topological spaces]]. A [[continuous function]] $f \;\colon\; X \longrightarrow Y$ is called an _embedding_ if  
+in its [[image factorization]] 
 
 $$
   f 
@@ -31,7 +40,32 @@ $$
 
 with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]], then $X \to f(X)$ is a [[homeomorphism]].
 
+=--
+
 ## Properties
+
++-- {: .num_prop}
+###### Proposition
+**(open/closed continuous injections are embeddings)**
+
+A [[continuous function]] $f \colon (X, \tau_X) \to (Y,\tau_Y)$
+which is
+
+1. an [[injective function]]
+
+1. an [[open map]] or a [[closed map]]
+
+is an embedding (def. \ref{EmbeddingOfTopologicalSpaces}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If $f$ is injective, then the map onto its [[image]] $X \to f(X) \subset Y$ is a [[bijection]], and still continuous with respect to the subspace topology on $f(X)$. Now a bijective continuous function is a homeomorphism precisely if it is open, or, equivalently, if it is closed. Now an open subset of $Y$ that happens to be contained in $f(X) \subset Y$ is still open in the subspace topology. Hence $X \to f(X)$ is an open map if $f$ is.
+
+=--
+
 
 +-- {: .num_prop #TopologicalEmbeddingsAreTheRegularMonos} 
 ###### Proposition 
