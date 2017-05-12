@@ -1,4 +1,5 @@
-[[!redirects open map]]
+
+> This page is about the general concept. For open [[continuous functions]] see at _[[open map]]_.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -22,7 +23,7 @@
 
 ### For maps between topological spaces
 
-A [[function]]  $f : X \to Y$ between [[topological space]]s  is called __open__ if the [[image]] of every [[open set]] in $X$ is also open in $Y$.
+A [[function]]  $f : X \to Y$ between [[topological space]]s  is called an __[[open map]]__ if the [[image]] of every [[open set]] in $X$ is also open in $Y$.
 
 Recall that $f$ is a __[[continuous map]]__ if the [[preimage]] of every [[open subspace|open set]] in $Y$ is open in $X$.  For defining open maps typically one restricts attention to open [[continuous map]]s, although it also makes sense to speak of open functions that are not continuous. 
 
@@ -120,7 +121,3 @@ An application:
 
 * [[André Joyal]], [[Mogens Nielsen]] and [[Glynn Winskel]], _Bisimulation from open maps_, BRICS report series RS-94-7 (1994) ([abstract page](http://ojs.statsbiblioteket.dk/index.php/brics/article/view/21663), [pdf](http://www.brics.dk/RS/94/7/BRICS-RS-94-7.pdf)).
 
-[[!redirects open map]] 
-[[!redirects open maps]]
-[[!redirects open mapping]] 
-[[!redirects open mappings]] 
