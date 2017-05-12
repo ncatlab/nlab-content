@@ -1,0 +1,23 @@
+# Span
+
+* table of contents
+{: toc}
+
+## Definition
+
+$Span$ is the [[bicategory]], or [[double category]], whose
+
+* objects are [[sets]]
+* (horizontal) morphisms are [[spans]]
+* 2-cells are morphisms of spans
+* (in the double category case) vertical morphisms are [[functions]].
+
+More generally, we have $Span(C)$ consists of spans in $C$ for any [[category]] $C$ with [[pullbacks]].
+
+## Properties
+
+$Span$ is a sort of classifying object for arbitrary functors; see [[displayed category]].
+
+## Categorifications
+
+There is an [[(infinity,n)-category of correspondences]].
