@@ -1,4 +1,6 @@
 
+> This entry is about the general concept. For the concept iin [[topology]] see at _[[closed map]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -23,9 +25,9 @@
 
 ### Between topological spaces
 
-A [[continuous function]]  $f \colon X \longrightarrow Y$ between [[topological spaces]]  is called __closed__ if the [[image]] of every [[closed subset]] in $X$ is also closed in $Y$.
+A [[continuous function]]  $f \colon X \longrightarrow Y$ between [[topological spaces]]  is called a __[[closed map]]__ if the [[image]] of every [[closed subset]] in $X$ is also closed in $Y$.
 
-Recall that $f$ is a __[[continuous map]]__ if the [[preimage]] of every [[closed subspace|closed set]] in $Y$ is closed in $X$.  For defining closed maps typically one restricts attention to closed [[continuous map]]s, although it also makes sense to speak of closed functions that are not continuous.
+Recall that $f$ is a __[[continuous map]]__ if the [[preimage]] of every [[closed subspace|closed set]] in $Y$ is closed in $X$.  For defining closed maps typically one restricts attention to closed [[continuous maps]], although it also makes sense to speak of closed functions that are not continuous.
 
 
 
@@ -91,14 +93,11 @@ A [[geometric morphism]] $f : \mathcal{F} \to \mathcal{E}$ is closed iff, in the
 
 Closed maps of locales and toposes are discussed in section C3.2 of
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_.
- {#Johnstone}
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_.
+ 
 
 
 [[!redirects closed morphisms]]
-
-[[!redirects closed map]]
-[[!redirects closed maps]]
 
 [[!redirects closed geometric morphism]]
 [[!redirects closed geometric morphisms]]
