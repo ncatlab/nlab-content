@@ -83,6 +83,8 @@ A [[geometric morphism]] $f : \mathcal{F} \to \mathcal{E}$ is closed iff, in the
 
 * [[open morphism]], [[open geometric morphism]]
 
+* [[proper morphism]]
+
 * [[étale morphism]]
 
 * [[separated morphism]]
