@@ -122,6 +122,8 @@ Note that this violates the convention that a $1$-foo is a foo; instead the ruli
 
 * [[hemisphere]], [[equator]]
 
+* [[unit sphere]]
+
 * [[stereographic projection]]
 
 * [[homotopy groups of spheres]]
@@ -164,7 +166,7 @@ See also the [[ADE classification]] of such actions on the [[7-sphere]] (as disc
 
 ### Geometric structures on spheres
 
-* Michael Atiyah, _The non-existent complex 6-sphere_, [arxiv/1610.09366](https://arxiv.org/abs/1610.09366)
+* [[Michael Atiyah]], _The non-existent complex 6-sphere_, [arxiv/1610.09366](https://arxiv.org/abs/1610.09366)
 
 [[!redirects n-sphere]]
 [[!redirects n-spheres]]
