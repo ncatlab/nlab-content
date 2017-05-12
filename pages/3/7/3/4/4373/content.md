@@ -1,4 +1,6 @@
 
+> This page consider the very general concept of embeddings. For the special cases traditionally considered see at _[[embedding of topological spaces]]_ or _[[embedding of smooth manifolds]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
