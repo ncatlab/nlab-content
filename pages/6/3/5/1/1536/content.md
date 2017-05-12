@@ -71,6 +71,8 @@ This equivalence notably allows one to discuss [[stack]]s equivalently as pseudo
 
 The Grothendieck construction is one of the central aspects of [[category theory]], together with the notions of universal constructions such as [[limit]], [[adjunction]] and [[Kan extension]]. It is expected to have suitable analogs in all sufficiently good contexts of [[higher category theory]]. Notably there is an [[(∞,1)-Grothendieck construction]] in [[(∞,1)-category]] theory.
 
+The Grothendieck construction can also be generalized beyond fibrations, to the correspondence between [[displayed categories]] and arbitrary categories over $C$.
+
 
 ## Definition 
 
@@ -585,6 +587,10 @@ The correspondence between $(\infty,1)$-categorical [[cartesian fibrations]] $E 
 For more details see
 
 * [[(∞,1)-Grothendieck construction]]
+
+### Normal lax functors into $Prof$
+
+The Grothendieck construction can be generalized from pseudofunctors into $Cat$ to normal lax functors into [[Prof]].  Instead of fibrations over $C$, such normal lax functors correspond to arbitrary functors into $C$.  See [[displayed category]] for more.
 
 
 ## Warning on terminology ##
