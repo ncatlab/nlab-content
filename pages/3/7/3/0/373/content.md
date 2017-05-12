@@ -77,13 +77,13 @@ A 2-category in which all 1-morphisms and 2-morphisms are invertible is a [[2-gr
   * morphisms are $V$-enriched functors; and
   * 2-morphisms are $V$-natural transformations.
 
-* On the other hand, for any such $V$ we also have a bicategory $V$-[[Prof]] whose
+* On the other hand, for any such $V$ we also have a [[bicategory]] $V$-[[Prof]] whose
 
   * objects are $V$-[[enriched categories]];
   * morphisms are $V$-[[profunctor]]s; and
   * 2-morphisms are natural transformations between these.
 
-* If $C$ is a category with [[pullbacks]], then there is a bicategory $Span(C)$ whose
+* If $C$ is a category with [[pullbacks]], then there is a bicategory [[Span]]$(C)$ whose
 
   * objects are the objects of $C$;
   * morphisms are [[spans]] in $C$; and
