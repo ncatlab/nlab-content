@@ -1,0 +1,60 @@
+
+## Background
+
++-- {: .num_defn #LocallyCompactSpace}
+###### Definition
+**([[locally compact topological space]])**
+
+A [[topological space]] $X$ is called _[[locally compact topological space|locally compact]]_
+if for every point $x \in X$ and every [[open neighbourhood]] $U_x \supset \{x\}$
+there exists a smaller open neighbourhood $V_x \subset U_x$ whose [[topological closure]]
+is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) and still contained in $U$:
+
+$$
+  \{x\} \subset V_x \subset \underset{\text{compact}}{Cl(V_x)} \subset U_x
+  \,.
+$$
+
+=--
+
+## Statement and proof
+
++-- {: .num_prop}
+###### Proposition
+**(proper maps to locally compact spaces are closed)**
+
+Let
+
+1. $(X,\tau_X)$ be a [[topological space]],
+
+1. $(Y,\tau_Y)$ a [[locally compact topological space]] according to def. \ref{LocallyCompactSpace},
+
+1. $f \colon X \to Y$ a [[continuous function]].
+
+Then:
+
+If $f$ is a [[proper map]], then it is a [[closed map]].
+
+=--
+
+Proof:
+
+Let $C \subset X$ be a closed subset. We need to show that every $y \in Y \backslash f(C)$ has an open neighbourhood $U_y \supset \{y\}$ not intersecting $f(C)$.
+
+By local compactness, $y$ has an open neighbourhood $V_y$ whose topological closure $Cl(V_y)$ is compact. Hence since $f$ is proper, also $f^{-1}(Cl(V_y)) \subset X$ is compact. Then also 
+$C \cap f^{-1}(Cl(V_y))$ is compact, and hence so is 
+
+$$
+  f(C \cap f^{-1}(Cl(V_y)))
+  =
+  f(C) \cap (Cl(V))
+$$ 
+
+This is also a [[closed subset]], since [[compact subspaces of Hausdorff spaces are closed]]. Now
+
+$$
+  U_y \coloneqq V_y \backslash f(C \cap f^{-1}(Cl(V_y)))
+$$
+
+is the required open neighbourhod.
+
