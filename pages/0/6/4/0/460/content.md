@@ -22,7 +22,7 @@ The condition that a [[topological space]] be _sober_ is an extra condition akin
 |---------------------------------------|
 | $\array{\\ &&& T_2 = \text{Hausdorff}  \\ && \swArrow && \seArrow \\ \, & T_1 && && \text{sober} & \, \\ && \seArrow && \swArrow \\ &&& T_0 = \text{Kolmogorov} \\ }  $ |
 
-But the soberity condition on a topological space has deeper meaning. It means that [[continuous functions]] betwen sober topolgical spaces are entirely determined by their [[inverse image]] functions on the [[frames of opens]], disregarding the underlying sets of points. Technically this means that the sober topological spaces are precisely the [[locales]] among the topological spaces.
+But the sobriety condition on a topological space has deeper meaning. It means that [[continuous functions]] betwen sober topolgical spaces are entirely determined by their [[inverse image]] functions on the [[frames of opens]], disregarding the underlying sets of points. Technically this means that the sober topological spaces are precisely the [[locales]] among the topological spaces.
 
 ## Definition
 
