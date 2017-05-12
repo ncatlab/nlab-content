@@ -17,7 +17,7 @@
 
 Recall:
 
-+-- {: .num_defn ##LocallyFiniteCover}
++-- {: .num_defn #LocallyFiniteCover}
 ###### Definition
 **([[locally finite cover]])**
 
@@ -32,7 +32,7 @@ An [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finit
 **([[refinement]] of [[open covers]])
 
 
-Let $(X,\tau)$ be a [[topological space]], and let $\{U_i \subset X\}_{i \in I}}$ be a [[open cover]].
+Let $(X,\tau)$ be a [[topological space]], and let $\{U_i \subset X\}_{i \in I}$ be a [[open cover]].
  
 Then a _[[refinement]]_ of this open cover is a set of open subsets $\{V_j \subset X\}_{j \in J}$ which is still an [[open cover]] in itself and such that for each $j \in J$ there exists an $i \in I$ with $V_j \subset U_i$.
 
