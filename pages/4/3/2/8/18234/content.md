@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
 # Span
 
 * table of contents
@@ -16,7 +27,7 @@ More generally, we have $Span(C)$ consists of spans in $C$ for any [[category]] 
 
 ## Properties
 
-$Span$ is a sort of classifying object for arbitrary functors; see [[displayed category]].
+$Span$ is a sort of classifying object for arbitrary functors; see _[[displayed category]]_.
 
 ## Categorifications
 
