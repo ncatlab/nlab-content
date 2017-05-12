@@ -41,7 +41,7 @@ What this means is that the open sets $u_j^{-1}(0,1]$ form an open cover _refini
 
 ## Properties
 
-### Existence on paracompact spaces
+### Existence on paracompact topological spaces
 
 +-- {: .num_prop #ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}
 ###### Proposition
@@ -62,28 +62,71 @@ Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
 
 Similarly [[normal spaces]] are equivalently those such that every [[locally finite cover]] has a subordinate partition of unity (reference Bourbaki, Topology Generale - find this!)
 
-Paracompact [[smooth manifolds]] have _smooth_ partitions of unity subordinate to any open cover (this follows from the existence of a smooth [[bump function]] on $[-1,1]$). It is not true, however, that [[analytic manifolds]] have analytic partitions of unity - the aforementioned [[bump function]] is smooth but not analytic:
+### Existence on smooth manifolds
+ {#ExistenceOnSmoothManifolds}
 
-+-- {: .num_prop}
+Paracompact [[smooth manifolds]] even have _smooth_ partitions of unity subordinate to any open cover (this follows from the existence of a smooth [[bump function]] on $[-1,1]$). It is not true, however, that [[analytic manifolds]] have analytic partitions of unity - the aforementioned [[bump function]] is smooth but not analytic:
+
++-- {: .num_prop #SmoothManifoldAdmitsSmoothPartitionsOfUnity}
 ###### Proposition
+**([[smooth manifolds]] admit smooth partitions of unity)**
 
-Let $X$ be a paracompact [[smooth manifold]]. Then every [[open cover]] $\{U_i \subset X\}_{i \in I}$ has a partition of unity by functions $\{\phi_i \colon U_i \to \mathbb{R}\}_{i \in I}$ which are _[[smooth functions]]_.
+Let $X$ be a paracompact [[smooth manifold]]. Then every [[open cover]] $\{U_i \subset X\}_{i \in I}$ has a subordinate partition of unity by functions $\{f_i \colon U_i \to \mathbb{R}\}_{i \in I}$ which are _[[smooth functions]]_.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Let $\{\mathbb{R}^n  \underoverset{\simeq}{\phi_j X}{\to}\}_{j \in J}$ be an [[atlas]] for the smooth manifold. Then by definition, for each point $x \in X$ there is $i \in I$ and $j \in J$ such that 
+Since $X$ is paracompact, the given open cover has a [[refinement]] to a [[locally finite cover]], and then there exists one with the same index set ([this prop.](paracompact+Hausdorff+spaces+equivalently+admit+subordinate+partitions+of+unity#LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet)):
 
 $$
-  x \in U_i \cap Im(\phi_j)
+  \left\{
+    U'_i \subset X
+  \right\}_{i \in I}
   \,.
 $$
 
-By the nature of the [[subspace topology]], this intersection is still an open subset of $Im(\phi_j) \simeq \mathbb{R}^n$. Therefore by the nature of the [[metric topology]] there exists a [[positive number|positive]] [[real number]] $\epsilon_{x}$ such that the [[open ball]] $B^\circ_x(\epsilon_x) \subset U_i \cap Im(\phi_j)$ is an open neighbourhood of $x$ contained in $U_i$.
 
-Let 
+Recall that the smooth manifold $X$ is a [[normal topological space]] because it is a [[compact Hausdorff space]] by definition and [[compact Hausdorff spaces are normal]].  Therefore we may invoke the [[shrinking lemma]] to obtain yet another open cover with the same index set
+
+$$
+  \left\{
+     V_i \subset X
+  \right\}_{i \in I}
+$$
+
+with the property that
+
+$$  
+  \underset{i \in I}{\forall}  
+  \left(
+     V_i \subset Cl(U'_i) \subset U'_i \subset U_i
+  \right)
+  \,.
+$$
+
+Now let 
+
+$$
+  \{\mathbb{R}^n  \underoverset{\simeq}{\phi_j }{\to} X\}_{j \in J}
+$$ 
+
+be an [[atlas]] exhibiting the [[smooth structure]] on the smooth manifold. Then by definition, for each point $x \in X$ there is $i_x \in I$ and $j_x \in J$ such that 
+
+$$
+  x \in V_{i_x} \cap Im(\phi_{j_x})
+  \,.
+$$
+
+By the nature of the [[subspace topology]], this intersection is still an open subset of $Im(\phi_{j_x}) \simeq \mathbb{R}^n$. Therefore by the definition of the [[metric topology]] there exists a [[positive number|positive]] [[real number]] $\epsilon_{x}$ such that the [[open ball]] of [[radius]] $\epsilon_x$ around $x$ is an open neighbourhood of $x$ still contained in $V_{i_x}$:
+
+$$
+  B^\circ_x(\epsilon_x) \subset V_{i_x} \cap Im(\phi_{j_x})
+  \,.
+$$
+
+Let then
 
 $$
   \left\{
@@ -92,7 +135,7 @@ $$
   \right\}_{x \in X}
 $$
 
-be the collection of choices of such open balls, around each point of the manifold. This is an [[open cover]] which [[refinement|refines]] the original open cover. By [[paracompact topological space|paracompactness]], there exists a [[locally finite cover|locally finite]] subcover, hence a [[subset]] of points $S \subset X$ such that
+be the collection of choices of such open balls, around each point of the manifold. This is an [[open cover]] which [[refinement|refines]] the cover $\{U'_i \subset X\}_{i \in I}$. Again by [[paracompact topological space|paracompactness]] of $X$, there exists a [[locally finite cover|locally finite]] subcover, hence a [[subset]] of points $S \subset X$ such that
 
 $$  
   \left\{
@@ -104,8 +147,95 @@ $$
 
 is a locally finite open cover of $X$.
 
-(...)
+Let then
 
+$$
+  \left\{
+    \mathbb{R}^n \overset{\phantom{AA}b_s\phantom{AA}}{\longrightarrow} \mathbb{R}
+  \right\}_{s \in S \subset X}
+$$
+
+a set of [[smooth bump functions]] whose [[support]] is the [[topological closure]] of the chosen open ball around $s$, regarded now as a subspace of the corresponding $j$-th copy of $\mathbb{R}^n$:
+
+$$
+  Supp(b_s) = Cl\left( B^\circ_s(\epsilon_s) \right)
+  \,.
+$$
+
+Hence the [[smooth bump functions]] $b_s$ vanish on $\mathbb{R}^n \backslash Cl(B^\circ_s(\epsilon_s))$, such that their [[extension]] by zero to functions $\hat b_s$ on all of $X$
+
+$$
+  \array{
+     \mathbb{R}^n &\overset{b_s}{\longrightarrow}& \mathbb{R}
+     \\
+     {}^{\mathllap{\phi_{i_s}}}\downarrow & \nearrow_{\mathrlap{\hat b_s}}
+     \\
+     X
+  }
+$$
+
+are still [[smooth functions]]: $\hat b_s \in C^\infty(X,\mathbb{R})$. 
+
+Now by local finiteness of both the cover $\{U'_i \subset X\}_{i \in I}$ and of the cover $\{B^\circ_s(\epsilon_s)\}_{s \in S}$ we have that the sum
+
+$$
+  \underset{ {i \in I} \atop {s \in S \cap U'_i }}{\sum} \hat b_s(x)
+  \;\in\;
+  \mathbb{R}
+$$
+
+is well defined for each $x \in X$ (only finitely many of the summands are non-zero) and by the covering property each point $x$ is contained in at least one of the patches of the cover, hence in the [[interior]] of the [[support]] of at least one of the $\hat b_s$ and so 
+
+$$
+  \underset{s \in S}{\sum} \hat b_s(x) \;\gt\; 0
+$$
+
+for all $x \in X$. This means that it makes sense to define
+
+$$
+  f_i 
+  \;\coloneqq\;
+  \frac{
+    \underset{s \in S \cap U'_i}{\sum} \hat b_s 
+  }
+  {
+    \underset{ { i \in I} \atop { s \in S \cap U'_i} }{\sum} \hat b_s
+  }
+$$
+
+and these are still smooth functions: $f_i \in C^\infty(X,\mathbb{R})$. 
+
+We claim now that these form the required partition of unity subordinate to the original cover:
+
+1. By construction of the various open covers we have
+
+   $$
+     \underset{s \in S \cap U_i}{\forall} \left(Supp(b_s) = Cl\left(B^\circ_s(\epsilon_s)\right) \subset Cl(V_i) \subset U'_i \subset U_i\right)
+   $$ 
+
+   and hence
+
+   $$
+     Supp(f_i) \subset U_i
+     \,.
+   $$
+
+1. By construction of the functions $f_i$ we have
+
+   $$
+     \underset{i  \in I}{\sum} f_i(x)
+      =
+     \underset{i \in I}{\sum}
+     \frac{
+        \underset{s \in S \cap U_i}{\sum} \hat b_s
+     }
+     {
+       \underset{ {i \in I} \atop {s \in S \cap U_i} }{\sum} \hat b_s
+     }
+     = 
+     1
+     \,.
+   $$
 
 
 
