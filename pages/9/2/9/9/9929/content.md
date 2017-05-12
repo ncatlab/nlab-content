@@ -606,7 +606,7 @@ where $\zeta_n \coloneqq E U(n) \underset{U(n)}{\times} \mathbb{R}^{2n}$ is the 
 
 Observe that the [[sphere bundle]] $S(\zeta_n) \to B U(n)$ of the [[universal complex vector bundle]] is equivalently the canonical map $B U(n-1) \to B U(n)$. 
 
-This follows form the fact that $S^{2n-1} \simeq U(n)/U(n-1)$ and that hence the unit sphere bundle is equivalently the quotient of the $U(n)$-[[universal principal bundle]] by $U(n-1)$
+This follows form the fact that $S^{2n-1} \simeq U(n)/U(n-1)$ and that hence the [[unit sphere]] bundle is equivalently the quotient of the $U(n)$-[[universal principal bundle]] by $U(n-1)$
 
 $$
   \array{
