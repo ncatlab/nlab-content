@@ -1,4 +1,6 @@
 
+> For the concept in [[topology]] see at _[[proper map]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -13,20 +15,22 @@
 * table of contents
 {: toc}
 
-## Between topological spaces
+## Definitions
+
+### Between topological spaces
 
 While every [[continuous map]] sends [[compact subsets]] to [[compact subsets]] (see at _[[continuous images of compact spaces are compact]]_), it is not true in general that the [[preimage]] of a compact set along a continuous map is compact.
 
-A [[continuous function]] $f : X \to Y$ between [[topological space]]s is **proper** if the [[inverse image]] of any [[compact space|compact]] subset is itself compact.
+A [[continuous function]] $f : X \to Y$ between [[topological space]]s is **[[proper map]]** if the [[inverse image]] of any [[compact space|compact]] subset is itself compact.
 
 A notion of proper homotopy between proper maps leads to [[proper homotopy theory]].
 
 Similarly, one can consider the conditions on morphisms in other geometric situations, like [[algebraic geometry]], and properness often either reflects or implies good behaviour with respect to the compact objects (cf. also proper push-forward). 
 
 
-## Between schemes
+### Between schemes
 
-A __proper morphism of [[scheme]]s__ is by definition a morphism $f:X\to Y$ which is 
+A __proper morphism of [[schemes]]__ is by definition a morphism $f:X\to Y$ which is 
 
 1. [[separated morphism|separated]], 
 
@@ -44,7 +48,7 @@ The [[base change]] formulas for [[cohomology]] for proper and for smooth morphi
 ([Maltsiniotis](#Maltsiniotis)).
 
 
-## Between locales
+### Between locales
 
 Recall that a [[locale]] $L$ is given by a [[frame]] $O(L)$, its [[frame of opens]], and that a [[continuous map]] $f$ from $K$ to $L$ is given by an [[adjunction]] $f^* \dashv f_* \colon O(K) \rightleftarrows O(L)$ such that the [[inverse image]] function $f^*$ preserves finitary [[meets]] (or equivalently is a frame [[homomorphism]], since it must preserve all [[joins]]).
 
@@ -55,7 +59,7 @@ In particular, the map $L\to 1$ is proper iff $L$ is both [[compact locale|compa
 Proper maps of locales can also be characterized as those that are universally closed, i.e. every pullback of them (along any map of locales) is closed.
 
 
-## Between toposes
+### Between toposes
 
 Proper maps of locales can be generalized to [[geometric morphisms]] of [[Grothendieck toposes]]; see [[proper geometric morphism]].
 
@@ -63,6 +67,10 @@ The topos-theoretic condition refers only to directed unions of subterminal obje
 
 
 ## Related concepts
+
+* [[proper map]], [[open map]], [[closed map]]
+
+* [[open morphism]], [[closed morphism]]
 
 * [[proper base change theorem]]
 
@@ -78,11 +86,6 @@ The topos-theoretic condition refers only to directed unions of subterminal obje
 
 * wikipedia [proper morphism](http://en.wikipedia.org/wiki/Proper_morphism)
 * Daniel Halpern-Leistner, Anatoly Preygel, _Mapping stacks and categorical notions of properness_, [arxiv/1402.3204](http://arxiv.org/abs/1402.3204)
-
-[[!redirects proper map]]
-[[!redirects proper maps]]
-[[!redirects proper continuous map]]
-[[!redirects proper continuous maps]]
 
 [[!redirects proper morphism]]
 [[!redirects proper morphisms]]
