@@ -56,7 +56,7 @@ A span in the [[opposite category]] $C^op$ is called a [[co-span]] in $C$.
 
 A span that has a [[cocone]] is called a [[coquadrable span]].
 
-### Categories of correspondences
+### Categories of spans
 
 If the category $C$ has [[pullback|pullbacks]], we can compose spans.  Namely, given a span from $x$ to $y$ and a span from $y$ to $z$:
 $$
@@ -118,7 +118,7 @@ $$
   }
 $$
 
-This way of composing spans lets us define a [[2-category]] $Span(C)$ with:
+This way of composing spans lets us define a [[2-category]] [[Span]]$(C)$ with:
 
 * objects of $C$ as objects
 * spans as morphisms
@@ -127,6 +127,8 @@ This way of composing spans lets us define a [[2-category]] $Span(C)$ with:
 This is a weak 2-category: it has a nontrivial [[associator]]: composition of spans is not strictly associative, because pullbacks are defined only up to canonical isomorphism.  A [[Lack's coherence theorem|naturally defined]] [[strict 2-category]] which is equivalent to $Span(C)$ is the strict 2-category of [[linear polynomial functors]] between [[slice categories]] of $C$.
 
 (Note that we must choose a specific pullback when defining the composite of a pair of morphisms in $Span(C)$, if we want to obtain a [[bicategory]] as traditionally defined; this requires the [[axiom of choice]]. Otherwise we obtain a bicategory with 'composites of morphisms defined only up to canonical iso-2-morphism'; such a structure can be modeled by an [[anabicategory]] or an [[opetopic bicategory]].)
+
+By including functions as well, instead of a 2-category we obtain a [[double category]].
 
 
 ## Properties
