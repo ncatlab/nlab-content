@@ -2760,7 +2760,7 @@ which evidently makes the inclusion $f(X) \longrightarrow Y$ a [[continuous func
    Observe that this also makes $X \to f(X)$ a continuous function: An open subset of $f(X)$
    in this case is of the form $U_Y \cap f(X)$ for $U_Y \in \tau_Y$, and $f^{-1}( U_Y \cap f(X) ) = f^{-1}(U_Y)$,
    which is open in $X$ since $f$ is continuous.
-
+   
 1. By example \ref{QuotientTopologicalSpace} $f(X)$ inherits a [[quotient topological space|quotient topology]] from $(X,\tau_X)$
    which evidently makes the surjection $X \longrightarrow f(X)$ a [[continuous function]].
 
@@ -2840,6 +2840,26 @@ A [[continuous function]] $f \colon (X,\tau_X) \to (Y, \tau_Y)$ (def. \ref{Conti
 *  an _[[open map]]_ if the [[image]] under $f$ of an [[open subset]] of $X$ is an open subset of $Y$;
 
 * a _[[closed map]]_ if the [[image]] under $f$ of a [[closed subset]] of $X$ (def. \ref{ClosedSubset}) is a closed subset of $Y$.
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[image]] projections of [[open map|open]]/[[closed maps]] are themselves open/closed)**
+
+If a [[continuous function]] $f \colon (X,\tau_X) \to (Y,\tau_Y)$ is an [[open map]] or [[closed map]] (def. \ref{OpenMap})
+then so its its [[image]] projection $X \to f(X) \subset Y$, respectively, for $f(X) \subset Y$ regarded with its
+[[subspace topology]] (example \ref{ImageFactorization}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If $f$ is an open map, and $O \subset X$ is an open subset, so that $f(O) \subset Y$ is also open in $Y$, then, since $f(O) = f(O) \cap f(X)$, it is also still open in the subspace topology, hence $X \to f(X)$ is an open map.
+
+If $f$ is a closed map, and $C \subset X$ is a closed subset so that also $f(C) \subset Y$ is a closed subset, then the [[complement]] $Y \backslash f(C)$ is open in $Y$ and  hence $(Y \backslash f(C)) \cap f(X) = f(X) \backslash f(C)$ is open in the subspace topology, which means that $f(C)$ is closed in the subspace topology.
+
 
 =--
 
