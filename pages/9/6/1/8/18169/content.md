@@ -154,6 +154,25 @@ is still open and disjoint from the remaining $V_k$, hence disjoint from all of 
 
 =--
 
+## Related statement
+
+* [[Hausdorff spaces are sober]]
+
+* [[compact subspaces of Hausdorff spaces are closed]]
+
+* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
+
+* [[a CW-complex is a Hausdorff space]]
+
+* [[Hausdorff implies sober]]
+
+* [[maps from compact spaces to Hausdorff spaces are closed and proper]]
+
+* [[continuous images of compact spaces are compact]]
+
+* [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
+
+
 
 [[!redirects Dieudonné's theorem]]
 
