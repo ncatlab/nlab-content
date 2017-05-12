@@ -23,7 +23,7 @@
 A [[topological space]] $X$ is called _[[locally compact topological space|locally compact]]_
 if for every point $x \in X$ and every [[open neighbourhood]] $U_x \supset \{x\}$
 there exists a smaller open neighbourhood $V_x \subset U_x$ whose [[topological closure]]
-is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) and still contained in $U$:
+is [[compact topological space|compact]] and still contained in $U$:
 
 $$
   \{x\} \subset V_x \subset \underset{\text{compact}}{Cl(V_x)} \subset U_x
@@ -82,11 +82,13 @@ is an open neighbourhod of $y$ not intersecting $f(C)$.
 
 ## Related statements
 
+* [[closed injections are embeddings]]
+
 * [[maps from compact spaces to Hausdorff spaces are closed and proper]]
 
-* [[a CW-complex is a Hausdorff space]]
+* [[CW-complexes are Hausdorff spaces]]
 
-* [[Hausdorff implies sober]]
+* [[Hausdorff spaces are sober]], [[schemes are sober]]
 
 * [[continuous image of a compact space is compact]]
 
