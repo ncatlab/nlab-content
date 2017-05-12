@@ -1,0 +1,12 @@
+
+## Related concepts
+
+* [[distance]]
+
+* [[trigonometry]]
+
+## References
+
+* Wikipedia, _[Angle](https://en.wikipedia.org/wiki/Angle)_
+
+[[!redirects angles]]
