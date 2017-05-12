@@ -75,7 +75,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[topological manifold]]
 
-* [[CW-complex]]
+* [[cell complex]], [[CW-complex]]
 
 ## Examples
 
