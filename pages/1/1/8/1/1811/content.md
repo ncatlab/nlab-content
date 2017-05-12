@@ -83,7 +83,7 @@ Y_{l m}(\theta,\phi) = \sqrt{ \frac{2l+1}{4\pi}\frac{(l-m)!}{(l+m)!} } P^m_l(cos
 $$
 (If it is not clear from mathML rendering -- both fractions are under square root -- including both the numerators and denominators). 
 
-If $(\theta,\phi)$ and $(\theta',\phi')$ are two points of the unit sphere in spherical coordinates (polar angle, azimuth), and $\gamma$ is the angle between the two corresponding rays from the origin then
+If $(\theta,\phi)$ and $(\theta',\phi')$ are two points of the [[unit sphere]] in spherical coordinates (polar angle, azimuth), and $\gamma$ is the angle between the two corresponding rays from the origin then
 
 $$
 P_l(cos \gamma) = \sum_{m=-l}^l (-1)^m P_l^m(cos \theta)P_l^{-m}(cos \theta') cos(m(\phi-\phi')) = \frac{4\pi}{2l+1}\sum_{m=-l}^l Y_{lm}(\theta,\phi) Y_{lm}^*(\theta',\phi')
