@@ -383,8 +383,6 @@ See also
 [[!redirects n-fold correspondence]]
 [[!redirects n-fold correspondences]]
 
-[[!redirects Span]]
-
 [[!redirects (∞,n)-category of n-fold correspondences]]
 [[!redirects (infinity,n)-category of n-fold correspondences]]
 
