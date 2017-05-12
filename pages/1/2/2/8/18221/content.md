@@ -23,6 +23,8 @@ One may consider [[internal categories]] in [[homotopy type theory]]. Under the 
 
 For internal [[1-categories]] in HoTT (as opposed to more general internal [[(infinity,1)-categories]]) a comprehensive discussion was given in ([Ahrens-Kapulkin-Shulman-13](#AhrensKapulkinShulman13)).
 
+Particularly useful in the context of such categories are [[displayed categories]].
+
 ## References
 
 The relation between [[complete Segal space|Segal completeness]] (now often "Rezk completeness") for internal categories in HoTT and the [[univalence axiom]] had been pointed out in
