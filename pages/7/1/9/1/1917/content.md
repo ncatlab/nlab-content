@@ -187,7 +187,7 @@ With the revised version of the axioms, it becomes possible to attempt to classi
 
 ### 1+1 dimensional HQFTs with background a $K(G,1)$
 
-If we look at the case $n= 1$ and with background an [[Eilenberg-Mac Lane space]] $K(G,1)$ for a [[discrete group]] $G$, then HQFTs correspond to [[crossed G-algebra|crossed G-algebras]], in much the same way that commutative [[Frobenius algebras]] correspond to [[2d TQFT]]s.  There the correspondence is given by a [[2d TQFT]], $Z$, corresponds to the [[Frobenius algebra]], $Z(S^1)$. This is because the circle $S^1$ is a [[Frobenius object]] in the category $Bord_2$ of 2d-[[cobordism]]s between 1-manifolds. 
+If we look at the case $n= 1$ and with background an [[Eilenberg-Mac Lane space]] $K(G,1)$ for a [[discrete group]] $G$, then HQFTs correspond to [[crossed G-algebra|crossed G-algebras]], in much the same way that commutative [[Frobenius algebras]] correspond to [[2d TQFT]]s.  There the correspondence is given by a [[2d TQFT]], $Z$, corresponds to the [[Frobenius algebra]], $Z(S^1)$. This is because the circle $S^1$ is a [[Frobenius algebra]], sometimes called a  Frobenius object, in the category $Bord_2$ of 2d-[[cobordism]]s between 1-manifolds. 
 
 In the case of HQFTs, the role of the circle is replaced by the family of  circles with characteristic maps to $B$.  Each one gives, combinatorially, a circle together with a labelling of the boundary by an element of $G$. (It does not seem to be known how to get a $G$-graded version of an abstract Frobenius object that will correspond to this situation, although this is probably not too hard to do.)
 
