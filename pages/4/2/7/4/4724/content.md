@@ -198,6 +198,8 @@ By the formulas given in [this prop.](stereographic+projection#StandardStereogra
 
 ## Related concepts
 
+* [[smooth manifold]]
+
 * [[diffeological space]], [[smooth set]]
 
 * [[orbifold]]
@@ -206,6 +208,14 @@ By the formulas given in [this prop.](stereographic+projection#StandardStereogra
 
 
 ## References
+
+Textbook accounts include
+
+* [[Theodore Frankel]], chapter 1 of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012)
+
+Lecture notes include
+
+* Claudio Gorodski, _Notes on smooth manifolds_, 2013 ([pdf](https://www.ime.usp.br/~gorodski/teaching/mat5799-2013/ch1.pdf))
 
 * {#Schlichtkrull08} [[Henrik Schlichtkrull]], _Differentiable manifolds_, 2008 ([pdf](http://www.math.ku.dk/~jakobsen/geom2/manusgeom2.pdf))
 
