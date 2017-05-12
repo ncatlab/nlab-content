@@ -20,7 +20,7 @@
 +-- {: .num_theorem #ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}
 ###### Theorem
 
-Assuming [[excluded middle]] and the [[axiom of choice]] then:
+Assuming the [[axiom of choice]] then:
 
 Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
 
