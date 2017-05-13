@@ -89,8 +89,8 @@ $$
 
 is an [[isomorphism]].
 
-Notice that $(R \oplus \epsilon R)$ is a [[infinitesimally thickened point|Weil algebra]]/[[Artin algebra]]:
-
+Notice that $(R \oplus \epsilon R)$ is a
+[[infinitesimally thickened point|Weil algebra]]/[[Artin algebra]]:
 an $R$-algebra
 that is finite dimensional and whose underlying [[ring]] is a local ring, i.e.
 of the form $W = R \oplus m$, where $m$ is a maximal nilpotent ideal finite dimensional over $R$.
