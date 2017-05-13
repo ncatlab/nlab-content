@@ -10,7 +10,7 @@
 
 ***
 
-This page is a detailed introduction to basic [[topology]].
+This page contains a detailed introduction to basic [[topology]].
 Starting from scratch (required background is just a basic concept of _[[sets]]_), and amplifying motivation from [[analysis]],
 it first develops standard [[point-set topology]] ([[topological spaces]]).
 In passing, some basics of [[category theory]] make an informal appearance,
@@ -61,30 +61,30 @@ $\,$
 The idea of _[[topology]]_ is to study "[[spaces]]" with "[[continuous functions]]" between them.
 Specifically one considers [[functions]] between [[sets]] (whence "[[point-set topology]]", see [below](#PointSetTopology))
 such that there is a concept for what it means that these functions depend
-continuously on their arguments, in that that their values do not "jump".
+continuously on their arguments, in that their values do not "jump."
 Such a concept of [[continuous function|continuity]] is familiar from [[analysis]] on [[metric spaces]],
 (recalled [below](#Continuity)) but the definition in topology generalizes this analytic concept
 and renders it more foundational, generalizing the concept of [[metric spaces]] to that of _[[topological spaces]]_.
 ([this def.](Introduction+to+Topology+--+1#TopologicalSpace) below).
 
-Hence [[topology]] is the study of the [[category]] whose [[objects]] are [[topological spaces]], and whose
+Hence, [[topology]] is the study of the [[category]] whose [[objects]] are [[topological spaces]], and whose
 [[morphisms]] are [[continuous functions]] (see also [this remark](Introduction+to+Topology+--+1#TopCategory) below).
 This category is much more flexible than that of [[metric spaces]], for example it admits the construction of
 arbitrary [[quotients]] and [[intersections]] of spaces.
 Accordingly, topology underlies or informs many and diverse areas of mathematics, such as
 [[functional analysis]], [[operator algebra]], [[manifold]]/[[scheme]] theory, hence [[algebraic geometry]] and [[differential geometry]],
-and the study of [[topological groups]], [[topological vector spaces]], [[local  rings]], etc.. Not the least, it gives rise to
+and the study of [[topological groups]], [[topological vector spaces]], [[local  rings]], etc. Not the least, it gives rise to
 the field of [[homotopy theory]], where one considers also continuous deformations of continuous functions themselves ("[[homotopies]]").
 Topology itself has many branches,
 such as _[[low-dimensional topology]]_ or _[[topological domain theory]]_.
 
 A popular imagery for the concept of a [[continuous function]] is provided by deformations of [[elasticity|elastic]]
 physical bodies, which may be deformed by stretching them without tearing. The canonical illustration is
-a continous [[bijection|bijective]] function from the [[torus]] to the surface of a coffee mug, which maps half of the torus to the
+a continuous [[bijection|bijective]] function from the [[torus]] to the surface of a coffee mug, which maps half of the torus to the
 handle of the coffee mug, and continuously deforms parts of the other half in order to form the actual cup.
 Since the [[inverse function]] to this function is itself continuous,
 the torus and the coffee mug, both regarded as [[topological spaces]], are "[[isomorphism|the same]]"
-for the purposes of [[topology]], one says they are _[[homeomorphic]]_.
+for the purposes of [[topology]]; one says they are _[[homeomorphic]]_.
 
 On the other hand, there is _no_ [[homeomorphism]] from the [[torus]] to, for instance, the [[sphere]], signifying that these
 represent two topologically distinct spaces. Part of topology is concerned with studying [[homeomorphism]]-[[invariants]]
@@ -94,28 +94,15 @@ whether two topological spaces are homeomorphic
 A basic algebraic invariant is the [[fundamental group]] of a topological space (discussed [below](#FundamentalGroups)),
 which measures how many ways there are to wind loops inside a topological space.
 
-Beware that the popular imagery of "[[rubber-sheet geometry]]" only captures part of the full scope of topology,
-in that it invokes spaces that _locally_ still look like [[metric spaces]].
-But the concept of topological spaces is a good bit more general.
-Notably [[finite topological spaces]] are either [[discrete topological space|discrete]] or very much unlike
-[[metric spaces]] ([this example](Introduction+to+Topology+--+1#FiniteT1SpacesAreDiscrete) below), they play a role in [[categorical logic]]. Also in [[geometry]] exotic topological spaces frequently arise when  forming non-free [[quotients]].
-In order to gauge just how many of such "exotic" examples of topological  spaces beyond locally [[metric spaces]] one wishes
-to admit in the theory,
-extra "[[separation axioms]]" are imposed on topological spaces (see [below](#SeparationAxioms)), and the flavour of topology as a field
-depends on this choice.
+Beware the popular imagery of "[[rubber-sheet geometry]]", which only captures part of the full scope of topology, in that it invokes spaces that _locally_ still look like [[metric spaces]]. But the concept of topological spaces is a good bit more general. Notably, [[finite topological spaces]] are either [[discrete topological space|discrete]] or very much unlike
+[[metric spaces]] ([this example](Introduction+to+Topology+--+1#FiniteT1SpacesAreDiscrete) below); the former play a role in [[categorical logic]]. Also, in [[geometry]], exotic topological spaces frequently arise when forming non-free [[quotients]]. In order to gauge just how many of such "exotic" examples of topological  spaces beyond locally [[metric spaces]] one wishes
+to admit in the theory, extra "[[separation axioms]]" are imposed on topological spaces (see [below](#SeparationAxioms)), and the flavour of topology as a field depends on this choice.
 
-Among the separation axioms, the _[[Hausdorff topological space|Hausdorff space]]_ axiom is most popular
-(see [below](#TnTopologicalSpaces)) the weaker axiom of [[sober topological space|soberity]] (see [below](#SoberSpaces)) stands out, on the one
-hand because this is the weakest axiom that is still naturally satisfied in applications to [[algebraic geometry]] ([[schemes are sober]])
-and [[computer science]] ([Vickers 89](#Vickers89)) and on the other hand because it fully realizes the strong roots that
-topology has in [[formal logic]]: [[sober topological spaces]] are entirely characterized by the
-union-, intersection- and inclusion-relations
-(logical [[conjunction]], [[disjunction]] and [[implication]]) among their [[open subsets]] ([[propositions]]).
-This leads to a natural
-and fruitful generalization of [[topology]] to more general "purely logic-determined spaces", called _[[locales]]_
-and in yet more generality _[[toposes]]_ and _[[higher topos theory|higher toposes]]_. While the latter are beyond
-the scope of this introduction, their rich theory and relation to the [[foundations]] of mathematics and geometry
-provides an outlook on the relevance of the basic ideas of [[topology]].
+Among the separation axioms, the _[[Hausdorff topological space|Hausdorff space]]_ axiom is the most popular (see [below](#TnTopologicalSpaces).) The weaker axiom of [[sober topological space|sobriety]] (see [below](#SoberSpaces)) stands out, because, on the one
+hand, it is the weakest axiom that is still naturally satisfied in applications to [[algebraic geometry]] ([[schemes are sober]]) and [[computer science]] ([Vickers 89](#Vickers89)), and on the other, it fully realizes the strong roots that
+topology has in [[formal logic]]: [[sober topological spaces]] are entirely characterized by the union-, intersection- and inclusion-relations (logical [[conjunction]], [[disjunction]], and [[implication]]) among their [[open subsets]] ([[propositions]]).
+This leads to a natural and fruitful generalization of [[topology]] to more general "purely logic-determined spaces", called _[[locales]]_, and in yet more generality, _[[toposes]]_ and _[[higher topos theory|higher toposes]]_. While the latter are beyond
+the scope of this introduction, their rich theory and relation to the [[foundations]] of mathematics and geometry provide an outlook on the relevance of the basic ideas of [[topology]].
 
 $\,$
 
