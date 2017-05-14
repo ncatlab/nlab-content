@@ -22,6 +22,8 @@ More abstractly, this is the [[coproduct]] in the [[category]] [[Top]] of topolo
 
 ## Related concepts
 
+* disjoint union of spaces is used to characterize [[connected topological spaces]]
+
 [[!include universal constructions of topological spaces -- table]]
 
 
