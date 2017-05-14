@@ -250,6 +250,7 @@ The set of all tangent vectors at $x \in X$ is denoted $T_x X$.
 
 +-- {: .num_lemma #LinearTangentSpace}
 ###### Lemma
+**([[real vector space]] structure on the [[tangent space]])**
 
 For $X$ a [[differentiable manifold]] of [[dimension]] $n$ and $x \in X$ any point, 
 and let $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U_i \subset X$ be a [[chart]] with $x \in U_i$.
@@ -298,9 +299,90 @@ For $X$ a [[differentiable manifold]] and $x \in X$ a point, then the _[[tangent
 
 =--
 
++-- {: .num_defn #TangentBundle}
+###### Definition
+**(total space of the [[tangent bundle]])**
 
+Let $X$ be a [[differentiable manifold]] with [[atlas]] $\left\{ \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X\right\}_{i \in I}$.
 
+Equip the set of all tangent vectors (def. \ref{TangentVector})
 
+$$
+  T X 
+  \;\coloneqq\;
+  \underset{x \in X}{\sqcup} T_x X
+$$
+
+with a [[topological space|topology]] $\tau_{T X}$ by declaring a [[subset]] $U \subset T X$ to be an [[open subset]] precisely if for all [[charts]] $\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X$ then its [[preimage]] under
+
+$$
+  \array{
+    \mathbb{R}^{2n}
+      \simeq
+    \mathbb{R}^n \times \mathbb{R}^n
+      & \overset{d \phi}{\longrightarrow} &
+    T X
+    \\
+    (x, \vec v)
+      &\overset{\phantom{AAA}}{\mapsto}&
+    \frac{d}{d v} \phi(x)
+  }
+$$
+
+is open in the [[Euclidean space]] $\mathbb{R}^{2n}$ with its [[metric topology]].
+
+Define an [[atlas]] on this topological space by
+
+$$
+  \left\{
+    \mathbb{R}^{2n}
+      \underoverset{\simeq}{d \phi_i}{\to}
+    T (U_i)
+     \subset 
+    T X
+  \right\}_{i \in I}
+  \,.
+$$
+
+The resulting [[differentiable manifold]] $T X$ is called the _total space of the tangent bundle_ of $X$. 
+ 
+Equipped with the [[function]]
+
+$$
+  \array{
+     T X &\overset{\phantom{AA}p_x \phantom{AA}}{\longrightarrow}& X
+     \\
+     (x,v) &\overset{\phantom{AAAA}}{\mapsto}& x
+  }
+$$
+
+this is called the _tangent bundle_ of $X$.
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+The total space of the tangent bundle def. \ref{TangentBundle} is a [[differentiable manifold]] in that
+
+1. $(T X, \tau_{T X})$ is a [[paracompact Hausdorff space]];
+
+1. The [[gluing functions]] of the atlas $\left\{ \mathbb{R}^{2n} \underoverset{\simeq}{d \phi_i}{\to} T U_i \subset  T X \right\}_{i \in I}$ are differentiable.
+
+Moreover, the function $p_X \colon T X \to X$ is [[continuous function|continuous]] and of the same degree of [[differentiable function|differentiability]] as the differentiable structure on $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To see that $(T X, \tau_{T X})$ is Hausdorff:
+
+First consider two distinct point of the form $(x,v_1), (x,v_2)$ with $v_1 \neq v_2 \in T_x \simeq \mathbb{R}^n$.
+
+(...)  
+
+=--
 
 A particularly important case is when $c$ is a level curve in some system of local coordinates $(x^1,\ldots,x^n)$ at $a$; that is, $c^i(t)$ is the point whose $i$th coordinate is $t$ and whose other coordinates are the same as at $a$.  The local tangent vector field given by these curves may be written $\partial/\partial{x^i}$ or $\partial_i$ (note the placement of the scripts).  This is because, if a function $f$ defined on that coordinate patch is identified with a function $f(x^1,\ldots,x^n)$ of $n$ real variables, then $\partial_i f$ becomes identified with the partial derivative $\partial{f(x^1,\ldots,x^n)}/\partial{x^i}$.  In general, a local vector field $v$ on such a coordinate patch can be written
 $$ v = \sum_i v^i\, \partial_i .$$
