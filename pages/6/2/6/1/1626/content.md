@@ -24,7 +24,7 @@ One often studies topological ideas first for connected spaces and then generali
 
 ## Definitions 
 
-Speaking category-theoretically a [[topological space]] $X$ is **connected** if the [[representable functor]]
+Speaking [[category theory|category-theoretically]] a [[topological space]] $X$ is **connected** if the [[representable functor]]
 $$ hom(X, -): Top \to Set $$
 preserves [[coproduct]]s. It\'s actually enough to require that it preserves binary coproducts (a detailed proof in a more general setting is given at [connected object](http://ncatlab.org/nlab/show/connected+object#reduction_to_binary_coproducts_8)); in that case, notice that we always have a map
 $$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) ,$$
