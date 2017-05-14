@@ -11,7 +11,16 @@
 ***
 
 This page contains a detailed introduction to basic [[topology]].
-Starting from scratch (required background is just a basic concept of _[[sets]]_), and amplifying motivation from [[analysis]], it first develops standard [[point-set topology]] ([[topological spaces]]). In passing, some basics of [[category theory]] make an informal appearance, used to transparently summarize some conceptually important aspects of the theory, such as [[initial topology|initial]] and [[final topologies]] and the [[reflective subcategory|reflection]] into [[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]]. We close with a discussion of the basics of [[topological manifolds]] and [[differentiable manifolds]], laying the foundations for [[differential geometry]]. The second part introduces some basics of [[homotopy theory]], mainly the [[fundamental group]], and ends with their first application to the classification of [[covering spaces]].
+Starting from scratch (required background is just a basic concept of _[[sets]]_), and amplifying motivation from [[analysis]],
+it first develops standard [[point-set topology]] ([[topological spaces]]).
+In passing, some basics of [[category theory]] make an informal appearance,
+used to transparently summarize some conceptually important aspects of the theory, such as
+[[initial topology|initial]] and [[final topologies]] and the [[reflective subcategory|reflection]] into
+[[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]].
+We close with discussion of the basics of [[topological manifolds]] and [[differentiable manifolds]],
+laying the foundations for [[differential geometry]].
+The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
+and ends with their first application to the classification of [[covering spaces]].
 
 $\,$
 
@@ -51,19 +60,19 @@ $\,$
 The idea of _[[topology]]_ is to study "[[spaces]]" with "[[continuous functions]]" between them.
 Specifically one considers [[functions]] between [[sets]] (whence "[[point-set topology]]", see [below](#PointSetTopology))
 such that there is a concept for what it means that these functions depend
-continuously on their arguments, in that that their values do not "jump".
+continuously on their arguments, in that their values do not "jump".
 Such a concept of [[continuous function|continuity]] is familiar from [[analysis]] on [[metric spaces]],
 (recalled [below](#Continuity)) but the definition in topology generalizes this analytic concept
 and renders it more foundational, generalizing the concept of [[metric spaces]] to that of _[[topological spaces]]_.
 (def. \ref{TopologicalSpace} below).
 
-Hence [[topology]] is the study of the [[category]] whose [[objects]] are [[topological spaces]], and whose
+Hence, [[topology]] is the study of the [[category]] whose [[objects]] are [[topological spaces]], and whose
 [[morphisms]] are [[continuous functions]] (see also remark \ref{TopCategory} below).
 This category is much more flexible than that of [[metric spaces]], for example it admits the construction of
 arbitrary [[quotients]] and [[intersections]] of spaces.
 Accordingly, topology underlies or informs many and diverse areas of mathematics, such as
 [[functional analysis]], [[operator algebra]], [[manifold]]/[[scheme]] theory, hence [[algebraic geometry]] and [[differential geometry]],
-and the study of [[topological groups]], [[topological vector spaces]], [[local  rings]], etc.. Not the least, it gives rise to
+and the study of [[topological groups]], [[topological vector spaces]], [[local  rings]], etc. Not the least, it gives rise to
 the field of [[homotopy theory]], where one considers also continuous deformations of
 continuous functions themselves ("[[homotopies]]").
 Topology itself has many branches,
@@ -71,11 +80,11 @@ such as _[[low-dimensional topology]]_ or _[[topological domain theory]]_.
 
 A popular imagery for the concept of a [[continuous function]] is provided by deformations of [[elasticity|elastic]]
 physical bodies, which may be deformed by stretching them without tearing. The canonical illustration is
-a continous [[bijection|bijective]] function from the [[torus]] to the surface of a coffee mug, which maps half of the torus to the
+a continuous [[bijection|bijective]] function from the [[torus]] to the surface of a coffee mug, which maps half of the torus to the
 handle of the coffee mug, and continuously deforms parts of the other half in order to form the actual cup.
 Since the [[inverse function]] to this function is itself continuous,
 the torus and the coffee mug, both regarded as [[topological spaces]], are "[[isomorphism|the same]]"
-for the purposes of [[topology]], one says they are _[[homeomorphic]]_.
+for the purposes of [[topology]]; one says they are _[[homeomorphic]]_.
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/Surfaces.png" width="400">
@@ -89,28 +98,29 @@ whether two topological spaces are homeomorphic
 A basic algebraic invariant is the [[fundamental group]] of a topological space (discussed [below](#FundamentalGroups)),
 which measures how many ways there are to wind loops inside a topological space.
 
-Beware that the popular imagery of "[[rubber-sheet geometry]]" only captures part of the full scope of topology,
+Beware the popular imagery of "[[rubber-sheet geometry]]", which only captures part of the full scope of topology,
 in that it invokes spaces that _locally_ still look like [[metric spaces]] (called _[[topological manifolds]]_, see [below](#Manifolds)).
 But the concept of topological spaces is a good bit more general.
-Notably [[finite topological spaces]] are either [[discrete topological space|discrete]] or very much unlike
-[[metric spaces]] (example \ref{FiniteT1SpacesAreDiscrete} below), they play a role in [[categorical logic]]. Also in [[geometry]] exotic topological spaces frequently arise when  forming non-free [[quotients]].
+Notably, [[finite topological spaces]] are either [[discrete topological space|discrete]] or very much unlike
+[[metric spaces]] (example \ref{FiniteT1SpacesAreDiscrete} below); the former play a role in [[categorical logic]]. Also, in [[geometry]], exotic topological spaces frequently arise when  forming non-free [[quotients]].
 In order to gauge just how many of such "exotic" examples of topological  spaces beyond locally [[metric spaces]] one wishes
 to admit in the theory,
 extra "[[separation axioms]]" are imposed on topological spaces (see [below](#SeparationAxioms)), and the flavour of topology as a field
 depends on this choice.
 
-Among the separation axioms, the _[[Hausdorff topological space|Hausdorff space]]_ axiom is most popular
-(see [below](#TnTopologicalSpaces)). But the weaker axiom of [[sober topological space|sobriety]] (see [below](#SoberSpaces)) stands out, on the one
-hand because this is the weakest axiom that is still naturally satisfied in applications to [[algebraic geometry]] ([[schemes are sober]])
-and [[computer science]] ([Vickers 89](#Vickers89)) and on the other hand because it fully realizes the strong roots that
+Among the separation axioms, the _[[Hausdorff topological space|Hausdorff space]]_ axiom is the most popular
+(see [below](#TnTopologicalSpaces)). But the weaker axiom of [[sober topological space|sobriety]] (see [below](#SoberSpaces)) 
+stands out, because on the one
+hand it is the weakest axiom that is still naturally satisfied in applications to [[algebraic geometry]] ([[schemes are sober]])
+and [[computer science]] ([Vickers 89](#Vickers89)), and on the other, it fully realizes the strong roots that
 topology has in [[formal logic]]: [[sober topological spaces]] are entirely characterized by the
 union-, intersection- and inclusion-relations
 (logical [[conjunction]], [[disjunction]] and [[implication]]) among their [[open subsets]] ([[propositions]]).
 This leads to a natural
-and fruitful generalization of [[topology]] to more general "purely logic-determined spaces", called _[[locales]]_
-and in yet more generality _[[toposes]]_ and _[[higher topos theory|higher toposes]]_. While the latter are beyond
+and fruitful generalization of [[topology]] to more general "purely logic-determined spaces", called _[[locales]]_,
+and in yet more generality, _[[toposes]]_ and _[[higher topos theory|higher toposes]]_. While the latter are beyond
 the scope of this introduction, their rich theory and relation to the [[foundations]] of mathematics and geometry
-provides an outlook on the relevance of the basic ideas of [[topology]].
+provide an outlook on the relevance of the basic ideas of [[topology]].
 
 
 $\,$
@@ -119,6 +129,7 @@ $\,$
 
 In this first part we discuss the foundations of the concept of "sets equipped with topology"
 ([[topological spaces]]) and of [[continuous functions]] between them.
+
 
 
 $\,$
@@ -569,7 +580,7 @@ We may now rephrase the analytic definition of continuity entirely in terms of o
 ###### Proposition
 **(rephrasing continuity in terms of open sets)**
 
-Let $(X,d_X)$ and $(Y,d_Y)$ be two [[metric space]] (def. \ref{MetricSpace}).
+Let $(X,d_X)$ and $(Y,d_Y)$ be two [[metric spaces]] (def. \ref{MetricSpace}).
 Then a [[function]] $f \colon X \to Y$ is [[continuous function|continuous]] in the [[epsilontic analysis|epsilontic]] sense of def. \ref{EpsilonDeltaDefinitionOfContinuity} precisely if it has the property that its [[pre-images]] of [[open subsets]] of $Y$ (in the sense of def. \ref{OpenSubsetsOfAMetricSpace}) are open subsets of $X$:
 
 $$
@@ -1083,7 +1094,7 @@ for some topology $\tau \subset P(X)$ (def. \ref{TopologyBase}) precisely if
    1. for every two subsets $B_1, B_2 \in \beta$ and for every point $x \in B_1 \cap B_2$ in their intersection, then there exists
    a $B \in \beta$ that contains $x$ and is contained in the intersection: $x \in B \subset B_1 \cap B_2$.
 
-1. A subset $B \subset \tau$ of opens is a sub-basis for a topology $\tau$ on $X$ precisely if $\tau$ is the coarsest topology (def. \ref{TopologyFinerCoarser}) which contains $B$.
+1. A subset $B \subset \tau$ of open subsets is a sub-basis for a topology $\tau$ on $X$ precisely if $\tau$ is the coarsest topology (def. \ref{TopologyFinerCoarser}) which contains $B$.
 
 
 =--
@@ -1372,7 +1383,7 @@ given by the Cartesian products $U_1 \times U_2$ of the opens $U_i \in \tau_i$.
 > graphics grabbed from [Munkres 75](#Munkres75)
 
 Beware that for non-[[finite set|finite]] products, the descriptions of the product topology is not as simple.
-This we turn to below in example \ref{InfiniteProductTopologicalSpace}, after inroducing the general concept
+This we turn to below in example \ref{InfiniteProductTopologicalSpace}, after introducing the general concept
 of [[limits]] in the [[category of topological spaces]].
 
 =--
@@ -1439,7 +1450,7 @@ The following important class of [[topological spaces]] form the foundation of [
 
 Let $k$ be a [[field]], let $n \in \mathbb{N}$, and write $k[X_1, \cdots, X_n]$ for the [[set]] of [[polynomials]] in $n$ [[variables]] over $k$.
 
-For $\mathcal{F} \subset k[X_1, \cdots, X_n]$ a subset of polynomials, let the  subset $V(\mathcal{P}) \subset k^n$ of the $n$-fold [[Cartesian product]] of the underlying set of $k$ (the _vanishing set_ of $\mathcal{F}$) be the subset of points on which all these polynomials jointly vanish:
+For $\mathcal{F} \subset k[X_1, \cdots, X_n]$ a subset of polynomials, let the  subset $V(\mathcal{F}) \subset k^n$ of the $n$-fold [[Cartesian product]] of the underlying set of $k$ (the _vanishing set_ of $\mathcal{F}$) be the subset of points on which all these polynomials jointly vanish:
 
 $$
   V(\mathcal{F})
@@ -1466,7 +1477,7 @@ $$
   \right\}
 $$
 
-for the set of [[complements]] of subsets the Zariski closed subsets. These are called the _Zariski [[open subsets]]_ of $k^n$.
+for the set of [[complements]] of the Zariski closed subsets. These are called the _Zariski [[open subsets]]_ of $k^n$.
 
 The Zariski open subsets of $k^n$  form a [[topological space|topology]] (def. \ref{TopologicalSpace}),
 called the _[[Zariski topology]]_. The resulting [[topological space]]
@@ -1575,7 +1586,7 @@ Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}).
 
 1. If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that $x$ is a _closed point_ of $X$.
 
-1. Given any subset $S \subset X$, then its _[[topological closure]]_ $Cl(X)$ is the smallest closed subset containing $S$:
+1. Given any subset $S \subset X$, then its _[[topological closure]]_ $Cl(S)$ is the smallest closed subset containing $S$:
 
    $$
      Cl(S)
@@ -1602,7 +1613,7 @@ that taking [[complements]] of [[subsets]] exchanges [[unions]] with [[intersect
 Given a [[set]] $X$ and a set of subsets
 
 $$
-  \{S_i \subset S\}_{i \in I}
+  \{S_i \subset X\}_{i \in I}
 $$
 
 then
@@ -1839,7 +1850,7 @@ and let $V \subset X$ be a [[subset]]. Then the following are equivalent:
 1. $V \subset X$ is a [[closed subspace]] according to def. \ref{ClosedSubset}.
 
 1. For every [[sequence]] $x_i \in V \subset X$ (def. \ref{Sequences}) with elements in $V$, which [[convergence|converges]]
-   as a sequence in $X$ (def. \ref{Convergence}) to some $x_\infty \in X$, then $x_\infty \in V \subset X$.
+   as a sequence in $X$ (def. \ref{Convergence}) to some $x_\infty \in X$, we have $x_\infty \in V \subset X$.
 
 =--
 
@@ -2751,7 +2762,7 @@ which evidently makes the inclusion $f(X) \longrightarrow Y$ a [[continuous func
    Observe that this also makes $X \to f(X)$ a continuous function: An open subset of $f(X)$
    in this case is of the form $U_Y \cap f(X)$ for $U_Y \in \tau_Y$, and $f^{-1}( U_Y \cap f(X) ) = f^{-1}(U_Y)$,
    which is open in $X$ since $f$ is continuous.
-   
+
 1. By example \ref{QuotientTopologicalSpace} $f(X)$ inherits a [[quotient topological space|quotient topology]] from $(X,\tau_X)$
    which evidently makes the surjection $X \longrightarrow f(X)$ a [[continuous function]].
 
@@ -3200,7 +3211,7 @@ is trivial ([this prop.](Introduction+to+Topology+--+2#FundamentalGroup)).
 
 Below in example \ref{ContinuousBijectionFromClosedIntervalToCircle} we discuss a practical criterion under which continuous bijections are homeomorphisms after all. But immediate from the definitions is the following characterization:
 
-+-- {: .num_prop }
++-- {: .num_prop #HomeoContinuousOpenBijection}
 ###### Proposition
 **([[homeomorphisms]] are the [[continuous function|continuous]] and [[open map|open]] [[bijections]])
 
@@ -9339,7 +9350,7 @@ Then $f$ is
 
 1. a [[closed map]] (def. \ref{OpenMap});
 
-1. a [[proper map]] (def. \ref{ProperContinuous}).)
+1. a [[proper map]] (def. \ref{ProperContinuous}))
 
 =--
 
@@ -10361,6 +10372,52 @@ $\,$
 ***
 
 
+
+
+
+
+
+
+## References
+
+
+### General
+
+A canonical compendium is
+
+* {#Bourbaki71} [[Nicolas Bourbaki]], chapter 1 _Topological Structures_ in _Elements of Mathematics III: General topology_,  Springer (1971, 1990)
+
+Introductory textbooks include
+
+* {#Kelley55} [[John Kelley]] _General Topology_, Graduate Texts in Mathematics, Springer (1955)
+
+* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall (1975, 2000)
+
+Lecture notes include
+
+* {#Waldhausen} [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
+
+See also the references at _[[algebraic topology]]_.
+
+### Special topics
+
+The standard literature typically omits the following important topics:
+
+Discussion of [[sober topological spaces]] is briefly in
+
+* {#Johnstone82} [[Peter Johnstone]], section II 1. of _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
+
+An introductory textbook that takes sober spaces, and their relation to logic, as the starting point for toplogy is
+
+* {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989)
+
+
+Detailed discussion of the [[Hausdorff reflection]] is in
+
+* {#vanMunster14} Bart van Munster, _The Hausdorff quotient_, 2014 ([pdf](https://www.math.leidenuniv.nl/scripties/BachVanMunster.pdf))
+
+
+
 ## Index
 
 **Basic concepts**
@@ -10517,47 +10574,4 @@ $\,$
 
 * [[Jordan curve theorem]]
 
-
-
-
-
-
-
-## References
-
-
-### General
-
-A canonical compendium is
-
-* {#Bourbaki71} [[Nicolas Bourbaki]], chapter 1 _Topological Structures_ in _Elements of Mathematics III: General topology_,  Springer (1971, 1990)
-
-Introductory textbooks include
-
-* {#Kelley55} [[John Kelley]] _General Topology_, Graduate Texts in Mathematics, Springer (1955)
-
-* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall (1975, 2000)
-
-Lecture notes include
-
-* {#Waldhausen} [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
-
-See also the references at _[[algebraic topology]]_.
-
-### Special topics
-
-The standard literature typically omits the following important topics:
-
-Discussion of [[sober topological spaces]] is briefly in
-
-* {#Johnstone82} [[Peter Johnstone]], section II 1. of _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
-
-An introductory textbook that takes sober spaces, and their relation to logic, as the starting point for toplogy is
-
-* {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989)
-
-
-Detailed discussion of the [[Hausdorff reflection]] is in
-
-* {#vanMunster14} Bart van Munster, _The Hausdorff quotient_, 2014 ([pdf](https://www.math.leidenuniv.nl/scripties/BachVanMunster.pdf))
 
