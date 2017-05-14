@@ -161,6 +161,8 @@ Cantor space, especially in its guise as a subspace of the real line, is quite f
 
 *  Cantor space is [[connected space|totally disconnected]]. 
 
+* Thus Cantor space is a [[Stone space]]. 
+
 *  Cantor space is [[metric space|metrizable]], and every compact metrizable space is a [[quotient space]] of Cantor space (see Theorem \ref{HA} below).
 
 *  As a subspace of $\mathbb{R}$, the Cantor set is [[perfect space|perfect]] and [[uncountable set|uncountable]] but of [[Lebesgue measure|Lebesgue]] [[null set|measure zero]].
