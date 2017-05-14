@@ -45,11 +45,19 @@ The precise definition of tangent bundle depends on the nature of the ambient ca
 
 Here we define the notion of tangent bundle in the [[category]] [[Diff]] of [[smooth manifold]]s
 
-There are 3 standard definitions of tangent vector known as algebraic (derivation), geometric (equivalence class of germs of curves) and physical definition (via components in local coordinate system with prescribed behaviour under change of coordinates). 
+There are three standard definitions of tangent vector known as 
+
+* [algebraic](#AlgebraicDefinition) (via derivations of algebras of smooth functions), 
+
+* [geometric](#GeometricDefinition) (via equivalence class of germs of curves)
+
+* [physical](#DefinitionByGluing) (via components in local coordinate system with prescribed behaviour under change of coordinates).
+
 
 ### Algebraic definition
+ {#AlgebraicDefinition}
 
-Algebraically, we may define a __tangent vector__ $v$ at $a$ on $X$ as a [[scalar]]-valued [[derivation]] on the space of [[germ]]s of differentiable [[functions]] defined on $X$ near $a$, augmented by evaluation at $a$.  That is, given [[partial functions]] $f$ and $g$, each defined on some [[neighbourhood]] of $a$, we have:
+Algebraically, we may define a __tangent vector__ $v$ at $a$ on $X$ as a [[scalar]]-valued [[derivation]] on the space of [[germs]] of  [[differentiable functions]] defined on $X$ near $a$, augmented by evaluation at $a$.  That is, given [[partial functions]] $f$ and $g$, each defined on some [[neighbourhood]] of $a$, we have:
 
 1.  $v[f] = v[g]$ if $f = g$ on some (perhaps smaller) neighbourhood of $a$,
 2.  $v[f + g] = v[f] + v[g]$,
@@ -76,11 +84,179 @@ Given a differentiable [[curve]] $c: \mathbf{R} \to X$, the __derivative__ $\dot
 $$ \dot{c}[f](t) = (f \circ c)'(t) ,$$
 where $'$ indicates the usual derivative on the real line, so that $\dot{c}(t)$ is a tangent vector at $c(t)$.  (We really only need $c$ to be defined on a neighbourhood of $t$, of course.)
 
+
+
 ### Geometric definition
+ {#GeometricDefinition}
 
-One can also *define* [[tangent vectors]] at $a \in X$ to be [[equivalence classes]] of smooth curves $c : \mathbb{R} \to X$ such that $c(0) = a$, where two curves are taken to be equivalent if their first [[derivative]] coincides at $0$.
 
- (Of course, $0$ could be replaced by any argument $t$ in this definition.)  
++-- {: .num_defn #TangencyRelationOnSmoothCurves}
+###### Definition
+**(tangency relation on smooth curves)**
+
+
+Let $X$ be a [[differentiable manifold]] of [[dimension]] $n$ and let $x \in X$ be a point. On the set of [[smooth functions]] of the form
+
+$$
+  \gamma \;\colon\; \mathbb{R}^1 \longrightarrow X
+$$
+
+such that 
+
+$$
+  \gamma(0) = x
+$$
+
+define the [[relations]] 
+
+$$
+  (\gamma_1 \sim \gamma_2)
+   \coloneqq
+   \underset{ 
+      {  { \mathbb{R}^n  \underoverset{}{\phi \, \text{chart}}{\to} U_i \subset X } } \atop { U_i \supset \{x\} }  
+      }{
+        \exists
+      }
+   \left(
+      \frac{d}{d t}(\phi^{-1}\circ \gamma_1)(0)
+      =
+      \frac{d}{d t}(\phi^{-1}\circ \gamma_2)(0)
+   \right)
+$$
+
+and
+
+$$
+  (\gamma_1 \sim' \gamma_2)
+   \coloneqq
+   \underset{ 
+      {  { \mathbb{R}^n  \underoverset{}{\phi \, \text{chart}}{\to} U_i \subset X } } \atop { U_i \supset \{x\} }  
+      }{
+        \forall
+      }
+   \left(
+      \frac{d}{d t}(\phi^{-1}\circ \gamma_1)(0)
+      =
+      \frac{d}{d t}(\phi^{-1}\circ \gamma_2)(0)
+   \right)
+$$
+
+saying that two such functions are related precisley if either there exists a chart around $x$ such that (or or else for all charts around $x$ it is true that) the first [[derivative]] of the two functions regarded via the given chart as functions $\mathbb{R}^1 \to \mathbb{R}^n$, coincide at $t = 0$ (with $t$ denoting the canonical [[coordinate]] function on $\mathbb{R}$).
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+The two relations in def. \ref{TangencyRelationOnSmoothCurves} are [[equivalence relations]] and they coincide.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First to see that they conincide, we need to show that if the derivatives in question coincide in one chart $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U_i \subset X$, that then they coincide also in any other chart $\mathbb{R}^n \underoverset{\simeq}{\psi}{\to} U_j \subset X$.
+
+Write
+
+$$
+  U_{i j} \coloneqq U_i \cap U_j
+$$
+
+for the intersection of the two charts.
+
+First of all, since the derivative may be computed in any [[open neighbourhood]] around $t = 0$, and since the differentiable functions $\gamma_i$ are in particular [[continuous functions]], we may restrict to 
+
+$$
+  V \coloneqq \gamma_1^{-1}( U_{i j} ) \cap \gamma_2^{-1}(U_{i j})
+  \;\subset\; $\mathbb{R}$
+$$
+
+and consider the derivatives of the functions
+
+$$
+  \gamma_i^{\phi}
+  \;\coloneqq\;
+  (\phi\vert_{U_{i j}} \circ \gamma_i\vert|_{V}) \;\colon\; V \longrightarrow \phi^{-1}(U_{i j}) \subset \mathbb{R}^n
+$$
+
+and
+
+$$
+  \gamma_i^{\psi}
+  \;\coloneqq\;
+  (\psi\vert_{U_{i j}} \circ \gamma_i\vert|_{V}) \;\colon\; V \longrightarrow \psi^{-1}(U_{i j}) \subset \mathbb{R}^n
+  \,.
+$$
+
+But then by definition of the smooth [[atlas]], the there is the smooth function
+
+$$
+  \alpha
+  \;\coloneqq\;
+  \phi^{-1}(U_{i j})
+    \underoverset{\simeq}{\phi}{\longrightarrow}
+  U_{i j}
+    \underoverset{\simeq}{\psi^{-1}}{\longrightarrow}
+  \psi^{-1}(U_i j)
+$$
+
+such that
+
+
+$$
+  \gamma_i^\psi = \alpha \circ \gamma_i^\phi
+$$
+
+for $i \in \{1,2\}$. The [[chain rule]] now relates the derivatives of these functions as
+
+$$
+  \frac{d}{d t} \gamma_i^\psi
+    \;=\;
+  (D \alpha) \circ \left(\frac{d}{d t} \gamma_i^\phi\right)
+  \,.
+$$
+
+Since $\alpha$ is a [[diffeomorphism]] and since derivatives of diffeomorphisms are linear isomorphisms, this says that the derivative of $\gamma_i^\phi$ is related to that of $\gamma_i^\psi$ by a linear isomorphism, and hence 
+
+$$
+  \left(
+   \frac{d}{d t}(\gamma_1)^\phi = \frac{d}{d t}(\gamma_2)^\phi
+  \right)
+    \;\Leftrightarrow\;
+  \left(
+   \frac{d}{d t}(\gamma_1)^\psi = \frac{d}{d t}(\gamma_2)^\psi
+  \right)
+  \,.
+$$
+
+Finally that either relation is an equivalence relation is immediate.
+
+
+
+=--
+
+
+
++-- {: .num_defn}
+###### Definition
+
+Let $X$ be a [[smooth manifold]] and $x \in X$ a point. The a _tangent vector_ on $X$ at $x$ is an [[equivalence class]] of the set of [[smooth functions]] of the form
+
+$$
+  f \;\colon\; \mathbb{R}^1 \longrightarrow X
+$$
+
+such that $f(0) = x$ under the [[equivalence relation]]
+
+$$
+  (f_1 \sim f_2)
+  \;\Leftrightarrow\;
+  ()
+$$
+
+=--
+
 
 A particularly important case is when $c$ is a level curve in some system of local coordinates $(x^1,\ldots,x^n)$ at $a$; that is, $c^i(t)$ is the point whose $i$th coordinate is $t$ and whose other coordinates are the same as at $a$.  The local tangent vector field given by these curves may be written $\partial/\partial{x^i}$ or $\partial_i$ (note the placement of the scripts).  This is because, if a function $f$ defined on that coordinate patch is identified with a function $f(x^1,\ldots,x^n)$ of $n$ real variables, then $\partial_i f$ becomes identified with the partial derivative $\partial{f(x^1,\ldots,x^n)}/\partial{x^i}$.  In general, a local vector field $v$ on such a coordinate patch can be written
 $$ v = \sum_i v^i\, \partial_i .$$
@@ -91,6 +267,7 @@ This fact can also be turned into a definition of tangent vector.
 Note that $\partial/\partial{f}$ doesn\'t make sense for an arbitrary function $f$; it only makes sense when $f$ is given as one component $x^i$ of a coordinate system.  That is, if $(f,g)$ and $(f,h)$ are both coordinate systems, then the two meanings of $\partial/\partial{f}$ need not be the same, because constant $g$ and constant $h$ aren\'t the same condition.  However, we can use the more complicated notation $(\partial/\partial{f})_g$ or $(\partial/\partial{f})_h$; this is common when $X$ is a [[phase space]] in [[thermodynamics]].  Of course, if a coordinate system is fixed by convention, then there is no ambiguity.
 
 ### Definition by gluing construction
+ {#DefinitionByGluing}
 
 If $M$ is a smooth $n$-manifold, then we know the tangent space at each point is isomorphic to $\mathbb{R}^n$. We can exploit this fact to construct the tangent space by gluing many copies of $\mathbb{R}^n$ together. However, one drawback is that it is not immediately obvious that the result is independent of the atlas chosen.
 
@@ -210,8 +387,8 @@ A textbook account of tangent bundles in the context of [[synthetic differential
 
 Further discussion of axiomatizations in this context is in
 
-*  [[J.R.B. Cockett]], [[Geoff Cruttwell]], _Differential structure, tangent structure, and SDG_ (2012) ([pdf](http://www.mta.ca/~gcruttwell/publications/sman3.pdf))
- {#CockettCruttwell}
+* {#CockettCruttwell} [[J.R.B. Cockett]], [[Geoff Cruttwell]], _Differential structure, tangent structure, and SDG_ (2012) ([pdf](http://www.mta.ca/~gcruttwell/publications/sman3.pdf))
+ 
 
 Discussion for [[diffeological spaces]] is in 
 
