@@ -280,12 +280,122 @@ One might expect that compact topological spaces are precisely the [[compact obj
 ## Examples
 
 ### General
+ {#ExamplesGeneral}
 
-Every bounded [[closed interval]] $[a,b] \subset \mathbb{R}$ is compact.
++-- {: .num_example #CompactClosedInterval}
+###### Example
+**([[closed intervals]] are [[compact topological space|compact]])**
+
+For any $a \lt b \in \mathbb{R}$ the [[closed interval]]
+
+$$
+  [a,b] \subset \mathbb{R}
+$$
+
+regarded with its [[topological subspace|subspace topology]]
+of [[Euclidean space]] with its [[metric topology]] is
+a compact topological space.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since all the closed intervals are [[homeomorphism|homeomorphic]]
+it is sufficient to show the statement for $[0,1]$. Hence let $\{U_i \subset [0,1]\}_{i \in I}$ be an
+[[open cover]] (def. \ref{OpenCover}). We need to show that it has an open subcover.
+
+Say that an element $x \in [0,1]$ is _admissible_ if the closed sub-interval $[0,x]$ is covered by
+finitely many of the $U_i$. In this terminology, what we need to show is that $1$ is admissible.
+
+Observe from the definition that
+
+1. 0 is admissible,
+
+1. if $y \lt x \in [0,1]$ and $x$ is admissible, then also $y$ is admissible.
+
+This means that the set of admissible $x$ forms either
+
+1. an [[open interval]] $[0,g)$
+
+1. or a [[closed interval]] $[0,g]$,
+
+for some $g \in [0,1]$. We need to show that the latter is true, and for $g = 1$. We do so by observing that the alternatives lead to [[contradictions]]:
+
+1. Assume that the set of admissible values were an open interval $[0,g)$. Pick an $i_0 \in I$ such that $g \in U_{i_0}$ (this exists because of the covering property). Since such $U_{i_0}$ is an open neighbourhood of $g$, there is a positive real number $\epsilon$ such that the open ball $B^\circ_g(\epsilon) \subset U_{i_0}$ is still contained in the patch. It follows that there is an element $x \in B^\circ_g(\epsilon) \cap [0,g) \subset U_{i_0} \cap [0,g)$ and such that there is a finite subset $J \subset I$ with $\{U_i \subset [0,1]\}_{i \in J \subset I}$ a finite open cover of $[0,x)$. It follows that $\{U_i \subset [0,1]\}_{i \in J \subset I} \sqcup \{U_{i_0}\}$ were a finite open cover of $[0,g]$, hence that $g$ itself were still admissible, in contradiction to the assumption. 
+
+1. Assume that the set of admissible values were a closed interval $[0,g]$ for $g \lt 1$.
+   By assumption there would then be a finite set $J \subset I$ such that $\{U_i \subset [0,1]\}_{i \in J \subset I}$
+   were a finite cover of $[0,g]$. Hence there would be an index $i_g \in J$ such that $g \in U_{i_g}$.
+   But then by the nature of open subsets in the Euclidean space $\mathbb{R}$, this $U_{i_g}$ would also
+   contain an open ball $B^\circ_g(\epsilon) = (g-\epsilon, g + \epsilon)$. This would mean that
+   the set of admissible values includes the open interval $[0,g+ \epsilon)$, contradicting the assumption.
+
+This gives a [[proof by contradiction]].
+
+=--
+
+In contrast:
+
++-- {: .num_example}
+###### Nonexample
+
+For all $n \in \mathbb{N}$, $n \gt 0$, the [[Euclidean space]] $\mathbb{R}^n$, regarded with its [[metric topology]], is _not_ compact.
+
+=--
+
+This is a special case of the [[Heine-Borel theorem]] (example \ref{HeineBorelTheorem} below), but for illustration it is instructive to consider the direct proof:
+
++-- {: .proof}
+###### Proof
+
+Pick any $\epsilon \in (0,1/2)$. Consider the open cover of $\mathbb{R}^n$ given by
+
+$$
+  \left\{
+      U_n \coloneqq
+     (n-\epsilon, n+1+\epsilon)
+     \times
+     \mathbb{R}^{n-1}
+     \;\subset\;
+     \mathbb{R}^{n+1}
+  \right\}_{n \in \mathbb{Z}}
+  \,.
+$$
+
+This is not a finite cover, and removing any one of its patches $U_n$, it ceases to be a cover, since the points of the form $(n + \epsilon, x_2, x_3, \cdots, x_n)$ are contained only in $U_n$ and in no other patch.
+
+=--
+
+
++-- {: .num_example}
+###### Example
 
 By the [[Tychonoff theorem]], every [[product topological spaces]] of compact spaces is again compact. 
 
-This implies the [[Heine-Borel theorem]], saying that every [[bounded subset|bounded]] and [[closed subset]] of a [[Euclidean space]] is compact.
+=--
+
+This implies the [[Heine-Borel theorem]], saying that:
+
++-- {: .num_example #HeineBorelTheorem}
+###### Example
+**([[Heine-Borel theorem]])**
+
+Every [[bounded subset|bounded]] and [[closed subspace]] of a [[Euclidean space]] is compact.
+
+=--
+
+In particular
+
++-- {: .num_example}
+###### Nonexample
+
+The [[open intervals]] $(a,b) \subset \mathbb{R}$ and the [[half-open intervals]] $[a,b)  \subset \mathbb{R}$ and $(a,b] \subset \mathbb{R}$ are not compact.
+
+=--
+
+
+
 
 ### Compact spaces which are not sequentially compact
  {#CompactSpacesWhichAreNotSequentiallyCompact}
