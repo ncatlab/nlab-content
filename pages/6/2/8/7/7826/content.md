@@ -66,7 +66,7 @@ Hence no [[inhabited set|inhabited]] open subspace of the rational numbers is co
 A [[product]] in $Top$ of totally disconnected spaces is totally disconnected. A subspace of a totally disconnected space is totally disconnected. Hence [[limits]] in $Top$ of diagrams of totally disconnected spaces are totally disconnected. 
 =-- 
 
-For example, the [[Baire space]] of [[irrational numbers]] is [[hmeomorphismhomeomorphic]] to a [[countable set|countable]] [[product space]] $\mathbb{N}^\mathbb{N}$ (via [[continued fractions]]), so it is totally disconnected. Similarly, [[Cantor space]] $2^\mathbb{N}$ is totally disconnected. Another notable special case of the preceding class of examples is the following. 
+For example, the [[Baire space]] of [[irrational numbers]] is [[homeomorphism|homeomorphic]] to a [[countable set|countable]] [[product space]] $\mathbb{N}^\mathbb{N}$ (via [[continued fractions]]), so it is totally disconnected. Similarly, [[Cantor space]] $2^\mathbb{N}$ is totally disconnected. Another notable special case of the preceding class of examples is the following. 
 
 +-- {: .num_example}
 ###### Example
@@ -75,7 +75,7 @@ Every [[profinite group]] is totally disconnected and in particular the set of [
 
 =-- 
 
-See also at _[[Stone space]]_. 
+See also _[[Stone space]]_. 
 
 
 * [[extremally disconnected topological space|extremally disconnected]] Hausdorff space
@@ -92,7 +92,7 @@ The [[category]] of totally disconnected spaces and continuous maps is a [[refle
 
 +-- {: .proof} 
 ###### Proof 
-The reflector takes a space $X$ to the space of connected components, i.e., the quotient space $X/\sim$ of $X$ where $\sim$-equivalence classes are precisely the connected components of $X$. We check that connected components $C$ of $X/\sim$ are singletons. Let $q: X \to X/\sim$ be the quotient map; it suffices to check that $q^{-1}(C) \subseteq X$ is connected (because then $q^{-1}(C)$ is contained in a single $\sim$-equivalence class, making $C = q q^{-1}(C)$ a single point). So, suppose the (closed) set $q^{-1}(C)$ is a disjoint union $K_1 + K_2$ of closed sets $K_1, K_2$; we are required to show one or the other is empty. For each $c \in C$, the inverse image $q^{-1}(\{c\})$ is connected, hence we must have $q^{-1}(\{c\}) \subseteq K_1$ or $q^{-1}(\{c\}) \subseteq K_2$. Thus we can partition $C$ into sets 
+The reflector takes a space $X$ to the space of connected components, i.e., the [[quotient space]] $X/\sim$ of $X$ where $\sim$-equivalence classes are precisely the connected components of $X$. We check that connected components $C$ of $X/\sim$ are singletons. Let $q: X \to X/\sim$ be the quotient map; it suffices to check that $q^{-1}(C) \subseteq X$ is connected (because then $q^{-1}(C)$ is contained in a single $\sim$-equivalence class, making $C = q q^{-1}(C)$ a single point). So, suppose the (closed) set $q^{-1}(C)$ is a disjoint union $K_1 + K_2$ of closed sets $K_1, K_2$; we are required to show one or the other is empty. For each $c \in C$, the inverse image $q^{-1}(\{c\})$ is connected, hence we must have $q^{-1}(\{c\}) \subseteq K_1$ or $q^{-1}(\{c\}) \subseteq K_2$. Thus we can partition $C$ into sets 
 
 $$C_1 \coloneqq \{c \in C: q^{-1}(\{c\}) \subseteq K_1\}, \qquad C_2 \coloneqq \{c \in C: q^{-1}(\{c\}) \subseteq K_2\}$$ 
 
