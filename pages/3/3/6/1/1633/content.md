@@ -136,7 +136,7 @@ The only Hausdorff [[topological vector spaces]] that are locally compact are fi
 
 
 +-- {: .num_example #CountablyInfiniteProductsOfNonCompactSpacesAreNotLocallyCompact}
-###### Counter-Example
+###### Nonexample
 **(countably infinite products of non-compact spaces are not locally compact)**
 
 Let $X$ be a [[topological space]] which is not [[compact topological space|compact]]. Then the [[product topological space]] of a [[countable set|countably infinite set]] of copies of $X$ 
@@ -181,7 +181,7 @@ with $U_i \subset X$ open. Hence every compact neighbourhood in $\underset{\math
 =--
 
 +-- {: .num_example #RationalsAreNotLocallyCompact}
-###### Counter-Example
+###### Nonexample
 
 The space of [[rational numbers]] as a subspace of the [[real numbers]] with the Euclidean topology is not locally compact since its compact subsets all have empty interior.
 
