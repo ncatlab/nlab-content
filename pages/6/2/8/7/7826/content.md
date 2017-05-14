@@ -19,7 +19,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A ([[topological space|topological]]) [[space]] whose only [[connected topological space|connected]] [[subspaces]] are the subspaces with at most one element is called *totally disconnected*.
+A ([[topological space|topological]]) [[space]] whose only [[connected topological space|connected]] [[subspaces]] are [[singletons]] is called *totally disconnected*.
 =--
 
 ## Examples
@@ -27,7 +27,7 @@ A ([[topological space|topological]]) [[space]] whose only [[connected topologic
 +-- {: .num_example}
 ###### Example
 
-[[discrete space|Discrete spaces]] are totally disconnected
+[[discrete space|Discrete spaces]] are totally disconnected.
 
 =--
 
@@ -59,23 +59,45 @@ $$
 
 Hence no [[inhabited set|inhabited]] open subspace of the rational numbers is connected.
 
-=--
+=-- 
 
++-- {: .num_example #limits} 
+###### Example 
+A [[product]] in $Top$ of totally disconnected spaces is totally disconnected. A subspace of a totally disconnected space is totally disconnected. Hence [[limits]] in $Top$ of diagrams of totally disconnected spaces are totally disconnected. 
+=-- 
+
+For example, the Baire space of [[irrational numbers]] is homeomorphic to a countable product $\mathbb{N}^\mathbb{N}$ (via [[continued fractions]]), so it is totally disconnected. Similarly, [[Cantor space]] $2^\mathbb{N}$ is totally disconnected. Another notable special case of the preceding class of examples is the following. 
 
 +-- {: .num_example}
 ###### Example
 
-[[profinite group|profinite groups]] are totally disconnected and in particular the set of [[p-adic number|p-adic numbers]] is totally disconnected.
+Every [[profinite group]] is totally disconnected and in particular the set of [[p-adic number|p-adic numbers]] is totally disconnected. 
 
-=--
+=-- 
+
+See also [[Stone space]]. 
 
 
 * [[extremally disconnected topological space|extremally disconnected]] Hausdorff space
 
 
+## Properties 
+
+The general class of examples in Example \ref{limits} may be seen in the following light. 
+
++-- {: .num_theorem} 
+###### Theorem 
+The category of totally disconnected spaces and continuous maps is a reflective subcategory of $Top$. 
+=-- 
+
+The reflector takes a space $X$ to the space of connected components, i.e., the quotient space $X/\sim$ of $X$ where $\sim$-equivalence classes are precisely the connected components of $X$. 
+
+
 ## Related concepts
 
-* [[extremally disconnected topological space]]
+* [[extremally disconnected topological space]] 
+
+* [[connected space]] 
 
 [[!redirects totally disconnected spaces]]
 
