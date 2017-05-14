@@ -66,7 +66,7 @@ We consider here, for $k$ a [[field]], the [[vector space]] $k^n$ equipped with 
 
 Let $k$ be a [[field]], let $n \in \mathbb{N}$, and write $k[X_1, \cdots, X_n]$ for the [[set]] of [[polynomials]] in $n$ [[variables]] over $k$.
 
-For $\mathcal{F} \subset k[X_1, \cdots, X_n]$ a subset of polynomials, let the  subset $V(\mathcal{P}) \subset k^n$ of the $n$-fold [[Cartesian product]] of the underlying set of $k$ (the _vanishing set_ of $\mathcal{F}$) be the subset of points on which all these polynomials jointly vanish:
+For $\mathcal{F} \subset k[X_1, \cdots, X_n]$ a subset of polynomials, let the  subset $V(\mathcal{F}) \subset k^n$ of the $n$-fold [[Cartesian product]] of the underlying set of $k$ (the _vanishing set_ of $\mathcal{F}$) be the subset of points on which all these polynomials jointly vanish:
 
 $$
   V(\mathcal{F})
@@ -93,7 +93,7 @@ $$
   \right\}
 $$
 
-for the set of [[complements]] of subsets the Zariski closed subsets. These are called the _Zariski [[open subsets]]_ of $k^n$.
+for the set of [[complements]] of the Zariski closed subsets. These are called the _Zariski [[open subsets]]_ of $k^n$.
 
 
 =--
