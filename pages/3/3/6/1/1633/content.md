@@ -180,6 +180,12 @@ with $U_i \subset X$ open. Hence every compact neighbourhood in $\underset{\math
 
 =--
 
++-- {: .num_example #RationalsAreNotLocallyCompact}
+###### Counter-Example
+
+The space of [[rational numbers]] as a subspace of the [[real numbers]] with the Euclidean topology is not locally compact since its compact subsets all have empty interior.
+
+=--
 
 ## Properties
 
