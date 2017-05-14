@@ -114,6 +114,8 @@ Here Fichte's suggestions come to rescue who had already proposed a link between
 
 It goes without saying that all this, and especially the counting in of the tautologies which is mainly owed to the succession pattern of I-G, I-P, I-I, is a radical step that poses serious questions concerning its viability and was severely critized by [[J.M. Ellis McTaggart]] ([1910](#McT10), pp.202-205).
 
+True to his conviction of the identity between thought and object Hegel uses in his writings on logic the _sphere of right_ to illustrate infinite judgements in action with crimes as actions that negate law totally e.g. theft vs. a repossession law suit where the latter corresponds to normal negation denying a specific property right within the framework of law. Interestingly, these examples return in his philosophy of right to bring out the logical structure of right as well (e.g. in Hegel [1983](#Law), p.84).
+
 ## More recent positions
 
 B. Bolzano pointed out the imprecisions and contradictions of Kant's account of the qualities of judgment forms in his _Wissenschaftslehre_ ([1837](#BolzWLII)).
@@ -173,6 +175,8 @@ So we arrive at the hypothesis that _a judgement is infinite precisely when its 
 * {#BolzWLII}[[Bernard Bolzano|B. Bolzano]], _Wissenschaftslehre II_ , von Seidel Sulzbach 1837. (&#167; 189 pp.266ff, [link](http://dml.cz/dmlcz/400486))
 
 * {#Cohen07} [[Hermann Cohen|H. Cohen]], _Kommentar zu Immanuel Kants Kritik der reinen Vernunft_ , D&#252;rr Leipzig 1907.
+
+* {#Law} [[Georg Hegel|G. W. F. Hegel]], _Philosophie des Rechts - Die Vorlesung von 1819/20 in einer Nachschrift_ ,  Suhrkamp Frankfurt a. M. 1983.
 
 * {#Logik} [[Georg Hegel|G. W. F. Hegel]], _Logik f&#252;r die Mittelklasse (1808/09)_ , pp.86-110 in Moldenhauer, Michel (eds.), _Werke 4_ , Suhrkamp Frankfurt a. M. 1986.
 
