@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -8,16 +19,59 @@
 +-- {: .num_defn}
 ###### Definition
 
-A (topological) space whose only connected subspaces are the subspaces with at most one element is called *totally disconnected*.
+A ([[topological space|topological]]) [[space]] whose only [[connected topological space|connected]] [[subspaces]] are the subspaces with at most one element is called *totally disconnected*.
 =--
 
 ## Examples
 
-* [[discrete space|discrete spaces]] are totally disconnected
++-- {: .num_example}
+###### Example
+
+[[discrete space|Discrete spaces]] are totally disconnected
+
+=--
+
++-- {: .num_example #RationalNumbersAreTotallyDisconnected}
+###### Example
+**(the rational numbers are totally disconnected)**
+
+The [[rational numbers]] $\mathbb{Q} \subset \mathbb{R}$ equipped with their [[subspace topology]] inherited from the [[Euclidean space|Euclidean]] [[metric topology]] on the [[real numbers]], form a totally disconnected space.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By construction, a [[base for a topology|base for the topology]] is given by the open subsets which are restrictions of [[open intervals]] of real numbers to the rational numbers
+
+$$
+  (a,b)_{\mathbb{Q}} \coloneqq (a,b) \cap \mathbb{Q}
+$$
+
+for $a \lt b \in \mathbb{R}$.
+
+Now for any such $a \lt b$ there exists an [[irrational number]] $r \in \mathbb{R}\backslash \mathbb{Q}$ with $a \lt r \lt b$. This being irrational implies that $(a,r)_{\mathbb{Q}} \subset \mathbb{Q}$ and $(r,b)_{\mathbb{Q}} \subset \mathbb{Q}$ are disjoint subsets. Therefore every basic open subset is the disjoint union of (at least) two open subsets:
+
+$$
+  (a,b)_{\mathbb{Q}} = (a,r)_{\mathbb{Q}} \cup (r,b)_{\mathbb{Q}}
+  \,.
+$$
+
+Hence no [[inhabited set|inhabited]] open subspace of the rational numbers is connected.
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+[[profinite group|profinite groups]] are totally disconnected and in particular the set of [[p-adic number|p-adic numbers]] is totally disconnected.
+
+=--
+
 
 * [[extremally disconnected topological space|extremally disconnected]] Hausdorff space
 
-* [[profinite group|profinite groups]] are totally disconnected and in particular the set of [[p-adic number|p-adic numbers]] is totally disconnected.
 
 ## Related concepts
 
