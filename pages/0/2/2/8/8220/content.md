@@ -27,6 +27,8 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[scales]
 
 * [[big bang]], [[steady state model of cosmology]]
 
+* [[big pop and banging universe]]
+
 * [[dark matter]], [[fuzzy dark matter]]
 
 * [[dark energy]], [[cosmological constant]],
