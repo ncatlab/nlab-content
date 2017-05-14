@@ -60,7 +60,7 @@ is both closed and open. It also contains $0$, hence is all of $I$. But it can't
 
 See also
 
-* Wikipedia, _[Long line (topology)](https://en.wikipedia.org/wiki/Long_line_(topology))_
+* Wikipedia, _[Long line (topology)](https://en.wikipedia.org/wiki/Long_line_%28topology%29)_
 
 
 [[!redirects long line]]
