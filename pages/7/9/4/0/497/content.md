@@ -23,9 +23,10 @@ Although the term 'excluded middle' (sometimes even _excluded third_) suggests t
 In fact, intuitionistic logic proves that there is no truth value that is neither true nor false; in this sense, the possibility of a 'middle' or 'third' truth value is still 'excluded'.  But since the relevant [[de Morgan law]] fails in intuitionistic logic, we may not conclude that every truth value is either true or false, which is the actual PEM.
 
 
-## PEM versus AC 
+## Relation to the axiom of choice
+ {#RelationToTheAxiomOfChoice}
 
-Excluded middle can be seen as a very weak form of the [[axiom of choice]] (a slightly more controversial principle, doubted or denied by a slightly larger minority, and true internally in even fewer categories).  In fact, the following are equivalent.
+Excluded middle can be seen as a very weak form of the [[axiom of choice]] (a slightly more controversial principle, doubted or denied by a slightly larger minority, and true internally in even fewer categories).  In fact, the following are equivalent. (see also [McLarty, theorem 19.7](#McLarty), due to Diaconescu 1975)
 
 1. The principle of excluded middle.
 1. [[finite set|Finitely indexed]] sets are [[projective object|projective]] (in fact, it suffices 2-indexed sets to be projective).
@@ -65,6 +66,11 @@ In particular, this shows how the [[double negation]] [[modality]] can be regard
 ## References
 
 ### General
+
+Discussion in [[toposes]] is for instance in 
+
+* {#McLarty} [[Colin McLarty]], _Elementary Categories, Elementary Toposes_
+
 
 ### In homotopy type theory
  {#ReferencesInHomotopyTypeTheory}
