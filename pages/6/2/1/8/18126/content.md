@@ -1605,7 +1605,7 @@ Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}).
 ###### Remark
 **([[de Morgan's law]])**
 
-In reasoning about [[closed subsets]] in [[topology]] we are concerned with [[complements]] of [[unions]] and
+In reasoning about [[closed subsets]] in [[topology]] (def. \ref{ClosedSubset}) we are concerned with [[complements]] of [[unions]] and
 [[intersections]] as well as with [[unions]]/[[intersections]] of [[complements]]. Recall therefore
 that taking [[complements]] of [[subsets]] exchanges [[unions]] with [[intersections]]
 ([[de Morgan's law]]):
@@ -8297,7 +8297,8 @@ of $Y$, then also its [[pre-image]] $f^{-1}(C)$ is [[compact topological space|c
 
 =--
 
-As a first useful application of the concept of compactness we have:
+As a first useful application of the topological concept of compactness we obtain a quick proof of the following classical
+result from [[analysis]]:
 
 +-- {: .num_prop #ExtremeValueTheorem}
 ###### Proposition
@@ -8311,14 +8312,10 @@ $$
 
 be a [[continuous function]] to the [[real numbers]] equipped with their [[Euclidean space|Euclidean]] [[metric topology]].
 
-Then $f$ attains is [[maximum]] and its [[minimum]], i.e. there exist $x_{min}, x_{max} \in C$ such that for all $x \in C$ it is true that
+Then $f$ attains is [[maximum]] and its [[minimum]] in that there exist $x_{min}, x_{max} \in C$ such that 
 
 $$
-  f(x_{min})
-    \leq
-  f(x)
-   \leq
-  f(x_{max})
+  f([a,b]) = [f(x_{min}), f(x_{max})]
   \,.
 $$
 
@@ -8480,11 +8477,13 @@ that $X$ is compact. By prop. \ref{ClosedSubsetFormulationOfCompactness} this me
 for every set $\{C_i \subset X\}_{i \in I}$ of closed subsets and satisfying the [[finite intersection property]],
 then $\underset{i \in I}{\cap} C_i \neq \emptyset$.
 
-Construct a new topological space $(Y, \tau_Y)$ by
+
+Given such a set $\{C_i \subset X\}_{i \in I}$ of closed subsets satisfying the [[finite intersection property]],
+construct a new topological space $(Y, \tau_Y)$ by
 
 1. $Y \coloneqq X \sqcup \{\infty\}$;
 
-1. $\beta_Y \coloneqq P(X) \sqcup \left\{ (C_i \cup \{\infty\}) \subset Y  \right\}$ a [[sub-base for a topology|sub-base]] for $\tau_Y$ (def. \ref{TopologyBase}).
+1. $\beta_Y \coloneqq P(X) \sqcup \left\{ (C_i \cup \{\infty\}) \subset Y  \right\}_{i \in I}$ a [[sub-base for a topology|sub-base]] for $\tau_Y$ (def. \ref{TopologyBase}).
 
 Then consider the topological closure of the "diagonal" $\Delta$ in $Y \times X$
 
@@ -8566,9 +8565,10 @@ as required.
 
 =--
 
+$\,$
 
-The [[closed-projection characterization of compactness]] (prop. \ref{ClosedProjectionCharacterizationOfCompactness})
-yields direct proof of important facts in [[topology]]:
+This [[closed-projection characterization of compactness]] from prop. \ref{ClosedProjectionCharacterizationOfCompactness}
+is most useful, for instance it yields direct proof of the following important facts in [[topology]]:
 
 * The _[[tube lemma]]_, prop. \ref{TheTubeLemma} below,
 
@@ -8630,7 +8630,7 @@ $$
   \end{aligned}
 $$
 
-and hence by the closure of $p_X(C)$ there is (by [this lemma](Introduction+to+Topology+--+1#UnionOfOpensGivesClosure)) an open neighbourhood $U_x \supset \{x\}$ with
+and hence by the closure of $p_X(C)$ there is (by lemma \ref{UnionOfOpensGivesClosure}) an open neighbourhood $U_x \supset \{x\}$ with
 
 $$
   U_x \cap p_X(C) = \emptyset
@@ -8701,7 +8701,7 @@ by induction assumtion. Hence the composite is a closed map.
 
 
 Of course we also want to claim that [[sequentially compact metric spaces]] (def. \ref{MetricSpaceSequentiallyCompact}) are compact
-as topological spaces when rgarded with their [[metric topology]] (example \ref{MetricTopology}):
+as topological spaces when regarded with their [[metric topology]] (example \ref{MetricTopology}):
 
 +-- {: .num_defn #TopologicalSpaceSequenceConverging}
 ###### Definition
@@ -8943,9 +8943,9 @@ the definition of "locally compact" is subject to further ambiguity in the liter
 There are various definitions of locally compact spaces alternative to def. \ref{LocallyCompactSpace}.
 For [[Hausdorff topological spaces]] all these definitions
 happen to be equivalent, but in general they are not.
-The version we state in def. \ref{LocallyCompactSpace} is the one that gives the
-[[universal property]] of the mapping space, prop. \ref{UniversalPropertyOfMappingSpace}
-below, without_ requiring the Hausdorff property.
+The version we state in def. \ref{LocallyCompactSpace} is the one that gives various results
+(such as the [[universal property]] of the mapping space, prop. \ref{UniversalPropertyOfMappingSpace} below) 
+_without_ requiring the Hausdorff property.
 
 =--
 
@@ -8962,7 +8962,7 @@ Every [[discrete topological space]] (example \ref{CoDiscreteTopology}) is [[loc
 **([[metric spaces]] are [[locally compact topological space|locally compact]])**
 
 Every [[metric space]] (def. \ref{MetricSpace}), regarded as a [[topological space]] via its
-[[metric topology]] (def. \ref{MetricTopology}), are [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}).
+[[metric topology]] (def. \ref{MetricTopology}), is [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}).
 
 =--
 
@@ -9052,9 +9052,9 @@ For
 
 1. $(X, \tau_X)$ a [[locally compact topological space]] (def. \ref{LocallyCompactSpace})
 
-1. $(Y,\tau_Y)$ any [[topological space]]  then the _[[compact-open topology|mapping space]]_
+1. $(Y,\tau_Y)$ any [[topological space]]  
 
-their _[[mapping space]]_
+then the _[[compact-open topology|mapping space]]_
 
 $$
   Maps\left(
@@ -9071,7 +9071,7 @@ is the [[topological space]]
 * whose underlying set $Hom_Top(X,Y)$ is the set of [[continuous functions]] $X \to Y$;
 
 * whose topology $\tau_{\text{cpt-op}}$ is generated from the [[topological basis|sub-basis for the topology]] (def. \ref{TopologyBase})
-  which is given by subsets are denoted
+  which is given by subsets to denoted
 
   $U^K \subset Hom_{Top}(X,Y)$ for labels
 
@@ -9094,6 +9094,7 @@ is the [[topological space]]
          \\
          U &\hookrightarrow& Y
       }
+      \phantom{AA}
     \right\}
       \,.
   $$
