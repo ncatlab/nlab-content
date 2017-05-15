@@ -199,21 +199,33 @@ $$Set^{\omega^{op}},$$
 
 aka the [[tree|category of trees]], where $\omega$ is the colimit of the finite ordinals $[n]$. The statement that the category of trees is equivalent to its small-coproduct cocompletion says that the category of trees is equivalent to the category of forests. 
 
+### Fractals
+
+There is a [[category theory|category theoretic]] treatments of the self-similarity found in [[fractals]] in terms of terminal coalgebras, see [Leinster 10](#Leinster10), [Bhattacharya-Moss-Ratnayake-Rose](#BhattacharyaMossRatnayakeRose).
+
+
+
 ## Related concepts
 
 Terminal coalgebras are the [[categorical semantics]] of [[coinductive types]], for instance [[M-types]].
 
 ## References 
 
-* [[Peter Freyd]], _Real coalgebra_ Mailing to the categories list, Dec. 22, 1999. ([link](http://www.mta.ca/~cat-dist/catlist/1999/realcoalg))
-{#Freyd}
+* {#Freyd} [[Peter Freyd]], _Real coalgebra_ Mailing to the categories list, Dec. 22, 1f999. ([link](http://www.mta.ca/~cat-dist/catlist/1999/realcoalg))
 
-* [[Dusko Pavlovic]], [[Vaughan Pratt]], _On coalgebra of real numbers_, 1999. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204))
-{#PP}
+
+* {#PP} [[Dusko Pavlovic]], [[Vaughan Pratt]], _On coalgebra of real numbers_, 1999. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204))
+
 
 Cross-relations between algebraic and coalgebraic aspects of real numbers may be found in this article: 
 
 * [[Peter Freyd]], _Algebraic Real Analysis, Theor._ Appl. Cat., vol. 20, no. 10 (2008), 215-308. ([link](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
+
+For [[category theory|category theoretic]] treatments of the self-similarity found in [[fractals]] in terms of terminal coalgebras, see
+
+* {#Leinster10} [[Tom Leinster]], _A general theory of self-similarity_, ([arXiv:1010.4474](https://arxiv.org/abs/1010.4474))
+
+* {#BhattacharyaMossRatnayakeRose} Prasit Bhattacharya, Lawrence S. Moss, Jayampathy Ratnayake, and Robert Rose, _Fractal Sets as Final Coalgebras Obtained by Completing an Initial Algebra_, ([pdf](http://www3.nd.edu/~pbhattac/papers/Sierpinski.pdf))
 
 
 [[!redirects terminal coalgebra]]
@@ -225,3 +237,7 @@ Cross-relations between algebraic and coalgebraic aspects of real numbers may be
 [[!redirects terminal coalgebras of an endofunctor]]
 
 [[!redirects terminal coalgebra]]
+
+[[!redirects terminal coalgebra of an endofunctor]]
+[[!redirects terminal coalgebras of an endofunctor]]
+[[!redirects terminal coalgebras of an endofunctors]]
