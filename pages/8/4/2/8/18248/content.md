@@ -47,6 +47,7 @@ $$
   \,.
 $$
 
+Globally, at low resolution, the Mandelbrot set looks like this:
 
 <img src="https://ncatlab.org/nlab/files/MandelbrotSet.png" width="400" >
 
@@ -54,26 +55,76 @@ $$
 
 ### Topological properties
 
++-- {: .num_defn #MandelbrotSpace}
+###### Definition
+**(Mandelbrot space)**
 
-Regard the Mandelbrot set as a [[topological space]] via the [[subspace topology]] inherited from the [[Euclidean space|Euclidean]] [[metric toplogy]] of $\mathbb{C} \simeq \mathbb{R}^2$.
+Regard the Mandelbrot set as a [[topological space]] 
 
-+-- {: .num_prop }
+$$
+  (Mndlbrt, \tau_{sub})
+$$
+
+via the [[subspace topology]] $\tau_{sub}$ inherited from the [[Euclidean space|Euclidean]] [[metric topology]] of $\mathbb{C} \simeq \mathbb{R}^2$. 
+
+=--
+
++-- {: .num_prop #MndlbrtIsCompact}
 ###### Proposition
 
-The Mandelbrot set is a [[compact topological space]].
+The Mandelbrot space $(Mndlbrot, \tau_{sub})$ (def. \ref{MandelbrotSpace}) is a [[compact topological space]].
+
+=--
+
+We **prove** this [below](#ProofCompactMandelbrot), after the following lemma:
+
++-- {: .num_lemma #EscapeRadius}
+###### Lemma
+**(escape radius)**
+
+For ${\vert c\vert} \gt 2$ then the sequence $(f_c^n(0))_{n \in \mathbb{N}}$ is not bounded, hence the sequence of [[absolute values]] $( {\vert f_c^n(0)\vert} )_{n \in \mathbb{N}}$ diverges for ${\vert c \vert} \gt 2$.
+
+In fact in this case the absolute values increase monotonically:
+
+If ${\vert c\vert} \gt 2$ then  for all $n \gt 0$ we have 
+
+$$
+  {\vert f_c^{n+1}(0)\vert } \gt {\vert f_c^n(0)\vert}
+  \,.
+$$
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-First we claim that for ${\vert c\vert} \gt 2$ then the sequence $(f_c^n(0))$ is not bounded, hence that the sequence of [[absolute values]] $( {\vert f_c^n(0)\vert} )_{n \in \mathbb{N}}$ diverges for ${\vert c \vert} \gt 2$.
+So assume ${\vert c \vert} \gt 2$. 
 
-In fact we claim that for all $n \gt 1$ then ${\vert f_c^{n+1}(0)\vert } \gt {\vert f_c^n(0)\vert}$.
+We prove the last statement by [[induction]]. 
 
-This is true for $n = 2$ where $f_c(0) = 0$ and $f_c^2(0) = c^2 + c$.
+Observe that it is true for $n = 1$, where we have
 
-Then by [[induction]]:
+$$
+  \begin{aligned}
+    {\vert f_c^2(0) \vert}
+    & =
+    {\vert c^2 + c \vert }
+    \\
+    & \geq 
+    {\vert c^2\vert } - {\vert c \vert }
+    \\
+    & = 
+    {\vert c\vert}\underset{\gt 1}{\underbrace{({\vert c\vert}-1)}}
+    \\
+    & \gt {\vert c\vert }
+    \\
+    & =
+    {\vert f_c(0) \vert }
+  \end{aligned}
+  \,.
+$$
+
+Now assume that there is $n \in \mathbb{N}$ such that ${\vert f_c^n(0) \vert} \gt {\vert c\vert}$. Then it follows that 
 
 $$
   \begin{aligned}
@@ -106,36 +157,63 @@ $$
   }
   \\
   & 
-  \gt 
-  {\vert f_c^n(0)\vert} -1
   \gt
+  \vert c \vert - 1
+  \\
+  & \gt 
   1
   \end{aligned}
   \,.
 $$
 
-Now let $c \in \mathbb{C} \backslash Mdlbrt$ be a point not contained in the Mandelbrot set. To show compactness of the Mandelbrot set means to show that there is an [[open neighbourhood]] of $c$ which does not intersect the Mandelbrot set.
+Here the first inequality is due to the [[triangle inequality]], the second is due to the induction assumption, and the last one is due to the initial assumption that ${\vert c \vert} \gt 2$.
 
-Now that $c$ is not in the set means by definition that for every positive real number $r$ there is $n \in \mathbb{N}$ such that $\vert f_c^n(0)\vert \gt r$. This is true in particular for $r = 2$. 
+=--
 
-Let then
+
+
++-- {: .proof #ProofCompactMandelbrot}
+###### Proof
+that the Mandelbrot space is compact (prop. \ref{MndlbrtIsCompact})
+
+By lemma \ref{EscapeRadius} the Mandelbrot set is a [[bounded subset]] of 2d [[Euclidean space]]. Hence by the [[Heine-Borel theorem]] is is now sufficient to show that it is a [[closed subset]], this will imply that it is compact. 
+
+The subset is closed if for every point $c \in \mathbb{C} \backslash Mdlbrt$ not contained in the Mandelbrot set there is an [[open neighbourhood]] of $c$ which still does not intersect the Mandelbrot set.
+
+Now that $c \notin Mndlbrt \subset \mathbb{R}^2$ means by definition that for every positive real number $r$ there is an $n \in \mathbb{N}$ such that $\vert f_c^n(0)\vert \gt r$. 
+
+Pick such an $n$ for $r = 2$. Let then
 
 $$
-  \epsilon \coloneqq \frac{  {\vert f_c^n(0) \vert} - 2 }{2}
+  \epsilon \coloneqq {\vert f_c^n(0) \vert} - 2 
   \,.
 $$
 
-By the above, then the pre-image of the open subset
+and consider the subset
 
 $$
+  U_{c,n}
+    \coloneqq
   \left\{
     z \in \mathbb{C}
     \;\vert\;
-    {\vert f_c^n(0) \vert} - \epsilon \lt {\vert z\vert} \lt {\vert f_c^n(0) \vert} + \epsilon
+    \left(
+      \left({\vert f_c^n(0) \vert} - \epsilon \right)
+       \lt 
+      \left(  {\vert z\vert} \lt {\vert f_c^n(0) \vert} + \epsilon \right)
+    \right)
   \right\}
+  \,.
 $$
 
-under $f_c^n$ is an open subset of $\mathbb{C}$ which does not intersect the Madelbrot set.
+This is clearly an [[open neighbourhood]] of $f_c^n(0)$. Hence by continuity of the function $f_c^n \colon \mathbb{C} \to \mathbb{C}$, the [[pre-image]]
+
+$$
+  (f_c^{n-1})^{-1}(U_{c,n})
+$$
+
+is an open neighbourhood of $c \in \mathbb{C}$, and by lemma \ref{EscapeRadius} this does not intersect the Mandelbrot set.
+
 
 
 =--
