@@ -190,6 +190,27 @@ A [[de Morgan duality|dual]] condition is satisfied by an [[overt space]].
 
 ### Various
 
++-- {: .num_prop}
+###### Proposition
+**(finite unions of compact spaces are compact)**
+
+Let $(X,\tau)$ be a [[topological space]] and let $\{K_i \subset X\}_{i \in J}$ be a [[finite set]] of [[compact topological space|compact]] subspaces. Then their [[union]]
+
+$$
+  \underset{i \in J}{\cup} K_i \subset X
+$$
+
+is still a compact subspace.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+...
+
+=--
+
 +-- {: .num_prop }
 ###### Proposition
 
