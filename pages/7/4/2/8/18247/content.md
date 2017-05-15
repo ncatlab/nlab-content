@@ -1,0 +1,15 @@
+
+
+## Examples
+
+* [[Cantor space]]
+
+* [[Mandelbrot set]]
+
+## References
+
+See also
+
+* Wikipedia, _[Fractal](https://en.wikipedia.org/wiki/Fractal)_
+
+[[!redirects fractals]]
