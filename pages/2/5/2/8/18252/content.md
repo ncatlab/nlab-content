@@ -1,0 +1,4 @@
+
+The canonical [[line bundle]] over a [[projective space]] is sometimes called its "tautological line bundle". For more see at _[[classifying space]]_.
+
+[[!redirects tautological line bundles]]
