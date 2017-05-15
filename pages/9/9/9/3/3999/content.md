@@ -70,6 +70,9 @@ The following is a list of properties of and pertaining to sequentially compact 
  \notin V$ for all $n_k$, and $v \in V$, it must be the case that $V$ is not a $\mathcal{T}_1$-neighbourhood of $v$.  Hence $V \notin \mathcal{T}_1$.  Thus $\mathcal{T}_1 \subseteq \mathcal{T}_2$, whence they are equal.
    =--
 
+5. The [[image]] of a sequentially compact space $X$ under a continuous map $f: X \to Y$ is also sequentially compact. For suppose $y_n$ is a sequence in $f(X)$, say $y_n = f(x_n)$. Then $x_n$ has a convergent subsequence $x_{n_j}$, converging to $x$ say, and by continuity $y_{n_j} = f(x_{n_j})$ converges to $f(x)$. 
+
+
 ### Relationship to Compactness 
 
 [[compact space|Compactness]] does not imply sequentially compactness, nor does sequentially compactness imply compactness, without further assumptions, see at _[Examples and counter-examples](#Examples)_ below.
