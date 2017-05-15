@@ -5424,10 +5424,9 @@ That neither class is contained in the other is shown by the following counter-e
 
 Finally, sobriety is indeed strictly weaker that Hausdorffness:
 
-
 +-- {: .num_example}
 ###### Example
-**([[schemes are sober]])**
+**([[schemes are sober]] but in general not [[Hausdorff topological space|Hausdorff]])**
 
 The [[Zariski topology]] on an [[affine space]] (example \ref{ZariskiTopologyOnAffineSpace}) or
 more generally on the [[prime spectrum of a commutative ring]] (example \ref{ZariskiTopologyOnPrimeSpectrum})
@@ -8177,7 +8176,7 @@ This is not a finite cover, and removing any one of its patches $U_n$, it ceases
 Below we prove the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}) which generalizes example \ref{CompactClosedInterval}
 and example \ref{NonCompactEuclideanSpace}.
 
-In [[analysis]], the [[extreme value theorem]] asserts that a [[real number|real]]-valued [[continuous function]]
+In [[analysis]], the [[extreme value theorem]] (example \ref{ExtremeValueTheorem} below) asserts that a [[real number|real]]-valued [[continuous function]]
 on the [[bounded subset|bounded]] [[closed interval]] (def. \ref{OpenAndClosedIntervals}) attains its
 [[maximum]] and [[minimum]]. The following is the generalization of this statement to general topological spaces,
 cast in terms of the more abstract concept of compactness from def. \ref{CompactTopologicalSpace}:
@@ -8249,6 +8248,49 @@ is called _[[proper map|proper]]_ if for $C \in Y$ a [[compact topological space
 of $Y$, then also its [[pre-image]] $f^{-1}(C)$ is [[compact topological space|compact]] in $X$.
 
 =--
+
++-- {: .num_example #ExtremeValueTheorem}
+###### Example
+**([[extreme value theorem]])**
+
+Let 
+
+$$
+  f \;\colon\; [a,b] \longrightarrow \mathbb{R}
+$$
+
+be a [[continuous function]] from a [[bounded set|bounded]] [[closed interval]] ($a \lt b \in \mathbb{R}$) (def. \ref{OpenAndClosedIntervals})
+regarded as a [[topological subspace]] (example \ref{SubspaceTopology}) of [[real numbers]] to the [[real numbers]], with the
+latter regarded with their [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology}).
+
+Then $f$ attains its [[maximum]] and [[minimum]]: there exists $x_{max}, x_{min} \in [a,b]$ such that 
+for all $x \in [a,b]$ we have
+
+$$
+  f(x_{min}) \leq f(x) \leq f(x_{max})
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Since [[continuous images of compact spaces are compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact})
+the image $f([a,b]) \subset \mathbb{R}$ is a [[compact topological space|compact]] [[subspace]] (def. \ref{CompactTopologicalSpace}, example \ref{SubspaceTopology}).
+By the [[Heine-Borel theorem]] this is a [[bounded set|bounded]] [[closed subset]] (def. \ref{MetricSpaceBoundedSubset}, def. \ref{ClosedSubset}). By the nature of the [[Euclidean space|Euclidean]] [[metric topology]], the image is hence a union of [[closed intervals]]. Finally by continuity of $f$ it needs to be a single closed interval, hence
+(being bounded) of the form
+
+$$
+  f([a,b]) =  [f(x_{min}), f(x_{max})] \;\subset\; \mathbb{R}
+  \,.
+$$
+
+
+=--
+
+
 
 
 There is also the following more subtle equivalent reformulation of compactness:
@@ -8434,7 +8476,7 @@ yields direct proof of important facts in [[topology]]:
 
 * The _[[tube lemma]]_, prop. \ref{TheTubeLemma} below,
 
-* The _[[Tychonoff theorem]]_, prop. \ref{TychonoffTheore} below.
+* The _[[Tychonoff theorem]]_, prop. \ref{TychonoffTheorem} below.
 
 
 +-- {: .num_lemma #TheTubeLemma}
@@ -8721,9 +8763,9 @@ Therefore $\{U_{i_s} \to X\}_{s \in S}$ is a finite sub-cover as required.
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #SequentiallyCompactNeitherImpliesNorIsImpliedByCompactness}
 ###### Remark
-**(neither compactness nor sequential compactness implies the other)**
+**(neither [[compact topological space|compactness]] nor [[sequentially compact topological space|sequential compactness]] implies the other)**
 
 Beware, in contrast to prop. \ref{SequentiallyCompactMetricSpacesAreEquivCompact}, 
 general topological spaces being [[sequentially compact space|sequentially compact]] neither implies nor is implied by being
@@ -8744,6 +8786,29 @@ general topological spaces being [[sequentially compact space|sequentially compa
 
 =--
 
++-- {: .num_remark}
+###### Remark
+**([[nets]] fix the shortcomings of [[sequences]])**
+
+That [[compact topological space|compactness]] of topological spaces is not detected by 
+[[convergence]] of [[sequences]] (remark \ref{SequentiallyCompactNeitherImpliesNorIsImpliedByCompactness})
+may be regarded as a shortcoming of the concept of _[[sequence]]_. While a sequence is indexed
+over the [[natural numbers]], the concept of [[convergence]] of sequnces only invokes that the natural 
+numbers form a _[[directed set]]_. Hence the concept of convergence immediately generalizes to 
+sets of points in a space which are indexed over an arbitrary [[directed set]]. This is called a _[[net]]_.
+
+And with these the expected statement does become true (for a [[proof]] see [here](net#CompactSpacesEquivalentlyHaveConvergetSubnets)): 
+
+$\;\;\;\;$_A [[topological space]] $(X,\tau)$ is [[compact topological space|compact]] 
+precisely if every [[net]] in $X$ has a [[convergence|converging]] [[subnet]]._
+
+
+In fact convergence of nets also detects [[closed subsets]] in topological spaces (hence their topology as such),
+and it detects the continuity of functions between topological spaces. It also detects for instance the Hausdorff property.
+(For detailed statements and proofs see _[here](net#RelationToTopology)_.) Hence when [[analysis]] is cast in terms
+of [[nets]] instead of just sequences, then it raises to the same level of generality as topology.
+
+=--
 
 
 There are various variants of the concept of compact spaces, for instance
@@ -9781,7 +9846,7 @@ does not apply.
 
 
 
-
+$\,$
 
 
 
@@ -9791,16 +9856,14 @@ does not apply.
 
 The concept of [[compact topological space|compactness]] in topology ([above](#CompactSpaces))
 has several evident weakenings of interest. One is that of _[[paracompact topological space|paracompactness]]_
-(def. \ref{ParacompactSpace} below). This property is important in applications to [[algebraic topology]],
-where it guarantees notably that the [[abelian sheaf cohomology]] of a topological space may be computed in terms of
-[[Cech cohomology]].
+(def. \ref{ParacompactSpace} below). 
 
-A key fact is that [[paracompact topological spaces]] and [[normal topological space|normal]]
-spaces are equivalently those (prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}) all whose [[open covers]] admit a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity} below), namely a set of [[real number|real]]-valued [[continuous functions]]
+A key property is that [[paracompact Hausdorff spaces]] are equivalently those (prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}) all whose [[open covers]] admit a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity} below), namely a set of [[real number|real]]-valued [[continuous functions]]
 each of which is [[support|supported]] in only one patch of the cover, but whose [[sum]] is the unit function.
 Existence of such partitions imply that structures on topological spaces which are glued together via [[linear maps]]
 (such as [[vector bundles]]) are well behaved.
 
+In [[algebraic topology]] paracompact spaces are important as for them [[abelian sheaf cohomology]] may be computed in terms of [[Cech cohomology]].
 
 
 +-- {: .num_defn #LocallyFiniteCover}
@@ -10439,15 +10502,13 @@ By the formulas given in [this prop.](stereographic+projection#StandardStereogra
 
 $\,$
 
-* [[tangent space]]
+* [[embedding of smooth manifolds]]
 
 * [[tangent bundle]]
 
-* [[embedding of smooth manifolds]]
+$\,$
 
-* [[frame bundle]]
-
-* [[G-structure]]
+(...)
 
 
 
