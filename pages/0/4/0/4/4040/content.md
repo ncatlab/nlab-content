@@ -124,8 +124,9 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[CW-complexes are Hausdorff spaces]]
 
-* [[compact Hausdorff spaces are normal|(para-)compact Hausdorff spaces are normal]]
+* [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]]
 
+* [[compact Hausdorff spaces are normal|(para-)compact Hausdorff spaces are normal]]
 
 * [[continuous image of a compact space is compact]]
 
