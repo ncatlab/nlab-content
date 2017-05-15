@@ -41,7 +41,7 @@ $$
      c \in \mathbb{C}
      \;\colon\;
      (f_c^n(0))_{n \in \mathbb{N}}\, \text{is bounded}
-  \right}
+  \right\}
   \;\subset\;
   \mathbb{C}
   \,.
