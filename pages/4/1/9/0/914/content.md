@@ -35,7 +35,7 @@ And indeed, as opposed to sequences, nets do detect
 
 1. the continuity of functions between them (prop. \ref{ContinuousFunctionsDetectedByNets} below), 
 
-1. the [[Hausdorff topological space|Hausdorff]] property (prop. \ref{NetsDetectHausdorff} below);
+1. the [[Hausdorff topological space|Hausdorff]] property (prop. \ref{NetsDetectHausdorff} below),
 
 1. [[compact topological space|compactness]] (prop. \ref{CompactSpacesEquivalentlyHaveConvergetSubnets} below).
 
@@ -370,7 +370,7 @@ We discuss that nets detect:
 
 1. the continuity of functions between them (prop. \ref{ContinuousFunctionsDetectedByNets} below), 
 
-1. the [[Hausdorff topological space|Hausdorff]] property (prop. \ref{NetsDetectHausdorff} below);
+1. the [[Hausdorff topological space|Hausdorff]] property (prop. \ref{NetsDetectHausdorff} below),
 
 1. [[compact topological space|compactness]] (prop. \ref{CompactSpacesEquivalentlyHaveConvergetSubnets} below).
 
