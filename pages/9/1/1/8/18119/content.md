@@ -44,6 +44,9 @@ See the proofs there.
 
 ## Related entries
 
+
+* [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]]
+
 * [[Heine-Borel theorem]]
 
 * [[a CW-complex is a Hausdorff space]]
