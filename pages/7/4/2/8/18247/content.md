@@ -8,6 +8,12 @@
 
 ## References
 
+For category theoretic treatments of the self-similarity found in fractals in terms of [[terminal coalgebras]], see
+
+* [[Tom Leinster]], _A general theory of self-similarity_, ([arXiv:1010.4474](https://arxiv.org/abs/1010.4474))
+
+* Prasit Bhattacharya, Lawrence S. Moss, Jayampathy Ratnayake, and Robert Rose, _Fractal Sets as Final Coalgebras Obtained by Completing an Initial Algebra_, ([pdf](http://www3.nd.edu/~pbhattac/papers/Sierpinski.pdf))
+
 See also
 
 * Wikipedia, _[Fractal](https://en.wikipedia.org/wiki/Fractal)_
