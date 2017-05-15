@@ -32,7 +32,7 @@ There are various ways to state the monoidal structure. One is in terms of fibra
 
 *  [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
-Another is in terms of [[(∞,1)-operad]]s (see there). This approach has been taken in ([Fracis](#Francis)) 
+Another is in terms of [[(∞,1)-operad]]s (see there). This approach has been taken in ([Francis](#Francis)) 
 
 Both are described below.
 
@@ -205,7 +205,7 @@ One says that an $n$-category is _symmetric monoiodal_ if it is "as monoidal as 
 
 For each $1 \leq n \leq \infty$ let $E_n$ denote the [[little n-disk operad|little n-disk]] [[operad]] whose [[topological space]] of $E_n^k$ of $k$-ary operations is the space of embeddings of $k$ $n$-dimensional disks (balls) in one $n$-dimensional disk without intersection, and whose composition operation is the obvious one obtained from gluing the big outer disks into given inner disks.
 
-In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792)  the theory of [[(∞,1)-categories]] equipped with an action of the $E_n$-[[operad]] is established, so that
+In [John Francis' PhD thesis](#Francis)  the theory of [[(∞,1)-categories]] equipped with an action of the $E_n$-[[operad]] is established, so that
 
 * $(\infty,1)$-categories with an $E_1$-action are precisely [[monoidal (∞,1)-categories]]  -- 1-fold monoidal $(\infty,1)$-categories;
 
@@ -213,7 +213,7 @@ In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792)  the th
 
 * $(\infty,1)$-categories with an $E_n$-action for $1 \lt n \lt \infty$ are the corresponding $n$-tuply monoidal $(\infty,1)$-categories in between.
 
->**Remark** The second statement is example 2.3.8 in [EnAction](http://dspace.mit.edu/handle/1721.1/43792). The first seems to be clear but is maybe not in the literature. Jacob Lurie is currently rewriting [[higher algebra|Higher Algebra]] such as to build in a discussion of $E_n$-operadic structures in the definition of $k$-tuply monoidal $(\infty,1)$-categories.
+>**Remark** The second statement is example 2.3.8 in [EnAction](#Francis). The first seems to be clear but is maybe not in the literature. Jacob Lurie is currently rewriting [[higher algebra|Higher Algebra]] such as to build in a discussion of $E_n$-operadic structures in the definition of $k$-tuply monoidal $(\infty,1)$-categories.
 
 ## Related concepts
 
