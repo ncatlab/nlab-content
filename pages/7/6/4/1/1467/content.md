@@ -190,24 +190,36 @@ A [[de Morgan duality|dual]] condition is satisfied by an [[overt space]].
 
 ### Various
 
-+-- {: .num_prop}
++-- {: .num_prop #UnionsAndIntersectionOfCompactSubspaces}
 ###### Proposition
-**(finite unions of compact spaces are compact)**
+**(unions and intersection of compact spaces)**
 
-Let $(X,\tau)$ be a [[topological space]] and let $\{K_i \subset X\}_{i \in J}$ be a [[finite set]] of [[compact topological space|compact]] subspaces. Then their [[union]]
+Let $(X,\tau)$ be a [[topological space]] and let 
 
 $$
-  \underset{i \in J}{\cup} K_i \subset X
-$$
+  \{K_i \subset X\}_{i \in I}
+$$ 
 
-is still a compact subspace.
+be a [[set]] of [[compact topological space|compact]] [[subspaces]]. 
+
+1. If $I$ is a [[finite set]], then the [[union]] $\underset{i \in I}{\cup} K_i \subset X$ is itself a compact subspace;
+
+1. If all $K_i \subset X$ are also [[closed subsets]] then their [[intersection]] $\underset{i \in I}{\cap} K_i \subset X$ is itself a compact subspace. 
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-...
+Regarding the first statement:
+
+Let $\{U_j \subset X\}_{j \in J}$ be an [[open cover]] of the union. Then this is also an open cover of each of the $K_i$, hence by their compactness there are finite subsets $J_i \subset J$ such that $\{U_{j_i} \subset X\}_{j_i \in J_i}$ is a finite cover of $K_i$. Accordingly then $\underset{i \in I}{\cup} \{ U_{j_i} \subset X \}_{j_i \in J_i}$ is a finite open cover of the union.
+
+Regarding the second statement:
+
+By the axioms on a [[topological space|topology]], the intersection of an arbitrary set of [[closed subsets]] is again closed. Hence the intersection of the closed compact subspaces is closed. But since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] then for each $i \in I$ the intersection is a closed subspace of the compact space $K_i$. Since [[closed subspaces of compact spaces are compact]] it follows that the intersection is actually compact, too.
+
+
 
 =--
 
@@ -415,6 +427,12 @@ The [[open intervals]] $(a,b) \subset \mathbb{R}$ and the [[half-open intervals]
 
 =--
 
++-- {: .num_example }
+###### Example
+
+The [[Mandelbrot set]], regarded as a [[subspace]] of the [[plane]], is a compact space (see [this prop.](Mandelbrot set#MndlbrtIsCompact))
+
+=--
 
 
 
