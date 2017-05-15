@@ -91,7 +91,7 @@ Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\s
 
 In particular every [[compact Hausdorff space]] itself is [[locally compact topological space|locally compact]].
 
-Conversely, every locally compact Haudorff space $X$ arises in this way, since it can be considered an open subspace in its [[one-point compactification]] $X \sqcup \{\infty\}$ (where the open neighborhoods of the adjoined point $\infty$ are precisely those of the form $K^c \sqcup \{\infty\}$, where $K^c$ is the complement of a compact subset $K \subseteq X$). 
+Conversely, every locally compact Haudorff space $X$ arises in this way, since it can be considered an open subspace in its [[one-point compactification]] $X \sqcup \{\infty\}$. See there _[this example](one-point+compactification#LocallyCompatcHausdorffSpaceIsOpenSubspaceOfCompactHausdorffSpace)_.
 
 =--
 
