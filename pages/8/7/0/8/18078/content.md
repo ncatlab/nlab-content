@@ -1,4 +1,10 @@
 
-[[MandelbrotSet.png:file]]
+Hey ho
 
-<img src="https://ncatlab.org/nlab/files/MandelbrotSet.png" width="400" >
+$$
+  \array{
+    x & y
+    \\
+    z & n
+  }
+$$
