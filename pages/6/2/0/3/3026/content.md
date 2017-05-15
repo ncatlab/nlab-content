@@ -38,7 +38,7 @@ Let $X$ be any [[topological space]]. Its **one-point extension** $X^*$ is the t
 
   2. the [[complements]] (in $X^*$) of the [[closed subspace|closed]] [[compact space|compact]] subsets of $X$.
 
-(If $X$ is [[Hausdorff space|Hausdorff]], then its compact subsets must always be closed, so (2) is often given in a simpler form.)
+(If $X$ is [[Hausdorff space|Hausdorff]], then it is suficient to speak of compact subsets, since [[compact subspaces of Hausdorff spaces are closed]].)
 
 ### For non-commutative topological spaces ($C^\ast$-algebras)
 
@@ -49,9 +49,9 @@ Dually in [[non-commutative topology]] the one-point compactification correspond
 
 ### General
 
-$X^*$ is [[compact space|compact]].
+$X^*$ is a [[compact topological space]].
 
-The evident inclusion $X \to X^*$ is an [[open map|open]] [[embedding]].
+The evident inclusion $X \to X^*$ is an [[open map|open]] [[embedding of topological spaces]].
 
 The one-point compactification is [[universal property|universal]] among all compact spaces into which $X$ has an open embedding, so it is [[essentially unique]].
 
