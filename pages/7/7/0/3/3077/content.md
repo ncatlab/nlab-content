@@ -42,7 +42,7 @@ Let $L$ denote the long line, and $R$ the long ray.
 
 3. Every continuous map $L \to L$ has a [[fixed point]]. 
 
-4. $R$ is [[sequentially compact space|sequentially compact]] but not [[compact space|compact]]. 
+4. $R$ and $L$ are [[sequentially compact space|sequentially compact]] but not [[compact space|compact]]. Thus, the image $f(L)$ under a continuous map $f: L \to \mathbb{R}$, being sequentially compact, is a compact subspace of $\mathbb{R}$. 
 
 5. The long line is not [[contractible space|contractible]]. Proof sketch: Suppose $H \colon I \times L \to L$ is a homotopy such that $H(0, -)$ is constant and $H(1, -)$ is the identity. For each $t \in [0, 1]$ the image $\im H(t, -)$ is an interval (either bounded or unbounded), since $L$ is [[connected space|connected]]. One may show the set 
 $$\{t \in I: \im H(t, -)\;  \text{is bounded}\}$$ 
