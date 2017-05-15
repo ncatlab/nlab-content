@@ -226,6 +226,8 @@ The [[Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets 
 
 * [[nilpotent topological space]]
 
+* [[fractal]]
+
 ## References
 
 See at _[[topology]]_.
