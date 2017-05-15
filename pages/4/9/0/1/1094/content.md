@@ -387,6 +387,11 @@ Extension of sheafification of presheaves with values in other categories has be
 
 * [[Alexander Rosenberg]], _Almost quotient categories, sheaves and localizations_ , 181 p. Seminar on supermanifolds 25, University of Stockholm, D. Leites editor, 1988 (in Russian; partial remake in English exists)
 
+Discussion in [[homotopy type theory]] is in
+
+* {#QuirinTabareau16} Kevin Quirin, Nicolas Tabareau, _Lawvere-Tierney sheafification in Homotopy Type Theory_, Journal of Formalized Reasoning, Vol 9, No 2, (2016) ([web](https://jfr.unibo.it/article/view/6232))
+
+
 category: sheaf theory
 [[!redirects sheafification functor]]
 [[!redirects associated sheaf]]
