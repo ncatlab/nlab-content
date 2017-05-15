@@ -109,7 +109,7 @@ extra "[[separation axioms]]" are imposed on topological spaces (see [below](#Se
 depends on this choice.
 
 Among the separation axioms, the _[[Hausdorff topological space|Hausdorff space]]_ axiom is the most popular
-(see [below](#TnTopologicalSpaces)). But the weaker axiom of [[sober topological space|sobriety]] (see [below](#SoberSpaces)) 
+(see [below](#TnTopologicalSpaces)). But the weaker axiom of [[sober topological space|sobriety]] (see [below](#SoberSpaces))
 stands out, because on the one
 hand it is the weakest axiom that is still naturally satisfied in applications to [[algebraic geometry]] ([[schemes are sober]])
 and [[computer science]] ([Vickers 89](#Vickers89)), and on the other, it fully realizes the strong roots that
@@ -1382,7 +1382,7 @@ given by the Cartesian products $U_1 \times U_2$ of the opens $U_i \in \tau_i$.
 
 > graphics grabbed from [Munkres 75](#Munkres75)
 
-Beware that for non-[[finite set|finite]] products, the descriptions of the product topology is not as simple.
+Beware for non-[[finite set|finite]] products, the descriptions of the product topology is not as simple.
 This we turn to below in example \ref{InfiniteProductTopologicalSpace}, after introducing the general concept
 of [[limits]] in the [[category of topological spaces]].
 
@@ -2775,7 +2775,7 @@ which evidently makes the inclusion $f(X) \longrightarrow Y$ a [[continuous func
 
 $\,$
 
-Beware that in general a continuous function itself (as opposed to its [[pre-image]] function) neither
+Beware, in general a continuous function itself (as opposed to its [[pre-image]] function) neither
 preserves [[open subsets]], nor [[closed subsets]], as the following examples show:
 
 +-- {: .num_example}
@@ -4564,7 +4564,7 @@ be two [[disjoint subset|disjoint]] [[closed subsets]] of $X$. Then there exists
 +-- {: .num_remark}
 ###### Remark
 
-Beware that the Urysohn function in prop. \ref{UrysohnLemma} may take the values 0 or 1 even outside of the two subsets. The condition that the function takes value 0 or 1, respectively, _precisely_ on the two subsets corresponds to "[[perfectly normal spaces]]".
+Beware, the Urysohn function in prop. \ref{UrysohnLemma} may take the values 0 or 1 even outside of the two subsets. The condition that the function takes value 0 or 1, respectively, _precisely_ on the two subsets corresponds to "[[perfectly normal spaces]]".
 
 =--
 
@@ -6983,7 +6983,7 @@ Let $\{(X_i, \tau_i)\}_{i \in I}$ be a [[set]] of [[topological spaces]], and le
   Hence a subset $U \subset S$ is open in the final topology precisely if
   for all $i \in I$ then the [[pre-image]] $q_i^{-1}(U) \subset X_i$ is open.
 
-Beware that there is a variation of synonyms for in use:
+Beware a variation of synonyms that is in use:
 
 | $\,$ [[limit]]  [[topological space|topology]] $\,$ | $\,$ [[colimit]] [[topological space|topology]] $\,$ |
 |-------------------------------|------------------------------|
@@ -7972,7 +7972,7 @@ A [[topological space]] $X$ (def. \ref{TopologicalSpace}) is called a
 ###### Remark
 **(terminology issue regarding "compact")**
 
-Beware that the following terminology issue persists in the literature:
+Beware the following terminology issue which persists in the literature:
 
 Some authors use "compact" to mean "[[compact Hausdorff space|Hausdorff and compact]]". To disambiguate this,
 some authors (mostly in [[algebraic geometry]], but also for instance [Waldhausen](#Waldhausen)) say "quasi-compact" for what we call
@@ -8078,12 +8078,11 @@ $\underset{i \in J \subset I}{\cap} C_i = \emptyset$. This would mean that $\{C_
 
 But by assumption this would imply that $\underset{i \in I}{\cap} C_i \neq \emptyset$, which, again by de Morgan, would mean that $\underset{i \in I}{\cup} U_i \neq X$. But this contradicts the assumption that the $\{U_i \subset X\}_{i \in I}$ are a cover. Hence we have a [[proof by contradiction]].
 
-
 =--
 
 +-- {: .num_example }
 ###### Example
-**(finite discrete spaces are compact)**
+**([[finite topological space|finite]] [[discrete spaces]] are [[compact topological space|compact]])**
 
 A [[discrete topological space]] (def. \ref{CoDiscreteTopology}) is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
 precisely if its underlying set is a [[finite set]].
@@ -8092,7 +8091,7 @@ precisely if its underlying set is a [[finite set]].
 
 +-- {: .num_example #CompactClosedInterval}
 ###### Example
-**(closed intervals are compact)**
+**([[closed intervals]] are [[compact topological space|compact]])**
 
 For any $a \lt b \in \mathbb{R}$ the [[closed interval]] (example \ref{OpenAndClosedIntervals})
 
@@ -8131,11 +8130,7 @@ This means that the set of admissible $x$ forms either
 for some $g \in [0,1]$. We need to show that the latter is true, and for $g = 1$.
 We do so by observing that the alternatives lead to contradictions:
 
-1. Assume that the set of admissible values were an open interval $[0,g)$. By assumption there would be
-   a finite subset $J \subset I$ such that $\{U_i \subset [0,1] \}_{i \in J \subset I}$ were a finite
-   open cover of $[0,g)$. Accordingly, since there is some $i_g \in I$ such that $g \in U_{i_g}$, the union
-   $\{U_i\}_{i \in J } \sqcup \{U_{i_g}\}$ were a finite cover of the closed interval $[0,g]$,
-   contradicting the assumption that $g$ itself is not admissible (since it is not contained in $[0,g)$).
+1. Assume that the set of admissible values were an open interval $[0,g)$. Pick an $i_0 \in I$ such that $g \in U_{i_0}$ (this exists because of the covering property). Since such $U_{i_0}$ is an open neighbourhood of $g$, there is a positive real number $\epsilon$ such that the open ball $B^\circ_g(\epsilon) \subset U_{i_0}$ is still contained in the patch. It follows that there is an element $x \in B^\circ_g(\epsilon) \cap [0,g) \subset U_{i_0} \cap [0,g)$ and such that there is a finite subset $J \subset I$ with $\{U_i \subset [0,1]\}_{i \in J \subset I}$ a finite open cover of $[0,x)$. It follows that $\{U_i \subset [0,1]\}_{i \in J \subset I} \sqcup \{U_{i_0}\}$ were a finite open cover of $[0,g]$, hence that $g$ itself were still admissible, in contradiction to the assumption.
 
 1. Assume that the set of admissible values were a closed interval $[0,g]$ for $g \lt 1$.
    By assumption there would then be a finite set $J \subset I$ such that $\{U_i \subset [0,1]\}_{i \in J \subset I}$
@@ -8148,9 +8143,44 @@ This gives a [[proof by contradiction]].
 
 =--
 
+In contrast:
+
++-- {: .num_example #NonCompactEuclideanSpace}
+###### Nonexample
+**([[Euclidean space]] is non-compact)**
+
+For all $n \in \mathbb{N}$, $n \gt 0$, the [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}), regarded with its [[metric topology]] (example \ref{MetricTopology}), is _not_ a [[compact topological space]] (def. \ref{CompactTopologicalSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Pick any $\epsilon \in (0,1/2)$. Consider the open cover of $\mathbb{R}^n$ given by
+
+$$
+  \left\{
+      U_n \coloneqq
+     (n-\epsilon, n+1+\epsilon)
+     \times
+     \mathbb{R}^{n-1}
+     \;\subset\;
+     \mathbb{R}^{n+1}
+  \right\}_{n \in \mathbb{Z}}
+  \,.
+$$
+
+This is not a finite cover, and removing any one of its patches $U_n$, it ceases to be a cover, since the points of the form $(n + \epsilon, x_2, x_3, \cdots, x_n)$ are contained only in $U_n$ and in no other patch.
+
+=--
+
+Below we prove the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}) which generalizes example \ref{CompactClosedInterval}
+and example \ref{NonCompactEuclideanSpace}.
+
 In [[analysis]], the [[extreme value theorem]] asserts that a [[real number|real]]-valued [[continuous function]]
 on the [[bounded subset|bounded]] [[closed interval]] (def. \ref{OpenAndClosedIntervals}) attains its
-[[maximum]] and [[minimum]]. The following is the generalization of this statement to general topological spaces:
+[[maximum]] and [[minimum]]. The following is the generalization of this statement to general topological spaces,
+cast in terms of the more abstract concept of compactness from def. \ref{CompactTopologicalSpace}:
 
 +-- {: .num_lemma #ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain}
 ###### Lemma
@@ -8189,9 +8219,10 @@ which means that also $\{U_i \subset Y\}_{i \in J \subset I}$ is still an open c
 
 =--
 
+As a direct corollary of lemma \ref{ContinuousSurjectionOutOfCompactSpaceHasCompactCodomain} we obtain:
 
-+-- {: .num_cor #ContinuousImageOfACompactSpaceIsCompact}
-###### Corollary
++-- {: .num_prop #ContinuousImageOfACompactSpaceIsCompact}
+###### Proposition
 **([[continuous images of compact spaces are compact]])**
 
 If $f \colon X \longrightarrow Y$ is a [[continuous function]] out of a [[compact topological space]] $X$ (def. \ref{CompactTopologicalSpace})
@@ -8218,7 +8249,6 @@ is called _[[proper map|proper]]_ if for $C \in Y$ a [[compact topological space
 of $Y$, then also its [[pre-image]] $f^{-1}(C)$ is [[compact topological space|compact]] in $X$.
 
 =--
-
 
 
 There is also the following more subtle equivalent reformulation of compactness:
@@ -8695,7 +8725,7 @@ Therefore $\{U_{i_s} \to X\}_{s \in S}$ is a finite sub-cover as required.
 ###### Remark
 **(neither compactness nor sequential compactness implies the other)**
 
-Beware that, in contrast to prop. \ref{SequentiallyCompactMetricSpacesAreEquivCompact}, for
+Beware, in contrast to prop. \ref{SequentiallyCompactMetricSpacesAreEquivCompact}, 
 general topological spaces being [[sequentially compact space|sequentially compact]] neither implies nor is implied by being
 [[compact topological space|compact]].
 
@@ -8754,6 +8784,24 @@ below, without_ requiring the Hausdorff property.
 
 =--
 
++-- {: .num_example #DiscreteSpacesAreLocallyCompact}
+###### Example
+**([[discrete spaces]] are [[locally compact topological space|locally compact]])**
+
+Every [[discrete topological space]] (example \ref{CoDiscreteTopology}) is [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}).
+
+=--
+
++-- {: .num_example #MetricSpacesAreLocallyCompact}
+###### Example
+**([[metric spaces]] are [[locally compact topological space|locally compact]])**
+
+Every [[metric space]] (def. \ref{MetricSpace}), regarded as a [[topological space]] via its 
+[[metric topology]] (def. \ref{MetricTopology}), are [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}).
+
+=--
+
+
 +-- {: .num_example #OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}
 ###### Example
 **([[open subspaces of compact Hausdorff spaces are locally compact]])**
@@ -8768,7 +8816,66 @@ In particular [[compact Hausdorff spaces]] themselves are [[locally compact topo
 
 We **prove** this below as prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreNormalProp}, after having established a list of convenient general facts about compact Hausdorff spaces.
 
++-- {: .num_example }
+###### Example
+**(finite [[product space]] of [[locally compact topological space|locally compact spaces]] is locally compact)**
 
+The [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) $\underset{i \in J}{\prod} (X_i, \tau_i)$ of a
+a _[[finite set]]_ $\{ (X_i, \tau_i) \}_{i \in I}$ of [[locally compact topological spaces]] $(X_i, \tau_i)$ (def. \ref{LocallyCompactSpace})
+it itself locally compact.
+
+=--
+
++-- {: .num_example #CountablyInfiniteProductsOfNonCompactSpacesAreNotLocallyCompact}
+###### Nonexample
+**(countably infinite products of non-compact spaces are not locally compact)**
+
+Let $X$ be a [[topological space]] which is _not_ [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}). 
+Then the [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) of 
+a [[countable set|countably infinite set]] of copies of $X$
+
+$$
+  \underset{n \in \mathbb{N}}{\prod} X
+$$
+
+is _not_ a [[locally compact space]] (def. \ref{LocallyCompactSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since the [[continuous image of a compact space is compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}), 
+and since the [[projection]] maps $p_i \;\colon\; \underset{\mathbb{N}}{\prod} X \longrightarrow X$ are continuous
+(by nature of the [[initial topology]]/[[Tychonoff topology]]), it follows that every compact subspace of the product space is contained in one of the form
+
+$$
+  \underset{i \in \mathbb{N}}{\prod} K_i
+$$
+
+for $K_i \subset X$ compact.
+
+But by the nature of the [[Tychonoff topology]], a [[base for a topology|base for the topology]] on $\underset{\mathbb{N}}{\prod} X$ is given by subsets of the form
+
+$$
+  \left(
+    \underset{i \in \{1,\cdots,n\}}{\prod}
+    U_{i}
+  \right)
+  \times
+  \left(
+    \underset{j \in \mathbb{N}_{\gt n}}{\prod}
+    X
+  \right)
+$$
+
+with $U_i \subset X$ open. Hence every compact neighbourhood in $\underset{\mathbb{N}}{\prod} X$ contains a subset of this kind, but if $X$ itself is non-compact, then none of these is contained in a product of compact subsets.
+
+=--
+
+A key application of locally compact spaces is that the [[compact-open topology|space of maps]]
+out of them into any given topological space (example \ref{CompactOpenTopology} below) 
+satisfies the expected [[universal property]] of a [[mapping space]] (prop. \ref{UniversalPropertyOfMappingSpace} below).
 
 +-- {: .num_example #CompactOpenTopology}
 ###### Example
@@ -8899,8 +9006,6 @@ Then
      }
      \,.
    $$
-
-
 
 Here $Maps((X,\tau_X), (Y,\tau_Y))$ is the [[mapping space]] with [[compact-open topology]] from example \ref{CompactOpenTopology}
 and $(-)\times (-)$ denotes forming the [[product topological space]] (example \ref{BinaryProductTopologicalSpace}, example \ref{InfiniteProductTopologicalSpace}).
@@ -9880,7 +9985,7 @@ is an open cover. After $n$ such steps we are left with an open cover $\{V_i \su
 +-- {: .num_remark}
 ###### Remark
 
-Beware that the [[induction]] in lemma \ref{ShrinkinglemmaForFiniteCovers} does _not_ give the statement for infinite [[countable covers]]. The issue is that it is not guaranteed that $\underset{i \in \mathbb{N}}{\cup} V_i$ is a cover.
+Beware the [[induction]] in lemma \ref{ShrinkinglemmaForFiniteCovers} does _not_ give the statement for infinite [[countable covers]]. The issue is that it is not guaranteed that $\underset{i \in \mathbb{N}}{\cup} V_i$ is a cover.
 
 And in fact, assuming the [[axiom of choice]], then there exists a  counter-example of a countable cover on a normal spaces for which the shrinking lemma fails (a [[Dowker space]] due to [Beslagic 85](#Beslagic85)).
 
