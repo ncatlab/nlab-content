@@ -364,6 +364,16 @@ Given a [[set]] $X$ and a [[filter]] of subsets $\mathcal{F} \subset P(X)$ (def.
 ### Relation to topology
  {#RelationToTopology}
 
+We discuss that nets detect:
+
+1. the topology on general topological spaces (prop. \ref{TopologyDetectedByNets} below), 
+
+1. the continuity of functions between them (prop. \ref{ContinuousFunctionsDetectedByNets} below), 
+
+1. the [[Hausdorff topological space|Hausdorff]] property (prop. \ref{NetsDetectHausdorff} below);
+
+1. [[compact topological space|compactness]] (prop. \ref{CompactSpacesEquivalentlyHaveConvergetSubnets} below).
+
 
 
 +-- {: .num_prop #TopologyDetectedByNets}
@@ -566,7 +576,7 @@ $$
   B \subset A_{\leq} \times Nbhd_X(x)_{\supset}
 $$
 
-on those pairs such that the element of the net indexed by the first component is is contained in the second component:
+on those pairs such that the element of the net indexed by the first component is contained in the second component:
 
 $$
   B 
