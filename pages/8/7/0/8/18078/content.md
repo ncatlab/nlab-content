@@ -1,10 +1,4 @@
 
-[[PlanckData.jpg:file]]
+[[MandelbrotSet.png:file]]
 
-&lt;img src="https://ncatlab.org/nlab/files/PlanckData.jpg" width="800>
-
-
-[[InflationPlanck2015.jpg:file]]
-
-
-&lt;img src="https://ncatlab.org/nlab/files/InflationPlanck2015.jpg" width="800>
+<img src="https://ncatlab.org/nlab/files/MandelbrotSet.png" width="400" >
