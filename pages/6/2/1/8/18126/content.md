@@ -8299,7 +8299,12 @@ Then also $(Y,\tau_Y)$ is [[compact topological space|compact]].
 Let $\{U_i \subset Y\}_{i \in I}$ be an [[open cover]] of $Y$ (def. \ref{OpenCover}). We need show that this has a finite sub-cover.
 
 By continuity of $f$, the [[pre-images]] $f^{-1}(U_i)$ are [[open subsets]] of $X$, and by the surjectivity of $f$ they form an [[open cover]] $\{f^{-1}(U_i) \subset X\}_{i \in I}$ of $X$. Hence by compactness of $X$, there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
-$\{f^{-1}(U_i) \subset X\}_{i \in J \subset I}$ is still an open cover of $X$. Finally, using again that $f$ is assumed to be surjective, it follows that
+
+$$
+  \{f^{-1}(U_i) \subset X\}_{i \in J \subset I}
+$$
+
+is still an open cover of $X$. Finally, using again that $f$ is assumed to be surjective, it follows that
 
 $$
   \begin{aligned}
@@ -8309,10 +8314,11 @@ $$
       & = f\left( \underset{i \in J}{\cup} f^{-1}(U_i) \right)
     \\
       & = \underset{i \in J}{\cup} U_i
+      \,.
   \end{aligned}
 $$
 
-which means that also $\{U_i \subset Y\}_{i \in J \subset I}$ is still an open cover of $Y$, and in particular a finite subcover of the original cover.
+This means that also $\{U_i \subset Y\}_{i \in J \subset I}$ is still an open cover of $Y$, and in particular a finite subcover of the original cover.
 
 =--
 
@@ -8365,7 +8371,7 @@ be a [[continuous function]] to the [[real numbers]] equipped with their [[Eucli
 Then $f$ attains is [[maximum]] and its [[minimum]] in that there exist $x_{min}, x_{max} \in C$ such that
 
 $$
-  f([a,b]) = [f(x_{min}), f(x_{max})]
+  f(x_{min}) \leq f(x) \leq f(x_{max})
   \,.
 $$
 
@@ -8402,7 +8408,7 @@ Then $f$ attains its [[maximum]] and [[minimum]]: there exists $x_{max}, x_{min}
 for all $x \in [a,b]$ we have
 
 $$
-  f(x_{min}) \leq f(x) \leq f(x_{max})
+  f([a,b]) = [f(x_{min}), f(x_{max})]
   \,.
 $$
 
@@ -8413,7 +8419,7 @@ $$
 
 Since [[continuous images of compact spaces are compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact})
 the image $f([a,b]) \subset \mathbb{R}$ is a [[compact topological space|compact]] [[subspace]] (def. \ref{CompactTopologicalSpace}, example \ref{SubspaceTopology}).
-By the [[Heine-Borel theorem]] this is a [[bounded set|bounded]] [[closed subset]] (def. \ref{MetricSpaceBoundedSubset}, def. \ref{ClosedSubset}). By the nature of the [[Euclidean space|Euclidean]] [[metric topology]], the image is hence a union of [[closed intervals]]. Finally by continuity of $f$ it needs to be a single closed interval, hence
+By the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}) this is a [[bounded set|bounded]] [[closed subset]] (def. \ref{MetricSpaceBoundedSubset}, def. \ref{ClosedSubset}). By the nature of the [[Euclidean space|Euclidean]] [[metric topology]], the image is hence a union of [[closed intervals]]. Finally by continuity of $f$ it needs to be a single closed interval, hence
 (being bounded) of the form
 
 $$
@@ -8436,7 +8442,7 @@ $$
 
 
 
-There is also the following more subtle equivalent reformulation of compactness:
+There is also the following more powerful equivalent reformulation of compactness:
 
 +-- {: .num_prop #ClosedProjectionCharacterizationOfCompactness}
 ###### Proposition
@@ -8522,29 +8528,26 @@ $$
   \end{aligned}
 $$
 
-Conversely, assume that $\pi_Y \colon Y \times X \to X$ is a closed map for all $Y$. We need to show
+Now for the converse:
+
+Assume that $\pi_Y \colon Y \times X \to X$ is a closed map for all $Y$. We need to show
 that $X$ is compact. By prop. \ref{ClosedSubsetFormulationOfCompactness} this means equivalently that
 for every set $\{C_i \subset X\}_{i \in I}$ of closed subsets and satisfying the [[finite intersection property]],
-then $\underset{i \in I}{\cap} C_i \neq \emptyset$.
+we need to show that $\underset{i \in I}{\cap} C_i \neq \emptyset$.
 
 
-Given such a set $\{C_i \subset X\}_{i \in I}$ of closed subsets satisfying the [[finite intersection property]],
-construct a new topological space $(Y, \tau_Y)$ by
+So consider such a set $\{C_i \subset X\}_{i \in I}$ of closed subsets satisfying the [[finite intersection property]].
+Construct a new topological space $(Y, \tau_Y)$ by setting
 
 1. $Y \coloneqq X \sqcup \{\infty\}$;
 
 1. $\beta_Y \coloneqq P(X) \sqcup \left\{ (C_i \cup \{\infty\}) \subset Y  \right\}_{i \in I}$ a [[sub-base for a topology|sub-base]] for $\tau_Y$ (def. \ref{TopologyBase}).
 
-Then consider the topological closure of the "diagonal" $\Delta$ in $Y \times X$
+Then consider the [[topological closure]] $Cl(\Delta)$ of the "diagonal" $\Delta$ in $Y \times X$
 
 $$
-  K
-    \coloneqq
-  Cl\left(
-    \Delta
-  \right)
-  \phantom{AA}\text{with} \phantom{AA}
-   \Delta \coloneqq
+   \Delta 
+     \coloneqq
    \left\{
       (x,x) \in Y \times X \,\vert\, x \in X
    \right\}
@@ -8555,29 +8558,31 @@ $$
 We claim that there exists $x \in X$ such that
 
 $$
-  (\infty,x) \in K
+  (\infty,x) \in Cl(\Delta)
   \,.
 $$
 
 This is because
 
 $$
-  \pi_Y(K) \subset Y \,\,\text{is closed}
+  \pi_Y(Cl(\Delta)) \subset Y \,\,\text{is closed}
 $$
 
-by assumption and
+by the assumption that $\pi_Y$ is a closed map, and
 
 $$
-  X \subset \pi_Y(K)
+  X \subset \pi_Y(Cl(\Delta))
 $$
 
-by construction. So if $\infty$ were not in $\pi_Y(K)$, then, by lemma \ref{UnionOfOpensGivesClosure},
+by construction. So if $\infty$ were not in $\pi_Y(Cl(\Delta))$, then, by lemma \ref{UnionOfOpensGivesClosure},
 it would have an open neighbourhood not intersecting $X$. But by definition of $\tau_Y$, the open neighbourhoods
-of $\infty$ are the finite intersections of $C_i \cup \{\infty\}$, and by the assumed [[finite intersection property]]
+of $\infty$ are the unions of finite intersections of $C_i \cup \{\infty\}$, and by the assumed [[finite intersection property]]
 all their finite intersections do still intersect $X$.
 
-Since thus $(\infty,x) \in K$, lemma \ref{UnionOfOpensGivesClosure} gives again that
-all of its open neighbourhoods intersect the diagonal, hence that for all $i \in I$ and $U_x \supset \{x\}$ open then
+Since thus $(\infty,x) \in Cl(\Delta)$, lemma \ref{UnionOfOpensGivesClosure} gives again that
+all of its open neighbourhoods intersect the diagonal. 
+By the nature of the [[product topology]] (example \ref{BinaryProductTopologicalSpace}) 
+this means that for all $i \in I$ and all open neighbourhoods $U_x \supset \{x\}$  we have that
 
 $$
   \left(
@@ -8590,7 +8595,7 @@ $$
   \,.
 $$
 
-This means equivalently that
+By definition of $\Delta$ this means equivalently that
 
 $$
   C_i \cap U_x \neq \emptyset
@@ -8633,7 +8638,7 @@ Let
 
 1. $(X,\tau_X)$ be a [[topological space]],
 
-1. $(Y,\tau_Y)$ a [[compact topological space]],
+1. $(Y,\tau_Y)$ a [[compact topological space]] (def. \ref{CompactTopologicalSpace}),
 
 1. $x \in X$ a point,
 
@@ -9447,13 +9452,13 @@ Let
 1. $(X,\tau)$ be a [[compact topological space|compact]] [[Hausdorff topological space]]
 (def. \ref{HausdorffTopologicalSpace}, def. \ref{CompactTopologicalSpace})
 
-1. $Y \subset X$ be a [[topological subspace]].
+1. $Y \subset X$ be a [[topological subspace]] (example \ref{SubspaceTopology}).
 
 Then the following are equivalent:
 
 1. $Y \subset X$ is a [[closed subspace]] (def. \ref{ClosedSubset});
 
-1. $Y$ is a [[compact topological space]].
+1. $Y$ is a [[compact topological space]] (def. \ref{CompactTopologicalSpace}).
 
 =--
 
@@ -9474,7 +9479,7 @@ Let
 
 1. $(X,\tau)$ be a [[compact topological space]] (def. \ref{CompactTopologicalSpace}),
 
-1. Y \subset X$ be a [[closed subspace|closed]] [[topological subspace]].
+1. $Y \subset X$ be a [[closed subspace|closed]] [[topological subspace]] (def. \ref{ClosedSubset}, example \ref{SubspaceTopology}).
 
 Then also $Y$ is [[compact topological space|compact]].
 
@@ -9522,9 +9527,9 @@ is a cover of $Y$, and in indeed a finite subcover of the original one.
 
 Let
 
-1. $(X,\tau)$ be a [[Hausdorff topological space]];
+1. $(X,\tau)$ be a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace});
 
-1. $Y \subset X$ a [[compact topological space|compact]] [[subspace]].
+1. $Y \subset X$ a [[compact topological space|compact]] [[subspace]] (def. \ref{CompactTopologicalSpace}, example \ref{SubspaceTopology}).
 
 
 Then for every $x \in X \backslash Y$ there exists
@@ -9633,18 +9638,18 @@ By example \ref{ClosedIntervalsProduct}, this  topological subspace is homeomorp
 $$
   [-\epsilon, \epsilon]^n
   =
-  \underset{i \in \{1, \cdots, n\}{\prod} [-\epsilon, \epsilon]
+  \underset{i \in \{1, \cdots, n\}}{\prod} [-\epsilon, \epsilon]
   \,,
 $$
 
-hence to the [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) of $n$ copies of 
+hence to the [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) of $n$ copies of
 the closed interval with itself.
 
 Since the closed interval $[-\epsilon, \epsilon]$
 is compact by example \ref{CompactClosedInterval}, the binary [[Tychonoff theorem]] (prop. \ref{TychonoffTheorem})
-implies that this $n$-cube is compact. 
+implies that this $n$-cube is compact.
 
-Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] lemma \ref{SubsetsInClosedSubspace},
+Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]], lemma \ref{SubsetsInClosedSubspace},
 the closed subset $S \subset \mathbb{R}^n$ is also closed as a subset $S \subset [-\epsilon, \epsilon]^n$.
 Since [[closed subspaces of compact spaces are compact]]
 (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}) this implies that $S$ is compact.
@@ -9706,15 +9711,15 @@ $\,$
 
 Let $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ be a [[continuous function]] between [[topological spaces]] such that
 
-1. $(X,\tau_X)$ is a [[compact topological space]];
+1. $(X,\tau_X)$ is a [[compact topological space]] (def. \ref{CompactTopologicalSpace});
 
-1. $(Y,\tau_Y)$ is a [[Hausdorff topological space]].
+1. $(Y,\tau_Y)$ is a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}).
 
 Then $f$ is
 
 1. a [[closed map]] (def. \ref{OpenMap});
 
-1. a [[proper map]] (def. \ref{ProperContinuous}))
+1. a [[proper map]] (def. \ref{ProperContinuous}).
 
 =--
 
@@ -9743,6 +9748,7 @@ Now
 
 =--
 
+As an immdiate corollary we record this useful statement:
 
 +-- {: .num_prop #ContinuousBijectionsFromCompactSpacesToHausdorffSpacesAreHomeomorphisms}
 ###### Proposition ######
@@ -9750,13 +9756,13 @@ Now
 
 Let $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ be a [[continuous function]] between [[topological spaces]] such that
 
-1. $(X,\tau_X)$ is a [[compact topological space]];
+1. $(X,\tau_X)$ is a [[compact topological space]] (def. \ref{CompactTopologicalSpace});
 
-1. $(Y,\tau_Y)$ is a [[Hausdorff topological space]].
+1. $(Y,\tau_Y)$ is a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}).
 
 1. $f \;\colon\; X \longrightarrow Y$ is a [[bijection]] of [[sets]].
 
-Then $f$ is a [[homeomorphism]], i. e. its [[inverse function]] $Y \to X$ is also a [[continuous function]].
+Then $f$ is a [[homeomorphism]] (def. \ref{Homeomorphism})
 
 In particular then both $(X,\tau_X)$ and $(Y, \tau_Y)$ are [[compact Hausdorff spaces]].
 
@@ -9765,12 +9771,8 @@ In particular then both $(X,\tau_X)$ and $(Y, \tau_Y)$ are [[compact Hausdorff s
 +-- {: .proof}
 ###### Proof
 
-Write $g \colon Y \to X$ for the [[inverse function]] of $f$.
-
-We need to show that $g$ is continuous, hence that for $U \subset X$ an [[open subset]], then also its [[pre-image]] $g^{-1}(U) \subset Y$ is open in $Y$.
-By prop. \ref{ClosedSubsetContinuity} this is equivalent to the statement that for $C \subset X$ a [[closed subset]] then the [[pre-image]] $g^{-1}(C) \subset Y$ is also closed in $Y$.
-
-But since $g$ is the [[inverse function]] to $f$, its [[pre-images]] are the [[images]] of $f$. Hence the last statement above equivalently says that $f$ sends closed subsets to closed subsets. This is true by prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}.
+By prop. \ref{HomeoContinuousOpenBijection} it is sufficient to show that $f$ is a [[closed map]].
+This is the case by prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}.
 
 =--
 
@@ -9779,14 +9781,14 @@ But since $g$ is the [[inverse function]] to $f$, its [[pre-images]] are the [[i
 ###### Proposition
 **([[compact Hausdorff spaces are normal]])**
 
-Every [[compact Hausdorff topological space]] is a [[normal topological space]] (def. \ref{NormalSpace}).
+Every [[compact Hausdorff topological space]] (def. \ref{CompactTopologicalSpace}, def. \ref{HausdorffTopologicalSpace}) is a [[normal topological space]] (def. \ref{NormalSpace}).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-First we claim that $(X,\tau)$ is [[regular topological space|regular]]. To show this, we need to find for each point $x \in X$ and each disjoint closed subset $Y \in X$ dijoint open neighbourhoods $U_x \supset \{x\}$ and $U_Y \supset Y$. But since [[closed subspaces of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), the subset $Y$ is in fact compact, and hence this is the statement of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}.
+First we claim that $(X,\tau)$ is [[regular topological space|regular]]. To show this, we need to find for each point $x \in X$ and each disjoint closed subset $Y \in X$ disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_Y \supset Y$. But since [[closed subspaces of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), the subset $Y$ is in fact compact, and hence this is the statement of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}.
 
 Next to show that $(X,\tau)$ is indeed normal, we apply the idea of the proof of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces} once more:
 
@@ -9813,9 +9815,9 @@ is immediate:
 ###### Proposition
 **([[open subspaces of compact Hausdorff spaces are locally compact]])**
 
-Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\subset} K$
+Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\subset} K$ (def. \ref{SubspaceTopology})
 of a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
-[[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}) is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
+[[Hausdorff space]] $K$ (def. \ref{HausdorffTopologicalSpace}) is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
 
 =--
 
@@ -9825,7 +9827,7 @@ of a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
 Let $X$ be a [[topological space]] such that it arises as a [[topological subspace]] $X \subset K$
 of a [[compact Hausdorff space]]. We need to show that $X$ is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
 
-Let $x \in X$ be a point and let $U_x \subset X$ an open neighbourhood.  We need to produce a small open neighbourhood
+Let $x \in X$ be a point and let $U_x \subset X$ an open neighbourhood.  We need to produce a smaller open neighbourhood
 whose closure is compact and still contained in $U_x$.
 
 By the nature of the [[subspace topology]] there exists an open subset $V_x\subset K$ such that $U_x = X \cap V_x$.
@@ -9833,7 +9835,8 @@ Since $X$ is assumed to be open, it follows that $U$ is also open as a subset of
 Since [[compact Hausdorff spaces are normal]] (prop. \ref{CompactHausdorffSpacesAreNormal}) it
 follows by prop. \ref{T4InTermsOfTopologicalClosures} that
 there exists a smaller open neighbourhood $W_x \subset K$ whose [[topological closure]] is still contained in $U_x$,
-and since [[closed subspaces of compact spaces are compact]] (prop. \ref{ClosedSubsetsOfCompactSpacesAreCompact}):
+and since [[closed subspaces of compact spaces are compact]] (prop. \ref{ClosedSubsetsOfCompactSpacesAreCompact}),
+this toopological closure is compact:
 
 $$
   \{x\} \subset W_x \subset \underset{\text{cpt}}{Cl(W_x)} \subset V_x \subset K
@@ -9881,7 +9884,7 @@ be a [[continuous function]] between [[topological spaces]] such that
 
 1. $\pi \;\colon\; X \longrightarrow Y$ is a [[surjective function]].
 
-Then $\tau_X$ is the [[quotient topological space|quotient topology]] inherited from $\tau_X$ via the surjection $f$
+Then $\tau_Y$ is the [[quotient topological space|quotient topology]] inherited from $\tau_X$ via the surjection $f$
 (def. \ref{QuotientTopologicalSpace}).
 
 =--
@@ -9889,7 +9892,7 @@ Then $\tau_X$ is the [[quotient topological space|quotient topology]] inherited 
 +-- {: .proof}
 ###### Proof
 
-We need to show that a subset $U \subset Y$ is an [[open subset]] $(Y , \tau_Y)$ precisely if its [[pre-image]] $\pi^{-1}(U) \subset X$
+We need to show that a subset $U \subset Y$ is an [[open subset]] of $(Y , \tau_Y)$ precisely if its [[pre-image]] $\pi^{-1}(U) \subset X$
 is an open subset in $(X,\tau_X)$. Equivalenty, as in prop. \ref{ClosedSubsetContinuity}, we need to show that $U$ is a [[closed subset]]
 precisely if $\pi^{-1}(U)$ is a closed subset. The implication
 
@@ -9944,7 +9947,7 @@ The implicaton $\left( (Y, \tau_Y)\, \text{Hausdorff} \right) \Rightarrow \left(
 is given by prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}. We need to show the converse.
 
 Hence assume that $\pi$ is a closed map. We need to show that for every pair of
-distinct point $y_1 \neq y_2 \in Y)$ there exist [[open neighbourhoods]] $U_{y_1}, U_{y_2} \in \tau_Y$
+distinct point $y_1 \neq y_2 \in Y$ there exist [[open neighbourhoods]] $U_{y_1}, U_{y_2} \in \tau_Y$
 which are disjoint, $U_{y_1} \cap U_{y_2} = \emptyset$.
 
 Therefore consider the [[pre-images]]
@@ -9956,8 +9959,8 @@ $$
   \,.
 $$
 
-Observe that these are [[closed subsets]], because in the Hausdorff space $(Y, \tau_Y)$
-(which is hence in particular $T_1$) the singleton subsets $\{y_i\}$ are closed
+Observe that these are [[closed subsets]], because in the Hausdorff space $(Y, \tau_Y)$,
+which is in particular $T_1$ by lemma \ref{TnImplications}, the singleton subsets $\{y_i\}$ are closed
 by prop. \ref{T1InTermsOfTopologicalClosure}, and since pre-images under continuous functions preserves closed subsets by
 prop. \ref{ClosedSubsetContinuity}.
 
@@ -9970,7 +9973,7 @@ $$
 $$
 
 Moreover, by lemma \ref{SaturatedOpenNeighbourhoodsOfSaturatedClosedSubsets} we may find these $U_i$ such that they
-are both [[saturated subsets]] (def. \ref{SubsetSaturated}). Therefore finally lemma \ref{SaturatedOpenNeighbourhoodsOfSaturatedClosedSubsets}
+are both [[saturated subsets]] (def. \ref{SubsetSaturated}). Therefore finally lemma \ref{DetectViaSaturatedSubsetsContinuousQuotientMap}
 says that the images $\pi(U_i)$ are open in $(Y,\tau_Y)$. These are now clearly disjoint open neighbourhoods of $y_1$ and $y_2$.
 
 =--
@@ -9998,7 +10001,7 @@ $$
   by the [[equivalence relation]] which identifies the two endpoints
 
   $$
-    (x \sim y) \;\Leftrightarrow\; \left( \left( x = y\right) \,\text{or}\, \left( \left( x \in \{0,2\pi\} \,\text{and}\, \left( y\in \{0, 2pi\} \right)  \right)  \right) \right)
+    (x \sim y) \;\Leftrightarrow\; \left( \left( x = y\right) \,\text{or}\, \left( \left( x \in \{0,2\pi\}\right)  \,\text{and}\, \left( y\in \{0, 2\pi\} \right)   \right) \right)
   $$
 
 * to the unit [[circle]] $S^1 = S_0(1) \subset \mathbb{R}^2$ (def. \ref{OpenBalls})
@@ -10031,7 +10034,7 @@ $$
 $$
 
 is _not_ a homeomorphism, even though this, too, is a bijection on the the underlying sets.
-But the [[half-open interval]] $[0,2\pi)$ is not compact, and hence prop. \ref{ContinuousBijectionsFromCompactSpacesToHausdorffSpacesAreHomeomorphisms}
+But the [[half-open interval]] $[0,2\pi)$ is not compact (for instance by the [[Heine-Borel theorem]], prop. \ref{BorelHeine}), and hence prop. \ref{ContinuousBijectionsFromCompactSpacesToHausdorffSpacesAreHomeomorphisms}
 does not apply.
 
 =--
@@ -10054,10 +10057,13 @@ has several evident weakenings of interest. One is that of _[[paracompact topolo
 
 A key property is that [[paracompact Hausdorff spaces]] are equivalently those (prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}) all whose [[open covers]] admit a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity} below), namely a set of [[real number|real]]-valued [[continuous functions]]
 each of which is [[support|supported]] in only one patch of the cover, but whose [[sum]] is the unit function.
-Existence of such partitions imply that structures on topological spaces which are glued together via [[linear maps]]
+Existence of such partitions implies that structures on topological spaces which are glued together via [[linear maps]]
 (such as [[vector bundles]]) are well behaved.
 
-In [[algebraic topology]] paracompact spaces are important as for them [[abelian sheaf cohomology]] may be computed in terms of [[Cech cohomology]].
+
+(In [[algebraic topology]] paracompact spaces are important as for them [[abelian sheaf cohomology]] may be computed in terms of [[Cech cohomology]].)
+
+$\,$
 
 
 +-- {: .num_defn #LocallyFiniteCover}
@@ -10097,9 +10103,9 @@ $\,$
 We consider a couple of technical lemmas related to [[locally finite covers]]
 which will be needed in the proof of prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity} below:
 
-1. [every locally finite refinement induces one with the original index set](#LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet)
+1. [every locally finite refinement induces one with the original index set](#LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet),
 
-1. [every locally finite cover of a normal space contains the closure of one with smaller patches](#PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained) ("[[shrinking lemma]]")
+1. [every locally finite cover of a normal space contains the closure of one with smaller patches](#PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained) ("[[shrinking lemma]]").
 
 +-- {: .num_lemma #LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}
 ###### Lemma
@@ -10164,7 +10170,7 @@ $$
 
 =--
 
-We now prove this in  increasing generality, for  binary open covers (lemma \ref{ShrinkingLemmaForBinaryCover} below), then for finite covers (lemma \ref{ShrinkinglemmaForFiniteCovers}), then for locally finite countable covers (lemma \ref{ShrinkingLemmaForLocallyFiniteCountableCovers}), and finally for general locally finite covers (lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}, proof [below](#PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained)). The last statement needs the [[axiom of choice]].
+We now **prove** this in  increasing generality; first for  binary open covers (lemma \ref{ShrinkingLemmaForBinaryCover} below), then for finite covers (lemma \ref{ShrinkinglemmaForFiniteCovers}), then for locally finite countable covers (lemma \ref{ShrinkingLemmaForLocallyFiniteCountableCovers}), and finally for general locally finite covers (lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}, proof [below](#PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained)). The last statement needs the [[axiom of choice]].
 
 +-- {: .num_lemma #ShrinkingLemmaForBinaryCover}
 ###### Lemma
@@ -10252,7 +10258,7 @@ This issue is evaded if we consider [[locally finite covers]]:
 
 +-- {: .num_lemma #ShrinkingLemmaForLocallyFiniteCountableCovers}
 ###### Lemma
-**([shrinking lemma]] for locally finite countable covers)**
+**([[[shrinking lemma]] for locally finite countable covers)**
 
 Let $(X,\tau)$ be a [[normal topological space]] and $\{U_i \subset X\}_{i \in \mathbb{N}}$ a [[locally finite cover|locally finite]] [[countable cover]]. Then there exists [[open subsets]] $V_i \subset X$ for $i \in \mathbb{N}$ such that $V_i \subset Cl(V_i) \subset U_i$ and such that $\{V_i \subset X\}_{i \in \mathbb{N}}$ is still a cover.
 
@@ -10373,7 +10379,7 @@ This shows that $(K,\mathcal{W})$ is indeed an element of $S$. It is clear by co
 
 =--
 
-
+$\,$
 
 
 ### Partitions of unity
@@ -10515,7 +10521,7 @@ is a partition of unity as required.
 =--
 
 
-
+$\,$
 
 
 ### Manifolds
@@ -10526,9 +10532,9 @@ A _[[topological manifold]]_ is a [[topological space]] which is _locally_ [[hom
 These are the kinds of topological spaces that are really meant when people advertise [[topology]]
 as "[[rubber-sheet geometry]]".
 
-If the [[gluing functions]] which relate the Euclidean [[local charts]] of  topological manifolds to each other are [[differentiable functions]], for a fixed degree of differentiability, then one speaks of _[[differentiable manifolds]]_ (def \ref{DifferentiableManifold} below) or of_[[smooth manifolds]]_ if the gluing functions are arbitrarily differentiable.
+If the [[gluing functions]] which relate the Euclidean [[local charts]] of  topological manifolds to each other are [[differentiable functions]], for a fixed degree of differentiability, then one speaks of _[[differentiable manifolds]]_ (def \ref{DifferentiableManifold} below) or of _[[smooth manifolds]]_ if the gluing functions are arbitrarily differentiable.
 
-Accordingly, a differentiable manifold is a space to which the tools of ([[infinitesimal analysis|infinitesimal]]9 [[analysis]] may be applied _locally_.
+Accordingly, a differentiable manifold is a space to which the tools of ([[infinitesimal analysis|infinitesimal]] [[analysis]] may be applied _locally_.
 Notably we may ask whether a [[continuous function]] between differentiable manifolds is [[differentiation|differentiable]]
 by computing its [[derivatives]] pointwise in any of the Euclidean [[coordinate charts]].
 This way differential and smooth manifolds are the basis for much of [[differential geometry]]. They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].
@@ -10660,7 +10666,7 @@ Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ 
 ###### Remark
 **([[category]] [[Diff]] of [[differentiable manifolds]])**
 
-In analogy to remark \ref{TopCategory} there is a [[category]] [[Diff]]${}_p$  whose [[objects]] are $C^p$-[[differentiable manifolds]] and whose [[morphisms]] are $C^p$-[[differentiable functions]].
+In analogy to remark \ref{TopCategory} there is a [[category]] called [[Diff]]${}_p$ (or similar) whose [[objects]] are $C^p$-[[differentiable manifolds]] and whose [[morphisms]] are $C^p$-[[differentiable functions]].
 
 =--
 
@@ -10669,7 +10675,7 @@ In analogy to remark \ref{TopCategory} there is a [[category]] [[Diff]]${}_p$  w
 ###### Example
 **([[Cartesian space]] as a [[smooth manifold]])
 
-For $n \in \mathbb{N}$ then [[Cartesian space]] $\mathbb{R}^n$ equipped with the atlas consisting of the single [[chart]] $\mathbb{R}^n \overset{id}{\to} \mathbb{R}^n$ is a [[smooth manifold]], in particularly a $p$-fold differentiable manifold for every $p \in \mathbb{N}$ according to def. \ref{DifferentiableManifold}.
+For $n \in \mathbb{N}$ then the [[Cartesian space]] $\mathbb{R}^n$ equipped with the [[atlas]] consisting of the single [[chart]] $\mathbb{R}^n \overset{id}{\to} \mathbb{R}^n$ is a [[smooth manifold]], in particularly a $p$-fold differentiable manifold for every $p \in \mathbb{N}$ according to def. \ref{DifferentiableManifold}.
 
 Similarly the [[open disk]] $D^n$ becomes a [[smooth  manifold]] when equipped with the atlas whose single chart is the [[homeomorphism]] $\mathbb{R}^n \to D^n$.
 
@@ -10725,7 +10731,7 @@ $\,$
 
 This concludes _Section 1 [[point-set topology|Point-set topology]]_.
 
-For the next section see _[[Introduction to Topology -- 2|Secton 2 -- Basic homotopy theory]]_.
+For the next section see _[[Introduction to Topology -- 2|Section 2 -- Basic homotopy theory]]_.
 
 $\,$
 
