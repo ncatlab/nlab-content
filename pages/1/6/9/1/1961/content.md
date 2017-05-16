@@ -250,7 +250,7 @@ The set of all tangent vectors at $x \in X$ is denoted $T_x X$.
 
 +-- {: .num_lemma #LinearTangentSpace}
 ###### Lemma
-**([[real vector space]] structure on the [[tangent space]])**
+**([[real vector space]] structure on [[tangent vectors]])**
 
 For $X$ a [[differentiable manifold]] of [[dimension]] $n$ and $x \in X$ any point,  let $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U_i \subset X$ be a [[chart]] with $x \in U_i$.
 
@@ -331,6 +331,7 @@ for the tangent vectors $\frac{\partial}{\partial x^1}$ and $\frac{\partial}{\pa
 
 +-- {: .num_defn #TangentSpace}
 ###### Definition
+**([[tangent space]])**
 
 For $X$ a [[differentiable manifold]] and $x \in X$ a point, then the _[[tangent space]]_ of $X$ at $x$ is the set $T_x X$ of [[tangent vectors]] at $x$ (def. \ref{TangentVector}) regarded as a [[real vector space]] via lemma \ref{LinearTangentSpace}.
 
@@ -338,7 +339,7 @@ For $X$ a [[differentiable manifold]] and $x \in X$ a point, then the _[[tangent
 
 +-- {: .num_defn #TangentBundle}
 ###### Definition
-**(total space of the [[tangent bundle]])**
+**([[tangent bundle]])**
 
 Let $X$ be a [[differentiable manifold]] with [[atlas]] $\left\{ \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X\right\}_{i \in I}$.
 
@@ -397,8 +398,8 @@ this is called the _tangent bundle_ of $X$.
 
 =--
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .num_lemma #DifferentiableTangentBundle}
+###### Lemma
 **(tangent bundle is differentiable vector bundle)**
 
 The total space of the tangent bundle def. \ref{TangentBundle} is a [[differentiable manifold]] in that
@@ -419,6 +420,89 @@ Finally, this makes the tangent bundle into a real [[vector bundle]] over $X$.
 (...) pretty straightforward (...)
 
 =--
+
++-- {: .num_prop #FunctionsBetweenDifferentiableManifoldsDifferentials}
+###### Proposition
+**([[differentials]] of [[differentiable functions]] between [[differentiable manifolds]])**
+
+Let $X$ and $Y$ be [[differentiable manifolds]] and let $f \;\colon\; X \longrightarrow Y$ be a [[differentiable function]]. Then the operation of postcomposition which takes differentiable curves in $X$ to differentiable curves in $Y$
+
+$$
+  \array{
+     Hom_{Diff}(\mathbb{R}^1, X)
+       &\overset{f \circ (-)}{\longrightarrow}&
+     Hom_{Diff}(\mathbb{R}^1, Y)
+     \\
+     \left(
+       \mathbb{R}^1 \overset{\gamma}{\to} X
+     \right)
+     &\overset{\phantom{AAA}}{\mapsto}&
+     \left(
+       \mathbb{R}^1 \overset{f \circ \gamma}{\to} Y
+     \right)
+  }
+$$
+
+descends at each point $x \in X$ to the tangency [[equivalence relation]] (def. \ref{TangencyRelationOnSmoothCurves}, lemma \ref{TangencyIsEquivalenceRelation}) to yield a function on sets of [[tangnt vectors]] (def. \ref{TangentVector}), called the _[[differential]]_ $d f|_{x}$ of $f$ at $x4
+
+$$
+  d f|_{x}
+    \;\colon\;
+  T_x X 
+   \longrightarrow
+  T_{f(x)} Y
+  \,.
+$$
+
+Moreover, 
+
+1. ([[linear function|linear dependence]] on the tangent vector) these differentials are [[linear functions]] with respect to the vector space structure on the [[tangent spaces]] from lemma \ref{LinearTangentSpace}, def. \ref{TangentSpace};
+
+1. ([[differentiable function|differentiable dependence]] on the base point) globally they yield a [[homomorphism]] of differentiable real vector bundles  between the [[tangent bundles]] (def. \ref{TangentBundle}, lemma \ref{DifferentiableTangentBundle}), called the global _[[differential]]_ $d f$ of $f$
+
+   $$
+     d f \;\colon\; T X \longrightarrow T Y
+     \,.
+   $$
+
+1. ([[chain rule]]) The assignment $f \mapsto d f$ respects [[composition]] in that for $X$, $Y$, $Z$ three [[differentiable manifolds]] and for 
+
+   $$
+     X 
+       \overset{\phantom{A}f\phantom{A}}{\longrightarrow}
+     Y
+       \overset{\phantom{A}g\phantom{A}}{\longrightarrow}
+     Z
+   $$
+
+   two [[composition|composable]] [[differentiable functions]] then their [[differentials]] satisfy
+
+   $$
+     d(g \circ f) = (d g) \circ (d f)
+     \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the language of [[category theory]] the statement of prop. \ref{FunctionsBetweenDifferentiableManifoldsDifferentials} says that forming [[tangent bundles]] $T X$ of [[differentiable manifolds]] $X$ and [[differentials]] $d f$  of [[differentiable functions]] $f \colon X \to Y$ constitutes a [[functor]]
+
+$$
+  T \;\colon\; Diff \longrightarrow Vect(Diff)
+$$
+
+from the [[category]] [[Diff]] of [[differentiable manifolds]] to the category of differentiable real vector bundles.
+
+=--
+
 
 
 ### Definition by gluing construction
