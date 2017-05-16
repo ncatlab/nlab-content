@@ -39,7 +39,7 @@ A _closed embedding_ is an embedding such that the image $f(X) \subset Y$ is a [
  {#Examples}
 
 +-- {: .num_example }
-###### Counter-Example
+###### Nonexample
 **(immersions that are not embeddings)**
 
 <div style="float:right;margin:0 10px 10px 0;">
@@ -81,7 +81,7 @@ Let $X$ and $Y$ be [[smooth manifolds]], and let $f \colon X \to Y$ be a [[smoot
 +-- {: .proof}
 ###### Proof
 
-Since topological manifolds are [[locally compact topological spaces]] ({this example](locally+compact+topological+space#TopologicalManifoldsAreLocallyCompact)), this follows directly since [injective proper maps into locally compact spaces are equivalently closed embeddings](embedding+of+topological+spaces#InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings).
+Since topological manifolds are [[locally compact topological spaces]] ([this example](locally+compact+topological+space#TopologicalManifoldsAreLocallyCompact)), this follows directly since [injective proper maps into locally compact spaces are equivalently closed embeddings](embedding+of+topological+spaces#InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings).
 
 =--
 
