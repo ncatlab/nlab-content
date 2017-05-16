@@ -82,6 +82,8 @@ is an open neighbourhod of $y$ not intersecting $f(C)$.
 
 ## Related statements
 
+* [[injective proper maps to locally compact spaces are equivalently the closed embeddings]]
+
 * [[closed injections are embeddings]]
 
 * [[maps from compact spaces to Hausdorff spaces are closed and proper]]
