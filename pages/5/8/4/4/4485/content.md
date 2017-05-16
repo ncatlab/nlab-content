@@ -108,10 +108,13 @@ For instance chapter XIV
 
 Ehresmann's theorem is due to
 
-* Charles Ehresmann, _Les connexions infinit&#233;simales dans un espace fibr&#233; diff&#233;rentiable_, Colloque de Topologie, Bruxelles (1950), 29-55.
+* [[Charles Ehresmann]], _Les connexions infinit&#233;simales dans un espace fibr&#233; diff&#233;rentiable_, Colloque de Topologie, Bruxelles (1950), 29-55.
 
 [[!redirects submersion]]
 [[!redirects submersions]]
 
 [[!redirects surjective submersion]]
 [[!redirects surjective submersions]]
+
+[[!redirects submersion of differentiable manifolds]]
+[[!redirects submersions of differentiable manifolds]]
