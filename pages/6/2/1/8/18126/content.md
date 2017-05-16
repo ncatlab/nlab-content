@@ -1878,6 +1878,56 @@ Hence we [[proof by contradiction|proved by contradiction]] $X \backslash V$ is 
 
 =--
 
+Often one considers closed subsets inside a closed subspace. The following is immediate, but useful.
+
++-- {: .num_lemma #SubsetsInClosedSubspace}
+###### Lemma
+**([[subsets are closed in a closed subspace precisely if they are closed in the ambient space]])**
+
+Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}), and let $C \subset X$ be a [[closed subset]] (def. \ref{ClosedSubset}), regarded as a [[topological subspace]] $(C,\tau_{sub})$ (example \ref{SubspaceTopology}). Then a [[subset]] $S \subset C$ is a [[closed subset]] of $(C,\tau_{sub})$ precisely if it is closed as a subset of $(X,\tau)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If $S \subset C$ is closed in $(C,\tau_{sub})$ this means equivalently that there is an open open subset $V \subset C$ in $(C, \tau_{sub})$ such that
+
+$$
+  S = C \backslash V
+  \,.
+$$
+
+But by the definition of the subspace topology, this means equivalently that there is a subset $U \subset X$ which is open in $(X,\tau)$ such that $V = U \cap C$. Hence the above is equivalent to the existence of an open subset $U \subset X$ such that
+
+$$
+  \begin{aligned}
+    S & = C \backslash V
+    \\
+    & = C \backslash (U \cap C)
+    \\
+    & = C \backslash U
+  \end{aligned}
+  \,.
+$$
+
+But now the condition that $C$ itself is a closed subset of $(X,\tau)$ means equivalently that there is an open subset $W \subset X$ with $C = X \backslash W$. Hence the above is equivalent to the existence of two open subsets $W,U \subset X$ such that
+
+$$
+  S = (X \backslash W) \backslash U
+   =
+   X \backslash (W \cup U)
+  \,.
+$$
+
+Since the union $W \cup U$ is again open, this implies that $S$ is closed in $(X,\tau)$.
+
+Conversely, that $S \subset X$ is closed in $(X,\tau)$ means that there exists an open $T \subset X$ with  $S = X \backslash T \subset X$. This means that  $S = S \cap C = (X \backslash T) \cap C = C\backslash T = C \backslash (T \cap C)$, and since $T \cap C$ is open in $(C,\tau_{sub})$ by definition of the subspace topology, this means that $S \subset C$ is closed in $(C, \tau_{sub})$.
+
+=--
+
+
+
 A special role in the theory is played by the "irreducible" closed subspaces:
 
 +-- {: .num_defn #ClosedIrreducible}
@@ -7531,7 +7581,7 @@ Now the first important application of the general concept of limits of diagrams
 is the following example \ref{InfiniteProductTopologicalSpace} of product spaces with an
 non-[[finite set]] of factors. It turns out that the correct topology on the underlying infinite [[Cartesian product]]
 of sets is _not_ the naive generalization of the binary product topology, but instead is the corresponding
-[[weak topology]], here called the _[[Tychonoff topology]]_.
+[[weak topology]], which in this case is called the _[[Tychonoff topology]]_:
 
 +-- {: .num_example #InfiniteProductTopologicalSpace}
 ###### Example
@@ -8312,7 +8362,7 @@ $$
 
 be a [[continuous function]] to the [[real numbers]] equipped with their [[Euclidean space|Euclidean]] [[metric topology]].
 
-Then $f$ attains is [[maximum]] and its [[minimum]] in that there exist $x_{min}, x_{max} \in C$ such that 
+Then $f$ attains is [[maximum]] and its [[minimum]] in that there exist $x_{min}, x_{max} \in C$ such that
 
 $$
   f([a,b]) = [f(x_{min}), f(x_{max})]
@@ -8944,7 +8994,7 @@ There are various definitions of locally compact spaces alternative to def. \ref
 For [[Hausdorff topological spaces]] all these definitions
 happen to be equivalent, but in general they are not.
 The version we state in def. \ref{LocallyCompactSpace} is the one that gives various results
-(such as the [[universal property]] of the mapping space, prop. \ref{UniversalPropertyOfMappingSpace} below) 
+(such as the [[universal property]] of the mapping space, prop. \ref{UniversalPropertyOfMappingSpace} below)
 _without_ requiring the Hausdorff property.
 
 =--
@@ -9052,7 +9102,7 @@ For
 
 1. $(X, \tau_X)$ a [[locally compact topological space]] (def. \ref{LocallyCompactSpace})
 
-1. $(Y,\tau_Y)$ any [[topological space]]  
+1. $(Y,\tau_Y)$ any [[topological space]]
 
 then the _[[compact-open topology|mapping space]]_
 
@@ -9392,9 +9442,14 @@ $\,$
 ###### Proposition
 **([[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]])**
 
-Let $(X,\tau)$ be a [[compact topological space|compact]] [[Hausdorff topological space]]
-(def. \ref{HausdorffTopologicalSpace}, def. \ref{CompactTopologicalSpace}) and let $Y \subset X$
-be a [[topological subspace]]. Then the following are equivalent:
+Let
+
+1. $(X,\tau)$ be a [[compact topological space|compact]] [[Hausdorff topological space]]
+(def. \ref{HausdorffTopologicalSpace}, def. \ref{CompactTopologicalSpace})
+
+1. $Y \subset X$ be a [[topological subspace]].
+
+Then the following are equivalent:
 
 1. $Y \subset X$ is a [[closed subspace]] (def. \ref{ClosedSubset});
 
@@ -9415,15 +9470,20 @@ below.
 ###### Lemma
 **([[closed subspaces of compact spaces are compact]])**
 
-Let $(X,\tau)$ be a [[compact topological space]] (def. \ref{CompactTopologicalSpace}), and let $Y \subset X$ be a
-[[closed subspace|closed]] [[topological subspace]]. Then also $Y$ is [[compact topological space|compact]].
+Let
+
+1. $(X,\tau)$ be a [[compact topological space]] (def. \ref{CompactTopologicalSpace}),
+
+1. Y \subset X$ be a [[closed subspace|closed]] [[topological subspace]].
+
+Then also $Y$ is [[compact topological space|compact]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Let $\{V_i \subset Y\}_{i \in I}$ be an [[open cover]] of $Y$. We need to show that this has a finite sub-cover.
+Let $\{V_i \subset Y\}_{i \in I}$ be an [[open cover]] of $Y$ (def. \ref{OpenCover}). We need to show that this has a finite sub-cover.
 
 By definition of the [[topological subspace|subspace topology]], there exist open subsets $U_i$ of $X$ with
 
@@ -9438,15 +9498,15 @@ $$
   \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in I}
 $$
 
-is an [[open cover]] of $X$. Now by the assumption that $X$ is compact, this latter cover has a finite subcover,
+is an [[open cover]] of $X$ (def. \ref{OpenCover}). Now by the assumption that $X$ is compact, this latter cover has a finite subcover,
 hence there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
 
 $$
   \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in J \subset I}
 $$
 
-is still an open cover of $X$, hence in particular intersects to a finite open cover of $Y$.
-But since $Y \cap ( X \backslah Y ) = \empty$, it follows that indeed
+is still an open cover of $X$, hence in particular restricts to a finite open cover of $Y$.
+But since $Y \cap ( X \backslash Y ) = \empty$, it follows that indeed
 
 $$
   \{V_i \subset Y\}_{i \in J \subset I}
@@ -9507,7 +9567,7 @@ $$
   U_x \coloneqq \underset{s \in S \subset Y}{\cap} U_{x,s}
 $$
 
-of the corresponding open neighbourhoods of $x$ is still open, and by construction it is disjoint from all the $U_{s}$, hence in particular from their union
+of the corresponding open neighbourhoods of $x$ is still open, and by construction it is disjoint from all the $U_{s}$, hence also from their union
 
 $$
   U_Y \coloneqq \underset{s \in S \subset Y}{\cup}  U_s
@@ -9525,16 +9585,21 @@ Lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces
 ###### Lemma
 **([[compact subspaces of Hausdorff spaces are closed]])**
 
-Let $(X,\tau)$ be a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace})
-and let $C \subset X$ be a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
-[[topological subspace]] (example \ref{SubspaceTopology}). Then $C \subset X$ is also a [[closed subspace]] (def. \ref{ClosedSubset}).
+Let
+
+1. $(X,\tau)$ be a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace})
+
+1. $C \subset X$ be a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) [[topological subspace]] (example \ref{SubspaceTopology}).
+
+Then $C \subset X$ is also a [[closed subspace]] (def. \ref{ClosedSubset}).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Let $x \in X \backslash C$ be any point of $X$ not contained in $C$. We need to show that there exists an [[open neighbourhood]] of $x$ in $X$ which does not [[intersection|intersect]] $C$.
+Let $x \in X \backslash C$ be any point of $X$ not contained in $C$.
+By lemma \ref{UnionOfOpensGivesClosure} we need to show that there exists an [[open neighbourhood]] of $x$ in $X$ which does not [[intersection|intersect]] $C$.
 This is implied by lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}.
 
 =--
@@ -9564,9 +9629,24 @@ regarded as a [[topological subspace]] it is [[compact topological space|compact
 The assumption that $S$ is bounded by (hence contained in) some [[open ball]] $B^\circ_x(\epsilon)$ in $\mathbb{R}^n$
 implies that it is contained in $\{ (x_i)_{i = 1}^n \in \mathbb{R}^n \,\vert\, -\epsilon \leq x_i \leq \epsilon \}$.
 By example \ref{ClosedIntervalsProduct}, this  topological subspace is homeomorphic to the $n$-cube
-$[-\epsilon, \epsilon]^n$. Since the closed interval $[-\epsilon, \epsilon]$
+
+$$
+  [-\epsilon, \epsilon]^n
+  =
+  \underset{i \in \{1, \cdots, n\}{\prod} [-\epsilon, \epsilon]
+  \,,
+$$
+
+hence to the [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) of $n$ copies of 
+the closed interval with itself.
+
+Since the closed interval $[-\epsilon, \epsilon]$
 is compact by example \ref{CompactClosedInterval}, the binary [[Tychonoff theorem]] (prop. \ref{TychonoffTheorem})
-implies that this $n$-cube is compact. Since [[closed subspaces of compact spaces are compact]]
+implies that this $n$-cube is compact. 
+
+Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] lemma \ref{SubsetsInClosedSubspace},
+the closed subset $S \subset \mathbb{R}^n$ is also closed as a subset $S \subset [-\epsilon, \epsilon]^n$.
+Since [[closed subspaces of compact spaces are compact]]
 (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}) this implies that $S$ is compact.
 
 Conversely, assume that $S \subset \mathbb{R}^n$ is a compact subspace. We need to show that it is closed and bounded.
@@ -9599,8 +9679,10 @@ in $\mathbb{R}^n$ is clearly a bounded subset, and hence so is $S$.
 
 =--
 
+$\,$
+
 For the record, we list some examples of [[compact Hausdorff spaces]] that are immediately identified
-by the [[Heine-Borel theorem]]:
+by the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}):
 
 +-- {: .num_example #ExamplesOfCompactHausdorffSpaces}
 ###### Example
@@ -9609,12 +9691,14 @@ by the [[Heine-Borel theorem]]:
 We list some basic examples of [[compact Hausdorff spaces]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{CompactTopologicalSpace})
 
 1. For $n \in \mathbb{N}$, the [[n-sphere]] $S^n$ may canonically be regarded as a [[topological subspace]]
-of [[Euclidean space]] $\mathbb{R}^{n+1}$ (example \ref{SpheresAndDisks}). 
+of [[Euclidean space]] $\mathbb{R}^{n+1}$ (example \ref{SpheresAndDisks}).
 
 These are clearly closed and bounded subspaces of Euclidean space, hence they are  [[compact topological space]],
 by the [[Heine-Borel theorem]], prop. \ref{BorelHeine}.
 
 =--
+
+$\,$
 
 +-- {: .num_prop #MapsFromCompactSpacesToHausdorffSpacesAreClosed}
 ###### Proposition
