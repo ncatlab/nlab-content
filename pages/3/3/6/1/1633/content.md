@@ -209,8 +209,7 @@ If $f$ is a [[proper map]], then it is a [[closed map]].
 
 =--
 
-
-
+* [[locally compact and sigma-compact spaces are paracompact]]
 
 ### Category-theoretic properties
 
