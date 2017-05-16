@@ -379,7 +379,7 @@ In the [[category]] [[Top]] of [[topological space]],
 +-- {: .proof}
 ###### Proof 
 
-Regarding the first statement: An injective continuous function $f \colon X \to Y$ clearly has the cancellation propert that defines monomorpjisms: for parallel continuous functions $g_1,g_2 \colon Z \to X$: if $f \circ g_1 = f \circ g_1$, then $g_1 = g_2$ because continuous functions are equal precisely if their underlying functions of sets are equal. Conversely, if $f$ has the cacellation property, then testing on points $g_1, g_2 \colon \ast \to X$ gives that $f$ is injective.
+Regarding the first statement: An injective continuous function $f \colon X \to Y$ clearly has the cancellation property that defines monomorphisms: for parallel continuous functions $g_1,g_2 \colon Z \to X$: if $f \circ g_1 = f \circ g_1$, then $g_1 = g_2$ because continuous functions are equal precisely if their underlying functions of sets are equal. Conversely, if $f$ has the cancellation property, then testing on points $g_1, g_2 \colon \ast \to X$ gives that $f$ is injective.
 
 Regarding the second statement: from the construction of [[equalizers]] in [[Top]] (example \ref{EqualizerInTop}) we have that these are topological subspace inclusions.
 
