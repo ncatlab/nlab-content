@@ -32,7 +32,13 @@ A _topological closure operator_ is a Moore closure operator $Cl: P(X) \to P(X)$
 
 ## Properties
 
-#### In metric spaces
+
+### Basic properties
+
+* [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]]
+
+
+### In metric spaces
  {#InMetricSpaces}
 
 +-- {: .num_prop #ConvergenceInClosedSubspace}
@@ -126,7 +132,7 @@ $$
 
 
 
-#### Relation to compact subspaces
+### Relation to compact subspaces
 
 The relation of closed subspaces to [[compact subspaces]] is expressed by the following statements
 
@@ -140,7 +146,7 @@ The relation of closed subspaces to [[compact subspaces]] is expressed by the fo
 
 
 
-#### Kuratowski's closure-complement problem 
+### Kuratowski's closure-complement problem 
 
 This mildly amusing curiosity asks how many set-theoretic operations on a topological space $X$ are derivable from closure $C$ and [[complementation]] $\neg$ and applying finite composition. The answer is that at most 14 operations are so derivable (and there are examples showing this number is achievable). As the proofs below indicate, this bare fact has little to do with topology; it has more to do with general Moore closures and how they interact with complements (using [[classical logic]]). 
 
