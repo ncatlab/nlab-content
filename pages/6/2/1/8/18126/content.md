@@ -8546,7 +8546,7 @@ Construct a new topological space $(Y, \tau_Y)$ by setting
 Then consider the [[topological closure]] $Cl(\Delta)$ of the "diagonal" $\Delta$ in $Y \times X$
 
 $$
-   \Delta 
+   \Delta
      \coloneqq
    \left\{
       (x,x) \in Y \times X \,\vert\, x \in X
@@ -8580,8 +8580,8 @@ of $\infty$ are the unions of finite intersections of $C_i \cup \{\infty\}$, and
 all their finite intersections do still intersect $X$.
 
 Since thus $(\infty,x) \in Cl(\Delta)$, lemma \ref{UnionOfOpensGivesClosure} gives again that
-all of its open neighbourhoods intersect the diagonal. 
-By the nature of the [[product topology]] (example \ref{BinaryProductTopologicalSpace}) 
+all of its open neighbourhoods intersect the diagonal.
+By the nature of the [[product topology]] (example \ref{BinaryProductTopologicalSpace})
 this means that for all $i \in I$ and all open neighbourhoods $U_x \supset \{x\}$  we have that
 
 $$
@@ -8963,14 +8963,8 @@ of [[nets]] instead of just sequences, then it raises to the same level of gener
 
 $\,$
 
+### Locally compact spaces
 
-There are various variants of the concept of compact spaces. We discuss the following two:
-
-* [[locally compact topological spaces]] (def. \ref{LocallyCompactSpace});
-
-* [[paracompact topological spaces]] (def. \ref{ParacompactSpace}).
-
-$\,$
 
 +-- {: .num_defn #LocallyCompactSpace}
 ###### Definition
@@ -9429,12 +9423,91 @@ identification on the bottom right mapping space out of the point space.
 =--
 
 
++-- {: .num_prop}
+###### Proposition
+**([[proper maps to locally compact spaces are closed]])**
+
+Let
+
+1. $(X,\tau_X)$ be a [[topological space]],
+
+1. $(Y,\tau_Y)$ a [[locally compact topological space]] according to def. \ref{LocallyCompactSpace},
+
+1. $f \colon X \to Y$ a [[continuous function]].
+
+Then:
+
+If $f$ is a [[proper map]], then it is a [[closed map]].
+
+=--
+
+
+
++-- {: .proof}
+###### Proof
+
+Let $C \subset X$ be a [[closed subset]]. We need to show that every $y \in Y \backslash f(C)$ has an open neighbourhood $U_y \supset \{y\}$ not intersecting $f(C)$ (by lemma \ref{UnionOfOpensGivesClosure}).
+
+By local compactness of $(Y,\tau_Y)$ (def. \ref{LocallyCompactSpace}), $y$ has an open neighbourhood $V_y$ whose topological closure $Cl(V_y)$ is compact. Hence since $f$ is proper, also $f^{-1}(Cl(V_y)) \subset X$ is compact. Then also the intersection $C \cap f^{-1}(Cl(V_y))$ is compact, and hence so is
+
+$$
+  f(C \cap f^{-1}(Cl(V_y)))
+  =
+  f(C) \cap (Cl(V))
+  \;
+  \subset Y
+  \,.
+$$
+
+This is also a [[closed subset]], since [[compact subspaces of Hausdorff spaces are closed]]. Therefore
+
+$$
+  U_y \coloneqq V_y \backslash ( f(C) \cap (Cl(V_y)) ) = V_y \backslash f(C)
+$$
+
+is an open neighbourhod of $y$ not intersecting $f(C)$.
+
+=--
+
+
+
++-- {: .num_prop #InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings}
+###### Proposition
+**([[injective proper maps to locally compact spaces are equivalently the closed embeddings]])**
+
+Let
+
+1. $X$ be a [[topological space]]
+
+1. $Y$ a [[locally compact topological space]]
+
+1. $f \colon X \to Y$ be a [[continuous function]].
+
+Then the following are equivalent
+
+1. $f$ is an [[injective function|injective]] [[proper map]],
+
+1. $f$ is a closed [[embedding of topological spaces]] (def. \ref{EmbeddingOfTopologicalSpaces}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In one direction, if $f$ is an injective proper map,
+then since [[proper maps to locally compact spaces are closed]], it follows that $f$ is also  [[closed map]]. The claim then follows since [[closed injections are embeddings]] (prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings}), and since the image of a closed map is closed.
+
+Conversely, if $f$ is a closed embedding, we only need to show that the embedding map is proper. So for $C \subset Y$ a [[compact subspace]], we need to show that the [[pre-image]] $f^{-1}(C) \subset X$ is also compact. But since $f$ is an injection (being an embedding), that pre-image is just the intersection $f^{-1}(C) \simeq C \cap f(X)$. By the nature of the [[subspace topology]], this is compact if $C$ is.
+
+=--
+
+
 
 $\,$
 
 
 
-### Relation to Hausdorff spaces
+### Compact Hausdorff spaces
 
 We discuss some important relations between the concepts of
 [[compact topological spaces]] (def. \ref{CompactTopologicalSpace})
@@ -9856,10 +9929,6 @@ $$
 
 $\,$
 
-
-
-### Relation to quotient spaces
-
 We discuss some important relations between the concept of [[compact topological spaces]] and
 that of [[quotient topological spaces]].
 
@@ -10097,10 +10166,206 @@ A [[topological space]] $(X,\tau)$ is called _[[paracompact topological space|pa
 
 =--
 
+The definition is closely related to the following two:
+
++-- {: .num_defn}
+###### Definition
+**([[second-countable topological space]])**
+
+A [[topological space]] is called _[[second-countable topological space|second countable]]_
+of it admits a [[base for a topology|base for its topology]] $\beta_X$ which is a [[countable set]] of open subsets.
+
+=--
+
++-- {: .num_example }
+###### Example
+**([[sigma-compact topological space]])**
+
+A [[topological space]] is called _[[sigma-compact topological space|sigma-compact]]_ if it is the 
+[[union]] of a [[countable set]] of [[compact subsets]].
+
+
+=--
+
+
+
+$\,$
+
+### Properties
+
++-- {: .num_defn #ParacompactHausdorffSpacesAreNormal}
+###### Proposition
+**([[paracompact Hausdorff spaces are normal]])**
+
+Every [[paracompact Hausdorff space]] is [[normal Hausdorff space|normal]].
+
+In particular [[compact Hausdorff spaces are normal]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $(X,\tau)$ be a paracompact Hausdorff space
+
+We first show that it is [[regular topological space|regular]]: To that end,
+let $x \in X$ be a point, and let $C \subset X$ be a [[closed subset]] not containing $x$. We need to find disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_C \supset C$.
+
+First of all, by the Hausdorff property there exists for each $c \in C$ disjoint open neighbourhods $U_{x,c} \supset \{x\}$ and $U_c \supset C$. As $c$ ranges, the latter clearly form an open cover $\{U_c \subset X\}_{c \in C}$ of $C$, and so the union
+
+$$
+  \{U_c \subset X\}_{c \in C} \,\cup\, X \backslash C
+$$
+
+is an open cover of $X$. By paracompactness of $(X,\tau)$, there exists a locally finite refinement, and by [this lemma](locally+finite+cover#LocallyFiniteRefinementImpliesLocallyFiniteCoverWithOriginalIndexSet) we may assume its elements to share the original index set and be contained in the original elements of the same index. Hence
+
+$$
+  \{V_c \subset U_c \subset  X\}_{c \in C}
+$$
+
+is a locally finite collection of subsets, such that
+
+$$
+  U_C \coloneqq \underset{c \in C}{\cup} U_c
+$$
+
+is an open neighbourhood of $C$.
+
+
+Now by definition of local finiteness there exists an open neighbourhood $W_x \supset \{x\}$ and a finite subset $K \subset C$ such that
+
+$$
+  \underset{c \in C \backslash K}{\forall}( W_x \cap V_c = \emptyset )
+  \,.
+$$
+
+Consider then
+
+$$
+  U_x
+   \;\coloneqq\;
+  W_x
+    \cap
+  \left(
+    \underset{k \in K}{\cap}
+     \left(
+       U_{x,k}
+     \right)
+  \right)
+  \,.
+$$
+
+which is an open neighbourhood of $x$, by the finiteness of $K$.
+
+It thus only remains to see that
+
+$$
+  U_x \cap U_C = \emptyset
+  \,.
+$$
+
+But this holds because the only $V_{c}$ that intersect $W_x$ are the $V_{k} \subset U_{k}$ and each of these is by construction disjoint from $U_{x,k}$ and hence from $U_x$.
+
+This establishes that $(X,\tau)$ is regular. Now we prove that it is normal. For this we use the same approach as before:
+
+Let $C,D \subset X$ be two disjoint closed subsets. By need to produce disjoint open neighbourhoods for these.
+
+By the previous statement of regularity, we may find for each $c \in C$ disjoint open neighbourhoods $U_c \subset \{c\}$ and $U_{D,c} \supset D$. Hence the union
+
+$$
+  \left\{
+    U_c \subset X
+  \right\}_{c \in C}
+  \cup
+  X \backslash C
+$$
+
+is an open cover of $X$, and thus by paracompactness has a locally finite refinement, whose elementes we may, again by [this lemma](locally+finite+cover#LocallyFiniteRefinementImpliesLocallyFiniteCoverWithOriginalIndexSet), assume to have the same index set as before and be contained in the previous elements with the same index. Hence we obtain a locally finite collection of subsets
+
+$$
+  \{ V_c \subset U_c \subset X \}_{c \in C}
+$$
+
+such that
+
+$$
+  U_{C}
+   \coloneqq
+  \underset{c \in C}{\cup} V_c
+$$
+
+is an open neighbourhood of $C$.
+
+It is now sufficient to see that every point $d \in D$ has an open neighbourhood $U_d$ not intersecting $U_C$, for then
+
+$$
+  U_D \coloneqq \underset{d \in D}{\cup} U_d
+$$
+
+is the required open neighbourhood of $D$ not intersecting $U_C$.
+
+Now by local finiteness of $\{V_c \subset X\}_{c \in X}$, every $d \in D$ has an open neighbourhood $W_d$ such that there is a finite set $K_d \subset C$ so that
+
+$$
+  \underset{c \in C \backslash K_d}{\forall}
+  \left(
+     V_c \cap W_d = \emptyset
+  \right)
+  \,.
+$$
+
+Accordingly the intersection
+
+$$
+  U_d
+    \coloneqq
+  W_d
+   \cap
+  \left(
+    \underset{c \in K_d \subset C}{\cap} U_{D,c}
+  \right)
+$$
+
+is still open and disjoint from the remaining $V_k$, hence disjoint from all of $U_C$.
+
+=--
+
+
+The following will be useful for identifying [[manifolds]] below:
+
++-- {: .num_prop}
+###### Proposition
+**([[locally compact and sigma-compact spaces are paracompact]])**
+
+Let $X$ be a [[topological space]] which is
+
+1. [[locally compact topological space|locally compact]];
+
+1. [[sigma-compact topological space|sigma-compact]].
+
+Then $X$ is also [[paracompact topological space|paracompact]].
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+**([[second-countable regular spaces are paracompact]])**
+
+Let $X$ be a [[topological space]] which is
+
+1. [[second-countable topological space|second-countable]];
+
+1. [[regular topological space|regular]].
+
+Then $X$ is [[paracompact topological space]].
+
+=--
+
+
 $\,$
 
 
-We consider a couple of technical lemmas related to [[locally finite covers]]
+We consider now a couple of technical lemmas related to [[locally finite covers]]
 which will be needed in the proof of prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity} below:
 
 1. [every locally finite refinement induces one with the original index set](#LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet),
@@ -10258,7 +10523,7 @@ This issue is evaded if we consider [[locally finite covers]]:
 
 +-- {: .num_lemma #ShrinkingLemmaForLocallyFiniteCountableCovers}
 ###### Lemma
-**([[[shrinking lemma]] for locally finite countable covers)**
+**([[shrinking lemma]] for locally finite countable covers)**
 
 Let $(X,\tau)$ be a [[normal topological space]] and $\{U_i \subset X\}_{i \in \mathbb{N}}$ a [[locally finite cover|locally finite]] [[countable cover]]. Then there exists [[open subsets]] $V_i \subset X$ for $i \in \mathbb{N}$ such that $V_i \subset Cl(V_i) \subset U_i$ and such that $\{V_i \subset X\}_{i \in \mathbb{N}}$ is still a cover.
 
@@ -10460,7 +10725,7 @@ $$
   \,.
 $$
 
-Now since [[paracompact Hausdorff spaces are normal]], [[Urysohn's lemma]] says that there exist [[continuous functions]]
+Now since [[paracompact Hausdorff spaces are normal]] (prop. \ref{ParacompactHausdorffSpacesAreNormal}), [[Urysohn's lemma]] (prop. \ref{UrysohnLemma}) says that there exist [[continuous functions]] of the form
 
 $$
   h_i \;\colon\; X \longrightarrow [0,1]
@@ -10524,7 +10789,7 @@ is a partition of unity as required.
 $\,$
 
 
-### Manifolds
+## Manifolds
  {##Manifolds}
 
 A _[[topological manifold]]_ is a [[topological space]] which is _locally_ [[homeomorphism|homeomorphic]] to a [[Euclidean space]]
@@ -10541,22 +10806,41 @@ This way differential and smooth manifolds are the basis for much of [[different
 
 $\,$
 
++-- {: .num_defn #LocallyEuclideanSpace}
+###### Definition
+**([[locally Euclidean topological space]])**
+
+A [[topological space]] $X$ is _[[locally Euclidean topological space|locally Euclidean]]_ if every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which is [[homeomorphism|homeomorphic]] to the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**(locally Euclidean spaces are $T_1$ and locally compact, but not necessarily $T_2$)**
+
+It might superficially seem that every locally Euclidean space (def. \ref{LocallyEuclideanSpace}) is necessarily a [[Hausdorff topological space]], since [[Euclidean space]], like any [[metric space]], is Hausdorff, and since by definition the neighbourhood of every point in a locally Euclidean spaces looks like Euclidean space.
+
+But this is not so, see the counter-example \ref{NonHausdorffManifolds} below, Hausdorffness is a "non-local condition", as opposed to the $T_0$ and $T_1$ [[separation axioms]].
+
+Every locally Euclidean space is $T_1$: Let $x \neq y$ be two distinct points in the locally Euclidean space. We need to show that there is an open neighbourhood $U_x$ around $x$ that does not contain $y$. By definition there is a Euclidean open neighbourhood $E_x$ around $y$. If this does not contain $y$, then we may set $U_x \coloneqq E_x$. If it does, then $x \neq y$ are two distinct point in this Euclidean space $E_x \simeq \mathbb{R}^n$. But Euclidean space is $T_1$, and hence we may find an open neighbourhood $U_x \subset E_x$ not intersecting $y$.
+
+Similarly every locally Euclidean space is a [[locally compact topological space]].
+
+=--
+
 
 +-- {: .num_defn #TopologicalManifold}
 ###### Definition
 **([[topological manifold]])**
 
-Let $n \in \mathbb{N}$ be a [[natural number]].
+A _topological manifold  (also "$n$-fold") is a [[topological space]] which is
 
-A _topological manifold_ of _[[dimension]] $n$_ (also "$n$-fold") is
+1. [[locally Euclidean topological space|locally Euclidean]],
 
-* a [[paracompact Hausdorff topological space]] $X$
-
-such that
-
-* every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which is [[homeomorphism|homeomorphic]] to the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]].
+1. [[paracompact Hausdorff topological space|paracompact Hausdorff]].
 
 =--
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -10566,9 +10850,20 @@ There is some variance in the choice of regularity condition in def. \ref{Topolo
 
 This is the relevant condition for the [[Whitney embedding theorem]] to apply.
 
-Very rarely one considers [[non-Hausdorff topological spaces]] as manifolds.
+Very rarely one considers [[non-Hausdorff topological spaces]] as manifolds, see example \ref{NonHausdorffManifolds}.
 
 =--
+
++-- {: .num_example #NonHausdorffManifolds}
+###### Nonexample
+**([[non-Hausdorff manifolds]])**
+
+An example of a [[topological space]] which is [[locally Euclidean topological space|locally Euclidean]] 
+as in def. \ref{TopologicalManifold} but a [[non-Hausdorff topological space]], and hence not a [[topological manifold]] in the sense
+of def. \ref{TopologicalManifold}, is the [[line with two origins]] (example \ref{LineWithTwoOrigins}).
+
+=--
+
 
 
 +-- {: .num_defn #Charts}
@@ -10700,30 +10995,615 @@ By the formulas given in [this prop.](stereographic+projection#StandardStereogra
 
 =--
 
+
+### Tangent bundles
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/TangentSpaceToSphere.png" width="250">
+</div>
+
+Since [[differentiable manifolds]] are [[locally Euclidean spaces]] whose [[gluing functions]]
+respect the [[infinitesimal analysis]] on [[Euclidean space]], they constitute a globalization of 
+[[infinitesimal analysis]] from [[Euclidean space]] to more general [[topological spaces]].
+In particular a [[differentiable manifold]] has associated to each point a _[[tangent space]]_
+of [[vectors]] that linearly approximate the manifold in the [[infinitesimal neighbourhood]]
+of that point. The union of all these [[tangent spaces]] is called the _[[tangent bundle]]_
+of the [[differentiable manifold]].
+
+The tangent bundle, via the [[frame bundle]] that is [[associated bundle|associated]] to it
+is the basis for all actual _[[geometry]]_: By equipping tangent bundles with 
+([[torsion of a G-structure|torsion-free]]) "[[G-structures]]"
+one encodes all sorts of flavors of geometry, such as [[Riemannian geometry]], 
+[[conformal geometry]], [[complex geometry]], [[symplectic geometry]], and generally 
+[[Cartan geometry]].
+
+
+
++-- {: .num_defn #TangencyRelationOnSmoothCurves}
+###### Definition
+**(tangency relation on smooth curves)**
+
+
+Let $X$ be a [[differentiable manifold]] of [[dimension]] $n$ and let $x \in X$ be a point. On the set of [[smooth functions]] of the form
+
+$$
+  \gamma \;\colon\; \mathbb{R}^1 \longrightarrow X
+$$
+
+such that
+
+$$
+  \gamma(0) = x
+$$
+
+define the [[relations]]
+
+$$
+  (\gamma_1 \sim \gamma_2)
+   \coloneqq
+   \underset{
+      {  { \mathbb{R}^n  \underoverset{}{\phi \, \text{chart}}{\to} U_i \subset X } } \atop { U_i \supset \{x\} }
+      }{
+        \exists
+      }
+   \left(
+      \frac{d}{d t}(\phi^{-1}\circ \gamma_1)(0)
+      =
+      \frac{d}{d t}(\phi^{-1}\circ \gamma_2)(0)
+   \right)
+$$
+
+and
+
+$$
+  (\gamma_1 \sim' \gamma_2)
+   \coloneqq
+   \underset{
+      {  { \mathbb{R}^n  \underoverset{}{\phi \, \text{chart}}{\to} U_i \subset X } } \atop { U_i \supset \{x\} }
+      }{
+        \forall
+      }
+   \left(
+      \frac{d}{d t}(\phi^{-1}\circ \gamma_1)(0)
+      =
+      \frac{d}{d t}(\phi^{-1}\circ \gamma_2)(0)
+   \right)
+$$
+
+saying that two such functions are related precisely if either there exists a chart around $x$ such that (or else for all charts around $x$ it is true that) the first [[derivative]] of the two functions regarded via the given chart as functions $\mathbb{R}^1 \to \mathbb{R}^n$, coincide at $t = 0$ (with $t$ denoting the canonical [[coordinate]] function on $\mathbb{R}$).
+
+=--
+
++-- {: .num_lemma #TangencyIsEquivalenceRelation}
+###### Lemma
+**(tangency is equivalence relation)**
+
+The two relations in def. \ref{TangencyRelationOnSmoothCurves} are [[equivalence relations]] and they coincide.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First to see that they conincide, we need to show that if the derivatives in question coincide in one chart $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U_i \subset X$, that then they coincide also in any other chart $\mathbb{R}^n \underoverset{\simeq}{\psi}{\to} U_j \subset X$.
+
+Write
+
+$$
+  U_{i j} \coloneqq U_i \cap U_j
+$$
+
+for the intersection of the two charts.
+
+First of all, since the derivative may be computed in any [[open neighbourhood]] around $t = 0$, and since the differentiable functions $\gamma_i$ are in particular [[continuous functions]], we may restrict to the open neighbourhood
+
+$$
+  V \coloneqq \gamma_1^{-1}( U_{i j} ) \cap \gamma_2^{-1}(U_{i j})
+  \;\subset\; \mathbb{R}
+$$
+
+of $0 \in \mathbb{R}$ and consider the derivatives of the functions
+
+$$
+  \gamma_i^{\phi}
+  \;\coloneqq\;
+  (\phi\vert_{U_{i j}} \circ \gamma_i\vert_{V}) \;\colon\; V \longrightarrow \phi^{-1}(U_{i j}) \subset \mathbb{R}^n
+$$
+
+and
+
+$$
+  \gamma_i^{\psi}
+  \;\coloneqq\;
+  (\psi\vert_{U_{i j}} \circ \gamma_i \vert _{V}) \;\colon\; V \longrightarrow \psi^{-1}(U_{i j}) \subset \mathbb{R}^n
+  \,.
+$$
+
+But then by definition of the differentiable [[atlas]], there is the differentiable function
+
+$$
+  \alpha
+  \;\coloneqq\;
+  \phi^{-1}(U_{i j})
+    \underoverset{\simeq}{\phi}{\longrightarrow}
+  U_{i j}
+    \underoverset{\simeq}{\psi^{-1}}{\longrightarrow}
+  \psi^{-1}(U_i j)
+$$
+
+such that
+
+
+$$
+  \gamma_i^\psi = \alpha \circ \gamma_i^\phi
+$$
+
+for $i \in \{1,2\}$. The [[chain rule]] now relates the derivatives of these functions as
+
+$$
+  \frac{d}{d t} \gamma_i^\psi
+    \;=\;
+  (D \alpha) \circ \left(\frac{d}{d t} \gamma_i^\phi\right)
+  \,.
+$$
+
+Since $\alpha$ is a [[diffeomorphism]] and since derivatives of diffeomorphisms are linear isomorphisms, this says that the derivative of $\gamma_i^\phi$ is related to that of $\gamma_i^\psi$ by a linear isomorphism, and hence
+
+$$
+  \left(
+   \frac{d}{d t}(\gamma_1)^\phi = \frac{d}{d t}(\gamma_2^\phi)
+  \right)
+    \;\Leftrightarrow\;
+  \left(
+   \frac{d}{d t}(\gamma_1)^\psi = \frac{d}{d t}(\gamma_2^\psi)
+  \right)
+  \,.
+$$
+
+Finally, that either relation is an equivalence relation is immediate.
+
+
+=--
+
+
+
++-- {: .num_defn #TangentVector}
+###### Definition
+**([[tangent vector]])
+
+Let $X$ be a [[differentiable manifold]] and $x \in X$ a point. Then a _tangent vector_ on $X$ at $x$ is an [[equivalence class]] of the the tangency equivalence relation (def. \ref{TangencyRelationOnSmoothCurves}, lemma \ref{TangencyIsEquivalenceRelation}).
+
+The set of all tangent vectors at $x \in X$ is denoted $T_x X$.
+
+=--
+
++-- {: .num_lemma #LinearTangentSpace}
+###### Lemma
+**([[real vector space]] structure on [[tangent vectors]])**
+
+For $X$ a [[differentiable manifold]] of [[dimension]] $n$ and $x \in X$ any point,  let $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U_i \subset X$ be a [[chart]] with $x \in U_i$.
+
+Then there is induced a [[bijection]] of sets
+
+$$
+  \mathbb{R}^n \overset{\simeq}{\longrightarrow}  T_x X
+$$
+
+from the $n$-dimensional [[Cartesian space]] to the set of tangent vectors at $x$ (def. \ref{TangentVector}) given by sending $\vec v \in \mathbb{R}^n$ to the equivalence class of the following smooth curve:
+
+$$
+  \array{
+    \mathbb{R}^1
+      &\overset{\gamma^\phi_{(-)}}{\longrightarrow}&
+   \mathbb{R}^n
+      &\underoverset{\simeq}{\phi}{\longrightarrow}&
+    U_i
+    \subset X
+    \\
+    t
+      &\overset{\phantom{AAA}}{\mapsto}&
+    t \vec v + \phi(x)
+      &\overset{\phantom{AAA}}{\mapsto}&
+    \phi^{-1}(t \vec v + \phi(x))
+  }
+  \,.
+$$
+
+Moreover, the structure of a [[real vector space]] inherited by $T_x X$ from $\mathbb{R}^n$ via $\phi$ this way is independent of the choice of $\phi$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The bijectivity of the map is immediate from the fact that the first derivative of $\gamma_{\vec v}^\phi$ is $\vec v$. The independency from the choice of chart follows as in the proof of lemma \ref{TangencyIsEquivalenceRelation}.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**(notation for tangent vectors in a chart)**
+
+Under the bijection of lemma \ref{LinearTangentSpace} one often denotes the tangent vector  corresponding to the the $i$-th canonical [[linear basis|basis]] vector of $\mathbb{R}^n$ by
+
+$$
+  \frac{\partial}{\partial x^i}
+  \phantom{AA} \text{or just } \phantom{AA}
+  \partial_i
+$$
+
+because under the identification of tangent vectors with [[derivations]] on the algebra of [[differentiable functions]] on $X$ as [above](#AlgebraicDefinition) then it acts as the operation of taking the $i$th [[partial derivative]]. The general tangent vector corresponding to $v \in \mathbb{R}^n$ is then denoted by
+
+$$
+  \underoverset{i = 1}{n}{\sum}
+  v^i
+  \frac{\partial}{\partial x^i}
+  \phantom{AA} \text{or just } \phantom{AA}
+  \underoverset{i = 1}{n}{\sum} v^i \partial_i
+  \,.
+$$
+
+
+Notice that this identification depends on the choice of [[chart]], which is left implicit in this notation.
+
+Sometimes, notably in texts on [[thermodynamics]], one augments this notation to indicate the chart being used by listing the remaining coordinate functions as subscripts. For instance if two functions $f,g$ on a 2-dimensional manifold are used as coordinate functions for a local chart (i.e. so that $x^1 = f$ and $x^2 = g$ ), then one write
+
+$$
+  (\partial/\partial f)_g
+  \phantom{AA}
+  (\partial/\partial g)_f
+$$
+
+for the tangent vectors $\frac{\partial}{\partial x^1}$ and $\frac{\partial}{\partial x^2}$, respectively.
+
+=--
+
++-- {: .num_defn #TangentSpace}
+###### Definition
+**([[tangent space]])**
+
+For $X$ a [[differentiable manifold]] and $x \in X$ a point, then the _[[tangent space]]_ of $X$ at $x$ is the set $T_x X$ of [[tangent vectors]] at $x$ (def. \ref{TangentVector}) regarded as a [[real vector space]] via lemma \ref{LinearTangentSpace}.
+
+=--
+
++-- {: .num_defn #TangentBundle}
+###### Definition
+**([[tangent bundle]])**
+
+Let $X$ be a [[differentiable manifold]] with [[atlas]] $\left\{ \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X\right\}_{i \in I}$.
+
+Equip the set of all tangent vectors (def. \ref{TangentVector})
+
+$$
+  T X
+  \;\coloneqq\;
+  \underset{x \in X}{\sqcup} T_x X
+$$
+
+with a [[topological space|topology]] $\tau_{T X}$ by declaring a [[subset]] $U \subset T X$ to be an [[open subset]] precisely if for all [[charts]] $\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X$ then its [[preimage]] under
+
+$$
+  \array{
+    \mathbb{R}^{2n}
+      \simeq
+    \mathbb{R}^n \times \mathbb{R}^n
+      & \overset{d \phi}{\longrightarrow} &
+    T X
+    \\
+    (x, \vec v)
+      &\overset{\phantom{AAA}}{\mapsto}&
+    \frac{d}{d v} \phi(x)
+  }
+$$
+
+is open in the [[Euclidean space]] $\mathbb{R}^{2n}$ with its [[metric topology]].
+
+Define an [[atlas]] on this topological space by
+
+$$
+  \left\{
+    \mathbb{R}^{2n}
+      \underoverset{\simeq}{d \phi_i}{\to}
+    T (U_i)
+     \subset
+    T X
+  \right\}_{i \in I}
+  \,.
+$$
+
+The resulting [[differentiable manifold]] $T X$ is called the _total space of the tangent bundle_ of $X$.
+
+Equipped with the [[function]]
+
+$$
+  \array{
+     T X &\overset{\phantom{AA}p_x \phantom{AA}}{\longrightarrow}& X
+     \\
+     (x,v) &\overset{\phantom{AAAA}}{\mapsto}& x
+  }
+$$
+
+this is called the _tangent bundle_ of $X$.
+
+=--
+
++-- {: .num_lemma #DifferentiableTangentBundle}
+###### Lemma
+**(tangent bundle is differentiable vector bundle)**
+
+The total space of the tangent bundle def. \ref{TangentBundle} is a [[differentiable manifold]] in that
+
+1. $(T X, \tau_{T X})$ is a [[paracompact Hausdorff space]];
+
+1. The [[gluing functions]] of the atlas $\left\{ \mathbb{R}^{2n} \underoverset{\simeq}{d \phi_i}{\to} T U_i \subset  T X \right\}_{i \in I}$ are differentiable.
+
+Moreover, the function $p_X \colon T X \to X$ is [[continuous function|continuous]] and of the same degree of [[differentiable function|differentiability]] as the differentiable structure on $X$.
+
+Finally, this makes the tangent bundle into a real [[vector bundle]] over $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+(...) pretty straightforward (...)
+
+=--
+
++-- {: .num_prop #FunctionsBetweenDifferentiableManifoldsDifferentials}
+###### Proposition
+**([[differentials]] of [[differentiable functions]] between [[differentiable manifolds]])**
+
+Let $X$ and $Y$ be [[differentiable manifolds]] and let $f \;\colon\; X \longrightarrow Y$ be a [[differentiable function]]. Then the operation of postcomposition which takes differentiable curves in $X$ to differentiable curves in $Y$
+
+$$
+  \array{
+     Hom_{Diff}(\mathbb{R}^1, X)
+       &\overset{f \circ (-)}{\longrightarrow}&
+     Hom_{Diff}(\mathbb{R}^1, Y)
+     \\
+     \left(
+       \mathbb{R}^1 \overset{\gamma}{\to} X
+     \right)
+     &\overset{\phantom{AAA}}{\mapsto}&
+     \left(
+       \mathbb{R}^1 \overset{f \circ \gamma}{\to} Y
+     \right)
+  }
+$$
+
+descends at each point $x \in X$ to the tangency [[equivalence relation]] (def. \ref{TangencyRelationOnSmoothCurves}, lemma \ref{TangencyIsEquivalenceRelation}) to yield a function on sets of [[tangent vectors]] (def. \ref{TangentVector}), called the _[[differential]]_ $d f|_{x}$ of $f$ at $x$
+
+$$
+  d f|_{x}
+    \;\colon\;
+  T_x X
+   \longrightarrow
+  T_{f(x)} Y
+  \,.
+$$
+
+Moreover:
+
+1. ([[linear function|linear dependence]] on the tangent vector) these differentials are [[linear functions]] with respect to the vector space structure on the [[tangent spaces]] from lemma \ref{LinearTangentSpace}, def. \ref{TangentSpace};
+
+1. ([[differentiable function|differentiable dependence]] on the base point) globally they yield a [[homomorphism]] of differentiable real vector bundles  between the [[tangent bundles]] (def. \ref{TangentBundle}, lemma \ref{DifferentiableTangentBundle}), called the global _[[differential]]_ $d f$ of $f$
+
+   $$
+     d f \;\colon\; T X \longrightarrow T Y
+     \,.
+   $$
+
+1. ([[chain rule]]) The assignment $f \mapsto d f$ respects [[composition]] in that for $X$, $Y$, $Z$ three [[differentiable manifolds]] and for
+
+   $$
+     X
+       \overset{\phantom{A}f\phantom{A}}{\longrightarrow}
+     Y
+       \overset{\phantom{A}g\phantom{A}}{\longrightarrow}
+     Z
+   $$
+
+   two [[composition|composable]] [[differentiable functions]] then their [[differentials]] satisfy
+
+   $$
+     d(g \circ f) = (d g) \circ (d f)
+     \,.
+   $$
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+In the language of [[category theory]] the statement of prop. \ref{FunctionsBetweenDifferentiableManifoldsDifferentials} says that forming [[tangent bundles]] $T X$ of [[differentiable manifolds]] $X$ and [[differentials]] $d f$  of [[differentiable functions]] $f \colon X \to Y$ constitutes a [[functor]]
+
+$$
+  T \;\colon\; Diff \longrightarrow Vect(Diff)
+$$
+
+from the [[category]] [[Diff]] of [[differentiable manifolds]] to the category of differentiable real vector bundles.
+
+=--
+
+
 $\,$
 
-* [[embedding of smooth manifolds]]
+### Embeddings 
 
-* [[tangent bundle]]
++-- {: .num_defn}
+###### Definition
+**([[immersion of differentiable manifolds|immersion]] and [[submersion of differentiable manifolds]])
+
+Let $f \colon X \longrightarrow Y$ be a [[differentiable function]] between [[differentiable manifolds]].
+
+If for each $x \in X$ the [[differential]] (prop. \ref{FunctionsBetweenDifferentiableManifoldsDifferentials})
+
+$$
+  d f\vert_x \;\colon\; T_x X \longrightarrow T_{f(x)} Y
+$$
+
+is...
+
+1. ...an [[injective function]] then $f$ is called an [[immersion of differentiable manifolds]]
+
+1. ...a [[surjective function]] then $f$ is called a [[submersion of differentiable manifolds]].
+
+=--
+
+
++-- {: .num_defn #SmoothManifoldsEmbedding}
+###### Definition
+**([[embedding of smooth manifolds]])**
+
+An _[[embedding]] of [[smooth manifolds]]_ is a [[smooth function]] $f : X \hookrightarrow Y$ between [[smooth manifolds]] $X$ and $Y$ such that
+
+1. $f$ is an [[immersion of smooth manifolds|immersion]];
+
+1. the underlying [[continuous function]] is an [[embedding of topological spaces]].
+
+A _closed embedding_ is an embedding such that the image $f(X) \subset Y$ is a [[closed subset]].
+
+=--
+
++-- {: .num_example }
+###### Nonexample
+**(immersions that are not embeddings)**
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/Immersion.png" width="150">
+</div>
+
+Consider an immersion $f \;\colon\; (a,b) \to \mathbb{R}^2$ of an [[open interval]] into the [[Euclidean plane]] (or the [[2-sphere]]) as shown on the right. This is not a [[embedding of smooth manifolds]]: around the points where the image crosses itself, the function is not even injective, but even
+a#t the points where it just touches itself, the pre-images under $f$ of open subsets of $\mathbb{R}^2$ do not exhaust the open subsets of $(a,b)$, hence do not yield the [[subspace topology]].
+
+
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/Figure8Immersion.png" width="400">
+</div>
+
+As a concrete examples, consider the function  $(sin(2-), sin(-)) \;\colon\; (-\pi, \pi) \longrightarrow \mathbb{R}^2$. While this is an immersion and [[injective]], it fails to be an embedding due to the points at $t = \pm \pi$ "touching" the point at $t = 0$.
+
+> graphics grabbed from <a href="https://books.google.de/books?id=xygVcKGPsNwC&lpg=PP1&pg=PA86&redir_esc=y#v=onepage&q&f=false">Lee</a>
+
+=--
+
++-- {: .num_prop #ProperInjectiveImmersionsAreEquivalentlyTheClosedEmbeddings}
+###### Proposition
+**(proper injective immersions are equivalently the closed embeddings)**
+
+Let $X$ and $Y$ be [[smooth manifolds]], and let $f \colon X \to Y$ be a [[smooth function]]. Then the following are equivalent
+
+1. $f$ is a [[proper map|proper]] [[injective function|injective]]  [[immersion]];
+
+1. $f$ is a closed embedding (def. \ref{SmoothManifoldsEmbedding}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since topological manifolds are [[locally compact topological spaces]] (remark \ref{TopologicalManifoldsAreLocallyCompact}), 
+this follows directly since [injective proper maps into locally compact spaces are equivalently closed embeddings by prop. \ref{InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings}.
+
+=--
+
++-- {: .num_example #CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace}
+###### Proposition
+
+For every [[compact topological space|compact]] [[smooth manifold]] $X$ (of [[finite number|finite]] [[dimension]]), there exists some $k \in \mathbb{N}$ such that $X$ has an embedding (def. \ref{SmoothManifoldsEmbedding}) into the [[Euclidean space]] of dimension $k$:
+
+$$
+  X \overset{\text{embd}}{\hookrightarrow} \mathbb{R}^k
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let
+
+$$
+  \{\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\longrightarrow} U_i \subset X\}_{i \in I}
+$$
+
+be an [[atlas]] exhibiting the [[smooth structure]] of $X$. In particular this is an [[open cover]], and hence by compactness there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
+
+$$
+  \{\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X\}_{i \in J \subset I}
+$$
+
+is still an open cover.
+
+Since $X$ is a [[smooth manifold]], there exists a [[partition of unity]] $\{f_i \in C^\infty(X,\mathbb{R})\}_{i \in J }$ subordinate to this cover with _[[smooth functions]]_ $f_i$ (by [this prop.](partition+of+unity#SmoothManifoldAdmitsSmoothPartitionsOfUnity)).
+
+This we may use to extend the inverse [[chart]] identifications
+
+$$
+  X \supset \;\; U_i \underoverset{\simeq}{\psi_i}{\longrightarrow} \mathbb{R}^n
+$$
+
+to smooth functions
+
+$$
+  \hat \psi_i \;\colon\; X \to \mathbb{R}^{n}
+$$
+
+by setting
+
+$$
+  \hat \phi_i
+  \;\colon\;
+   x
+  \mapsto
+  \left\{
+    \array{
+       f_i(x) \cdot \psi_i(x) &\vert& x \in U_i \subset X
+       \\
+       0 &\vert& \text{otherwise}
+    }
+  \right.
+  \,.
+$$
+
+The idea now is to combine all these functions to obtain an injective function
+
+$$
+  (\hat \psi_i)_{i \in J}
+  \;\colon\;
+  X \longrightarrow (\mathbb{R}^n)^{\vert J\vert }
+  \simeq
+  \mathbb{R}^{n \cdot {\vert J \vert }}
+  \,.
+$$
+
+But while this is injective, it need not be an [[immersion]], since the [[derivatives]] of the product functions $f_i \cdot \psi_i$ may vanish, even though the derivatives of the two factors do not vanish separately. However this is readily fixed by adding yet more ambient coordinates and considering the function
+
+$$
+  (\hat \psi_i, f_i)_{i \in I}
+  \;\colon\;
+  X
+    \longrightarrow
+  \left(\mathbb{R}^{n+1})\right)^{\vert J \vert}
+  \simeq
+  \mathbb{R}^{(n+1)\cdot {\vert J \vert}}
+  \,.
+$$
+
+This is an immersion. Hence it remains to see that it is also an [[embedding of topological spaces]].
+
+By [this prop](embedding+of+topological+spaces#OpenClosedContinuousInjectionsAreEmbeddings) it is sufficient to see that the injective continuous function is a [[closed map]]. But this follows generally since $X$ is a [[compact topological space]] by assumption, and since $Y$ is a [[Hausdorff topological space]] by definition of manifolds, and since [[maps from compact spaces to Hausdorff spaces are closed and proper]].
+
+=--
+
+
+
+
+
 
 $\,$
-
-(...)
-
-
-
-
-
-$\,$
-
-$\,$
-
-$\,$
-
-(...)
-
-$\,$
-
 
 ***
 
