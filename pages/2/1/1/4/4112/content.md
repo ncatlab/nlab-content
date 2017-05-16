@@ -113,7 +113,7 @@ $$
     \\
     (a_i)_{i \in \mathbb{N}}
     &\overset{\phantom{AAAA}}{\mapsto}&
-    \underoverset{i = 0}{\infty}{\sum} \frac{2 a_i}{ 3^n}
+    \underoverset{i = 0}{\infty}{\sum} \frac{2 a_i}{ 3^{i+1}}
   }
 $$
 
