@@ -275,6 +275,8 @@ The other direction is the statement of prop. \ref{OpenCoverOfParacompactHausdor
 
 ## Related statements
 
+* [[paracompact Hausdorff spaces are normal]]
+
 * [[compact spaces equivalently have converging subnet of every net]]
 
 * [[Hausdorff spaces are sober]]
