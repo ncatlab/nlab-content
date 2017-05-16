@@ -205,7 +205,11 @@ But every [[open neighbourhood]] of $\{0\}$ contains at least $(-\epsilon, \epsi
 
 =-- 
 
+## Properties
 
+* [[second-countable regular spaces are paracompact]]
+
+* [[paracompact Hausdorff spaces are normal|paracompact Hausdorff spaces are regular]]
 
 
 
