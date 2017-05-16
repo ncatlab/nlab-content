@@ -18,7 +18,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[topological closure|closure]], [[topological interior|interior]], [[topological boundary|boundary]]
 
-* [[separation axiom]]
+* [[separation axiom|separation]], [[sober topological space|sobriety]]
   
 * [[continuous function]], [[homeomorphism]]
 
@@ -61,7 +61,9 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[sober space]]
 
-* [[compact space]], [[proper map]] ([[sequentially compact topological space|sequentially compact]], [[countably compact topological space|countably compact]], [[paracompact space|paracompact]], [[countably paracompact topological space|countably paracompact]], [[locally compact topological space|locally compact]], [[strongly compact topological space|strongly compact]]) 
+* [[compact space]], [[proper map]] 
+
+  [[sequentially compact topological space|sequentially compact]], [[countably compact topological space|countably compact]], [[locally compact topological space|locally compact]], [[sigma-compact topological space|sigma-compact]], [[paracompact space|paracompact]], [[countably paracompact topological space|countably paracompact]], [[strongly compact topological space|strongly compact]]
 
 * [[compactly generated space]]
 
@@ -85,6 +87,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[discrete space]], [[codiscrete space]]
 
+* [[Sierpinski space]]
+
 * [[order topology]], [[specialization topology]], [[Scott topology]]
 
 * [[Euclidean space]]
@@ -107,28 +111,31 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[Zariski topology]]
 
-* [[Cantor space]], [[Sierpinski space]]
+* [[Cantor space]], [[Mandelbrot space]]
+
+* [[Peano curve]]
 
 * [[long line]], [[line with two origins]]
 
 * [[K-topology]], [[Dowker space]]
 
-* [[Warsaw circle]]
+* [[Warsaw circle]], [[Hawaiian earring space]]
 
-* [[Peano curve]]
 
 
 ## Basic statements
 
 * [[Hausdorff spaces are sober]]
 
+* [[schemes are sober]]
+
 * [[CW-complexes are Hausdorff spaces]]
 
 * [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]]
 
-* [[compact Hausdorff spaces are normal|(para-)compact Hausdorff spaces are normal]]
+* [[paracompact Hausdorff spaces are normal]]
 
-* [[continuous image of a compact space is compact]]
+* [[continuous images of compact spaces are compact]]
 
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
@@ -151,6 +158,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 * [[closed injections are embeddings]]
 
 * [[proper maps to locally compact spaces are closed]]
+
+* [[injective proper maps to locally compact spaces are equivalently the closed embeddings]]
 
 * [[locally compact and sigma-compact spaces are paracompact]]
 
