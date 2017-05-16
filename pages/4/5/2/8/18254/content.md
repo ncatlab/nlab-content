@@ -1,0 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
++-- {: .num_prop}
+###### Proposition
+**(locally compact and sigma-compact spaces are paracompact)**
+
+Let $X$ be a [[topological space]] which is
+
+1. [[locally compact topological space|locally compact]];
+
+1. [[sigma-compact topological space|sigma-compact]].
+
+Then $X$ is also [[paracompact topological space|paracompact]].
+
+=--
+
+## Related concepts
+
+* [[second-countable regular spaces are paracompact]]
+
+## References
+
+* [[Akhil Mathew]], _[Paracompactness](https://amathew.wordpress.com/2010/08/17/paracompactness/)_
+
