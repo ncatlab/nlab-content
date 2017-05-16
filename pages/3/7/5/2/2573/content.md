@@ -24,7 +24,7 @@ Axioms of replacement and collection become useful, however, whenever [[recursio
 
 >what the axiom of replacement is mainly needed for in mathematical practice is to define families of sets indexed by some set I carrying some inductive structure as, typically, the set $N$ of natural numbers.[^streicher]
 
-[^streicher]: T. Streicher ([2005, p.79](#Streicher05)). See there for further discussion of the role of replacement for _mathematics beyond $V_{\omega +\omega}$_ and the handling of similar iterated collection processes in toposes by universes.
+[^streicher]: [[Thomas Streicher]] ([2005, p.79](#Streicher05)). See there for further discussion of the role of replacement for _mathematics beyond $V_{\omega +\omega}$_ and the handling of similar iterated collection processes in toposes by universes.
 
 There are many variations on these axiom schemata, but any given system should only need one.
 
@@ -47,7 +47,7 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 
 ## Related pages
 
-* Streicher, Lawvere, McLarty et al, *Categorical formulations of replacement*, March 2008. ([link](http://www.mta.ca/~cat-dist/archive/2008/08-3))
+* [[Thomas Streicher]], [[William Lawvere]], [[Colin McLarty]] et al, *Categorical formulations of replacement*, March 2008. ([link](http://www.mta.ca/~cat-dist/archive/2008/08-3))
 
 * MO-discussion: _Who needs Replacement anyway ?_  ([link](http://mathoverflow.net/questions/208711/who-needs-replacement-anyway))
 
