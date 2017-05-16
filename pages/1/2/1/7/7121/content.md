@@ -52,6 +52,7 @@ Generally, the development of string theory has shown that its [[worldsheet]] is
 
 * B. Dragovich, A. Yu. Khrennikov, S. V. Kozyrev, I. V. Volovich, _$p$-Adic Mathematical Physics_ ([arXiv:0904.4205](http://arxiv.org/abs/0904.4205))
 
+* B. Dragovich, A. Yu. Khrennikov, S. V. Kozyrev, I. V. Volovich, E. I. Zelenov, _$p$-Adic Mathematical Physics: The First 30 Years_ ([arXiv:1705.04758](https://arxiv.org/abs/1705.04758))
 
 ### String theory
 
