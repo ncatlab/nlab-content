@@ -32,6 +32,53 @@ Then $X$ is [[paracompact topological space|paracompact]].
 +-- {: .proof}
 ###### Proof
 
+Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] of $X$. We need to find a refinement to a locally finite open cover.
+
+By assumption, there exists a locally finite closed refinement $\phi \colon J \to I$,  $\{C_j \subset X\}_{j \in J}$. By definition this means that for each $x \in X$ there is an open neighbourhood $U_x$ which intersects only a finite number of the $C_j$. Choosing such for each $x$ yields an open cover
+
+$$
+  \{U_x \subset X\}_{x \in X}
+  \,.
+$$
+
+Again by assumption, this cover itself has a locally finite closed refinement $\phi \colon H \to X$, $\{C_h \subset X  \}_{h \in H}$. Being a refinement, each $C_h$ still intersects only finitely many of the $C_j$.
+
+Define then
+
+$$
+  V_j
+   \coloneqq
+  X \backslash \left( 
+    \underset
+       {
+         {h \in H}
+         \atop
+         { C_h \cap C_j = \emptyset}
+       }
+       {\cup} C_h
+  \right)
+$$
+
+for each $j \in J$.
+
+Observe that
+
+1. $V_j$ is an open set. 
+
+   To see this, it is sufficient to find for each point $x \in V_j$ an open neighbourhood $V_x \subset V_j$. By the local finiteness of the $C_h$ there exists an open $V_x \subset X$ which intersects only a finite subset of the $C_h$ and among this there is the finite subset $\{C_{h_1}, \cdots, C_{h_n}\}$ of those $C_h$ which do not intersect $C_j$.  Hence $V_x \backslash ( C_{h_1} \cup \cdots \cup C_{h_n} )$ is an open neighbourhood of $x$ contained in $V_j$.
+
+1. $\{V_j \subset X\}_{j \in J}$ is a cover of $X$
+
+   because $V_j \subpset C_j$ for each $j$ and since $\{C_j \subset X\}_{j \in J}$ is a cover.
+
+Hence $\{V_j \subset X\}_{j \in J}$ is an open cover of $X$. 
+
+Observe that this cover is locally finite:
+
+(...)
+
+Now by the assumption that $\{C_h \subset X\}_{h \in H}$ is locally finite, there exists an open neighbourhood $U_x$ of $x$ which intersects only finitely many of the $C_h$
+
 
 =--
 
