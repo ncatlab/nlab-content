@@ -121,20 +121,20 @@ By lemma \ref{LocallyCompactAndSigmaCompactImpliesGoodNestedCover} there exists 
 
 1. $V_n \subset V_{n+1}$.
 
-Notice that the [[complement]] $Cl(V_{n+1}) \backslash V_n$ is compact, since $Cl(V_{n+1})$ is compact and $V_n$ is open.
+Notice that the [[complement]] $Cl(V_{n+1}) \setminus V_n$ is compact, since $Cl(V_{n+1})$ is compact and $V_n$ is open.
 
-By this compactness, the cover $\{U_i \subset X\}_{i \in I}$ regarded as a cover of the [[subspace]] $Cl(V_{n+1})\backslash V_n$ has a finite subcover $\{U_i \subset X\}_{i \in J_n}$ indexed by a finite set $J_n \subset I$, for each $n \in \mathbb{N}$.
+By this compactness, the cover $\{U_i \subset X\}_{i \in I}$ regarded as a cover of the [[subspace]] $Cl(V_{n+1})\setminus V_n$ has a finite subcover $\{U_i \subset X\}_{i \in J_n}$ indexed by a finite set $J_n \subset I$, for each $n \in \mathbb{N}$.
 
 We consider the sets of intersections
 
 $$
   \mathcal{U}_n 
     \coloneqq
-  \{ U_i \cap ( V_{n+2} \backslash Cl(V_{n-1}) )  \}
+  \{ U_i \cap ( V_{n+2} \setminus Cl(V_{n-1}) )  \}
   \,.
 $$
 
-Since $V_{n+2} \backslash Cl(V_{n-1})$ is open, and since $Cl(V_{n+1}) \subset V_{n+2}$ by construction, this is still an open cover of $Cl(V_{n+1})\backslash V_n$. We claim now that 
+Since $V_{n+2} \setminus Cl(V_{n-1})$ is open, and since $Cl(V_{n+1}) \subset V_{n+2}$ by construction, this is still an open cover of $Cl(V_{n+1})\setminus V_n$. We claim now that 
 
 $$
   \mathcal{U} \coloneqq \underset{n\in \mathbb{N}}{\cup} \mathcal{U}_n
@@ -144,9 +144,9 @@ is a locally finite refinement of the original cover, as required:
 
 1. $\mathcal{U}$ is a refinement, since by construction each element in $\mathcal{U}_n$ is contained in one of the $U_i$;
 
-1. $\mathcal{U}$ is still covering because by construction it covers $Cl(V_{n+1}) \backslash V_n$ for all $n \in \mathbb{N}$, and since by the nested nature of the cover $\{V_n \subset X\}_{n \in \mathbb{N}}$ also  $\{Cl(V_{n+1}) \backslash V_n\}_{n \in \mathbb{N}}$ is a cover of $X$.
+1. $\mathcal{U}$ is still a covering because by construction it covers $Cl(V_{n+1}) \setminus V_n$ for all $n \in \mathbb{N}$, and since by the nested nature of the cover $\{V_n \subset X\}_{n \in \mathbb{N}}$ also  $\{Cl(V_{n+1}) \setminus V_n\}_{n \in \mathbb{N}}$ is a cover of $X$.
 
-1. $\mathcal{U}$ is locally finite because each point $x \in X$ has an open neighbourhood of the form $V_{n+2} \backslash Cl(V_{n-1})$ (since these also form an ope cover, by the nestedness) and since by construction this has trivial intersection with $\mathcal{U}_{\geq n+3}$ and since all $\mathcal{U}_n$ are finite, so that also $\underset{k \lt n+3}{\cup} \mathcal{U}_k$ is finite.
+1. $\mathcal{U}$ is locally finite because each point $x \in X$ has an open neighbourhood of the form $V_{n+2} \setminus Cl(V_{n-1})$ (since these also form an open cover, by the nestedness) and since by construction this has trivial intersection with $\mathcal{U}_{\geq n+3}$ and since all $\mathcal{U}_n$ are finite, so that also $\underset{k \lt n+3}{\cup} \mathcal{U}_k$ is finite.
 
 
 =--
