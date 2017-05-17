@@ -16,7 +16,7 @@
 
 ## Idea
 
-A [[cover]] which is locally a [[finite cover]].
+A locally finite cover is a [[cover]] which is locally a [[finite cover]].
 
 ## Definition
 
@@ -26,7 +26,9 @@ A [[cover]] which is locally a [[finite cover]].
 
 Let $(X,\tau)$ be a [[topological space]].
 
-An [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finite_ if for all points $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only finitely many elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
+An [[cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finite_ if for all points $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only finitely many elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
+
+If $\{U_i \subset X\}_{i \in I}$ is an [[open cover]], then it is called a _locally finite open cover_.
 
 =--
 
@@ -103,7 +105,10 @@ $$
 
 * [[paracompact topological space]]
 
-[[!redirects locally finite open cover]]
 [[!redirects locally finite covers]]
+
+[[!redirects locally finite open cover]]
 [[!redirects locally finite open covers]]
+
 [[!redirects locally finite closed cover]]
+[[!redirects locally finite closed covers]]
