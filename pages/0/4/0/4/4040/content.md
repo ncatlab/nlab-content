@@ -177,6 +177,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[Heine-Borel theorem]]
 
+* [[Michael's theorem]]
+
 * [[Brouwer's fixed point theorem]]
 
 * [[topological invariance of dimension]]
