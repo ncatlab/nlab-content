@@ -160,7 +160,7 @@ As with the concept of [[compact topological spaces]] ([this remark](compact#spa
 
 * special cases
 
-  * the [[Sorgenfrey line]] is a good example of a paracompact space that doesn\'t fit into other general classes of paracompact spaces (in particular, it is not metrisable, locally compact, or a manifold);
+  * the [[Sorgenfrey line]] is a good example of a paracompact space that doesn\'t fit into other general classes of paracompact spaces (in particular, it is not [[metrisable topological space|metrisable]], locally compact, or a manifold);
 
 * counterexamples
 
