@@ -10181,7 +10181,7 @@ of it admits a [[base for a topology|base for its topology]] $\beta_X$ which is 
 ###### Example
 **([[sigma-compact topological space]])**
 
-A [[topological space]] is called _[[sigma-compact topological space|sigma-compact]]_ if it is the 
+A [[topological space]] is called _[[sigma-compact topological space|sigma-compact]]_ if it is the
 [[union]] of a [[countable set]] of [[compact subsets]].
 
 
@@ -10810,34 +10810,95 @@ $\,$
 ###### Definition
 **([[locally Euclidean topological space]])**
 
-A [[topological space]] $X$ is _[[locally Euclidean topological space|locally Euclidean]]_ if every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which is [[homeomorphism|homeomorphic]] to the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]].
+A [[topological space]] $X$ is _[[locally Euclidean topological space|locally Euclidean]]_ if every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which is [[homeomorphism|homeomorphic]] to the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]]:
+
+$$
+  \mathbb{R}^n
+    \overset{\phantom{AA} \simeq \phantom{AA}}{\longrightarrow}
+  U_x
+    \subset
+  X
+  \,.
+$$
+
 
 =--
 
+The "local" [[topological properties]] of Euclidean space are inherited by locally Euclidean spaces:
+
++-- {: .num_prop}
+###### Proposition
+**([[locally Euclidean spaces]] are $T_1$)**
+
+Every [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) satisfies the $T_1$ [[separation axiom]];
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Let $x \neq y$ be two distinct points in the locally Euclidean space. We need to show that there is an open neighbourhood $U_x$ around $x$ that does not contain $y$.
+
+By definition there is a Euclidean open neighbourhood $E_x$ around $y$. If this does not contain $y$, then we may choose $U_x \coloneqq E_x$. If it does, then $x \neq y$ are equivalently two distinct point in this Euclidean space $E_x \simeq \mathbb{R}^n$. But Euclidean space, as every [[metric space]], is $T_1$, and hence we may find an open neighbourhood $U_x \subset E_x$ not intersecting $y$.
+
+=--
+
+But the "global" topological properties of Euclidean space are not generally inherited by locally Euclidean spaces. This sounds obvious, but notice that also Hausdorff-ness is a "global property":
+
 +-- {: .num_remark}
 ###### Remark
-**(locally Euclidean spaces are $T_1$ and locally compact, but not necessarily $T_2$)**
+**(locally Euclidean spaces are not necessarily $T_2$)**
 
 It might superficially seem that every locally Euclidean space (def. \ref{LocallyEuclideanSpace}) is necessarily a [[Hausdorff topological space]], since [[Euclidean space]], like any [[metric space]], is Hausdorff, and since by definition the neighbourhood of every point in a locally Euclidean spaces looks like Euclidean space.
 
 But this is not so, see the counter-example \ref{NonHausdorffManifolds} below, Hausdorffness is a "non-local condition", as opposed to the $T_0$ and $T_1$ [[separation axioms]].
 
-Every locally Euclidean space is $T_1$: Let $x \neq y$ be two distinct points in the locally Euclidean space. We need to show that there is an open neighbourhood $U_x$ around $x$ that does not contain $y$. By definition there is a Euclidean open neighbourhood $E_x$ around $y$. If this does not contain $y$, then we may set $U_x \coloneqq E_x$. If it does, then $x \neq y$ are two distinct point in this Euclidean space $E_x \simeq \mathbb{R}^n$. But Euclidean space is $T_1$, and hence we may find an open neighbourhood $U_x \subset E_x$ not intersecting $y$.
+=--
 
-Similarly every locally Euclidean space is a [[locally compact topological space]].
++-- {: .num_prop #RegularityConditionsForTopologicalManifoldsComparison}
+###### Proposition
+
+Let $X$ be a [[topological space]] which is
+
+1. [[Hausdorff topological space|Hausdorff]],
+
+1. [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace})
+
+1. [[connected topological space|connected]].
+
+Then the following are equivalent:
+
+1. $X$ is [[paracompact topological space]];
+
+1. $X$ is [[second-countable topological space|second countable]].
+
+In particular if $X$ is as above but not necessarily connected, then the following are equivalent
+
+1. $X$ is [[paracompact topological space]] and has a [[countable set]] of [[connected components]],
+
+1. $X$ is [[second-countable topological space|second countable]]
+
+1. $X$ is [[sigma-compact topological space|sigma-compact]].
 
 =--
+
+Proof is for instance here [pdf](http://math.harvard.edu/~hirolee/pdfs/2014-fall-230a-lecture-02-addendum.pdf)
 
 
 +-- {: .num_defn #TopologicalManifold}
 ###### Definition
 **([[topological manifold]])**
 
-A _topological manifold  (also "$n$-fold") is a [[topological space]] which is
+A _topological manifold is a [[topological space]] which is
 
-1. [[locally Euclidean topological space|locally Euclidean]],
+1. [[locally Euclidean topological space|locally Euclidean]] (def. \ref{LocallyEuclideanSpace}),
 
-1. [[paracompact Hausdorff topological space|paracompact Hausdorff]].
+1. [[paracompact Hausdorff topological space|paracompact Hausdorff]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{ParacompactSpace}).
+
+If the local [[Euclidean spaces]] $\mathbb{R}^n \overset{\simeq}{\to} U \subset X$ are all of [[dimension]] $n$
+for a fixed $n \in \mathbb{N}$, then the topological manifold is said to be of dimension $n$, too.
+Sometimes one also says "$n$-fold" in this case.
 
 =--
 
@@ -10846,11 +10907,12 @@ A _topological manifold  (also "$n$-fold") is a [[topological space]] which is
 ###### Remark
 **(varying terminology)**
 
-There is some variance in the choice of regularity condition in def. \ref{TopologicalManifold}. Often it is required in addition to being a [[paracompact Hausdorff space]] that a manifold have a [[countable set]] of [[connected components]], which then means that it is [[sigma-compact topological space|sigma-compact]].
+There is some variance in the choice of regularity condition in def. \ref{TopologicalManifold}.
+Often it is required that a manifold be [[sigma-compact topological space|sigma-compact]].
+But by prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} this definition differs from def. \ref{TopologicalManifold}
+only if there are non-countably many connected components.
 
-This is the relevant condition for the [[Whitney embedding theorem]] to apply.
-
-Very rarely one considers [[non-Hausdorff topological spaces]] as manifolds, see example \ref{NonHausdorffManifolds}.
+Sometimes, but very rarely, authors speak of [[non-Hausdorff topological spaces]] as manifolds, see example \ref{NonHausdorffManifolds}.
 
 =--
 
@@ -10858,7 +10920,7 @@ Very rarely one considers [[non-Hausdorff topological spaces]] as manifolds, see
 ###### Nonexample
 **([[non-Hausdorff manifolds]])**
 
-An example of a [[topological space]] which is [[locally Euclidean topological space|locally Euclidean]] 
+An example of a [[topological space]] which is [[locally Euclidean topological space|locally Euclidean]]
 as in def. \ref{TopologicalManifold} but a [[non-Hausdorff topological space]], and hence not a [[topological manifold]] in the sense
 of def. \ref{TopologicalManifold}, is the [[line with two origins]] (example \ref{LineWithTwoOrigins}).
 
@@ -11003,7 +11065,7 @@ By the formulas given in [this prop.](stereographic+projection#StandardStereogra
 </div>
 
 Since [[differentiable manifolds]] are [[locally Euclidean spaces]] whose [[gluing functions]]
-respect the [[infinitesimal analysis]] on [[Euclidean space]], they constitute a globalization of 
+respect the [[infinitesimal analysis]] on [[Euclidean space]], they constitute a globalization of
 [[infinitesimal analysis]] from [[Euclidean space]] to more general [[topological spaces]].
 In particular a [[differentiable manifold]] has associated to each point a _[[tangent space]]_
 of [[vectors]] that linearly approximate the manifold in the [[infinitesimal neighbourhood]]
@@ -11011,10 +11073,10 @@ of that point. The union of all these [[tangent spaces]] is called the _[[tangen
 of the [[differentiable manifold]].
 
 The tangent bundle, via the [[frame bundle]] that is [[associated bundle|associated]] to it
-is the basis for all actual _[[geometry]]_: By equipping tangent bundles with 
+is the basis for all actual _[[geometry]]_: By equipping tangent bundles with
 ([[torsion of a G-structure|torsion-free]]) "[[G-structures]]"
-one encodes all sorts of flavors of geometry, such as [[Riemannian geometry]], 
-[[conformal geometry]], [[complex geometry]], [[symplectic geometry]], and generally 
+one encodes all sorts of flavors of geometry, such as [[Riemannian geometry]],
+[[conformal geometry]], [[complex geometry]], [[symplectic geometry]], and generally
 [[Cartan geometry]].
 
 
@@ -11430,7 +11492,7 @@ from the [[category]] [[Diff]] of [[differentiable manifolds]] to the category o
 
 $\,$
 
-### Embeddings 
+### Embeddings
 
 +-- {: .num_defn}
 ###### Definition
@@ -11504,7 +11566,7 @@ Let $X$ and $Y$ be [[smooth manifolds]], and let $f \colon X \to Y$ be a [[smoot
 +-- {: .proof}
 ###### Proof
 
-Since topological manifolds are [[locally compact topological spaces]] (remark \ref{TopologicalManifoldsAreLocallyCompact}), 
+Since topological manifolds are [[locally compact topological spaces]] (remark \ref{TopologicalManifoldsAreLocallyCompact}),
 this follows directly since [injective proper maps into locally compact spaces are equivalently closed embeddings by prop. \ref{InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings}.
 
 =--
