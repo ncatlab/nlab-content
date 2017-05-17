@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -12,6 +23,8 @@ $$
 $$
 
 for all $x \in X$ and $r \in (0,\infty) \subset \mathbb{R}$.
+
+A topological space whose topology is the metric topology for some [[metric space]] structure on its underlying set is called a _[[metrizable topological space]]_.
 
 ## Related concepts
 
