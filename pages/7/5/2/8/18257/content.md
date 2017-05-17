@@ -1,0 +1,46 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[topological space]] $(X,\tau)$ is called _metrisable_ if there exists the stucture of a [[metric space]] $(X,d)$ on the underlying set, such that $\tau$ is the corresponding [[metric topology]].
+
+## Metrisability theorem
+
+Various theorems state sufficient conditions for a topological space to be metrisable:
+
+(...)
+
+## References
+
+See also
+
+* Wikipedia, _[Metrization theorem](https://en.wikipedia.org/wiki/Metrization_theorem)_
+
+[[!redirects metrisable topological spaces]]
+
+[[!redirects metrizable topological space]]
+[[!redirects metrizable topological spaces]]
+
+[[!redirects metrisable space]]
+[[!redirects metrisable spaces]]
+
+[[!redirects metrizable space]]
+[[!redirects metrizable spaces]]
+
+
+[[!redirects metrisable]]
+[[!redirects metrizable]]
