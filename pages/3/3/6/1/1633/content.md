@@ -17,9 +17,9 @@
 
 A [[topological space]] is called _locally compact_ if every point has a [[compact topological space|compact]] [[neighbourhood]].
 
-Or rather, if one does not at the same time assume that the space is [[Hausdorff topological space]], then one needs to require that these compact neighbourhoods exist in a controlled way, e.g. such that one may find them inside every prescribed open neighbourhood (def. \ref{LocallyCompactSpace} below).
+Or rather, if one does not at the same time assume that the space is [[Hausdorff topological space]], then one needs to require that these compact neighbourhoods exist in a controlled way, e.g. such that one may find them inside every prescribed open neighbourhood (def. \ref{LocalCompactnessViaCompactNeighbourhoodBase} below) and possbily such that they are topological closures of smaller open neighbourhoods (def. \ref{LocallyCompactSpace} below).
 
-There are various definitions in use, which all coincide if the space is also [[Hausdorff topological space|Hausdorff]].
+There are various definitions in use, which all coincide if the space is also [[Hausdorff topological space|Hausdorff]] (prop. \ref{InHausdorffSpacesDefinitionsOfLocalCompactnessAgree} below).
 
 A locally compact [[Hausdorff space|Hausdorff]] space may also be called a _local compactum_; compare at _[[compactum]]_.
 
@@ -30,10 +30,12 @@ Local compactness is one of the conditions that are often required by default fo
 
 ## Definition
 
-+-- {: .num_defn}
-###### Definition
 
-A [[topological space]] is __locally compact__ if every point has a [[neighborhood base]] consisting of [[compact subspaces]]. 
++-- {: .num_defn #LocalCompactnessViaCompactNeighbourhoodBase}
+###### Definition
+**(local compactness via compact neighbourhood base)**
+
+A [[topological space]] is _locally compact_ if every point has a [[neighborhood base]] consisting of [[compact subspaces]]. This means that for every point $x \in X$ every [[open neighbourhood]] $U_x \supset \{x\}$ contains a [[compact topological space|compact]] [[neighbourhood]] $K_x \subset U_x$.
 
 =--
 
@@ -41,10 +43,9 @@ Alternatively:
 
 +-- {: .num_defn #LocallyCompactSpace}
 ###### Definition
-**(locally compact topological space)**
+**(local compactness via compact closures inside neighbourhoods)**
 
-A [[topological space]] $X$ is called _[[locally compact topological space|locally compact]]_
-if for every point $x \in X$ and every [[open neighbourhood]] $U_x \supset \{x\}$
+A [[topological space]] $X$ is called _locally compact_ if for every point $x \in X$ and every [[open neighbourhood]] $U_x \supset \{x\}$
 there exists a smaller open neighbourhood $V_x \subset U_x$ whose [[topological closure]]
 is [[compact topological space|compact]] and still contained in $U$:
 
@@ -52,6 +53,38 @@ $$
   \{x\} \subset V_x \subset \underset{\text{compact}}{Cl(V_x)} \subset U_x
   \,.
 $$
+
+=--
+
++-- {: .num_prop #InHausdorffSpacesDefinitionsOfLocalCompactnessAgree}
+###### Proposition
+
+If $X$ is a [[Hausdorff topological space]] then definition \ref{LocalCompactnessViaCompactNeighbourhoodBase} is equivalent to definition \ref{LocallyCompactSpace}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Generally definition \ref{LocallyCompactSpace} implies definition \ref{LocalCompactnessViaCompactNeighbourhoodBase}. We need to show that Hausdorffness implies the converse.
+
+Hence assume that for every point $x \in X$ then every open neighbourhood $U_x \supset \{x\}$ contains a compact neighbourhood. We need to show that it then also contains the closure $Cl(V_x)$ of a smaller open neighbourhood and such that this closure is compact.
+
+So let $K_x \subset U_x$ be a compact neighbourhood. Being a neighbourhood, it has a non-trivial [[interior]] which is an open neighbouhood
+
+$$
+  \{x\} \subset Int(K_x) \subset K_x \subset U_x \subset X
+  \,.
+$$
+
+Since [[compact subspaces of Hausdorff spaces are closed]], it follows that $K_x \subset X$ is a closed subset. This implies that the [[topological closure]] of its interior as a subset of $X$ is still contained in $K_x$ (since the topological closure is the smallest closed subset containing the given subset): $Cl(Int(K_x)) \subset K_x$. Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]], $Cl(Int(K_x))$ is also closed as a subset of the compact subspace $K_x$.
+Now since [[closed subsets of compact spaces are compact]], it follows that this closure is also compact as a subspace of $K_x$, and since [[continuous images of compact spaces are compact]], it finally follows that it is also compact as a subspace of $X$:
+
+$$
+  \{x\} \subset Int(K_x) \subset \underset{\text{compact}}{Cl(Int(K_x))} \subset \underset{}{K_x} \subset U_x \subset X
+  \,.
+$$
+
 
 =--
 
