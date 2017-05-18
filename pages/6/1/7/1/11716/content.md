@@ -55,9 +55,9 @@ such that
    $$
      X 
        \overset{f}{\longrightarrow}
-     X
-       \overset{g}{\longrightarrow}
      Y
+       \overset{g}{\longrightarrow}
+     Y/X
        \overset{h}{\longrightarrow}
      \Sigma X
    $$
@@ -67,16 +67,16 @@ such that
    $$
      V \otimes X 
        \overset{id_V \otimes f}{\longrightarrow}
-     V\otimes X
+     V\otimes Y
        \overset{id_V \otimes g}{\longrightarrow}
-     V \otimes Y
+     V \otimes Y/X
        \overset{id_V \otimes h}{\longrightarrow}
      V \otimes (\Sigma X)
        \simeq
      \Sigma(V \otimes X)
    $$
 
-   in $CofSeq$, where the equivalence at the end is $e_{X,V}\circ \tau_{V, \Sigma Y}$.
+   in $CofSeq$, where the equivalence at the end is $e_{X,V}\circ \tau_{V, \Sigma X}$.
 
 Jointly this says that the isomorphisms $e$ give $V \otimes (-)$ the structure of a [[triangulated functor]], for all $V$.
 
@@ -139,7 +139,7 @@ This is ([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97))
 
 ## Examples
 
-* The archetypical example is the [[stable homotopy category]] equipped with the [[smash product of spectra]]. For details ssee at _[[model structure on orthogonal spectra]]_ the section _[The monoidal stable homotopy category](model+structure+on+orthogonal+spectra#TheMonoidalStableHomotopyCategory)_.
+* The archetypical example is the [[stable homotopy category]] equipped with the [[smash product of spectra]]. For details see at _[[model structure on orthogonal spectra]]_ the section _[The monoidal stable homotopy category](model+structure+on+orthogonal+spectra#TheMonoidalStableHomotopyCategory)_.
 
 ## Related concepts
 
