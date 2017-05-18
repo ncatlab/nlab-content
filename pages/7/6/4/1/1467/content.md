@@ -219,7 +219,25 @@ Regarding the second statement:
 
 By the axioms on a [[topological space|topology]], the intersection of an arbitrary set of [[closed subsets]] is again closed. Hence the intersection of the closed compact subspaces is closed. But since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] then for each $i \in I$ the intersection is a closed subspace of the compact space $K_i$. Since [[closed subspaces of compact spaces are compact]] it follows that the intersection is actually compact, too.
 
+=--
 
++-- {: .num_prop #IntersectionCompactWithOpen}
+###### Proposition
+**(complements of compact with open subspaces is compact)**
+
+Let $X$ be a [[topological space]]. Let
+
+1. $K\subset X$ be a [[compact topological space|compact]] [[subspace]];
+
+1. $U \subset X$ be an [[open subset]].
+
+Then the [[complement]]
+
+$$
+  K \setminus U \subset X
+$$
+
+is itself a compact subspace.
 
 =--
 
