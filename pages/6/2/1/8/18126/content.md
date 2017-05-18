@@ -8274,6 +8274,45 @@ This is not a finite cover, and removing any one of its patches $U_n$, it ceases
 Below we prove the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}) which generalizes example \ref{CompactClosedInterval}
 and example \ref{NonCompactEuclideanSpace}.
 
++-- {: .num_example #UnionsAndIntersectionOfCompactSubspaces}
+###### Example
+**(unions and intersection of compact spaces)**
+
+Let $(X,\tau)$ be a [[topological space]] and let
+
+$$
+  \{K_i \subset X\}_{i \in I}
+$$
+
+be a [[set]] of [[compact topological space|compact]] [[subspaces]].
+
+1. If $I$ is a [[finite set]], then the [[union]] $\underset{i \in I}{\cup} K_i \subset X$ is itself a compact subspace;
+
+1. If all $K_i \subset X$ are also [[closed subsets]] then their [[intersection]] $\underset{i \in I}{\cap} K_i \subset X$ is itself a compact subspace.
+
+=--
+
++-- {: .num_example #IntersectionCompactWithOpen}
+###### Example
+**(complement of compact by open subspaces is compact)**
+
+Let $X$ be a [[topological space]]. Let
+
+1. $K\subset X$ be a [[compact topological space|compact]] [[subspace]];
+
+1. $U \subset X$ be an [[open subset]].
+
+Then the [[complement]]
+
+$$
+  K \setminus U \subset X
+$$
+
+is itself a compact subspace.
+
+=--
+
+
 In [[analysis]], the [[extreme value theorem]] (example \ref{ExtremeValueTheorem} below) asserts that a [[real number|real]]-valued [[continuous function]]
 on the [[bounded subset|bounded]] [[closed interval]] (def. \ref{OpenAndClosedIntervals}) attains its
 [[maximum]] and [[minimum]]. The following is the generalization of this statement to general topological spaces,
@@ -9417,7 +9456,7 @@ identification on the bottom right mapping space out of the point space.
 
 $\,$
 
-We close with two observations on [[proper maps]] into locally compact spaces, which will be useful 
+We close with two observations on [[proper maps]] into locally compact spaces, which will be useful
 in the discussion of [[embeddings of smooth manifolds]] [below](#EmbeddingOfSmoothManifolds).
 
 +-- {: .num_prop}
@@ -9441,8 +9480,8 @@ Then $f$ is a [[closed map]] (def. \ref{OpenMap}).
 +-- {: .proof}
 ###### Proof
 
-Let $C \subset X$ be a [[closed subset]]. We need to show that $f(C) \subset Y$ is closed. 
-By lemma \ref{UnionOfOpensGivesClosure} this means we need to show 
+Let $C \subset X$ be a [[closed subset]]. We need to show that $f(C) \subset Y$ is closed.
+By lemma \ref{UnionOfOpensGivesClosure} this means we need to show
 that every $y \in Y \backslash f(C)$ has an open neighbourhood $U_y \supset \{y\}$ not intersecting $f(C)$..
 
 By local compactness of $(Y,\tau_Y)$ (def. \ref{LocallyCompactSpace}), $y$ has an open neighbourhood $V_y$ whose topological closure $Cl(V_y)$ is compact. Hence since $f$ is proper, also $f^{-1}(Cl(V_y)) \subset X$ is compact. Then also the intersection $C \cap f^{-1}(Cl(V_y))$ is compact, and since [[continuous images of compact spaces are compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}) so is
@@ -9716,10 +9755,10 @@ hence to the [[product topological space]] (example \ref{InfiniteProductTopologi
 the closed interval with itself.
 
 Since the closed interval $[-\epsilon, \epsilon]$
-is compact by example \ref{CompactClosedInterval}, the binary [[Tychonoff theorem]] (prop. \ref{TychonoffTheorem})
+is compact by example \ref{CompactClosedInterval}, the [[Tychonoff theorem]] (prop. \ref{TychonoffTheorem})
 implies that this $n$-cube is compact.
 
-Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]], lemma \ref{SubsetsInClosedSubspace},
+Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] (lemma \ref{SubsetsInClosedSubspace})
 the closed subset $S \subset \mathbb{R}^n$ is also closed as a subset $S \subset [-\epsilon, \epsilon]^n$.
 Since [[closed subspaces of compact spaces are compact]]
 (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}) this implies that $S$ is compact.
@@ -9858,7 +9897,7 @@ Every [[compact Hausdorff topological space]] (def. \ref{CompactTopologicalSpace
 +-- {: .proof}
 ###### Proof
 
-First we claim that $(X,\tau)$ is [[regular topological space|regular]]. To show this, we need to find for each point $x \in X$ and each disjoint closed subset $Y \in X$ disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_Y \supset Y$. But since [[closed subspaces of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), the subset $Y$ is in fact compact, and hence this is the statement of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}.
+First we claim that $(X,\tau)$ is [[regular topological space|regular]]. To show this, we need to find for each point $x \in X$ and each closed subset $Y \in X$ not containing $x$ disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_Y \supset Y$. But since [[closed subspaces of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), the subset $Y$ is in fact compact, and hence this is the statement of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}.
 
 Next to show that $(X,\tau)$ is indeed normal, we apply the idea of the proof of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces} once more:
 
@@ -9901,12 +9940,12 @@ Let $x \in X$ be a point and let $U_x \subset X$ an open neighbourhood.  We need
 whose closure is compact and still contained in $U_x$.
 
 By the nature of the [[subspace topology]] there exists an open subset $V_x\subset K$ such that $U_x = X \cap V_x$.
-Since $X$ is assumed to be open, it follows that $U$ is also open as a subset of $K$.
+Since $X \subset K$ is assumed to be open, it follows that $U_x$ is also open as a subset of $K$.
 Since [[compact Hausdorff spaces are normal]] (prop. \ref{CompactHausdorffSpacesAreNormal}) it
 follows by prop. \ref{T4InTermsOfTopologicalClosures} that
 there exists a smaller open neighbourhood $W_x \subset K$ whose [[topological closure]] is still contained in $U_x$,
 and since [[closed subspaces of compact spaces are compact]] (prop. \ref{ClosedSubsetsOfCompactSpacesAreCompact}),
-this toopological closure is compact:
+this topological closure is compact:
 
 $$
   \{x\} \subset W_x \subset \underset{\text{cpt}}{Cl(W_x)} \subset V_x \subset K
@@ -9984,7 +10023,7 @@ itself still Hausdorff.
 
 +-- {: .num_prop #QuotientProjectionsOutOfCompactHausdorffSpacesAreClosedPreciselyIfTheCodomainIsHausdorff}
 ###### Proposition
-**(quotient projections out of compact Hausdorff spaces are closed precisely if the codomain is Hausdorff)**
+**([[quotient projections out of compact Hausdorff spaces are closed precisely if the codomain is Hausdorff]])**
 
 Let
 
@@ -10013,10 +10052,15 @@ The implicaton $\left( (Y, \tau_Y)\, \text{Hausdorff} \right) \Rightarrow \left(
 is given by prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}. We need to show the converse.
 
 Hence assume that $\pi$ is a closed map. We need to show that for every pair of
-distinct point $y_1 \neq y_2 \in Y$ there exist [[open neighbourhoods]] $U_{y_1}, U_{y_2} \in \tau_Y$
+distinct points $y_1 \neq y_2 \in Y$ there exist [[open neighbourhoods]] $U_{y_1}, U_{y_2} \in \tau_Y$
 which are disjoint, $U_{y_1} \cap U_{y_2} = \emptyset$.
 
-Therefore consider the [[pre-images]]
+First notice that the [[singleton]] subsets $\{x\}, \{y\} \in Y$ are closed. This is because they are images
+of singleton subsets in $X$, by surjectivity of $f$, and because singletons in a Hausdorff space are closed
+by prop, \ref{TnImplications} and prop. \ref{T1InTermsOfTopologicalClosure}, and because images under $f$ of 
+closed subsets are closed, by the assumption that $f$ is a closed map.
+
+It follows that the [[pre-images]]
 
 $$
   C_1 \coloneqq \pi^{-1}(\{y_1\})
@@ -10025,10 +10069,7 @@ $$
   \,.
 $$
 
-Observe that these are [[closed subsets]], because in the Hausdorff space $(Y, \tau_Y)$,
-which is in particular $T_1$ by lemma \ref{TnImplications}, the singleton subsets $\{y_i\}$ are closed
-by prop. \ref{T1InTermsOfTopologicalClosure}, and since pre-images under continuous functions preserves closed subsets by
-prop. \ref{ClosedSubsetContinuity}.
+are [[closed subsets]] of $X$.
 
 Now since [[compact Hausdorff spaces are normal]] (prop. \ref{CompactHausdorffSpacesAreNormal}) it follows (by def. \ref{NormalSpace}) that we may find disjoint open subset $U_1, U_2 \in \tau_X$
 such that
@@ -10438,7 +10479,8 @@ By lemma \ref{LocallyCompactAndSigmaCompactImpliesGoodNestedCover} there exists 
 
 1. $V_n \subset V_{n+1}$.
 
-Notice that the [[complement]] $Cl(V_{n+1}) \setminus V_n$ is compact, since $Cl(V_{n+1})$ is compact and $V_n$ is open.
+Notice that the [[complement]] $Cl(V_{n+1}) \setminus V_n$ is compact, since $Cl(V_{n+1})$ is compact and $V_n$ is open,
+by example \ref{compact+space#IntersectionCompactWithOpen}.
 
 By this compactness, the cover $\{U_i \subset X\}_{i \in I}$ regarded as a cover of the [[subspace]] $Cl(V_{n+1})\setminus V_n$ has a finite subcover $\{U_i \subset X\}_{i \in J_n}$ indexed by a finite set $J_n \subset I$, for each $n \in \mathbb{N}$.
 
