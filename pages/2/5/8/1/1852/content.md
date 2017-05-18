@@ -138,7 +138,7 @@ See at _[[paracompact Hausdorff spaces are normal]]_ for details
 
 
 +-- {: .num_example }
-###### Counter-Example
+###### Nonexample
 
 The [[real numbers]] equipped with their [[K-topology]] $\mathbb{R}_K$ are a [[Hausdorff topological space]] which is not a [[regular Hausdorff space]] (hence in particular not a normal Hausdorff space).
 
