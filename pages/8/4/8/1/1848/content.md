@@ -20,10 +20,12 @@ A [[space]] (such as a [[topological space]]) is _second-countable_ if, in a cer
 
 ## Definitions
 
-+-- {: .num_defn}
++-- {: .num_defn #SecondContablTopologicalSpace}
 ###### Definition
+**(second-countable topological space)**
 
-A [[topological space]] is __second-countable__ if it has a [[countable set|countable]] [[topological basis|basis]] $B$.
+A [[topological space]] is __second-countable__ if it has a [[base for a topology|base for its topology]] consisting of a [[countable set]] of [[subsets]].
+
 =--
 
 +-- {: .num_defn}
@@ -43,17 +45,75 @@ Then a second-countable space is simply one with a countable weight.
 
 ## Examples
 
-A [[compact space|compact]] [[metric space]] is second-countable. A [[separable space|separable]] metric space, e.g., a [[Polish space]], is second-countable. (It is *not* true that separable [[first-countable spaces]] are second-countable; a counterexample is the [[real line]] equipped with the half-open or lower limit topology that has as basis the collection of half-open intervals $[a, b)$.) 
++-- {: .num_example #SecondCountableEuclideanSpace}
+###### Example
+**([[Euclidean space]] is second-countable)**
 
-A [[topological manifold]] is second-countable iff it is [[paracompact space|paracompact]] and has countably many [[connected components]].
+Let $n \in \mathbb{N}$. Consider the [[Euclidean space]] $\mathbb{R}^n$ with its [[Euclidean norm|Euclidean]] [[metric topology]]. Then $\mathbb{R}^n$ is second countable.
 
-A [[countable set|countable]] [[coproduct]] of second-countable spaces is second-countable. 
+A [[countable set]] of [[topological base|base open subsets]] is given by the [[open balls]] $B^\circ_x(\epsilon)$ of [[rational number|rational]] [[radius]] $\epsilon \in \mathbb{Q}_{\geq 0} \subset \mathbb{R}_{\geq 0}$ and centered at points with [[rational number|rational]] [[coordinates]]: $x \in \mathbb{Q}^n \subset \mathbb{R}^n$.
 
-If $X$ is second-countable and there is an [[open map|open]] [[surjection]] $f: X \to Y$, then $Y$ is second-countable. 
+=--
 
-Countable [[products]] of second-countable spaces are second-countable. [[subspace|Subspaces]] of second-countable spaces are second-countable. 
 
-For second-countable [[separation axiom|T_3]] spaces $X, Y$, if $X$ is locally compact, then the [[exponentiable space|exponential]] $Y^X$ is second-countable. Cf. [[Urysohn metrization theorem]] and [[Polish space]]. I ([[Todd Trimble]]) am uncertain to what extent the $T_3$ assumption can be removed. 
+
+
++-- {: .num_example }
+###### Example
+
+A [[compact space|compact]] [[metric space]] is second-countable. 
+
+=--
+
++-- {: .num_example }
+###### Example
+
+A [[separable space|separable]] [[metric space]], e.g., a [[Polish space]], is second-countable. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+It is *not* true that separable [[first-countable spaces]] are second-countable; a counterexample is the [[real line]] equipped with the half-open or lower limit topology that has as basis the collection of half-open intervals $[a, b)$.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+A [[Hausdorff space|Hausdorff]] [[locally Euclidean space]] is second-countable precisely  it is [[paracompact space|paracompact]] and has a [[countable set]] of  [[connected components]]. In this case it is called a _[[topological manifold]]_.
+
+See at _[[topological space]]_ [this prop.](#RegularityConditionsForTopologicalManifoldsComparison).
+
+=--
+
++-- {: .num_example}
+###### Example
+
+A [[countable set|countable]] [[coproduct]] ([[disjoint union space]]) of second-countable spaces is second-countable. 
+
+Countable [[products]] ([[product topological spaces]]) of second-countable spaces are second-countable. 
+
+[[subspace|Subspaces]] of second-countable spaces are second-countable. 
+
+=--
+
++-- {: .num_exampl}
+###### Example
+
+If $X$ is second-countable and there is an [[open map|open]] [[surjection]] $f \colon X \to Y$, then $Y$ is second-countable. 
+
+=--
+
++-- {: .num_example }
+###### Example
+
+For second-countable [[separation axiom|T_3]] spaces $X, Y$, if $X$ is [[locally compact topological space|locally compact]], then the [[mapping space]] $Y^X$ with the [[compact-open topology]] is second-countable. 
+
+Cf. [[Urysohn metrization theorem]] and [[Polish space]]. I ([[Todd Trimble]]) am uncertain to what extent the $T_3$ assumption can be removed. 
+
+=--
 
 ## Properties
 
