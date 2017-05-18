@@ -197,7 +197,7 @@ For the converse, assume that $X$ is Hausdorff.
 
 Since $X^\ast = X \cup \{\infty\}$ as underlying sets, we only need to check that for $x \in X$ any point, then there is an open neighbourhood $U_x \subset X \subset X^\ast$ and an open neighbourhood $V_\infty \subset X^\ast$ of the extra point which are disjoint.
 
-That $X$ is locally compact implies by definition that there exists an open neighbourhood $U_k \supset \{x\}$ whose [[topological closure]] $CK \coloneqq Cl(U_x)$ is a closed compact neighbourhood $CK \supset {x}$. Hence 
+That $X$ is locally compact implies by definition that there exists an open neighbourhood $U_k \supset \{x\}$ whose [[topological closure]] $CK \coloneqq Cl(U_x)$ is a closed compact neighbourhood $CK \supset \{x\}$. Hence 
 
 $$
   V_\infty \coloneqq (X \backslash CK ) \cup \{\infty\} \subset X^\ast
