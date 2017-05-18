@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
 
 # Countable sets
 * table of contents
@@ -28,15 +39,33 @@ If you accept the [[axiom of choice]], then there is really nothing more to say 
 Of course, the terms are even less standardised here.
 
 
-## Properties
 
-The [[empty set]] is countable; any uncountable set must be [[inhabited set|inhabited]].  Any (Kuratowski)-[[finite set]] is countable; any uncountable set must be [[infinite set|infinite]].  A denumerable set is precisely an infinite countable set; sometimes this is written as a _countably infinite set_.
 
-Classically, a countable set is either [[finite set|finite]] or denumerable, although this need not hold constructively.  We do have, however, that a countable set is either empty or inhabited, which is classically trivial but need not hold constructively for every set.
+## Examples and Properties
 
-Arguably, [[set theory]] as such begins with Georg Cantor\'s proof that the set of [[real number]]s is uncountable.  Given any infinite set, its [[power set]] is uncountable by [[Cantor's theorem]].
 
-In some forms of constructive mathematics, especially in the Russian school, it is assumed (or provable from other assumptions) that *every* set is a [[subset]] of a countable set.  The fact the the set of real numbers is uncountable still applies, however, as the inclusion map of the subset need not [[split monomorphism|split]].  In particular, the set of [[computable number]]s is a subset of a countable set, but to prove that it is itself countable requires [[excluded middle]].
+The set of [[real numbers]] is uncountable.  (Arguably, [[set theory]] as such begins with [[Georg Cantor]]\'s [[proof]] of this statement.)
+
+Given any [[infinite set]], its [[power set]] is uncountable by [[Cantor's theorem]].
+
+The [[empty set]] is countable. 
+
+Any uncountable set must be [[inhabited set|inhabited]].  
+
+Any (Kuratowski)-[[finite set]] is countable.
+
+Any uncountable set must be [[infinite set|infinite]].  
+
+A [[denumerable set]] is precisely an [[infinite set|infinite]] countable set; sometimes this is written as a _countably infinite set_.
+
+[[countable unions of countable sets are countable]]
+
+
+
+
+In [[classical mathematics]] a countable set is either [[finite set|finite]] or [[denumerable set|denumerable]]. This need not hold in [[constructive mathematics]].  We do have, however, that a countable set is either empty or inhabited, which is classically trivial but need not hold constructively for every set.
+
+In some forms of [[constructive mathematics]], especially in the Russian school, it is assumed (or provable from other assumptions) that *every* set is a [[subset]] of a countable set.  The fact the the set of real numbers is uncountable still applies, however, as the inclusion map of the subset need not [[split monomorphism|split]].  In particular, the set of [[computable number]]s is a subset of a countable set, but to prove that it is itself countable requires [[excluded middle]].
 
 ## Related concepts
 
