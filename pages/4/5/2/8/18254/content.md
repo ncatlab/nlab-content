@@ -21,7 +21,9 @@
 
 Let $X$ be a [[topological space]] which is
 
-1. [[locally compact topological space|locally compact]];
+1. [[locally compact topological space|locally compact]] 
+
+   in the sense that every open neighbourhood contains the topological closure of a smaller open neighbourhood;
 
 1. [[sigma-compact topological space|sigma-compact]].
 
