@@ -19,3 +19,4 @@ Jacques Penon is a category theorist who has worked on [[synthetic differential 
 * [[Eugenia Cheng]], [[Michael Makkai]], _A note on the Penon definition of $n$-category_ Cahiers de Topologie et Geometrie Differentielle Categoriques 50 (2009) p. 83-101, [arXiv:0907.3961](http://arxiv.org/abs/0907.3961)
 
 category: people
+[[!redirects Penon]]
