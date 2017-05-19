@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+
 # Contents
 * table of contents
 {: toc}
@@ -62,7 +74,7 @@ Let
 
 1. $f \;\colon\; (X, \tau_X) \longrightarrow (Y, \tau_Y)$ be a [[closed map]].
 
-1. $C \subset X$ be a [[closed subset]] (def. \ref{ClosedSubset}) which is $f$-[[saturated subset|saturatd]];
+1. $C \subset X$ be a [[closed subset]] which is $f$-[[saturated subset|saturated]];
 
 1. $U \supset C$ an [[open subset]] containing $C$
 
@@ -108,6 +120,10 @@ Since $C$ is saturated, this holds precisely if $X \backslash U \cap C = \emptys
 that $U \supset C$.
 
 =--
+
+## Applications
+
+* [[quotient projections out of compact Hausdorff spaces are closed precisely if the codomain is Hausdorff]]
 
 
 [[!redirects saturated subset]]
