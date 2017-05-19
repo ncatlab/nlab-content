@@ -22,6 +22,9 @@ A dual of the [[graviton]] under [[electric-magnetic duality]] (e.g. [Hull 01](#
 
 Dual gravitons have been considered in particular for manifestly EM-duality-symmetric formulations of [[supergravity]] [[Lagrangians]]. See for instance ([de Wit-Nicolai 13, section 6](#deWitNicolai13)) and see at _[3-d supergravity -- possible gaugings](3-dimensional+supergravity#PossibleGaugings)_.
 
+Dual graviton can be coupled to topological [[BF-theory]] in _D_ = 5 ([Bizdadea 09](#Bizdadea09)), so it should also be coupled with linearized [[gravity as a BF theory]] in extra dimensions _D_ > 4.
+
+
 ## References
 
 The dual graviton was maybe first discussed in 
@@ -44,3 +47,8 @@ Discussion in terms of [[E11]] [[U-duality]] is in
 
 * {#Wess11} [[Peter West]], section N (pp. 19) of _Generalised geometry, eleven dimensions and $E_{11}$_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
 [[!redirects dual gravitons]]
+
+Coupling with topological [[BF-theory]] in
+
+* {#Bizdadea09} C. Bizdadea, E. M. Cioroianu, A. Danehkar, M. Iordache, S. O. Saliu, S. C. Sararu, _Consistent interactions of dual linearized gravity in D=5: couplings with a topological BF model_, The European Physical Journal C (Particles and Fields) October 2009, 63:491 ([arXiv:0908.2169](https://arxiv.org/abs/0908.2169))
+
