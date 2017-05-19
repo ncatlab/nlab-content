@@ -158,6 +158,8 @@ is still open and disjoint from the remaining $V_k$, hence disjoint from all of 
 
 * [[second-countable regular spaces are paracompact]]
 
+* [[regular Lindelöf spaces are paracompact]]
+
 * [[Hausdorff spaces are sober]]
 
 * [[compact subspaces of Hausdorff spaces are closed]]
