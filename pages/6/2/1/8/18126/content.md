@@ -19,8 +19,6 @@ used to transparently summarize some conceptually important aspects of the theor
 [[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]].
 We close with discussion of the basics of [[topological manifolds]] and [[differentiable manifolds]],
 laying the foundations for [[differential geometry]].
-The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
-and ends with their first application to the classification of [[covering spaces]].
 
 $\,$
 
@@ -1387,6 +1385,11 @@ This we turn to below in example \ref{InfiniteProductTopologicalSpace}, after in
 of [[limits]] in the [[category of topological spaces]].
 
 =--
+
+
+
+$\,$
+
 
 The following examples illustrate how all these ingredients and construction principles
 may be combined.
@@ -3783,6 +3786,38 @@ One indication that [[topological invariance of dimension]] is not an _elementar
 is that a related "intuitively obvious" statement is in fact false: One might think that there is no
 _[[surjective function|surjective]]_ [[continuous function]] $\mathbb{R}^{n_1} \to  \mathbb{R}^{n_2}$ if $n_1 \lt n_2$.
 But there are: these are called the _[[Peano curves]]_.
+
+
+
+$\,$
+
+If a space is homeomorphic to a disjoint union space, then it is disconnected:
+
++-- {: .num_defn #ConnectedSpace}
+###### Definition
+**([[connected topological space]])**
+
+A [[topological space]] $(X, \tau)$ is _connected_ if the following equivalent conditions hold:
+
+1. For all pairs of topological spaces $(X_1, \tau_1), (X_2, \tau_2)$ such that $(X, \tau)$ is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) to their [[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces})
+
+   $$
+     (X,\tau) \simeq (X_1,\tau_1) \sqcup (X_2,\tau_2)
+   $$
+
+   then exactly one of the two spaces is the [[empty space]].
+
+1. For all pairs of [[open subsets]] $U_1, U_2 \subset X$ if
+
+   $$
+     U_1 \cup U_2 = X \phantom{A}\text{and} \phantom{A} U_1 \cap U_2 = \emptyset
+   $$
+
+   then exactly one of the two subsets is the [[empty set]]
+
+1. if a [[subset]] $CO \subseteq X$ is [[clopen set|clopen]] (both closed and open), then $ CO = X$ if and only if $CO$ is [[inhabited set|inhabited]].
+
+=--
 
 
 
@@ -10215,8 +10250,8 @@ of it admits a [[base for a topology|base for its topology]] $\beta_X$ which is 
 
 =--
 
-+-- {: .num_example }
-###### Example
++-- {: .num_defm #CompactSigma}
+###### Definition
 **([[sigma-compact topological space]])**
 
 A [[topological space]] is called _[[sigma-compact topological space|sigma-compact]]_ if it is the
@@ -10512,22 +10547,6 @@ is a locally finite refinement of the original cover, as required:
 
 
 
-
-+-- {: .num_prop }
-###### Proposition
-**([[second-countable regular spaces are paracompact]])**
-
-Let $X$ be a [[topological space]] which is
-
-1. [[second-countable topological space|second-countable]];
-
-1. [[regular topological space|regular]].
-
-Then $X$ is [[paracompact topological space]].
-
-=--
-
-This is a consequence of [[Michael's theorem]].
 
 $\,$
 
@@ -10994,7 +11013,7 @@ for every point $x \in X$ every [[open neighbourhood]] $U_x \supset \{x\}$ conta
 If $X$ is a [[Hausdorff topological space]], then the two definitions of [[locally compact topological space|local compactness]]
 of $X$
 
-1.  definition \ref{LocalCompactnessViaCompactNeighbourhoodBase} (every open neighbourhood contains a compact neighbourhood)
+1.  definition \ref{LocalCompactnessViaCompactNeighbourhoodBase} (every open neighbourhood contains a compact neighbourhood),
 
 1. definition \ref{LocallyCompactSpace} (every open neighbourhood contains a compact neighbourhood that is the topological closure of an open neighbourhood)
 
@@ -11005,7 +11024,7 @@ are equivalent.
 +-- {: .proof}
 ###### Proof
 
-Generally definition \ref{LocallyCompactSpace} implies definition \ref{LocalCompactnessViaCompactNeighbourhoodBase}. We need to show that Hausdorffness implies the converse.
+Generally, definition \ref{LocallyCompactSpace} directly implies definition \ref{LocalCompactnessViaCompactNeighbourhoodBase}. We need to show that Hausdorffness implies the converse.
 
 Hence assume that for every point $x \in X$ then every open neighbourhood $U_x \supset \{x\}$ contains a compact neighbourhood. We need to show that it then also contains the closure $Cl(V_x)$ of a smaller open neighbourhood and such that this closure is compact.
 
@@ -11049,15 +11068,16 @@ $$
 
 The "local" [[topological properties]] of Euclidean space are inherited by locally Euclidean spaces:
 
-The "local" [[topological properties]] of Euclidean space are inherited by locally Euclidean spaces:
 
 +-- {: .num_prop}
 ###### Proposition
-**([[locally Euclidean spaces]] are $T_1$-[[separation axiom|seprated]] and [[locally compact topological space|locally compact]])**
+**([[locally Euclidean spaces]] are $T_1$-[[separation axiom|separated]], [[sober topological space|sober]] and [[locally compact topological space|locally compact]])**
 
 Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}). Then
 
 1. $X$ satisfies the $T_1$ [[separation axiom]] (def. \ref{HausdorffTopologicalSpace});
+
+1. $X$ is [[sober topological space|sober]] (def. \ref{Sober});
 
 1. $X$ is [[locally compact topological space|locally compact]] according to def. \ref{LocalCompactnessViaCompactNeighbourhoodBase}.
 
@@ -11074,11 +11094,29 @@ By definition, there is a Euclidean open neighbourhood $\mathbb{R}^n \underovers
 
 Regarding the second statement:
 
+We need to show that the map
+
+$$
+  Cl(\{-\}) \;\colon\; X \to IrrClSub(X)
+$$
+
+that sends points to the [[topological closure]] of their singleton sets is a [[bijection]] with the set of [[irreducible closed subsets]]. By the first statement above the map is [[injective function|injective]] (via lemma \ref{T1InTermsOfTopologicalClosure}).
+Hence it remains to see that every irreducible closed subset is the topological closure of a singleton. We will show something stronger: every irreducible closed subset is a singleton.
+
+Let $P \subset X$ be an open proper subset such that if there are two open subsets $U_1, U_2 \subset X$ with $U_1 \cap U_2 \subset P$ then $U_1 \subset P$ or $U_2 \subset P$. By prop \ref{OpenSubsetVersionOfClosedIrreducible}) we need to show that there exists a point $x \in X$ such that $P = X \setminus \{x\}$ it its [[complement]].
+
+Now since $P \subset X$ is a proper subset, and since the locally Euclidean space $X$ is covered by Euclidean neighbourhoods, there exists a Euclidean neighbourhood $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U \subset X$ such that $P \cap U \subset U$ is a proper subset. In fact this still satisfies the condition that for $U_1, U_2 \underset{\text{open}}{\subset} U$ then $U_1 \cap U_2 \subset P \cap U$ implies $U_1 \subset P \cap U$ or $U_2 \subset P \cap U$. Accordingly, by prop. \ref{OpenSubsetVersionOfClosedIrreducible}, it follows that $\mathbb{R}^n \setminus \phi^{-1}(P \cap U)$ is an irreducible closed subset of [[Euclidean space]]. Sine [[metric spaces]] are [[sober topological space]] as well as $T_1$-[[separation axiom|separated]] (example \ref{HausdorffMetricSpace}, prop. \ref{SoberFromHausdorff}), this means that there exists $x \in \mathbb{R}^n$ such that $\phi^{-1}(P \cap U) = \mathbb{R}^n \setminus \{x\}$.
+
+In conclusion this means that the restriction of an irreducible closed subset in $X$ to any Euclidean chart is either empty or a singleton set. This means that the irreducible closed subset must be a disjoint union of singletons that are separated by Euclidean neighbourhoods. But by irreducibiliy, this union has to consist of just one point.
+
+
+Regarding the third statement:
+
 Let $x \in X$ be a point and let $U_x \supset \{x\}$ be an open neighbourhood. We need to find a compact nighbourhood $K_x \subset U_x$.
 
 By assumption there exists a Euclidean open neighbourhood $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} V_x \subset X$. By definition of the [[subspace topology]] the intersection $U_x \cap V_x$ is still open as a subspace of $V_x$ and hence $\phi^{-1}(U_x \cap V_x)$ is an open neighbourhood of $\phi^{-1}(x)  \in \mathbb{R}^n$.
 
-Since Euclidean spaces are locally compact, there exists a compact neighbourhood $K_{\phi^{-1}(x)} \subset \mathbb{R}^n$ (for instance a sufficiently small [[closed ball]] around $x$, which is compact by the [[Heine-Borel theorem]]). Now since [[continuous images of compact spaces are compact]], it follows that also $\phi(K) \subset X$ is a compact neighbourhood.
+Since Euclidean spaces are locally compact, there exists a compact neighbourhood $K_{\phi^{-1}(x)} \subset \mathbb{R}^n$ (for instance a sufficiently small [[closed ball]] around $x$, which is compact by the [[Heine-Borel theorem]], prop. \ref{BorelHeine}). Now since [[continuous images of compact spaces are compact]], it follows that also $\phi(K) \subset X$ is a compact neighbourhood.
 
 =--
 
@@ -11094,36 +11132,180 @@ But this is not so, see the counter-example \ref{NonHausdorffManifolds} below, H
 
 =--
 
-+-- {: .num_prop #RegularityConditionsForTopologicalManifoldsComparison}
-###### Proposition
 
-Let $X$ be a [[topological space]] which is
++-- {: .num_example #NonHausdorffManifolds}
+###### Nonexample
+**([[non-Hausdorff locally Euclidean spaces]])**
 
-1. [[Hausdorff topological space|Hausdorff]],
-
-1. [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace})
-
-1. [[connected topological space|connected]].
-
-Then the following are equivalent:
-
-1. $X$ is [[paracompact topological space]];
-
-1. $X$ is [[second-countable topological space|second countable]].
-
-In particular if $X$ is as above but not necessarily connected, then the following are equivalent
-
-1. $X$ is [[paracompact topological space]] and has a [[countable set]] of [[connected components]],
-
-1. $X$ is [[second-countable topological space|second countable]]
-
-1. $X$ is [[sigma-compact topological space|sigma-compact]].
+An example of a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) which is not [[non-Hausdorff topological space]], is the [[line with two origins]] (example \ref{LineWithTwoOrigins}).
 
 =--
 
-In one direction, use that [[locally compact and sigma-compact spaces are paracompact]] (prop. \ref{ParacompactFromLocallyCompactAndSigmacompact})
++-- {: .num_lemma #PathConnectedFromConnectedLocallyEuclideanSpace}
+###### Lemma
+**([[connected topological space|connected]] [[locally Euclidean spaces]] are [[path-connected topological space|path-connected]])**
 
-Proof is for instance here [pdf](http://math.harvard.edu/~hirolee/pdfs/2014-fall-230a-lecture-02-addendum.pdf)
+A [[locally Euclidean space]] $(X,\tau)$ (def. \ref{LocallyEuclideanSpace})  
+which is [[connected topological space|connected]] (def. \ref{ConnectedSpace}) is also [[path-connected topological space|path-connected]], 
+in that for $x, y \in X$ any two point, then there exists a [[continuous function]]
+
+$$
+  \gamma \;\colon\; [0,1] \longrightarrow (X,\tau)
+$$
+
+(from the [[closed interval]] with its [[Euclidean space|Euclidean]] [[metric topology]]) such that
+
+$$
+  \gamma(0) = x
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  \gamma(1) = y
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Fix any $x \in X$. Write $PConn_x(X) \subset X$ for the subset of all those points of $x$ which are connected to $x$ by a path, hence
+
+$$
+  PConn_x(X)
+  \;\colon\;
+  \left\{
+    y \in X
+   \;\vert\;
+   \underset{[0,1] \underoverset{cts}{\gamma}{\to} X }{\exists}
+   \left(
+      \left(\gamma(0) = x\right)
+      \phantom{A} \text{and} \phantom{a}
+      \left(
+        \gamma(1) = y
+      \right)
+   \right)
+  \right\}
+  \,.
+$$
+
+Observe now that both $PConn_x(X) \subset X$ as well as its [[complement]] are [[open subsets]]:
+
+To see this it is sufficient to find for every point $y \on PConn_x(X)$ an [[open neighbourhood]] $U_y \supset \{y\}$ such that $U_y \subset PConn_x(X)$, and similarly for the complement.
+
+Now by assumption every point $y \in X$ has a Euclidean neighbourhood $\mathbb{R}^n \overset{\simeq}{\to} U_y \subset X$. Since Euclidean space is path connected, there is for every $z \in U_y$ a path $\tilde \gamma \colon [0,1] \to X$ connecting $y$ with $z$, i.e. with $\tilde \gamma(0) = y$ and $\tilde \gamma(1) = z$. Accordingly the composite path
+
+$$
+  \array{
+     [0,1] &\overset{\tilde \gamma\cdot\gamma}{\longrightarrow}& X
+     \\
+     t &\overset{\phantom{AAA}}{\mapsto}&
+    \left\{
+      \array{
+         \gamma(2t) &\vert& t \leq 1/2
+         \\
+         \tilde(2t-1/2) &\vert& t \geq 1/2
+      }
+    \right.
+  }
+$$
+
+connects $x$ with $z \in U_y$. Hence $U_y \subset PConn_x(X)$.
+
+Similarly, if $y$ is not connected to $x$ by a path, then also all point in $U_y$ cannot be connected to $x$ by a path, for if they were, then the analogous concatenation of paths would give a path from $x$ to $y$, contrary to the assumption.
+
+It follows that
+
+$$
+  X = PConn_x(C) \sqcup (X \setminus PConn_x(X))
+$$
+
+is a decomposition of $X$ as the [[disjoint union]] of two open subsets. By the assumption that $X$ is connected, exactly one of these open subsets is empty. Since $PConn_x(X)$ is not empty, as it contains $x$, it follows that its compement is empty, hence that $PConn_x(X) = X$, hence that $(X,\tau)$ is path connected.
+
+=--
+
+
+
+
+
++-- {: .num_prop #RegularityConditionsForTopologicalManifoldsComparison}
+###### Proposition
+**(equivalence of regularity conditions for Hausdorff  locally Euclidean spaces)**
+
+Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) which is [[Hausdorff topological space|Hausdorff]].
+
+Then the following are equivalent:
+
+1. $X$ is [[sigma-compact topological space|sigma-compact]].
+
+1. $X$ is [[paracompact topological space|paracompact]] and has a [[countable set]] of [[connected components]],
+
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Generally, observe that $X$ is [[locally compact]]:
+By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact in the sense that every point has a [[neighbourhood base]] of compact neighbourhoods, and since $X$ is assumed to be Hausdorff, this implies the other variant of definition of local compactness, by [this prop.](locally+compact+topological+space#InHausdorffSpacesDefinitionsOfLocalCompactnessAgree).
+
+**1) $\Rightarrow$ 2)**
+
+Let $X$ be sigma-compact. We first show that then $X$ is [[second-countable topological space|second-countable]]:
+
+By sigma-compactness there exists a [[countable set]] $\{K_i \subset X\}_{i \in I}$ of compact subspaces. By $X$ being locally Euclidean, each admits an [[open cover]] by restrictions of [[Euclidean spaces]]. By their compactness, each of these has a subcover $\{ \mathbb{R}^n \overset{\phi_{i,j}}{\to} X \}_{j \in J_i}$ with $J_i$ a finite set. Since [[countable unions of countable sets are countable]], we have obtained  a countable cover by Euclidean spaces $\{ \mathbb{R}^n  \overset{\phi_{i,j}}{\to} X\}_{i \in I, j \in J_i}$. Now Euclidean space itself is second countable (by [this example](second-countable+space#SecondCountableEuclideanSpace)), hence admits a countable set $\beta_{\mathbb{R}^n}$ of base open sets. As a result the union $\underset{{i \in I} \atop {j \in J_i}}{\cup} \phi_{i,j}(\beta_{\mathbb{R}^n})$ is a base of opens for $X$. But this is a countable union of countable sets, and since [[countable unions of countable sets are countable]] we have obtained a countable base for the topology of $X$. This means that $X$ is second-countable.
+
+Let $X$ be sigma-compact. We show that then $X$ is paracompact with a countable set of connected components:
+
+Since [[locally compact and sigma-compact spaces are paracompact]], it follows that $X$ is paracompact. Since, by the previous statement, $X$ is also second-countable, it cannot have an uncountable set of connected components.
+
+**2) $\Rightarrow$ 1)**
+
+Now let $X$ be paracompact with countably many connected components. We show that $X$ is sigma-compact.
+
+Since $X$ is locally compact, there exists a cover $\{K_i = Cl(U_i) \subset X\}_{i \in I}$ by [[compact topological space|compact]] [[subspaces]].
+By paracompactness there is a locally finite refinement of this cover. Since [[paracompact Hausdorff spaces are normal]], the [[shrinking lemma]] applies to this refinement and yields a locally finite open cover
+
+$$
+  \mathcal{V} \coloneqq \{V_j \subset X \}_{j \in J}
+$$
+
+as well as a locally finite cover $\{Cl(V_j) \subset X\}_{j \in J}$ by closed subsets. Since this is a refinement of the orignal cover, all the $Cl(V_j)$ are contained in one of the compact subspaces $K_i$. Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]], the $Cl(V_j)$ are also closed as subsets of the $K_i$. Since [[closed subsets of compact spaces are compact]] it follows that the $Cl(V_j)$ are themselves compact and hence form a locally finite cover by compact subspaces.
+
+Now fix any $j_0 \in J$.
+
+We claim that for every $j \in J$ there is a finite sequence of indices $(j_0, j_1, \cdots, j_n = j)$ with the property
+that $V_{j_k} \cap V_{j_{k+1}} \neq \emptyset$.
+
+To see this, first obserse that it is sufficient to show sigma-compactness for the case that $X$ is [[connected topological space|connected]]. From this the general statement follows since [[countable unions of countable sets are countable]]. Hence assume that $X$ is connected.
+It follows from lemma \ref{PathConnectedFromConnectedLocallyEuclideanSpace} that  $X$ is [[path-connected topological space|path-connected]].
+
+Hence for any $x \in V_{j_0}$ and $y \in V_{j}$ there is a path $\gamma \colon [0,1] \to X$ connecting $x$ with $y$. Since the [[closed interval]] is compact and since [[continuous images of compact spaces are compact]], it follows that there is a finite subset of the $V_i$ that covers the image of this path. This proves the claim.
+
+It follows that there is a function
+
+$$
+  f \;\colon\; \mathcal{V} \longrightarrow \mathbb{N}
+$$
+
+which sends each $V_j$ to the [[minimum]] natural number as above.
+
+We claim now that for all $n \in \mathbb{N}$ the [[preimage]] of $\{0,1, \cdots, n\}$ under this function is a [[finite set]]. Since [[countable unions of countable sets are countable]] this implies that $\{ Cl(V_j) \subset X\}_{j \in J}$ is a countable cover of $X$ by compact subspaces, hence that $X$ is sigma-compact.
+
+We prove this last claim by [[induction]]. It is true for $n = 0$ by construction. Assume it is true for some $n \in \mathbb{N}$, hence that $f^{-1}(\{0,1, \cdots, n\})$ is a finite set. Since finite unions of compact subspaces are again compact ([this prop.](compact+space#UnionsAndIntersectionOfCompactSubspaces)) it follows that
+
+$$
+  K_n
+    \coloneqq
+  \underset{V \in f^{-1}(\{0,\cdots, n\})}{\cup} V
+$$
+
+is compact. By local finiteness of the $\{V_j\}_{j \in J}$, every point $x \in K_n$ has an open neighbourhood $W_x$ that intersects only a finite set of the $V_j$. By compactness of $K_n$, the cover $\{W_x \subset X\}_{x \in K_n}$ has a finite subcover. In conclusion this implies that only a finite number of the $V_j$ intersect $K_n$.
+
+Now by definition $f^{-1}(\{0,1,\cdots, n+1\})$ is a subset of those $V_j$ which intersect $K_n$, and hence itself finite.
+
+=--
 
 
 +-- {: .num_defn #TopologicalManifold}
@@ -11147,24 +11329,11 @@ Sometimes one also says "$n$-fold" in this case.
 ###### Remark
 **(varying terminology)**
 
-There is some variance in the choice of regularity condition in def. \ref{TopologicalManifold}.
-Often it is required that a manifold be [[sigma-compact topological space|sigma-compact]].
-But by prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} this definition differs from def. \ref{TopologicalManifold}
-only if there are non-countably many connected components.
-
-Sometimes, but very rarely, authors speak of [[non-Hausdorff topological spaces]] as manifolds, see example \ref{NonHausdorffManifolds}.
+Often a topological manifold (def. \ref{TopologicalManifold}) is required to be [[sigma-compact]] (def. \ref{CompactSigma}). But by prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} this is not an extra condition as long as there is a [[countable set]] of [[connected components]].
+Moreover, manifolds with uncountably many connected components are rarely considered in practice.
 
 =--
 
-+-- {: .num_example #NonHausdorffManifolds}
-###### Nonexample
-**([[non-Hausdorff manifolds]])**
-
-An example of a [[topological space]] which is [[locally Euclidean topological space|locally Euclidean]]
-as in def. \ref{TopologicalManifold} but a [[non-Hausdorff topological space]], and hence not a [[topological manifold]] in the sense
-of def. \ref{TopologicalManifold}, is the [[line with two origins]] (example \ref{LineWithTwoOrigins}).
-
-=--
 
 
 
