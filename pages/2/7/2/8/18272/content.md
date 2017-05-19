@@ -82,15 +82,22 @@ $$f\left(\bigcap_{i \in I} S_i\right) \subseteq \bigcap_{i \in I} f(S_i)$$
 because this is equivalent to $(\forall_{i \in I})\; f\left(\bigcap_{i \in I} S_i\right) \subseteq f(S_i)$, which is obvious because for all $i \in I$, we have $\bigcap_{i \in I} S_i \subseteq S_i$, and $f(A) \subseteq f(B)$ if $A \subseteq B$. 
 
 If $f: X \to Y$ is injective, then the direct image operator $S \mapsto f(S)$ preserves intersections of subsets $(S_i)_{i \in I}$ indexed over *nonempty* sets  
-$I$. This is not hard to check directly. A slightly more categorial rendering might go as follows: 
+$I$. This is not difficult to check once we verify that 
 
-* Factoring $f$ into an surjective map $q: X \to f(X)$ onto the [[image]] followed by an inclusion $i: f(X) \hookrightarrow Y$, the map $q: X \to f(X)$ is a bijection, i.e., has an inverse $g: f(X) \to X$, making the direct image map 
-$\exists_f: P(X) \to P(f(X)): S \mapsto f(S)$ also invertible (with inverse $\exists_g$). But isomorphisms of posets preserve unions and intersections, so $\exists_q$ preserves intersections. 
+* For any map $f: X \to Y$ (not necessarily injective) and any subset $T \subseteq Y$, we have $f(X) \cap T = f(f^{-1}(T))$. 
 
-* For an injective map like $i: f(X) \to Y$, we have $S = i^{-1}(i(S))$, or in other words $i^\ast \exists_i: P(f(X)) \to P(f(X))$ is the identity. Thus  
-$$\exists_f = \exists_{i q} = \exists_i \exists_q ...$$ 
-(to be continued). 
+* If $f$ is injective, then for any subset $S \subseteq X$ we have $S = f^{-1}(f(S))$. 
 
+For then, if $T = \bigcap_{i \in I} f(S_i)$ and $I$ is inhabited, we have for some $i$ that $T \subseteq f(S_i) \subseteq f(X)$, and then 
+
+$$\array{
+T = f(X) \cap T & = & f(f^{-1}(T)) \\ 
+ & = & f(f^{-1}(\bigcap_i f(S_i))) \\ 
+ & = & f\left(\bigcap_{i \in I} f^{-1}(f(S_i))\right) \\ 
+ & = & f\left(\bigcap_{i \in I} S_i\right)
+}$$ 
+
+which was to be shown. 
 
 ### Inverse images preserve unions, codirect images preserve intersections 
 
