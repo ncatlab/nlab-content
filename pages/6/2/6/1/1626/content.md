@@ -10,35 +10,113 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
 
-A [[space]] is __connected__ if it can not be split up into two independent parts.  On this page we focus on connectedness for [[topological spaces]].
+A [[topological space]] is __connected__ if it can not be split up into two independent parts.  
 
-Every topological space can be decomposed into disjoint maximal connected subspaces, called its __connected components__.  The underlying set of a topological space is the [[disjoint union]] of the underlying sets of its connected components, but the space itself is not necessarily the [[coproduct]] of its connected components in the category of spaces.
+Every topological space may be decomposed into disjoint maximal connected [[subspaces]], called its __[[connected components]]__.  The underlying set of a topological space is the [[disjoint union]] of the underlying sets of its connected components, but the space itself is not necessarily the [[coproduct]] of its connected components in the category of spaces.
 
 One often studies topological ideas first for connected spaces and then generalises to general spaces.  This is especially true if one is studying such [[nice topological space]]s that every space *is* a coproduct of connected components (such as for example _locally connected spaces_; see below). 
 
 
 ## Definitions 
 
-Speaking [[category theory|category-theoretically]] a [[topological space]] $X$ is **connected** if the [[representable functor]]
-$$ hom(X, -): Top \to Set $$
-preserves [[coproduct]]s. It\'s actually enough to require that it preserves binary coproducts (a detailed proof in a more general setting is given at [connected object](http://ncatlab.org/nlab/show/connected+object#reduction_to_binary_coproducts_8)); in that case, notice that we always have a map
+### Elementary definition
+
++-- {: .num_defn #ConnectedSpace}
+###### Definition
+**(connected topological space)**
+
+A [[topological space]] $(X, \tau)$ is _connected_ if the following equivalent conditions hold:
+
+1. For all pairs of topological spaces $(X_1, \tau_1), (X_2, \tau_2)$ such that $(X, \tau)$ is [[homeomorphism|homeomorphic]] to their [[disjoint union space]]
+
+   $$
+     (X,\tau) \simeq (X_1,\tau_1) \sqcup (X_2,\tau_2)
+   $$
+
+   then exactly one of the two spaces is the [[empty space]].
+
+1. For all pairs of [[open subsets]] $U_1, U_2 \subset X$ if 
+
+   $$
+     U_1 \cup U_2 = X \phantom{A}\text{and} \phantom{A} U_1 \cap U_2 = \emptyset
+   $$
+
+   then exactly one of the two subsets is the [[empty set]]
+
+
+1. if a [[subset]] $CO \subseteq X$ is [[clopen set|clopen]] (both closed and open), then $ CO = X$ if and only if $CO$ is [[inhabited set|inhabited]].
+
+=--
+
++-- {: .num_remark #ConnectedEmptySpace}
+###### Remark
+
+According to def. \ref{ConnectedSpace} the [[empty topological space]] is not regarded as connected. Some authors do want the empty space to count as a connected space. This means to change in the first item of def. \ref{ConnectedSpace} the "exactly one" to "at least one" and in the second item "if and only if" to "if".
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The conditions in def. \ref{ConnectedSpace} are indeed equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First consider the equivalence of the first two statements:
+
+Suppose that in every disjoint union decomposition of $(X,\tau)$ then exactly one summand is empty. Now consider two disjoint open subsets $U_1, U_2 \subset X$ whose union is $X$ and whose intersection is empty. We need to show that exactly one of the two subsets is empty.
+
+Write $(U_1, \tau_{1})$ and $(U_2, \tau_2)$ for the corresponding [[topological subspaces]]. Then observe that from the definition of [[subspace topology]] and the [[disjoint union space]] we have a [[homeomorphism]]
+
+$$
+  X \simeq (U_1, \tau_1) \sqcup (U_2, \tau_2)
+  \,.
+$$ 
+
+Hence by assumption exactly one of the two summand spaces is the [[empty space]] and hence the underlying set is the empty set.
+
+Conversely, suppose that for every pair of open subsets $U_1, U_2 \subset U$ with $U_1 \cup U_2 = X$ and $U_1 \cap U_2 = \emptyset$ then exactly one of the two is empty. Now consider a homeomorphism of the form $(X,\tau) \simeq (X_1, \tau_1 \sqcup (X_2,\tau_29$. By the nature of the [[disjoint union space]] this means that $X_1, X_2 \subset X$ are disjoint open subsets of $X$ which cover $X$. So by asumption precisely one of the two subsets is the empty set and hence precisely one of the two topological spaces is the empty space.
+
+Now regarding the equivalence to the third statement:
+
+If a subset $CO \subset X$ is both closed and open, this means equivalently that it is open and that its [[complement]] $X \setminus CO$ is also open, hence equivalently that there are two open subsets $CO, X \backslash CO \subset X$ whose union is $X$ and whose intersection is empty. This way the third condition is equivalent to the second.
+
+=--
+
+
+### Category-theoretic definition
+
+In the language of [[category theory]] def. \ref{ConnectedSpace} may be rephrased as follows:
+
+Write [[Top]] for the [[category]] of all [[topological space]]. 
+
+Then a topological space $X$ is connected precisely if the [[representable functor]]
+
+$$ 
+  hom(X, -) \;\colon\; Top \longrightarrow Set 
+$$
+
+preserves [[coproducts]]. 
+
+
+It is equivalent to just require that it preserves binary coproducts (a detailed proof in a more general setting is given at _[[connected object]]_ in [this proposition](connected+object#RespectForBinaryCoproductsIsSufficient). In that case, notice that we always have a map
 $$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) ,$$
 so $X$ is connected if this is always a [[bijection]]. This definition generalises to the notion of [[connected object]] in an [[extensive category]].
 
-Here are some equivalent ways to say that $X$ is connected in more elementary terms:
-
-* Whenever $X \cong Y +\sqcup Z$, where the right side is the [[disjoint union space]] $Y, Z$ (so that $Y, Z$ are identified with disjoint open subspaces of $X$), then exactly one of $Y, Z$ is [[inhabited set|inhabited]] (so the other is [[empty set|empty]], making the inhabited one [[homeomorphism|homeomorphic]] to $X$).
-
-* If $K \subseteq X$ is [[clopen set|clopen]] (both closed and open), then $K = X$ if and only if $K$ is inhabited.
-
-Many authors allow the [[empty space]] to be connected.  You can get this concept from the elementary definitions above by changing 'exactly one' to 'at most one' and changing 'if and only if' to 'if'.  Categorially, this version of connectedness requires only that the maps
+The variant of the definition according to remark \ref{ConnectedEmptySpace}, which regards the empty space means in terms of category theoretic languag that one
+requires only that the maps
 $$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) $$
-be [[surjection]]s.  However, many results come out more cleanly by disqualifying the empty space (much as one disqualifies $1$ when one defines the notion of [[prime number]]).  See also the discussion at [[empty space]] and [[too simple to be simple]].
+be [[surjections]].  
+
+However, many results come out more cleanly by disqualifying the empty space (much as one disqualifies $1$ when one defines the notion of [[prime number]]).  See also the discussion at [[empty space]] and [[too simple to be simple]].
 
 
 ## Basic results {#basic}
@@ -83,7 +161,7 @@ where $\theta \lt 0$ is some chosen fixed irrational number. It is easy to see t
 =-- 
 
 +-- {: .num_example}
-###### Example 
+###### Example t
 This example is due to [Golomb](#Golomb). Topologize the set of natural numbers $\mathbb{N}$ by taking a basis to consist of sets $A_{a,b} \coloneqq \{a k + b | k = 1,2, \ldots\}$, where $a, b \in \mathbb{N}$ are relatively prime. The space is Hausdorff, but the intersection of the closures of two non-empty open sets is never empty, so this space is connected. 
 =-- 
 
@@ -187,7 +265,59 @@ The conclusion does not follow if $q: X \to Y$ is merely surjective; e.g., there
 
 ## Path-connectedness 
 
-An important variation on the theme of connectedness is path-connectedness. If $X$ is a space, define the path component $[x]$ to be the subspace of all $y \in X$ for which there exists a continuous map $h: [0, 1] \to X$ where $h(0) = x$, $h(1) = y$. 
+An important variation on the theme of connectedness is path-connectedness. 
+
++-- {: .num_defn #TopologicalSpacePath}
+###### Definition
+**(continuous path in a topological space)**
+
+Let $(X,\tau)$ be a [[topological space]], Then a _continuous path_ (or just _path_, for short) in $(X,\tau)$ is a [[continuous function]] of the form
+
+$$
+  \gamma
+   \;\colon\;
+  [0,1]
+    \longrightarrow
+  (X,\tau)
+$$
+
+where the domain is the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[subspace topology]].
+
+One says that the path connects the point $\gamma(0) \in X$ with the point $\gamma(1) \in X$.
+
+For $x \in X$ a fixed point, then the subset
+
+$$
+  PConn_x(X)
+   \;\coloneqq\;
+  \left\{
+     y \in X
+     \;\vert\;
+    \underset{\text{path}\, \gamma}{\exists}
+    \left(
+      \left(
+        \gamma(0) = x
+      \right)
+      \phantom{}
+      \text{and}
+      \phantom{A}
+      \left(
+        \gamma(1) = y
+      \right)
+    \right)
+  \right\
+$$
+
+is called the _path-connected component_ of $x$. 
+
+The set of path connected components of $X$ is denoted 
+
+$$
+  \pi_0(X)
+  \,.
+$$
+
+=--
 
 The set $\pi_0(X)$ of path components (the 0th "[[homotopy group]]") is thus the [[coequalizer]] in 
 $$ \hom([0, 1], X) \stackrel{\overset{ev_0}{\to}}{\underset{ev_1}{\to}} \hom(1, X) \to \pi_0(X) .$$ 
@@ -286,7 +416,7 @@ The functor $\pi_0 \colon Top \to Set$ preserves arbitrary coproducts.
 =-- 
 
 +-- {: .proof} 
-###### Proof 
+####### Proof 
 The functor $\hom(I, -) \colon Top \to Set$ preserves coproducts since $I$ is connected, and similarly for $\hom(1, -)$. The coequalizer of a pair of natural transformations between coproduct-preserving functors is also a coproduct-preserving functor. 
 =-- 
 
@@ -299,7 +429,7 @@ Point-set topology is filled with counterexamples. An unusual type of example is
 A _pseudo-arc_ is a [[continuum|metric continuum]] with more than one point such that every subcontinuum (a subspace that is a continuum) cannot be expressed as a union of two proper subcontinua. 
 =-- 
 
-A pseudo-arc $X$ is necessarily totally path-disconnected: two distinct points $x, y$ of $X$ cannot be connected by a path in $X$. Indeed, the image of such a path would be a path-connected Hausdorff space, hence arc-connected by Theorem \ref{arc}. Letting $\alpha: [0, 1] \to X$ be an arc from $x$ to $y$, we have that the continuum $\alpha([0, 1])$ is a union of proper subcontinua $\alpha([0, 1/2])$ and $\alpha([1/2, 1])$, a contradiction. Thus, a pseudo-arc is an example of a compact connected metrizable space that is totally path-disconnected. 
+A pseudo-arc $X$ is necessarily totally path-disconnected: two distinct points $x, y$ of $X$ cannot be connected by a path in $X$. Indeed, the image of such a# path would be a path-connected Hausdorff space, hence arc-connected by Theorem \ref{arc}. Letting $\alpha: [0, 1] \to X$ be an arc from $x$ to $y$, we have that the continuum $\alpha([0, 1])$ is a union of proper subcontinua $\alpha([0, 1/2])$ and $\alpha([1/2, 1])$, a contradiction. Thus, a pseudo-arc is an example of a compact connected metrizable space that is totally path-disconnected. 
 
 Remarkably, all pseudo-arcs are homeomorphic, and a pseudo-arc is a [[homogeneous space]]. Perhaps also remarkable is the fact that the collection of pseudo-arcs in the [[Hilbert cube]] $Q$ (or in any Euclidean space) is a dense $G_\delta$ set (see [[G-delta set]]) in the [[Polish space]] of all nonempty compact subsets of $Q$ under the [[Hausdorff metric]]; see [Bing2](#Bing2), theorem 2. 
 
