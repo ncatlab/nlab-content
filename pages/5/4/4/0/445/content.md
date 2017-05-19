@@ -63,9 +63,9 @@ to the inclusion $M/d \hookrightarrow C/d$.  More generally, an image of a singl
 
 ### Basic properties
 
-+-- {: .num_example #PreservationOfUnionsAndIntersectionsOfSets}
-###### Example
-**(images preserve [[unions]] but not in general [[intersections]])**
++-- {: .num_prop #PreservationOfUnionsAndIntersectionsOfSets}
+###### Proposition
+**([[images preserve unions]] but not in general [[intersections]])**
 
 Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{S_i \subset X\}_{i \in I}$ be a set of [[subsets]] of $X$. Then.
 
