@@ -57,3 +57,5 @@ An approach which reframes conceptual completeness in terms of [[logical schemes
 For the $(\infty, 1)$-analog of conceptual completeness, see section A.9 of 
 
 * [[Jacob Lurie]], [[Spectral Algebraic Geometry]]
+
+[[!redirects strong conceptual completeness]]
