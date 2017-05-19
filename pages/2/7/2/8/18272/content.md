@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
++-- {: .num_prop #PreservationOfUnionsAndIntersectionsOfSets}
+###### Proposition
+**(images preserve [[unions]] but not in general [[intersections]])**
+
+Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{S_i \subset X\}_{i \in I}$ be a set of [[subsets]] of $X$. Then 
+
+1. $im_f\left( \underset{i \in I}{\cup}  S_i\right) = \left(\underset{i \in I}{\cup} im_f(S_i)\right)$ (the [[image]] under $f$ of a [[union]] of subsets is the union of the images)
+
+1. $im_f\left( \underset{i \in I}{\cap}  S_i\right) \subset \left(\underset{i \in I}{\cap} im_f(S_i)\right)$ (the [[image]] under $f$ of the [[intersection]] of the subsets is contained in the intersection of the images).
+
+The [[injective function|injection]] in the second item is in general proper. If $f$ is an [[injective function]] then this is a [[bijection]]:
+
+* $(f\,\text{injective}) \Rightarrow \left(im_f\left( \underset{i \in I}{\cap}  S_i\right) = \left(\underset{i \in I}{\cap} im_f(S_i)\right)\right)$
+
+=--
+
+## Related statements
+
+* [[pre-images preserve unions and intersections]]
+
+* [[countable unions of countable sets are countable]]
+
+
+
+[[!redirects images preserve unions]]
+
+[[!redirects the image of an intersection is contained in the intersection of the images]]
