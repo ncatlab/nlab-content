@@ -1,3 +1,4 @@
+[[!redirects CW-complexes are Hausdorff spaces]]
 [[!redirects CW-complexes are Hausdorff]]
 [[!redirects a CW-complex is a Hausdorff space]]
 
@@ -21,13 +22,12 @@
 +-- {: .un_prop }
 ###### Proposition
 
-Every [[CW-complex]] is a [[Hausdorff topological space]].
+Every [[CW-complex]] is a [[paracompact Hausdorff space]].
 
 =--
 
-A proof is spelled out at
+e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#FritschPiccinini90)
 
-* Topospaces, _[CW implies paracompact Hausdorff](http://topospaces.subwiki.org/wiki/CW_implies_paracompact_Hausdorff)_
 
 ## Related statements
 
@@ -41,6 +41,12 @@ A proof is spelled out at
 
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
+## References
+
+* Topospaces, _[CW implies paracompact Hausdorff](http://topospaces.subwiki.org/wiki/CW_implies_paracompact_Hausdorff)_
+
+
+* {#FritschPiccinini90} Rudolf Fritsch, Renzo Piccinini, _Cellular structures in topology_, Cambridge University Press (1990)
 
 [[!redirects every CW-complex is a Hausdorff space]]
 [[!redirects every CW-complex is a Hausdorff topological space]]
