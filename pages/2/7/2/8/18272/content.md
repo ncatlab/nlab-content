@@ -1,3 +1,4 @@
+[[!redirects images of unions are unions of images]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -13,7 +14,7 @@
 * table of contents
 {:toc}
 
-## Statement
+## Statements
 
 +-- {: .num_prop #PreservationOfUnionsAndIntersectionsOfSets}
 ###### Proposition
@@ -31,7 +32,19 @@ The [[injective function|injection]] in the second item is in general proper. If
 
 *provided* that $I$ is [[inhabited set|inhabited]]. 
 
-=--
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+**(pre-images preserve unions and intersections)** 
+
+Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{T_i \subset Y\}_{i \in I}$ be a set of [[subsets]] of $Y$. Then 
+
+1. $f^{-1}\left( \underset{i \in I}{\cup}  T_i\right) = \left(\underset{i \in I}{\cup} f^{-1}(T_i)\right)$ (the [[pre-image]] under $f$ of a [[union]] of subsets is the union of the pre-images), 
+
+1. $f^{-1}\left( \underset{i \in I}{\cap}  T_i\right) = \left(\underset{i \in I}{\cap} f^{-1}(T_i)\right)$ (the [[pre-image]] under $f$ of the [[intersection]] of the subsets is contained in the intersection of the pre-images).
+=-- 
+
 
 ## Proofs via adjoints 
 
@@ -75,14 +88,13 @@ The "reasoning forward/backward trick" may be summarized by saying that in a [[p
 People who work with categorial forms of logic denote direct images $f(S)$ by $\exists_f(S)$. The suggestion is to view existential quantification as corresponding to taking of a direct image. For example, given a property $P$ of pairs $(x, y)$, i.e. a subset $P \subseteq X \times Y$ where we write $P(x, y)$ to say $(x, y) \in P$ holds, the set of $y$ such that $(\exists_{x \in X})\; P(x, y)$ holds is exactly the direct image $\pi_2(P)$ under the [[projection map]] $\pi_2: X \times Y \to Y$. This suggests furthermore a useful extended meaning of existential quantification, by considering direct images along more general maps, not just projection maps.  With this in mind, category theorists often denote $f(S) = \{y \in Y: (\exists_{x: f(x) = y})\; x \in S\}$ by $\exists_f(S)$, giving an operator $\exists_f: P(X) \to P(Y)$ between [[power sets]]. This is [[left adjoint]] to the taking of inverse images $T \mapsto f^{-1}(T)$ as an operator $f^{-1}: P(Y) \to P(X)$, also denoted by $f^\ast: P(Y) \to P(X)$. The adjointness relationship between direct image and inverse image, denoted by $\exists_f \dashv f^\ast$, is an example of a famous slogan due to Lawvere: "Logical quantification is adjoint to substitution" (with resonances far beyond the purview of logic as ordinarily conceived; see Remark \ref{MoreJargon}). 
 =-- 
 
-As for intersections, we have 
+As for direct images and intersections, we have 
 
 $$f\left(\bigcap_{i \in I} S_i\right) \subseteq \bigcap_{i \in I} f(S_i)$$ 
 
 because this is equivalent to $(\forall_{i \in I})\; f\left(\bigcap_{i \in I} S_i\right) \subseteq f(S_i)$, which is obvious because for all $i \in I$, we have $\bigcap_{i \in I} S_i \subseteq S_i$, and $f(A) \subseteq f(B)$ if $A \subseteq B$. 
 
-If $f: X \to Y$ is injective, then the direct image operator $S \mapsto f(S)$ preserves intersections of subsets $(S_i)_{i \in I}$ indexed over *nonempty* sets  
-$I$. This is not difficult to check once we verify that 
+If $f: X \to Y$ is injective, then the direct image operator $S \mapsto f(S)$ preserves intersections of subsets $(S_i)_{i \in I}$ indexed over *nonempty* sets $I$. This is not difficult to check once we verify that 
 
 * For any map $f: X \to Y$ (not necessarily injective) and any subset $T \subseteq Y$, we have $f(X) \cap T = f(f^{-1}(T))$. 
 
