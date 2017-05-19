@@ -27,13 +27,17 @@ Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{S_
 
 The [[injective function|injection]] in the second item is in general proper. If $f$ is an [[injective function]] then this is a [[bijection]]:
 
-* $(f\,\text{injective}) \Rightarrow \left(im_f\left( \underset{i \in I}{\cap}  S_i\right) = \left(\underset{i \in I}{\cap} im_f(S_i)\right)\right)$
+* $(f\,\text{injective}) \Rightarrow \left(im_f\left( \underset{i \in I}{\cap}  S_i\right) = \left(\underset{i \in I}{\cap} im_f(S_i)\right)\right)$ 
+
+*provided* that $I$ is [[inhabited set|inhabited]]. 
 
 =--
 
 ## Proofs via adjoints 
 
 The properties 1., 2. of Proposition \ref{PreservationOfUnionsAndIntersectionsOfSets} may be proved by appeal to fundamental relationships between [[direct image]] and [[inverse image]] and the like, which [[category theory|category theorists]] call [[adjunctions]] (similar in form to adjoints in linear algebra). The advantage of this type of proof is that, despite its utter simplicity, it generalizes to much wider contexts (beyond elementary classical set theory). 
+
+### Direct images preserve unions, inverse images preserve intersections 
 
 The first such relationship is that, for all subsets $S \subseteq X$ and $T \subseteq Y$, we have 
 
@@ -70,6 +74,18 @@ The "reasoning forward/backward trick" may be summarized by saying that in a [[p
 ###### Remark 
 People who work with categorial forms of logic denote direct images $f(S)$ by $\exists_f(S)$. The suggestion is to view existential quantification as corresponding to taking of a direct image. For example, given a property $P$ of pairs $(x, y)$, i.e. a subset $P \subseteq X \times Y$ where we write $P(x, y)$ to say $(x, y) \in P$ holds, the set of $y$ such that $(\exists_{x \in X})\; P(x, y)$ holds is exactly the direct image $\pi_2(P)$ under the [[projection map]] $\pi_2: X \times Y \to Y$. This suggests furthermore a useful extended meaning of existential quantification, by considering direct images along more general maps, not just projection maps.  With this in mind, category theorists often denote $f(S) = \{y \in Y: (\exists_{x: f(x) = y})\; x \in S\}$ by $\exists_f(S)$, giving an operator $\exists_f: P(X) \to P(Y)$ between [[power sets]]. This is [[left adjoint]] to the taking of inverse images $T \mapsto f^{-1}(T)$ as an operator $f^{-1}: P(Y) \to P(X)$, also denoted by $f^\ast: P(Y) \to P(X)$. The adjointness relationship between direct image and inverse image, denoted by $\exists_f \dashv f^\ast$, is an example of a famous slogan due to Lawvere: "Logical quantification is adjoint to substitution" (with resonances far beyond the purview of logic as ordinarily conceived; see Remark \ref{MoreJargon}). 
 =-- 
+
+As for intersections, we have 
+
+$$f\left(\bigcap_{i \in I} S_i\right) \subseteq \bigcap_{i \in I} f(S_i)$$ 
+
+because this is equivalent to $(\forall_{i \in I})\; f\left(\bigcap_{i \in I} S_i\right) \subseteq f(S_i)$, which is obvious because for all $i \in I$, we have $\bigcap_{i \in I} S_i \subseteq S_i$, and $f(A) \subseteq f(B)$ if $A \subseteq B$. 
+
+If $f: X \to Y$ is injective, then the map $q: X \to f(X)$ onto the image of $f$ is a bijection, i.e., has an inverse $g: f(X) \to X$, making the direct image map 
+$\exists_f: P(X) \to P(f(X)): S \mapsto f(S)$ also invertible (with inverse $\exists_g$). But isomorphisms of posets preserve unions and intersections, 
+
+
+### Inverse images preserve unions, codirect images preserve intersections 
 
 As for the statement that inverse images of unions are unions of inverse images, it turns out this follows from a second fundamental logical adjunction. For a function $f: X \to Y$ and a subset $U \subseteq X$, define 
 
