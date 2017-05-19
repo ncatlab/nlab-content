@@ -27,7 +27,10 @@ More explicitly, let $X$ be any [[set]] and let $p\colon X \to \mathbf{N}$ be a 
 Here we collect some consequences of the countable axiom of choice.
 
 * The [[Cauchy real numbers]] and [[Dedekind real numbers]] coincide (the [[law of excluded middle]] also separately implies this).
+
 * The [[Rosolini dominance]] is a [[dominance]] (the [[law of excluded middle]] also separately implies this).
+
+* [[countable unions of countable sets are countable]]
 
 ## Variations
 
