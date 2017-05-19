@@ -69,6 +69,15 @@ and then an interpretation of $L$, as described above, amounts to a morphism of 
 
 This observation opens the door to a widened interpretation of "interpretation" in [[categorical logic]], where we might for instance generalize [[Set]] to any other [[topos]] $E$, and use instead $Sub \colon E^{op} \to Heyt$ (taking an object of $E$ to its [[Heyting algebra]] of [[subobjects]]) as the receiver of interpretations. This of course is just one of many possibilities. 
 
+## Related concepts
+
+* [[model theory]]
+
+* [[first-order theory]]
+
+* [[interpretation]]
+
+* [[diagram of a first-order structure]]
 
 ## References
 
