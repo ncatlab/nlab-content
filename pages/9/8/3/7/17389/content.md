@@ -19,7 +19,7 @@
 
 ## Statement
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Every [[CW-complex]] is a [[paracompact Hausdorff space]].
@@ -28,6 +28,58 @@ Every [[CW-complex]] is a [[paracompact Hausdorff space]].
 
 e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#FritschPiccinini90)
 
++-- {: .num_lemma}
+###### Lemma
+
+Let $X$ be a [[paracompact Hausdorff space]] and let 
+
+$$
+  \array{
+     S^{n-1} &\overset{f}{\longrightarrow}& X
+     \\
+     \downarrow &(po)& \downarrow
+     \\
+     D^n &\longrightarrow& X \cup_f D^n
+  }
+$$
+
+be a [[cell attachment]]. Then also $X \cup_f D^n$ is paracompact Hausdorff.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Regarding Hausdorffness:
+
+Observe first that every point in the image of $X \to X \cup_f D^n$ may be separated from the image $f(S^{n-1})$ by an open neighbourhood. 
+
+This is because $S^n$ is [[compact topological space|compact]] (e.g. by the [[Heine-Borel theorem]]), so that also $f(S^{n-1}) \subset X \cup_f D^n$ is a compact subspace, since [[continuous images of compact spaces are compact]] and because [[compact subspaces in Hausdorff spaces are separated by neighbourhoods from points]].
+
+Now let $x \neq y$ be two distinct points in the attaching space. We need to show that there are open neighbourhoods $U_x$ and $U_y$ which are disjoint:
+
+1. If both points are in $D^n \setminus S^{n-1}$ or both in $X \setminus f(s^{n-1})$ then they are separated by open neighbourhoods in these subspaces, due to them being Hausdorff;
+
+1. if one point is in $^D^n \setminus S^{n-1}$ and the other in $S^{n-1}$ then pick open neighbourhoods in $D^n$ that separate them there, and augment the second to an open neighbourhood in $X \cup_f D^n$ by any open neighbourhood of its image in $X$;
+
+1. if both points are in  $f(S^{n-1})$ separate them by neighbourhood in $X$ augmented by any neighbourhood in $D^n$;
+
+1. if one point is in $f(S^{n-1})$ and the other in $X \setminus f(S^{n-1})$, use the observation above to separate them by neighbourhoods in $X$ and then augment the former by any neighbourhood in $D^n$.
+
+Regarding paracompactness:
+
+First observe that both inclusion maps $D^n \to X \cup_f D^n$ and $X \to X \cup_f D^n$ are [[closed maps]]:
+
+1. for $D^n \to X \cup_f D^n$ it is sufficient to test on intersections with other closed balls. If these are in the interior of the given $D^n$ then it is clear that teir image is also closed, if they intersec the boundary $S^{n-1}$ then they do so in a closed point or a closed interval, in any case a compact subspace. We need to see that the image of that in $X$ is also closed in $X$. But again this follows since [[continuous images of compact spaces are compact]] and since [[compact subspaces of Hausdorff spaces are closed]].
+
+1.for $X \to X \cup_f D^n$ consider a closed subset in $X$. Its image in $X \cup_f D^n$ has closed pre-image under $f$ since if is continuous, hence it is also closed in $X \cup_f D^n$.
+
+Now let $\{ U_i \subset X \cup_f D^n \}_{i \in I}$ be any open cover of the attaching space. We need to produce a locally finite refinement.
+
+The pre-images of these open subsets in $D^n$ and in $X$ yield open covers of these spaces, and by their paracompactness we find locally finite refinements there. Since [[paracompact Hausdorff spaces are normal]] we may apply the [[shrinking lemma]] to the resulting locally finite refinements to get smaller locally finite refinements the [[topological closures]] of whose patches are still contained in the original locally finite patches. Since the two inclusion maps are closed, by the above, [this lemma](saturated+subset#FindSatureatedOpenInsideOpenNeighbourhood) says that we may find an locally finite cover intermediate these two consisting of open [[saturated subsets]]. Their images in $X \cup_f D^n$ are the required locally finite refinement of the original open cover.
+
+=--
 
 ## Related statements
 
