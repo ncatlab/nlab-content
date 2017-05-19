@@ -184,14 +184,14 @@ is epic (by the assumptions that $1$ is a [[separator]] and $X \times -$ preserv
 
 +-- {: .num_remark #prod2} 
 ###### Remark 
-The same method of proof shows that for an arbitrary family of connected spaces $\{X_\alpha\}_{\alpha \in A}$, the connected component of a point $x = (x_\alpha)$ in the product space $X = \prod_{\alpha \in A} X_\alpha$ contains at least all those points which differ from $x$ in at most finitely many coordinates. However, the set of such points is dense in $\prod_{\alpha \in A} X_\alpha$, so $\prod_{\alpha \in A} X_\alpha$ must also be connected. 
+The same method of proof shows that for an arbitrary family of [[connected spaces]] $\{X_\alpha\}_{\alpha \in A}$, the connected component of a point $x = (x_\alpha)$ in the product space $X = \prod_{\alpha \in A} X_\alpha$ contains at least all those points which differ from $x$ in at most finitely many coordinates. However, the set of such points is dense in $\prod_{\alpha \in A} X_\alpha$, so $\prod_{\alpha \in A} X_\alpha$ must also be connected. 
 =-- 
 
 
 
 ## Examples
 
-* Connected objects in [[Top]] are precisely [[connected topological space|connected topological spaces]]. 
+* Connected objects in [[Top]] are precisely [[connected topological spaces]]. 
 
 * For a [[group]] $G$, connected objects in the category $G Set$ of [[permutation representation]]s are precisely the ([[inhabited set|inhabited]]) [[transitive action|transitive]] $G$-sets. 
 
