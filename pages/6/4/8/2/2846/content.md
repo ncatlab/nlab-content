@@ -138,4 +138,4 @@ Now, if we work instead in a theory such as [[NBG]] or [[MK]] which can contain 
 [[!redirects elementary substructures]]
 [[!redirects elementary submodels]]
 [[!redirects elementary morphisms]]
-[[!redirects elementary embedding]]
+[[!redirects elementary extension]]
