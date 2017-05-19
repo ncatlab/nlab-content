@@ -93,3 +93,4 @@ Online discussion includes
 [[!redirects first-order structure]]
 [[!redirects structure (in model theory)]]
 [[!redirects structures (in model theory)]]
+[[!redirects first-order structures]]
