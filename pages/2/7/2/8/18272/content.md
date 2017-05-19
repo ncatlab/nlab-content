@@ -68,18 +68,18 @@ The "reasoning forward/backward trick" may be summarized by saying that in a [[p
 
 +-- {: .num_remark #Lawvere} 
 ###### Remark 
-Sometimes people who work with categorial forms of logic denote direct images $f(S)$ instead by $\exists_f(S)$. What this is trying to suggest is that existential quantification corresponds to the taking of a direct image; for example, given a property $P$ of pairs $(x, y)$, i.e. a subset $P \subseteq X \times Y$ where we write $P(x, y)$ to say $(x, y) \in P$ holds, the set of $y$ such that $(\exists_{x \in X})\; P(x, y)$ holds is exactly the direct image $\pi_2(P)$ under the projection map $\pi_2: X \times Y \to Y$. What it is furthermore suggesting is that since ordinary existential quantification is the taking of a direct image along a projection map, we can actually expand the meaning of "existential quantification" to include the taking of direct images along more general maps $f: X \to Y$. With this in mind, category theorists often denote $f(S) = \{y \in Y: (\exists_{x \in X})\; y = f(x) \wedge x \in S$ by $\exists_f(S)$, and regard this as giving an operator $\exists_f: P(X) \to P(Y)$ between power sets. They also regard the taking of inverse images $T \mapsto f^{-1}(T)$ as an operator $f^{-1}: P(Y) \to P(X)$, which they often denote rather by $f^\ast: P(Y) \to P(X)$. Then the adjointness relationship between direct image and inverse image is denoted by $\exists_f \dashv f^\ast$. This is an example of a famous slogan due to Lawvere: "Logical quantification is adjoint to substitution" (with resonances far beyond the purview of logic as ordinarily conceived). 
+People who work with categorial forms of logic denote direct images $f(S)$ by $\exists_f(S)$. The suggestion is to view existential quantification as corresponding to taking of a direct image. For example, given a property $P$ of pairs $(x, y)$, i.e. a subset $P \subseteq X \times Y$ where we write $P(x, y)$ to say $(x, y) \in P$ holds, the set of $y$ such that $(\exists_{x \in X})\; P(x, y)$ holds is exactly the direct image $\pi_2(P)$ under the [[projection map]] $\pi_2: X \times Y \to Y$. This suggests furthermore a useful extended meaning of existential quantification, by considering direct images along more general maps, not just projection maps.  With this in mind, category theorists often denote $f(S) = \{y \in Y: (\exists_{x: f(x) = y})\; x \in S\}$ by $\exists_f(S)$, giving an operator $\exists_f: P(X) \to P(Y)$ between [[power sets]]. This is [[left adjoint]] to the taking of inverse images $T \mapsto f^{-1}(T)$ as an operator $f^{-1}: P(Y) \to P(X)$, also denoted by $f^\ast: P(Y) \to P(X)$. The adjointness relationship between direct image and inverse image, denoted by $\exists_f \dashv f^\ast$, is an example of a famous slogan due to Lawvere: "Logical quantification is adjoint to substitution" (with resonances far beyond the purview of logic as ordinarily conceived; see Remark \ref{MoreJargon}). 
 =-- 
 
-As for the statement that inverse images of unions are unions of inverse images, it turns out this follows from a second adjunction, this time reading as follows. For a function $f: X \to Y$ and a subset $U \subseteq X$, define 
+As for the statement that inverse images of unions are unions of inverse images, it turns out this follows from a second fundamental logical adjunction. For a function $f: X \to Y$ and a subset $U \subseteq X$, define 
 
-$$\forall_f(U) = \{y \in Y: (\forall_{x \in X})\; y = f(x) \Rightarrow x \in U\}$$ 
+$$\forall_f(U) = \{y \in Y: (\forall_{x: f(x) = y})\; x \in U\}$$ 
 
-which is analogous to the formula $\exists_f(S) = f(S) = \{y \in Y: (\exists_{x \in X})\; y = f(x) \wedge x \in S$ in Remark \ref{Lawvere}. (Alternatively, in classical logic where the symbol $\neg$ denotes complementation, we have $\forall_f = \neg \exists_f \neg$.) Then the second adjunction reads 
+which is analogous to the formula $\exists_f(S) = f(S) = \{y \in Y: (\exists_{x: f(x) = y})\; x \in S\}$ in Remark \ref{Lawvere}. (Alternatively, in [[classical logic]] where the [[negation]] operator $\neg$ on power sets means complementation, we have $\forall_f = \neg \exists_f \neg$.) Then it is easy to verify a second adjunction 
 
 $$f^{-1}(T) \subseteq U \qquad iff \qquad T \subseteq \forall_f (U)$$ 
 
-and then, following the proof of property 1., we infer that the inverse image operator $f^{-1} = f^\ast: P(Y) \to P(X)$ preserves unions. 
+The same adjointness proof as used to prove property 1., then shows that the inverse image operator $f^{-1} = f^\ast: P(Y) \to P(X)$ preserves unions, and also by the way that the "codirect image" operator $\forall_f: P(X) \to P(Y)$ preserves intersections. 
 
 +-- {: .num_remark #MoreJargon}
 ###### Remark
