@@ -1,0 +1,73 @@
+[[!redirects model complete theory ]]
+[[!redirects model complete theory ]]
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+Model completeness, like [[existential closedness]], is a [[property]] of theories which is meant to generalize the properties of the theory [[ACF]] of algebraically-closed fields.
+
+As discussed in Hodges' [Model theory](#Hodges1993):
+
+> In the early 1950s [[Abraham Robinson]] noticed that certain maps studied by algebraists are in fact [[elementary embeddings]]. If you choose a map at random, the chances of it being an elementary embedding are negligible. So Robinson reckoned that there must be a systematic reason for the appearance of these elementary embeddings, and he set out to find what the reason was.
+
+> In the course of this quest he introduced the notions of model complete theories, companionable theories and [[model companion|model companions]]. These notions have become essential tools for the model theory of algebra.
+
+## Definition
+
+We say a [[first-order theory]] $T$ is *model complete* if every embedding (not necessarily elementary) between models of $T$ _is_ elementary.
+
+The following characterization appears as Theorem 8.3.1 in ([Hodges93](#Hodges1993)):
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $T$ be as above. The following are equivalent:
+
+1. $T$ is model complete
+
+2. Every model of $T$ is [[existentially closed]]
+
+3. For every embedding $A \hookrightarrow B$ where $A$ and $B$ model $T$, there exists an [[elementary extension]] $D$ of $A$ and an embedding $g : B \to D$ such that the triangle commutes.
+
+4. Every [[existentially closed theory|existential formula]] is equivalent (mod $T$) to a [[existentially closed theory|universal formula]].
+
+5. Every formula is equivalent (mod $T$) to a universal formula.
+
+=--
+
+## Examples
+
+* Since [[quantifier elimination]] implies [[substructure completeness]] which is stronger than model completeness, every theory which eliminates quantifiers is model complete. So, for example, [[ACF]], [[DLO]], [[RCF]], and the theory of the [[countable random graph]] are all model complete (and so their models are [[existentially closed]].)
+
+## Remarks
+
+* A theory $T$ is model complete if and only if for every _model_ $A$ of $T$, the [[quantifier-free diagram]] $T_{\mathsf{Diag}(A)}$ (whose models are precisely the models of $T$ containing $A$ as an embedded substructure) is _complete_.
+
+## Related concepts
+
+* [[quantifier elimination]]
+
+* [[model companion]]
+
+* [[substructure completeness]]
+
+* [[existentially closed theory]]
+
+## References 
+
+* {#Hodges1993}Wilfrid Hodges, _Model theory_, Cambridge Univ. Press 1993
+
+[[!redirects model completeness]]
+[[!redirects model-complete theory]]
+[[!redirects model-completeness]]
