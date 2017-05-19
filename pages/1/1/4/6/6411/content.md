@@ -13,7 +13,7 @@ Let $G$ be an ordered [[abelian group]], and $k$ a field.
 
 +-- {: .un_defn}
 ###### Definition
-The ring of **Hahn series** with [[value group]] $G$, denoted $k[t^G]$, is the ring of functions $f\colon G \to k$ such that $\{x \in G : f(x) \neq 0\}$ is [[well-ordered]] as as a subset of $G$ (or, sometimes, as a subsect of the opposite poset $G^{op}$). Addition is defined pointwise, and multiplication is defined by the [[convolution]] product: 
+The ring of **Hahn series** with [[value group]] $G$, denoted $k[t^G]$, is the ring of functions $f\colon G \to k$ such that $\{x \in G : f(x) \neq 0\}$ is [[well-ordered]] as as a subset of $G$ (or, sometimes, as a subset of the opposite poset $G^{op}$). Addition is defined pointwise, and multiplication is defined by the [[convolution]] product: 
 $$(f \cdot g)(x) = \sum_{y+z = x \in G} f(y)g(z)$$
 =-- 
 
@@ -28,7 +28,7 @@ The ring $k[t^G]$ is a field. If $k$ is [[algebraically closed field|algebraical
 
 As a corollary, if $G$ is divisible, $k[t^G]$ is [[real closed field|real closed]] if $k$ is real closed. This is because the adjunction of a square root of $-1$ would make $k[t^G]$ algebraically closed, since this gives the same result as constructing the Hahn series over the algebraically closed field $k[\sqrt{-1}]$.
 
-The [[valuation ring|multiplicative valuation]] $v(f)$ of an element $f\in k[t^G]$ is the least $x \in G^{op}$ for which $f(x) \neq 0$.  This yields a [[valuation ring]], such a valuation ring determines and is determined by a valuation on a [[field]].  The field $k[t^G]$ is [[complete metric space|complete]] with respect to this valuation, *but* unlike for [[formal power series]] the formal series $\sum_{x\in G} f(x) t^x$ do not actually "converge" in this metric.
+The [[valuation ring|multiplicative valuation]] $v(f)$ of an element $f\in k[t^G]$ is the least $x \in G$ for which $f(x) \neq 0$.  This yields a [[valuation ring]], such a valuation ring determines and is determined by a valuation on a [[field]].  The field $k[t^G]$ is [[complete metric space|complete]] with respect to this valuation, *but* unlike for [[formal power series]] the formal series $\sum_{x\in G} f(x) t^x$ do not actually "converge" in this metric.
 
 
 ## Examples
