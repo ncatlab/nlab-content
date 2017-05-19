@@ -507,11 +507,11 @@ An introductory survey is given in
 
 * [[John Baez]], _The Homotopy Hypothesis_ ([web](http://math.ucr.edu/home/baez/homotopy/), [pdf](http://math.ucr.edu/home/baez/homotopy/homotopy.pdf))
 
-The original form of the homotopy hypothesis for [[Kan complexes]] is due to 
+The original form of the homotopy hypothesis was given by Alexander Grothendieck in [[Pursuing Stacks]] and his letter to Quillen which is the first few pages of that typescript. That idea can be seen as a form of the analogous result for an interpretation of $\infty-$ groupoids as [[Kan complexes]]and which is due to 
 
 * {#Quillen67} [[Dan Quillen]], _Homotopical Algebra_, LNM 43, Springer, (1967) 
 
-Textbook accounts include
+Textbook accounts of that include
 
 * {#GoerssJardine96} [[Paul Goerss]], [[Rick Jardine]], section I.11 of _[[Simplicial homotopy theory]]_, 1996
 
