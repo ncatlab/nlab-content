@@ -31,6 +31,43 @@ The [[injective function|injection]] in the second item is in general proper. If
 
 =--
 
+## Proofs via adjoints 
+
+The properties 1., 2. of Proposition \ref{PreservationOfUnionsAndIntersectionsOfSets} may be proved by appeal to fundamental relationships between [[direct image]] and [[inverse image]] and the like, which category theorists call [[adjunctions]] (not unlike adjoints in linear algebra). The advantage of this type of proof is that, despite its utter simplicity, it generalizes to much wider contexts (beyond elementary classical set theory). 
+
+The first such relationship is that, for all subsets $S \subseteq X$ and $T \subseteq Y$, we have 
+
+$$f(S) \subseteq T \qquad iff \qquad S \subseteq f^{-1}(T)$$ 
+
+In that case, we have the following elementary inferences: 
+
+$$\array{
+\bigcup_{i \in I} f(S_i) \subseteq T & iff & (\forall_{i \in I})\; f(S_i) \subseteq T \\ 
+ & iff & (\forall_{i \in I})\; S_i \subseteq f^{-1}(T) \\ 
+ & iff & \bigcup_{i \in I} S_i \subseteq f^{-1}(T) \\ 
+ & iff & f\left(\bigcup_{i \in I} S_i\right) \subseteq T
+}$$ 
+
+where the first and third lines use the defining [[universal property|property]] of unions. Then, putting $T = \bigcup_{i \in I} f(S_i)$ and reasoning forward, we get $f\left(\bigcup_{i \in I} S_i\right) \subseteq \bigcup_{i \in I} f(S_i)$. On the other hand, putting $T = f\left(\bigcup_{i \in I} S_i\right)$ and reasoning backward, we get $\bigcup_{i \in I} f(S_i) \subseteq f\left(\bigcup_{i \in I} S_i\right)$. These two inclusions together give $\bigcup_{i \in I} f(S_i) = f\left(\bigcup_{i \in I} S_i\right)$. 
+
+The [[duality|dual]] of this proof immediately gives the fact that inverse images preserve arbitrary intersections, but let us spell it out directly: 
+
+$$\array{
+S \subseteq \bigcap_{i \in I} f^{-1}(T_i) & iff & (\forall_{i \in I})\; S \subseteq f^{-1}(T_i) \\ 
+ & iff & (\forall_{i \in I})\; f(S) \subseteq T_i \\ 
+ & iff & f(S) \subseteq \bigcap_{i \in I} T_i \\ 
+ & iff & S \subseteq f^{-1}\left(\bigcap_{i \in I} T_i \right)
+}$$ 
+
+and again by using the reasoning forward/backward trick, we infer $\bigcap_{i \in I} f^{-1}(T_i) = f^{-1}\left(\bigcap_{i \in I} T_i\right)$. 
+
++-- {: .num_remark} 
+###### Remark 
+The "reasoning forward/backward trick" may be summarized by saying that in a [[poset]], we have $A = B$ iff ($A \leq T \Leftrightarrow B \leq T$), or dually that $A = B$ iff ($S \leq A \Leftrightarrow S \leq B$). This trick is vastly extrapolated by the [[Yoneda lemma]]. 
+=-- 
+
+
+
 ## Related statements
 
 * [[pre-images preserve unions and intersections]]
