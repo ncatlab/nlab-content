@@ -554,7 +554,7 @@ The homotopy theory of [[cubical set]]s is discussed in
 {#Jardine}
 
 * Maltsiniotis, G. La cat&#233;gorie cubique avec connexions est une cat&#233;gorie
-  test stricte. Homology, Homotopy Appl. 11~(2) (2009) 309--326.
+  test stricte. Homology, Homotopy Appl. 11, (2) (2009) 309--326.
 
 Cubical methods are also essential in 
 
