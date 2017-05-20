@@ -25,7 +25,7 @@ A [[coherent category]] is one having well-behaved unions of subobjects.
 
 ## Properties
 
-* For [[subsets]]: [[images preserve unions]], [[pre-images preserve unions and intersections]].
+* For [[subsets]]: [[images preserve unions]], [[pre-images preserve unions and intersections]]. See at _[[interactions of images and pre-images with unions and intersections]]_.
 
 ## Related concepts
 
