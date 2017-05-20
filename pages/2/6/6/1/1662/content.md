@@ -34,7 +34,9 @@ S          & \hookrightarrow & Y
 
 ## Properties
 
-* [[pre-images preserve unions and intersections]]
+* [[interactions of images and pre-images with unions and intersections]]:
+
+  * [[pre-images preserve unions and intersections]]
 
 
 ## Related concepts
