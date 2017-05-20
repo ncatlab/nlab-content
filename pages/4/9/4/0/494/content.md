@@ -339,6 +339,7 @@ If a functor $L$ has a [[right adjoint]] $R$, then $R$ is unique up to unique [[
 
 +-- {: .num_prop #AdjointsPreserveCoLimits}
 ###### Proposition
+**([[left adjoints preserve colimits and right adjoints preserve limits]])**
 
 Let $(L \dashv R) : D \to C$ be a pair of adjoint functors. Then
 
