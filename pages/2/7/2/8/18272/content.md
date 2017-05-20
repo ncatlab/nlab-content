@@ -187,6 +187,10 @@ Let $f: X \to Y$ be a function, and let $S \subseteq X, T \subseteq Y$ be subset
 ###### Proof 
 The easy direction is the inclusion $f(S \cap f^{-1}(T)) \subseteq f(S) \cap T$: by the [[universal property|defining property]] of intersections, it suffices to show $f(S \cap f^{-1}(T)) \subseteq f(S)$ and $f(S \cap f^{-1}(T)) \subset T$. The first is clear since $S \cap f^{-1}(T) \subseteq S$, and $A \subseteq B$ implies $f(A) \subseteq f(B)$. Similarly, $f(S \cap f^{-1}(T)) \subseteq f(f^{-1}(T))$, and $f(f^{-1}(T)) \subseteq T$ since this is equivalent to $f^{-1}(T) \subseteq f^{-1}(T)$ by the adjunction between direct and inverse image. 
 
+To be continued. 
+
+=--
+
 
 
 
