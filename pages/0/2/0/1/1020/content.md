@@ -56,11 +56,9 @@ Whenever $F$ is a left adjoint of $U$, we have that $U$ is a [[right adjoint]] o
 
 ## Properties
 
-Left adjoint functors preserve
+* [[left adjoints preserve colimits]]
 
-* [[colimit]]s;
-
-* [[epimorphism]]s.
+* left adjoints preserve [[epimorphisms]].
 
 ## Related entries
 
