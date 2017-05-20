@@ -1,4 +1,3 @@
-[[!redirects images of unions are unions of images]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,7 +15,7 @@
 
 ## Introduction 
 
-There is a battery of little set-theoretic lemmas which inevitably recur when laying the foundations of core mathematics, as when teaching the standard curriculum that includes basic topology, real analysis, algebra, and so forth. In this article we collect some of those core results having to do with the properties of image and pre-image operators, especially regarding their preservation (or not) of set-theoretic operations like unions and intersections. 
+There is a battery of little [[set theory|set-theoretic]] lemmas which inevitably recur when laying the foundations of core [[mathematics]], as when teaching the standard curriculum that includes basic [[topology]], real [[analysis]], [[algebra]], and so forth. In this article we collect some of those core results having to do with the properties of image and [[pre-image]] operators, especially regarding their preservation (or not) of set-theoretic operations like [[unions]] and [[intersections]]. 
 
 The attitude and approach of the mathematics professor toward such routine bread-and-butter issues is a matter of some interest. A professional, upon being presented with any one of these "naive set theory" propositions, will probably be able to verify it on the spot using ordinary follow-your-nose logic, driven by the definitions. While being able to produce such verifications is part of basic training in mathematics, it is not quite the same as giving an *explanation*, and in fact even good mathematicians trained this way may struggle to remember "now which is it that direct images preserve, unions or intersections?"[^1] 
 
@@ -165,12 +164,13 @@ Here in the language of [[type theory]]
 
 1. the [[right adjoint]] $f_\ast$ is also called the [[dependent product]].
 
-All this restricts to the (-1)-truncated objects by composing the left adjoint with [[(-1)-truncation]]. Then one also says that we are looking at a morphism in a [[hyperdoctrine]] and (under [[propositions as types]]) may think of
+All this restricts to the (-1)-truncated objects by composing the left adjoint with [[(-1)-truncation]]. Then one also says that we are looking at a morphism in a [[hyperdoctrine]] and (under "[[propositions as types]]") may think of
 
 1. the left adjoint $f_!$ as the [[existential quantifier]] $\exists_f$
 
 1. the right adjoint $f_\ast$ as the [[universal quantifier]] $\forall_f$.
 
+Now the fact that [[left adjoint]] $\exists_f$ preserves [[unions]] is the fact that [[left adjoints preserve colimits]], and the fact that the left- and [[right adjoint]] $f^\ast$ preserves unions and intersections is that in addition [[right adjoints preserve limits]].
 
 =--
 
@@ -196,12 +196,12 @@ To be continued.
 
 ## Related statements
 
-* [[pre-images preserve unions and intersections]]
-
 * [[countable unions of countable sets are countable]]
 
+* [[limits and colimits by example]]
 
 
 [[!redirects images preserve unions]]
 
 [[!redirects the image of an intersection is contained in the intersection of the images]]
+[[!redirects images of unions are unions of images]]
