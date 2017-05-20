@@ -30,7 +30,7 @@ Central aspects of _finite_ [[quantum mechanics]] (with finite-dimensional [[spa
 
 Conversely, much of finite quantum mechanics and quantum computation can be formulated in _any_ &#8224;-compact category, and general reasoning about &#8224;-compact categories themselves yields results about quantum mechanics and quantum computation.
 
-An transparent [[string diagram]] calculus in &#8224;-compact categories as exposed in ([Coecke, Kindergarten quantum mechanics](#CoeckeKindergarten)) provides an intuitive and powerful tool for reasoning in $\dagger$-compact categories.
+A transparent [[string diagram]] calculus in &#8224;-compact categories as exposed in ([Coecke, Kindergarten quantum mechanics](#CoeckeKindergarten)) provides an intuitive and powerful tool for reasoning in $\dagger$-compact categories.
 
 
 ## Quantum mechanical concepts in $\dagger$-compact categories
