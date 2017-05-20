@@ -14,6 +14,16 @@
 * table of contents
 {:toc}
 
+## Introduction 
+
+There is a battery of little set-theoretic lemmas which inevitably recur when laying the foundations of core mathematics, as when teaching the standard curriculum that includes basic topology, real analysis, algebra, and so forth. In this article we collect some of those core results having to do with the properties of image and pre-image operators, especially regarding their preservation (or not) of set-theoretic operations like unions and intersections. 
+
+The attitude and approach of the mathematics professor toward such routine bread-and-butter issues is a matter of some interest. A professional, upon being presented with any one of these "naive set theory" propositions, will probably be able to verify it on the spot using ordinary follow-your-nose logic, driven by the definitions. While being able to produce such verifications is part of basic training in mathematics, it is not quite the same as giving an *explanation*, and in fact even good mathematicians trained this way may struggle to remember "now which is it that direct images preserve, unions or intersections?"[^1] 
+
+[^1]: There is a famous story of how Suslin discovered an error in an argument of Lebesgue, concerning just this type of routine set-theoretic detail (that Lebesgue probably just misremembered). In response, Suslin was led to develop some of the basics of [[descriptive set theory]]. 
+
+A strong pedagogy would not only instill this sort of basic training, but make the battery of routine results more memorable by concentrating their essence in one or two basic principles that provide an explanatory basis for the rest. According to Lawvere, logic is an interlocking system of certain types of adjoint functors, and we believe putting those adjoint relationships front and center and seeing how the rest flows from them is an effective way to arrange the facts. 
+
 ## Statements
 
 +-- {: .num_prop #PreservationOfUnionsAndIntersectionsOfSets}
@@ -45,6 +55,13 @@ Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{T_
 1. $f^{-1}\left( \underset{i \in I}{\cap}  T_i\right) = \left(\underset{i \in I}{\cap} f^{-1}(T_i)\right)$ (the [[pre-image]] under $f$ of the [[intersection]] of the subsets is contained in the intersection of the pre-images).
 =-- 
 
++-- {: .num_prop} 
+###### Proposition 
+**(projection formula)** 
+Let $f: X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $S \subset X$ be a [[subset]] of $X$, and $T \subseteq Y$ be a subset of $Y$. Then 
+
+$$f(S) \cap T = f(S \cap f^{-1}(T)).$$ 
+=--
 
 ## Proofs via adjoints 
 
@@ -156,6 +173,21 @@ All this restricts to the (-1)-truncated objects by composing the left adjoint w
 
 
 =--
+
+## Projection formula 
+
+Another useful formula for interactions between images and pre-images and intersections is the projection formula: 
+
++-- {: .num_prop} 
+###### Proposition 
+Let $f: X \to Y$ be a function, and let $S \subseteq X, T \subseteq Y$ be subsets. Then $f(S) \cap T = f(S \cap f^{-1}(T))$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The easy direction is the inclusion $f(S \cap f^{-1}(T)) \subseteq f(S) \cap T$: by the [[universal property|defining property]] of intersections, it suffices to show $f(S \cap f^{-1}(T)) \subseteq f(S)$ and $f(S \cap f^{-1}(T)) \subset T$. The first is clear since $S \cap f^{-1}(T) \subseteq S$, and $A \subseteq B$ implies $f(A) \subseteq f(B)$. Similarly, $f(S \cap f^{-1}(T)) \subseteq f(f^{-1}(T))$, and $f(f^{-1}(T)) \subseteq T$ since this is equivalent to $f^{-1}(T) \subseteq f^{-1}(T)$ by the adjunction between direct and inverse image. 
+
+
 
 
 ## Related statements
