@@ -45,3 +45,8 @@ A Tutorial_, [arxiv/1409.2662](http://arxiv.org/abs/1409.2662)
    {#Connes1995}
 
 *  D.H. Fremlin (2001); _Measure Theory_; 5 volumes, [web](http://www.essex.ac.uk/maths/people/fremlin/mt.htm).
+
+Discussion via [[Boolean toposes]] is in 
+
+* {#Henry14} [[Simon Henry]], _Measure theory over boolean toposes_, Mathematical Proceedings of the Cambirdge Philosophical Society, 2016 ([arXiv:1411.1605](https://arxiv.org/abs/1411.1605))
+
