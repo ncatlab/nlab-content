@@ -1,0 +1,133 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
+
++-- {: .num_prop #HomFunctorPreservesLimits}
+###### Proposition
+**(hom-functor preserves limits)**
+
+Let $\mathcal{C}$ be a [[category]] and write
+
+$$
+
+  Hom_{\mathcal{C}}
+   \;\colon\;
+  \mathcal{C}^{op} \times \mathcal{C}
+   \longrightarrow
+  Set
+$$
+
+for its [[hom-functor]]. This preserves [[limits]] in both its arguments (recalling that a limit in the [[opposite category]] $\mathcal{C}^{op}$ is a [[colimit]] in $\mathcal{C}$).
+
+More in detail, let $X_\bullet \colon \mathcal{I} \longrightarrow \mathcal{C}$ be a [[diagram]]. Then:
+
+1. If the [[limit]] $\underset{\longleftarrow}{\lim}_i X_i$ exists in $\mathcal{C}$ then for all $Y \in \mathcal{C}$ there is a [[natural isomorphism]]
+
+   $$
+     Hom_{\mathcal{C}}\left(Y, \underset{\longleftarrow}{\lim}_i X_i \right)
+     \simeq
+     \underset{\longleftarrow}{\lim}_i \left( Hom_{\mathcal{C}}\left( Y, X_i \right) \right)
+      \,,
+   $$
+
+   where on the right we have the limit over the diagram of [[hom-sets]] given by 
+   
+   $$
+     Hom_{\mathcal{C}}(Y,-) \circ X \;\colon\; \mathcal{I} \overset{X}{\longrightarrow} \mathcal{C} \overset{Hom_{\mathcal{C}}(Y,-)  }{\longrightarrow} Set\,.
+   $$
+
+1. If the [[colimit]] $\underset{\longrightarrow}{\lim}_i X_i$ exists in $\mathcal{C}$ then for all $Y \in \mathcal{C}$ there is a [[natural isomorphism]]
+
+   $$
+     Hom_{\mathcal{C}}\left(\underset{\longrightarrow}{\lim}_i X_i ,Y\right)
+     \simeq
+     \underset{\longleftarrow}{\lim}_i \left( Hom_{\mathcal{C}}\left( X_i , Y\right) \right)
+      \,,
+   $$
+
+   where on the right we have the limit over the diagram of [[hom-sets]] given by 
+   
+   $$
+     Hom_{\mathcal{C}}(-,Y) \circ X \;\colon\; \mathcal{I}^{op} \overset{X}{\longrightarrow} \mathcal{C}^{op} \overset{Hom_{\mathcal{C}}(-,Y)  }{\longrightarrow} Set\,.
+   $$
+
+
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We give the proof of the first statement. The proof of the second statement is [[formal dual|formally dual]].
+
+First observe that, by the very definition of [[limit|limiting]] [[cones]], maps out of some $Y$ into them are in natural bijection
+with the set $Cones\left(Y, X_\bullet \right)$ of cones over the diagram $X_\bullet$ with tip $Y$:
+
+$$
+  Hom\left(
+    Y,
+    \underset{\longleftarrow}{\lim}_{i} X_i
+  \right)
+    \;\simeq\;
+  Cones\left(
+    Y, X_\bullet
+  \right)
+  \,.
+$$
+
+Hence it remains to show that there is also a natural bijection like so:
+
+$$
+  Cones\left(
+    Y,
+    X_\bullet
+  \right)
+    \;\simeq\;
+  \underset{\longleftarrow}{\lim}_{i} \left( Hom(Y,X_i) \right)
+  \,.
+$$
+
+Now, again by the very definition of limiting cones, a single element in the limit on the right is equivalently a cone of the form
+
+$$
+  \left\{
+  \array{
+    && \ast
+    \\
+    & {}^{\mathllap{const_{p_i}}}\swarrow && \searrow^{\mathrlap{const_{p_j}}}
+    \\
+    Hom(Y,X_i)
+     && \underset{X_\alpha \circ (-)}{\longrightarrow} &&
+    Hom(Y,X_j)
+  }
+  \right\}_{i, j \in Obj(\mathcal{I}), \alpha \in Hom_{\mathcal{I}}(i,j) }
+  \,.
+$$
+
+This is equivalently for each object $i \in \mathcal{I}$ a choice of morphism $p_i \colon Y \to X_i$ , such that  for each pair of objects $i,j \in \mathcal{I}$
+and each $\alpha \in Hom_{\mathcal{I}}(i,j)$ we have $X_\alpha \circ p_i = p_j$. And indeed, this is precisely the characterization of an element in the
+set $  Cones\left( Y, X_\bullet\} \right)$.
+
+
+=--
+
+## Related statements
+
+* [[adjoints preserve (co-)limits]]
