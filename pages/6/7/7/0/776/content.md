@@ -29,15 +29,15 @@ $$
   f(x)\sim g(x)
 $$
 
-for all $x \in X$. This means that the [[projection]]  function $p \colon Y \longrightarrow Y/_\sim$ satisfies
+for all $x \in X$. This means that the [[quotient]] function $p \colon Y \longrightarrow Y/_\sim$ satisfies
 
 $$
   p \circ f = p \circ g
 $$
 
-and in fact $p$ is [[universal property|universal]] with this property, hence it "co-equalizes" $f$ and $g$.
+(a map $p$ satisfying this equation is said to "co-equalize" $f$ and $g$) and moreover $p$ is [[universal property|universal]] with this property.
 
-In this form this may be phrased generally in any [[category]], 
+In this form this may be phrased generally in any [[category]].  
 
 ## Definition
 
