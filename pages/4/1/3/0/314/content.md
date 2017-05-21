@@ -433,8 +433,9 @@ Another example is that all [[finite limits]] can be computed in terms of [[pull
 
 ### Interaction with $Hom$-functor
 
-+-- {: .un_prop}
-###### Covariant Hom commutes with limits
++-- {: .num_prop}
+###### Proposition
+**([[hom-functor preserves limits]])**
 
 For $C$ a [[locally small]] category,
 for $F : D^{op} \to C$ a functor and writing $C(c, F(-)) : D^{op} \to Set$, we have
@@ -451,7 +452,7 @@ Depending on how one introduces limits this holds by definition or is an easy co
 
 ### In $Set$
 
-+-- {: .un_prop}
++-- {: .num._prop}
 ###### Limits in Set are hom-sets
 
 For $F : D^{op} \to Set$ any functor and $const_{*} : D^{op} \to Set$ the functor constant on the [[point]], the limit of $F$ is the [[hom-set]]
