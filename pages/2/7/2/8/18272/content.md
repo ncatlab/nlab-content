@@ -19,7 +19,7 @@ There is a battery of little [[set theory|set-theoretic]] lemmas which inevitabl
 
 The attitude and approach of the mathematics professor toward such routine bread-and-butter issues is a matter of some interest. A professional, upon being presented with any one of these "naive set theory" propositions, will probably be able to verify it on the spot using ordinary follow-your-nose logic, driven by the definitions. While being able to produce such verifications is part of basic training in mathematics, it is not quite the same as giving an *explanation*, and in fact even good mathematicians trained this way may struggle to remember "now which is it that direct images preserve, unions or intersections?"[^1] 
 
-[^1]: There is a famous story of how [[Mikhail Yakovlevich Suslin|Suslin]] discovered an error in an argument of [[Lebesgue]], concerning just this type of routine set-theoretic detail (that Lebesgue probably just misremembered). In response, [[Mikhail Yakovlevich Suslin|Suslin]] was led to develop some of the basics of [[descriptive set theory]]. 
+[^1]: There is a famous story of how [[Mikhail Yakovlevich Suslin|Suslin]] discovered an error in an argument of [[Lebesgue]], concerning just this type of routine set-theoretic detail (that Lebesgue perhaps just misremembered). In response, [[Mikhail Yakovlevich Suslin|Suslin]] was led to develop some of the basics of [[descriptive set theory]]. Details of the story have been told by Dave Renfro, [here](http://mathforum.org/kb/message.jspa?messageID=4966721) and [here](http://mathforum.org/kb/message.jspa?messageID=4967733)
 
 A strong pedagogy would not only instill this sort of basic training, but make the battery of routine results more memorable by concentrating their essence in one or two basic principles that provide an explanatory basis for the rest. According to [[William Lawvere|Lawvere]], logic is an interlocking system of certain types of adjoint functors, and we believe putting those adjoint relationships front and center and seeing how the rest flows from them is an effective way to arrange the facts. 
 
@@ -72,6 +72,12 @@ The first such relationship is that, for all subsets $S \subseteq X$ and $T \sub
 
 $$f(S) \subseteq T \qquad iff \qquad S \subseteq f^{-1}(T)$$ 
 
+One says in this situation that the direct image mapping $f(-)$ is *[[left adjoint]]* to the inverse image mapping $f^{-1}(-)$, or that inverse image is *[[right adjoint]]* to direct image. This terminology is guided by the formally similar usage in linear algebra where linear mappings $A$ and $B$ are adjoint if one has an equation 
+
+$$\langle A x, y \rangle = \langle x, B y \rangle$$ 
+
+for all $x, y$ in suitable [[inner product spaces]] (and in fact the analogy is not idle; see for instance [Baez](#JB97)). 
+
 In that case, we have the following elementary inferences: 
 
 $$\array{
@@ -110,7 +116,9 @@ $$f\left(\bigcap_{i \in I} S_i\right) \subseteq \bigcap_{i \in I} f(S_i)$$
 
 because this is equivalent to $(\forall_{i \in I})\; f\left(\bigcap_{i \in I} S_i\right) \subseteq f(S_i)$, which is obvious because for all $i \in I$, we have $\bigcap_{i \in I} S_i \subseteq S_i$, and $f(A) \subseteq f(B)$ if $A \subseteq B$. 
 
-If $f: X \to Y$ is injective, then the direct image operator $S \mapsto f(S)$ preserves intersections of subsets $(S_i)_{i \in I}$ indexed over *nonempty* sets $I$. This is not difficult to check once we verify that 
+This inclusion is not usually an equality. For example, in the [[cartesian space]] $\mathbb{R}^2$ with $x y$-coordinates, the [[projection]] $(x, y) \mapsto x$ does not preserve the intersection of the lines $y = 1$ and $y = 2$. 
+
+However, if $f: X \to Y$ is injective, then the direct image operator $S \mapsto f(S)$ *does* preserve intersections of subsets $(S_i)_{i \in I}$ indexed over *nonempty* sets $I$. This is not difficult to check once we verify that 
 
 * For any map $f: X \to Y$ (not necessarily injective) and any subset $T \subseteq Y$, we have $f(X) \cap T = f(f^{-1}(T))$. 
 
@@ -198,7 +206,21 @@ To be continued.
 
 * [[countable unions of countable sets are countable]]
 
-* [[limits and colimits by example]]
+* [[limits and colimits by example]] 
+
+## References 
+
+The slogan of Lawvere on logic and adjoint functors appears in 
+
+* [[F. William Lawvere]], _An elementary theory of the category of sets_, Proceedings of the National Academy of Science of the U.S.A 52 (1965), 1506-1511. Reprinted in an expanded version, with commentary by Colin McLarty and by Lawvere, in Reprints in Theory and Applications of Categories, No. 11 (2005), pp. 1-35. ([link](http://www.tac.mta.ca/tac/reprints/articles/11/tr11abs.html)) 
+
+The story of Lebesgue's slip that projections commute with intersections, in attempting to prove that [[projections]] of [[Borel sets]] are Borel, is well explained here: 
+
+* Dave L. Renfro, *Mikhail Y. Suslin and Lebesgue's error*, two Mathforum posts dated July 29, 2006 (first post [here](http://mathforum.org/kb/message.jspa?messageID=4966721)). 
+
+The analogy between adjoint functors and adjoints in linear algebra becomes very strong when jacking up from Hilbert spaces to 2-Hilbert spaces. See 
+
+* {#JB97} [[John C. Baez]], *Higher-Dimensional Algebra II. 2-Hilbert Spaces*, Advances in Mathematics, Volume 127 Issue 2 (10 May 1997), 125-189. [https://doi.org/10.1006/aima.1997.1617](https://doi.org/10.1006/aima.1997.1617) ([Elsevier link](http://www.sciencedirect.com/science/article/pii/S0001870897916170)) 
 
 
 [[!redirects images preserve unions]]
