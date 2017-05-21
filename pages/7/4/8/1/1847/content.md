@@ -61,17 +61,61 @@ As with the concept of [[compact topological spaces]] ([this remark](compact#spa
 
 ## Examples 
 
++-- {: .num_example}
+###### Example
 
-* every [[compact space]] is paracompact;
+Every [[compact space]] is paracompact.
 
-* any [[second-countable space|second-countable]] [[locally compact space|locally compact]] [[Hausdorff space]] is paracompact;
+=--
 
-* paracompactness is preserved by forming [[disjoint union spaces]] ([[coproduct]]).
++-- {: .num_prop #SuperLieAlgebraTraditional}
+###### Proposition
 
-  +--{: .proof}
-  ###### Proof
-  Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompact.  As the union is disjoint, the components, that is to say, the $X_\lambda$, are open in $X$.  Thus any open cover, say $\mathcal{U}$, of $X$ has a refinement by open sets, say $\mathcal{V}$, such that each $V \in \mathcal{V}$ is contained in some $X_\lambda$.  Thus we can write $\mathcal{V} = \coprod \mathcal{V}_\lambda$.  As each $X_\lambda$ is paracompact, each $\mathcal{V}_\lambda$ has a locally finite refinement, say $\mathcal{W}_\lambda$.  Then let $\mathcal{W} := \coprod \mathcal{W}_\lambda$.  As each $\mathcal{W}_\lambda$ is a refinement of the corresponding $\mathcal{V}_\lambda$, $\mathcal{W}$ is a refinement of $\mathcal{V}$, and hence of $\mathcal{U}$.  As each point of $X$ has a neighbourhood which meets only elements of _one_ of the $\mathcal{W}_\lambda$, and as that $\mathcal{W}_\lambda$ is locally finite, $\mathcal{W}$ is locally finite.  Thus $\mathcal{U}$ has a locally finite refinement.
-  =--
+[[locally compact space|locally compact]] and [[second-countable space|second-countable]] [[Hausdorff space]] are paracompac
+
+=--
+
++-- {: .num_prop #ParacompactFromLocallyCompactAndSigmacompact}
+###### Proposition
+
+[[locally compact and sigma-compact spaces are paracompact]]
+
+=--
+
++-- {: .num_example #ParacompactEuclideanSpace}
+###### Example
+**([[Euclidean space]] is paracompact)**
+
+For $n \in \mathbb{N}$, then the [[Euclidean space]] $\mathbb{R}^n$,
+regarded with its [[metric topology]]
+is paracompact.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Euclidean space is evidently [[locally compact topological space|locally compact]] and [[sigma-compact topological space|sigma-compact]].
+Therefore the statement follows since [[locally compact and sigma-compact spaces are paracompact]] (prop. \ref{ParacompactFromLocallyCompactAndSigmacompact}).
+
+=--
+
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+Paracompactness is preserved by forming [[disjoint union spaces]] ([[coproducts]] in [[Top]]).
+
+=--
+
++--{: .proof}
+###### Proof
+
+Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompact.  As the union is disjoint, the components, that is to say, the $X_\lambda$, are open in $X$.  Thus any open cover, say $\mathcal{U}$, of $X$ has a refinement by open sets, say $\mathcal{V}$, such that each $V \in \mathcal{V}$ is contained in some $X_\lambda$.  Thus we can write $\mathcal{V} = \coprod \mathcal{V}_\lambda$.  As each $X_\lambda$ is paracompact, each $\mathcal{V}_\lambda$ has a locally finite refinement, say $\mathcal{W}_\lambda$.  Then let $\mathcal{W} := \coprod \mathcal{W}_\lambda$.  As each $\mathcal{W}_\lambda$ is a refinement of the corresponding $\mathcal{V}_\lambda$, $\mathcal{W}$ is a refinement of $\mathcal{V}$, and hence of $\mathcal{U}$.  As each point of $X$ has a neighbourhood which meets only elements of _one_ of the $\mathcal{W}_\lambda$, and as that $\mathcal{W}_\lambda$ is locally finite, $\mathcal{W}$ is locally finite.  Thus $\mathcal{U}$ has a locally finite refinement.
+
+=--
 
 
 * [[manifolds]]
