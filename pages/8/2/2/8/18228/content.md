@@ -12,3 +12,7 @@ Such subsets include [[Borel sets]] and more generally [[projective sets]] that 
 ## Related concepts
 
 * [[set theory]]
+
+* [[Mikhail Yakovlevich Suslin]]
+
+[[!redirects descriptive set theories]]
