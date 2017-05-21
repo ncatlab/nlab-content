@@ -82,6 +82,8 @@ This contradicts the assumption that none of the $U_i$ contains the open ball $B
 
 ## References
 
+Named after [[Henri Lebesgue]].
+
 * Wikipedia, _[Lebesgue's number lemma](https://en.wikipedia.org/wiki/Lebesgue%27s_number_lemma)_
 
 
