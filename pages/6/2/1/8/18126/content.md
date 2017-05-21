@@ -7816,7 +7816,7 @@ $f(x) \sim g(x)$ for all $x \in X$)  and equipped with the [[quotient topology]]
 
 +-- {: .num_example #PushoutInTop}
 ###### Example
-**([[space attachments]])**
+**([[attachment spaces]])**
 
 Consisder a [[cospan]] [[diagram]] (example \ref{SpanDiagram}) of continuous functions
 
@@ -7877,7 +7877,7 @@ $$
   (X, \tau_X) \underset{(A, \tau_A)}{\sqcup} (Y, \tau_Y)
 $$
 
-and called the _[[space attachment]]_ (sometimes: _[[attaching space]]_ or _[[adjunction space]]_) of $A \subset X$ along $f$.
+and called the _[[attachment space]]_ (sometimes: _[[attaching space]]_ or _[[adjunction space]]_) of $A \subset X$ along $f$.
 
 
 (graphics from [Aguilar-Gitler-Prieto 02](#AguilarGitlerPrieto02))
@@ -8103,9 +8103,10 @@ $$
   \,.
 $$
 
+Given a CW-complex, then $X_n$ is also called its $n$-[[skeleton]].
+
 A _[[finite CW-complex]]_ is one which admits a presentation in which there are only finitely many attaching maps, and similarly a _countable CW-complex_ is one which admits a presentation with countably many attaching maps.
 
-Given a CW-complex, then $X_n$ is also called its $n$-[[skeleton]].
 
 =--
 
@@ -9089,6 +9090,20 @@ $\,$
 
 ### Locally compact spaces
 
+A topological space is _[[locally compact topological space|locally compact]]_ if each point has a
+[[compact topological space|compact]] [[neighbourhood]]. Or rather, this is the case in locally 
+compact [[Hausdorff spaces]]. Without the Hausdorff condition one asks that these compact neighbourhoods
+exist in a certain controlled way (def. \ref{LocallyCompactSpace} below).
+
+It turns out that locally compact Hausdorff spaces are precisely the open [[subspaces]] of [[compact Hausdorff spaces]]
+(example \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact} and prop. ... below.) 
+
+Local compactness is useful as a criterion for identifying [[paracompact topological space|paracompactness]]
+(prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} below).
+
+
+$\,$
+
 
 +-- {: .num_defn #LocallyCompactSpace}
 ###### Definition
@@ -9132,10 +9147,22 @@ Every [[discrete topological space]] (example \ref{CoDiscreteTopology}) is [[loc
 
 +-- {: .num_example #MetricSpacesAreLocallyCompact}
 ###### Example
-**([[metric spaces]] are [[locally compact topological space|locally compact]])**
+**([[Euclidean space]] is [[locally compact topological space|locally compact]])**
 
-Every [[metric space]] (def. \ref{MetricSpace}), regarded as a [[topological space]] via its
+For $n \in \mathbb{N}$ then [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) regarded as a [[topological space]] via its
 [[metric topology]] (def. \ref{MetricTopology}), is [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $x \in X$ be a point and $U_x \supset \{x\}$ an [[open neighbourhood]]. By definition
+of the [[metric topology]] (example \ref{MetricTopology}) this means that $U_x$ contains an [[open ball]]
+$B^\circ_x(\epsilon)$ (def. \ref{OpenBalls}) around $x$ of some [[radius]] $\epsilon$.
+This ball also contains the open ball $V_x \coloneqq B^\circ_x(\epsilon/2)$ and its
+topological closure, which is the [[closed ball]] $B_x(\epsilon/2)$. This closed ball
+is compact, for instance by the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}).
 
 =--
 
@@ -10290,7 +10317,7 @@ A [[topological space]] $(X,\tau)$ is called _[[paracompact topological space|pa
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #CompactSpaceIsParacompact}
 ###### Example
 **([[compact topological spaces]] are [[paracompact topological spaces|paracompact]])
 
@@ -10300,7 +10327,76 @@ Since a finite subcover is in particular a locally finite refinement.
 
 =--
 
-The definition is closely related to
++-- {: .num_example #ParacompactDisjointUnionOfParacompactSpaces}
+###### Example
+**([[disjoint union space|disjoint unions]] of [[paracompact topological spaces|paracompact spaces]] are paracompact)**
+
+Let $\{(X_i, \tau_i)\}_{i \in I}$ be a set of [[paracompact topological spaces]] (def. \ref{ParacompactSpace}).
+Then also their [[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces})
+
+$$
+  \underset{i \in I}{\sqcup} (X_i,\tau_i)
+$$
+
+is paracompact.
+
+In particular, by example \ref{CompactSpaceIsParacompact} a non-finite disjoint union of [[compact topological spaces]]
+is, while no longer compact, still paracompact.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\mathcal{U} = \{ U_j \subset \underset{i \in I}{\sqcup} (X_i, \tau_i) \}_{j \in J}$ be an [[open cover]].
+We need to produce a locally finite refinement.
+
+Since each $X_i$ is open in the disjoint union, the intersections $U_i \cap X_j$ are all open, and 
+hence by forming all these intersections we obtain a [[refinement]] of the original cover by a disjoint union
+of open covers $\mathcal{U}_i$ of $(X_i, \tau_i)$ for all $i \in I$. By the assumption that 
+each $(X_i, \tau_i)$ is paracompact, each $\mathcal{U}_i$ has a locally finite refinement $\mathcal{V}_i$.
+Accordingly the disjoint union $\underset{i \in I}{\sqcup}\mathcal{V}_i$ is a locally finite refinement
+of $\mathca{U}$.
+
+=--
+
+
++-- {: .num_example #ParacompactHausdorffCWComplexes}
+###### Example
+**([[CW-complexes are paracompact Hausdorff spaces]])**
+
+Let $X$ be a [[paracompact Hausdorff space]], let $n \in \mathbb{N}$ and let 
+
+$$
+  f \;\colon\; S^{n-1} \longrightarrow X
+$$
+
+be a [[continuous function]] from the $(n-1)$-[[sphere]] (with its [[subspace topology]] inherited from [[Euclidean space]],
+example \ref{SpheresAndDisks}). Then also the [[attachment space]] (example \ref{PushoutInTop}) $X \cup_f D^n$,
+i.e. the [[pushout]]
+
+$$  
+  \array{
+^   S^{n-1} &\overset{\phantom{A}f \phantom{A}}{\longrightarrow}& X
+    \\
+    \downarrow &(po)& \downarrow^{\mathrlap{i_X}}
+    \\
+    D^n &\underset{i_{D^n}}{\longrightarrow}& X \cup_f D^n
+  }
+$$
+
+is paracompact Hausdorff. 
+
+This immediately implies that all [[finite CW-complexes]] relative to a [[paracompact Hausdorff space]]
+are themselves paracompact Hausdorff. In fact this is true generally: all [[CW-complexes are paracompact Hausdorff spaces]].
+
+For example it follows that the [[n-balls]] $D^n$ and [[n-spheres]] $S^n$ (example \ref{SpheresAndDisks})
+are paracompact Hausdorff spaces, by example \ref{TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}.
+
+=--
+
+
+The definition of [[paracompact Hausdorff spaces]] is closely related to the definition of
 
 1. [[second-countable topological space|second-countability]] (def. \ref{CountableSecond} below);
 
@@ -10312,7 +10408,7 @@ The definition is closely related to
 **([[second-countable topological space]])**
 
 A [[topological space]] is called _[[second-countable topological space|second countable]]_
-of it admits a [[base for a topology|base for its topology]] $\beta_X$ which is a [[countable set]] of open subsets.
+if it admits a [[base for a topology|base for its topology]] $\beta_X$ which is a [[countable set]] of open subsets.
 
 =--
 
@@ -10336,13 +10432,13 @@ A [[topological space]] is called _[[sigma-compact topological space|sigma-compa
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #SigmaCompactEuclideanSpace}
 ###### Example
 **([[Euclidean space]] is [[sigma-compact topological space|sigma-compact]])**
 
 For $n \in \mathbb{N}$ then the [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm})
 equipped with its [[metric topology]] (example \ref{MetricTopology})
-is [[sigma-compact tpological space|sigma-compact]] (def. \ref{CompactSigma}).
+is [[sigma-compact topological space|sigma-compact]] (def. \ref{CompactSigma}).
 
 =--
 
@@ -10355,14 +10451,15 @@ $$
   K_k \coloneqq B_0(k) \subset \mathbb{R}^n
 $$
 
-be the [[closed ball]] (def. \ref{OpenBalls}) of [[radius]] $k$. By the [[Neine-Borel theorem]] (prop. \ref{BorelHeine}) these
+be the [[closed ball]] (def. \ref{OpenBalls}) of [[radius]] $k$. By the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}) these
 are [[compact topological space|compact]] [[subspaces]]. Clearly they exhaust $\mathbb{R}^n$.
 
 =--
 
-We obtain a large class of example of paracompact spaces in prop. \ref{ParacompactFromLocallyCompactAndSigmacompact}
+We obtain a class of examples of paracompact spaces in prop. \ref{ParacompactFromLocallyCompactAndSigmacompact}
 below, which will be useful for
-identifying [[manifolds]] below in prop. \ref{RegularityConditionsForTopologicalManifoldsComparison}:
+identifying [[manifolds]] below in prop. \ref{RegularityConditionsForTopologicalManifoldsComparison}.
+First we need the following lemma.
 
 +-- {: .num_lemma #LocallyCompactAndSigmaCompactImpliesGoodNestedCover}
 ###### Lemma
@@ -10470,7 +10567,7 @@ By lemma \ref{LocallyCompactAndSigmaCompactImpliesGoodNestedCover} there exists 
 1. $V_n \subset V_{n+1}$.
 
 Notice that the [[complement]] $Cl(V_{n+1}) \setminus V_n$ is compact, since $Cl(V_{n+1})$ is compact and $V_n$ is open,
-by example \ref{compact+space#IntersectionCompactWithOpen}.
+by example \ref{IntersectionCompactWithOpen}.
 
 By this compactness, the cover $\{U_i \subset X\}_{i \in I}$ regarded as a cover of the [[subspace]] $Cl(V_{n+1})\setminus V_n$ has a finite subcover $\{U_i \subset X\}_{i \in J_n}$ indexed by a finite set $J_n \subset I$, for each $n \in \mathbb{N}$.
 
@@ -10497,14 +10594,38 @@ is a locally finite refinement of the original cover, as required:
 
 1. $\mathcal{U}$ is locally finite because each point $x \in X$ has an open neighbourhood of the form $V_{n+2} \setminus Cl(V_{n-1})$ (since these also form an open cover, by the nestedness) and since by construction this has trivial intersection with $\mathcal{U}_{\geq n+3}$ and since all $\mathcal{U}_n$ are finite, so that also $\underset{k \lt n+3}{\cup} \mathcal{U}_k$ is finite.
 
+=--
+
++-- {: .num_example #ParacompactEuclideanSpace}
+###### Example
+**([[Euclidean space]] is [[paracompact topological space|paracompact]])**
+
+For $n \in \mathbb{N}$, then the [[Euclidean space]] $\mmathbb{R}^n$ (example \ref{EuclideanNorm}),
+regarded with its [[metric topology]] (example \ref{MetricTopology})
+is a [[paracompact topological space]] (def. \ref{ParacompactSpace}).
 
 =--
+
++-- {: .proof}
+###### Proof
+
+Euclidean space is [[locally compact topological space|locally compact]] by example \ref{MetricSpacesAreLocallyCompact}
+and [[sigma-compact topological space|sigma-compact]] by example \ref{SigmaCompactEuclideanSpace}.
+Therefore the statement follows since [[locally compact and sigma-compact spaces are paracompact]] 
+(prop.  \ref{ParacompactFromLocallyCompactAndSigmacompact}).
+
+=--
+
 
 
 
 $\,$
 
 ### Properties
+
+We discuss some important general properties of [[paracompact topological spaces]].
+
+$\,$
 
 +-- {: .num_defn #ParacompactHausdorffSpacesAreNormal}
 ###### Proposition
@@ -11566,6 +11687,9 @@ $$
 
 By the formulas given in [this prop.](stereographic+projection#StandardStereographicProjection) the induced [[gluing function]] $\mathbb{R}^n \setminus \{0\} \to \mathbb{R}^n \setminus \{0\}$ is smooth.
 
+Moreover, the $n$-sphere is [[paracmpact Hausdorff topological space|paracompact Hausdorff]], by
+example \ref{ParacompactHausdorffCWComplexes}.
+
 =--
 
 
@@ -12352,7 +12476,7 @@ Detailed discussion of the [[Hausdorff reflection]] is in
 
 * [[Hausdorff spaces are sober]]
 
-* [[CW-complexes are Hausdorff]]
+* [[CW-complexes are paracompact Hausdorff]]
 
 * [[compact Hausdorff spaces are normal|(para-)compact Hausdorff spaces are normal]]
 
