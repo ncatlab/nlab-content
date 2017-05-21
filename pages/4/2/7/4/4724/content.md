@@ -193,6 +193,8 @@ $$
 
 By the formulas given in [this prop.](stereographic+projection#StandardStereographicProjection) the induced [[gluing function]] $\mathbb{R}^n \backslash \{0\} \to \mathbb{R}^n \backslash \{0\}$ is smooth.
 
+Finally the $n$-sphere is [[paracompact Hausdorff topological space|paracompact Hausdorff]] because (for instance) [[CW-complexes are paracompact Hausdorff spaces]].
+
 =--
 
 
