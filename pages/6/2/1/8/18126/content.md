@@ -10355,7 +10355,7 @@ $\,$
 
 Let $(X,\tau)$ be a [[topological space]].
 
-An [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finite_ if for all point $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only finitely many elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
+An [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finite_ if for all points $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only finitely many elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
 
 =--
 
@@ -10440,7 +10440,7 @@ i.e. the [[pushout]]
 
 $$
   \array{
-^   S^{n-1} &\overset{\phantom{A}f \phantom{A}}{\longrightarrow}& X
+    S^{n-1} &\overset{\phantom{A}f \phantom{A}}{\longrightarrow}& X
     \\
     \downarrow &(po)& \downarrow^{\mathrlap{i_X}}
     \\
@@ -10451,10 +10451,8 @@ $$
 is paracompact Hausdorff.
 
 This immediately implies that all [[finite CW-complexes]] relative to a [[paracompact Hausdorff space]]
-are themselves paracompact Hausdorff. In fact this is true generally: all [[CW-complexes are paracompact Hausdorff spaces]].
+are themselves paracompact Hausdorff. In fact this is true generally: all CW-complexes are paracompact Hausdorff spaces.
 
-For example it follows that the [[n-balls]] $D^n$ and [[n-spheres]] $S^n$ (example \ref{SpheresAndDisks})
-are paracompact Hausdorff spaces, by example \ref{TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}.
 
 =--
 
@@ -10471,16 +10469,22 @@ are [[continuous functions]].
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example }
 ###### Example
-**(examples of [[topological groups]])**
+**([[Euclidean space]] as a [[topological groups]])**
 
-Here are some examples of [[topological groups]] (def. \ref{TopologicalGroup})
+For $n \in \mathbb{N}$ then the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]]
+and 
+equipped with the addition operation from its canonical [[vector space]] structure
+is a [[topological group]] (def. \ref{TopologicalGroup}), dented $(\mathbb{R}^n, +)$.
 
-1. The additive [[group]] of [[real numbers]] $(\mathbb{R}, +)$ with the [[Euclidean space|Euclidean]] [[metric topology]].
-   Notice that $\mathbb{R}$ is [[locally compact topological space|locally compact]] (example \ref{MetricSpacesAreLocallyCompact}).
+=--
 
-1. For $n \in \mathbb{N}$ the _[[general linear group]]_ $GL(n, \mathbb{R})$ is the [[group]] of [[real number|real]] $n \times n$ [[matrices]] whose [[determinant]] is non-vanishing
++-- {: .num_example #GLn}
+###### Example
+**([[general linear group]])**
+
+For $n \in \mathbb{N}$ the _[[general linear group]]_ $GL(n, \mathbb{R})$ is the [[group]] of [[real number|real]] $n \times n$ [[matrices]] whose [[determinant]] is non-vanishing
 
    $$
      GL(n)
@@ -10499,26 +10503,20 @@ Here are some examples of [[topological groups]] (def. \ref{TopologicalGroup})
      Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
    $$
 
-   with its [[metric topology]] (example \ref{MetricTopology}). Since [[matrix multiplication]] is a 
+   with its [[metric topology]] (example \ref{MetricTopology}). 
+   
+   Since [[matrix multiplication]] is a 
    [[polynomial function]] and since [[inverse matrix|matrix inversion]] is a [[rational function]],
-   and since polynomials and more generally rational functions are [[continuous functions]] on their [[domain]] of definition 
+   and since [[polynomials are continuous]] and more generally [[rational functions are continuous]] on their [[domain]] of definition 
    (example \ref{PolynoialsAreContinuous}) and since the domain of definition for matrix inversion is precisely 
    $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R})$, the group operations on $GL(n,\mathbb{R})$ are indeed 
    [[continuous functions]].
    
-   Observe that $GL_n(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}$
-   is an [[open subset|open]] [[subspace]], since it is the [[pre-image]] under the [[determinant]] function
-   (which is a [[polynomial]] and hence continuous) of the of the open subspace $\mathbb{R} \setminus \{0\} \subset \mathbb{R}$.
-   
-   Hence $GL(n,\mathbb{R}) \subset \mathbb{R}^{2^n}$ is an open subspace of a [[locally compact topological space]]
-   (example \ref{MetricSpacesAreLocallyCompact}) and thus itself locally compact.
-
 =--
 
-+-- {: .num_example #ParacompactLocallyCompactTopologicalGroups}
-###### Example
-**([[locally compact topological space|locally compact]] [[topological groups]]
-are [[paracompact topological space|paracompact]])
++-- {: .num_prop #ParacompactLocallyCompactTopologicalGroups}
+###### Proposition
+**([[locally compact topological space|locally compact]] [[topological groups]] are [[paracompact topological space|paracompact]])
 
 A [[topological group]] (def. \ref{TopologicalGroup}) which is  [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}) is [[paracompact topological space|paracompact]] (def. \ref{ParacompactSpace}).
 
@@ -10526,11 +10524,49 @@ A [[topological group]] (def. \ref{TopologicalGroup}) which is  [[locally compac
 
 We give the **proof** later, using prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} below.
 
++-- {: .num_example}
+###### Example
+**([[general linear group]] is [[paracompact Hausdorff topological space|paracompact Hausdorff]])**
+
+The [[topological group|topological]] [[general linear group]] $GL(n,\mathbb{R})$ (def. \ref{GLn}) is
+
+1. not [[compact topological space|compact]];
+
+1. [[locally compact topological space|locally compact]];
+
+1. [[paracompact Hausdorff topological space|paracompact Hausdorff]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that
+
+$$
+  GL_n(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
+$$
+
+is an [[open subset|open]] [[subspace]], since it is the [[pre-image]] under the [[determinant]] function (which is a [[polynomial]] and hence continuous, example \ref{PolynoialsAreContinuous}) of the of the open subspace $\mathbb{R} \setminus \{0\} \subset \mathbb{R}$.
+
+As an open subspace of Euclidean space, $GL(n,\mathbb{R})$ is not compact, by the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}).
+
+As Euclidean space is Hausdorff (example \ref{HausdorffMetricSpace}), and since every [[topological subspace]] of a Hausdorff space is again Hausdorff, so $Gl(n,\mathbb{R})$ is Hausdorff.
+
+Similarly, as Euclidean space is [[locally compact topological space|locally compact]] (example \ref{MetricSpacesAreLocallyCompact}) and since 
+an open subspace of a locally compact space is again locally compact, it follows that $GL(n,\mathbb{R})$ is locally compact.
+
+From this it follows that $GL(n,\mathbb{R})$ is paracompact, since locally compact topological groups are paracompact 
+by prop. \ref{ParacompactLocallyCompactTopologicalGroups}.
+
+
+=--
+
 
 
 $\,$
 
-The definition of [[paracompact Hausdorff spaces]] is closely related to the definition of
+The definition of [[paracompact Hausdorff spaces]] is closely related to the definitions of
 
 1. [[second-countable topological space|second-countability]] (def. \ref{CountableSecond} below);
 
