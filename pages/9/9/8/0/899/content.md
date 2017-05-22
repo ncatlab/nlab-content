@@ -97,7 +97,7 @@ Now for $n \in \mathbb{N}$, write $C_e^n  \subset G$ for the [[image]] of $\unde
 Then 
 
 $$
-  H \coloneqq \underset[n \in \mathbb{N}}{\cup} C_e^n
+  H \coloneqq \underset{n \in \mathbb{N}}{\cup} C_e^n
     \;\subset\; 
   G
 $$ 
