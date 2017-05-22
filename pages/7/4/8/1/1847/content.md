@@ -53,7 +53,7 @@ A [[topological space]] $(X,\tau)$ is called **paracompact** if every [[open cov
 ###### Remark
 **(differing terminology)**
 
-As with the concept of [[compact topological spaces]] ([this remark](compact#space#DifferingTerminology)), some authors demand a paracompact space to also be a [[Hausdorff topological space]]. See at _[[paracompact Hausdorff space]]_.
+As with the concept of [[compact topological spaces]] ([this remark](compact#space#DifferingTerminology)), some authors demand a paracompact space to also be a [[Hausdorff topological space]]. See at *[[paracompact Hausdorff space]]*.
 
 
 =--
@@ -135,7 +135,7 @@ Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompa
 
    * [[infinite-dimensional manifolds]] are generally not locally compact, but we still have some results:
 
-     * The [[Frechet manifold|Frchet]] [[smooth loop space]] of a compact finite dimensional manifold is paracompact.
+     * The [[Frechet manifold|Frechet]] [[smooth loop space]] of a compact finite dimensional manifold is paracompact.
 
 
      * More generally, if $E$ is the sequential [[limit]] of separable Hilbert spaces $H_n$, such that the canonical projections
@@ -215,7 +215,9 @@ Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompa
 
 * counterexamples
 
-  * the [[long line]] is *not* paracompact, even though it is a [[manifold]] (unless one specifically requires paracompactness of manifolds) but it fails to be [[second-countable space|second-countable]] (even though it is connnected) or metrisable.
+  * the [[long line]] is *not* paracompact, even though it is a [[manifold]] (unless one specifically requires paracompactness of manifolds) but it fails to be [[second-countable space|second-countable]] (even though it is connected) or metrisable. 
+
+  * the [[Sorgenfrey plane]] (a product of two [[Sorgenfrey lines]]) is not paracompact. This shows that the product of paracompact spaces need not be paracompact. 
 
 
 ## Properties 
