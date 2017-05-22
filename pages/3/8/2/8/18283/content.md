@@ -1,3 +1,5 @@
+> This page considers Picard groupoids in themselves. For the concept of [[Picard groupoid of a monoidal category]], see there.
+
 #Contents#
 * table of contents
 {:toc}
@@ -40,5 +42,9 @@ The closed monoidal structure of the 2-category of Picard groupoids, together wi
 ##Model for stable homotopy 1-types
 
 Picard groupoids are well-known to model stable homotopy 1-types, at least if one adopts the weak version of the invertibility condition. This is a stable version of the 1-truncated [[homotopy hypothesis]]. 
+
+## Related concepts
+
+* [[2-group]]
 
 [[!redirects Picard groupoids]]
