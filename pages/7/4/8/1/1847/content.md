@@ -68,7 +68,14 @@ Every [[compact space]] is paracompact.
 
 =--
 
-+-- {: .num_prop #SuperLieAlgebraTraditional}
++-- {: .num_example }
+###### Example
+
+Every [[locally compact topological group|locally compact]] [[topological group]] is paracompact ([this prop.](topological+group#ConnectedLocallyCompactTopologicalGroupsAreSigmaCompact)).
+
+=--
+
++-- {: .num_prop }
 ###### Proposition
 
 [[locally compact space|locally compact]] and [[second-countable space|second-countable]] [[Hausdorff space]] are paracompac
@@ -102,8 +109,8 @@ Therefore the statement follows since [[locally compact and sigma-compact spaces
 
 
 
-
-+-- {: .num_prop}
+#
++-- {: .num_prop #ParacompactnessPreservedByDisjointUnion}
 ###### Proposition
 
 Paracompactness is preserved by forming [[disjoint union spaces]] ([[coproducts]] in [[Top]]).
