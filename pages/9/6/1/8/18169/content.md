@@ -50,7 +50,7 @@ $$
 is a locally finite collection of subsets, such that 
 
 $$
-  U_C \coloneqq \underset{c \in C}{\cup} U_c
+  U_C \coloneqq \underset{c \in C}{\cup} V_c
 $$
 
 is an open neighbourhood of $C$.
@@ -88,7 +88,7 @@ $$
   \,.
 $$
 
-But this holds because the only $V_{c}$ that intersect $W_x$ are the $V_{k} \subset U_{k}$ and each of these is by construction disjoint from $U_{x,k}$ and hence from $U_x$.
+But this holds because the only $V_{c}$ that intersect $W_x$ are the $V_{k} \subset U_{k}$ for $k \in K$ and each of these is by construction disjoint from $U_{x,k}$ and hence from $U_x$.
 
 This establishes that $(X,\tau)$ is regular. Now we prove that it is normal. For this we use the same approach as before:
 
