@@ -53,7 +53,7 @@ Introductions include
 
 Generalization of smooth complex analytic spaces to smooth $p$-adic analytic spaces is discussed in 
 
-* [[Vladimir Berkovich]], _Smooth $p$-adic analytic spaces ([[Berkovich spaces]]) are locally contractible_ ([pdf](www.wisdom.weizmann.ac.il/~vova/Inven_1999_137_contra.pdf))
+* [[Vladimir Berkovich]], _Smooth $p$-adic analytic spaces ([[Berkovich spaces]]) are locally contractible_ ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Inven_1999_137_contra.pdf))
  {#Berkovich}
 
 Discussion in [[higher geometry]]/[[higher algebra]] ([[derived complex analytic spaces]]) is in 
