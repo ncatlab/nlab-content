@@ -24,6 +24,8 @@ A _symmetric monoidal 2-category_ is a [[monoidal 2-category]] whose [[E1-algebr
 
 A [[symmetric monoidal (infinity,n)-category]] for $n = 2$.
 
+A _(fully) strict symmetric monoidal 2-category_ is simply a strict $2$-category $\mathcal{C}$ together with a strict 2-functor $\otimes : \mathcal{C} \times \mathcal{C} \rightarrow \mathcal{C}$ and an object $1$ of $\mathcal{C}$ which satisfy the same axioms as for a strict [[symmetric monoidal category]] (which in turn are exactly the same as those for a [[commutative monoid]]).
+
 ## Examples
 
 * A symmetric monoidal 2-category all whose objects are invertible under the tensor product is a [[symmetric 3-group]].
