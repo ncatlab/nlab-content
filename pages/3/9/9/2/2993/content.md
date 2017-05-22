@@ -195,3 +195,6 @@ This observation may be exploited in various neat ways. One is that if $p(x)$ is
 [[!redirects polynomial rings]]
 [[!redirects polynomial algebra]]
 [[!redirects polynomial algebras]]
+
+[[!redirects polynomial function]]
+[[!redirects polynomial functions]]
