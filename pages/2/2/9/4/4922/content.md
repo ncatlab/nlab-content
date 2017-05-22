@@ -14,7 +14,7 @@
 
 ## Idea
 
-Given a [[group]] $G$ and a [[subgroup]] $H$, then their _coset_ is the [[quotient]] $G/H$, hence the set of [[equivalence classes]] of elements of $G$ where two are regarded as equivalent if they differ by right multiplication with an element in $H$.
+Given a [[group]] $G$ and a [[subgroup]] $H$, then their _coset object_ is the [[quotient]] $G/H$, hence the set of [[equivalence classes]] of elements of $G$ where two are regarded as equivalent if they differ by right multiplication with an element in $H$.
 
 If $G$ is a [[topological group]], then the quotient is a [[topological space]] and usually called the _coset space_. This is in particular a [[homogeneous space]], see there for more.
 
@@ -37,7 +37,7 @@ $$
 
 ### Internal to $Set$
 
-Specializing the above definition to the case where $C$ is the well-pointed topos $Set$, given an element $g$ of $G$, its orbit $gH$ is an element of $G/H$ and is called a _left coset_.
+Specializing the above definition to the case where $C$ is the well-pointed topos $Set$, given an element $g$ of $G$, its orbit $g H$ is an element of $G/H$ and is called a _left coset_.
 
 Using [[comprehension]], we can write
 
