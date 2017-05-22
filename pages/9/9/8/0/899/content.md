@@ -73,11 +73,11 @@ The set of $H$-[[cosets]] is a [[cover]] of $G$ by [[disjoint subsets|disjoint]]
 
 +-- {: .num_prop #ConnectedLocallyCompactTopologicalGroupsAreSigmaCompact}
 ###### Proposition
-**([[connected topological space|connected]] [[locally compact topological space|locally compact]] [[topological groups]] are [[sigma-compact topological space|sigma-compact]])**
+**([[connected space|connected]] [[locally compact topological space|locally compact]] [[topological groups]] are [[sigma-compact topological space|sigma-compact]])**
 
 Every [[connected topological space|connected]] [[locally compact topological space|locally compact]] topological group is [[sigma-compact topological space|sigma-compact]].
 
-Hence every [[locally connected topological space|locally connected]] [[locally compact topological space|locally compact]] topological group is [[paracompact topological space|paracompact]].
+Every [[locally compact topological space|locally compact]] topological group is [[paracompact topological space|paracompact]].
 
 =--
 
@@ -85,8 +85,6 @@ Hence every [[locally connected topological space|locally connected]] [[locally 
 
 +-- {: .proof}
 ###### Proof
-
-First consider the case that $G$ is [[connected topological space]].
 
 By assumption of local compactness, there exists a [[compact topological space|compact]] [[neighbourhood]] $C_e \subset G$ of the [[neutral element]]. We may assume without restriction of generality that with $g \in C_e$ any element, then also the [[inverse element]] $g^{-1} \in C_e$.
 
@@ -102,26 +100,28 @@ $$
   G
 $$ 
 
-is clearly a topological subgroup of $G$.
+is clearly a topological subgroup of $G$. 
 
-Now observe that the subgroup $H$ is open, because it contains with the [[interior]] of $C_e$ a non-empty open subset $Int(C_e) \subset H$ and we may hence write $H$ as a union of open subsets
+Observe that each $C_e^n$ is compact. This is because $\underset{k \in \{1, \cdots, n\}}{\prod}C_e$ is compact by the [[Tychonoff theorem]], and since [[continuous images of compact spaces are compact]]. Thus 
 
 $$
-  H = \underset{h \in h}{\cup} Int(C_e) \cdot h
+  H = \underset{n \in \mathbb{N}}{\cup} C_e^n
+$$
+
+is a countable union of compact subspaces, making it [[sigma-compact]]. Since [[locally compact and sigma-compact spaces are paracompact]], this implies that $H$ is paracompact.
+
+Observe also that the subgroup $H$ is open, because it contains with the [[interior]] of $C_e$ a non-empty open subset $Int(C_e) \subset H$ and we may hence write $H$ as a union of open subsets
+
+$$
+  H = \underset{h \in H}{\cup} Int(C_e) \cdot h
   \,.
 $$
 
-But every open subgroup of a topological group is also closed by lemma \ref{OpenSubgroupOfTopologicalGroupIsClosed}. Hence $H \subset G$ is therefore [[clopen subset]] which is [[inhabited]] (it contains at least the neutral element $e \in G$). By the assumption that $G$ is [[connected topological space|connected]], this means that $H = G$.
+Finally, as indicated in the proof of Lemma \ref{OpenSubgroupOfTopologicalGroupIsClosed}, the cosets of the open subgroup $H$ are all open and partition $G$ as a [[disjoint union space]] ([[coproduct]] in [[Top]]) of these open cosets. From this we may draw the following conclusions. 
 
-Finally observe that each $C_e^n$ is compact. This is because $\underset{k \in \{1, \cdots, n\}}{\prod}C_e$ is compact by the [[Tychonoff theorem]], and since [[continuous images of compact spaces are compact]]. In conclusion we have exhibited
+* In the particular case where $G$ is connected, then there is just one such coset, namely $H$ itself. The argument above thus shows that a connected locally compact topological group is $\sigma$-compact and therefore (because it is locally compact) also paracompact. 
 
-$$
-  G = \underset{n \in \mathbb{N}}{\cup} C_e^n
-$$
-
-as a countable union of compact subspaces. This means that $G$ is [[sigma-compact]]. Since [[locally compact and sigma-compact spaces are paracompact]], this implies in particular that $G$ is paracompact.
-
-Finally, in the case where $G$ is not connected, local connectedness of $G$ guarantees that it is the [[disjoint union space]] ([[coproduct]] in [[Top]]) of its connected components, all cosets of (hence homeomorphic to) the connected component of the identity which we have just shown to be a paracompact group. Thus $G$ is a [[disjoint union space]] of paracompact spaces. This is again paracompact (by [this prop.](paracompact+topological+space#ParacompactnessPreservedByDisjointUnion)).
+* In the general case, all the cosets are homeomorphic to $H$ which we have just shown to be a paracompact group. Thus $G$ is a [[disjoint union space]] of paracompact spaces. This is again paracompact (by [this prop.](paracompact+topological+space#ParacompactnessPreservedByDisjointUnion)).
 
 =--
 
