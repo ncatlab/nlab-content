@@ -92,6 +92,7 @@ Now we discuss separation of distinct points in $X \cup_f D^{n}$ by case distinc
 
 =--
 
+
 ### CW-complexes are paracompact
 
 +-- {: .num_lemma #CellAttachmentToParacompactHausdorffIsStillParacompactHausdorff}
@@ -110,83 +111,86 @@ $$
   }
 $$
 
-be a [[cell attachment]]. Then also $X \cup_f D^n$ is paracompact Hausdorff.
+be a [[cell attachment]]. Then also $X \cup_f D^n$ is paracompact.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Hausdorffness is the statement of lemma \ref{CellAttachmentToHausdorffSpaceIsHausdorff}.  We need to discuss paracompactness.
-
-First we claim that both inclusion maps $D^n \to X \cup_f D^n$ and $X \to X \cup_f D^n$ are [[closed maps]]. To see this, recall that a subset of $X \cup_f D^n$ is closed precisely if its pre-images under both $i_X$ and $i_{D^n}$ are closed.
-
-1. That $i_{D^n}$ is closed follows on abstract grounds since $D^n$ is [[compact topological space|compact]] (e.g. by the [[Heine-Borel theorem]]) and since $X \cup_f D^n$ is Hausdorff by lemma \ref{CellAttachmentToHausdorffSpaceIsHausdorff}, and since [[maps from compact spaces to Hausdorff spaces are closed and proper]].
-
-1. That $i_X$ is closed follows on abstract grounds, since by construction it is the [[pushout]] of the closed map $S^{n-1} \to D^n$ and pushout preserves closed subspace inclusions by [this lemma](subspace+topology#pushout). (To see that $S^{n-1} \to D^n$ is a closed map observe that $S^{n-1} \subset D^n$ is a closed subspace and that [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]]).
+Let $\{ U_i \subset X \cup_f D^n \}_{i \in I}$ be any open cover of the attachment space. We need to produce a locally finite refinement.
 
 
-   More explicitly: Consider a closed subset in $X$. Its image in $X \cup_f D^n$ has closed pre-image under $f$ in $S^{n-1}$ since $f$ is continuous. Now since $S^{n-1} \subset D^n$ is a closed subspace and since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] if follows that this pre-image is also closed in $D^n$, hence it is closed in $X \cup_f D^n$. 
+Observe that 
 
-Now let $\{ U_i \subset X \cup_f D^n \}_{i \in I}$ be any open cover of the attachment space. We need to produce a locally finite refinement.
+1 .$X \cup_f D^n$ is the union of the subsets
 
-The pre-images of these open subsets in $D^n$ and in $X$ yield open covers $\{i_X^{-1}(U_i) \subset X\}_{i \in I}$ and $\{i_{D^n}^{-1}(U_i) \subset D^n\}_{i \in I}$ of these spaces. 
+   $$
+     (D^n \setminus S^{n-1}), (X \setminus f(S^{n-1})), f(S^{n-1})
+     \;\subset\;
+     X \cup_f D^{n}
+     \,.
+   $$
 
-Now $X$ is paracompact Hausdorff by assumption and $D^n$ is paracompact Hausdorff by basic results (for instance use that [[locally compact and sigma-compact spaces are paracompact]]). 
+1. $D^n$ is itself paracompact Hausdorff (paracompact since it is actually compact, e.g. by the [[Heine-Borel theorem]], and Hausdorff since it is a metric space),
 
-Hence by paracompactness of $X$ and $D^n$ there are locally finite refinements 
+1. $S^{n-1} \subset D^n$ and $f(S^{n-1}) \subset X$ are closed subsets. The former is [[compact topological space|compact]] for instance by the [[Heine-Borel theorem]], and so this follows because [[continuous images of compact spaces are compact]] and because [[compact subspaces of Hausdorff spaces are closed]].
+
+Let now $\{ i_{D^n}^{-1}(U_i) \subset D^n \}_{i \in I}$
+and $\{i_{X}^{-1}(U_i) \subset X\}_{i \in I}$ be the restrictions of the given cover. By paracompactness of $D^n$ and of $X$, these restrictions have locally finite open refinements
 
 $$
-  \{V_j \subset X\}_{j \in J_X}
+  \{
+    V_j \subset X
+  \}_{j \in J_X}
   \phantom{AA}
   \text{and}
   \phantom{AA}
-  \{W_j \subset D^n\}_{j \in J_{D^n}}
+  \{
+    W_j \subset D^n
+  \}_{j \in J_{D^n}}
+  \,.
 $$
 
-of these covers.
- 
-Since [[paracompact Hausdorff spaces are normal]] we may apply the [[shrinking lemma]] to these to obtain further locally finite refinements 
+Accordingly there are induced locally finite open refinements
 
 $$
-  V'_j \subset Cl(V'_j) \subset V_j
+  \{
+    V_j \setminus f(S^{n-1}) \subset X \setminus f(S^{n-1})
+  \}_{j \in J_X}
   \phantom{AA}
   \text{and}
   \phantom{AA}
-  W'_j \subset Cl(W'_j) \subset W_j
+  \{
+    W_j \setminus S^{n-1} \subset D^n \setminus S^{n-1}
+  \}_{j \in J_{D^n}}
+  \,.
 $$
 
-such that the [[topological closures]] of their patches are still contained in the original locally finite patches. 
+Their images under $i_{X}$ and $i_{D^n}$ in $X \cup_f D^n$ are still open, hence yield a locally finite set of subset of $X \cup_f D^n$. 
 
-Since $S^{n-1} \subset D^n$ and also $f(S^{n-1}) \subset X$ are closed (the latter because $S^{n-1}$ is compact, because [[continuous images of compact spaces are compact]], and because [[compact subspaces of Hausdorff spaces are closed]]), the complements $D^n \setminus S^{n-1}$ and $X \setminus f(S^{n-1})$ are open and hence restricting these locally finite covers yields a locally finite cover with patches
-
-$$
-  V'_j \setminus f(S^{n-1}) \subset Cl(V'_j) \setminus f(S^{n-1}) \subset V_j \setminus f(S^{n-1})
-  \phantom{AA}
-  \text{and}
-  \phantom{AA}
-  W'_j \setminus S^{n-1} \subset Cl(W'_j) \setminus S^{n-1} \subset W_j \setminus S^{n-1}
-$$
-
-Since $i_{D^n}$ restricted to $D^n \setminus S^{d-1}$ as well as $i_X$ restricted to $X \setminus f(S^{n-1})$ are injective, all these subsets are [[saturated subsets]] under these maps. Moreover, the two inclusion maps are closed, by the above observation, [this lemma](saturated+subset#FindSatureatedOpenInsideOpenNeighbourhood) says that we may find a locally finite cover intermediate to these two consisting of open [[saturated subsets]] $V^{sat}_j$ and $W^{sat}_j$:
+Its only failure is that it does not cover $f(S^{n-1}) \subset X \cup_f D^n$. But, as before, this is a compact subset, and hence there is a finite subset $J_{f(S^{n-1})} \subset I$ such that the original $U_i$ with $i \in J_{f(S^{n-1})}$ cover this subset. Since these are finitely many, the resulting cover
 
 $$
-  V'_j \setminus S^{n-1} \subset Cl(V'_j) \setminus S^{n-1} \subset V^{sat}_j \subset V_j \setminus S^{n-1}
-  \phantom{AA}
-  \text{and}
-  \phantom{AA}
-  W'_j  \setminus f(S^{n-1}) \subset Cl(W'_j) \setminus f(S^{n-1}) \subset W^{sat}_j \subset W_j \setminus f(S^{n-1})
+  \left\{
+    i_{D^n}\left( V_j \setminus S^{n-1} \right)
+    \subset X \cup_f D^n
+  \right\}_{j \in J_{D^n}}
+  \sqcup
+  \left\{
+    i_{X}
+    \left(
+      W_j \setminus f(S^{n-1})
+    \right)
+    \subset X \cup_f D^n
+  \right\}
+  \sqcup
+  \left\{
+    U_i \subset X \cup_f D^n
+  \right\}_{i \in J_{f(S^{n-1})}}
 $$
 
-The images in $X \cup_f D^n$ of these saturated subsets are 
-
-1. still open (by the nature of the [[final topology]], since saturated subsets are equal to the pre-images of their images) 
-
-1. still locally finite (being composed of two locally finite sets of subsets) 
-
-1. a cover of $(X \cup_f D^n) \setminus f(S^{n-1})$, by construction of the attachment space. 
-
-Hence it is now sufficient to adjoin to this collection of open subsets a finite subset of the patches of the original cover such as to cover $f(S^{n-1})$. This exists because $f(S^{n-1})$ is compact (as $S^{n-1}$ is cimpact and since [[continuous images of compact spaces are compact]]).
+is a locally finite refinement of the original cover.
 
 =--
 
