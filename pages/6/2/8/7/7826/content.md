@@ -104,6 +104,8 @@ Finally, given a continuous map $f: X \to Y$ with $Y$ totally disconected, each 
 
 ## Related concepts
 
+* [[locally connected topological space]]
+
 * [[extremally disconnected topological space]] 
 
 * [[connected space]] 
