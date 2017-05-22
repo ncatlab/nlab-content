@@ -77,6 +77,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[topological vector space]], [[Banach space]], [[Hilbert space]]
 
+* [[topological group]]
+
 * [[topological manifold]]
 
 * [[cell complex]], [[CW-complex]]
