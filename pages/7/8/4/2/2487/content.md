@@ -15,15 +15,137 @@
 
 ## Definition
 
-Given a [[field]] $k$, the **general linear group** $GL(n,k)$ (or $GL_n(k)$) is the group of invertible linear transformations of the vector space $k^n$.  It can be canonically identified with the group of $n\times n$ [[matrix|matrices]] with entries in $k$ having nonzero [[determinant]].
+Given a [[field]] $k$, the **general linear group** $GL(n,k)$ (or $GL_n(k)$) is the [[group]] of [[invertible morphism|invertible]] [[linear maps]] from the [[vector space]] $k^n$.  It may canonically be identified with the group of $n\times n$ [[matrix|matrices]] with entries in $k$ having nonzero [[determinant]].
+
+### As a topological group
+ {#AsAtopologicalGroup}
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+Let $k = \mathbb{R}$ or $= \mathbb{C}$ be the [[real numbers]] or the [[complex numbers]] equipped with their [[Euclidean topology]].
+
+In the following we focus on the case $k = \mathbb{R}$. The case $k = \mathbb{C}$ is completely analogous.
+
++-- {: .num_defn #GLnAsTopologicalGroup}
+###### Definition
+**(general linear group as a topological group)**
+
+For $n \in \mathbb{N}$, as a [[topological group]] the _general linear group_ $GL(n, \mathbb{R})$ is defined as follows.
+
+The underlying group is the [[group]] of [[real number|real]] $n \times n$ [[matrices]] whose [[determinant]] is non-vanishing
+
+$$
+  GL(n)
+  \;\coloneqq\;
+  \left(
+    A \in Mat_{n \times n}(\mathbb{R})
+    \; \vert \;
+    det(A) \neq 0
+  \right)
+$$
+
+with group operation given by [[matrix multiplication]]. 
+
+The [[topological space|topology]] on this set is the [[subspace topology]] as a subset of the [[Euclidean space]] of [[matrices]]
+   
+$$
+  Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
+$$
+
+with its [[metric topology]]. 
+
+=--
+
++-- {: .num_lemma #GLnTopologicalWellDefined}
+###### Lemma
+**(group operations are continuous)**
+
+Definition \ref{GLnAsTopologicalGroup} is indeed well defined in that the group operations on $GL(n,\mathbb{R})$ are indeed [[continuous functions]] with respect to the given topology.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that under the identification $Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}$ [[matrix multiplication]] is a [[polynomial function]] 
+
+$$
+  \mathbb{R}^{(n^2)}
+   \times
+  \mathbb{R}^{(n^2)}
+   \simeq
+  \mathbb{R}^{ 2 n^2 }
+    \longrightarrow
+  \mathbb{R}^{(n^2)}
+    \simeq
+  Mat_{n \times n}(\mathbb{R})
+  \,.
+$$
+
+Similarly [[inverse matrix|matrix inversion]] is a [[rational function]]. Now [[rational functions are continuous]] on their [[domain]] of definition, 
+and since a real matrix is invertible previsely if its determinant is non-vanishing, the domain of definition for matrix inversion is precisely 
+$GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R})$.
+
+=--
+   
++-- {: .num_prop}
+###### Proposition
+
+The [[topological group|topological]] general linear group $GL(n,\mathbb{R})$ (def. \ref{GLnAsTopologicalGroup}) is
+
+
+1. not [[compact topological space|compact]];
+
+1. [[locally compact topological space|locally compact]];
+
+1. [[paracompact Hausdorff topological space|paracompact Hausdorff]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that 
+
+$$
+  GL_n(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
+$$
+   
+is an [[open subset|open]] [[subspace]], since it is the [[pre-image]] under the [[determinant]] function (which is a [[polynomial]] and hence continuous, as in the proof of lemma \ref{GLnTopologicalWellDefined}) of the of the open subspace $\mathbb{R} \setminus \{0\} \subset \mathbb{R}$.
+
+As an open subspace of Euclidean space, $GL(n,\mathbb{R})$ is not compact, by the [[Heine-Borel theorem]].
+
+As Euclidean space is Hausdorff, and since every [[subspace]] of a Hausdorff space is again Hausdorff, so $Gl(n,\mathbb{R})$ is Hausdorff.
+   
+Similarly, as Euclidean space is [[locally compact topological space|locally compact]] and since an open subspace of a locally compact space is again locally compact, it follows that $GL(n,\mathbb{R})$ is locally compact.
+
+From this it follows that $GL(n,\mathbb{R})$ is paracompact, since locally compact topological groups are paracompact ([this prop.](topological+group#ConnectedLocallyCompactTopologicalGroupsAreSigmaCompact)).
+
+
+
+=--
+
+
+
+
+### As an algebraic group
 
 This group can be considered as a (quasi-affine) sub[[variety]] of the [[affine scheme|affine space]] $M_{n\times n}(k)$ of square matrices of size $n$ defined by the condition that the [[determinant]] of a matrix is nonzero. It can be also presented as an affine subvariety of the affine space $M_{n \times n}(k) \times k$ defined by the equation $\det(M)t = 1$ (where $M$ varies over the factor $M_{n \times n}(k)$ and $t$ over the factor $k$). 
 
 This [[variety]] is an algebraic $k$-group, and if $k$ is the field of real or complex numbers it is a [[Lie group]] over $k$.
 
-One can in fact consider the set of invertible matrices over an arbitrary unital [[ring]], not necessarily commutative. Thus $GL_n: R\mapsto GL_n(R)$ becomes a [[presheaf]] of [[group]]s on $Aff=Ring^{op}$ where one can take rings either in commutative or in noncommutative sense. In the commutative case, this functor defines a [[group scheme]]; it is in fact the affine group scheme represented by the commutative ring $R = \mathbb{Z}[x_{11}, \ldots, x_{n n}, t]/(det(X)t - 1)$. 
+One may in fact consider the set of invertible matrices over an arbitrary unital [[ring]], not necessarily commutative. Thus $GL_n: R\mapsto GL_n(R)$ becomes a [[presheaf]] of [[group]]s on $Aff=Ring^{op}$ where one can take rings either in commutative or in noncommutative sense. In the commutative case, this functor defines a [[group scheme]]; it is in fact the affine group scheme represented by the commutative ring $R = \mathbb{Z}[x_{11}, \ldots, x_{n n}, t]/(det(X)t - 1)$. 
 
-Coordinate rings of general linear groups and of special general linear groups have [[quantum group|quantum deformations]] called [[quantum linear group]]s. 
+Coordinate rings of general linear groups and of special general linear groups have [[quantum group|quantum deformations]] called [[quantum linear groups]]. 
 
 
 ## Stable and unstable versions:
