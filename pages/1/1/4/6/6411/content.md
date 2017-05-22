@@ -9,7 +9,7 @@ A Hahn series is a generalization of a [[formal power series]] which allows non-
 
 ## Definition
 
-Let $G$ be an ordered [[abelian group]], and $k$ a field.
+Let $G$ be a [[linear order|linearly]] [[ordered abelian group]], and $k$ a field.
 
 +-- {: .un_defn}
 ###### Definition
