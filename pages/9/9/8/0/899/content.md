@@ -52,7 +52,7 @@ such that the operations $(-)^{-1}$ and $(-)\cdot (-)$ are [[continuous function
 
 ## Properties
 
-### General:
+### General
 
 +-- {: .num_lemma #OpenSubgroupOfTopologicalGroupIsClosed}
 ###### Lemma
