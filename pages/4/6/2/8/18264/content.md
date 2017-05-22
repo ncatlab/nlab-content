@@ -31,7 +31,7 @@ $$
   \underset{i \in I}{\cup} S_i
 $$
 
-is itself a countable set
+is itself a countable set. 
 
 =--
 
