@@ -151,14 +151,14 @@ $\,$
 **([[set theory]])**
 
 Apart from [[classical logic]], we assume the usual informal concept of [[sets]]. The reader (only) needs to
-know the concepts of 
+know the concepts of
 
 1. [[subsets]] $S \subset X$;
 
 1. [[complements]] $X \setminus S$ of subsets;
 
 1. [[image]] sets $f(X)$ and [[pre-image]] sets $f^{-1}(Y)$ under a [[function]]
-$f \colon X \to Y$; 
+$f \colon X \to Y$;
 
 1. [[unions]] $\underset{i \in I}{\cup} S_i$ and [[intersections]] $\underset{i \in I}{\cap} S_i$ of [[dependent type|indexed sets of]] subsets $\{S_i \subset X\}_{i \in I}$.
 
@@ -1606,7 +1606,7 @@ is also called the $n$-dimensional _[[affine space]]_ over $k$.
 
 =--
 
-More generally
+More generally:
 
 +-- {: .num_example #ZariskiTopologyOnPrimeSpectrum}
 ###### Example
@@ -2774,7 +2774,7 @@ $$
 ###### Definition
 **([[locally constant function]])**
 
-For $(X,\tau_X)$, $(Y,\tau_Y)$ two [[topological spaces]], then a 
+For $(X,\tau_X)$, $(Y,\tau_Y)$ two [[topological spaces]], then a
 [[continuous function]] $f \colon (X,\tau_X) \to (Y,\tau_Y)$ (def. \ref{ContinuousMaps}) is called
 _[[locally constant function|locally constant]]_ if every point $x \in X$ has a [[neighbourhood]]
 on which the function is constant.
@@ -3845,19 +3845,20 @@ $\,$
 
 If a space is homeomorphic to a disjoint union space, then it is disconnected:
 
-+-- {: .num_defn #ConnectedSpace}
++-- {: .num_defn #ConnectedTopologicalSpace}
 ###### Definition
 **([[connected topological space]])**
 
-A [[topological space]] $(X, \tau)$ is _connected_ if the following equivalent conditions hold:
+A [[topological space]] $(X,\tau)$ (def. \ref{TopologicalSpace}) is called _[[connected topological space|connected]]_
+if the following equivalent conditions hold:
 
-1. For all pairs of topological spaces $(X_1, \tau_1), (X_2, \tau_2)$ such that $(X, \tau)$ is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) to their [[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces})
+1. For all pairs of topological spaces $(X_1, \tau_1), (X_2, \tau_2)$ such that $(X, \tau)$ is [[homeomorphism|homeomorphic]] to their [[disjoint union space]] (def. \ref{DisjointUnionOfTopologicalSpaces})
 
    $$
      (X,\tau) \simeq (X_1,\tau_1) \sqcup (X_2,\tau_2)
    $$
 
-   then exactly one of the two spaces is the [[empty space]].
+   then exactly one of the two spaces is the [[empty space]] (example \ref{Point}).
 
 1. For all pairs of [[open subsets]] $U_1, U_2 \subset X$ if
 
@@ -3865,12 +3866,72 @@ A [[topological space]] $(X, \tau)$ is _connected_ if the following equivalent c
      U_1 \cup U_2 = X \phantom{A}\text{and} \phantom{A} U_1 \cap U_2 = \emptyset
    $$
 
-   then exactly one of the two subsets is the [[empty set]]
+   then exactly one of the two subsets is the [[empty set]];
 
-1. if a [[subset]] $CO \subseteq X$ is [[clopen set|clopen]] (both closed and open), then $ CO = X$ if and only if $CO$ is [[inhabited set|inhabited]].
+1. if a [[subset]] $CO \subseteq X$ is both an [[open subset]] and a [[closed subset]] (def. \ref{ClosedSubset}) then $ CO = X$ if and only if $CO$ is [[inhabited set|non-empty]].
 
 =--
 
++-- {: .num_prop}
+###### Lemma
+
+The conditions in def. \ref{ConnectedTopologicalSpace} are indeed equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First consider the equivalence of the first two statements:
+
+Suppose that in every disjoint union decomposition of $(X,\tau)$ exactly one summand is empty. Now consider two disjoint open subsets $U_1, U_2 \subset X$ whose union is $X$ and whose intersection is empty. We need to show that exactly one of the two subsets is empty.
+
+Write $(U_1, \tau_{1})$ and $(U_2, \tau_2)$ for the corresponding [[topological subspaces]].
+Then observe that from the definition of [[subspace topology]] (example \ref{SubspaceTopology})
+and of the [[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces}) we have a [[homeomorphism]]
+
+$$
+  X \simeq (U_1, \tau_1) \sqcup (U_2, \tau_2)
+  \,.
+$$
+
+Hence by assumption exactly one of the two summand spaces is the [[empty space]] and hence the underlying set is the empty set.
+
+Conversely, suppose that for every pair of open subsets $U_1, U_2 \subset U$ with $U_1 \cup U_2 = X$ and $U_1 \cap U_2 = \emptyset$ then exactly one of the two is empty. Now consider a homeomorphism of the form $(X,\tau) \simeq (X_1, \tau_1 \sqcup (X_2,\tau_29$. By the nature of the [[disjoint union space]] this means that $X_1, X_2 \subset X$ are disjoint open subsets of $X$ which cover $X$. So by asumption precisely one of the two subsets is the empty set and hence precisely one of the two topological spaces is the empty space.
+
+Now regarding the equivalence to the third statement:
+
+If a subset $CO \subset X$ is both closed and open, this means equivalently that it is open and that its [[complement]] $X \setminus CO$ is also open, hence equivalently that there are two open subsets $CO, X \backslash CO \subset X$ whose union is $X$ and whose intersection is empty. This way the third condition is equivalent to the second.
+
+=--
+
++-- {: .num_defn #LocallyConnected}
+###### Definition
+**([[connected components]] and [[locally connected topological spaces]])**
+
+For $(X,\tau)$ a [[topological space]], then its _[[connected components]]_ 
+are the [[equivalence classes]] under the [[equivalence relation]] on $X$ which 
+regards to points as equivalent if they both sit in some [[open subset]] 
+which, as a [[topological subspace]] (example \ref{SubspaceTopology}), is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}):
+
+$$
+  (x \sim y)
+    \;\coloneqq\;
+  \left(
+    \underset{ U \subset X \; \text{\open} }{\exists}
+    \left(
+       \left( x,y \in U \right)
+        \phantom{A}\text{and}\phantom{A}
+       \left( U \, \text{is connected} \right)
+    \right)
+  \right)
+  \,.
+$$
+
+The space $(X,\tau)$ is called _[[locally connected topological space|locally connected]]_
+if every open subspace is the [[disjoint union space]] (def. \ref{DisjointUnionOfTopologicalSpaces}) of its [[connected components]].
+
+=--
 
 
 $\,$
@@ -7313,7 +7374,7 @@ show that this function is always [[continuous function|continuous]] with respec
 Hence let $U \subset \underset{\longleftarrow}{\lim}_i X_i$ be in $\tau_{initial}( \{p_i\} )$.
 By def. \ref{InitialAndFinalTopologies}, this means that $U$ is a union of finite intersections
 of subsets of the form $p_i^{-1}(U_i)$ with $U_i \subset X_i$ open. But since taking pre-images
-preserves unions and intersections (prop. \ref{PreservedByPreImages}), 
+preserves unions and intersections (prop. \ref{PreservedByPreImages}),
 and since unions and intersections of opens in $(\tilde X, \tau_{\tilde X})$
 are again open, it is sufficient to consider $U$ of the form $U = p_i^{-1}(U_i)$. But then
 by the condition that $p_i \circ \phi = p'_i$ we find
@@ -9091,12 +9152,12 @@ $\,$
 ### Locally compact spaces
 
 A topological space is _[[locally compact topological space|locally compact]]_ if each point has a
-[[compact topological space|compact]] [[neighbourhood]]. Or rather, this is the case in locally 
+[[compact topological space|compact]] [[neighbourhood]]. Or rather, this is the case in locally
 compact [[Hausdorff spaces]]. Without the Hausdorff condition one asks that these compact neighbourhoods
 exist in a certain controlled way (def. \ref{LocallyCompactSpace} below).
 
 It turns out that locally compact Hausdorff spaces are precisely the open [[subspaces]] of [[compact Hausdorff spaces]]
-(example \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact} and prop. ... below.) 
+(example \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact} and prop. ... below.)
 
 Local compactness is useful as a criterion for identifying [[paracompact topological space|paracompactness]]
 (prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} below).
@@ -10351,21 +10412,21 @@ is, while no longer compact, still paracompact.
 Let $\mathcal{U} = \{ U_j \subset \underset{i \in I}{\sqcup} (X_i, \tau_i) \}_{j \in J}$ be an [[open cover]].
 We need to produce a locally finite refinement.
 
-Since each $X_i$ is open in the disjoint union, the intersections $U_i \cap X_j$ are all open, and 
+Since each $X_i$ is open in the disjoint union, the intersections $U_i \cap X_j$ are all open, and
 hence by forming all these intersections we obtain a [[refinement]] of the original cover by a disjoint union
-of open covers $\mathcal{U}_i$ of $(X_i, \tau_i)$ for all $i \in I$. By the assumption that 
+of open covers $\mathcal{U}_i$ of $(X_i, \tau_i)$ for all $i \in I$. By the assumption that
 each $(X_i, \tau_i)$ is paracompact, each $\mathcal{U}_i$ has a locally finite refinement $\mathcal{V}_i$.
 Accordingly the disjoint union $\underset{i \in I}{\sqcup}\mathcal{V}_i$ is a locally finite refinement
-of $\mathca{U}$.
+of $\mathcal{U}$.
 
 =--
 
 
 +-- {: .num_example #ParacompactHausdorffCWComplexes}
 ###### Example
-**([[CW-complexes are paracompact Hausdorff spaces]])**
+**(CW-complexes are paracompact Hausdorff spaces)**
 
-Let $X$ be a [[paracompact Hausdorff space]], let $n \in \mathbb{N}$ and let 
+Let $X$ be a [[paracompact Hausdorff space]], let $n \in \mathbb{N}$ and let
 
 $$
   f \;\colon\; S^{n-1} \longrightarrow X
@@ -10375,7 +10436,7 @@ be a [[continuous function]] from the $(n-1)$-[[sphere]] (with its [[subspace to
 example \ref{SpheresAndDisks}). Then also the [[attachment space]] (example \ref{PushoutInTop}) $X \cup_f D^n$,
 i.e. the [[pushout]]
 
-$$  
+$$
   \array{
 ^   S^{n-1} &\overset{\phantom{A}f \phantom{A}}{\longrightarrow}& X
     \\
@@ -10385,7 +10446,7 @@ $$
   }
 $$
 
-is paracompact Hausdorff. 
+is paracompact Hausdorff.
 
 This immediately implies that all [[finite CW-complexes]] relative to a [[paracompact Hausdorff space]]
 are themselves paracompact Hausdorff. In fact this is true generally: all [[CW-complexes are paracompact Hausdorff spaces]].
@@ -10395,6 +10456,38 @@ are paracompact Hausdorff spaces, by example \ref{TopologicalnSphereIsPushoutOfB
 
 =--
 
+Another source of paracompact spaces are [[topological groups]]:
+
++-- {: .num_defn #TopologicalGroup}
+###### Definition
+**([[topological group]])**
+
+A [[topological group]] is a [[group]] $G$ equipped with a [[topological space|topology]] $\tau_G \subset P(G)$ (def. \ref{TopologicalSpace})
+such that the group operation $G \times G \to G$ and the assignment of [[inverse elements]] $(-)^{-1} : G \to G$
+are [[continuous functions]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The additive [[group]] of [[real numbers]] $(\mathbb{R}, +)$ with the [[Euclidean space|Euclidean]] [[metric topology]]
+is a topological group (def. \ref{TopologicalGroup}).
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[locally compact topological space|locally compact]] [[topological groups]]
+are [[paracompact topological space|paracompact]])
+
+A [[topological group]] (def. \ref{TopologicalGroup}) which is  [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}) is [[paracompact topological space|paracompact]] (def. \ref{ParacompactSpace}).
+
+=--
+
+We give the **proof** later, using prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} below.
+
+$\,$
 
 The definition of [[paracompact Hausdorff spaces]] is closely related to the definition of
 
@@ -10420,10 +10513,16 @@ Let $n \in \mathbb{N}$. Consider the [[Euclidean space]] $\mathbb{R}^n$ with its
 
 A [[countable set]] of [[topological base|base open subsets]] is given by the [[open balls]] $B^\circ_x(\epsilon)$ of [[rational number|rational]] [[radius]] $\epsilon \in \mathbb{Q}_{\geq 0} \subset \mathbb{R}_{\geq 0}$ and centered at points with [[rational number|rational]] [[coordinates]]: $x \in \mathbb{Q}^n \subset \mathbb{R}^n$.
 
+Here we are using that 
+
+1. The set of [[rational numbers]] is [[countable set|countable]];
+
+1. the [[Cartesian product]] of two countable sets is countable.
+
 =--
 
 
-+-- {: .num_defm #CompactSigma}
++-- {: .num_defn #CompactSigma}
 ###### Definition
 **([[sigma-compact topological space]])**
 
@@ -10611,7 +10710,7 @@ is a [[paracompact topological space]] (def. \ref{ParacompactSpace}).
 
 Euclidean space is [[locally compact topological space|locally compact]] by example \ref{MetricSpacesAreLocallyCompact}
 and [[sigma-compact topological space|sigma-compact]] by example \ref{SigmaCompactEuclideanSpace}.
-Therefore the statement follows since [[locally compact and sigma-compact spaces are paracompact]] 
+Therefore the statement follows since [[locally compact and sigma-compact spaces are paracompact]]
 (prop.  \ref{ParacompactFromLocallyCompactAndSigmacompact}).
 
 =--
