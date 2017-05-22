@@ -1,0 +1,96 @@
+This page will collect some technical material concerning [[colimits]] of [[normal spaces]] as computed in [[Top]]. 
+
+The first very easy observation is that normal spaces are closed under [[coproducts]] in [[Top]] (so-called "[[disjoint union spaces]]"). 
+
+There is no hope that normal spaces are closed under [[coequalizers]] or [[pushouts]]. A first example that comes to mind is the line with double origin, which is the topological pushout of the diagram 
+
+$$\mathbb{R} \leftarrow \mathbb{R} \setminus \{0\} \to mathbb{R}$$ 
+
+where both maps are the inclusion map. This space isn't even [[Hausdorff space|Hausdorff]], as every [[neighborhood]] of the point $0_1$ (the image of the origin under the first pushout [[coprojection]]) intersects every neighborhood of the point $0_2$ (the image of the origin under the second coprojection). 
+
+However, there are reasonable conditions under which pushouts will be normal. (Actually, we work with $T_4$ spaces which are normal spaces in which [[singletons]] are [[closed set|closed]]). 
+
++-- {: .num_prop} 
+###### Proposition 
+Let $X$ be a $T_4$ space, and let $Y$ be a quotient space of $X$ such that the quotient map $q: X \to Y$ is closed. Then $Y$ is also $T_4$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+First we claim singletons of $Y$ are closed: for each $y \in Y$ there exists $x \in X$ such that $y = q(x)$. Since $\{x\}$ is closed in $X$ and $q$ is closed, $\{y\} = q(\{x\})$ is closed in $Y$. 
+
+Let $C, D$ be disjoint closed sets of $Y$, so that $\neg C, \neg D$ form an open cover of $Y$. Then $A = q^{-1}(\neg C), B = q^{-1}(\neg D)$ form an open cover of $X$. Normality of $X$ (in "[[De Morgan duality|De Morganized]]" form) implies there are closed subsets $E \subseteq A, F \subseteq B$ which together also cover $X$. Then $Y = q(X) = q(E \cup F) = q(E) \cup q(F)$, so the closed sets $q(E), q(F)$ cover $Y$. And we have $q(E) \subseteq q(A) = \neg C$ and similarly $q(F) \subseteq \neg D$, which is equivalent to $C \subseteq \neg q(E)$ and $D \subseteq \neg q(F)$, where $\neg q(E), \neg q(F)$ are disjoint open sets of $Y$, and we are done. 
+=-- 
+
+We know that [[compact Hausdorff spaces]] are normal spaces, and this is an especially nice class because the category of compact Hausdorff spaces is a [[pretopos]]. This is the categorical backdrop for the following observation. 
+
++-- {: .num_lemma #pretopos} 
+###### Lemma 
+If $X$ is a compact Hausdorff space and $\sim \hookrightarrow X \times X$ is an equivalence relation which is closed as a subset of $X \times X$, then the quotient space $X/\sim$ is also compact Hausdorff. (Consequently, the quotient map $q: X \to X/\sim$ is closed.) 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Omitted for the time being. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+Given a pushout diagram in $Top$ 
+
+$$\array{
+X & \stackrel{h}{\to} & Z \\ 
+\mathllap{f} \downarrow & & \downarrow \mathrlap{g} \\ 
+Y & \underset{k}{\to} & W,
+}$$ 
+
+if $h$ is [[monomorphism|monic]], $f$ is [[epimorphism|epic]], and $X, Y, Z$ are compact Hausdorff, then $W$ is compact Hausdorff. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The kernel pair of $f$ is a closed equivalence relation $E$ on $X$ such that $f$ is the coequalizer of the first and second pullback projections $p_1, p_2: E \rightrightarrows X$. The quotient map $g: Z \to W$ is similarly the quotient of the closed equivalence relation on $Z$ formed as $(h \times h)(E) \cup \Delta_Z$. Now apply Lemma \ref{pretopos}. 
+=-- 
+
++-- {: .num_lemma} 
+###### Lemma 
+In $Top$, the pushout of a closed embedding along any continuous map is again a closed embedding. 
+=-- 
+
+A proof may be found [here](/nlab/show/subspace+topology#pushout). 
+
++-- {: .num_prop} 
+###### Proposition 
+Let $h: X \to Z$ be an embedding of compact Hausdorff spaces, and let $f: X \to Y$ be a continuous map into a Hausdorff space (e.g., a normal space). Then in the pushout in $Top$ 
+
+$$\array{
+X & \stackrel{h}{\to} & Z \\ 
+\mathllap{f} \downarrow & & \downarrow \mathrlap{g} \\ 
+Y & \underset{k}{\to} & W
+}$$ 
+
+the map $g$ is closed. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Factorize $f: X \to Y$ into an epi $e: X \to K$ followed by a mono $m: K \to Y$. Then we have a composition of pushout squares in $Top$ 
+
+$$\array{
+X & \stackrel{h}{\to} & Z \\ 
+\mathllap{e} \downarrow & & \downarrow \mathrlap{e'} \\ 
+K & \stackrel{j}{\to} & K' \\ 
+\mathllap{m} \downarrow & & \downarrow \mathrlap{m'} \\ 
+Y & \underset{k}{\to} & W
+}$$ 
+
+where $K'$ is compact Hausdorff by Proposition 3, so that $e'$ is closed. Also $m$ is a closed embedding, so $m'$ is closed by Lemma 4. Hence $g = m'e'$ is closed.
+=-- 
+
++-- {: .num_theorem} 
+###### Theorem 
+Let $X$ be $T_4$, let $i: C \hookrightarrow D$ be an embedding of compact Hausdorff spaces, and let $f: C \to X$ be a continuous map. Then the pushout $X \cup_C D$ is $T_4$. 
+=-- 
+
+
+
