@@ -54,7 +54,7 @@ For this section suppose $f:X\to S$ is s [[separated morphism of schemes|separat
 ## Picard Stack
  {#PicardStack}
 
-The *[[Picard stack]]* $\mathcal{Pic}_{X/S}$ is the [[stack]] of invertible sheaves on $X/S$, i.e. the [[fiber category]] over $T\to X$ is the [[groupoid]] of [[line bundles]] on $X_T$ (not just their [[isomorphism classes]]). (Hence it is the [[Picard groupoid]] equipped with geometric structure). 
+The *[[Picard stack]]* $\mathcal{Pic}_{X/S}$ is the [[stack]] of invertible sheaves on $X/S$, i.e. the [[fiber category]] over $T\to X$ is the [[groupoid]] of [[line bundles]] on $X_T$ (not just their [[isomorphism classes]]). (Hence it is the [[Picard groupoid of a monoidal category|Picard groupoid]] equipped with geometric structure). 
 
 If $X$ is proper and flat, then $\mathcal{Pic}_{X/S}$ is an [[Artin stack]] since $\mathcal{Pic}_{X/S}=\mathcal{Hom}(X, B\mathbb{G}_m)$ is the [[Hom stack]] which is Artin.
 
