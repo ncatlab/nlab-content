@@ -26,7 +26,7 @@ Every [[CW-complex]] is a [[paracompact Hausdorff space]].
 
 e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#FritschPiccinini90)
 
-
+### CW-complexes are Hausdorff
 
 +-- {: .num_lemma #CellAttachmentToHausdorffSpaceIsHausdorff}
 ###### Lemma
@@ -92,6 +92,7 @@ Now we discuss separation of distinct points in $X \cup_f D^{n}$ by case distinc
 
 =--
 
+### CW-complexes are paracompact
 
 +-- {: .num_lemma #CellAttachmentToParacompactHausdorffIsStillParacompactHausdorff}
 ###### Lemma
@@ -121,8 +122,6 @@ Hausdorffness is the statement of lemma \ref{CellAttachmentToHausdorffSpaceIsHau
 First we claim that both inclusion maps $D^n \to X \cup_f D^n$ and $X \to X \cup_f D^n$ are [[closed maps]]. To see this, recall that a subset of $X \cup_f D^n$ is closed precisely if its pre-images under both $i_X$ and $i_{D^n}$ are closed.
 
 1. That $i_{D^n}$ is closed follows on abstract grounds since $D^n$ is [[compact topological space|compact]] (e.g. by the [[Heine-Borel theorem]]) and since $X \cup_f D^n$ is Hausdorff by lemma \ref{CellAttachmentToHausdorffSpaceIsHausdorff}, and since [[maps from compact spaces to Hausdorff spaces are closed and proper]].
-
-   More explicitly: It is sufficient to test on a base of closed subsets given by intersections of $D^n$ with other closed balls inside an ambient Euclidean space $\mathbb{R}^n$. If these intersections fall into the interior of the given $D^n$ then it is clear that their image is also closed. If instead they intersect the boundary $S^{n-1}$ then they do so in a closed point or a closed interval, in any case a compact subspace. We need to see that the image of that in $X$ is also closed in $X$. But this follows since [[continuous images of compact spaces are compact]] and since [[compact subspaces of Hausdorff spaces are closed]].
 
 1. That $i_X$ is closed follows on abstract grounds, since by construction it is the [[pushout]] of the closed map $S^{n-1} \to D^n$ and pushout preserves closed subspace inclusions by [this lemma](subspace+topology#pushout). (To see that $S^{n-1} \to D^n$ is a closed map observe that $S^{n-1} \subset D^n$ is a closed subspace and that [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]]).
 
@@ -159,18 +158,24 @@ $$
 
 such that the [[topological closures]] of their patches are still contained in the original locally finite patches. 
 
-Since the two inclusion maps are closed, by the above observation, 
-
-> and we need that the $Cl(V'_j)$,  $Cl(W'_j)$ are (replaced by something) saturated... 
-
-[this lemma](saturated+subset#FindSatureatedOpenInsideOpenNeighbourhood) says that we may find a locally finite cover intermediate to these two consisting of open [[saturated subsets]] $V^{sat}_j$ and $W^{sat}_j$:
+Since $S^{n-1} \subset D^n$ and also $f(S^{n-1}) \subset X$ are closed (the latter because $S^{n-1}$ is compact, because [[continuous images of compact spaces are compact]], and because [[compact subspaces of Hausdorff spaces are closed]]), the complements $D^n \setminus S^{n-1}$ and $X \setminus f(S^{n-1})$ are open and hence restricting these locally finite covers yields a locally finite cover with patches
 
 $$
-  V'_j \subset Cl(V'_j) \subset V^{sat}_j \subset V_j
+  V'_j \setminus f(S^{n-1}) \subset Cl(V'_j) \setminus f(S^{n-1}) \subset V_j \setminus f(S^{n-1})
   \phantom{AA}
   \text{and}
   \phantom{AA}
-  W'_j \subset Cl(W'_j) \subset W^{sat}_j \subset W_j
+  W'_j \setminus S^{n-1} \subset Cl(W'_j) \setminus S^{n-1} \subset W_j \setminus S^{n-1}
+$$
+
+Since $i_{D^n}$ restricted to $D^n \setminus S^{d-1}$ as well as $i_X$ restricted to $X \setminus f(S^{n-1})$ are injective, all these subsets are [[saturated subsets]] under these maps. Moreover, the two inclusion maps are closed, by the above observation, [this lemma](saturated+subset#FindSatureatedOpenInsideOpenNeighbourhood) says that we may find a locally finite cover intermediate to these two consisting of open [[saturated subsets]] $V^{sat}_j$ and $W^{sat}_j$:
+
+$$
+  V'_j \setminus S^{n-1} \subset Cl(V'_j) \setminus S^{n-1} \subset V^{sat}_j \subset V_j \setminus S^{n-1}
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  W'_j  \setminus f(S^{n-1}) \subset Cl(W'_j) \setminus f(S^{n-1}) \subset W^{sat}_j \subset W_j \setminus f(S^{n-1})
 $$
 
 The images in $X \cup_f D^n$ of these saturated subsets are 
@@ -179,9 +184,9 @@ The images in $X \cup_f D^n$ of these saturated subsets are
 
 1. still locally finite (being composed of two locally finite sets of subsets) 
 
-1. still a cover, by construction of the attachment space. 
+1. a cover of $(X \cup_f D^n) \setminus f(S^{n-1})$, by construction of the attachment space. 
 
-Hence this is a locally finite refinement of the original cover, as required.
+Hence it is now sufficient to adjoin to this collection of open subsets a finite subset of the patches of the original cover such as to cover $f(S^{n-1})$. This exists because $f(S^{n-1})$ is compact (as $S^{n-1}$ is cimpact and since [[continuous images of compact spaces are compact]]).
 
 =--
 
@@ -203,8 +208,11 @@ For the non-finite case one needs a bit more...
 
 ## References
 
-* Topospaces, _[CW implies paracompact Hausdorff](http://topospaces.subwiki.org/wiki/CW_implies_paracompact_Hausdorff)_
+An early original article with the statement is
 
+* {#Miyazaki52} Hiroshi Miyazaki, _The paracompactness of CW-complexes_, Tohoku Math. J. (2) Volume 4, Number 3 (1952), 309-313. 1952 [Euclid](https://projecteuclid.org/euclid.tmj/1178245380)
+
+Textbook accounts include the following
 
 * {#FritschPiccinini90} Rudolf Fritsch, Renzo Piccinini, _Cellular structures in topology_, Cambridge University Press (1990)
 
@@ -215,3 +223,7 @@ For the non-finite case one needs a bit more...
 [[!redirects CW-complexes are Hausdorff]]
 [[!redirects a CW-complex is a Hausdorff space]]
 
+
+[[!redirects CW-complexes are paracompact]]
+[[!redirects CW-complexes are paracompact spaces]]
+[[!redirects CW-complexes are paracompact topological spaces]]
