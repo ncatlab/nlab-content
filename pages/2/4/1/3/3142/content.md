@@ -1,6 +1,6 @@
 A countable [[CW-complex]] $K$ is **quasi-finite** if for any finite subcomplex $M\subset K$, there is (possibly larger) finite subcomplex $e(M)\subset K$, such that for every separable metric space $X$ satisfying
 
-* ($K$ is an absolute extensor of $X$:) for every closed subspace $A\subset X$ and a function $f:A\to K$ there is an extension $\tilde{f}:X\to K$ (i.e. $\tilde{f}=f\circ i$, where $i:A\hookrightarrow X$ is the closed embedding)
+* ($K$ is an [[absolute extensor]] of $X$:) for every closed subspace $A\subset X$ and a function $f:A\to K$ there is an extension $\tilde{f}:X\to K$ (i.e. $\tilde{f}=f\circ i$, where $i:A\hookrightarrow X$ is the closed embedding)
 
 one has a similar property
 
