@@ -1,0 +1,23 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
+Let $X$ be a [[topological space]].
+
+Assuming the [[axiom of choice]] then the following are equivalent:
+
+1. $X$ is a [[fully normal topological space]];
+
+1. $X$ is a [[paracompact topological space]]
+
+([Stone 48](#Stone48))
+
+Since [[metric spaces are fully normal]] it follows that [[metric spaces are paracompact]].
+
+## References
+
+* {#Stone48} A. H. Stone, _Paracompactness and product spaces_, Bull. Amer. Math. Soc. Volume 54, Number 10 (1948), 977-982. ([Euclid](http://projecteuclid.org/euclid.bams/1183512390))
+
