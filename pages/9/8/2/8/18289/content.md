@@ -1,0 +1,7 @@
+# Contents
+* table of contents
+{: toc}
+
+## Idea
+
+$K$ is an [[absolute extensor]] of a [[topological space]] $X$ if for every [[closed subspace]] $A\subset X$ and function $f:A\to K$ there is an [[extension]] $\tilde{f}:X\to K$, i.e., $\tilde{f}=f\circ i$, where $i:A\hookrightarrow X$ is the closed embedding.
