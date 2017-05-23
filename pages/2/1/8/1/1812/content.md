@@ -50,6 +50,10 @@ These hypotheses imply that it is equivalent to the bicategory of categories and
 
 Defined in this way, cosmoi are closed under [[opposite category|dualization]], parametrization and [[localization]], suitably defined.
 
+## Related notions
+
+An [[infinity-cosmos]] is a "good place in which to do higher category theory" as axiomatized by Riehl and Verity in their work on the foundations of $(\infty,1)$- and $(\infty,n)$-category theory.
+
 [[!redirects cosmoi]]
 [[!redirects Benabou cosmos]]
 [[!redirects Bénabou cosmos]]
