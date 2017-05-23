@@ -646,7 +646,7 @@ There are other axioms sometimes included among the separation axioms that don\'
 
 *  [[sober space|sober]] and having enough points,
 *  [[semiregular space|semiregular]],
-*  fully normal and fully $T_4$, which are related to [[paracompact space|paracompactness]].
+*  [[fully normal topological space|fully normal]] and fully $T_4$, which are related to [[paracompact space|paracompactness]] (see at _[[fully normal spaces are equivalently paracompact]]_).
 
 
 ## Beyond the classical theory
