@@ -18,7 +18,7 @@
 Recall:
 
 +-- {: .num_defn #LocallyFiniteCover}
-###### Definition
+###### Definitione
 **([[locally finite cover]])**
 
 Let $(X,\tau)$ be a [[topological space]].
@@ -200,7 +200,7 @@ Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompa
     $\Rightarrow$ [[metric space|metrizable space]]
     $\Rightarrow$ paracompact space
 
-    (the first is Urysohn's metrization theorem, the second is due to A. H. Stone, see also at _[[second-countable regular spaces are paracompact]]_)
+    (the first is Urysohn's metrization theorem, the second is due to [Stone 48](#Stone48), see also at _[[second-countable regular spaces are paracompact]]_ and _[[metric spaces are paracompact]]_)
 
   * paracompact space and locally metric space
     $\Rightarrow$
@@ -282,6 +282,10 @@ This appears as ([[Higher Topos Theory|HTT, lemma 7.2.3.5]]).
 The notion of paracompact space was introduced in
 
 * [[Jean Dieudonné]], _Une g&#233;n&#233;ralisation des espaces compacts_, Journal de Math&#233;matiques Pures et Appliqu&#233;es, Neuvi&#232;me S&#233;rie, 23: 65&#8211;76 (1944)
+
+That [[fully normal spaces are equivalently paracompact]] is due to
+
+* {#Stone48} A. H. Stone, _Paracompactness and product spaces_, Bull. Amer. Math. Soc. Volume 54, Number 10 (1948), 977-982. ([Euclid](http://projecteuclid.org/euclid.bams/1183512390))
 
 
 General accounts include
