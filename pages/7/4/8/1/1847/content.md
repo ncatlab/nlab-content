@@ -190,7 +190,7 @@ Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompa
 
   * every [[separable space|separable]] [[metric space]] is paracompact;
 
-  * every [[metric space]] whatsoever is paracompact, assuming the [[axiom of choice]];
+  * every [[metric space]] whatsoever is paracompact, assuming the [[axiom of choice]]; see at _[[metric spaces are paracompact]]_
 
   * pseudometric spaces are paracompact under the same conditions, if one does not require Hausdorffness;
 
