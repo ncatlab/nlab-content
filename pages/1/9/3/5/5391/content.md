@@ -41,6 +41,8 @@ $C$ making above a short exact sequence in $C$.
 
 * [[context extension]]
 
+* [[absolute extensor]]
+
 ## Examples 
 
 ### Extension of functions
