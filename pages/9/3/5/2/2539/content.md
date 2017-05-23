@@ -31,9 +31,11 @@ The _Tietze extension theorem_ says that [[continuous function]]s extend from [[
 +-- {: .num_theorem}
 ###### Theorem
 
-For $X$ a [[normal topological space]] and $A \subset X$ a [[closed subset]], there is for every [[continuous function]] $f \colon A \to \mathbb{R}$ to the [[real line]] a continuous function $F \colon X \to \mathbb{R}$ extending it, i.e. such that $F|_A = f$.
+For $X$ a [[normal topological space]] and $A \subset X$ a [[closed subspace]], there is for every [[continuous function]] $f \colon A \to \mathbb{R}$ to the [[real line]] a continuous function $F \colon X \to \mathbb{R}$ extending it, i.e. such that $F|_A = f$.
 
 =--
+
+One also says that _$\mathbb{R}$ is an [[absolute extensor]]_.
 
 ### For smooth manifolds {#Manifolds}
 
@@ -73,7 +75,6 @@ sublocus of $\ell B$ then every morphism $\ell A \to R$
 extends to a morphism $\ell B \to R$
 
 
-
 =--
 
 This is prop. 1.6 in Chapter II of ([MoerdijkReyes](#MoerdijkReyes)).
@@ -94,13 +95,13 @@ defines an element in $C^\infty(\mathbb{R}^n)/I$.
 
 * [[Urysohn's lemma]]
 
-* the [[Hadamard lemma]]
+* [[Hadamard lemma]]
 
 * [[Borel's theorem]]
 
-* the [[Steenrod-Wockel approximation theorem]]
+* [[Steenrod-Wockel approximation theorem]]
 
-* the [[Whitney extension theorem]]
+* [[Whitney extension theorem]]
 
 * [[embedding of smooth manifolds into formal duals of R-algebras]]
 
