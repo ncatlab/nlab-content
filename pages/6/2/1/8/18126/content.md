@@ -10798,7 +10798,16 @@ Therefore the statement follows since [[locally compact and sigma-compact spaces
 
 =--
 
+More generally:
 
++-- {: .num_prop}
+###### Proposition
+**([[metric spaces are paracompact]])**
+
+A [[metric space]] (def. \ref{MetricSpace}) regarded as a [[topological space]] via its
+[[metric topology]] (example \ref{MetricTopology}) is [[paracompact topological space|paracompact]] (def. \ref{ParacompactSpace}).
+
+=--
 
 
 $\,$
