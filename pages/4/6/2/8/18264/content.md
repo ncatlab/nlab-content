@@ -33,7 +33,18 @@ $$
 
 is itself a countable set. 
 
-=--
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Classical proof: we may assume all the $S_i$ are [[nonempty set|nonempty]]. For each $i \in I$, choose a [[surjection]] $f_i: \mathbb{N} \to S_i$ (this requires the axiom of countable choice) and also a surjection $f: \mathbb{N} \to I$. Then we have a composite surjection 
+
+$$\mathbb{N} \stackrel{pair}{\to} \mathbb{N} \times \mathbb{N} \stackrel{f \times 1}{\to} I \times \mathbb{N} \cong \underset{i \in I}{\cup} \mathbb{N} \stackrel{\underset{i \in I}{\cup} f_i}{\to} \underset{i \in I}{\cup} S_i$$ 
+
+where for $pair: \mathbb{N} \to \mathbb{N} \times \mathbb{N}$ we may take for example the function that is inverse to $(x, y) \mapsto \binom{x+y+1}{2} + y$. 
+
+For constructive mathematicians who accept the axiom of countable choice, the proof is only slightly more elaborate. Here we define a set to be *countable* if it is a [[quotient]] of (is enumerated by) a [[decidable subset]], i.e., [[complemented subobject]] of $\mathbb{N}$. (To be continued.) 
+=-- 
 
 ## Related statements
 
