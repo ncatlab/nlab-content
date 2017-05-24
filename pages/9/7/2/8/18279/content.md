@@ -21,19 +21,50 @@ It is not generally true that a [[topological space]] is the [[disjoint union sp
 
 
 ## Definition
+  {#Definition}
 
-+-- {: .num_defn}
++-- {: .num_defn #LocallyConnected}
 ###### Definition 
+**(locally connected topological space)**
 
-A [[topological space]] $X$ is **locally connected** if the following equivalent conditions hold:
-
-1. every [[open subset]], as a [[topological subspace]], is the [[disjoint union space]] ([[coproduct]] in [[Top]]) of its [[connected components]];
-
-1. every point has a [[neighborhood basis]] of [[connected topological space|connected]] [[open subsets]]. 
+A [[topological space]] $X$ is **locally connected** if  every point has a [[neighborhood basis]] of [[connected topological space|connected]] [[open subsets]]. 
 
 =-- 
 
-In a locally connected space, every connected component $S$ is a [[clopen subset]]; in particular, connected components and quasi-components coincide. 
+
++-- {: .num_prop #AlternativeCharacterizationsOfLocalConnectivity}
+###### Proposition
+**(alternative characterizations of local connectivity)**
+
+For $X$ a [[topological space]], then the following are equivalent:
+
+1. $X$ is locally connected (def. \ref{LocallyConnected});
+
+1. every [[connected component]] of every open [[subspace]] of $X$ is open;
+
+1. every [[open subset]], as a [[topological subspace]], is the [[disjoint union space]] ([[coproduct]] in [[Top]]) of its [[connected components]].
+
+In particular, in a locally connected space, every connected component $S$ is a [[clopen subset]]; hence connected components and quasi-components coincide. 
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Assume $X$ is lcoally connected, and let $U \subset X$ be an open subset with $U_0 \subset U$ a connected component. We need to show that $U_0$ is open.
+
+Consider any point $x \in U_0$. Since then also $x \in U$, the defintion of local connectedness, def. \ref{LocallyConnected}, implies that there is a connected open neighbourhood $U_{x,0}$ of $X$. Observe that this must be contained in $U_0$, for if it were not then $U_0 \cup U_{x,0}$ were a larger open connected open neighbourhood, contradicting the maximality of the connected component $U_0$. 
+
+Hence $U_0 = \underset{x \in U_0}{\cup} U_{x,0}$ is a union of open  subsets, and hence itself open.
+
+Now assume that every connected component of every open subset is open. Since every connected component is also closed, by [this prop.](connected+space#ConnectedComponentsAreClosed), the connected components constitute a disjoint cover of $X$ by [[clopen subsets]], which means that $X$ is the [[disjoint union space]] of these subspaces.
+
+Finally assume that every open subspace is the disjoint union of its connected components. Let $x$ be a point and $U_x \supset \{x\}$ a neighbourhood. We need to show that $U_x$ contains a connected neighbourhood of $x$.
+
+But, by definition, $U_x$ contains an open neighbourhood of $x$ and by assumption this decomposes as the disjoint union of its connected components. One of these contains $x$. Since in a dijoint union all summands are open, this is the required connected open neighbourhod.
+
+=--
 
 
 ## Examples
