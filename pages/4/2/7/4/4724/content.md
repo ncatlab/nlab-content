@@ -47,15 +47,15 @@ For convenience, we first recall here some background on [[topological manifolds
 ###### Definition
 **(topological manifold)**
 
-Let $n \in \mathbb{N}$ be a [[natural number]].
+A _topological manifold is a [[topological space]] which is
 
-A _topological manifold_ of _[[dimension]] $n$_ (also "$n$-fold") is 
+1. [[locally Euclidean topological space|locally Euclidean]],
 
-* a [[paracompact Hausdorff topological space]] $X$ 
+1. [[paracompact Hausdorff topological space|paracompact Hausdorff]].
 
-such that 
+If the local [[Euclidean spaces|Euclidean]] neighbourhoods $\mathbb{R}^n \overset{\simeq}{\to} U \subset X$ are all of [[dimension]] $n$
+for a fixed $n \in \mathbb{N}$, then the topological manifold is said to be a _$n$-dimensional manifold_ or _$n$-fold_. This is usually assumed to be the case.
 
-* every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which is [[homeomorphism|homeomorphic]] to the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]].
 
 =--
 
@@ -63,11 +63,8 @@ such that
 ###### Remark
 **(varying terminology)**
 
-There is some variance in the choice of regularity condition in def. \ref{TopologicalManifold}. Often it is required in addition to being a [[paracompact Hausdorff space]] that a manifold have a [[countable set]] of [[connected components]], which then means that it is [[sigma-compact topological space|sigma-compact]].
-
-This is the relevant condition for the [[Whitney embedding theorem]] to apply.
-
-Very rarely one considers [[non-Hausdorff topological spaces]] as manifolds.
+Often a topological manifold (def. \ref{TopologicalManifold}) is required to be [[sigma-compact]]. But by [this prop.](topological#manifold#RegularityConditionsForTopologicalManifoldsComparison) this is not an extra condition as long as there is a [[countable set]] of [[connected components]]. 
+Moreover, manifolds with uncountably many connected components are rarely considered in practice.
 
 =--
 
@@ -171,13 +168,13 @@ Hence there is a [[category]] [[Diff]]${}_p$ whose [[objects]] are $C^p$-[[diffe
 
 ## Properties
 
-+-- {: .num_prop}
++-- {: .num_prop #OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds}
 ###### Proposition
 
-Let $\left(X, \tau, \{\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X\} \right)$ be a differentiable manifold and let $S \subset X$
+Let $X$ be a $k$-fold differentiable manifold and let $S \subset X$
 be an [[open subset]] of the underlying [[topological space]] $(X,\tau)$.
 
-Then $S$ carries the structure of a differentiable manifold such that the
+Then $S$ carries the structure of a $k$-fold differentiable manifold such that the
 inclusion map $S \hookrightarrow X$ is an [[open embedding|open]]
 [[embedding of differentiable manifolds]].
 
@@ -186,7 +183,17 @@ inclusion map $S \hookrightarrow X$ is an [[open embedding|open]]
 +-- {: .proof}
 ###### Proof
 
-(...)
+
+Since the underlying [[topological space]] of $X$ is [[locally connected topological space|locally connected]] ([this prop.](topological+manifold#LocalPropertiesOfLocallyEuclideanSpace)) it is the [[disjoint union space]] of its [[connected components]] ([this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)). 
+
+Therefore we are reduced to showing the statement for the case that $X$ has a single [[connected component]]. By [this prop](topological+manifold#RegularityConditionsForTopologicalManifoldsComparison) this implies that $X$ is [[second-countable topological space]].
+
+Now a [[subspace]] of a second-countable Hausdorff space is clearly itself second countable and Hausdorff. 
+
+Similarly it is immediate that $S$ is still [[locally Euclidean space|locally Euclidean]]: since $X$ is locally Euclidean every point $x \in S \subset X$ has a Euclidean neighbourhood in $X$ and since $S$ is open there exists an open ball in that (itself [[homeomorphism|homeomorphic]] to Euclidean space) which is a Euclidean neighbourhood of $x$ contained in $S$.
+
+For the differentiable structure we pick these Euclidean neighbourhoods from the given atlas.
+Then the [[gluing functions]] for the Euclidean charts on $S$ are $k$-fold differentiable follows since these are restrictions of the gluing functions for the atlas of $X$.
 
 =--
 
