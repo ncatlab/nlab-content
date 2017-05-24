@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
 #### Manifolds and cobordisms
 +--{: .hide}
 [[!include manifolds and cobordisms - contents]]
@@ -193,7 +197,11 @@ $$
 
 By the formulas given in [this prop.](stereographic+projection#StandardStereographicProjection) the induced [[gluing function]] $\mathbb{R}^n \backslash \{0\} \to \mathbb{R}^n \backslash \{0\}$ is smooth.
 
-Finally the $n$-sphere is [[paracompact Hausdorff topological space|paracompact Hausdorff]] because (for instance) [[CW-complexes are paracompact Hausdorff spaces]].
+Finally the $n$-sphere is a [[paracompact Hausdorff topological space]]. Ways to see this include:
+
+1.$S^n \subset \mathbb{R}^{n+1}$ is a [[compact subspace]] by the [[Heine-Borel theorem]]. Compact spaces are evidently also paracompact. Moreover, [[Euclidean space]], like any [[metric space]], is Hausdorff, and [[subspaces]] of Hausdorff spaces are Hausdorff.
+
+1. The $n$-sphere has an evident structure of a [[CW-complex]] and [[CW-complexes are paracompact Hausdorff spaces]].
 
 =--
 
