@@ -64,9 +64,11 @@ is a countable subcover.
 
 =--
 
-## Related statement
+## Related statements
 
 * [[locally compact and sigma-compact spaces are paracompact]]
+
+* [[locally compact and second-countable spaces are sigma-compact]]
 
 
 ## References
