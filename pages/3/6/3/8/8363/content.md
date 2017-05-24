@@ -19,7 +19,7 @@
 
 ## Idea
 
-Second-order arithmetic is a [[theory]] dealing with [[natural numbers]] and, what makes it "second-order", [[sets]] of natural numbers[^fine]. SOA, or $Z_2$ as it is often denoted, is [[proof theory|proof-theoretically]] weak in comparison with [[ZFC]], but still strong enough to derive "almost all of undergraduate mathematics" (Friedman). 
+Second-order arithmetic is a [[theory]] of [[arithmetic]] dealing with [[natural numbers]] and, what makes it "second-order", [[sets]] of natural numbers[^fine]. SOA, or $Z_2$ as it is often denoted, is [[proof theory|proof-theoretically]] weak in comparison with [[ZFC]], but still strong enough to derive "almost all of undergraduate mathematics" (Friedman). 
 
 [^fine]: The logic that governs the language and theory of $Z_2$ is ordinary (first-order) predicate logic. The "second-order" aspect is really in the _models_, where one interprets the symbol $\in$ as membership in a background set theory, i.e., terms of type $P N$ are interpreted as subsets of the set that interprets the type $N$, and an extensionality axiom is in force. A _full model_ is where $P N$ is interpreted as the full power set of $N$. When one sees absoluteness assertions such as "there is only one (full) model of SOA up to isomorphism," it should be clear that this is meant with regard to a given background set theory. Cf. the fact that while there is, up to isomorphism, at most one [[natural numbers object]] $\mathbb{N}$ in a given [[topos]], the set of global elements $\Gamma(\mathbb{N})$ might contain "non-standard elements" as viewed against the background $Set$. 
 
