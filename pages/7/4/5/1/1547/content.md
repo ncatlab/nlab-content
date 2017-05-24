@@ -114,6 +114,141 @@ In one class of models for [[K-theory]] -- [[generalized (Eilenberg-Steenrod) co
 Much else to be discussed...
 
 
+## Properties
+
+### Concordances of topological vector bundles
+
+For $X$ a [[topological space]] write $X \times I$ for the [[product topological space]] with the [[closed interval]] $[0,1]$ equipped with its [[Euclidean space|Euclidean]] [[metric topology]]. 
+
+Write
+
+$$
+  X \overset{p_X}{\longleftarrow} X \times [0,1] \overset{p_{[0,1]}}{\longrightarrow} [0,1]
+$$
+
+for the two continuous [[projections]] out of the product space.
+
+
+
++-- {: .num_lemma #TrivilizationOfVectorBundleOverProductSpaceWithInterval}
+###### Lemma
+
+For $X$ a [[topological space]], then a vector bundle $E \to X \times [0,1]$ is trivial if its restrictions to $X \times [0,1/2]$ and to $X \times [1/2,1]$ are trivial.
+
+=--
+
++-- {: .num_lemma #CoverForProductSpaceWithIntrval}
+###### Lemma
+
+For $X$ a [[topological space]], then for every topological vector bundle $E \to X \times I$ there exists an [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ such that the vector bundle trivializes over $U_i \times [0,1] \subset X \times [0,1]$, for each $i \in I$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By local trvializability of the vector bundle, there exists an open cover $\{V_j \subset X \times I\}_{j \in J}$ over which the bundle trivializes. For each point $x \in X$ this induces a cover of $\{x\} \times [0,1]$. This is a [[compact topological space]] (for instance by the [[Heine-Borel theorem]]) and hence there exists a [[finite set|finite]] [[subset]] $J_x \subset I$ such that $\{V_i \subset X\}_{i \in J_x}$ still covers $\{x\} \times [0,1]$. 
+
+By finiteness of $J_x$, the [[intersection]]
+
+$$
+  U_x \coloneqq \underset{i \in J_x}{\cap} p_X(V_i)
+$$
+
+is an open neighbourhood of $x$ in $X$. Moreover
+
+$$
+  \{ p_{[0,1]}(V_i) \subset I \}_{i \in J_x}
+$$
+
+is an open cover of $[0,1]$ such that the given vector bundle trivializes over each element of $\{V_x \times p_{[0,1]}(U_i)\}_{i \in J_x}$.
+
+By the nature of the Euclidean [[metric topology]] each [[open subset]] of $[0,1]$ is a union of intervals. So we may pass to a [[refinement]] of this cover of $[0,1]$ such that each element is a single interval. Again by compactness of $[0,1]$, this refinement has a finite subcover
+
+$$
+  \{W_{x,k} \subset [0,1]\}_{k \in K_x}
+$$
+
+each element of which is an [[interval]]. Since this is a finite cover, we may find numbers $\{0 = t_0 \lt t_1 \lt t_2 \lt \cdots \lt t_{n_x} = 1\}$ such that 
+
+$$
+  \{ [t_k, t_{k+1}] \subset [0,1] \}_{0 \leq k \lt n_x}
+$$
+
+is a cover of $[0,1]$, and such that the given vector bundle still trivializes over $V_x \times [t_k, t_{k+1}]$ for all $0 \leq k \lt n_x$.
+
+By lemma \ref{TrivilizationOfVectorBundleOverProductSpaceWithInterval} this implies that the vector bundle in fact trivializes over $U_x \times [0,1]$.
+
+Applying this procedure for all points $x \in X$ yields a cover 
+
+$$
+  \{ U_x \subset X  \}_{x \in X}
+$$
+
+with the required property.
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+Let $X$ be a [[paracompact topological space]]. If $E \to X \times [0,1]$ is a vector bundle, then the two endpoint-restrictions
+
+$$
+  E|_{X \times \{0\}}
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  E|_{X \times \{1\}}
+$$
+
+are [[isomorphism|isomorphic]] vector bundles over $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{CoverForProductSpaceWithIntrval} there exists an open cover $\{U_i \subset X\}_{i \in I}$ of $X$ such that the vector bundle $E$ trivializes over $U_i \times [0,1]$ for each $i \in I$. By lemma ... there exists a [[countable cover]] 
+
+$$
+  \{V_n \subset X\}_{n \in mathbb{N}}
+$$
+
+such that each element is a [[disjoint union]] of open subsets that each are contained in one of the $U_i$. This means that the vector bundle $E$ still trivializes over $V_n \times [0,1]$, for each $n \in \mathbb{N}$.
+
+Moreover, by paraompactness there exists a [[partition of unity]] $\{f_n \colon X \to [0,1] \}_{n \in \mathbb{N}}$ subordinate to this countable cover.
+
+For $n \in \mathbb{N}$ define
+
+$$
+  \psi_n \coloneqq \underoverset{n}{k = 0}{\sum} f_n
+$$
+
+(so $\psi_0 = 0$ and by local finiteness there is for each $x \in X$ an $n_x$ such that $\psi_{n \gt n_x} = 1$.)
+
+Now set
+
+$$
+  X_n \coloneqq graph( \psi_n ) \subset X \times [0,1]
+$$
+
+and write $E_n \to X_n$ for the restriction of $E$ to that subspace.
+
+Consider the continuous functions
+
+$$
+  \array{
+    X_{n+1} &\overset{}{\longrightarrow}& X_n
+  }
+$$
+
+and
+
+(...)
+
+=--
 
 ## Related concepts
 
