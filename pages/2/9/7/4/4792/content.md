@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
 #### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
@@ -9,11 +13,14 @@
 =--
 =--
 
+
 # Octonions
 * table of contents
 {: toc}
 
 ## Idea
+
+An _octonion_ or _Cayley number_ is a kind of [[number]] similar to a [[quaternion number]] but with seven instead of just three [[square roots]] of unity adjoined, and satisfying certain relations.
 
 The __octonions__, usually denoted $\mathbb{O}$, form the largest of the four [[normed division algebras]] over the [[real numbers]].
 
