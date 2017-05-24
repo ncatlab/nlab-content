@@ -119,6 +119,8 @@ Cf. [[Urysohn metrization theorem]] and [[Polish space]]. I ([[Todd Trimble]]) a
 
 * [[second-countable regular spaces are paracompact]]
 
+* [[locally compact and second-countable spaces are sigma-compact]]
+
 ## Related concepts
 
 * [[first-countable space]]
