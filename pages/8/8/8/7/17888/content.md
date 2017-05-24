@@ -1,6 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
+
 # Subtraction
-* the following line creates the automatic table of contents
+* table of contents
 {: toc}
 
 ## Idea
