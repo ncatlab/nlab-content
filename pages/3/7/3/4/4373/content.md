@@ -80,3 +80,7 @@ A morphism $U \to X$ of [[topological space]]s is a regular monomorphism precise
 
 [[!redirects closed embedding]]
 [[!redirects open embedding]]
+
+[[!redirects imbedding]]
+[[!redirects imbeddings]]
+
