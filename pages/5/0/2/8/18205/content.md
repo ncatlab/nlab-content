@@ -22,6 +22,10 @@ A [[topological space]] is called _sigma-compact_ if it is the [[union]] of a [[
 
 * [[locally compact and sigma-compact spaces are paracompact]]
 
+## Examples
+
+* [[locally compact and second-countable spaces are sigma-compact]]
+
 ## related concepts
 
 * [[countable cover]]
