@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
+
+* [[number theory]]
+
+  * [[Peano arithmetic]]
+
+  * [[second-order arithmetic]]
+
+  * [[arithmetic geometry]], [[arithmetic scheme]], [[arithmetic variety]], [[arithmetic curve]], [[arithmetic genus]], [[arithmetic Chern-Simons theory]]
+
+  * [[arithmetic topology]]
+
+  * [[arithmetic pretopos]]
+
+* [[transfinite arithmetic]]
+
+  * [[cardinal arithmetic]]
+
+  * [[ordinal arithmetic]]
+
+
+[[!redirects arithmetics]]
