@@ -33,6 +33,9 @@ Let $(X, \leq)$ be a quasi-order (i.e., a [[preorder]]). Define a [[partial orde
 
 The collection of [[graph|finite simple graphs]] is well-quasi-ordered by the [[graph minor]] relation. This is the celebrated _Robertson-Seymour Graph Minor Theorem_. 
 
+## Related entries
+
+* [[well-order]]
 
 ## References 
 
