@@ -6,7 +6,7 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
-#### Arithmetic geometry
+#### Arithmetic
 +--{: .hide}
 [[!include arithmetic geometry - contents]]
 =--
@@ -18,7 +18,9 @@
 
 ## Idea
 
-An __integer__ is an element of $\mathbb{Z}$, which may defined as the [[free group]] on one generator or as the [[initial object|initial]] [[ring]]. 
+An __integer__ is a [[number]] that is a [[natural number]] or the [[negative number|negative]] of one.
+
+The [[ring]] $\mathbb{Z}$ of all integers may defined as the [[free group]] on one generator or as the [[initial object|initial]] [[ring]]. 
 
 In keeping with a historical point of view in which integers are whole numbers with a sign attached, one may write 
 
