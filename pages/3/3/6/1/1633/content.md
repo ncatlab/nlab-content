@@ -246,6 +246,8 @@ If $f$ is a [[proper map]], then it is a [[closed map]].
 
 * [[locally compact and sigma-compact spaces are paracompact]]
 
+* [[locally compact and second-countable spaces are sigma-compact]]
+
 ### Category-theoretic properties
 
 Perhaps the most important consequence of local compactness (as defined above) for categorical topology is that locally compact spaces are [[exponential object|exponentiable]], i.e., if $Y$ is locally compact, then $Y \times -: Top \to Top$ has a [[adjunction|right adjoint]] $(-)^Y: Top \to Top$. In fact, this is almost an abstract definition of local compactness: for [[sober spaces]], local compactness is equivalent to being exponentiable. Cf. the situation for [[locales]]: a result of Hyland is that locale is [[locally compact locale|locally compact]] if and only if it is exponentiable.  (See [[exponential law for spaces]] and [[compact-open topology]] for more details.) 
