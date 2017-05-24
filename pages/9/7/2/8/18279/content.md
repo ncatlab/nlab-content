@@ -17,7 +17,7 @@
 ## Idea
 
 
-It is not generally true that a [[topological space]] is the [[disjoint union space]] ([[coproduct]] in [[Top]]) of its [[connected components]]. The spaces such that this is true for all open subspaces ate the _locally connected topological spaces_.
+It is not generally true that a [[topological space]] is the [[disjoint union space]] ([[coproduct]] in [[Top]]) of its [[connected components]]. The spaces such that this is true for all open subspaces are the _locally connected topological spaces_.
 
 
 ## Definition
@@ -25,9 +25,11 @@ It is not generally true that a [[topological space]] is the [[disjoint union sp
 +-- {: .num_defn}
 ###### Definition 
 
-A space $X$ is **locally connected** if every [[open subset]], as a [[topological subspace]], is the [[disjoint union space]] ([[coproduct]] in [[Top]]) of its [[connected components]]. 
+A [[topological space]] $X$ is **locally connected** if the following equivalent conditions hold:
 
-Equivalently, a space is locally connected if every point has a [[neighborhood basis]] of [[connected topological space|connected]] open sets. 
+1. every [[open subset]], as a [[topological subspace]], is the [[disjoint union space]] ([[coproduct]] in [[Top]]) of its [[connected components]];
+
+1. every point has a [[neighborhood basis]] of [[connected topological space|connected]] [[open subsets]]. 
 
 =-- 
 
