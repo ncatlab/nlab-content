@@ -1,4 +1,3 @@
-[[!redirects countable union of countable sets is countable]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -37,13 +36,14 @@ is itself a countable set.
 
 +-- {: .proof} 
 ###### Proof 
-Classical proof: we may assume all the $S_i$ are [[nonempty set|nonempty]]. For each $i \in I$, choose a [[surjection]] $f_i: \mathbb{N} \to S_i$ (this requires the axiom of countable choice) and also a surjection $f: \mathbb{N} \to I$. Then we have a composite surjection 
+
+[[classical mathematics|Classical]] proof: we may assume all the $S_i$ are [[nonempty set|nonempty]]. For each $i \in I$, choose a [[surjection]] $f_i: \mathbb{N} \to S_i$ (this requires the [[axiom of countable choice]]) and also a surjection $f: \mathbb{N} \to I$. Then we have a composite surjection 
 
 $$\mathbb{N} \stackrel{pair}{\to} \mathbb{N} \times \mathbb{N} \stackrel{f \times 1}{\to} I \times \mathbb{N} \cong \underset{i \in I}{\cup} \mathbb{N} \stackrel{\underset{i \in I}{\cup} f_i}{\to} \underset{i \in I}{\cup} S_i$$ 
 
 where for $pair: \mathbb{N} \to \mathbb{N} \times \mathbb{N}$ we may take for example the function that is inverse to $(x, y) \mapsto \binom{x+y+1}{2} + y$. 
 
-For constructive mathematicians who accept the axiom of countable choice, the proof is only slightly more elaborate. Here we define a set to be *countable* if it is a [[quotient]] of (is enumerated by) a [[decidable subset]], i.e., a [[complemented subobject]] of $\mathbb{N}$. Thus, supposing we have chosen surjections out of decidable subsets $(f_i: J_i \to S_i)_{i \in I}$, and a surjection $J \to I$ out of a decidable subset $J$, we have a diagram (switching to $\sum$ to denote disjoint sums) 
+For [[constructive mathematics|constructive mathematicians]] who accept the [[axiom of countable choice]], the proof is only slightly more elaborate. Here we define a set to be *countable* if it is a [[quotient]] of (is enumerated by) a [[decidable subset]], i.e., a [[complemented subobject]] of $\mathbb{N}$. Thus, supposing we have chosen surjections out of decidable subsets $(f_i: J_i \to S_i)_{i \in I}$, and a surjection $J \to I$ out of a decidable subset $J$, we have a diagram (switching to $\sum$ to denote disjoint sums) 
 
 $$\array{
  & & & & J \cdot \mathbb{N} & \hookrightarrow & \mathbb{N} \cdot \mathbb{N} \cong \mathbb{N} \times \mathbb{N} & \stackrel{pair^{-1}}{\to} & \mathbb{N} \\ 
@@ -64,4 +64,6 @@ whose [[limit]] might be denoted $\sum_{j \in J} K_j$ where $K_j \coloneqq J_{f(
 
 ## References
 
-* ProofWiki, _[Countable Unition of Countable Sets is Countable](https://proofwiki.org/wiki/Countable_Union_of_Countable_Set
+* ProofWiki, _[Countable Union of Countable Sets is Countable](https://proofwiki.org/wiki/Countable_Union_of_Countable_Set)
+
+[[!redirects countable union of countable sets is countable]]
