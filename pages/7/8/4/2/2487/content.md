@@ -97,7 +97,7 @@ $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R})$.
 
 =--
    
-+-- {: .num_prop}
++-- {: .num_prop #TopologicalGeneralLinearGroup}
 ###### Proposition
 
 The [[topological group|topological]] general linear group $GL(n,\mathbb{R})$ (def. \ref{GLnAsTopologicalGroup}) is
@@ -131,9 +131,18 @@ Similarly, as Euclidean space is [[locally compact topological space|locally com
 From this it follows that $GL(n,\mathbb{R})$ is paracompact, since locally compact topological groups are paracompact ([this prop.](topological+group#ConnectedLocallyCompactTopologicalGroupsAreSigmaCompact)).
 
 
-
 =--
 
+### As a Lie group
+ {#AsALieGroup}
+
+
++-- {: .num_defn}
+###### Definition
+
+Since the general linear group as a [[topological group]] (def. \ref{GLnAsTopologicalGroup}) is an  [[open subspace]] of [[Euclidean space]] (proof of prop. \ref{TopologicalGeneralLinearGroup}) it inherits the structure of a [[smooth manifold]] (by [this prop.](differentiable+manifold#OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds)). The group operations (being [[rational functions]]) are [[smooth functions]] with respect to this smooth structure. This is the general linear group $GL(n,\mathbb{R})$ as a _[[Lie group]]_
+
+=--
 
 
 
