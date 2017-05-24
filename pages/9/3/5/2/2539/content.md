@@ -20,7 +20,7 @@
 
 ## Summary
 
-The _Tietze extension theorem_ says that [[continuous function]]s extend from [[closed subset]]s of a [[normal topological space]] $X$ to the whole space $X$. 
+The _Tietze extension theorem_ says that [[continuous functions]] extend from [[closed subsets]] of a [[normal topological space]] $X$ to the whole space $X$. 
 
 
 ## Statement 
