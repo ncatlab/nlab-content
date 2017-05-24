@@ -51,13 +51,15 @@ The "local" [[topological properties]] of Euclidean space are inherited by local
 
 +-- {: .num_prop #LocalPropertiesOfLocallyEuclideanSpace}
 ###### Proposition
-**([[locally Euclidean spaces]] are $T_1$-[[separation axiom|separated]], [[sober topological space|sober]] and [[locally compact topological space|locally compact]])**
+**([[locally Euclidean spaces]] are $T_1$-[[separation axiom|separated]], [[sober topological space|sober]], [[locally connected topological space|locally connected]], [[locally compact topological space|locally compact]])**
 
 Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}). Then
 
 1. $X$ satisfies the $T_1$ [[separation axiom]];
 
 1. $X$ is [[sober topological space|sober]];
+
+1. $X$ is [[locally connected topological space|locally connected]];
 
 1. $X$ is [[locally compact topological space|locally compact]] in the sense that every open neighbourhood of a point contains a [[compact topological space|compact]] neighbourhood.
 
@@ -90,7 +92,13 @@ Now since $P \subset X$ is a proper subset, and since the locally Euclidean spac
 
 In conclusion this means that the restriction of an irreducible closed subset in $X$ to any Euclidean chart is either empty or a singleton set. This means that the irreducible closed subset must be a disjoint union of singletons that are separated by Euclidean neighbourhoods. But by irreducibiliy, this union has to consist of just one point.
 
-Regarding the third statement:
+Regarding the third statement: 
+
+Let $x \in X$ be a point and $U_x \supset \{x\}$ a neighbourhood. We need to find a [[connected topological space|connected]] open neighbourhood $Cn_x \subset U_x$.
+
+By local Euclideanness, there is also a Euclidean neighboruhood $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} V_x \subset X$. Since $\phi$ is a [[homeomorphism]], and since $U_x \cap V_x$ is open, also $\phi^{-1}(U_x \cap V_x) \subset \mathbb{R}^n$ is open. This means that there exists an [[open ball]] $B_{\phi^{-1}(x)}^\circ(\epsilon) \subset \phi^{-1}(U_x \cap V_x)$. This is open and connected, and hence so is its homeomorphic image $\phi(B^\circ_{\phi^{-1}(x)}(\epsilon)) \subset X$. This is a connected open neighbourhood of $x$ as required.
+
+Regarding the fourth statement:
 
 Let $x \in X$ be a point and let $U_x \supset \{x\}$ be an open neighbourhood. We need to find a compact nighbourhood $K_x \subset U_x$.
 
@@ -217,7 +225,7 @@ By sigma-compactness there exists a [[countable set]] $\{K_i \subset X\}_{i \in 
 
 Let $X$ be sigma-compact. We show that then $X$ is paracompact with a countable set of connected components:
 
-Since [[locally compact and sigma-compact spaces are paracompact]], it follows that $X$ is paracompact. Since, by the previous statement, $X$ is also second-countable, it cannot have an uncountable set of connected components.
+Since [[locally compact and sigma-compact spaces are paracompact]], it follows that $X$ is paracompact. By [[locally connected topological space|local connectivity]] (prop. \ref[LocalPropertiesOfLocallyEuclideanSpace}) $X$ is the [[disjoint union space]] of its [[connected components]] ([this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)). Since, by the previous statement, $X$ is also second-countable it cannot have an uncountable set of connected components.
 
 **2) $\Rightarrow$ 1)**
 
@@ -281,7 +289,7 @@ A _topological manifold is a [[topological space]] which is
 1. [[paracompact Hausdorff topological space|paracompact Hausdorff]].
 
 If the local [[Euclidean spaces|Euclidean]] neighbourhoods $\mathbb{R}^n \overset{\simeq}{\to} U \subset X$ are all of [[dimension]] $n$
-for a fixed $n \in \mathbb{N}$, then the topological manifold is said to be of dimension $n$, too. This is usually assumed to be the case. Sometimes one also says _$n$-fold_ for "$n$-dimensional manifold".
+for a fixed $n \in \mathbb{N}$, then the topological manifold is said to be a _$n$-dimensional manifold_ or _$n$-fold_. This is usually assumed to be the case.
 
 =--
 
