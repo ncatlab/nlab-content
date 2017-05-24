@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
 #### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
@@ -14,6 +18,8 @@
 {:toc}
 
 ## Idea
+
+A _quaternion_ or _Hamilton number_ is a kind of [[number]] similar to the [[complex numbers]] but with three instead of one [[square root]] of $(-1)$ adjoined, satisfying certain relations.
 
 The __quaternions__ form the largest [[associative algebra|associative]] [[normed division algebra]], usually denoted  $\mathbb{H}$ after [[William Rowan Hamilton]] (since $\mathbb{Q}$ is taken for the [[rational numbers]]). 
 
@@ -77,3 +83,9 @@ See also
 
 [[!redirects quaternion]]
 [[!redirects quaternions]]
+
+[[!redirects quaternion number]]
+[[!redirects quaternion numbers]]
+
+[[!redirects Hamilton number]]
+[[!redirects Hamilton numbers]]
