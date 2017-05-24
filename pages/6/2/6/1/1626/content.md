@@ -4,7 +4,7 @@
 ### Context###
 #### Topology
 +-- {: .hide}
-[[!include topology - contents]]
+[[!include topology - contents]]t
 =--
 =--
 =--
@@ -185,6 +185,8 @@ The [[regular monomorphism|regular]] [[image]] of a connected space $X$ under a 
 ###### Result
 If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overline{S}$ (i.e. if $T$ is between $S$ and its closure), then $T$ is connected. Or, what is essentially the same: if $T$ has a [[dense subspace|dense]] connected subspace $S$, then $T$ is connected. 
 =--
+
+(see also prop. \ref{ClosureOfConnectedSubspaceIsConnected} below)
 
 +-- {: .num_remark #3} 
 ###### Result
@@ -477,7 +479,7 @@ By definition, the connected components are [[maximal elements]] in the set of c
 
 Prop. \ref{ConnectedComponentsAreClosed} implies that when a space has a [[finite set]] of connected components, then they are not just closed but also open, hence [[clopen subsets]] (because then each is the [[complement]] of a finite union of closed subspaces).
 
-For a non-finite set of connected components this remains true is the space is [[locally connected topological space|locally connected]]. See ...
+For a non-finite set of connected components this remains true if the space is [[locally connected topological space|locally connected]]. See [this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)
 
 =--
 
