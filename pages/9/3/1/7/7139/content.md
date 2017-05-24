@@ -136,6 +136,10 @@ Reduced-word expressions for a group element $u$ may be visualized as paths of m
 
 * [[Kenneth Brown]], _Buildings_, Springer Monographs in Mathematics, Springer 1989. 
 
+* James Humphreys, _Reflection groups and Coxeter groups_,
+ Cambridge Studies in Advanced Mathematics 29, 1990, [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0725.20028&format=complete).
+
+
 [[!redirects Coxeter groups]]
 
 [[!redirects Coxeter matrix]]
