@@ -37,7 +37,7 @@ See also _[[rank of a coherent sheaf]]_.
 
 ## Rank of a vector bundle
 
-As a simple special case of the above, a [[vector bundle]] is said to have _rank $n$_ if each [[fiber]] is a [[vector space]] of [[dimension]] $n$.
+As a simple special case of the above, a [[vector bundle]] is said to have _rank $n$_ if each [[fiber]] is a [[vector space]] of [[dimension]] $n$. 
 
 ## Hereditary rank of a pure set
 
@@ -68,4 +68,6 @@ The properties of functors with rank are discussed in section 5.5 of Borceux ([1
 [[!redirects ranks]]
 
 [[!redirects rank of a vector bundle]]
-[[!redirects rank of a vector bundles]]
+[[!redirects rank of vector bundles]]
+
+
