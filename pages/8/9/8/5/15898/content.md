@@ -2,10 +2,10 @@
 
 * [page on HoTT website](http://homotopytypetheory.org/author/favonia/)
 
-* [CMU homepage](https://www.cs.cmu.edu/~kuenbanh/)
+* [homepage](http://favonia.org/)
 
 * _Higher-Dimensional Types in the
-Mechanization of Homotopy Theory_, PhD thesis 2017, ([pdf](https://www.cs.cmu.edu/~kuenbanh/files/thesis.pdf))
+Mechanization of Homotopy Theory_, PhD thesis 2017, ([webpage](http://favonia.org/thesis.html), [pdf direct link](http://favonia.org/thesis.pdf))
 
 ## related $n$Lab entries
 
