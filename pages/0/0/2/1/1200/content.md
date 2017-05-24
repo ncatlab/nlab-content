@@ -1,17 +1,19 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Foundations
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+#### $(0,1)$-Category theory
 +-- {: .hide}
-[[!include foundations - contents]]
-=--
-#### Mathematics
-+-- {: .hide}
-[[!include mathematicscontents]]
+[[!include (0,1)-category theory - contents]]
 =--
 =--
 =--
+
+
 
 # Ordinal numbers
 * table of contents
@@ -19,7 +21,7 @@
 
 ## Idea
 
-The _ordinal numbers_ (or just _ordinals_) constitute a generalisation of a [[natural numbers]] to possibly infinite magnitudes.  Specifically, ordinal numbers generalise the concept of 'the next number after ...' or 'the index of the next item after ...'.  In particular, the next number after the natural numbers is the first infinite ordinal number.
+The _ordinal numbers_ (or just _ordinals_) constitute a generalisation of a [[natural numbers]] to [[numbers]] of possibly infinite magnitudes.  Specifically, ordinal numbers generalise the concept of 'the next number after ...' or 'the index of the next item after ...'.  In particular, the next number after the natural numbers is the first infinite ordinal number.
 
 
 ## Definition
