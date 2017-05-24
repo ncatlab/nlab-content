@@ -443,9 +443,9 @@ Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] 
 +-- {: .proof}
 ###### Proof
 
-Suppose that $Cl(S) = A \sqcup B$ with $A,B \subset X$ [[disjoint subsets]]. We need to show that one of the two is empty.
+Suppose that $Cl(S) = A \sqcup B$ with $A,B \subset X$ [[disjoint subsets|disjoint]] [[open subsets]]. We need to show that one of the two is empty.
 
-But also the intersections $A \cap S$ and $B \cap S$ are disjoint subsets with $S = (A \cap S) \sqcup (B \cap S)$. Hence by the connectedness of $S$, one of $A \cap S$ or $B \cap S$ is empty. Assume $B \cap S$ is empty, otherwise rename. Hence $A \cap S = S$, or equivalently: $S \subset A$. By disjointness of $A$ and $B$ this means that  $S \subset Cl(S) \setminus B$. But since $B$ is open, $Cl(S) \setminus B$ is still closed, so that 
+But also the intersections $A \cap S\,,B \cap S \subset S$ are disjoint subsets, open as subsets of the subspace $S$ with $S = (A \cap S) \sqcup (B \cap S)$. Hence by the connectedness of $S$, one of $A \cap S$ or $B \cap S$ is empty. Assume $B \cap S$ is empty, otherwise rename. Hence $A \cap S = S$, or equivalently: $S \subset A$. By disjointness of $A$ and $B$ this means that  $S \subset Cl(S) \setminus B$. But since $B$ is open, $Cl(S) \setminus B$ is still closed, so that 
 
 $$
   (S \subset Cl(S) \setminus B)
