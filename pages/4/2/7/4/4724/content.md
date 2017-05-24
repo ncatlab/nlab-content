@@ -168,6 +168,29 @@ Hence there is a [[category]] [[Diff]]${}_p$ whose [[objects]] are $C^p$-[[diffe
 
 =--
 
+
+## Properties
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\left(X, \tau, \{\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X\} \right)$ be a differentiable manifold and let $S \subset X$
+be an [[open subset]] of the underlying [[topological space]] $(X,\tau)$.
+
+Then $S$ carries the structure of a differentiable manifold such that the
+inclusion map $S \hookrightarrow X$ is an [[open embedding|open]]
+[[embedding of differentiable manifolds]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
+
+
 ## Examples
 
 +-- {: .num_example #DifferentiableManifoldCartesianSpace}
