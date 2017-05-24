@@ -336,8 +336,9 @@ Lecture notes include
 
 * [[Manifold Atlas]], _[Embeddings in Euclidean space: an introduction to their classification](http://www.map.mpim-bonn.mpg.de/Embeddings_in_Euclidean_space:_an_introduction_to_their_classification)_
 
+[[!redirects embeddings of differentiable manifolds]]
 
+[[!redirects embedding of smooth manifolds]]
 [[!redirects embeddings of smooth manifolds]]
 
-[[!redirects imbedding]]
 
