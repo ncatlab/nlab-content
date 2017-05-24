@@ -26,7 +26,7 @@ For the general theory of measure spaces, we first need a _[[measurable space]]_
 
 ## Notation {#notation}
 
-The original notation for an integral (going back to [[Gottfried Leibniz]]) was
+The original notation for an [[integral]] (going back to [[Gottfried Leibniz]]) was
 \[ \label{Leibniz} \int_a^b f(x) \,\mathrm{d}x \]
 (where $f(x)$ would be replaced by some formula in the variable $x$).  In modern measure theory, we can now understand this as the integral of the [[measurable function]] $f$ on the [[interval]] $[a,b]$ relative to [[Lebesgue measure]].  If we wish to generalise from Lebesgue measure to an arbitrary measure $\mu$ and generalise from $[a,b]$ to an arbitrary measurable set $S$, then we can write
 \[ \label{full} \int_{x\in{S}} f(x) \,\mu(\mathrm{d}x) \]
