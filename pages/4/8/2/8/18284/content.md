@@ -8,11 +8,11 @@ $$\mathbb{R} \leftarrow \mathbb{R} \setminus \{0\} \to \mathbb{R}$$
 
 where both maps are the inclusion map. This space isn't even [[Hausdorff space|Hausdorff]], as every [[neighborhood]] of the point $0_1$ (the image of the origin under the first pushout [[coprojection]]) intersects every neighborhood of the point $0_2$ (the image of the origin under the second coprojection). 
 
-However, there are reasonable conditions under which pushouts will be normal. (Actually, we work with $T_4$ spaces which are normal spaces in which [[singletons]] are [[closed set|closed]]). 
+However, there are reasonable conditions under which pushouts will be normal. (Throughout we assume all spaces are $T_1$, i.e., that [[singletons]] are [[closed set|closed]], so that "normal" means $T_4$). 
 
-+-- {: .num_prop} 
++-- {: .num_prop #normal} 
 ###### Proposition 
-Let $X$ be a $T_4$ space, and suppose $q: X \to Y$ in $Top$ is a closed surjection. Then $Y$ is also $T_4$. 
+Let $X$ be normal, and suppose $q: X \to Y$ in $Top$ is a closed surjection. Then $Y$ is normal. 
 =-- 
 
 +-- {: .proof} 
@@ -36,7 +36,7 @@ If $q: X \to X/\sim$ is a closed map, making $X/\sim$ compact Hausdorff, then th
 $$\array{
 \sim & \hookrightarrow & X \times X \\ 
 \downarrow & & \downarrow \mathrlap{q \times q} \\ 
-\Delta & \hookrightarrow & X/\sim \times X/\sim
+\Delta & \hookrightarrow & X/{\sim} \times X/{\sim}
 }$$ 
 
 also defines a closed subset of $X \times X$. 
@@ -49,6 +49,14 @@ This is a closed set because the first projection $\pi_1$ is a closed map (by co
 $q^{-1}(q(A))$ is closed, $q(A)$ is closed by definition of quotient topology. 
 =-- 
 
++-- {: .num_lemma #poclosed} 
+###### Lemma 
+In $Top$, the pushout of a closed embedding along any continuous map is again a closed embedding. 
+=-- 
+
+A proof may be found [here](/nlab/show/subspace+topology#pushout). 
+
+
 +-- {: .num_prop #pushoutCH} 
 ###### Proposition 
 Given a pushout diagram in $Top$ 
@@ -59,19 +67,29 @@ X & \stackrel{h}{\to} & Z \\
 Y & \underset{k}{\to} & W,
 }$$ 
 
-if $h$ is [[monomorphism|monic]], $f$ is [[epimorphism|epic]], and $X, Y, Z$ are compact Hausdorff, then $g$ is closed and $W$ is compact Hausdorff. 
+if $h$ is [[monomorphism|monic]], $Y$ is Hausdorff, and $X, Z$ are compact Hausdorff, then $g$ is closed. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-The kernel pair of $f$ is a closed equivalence relation $E$ on $X$ such that $f$ is the coequalizer of the first and second pullback projections $p_1, p_2: E \rightrightarrows X$. The quotient map $g: Z \to W$ is similarly the quotient of the closed equivalence relation on $Z$ formed as $(h \times h)(E) \cup \Delta_Z$. Now apply Lemma \ref{pretopos}. 
+In the epi-(regular mono) factorization of $f$, say $X \stackrel{e}{\to} K \stackrel{m}{\to} Y$, both $e$ and $m$ are closed, and the pushout of the statement decomposes into two pushouts 
+
+$$\array{
+X & \stackrel{h}{\to} & Z \\ 
+\mathllap{e} \downarrow & & \downarrow \mathrlap{e'} \\ 
+K & \stackrel{j}{\to} & K' \\ 
+\mathllap{m} \downarrow & & \downarrow \mathrlap{m'} \\ 
+Y & \underset{k}{\to} & W
+}$$ 
+
+The kernel pair of $e$ is a closed equivalence relation $E$ on $X$ such that $e$ is the coequalizer of the first and second pullback projections $p_1, p_2: E \rightrightarrows X$. The coequalizer $e': Z \to K'$ is similarly the quotient of the closed equivalence relation on $Z$ formed as $(h \times h)(E) \cup \Delta_Z$. Now apply Lemma \ref{pretopos} to conclude $e'$ is closed, and apply Lemma \ref{poclosed} to conclude $m'$ is closed. Hence $g = m' e'$ is closed. 
 =-- 
 
 We can push the preceding proposition a little further: 
 
-+-- {: .num_prop} 
++-- {: .num_prop #pogeneral} 
 ###### Proposition 
-If $(h_i: X_i \to Z_i)_{i \in I}$ is a collection of embeddings of compact Hausdorff spaces, and $f = (f_i)_{i \in I}: \sum_{i \in I} \to Y$ is a map to a normal space, then in the pushout 
+If $(h_i: X_i \to Z_i)_{i \in I}$ is a collection of embeddings of compact Hausdorff spaces, and $f = (f_i)_{i \in I}: \sum_{i \in I} X_i \to Y$ is a map to a Hausdorff space, then in the pushout 
 
 $$\array{
 \sum_{i \in I} X_i & \stackrel{\sum_{i \in I} h_i}{\to} & \sum_{i \in I} Z_i \\ 
@@ -84,48 +102,25 @@ the map $g$ is closed.
 
 +-- {: .proof} 
 ###### Proof 
-The map $f$ is closed because each $f_i$ is closed (using the fact that $X_i$ is compact Hausdorff). Similarly, the map $g$ will be closed if each of its restrictions $g_i: Z_i \to W$ is closed. But the equivalence relation given by the kernel pair of $g_i$ is $(h_i \times h_i)(E_i) \cup \Delta_{Z_i}$ where $E_i$ is the kernel pair of $f_i$, and now the result follows easily from Proposition \ref{pushoutCH}. 
-=-- 
+Each restriction $f_i: X_i \to Y$ of $f$ is closed, using the fact that $X_i$ is compact Hausdorff. 
 
-+-- {: .num_lemma #poclosed} 
-###### Lemma 
-In $Top$, the pushout of a closed embedding along any continuous map is again a closed embedding. 
-=-- 
-
-A proof may be found [here](/nlab/show/subspace+topology#pushout). 
-
-+-- {: .num_prop} 
-###### Proposition 
-Let $h: X \to Z$ be an embedding of compact Hausdorff spaces, and let $f: X \to Y$ be a continuous map into a Hausdorff space (e.g., a normal space). Then in the pushout in $Top$ 
-
-$$\array{
-X & \stackrel{h}{\to} & Z \\ 
-\mathllap{f} \downarrow & & \downarrow \mathrlap{g} \\ 
-Y & \underset{k}{\to} & W
-}$$ 
-
-the map $g$ is closed. 
-=-- 
-
-+-- {: .proof} 
-###### Proof 
-Factorize $f: X \to Y$ into an epi $e: X \to K$ followed by a mono $m: K \to Y$. Then we have a composition of pushout squares in $Top$ 
-
-$$\array{
-X & \stackrel{h}{\to} & Z \\ 
-\mathllap{e} \downarrow & & \downarrow \mathrlap{e'} \\ 
-K & \stackrel{j}{\to} & K' \\ 
-\mathllap{m} \downarrow & & \downarrow \mathrlap{m'} \\ 
-Y & \underset{k}{\to} & W
-}$$ 
-
-where $K'$ is compact Hausdorff by Proposition \ref{pushoutCH}, so that $e'$ is closed. Also $m$ is a closed embedding, so $m'$ is closed by Lemma \ref{poclosed}. Hence $g = m'e'$ is closed.
+Again by considering the epi-(regular mono) factorization of $f$ and applying Lemma \ref{poclosed}, it suffices to prove the result just for the case where $f$ (and therefore $g$) are epic. The map $g$ will be closed if each of its restrictions $g_i: Z_i \to W$ is closed. But the equivalence relation given by the kernel pair of $g_i$ is $(h_i \times h_i)(E_i) \cup \Delta_{Z_i}$ where $E_i$ is the kernel pair of $f_i$, and now the result follows easily from Proposition \ref{pushoutCH}. 
 =-- 
 
 +-- {: .num_theorem} 
 ###### Theorem 
-Let $X$ be $T_4$, let $i: C \hookrightarrow D$ be an embedding of compact Hausdorff spaces, and let $f: C \to X$ be a continuous map. Then the pushout $X \cup_C D$ is $T_4$. 
+Let $Y$ be normal, and let $h_i: X_i \hookrightarrow Z_i$ be a collection of embeddings of compact Hausdorff spaces. Denote the map $\sum_{i \in I} h_i: \sum_{i \in I} X_i \to \sum_{i \in I} Z_i$ by $h: X \to Z$. Then for any continuous map $f: X \to Y$, the pushout $Y \cup_X Z$ is normal. 
 =-- 
 
++-- {: .proof} 
+###### Proof 
+$Y$ and $Z = \sum_{i \in I} Z_i$, and therefore also $Y + Z$, are normal, and so by Proposition \ref{normal} it suffices to show that the quotient map $Y + Z \to Y \cup_X Z$ is closed, or equivalently that the coprojections $k: Y \to Y \cup_X Z$ and $g: Z \to Y \cup_X Z$ in the pushout diagram 
 
+$$\array{
+X & \stackrel{h}{\to} & Z \\ 
+\mathllap{f} \downarrow & & \downarrow \mathrlap{g} \\ 
+Y & \underset{k}{\to} & Y \cup_X Z
+}$$ 
 
+are closed. But $k$ is closed by Lemma \ref{poclosed}, and $g$ is closed by Proposition \ref{pogeneral}. 
+=-- 
