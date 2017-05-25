@@ -31,6 +31,8 @@
 
 * [[Erdos-Rado theorem]]
 
+* [[Ehrenfeucht-Fraïssé games]] (back-and-forth games)
+
 ## Dimension, ranks, forking
 
 * [[forking and dividing]]
@@ -45,7 +47,7 @@
 
 ## Universal constructions
 
-* [[Fraisse limits]]
+* [[Fraïssé limits]]
 
 * [[monster model]]
 
@@ -106,3 +108,5 @@
 * [[Los ultraproduct theorem]]
 
 * [[Morley categoricity theorem]]
+
+* [[omitting types theorem]]
