@@ -8,8 +8,8 @@
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/MoebiusStripAsQuotientOfSquare.png" width="400">
 <blockquote>
-  graphics grabbed from#
-  <a href="Lawson03">Lawson 03</a>
+  graphics grabbed from
+  <a href="#Lawson03">Lawson 03</a>
 </blockquote>
 </div>
 
