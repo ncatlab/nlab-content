@@ -1,25 +1,5 @@
 
-A base of open neighbourhoods of $X \cup_f D^n$ is given by
+[[cylinder.jpg:file]]
 
-
-1. the open subsets of $D^n \setminus S^{n-1}$
-
-1. the open subsets of $X \setminus f(S^{n-1})$
-
-1. for $x \in S^{n-1}$ the union of an open neighbourhood $U_{f(x)} \subset X$ and an open neighbourhood of $f^{-1}(U_x)$
-
-
-Now
-
-1. If both points are in $D^n \setminus S^{n-1}$ then they are separated there by the Hausdorffness of $D^n \setminus S^{n-1}$;
-
-1. if both points are in $X \setminus f(S^{n-1})$ then they are separated there by the Hausdorffness of $X$.
-
-1. if both points are in $S^{n-1}$ with $f(x) \neq f(y)$ then pick disjoint open neighbourhood $U_x$, $U_y$ in $X$. Accordingly $f^{-1}(U_x), f^{-1}(U_y) \subset S^{n-1}$ are disjoint open neighbourhoods, hence re each a union of open intervals on the circle. Each open interval may be extended to an open subset of $D^n$ such that disjoint open intervals get disjoint open subsets in $D^n$
-
-1. if one point is in $D^n \setminus S^{n-1}$ and the other in $X \setminus f(S^{n-1})$ pick we may find an open neighbourhood in $D^n$ that does not intersect $S^{n-1}$. Then any open neighbourhood of $f(x)$ will do which does not intersect $f(S^{n-1})$. This exists by compactness of this image.
-
-1. Similarly if one point is on $S^{n-1}$ and the other in $X \setminus f(X)$. By that lemma we find open neighbourhood $U_{f(x)}$ of $f(x)$ in $X$ disjoint from $U_y$. Now form $f^{-1}(U_{f(x)})$ and extend to an open neighbourhood in $D^n$.
-
-1. for one point in $D^n \setminus S^{n-1}$ and one point in $S^{n-1}$ let $d$ be the distance of the former to the rim, pick the open ball of radius $d/2$ around that point Then pick the enire rim of width $d/2$ as a neighbourhood for the point on the boundary. Glue that to all of $X$.
-
+<img src="https://ncatlab.org/nlab/files/cylinder.jpg" width="200">
+<img src="https://ncatlab.org/nlab/files/moebiusstrip.jpg" width="200">
