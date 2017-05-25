@@ -28,7 +28,7 @@ Let $X$ be a [[topological space]] which is
 
 1. [[second-countable topological space|second-contable]],
 
-The $X$ is [[sigma-compact topological space|sigma-compact]].
+Then $X$ is [[sigma-compact topological space|sigma-compact]].
 
 =--
 
