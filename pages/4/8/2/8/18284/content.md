@@ -4,7 +4,7 @@ The first very easy observation is that normal spaces are closed under [[coprodu
 
 There is no hope that normal spaces are closed under [[coequalizers]] or [[pushouts]]. A first example that comes to mind is the line with double origin, which is the topological pushout of the diagram 
 
-$$\mathbb{R} \leftarrow \mathbb{R} \setminus \{0\} \to mathbb{R}$$ 
+$$\mathbb{R} \leftarrow \mathbb{R} \setminus \{0\} \to \mathbb{R}$$ 
 
 where both maps are the inclusion map. This space isn't even [[Hausdorff space|Hausdorff]], as every [[neighborhood]] of the point $0_1$ (the image of the origin under the first pushout [[coprojection]]) intersects every neighborhood of the point $0_2$ (the image of the origin under the second coprojection). 
 
@@ -12,7 +12,7 @@ However, there are reasonable conditions under which pushouts will be normal. (A
 
 +-- {: .num_prop} 
 ###### Proposition 
-Let $X$ be a $T_4$ space, and let $Y$ be a quotient space of $X$ such that the quotient map $q: X \to Y$ is closed. Then $Y$ is also $T_4$. 
+Let $X$ be a $T_4$ space, and suppose $q: X \to Y$ in $Top$ is a closed surjection. Then $Y$ is also $T_4$. 
 =-- 
 
 +-- {: .proof} 
@@ -31,10 +31,15 @@ If $X$ is a compact Hausdorff space and $\sim \hookrightarrow X \times X$ is an 
 
 +-- {: .proof} 
 ###### Proof 
-Omitted for the time being. 
+Suppose $A \subseteq X$ is closed, and consider its $\sim$-*saturation* $\bar{A}$, namely 
+
+$$\{x \in X: (\exists_{a \in A})\; x\sim a\} = \pi_1((\sim)\cap (X \times A)).$$ 
+
+This is a closed set because the first projection $\pi_1$ is a closed map (by compactness of $X$). Moreover, $\bar{A} = q^{-1}(q(A))$, essentially by definition ($x \in q^{-1}(q(A))$ means $q(x) = q(a)$ for some $a \in A$). Since 
+$q^{-1}(q(A))$ is closed, $q(A)$ is closed by definition of quotient topology. 
 =-- 
 
-+-- {: .num_prop} 
++-- {: .num_prop #pushoutCH} 
 ###### Proposition 
 Given a pushout diagram in $Top$ 
 
@@ -52,7 +57,7 @@ if $h$ is [[monomorphism|monic]], $f$ is [[epimorphism|epic]], and $X, Y, Z$ are
 The kernel pair of $f$ is a closed equivalence relation $E$ on $X$ such that $f$ is the coequalizer of the first and second pullback projections $p_1, p_2: E \rightrightarrows X$. The quotient map $g: Z \to W$ is similarly the quotient of the closed equivalence relation on $Z$ formed as $(h \times h)(E) \cup \Delta_Z$. Now apply Lemma \ref{pretopos}. 
 =-- 
 
-+-- {: .num_lemma} 
++-- {: .num_lemma #poclosed} 
 ###### Lemma 
 In $Top$, the pushout of a closed embedding along any continuous map is again a closed embedding. 
 =-- 
@@ -84,7 +89,7 @@ K & \stackrel{j}{\to} & K' \\
 Y & \underset{k}{\to} & W
 }$$ 
 
-where $K'$ is compact Hausdorff by Proposition 3, so that $e'$ is closed. Also $m$ is a closed embedding, so $m'$ is closed by Lemma 4. Hence $g = m'e'$ is closed.
+where $K'$ is compact Hausdorff by Proposition \ref{pushoutCH}, so that $e'$ is closed. Also $m$ is a closed embedding, so $m'$ is closed by Lemma \ref{poclosed}. Hence $g = m'e'$ is closed.
 =-- 
 
 +-- {: .num_theorem} 
