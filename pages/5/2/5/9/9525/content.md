@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -17,6 +32,10 @@ Usually characterized in terms of its [[sheaf]] of [[sections]] on the [[locally
 Over the [[complex numbers]], [[GAGA]] relates algebraic to [[holomorphic vector bundles]] (e.g. [Neeman 07, theorem 1.1.4](#Neeman07)).
 
 ## Related concepts
+
+* [[topological vector bundle]]
+
+* [[differentiable vector bundle]]
 
 * [[shtuka]]
 
