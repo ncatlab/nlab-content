@@ -1,3 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea 
 
 The **ultraproduct** construction is an important tool in [[model theory]] that permits to produce a new structure from an infinite family of structures. The construction has a decidedly 'algebraic' flavor and hence occurs naturally in applications of model theory to [[algebra]].
