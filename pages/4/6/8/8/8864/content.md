@@ -25,11 +25,11 @@ For $E_1, E_2 \to X$ two [[vector bundles]], their [[direct sum]] over $X$, also
 
 +-- {: .num_defn }
 ###### Definition
-**(direct sum of topological vector bundles)**
+**(direct sum of [[topological vector bundles]])**
 
 Let $X$ be a [[topological space]], and let $E_1 \to X$ and $E_2 \to X$ be two [[topological vector bundles]] over $X$. 
 
-Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] with respect to which both vector bundles locally trivialize (this always exists: pick a local trivialization of either bundle and form the joint [[refinement]] of the respective [[open covers]] by [[intersection]] of their patches). Let 
+Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] with respect to which both vector bundles locally trivialize (this always exists: pick a [[local trivialization]] of either bundle and form the joint [[refinement]] of the respective [[open covers]] by [[intersection]] of their patches). Let 
 
 $$
   \left\{
@@ -73,7 +73,7 @@ $$
 
 be the pointwise [[direct sum]] of these transition functions
 
-Then the _direct sum bundle_ $E_1 \oplus E_2$ is the one glued from this direct sum of the transition functions:
+Then the _direct sum bundle_ $E_1 \oplus E_2$ is the one glued from this direct sum of the transition functions (by [this construction](topological+vector+bundle#TopologicalVectorBundleFromCechCocycle)):
 
 $$
   E_1 \oplus E_2
