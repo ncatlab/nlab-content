@@ -21,149 +21,66 @@
 
 Given two [[vector bundles]] $V_1 \to X$ and $V_2 \to X$ over the same base space $X$, their _tensor product of vector bundles_ $V_1 \otimes V_2 \to X$ is the vector bundle over $X$ whose [[fiber]] over any point is the [[tensor product of vector spaces]] (i.e. the [[tensor product of modules]]) of the respective fibers of $V_1$ and $V_2$.
 
-## Details
 
-We discuss in detail the construction of the tensor product oof vector bundles as a construction in [[topological spaces]].
+## Definition
 
-For all of the following the [[ground field]] $k$ may be taken to be the [[real numbers]] $\mathbb{R}$ or the [[complex numbers]] $\mathbb{C}$, corresponding to [[real vector bundles]] and [[complex vector bundles]], respectively. 
-
-Recall first how the [[topological space|topology]] on the total space of a [[vector bundle]] arises as the [[quotient topological space]] of the corresponding trivial bundle over an [[open cover]] quotiented by  
-
-+-- {: .num_defn}
++-- {: .num_defn }
 ###### Definition
-**([[vector bundle]])**
+**(tensor product of [[topological vector bundles]])**
 
-Let $X$ be a [[topological space]], let $k$ be [[topological field]], and let  $n \in \mathbb{N}$ be a [[natural number]]. 
+Let $X$ be a [[topological space]], and let $E_1 \to X$ and $E_2 \to X$ be two [[topological vector bundles]] over $X$. 
 
-A _topological $k$-[[vector bundle]] of [[rank of a vector bundle|rank]] $n$ over $X$_  is
+Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] with respect to which both vector bundles locally trivialize (this always exists: pick a [[local trivialization]] of either bundle and form the joint [[refinement]] of the respective [[open covers]] by [[intersection]] of their patches). Let 
 
-1. a [[topological space]] $E$;
+$$
+  \left\{
+    (g_1)_{i j}
+    \colon U_i \cap U_j \to GL(n_1)
+  \right\}
+  \phantom{AAA}
+  \text{and}  
+  \phantom{AAA}
+  \left\{
+    (g_2)_{i j}
+    \colon
+     U_i \cap U_j \longrightarrow GL(n_2)
+  \right\}
+$$
 
-1. a [[continuous function]] $p \colon E \to X$;
+be the [[transition functions]] of these two bundles with respect to this cover.
 
-1. for each $x \in X$ the structure of a [[vector space]] on the [[pre-image]] $p^{-1}(\{x\})$ of the [[singleton set|singleton]] [[subset]] $\{x\} \subset X$ (the _[[fiber]]_ of the vector bundle over $x$)
+For $i, j \in I$ write
 
-such that 
-
-1.  there exists an [[open cover]] $\{U_i \to X\}_{i \in I}$ of $X$ 
-
-1. and for each $i \in I$ a [[homeomorphism]]
-
-   $$
-     \phi_i \;\colon\; E|_{U_i} \overset{\simeq}{\longrightarrow} U_i \times k^n
-   $$
-
-   from the restriction of $E$ to the open subset $U_i \subset X$ to the [[product topological space]] of $U_i$ with the canonical $n$-dimensional 
-
-1. such that 
-
-   1. \phi is a map over $U_i$, in that it makes [[fibers]] to fibers: $\phi_i(p^{-1}(x)) \subset \{x\} \times \mathbb{R}^n$
-
-   1. \phi is a fiberwise $k$-[[linear map]].
-
-Such an open cover is also called a _trivializing cover_ for the vector bundle, and the choice of homeomorphisms $\{\phi_i\}_{i \in I}$ is called a _[[local trivialization]]_.
-
-This may equivalently but conveniently be stated a bit more [[category theory|category theoretically]] as follows:
-
-A _topological $k$-vector bundle of rank $n$ over $X$_ is
-
-1. an [[object]] $[E \overset{p}{\to} X]$ in the [[slice category]] of [[Top]] over $X$;
-
-1. the structure of a $k_X$-[[module object]] on $[E \overset{p}{\to} X]$, 
-
-   where $k_X \coloneqq [X \times k^n \overset{pr_1}{\to} X] \in Top_{/X}$ is regarded as a [[field]] [[internalization|internal]] to $Top_{/X}$ in the canonical way;
-
-such that
-
-1. there exists an [[open cover]] $\{U_i \subset X\}_{i \in I}$
-
-   with [[disjoint union space]] to be denoted
-   
-   $$  
-     \mathcal{U} \coloneqq \underset{i \in I}{\sqcup} U_i
-   $$
-
-   equipped with the induced [[continuous function]]
-
-   $$
-     c \;\colon\; \mathcal{U} \longrightarrow X
-   $$
-
-1. there exists an [[isomorphism]] of $k_{\mathcal{U}}$-[[module objects]] in $Top_{/\mathcal{U}}$
-
-   $$
-     \phi \;\colon\; \mathcal{U} \times k \overset{\simeq}{\longrightarrow} c^\ast E
-   $$
-
-   where
-
-   $$
-     c^\ast \;\colon\; Top_{/X} \longrightarrow Top_{/\mathcal{U}}
-   $$
-
-   is the [[pullback]] [[functor]] ([[base change]]) along the cover projection $c$;
-
-In terms of [[diagrams]] in $Top$ this situation looks as follows:
-
-  $$
-    \array{
-      \mathcal{U} \times k^n &\underoverset{\simeq}{\phi}{\longrightarrow}&
-      c^\ast E
-        &\overset{(\phi_i)}{\longrightarrow}&
-      E
-      \\
-      & {}_{\mathllap{pr_1}}\searrow&
-      \downarrow &(pb)& \downarrow^{\mathrlap{p}}
-      \\
-      &&
-      \underset{i \in I}{\sqcup} U_i
+$$
+  \array{
+    (g_i)_{i j} \otimes (g_2)_{i j}
+    &\colon&
+    U_i \cap U_j
       &\longrightarrow&
-      X
-    }
-  $$
-  
-=--
-
-Observe that for $p \colon E \to X$ a vector bundle, we may recover $E$ from the data of the [[local trivialization]] as the [[quotient space]]
-
-$$
-  E 
-   \simeq
-  \left(
-    \underset{i \in I}{\sqcup} \left( U_i \times k^n\right)
-  \right)/(\sim_{g})
+    GL(n_1 \cdot n_2)
+  }
 $$
 
-where $\sim_g$ denotes the relation given by the [[transition functions]].
+be the pointwise [[tensor product of vector spaces]] of these transition functions
 
-Hence let now $E_1, E_2$ be two $k$-vector bundles over $X$. We may always find an [[open cover]] such that both of them have a [[local trivialization]] over that cover. (Find trivializing open covers for either bundles and then form their joint refinement.) Hence we have then
-
-
-$$
-  E_1
-   \simeq
-  \left(
-    \underset{i \in I}{\sqcup} \left( U_i \times k^{n_1}\right)
-  \right)/(\sim_{(g_1)})
-  \;\;\;\;\;\;
-  E_2
-   \simeq
-  \left(
-    \underset{i \in I}{\sqcup} \left( U_i \times k^{n_2}\right)
-  \right)/(\sim_{(g_2)})
-  \,.
-$$
-
-With this the _tensor product_ of these two vector bundles is
+Then the _tensor product bundle_ $E_1 \oplus E_2$ is the one glued from this direct sum of the transition functions (by [this construction](topological+vector+bundle#TopologicalVectorBundleFromCechCocycle)):
 
 $$
   E_1 \otimes E_2
-   \coloneqq
+  \;\coloneqq\;
   \left(
-    \underset{i \in I}{\sqcup} \left( U_i \times (k^{n_1} \otimes_k k^{n_2}\right)
-  \right)/(\sim_{(g_1 \otimes g_2)})
+    \left( \underset{i}{\sqcup} U_i \right)
+    \times 
+    \left(
+      \mathbb{R}^{n_1 \cdot n_2}
+    \right)
+  \right)/ \left( \left\{ (g_1)_{i j} \otimes (g_2)_{i j} \right\}_{i,j \in I} \right)
   \,.
 $$
+ 
+
+=--
+
 
 
 
