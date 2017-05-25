@@ -104,9 +104,10 @@ $$
 
 One invokes a [[partition of unity]] relative to an [[open cover]] on which $E$ trivializes, constructs $E'$ locally and glues.
 
+See at [[direct sum of vector bundles]] _[this prop](direct+sum+of+vector+bundles#Smooth0TypeIsSheavesOnSmoothMfd)_ for more
+
 =--
 
-For details see for instance ([Hatcher, prop. 1.4](#Hatcher)) or ([Friedlander, prop. 3.1](#Friedlander)).
 
 
 
