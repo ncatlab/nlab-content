@@ -17,11 +17,11 @@
 
 ## Idea
 
-Given a [[vector space]] $V$ and an element $\phi$ in the [[exterior product]] $\wedge^p V^\ast$ (a $p$-covector), then a [[differential form|differential p-form]] $\omega$ on a [[smooth manifold]] $X$ whose [[tangent spaces]] look like $V$ is called _definite on $\phi$_ if at each point $x \in X$ the restriction $\omega|_x \in \wedge^p T^\ast X \simeq \wedge^p V^\ast$ is equal to $\phi$, up to a [[general linear group|general linear transformation]].
+Given a [[vector space]] $V$ and an element $\phi$ in the [[exterior product]] $\wedge^p V^\ast$ (a $p$-covector), then a [[differential form|differential p-form]] $\omega$ on a [[smooth manifold]] $X$ whose [[tangent spaces]] look like $V$ is called _definite on $\phi$_ ([Bryant 05, section 3.1.1](#Bryant05)) or _stable at each point_ ([Hitchin, p. 3](#Hitchin)) if at each point $x \in X$ the restriction $\omega|_x \in \wedge^p T^\ast X \simeq \wedge^p V^\ast$ is equal to $\phi$, up to a [[general linear group|general linear transformation]].
 
 The existence of a definite form implies a [[G-structure]] on $X$ for $G$ the [[stabilizer subgroup]] of $\phi$. 
 
-A class of examples of definite form are the 3-forms on [[G2-manifolds]], these are definite on the "[[associative 3-form]]" on $\mathbb{R}^7$.
+A class of examples of definite forms are the 3-forms on [[G2-manifolds]], these are definite on the "[[associative 3-form]]" on $\mathbb{R}^7$.
 
 The [[higher prequantization]] of a definition form is a [[definite globalization of a WZW term]].
 
@@ -29,7 +29,7 @@ The [[higher prequantization]] of a definition form is a [[definite globalizatio
 
 ## Definition
 
-Given a [[vector space]] $V$ and a [[stable form]] $\phi \in \wedge^p V^\ast$ (hence a form whose [[orbit]] under the [[general linear group]] $GL(V)$ is an [[open subspace]] in $\wedeg^p V$), and given a [[smooth manifold]] modeled on the [[vector space]] $V$, then a [[differential form]] $\omega \in \Omega^p(X)$ is _definite_ on $\phi$ ([Bryant 05, section 3.1.1](#Bryant05)) or _stable at each point_ ([Hitchin, p. 3](#Hitchin)) if at each point it is in this open orbit.
+Given a [[vector space]] $V$ and a [[stable form]] $\phi \in \wedge^p V^\ast$ (hence a form whose [[orbit]] under the [[general linear group]] $GL(V)$ is an [[open subspace]] in $\wedeg^p V$), and given a [[smooth manifold]] modeled on the [[vector space]] $V$, then a [[differential form]] $\omega \in \Omega^p(X)$ is _definite_ on $\phi$ if at each point it is in this open orbit.
 
 
 ## Examples
