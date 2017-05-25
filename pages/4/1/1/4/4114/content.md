@@ -20,17 +20,35 @@ A _locally finite cover_ is a [[cover]] which in a suitable sense looks _locally
 
 ## Definition
 
-+-- {: .num_defn }
++-- {: .num_defn #LocallyFiniteCover}
 ###### Definition
 **(locally finite cover)**
 
 Let $(X,\tau)$ be a [[topological space]].
 
-A [[cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finite_ 
-if it is a [[locally finite set of subsets]], hence
+A [[cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ by [[subsets]] of $X$  is called  _locally finite_  if it is a [[locally finite set of subsets]], hence
 if for all points $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only [[finite number|finitely many]] elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
 
 If $\{U_i \subset X\}_{i \in I}$ is an [[open cover]], then it is called a _locally finite open cover_.
+
+=--
+
++-- {: .num_remark #AlternativeCharacterizations}
+###### Remark
+**(alternative characterizations of local finiteness)**
+
+Let  $X$ be a [[topological space]] and let $\{U_i \to X\}_{i \in I}$ be a [[cover]] by [[subsets]]. Then the following are equivalent:
+
+1. $\{U_i \subset X\}_{i \in I}$ is locally finite (def. \ref{LocallyFiniteCover});
+
+1. there exist an _[[open cover]]_ $\{V_j \subset X\}_{j \in J}$ such that for each $j \in J$ there is a [[finite number]] of $i \in I$ that $V_j$ intersects $V_i$.
+
+This is because the various $V_i$ constitute open neighbourhoods for all points $x \in X$.
+
+Moreover, suppose that $\{V_j \subset X\}_{j \in J}$ is a cover by any subsets (not necessarily open), but that it is itself a [[locally finite set of subsets]]. Then if for all $j \in J$ there are a finite number of $i \in I$ such that $U_i$ intersects $V_j$, it follows again that also $\{U_i \subset X\}_{i \in I}$ is locally finite.
+
+This is because by the local finiteness of $\{V_j \subset X\}_{j \in J}$ we have for every point $x \in X$ an open neighbourhood $O_x \supset \{x\}$ which intersects only a finite number of the $V_j$, and since each of these intersects only a finite number of the $U_i$, in total also $O_x$ can only intesect a finite number of the $U_i$.
+
 
 =--
 
