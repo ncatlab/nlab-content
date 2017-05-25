@@ -22,7 +22,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-For $i : X \hookrightarrow Y$ an [[immersion]] (notably an [[embedding]]) of [[smooth manifold]]s, the **normal bundle** of $X$ in $Y$ relative to $i$ is the the [[vector bundle]] 
+For $i : X \hookrightarrow Y$ an [[immersion]] (notably an [[embedding]]) of [[smooth manifolds]], the **normal bundle** of $X$ in $Y$ relative to $i$ is the the [[vector bundle]] 
 
 $$
   N_i X  \to X
@@ -31,8 +31,10 @@ $$
 defined as the [[fiber|fiberwise]] [[quotient]] bundle 
 
 $$
-N_i X =\frac{i^* T Y}{T X}  
+  N_i X =\frac{i^* T Y}{T X}  
 $$
+
+If $Y$ is equipped with [[Riemannian metric]] structure then this is equivalently the space of [[tangent vectors]] to $Y$ which a [[normal vectors]] to the [[tangent vectors]] to $X$, whence the name.
 
 =--
 
@@ -80,6 +82,7 @@ Let $M^n$ be a smooth compact $n$-dimensional manifold without boundary, then th
 
 ## Literature
 
-* Victor P. Snaith, _Stable homotopy around the Arf-Kervaire invariant_, Birkhauser 2009
+* [[Victor Snaith]], _Stable homotopy around the Arf-Kervaire invariant_, Birkhauser 2009
 
 [[!redirects normal bundles]]
+
