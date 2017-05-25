@@ -14,11 +14,11 @@
 * table of contents
 {:toc}
 
-(This entry describes two distinct notions, one in the theory of inner product spaces, and the second in a more purely categorical context.)
+(This entry describes two distinct notions, one in the theory of [[inner product spaces]], and the second in a more purely [[category theory|category theoretic]] context.)
 
 ## In inner product spaces
 
-Two elements $x,y$ in an [[inner product space]], $(V, \langle -,-\rangle)$, are **orthogonal** to each other, $x \perp y,$ if $\langle x,y\rangle = 0$
+Two elements $x,y$ in an [[inner product space]], $(V, \langle -,-\rangle)$, are **orthogonal** or [[normal vectors]], denoted $x \perp y,$ if $\langle x,y\rangle = 0$.
 
 ## In category theory
 
@@ -57,6 +57,8 @@ A pair $(E,M)$ such that $E^\perp = M$ and $E = {}^\perp M$ is sometimes called 
 ## Related concepts
 
 [[!include (co)isotropic subspaces - table]]
+
+* [[orthogonal structure]], [[orthogonal basis]]
 
 * [[Grassmannian]], [[Stiefel manifold]]
 
