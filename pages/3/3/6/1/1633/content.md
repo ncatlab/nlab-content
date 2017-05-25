@@ -17,7 +17,7 @@
 
 A [[topological space]] is called _locally compact_ if every point has a [[compact topological space|compact]] [[neighbourhood]].
 
-Or rather, if one does not at the same time assume that the space is [[Hausdorff topological space]], then one needs to require that these compact neighbourhoods exist in a controlled way, e.g. such that one may find them inside every prescribed open neighbourhood (def. \ref{LocalCompactnessViaCompactNeighbourhoodBase} below) and possbily such that they are topological closures of smaller open neighbourhoods (def. \ref{LocallyCompactSpace} below).
+Or rather, if one does not at the same time assume that the space is [[Hausdorff topological space]], then one needs to require that these compact neighbourhoods exist in a controlled way, e.g. such that one may find them inside every prescribed open neighbourhood (def. \ref{LocalCompactnessViaCompactNeighbourhoodBase} below) and possibily such that they are topological closures of smaller open neighbourhoods (def. \ref{LocallyCompactSpace} below).
 
 There are various definitions in use, which all coincide if the space is also [[Hausdorff topological space|Hausdorff]] (prop. \ref{InHausdorffSpacesDefinitionsOfLocalCompactnessAgree} below).
 
