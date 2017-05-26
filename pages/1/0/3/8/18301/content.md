@@ -1,0 +1,58 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+One wants an equivalent and purely [[semantics|semantic]] characterization of [[quantifier elimination]].
+
+A [[first-order theory|theory]] $T$ is substructure complete if after fixing a _substructure_, the theory of the [[elementary class]] of all $T$-models into which that substructure embeds is _complete_.
+
+(C.f. [[model complete theory]].)
+
+As discussed by ([JohnSmith01](#JohnSmith01)), [...]
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+$DEFINITION
+
+=--
+
+## Examples
+
++-- {: .num_theorem}
+###### Theorem
+
+(Theorem goes here)
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+  (Proof goes here.)
+
+=--
+
+## Remarks
+
+## Related concepts
+
+## References
+
+* {#JohnSmith01}John Smith, blah blah
+
+[[!redirects askdjlaksjd]]
