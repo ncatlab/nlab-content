@@ -365,8 +365,28 @@ $$(U_i \cap U_j) \times V \overset{(\langle incl, g_{i j} \rangle) \times V}{\to
 
 ## Properties
 
+### Direct summand bundles
 
-### On compact Hausdorff spaces
+
++-- {: .num_prop }
+###### Proposition
+
+Let 
+
+1. $X$ be a [[paracompact topological space]] 
+
+1. $E \to X$ a [[topological vector bundle]]. 
+
+Then every vector subbundle $E_1 \hookrightarrow E$ is a direct vector bundle summand, in that there exists another vector subbundle $E_2 \hookrightarrow E$ such that their direct sum of vector bundles (def. \ref{DirectSumOfTopologicalVectorBundles}) is $E$
+
+$$
+  E_1 \oplus E_2 \simeq E
+  \,.
+$$
+
+=--
+
+([e.g. Hatcher, prop. 1.3](#Hatcher))
 
 +-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
 ###### Proposition
@@ -375,9 +395,9 @@ Let
 
 1. $X$ be a [[compact Hausdorff space]];
 
-1. $E \to X$ a topological vector bundle (def. \ref{TopologicalVectorBundle}).
+1. $E \to X$ a [[topological vector bundle]].
 
-Then there exists another topological vector bundle $\tilde E \to X$ such that the [[direct sum of vector bundles]] of the two is a trivial vector $X \times \mathbb{R}^n$ (example \ref{TrivialTopologicalVectorBundle}):
+Then there exists another topological vector bundle $\tilde E \to X$ such that the direct sum of vector bundles (def. \ref{DirectSumOfTopologicalVectorBundles}) of the two is a trivial vector $X \times \mathbb{R}^n$:
 
 $$
   E \oplus \tilde E
@@ -387,6 +407,11 @@ $$
 $$
 
 =--
+
+(e.g. [Hatcher, prop. 1.4](#Hatcher), [Friedlander, ptop. 3.1](#Friedlander))
+
+Prop. \ref{Smooth0TypeIsSheavesOnSmoothMfd} is key for the construction of [[topological K-theory]] groups on compact Hausdorff spaces.
+
 
 
 
