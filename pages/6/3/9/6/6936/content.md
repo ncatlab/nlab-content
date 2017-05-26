@@ -224,28 +224,33 @@ Expositions include
 
 Details are in 
 
+* {#ShulmanLumsdaine17} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics of higher inductive types_ ([arXiv:1705.07088](https://arxiv.org/abs/1705.07088), talk slides [pdf](http://home.sandiego.edu/~shulman/papers/cellcxs.pdf))
+
+with precurors in
+
 * {#ShulmanLumsdaine12} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics of higher inductive types_, 2012 ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semantics.pdf/410646692/semantics.pdf))
 
 * {#ShulmanLumsdaine16} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics and syntax of higher inductive types_, 2016, ([slides](http://home.sandiego.edu/~shulman/papers/stthits.pdf))
 
-* {#Brunerie16} [[Guillaume Brunerie]], _Implementation of higher inductive types in HoTT-Agda_, 2016, [github](https://github.com/HoTT/HoTT-Agda/blob/master/core/lib/types/HIT_README.txt)
-
-An experimental implementation is described in:
-
-* Bruno Barras, _Native implementation of Higher Inductive
-Types (HITs) in Coq_ [PDF](http://www.crm.cat/en/activities/documents/barras-crm-2013.pdf)
-
-A detailed description of a subset of the HITs is in:
+Discussion of a a subset of the HITs is in:
 
 * [[Kristina Sojakova]], _Higher Inductive Types as Homotopy-Initial Algebras_
-[arXiv](http://arxiv.org/abs/1402.0761)
+[arXiv:1402.0761](http://arxiv.org/abs/1402.0761)
 
-See also
 
 * [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], _Homotopy-initial algebras in type theory_ ([arXiv:1504.05531](http://arxiv.org/abs/1504.05531))
 
 
 * [[Michael Rathjen]], _[Homotopical Inductive Types](http://www2.macs.hw.ac.uk/~cm389/hexmaps/2014/03/epsrc-ict-50/grants/EP-K023128-1.php)_ on [[higher inductive types]]
+
+
+Implementation in [[Agda]]/[[Coq]] is discussed in
+
+* {#Brunerie16} [[Guillaume Brunerie]], _Implementation of higher inductive types in HoTT-Agda_, 2016, [github](https://github.com/HoTT/HoTT-Agda/blob/master/core/lib/types/HIT_README.txt)
+
+* Bruno Barras, _Native implementation of Higher Inductive
+Types (HITs) in Coq_ [PDF](http://www.crm.cat/en/activities/documents/barras-crm-2013.pdf)
+
 
 
 [[!redirects higher inductive types]]
