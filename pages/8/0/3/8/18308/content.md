@@ -1,0 +1,4 @@
+
+Reduced K-theory is the [[reduced cohomology theory]] of [[K-theory]].
+
+For the moment see [here](topological+K-theory#ReducedKGroup) at _[[topological K-theory]]_ 
