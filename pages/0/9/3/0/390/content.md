@@ -294,6 +294,8 @@ Several classical examples of OFS $(E,M)$:
 
   * [[orthogonal factorization system in an (∞,1)-category]]
 
+  * [[orthogonal factorization system in a derivator]]
+
 * [[factorization structure for sinks]]
 
 
