@@ -25,7 +25,7 @@ What is called _topological_ [[K-theory]] is a collection of  [[generalized (Eil
 
 The following is the quick idea. For a detailed introduction see _[[Introduction to Topological K-Theory]]_.
 
-First, recall that for $k$ a [[field]] then a $k$-[[vector bundle]] over a [[topological space]] $X$ is a map $V \to X$ whose [[fibers]] are [[vector spaces]] which vary over $X$ in a controlled way. Explicitly this means that there exits an [[open cover]] $\{U_i \to X\}$ of $X$, a [[natural number]] $n \in \mathbb{N}$ (the _[[rank of a vector bundle|rank]]_ of the vector bundle) and a [[homeomorphism]] $U_i \times k^n \to V|_{U_i}$ over $U_i$ which is fiberwise a $k$-[[linear map]]. 
+First, recall that for $k$ a [[field]] then a $k$-[[vector bundle]] over a [[topological space]] $X$ is a map $V \to X$ whose [[fibers]] are [[vector spaces]] which vary over $X$ in a controlled way. Explicitly this means that there exits an [[open cover]] $\{U_i \to X\}$ of $X$, a [[natural number]] $n \in \mathbb{N}$ (the _[[rank of a vector bundle|rank]]_ of the vector bundle) and a [[homeomorphism]] $U_i \times k^n \to V|_{U_i}$ over $U_i$ which is fiberwise a $k$-[[linear map]].
 
 Vector bundles are of central interest in large parts of [[mathematics]] and [[physics]], for instance in [[Chern-Weil theory]] and [[cobordism theory]]. But the collection $Vect(X)_{/\sim}$ of [[isomorphism classes]] of vector bundles over a given space is in general hard to analyze. One reason for this is that these are classified in degree-1 _[[nonabelian cohomology]]_ with [[coefficients]] in the ([[nonabelian group|nonabelian]]) [[general linear group]] $GL(n,k)$. K-theory may roughly be thought of as the result of forcing vector bundles to be classified by an abelian [[cohomology theory]].
 
@@ -37,10 +37,10 @@ $$
   (V_+, V_-) \sim (V_+ \oplus W , V_- \oplus W)
 $$
 
-for all $W \in Vect(X)_{/\sim}$. The resulting set of [[equivalence classes]] is an [[abelian group]] with group operation given on representatives by 
+for all $W \in Vect(X)_{/\sim}$. The resulting set of [[equivalence classes]] is an [[abelian group]] with group operation given on representatives by
 
 $$
-  [V_+, V_-] \oplus [V'_+, V'_-] \coloneqq (V_+ \oplus V'_+, V_- \oplus V'_-) 
+  [V_+, V_-] \oplus [V'_+, V'_-] \coloneqq (V_+ \oplus V'_+, V_- \oplus V'_-)
 $$
 
 and with the [[inverse]] of $[V_+,V_-]$ given by
@@ -52,10 +52,10 @@ $$
 
 This [[abelian group]] obtained from $(Vect(X)_{/\sim}, \oplus)$ is denoted $K(X)$ and often called _the K-theory_ of the space $X$. Here the letter "K" (due to [[Alexander Grothendieck]]) originates as a shorthand for the German word _Klasse_, referring to the above process of forming [[equivalence classes]] of ([[isomorphism classes]]) of vector bundles.
 
-This simple construction turns out to yield remarkably useful groups of [[homotopy]] [[invariants]]. 
-A variety of deep facts in [[algebraic topology]] have fairly elementary proofs in terms of topolgical K-theory, for instance the [[Hopf invariant one]] problem ([Adams-Atiyah 66](#AdamsAtiyah66)). 
+This simple construction turns out to yield remarkably useful groups of [[homotopy]] [[invariants]].
+A variety of deep facts in [[algebraic topology]] have fairly elementary proofs in terms of topolgical K-theory, for instance the [[Hopf invariant one]] problem ([Adams-Atiyah 66](#AdamsAtiyah66)).
 
-One defines the "higher" K-groups of a topological space to be those of its higher [[suspensions]] 
+One defines the "higher" K-groups of a topological space to be those of its higher [[suspensions]]
 
 $$
   K^{-n}(X) = K(\Sigma^n X)
@@ -85,19 +85,16 @@ While the [[C*-algebra]] of a [[Riemannian manifold|Riemannian]] [[spin structur
 
 > under construction
 
-Let 
+Throughout, let $k$ be either the [[field]] of [[real numbers]] $\mathbb{R}$ or of [[complex numbers]] $\mathbb{C}$ .
 
-1. $X$ be a [[compact space|compact]] [[Hausdorff space|Hausdorff]] [[topological space]]. 
+We take
 
-1. $k$ either the [[field]] of [[real numbers]] $\mathbb{R}$ or of [[complex numbers]] $\mathbb{C}$ . 
+1. _[[vector space]]_ to mean _[[finite dimensional vector space]]_ over $k$.
 
-We take 
+1. _[[vector bundle]]_ to mean _[[topological vector bundle]] over $k$ of finite [[rank of a vector bundle|rank]]_.
 
-1. _[[vector space]]_ to mean a _[[finite dimensional vector space]]_ over $k$. 
 
-1. _[[vector bundle]]_ to mean a [[topological vector bundle]] over $k$  of finite [[rank of a vector bundle]].  
-
-We write $I^n \to X$ for the trivial vector bundle $I^n = k^n \times X$ over $X$ of [[rank]] $n \in \mathbb{N}$.
+For the most part we assume that the base [[topological space]] $X$ is a [[compact Hausdorff space]]. Because then then following statement holds, which is crucial in some places:
 
 +-- {: .num_lemma #DirectSumHasInverseUpToTrivialBundle}
 ###### Lemma
@@ -115,12 +112,217 @@ is a [[trivial vector bundle]].
 
 For **proof** see at _[[topological vector bundle]]_ [this prop.](TopologicalVectorbundleOverCompactHausdorffSpaceIsDirectSummandOfTrivialBundle)
 
+### The K-group
 
-
-
-+-- {: .num_defn #DefinitionOfKClasses}
++-- {: .num_defn #SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX}
 ###### Definition
-**()**
+**([[semi-group]] of [[isomorphism classes]] of [[topological vector bundles]] on $X$)
+
+For $X$ a [[topological space]], write $Vect(X)_{/\sim}$ for the [[set]] of [[isomorphism classes]] of [[topological vector bundles]] over $X$. The operation of [[direct sum of vector bundles]]
+
+$$
+  (-)\oplus_X (-)
+  \;\colon\;
+  Vect(X) \times Vect(X)
+    \longrightarrow
+  Vect(X)
+$$
+
+descends to this [[quotient]] by [[isomorphism]]
+
+$$
+  [E_1] + [E_2]
+  \;\coloneqq\;
+  [E_1 \oplus_X E_2]
+$$
+
+to yield the structure of a [[monoid]] ([[semi-group]])
+
+$$
+  \left(
+     Vect(X)_{/\sim}, +
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #KGroupByGrothendieckGroup}
+###### Definition
+**(K-group as the [[Grothendieck group]] of [[isomorphism classes]] of [[topological vector bundles]])
+
+For $X$ a [[topological space]], write
+
+$$
+  K(X) \;\coloneqq\; K(Vect(X)_{/\sim}, +)
+$$
+
+for the [[Grothendieck group]] of the [[semi-group]] of [[isomorphism classes]] of [[topological vector bundles]] on $X$ (def. \ref{SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX}).
+
+This means that $K(X)$ is the [[group]] whose elements are [[equivalence classes]] of pairs
+
+$$
+  ([E_+], [E_-])
+$$
+
+of [[isomorphism classes]] of [[topological vector bundles]] on $X$, with respect to the 
+[[equivalence relation]]
+
+$$
+  \left(
+  \left(
+    [E_+], [E_-]
+  \right)
+   \;\sim\;
+  \left(
+    [F_+, F_-]
+  \right)
+  \right)
+   \;\Leftrightarrow\;
+  \left(
+    \underset{[G],[H] \in Vect(X)_{/\sim}}{\exists}
+    \left(
+      \left([E_+ \oplus_X G] , [E_- \oplus_X G]\right)
+        \,=\,
+      \left([F_+ \oplus_X H] , [F_- \oplus_X H]\right)
+    \right)
+  \right)
+  \,.
+$$
+
+Here a pair $([E_+], [E_-])$ is also called a _[[virtual vector bundle]]_.
+
+=--
+
++-- {: .num_prop #StableEquivalenceOfVectorBundles}
+###### Definition
+**([[stable equivalence of vector bundles]])**
+
+Let $X$ be a [[topological space]]. Define an [[equivalence relation]] $\sim_{stable}$ on [[topological vector bundles]]
+over $X$ by declaring two vector bundles $E_1 E_2 \in Vect(X)$ to be equivalent if there exists a
+[[trivial vector bundle]] $X \times k^n$ of some [[rank]] $n$ such that after [[tensor product of vector bundles]]
+with this trivial bundle, both bundles become [[isomorphism|isomorphic]]
+
+$$
+  \left(
+    E_1
+      \sim_{stable}
+    E_2
+  \right)
+    \;\Leftrightarrow\;
+  \underset{n \in \mathbb{N}}{\exists}
+  \left(
+     E_1 \otimes_X (X \times k^n)
+       \;\simeq\;
+     E_2 \otimes_X (X \times k^n)
+  \right)
+  \,.
+$$
+
+If $E_1 \sim_{stable} E_2$ we say that $E_1$ and $E_2$ are _stably equivalent vector bundles_.
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+Let $X$ be a [[topological space]]. There is a [[homomorphism]] of [[semigroups]]
+
+$$
+  \array{
+    Vect(X)_{/\sim}
+      & \longrightarrow &
+    K(X)
+    \\
+    [E_1] &\overset{\phantom{AAA}}{\mapsto}& \left( [E_1], [X \times k^0] \right)
+  }
+$$
+
+from the [[isomorphism classes]] of [[topological vector bundles]] (def. \ref{SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX})
+to the K-group of $X$ (def. \ref{KGroupByGrothendieckGroup} ).
+
+If $X$ is a [[compact Hausdorff space]],
+then the [[image]] of this function is the [[stable equivalence classes of vector bundles]] (def. \ref{StableEquivalenceOfVectorBundles}),
+hence this function factors as an [[epimorphism]] onto $Vect(X)_{/\sim_{stable}}$ followed by an [[injection]]
+
+$$
+  Vect(X)_{/\sim}
+    \longrightarrow
+  Vect(X)_{/\sim_{stable}}
+    \hookrightarrow
+  K(X)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of the [[Grothendieck group]], two elements of the form
+
+$$
+  \left(
+    [E_1], [X \times k^0]
+  \right)
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  \left(
+    [E_2], [X \times k^0]
+  \right)
+$$
+
+are equivalent precisely if there exist vector bundles $F_1$ and $F_2$ such that 
+
+$$
+  \left( 
+     [ E_1 \oplus_X F_1 ], [ F_1] 
+  \right)
+   \;=\;
+  \left(
+    [E_2 \oplus_X F_2], [F_2]
+  \right)
+  \,.
+$$
+
+First of all this means that $F_1 \simeq F_2$, hence is equivalent to the existence of a vector 
+bundle $F$ such that
+
+
+$$
+  [E_1 \oplus F] \;=\; [E_2 \oplus F]
+  \,.
+$$
+
+Now, by the assumption that $X$ is compact Hausdorff, lemma \ref{DirectSumHasInverseUpToTrivialBundle}
+implies that there exists a vector bundle $\tilde F$ such that 
+
+$$
+  F \oplus_X \tilde F \simeq X \times k^n
+$$
+
+is the [[trivial vector bundle]] of some [[rank of a vector bundle|rank]] $n \in \mathbbN}$. This means that the above is equivalent already to the existence of an
+$n \in \mathbb{N}$ such that 
+
+$$
+ [E_1 \oplus (X \times k^n)]
+   \;=\;
+ [E_2 \oplus (X \times k^n)]
+ \,.
+$$
+
+This is the definition of stable equivalence from def. \ref{StableEquivalenceOfVectorBundles}.
+
+=--
+
+
+
+### The reduced K-group
+
++-- {: .num_defn #EquivalenceRelationForReducedKTheory}
+###### Definition
 
 For $X$ a [[topological space]], define an [[equivalence relation]] on the [[set]] of  [[topological vector bundle]] $E \to X$ over $X$ by declaring that $E_1 \sim E_2$ if there exists $k_1, k_2 \in \mathbb{N}$ such that there is an [[isomorphism]] of [[topological vector bundles]] between the [[direct sum of vector bundles]] of $E_1$ with the [[trivial vector bundle]] $X \times \mathbb{R}^{k_1}$ and of $E_2$ with $X \times \mathbb{R}^{k_2}$
 
@@ -128,34 +330,23 @@ $$
   (E_1 \sim E_2)
    \Leftrightarrow
   \left(
-    \underset{k_1,k_2 \in \mathbb{N}}{\exists} 
+    \underset{k_1,k_2 \in \mathbb{N}}{\exists}
       \left(
-         (E_1 \oplus_X (X \times \mathbb{R}^{k_1}) 
-           \;\simeq\; 
+         (E_1 \oplus_X (X \times \mathbb{R}^{k_1})
+           \;\simeq\;
          (E_2 \oplus (X \times \mathbb{R}^{k_2})
       \right)
   \right)
   \,.
 $$
 
-Write 
+Write
 
 $$
-  \tilde K(X) \coloneqq Vect(X)/\sim
+  \tilde K(X) \coloneqq Vect(X)_{/\sim}
 $$
 
-for the [[quotient set]] of [[equivalence class|equivalence classes]]. 
-
-We also define the coarser equivalence relation $E_1 \sim_{s} E_2$ where in the above definition of $\sim$ we force $k_1 = k_2$. The set of equivalence classes for this equivalence relation is denoted
-
-$$
-  Vect(X)_{/stable}
-  \,.
-$$
-
-This is called _[[stable equivalence of vector bundles]]_.
-
-
+for the [[quotient set]] of [[equivalence class|equivalence classes]].
 
 The operation of [[direct sum of vector bundles]] descends to these quotients to make them commutative [[semi-groups]] ([[commutative monoids]]):
 
@@ -168,12 +359,12 @@ $$
 
 =--
 
+
 +-- {: .num_prop #KGroupIsIndeedAGroup}
 ###### Proposition
 **(over [[compact Hausdorff spaces]] $\tilde K(X)$ is an [[abelian groups]] under [[direct sum of vector bundles]])
 
-If $X$ is a [[compact Hausdorff space]] then the [[commutative monoid]] $\tilde K(X)$ from def. \ref{DefinitionOfKClasses} is an abelian group
-
+If $X$ is a [[compact Hausdorff space]] then the [[commutative monoid]] $\tilde K(X)$ from def. \ref{DefinitionOfKClasses} is an [[abelian group]].
 
 =--
 
@@ -181,9 +372,9 @@ If $X$ is a [[compact Hausdorff space]] then the [[commutative monoid]] $\tilde 
 +-- {: .proof}
 ###### Proof
 
-The non-trivial part of the statement is that in $\tilde K(X)$ there is an [[inverse]] to the additive operation of [[direct sum of vector bundles]]. (Because direct sum acts by addition of the ranks of vector bundles, it clearly has no inverse in $Vect(X)$.)
+The statement is that in $\tilde K(X)$ there is an [[inverse]] to the additive operation of [[direct sum of vector bundles]]. 
 
-On the other hand, clearly the reduce K-class $[X \times \mathbb{R}^n]$ of any [[trivial vector bundle]] is the neutral additive element in $K(X)$ as well as in $\tilde K(X)$, so that 
+Clearly the reduced K-class $[X \times \mathbb{R}^n]$ of any [[trivial vector bundle]] is the neutral additive element in $K(X)$ as well as in $\tilde K(X)$, so that
 
 $$
   [X \times \mathbb{R}^n] = 0
@@ -202,14 +393,7 @@ is isomorphic to a [[trivial vector bundle]] for some $n \in \mathbb{N}$. This i
 
 (...)
 
-+-- {: .num_prop #EquivalenceToGrothendieckGroup}
-###### Proposition
 
-$K(X)$ is isomorphic to the [[Grothendieck group]] of $(Vect(X), \oplus)$.
-
-=--
-
-However, def. \ref{DefinitionOfKClasses} is more directly related to the definition of K-theory by a classifying space, hence by a [[spectrum]]. This we discuss [below](#ClassifyingSpace).
 
 
 ## Properties
@@ -224,7 +408,7 @@ We discuss how the [[classifying space]] for $K^0$ is the [[delooping]] of the [
 
 For $n \in \mathbb{N}$ write $U(n)$ for the [[unitary group]] in dimension $n$ and $O(n)$ for the [[orthogonal group]] in dimension $n$, both regarded as [[topological group]]s in the standard way. Write $B U(n) , B O(n)\in$ [[Top]] $ for the corresponding [[classifying space]].
 
-Write 
+Write
 
 $$
   [X, B O(n)] := \pi_0 Top(X, B O(n))
@@ -260,7 +444,7 @@ $$
 +-- {: .num_defn #InclusionOfUns}
 ###### Definition
 
-For each $n$ let 
+For each $n$ let
 
 $$
   U(n) \to U(n+1)
@@ -269,11 +453,11 @@ $$
 be the inclusion of [[topological group]]s given by inclusion of $n \times n$ [[matrices]] into $(n+1) \times (n+1)$-matrices given by the block-diagonal form
 
 $$
-  \left[g\right] \mapsto 
+  \left[g\right] \mapsto
   \left[
     \array{
       1 & [0]
-      \\ 
+      \\
       [0] & [g]
     }
   \right]
@@ -287,7 +471,7 @@ $$
   \,.
 $$
 
-Write 
+Write
 
 $$
   B U := {\lim_{\to}}_{n \in \mathbb{N}} B U(n)
@@ -302,13 +486,13 @@ for the [[homotopy colimit]] (the "homotopy [[direct limit]]") over this diagram
 
 The [[topological space]] $B U$ is **not** equivalent to $B U(\mathcal{H}) $, where $U(\mathcal{H})$ is the [[unitary group]] on a separable infinite-dimensional [[Hilbert space]] $\mathcal{H}$. In fact the latter is [[contractible]], hence has a  [[weak homotopy equivalence]] to the point
 
-$$  
+$$
   B U(\mathcal{H}) \simeq *
 $$
 
-while $B U$ has nontrivial [[homotopy group]]s in arbitrary higher degree (by [[Kuiper's theorem]]). 
+while $B U$ has nontrivial [[homotopy group]]s in arbitrary higher degree (by [[Kuiper's theorem]]).
 
-But there is the group $U(\mathcal{H})_{\mathcal{K}} \subset U(\mathcal{H})$ of unitary operators that differ from the [[identity]] by a [[compact operator]]. This is essentially $U = \Omega B U$. See [below](#Uk). 
+But there is the group $U(\mathcal{H})_{\mathcal{K}} \subset U(\mathcal{H})$ of unitary operators that differ from the [[identity]] by a [[compact operator]]. This is essentially $U = \Omega B U$. See [below](#Uk).
 
 =--
 
@@ -384,20 +568,20 @@ $$
 
 =--
 
-There is another variant on the classifying space 
+There is another variant on the classifying space
 
 +-- {: .num_defn #Uk}
 ###### Definition
 
-Let 
+Let
 
 $$
   U_{\mathcal{K}}
-  = 
+  =
   \left\{
     g \in U(\mathcal{H}) | g - id \in \mathcal{K}
   \right\}
-$$ 
+$$
 
 be the group of unitary operators on a [[separable Hilbert space]] $\mathcal{H}$ which differ from the identity by a [[compact operator]].
 
@@ -409,13 +593,13 @@ Palais showed that
 +-- {: .num_prop }
 ###### Proposition
 
-$U_\mathcal{K}$ is a [[homotopy equivalence|homotopy equivalent]] model for $B U$. It is in fact the [[norm closure]] of the evident model of $B U$ in $U(\mathcal{H})$. 
+$U_\mathcal{K}$ is a [[homotopy equivalence|homotopy equivalent]] model for $B U$. It is in fact the [[norm closure]] of the evident model of $B U$ in $U(\mathcal{H})$.
 
 Moreover $U_{\mathcal{K}} \subset U(\mathcal{H})$ is a [[Banach Lie group|Banach Lie]] [[normal subgroup]].
 
 =--
 
-Since $U(\mathcal{H})$ is [[contractible]], it follows that 
+Since $U(\mathcal{H})$ is [[contractible]], it follows that
 
 $$
   B U_{\mathcal{K}} \coloneqq U(\mathcal{H})/U_{\mathcal{K}}
@@ -427,7 +611,7 @@ is a model for the [[classifying space]] of reduced K-theory.
 
 That topological K-theory satisfies the axioms of a [[generalized (Eilenberg-Steenrod) cohomology theory]] was shown (at least) in (Atiyah-Hirzebruch 61, 1.8](#AtiyahHirzebruch61))
 
-### Spectrum 
+### Spectrum
 
 Being a [[generalized (Eilenberg-Steenrod) cohomology]] theory, topological K-theory is represented by a [[spectrum]]: the _[[K-theory spectrum]]_.
 
@@ -478,11 +662,11 @@ ring of functions on $X$, but the two are closely related. See for instance ([Pa
 [[!include string theory and cohomology theory -- table]]
 
 
-## References 
+## References
 
 The "ring of complex vector bundles" $K(X)$ was introduced in
 
-* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Riemann-Roch theorems for differentiable manifolds_, Bull.  Amer. Math Soc. vol. 65 (1959) pp. 276-281. 
+* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Riemann-Roch theorems for differentiable manifolds_, Bull.  Amer. Math Soc. vol. 65 (1959) pp. 276-281.
 
 and shown to give a [[generalized (Eilenberg-Steenrod) cohomology]] theory in
 
@@ -508,10 +692,10 @@ Further introductions include
 
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 9 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-* {#Karoubi06} [[Max Karoubi]], _K-theory. An elementary introduction_, lectures given at the Clay Mathematics Academy ([arXiv:math/0602082](https://arxiv.org/abs/math/0602082)) 
+* {#Karoubi06} [[Max Karoubi]], _K-theory. An elementary introduction_, lectures given at the Clay Mathematics Academy ([arXiv:math/0602082](https://arxiv.org/abs/math/0602082))
 
 * {#Friedlander} [[Eric Friedlander]], _An introduction to K-theory_ (emphasis on [[algebraic K-theory]]), 2007 ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
- 
+
 * {#Karpova09} [[Varvara Karpova]], _Complex topological K-theory_, 2009  ([pdf](http://infoscience.epfl.ch/record/162450/files/karpova.semestre.hess2.pdf))
 
 * {#Blair09} Chris Blair, _Some K-theory examples_, 2009 ([pdf](http://www.maths.tcd.ie/~cblair/notes/kex.pdf))
@@ -524,19 +708,19 @@ A textbook account of topological K-theory with an eye towards [[operator K-theo
 
 * [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_
 
-A discussion of the topological K-theory of [[classifying spaces]] of [[Lie groups]] is in 
+A discussion of the topological K-theory of [[classifying spaces]] of [[Lie groups]] is in
 
 * {#JackowskiOliver} Stefan Jackowski and Bob Oliver, _Vector bundles over classifying spaces of compact Lie groups_ ([pdf](http://hopf.math.purdue.edu/Jackowski-Oliver/bg-bu.pdf))
- 
+
 
 The [[comparison map between algebraic and topological K-theory]] is discussed for instance in
 
 * {#Paluch} Michael Paluch, _Algebraic $K$-theory and topological spaces_ K-theory 0471 ([web](http://www.math.uiuc.edu/K-theory/0471/))
- 
+
 
 * {#Rosenberg} [[Jonathan Rosenberg]], _Comparison Between Algebraic and Topological K-Theory for Banach Algebras and $C^*$-Algebras_, ([pdf](http://www2.math.umd.edu/~jmr/algtopK.pdf))
- 
-Discussion from the point of view of [[smooth stacks]] and [[differential K-theory]] is in 
+
+Discussion from the point of view of [[smooth stacks]] and [[differential K-theory]] is in
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures October 2014 ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
@@ -549,4 +733,4 @@ The proof of the [[Hopf invariant one]] theorem in terms of topological K-theory
 
 [[!redirects periodic complex K-theory]]
 
-[[!redirects complex topological K-theory]]
+[[!redirects complex topological K-theory]] 
