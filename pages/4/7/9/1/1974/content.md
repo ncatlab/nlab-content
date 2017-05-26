@@ -21,7 +21,12 @@
 
 ## Idea 
 
-The term _Grothendieck group_ has a restricted and a more general meaning.
+The term _Grothendieck group_ has a restricted and a more general meaning
+
+* [Grothendieck group of commutative monoids](#OfCommutativeMonoids)
+
+* [Grothendieck group of stable infinity-categories](#OfStableCategories)
+
 
 In its restricted sense the _Grothendieck group_ of a [[commutative monoid]] (commutative [[semi-group]]) $A$ is a specific presentation of its [[group completion]], given as a certain [[group]] structure on a [[quotient]] of the [[Cartesian product]] $A \times A$. This is such that applied to the additive monoid of [[natural numbers]] $\mathbb{N}$ it produces the additive group of [[integers]] $\mathbb{Z}$ represented by pairs of natural numbers $(n_+, n_-)$ subject to an [[equivalence relation]] which identifies them with their [[difference]] $n_+ - n_-$.
 
@@ -37,7 +42,8 @@ In that sense, the Grothendieck group of a ($\infty$-)category $C$ with a notion
 We now first state the definition of "Grothendieck group completion" -- which is really just the _free group completion of an abelian [[monoid]]_ --  and then the definition of Grothendieck group in the sense of [[algebraic K-theory]]. Notice that a priori both concepts are entirely independent constructions on different entities. But in various special case both can be applied to specific objects so as to produce the same result.
 
 
-## For commutative monoids
+## Of commutative monoids
+ {#OfCommutativeMonoids}
 
 Every [[abelian  group]] is in particular a [[commutative monoid]]. The [[forgetful functor]] $U \colon Ab \to CMon$ from the [[category]] [[Ab]] ot the category [[CMon]] has a [[left adjoint]] $F$ (the correspnding [[free functor]]), the _[[group completion]]_ functor
 
@@ -253,7 +259,7 @@ Conversely, given $f \colon A \to B$ then this equation uniquely defines $\tilde
 
 +-- {: .num_remark #GrothendieckGroupForCancellativeMonoids}
 ###### Remark
-**(Grothendieck group for cancellative monoids)**
+**(Grothendieck group for [[cancellative monoids]])**
 
 If $(A,+)$ is a [[cancellative monoid]], in that 
 
@@ -270,7 +276,7 @@ $$
   \right)
 $$  
 
-then, as is immediate from the first of the two equivalence relations in def. \ref{GrothendieckGroupViaQuotientOfCartesianProduct}, the definition of the Grothendieck group $G(A)$ simplies to 
+then, as is immediate from the first of the two equivalence relations in def. \ref{GrothendieckGroupViaQuotientOfCartesianProduct}, the definition of the Grothendieck group $G(A)$ simplifies to 
 
 $$
   G(A) = (A \times A)/ \sim
@@ -286,7 +292,7 @@ $$
   \big)
      \;\Leftrightarrow\;
   \big(
-    a__+ + b_- = b_+ + a_-
+    a_+ + b_- = b_+ + a_-
   \big)
   \,.
 $$
@@ -312,7 +318,7 @@ $$
   \big)
      \;\Leftrightarrow\;
   \big(
-    a__+ + b_- = b_+ + a_-
+    a_+ + b_- = b_+ + a_-
   \big)
   \,.
 $$
@@ -374,8 +380,9 @@ $$
         &\mapsto&
      n_+/n_-
   }
-  \,.
 $$
+
+to the non-zero [[rational numbers]] under multiplication.
 
 It is immediate that this is surjective. For it to be injective we need that 
 
@@ -407,9 +414,9 @@ Since $(\mathbb{Z}^\times, \cdot)$ is a [[cancellative monoid]], this is indeed 
 
 +-- {: .num_example}
 ###### Example
-+*([[topological K-theory]])**
+**([[topological K-theory]])**
 
-Let $X$ be a [[topological space]] and let $(Vect(X)_{/\sim}, \oplus)$ be the monoid of [[isomorphism classes]] of [[topological vector bundles]] on $X$ with addition induced from the [[direct sum of vector bundles]]. Then the Grothendieck group
+Let $X$ be a [[topological space]] and let $(Vect(X)_{/\sim}, \oplus)$ be the monoid of [[isomorphism classes]] of [[topological vector bundles]] on $X$ with addition induced from the [[direct sum of vector bundles]]. (This is in general not a [[cancellative monoid]]). Then the Grothendieck group
 
 $$
   K(X) \coloneqq (G(Vect(X)_{/\sim}), +)
@@ -419,8 +426,11 @@ is called the _[[topological K-theory]]_ group of $X$.
 
 =--
 
+$\,$
 
-## For a category
+
+## Of stable $\infty$-categoris
+ {#OfStableCategories}
 
 Fundamentally a Grothendieck group is something assigned to a [[stable (∞,1)-category]]. It is the group structure 
 $+ : K(C)\times K(C) \to K(C)$ on the [[decategorification]] $K(C)$ of $C$ defined by the rule that for every [[fibration sequence]] 
