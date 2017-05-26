@@ -41,19 +41,19 @@ Then an _inner product_ on $E$ is
   $$
     \langle -,-\rangle
     \;\colon\;
-    E \oplus_X E 
+    E \otimes_X E 
      \longrightarrow
     X \times \mathbb{R}
   $$
 
-  from the [[direct sum of vector bundles]] of $E$ with itself to the trivial [[line bundle]]
+  from the [[tensor product of vector bundles]] of $E$ with itself to the trivial [[line bundle]]
 
 such that
 
 * for each point $x \in X$ the function
 
   $$
-    \langle -,-\rangle|_x \colon E_x \oplus E_x \to \mathbb{R}
+    \langle -,-\rangle|_x \colon E_x \otimes E_x \to \mathbb{R}
   $$
 
   is an [[inner product]] on the [[fiber]] [[vector space]], hence a positive-definite symmetric [[bilinear form]].
@@ -100,9 +100,9 @@ Write
 
 $$
   \langle -,-\rangle_{\mathbb{R}^n}
-  \;\oplus\;
+  \;\colon\;
   \mathbb{R}^n 
-    \oplus
+    \otimes
   \mathbb{R}^n
     \longrightarrow
   \mathbb{R}
@@ -116,11 +116,11 @@ $$
   \array{
     \langle -,-\rangle_i
     &\colon&
-    E|_{U_i} \oplus_X E|_{U_i}
-      &\overset{ \phi_i^{-1} \oplus_{U_i} \phi_i^{-1} }{\longrightarrow}&
-    (U_i \times \mathbb{R}^n ) \oplus_{U_i} (U_i \times \mathbb{R}^n)
+    E|_{U_i} \otimes_X E|_{U_i}
+      &\overset{ \phi_i^{-1} \otimes_{U_i} \phi_i^{-1} }{\longrightarrow}&
+    (U_i \times \mathbb{R}^n ) \otimes_{U_i} (U_i \times \mathbb{R}^n)
       &\overset{\simeq}{\to}&
-    U_i \times (\mathbb{R}^n \oplus \mathbb{R}^n)
+    U_i \times (\mathbb{R}^n \otimes \mathbb{R}^n)
       &\overset{}{\longrightarrow}&
     U_i \times \mathbb{R}
     \\
@@ -132,7 +132,7 @@ $$
   \,.
 $$
 
-extend by zero to continuous functions on all of $E \oplus_X E$, which we denote by the same symbol $\langle -,-\rangle_i \colon E \oplus_X E \to X \times \mathbb{R}$.
+extend by zero to continuous functions on all of $E \otimes_X E$, which we denote by the same symbol $\langle -,-\rangle_i \colon E \otimes_X E \to X \times \mathbb{R}$.
 
 We then claim that the sum
 
@@ -141,7 +141,7 @@ $$
     \;\colon\;
   \underset{i \in I}{\sum} \langle -,-\rangle_i
   \;\colon\;
-  E \oplus_X E
+  E \otimes_X E
   \longrightarrow
   X \times \mathbb{R}
 $$
