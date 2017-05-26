@@ -3,6 +3,8 @@
 
 ## Basic concepts and techniques
 
+* [[compactness theorem]]
+
 * [[first-order theory]]
 
 * [[interpretation]]
@@ -110,3 +112,5 @@
 * [[Morley categoricity theorem]]
 
 * [[omitting types theorem]]
+
+* [[Deligne completeness theorem]]
