@@ -9,6 +9,8 @@
 
 * [[fiber bundle]], [[fiber ∞-bundle]]
 
+  [[numerable bundle]]
+
 * [[principal bundle]], [[principal ∞-bundle]]
 
   * [[principal 2-bundle]], [[principal 3-bundle]]
@@ -23,11 +25,27 @@
 
 * [[vector bundle]], [[(∞,1)-vector bundle]]
 
-  * [[complex vector bundle]], [[stable vector bundle]]
+  * [[Chern-Weil theory]], [[topological K-theory]]
+
+  * [[topological vector bundle]], [[differentiable vector bundle]], [[algebraic vector bundle]]
+
+  * [[trivial vector bundle]]
+
+  * [[real vector bundle]], [[complex vector bundle]]
+
+  * [[direct sum of vector bundles]], [[tensor product of vector bundles]], [[inner product of vector bundles]], [[dual vector bundle]]
+
+  * [[stable vector bundle]]
+
+  * [[virtual vector bundle]]
+  
+
 
 ## Universal bundles
 
-* [[universal principal ∞-bundle]]
+* [[universal principal bundle]], [[universal principal ∞-bundle]]
+
+* [[universal vector bundle]], [[universal complex line bundle]]
 
 * [[subobject classifier]], [[object classifier]]
 
@@ -42,7 +60,11 @@
 
 ## Examples and Applications
 
+* [[tangent bundle]], [[normal bundle]]
+
 * [[Hopf fibration]]
+
+* [[canonical line bundle]]
 
 * [[prequantum circle bundle]], [[prequantum circle n-bundle]]
 
