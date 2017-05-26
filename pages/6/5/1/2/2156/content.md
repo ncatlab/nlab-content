@@ -90,6 +90,8 @@ All of this definiteness terminology may now be applied to an *[[linear operator
 
 * [[self-dual object]]
 
+* [[inner product of vector bundles]]
+
 [[!redirects inner product]]
 [[!redirects inner products]]
 [[!redirects inner product space]]
