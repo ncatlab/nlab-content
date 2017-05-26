@@ -41,5 +41,13 @@ In [[constructive mathematics]], it is necessary that $I$ have [[decidable equal
 * [[Dirac delta distribution]]
 * [[graph of a functor]]
 
+## References
+
+Named after [[Leopold Kronecker]]. 
+
+See also 
+
+* Wikipedia, _[Kronecker delta](https://en.wikipedia.org/wiki/Kronecker_delta)_
+
 [[!redirects Kronecker delta]]
 [[!redirects Kronecker delta function]]
