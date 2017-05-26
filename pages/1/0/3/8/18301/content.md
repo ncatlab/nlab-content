@@ -17,42 +17,100 @@ One wants an equivalent and purely [[semantics|semantic]] characterization of [[
 
 A [[first-order theory|theory]] $T$ is substructure complete if after fixing a _substructure_, the theory of the [[elementary class]] of all $T$-models into which that substructure embeds is _complete_.
 
-(C.f. [[model complete theory]].)
-
-As discussed by ([JohnSmith01](#JohnSmith01)), [...]
-
 ## Definition
 
 +-- {: .num_defn}
 ###### Definition
 
-$DEFINITION
+A [[first-order theory]] $T$ in a language $\mathcal{L}$ is **substructure complete** if for any $M \in \mathbf{Mod}(T)$ and any $\mathcal{L}$-[[first-order structure|substructure]] $A \hookrightarrow M,$ the theory $T_{\mathsf{Diag}(A)}$ (expansion by $A$'s [[quantifier-free diagram]])---whose models are precisely those models $N \in \mathbf{Mod}(T)$ such that there exists an embedding of $\mathcal{L}$-structures $A \hookrightarrow N$---is complete.
 
 =--
 
-## Examples
+## Equivalence with quantifier elimination
 
 +-- {: .num_theorem}
 ###### Theorem
 
-(Theorem goes here)
+$T$ [[quantifier elimination|eliminates quantifiers]] if and only if $T$ is substructure-complete.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
+$(\Rightarrow)$ Suppose $T$ eliminates quantifiers. Fix a substructure $A$. Since quantifier-free sentences are automatically transferred by embeddings (whereas without the additional property of quantifier-freeness, we would require the additional property that an embedding be [[elementary embedding|elementary]]), then for any two models $M, N \in \mathbf{Mod}(T)$
 
-  (Proof goes here.)
+$$
+M \leftarrow A \rightarrow N
+$$
 
+containing $A$, we have that for every sentence $\varphi$ satisfied by $N$, $T \models \varphi \leftrightarrow \psi$ where $\psi$ is quantifier-free. Therefore, $\psi$ transfers to $A$ and $M$, so $M \models \varphi$ as well, and vice-versa.
+
+$(\Leftarrow)$ Now suppose $T$ is substructure complete. Fix $\varphi(x)$ an $\mathcal{L}$-formula. Consider the [[type (in model theory)|type]] $\Phi$ of its quantifier-free consequences,i .e.
+
+$$
+\Phi(x) \overset{\operatorname{df}}{=} \{\varphi^*(x) \text{ quantifier-free } \operatorname{|} T \models \varphi \implies \varphi^*\}.
+$$
+
+(This thing is like the quantifier-free principal ultrafilter on $\varphi$ in the Boolean algebra of definable sets.)
+
+Let $d_1, \dots, d_n$ be distinct new constant symbols. Write $d = \vec{d} = (d_1, \dots, d_n)$.
+
+Claim: $T \cup \Phi(d) \models \varphi(d).$
+
+Proof of claim: suppose towards a contradiction that there exists an $A \models T \cup \Phi(d) \cup \{\not \varphi(d)\}.$ Let $d^A$ be the interpretation of $d$ in $A$. Consider the finitely-generated $\mathcal{L}$-substructure of $A$
+
+$$
+C \overset{\operatorname{df}}{=} \langle d^A \rangle_{\mathcal{L}}.
+$$
+
+Subclaim: $T \cup \{\varphi(d^A)\} \cup \mathsf{Diag}(C)$ is satisfiable.
+
+Proof of subclaim: this will be a standard [[compactness theorem|compactness argument]]. Suppose otherwise; by compactness there exist sentences $\theta_1, \dots, \theta_m \in \mathsf{Diag}(C)$ such that
+
+$$
+T \cup \{\varphi(d^A)\} \cup \{\theta_i\}_{i \leq m}
+$$ 
+
+is not sastisfiable. By how we obtain [[quantifier-free diagram|quantifier-free diagrams]], we can write $\theta_i = \theta'_i(d^A)$, where $\theta'_i$ is an $\mathcal{L}$-formula.
+
+Therefore,
+
+$$
+T \cup \{\varphi(d^A), \theta_0(x), \theta'_1(d^A), \dots, \theta_m'(d^A)\}
+$$
+
+is not satisfiable, where $\theta_0(x)$ [to be continued]
 =--
 
+## Examples
+
+* By the above theorem, any theory which [[quantifier elimimation | eliminates quantifiers]] is substructure complete.
+
+* So e.g. the [[countable random graph]], the theory [[ACF]] of algebraically closed fields, the theory [[DLO]] of dense linear orders...
+
 ## Remarks
+* The analogous (and weaker) property where one asks that the theory of the elementary class of $T$-models _elementarily embedding_ a fixed $T$-model is complete is called [[model complete theory | model completeness]].
+
+* Of course, substructure-completeness implies model-completeness.
 
 ## Related concepts
+* [[quantifier elimination]]
+
+* [[model complete theory]]
+
+* [[existentially closed model]]
 
 ## References
 
 * {#JohnSmith01}John Smith, blah blah
 
-[[!redirects askdjlaksjd]]
+[[!redirects substructure-complete]]
+
+[[!redirects substructure completeness]]
+
+[[!redirects substructure-completeness]]
+
+[[!redirects substructure complete theories]]
+
+[[!redirects substructure-complete theories]]
