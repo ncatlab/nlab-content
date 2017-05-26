@@ -1,8 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 The analogue of an [[orthogonal factorization system]] in a [[derivator]].
+
+## Related concepts
+
+* [[orthogonal factorization system in an (∞,1)-category]]
 
 ## References
 
-* Fosco Loregian, Simone Virili, *Factorization systems on (stable) derivators*, [arxiv](https://arxiv.org/abs/1705.08565)
+* [[Fosco Loregian]], Simone Virili, *Factorization systems on (stable) derivators*, [arxiv](https://arxiv.org/abs/1705.08565)
 
 [[!redirects orthogonal factorization system in a derivator]]
 [[!redirects factorization system in a derivator]]
