@@ -82,6 +82,7 @@ While the [[C*-algebra]] of a [[Riemannian manifold|Riemannian]] [[spin structur
 
 
 ## Definition
+ {#Definition}
 
 > under construction
 
@@ -94,7 +95,7 @@ We take
 1. _[[vector bundle]]_ to mean _[[topological vector bundle]] over $k$ of finite [[rank of a vector bundle|rank]]_.
 
 
-For the most part we assume that the base [[topological space]] $X$ is a [[compact Hausdorff space]]. Because then then following statement holds, which is crucial in some places:
+For the most part below we will assume that the base [[topological space]] $X$ is a [[compact Hausdorff space]]. Because then the following statement holds, which is crucial in some places:
 
 +-- {: .num_lemma #DirectSumHasInverseUpToTrivialBundle}
 ###### Lemma
@@ -110,7 +111,7 @@ is a [[trivial vector bundle]].
 
 =--
 
-For **proof** see at _[[topological vector bundle]]_ [this prop.](TopologicalVectorbundleOverCompactHausdorffSpaceIsDirectSummandOfTrivialBundle)
+For **proof** see [this prop.](TopologicalVectorbundleOverCompactHausdorffSpaceIsDirectSummandOfTrivialBundle) at _[[topological vector bundle]]_.
 
 ### The K-group
 
@@ -157,19 +158,20 @@ $$
   K(X) \;\coloneqq\; K(Vect(X)_{/\sim}, +)
 $$
 
-for the [[Grothendieck group]] of the [[semi-group]] of [[isomorphism classes]] of [[topological vector bundles]] on $X$ (def. \ref{SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX}).
+for the [[Grothendieck group]] of the [[semi-group]] of [[isomorphism classes]] of [[topological vector bundles]] on $X$
+from def. \ref{SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX}.
 
 This means that $K(X)$ is the [[group]] whose elements are [[equivalence classes]] of pairs
 
 $$
-  ([E_+], [E_-])
+  ([E_+], [E_-]) \; \in Vect(X)_{/\sim} \times Vect(X)_{/\sim}
 $$
 
-of [[isomorphism classes]] of [[topological vector bundles]] on $X$, with respect to the 
+of [[isomorphism classes]] of [[topological vector bundles]] on $X$, with respect to the
 [[equivalence relation]]
 
 $$
-  \left(
+  \big(
   \left(
     [E_+], [E_-]
   \right)
@@ -177,7 +179,7 @@ $$
   \left(
     [F_+, F_-]
   \right)
-  \right)
+  \big)
    \;\Leftrightarrow\;
   \left(
     \underset{[G],[H] \in Vect(X)_{/\sim}}{\exists}
@@ -190,9 +192,147 @@ $$
   \,.
 $$
 
-Here a pair $([E_+], [E_-])$ is also called a _[[virtual vector bundle]]_.
+Here a pair $([E_+], [E_-])$ is also called a _[[virtual vector bundle]]_, and its equivalence class under the
+above equivalence relation is also denoted
+
+$$
+  [E_+] - [E_-] \;\;\in K(X)
+  \,.
+$$
+
+If $X$ is a [[pointed topological space]], hence equipped with a choice of point $x \in X$
+
+then difference of [[rank of a vector bundle|ranks]] $rk_x(-)$ of the representing vector bundles
+over the [[connected component]] of $x \in X$
+
+$$
+  rk_x(E_+) -  rk_x(E_-) \in \mathbb{Z}
+$$
+
+is called the _virtual rank_ of the virtual vector bundle.
 
 =--
+
++-- {: .num_example #KGroupOfThePoint}
+###### Example
+**(K-group of the point is the [[integers]])**
+
+Let $X = \ast$ be the [[point]]. Then a [[topological vector bundle]] on $X$ is just a [[vector space]]
+
+$$
+  Vect(\ast) \simeq Vect
+$$
+
+and an isomorphism of vector bundles is just a bijective [[linear map]].
+
+Since [[finite dimensional vector spaces]] are [[isomorphism|isomorphic]] precisely if they have the same
+[[dimension]], the [[semi-group]] of isomorphism classes of vector bundles over the point (def. \ref{SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX})
+is the [[natural numbers]]:
+
+$$
+  \left(
+    Vect(\ast)_{/\sim}, +
+  \right)
+    \;\simeq\;
+  \left(
+    \mathbb{N}, +
+  \right)
+  \,.
+$$
+
+Accordingly the K-group of the point is the [[Grothendieck group]] of the natural numbers, which is the
+additive group of [[integers]]:
+
+$$
+  K(\ast) \simeq (\mathbb{Z}, +)
+$$
+
+and this identification is the assignment of _virtual rank_ (def. \ref{KGroupByGrothendieckGroup}).
+
+=--
+
++-- {: .num_remark #OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
+###### Remark
+**(on [[compact Hausdorff spaces]] all [[virtual vector bundles]] are formal difference by a [[trivial vector bundle]])**
+
+If $X$ is a [[compact Hausdorff space]], then every [[virtual vector bundle]] on $X$ (def. \ref{KGroupByGrothendieckGroup})
+of the form
+
+$$
+  [E] - [X \times k^n]
+$$
+
+(i.e. for the negatice component represented by a [[trivial vector bundle]]).
+
+This is because for $X$ compact Hausdorff then lemma \ref{DirectSumHasInverseUpToTrivialBundle} implies
+that for every [[topological vector bundle]] $E_-$ there exists a topological vector bundle $\tilde E_-$
+with $E_- \oplus_X \tilde E_- \simeq X \times k^n$, and hence
+
+$$
+  [E_+] - [E_-]
+  =
+  \underset{[E]}{\underbrace{[E_+] + [\tilde E_-]}}
+    -
+  \underset{[X \times k^n]}{\underbrace{ \left( [E_-] + [\tilde E_-] \right) } }
+  =
+  [E] - [X \times k^n]
+  \,.
+$$
+
+=--
+
+
++-- {: .num_remark #FunctorialityOfKGroup}
+###### Remark
+**([[functor|functoriality]] of the K-group assignment)
+
+Let $f \colon X \longrightarrow Y$ be a [[continuous function]] between [[topological spaces]].
+The operation of [[pullback of vector bundles]]
+
+$$
+  f^\ast \;\colon\; Vect(Y) \longrightarrow Vect(X)
+$$
+
+is compatible with [[direct sum of vector bundles]]
+and hence descends to a [[group homomorphism]]
+
+$$
+  f^\ast \;\colon\; K(Y) \longrightarrow K(X)
+$$
+
+between the K-groups from def. \ref{KGroupByGrothendieckGroup}. Moreover, for
+
+$$
+  X \overset{f}{\longrightarrow} Y \overset{g}{\longrightarrow} Z
+$$
+
+two consecutive [[continuous functions]], then the consecutive pullback
+of the vector bundle is isomorphic to the pullback along the composite map, which
+means that on K-group pullback preserves composition
+
+$$
+  (g \circ f)^\ast = f^\ast \circ g^\ast \;\colon\; K(Z) \longrightarrow K(X)
+  \,.
+$$
+
+Finally, of course pullback along an [[identity function]] $id_X \colom X \to X$ is the identity group
+homomorphism.
+
+In summary this says that the assignment of K-groups to topological spaces is a [[functor]]
+
+$$
+  K(-)
+   \;\colon\;
+  Top
+    \longrightarrow
+  Ab
+$$
+
+from the [[category]] [[Top]] of [[topological space]] to the category [[Ab]] of [[abelian groups]].
+
+=--
+
+We consider next the image of plain vector bundles in [[virtual vector bundles]]:
 
 +-- {: .num_prop #StableEquivalenceOfVectorBundles}
 ###### Definition
@@ -224,8 +364,9 @@ If $E_1 \sim_{stable} E_2$ we say that $E_1$ and $E_2$ are _stably equivalent ve
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop }
 ###### Proposition
+**([[image]] of plain [[vector bundles]] in [[virtual vector bundles]])**
 
 Let $X$ be a [[topological space]]. There is a [[homomorphism]] of [[semigroups]]
 
@@ -260,6 +401,9 @@ $$
 +-- {: .proof}
 ###### Proof
 
+The homomorphism of semigroups $Vect(X)_{/\sim} \to K(X)$ is the one given by the
+[[universal property]] of the [[Grothendieck group]] construction.
+
 By definition of the [[Grothendieck group]], two elements of the form
 
 $$
@@ -274,11 +418,11 @@ $$
   \right)
 $$
 
-are equivalent precisely if there exist vector bundles $F_1$ and $F_2$ such that 
+are equivalent precisely if there exist vector bundles $F_1$ and $F_2$ such that
 
 $$
-  \left( 
-     [ E_1 \oplus_X F_1 ], [ F_1] 
+  \left(
+     [ E_1 \oplus_X F_1 ], [ F_1]
   \right)
    \;=\;
   \left(
@@ -287,7 +431,7 @@ $$
   \,.
 $$
 
-First of all this means that $F_1 \simeq F_2$, hence is equivalent to the existence of a vector 
+First of all this means that $F_1 \simeq F_2$, hence is equivalent to the existence of a vector
 bundle $F$ such that
 
 
@@ -297,14 +441,14 @@ $$
 $$
 
 Now, by the assumption that $X$ is compact Hausdorff, lemma \ref{DirectSumHasInverseUpToTrivialBundle}
-implies that there exists a vector bundle $\tilde F$ such that 
+implies that there exists a vector bundle $\tilde F$ such that
 
 $$
   F \oplus_X \tilde F \simeq X \times k^n
 $$
 
 is the [[trivial vector bundle]] of some [[rank of a vector bundle|rank]] $n \in \mathbbN}$. This means that the above is equivalent already to the existence of an
-$n \in \mathbb{N}$ such that 
+$n \in \mathbb{N}$ such that
 
 $$
  [E_1 \oplus (X \times k^n)]
@@ -319,77 +463,213 @@ This is the definition of stable equivalence from def. \ref{StableEquivalenceOfV
 
 
 
+
 ### The reduced K-group
+ {#ReducedKGroup}
+
++-- {: .num_defn #KernelReducedKGroup}
+###### Definition
+**([[reduced K-theory]])**
+
+Let $X$ be a [[pointed topological space]], hence a [[topological space]] equipped with a choice of
+point $x \in X$, hence with a [[continuous function]] $const_x \colon \ast  \to X$ from the [[point space]].
+
+By the functoriality of the K-groups (remark \ref{FunctorialityOfKGroup}) this induces a group homomorphism
+
+$$
+  const_x^\ast \;\colon\; K(X) \longrightarrow K(\ast)
+  \,.
+$$
+
+The [[kernel]] of this map is called the _[[reduced K-theory]] group_ of $(X,x)$, denoted
+
+$$
+  \tilde K(X) \;\coloneqq\; ker(const_x^\ast)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #RestrictionInKTheoryToPointComputesVirtualRank}
+###### Remark
+**(restriction in K-theory to the point computes virtual rank)**
+
+By example \ref{KGroupOfThePoint} we have that
+
+1. $K(\ast) \simeq \mathbb{Z}$;
+
+1. under this identification the function $const_x^\ast$ is the assignment of _virtual rank_
+
+   $$
+     \array{
+        K(X) &\overset{const_x^\ast}{\longrightarrow}& K(\ast) &\overset{\simeq}{\to}& \mathbb{Z}
+        \\
+        [E]- [F] &\overset{\phantom{AAA}}{\mapsto}& [E_x] - [F_x] &\mapsto& rk_x(E) - rk_x(F)
+     }
+   $$
+
+=--
+
+
++-- {: .num_prop #KGrupDirectSummandReducedKGroup}
+###### Proposition
+**(over [[compact Hausdorff spaces]] $\tilde K(X)$ is a [[direct sum|direct summand]] of $K(X)$)
+
+If $(X,x)$ is a [[pointed topological space|pointed]] [[compact Hausdorff space]] then the defining [[short exact sequence]]
+of [[reduced K-theory]] group (def. \ref{KernelReducedKGroup})
+
+$$
+  0 \to \tilde K(X) \hookrightarrow K(X) \overset{const_x^\ast}{\longrightarrow} K(\ast) \simeq \mathbb{Z}
+$$
+
+[[split exact sequence|splits]] and thus yields an [[isomorphism]], which is given by
+
+$$
+  \array{
+    K(X)
+      &\overset{\phantom{A}\simeq \phantom{A}}{\longrightarrow}&
+    \tilde K(X) \oplus \mathbb{Z}
+    \\
+    [E] - [X \times k^n]
+      &\overset{\phantom{AAA}}{\mapsto}&
+    ([E], rk_x(E) - n)
+  }
+  \,.
+$$
+
+Here on the left we are using remark \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
+to represent any element of the K-group as a [[virtual vector bundle|virtual]] difference of a vector bundle $E$ by a trivial bundle,
+and $rk_x(E) \in \mathbb{N}$ denotes the [[rank of a vector bundle|rank]] of this vector bundl over the [[connected component]]
+of $x \in X$.
+
+Equivalently this means that every element of $K(X)$ decomposes as follows into a
+piece that has vanishing virtual rank over the connected component of $x$ and a virtual trivial bundle.
+
+$$
+  [E]- [X \times k^n]
+    =
+  \underset{\in \tilde K(X) \subset K(X)}{\underbrace{\left( [E] - [X \times k^{rk_x(E)}] \right)}}
+    -
+  \underset{\in \mathbb{Z} \subset K(X) }{\underbrace{[X \times k^{n-rk_x(E)}]}}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By remark \ref{RestrictionInKTheoryToPointComputesVirtualRank} the kernel of
+$const_x^\ast$ is identified with the [[virtual vector bundles]] of
+vanishing virtual rank.
+By remark \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
+this kernel is identified with the elements of the form
+$$
+  [E] - [X \times k^{rk_x(E)}]
+  \,.
+$$
+
+=--
+
+In order to describe $\tilde K(X)$ itself as an equivalence class, we consider the followign refinement
+of [[stable equivalence of vector bundles]] (def. \ref{StableEquivalenceOfVectorBundles}):
 
 +-- {: .num_defn #EquivalenceRelationForReducedKTheory}
 ###### Definition
+**([[equivalence relation]] for [[reduced K-theory]] on [[compact Hausdorff spaces]])**
 
-For $X$ a [[topological space]], define an [[equivalence relation]] on the [[set]] of  [[topological vector bundle]] $E \to X$ over $X$ by declaring that $E_1 \sim E_2$ if there exists $k_1, k_2 \in \mathbb{N}$ such that there is an [[isomorphism]] of [[topological vector bundles]] between the [[direct sum of vector bundles]] of $E_1$ with the [[trivial vector bundle]] $X \times \mathbb{R}^{k_1}$ and of $E_2$ with $X \times \mathbb{R}^{k_2}$
+For $X$ a [[topological space]], define an [[equivalence relation]] on the [[set]] of  [[topological vector bundles]] $E \to X$ over $X$ by declaring that $E_1 \sim E_2$ if there exists $k_1, k_2 \in \mathbb{N}$ such that there is an [[isomorphism]] of [[topological vector bundles]] between the [[direct sum of vector bundles]] of $E_1$ with the [[trivial vector bundle]] $X \times \mathbb{R}^{k_1}$ and of $E_2$ with $X \times \mathbb{R}^{k_2}$
 
 $$
-  (E_1 \sim E_2)
+  (E_1 \sim_{red} E_2)
    \Leftrightarrow
   \left(
     \underset{k_1,k_2 \in \mathbb{N}}{\exists}
       \left(
          (E_1 \oplus_X (X \times \mathbb{R}^{k_1})
            \;\simeq\;
-         (E_2 \oplus (X \times \mathbb{R}^{k_2})
+         (E_2 \oplus_X (X \times \mathbb{R}^{k_2})
       \right)
   \right)
   \,.
 $$
 
-Write
 
-$$
-  \tilde K(X) \coloneqq Vect(X)_{/\sim}
-$$
-
-for the [[quotient set]] of [[equivalence class|equivalence classes]].
-
-The operation of [[direct sum of vector bundles]] descends to these quotients to make them commutative [[semi-groups]] ([[commutative monoids]]):
+The operation of [[direct sum of vector bundles]] descends to these quotients
 
 $$
   [E_1] + [E_2]
   \;\coloneqq\;
   [ E_1 \oplus_X E_2 ]
+$$
+
+to yield a commutative [[semi-group]]
+
+$$
+  \left(Vect(X)_{/\sim_{red}}, +\right)
   \,.
 $$
 
 =--
 
-
-+-- {: .num_prop #KGroupIsIndeedAGroup}
++-- {: .num_prop}
 ###### Proposition
-**(over [[compact Hausdorff spaces]] $\tilde K(X)$ is an [[abelian groups]] under [[direct sum of vector bundles]])
 
-If $X$ is a [[compact Hausdorff space]] then the [[commutative monoid]] $\tilde K(X)$ from def. \ref{DefinitionOfKClasses} is an [[abelian group]].
+For $X$ a [[compact Hausdorff space]] then the commutative [[semi-group]] $(Vect(X)_{/\sim_{red}}, +)$
+from def. \ref{EquivalenceRelationForReducedKTheory} and an actual [[abelian group]] and is
+in fact [[natural isomorphism|naturally isomorphic]]
+to the [[reduced K-theory]] group $\tilde K(X)$ (def. \ref{KernelReducedKGroup}):
+
+$$
+  \tilde K(X) \simeq (Vect(X)_{/\sim_{red}}, +)
+  \,.
+$$
 
 =--
-
 
 +-- {: .proof}
 ###### Proof
 
-The statement is that in $\tilde K(X)$ there is an [[inverse]] to the additive operation of [[direct sum of vector bundles]]. 
+By prop. \ref{KGrupDirectSummandReducedKGroup} $\tilde K(X)$ is the subgroup of the [[Grothendieck group]] $K(X)$
+on the elements of the form $[E]- [X \times k^{rk_x(E)}]$, which are cleraly entirely determined by
+$[E] \in Vect(X)_{/\sim}$. Hence we need to check if the equivalence relation of the Gorthendieck 
+goup coincides with $\sim_{red}$ on these representatives. 
 
-Clearly the reduced K-class $[X \times \mathbb{R}^n]$ of any [[trivial vector bundle]] is the neutral additive element in $K(X)$ as well as in $\tilde K(X)$, so that
-
-$$
-  [X \times \mathbb{R}^n] = 0
-$$
-
-for all $n \in \mathbb{N}$. Therefore an inverse of a class $[E_1]$ is given by a vector bundle $E_2$ with the property that the direct sum
+The relation in the Grothendieck group is given by
 
 $$
-  E_1 \oplus E_2 \simeq X \times \mathbb{R}^n
+  \left(
+    [E_1]
+      \sim
+    [E_2]
+  \right)
+    \Leftrightarrow
+  \left(
+    \underset{[G], [H] \in Vect(X)_{/\sim}}{\exists}
+    \left(
+      ( [E_1]+ [G], [X \times k^{rk_x(E_1)}] + [G] )
+      \;=\;
+      ( [E_2] + [H], [X \times k^{rk_x(E_2)}] + [H] )
+    \right)
+  \right)
 $$
 
-is isomorphic to a [[trivial vector bundle]] for some $n \in \mathbb{N}$. This is the case over [[compact Hausdorff spaces]] by lemma \ref{DirectSumHasInverseUpToTrivialBundle}.
+As before, in remark \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
+we may assume without restriction that $G = X \times k^{n_1}$ and $H = X \times k^{n_2}$ are [[trivial vector bundles]]. Then 
+the above equality on the first component
 
+$$
+  [E_1] + [X \times k^{n_1}]
+  =
+  [E_2] + [X \times k^{n_2}]
+$$ 
+
+is the one that defines $\sim_{red}$, and since isomorphic vector bundles
+necessarily have the same rank, it implies the equality of the second component.
 
 =--
+
+### The K-ring
 
 (...)
 
