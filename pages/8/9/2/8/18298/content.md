@@ -433,7 +433,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Since $X$ is assumed to be paracompact Hausdorff, there exists a [[inner product of vector bundles]]
+Since $X$ is assumed to be paracompact Hausdorff, there exists an [[inner product on vector bundles]]
 
 $$
   \langle -,-\rangle
