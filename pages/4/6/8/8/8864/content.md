@@ -23,9 +23,59 @@ For $E_1, E_2 \to X$ two [[vector bundles]], their [[direct sum]] over $X$, also
 
 ## Definition
 
-+-- {: .num_defn #DirectSumOfTopologicalVectorBundles}
++-- {: .num_defn #DirectSumOfTopologicalVectorBundlesViaTotalspaces}
 ###### Definition
-**(direct sum of [[topological vector bundles]])**
+**([[direct sum]] of [[topological vector bundles]] via total spaces)**
+
+Let 
+
+1. $X$ be a [[topological space]],
+
+1. $E_1 \overset{\pi_1}{\to} X$ and $E_2 \overset{\pi_2}{\to} X$ two [[topological vector bundles]] over $X$.
+
+Then the _direct sum of vector bundles_ $E_1 \oplus E_2 \to E$ is the [[topological vector bundle]] whose total space is the [[topological subspace]]
+
+$$
+  E_1 \oplus E_2
+  \;\coloneqq\;
+  \left\{
+    (v_1, v_2)
+    \in 
+    E_1 \times E_2
+    \,\vert\,
+    \pi_1(v_1) = \pi_2(v_2)
+  \right\}
+  \;\subset\;
+  E_1 \times E_2
+$$
+
+of the [[product topological space]] of the two total spaces, and whose projection map is
+
+$$
+  \array{
+    E_1 \oplus E_2 
+      &\overset{\phantom{AA}\pi\phantom{AA}}{\longrightarrow}&
+    X
+    \\
+    (v_1,v_2) &\overset{\phantom{AAA}}{\mapsto}& \pi_1(v_1) = \pi_2(v_2)
+  }
+  \,.
+$$
+
+For $x \in X$ the vector space structure on the [[fibers]] 
+
+$$
+  (E_1 \oplus E_2)_x \simeq (E_1)_x \oplus (E_2)_x
+$$
+
+is the one on the [[direct sum]] of [[vector spaces]].
+
+
+=--
+
++-- {: .num_defn #DirectSumOfTopologicalVectorBundlesViaTransitionFunctions}
+###### Definition
+**([[direct sum]] of [[topological vector bundles]] via [[transition functions]])**
 
 Let $X$ be a [[topological space]], and let $E_1 \to X$ and $E_2 \to X$ be two [[topological vector bundles]] over $X$. 
 
@@ -98,7 +148,7 @@ $$
 
 Let 
 
-1. $X$ be a [[paracompact topological space]] 
+1. $X$ be a [[paracompact topological space]],
 
 1. $E \to X$ a [[topological vector bundle]]. 
 
@@ -140,6 +190,8 @@ Prop. \ref{Smooth0TypeIsSheavesOnSmoothMfd} is key for the construction of [[top
 
 ## Related concepts
 
+* [[inner product of vector bundles]]
+
 * [[tensor product of vector bundles]], [[dual vector bundle]], [[tensor category]]
 
 * [[Stiefel-Whitney class]]
@@ -155,7 +207,7 @@ Discussion with an eye towards [[topological K-theory]] is in
 * [[Max Karoubi]], _K-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften __226__, Springer 1978. xviii+308 pp.
 
 
-* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
+* {#Hatcher} [[Allen Hatcher]], section 1.1 of _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
 
 and with an eye towards [[algebraic K-theory]] in
 
