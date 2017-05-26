@@ -167,7 +167,7 @@ In summary, it is important to make people understand that groups can be identif
 
 * **monoid**, internal monoid/monoid object,
 
-  * [[commutative monoid]]
+  * [[commutative monoid]], [[cancellative monoid]]
 
   * [[algebra in an (∞,1)-category|monoid object in a (∞,1)-category]]
 
