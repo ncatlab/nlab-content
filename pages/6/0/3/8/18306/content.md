@@ -1,0 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+=--
+=--
+
+
+## Definition
+
+A [[fiber bundle]] over a [[topological space]] is called _numerable_ if it admits a [[local trivialization]] over a [[numerable open cover]].
+
+Various results for [[classifying spaces]] that classify arbitrary bundles over [[paracompact topological spaces]] generalizes to a classification of numerable bundles over general spaces
+
+[[!redirects numerable bundles]]
