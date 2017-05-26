@@ -414,7 +414,7 @@ We discuss properties of the [[direct sum of vector bundles]] for topological ve
 
 Let 
 
-1. $X$ be a [[paracompact topological space]],
+1. $X$ be a [[paracompact Hausdorff space]],
 
 1. $E \to X$ a [[topological vector bundle]] (def. \ref{TopologicalVectorBundle}). 
 
@@ -428,6 +428,29 @@ $$
 =--
 
 ([e.g. Hatcher, prop. 1.3](#Hatcher))
+
++-- {: .proof}
+###### Proof
+
+Since $X$ is assumed to be paracompact Hausdorff, there exists a [[inner product of vector bundles]]
+
+$$
+  \langle -,-\rangle
+  \;\colon\;
+  E \oplus_X E 
+    \longrightarrow
+  X \times \mathbb{R}
+$$
+
+(by [this porp.](inner+product+of+vector+bundles#ExistenceOfInnerProductOfTopologicalVectorBundlesOverParacompactHausdorffSpaces)). This defines at each $x \in X$ the [[orthogonal complement]] $(E'_x)^\perp \subset E_x$ of $E'_x \hookrightarrow E$. The [[subspace]] of these orthogonal complements is readily checked to be a [[topological vector bundle]] $(E')^\perp \to X$. Hence by construction then
+
+$$
+  E \simeq E' \oplus (E')^\perp
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
 ###### Proposition
@@ -704,7 +727,7 @@ Discussion with an eye towards [[topological K-theory]] is in
 * [[Max Karoubi]], _K-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften __226__, Springer 1978. xviii+308 pp.
 
 
-* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
+* {#Hatcher} [[Allen Hatcher]], chapter 1 of _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
 
 
 
