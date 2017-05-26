@@ -167,7 +167,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Since $X$ is assumed to be paracompact Hausdorff, there exists a [[inner product of vector bundles]]
+Since $X$ is assumed to be paracompact Hausdorff, there exists a [[inner product on vector bundles]]
 
 $$
   \langle -,-\rangle
@@ -298,7 +298,7 @@ Prop. \ref{OverCompactHausdorffSpacesEveryTopologicalVectorBundleIsDirectSummand
 
 ## Related concepts
 
-* [[inner product of vector bundles]]
+* [[inner product on vector bundles]]
 
 * [[tensor product of vector bundles]], [[dual vector bundle]], [[tensor category]]
 
