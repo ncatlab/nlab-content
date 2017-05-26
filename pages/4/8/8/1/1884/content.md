@@ -281,10 +281,34 @@ $$
 
 =--
 
++-- {: .num_remark #KTheoryRing}
+###### Remark
+**([[commutative ring]] structure on $K(X)$ from [[tensor product of vector bundles]])**
+
+Also the operation of [[tensor product of vector bundles]] over $X$ descends to
+[[isomorphism classes of vector bundles]] and makes $(Vect(X)_{\sim}, \oplus, \oplus)$
+a [[semi-ring]] ([[rig]]).
+
+(This is the shadow under passing to isomorphism classes of the fact that the [[category]] $Vect(X)$
+is a [[distributive monoidal category]] under [[tensor product of vector bundles]]).
+
+This  mulitlicative structure passes to the K-group (def. \ref{KGroupByGrothendieckGroup}) by the formula
+
+$$
+  [E_+, E_-] \cdot [F_+, F_-]
+    \;\coloneqq\;
+  [ (E_+ \otimes_X F_+) \oplus_X (E_- \otimes_X E_-) \,,\, (E_+ \otimes_X F_-) \oplus_X (E_- \otimes_X F_+)  ]
+  \,.
+$$
+
+Accordingly the ring $(K(X), +,\cdot)$ is also called the _K-theory ring_ of $X$.
+
+=--
+
 
 +-- {: .num_remark #FunctorialityOfKGroup}
 ###### Remark
-**([[functor|functoriality]] of the K-group assignment)
+**([[functor|functoriality]] of the K-theory ring assignment)
 
 Let $f \colon X \longrightarrow Y$ be a [[continuous function]] between [[topological spaces]].
 The operation of [[pullback of vector bundles]]
@@ -293,14 +317,14 @@ $$
   f^\ast \;\colon\; Vect(Y) \longrightarrow Vect(X)
 $$
 
-is compatible with [[direct sum of vector bundles]]
-and hence descends to a [[group homomorphism]]
+is compatible with [[direct sum of vector bundles]] as well as with [[tensor prouct of vector bundles]]
+and hence descends to a [[homomorphism]] of [[commutative rings]]
 
 $$
   f^\ast \;\colon\; K(Y) \longrightarrow K(X)
 $$
 
-between the K-groups from def. \ref{KGroupByGrothendieckGroup}. Moreover, for
+between the K-theory rings from remark \ref{KTheoryRing}. Moreover, for
 
 $$
   X \overset{f}{\longrightarrow} Y \overset{g}{\longrightarrow} Z
@@ -325,10 +349,10 @@ $$
    \;\colon\;
   Top
     \longrightarrow
-  Ab
+  CRing
 $$
 
-from the [[category]] [[Top]] of [[topological space]] to the category [[Ab]] of [[abelian groups]].
+from the [[category]] [[Top]] of [[topological space]] to the category [[CRing]] of [[commutative rings]].
 
 =--
 
@@ -669,14 +693,35 @@ necessarily have the same rank, it implies the equality of the second component.
 
 =--
 
-### The K-ring
 
-(...)
++-- {: .num_remark}
+###### Remark
+**([[non-unital ring|non-unital]] [[commutative ring]]-structure on $\tilde K(X)$)**
+
+In view of the [[commutative ring]] structure on the K-group $K(X)$ from remark \ref{KTheoryRing},
+the reduced K-group $\tilde K(X)$ from def. \ref{KernelReducedKGroup}, being the [[kernel]]
+of a ring [[homomorphism]] (remark \ref{FunctorialityOfKGroup}) is an ideal in $K(X)$, 
+hence itself a [[non-unital ring|non-unital]] [[commutative ring]].
+
+(The ring unit of $K(X)$ is the class $[X \times k^1, X \times k^0]$ of the [[trivial vector bundle|trivial]]
+[[line bundle]] on $X$, which has virtual rank 1, and hence is not in $\tilde K(x)$.)
+
+
+=--
+
 
 
 
 
 ## Properties
+
+### Fundamental product theorem
+
+* [[fundamental product theorem in K-theory]]
+
+### Bott periodicity
+
+* [[Bott periodicity]]
 
 ### Classifying space
  {#ClassifyingSpace}
