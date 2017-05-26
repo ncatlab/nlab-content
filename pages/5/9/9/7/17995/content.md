@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 Given a [[bundle]] $p \colon E \to X$, and a morphism $f \colon Y \to X$, then the _pullback bundle_ $f^\ast E \to Y$ is (if it exists) simply the [[pullback]] of $p$ along $f$, regarded as a [[bundle]] over $Y$.
@@ -10,5 +24,9 @@ Over a [[paracompact topological space]] then every [[vector bundle]] is [[isomo
 
 [[!redirects pullback bundles]]
 
+[[!redirects pullback of fiber bundles]]
+[[!redirects pullbacks of fiber bundles]]
+
 [[!redirects pullback of vector bundles]]
 [[!redirects pullbacks of vector bundles]]
+
