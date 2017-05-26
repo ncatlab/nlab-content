@@ -198,6 +198,110 @@ A [[Dowker space]] is an example of a normal space which is not [[countably para
 
 ## Properties
 
+### Basic properties
+
++-- {: .num_prop #T4InTermsOfTopologicalClosures}
+###### Proposition
+**(normality in terms of topological closures)**
+
+A [[topological space]] $(X,\tau)$ is normal Hausdorff, precisely if all points are closed and for all [[closed subsets]] $C \subset X$ with [[open neighbourhood]] $U \supset C$ there exists a smaller open neighbourhood $V \supset C$ whose [[topological closure]] $Cl(V)$ is still contained in $U$:
+
+$$
+  C \subset V \subset Cl(V) \subset U
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In one direction, assume that $(X,\tau)$ is normal, and consider
+
+$$
+  C \subset U
+  \,.
+$$
+
+It follows that the [[complement]] of the open subset $U$ is closed and disjoint from $C$:
+
+$$
+  C \cap X \setminus U = \emptyset
+  \,.
+$$
+
+Therefore by assumption of normality of $(X,\tau)$, there exist open neighbourhoods  with
+
+$$
+
+  V \supset C
+  \,, \phantom{AA}
+  W \supset X \setminus U
+  \phantom{AA}
+    \text{with}
+  \phantom{AA}
+  V \cap W = \emptyset
+  \,.
+$$
+
+But this means that
+
+$$
+  V \subset X \setminus W
+$$
+
+and since the [[complement]] $X \setminus W$ of the open set $W$ is closed, it still contains the closure of $V$, so that we have
+
+$$
+  C \subset V \subset Cl(V) \subset X \setminus W \subset U
+$$
+
+as required.
+
+In the other direction, assume that for every open neighbourhood $U \supset C$ of a closed subset $C$ there exists a smaller open neighbourhood $V$ with
+
+$$
+  C \subset V \subset Cl(V) \subset U
+  \,.
+$$
+
+Consider disjoint closed subsets
+
+$$
+  C_1, C_2 \subset X
+  \,,
+  \phantom{AAA}
+  C_1 \cap C_2 = \emptyset
+  \,.
+$$
+
+We need to produce disjoint open neighbourhoods for them.
+
+From their disjointness it follows that
+
+$$
+  X \setminus C_2 \supset C_1
+$$
+
+is an open neighbourhood. Hence by assumption there is an open neighbourhood $V$ with
+
+$$
+  C_1 \subset V \subset Cl(V) \subset X \setminus C_2
+  \,.
+$$
+
+Thus
+
+$$
+  V \supset C_1
+    \,, \phantom{AAAA}
+  X \setminus Cl(V) \supset C_2
+$$
+
+are two disjoint open neighbourhoods, as required.
+
+=--
+
 
 ### Tietze extension and lifting property
  {#TietzeEtensionAndLiftingProperty}
