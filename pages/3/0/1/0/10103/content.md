@@ -42,7 +42,25 @@ $$\array{
   && V.
 }$$
 
-## The weakly semicartesian case
+## Examples
+ {#Examples}
+
+Examples of distributive monoidal categories include the following:
+
+* [[Ab]], the category of [[abelian groups]] equipped with the [[tensor product of abelian groups]]
+
+* $R$[[Mod]], the category of [[modules]] over a [[commutative ring]] $R$, equipped  with the [[tensor product of modules]]
+
+* $k$[[Vect]] = $k$[[Mod]], the category of [[vector space]] over some [[field]] $k$, equipped with the [[tensor product of vector spaces]],
+
+* $k$[[Vect(X)]], the category of ([[topological vector bundles|topological]]) [[vector bundles]] for $X$ some ([[topological space|topological]]) [[space]], equipped with the [[tensor product of vector bundles]].
+
+In all these cases the coproduct is the respective [[direct sum]] (e.g. [[direct sum of vector bundles]] in the last case).
+
+
+## Properties
+
+### The weakly semicartesian case
 
 +-- {: .num_remark} 
 ###### Remark 
@@ -61,9 +79,9 @@ Since $\hom(x \otimes y, y)$ is inhabited for all $x, y$ (with the help of some 
 =-- 
 
 
-## Free monoids
+### Free monoids
 
-A distinguishing feature of (infinitary) distributive monoidal categories is that the monad $T$ for monoids *in* such a category has a particularly simple expression:
+A distinguishing feature of (infinitary) distributive monoidal categories is that the [[monad]] $T$ for [[monoid objects]] in such a category has a particularly simple expression:
 $$ T X = \coprod_n X^{\otimes n}.$$
 The same is true for the monad on enriched graphs whose algebras are categories enriched over such a monoidal category.  This also generalizes to [[lax monoidal categories]], a.k.a. "multitensors"; see [(Weber)](#Weber).
 
