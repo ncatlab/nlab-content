@@ -885,6 +885,10 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 * **classifying space**, [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]], [[Kan-Thurston theorem]]
 
+  * [[Milnor classifying space]]
+
+  * [[numerable bundle]]
+
   * [[acyclic group]]
 
 * [[classifying topos]]
@@ -931,6 +935,3 @@ Discussion of classifying spaces in the context of [[measure theory]] is in
 
 
 [[!redirects classifying spaces]]
-
-[[!redirects Milnor classifying space]]
-[[!redirects Milnor classifying spaces]]
