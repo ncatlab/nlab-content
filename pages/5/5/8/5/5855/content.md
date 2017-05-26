@@ -46,7 +46,7 @@ $$
 is the [[functor]] that takes an $S$-[[module]] $N$ to the $R$-module $f^*N$ whose underlying [[abelian group]] is that of $N$ and whose $R$-[[action]] is given by
 
 $$
-  r \cdot n \coloneqq f(r)\cdot n \;\;\;\; for r \in R, n \in N
+  r \cdot n \coloneqq f(r)\cdot n \;\;\;\; for \; r \in R, n \in N
   \,.
 $$
 
