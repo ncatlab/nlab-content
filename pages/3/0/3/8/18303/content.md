@@ -1,3 +1,4 @@
+[[!redirects inner product of vector bundles]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,7 +21,7 @@
 
 ## Idea
 
-The concept of _inner product of vector bundles_ is the evident generalization of that of [[inner product]] of [[vector spaces]] to [[vector bundles]]: a [[fiber]]-wise inner product of vector spaces.
+The concept of _inner product on vector bundles_ is the evident generalization of that of [[inner product]] on [[vector spaces]] to [[vector bundles]]: a [[fiber]]-wise inner product of vector spaces.
 
 ## Definition
 
