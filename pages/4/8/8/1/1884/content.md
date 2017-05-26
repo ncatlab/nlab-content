@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -119,7 +120,7 @@ For **proof** see at _[[topological vector bundle]]_ [this prop.](TopologicalVec
 
 +-- {: .num_defn #DefinitionOfKClasses}
 ###### Definition
-**(stable equivalence of topological vector bundles)**
+**()**
 
 For $X$ a [[topological space]], define an [[equivalence relation]] on the [[set]] of  [[topological vector bundle]] $E \to X$ over $X$ by declaring that $E_1 \sim E_2$ if there exists $k_1, k_2 \in \mathbb{N}$ such that there is an [[isomorphism]] of [[topological vector bundles]] between the [[direct sum of vector bundles]] of $E_1$ with the [[trivial vector bundle]] $X \times \mathbb{R}^{k_1}$ and of $E_2$ with $X \times \mathbb{R}^{k_2}$
 
@@ -137,8 +138,6 @@ $$
   \,.
 $$
 
-This is called _[[stable equivalence of vector bundles]]_.
-
 Write 
 
 $$
@@ -147,12 +146,16 @@ $$
 
 for the [[quotient set]] of [[equivalence class|equivalence classes]]. 
 
-We also define the slightly coarser equivalence relation $E_1 \sim_s E_2$ where in the above definition of $\sim$ we force $k_1 = k_2$. The set of equivalence classes for this equivalence relation is denoted
+We also define the coarser equivalence relation $E_1 \sim_{s} E_2$ where in the above definition of $\sim$ we force $k_1 = k_2$. The set of equivalence classes for this equivalence relation is denoted
 
 $$
-  K(X) \coloneqq Vect(X)/{\sim_s}
+  Vect(X)_{/stable}
   \,.
 $$
+
+This is called _[[stable equivalence of vector bundles]]_.
+
+
 
 The operation of [[direct sum of vector bundles]] descends to these quotients to make them commutative [[semi-groups]] ([[commutative monoids]]):
 
@@ -163,47 +166,46 @@ $$
   \,.
 $$
 
-
 =--
 
 +-- {: .num_prop #KGroupIsIndeedAGroup}
 ###### Proposition
-**(over [[compact Hausdorff spaces]] stable equivalence classes of [[topological vector bundles]] are [[abelian groups]] under [[direct sum of vector bundles]])
+**(over [[compact Hausdorff spaces]] $\tilde K(X)$ is an [[abelian groups]] under [[direct sum of vector bundles]])
 
-If $X$ is  [[compact Hausdorff space]] then the commutative monoids $\tilde K(X)$ and $K(X)$ of stable equivalence classes of topological vector bundles  from def. \ref{DefinitionOfKClasses} are [[abelian groups]]. 
+If $X$ is a [[compact Hausdorff space]] then the [[commutative monoid]] $\tilde K(X)$ from def. \ref{DefinitionOfKClasses} is an abelian group
 
-Together with the fiberwise [[tensor product]] of vector bundles this makes $K(X)$ a [[commutative ring]] and $\tilde K(X)$ a [[nonunital ring]].  
 
 =--
 
-Therefore $K(X)$ is called the **topological K-theory ring** of $X$ or just the **K-theory group** or even just the **K-theory** of $X$, for short. The smaller ring $\tilde K(X)$ is called the **reduced K-theory** of $X$.
 
 +-- {: .proof}
 ###### Proof
 
-The non-trivial part of the statement is that in $\tilde K(X)$ and $K(X)$ there is an [[inverse]] to the operation of [[direct sum of vector bundles]]. Because in $Vect(X)$ direct sum acts by addition of the ranks of vector bundles, it clearly has no inverse in $Vect(X)$.
+The non-trivial part of the statement is that in $\tilde K(X)$ there is an [[inverse]] to the additive operation of [[direct sum of vector bundles]]. (Because direct sum acts by addition of the ranks of vector bundles, it clearly has no inverse in $Vect(X)$.)
 
-On the other hand, clearly the K-class $[I^n]$ of any trivial bundle $I^n$ is the neutral element in $\tilde K(X)$
-
-$$
-  [I^n] = 0
-$$
-
-for all $n \in \mathbb{N}$, because by definition $I^n \sim I^0$. Therefore an inverse of a class $[E_1]$ is given by a vector bundle $E_2$ with the property that the direct sum
+On the other hand, clearly the reduce K-class $[X \times \mathbb{R}^n]$ of any [[trivial vector bundle]] is the neutral additive element in $K(X)$ as well as in $\tilde K(X)$, so that 
 
 $$
-  E_1 \oplus E_2 \simeq I^n
+  [X \times \mathbb{R}^n] = 0
 $$
 
-is isomorphic to a trivial bundle for some $n$. This is the case by lemma \ref{DirectSumHasInverseUpToTrivialBundle}.
+for all $n \in \mathbb{N}$. Therefore an inverse of a class $[E_1]$ is given by a vector bundle $E_2$ with the property that the direct sum
+
+$$
+  E_1 \oplus E_2 \simeq X \times \mathbb{R}^n
+$$
+
+is isomorphic to a [[trivial vector bundle]] for some $n \in \mathbb{N}$. This is the case over [[compact Hausdorff spaces]] by lemma \ref{DirectSumHasInverseUpToTrivialBundle}.
 
 
 =--
 
+(...)
+
 +-- {: .num_prop #EquivalenceToGrothendieckGroup}
 ###### Proposition
 
-$\tilde K(X)$ is isomorphic to the [[Grothendieck group]] of $(Vect(X), \oplus)$.
+$K(X)$ is isomorphic to the [[Grothendieck group]] of $(Vect(X), \oplus)$.
 
 =--
 
