@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 =--
 =--
 
