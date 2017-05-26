@@ -75,14 +75,14 @@ Let $T$ be a theory. The following are equivalent:
 +-- {: .num_cor}
 ###### Corollary
 
-  [[ACF]] eliminates quantifier elimination. Furthermore, the theories $\mathsf{ACF}_p$ (where $p$ is specification of the characteristic) are complete.
+  [[ACF]] admits quantifier elimination. Furthermore, the theories $\mathsf{ACF}_p$ (where $p$ is specification of the characteristic) are complete.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-We put ourselves into the situation of the above theorem. Let $E$ and $F$ be algebraically closed fields such that $F$ is $|E|^+$-saturated. Let $R$ be a subring of $E$ with $i : R \to F$ an embedding. As $E$ is a field, $R$ is an integral domain, and thus $E$ contains the fraction field $\operatorname{Frac}(R)$ of $R$. The embedding $i$ extends uniquely to $\operatorname{Frac}(R)$. By a back-and-forth argument, $i$ extends uniquely to $\operatorname{Frac}(R)^{\operatorname{alg}}$. Therefore, we can assume that $R$ is algebraically closed. Let $a \in E \backslash R$. Then $a$ is transcendental over $R$, and by saturation its [[type (in model theory) | type]] is realized by some $b \in F$ which is transcendental by the image $i(R)$ of $R$ under $i$. Then $a \mapsto b$ induces an embedding $R[a] \overset{i'}{\to} i(R)[b]$, which extends $i$. Thus the hypotheses of the theorem are satisfied and [[ACF]] admits QE.
+We put ourselves into the situation of the above theorem. Let $E$ and $F$ be algebraically closed fields such that $F$ is $|E|^+$-saturated. Let $R$ be a subring of $E$ with $i : R \to F$ an embedding. As $E$ is a field, $R$ is an integral domain, and thus $E$ contains the fraction field $\operatorname{Frac}(R)$ of $R$. The embedding $i$ extends uniquely to $\operatorname{Frac}(R)$. By a back-and-forth argument, $i$ extends uniquely to $\operatorname{Frac}(R)^{\operatorname{alg}}$. Therefore, we can assume that $R$ is algebraically closed. Let $a \in E \backslash R$. Then $a$ is transcendental over $R$, and by saturation its [[type (in model theory) | type]] is realized by some $b \in F$ which is transcendental over the image $i(R)$ of $R$ under $i$. Then $a \mapsto b$ induces an embedding $R[a] \overset{i'}{\to} i(R)[b]$, which extends $i$. Thus the hypotheses of the theorem are satisfied and [[ACF]] admits QE.
 
 That $\mathsf{ACF}$ becomes complete after specifying a characteristic follows from the fact that in any theory with quantifier elimination, naming a substructure (thus passing to the theory of all models which contain a copy of that substructure) makes the theory complete, and every field of characteristic $p$ contains the prime field of characteristic $p$.
 
