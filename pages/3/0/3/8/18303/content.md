@@ -1,0 +1,36 @@
+
+
+## Definition
+
+Let 
+
+1. $X$ be a [[topological space]],
+
+1. $E \to X$ a [[topological vector bundle]] over $X$ (over $\mathbb{R}$, say).
+
+Then an _inner product_ on $E$ is 
+
+* a vector bundle [[homomorphism]]
+
+  $$
+    \langle -,-\rangle
+    \;\colon\;
+    E \oplus E 
+     \longrightarrow
+    X \times \mathbb{R}
+  $$
+
+  from the [[direct sum of vector bundles]] of $E$ with itself to the trivial [[line bundle]]
+
+such that
+
+* for each point $x \in X$ the function
+
+  $$
+    \langle -,-\rangle|_x \colon E_x \oplus E_x \to \mathbb{R}
+  $$
+
+  is an [[inner product]] on the [[fiber]] [[vector space]], hence a positive-definite symmetric [[bilinear form]].
+
+[[!redirects inner products of vector bundles]]
+
