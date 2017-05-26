@@ -28,9 +28,11 @@ If an open cover has the property that all the $U_i$ and all of their finite non
 
 ## Related concepts
 
-* [[finite open cover]]
+* [[finite open cover]], [[countable open cover]], [[numerable open cover]]
 
 * [[closed cover]]
+
+* [[locally finite open cover]]
 
 * [[schedule]]
 
