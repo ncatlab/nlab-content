@@ -1,3 +1,15 @@
+[[!redirects basic line bundle on the 2-sphere]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -13,11 +25,84 @@ Beware that this basic line bundle is sometimes called the "canonical line bundl
 
 ## Properties
 
-Write $h$ for the basic line bundle on the 2-sphere
++-- {: .num_prop #TensorRelationForBasicLineBundleOn2Sphere}
+###### Proposition
 
-$h \otimes h \oplus 1 \simeq h \oplus h$
+Under [[direct sum of vector bundles]] and [[tensor product of vector bundles]], the basic complex line bundle on the 2-sphere
 
-([Hatcher, Example 1.13](#Hatcher))
+$$
+  H \longrightarrow S^2
+$$
+
+satisfies the following relation
+
+$$
+  \left(
+    H \otimes_{S^2} H
+  \right)
+    \oplus_{S^2}
+  (S^2 \times \mathbb{C})
+  \;\simeq\;
+  H \oplus_{S^2} H
+$$
+
+(where $S^2 \times \mathbb{C}$ is the [[trivial vector bundle]] [[complex line bundle]] on the 2-sphere).
+
+=--
+
+(e.g ([Hatcher, Example 1.13](#Hatcher)))
+
++-- {: .proof}
+###### Proof
+
+Via the standard [[clutching construction]] there is a single [[transition function]] of the form
+
+$$
+  S^1 \longrightarrow GL(n,\mathbb{C})
+$$
+
+that characterizes all the bundles involved. With $S^1 \hookrightarrow \mathbb{C}$ identified with the [[topological subspace]] of [[complex numbers]] of unit [[absolute value]], the standard choice for these functions is
+
+* for $S^2 \times \mathbb{C}$: $f_1 \colon z \mapsto \left( 1 \right)$;
+
+* for $H$: $f_H \colon z \mapsto \left( z\right)$
+
+and hence
+
+* for $H \otimes H \oplus (X \times \mathbb{C})$: $z \mapsto \left( \array{ z^2 & 0 \\ 0 & 1 }\right)$
+
+* for $H \oplus H$: $z \mapsto \left( \array{ z & 0 \\ 0 & z }  \right)$.
+
+Since the complex [[general linear group]] $Gl(n,\mathbb{C})$ is [[path-connected topological space|path-connected]], there exists a [[continuous function]]
+
+$$
+  \gamma \colon [0,1] \longrightarrow GL(2,\mathbb{C})
+$$
+
+with $\gamma(0) = \left( \array{ 1 & 0 \\ 0 & 1 }  \right)$
+
+and $\gamma(1) = \left(  \array{ 0 & 1 \\ 1 & 0 } \right)$
+
+Therefore the function
+
+$$
+  \array{
+    S^1 \times [0,1] &\overset{}{\longrightarrow}& GL(2,\mathbb{C})
+    \\
+    t 
+      &\overset{\phantom{AA}}{\longrightarrow}& 
+    f_{H \oplus 1} \cdot \gamma(t) \cdot f_{1 \oplus H} \cdot \gamma(t)
+  }
+$$
+
+(with [[matrix multiplication]] on the right)
+
+is a [[left homotopy]] from $f_{H \oplus H}$ to 
+$f_{H \otimes H \oplus 1}$.
+
+
+=--
+
 
 [[fundamental product theorem in K-theory]]
 
@@ -36,6 +121,7 @@ $$
 $$
 
 ([Wirthmuller 12, p. 17](#Wirthmuller12))
+
 
 ## References
 
