@@ -30,7 +30,7 @@ Vector bundles are of central interest in large parts of [[mathematics]] and [[p
 
 To that end, observe that all natural operations on [[vector spaces]] generalize to vector bundles by applying them [[fiber]]-wise. Notably there is the fiberwise [[direct sum of vector bundles]], also called the _[[nLab:Whitney sum]]_ operation. This operation gives the set $Vect(X)_{/\sim}$ of [[nLab:isomorphism classes]] of vector bundles the structure of an [[semi-group]] ([[monoid]]) $(Vect(X)_{/\sim},\oplus)$.
 
-Now as under direct sum, the [[nLab:dimension]] of vector spaces adds, similarly under [[nLab:direct sum of vector bundles]] their [[nLab:rank]] adds.  Hence in analogy to how one passes from the  additive [[semi-group]] ([[monoid]]) of  [[natural numbers]] to the addtitive [[group]] of [[integers]] by adjoining formal additive inverses, so one may adjoin formal additive inverses to $(Vect(X)_{/\sim},\oplus)$. By a general prescription ("[[Grothendieck group]]") this is achieved by first passing to the larger class of [[pairs]] $(V_+,V_-)$ of vector bundles ("[[virtual vector bundles]]"), and then [[quotient|quotienting]] out the [[equivalence relation]] given by
+Now as cunder direct sum, the [[nLab:dimension]] of vector spaces adds, similarly under [[nLab:direct sum of vector bundles]] their [[nLab:rank]] adds.  Hence in analogy to how one passes from the  additive [[semi-group]] ([[monoid]]) of  [[natural numbers]] to the addtitive [[group]] of [[integers]] by adjoining formal additive inverses, so one may adjoin formal additive inverses to $(Vect(X)_{/\sim},\oplus)$. By a general prescription ("[[Grothendieck group]]") this is achieved by first passing to the larger class of [[pairs]] $(V_+,V_-)$ of vector bundles ("[[virtual vector bundles]]"), and then [[quotient|quotienting]] out the [[equivalence relation]] given by
 
 $$
   (V_+, V_-) \sim (V_+ \oplus W , V_- \oplus W)
@@ -84,29 +84,35 @@ While the [[C*-algebra]] of a [[Riemannian manifold|Riemannian]] [[spin structur
 
 > under construction
 
-Let $X$ be a [[compact space|compact]] [[Hausdorff space|Hausdorff]] [[topological space]]. Write $k$ for either the [[field]] of [[real number]]s $\mathbb{R}$ or of [[complex number]]s $C$ . By a [[vector space]] we here mean a vector space over $k$ of [[finite number|finite]] [[dimension]]. By a [[vector bundle]] we mean a topological $k$-vector bundle of finite [[rank of a vector bundle]].  We write $I^n \to X$ for the trivial vector bundle $I^n = k^n \times X$ over $X$ of [[rank]] $n \in \mathbb{N}$.
+Let 
+
+1. $X$ be a [[compact space|compact]] [[Hausdorff space|Hausdorff]] [[topological space]]. 
+
+1. $k$ either the [[field]] of [[real numbers]] $\mathbb{R}$ or of [[complex numbers]] $\mathbb{C}$ . 
+
+We take 
+
+1. _[[vector space]]_ to mean a _[[finite dimensional vector space]]_ over $k$. 
+
+1. _[[vector bundle]]_ to mean a [[topological vector bundle]] over $k$  of finite [[rank of a vector bundle]].  
+
+We write $I^n \to X$ for the trivial vector bundle $I^n = k^n \times X$ over $X$ of [[rank]] $n \in \mathbb{N}$.
 
 +-- {: .num_lemma #DirectSumHasInverseUpToTrivialBundle}
 ###### Lemma
+**(over [[compact Hausdorff space]] every [[topological vector bundle]] is [[direct sum of vector bundle|direct summand]] of a [[trivial vector bundle]])**
 
-For every vector bundle $E \to X$ (with $X$ [[compact space|compact]] [[Hausdorff space|Hausdorff]]) there exists a [[vector bundle]] $E' \to X$ such that 
+For every [[topological vector bundle]] $E \to X$ over the [[compact Hausdorff space]] $X$ there exists a [[topology vector bundle]] $\tilde E \to X$ such that the [[direct sum of vector bundles]]
 
 $$
-  E \oplus E' \simeq I^{rank E + rank E'}
-  \,.
+  E \oplus_X \tilde E \simeq X \times \mathbb{R}^{n}
 $$
+
+is a [[trivial vector bundle]].
 
 =--
 
-
-+-- {: .proof}
-###### Proof
-
-One invokes a [[partition of unity]] relative to an [[open cover]] on which $E$ trivializes, constructs $E'$ locally and glues.
-
-See at [[direct sum of vector bundles]] _[this prop](direct+sum+of+vector+bundles#Smooth0TypeIsSheavesOnSmoothMfd)_ for more
-
-=--
+For **proof** see at _[[topological vector bundle]]_ [this prop.](TopologicalVectorbundleOverCompactHausdorffSpaceIsDirectSummandOfTrivialBundle)
 
 
 
