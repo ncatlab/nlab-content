@@ -96,7 +96,13 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-Let $X$ be a [[paracompact topological space]] and let $E \to X$ be a [[topological vector bundle]]. Then every vector subbundle $E_1 \hookrightarrow E$ is a direct vector bundle summand, in that there exists another vector subbundle $E_2 \hookrightarrow E$ such that their direct sum of vector bundles (def. \ref{DirectSumOfTopologicalVectorBundles}) is $E$
+Let 
+
+1. $X$ be a [[paracompact topological space]] 
+
+1. $E \to X$ a [[topological vector bundle]]. 
+
+Then every vector subbundle $E_1 \hookrightarrow E$ is a direct vector bundle summand, in that there exists another vector subbundle $E_2 \hookrightarrow E$ such that their direct sum of vector bundles (def. \ref{DirectSumOfTopologicalVectorBundles}) is $E$
 
 $$
   E_1 \oplus E_2 \simeq E
