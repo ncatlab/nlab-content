@@ -31,7 +31,7 @@ A _topological vector bundle_ is a [[vector bundle]] in the context of _[[topolo
 ## Definition
 
 We first give the more abstract definiton 
-in terms of slice catesugories (def. \ref{TopologicalVectorBundleInTermsOfSliceCategories} below) and then unwind this to the traditional definition (def \ref{TopologicalVectorBundle} below).
+in terms of slice categories (def. \ref{TopologicalVectorBundleInTermsOfSliceCategories} below) and then unwind this to the traditional definition (def \ref{TopologicalVectorBundle} below).
 
 For definiteness, in the following by _[[vector space]]_ we mean _[[real vector space|real]] [[finite dimensional vector space]]_. The generalization to other [[topological fields|topological]] [[ground field]] such as the [[complex numbers]] is immediate.
 
@@ -74,6 +74,10 @@ such that
 
 It follows that $n \in \mathbb{N}$ is constant on [[connected components]]. Often this is required to be constant on all of $X$ and then called the _[[rank]]_ of the vector bundle.
 
+A _[[homomorphism]]_ of topological vector bundles is simple a homomorphism of vector space objects in $Top_{/X}$.
+
+Topological vector bundles over $X$ and homomorphisms between them constitutes a [[category]], usually denoted [[Vect(X)]].
+
 =--     
 
 Notice that viewed in [[Top]], the last condition means that there is a [[diagram]] of the form
@@ -98,7 +102,7 @@ If we say this yet more explicitly, it yields the definition as found in the tra
 
 +-- {: .num_defn #TopologicalVectorBundle}
 ###### Definition
-**(vector bundle, traditionally)**
+**(topological vector bundle in components)**
 
 Let $X$ be a [[topological space]]. Then a _topological vector bundle_ over $X$ is
 
@@ -149,6 +153,19 @@ such that
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+For $X$ a [[topological space]], there is the [[category]] whose
+
+* [[objects]] are the topological vector bundles over $X$,
+
+* [[morphisms]] are the topological vector bundle homomorphisms
+
+according to def. \ref{TopologicalVectorBundle}. This category usually denoted [[Vect(X)]].
+
+=--
+
 +-- {: .num_example #TrivialTopologicalVectorBundle}
 ###### Example
 **(trivial topological vector bundle and (local) trivialization)**
@@ -162,7 +179,7 @@ $$
 
 canonically becomes a topological vector bundle over $X$ (def. \ref{TopologicalVectorBundle}). This is called the _trivial vector bundle_ of [[rank]] $n$ over $X$.
 
-Given any topological vector bundle $E \to X$, then a choice of [[isomorphism]] to w trivial bundle (if it exists)
+Given any topological vector bundle $E \to X$, then a choice of [[isomorphism]] to a trivial bundle (if it exists)
 
 $$
   E \overset{\simeq}{\longrightarrow} X \times \mathbb{R}^n
@@ -181,6 +198,28 @@ $$
 $$
 
 as in def. \ref{TopologicalVectorBundle} constitute a _[[local trivialization]]_ of $E$.
+
+=--
+
++-- {: .num_example #TopologicalVetorSubbundle}
+###### Example
+**(topological vector sub-bundle)**
+
+Given a topological vector bundel $E \to X$ (def. \ref{TopologicalVectorBundle}), then a _sub-bundle_ is a homomorphism of topological vector bundles over $X$
+
+$$
+  i\;\colon\; E' \hookrightarrow E
+$$
+
+such that for each point $x \in X$ this is a linear embedding of fibers
+
+$$
+  i|_x \;\colon\; E'_x \hookrightarrow E_x
+  \,.
+$$
+
+(This is a [[monomorphism]] in the [[category]] $Vect(X)$ of topological vector bundles over $X$.)
+
 
 =--
 
@@ -367,17 +406,19 @@ $$(U_i \cap U_j) \times V \overset{(\langle incl, g_{i j} \rangle) \times V}{\to
 
 ### Direct summand bundles
 
+We discuss properties of the [[direct sum of vector bundles]] for topological vector bundles.
 
 +-- {: .num_prop }
 ###### Proposition
+**(sub-bundles over [[paracompact spaces]] are [[direct sum of vector bundlesdirect summands]])**
 
 Let 
 
-1. $X$ be a [[paracompact topological space]] 
+1. $X$ be a [[paracompact topological space]],
 
-1. $E \to X$ a [[topological vector bundle]]. 
+1. $E \to X$ a [[topological vector bundle]] (def. \ref{TopologicalVectorBundle}). 
 
-Then every vector subbundle $E_1 \hookrightarrow E$ is a direct vector bundle summand, in that there exists another vector subbundle $E_2 \hookrightarrow E$ such that their direct sum of vector bundles (def. \ref{DirectSumOfTopologicalVectorBundles}) is $E$
+Then every topological vector sub-bundle $E_1 \hookrightarrow E$ (example \ref{TopologicalVetorSubbundle}) is a direct vector bundle summand, in that there exists another vector subbundle $E_2 \hookrightarrow E$ such that their direct sum of vector bundles (def. \ref{DirectSumOfTopologicalVectorBundles}) is $E$
 
 $$
   E_1 \oplus E_2 \simeq E
@@ -390,14 +431,15 @@ $$
 
 +-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
 ###### Proposition
+**(vector bundles over a [[compact Hausdorff space]] are [[direct sum of vector bundles|direct summands]] of a trivial bundle)**
 
 Let 
 
 1. $X$ be a [[compact Hausdorff space]];
 
-1. $E \to X$ a [[topological vector bundle]].
+1. $E \to X$ a [[topological vector bundle]] (def. \ref{TopologicalVectorBundle}).
 
-Then there exists another topological vector bundle $\tilde E \to X$ such that the direct sum of vector bundles (def. \ref{DirectSumOfTopologicalVectorBundles}) of the two is a trivial vector $X \times \mathbb{R}^n$:
+Then there exists another topological vector bundle $\tilde E \to X$ such that the [[direct sum of vector bundles]] of the two is a trivial vector $X \times \mathbb{R}^n$:
 
 $$
   E \oplus \tilde E
