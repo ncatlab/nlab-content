@@ -89,7 +89,11 @@ Let $T$ be a theory. The following are equivalent:
 
 A standard [[back-and-forth argument]] starting at $x'$ lets us build our required extension.
 
-(2. $\implies$ 1.) By possibly transfinitely iterating 2., we obtain an embedding $M \to N.$ As we can always embed a $T$-model inside a larger, arbitrarily saturated $T$-model, we therefore have [[model completeness|amalgamation]]. Furthermore, this gives [[model completeness]], as the algebra of definable sets associated to a submodel must arise via restriction inside some amalgamation (a [[monster model]]). Since [[model completeness#substructureconverse|model completeness + amalgamation implies substructure completeness]] and [[substructure complete theory#QEiffsubstructurecomplete|substructure completeness is equivalent to quantifier elimination]], the theorem is proved.
+(2. $\implies$ 1.) By possibly transfinitely iterating 2., we obtain an embedding $M \to N.$ As we can always embed a $T$-model inside a larger, arbitrarily saturated $T$-model, we therefore have [[model completeness|amalgamation]].
+
+This gives [[model completeness]]: if $M$ is a common $T$-submodel of $N$ and $K$, then the symmetry of (2.) gives two saturated (even [[monster model]]) amalgams $^*N$ and $^*K$ into which $N$ and $K$ elementarily embed (resp. $K$ and $N$ just embed), all over $M$. Since we can arrange for $^*N$ and $^*K$ to be isomorphic over $M$, $N$ and $K$ cannot disagree on any sentence over $M$, since these will transfer via the elementary embeddings $N \preceq$ $^*N \simeq$ $^*K \succeq K$.
+
+Since [[model completeness#substructureconverse|model completeness + amalgamation implies substructure completeness]] and [[substructure complete theory#QEiffsubstructurecomplete|substructure completeness is equivalent to quantifier elimination]], the theorem is proved.
 
 =--
 
