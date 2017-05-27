@@ -16,7 +16,7 @@
 
 One thinks of [[existential quantifier | existential quantification]] as _[[projection]]_. A theory eliminates quantifiers when "the projection of a primitive (quantifier-free) definable set is still primitive (quantifier-free)."
 
-For example, suppose we're working with the theory of an infinite [[vector space]] over a fixed field $\mathbb{F}$. Let $A$ be a linear transformation $\mathbb{F}^{n+1} \to \mathbb{F}^m$. Let $\vec{b}$ be an $m$-tuple, $x$ a variable, and $\vec{y}$ an $n$-tuple of variables. Then the solution set for
+For example, suppose we're working in the theory of a [[vector space]] over a fixed field $\mathbb{F}$. Let $A$ be a linear transformation $\mathbb{F}^{n+1} \to \mathbb{F}^m$. Let $\vec{b}$ be an $m$-tuple, $x$ a variable, and $\vec{y}$ an $n$-tuple of variables. Then the solution set for
 
 $$
 \exists x A(x, \vec{y}) = \vec{b}
@@ -30,7 +30,7 @@ $$
 
 to the $\vec{y}$-hyperplane. Since the projection of a (translated) hyperplane is again a (translated) hyperplane, there exists some $B : \mathbb{F}^n \to \mathbb{F}^m$ such that $B(\vec{y}) = \vec{b} \iff (\exists x) \left(A(x, \vec{y}) = \vec{b}\right).$
 
-This is an instance of the fact that the theory of infinite [[vector space | vector spaces]] over a division ring admits quantifier elimination. It's nice when this happens, and when it doesn't, one asks for minimal ways to expand the language to make it happen. That [[ACF]] eliminates quantifiers is a special case of [[Chevalley's theorem on constructible sets]] ("the image of a constructible set is constructible").
+This is an instance of the fact that the theories of [[vector space | vector spaces]] over division rings admits quantifier elimination. It's nice when this happens, and when it doesn't, one asks for minimal ways to expand the language to make it happen. That [[ACF]] eliminates quantifiers is a special case of [[Chevalley's theorem on constructible sets]] ("the image of a constructible set is constructible").
 
 Often, in order to prove quantifier-elimination, one develops an _effective_ procedure for reducing an arbitrary sentence to a quantifier-free one, which shows that the theory is [[decidability|decidable]]; this is how Tarski proved that the theory [[RCF]] of real closed fields is decidable. 
 
@@ -50,6 +50,10 @@ $$
 * Quantifier elimination implies [[model complete theory | model completeness]]: all submodels are elementary submodels and all models are [[existentially closed theory | existentially closed]].
 
 * It is an informative exercise to try to prove QE syntactically (a "tractable" case like [[DLO]] suffices) to appreciate the usefulness of the semantic/model-theoretic characterization of QE below.
+
+* The characterizations below (and in general important tools in model theory like the [[compactness theorem]], the [[Lowenheim-Skolem theorem]], etc.) only work for _infinite_ models.
+
+* Since quantifier elimination is equivalent to [[substructure complete theory#substructureconverse|substructure completeness]] and [[elementary equivalence|elementarily equivalent]] finite structures are isomorphic, (the theory of a) finite [[first-order structure]] eliminates quantifiers if and only if it is [[Fraisse limit|ultrahomogeneous]].
 
 ## Semantic characterizations of QE
 
