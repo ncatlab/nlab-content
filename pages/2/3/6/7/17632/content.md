@@ -37,7 +37,7 @@ We additionally specify a characteristic $p$ to obtain $\mathsf{ACF}_p$ by eithe
 
 * It's easy to see that $\mathsf{ACF}$ [[elimination of imaginaries|codes]] all finite sets: if $R$ is a finite set of points inside a monster $\mathbb{M}$, its code is the tuple $c$ of coefficients for the polynomial
 
-$$f(X) \overset{\operatorname{df}}{=} \displaystyle \prod_{r \in R} (X - R),$$
+$$f(X) \overset{\operatorname{df}}{=} \displaystyle \prod_{r \in R} (X - r),$$
 
 so that $c$ is fixed by an automorphism of $\mathbb{M}$ if and only if that automorphism permutes $R$.
 
