@@ -3,13 +3,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 #### Group Theory
 +-- {: .hide}
 [[!include group theory - contents]]
-=--
-#### Higher algebra
-+--{: .hide}
-[[!include higher algebra - contents]]
 =--
 =--
 =--
@@ -21,7 +21,7 @@
 ## Idea
 
 The [[forgetful functor]] $U$ from [[abelian groups]] to [[commutative monoids]] has a [[left adjoint]] $G$. This is called _group completion_.
-A standard presentation of the group completion is the [[Grothendieck group]] construction. As such group completion plays a central role in the definition of [[K-theory]].
+A standard presentation of the group completion is the [[Grothendieck group of a commutative monoid]]. As such group completion plays a central role in the definition of [[K-theory]].
 
 
 More generally in [[(∞,1)-category theory]] and [[higher algebra]] there is 
