@@ -28,7 +28,7 @@ A [[first-order theory]] $T$ in a language $\mathcal{L}$ is **substructure compl
 
 ## Equivalence with quantifier elimination
 
-+-- {: .num_theorem}
++-- {: .num_theorem#QEiffsubstructurecomplete}
 ###### Theorem
 
 $T$ [[quantifier elimination|eliminates quantifiers]] if and only if $T$ is substructure-complete.
@@ -148,7 +148,7 @@ Since the $\varphi^*_i$ are all quantifier-free, and $\varphi$ was arbitrary, we
 * So e.g. the [[countable random graph]], the theory [[ACF]] of algebraically closed fields, the theory [[DLO]] of dense linear orders...
 
 ## Remarks
-* The analogous (and weaker) property where one asks that the theory of the elementary class of $T$-models embeddings a fixed $T$-model is complete is called [[model complete theory | model completeness]].
+* The analogous (and weaker) property where one asks that the theory of the elementary class of $T$-models embedding a fixed $T$-model is complete is called [[model complete theory | model completeness]].
 
 * Of course, substructure-completeness implies model-completeness.
 
