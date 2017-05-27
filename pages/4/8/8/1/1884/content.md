@@ -115,6 +115,8 @@ For **proof** see [this prop.](TopologicalVectorbundleOverCompactHausdorffSpaceI
 
 ### The K-group
 
+The starting point is the simple observation that the operation of [[direct sum of vector bundles]] yields a [[monoid]] structure ([[semi-group]] with [[unitality|unit]]) on [[isomorphism classes]] of [[topological vector bundles]], which however is lacking [[inverse elements]] and hence is not an actual [[group]].
+
 +-- {: .num_defn #SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX}
 ###### Definition
 **([[semi-group]] of [[isomorphism classes]] of [[topological vector bundles]] on $X$)
@@ -137,7 +139,7 @@ $$
   [E_1 \oplus_X E_2]
 $$
 
-to yield the structure of a [[monoid]] ([[semi-group]])
+to yield the structure of a [[monoid]] ([[semi-group]] with [[unitality|unit]])
 
 $$
   \left(
@@ -147,6 +149,44 @@ $$
 $$
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+The operation of [[direct sum of vector bundles]] on [[isomorphism clases]] in def. \ref{SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX} is indeed not a [[group]]: 
+
+Let $x \in X$ be a chosen point of $x$ and write
+
+$$
+  rk_x
+    \;\colon\;
+  Vect(X)_{/\sim}
+    \longrightarrow
+  \mathbb{N}
+$$
+
+for the [[function]] which takes a [[topological vector bundle]] to the [[rank of a vector bundle|rank]] over the [[connected component]] of the point $x$.
+
+Then under [[direct sum of vector bundles]] the rank is additive
+
+$$
+  rk_x(E_1 \oplus_X E_2)
+   \,=\,
+  rk_x(E_1) + rk_x(E_1)
+  \,.
+$$
+
+Now since the [[natural numbers]] under [[addition]] are just a [[monoid]] ([[semi-group]] with [[unitality|unit]]), with no element except zeor having an [[inverse element]] under the additive operation, it follows immediately that a necessary condition for the [[isomorphism class]] of a [[topological vector bundle]] to be invertible under [[direct sum of vector bundles]] is that its [[rank of a vector bundle]] be zero. But there is only one such class of vector bundles, in fact there is only one such vector bundle, namely the unique rnk-zro bundle $X \times k^0$, necessarily a [[trivial bundle]].
+
+Now for the [[monoid]] of [[natural numbers]] $(\mathbb{N},+)$ it is a time honored fact that it is interesting and useful to rectify its failure of being a [[group]] by [[universal construction|universally]] forcing it to become one. This is a process called _[[group completion]]_ and the group completion of the natural numbers is the additive group of [[integers]] $(\mathbb{Z},+)$.
+
+The idea is hence to apply group completion also to the monoid $(Vect(X)_{/\sim}, +)$, and so that the [[rank of a vector bundle|rank]] operation above becomes a [[homomorphism]] of [[abelian groups]].
+
+=--
+
+An explicit construction of [[group completion]] of a [[commutative monoid]] is called the _[[Grothendieck group of a commutative monoid]]_. 
+
+
 
 +-- {: .num_defn #KGroupByGrothendieckGroup}
 ###### Definition
