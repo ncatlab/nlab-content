@@ -42,7 +42,14 @@ $$f(X) \overset{\operatorname{df}}{=} \displaystyle \prod_{r \in R} (X - R),$$
 so that $c$ is fixed by an automorphism of $\mathbb{M}$ if and only if that automorphism permutes $R$.
 
 ## Related concepts
-* [[the theory of differentially closed fields]]
+* [[theory of differentially closed fields]]
+
+* [[quantifier elimination]]
+
+* [[stable theory]]
+
+* [[Morley rank]]
+
 ## References
 * Dave Marker, _Model Theory: An Introduction_.
 
