@@ -381,6 +381,8 @@ Since the cohomology in degree $k$ only depends on the $k$-skeleton, and since f
 
 * [[Thom isomorphism]]
 
+* [[projective bundle]]
+
 ## References
 
 The [[Thom isomorphism]] for Thom spaces was originally found in
