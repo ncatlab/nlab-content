@@ -29,7 +29,7 @@ $$
   \,.
 $$
 
-This theorem in particular serves as a substantial step in a [[proof]] of [[Bott periodicity]] for [[topological K-theory]].
+This theorem in particular serves as a substantial step in a [[proof]] of [[Bott periodicity]] for [[topological K-theory]] (cor \ref{BottPeriodicity} below).
 
 The usual [[proof]] proceeds by first realizing all [[vector bundles]] on $X \times S^2$ via an $X$-parameterized [[clutching construction]], then showing that all the clutching functions are [[homotopy|homotopic]] to those that are [[Laurent series]] as functions on $S^1$, and then analyzing these.
 
@@ -128,6 +128,95 @@ $$
 is an [[isomorphism]] in [[topological K-theory]].
 
 =--
+
+When restricted to [[reduced K-theory]] then the external product theorem yields the statement of [[Bott periodicity]]:
+
++-- {: .num_cor #BottPeriodicity}
+###### Corollary
+**([[Bott periodicity]])
+
+Let $X$ be a  [[pointed topological space|pointed]] [[compact Hausdorff space]]. 
+
+Then there is an [[isomorphism]] of [[reduced K-theory]] 
+
+$$
+  \tilde K(X) \overset{\simeq}{\longrightarrow} \tilde K(\Sigma^2 X)
+$$
+
+from that of $X$ to that of its double [[suspension]] $\Sigma^2 X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By [this example](topologica+K-theory#ReducedKTheoryOfProductSpace)
+there is for any two pointed compact Hausdorff spaces $X$ and $Y$ an [[isomorphism]]
+
+$$
+  \tilde K(Y \times X) 
+    \simeq
+  \tilde K(Y \wedge X)
+    \oplus
+  \tilde K(Y)
+    \oplus 
+  \tilde K(X)
+$$
+
+relating the reduced K-theory of the [[product topological space]]
+with that of the [[smash product]].
+
+Using this and the fact that for any pointed compact Hausdorff space $Z$ we have 
+$K(Z) \simeq \tilde K(Z) \oplus \mathbb{Z}$ ([this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)) the isomorphism of the external product theorem (cor. \ref{ExternalProductTheorem}) 
+
+$$
+  K(S^2) \otimes K(X) \simeq K(S^2 \times X)
+$$
+
+becomes
+
+$$ 
+  \left(
+    \tilde K(S^2) \oplus \mathbb{Z}
+  \right)
+    \otimes
+  \left(
+     \tilde K(X) \oplus \mathbb{Z}
+  \right)
+   \;\simeq\;
+  \left(
+    \tilde K(S^2 \times X)
+     \oplus
+     \mathbb{Z}    
+  \right)
+   \simeq
+  \left(
+    \tilde K(S^2 \wedge X)
+      \oplus 
+    \tilde K(S^2)
+      \oplus
+    \tilde K(X)
+      \oplus
+    \mathbb{Z} 
+  \right)
+  \,.
+$$
+
+Multiplying out and chasing through the constructions to see that this reduces to an isomorphism on the common summand $\tilde K(S^2) \oplus \tilde K(X) \oplus \mathbb{Z}$, this yields an isomorphism of the form
+
+$$
+  \tilde K(S^2) \otimes \tilde K(X)
+    \simeq
+  \tilde K(S^2 \wedge X)
+    =
+  \tilde K(\Sigma^2 X)
+  \,,
+$$
+
+where on the right we used that [[smash product]] with the 2-sphere is the same as double [[suspension]]. Finally $\tilde K(S^2) \simeq \mathbb{Z}$ (example \ref{TopologicalKTheoryRingOfThe2Sphere}), so that the left hand reduces to $\tilde K(X)$.
+
+=--
+
 
 ## Examples
 
