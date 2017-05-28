@@ -33,21 +33,21 @@ Given a [[field]] $k$, the **general linear group** $GL(n,k)$ (or $GL_n(k)$) is 
 
 Let $k = \mathbb{R}$ or $= \mathbb{C}$ be the [[real numbers]] or the [[complex numbers]] equipped with their [[Euclidean topology]].
 
-In the following we focus on the case $k = \mathbb{R}$. The case $k = \mathbb{C}$ is completely analogous.
+### Definition
 
 +-- {: .num_defn #GLnAsTopologicalGroup}
 ###### Definition
 **(general linear group as a topological group)**
 
-For $n \in \mathbb{N}$, as a [[topological group]] the _general linear group_ $GL(n, \mathbb{R})$ is defined as follows.
+For $n \in \mathbb{N}$, as a [[topological group]] the _general linear group_ $GL(n, k)$ is defined as follows.
 
-The underlying group is the [[group]] of [[real number|real]] $n \times n$ [[matrices]] whose [[determinant]] is non-vanishing
+The underlying group is the [[group]] of [[real number|real]] or [[complex numbers|complex]] $n \times n$ [[matrices]] whose [[determinant]] is non-vanishing
 
 $$
-  GL(n)
+  GL(n,k)
   \;\coloneqq\;
   \left(
-    A \in Mat_{n \times n}(\mathbb{R})
+    A \in Mat_{n \times n}(k)
     \; \vert \;
     det(A) \neq 0
   \right)
@@ -58,7 +58,7 @@ with group operation given by [[matrix multiplication]].
 The [[topological space|topology]] on this set is the [[subspace topology]] as a subset of the [[Euclidean space]] of [[matrices]]
    
 $$
-  Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
+  Mat_{n \times n}(k) \simeq k^{(n^2)}
 $$
 
 with its [[metric topology]]. 
@@ -69,38 +69,102 @@ with its [[metric topology]].
 ###### Lemma
 **(group operations are continuous)**
 
-Definition \ref{GLnAsTopologicalGroup} is indeed well defined in that the group operations on $GL(n,\mathbb{R})$ are indeed [[continuous functions]] with respect to the given topology.
+Definition \ref{GLnAsTopologicalGroup} is indeed well defined in that the group operations on $GL(n,k)$ are indeed [[continuous functions]] with respect to the given topology.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Observe that under the identification $Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}$ [[matrix multiplication]] is a [[polynomial function]] 
+Observe that under the identification $Mat_{n \times n}(k) \simeq k^{(n^2)}$ [[matrix multiplication]] is a [[polynomial function]] 
 
 $$
-  \mathbb{R}^{(n^2)}
+  k^{(n^2)}
    \times
-  \mathbb{R}^{(n^2)}
+  k^{(n^2)}
    \simeq
-  \mathbb{R}^{ 2 n^2 }
+  k^{ 2 n^2 }
     \longrightarrow
-  \mathbb{R}^{(n^2)}
+  k^{(n^2)}
     \simeq
-  Mat_{n \times n}(\mathbb{R})
+  Mat_{n \times n}(k)
   \,.
 $$
 
 Similarly [[inverse matrix|matrix inversion]] is a [[rational function]]. Now [[rational functions are continuous]] on their [[domain]] of definition, 
 and since a real matrix is invertible previsely if its determinant is non-vanishing, the domain of definition for matrix inversion is precisely 
-$GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R})$.
+$GL(n,k) \subset Mat_{n \times n}(k)$.
+
+=--
+
++-- {: .num_defn #}
+###### Definition
+**(stable general linear group)**
+
+The evident [[tower]] of embeddings
+
+$$
+  k \hookrightarrow k^2 \hookrightarrow k^3 \hookrightarrow \cdots
+$$
+
+induces a corresponding [[tower diagram]] of embedding of the general linear groups (def. \ref{GLnAsTopologicalGroup}) 
+
+$$
+  GL(1,k)
+    \hookrightarrow
+  GL(2,k)
+    \hookrightarrow
+  GL(3,k)
+    \hookrightarrow
+  \cdots
+  \,.
+$$
+
+The [[colimit]] over this [[diagram]] in the [[category]] of [[topological group]] is called the _stable general linear group_ denoted
+
+$$
+  GL(k) \;\coloneqq\; \underset{\longrightarrow}{\lim}_n GL(n,k)
+  \,.
+$$
+
+=--
+
+### Properties
+
++-- {: .num_prop #ConnectednessOfGeneralLinearGroup}
+###### Proposition
+**(connectedness properties of the general linear group)**
+
+For all $n \in \mathbb{N}$
+
+1. the complex general linear group $GL(n,\mathbb{C})$ is [[path-connected topological space|path-connected]];
+
+1. the real general linear group $GL(n,\mathbb{R})$ is not [[path-connected topological space|path-connected]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First observe that $GL(1,k) = k^\setminus \{0\}$ has this property:
+
+1. $\mathbb{C} \setminus \{0\}$ is path-connected,
+
+1. $\mathbb{R} \setminus \{0\} = (-\infty,0) \sqcup (0,\infty)$ is not path connected.
+
+Now for the general case:
+
+1. For $k = \mathbb{C}$: every invertible complex matrix is diagonalizable by a sequence of elementary matrix operations. Each of these is clearly path-connected to the identity. Finally the subspace of [[diagonal matrices]] is the [[product topological space]] $\underset{ \{1, \cdots, n\} }{\prod} (\mathbb{C} \setminus)$ and hence clearly connected, since each factor space is.
+
+1. For $k = \mathbb{R}$: the [[determinant]] function is a [[continuous function]] $GL(n,k) \to \mathbb{R} \setminus \{0\}$, and since the [[codomain]] is not path connected, the domain cannot be either.
 
 =--
    
 +-- {: .num_prop #TopologicalGeneralLinearGroup}
 ###### Proposition
+**(compactness properties of the general linear group)**
 
-The [[topological group|topological]] general linear group $GL(n,\mathbb{R})$ (def. \ref{GLnAsTopologicalGroup}) is
+The [[topological group|topological]] general linear group $GL(n,k)$ (def. \ref{GLnAsTopologicalGroup}) is
 
 
 1. not [[compact topological space|compact]];
@@ -117,21 +181,22 @@ The [[topological group|topological]] general linear group $GL(n,\mathbb{R})$ (d
 Observe that 
 
 $$
-  GL_n(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
+  GL_n(n,k) \subset Mat_{n \times n}(k) \simeq k^{(n^2)}
 $$
    
-is an [[open subset|open]] [[subspace]], since it is the [[pre-image]] under the [[determinant]] function (which is a [[polynomial]] and hence continuous, as in the proof of lemma \ref{GLnTopologicalWellDefined}) of the of the open subspace $\mathbb{R} \setminus \{0\} \subset \mathbb{R}$.
+is an [[open subset|open]] [[subspace]], since it is the [[pre-image]] under the [[determinant]] function (which is a [[polynomial]] and hence continuous, as in the proof of lemma \ref{GLnTopologicalWellDefined}) of the of the open subspace $k \setminus \{0\} \subset k$.
 
-As an open subspace of Euclidean space, $GL(n,\mathbb{R})$ is not compact, by the [[Heine-Borel theorem]].
+As an open subspace of Euclidean space, $GL(n,k)$ is not compact, by the [[Heine-Borel theorem]].
 
-As Euclidean space is Hausdorff, and since every [[subspace]] of a Hausdorff space is again Hausdorff, so $Gl(n,\mathbb{R})$ is Hausdorff.
+As Euclidean space is Hausdorff, and since every [[subspace]] of a Hausdorff space is again Hausdorff, so $Gl(n,k)$ is Hausdorff.
    
-Similarly, as Euclidean space is [[locally compact topological space|locally compact]] and since an open subspace of a locally compact space is again locally compact, it follows that $GL(n,\mathbb{R})$ is locally compact.
+Similarly, as Euclidean space is [[locally compact topological space|locally compact]] and since an open subspace of a locally compact space is again locally compact, it follows that $GL(n,k)$ is locally compact.
 
-From this it follows that $GL(n,\mathbb{R})$ is paracompact, since locally compact topological groups are paracompact ([this prop.](topological+group#ConnectedLocallyCompactTopologicalGroupsAreSigmaCompact)).
+From this it follows that $GL(n,k)$ is paracompact, since locally compact topological groups are paracompact ([this prop.](topological+group#ConnectedLocallyCompactTopologicalGroupsAreSigmaCompact)).
 
 
 =--
+
 
 ### As a Lie group
  {#AsALieGroup}
@@ -140,7 +205,7 @@ From this it follows that $GL(n,\mathbb{R})$ is paracompact, since locally compa
 +-- {: .num_defn}
 ###### Definition
 
-Since the general linear group as a [[topological group]] (def. \ref{GLnAsTopologicalGroup}) is an  [[open subspace]] of [[Euclidean space]] (proof of prop. \ref{TopologicalGeneralLinearGroup}) it inherits the structure of a [[smooth manifold]] (by [this prop.](differentiable+manifold#OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds)). The group operations (being [[rational functions]]) are [[smooth functions]] with respect to this smooth structure. This is the general linear group $GL(n,\mathbb{R})$ as a _[[Lie group]]_
+Since the general linear group as a [[topological group]] (def. \ref{GLnAsTopologicalGroup}) is an  [[open subspace]] of [[Euclidean space]] (proof of prop. \ref{TopologicalGeneralLinearGroup}) it inherits the structure of a [[smooth manifold]] (by [this prop.](differentiable+manifold#OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds)). The group operations (being [[rational functions]]) are [[smooth functions]] with respect to this smooth structure. This is the general linear group $GL(n,\mathbb{R})$ as a _[[Lie group]]_.
 
 =--
 
@@ -157,9 +222,6 @@ One may in fact consider the set of invertible matrices over an arbitrary unital
 Coordinate rings of general linear groups and of special general linear groups have [[quantum group|quantum deformations]] called [[quantum linear groups]]. 
 
 
-## Stable and unstable versions:
-
-The above is sometimes referred to as the unstable general linear group, whilst the result if one lets $n$ go to infinity is called the [[stable general linear group]] of $R$, and is then written $GL(R)$ with no suffix.
 
 ## Related concepts
 
