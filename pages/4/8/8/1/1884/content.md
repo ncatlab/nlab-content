@@ -833,16 +833,19 @@ $$
 
 ### Exact sequences
 
-+-- {: .num_prop}
+We discuss the [[long exact sequences in cohomology]] for topological K-theory.
+
++-- {: .num_prop #ExactSequenceInReducedTopologicalKTheory}
 ###### Proposition
+**(exact sequence in reduced topological K-theory)**
 
 Let
 
-* $X$ be a [[compact Hausdorff space]];
+* $X$ be a [[pointed topological space|pointed]] [[compact Hausdorff space]];
 
-* $A \subset X$ a [[closed subset|closed]] [[subspace]]
+* $A \subset X$ a pointed [[closed subset|closed]] [[subspace]]
 
-Denote the [[continuous functions]] of subspace inclusion and of  [[quotient space]] coprojection  by
+Denote the [[continuous functions]] of pointed subspace inclusion and of  [[quotient space]] co-projection  by
 
 $$
   A
@@ -876,8 +879,9 @@ between the [[image]] of $g^\ast$ and the [[kernel]] of $i^\ast$.
 (e.g. [Hatcher, prop. 2.9](#Hatcher))
 
 
-+-- {: .num_cor}
++-- {: .num_cor #LongExactSequenceInReducedTopologicalKTheory}
 ###### Corollary
+**(long exact sequence in reduced topological K-theory)**
 
 For $X$ a [[compact Hausdorff space]] and for $A \subset X$ a [[closed subset|closed]] [[subspace]] inclusion,
 there is a [[long exact sequence]] of [[reduced K-theory]] groups of the form
@@ -933,9 +937,97 @@ $$
 
 etc. This yields the claim.
 
+=--
 
++-- {: .num_example}
+###### Example
+**(finite [[wedge axiom]])**
+
+Let $(X,x)$ and $(Y,y)$ be two [[pointed topological space|pointed]] [[compact Hausdorff spaces]]
+with [[wedge sum]] 
+
+$$
+  X \vee Y \;\coloneqq\; (X \sqcup Y)/(x \sim y)
+$$
+
+(i.e. the [[quotient topological space|quotient]] of their [[disjoint union space]] by re-identifying the base points).
+
+Then there is an [[isomorphism]]
+
+$$
+  \tilde K(X \vee Y) \simeq \tilde K(X) \oplus \tilde K(Y)
+  \,.
+$$
 
 =--
+
++-- {: .proof}
+###### Proof
+
+Consider the subspace inclusion
+
+$$
+  X \subset X \vee Y
+  \,.
+$$
+
+This is a [[closed subspace]] because its [[complement]] is $(X \vee Y) \setminus X = Y \setminus \{y\}$ which is
+open because all points in a [[Hausdorff space]] (which is in particular $T_1$-[[separation axiom|separated]]) are closed.
+Moreover, by definition of [[wedge sum]] the corresponding [[quotient space]] is $Y$:
+
+$$
+  (X \vee Y) / X \simeq Y
+  \,.
+$$
+
+Similary for the inclusion of $Y$. Hence in particular these inclusions and quotients are [[retractions]] in that they factor the [[identity maps]]
+as
+
+$$
+  id_X \;\colon\; X \longrightarrow X \vee Y \ongrightarrow X
+  \phantom{AA}
+    \text{and}
+  \phantom{AA}
+  id_Y \;\colon\; Y \longrightarrow X \vee Y \ongrightarrow Y
+  \,.
+$$
+
+By functoriality (remark \ref{FunctorialityOfKGroup}) this implies that similarly
+
+$$
+  id_{\tilde K(X)}
+    \;\colon\;
+  \tilde K(X) \longrightarrow \tilde K(X \vee Y) \longrightarrow \tilde K(X)  
+  \phantom{AA}
+   \text{and}
+  \phantom{AA}
+  id_{\tilde K(Y)}
+    \;\colon\;
+  \tilde K(Y) \longrightarrow \tilde K(X \vee Y) \longrightarrow \tilde K(Y)
+  \,.
+$$
+
+In particular these maps are [[injective function|injections]] and [[surjective function|surjections]], 
+respectively.
+
+Therefore by prop. \ref{ExactSequenceInReducedTopologicalKTheory} there are [[short exact sequences]] of the form
+
+$$
+  0 
+    \to
+  \tilde K(X)
+    \longrightarrow
+  \tilde K(X \vee Y)
+    \longrightarrow 
+  \tilde K(Y)
+    \to
+  0
+$$
+
+which are [[split exact sequences|split exact]]. This implies the claim.
+
+=--
+
 
 
 
