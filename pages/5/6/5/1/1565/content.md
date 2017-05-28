@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher algebra
+#### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
@@ -91,8 +91,11 @@ Some rigs which are neither rings nor distributive lattices include:
 1108.2874](http://arxiv.org/abs/1108.2874)
 * wikipedia [semiring](http://en.wikipedia.org/wiki/Semiring)
 
-[[!redirects semiring]]
+[[!redirects rigs]]
 
 [[!redirects semiring]]
-[[!redirects rigs]]
 [[!redirects semirings]]
+
+[[!redirects semi-ring]]
+[[!redirects semi-rings]]
+
