@@ -80,6 +80,8 @@ The proof is spelled out at [[affine line]].
 
 * [[projective linear group]]
 
+* [[projective bundle]]
+
 ## References
 
 An introduction to projective spaces over the theory of ordinary commutative rings is in
