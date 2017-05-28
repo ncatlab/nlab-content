@@ -939,7 +939,7 @@ etc. This yields the claim.
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #FiniteWedgePropertyForReducedTopologicalKTheory}
 ###### Example
 **(finite [[wedge axiom]])**
 
@@ -1028,6 +1028,117 @@ which are [[split exact sequences|split exact]]. This implies the claim.
 
 =--
 
++-- {: .num_example #ReducedKTheoryOfSmashProductIsDirectSum}
+###### Example
+**(reduced K-theory of smash product is direct sum)**
+
+Let $(X,x_0)$ $(Y,y_0)$ be two [[pointed topological space|pointed]] [[compact Hausdorff spaces]] with
+$X \wedge Y$ their [[smash product]]. Then there is an isomorphism of [[reduced K-theory]] groups
+
+$$
+  \tilde K(X \wedge Y)
+    \;\simeq\;
+  \tilde K(X) \oplus \tilde K(Y)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Be definition the smash product is the [[quotient topological space]] of the [[product topological space]]
+by the [[wedge sum]]:
+
+$$
+  X \wedge Y
+  \;=\;
+  (X \times Y) / (X \vee Y)
+$$
+
+for the inclusion
+
+$$
+  \array{
+    X \vee Y &\overset{i}{\longrightarrow}& X \times Y
+    \\
+    x &\mapsto& (x, y_0)
+    \\
+    y &\mapsto& (x_0, y)
+  }
+  \,.
+$$
+
+This quotient is still a [[compact topological space]] because [[images of compact spaces are compact]]
+and and it is still [[Hausdorff topological space]] 
+because [[compact subspaces in Hausdorff spaces are separated by neighbourhoods from points]], so that 
+the point $(X \vee Y)/ (X \vee Y) \in (X \times Y)/(X \vee Y)$ is separated by open neighbourhoods from points
+in $(X \times Y) \setminus (X \vee Y)$.
+
+Hence corollary \ref{LongExactSequenceInReducedTopologicalKTheory} yields a [[long exact sequence]] of the form
+
+$$
+  \tilde K(\Sigma(X \times Y))
+    \overset{\Sigma i^\ast}{\longrightarrow}
+  \tilde K( (\Sigma X) \vee (\Sigma Y))
+    \longrightarrow
+  \tilde K( X \wedge Y )
+    \longrightarrw
+  \tilde K( X \times Y )
+    \overset{i^\ast}{\longrightarrow}
+  \tilde K(X \vee Y)
+  \,.
+$$
+
+By example \ref{FiniteWedgePropertyForReducedTopologicalKTheory} the two terms involving 
+reduced topological K-theory of a wedge sum are direct sums of the reduced K-theory of the wedge summands:
+
+$$
+  \tilde K(\Sigma(X \times Y))
+    \overset{\Sigma i^\ast}{\longrightarrow}
+  \tilde K(\Sigma X) \plus \tilde K(\Sigma Y)
+    \longrightarrow
+  \tilde K( X \wedge Y )
+    \longrightarrw
+  \tilde K( X \times Y )
+    \overset{i^\ast}{\longrightarrow}
+  \tilde K(X) \oplus \tilde K(Y)
+  \,.
+$$
+
+Now observe that, via example \ref{FiniteWedgePropertyForReducedTopologicalKTheory}, the morphisms $i^\ast$ and $\Sigma i^\ast$ are [[split epimorphisms]],
+with [[section]] given by "external direct sum"
+
+$$
+  \array{
+    \tilde K(X) \oplus \tilde K(Y)
+      &\longrightarrow&
+    \tilde K(X \times Y)
+    \\
+    (E_X, E_Y)
+      &\mapsto&
+    p_X^\ast(E_X) + p_Y^\ast(E_Y)
+  }
+  \,.
+$$
+
+This means that the long exact sequence decomposes into [[short exact sequences]]
+
+$$
+  0 
+   \to
+  \tilde K(X \wedge Y)
+    \longrightarrow
+  \tilde K(X \times Y)
+    \overset{i^\ast}{\longrightarrow}
+  \tilde K(X) \oplus \tlde K(Y)
+    \to
+  0
+$$
+
+which moreover are [[split exact sequence|split exact]]. This yields the claim.
+
+
+=--
 
 
 
