@@ -52,9 +52,26 @@ $$
   \,.
 $$
 
+## Properties
+
++-- {: .num_prop #ExternalProductTheoremIntopologicalKTheory}
+###### Proposition
+**([[external product theorem]] in [[topological K-theory]])**
+
+For $X$ a [[compact Hausdorff space]] then the external tensor product of vector bundles over $X$ and over the [[2-sphere]] $S^2$ is an [[isomorphism]] of [[topological K-theory]] rings:
+
+$$
+  K(X) \otimes K(S^2) \overset{\simeq}{\longrightarrow} K(X \times S^2)
+  \,.
+$$
+
+=--
+
+
+
 ## Related entries
 
-* [[direct sum of vector bundles]]
+* [[direct sum of vector bundles]], [[inner product on vector bundles]]
 
 * [[fundamental product theorem in topological K-theory]]
 
