@@ -88,6 +88,7 @@ $$
 
 ## Related concepts
 
+* [[external tensor product of vector bundles]]
 
 * [[direct sum of vector bundles]]
 
