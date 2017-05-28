@@ -80,6 +80,8 @@ The proof is spelled out at [[affine line]].
 
 * [[projective linear group]]
 
+* [[tautological line bundle]]
+
 * [[projective bundle]]
 
 ## References
