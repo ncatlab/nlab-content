@@ -3,17 +3,21 @@
 
 ## Basic concepts and techniques
 
-* [[compactness theorem]]
+* [[language]], [[signature]]
 
-* [[first-order theory]]
+* [[theory]], [[first-order theory]]
+
+* [[model]]
 
 * [[interpretation]]
 
 * [[structure in model theory]]
 
+* [[elementary embedding]]
+
 * [[type in model theory]]
 
-* [[model]]
+* [[compactness theorem]]
 
 * [[diagram of a first-order structure]]
 
