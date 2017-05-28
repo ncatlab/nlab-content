@@ -23,9 +23,9 @@ This is the [[pullback bundle]] of the map $S^2 \to B U(1) \simeq B^2 \mathbb{Z}
 
 Beware that this basic line bundle is sometimes called the "canonical line bundle on the 2-sphere", but it is  _not_ [[isomorphism|isomorphic]] to what in complex geometry is called the [[canonical bundle]] of the 2-sphere regarded as a [[Riemann surface]]. Instead it is "one half" of the latter, its [[theta characteristic]]. See also at _[[geometric quantization of the 2-sphere]]_.
 
-The basic line bundle is the canonically [[associated bundle]] to basic [[circle principal bundle]]: the [[complex Hopf fibration]].
+The basic line bundle is the canonically [[associated bundle]] to basic [[circle principal bundle]]: the [[complex Hopf fibration]]. Another name for it is the [[tautological line bundle]] for the complex [[projective space|projective line]] $\mathbb{P}^1(\mathbb{C})$, namely the map $\mathbb{C}^2 \setminus \{(0, 0)\} \to \mathbb{P}^1(\mathbb{C})$ mapping $(x, y)$ to $[x; y]$. 
 
-## Defintion
+## Definition
 
 The [[classifying space]] for [[circle principal bundles]], or equivalently (via forming [[associated bundles]]) that of [[complex line bundles]] is $B U(1)$, which as a [[Grassmannian]] is the infinite [[complex projective space]] $\mathbb{C}P^\infty$. The [[homotopy type]] of this space is that of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$. This means that $K(\mathbb{Z},2)$ is in particular [[path-connected topological space|path-connected]] and has second [[homotopy group]] the [[integers]]: $\pi_2(K(\mathbb{Z},2)) \simeq \mathbb{Z}$.
 
