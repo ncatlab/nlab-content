@@ -49,7 +49,7 @@ $$
 
 (by [this prop.](basic+complex+line+bundle+on+the+2-sphere#TensorRelationForBasicLineBundleOn2Sphere)).
 
-(Notice that $H-1$ is the image of $[H]$ in the [[reduced K-theory]] $\tilde K(X)$ of $S^2$ under the splitting $K(X) \simeq \tilde K(X) \oplus \mathbb{Z}$ (by [this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)).)
+(Notice that $h-1$ is the image of $h$ in the [[reduced K-theory]] $\tilde K(X)$ of $S^2$ under the splitting $K(X) \simeq \tilde K(X) \oplus \mathbb{Z}$ (by [this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)).)
 
 It follows that there is a [[ring homomorphism]] of the form
 
@@ -83,7 +83,7 @@ $$
   }
 $$
 
-to the topological K-theory ring of the [[product topological space]] $X \times S^^2$, where the second map is the [[external tensor product]] of vector bundles.
+to the topological K-theory ring of the [[product topological space]] $X \times S^^2$, where the second map is the [[external tensor product of vector bundles]].
 
 +-- {: .num_prop #FundamentalProductTheorem}
 ###### Proposition
@@ -95,6 +95,9 @@ For $X$ a [[compact Hausdorff space]], then this ring homomorphism is an [[isomo
 
 (e.g. [Hatcher, theorem 2.2](#Hatcher))
 
++-- {: .num_remark}
+###### Remark
+
 More generally, for $L\to X$ a [[complex line bundle]] with class $l \in K(X)$ and with $P(1 \oplus L)$ denoting its [[projective bundle]] then 
 
 $$
@@ -103,13 +106,34 @@ $$
   K(P(1 \oplus L))
 $$
 
-([Wirthmuller 12, p. 17](#Wirthmuller12))
+=--
 
+(e.g. [Wirthmuller 12, p. 17](#Wirthmuller12))
+
+As a special case this implies the first statement above:
+
+
+For $X = \ast$ the product theorem prop. \ref{FundamentalProductTheorem} says in particular that the first of the two morphisms in the composite is an [[isomorphism]] (example \ref{TopologicalKTheoryRingOfThe2Sphere} below)  and hence by the [[two-out-of-three]]-property for [[isomorphisms]] it follows that
+
++-- {: .num_cor #ExternalProductTheorem}
+###### Corollary
+**(external product theorem)**
+
+For $X$ a [[compact Hausdorff space]] we have that the [[external tensor product of vector bundles]] 
+
+$$
+  K(X) \otimes K(S^2) \overset{\simeq}{\longrightarrow} K(X \times S^2)
+$$
+
+is an [[isomorphism]] in [[topological K-theory]].
+
+=--
 
 ## Examples
 
-+-- {: .num_example}
++-- {: .num_example #TopologicalKTheoryRingOfThe2Sphere}
 ###### Example
+**([[topological K-theory]] ring of the [[2-sphere]])
 
 For $X = \ast$ the [[point space]], the fundamental product theorem \ref{FundamentalProductTheorem} states that the homomorphism
 
@@ -123,9 +147,29 @@ $$
   }
 $$
 
-is an [[isomorphism]]. This means that the relation $(h-1)^2 = 0$ satisfied by the [[basic line bundle on the 2-sphere]] ([this prop.](basic+complex+line+bundle+on+the+2-sphere#TensorRelationForBasicLineBundleOn2Sphere)) is the _only_ relation is satisfies in topological K-theory.
+is an [[isomorphism]]. 
+
+This means that the relation $(h-1)^2 = 0$ satisfied by the [[basic line bundle on the 2-sphere]] ([this prop.](basic+complex+line+bundle+on+the+2-sphere#TensorRelationForBasicLineBundleOn2Sphere)) is the _only_ relation is satisfies in topological K-theory.
+
+Notice that the underlying [[abelian group]] of $\mathbb{Z}[h]/((h-1)^2)$ is two [[direct sum]] copies of the [[integers]],
+
+$$
+  K(S^2) \simeq \mathbb{Z} \oplus \mathbb{Z} = \langle 1, h\rangle
+$$
+
+one copy spanned by the [[trivial vector bundle|trivial]] [[complex line bundle]] on the 2-sphere, the other spanned by the [[basic complex line bundle on the 2-sphere]]. (In contrast, the underlying abelian group of the [[polynomial ring]] $\mathbb{R}[h]$ has infinitely many copies of $\mathbb{Z}$, one for each $h^n$, for $n \in \mathbb{N}$).
+
+It follows (by [this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)) that the [[reduced K-theory]] group of the 2-sphere is
+
+$$
+  \tilde K(S^2) \simeq \mathbb{Z}
+  \,.
+$$
 
 =--
+
+
+
 
 
 ## References
@@ -135,3 +179,4 @@ is an [[isomorphism]]. This means that the relation $(h-1)^2 = 0$ satisfied by t
 * {#Wirthmuller12} [[Klaus Wirthmüller]], section 6 (from p. 19 on) in _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
 
+[[!redirects external product theorem]]
