@@ -19,7 +19,7 @@
 
 ## Idea
 
-For $\mathbb{T}$ a [[theory]], the _syntactic site_ of a [[syntactic category]] $\mathcal{C}_{\mathbb{T}}$  is the structure of a [[site]] on $\mathcal{C}_{\mathbb{T}}$ such that [[geometric morphism]]s $\mathcal{E} \to Sh(\mathcal{C}_{\mathbb{T}})$ into the [[sheaf topos]] over the syntactic site are equivalent to [[model]]s for the [[theory]] $\mathbb{T}$ in $\mathcal{E}$, hence such that $Sh(\mathcal{C}_{\mathbb{T}})$ is the [[classifying topos]] for $\mathbb{T}$.
+For $\mathbb{T}$ a [[theory]], the _syntactic site_ of a [[syntactic category]] $\mathcal{C}_{\mathbb{T}}$  is the structure of a [[site]] on $\mathcal{C}_{\mathbb{T}}$ such that [[geometric morphisms]] $\mathcal{E} \to Sh(\mathcal{C}_{\mathbb{T}})$ into the [[sheaf topos]] over the syntactic site are equivalent to [[models]] for the [[theory]] $\mathbb{T}$ in $\mathcal{E}$, hence such that $Sh(\mathcal{C}_{\mathbb{T}})$ is the [[classifying topos]] for $\mathbb{T}$.
 
 ## Definition
 
