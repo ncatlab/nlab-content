@@ -114,8 +114,7 @@ Moreover, since [[continuous images of compact spaces are compact]]
 and since the closed interval $[0,1]$ is compact we also obtain another proof that
 the [[circle]] is compact.
 
-Hence by prop. \ref{ContinuousBijectionsFromCompactSpacesToHausdorffSpacesAreHomeomorphisms}
-the above map is in fact a [[homeomorphism]]
+Hence since [[continuous bijections from compact spaces to Hausdorff spaces are homeomorphisms]] the above map is in fact a [[homeomorphism]]
 
 $$
   [0,2\pi]/\sim \;\simeq\; S^1
