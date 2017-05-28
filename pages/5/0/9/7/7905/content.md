@@ -74,7 +74,9 @@
 
 * [[tangent bundle]], [[normal bundle]]
 
-* [[basic line bundle on the 2-sphere]]
+* [[tautological line bundle]]
+
+  * [[basic line bundle on the 2-sphere]]
 
 * [[Hopf fibration]]
 
