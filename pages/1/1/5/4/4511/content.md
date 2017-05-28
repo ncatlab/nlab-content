@@ -410,7 +410,7 @@ Specifically, $Tor_1(A,B)$ is a [[direct sum]] of [[torsion subgroups]] of $A$.
 +-- {: .proof}
 ###### Proof
 
-By a fundamental fact about [[finite abelian groups]] (see _[this theorem](finite+abelian+group#FiniteAbelianGroupIsDirectSumOfCyclics)_), $A$ is a [[direct sum of abelian groups|direct sum]] of [[cyclic group]] $A \simeq \oplusk \mathbb{Z}_{p_k}$. By prop. \ref{Tor1RespectsDirectSum} $Tor_1$ respects this direct sum, so that
+By a fundamental fact about [[finite abelian groups]] (see _[this theorem](finite+abelian+group#FiniteAbelianGroupIsDirectSumOfCyclics)_), $A$ is a [[direct sum of abelian groups|direct sum]] of [[cyclic group]] $A \simeq \oplus_k \mathbb{Z}_{p_k}$. By prop. \ref{Tor1RespectsDirectSum} $Tor_1$ respects this direct sum, so that
 
 $$
   Tor_1(A,B) \simeq \oplus_k Tor_1(\mathbb{Z}_{p_k}, B)
