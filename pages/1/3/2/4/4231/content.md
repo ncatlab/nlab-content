@@ -1524,7 +1524,7 @@ See ([Ara, p. 9](#Ara)).
 ## Examples
  {#Examples}
 
-* The archetypical and motivating example is the standard [[model structure on simplicial sets]], which is a Cisinski model structure on the [[presheaf topos]] on the [[simplex category]] ([Cisinski 06, section 2](#Cisinski06)).
+* The archetypical and motivating example is the [[classical model structure on simplicial sets]], which is a Cisinski model structure on the [[presheaf topos]] over the [[simplex category]] ([Cisinski 06, section 2](#Cisinski06)).
 
 * Accordingly, the _injective_ [[model structure on simplicial presheaves]] over a site $C$ is a Cisinski model structure, namely on the [[presheaf topos]] $PSh(C \times \Delta)$. Moreover, every [[Bousfield localization of model categories|left Bousfield localization]] of such a model structure is still a Cisinski model structure, since left Bousfield localization preserves the class of cofibrations.
 
