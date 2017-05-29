@@ -1,8 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 # Contents 
 * table of contents 
 {:toc}
 
 This page will collect some technical material concerning [[colimits]] of [[normal spaces]] as computed in [[Top]]. 
+
+In particuar it shows that [[CW-complexes are paracompact Hausdorff spaces|CW-complexes are normal spaces]] (theorem \ref{CWComplexesAreNormal} below).
 
 ## Basic results 
 
@@ -10,17 +28,17 @@ We start with some easy but useful results, using only our "bare hands" (i.e., u
 
 The first very easy observation is that normal spaces are closed under [[coproducts]] in [[Top]] (so-called "[[disjoint union spaces]]"). The proof may be safely left to the reader. 
 
-There is no hope that normal spaces are closed under [[coequalizers]] or [[pushouts]]. A first example that comes to mind is the line with double origin, which is the topological pushout of the diagram 
+There is no hope that normal spaces are closed under [[coequalizers]] or [[pushouts]]. A first example that comes to mind is the [[line with double origin]], which is the topological [[pushout]] of the diagram 
 
 $$\mathbb{R} \leftarrow \mathbb{R} \setminus \{0\} \to \mathbb{R}$$ 
 
 where both maps are the inclusion map. This space isn't even [[Hausdorff space|Hausdorff]], as every [[neighborhood]] of the point $0_1$ (the image of the origin under the first pushout [[coprojection]]) intersects every neighborhood of the point $0_2$ (the image of the origin under the second coprojection). 
 
-However, there are reasonable conditions under which pushouts will be normal. (Throughout we assume all spaces are $T_1$, i.e., that [[singletons]] are [[closed set|closed]], so that "normal" means $T_4$). 
+However, there are reasonable conditions under which pushouts will be normal. (Throughout we assume all spaces are $T_1$, i.e., that [[singletons]] are [[closed set|closed]] ([here](separation+axioms#T1InTermsOfClosureOfPoints)), so that "normal" means $T_4$). 
 
 +-- {: .num_prop #normal} 
 ###### Proposition 
-Let $X$ be normal, and suppose $q: X \to Y$ in $Top$ is a closed surjection. Then $Y$ is normal. 
+Let $X$ be normal, and suppose $q: X \to Y$ in $Top$ is a [[closed maps|closed]] [[surjective function|surjection]]. Then $Y$ is normal. 
 =-- 
 
 +-- {: .proof} 
@@ -39,7 +57,7 @@ Let $X$ be a compact Hausdorff space. Then an equivalence relation $\sim \hookri
 
 +-- {: .proof} 
 ###### Proof 
-If $q: X \to X/\sim$ is a closed map, making $X/\sim$ compact Hausdorff, then the diagonal $\Delta \hookrightarrow X\sim \times X/\sim$ is a closed embedding, so that its pullback along $q \times q$ 
+If $q: X \to X/\sim$ is a closed map, making $X/\sim$ compact Hausdorff, then the diagonal $\Delta \hookrightarrow X\sim \times X/\sim$ is a [[embedding of topological spaces|closed embedding]], so that its pullback along $q \times q$ 
 
 $$\array{
 \sim & \hookrightarrow & X \times X \\ 
@@ -60,7 +78,7 @@ $q^{-1}(q(A))$ is closed, $q(A)$ is closed by definition of quotient topology.
 
 +-- {: .num_remark} 
 ###### Remark 
-A closed surjection is a quotient map (a regular epi in $Top$), and a closed injection is an embedding (a regular mono in $Top$). 
+A [[closed map|closed]] [[surjection]] is a quotient map (a [[regular epimorphism|regular epi]] in [[Top]]), and a closed [[injection]] is an [[embedding of topological spaces|embedding]] (a [[regular monomorphism|regular mono]] in $Top$). 
 =-- 
 
 +-- {: .num_lemma #poclosed} 
@@ -146,14 +164,14 @@ Use normality of $X_{n+1}$ to select disjoint open sets $U_{n+1}, V_{n+1}$ such 
 It is clear that $i_n(U_n) \subseteq U_{n+1}$ and the union $U = colim_n U_n$ defines an open set of $X$ (by definition of colimit topology), as does $V = colim_n V_n$. The sets $U, V$ include $A, B$ respectively and are disjoint since any element they have in common must belong to $U_n$ and $V_n$ for sufficiently large $n$, which is impossible. This completes the proof. 
 =-- 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #CWComplexesAreNormal} 
 ###### Theorem 
-A CW-complex is a normal space. 
+A [[CW-complex]] is a [[normal space]]. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-A CW-complex $X$ is formed by an inductive process where the $n$-skeleton $X_n$ is formed as an attachment space formed from normal spaces. That is, we start with the normal space $X_{-1} = \emptyset$, and given the normal space $X_{n-1}$ and an attaching map $f: S_{n-1} = \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, we push out the closed embedding $S_{n-1} = \sum_{i \in I} S_i^{n-1} \hookrightarrow \sum_{i \in I} D_i^n = D_n$ along the attaching map $f$ to get a closed embedding 
+A CW-complex $X$ is formed by an inductive process where the $n$-skeleton $X_n$ is formed as an [[attachment space]] formed from normal spaces. That is, we start with the normal space $X_{-1} = \emptyset$, and given the normal space $X_{n-1}$ and an attaching map $f: S_{n-1} = \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, we push out the closed embedding $S_{n-1} = \sum_{i \in I} S_i^{n-1} \hookrightarrow \sum_{i \in I} D_i^n = D_n$ along the attaching map $f$ to get a closed embedding 
 
 $$i_n: X_{n-1} \to X_n (= X_{n-1} \cup_{S_{n-1}} D_n)$$ 
 
