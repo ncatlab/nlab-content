@@ -33,7 +33,7 @@ Given a [[field]] $k$, the **general linear group** $GL(n,k)$ (or $GL_n(k)$) is 
 
 Let $k = \mathbb{R}$ or $= \mathbb{C}$ be the [[real numbers]] or the [[complex numbers]] equipped with their [[Euclidean topology]].
 
-### Definition
+#### Definition
 
 +-- {: .num_defn #GLnAsTopologicalGroup}
 ###### Definition
@@ -129,7 +129,77 @@ $$
 
 =--
 
-### Properties
+#### Properties
+
++-- {: .num_example #AsSubspaceOfTheMappingSpace}
+###### Proposition
+**(as a [[subspace]] of the [[compact-open topology|mapping space]])
+
+The [[topological space|topology]] induced on the real general linear group when regarded as a [[topological subspace]] of [[Euclidean space]] with its [[metric topology]] 
+
+$$
+  GL(n,\mathbb{R})
+    \subset
+  Mat_{n \times n}(\mathbb{R})
+    \simeq
+  \mathbb{R}^{(n^2)}
+$$
+
+(as in def. \ref{GLnAsTopologicalGroup}) coincides with the topology induced by regarding the general linear group as a [[subspace]] of the [[mapping space]] $Maps(k^n, k^n)$, 
+
+$$
+  GL(n,\mathbb{R})
+    \subset
+  Maps(k^n, k^n)
+$$
+
+i.e. the set of all [[continuous functions]] $k^n \to k^n$ equipped with the [[compact-open topology]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+On the one had, the [[universal property]] of the [[mapping space]] ([this prop.](Introduction+to+Topology+--+1#UniversalPropertyOfMappingSpace)) gives that the inclusion 
+
+$$
+  GL(n, \mathbb{R}) \to Maps(\mathbb{R}^n, \mathbb{R}^n)
+$$
+
+is a [[continuous function]] for $GL(n,\mathbb{R})$ equipped with the [[Euclidean space|Euclidean]] [[metric topology]], because this is the [[adjunct]] of the defining continuous [[action]] map 
+
+$$
+  GL(n, \mathbb{R}) \times \mathbb{R}^n \to \mathbb{R}^n
+  \,.
+$$ 
+
+
+This implies that the [[Euclidean space|Euclidean]] [[metric topology]] on $GL(n,\mathbb{R})$ is equal to or [[finer topology|finer]] than the subspace topology coming from $Map(\mathbb{R}^n, \mathbb{R}^n)$. 
+
+We conclude by showing that it is also equal to or [[coarser topology|coarser]], together this then implies the claims. 
+
+Since we are speaking about a subspace topology, we may consider the open subsets of the ambient Euclidean space $Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}$. Observe that a [[neighborhood base]] of a linear map or matrix $A$ consists of sets of the form 
+
+$$
+  U_A^\epsilon
+  \;\coloneqq\;
+  \left\{B \in Mat_{n \times n}(\mathbb{R}) \,\vert\, \underset{{1 \leq i \leq n}}{\forall}\; |A e_i - B e_i| \lt \epsilon \right\}
+$$
+
+for $\epsilon \in (0,\infty)$.
+
+But this is also a [[base for the topology|base]] element for the [[compact-open topology]], namely
+
+$$
+  U_A^\epsilon
+   \;=\;
+  \bigcap_{i = 1}^n V_i^{K_i}
+  \,,
+$$
+
+where $K_i \coloneqq \{e_i\}$ is a [[singleton]] and $V_i \coloneqq B^\circ_{A e^i}(\epsilon)$ is the [[open ball]] of [[radius]] $\epsilon$ around $A e^i$.
+
+=--
 
 +-- {: .num_prop #ConnectednessOfGeneralLinearGroup}
 ###### Proposition
