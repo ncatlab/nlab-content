@@ -314,16 +314,16 @@ In fact the Tietze extension theorem can serve as a basis of a [[category theory
 ### The category of normal spaces
  {#CategoryOfNormalSpaces}
 
-Although normal spaces are "nice" spaces (being for example [[Tychonoff spaces]], by [[Urysohn's lemma]]), the [[category]] of normal topological spaces with [[continuous maps]] between them seems not to be very well-behaved. (Cf. the rule of thumb expressed in [[dichotomy between nice objects and nice categories]].) It admits [[equalizers]] of pairs of maps $f, g: X \rightrightarrows Y$ (computed as in $Top$ or $Haus$; one uses the easy fact that closed subspaces of normal spaces are normal). However it curiously does not have [[products]] -- or at least it is not closed under products in $Top$, as shown by Counter-Example \ref{Morse}. It follows that this category is not a [[reflective subcategory]] of $Top$, as $Haus$ is. 
+Although normal spaces are "[[nice topological spaces]]" (being for example [[Tychonoff spaces]], by [[Urysohn's lemma]]), the [[category]] of normal topological spaces with [[continuous maps]] between them seems not to be very well-behaved. (Cf. the rule of thumb expressed in [[dichotomy between nice objects and nice categories]].) It admits [[equalizers]] of pairs of maps $f, g: X \rightrightarrows Y$ (computed as in $Top$ or $Haus$; one uses the easy fact that closed subspaces of normal spaces are normal). However it curiously does not have [[products]] -- or at least it is not closed under products in $Top$, as shown by Counter-Example \ref{Morse}. It follows that this category is not a [[reflective subcategory]] of $Top$, as $Haus$ is. 
 
-More at the page [[colimits of normal spaces]]. 
+More at the page _[[colimits of normal spaces]]_. 
 
 
 ## References
 
 The class of normal spaces was introduced by Tietze (1923) and Aleksandrov--Uryson (1924). 
 
-* Ryszard Engelking, __General topology__, (Monographie Matematyczne, tom 60) Warszawa 1977; expanded Russian edition Mir 1986.
+* Ryszard Engelking, _General topology_, (Monographie Matematyczne, tom 60) Warszawa 1977; expanded Russian edition Mir 1986.
 
 * {#Gavrilovich14} [[Misha Gavrilovich]], *Point set topology as diagram chasing computations*, ([arXiv:1408.6710](https://arxiv.org/abs/1408.6710)). 
 
