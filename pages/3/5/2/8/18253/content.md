@@ -54,13 +54,11 @@ Then $X$ is [[paracompact topological space]].
 
 Let $\{U_i \subset X\}_{i \in I}$ be an open cover. By [[Michael's theorem]] (lemma \ref{RegularSpacesWherOpenCoveringIsRefinedbyCountableLocallyFiniteConnectionsofOpensAreParacompact}) it is sufficient that we find a [[refinement]] by a [[countable cover]].
 
-By assumption of second-countability, there exists a countable set $\{K_n \subset X\}_{n \in \mathbb{N}}$ of [[compact topological space|compact]] [[subspaces]]. For each $n \in \mathbb{N}$ we may regard $\{U_i \subset X\}_{i \in I}$ as a cover of $K_n$, and hence by compactness there exists a finite set $J_n$ such that $\{U_i \subset X\}_{i \in J_n \subset I}$ is still an open cover of $K_n$. Therefore 
+But second countability implies precisely that every open cover has a countable subcover:
 
-$$
-  \{U_i \subset X\}_{i \in \underset{n \in \mathbb{N}}{\cup} J_n}
-$$
 
-is a countable subcover.
+Every open cover has a refinement by a cover consisting of [[base for the topology|base]] elements, and if there is only a countable set of these, then the resulting refinement necessarily contains at most this countable set of distinct open subsets.
+
 
 =--
 
