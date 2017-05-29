@@ -30,7 +30,7 @@ We discuss the tautological line bundle as a [[topological vector bundle]]. Henc
 
 equipped with their [[Euclidean space|Euclidean]] [[metric topology]]
 
-+-- {: .num_defn}
++-- {: .num_defn #ToplogicalProjectiveSpace}
 ###### Definition
 **(topological projective space)**
 
@@ -65,8 +65,9 @@ $$
 
 =--
 
-+-- {: .num_defn #TopologicalProjectiveSpace}
++-- {: .num_defn #TopologicalProjectiveSpaceStandardOpenCover}
 ###### Definition
+**(standard open cover of topological projective space)**
 
 For $n \in \mathbb{N}$ the _standard open cover_ of the projective space $k P^n$ is 
 
@@ -130,14 +131,44 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-The tautological line bundle in def. \ref{TautologicalTopologicalLineBundle} is well defined in that it indeed admits a [[local trivialization]]. 
+The tautological line bundle in def. \ref{TautologicalTopologicalLineBundle} is well defined in that it indeed admits a [[local trivialization]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-...
+We claim that there is a local trivialization over the canonical cover of def. \ref{TopologicalProjectiveSpaceStandardOpenCover}. This is given for $i \in \{1, \cdots, n\}$ by
+
+$$
+  \array{
+    U_i \times k &\overset{}{\longrightarrow}& T\vert_{U_i}
+    \\
+    ( [x_1 : \cdots x_{i-1}: 1 : x_{i+1} : \cdots : x_{n+1}] , c )
+      &\mapsto&
+    ( [x_1 : \cdots x_{i-1} : 1 : x_{i+1} : \cdots : x_{n+1} ], (c x_1, c x_2, \cdots , c x_{n+1}) )
+  }
+  \,.
+$$
+
+This is clearly a [[bijection]] of underlying sets.
+
+To see that it is continuous, notice that this map is the [[extension]] to the [[quotient topological space]] of the analogous map
+
+$$
+  \array{
+    k^{n} \times k & \longrightarrow& k^{n} \times k^{n+1}
+    \\
+    ( (x_1, \cdots, x_{i-1}, x_{i+1}, \cdots, x_{n+1}) , c)
+     &\mapsto&
+    ( (x_1, \cdots, x_{i-1}, x_{i+1}, \cdots, x_{n+1}) , (c x_1, \cdots c x_{i-1}, c, c x_{i+1}, \cdots, c x_{n+1}) )
+  }
+  \,.
+$$
+
+This is a [[polynomial]] function on [[Euclidean space]] and since [[polynomials are continuous]], this is continuous. Hence by the [[universal property]] of the [[quotient topology]], also the original function is continuous.
+
+
 
 =--
 
