@@ -300,6 +300,12 @@ A model for this in 4-truncation is given by [[super line 2-bundles]]. For the m
 
 ## References 
 
+A textbook account is in 
+
+* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jur?o]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
+Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
+
+
 The concept of twisted K-theory originates in 
 
 * {#Karoubi68} [[Max Karoubi]], _Alg&#232;bres de Clifford et K-th&#233;orie._ Ann. Sci. Ecole Norm. Sup. (4), pp. 161-270 (1968).
