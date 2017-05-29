@@ -19,7 +19,9 @@
 
 ## Definition
 
-A [[ring spectrum]]/[[A-∞ ring]] which [[Brown representability theorem|represents]] a [[periodic cohomology theory]].
+A _periodic ring spectrum_ is a [[ring spectrum]]/[[A-∞ ring]] which [[Brown representability theorem|represents]] a [[periodic cohomology theory]].
+
+A common case are the _even periodic_ or _2-periodic_ ring spectra, in particular those representing [[even cohomology theories]].
 
 ## Properties
 
@@ -93,3 +95,10 @@ See also
 
 [[!redirects periodic E-infinity ring]]
 [[!redirects periodic E-infinity rings]]
+
+[[!redirects even periodic ring spectrum]]
+[[!redirects even periodic ring spectra]]
+
+[[!redirects 2-periodic ring spectrum]]
+[[!redirects 2-periodic ring spectra]]
+
