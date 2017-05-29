@@ -324,12 +324,16 @@ For instance ([Hatcher, prop. A.4](#Hatcher)).
 
 +-- {: .num_prop }
 ###### Proposition
+**([[CW-complexes are paracompact Hausdorff spaces]])**
 
-Every CW-complex is a [[paracompact topological space]].
+Every CW-complex is a 
+
+1. a [[normal topological space]], in particular a [[Hausdorff space]],
+
+1. a [[paracompact topological space]].
 
 =--
 
-See for instance ([Hatcher K-theory, appendix of section 1.2](#HatcherK)). For a discussion that highlights which [[axiom of choice|choice principles]] are involved, see ([Fritsch-Piccinini 90, Theorem 1.3.5 (p. 29 and following)](#FP)).
 
 +-- {: .num_prop #CWComplexIsCompactlyGenerated}
 ###### Proposition
