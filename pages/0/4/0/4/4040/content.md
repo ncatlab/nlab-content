@@ -139,12 +139,6 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[schemes are sober]]
 
-* [[CW-complexes are paracompact Hausdorff spaces]]
-
-* [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]]
-
-* [[paracompact Hausdorff spaces are normal]]
-
 * [[continuous images of compact spaces are compact]]
 
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
@@ -163,6 +157,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
   * [[sequentially compact metric spaces are totally bounded]]
 
+* [[paracompact Hausdorff spaces are normal]]
+
 * [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
 
 * [[closed injections are embeddings]]
@@ -176,6 +172,9 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 * [[locally compact and second-countable spaces are sigma-compact]]
 
 * [[second-countable regular spaces are paracompact]]
+
+* [[CW-complexes are paracompact Hausdorff spaces]]
+
 
 **Theorems**
 
