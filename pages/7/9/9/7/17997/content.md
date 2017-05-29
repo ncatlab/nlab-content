@@ -64,7 +64,7 @@ $$
       &\overset{}{\longrightarrow}&
     K(S^2)
     \\
-    h &\overset{\phantom{AAA}}{\mapsto}& H
+    h &\overset{\phantom{AAA}}{\mapsto}& h
   }
 $$
 
@@ -77,7 +77,7 @@ $$
     K(X) \otimes \mathbb{Z}[h]/((h-1)^2)
       & \longrightarrow & 
     K(X) \times K(S^2)
-      & \longrightarrow &
+      & \overset{\boxtimes}{\longrightarrow} &
     K(X \times S^2)
     \\
     (E, h)
@@ -88,7 +88,7 @@ $$
   }
 $$
 
-to the topological K-theory ring of the [[product topological space]] $X \times S^^2$, where the second map is the [[external tensor product of vector bundles]]. 
+to the topological K-theory ring of the [[product topological space]] $X \times S^2$, where the second map $\boxtimes$ is the [[external tensor product of vector bundles]]. 
 
 +-- {: .num_prop #FundamentalProductTheorem}
 ###### Proposition
@@ -124,9 +124,11 @@ For $X = \ast$ the product theorem prop. \ref{FundamentalProductTheorem} says in
 ###### Corollary
 **(external product theorem)**
 
-For $X$ a [[compact Hausdorff space]] we have that the [[external tensor product of vector bundles]] 
+For $X$ a [[compact Hausdorff space]] we have that the [[external tensor product of vector bundles]] with vector bundles on the [[2-sphere]]
 
 $$
+  \boxtimes
+    \;\colon\;
   K(X) \otimes K(S^2) \overset{\simeq}{\longrightarrow} K(X \times S^2)
 $$
 
@@ -136,7 +138,7 @@ is an [[isomorphism]] in [[topological K-theory]].
 
 ## Bott periodicity
 
-When restricted to [[reduced K-theory]] then the external product theorem yields the statement of [[Bott periodicity]]:
+When restricted to [[reduced K-theory]] then the external product theorem (cor. \ref{ExternalProductTheorem}) yields the statement of [[Bott periodicity]] of topological K-theory:
 
 +-- {: .num_cor #BottPeriodicity}
 ###### Corollary
@@ -147,6 +149,10 @@ Let $X$ be a  [[pointed topological space|pointed]] [[compact Hausdorff space]].
 Then there is an [[isomorphism]] of [[reduced K-theory]] 
 
 $$
+  (h-1)
+    \widetilde \boxtimes
+  (-)  
+    \;\colon\; 
   \tilde K(X) \overset{\simeq}{\longrightarrow} \tilde K(\Sigma^2 X)
 $$
 
@@ -177,7 +183,9 @@ Using this and the fact that for any pointed compact Hausdorff space $Z$ we have
 $K(Z) \simeq \tilde K(Z) \oplus \mathbb{Z}$ ([this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)) the isomorphism of the external product theorem (cor. \ref{ExternalProductTheorem}) 
 
 $$
-  K(S^2) \otimes K(X) \simeq K(S^2 \times X)
+  K(S^2) \otimes K(X)  
+   \underoverset{\simeq}{\boxtimes}{\longrightarrow}
+  K(S^2 \times X)
 $$
 
 becomes
@@ -213,7 +221,7 @@ Multiplying out and chasing through the constructions to see that this reduces t
 
 $$
   \tilde K(S^2) \otimes \tilde K(X)
-    \simeq
+    \underoverset{\simeq}{\widetilde \boxtimes}{\longrightarrow}
   \tilde K(S^2 \wedge X)
     =
   \tilde K(\Sigma^2 X)
@@ -244,12 +252,13 @@ $$
     \mathbb{Z} \otimes \tilde K_{\mathbb{C}}(X)
       \overset{ \beta \otimes id }{\longrightarrow}
     \tilde K_{\mathbb{C}}(S^2) \otimes \tilde K_{\mathbb{C}}(X)
-      \underoverset{\simeq}{\boxtimes}{\longrightarrow}
+      \underoverset{\simeq}{\widetilde \boxtimes}{\longrightarrow}
+      &
     \tilde K_{\mathbb{C}}(S^2 \wedge X)
       =
     \tilde K_{\mathbb{C}}(\Sigma^2 X)
     \\
-    E &\overset{\phantom{AAAA}}{\mapsto}& (h-1) \boxtimes E
+    E - rk_x(E) &\overset{\phantom{AAAA}}{\mapsto}& (h-1) \widetilde \boxtimes (E - rk_x(E))
   }
 $$
 
@@ -309,6 +318,8 @@ $$
 
 
 [[!redirects external product theorem]]
-[[!redirects fundamental product theorem in K-theory]]
+[[!redirects external product theorem in topological K-theory]]
 
 [[!redirects fundamental product theorem in K-theory]]
+
+
