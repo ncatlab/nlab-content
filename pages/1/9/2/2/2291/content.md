@@ -116,3 +116,6 @@ The [[product]] of any [[space]] $X$ with the [[moduli stack]] $Pic_X$ of line b
 [[!redirects complex line bundle]]
 [[!redirects complex line bundles]]
 
+[[!redirects real line bundle]]
+[[!redirects real line bundles]]
+
