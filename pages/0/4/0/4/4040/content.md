@@ -50,6 +50,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[mapping telescope]]
 
+* [[colimits of normal spaces]]
 
 **[[stuff, structure, property|Extra stuff, structure, properties]]**
 
