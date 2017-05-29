@@ -40,23 +40,26 @@ in terms of slice categories (def. \ref{TopologicalVectorBundleInTermsOfSliceCat
 
 In the following 
 
-* $k$ be a [[topological field]], most commonly
+* $k$ is either the [[topological field]]
 
-  * $k = \mathbb{R}$ the [[real numbers]]
+  * $k = \mathbb{R}$ of [[real numbers]]
   
-  * or $k = \mathbb{C}$ the [[complex numbers]]
+  * or $k = \mathbb{C}$ of [[complex numbers]]
   
-  equipped with their [[Euclidean space|Euclidean]] [[metric topology]].
+  equipped with the [[Euclidean space|Euclidean]] [[metric topology]].
 
 * _[[vector space]]_ means _[[finite dimensional vector space]]_.
 
 
+### In terms of slice categories
+ {#InTermsOfSliceCategories}
 
 +-- {: .num_defn #TopologicalVectorBundleInTermsOfSliceCategories}
 ###### Definition
 **(topological vector bundles in terms of slice categories)**
 
 Write [[Top]] for the [[category]] of [[topological spaces]], and for $X \in Top$ a space, write $Top_{/X}$ for its [[slice category]] over $X$. The [[Cartesian product]] in $Top_{/X}$ is the [[fiber product]] over $X$ in $Top$, which we denote by $(-) \times_X (-)$.
+Observe $[X \times k \to X] \in Top_{/X}$ is canonically a [[field]] [[internalization|internal]] to $Top_{/X}$
 
 A _topological vector bundle_ over $X \in Top$ is
 
@@ -115,6 +118,10 @@ where the square is a [[pullback square]] and the [[homeomorphism]] in the top l
 
 If we say this yet more explicitly, it yields the definition as found in the traditional textbooks:
 
+
+### In components
+
+
 +-- {: .num_defn #TopologicalVectorBundle}
 ###### Definition
 **(topological vector bundle in components)**
@@ -129,7 +136,7 @@ Let $X$ be a [[topological space]]. Then a _topological vector bundle_ over $X$ 
 
    $$E_x \coloneqq \pi^{-1}(\{x\}) \subset E$$
 
-such that there exists
+such that this is [[local trivialization|locally trivial]] in that there exists
 
 1. an [[open cover]] $\{U_i \subset X\}_{i \in I}$,
 
@@ -168,8 +175,9 @@ such that
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #TopologicalVectorBundlesCategory}
 ###### Remark
+**([[Vect(X)|category of topological vector bundles]])**
 
 For $X$ a [[topological space]], there is the [[category]] whose
 
@@ -180,6 +188,63 @@ For $X$ a [[topological space]], there is the [[category]] whose
 according to def. \ref{TopologicalVectorBundle}. This category usually denoted [[Vect(X)]].
 
 =--
+
++-- {: .num_remark #CommonOpenCoverLocalTrivialization}
+###### Remark
+**(any two topologial vector bundles have [[local trivialization]] over a common [[open cover]])**
+
+Let $[E_1 \to X]$ and $[E_2 \to X]$ be two topological vector bundles (def. \ref{TopologicalVectorBundle}).
+Then there always exists an [[open cover]] $\{U_i \subset X\}_{i \in I}$ such that both bundles
+have a [[local trivialization]] over this cover.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition we may find two possibly different
+open covers $\{U^1_{i_1} \subset X\}_{{i_1} \in I_1}$ and $\{U^2_{i_2} \subset X\}_{i_2 \in I_2}$
+with local tivializations
+$\{ U^1_{i_1} \underoverset{\simeq}{\phi^1_{i_1}}{\to} E_1\vert_{U^1_{i_1}} \}_{i_1 \in I_1}$
+and
+$\{ U^2_{i_2} \underoverset{\simeq}{\phi^2_{i_2}}{\to} E_2\vert_{U^2_{i_2}} \}_{i_2 \in I_2}$.
+
+The _joint [[refinement]]_ of these two covers is the open cover
+
+$$
+  \left\{
+    U_{i_1, i_2}
+      \coloneqq
+    U^1_{i_1} \cap U^2_{i_2}
+      \subset
+    X
+  \right\}_{(i_1, i_2) \in I_1 \times I_2}
+  \,.
+$$
+
+The original local trivializations restrict to local trivializations on this finer cover
+
+$$
+  \left\{
+    U_{i_1, i_2}
+      \underoverset{\simeq}{\phi^1_{i_1}\vert_{U^2_{i_2}}}{\longrightarrow}
+    E_1\vert_{U_{i_1, i_2}}
+  \right\}_{(i_1, i_2) \in I_1 \times I_2}
+$$
+
+and
+
+$$
+  \left\{
+    U_{i_1, i_2}
+      \underoverset{\simeq}{\phi^2_{i_2}\vert_{U^1_{i_1}}}{\longrightarrow}
+    E_2\vert_{U_{i_1, i_2}}
+  \right\}_{(i_1, i_2) \in I_1 \times I_2}
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_example #TrivialTopologicalVectorBundle}
 ###### Example
@@ -235,14 +300,29 @@ $$
 
 (This is a [[monomorphism]] in the [[category]] $Vect(X)$ of topological vector bundles over $X$.)
 
-
 =--
+
+
+
+
+
+
+## Properties
+
+### Transition functions 
+ {#TransitionFunctionsAndCechCohomology}
+
+We discuss how topological vector bundles are equivalently given by [[cocycles]] in [[Cech cohomology]]
+constituted by their [[transition functions]].
+
 
 +-- {: .num_defn #TransitionFunctions}
 ###### Definition
 **([[transition functions]])
 
-Given a topological vector bundle $E \to X$ as in def. \ref{TopologicalVectorBundle} and a choice of local trivialization isomorphisms $\{\phi_i \colon U_i \times k^n \overset{\simeq}{\to} E|_{U_i}\}$ (example \ref{TrivialTopologicalVectorBundle}) induce [[continuous functions]]
+Given a topological vector bundle $E \to X$ as in def. \ref{TopologicalVectorBundle} and a choice of [[local trivialization]]
+$\{\phi_i \colon U_i \times k^n \overset{\simeq}{\to} E|_{U_i}\}$ (example \ref{TrivialTopologicalVectorBundle})
+there are induced [[continuous functions]]
 
 $$
   \left\{
@@ -250,15 +330,16 @@ $$
   \right\}_{i,j \in I}
 $$
 
-with values in the [[general linear group]] $GL(n, k)$
+from double intersections of the trivializing [[open cover]] to the [[general linear group]] $GL(n, k)$,
+given by composing the local trivialization isomorphisms:
 
 $$
   \array{
     (U_i \cap U_j) \times k^n
-      &\overset{\phi_j \circ \phi_i^{-1}}{\longrightarrow}&
+      &\overset{\phi_j^{-1} \circ \phi_i}{\longrightarrow}&
     (U_i \cap U_j) \times k^n
     \\
-    (x,v) &\overset{\phantom{AAA}}{\mapsto}& (x, g_{i j}(x)(v))
+    (x,v) &\overset{\phantom{AAA}}{\mapsto}& \left( x, g_{i j}(x)(v) \right)
   }
   \,.
 $$
@@ -269,7 +350,7 @@ These are called the _[[transition functions]]_ for the given local trivializati
 
 +-- {: .num_remark #CechCoycleCondition}
 ###### Remark
-**(Cech cocycle condition)**
+**([[Cech cohomology|Cech]] [[cocycle]] condition)**
 
 Let $E \to X$ be a topological vector bundle (def. \ref{TopologicalVectorBundle}) and let $\{U_i \subset X\}_{i \in I}$, $\{\phi_i \colon U_i \times k^n \overset{\simeq}{\to} E|_{U_{i}}\}_{i \in I}$ be a local trivialization (example \ref{TrivialTopologicalVectorBundle}).
 
@@ -393,12 +474,11 @@ Finally, a local trivialization of $E$ exists over the original cover, by constr
 
 Therefore this is a topological vector bundle (def. \ref{TopologicalVectorBundle}). We say it is the topological vector bundle _glued from the transition functions_.
 
-In fact extracting transition functions from a vector bundle by def. \ref{TransitionFunctions} and constructing a vector bundle from Cech coycle data as above are operations that are inverse to each other, up to [[isomorphism]].
-
 =--
 
 +-- {: .num_remark}
 ###### Remark
+**(bundle glued from [[transition functions]] is a [[coequalizer]])**
 
 Stated more [[category theory|category theoretically]], the constructure of a topological vector bundle from Cech cocycle data in example \ref{TopologicalVectorBundleFromCechCocycle} is a [universal construction in topological spaces](Top#UniversalConstructions), namely the [[coequalizer]] of the two morphisms
 
@@ -415,9 +495,334 @@ $$(U_i \cap U_j) \times V \overset{(\langle incl, g_{i j} \rangle) \times V}{\to
 
 =--
 
+In fact, extracting transition functions from a vector bundle by def. \ref{TransitionFunctions} and constructing a vector bundle from Cech coycle data as above are operations that are inverse to each other, up to [[isomorphism]].
+
++-- {: .num_prop #FromTransitionFunctionsReconstructVectorBundle}
+###### Proposition
+**(topological vector bundle reconstructed from its [[transition functions]])**
+
+Let $[E \overset{\pi}{\to} X]$ be a [[topological vector bundle]] (def. \ref{TopologicalVectorBundle}),
+let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] of the base space, and
+let $\left\{  U_i \times k^n \underoverset{\simeq}{\phi_i}{\longrightarrow} E|_{U_i}  \right\}_{i \in I}$
+be a [[local trivialization]].
+
+Write
+
+$$
+  \{ g_{i j} \coloneqq  \phi_j^{-1}\circ \phi_i  \colon U_i \cap U_j \to GL(n,k)\}_{i,j \in I}
+$$
+
+for the corresponding [[transition functions]] (def. \ref{TransitionFunctions}). Then there is an
+[[isomorphism]] of vector bundles over $X$
+
+$$
+  \left(
+    \left(
+      \underset{i \in I}{\sqcup} U_i
+    \right)
+      \times
+    k^n
+  \right)
+  /
+  \left(
+     \left\{
+        g_{i j}
+     \right\}_{i,j \in I}
+  \right)
+    \;\underoverset{\simeq}{(\phi_i)_{i \in I}}{\longrightarrow}\;
+  E
+$$
+
+from the vector bundle glued from the transition functions according to def. \ref{TransitionFunctions} to the original bundle $E$,
+whose components are the original local trivialization isomorphisms.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[universal property]] of the [[disjoint union space]] ([[coproduct]] in [[Top]]),
+continuous functions out of them are equivalently sets of continuous functions out of every
+summand space. Hence the set of local trivializations $\{U_i \times k^n \underoverset{\simeq}{\phi_i}{\to} E|_{U_i} \subset E\}_{i \in I}$
+may be collected into a single [[continuous function]]
+
+$$
+  \left(
+    \underset{i \in I}{\sqcup} U_i
+  \right)
+     \times
+   k^n
+   \overset{(\phi_i)_{i \in I}}{\longrightarrow }
+   E
+   \,.
+$$
+
+By construction this function respects the [[equivalence relation]] on the disjoint union space given by
+the transition functions, in that for each $x \in U_i \cap U_j$ we have
+
+$$
+  \phi_i((x,i),v)
+  =
+  \phi_j \circ \phi_j^{-1} \circ \phi_i((x,i),v)
+  =
+  \phi_j \circ ((x,j),g_{i j}(x)(v))
+  \,.
+$$
+
+By the [[universal property]] of the [[quotient space]] coprojection this means that $(\phi_i)_{i \in I}$
+uniquely [[extension|extends]] to a [[continuous function]] on the quotient space such that the
+following [[commuting diagram|diagram commutes]]
+
+$$
+  \array{
+    \left(
+      \underset{i \in I}{\sqcup} U_i
+    \right)
+      \times
+    k^n
+    &\overset{(\phi_i)_{i \in I}}{\longrightarrow}&
+  E
+  \\
+  \downarrow  & \nearrow_{\exists !}
+  \\
+  \left(
+    \left(
+      \underset{i \in I}{\sqcup} U_i
+    \right)
+      \times
+    k^n
+  \right)
+  /
+  \left(
+     \left\{
+        g_{i j}
+     \right\}_{i,j \in I}
+  \right)
+  }
+  \,.
+$$
+
+It is clear that this continuous function is a [[bijection]]. Hence to show that it is a
+[[homeomorphism]], it is now sufficient to show that this is an [[open map]] (by [this prop.](Introduction+to+Topology+--+1#HomeoContinuousOpenBijection)).
+
+So let $O$  be an subset in the quotient space which is open. By definition of the
+[[quotient topology]] this means equivalently that its restriction $O_i$ to $U_i \times k^n$
+is open for each $i \in I$. Since the $\phi_i$ are homeomorphsms, it follows that the
+images $\phi_i(O_i)  \subset  E\vert_{U_ i}$ are open.
+By the nature of the [[subspace topology]], this means that these images are open also in $E$.
+Therefore also the union $f(O) = \underset{i \in I}{\cup} \phi_i(O_i)$ is open.
+
+=--
 
 
-## Properties
+### Basic properties
+ {#BasicProperties}
+
++-- {: .num_lemma #FiberwiseIsoisIsomorphismOfVectorBundles}
+###### Lemma
+**(homomorphism of vector bundles is isomorphism as soon as it is a fiberwise isomorphism)**
+
+Let $[E_1 \to X]$ and $[E_2 \to X]$ be two topological vector bundles (def. \ref{TopologicalVectorBundle}).
+
+If a [[homomorphism]] of vector bundles $f \colon E_1 \longrightarrow E_2$
+restricts on the [[fiber]] over each point to a linear isomorphism
+
+$$
+  f\vert_x \;\colon\; (E_1)_x \overset{\simeq}{\longrightarrow} (E_2)_x
+$$
+
+then $f$ is already an isomorphism of vector bundles
+
+=--
+
+(e.g [Hatcher, lemma 1.1](#Hatcher))
+
++-- {: .proof}
+###### Proof
+
+It is clear that $f$ has an [[inverse function]]
+of underlying sets $f^{-1} \colon E_2 \to _E_1$ which is a function over $X$: Over each $x \in X$
+it it the linear inverse $(f\vert_x)^{-1} \colon (E_2)_x \to (E_1)_x$.
+
+What we need to show is that this is a continuous function.
+
+By remark \ref{CommonOpenCoverLocalTrivialization} we find an open cover $\{U_i \subset X\}_{i \in I}$ over which
+both bundles have a local trivialization.
+
+
+$$
+  \left\{ U_i \underoverset{\simeq}{\phi^1_i}{\to} (E_1)\vert_{U_i}\right\}_{i \in I}
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  \left\{ U_i \underoverset{\simeq}{\phi^2_i}{\to} (E_2)\vert_{U_i} \right\}_{i \in I}
+  \,.
+$$
+
+Restricted to any patch $i \in I$ of this cover, the homomorphism $f|_{U_i}$ induces a homomorphism
+of  [[trivial vector bundles]]
+
+$$
+  f_i \coloneqq \phi^2_j^{-1} \circ f \circ \phi^1_i
+   \phantom{AAAAAA}
+  \array{
+    U_i \times k^n &\underoverset{\simeq}{\phi^1_i}{\longrightarrow}& (E_1)\vert|_{U_i}
+    \\
+    {}^{f_i}\downarrow && \downarrow^{\mathrlap{f\vert_{U_i}}}
+    \\
+    U_i \times k^n &\underoverset{\phi^2_i}{\simeq}{\longrightarrow}& (E_2)\vert_{U_j}
+  }
+  \,.
+$$
+
+Also the $f_i$ are fiberwise invertible, hence are
+continuous bijections. We claim that these are [[homeomorphisms]], hence that their
+inverse functions $(f_i)^{-1}$ are also continuous.
+
+To this end we re-write the $f_i$ a little. First observe that by the [[universal property]]
+of the [[product topological space]] and since they fix the base space $U_i$, the $f_i$ are equivalently given by
+a continuous function
+
+$$
+   h_i \;\colon\; U_i \times k^n \longrightarrow k^n
+$$
+
+as
+
+$$
+  f_i(x,v) = (x, h_i(x,v))
+  \,.
+$$
+
+Moreover since $k^n$ is [[locally compact topological space|locally compact]] (as every [[metric space]]),
+the [[mapping space]] [[adjunction]] says (by [this prop.](Introduction+to+Topology+--+1#UniversalPropertyOfMappingSpace)) that there is a continuous function
+
+$$
+  \tilde h_i
+    \;\colon\;
+  U_i \longrightarrow Maps(k^n, k^n)
+$$
+
+(with $Maps(k^n,k^n)$ the set of continuous functions $k^n \to k^n$ equipped with the [[compact-open topology]])
+which factors $h_i$ via the [[evaluation]] map as
+
+$$
+  h_i
+    \;\colon\;
+  U_i \times k^n
+    \overset{\tilde h_i \times id_{k^n}}{\longrightarrow}
+  Maps(k^n, k^n) \times k^n
+    \overset{ev}{\longrightarrow}
+  k^n
+  \,.
+$$
+
+By assumption of fiberwise
+linearity the functions $\tilde h_i$ in fact take values in the [[general linear group]]
+
+$$
+  GL(n,k) \subset Maps(k^n, k^n)
+  \,.
+$$
+
+Since passing to [[inverse matrices]]
+
+$$
+  (-)^{-1} \;\colon\; GL(n,k) \longrightarrow GL(n,k)
+$$
+
+is a [[rational function]] on its domain $GL(n,k) \subset Mat_{n \times n}(k) \simeq k^{(n^2)}$ inside [[Euclidean space]]
+and since [[rational functions are continuous]] on their domain of definition,
+it follows that the inverse of $f_i$
+
+$$
+  (f_i)^{-1}
+    \;\colon\;
+  U_i \times k^n
+    \overset{(id  , \tilde h_i )  }{\longrightarrow}
+  U_i \times k^n \times GL(n,k)
+    \overset{ id  \times (-)^{-1} }{\longrightarrow}
+  U_i \times k^n \times GL(n,k)
+    \overset{id  \times ev}{\longrightarrow}
+  U_i \times k^n
+$$
+
+is a continuous function.
+
+To conclude that also $f^{-1}$ is a continuous function we make use prop. \ref{FromTransitionFunctionsReconstructVectorBundle}
+to find an isomorphism between $E_2$ and a [[quotient topological space]] of the form
+
+$$
+  E_2 \simeq \left(\underset{i \in I}{\sqcup} (U_i \times k^n) \right) / \left(  \left\{ g_{i j}\right\}_{i,j\in I} \right)
+  \,.
+$$
+
+Hence $f^{-1}$ is equivalently a function on this quotient space, and we need to show that as such it is continuous.
+
+By the [[universal property]] of the [[disjoint union space]] (the [[coproduct]] in [[Top]]) the set of continuous functions
+
+$$
+  \{ U_i \times k^n \overset{f_i^{-1}}{\to} U_i \times k^n \overset{\phi^1_i}{\to} E_1 \}_{i \in I}
+$$
+
+corresponds to a single continuous function
+
+$$
+  (\phi^1_i \circ f_i^{-1})_{i \in I}
+    \;\colon\;
+  \underset{i \in I}{\sqcup} U_i \times k^n
+    \longrightarrow
+  E_1
+  \,.
+$$
+
+These functions respect the equivalence relation, since for each $x \in U_i \cap U_j$ we have
+
+$$
+  (\phi^1_i \circ f_i^{-1})((x,i),v)
+    =
+  (\phi^1_j \circ f_j^{-1})( (x,j), g_{i j}(x)(v) )
+  \phantom{AAAA}
+  \text{since:}
+  \phantom{AAAA}
+  \array{
+    && E_1
+    \\
+     & {}^{\mathllap{\phi^1_i \circ f_i^{-1}}}\nearrow
+     &
+       \uparrow^{\mathrlap{f^{-1}}}
+     & \nwarrow^{\mathrlap{ \phi^1_j \circ f_j^{-1} }}
+    \\
+    U_i \times k^n
+      &\underset{\phi^2_i}{\longrightarrow}&
+    (E_2)\vert_{U_i \cap U_i}
+      &\underset{(\phi^2_j)^{-1}}{\longrightarrow}&
+    U_i \times k^n
+  }
+  \,.
+$$
+
+Therefore by the [[universal property]] of the [[quotient topological space]] $E_2$, these functions
+[[extension|extend]] to a unique continuous function $E_2 \to E_1$ such that the following
+[[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    \underset{i \in i}{\sqcup} U_i \times k^n
+      &\overset{( \phi^1_i \circ f_i^{-1} )_{i \in I}}{\longrightarrow}&
+    E_1
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists !}}
+    \\
+    E_2
+  }
+  \,.
+$$
+
+This unique function is clearly $f^{-1}$ (by pointwise inspection) and therefore $f^{-1}$ is continuous.
+
+
+=--
 
 
 ### Direct summand bundles
@@ -886,6 +1291,7 @@ is trivializable over the contractible subspace $A$.
 * [[topological K-theory]]
 
 ## References
+
 
 Textbook accounts include
 
