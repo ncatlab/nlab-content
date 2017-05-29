@@ -1481,7 +1481,7 @@ If $\Lambda$ is a small set generating the anodyne extensions, $AnExt = LLP(RLP(
 
 Let $W \subset Mor(PSh(A))$. The following are equivalent.
 
-1. $W$ is an $A$-localizer, def. \ref{ALocalizer};
+1. $W$ is an accessible $A$-localizer, def. \ref{ALocalizer};
 
 1. There is a set $S \subset Mor(PSh(A))$ of monomorphisms, such that $W$ is the class of weak equivalences of the model structure induced by theorem \ref{ModelStructureFromHomotopicalStructure} from the homotopical structure, def. \ref{HomotopicalStructure}, given by the Lawvere cylinder, def. \ref{LawvereCylinder}, and $AnExt := S$.
 
