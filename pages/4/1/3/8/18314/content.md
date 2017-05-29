@@ -1,0 +1,14 @@
+
+This page collects material related to the textbook
+
+* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin Schottenloher]], 
+
+  _Basic Bundle Theory and K-Cohomology Invariants_, 
+
+  Lecture Notes in Physics, Springer 2008 
+
+  ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
+
+on [[fiber bundles]] ([[principal bundles]], [[vector bundles]], [[classifying space]], [[characteristic classes]]), [[topological K-theory]], [[twisted K-theory]] and applications to [[D-branes]]
+
+category: reference
