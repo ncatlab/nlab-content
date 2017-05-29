@@ -5,16 +5,85 @@
 
 ## Idea
 
-_Bott periodicity_ is the name of a periodicity phenomenon that appears throughout [[spin geometry]], [[supersymmetry]] and [[K-theory]]. Incarnation of it include the following:
+_Bott periodicity_ is the name of a periodicity phenomenon that appears throughout [[spin geometry]], [[supersymmetry]] and [[K-theory]]. Incarnations of it include the following:
 
-* the complex [[topological K-theory]] groups have a degree-2 periodicity: $K^{\bullet + 2}(X) = K^\bullet(X)$. Real K-theory has a period 8 periodicity like this. There is an element of degree 2 multiplication by which induces this [[isomorphism]] in complex K-theory, the _[[Bott element]]_. This is what makes [[KU]] be a 2-[[periodic ring spectrum]].
+### In topological K-theory
 
-  See at _[[topological K-theory]]_ the section _[Bott periodicity](topological+K-theory#BottPeriodicity)_.
+The [[complex numbers|complex]] [[reduced K-theory|reduced]] [[topological K-theory]] groups have a degree-2 periodicity: 
 
-* the complex [[Clifford algebras]] repeat -- up to _[[Morita equivalence]]_ -- with period 2, $Cl_{n}(\mathbb{C}) \simeq_{Morita} Cl_{n+2}(\mathbb{C})$. The real Clifford algebras analogously have period 8, $Cl_n(\mathbb{R}) \simeq_{Morita} Cl_{n+8}(\mathbb{R})$.
+$$
+  \tilde K_{\mathbb{C}}^\bullet(X) 
+    \simeq 
+  \tilde K_{\mathbb{C}}^{\bullet + 2}(X) 
+  \,.
+$$ 
+
+This isomorphism is induced by [[external tensor product]] with the image of the [[basic line bundle on the 2-sphere]] in [[reduced K-theory]], called the _[[Bott element]]_.
+
+For details see at _[[topological K-theory]]_ the section _[Bott periodicity](topological+K-theory#BottPeriodicity)_.
+
+The periodicity lifts to the [[classifying spaces]] and makes the [[Brown representability theorem|representing]] [[spectrum]] [[KU]] of complex K-theory be an [[even periodic ring spectrum]].
+
+In particular the 2-periodicity in the [[homotopy groups]] of the [[stable unitary group]] $U = \underset{\longrightarrow}{\lim}_n U(n)$ is thus a shadow of Bott periodicity.
+
+$$
+  \pi_i(U) = \pi_i(GL_{\mathbb{C}})
+  = 
+  \left\lbrace 
+   \array{ 
+     0 &\vert& i\, \text{odd}
+     \\ 
+     \mathbb{Z} &\vert& i \, \text{odd}
+   }
+   \right.
+$$
 
 
-* the basic properties of complex [[spinor representations]] are the same for $Spin(d-1,1)$ and $Spin(d+2-1,1)$. Those of the real spinor representations repeat with period 8.
+Similarly the [[real numbers|real]] [[reduced K-theory|reduced]] [[topological K-theory]] groups have an 8-periodicity 
+
+$$
+ \tilde K^\bullet_{\mathbb{R}}(X)  
+   \simeq 
+  \tilde K^{\bullet + 8}_{\mathbb{R}}( X ) 
+$$
+
+a shadow of which is the 8-periodicity in the [[homotopy groups]] of the [[stable orthogonal group]]
+
+$$
+  \pi_i( O ) 
+  = 
+  \pi_i(GL_{\mathbb{R}})
+  =
+  \left\{  
+    \array{
+       \mathbb{Z}_2 &\vert& i = 0 \, \text{mod}\, 8  
+       \\ 
+       \mathbb{Z}_2 &\vert& i = 1 \, \text{mod}\, 8
+       \\ 
+       0 &\vert& i = 2 \, \text{mod}\, 8
+       \\ 
+       \mathbb{Z} &\vert& i = 3 \, \text{mod}\, 8
+       \\  
+       0 &\vert& i = 4 \, \text{mod}\, 8
+       \\
+       0 &\vert& i = 5 \, \text{mod}\, 8
+       \\ 
+       0 &\vert& i = 6 \, \text{mod}\, 8
+       \\ 
+       \mathbb{Z} &\vert& i = 7 \, \text{mod}\, 8
+     }
+   \right.
+$$
+
+
+### In Spin geometry
+
+The complex [[Clifford algebras]] repeat -- up to _[[Morita equivalence]]_ -- with period 2, $Cl_{n}(\mathbb{C}) \simeq_{Morita} Cl_{n+2}(\mathbb{C})$. 
+
+The real Clifford algebras analogously have period 8, $Cl_n(\mathbb{R}) \simeq_{Morita} Cl_{n+8}(\mathbb{R})$.
+
+
+Accordingly the basic properties of complex [[spinor representations]] are the same for $Spin(d-1,1)$ and $Spin(d+2-1,1)$. Those of the real spinor representations repeat with period 8.
 
 
 ## Related concepts
@@ -27,5 +96,5 @@ _Bott periodicity_ is the name of a periodicity phenomenon that appears througho
 
 [[!redirects Bott periodicities]]
 
-[[!redirects Bott generator]]
-[[!redirects Bott generators]]
+[[!redirects Bott periodicity theorem]]
+[[!redirects Bott periodicity theorem]]
