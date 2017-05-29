@@ -1,6 +1,14 @@
+# Contents 
+* table of contents 
+{:toc}
+
 This page will collect some technical material concerning [[colimits]] of [[normal spaces]] as computed in [[Top]]. 
 
-The first very easy observation is that normal spaces are closed under [[coproducts]] in [[Top]] (so-called "[[disjoint union spaces]]"). 
+## Basic results 
+
+We start with some easy but useful results, using only our "bare hands" (i.e., using the definition of normality and applying simple reasoning). 
+
+The first very easy observation is that normal spaces are closed under [[coproducts]] in [[Top]] (so-called "[[disjoint union spaces]]"). The proof may be safely left to the reader. 
 
 There is no hope that normal spaces are closed under [[coequalizers]] or [[pushouts]]. A first example that comes to mind is the line with double origin, which is the topological pushout of the diagram 
 
@@ -22,12 +30,7 @@ First we claim singletons of $Y$ are closed: for each $y \in Y$ there exists $x 
 Let $C, D$ be disjoint closed sets of $Y$, so that $\neg C, \neg D$ form an open cover of $Y$. Then $A = q^{-1}(\neg C), B = q^{-1}(\neg D)$ form an open cover of $X$. Normality of $X$ (in "[[De Morgan duality|De Morganized]]" form) implies there are closed subsets $E \subseteq A, F \subseteq B$ which together also cover $X$. Then $Y = q(X) = q(E \cup F) = q(E) \cup q(F)$, so the closed sets $q(E), q(F)$ cover $Y$. And we have $q(E) \subseteq q(A) = \neg C$ and similarly $q(F) \subseteq \neg D$, which is equivalent to $C \subseteq \neg q(E)$ and $D \subseteq \neg q(F)$, where $\neg q(E), \neg q(F)$ are disjoint open sets of $Y$, and we are done. 
 =-- 
 
-+-- {: .num_remark} 
-###### Remark 
-A closed surjection is a quotient map (a regular epi in $Top$), and a closed injection is an embedding (a regular mono in $Top$). 
-=-- 
-
-We know that [[compact Hausdorff spaces]] are normal spaces, and this is an especially nice class because the category of compact Hausdorff spaces is a [[pretopos]]. This is the categorical backdrop for the following observation. 
+Here is one way in which such closed surjections arise: we know that [[compact Hausdorff spaces]] are normal spaces, and this is an especially nice class because the category of compact Hausdorff spaces is a [[pretopos]]. This is the categorical backdrop for the following observation. 
 
 +-- {: .num_lemma #pretopos} 
 ###### Lemma 
@@ -54,75 +57,74 @@ This is a closed set because the first projection $\pi_1$ is a closed map (by co
 $q^{-1}(q(A))$ is closed, $q(A)$ is closed by definition of quotient topology. 
 =-- 
 
+
++-- {: .num_remark} 
+###### Remark 
+A closed surjection is a quotient map (a regular epi in $Top$), and a closed injection is an embedding (a regular mono in $Top$). 
+=-- 
+
 +-- {: .num_lemma #poclosed} 
 ###### Lemma 
 In $Top$, the pushout of a closed embedding along any continuous map is again a closed embedding. 
 =-- 
 
-A proof may be found [here](/nlab/show/subspace+topology#pushout). 
++-- {: .proof} 
+###### Proof 
+We reproduce the proof given [here](/nlab/show/subspace+topology#pushout). 
 
+Since $U = \hom(1, -): Top \to Set$ is [[faithful functor|faithful]], we have that monos are reflected by $U$; also monos and pushouts are preserved by $U$ since $U$ has both a [[left adjoint]] and a [[right adjoint]]. In $Set$, the pushout of a mono along any map is a mono, so we conclude $j$ is monic in $Top$. Furthermore, such a pushout diagram in $Set$ is also a pullback, so that we have the [[Beck-Chevalley condition|Beck-Chevalley equality]] $\exists_i \circ f^\ast = g^\ast \exists_j \colon P(C) \to P(B)$ (where $\exists_i \colon P(A) \to P(B)$ is the [[direct image]] map between [[power sets]], and $f^\ast: P(C) \to P(A)$ is the [[inverse image]] map). 
 
-+-- {: .num_prop #pushoutclosed} 
-###### Proposition 
-Given a pushout diagram in $Top$ 
+To prove that $j$ is a subspace, let $U \subseteq C$ be any open set. Then there exists open $V \subseteq B$ such that $i^\ast(V) = f^\ast(U)$ because $i$ is a subspace inclusion. If $\chi_U \colon C \to \mathbf{2}$ and $\chi_V \colon B \to \mathbf{2}$ are the maps to [[Sierpinski space]] that classify these open sets, then by the universal property of the pushout, there exists a unique continuous map $\chi_W \colon D \to \mathbf{2}$ which extends the pair of maps $\chi_U, \chi_V$. It follows that $j^{-1}(W) = U$, so that $j$ is a subspace inclusion. 
+
+If moreover $i$ is an open inclusion, then for any open $U \subseteq C$ we have that $j^\ast(\exists_j(U)) = U$ (since $j$ is monic) and (by Beck-Chevalley) $g^\ast(\exists_j(U)) = \exists_i(f^\ast(U))$ is open in $B$. By the definition of the topology on $D$, it follows that $\exists_j(U)$ is open, so that $j$ is an open inclusion. The same proof, replacing the word "open" with the word "closed" throughout, shows that the pushout of a closed inclusion $i$ is a closed inclusion $j$. 
+=-- 
+
+## Tietze characterization 
+
+A powerful tool for proving theorems about topological colimits of normal spaces is the characterization of normal spaces via the Tietze extension theorem: 
+
++-- {: .num_theorem} 
+###### Theorem 
+A space $X$ is normal if and only if, for each closed subset $C \subseteq X$ and map $f: C \to \mathbb{R}$, there is an extension map $g: X \to \mathbb{R}$, i.e., a map whose restriction $g|_C$ coincides with $f$. 
+=-- 
+
++-- {: .num_remark} 
+###### Remarks 
+
+1. There are slight variations on the theorem: $\mathbb{R}$ may be replaced by $[0, \infty)$ or $[0, 1]$ or any homeomorph of these, and the result still holds. 
+
+1. We remark that the "if" part of the proof is very easy. If $A, B$ are closed disjoint subsets of $X$, then the closed subspace $C = A \cup B$ is the coproduct on $A, B$ in $Top$, and we may define a map $f: A \cup B \to \mathbb{R}$ to be the constant $0$ on $A$ and the constant $1$ on $B$. Let $g: X \to \mathbb{R}$ be any extension of $f$; then $U = g^{-1}(\{x: x \lt 1/3\})$ and $V = g^{-1}(\{x: x \gt 2/3\})$ are separating open sets. 
+=-- 
+
+The following is a sample application. 
+
++-- {: .num_theorem #attach} 
+###### Theorem 
+If $X, Y, Z$ are normal spaces and $h: X \to Z$ is a closed embedding and $f: X \to Y$ is a continuous map, then in the pushout diagram in $Top$ 
 
 $$\array{
 X & \stackrel{h}{\to} & Z \\ 
 \mathllap{f} \downarrow & & \downarrow \mathrlap{g} \\ 
 Y & \underset{k}{\to} & W,
-}$$ 
+}$$
 
-if $f, h$ are closed and $h$ is monic, then $g$ is closed. 
+the space $W$ is normal (and $k: Y \to W$ is a closed embedding, by the preceding Lemma). 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-In the epi-(regular mono) factorization of $f$, say $X \stackrel{e}{\to} K \stackrel{m}{\to} Y$, both $e$ and $m$ are closed, and the pushout of the statement decomposes into two pushouts 
+By the Tietze characterization, it suffices to show that any map $\phi: C \to \mathbb{R}$ on a closed subspace $C$ of $W$ can be extended to a map $\psi$ on all of $W$. Pulling back $C \hookrightarrow W$ along $k$, we have a closed subspace $k^{-1}(C) \hookrightarrow Y$ and a composite map $k^{-1}(C) \stackrel{k|}{\to} C \stackrel{\phi}{\to} \mathbb{R}$; call it $\alpha: k^{-1}(C) \to \mathbb{R}$. By normality of $Y$, the map $\alpha: k^{-1}(C) \to \mathbb{R}$ extends to a map $\beta: Y \to \mathbb{R}$. We obtain a map $\beta f: X \to \mathbb{R}$. 
 
-$$\array{
-X & \stackrel{h}{\to} & Z \\ 
-\mathllap{e} \downarrow & & \downarrow \mathrlap{e'} \\ 
-K & \stackrel{j}{\to} & K' \\ 
-\mathllap{m} \downarrow & & \downarrow \mathrlap{m'} \\ 
-Y & \underset{k}{\to} & W
-}$$ 
+Similarly, pulling $C \hookrightarrow W$ back along $g$, we have a composite map $g^{-1}(C) \stackrel{g|}{\to} C \stackrel{\phi}{\to} \mathbb{R}$; call it $\gamma: g^{-1}(C) \to \mathbb{R}$. We may now define a map 
 
-The map $m'$ is closed by Lemma \ref{poclosed}. The map $e$, being a closed surjection, is a quotient map (a regular epi), and thus $e'$ is also a quotient map, being a pushout of a regular epi. Then to show $e'$ is closed, it suffices to show (by definition of quotient topology) that for any closed subset $A \subseteq Z$, the saturation $(e')^{-1}(e'(A))$ is also closed. But if $e'(z) = e'(a)$ for some $a \in A$, then either $x = a$ or $(z, a) = (h(x), h(y))$ for some unique $(x, y)$ such that $e(x) = e(y)$, i.e., $x \in h(e^{-1}(e(h^{-1}(A)))$. In other words, 
+$$\delta: h(X) \cup g^{-1}(C) \to \mathbb{R}$$ 
 
-$$(e')^{-1}(e'(A)) = A \cup h(e^{-1}(e(h^{-1}(A)))$$ 
-
-where the right side is closed since $A$ is closed and $e, h$ are closed maps. Thus we have shown $m'$ and $e'$ are closed maps, and so $g = m'e'$ is also closed.  
+by $\delta(h(x)) = \beta f(x)$ for $h(x) \in h(X)$, and $\delta(z) = \phi(g(z))$ for $z \in g^{-1}(C)$. It is not hard to check that this is well-defined (by commutativity of the pullback square) and is continuous (using the fact that $h|: X \to h(X)$ is a homeomorphism, since $h$ is an embedding), and that $h(X) \cup g^{-1}(C)$ is a closed subset of $Z$ (since $h$ is closed). By normality of $Z$, we may extend $\delta$ to a map $\theta: Z \to \mathbb{R}$, and we have just observed that $\theta h = \beta f$, so the pair $(\beta, \theta): Y + Z \to \mathbb{R}$ induces a unique map $\psi: W \to \mathbb{R}$ such that $\psi k = \beta$ and $\psi g = \theta$. Finally, the restriction of $\psi$ to $C$ is $\phi$, as required. 
 =-- 
 
-+-- {: .num_prop #pogeneral} 
-###### Proposition 
-If $X, Y, Z$ are normal, and $h: X \to Z$ is a closed embedding and $f: X \to Y$ is closed, then for the pushout diagram in $Top$ 
+## Sequences of normal spaces 
 
-$$\array{
-X & \stackrel{h}{\to} & Z \\ 
-\mathllap{f} \downarrow & & \downarrow \mathrlap{g} \\ 
-Y & \underset{k}{\to} & W
-}$$ 
-
-the space $W$ is also normal. 
-=-- 
-
-+-- {: .proof} 
-###### Proof 
-The space $Y + W$ is normal, so by Proposition \ref{normal}, it suffices to show that the quotient map $(k, g): Y + Z \to W$ is closed, or what is the same, that $k$ and $g$ are closed. But $k$ is closed by Lemma \ref{poclosed}, and $g$ is closed by Proposition \ref{pushoutclosed}. 
-=-- 
-
-+-- {: .num_cor} 
-###### Corollary  
-If $h: X \hookrightarrow Z$ is an embedding of compact Hausdorff spaces and $f: X \to Y$ is a map to a normal space, then the pushout $Y \cup_X Z$ is normal. 
-=-- 
-
-+-- {: .proof} 
-###### Proof 
-Of course any map $f: X \to Y$ from a compact Hausdorff space to a normal (or even Hausdorff) space is closed, and so the result is immediate from Proposition \ref{pogeneral}. 
-=-- 
-
-+-- {: .num_prop} 
++-- {: .num_prop #sequence} 
 ###### Proposition 
 If $(i_n: X_n \to X_{n+1})_{n \in \mathbb{N}}$ is a countable sequence of closed embeddings between normal spaces, then the colimit $X = colim_n X_n$ is also normal. 
 =-- 
@@ -143,3 +145,17 @@ Use normality of $X_{n+1}$ to select disjoint open sets $U_{n+1}, V_{n+1}$ such 
 
 It is clear that $i_n(U_n) \subseteq U_{n+1}$ and the union $U = colim_n U_n$ defines an open set of $X$ (by definition of colimit topology), as does $V = colim_n V_n$. The sets $U, V$ include $A, B$ respectively and are disjoint since any element they have in common must belong to $U_n$ and $V_n$ for sufficiently large $n$, which is impossible. This completes the proof. 
 =-- 
+
++-- {: .num_theorem} 
+###### Theorem 
+A CW-complex is a normal space. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+A CW-complex $X$ is formed by an inductive process where the $n$-skeleton $X_n$ is formed as an attachment space formed from normal spaces. That is, we start with the normal space $X_{-1} = \emptyset$, and given the normal space $X_{n-1}$ and an attaching map $f: S_{n-1} = \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, we push out the closed embedding $S_{n-1} = \sum_{i \in I} S_i^{n-1} \hookrightarrow \sum_{i \in I} D_i^n = D_n$ along the attaching map $f$ to get a closed embedding 
+
+$$i_n: X_{n-1} \to X_n (= X_{n-1} \cup_{S_{n-1}} D_n)$$ 
+
+and deduce $X_n$ is normal by Theorem \ref{attach}. Then $X = colim_n X_n$ is normal by applying Proposition \ref{sequence}. 
+=--  
