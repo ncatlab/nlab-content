@@ -70,6 +70,7 @@ is a countable subcover.
 
 * [[locally compact and second-countable spaces are sigma-compact]]
 
+* [[CW-complexes are paracompact Hausdorff spaces]]
 
 ## References
 
