@@ -152,7 +152,7 @@ $$
 
 =--
 
-This appears for instance as ([MacLaneMoerdijk, corollary VII, 4](#MacLaneMoerdijk)).
+This appears for instance as ([MacLaneMoerdijk, corollary VII.5.4](#MacLaneMoerdijk)).
 
 
 +-- {: .num_prop}
