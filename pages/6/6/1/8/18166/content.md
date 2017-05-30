@@ -185,6 +185,10 @@ $$
 ###### Proof
 of prop. \ref{OpenCoverOfParacompactHausdorffSpaceAdmitsPartitionOfUnity}
 
+By paracmpactness of $X$, for every open cover there exists a locally finite refinement $\{U_i \subset X\}_{i \in I}$, and by lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet} we may assume 
+that this has same index set. It is now sufficient to show that this locally finite cover $\{U_i \subset X\}_{i \in I}$ admits a subordinate partition of unity, since this will then also be  subordinate to the original cover.
+
+
 Since [[paracompact Hausdorff spaces are normal]] we may
 apply lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} to the given locally finite open cover $\{U_i \subset X\}_i$, to obtain a smaller locally finite open cover $\{V_i \subset X\}_{i \in I}$, and then apply the lemma once more to that result to get a yet small open cover  $\{W_i \subset X\}_{i \in I}$, so that now
 
