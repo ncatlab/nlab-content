@@ -371,6 +371,9 @@ A more model-independent abstract formulation is discussed in
 
 * {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Infinity category theory from scratch_, 2016 ([pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
 
+Discussion in [[homotopy type theory]] is in
+
+* {#RiehlShulman17} [[Emily Riehl]], [[Michael Shulman]], _A type theory for synthetic $\infty$-categories_ ([arXiv:1705.07442](https://arxiv.org/abs/1705.07442))
 
 ### Surveys and lecture notes 
  {#LectureNotes}
