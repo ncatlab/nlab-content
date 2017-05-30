@@ -10,17 +10,505 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A [[pointed object|pointed]] [[topological space]].
+A _pointed topological space_ is a [[topological space]] with a choice of one of its points.
+
+Simplistic as this concept may seem, pointed topological spaces play a central role for instance in [[algebraic topology]] as domains for  [[reduced cohomology|reduced]] [[generalized (Eilenberg-Steenrod) cohomology theories]] and as an ingredient for the definition of [[spectra]].
+
+One reason why pointed topological spaces are important is that the [[category]] which they form is an intermediate stage in the [[stabilization]] of [[homotopy theory]] (the [[classical model structure on topological spaces|classical homotopy theory of topological spaces]]) to [[stable homotopy theory]]:
+
+The category of pointed topological spaces has a [[zero object]] (the [[point space]] itself) and the canonical [[tensor product]] on pointed spaces is the _[[smash product]]_, which is non-[[cartesian monoidal category]], in contrast to the plain [[product space|product of topological space]].
+
+## Definition
+
+A _pointed topological space_ is a [[topological space]] $(X,\tau)$ equipped with a choice of point $x \in X$.
+A [[homomorphism]] between pointed topological space $(X,x)$ $(Y,y)$ is a [[continuous function]] $f \colon X \to Y$ which preserves the chosen basepoits in that $f(x) = y$.
+
+### The category of pointed topological spaces
+
+Stated in the language of [[category theory]], this mean that pointed topological spaces are the _[[pointed objects]]_ in the [[category]] [[Top]] of topological spaces. This is the [[coslice category]] $Top^{\ast/}$ of topological spaces "under" the [[point space]] $\ast$:
+
+an [[object]] in $Top^{\ast/}$ is equivalently a [[continuous function]] $x \colon \ast  \to (X,\tau)$, which is equivalently just a choice of point in $X$, and a [[morphism]] in $Top^{\ast/}$ is a morphism $f \colon X \to Y$ in [[Top]] (hence a continuous function), such that this triangle [[diagram]] [[commuting diagram|commutes]]
 
 $$
-  X \in Top^{\ast/}
+  \array{
+    && \ast
+    \\
+    & {}^{\mathllap{x}}\swarrow && \searrow^{\mathrlap{y}}
+    &&
+    X && \underset{f}{\longrightarrow} && Y
+  }
 $$
+
+which equivalently means that $f(x) = y$.
+
+### Forgetting and adjoining basepoints
+
++-- {: .num_defn #BasePointAdjoined}
+###### Definition
+
+The [[forgetful functor]] $Top^{\ast/} \to Top$ has a [[left adjoint]] given by forming the [[disjoint union space]] ([[coproduct]] in [[Top]]) with a [[point space]] ("adjoining a base point"), this is denoted by
+
+$$
+  (-)_+ \coloneqq (-) \sqcup \ast \;\colon \; Top \longrightarrow Top^{\ast/}
+  \,.
+$$
+
+=--
+
+
+### Wedge sum and Smash product
+
++-- {: .num_example #WedgeSumAsCoproduct}
+###### Example
+
+Given two pointed topoligical spaces $(X,x)$ and $(Y,y)$, then:
+
+1. their [[Cartesian product]] in $Top^{\ast/}$ is simply their [[product topological space]] $X \times Y$ equipped with the [[pair]] of basepoints $(X\times Y, (x,y))$;
+
+1. their [[coproduct]] in $Top^{\ast/}$ has to be computed using the second clause in [this prop.](pointed+object#LimitsAndColimitsOfPointedObjects): since the point $\ast$ has to be adjoined to the diagram, it is given not by the coproduct in $Top$ (which is the [[disjoint union space]]), but by the [[pushout]] in $Top$ of the form:
+
+   $$
+     \array{
+       \ast &\overset{x}{\longrightarrow}& X
+       \\
+       {}^{\mathllap{y}}\downarrow &(po)& \downarrow
+       \\
+       Y &\longrightarrow& X \vee Y
+     }
+     \,.
+   $$
+
+   This is called the _[[wedge sum]]_ operation on pointed objects.
+
+   This is the [[quotient topological space]] of the [[disjoint union space]] under the [[equivalence relation]] which identifies the two basepoints:
+
+   $$
+     X \vee Y \simeq (X \sqcup Y)/(x \sim y)
+   $$ 
+
+Generally for a set $\{(X_i,x_i)\}_{i \in I}$ of pointed topological spaces
+
+1. their [[product]] is formed in [[Top]], as the [[product topological space]] with the [[Tychonoff topology]], with the [[tuple]] $(x_i)_{i \in I} \in \underset{i \in I}{\prod} X_i$ of basepoints being the new basepoint;
+
+1. their [[coproduct]] is formed by the [[colimit]] in $Top$ over the [[diagram]] with a basepoint adjoined, and is called the [[wedge sum]] $\vee_{i \in I} X_i$, which is the [[quotient topological space]] of the [[disjoint union space]] with all the basepoints identified:
+
+   $$
+     \underset{i \in I}{\vee} X_i
+     \;\simeq\;
+     \left(\underset{i \in I}{\sqcup} X_i\right)/(x_i \sim x_j)_{i,j \in I}
+    \,.
+   $$
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+For $X$ a [[CW-complex]],  then for every $n \in \mathbb{N}$ the [[quotient]] of its $n$-skeleton by its $(n-1)$-skeleton is the [[wedge sum]], def. \ref{WedgeSumAsCoproduct}, of $n$-spheres, one for each $n$-cell of $X$:
+
+$$
+  X^n / X^{n-1} \simeq \underset{i \in I_n}{\vee} S^n
+  \,.
+$$
+
+=--
+
+
++-- {: .num_defn #SmashProductOfPointedObjects}
+###### Definition
+
+The _[[smash product]]_ of pointed topological spaces is the [[functor]]
+
+$$
+  (-)\wedge(-)
+    \;\colon\;
+  Top^{\ast/}
+    \times 
+  Top^{\ast/}
+    \longrightarrow
+  Top^{\ast/}
+$$
+
+given by
+
+$$
+  X \wedge Y
+  \;\coloneqq\;
+  \ast
+  \underset{X\sqcup Y}{\sqcup} (X \times Y)
+  \,,
+$$
+
+hence by the [[pushout]] in $Top$ of he frm
+
+$$
+  \array{
+    X \sqcup Y &\overset{(id_X,y),(x,id_Y) }{\longrightarrow}& X \times Y
+    \\
+    \downarrow &(po)& \downarrow
+    \\
+    \ast &\longrightarrow& X \wedge Y
+  }
+  \,.
+$$
+
+In terms of the [[wedge sum]] from def. \ref{WedgeSumAsCoproduct}, this may be written concisely as the [[quotient space]] ([this def](quotient+space#QuotientBySubspace)) of the [[product topological space]] by the [[subspace]] constituted by the  [[wedge sum]]
+
+$$
+  X \wedge Y \simeq \frac{X\times Y}{X \vee Y}
+  \,.
+$$
+ 
+=--
+
+
+
+| symbol | name | category theory |
+|--------|------|-----------------|
+| $X \times Y$ | [[product space]] | [[product]] in $Top^{\ast/}$ |
+| $X \vee Y$ | [[wedge sum]] | [[coproduct]] in $Top^{\ast/}$ |
+| $X \wedge Y = \frac{X \times Y}{X \vee Y}$ | [[smash product]] | [[tensor product]] in $Top^{\ast/}$ |
+
++-- {: .num_example #WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces}
+###### Example
+
+For $X, Y \in Top$, with $X_+,Y_+ \in Top^{\ast/}$, def. \ref{BasePointAdjoined}, then
+
+* $X_+ \vee Y_+ \simeq (X \sqcup Y)_+$;
+
+* $X_+ \wedge Y_+ \simeq (X \times Y)_+$. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{WedgeSumAsCoproduct}, $X_+ \vee Y_+$ is given by the colimit in $Top$ over the diagram
+
+$$
+  \array{
+    && && \ast
+    \\
+    && & \swarrow && \searrow
+    \\
+    X &\,\,& \ast && && \ast &\,\,& Y
+  }  
+  \,.
+$$
+
+This is clearly $A \sqcup \ast \sqcup B$. Then, by definition \ref{SmashProductOfPointedObjects}
+
+$$
+  \begin{aligned}
+    X_+ \wedge Y_+
+    & \simeq
+    \frac{(X \sqcup \ast) \times (X \sqcup \ast)}{(X\sqcup \ast) \vee (Y \sqcup \ast)}
+    \\
+    & \simeq 
+    \frac{X \times Y \sqcup X \sqcup Y \sqcup \ast}{X \sqcup Y \sqcup \ast}
+    \\
+    & \simeq
+    X \times Y \sqcup \ast
+    \,.
+  \end{aligned} 
+$$
+
+=--
+
+
++-- {: .num_example #StandardReducedCyclinderInTop}
+###### Example
+
+Let $I \coloneqq [0,1] \subset \mathbb{R}$ be the [[closed interval]] with its [[Euclidean space|Euclidean]] [[metric topology]].
+
+Hence
+
+$$
+  I_+ \in Top^{\ast/}
+$$
+
+is the interval with a disjoint basepoint adjoined, def. \ref{BasePointAdjoined}. 
+
+Now for $X$ any [[pointed topological space]], then the [[smash product]] (def. \ref{SmashProductOfPointedObjects})
+
+$$
+  X \wedge (I_+) = (X \times I)/(\{x_0\} \times I)
+$$
+
+is the **[[reduced cylinder]]** over $X$: the result of forming the ordinary cyclinder over $X$ as in def. \ref{TopologicalInterval}, and then identifying the interval over the basepoint of $X$ with the point.
+
+(Generally, any construction in $Top$ properly adapted to pointed spaces is called the "reduced" version of the unpointed construction. Notably so for "[[reduced suspension]]" which we come to [below](#MappingCones).)
+
+
+Just like the ordinary cylinder $X\times I$ receives a canonical injection from the [[coproduct]] $X \sqcup X$ formed in $Top$, so the reduced cyclinder receives a canonical injection from the coproduct $X \sqcup X$ formed in $Top^{\ast/}$, which is the [[wedge sum]] from example \ref{WedgeSumAsCoproduct}:
+
+$$
+  X \vee X \longrightarrow X \wedge (I_+)
+  \,.
+$$
+
+=--
+
+
+### Mapping (co-)cones
+
+
++-- {: .num_defn #MappingConeAndMappingCocone}
+###### Definition
+
+For $f \colon X \longrightarrow Y$ a continuous map between pointed spces, its **reduced [[mapping cone]]** is the space
+
+$$
+  Cone(f)
+    \coloneqq
+  \ast \underset{X}{\sqcup} Cyl(X) \underset{X}{\sqcup} Y
+$$
+
+in the colimiting diagram
+
+$$
+  \array{
+    && X &\stackrel{f}{\longrightarrow}& Y
+    \\
+    && \downarrow^{\mathrlap{i_1}} && \downarrow^{\mathrlap{i}}
+    \\
+    X &\stackrel{i_0}{\longrightarrow}& Cyl(X)
+    \\
+    \downarrow && & \searrow^{\mathrlap{\eta}} & \downarrow
+    \\
+    {*} &\longrightarrow& &\longrightarrow& Cone(f)
+  }
+  \,,
+$$
+
+where $Cyl(X)$ is the  [[reduced cylinder]] from def. \ref{StandardReducedCyclinderInTop}.
+
+=--
+
+
++-- {: .num_prop #ConeAndMappingCylinder}
+###### Proposition
+
+The colimit appearing in the definition of the reduced [[mapping cone]] in def. \ref{MappingConeAndMappingCocone} is equivalent to three consecutive [[pushouts]]:
+
+$$
+  \array{
+    && X &\stackrel{f}{\longrightarrow}& Y
+    \\
+    && \downarrow^{\mathrlap{i_1}} &(po)& \downarrow^{\mathrlap{i}}
+    \\
+    X &\stackrel{i_0}{\longrightarrow}& Cyl(X) &\longrightarrow& Cyl(f)
+    \\
+    \downarrow &(po)& \downarrow & (po) & \downarrow
+    \\
+    {*} &\longrightarrow& Cone(X) &\longrightarrow& Cone(f)
+  }
+  \,.
+$$
+
+The two intermediate objects appearing here are called
+
+* the plain **reduced [[cone]]**  $Cone(X) \coloneqq \ast \underset{X}{\sqcup} Cyl(X)$;
+
+* the **reduced [[mapping cylinder]]** $Cyl(f) \coloneqq Cyl(X) \underset{X}{\sqcup} Y$.
+
+=--
+
+
++-- {: .num_defn #SuspensionAndLoopSpaceObject}
+###### Definition
+
+Let $X \in Top^{\ast/}$ be any pointed topological space.
+
+The [[mapping cone]], def. \ref{ConeAndMappingCylinder}, of $X \to \ast$ is called the  **[[reduced suspension|reduced]] [[suspension]]** of $X$, denoted
+
+   $$
+     \Sigma X = Cone(X\to\ast)\,.
+   $$
+
+   Via prop. \ref{ConeAndMappingCylinder} this is equivalently the coproduct of two copies of the cone on $X$ over their base:
+
+   $$
+     \array{
+       && X &\stackrel{}{\longrightarrow}& \ast
+       \\
+       && \downarrow^{\mathrlap{i_1}} &(po)& \downarrow^{\mathrlap{}}
+       \\
+       X &\stackrel{i_0}{\longrightarrow}& Cyl(X) &\longrightarrow& Cone(X)
+       \\
+       \downarrow &(po)& \downarrow & (po) & \downarrow
+       \\
+       {*} &\longrightarrow& Cone(X) &\longrightarrow& \Sigma X
+     }
+     \,.
+   $$
+
+   This is also equivalently the [[cofiber]], example \ref{FiberAndCofiberInPointedObjects} of $(i_0,i_1)$, hence (example \ref{WedgeSumAsCoproduct}) of the [[wedge sum]] inclusion:
+
+   $$
+     X \vee X
+      =
+     X \sqcup X
+      \overset{(i_0,i_1)}{\longrightarrow}
+     Cyl(X)
+       \overset{cofib(i_0,i_1)}{\longrightarrow}
+     \Sigma X
+     \,.
+   $$
+
+
+=--
+
++-- {: .num_prop #ReducedSuspensionBySmashProductWithCircle}
+###### Proposition
+
+In [[pointed topological spaces]] $Top^{\ast/}$,
+
+* the [[reduced suspension]] objects (def. \ref{SuspensionAndLoopSpaceObject}) induced from the standard [[reduced cylinder]] $(-)\wedge (I_+)$ of example \ref{StandardReducedCyclinderInTop} are isomorphic to the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) with the [[1-sphere]], for later purposes we choose to smash **on the left** and write
+
+  $$
+    cofib(X \vee X \to X \wedge (I_+)) \simeq S^1 \wedge X
+    \,,
+  $$
+
+Dually:
+
+* the [[loop space objects]] (def. \ref{SuspensionAndLoopSpaceObject}) induced from the standard pointed path space object $Maps(I_+,-)_\ast$ are isomorphic to the [[pointed mapping space]] (example \ref{PointedMappingSpace})  with the [[1-sphere]]
+
+  $$
+    fib(Maps(I_+,X)_\ast \to X \times X)
+      \simeq
+    Maps(S^1, X)_\ast
+    \,.
+  $$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By immediate inspection: For instance the [[fiber]] of $Maps(I_+,X)_\ast \longrightarrow X\times X$ is clearly the subspace of the unpointed mapping space $X^I$ on elements that take the endpoints of $I$ to the basepoint of $X$.
+
+=--
+
+
+
++-- {: .num_example #MappingConesInTopologicalSpaces}
+###### Example
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="560" >
+</div>
+
+For $\mathcal{C} =$ [[Top]] with $Cyl(X) = X\times I$ the standard cyclinder object, def. \ref{TopologicalInterval}, then by example \ref{PushoutInTop}, the [[mapping cone]], def. \ref{MappingConeAndMappingCocone}, of a [[continuous function]] $f \colon X \longrightarrow Y$ is obtained by
+
+1. forming the cylinder over $X$;
+
+1. attaching to one end of that cylinder the space $Y$ as specified by the map $f$.
+
+1. shrinking the other end of the cylinder to the point.
+
+Accordingly the [[suspension]] of a topological space is the result of shrinking both ends of the cylinder on the object two the point. This is homeomoprhic to attaching two copies of the cone on the space at the base of the cone.
+
+(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+
+Below in example \ref{StandardTopologicalMappingConeIsHomotopyCofiber} we find the homotopy-theoretic interpretation of this standard topological mapping cone as a model for the _[[homotopy cofiber]]_.
+
+=--
+
++-- {: .num_remark #UnreducedCone}
+###### Remark
+
+The _formula_ for the [[mapping cone]] in prop. \ref{ConeAndMappingCylinder} (as opposed to that of the mapping co-cone) does not require the presence of the basepoint: for $f \colon X \longrightarrow Y$ a morphism in $\mathcal{C}$ (as opposed to in $\mathcal{C}^{\ast/}$) we may still define
+
+$$
+  Cone'(f) \coloneqq Y \underset{X}{\sqcup} Cone'(X)
+  \,,
+$$
+
+where the prime denotes the _unreduced cone_, formed from a cylinder object in $\mathcal{C}$.
+
+
+=--
+
++-- {: .num_prop #UnreducedMappingConeAsReducedConeOfBasedPointAdjoined}
+###### Proposition
+
+For $f \colon X \longrightarrow Y$ a morphism in [[Top]], then its unreduced mapping cone, remark \ref{UnreducedCone}, with respect to the standard cylinder object $X \times I$ def. \ref{TopologicalInterval}, is isomorphic to the reduced mapping cone, def. \ref{MappingConeAndMappingCocone}, of the morphism $f_+ \colon X_+ \to Y_+$ (with a basepoint adjoined, def. \ref{BasePointAdjoined}) with respect to the standard [[reduced cylinder]] (example \ref{StandardReducedCyclinderInTop}):
+
+$$
+  Cone'(f) \simeq Cone(f_+)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{LimitsAndColimitsOfPointedObjects} and example \ref{WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces}, $Cone(f_+)$ is given by the colimit in $Top$ over the following diagram:
+
+$$
+  \array{
+    \ast &\longrightarrow& X \sqcup \ast &\overset{(f,id)}{\longrightarrow}& Y \sqcup \ast
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X \sqcup\ast &\longrightarrow& (X \times I) \sqcup \ast
+    \\
+    \downarrow && && \downarrow
+    \\
+    \ast &\longrightarrow& &\longrightarrow& Cone(f_+)
+  }
+  \,.
+$$
+
+We may factor the vertical maps to give
+
+$$
+  \array{
+    \ast &\longrightarrow& X \sqcup \ast &\overset{(f,id)}{\longrightarrow}& Y \sqcup \ast
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X \sqcup\ast &\longrightarrow& (X \times I) \sqcup \ast
+    \\
+    \downarrow && && \downarrow
+    \\
+    \ast \sqcup \ast &\longrightarrow& &\longrightarrow& Cone'(f)_+
+    \\
+    \downarrow && && \downarrow
+    \\
+    \ast &\longrightarrow& &\longrightarrow& Cone'(f)
+  }
+  \,.
+$$
+
+
+
+This way the top part of the diagram (using the [[pasting law]] to compute the colimit in two stages) is manifestly a cocone under the result of applying $(-)_+$ to the diagram for the unreduced cone. Since $(-)_+$ is itself given by a colimit, it preserves colimits, and hence gives the partial colimit $Cone'(f)_+$ as shown. The remaining pushout then contracts the remaining copy of the point away.
+
+=--
+
+
+Example \ref{MappingConesInTopologicalSpaces} makes it clear that every [[cycle]] $S^n \to Y$ in $Y$ that happens to be in the image of $X$ can be _continuously_ translated in the cylinder-direction, keeping it constant in $Y$, to the other end of the cylinder, where it shrinks away to the point. This means that every [[homotopy group]] of $Y$, def. \ref{HomotopyGroupsOftopologicalSpaces}, in the image of $f$ vanishes in the mapping cone. Hence in the mapping cone **the image of $X$ under $f$ in $Y$ is removed up to homotopy**. This makes it intuitively clear how $Cone(f)$ is a homotopy-version of the [[cokernel]] of $f$. We now discuss this formally.
+
+
+
+
+
+## Properties
+
+Most of the relevant constructions on pointed topological spaces are immediate specializations of the general construction discussed at _[[pointed object]]_. 
 
 ## Related concepts
 
