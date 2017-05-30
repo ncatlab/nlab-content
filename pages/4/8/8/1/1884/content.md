@@ -818,6 +818,7 @@ Recall  that for the case that $A = \emptyset \subset X$ then $X/\emptyset = X_+
 
 
 ### The graded K-groups
+ {#TheGradedKGroups}
 
 The (reduced) K-theory groups of reduced suspensions of pointed space are called the
 "K-group in degree 1":
@@ -841,7 +842,7 @@ For $X$ a [[compact Hausdorff space]] and $A \subset X$ a [[closed subspace]], w
 $$
   K^1(X,A)
     \coloneqq
-  \tilde K( \Sigama(X/A) )
+  \tilde K( \Sigma(X/A) )
 $$
 
 for the [[reduced K-theory]] of the [[reduced suspension]] of the [[quotient space]].
@@ -1353,6 +1354,7 @@ which are [[split exact sequences|split exact]]. This implies the claim.
 
 
 ### External product
+ {#ExternalProducts}
 
 +-- {: .num_defn #ExternalTensorProductInKTheory}
 ###### Definition
@@ -1513,7 +1515,7 @@ It follows that:
 Let $X$ and $Y$ be [[pointed topological space|pointed]] [[compact Hausdorff spaces]]. 
 Then the external product on K-groups (def. \ref{ExternalTensorProductInKTheory})
 restricts to [[reduced K-groups]] under the inclusion $\tilde K(-) \hookrightarrow K(-)$
-from prop. \ref{KGrupDirectSummandReducedKGroup} and the incusion $\tilde K(-\wedge -) \hookrightarrow K(-\times -)$
+from prop. \ref{KGrupDirectSummandReducedKGroup} and the inclusion $\tilde K(-\wedge -) \hookrightarrow K(-\times -)$
 from prop. \ref{ReducedKTheoryOfProductSpace}, in that there is a morphism $\tilde \boxtimes$
 that makes the following [[commuting diagram|diagram commute]]:
 
@@ -1551,6 +1553,7 @@ $$
 and hence on these element this component vanishes.
 
 =--
+
 
 
 
@@ -1662,13 +1665,13 @@ is an [[isomorphism]] in [[topological K-theory]].
 
 
 ### Bott periodicity
- {#BottPeriodicity}
+ {#BottPeriodicities}
 
 
 When restricted to [[reduced K-theory]] then the external product theorem (cor. \ref{ExternalProductTheorem}) yields the statement of [[Bott periodicity]] of topological K-theory:
 
-+-- {: .num_cor #BottPeriodicity}
-###### Corollary
++-- {: .num_prop #BottPeriodicity}
+###### Proposition
 **([[Bott periodicity]])
 
 Let $X$ be a  [[pointed topological space|pointed]] [[compact Hausdorff space]].
@@ -1796,6 +1799,82 @@ is the isomorphism to be established.
 
 =--
 
+
+
+### Graded-commutative ring structure
+ {#GradedRingStructure}
+
+The external product on reduced K-groups from
+prop. \ref{ExternalTensorProductOnReducedKGroups}
+allows to extend the [[commutative ring]] structure from the plain K-groups (remark \ref{KTheoryRing})
+to a ring structure on the graded K-groups from def. \ref{GradedKGroups}. This is def. \ref{ProductOnGradedKGroups} below.
+
+To state this definition, recall that
+
+1. for $X$ a [[pointed topological space]] then the [[diagonal]] map to its [[product topological space]] $X \times X$
+   induced a diagonal to the [[smash product]] $X \wedge Y = (X \times X)/(X \vee Y)$
+
+   $$
+     X \overset{\Delta_X}{\longrightarrow} X \times X \overset{q}{\longrightarrow} X
+   $$
+
+1. since [[reduced suspension]] is equivalently [[smash product]] with the [[circle]] $\Sigma X \simeq S^1 \wedge X$,
+   there are induced "partial diagonal maps" of the form
+
+   $$
+     \Sigma (q \circ \Delta_X)
+      \;\colon\;
+     \Sigma X \simeq S^1 \wedge X \overset{S^1 \wedge (q\circ \Delta_X)}{\longrightarrow} S^1 \wedge X \wedge X \simeq (\Sigma X) \wedge X
+   $$
+
+   etc.
+
++-- {: .num_defn #ProductOnGradedKGroups}
+###### Definition
+**(product on graded K-groups)**
+
+For $X$ a [[pointed topological space|pointed]] [[compact Hausdorff space]], the _product on graded K-groups_
+
+$$
+  (-)\cdot (-)
+    \;\colon\;
+  K^\bullet(X) \otimes K^\bullet(X)
+    \longrightarrow
+  K^\bullet(X)
+$$
+
+is the [[linear map]] which on the direct summands $\tilde K^0(X) \coloneqq \tilde K(X)$ and $\tilde K^1(X) \coloneqq \tilde K(\Sigma X)$
+is given by the following morphisms, which are [[composition|composites]] of the external product $\tilde \boxtimes$ on reduced K-groups
+from prop. \ref{ExternalTensorProductOnReducedKGroups} with pullbacks along the above suspended diagonal maps:
+
+$$
+  \tilde K(X) \otimes \tilde K(X)
+    \overset{\tilde \boxtimes}{\longrightarrow}
+  \tilde K(X)
+$$
+
+$$
+  \tilde K(X) \otimes \tilde K(\Sigma X)
+    \overset{\tilde \boxtimes}{\longrightarrow}
+  \tilde K(X \wedge (\Sigma X))
+    \overset{ (\Sigma(q \circ \Delta_X))^\ast }{\longrightarrow}
+  \tilde K(\Sigma X)
+$$
+
+$$
+  \tilde K(\Sigma X) \otimes \tilde K(\Sigma X)
+    \overset{\tilde \boxtimes}{\longrightarrow}
+  \tilde K( (\Sigma X) \wedge (\Sigma X))
+    \overset{ (\Sigma^2(q \circ \Delta_X))^\ast }{\longrightarrow}
+  \tilde K(\Sigma^2 X)
+    \simeq
+  \tilde K(X)
+  \,,
+$$
+
+where the last isomorphism on the right is [[Bott periodicity]] isomorphism (prop. \ref{BottPeriodicity}).
+
+=--
 
 
 
