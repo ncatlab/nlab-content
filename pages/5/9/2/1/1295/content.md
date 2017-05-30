@@ -72,7 +72,7 @@ So a category with all dependent products is necessarily a category with all [[p
 +-- {: .num_prop #RelationToSections}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[cartesian closed category]] with all [[limit]]s and note that $\mathcal{C}_{(\ast}\cong\mathcal{C}$. Let $X \in C$ be any object and identify it with the terminal morphism $X\to *$. Then the dependent product functor
+Let $\mathcal{C}$ be a [[cartesian closed category]] with all [[limit]]s and note that $\mathcal{C}_{/\ast}\cong\mathcal{C}$. Let $X \in C$ be any object and identify it with the terminal morphism $X\to *$. Then the dependent product functor
 
 $$
   \mathcal{C}_{/X}
