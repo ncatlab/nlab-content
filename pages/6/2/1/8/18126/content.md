@@ -11078,22 +11078,37 @@ $\,$
 Below we consider three important classes of examples of paracompact spaces whose proof of
 paracompactness is non-trivial:
 
-* [[locally compact topological space|locally compact]] [[topological groups]] (prop. \ref{ParacompactLocallyCompactTopologicalGroups});
+* [[locally compact topological space|locally compact]] [[topological groups]] (prop. \ref{ParacompactLocallyCompactTopologicalGroups}),
 
-* [[metric spaces]] (prop. \ref{ParacompactMetricSpace}).
+* [[metric spaces]] (prop. \ref{ParacompactMetricSpace}),
 
-* [[CW-complexes]] (example \ref{ParacompactHausdorffCWComplexes});
+* [[CW-complexes]] (example \ref{ParacompactHausdorffCWComplexes}).
 
 
-In order to discuss these, we consider some recognition principles of paracompactness:
+In order to discuss these, we first consider some recognition principles of paracompactness:
 
-* [[locally compact and sigma-compact spaces are paracompact]] (prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} below)
+1. [[locally compact and sigma-compact spaces are paracompact]] (prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} below)
 
-* ...
+1. [[second-countable regular spaces are paracompact]] (prop. \ref{SecondCountableRegularSpacesAreParacompact} below)
 
 $\,$
 
+$$
+  \array{
+    { \text{second-countable} \atop \& \, { regular } }
+    && compact && { \text{ sigma-compact } \atop \& \, \text{locally compact} }
+    \\
+    & \seArrow& \Downarrow & \swArrow
+    \\
+    &&   \text{paracompact}
+  }
+$$
 
+More generally, these statements are direct consequences of _[[Michael's theorem]]_ 
+on recognition of paracompactness (prop. \ref{RegularSpacesWherOpenCoveringIsRefinedbyCountableLocallyFiniteConnectionsofOpensAreParacompact} below).
+
+
+$\,$
 
 +-- {: .num_lemma #LocallyCompactAndSigmaCompactImpliesGoodNestedCover}
 ###### Lemma
@@ -11546,6 +11561,32 @@ A [[metric space]] (def. \ref{MetricSpace}) regarded as a [[topological space]] 
 
 =--
 
++-- {: .num_prop #SecondCountableRegularSpacesAreParacompact}
+###### Proposition
+**([[second-countable regular spaces are paracompact]])**
+
+Let $X$ be a [[topological space]] which is
+
+1. [[second-countable topological space|second-countable]] (def. \ref{CountableSecond});
+
+1. [[regular topological space|regular]] (def. \ref{NormalSpace}).
+
+Then $X$ is [[paracompact topological space]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\{U_i \subset X\}_{i \in I}$ be an open cover. By [[Michael's theorem]] (prop. \ref{RegularSpacesWherOpenCoveringIsRefinedbyCountableLocallyFiniteConnectionsofOpensAreParacompact}) it is sufficient that we find a [[refinement]] by a [[countable cover]].
+
+But second countability implies precisely that every open cover has a countable subcover:
+
+Every open cover has a refinement by a cover consisting of [[base for the topology|base]] elements, and if there is only a countable set of these, then the resulting refinement necessarily contains at most this countable set of distinct open subsets.
+
+=--
+
+
 
 +-- {: .num_example #ParacompactHausdorffCWComplexes}
 ###### Example
@@ -11579,6 +11620,7 @@ are themselves paracompact Hausdorff. In fact this is true generally: all CW-com
 
 =--
 
+$\,$
 
 
 
@@ -11594,10 +11636,10 @@ below. The existence of partitions of unity on topological spaces is what starts
 "[[geometry|geometric]] character". For instance the [[topological vector bundles]] discussed [below](#VectorBundles)
 behave as expected in the presence of partitions of unity.
 
-Before we discuss partitions of unity, we consider some technical preliminaries
-on locally finite covers.
+$\,$
 
-First of all notice the following simple but useful fact:
+Before we discuss partitions of unity, we consider some technical preliminaries
+on locally finite covers. First of all notice the following simple but useful fact:
 
 +-- {: .num_lemma #LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}
 ###### Lemma
@@ -11906,7 +11948,7 @@ And in fact, assuming the [[axiom of choice]], then there exists a  counter-exam
 
 =--
 
-This issue is evaded if we consider [[locally finite covers]]:
+This issue is evaded if we consider [[locally finite covers|locally finite]] countable covers:
 
 +-- {: .num_lemma #ShrinkingLemmaForLocallyFiniteCountableCovers}
 ###### Lemma
@@ -11946,6 +11988,7 @@ hence that $\{V_i \subset X\}_{i \in \mathbb{N}}$ is indeed a cover of $X$.
 
 =--
 
+This is as far as one gets without the [[axiom of choice]].
 We now invoke [[Zorn's lemma]] to generalize the shrinking lemma for finitely many patches (lemma \ref{ShrinkinglemmaForFiniteCovers}) to arbitrary sets of patches:
 
 +-- {: .proof}
@@ -12067,10 +12110,22 @@ denoting the [[support]] of $f_i$ (the [[topological closure]] of the subset of 
 =--
 
 
-+-- {: .num_remark }
++-- {: .num_remark #RemarkPartitionOfUnity}
 ###### Remark
 
-Due to the second clause in def. \ref{PartitionOfUnity}, the [[sum]] in the third clause involves only a [[finite number]] of elements not equal to zero, and therefore is well defined.
+Regarding the definition of [[partition of unity]] (def. \ref{PartitionOnfUnity}) observe that:
+ 
+1. Due to the second clause in def. \ref{PartitionOfUnity}, the [[sum]] in the third clause involves only a [[finite number]] of elements not equal to zero, and therefore is well defined.
+
+1. Due to the third clause, the interiors of the supports $\left\{ h_i{-1}( (0,1] )  \subset X \right\}_[i \in I}$
+   constitute a [[locally finite cover|locally finite]] [[open cover]]:
+   
+   1. they are open, since they are the [[pre-images]] under the [[continuous functions]] $f_i$ of the open subset $(0,1] \subset [0,1]$,
+   
+   1. they cover because, by the third clause, for each $x \in x$ there is at least one $i \in I$ with $h_i(X) \gt 0$,
+      hence $x \in h_i^{-1}((0,1])$
+      
+   1. they are locally finite because by the second clause alreay their closures are locally finite.
 
 =--
 
@@ -12125,9 +12180,15 @@ Let $(X,\tau)$ be a [[Hausdorff topological space]] (def. \ref{HausdorffTopologi
 +-- {: .proof #OpenCoverOfParacompactHausdorffSpaceAdmitsPartitionOfUnityProof}
 ###### Proof
 
-One direction is immediate: Assume that every open cover $\{U_i \subset X\}_{i \in I}$ admits a subordinate partition of unity $\{f_i\}_{i \in I}$. Then by definition (def. \ref{PartitionOfUnity}) $\{ Int(Supp(f)_i)  \subset X\}_{i \in I}$ is a locally finite open cover refining the original one, hence $X$ is paracompact.
+One direction is immediate: Assume that every open cover $\{U_i \subset X\}_{i \in I}$ admits a subordinate partition of unity $\{f_i\}_{i \in I}$. Then by definition (def. \ref{PartitionOfUnity}) $\{ Int(Supp(f)_i)  \subset X\}_{i \in I}$ is a locally finite open cover refining the original one (remark \ref{RemarkPartitionOfUnity}), hence $X$ is paracompact.
 
-We need to show the converse: If $(X,\tau)$ is a [[paracompact topological space]], then for every [[open cover]] $\{U_i \subset X\}_{i \in I}$ there is a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}).
+We need to show the converse: If $(X,\tau)$ is a [[paracompact topological space]], then for every [[open cover]] there is a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}).
+
+By paracompactness of $(X,\tau)$, for every open cover there exists a locally finite refinement
+$\{U_i \subset X\}_{i \in I}$, and by lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet} we 
+may assume that this has the same index set. It is now sufficient to show that this locally finite cover
+$\{U_i \subset X\}_{i \in I}$ admits a subordinate partition of unity, since this will then also be 
+subordinate to the original cover.
 
 Since [[paracompact Hausdorff spaces are normal]]
 (prop. \ref{ParacompactHausdorffSpacesAreNormal})
@@ -12257,8 +12318,8 @@ A _[[topological ring]]_ is
 
 1. a [[topological space|topology]] $\tau_R \subset P(R)$ on the underlying set of the ring, making it
    a [[topological space]] $(R,\tau_R)$ (def. \ref{TopologicalSpace})
-   
-such that 
+
+such that
 
 1. $(R,+)$ is a [[topological group]] with respect to $\tau_R$ (def. \ref{TopologicalGroup});
 
@@ -12269,7 +12330,7 @@ A topological ring $((R, \tau_R),+,\cdot)$ is a _[[topological field]]_ if
 
 1. $(R,+,\cdot)$ is a [[field]];
 
-1. the function assigning multiplicative inverses $(-)^{-1} \;\colon\; R \setminus \{0\} \to R \setminus \{0\}$ is a 
+1. the function assigning multiplicative inverses $(-)^{-1} \;\colon\; R \setminus \{0\} \to R \setminus \{0\}$ is a
    continuous function with respect to the [[subspace topology]].
 
 =--
@@ -12283,7 +12344,7 @@ and of [[complex numbers]] $\mathbb{C} \simeq \mathbb{R}^2$
 are [[topological fields]] (def. \ref{TopologicalRing})
 with respect to their [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology})
 
-That the operations on these fields are all continuous with respect to the Euclidean topology is the statement that 
+That the operations on these fields are all continuous with respect to the Euclidean topology is the statement that
 [[rational functions are continuous]] on the domain of definition inside Euclidean space
 (example \ref{PolynoialsAreContinuous}.)
 
@@ -12294,11 +12355,11 @@ That the operations on these fields are all continuous with respect to the Eucli
 ###### Definition
 **([[topological vector bundle]])**
 
-Let 
+Let
 
-1. $k$ be a [[topological field]] (def. \ref{TopologicalRing}) 
+1. $k$ be a [[topological field]] (def. \ref{TopologicalRing})
 
-1. $X$ be a [[topological space]]. 
+1. $X$ be a [[topological space]].
 
 Then a _topological $k$-vector bundle over $X$_ is
 
@@ -12306,11 +12367,13 @@ Then a _topological $k$-vector bundle over $X$_ is
 
 1. a [[continuous function]] $E \overset{\pi}{\to} X$
 
-1. for each $x \in X$ the stucture of a [[finite-dimensional vector space|finite-dimensional]] $k4-[[vector space]] on the [[pre-image]]
+1. for each $x \in X$ the stucture of a [[finite-dimensional vector space|finite-dimensional]] $k$-[[vector space]] on the [[pre-image]]
 
    $$E_x \coloneqq \pi^{-1}(\{x\}) \subset E$$
+   
+   (called the _[[fiber]]_ of the bundle over $x$)
 
-such that this is [[local trivialization|locally trivial]] in that there exists
+such that this is [[local trivialization|locally trivial]] in that there exists:
 
 1. an [[open cover]] $\{U_i \subset X\}_{i \in I}$,
 
