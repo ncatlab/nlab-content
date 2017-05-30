@@ -748,6 +748,155 @@ hence itself a [[non-unital ring|non-unital]] [[commutative ring]].
 
 =--
 
++-- {: .num_example #ExpressingPlainKTHeoryGroupInTermsOfReducedKTheoryGroup}
+###### Example
+**(expressing plain K-groups as reduced K-groups)**
+
+Let $X$ be a [[topological space]]. Write  $X_* \coloneqq X \sqcup \ast$ for its [[disjoint union space]]
+with the [[point space]], and regard this as a [[pointed topological space]] with base point the adjoined point.
+
+Then the reduced K-theory of $X_+$ is the plain K-theory of $X$:
+
+$$
+  \tilde K(X_+)
+    \simeq
+  K(X)
+  \,.
+$$
+
+Because every [[topological vector bundle]] on $X \sqcup \ast$ is the [[direct sum of vector bundles]]
+of one that has [[rank of a vector bundle|rank]] zero on $\ast$ 
+and one that has rank zero on $X$ ([this example.](direct+sum+of+vector+bundles#DirectSumOnDisjointUnionSpace))
+
+=--
+
+
+### The relative K-group
+ {#TheRelativeKGroup}
+
+
++-- {: .num_defn #RelativeKTheory}
+###### Definition
+**([[relative K-theory]])**
+
+Let
+
+1. $X$ be a [[compact Hausdorff space]];
+
+1. $A \subset X$ a [[closed subspace]].
+
+Then the _[[relative K-theory]] group of the pair $(X,A)$_, denoted $K(X,A)$ is the [[reduced K-theory]] group (def. \ref{KernelReducedKGroup})
+of the [[quotient space]] $X/A$ ([this def.](quotient+space#QuotientBySubspace)):
+
+$$
+  K(X,A)
+   \;\coloneqq\;
+  \tilde K(X/A)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #RelatveKTheoryReducesToBareKTheoryAndToReducedKTheory}
+###### Example
+**(expressing plain and reduced K-theory in terms of relative K-theory)**
+
+The [[relative K-theory]] construction from def. \ref{RelativeKTheory}
+reduces in special cases to the plain K-theory group and to the [[reduced K-theory]] group.
+
+Recall  that for the case that $A = \emptyset \subset X$ then $X/\emptyset = X_+ = X \sqcup \ast$
+(by [this example](quotient+space#QuotientBySubspace)). Therefore:
+
+1. for $A = \emptyset \subset X$ we have $K(X,\emptyset) = \tilde K(X \sqcup \ast) \simeq K(X)$ (example \ref{ExpressingPlainKTHeoryGroupInTermsOfReducedKTheoryGroup});
+
+1. for $A = \{x\} \subset X$ we have $K(X, \{x\}) = \tilde K(X/\{x\}) = \tilde K(X)$.
+
+
+=--
+
+
+### The graded K-groups
+
+The (reduced) K-theory groups of reduced suspensions of pointed space are called the
+"K-group in degree 1":
+
++-- {: .num_defn #GradedKGroups}
+###### Definition
+**(graded K-groups)**
+
+For $X$ a [[pointed topologicsl space]] wrtite
+
+$$
+  \tilde K^1(X)
+    \;\coloneq\;
+  \tilde K(\Sigma X)
+$$
+
+for the [[reduced K-theory]] of the [[reduced suspension]] of $X$.
+
+For $X$ a [[compact Hausdorff space]] and $A \subset X$ a [[closed subspace]], write
+
+$$
+  K^1(X,A)
+    \coloneqq
+  \tilde K( \Sigama(X/A) )
+$$
+
+for the [[reduced K-theory]] of the [[reduced suspension]] of the [[quotient space]].
+
+We say these are the K(-cohomology)-groups in degree 1. For emphasis one says that the original K-groups
+are in degree zero and writes
+
+$$
+  K^0(X) \coloneqq K(X)
+  \phantom{AAAA}
+  \tilde K^0(X) \coloneqq \tilde K(X)
+    \phantom{AAA}
+  K^0(X,A) \coloneqq K(X,A)
+  \,.
+$$
+
+The groups are collected to the _graded K-groups_, which are the [[direct sums]]
+
+$$
+  \tilde K^\bullet(X)
+    \coloneqq 
+  \tilde K^0(X) \oplus \tilde K^1(X)
+$$
+
+and
+
+$$
+  K^\bullet(X,A)
+    \coloneqq
+  K^0(X,A) \oplus K^1(X.A)
+$$
+
+regarded as $\mathbb{Z}/2$-[[graded groups]].
+
+=--
+
+
+
+Recall from 
+example \ref{ExpressingPlainKTHeoryGroupInTermsOfReducedKTheoryGroup} 
+and from example \ref{RelatveKTheoryReducesToBareKTheoryAndToReducedKTheory} the identifications
+of plain, reduced and relative K-groups, which with the degree-zero notation from def. \ref{GradedKGroups}
+read:
+
+$$
+  K^0(X, \emptyset)
+    \simeq
+  \tilde K^0(X_+)
+    \simeq
+  K^0(X)
+$$
+
+The analogue is true for the K-groups in degree 1 from def. \ref{GradedKGroups},
+though this is no longer completely triviali:
+
+
+
 
 ## Examples
  {#Examples}
@@ -876,9 +1025,10 @@ Let
 
 * $X$ be a [[pointed topological space|pointed]] [[compact Hausdorff space]];
 
-* $A \subset X$ a pointed [[closed subset|closed]] [[subspace]]
+* $A \subset X$ a [[pointed topological space]] [[closed subset|closed]] [[subspace]]
 
-Denote the [[continuous functions]] of pointed subspace inclusion and of  [[quotient space]] co-projection  by
+Write $X/A$ for the corresponding [[quotient space]] ([this def.](quotient+space#QuotientBySubspace)).
+Denote the [[continuous functions]] of [[subspace]] inclusion and of  [[quotient space]] co-projection  by
 
 $$
   A
@@ -907,9 +1057,19 @@ $$
 
 between the [[image]] of $g^\ast$ and the [[kernel]] of $i^\ast$.
 
+Similarly the sequence of unreduced and [[relative K-groups]] (def. \ref{RelativeKTheory}) is exact:
+
+$$
+  \tilde K_{\mathbb{C}}(X/A)
+    \overset{q^\ast}{\longrightarrow}
+  K_{\mathbb{C}}(X)
+    \overset{i^\ast}{\longrightarrow}
+  K_{\mathbb{C}}(A)
+$$
+
 =--
 
-(e.g. [Hatcher, prop. 2.9](#Hatcher))
+(e.g. [Wirthmuller 12, p. 32 (34 of 67)](Wirthmuller12), [Hatcher, prop. 2.9](#Hatcher))
 
 
 +-- {: .num_cor #LongExactSequenceInReducedTopologicalKTheory}
@@ -972,6 +1132,103 @@ etc. This yields the claim.
 
 =--
 
+
+$\,$
+
+We discuss some useful consequences of the [[long exact sequences in cohomology]].
+
++-- {: .num_prop #DirectSumOfKTheoryGroupsOverRetracts}
+###### Proposition
+**([[direct sum]] decomposition of K-theory groups over [[retractions]])**
+
+Let $X$ be a ([[pointed topological space|pointed]]) [[compact topological space]] 
+and $A \subset X$ a ([[pointed topological space|pointed]]) [[closed subspace]], such that the
+[[subspace]] inclusion $A \overset{i}{\to}$ X as a [[retraction]], i.e. a [[continuous function]]
+$r \colon X \to A$ such that the [[composition|composite]]
+
+$$
+  id_A
+    \;\colon\;
+  A 
+    \overset{i}{\longrightarrow}
+  X
+    \overset{r}{\longrightarrow}
+  A
+$$
+
+is the [[identity function]].
+
+Then there is a splitting of the K-theory group of $X$ as a [[direct sum]] of the K-theory of $A$
+and the [[relative K-theory]] of the [[quotient space]] $X/A$:
+
+$$
+  K(X)
+    \;\simeq\;
+  K(A)
+    \oplus
+  K(X,A)
+$$
+
+and in the pointed case a splitting of the [[reduced K-theory]] groups
+
+$$
+  \tilde K(X)
+    \;\simeq\;
+  \tilde K(A)
+    \oplus
+  K(X,A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The long exact sequence from cor \ref{LongExactSequenceInReducedTopologicalKTheory} together 
+with the retraction yields
+
+$$
+  \tilde K(A)
+    \underoverset
+      {\underset{r^\ast}{\longrightarrow}}
+      {\overset{i^\ast}{\longleftarrow}}
+      {}
+  \tilde K(X)
+    \overset{}{\longleftarrow}
+  K(X,A)
+    \longleftarrow
+  \tilde K(\Sigma A)
+    \underoverset
+      {\underset{}{\longrightarrow}}
+      {\overset{}{\longleftarrow}}
+      {}
+  \tilde K(\Sigma X)
+  \,.
+$$
+
+The splitting makes the morphisms $i^\ast$ and its suspension be [[surjections]], so that the
+long exact sequence decomposes into [[short exact sequences]] which are [[split exact sequence|split exact]]:
+
+$$
+  0
+    \longleftarrow
+  \tilde K(A)
+    \underoverset
+     {\underset{r^\ast}{\longrightarrow}}
+     {\overset{i^\ast}{\longleftarrow}}
+     {}
+  \tilde K(X)
+    \longleftarrow
+  K(X,A)
+    \longleftarrow
+  0
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_example #FiniteWedgePropertyForReducedTopologicalKTheory}
 ###### Example
 **(finite [[wedge axiom]])**
@@ -996,6 +1253,37 @@ $$
 
 +-- {: .proof}
 ###### Proof
+
+We have [[retracts]]
+
+$$
+  X = X \times \{y\} \hookrightarrow X \times Y
+$$
+
+and
+
+$$
+  Y = \{x\} \times Y \hookrightarrow (X \times Y) / (X \times \{y\})
+  \,.
+$$
+
+Applying prop. \ref{DirectSumOfKTheoryGroupsOverRetracts} to each of these consecutively yields an
+isomorphism that establishes the claim:
+
+$$
+  \tilde K(X \times Y)
+    \simeq
+  \tilde K(X)
+    \oplus
+  \tilde K( (X \times Y)/(X \times \{y\}) )
+    \simeq
+  \tilde K(X) \oplus \tilde K(Y) \oplus \tilde K(X \wedge Y)
+  \,.
+$$
+
+This proves the claim.
+
+Alternatively, we may again argue directly from the long exact sequence:
 
 Consider the subspace inclusion
 
@@ -1312,6 +1600,8 @@ $$
 from that of $X$ to that of its double [[suspension]] $\Sigma^2 X$.
 
 =--
+
+[e.g. Wirthmuller 12, p. 34 (36 f 67)](#Wirthmuller12)
 
 +-- {: .proof}
 ###### Proof
