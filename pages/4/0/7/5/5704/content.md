@@ -91,8 +91,29 @@ A quotient space in $Loc$ is given by a [[regular subobject]] in [[Frm]].
 ###### Example
 **(quotient by a subspace)**
 
-Let $X$ be a [[topological space]] and $A \subset X$ a [[subset]].
-Consider the [[equivalence relation]] on $$X which identifies all points in $A$ with each other. The resulting quotient space (def. \ref{QuotientTopologicalSpace}) is often simply denoted $X/A$.
+Let $X$ be a [[topological space]] and $A \subset X$ a [[inhabited set|non-empty]] [[subset]].
+Consider the [[equivalence relation]] on $X$ which identifies all points in $A$ with each other. The resulting quotient seace (def. \ref{QuotientTopologicalSpace}) is often simply denoted $X/A$.
+
+Notice that $X/A$ is canonically a [[pointed topological space]], with base point the [[equivalence class]] $A/A \subset X/A$ of $A$.
+
+If $A = \emptyset$ is the [[empty space]], then one defines 
+
+$$
+  X/\emptyset \coloneqq X_+ \coloneqq X \sqcup \ast
+$$ 
+
+to be the [[disjoint union space]] of $X$ with the [[point space]]. This is no longer a quotient space, but both constructions are unified by the _[[pushout]]_ $i \colon A \to X$ along the map $A \to \ast$, equivalently the [[cokernel]] of the inclusion:
+
+$$
+  \array{
+    A &\overset{i}{\hookrightarrow}& X
+    \\
+    \downarrow &(po)& \downarrow
+    \\
+    \ast &\longrightarrow& X/A
+  }
+  \,.
+$$
 
 This kind of quotient space plays a central role in the discussion of [[long exact sequences in cohomology]], see at _[[generalized (Eilenberg-Steenrod) cohomology]]_.
 
