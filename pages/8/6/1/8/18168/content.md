@@ -216,11 +216,11 @@ By definition, an element of $S$ with $J = I$ is an open cover of the required f
 
 We claim now that a [[maximal element]] $(J, \mathcal{V})$ of $(S,\leq)$ has $J = I$.
 
-For assume on the contrary that there were $i \in I \backslash J$. Then we could apply the construction in lemma \ref{ShrinkingLemmaForBinaryCover} to replace that single $V_i$ with a smaller open subset $V'_i$ to obtain $\mathcal{V}'$ such that $Cl(V'_i) \subset V_i$ and such $\mathcal{V}'$ is still an open cover. But that would mean that $(J,\mathcal{V}) \lt (J \cup \{i\}, \mathcal{V}')$, contradicting the assumption that $(J,\mathcal{V})$ is maximal. This [[proof by contradiction|proves by contradiction]] that a maximal element of $(S,\leq)$ has $J = I$ and hence is an open cover as required.
+For assume on the contrary that there were $i \in I \backslash J$. Then we could apply the construction in lemma \ref{ShrinkingLemmaForBinaryCover} to replace that single $V_i$ with a smaller open subset $V'_i$ to obtain $\mathcal{V}'$ such that $Cl(V'_i) \subset V_i$ and such that $\mathcal{V}'$ is still an open cover. But that would mean that $(J,\mathcal{V}) \lt (J \cup \{i\}, \mathcal{V}')$, contradicting the assumption that $(J,\mathcal{V})$ is maximal. This [[proof by contradiction|proves by contradiction]] that a maximal element of $(S,\leq)$ has $J = I$ and hence is an open cover as required.
 
 We are reduced now to showing that a maximal element of $(S,\leq)$ exists. To achieve this we invoke [[Zorn's lemma]]. Hence we have to check that every [[chain]] in $(S,\leq)$, hence every [[total order|totally ordered]] [[subset]] has an [[upper bound]].
 
-So let $T \subset S$ be a [[total order|totally ordered]] subset. Consider the union of all the index sets appearing in pairs in this subset:
+So let $T \subset S$ be a [[total order|totally ordered]] subset. Consider the union of all the index sets appearing in the pairs in this subset:
 
 $$
   K
@@ -229,7 +229,7 @@ $$
   \,.
 $$
 
-Now define open subsets $\mathcal{W}_i$ for $i \in K$ picking any $(J,\mathcal{V})$ in $T$ with $i \in J$ and setting
+Now define open subsets $W_i$ for $i \in K$ picking any $(J,\mathcal{V})$ in $T$ with $i \in J$ and setting
 
 $$
   W_i \coloneqq V_i \phantom{AAA} i \in K
@@ -245,7 +245,8 @@ $$
   \,.
 $$
 
-We claim now that $\{W_i \subset X\}_{i \in I}$ thus defined is a cover of $X$. Because by assumption that $\{U_i \subset X\}_{i \in I}$ is locally finite, also all the $\{V_i \subset X\}_{i \in I}$ are locally finite, hence for every point $x \in X$ there exists a finite set $J_x \subset I$ such that $(i \in I \backslash J_x) \Rightarrow (x \notin U_i)$. Since $(T,\leq)$ is a total order, it must contain an element $(J, \mathcal{V})$ such that $J_x \cap K \subset J$. Since that $\mathcal{V}$ is a cover, it follows that $x \in \underset{i \in I}{\cup} V_i$, hence in $\underset{i \in I}{\cup} W_i$. 
+We claim now that $\{W_i \subset X\}_{i \in I}$ thus defined is a cover of $X$. Because by assumption that $\{U_i \subset X\}_{i \in I}$ is locally finite, so for every point $x \in X$ there exists a finite set $J_x \subset I$ such that $(i \in I \setminus J_x) \Rightarrow (x \notin U_i)$. Since $(T,\leq)$ is a total order, it must contain an element $(J, \mathcal{V})$ such that 
+the finite set $J_x \cap K$ is contained in its index set $J$, hence  $J_x \cap K \subset J$. Since that $\mathcal{V}$ is a cover, it follows that $x \in \underset{i \in J_x \cap K}{V_i} \subset  \underset{i \in I}{\cup} V_i$, hence in $\underset{i \in I}{\cup} W_i$.
 
 This shows that $(K,\mathcal{W})$ is indeed an element of $S$. It is clear by construction that it is an upper bound for $(T ,\leq )$. Hence we have shown that every [[chain]] in $(S,\leq)$ has an upper bound, and so Zorn's lemma implies the claim.
 
