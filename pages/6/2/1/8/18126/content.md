@@ -10974,153 +10974,10 @@ of $\mathcal{U}$.
 
 =--
 
-In the discussion of [[topological manifolds]] [below](#Manifolds), we are particularly
-interested in topological spaces that are both paracompact as well as Hausdorff. 
-In fact these are even normal:
-
-+-- {: .num_defn #ParacompactHausdorffSpacesAreNormal}
-###### Proposition
-**([[paracompact Hausdorff spaces are normal]])**
-
-Every [[paracompact Hausdorff space]]
-(def. \ref{ParacompactSpace}, def. \ref{HausdorffTopologicalSpace}) is [[normal Hausdorff space|normal]] (def. \ref{NormalSpace}).
-
-In particular [[compact Hausdorff spaces are normal]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Let $(X,\tau)$ be a paracompact Hausdorff space
-
-We first show that it is [[regular topological space|regular]]: To that end,
-let $x \in X$ be a point, and let $C \subset X$ be a [[closed subset]] not containing $x$. We need to find disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_C \supset C$.
-
-First of all, by the Hausdorff property there exists for each $c \in C$ disjoint open neighbourhods $U_{x,c} \supset \{x\}$ and $U_c \supset \{c\}$. As $c$ ranges, the latter clearly form an open cover $\{U_c \subset X\}_{c \in C}$ of $C$, and so the union
-
-$$
-  \{U_c \subset X\}_{c \in C} \,\cup\, X \setminus C
-$$
-
-is an open cover of $X$. By paracompactness of $(X,\tau)$, there exists a locally finite refinement, and by
-lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet} we may assume its elements to share the original index
-set and be contained in the original elements of the same index. Hence
-
-$$
-  \{V_c \subset U_c \subset  X\}_{c \in C}
-$$
-
-is a locally finite collection of subsets, such that
-
-$$
-  U_C \coloneqq \underset{c \in C}{\cup} V_c
-$$
-
-is an open neighbourhood of $C$.
-
-
-Now by definition of local finiteness there exists an open neighbourhood $W_x \supset \{x\}$ and a finite subset $K \subset C$ such that
-
-$$
-  \underset{c \in C \setminus K}{\forall}( W_x \cap V_c = \emptyset )
-  \,.
-$$
-
-Consider then
-
-$$
-  U_x
-   \;\coloneqq\;
-  W_x
-    \cap
-  \left(
-    \underset{k \in K}{\cap}
-     \left(
-       U_{x,k}
-     \right)
-  \right)
-  \,.
-$$
-
-which is an open neighbourhood of $x$, by the finiteness of $K$.
-
-It thus only remains to see that
-
-$$
-  U_x \cap U_C = \emptyset
-  \,.
-$$
-
-But this holds because the only $V_{c}$ that intersect $W_x$ are the $V_{k} \subset U_{k}$ for $k \in K$ and each of these is by construction disjoint from $U_{x,k}$ and hence from $U_x$.
-
-This establishes that $(X,\tau)$ is regular. Now we prove that it is normal. For this we use the same approach as before:
-
-Let $C,D \subset X$ be two disjoint closed subsets. By need to produce disjoint open neighbourhoods for these.
-
-By the previous statement of regularity, we may find for each $c \in C$ disjoint open neighbourhoods $U_c \subset \{c\}$ and $U_{D,c} \supset D$. Hence the union
-
-$$
-  \left\{
-    U_c \subset X
-  \right\}_{c \in C}
-  \cup
-  X \setminus C
-$$
-
-is an open cover of $X$, and thus by paracompactness has a locally finite refinement, whose elementes we may, again by lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}, assume to have the same index set as before and be contained in the previous elements with the same index. Hence we obtain a locally finite collection of subsets
-
-$$
-  \{ V_c \subset U_c \subset X \}_{c \in C}
-$$
-
-such that
-
-$$
-  U_{C}
-   \coloneqq
-  \underset{c \in C}{\cup} V_c
-$$
-
-is an open neighbourhood of $C$.
-
-It is now sufficient to see that every point $d \in D$ has an open neighbourhood $U_d$ not intersecting $U_C$, for then
-
-$$
-  U_D \coloneqq \underset{d \in D}{\cup} U_d
-$$
-
-is the required open neighbourhood of $D$ not intersecting $U_C$.
-
-Now by local finiteness of $\{V_c \subset X\}_{c \in X}$, every $d \in D$ has an open neighbourhood $W_d$ such that there is a finite set $K_d \subset C$ so that
-
-$$
-  \underset{c \in C \setminus K_d}{\forall}
-  \left(
-     V_c \cap W_d = \emptyset
-  \right)
-  \,.
-$$
-
-Accordingly the intersection
-
-$$
-  U_d
-    \coloneqq
-  W_d
-   \cap
-  \left(
-    \underset{c \in K_d \subset C}{\cap} U_{D,c}
-  \right)
-$$
-
-is still open and disjoint from the remaining $V_k$, hence disjoint from all of $U_C$.
-
-=--
 
 $\,$
 
-In identifying [[paracompact Hausdorff spaces]] using the recognition principles that 
+In identifying [[paracompact Hausdorff spaces]] using the recognition principles that
 we establish [below](#ExamplesParacompactSpaces) it is often useful
 (as witnessed for instance by prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} and prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} below) to consider two closely
 related properties of topological spaces:
@@ -11228,7 +11085,7 @@ paracompactness is non-trivial:
 * [[CW-complexes]] (example \ref{ParacompactHausdorffCWComplexes});
 
 
-In order to discuss these, we consider some recognition principles of paracompactness: 
+In order to discuss these, we consider some recognition principles of paracompactness:
 
 * [[locally compact and sigma-compact spaces are paracompact]] (prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} below)
 
@@ -11403,7 +11260,7 @@ More generally all [[metric spaces]] are paracompact. This we consider below as 
 
 
 
-Using this recognition principle prop. \ref{ParacompactFromLocallyCompactAndSigmacompact}, a source of paracompact 
+Using this recognition principle prop. \ref{ParacompactFromLocallyCompactAndSigmacompact}, a source of paracompact
 spaces are locally compact [[topological groups]] (def. \ref{TopologicalGroup}),
 by prop. \ref{ParacompactLocallyCompactTopologicalGroups} below:
 
@@ -11441,7 +11298,7 @@ Every [[open subset|open]] [[subgroup]] $H \subset G$ of a [[topological group]]
 +-- {: .proof}
 ###### Proof
 
-The set of $H$-[[cosets]] is a [[cover]] of $G$ by [[disjoint subsets|disjoint]] [[open subsets]]. 
+The set of $H$-[[cosets]] is a [[cover]] of $G$ by [[disjoint subsets|disjoint]] [[open subsets]].
 One of these cosets is $H$ itself and hence it is the complement of the union of the other cosets, hence the complement of an open subspace, hence closed.
 
 =--
@@ -11473,14 +11330,14 @@ $$
 
 is clearly a topological subgroup of $G$.
 
-Observe that each $C_e^n$ is compact. This is because $\underset{k \in \{1, \cdots, n\}}{\prod}C_e$ is 
+Observe that each $C_e^n$ is compact. This is because $\underset{k \in \{1, \cdots, n\}}{\prod}C_e$ is
 compact by the [[Tychonoff theorem]] (prop. \ref{TychonoffTheorem}), and since [[continuous images of compact spaces are compact]]. Thus
 
 $$
   H = \underset{n \in \mathbb{N}}{\cup} C_e^n
 $$
 
-is a countable union of compact subspaces, making it [[sigma-compact]]. 
+is a countable union of compact subspaces, making it [[sigma-compact]].
 Since [[locally compact and sigma-compact spaces are paracompact]] (prop. \ref{ParacompactFromLocallyCompactAndSigmacompact}), this implies that $H$ is paracompact.
 
 Observe also that the subgroup $H$ is open, because it contains with the [[interior]] of $C_e$ a non-empty open subset $Int(C_e) \subset H$ and we may hence write $H$ as a union of open subsets
@@ -11494,7 +11351,7 @@ Finally, as indicated in the proof of Lemma \ref{OpenSubgroupOfTopologicalGroupI
 
 * In the particular case where $G$ is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}), there is just one such coset, namely $H$ itself. The argument above thus shows that a connected locally compact topological group is $\sigma$-compact and (by local compactness) also paracompact.
 
-* In the general case, all the cosets are homeomorphic to $H$ which we have just shown to be a paracompact group. Thus $G$ is a [[disjoint union space]] of paracompact spaces. This is again paracompact by prop. \ref{ParacompactDisjointUnionOfParacompactSpaces}. 
+* In the general case, all the cosets are homeomorphic to $H$ which we have just shown to be a paracompact group. Thus $G$ is a [[disjoint union space]] of paracompact spaces. This is again paracompact by prop. \ref{ParacompactDisjointUnionOfParacompactSpaces}.
 
 =--
 
@@ -11659,7 +11516,7 @@ by prop. \ref{ParacompactLocallyCompactTopologicalGroups}.
 $\,$
 
 Now we turn to the second recognition principle for paracompactness and the examples it implies.
-For the time being the remainded of this section is without proof.  The reader may 
+For the time being the remainded of this section is without proof.  The reader may
 wish to skip ahead to the discussion of _[Partitions of unity](#PartitionsOfUnity)_.
 
 +-- {: .num_prop #RegularSpacesWherOpenCoveringIsRefinedbyCountableLocallyFiniteConnectionsofOpensAreParacompact}
@@ -11732,7 +11589,7 @@ $\,$
  {#PartitionsOfUnity}
 
 A key aspect of paracompact Hausdorff spaces is that they are equivalently those spaces that admit
-_partitions of unity_. This is  def. \ref{PartitionOfUnity} and prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity} 
+_partitions of unity_. This is  def. \ref{PartitionOfUnity} and prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}
 below. The existence of partitions of unity on topological spaces is what starts to give them
 "[[geometry|geometric]] character". For instance the [[topological vector bundles]] discussed below
 behave as expected in the presence of partitions of unity.
@@ -11740,6 +11597,7 @@ behave as expected in the presence of partitions of unity.
 Before we discuss these, we consider some technical preliminaries
 on locally finite covers.
 
+First of all notice the following simple but useful fact:
 
 +-- {: .num_lemma #LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}
 ###### Lemma
@@ -11798,6 +11656,152 @@ Since the [[image]] $\phi(K) \subset I$ is still a [[finite set]], this shows th
 
 =--
 
+In the discussion of [[topological manifolds]] [below](#Manifolds), we are particularly
+interested in topological spaces that are both paracompact as well as Hausdorff.
+In fact these are even normal:
+
++-- {: .num_defn #ParacompactHausdorffSpacesAreNormal}
+###### Proposition
+**([[paracompact Hausdorff spaces are normal]])**
+
+Every [[paracompact Hausdorff space]]
+(def. \ref{ParacompactSpace}, def. \ref{HausdorffTopologicalSpace}) is [[normal Hausdorff space|normal]] (def. \ref{NormalSpace}).
+
+In particular [[compact Hausdorff spaces are normal]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $(X,\tau)$ be a paracompact Hausdorff space
+
+We first show that it is [[regular topological space|regular]]: To that end,
+let $x \in X$ be a point, and let $C \subset X$ be a [[closed subset]] not containing $x$. We need to find disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_C \supset C$.
+
+First of all, by the Hausdorff property there exists for each $c \in C$ disjoint open neighbourhods $U_{x,c} \supset \{x\}$ and $U_c \supset \{c\}$. As $c$ ranges, the latter clearly form an open cover $\{U_c \subset X\}_{c \in C}$ of $C$, and so the union
+
+$$
+  \{U_c \subset X\}_{c \in C} \,\cup\, X \setminus C
+$$
+
+is an open cover of $X$. By paracompactness of $(X,\tau)$, there exists a locally finite refinement, and by
+lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet} we may assume its elements to share the original index
+set and be contained in the original elements of the same index. Hence
+
+$$
+  \{V_c \subset U_c \subset  X\}_{c \in C}
+$$
+
+is a locally finite collection of subsets, such that
+
+$$
+  U_C \coloneqq \underset{c \in C}{\cup} V_c
+$$
+
+is an open neighbourhood of $C$.
+
+
+Now by definition of local finiteness there exists an open neighbourhood $W_x \supset \{x\}$ and a finite subset $K \subset C$ such that
+
+$$
+  \underset{c \in C \setminus K}{\forall}( W_x \cap V_c = \emptyset )
+  \,.
+$$
+
+Consider then
+
+$$
+  U_x
+   \;\coloneqq\;
+  W_x
+    \cap
+  \left(
+    \underset{k \in K}{\cap}
+     \left(
+       U_{x,k}
+     \right)
+  \right)
+  \,.
+$$
+
+which is an open neighbourhood of $x$, by the finiteness of $K$.
+
+It thus only remains to see that
+
+$$
+  U_x \cap U_C = \emptyset
+  \,.
+$$
+
+But this holds because the only $V_{c}$ that intersect $W_x$ are the $V_{k} \subset U_{k}$ for $k \in K$ and each of these is by construction disjoint from $U_{x,k}$ and hence from $U_x$.
+
+This establishes that $(X,\tau)$ is regular. Now we prove that it is normal. For this we use the same approach as before:
+
+Let $C,D \subset X$ be two disjoint closed subsets. By need to produce disjoint open neighbourhoods for these.
+
+By the previous statement of regularity, we may find for each $c \in C$ disjoint open neighbourhoods $U_c \subset \{c\}$ and $U_{D,c} \supset D$. Hence the union
+
+$$
+  \left\{
+    U_c \subset X
+  \right\}_{c \in C}
+  \cup
+  X \setminus C
+$$
+
+is an open cover of $X$, and thus by paracompactness has a locally finite refinement, whose elementes we may, again by lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}, assume to have the same index set as before and be contained in the previous elements with the same index. Hence we obtain a locally finite collection of subsets
+
+$$
+  \{ V_c \subset U_c \subset X \}_{c \in C}
+$$
+
+such that
+
+$$
+  U_{C}
+   \coloneqq
+  \underset{c \in C}{\cup} V_c
+$$
+
+is an open neighbourhood of $C$.
+
+It is now sufficient to see that every point $d \in D$ has an open neighbourhood $U_d$ not intersecting $U_C$, for then
+
+$$
+  U_D \coloneqq \underset{d \in D}{\cup} U_d
+$$
+
+is the required open neighbourhood of $D$ not intersecting $U_C$.
+
+Now by local finiteness of $\{V_c \subset X\}_{c \in X}$, every $d \in D$ has an open neighbourhood $W_d$ such that there is a finite set $K_d \subset C$ so that
+
+$$
+  \underset{c \in C \setminus K_d}{\forall}
+  \left(
+     V_c \cap W_d = \emptyset
+  \right)
+  \,.
+$$
+
+Accordingly the intersection
+
+$$
+  U_d
+    \coloneqq
+  W_d
+   \cap
+  \left(
+    \underset{c \in K_d \subset C}{\cap} U_{D,c}
+  \right)
+$$
+
+is still open and disjoint from the remaining $V_k$, hence disjoint from all of $U_C$.
+
+=--
+
+That paracompact Hausdorff spaces are normal (prop. \ref{ParacompactHausdorffSpacesAreNormal}) allows to "shrink" the open subsets of any
+open cover a little such as to contain a topological closure:
 
 
 +-- {: .num_lemma #PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
@@ -12181,7 +12185,7 @@ $\,$
 ## Vector bundles
 
 A _([[topological vector bundle|topological]]) [[vector bundle]]_ is a collection of [[vector spaces]]
-that vary continuously over a [[topological space]]. Hence topological vector bundles combine 
+that vary continuously over a [[topological space]]. Hence topological vector bundles combine
 [[linear algebra]] with [[topology]].
 
 +-- {: .num_defn #TopologicalVectorBundle}
@@ -13429,7 +13433,8 @@ Since [[locally compact and sigma-compact spaces are paracompact]], it follows t
 Now let $X$ be paracompact with countably many connected components. We show that $X$ is sigma-compact.
 
 Since $X$ is locally compact, there exists a cover $\{K_i = Cl(U_i) \subset X\}_{i \in I}$ by [[compact topological space|compact]] [[subspaces]].
-By paracompactness there is a locally finite refinement of this cover. Since [[paracompact Hausdorff spaces are normal]], the [[shrinking lemma]] applies to this refinement and yields a locally finite open cover
+By paracompactness there is a locally finite refinement of this cover. 
+Since [[paracompact Hausdorff spaces are normal]], the [[shrinking lemma]] applies (lemma \ref{ShrinkingLemmaForLocallyFiniteCountableCovers}) to this refinement and yields a locally finite open cover
 
 $$
   \mathcal{V} \coloneqq \{V_j \subset X \}_{j \in J}
