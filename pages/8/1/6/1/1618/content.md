@@ -25,9 +25,9 @@ $$
   x : Set \stackrel{\overset{x^*}{\leftarrow}}{\underset{x_*}{\to}} E
 $$
 
-from the base topos [[Set]] to $\mathcal{E}$. 
+from the base topos [[Set]] to $E$. 
 
-For $A \in \mathcal{E}$ an object, its [[inverse image]] $x^* A \in Set$ under such a point is called the [[stalk]] of $A$ at $x$.
+For $A \in E$ an object, its [[inverse image]] $x^* A \in Set$ under such a point is called the [[stalk]] of $A$ at $x$.
 
 If $x$ is given by an [[essential geometric morphism]] we say that it is an **essential point** of $E$.
 
@@ -36,7 +36,7 @@ If $x$ is given by an [[essential geometric morphism]] we say that it is an **es
 +-- {: .num_remark}
 ###### Remark
 
-Since [[Set]] is the [[terminal object]] in the category [[Topos|GrothendieckTopos]] of [[Grothendieck topos]]es, for $\mathcal{E}$ a [[sheaf topos]] this is a [[global element]] of the topos.
+Since [[Set]] is the [[terminal object]] in the category [[Topos|GrothendieckTopos]] of [[Grothendieck topos]]es, for $E$ a [[sheaf topos]] this is a [[global element]] of the topos.
 
 Since $Set = Sh(*)$ is the [[category of sheaves]] on the one-point [[locale]], the notion of point of a topos is indeed the direct analog of a point of a [[locale]] (under [[localic reflection]]).
 
