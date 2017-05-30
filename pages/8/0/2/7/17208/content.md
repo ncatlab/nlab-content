@@ -582,12 +582,20 @@ where the last step is [this prop.](formal+scheme#FormalPowerSeries).
 
 ## References
 
+See also 
+
 * [[Topospaces]], _[Complex projective space](http://topospaces.subwiki.org/wiki/Complex_projective_space)_
 
 * Wikipedia, _[Complex projective space](https://en.wikipedia.org
 /wiki/Complex_projective_space)_
 
-For the [[Atiyah-Hirzebruch spectral sequence]] for [[complex oriented cohomology]] of complex projective space see
+Computation of the [[stable homotopy groups]] of $\mathbb{C}P^\infty$ is due to 
+
+* [[Graeme Segal]], _The stable homotopy complex of projective space_ ([[Segal72.pdf:file]])
+
+(See also at _[[Snaith's theorem]]_.)
+
+Detailed reviewof the [[Atiyah-Hirzebruch spectral sequence]] for [[complex oriented cohomology]] is in 
 
 * {#Pedrotti16} [[Riccardo Pedrotti]], _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
 
