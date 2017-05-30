@@ -27,7 +27,7 @@ $$
   \array{
     E &\longrightarrow& \zeta_n
     \\
-    \donwarrow &(pb)& \downarrow
+    \downarrow &(pb)& \downarrow
     \\
     X &\underset{f}{\longrightarrow}& B GL(n)
   }
