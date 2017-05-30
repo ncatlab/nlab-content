@@ -1,3 +1,170 @@
-* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
-Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
++-- {: .num_prop }
+###### Proposition
 
+Every [[CW-complex]] is a [[paracompact Hausdorff space]].
+
+=--
+
+
++-- {: .num_lemma #CellAttachmentToHausdorffSpaceIsHausdorff}
+###### Lemma
+**(cell attachment to Hausdorff space is still Hausdorff)**
+
+Let $X$ be a [[Hausdorff space]] and let 
+
+$$
+  f \;\colon\; S^{n-1} \longrightarrow  X
+$$
+
+be a [[continuous function]]. Then also the [[attachment space]]
+
+$$
+  \array{
+    S^{n-1} &\overset{f}{\longrightarrow}& X
+    \\
+    \downarrow &(po)& \downarrow^{\mathrlap{i_X}}
+    \\
+    D^n &\underset{i_{D^n}}{\longrightarrow}& X \cup_f D^n
+  }
+$$
+
+is Hausdorff.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First we fix a way to extend open subsets of $S^{n-1}$ to open subsets of $D^n$. To that end, pick some real number $\epsilon$ with $0 \lt \epsilon \lt 1/2$. Then for $V \subset S^{n-1}$ an open subset of the sphere, let $C_\epsilon(V) \subset D^n$ be its open cone of height $\epsilon$ into the bulk of the $n$-disk, i.e. the set of points in $D^n$ of radial distance $\lt \epsilon$ from $V \subset S^{n-1} \subset D^n$. 
+
+Observe 
+
+1. A base of open neighbourhoods of $X \cup_f D^n$ is given by
+
+   1. the images under $i_{D^n}$ of the open subsets of $D^n \setminus S^{n-1}$;
+
+   1. the images under $i_X$ of the open subsets of $X \setminus f(S^{n-1})$;
+
+   1. for $x \in S^{n-1}$ the union of the image under $i_X$ of an open neighbourhood $U_{f(x)} \subset X$ with the image under $i_{D^n}$ of the cone $C_\epsilon( f^{-1}(U_{f(x)}))$.
+
+   These sets are open because their pre-images under $i_{D^n}$ and $i_X$ are open, by construction. They form a base because, again by construction, every point has a neighbourhood in this collection.
+
+1. For every point $x \in X \setminus f(X) \subset X \subset X \cup_f D^n$ there exist disjoint open neighbourhoods around $f(S^{n-1})$ and $x$. 
+
+   To see this, first find such open neighbourhoods in $X$. These exist because $S^{n-1}$ is a [[compact topological space]] (for instance by [[Heine-Borel theorem]]), since [[continuous images of compact spaces are compact]] whence $f(S^{n-1}) \subset X$ is compact, and finally since [[compact subspaces in Hausdorff spaces are separated by neighbourhoods from points]]. Now form the union of the open neighbourhood of $f(S^{n-1})$ in $X$ with $C_\epsilon(S^{n-1})$ to obtain an open neighbourhood in $X \cup_f D^{n-1}$, still disjoint from that of the point.
+
+Now we discuss separation of distinct points in $X \cup_f D^{n}$ by case distinction:
+
+1. If $x \neq y \in D^n \setminus S^{n-1}$ then by the Hausdorffness of $D^n \setminus S^{n-1}$ there are disjoint open neighbourhoods $V_{x}, V_y \subset D^n \setminus S^{n-1}$ and their images under $i_{D^n}$ are still open and disjoint.
+
+1. If $x \neq y \in X \setminus f(S^{n-1})$, then by the Hausdorffness of $X$ there are disjoint open neighbourhoods $U_x, U_y \subset X$. By the second observation above we may moreover find open neighbourhoods $U'_x, U'_y \subset X$ that separate these points from $f(X)$. Hence $U_x \cap U'_x$ and $U_y \cap U'_y$ are disjoint open neighbourhoods in $X \setminus f(S^{n-1})$ whose image under $i_X$ remain disjoint open subsets in $X \cup_f D^{n-1}$.
+
+1. If $x \neq y \in S^{n-1}$ with $f(x) \neq f(y)$ then pick disjoint open neighbourhoods $U_x$, $U_y$ in $X$, which exist by the Hausdorffness of $X$. Their unions with $C_\epsilon(f^{-1}(U_x))$ and $C_\epsilon(f^{-1}(U_y))$, respectively, are disjoint open neighbourhoods in $X \cup_f D^n$.
+
+1. If $x \in D^n \setminus S^{n-1}$ and $y \in X \setminus f(S^{n-1})$ under $i_X$ we may find an open ball around $x$ which does not intersect $S^{n-1}$ and, by the second observation above, an open neighbourhood of $y$ which does not intersect $f(X)$. The images of these in $X \cup_f D^n$ are of the required form. 
+
+1. If $x \in S^{n-1}$ and $y \in X \setminus f(S^{n-1})$,  then by the second observation above we find disjoint open neighbourhoods of $f(S^{n-1})$ and of $y$ in $X$. The union of the former with $C_\epsilon(S^{n-1})$ gives disjoint open neighbourhoods in $X \cup_f D^n$ as required.
+
+1. If $x \in D^n \setminus S^{n-1}$ and $y \in S^{n-1}$ let $d$ be the distance of the former to the boundary $S^{n-1}$ of $D^n$, pick the open ball of radius $d/2$ around that point. Then pick the enire rim of width $d/2$ as a neighbourhood for the point on the boundary. These are disjoint open neighbourhoods inside $D^n$ and by forming the union of the latter with all of $X$ they become disjoint open neighbourhoods in $X \cup_f D^n$.
+
+
+=--
+
++-- {: .num_lemma #CellAttachmentToParacompactHausdorffIsStillParacompactHausdorff}
+###### Lemma
+**(cell attachment to paracompact Hausdorff is still paracompact Hausdorff)**
+
+Let $X$ be a [[paracompact Hausdorff space]] and let 
+
+$$
+  \array{
+     S^{n-1} &\overset{f}{\longrightarrow}& X
+     \\
+     \downarrow &(po)& \downarrow^{\mathrlap{i_X}}
+     \\
+     D^n &\underset{i_{D^n}}{\longrightarrow}& X \cup_f D^n
+  }
+$$
+
+be a [[cell attachment]]. Then also $X \cup_f D^n$ is paracompact.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\{ U_i \subset X \cup_f D^n \}_{i \in I}$ be any open cover of the attachment space. We need to produce a locally finite refinement.
+
+
+Observe that 
+
+1 .$X \cup_f D^n$ is the union of the subsets
+
+   $$
+     (D^n \setminus S^{n-1}), (X \setminus f(S^{n-1})), f(S^{n-1})
+     \;\subset\;
+     X \cup_f D^{n}
+     \,.
+   $$
+
+1. $D^n$ is itself paracompact Hausdorff (paracompact since it is actually compact, e.g. by the [[Heine-Borel theorem]], and Hausdorff since it is a metric space),
+
+1. $S^{n-1} \subset D^n$ and $f(S^{n-1}) \subset X$ are closed subsets. The former is [[compact topological space|compact]] for instance by the [[Heine-Borel theorem]], and so this follows because [[continuous images of compact spaces are compact]] and because [[compact subspaces of Hausdorff spaces are closed]].
+
+Let now $\{ i_{D^n}^{-1}(U_i) \subset D^n \}_{i \in I}$
+and $\{i_{X}^{-1}(U_i) \subset X\}_{i \in I}$ be the restrictions of the given cover. By paracompactness of $D^n$ and of $X$, these restrictions have locally finite open refinements
+
+$$
+  \{
+    V_j \subset X
+  \}_{j \in J_X}
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  \{
+    W_j \subset D^n
+  \}_{j \in J_{D^n}}
+  \,.
+$$
+
+Accordingly there are induced locally finite open refinements
+
+$$
+  \{
+    V_j \setminus f(S^{n-1}) \subset X \setminus f(S^{n-1})
+  \}_{j \in J_X}
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  \{
+    W_j \setminus S^{n-1} \subset D^n \setminus S^{n-1}
+  \}_{j \in J_{D^n}}
+  \,.
+$$
+
+Their images under $i_{X}$ and $i_{D^n}$ in $X \cup_f D^n$ are still open, hence yield a locally finite set of subset of $X \cup_f D^n$. 
+
+Its only failure is that it does not cover $f(S^{n-1}) \subset X \cup_f D^n$. But, as before, this is a compact subset, and hence there is a finite subset $J_{f(S^{n-1})} \subset I$ such that the original $U_i$ with $i \in J_{f(S^{n-1})}$ cover this subset. Since these are finitely many, the resulting cover
+
+$$
+  \left\{
+    i_{D^n}\left( V_j \setminus S^{n-1} \right)
+    \subset X \cup_f D^n
+  \right\}_{j \in J_{D^n}}
+  \sqcup
+  \left\{
+    i_{X}
+    \left(
+      W_j \setminus f(S^{n-1})
+    \right)
+    \subset X \cup_f D^n
+  \right\}
+  \sqcup
+  \left\{
+    U_i \subset X \cup_f D^n
+  \right\}_{i \in J_{f(S^{n-1})}}
+$$
+
+is a locally finite refinement of the original cover.
+
+=--
