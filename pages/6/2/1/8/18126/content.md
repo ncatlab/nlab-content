@@ -11591,10 +11591,10 @@ $\,$
 A key aspect of paracompact Hausdorff spaces is that they are equivalently those spaces that admit
 _partitions of unity_. This is  def. \ref{PartitionOfUnity} and prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}
 below. The existence of partitions of unity on topological spaces is what starts to give them
-"[[geometry|geometric]] character". For instance the [[topological vector bundles]] discussed below
+"[[geometry|geometric]] character". For instance the [[topological vector bundles]] discussed [below](#VectorBundles)
 behave as expected in the presence of partitions of unity.
 
-Before we discuss these, we consider some technical preliminaries
+Before we discuss partitions of unity, we consider some technical preliminaries
 on locally finite covers.
 
 First of all notice the following simple but useful fact:
@@ -11722,7 +11722,7 @@ $$
        U_{x,k}
      \right)
   \right)
-  \,.
+  \,,
 $$
 
 which is an open neighbourhood of $x$, by the finiteness of $K$.
@@ -11801,7 +11801,7 @@ is still open and disjoint from the remaining $V_k$, hence disjoint from all of 
 =--
 
 That paracompact Hausdorff spaces are normal (prop. \ref{ParacompactHausdorffSpacesAreNormal}) allows to "shrink" the open subsets of any
-open cover a little such as to contain a topological closure:
+locally finite open cover a little, such that the topological closure of the small patch is still contained in the original one:
 
 
 +-- {: .num_lemma #PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
@@ -11810,7 +11810,7 @@ open cover a little such as to contain a topological closure:
 
 Let $X$ be a [[topological space]] which is [[normal topological space|normal]] (def. \ref{NormalSpace}) and let $\{U_i \subset X\}_{i \in I}$ be a [[locally finite cover|locally finite]] [[open cover]] (def. \ref{LocallyFiniteCover}).
 
-Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that the [[topological closure]] $Cl(V_i)$ of its elements is cotained in the original patches:
+Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that the [[topological closure]] $Cl(V_i)$ of its elements is contained in the original patches:
 
 $$
   \underset{i \in I}{\forall}
@@ -11859,9 +11859,9 @@ $$
   \,.
 $$
 
-In particular, since $X \setminus V_2$ is closed, this means that $Cl(V_1) \subset X \setminus V_2 $.
+In particular, since $X \setminus V_2$ is closed, this means that $Cl(V_1) \subset Cl(X \setminus V_2) =  X \setminus V_2 $.
 
-Hence it only remains to observe that $V_1 \cup U_2 = X$, by definition of $V_1$.
+Hence it only remains to observe that $V_1 \cup U_2 = X$, which is true     by definition of $V_1$.
 
 
 =--
@@ -11878,7 +11878,7 @@ Let $(X,\tau)$ be a [[normal topological space]], and let $\{U_i \subset X\}_{i 
 +-- {: .proof}
 ###### Proof
 
-By [[induction]] using lemma \ref{ShrinkingLemmaForBinaryCover}.
+By [[induction]], using lemma \ref{ShrinkingLemmaForBinaryCover}.
 
 To begin with, consider $\{ U_1, \underoverset{i = 2}{n}{\cup} U_i\}$. This is a binary open cover, and hence lemma \ref{ShrinkingLemmaForBinaryCover} gives an open subset $V_1 \subset X$ with $V_1 \subset Cl(V_1) \subset U_1$ such that $\{V_1, \underoverset{i = 2}{n}{\cup} U_i\}$ is still an open cover, and accordingly so is
 
@@ -11950,7 +11950,7 @@ We now invoke [[Zorn's lemma]] to generalize the shrinking lemma for finitely ma
 
 +-- {: .proof}
 ###### Proof
-of the general [[shrinking lemma]] \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
+of the general [[shrinking lemma]], lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}.
 
 Let $\{U_i \subset X\}_{i \in I}$ be the given locally finite cover of the normal space $(X,\tau)$. Consider the set $S$ of [[pairs]] $(J, \mathcal{V})$ consisting of
 
@@ -11994,11 +11994,11 @@ By definition, an element of $S$ with $J = I$ is an open cover of the required f
 
 We claim now that a [[maximal element]] $(J, \mathcal{V})$ of $(S,\leq)$ has $J = I$.
 
-For assume on the contrary that there were $i \in I \setminus J$. Then we could apply the construction in lemma \ref{ShrinkingLemmaForBinaryCover} to replace that single $V_i$ with a smaller open subset $V'_i$ to obtain $\mathcal{V}'$ such that $Cl(V'_i) \subset V_i$ and such $\mathcal{V}'$ is still an open cover. But that would mean that $(J,\mathcal{V}) \lt (J \cup \{i\}, \mathcal{V}')$, contradicting the assumption that $(J,\mathcal{V})$ is maximal. This [[proof by contradiction|proves by contradiction]] that a maximal element of $(S,\leq)$ has $J = I$ and hence is an open cover as required.
+For assume on the contrary that $(J,\mathcal{V})$ is maximal and there were $i \in I \setminus J$. Then we could apply the construction in lemma \ref{ShrinkingLemmaForBinaryCover} to replace that single $V_i$ with a smaller open subset $V'_i$ to obtain $\mathcal{V}'$ such that $Cl(V'_i) \subset V_i$ and such that $\mathcal{V}'$ is still an open cover. But that would mean that $(J,\mathcal{V}) \lt (J \cup \{i\}, \mathcal{V}')$, contradicting the assumption that $(J,\mathcal{V})$ is maximal. This [[proof by contradiction|proves by contradiction]] that a maximal element of $(S,\leq)$ has $J = I$ and hence is an open cover as required.
 
 We are reduced now to showing that a maximal element of $(S,\leq)$ exists. To achieve this we invoke [[Zorn's lemma]]. Hence we have to check that every [[chain]] in $(S,\leq)$, hence every [[total order|totally ordered]] [[subset]] has an [[upper bound]].
 
-So let $T \subset S$ be a [[total order|totally ordered]] subset. Consider the union of all the index sets appearing in pairs in this subset:
+So let $T \subset S$ be a [[total order|totally ordered]] subset. Consider the union of all the index sets appearing in the pairs in this subset:
 
 $$
   K
@@ -12007,7 +12007,7 @@ $$
   \,.
 $$
 
-Now define open subsets $\mathcal{W}_i$ for $i \in K$ picking any $(J,\mathcal{V})$ in $T$ with $i \in J$ and setting
+Now define open subsets $W_i$ for $i \in K$ picking any $(J,\mathcal{V})$ in $T$ with $i \in J$ and setting
 
 $$
   W_i \coloneqq V_i \phantom{AAA} i \in K
@@ -12023,7 +12023,8 @@ $$
   \,.
 $$
 
-We claim now that $\{W_i \subset X\}_{i \in I}$ thus defined is a cover of $X$. Because by assumption that $\{U_i \subset X\}_{i \in I}$ is locally finite, also all the $\{V_i \subset X\}_{i \in I}$ are locally finite, hence for every point $x \in X$ there exists a finite set $J_x \subset I$ such that $(i \in I \setminus J_x) \Rightarrow (x \notin U_i)$. Since $(T,\leq)$ is a total order, it must contain an element $(J, \mathcal{V})$ such that $J_x \cap K \subset J$. Since that $\mathcal{V}$ is a cover, it follows that $x \in \underset{i \in I}{\cup} V_i$, hence in $\underset{i \in I}{\cup} W_i$.
+We claim now that $\{W_i \subset X\}_{i \in I}$ thus defined is a cover of $X$. Because by assumption that $\{U_i \subset X\}_{i \in I}$ is locally finite, so for every point $x \in X$ there exists a finite set $J_x \subset I$ such that $(i \in I \setminus J_x) \Rightarrow (x \notin U_i)$. Since $(T,\leq)$ is a total order, it must contain an element $(J, \mathcal{V})$ such that
+the finite set $J_x \cap K$ is contained in its index set $J$, hence  $J_x \cap K \subset J$. Since that $\mathcal{V}$ is a cover, it follows that $x \in \underset{i \in J_x \cap K}{V_i} \subset  \underset{i \in I}{\cup} V_i$, hence in $\underset{i \in I}{\cup} W_i$.
 
 This shows that $(K,\mathcal{W})$ is indeed an element of $S$. It is clear by construction that it is an upper bound for $(T ,\leq )$. Hence we have shown that every [[chain]] in $(S,\leq)$ has an upper bound, and so Zorn's lemma implies the claim.
 
@@ -12065,6 +12066,7 @@ denoting the [[support]] of $f_i$ (the [[topological closure]] of the subset of 
 
 =--
 
+
 +-- {: .num_remark }
 ###### Remark
 
@@ -12072,13 +12074,48 @@ Due to the second clause in def. \ref{PartitionOfUnity}, the [[sum]] in the thir
 
 =--
 
++-- {: .num_example #PartitionOfUnityOnTheRealLine}
+###### Example
+
+Consider $\mathbb{R}$ with its [[Euclidean space|Euclidean]] [[metric topology]].
+
+Let $\epsilon \in (0,\infty)$  and consider the [[open cover]]
+
+$$
+  \{
+    (n-1-\epsilon , n+1 +  \epsilon) \subset \mathbb{R}
+  \}_{n \in \mathbb{Z} \subset \mathbb{R} }
+  \,.
+$$
+
+Then a [[partition of unity]] $\{ f_n \colon \mathbb{R} \to [0,1] \}_{n \in \mathbb{N}}$  (def. \ref{PartitionOfUnity})) subordinate to this cover is given by
+
+$$
+  f_n(x)
+    \coloneqq
+  \left\{
+    \array{
+      x - (n - 1)  &\vert& n - 1 \leq x \leq n
+      \\
+      1- (x-n) &\vert& n \leq x \leq n+1
+      \\
+      0 &\vert& \text{otherwise}
+    }
+  \right\}
+  \,.
+$$
+
+
+=--
+
+
 +-- {: .num_prop #ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}
 ###### Proposition
 **([[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]])**
 
-Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
+Let $(X,\tau)$ be a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}). Then the following are equivalent:
 
-1. $(X,\tau)$ is a [[paracompact Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{ParacompactSpace}).
+1. $(X,\tau)$ is a [[paracompact topological space]] (def. \ref{ParacompactSpace}).
 
 1. Every [[open cover]] of $(X,\tau)$ admits a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}).
 
@@ -12088,11 +12125,13 @@ Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
 +-- {: .proof #OpenCoverOfParacompactHausdorffSpaceAdmitsPartitionOfUnityProof}
 ###### Proof
 
-One direction is immediate: Assume that every open cover $\{U_i \subset X\}_{i \in I}$ admits a subordinate partition of unity $\{f_i\}_{i \in I}$. Then by definition (def. \ref{PartitionOfUnity}) $\{ Int(Supp(f)_i)  \subset X\}_{i \in I}$ is a locally finite open cover refining the original one.
+One direction is immediate: Assume that every open cover $\{U_i \subset X\}_{i \in I}$ admits a subordinate partition of unity $\{f_i\}_{i \in I}$. Then by definition (def. \ref{PartitionOfUnity}) $\{ Int(Supp(f)_i)  \subset X\}_{i \in I}$ is a locally finite open cover refining the original one, hence $X$ is paracompact.
 
 We need to show the converse: If $(X,\tau)$ is a [[paracompact topological space]], then for every [[open cover]] $\{U_i \subset X\}_{i \in I}$ there is a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}).
 
-To that end, first apply the [[shrinking lemma]] \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} to the given locally finite open cover $\{U_i \subset X\}$, to obtain a smaller locally finite open cover $\{V_i \subset X\}_{i \in I}$, and then apply the lemma once more to that result to get a yet smaller open cover  $\{W_i \subset X\}_{i \in I}$, so that now
+Since [[paracompact Hausdorff spaces are normal]]
+(prop. \ref{ParacompactHausdorffSpacesAreNormal})
+we may apply the [[shrinking lemma]] \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} to the given locally finite open cover $\{U_i \subset X\}$, to obtain a smaller locally finite open cover $\{V_i \subset X\}_{i \in I}$. Apply the lemma once more to that result to get a yet smaller open cover  $\{W_i \subset X\}_{i \in I}$, so that now
 
 $$
   \underset{i \in I}{\forall}
@@ -12183,6 +12222,7 @@ is a partition of unity as required.
 $\,$
 
 ## Vector bundles
+ {#VectorBundles}
 
 A _([[topological vector bundle|topological]]) [[vector bundle]]_ is a collection of [[vector spaces]]
 that vary continuously over a [[topological space]]. Hence topological vector bundles combine
