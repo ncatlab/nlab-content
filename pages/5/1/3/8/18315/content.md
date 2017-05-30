@@ -8,7 +8,7 @@ if $f\circ h_0=f\circ h_1$, then $h_0=h_1$.
 ## Examples
 
 
-Tautological-examples: 
+Tautological examples: 
 
  * any cancellative monoid
 
@@ -21,6 +21,8 @@ Non-tautological example:
 ## Related concepts
 
 * [[cancellative monoid]]
+
+* [[all arrows monic]]
 
 ## References
 
