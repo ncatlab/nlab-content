@@ -132,7 +132,7 @@ Let $X$ be a [[topological space]]. Then a _topological vector bundle_ over $X$ 
 
 1. a [[continuous function]] $E \overset{\pi}{\to} X$
 
-1. for each $x \in X$ the stucture of a [[real vector space]] on the [[pre-image]]
+1. for each $x \in X$ the stucture of a [[finite-dimensional vector space|finite-dimensional]] $k$-[[vector space]] on the [[pre-image]]
 
    $$E_x \coloneqq \pi^{-1}(\{x\}) \subset E$$
 
@@ -796,7 +796,7 @@ which is clearly satisfied.
 The [[complex line bundle]] this defined is called the _[[basic complex line bundle on the 2-sphere]]_.
 
 With the 2-sphere identified with the [[complex projective space]] $\mathbb{C} P^1$
-(the [[Riemann sphere]]), 
+(the [[Riemann sphere]]),
 the basic complex line bundle is the [[tautological line bundle]] (example \ref{TautologicalLineBundle}) on $\mathbb{C}P^1$.
 
 =--
