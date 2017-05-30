@@ -177,7 +177,7 @@ Given two pointed objects $(X,x)$ and $(Y,y)$, then:
 
    This is called the _[[wedge sum]]_ operation on pointed objects.
 
-Generally for a set $\{X_i\}_{i \in I}$ in $Top^{\ast/}$
+Generally for a set $\{X_i\}_{i \in I}$ in $\mathcal{C}^{\ast/}$
 
 1. their [[product]] is formed in $Top$, with the new basepoint canonically induced;
 
@@ -308,7 +308,7 @@ $$
   I_+ \in Top^{\ast/}
 $$
 
-denotes the standard interval object $I = [0,1]$, with a djoint basepoint adjoined, def. \ref{BasePointAdjoined}. Now for $X$ any [[pointed topological space]], then 
+denotes the standard interval object $I = [0,1]$, with a disjoint basepoint adjoined, def. \ref{BasePointAdjoined}. Now for $X$ any [[pointed topological space]], then 
 
 $$
   X \wedge (I_+) = (X \times I)/(\{x_0\} \times I)
