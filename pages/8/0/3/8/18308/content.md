@@ -9,3 +9,5 @@ For the moment see [here](topological+K-theory#ReducedKGroup) at _[[topological 
 
 * [[relative K-theory]]
 
+[[!redirects reduced K-group]]
+[[!redirects reduced K-groups]]
