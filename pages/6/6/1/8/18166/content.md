@@ -22,9 +22,9 @@
 
 Assuming the [[axiom of choice]] then:
 
-Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
+Let $(X,\tau)$ be a [[Hausdorff topological space]]. Then the following are equivalent:
 
-1. $(X,\tau)$ is a [[paracompact Hausdorff space]].
+1. $(X,\tau)$ is a [[paracompact topological space]].
 
 1. Every [[open cover]] of $(X,\tau)$ admits a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}).
 
@@ -185,7 +185,8 @@ $$
 ###### Proof
 of prop. \ref{OpenCoverOfParacompactHausdorffSpaceAdmitsPartitionOfUnity}
 
-Apply lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} to the given locally finite open cover $\{U_i \subset X\}_i$, to obtain a smaller locally finite open cover $\{V_i \subset X\}_{i \in I}$, and then apply the lemma once more to that result to get a yet small open cover  $\{W_i \subset X\}_{i \in I}$, so that now
+Since [[paracompact Hausdorff spaces are normal]] we may
+apply lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} to the given locally finite open cover $\{U_i \subset X\}_i$, to obtain a smaller locally finite open cover $\{V_i \subset X\}_{i \in I}$, and then apply the lemma once more to that result to get a yet small open cover  $\{W_i \subset X\}_{i \in I}$, so that now
 
 $$
   \underset{i \in I}{\forall}
