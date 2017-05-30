@@ -9849,7 +9849,7 @@ $$
 
 are [[closed subsets]] of $X$.
 
-Now since [[compact Hausdorff spaces are normal]] (prop. \ref{CompactHausdorffSpacesAreNormal}) it follows (by def. \ref{NormalSpace}) that we may find disjoint open subset $U_1, U_2 \in \tau_X$
+Now again since [[compact Hausdorff spaces are normal]] (prop. \ref{CompactHausdorffSpacesAreNormal}) it follows (by def. \ref{NormalSpace}) that we may find disjoint open subset $U_1, U_2 \in \tau_X$
 such that
 
 $$
@@ -12164,14 +12164,15 @@ $$
   \,.
 $$
 
-This means in particular that $h_i^{-1}((0,1]) \subset V_i$ and hence that
+This means in particular that $h_i^{-1}((0,1]) \subset V_i$ and hence that the [[support]] of the function is 
+contained in $U_i$
 
 $$
   Supp(h_i) =  Cl(h_i^{-1}((0,1])) \subset Cl(V_i) \subset U_i
   \,.
 $$
 
-By construction, the set of function $\{h_i\}_{i \in I}$ already
+By this construction, the set of function $\{h_i\}_{i \in I}$ already
 satisfies conditions 1) and 2) on a partition of unity subordinate to $\{U_i \subset X\}_{i \in I}$ from def. \ref{PartitionOfUnity}.
 It just remains to normalize these functions so that they indeed sum to unity. To that end, consider the continuous function
 
@@ -12186,7 +12187,9 @@ $$
   \,.
 $$
 
-Notice that the [[sum]] on the right has only a [[finite number]] of non-zero summands, due to the local finiteness of the cover, so that this is well-defined.
+Notice that the [[sum]] on the right has only a [[finite number]] of non-zero summands, due to the local finiteness of the cover, so that this is well-defined. Moreover this is again a continuous function, since [[polynomials are continuous]] (example \ref{PolynoialsAreContinuous}).
+
+
 
 Moreover, notice that
 
@@ -12194,16 +12197,23 @@ $$
   \underset{x \in X}{\forall} \left(  h(x) \neq 0  \right)
 $$
 
-because $\{Cl(W_i) \subset X\}_{i \in I}$ is a cover so that there is $i_x \in I$ with $x \in Cl(W_{i_x})$, and since $h_i(Cl(W_{i_x})) = \{1\}$, by the above.
+because $\{Cl(W_i) \subset X\}_{i \in I}$ is a cover so that there is $i_x \in I$ with $x \in Cl(W_{i_x})$, and since $h_i(Cl(W_{i_x})) = \{1\}$, by the above, and since all contributions to the sum are non-negative.
 
-Hence it makes sense to define
+Hence it makes sense to define the [[ratios]]
 
 $$
   f_i \;\coloneqq\;  h_i/h
   \,.
 $$
 
-This is now manifestly such that $\underset{i \in I}{\sum} f_i = 1$, and so
+Since $Supp(f_i) = Supp(h_i)$ this still satisfies conditions 1) and 2) on a partition of unity
+(def. \ref{PartitionOfUnity}), but by construction this now also satisfies
+
+$$
+  \underset{i \in I}{\sum} f_i = 1
+$$ 
+
+and hence the remaining condition 3). Therefore
 
 $$
   \left\{
@@ -12216,7 +12226,11 @@ is a partition of unity as required.
 
 =--
 
+$\,$
 
+We will see various applications of prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}
+in the discussion of [topological vector bundles](#VectorBundles) and of [topological manifolds](#Manifolds),
+to which we now turn.
 
 
 $\,$
