@@ -1,3 +1,29 @@
+$$
+  \array{
+     ker(const_x^\ast)
+       &\longrightarrow&
+     K(X)
+       &\overset{const_x^\ast}{\longrightarrow}&
+     K(\{x\})
+     \\
+     \uparrow^{\mathrlap{\exists !}} && \uparrow^{\mathrlap{f^\ast}} && \uparrow^{\mathrlap{f^\ast}}
+     \\     
+     ker(const_y^\ast)
+       &\longrightarrow&
+     K(Y)
+       &\overset{const_x^\ast}{\longrightarrow}&
+     K(\{y\})
+  }
+  \,.
+$$
+
+$$ \array {
+a & \rightarrow & b \\
+\downarrow & & \downarrow \\
+c & \rightarrow & d
+}
+$$
+
 [[Picard groupoid]]
 .
 
