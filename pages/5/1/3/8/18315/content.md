@@ -16,7 +16,7 @@ Tautological examples:
 
 Non-tautological example: 
 
- * the (wide) subcategory of the category of fields obtained by removing the zero ring 
+ * the full subcategory of the category of fields obtained by removing the zero ring 
 
 ## Related concepts
 
