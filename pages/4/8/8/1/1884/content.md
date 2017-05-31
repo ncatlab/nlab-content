@@ -33,7 +33,7 @@ Vector bundles are of central interest in large parts of [[mathematics]] and [[p
 
 To that end, observe that all natural operations on [[vector spaces]] generalize to vector bundles by applying them [[fiber]]-wise. Notably there is the fiberwise [[direct sum of vector bundles]], also called the _[[nLab:Whitney sum]]_ operation. This operation gives the set $Vect(X)_{/\sim}$ of [[nLab:isomorphism classes]] of vector bundles the structure of an [[semi-group]] ([[monoid]]) $(Vect(X)_{/\sim},\oplus)$.
 
-Now as cunder direct sum, the [[nLab:dimension]] of vector spaces adds, similarly under [[nLab:direct sum of vector bundles]] their [[nLab:rank]] adds.  Hence in analogy to how one passes from the  additive [[semi-group]] ([[monoid]]) of  [[natural numbers]] to the addtitive [[group]] of [[integers]] by adjoining formal additive inverses, so one may adjoin formal additive inverses to $(Vect(X)_{/\sim},\oplus)$. By a general prescription ("[[Grothendieck group of a commutative monoid]]") this is achieved by first passing to the larger class of [[pairs]] $(V_+,V_-)$ of vector bundles ("[[virtual vector bundles]]"), and then [[quotient|quotienting]] out the [[equivalence relation]] given by
+Now as under direct sum the [[nLab:dimension]] of vector spaces adds, similarly under [[nLab:direct sum of vector bundles]] their [[nLab:rank]] adds.  Hence in analogy to how one passes from the  additive [[semi-group]] ([[monoid]]) of  [[natural numbers]] to the addtitive [[group]] of [[integers]] by adjoining formal additive inverses, so one may adjoin formal additive inverses to $(Vect(X)_{/\sim},\oplus)$. By a general prescription ("[[Grothendieck group of a commutative monoid]]") this is achieved by first passing to the larger class of [[pairs]] $(V_+,V_-)$ of vector bundles ("[[virtual vector bundles]]"), and then [[quotient|quotienting]] out the [[equivalence relation]] given by
 
 $$
   (V_+, V_-) \sim (V_+ \oplus W , V_- \oplus W)
@@ -191,7 +191,7 @@ $$
   \,.
 $$
 
-Now since the [[natural numbers]] under [[addition]] are just a [[monoid]] ([[semi-group]] with [[unitality|unit]]), with no element except zeor having an [[inverse element]] under the additive operation, it follows immediately that a necessary condition for the [[isomorphism class]] of a [[topological vector bundle]] to be invertible under [[direct sum of vector bundles]] is that its [[rank of a vector bundle]] be zero. But there is only one such class of vector bundles, in fact there is only one such vector bundle, namely the unique rnk-zro bundle $X \times k^0$, necessarily a [[trivial bundle]].
+Now since the [[natural numbers]] under [[addition]] are just a [[monoid]] ([[semi-group]] with [[unitality|unit]]), with no element except zero having an [[inverse element]] under the additive operation, it follows immediately that a necessary condition for the [[isomorphism class]] of a [[topological vector bundle]] to be invertible under [[direct sum of vector bundles]] is that its [[rank of a vector bundle]] be zero. But there is only one such class of vector bundles, in fact there is only one such vector bundle, namely the unique rank-zero bundle $X \times k^0$, necessarily a [[trivial bundle]].
 
 Now for the [[monoid]] of [[natural numbers]] $(\mathbb{N},+)$ it is a time honored fact that it is interesting and useful to rectify its failure of being a [[group]] by [[universal construction|universally]] forcing it to become one. This is a process called _[[group completion]]_ and the group completion of the natural numbers is the additive group of [[integers]] $(\mathbb{Z},+)$.
 
@@ -324,7 +324,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Fr $X$ compact Hausdorff then lemma \ref{DirectSumHasInverseUpToTrivialBundle} implies
+For $X$ compact Hausdorff then lemma \ref{DirectSumHasInverseUpToTrivialBundle} implies
 that for every [[topological vector bundle]] $E_-$ there exists a topological vector bundle $\tilde E_-$
 with $E_- \oplus_X \tilde E_- \simeq X \times k^n$, and hence
 
@@ -346,13 +346,13 @@ $$
 **([[commutative ring]] structure on $K(X)$ from [[tensor product of vector bundles]])**
 
 Also the operation of [[tensor product of vector bundles]] over $X$ descends to
-[[isomorphism classes]] of [[topological vector bundles]] and makes $(Vect(X)_{\sim}, \oplus, \oplus)$
+[[isomorphism classes]] of [[topological vector bundles]] and makes $(Vect(X)_{\sim}, \oplus, \times)$
 a [[semi-ring]] ( [[rig]]).
 
 (This is the shadow under passing to isomorphism classes of the fact that the [[category]] $Vect(X)$
-is a [[distributive monoidal category]] under [[tensor product of vector bundles]]).
+is a [[distributive monoidal category]] under [[tensor product of vector bundles]].)
 
-This  mulitlicative structure passes to the K-group (def. \ref{KGroupByGrothendieckGroup}) by the formula
+This  multiplicative structure passes to the K-group (def. \ref{KGroupByGrothendieckGroup}) by the formula
 
 $$
   [E_+, E_-] \cdot [F_+, F_-]
@@ -399,7 +399,7 @@ $$
   \,.
 $$
 
-Finally, of course pullback along an [[identity function]] $id_X \colom X \to X$ is the identity group
+Finally, of course pullback along an [[identity function]] $id_X \colon X \to X$ is the identity group
 homomorphism.
 
 In summary this says that the assignment of K-groups to topological spaces is a [[functor]]
@@ -530,7 +530,7 @@ $$
   F \oplus_X \tilde F \simeq X \times k^n
 $$
 
-is the [[trivial vector bundle]] of some [[rank of a vector bundle|rank]] $n \in \mathbbN}$. This means that the above is equivalent already to the existence of an
+is the [[trivial vector bundle]] of some [[rank of a vector bundle|rank]] $n \in \mathbb{N}$. This means that the above is equivalent already to the existence of an
 $n \in \mathbb{N}$ such that
 
 $$
