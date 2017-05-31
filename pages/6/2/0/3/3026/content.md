@@ -1,4 +1,4 @@
-
+.
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -260,6 +260,38 @@ Regarding the third point: We need to show that $i \colon X \to i(X) \subset X^\
 
 
 
++-- {: .num_remark #CompactHausdorffSpaceIsCompactificationOfComplementOfAnyPoint}
+###### Remark
+
+For $X$ a [[compact Hausdorff space]] and $x_0 \in X$ any point, then 
+$X$ is [[homeomorphism|homeomorphic]] to the one-point compactification
+of the [[complement]] [[subspace]] $X \setminus \{x_0\} \subset X$:
+
+$$
+  X \simeq (X \setminus \{x_0\})^\ast
+  \,.
+$$
+
+Observe also that $X \setminus \{x_0\}$, being an [[open subspace]] of a [[compact Hausdorff space]] is a [[locally compact topological space]], since [[open subspaces of compact Hausdorff spaces are locally compact]], and of course it is Hausdorff, since $X$ is.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]], the open neighbourhoods of $x \in X$ are equivalently the
+complements of closed, and hence compact closed, subsets in $X \setminus \{x\}$. By def. \ref{OnePointExtension} this means that the function
+
+$$
+  \array{
+     X &\longrightarrow& (X \setminus \{x_0\})^\ast
+  }
+$$
+
+which is the identity on $X \setminus \{x_0\}$ ad sends $x_0 \mapto \infty$ (hence which is just the identity on the underlying sets) is a [[homeomorphism]].
+
+=--
+
 
 ### Universal property
   {#UniversalProperty}
@@ -286,7 +318,7 @@ The operation of one-point compactification is not a [[functor]] on the whole [[
 +-- {: .num_example #nSphereIsOnePointCompactificationOfRn}
 ###### Example
 
-For $n \in \mathbb{N}$ the [[n-sphere]] with its standard [[topological space|topology]] (e.g. as a [[subspace]] of the [[Euclidean space]] $\mathbb{R}^{n+1}$ with its [[metric topology]]) is [[homeomorphism|homeomorphic]] to the one-point compactification (def. \ref{OnePointExtension}) of the [[Euclidean space] $\mathbb{R}^n$
+For $n \in \mathbb{N}$ the [[n-sphere]] with its standard [[topological space|topology]] (e.g. as a [[subspace]] of the [[Euclidean space]] $\mathbb{R}^{n+1}$ with its [[metric topology]]) is [[homeomorphism|homeomorphic]] to the one-point compactification (def. \ref{OnePointExtension}) of the [[Euclidean space]] $\mathbb{R}^n$
 
 $$
   S^n \simeq (\mathbb{R}^n)^\ast
