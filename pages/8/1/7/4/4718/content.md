@@ -17,6 +17,8 @@
 
 The concept of _nonunital ring_ is like that of [[ring]] but without the requirement of the existence of an [[identity]] element ("unit" element). 
 
+Nonunital rings with [[homomorphisms]] between them form the [[category]] [[Rng]].
+
 Historically, this was in fact the original meaning of "ring", and while mostly "ring" has come to mean by default the version with identity element, nonunital rings still play a role (see e.g. the review in [Anderson 06](#Anderson06)) and in some areas of mathematics "nonunital ring" is still the default meaning of "ring". In particular, non-unital rings may naturally be identified with the [[augmentation ideals]] of $\mathbb{Z}$-[[augmented algebra|augmented]] unital rings, see the discussion [below](#AsSlicesOfRings).
   
 +-- {: .num_remark}
