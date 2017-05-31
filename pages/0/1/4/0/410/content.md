@@ -42,21 +42,27 @@ Classically, examples of free constructions were characterized by a [[universal 
 
 ### For free functors
 
-* the [[free monoid]] functor $Set \to Mon$;
+* the [[free monoid]] functor [[Set]] $\to$ [[Mon]];
 
-* the [[free module]] functor $Set \to K Mod$ for a [[rig]] $K$;
+* the [[free module]] functor [[Set]] $\to$ $K$ [[Mod]] for a [[rig]] $K$;
 
-* the [[free group]] functor $Set \to Grp$;
+* the [[free group]] functor [[Set]] $\to$ [[Grp]];
 
-* the [[free abelian group]] functor $Set \to Ab$;
+* the [[group completion]] functor [[Mon]] $\to$ [[Grp]]
 
-* the [[abelianization]] functor $Grp \to Ab$;
+  in the abelian case in particular:
 
-* the [[free category]] functor $Quiv \to Cat$;
+  the [[Grothendieck group of a commutative monoid|Grothendieck group completion]] functor [[CMon]] $\to$ [[Ab]]
+
+* the [[free abelian group]] functor [[Set]] $\to$ [[Ab]];
+
+* the [[abelianization]] functor [[Grp]] $\to$ [[Ab]];
+
+* the [[free category]] functor $Grph_{d,r} \to$ [[Cat]];
 
 * the [[free operad]] functor;
 
-* the [[unitisation]] functor $Rng \to Ring$.
+* the [[unitisation]] functor [[Rng]] $\to$ [[Ring]].
 
 One formal sort of free functor is the left adjoint $C\to C^T$, where $T$ is a [[monad]] on the [[category]] $C$ and $C^T$ is its [[Eilenberg-Moore category]] (the category of $T$-algebras).  This includes all of thee examples above and many others.
 
