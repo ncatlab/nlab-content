@@ -23,6 +23,8 @@ The RR-potenzial $C_0$ combines with the [[dilaton]] to the [[axio-dilaton]].
 
 ## Related entries
 
+* [[K-matrix model]]
+
 [[!include table of branes]]
 
 ## References
