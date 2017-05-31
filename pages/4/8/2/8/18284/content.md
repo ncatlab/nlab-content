@@ -20,7 +20,9 @@
 
 This page will collect some technical material concerning [[colimits]] of [[normal spaces]] as computed in [[Top]]. 
 
-In particuar it shows that [[CW-complexes are paracompact Hausdorff spaces|CW-complexes are normal spaces]] (theorem \ref{CWComplexesAreNormal} below).
+In particular it shows that [[CW-complexes are paracompact Hausdorff spaces|CW-complexes are normal spaces]] (theorem \ref{CWComplexesAreNormal} below). 
+
+A basic technique is the exploitation of the Tietze extension condition which characterizes normal spaces. A similar technique involving an extension condition may be used to prove a set of wholly parallel set of results for [[paracompact spaces]]; see [[colimits of paracompact spaces]]. 
 
 ## Basic results 
 
@@ -109,7 +111,7 @@ A space $X$ is normal if and only if, for each closed subset $C \subseteq X$ and
 +-- {: .num_remark} 
 ###### Remarks 
 
-1. There are slight variations on the theorem: $\mathbb{R}$ may be replaced by $[0, \infty)$ or $[0, 1]$ or any homeomorph of these, and the result still holds. 
+1. There are variations on the theorem in which stronger separation properties (such as perfect normality, or $T_6$) may be reformulated in terms of extension conditions. 
 
 1. We remark that the "if" part of the proof is very easy. If $A, B$ are closed disjoint subsets of $X$, then the closed subspace $C = A \cup B$ is the coproduct on $A, B$ in $Top$, and we may define a map $f: A \cup B \to \mathbb{R}$ to be the constant $0$ on $A$ and the constant $1$ on $B$. Let $g: X \to \mathbb{R}$ be any extension of $f$; then $U = g^{-1}(\{x: x \lt 1/3\})$ and $V = g^{-1}(\{x: x \gt 2/3\})$ are separating open sets. 
 =-- 
