@@ -1501,16 +1501,17 @@ the [[trivial vector bundles]] over $X$.
 ###### Proposition
 
 Let $X$ be a [[compact Hausdorff space]] and $A \subset X$ a [[closed subset|closed]] [[subspace]]
-and write $X/A$ for the corresponding [[quotient topological space]] with quotient coprojection
+and write $X/A$ for the corresponding [[quotient topological space]] ([this example](quotient+space#QuotientBySubspace)) 
+with quotient coprojection denoted
 $q \colon X \longrightarrow X/A$.
 
 If $A$ is a [[contractible topological space]] then the [[pullback bundle]] construction
 
 $$
-  q^\ast \;\colon\; Vect(X/A) \longrightarrow Vect(X)
+  q^\ast \;\colon\; Vect(X/A)_{/\sim} \longrightarrow Vect(X)_{/\sim}
 $$
 
-is an equivalence.
+is an [[isomorphism]].
 
 =--
 
@@ -1518,6 +1519,35 @@ is an equivalence.
 
 Use that by example \ref{TopologicalVectorBundleOverContractibleSpaceIsTrivializable} every bundle
 is trivializable over the contractible subspace $A$.
+
+
++-- {: .num_example }
+###### Example
+
+Let $(X,x)$ be a [[pointed topological space|pointed]] [[compact topological space]].
+
+For $[0,1] \subset \mathbb{R}$ the [[closed interval]] with its [[Euclidean space|Euclidean]] [[metric topology]].
+
+There is
+
+1. the ordinary [[cylinder]], being the [[product space]] $X \times I$
+
+1. the [[reduced cylinder]] $X \wedge I_+ = (X \times I)/( \{x\} \times I )$ 
+   which is the [[smash product]] with the interval that has a base point freely adjoined
+
+and
+
+1. the ordinary [[suspension]] $S X \coloneqq (X \times I)/( X \times \{0,1\} )$;
+
+1. the [[reduced suspension]] $\Sigma X \coloneqq (S X)/( \{x\} \times I )$.
+
+In both cases the reduced space is obtained from the unreduced space by quotienting out the 
+contractible closed subspace $I \simeq \{x\} \times I$ and hence topological vector bundles
+do not see the difference between the reduced and the unreduced spaces, by prop. \ref{VectorBundlesOverQuotientByContractibleSubspaceAreEquivalentToVectorBundlesOnTotalSpace}.
+
+
+=--
+
 
 
 ## Related concepts
