@@ -204,8 +204,8 @@ For $k = \mathbb{C}$ one speaks of _[[complex vector bundles]]_.
 For $n = 1$ one speaks of _[[line bundles]]_,
 in particular of _[[real line bundles]]_ and of _[[complex line bundles]]_.
 
-
 =--
+
 
 +-- {: .num_remark #CommonOpenCoverLocalTrivialization}
 ###### Remark
@@ -296,6 +296,29 @@ $$
 $$
 
 as in def. \ref{TopologicalVectorBundle} constitute a _[[local trivialization]]_ of $E$.
+
+=--
+
++-- {: .num_example }
+###### Example
+**([[section]] of a [[topological vector bundle]])**
+
+Let $E \overet{\pi}{\to} X$ be a topological vector bundle (def. \ref{TopologicalVectorBundle}}).
+Then a _section_ (or _cross section_) of the bundle is a [[continuous function]]
+
+$$
+  \sigma \;\colon\;  X \longrightarrow E
+$$
+
+which that $\pi \circ \sigma = id_X$.
+
+Sections are equivalently vector bundle  homomorphisms out of the trivial rank-1 vector bundle (example \ref{TrivialTopologicalVectorBundle})
+
+$$
+  \sigma \;\colon\;  X \times k \longrightarrow E
+  \,.
+$$
+
 
 =--
 
