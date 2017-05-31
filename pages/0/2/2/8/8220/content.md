@@ -1,19 +1,20 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
-_Cosmology_ is the study of the [[observable universe]] on its largest [[scales]].
+_Cosmology_ is the study of the [[observable universe]] on its largest [[length scale|scales]].
+
 
 ## Related entries
 
@@ -43,9 +44,13 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[scales]
 
 * [string theory FAQ -- Does string theory tell us anything about cosmology?](string+theory+FAQ#InsightsIntoCosmology)
 
+
 ## References
 
-* Jorge L. Cervantes-Cota, George Smoot, _Cosmology today -- A brief review_ (2011)([arXiv:1107.1789](http://arxiv.org/abs/1107.1789))
+* Jorge L. Cervantes-Cota, George Smoot, _Cosmology today -- A brief review_ (2011) ([arXiv:1107.1789](http://arxiv.org/abs/1107.1789))
 
 * Ned Wright, _[Cosmology tutorial](http://www.astro.ucla.edu/~wright/cosmolog.htm)_
 
+
+[[!redirects cosmology]]
+[[!redirects cosmological]]
