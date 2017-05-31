@@ -86,7 +86,20 @@ While the [[C*-algebra]] of a [[Riemannian manifold|Riemannian]] [[spin structur
 ## Definition
  {#Definition}
 
-Throughout, let $k$ be either the [[field]] of [[real numbers]] $\mathbb{R}$ or of [[complex numbers]] $\mathbb{C}$ .
+The following discussion of topological K-theory in terms of [[point-set topology]].
+For more abstract perspectives see for instance _[[Snaith's theorem]]_ and other pointers at _[[K-theory]]_.
+
+Assumed background for the following is the content of
+
+* _[[topological vector bundles]]_
+
+* _[[Grothendieck group of a commutative monoid]]_
+
+* _[[pointed topological spaces]]_
+
+
+
+Throughout, let $k$ be a [[topological field]], usually the [[real numbers]] $\mathbb{R}$ or of [[complex numbers]] $\mathbb{C}$.
 
 In the following we take
 
@@ -95,7 +108,7 @@ In the following we take
 1. _[[vector bundle]]_ to mean _[[topological vector bundle]] over $k$ of finite [[rank of a vector bundle|rank]]_.
 
 
-For the most part below we will assume that the base [[topological space]] $X$ is a [[compact Hausdorff space]].
+For the most part below we will invoke the assumption that the base [[topological space]] $X$ is a [[compact Hausdorff space]].
 Because then the following statement holds, which is crucial in some places:
 
 +-- {: .num_lemma #DirectSumHasInverseUpToTrivialBundle}
@@ -113,6 +126,7 @@ is a [[trivial vector bundle]].
 =--
 
 For **proof** see [this prop.](TopologicalVectorbundleOverCompactHausdorffSpaceIsDirectSummandOfTrivialBundle) at _[[topological vector bundle]]_.
+
 
 ### The K-group
 
@@ -242,11 +256,12 @@ $$
 $$
 
 If $X$ is a [[pointed topological space]], hence equipped with a choice of point $x \in X$
-
-then difference of [[rank of a vector bundle|ranks]] $rk_x(-)$ of the representing vector bundles
+then the difference of [[rank of a vector bundle|ranks]] $rk_x(-)$ of the representing vector bundles
 over the [[connected component]] of $x \in X$
 
 $$
+  rk_x( [E_+] - [E_-] )
+    \;\coloneqq\;
   rk_x(E_+) -  rk_x(E_-) \in \mathbb{Z}
 $$
 
@@ -267,7 +282,7 @@ $$
 and an isomorphism of vector bundles is just a bijective [[linear map]].
 
 Since [[finite dimensional vector spaces]] are [[isomorphism|isomorphic]] precisely if they have the same
-[[dimension]], the [[semi-group]] of isomorphism classes of vector bundles over the point (def. \ref{SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX})
+[[dimension]], the [[monoid]] ([[semi-group]] with [[unitality|unit]]) of isomorphism classes of vector bundles over the point (def. \ref{SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX})
 is the [[natural numbers]]:
 
 $$
@@ -291,20 +306,25 @@ and this identification is the assignment of _virtual rank_ (def. \ref{KGroupByG
 
 =--
 
-+-- {: .num_remark #OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
-###### Remark
++-- {: .num_prop #OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
+###### Proposition
 **(on [[compact Hausdorff spaces]] all [[virtual vector bundles]] are formal difference by a [[trivial vector bundle]])**
 
 If $X$ is a [[compact Hausdorff space]], then every [[virtual vector bundle]] on $X$ (def. \ref{KGroupByGrothendieckGroup})
-of the form
+is of the form
 
 $$
   [E] - [X \times k^n]
 $$
 
-(i.e. for the negatice component represented by a [[trivial vector bundle]]).
+(i.e. with negative  component represented by a [[trivial vector bundle]]).
 
-This is because for $X$ compact Hausdorff then lemma \ref{DirectSumHasInverseUpToTrivialBundle} implies
+=--
+
++-- {: .proof}
+###### Proof
+
+Fr $X$ compact Hausdorff then lemma \ref{DirectSumHasInverseUpToTrivialBundle} implies
 that for every [[topological vector bundle]] $E_-$ there exists a topological vector bundle $\tilde E_-$
 with $E_- \oplus_X \tilde E_- \simeq X \times k^n$, and hence
 
@@ -357,7 +377,7 @@ $$
   f^\ast \;\colon\; Vect(Y) \longrightarrow Vect(X)
 $$
 
-is compatible with [[direct sum of vector bundles]] as well as with [[tensor prouct of vector bundles]]
+is compatible with [[direct sum of vector bundles]] as well as with [[tensor product of vector bundles]]
 and hence descends to a [[homomorphism]] of [[commutative rings]]
 
 $$
@@ -662,7 +682,7 @@ This follows by the functoriality of the [[kernel]] construction
 (which in turn follows by the [[universal property]] of the kernel):
 
 For $(X,x)$ and $(Y,y)$ [[pointed topological spaces]]
-and  $f \colon X \lngrightarrow Y$ a continuous function which preserves basepoints
+and  $f \colon X \longrightarrow Y$ a continuous function which preserves basepoints
 $f(x) = y$ then
 
 $$
@@ -673,7 +693,7 @@ $$
        &\overset{const_x^\ast}{\longrightarrow}&
      K(\{x\})
      \\
-     \uparrow && \uparrow^{\mathrlap{f^\ast}} && \uparrow^{\mathrlap{f^\ast}}
+     \uparrow^{\mathrlap{\exists !}} && \uparrow^{\mathrlap{f^\ast}} && \uparrow^{\mathrlap{f^\ast}}
      \\     
      ker(const_y^\ast)
        &\longrightarrow&
@@ -694,7 +714,7 @@ $$
 **(over [[compact Hausdorff spaces]] $\tilde K(X)$ is a [[direct sum|direct summand]] of $K(X)$)
 
 If $(X,x)$ is a [[pointed topological space|pointed]] [[compact Hausdorff space]] then the defining [[short exact sequence]]
-of [[reduced K-theory]] group (def. \ref{KernelReducedKGroup})
+of [[reduced K-theory]] groups (def. \ref{KernelReducedKGroup})
 
 $$
   0 \to \tilde K(X) \hookrightarrow K(X) \overset{const_x^\ast}{\longrightarrow} K(\ast) \simeq \mathbb{Z}
@@ -715,7 +735,7 @@ $$
   \,.
 $$
 
-Here on the left we are using remark \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
+Here on the left we are using prop. \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
 to represent any element of the K-group as a [[virtual vector bundle|virtual]] difference of a vector bundle $E$ by a trivial bundle,
 and $rk_x(E) \in \mathbb{N}$ denotes the [[rank of a vector bundle|rank]] of this vector bundl over the [[connected component]]
 of $x \in X$.
@@ -740,7 +760,7 @@ $$
 By remark \ref{RestrictionInKTheoryToPointComputesVirtualRank} the kernel of
 $const_x^\ast$ is identified with the [[virtual vector bundles]] of
 vanishing virtual rank.
-By remark \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
+By prop. \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
 this kernel is identified with the elements of the form
 $$
   [E] - [X \times k^{rk_x(E)}]
@@ -794,8 +814,8 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-For $X$ a [[compact Hausdorff space]] then the commutative [[semi-group]] $(Vect(X)_{/\sim_{red}}, +)$
-from def. \ref{EquivalenceRelationForReducedKTheory} and an actual [[abelian group]] and is
+For $X$ a [[compact Hausdorff space]] then the commutative [[monoid]] $(Vect(X)_{/\sim_{red}}, +)$
+from def. \ref{EquivalenceRelationForReducedKTheory} is already an [[abelian group]] and is
 in fact [[natural isomorphism|naturally isomorphic]]
 to the [[reduced K-theory]] group $\tilde K(X)$ (def. \ref{KernelReducedKGroup}):
 
@@ -833,7 +853,7 @@ $$
   \right)
 $$
 
-As before, in remark \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
+As before, in prop. \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
 we may assume without restriction that $G = X \times k^{n_1}$ and $H = X \times k^{n_2}$ are [[trivial vector bundles]]. Then
 the above equality on the first component
 
@@ -968,7 +988,10 @@ $$
   K^0(X,A) \oplus K^1(X.A)
 $$
 
-regarded as $\mathbb{Z}/2$-graded groups.
+regarded as $\mathbb{Z}/2$-graded groups. 
+
+Under [[tensor product of vector bundles]] this becomes a non-unital $\mathbb{Z}/2$-
+[[graded-commutative ring]] (discussed [below](#GradedRingStructure)).
 
 =--
 
@@ -989,7 +1012,7 @@ $$
 $$
 
 The analogue is true for the K-groups in degree 1 from def. \ref{GradedKGroups},
-though this is no longer completely triviali:
+though this is no longer completely trivial:
 
 
 
@@ -2309,6 +2332,7 @@ The proof of the [[Hopf invariant one]] theorem in terms of topological K-theory
 
 * {#AdamsAtiyah66} [[Frank Adams]], [[Michael Atiyah]], _K-theory and the Hopf invariant_, Quart. J. Math. Oxford (2), 17 (1966), 31-38 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/adamatiy.pdf))
 
+For references on [[D-branes]] in terms of [[K-theory]] see [there](D-brane#ReferencesKTheoryDescription).
 
 [[!redirects complex K-theory]]
 
