@@ -1,6 +1,12 @@
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Differential geometry
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
-</div>
+=--
+=--
+=--
 
 #Content#
 * automatic table of contents goes here
@@ -10,7 +16,7 @@
 
 In the context of [[synthetic differential geometry]] a [[differential form]] $\omega$ of degree $k$ on a [[manifold]] $X$ is literally a function on the space of _infinitesimal cubes_ or _infinitesimal simplices_ in $X$.
 
-We give the definition as availalable in the literature and then interpret this in a more unified way in terms of the [[schreiber:Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] of the [[infinitesimal singular simplicial complex]].
+We give the definition as available in the literature and then interpret this in a more unified way in terms of the [[schreiber:Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] of the [[infinitesimal singular simplicial complex]].
 
 # Definition #
 
@@ -25,13 +31,13 @@ The spaces $X^{\Delta^k_{diff}}$ of infinitesimal $k$-simplices arrange to form 
 
 The functions on the space of infinitesimal $k$-simplices form a [[generalized smooth algebra]] $C^\infty(X^{\Delta^k_{inf}})$.
 
-A **differential $k$-form** (oftent called simplicial $k$-form or, les accurately, **combinatorial $k$-form** to distinguish it from similar but cubical definitions) on $X$ is an element in this function algebra that has the property that it vanishes on degenerate infinitesimal simplices.
+A **differential $k$-form** (often called simplicial $k$-form or, less accurately, **combinatorial $k$-form** to distinguish it from similar but cubical definitions) on $X$ is an element in this function algebra that has the property that it vanishes on degenerate infinitesimal simplices.
 
 See definition 3.1.1 in 
 
 * Anders Kock, _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-kopi.pdf))
 
-for this simplicial definition. A detailed account of this is in the entry [[infinitesimal object]] in the section [Spaces of infinitesimal simplicies](http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl).
+for this simplicial definition. A detailed account of this is in the entry [[infinitesimal object]] in the section [Spaces of infinitesimal simplices](http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl).
 
 This is a very simple-looking statement. The reason is the [[topos]]-theoretic language at work in the background, which takes care that we may talk about [[infinitesimal object]]s as if they were just plain ordinary sets. For a very detailed account of how the above statement is implemented concretely in terms of concrete models for synthetic differential spaces see section 1 of 
 
