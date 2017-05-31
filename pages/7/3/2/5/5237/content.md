@@ -344,16 +344,20 @@ If $C$ is a [[monoidal model category]], then $Mon(C)$ may inherit itself the st
 
 Some categories are _implicitly_ [[enriched category|]] over commutative monoids, in particular [[semiadditive categories]]. Also [[Ab]]-[[enriched categories]] (and hence in particualr [[abelian categories]]) of course have an underlying $CMon$-enrichment.
 
-## Related concepts
+## Related categories
 
-* [[Ab]]
+* [[Grp]], [[Ab]]
+
+* [[Ring]], [[CRing]]
+
+* [[Rng]]
 
 ## References
 
 A general discussion of categories of monoids in [[symmetric monoidal categories]] is in
 
-* [[Hans Porst]], _On Categories of Monoids, Comonoids and bimonoids_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.4291&rep=rep1&type=pdf))
-{#Porst}
+* {#Porst} [[Hans Porst]], _On Categories of Monoids, Comonoids and bimonoids_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.4291&rep=rep1&type=pdf))
+
 
 Free monoid constructions are discussed in 
 
@@ -370,8 +374,8 @@ The detailed discussion of pushouts along free monoid morphisms is in the proof 
 
 Some remarks on commutative monoids are in section C1.1 of
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
-{#Johnstone}
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
 
 Discussion of the [[closed monoidal category]] structure on a category of algebras of a [[commutative algebraic theory]] is in
 
