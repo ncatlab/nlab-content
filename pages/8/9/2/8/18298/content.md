@@ -191,7 +191,7 @@ We write $Vect(X)_{/\sim}$ for the [[set]] of [[isomorphism classes]] of this ca
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #TerminologyVectorBundles}
 ###### Remark
 **(some terminology)**
 
@@ -299,26 +299,33 @@ as in def. \ref{TopologicalVectorBundle} constitute a _[[local trivialization]]_
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #VectorBundleSections}
 ###### Example
 **([[section]] of a [[topological vector bundle]])**
 
-Let $E \overet{\pi}{\to} X$ be a topological vector bundle (def. \ref{TopologicalVectorBundle}}).
-Then a _section_ (or _cross section_) of the bundle is a [[continuous function]]
+Let $E \overset{\pi}{\to} X$ be a topological vector bundle (def. \ref{TopologicalVectorBundle}}).
+
+Then a [[homomorphism]] of vector bundles from the [[trivial vector bundle|trivial]] [[line bundle]]
+(example \ref{TrivialTopologicalVectorBundle}, remark \ref{TerminologyVectorBundles}) 
+
+$$
+  f \;\colon\; X \times k \longrightarrow E
+$$
+
+is, by fiberwise linearity, equivalently a [[continuous function]]
 
 $$
   \sigma \;\colon\;  X \longrightarrow E
 $$
 
-which that $\pi \circ \sigma = id_X$.
-
-Sections are equivalently vector bundle  homomorphisms out of the trivial rank-1 vector bundle (example \ref{TrivialTopologicalVectorBundle})
+such that $\pi \circ \sigma = id_X$;
 
 $$
-  \sigma \;\colon\;  X \times k \longrightarrow E
-  \,.
+  f(x, c) = c \sigma(x)
 $$
 
+Such functions $\sigma \colon X \to E$ are called _[[sections]]_ (or _cross-sections_)
+of the vector bundle $E$.
 
 =--
 
@@ -359,7 +366,7 @@ as a [[topological group]] with its standard [[topological space|topology]],
 given as the [[Euclidean space|Euclidean]] [[subspace topology]]
 via $GL(n,k) \subset Mat_{n \times n}(k) \simeq k^{(n^2)}$ or as the
 or as the subspace topology $GL(n,k) \subset Maps(k^n, k^n)$ of the [[compact-open topology]] on the [[mapping space]].
-(That these topologies coincide is the statement of spring.
+(That these topologies coincide is the statement of [this prop.](general+linear+group#AsSubspaceOfTheMappingSpace).
 
 For $X$ a [[topological space]], we write
 
@@ -1223,7 +1230,6 @@ then $f$ is already an isomorphism of vector bundles.
 
 =--
 
-(e.g [Hatcher, lemma 1.1](#Hatcher))
 
 +-- {: .proof}
 ###### Proof
@@ -1410,6 +1416,36 @@ $$
 
 This unique function is clearly $f^{-1}$ (by pointwise inspection) and therefore $f^{-1}$ is continuous.
 
+
+=--
+
++-- {: .num_example}
+###### Example
+**(fiberwise linearly independent sections trivialize a vector bundle)**
+
+If a topological vector bundle $E \to X$ of [[rank of a vector bundle|rank]] $n$
+admits $n$ [[sections]] (example \ref{VectorBundleSections})
+
+$$
+  \{\sigma_k \;\colon\; X \longrightarrow E\}_{k \in \{1, \cdots, n\}}
+$$
+
+that are linearly independent at each point $x \in X$, then $E$ is trivializable (example \ref{TrivialTopologicalVectorBundle}).
+In fact, with the sections regarded as vector bundle homomorphisms out of the trivial vector bundle
+of rank $n$ (according to example \ref{VectorBundleSections}), these sections _are_ the trivialization
+
+$$
+  (\sigma_1, \cdots, \sigma_n)
+  \;\colon\;
+  (X \times k^n)
+    \overset{\simeq}{\longrightarrow}
+  E
+  \,.
+$$
+
+This is because their linear independence at each point means precisely that this
+morphism of vector bundles is a fiber-wise linear isomorphsm
+and therefore an isomorphism of vector bundles by lemma \ref{FiberwiseIsoisIsomorphismOfVectorBundles}.
 
 =--
 
