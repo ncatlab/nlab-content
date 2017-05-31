@@ -1186,6 +1186,10 @@ in the Deligne complex, we obtain the formulas for
 
 
 
+## Related entries
+
+* For discussion of the isomorphism between isomorphism classes of [[topological vector bundles]] and Cech cohomology on [[topological spaces]] with coefficients in continuous functions with values in the [[general linear group]] see [there](topological+vector+bundle#TransitionFunctionsAndCechCohomology).
+
 
 ## References 
 
