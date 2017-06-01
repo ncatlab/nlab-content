@@ -19,6 +19,8 @@ In [[logic]], double negation is the operation that takes $P$ to $\neg{\neg{P}}$
 
 The _[[double negation translation]]_ says that a [[proposition]] $P$ is provable in [[classical logic]] precisely if its double negation $\not \not P$ is provable in [[constructive logic]].
 
+The _double negation topology_ closes morphisms under double negation (def. \ref{DoubleNegationTopology} below), and its [[category of sheaves]] forms a [[boolean topos]] (prop. \ref{DoubleNegationSheavesFormBooleanTopos} below). This notably serves to capture the _[[forcing]]_ of [[set theory]] in terms of [[topos theory]] ([[classifying topoi]]), see also remark \ref{RelationToForcing} below. spring
+
 ## In logic
 
 In [[classical logic]], the double negation of any [[truth value]] or [[proposition]] is itself.  More abstractly, double negation is the [[identity function]] on any [[boolean algebra]].
@@ -55,6 +57,7 @@ If $E$ is a [[topos]] with [[subobject classifier]] $\Omega$, there is a [[negat
 
 +-- {: .num_defn #DoubleNegationTopology}
 ###### Definition/Proposition
+**(double negation topology)**
 
 The double negation morphism
 
@@ -74,15 +77,16 @@ The topology axioms can be formulated in purely equational form, i.e., as equati
 
 
 ### Properties
+  {#Properties}
 
-+-- {: .num_prop}
++-- {: .num_prop #DoubleNegationSheavesFormBooleanTopos}
 ###### Proposition
 
-The sheaf topos $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ corresponding to the [double negation topology](#DoubleNegationTopology) is a [[Boolean topos]].
+The sheaf topos $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ corresponding to the [double negation topology](#DoubleNegationTopology) (def. \ref{DoubleNegationTopology}) is a [[Boolean topos]].
 
 =--
 
-This appears for sheaf toposes as ([MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk)), and in the general case as a special case of ([Johnstone, Lemma A4.5.21](#Johnstone)).
+This appears for [[sheaf toposes]] $\mathcal{E}$ as ([MacLane-Moerdijk, theorem VI 3](#MacLaneMoerdijk)), and in the general case ([[elementary toposes]]) as a special case of ([Johnstone, Lemma A4.5.21](#Johnstone)).
 
 The following says that $\mathcal{E}_{\not \not}$ is the smallest subtopos $\mathcal{E}_j$ such that $\emptyset$ is a $j$-sheaf. This property looks innocent but when thinking of $\mathcal{E}$ as a generalized (topological) space becomes, as in the case of locales, rather remarkable.
 
@@ -164,7 +168,7 @@ For every [[presheaf topos]] $[C^{op}, Set]$ the double negation topology coinci
 
 This appears as [MacLaneMoerdijk, corollary VI 5](#MacLaneMoerdijk).
 
-+-- {: .num_prop}
++-- {: .num_prop #DoubleNegationSheavesSatisfyAxiomOfChoice}
 ###### Proposition
 
 Let $C$ be a [[poset]]. Then the double negation sheaf topos
@@ -172,7 +176,15 @@ $ Sh_{\not \not}(C) \hookrightarrow [C^{op}, Set]$
 satisfies the [[axiom of choice]].
 =--
 
-This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).  Essentially because of this fact, double-negation sheaves on posets are the basic context for [[forcing]] in set theory (since set theorists generally want the axiom of choice to be preserved in forcing models). For such a use of double negation in the so called **Cohen topos** see at [[continuum hypothesis]].
+This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).  
+
++-- {: .num_remark #RelationToForcing}
+###### Remark
+**(relation to [[forcing]])**
+
+Essentially because of prop. \ref{DoubleNegationSheavesSatisfyAxiomOfChoice}, double-negation sheaves on posets are the basic context for _[[forcing]]_ in [[set theory]] (since set theorists generally want the [[axiom of choice]] to be preserved in forcing models). For such a use of double negation in the so called **Cohen topos** see at _[[continuum hypothesis]]_.
+
+=--
 
 ###Remarks
 
