@@ -468,6 +468,8 @@ It has been urged by [[F. W. Lawvere]] on several occasions that this [[Boone co
 
 * [[Boone conjecture]]
 
+* [[Freyd category]]
+
 ## References
 
 The origin of the categorical formulation of [[algebraic theories]] as Lawvere theories is in
