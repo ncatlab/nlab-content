@@ -1,6 +1,6 @@
-Left cancellative is a synonym for _all arrows are monic_.
+Left cancellative is a synonym for *all arrows are [[monomorphism|monic]]*.
 
-A category $\mathcal{C}$ being _left cancellative_ means all its _morphisms are monos_. 
+A [[category]] $\mathcal{C}$ being _left cancellative_ means all its _morphisms are monos_. 
 
 Equivalently, for arbitrary morphisms $f,h_0,h_1$ of $\mathcal{C}$, 
 if $f\circ h_0=f\circ h_1$, then $h_0=h_1$.
@@ -10,14 +10,18 @@ if $f\circ h_0=f\circ h_1$, then $h_0=h_1$.
 
 Tautological examples: 
 
- * any cancellative monoid
+ * any (left) [[cancellative monoid]] 
 
- * any groupoid
+ * any [[groupoid]]
 
-Non-tautological example: 
+ * any [[poset]], or indeed any [[preorder]]   
 
- * the category of subobjects of a given object in any category 
- * the category of fields (with ring homomorphisms as the morphisms)
+Non-tautological examples: 
+ 
+ * the category of [[fields]] (with [[ring]] homomorphisms as the morphisms)
+
+ * the category of nontrivial [[vector spaces]] equipped with nondegenerate [[inner products]] 
+
 
 
 ## Related concepts
