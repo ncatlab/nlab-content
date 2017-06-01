@@ -1262,7 +1262,7 @@ which we call the _[[empty topological space]]_.
 
 On a [[singleton]] set $\{1\}$ there exists a unique topology $\tau$
 making it a [[topological space]] according to def. \ref{TopologicalSpace},
-namely
+namelyf
 
 $$
   \tau
@@ -12307,7 +12307,7 @@ operations $\oplus_X$ and $\otimes_X$ on vector bundles over some base space $X$
 
 This way a [[semi-ring]] $(Vect(X)_{/\sim}, \oplus_X, \otimes_X)$ of isomorphism classes of
 topological vector bundles is associated with every [[topological space]]. If one adds in formal additive
-inverses to this semiring (passing to the [[Grothendieck group completion of a commutative monoid|group completion]] of the direct sum of vector bundles) one obtains
+inverses to this semiring (passing to the [[Grothendieck group of a commutative monoid|group completion]] of the direct sum of vector bundles) one obtains
 an actual ring, called the _[[topological K-theory]]_ $K(X)$ of the topological space. This is a fundamental
 topological invariant that plays a central role in [[algebraic topology]].
 
@@ -12478,7 +12478,10 @@ For $X$ a [[topological space]], there is the [[category]] whose
 
 * [[morphisms]] are the topological vector bundle homomorphisms
 
-according to def. \ref{TopologicalVectorBundle}. This category usually denoted [[Vect(X)]].
+according to def. \ref{TopologicalVectorBundle}. This category is usually denoted [[Vect(X)]].
+
+The set of [[isomorphism classes]] in this category (topological vector bundles
+modulo invertible [[homomorphism]] between them) we denote by $Vect(X)_{/\sim}$.
 
 =--
 
@@ -12520,7 +12523,8 @@ $\{ U^1_{i_1} \underoverset{\simeq}{\phi^1_{i_1}}{\to} E_1\vert_{U^1_{i_1}} \}_{
 and
 $\{ U^2_{i_2} \underoverset{\simeq}{\phi^2_{i_2}}{\to} E_2\vert_{U^2_{i_2}} \}_{i_2 \in I_2}$.
 
-The _joint [[refinement]]_ of these two covers is the open cover
+The _joint [[refinement]]_ of these two covers is the open cover given by the intersections
+of the original patches:
 
 $$
   \left\{
@@ -12568,12 +12572,15 @@ $$
   X \times k^n \overset{pr_1}{\to} X
 $$
 
-canonically becomes a topological vector bundle over $X$ (def. \ref{TopologicalVectorBundle}). This is called the _[[trivial vector bundle]]_ of [[rank]] $n$ over $X$.
+canonically becomes a topological vector bundle over $X$ (def. \ref{TopologicalVectorBundle}). 
+A local trivialization is given over the trivial cover $\{X \subset X\}$ by the identity function $\phi$.
+
+This is called the _[[trivial vector bundle]]_ of [[rank]] $n$ over $X$.
 
 Given any topological vector bundle $E \to X$, then a choice of [[isomorphism]] to a trivial bundle (if it exists)
 
 $$
-  E \overset{\simeq}{\longrightarrow} X \times k^n
+  E \overset{\phantom{A}\simeq\phantom{A}}{\longrightarrow} X \times k^n
 $$
 
 is called a _trivialization_ of $E$. A vector bundle for which a trivialization exists is called _trivializable_.
@@ -12611,14 +12618,29 @@ $$
   \sigma \;\colon\;  X \longrightarrow E
 $$
 
-such that $\pi \circ \sigma = id_X$;
+such that $\pi \circ \sigma = id_X$ 
 
 $$
-  f(x, c) = c \sigma(x)
+  \array{
+    && E
+    \\
+    & {}^{\mathllap{\sigma}}\nearrow & \downarrow^{\mathrlap{\pi}}
+    \\
+    X & \underset{id_X}{\longrightarrow} & X
+  }
+  \,.
 $$
 
 Such functions $\sigma \colon X \to E$ are called _[[sections]]_ (or _cross-sections_)
 of the vector bundle $E$.
+
+Namely $f$ by is necessarily of the form
+
+$$
+  f(x, c) = c \cdot \sigma(x)
+$$
+
+for a unique such section $\sigma$.
 
 =--
 
@@ -12639,7 +12661,8 @@ $$
   \,.
 $$
 
-(This is a [[monomorphism]] in the [[category]] $Vect(X)$ of topological vector bundles over $X$.)
+(This is a _[[monomorphism]]_ in the [[category]] $Vect(X)$ of topological vector 
+bundles over $X$ (remark \ref{TopologicalVectorBundlesCategory}).)
 
 =--
 
@@ -12652,9 +12675,11 @@ on [[projective spaces]]:
 
 +-- {: .num_defn #ToplogicalProjectiveSpace}
 ###### Definition
-**(topological projective space)**
+**(topological [[projective space]])**
 
-Let $n \in \mathbb{C}$. Consider the[[Euclidean space]] $k^{n+1}$ equipped with its [[metric topology]], let $k^{n+1} \setminus \{0\} \subset k^{n+1}$ be the [[topological subspace]] which is the [[complement]] of the origin, and consider on its underlying set the [[equivalence relation]] which identifies two points if they differ by [[multiplication]] with some $c \in k$ (necessarily non-zero):
+Let $k$ be a [[topological field]] (def. \ref{TopologicalRing}) 
+and $n \in \mathbb{C}$. Consider the [[product topological space]] $k^{n+1} \coloneqq \underset{\{1,\cdots, n\}}{\prod} k$,
+let $k^{n+1} \setminus \{0\} \subset k^{n+1}$ be the [[topological subspace]] which is the [[complement]] of the origin, and consider on its underlying set the [[equivalence relation]] which identifies two points if they differ by [[multiplication]] with some $c \in k$ (necessarily non-zero):
 
 $$
   (\vec x_1 \sim \vec x_2)
@@ -12681,15 +12706,33 @@ $$
   \,.
 $$
 
+For $k = \mathbb{R}$ this is called _[[real projective space]]_ $\mathbb{R}P^n$;
 
+for $k = \mathbb{C}$ this is called _[[complex projective space]]_ $\mathbb{C}P^n$.
+
+=--
+
++-- {: .num_example #RiemannSphere}
+###### Examples
+**([[Riemann sphere]])**
+
+The first [[complex projective space]] (def. \ref{ToplogicalProjectiveSpace}) 
+is [[homeomorphism|homeomorphic]] to the [[Euclidean space|Euclidean]] [[2-sphere]] (example \ref{SpheresAndDisks})
+
+$$
+  \mathbb{C}P^1 \simeq S^2
+  \,.
+$$
+
+Under this identification one also speaks of the _[[Riemann sphere]]_.
 
 =--
 
 +-- {: .num_defn #TopologicalProjectiveSpaceStandardOpenCover}
 ###### Definition
-**(standard open cover of topological projective space)**
+**(standard open cover of topological [[projective space]])**
 
-For $n \in \mathbb{N}$ the _standard open cover_ of the projective space $k P^n$ is
+For $n \in \mathbb{N}$ the _standard open cover_ of the projective space $k P^n$ (def. \ref{ToplogicalProjectiveSpace}) is
 
 $$
   \left\{
@@ -12703,24 +12746,39 @@ $$
   U_i
     \coloneqq
   \left\{
-    [x_1 : \cdots x_{n+1}] \in k P^n
+    [x_1 : \cdots : x_{n+1}] \in k P^n
     \;\vert\;
-    \vec x \in k^{n+1}
-    \;\text{with}\;
     x_i \neq 0
   \right\}
   \,.
 $$
 
-These subsets are open in the [[quotient topology]], since their [[pre-image]] under the quotient co-projection $k^{n+1} \to k P^n$ coincides with the pre-image $pr_i^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n\}}{\prod} k$.
+To see that this is an open cover:
+
+1. This is a cover because with the orgin removed in $k^n \setminus \{0\}$ at every point $[x_1: \cdots : x_{n+1}]$
+   at least one of the $x_i$ has to be non-vanishing.
+
+1. These subsets are open in the [[quotient topology]] $kP^n = (k^n \setminus \{0\})/\sim$, since their [[pre-image]] under the quotient co-projection $k^{n+1} \setminus \{0\} \to k P^n$ coincides with the pre-image $pr_i^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n\}}{\prod} k$.
+
+=--
+
++-- {: .num_example}
+###### Example
+**(canonical cover of [[Riemann sphere]] is the [[stereographic projection]])**
+
+Under the identification $\mathbb{C}P^1 \simeq S^2$ of the first [[complex projective space]]
+as the [[Riemann sphere]], from example \ref{RiemannSphere}, the canonical cover from def. \ref{TopologicalProjectiveSpaceStandardOpenCover}
+is the cover by the two [[stereographic projections]] from example \ref{StandardStereographicProjection}.
 
 =--
 
 +-- {: .num_defn #TautologicalTopologicalLineBundle}
 ###### Definition
-**(tautological topological line bundle)
+**(topological [[tautological line bundle]])
 
-For $n \in \mathbb{N}$, the _tautological line bundle_ over the [[projective space]] $k P^n$ is the [[subspace]]
+For $k$ a [[topological field]] (def. \ref{TopologicalRing}) and $n \in \mathbb{N}$, the _tautological line bundle_ over the [[projective space]] $k P^n$ is topological $k$-[[line bundle]] (remark \ref{TerminologyVectorBundles}) 
+whose total space is the following [[subspace]] of the [[product space]] (example \ref{BinaryProductTopologicalSpace})
+of the [[projective space]] $k P^n$ (def. \ref{ToplogicalProjectiveSpace}) with $k^n$:
 
 $$
   T
@@ -12730,12 +12788,16 @@ $$
     \in
     k P^n \times k^{n+1}
     \;\vert\;
-    \vec v \in k \vec x
+    \vec v \in \langle \vec x\rangle_k
   \right\}
+  \,,
 $$
 
-(hence the space of pairs consisting of the "name" of a $k$-line in $\mathbb{R}^{n+1}$ together with an element of that $k$-line)
-equipped with the function
+where $\langle \vec x\rangle_k \subset k^{n+1}$ is the $k$-[[linear span]] of $\vec x$.
+
+(The space $T$ is the space of pairs consisting of the "name" of a $k$-line in $k^{n+1}$ together with an element of that $k$-line)
+
+This is a bundle over [[projective space]] by the projection function
 
 $$
   \array{
