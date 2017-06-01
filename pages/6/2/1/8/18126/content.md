@@ -11104,7 +11104,7 @@ $$
   }
 $$
 
-More generally, these statements are direct consequences of _[[Michael's theorem]]_ 
+More generally, these statements are direct consequences of _[[Michael's theorem]]_
 on recognition of paracompactness (prop. \ref{RegularSpacesWherOpenCoveringIsRefinedbyCountableLocallyFiniteConnectionsofOpensAreParacompact} below).
 
 
@@ -12114,17 +12114,17 @@ denoting the [[support]] of $f_i$ (the [[topological closure]] of the subset of 
 ###### Remark
 
 Regarding the definition of [[partition of unity]] (def. \ref{PartitionOnfUnity}) observe that:
- 
+
 1. Due to the second clause in def. \ref{PartitionOfUnity}, the [[sum]] in the third clause involves only a [[finite number]] of elements not equal to zero, and therefore is well defined.
 
 1. Due to the third clause, the interiors of the supports $\left\{ h_i{-1}( (0,1] )  \subset X \right\}_[i \in I}$
    constitute a [[locally finite cover|locally finite]] [[open cover]]:
-   
+
    1. they are open, since they are the [[pre-images]] under the [[continuous functions]] $f_i$ of the open subset $(0,1] \subset [0,1]$,
-   
+
    1. they cover because, by the third clause, for each $x \in x$ there is at least one $i \in I$ with $h_i(X) \gt 0$,
       hence $x \in h_i^{-1}((0,1])$
-      
+
    1. they are locally finite because by the second clause alreay their closures are locally finite.
 
 =--
@@ -12185,9 +12185,9 @@ One direction is immediate: Assume that every open cover $\{U_i \subset X\}_{i \
 We need to show the converse: If $(X,\tau)$ is a [[paracompact topological space]], then for every [[open cover]] there is a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}).
 
 By paracompactness of $(X,\tau)$, for every open cover there exists a locally finite refinement
-$\{U_i \subset X\}_{i \in I}$, and by lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet} we 
+$\{U_i \subset X\}_{i \in I}$, and by lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet} we
 may assume that this has the same index set. It is now sufficient to show that this locally finite cover
-$\{U_i \subset X\}_{i \in I}$ admits a subordinate partition of unity, since this will then also be 
+$\{U_i \subset X\}_{i \in I}$ admits a subordinate partition of unity, since this will then also be
 subordinate to the original cover.
 
 Since [[paracompact Hausdorff spaces are normal]]
@@ -12301,7 +12301,25 @@ $\,$
 
 A _([[topological vector bundle|topological]]) [[vector bundle]]_ is a collection of [[vector spaces]]
 that vary continuously over a [[topological space]]. Hence topological vector bundles combine
-[[linear algebra]] with [[topology]].
+[[linear algebra]] with [[topology]]. The usual operations of [[linear algebra]], such as
+[[direct sum]] and [[tensor product of vector spaces]], generalize to "parameterized" such 
+operations on vector bundles (def. \ref{DirectSumOfTopologicalVectorBundlesViaTransitionFunctions} and def. \ref{TensorProductOfVectorBundles} below). 
+
+This way a [[semi-ring]] $(Vect(X)_{/\sim}, \oplus_X, \otimes_X)$ of isomorphism classes of 
+topological vector bundles is associated with every [[topological space]]. If one adds in formal additive
+inverses to this semiring (passing to the [[group completion]] of the direct sum of vector bundles) one obtains
+an actual ring, called the _[[topological K-theory]]_ $K(X)$ of the topological space. This is a basic
+topological invariant that plays a central role in [[algebraic topology]].
+
+A key class of examples of topological vector bundles are the _[[tangent bundles]]_ of [[differentiable manifolds]]
+to which we turn [below](#Manifolds).
+
+Topological vector bundles are particularly well behaved over [[paracompact Hausdorff spaces]], 
+where the existence of [[partitions of unity]] allows to perform global operations on 
+vector bundles by first performing them locally and then using the partition of unity
+to continuously interpolate between these local constructions.
+
+$\,$
 
 The combination of [[topology]] with [[linear algebra]] begins in the evident way,
 in the same vein as the concept of [[topological groups]] (def. \ref{TopologicalGroup});
@@ -12370,7 +12388,7 @@ Then a _topological $k$-vector bundle over $X$_ is
 1. for each $x \in X$ the stucture of a [[finite-dimensional vector space|finite-dimensional]] $k$-[[vector space]] on the [[pre-image]]
 
    $$E_x \coloneqq \pi^{-1}(\{x\}) \subset E$$
-   
+
    (called the _[[fiber]]_ of the bundle over $x$)
 
 such that this is [[local trivialization|locally trivial]] in that there exists:
@@ -12426,7 +12444,9 @@ according to def. \ref{TopologicalVectorBundle}. This category usually denoted [
 
 =--
 
-+-- {: .num_remark}
+
+
++-- {: .num_remark #TerminologyVectorBundles}
 ###### Remark
 **(some terminology)**
 
@@ -12439,8 +12459,8 @@ For $k = \mathbb{C}$ one speaks of _[[complex vector bundles]]_.
 For $n = 1$ one speaks of _[[line bundles]]_,
 in particular of _[[real line bundles]]_ and of _[[complex line bundles]]_.
 
-
 =--
+
 
 +-- {: .num_remark #CommonOpenCoverLocalTrivialization}
 ###### Remark
@@ -12501,7 +12521,7 @@ $$
 
 +-- {: .num_example #TrivialTopologicalVectorBundle}
 ###### Example
-**(trivial topological vector bundle and (local) trivialization)**
+**(topological [[trivial vector bundle]] and (local) trivialization)**
 
 For $X$ any [[topological space]], and $n \in \mathbb{N}$,
 we have that the [[product topological space]]
@@ -12518,7 +12538,7 @@ $$
   E \overset{\simeq}{\longrightarrow} X \times k^n
 $$
 
-is called a _trivialization_ of $E$.
+is called a _trivialization_ of $E$. A vector bundle for which a trivialization exists is called _trivializable_.
 
 Accordingly, the [[local trivialization|local triviality]] condition in the definition of topological vector bundles (def. \ref{TopologicalVectorBundle}) says that they are locally isomorphic to the trivial vector bundle. One also says that the data consisting of an open cover $\{U_i \subset X\}_{i \in I}$ and the [[homeomorphisms]]
 
@@ -12531,6 +12551,36 @@ $$
 $$
 
 as in def. \ref{TopologicalVectorBundle} constitute a _[[local trivialization]]_ of $E$.
+
+=--
+
++-- {: .num_example #VectorBundleSections}
+###### Example
+**([[section]] of a [[topological vector bundle]])**
+
+Let $E \overset{\pi}{\to} X$ be a topological vector bundle (def. \ref{TopologicalVectorBundle}).
+
+Then a [[homomorphism]] of vector bundles from the [[trivial vector bundle|trivial]] [[line bundle]]
+(example \ref{TrivialTopologicalVectorBundle}, remark \ref{TerminologyVectorBundles})
+
+$$
+  f \;\colon\; X \times k \longrightarrow E
+$$
+
+is, by fiberwise linearity, equivalently a [[continuous function]]
+
+$$
+  \sigma \;\colon\;  X \longrightarrow E
+$$
+
+such that $\pi \circ \sigma = id_X$;
+
+$$
+  f(x, c) = c \sigma(x)
+$$
+
+Such functions $\sigma \colon X \to E$ are called _[[sections]]_ (or _cross-sections_)
+of the vector bundle $E$.
 
 =--
 
@@ -12554,6 +12604,10 @@ $$
 (This is a [[monomorphism]] in the [[category]] $Vect(X)$ of topological vector bundles over $X$.)
 
 =--
+
+
+
+
 
 The archetypical example of vector bundles are the [[tautological line bundles]]
 on [[projective spaces]]:
@@ -12620,7 +12674,7 @@ $$
   \,.
 $$
 
-These subsets are open in the [[quotient topology]], since their [[pre-image]] under the qutient co-projection $k^{n+1} \to k P^n$ coincides with the pre-image $pr_i^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n\}}{\prod} k$.
+These subsets are open in the [[quotient topology]], since their [[pre-image]] under the quotient co-projection $k^{n+1} \to k P^n$ coincides with the pre-image $pr_i^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n\}}{\prod} k$.
 
 =--
 
@@ -12699,11 +12753,113 @@ Therefore by the [[universal property]] of the [[quotient topology]], also the o
 
 =--
 
+
+The usual concepts of [[linear algebra]] have a straightforward generalization from [[vector spaces]] to [[vector bundles]],
+for example:
+
++-- {: .num_defn #InnerProductOnTopologicalVectorBundles}
+###### Definition
+**(inner product on [[topological vector bundles]])**
+
+Let
+
+1. $k$ be a [[topological field]] (such as the [[real numbers]] or [[complex numbers]] with their [[Euclidean space|Euclidean]] [[metric topology]] ),
+
+1. $X$ be a [[topological space]],
+
+1. $E \to X$ a [[topological vector bundle]] over $X$ (over $\mathbb{R}$, say).
+
+Then an _inner product_ on $E$ is
+
+* a vector bundle [[homomorphism]]
+
+  $$
+    \langle -,-\rangle
+    \;\colon\;
+    E \otimes_X E
+     \longrightarrow
+    X \times \mathbb{R}
+  $$
+
+  from the [[tensor product of vector bundles]] of $E$ with itself to the trivial [[line bundle]]
+
+such that
+
+* for each point $x \in X$ the function
+
+  $$
+    \langle -,-\rangle|_x \colon E_x \otimes E_x \to \mathbb{R}
+  $$
+
+  is an [[inner product]] on the [[fiber]] [[vector space]], hence a positive-definite symmetric [[bilinear form]].
+
+=--
+
+
+Similarly there are constructions of _[[direct sum of vector bundles]]_ and of _[[tensor product of vector bundles]]_.
+We consider these below after discussion of the construction of vector bundles from _[[transition functions]]_.
+
+
+
+$\,$
+
+
 ### Transition functions
+
+
 
 We discuss how topological vector bundles are equivalently given by [[cocycles]] in [[Cech cohomology]]
 constituted by their [[transition functions]].
 
++-- {: .num_defn #ContinuousFunctionWithValuesInGLn}
+###### Definition
+**([[continuous functions]] on [[open subsets]] with values in the [[general linear group]])**
+
+For $n \in \mathbb{N}$, regard the [[general linear group]] $GL(n,k)$
+as a [[topological group]] with its standard [[topological space|topology]],
+given as the [[Euclidean space|Euclidean]] [[subspace topology]]
+via $GL(n,k) \subset Mat_{n \times n}(k) \simeq k^{(n^2)}$ or as the
+or as the subspace topology $GL(n,k) \subset Maps(k^n, k^n)$ of the [[compact-open topology]] on the [[mapping space]].
+(That these topologies coincide is the statement of [this prop.](general+linear+group#AsSubspaceOfTheMappingSpace).
+
+For $X$ a [[topological space]], we write
+
+$$
+  \underline{GL(n,k)}
+    \;\colon\;
+  U \mapsto Hom_{Top}(U, GL(n,k) )
+$$
+
+for the assignment that sends an [[open subset]] $U \subset X$ to the [[set]] of [[continuous functions]]
+$g \colon U \to GL(n,k)$ (for $U \subset X$ equipped with its [[subspace topology]]), regarded as a
+[[group]] via the pointwise group operation in $GL(n,k)$:
+
+$$
+   g_1 \cdot g_2 \;\colon\; x \mapsto g_1(x) \cdot g_2(x)
+   \,.
+$$
+
+Moreover, for $U' \subset U \subset X$ an inclusion of open subsets, and for
+$g \in \underline{GL(n,k)}(U)$, we write
+
+$$
+  g|_{U'} \in \underline{GL(n,k)}(U')
+$$
+
+for the restriction of the continuous function from $U$ to $U'$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**([[sheaf]] of [[groups]])**
+
+In the language of [[category theory]] the assignment $\underline{GL(n,k)}$
+from def. \ref{ContinuousFunctionWithValuesInGLn} of continuous functions to open subsets
+and the restriction operations between these is called a _[[sheaf]] of groups
+on the [[site of open subsets]]_ of $X$.
+
+=--
 
 +-- {: .num_defn #TransitionFunctions}
 ###### Definition
@@ -12711,7 +12867,7 @@ constituted by their [[transition functions]].
 
 Given a topological vector bundle $E \to X$ as in def. \ref{TopologicalVectorBundle} and a choice of [[local trivialization]]
 $\{\phi_i \colon U_i \times k^n \overset{\simeq}{\to} E|_{U_i}\}$ (example \ref{TrivialTopologicalVectorBundle})
-there are induced [[continuous functions]]
+there are for $i,j \in I$ induced [[continuous functions]]
 
 $$
   \left\{
@@ -12719,16 +12875,18 @@ $$
   \right\}_{i,j \in I}
 $$
 
-from double intersections of the trivializing [[open cover]] to the [[general linear group]] $GL(n, k)$,
+to the [[general linear group]] (as in def. \ref{ContinuousFunctionWithValuesInGLn})
 given by composing the local trivialization isomorphisms:
 
 $$
   \array{
     (U_i \cap U_j) \times k^n
-      &\overset{\phi_j^{-1} \circ \phi_i}{\longrightarrow}&
+      &\overset{ \phi_i|_{U_i \cap U_j} }{\longrightarrow}&
+    E|_{U_i \cap U_j}
+      &\overset{ \phi_j^{-1}\vert_{U_i \cap U_j} }{\longrightarrow}&
     (U_i \cap U_j) \times k^n
     \\
-    (x,v) &\overset{\phantom{AAA}}{\mapsto}& \left( x, g_{i j}(x)(v) \right)
+    (x,v) && \overset{\phantom{AAA}}{\mapsto} && \left( x, g_{i j}(x)(v) \right)
   }
   \,.
 $$
@@ -12737,70 +12895,105 @@ These are called the _[[transition functions]]_ for the given local trivializati
 
 =--
 
-+-- {: .num_remark #CechCoycleCondition}
-###### Remark
-**([[Cech cohomology|Cech]] [[cocycle]] condition)**
+These functions satisfy a special property:
+
++-- {: .num_defn #CocycleCech}
+###### Definition
+**([[Cech cohomology|Cech]] [[cocycles]])**
+
+Let $X$ be a [[topological space]].
+
+A _normalized [[Cech cohomology|Cech cocycle]] of degree 1 with [[coefficients]]_
+in $\underline{GL(n,k)}$ (def. \ref{ContinuousFunctionWithValuesInGLn})  is
+
+1. an [[open cover]] $\{U_i \subset X\}_{i \in I}$
+
+1. for all $i,j \in I$ a continuous function $g_{i j} \colon U_i \cap U_j \to GL(n,k)$ as in def. \ref{ContinuousFunctionWithValuesInGLn}
+
+such that
+
+1. (normalization) $\underset{i \in I}{\forall}\left( g_{i i} = const_1  \right)  $ (the [[constant function]] on the [[neutral element]] in $GL(n,k)$),
+
+1. (cocycle condition) $\underset{i,j \in I}{\forall}\left(  g_{j k} \cdot g_{i j}  = g_{i k}\;\;\text{on}\, U_i \cap U_j \cap U_k\right)$.
+
+
+Write
+
+$$
+  C^1(X, \underline{GL(n,k)}  )
+$$
+
+for the set of all such cocycles for given $n \in \mathbb{N}$ and write
+
+$$
+  C^1( X, \underline{GL}(k) )
+    \;\coloneqq\;
+  \underset{n \in \mathbb{N}}{\sqcup}
+   C^1(X, \underline{GL(n,k)})
+$$
+
+for the [[disjoint union]] of all these cocycles as $n$ varies.
+
+
+
+=--
+
+
++-- {: .num_example #CocycleCechTransitionFunction}
+###### Example
+**([[transition functions]] are [[Cech cohomology|Cech]] [[cocycles]])**
 
 Let $E \to X$ be a topological vector bundle (def. \ref{TopologicalVectorBundle}) and let $\{U_i \subset X\}_{i \in I}$, $\{\phi_i \colon U_i \times k^n \overset{\simeq}{\to} E|_{U_{i}}\}_{i \in I}$ be a local trivialization (example \ref{TrivialTopologicalVectorBundle}).
 
-Then the induced [[transition functions]] $\{g_{i j} \colon U_i \cap U_j \to GL(n)\}$ (def. \ref{TransitionFunctions}) satisfy for all $i,j,k \in I$ the conditions
+Then the set of induced [[transition functions]] $\{g_{i j} \colon U_i \cap U_j \to GL(n)\}$ according to def. \ref{TransitionFunctions}
+is a _normalized Cech cocycle on $X$ with coefficients in $\underline{GL(k)}$_, according to def. \ref{CocycleCech}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is immediate from the definition:
 
 $$
-  g_{i i} = id
-  \phantom{AAA}
-  \text{and}
-  \phantom{AAA}
-  g_{i j} \circ g_{j k}
-    =
-  g_{i k}
-  \phantom{AA}
-  \text{on}\, U_i \cap U_j \cap U_k
+  \begin{aligned}
+    g_{i i }(x)
+      & =
+      \phi_i^{-1} \circ \phi_i(x,-)
+      \\
+      & = id_{k^n}
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    g_{j k}(x) \cdot g_{i j}(x)
+      & =
+    \left(\phi_k^{-1} \circ \phi_j\right) \circ \left(\phi_j^{-1}\circ \phi_i\right)(x,-)
+    \\
+      & =
+    \phi_k^{-1} \circ \phi_i(x,-)
+    \\
+    & =
+    g_{i k}(x)
+  \end{aligned}
   \,.
 $$
 
-These are the condition of a [[cocycle]] in degree 1 in [[Cech cohomology]] on $X$ with [[coefficients]] in the [[sheaf]] $\underline{GL(n)}$ of $GL(n)$-valued [[continuous functions]].
-
 =--
+
 
 Conversely:
 
 +-- {: .num_example #TopologicalVectorBundleFromCechCocycle}
 ###### Example
-**(topological vector bundle from a Cech coycle)
+**(topological vector bundle constructed from a [[Cech cohomology|Cech]] [[cocycle]])
 
-Let $X$ be a [[topological space]] and let $n \in \mathbb{N}$ be a [[natural number]]. Consider an [[open cover]] of $X$
-
-$$
-  \{U_i \subset X\}_{i \in I}
-$$
-
-and on each double intersection a [[continuous function]] with values in the [[general linear group]] $GL(n)$
-
-$$
-  \left\{
-    g_{i j}
-      \;\colon\;
-    U_i \cap U_j
-      \to
-    GL(n)
-  \right\}
-$$
-
-such that for all $i,j,k \in I$ the conditions
-
-$$
-  g_{i i} = id
-  \phantom{AAA}
-  \text{and}
-  \phantom{AAA}
-  g_{i j} \circ g_{j k}
-    =
-  g_{i k}
-  \phantom{AA}
-  \text{on}\, U_i \cap U_j \cap U_k
-$$
-
-hold (hence consider a [[Cech cohomology]] 1-[[cocycle]] on $X$ with [[coefficients]] in $\underline{GL(n)}$, remark \ref{CechCoycleCondition}).
+Let $X$ be a [[topological space]]
+and let $c \in C^1(X, \underline{GL(k)})$ a Cech cocycle on $X$ according to def. \ref{CocycleCech},
+with open cover $\{U_i \subset X\}_{i \in I}$ and component functions $\{g_{i j}\}_{i,j \in I}$.
 
 This induces an [[equivalence relation]] on the [[product topological space]]
 
@@ -12812,17 +13005,20 @@ $$
   k^n
 $$
 
-(of the [[disjoint union space]] of the patches $U_i \subset X$ regarded as [[topological subspaces]] with the [[Euclidean space]] $k^n$ with its [[metric topology]]) given by
+(of the [[disjoint union space]] of the patches $U_i \subset X$ regarded as [[topological subspaces]]
+with the [[product space]] $k^n = \underset{\{1,\cdots, n\}}{\prod} k$) given by
 
 $$
   \big(
     ((x,i), v)
      \;\sim\;
-    ((x,j), w)
+    ((y,j), w)
   \big)
    \;\Leftrightarrow\;
   \left(
-     g_{i j}(x)(v) = w
+     (x = y)
+       \;\text{and}\;
+     (g_{i j}(x)(v) = w)
   \right)
   \,.
 $$
@@ -12830,7 +13026,7 @@ $$
 Write
 
 $$
-  E
+  E(c)
    \;\coloneqq\;
   \left(
     \left(
@@ -12851,23 +13047,23 @@ for the resulting [[quotient topological space]]. This comes with the evident pr
 
 $$
   \array{
-    E &\overset{\phantom{AA}\pi \phantom{AA}}{\longrightarrow}& X
+    E(c) &\overset{\phantom{AA}\pi \phantom{AA}}{\longrightarrow}& X
     \\
-    ((x,i,),v) &\overset{\phantom{AAA}}{\mapsto}& x
+    [(x,i,),v] &\overset{\phantom{AAA}}{\mapsto}& x
   }
 $$
 
-which is a [[continuous function]] (by the [[universal property]] of the [[quotient topological space]] construction, since this [[function]] respects the equivalence relation). Moreover, each [[fiber]] of this map is identified with $k^n$, and hence canonicaly carries the structure of a [[vector space]].
+which is a [[continuous function]] (by the [[universal property]] of the [[quotient topological space]] construction, since the corresponding continuous [[function]] on the un-quotientd disjoint union space respects the equivalence relation). Moreover, each [[fiber]] of this map is identified with $k^n$, and hence canonicaly carries the structure of a [[vector space]].
 
-Finally, a local trivialization of $E$ exists over the original cover, by construction.
+Finally, the quotient co-projections  constitute a local trivialization of this vector bundle over the given open cover.
 
-Therefore this is a topological vector bundle (def. \ref{TopologicalVectorBundle}). We say it is the topological vector bundle _glued from the transition functions_.
+Therefore $E(c) \to X$ is a topological vector bundle (def. \ref{TopologicalVectorBundle}). We say it is the topological vector bundle _glued from the transition functions_.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
-**(bundle glued from [[transition functions]] is a [[coequalizer]])**
+**(bundle glued from [[Cech cohomology|Cech]] [[cocycle]] is a [[coequalizer]])**
 
 Stated more [[category theory|category theoretically]], the constructure of a topological vector bundle from Cech cocycle data in example \ref{TopologicalVectorBundleFromCechCocycle} is a [universal construction in topological spaces](Top#UniversalConstructions), namely the [[coequalizer]] of the two morphisms
 
@@ -12898,7 +13094,7 @@ be a [[local trivialization]].
 Write
 
 $$
-  \{ g_{i j} \coloneqq  \phi_j^{-1}\circ \phi_i  \colon U_i \cap U_j \to GL(n,k)\}_{i,j \in I}
+  \left\{ g_{i j} \coloneqq  \phi_j^{-1}\circ \phi_i  \colon U_i \cap U_j \to GL(n,k) \right\}_{i,j \in I}
 $$
 
 for the corresponding [[transition functions]] (def. \ref{TransitionFunctions}). Then there is an
@@ -13000,6 +13196,13 @@ By the nature of the [[subspace topology]], this means that these images are ope
 Therefore also the union $f(O) = \underset{i \in I}{\cup} \phi_i(O_i)$ is open.
 
 =--
+
+$\,$
+
+Here are some basic examples of vector bundles constructed from transition functions.
+
+
+
 
 +-- {: .num_example #MoebiusStrip}
 ###### Example
@@ -13126,7 +13329,7 @@ The [[complex line bundle]] this defined is called the _[[basic complex line bun
 
 With the 2-sphere identified with the [[complex projective space]] $\mathbb{C} P^1$
 (the [[Riemann sphere]]),
-the basic complex line bundle is the [[tautological line bundle]] (example \ref{TautologicalLineBundle}) on $\mathbb{C}P^1$.
+the basic complex line bundle is the [[tautological line bundle]] (example \ref{TautologicalTopologicalLineBundle}) on $\mathbb{C}P^1$.
 
 =--
 
@@ -13149,6 +13352,385 @@ $$
 This is called the _[[clutching construction]]_ of vector bundles over [[n-spheres]].
 
 =--
+
+Using [[transition functions]], it is immediate how to generalize the operations of 
+[[direct sum]] and of [[tensor product of vector spaces]] to vector bundles:
+
+
++-- {: .num_defn #DirectSumOfTopologicalVectorBundlesViaTransitionFunctions}
+###### Definition
+**([[direct sum of vector bundles]])**
+
+Let $X$ be a [[topological space]], and let $E_1 \to X$ and $E_2 \to X$ be two [[topological vector bundles]] over $X$.
+
+Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] with respect to which both vector bundles locally trivialize (this always exists: pick a [[local trivialization]] of either bundle and form the joint [[refinement]] of the respective [[open covers]] by [[intersection]] of their patches). Let
+
+$$
+  \left\{
+    (g_1)_{i j}
+    \colon U_i \cap U_j \to GL(n_1)
+  \right\}
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  \left\{
+    (g_2)_{i j}
+    \colon
+     U_i \cap U_j \longrightarrow GL(n_2)
+  \right\}
+$$
+
+be the [[transition functions]] of these two bundles with respect to this cover.
+
+For $i, j \in I$ write
+
+$$
+  \array{
+    (g_i)_{i j} \oplus (g_2)_{i j}
+    &\colon&
+    U_i \cap U_j
+      &\longrightarrow&
+    GL(n_1 + n_2)
+    \\
+    &&
+    x
+      &\overset{\phantom{AAA}}{\mapsto}&
+    \left(
+      \array{
+         (g_1)_{i j}(x) & 0
+         \\
+         0 & (g_2)_{i j}(x)
+      }
+    \right)
+  }
+$$
+
+be the pointwise [[direct sum]] of these transition functions
+
+Then the _direct sum bundle_ $E_1 \oplus E_2$ is the one glued from this direct sum of the transition functions (by [this construction](topological+vector+bundle#TopologicalVectorBundleFromCechCocycle)):
+
+$$
+  E_1 \oplus E_2
+  \;\coloneqq\;
+  \left(
+    \left( \underset{i}{\sqcup} U_i \right)
+    \times
+    \left(
+      \mathbb{R}^{n_1 + n_2}
+    \right)
+  \right)/ \left( \left\{ (g_1)_{i j} \oplus (g_2)_{i j} \right\}_{i,j \in I} \right)
+  \,.
+$$
+
+
+=--
+
++-- {: .num_defn #TensorProductOfVectorBundles}
+###### Definition
+**([[tensor product of vector bundles]])**
+
+Let $X$ be a [[topological space]], and let $E_1 \to X$ and $E_2 \to X$ be two [[topological vector bundles]] over $X$.
+
+Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] with respect to which both vector bundles locally trivialize (this always exists: pick a [[local trivialization]] of either bundle and form the joint [[refinement]] of the respective [[open covers]] by [[intersection]] of their patches). Let
+
+$$
+  \left\{
+    (g_1)_{i j}
+    \colon U_i \cap U_j \to GL(n_1)
+  \right\}
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  \left\{
+    (g_2)_{i j}
+    \colon
+     U_i \cap U_j \longrightarrow GL(n_2)
+  \right\}
+$$
+
+be the [[transition functions]] of these two bundles with respect to this cover.
+
+For $i, j \in I$ write
+
+$$
+  \array{
+    (g_i)_{i j} \otimes (g_2)_{i j}
+    &\colon&
+    U_i \cap U_j
+      &\longrightarrow&
+    GL(n_1 \cdot n_2)
+  }
+$$
+
+be the pointwise [[tensor product of vector spaces]] of these transition functions
+
+Then the _tensor product bundle_ $E_1 \oplus E_2$ is the one glued from this direct sum of the transition functions (by [this construction](topological+vector+bundle#TopologicalVectorBundleFromCechCocycle)):
+
+$$
+  E_1 \otimes E_2
+  \;\coloneqq\;
+  \left(
+    \left( \underset{i}{\sqcup} U_i \right)
+    \times
+    \left(
+      \mathbb{R}^{n_1 \cdot n_2}
+    \right)
+  \right)/ \left( \left\{ (g_1)_{i j} \otimes (g_2)_{i j} \right\}_{i,j \in I} \right)
+  \,.
+$$
+
+
+=--
+
+
+
+$\,$
+
+Next we need to see how the transition functions behave under isomorphisms of vector bundles.
+
+
++-- {: .num_defn #CoboundaryCech}
+###### Definition
+**([[coboundary]] between [[Cech cohomology|Cech]] [[cocycles]] )
+
+Let $X$ be a [[topological space]] and let $c_1, c_2 \in C^1(X, \underline{GL(k)})$ be two [[Cech cohomology|Cech]] [[cocycles]]
+(def. \ref{CocycleCech}), given by
+
+1. $\{U_i \subset X\}_{i \in I}$ and $\{U'_i \subset X\}_{i' \in I'}$ two [[open covers]],
+
+1. $\{g_{i j} \colon U_i \cap U_j \to GL(k,n_)\}_{i,j \in I}$ and $\{g_'_{i',j'} \colon U'_{i'} \cap U'_{j'} \to GL(n',k) \}_{i', j'}$  the corrsponding component functions.
+
+
+Then a _[[coboundary]]_  between these two cocycles is
+
+1. the condition that $n = n'$,
+
+1. an [[open cover]] $\{V_\alpha \subset X\}_{\alpha \in A}$,
+
+1. [[functions]] $\phi \colon A \to I$ and $\phi' \colon A \to J$ such that $\underset{\alpha \in A}{\forall}\left( \left( V_\alpha \subset U_{\phi(\alpha)} \right) \,\text{and}\, \left( V_\alpha \subset U'_{\phi'(\alpha)} \right) \right)$
+
+1. a set $\{ \kappa_\alpha \colon V_\alpha \to  GL(n,k) \}$ of continuous functions as in def. \ref{CocycleCech}
+
+such that
+
+* $\underset{ \alpha, \beta \in A }{\forall} \left(  \kappa_{\beta} \cdot g_{\phi(\alpha) \phi(\beta)}  = g'_{\phi'(\alpha) \phi'(\beta)} \cdot \kappa_{\alpha} \,\, \text{on}\,\, V_\alpha \cap V_\beta \right) $,
+
+  hence such that the following [[diagrams]] of [[linear maps]] [[commuting diagram|commute]] for all $\alpha, \beta \in A$ and $x \in V_{\alpha} \cap V_\beta$:
+
+  $$
+    \array{
+      k^n  &\overset{ g_{\phi(\alpha) \phi(\beta)}(x) }{\longrightarrow}& k^n
+      \\
+      {}^{\mathllap{\kappa_{\alpha}(x)} }\downarrow && \downarrow^{\mathrlap{ \kappa_{\beta}(x) }}
+      \\
+      k^n  &\underset{ g'_{\phi'(\alpha) \phi'(\beta)}(x) }{\longrightarrow}& k^n
+    }
+    \,.
+  $$
+
+
+Say that two Cech cocycles are _cohomologous_ if there exists a coboundary between them.
+
+
+=--
+
++-- {: .num_example #FinerCoverCech}
+###### Example
+**([[refinement]] of a [[Cech  cohomology|Cech]] [[cocycle]] is a [[coboundary]])**
+
+Let $X$ be a [[topological space]] and let $c \in C^1(X, \underline{GL(k)})$ be a Cech cocycle as in def. \ref{CocycleCech},
+with respect to some open cover $\{U_i \subset X\}_{i \in I}$ given by component functions $\{g_{i j}\}_{i,j \in I}$.
+
+Then for $\{V_\alpha \subset X\}_{\alpha \in A}$ a [[refinement]] of the given open cover, hence an open cover such that
+there exists a [[function]] $\phi \colon A \to I$ with $\underset{\alpha \in A}{\forall}\left( V\alpha \subset U_{\phi(\alpha)}  \right)$,
+then
+
+$$
+  g'_{ \alpha \beta }
+  \coloneqq g_{\phi(\alpha) \phi(\beta)}
+  \colon V_\alpha \cap V_\beta
+    \longrightarrow
+  GL(n,k)
+$$
+
+are the components of a Cech cocycle $c'$ which is cohomologous to $c$.
+
+
+=--
+
+
+
+
++-- {: .num_prop #CechCoboundaryFromIsomorphismBetweenVectoreBundles}
+###### Proposition
+**([[isomorphism]] of topological vector bundles induces [[Cech cohomology|Cech]] [[coboundary]] between their [[transition functions]])**
+
+Let $X$ be a topological space, and let $c_1, c_2 \in C^1(X, \underline{GL(n,k)}  )$ be two Cech cocycles as in def. \ref{CocycleCech}.
+
+Every [[isomorphism]] of topological vector bundles
+
+$$
+  f
+    \;\colon\;
+  E(c_1)
+    \overset{\simeq}{\longrightarrow}
+  E(c_2)
+$$
+
+between the vector bundles glued from these cocycles according to def. \ref{TopologicalVectorBundleFromCechCocycle}
+induces a coboundary between the two cocycles,
+
+$$
+  c_1 \sim c_2
+  \,,
+$$
+
+according to def. \ref{CoboundaryCech}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{FinerCoverCech} we may assume without restriction that the two Cech cocycles are
+defined with respect to the same open cover $\{U_i \subset X\}_{i \in I}$ (for if they are not, then both are cohomologous to
+cocycles on a joint refinement of the original covers and we may argue with these).
+
+Accordingly, by example \ref{TopologicalVectorBundleFromCechCocycle} the two bundles $E(c_1)$ and $E(c_2)$
+both have local trivializations of the form
+
+$$
+  \{ U_i \times k^n \underoverset{\simeq}{\phi^1_i}{\longrightarrow} E(c_1)\vert_{U_i}\}
+$$
+
+and
+
+$$
+  \{ U_i \times k^n \underoverset{\simeq}{\phi^2_i}{\longrightarrow} E(c_2)\vert_{U_i}\}
+$$
+
+over this cover.  Consider then for $i \in I$ the function
+
+$$
+  f_i \coloneqq  (\phi_i^2)^{-1}\circ f\vert_{U_i} \circ  \phi^1_i
+  \,,
+$$
+
+hence the unique function making the following [[commuting diagram|diagram commute]]:
+
+$$
+  \array{
+    U_i \times k^n &\underoverset{\simeq}{\phi^1_i}{\longrightarrow}& E(c_1)\vert_{U_i}
+    \\
+    {}^{\mathllap{f_i}}\downarrow && \downarrow^{\mathrlap{ f }}
+    \\
+    U_i \times k^n &\underoverset{\phi^2_i}{\simeq}{\longrightarrow}& E(c_2)\vert_{U_i}
+  }
+  \,.
+$$
+
+This induces for all $i,j \in I$ the following composite commuting diagram
+
+$$
+  \array{
+    (U_i \cap U_j) \times k^n
+      &\underoverset{\simeq}{\phi^1_i}{\longrightarrow}&
+    E(c_1)\vert_{U_i \cap U_j}
+      & \underoverset{\simeq}{(\phi^1_j)^{-1}}{\longrightarrow}  &
+    (U_i \cap U_j) \times k^n
+    \\
+    {}^{\mathllap{f_i}}\downarrow
+      &&
+    \downarrow^{\mathrlap{ f }}
+      &&
+    \downarrow^{\mathrlap{ f_j }}
+    \\
+    (U_i \cap U_j) \times k^n
+      &\underoverset{\phi^2_i}{\simeq}{\longrightarrow}&
+    E(c_2)\vert_{U_1 \cap U_2}
+      &\underoverset{(\phi^2_j)^{-1}}{\simeq}{\longrightarrow}&
+    (U_i \cap U_j) \times k^n
+  }
+  \,.
+$$
+
+By construction, the two horizonal composites of this diagram are pointwise
+given by the components $g^1_{i j}$ and $g^2_{i j}$of the cocycles $c_1$ and $c_2$, respectively.
+Hence the commutativity of this
+diagram is equivalently the commutativity of these diagrams:
+
+  $$
+    \array{
+      k^n  &\overset{ g^1_{i j}(x) }{\longrightarrow}& k^n
+      \\
+      {}^{\mathllap{ f_i(x) } }\downarrow && \downarrow^{\mathrlap{ f_j(x) }}
+      \\
+      k^n  &\underset{ g^2_{ i j }(x) }{\longrightarrow}& k^n
+    }
+    \,.
+  $$
+
+for all $i,j \in I$ and $x  \in U_i \cap U_j$. By def. \ref{CoboundaryCech} this exhibits the required coboundary.
+
+=--
+
++-- {: .num_defn #CohomologyCech}
+###### Definition
+**([[Cech cohomology]])**
+
+Let $X$ be a [[topological space]]. The relation $\sim$ on [[Cech cohomology|Cech cocycles]]
+of being cohomologous (def. \ref{CoboundaryCech})
+is an [[equivalence relation]] on the set $C^1( X, \underline{GL(k)} )$ of [[Cech cohomology|Cech]] [[cocycles]] (def. \ref{CocycleCech}).
+
+Write
+
+$$
+  H^1(X, \underline{GL(k)} )
+   \;\coloneqq\;
+  C^1(X, \underline{GL(k)} )/\sim
+$$
+
+for the resulting set of [[equivalence classes]]. This is called the
+_[[Cech cohomology]] of $X$ in degree 1 with [[coefficients]] in $\underline{GL(k)}$.
+
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $X$ be a [[topological space]].
+
+The construction of gluing a topological vector bundle from a Cech cocycle (example \ref{TopologicalVectorBundleFromCechCocycle})
+constitutes a [[natural bijection|bijection]]
+between the degree-1 Cech cohomology of $X$ with coefficients in $GL(n,k)$ (def. \ref{CohomologyCech})
+and the set of [[isomorphism classes]] of topological vector bundles on $X$ (def. \ref{TopologicalVectorBundle}, remark \ref{TopologicalVectorBundlesCategory}):
+
+$$
+  \array{
+    H^1(X,\underline{GL(k)})
+      &\overset{\phantom{AA}\simeq \phantom{AA}}{\longrightarrow}&
+    Vect(X)_{/\sim}
+    \\
+    c &\overset{\phantom{AAA}}{\mapsto}& E(c)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{FromTransitionFunctionsReconstructVectorBundle} the function is [[surjective function|surjective]],
+and by prop. \ref{CechCoboundaryFromIsomorphismBetweenVectoreBundles} it is injective.
+
+=--
+
+
+
+
+
 
 
 $\,$
@@ -13174,7 +13756,6 @@ then $f$ is already an isomorphism of vector bundles.
 
 =--
 
-(e.g [Hatcher, lemma 1.1](#Hatcher))
 
 +-- {: .proof}
 ###### Proof
@@ -13365,6 +13946,40 @@ This unique function is clearly $f^{-1}$ (by pointwise inspection) and therefore
 =--
 
 
++-- {: .num_example}
+###### Example
+**(fiberwise linearly independent sections trivialize a vector bundle)**
+
+If a topological vector bundle $E \to X$ of [[rank of a vector bundle|rank]] $n$
+admits $n$ [[sections]] (example \ref{VectorBundleSections})
+
+$$
+  \{\sigma_k \;\colon\; X \longrightarrow E\}_{k \in \{1, \cdots, n\}}
+$$
+
+that are linearly independent at each point $x \in X$, then $E$ is trivializable (example \ref{TrivialTopologicalVectorBundle}).
+In fact, with the sections regarded as vector bundle homomorphisms out of the trivial vector bundle
+of rank $n$ (according to example \ref{VectorBundleSections}), these sections _are_ the trivialization
+
+$$
+  (\sigma_1, \cdots, \sigma_n)
+  \;\colon\;
+  (X \times k^n)
+    \overset{\simeq}{\longrightarrow}
+  E
+  \,.
+$$
+
+This is because their linear independence at each point means precisely that this
+morphism of vector bundles is a fiber-wise linear isomorphsm
+and therefore an isomorphism of vector bundles by lemma \ref{FiberwiseIsoisIsomorphismOfVectorBundles}.
+
+=--
+
+
+$\,$
+
+(...)
 
 $\,$
 
