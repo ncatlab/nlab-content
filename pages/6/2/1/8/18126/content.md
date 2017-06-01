@@ -12302,22 +12302,23 @@ $\,$
 A _([[topological vector bundle|topological]]) [[vector bundle]]_ is a collection of [[vector spaces]]
 that vary continuously over a [[topological space]]. Hence topological vector bundles combine
 [[linear algebra]] with [[topology]]. The usual operations of [[linear algebra]], such as
-[[direct sum]] and [[tensor product of vector spaces]], generalize to "parameterized" such 
-operations on vector bundles (def. \ref{DirectSumOfTopologicalVectorBundlesViaTransitionFunctions} and def. \ref{TensorProductOfVectorBundles} below). 
+[[direct sum]] and [[tensor product of vector spaces]], generalize to "parameterized" such
+operations $\oplus_X$ and $\otimes_X$ on vector bundles over some base space $X$ (def. \ref{DirectSumOfTopologicalVectorBundlesViaTransitionFunctions} and def. \ref{TensorProductOfVectorBundles} below).
 
-This way a [[semi-ring]] $(Vect(X)_{/\sim}, \oplus_X, \otimes_X)$ of isomorphism classes of 
+This way a [[semi-ring]] $(Vect(X)_{/\sim}, \oplus_X, \otimes_X)$ of isomorphism classes of
 topological vector bundles is associated with every [[topological space]]. If one adds in formal additive
-inverses to this semiring (passing to the [[group completion]] of the direct sum of vector bundles) one obtains
-an actual ring, called the _[[topological K-theory]]_ $K(X)$ of the topological space. This is a basic
+inverses to this semiring (passing to the [[Grothendieck group completion of a commutative monoid|group completion]] of the direct sum of vector bundles) one obtains
+an actual ring, called the _[[topological K-theory]]_ $K(X)$ of the topological space. This is a fundamental
 topological invariant that plays a central role in [[algebraic topology]].
 
 A key class of examples of topological vector bundles are the _[[tangent bundles]]_ of [[differentiable manifolds]]
-to which we turn [below](#Manifolds).
+to which we turn [below](#Manifolds). For these the vector space associated with every point is the
+"linear approximation" of the base space at that point.
 
-Topological vector bundles are particularly well behaved over [[paracompact Hausdorff spaces]], 
-where the existence of [[partitions of unity]] allows to perform global operations on 
-vector bundles by first performing them locally and then using the partition of unity
-to continuously interpolate between these local constructions.
+Topological vector bundles are particularly well behaved over [[paracompact Hausdorff spaces]],
+where the existence of [[partitions of unity]] (by prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity} above) allows to perform global operations on vector bundles by first performing them locally and then using the partition of unity
+to continuously interpolate between these local constructions. This is one reason why the definition of
+[[topological manifolds]] [below](#Manifolds) demands them to be paracompact Hausdorff spaces.
 
 $\,$
 
@@ -12350,6 +12351,20 @@ A topological ring $((R, \tau_R),+,\cdot)$ is a _[[topological field]]_ if
 
 1. the function assigning multiplicative inverses $(-)^{-1} \;\colon\; R \setminus \{0\} \to R \setminus \{0\}$ is a
    continuous function with respect to the [[subspace topology]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+There is a redundancy in def. \ref{TopologicalRing}: For a [[topological ring]] the
+continuity of the assignment of additive inverses is already implied by the continuity of 
+the [[multiplication]] operation, since 
+
+$$
+  - a = (-1) \cdot a
+  \,.
+$$
 
 =--
 
@@ -12389,7 +12404,7 @@ Then a _topological $k$-vector bundle over $X$_ is
 
    $$E_x \coloneqq \pi^{-1}(\{x\}) \subset E$$
 
-   (called the _[[fiber]]_ of the bundle over $x$)
+   called the _[[fiber]]_ of the bundle over $x$
 
 such that this is [[local trivialization|locally trivial]] in that there exists:
 
@@ -12403,7 +12418,7 @@ such that this is [[local trivialization|locally trivial]] in that there exists:
 
    from the [[product topological space]] of $U_i$ with the [[real numbers]] (equipped with their [[Euclidean space]] [[metric topology]]) to the restriction of $E$ over $U_i$, such that
 
-   1. $\phi_i$ is a map over $U_i$ in that $\pi \circ \phi_i = pr_1$, hence in that $\phi_i(\{x\} \times k^n) \subset \pi^{-1}(\{x\})$
+   1. $\phi_i$ is a function over $U_i$ in that $\pi \circ \phi_i = pr_1$, hence in that $\phi_i(\{x\} \times k^n) \subset \pi^{-1}(\{x\})$
 
    1. $\phi_i$ is a [[linear map]] in each fiber in that
 
@@ -12417,6 +12432,18 @@ such that this is [[local trivialization|locally trivial]] in that there exists:
         \,.
       $$
 
+Here is the [[diagram]] of continuous functions that illustartes these conditions:
+
+$$
+  \array{
+    U_i \times k^n &\underoverset{\text{fibws. linear}}{\phi_i}{\longrightarrow}& E\vert_{U_i} &\hookrightarrow& E
+    \\
+    & {}_{\mathllap{pr_1}}\searrow & \downarrow^{\mathrlap{\pi\vert_{U_i}}} && \downarrow^{\mathrlap{\pi}}
+    \\
+    && U_i &\hookrightarrow& X
+  }
+$$
+
 For $[E_1 \overset{\pi_1}{\to} X]$ and $[E_2 \overset{\phi_2}{\to} X]$ two topological vector bundles over the same base space, then a _[[homomorphism]]_
 between them is
 
@@ -12427,6 +12454,17 @@ such that
 1. $f$ respects the [[projections]]: $\pi_2 \circ f = \pi_1$;
 
 1. for each $x \in X$ we have that $f|_x \colon (E_1)_x \to (E_2)_x$ is a [[linear map]].
+
+$$
+  \array{
+     E_1 && \underoverset{\text{fibws. linear}}{f}{\longrightarrow} && E_2
+     \\
+     & {}_{\mathllap{\pi_1}}\searrow && \swarrow_{\mathrlap{\pi_2}}
+     \\
+     && X
+  }
+  \,.
+$$
 
 =--
 
@@ -13353,7 +13391,7 @@ This is called the _[[clutching construction]]_ of vector bundles over [[n-spher
 
 =--
 
-Using [[transition functions]], it is immediate how to generalize the operations of 
+Using [[transition functions]], it is immediate how to generalize the operations of
 [[direct sum]] and of [[tensor product of vector spaces]] to vector bundles:
 
 
