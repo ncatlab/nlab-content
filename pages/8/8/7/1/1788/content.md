@@ -34,9 +34,13 @@ $$
 .
 
 
-\[
-\mathrm{beep boop}
-\]
+Expanding this collection to
+
+$$
+\left(W_{F,Y} \overset{\operatorname{df}}{=}V_F \cap Y \right)_{F \underset{\operatorname{fin}}{\subseteq} X, Y \subseteq X}
+$$
+
+yields an ideal.
 
 
 ***
