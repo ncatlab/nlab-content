@@ -1,6 +1,8 @@
-Synonym for [[diagonal fill-in]] morphism.
+This is a synonym for [[diagonal fill-in]] morphism.
 
-Term used for example in:
+The term is used for example in:
 
 *  R. Garner, "Homomorphisms of higher categories"
 Advances in Mathematics, Volume **224** (2010),  2269--2311
+
+It also is often used in the context of [[horn]]s in simplicial sets and related structures. For instance _`in a Kan complex, all horns have fillers'_. The two uses are, of course, closely related.
