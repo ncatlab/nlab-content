@@ -16,8 +16,8 @@ Tautological examples:
 
 Non-tautological example: 
 
- * the full subcategory of the category of fields obtained by removing the zero ring 
- * the full subcategory of _any_ given slice category consisting only of the monos of the category sliced (aka the category of subobjects)
+ * the category of fields (with ring homomorphisms as the morphisms)
+ * the full subcategory of any given slice category consisting only of the monos of the category sliced (aka the category of subobjects)
 
 ## Related concepts
 
@@ -28,7 +28,7 @@ Non-tautological example:
 ## References
 
 
-* M. V. Lawson and A. R. Wallis, Ordered Groupoids and Left Cancellative Categories ([arXiv:1304.6854v5](https://arxiv.org/abs/1304.6854))
+* M. V. Lawson and A. R. Wallis, A categorical description of Bass-Serre theory ([arXiv:1304.6854v5](https://arxiv.org/abs/1304.6854))
 
 
 * M. V. Lawson, "Ordered Groupoids and Left Cancellative Categories"
