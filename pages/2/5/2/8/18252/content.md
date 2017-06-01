@@ -35,7 +35,7 @@ equipped with their [[Euclidean space|Euclidean]] [[metric topology]]
 ###### Definition
 **(topological projective space)**
 
-Let $n \in \mathbb{C}$. Consider the[[Euclidean space]] $k^{n+1}$ equipped with its [[metric topology]], let $k^{n+1} \setminus \{0\} \subset k^{n+1}$ be the [[topological subspace]] which is the [[complement]] of the origin, and consider on its underlying set the [[equivalence relation]] which identifies two points if they differ by [[multiplication]] with some $c \in k$ (necessarily non-zero):
+Let $n \in \mathbb{C}$. Consider the [[Euclidean space]] $k^{n+1}$ equipped with its [[metric topology]], let $k^{n+1} \setminus \{0\} \subset k^{n+1}$ be the [[topological subspace]] which is the [[complement]] of the origin, and consider on its underlying set the [[equivalence relation]] which identifies two points if they differ by [[multiplication]] with some $c \in k$ (necessarily non-zero):
 
 $$
   (\vec x_1 \sim \vec x_2)
@@ -70,7 +70,7 @@ $$
 ###### Definition
 **(standard open cover of topological projective space)**
 
-For $n \in \mathbb{N}$ the _standard open cover_ of the projective space $k P^n$ is 
+For $n \in \mathbb{N}$ the _standard open cover_ of the projective space $k P^n$ (def. \ref{ToplogicalProjectiveSpace}) is 
 
 $$
   \left\{
@@ -84,16 +84,20 @@ $$
   U_i 
     \coloneqq 
   \left\{ 
-    [x_1 : \cdots x_{n+1}] \in k P^n
+    [x_1 : \cdots : x_{n+1}] \in k P^n
     \;\vert\;
-    \vec x \in k^{n+1}
-    \;\text{with}\;
     x_i \neq 0
   \right\}
   \,.
 $$
 
-These subsets are open in the [[quotient topology]], since their [[pre-image]] under the qutient co-projection $k^{n+1} \to k P^n$ coincides with the pre-image $pr_i^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n\}}{\prod} k$.
+To see that this is an open cover:
+
+1. This is a cover because with the orgin removed in $k^n \setminus \{0\}$ at every point $[x_1: \cdots : x_{n+1}]$
+   at least one of the $x_i$ has to be non-vanishing.
+
+1. These subsets are open in the [[quotient topology]] $k P^n = (k^n \setminus \{0\})/\sim$, since their [[pre-image]] under the quotient co-projection $k^{n+1} \setminus \{0\} \to k P^n$ coincides with the pre-image $(pr_i\circ\iota)^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n\}}{\prod} k$ (where we write $k^n \setminus \{0\} \overset{\iota}{\hookrightarrow} k^n \overset{pr_i}{\to} k$).
+
 
 =--
 
@@ -101,22 +105,26 @@ These subsets are open in the [[quotient topology]], since their [[pre-image]] u
 ###### Definition
 **(tautological topological line bundle)
 
-For $n \in \mathbb{N}$, the _tautological line bundle_ over the [[projective space]] $k P^n$ is the [[subspace]]
+For $k$ a [[topological field]] and $n \in \mathbb{N}$, the _tautological line bundle_ over the [[projective space]] $k P^n$ is topological $k$-[[line bundle]] whose total space is the following [[subspace]] of the [[product space]] of the [[projective space]] $k P^n$ with $k^n$:
 
 $$
-  T 
+  T
    \coloneqq
   \left\{
     ( [x_1: \cdots : x_{n+1}], \vec v)
-    \in 
+    \in
     k P^n \times k^{n+1}
     \;\vert\;
-    \vec v \in k \vec x 
+    \vec v \in \langle \vec x\rangle_k
   \right\}
+  \,,
 $$
 
-(hence the space of pairs consisting of the "name" of a $k$-line in $\mathbb{R}^{n+1}$ together with an element of that $k$-line)
-equipped with the function
+where $\langle \vec x\rangle_k \subset k^{n+1}$ is the $k$-[[linear span]] of $\vec x$.
+
+(The space $T$ is the space of pairs consisting of the "name" of a $k$-line in $k^{n+1}$ together with an element of that $k$-line)
+
+This is a bundle over [[projective space]] by the projection function
 
 $$
   \array{
