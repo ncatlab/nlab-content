@@ -64,6 +64,9 @@ Further discussion of this is also at _[loop space -- Homotopy associative struc
 
 * [[group completion]]
 
+* [[H-space ring spectrum]], [[H-group ring spectrum]]
+
+
 ## References
 
 Introduction and survey includes
