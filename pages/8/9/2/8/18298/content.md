@@ -153,7 +153,7 @@ such that this is [[local trivialization|locally trivial]] in that there exists
    1. $\phi_i$ is a [[linear map]] in each fiber in that
 
       $$
-        \underset{x \in U_i \cap U_j}{\forall}
+        \underset{x \in U_i}{\forall}
         \left(
           \phi_i(x) \;\colon\;
              k^n \overset{\text{linear}}{\longrightarrow}
