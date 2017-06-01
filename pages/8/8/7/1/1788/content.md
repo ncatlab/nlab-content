@@ -33,6 +33,12 @@ $$
 
 .
 
+
+\[
+\mathrm{beep boop}
+\]
+
+
 ***
 
 > please don't erase the following for the moment
