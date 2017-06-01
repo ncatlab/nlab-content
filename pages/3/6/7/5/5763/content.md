@@ -141,7 +141,7 @@ These two statements might be taken as suggesting that a quantum mechanical syst
 
 To which extent this perspective is genuinely useful is maybe still to be established. For pointers to the literature see the [references](#References) below. Discussion along the above lines may suggest that this perspective is indeed useful, but what is probably still missing is a statement about [[quantum physics]] that can be formulated and proven in terms of Bohr toposes, while being hardly conceivable or at least more unnatural without. It is probably currently not clear if such statements have been found.
 
-One potential such statement has been suggested in ([Nuiten](#Nuiten)) after discussion with [[Bas Spitters|Spitters]]: 
+One potential such statement has been suggested in ([Nuiten 11](#Nuiten11)) after discussion with [[Bas Spitters|Spitters]]: 
 
 In the formalization of [[quantum field theory]] by the [[Haag-Kastler axioms]] -- called [[AQFT]] -- every quantum field theory is entirely encoded in terms of its [[local net of observables]] over [[spacetime]] $X$. This is a [[copresheaf]] of [[C-star algebra]]s
 
@@ -157,7 +157,7 @@ $$
 
 of ringed toposes whose internal ring object has the structure of a commutative $C^\ast$-algebra. With the [[copresheaf]] thus turned into a [[presheaf]] it is natural to ask under which conditions this is a [[sheaf]]: under which conditions this presheaf satisfies [[descent]].
 
-In ([Nuiten](#Nuiten)) the following is observed: if $A$ satisfies what is called the _split property_ (a strong form of the [[time slice axiom]]) then  the Bohr-presheaf of quantum phase spaces satisfies spatial descent by [[local geometric morphism]]s precisely if the original copresheaf of observables $A : Op(X) \to C^\ast Alg$ is indeed _[[local net of observables|local]]_ -- spatially and causally. So this means that a natural property of quantum physics -- spatial and causal locality -- corresponds from the perspective of Bohr toposes to a natural property of presheaves of quantum phase spaces: [[descent]].
+In ([Nuiten 11](#Nuiten11)) the following is observed: if $A$ satisfies what is called the _split property_ (a strong form of the [[time slice axiom]]) then  the Bohr-presheaf of quantum phase spaces satisfies spatial descent by [[local geometric morphism]]s precisely if the original copresheaf of observables $A : Op(X) \to C^\ast Alg$ is indeed _[[local net of observables|local]]_ -- spatially and causally. So this means that a natural property of quantum physics -- spatial and causal locality -- corresponds from the perspective of Bohr toposes to a natural property of presheaves of quantum phase spaces: [[descent]].
 
 One can probably view this as further suggestive evidence that indeed quantum physics is naturally regarded from the point of view of the Bohr topos. But for seeing where this perspective is headed, it seems that more insights along these lines would be useful.
 
@@ -166,7 +166,7 @@ One can probably view this as further suggestive evidence that indeed quantum ph
 
 ## Outline
 
-The discussion below proceeds in the following steps (following ([Nuiten11](#Nuiten)))
+The discussion below proceeds in the following steps (following ([Nuiten 11](#Nuiten11)))
 
 1. [Bohr topos of a quantum mechanics system](#BohrToposOfQMSystem)
 
@@ -361,7 +361,7 @@ $$
 
 =--
 
-This appears as ([Nuiten, lemma 2.6](#Nuiten)).
+This appears as ([Nuiten 11, lemma 2.6](#Nuiten11)).
 
 +-- {: .num_defn }
 ###### Definition
@@ -544,7 +544,7 @@ with the special property that any $f : A \to B$ is sent to
 
 =--
 
-This is ([Nuiten, lemma 2.7](#Nuiten)). (Essentially this argument also appears as ([vdBergHeunen, prop. 33](#vdBergHeunen)), where however the extra right adjoint is not made use of and instead the variances of the morphisms involved in the definition of $C^\ast Topos$ are redefined in order to make the statement come out.)
+This is ([Nuiten 11, lemma 2.7](#Nuiten11)). (Essentially this argument also appears as ([vdBergHeunen, prop. 33](#vdBergHeunen)), where however the extra right adjoint is not made use of and instead the variances of the morphisms involved in the definition of $C^\ast Topos$ are redefined in order to make the statement come out.)
 
 +-- {: .proof}
 ###### Proof
@@ -970,7 +970,7 @@ $$
 
 =--
 
-This appears as ([Nuiten, def. 17](#Nuiten)).
+This appears as ([Nuiten 11, def. 17](#Nuiten11)).
 
 
 Assume that a net of observables $A : Op(X) \to C^\ast Alg_{inc}$
@@ -979,7 +979,7 @@ $Bohr(A) : Op(X)^{op} \stackrel{A}{\to} C^\ast Alg_{inc} \stackrel{Bohr}{\to} C^
 
 (...)
 
-This appears as ([Nuiten, theorem 4.2](#Nuiten)).
+This appears as ([Nuiten 11, theorem 4.2](#Nuiten11)).
 
 
 ## Contravariant functors on open subsets
@@ -1057,7 +1057,9 @@ The application of the [[double negation topology]] to make Bohrification coinic
 
 The generalization of Bohrification from [[quantum mechanics]] to [[quantum field theory]] ([[AQFT]]) is discussed in
 
-* [[Joost Nuiten]], _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets]]_ {#Nuiten11}
+* {#Nuiten11} [[Joost Nuiten]], _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets]]_, Proceedings of [QPL 2011](http://qpl.science.ru.nl/), [EPTCS 95, 2012](http://rvg.web.cse.unsw.edu.au/eptcs/content.cgi?QPL2011), pp. 211-218
+([arXiv:1109.1397](http://arxiv.org/abs/1109.1397))
+
 
 The original suggestion to interpret the [[Kochen-Specker theorem]] in the topos over the [[poset of commutative subalgebras]] (there taken to be [[presheaves]] instead of [[copresheaves]]) is due to
 
@@ -1070,6 +1072,14 @@ Disucssion of aspects of the process of [[quantization]] in terms of Bohr topose
 
 * Kunji Nakayama, _Sheaves in Quantum Topos Induced by Quantization_ ([arXiv:1109.1192](http://arxiv.org/abs/1109.1192))
 
+A variant of the Bohr topos construction meant to take more of the topology of the underlying $C^\ast$-algebra into account has been suggested for finite-dimensional $C^\ast$-algebra in 
+
+* Guillaume Raynaud, _Fibred contextual quantum physics_, PhD thesis, Uni-
+versity of Birmingham, 2014. ([web](http://www.cs.bham.ac.uk/~sjv/grpage.php))
+
+and generalized to arbitrary $C^\ast$-algebras in 
+
+* [[Simon Henry]], _A Geometric Bohr topos_ ([arXiv:1502.01896](https://arxiv.org/abs/1502.01896))
 
 [[!redirects Bohr topos]]
 [[!redirects Bohr toposes]]
