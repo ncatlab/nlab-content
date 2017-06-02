@@ -364,10 +364,10 @@ $$
 
 Since, by the above, morphisms $\Sigma^\infty B U(1) \longrightarrow K U$ in $Ho(Spectra)$,
 hence equivalently morphisms $B U(1) \longrightarrow B U \times \mathbb{Z}$ in $Ho(Top^{\ast/})$,
-hence equivalently morphisms $B U(1) \to B U$ in $Ho(Top)$  correspond to the reduced K-theory of 
+hence equivalently morphisms $B U(1) \to B U$ in $Ho(Top)$  correspond to the reduced K-theory of
 $B U(1)$, and since morphisms $\mathbb{S} \to KU$ in $Ho(Spectra)$, hence equivalently morphism $\ast \to B U \times \mathbb{Z}$
 in $Ho(Top)$ correspond to the K-theory of the point, and since over (colimits of) [[compact topological spaces]]
-K-theory splits as $K(X) \simeq \tilde K(X) \oplus K(\ast)$ via $[E]- n \mapsto ([E] - rk(E)) + ( rk(E) - n )$ 
+K-theory splits as $K(X) \simeq \tilde K(X) \oplus K(\ast)$ via $[E]- n \mapsto ([E] - rk(E)) + ( rk(E) - n )$
 ([this prop](topological+K-theory#KGrupDirectSummandReducedKGroup)) it follows that
 
 1. $\tilde i$ takes the canonical line bundle $\mathcal{O}(1)$ on $B U(1)$ to its image $\mathcal{O}(1)-1$ in reduced K-theory
@@ -376,7 +376,7 @@ K-theory splits as $K(X) \simeq \tilde K(X) \oplus K(\ast)$ via $[E]- n \mapsto 
      B U(1) \overset{\mathcal{O}(1) \mapsto (\mathcal{O}(1)-1)}{\longrightarrow} B U \simeq B U \times \{0\} \hookrightarrow B U \times \mathbb{Z} \simeq \Omega^\infty K U
    $$
 
-1. $e_{K U$ is adjunct to $\ast \simeq (\ast,1) \hookrightarrow B U \times \mathbb{Z}$ ( is the ring spectrum unit of $K U$).
+1. $e_{K U}$ is adjunct to $\ast \simeq (\ast,1) \hookrightarrow B U \times \mathbb{Z}$ ( is the ring spectrum unit of $K U$).
 
 Now observe that $\Phi$ takes multiplication by $\beta$ to multiplication with the [[Bott element]] $(h-1)$:
 
@@ -406,16 +406,33 @@ and since the bottom square commutes (since tensor product of line bundles corre
 this is equivalent to the left and bottom boundary, which, by the above discussion, is multiplication with the
 [[Bott element]] $(h-1)$.
 
-Since the Bott element is invertible in $K U$, this means that the above morphism [[extension|extends]] to the quotient (...say what this is...)
+Since the Bott element is invertible in $K U$, this means for all $X \in Ho(Top^\ast/)$ that the morphism
+
+$$
+  [\Sigma^\infty X , \Sigma^\infty ( B (1)_+ ) ]_\bullet
+    \overset{\Phi_X \coloneqq \Phi \circ (-)}{\longrightarrow}
+  [\Sigma^\infty X, K U]_\bullet
+    \simeq
+  \tilde K_{\mathbb{C}}^\bullet(X)
+$$
+
+extends to the quotient ring
+
+$$
+  [\Sigma^\infty X, \Sigma^\infty ( B U(1)_+ )]_{\bullet}[\beta^{-1}]
+$$
+
+in which two elements are identified if they differ by multiplication by $\beta$, as above:
 
 $$
   \array{
-    \Sigma^\infty( B U(1)_+ ) &\overset{\Phi}{\longrightarrow}& K U
+    [\Sigma^\infty X, \Sigma^\infty( B U(1)_+ )]  &\overset{\Phi}{\longrightarrow}& \tilde K_{\mathbb{C}}^\bullet(X)
     \\
     \downarrow & \nearrow_{\mathrlap{\exists \Phi}}
     \\
-    \Sigma^\infty( B U(1)_+ )[\beta^{-1}]
+    [\Sigma^\infty X, \Sigma^\infty( B U(1)_+ )]_\bullet [\beta^{-1}]
   }
+  \,.
 $$
 
 #### Isomorphy
@@ -425,17 +442,17 @@ $$
 +-- {: .num_theorem}
 ###### Theorem
 
-The morphism
+If $X \in Ho(Top^{\ast/})$ has the homotpy type of a [[finite CW-complex]], then the [[natural transformation]]
 
 $$
-  \Phi
+  \Phi_X
     \;\colon\;
-  \Sigma^\infty ( B U(1)_+ )[\beta^{-1}]
+  [X, \Sigma^\infty ( B U(1)_+ )]_\bullet [\beta^{-1}]
     \longrightarrow
-  K U
+  \tilde K^\bullet(X)
 $$
 
-is an [[isomorphism]].
+is a [[natural isomorphism]].
 
 =--
 
