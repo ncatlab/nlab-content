@@ -176,7 +176,7 @@ $$
 are strong monoidal.
 
 
-This means that for a [[monoid]] $(A,\mu)$ in $(Ho(Top), \times , \ast)$ (an [[H-space]]), then also
+That $\mathbb{S}[-] = \Sigma^\infty((-)_+)$ is [[strong monoidal functor]] for a [[monoid]] $(A,\mu)$ in $(Ho(Top), \times , \ast)$ (an [[H-space]]), then also
 
 $$
   \Sigma^\infty (A_+)
@@ -196,6 +196,43 @@ $$
 $$ 
 
 the _H-group ring spectrum_ of $G$.
+
++-- {: .num_remark #HGroupRingSpectrumSplitsAsDirectSumWithSphereSpectrum}
+###### Remark
+**(H-group ring spectrum is a direct sum with the [[sphere spectrum]])**
+
+
+Notice that an [[H-group]] $G$ already is canonically a [[pointed object]] itself, pointed by its [[neutral element]] $e \colon \ast \to G$. Regarded as an object $(G,e) \in Ho(Top^{\ast/})$ this way then the pointed object $G_+$ above is equivalently the [[wedge sum]] of $G$ with the [[0-sphere]]:
+
+$$
+  G_+ \simeq (G,e) \vee S^0
+  \,.
+$$
+
+Since $\Sigma^\infty$ preserves [[wedge sum]], this means that there is an [[isomorphism]] in $Ho(Spectra)$ 
+
+$$
+  \begin{aligned}
+    \Sigma^\infty(G_+)
+      & \simeq
+     \Sigma^\infty 
+     \left( 
+      (G,e) 
+      \vee
+       S^0
+    \right)
+    \\
+    & \simeq
+    \left( \Sigma^\infty(G,e)  \right) \vee \mathbb{S}
+    \\
+    & \simeq
+    \left( \Sigma^\infty(G,e)  \right) \oplus \mathbb{S}
+  \end{aligned}
+$$
+
+(where the last isomorphism exhibits that [[wedge sum]] is the [[direct sum]] in the [[additive category]] $Ho(Spectra)$ (by [this lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryHasCoproducts))).
+
+=--
 
 
 ## Examples
