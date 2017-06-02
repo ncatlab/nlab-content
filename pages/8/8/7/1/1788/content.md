@@ -1,59 +1,3 @@
-# Ultrafilter characterization of compactness {#sec:org6ab3822}
-
-## Idea {#sec:org9aad01b}
-
-A [[topological space]] $X$ is
-[[compact]] if and only if every
-[[net]] has a convergent subnet.
-Ultrafilters are another way of talking about nets (since one can
-associate to every net its **convergence filter**), and one can
-similarly characterize compactness in terms of the convergence of
-ultrafilters.
-
-## Statement and proof {#sec:orgc035b96}
-
-+-- {: .num_prop}
-###### Proposition
-
-The space $X$ is compact if and only if every ultrafilter on $X$
-converges.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-$(\Leftarrow)$. Suppose first that there is an ultrafilter $\mathcal{U}$
-on $X$ which has no limit point. Suppose there is a finite subcover of
-$(U_x)_{x \in X}$. Then there are $U_1, \dots, U_k$ such that
-$\bigvee_{i \leq k} U_i = X$, so that
-$\bigvee_{i \leq k} U_i \in \mathcal{U}$. Since the complement of
-$\mathcal{U}$ is an ideal, some $U_j$ among the $U_1, \dots, U_k$ was in
-$\mathcal{U}$, a contradiction.
-
-Therefore, the cover $(U_x)_{x \in X}$ has no finite subcover.
-
-$(\Rightarrow)$. Suppose that every ultrafilter converges but $X$ is not
-compact.
-
-Fix an open covering $(U_x)_{x \in X}$ of $X$ with no finite subcover.
-
-For each finite subset $F \subseteq X$, let
-$V_F \overset{\operatorname{df}}{=} \bigvee_{x \in F} U_x$. The
-collection $(V_F)_{F \underset{\operatorname{fin}}{\subseteq} X}$ is
-closed under $V$. Expanding this collection to
-
-$$\left(W_{F,Y} \overset{\operatorname{df}}{=} V_F \cap Y \right)_{F \underset{\operatorname{fin}}{\subseteq} X, Y \subseteq X}$$
-
-yields an ideal.
-
-Therefore, $\left(X \backslash W_{F,Y}\right)_{F,Y}$ is a filter which
-is contained in some ultrafilter $\mathcal{V}$. By assumption, this
-converges to some point $x \in X$. Therefore, $U_x \in \mathcal{V}$. By
-construction, $\mathcal{V}$ also contains $X \backslash U_x$. This means
-$\mathcal{V}$ was not an ultrafilter, a contradiction.
-
-=--
 
 ***
 
@@ -625,7 +569,7 @@ $$
   \Omega^{k+1,0}(\Sigma \times U)
 $$
 
-With this the induction follows by prop. \ref{nImageFactroizationModeledOnSimplicialPrsheaves} and prop. \ref{nImageFactorizationOnChainComplex}.
+With this the induction follows by prop. \ref{nImageFactroizationModeledOnSimplicialPrsheaves} and prop. \ref{ImageFactorizationForChainComplexes}.
 
 =--
 
