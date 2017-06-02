@@ -7,6 +7,13 @@ another way of talking about nets (since one can associate to every net
 its ), and one can similarly characterize compactness in terms of the
 convergence of ultrafilters.
 
++-- {: .num_lemma}
+###### Lemma
+
+This is a lemma.
+
+=--
+
 ## Statement and proof {#sec:org01261cb}
 
 ### Proposition {#sec:org6f37071}
