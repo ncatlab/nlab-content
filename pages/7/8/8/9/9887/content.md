@@ -74,7 +74,148 @@ which has the [[universal property]] that $\mu_\beta$ becomes an [[equivalence]]
 
 
 
-### Snaith's theorem for the complex K-theory spectrum $KU$
+### For complex topological K-theory
+
+#### On cohomology groups
+
+Write $(Ho(Top), \times, \ast)$ for the [[classical homotopy category]], regarded as a [[symmetric monoidal category]] under forming [[product spaces]], with [[tensor unit]] the [[point space]].
+
+Write $(Ho(Top^{\ast/}), \wedge , S^0)$ for the homotopy category of [[pointed topological spaces]] with [[tensor product]] the [[smash product]] of pointed spaces and [[tensor unit]] the [[0-sphere]]
+
+Write $(Ho(Spectra), \wedge, \mathbb{S})$ be the [[stable homotopy category]] with its [[symmetric monoidal smash product of spectra]] $\wedge$ whose [[tensor unit]] is the [[sphere spectrum]] $\mathbb{S}$.
+
+
+There are two pairs of ([[derived functor|derived]]) [[adjoint functors]] 
+
+$$
+  Ho(Spectra)
+    \underoverset
+      {\underset{\Omega^\infty}{\longrightarrow}}
+      {\overset{\Sigma^\infty}{\longleftarrow}}
+      {}
+  Ho(Top^{\ast/})
+    \underoverset
+      {\underset{U}{\longrightarrow}}
+      {\overset{(-)_+}{\longleftarrow}}
+      {\bot}
+  Ho(Top)
+$$
+
+which are [[strong monoidal functors]] (by [this example](pointed+object#WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces) and [this prop](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)). The left adjoint composite
+
+$$
+  \mathbb{S}[-]
+    \;\colon\;
+  \Sigma^\infty((-)_+)
+$$
+
+hence takes [[H-spaces]] and in particular [[H-groups]] $G$ to [[ring spectra]]. We call
+
+$$
+  \mathbb{S}[G] \coloneqq \Sigma^\infty(G_+)
+$$
+
+the _[[H-group ring spectrum]]_ of $G$. See [there](∞-group+∞-ring#HGroupRingSpectra) for more.
+
+One such [[H-group]] is the _[[circle 2-group]]_, hence (the [[homotopy type]] of) the [[classifying space]] $B U(1)$ for [[complex line bundles]], equivalently the [[Eilenberg-MacLane space] $K(\mathbb{Z},2)$, canonically presented by the [[complex projective space]] $\mathbb{C}P^\infty$
+
+
+$$
+  K(\mathbb{Z},2) \simeq B U(1) \simeq \mathbb{C}P^\infty
+  \;\in\;
+  Ho(Spaces)
+  \,.
+$$
+
+This being the [[classifying space]] for [[complex line bundles]], it becomes an [[H-group]] via the map
+
+$$
+  B U(1) \times B U(1) \longrightarrow B U(1)
+$$
+
+which classifies the [[tensor product of vector bundles|tensor product of line bundles]], with inverses given by the map
+
+$$
+  B U(1) \longrightarrow B U(1)
+$$
+
+which form [[dual vector bundle|dual line bundles]].
+
+Hence its [[H-group ring spectrum]] is
+
+$$
+  \mathbb{S}[B U(1)]
+   \;=\;
+  \Sigma^\infty( B U(1)_+ )
+  \,.
+$$
+
+For $A,B \in Ho(Spectra)$ two [[spectra]], we write
+
+$$
+  [A,B] \coloneqq Hom_{Ho(Spectra)}(A,B) \in Ab
+$$
+
+for [[hom-set]] in the [[stable homotopy group]] and 
+
+$$
+  [A,B]_\bullet \coloneqq [\Sigma^\bullet A, B]
+$$
+
+for the $\mathbb{Z}$-graded group ([this def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)).
+
+Hence for $X \in Ho(Top^{\ast/})$ a [[pointed topological space]], then
+
+$$
+  [\Sigma^\infty X,\Sigma^\infty(G_+)]_\bullet
+$$
+
+is a graded ring, with the product of elements
+
+$$
+  \left(
+    \Sigma^{n_i} \Sigma^\infty X
+     \overset{e_i}{\longrightarrow}
+   \Sigma^\infty(G_+)
+  \right)
+  \;\in\;
+  [\Sigma^\infty X, \Sigma^\infty(G_+)]_{n_i}
+$$
+
+for $i \in \{1,2\}$ given by
+
+$$
+  \Sigma^{n_1 + n_2}
+  \Sigma^\infty X
+    \overset{\Sigma^{n_1+ n_2} \Sigma^\infty \Delta_X}{\longrightarrow} 
+  \Sigma^{n_1 + n_2}
+  \Sigma^\infty (X \wedge X)
+   \simeq
+  \left(
+    \Sigma^{n_1} \Sigma^\infty X
+  \right)
+    \wedge
+  \left(
+     \Sigma^{n_2} \Sigma^\infty X
+  \right)
+    \overset{ e_1 \wedge e_2 }{\longrightarrow}
+  \left(
+    \Sigma^\infty (G_+)
+  \right)
+    \wedge
+  \left(
+    \Sigma^\infty (G_+)
+  \right)
+    \overset{\mu}{\longrightarrow}
+  \Sigma^\infty (G_+)
+  \,.
+$$
+
+Here the isomorphism on the left is the combination of the strong monoidalness of $\Sigma^\infty$ with the respect of suspension $\Sigma$ for the smash product of spectra (the [[tensor triangulated category]] structure on $Ho(Spectra)$, [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)).
+
+
+
+#### On representing spectra
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -95,9 +236,9 @@ which has the [[universal property]] that $\mu_\beta$ becomes an [[equivalence]]
 
 =--
  
-([Snaith 79](#Snaith79))
+([Snaith 79](#Snaith79), [Hopkins-Mathew](#HopkinsMathew)) spring
 
-### Snaith's theorem for algebraic K-theory
+### For algebraic K-theory
 
 +-- {: .num_remark}
 ###### Remark
@@ -159,8 +300,7 @@ $$
 
 The theorem is due to 
 
-* [[Victor Snaith]], _Algebraic Cobordism and K-theory_, Mem. Amer. Math. Soc. no 221 (1979)
- {#Snaith79}
+* {#Snaith79} [[Victor Snaith]], _Algebraic Cobordism and K-theory_, Mem. Amer. Math. Soc. no 221 (1979)
 
 with a simpler proof given in 
 
