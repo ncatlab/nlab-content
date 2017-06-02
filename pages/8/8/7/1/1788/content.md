@@ -1,13 +1,16 @@
-# Ultrafilter characterization of compactness {#sec:org19bf2fd}
+# Ultrafilter characterization of compactness {#sec:org6ab3822}
 
-## Idea {#sec:org7165d5c}
+## Idea {#sec:org9aad01b}
 
-A $X$ is if and only if every has a convergent subnet. Ultrafilters are
-another way of talking about nets (since one can associate to every net
-its **convergence filter**), and one can similarly characterize
-compactness in terms of the convergence of ultrafilters.
+A [[topological space]] $X$ is
+[[compact]] if and only if every
+[[net]] has a convergent subnet.
+Ultrafilters are another way of talking about nets (since one can
+associate to every net its **convergence filter**), and one can
+similarly characterize compactness in terms of the convergence of
+ultrafilters.
 
-## Statement and proof {#sec:org16fd9b2}
+## Statement and proof {#sec:orgc035b96}
 
 +-- {: .num_prop}
 ###### Proposition
@@ -51,8 +54,6 @@ construction, $\mathcal{V}$ also contains $X \backslash U_x$. This means
 $\mathcal{V}$ was not an ultrafilter, a contradiction.
 
 =--
-
-
 
 ***
 
