@@ -1,0 +1,5 @@
+An **identity-on-objects [[functor]]** $F: \mathbb{A}\to \mathbb{B}$
+
+* Is between categories with the same objects -   $Obj = ob(\mathbb{A}) = ob(\mathbb{B})$.
+* Has as its underlying object function $F_{ob}: Obj \to Obj$ the [[identity]] function on $Obj$. 
+
