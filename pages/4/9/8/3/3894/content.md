@@ -370,7 +370,7 @@ Specifically, when $X$ is a [[smooth manifold]] of [[dimension]] $n$, the [[fram
 
 =--
 
-#### $G$-Structure on an etale $\infty$-grouoid
+#### $G$-Structure on an etale $\infty$-groupoid
 
 We discuss the concept in the generality of [[higher differential geometry]], formalized in [[differential cohesion]].
 
