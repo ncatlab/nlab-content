@@ -1,4 +1,6 @@
 
+> This entry is about the term of "class function" as it is used in algebraic contexts. (Such class functions are usually set-maps.) For the notion of the same name in [[set theory]] see at _[[class function (set theory)]]_.
+
 #Contents#
 * table of contents
 {:toc}
