@@ -1,5 +1,6 @@
 **[[AQFT]]** and **[[operator algebra]]**
 
+[[homotopical algebraic quantum field theory]]
 
 ## Definitions
 
