@@ -99,3 +99,5 @@ Conversely, every locally compact Haudorff space $X$ arises as in prop. \ref{Ope
 * [[maps from compact spaces to Hausdorff spaces are closed and proper]]
 
 * [[continuous images of compact spaces are compact]]
+
+[[!redirects locally compact Hausdorff spaces are equivalently open subspaces of compact Hausdorff spaces]]
