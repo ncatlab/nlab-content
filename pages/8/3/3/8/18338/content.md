@@ -1,10 +1,24 @@
 An as yet rare term, but not without precedent. 
 
-It is used---but not defined--- in Section 1.1 of [Strickland](#Strickland1998), 
+## Examples of the usage
+
+The term _unnatural isomorphism_ is used---but not defined--- in Section 1.1 of [Strickland](#Strickland1998), 
 
 and one definition is proposed and discussed in [MathOverflow2013](#MathOverflow2013).
 
+## Idea
+
 This is about formalising situations in which two structures _are_ isomorphic but there is no [[natural isomorphism]] between them. 
+
+## Two meanings
+
+One has to distinguish two meanings of _unnatural isomorphism_:
+
+* unnatural isomorphism _of categories_
+
+* unnatural isomorphism _of functors_
+
+## Another distinction
 
 
 One should perhaps also distinguish between an [[unnatural isomorphism]], which is an additional _structure_ added to two categories, and the _property_ of being [[unnaturally isomorphic]].
