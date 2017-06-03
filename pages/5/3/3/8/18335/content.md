@@ -10,7 +10,7 @@ A class function is a [[class]] $R$  which is a [[relation]] with the property t
 
 A class function need not be a [[set]].
 
-Class functions are an important concept when formalizing [[category theory]] on [[set theory|set-theoretic]] [[foundations]], especially when 
+Class functions are an important concept when formalizing [[category theory]] on [[set theory|set-theoretic]] [[foundations]] without using [[universes]], especially when 
 
 * constructing functors step by step, e.g. by first constructing an assignment between two classes of objects, and then compatibly augmenting this assignment to make it a functor,
 
