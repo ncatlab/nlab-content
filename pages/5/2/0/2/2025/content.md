@@ -13,7 +13,7 @@
 * table of contents
 {: toc}
 
-## Idead
+## Idea
  {#Idea}
 
 A _compact Hausdorff space_ or _compactum_, for short, is a [[topological space]] which is both a [[Hausdorff space]] as well as a [[compact space]].
