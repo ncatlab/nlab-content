@@ -1,5 +1,11 @@
 > This entry is about the term of "class function" as it is used in set-theoretical contexts. For the notion of the same name in [[algebra]] see at _[[class function]]_.
 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A class function is a [[class]] $R$  which is a [[relation]] with the property that if $(x,y)\in R$ and $(x,y')\in R$, then $y=y'$. 
 
 A class function need not be a [[set]].
@@ -27,8 +33,8 @@ on the behaviour of the class function $x\mapsto 2^x$ on the class of all cardin
 Often, authors resort to synonyms like [[operation]] or [[assignment]] when writing about proper classes, with [p. 23](#MacLane1998) being a counterexample.
 
 
-References
+## References
 
-* {#MacLane1998} S. Mac Lane. Categories for the Working Mathematician. Second Edition. Springer (1998)
+* {#MacLane1998} [[Saunders Mac Lane]]. _[[Categories for the Working Mathematicia]]_ Second Edition. Springer (1998)
 
 * {#Jech2002} T. Jech. Set theory. Third Edition. Springer (2002) 
