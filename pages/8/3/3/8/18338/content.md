@@ -14,9 +14,20 @@ One should perhaps also distinguish between an [[unnatural isomorphism]], which 
 In [MathOverflow2013], M. Brandenburg recommends _pointwise isomorphic_ as a synonym, which is a more descriptive and systematic term. This should perhaps be augmented by a [[essentially pointwise isomorphic]], for _being perforce unnaturally isomorphic_. 
 
 
+## Examples
+ 
+#### A-forteriori-example.
+
+Any of the isomorphisms between a vector space and its dual obtained in the usual way after choosing a basis. Here, naturality is impossible a forteriori because of unequal variances. 
+
+#### Non-a-forteriori example . 
+
+(cf. [Brandenburg2013](#Brandenburg2013)) for most categories $\mathsf{C}$, 
+the [[functor category]] $\mathsf{C}^{\circ\rightarrow\circ}$ is unnaturally isomorphic to the [[arrow category]] $\mathsf{C}^{\rightarrow}$. 
+
 References
 
-* [[Martin Brandenburg]], _[MO answer](https://mathoverflow.net/q/139396)_ 
+* {#Brandenburg2013} [[Martin Brandenburg]], _[MO answer](https://mathoverflow.net/q/139396)_ 
 
 * {#Strickland1998} N. P. Strickland, Morava E-Theory, Topology, Vol. 37, No. 5 (1998), 757--779
 
