@@ -61,7 +61,7 @@ And
 
 * $Top_{cpt}$ for the [[full subcategory]] of [[Top]]${}_{Haus}$ on the [[compact topological spaces]];
 
-* $*/Top_{cpt}$ for the category of [[pointed topologica]] [[compact Hausorff spaces]], i.e. the [[pointed objects]] in $Top_{cpt}$;
+* $*/Top_{cpt}$ for the category of [[pointed topological]] [[compact Hausdorff spaces]], i.e. the [[pointed objects]] in $Top_{cpt}$;
 
 * $Top_{lcpt}$ for the category of Hausdorff and [[locally compact topological spaces]] with morphisms being the [[proper maps]] of topological spaces.
 
