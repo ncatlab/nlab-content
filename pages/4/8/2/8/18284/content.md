@@ -50,7 +50,7 @@ First we claim singletons of $Y$ are closed: for each $y \in Y$ there exists $x 
 Let $C, D$ be disjoint closed sets of $Y$, so that $\neg C, \neg D$ form an open cover of $Y$. Then $A = q^{-1}(\neg C), B = q^{-1}(\neg D)$ form an open cover of $X$. Normality of $X$ (in "[[De Morgan duality|De Morganized]]" form) implies there are closed subsets $E \subseteq A, F \subseteq B$ which together also cover $X$. Then $Y = q(X) = q(E \cup F) = q(E) \cup q(F)$, so the closed sets $q(E), q(F)$ cover $Y$. And we have $q(E) \subseteq q(A) = \neg C$ and similarly $q(F) \subseteq \neg D$, which is equivalent to $C \subseteq \neg q(E)$ and $D \subseteq \neg q(F)$, where $\neg q(E), \neg q(F)$ are disjoint open sets of $Y$, and we are done. 
 =-- 
 
-Here is one way in which such closed surjections arise: we know that [[compact Hausdorff spaces]] are normal spaces, and this is an especially nice class because the category of compact Hausdorff spaces is a [[pretopos]]. This is the categorical backdrop for the following observation. 
+Here is one way in which such closed surjections arise: we know that [[compact Hausdorff spaces]] are normal spaces, and this is an especially nice class because the category of compact Hausdorff spaces is a [[pretopos]]. This is the categorical backdrop for the following observation. (We don't need this lemma in any result below; we include it merely as a handy lemma to have around.) 
 
 +-- {: .num_lemma #pretopos} 
 ###### Lemma 
@@ -135,11 +135,11 @@ the space $W$ is normal (and $k: Y \to W$ is a closed embedding, by the precedin
 ###### Proof 
 By the Tietze characterization, it suffices to show that any map $\phi: C \to \mathbb{R}$ on a closed subspace $C$ of $W$ can be extended to a map $\psi$ on all of $W$. Pulling back $C \hookrightarrow W$ along $k$, we have a closed subspace $k^{-1}(C) \hookrightarrow Y$ and a composite map $k^{-1}(C) \stackrel{k|}{\to} C \stackrel{\phi}{\to} \mathbb{R}$; call it $\alpha: k^{-1}(C) \to \mathbb{R}$. By normality of $Y$, the map $\alpha: k^{-1}(C) \to \mathbb{R}$ extends to a map $\beta: Y \to \mathbb{R}$. We obtain a map $\beta f: X \to \mathbb{R}$. 
 
-Similarly, pulling $C \hookrightarrow W$ back along $g$, we have a composite map $g^{-1}(C) \stackrel{g|}{\to} C \stackrel{\phi}{\to} \mathbb{R}$; call it $\gamma: g^{-1}(C) \to \mathbb{R}$. We may now define a map 
+Similarly, pulling $C \hookrightarrow W$ back along $g$, we have a composite map $g^{-1}(C) \stackrel{g|}{\to} C \stackrel{\phi}{\to} \mathbb{R}$. We may now define a map 
 
-$$\delta: h(X) \cup g^{-1}(C) \to \mathbb{R}$$ 
+$$\gamma: h(X) \cup g^{-1}(C) \to \mathbb{R}$$ 
 
-by $\delta(h(x)) = \beta f(x)$ for $h(x) \in h(X)$, and $\delta(z) = \phi(g(z))$ for $z \in g^{-1}(C)$. It is not hard to check that this is well-defined (by commutativity of the pullback square) and is continuous (using the fact that $h|: X \to h(X)$ is a homeomorphism, since $h$ is an embedding), and that $h(X) \cup g^{-1}(C)$ is a closed subset of $Z$ (since $h$ is closed). By normality of $Z$, we may extend $\delta$ to a map $\theta: Z \to \mathbb{R}$, and we have just observed that $\theta h = \beta f$, so the pair $(\beta, \theta): Y + Z \to \mathbb{R}$ induces a unique map $\psi: W \to \mathbb{R}$ such that $\psi k = \beta$ and $\psi g = \theta$. Finally, the restriction of $\psi$ to $C$ is $\phi$, as required. 
+by $\gamma(h(x)) = \beta f(x)$ for $h(x) \in h(X)$, and $\gamma(z) = \phi(g(z))$ for $z \in g^{-1}(C)$. It is not hard to check that $\gamma$ is well-defined (by commutativity of the pullback square) and is continuous (using the fact that $h|: X \to h(X)$ is a homeomorphism, since $h$ is an embedding), and that $h(X) \cup g^{-1}(C)$ is a closed subset of $Z$ (since $h$ is closed). By normality of $Z$, we may extend $\gamma$ to a map $\delta: Z \to \mathbb{R}$, and we have just observed that $\delta h = \beta f$, so the pair $(\beta, \delta): Y + Z \to \mathbb{R}$ induces a unique map $\psi: W \to \mathbb{R}$ such that $\psi k = \beta$ and $\psi g = \delta$. Finally, the restriction of $\psi$ to $C$ is $\phi$, as required. 
 =-- 
 
 ## Sequences of normal spaces 
@@ -164,6 +164,11 @@ Let $A, B$ be disjoint closed subsets of $X$, and for all $n$ put $A_n = X_n \ca
 Use normality of $X_{n+1}$ to select disjoint open sets $U_{n+1}, V_{n+1}$ such that $i_n(\widebar{U_n}) \cup A_{n+1} \subseteq U_{n+1}$ and $i_n(\widebar{V_n}) \cup B_{n+1} \subseteq V_{n+1}$, thus completing the recursive construction. 
 
 It is clear that $i_n(U_n) \subseteq U_{n+1}$ and the union $U = colim_n U_n$ defines an open set of $X$ (by definition of colimit topology), as does $V = colim_n V_n$. The sets $U, V$ include $A, B$ respectively and are disjoint since any element they have in common must belong to $U_n$ and $V_n$ for sufficiently large $n$, which is impossible. This completes the proof. 
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+An alternative proof using the Tietze characterization is easily given: if $C \subseteq colim_n X_n$ is closed and $f: C \to \mathbb{R}$ is continuous, then putting $C_n = X_n \cap C$ and $f_n = f|_{C_n}$, we define a suitable extension of each $f_n: C_n \to \mathbb{R}$ to a map $g_n: X_n \to \mathbb{R}$ by induction. Supposing at stage $n$ the map $g_n$ is given, we have a well-defined map $h_{n+1}: C_{n+1} \cup i_n(X_n) \to \mathbb{R}$ defined as $f_{n+1}$ on $C_{n+1}$ and as the composite $i_n(X_n) \cong X_n \stackrel{g_n}{\to} \mathbb{R}$ on $i_n(X_n)$. Then using normality of $X_{n+1}$, extend $h_{n+1}$ to a map $g_{n+1}: X_{n+1} \to \mathbb{R}$. Clearly $g_{n+1}$ extends $f_{n+1}$ and we have the compatibility equations $g_n = g_{n+1} i_n$, so the $g_n$ paste together to form a map $g: colim_n X_n \to \mathbb{R}$ which extends $f$. 
 =-- 
 
 +-- {: .num_theorem #CWComplexesAreNormal} 
