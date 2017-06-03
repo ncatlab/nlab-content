@@ -1,3 +1,9 @@
+# Contents 
+* table of contents 
+{:toc} 
+
+## Introduction 
+
 In this article we collect some results on colimits of paracompact spaces as computed in the category of topological spaces $Top$, and particular conditions under which the colimit is again paracompact. 
 
 The account is designed to be parallel to that given in [[colimits of normal spaces]], centering particularly on how paracompactness may be reformulated in terms of an extension or selection property. The relevant result, due to Ernest Michael, is particularly well-adapted to the study of colimits. 
@@ -19,7 +25,7 @@ A closed subspace $A$ of a paracompact space $X$ is paracompact.
 
 +-- {: .proof} 
 ###### Proof 
-Suppose $U_\alpha$ is an open covering of $A$; for each $\alpha$ choose a $V_\alpha$ open in $X$ such that $U_\alpha = V_\alpha \cap A$. (Actually no "[[axiom of choice|choice]]" is required: there is a unique maximal such $V_\alpha$.) The $V_\alpha$ together with the complement $\neg A$ cover $X$. If $\mathcal{U}$ is a locally finite open refinement of this covering (via paracompactness of $X$), then the family $\{U \cap A: U \in \mathcal{U}$ is a locally finite open refinement of the family of sets $U_\alpha$. 
+Suppose $U_\alpha$ is an open cover of $A$; for each $\alpha$ consider $\neg A \cup U_\alpha$ as the maximal open $V_\alpha$ in $X$ such that $U_\alpha = V_\alpha \cap A$. The $V_\alpha$ cover $X$. If $\mathcal{V}$ is a locally finite open refinement of this cover (via paracompactness of $X$), then the family $\{V \cap A: V \in \mathcal{V}\}$ is a locally finite open refinement of the family of sets $U_\alpha$. 
 =-- 
 
 +-- {: .num_lemma #poclosed} 
