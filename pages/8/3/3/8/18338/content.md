@@ -20,8 +20,7 @@ Any of the isomorphisms between a vector space and its dual obtained in the usua
 
 #### Non-a-forteriori example . 
 
-(cf. [Brandenburg2013](#Brandenburg2013)) for most categories $\mathsf{C}$, 
-the [[functor category]] $\mathsf{C}^{\circ\rightarrow\circ}$ is unnaturally isomorphic to the [[arrow category]] $\mathsf{C}^{\rightarrow}$. 
+(cf. [Brandenburg2013](#Brandenburg2013)) Two functors from the [[interval category]], $I$, to a category $C$ are naturally isomorphic only if the morphisms they land on are isomorphic in $C$'s arrow category. But they will be unnaturally isomorphic if they land on any parallel pair of arrows. 
 
 References
 
