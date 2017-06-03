@@ -1,17 +1,15 @@
 An as yet rare term, but not without precedent. 
 
-It is used---but not defined--- in [Section 1.1](#MStrickland1998), 
+It is used---but not defined--- in Section 1.1 of [Strickland](#Strickland1998), 
 
-and one definition is proposed and discussed in 
-
-[this MO discussion](https://mathoverflow.net/questions/139388/example-of-an-unnatural-isomorphism)
+and one definition is proposed and discussed in [MathOverflow2013](#MathOverflow2013).
 
 This is about formalising situations in which two structures _are_ isomorphic but there is no [[natural isomorphism]] between them. 
 
 
 One should perhaps also distinguish between an [[unnatural isomorphism]], which is an additional _structure_ added to two categories, and the _property_ of being [[unnaturally isomorphic]].
 
-In [MathOverflow2013], M. Brandenburg recommends _pointwise isomorphic_ as a synonym, which is a more descriptive and systematic term. This should perhaps be augmented by a [[essentially pointwise isomorphic]], for _being perforce unnaturally isomorphic_. 
+In [Brandenburg2013](#Brandenburg2013), _pointwise isomorphic_ is being recommended as a synonym, which is a more descriptive and systematic term. This should perhaps be augmented by a technical term [[essentially pointwise isomorphic]], expressing the notion of being unnaturally isomorphic _by necessity_. 
 
 
 ## Examples
@@ -31,4 +29,4 @@ References
 
 * {#Strickland1998} N. P. Strickland, Morava E-Theory, Topology, Vol. 37, No. 5 (1998), 757--779
 
-* {#MathOverflow2013} MathOverflow, (https://mathoverflow.net/questions/139388/example-of-an-unnatural-isomorphism)
+* {#MathOverflow2013} MathOverflow, _[MO discussion](https://mathoverflow.net/questions/139388/example-of-an-unnatural-isomorphism)_ 
