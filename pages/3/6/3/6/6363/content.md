@@ -61,13 +61,13 @@ And
 
 * $Top_{cpt}$ for the [[full subcategory]] of [[Top]]${}_{Haus}$ on the [[compact topological spaces]];
 
-* $*/Top_{cpt}$ for the category of [[pointed objects]] in $Top_{cpt}$;
+* $*/Top_{cpt}$ for the category of [[pointed topologica]] [[compact Hausorff spaces]], i.e. the [[pointed objects]] in $Top_{cpt}$;
 
 * $Top_{lcpt}$ for the category of Hausdorff and [[locally compact topological spaces]] with morphisms being the [[proper maps]] of topological spaces.
 
 =--
 
-The duality itself is exhibited by the following [[functors]]
+The duality itself is exhibited by the following [[functors]]:
 
 +-- {: .num_defn #FunctorsOfFunctionAlgebras}
 ###### Definition
@@ -75,7 +75,7 @@ The duality itself is exhibited by the following [[functors]]
 Write 
 
 $$
-  C : Top_{cpt} \to C^\ast Alg_{com}^{op}
+  C \;\colon\; Top_{cpt} \to C^\ast Alg_{com}^{op}
 $$ 
 
 for the functor which sends a [[compact topological space]] $X$ to the algebra of [[continuous function]]s $C(X) = \{f : X \to \mathbb{C} | f \; continuous\}$, equipped with the structure of a $C^\ast$-algebra in the evident way (...).
@@ -83,10 +83,10 @@ for the functor which sends a [[compact topological space]] $X$ to the algebra o
 Write
 
 $$
-  C_0 : */Top_{cpt} \to C^\ast Alg_{com,nu}
+  C_0 \;\colon\; */Top_{cpt} \to C^\ast Alg_{com,nu}
 $$
 
-for the functor that sends $(X,x_0)$ to the algebra of [[continuous function]]s $f : X \to \mathbb{C}$ for which $f(x_0) = 0$.
+for the functor that sends a [[pointed topological space|pointed topological]] [[compact Hausdorff space]] $(X,x_0)$ to the algebra of [[continuous function]]s $f : X \to \mathbb{C}$ for which $f(x_0) = 0$.
 
 
 
@@ -190,7 +190,9 @@ def. \ref{FunctorsOfFunctionAlgebras}.
 +-- {: .num_remark #ForLocallyCompactTopologicalSpaces}
 ###### Remark
 
-With due care on defining the right morphisms, the duallity generalizes also to [[locally compact topological spaces]]. See for instance ([Brandenburg 07](#Brandenburg07)).
+Since [[locally compact Hausdorff spaces are equivalently open subspaces of compact Hausdorff spaces]], via the construction that sends a locally compact Hausdorff space $X$ to its [[one-point compactification]], and since a [[continuous function]] on the compact Hausdorff spce $X^\ast$ which vanishes at the extra point is equivalently a continuous function on $X$ which [[vanishing at infinity|vanishes at infinity]], the above induces an equivalence between locally compact Hausdorff spaces and $C^\ast$-algebras of functions that vanish at infinity.
+
+With due care on defining the right morphisms, the duality generalizes also to [[locally compact topological spaces]]. See for instance ([Brandenburg 07](#Brandenburg07)).
 
 For an overview of other generalizations see also [this MO discussion](http://mathoverflow.net/a/82960/381).
 
