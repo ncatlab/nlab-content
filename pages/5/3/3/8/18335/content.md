@@ -4,10 +4,31 @@ A class function is a [[class]] $R$  which is a [[relation]] with the property t
 
 A class function need not be a [[set]].
 
-Class functions are an important concept for category theory, especially when constructing functors step by step, e.g. by first constructing an assignment between two classes of objects, and then compatibly augmenting this assignment to make it a functor.
+Class functions are an important concept for category theory, especially when 
 
-Often, authors resort to synonyms like [[operation]] or [[assignment]] when writing about proper classes.
+* constructing functors step by step, e.g. by first constructing an assignment between two classes of objects, and then compatibly augmenting this assignment to make it a functor
 
-Reference
+* most especially when constructing _functors on [[functor categories]]_, whose classes of objects tend to be proper classes.
 
-T. Jech. Set theory. Third Edition. Springer (2002) p. 12
+
+
+## Example in Category Theory
+
+An example is Mac Lane's discussion  [p. 23](#MacLane1998) of the [[category of all classes]], denoted [[Cls]], in his chapter on [[Foundations]]. There, the class of [[arrow]]s is defined by writing "its arrows [are] all functions $f\colon C\rightarrow C'$ between classes".
+
+## Example in Set Theory 
+
+Arguably the prototypical example of an essential use of the concept of class functions in [[set theory]] is [[Easton's theorem]] [Theorem 15.18](#Jech2002).
+on the behaviour of the class function $x\mapsto 2^x$ on the class of all cardinals. (In Easton's theorem, the domain of the class function in question is the proper class of all [[regular cardinals]].) 
+
+
+
+
+Often, authors resort to synonyms like [[operation]] or [[assignment]] when writing about proper classes, with [p. 23](#MacLane1998) being a counterexample.
+
+
+References
+
+* {#MacLane1998} S. Mac Lane. Categories for the Working Mathematician. Second Edition. Springer (1998)
+
+* {#Jech2002} T. Jech. Set theory. Third Edition. Springer (2002) 
