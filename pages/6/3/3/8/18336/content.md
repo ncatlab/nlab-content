@@ -1,5 +1,8 @@
-An informal term, usually synonymous with [[assignment]], and useful to avoid terms like [[function]] or [[map]] which are 
+An informal term, usually synonymous with [[assignment]], whose being and remaining _undefined_ is the very point of its usefulness: it is a useful catch-all, avoiding terms like [[function]] or [[map]] which are 
 
 * usually precisely defined within a given context, 
 
 * sometimes not what one means to say.
+
+
+Another recommendable (and widespread) practice is to try to avoid nouns altogether and resort to English verbs like _send_, _assign_, _take to_.
