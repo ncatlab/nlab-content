@@ -109,7 +109,7 @@ Therefore the statement follows since [[locally compact and sigma-compact spaces
 
 
 
-#
+
 +-- {: .num_prop #ParacompactnessPreservedByDisjointUnion}
 ###### Proposition
 
