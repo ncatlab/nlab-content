@@ -2,16 +2,24 @@ In this article we collect some results on colimits of paracompact spaces as com
 
 The account is designed to be parallel to that given in [[colimits of normal spaces]], centering particularly on how paracompactness may be reformulated in terms of an extension or selection property. The relevant result, due to Ernest Michael, is particularly well-adapted to the study of colimits. 
 
+
 ## Basic results 
 
-+-- {: .num_prop} 
++-- {: .num_prop #coproduct} 
 ###### Proposition 
 The coproduct in $Top$ of a small family of paracompact spaces is paracompact. 
 =-- 
 
+The proof is very easy. See [here](https://ncatlab.org/nlab/show/paracompact+topological+space#ParacompactnessPreservedByDisjointUnion). 
+
 +-- {: .num_prop} 
 ###### Proposition 
-A closed subspace of a paracompact space is paracompact. 
+A closed subspace $A$ of a paracompact space $X$ is paracompact. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Suppose $U_\alpha$ is an open covering of $A$; for each $\alpha$ choose a $V_\alpha$ open in $X$ such that $U_\alpha = V_\alpha \cap A$. (Actually no "[[axiom of choice|choice]]" is required: there is a unique maximal such $V_\alpha$.) The $V_\alpha$ together with the complement $\neg A$ cover $X$. If $\mathcal{U}$ is a locally finite open refinement of this covering (via paracompactness of $X$), then the family $\{U \cap A: U \in \mathcal{U}$ is a locally finite open refinement of the family of sets $U_\alpha$. 
 =-- 
 
 +-- {: .num_lemma #poclosed} 
@@ -32,7 +40,12 @@ If moreover $i$ is an open inclusion, then for any open $U \subseteq C$ we have 
 
 ## Michael's selection characterization of paracompactness 
 
+(See also [[Michael's theorems]].)
+
 It is well-known that a space $X$ is paracompact iff every open cover of $X$ admits a subordinate partition of unity. Michael's innovation was in figuring out how the partition of unity characterization may be recast in terms of existence of continuous sections of suitable projection maps. 
+
+From here on out, all spaces will be assumed to be $T_1$ ([[singletons]] are [[closed subset|closed]]); see [[separation property]]. 
+
 
 Recall that a [[relation]] in a [[category]] is a jointly monic [[span]] 
 
@@ -112,7 +125,7 @@ Since hypothesis $\bullet$ holds for $X$, we conclude that $S$ admits a selectio
 
 Now we put Michael's selection theorem to use in developing colimits of paracompact spaces. 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #attach} 
 ###### Theorem 
 If $X, Y, Z$ are paracompact spaces and $h: X \to Z$ is a closed embedding and $f: X \to Y$ is a continuous map, then in the pushout diagram in $Top$ 
 
@@ -141,4 +154,33 @@ Y & \underset{k}{\to} & W & & g^\ast R \\
  & & k^\ast R & \to & R.
 }$$ 
 
+By paracompactness of $Y$ and the selection criterion, there is a section $s$ of $k^\ast R \to Y$. The composite $s f: X \to k^\ast R$ in turn induces a selection $t: X \to f^\ast k^\ast R \cong h^\ast g^\ast R$. By Lemma \ref{extension}, the selection $t$ may be extended to a selection $u: Z \to g^\ast R$. The two maps 
+
+$$Y \stackrel{s}{\to} k^\ast R \to R, \qquad Z \stackrel{u}{\to} g^\ast R \to R$$ 
+
+may be pasted together (i.e., their respective composites with $f$ and $h$ agree) to give a map out of the pushout, $i: W \to R$, which is easily checked to be a section of $p$. 
 =-- 
+
++-- {: .num_prop #sequence} 
+###### Proposition 
+If $(i_n: X_n \to X_{n+1})_{n \in \mathbb{N}}$ is a countable sequence of closed embeddings between paracompact spaces, then the colimit $X = colim_n X_n$ is also paracompact. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $j_n: X_n \to X$ denote a component of the colimit cocone. Let $(R, p, q)$ from $X$ to a Banach space $B$ be an entire, lsc, closed and convex relation. Pulling this back to $X_0$, by paracompactness we have a selection $X_0 \to j_0^\ast R$. Given a selection $X_n \to j_n^\ast R$, we may extend along $i_n$ to a selection $X_{n+1} \to j_{n+1}^\ast R$ using paracompactness and Lemma \ref{extension}. These selections, being compatible with the inclusions $i_n$, paste together to give a selection $X \to R$. 
+=-- 
+
++-- {: .num_theorem #CWComplexesAreParacompact} 
+###### Theorem 
+A [[CW-complex]] is a [[paracompact space]]. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+A CW-complex $X$ is formed by an inductive process where the $n$-skeleton $X_n$ is formed as an [[attachment space]] formed from paracompact spaces. That is, we start with the paracompact space $X_{-1} = \emptyset$, and given the paracompact space $X_{n-1}$ and an attaching map $f: S_{n-1} = \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, we push out the closed embedding $S_{n-1} = \sum_{i \in I} S_i^{n-1} \hookrightarrow \sum_{i \in I} D_i^n = D_n$ (a closed embedding between paracompact spaces, by Proposition \ref{coproduct}) along the attaching map $f$ to get a closed embedding 
+
+$$i_n: X_{n-1} \to X_n (= X_{n-1} \cup_{S_{n-1}} D_n)$$ 
+
+and then deduce $X_n$ is paracompact by Theorem \ref{attach}. Then $X = colim_n X_n$ is paracompact by applying Proposition \ref{sequence}. 
+=--  
