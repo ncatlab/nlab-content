@@ -26,3 +26,7 @@ Nowadays, there are lots of new formalisms ([[derivators]], [[homotopical catego
 
 The $n$Lab entry [[homotopy theory]] takes homotopy in a rather general sense including not only classical homotopy, but also algebraic homotopy, homotopical algebra in the narrow sense (model categories and variants) and $(\infty,1)$-categories.
 
+## Related entries
+
+* [[homotopical algebraic quantum field theory]]
+
