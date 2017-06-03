@@ -12,7 +12,7 @@ A class function need not be a [[set]].
 
 Class functions are an important concept when formalizing [[category theory]] on [[set theory|set-theoretic]] [[foundations]], especially when 
 
-* constructing functors step by step, e.g. by first constructing an assignment between two classes of objects, and then compatibly augmenting this assignment to make it a functor
+* constructing functors step by step, e.g. by first constructing an assignment between two classes of objects, and then compatibly augmenting this assignment to make it a functor,
 
 * most especially when constructing _functors on [[functor categories]]_, whose classes of objects tend to be proper classes.
 
@@ -20,7 +20,7 @@ Class functions are an important concept when formalizing [[category theory]] on
 
 ## Example in Category Theory
 
-An example is Mac Lane's discussion  [p. 23](#MacLane1998) of the [[category of all classes]], denoted [[Cls]], in his chapter on [[Foundations]]. There, the class of [[arrow]]s is defined by writing "its arrows [are] all functions $f\colon C\rightarrow C'$ between classes".
+An example is Mac Lane's discussion  [p. 23](#MacLane1998) of the category of all [[classes]] in his chapter on [[Foundations]]. There, the class of [[arrow]]s is defined by writing "its arrows [are] all functions $f\colon C\rightarrow C'$ between classes".
 
 ## Example in Set Theory 
 
@@ -35,6 +35,6 @@ Often, authors resort to synonyms like [[operation]] or [[assignment]] when writ
 
 ## References
 
-* {#MacLane1998} [[Saunders Mac Lane]]. _[[Categories for the Working Mathematicia]]_ Second Edition. Springer (1998)
+* {#MacLane1998} [[Saunders Mac Lane]]. _[[Categories for the Working Mathematician]]_ Second Edition. Springer (1998)
 
 * {#Jech2002} T. Jech. Set theory. Third Edition. Springer (2002) 
