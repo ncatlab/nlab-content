@@ -126,6 +126,8 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 
 * [[Bub-Clifton theorem]]
 
+* [[Kadison-Singer problem]]
+
 ## References
 
 Gleason's original paper outlining the theorem is
