@@ -43,7 +43,7 @@ $$\array{
 A & & & & B
 }$$ 
  
-where $i$ is [[monomorphism|monic]]. Such spans are closed under span composition, and as a locally full subbicategory of $Span(C)$, the bicategory of partial maps in $C$ is locally preordered. In more down-to-earth terms, if $(i, f)$ and $(i', f')$ are partial maps from $a$ to $b$, we have $(i, f) \leq (i', f')$ if there exists (necessarily monic) $j$ such that $i = i' \circ j$ and $f = f' \circ j$. 
+where $i$ is [[monomorphism|monic]]. Such spans are closed under span composition, and as a [[locally full sub-2-category]] of $Span(C)$, the bicategory of partial maps in $C$ is locally preordered. In more down-to-earth terms, if $(i, f)$ and $(i', f')$ are partial maps from $a$ to $b$, we have $(i, f) \leq (i', f')$ if there exists (necessarily monic) $j$ such that $i = i' \circ j$ and $f = f' \circ j$. 
 
 Abstract bicategories of partial maps, parallel to [[bicategory of relations|bicategories of relations]], were introduced by ([Carboni 87](#Carb87)). 
 
