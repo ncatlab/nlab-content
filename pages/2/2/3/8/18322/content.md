@@ -75,6 +75,8 @@ A space $X$ is paracompact iff the condition
 is satisfied. 
 =-- 
 
+For now we omit giving the proof (given in [Michael](#Michael56)). 
+
 Before applying this theorem, we need a few lemmas that play supporting roles. 
 
 +-- {: .num_lemma #pullback} 
@@ -138,7 +140,7 @@ Y & \underset{k}{\to} & W,
 the space $W$ is paracompact (and $k: Y \to W$ is a closed embedding, by Lemma \ref{poclosed}). 
 =-- 
 
-(Compare a similar result for normal spaces, [here](https://ncatlab.org/nlab/show/colimits+of+normal+spaces#attach). 
+(Compare a similar result for normal spaces, [here](https://ncatlab.org/nlab/show/colimits+of+normal+spaces#attach).) 
 
 +-- {: .proof} 
 ###### Proof 
@@ -183,4 +185,8 @@ A CW-complex $X$ is formed by an inductive process where the $n$-skeleton $X_n$ 
 $$i_n: X_{n-1} \to X_n (= X_{n-1} \cup_{S_{n-1}} D_n)$$ 
 
 and then deduce $X_n$ is paracompact by Theorem \ref{attach}. Then $X = colim_n X_n$ is paracompact by applying Proposition \ref{sequence}. 
-=--  
+=-- 
+
+## References 
+
+* {#Michael56} Ernest Michael, *Continuous Selections I*, The Annals of Mathematics, 2nd Series, Vol. 63 No. 2. (March 1956), 361-382. [stable URL](http://www.jstor.org/stable/1969615?seq=1#page_scan_tab_contents), ([pdf](http://www.renyi.hu/~descript/papers/Michael_1.pdf)) 
