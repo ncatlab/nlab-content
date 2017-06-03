@@ -6,7 +6,7 @@ and one definition is proposed and discussed in
 
 [this MO discussion](https://mathoverflow.net/questions/139388/example-of-an-unnatural-isomorphism)
 
-This is about formalising situations in which two structures _are_ isomorphic but it is _impossible_ to construct a [[natural isomorphism]] between them. 
+This is about formalising situations in which two structures _are_ isomorphic but there is no [[natural isomorphism]] between them. 
 
 
 One should perhaps also distinguish between an [[unnatural isomorphism]], which is an additional _structure_ added to two categories, and the _property_ of being [[unnaturally isomorphic]].
