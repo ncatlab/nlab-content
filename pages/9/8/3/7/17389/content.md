@@ -24,7 +24,7 @@ Every [[CW-complex]] is a [[paracompact Hausdorff space]].
 
 =--
 
-e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#FritschPiccinini90)
+For a textbook explanation, see e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#FritschPiccinini90). Below we describe a somewhat more categorically minded approach. 
 
 ### CW-complexes are Hausdorff and normal
 
@@ -76,8 +76,30 @@ Each cell $D^{n}$ is a [[second-countable topological space]], and since [[count
 
 By prop. \ref{CWComplexesAreNormal} it is also normal, hence in particular [[regular topological space|regular]]. Now the statement follows from the fact that [[second-countable regular spaces are paracompact]].
 
-=--
+=-- 
 
+However, the statement holds in full generality: 
+
++-- {: .num_prop #CWComplexesAreParacompact}
+###### Proposition
+
+CW-complexes (no restriction on the number of cells) are [[paracompact topological spaces]].
+
+=-- 
+
+The proof can again be broken down in two steps, parallel to the discussion after Proposition \ref{CWComplexesAreNormal}. The first is that each $n$-skeleton $X_n$ of a CW-complex $X$ is paracompact (throughout we use "paracompact" to mean paracompact and $T_1$; of course we know from Proposition \ref{CWComplexesAreNormal} that CW-complexes are Hausdorff), and that the inclusion $X_{n-1} \hookrightarrow X_n$ is a closed embedding. The second is that the colimit 
+
+$$X_0 \hookrightarrow X_1 \hookrightarrow \ldots$$ 
+
+of the sequence of skeleta and inclusions between them is again paracompact. 
+
+The proofs for these two steps are pretty simple, once we have in hand a celebrated result from the 1950's: Ernest Michael's [[Michael's theorem|selection criterion]] for paracompactness. Thus there are some technical preliminaries that enter the full argument: 
+
+* The [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity|proof]] that paracompactness of a space $X$ is equivalent to the statement that every open cover $\mathcal{U}$ admits a subordinate [[partition of unity]] (a result which requires some degree of [[axiom of choice|choice]]); 
+
+* A convenient repackaging of the partition of unity result whereby a subordinate partition of unity is recast as a certain *continuous selection*: a continuous map $X \to L^1(\mathcal{U})$ included inside a suitably constructed [[entire relation]] $R \hookrightarrow X \times L^1(\mathcal{U})$. Abstracting away, the desired results thus involve considering maps $X = colim\; \mathbf{D} \to B$ out of a colimit of some diagram $\mathbf{D}$ of paracompact spaces into a Banach space $B$, and these boil down to [[cocones]] $\mathbf{D} \to B$ which are easily analyzed. 
+
+More details can be found at [[colimits of paracompact spaces]]. 
 
 ## Related statements
 
