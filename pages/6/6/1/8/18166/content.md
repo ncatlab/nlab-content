@@ -22,9 +22,9 @@
 
 Assuming the [[axiom of choice]] then:
 
-Let $(X,\tau)$ be a [[Hausdorff topological space]]. Then the following are equivalent:
+Let $(X,\tau)$ be a topological space that is $T_1$ (meaning [[singletons]] are [[closed subsets]]; see [[separation property]]). Then the following are equivalent:
 
-1. $(X,\tau)$ is a [[paracompact topological space]].
+1. $(X,\tau)$ is [[paracompact topological space|paracompact]] and [[Hausdorff space|Hausdorff]].
 
 1. Every [[open cover]] of $(X,\tau)$ admits a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}).
 
@@ -279,7 +279,7 @@ is a partition of unity as required.
 ###### Proof
 of theorem \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}
 
-In one direction, assume that every open cover $\{U_i \subset X\}_{i \in I}$ admits a subordinate partition of unity $\{f_i\}_{i \in I}$. Then by definition (def. \ref{PartitionOfUnity}) $\{ Int(Supp(f)_i)  \subset X\}_{i \in I}$ is a locally finite open cover refining the original one.
+In one direction, assume that every open cover $\{U_i \subset X\}_{i \in I}$ admits a subordinate partition of unity $\{f_i\}_{i \in I}$. Then by definition (def. \ref{PartitionOfUnity}) $\{ Int(Supp(f)_i)  \subset X\}_{i \in I}$ is a locally finite open cover refining the original one, so $X$ is paracompact. Moreover, since $X$ is $T_1$, for any distinct points $x, y \in X$ there is a cover consisting of the open sets $\neg \{x\}, \neg \{y\}$ (the [[complements]] of the singletons). If $f_x, f_y$ is a subordinate partition of unity (with $f_x$ supported on $\neg \{x\}$, and similarly for $f_y$), then $f_x(x) = 0$ and $f_y(y) = 0$. Then from $f_x + f_y \equiv 1$ we derive $f_x(y) = 1$, whereupon $\{z \in X: f_x(z) \lt 1/2\}$ and $\{z \in X: f_x(z) \gt 1/2\}$ are disjoint open neighborhoods containing $x$ and $y$ respectively. Hence $X$ is Hausdorff. 
 
 The other direction is the statement of prop. \ref{OpenCoverOfParacompactHausdorffSpaceAdmitsPartitionOfUnity}.
 
