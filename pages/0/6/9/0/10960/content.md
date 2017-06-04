@@ -1,3 +1,4 @@
+[[!redirects Kant]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,7 +17,21 @@
 
 * [[Critique of Pure Reason]]
 
+* [[transcendental ideal]]
+
+* [[infinite judgement]]
+
+* [[construction in philosophy]]
+
 * [[category (philosophy)]]
+
+* [[Aufhebung]]
+
+* [[Johann Fichte|Johann Gottlieb Fichte]]
+
+* [[Hermann Cohen]]
+
+* [[Ernst Cassirer]]
 
 ## References
 
@@ -24,5 +39,7 @@
 
 * Bitbol, Michel, Kerszberg, Pierre, Petitot, Jean (Eds.), _Constituting Objectivity: Transcendental Perspectives on Modern Physics_ Springer (2009)
   * Jean Petitot, _[Noncommutative Geometry and Transcendental Physics](http://topologicalmedialab.net/xinwei/classes/readings/Petitot/Petitot_NoncommutativeGeometry.pdf)_, pgs 415-455
+
+[[!redirects Kant]]
 
 category: people
