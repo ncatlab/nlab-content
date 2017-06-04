@@ -1,10 +1,11 @@
+[[!redirects colimits of paracompact spaces]]
 # Contents 
 * table of contents 
 {:toc} 
 
 ## Introduction 
 
-In this article we collect some results on colimits of paracompact spaces as computed in the category of topological spaces $Top$, and particular conditions under which the colimit is again paracompact. 
+In this article we collect some results on colimits of paracompact Hausdorff spaces as computed in the category of topological spaces $Top$, and particular conditions under which the colimit is again paracompact and Hausdorff. 
 
 The account is designed to be parallel to that given in [[colimits of normal spaces]], centering particularly on how paracompactness may be reformulated in terms of an extension or selection property. The relevant result, due to Ernest Michael, is particularly well-adapted to the study of colimits. 
 
@@ -133,7 +134,7 @@ Since hypothesis $\bullet$ holds for $X$, we conclude that $S$ admits a selectio
 
 Now we put Michael's selection theorem to use in developing colimits of paracompact spaces. 
 
-+-- {: .num_theorem #attach} 
++-- {: .num_theorem #ClosedEmbeddingsOfParacompactaClosedUnderPushout} 
 ###### Theorem 
 If $X, Y, Z$ are paracompact spaces and $h: X \to Z$ is a closed embedding and $f: X \to Y$ is a continuous map, then in the pushout diagram in $Top$ 
 
@@ -169,7 +170,7 @@ $$Y \stackrel{s}{\to} k^\ast R \to R, \qquad Z \stackrel{u}{\to} g^\ast R \to R$
 may be pasted together (i.e., their respective composites with $f$ and $h$ agree) to give a map out of the pushout, $i: W \to R$, which is easily checked to be a section of $p$. 
 =-- 
 
-+-- {: .num_prop #sequence} 
++-- {: .num_prop #ColimitsOfSequencesOfParacompacta} 
 ###### Proposition 
 If $(i_n: X_n \to X_{n+1})_{n \in \mathbb{N}}$ is a countable sequence of closed embeddings between paracompact spaces, then the colimit $X = colim_n X_n$ is also paracompact. 
 =-- 
@@ -177,20 +178,6 @@ If $(i_n: X_n \to X_{n+1})_{n \in \mathbb{N}}$ is a countable sequence of closed
 +-- {: .proof} 
 ###### Proof 
 Let $j_n: X_n \to X$ denote a component of the colimit cocone. Let $(R, p, q)$ from $X$ to a Banach space $B$ be an entire, lsc, closed and convex relation. Pulling this back to $X_0$, by paracompactness we have a selection $X_0 \to j_0^\ast R$. Given a selection $X_n \to j_n^\ast R$, we may extend along $i_n$ to a selection $X_{n+1} \to j_{n+1}^\ast R$ using paracompactness and Lemma \ref{extension}. These selections, being compatible with the inclusions $i_n$, paste together to give a selection $X \to R$. 
-=-- 
-
-+-- {: .num_theorem #CWComplexesAreParacompact} 
-###### Theorem 
-A [[CW-complex]] is a [[paracompact space]]. 
-=-- 
-
-+-- {: .proof} 
-###### Proof 
-A CW-complex $X$ is formed by an inductive process where the $n$-skeleton $X_n$ is formed as an [[attachment space]] formed from paracompact spaces. That is, we start with the paracompact space $X_{-1} = \emptyset$, and given the paracompact space $X_{n-1}$ and an attaching map $f: S_{n-1} = \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, we push out the closed embedding $S_{n-1} = \sum_{i \in I} S_i^{n-1} \hookrightarrow \sum_{i \in I} D_i^n = D_n$ (a closed embedding between paracompact spaces, by Proposition \ref{coproduct}) along the attaching map $f$ to get a closed embedding 
-
-$$i_n: X_{n-1} \to X_n (= X_{n-1} \cup_{S_{n-1}} D_n)$$ 
-
-and then deduce $X_n$ is paracompact by Theorem \ref{attach}. Then $X = colim_n X_n$ is paracompact by applying Proposition \ref{sequence}. 
 =-- 
 
 ## References 
