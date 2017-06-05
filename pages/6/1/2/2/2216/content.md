@@ -10,6 +10,16 @@ Peirce's philosophy can be seen as Schellingism transformed in light of (in Peir
 
 ##References
 
+Stanford Encyclopedia of Philosophy entries:
+
+* [Charles Sanders Peirce](https://plato.stanford.edu/entries/peirce/)
+* [Peirce's Deductive Logic](https://plato.stanford.edu/entries/peirce-logic/)
+* [Peirce's Theory of Signs](https://plato.stanford.edu/entries/peirce-semiotics/)
+* [Peirce's View of the Relationship Between His Own Work and German Idealism](https://plato.stanford.edu/entries/peirce/self-contextualization.html)
+* [Peirce on Abduction](https://plato.stanford.edu/entries/abduction/peirce.html)
+
+Other references
+
 * [[Geraldine Brady]] and [[Todd Trimble]] (2000a). A Categorical Interpretation of C. S. Peirce's Propositional Logic Alpha. Journal of Pure and Applied Algebra 149 (2000): 213-239
 
 * {#BradyTrimble} [[Geraldine Brady]] and [[Todd Trimble]] (2000b). _[[A string diagram calculus for predicate logic|A String Diagram Calculus for Predicate Logic and C. S. Peirce's System Beta]]_, preprint 
