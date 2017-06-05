@@ -1,1 +1,1 @@
-Peter Heinig
+category: people
