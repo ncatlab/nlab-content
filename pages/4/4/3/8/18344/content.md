@@ -1,0 +1,58 @@
+
+## Definition
+
+Synonym for _functors between which there exists at least one [[natural isomorphism]]_.
+
+
+## Relation to functor categories 
+
+If $F_0,F_1\colon\mathcal{C}\rightarrow\mathcal{D}$ are functors, and _if_ the concept of [[functor category]] $[\mathcal{C},\mathcal{D}]$ has been defined, then
+
+$F_0$ and $F_1$ are isomorphic functors 
+
+if and only if 
+
+$F_0$ and $F_1$ are isomorphic objects in the functor category $[\mathcal{C},\mathcal{D}] $.
+
+
+Notably, the notion of _isomorphic functors_ does not need the concept of [[functor categories]] which involves foundational considerations that prompt some authors to make cautionary remarks about there being such a thing as a category of all functors from $\mathcal{C}$ to $\mathcal{D}$ at all (cf. e.g. [Auslander (1971, p.9)](#Auslander1971)) 
+
+## Remarks
+
+A fundamental use of the concept of isomorphic functors is the usual definition of [[equivalent categories]] which involves functors isomorphic to [[identity functor]]s 
+
+### Defining isomorphism of objects and isomorphism of functors
+
+In any category $\mathcal{C}$, and for any objects $O$ and $O'$ of $\mathcal{C}$, the following are equivalent:
+
+* $O$ and $O'$ are [[isomorphic]] in $\mathcal{C}$,
+
+* the hom-functors $\mathcal{C}(-,O)$ and $\mathcal{C}(-,O')$ are isomorphic functors,
+
+* the hom-functors $\mathcal{C}(O,-)$ and $\mathcal{C}(O',-)$ are isomorphic functors.
+
+### Isomorphic functors and limits
+
+If $F_0,F_1\colon\mathcal{C}\rightarrow\mathcal{D}$ are isomorphic functors, and if $X\colon \mathcal{I}\rightarrow \mathcal{D}$ is a [[diagram]], then 
+
+$F_0$ preserves limits over $X$,
+
+if and only if
+
+
+$F_1$ preserves limits over $X$.
+
+
+
+
+## Related entries
+
+* [[functor category]]
+
+* [[limit]]
+
+## References
+
+* {#Auslander1971}[[M. Auslander]],  The representation dimension of artin algebras. 
+Queen Mary College Mathematics Notes (1971) Republished in: Selected works of Maurice Auslander. American Mathematical Society (1999)
+
