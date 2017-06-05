@@ -42,8 +42,10 @@ Other references
 * C.S. Peirce & Matthew Moore (ed) (2010), Philosophy of Mathematics: Selected Writings
 
 * {#MellZeil} [[Paul-André Melliès]] and [[Noam Zeilberger]] (2016) _A bifibrational reconstruction of Lawvere's presheaf hyperdoctrine_, ([	arXiv:1601.06098, cs.LO](http://arxiv.org/abs/1601.06098))
+
 [[!redirects C.S. Peirce]]
 [[!redirects Charles Peirce]]
 [[!redirects Charles S. Peirce]]
+[[!redirects Peirce]] 
 
 category: people, philosophy
