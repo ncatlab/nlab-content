@@ -455,11 +455,13 @@ The other direction is harder.
 
 * [[co-Heyting boundary]]
 
-* [[closed morphism]], [[proper morphism]]
+* [[closed morphism]]
+
+* [[proper morphism]]
 
 ## References
 
-* C. Kuratowski, _Sur l'op&#233;ration $\bar{A}$ de l'analysis situs_ , Fund. Math. **III** (1922) pp.192-195. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm3/fm3121.pdf))
+* [[Kazimierz Kuratowski|C. Kuratowski]], _Sur l'op&#233;ration_ $\bar{A}$ _de l'analysis situs_ , Fund. Math. **III** (1922) pp.192-195. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm3/fm3121.pdf))
 
 Weakly closed sublocales are discussed in 
 
