@@ -73,7 +73,7 @@ The term is discussed, and a definition proposed, in [MathOverflow2013](#MathOve
 
 #### A widespread usage
 
-The term _unnatural isomorphism_ is often used in [[homological algebra]], in particular in discussions of splittings. An example is Theorem 4.3](#HiltonStammbach71), which explictly uses the term to decribe an isomorphism between Hom- and Ext-functors.
+The term _unnatural isomorphism_ is often used in [[homological algebra]], in particular in discussions of splittings. An example is [Theorem 4.3](#HiltonStammbach71), which explictly uses the term to decribe an isomorphism between Hom- and Ext-functors.
 
 ##### A recent definition 
 
@@ -201,6 +201,6 @@ Vol. 58, No. 2 (Sep., 1945), pp. 231-294 ([JSTOR](http://www.jstor.org/stable/19
 
 * {#MathOverflow2013} MathOverflow, _[Example of unnatural isomorphism](https://mathoverflow.net/questions/139388/example-of-an-unnatural-isomorphism)_ 
 
-* {#Strickland1998} [[N. P. Strickland|N. P. Strickland]], Morava E-Theory, Topology, Vol. 37, No. 5 (1998), 757--779
+* {#Strickland1998} [[Neil Strickland|N. P. Strickland]], Morava E-Theory, Topology, Vol. 37, No. 5 (1998), 757--779
 
 * {#Yorgey2014} [[B. A. Yorgey|B. A. Yorgey]], Combinatorial Species and Labelled Strucutures, Dissertation, University of Pennsylvania, 2014
