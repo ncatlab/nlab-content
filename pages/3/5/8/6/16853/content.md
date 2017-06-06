@@ -2,6 +2,7 @@ A **plane graph** (alternatively **plane map** or **planar map**) is a [[graph]]
 
 ## Related pages
 
+* [[planar graph]]
 * [[four-colour theorem]]
 
 [[!redirects plane map]]
