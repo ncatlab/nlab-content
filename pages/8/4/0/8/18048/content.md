@@ -27,7 +27,7 @@ Let $C$ be a [[differential graded-cocommutative coalgebra]] over a [[field]].
 
 There exists a [[model category]] structure on the category $C dgCoMod$ of [[dg-comodules]] over $C$ whose
 
-* weak equivalences are the [[quasi-isomorphisms]];
+* weak equivalences are the morphisms whose [[mapping cone]] is a co-acyclic comodule,
 
 * fibrations are the [[surjections]] whose [[kernel]] is such that its underlying [[comodule]] over the underlying [[coalgebra]] of $C$ is an [[injective object]].
 
