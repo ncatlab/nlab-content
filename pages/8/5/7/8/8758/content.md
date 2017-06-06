@@ -13,10 +13,12 @@
 
 * [[reflexive graph|reflexive]], [[directed graph|directed]]
 
-* [[relation]]
+* [[planar graph|planar]]
+
 
 ### Extra structure
 
 * [[reflexive graph|reflexive]] [[directed graph]] + [[unit law|unital]] [[associative]] [[composition]] = [[category]]
 
 * [[ribbon graph]]
+
