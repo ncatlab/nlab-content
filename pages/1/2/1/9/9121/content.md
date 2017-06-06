@@ -32,7 +32,7 @@ $$
   \,,
 $$
 
-where $\Re$ and $\&$ are [[idempotent monad|idempotent]] [[comonads]] and $\Im$ is an [[idempotent monad]].
+where $\Re$ and $\&$ are [[idempotent monad|idempotent]] [[comonads]] and $\Im$ is an [[idempotent monad]], furthermore $\Re$ preserves finite products.
 
 Here $\Re$ is the **reduction modality**. The [[reflective subcategory]] that it defines is that of [[reduced objects]].
 
