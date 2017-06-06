@@ -1,0 +1,18 @@
+[[!redirects planar]]
+A **planar graph** is a graph which can be embedded into a surface of [[genus]] 0 (such as a [[sphere]] or the [[Euclidean plane]]) without crossing edges. The existence of such an embedding for an arbitrary graph $G$ may be tested by various _planarity criteria_, such as Kuratowski's theorem ($G$ does not contain a subgraph that is an edge [[subdivision]] of $K_5$ or $K_{3,3}$) or _Mac Lane's planarity criterion_ (the [[cycle space]] of $G$ has a [[basis of a vector space|basis]] such that no edge of $G$ appears in more than two basis vectors).
+
+## Relationship to plane graphs/planar maps
+
+Planarity is usually considered as a [[property]] of graphs, rather than as extra [[structure]]. When the structure reading is intended, this is sometimes referred to as a "[[plane graph]]" or "[[planar map]]": that is, a graph equipped with an embedding into a genus 0 surface. In this sense, a planar graph is just a graph which is isomorphic to the underlying graph of a planar map. In particular, one graph might have multiple non-isomorphic embeddings into the plane, or it may be planar while also admitting embeddings into surfaces of higher genus (e.g., $K_4$ is planar, but can also be embedded into the [[torus]]).
+
+## Related entries
+
+* [[planar map]]
+* [[topological map]]
+
+## References
+
+* Wikipedia entry: [Planar graph](https://en.wikipedia.org/wiki/Planar_graph)
+* Wikipedia entry: [Polyhedral graph](https://en.wikipedia.org/wiki/Polyhedral_graph)
+
+[[!redirects planar graphs]]
