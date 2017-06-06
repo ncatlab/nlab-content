@@ -31,7 +31,7 @@ Planarity is usually considered as a [[property]] of graphs, rather than as extr
 
 ### Existence of embeddings
 
-The existence of an embedding of an arbitrary graph $G$ into a surface of genus 0 may be tested by various _planarity criteria_, such as Kuratowski's theorem ($G$ is planar iff it does not contain a subgraph that is an edge [[subdivision]] of $K_5$ or $K_{3,3}$, i.e, iff $K_5, K_{3, 3}$ are not [[graph minors]] of $G$) or _Mac Lane's planarity criterion_ (the [[cycle space]] of $G$ has a [[basis of a vector space|basis]] such that no edge of $G$ appears in more than two basis vectors). 
+The existence of an embedding of an arbitrary graph $G$ into a surface of genus 0 may be tested by various _planarity criteria_, such as Kuratowski's theorem ($G$ is planar iff it does not contain a subgraph that is an edge [[subdivision]] of $K_5$ or $K_{3,3}$, closely related to Wagner's theorem that this is the case iff $K_5, K_{3, 3}$ are not [[graph minors]] of $G$) or _Mac Lane's planarity criterion_ (the [[cycle space]] of $G$ has a [[basis of a vector space|basis]] such that no edge of $G$ appears in more than two basis vectors). 
 
 Related to the [[Kuratowski]] and [[Mac Lane]] characterizations is the [[matroid]] characterization of [[Hassler Whitney]]: a graph is planar iff its [[matroid|graphic matroid]] is [[matroid|dual]] to another graphic matroid. 
 
