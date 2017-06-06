@@ -1,8 +1,6 @@
-Usually an undefined, informal term, and usually synonymous with [[operation]]. 
-Its being undefined is often the reason for its usefulness: it can serve a useful catch-all, avoiding terms like [[function]] or [[map]] which are 
 
-* usually precisely defined within a given context, 
+In mathematical writing "assignment" is usually synonymous with _[[function]]_ or _[[map]]_. For example one might speak of "assigning to each positive number its square root" to refer to the function $\sqrt{(-)} \colon \mathbb{R}_{\geq 0} \to \mathbb{R}$.
 
-* sometimes not what one means to say. 
+Sometimes "assignment" is understood more generally as _[[relation]]_, often when authors define a function to be something that "assigs unique values" (for instance  [here](https://books.google.de/books?id=jYniBQAAQBAJ&pg=PA27&lpg=PA27&dq=function+map+assignment+mathematics&source=bl&ots=2aHFjcZ3c9&sig=1HkugZIeSQdnV70U5gjSx_H21ug&hl=en&sa=X&ved=0ahUKEwjpxuPey6nUAhWIfhoKHe9BDy0Q6AEIVTAJ#v=onepage&q=function%20map%20assignment%20mathematics&f=false)).
 
-Usually, any conception of a _container_ for all the assignments one uses is _irrelevant_, but it is nevertheless useful to have nouns for these assignments available.
+[[!redirects assignment]]
