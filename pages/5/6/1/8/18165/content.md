@@ -26,6 +26,8 @@ A _paracompact Hausdorff topological space_ is a  [[topological space]] such tha
 
 * [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
 
+* [[colimits of paracompact Hausdorff spaces]]
+
 ## Examples
 
 * [[CW-complexes are paracompact Hausdorff spaces]]
