@@ -21,6 +21,16 @@ The _real projective space_ $\mathbb{R}P^n$ is the [[projective space]] of the r
 
 Equivalently this is the [[Grassmannian]] $Gr_1(\mathbb{R}^{n+1})$.
 
+## Properties
+
+### Relation to classifying space
+
+The infinite real projective space $\mathbb{R}P^\infty \coloneqq \underset{\longrightarrow}{\lim}_n \mathbb{R}P^n$ is the [[classifying space]] for [[real line bundles]]. It has the [[homotopy type]] of the [[Eilenberg-MacLane space]] $K(\mathbb{Z}/2,1) = B \mathbb{Z}/2$.
+
+### Kahn-Priddy theorem
+
+* [[Kahn-Priddy theorem]]
+
 ## Related concepts
 
 * [[complex projective space]]
