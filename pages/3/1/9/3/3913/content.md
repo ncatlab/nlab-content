@@ -60,16 +60,16 @@ For $X$ a [[compact topological space]], $Th(V)$ is a model for [[generalized th
 
 The Thom space of the rank-$n$ [[universal vector bundle]] over the [[classifying space]] $B O(n)$ of the [[orthogonal group]] is usually denoted $M O(n)$. As $n$ ranges, these spaces form the [[Thom spectrum]].
 
+
+
 ## Definition 
  {#Definition}
-
-
 
 
 +-- {: .num_defn #ThomSpace}
 ###### Definition
 
-Let $X$ be a [[topological space]] and let $V \to X$ be a [[vector bundle]] over $X$ of [[rank]] $n$, which is [[associated bundle|associated]] to an [[orthogonal group|O(n)]]-[[principal bundle]]. Equivalently this means that $V \to X$ is the [[pullback]] of the [[universal vector bundle]] $E_n \to B O(n)$ over the [[classifying space]]. Since $O(n)$ preserves the [[metric]] on $\mathbb{R}^n$, by definition, such $V$ inherits the structure of a [[metric space]]-[[fiber bundle]]. With respect to this structure:
+Let $X$ be a [[topological space]] and let $V \to X$ be a [[vector bundle]] ([[topological vector bundle]]) over $X$ of [[rank]] $n$, which is [[associated bundle|associated]] to an [[orthogonal group|O(n)]]-[[principal bundle]]. Equivalently this means that $V \to X$ is the [[pullback]] of the [[universal vector bundle]] $E_n \to B O(n)$ over the [[classifying space]]. Since $O(n)$ preserves the [[metric]] on $\mathbb{R}^n$, by definition, such $V$ inherits the structure of a [[metric space]]-[[fiber bundle]]. With respect to this structure:c
 
 1. the **unit disk bundle** $D(V) \to X$ is the subbundle of elements of [[norm]] $\leq 1$;
 
@@ -159,7 +159,7 @@ The equivalence to the following alternative model for this homotopy cofiber is 
 +-- {: .num_prop #ThomSpaceOverCWEquivalentToConeOnInclusionOfComplementOf0Section}
 ###### Proposition
 
-Let $V \to X$ be a [[vector bundle]] over a [[CW-complex]] $X$. Write $V-X$ for the complement of its 0-[[section]].  Then the Thom space $Th(V)$ (def. \ref{ThomSpace}) is [[homotopy equivalence|homotopy equivalent]] to the [[mapping cone]] of the inclusion $(V-X) \hookrightarrow V$ (hence to the pair $(V,V-X)$ in the language of [[generalized (Eilenberg-Steenrod) cohomology]]).
+Let $V \to X$ be a [[vector bundle]] over a [[CW-complex]] $X$. Write $V \setminus X$ for the [[complement]] of its 0-[[section]].  Then the Thom space $Th(V)$ (def. \ref{ThomSpace}) is [[homotopy equivalence|homotopy equivalent]] to the [[mapping cone]] of the inclusion $(V \setminus X) \hookrightarrow V$ (hence to the pair $(V,V \setminus X)$ in the language of [[generalized (Eilenberg-Steenrod) cohomology]]).
 
 =--
 
@@ -170,7 +170,7 @@ The [[mapping cone]] of any map out of a [[CW-complex]] represents the [[homotop
 
 $$
   \array{
-    V-X &\longrightarrow& V
+    V\setminus X &\longrightarrow& V
     \\
     {}^{\mathllap{\in W_{cl}}}\downarrow && \downarrow^{\mathrlap{\in W_{cl}}}
     \\
@@ -187,7 +187,7 @@ $$
 +-- {: .num_prop #ThomSpaceOfDirectSumAsQuotientOfThomSpacesOfPullbacks}
 ###### Proposition
 
-Let $V_1,V_2 \to X$ be two real [[vector bundles]]. Then the Thom space (def. \ref{ThomSpace}) of the [[direct sum of vector bundles]] $V_1 \oplus V_2 \to X$ is expressed in terms of the Thom space of the [[pullbacks]] $V_2|_{D(V_1)}$ and $V_2|_{S(V_1)}$ of $V_2$ to the disk/sphere bundle of $V_1$ as
+Let $V_1,V_2 \to X$ be two real [[vector bundles]]. Then the Thom space (def. \ref{ThomSpace}) of the [[direct sum of vector bundles]] $V_1 \oplus V_2 \to X$ is expressed in terms of the Thom space of the [[pullback bundles]] $V_2|_{D(V_1)}$ and $V_2|_{S(V_1)}$ of $V_2$ to the disk/sphere bundle of $V_1$ as
 
 $$
   Th(V_1 \oplus V_2)
