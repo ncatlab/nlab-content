@@ -1,11 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A [[module]] over a [[ring]] whose underlying [[abelian group]] has trivial [[torsion subgroup]].
+A [[module]] over a [[ring]] whose underlying [[abelian group]] has trivial [[torsion subgroup]] is called _torsion-free_.
 
 ## Related concepts
 
@@ -14,3 +26,7 @@ A [[module]] over a [[ring]] whose underlying [[abelian group]] has trivial [[to
 * [[torsion module]]
 
 [[!redirects torsion-free modules]]
+
+[[!redirects torsionfree module]]
+[[!redirects torsionfree modules]]
+
