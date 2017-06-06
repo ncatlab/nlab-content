@@ -130,6 +130,11 @@ The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equiva
 
 * [[finite cover]]
 
+## Reference
+
+* [[Kazimierz Kuratowski|C. Kuratowski]], _Sur la notion d'ensemble fini_ , Fund. Math. **I** (1920) pp.130-131. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm1/fm1117.pdf))
+
+
 [[!redirects finite set]]
 [[!redirects finite sets]]
 [[!redirects Bishop-finite set]]
