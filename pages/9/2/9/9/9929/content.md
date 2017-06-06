@@ -15,7 +15,7 @@
 
 
 #Contents#
-* table of contents
+* table of contents$X$ 
 {:toc}
 
 ## Idea
@@ -59,7 +59,7 @@ with the [[commutative ring]] underlying $E$. Write $1 \in \pi_0(E)$ for the mul
 +-- {: .num_defn #ComplexOrientedCohomologyTheory}
 ###### Definition
 
-A [[multiplicative cohomology theory]] $E$ is _complex orientable_ if the the following equivalent conditions hold
+A [[multiplicative cohomology theory]] $E$ is _complex orientable_ if the following equivalent conditions hold
 
 1. The morphism
 
@@ -418,7 +418,7 @@ $$
   \mathbb{C}P^\infty
 $$
 
-which represents the [[tensor product of line bundles]] in that under the defining equivalence, and for $X$ any [[paracompact topological space]], then
+which represents the [[tensor product of line bundles]] in that under the defining equivalence, and for $X$ any [[paracompact Hausdorff space]] (notably a [[CW-complex]], since all [[CW-complexes are paracompact Hausdorff spaces]]), then
 
 $$
   \array{
@@ -439,7 +439,7 @@ $$
 
 where $[-,-]$ denotes the [[hom-sets]] in the (Serre-Quillen-)[[classical homotopy category]] and $\mathbb{C}LineBund(X)_{/\sim}$ denotes the set of [[isomorphism classes]] of [[complex line bundles]] on $X$.
 
-Together with the canonical point inclusion $\ast \to \mathbb{C}P^\infty$, this makes $\mathbb{C}P^\infty$ an [[abelian group|abelian]] [[group object]] in the [[classical homotopy category]].
+Together with the canonical point inclusion $\ast \to \mathbb{C}P^\infty$, this makes $\mathbb{C}P^\infty$ an [[abelian group|abelian]] [[group object]] in the [[classical homotopy category]] (an abelian [[H-group]]).
 
 =--
 
@@ -455,7 +455,7 @@ That this gives the structure of an [[abelian group|abelian]] [[group object]] n
 +-- {: .num_remark}
 ###### Remark
 
-The space $B U(1) \simeq \mathbb{C}P^\infty$ has in fact more structure than that of a homotopy group from lemma \ref{BU1HomotopyGroupStructure}. As an object of the [[homotopy theory]] represented by the [[classical model structure on topological spaces]], it is a _[[2-group]]_, a [[truncated object in an (infinity,1)-category|1-truncated]] [[infinity-group]].
+The space $B U(1) \simeq \mathbb{C}P^\infty$ has in fact more structure than that of an [[H-group]] from lemma \ref{BU1HomotopyGroupStructure}. As an object of the [[homotopy theory]] represented by the [[classical model structure on topological spaces]], it is a _[[2-group]]_, a [[truncated object in an (infinity,1)-category|1-truncated]] [[infinity-group]].
 
 =--
 
