@@ -41,7 +41,7 @@ In [[graph theory]], the default meaning of "hereditary" is that the property be
 
 * The property of being acyclic is hereditary. 
 
-* The property of being [[planar|planar graph]] is hereditary. 
+* The property of being [[planar graph|planar]] is hereditary. 
 
 ### In algebra 
 
