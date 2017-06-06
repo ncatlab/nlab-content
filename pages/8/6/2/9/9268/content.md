@@ -21,7 +21,12 @@
 
 A [[group object]] in [[infinite-dimensional smooth manifolds]] is an _infinite-dimensional [[Lie group]]_.
 
+If the underlying type of manifolds is [[Banach manifold]], then one speaks of _Banach-Lie groups_, etc.
+
+
 ## Examples
+
+* [[stable unitary group]]
 
 * [[loop group]]
 
@@ -44,3 +49,9 @@ Volume 7 (1997) 61-99 ([pdf](http://www.heldermann-verlag.de/jlt/jlt07/MICHPL.PD
 * [[Karl-Hermann Neeb]], _Towards a Lie theory of locally convex groups_  ([pdf](http://arxiv.org/pdf/1501.06269.pdf))
 
 [[!redirects infinite-dimensional Lie groups]]
+
+[[!redirects Banach-Lie group]]
+[[!redirects Banach-Lie groups]]
+
+[[!redirects Banach Lie group]]
+[[!redirects Banach Lie groups]]
