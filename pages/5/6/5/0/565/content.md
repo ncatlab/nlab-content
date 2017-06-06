@@ -128,7 +128,7 @@ A relatively deep application of Isbell's result is that the [[classical homotop
 ## Related concepts
 
 * [[concrete object]]
-
+* [[amnestic functor]]  (for many usual concrete categories, the forgetful functor happens to be amnestic)
 
 
 ## References
