@@ -178,6 +178,54 @@ is the [[absolute value]] of $z_{n+2}$. Representatives $\vec z'$ of this form (
 
 =--
 
+
+### Homotopy
+
+Write $\Sigma^\infty (\mathbb{C}P^\infty)_+ \in Ho(Spectra)$ for the [[H-group ring spectrum]] of $\mathbb{C}P^\infty \simeq B U(1)$ (see there for details).
+
+For $X \in Ho(Top)$ the [[homotopy type]] of a [[topological space]] in the [[classical homotopy category]], write
+
+$$
+  [\Sigma^\infty X_+ , \Sigma^\infty, \mathbb{C}P^\infty_+]
+   \simeq
+  [X, \Omega^\infty \Sigma^\infty \mathbb{C}P^\infty_+]
+  \in Ab
+$$
+
+for the [[hom-group]] in the [[stable homotopy category]], which, by [[adjunction]], is equivalently computed in the [[classical homotopy category]] as shown on the right.
+
+Write
+
+$$
+  i \;\colon\; \mathbb{C}P^\infty \simeq B U(1) \simeq B U(1) \times \{1\}
+ \hookrightarrow B U \times \mathbb{Z}
+$$
+
+for the inclusion into the [[classifying space]] for complex [[topological K-theory]] which classifies the inlusion of [[complex line bundles]] $E$ as  [[virtual vector bundles]] $[E] - 0$.
+
+
+
++-- {: .num_prop #HGroupRingSpectrumSurjectsOntoTopologicalKTheory}
+###### Proposition
+
+For any $X \in Ho(Top)$ the [[ring homomorphism]]
+
+$$
+  i_\ast \;\colon\;
+  [\Sigma^\infty X_+, \Sigma^\infty \mathbb{C}P_+]
+    \longrightarrow
+  K_{\mathbb{C}}(X)
+$$
+
+to [[topological K-theory]] is [[surjective function|surjective]].
+
+=--
+
+This is due to ([Segal 73, prop. 1](#Segal73)).
+
+Prop. \ref{HGroupRingSpectrumSurjectsOntoTopologicalKTheory} is sharpened by _[[Snaith's theorem]]_. See there for more. The version for [[real projective space]] is called the _[[Kahn-Priddy theorem]]_.
+
+
 ### Homology and Cohomology 
  {#Cohomology}
 
@@ -591,7 +639,7 @@ See also
 
 Computation of the [[stable homotopy groups]] of $\mathbb{C}P^\infty$ is due to 
 
-* [[Graeme Segal]], _The stable homotopy complex of projective space_ ([[Segal72.pdf:file]])
+* {#Segal73} [[Graeme Segal]], _The stable homotopy of complex of projective space_, The quarterly journal of mathematics (1973) 24 (1): 1-5. ([[Segal72.pdf:file]], [doi:10.1093/qmath/24.1.1]( https://doi.org/10.1093/qmath/24.1.1))
 
 (See also at _[[Snaith's theorem]]_.)
 
