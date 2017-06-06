@@ -63,7 +63,7 @@ Vector spaces, algebraic closures, graphs, restrictions, localizations, ...
 
 * A *graphic matroid* is a matroid $M$ derived from a [[simple graph]] by taking the underlying set of $M$ to be the set of edges $E$, and taking as independent sets of $M$ those $S \subseteq E$ such that the edges of $S$ (and their incident vertices) form a [[forest]], i.e., a graph without cycles.  
 
-* If $M$ is a matroid, then the *matroid dual* $M^\ast$ of $M$ has the same underlying set as $M$, and where a basis in $M^\ast$ is precisely the complement of a basis of $M$. It follows that $M^{\ast\ast} \cong M$ (this is even an equality according to the definition). 
+* If $M$ is a (finite) matroid, then the *matroid dual* $M^\ast$ of $M$ has the same underlying set as $M$, and where a basis in $M^\ast$ is precisely the complement of a basis of $M$. It follows that $M^{\ast\ast} \cong M$ (this is even an equality according to the definition). 
 
 ## Model-theoretic geometry 
 
