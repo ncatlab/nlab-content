@@ -26,15 +26,17 @@ If we follow the [[principle of equivalence]] and refuse to state equations betw
 
 ## Related concepts
 
-* [[structure]], 
 
+* [[concrete category]]
+* [[structure]]
 * [[stuff, structure, property]]
 
 
 ## References
 
-* Ad&#225;mek, Herlich and Strecker, [[The Joy of Cats]], Chapter I, Definition 3.27.
+* J. Ad&#225;mek, H. Herrlich and G.E. Strecker: [[The Joy of Cats]], Chapter I, Definition 3.27.
 
+* G. Preu&#223;: Theory of Topological Structures: An Approach to Categorical Topology. D. Reidel Publishing Company. Mathematics and Its Applications, Dordrecht, Holland 1988.  p. 178, footnote 31
 
 [[!redirects amnestic functor]]
 [[!redirects amnestic functors]]
