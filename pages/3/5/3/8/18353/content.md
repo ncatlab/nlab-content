@@ -1,0 +1,34 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Statemtn
+
+Write $\mathbb{R}P^\infty \in Ho(Top)$ for the [[homotopy type]] of [[complex projective space]] (an object in the [[classical homotopy category]]), and write $\Sigma^\infty \mathbb{R}P^\infty_+ \in Ho(Spectra)$ for its [[H-group ring spectrum]] in the [[stable homotopy category]]. Then for $X$ a suitable [[topological space]], the function that takes stable maps into this H-group ring spectrum to maps to the [[sphere spectrum]], hence to the [[stable cohomotopy]] of $X$
+
+$$
+  [\Sigma^\infty X_+ , \Sigma^\infty \mathbb{R}P^\infty_+ ]
+    \overset{surj.}{\longrightarrow}
+  [\Sigma^\infty X_+, \mathbb{S}]
+$$
+
+is [[surjective function|surjective]].
+
+This was announced in this form as [Segal 73, prop. 2](#Segal73), where the analogous statement for [[complex projective space]] and [[topological K-theory]] is proven (see [this prop.](complex+projective+space#HGroupRingSpectrumSurjectsOntoTopologicalKTheory))
+
+$$
+  [\Sigma^\infty X_+ , \Sigma^\infty \mathbb{C}P^\infty_+ ]
+    \overset{surj.}{\longrightarrow}
+  K_{\mathbb{C}}(X)
+$$
+
+
+
+## References
+
+* {#KahnPriddy72} [[Daniel Kahn]], [[Stewart Priddy]], _Applications of the transfer to stable homotopy theory_, Bull. Amer. Math. Soc. Volume 78, Number 6 (1972), 981-987 ([Euclid](https://projecteuclid.org/euclid.bams/1183534135))
+
+* {#Segal73} [[Graeme Segal]], _The stable homotopy of complex of projective space_, The quarterly journal of mathematics (1973) 24 (1): 1-5. ([[Segal72.pdf:file]], [doi:10.1093/qmath/24.1.1]( https://doi.org/10.1093/qmath/24.1.1))
+
