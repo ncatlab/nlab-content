@@ -19,7 +19,7 @@ This general definition admits variants, some of which are described below. In c
 
 In [[general topology]], the default meaning of "hereditary" is that if the property holds for a [[topological space]] $X$, then it holds also for [[subspaces]] of $X$. (Note that subspaces are equivalent to [[regular subobjects]] in $Top$.) Examples: 
 
-* The [[separation axioms]] abbreviated as $T_0$, $T_1$, $T_2$, $T_3$, and $T_{3 1/2}$ are hereditary. 
+* The [[separation axioms]] abbreviated as $T_0$, $T_1$, $T_2$, $T_3$, and $T_{3 \frac1{2}}$ are hereditary. 
 
 * The [[second-countable space|second-countability axiom]] is hereditary, as is the [[first-countable space|first-countability axiom]]. 
 
@@ -45,13 +45,13 @@ In [[graph theory]], the default meaning of "hereditary" is that the property be
 
 ### In algebra 
 
-The following examples are straightforward. 
+The following examples are well-known. 
 
-* In the category of groups, the property of being a [[free group]] is hereditary. 
+* In the category of groups, the property of being a [[free group]] [[Nielsen-Schreier theorem|is hereditary]]. 
 
 * In the category of abelian groups, the property of being [[free abelian group|free abelian]] is hereditary. 
 
-* In the category of [[modules]] over a [[PID]], the property of being [[free object|free]] is hereditary. 
+* [More generally](/nlab/show/principal+ideal+domain#StructureTheoryOfModules), in the category of [[modules]] over a [[PID]], the property of being [[free object|free]] is hereditary. 
 
 * In the category of modules over any [[commutative ring]], being [[torsionfree module|torsionfree]] is hereditary. 
 
