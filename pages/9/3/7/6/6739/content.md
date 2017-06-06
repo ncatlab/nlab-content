@@ -123,3 +123,5 @@ Forbidden minor characterizations also exist for certain classes of [[matroid|ma
 ## References 
 
 * Wikipedia article on graph minors [(link)](http://en.wikipedia.org/wiki/Minor_%28graph_theory%29)
+
+[[!redirects graph minors]] 
