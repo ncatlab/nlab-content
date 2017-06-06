@@ -44,7 +44,13 @@ Since inverse elements in a commutative ring are unique when they exist the seco
 
 * [[connected limit]]
 
+## Link
+
+* [category theory mailing list: discussion on extensive categories](http://www.mta.ca/~cat-dist/catlist/1999/extensive).
+
 ## References
+
+* [[Michael Barr]], [[Charles Wells]], _Toposes, Triples and Theories_ , Springer Heidelberg 1985. (Reprinted as [TAC reprint no.12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) (2005); section 8.2, pp.292ff) 
 
 * [[Peter Freyd]], _Cartesian Logic_ , Theor. Comp. Sci. **278** (2002) pp.3-21.
 
