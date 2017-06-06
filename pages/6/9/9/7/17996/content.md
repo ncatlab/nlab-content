@@ -58,11 +58,14 @@ $$
   \,.
 $$
 
-The ([[isomorphism class]]) of the complex line bundle which corresponds to $+1 \in \mathbb{Z}$ under this sequence of [[isomorphisms]] is called the _basic complex line bundle on the 2-sphere_.
+The ([[isomorphism class]]) of the complex line bundle which corresponds to $+1 \in \mathbb{Z}$ under this sequence of [[isomorphisms]] is called the _basic complex line bundle on the 2-sphere_. 
+
+Hence the basic complex line bundle on the 2-sphere is [[generalized the|the]] [[pullback bundle]] of the [[universal complex line bundle]] on $B U(1)$ along the map $S^2 \to B U(1)$ which represents the element $1 \in \mathbb{Z} \simeq \pi_2(B U(1))$. If the [[classifying space]] $B U(1)$ is represented by the infintie [[complex projective space]] $\mathbb{C}P^\infty$ with its canonical [[CW-complex]] structure ([this prop.](complex+projective+space#CellComplexStructureOnComplexProjectiveSpace)), then this map is represented by the canonical cell incusion $S^2 \hookrightarrow\mathbb{C}P^\infty$.
 
 Notice that there is a non-trivial [[automorphism]] of $\mathbb{Z}$ as an [[abelian group]] given by $n \mapsto -n$. This means that there is an ambiguity in the definition of the basic line bundle on the 2-sphere. 
 
 ## Properties
+
 
 +-- {: .num_lemma #ClutchingConstructionOfBasicLineBundle}
 ###### Lemma
@@ -252,6 +255,12 @@ This composite is an [[isomorphism]] if $X$ is a [[compact Hausdorff space]] (fo
 This is called the _[[fundamental product theorem in topological K-theory]]_. It is the main ingredient in the [[proof]] of [[Bott periodicity]] in complex topological K-theory.
 
 =--
+
+
+## Related concepts
+
+* [[universal complex line bundle]]
+
 
 ## References
 
