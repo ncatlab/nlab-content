@@ -24,7 +24,7 @@ Every [[CW-complex]] is a *paracompactum*, i.e., a [[paracompact Hausdorff space
 
 =--
 
-For one textbook explanation, see e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#FritschPiccinini90). Below we give a somewhat more categorically minded proof, linking to relevant results elsewhere in the [[nLab]]. 
+For one textbook explanation, see e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#FritschPiccinini90). Below we give a somewhat more [[category theory|categorically]] minded proof, linking to relevant results elsewhere in the [[nLab]]. 
 
 +-- {: .proof} 
 ###### Proof 
