@@ -38,7 +38,21 @@ The generalization of differentiable manifolds to [[higher differential geometry
 
 ## Definition
 
+For convenience, we first recall the basic definition of 
+
+* [Topological manifolds](#TopologicalManifolds)
+
+and of 
+
+* [Differntiable functioons between Euclidean spaces](#DifferentiableFunctionsBetweenCartesianSpaces)
+
+and then turn to the actual definition of
+
+* [Differentiable manifolds](#DifferentiableManifolds).
+
+
 ### Topological manifolds
+ {#TopologicalManifolds}
 
 For convenience, we first recall here some background on [[topological manifolds]]:
 
@@ -114,8 +128,66 @@ Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold
 =--
 
 
+### Differentiable functions between Cartesian spaces
+ {#DifferentiableFunctionsBetweenCartesianSpaces}
+
+For convenience we recall the definition of [[differentiable functions]]
+between [[Euclidean spaces]].
+
++-- {: .num_defn #DifferentiableFunctionBetweenCartesianSpaces}
+###### Definition
+**([[differentiable functions]] between [[Euclidean spaces]])**
+
+Let $n \in \mathbb{N}$ and let $U \subset \mathbb{R}^n$ be an [[open subset]].
+
+Then a [[function]] $f \;\colon\; U \longrightarrow \mathbb{R}$ is called  **differentiable** at $x\in U$ 
+if there exists a [[linear map]] $d f_x : \mathbb{R}^n \to \mathbb{R}$ such that the following [[limit of a sequence|limit]]
+exists as $h$ approaches zero "from all directions at once":
+
+$$ 
+  \lim_{h\to 0} \frac{f(x+h)-f(x) - d f_x(h)}{\Vert h\Vert} = 0. 
+$$
+
+This means that for all $\epsilon \in (0,\infty)$ there exists an [[open subset]] $V\subseteq U$ containing $x$ such that whenever $x+h\in V$ we have $\frac{f(x+h)-f(x) - d f_x(h)}{\Vert h\Vert} \lt \epsilon$.
+
+We say that $f$ is _differentiable on_ a [[subset]] $I$ of $U$ if $f$ is differentiable at every $x\in I$, and _differentiable_ if $f$ is differentiable on all of $U$. We say that $f$ is *continuously differentiable* if it is differentiable and  $d f$ is a [[continuous function]].
+
+The map $d f_x$ is called the **derivative** or **differential of $f$ at $x$**.  
+
+More generally, let $n_1, n_2 \in \mathbb{N}$ and let $U\subseteq \mathbb{R}^{n_1}$ be an [[open subset]]. 
+
+Then a [[function]] $f \;\colon\; U \longrightarrow \mathbb{R}^{n_2}$ is _differentiable_  if for all $i \in \{1, \cdots, n_2\}$ the component function
+
+$$
+  f_i \;\colon\; U \overset{f}{\longrightarrow} \mathbb{R}^{n_2} \overset{pr_u}{\longrightarrow}  \mathbb{R} 
+$$
+
+is differentiable in the previous sense
+
+In this case, the derivatives $d f_i \colon \mathbb{R}^n \to \mathbb{R}$ of the $f_i$ assemble into a linear map  of the form
+
+$$
+  d f_x \;\colon\; \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}
+  \,.
+$$
+
+If the derivative exists at each $x \in U$, then it defines itself a function
+
+$$
+  d f \;\colon\; U \longrightarrow Hom_{\mathbb{R}}(\mathbb{R}^{n_1} , \mathbb{R}^{n_2}) \simeq \mathbb{R}^{n_1 \cdot n_2}
+$$
+
+to the space of [[linear maps]] from $\mathbb{R}^{n_1}$ to $\mathbb{R}^{n_2}$, which is canonically itself a [[Euclidean space]]. We say that $f$ is _twice continuously differentiable_ if $d f$ is continuously differentiable.
+
+Generally then, for $k \in \mathbb{N}$ the function $f$ is called _$k$-fold continuously differentiable_ or _of class $C^k$_ if the $k$-fold differential $d^k f$ exists and is a continuous function.
+
+=--
+
+
+
 
 ### Differentiable manifolds
+ {#DifferentiableManifolds}
 
 
 +-- {: .num_defn #DifferentiableManifold}
@@ -126,7 +198,7 @@ For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifol
 
 1. a [[topological manifold]] $X$ (def. \ref{TopologicalManifold});
 
-1. an [[atlas]] $\{\mathbb{R}^n \overset{\phi_i}{\to} X\}$ (def. \ref{Charts}) all whose [[gluing functions]]  are $p$ times continuously [[differentiable function|differentiable]].
+1. an [[atlas]] $\{\mathbb{R}^n \overset{\phi_i}{\to} X\}$ (def. \ref{Charts}) all whose [[gluing functions]]  (def. \ref{Charts}) are $p$ times continuously [[differentiable function|differentiable]] (def. \ref{DifferentiableFunctionBetweenCartesianSpaces}).
 
 A $p$-fold [[differentiable function]] between $p$-fold differentiable manifolds 
 
