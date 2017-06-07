@@ -119,5 +119,23 @@ We use [[Reidemeister moves]] so have to check that they do not change the linki
 =--
 We can conclude that the Hopf link is not isotopic to the two component unlink, (which is reassuring) as any assignment of orientations to the Hopf link leads to a non-zero linking number.
 
+##Linking number is an integer
+
+Let $n_{1}$ (resp. $n_{2}$) be the sum of the signs of crossings between a pair of components $L_{1}$ and $L_{2}$ of a link in which the over arc belongs to $L_{1}$ (resp.  $L_{2}$). The linking number is then clearly equal to $\frac{1}{2}(n_{1} + n_{2})$.
+
+Now, take a crossing between $L_{1}$ and $L_{2}$ such that the over arc belongs to $L_{1}$. Suppose that we switch the crossing type, so that now the under arc belongs to $L_{1}$. Then, no matter what the sign of the crossing, it can be verified that the sum $n_{1} - n_{2}$ remains unchanged by this switch. 
+
+We may also obviously make crossing switches to the self-crossings of a component, or to crossings of the two components we are looking at with other components, without affecting the sum $n_{1} - n_{2}$.
+
+In addition, it is straightforward to check that the Reidemeister moves do not change the sum $n_{1} - n_{2}$. 
+
+Now, it is obvious that any pair of components of a link can be unlinked from the link after making appropriate crossing switches. In the case that $L_{1}$ and $L_{2}$ are circles disjoint from each other and the rest of the link, we have that $n_{1} - n_{2} = 0$. 
+
+We deduce that $n_{1} - n_{2} = 0$ in all cases. Hence $n_{1} = n_{2}$, and the linking number is equal to $\frac{1}{2}(2n_{1}) = n_{1} = n_{2}$. 
+
+In particular, the linking number is an integer. 
+
+An immediate consequence of the fact that the sum of the signs of the crossings between $L_{1}$ and $L_{2}$ is even is that there must in fact be an even number of such crossings.
+
 [[!redirects linking number]]
 [[!redirects linking numbers]]
