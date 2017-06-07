@@ -28,6 +28,8 @@ Let $X$ be a [[topological space]] which is
 
 Then $X$ is [[sigma-compact topological space|sigma-compact]].
 
+In particular then $X$ is also [[paracompact topological space|paracompact]] since [[locally compact and sigma-compact spaces are paracompact]].
+
 =--
 
 +-- {: .proof}
@@ -79,3 +81,5 @@ is a countable cover of $X$ by compact subspaces.
 * [[locally compact and sigma-compact spaces are paracompact]]
 
 * [[second-countable regular spaces are paracompact]]
+
+[[!redirects locally compact and second-countable spaces are paracompact]]
