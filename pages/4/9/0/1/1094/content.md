@@ -313,7 +313,7 @@ For presheaves with values in categories other than
 [[Set]], sheafification may be a difficult problem, unless one has some extra assumptions. 
 
 
-### With values in models for finit-limit theories ###
+### With values in models for finite-limit theories ###
 
 Consider a type of structure $T$ defined in terms of an [[essentially algebraic theory]] finite limits (such as [[group]]s, [[algebra]]s, [[module]]s, etc.), then [[internal logic|internal]] $T$-[[algebra over an algebraic theory|models]] are preserved by both [[direct image]]s and [[inverse image]]s of [[geometric morphism]]s.  Therefore, the [[adjunction]] $(L \dashv i) : Sh_J(C) \to PSh(C)$  directly induces an adjunction between $T$-models in sheaves and presheaves.  And since finite limits of sheaves and presheaves are computed pointwise, $T$-models in the category of (pre)sheaves are the same as (pre)sheaves of $T$-models-in-$Set$.
 
