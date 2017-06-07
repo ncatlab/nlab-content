@@ -55,7 +55,7 @@ If $f$ is a closed map, and $C \subset X$ is a closed subset so that also $f(C) 
 
 +-- {: .num_example #ProjectionsAreOpenContinuousFunctions}
 ###### Example
-**([[projections]] are [[open map|open]] [[continuous functions]] )**
+**([[projections]] out of [[product spaces]] are open maps)**
 
 For $(X_1,\tau_{X_1})$ and $(X_2,\tau_{X_2})$ two [[topological spaces]], then the projection maps
 
@@ -63,7 +63,7 @@ $$
   pr_i \;\colon\; (X_1 \times X_2, \tau_{X_1 \times X_2}) \longrightarrow (X_i, \tau_{X_i})
 $$
 
-out of their [[product topological space]] (def. \ref{BinaryProductTopologicalSpace})
+out of their [[product topological space]] 
 
 $$
   \array{
