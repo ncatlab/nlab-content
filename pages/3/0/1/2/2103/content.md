@@ -18,7 +18,7 @@ He is on the editorial boards of Mathematical Structures in Computer Science and
 ## Further related $n$Lab entries
 
 *  [[Barr-exact category]]
-
+*  [[Barr embedding theorem]]
 
 ## References
 
