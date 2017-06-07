@@ -26,7 +26,7 @@ The following is a generalisation to [[locally convex topological vector space|l
 
 * {#Rossi09} Stefano Rossi, _The Banach-Alaoglu theorem is equivalent to the Tychonoff theorem for compact Hausdorff spaces_, arXiv:[0911.0332](http://arxiv.org/abs/0911.0332)
 
-* {#Pelletier} Joan Wick Pelletier, _Locales in functional analysis_ [DOI](http://dx.doi.org/10.1016/0022-4049(91)90013-R)
+* {#Pelletier} Joan Wick Pelletier, _Locales in functional analysis_ [DOI](http://dx.doi.org/10.1016/0022-4049%2891%2990013-R)
 
 * {#Henry} Simon Henry, _Localic Metric spaces and the localic Gelfand duality_ [arxiv](https://arxiv.org/pdf/1411.0898)
 
