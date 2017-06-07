@@ -104,7 +104,7 @@ Given points $a$ and $b$, if every neighbourhood of $a$ meets every neighbourhoo
 It is immediate that $T_2 \equiv R_1 \wedge T_0$, and the proof above that $T_3 \Rightarrow T_2$ becomes a proof that $R_2 \Rightarrow R_1$; that is, every regular space is $R_1$.  An $R_1$ space is also called _preregular_ (in _[[HAF]]_) or _reciprocal_ (in [[convergence space]] theory).
 
 
-A bit stronger than regularity is _complete regularity_; a bit stronger than $T_3$ is $T_{3\frac{1}{2}}$.  The difference here is that we require that $a$ and $F$ be separated *by a function*, that is by a continuous real-valued function.  See [[Tychonoff space]] for more.
+A bit stronger than regularity is _complete regularity_; a bit stronger than $T_3$ is $T_{3\frac{1}{2}}$.  The difference here is that for a [[completely regular space]] we require that $a$ and $F$ be separated *by a function*, that is by a continuous real-valued function.  See [[Tychonoff space]] for more. This strengthening implies (Tychonoff Embedding Theorem) that the space embeds into a product of [[metric space]]s.
 
 For locales, there is also a weaker notion called [[weakly regular locale|weak regularity]], which uses the notion of [[fiberwise closed sublocale]] instead of ordinary closed [[sublocales]].
 
@@ -222,6 +222,8 @@ Every regular space comes with a naturally defined (point-point) [[apartness rel
 Note that if a space is [[Hausdorff space|localically strongly Hausdorff]] (a weaker condition than regularity), then it has an apartness relation defined by $x \# y$ if there are disjoint open sets containing $x$ and $y$.  If $X$ is regular, then this coincides with the above-defined apartness.
 
 
+[[!redirects completely regular]]
+[[!redirects completely regular space]]
 
 [[!redirects regular space]]
 [[!redirects regular spaces]]
