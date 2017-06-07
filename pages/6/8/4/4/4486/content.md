@@ -14,7 +14,7 @@
 {: toc}
 
 ## Idea
-
+f
 A map is *differentiable* at some point if it can be well approximated by a [[linear map]] near that point.  The approximating linear maps at different points together form the *derivative* of the map.
 
 One can then ask whether the derivative itself is differentiable, and so on.  This leads to a hierarchy of ever more differentiable maps, starting with [[continuous maps]] and progressing through maps that are $n$ times (continuously) differentiable to those that are infinitely differentiable, and finally to those that are [[analytic map|analytic]].  Infinitely differentiable maps are sometimes called *smooth*.
@@ -205,7 +205,7 @@ which is exactly what we would get by substitution.
 
 ### For maps between manifolds
 
-If $X$ and $Y$ are $C^k$-[[manifolds]], then we can define what it means for a map $f:X\to Y$ to be $n$ times differentiable, or $C^n$, for any $n\le k$, by asking that it yield such a map when restricted to any charts.  The most common case is when $X$ and $Y$ are smooth (infinitely differentiable) manifolds, so that we can define $C^n$ functions between them for all $n\le \infty$.  (Analytic manifolds, which are necessary in order to define analyticity of $f$, are somewhat rarer.)
+If $X$ and $Y$ are $C^k$-[[differentiable manifolds]], then we may define what it means for a map $f:X\to Y$ to be $n$ times differentiable, or $C^n$, for any $n\le k$, by asking that it yield such a map when restricted to any charts.  The most common case is when $X$ and $Y$ are smooth (infinitely differentiable) manifolds, so that we can define $C^n$ functions between them for all $n\le \infty$.  (Analytic manifolds, which are necessary in order to define analyticity of $f$, are somewhat rarer.)
 
 A differentiable map between manifolds induces a map between their [[tangent bundles]] $d f : T X \to T Y$; this operation extends to a [[functor]] from $C^{k+1}$ manifolds and $C^{k+1}$ maps to $C^k$ manifolds and $C^k$ maps.  See [[differentiation]] for more.
 
