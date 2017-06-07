@@ -1,28 +1,29 @@
-Term which is frequently used, informally, in mathematical discussions. 
+Term which is often used, mostly informally.
 
 There does not exist a standard precise meaning.
 
 
-The most important distinction is that _unnatural isomorphism_ is used both 
+The most important distinction is that _unnatural isomorphism_ is used both to refer to 
 
- * to refer to a perceived non-unicity of choices needed to build an isomorphism,
- * to refer to a perceived non-functoriality of some association of isomorphic objects, relative to some ambient category.
+ * size: a perceived non-unicity of choices needed to build some isomorphism (let us call this _noncanonical_ isomorphism)
+ * structure: a perceived non-functoriality of the isomorphism built, relative to a category (let us call this _unnatural isomorphism_)
 
-This article is _not_ about the former informal meaning, which arguably is about _size_ only (see [MO discussion](#MathOverflow2010) for a discussion of the adjective _canonical_ instead), rather focuses on the latter meaning only; more precisely: unnaturally isomorphic functors. 
+This article is _not_ about the former informal meaning, which arguably is about size only (see [MO discussion](#MathOverflow2010) for a discussion of the adjective _canonical_ instead). Rather, it  focuses on the latter meaning, and, more precisely, on the concept of unnaturally-isomorphic [[functor]]s.  Understanding such functors better can help to appreciate the important concept of [[natural isomorphism]].
 
 
-Caution: this article is _under construction_, please use with care.
+Caution: this article is _under construction_ and unfinished, please do not use it yet.
 
 
 
 This article has both a 
 
-* a descriptive, and 
-* an analytic 
+* a descriptive,  
+* an analytical,
 
 part. 
 
-In the former, usages of this term as they arise in mathematical practise are described. 
+In the former, some occurrences of this term in mathematical practise are described and commented. 
+In the latter, examples are analyzed mathematically, and some general remarks are made.
 
 
 
@@ -30,40 +31,33 @@ In the former, usages of this term as they arise in mathematical practise are de
 * table of contents
 {:toc}
 
-## Idea
+## Ideas and intuitive introduction
 
-Roughly, the term _unnatural isomorphism_ is born of a wish to speak about situations in which things appear very similar, but the similarity is less compelling than in other known situations. Category theory is useful in analysing and systematizing the underlying reasons. Understanding situations of unnatural isomorphism can help to better appreciate [[natural isomorphism]]s, in particular, to appreciate that---contrary to what the adjective _natural_ may suggest---many isomorphisms that occur in nature are in fact _not_ natural in the technical sense, the latter therefore being particularly valuable structures.
+The term _unnatural isomorphism_ is born of a wish to speak about things which appear very similar, but the similarity is less compelling than in other situations. Then, [[category theory]] is useful in analysing and systematizing the underlying reasons. Understanding situations of unnatural isomorphism can help to better appreciate [[natural isomorphism]]s, in particular, to appreciate that---contrary to what the adjective _natural_ may suggest---many isomorphisms that occur in nature are not natural in the technical sense, while many others are, and the natural ones are particularly efficient to work with.
 
+Intuitively, image you analyze two methods of manu$F$acturing certain $O'$bjects. Suppose you are only interested in some fixed sense of _(a)l$i$keness_ of the these $O'$bjects. Now you would like to compare manu$F_0$acturing the $O'$bjects one way with manu$F_1$acturing the $O'$bjects another way. 
 
+Imagine also that, from the same input, both manu$F_i$acturing-styles always produce two $O'$bjects which look al$i$ke, though not necessarily _identical_. Then, in a (your) sense, manu$F_0$acturing one way is the same as manu$F_1$acturing the other way. But you may still find the two ways essentially different, without being able to say why. Now category theory can help. In a sense, you have only compared $F_0$ and $F_1$ pointwise---statically---on the level of $0$-cells. You might find it useful to compare $F_0$ and $F_1$ dynamically, too, and then the two manu$F-i$acturing-styles may suddenly be patently different. 
+To discuss this mathematically, you have to fix a _notion of change_ within the world where your _raw_ $O$bjects are coming from, in other words, fix a _category_ that your $O$bjects are coming from. 
 
+## Terminology
 
-## Nomenclature 
-
-The term _unnatural_ is not to be taken in an judgemental sense, nor as suggesting this kind of isomorphism would occur _rarely_: the term is rather modelled on the standard term [[natural isomorphism]], which in turn is used for traditional reasons, cf. [EilenbergMac Lane45](#EilenbergMacLane45)
-
-
-One can distinguish between _an_ unnatural isomorphism, which is an additional _structure_ added to two functors, and _being_ unnaturally isomorphic, which is a property that a pair of functors may or may not have.
-
-In [Brandenburg2013](#Brandenburg2013), _pointwise isomorphic_ is being recommended as a synonym, which is indeed a more descriptive, neutral and systematic term. 
-Another alternative term would be _statically isomorphic_: intuitively, two functors are unnaturally isomorphic they always (produce things which) look isomorphic---as long as you do not move in the source-category.
+The term _unnatural_ is not to be taken in a judgemental sense, nor as suggesting this kind of isomorphism would occur _rarely_. The term is rather modelled on a standard term, [[natural isomorphism]], which in turn is used for traditional reasons, cf. [EilenbergMac Lane45](#EilenbergMacLane45).
 
 
+In [Brandenburg2013](#Brandenburg2013), _pointwise isomorphic_ is being recommended as a synonym, which is a more descriptive, neutral and systematic term. Another evocative term would be _statically isomorphic_: intuitively, two functors are unnaturally isomorphic they always (produce things which) look isomorphic---as long as you do not move in the source-category.
 
-Two functors $F_0,F_1\colon \mathcal{C}\rightarrow\mathcal{D}$ are unnaturally isomorphic if they have similar effect in a certain sense, but $F_0$ and $F_1$ are not [[isomorphic functors]], that is, are not isomorphic objects in the [[functor category]] $[\mathcal{C},\mathcal{D}]$, equivalently, there does not exist any [[natural isomorphism]] between them. 
 ### Descriptions of the usage
 
 #### Non-example 
 
-A kind of _non_-example is the use of the term _unnatural isomorphism_ in Section 1.1 of [Strickland](#Strickland1998); there, the author presumably refers to nothing else than that there are as many isomorphisms between two finite fields of the same cardinality as there are field automorphisms of a finite field of that size, none of them meaningfully distinguished.
+A kind of _non_-example is the use of the term _unnatural isomorphism_ in Section 1.1 of [Strickland](#Strickland1998); there, the term presumably refers to nothing else than there being as many isomorphisms between two finite fields of the same cardinality as there are field automorphisms of a finite field of that size, none of them meaningfully distinguished.
 This is the use of _unnatural_ as a synonym for _non-canonical_, which this article is _not_ about. 
 
 
-#### Examples.  
+##### An indirect example of the  usage
 
-
-##### An indirect example 
-
-There is a widespread usage "naturally isomorphic functors", somewhat pleonastic since [[isomorphic functors]] are usually assumed to be naturally isomorphic by default. This shows an awareness of, and a wish to guard against. the possibility of functors not being naturally isomorphic.
+There is a widespread usage "naturally isomorphic functors", somewhat pleonastic since [[isomorphic functors]] are usually assumed to be naturally isomorphic by default. This shows an awareness of, and a wish to guard against, the possibility of functors not being naturally isomorphic.
 
 
 ##### A mathematical discussion
@@ -71,21 +65,19 @@ There is a widespread usage "naturally isomorphic functors", somewhat pleonastic
 The term is discussed, and a definition proposed, in [MathOverflow2013](#MathOverflow2013).
 
 
-#### A widespread usage
+
+##### A widespread usage
 
 The term _unnatural isomorphism_ is often used in [[homological algebra]], in particular in discussions of splittings. An example is [Theorem 4.3](#HiltonStammbach71), which explictly uses the term to decribe an isomorphism between Hom- and Ext-functors.
 
 ##### A recent definition 
 
-Species are functors for which unnatural isomorphisms are often discussed. For example, [Definition 3.3.4](#Yorgey2014) defines an equivalence relation on the class of all species by explicitly using the term, defining an "equipotence between species [...] as an "unnatural" isomorphism between [the two species in question]", however, in _another_ sense, which will not be spelled out here, than discussed in  [MathOverflow2013](#MathOverflow2013).
-
-(under construction)
+Species are functors for which unnatural isomorphisms are often discussed. Examples are [this MO comment](#Gessel2014) and [Definition 3.3.4](#Yorgey2014) which defines an equivalence relation on the class of all species by explicitly using the term, defining an "equipotence between species [...] as an "unnatural" isomorphism between [the two species in question]", however, in _another_ sense, which will not be spelled out here, than discussed in  [MathOverflow2013](#MathOverflow2013).
 
 
+## A source of confusions
 
-## DIfferent meanings
-
-Many confusions in teaching and discussions appear to arise from the bare word_isomorphic_ being defined 
+Confusions in teaching and discussions appear to arise from the  adjective _isomorphic_ being defined 
 
 * between objects of one and the same category,
 
@@ -93,106 +85,31 @@ Many confusions in teaching and discussions appear to arise from the bare word_i
 
 * between two functors.
 
-Moreover, at the face of it, discussions of unnatural isomorphisms are often about two _objects_ of a given category, such as in discussions of some vector space $V$ being unnaturally isomorphic to its dual $V^\ast$. 
-This makes it seems as if there is a concept of unnaturally isomorphic _objects_; in the following sense, unnaturally (or naturally, for that matter) _objects_ are a meaningless concept: 
+At the face of it, discussions of unnatural isomorphisms are often about two _objects_ of a given category, such as in discussions of some vector space $V$ being unnaturally isomorphic to its dual $V^\ast$. (Cf example ($K$.dual) below.
 
-* on the elementary logical level, the language of 1-categories has but _one_ [[sort]] of _variables_ interpreted as morphisms.
+This makes it seems as if there were a concept of unnaturally isomorphic _objects_. However, in a sense unnaturally _objects_ is a meaningless concept ( and so are _naturally_ isomorphic objects, for that matter): 
 
-While, in a sense, there are "derived" sorts (such as [[epi]], [[mono]] and [[iso]]) of morphisms, defined by first-order formulas in the language of 1-category theory, a definition of _unnatural_ isomorphism in a category, formally speaking, does simply _not_ exist. 
+* on an elementary logical level, the language of 1-categories has but _one_ [[sort]] of _variables_ for (i.e. interpreted as) morphisms.
 
-(under construction)
-
-
-## Examples
-
-Many of these examples are based on [MathOverflow2013](#MathOverflow2013), please see there for the authors. For readability, no separate attributions to persons are made here. 
-
-### List of some examples 
-
-
-#### The minimal example
+While, in a sense, there are several "derived" sorts (the most elementary being [[epi]], [[mono]] and [[iso]]) of morphisms, defined by first-order formulas in the language of 1-category theory, a definition of _unnatural_ isomorphism in a category, formally speaking, does simply _not_ exist. 
 
 (under construction)
-
-
-#### The vector-space-dual-example
-
-Arguably, this is the most well known example.
-In a sense, this a doubly-unnatural isomorphism: there is both an issue of non-canonicity and of non-functoriality, ther latter failing for a particularly strong reasons: unequal variances. 
-
-(rest todo)
-
-#### The arrow-category-vs-functor-category-on-interval-category-example
-
-(under construction) 
-
-
-#### An example involving presheaves on posets
-
-(under construction)
-
-#### The species-of-permutations-vs-species-of-linear-orders example 
-
-(under construction) 
-
-#### The affine-space-vs-linear-space example
-
-(under construction) 
-
-#### The barycentric-subdivision-example
-
-(under construction)
-
-#### An example involving torsion in abelian groups
-
-(under construction)
-
-#### An example involving two cohomology rings
-
-(under construction) 
-
-
-## Examples ordered by _reasons_for failure of naturality
-
-(under construction)
-
-### Covariance versus contravariance
-
-(under construction)
-
-### Additional algebraic structure used for deriving contradictions
-
-(under construction)
-
-[[naturalitysquare000.pdf:file]]
-
-
-[[naturalitysquare001.pdf:file]]
-
-## A remark on the role of [[concretization]] functors 
-
-(under construction)
-
-
-### A necessary condition for two endofunctors to be unnaturally isomorphic
-
-(under construction)
-
-
-### A sufficient condition for two endofunctors to be unnaturally isomorphic
-
-(under construction)
-
 
 ### Notational remarks
 
- * In this article, the functors compared are invariably denoted $F_0$ and $F_1$, not $F$ and $G$, like in e.g. [MathOverflow2013](#MathOverflow2013) and in many other treatments involving pairs of functors, for one main reason: there is a long tradition of denoting functors _in opposite directions_ by $F$ and $G$, especially in discussions of adjunctions, but this is not what this article is about.
+ * In this article, the functors compared are invariably denoted $F_0$ and $F_1$, not $F$ and $G$, like in e.g. [MathOverflow2013](#MathOverflow2013) and in many other treatments involving pairs of functors, for one main reason: there is a long tradition of denoting functors in _opposite_ directions_ by $F$ and $G$, especially in discussions of adjunctions, but this is not what this article is about.
+
+
+(rest under construction)
+
+
 
 ## References
 
+
 * {#Brandenburg2013} [[Martin Brandenburg|M. Brandenburg]], _[MO answer](https://mathoverflow.net/q/139396)_ 
 
-* {#EilenbergMacLane45} [[Samuel Eilenberg|S. Eilenberg]], [[Saunders MacLane|S. Mac Lane]], _General Theory of Natural Equivalences_,  Transactions of the American Mathematical Society
+* {#EilenbergMacLane45} [[Samuel Eilenberg|S. Eilenberg]], [[Saunders Mac Lane|S. Mac Lane]], _General Theory of Natural Equivalences_,  Transactions of the American Mathematical Society
 Vol. 58, No. 2 (Sep., 1945), pp. 231-294 ([JSTOR](http://www.jstor.org/stable/1990284))
 
 * {#HiltonStammbach71} [[Peter Hilton|P. Hilton]],  U. Stammbach, _A course in homological algebra_, Springer-Verlag, New York, 1971, Graduate Texts in Mathematics, Vol. 4.
@@ -201,6 +118,10 @@ Vol. 58, No. 2 (Sep., 1945), pp. 231-294 ([JSTOR](http://www.jstor.org/stable/19
 
 * {#MathOverflow2013} MathOverflow, _[Example of unnatural isomorphism](https://mathoverflow.net/questions/139388/example-of-an-unnatural-isomorphism)_ 
 
+* {#Gessel2014} MathOverflow, _[What are some examples of interesting uses of the theory of combinatorial species?](https://mathoverflow.net/users/2926/todd-trimble)_
+
+
+
 * {#Strickland1998} [[Neil Strickland|N. P. Strickland]], Morava E-Theory, Topology, Vol. 37, No. 5 (1998), 757--779
 
-* {#Yorgey2014} [[B. A. Yorgey|B. A. Yorgey]], Combinatorial Species and Labelled Strucutures, Dissertation, University of Pennsylvania, 2014
+* {#Yorgey2014} [[B. A. Yorgey|B. A. Yorgey]], Combinatorial Species and Labelled Structures,  Dissertation, University of Pennsylvania, 2014
