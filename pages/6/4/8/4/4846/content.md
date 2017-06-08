@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
 =--
 =--
 
