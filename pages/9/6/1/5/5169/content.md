@@ -1,11 +1,12 @@
 
+> This entriy about operators in the sense of [[higher-order logic]], which is the original sense and which has only that name.  For operators in the sense of [[functional analysis]], see _[[linear operator]]_.  For the relation between these, see under Examples [below](#Examples). For yet other kinds of operators see at _[[operation]]_.
+
+
 # Operators
 * table of contents
 {: toc}
 
-## Disambiguation
 
-This is about operators in the sense of [[higher-order logic]], which is the original sense and which has only that name.  For operators in the sense of [[functional analysis]], see _[[linear operator]]_.  For the relation between these, see under Examples below.
 
 
 ## Definition
@@ -18,6 +19,7 @@ Although one typically interprets type theory within [[set theory]] so that oper
 
 
 ## Examples
+ {#Examples}
 
 The [[Church numeral]]s are operators in the (possibly typed) [[lambda-calculus]]:
 
