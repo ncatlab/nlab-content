@@ -96,6 +96,17 @@ $\,$
 
 $\,$
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+
 #Supergeometry#
 * table of contents
 {:toc}
@@ -1559,7 +1570,7 @@ We now discuss [[mapping spaces]] in [[supergeometry]]. These are interesting in
 
 1. for the theory -- mapping spaces nicely exhibit the usage and the power of the [[functor of points]] perspective (remark \ref{ASheafAsASpace});
 
-1. for applications -- the [[phase spaces]] of interest in [[physics]] are [[mapping spaces]] (in the generality of spaces of [[spaces of sections]], namely of a [[field bundle]]).
+1. for applications -- in[[physics]] a [[superfield]] is really a [[generalized element]] of a mapping space, and hence  the [[phase spaces]] of interest in [[physics]] are [[mapping spaces]] (in the generality of spaces of [[spaces of sections]], namely of a [[field bundle]]).
 
 The key idea is that [[sets]] of functions between sets have the following [[universal property]]:
 
@@ -1589,6 +1600,7 @@ It is immediate how to generalize example \ref{FunctionSet}:
 
 +-- {: .num_defn #InternalHom}
 ###### Definition
+**([[mapping space]]/[[internal hom]])**
 
 Let $\mathcal{C}$ be a [[category]] with [[Cartesian products]] of its [[objects]],
 hence a [[cartesian monoidal category]]. Then an [[internal hom]]-functor for $\mathcal{C}$
@@ -1647,7 +1659,8 @@ where $y \colon \mathcal{S} \hookrightarrow Sh(\mathcal{S})$ is the [[Yoneda emb
 For the **proof** see at _[[closed monoidal structure on presheaves]]_.
 
 Notice how prop. \ref{SheavesHomInternal} expresses an intuitively most obvious statement: Applied to
-geometric sheaf toposes such as $SmoothSet$ or $SuperFormalSmoothSet$ it says that a
+geometric sheaf toposes such
+as [[smooth set|SmoothSet]] or [[super formal smooth set|SuperFormalSmoothSet]] (def. \ref{FormalSmoothSets}) it says that a
 $U$-parameterized smooth family of points in a [[mapping space]] $[X,Y]$ is a smooth map of the form
 $X \times U \to Y$, hence a family of smooth functions $X \to Y$ which is smoothly parameterized by $U$.
 
@@ -1675,7 +1688,7 @@ In particular for instance the smooth [[loop space]] of a smooth manifold $X$ is
 
 A **proof** is given in  [Waldorf 09, lemma A.1.7](diffeological+space#Waldorf09).
 
-But in the topos $SuperFormalSmoothSet$ we have also mapping spaces much more general than the traditional ones of
+But in the topos [[super formal smooth set|SuperFormalSmoothSet]] (def. \ref{FormalSmoothSets}) we have also mapping spaces much more general than the traditional ones of
 example \ref{SmoothManifoldsMappingSpace}. We now look at some examples of these.
 
 
@@ -1754,8 +1767,9 @@ Example \ref{CorepresentingTangentSpace} is a key observation that motivated the
 We may also consider the following super-geometric version
 
 
-+-- {: .num_example}
++-- {: .num_example #MappingSpaceOddTangentBundle}
 ###### Example
+**([[odd tangent bundle]] as [[mapping space]])**
 
 Let $X$ be any [[smooth manifold]]. Then the [[internal hom]] in $SuperFormalSmoothSet$ out of the
 [[superpoint]] $\mathbb{R}^{0\vert 1}$ into $X$, according to prop. \ref{SheavesHomInternal},
@@ -1832,7 +1846,148 @@ then example \ref{EvenPartOfDimTwoSuperpoint} and finally example \ref{Coreprese
 
 =--
 
+More generally, this is the concept if [[superfields]] as used in the [[physics]] literature:
 
++-- {: .num_example #Superfields}
+###### Example
+**([[superfields]])**
+
+Let $X$ be a [[supermanifold]] (for instance a [[super spacetime]]) and consider
+the super-[[mapping space]] (def. \ref{InternalHom}) $[X,\mathbb{R}]$ (or $[X,\mathbb{C}]$) of real (or complex)
+valued functions on $X$ ("[[scalar fields]]"). We may
+understand the [[generalized elements]] of this superspace via its [[functor of points]] which,
+via prop. \ref{SheavesHomInternal}, is given by the assignment
+
+$$
+  \begin{aligned}
+    \mathbb{R}^{0\vert q}
+      & \mapsto
+    Hom( X \times \mathbb{R}^{0\vert q}, \mathbb{R} )
+    \\
+    &
+      \simeq
+    C^\infty(X \times \mathbb{R}^{0\vert q})_{even}
+    \\
+    &
+      \simeq
+    \left( C^\infty(X) \otimes_{\mathbb{R}} \wedge^\bullet \langle \theta_1, \cdots, \theta_q\rangle\right)_{even}
+  \end{aligned}
+  \,.
+$$
+
+Here in the first line on the right we have the set of maps of supermanifolds of the form $X \times \mathbb{R}^{0\vert q} \to \mathbb{R}$,
+which, by the [[Yoneda lemma]], is equivalently just the even subalgebra of the super-algebra of functions
+on $X \times \mathbb{R}^{0\vert q}$, which finally is equivalently the even elements in the
+[[tensor product]] of the super-algebra of functions on $X$ with the [[Grassmann algebra]] on $q$ odd generators
+$\theta_i$.
+
+Now an element in this tensor product is of the form
+
+$$
+  f
+  +
+  \underoverset{i = 1}{q}{\sum}
+  g_i \theta_i
+  +
+  \underoverset{i,j = 1}{q}{\sum}
+    f_{i j} \theta_i \theta_j
+  +
+  \underoverset{i,j,k = 1}{q}{\sum}
+  g_{i j k} \theta_i \theta_j \theta_j
+  +
+  \cdots
+$$
+
+for any  $f_{\cdots} \in C^\infty(X)_{even}$ and $g_{\cdots} \in C^\infty(X)_{odd}$.
+
+(Notice that here if $X$ is of superdimension $(d_X,q_X)$, then this expansion becomes redundant for
+$q \gt q_X$: The [[functor of points]] provides an arbitrary supply of auxiliary Grassmann coordinates
+$\theta$, only some of which will typically be of non-redundant use for any given superspace.)
+
+In [[physics]], such a [[linear combination]] of even and odd component functions multipled with
+Grassmann algebra elements to yield a homogeneously graded sum is called a _[[superfield]]_.
+
+In order to make sense of this, some physics textbooks (e.g. [[Bryce de Witt|de Wtt]] 92) posit a single "infinite dimensional Grassmann algebra"
+from which to draw the elements $\theta_i$. This approach has its pitfalls [Sachse 08, section 5.2](#Sachse08).
+The [[functorial geometry]] perspecive (remark \ref{ASheafAsASpace}) fixes this: the "arbitrary supply"
+of Grassmann variables is encoded by saying that
+
+1. for each finite dimensional Grassmann algebra $\wedge^\bullet \langle \theta_1, \cdots, \theta_q\rangle = C^\infty(\mathbb{R}^{0\vert q})$
+   superfields have an expansion in terms of the generators $\theta_i$;
+
+1. these expressions are _covariant_ with respect to change of Grassmann coordinates $\mathbb{R}^{0\vert q} \to \mathbb{R}^{0\vert q'}$.
+
+There are of course the evident generalizations of the scalar valued superfields along the same lines. 
+In general there is a (super-)[[fiber bundle]] $E \overset{\pi}{\to} X$ over ([[super spacetime|super]]) [[spacetime]] $X$ 
+called the (super)-[[field bundle]] such that a field on $X$ is a [[section]] of the field bundle
+(see also at _[[fiber bundles in physics]]_). The super-space of sections of $E$ is the following 
+[[fiber product]] of the [[mapping space]] 
+
+$$
+  \Gamma_X(E)
+    \;\coloneqq\;
+  [X,E] \underset{[X,X]}{\times} \{id_X\}
+  \,,
+$$
+
+i.e. the super-space with the [[universal property]] that it makes the follwing [[commuting square|square commute]]:
+
+$$
+  \array{
+    \Gamma_X(E) &\longrightarrow& [X,E]
+    \\
+    \downarrow && \downarrow^{\mathrlap{X,\pi}}
+    \\
+    \{id_X\} &\hookrightarrow& [X,X]
+  }
+  \,.
+$$
+
+Then a [[superfield]] with values in $E$ is a [[generalized element]] of $\Gamma_X(E)$. By the
+[[functorial geometry]]this means that field is over every
+superpoint $\mathbb{R}^{0\vert q}$ a homomorphism $\psi \colon X \times \mathbb{R}^{0\vert q}$
+such that
+
+$$
+  \array{
+    && E
+    \\
+    & {}^{\mathllap{\psi}}\nearrow & \downarrow^{\mathrlap{\pi}}
+    \\
+    X \times \mathbb{R}^{0 \vert q}
+    &\underset{pr_1}{\longrightarrow}&
+    X
+  }
+  \,.
+$$
+
+In a typical example $X$ is an ordinary [[smooth manifold]] with [[spin structure]] and $E = \Pi S$
+is the odd version (according to example \ref{OddTangentBundle}) of a [[spinor bundle]] on $X$.
+
+Then an element of $[X,\Pi S]$ is
+
+1. over $\mathbb{R}^{0\vert 0}$ no information;
+
+1. over $\mathbb{R}^{0 \vert 1}$ an element $\psi \theta$ with $\psi \in \Gamma_X(S)$ an ordinary section of the 
+   [[spinor bundle]] (hence a [[spinor field]]).
+   
+and so on.
+
+This may be combined: For example if $\underline{\mathbb{C}} \oplus_X \Pi $ is the [[direct sum of vector bundles]] of the 
+[[trivial vector bundle|trivial]] [[complex line bundle]] with an odd [[spinor bundle]], then a [[generalized element]]
+of $\Gamma_X\left(\underline{\mathbb{C} \oplus_X \Pi S \right)$ is over $\mathbb{R}^{0\vert 1}$ of the form
+
+$$
+  \sigma = \phi + \psi \theta
+  \,,
+$$
+
+where $\phi$ is a complex-vaued [[scalar field]] and $\psi$ again a section of the spinor bundle.
+
+This way [[bosonic fields]] and [[fermionic fields]] may be combined into a singe [[superfield]]
+(see also at _[[super multiplet]]_).
+
+=--
 
 
 
@@ -2196,6 +2351,7 @@ But later on the choice affects for instance the concept of [[torsion of a G-str
 
 +-- {: .num_example #OddTangentBundle}
 ###### Example
+**([[odd tangent bundle]])**
 
 Let $X$ be a [[smooth manifold]] of [[dimension]] $n$ and $E \to X$ a smooth [[vector bundle]] over $X$ of [[rank]]
 $k \in \mathbb{N}$. Then there is a [[supermanifold]] (def. \ref{VManifold}) of dimension
@@ -2263,6 +2419,8 @@ Below we see that this is not a coincidence, and discuss the formal proof that $
 (odd-graded) infinitesimal paths in $X$.
 
 =--
+
+
 
 
 
