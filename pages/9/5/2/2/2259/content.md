@@ -34,6 +34,9 @@ a work on [[philosophy of mathematics]]:
 
 * Mac Lane, S. (1986). Mathematics form and function. Springer.
 
+collections:
+
+* Saunders Mac Lane (1979). _Selected Papers_. Edited by I. Kaplansky. Springer-Verlag.
 
 ###Papers of particular relevance to subjects in the nLab
 
