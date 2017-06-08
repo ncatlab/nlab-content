@@ -43,9 +43,13 @@ Let $\Sigma$ be a first-order [[signature]],
 
 * [[Thoralf Skolem]]
 
-## References
+## Link
 
 * Wikipedia, _[L&#246;wenheim-Skolem theorem](https://en.wikipedia.org/wiki/L&#246;wenheim&#8211;Skolem_theorem)_
+
+## References
+
+* {#AdamekRosicky94}[[[[Jiří Adámek]]]], [[Jiří Rosický]], _Locally presentable and accessible categories_ ,  Cambridge UP 1994.
 
 * J. van Heijenoort (ed.), _From Frege to G&#246;del - A Source Book in Mathematical Logic 1879-1931_ , Harvard UP 1976.
 
