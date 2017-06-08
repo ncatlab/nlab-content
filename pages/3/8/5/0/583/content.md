@@ -25,29 +25,29 @@
 
 One of the most important observations of [[category theory]] is that large parts of mathematics can be [[internalization|internalized]] in any [[category]] with sufficient structure.  The most basic examples of this involve algebraic structures; for instance, a [[group]] can be defined in any category with finite products, and an [[internal category]] can be defined in any ambient category with [[pullback]]s. For such [[algebraic theory|algebraic]] (or even [[essentially algebraic theory|essentially algebraic]]) structures, which are defined by _operations_ with _equational axioms_ imposed, it suffices for the ambient category to have (usually finite) limits.
 
-However, it turns out that if we assume some additional structure on the ambient category, then much more of mathematics can be internalized, potentially including [[field]]s, [[local ring]]s, [[finite set]]s, [[topological space]]s, even the field of [[real number]]s.  The idea is to exploit the fact that all mathematics can be written in the language of [[logic]], and seek a way to internalize logic in a category with sufficient structure.
+However, if we assume that the ambient category has additional structure, then much more of mathematics can be internalized, potentially including [[field]]s, [[local ring]]s, [[finite set]]s, [[topological space]]s, even the field of [[real number]]s.  The idea is to exploit the fact that all mathematics can be written in the language of [[logic]], and seek a way to internalize logic in a category with sufficient structure.
 
-The basic ideas of the internal logic induced by a given [[category]] $C$ is this:
+The basic ideas of the internal logic induced by a given [[category]] $C$ are:
 
-* the [[object]]s $A$ of $C$ are regarded as collections of things of a given [[type]] $A$.
+* the [[object]]s $A$ of $C$ are regarded as collections of things of a given [[type]] $A$
 
-* the [[morphisms]] $A\to B$ of $C$ are regarded as terms of type $B$ containing a free [[variable]] of type $A$ (i.e. in a [[context]] $x:A$).
+* the [[morphisms]] $A\to B$ of $C$ are regarded as terms of type $B$ containing a free [[variable]] of type $A$ (i.e. in a [[context]] $x:A$)
 
-* a [[subobject]] $\phi \hookrightarrow A$ is regarded as a _proposition_ ([[predicate]]): by thinking of it as the sub-collection of all those things of type $A$ for which the statement $\phi$ is [[true]].
+* a [[subobject]] $\phi \hookrightarrow A$ is regarded as a _proposition_ ([[predicate]]): by thinking of it as the sub-collection of all those things of type $A$ for which the statement $\phi$ is [[true]]
 
-  * the maximal subobject is hence the proposition that is always true, this is the logical object of [[truth]] $\top \hookrightarrow A$.
+  * the maximal subobject is hence the proposition that is always true; this is the logical object of [[truth]] $\top \hookrightarrow A$
 
-  * the minimal subobject is hence the proposition that is always false, this is the logical object of [[falsity]] $\bottom \hookrightarrow A$.
+  * the minimal subobject is hence the proposition that is always false; this is the logical object of [[falsity]] $\bottom \hookrightarrow A$
 
-  * one proposition [[implication|implies]] another if as subobjects of $A$ they are connected by a morphism in the [[poset]] of subobjects: $\phi \Rightarrow \psi$ means $\phi \hookrightarrow \psi$.
+  * one proposition [[implication|implies]] another if as subobjects of $A$ they are connected by a morphism in the [[poset]] of subobjects: $\phi \Rightarrow \psi$ means $\phi \hookrightarrow \psi$
 
 * Logical operations are implemented by [[universal construction]]s on [[subobject]]s.
   
-  * the conjunction [[and]] is the [[product]] of subobjects (their [[meet]]).
+  * the conjunction [[and]] is the [[product]] of subobjects (their [[meet]])
 
-  * the conjunction [[or]] is the [[coproduct]] of subobjects (their [[join]]).
+  * the conjunction [[or]] is the [[coproduct]] of subobjects (their [[join]])
 
-  and so on.
+and so on.
 
 * A [[dependent type]] over an object $A$ of $C$ may be interpreted as a morphism $B\to A$ whose "fibers" represent the types $B(x)$ for $x:A$.  This morphism might be restricted to be a [[display map]] or a [[fibration]].
 
@@ -73,7 +73,7 @@ There are many different kinds of of "logical theories", each of which correspon
 |[[higher order logic|higher order]]| |[[topos|elementary topos]]|
 [[linear logic]]| |[[symmetric monoidal category]]|
 
-Each type of logic up through "geometric" can also be described in terms of [[sketch|sketches]].  Not coincidentally, the corresponding types of category show up through "geometric" fit into the framework of [[familial regularity and exactness]].  Sketches can also describe theories applicable to categories not even having finite products, such as finite sum sketches, but the type-theoretic approach taken on this page requires at least finite products (or else something closely akin, such as a [[cartesian multicategory]]).
+Each type of logic up to and including "geometric" can also be described in terms of [[sketch|sketches]].  Not coincidentally, the corresponding types of category up to and including "geometric" fit into the framework of [[familial regularity and exactness]].  Sketches can also describe theories applicable to categories not even having finite products, such as finite sum sketches, but the type-theoretic approach taken on this page requires at least finite products (or else something closely akin, such as a [[cartesian multicategory]]).
 
 However, there are other sorts of [[internalization]] that do not fit in this framework.  For instance, to describe a [[monoid]] internal to a [[monoidal category]], one needs an internal [[linear logic]].  See [[internalization]] for a discussion of the more  general notion in the context of [[doctrine]]s.
 
@@ -135,12 +135,12 @@ $$\{b\in B | (\exists a\in A)(a\in R \;\wedge\; f(a)=b)\},$$
 while its "dual image" (the right adjoint to pullback) can be defined as
 $$\{b\in B | (\forall a \in A)(f(a)=b \Rightarrow a\in R)\}.$$
 
-Of course, in not all finitely complete categories $C$ do all these operations on subobjects exist.  Moreover, in order for the relationship with logic to be well-behaved, any of these operations we make use of must be *[[pullback stability|stable]] under* (preserved by) pullbacks.  (Pullbacks of subobjects correspond to "innocuous" logical operations such as adding extra unused variables, duplicating variables, and so on, so they should definitely not affect the meaning of the logical connectives.  However, in [[linear logic]] such operations become less innocuous.)
+Of course, not in all finitely complete categories $C$ do all these operations on subobjects exist.  Moreover, in order for the relationship with logic to be well-behaved, any of the operations we make use of must be *[[pullback stability|stable]] under* (preserved by) pullbacks.  (Pullbacks of subobjects correspond to "innocuous" logical operations such as adding extra unused variables, duplicating variables, and so on, so they should definitely not affect the meaning of the logical connectives.  However, in [[linear logic]] such operations become less innocuous.)
 
 In any category with finite limits, the posets $Sub(A)$ always have finite intersections (given by pullback), including a top element (given by $A$ itself).  Thus in any such category, we can interpret logical theories that use only the connectives $\wedge$ and $\top$.  This includes both the theories of groups and posets considered above.  
 In a [[regular category]], the existence of pullback-stable [[image]]s implies that the [[base change]] functor $f^*:Sub(B)\to Sub(A)$ along any map $f:A\to B$ has a left adjoint, usually written $\exists_f$, and that these adjoints "commute with pullbacks" in an appropriate sense (given by the [[Beck-Chevalley condition]].  Thus, in a regular category we can interpret any theory in so-called _[[regular logic]]_, which uses only $\wedge$, $\top$, and $\exists$.
 
-Actually, some instances of $\exists$ can be interpreted in any category with finite limits: if $f$ is itself a monomorphism, then $f^*$ always has a left adjoint simply given by composition with $f$. On the logical side, this means that we can interpret "provably unique existence" in any category with finite limits.  Logic with $\wedge$, $\top$, and "provably unique existence" is called _cartesian logic_ or _finite-limit logic_.
+Actually, some instances of $\exists$ can be interpreted in any category with finite limits: if $f$ is itself a monomorphism, then $f^*$ always has a left adjoint, given simply by composition with $f$. On the logical side, this means that we can interpret "provably unique existence" in any category with finite limits.  Logic with $\wedge$, $\top$, and "provably unique existence" is called _cartesian logic_ or _finite-limit logic_.
 
 A [[coherent category]] is basically defined to be a [[regular category]] in which the subobject posets additionally have pullback-stable finite unions.  Thus, in a coherent category we can interpret so-called _coherent logic_, which adds $\vee$ and $\bot$ to [[regular logic]].  Likewise, in an infinitary-coherent (or "geometric") category we can interpret _geometric logic_, which adds infinitary disjunctions $\bigvee_i \varphi_i$ to coherent logic.  Geometric logic is especially important because it is preserved by the inverse image parts of [[geometric morphism]]s, and because any geometric theory has a [[classifying topos]].
 
