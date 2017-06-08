@@ -123,7 +123,7 @@ We now define the valid sequents, where we write $A, B, C \vdash D, E, F$ to sta
    *  The restricted [[weakening rule]]:  If $\Gamma, \Delta \vdash \Theta$, then $\Gamma, !{A}, \Delta \vdash \Theta$, for any $A$; conversely and dually, if $\Gamma \vdash \Delta, \Theta$, then $\Gamma \vdash \Delta, ?{A}, \Theta$ for any $A$.
    *  The restricted [[contraction rule]]:  If $\Gamma, !{A}, !{A}, \Delta \vdash \Theta$, then $\Gamma, !{A}, \Delta \vdash \Theta$; conversely and dually, if $\Gamma \vdash \Delta, ?{A}, ?{A}, \Theta$, then $\Gamma \vdash \Delta, ?{A}, \Theta$.
    *  The [[identity rule]]:  Always, $A \vdash A$;
-   *  The [[cut rule]]:  If $\Gamma \vdash A$ and $A \vdash \Delta$, then $\Gamma \vdash \Delta$.
+   *  The [[cut rule]]:  If $\Gamma \vdash A, \Phi$ and $\Psi,A \vdash \Delta$, then $\Psi,\Gamma \vdash \Delta,\Phi$.
 *  The logical rules for each operation:
    *  If $\Gamma \vdash A, \Delta$, then $\Gamma, A^\perp \vdash \Delta$; conversely and dually, if $\Gamma, A \vdash \Delta$, then $\Gamma \vdash A^\perp, \Delta$.
    *  If $\Gamma, A, \Delta \vdash \Theta$ or $\Gamma, B, \Delta \vdash \Theta$, then $\Gamma, A \& B, \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta, A, \Theta$ and $\Gamma \vdash \Delta, B, \Theta$, then $\Gamma \vdash \Delta, A \& B, \Theta$.
