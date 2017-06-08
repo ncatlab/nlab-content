@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Phyics
+#### Physics
 +--{: .hide}
 [[!include physicscontents]]
 =--
