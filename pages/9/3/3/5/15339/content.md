@@ -3,7 +3,19 @@
 [[!redirects Craig interpolation lemma]]
 [[!redirects interpolation theorem]]
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
+=--
+=--
+=--
 
+#Contents#
+* table of contents
+{:toc}
 
 ##Idea
 The _Craig interpolation theorem_ is a basic result in the [[model theory]] of [[first-order logic]].
