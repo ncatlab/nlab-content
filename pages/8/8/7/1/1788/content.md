@@ -9,6 +9,42 @@ Finally, erase what you have entered once you do not need it anymore (the conten
 ***
 
 
+### color test
+
+<body>
+  <p style="color:#FF0000";>Red paragraph text</p>
+</body>
+
+natural isomorphism in $\mathsf{Ens}$, namely 
+
+$\textcolor{blue}{\mathsf{Ens}^{\mathsf{C}^\mathrm{op}}}\Biggl(\mathsf{C}(-,O),\mathcal{F}\Biggr)\cong\mathcal{F}(O)$
+
+
+$\textcolor[rgb]{0.2,0.3,0.4}{\mathsf{Ens}^{\mathsf{C}^\mathrm{op}}}(\mathsf{C}(-,O),\mathcal{F})\cong\mathcal{F}(O)$
+
+colorless: 
+${\mathsf{Ens}^{\mathsf{C}^\mathrm{op}}}(\mathsf{C}(-,O),\mathcal{F})\cong\mathcal{F}(O)$
+
+### Section : fbox test 
+
+We have just seen that, tautologically, 
+
+$$
+(1\xrightarrow[]{[O'_0]}\mathcal{D})(\circ) \overset{\cong}{\longrightarrow}(1\xrightarrow[]{[O'_1]}\mathcal{D})(\circ)$ implies $(1\xrightarrow[]{[O'_0]}\mathcal{D}) \overset{\cong}{\Longrightarrow}(1\xrightarrow[]{[O'_1]}\mathcal{D})
+$$ 
+
+
+
+
+
+
+We now replace the small groupoid $1$ with the small groupoid $\mathcal{C}:=\fbox{$O_0\overset{\longleftarrow}{\longrightarrow}O_1$}$ and, for the sake of argument, define  etc etc
+
+
+
+
+
+
 ### Section : test 01
 Diagrammatically put: at _least one_ of the diagrams in the set-indexed set of diagrams
 
@@ -42,7 +78,7 @@ $\Biggl\}$
 
 does _not_ commute.
 
-### Section: test 
+### Section: table test 
 
 
 | **identifier of the example** | endofunctors? | algebraic contradiction derived? | loc finitely pres | localization theorem | | 
