@@ -8,6 +8,30 @@ Finally, erase what you have entered once you do not need it anymore (the conten
 
 ***
 
+### test: does ascii art work the same way as in [nforum](https://nforum.ncatlab.org/discussion/7794/strictification-of-isofibrations-up-to-homotopy/?Focus=63233#Comment_63233)?
+
+(THIS TEST CAN BE DELETED)
+
+To make the software here display ASCII art verbatim you need to indent the relevant lines by (at least) four whitespaces
+
+      X >-~-> X_1
+      |       |
+     A|       v
+      v       v
+      X ===== X
+
+
+with only 3 ws
+
+    X >-~-> X_1
+    |       |
+   A|       v
+    v       v
+    X ===== X
+
+
+end test.
+
 
 ### test : hypergraph 
 
