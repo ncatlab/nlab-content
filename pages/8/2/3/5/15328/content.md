@@ -26,7 +26,15 @@ A gain in expressive power comes at the price of the loss of the validity of at 
 
 _Jon Barwise_ (1977, p.45, cf. below) has called the first Lindstr&#246;m theorem 
 
->one of the first, and still most striking, results in abstract model theory.
+>one of the first, and still most striking, results in abstract model theory
+
+and [V&#228;&#228;n&#228;nenWesterstahl, p. 102](#VaananenWesterstahl2010) write
+
+> 11-page paper (ed.: the authors refer to (#Lindstrom1969) ) is without a doubt Pelle Lindstr&#246;m's most important single contribution to mathematical logic. In it, he uses a surprisingly general notion of a logic [...]
+
+and go on to write [V&#228;&#228;n&#228;nenWesterstahl, p. 104](#VaananenWesterstahl2010) 
+
+> Lindstr&#246;m's Theorem tells us that any proper extension of [[first-order logic]] has to detect something non-trivial about the set-theoretic [[universe]]. On the other hand, Lindstr&#246;m's theorem reveals a deep robustness of first-order logic: it does not matter which way you define your syntax - as long as your semantics obeys certain basic principles [...] you will get the same logic.
 
 ###The second theorem of Lindstr&#246;m###
 The _second_ Lindstr&#246;m theorem is of a more proof-theoretic nature and involves the concept of an _effective logical system_ which draws on [[computability theory]]. It achieves a characterization of standard first-order logic in the class of all effective regular logical systems by the two properties of having an enumerable set of tautologies and validity of the L&#246;wenheim-Skolem theorem.
@@ -55,7 +63,7 @@ Further alternative characterizations and extensions to other logics are known a
 
 ## References
 
-* [[Per Lindström]]: _On Extensions of Elementary Logic_, Theoria 35 pp.1-11 (1969)
+* {#Lindstrom1969} [[Per Lindström]]: _On Extensions of Elementary Logic_, Theoria 35 pp.1-11 (1969)
 
 * Barwise (ed.): _Handbook of Mathematical Logic_ , Elsevier Amsterdam 1977.
 
@@ -66,6 +74,9 @@ A textbook account of the results appears in:
 A more recent overview of Lindstr&#246;m's results can be found here:
 
 * [[Jouko Väänänen]], _Lindstr&#246;m's Theorem_ . Ms. ([pdf](http://www.math.helsinki.fi/logic/opetus/lt/lindstrom_theorem1.pdf))
+
+
+* {#VaananenWesterstahl2010} [[Jouko Väänänen]], Dag Westerst&#229;hl: In Memoriam: Per Lindstr&#246;m. Theoria **76** (2010), 100-107
 
 Further material (including a discussion of the broader implications of Lindstr&#246;m's results for logic) can be found in
 
