@@ -99,7 +99,11 @@ Surveys of the general story of [[flux compactification]] in [[F-theory]] includ
 * {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_, in _[[String theory and the real world]]_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194))
 
 
-### Moduli space of 2s CFTs
+### Moduli space of 2d CFTs
+
+Scan of the moduli space of semi-realistic [[type II string theory|type IIB]] CFTs compactfied on [[orbifolds]] of [[Gepner models]] is in 
+
+* T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Supersymmetric Standard Model Spectra from RCFT orientifolds_, Nucl. Phys.B 710:3-57,2005 ([arXiv:hep-th/0411129](https://arxiv.org/abs/hep-th/0411129))
 
 Some general thoughts on what a [[moduli space]] of 2d CFTs should be are in 
 
