@@ -22,7 +22,7 @@ The [[target space]] of the topological membrane is a [[G2-manifold]], the [[act
 
 ## Definition
 
-According to ([Bao-Bengtsson-Cederwall-Nillson 05, equation (2.14)](#BaoBengtssonCederwallNillson05)) the topological $(p=2)$-brane is the super 2-brane which exists in $D = 7$ according to the [[brane scan]], which says that the [[super Poincare Lie algebra]] in $D = 7$ carries an exceptional [[Lie algebra cocycle]] of degree $(p+2)$, hence admits the [[Green-Schwarz action functional]] for a super 2-brane.
+According to ([Bao-Bengtsson-Cederwall-Nillson 05, equation (2.14)](#BaoBengtssonCederwallNillson05)) the topological $(p=2)$-brane is the super 2-brane which exists in $D = 7$ according to the [[brane scan]], which says that the [[super Poincare Lie algebra]] in $D = 7$ carries an exceptional [[Lie algebra cocycle]] of degree $(2+2)$, hence admits the [[Green-Schwarz action functional]] for a super 2-brane.
 
 ## Related concepts
 
