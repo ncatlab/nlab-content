@@ -85,7 +85,7 @@ There is a [[model structure on sSet-categories]] that presents the [[(∞,1)-ca
 
 #### Homotopy Kan extension
 
-The notion of [[homotopy Kan extension]] and hence in particular that of [[homotopy limit]] and [[homotopy colimit]] has a direct formulation in terms of [[Kan complex|Kan-complex]]-enriched categories.  See [[homotopy Kan extension]] for more..
+The notion of [[homotopy Kan extension]] and hence in particular that of [[homotopy limit]] and [[homotopy colimit]] has a direct formulation in terms of [[Kan complex|Kan-complex]]-enriched categories.  See [[homotopy Kan extension]] for more.
 
 #### Presentation of $(\infty,1)$-topos theory
 
@@ -95,7 +95,7 @@ All of [[(∞,1)-topos theory]] can be modeled in terms of $sSet$-categories. ([
 
 ## As models for $(\infty,2)$-categories
 
-See [[(∞,2)-category]] for the moment.
+See [[(∞,2)-category]].
 
 ## Related concepts
 
