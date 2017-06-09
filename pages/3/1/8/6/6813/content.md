@@ -22,7 +22,8 @@
 
 The theory of [[gravity]] in $3+1$ dimensions famously has [[black hole]] solutions, being the limiting configuration of a _point_ mass gravitational source. In higher dimensional gravity, and in particular in higher dimensional [[supergravity]], there are analogous solutions, which however are limiting configurations of a gravitational source that is supported on a line, or a surface, or a higher dimensional space. For a surface one might speak of _black [[membrane]]_ solutions hence generally of _black brane_ solutions.
 
-Particularly the [[BPS states]] among the black branes in [[supergravity]], i.e. those solutions that carry [[Killing spinors]], include configurations that look like the strong-coupling version of the [[Green-Schwarz super p-branes]]. (Though, being extremal with [[naked singularity]], these are not strictly speaking "black" solutions.)
+Particularly the [[BPS states]] among the black branes in [[supergravity]], i.e. those solutions that carry [[Killing spinors]], include configurations that look like the strong-coupling version of the [[Green-Schwarz super p-branes]]. 
+
 
 [[!include black branes in supergravity -- table]]
 
@@ -80,6 +81,10 @@ Original articles include
 The [[M5-brane]] was maybe first found as a black brane of [[11-dimensional supergravity]] (the [[black fivebrane]]) in 
 
 * {#Gueven92} [[Rahmi Gueven]], _Black $p$-brane solutions of $D = 11$ supergravity theory, Phys. Lett. B276 (1992) 49 and in [[Mike Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 135-141 ([spire](http://inspirehep.net/record/338203?ln=en))
+
+The observation that black $p$-branes metric for _odd_ $p$ are completely non-singular is due to
+
+* [[Gary Gibbons]], [[Gary Horowitz]], [[Paul Townsend]], p. 15 of  _Higher-dimensional resolution of dilatonic black hole singularities_, Class. Quant. Grav.12:297-318,1995 ([arXiv:hep-th/9410073](https://arxiv.org/abs/hep-th/9410073))
 
 The suggestion that extremal/[[BPS state]] black branes are the strong coupling incarnation of fundamental branes originates in 
 
