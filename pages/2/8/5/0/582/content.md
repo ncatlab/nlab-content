@@ -117,19 +117,19 @@ In the [[category]] [[Top]] of [[topological space]],
 +-- {: .proof}
 ###### Proof 
 
-Regarding the first statement: An injective continuous function $f \colon X \to Y$ clearly has the cancellation propert that defines monomorpjisms: for parallel continuous functions $g_1,g_2 \colon Z \to X$: if $f \circ g_1 = f \circ g_1$, then $g_1 = g_2$ because continuous functions are equal precisely if their underlying functions of sets are equal. Conversely, if $f$ has the cacellation property, then testing on points $g_1, g_2 \colon \ast \to X$ gives that $f$ is injective.
+Regarding the first statement: an injective continuous function $f \colon X \to Y$ clearly has the cancellation property that defines monomorphisms: for parallel continuous functions $g_1,g_2 \colon Z \to X$: if $f \circ g_1 = f \circ g_1$, then $g_1 = g_2$ because continuous functions are equal precisely if their underlying functions of sets are equal. Conversely, if $f$ has the cacellation property, then testing on points $g_1, g_2 \colon \ast \to X$ gives that $f$ is injective.
 
 Regarding the second statement: from the construction of [[equalizers]] in [[Top]] ([this example](Top#EqualizerInTop)) we have that these are topological subspace inclusions.
 
 Conversely, let  $i \colon X \to Y$ be a [[topological subspace embedding]]. We need to show that this is the equalizer of some pair of parallel morphisms.
 
-To that end, form the [[cokernel pair]] $(i_1, i_2)$ by taking the [[pushout]] of $i$ against itself (in the category of sets, and using the [[quotient topology]] on a [[disjoint union space]]). By prop. \ref{RegEquEff}, the equalizer of that pair is the set-theoretic equalizer of that pair of functions endowed with the [[subspace topology]]. Since monomorphisms in [[Set]] are regular, we get the function $i$ back and (again by ([this example](Top#EqualizerInTop))) it is equiiped with the subspace topology. 
+To that end, form the [[cokernel pair]] $(i_1, i_2)$ by taking the [[pushout]] of $i$ against itself (in the category of sets, and using the [[quotient topology]] on a [[disjoint union space]]). By prop. \ref{RegEquEff}, the equalizer of that pair is the set-theoretic equalizer of that pair of functions endowed with the [[subspace topology]]. Since monomorphisms in [[Set]] are regular, we get the function $i$ back and (again by [this example](Top#EqualizerInTop)) it is equipped with the subspace topology. 
 
 =--
 
 +-- {: .num_prop}
 ###### Proposition 
-In [[Grp]], the monics are (up to [[isomorphism]]) the inclusions of [[subgroup]]s, and every monomorphism is regular
+In [[Grp]], the monics are (up to [[isomorphism]]) the inclusions of [[subgroup]]s, and every monomorphism is regular.
 =--
 
 In contrast, the [[normal monomorphisms]] (where one of the morphisms $d \to e$ is required to be the [[zero morphism]]) are the inclusions of [[normal subgroups]].
