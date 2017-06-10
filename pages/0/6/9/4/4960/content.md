@@ -1172,7 +1172,7 @@ Let $\mathbf{B}End(\Delta[1])$ be the one-object category coming from the [[mono
 
 =--
 
-A prehseaf $X : C^{op} \to Set$ on this is a _reflexive [[directed graph]]_ : the set $X(\bullet)$ is the set of all edges and vertices regarded as identity edges, the projection
+A presheaf $X : C^{op} \to Set$ on this is a _reflexive [[directed graph]]_ : the set $X(\bullet)$ is the set of all edges and vertices regarded as identity edges, the projection
 
 $$
   s := X(\sigma) : X \to X
