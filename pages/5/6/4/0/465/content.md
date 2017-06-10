@@ -78,7 +78,7 @@ the two bottom morphisms are regular epis (hence by prop. \ref{StableUnderPullba
 
 * In [[Set|the category of sets]], every epimorphism is regular. Thus, it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use.  Frequently, regular epimorphisms are a good choice.  In particular, one may define a [[projective object]] (and hence the [[axiom of choice]]) using regular epimorphisms.
 
-* More generally, in every [[Grothendieck topos]] every epimorphism is regular (and in act [[effective epimorphism|effective]], see there).
+* More generally, in every [[Grothendieck topos]] every epimorphism is regular (and in fact [[effective epimorphism|effective]], see there).
 
 * In [[Grp|the category of groups]], every epimorphism is regular. A number of proofs can be found in the literature; one proof that avoids case analysis is given [here](http://ncatlab.org/toddtrimble/published/epimorphisms+in+the+category+of+groups). 
 
