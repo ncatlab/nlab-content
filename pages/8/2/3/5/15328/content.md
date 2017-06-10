@@ -24,15 +24,15 @@ This  ([[semantics|semantic]]) version of Lindstr&#246;m's characterization is t
 
 A gain in expressive power comes at the price of the loss of the validity of at least one of these theorems e.g. in [[second-order logic]] both theorems fail to hold. 
 
-_Jon Barwise_ (1977, p.45, cf. below) has called the first Lindstr&#246;m theorem 
+_Barwise_ (1977, p.45, cf. below) has called the first Lindstr&#246;m theorem 
 
 >one of the first, and still most striking, results in abstract model theory
 
-and [V&#228;&#228;n&#228;nenWesterstahl, p. 102](#VaananenWesterstahl2010) write
+and [V&#228;&#228;n&#228;nenWesterst&#229;hl, p. 102](#VaananenWesterstahl2010) write that the 
 
 > 11-page paper (ed.: the authors refer to (#Lindstrom1969) ) is without a doubt Pelle Lindstr&#246;m's most important single contribution to mathematical logic. In it, he uses a surprisingly general notion of a logic [...]
 
-and go on to write [V&#228;&#228;n&#228;nenWesterstahl, p. 104](#VaananenWesterstahl2010) 
+and go on to write [V&#228;&#228;n&#228;nenWesterst&#229;hl, p. 104](#VaananenWesterstahl2010)
 
 > Lindstr&#246;m's Theorem tells us that any proper extension of [[first-order logic]] has to detect something non-trivial about the set-theoretic [[universe]]. On the other hand, Lindstr&#246;m's theorem reveals a deep robustness of first-order logic: it does not matter which way you define your syntax - as long as your semantics obeys certain basic principles [...] you will get the same logic.
 
