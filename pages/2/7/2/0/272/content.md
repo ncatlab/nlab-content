@@ -274,8 +274,8 @@ Lecture notes are in
 
 ### Further developments
 
-* C. Dappiaggi, [[Gandalf Lechner]], E. Morfa-Morales, _Deformations of quantum field theories on spacetimes with Killing vector fields_, Commun.Math.Phys.305:99-130, (2011), ([arXiv:1006.3548](http://arxiv.org/abs/1006.3548))
- {#DLM}
+* {#DLM} [[Claudio Dappiaggi]], [[Gandalf Lechner]], E. Morfa-Morales, _Deformations of quantum field theories on spacetimes with Killing vector fields_, Commun.Math.Phys.305:99-130, (2011), ([arXiv:1006.3548](http://arxiv.org/abs/1006.3548))
+ 
 
 ### Relation to functorial QFT
 
