@@ -48,7 +48,7 @@ The category $SimpGph$ has very good properties. For example,
 
 +-- {: .num_theorem} 
 ###### Theorem 
-$SimpGph$ is a [[Grothendieck quasitopos]]. In particular, it is a [[regular category]] and even a [[logos]]. It is also $\infty$-[[extensive category|extensive]]. 
+$SimpGph$ is a [[Grothendieck quasitopos]]. In particular, it is a [[regular category]] and even a [[logos]], and $SimpGph^{op}$ is also regular. It is also $\infty$-[[extensive category|extensive]]. 
 =-- 
 
 +-- {: .proof} 
@@ -66,19 +66,19 @@ which is the source-target pairing $X(2) \to X(1) \times X(1)$, is monic. Such a
 Being a quasitopos with small coproducts, it is $\infty$-extensive provided that coproducts are disjoint. However, this is trivial to check (it even suffices to check, according to [[Elephant]] 2.6.5, that $0 \to 1$ is a [[regular monomorphism]], or that $1 + 1$ is a disjoint coproduct, which it obviously is). 
 =-- 
 
-It is easy to describe [[monomorphism|monos]] and [[epimorphism|epis]] in $SimpGph$. For, let $Vert \colon SimpGph \to Set$ be the underlying vertex-set [[forgetful functor]]. We have two easy results:  
+It is easy to describe [[monomorphism|monos]] and [[epimorphism|epis]] in $SimpGph$. For, let $\Gamma = \hom(1, -): SimpGph \to Set$ be the underlying vertex-set [[forgetful functor]]. We have two easy results:  
 
 +-- {: .num_prop} 
 ###### Proposition 
-$Vert$ [[reflected limit|reflects]] monos and epis (because $Vert$ is faithful). 
+$\Gamma$ [[reflected limit|reflects]] monos and epis (because $\Gamma$ is faithful). 
 =-- 
 
 +-- {: .num_prop} 
 ###### Proposition 
-$Vert$ [[preserved limit|preserves]] [[limits]] and [[colimits]] (because it has a [[left adjoint]] $Disc$ and a [[right adjoint]] $Codisc$). 
+$\Gamma$ [[preserved limit|preserves]] [[limits]] and [[colimits]] (because it has a [[left adjoint]] $\Delta$ and a [[right adjoint]] $\nabla$). 
 =-- 
 
-It follows that $Vert \colon SimpGph \to Set$ both preserves and reflects monos and epis. As a result, we can prove various simple exactness results in $SimpGph$. For instance: 
+It follows that $\Gamma: SimpGph \to Set$ both preserves and reflects monos and epis. As a result, we can prove various simple exactness results in $SimpGph$. For instance: 
 
 +-- {: .num_lemma}
 ###### Lemma 
@@ -95,23 +95,40 @@ G & \to & H \\
 G' & \to & H'
 }$$ 
 
-Since $Vert$ preserves both pushouts and monos, and since the pushout of a mono in $Set$ is a mono, we have that $Vert(k)$ is monic in $Set$. Since $Vert$ reflects monos, this means $k$ is monic in $SimpGph$. 
+Since $\Gamma$ preserves both pushouts and monos, and since the pushout of a mono in $Set$ is a mono, we have that $\Gamma(k)$ is monic in $Set$. Since $\Gamma$ reflects monos, this means $k$ is monic in $SimpGph$. 
 =-- 
 
+As already observed, there is a chain of adjoint functors $\Delta \dashv \Gamma \dashv \nabla: Set \to SimpGph$. But in fact there is a fourth functor in the chain: $\Delta$ has a left adjoint $\Pi: SimpGph \to Set$, the [[connected object|connected components]] functor. If $E$ is the simple graph consisting of two vertices $a, b$ with an edge between them, then there is a reflexive fork 
+
+$$a, b: 1 \rightrightarrows E \stackrel{!}{\to} 1$$ 
+
+and $\Pi$ is formed as a [[reflexive coequalizer]] of the induced diagram: 
+
+$$\hom(1, -) \to hom(E, -) \rightrightarrows hom(1, -) \to \Pi$$ 
+
++-- {: .num_prop} 
+###### Proposition 
+$\Pi \dashv \Delta$, and $\Pi$ preserves products. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+$\Pi$ preserves products because being a reflexive coequalizer, it is a [[sifted colimit]] of product-preserving functors. For graphs $G$, there is a natural map $u G: G \to \Delta \Pi G$ which at the underlying vertex-set level sends a vertex to its connected component; if $S$ is any set, then a graph map $f: G \to \Delta S$ must send any two vertices with an edge between them to the same point, and so $f$ factors as $G \stackrel{u G}{\to} \Delta \Pi G \stackrel{\Delta g}{\to} \Delta S$ for a unique map $g: \Pi G \to S$, and this establishes the adjunction $\Pi \dashv \Delta$. 
+=-- 
 
 ### Equalizers and coequalizers
 
 If $f, g \colon G \stackrel{\to}{\to} H$ are maps in $SimpGph$, then their [[equalizer]] $Eq(f, g) = i \colon K \to G$ is given at the vertex level by 
 
-$$Vert(i) = Eq(Vert(f), Vert(g))$$ 
+$$\Gamma(i) = Eq(\Gamma(f), \Gamma(g))$$ 
 
 and at the edge level by $K(x, y) \Leftrightarrow G(i(x), i(y))$; in other words, if $x, y$ belong to $K$ and there is an edge between them in $G$, then that edge lies in $K$. To express this last condition, we say the subgraph $i$ is _full_ (at the edge level). 
 
-Thus, $i$ is a regular mono in $SimpGph$ iff both $Vert(i)$ is monic in $Set$ and $i$ is full at the edge level. 
+Thus, $i$ is a regular mono in $SimpGph$ iff both $\Gamma(i)$ is monic in $Set$ and $i$ is full at the edge level. 
 
 The [[coequalizer]] of $f$ and $g$, say $Coeq(f, g) = q \colon H \to Q$, is given at the vertex level by 
 
-$$Vert(q) = Coeq(Vert(f), Vert(g))$$ 
+$$\Gamma(q) = Coeq(\Gamma(f), \Gamma(g))$$ 
 
 and at the edge level by taking the image of the composite $E_H \hookrightarrow Vert(H)^2 \stackrel{q^2}{\to} Vert(Q)^2$, so that 
 
@@ -136,34 +153,6 @@ where
 
 The factorization of $f$ into $q$ followed by $i \circ a$ is the (regular epi)-mono factorization, while the factorization of $f$ into $a \circ q$ followed by $i$ is the epi-(regular mono) factorization. To round out
 the discussion, we prove that regular monos are stable under pushout (which ensures that the epi-(regular mono) factorization is an [[orthogonal factorization system]]). 
-
-+-- {: .num_lemma} 
-###### Lemma 
-In $SimpGph$, the pushout of any [[regular monomorphism]] along any map is a regular mono. 
-=-- 
-
-+-- {: .proof} 
-###### Proof 
-Let $j \colon G \to H$ be a regular mono in $SimpGph$, and let $f \colon G \to G'$ be any map. Form the pushout of the pair $(j, f)$ as a coequalizer diagram 
-
-$$G \stackrel{\overset{i_1 \circ j}{\to}}{\underset{i_2 \circ f}{\to}} H \sqcup G' \stackrel{q}{\to} H'$$ 
-
-where $i_1 \colon H \to H \sqcup G'$, $i_2 \colon G' \to H\sqcup G'$ are the coproduct inclusions. We are trying to show that $q \circ i_2$ is a regular mono. Certainly $Vert(q i_2)$ is monic in $Set$ (again since $Vert$ preserves monos and pushouts), so we just have to check that $q i_2$ is full at the edge level. So, suppose $H'(q i_2(x), q i_2 (y))$; we must show $G'(x, y)$. According to how we form coequalizers $q$, there exist $u, v \in H \sqcup G'$ such that $q(u) = q i_2(x)$, $q(v) = q i_2(y)$, and $(H \sqcup G')(u, v)$. Since $H$ and $G'$ are embedded disjointly in their coproduct, we have that 
-
-* either both $u$ and $v$ belong to the $G'$-component, in which case $u = i_2(x)$ and $v = i_2(y)$ (but in that case we're done because $G'(x, y)$ follows from $(H \sqcup G')(i_2 x, i_2 y)$, according to how the coproduct $H \sqcup G'$ is constructed);  
-
-* or both $u$ and $v$ belong to the $H$-component. But according to how pushouts are constructed at the vertex level, this means there exist $g_1, g_2 \in G$ such that $f(g_1) = x$, $j(g_1) = u$ and $f(g_2) = y$, $j(g_2) = v$. Since $H(u, v)$, or $H(j(g_1), j(g_2))$, and $j$ is full at the edge level (because it is a regular mono), we have $G(g_1, g_2)$, and therefore $G'(f(g_1), f(g_2))$ or $G'(x, y)$, as desired. 
-=-- 
-
-+-- {: .num_theorem}
-###### Theorem 
-$SimpGph$ is co-regular, i.e., $SimpGph^{op}$ is regular. 
-=-- 
-
-+-- {: .proof} 
-###### Proof
-This is obvious from the first definition of "regular" given [here](http://ncatlab.org/nlab/show/regular+category#definition_10). 
-=-- 
 
 
 ## References 
