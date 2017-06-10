@@ -133,7 +133,7 @@ $$
    A
 $$
 
-and hence expresses $A$ as a coproduct of objects $i_A * *_s$, each of which is a [[pullback]]
+and hence expresses $A$ as a coproduct of objects $i_A^* *_s$, each of which is a [[pullback]]
 
 $$
   \array{
