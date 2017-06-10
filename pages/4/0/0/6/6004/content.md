@@ -13,9 +13,9 @@
 =--
 =--
 
-This entry is to record the monograph 3 volumes
+This entry is to record the monograph 
 
-* [[Francis Borceux]], _Handbook of Categorical Algebra_
+* [[Francis Borceux]], _Handbook of Categorical Algebra_, Cambridge University Press (1994)
 
   1: Basic Category Theory, [gBooks]()
 
@@ -25,6 +25,7 @@ This entry is to record the monograph 3 volumes
 
 on [[category theory]] and [[topos theory]].
 
-A book review can be found in: Bull. London Math. Soc. __28__:4, 440-442, [doi](http://dx.doi.org/10.1112/blms/28.4.440)
+A review of the book may be found in: Bull. London Math. Soc. __28__:4, 440-442, [doi](http://dx.doi.org/10.1112/blms/28.4.440)
 
 category: reference
+
