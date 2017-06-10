@@ -62,6 +62,8 @@ h_{j+1} s_i, & i\le j\\
 h_j s_{i-1}, & i\gt j.
 }\right.$$
 
+Note that we did not explicitly say what $d_i h_j$ should be when $i = j + 1$, but if we look at the rule for $d_{j + 1} h_{j + 1}$, we see this requires $d_{j + 1} h_{j + 1} = d_{j + 1} h_j$, which is the relevant compatibility condition.
+
 ##Remark / warning on conventions
 
 The above formulae give one of the, at least,  two  forms of the combinatorial specfication of a homotopy between $f$ and $g$. (When trying to construct a specific homotopy using a combinatorial form, check which convention is being used!) The two forms correspond to different conventions such as saying that this is a homotopy from $g$ to $f$, or reversing the labelling of the $h_i$. 
