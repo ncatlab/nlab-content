@@ -69,7 +69,7 @@ This is especially common when $S=$ [[Set]], in which case the final condition i
 +-- {: .num_defn #local}
 ###### Definition
 
-A [[sheaf topos]] $\mathcal{T}$ is a **local topos** if the [[global section]] [[geometric morphism]] $\mathcal{T} \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}} Set$ has a further [[right adjoint]] $CoDisc$, making an [[adjoint triple]]  $(LConst \vdash \Gamma \vdash CoDisc)$
+A [[sheaf topos]] $\mathcal{T}$ is a **local topos** if the [[global section]] [[geometric morphism]] $\mathcal{T} \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}} Set$ has a further [[right adjoint]] $CoDisc$, making an [[adjoint triple]]  $(LConst \dashv \Gamma \dashv CoDisc)$
 
 $$
   CoDisc \colon Set \hookrightarrow \mathcal{T}. 
