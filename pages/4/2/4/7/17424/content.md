@@ -23,6 +23,27 @@ Equivalently this is the [[Grassmannian]] $Gr_1(\mathbb{R}^{n+1})$.
 
 ## Properties
 
+### Cell structure
+ {#CellStructure}
+
++-- {: .num_prop #RealProjectiveSpaceCWComplex}
+###### Proposition
+**([[CW-complex]] structure)**
+
+For $n \in \mathbb{N}$, the real projective space $\mathbb{R}P^n$ admits the structure of a [[CW-complex]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use that $\mathbb{R}P^n \simeq S^n/(\mathbb{Z}/2)$ is the [[quotient space]] of the [[Euclidean space|Euclidean]] [[n-sphere]] by the $\mathbb{Z}/2$-action which identifies antipodal points.
+
+The standard CW-complex structure of $S^n$ realizes it via two $k$-cells for all $k \in \{0, \cdots, n\}$, such that this $\mathbb{Z}/2$-action restricts to a homeomorphism between the two $k$-cells for each $k$. Thus $\mathbb{R}P^n$ has a CW-complex structure with a single $k$-cell for all $k \in \{0,\cdots, n\}$. 
+
+=--
+
+
 ### Relation to classifying space
 
 The infinite real projective space $\mathbb{R}P^\infty \coloneqq \underset{\longrightarrow}{\lim}_n \mathbb{R}P^n$ is the [[classifying space]] for [[real line bundles]]. It has the [[homotopy type]] of the [[Eilenberg-MacLane space]] $K(\mathbb{Z}/2,1) = B \mathbb{Z}/2$.
