@@ -167,6 +167,11 @@ Reviews includes
 
 * [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative Construction of Models of Algebraic Quantum Field Theory_ ([arXiv:1503.07814](http://arxiv.org/abs/1503.07814))
 
+and a textbook acount is in 
+
+* [[Katarzyna Rejzner]], _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([pdf](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
+
+
 Further developments in perturbation theory in [[AQFT on curved spacetimes]] icludes
 
 * {#KhavkineMoretti16} [[Igor Khavkine]], [[Valter Moretti]], _Analytic Dependence is an Unnecessary Requirement in Renormalization of Locally Covariant QFT_, Communications in Mathematical Physics, March 2016 ([arXiv:1411.1302](http://arxiv.org/abs/1411.1302), [publisher](http://link.springer.com/article/10.1007%2Fs00220-016-2618-7))
