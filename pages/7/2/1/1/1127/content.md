@@ -60,7 +60,9 @@ A Grothendieck category $C$ satisfies the following properties.
 
 * If $C$ is equipped with [[category with translation|translation]] $T : C \to C$, then for every [[complex]] $X \in Cplx(C)$ there exists a [[quasi-isomorphism]] of [[complex]]es $X \to I$ such that $I$ is [[injective object|homotopically injective]].
 
-* it satisfies Pierre Gabriel's sup property: every small family of subobjects of a given object $X$ has a [[supremum]] which is a subobject of $X$
+* it satisfies Pierre Gabriel's sup property: every small family of subobjects of a given object $X$ has a [[supremum]] which is a subobject of $X$; 
+
+* it admits an [[injective object|injective]] [[cogenerator]] (see [Kashiwara-Schapira](#KS), Theorem 9.6.3). 
 
 Much of the localization theory of rings generalizes to general Grothendieck categories. 
 
@@ -83,7 +85,7 @@ Much of the localization theory of rings generalizes to general Grothendieck cat
 
 Grothendieck categories are mentioned at the end of section 8.3 in
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
+* {#KS} [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
 
 The relation to complexes is in section 14.1.
 
