@@ -62,23 +62,18 @@ For $R$ a commutative $k$-algebra, there is a [[natural isomorphism]] between
 
 The proof is spelled out at [[affine line]].
 
-### Over the real and complex numbers
+### Real and complex projective space
+ {#RealAndComplexProjectiveSpace}
 
-* $\mathbb{C}P^1$ is the [[Riemann sphere]]
+We discuss how complex projective space for $k$ the [[real numbers]] or the [[complex numbers]] equipped with their [[Euclidean space|Euclidean]] [[metric topology]] is a [[topological manifold]] and naturally carries the structure of a [[smooth manifold]] (prop. \ref{SmoothManifoldRealComplexProjectiveSpace} below).
 
-* for $\mathbb{C}P^n$  see at _[[complex projective space]]_
+* For $\mathbb{R}P^n$ is called _[[real projective space]]_,
 
-* for $\mathbb{R}P^n$ see at _[[real projective space]]_
+* $\mathbb{C}P^n$  is called _[[complex projective space]]_,
 
-Let $k$ be the [[topological field]] such as
+  * $\mathbb{C}P^1$ is called the [[Riemann sphere]].
 
-* $k = \mathbb{R}$ the [[real numbers]]
-
-* or $k = \mathbb{C}$ the [[complex numbers]]
-
-equipped with their [[Euclidean space|Euclidean]] [[metric topology]].
-
-We discuss the projective spaces $k P^n$ as [[topological spaces]], [[topological manifolds]] and [[differentiable manifolds]].
+For more see at these entries.
 
 +-- {: .num_defn #ToplogicalProjectiveSpace}
 ###### Definition
@@ -147,8 +142,117 @@ To see that this is an open cover:
 
 1. These subsets are open in the [[quotient topology]] $k P^n = (k^n \setminus \{0\})/\sim$, since their [[pre-image]] under the quotient co-projection $k^{n+1} \setminus \{0\} \to k P^n$ coincides with the pre-image $(pr_i\circ\iota)^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n\}}{\prod} k$ (where we write $k^n \setminus \{0\} \overset{\iota}{\hookrightarrow} k^n \overset{pr_i}{\to} k$).
 
+=--
+
++-- {: .num_prop #ProjectiveSpaceOpenCoverIsAtlas}
+###### Proposition
+**(standard open cover is [[atlas]])**
+
+The charts of the standard open cover of def. \ref{TopologicalProjectiveSpaceStandardOpenCover} are [[homomorphism|homeomorphic]] to [[Euclidean space]] $k^n$.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+If $x_i \neq 0$ then 
+
+$$
+  [x_1 : \cdots : x_i : \cdots : x_{n+1}]
+  =
+  \left[
+    \frac{x_1}{x_i} : \cdots : 1 : \cdots \frac{x_{n+1}}{x_i}
+  \right]
+$$
+
+and the representatives of the form on the right are _unique_.
+
+This means that 
+
+$$
+  \array{
+    \mathbb{R}^n &\overset{\phi_i}{\longrightarrow}& U_i
+    \\
+    (x_1, \cdots, x_{i-1}, x_{i+1}, \cdots, x_{n+1})
+    &\mapsto&
+    [x_1: \cdots: 1: \cdots : x_n+1]
+  }
+$$
+
+is a bijection of sets. 
+
+To see that this is a [[continuous function]], notice that it is the composite
+
+$$
+  \array{  
+    && \mathrlap{\mathbb{R}^{n+1} \setminus \{x_i = 0\}}
+    \\
+    & {}^{\mathllap{\hat \phi_i}}\nearrow & \downarrow
+    \\
+    \mathbb{R}^n
+     &
+      \underset{\phi_i}{\longrightarrow}
+     &
+     U_i
+  }
+$$
+
+of the function
+
+$$
+  \array{
+    \mathbb{R}^n &\overset{\hat \phi_i}{\longrightarrow}& \mathbb{R}^{n+1} \setminus \{x_i = 0\}
+    \\
+    (x_1, \cdots, x_{i-1}, x_{i+1}, \cdots, x_{n+1})
+    &\mapsto&
+    (x_1, \cdots, 1, \cdots ,x_n+1)
+  }
+$$
+
+with the quotient projection. Now $\hat \phi_i$ is a [[polynomial]] function and since [[polynomials are continuous]], and since the projection to a [[quotient topological space]] is continuous, and since composites of continuous functions are continuous, it follows that $\phi_i$ is continuous. 
+
+It remains to see that also the [[inverse function]] $\phi_i^{-1}$ is continuous.
+Since 
+
+$$
+  \array{
+    \mathbb{R}^{n+1} \setminus \{x_i = 0\}
+      &\overset{}{\longrightarrow}&
+    U_i
+      &\overset{\phi_i^{-1}}{\longrightarrow}&
+    \mathbb{R}^n
+    \\
+    (x_1, \cdots, x_{n+1})
+    && \mapsto &&
+    ( \frac{x_1}{x_i}, \cdots, \frac{x_{i-1}}{x_i}, \frac{x_{i+1}}{x_i}, \cdots , \frac{x_{n+1}}{x_i})
+  }
+$$
+
+is a [[rational function]], and since [[rational functions are continuous]], it follows, by nature of the [[quotient topology]], that $\phi_i$ takes open subsets to open subsets, hence that $\phi_i^{-1}$ is continuous.
+
+=--
+
++-- {: .num_prop #SmoothManifoldRealComplexProjectiveSpace}
+###### Proposition
+**(real/complex projective space is [[smooth manifold]])**
+
+For $k \in \{\mathbb{R}, \mathbb{C}\}$ the topological projective space $k P^n$ (def. \ref{ToplogicalProjectiveSpace}) is a [[topological manifold]].
+
+Equipped with the standard open cover of def. \ref{TopologicalProjectiveSpaceStandardOpenCover} regarded as an [[atlas]] by prop. \ref{ProjectiveSpaceOpenCoverIsAtlas}, it is a [[differentiable manifold]], in fact a [[smooth manifold]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ProjectiveSpaceOpenCoverIsAtlas} $k P^n$ is a [[locally Euclidean space]]. Moreover, $kP^n$ admits the structure of a [[CW-complex]] ([this prop.](real+projective+space#RealProjectiveSpaceCWComplex)
+and [this prop.](complex+projective+space#CellComplexStructureOnComplexProjectiveSpace))
+and therefore it is a [[paracompact Hausdorff space]] since [[CW-complexes are paracompact Hausdorff spaces]]. This means that it is a [[topological manifold]].
+
+It remains to see that the [[gluing functions]] of this atlas are [[differentiable functions]] and in fact [[smooth functions]]. But by prop. \ref{ProjectiveSpaceOpenCoverIsAtlas} they are even [[rational functions]].
+
+=--
+
 
 
 ## Related concepts
