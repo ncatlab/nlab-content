@@ -43,7 +43,7 @@ But see prop. \ref{HomeoContinuousOpenBijection}.
 **([[homeomorphisms]] are the [[continuous function|continuous]] and [[open map|open]] [[bijections]])
 
 Let $f \;\colon\; (X, \tau_X) \longrightarrow (Y,\tau_Y)$ be a [[continuous function]]
-between [[topological spaces]] (def. \ref{ContinuousMaps}). Then the following are equivalence:
+between [[topological spaces]]. Then the following are equivalence:
 
 1. $f$ is a [[homeomorphism]];
 
