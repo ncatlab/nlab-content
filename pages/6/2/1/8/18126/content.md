@@ -8549,7 +8549,7 @@ precisely if its underlying set is a [[finite set]].
 
 +-- {: .num_example #CompactClosedInterval}
 ###### Example
-**([[closed intervals]] are [[compact topological space|compact]])**
+**([[closed intervals are compact topological spaces]])**
 
 For any $a \lt b \in \mathbb{R}$ the [[closed interval]] (example \ref{OpenAndClosedIntervals})
 
@@ -12678,7 +12678,7 @@ on [[projective spaces]]:
 **(topological [[projective space]])**
 
 Let $k$ be a [[topological field]] (def. \ref{TopologicalRing})
-and $n \in \mathbb{C}$. Consider the [[product topological space]] $k^{n+1} \coloneqq \underset{\{1,\cdots, n\}}{\prod} k$,
+and $n \in \mathbb{N}$. Consider the [[product topological space]] $k^{n+1} \coloneqq \underset{\{1,\cdots, n\}}{\prod} k$,
 let $k^{n+1} \setminus \{0\} \subset k^{n+1}$ be the [[topological subspace]] which is the [[complement]] of the origin, and consider on its underlying set the [[equivalence relation]] which identifies two points if they differ by [[multiplication]] with some $c \in k$ (necessarily non-zero):
 
 $$
@@ -12860,14 +12860,14 @@ $\,$
 ### Transition functions
 
 
-We discuss how topological vector bundles are equivalently 
+We discuss how topological vector bundles are equivalently
 given by [[cocycles]] (def. \ref{CocycleCech} below) in [[Cech cohomology]] (def. \ref{CohomologyCech})
-constituted by their [[transition functions]] (def. \ref{TransitionFunctions} below). This allows to make precise the intuition that 
+constituted by their [[transition functions]] (def. \ref{TransitionFunctions} below). This allows to make precise the intuition that
 vector bundles are precisely the result of "continuously gluing" trivial vector bundles onto each other"
-(prop. \ref{TopologicalVectorBundlesCharacterizedByCechCohomology} below). 
+(prop. \ref{TopologicalVectorBundlesCharacterizedByCechCohomology} below).
 
-This gives a 
-"local-to-global principle" for constructions on vector bundles. For instance it 
+This gives a
+"local-to-global principle" for constructions on vector bundles. For instance it
 allows to easily obtain concepts of [[direct sum of vector bundles]] and [[tensor product of vector bundles]]
 (def. \ref{DirectSumOfTopologicalVectorBundlesViaTransitionFunctions} and def. \ref{TensorProductOfVectorBundles} below) by applying the usual operations from linear algebra on a local trivialization and then re-glung the result
 via the combined transition functions.
@@ -14132,7 +14132,7 @@ $$
 The "local" [[topological properties]] of Euclidean space are inherited by locally Euclidean spaces:
 
 
-+-- {: .num_prop}
++-- {: .num_prop #LocalPropertiesOfLocallyEuclideanSpace}
 ###### Proposition
 **([[locally Euclidean spaces]] are $T_1$-[[separation axiom|separated]], [[sober topological space|sober]] and [[locally compact topological space|locally compact]])**
 
@@ -14200,7 +14200,7 @@ But this is not so, see the counter-example \ref{NonHausdorffManifolds} below, H
 ###### Nonexample
 **([[non-Hausdorff locally Euclidean spaces]])**
 
-An example of a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) which is not [[non-Hausdorff topological space]], is the [[line with two origins]] (example \ref{LineWithTwoOrigins}).
+An example of a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) which is a [[non-Hausdorff topological space]], is the [[line with two origins]] (example \ref{LineWithTwoOrigins}).
 
 =--
 
@@ -14398,6 +14398,9 @@ Moreover, manifolds with uncountably many connected components are rarely consid
 
 =--
 
+Essentially all **examples** of [[topological manifolds]] that we are interested in are 
+even [[differentiable manifolds]] (def. \ref{DifferentiableManifold} below) and so we first consider
+that richer definition before discussing them.
 
 
 
@@ -14445,6 +14448,89 @@ Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold
 
 =--
 
+
+
+For convenience we recall the definition of [[differentiable functions]]
+between [[Euclidean spaces]].
+
++-- {: .num_defn #DifferentiableFunctionBetweenCartesianSpaces}
+###### Definition
+**([[differentiable functions]] between [[Euclidean spaces]])**
+
+Let $n \in \mathbb{N}$ and let $U \subset \mathbb{R}^n$ be an [[open subset]].
+
+Then a [[function]] $f \;\colon\; U \longrightarrow \mathbb{R}$ is called  **differentiable** at $x\in U$
+if there exists a [[linear map]] $d f_x : \mathbb{R}^n \to \mathbb{R}$ such that the following [[limit of a sequence|limit]]
+exists as $h$ approaches zero "from all directions at once":
+
+$$
+  \lim_{h\to 0} \frac{f(x+h)-f(x) - d f_x(h)}{\Vert h\Vert} = 0.
+$$
+
+This means that for all $\epsilon \in (0,\infty)$ there exists an [[open subset]] $V\subseteq U$ containing $x$ such that whenever $x+h\in V$ we have $\frac{f(x+h)-f(x) - d f_x(h)}{\Vert h\Vert} \lt \epsilon$.
+
+We say that $f$ is _differentiable on_ a [[subset]] $I$ of $U$ if $f$ is differentiable at every $x\in I$, and _differentiable_ if $f$ is differentiable on all of $U$. We say that $f$ is *continuously differentiable* if it is differentiable and  $d f$ is a [[continuous function]].
+
+The map $d f_x$ is called the **derivative** or **differential of $f$ at $x$**.
+
+More generally, let $n_1, n_2 \in \mathbb{N}$ and let $U\subseteq \mathbb{R}^{n_1}$ be an [[open subset]].
+
+Then a [[function]] $f \;\colon\; U \longrightarrow \mathbb{R}^{n_2}$ is _differentiable_  if for all $i \in \{1, \cdots, n_2\}$ the component function
+
+$$
+  f_i \;\colon\; U \overset{f}{\longrightarrow} \mathbb{R}^{n_2} \overset{pr_u}{\longrightarrow}  \mathbb{R}
+$$
+
+is differentiable in the previous sense
+
+In this case, the derivatives $d f_i \colon \mathbb{R}^n \to \mathbb{R}$ of the $f_i$ assemble into a linear map  of the form
+
+$$
+  d f_x \;\colon\; \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}
+  \,.
+$$
+
+If the derivative exists at each $x \in U$, then it defines itself a function
+
+$$
+  d f \;\colon\; U \longrightarrow Hom_{\mathbb{R}}(\mathbb{R}^{n_1} , \mathbb{R}^{n_2}) \simeq \mathbb{R}^{n_1 \cdot n_2}
+$$
+
+to the space of [[linear maps]] from $\mathbb{R}^{n_1}$ to $\mathbb{R}^{n_2}$, which is canonically itself a [[Euclidean space]]. We say that $f$ is _twice continuously differentiable_ if $d f$ is continuously differentiable.
+
+Generally then, for $k \in \mathbb{N}$ the function $f$ is called _$k$-fold continuously differentiable_ or _of class $C^k$_ if the $k$-fold differential $d^k f$ exists and is a continuous function.
+
+Finally, if $f$ is $k$-fold continuously differentiable for all $k \in \mathbb{N}$ then it is called a _[[smooth function]]_
+or _of class $C^\infty$_.
+
+=--
+
+Of the various properties satisfied by [[differentiation]], the following plays a special role in the theory of
+differentiable manifolds (notably in the discussion of their [[tangent bundles]]):
+
++-- {: .num_prop #ChainRuleOnEuclideanSpace}
+###### Proposition
+**([[chain rule]] for [[differentiable functions]] between [[Euclidean spaces]])**
+
+Let $n_1, n_2, n_3 \in \mathbb{N}$ and let
+
+$$
+  \mathbb{R}^{n_1}
+    \overset{f}{\longrightarrow}
+  \mathbb{R}^{n_2}
+    \overset{g}{\longrightarrow}
+  \mathbb{R}^{n_3}
+$$
+
+be two [[differentiable functions]] (def. \ref{DifferentiableFunctionBetweenCartesianSpaces}). Then the
+[[derivative]] of their [[composition|composite]] is the composite of their derivatives:
+
+$$
+  d(g \circ f)_x = d g_{f(x)} \circ d f
+  \,.
+$$
+
+=--
 
 
 +-- {: .num_defn #DifferentiableManifold}
@@ -14526,12 +14612,174 @@ $$
   \,.
 $$
 
-By the formulas given in [this prop.](stereographic+projection#StandardStereographicProjection) the induced [[gluing function]] $\mathbb{R}^n \setminus \{0\} \to \mathbb{R}^n \setminus \{0\}$ is smooth.
+By the formula given in the proof of prop. \ref{StandardStereographicProjection}  the induced [[gluing function]] $\mathbb{R}^n \setminus \{0\} \to \mathbb{R}^n \setminus \{0\}$ are [[rational functions]] and hence [[smooth functions]].
 
-Moreover, the $n$-sphere is [[paracmpact Hausdorff topological space|paracompact Hausdorff]], by
-example \ref{ParacompactHausdorffCWComplexes}.
+Finally the $n$-sphere is a [[paracompact Hausdorff topological space]]. Ways to see this include:
+
+1. $S^n \subset \mathbb{R}^{n+1}$ is a [[compact subspace]] by the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}). Compact spaces are also paracompact (example \ref{CompactSpaceIsParacompact}). 
+Moreover, [[Euclidean space]], like any [[metric space]], is Hausdorff (example \ref{HausdorffMetricSpace}),
+and [[subspaces]] of Hausdorff spaces are Hausdorff;
+
+1. The $n$-sphere has the structure of a [[CW-complex]] (example \ref{TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}) and [[CW-complexes are paracompact Hausdorff spaces]] (example \ref{ParacompactHausdorffCWComplexes}).
 
 =--
+
++-- {: .num_example #OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds}
+###### Example
+**([[open subsets]] of differentiable manifolds are again differentiable manifolds)**
+
+Let $X$ be a $k$-fold differentiable manifold and let $S \subset X$
+be an [[open subset]] of the underlying [[topological space]] $(X,\tau)$.
+
+Then $S$ carries the structure of a $k$-fold differentiable manifold such that the
+inclusion map $S \hookrightarrow X$ is an [[open embedding|open]]
+[[embedding of differentiable manifolds]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Since the underlying [[topological space]] of $X$ is [[locally connected topological space|locally connected]] ([this prop.](topological+manifold#LocalPropertiesOfLocallyEuclideanSpace)) it is the [[disjoint union space]] of its [[connected components]] ([this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)).
+
+Therefore we are reduced to showing the statement for the case that $X$ has a single [[connected component]]. By [this prop](topological+manifold#RegularityConditionsForTopologicalManifoldsComparison) this implies that $X$ is [[second-countable topological space]].
+
+Now a [[subspace]] of a second-countable Hausdorff space is clearly itself second countable and Hausdorff.
+
+Similarly it is immediate that $S$ is still [[locally Euclidean space|locally Euclidean]]: since $X$ is locally Euclidean every point $x \in S \subset X$ has a Euclidean neighbourhood in $X$ and since $S$ is open there exists an open ball in that (itself [[homeomorphism|homeomorphic]] to Euclidean space) which is a Euclidean neighbourhood of $x$ contained in $S$.
+
+For the differentiable structure we pick these Euclidean neighbourhoods from the given atlas.
+Then the [[gluing functions]] for the Euclidean charts on $S$ are $k$-fold differentiable follows since these are restrictions of the gluing functions for the atlas of $X$.
+
+=--
+
++-- {: .num_example }
+###### Example
+**([[general linear group]])**
+
+For $n \in \mathbb{N}$, the [[general  linear group]] $Gl(n,\mathbb{R})$ (example \ref{GLn})
+is a [[smooth manifold]]
+(as an [[open subspace]] of [[Euclidean space]] $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R} \simeq \mathbb{R}^{(n^2)})$,
+via example \ref{OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds} and example \ref{DifferentiableManifoldCartesianSpace}).
+
+The group operations are [[smooth functions]] with respect to this smooth manifold structure, and thus $GL(n,\mathbb{R})$
+is a _[[Lie group]]_.
+
+=--
+
+Next we want to show that [[real projective space]] and [[complex projective space]] (def. \ref{ToplogicalProjectiveSpace})
+carry the structure of differentiable manifolds. To that end first re-consider their standard open cover (def. \ref{TopologicalProjectiveSpaceStandardOpenCover}).
+
++-- {: .num_lemma #ProjectiveSpaceOpenCoverIsAtlas}
+###### Lemma
+**(standard open cover of [[projective space]] is [[atlas]])**
+
+The charts of the standard open cover of projective space, from def. \ref{TopologicalProjectiveSpaceStandardOpenCover} are [[homomorphism|homeomorphic]] to [[Euclidean space]] $k^n$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If $x_i \neq 0$ then
+
+$$
+  [x_1 : \cdots : x_i : \cdots : x_{n+1}]
+  =
+  \left[
+    \frac{x_1}{x_i} : \cdots : 1 : \cdots \frac{x_{n+1}}{x_i}
+  \right]
+$$
+
+and the representatives of the form on the right are _unique_.
+
+This means that
+
+$$
+  \array{
+    \mathbb{R}^n &\overset{\phi_i}{\longrightarrow}& U_i
+    \\
+    (x_1, \cdots, x_{i-1}, x_{i+1}, \cdots, x_{n+1})
+    &\mapsto&
+    [x_1: \cdots: 1: \cdots : x_n+1]
+  }
+$$
+
+is a bijection of sets.
+
+To see that this is a [[continuous function]], notice that it is the composite
+
+$$
+  \array{
+    && \mathrlap{\mathbb{R}^{n+1} \setminus \{x_i = 0\}}
+    \\
+    & {}^{\mathllap{\hat \phi_i}}\nearrow & \downarrow
+    \\
+    \mathbb{R}^n
+     &
+      \underset{\phi_i}{\longrightarrow}
+     &
+     U_i
+  }
+$$
+
+of the function
+
+$$
+  \array{
+    \mathbb{R}^n &\overset{\hat \phi_i}{\longrightarrow}& \mathbb{R}^{n+1} \setminus \{x_i = 0\}
+    \\
+    (x_1, \cdots, x_{i-1}, x_{i+1}, \cdots, x_{n+1})
+    &\mapsto&
+    (x_1, \cdots, 1, \cdots ,x_n+1)
+  }
+$$
+
+with the quotient projection. Now $\hat \phi_i$ is a [[polynomial]] function and since [[polynomials are continuous]], and since the projection to a [[quotient topological space]] is continuous, and since composites of continuous functions are continuous, it follows that $\phi_i$ is continuous.
+
+It remains to see that also the [[inverse function]] $\phi_i^{-1}$ is continuous.
+Since
+
+$$
+  \array{
+    \mathbb{R}^{n+1} \setminus \{x_i = 0\}
+      &\overset{}{\longrightarrow}&
+    U_i
+      &\overset{\phi_i^{-1}}{\longrightarrow}&
+    \mathbb{R}^n
+    \\
+    (x_1, \cdots, x_{n+1})
+    && \mapsto &&
+    ( \frac{x_1}{x_i}, \cdots, \frac{x_{i-1}}{x_i}, \frac{x_{i+1}}{x_i}, \cdots , \frac{x_{n+1}}{x_i})
+  }
+$$
+
+is a [[rational function]], and since [[rational functions are continuous]], it follows, by nature of the [[quotient topology]], that $\phi_i$ takes open subsets to open subsets, hence that $\phi_i^{-1}$ is continuous.
+
+=--
+
++-- {: .num_example #SmoothManifoldRealComplexProjectiveSpace}
+###### Example
+**([[real projective space|real]]/[[complex projective space]] is [[smooth manifold]])**
+
+For $k \in \{\mathbb{R}, \mathbb{C}\}$ the topological [[projective space]] $k P^n$ (def. \ref{ToplogicalProjectiveSpace}) is a [[topological manifold]] (def. \ref{TopologicalManifold}).
+
+Equipped with the standard open cover of def. \ref{TopologicalProjectiveSpaceStandardOpenCover} regarded as an [[atlas]] by lemma \ref{ProjectiveSpaceOpenCoverIsAtlas}, it is a [[differentiable manifold]], in fact a [[smooth manifold]] (def. \ref{DifferentiableManifold}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{ProjectiveSpaceOpenCoverIsAtlas} $k P^n$ is a [[locally Euclidean space]]. Moreover, $kP^n$ admits the structure of a [[CW-complex]] ([this prop.](real+projective+space#RealProjectiveSpaceCWComplex)
+and [this prop.](complex+projective+space#CellComplexStructureOnComplexProjectiveSpace))
+and therefore it is a [[paracompact Hausdorff space]] since [[CW-complexes are paracompact Hausdorff spaces]]. This means that it is a [[topological manifold]].
+
+It remains to see that the [[gluing functions]] of this atlas are [[differentiable functions]] and in fact [[smooth functions]]. But by lemma \ref{ProjectiveSpaceOpenCoverIsAtlas} they are even [[rational functions]].
+
+=--
+
 
 
 ### Tangent bundles
@@ -14559,7 +14807,7 @@ one encodes all sorts of flavors of geometry, such as [[Riemannian geometry]],
 
 +-- {: .num_defn #TangencyRelationOnSmoothCurves}
 ###### Definition
-**(tangency relation on smooth curves)**
+**(tangency relation on differentiable curves)**
 
 
 Let $X$ be a [[differentiable manifold]] of [[dimension]] $n$ and let $x \in X$ be a point. On the set of [[smooth functions]] of the form
@@ -14719,7 +14967,7 @@ The set of all tangent vectors at $x \in X$ is denoted $T_x X$.
 ###### Lemma
 **([[real vector space]] structure on [[tangent vectors]])**
 
-For $X$ a [[differentiable manifold]] of [[dimension]] $n$ and $x \in X$ any point,  let $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U_i \subset X$ be a [[chart]] with $x \in U_i$.
+For $X$ a [[differentiable manifold]] of [[dimension]] $n$ and $x \in X$ any point,  let $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U \subset X$ be a [[chart]] with $x \in U \subset X$.
 
 Then there is induced a [[bijection]] of sets
 
@@ -14727,34 +14975,630 @@ $$
   \mathbb{R}^n \overset{\simeq}{\longrightarrow}  T_x X
 $$
 
-from the $n$-dimensional [[Cartesian space]] to the set of tangent vectors at $x$ (def. \ref{TangentVector}) given by sending $\vec v \in \mathbb{R}^n$ to the equivalence class of the following smooth curve:
+from the $n$-dimensional [[Cartesian space]] to the set of tangent vectors at $x$ (def. \ref{TangentVector}) given by sending $\vec v \in \mathbb{R}^n$ to the equivalence class of the following differentiable curve:
 
 $$
   \array{
+    \gamma^\phi_{\vec v}
+    &
     \mathbb{R}^1
-      &\overset{\gamma^\phi_{(-)}}{\longrightarrow}&
+      &\overset{ (-)\cdot \vec v }{\longrightarrow}&
    \mathbb{R}^n
       &\underoverset{\simeq}{\phi}{\longrightarrow}&
     U_i
     \subset X
     \\
+    &
     t
       &\overset{\phantom{AAA}}{\mapsto}&
-    t \vec v + \phi(x)
+    t \vec v
       &\overset{\phantom{AAA}}{\mapsto}&
-    \phi^{-1}(t \vec v + \phi(x))
+    \phi(\phi^{-1}(x) + t \vec v)
   }
   \,.
 $$
 
-Moreover, the structure of a [[real vector space]] inherited by $T_x X$ from $\mathbb{R}^n$ via $\phi$ this way is independent of the choice of $\phi$.
+For $\mathbb{R}^n \underoverset{\simeq}{\phi'}{\longrightarrow} U' \subset X$
+another chart with $x \in U' \subset X$, then the linear isomorphism relating these two identifications is
+the [[derivative]]
+
+$$
+  d \left((\phi')^{-1} \circ \phi  \right)_{ \phi^{-1}(x) }
+  \in
+  GL(n,\mathbb{R})
+$$
+
+of the [[gluing function]] of the two charts at the point $x$:
+
+$$
+  \array{
+    \mathbb{R}^n
+    &&
+    \overset{
+       d \left((\phi')^{-1} \circ \phi\right) (x)}{\longrightarrow} &&
+    \mathbb{R}^n
+    \\
+    & {}_{\mathllap{\simeq}}\searrow && \swarrow_{\mathrlap{\simeq}}
+    \\
+    && T_x X
+  }
+  \,.
+$$
+
+This is also called the _[[transition function]]_ between the two local identifications of the tangent space.
+
+If $\left\{ \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X \right\}_{i \in I}$
+is an [[atlas]] of the [[differentiable manifold]] $X$, then the transition functions
+
+$$
+  \left\{
+    g_{i j}
+    \coloneqq
+    d( \phi_j^{-1} \circ \phi_i )_{\phi^{-1}(-)}
+    \colon
+    U_i \cap U_j
+      \longrightarrow
+    GL(n,\mathbb{R})
+  \right\}_{i,j \in I}
+$$
+
+defined this way satisfy the following [[Cech cohomology|Cech cocycle]] conditions for all $i,j \in I$, $x \in U_i \cap U_j$
+
+1. $g_{i i}(x) = id_{\mathbb{R}^n}$;
+
+1. $g_{j k}\circ g_{i j}(x) = g_{i k}(x)$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The bijectivity of the map is immediate from the fact that the first derivative of $\gamma_{\vec v}^\phi$ is $\vec v$. The independency from the choice of chart follows as in the proof of lemma \ref{TangencyIsEquivalenceRelation}.
+The bijectivity of the map is immediate from the fact that the first derivative of $\phi^{-1}\circ \gamma^\phi_{\vec v}$
+at $\phi^{-1}(x)$ is $\vec v$.
+
+The formula for the transition function now follows with the [[chain rule]]:
+
+$$
+  d \left( (\phi')^{-1} \circ \phi( \phi^{-1}(x)  (-) \vec v )   \right)_0
+  =
+  d \left( (\phi')^{-1} \circ \phi \right)_{\phi^{-1}(x)} \circ \underset{ \vec v }{\underbrace{ d ( \phi^{-1}(x) +(-)\vec v )_0 }}
+  \,.
+$$
+
+Similarly the Cech cocycle condition follows by the [[chain rule]]:
+
+$$
+  \begin{aligned}
+    g_{j k} \circ g_{i j}(x)
+     & =
+    d( \phi_k^{-1} \circ \phi_j )_{\phi_j^{-1}(x)}
+    \circ
+    d( \phi_j^{-1} \circ \phi_i )_{\phi_i^{-1}(x)}
+    \\
+    & =
+    d( \phi_k^{-1} \circ \phi_j \circ \phi_j^{-1} \circ \phi_i )_{\phi_i^{-1}(x)}
+    \\
+    & =
+    d( \phi_k^{-1} \circ \phi_i )_{\phi_i^{-1}(x)}
+    \\
+    &=
+    g_{i k}(x)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
+
+
+
++-- {: .num_defn #TangentSpace}
+###### Definition
+**([[tangent space]])**
+
+For $X$ a [[differentiable manifold]] and $x \in X$ a point, then the _[[tangent space]]_ of $X$ at $x$ is the set $T_x X$ of [[tangent vectors]] at $x$ (def. \ref{TangentVector}) regarded as a [[real vector space]] via lemma \ref{LinearTangentSpace}.
+
+=--
+
++-- {: .num_example #EuclideanSpaceTangentBundle}
+###### Example
+**([[tangent bundle]] of [[Euclidean space]])
+
+If $X = \mathbb{R}^n$ is itself a [[Euclidean space]], then
+for any two points $x,y \in X$ the [[tangent spaces]] $T_x X$ and $T_y X$ (def. \ref{TangentSpace})
+are canonically identified with each other:
+
+Using the [[vector space]] (or just [[affine space]]) structure of $X = \mathbb{R}^n$ we may send every
+smooth function $\gamma \colon \mathbb{R} \to X$ to the smooth function
+
+$$
+  \gamma' \colon t \mapsto \gamma(t) + (x-y)
+  \,.
+$$
+
+This gives a linear bijection
+
+$$
+  \phi_{x,y} \colon T_x X \overset{\simeq}{\longrightarrow} T_y X
+$$
+
+and these linear bijections are compatible, in that for $x,y,z \in \mathbb{R}^n$ any three points,
+then
+
+$$
+  \phi_{y,z} \circ \phi_{x,y} = \phi_{x,z} \;\colon\; T_x X \longrightarrow T_y Y
+  \,.
+$$
+
+Moreover, by lemma \ref{LinearTangentSpace}, each tangent space is identified with $\mathbb{R}^n$ itself,
+and this identification in turn is compatible with all the above identifications:
+
+$$
+  \array{
+    && \mathbb{R}^n
+    \\
+    & {}^{\mathllap{\simeq}}\swarrow && \searrow^{\mathrlap{\simeq}}
+    \\
+    T_x X && \underoverset{\phi_{x,y}}{\simeq}{\longrightarrow} && T_y Y
+  }
+  \,.
+$$
+
+Therefore it makes sense to canonically identify all the tangent spaces of Euclidean space with that Euclidean space
+itself. As a result, the collection of all the tangent spaces of Euclidean space is naturally identified
+with the [[Cartesian product]]
+
+$$
+  T \mathbb{R}^n = \mathbb{R}^n \times \mathbb{R}^n
+$$
+
+equipped with the [[projection]] on the first factor
+
+$$
+  \array{
+    T \mathbb{R}^n = \mathbb{R}^n \times \mathbb{R}^n
+    \\
+    \downarrow^{\mathrlap{\pi = pr_1}}
+    \\
+    \mathbb{R}^n
+  }
+  \,,
+$$
+
+because then the [[pre-image]] of a [[singleton]] $\{x\} \subset \mathbb{R}^n$ under this projection are
+canonically identified with the above tangent spaces:
+
+$$
+  \pi^{-1}(\{x\}) \simeq T_x \mathbb{R}^n
+  \,.
+$$
+
+This way, if we equip $T \mathbb{R}^n = \mathbb{R}^n \times \mathbb{R}^n$ with the [[product space|product space topology]],
+then  $T \mathbb{R}^n \overset{\pi}{\longrightarrow} \mathbb{R}^n$ becomes a [[trivial vector bundle|trivial]] [[topological vector bundle]].
+
+This is called the _[[tangent bundle]]_ of the [[Euclidean space]] $\mathbb{R}^n$ regarded as a [[differentiable manifold]].
+
+
+
+=--
+
++-- {: .num_remark #EuclideanTangentSpaceFunctoriality}
+###### Remark
+**([[chain rule]] is [[functor|functoriality]] of [[tangent space]] construction on [[Euclidean spaces]])**
+
+Consider the assignment that sends
+
+1. every [[Euclidean space]] $\mathbb{R}^n$ to its [[tangent bundle]] $T \mathbb{R}^n$ according to def. \ref{EuclideanSpaceTangentBundle};
+
+1. every [[differentiable function]] $f \colon \mathbb{R}^{n_1} \longrightarrow \mathbb{R}^{n_2}$ to the
+   function on [[tangent vectors]] (def. \ref{TangentVector}) induced by postcomposition with $f$
+
+   $$
+     \array{
+       T \mathbb{R}^{n_1}
+         &\overset{f \circ (-)}{\longrightarrow}&
+       T \mathbb{R}^{n_2}
+       \\
+       \left[
+         \mathbb{R}^1
+           \overset{\gamma}{\longrightarrow}
+         \mathbb{R}^{n_1}
+       \right]
+         &\mapsto&
+       \left[
+         \mathbb{R}^1
+           \overset{ f \circ \gamma}{\longrightarrow}
+         \mathbb{R}^{n_2}
+       \right]
+     }
+   $$
+
+By the [[chain rule]] we have that the [[derivative]] of the composite curve $f \circ \gamma$ is
+
+$$
+  d (f \circ \gamma)_t
+  =
+  (d f_{\gamma(x)}) \circ d\gamma
+$$
+
+and hence that under the identification $T \mathbb{R}^n \simeq \mathbb{R}^n \times \mathbb{R}^n$ of example \ref{EuclideanSpaceTangentBundle}
+this assignment takes $f$ to its [[derivative]]
+
+   $$
+     \array{
+       \mathbb{R}^{n_1} \times \mathbb{R}^{n_1}
+         &\overset{ d f )}{\longrightarrow}&
+       \mathbb{R}^{n_2} \times \mathbb{R}^{n_2}
+       \\
+       (x,\vec v)
+         &\mapsto&
+       (f(x), d f_x(\vec v))
+     }
+     \,,
+   $$
+
+Conversely, in the first form above the assignment $f \mapsto f \circ (-)$ manifestly
+respects [[composition]] (and [[identity functions]]). Viewed from the second perspective
+this respect for composition is once again the [[chain rule]] $d(g \circ f) = (d f)\circ (d g)$:
+
+$$
+  \array{
+    && Y
+    \\
+    & {}^{\mathllap{f}}\nearrow  && \searrow^{\mathrlap{g}}
+    \\
+    X && \underset{ g\circ  f}{\longrightarrow} && Z
+  }
+  \phantom{AAA}
+    \mapsto
+  \phantom{AAA}
+  \array{
+    && T Y
+    \\
+    & {}^{\mathllap{d f}}\nearrow && \searrow^{\mathrlap{d g}}
+    \\
+    T X &&  \underset{d(g \circ f)}{\longrightarrow} && T Z
+  }
+  \,.
+$$
+
+In the language of [[category theory]] this says that the assignment
+
+$$
+  \array{
+    CartSp &\overset{T}{\longrightarrow}& CartSp
+    \\
+    X &\mapsto& T X
+    \\
+    {}^{\mathllap{ f }}\downarrow && \downarrow^{\mathrlap{d f}}
+    \\
+    Y &\mapsto& T Y
+  }
+$$
+
+is an [[endofunctor]] on the [[category]] [[CartSp]] whose
+
+1. [[objects]] are the [[Euclidean spaces]] $\mathbb{R}^n$ for $n \in \mathbb{N}$;
+
+1. [[morphisms]] are the [[differentiable functions]] between these (for any chosen differentiability class $C^k$ with $k \gt 0$).
+
+=--
+
+We may now globalize the tangent bundle of Euclidean space to tangent bundles of general differentiable manifolds:
+
++-- {: .num_defn #TangentBundle}
+###### Definition
+**([[tangent bundle]] of a [[differentiable manifold]])**
+
+Let $X$ be a [[differentiable manifold]] with [[atlas]] $\left\{ \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X\right\}_{i \in I}$.
+
+Equip the set of all [[tangent vectors]] (def. \ref{TangentVector}), i.e. the [[disjoint union]] of the sets of tangent vectors
+
+$$
+  T X
+  \;\coloneqq\;
+  \underset{x \in X}{\sqcup} T_x X
+  \phantom{AAA}
+  \text{as underlying sets}
+$$
+
+with a [[topological space|topology]] $\tau_{T X}$ by declaring a [[subset]] $U \subset T X$ to be an [[open subset]] precisely if for all [[charts]] $\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X$ we have that its [[preimage]] under
+
+$$
+  \array{
+    \mathbb{R}^{2n}
+      \simeq
+    \mathbb{R}^n \times \mathbb{R}^n
+      & \overset{d \phi}{\longrightarrow} &
+    T X
+    \\
+    (x, \vec v)
+      &\overset{\phantom{AAA}}{\mapsto}&
+    [ t \mapsto \phi(x + t \vect v) ]
+  }
+$$
+
+is open in the [[Euclidean space]] $\mathbb{R}^{2n}$ with its [[metric topology]].
+
+Equipped with the [[function]]
+
+$$
+  \array{
+     T X &\overset{\phantom{AA}p_x \phantom{AA}}{\longrightarrow}& X
+     \\
+     (x,v) &\overset{\phantom{AAAA}}{\mapsto}& x
+  }
+$$
+
+this is called the _tangent bundle_ of $X$.
+
+Equivalently this means that the tangent bundle $T X$ is the [[topological vector bundle]] which
+is glued (via [this example](topological+vector+bundle#TopologicalVectorBundleFromCechCocycle)) from the
+[[transition functions]] $g_{i j} \coloneqq d(\phi_j^{-1} \circ \phi_i)_{\phi^{-1}(-)}$ from lemma \ref{LinearTangentSpace}:
+
+$$
+  T X
+  \;\coloneqq\;
+  \left(
+    \underset{i \in I}{\sqcup}
+    U_i \times \mathbb{R}^n
+  \right)/\left( \left\{  d( \phi_j^{-1} \circ \phi_i ) \right\}_{i, j \in I} \right)
+  \,.
+$$
+
+(Notice that, by examples \ref{EuclideanSpaceTangentBundle}, each $U_i \times \mathbb{R}^n \simeq T U_i$ is the tangent bundle
+of the chart $U_i \simeq \mathbb{R}^n$.)
+
+The co-projection maps of this [[quotient topological space]] construction constitute an [[atlas]]
+
+$$
+  \left\{
+    \mathbb{R}^{2n}
+      \underoverset{\simeq}{}{\to}
+    T U_i
+     \subset
+    T X
+  \right\}_{i \in I}
+  \,.
+$$
+
+
+
+=--
+
++-- {: .num_lemma #DifferentiableTangentBundle}
+###### Lemma
+**([[tangent bundle]] is [[differentiable vector bundle]])**
+
+If $X$ is a $(p+1)$-times [[differentiable manifold]], then the total space
+of the tangent bundle def. \ref{TangentBundle} is a $p$-times [[differentiable manifold]] in that
+
+1. $(T X, \tau_{T X})$ is a [[paracompact Hausdorff space]];
+
+1. The [[gluing functions]] of the atlas $\left\{ \mathbb{R}^{2n} \underoverset{\simeq}{d \phi_i}{\to} T U_i \subset  T X \right\}_{i \in I}$ are $p$-times continuously differentiable.
+
+Moreover, the projection $\pi \colon T X \to X$ is a $p$-times continuously [[differentiable function]].
+
+In summary this makes $T X \to X$ a _[[differentiable vector bundle]]_.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First to see that $T X$ is Hausdorff:
+
+Let $(x,\vec v), (x', \vec v') \in T X$ be two distinct points. We need to product
+disjoint openneighbourhoods of these points in $T X$. Since in
+particular $x,x' \in X$ are distinct, and since $X$ is Hausdorff, there exist disjoint open neighbourhoods
+$U_x \supset \{x\}$ and $U_{x'} \supset \{x'\}$. Their pre-images $\pi^{-1}(U_x)$ and $\pi^{-1}(U_{x'})$
+are disjoint open neighbourhoods of $(x,\vec v)$ and $(x',\vect v')$, respectively.
+
+Now to see that $T X$ is paracompact.
+
+Let $\{U_i \subset T X\}_{i \in I}$ be an open cover. We need to find a [[locally finite cover|locally finite]]
+[[refinement]]. Notice that $\pi \colon T X \to X$ is an [[open map]] (by [this example](open+map#ProjectionsAreOpenContinuousFunctions))
+so that $\{\pi(U_i) \subset X\}_{i \in I}$ is an open cover of $X$.
+
+Let now $\{\mathbb{R}^n \underoverset{\simeq}{\phi_j}{\to} V_j \subset X\}_{j \in J}$ be an [[atlas]] for $X$ and consider the
+open common refinement
+
+$$
+  \left\{ \pi(U_i) \cap V_j \subset X  \right\}_{i \in I, j \in J}
+  \,.
+$$
+
+Since this is still an open cover of $X$ and since $X$ is paracompact, this has a locally finite refinement
+
+$$
+  \left\{ V'_{j'} \subset X\right\}_{j' \in J'}
+$$
+
+Notice that for each $j' \in J'$ the product topological space $V'_{j'} \times \mathbb{R}^n \subset \mathbb{R}^{2n}$
+is paracompact (as a [[topological subspace]] of [[Euclidean space]] it is itself [[locally compact topological space|locally compact]]
+and [[second countable topological space|second countable]] and since [[locally compact and second-countable spaces are paracompact]]).
+Therefore the cover
+
+$$
+  \{ \pi^{-1}(V'_{j'}) \cap U_i \subset V'_{j'} \times \mathbb{R}^n \}_{(i,j') \in I \times J'}
+$$
+
+has a locally finite refinement
+
+$$
+  \{W_{k_{j'}} \subset V'_{j'} \times \mathbb{R}^n \}_{k_{j'} \in K_{j'}}
+  \,.
+$$
+
+We claim now that
+
+$$
+  \{ W_{k_{j'}}  \subset T X \}_{j' \in J',  k_{j'} \in K_{j'}}
+$$
+
+is a locally finite refinement of the original cover.
+That this is an open cover refining the original one is clear. We need to see that it is locally finite.
+
+So let $(x,\vec v) \in T X$. By local finiteness of $\{ V'_{j'}  \subset X\}_{j' \in J'}$ there is an open neighbourhood
+$V_x \supset \{x\}$ which intersects only finitely many of the $V'_{j'} \subset X$.
+Then by local finiteness of $\{ W_{k_{j'}}  \subset V'_{j_'}\}$, for each such $j'$ the point $(x,\vec v)$
+regarded in $V'_{j'} \times \mathbb{R}^n$ has an open neighbourhood $U_{j'}$ that intersects only finitely many of the $W_{k_{j'}}$. Hence the
+intersection $\pi^{-1}(V_x) \cap \left( \underset{j'}{\cap}  U_{j'} \right)$ is a finite intersection of open subsets, hence still open,
+and by construction it intersects still only a finite number of the $W_{k_{j'}}$.
+
+This shows that $T X$ is paracompact.
+
+Finally the statement about the differentiability of the glung functions and of the projections is immediate from the definitions
+
+=--
+
++-- {: .num_prop #FunctionsBetweenDifferentiableManifoldsDifferentials}
+###### Proposition
+**([[differentials]] of [[differentiable functions]] between [[differentiable manifolds]])**
+
+Let $X$ and $Y$ be [[differentiable manifolds]] and let $f \;\colon\; X \longrightarrow Y$ be a [[differentiable function]]. Then the operation of postcomposition which takes differentiable curves in $X$ to differentiable curves in $Y$
+
+$$
+  \array{
+     Hom_{Diff}(\mathbb{R}^1, X)
+       &\overset{f \circ (-)}{\longrightarrow}&
+     Hom_{Diff}(\mathbb{R}^1, Y)
+     \\
+     \left(
+       \mathbb{R}^1 \overset{\gamma}{\to} X
+     \right)
+     &\overset{\phantom{AAA}}{\mapsto}&
+     \left(
+       \mathbb{R}^1 \overset{f \circ \gamma}{\to} Y
+     \right)
+  }
+$$
+
+descends at each point $x \in X$ to the tangency [[equivalence relation]] (def. \ref{TangencyRelationOnSmoothCurves}, lemma \ref{TangencyIsEquivalenceRelation}) to yield a function on
+sets of [[tangent vectors]] (def. \ref{TangentVector}), called the _[[differential]]_ $d f_x$ of $f$ at $x$
+
+$$
+  d f|_{x}
+    \;\colon\;
+  T_x X
+   \longrightarrow
+  T_{f(x)} Y
+  \,.
+$$
+
+Moreover:
+
+1. ([[linear function|linear dependence]] on the tangent vector) these differentials are [[linear functions]] with respect to the vector space structure on the [[tangent spaces]] from lemma \ref{LinearTangentSpace}, def. \ref{TangentSpace};
+
+1. ([[differentiable function|differentiable dependence]] on the base point) globally they
+yield a [[homomorphism]] of real [[differentiable vector bundles]]  between the [[tangent bundles]] (def. \ref{TangentBundle}, lemma \ref{DifferentiableTangentBundle}), called the global _[[differential]]_ $d f$ of $f$
+
+   $$
+     d f \;\colon\; T X \longrightarrow T Y
+     \,.
+   $$
+
+1. ([[chain rule]]) The assignment $f \mapsto d f$ respects [[composition]] in that for $X$, $Y$, $Z$ three [[differentiable manifolds]] and for
+
+   $$
+     X
+       \overset{\phantom{A}f\phantom{A}}{\longrightarrow}
+     Y
+       \overset{\phantom{A}g\phantom{A}}{\longrightarrow}
+     Z
+   $$
+
+   two [[composition|composable]] [[differentiable functions]] then their [[differentials]] satisfy
+
+   $$
+     d(g \circ f) = (d g) \circ (d f)
+     \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+All statements are to be tested on charts of an atlas for $X$ and for $Y$. On these charts the
+statement reduces to that of example \ref{EuclideanSpaceTangentBundle}.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the language of [[category theory]] the statement of prop. \ref{FunctionsBetweenDifferentiableManifoldsDifferentials} says that forming [[tangent bundles]] $T X$ of [[differentiable manifolds]] $X$ and [[differentials]] $d f$  of [[differentiable functions]] $f \colon X \to Y$ constitutes a [[functor]]
+
+$$
+  T \;\colon\; Diff \longrightarrow Vect(Diff)
+$$
+
+from the [[category]] [[Diff]] of [[differentiable manifolds]] to the category of differentiable real vector bundles.
+
+
+=--
+
+
++-- {: .num_defn #VectorField}
+###### Definition
+**([[vector field]])**
+
+Let $X$ be a [[differentiable manifold]] with differentiable tangent bundle $T X \to X$ (def. \ref{TangentBundle}).
+
+A differentiable [[section]] $v \colon X \to T X$ of the tangent bundle is called a (differentiable)
+_[[vector field]]_ on $X$.
+
+
+=--
+
+
++-- {: .num_remark #AlgebraicDefinition}
+###### Remark
+**([[derivations of smooth functions are vector fields]])**
+
+Let $X$ be a [[smooth manifold]] and write $C^\infty(X)$ for the [[associative algebra]] over the [[real numbers]]
+of  [[smooth functions]] $X \longrightarrow \mathbb{R}$.
+
+Then every smooth [[vector field]] $v \in \Gamma_X(T X)$ (def. \ref{VectorField}) induces a [[function]]
+
+
+$$
+  \partial_v
+    \;\colon\;
+  C^\infty(X) \longrightarrow C^\infty(X)
+$$
+
+by
+
+$$
+  \partial f \;\colon\; x \mapsto \frac{d}{d t} (f \circ \gamma_{v_x})_0
+$$
+
+where $\gamma_{v_x} \colon \mathbb{R}^1 \to X$ is a smooth curve which represents the [[tangent vector]] $v(x) \in T_x X$
+according to def. \ref{TangentVector}.
+
+The linearity of [[derivatives]] and the [[product rule]] of [[differentiation]]
+imply that this function $\partial_v$ is a [[derivation]] on the algebra of smooth functions. Hence there is a function
+
+$$
+  \array{
+    \Gamma_X(T X)
+      &\longrightarrow&
+    Def(C^\infty(X))
+    \\
+    v &\mapsto& \partial_v
+  }
+  \,.
+$$
+
+It turns out that this function is in fact a [[bijection]]: every derivation of the algebra of smooth functions
+on a smooth manifold arises uniquely from a smooth tangent vector in this way.
+
+For more on this see at _[[derivations of smooth functions are vector fields]]_.
+
+
 
 =--
 
@@ -14784,7 +15628,7 @@ $$
 
 Notice that this identification depends on the choice of [[chart]], which is left implicit in this notation.
 
-Sometimes, notably in texts on [[thermodynamics]], one augments this notation to indicate the chart being used by listing the remaining coordinate functions as subscripts. For instance if two functions $f,g$ on a 2-dimensional manifold are used as coordinate functions for a local chart (i.e. so that $x^1 = f$ and $x^2 = g$ ), then one write
+Sometimes, notably in texts on [[thermodynamics]], one augments this notation to indicate the chart being used by listing the remaining coordinate functions as subscripts. For instance if two functions $f,g$ on a 2-dimensional manifold are used as coordinate functions for a local chart (i.e. so that $x^1 = f$ and $x^2 = g$ ), then one writes
 
 $$
   (\partial/\partial f)_g
@@ -14796,180 +15640,11 @@ for the tangent vectors $\frac{\partial}{\partial x^1}$ and $\frac{\partial}{\pa
 
 =--
 
-+-- {: .num_defn #TangentSpace}
-###### Definition
-**([[tangent space]])**
-
-For $X$ a [[differentiable manifold]] and $x \in X$ a point, then the _[[tangent space]]_ of $X$ at $x$ is the set $T_x X$ of [[tangent vectors]] at $x$ (def. \ref{TangentVector}) regarded as a [[real vector space]] via lemma \ref{LinearTangentSpace}.
-
-=--
-
-+-- {: .num_defn #TangentBundle}
-###### Definition
-**([[tangent bundle]])**
-
-Let $X$ be a [[differentiable manifold]] with [[atlas]] $\left\{ \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X\right\}_{i \in I}$.
-
-Equip the set of all tangent vectors (def. \ref{TangentVector})
-
-$$
-  T X
-  \;\coloneqq\;
-  \underset{x \in X}{\sqcup} T_x X
-$$
-
-with a [[topological space|topology]] $\tau_{T X}$ by declaring a [[subset]] $U \subset T X$ to be an [[open subset]] precisely if for all [[charts]] $\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X$ then its [[preimage]] under
-
-$$
-  \array{
-    \mathbb{R}^{2n}
-      \simeq
-    \mathbb{R}^n \times \mathbb{R}^n
-      & \overset{d \phi}{\longrightarrow} &
-    T X
-    \\
-    (x, \vec v)
-      &\overset{\phantom{AAA}}{\mapsto}&
-    \frac{d}{d v} \phi(x)
-  }
-$$
-
-is open in the [[Euclidean space]] $\mathbb{R}^{2n}$ with its [[metric topology]].
-
-Define an [[atlas]] on this topological space by
-
-$$
-  \left\{
-    \mathbb{R}^{2n}
-      \underoverset{\simeq}{d \phi_i}{\to}
-    T (U_i)
-     \subset
-    T X
-  \right\}_{i \in I}
-  \,.
-$$
-
-The resulting [[differentiable manifold]] $T X$ is called the _total space of the tangent bundle_ of $X$.
-
-Equipped with the [[function]]
-
-$$
-  \array{
-     T X &\overset{\phantom{AA}p_x \phantom{AA}}{\longrightarrow}& X
-     \\
-     (x,v) &\overset{\phantom{AAAA}}{\mapsto}& x
-  }
-$$
-
-this is called the _tangent bundle_ of $X$.
-
-=--
-
-+-- {: .num_lemma #DifferentiableTangentBundle}
-###### Lemma
-**(tangent bundle is differentiable vector bundle)**
-
-The total space of the tangent bundle def. \ref{TangentBundle} is a [[differentiable manifold]] in that
-
-1. $(T X, \tau_{T X})$ is a [[paracompact Hausdorff space]];
-
-1. The [[gluing functions]] of the atlas $\left\{ \mathbb{R}^{2n} \underoverset{\simeq}{d \phi_i}{\to} T U_i \subset  T X \right\}_{i \in I}$ are differentiable.
-
-Moreover, the function $p_X \colon T X \to X$ is [[continuous function|continuous]] and of the same degree of [[differentiable function|differentiability]] as the differentiable structure on $X$.
-
-Finally, this makes the tangent bundle into a real [[vector bundle]] over $X$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-(...) pretty straightforward (...)
-
-=--
-
-+-- {: .num_prop #FunctionsBetweenDifferentiableManifoldsDifferentials}
-###### Proposition
-**([[differentials]] of [[differentiable functions]] between [[differentiable manifolds]])**
-
-Let $X$ and $Y$ be [[differentiable manifolds]] and let $f \;\colon\; X \longrightarrow Y$ be a [[differentiable function]]. Then the operation of postcomposition which takes differentiable curves in $X$ to differentiable curves in $Y$
-
-$$
-  \array{
-     Hom_{Diff}(\mathbb{R}^1, X)
-       &\overset{f \circ (-)}{\longrightarrow}&
-     Hom_{Diff}(\mathbb{R}^1, Y)
-     \\
-     \left(
-       \mathbb{R}^1 \overset{\gamma}{\to} X
-     \right)
-     &\overset{\phantom{AAA}}{\mapsto}&
-     \left(
-       \mathbb{R}^1 \overset{f \circ \gamma}{\to} Y
-     \right)
-  }
-$$
-
-descends at each point $x \in X$ to the tangency [[equivalence relation]] (def. \ref{TangencyRelationOnSmoothCurves}, lemma \ref{TangencyIsEquivalenceRelation}) to yield a function on sets of [[tangent vectors]] (def. \ref{TangentVector}), called the _[[differential]]_ $d f|_{x}$ of $f$ at $x$
-
-$$
-  d f|_{x}
-    \;\colon\;
-  T_x X
-   \longrightarrow
-  T_{f(x)} Y
-  \,.
-$$
-
-Moreover:
-
-1. ([[linear function|linear dependence]] on the tangent vector) these differentials are [[linear functions]] with respect to the vector space structure on the [[tangent spaces]] from lemma \ref{LinearTangentSpace}, def. \ref{TangentSpace};
-
-1. ([[differentiable function|differentiable dependence]] on the base point) globally they yield a [[homomorphism]] of differentiable real vector bundles  between the [[tangent bundles]] (def. \ref{TangentBundle}, lemma \ref{DifferentiableTangentBundle}), called the global _[[differential]]_ $d f$ of $f$
-
-   $$
-     d f \;\colon\; T X \longrightarrow T Y
-     \,.
-   $$
-
-1. ([[chain rule]]) The assignment $f \mapsto d f$ respects [[composition]] in that for $X$, $Y$, $Z$ three [[differentiable manifolds]] and for
-
-   $$
-     X
-       \overset{\phantom{A}f\phantom{A}}{\longrightarrow}
-     Y
-       \overset{\phantom{A}g\phantom{A}}{\longrightarrow}
-     Z
-   $$
-
-   two [[composition|composable]] [[differentiable functions]] then their [[differentials]] satisfy
-
-   $$
-     d(g \circ f) = (d g) \circ (d f)
-     \,.
-   $$
-
-=--
-
-
-+-- {: .num_remark}
-###### Remark
-
-In the language of [[category theory]] the statement of prop. \ref{FunctionsBetweenDifferentiableManifoldsDifferentials} says that forming [[tangent bundles]] $T X$ of [[differentiable manifolds]] $X$ and [[differentials]] $d f$  of [[differentiable functions]] $f \colon X \to Y$ constitutes a [[functor]]
-
-$$
-  T \;\colon\; Diff \longrightarrow Vect(Diff)
-$$
-
-from the [[category]] [[Diff]] of [[differentiable manifolds]] to the category of differentiable real vector bundles.
-
-=--
-
-
 $\,$
 
 ### Embeddings
  {#EmbeddingOfSmoothManifolds}
+
 
 +-- {: .num_defn}
 ###### Definition
