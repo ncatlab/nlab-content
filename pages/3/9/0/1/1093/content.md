@@ -444,7 +444,7 @@ Every sheaf topos satisfies the following [[exactness properties]]. it is an
 
 ## References
 
-
+* {#Borceux94} [[Francis Borceux]], vol 3 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
 * {#Johnstone} [[Peter Johnstone]], sections A.4 and C.2 in _[[Elephant|Sketches of an Elephant]]_ 
  
