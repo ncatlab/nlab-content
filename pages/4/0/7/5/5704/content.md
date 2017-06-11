@@ -87,6 +87,62 @@ A quotient space in $Loc$ is given by a [[regular subobject]] in [[Frm]].
 
 ## Examples
 
++-- {: .num_example #CircleAsQuotientOfClosedIntervalIdentifyingEndpoints}
+###### Example
+
+The [[trigonometric function]]
+
+$$
+  (cos(-),sin(-))
+    \;\colon\; 
+  [0,2\pi]
+    \longrightarrow
+  S^1
+   \subset 
+  \mathbb{R}^2
+$$
+
+from the [[closed interval]] with its [[Euclidean space|Euclidean]] [[metric topology]] to the unit [[circle]] equipped with the [[subspace topology]] of the [[Euclidean space|Euclidean]] [[plane]] 
+
+descends to a [[homeomorphism]] on the quotient space $[0,2 \pi]/(0 \sim 2 \pi)$ by the equivalence relation which identifies the two endpoints of the open interval.
+
+$$
+  \array{
+    [0,2\pi] &\overset{(cos(-),sin(-))}{\longrightarrow}& S^1
+    \\
+    \downarrow & \nearrow_{\mathrlap{\simeq}}
+    \\
+    [0,2\pi]/\simeq
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[universal property]] of the quotient it follows that $[0,2\pi]/(0 \sim 2\pi) \to S^1$ is a [[continuous function]]. Moreover, it is a [[bijection]] on the underlying sets by the $2\pi$-periodicity of sine and coside. Hence it is sufficient to see that it is an [[open map]] (by [this prop.](homeomorphism#HomeoContinuousOpenBijection)).
+
+Since the open subsets of $[0,2\pi]$ are unions of 
+
+1. the [[open intervals]] $(a,b)$ with $0 \lt a \lt b \lt 2\pi$,
+
+1. the [[half-open intervals]]  $[0,b)$ and $(a,2\pi]$ with $0 \lt a,b  \lt 2\pi$ 
+
+and since the projection map $\pi \colon [0,2\pi] \to [0,2\pi]/(0 \sim 2\pi)$ is injective on $(0, 2\pi)$, the open subsets of $[0,2\pi]/(0 \sim 2\pi)$ are unions of
+
+1. the [[open intervals]] $(a,b)$ with $0 \lt a \lt b \lt 2\pi$,
+
+1. the glued [[half-open intervals]]  $(b,2\pi]/(0\sim 2\pi) \cup [0,a)/(0 \sim 2\pi)$ for $0 \lt a,b \lt 2\pi$.
+
+By the $2\pi$-periodicity of $(cos(-),sin(-))$, the image of the latter under $(cos(-),sin(-))$ is the same as the image of $(b, 2\pi + a)$. Since the function $(cos(-),sin(-)) \colon \mathbb{R} \to S^1$ is clearly an open map, it follows that the images of these open subsets in $S^1$ are open.
+
+
+
+=--
+
+
 +-- {: .num_example #QuotientBySubspace}
 ###### Example
 **(quotient by a subspace)**
@@ -117,8 +173,53 @@ $$
 
 This kind of quotient space plays a central role in the discussion of [[long exact sequences in cohomology]], see at _[[generalized (Eilenberg-Steenrod) cohomology]]_.
 
+=--
+
++-- {: .num_example #QuotientOfRealNumbersByTranslationByRationalNumbers}
+###### Example
+
+Consider the [[real numbers]] $\mathbb{R}$ equipped with their [[Euclidean space|Euclidean]] [[metric topology]]. Consider on $\mathbb{R}$ the [[equivalence relation]] which identifies all real numbers that differ by a [[rational number]]:
+
+$$
+  (x_1 \sim_{\mathbb{Q}} x_2)
+    \Leftrightarrow
+  \left(
+     x_2 - x_1 \in \mathbb{Q} \subset \mathbb{Q}
+  \right)
+  \,.
+$$
+
+Then the quotient space $\mathbb{R}/\sim_{\mathbb{Q}}$ is a [[codiscrete topological space]].
 
 =--
+
++-- {: .proof}
+###### Proof
+
+
+We need to check that the only open subsets of $X/\sim_{\mathbb{Q}}$ are the empty set and the entire set $X/\sim_{\mathbb{Q}}$. 
+
+So let $U \subset \mathbb{R}/\sim$ be a non-empty subset. 
+
+Write $\pi \colon \mathbb{R} \to \mathbb{R}/\sim_{\mathbb{Q}}$ for the quotient projection. By definition $U$ is open precisely if its pre-image $\pi^{-1}(U) \subset \mathbb{R}$ is open. By the Euclidean topology, this is the case precissely if $\pi^{-1}(U)$ is a union of [[open intervals]]. Since by assumption $\pi^{-1}(U)$ is non-empty, it contains at least one open interval $(a,b) \subset \mathbb{R}$, with $a \lt b$. By the density of the rational numbers, there exists a rational number $q \in \mathbb{Q} \subset \mathbb{R}$ with
+
+$$
+  0 \lt q \lt b - a
+  \,.
+$$
+
+By definition of $\sim_{\mathbb{Q}}$ we have for all $n \in \mathbb{Z}$ that all elements in $(a + n q, b + n q) \subset \mathbb{R}$ are $\sim_{\mathbb{Q}}$-equivalent to elements in $(a,b)$, hence that also $(a+q,b+q) \subset \pi^{-1}(U)$. But the union of these open intervals is all of $\mathbb{R}$
+
+$$
+  \underset{n \in \mathbb{Z}}{\cup} (q + n q, b + n q)
+  \;=\;
+  \mathbb{R}
+$$
+
+and so $\pi^{-1}(U) = \mathbb{R}$.
+
+=--
+
 
 
 ## Properties
