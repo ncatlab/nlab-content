@@ -66,7 +66,14 @@ which is the source-target pairing $X(2) \to X(1) \times X(1)$, is monic. Such a
 Being a quasitopos with small coproducts, it is $\infty$-extensive provided that coproducts are disjoint. However, this is trivial to check (it even suffices to check, according to [[Elephant]] 2.6.5, that $0 \to 1$ is a [[regular monomorphism]], or that $1 + 1$ is a disjoint coproduct, which it obviously is). 
 =-- 
 
-It is easy to describe [[monomorphism|monos]] and [[epimorphism|epis]] in $SimpGph$. For, let $\Gamma = \hom(1, -): SimpGph \to Set$ be the underlying vertex-set [[forgetful functor]]. We have two easy results:  
+It is easy to describe [[monomorphism|monos]] and [[epimorphism|epis]] in $SimpGph$. For, let $\Gamma = \hom(1, -): SimpGph \to Set$ be the underlying vertex-set [[forgetful functor]]. 
+
++-- {: .num_prop} 
+###### Proposition 
+The forgetful functor $\Gamma = \hom(1, -): SimpGph \to Set$ is faithful, in fact exhibits $SimpGph$ as a [[topological concrete category]]. 
+=-- 
+
+We omit the easy proof. Next we have two easy results:  
 
 +-- {: .num_prop} 
 ###### Proposition 
