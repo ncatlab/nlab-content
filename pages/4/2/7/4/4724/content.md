@@ -271,6 +271,7 @@ Hence there is a [[category]] [[Diff]]${}_p$ whose [[objects]] are $C^p$-[[diffe
 
 
 ## Examples
+ {#Examples}
 
 +-- {: .num_example #DifferentiableManifoldCartesianSpace}
 ###### Example
@@ -306,6 +307,48 @@ Finally the $n$-sphere is a [[paracompact Hausdorff topological space]]. Ways to
 1. The $n$-sphere has an evident structure of a [[CW-complex]] and [[CW-complexes are paracompact Hausdorff spaces]].
 
 =--
+
++-- {: .num_example}
+###### Example
+**([[real projective space]] and [[complex projective space]])**
+
+For $n \in \mathbb{N}$
+
+1. the [[real projective space]] $\mathbb{R}P^n$ has the structure of a [[smooth manifold]]
+of [[dimension]] $n$;
+
+1. the [[complex projective space]] $\mathbb{C}P^n$ has the structure of a [[smooth manifold]] of (real) [[dimension]] $2n$.
+
+where in both cases the [[atlas]] is given by the standard open cover ([this def.](projective+space#TopologicalProjectiveSpaceStandardOpenCover)).
+
+=--
+
+By [this prop.](projective+space#SmoothManifoldRealComplexProjectiveSpace).
+
+We now discuss some general mechanisms by which new differentiable manifolds arise from given ones:
+
++-- {: .num_example #ProductManifold}
+###### Example
+**(product manifold)**
+
+Let $X$ any $Y$ be two differentiable manifolds with [[atlases]] $\{\mathbb{R}^n\underoverset{\simeq}{\phi_i}{\to} U_i \subset X\}$
+and $\{\mathbb{R}^{n'}\underoverset{\simeq}{\psi_j}{\to} V_j \subset Y\}$. Then their [[product topological space]] $X \times Y$
+becomes an differentiable manifold with respect to the atlas
+
+$$
+  \left\{
+    \mathbb{R}^{n \cdot n'}
+      \underoverset{\simeq}{\phi_i \times \psi_j}{\to}
+    U_i \times V_j
+      \subset
+    X \times Y
+  \right\}_{(i,j) \in I \times J}
+$$
+
+=--
+
+
+
 
 +-- {: .num_example #OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds}
 ###### Example
@@ -350,23 +393,6 @@ The group operations are [[smooth functions]] with respect to this smooth manifo
 is a [[Lie group]].
 
 =--
-
-+-- {: .num_example}
-###### Example
-**([[real projective space]] and [[complex projective space]])**
-
-For $n \in \mathbb{N}$ 
-
-1. the [[real projective space]] $\mathbb{R}P^n$ has the structure of a [[smooth manifold]]
-of [[dimension]] $n$;
-
-1. the [[complex projective space]] $\mathbb{C}P^n$ has the structure of a [[smooth manifold]] of (real) [[dimension]] $2n$.
-
-where in both cases the [[atlas]] is given by the standard open cover ([this def.](projective space#TopologicalProjectiveSpaceStandardOpenCover)).
-
-=--
-
-By [this prop.](projective+space#SmoothManifoldRealComplexProjectiveSpace).
 
 
 ## Related concepts
