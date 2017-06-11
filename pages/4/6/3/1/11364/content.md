@@ -124,6 +124,10 @@ where $q$ is the unique homomorphism mapping $\sigma_1\sigma_2$ to $\lambda z. (
 
 * [[modular equivariant elliptic cohomology]]
 
+## References
+
+Named after _[[August Möbius]]_.
+
 [[!redirects Moebius transformations]]
 [[!redirects moebius transformation]]
 [[!redirects moebius transformations]]
