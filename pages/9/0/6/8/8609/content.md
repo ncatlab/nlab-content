@@ -8,7 +8,7 @@
 =--
 #### Limits and colimits
 +--{: .hide}
-[[!include infinity-limits - contents]]
+[[!include infinity-limits - contents]]bec
 =--
 =--
 =--
@@ -46,7 +46,7 @@ $$
   \mathcal{C}_{/A}
    \stackrel{\overset{\sum_f}{\to}}{\underset{f^*}{\leftarrow}}
   \mathcal{C}_{/I}
-  \,.
+  \qquad.
 $$
 
 =--
@@ -81,7 +81,7 @@ The [[product]] $X \times A \in \mathcal{C}$ is, if it exists, equivalently the 
 
 $$
   \sum_{X} X^* A \simeq X \times A \in \mathcal{C}
-  \,.
+  \quad .
 $$
 
 =--
@@ -155,7 +155,7 @@ $$
     \\
     \underset{X}{\sum} B &\stackrel{(B,id)}{\longrightarrow}& X \times \underset{X}{\sum} B
   }
-  \,.
+  \qquad .
 $$
 
 
@@ -193,7 +193,7 @@ $$
     \\
     X \times B &\longrightarrow& B
   }
-  \,.
+  \qquad.
 $$
 
 
