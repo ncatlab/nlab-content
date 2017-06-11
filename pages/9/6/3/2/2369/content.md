@@ -23,7 +23,9 @@
 
 The terminology  _(commutative) ring spectrum_ refers either to a ([[commutative monoid|commutative]]) [[monoid]] in the [[stable homotopy category]] regarded as [[monoidal category]] via the [[smash product of spectra]], or to the richer structure of a [[monoid]] in a [[model structure for spectra]] equipped with a [[symmetric smash product of spectra]]. 
 
-In the first case a ring spectrum is a [[spectrum]] equipped with a unit and product operation, which is associative, unital  (and commutative) just up to unspecified [[homotopy]] (such as in an [[H-space]] structure). In the second case the structure is much richer; and in good cases, such as for [[highly structured spectra]], is equivalent to [[A-∞ ring]] structure ([[E-∞ ring]] structure).
+In the first case a ring spectrum is a [[spectrum]] equipped with a unit and product operation, which is associative, unital  (and commutative) just up to unspecified [[homotopy]], such as in an [[H-space]] structure. Therefore one also says _H-ring spectrum_ ([Bruner-May-McLure-Steinberger 86](#BrunerMayMcLureSteinberger86)).
+
+In the second case the structure is much richer; and in good cases, such as for [[highly structured spectra]], is equivalent to [[A-∞ ring]] structure ([[E-∞ ring]] structure).
 
 To distinguish the two situations further qualification is being used. Sometimes one says **homotopy ring spectrum** to explicitly refer to the first case (e.g. [Schwede 12, chapter II 4.1](#Schwede12)) or one says "[[highly structured ring spectrum]]" to refer explicitly to the second case. For more on this see at _[[brave new algebra]]_ and _[[higher algebra]]_.
 
@@ -40,6 +42,8 @@ For details see _[[Introduction to Stable homotopy theory]]_, _[[Introduction to
 ### Relation to multiplicative generalized cohomology
 
 Under the [[Brown representability theorem]], the [[generalized cohomology theory]] represented by a ring spectrum inherits the structure of a [[multiplicative cohomology theory]].
+
+Conversely via the [[Brown representability theorem]] a spectrum representing a [[multiplicative cohomology theory]] inherits the structure of (at least) an H-ring spectrum. See [there](multiplicative+cohomology+theory#BrownRepresentabilityByRingSpectra).
 
 
 ## Related concepts
@@ -71,6 +75,8 @@ Under the [[Brown representability theorem]], the [[generalized cohomology theor
 * {#Adams74} [[Frank Adams]], part III, section 10 of _[[Stable homotopy and generalised homology]]_, 1974
 
 * {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], appendix C of _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]])
+
+* {#BrunerMayMcLureSteinberger86} R. Bruner, [[Peter May]], J. McLure, M. Steinberger, _H Ring Spectra and their Applications_, Lecture Notes in Mathematics 1176, Springer 1986
 
 Quick survey includes
 
@@ -124,3 +130,8 @@ See also the references at [[stable homotopy theory]].
 [[!redirects homotopy commutative ring spectrum]]
 [[!redirects homotopy commutative ring spectra]]
 
+[[!redirects H-ring spectrum]]
+[[!redirects H-ring spectra]]
+
+[[!redirects H ring spectrum]]
+[[!redirects H ring spectra]]
