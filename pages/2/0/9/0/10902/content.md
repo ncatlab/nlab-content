@@ -1,5 +1,5 @@
 
-> This entry is about the general concept. For the concept iin [[topology]] see at _[[closed map]]_.
+> This entry is about the general concept. For the concept in [[topology]] see at _[[closed map]]_.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
