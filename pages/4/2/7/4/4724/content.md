@@ -351,6 +351,23 @@ is a [[Lie group]].
 
 =--
 
++-- {: .num_example}
+###### Example
+**([[real projective space]] and [[complex projective space]])**
+
+For $n \in \mathbb{N}$ 
+
+1. the [[real projective space]] $\mathbb{R}P^n$ has the structure of a [[smooth manifold]]
+of [[dimension]] $n$;
+
+1. the [[complex projective space]] $\mathbb{C}P^n$ has the structure of a [[smooth manifold]] of (real) [[dimension]] $2n$.
+
+where in both cases the [[atlas]] is given by the standard open cover ([this def.](projective space#TopologicalProjectiveSpaceStandardOpenCover)).
+
+=--
+
+By [this prop.](projective+space#SmoothManifoldRealComplexProjectiveSpace).
+
 
 ## Related concepts
 
