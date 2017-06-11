@@ -29,13 +29,13 @@ We discuss the tautological line bundle as a [[topological vector bundle]]. Henc
 
 * or $k = \mathbb{C}$ the [[complex numbers]]
 
-equipped with their [[Euclidean space|Euclidean]] [[metric topology]]
+equipped with their [[Euclidean space|Euclidean]] [[metric topology]].
 
 +-- {: .num_defn #ToplogicalProjectiveSpace}
 ###### Definition
-**(topological projective space)**
+**(topological [[projective space]])**
 
-Let $n \in \mathbb{C}$. Consider the [[Euclidean space]] $k^{n+1}$ equipped with its [[metric topology]], let $k^{n+1} \setminus \{0\} \subset k^{n+1}$ be the [[topological subspace]] which is the [[complement]] of the origin, and consider on its underlying set the [[equivalence relation]] which identifies two points if they differ by [[multiplication]] with some $c \in k$ (necessarily non-zero):
+Let $n \in \mathbb{N}$. Consider the [[Euclidean space]] $k^{n+1}$ equipped with its [[metric topology]], let $k^{n+1} \setminus \{0\} \subset k^{n+1}$ be the [[topological subspace]] which is the [[complement]] of the origin, and consider on its underlying set the [[equivalence relation]] which identifies two points if they differ by [[multiplication]] with some $c \in k$ (necessarily non-zero):
 
 $$
   (\vec x_1 \sim \vec x_2)
