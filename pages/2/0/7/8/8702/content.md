@@ -184,6 +184,40 @@ $$
 
 =--
 
++-- {: .num_example #InfiniteProductOfDiscreteSpaces}
+###### Example
+
+Let $Disc(S)$ be a [[discrete topological space]] on a set with at least two elements. Then the infinite product space
+
+$$
+  \underset{n \in \mathbb{Z}}{\prod} Disc(S)
+$$
+
+is itself _not_ a discrete space.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The open subsets of a discrete space include _all_ the subsets of the underlying set. Hence we need to see that there are subsets of the [[Cartesian product]] set   $\underset{n \in \mathbb{Z}}{\prod} Disc(S)$ which are not open subsets in the Tychonoff topology.
+
+But by definition the open subsets in the Tychnoff topology are unions of products of open subsets of the factor spaces such that only a finite number of the factors is not the total space.
+
+Since $S$ is assumed to contain at least two elements let $1 \in S$ be one of these. Then $\{1\} \subset S$ is a proper subset. Accordingly the product subset
+
+$$
+  \underset{n \in \mathbb{B}}{\prod} \{1\}
+  \;\subset\;
+  \underset{n\in \mathbb{N}}{\prod} Disc(S)
+$$
+
+is not open. For if it were, it would have to be the union of product subsets that contain the total set $S$ in at least one entry, which by construction it is not.
+
+=--
+
+
+
 
 +-- {: .num_example #CantorSpace}
 ###### Example
