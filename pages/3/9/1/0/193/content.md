@@ -47,7 +47,7 @@ Now we work more generally. Suppose given functors $L: C \to D$, $R: D \to C$ an
 
 $$\Psi_{c, d}: \hom_D(L(c), d) \cong \hom_C(c, R(d))$$ 
 
-Now the idea is that, a la the [[Yoneda lemma]], $\Psi$ should be completely describable in terms of what it does to identity maps. With that in mind, define the unit $\eta : 1_C \to R L$ by the formula $\eta_c = \Psi_{c, L(c)}(1_{L(c)})$. Dually, define the counit $\varepsilon : L R \to 1_D$ by the formula $\varepsilon_d = \Psi^{-1}_{R(d), d}(1_{R(d)})$. Then given $g: L(c) \to d$, the claim is that 
+Now the idea is that, in the spirit of the (proof of the) [[Yoneda lemma]], we would like $\Psi$ to be determined by what it does to identity maps. With that in mind, define the unit $\eta : 1_C \to R L$ by the formula $\eta_c = \Psi_{c, L(c)}(1_{L(c)})$. Dually, define the counit $\varepsilon : L R \to 1_D$ by the formula $\varepsilon_d = \Psi^{-1}_{R(d), d}(1_{R(d)})$. Then given $g: L(c) \to d$, the claim is that 
 
 $$\Psi_{c, d}(g) = (c \stackrel{\eta_c}{\to} R(L(c)) \stackrel{R(g)}{\to} R(d)).$$ 
 
@@ -57,15 +57,15 @@ $$\Psi^{-1}_{c, d}(f) = (L(c) \stackrel{L(f)}{\to} L(R(d)) \stackrel{\varepsilon
 
 (In fact, we spell out the Yoneda-lemma proof of this dual form below.)
 
-Finally, these operations should obviously be mutually inverse, but that can again be entirely encapsulated Yoneda-wise in terms of the effect on identity maps. Thus, if $\eta_c \coloneqq \Psi_{c, L(c)}(1_{L(c)})$, the recipe just given for $\Psi^{-1}$ yields back 
+Finally, these operations should obviously be mutually inverse, but that can again be entirely encapsulated Yoneda-wise in terms of the effect on identity maps. Thus, if $\eta_c \coloneqq \Psi_{c, L(c)}(1_{L(c)})$, via the recipe just given for $\Psi^{-1}$ we recover 
 
 $$1_{L(c)} = (L(c) \stackrel{L(\eta_c)}{\to} L R L(c) \stackrel{\varepsilon_{L(c)}}{\to} L(c))$$ 
 
-and this is one of the famous **triangular equations**: $1_L = (L \stackrel{L \eta}{\to} L R L \stackrel{\varepsilon L}{\to} L)$.  Note that juxtaposition in the diagram above is neither functor application, nor vertical composition, nor horizontal composition, but is actually [[whiskering]]. By duality, we have the other triangular equation $1_R = (R \stackrel{\eta R}{\to} R L R \stackrel{R \varepsilon}{\to} R)$. These two triangular equations are enough to guarantee that the recipes for $\Psi$ and $\Psi^{-1}$ are indeed mutually inverse. 
+and this is one of the famous [[triangle identities]]: $1_L = (L \stackrel{L \eta}{\to} L R L \stackrel{\varepsilon L}{\to} L)$.  Here, juxtaposition of functors and natural transformations denotes neither functor application, nor vertical composition, nor horizontal composition, but [[whiskering]]. By duality, we have the other [[triangle identity]] $1_R = (R \stackrel{\eta R}{\to} R L R \stackrel{R \varepsilon}{\to} R)$. These two triangular equations are enough to guarantee that the recipes for $\Psi$ and $\Psi^{-1}$ indeed yield mutual inverses. 
 
-Thus, it is perfectly sufficient to define an adjoint pair of functors in $Cat$ as given by unit and counit transformations $\eta: 1_C \to R L$, $\varepsilon: L R \to 1_D$, satisfying triangular equations as above. 
+Thus, it is perfectly sufficient to define an adjoint pair of functors in $Cat$ as given by unit and counit transformations $\eta: 1_C \to R L$, $\varepsilon: L R \to 1_D$, satisfying the triangle identities above. 
 
-One thing often heard is that the definition of adjunctions via units and counits is an "elementary" definition (so that by implication, the formulation in terms of hom-functors is not elementary). This means that whereas the hom-functor formulation relies on a background category of sets, the formulation in terms of units and counits is purely in the first-order language of categories and makes no reference to a background model of set theory. It is therefore a perfectly serviceable definition of adjunction without assumptions of local smallness.
+The definition of adjunctions via units and counits is an "elementary" definition (so that by implication, the formulation in terms of hom-functors is not elementary) in the sense that while the hom-functor formulation relies some notion of hom-_set_, the formulation in terms of units and counits is purely in the first-order language of categories and makes no reference to a model of set theory. (Cf. [[first-order logic]] and [[second-order logic]].) The definition via (co)units therefore gives us a viable definition of adjunctions even if the classical assumption of [[locally small|local smallness]] is not made.
 
 +-- {: .proof}
 ######Yoneda-lemma argument
