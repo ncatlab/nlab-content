@@ -120,7 +120,7 @@ It is equivalent to just require that it preserves binary coproducts (a detailed
 $$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) ,$$
 so $X$ is connected if this is always a [[bijection]]. This definition generalises to the notion of [[connected object]] in an [[extensive category]].
 
-The variant of the definition according to remark \ref{ConnectedEmptySpace}, which regards the empty space means in terms of category theoretic languag that one
+The variant of the definition according to remark \ref{ConnectedEmptySpace}, which regards the empty space means in terms of category theoretic language that one
 requires only that the maps
 $$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) $$
 be [[surjections]].
