@@ -8296,7 +8296,21 @@ theory, in particular for the discussion of [[topological manifolds]] [below](#M
  {#ConnectedComponents}
 
 Via [[homeomorphism]] to [[disjoint union spaces]] one may characterize whether topological spaces are
-_connected_:
+_[[connected topological spaces|connected]]_  (def. \ref{ConnectedTopologicalSpace} below), and decompose every topological space
+into its [[connected components]] (def. \ref{ComponentsConnected} below).
+
+The important subtlety in to beware of
+is that a topological space is _not_ in general the disjoint union space of its connected
+components.
+The extreme case of this phenomenon are [[totally disconnected topological spaces]] 
+(def. \ref{TotallyDisconnectedTopologicalSpace} below) which are nevertheless not [[discrete topological spaces|discrete]]
+(examples \ref{RationalNumbersAreTotallyDisconnected} and \ref{TotallyDisconnectedCantorSpace} below). 
+
+The topological spaces free from this exotic behaviour are the  
+_[[locally connected topological spaces]]_ (def.  \ref{LocallyConnected} below).
+
+
+
 
 +-- {: .num_defn #ConnectedTopologicalSpace}
 ###### Definition
@@ -8381,30 +8395,6 @@ If a subset $CO \subset X$ is both closed and open, this means equivalently that
 
 =--
 
-+-- {: .num_defn #ComponentsConnected}
-###### Definition
-**([[connected components]])**
-
-For $(X,\tau)$ a [[topological space]], then its _[[connected components]]_
-are the [[equivalence classes]] under the [[equivalence relation]] on $X$ which
-regards two points as equivalent if they both sit in some [[open subset]]
-which, as a [[topological subspace]] (example \ref{SubspaceTopology}), is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}):
-
-$$
-  (x \sim y)
-    \;\coloneqq\;
-  \left(
-    \underset{ U \subset X \; \text{\open} }{\exists}
-    \left(
-       \left( x,y \in U \right)
-        \phantom{A}\text{and}\phantom{A}
-       \left( U \, \text{is connected} \right)
-    \right)
-  \right)
-  \,.
-$$
-
-=--
 
 +-- {: .num_example #ConnectedSubspacesOfRealLineAreTheIntervals}
 ###### Example
@@ -8428,9 +8418,6 @@ $$
   \right)
   \,.
 $$
-
-In particular for $\{ I_i \subset \mathbb{R} \}_{i \in I}$ a set of [[disjoint subset|disjoint]] intervals,
-then $I$ is the set of [[connected components]] (def. \ref{ComponentsConnected}) of the union $\underset{i \in I}{\cup} I_i$.
 
 =--
 
@@ -8461,7 +8448,7 @@ assumption that $S$ is connected. This yields a [[proof by contradiction]].
 
 +-- {: .num_prop #ContinuousImagesOfConnectedSpacesAreConnected}
 ###### Proposition
-**([[continuous function|continuous]] [[images]] of connected spaces are connected)**
+**([[continuous function|continuous]] [[images]] of [[connected spaces]] are [[connected space|connected]])**
 
 Let $X$ be a [[connected topological space]] (def. \ref{ConnectedTopologicalSpace}), let $Y$ be any [[topological space]], and let
 
@@ -8530,7 +8517,7 @@ itself an interval. This implies the claim.
 
 +-- {: .num_example #ProductSpaceOfConnectedSpacesIsConnected}
 ###### Example
-**([[product space]] of connected spaces is connected)
+**([[product space]] of [[connected spaces]] is [[connected space|connected]])**
 
 Let $\{X_i\}_{i \in I}$ be a set of [[connected topological spaces]] (def. \ref{ConnectedTopologicalSpace}).
 Then also their [[product topological space]]  $\underset{i \in I}{\prod}X_i$
@@ -8579,11 +8566,107 @@ or both in $U_2$, contrary to the assumption.
 
 =--
 
-The important subtlety in the concept of connected topological spaces to beware of
-is that a topological space is _not_ in general the disjoint union space of its connected
-components (this is however true for [[locally connected topological spaces]], discussed below in prop. \ref{LocallyConnected}).
 
-The extreme case of this phenomenon are spaces all whose connected components are singletons (def. \ref{TotallyDisconnectedTopologicalSpace} below) but which are nevertheless not discrete.
+$\,$
+
+While topological spaces are not always connected, they
+always decompose into their connected components:
+
++-- {: .num_defn #ComponentsConnected}
+###### Definition
+**([[connected components]])**
+
+For $(X,\tau)$ a [[topological space]], then its _[[connected components]]_
+are the [[equivalence classes]] under the [[equivalence relation]] on $X$ which
+regards two points as equivalent if they both sit in some [[open subset]]
+which, as a [[topological subspace]] (example \ref{SubspaceTopology}), is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}):
+
+$$
+  (x \sim y)
+    \;\coloneqq\;
+  \left(
+    \underset{ U \subset X \; \text{\open} }{\exists}
+    \left(
+       \left( x,y \in U \right)
+        \phantom{A}\text{and}\phantom{A}
+       \left( U \, \text{is connected} \right)
+    \right)
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_example #DisjointUnionConnectedComponents}
+###### Example
+**([[connected components]] of [[disjoint union spaces]])**
+
+For $\{X_i\}_{i \in I}$ a $I$-indexed [[set]] of [[connected topological spaces]] then
+the set of [[connected components]] (def. \ref{ComponentsConnected}) of their 
+[[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces}) is the index set $I$.
+
+=--
+
+In general the situation is more complicated than in example \ref{DisjointUnionConnectedComponents},
+this we come to in examples \ref{RationalNumbersAreTotallyDisconnected} and \ref{TotallyDisconnectedCantorSpace}
+below. But first notice some basic properties of connected components:
+
++-- {: .num_prop #ClosureOfConnectedSubspaceIsConnected}
+###### Proposition
+**([[topological closure]] of connected subspace is connected)**
+
+Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] which, as a [[subspace]], is connected. Then also the [[topological closure]] $Cl(S) \subset X$ is connected
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Suppose that $Cl(S) = A \sqcup B$ with $A,B \subset X$ [[disjoint subsets|disjoint]] [[open subsets]]. We need to show that one of the two is empty.
+
+But also the intersections $A \cap S\,,B \cap S \subset S$ are disjoint subsets, open as subsets of the subspace $S$ with $S = (A \cap S) \sqcup (B \cap S)$. Hence by the connectedness of $S$, one of $A \cap S$ or $B \cap S$ is empty. Assume $B \cap S$ is empty, otherwise rename. Hence $A \cap S = S$, or equivalently: $S \subset A$. By disjointness of $A$ and $B$ this means that  $S \subset Cl(S) \setminus B$. But since $B$ is open, $Cl(S) \setminus B$ is still closed, so that
+
+$$
+  (S \subset Cl(S) \setminus B)
+  \Rightarrow
+  (Cl(S) \subset Cl(S) \setminus B)
+  \,.
+$$
+
+This means that $B = \emptyset$, and hence that $Cl(S)$ is connected.
+
+=--
+
++-- {: .num_prop #ConnectedComponentsAreClosed}
+###### Proposition
+**(connected components are closed)**
+
+Let $(X,\tau)$ be a [[topological space]]. Then its connected components (def. \ref{ComponentsConnected}) are [[closed subsets]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition, the connected components are [[maximal elements]] in the set of connected subspaces [[preorder|pre-ordered]] by inclusion. By prop. \ref{ClosureOfConnectedSubspaceIsConnected} this means that they must contain their closures, hence they must equal their closures.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{ConnectedComponentsAreClosed} implies that when a space has a [[finite set]] of connected components, then they are not just closed but also open, hence [[clopen subsets]] (because then each is the [[complement]] of a finite union of closed subspaces).
+
+For a non-finite set of connected components this remains true if the space is [[locally connected topological space|locally connected]]. See [this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)
+
+=--
+
+
+$\,$
+
+We now highlight the subtlety that not every topological space is the
+disjoint union of its connected components. For this it is useful to consider
+the following extreme situation:
 
 +-- {: .num_defn #TotallyDisconnectedTopologicalSpace}
 ###### Definition
@@ -8594,6 +8677,19 @@ if all its
 [[connected components]] (def. \ref{ComponentsConnected}) are [[singletons]], hence [[point spaces]] (example \ref{ConcreteAndAbstractPoint}).
 
 =--
+
+The trivial class of examples is this:
+
++-- {: .num_example}
+###### Example
+**([[discrete topological spaces]] are [[totally disconnected topological space|totally disconnected]])**
+
+Every [[discrete topological space]] 
+(example \ref{CoDiscreteTopology}) is a [[totally disconnected topological space]] (def. \ref{TotallyDisconnectedTopologicalSpace}).
+
+=--
+
+But the important point is that there are non-discrete totally disconnected topological spaces:
 
 +-- {: .num_example #RationalNumbersAreTotallyDisconnected}
 ###### Example
@@ -8802,7 +8898,7 @@ This is immediate from the first item of def. \ref{LocallyConnected}.
 
 $\,$
 
-Another important class of examples of locally connected topological spaces are [[topological manfolds]],
+Another important class of examples of locally connected topological spaces are [[topological manifolds]],
 this we discuss as prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} below.
 
 $\,$
@@ -14821,7 +14917,7 @@ Now fix any $j_0 \in J$.
 We claim that for every $j \in J$ there is a finite sequence of indices $(j_0, j_1, \cdots, j_n = j)$ with the property
 that $V_{j_k} \cap V_{j_{k+1}} \neq \emptyset$.
 
-To see this, first obserse that it is sufficient to show sigma-compactness for the case that $X$ is [[connected topological space|connected]]. From this the general statement follows since [[countable unions of countable sets are countable]]. Hence assume that $X$ is connected.
+To see this, first observe that it is sufficient to show sigma-compactness for the case that $X$ is [[connected topological space|connected]]. From this the general statement follows since [[countable unions of countable sets are countable]]. Hence assume that $X$ is connected.
 It follows from lemma \ref{PathConnectedFromConnectedLocallyEuclideanSpace} that  $X$ is [[path-connected topological space|path-connected]].
 
 Hence for any $x \in V_{j_0}$ and $y \in V_{j}$ there is a path $\gamma \colon [0,1] \to X$ connecting $x$ with $y$. Since the [[closed interval]] is compact and since [[continuous images of compact spaces are compact]], it follows that there is a finite subset of the $V_i$ that covers the image of this path. This proves the claim.
