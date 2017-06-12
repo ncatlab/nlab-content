@@ -102,7 +102,7 @@ $$
   }
 $$
 
-(in the 1-category [[Cat]] of categories).
+(in the 2-category [[Cat]] of categories).
 
 Compare this with the construction at [[generalized universal bundle]] and with the definition of [[loop space object]]. 
 
