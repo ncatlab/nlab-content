@@ -52,17 +52,25 @@ In particular, in a locally connected space, every connected component $S$ is a 
 +-- {: .proof}
 ###### Proof
 
-Assume $X$ is lcoally connected, and let $U \subset X$ be an open subset with $U_0 \subset U$ a connected component. We need to show that $U_0$ is open.
+$\,$
+
+1) $\Rightarrow$ 2)
+
+Assume $X$ is locally connected, and let $U \subset X$ be an open subset with $U_0 \subset U$ a connected component. We need to show that $U_0$ is open.
 
 Consider any point $x \in U_0$. Since then also $x \in U$, the defintion of local connectedness, def. \ref{LocallyConnected}, implies that there is a connected open neighbourhood $U_{x,0}$ of $X$. Observe that this must be contained in $U_0$, for if it were not then $U_0 \cup U_{x,0}$ were a larger open connected open neighbourhood, contradicting the maximality of the connected component $U_0$. 
 
 Hence $U_0 = \underset{x \in U_0}{\cup} U_{x,0}$ is a union of open  subsets, and hence itself open.
 
-Now assume that every connected component of every open subset is open. Since every connected component is also closed, by [this prop.](connected+space#ConnectedComponentsAreClosed), the connected components constitute a disjoint cover of $X$ by [[clopen subsets]], which means that $X$ is the [[disjoint union space]] of these subspaces.
+2) $\Rightarrow$ 3)
+
+Now assume that every connected component of every open subset $U$ is open. Since the connected components generally consitute a [[cover]] of $X$ by [[disjoint subsets]] this means that now they for an [[open cover]] by disjoint subsets. But by forming intersections with the cover this implies that every open subset of $U$ is the disjoint union of open subsets of the connected components (and of course every union of open subsets of the connected components is still open in $U$), which is the definition of the topology on the [[disjoint union space]] of the connected components.
+
+3) $\Rightarrow$ 1)
 
 Finally assume that every open subspace is the disjoint union of its connected components. Let $x$ be a point and $U_x \supset \{x\}$ a neighbourhood. We need to show that $U_x$ contains a connected neighbourhood of $x$.
 
-But, by definition, $U_x$ contains an open neighbourhood of $x$ and by assumption this decomposes as the disjoint union of its connected components. One of these contains $x$. Since in a dijoint union all summands are open, this is the required connected open neighbourhod.
+But, by definition, $U_x$ contains an open neighbourhood of $x$ and by assumption this decomposes as the disjoint union of its connected components. One of these contains $x$. Since in a [[disjoint union space]] all summands are open, this is the required connected open neighbourhod.
 
 =--
 
