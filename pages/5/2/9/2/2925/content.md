@@ -1,13 +1,13 @@
 
 # The intermediate value theorem
-* tic
+* table of contents
 {: toc}
 
 ## Idea
 
-The intermediate value theorem (IVT) is a fundamental principle of [[analysis]] which allows one to find a desired value by [[interpolation]].  Roughly speaking, it says that if Papa Bear\'s porridge is too hot and Mama Bear\'s porridge is too cold, then there must be some temperature of porridge which is [just right](https://en.wikipedia.org/wiki/The_Story_of_the_Three_Bears).
+The _intermediate value theorem_ (IVT) is a fundamental principle of [[analysis]] which allows one to find a desired value by [[interpolation]].  It says that a [[continuous function]] $f \colon [0,1] \to \mathbb{R}$ from an [[interval]] to the [[real numbers]] (all with its [[Euclidean space|Euclidean]] [[topological space|topology]]) takes all values in between $f(0)$ and $f(1)$.
 
-The IVT in its general form was not used by [[Euclid]].  Although it is hard to doubt that Euclid believed that, for any given angle, there was an angle with one-third the measure, this angle cannot be constructed by the methods available to Euclid, so he would never refer to it.  In contrast, [[Archimedes]] made general arguments in which a quantity is approached from above and below, allowing him not only to trisect the angle but also to calculate [[pi|π]].
+The IVT in its general form was not used by [[Euclid]].  Although it is hard to doubt that Euclid believed that, for any given angle, there was an angle with one-third the measure, this angle cannot be constructed by the methods available to Euclid, so he would never refer to it (see at _[[Euclidean geometry]]_).  In contrast, [[Archimedes]] made general arguments in which a quantity is approached from above and below, allowing him not only to trisect the angle but also to calculate [[pi|π]].
 
 As normally stated, the IVT is not valid in [[constructive mathematics]], although there are constructively valid versions.
 
