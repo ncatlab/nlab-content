@@ -108,11 +108,17 @@ Conversely, if we have a totally contravariant '$n$-pseudofunctor' from $B$ to $
 
 One expects that in this way, the $(n+1)$-category of fibered $n$-categories over $B$ is equivalent to the $(n+1)$-category of functors $B\to n Cat$.  These constructions are known precisely only for $n=2$.
 
+## Examples
+
+* The prototypical example is that if $K$ is an $n$-category with finite limits (or at least pullbacks), then the $n$-category $Fib_K$ of *internal* $(n-1)$-fibrations in $K$ should admit an $n$-fibration $cod : Fib_K \to K$.  Of course this requires defining the notion of internal $(n-1)$-fibration in an $n$-category; this is usually done representably.  For $n=2$ this gives the notion of [[fibration in a 2-category]], and the fact that $cod : Fib_K \to K$ is a 2-fibration is in [(Hermida)](#Hermida).  For $n=1$ it is just the standard fact that the [[codomain fibration]] is a fibration, i.e. every morphism in a 1-category is an "internal 0-fibration".
+
 ## Related concepts
 
-* [[Grothendieck fibration]]
+* [[Grothendieck fibration]], [[Street fibration]]
 
-A notion of fibration of [[(∞,1)-category|(∞,1)-categories]] exists in terms of [[Cartesian fibration]]s of [[simplicial set]]s. (See also [[left fibration]], and [[right fibration]] .)
+* [[fibration in a 2-category]]
+
+* A notion of fibration of [[(∞,1)-category|(∞,1)-categories]] exists in terms of [[Cartesian fibration]]s of [[simplicial set]]s. (See also [[left fibration]], and [[right fibration]] .)
 
 
 ## References 
