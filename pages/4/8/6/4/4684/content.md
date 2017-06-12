@@ -253,7 +253,7 @@ Now fix any $j_0 \in J$.
 We claim that for every $j \in J$ there is a finite sequence of indices $(j_0, j_1, \cdots, j_n = j)$ with the property
 that $V_{j_k} \cap V_{j_{k+1}} \neq \emptyset$.
 
-To see this, first obserse that it is sufficient to show sigma-compactness for the case that $X$ is [[connected topological space|connected]]. From this the general statement follows since [[countable unions of countable sets are countable]]. Hence assume that $X$ is connected.
+To see this, first observe that it is sufficient to show sigma-compactness for the case that $X$ is [[connected topological space|connected]]. From this the general statement follows since [[countable unions of countable sets are countable]]. Hence assume that $X$ is connected.
 It follows from lemma \ref{PathConnectedFromConnectedLocallyEuclideanSpace} that  $X$ is [[path-connected topological space|path-connected]].
 
 Hence for any $x \in V_{j_0}$ and $y \in V_{j}$ there is a path $\gamma \colon [0,1] \to X$ connecting $x$ with $y$. Since the [[closed interval]] is compact and since [[continuous images of compact spaces are compact]], it follows that there is a finite subset of the $V_i$ that covers the image of this path. This proves the claim.
