@@ -97,6 +97,12 @@ with identity unit.  It is clear, too, that the morphism $i \colon p \to B/p$ as
 
 ## Properties
 
+### The 2-fibration of fibrations
+
+For a [[strict 2-category]] $K$, let $Fib_K$ be the 2-category of strict fibrations in $K$, morphisms of fibrations, and 2-cells between them.  Then the codomain functor $cod : Fib_K \to K$ is a strict [[2-fibration]].  (This is arguably an instance of the [[microcosm principle]].)
+
+Similarly, for any [[bicategory]] $K$, the bicategory $Fib_K$ of weak fibrations in $K$, morphisms of fibrations, and 2-cells admits a weak 2-fibration $cod : Fib_K \to K$.
+
 ### Iterated fibrations
 
 It is easy to show that a composite of fibrations is a fibration.  Moreover, if $Fib(X)= Fib_K(X)$ denotes the 2-category of fibrations over $X\in K$, then we have:
