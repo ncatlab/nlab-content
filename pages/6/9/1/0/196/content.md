@@ -61,8 +61,9 @@ In [[ZFC]] for example, proper classes are by design not formal objects in the t
 
 Such technical hacks can be avoided by choosing a different foundations. For example, Mac Lane in his [[Categories for the Working Mathematician]] assumes ZFC with a [[universe]] in which some sets are considered large, such as the set of small sets, so that a category like $Set$ (the category of small sets) is again a formal object of the theory. 
 
-## Related terms 
+## Alternative terms 
 
+Useful terms, more or less synonymous with _function_, are _assignment_ , _assignation_ or more specifically _assignation on objects_. These do not have standard meanings but are useful to signal to readers that the domain of the `function' under consideration is large, or that one is more interested in [[functorial]] extensions of this partial assignation (cf. e.g. R. Garner, Homomorphisms of higher categories, Adv. Math. 224 (2010) 2269--2311 for many examples). 
 In mathematical writing "assignment" is usually synonymous with _[[function]]_ or _[[map]]_ or "mapping". For example one might speak of "assigning to each positive number its square root" to refer to the function $\sqrt{(-)} \colon \mathbb{R}_{\geq 0} \to \mathbb{R}$. 
 
 Authors may resort to verb forms such as "assigns" or "associates" or "sends" in informal writing, perhaps to avoid the bother of specifying an axiomatic framework in which a formal notion like "function" is ensconced. For example, according to Wikipedia, Jacobson defines a functor $F: C \to D$ between categories as a "mapping" that "associates" to each object $X$ in $C$ an object $F(X)$ in $D$, etc. No clarity would be gained by making this any more formal (which as we saw in the case of functions between classes, such as classes of objects of categories, may involve annoyingly technical hacks). 
@@ -132,4 +133,5 @@ Special properties these may have:
 
 [[!redirects total function]]
 [[!redirects total functions]]
+[[!redirects assignation]]
 [[!redirects assignment]]
