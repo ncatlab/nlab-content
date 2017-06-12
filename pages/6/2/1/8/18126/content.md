@@ -3713,6 +3713,23 @@ $$
   \,.
 $$
 
+Similarly for [[open intervals]]:
+
+$$
+  (a_1, b_1) \times (a_2, b_2) \times \cdots \times (a_n, b_n)
+   \;\simeq\;
+  \left\{
+    \vec x \in \mathbb{R}^n
+    \,\vert\,
+    \underset{i}{\forall}
+      (a_i \lt x_i \lt b_i)
+  \right\}
+    \subset
+  \mathbb{R}^n
+  \,.
+$$
+
+
 =--
 
 +-- {: .proof}
@@ -3832,7 +3849,7 @@ $$
 This homeomorphism is given by "[[stereographic projection]]":
 One thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] (example \ref{SubspaceTopology}) of $\mathbb{R}^{n+1}$ in the standard way (example \ref{SpheresAndDisks}), such that they [[intersection|intersect]] in the [[equator]] of the $n$-sphere. For $p \in S^n$ one of the corresponding poles, then the homeomorphism is the
 function which sends a point $x \in S^{n}\setminus \{p\}$ along the line connecting it with $p$ to
-the point $y$ where this line intersects the equatorial plane.
+the point $y$ where this line intersects tfhe equatorial plane.
 
 In the canonical ambient [[coordinates]] this [[stereographic projection]] is given as follows:
 
@@ -4031,307 +4048,7 @@ _[[surjective function|surjective]]_ [[continuous function]] $\mathbb{R}^{n_1} \
 But there are: these are called the _[[Peano curves]]_.
 
 
-
 $\,$
-
-**Connectedness**
-
-Via [[homeomorphism]] to [[disjoint union spaces]] one may characterize whether topological spaces are
-connected:
-
-+-- {: .num_defn #ConnectedTopologicalSpace}
-###### Definition
-**([[connected topological space]])**
-
-A [[topological space]] $(X,\tau)$ (def. \ref{TopologicalSpace}) is called _[[connected topological space|connected]]_
-if the following equivalent conditions hold:
-
-1. For all pairs of topological spaces $(X_1, \tau_1), (X_2, \tau_2)$ such that $(X, \tau)$ is [[homeomorphism|homeomorphic]] to their [[disjoint union space]] (def. \ref{DisjointUnionOfTopologicalSpaces})
-
-   $$
-     (X,\tau) \simeq (X_1,\tau_1) \sqcup (X_2,\tau_2)
-   $$
-
-   then exactly one of the two spaces is the [[empty space]] (example \ref{Point}).
-
-1. For all pairs of [[open subsets]] $U_1, U_2 \subset X$ if
-
-   $$
-     U_1 \cup U_2 = X \phantom{A}\text{and} \phantom{A} U_1 \cap U_2 = \emptyset
-   $$
-
-   then exactly one of the two subsets is the [[empty set]];
-
-1. if a [[subset]] $CO \subseteq X$ is both an [[open subset]] and a [[closed subset]] (def. \ref{ClosedSubset}) then $ CO = X$ if and only if $CO$ is [[inhabited set|non-empty]].
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-**([[empty space]] is not [[connected topological space|connected]])**
-
-According to def. \ref{ConnectedTopologicalSpace} the [[empty topological space]] $\emptyset$ (def. \ref{Point})
-is _not_ connected, since $\emptyset \simeq \emptyset \sqcup \emptyset$, where both instead
-of exactly one of the summands are empty. 
-
-=--
-
-+-- {: .num_prop}
-###### Lemma
-
-The conditions in def. \ref{ConnectedTopologicalSpace} are indeed equivalent.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-First consider the equivalence of the first two statements:
-
-Suppose that in every disjoint union decomposition of $(X,\tau)$ exactly one summand is empty. Now consider two disjoint open subsets $U_1, U_2 \subset X$ whose union is $X$ and whose intersection is empty. We need to show that exactly one of the two subsets is empty.
-
-Write $(U_1, \tau_{1})$ and $(U_2, \tau_2)$ for the corresponding [[topological subspaces]].
-Then observe that from the definition of [[subspace topology]] (example \ref{SubspaceTopology})
-and of the [[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces}) we have a [[homeomorphism]]
-
-$$
-  X \simeq (U_1, \tau_1) \sqcup (U_2, \tau_2)
-$$
-
-because by assumption every open subset $U \subset X$ is the disjoint union of open subsets of $U_1$ and $U_2$, respectively:
-
-$$
-  U = U \cap X = U \cap (U_1 \sqcup U_2) = (U \cap U_1) \sqcup (U \cap U_2)
-  \,,
-$$
-
-which is the definition of the disjoint union topology.
-
-Hence by assumption exactly one of the two summand spaces is the [[empty space]] and hence the underlying set is the empty set.
-
-Conversely, suppose that for every pair of open subsets $U_1, U_2 \subset U$ with $U_1 \cup U_2 = X$ and $U_1 \cap U_2 = \emptyset$ then exactly one of the two is empty. Now consider a homeomorphism of the form $(X,\tau) \simeq (X_1, \tau_1) \sqcup (X_2,\tau_2)$. By the nature of the [[disjoint union space]] this means that $X_1, X_2 \subset X$ are disjoint open subsets of $X$ which cover $X$. So by asumption precisely one of the two subsets is the empty set and hence precisely one of the two topological spaces is the empty space.
-
-Now regarding the equivalence to the third statement:
-
-If a subset $CO \subset X$ is both closed and open, this means equivalently that it is open and that its [[complement]] $X \setminus CO$ is also open, hence equivalently that there are two open subsets $CO, X \backslash CO \subset X$ whose union is $X$ and whose intersection is empty. This way the third condition is equivalent to the second, hence also to the first.
-
-=--
-
-+-- {: .num_defn #ComponentsConnected}
-###### Definition
-**([[connected components]])**
-
-For $(X,\tau)$ a [[topological space]], then its _[[connected components]]_
-are the [[equivalence classes]] under the [[equivalence relation]] on $X$ which
-regards two points as equivalent if they both sit in some [[open subset]]
-which, as a [[topological subspace]] (example \ref{SubspaceTopology}), is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}):
-
-$$
-  (x \sim y)
-    \;\coloneqq\;
-  \left(
-    \underset{ U \subset X \; \text{\open} }{\exists}
-    \left(
-       \left( x,y \in U \right)
-        \phantom{A}\text{and}\phantom{A}
-       \left( U \, \text{is connected} \right)
-    \right)
-  \right)
-  \,.
-$$
-
-=--
-
-+-- {: .num_example #ConnectedSubspacesOfRealLineAreTheIntervals}
-###### Example
-**([[connected topological space|connected]] [[subspaces]] of the [[real line]] are the [[intervals]])
-
-Regard the [[real line]] with its [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, \ref{MetricTopology}). Then a
-[[subspace]] $S \subset \mathbb{R}$ (example \ref{SubspaceTopology}) is [[connected topological space|connected]] (def. \ref{ConnectedSpace})
-precisely if it is an [[interval]], hence precisely if
-
-$$
-  \underset{x,y \in S \subset \mathbb{R}}{\forall}
-  \underset{ r \in \mathbb{R}  }{\forall}
-  \left(
-   \left(
-      x \lt r \lt y
-   \right)
-     \Rightarrow
-   \left(
-     r \in S
-   \right)
-  \right)
-  \,.
-$$
-
-In particular for $\{ I_i \subset \mathbb{R} \}_{i \in I}$ a set of [[disjoint subset|disjoint]] intervals,
-then $I$ is the set of [[connected components]] (def. \ref{ComponentsConnected}) of the union $\underset{i \in I}{\cup} I_i$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Suppose on the contrary that we had $x \lt r \lt y$ but $r \notin S$. Then by the
-nature of the [[subspace topology]] there would be a decomposition of $S$ as a [[disjoint union]]
-of [[disjoint subset|disjoint]] [[open subsets]]:
-
-$$
-  S
-    =
-  \left(
-    S \cap (r,\infty)
-  \right)
-    \sqcup
-  \left(
-    S \cap (-\infty,r)
-  \right)
-  \,.
-$$
-
-But since $x \lt r$ and $r \lt y$ both these open subsets were [[inhabited set|non-empty]], thus contradicting the
-assumption that $S$ is connected. This yields a [[proof by contradiction]].
-
-=--
-
-+-- {: .num_prop #ContinuousImagesOfConnectedSpacesAreConnected}
-###### Proposition
-**([[continuous function|continuous]] [[images]] of connected spaces are connected)**
-
-Let $X$ be a [[connected topological space]] (def. \ref{ConnectedTopologicalSpace}), let $Y$ be any [[topological space]], and let
-
-$$
-  f \;\colon\; X \longrightarrow Y
-$$
-
-be a [[continuous function]] (def. \ref{ContinuousMaps}). This factors via continuous functions through the [[image]]
-
-$$
-  f \;\colon\; X \underoverset{surjective}{p}{\longrightarrow} f(X) \underoverset{injective}{i}{\longrightarrow} Y
-$$
-
-for $f(X)$ equipped either with he [[subspace topology]] relative to $Y$ or the [[quotient topology]]
-relative to $X$ (example \ref{ImageFactorization}). In either case:
-
-If $X$ is a [[connected topological space]] (def. \ref{ConnectedTopologicalSpace}), then so is $f(X)$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Let $U_1,U_2 \subset f(X)$ be two [[open subsets]] such that $U_1 \cup U_2 = f(X)$ and $U_1 \cap U_2 = \emptyset$.
-We need to show that precisely one of them is the [[empty set]].
-
-Since $p$ is a [[continuous function]], also the [[pre-images]] $p^{-1}(U_1), p^{-1}(U_2) \subset X$
-are open subsets and are still disjoint. Since $p$ is [[surjective function|surjective]] it also follows that
-$p^{-1}(U_1) \cup p^{-1}(U_2) = X$. Since $X$ is connected, it follows that one of these two pre-images is
-the empty set. But again sicne $p$ is surjective, this implies that precisely one of $U_1, U_2$ is empty,
-which means that $f(X)$ is connected.
-
-=--
-
-This yields yet another quick proof via [[topology]] of a classical fact of [[analysis]]:
-
-+-- {: .num_prop #IntermediateValueTheorem}
-###### Corollary
-**([[intermediate value theorem]])**
-
-Regard the [[real numbers]] $\mathbb{R}$ with 
-their [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology}),
-and consider a [[closed interval]] $[a,b] \subset \mathbb{R}$ (example \ref{OpenAndClosedIntervals}) equipped 
-with its [[subspace topology]] (example \ref{SubspaceTopology}).
-
-Then a [[continuous function]] (def. \ref{ContinuousMaps})
-
-$$
-  f \colon [a,b] \longrightarrow \mathbb{R}
-$$
-
-takes every value in between $f(a)$ and f(b).
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-By example \ref{ConnectedSubspacesOfRealLineAreTheIntervals} the interval $[a,b]$ is connected.
-By prop. \ref{ContinuousImagesOfConnectedSpacesAreConnected} also its image $f([a,b]) \subset \mathbb{R}$
-is connected. By example \ref{ConnectedSubspacesOfRealLineAreTheIntervals} that image is hence
-itself an interval. This implies the claim.
-
-=--
-
-
-
-+-- {: .num_example #LocallyConnected}
-###### Definition
-**([[locally connected topological spaces]])**
-
-A [[topological space]]  $(X,\tau)$ is called _[[locally connected topological space|locally connected]]_
-if the following equivalent conditions hold:
-
-1. every open [[subspace]] (example \ref{SubspaceTopology}) is the [[disjoint union space]] (def. \ref{DisjointUnionOfTopologicalSpaces}) of its [[connected components]] (def. \ref{ComponentsConnected}).
-
-1. for every point $x$ and every [[neighbourhood]] $U_x \supset \{x\}$ there is a [[connected topological space|connected]]
-   open neighbourhood $Cn_x \subset U_x$.
-
-=--
-
-
-$\,$
-
-**Embeddings of topological spaces**
-
-Often it is important to know whether a given space is homeomorphism to its _image_, under some continuous function,
-in some other space:
-
-+-- {: .num_defn #EmbeddingOfTopologicalSpaces}
-###### Definition
-**([[embedding of topological spaces]])**
-
-Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be [[topological spaces]]. A [[continuous function]] $f \;\colon\; X \longrightarrow Y$ is called an _[[embedding of topological spaces]]_ if in its [[image factorization]] (example \ref{ImageFactorization})
-
-$$
-  f
-    \;\colon\;
-  X
-    \overset{\phantom{A}\simeq\phantom{A}}{\longrightarrow}
-  f(X)
-    \overset{\phantom{AAA}}{\hookrightarrow}
-  Y
-$$
-
-with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]], we have that $X \to f(X)$ is a [[homeomorphism]].
-
-=--
-
-+-- {: .num_prop #OpenClosedContinuousInjectionsAreEmbeddings}
-###### Proposition
-**([[closed injections are embeddings|open/closed continuous injections are embeddings]])**
-
-A [[continuous function]] $f \colon (X, \tau_X) \to (Y,\tau_Y)$
-which is
-
-1. an [[injective function]]
-
-1. an [[open map]] or a [[closed map]] (def. \ref{OpenMap})
-
-is an [[embedding of topological spaces]] (def. \ref{EmbeddingOfTopologicalSpaces}).
-
-This is called a _closed embedding_ if the [[image]] $f(X) \subset Y$ is a [[closed subset]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-If $f$ is injective, then the map onto its [[image]] $X \to f(X) \subset Y$ is a [[bijection]]. Moreover, it is still continuous with respect to the subspace topology on $f(X)$ (example \ref{ImageFactorization}). Now a bijective continuous function is a homeomorphism precisely if it is an [[open map]] or a [[closed map]] prop. \ref{HomeoContinuousOpenBijection} . But the image projection of $f$ has this property, respectively, if $f$ does, by prop \ref{OpenClosedImageProjection}.
-
-=--
-
 
 
 
@@ -8177,7 +7894,46 @@ the box topology coincides with the product space (Tychinoff) topology, but for 
 
 =--
 
++-- {: .num_example #CantorSpace}
+###### Example
+**([[Cantor space]])**
 
+Write $Disc(\{0,1\})$ for the the [[discrete topological space]] with two points (example \ref{CoDiscreteTopology}). Write $\underset{n \in \mathbb{N}}{\prod} Disc(\{0,2\})$ for the [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) of a [[countable set]] of copies of this discrete space with itself (i.e. the corresponding [[Cartesian product]] of sets $\underset{n \in \mathbb{N}}{\prod} \{0,1\}$ equipped with the [[Tychonoff topology]] induced from the [[discrete topology]] of $\{0,1\}$).
+
+Notice that due to  the nature of the [[Tychonoff topology]], this product space is _not_ itself discrete.
+
+Consider the [[function]]
+
+$$
+  \array{
+    \underset{n \in \mathbb{N}}{\prod}
+      &\overset{\kappa}{\longrightarrow}&
+    [0,1]
+    \\
+    (a_i)_{i \in \mathbb{N}}
+    &\overset{\phantom{AAAA}}{\mapsto}&
+    \underoverset{i = 0}{\infty}{\sum} \frac{2 a_i}{ 3^{i+1}}
+  }
+$$
+
+which sends an element in the product space, hence a [[sequence]] of binary digits, to the value of the [[power series]] as shown on the right.
+
+One checks that this is a [[continuous function]] (from the [[product topology]] to the [[Euclidean space|Euclidean]] [[metric topology]] on the [[closed interval]]). Moreover with its [[image]] $\kappa\left( \underset{n \in \mathbb{N}}{\prod} \{0,1\}\right) \subset [0,1]$ equipped with its [[subspace topology]], then this is a [[homeomorphism]] onto its image:
+
+$$
+  \underset{n \in \mathbb{N}}{\prod} Disc(\{0,1\})
+    \overset{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow}
+  \kappa\left(
+    \underset{n \in \mathbb{N}}{\prod} Disc(\{0,1\})
+  \right)
+    \overset{\phantom{AAAA}}{\hookrightarrow}
+  [0,1]
+  \,.
+$$
+
+This image is called the _[[Cantor space]]_.
+
+=--
 
 
 
@@ -8524,6 +8280,588 @@ A _[[finite CW-complex]]_ is one which admits a presentation in which there are 
 =--
 
 
+$\,$
+
+## Subspaces
+
+We discuss special classes of [[subspaces]] of [[topological spaces]] that play an important role in the 
+theory, in particular for the discussion of [[topological manifolds]] [below](#Manifolds):
+
+1. _[Connected components](#ConnectedComponents)_
+
+1. _[Embeddings](#Embeddings)_
+
+
+### Connected components
+ {#ConnectedComponents}
+
+Via [[homeomorphism]] to [[disjoint union spaces]] one may characterize whether topological spaces are
+_connected_:
+
++-- {: .num_defn #ConnectedTopologicalSpace}
+###### Definition
+**([[connected topological space]])**
+
+A [[topological space]] $(X,\tau)$ (def. \ref{TopologicalSpace}) is called _[[connected topological space|connected]]_
+if the following equivalent conditions hold:
+
+1. For all pairs of topological spaces $(X_1, \tau_1), (X_2, \tau_2)$
+such that $(X, \tau)$ is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism})
+to their [[disjoint union space]] (def. \ref{DisjointUnionOfTopologicalSpaces})
+
+   $$
+     (X,\tau) \simeq (X_1,\tau_1) \sqcup (X_2,\tau_2)
+   $$
+
+   then exactly one of the two spaces is the [[empty space]] (example \ref{Point}).
+
+1. For all pairs of [[open subsets]] $U_1, U_2 \subset X$ if
+
+   $$
+     U_1 \cup U_2 = X \phantom{A}\text{and} \phantom{A} U_1 \cap U_2 = \emptyset
+   $$
+
+   then exactly one of the two subsets is the [[empty set]];
+
+1. if a [[subset]] $CO \subseteq X$ is both an [[open subset]] and a [[closed subset]] (def. \ref{ClosedSubset}) then $ CO = X$ if and only if $CO$ is [[inhabited set|non-empty]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**([[empty space]] is not [[connected topological space|connected]])**
+
+According to def. \ref{ConnectedTopologicalSpace} the [[empty topological space]] $\emptyset$ (def. \ref{Point})
+is _not_ connected, since $\emptyset \simeq \emptyset \sqcup \emptyset$, where both instead
+of exactly one of the summands are empty.
+
+Of course it is immediate to change def. \ref{ConnectedTopologicalSpace} so that it would
+regard the empty space as connected. This is a matter of convention.
+
+=--
+
++-- {: .num_prop}
+###### Lemma
+
+The conditions in def. \ref{ConnectedTopologicalSpace} are indeed equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First consider the equivalence of the first two statements:
+
+Suppose that in every disjoint union decomposition of $(X,\tau)$ exactly one summand is empty. Now consider two disjoint open subsets $U_1, U_2 \subset X$ whose union is $X$ and whose intersection is empty. We need to show that exactly one of the two subsets is empty.
+
+Write $(U_1, \tau_{1})$ and $(U_2, \tau_2)$ for the corresponding [[topological subspaces]].
+Then observe that from the definition of [[subspace topology]] (example \ref{SubspaceTopology})
+and of the [[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces}) we have a [[homeomorphism]]
+
+$$
+  X \simeq (U_1, \tau_1) \sqcup (U_2, \tau_2)
+$$
+
+because by assumption every open subset $U \subset X$ is the disjoint union of open subsets of $U_1$ and $U_2$, respectively:
+
+$$
+  U = U \cap X = U \cap (U_1 \sqcup U_2) = (U \cap U_1) \sqcup (U \cap U_2)
+  \,,
+$$
+
+which is the definition of the disjoint union topology.
+
+Hence by assumption exactly one of the two summand spaces is the [[empty space]] and hence the underlying set is the empty set.
+
+Conversely, suppose that for every pair of open subsets $U_1, U_2 \subset U$ with $U_1 \cup U_2 = X$ and $U_1 \cap U_2 = \emptyset$ then exactly one of the two is empty. Now consider a homeomorphism of the form $(X,\tau) \simeq (X_1, \tau_1) \sqcup (X_2,\tau_2)$. By the nature of the [[disjoint union space]] this means that $X_1, X_2 \subset X$ are disjoint open subsets of $X$ which cover $X$. So by asumption precisely one of the two subsets is the empty set and hence precisely one of the two topological spaces is the empty space.
+
+Now regarding the equivalence to the third statement:
+
+If a subset $CO \subset X$ is both closed and open, this means equivalently that it is open and that its [[complement]] $X \setminus CO$ is also open, hence equivalently that there are two open subsets $CO, X \backslash CO \subset X$ whose union is $X$ and whose intersection is empty. This way the third condition is equivalent to the second, hence also to the first.
+
+=--
+
++-- {: .num_defn #ComponentsConnected}
+###### Definition
+**([[connected components]])**
+
+For $(X,\tau)$ a [[topological space]], then its _[[connected components]]_
+are the [[equivalence classes]] under the [[equivalence relation]] on $X$ which
+regards two points as equivalent if they both sit in some [[open subset]]
+which, as a [[topological subspace]] (example \ref{SubspaceTopology}), is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}):
+
+$$
+  (x \sim y)
+    \;\coloneqq\;
+  \left(
+    \underset{ U \subset X \; \text{\open} }{\exists}
+    \left(
+       \left( x,y \in U \right)
+        \phantom{A}\text{and}\phantom{A}
+       \left( U \, \text{is connected} \right)
+    \right)
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_example #ConnectedSubspacesOfRealLineAreTheIntervals}
+###### Example
+**([[connected topological space|connected]] [[subspaces]] of the [[real line]] are the [[intervals]])
+
+Regard the [[real line]] with its [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, \ref{MetricTopology}). Then a
+[[subspace]] $S \subset \mathbb{R}$ (example \ref{SubspaceTopology}) is [[connected topological space|connected]] (def. \ref{ConnectedSpace})
+precisely if it is an [[interval]], hence precisely if
+
+$$
+  \underset{x,y \in S \subset \mathbb{R}}{\forall}
+  \underset{ r \in \mathbb{R}  }{\forall}
+  \left(
+   \left(
+      x \lt r \lt y
+   \right)
+     \Rightarrow
+   \left(
+     r \in S
+   \right)
+  \right)
+  \,.
+$$
+
+In particular for $\{ I_i \subset \mathbb{R} \}_{i \in I}$ a set of [[disjoint subset|disjoint]] intervals,
+then $I$ is the set of [[connected components]] (def. \ref{ComponentsConnected}) of the union $\underset{i \in I}{\cup} I_i$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Suppose on the contrary that we had $x \lt r \lt y$ but $r \notin S$. Then by the
+nature of the [[subspace topology]] there would be a decomposition of $S$ as a [[disjoint union]]
+of [[disjoint subset|disjoint]] [[open subsets]]:
+
+$$
+  S
+    =
+  \left(
+    S \cap (r,\infty)
+  \right)
+    \sqcup
+  \left(
+    S \cap (-\infty,r)
+  \right)
+  \,.
+$$
+
+But since $x \lt r$ and $r \lt y$ both these open subsets were [[inhabited set|non-empty]], thus contradicting the
+assumption that $S$ is connected. This yields a [[proof by contradiction]].
+
+=--
+
++-- {: .num_prop #ContinuousImagesOfConnectedSpacesAreConnected}
+###### Proposition
+**([[continuous function|continuous]] [[images]] of connected spaces are connected)**
+
+Let $X$ be a [[connected topological space]] (def. \ref{ConnectedTopologicalSpace}), let $Y$ be any [[topological space]], and let
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+be a [[continuous function]] (def. \ref{ContinuousMaps}). This factors via continuous functions through the [[image]]
+
+$$
+  f \;\colon\; X \underoverset{surjective}{p}{\longrightarrow} f(X) \underoverset{injective}{i}{\longrightarrow} Y
+$$
+
+for $f(X)$ equipped either with he [[subspace topology]] relative to $Y$ or the [[quotient topology]]
+relative to $X$ (example \ref{ImageFactorization}). In either case:
+
+If $X$ is a [[connected topological space]] (def. \ref{ConnectedTopologicalSpace}), then so is $f(X)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $U_1,U_2 \subset f(X)$ be two [[open subsets]] such that $U_1 \cup U_2 = f(X)$ and $U_1 \cap U_2 = \emptyset$.
+We need to show that precisely one of them is the [[empty set]].
+
+Since $p$ is a [[continuous function]], also the [[pre-images]] $p^{-1}(U_1), p^{-1}(U_2) \subset X$
+are open subsets and are still disjoint. Since $p$ is [[surjective function|surjective]] it also follows that
+$p^{-1}(U_1) \cup p^{-1}(U_2) = X$. Since $X$ is connected, it follows that one of these two pre-images is
+the empty set. But again sicne $p$ is surjective, this implies that precisely one of $U_1, U_2$ is empty,
+which means that $f(X)$ is connected.
+
+=--
+
+This yields yet another quick proof via [[topology]] of a classical fact of [[analysis]]:
+
++-- {: .num_prop #IntermediateValueTheorem}
+###### Corollary
+**([[intermediate value theorem]])**
+
+Regard the [[real numbers]] $\mathbb{R}$ with
+their [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology}),
+and consider a [[closed interval]] $[a,b] \subset \mathbb{R}$ (example \ref{OpenAndClosedIntervals}) equipped
+with its [[subspace topology]] (example \ref{SubspaceTopology}).
+
+Then a [[continuous function]] (def. \ref{ContinuousMaps})
+
+$$
+  f \colon [a,b] \longrightarrow \mathbb{R}
+$$
+
+takes every value in between $f(a)$ and f(b).
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By example \ref{ConnectedSubspacesOfRealLineAreTheIntervals} the interval $[a,b]$ is connected.
+By prop. \ref{ContinuousImagesOfConnectedSpacesAreConnected} also its image $f([a,b]) \subset \mathbb{R}$
+is connected. By example \ref{ConnectedSubspacesOfRealLineAreTheIntervals} that image is hence
+itself an interval. This implies the claim.
+
+=--
+
++-- {: .num_example #ProductSpaceOfConnectedSpacesIsConnected}
+###### Example
+**([[product space]] of connected spaces is connected)
+
+Let $\{X_i\}_{i \in I}$ be a set of [[connected topological spaces]] (def. \ref{ConnectedTopologicalSpace}).
+Then also their [[product topological space]]  $\underset{i \in I}{\prod}X_i$
+(example \ref{InfiniteProductTopologicalSpace}) is connected.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $U_1, U_2 \subset \underset{i \in I}{\prod}X_i$ be an [[open cover]]
+of the product space by two disjoint open subsets. We need to show that precisely one of the two
+is empty. Since each $X_i$ is connected and hence non-empty, the product space is not empty, and hence
+it is sufficient to show that at lest one of the two is empty.
+
+Assume on the contrary that we could find $x_1 \in U_1$ and $x_2 \in U_2$.
+Observe that this would mean that these two points could differ only in a finite number of their
+coordinates: Because they must be contained in disjoint [[base of a topology|base opens]]
+and by the nature of the base opens of the  [[Tychonoff topology]] any two differ in only a finite number of variables.
+
+Observe that this would mean that we could find $x'_1 \in U_1$ that differed only in a single coordinate from $x_2$:
+Because pick one coordinate in which $x_1$ differs from $x_2$ and change it to the corresponding coordinate of $x_2$.
+Since $U_1$ and $U_2$ are a cover, the resulting point is either in $U_1$ or in $U_2$. If it is in $U_2$, then
+$x_1$ already differed in only one coordinate from $x_2$ and we may take $x'_1 \coloneqq x_1$.
+If instead the new point is in $U_1$, then rename it to $x_1$ and repeat the argument. By [[induction]]
+this finally yields an $x'_1$ as claimed.
+
+Therefore it is now sufficient to see that it leads to a contradiction to assume
+that there are points $x_1 \in U_1$ and $x_2 \in U_2$
+that differ in only the $i_0$th coordinate, for some $i_0 \in I$ then $x_1 = x_2$.
+
+Observe that the inclusion
+
+$$
+  \iota \colon X_{i_0} \longrightarrow \underset{i \in I}{\prod} X_i
+$$
+
+which is the identity on the $i_0$th component and is otherwise constant on the $i$th component of
+$x_1$ or equivalently of $x_2$ is a continuous function, by the nature of the Tychonoff topology.
+
+Therefore also the restrictions $\iota^{-1}(U_1)$ and $\iota^{-1}(U_2)$ are open subsets.
+Moreover they are still disjoint and cover $X_i$. Hence by the connectedness of $X_i$,
+precisely one of them is empty. This means that the $i_0$-component of both $x_1$ and $x_2$
+must be in the other subset of $X_i$, and hence that $x_1$ and $x_2$ must both be in $U_1$
+or both in $U_2$, contrary to the assumption.
+
+=--
+
+The important subtlety in the concept of connected topological spaces to beware of
+is that a topological space is _not_ in general the disjoint union space of its connected
+components (this is however true for [[locally connected topological spaces]], discussed below in prop. \ref{LocallyConnected}).
+
+The extreme case of this phenomenon are spaces all whose connected components are singletons (def. \ref{TotallyDisconnectedTopologicalSpace} below) but which are nevertheless not discrete.
+
++-- {: .num_defn #TotallyDisconnectedTopologicalSpace}
+###### Definition
+**([[totally disconnected topological space]])**
+
+A [[topological space]] is called _[[totally disconnected topological space|totally disconnected]]_
+if all its
+[[connected components]] (def. \ref{ComponentsConnected}) are [[singletons]], hence [[point spaces]] (example \ref{ConcreteAndAbstractPoint}).
+
+=--
+
++-- {: .num_example #RationalNumbersAreTotallyDisconnected}
+###### Example
+**(the [[rational numbers]] are [[totally disconnected topological space|totally disconnected]])**
+
+The [[rational numbers]] $\mathbb{Q} \subset \mathbb{R}$ equipped #
+with their [[subspace topology]] (def. \ref{SubspaceTopology})
+inherited
+from the [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology}) on the [[real numbers]], form a [[totally disconnected space]] (def. \ref{TotallyDisconnectedTopologicalSpace}), but not a [[discrete topological space]]
+(example \ref{CoDiscreteTopology}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is clear that the subspace topology is not discrete, since the [[singletons]] $\{q\} \subset \mathbb{Q}$ are not [[open subsets]]
+(because their [[pre-image]] in $\mathbb{R}$ are still
+singletons, and the points in a [[metric space]] are closed, by example \ref{HausdorffMetricSpace} and prop. \ref{T1InTermsOfTopologicalClosure}).
+
+What we need to see is that $\mathbb{Q} \subset \mathbb{R}$ is nevertheless totally disconnected:
+
+By construction, a [[base for a topology|base for the topology]] (def. \ref{TopologyBase}) is given by the open subsets which are restrictions of [[open intervals]] of real numbers to the rational numbers
+
+$$
+  (a,b)_{\mathbb{Q}} \coloneqq (a,b) \cap \mathbb{Q}
+$$
+
+for $a \lt b \in \mathbb{R}$.
+
+Now for any such $a \lt b$ there exists an [[irrational number]] $r \in \mathbb{R}\backslash \mathbb{Q}$ with $a \lt r \lt b$. This being irrational implies that $(a,r)_{\mathbb{Q}} \subset \mathbb{Q}$ and $(r,b)_{\mathbb{Q}} \subset \mathbb{Q}$ are disjoint subsets. Therefore every basic open subset is the disjoint union of (at least) two open subsets:
+
+$$
+  (a,b)_{\mathbb{Q}} = (a,r)_{\mathbb{Q}} \cup (r,b)_{\mathbb{Q}}
+  \,.
+$$
+
+Hence no [[inhabited set|inhabited]] open subspace of the rational numbers is connected.
+
+=--
+
+
+
++-- {: .num_example #TotallyDisconnectedCantorSpace}
+###### Example
+**([[Cantor space]] is [[totally disconnected topological space|totally disconnected]] but non-[[discrete topological space|discrete]])**
+
+The [[Cantor space]] $\underset{n \in \mathbb{N}}{\prod} Disc(\{0,1\})$ (example \ref{CantorSpace}) is a [[totally disconnected topological space]] (def. \ref{TotallyDisconnectedTopologicalSpace}) but is _not_ a [[discrete topological space]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[base of a topology|base opens]] (def. \ref{TopologyBase})
+of the [[product space]] $\underset{n \in \mathbb{N}}{\prod} Disc(\{1,2\})$ are of the form
+
+$$
+  \left( \underset{i \in I \subset \mathbb{N}}{\prod} U_i \right)
+  \times
+  \left(
+    \underset{k \in \mathbb{N}\setminus I}{\prod} \{1,2\}
+  \right)
+  \,.
+$$
+
+for $I \subset \mathbb{N}$ a [[finite set|finite]] [[subset]].
+
+First of all this is not the [[discrete topological space|discrete topology]], for that also contains
+infinite products of proper subsets of $\{1,2\}$ as open subsets, hence is strictly [[finer topology|finer]].
+
+On the other hand, since $I \subset \mathbb{N}$ is finite, $\mathbb{N}\setminus I$ is [[inhabited set|non-empty]]
+and hence there exists some $k_0 \in \mathbb{N}$ such that the corresponding factor in the above product is
+the full set $\{1,2\}$. But then the above subset is the
+disjoint union of the open subsets
+
+$$
+  \{1\}_{k_0}
+  \times
+  \left(
+     \underset{i \in I \setminus \{k_0\} \subset \mathbb{N}}{\prod} U_i \right)
+   \times
+  \left(
+    \underset{k \in \mathbb{N}\setminus (I \cup \{k_0\}) }{\prod} \{1,2\}
+  \right)
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  \{2\}_{k_0}
+  \times
+  \left(
+    \underset{i \in I \setminus \{k_0\} \subset \mathbb{N}}{\prod} U_i
+  \right)
+   \times
+  \left(
+    \underset{k \in \mathbb{N}\setminus (I\setminus \k_0 ) }{\prod} \{1,2\}
+  \right)
+  \,.
+$$
+
+In particular if $x \neq y$ are two distinct points in the original open subset,
+them being distinct means that there is a smallest $k_0 \in \mathbb{N}$ such that
+they have different coordinates in $\{1,2\}$ in that position. By the above this
+implies that they belong to different connected components.
+
+=--
+
+In applications
+to _[[geometry]]_ (such as in the definition of [[topological manifolds]] [below](#Manifolds)) one is typically
+interested in topological spaces
+which do not share the phenomenon of examples \ref{RationalNumbersAreTotallyDisconnected} or
+\ref{TotallyDisconnectedCantorSpace}, hence
+which _are_ the disjoint union of their connected components:
+
+
++-- {: .num_example #LocallyConnected}
+###### Definition
+**([[locally connected topological spaces]])**
+
+A [[topological space]]  $(X,\tau)$ is called _[[locally connected topological space|locally connected]]_
+if the following equivalent conditions hold:
+
+1. For every point $x$ and every [[neighbourhood]] $U_x \supset \{x\}$ there is a [[connected topological space|connected]]
+   open neighbourhood $Cn_x \subset U_x$.
+
+1. Every [[connected component]] of every open [[subspace]] of $X$ is open.
+
+1. Every open [[subspace]] (example \ref{SubspaceTopology}) is the [[disjoint union space]] (def. \ref{DisjointUnionOfTopologicalSpaces}) of its [[connected components]] (def. \ref{ComponentsConnected}).
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+The conditions in def. \ref{LocallyConnected} are indeed all equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+$\,$
+
+1) $\Rightarrow$ 2)
+
+Assume $X$ is locally connected, and let $U \subset X$ be an open subset with $U_0 \subset U$ a connected component. We need to show that $U_0$ is open.
+
+Consider any point $x \in U_0$. Since then also $x \in U$, the defintion of local connectedness, def. \ref{LocallyConnected}, implies that there is a connected open neighbourhood $U_{x,0}$ of $X$. Observe that this must be contained in $U_0$, for if it were not then $U_0 \cup U_{x,0}$ were a larger open connected open neighbourhood, contradicting the maximality of the connected component $U_0$.
+
+Hence $U_0 = \underset{x \in U_0}{\cup} U_{x,0}$ is a union of open  subsets, and hence itself open.
+
+2) $\Rightarrow$ 3)
+
+Now assume that every connected component of every open subset $U$ is open. Since the connected components generally consitute a [[cover]] of $X$ by [[disjoint subsets]] this means that now they for an [[open cover]] by disjoint subsets. But by forming intersections with the cover this implies that every open subset of $U$ is the disjoint union of open subsets of the connected components (and of course every union of open subsets of the connected components is still open in $U$), which is the definition of the topology on the [[disjoint union space]] of the connected components.
+
+3) $\Rightarrow$ 1)
+
+Finally assume that every open subspace is the disjoint union of its connected components. Let $x$ be a point and $U_x \supset \{x\}$ a neighbourhood. We need to show that $U_x$ contains a connected neighbourhood of $x$.
+
+But, by definition, $U_x$ contains an open neighbourhood of $x$ and by assumption this decomposes as the disjoint union of its connected components. One of these contains $x$. Since in a [[disjoint union space]] all summands are open, this is the required connected open neighbourhod.
+
+=--
+
++-- {: .num_example #LocallyConnectedEuclideanSpace}
+###### Example
+**([[Euclidean space]] is locally connected)
+
+For $n \in \mathbb{N}$ the [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) (
+with its [[metric topology]]
+(example \ref{MetricTopology}) is [[locally connected topological space|locally connected]]
+(def. \ref{LocallyConnected}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By nature of the Euclidean metric topology, every neighbourhood $U_x$ of a point $x$
+contains an [[open ball]] containing $x$ (def. \ref{OpenBalls}).
+Moreover, every open ball clearly contains an open cube,
+hence a [[product space]] $\underset{i \in \{1, \cdots, n\}}{\prod} (x_i-\epsilon, x_i + \epsilon)$ of [[open intervals]] which is still a neighbourhood of $x$ (example \ref{ClosedIntervalsProduct}).
+
+Now intervals are connected by example \ref{ConnectedSubspacesOfRealLineAreTheIntervals}
+and product spaces of connected spaces are connected
+by example \ref{ProductSpaceOfConnectedSpacesIsConnected}.
+This shows that ever open neighbourhood contains a connected neighbourhood, which is the
+characterization of local connectedness in the first item of def. \ref{LocallyConnected}.
+
+=--
+
++-- {: .num_prop #LocallyConnectedOpenSubspaceOfLocallyConnectedSpace}
+###### Proposition
+**([[open subset|open]] [[subspace]] of locally connected space is locally connected)**
+
+Every [[open subset|open]] [[subspace]] (example \ref{SubspaceTopology})
+of a [[locally connected topological space]] (example \ref{LocallyConnected}) is itself locally connected
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is immediate from the first item of def. \ref{LocallyConnected}.
+
+=--
+
+$\,$
+
+Another important class of examples of locally connected topological spaces are [[topological manfolds]],
+this we discuss as prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} below.
+
+$\,$
+
+
+### Embeddings
+ {#Embeddings}
+
+Often it is important to know whether a given space is homeomorphism to its _image_, under some continuous function,
+in some other space:
+
++-- {: .num_defn #EmbeddingOfTopologicalSpaces}
+###### Definition
+**([[embedding of topological spaces]])**
+
+Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be [[topological spaces]]. A [[continuous function]] $f \;\colon\; X \longrightarrow Y$ is called an _[[embedding of topological spaces]]_ if in its [[image factorization]] (example \ref{ImageFactorization})
+
+$$
+  f
+    \;\colon\;
+  X
+    \overset{\phantom{A}\simeq\phantom{A}}{\longrightarrow}
+  f(X)
+    \overset{\phantom{AAA}}{\hookrightarrow}
+  Y
+$$
+
+with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]], we have that $X \to f(X)$ is a [[homeomorphism]].
+
+=--
+
++-- {: .num_prop #OpenClosedContinuousInjectionsAreEmbeddings}
+###### Proposition
+**([[closed injections are embeddings|open/closed continuous injections are embeddings]])**
+
+A [[continuous function]] $f \colon (X, \tau_X) \to (Y,\tau_Y)$
+which is
+
+1. an [[injective function]]
+
+1. an [[open map]] or a [[closed map]] (def. \ref{OpenMap})
+
+is an [[embedding of topological spaces]] (def. \ref{EmbeddingOfTopologicalSpaces}).
+
+This is called a _closed embedding_ if the [[image]] $f(X) \subset Y$ is a [[closed subset]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If $f$ is injective, then the map onto its [[image]] $X \to f(X) \subset Y$ is a [[bijection]]. Moreover, it is still continuous with respect to the subspace topology on $f(X)$ (example \ref{ImageFactorization}). Now a bijective continuous function is a homeomorphism precisely if it is an [[open map]] or a [[closed map]] prop. \ref{HomeoContinuousOpenBijection} . But the image projection of $f$ has this property, respectively, if $f$ does, by prop \ref{OpenClosedImageProjection}.
+
+=--
+
+
+
+
+$\,$
 
 
 
@@ -14539,7 +14877,7 @@ Moreover, manifolds with uncountably many connected components are rarely consid
 
 =--
 
-Essentially all **examples** of [[topological manifolds]] that we are interested in are 
+Essentially all **examples** of [[topological manifolds]] that we are interested in are
 even [[differentiable manifolds]] (def. \ref{DifferentiableManifold} below) and so we first consider
 that richer definition before discussing them.
 
@@ -14757,7 +15095,7 @@ By the formula given in the proof of prop. \ref{StandardStereographicProjection}
 
 Finally the $n$-sphere is a [[paracompact Hausdorff topological space]]. Ways to see this include:
 
-1. $S^n \subset \mathbb{R}^{n+1}$ is a [[compact subspace]] by the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}). Compact spaces are also paracompact (example \ref{CompactSpaceIsParacompact}). 
+1. $S^n \subset \mathbb{R}^{n+1}$ is a [[compact subspace]] by the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}). Compact spaces are also paracompact (example \ref{CompactSpaceIsParacompact}).
 Moreover, [[Euclidean space]], like any [[metric space]], is Hausdorff (example \ref{HausdorffMetricSpace}),
 and [[subspaces]] of Hausdorff spaces are Hausdorff;
 
