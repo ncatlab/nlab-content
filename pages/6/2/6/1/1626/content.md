@@ -222,13 +222,13 @@ which means that $f(X)$ is connected.
 =--
 
 
-+-- {: .num_remark #2}
-###### Result
++-- {: .num_example #2}
+###### Example
 [[pushout|Wide pushout]]s of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Set$ commute with [[wide pullback]]s. More memorably: [[connected limit|connected colimits]] of connected spaces are connected.
 =--
 
-+-- {: .num_remark #5}
-###### Result
++-- {: .num_example #5}
+###### Example
 If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overline{S}$ (i.e. if $T$ is between $S$ and its closure), then $T$ is connected. Or, what is essentially the same: if $T$ has a [[dense subspace|dense]] connected subspace $S$, then $T$ is connected.
 =--
 
@@ -461,7 +461,24 @@ taking advantage of the fact that the locally compact Hausdorff space $[0, 1]$ i
 
 We say $X$ is **path-connected** if it has exactly one path component.
 
-It follows easily from the basic results [above](basic) that each path component $[x]$ is connected. However, it need not be closed (and therefore need not be the connected component of $x$); see the following example. The path components and connected components do coincide if $X$ is locally path-connected.
+It follows easily from the basic results [above](basic) that:
+
++-- {: .num_lemma #ConnectedPathConnectedSpace}
+###### Lemma
+
+A path connected space $X$ is connected.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Assume it were not, then it would be covered by two disjoint inhabited open subsets $U_1, U_2 \subset X$. But by path connectedness there were a continuous path $\gamma \colon [0,1] \to X$ from a point in one of the open subsets to a point in the other. The continuity would imply that $\gamma^{-1}(U_1), \gamma^{-1}(U_2) \subset [0,1]$ were a disjoint open cover of the interval. This would be in contradiction to the fact that intervals are connected. Hence we have a [[proof by contradiction]].
+
+=--
+
+
+However, it need not be closed (and therefore need not be the connected component of $x$); see the following example. The path components and connected components do coincide if $X$ is [[locally path-connected space|locally path-connected]].
 
 +-- {: .num_example #sine}
 ###### Example
@@ -470,7 +487,8 @@ $$ \{ (x, y) \in \mathbb{R}^2 \;:\; (0 \lt x \leq 1 \;\wedge\; y = sin(1/x)) \;\
 provides a classic example where the path component of a point need not be closed. (Specifically, consider a point on the locus of $y = \sin(1/x)$.)
 =--
 
-The basic categorical Results \ref{ContinuousImagesOfConnectedSpacesAreConnected}, \ref{2}, and \ref{ProductSpaceOfConnectedSpacesIsConnected} above carry over upon replacing "connected" by "path-connected". (As of course does \ref{EuclideanIntervalIsConnected}, trivially.)
+The basic categorical Results \ref{ContinuousImagesOfConnectedSpacesAreConnected}, \ref{2}, and \ref{ProductSpaceOfConnectedSpacesIsConnected} above carry over upon replacing "connected" by "path-connected". (As of course does 
+example \ref{ConnectedSubspacesOfRealLineAreTheIntervals}, trivially.)
 
 Finally, as a contrast to a path-connected space, a **totally path-disconnected** space is a space such that its set of path components is equal to the underlying set of the space. Equivalently, that there are no non-constant paths. This by far does not mean that the space is discrete!
 
@@ -646,7 +664,7 @@ Let $(X,\tau)$ be a [[topological space]]. Then its connected components (def. \
 +-- {: .proof}
 ###### Proof
 
-By definition, the connected components are [[maximal elements]] in the set of connected suspaces [[preorder|pre-ordered]] by inclusion. By prop. \ref{ClosureOfConnectedSubspaceIsConnected} this means that they must contain their closures, hence they must equal their closures.
+By definition, the connected components are [[maximal elements]] in the set of connected subspaces [[preorder|pre-ordered]] by inclusion. By prop. \ref{ClosureOfConnectedSubspaceIsConnected} this means that they must contain their closures, hence they must equal their closures.
 
 =--
 
