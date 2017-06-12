@@ -9,6 +9,8 @@
 =--
 =--
 
+
+
 # Contents
 * table of contents
 {:toc}
@@ -180,10 +182,45 @@ In this example, $Conn((0, 1)) = \{(0, 1)\}$, but $QConn((0, 1)) = \{(0, 0), (0,
 
 ### Basic examples {#basic}
 
-+-- {: .num_remark #1}
-###### Result
-The [[regular monomorphism|regular]] [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ (i.e., the set-theoretic image with the subspace topology inherited from $Y$) is connected. Or, what is essentially the same: if $X$ is connected and $f: X \to Y$ is [[epimorphism|epic]], then $Y$ is connected.
++-- {: .num_example #ContinuousImagesOfConnectedSpacesAreConnected}
+###### Example
+**([[continuous function|continuous]] [[images]] of connected spaces are connected)**
+
+The [[regular monomorphism|regular]] [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ (i.e., the set-theoretic image with the subspace topology inherited from $Y$) is connected. Or, what is essentially the same: if $X$ is connected and $f: X \to Y$ is [[epimorphism|epic]], then $Y$ is connected:
+
+Let $X$ be a connected topological space, let $Y$ be any [[topological space]], and let
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+be a [[continuous function]]. This factors via continuous functions through the [[image]]
+
+$$
+  f \;\colon\; X \underoverset{surjective}{p}{\longrightarrow} f(X) \underoverset{injective}{i}{\longrightarrow} Y
+$$
+
+for $f(X)$ equipped either with he [[subspace topology]] relative to $Y$ or the [[quotient topology]]
+relative to $X$. In either case:
+
+If $X$ is a connected topological space, then so is $f(X)$.
+
 =--
+
++-- {: .proof}
+###### Proof
+
+Let $U_1,U_2 \subset f(X)$ be two [[open subsets]] such that $U_1 \cup U_2 = f(X)$ and $U_1 \cap U_2 = \emptyset$.
+We need to show that precisely one of them is the [[empty set]].
+
+Since $p$ is a [[continuous function]], also the [[pre-images]] $p^{-1}(U_1), p^{-1}(U_2) \subset X$
+are open subsets and are still disjoint. Since $p$ is [[surjective function|surjective]] it also follows that
+$p^{-1}(U_1) \cup p^{-1}(U_2) = X$. Since $X$ is connected, it follows that one of these two pre-images is
+the empty set. But again sicne $p$ is surjective, this implies that precisely one of $U_1, U_2$ is empty,
+which means that $f(X)$ is connected.
+
+=--
+
 
 +-- {: .num_remark #2}
 ###### Result
@@ -206,13 +243,13 @@ An arbitrary [[product]] of connected spaces is connected. (This relies on some 
 ###### Example
 **(connected subspaces of the real line are the intervals)
 
-Regard the [[real line]] with its [[Euclidean space|Euclidean]] [[metric topology]]. Then a 
+Regard the [[real line]] with its [[Euclidean space|Euclidean]] [[metric topology]]. Then a
 [[subspace]] $S \subset \mathbb{R}$ is connected (def. \ref{ConnectedSpace})
-precisely if it is an [[interval]], hence precisely if 
+precisely if it is an [[interval]], hence precisely if
 
 $$
   \underset{x,y \in S \subset \mathbb{R}}{\forall}
-  \underset{ r \in \mathbb{R} } }{\forall}
+  \underset{ r \in \mathbb{R}  }{\forall}
   \left(
    \left(
       x \lt r \lt y
@@ -233,13 +270,13 @@ then $I$ is the set of connected components of the union $\underset{i \in I}{\cu
 +-- {: .proof}
 ###### Proof
 
-Suppose on the contrary that we have $x \lt r \lt y$ but $r \notin S$. Then by the 
+Suppose on the contrary that we have $x \lt r \lt y$ but $r \notin S$. Then by the
 nature of the [[subspace topology]] there would be a decomposition of $S$ as a [[disjoint union]]
 of [[disjoint subset|disjoint]] [[open subsets]]:
 
 $$
-  S 
-    = 
+  S
+    =
   \left(
     S \cap (r,\infty)
   \right)
@@ -253,201 +290,6 @@ $$
 But since $x \lt r$ and $r \lt y$ both these open subsets were [[inhabited set|non-empty]], thus contradicting the
 assumption that $S$ is connected. This yields a [[proof by contradiction]].
 
-=--
-
-
-
-# Contents
-* table of contents
-{:toc}
-
-## Idea
-
-A [[topological space]] is __connected__ if it can not be split up into two independent parts.
-
-Every topological space may be decomposed into disjoint maximal connected [[subspaces]], called its __[[connected components]]__.  The underlying set of a topological space is the [[disjoint union]] of the underlying sets of its connected components, but the space itself is not necessarily the [[coproduct]] of its connected components in the category of spaces.
-
-One often studies topological ideas first for connected spaces and then generalises to general spaces.  This is especially true if one is studying such [[nice topological space]]s that every space *is* a coproduct of connected components (such as for example _locally connected spaces_; see below).
-
-
-## Definitions
-
-### Elementary definition
-
-+-- {: .num_defn #ConnectedSpace}
-###### Definition
-**(connected topological space)**
-
-A [[topological space]] $(X, \tau)$ is _connected_ if the following equivalent conditions hold:
-
-1. For all pairs of topological spaces $(X_1, \tau_1), (X_2, \tau_2)$ such that $(X, \tau)$ is [[homeomorphism|homeomorphic]] to their [[disjoint union space]]
-
-   $$
-     (X,\tau) \simeq (X_1,\tau_1) \sqcup (X_2,\tau_2)
-   $$
-
-   then exactly one of the two spaces is the [[empty space]].
-
-1. For all pairs of [[open subsets]] $U_1, U_2 \subset X$ if
-
-   $$
-     U_1 \cup U_2 = X \phantom{A}\text{and} \phantom{A} U_1 \cap U_2 = \emptyset
-   $$
-
-   then exactly one of the two subsets is the [[empty set]]
-
-
-1. if a [[subset]] $CO \subseteq X$ is [[clopen set|clopen]] (both closed and open), then $ CO = X$ if and only if $CO$ is [[inhabited set|inhabited]].
-
-=--
-
-+-- {: .num_remark #ConnectedEmptySpace}
-###### Remark
-
-According to def. \ref{ConnectedSpace} the [[empty topological space]] is not regarded as connected. Some authors do want the empty space to count as a connected space. This means to change in the first item of def. \ref{ConnectedSpace} the "exactly one" to "at least one" and in the second item "if and only if" to "if".
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-The conditions in def. \ref{ConnectedSpace} are indeed equivalent.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-First consider the equivalence of the first two statements:
-
-Suppose that in every disjoint union decomposition of $(X,\tau)$ then exactly one summand is empty. Now consider two disjoint open subsets $U_1, U_2 \subset X$ whose union is $X$ and whose intersection is empty. We need to show that exactly one of the two subsets is empty.
-
-Write $(U_1, \tau_{1})$ and $(U_2, \tau_2)$ for the corresponding [[topological subspaces]]. Then observe that from the definition of [[subspace topology]] and the [[disjoint union space]] we have a [[homeomorphism]]
-
-$$
-  X \simeq (U_1, \tau_1) \sqcup (U_2, \tau_2)
-$$
-
-because by assumption every open subset $U \subset X$ is the disjoint union of open subsets of $U_1$ and $U_2$, respectively:
-
-$$
-  U = U \cap X = U \cap (U_1 \sqcup U_2) = (U \cap U_1) \sqcup (U \cap U_2)
-  \,,
-$$
-
-which is the definition of the disjoint union topology.
-
-
-Hence by assumption exactly one of the two summand spaces is the [[empty space]] and hence the underlying set is the empty set.
-
-Conversely, suppose that for every pair of open subsets $U_1, U_2 \subset U$ with $U_1 \cup U_2 = X$ and $U_1 \cap U_2 = \emptyset$ then exactly one of the two is empty. Now consider a homeomorphism of the form $(X,\tau) \simeq (X_1, \tau_1) \sqcup (X_2,\tau_2)$. By the nature of the [[disjoint union space]] this means that $X_1, X_2 \subset X$ are disjoint open subsets of $X$ which cover $X$. So by asumption precisely one of the two subsets is the empty set and hence precisely one of the two topological spaces is the empty space.
-
-Now regarding the equivalence to the third statement:
-
-If a subset $CO \subset X$ is both closed and open, this means equivalently that it is open and that its [[complement]] $X \setminus CO$ is also open, hence equivalently that there are two open subsets $CO, X \backslash CO \subset X$ whose union is $X$ and whose intersection is empty. This way the third condition is equivalent to the second.
-
-=--
-
-
-### Category-theoretic definition
-
-In the language of [[category theory]] def. \ref{ConnectedSpace} may be rephrased as follows:
-
-Write [[Top]] for the [[category]] of all [[topological space]].
-
-Then a topological space $X$ is connected precisely if the [[representable functor]]
-
-$$
-  hom(X, -) \;\colon\; Top \longrightarrow Set
-$$
-
-preserves [[coproducts]].
-
-
-It is equivalent to just require that it preserves binary coproducts (a detailed proof in a more general setting is given at _[[connected object]]_ in [this proposition](connected+object#RespectForBinaryCoproductsIsSufficient). In that case, notice that we always have a map
-$$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) ,$$
-so $X$ is connected if this is always a [[bijection]]. This definition generalises to the notion of [[connected object]] in an [[extensive category]].
-
-The variant of the definition according to remark \ref{ConnectedEmptySpace}, which regards the empty space means in terms of category theoretic languag that one
-requires only that the maps
-$$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) $$
-be [[surjections]].
-
-However, many results come out more cleanly by disqualifying the empty space (much as one disqualifies $1$ when one defines the notion of [[prime number]]).  See also the discussion at [[empty space]] and [[too simple to be simple]].
-
-
-### Connected components
-
-Every topological space $X$ admits an [[equivalence relation]] $\sim$ where $x \sim y$ means that $x$ and $y$ belong to some subspace which is connected. The [[equivalence class]] $Conn(x)$ of an element $x$ is thus the union of all connected subspaces containing $x$; it follows readily from Result \ref{2} that $Conn(x)$ is itself connected. It is called the **connected component** of $x$. It is closed, by Result \ref{5}. A space is connected if and only if it has exactly one connected component (or at most one, if you allow the empty space to be connected).
-
-+-- {: .num_defn #ComponentsConnected}
-###### Definition
-**(connected components)**
-
-For $(X,\tau)$ a [[topological space]], then its _[[connected components]]_
-are the [[equivalence classes]] under the [[equivalence relation]] on $X$ which
-regards two points as equivalent if they both sit in some [[open subset]]
-which, as a [[topological subspace]] (example \ref{SubspaceTopology}), is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}):
-
-$$
-  (x \sim y)
-    \;\coloneqq\;
-  \left(
-    \underset{ U \subset X \; \text{\open} }{\exists}
-    \left(
-       \left( x,y \in U \right)
-        \phantom{A}\text{and}\phantom{A}
-       \left( U \, \text{is connected} \right)
-    \right)
-  \right)
-  \,.
-$$
-
-=--
-
-
-
-There is another equivalence relation $\sim_q$ where $x \sim_q y$ if $f(x) = f(y)$ for every continuous $f: X \to D$ mapping to a [[discrete space]] $D$. The equivalence class of $x$ may be alternatively described as the intersection of all clopens that contain $x$. This is called the **quasi-component** of $x$, denoted here as $QConn(x)$. It is easy to prove that
-
-$$Conn(x) \subseteq QConn(x)$$
-
-and that equality holds if $X$ is [[compact Hausdorff space|compact Hausdorff]] or is locally connected (see below), but also in other circumstances (such as the space of [[rational numbers]] as a [[topological subspace]] of the [[real line]]).
-
-+-- {: .num_example #comb}
-###### Example
-For an example where $Conn(x) \neq QConn(x)$, take $X$ to be the following [[subspace]] of $[0, 1] \times [0, 1]$:
-
-$$X = \{(0, 0), (0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1]$$
-
-In this example, $Conn((0, 1)) = \{(0, 1)\}$, but $QConn((0, 1)) = \{(0, 0), (0, 1)\}$.
-=--
-
-
-
-## Examples
-
-### Basic examples {#basic}
-
-+-- {: .num_remark #1}
-###### Result
-The [[regular monomorphism|regular]] [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ (i.e., the set-theoretic image with the subspace topology inherited from $Y$) is connected. Or, what is essentially the same: if $X$ is connected and $f: X \to Y$ is [[epimorphism|epic]], then $Y$ is connected.
-=--
-
-+-- {: .num_remark #2}
-###### Result
-[[pushout|Wide pushout]]s of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Set$ commute with [[wide pullback]]s. More memorably: [[connected limit|connected colimits]] of connected spaces are connected.
-=--
-
-+-- {: .num_remark #5}
-###### Result
-If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overline{S}$ (i.e. if $T$ is between $S$ and its closure), then $T$ is connected. Or, what is essentially the same: if $T$ has a [[dense subspace|dense]] connected subspace $S$, then $T$ is connected.
-=--
-
-(see also prop. \ref{ClosureOfConnectedSubspaceIsConnected} below)
-
-+-- {: .num_remark #3}
-###### Result
-An arbitrary [[product]] of connected spaces is connected. (This relies on some special features of $Top$. Discussion of this point can be found at [connected](/nlab/show/connected+object#prod) [object](/nlab/show/connected+object#prod2).)
 =--
 
 
@@ -603,7 +445,7 @@ For a proof of this theorem, see [Willard](#Willard), theorem 31.2. More precise
 
 +-- {: .num_lemma}
 ###### Lemma
-If $X$ is Hausdorff and there is a continuous surjection $f: I \to X$, then $X$ is a Peano space.
+If $X$ is Hausdorff and there is a continuous surjection $f: I \to X$, then $X$ is a [[Peano space]].
 =--
 
 +-- {: .proof}
@@ -685,42 +527,6 @@ Roughly speaking, Henderson's $f$ is a small "notched" perturbation of the squar
 ## Properties
  {#Properties}
 
-+-- {: .num_prop #ContinuousImagesOfConnectedSpacesAreConnected}
-###### Proposition
-**([[continuous function|continuous]] [[images]] of connected spaces are connected)**
-
-Let $X$ be a connected topological space, let $Y$ be any [[topological space]], and let
-
-$$
-  f \;\colon\; X \longrightarrow Y
-$$
-
-be a [[continuous function]]. This factors via continuous functions through the [[image]]
-
-$$
-  f \;\colon\; X \underoverset{surjective}{p}{\longrightarrow} f(X) \underoverset{injective}{i}{\longrightarrow} Y
-$$
-
-for $f(X)$ equipped either with he [[subspace topology]] relative to $Y$ or the [[quotient topology]]
-relative to $X$. In either case:
-
-If $X$ is a connected topological space, then so is $f(X)$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Let $U_1,U_2 \subset f(X)$ be two [[open subsets]] such that $U_1 \cup U_2 = f(X)$ and $U_1 \cap U_2 = \emptyset$.
-We need to show that precisely one of them is the [[empty set]].
-
-Since $p$ is a [[continuous function]], also the [[pre-images]] $p^{-1}(U_1), p^{-1}(U_2) \subset X$
-are open subsets and are still disjoint. Since $p$ is [[surjective function|surjective]] it also follows that 
-$p^{-1}(U_1) \cup p^{-1}(U_2) = X$. Since $X$ is connected, it follows that one of these two pre-images is 
-the empty set. But again sicne $p$ is surjective, this implies that precisely one of $U_1, U_2$ is empty, 
-which means that $f(X)$ is connected.
-
-=--
 
 +-- {: .num_prop}
 ###### Corollary
@@ -744,7 +550,7 @@ takes every value in between $f(a)$ and f(b).
 ###### Proof
 
 By example \ref{ConnectedSubspacesOfRealLineAreTheIntervals} the interval $[a,b]$ is connected.
-By prop. \ref{ContinuousImagesOfConnectedSpacesAreConnected} also its image $f([a,b]) \subset \mathbb{R}$
+By example \ref{ContinuousImagesOfConnectedSpacesAreConnected} also its image $f([a,b]) \subset \mathbb{R}$
 is connected. By example \ref{ConnectedSubspacesOfRealLineAreTheIntervals} that image is hence 
 itself an interval. This implies the claim.
 
