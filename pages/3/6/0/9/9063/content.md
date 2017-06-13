@@ -18,17 +18,22 @@
 * table of contents
 {:toc}
 
-## Definition
+## Idea
 
 A cofiber sequence is the dual notion to a [[fiber sequence]].
 
-For $\mathcal{C}$ an [[(infinity,1)-category]] with [[(infinity,1)-pushouts]], a sequence of [[morphisms]] $A \stackrel{f}{\to} B \to C$ is a _cofiber sequence_ if there is an [[(infinity,1)-pushout]] square
+
+## Definition
+
+### Abstractly
+
+For $\mathcal{C}$ an [[(infinity,1)-category]] with [[(infinity,1)-pushouts]], a sequence of [[morphisms]] $A \stackrel{f}{\to} B \to C$ is a _cofiber sequence_ if there is an [[(infinity,1)-pushout]] square of the form
 
 $$
   \array{
     A &\stackrel{f}{\to}& B
     \\
-    \downarrow && \downarrow
+    \downarrow &\swArrow& \downarrow
     \\
     * &\to& C
   }
@@ -36,11 +41,9 @@ $$
 
 in $\mathcal{C}$. We say that $C$ is the [[homotopy cofiber]] of $f$.
 
-## Properties
-
 ### Presentation
 
-Under mild conditions on a [[category with weak equivalences]] presenting $\mathcal{C}$ (such as a [[model category]]), homotopy cofibers are presented by [[mapping cones]]. See there for more details.
+Under mild conditions on a [[category with weak equivalences]] presenting $\mathcal{C}$ (such as a [[model category]]), homotopy cofibers are presented by _[[mapping cones]]_. See there for more details.
 
 ## Examples
 
