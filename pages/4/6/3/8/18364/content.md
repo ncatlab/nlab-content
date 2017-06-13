@@ -1,0 +1,11 @@
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Leopold_Infeld)
+
+## Related $n$Lab entries
+
+* [[Dirac-Born-Infeld action]]
+
+* [[black brane]]
+
+category: people
+
