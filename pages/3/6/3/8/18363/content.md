@@ -1,0 +1,1 @@
+Associate Professor of Mathematics, Missouri University of Science and Technology in Rolla Missouri, USA
