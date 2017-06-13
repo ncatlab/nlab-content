@@ -8284,7 +8284,7 @@ $\,$
 
 ## Subspaces
 
-We discuss special classes of [[subspaces]] of [[topological spaces]] that play an important role in the 
+We discuss special classes of [[subspaces]] of [[topological spaces]] that play an important role in the
 theory, in particular for the discussion of [[topological manifolds]] [below](#Manifolds):
 
 1. _[Connected components](#ConnectedComponents)_
@@ -8302,11 +8302,11 @@ into its [[connected components]] (def. \ref{ComponentsConnected} below).
 The important subtlety in to beware of
 is that a topological space is _not_ in general the disjoint union space of its connected
 components.
-The extreme case of this phenomenon are [[totally disconnected topological spaces]] 
+The extreme case of this phenomenon are [[totally disconnected topological spaces]]
 (def. \ref{TotallyDisconnectedTopologicalSpace} below) which are nevertheless not [[discrete topological spaces|discrete]]
-(examples \ref{RationalNumbersAreTotallyDisconnected} and \ref{TotallyDisconnectedCantorSpace} below). 
+(examples \ref{RationalNumbersAreTotallyDisconnected} and \ref{TotallyDisconnectedCantorSpace} below).
 
-The topological spaces free from this exotic behaviour are the  
+The topological spaces free from this exotic behaviour are the
 _[[locally connected topological spaces]]_ (def.  \ref{LocallyConnected} below).
 
 
@@ -8338,19 +8338,6 @@ to their [[disjoint union space]] (def. \ref{DisjointUnionOfTopologicalSpaces})
    then exactly one of the two subsets is the [[empty set]];
 
 1. if a [[subset]] $CO \subseteq X$ is both an [[open subset]] and a [[closed subset]] (def. \ref{ClosedSubset}) then $ CO = X$ if and only if $CO$ is [[inhabited set|non-empty]].
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-**([[empty space]] is not [[connected topological space|connected]])**
-
-According to def. \ref{ConnectedTopologicalSpace} the [[empty topological space]] $\emptyset$ (def. \ref{Point})
-is _not_ connected, since $\emptyset \simeq \emptyset \sqcup \emptyset$, where both instead
-of exactly one of the summands are empty.
-
-Of course it is immediate to change def. \ref{ConnectedTopologicalSpace} so that it would
-regard the empty space as connected. This is a matter of convention.
 
 =--
 
@@ -8387,11 +8374,25 @@ which is the definition of the disjoint union topology.
 
 Hence by assumption exactly one of the two summand spaces is the [[empty space]] and hence the underlying set is the empty set.
 
-Conversely, suppose that for every pair of open subsets $U_1, U_2 \subset U$ with $U_1 \cup U_2 = X$ and $U_1 \cap U_2 = \emptyset$ then exactly one of the two is empty. Now consider a homeomorphism of the form $(X,\tau) \simeq (X_1, \tau_1) \sqcup (X_2,\tau_2)$. By the nature of the [[disjoint union space]] this means that $X_1, X_2 \subset X$ are disjoint open subsets of $X$ which cover $X$. So by asumption precisely one of the two subsets is the empty set and hence precisely one of the two topological spaces is the empty space.
+Conversely, suppose that for every pair of open subsets $U_1, U_2 \subset U$ with $U_1 \cup U_2 = X$ and $U_1 \cap U_2 = \emptyset$ then exactly one of the two is empty. Now consider a homeomorphism of the form $(X,\tau) \simeq (X_1, \tau_1) \sqcup (X_2,\tau_2)$. By the nature of the [[disjoint union space]] this means that $X_1, X_2 \subset X$ are disjoint open subsets of $X$ which cover $X$. 
+So by assumption precisely one of the two subsets is the empty set and hence precisely one of the two topological spaces is the empty space.
 
 Now regarding the equivalence to the third statement:
 
 If a subset $CO \subset X$ is both closed and open, this means equivalently that it is open and that its [[complement]] $X \setminus CO$ is also open, hence equivalently that there are two open subsets $CO, X \backslash CO \subset X$ whose union is $X$ and whose intersection is empty. This way the third condition is equivalent to the second, hence also to the first.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**([[empty space]] is not [[connected topological space|connected]])**
+
+According to def. \ref{ConnectedTopologicalSpace} the [[empty topological space]] $\emptyset$ (def. \ref{Point})
+is _not_ connected, since $\emptyset \simeq \emptyset \sqcup \emptyset$, where both instead
+of exactly one of the summands are empty.
+
+Of course it is immediate to change def. \ref{ConnectedTopologicalSpace} so that it would
+regard the empty space as connected. This is a matter of convention.
 
 =--
 
@@ -8401,7 +8402,8 @@ If a subset $CO \subset X$ is both closed and open, this means equivalently that
 **([[connected topological space|connected]] [[subspaces]] of the [[real line]] are the [[intervals]])
 
 Regard the [[real line]] with its [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, \ref{MetricTopology}). Then a
-[[subspace]] $S \subset \mathbb{R}$ (example \ref{SubspaceTopology}) is [[connected topological space|connected]] (def. \ref{ConnectedSpace})
+[[subspace]] $S \subset \mathbb{R}$ (example \ref{SubspaceTopology}) 
+is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace})
 precisely if it is an [[interval]], hence precisely if
 
 $$
@@ -8467,6 +8469,7 @@ relative to $X$ (example \ref{ImageFactorization}). In either case:
 
 If $X$ is a [[connected topological space]] (def. \ref{ConnectedTopologicalSpace}), then so is $f(X)$.
 
+In particular connectedness is a [[topological property]] (def. \ref{Homeomorphism}).
 =--
 
 +-- {: .proof}
@@ -8533,12 +8536,13 @@ of the product space by two disjoint open subsets. We need to show that precisel
 is empty. Since each $X_i$ is connected and hence non-empty, the product space is not empty, and hence
 it is sufficient to show that at lest one of the two is empty.
 
-Assume on the contrary that we could find $x_1 \in U_1$ and $x_2 \in U_2$.
-Observe that this would mean that these two points could differ only in a finite number of their
-coordinates: Because they must be contained in disjoint [[base of a topology|base opens]]
-and by the nature of the base opens of the  [[Tychonoff topology]] any two differ in only a finite number of variables.
+Assume on the contrary that both $U_1$ and $U_2$ are non-empty.
 
-Observe that this would mean that we could find $x'_1 \in U_1$ that differed only in a single coordinate from $x_2$:
+Observe first that if so, then we could find $x_1 \in U_1$ and $x_2 \in U_2$ 
+whose coordinates differed only a a finite subset of $I$. This is since by the nature of the
+[[Tychonoff topology]] $\pi_i(U_1) = X_i$ and $\pi_i(U_2) = X_i$ for all but a finite number of $i \in iI$.
+
+Next observe that we then could even find $x'_1 \in U_1$ that differed only in a single coordinate from $x_2$:
 Because pick one coordinate in which $x_1$ differs from $x_2$ and change it to the corresponding coordinate of $x_2$.
 Since $U_1$ and $U_2$ are a cover, the resulting point is either in $U_1$ or in $U_2$. If it is in $U_2$, then
 $x_1$ already differed in only one coordinate from $x_2$ and we may take $x'_1 \coloneqq x_1$.
@@ -8602,7 +8606,7 @@ $$
 **([[connected components]] of [[disjoint union spaces]])**
 
 For $\{X_i\}_{i \in I}$ a $I$-indexed [[set]] of [[connected topological spaces]] then
-the set of [[connected components]] (def. \ref{ComponentsConnected}) of their 
+the set of [[connected components]] (def. \ref{ComponentsConnected}) of their
 [[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces}) is the index set $I$.
 
 =--
@@ -8613,7 +8617,7 @@ below. But first notice some basic properties of connected components:
 
 +-- {: .num_prop #ClosureOfConnectedSubspaceIsConnected}
 ###### Proposition
-**([[topological closure]] of connected subspace is connected)**
+**([[topological closure]] of [[connected topological space|connected]] [[subspace]] is [[connected topological space|connected]])**
 
 Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] which, as a [[subspace]], is connected. Then also the [[topological closure]] $Cl(S) \subset X$ is connected
 
@@ -8684,7 +8688,7 @@ The trivial class of examples is this:
 ###### Example
 **([[discrete topological spaces]] are [[totally disconnected topological space|totally disconnected]])**
 
-Every [[discrete topological space]] 
+Every [[discrete topological space]]
 (example \ref{CoDiscreteTopology}) is a [[totally disconnected topological space]] (def. \ref{TotallyDisconnectedTopologicalSpace}).
 
 =--
@@ -8900,6 +8904,257 @@ $\,$
 
 Another important class of examples of locally connected topological spaces are [[topological manifolds]],
 this we discuss as prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} below.
+
+$\,$
+
+There is also a concept of connetedness which is "geometric" instead of "purely topological" by definition:
+
++-- {: .num_defn #ConnectedPath}
+###### Definition
+**([[path-connected topological space]])**
+
+Let $X$ be a [[topological space]]. Then a _[[path]]_ or _continuous [[curve]]_ in $X$ is a
+[[continuous function]]
+
+$$
+  \gamma \;\colon\; [0,1] \longrightarrow X
+$$
+
+from the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]].
+
+We say that this path _connects_ its endpoints $\gamma(0), \gamma(1) \in X$.
+
+Being connected by a [[path]] is an [[equivalence relation]] $\sim_{pcon}$ on the underlying set of $X$.
+The corresponding [[equivalence classes]] are called the _path-connected components_ of $X$.
+The set of the path-connected components is usually denoted
+
+$$
+  \pi_0(X) \coloneqq X/\sim_{pcon}
+  \,.
+$$
+
+If there is a single path-connected component ($\pi_0(\ast) \simeq \ast$),
+then $X$ is called a _[[path-connected topological space]]_.
+
+=--
+
++-- {: .num_example #PathConnectedEuclideanSpace}
+###### Example
+**([[Euclidean space]] is [[path-connected topological space|path-connected]])
+
+For $n \in \mathbb{N}$ then [[Euclidean space]] $\mathbb{R}^n$ is 
+a [[path-connected topological space]] (def. \ref{ConnectedPath}).
+
+Because for $\vec x, \vec y \in \mathbb{R}^n$, consider the function
+
+$$
+  \array{
+    [0,1] &\overset{\gamma}{\longrightarrow}& \mathbb{R}^n
+    \\
+    t &\mapsto& t \vec y + (1-t) \vec x
+  }
+  \,.
+$$
+
+This clearly has the property that $\gamma(0) = \vec x$ and $\gamma(1) = \vec y$.
+Moreover, it 
+is a [[polynomial]] function and [[polynomials are continuous functions]] (example \ref{PolynoialsAreContinuous}).
+
+
+
+=--
+
++-- {: .num_example #PathConnectedContinuousImage}
+###### Example
+**([[continuous function|continuous]] [[image]] of [[path-connected space]] is [[path-connected space|path-connected]])**
+
+Let $X$ be a [[path-connected topological space]] and let 
+
+$$
+  f \colon X \longrightarrow Y
+$$
+
+be a [[continuous function]]. Then also the [[image]] $f(X)$ of $X$
+
+$$
+  X 
+    \undervrset{\text{surjective}}{p}{\longrightarrow}
+  f(X)
+    \underoverset{\text{injective}}{i}{\longrightarrow}
+$$
+
+with either of its two possible topologies (example \ref{ImageFactorization})
+is path-connected.
+
+In particular path-connectednss is a [[topological property]] (def. \ref{Homeomorphism}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $x,y \in X$ be two points. Since $p \colon X \to f(X)$ is surjective, 
+there are pre-images $p^{-1}(x), p^{-1}(y) \in X$. Since $X$ is path-connected, 
+there is a continuous function
+
+$$
+  \gamma \colon [0,1] \longrightarrow X
+$$
+
+with $\gamma(0) = p^{-1}(x)$ and $\gamma(1) = p^{-1}(y)$. Since the composition of continuous
+function is continuous, it follows that $p \circ \gamma \colon [0,1] \to f(X)$ is a path
+connecting $x$ with $y$.
+
+
+=--
+
+
++-- {: .num_remark #PathSpace}
+###### Remark
+**([[path space]])**
+
+Let $X$ be a [[topological space]].
+Since the interval $[0,1]$ is a [[locally connected topological space]] (example \ref{MetricSpacesAreLocallyCompact})
+there is the [[mapping space]]
+
+$$
+  P X
+  \;\coloneqq\; Maps([0,1])
+$$
+
+hence the set of [[paths]] in $X$ (def. \ref{ConnectedPath})
+equipped with the [[compact-open topology]] (def. \ref{CompactOpenTopology}).
+
+This is often called the _[[path space]]_ of $X$.
+
+By functoriality of the
+mapping space (remark \ref{TopologicalMappingSpaceIsExponentialObject})
+the two endpoint inclusions
+
+$$
+  \ast \overset{const_0}{\hookrightarrow} [0,1]
+  \phantom{AA}
+   \text{and}
+  \phantom{AA}
+  \ast \overset{const_1}{\hookrightarrow} [0,1]
+$$
+
+induce to continuous functions of the form
+
+$$
+  P X
+    =
+  Maps([0,1],X)
+  \underoverset
+    {\underset{const_1^\ast}{\longrightarrow}}
+    {\overset{const_0^\ast}{\longrightarrow}}
+    {}
+  Maps(\ast,X)
+   \simeq
+  X
+  \,.
+$$
+
+
+=--
+
++-- {: .num_lemma #ConnectedPathConnectedSpace}
+###### Lemma
+**([[path-connected spaces]] are [[connected topological space|connected]])
+
+A [[path connected topological space]] $X$ (def. \ref{ConnectedPath})
+is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Assume it were not, then it would be covered by two disjoint inhabited open subsets $U_1, U_2 \subset X$. But by path connectedness there were a continuous path $\gamma \colon [0,1] \to X$ from a point in one of the open subsets to a point in the other. The continuity would imply that $\gamma^{-1}(U_1), \gamma^{-1}(U_2) \subset [0,1]$ were a disjoint open cover of the interval. This would be in contradiction to the fact that intervals are connected. Hence we have a [[proof by contradiction]].
+
+=--
+
++-- {: .num_defn #PathConnectedLocally}
+###### Definition
+**([[locally path-connected topological space]])**
+
+A [[topological space]] $X$ is called _[[locally path-connected topological space|locally path-connected]]_
+if for every point $x \in X$ and every [[neighbourhood]] $U_x \supset \{x\}$ there exists
+a neighbourhood $C_x \subset U_x$ which, as a [[subspace]],
+is [[path-connected topological space|path-connected]] (def. \ref{ConnectedPath}).
+
+=--
+
++-- {: .num_example}
+###### Examples
+**([[Euclidean space]] is [[locally path-connected topological space|locally path-connected]])**
+
+For $n \in \mathbb{N}$ then [[Euclidean space]] $\mathbb{R}^n$ (with its [[metric topology]]) is locally path-connected, since each [[open ball]] is [[path-connected topological space]].
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[open subspace]] of [[locally path-connected space]] is locally path-connected)
+
+Every [[open subset|open]] [[subspace]] of a [[locally path-connected topological space]]
+is itself locally path-connected.
+
+=--
+
+Another class of examples we consider below: 
+[[locally Euclidean topological spaces]] are locally path-connected (prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} below).
+
+
++-- {: .num_lemma #InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen}
+###### Lemma
+
+Let $X$ be a [[locally path-connected topological space]] (def. \ref{PathConnectedLocally}).
+Then each of its path-connected components is an [[open set]] and a [[closed set]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To see that every path connected component $P_x$ is open,
+it is sufficient to show that every point $y \in P_x$ has an [[neighbourhood]] $U_y$ which is still contained in $P_x$. But by local path connectedness, $y$ has a neighbourhood $V_y$ which  is path connected. It follows by concatenation of paths that $V_y \subset P_x$.
+
+Now each path-connected component $P_x$ is the [[complement]] of the [[union]] of all the
+other path-connected components. Since these are all open, their union is open, and hence the
+complement $P_x$ is closed.
+
+=--
+
+
++-- {: .num_prop #ForLocallyPathConnectedThenPathConnectedComponentsAgree}
+###### Proposition
+
+Let $X$ be a [[locally path-connected topological space]] (def. \ref{PathConnectedLocally}).
+
+Then the [[connected components]] of $X$ according
+to def. \ref{ComponentsConnected} agree
+with the path-connected components according to def. \ref{ConnectedPath}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A path connected component is always connected by lemma \ref{ConnectedPathConnectedSpace},
+and in a locally path-connected space is it also open (lemma \ref{InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen}).
+This means that the path-connected components are also connected components.
+
+Conversely let $U$ be a connected component. It is now sufficient to see that this is
+path-connected. Suppose it were not, then it would be covered by
+more than one disjoint non-empty path-connected components.
+But by lemma \ref{InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen} these
+would be all open. This would be in contradiction with the assumption that
+$U$ is connected. Hence we have a [[proof by contradiction]].
+
+=--
+
+
 
 $\,$
 
@@ -13826,11 +14081,12 @@ $$
 $$
 
 It is clear that this continuous function is a [[bijection]]. Hence to show that it is a
-[[homeomorphism]], it is now sufficient to show that this is an [[open map]] (by [this prop.](Introduction+to+Topology+--+1#HomeoContinuousOpenBijection)).
+[[homeomorphism]], it is now sufficient to show that this is an [[open map]] 
+(by prop. \ref{HomeoContinuousOpenBijection}).
 
-So let $O$  be an subset in the quotient space which is open. By definition of the
+So let $O$  be a subset in the quotient space which is open. By definition of the
 [[quotient topology]] this means equivalently that its restriction $O_i$ to $U_i \times k^n$
-is open for each $i \in I$. Since the $\phi_i$ are homeomorphsms, it follows that the
+is open for each $i \in I$. Since the $\phi_i$ are [[homeomorphisms]], it follows that the
 images $\phi_i(O_i)  \subset  E\vert_{U_ i}$ are open.
 By the nature of the [[subspace topology]], this means that these images are open also in $E$.
 Therefore also the union $f(O) = \underset{i \in I}{\cup} \phi_i(O_i)$ is open.
@@ -13878,7 +14134,7 @@ $$
   \,.
 $$
 
-Define a [[Cech cohomology]] cocycle (remark \ref{CechCoycleCondition}) on this cover by
+Define a [[Cech cohomology]] cocycle (def. \ref{CocycleCech}) on this cover by
 
 $$
   \array{
@@ -13902,9 +14158,9 @@ $$
 which is clearly satisfied.
 
 
-Accordingly by example \ref{TopologicalVectorBundleFromCechCocycle} these functions define a vector bundle.
+Accordingly, by example \ref{TopologicalVectorBundleFromCechCocycle} these functions define a vector bundle.
 
-This is the _[[Moebius strip]]_
+This is called the _[[Moebius strip]]_
 
 =--
 
@@ -14181,14 +14437,15 @@ Let $X$ be a [[topological space]] and let $c_1, c_2 \in C^1(X, \underline{GL(k)
 
 1. $\{U_i \subset X\}_{i \in I}$ and $\{U'_i \subset X\}_{i' \in I'}$ two [[open covers]],
 
-1. $\{g_{i j} \colon U_i \cap U_j \to GL(k,n_)\}_{i,j \in I}$ and $\{g_'_{i',j'} \colon U'_{i'} \cap U'_{j'} \to GL(n',k) \}_{i', j'}$  the corrsponding component functions.
+1. $\{g_{i j} \colon U_i \cap U_j \to GL(k,n_)\}_{i,j \in I}$ 
+and $\{g_'_{i',j'} \colon U'_{i'} \cap U'_{j'} \to GL(n',k) \}_{i', j'}$  the corresponding component functions.
 
 
 Then a _[[coboundary]]_  between these two cocycles is
 
 1. the condition that $n = n'$,
 
-1. an [[open cover]] $\{V_\alpha \subset X\}_{\alpha \in A}$,
+1. an [[open cover]] $\{V_\alpha \subset X\}_{\alpha \in A}\,$,
 
 1. [[functions]] $\phi \colon A \to I$ and $\phi' \colon A \to J$ such that $\underset{\alpha \in A}{\forall}\left( \left( V_\alpha \subset U_{\phi(\alpha)} \right) \,\text{and}\, \left( V_\alpha \subset U'_{\phi'(\alpha)} \right) \right)$
 
@@ -14222,7 +14479,7 @@ Say that two Cech cocycles are _cohomologous_ if there exists a coboundary betwe
 **([[refinement]] of a [[Cech  cohomology|Cech]] [[cocycle]] is a [[coboundary]])**
 
 Let $X$ be a [[topological space]] and let $c \in C^1(X, \underline{GL(k)})$ be a Cech cocycle as in def. \ref{CocycleCech},
-with respect to some open cover $\{U_i \subset X\}_{i \in I}$ given by component functions $\{g_{i j}\}_{i,j \in I}$.
+with respect to some open cover $\{U_i \subset X\}_{i \in I}$, given by component functions $\{g_{i j}\}_{i,j \in I}$.
 
 Then for $\{V_\alpha \subset X\}_{\alpha \in A}$ a [[refinement]] of the given open cover, hence an open cover such that
 there exists a [[function]] $\phi \colon A \to I$ with $\underset{\alpha \in A}{\forall}\left( V\alpha \subset U_{\phi(\alpha)}  \right)$,
@@ -14276,7 +14533,8 @@ according to def. \ref{CoboundaryCech}.
 ###### Proof
 
 By example \ref{FinerCoverCech} we may assume without restriction that the two Cech cocycles are
-defined with respect to the same open cover $\{U_i \subset X\}_{i \in I}$ (for if they are not, then both are cohomologous to
+defined with respect to the same open cover $\{U_i \subset X\}_{i \in I}$ 
+(for if they are not, then by example \ref{FinerCoverCech} both are cohomologous to
 cocycles on a joint refinement of the original covers and we may argue with these).
 
 Accordingly, by example \ref{TopologicalVectorBundleFromCechCocycle} the two bundles $E(c_1)$ and $E(c_2)$
@@ -14305,7 +14563,7 @@ $$
   \array{
     U_i \times k^n &\underoverset{\simeq}{\phi^1_i}{\longrightarrow}& E(c_1)\vert_{U_i}
     \\
-    {}^{\mathllap{f_i}}\downarrow && \downarrow^{\mathrlap{ f }}
+    {}^{\mathllap{f_i}}\downarrow && \downarrow^{\mathrlap{ f\vert_{U_i} }}
     \\
     U_i \times k^n &\underoverset{\phi^2_i}{\simeq}{\longrightarrow}& E(c_2)\vert_{U_i}
   }
@@ -14324,7 +14582,7 @@ $$
     \\
     {}^{\mathllap{f_i}}\downarrow
       &&
-    \downarrow^{\mathrlap{ f }}
+    \downarrow^{\mathrlap{ f\vert_{U_i \cap U_j} }}
       &&
     \downarrow^{\mathrlap{ f_j }}
     \\
@@ -14381,7 +14639,7 @@ _[[Cech cohomology]] of $X$ in degree 1 with [[coefficients]] in $\underline{GL(
 
 +-- {: .num_prop #TopologicalVectorBundlesCharacterizedByCechCohomology}
 ###### Proposition
-**([[Cech cohomology]] computed [[isomorphism classes]] of [[topological vector bundle]] )
+**([[Cech cohomology]] computes [[isomorphism classes]] of [[topological vector bundle]])
 
 Let $X$ be a [[topological space]].
 
@@ -14445,7 +14703,7 @@ then $f$ is already an isomorphism of vector bundles.
 ###### Proof
 
 It is clear that $f$ has an [[inverse function]]
-of underlying sets $f^{-1} \colon E_2 \to _E_1$ which is a function over $X$: Over each $x \in X$
+of underlying sets $f^{-1} \colon E_2 \to E_1$ which is a function over $X$: Over each $x \in X$
 it it the linear inverse $(f\vert_x)^{-1} \colon (E_2)_x \to (E_1)_x$.
 
 What we need to show is that this is a continuous function.
@@ -14499,7 +14757,7 @@ $$
 $$
 
 Moreover since $k^n$ is [[locally compact topological space|locally compact]] (as every [[metric space]]),
-the [[mapping space]] [[adjunction]] says (by [this prop.](Introduction+to+Topology+--+1#UniversalPropertyOfMappingSpace)) that there is a continuous function
+the [[mapping space]] [[adjunction]] says (by prop. \ref{UniversalPropertyOfMappingSpace}) that there is a continuous function
 
 $$
   \tilde h_i
@@ -14709,7 +14967,7 @@ The "local" [[topological properties]] of Euclidean space are inherited by local
 
 +-- {: .num_prop #LocalPropertiesOfLocallyEuclideanSpace}
 ###### Proposition
-**([[locally Euclidean spaces]] are $T_1$-[[separation axiom|separated]], [[sober topological space|sober]] and [[locally compact topological space|locally compact]])**
+**([[locally Euclidean spaces]] are $T_1$-[[separation axiom|separated]], [[sober topological space|sober]] and [[locally compact topological space|locally compact]], [[locally connected topological space|locally connected]] and [[locally path-connected topological space]])**
 
 Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}). Then
 
@@ -14718,6 +14976,10 @@ Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}). The
 1. $X$ is [[sober topological space|sober]] (def. \ref{Sober});
 
 1. $X$ is [[locally compact topological space|locally compact]] according to def. \ref{LocalCompactnessViaCompactNeighbourhoodBase}.
+
+1, $X$ is [[locally connected topological space|locally connected]] (def. \ref{LocallyConnected}),
+
+1. $X$ is [[locally path-connected topological space|locally path-connected]] (def. \ref{PathConnectedLocally}).
 
 =--
 
@@ -14756,6 +15018,21 @@ By assumption there exists a Euclidean open neighbourhood $\mathbb{R}^n \underov
 
 Since Euclidean spaces are locally compact, there exists a compact neighbourhood $K_{\phi^{-1}(x)} \subset \mathbb{R}^n$ (for instance a sufficiently small [[closed ball]] around $x$, which is compact by the [[Heine-Borel theorem]], prop. \ref{BorelHeine}). Now since [[continuous images of compact spaces are compact]], it follows that also $\phi(K) \subset X$ is a compact neighbourhood.
 
+Regarding the last two statements: 
+
+We need to show that for every point $x \in X$ and every [neighbourhood $U_x \supset \{x\}$
+there exists a neighbourhood $C_x \subset U_x$ which is [[connected topological space|connected]]
+and a eighbourhood $PC_x \subset U_x$ which is [[path-connected topological space|path-connected]]. 
+
+By local Euclideanness there exists a chart $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} V_x \subset X$.
+Since [[Euclidean space]] is locally connected and locally path-connected, there is a connected and a path-connected
+neighbourhood of the pre-image $\phi^{-1}(x)$ contained in the pre-image $\phi^{-1}( U_x \cap V_x )$.
+Since continuous images of connected spaces 
+are connected (prop. \ref{ContinuousImagesOfConnectedSpacesAreConnected}), and 
+since continuous images of path-connected spaces
+are path-connected (prop. \ref{PathConnectedContinuousImage}), the images of these neighbourhoods under $\phi$ are neighbourhoods of $x$ as required.
+
+
 =--
 
 But the "global" topological properties of Euclidean space are not generally inherited by locally Euclidean spaces. This sounds obvious, but notice that also Hausdorff-ness is a "global property":
@@ -14784,8 +15061,7 @@ An example of a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) w
 **([[connected topological space|connected]] [[locally Euclidean spaces]] are [[path-connected topological space|path-connected]])**
 
 A [[locally Euclidean space]] $(X,\tau)$ (def. \ref{LocallyEuclideanSpace})
-which is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}) is also [[path-connected topological space|path-connected]],
-in that for $x, y \in X$ any two points, then there exists a [[continuous function]]
+which is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}) is also [[path-connected topological space|path-connected]], in that for $x, y \in X$ any two points, then there exists a [[continuous function]]
 
 $$
   \gamma \;\colon\; [0,1] \longrightarrow (X,\tau)
