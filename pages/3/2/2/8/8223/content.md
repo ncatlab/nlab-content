@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -8,6 +7,7 @@
 =--
 =--
 =--
+
 
 
 
@@ -24,22 +24,31 @@ This article is a modest bridge, indicating that the _[[category]] of [[graphs]]
 
 ## Simple graphs as relations 
 
-By a **simple [[graph]]**, we mean a [[set]] $V$ equipped with a [[symmetric relation|symmetric]] [[reflexive relation|reflexive]] [[relation]] $E$. [[homomorphism|Morphisms]] between simple graphs are [[functions]] which preserve the given relations. Elements of $V$ are called _vertices_. Write $E(x, y)$ to say $(x, y) \in E$. 
+By a **simple [[graph]]**, we mean a [[set]] $V$ whose elements are called *vertices*, together with a collection of 2-element subsets $\{x, y\}$ of $V$; these are called *edges* of the graph. 
 
-When drawing graphs, we put an edge between vertices $x$, $y$ iff $x \neq y$ and $E(x, y)$. In particular, we will not bother drawing an edge between $x$ and itself; we can think of it as tacitly there if we like. Perhaps better yet, that tacit edge can be thought of as a path of length $0$ from $x$ to itself (and who bothers drawing a path of length $0$?). In any case, it is clear that there is a natural bijection between 
+There are various ways of forming a category of simple graphs. Perhaps the most straightforward is to define a morphism of graphs $G \to H$ to be a function $f: V \to W$ between the vertex sets to be a graph morphism if $\{f(x), f(y)\}$ is an edge of $H$ whenever $\{x, y\}$ is an edge of $G$. 
 
-* simple graph structures on $V$ in the graph-theorist's sense (i.e., graphs that are undirected, loop-free, and with at most one edge between two vertices), and 
+Another option -- and this is the one chosen for this article -- starts by regarding a simple graph as carrying the same information as a set $V$ equipped with a [[symmetric relation|symmetric]] [[reflexive relation|reflexive]] [[relation]] $E$. Indeed, such a relation determines (and is uniquely determined by) a simple graph $G$ where for given vertices $x, y \in V$, there is an edge $\{x, y\}$ between $x$ and $y$ in $G$ iff both $(x, y) \in E$ and $x \neq y$. We will write $E(x, y)$ to mean $(x, y) \in E$. 
 
-* reflexive symmetric relations on $V$; 
+Then, under the relational formulation, we define a morphism $(V, E) \to (W, F)$ between simple graphs straightforwardly, as a function $f: V \to W$ which preserves the reflexive symmetric relations, i.e., writing $E(x, y)$ to say $(x, y) \in E$, that $E(x, y)$ implies $F(f(x), f(y))$. One reason for preferring this notion of morphism is that it allows, for example, consideration of arbitrary edge contractions of a simple graph as quotients in the category (cf. [[graph minor]]), something that is not possible under the prior notion of morphism. 
 
-thus we are within our rights to identify these two concepts. 
+Thus we will adopt the latter notion of morphism which takes reflexive symmetric relations $E$ as primary. The resulting [[category]] of simple graphs is denoted by $SimpGph$. 
 
-This maneuver allows a simple definition of [[morphism]] as a [[function]] (between the sets of vertices) that preserves the edge relation:
-$$ (x,y) \in E_G \;\Rightarrow\; (f(x),f(y)) \in E_H .$$
+Note that graphs and their morphisms can also be understood in functorial language, by regarding simple graphs as special types of [[presheaves]], as follows. Let $C$ be the category of sets $1 \coloneqq \{\ast\}$ and $2 \coloneqq \{s, t\}$ and functions between them. Then a presheaf $X: C^{op} \to Set$ is given by sets $V = X(1)$ and $E = X(2)$ and maps 
 
-This then includes natural operations like edge contractions as quotients. Namely, if $f \colon G \to H$ is a morphism as defined above, and if we have $G(x, y)$ and $f(x) = f(y) = v$, we still have $H(f(x), f(y))$ by default, so we can think of $f$ as contracting the edge between $x$ and $y$ in $G$ down to an edge of length $0$ between $v$ and itself in $H$. 
+* $d_0: X(2) \stackrel{X(\ast \mapsto s)}{\to} X(1)$ (source map), 
 
-The [[category]] of simple graphs is denoted by $SimpGph$. 
+* $d_1 = X(2) \stackrel{X(\ast \mapsto t)}{\to} X(1)$ (target map), 
+
+* $i: X(1) \stackrel{X(s, t \mapsto \ast)}{\to} X(2)$ (cf. reflexivity), 
+
+* $\sigma: X(2) \stackrel{X(s \mapsto t, t \mapsto s)}{\to} X(2)$ (cf. symmetry). 
+
+Simple graphs can then be regarded [[equivalence|equivalently]] as such presheaves where the map 
+
+$$\langle d_0, d_1 \rangle: X(2) \to X(1) \times X(1)$$ 
+
+is a [[monomorphism]]. In that case, a morphism of simple graphs amounts to a [[natural transformation]] between such presheaves. 
 
 
 ## Properties of $SimpGph$ 
@@ -53,15 +62,15 @@ $SimpGph$ is a [[Grothendieck quasitopos]]. In particular, it is a [[regular cat
 
 +-- {: .proof} 
 ###### Proof 
-(See also [Adamek and Herrlich](#AdamHerr).) Let $C$ be the category of sets (or cardinality) $1$ and $2$ and functions between them. A presheaf on $C$ is a directed reflexive (multi)graph equipped with a direction-reversing involution on the set of edges. For this presheaf topos, there is just one nontrivial $\neg\neg$-dense sieve, namely the inclusion 
+(See also [Adamek and Herrlich](#AdamHerr).) As above, let $C$ be the category of sets (or cardinality) $1$ and $2$ and functions between them, and regard the category of simple graphs as a full subcategory of the presheaf [[topos]] $Set^{C^{op}}$. For this presheaf topos, there is just one nontrivial $\neg\neg$-dense sieve, namely the inclusion 
 
-$$(s, t): \hom(-, 1) + \hom(-, 1) \to \hom(-, 2)$$ 
+$$(\hom(-, s), \hom(-, t)): \hom(-, 1) + \hom(-, 1) \to \hom(-, 2)$$ 
 
 and so the category of $\neg\neg$-[[separated presheaves]] is equivalent to the category of presheaves $X$ such that the induced map 
 
 $$X(2) \cong Set^{C^{op}}(\hom(-, 2), X) \stackrel{(s, t)^\ast}{\to} Set^{C^{op}}(\hom(-, 1) + \hom(-, 1), X) \cong X(1) \times X(1),$$ 
 
-which is the source-target pairing $X(2) \to X(1) \times X(1)$, is monic. Such a structure is tantamount to a set $V = X(1)$ equipped with a reflexive symmetric binary relation. On the other hand, a Grothendieck quasitopos is, essentially by definition, the category of separated presheaves for a topology on a presheaf topos, in this case the $\neg\neg$-topology. 
+which is the source-target pairing $X(2) \to X(1) \times X(1)$, is monic. In other words, a simple graph in this language is exactly a separated presheaf. On the other hand, a Grothendieck quasitopos is, essentially by definition, the category of separated presheaves for a topology on a presheaf topos, in this case the $\neg\neg$-topology. 
 
 Being a quasitopos with small coproducts, it is $\infty$-extensive provided that coproducts are disjoint. However, this is trivial to check (it even suffices to check, according to [[Elephant]] 2.6.5, that $0 \to 1$ is a [[regular monomorphism]], or that $1 + 1$ is a disjoint coproduct, which it obviously is). 
 =-- 
