@@ -26,6 +26,10 @@
 
 _Adjoint logic_ or _adjoint type theory_ is [[formal logic]] or [[type theory]] which natively expresses [[adjunctions]] of [[modal operators]], [[adjoint modalities]].
 
+## Related pages
+
+* [temporal logic](temporal+logic#temporal_logic_in_terms_of_adjoints)
+
 ## References
 
 * [[Nick Benton]], [[Philip Wadler]], _Linear logic, monads and the lambda calculus_, In IEEE Symposium on Logic in Computer Science. IEEE Computer Society Press, 1996.
