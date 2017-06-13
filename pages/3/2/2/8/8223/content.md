@@ -34,7 +34,7 @@ There are various ways of forming a category of simple graphs. Perhaps the most 
 
 Another option -- and this is the one chosen for this article -- starts by regarding a simple graph as carrying the same information as a set $V$ equipped with a [[symmetric relation|symmetric]] [[reflexive relation|reflexive]] [[relation]] $E$. Indeed, such a relation determines (and is uniquely determined by) a simple graph $G$ where for given vertices $x, y \in V$, there is an edge $\{x, y\}$ between $x$ and $y$ in $G$ iff both $(x, y) \in E$ and $x \neq y$. We will write $E(x, y)$ to mean $(x, y) \in E$. 
 
-Then, under the relational formulation, we would define a morphism $(V, E) \to (W, F)$ between simple graphs straightforwardly[^1] as a function $f: V \to W$ that preserves the relevant structure, i.e., writing $E(x, y)$ to say $(x, y) \in E$, that $E(x, y)$ implies $F(f(x), f(y))$. One reason for preferring this notion of morphism is that it allows, for example, consideration of arbitrary edge contractions of a simple graph as [[quotients]] in the category (cf. [[graph minor]]), something that is not possible under the prior notion of morphism. 
+Then, under the relational formulation, we define a morphism $(V, E) \to (W, F)$ between simple graphs straightforwardly[^1] as a function $f: V \to W$ that preserves the relevant structure, i.e., that $E(x, y)$ implies $F(f(x), f(y))$. One reason for preferring this notion of morphism is that it allows, for example, consideration of arbitrary edge contractions of a simple graph as [[quotients]] in the category (cf. [[graph minor]]), something that is not possible under the prior notion of morphism. 
 
 [^1]: In other words, the usual notion of morphism between structures or models as in [[model theory]]. 
 
