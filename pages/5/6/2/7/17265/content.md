@@ -1758,7 +1758,7 @@ Theorem \ref{TopQuillenModelStructure} in itself implies only that every topolog
 +-- {: .num_prop #Properness}
 ###### Proposition
 
-The model categories $Top_{Quillen}$ and $(Top^{\ast/})_{Quillen}$  [[proper model categories]].
+The model categories $Top_{Quillen}$ and $(Top^{\ast/})_{Quillen}$ are [[proper model categories]].
 
 =--
 
