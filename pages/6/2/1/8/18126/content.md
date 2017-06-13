@@ -13508,7 +13508,7 @@ on [[projective spaces]]:
 **(topological [[projective space]])**
 
 Let $k$ be a [[topological field]] (def. \ref{TopologicalRing})
-and $n \in \mathbb{N}$. Consider the [[product topological space]] $k^{n+1} \coloneqq \underset{\{1,\cdots, n\}}{\prod} k$,
+and $n \in \mathbb{N}$. Consider the [[product topological space]] $k^{n+1} \coloneqq \underset{\{1,\cdots, n+1\}}{\prod} k$,
 let $k^{n+1} \setminus \{0\} \subset k^{n+1}$ be the [[topological subspace]] which is the [[complement]] of the origin, and consider on its underlying set the [[equivalence relation]] which identifies two points if they differ by [[multiplication]] with some $c \in k$ (necessarily non-zero):
 
 $$
@@ -13588,7 +13588,7 @@ To see that this is an open cover:
 1. This is a cover because with the orgin removed in $k^n \setminus \{0\}$ at every point $[x_1: \cdots : x_{n+1}]$
    at least one of the $x_i$ has to be non-vanishing.
 
-1. These subsets are open in the [[quotient topology]] $kP^n = (k^n \setminus \{0\})/\sim$, since their [[pre-image]] under the quotient co-projection $k^{n+1} \setminus \{0\} \to k P^n$ coincides with the pre-image $pr_i^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n\}}{\prod} k$.
+1. These subsets are open in the [[quotient topology]] $kP^n = (k^n \setminus \{0\})/\sim$, since their [[pre-image]] under the quotient co-projection $k^{n+1} \setminus \{0\} \to k P^n$ coincides with the pre-image $pr_i^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n+1\}}{\prod} k$.
 
 =--
 
@@ -13714,7 +13714,7 @@ For $n \in \mathbb{N}$, regard the [[general linear group]] $GL(n,k)$
 as a [[topological group]] with its standard [[topological space|topology]],
 given as the [[Euclidean space|Euclidean]] [[subspace topology]]
 via $GL(n,k) \subset Mat_{n \times n}(k) \simeq k^{(n^2)}$ or as the
-or as the subspace topology $GL(n,k) \subset Maps(k^n, k^n)$ of the [[compact-open topology]] on the [[mapping space]].
+subspace topology $GL(n,k) \subset Maps(k^n, k^n)$ of the [[compact-open topology]] on the [[mapping space]].
 (That these topologies coincide is the statement of [this prop.](general+linear+group#AsSubspaceOfTheMappingSpace).
 
 For $X$ a [[topological space]], we write
@@ -13750,7 +13750,7 @@ for the restriction of the continuous function from $U$ to $U'$.
 **([[sheaf]] of [[groups]])**
 
 In the language of [[category theory]] the assignment $\underline{GL(n,k)}$
-from def. \ref{ContinuousFunctionWithValuesInGLn} of continuous functions to open subsets
+from def. \ref{ContinuousFunctionWithValuesInGLn} of sets continuous functions to open subsets
 and the restriction operations between these is called a _[[sheaf]] of groups
 on the [[site of open subsets]]_ of $X$.
 
@@ -13975,7 +13975,8 @@ $$(U_i \cap U_j) \times V \overset{(\langle incl, g_{i j} \rangle) \times V}{\to
 
 =--
 
-In fact, extracting transition functions from a vector bundle by def. \ref{TransitionFunctions} and constructing a vector bundle from Cech coycle data as above are operations that are inverse to each other, up to [[isomorphism]].
+In fact, extracting transition functions from a vector bundle by def. \ref{TransitionFunctions} 
+and constructing a vector bundle from Cech cocycle data as above are operations that are inverse to each other, up to [[isomorphism]].
 
 +-- {: .num_prop #FromTransitionFunctionsReconstructVectorBundle}
 ###### Proposition
@@ -14118,49 +14119,51 @@ $$
   \mathbb{R}^2
 $$
 
-be the [[circle]] with its  [[Euclidean space|Euclidean]] [[subspace]] [[metric topology]].
+be the  [[circle]] with its  [[Euclidean space|Euclidean]] [[subspace]] [[metric topology]].
 Consider the [[open cover]]
 
 $$
   \left\{
-    U_i \subset S^1
-  \right\}_{i \in \{+,-\}}
+    U_n \subset S^1
+  \right\}_{n \in \{0,1,2\}}
 $$
 
-whose two elements are the [[complements]] of two antipodal points
+with
 
 $$
-  U_\pm \coloneqq S^1 \setminus \{(\pm 1,0)\}
-  \,.
+  U_n \coloneqq \left\{ (cos(\alpha), sin(\beta)) \;\vert\; n \frac{2 \pi }{3} - \epsilon \lt \alpha \lt (n+1) \frac{2\pi }{3} + \epsilon  \right\}
 $$
 
-Define a [[Cech cohomology]] cocycle (def. \ref{CocycleCech}) on this cover by
+for any $\epsilon \in (0,2\pi/6)$.
+
+
+Define a [[Cech cohomology]] cocycle (remark \ref{CechCoycleCondition}) on this cover by
 
 $$
-  \array{
-    U_+ \cap U_- &\overset{ g_{\pm \mp} }{\longrightarrow}& GL(1,\mathbb{R})
-    \\
-    x &\mapsto& -id
-  }
+  g_{n_1 n_2} =
+  \left\{
+    \array{
+      const_{-1} & \vert & (n_1,n_2) = (0,2)
+      \\
+      const_{-1} &\vert& (n_1,n_2) = (2,0)
+      \\
+      const_1 &\vert& \text{otherwise}
+    }
+  \right.
 $$
-
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/moebiusstrip.jpg" width="200">
 </div>
 
-Since there are no non-trivial triple intersections, the only cocycle condition is
+Since there are no non-trivial triple intersections, all cocycle conditions are
+evidently satisfied.
 
-$$
-  g_{\mp \pm} g_{\pm \mp} = g_{\pm \pm} = id
-$$
+Accordingly by example \ref{TopologicalVectorBundleFromCechCocycle} these functions define a vector bundle.
 
-which is clearly satisfied.
+The total space of this bundle is [[homeomorphism|homeomorphic]] 
+to (the [[interior]], def. \ref{IntSubset} of) the  _[[Moebius strip]]_ from example \ref{SquareToCyclinderTorusAndMoebius}.
 
-
-Accordingly, by example \ref{TopologicalVectorBundleFromCechCocycle} these functions define a vector bundle.
-
-This is called the _[[Moebius strip]]_
 
 =--
 
@@ -14282,7 +14285,7 @@ For $i, j \in I$ write
 
 $$
   \array{
-    (g_i)_{i j} \oplus (g_2)_{i j}
+    (g_1)_{i j} \oplus (g_2)_{i j}
     &\colon&
     U_i \cap U_j
       &\longrightarrow&
@@ -14360,7 +14363,7 @@ $$
 
 be the pointwise [[tensor product of vector spaces]] of these transition functions
 
-Then the _tensor product bundle_ $E_1 \oplus E_2$ is the one glued from this direct sum of the transition functions (by [this construction](topological+vector+bundle#TopologicalVectorBundleFromCechCocycle)):
+Then the _tensor product bundle_ $E_1 \otimes E_2$ is the one glued from this tensor product of the transition functions (by [this construction](topological+vector+bundle#TopologicalVectorBundleFromCechCocycle)):
 
 $$
   E_1 \otimes E_2
@@ -14437,8 +14440,8 @@ Let $X$ be a [[topological space]] and let $c_1, c_2 \in C^1(X, \underline{GL(k)
 
 1. $\{U_i \subset X\}_{i \in I}$ and $\{U'_i \subset X\}_{i' \in I'}$ two [[open covers]],
 
-1. $\{g_{i j} \colon U_i \cap U_j \to GL(k,n_)\}_{i,j \in I}$ 
-and $\{g_'_{i',j'} \colon U'_{i'} \cap U'_{j'} \to GL(n',k) \}_{i', j'}$  the corresponding component functions.
+1. $\{g_{i j} \colon U_i \cap U_j \to GL(n,k)\}_{i,j \in I}$ 
+and $\{g'_{i',j'} \colon U'_{i'} \cap U'_{j'} \to GL(n',k) \}_{i', j' \in I'}$  the corresponding component functions.
 
 
 Then a _[[coboundary]]_  between these two cocycles is
@@ -14482,7 +14485,7 @@ Let $X$ be a [[topological space]] and let $c \in C^1(X, \underline{GL(k)})$ be 
 with respect to some open cover $\{U_i \subset X\}_{i \in I}$, given by component functions $\{g_{i j}\}_{i,j \in I}$.
 
 Then for $\{V_\alpha \subset X\}_{\alpha \in A}$ a [[refinement]] of the given open cover, hence an open cover such that
-there exists a [[function]] $\phi \colon A \to I$ with $\underset{\alpha \in A}{\forall}\left( V\alpha \subset U_{\phi(\alpha)}  \right)$,
+there exists a [[function]] $\phi \colon A \to I$ with $\underset{\alpha \in A}{\forall}\left( V_\alpha \subset U_{\phi(\alpha)}  \right)$,
 then
 
 $$
@@ -14663,6 +14666,106 @@ $$
 
 +-- {: .proof}
 ###### Proof
+
+First we need to see that the function is well defined, hence that if
+cocycles $c_1, c_2 \in C^1(X,\underline{GL(k)})$ are
+related by a coboundary, $c_1 \sim c_2$ (def. \ref{CoboundaryCech}),
+then the vector bundles $E(c_1)$ and $E(c_2)$ are related by an isomorphism.
+
+Let $\{V_\alpha \subset X\}_{\alpha \in A}$ be the open cover with respect to which the coboundary
+$\{\kappa_\alpha \colon V_\alpha \to GL(n,k)\}_{\alpha}$ is defined, with refining functions
+$\phi \colon A \to I$ and $\phi' \colon A \to I'$.  Let
+$\left\{ \mathbb{R}^n \underoverset{\simeq}{\psi_{\phi(\alpha)}\vert_{V_\alpha}  }{\to} E(c_1)\vert_{V_\alpha} \right\}_{\alpha \in A}$
+and $\left\{ V_\alpha \times k^n \underoverset{\simeq}{\psi'_{\phi'(\alpha)}\vert_{V_\alpha}  }{\to} E(c_2)\vert_{V_\alpha} \right\}_{\alpha \in A}$
+be the corresponding restrictions of the canonical local trivilizations of the two glued bundles.
+
+For $\alpha \in A$ define
+
+$$
+  f_\alpha \coloneqq \psi'_{\phi'(\alpha)}\vert_{V_\alpha}  \circ \kappa_\alpha \circ (\psi_{\phi(\alpha)}\vert_{V_\alpha}  )^{-1}
+  \phantom{AAAA}
+    \text{hence:}
+  \phantom{AAA}
+  \array{
+    V_\alpha \times k^n
+     &\overset{ \psi_{\phi(\alpha)}\vert_{V_\alpha} }{\longrightarrow}&
+    E(c_1)\vert_{V_\alpha}
+    \\
+    {}^{\mathllap{\kappa_\alpha}}\downarrow && \downarrow^{\mathrlap{f_\alpha}}
+    \\
+    V_\alpha \times k^n
+     &\overset{ (\psi'_{\phi'(\alpha)}\vert_{V_\alpha})^{-1} }{\longleftarrow}&
+    E(c_1)\vert_{V_\alpha}
+  }
+  \,.
+$$
+
+Observe that for $\alpha, \beta \in A$ and $x \in V_\alpha \cap V_\beta$ the coboundary condition
+implies that
+
+$$
+  f_\alpha\vert_{V_\alpha \cap V_\beta}
+  \;=\;
+  f_\beta\vert_{V_\alpha \cap V_\beta}
+$$
+
+because in the diagram
+
+$$
+  \array{
+    k^n &\overset{ g_{\phi(\alpha) \phi(\beta) }(x) }{\longrightarrow}& k^n
+    \\
+    {}^{\mathllap{\kappa_\alpha(x)}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\kappa_{\beta}(x)}}
+    \\
+    k^n &\underset{g'_{\phi'(\alpha) \phi'(\beta)}(x)  }{\longrightarrow}& k^n
+  }
+  \phantom{AAAAA}
+    =
+  \phantom{AAAAA}
+  \array{
+    k^n
+      &\overset{ \psi_{\phi(\alpha)}(x) }{\longrightarrow}&
+    E(c_1)_x
+      &\overset{ (\psi_{\phi(\beta)})^{-1}(x) }{\longrightarrow}&
+    k^n
+     \\
+    {}^{\mathllap{\kappa_\alpha(x)}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\exists !} }
+      &&
+    \downarrow^{\mathrlap{\beta_\alpha(x)}}
+    \\
+    k^n
+      &\overset{ \psi'_{\phi'(\alpha)}(x) }{\longrightarrow}&
+    E(c_2)_x
+      &\overset{ (\psi'_{\phi'(\beta)})^{-1}(x) }{\longrightarrow}&
+    k^n
+ }
+$$
+
+the vertical morphism in the middle on the right is unique, by the fact that all other
+morphisms in the diagram on the right are invertible.
+
+Therefore there is a unique vector bundle homomorphism
+
+$$
+  f\;\colon\; E(c_1) \to E(c_2)
+$$
+
+given for all $\alpha \in A$ by $f\vert_{V_\alpha} = f_\alpha$. Similarly there is a unique vector bundle
+homomorphism
+
+$$
+  f^{-1}\;\colon\; E(c_2) \to E(c_1)
+$$
+
+given for all $\alpha \in A$ by $f^{-1}\vert_{V_\alpha} = f^{-1}_\alpha$.
+Hence this is the required vector bundle isomorphism.
+
+Finally to see that the function from Cech cohomology classes to isomorphism classes of vector
+bundles thus defined is a bijection:
 
 By prop. \ref{FromTransitionFunctionsReconstructVectorBundle} the function is [[surjective function|surjective]],
 and by prop. \ref{CechCoboundaryFromIsomorphismBetweenVectoreBundles} it is injective.
