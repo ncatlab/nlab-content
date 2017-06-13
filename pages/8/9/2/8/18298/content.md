@@ -962,6 +962,7 @@ _[[Cech cohomology]] of $X$ in degree 1 with [[coefficients]] in $\underline{GL(
 
 +-- {: .num_prop}
 ###### Proposition
+**(degree-1 [[Cech cohomology]] computes [[topological vector bundles]])
 
 Let $X$ be a [[topological space]].
 
@@ -985,6 +986,106 @@ $$
 
 +-- {: .proof}
 ###### Proof
+
+First we need to see that the function is well defined, hence that if
+cocycles $c_1, c_2 \in C^1(X,\underline{GL(k)})$ are
+related by a coboundary, $c_1 \sim c_2$ (def. \ref{CoboundaryCech}),
+then the vector bundles $E(c_1)$ and $E(c_2)$ are related by an isomorphism.
+
+Let $\{V_\alpha \subset X\}_{\alpha \in A}$ be the open cover with respect to which the coboundary
+$\{\kappa_\alpha \colon V_\alpha \to GL(n,k)\}_{\alpha}$ is defined, with refining functions
+$\phi \colon A \to I$ and $\phi' \colon A \to I'$.  Let 
+$\left\{ \mathbb{R}^n \underoverset{\simeq}{\psi_{\phi(\alpha)}\vert_{V_\alpha}  }{\to} E(c_1)\vert_{V_\alpha} \right\}_{\alpha \in A}$
+and $\left\{ V_\alpha \times k^n \underoverset{\simeq}{\psi'_{\phi'(\alpha)}\vert_{V_\alpha}  }{\to} E(c_2)\vert_{V_\alpha} \right\}_{\alpha \in A}$
+be the corresponding restrictions of the canonical local trivilizations of the two glued bundles.
+
+For $\alpha \in A$ define 
+
+$$
+  f_\alpha \coloneqq \psi'_{\phi'(\alpha)}\vert_{V_\alpha}  \circ \kappa_\alpha \circ (\psi_{\phi(\alpha)}\vert_{V_\alpha}  )^{-1}
+  \phantom{AAAA}
+    \text{hence:}
+  \phantom{AAA}
+  \array{
+    V_\alpha \times k^n
+     &\overset{ \psi_{\phi(\alpha)}\vert_{V_\alpha} }{\longrightarrow}&
+    E(c_1)\vert_{V_\alpha}
+    \\
+    {}^{\mathllap{\kappa_\alpha}}\downarrow && \downarrow^{\mathrlap{f_\alpha}}
+    \\
+    V_\alpha \times k^n
+     &\overset{ (\psi'_{\phi'(\alpha)}\vert_{V_\alpha})^{-1} }{\longleftarrow}&
+    E(c_1)\vert_{V_\alpha}    
+  }
+  \,.
+$$
+
+Observe that for $\alpha, \beta \in A$ and $x \in V_\alpha \cap V_\beta$ the coboundary condition 
+implies that 
+
+$$
+  f_\alpha\vert_{V_\alpha \cap V_\beta}
+  \;=\;
+  f_\beta\vert_{V_\alpha \cap V_\beta}
+$$
+
+because in the diagram
+
+$$
+  \array{
+    k^n &\overset{ g_{\phi(\alpha) \phi(\beta) }(x) }{\longrightarrow}& k^n
+    \\
+    {}^{\mathllap{\kappa_\alpha(x)}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\kappa_{\beta}(x)}}
+    \\
+    k^n &\underset{g'_{\phi'(\alpha) \phi'(\beta)}(x)  }{\longrightarrow}& k^n
+  }
+  \phantom{AAAAA}
+    =
+  \phantom{AAAAA}
+  \array{
+    k^n
+      &\overset{ \psi_{\phi(\alpha)}(x) }{\longrightarrow}&
+    E(c_1)_x
+      &\overset{ (\psi_{\phi(\beta)})^{-1}(x) }{\longrightarrow}&
+    k^n
+     \\
+    {}^{\mathllap{\kappa_\alpha(x)}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\exists !} }
+      &&
+    \downarrow^{\mathrlap{\beta_\alpha(x)}}
+    \\
+    k^n
+      &\overset{ \psi'_{\phi'(\alpha)}(x) }{\longrightarrow}&
+    E(c_2)_x
+      &\overset{ (\psi'_{\phi'(\beta)})^{-1}(x) }{\longrightarrow}&
+    k^n
+ }
+$$
+
+the vertical morphism in the middle on the right is unique, by the fact that all other 
+morphisms in the diagram on the right are invertible.
+
+Therefore there is a unique vector bundle homomorphism
+
+$$
+  f\;\colon\; E(c_1) \to E(c_2)
+$$
+
+given for all $\alpha \in A$ by $f\vert_{V_\alpha} = f_\alpha$. Similarly there is a unique vector bundle 
+homomorphism
+
+$$
+  f^{-1}\;\colon\; E(c_2) \to E(c_1)
+$$
+
+given for all $\alpha \in A$ by $f^{-1}\vert_{V_\alpha} = f^{-1}_\alpha$. 
+Hence this is the required vector bundle isomorphism.
+
+Finally to see that the function from Cech cohomology classes to isomorphism classes of vector
+bundles thus defined is a bijection:
 
 By prop. \ref{FromTransitionFunctionsReconstructVectorBundle} the function is [[surjective function|surjective]],
 and by prop. \ref{CechCoboundaryFromIsomorphismBetweenVectoreBundles} it is injective.
