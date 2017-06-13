@@ -1,23 +1,2 @@
-$$
-  \{1\}_{k_0}
-  \times
-  \left( 
-     \underset{i \in I \setminus \{k_0\} \subset \mathbb{N}}{\prod} U_i \right)
-   \times
-  \left(
-    \underset{k \in \mathbb{N}\setminus (I \cup \{k_0\}) }{\prod} \{1,2\}
-  \right)
-  \phantom{AAA}
-  \text{and}
-  \phantom{AAA}
-  \{2\}_{k_0}
-  \times
-  \left( 
-    \underset{i \in I \setminus \{k_0\} \subset \mathbb{N}}{\prod} U_i 
-  \right)
-   \times
-  \left(
-    \underset{k \in \mathbb{N}\setminus (I\setminus \k_0 ) }{\prod} \{1,2\}
-  \right)
-  \,.
-$$
+
+abcc
