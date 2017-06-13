@@ -1,0 +1,335 @@
+
+> under construction
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+We discuss in detail the abstract concept of [[cofiber sequences]] in its explicit incarnation in [[point-set topology]].
+
+## Background
+
++-- {: .num_prop #PastingLaw}
+###### Proposition
+**([[pasting law]])**
+
+Consider a [[diagram]] in [[Top]] of the following form:
+
+$$
+  \array{
+     &\longrightarrow& &\longrightarrow&
+    \\
+    \downarrow && \downarrow &(po)& \downarrow
+    \\
+     &\longrightarrow& &\longrightarrow&   
+  }
+$$
+
+This: The total rectangle is a [[pushout]] precisely if the left square is.
+
+=--
+
++-- {: .num_lemma #ClosedSubspacesGluing}
+###### Lemma
+
+Let $X$ be a [[topological space]] and let $A,B \subset X$ be [[closed subset|closed]] [[subspaces]] such that
+
+$$
+  X = A \cup B
+  \,.
+$$
+
+Write $i_A \colon A \to X$ and $i_B \colon B \to X$ for the correspoinding inclusion [[continuous functions]]. 
+
+Then the [[commuting square]]
+
+$$
+  \array{
+     A \cap B &\longrightarrow& A
+     \\
+     \downarrow && \downarrow^{\mathrlap{i_A}}
+     \\
+     B &\underset{i_B}{\longrightarrow}& X
+  }
+$$
+
+is a [[pushout]] square in [[Top]] (see [there](Top#UniversalConstructions)).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Clearly the underlying diagram of underlying [[sets]] is a pushout in [[Set]]. Therefore (by [this prop.](Top#DescriptionOfLimitsAndColimitsInTop)) we need to show that the [[topological space|topology]] on $X$ is the [[final topology]] induced by the set of functions $\{i_A, i_B\}$, hence that 
+a [[subset]] $S \subset X$ is an [[open subset]] precisely if the [[pre-images]] (restrictions) 
+
+$$
+  i_A^{-1}(S) = S \cap A
+   \phantom{AAA}
+    \text{and}
+   \phantom{AAA}
+  i_B^{-1}(S) = S \cap B
+$$ 
+
+are open subsets of $A$ and $B$, respectively.
+
+Now by definition of the [[subspace topology]], if $S \subset X$ is open, then the intersections $A \cap S \subset A$ and $B \cap S \subset B$ are open in these subspaces.
+
+Conversely, assume that $A \cap S \subset A$ and $B \cap S \subset B$ are open. We need to show that then $S \subset X$ is open.
+
+Again by the nature of the subspace topology, that $A \cap S \subset A$ and $B \cap S \subset B$ are open means that there exist open subsets $S_A, S_B \subset X$ such that $A \cap S = A \cap S_A$ and $B \cap S = B \cap S_B$. Since $A,B \subset X$ are closed by assumption, this means that $A \setminus S, B \setminus S \subset X$ are still closed, hence that $X \setminus (A \setminus S), X \setminus (B \setminus S) \subset X$ are open.
+
+Now observe that (by [[de Morgan duality]])
+
+$$
+  \begin{aligned}
+    S 
+      & = X \setminus (X \setminus S)
+    \\
+      & = 
+    X \setminus ( (A \cup B) \setminus S )
+    \\
+      & =
+    X \setminus ( (A \setminus S) \cup (B \setminus S) )
+    \\
+     & =
+    (X \setminus (A \setminus S)) \cap (X \setminus (B \setminus S))
+    \,.
+  \end{aligned}
+$$
+
+This exhibits $S$ as the intersection of two open subsets, hence as open.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $X$ be a [[topological space]] equipped with the structure of a [[cell complex]], and let $i \colon A \hookrightarrow X$ be the inclusion of a sub-complex whish is a [[homotopy equivalence]]. Then for every [[continuous function]] $f \colon A \to Y$, the [[pushout]] $f_\ast i$ in 
+
+$$
+  \array{
+     A &\overset{f}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{i}}\downarrow &(po)& \downarrow^{\mathrlap{f_\ast i}}
+     \\
+     X &\longrightarrow&
+  }
+$$
+
+is a [[weak homotopy equivalence]].
+
+
+=--
+
+## Mapping cones
+
+Throughout, write $[0,1]$ for the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]].
+
++-- {: .num_defn #ConeCyclinder}
+###### Definition
+
+Let $X$ be a [[topological space]]. Then
+
+1. the _standard [[cylinder]]_ on $X$ is the [[product topological space]] 
+
+   $$
+     Cyl(X) \coloneqq X \times [0,1]
+   $$
+
+1, the _standard [[cone]]_ on $X$ is the [[quotient space]] ([this example](quotient space#QuotientBySubspace))
+
+   $$
+     Cone(X) \coloneqq Cyl(X) / (X \times \{0\})
+   $$
+
+   of the standard cylinder by the [[subspace]] $X \times \{0\} \subset X \times [0,1]$.
+
+   Equivalently this is the following [[pushout]] in [[Top]]
+
+   $$
+     \array{
+        X \times \{0\} &\hookrightarrow& Cyl(X)
+        \\
+        \downarrow &(po)& \downarrow
+        \\
+        \ast &\longrightarrow& Cone(X)
+     }
+   $$
+
+=--
+
+
++-- {: .num_defn #MappingConeCylinder}
+###### Definition
+
+Let $f \colon X \to Y$ be a [[continuous function]] between [[topological spaces]]. Then
+
+1. the _[[mapping cylinder]]_ of $f$ is the [[space attachment]]
+
+   $$
+     Cyl(f) \coloneqq Y \cup_f Cyl(X)
+   $$
+
+   of $Y$ with the [[cylinder]] on $X$, according to def. \ref{ConeCyclinder}, hence the following [[pushout]] in [[Top]]
+
+   $$
+     \array{
+       X &\overset{f}{\longrightarrow}& Y
+       \\
+       \downarrow &(po)& \downarrow
+       \\
+       Cyl(X) &\longrightarrow& Cyl(f) 
+     }
+   $$
+
+1. the _[[mapping cone]]_ of $f$ is the [[space attachment]]
+
+   $$
+     Cone(f) \coloneqq Y \cup_f Cone(X)
+   $$
+
+   hence the following [[pushout]] in [[Top]]:
+
+   $$
+     \array{
+       X &\overset{f}{\longrightarrow}& Y
+       \\
+       \downarrow &(po)& \downarrow
+       \\
+       Cone(X) &\longrightarrow& Cone(f)
+     }
+   $$
+
+=--
+
++-- {: .num_lemma #ForClosedImageQuotientOfMappingConeByCone}
+###### Lemma
+
+Let $f \colon X \to Y$ be a [[continuous function]] such that the [[image]] $f(X) \subset Y$ is a [[closed subset]]. 
+
+Then there is a [[homeomorphism]]
+
+$$
+  Cone(f)/Cone(X) \simeq Y / f(X)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the following [[diagram]] in [[Top]]:
+
+$$
+  \array{
+     f(X) &\longrightarrow& Y
+     \\
+     \downarrow &(po)& \downarrow
+     \\
+     f(Cone(X)) &\longrightarrow& Cone(f)
+     \\
+     \downarrow &(po)& \downarrow
+     \\
+     \ast &\longrightarrow& Cone(f)/Cone(X)
+  }
+$$
+
+Here the top square is a [[pushout]] by lemma \ref{ClosedSubspacesGluing}, while the bottom square is a pushout by def. \ref{MappingConeCylinder}. Hence the total rectangle is also a pushout, by the [[pasting law]] (prop. \ref{PastingLaw}). But that total rectangle is the defining pushout for $Y/f(X)$. Hence the statement follows by the [[universal property]] of the pushout.
+
+=--
+
+
++-- {: .num_lemma #RelativeCellComplexInclusionMappingCone}
+###### Lemma
+
+If $f \colon Y \to X$ is a [[relative cell complex]] inclusion, then 
+
+$$
+  Cone(f) \longrightarrow Y/f(X)
+$$
+
+is a [[weak homotopy equivalence]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the diagram
+
+$$
+  \array{
+     X &\overset{f}{\longrightarrow}& Y
+     \\
+     \downarrow &(po)& \downarrow
+     \\
+     Cone(X) &\longrightarrow& Cone(f)
+     \\
+     \downarrow &(po)& \downarrow
+     \\
+     \ast &\longrightarrow& Cone(f)/Cone(X)
+  }
+$$
+
+Since $f$ is a relative cell complex inclusion, so is $Cone(X) \to Cone(f)$. Since $Cone(X) \to \ast$ is a weak homotopy equivalence, so is 
+$Cone(f) \to Cone(f)/Cone(X)$. But by lemma \ref{ForClosedImageQuotientOfMappingConeByCone} there is also a homeomorphism $Cone(f)/Cone(X) \simeq Y/f(X)$.
+
+=--
+
+## Cofiber sequences
+
++-- {: .num_prop}
+###### Proposition
+
+Let $f \colon X \to Y$ be a [[continuous function]] with closed image. Write $Cone(g)$ in
+
+$$
+  \array{
+    X
+      &\overset{f}{\longrightarrow}&
+    Y
+      &\overset{g}{\longrightarrow}&
+    Cone(f)
+      &\overset{}{\longrightarrow}&
+    Cone(g)
+  }
+$$
+
+for the mapping cone of the inclusion $g$ into the mapping cone of $f$.
+
+Then there is a weak homotopy equivalence
+
+$$
+  Cone(g) \to \Sigma X
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $g \colon Y \to Cone(f)$ is a relative cell complex inclusion, lemma \ref{RelativeCellComplexInclusionMappingCone} gives that 
+
+$$
+  Cone(g) \to Cone(f)/g(Y)
+$$
+
+is a weak homotopy equivalence.  But
+
+$$
+  Cone(f)/g(Y)
+   \simeq
+  (Y \cup_f Cone(X))/Y
+   \simeq
+  Cone(X)/X
+   \simeq
+  S X
+  \,.
+$$
+
+=--
