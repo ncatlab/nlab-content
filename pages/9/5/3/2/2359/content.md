@@ -117,7 +117,7 @@ There are several [[model categories]] which exhibit [[model structures for spec
 
 The most lightweight of these is the [[Bousfield-Friedlander model structure]] of [[sequential spectrum|sequential]] [[pre-spectra]] in [[simplicial sets]] ([Bousfield-Friedlander  78](#BousfieldFriedlander78)) 
 
-Model structures on more [[highly structued spectra]] include the [[model structure on symmetric spectra]], the [[model structure on orthogonal spectra]], and ultimately the [[model structure for excisive functors]]. It is only with these model structures that the [[smash product of spectra]] is represented by a [[symmetric monoidal smash product of spectra]] even before passing to the stable homotopy category.
+Model structures on more [[highly structured spectra]] include the [[model structure on symmetric spectra]], the [[model structure on orthogonal spectra]], and ultimately the [[model structure for excisive functors]]. It is only with these model structures that the [[smash product of spectra]] is represented by a [[symmetric monoidal smash product of spectra]] even before passing to the stable homotopy category.
 
 A unified account of all thes model structures is at _[[Model categories of diagram spectra]]_.
 
