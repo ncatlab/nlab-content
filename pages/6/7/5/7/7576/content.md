@@ -34,7 +34,11 @@ One way to understand it is as a [[TQFT]]-analog of the [[M2-brane]] [[sigma-mod
 
 The notion has been introduced in 
 
+* {#NeitzkeVafa04} [[Andrew Neitzke]], [[Cumrun Vafa]], section 7 of_Topological strings and their physical applications_, [hep-th/0410178](http://xxx.lanl.gov/abs/hep-th/0410178)
+
 * [[Robbert Dijkgraaf]], [[Sergei Gukov]], [[Andrew Neitzke]], [[Cumrun Vafa]], _Topological M-theory as Unification of Form Theories of Gravity_ ([arXiv:hep-th/0411073](http://arxiv.org/abs/hep-th/0411073))
+
+
 
 Under the term "[[Z-theory]]" aspects were discussed in 
 
