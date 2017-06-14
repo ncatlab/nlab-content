@@ -178,7 +178,7 @@ $$
 ###### Definition
 **(finitely generated and finitely presented $C^\infty$-rings)**
 
-For $R$ a $C^\infty$-ring, and $I \in U(R)$ an ideal in the underlying ordinary ring, there is a canonical $C^\infty$-ring structure $R/I$ on the ordinaryy quotient ring $U(R)/I$.
+For $R$ a $C^\infty$-ring, and $I \in U(R)$ an ideal in the underlying ordinary ring, there is a canonical $C^\infty$-ring structure $R/I$ on the ordinary quotient ring $U(R)/I$.
 
 A $C^\infty$-ring $R$ is called **finitely generated** if it is of the form $C^\infty(\mathbb{R}^n)/I$ for $n \in \mathbb{N}$ and $I $ an ideal in $U(C^\infty(\mathbb{R}^n))$. 
 
