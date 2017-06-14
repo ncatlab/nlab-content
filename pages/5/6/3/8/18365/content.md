@@ -33,15 +33,15 @@ This: The total rectangle is a [[pushout]] precisely if the left square is.
 
 +-- {: .num_lemma #ClosedSubspacesGluing}
 ###### Lemma
+**([[union]] of two [[open subset|open]] or two [[closed subset|closed]] [[subspaces]] is [[pushout]])**
 
-Let $X$ be a [[topological space]] and let $A,B \subset X$ be [[closed subset|closed]] [[subspaces]] such that
+Let $X$ be a [[topological space]] and let $A,B \subset X$ be [[subspaces]] such that
 
-$$
-  X = A \cup B
-  \,.
-$$
+1. $A,B \subset X$ are both [[open subsets]] or are both [[closed subsets]];
 
-Write $i_A \colon A \to X$ and $i_B \colon B \to X$ for the correspoinding inclusion [[continuous functions]]. 
+1. they constitute a [[cover]]: $X = A \cup B$
+
+Write $i_A \colon A \to X$ and $i_B \colon B \to X$ for the corresponding inclusion [[continuous functions]]. 
 
 Then the [[commuting square]]
 
@@ -56,6 +56,22 @@ $$
 $$
 
 is a [[pushout]] square in [[Top]] (see [there](Top#UniversalConstructions)).
+
+By the [[universal property]] of the [[pushout]] this means in particular that for $Y$ any [[topological space]] then a function of underlying sets
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+is a [[continuous function]] as soon as its two restrictions
+
+$$
+  f\vert_A \;\colon\; A \longrightarrow Y
+  \phantom{AAAA}
+  f\vert_A \;\colon\; B \longrightarrow Y 
+$$
+
+are continuous.
 
 =--
 
@@ -78,6 +94,24 @@ are open subsets of $A$ and $B$, respectively.
 Now by definition of the [[subspace topology]], if $S \subset X$ is open, then the intersections $A \cap S \subset A$ and $B \cap S \subset B$ are open in these subspaces.
 
 Conversely, assume that $A \cap S \subset A$ and $B \cap S \subset B$ are open. We need to show that then $S \subset X$ is open.
+
+Consider now first the case that $A;B \subset X$ are both open open. Then by the nature of the [[subspace topology]], that $A \cap S$ is open in $A$ means that there is an open subset $S_A \subset X$ such that $A \cap S = A \cap S_A$. Since the intersection of two open subsets is open, this implies that $A \cap S_A$ and hence $A \cap S$ is open.  Similarly $B \cap S$. Therefore
+
+$$
+  \begin{aligned}
+    S 
+     & = 
+    S \cap X 
+    \\
+    & = S \cap (A \cup B) 
+    \\
+    & =  (S \cap A) \cup (S \cap B)
+  \end{aligned}
+$$
+
+is the union of two open subsets and therefore open.
+
+Now consider the case that $A,B \subset X$ are both closed subsets.
 
 Again by the nature of the subspace topology, that $A \cap S \subset A$ and $B \cap S \subset B$ are open means that there exist open subsets $S_A, S_B \subset X$ such that $A \cap S = A \cap S_A$ and $B \cap S = B \cap S_B$. Since $A,B \subset X$ are closed by assumption, this means that $A \setminus S, B \setminus S \subset X$ are still closed, hence that $X \setminus (A \setminus S), X \setminus (B \setminus S) \subset X$ are open.
 
@@ -104,10 +138,14 @@ This exhibits $S$ as the intersection of two open subsets, hence as open.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #CofibrantHomotopyEquivalencePushout}
 ###### Proposition
+**([[pushout]] of cofibrant homotopy equivalences is homotopy equivalence)
 
-Let $X$ be a [[topological space]] equipped with the structure of a [[cell complex]], and let $i \colon A \hookrightarrow X$ be the inclusion of a sub-complex whish is a [[homotopy equivalence]]. Then for every [[continuous function]] $f \colon A \to Y$, the [[pushout]] $f_\ast i$ in 
+Let $A$ be a [[topological space]] and let
+$A \hookrightarrow X$ be a [[relative cell complex]] inclusion (or more generally a closed [[Hurewicz cofibration]]) which in addition is a [[homotopy equivalence]].
+
+Then for every [[continuous function]] $f \colon A \to Y$, the [[pushout]] $f_\ast i$ in 
 
 $$
   \array{
@@ -115,14 +153,16 @@ $$
      \\
      {}^{\mathllap{i}}\downarrow &(po)& \downarrow^{\mathrlap{f_\ast i}}
      \\
-     X &\longrightarrow&
+     X &\longrightarrow& X \underset{A}{\sqcup} Y
   }
 $$
 
-is a [[weak homotopy equivalence]].
-
+is a [[homotopy equivalence]].
 
 =--
+
+This is part of the existence of the [[Strøm model structure]] on [[Top]].
+
 
 ## Mapping cones
 
