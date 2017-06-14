@@ -43,7 +43,9 @@ in $\mathcal{C}$. We say that $C$ is the [[homotopy cofiber]] of $f$.
 
 ### Presentation
 
-Under mild conditions on a [[category with weak equivalences]] presenting $\mathcal{C}$ (such as a [[model category]]), homotopy cofibers are presented by _[[mapping cones]]_. See there for more details.
+Under mild conditions on a [[category with weak equivalences]] presenting $\mathcal{C}$ (such as a [[model category]]), homotopy cofibers are presented by _[[mapping cones]]_. 
+
+Specifically for cofiber sequences of [[topological spaces]] see at _[[topological cofiber sequence]]_.
 
 ## Examples
 
