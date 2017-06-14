@@ -148,7 +148,7 @@ By the $2\pi$-periodicity of $(cos(-),sin(-))$, the image of the latter under $(
 **(quotient by a subspace)**
 
 Let $X$ be a [[topological space]] and $A \subset X$ a [[inhabited set|non-empty]] [[subset]].
-Consider the [[equivalence relation]] on $X$ which identifies all points in $A$ with each other. The resulting quotient seace (def. \ref{QuotientTopologicalSpace}) is often simply denoted $X/A$.
+Consider the [[equivalence relation]] on $X$ which identifies all points in $A$ with each other. The resulting quotient space (def. \ref{QuotientTopologicalSpace}) is often simply denoted $X/A$.
 
 Notice that $X/A$ is canonically a [[pointed topological space]], with base point the [[equivalence class]] $A/A \subset X/A$ of $A$.
 
