@@ -64,3 +64,4 @@ Semigroup Forum, Volume **68**, Issue 3, (2004),  458&#8211;-476
 
 
 [[!redirects left cancellative categories]]
+[[!redirects all arrows monic]]
