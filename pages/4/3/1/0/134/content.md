@@ -305,12 +305,134 @@ $$
 
 =--
 
-See also
++-- {: .num_example #ClosedSubspacesGluing}
+###### Example
+**([[union]] of two [[open subset|open]] or two [[closed subset|closed]] [[subspaces]] is [[pushout]])**
 
-* [[colimits of normal spaces]]
+Let $X$ be a [[topological space]] and let $A,B \subset X$ be [[subspaces]] such that
+
+1. $A,B \subset X$ are both [[open subsets]] or are both [[closed subsets]];
+
+1. they constitute a [[cover]]: $X = A \cup B$
+
+Write $i_A \colon A \to X$ and $i_B \colon B \to X$ for the corresponding inclusion [[continuous functions]]. 
+
+Then the [[commuting square]]
+
+$$
+  \array{
+     A \cap B &\longrightarrow& A
+     \\
+     \downarrow && \downarrow^{\mathrlap{i_A}}
+     \\
+     B &\underset{i_B}{\longrightarrow}& X
+  }
+$$
+
+is a [[pushout]] square in $Top$ (example \ref{PushoutInTop}).
+
+By the [[universal property]] of the [[pushout]] this means in particular that for $Y$ any [[topological space]] then a function of underlying sets
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+is a [[continuous function]] as soon as its two restrictions
+
+$$
+  f\vert_A \;\colon\; A \longrightarrow Y
+  \phantom{AAAA}
+  f\vert_A \;\colon\; B \longrightarrow Y 
+$$
+
+are continuous.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Clearly the underlying diagram of underlying [[sets]] is a pushout in [[Set]]. Therefore by prop. \ref{DescriptionOfLimitsAndColimitsInTop} we need to show that the [[topological space|topology]] on $X$ is the [[final topology]] induced by the set of functions $\{i_A, i_B\}$, hence that 
+a [[subset]] $S \subset X$ is an [[open subset]] precisely if the [[pre-images]] (restrictions) 
+
+$$
+  i_A^{-1}(S) = S \cap A
+   \phantom{AAA}
+    \text{and}
+   \phantom{AAA}
+  i_B^{-1}(S) = S \cap B
+$$ 
+
+are open subsets of $A$ and $B$, respectively.
+
+Now by definition of the [[subspace topology]], if $S \subset X$ is open, then the intersections $A \cap S \subset A$ and $B \cap S \subset B$ are open in these subspaces.
+
+Conversely, assume that $A \cap S \subset A$ and $B \cap S \subset B$ are open. We need to show that then $S \subset X$ is open.
+
+Consider now first the case that $A;B \subset X$ are both open open. Then by the nature of the [[subspace topology]], that $A \cap S$ is open in $A$ means that there is an open subset $S_A \subset X$ such that $A \cap S = A \cap S_A$. Since the intersection of two open subsets is open, this implies that $A \cap S_A$ and hence $A \cap S$ is open.  Similarly $B \cap S$. Therefore
+
+$$
+  \begin{aligned}
+    S 
+     & = 
+    S \cap X 
+    \\
+    & = S \cap (A \cup B) 
+    \\
+    & =  (S \cap A) \cup (S \cap B)
+  \end{aligned}
+$$
+
+is the union of two open subsets and therefore open.
+
+Now consider the case that $A,B \subset X$ are both closed subsets.
+
+Again by the nature of the subspace topology, that $A \cap S \subset A$ and $B \cap S \subset B$ are open means that there exist open subsets $S_A, S_B \subset X$ such that $A \cap S = A \cap S_A$ and $B \cap S = B \cap S_B$. Since $A,B \subset X$ are closed by assumption, this means that $A \setminus S, B \setminus S \subset X$ are still closed, hence that $X \setminus (A \setminus S), X \setminus (B \setminus S) \subset X$ are open.
+
+Now observe that (by [[de Morgan duality]])
+
+$$
+  \begin{aligned}
+    S 
+      & = X \setminus (X \setminus S)
+    \\
+      & = 
+    X \setminus ( (A \cup B) \setminus S )
+    \\
+      & =
+    X \setminus ( (A \setminus S) \cup (B \setminus S) )
+    \\
+     & =
+    (X \setminus (A \setminus S)) \cap (X \setminus (B \setminus S))
+    \,.
+  \end{aligned}
+$$
+
+This exhibits $S$ as the intersection of two open subsets, hence as open.
+
+=--
+
+
++-- {: .num_example #attach} 
+###### Example
+If $X, Y, Z$ are [[normal topological spaces]] and $h: X \to Z$ is a [[closed embedding of topological spaces]] and $f: X \to Y$ is a [[continuous function]], then in the [[pushout]] diagram in $Top$ (example \ref{PushoutInTop})
+
+$$\array{
+X & \stackrel{h}{\to} & Z \\ 
+\mathllap{f} \downarrow & & \downarrow \mathrlap{g} \\ 
+Y & \underset{k}{\to} & W,
+}$$
+
+the space $W$ is normal and $k: Y \to W$ is a closed embedding.
+
+=-- 
+
+For **proof** of this and related statements see at _[[colimits of normal spaces]]_.
 
 
 ### Relation with $Set$
+
+Write [[Set]] for the [[category]] of [[sets]].
 
 +-- {: .num_defn #ForgetfulFunctorFromTopToSet}
 ###### Definition
