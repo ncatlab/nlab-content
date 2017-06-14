@@ -98,15 +98,21 @@ _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially se
 
 Under the second notion of morphism (where simple graphs are identified with sets equipped with a symmetric reflexive relation), the [[category of simple graphs]] has many desirable properties (q.v.). 
 
-## Notions of subgraphs from the [[nPOV]]
+## Notions of subgraphs from the nPOV
 
-Roughly speaking, from the [[nPOV]], 
+(Insert standard graph-theoretic definitions of types of subgraph here.) 
 
-* _subgraphs_ are images of monos,
-* _induced subgraphs_ are images of regular monos,
-* the preferred synonym in the nLab for _induced subgraph_ is _full subgraph_, for brevity, and for harmony with other uses of _full_ in category theory (but also for more precise reasons).
+From the [[nPOV]], it is often possible to describe notions of subgraph in terms of types of monomorphisms in categories of graphs; for example, 
 
-The precise meaning of _subgraph_ depends on the chosen formalization of _graph_, needless to say.
+* _subgraphs_ are [[monos]], and 
+
+* _induced subgraphs_ are [[regular monos]] 
+
+in the [[category of simple graphs]], and similarly for suitable categories of other types of graph. 
+
+One synonym in the nLab for _induced subgraph_ is *full subgraph*, for brevity, and for harmony with other uses of _full_ in category theory (but also for more precise reasons).
+
+The precise meaning of _subgraph_ depends on the chosen formalization of *graph*, needless to say.
 
 ## Definition in terms of action on a set of half-edges
 
