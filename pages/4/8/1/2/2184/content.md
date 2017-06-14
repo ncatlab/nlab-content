@@ -98,6 +98,16 @@ _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially se
 
 Under the second notion of morphism (where simple graphs are identified with sets equipped with a symmetric reflexive relation), the [[category of simple graphs]] has many desirable properties (q.v.). 
 
+## Notions of subgraphs from the [[nPOV]]
+
+Roughly speaking, from the [[nPOV]], 
+
+* _subgraphs_ are images of monos,
+* _induced subgraphs_ are images of regular monos,
+* the preferred synonym in the nLab for _induced subgraph_ is _full subgraph_, for brevity, and for harmony with other uses of _full_ in category theory (but also for more precise reasons).
+
+The precise meaning of _subgraph_ depends on the chosen formalization of _graph_, needless to say.
+
 ## Definition in terms of action on a set of half-edges
 
 There is an equivalent definition of pseudograph in the above sense (i.e., of an undirected graph allowing loops and multiple edges), which replaces the set of edges by a set of **half-edges**.  In this formulation (which appears, for example, in the study of [[ribbon graphs]] and [[combinatorial maps]]), a graph is defined as a pair of sets $V$ and $H$ together with a function $s : H \to V$ and a [[fixed point]] free [[involution]] $i : H \to H$.  An equivalent but more symmetrical formulation (given in Chapter 2.1 of [Serre 1977](#Serre1977)) uses a pair of source and target functions $(s,t) : H \to V\times V$ together with a fixed point free involution $i : H \to H$ such that $s\circ i = t$ (and hence $s = t \circ i$).  Here, the set $H$ can also be seen as a set of directed edges.  In other words, a pseudograph is just a [[quiver]] equipped with a fixed point free involution on directed edges which exchanges source and target.  Note an analogy between this way of defining a pseudograph and the definition of a [[dagger category]] as a category equipped with a contravariant involution on morphisms.
