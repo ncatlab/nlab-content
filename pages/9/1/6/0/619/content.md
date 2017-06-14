@@ -122,7 +122,7 @@ See also the related discussion at [[reflective sub-(infinity,1)-category]].
 ### Exact reflective subcategories
  {#ExactReflectiveSubcategories}
 
-If the reflector (which as a [[left adjoint]] always preserves all [[colimit]]s) in addition preserves [[finite limits]], then the embedding is called _exact_ . If the categories are [[topos]]es then such embeddings are called [[geometric embedding]]s.
+If the reflector (which as a [[left adjoint]] always preserves all [[colimit]]s) in addition preserves [[finite limits]], then the embedding is called _exact_. If the categories are [[topos]]es then such embeddings are called [[geometric embedding]]s.
 
 In particular, every [[sheaf topos]] is an exact reflective subcategory of a [[category of presheaves]]
 
