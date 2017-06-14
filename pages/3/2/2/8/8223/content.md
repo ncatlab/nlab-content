@@ -294,15 +294,30 @@ Let $\mathsf{C}$ be any concrete category, let $U\colon\mathsf{C}\rightarrow\mat
 #### A remark on epi-mono-factorizations
 
 
-(under construction)
 
 
-The following is an epi-mono-factorization $f=m\circ e$ of the non-isometric strong embedding $f$ from (reftodo).
+
+##### Example of an epi-mono-factorication of a non-isometric regular monomorphism in SimpGph
+
+The following is an epi-mono-factorization $f=m\circ e$ of the non-isometric strong embedding, i.e., non-isometric regular mono $f$ given by $f u_i = v_i$ for each $i\in4$.
+
+[[!include nonisometricregular20170614]]
 
 
-(illustration.todo)
+##### Example of a non-[[regular monomorphism]] in SimpGph
+
+The morphism $f$ of SimpGph defined by the illustration on the left is a non-regular mono in SimpGph; graph-theoretically speaking, it is not a strong embedding. 
 
 
+<div style="float:left;width:4em;height:25em;margin: 10px 10px 10px 0;">
+  <svg xmlns="http://www.w3.org/2000/svg"
+       xmlns:xlink="http://www.w3.org/1999/xlink"
+       width="100%" height="100%" viewBox="0 0 400 300" >
+    <g>
+[[!include nonregularmono20170614]]
+    </g>
+  </svg>
+</div>
 
 
 #### Characterizing the classes of morphisms of the three wide subcategories
