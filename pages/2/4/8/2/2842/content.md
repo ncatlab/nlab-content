@@ -66,15 +66,12 @@ there is a homotopy $\tilde{F} \colon X\times I\to Y$ such that
 
   $$
     \array{
-       A
+       A &\overset{id_A \times const_0}{\longrightarrow}& A \times I &\overset{F}{\longrightarrow}& Y
        \\
-       {}^{\mathllap{id \times const_0}}\downarrow
+       {}^{\mathllap{i \times id_I}}\downarrow
+       && {}^{\mathllap{i \times id_I}}\downarrow & \nearrow_{\mathrlap{\tilde F}}
        \\
-       A \times I &\overset{F}{\longrightarrow}& Y
-       \\
-       {}^{\mathllap{i \times id_I}}\downarrow & \nearrow_{\mathrlap{\tilde F}}
-       \\
-       X \times I
+       X &\underset{id_X \times const_0}{\longrightarrow}& X \times I
     }
     \phantom{AAA}
       =
