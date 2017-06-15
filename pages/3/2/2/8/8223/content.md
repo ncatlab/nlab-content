@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -180,21 +179,22 @@ where
 The factorization of $f$ into $q$ followed by $i \circ a$ is the (regular epi)-mono factorization, while the factorization of $f$ into $a \circ q$ followed by $i$ is the epi-(regular mono) factorization. To round out
 the discussion, we prove that regular monos are stable under pushout (which ensures that the epi-(regular mono) factorization is an [[orthogonal factorization system]]). 
 
-### Three wide subcategories of $SimpGph$
+## Three wide subcategories of $SimpGph$
 
-In this section we will analyse and compare three wide subcategories of SimpGph. 
+In this section we will analyze and compare three wide subcategories of SimpGph. 
 Each is a [[left cancellative category]]. 
 
-In this section,  SimpGph has the same meaning as in the other sections, but there are slight notational variations, and a few other conventions, which we now list: 
+In this section,  SimpGph has the same meaning as in the other sections. 
+There are slight notational variations, and a few other conventions, which we now list.  
 
-* $\rotatebox{180}{\mathsf{T}}$ denotes falsity
-* $\mathsf{T}$ denotes truth
+* $\bot$ denotes [[false]]
+* $\mathsf{T}$ denotes [[true]]
 * $E$ is used like an infix relation-symbol, 
-* the sequent-notation $\vdash$, sometimes possibly with [[context]]s given in subscripts, is used for implications. (No ambiguity with regard to the symbol $\mathsf{T}$ for truth, nor with regard the usual symbol $\leftvdash$ to indicate left adjoints will arise.)
+* the sequent-notation $\vdash$, sometimes possibly with [[context]]s given in subscripts, is used for implications. (No ambiguity with regard to the symbol $\mathsf{T}$ for truth, nor with regard the usual symbol $\dashv$ to indicate left adjoints will arise.)
 * the usual graph-theoretic distance-function is denoted by $\mathrm{dist}_{(V,E)}\colon V\times V\rightarrow\omega$, where $\omega$ denotes the natural numbers and $(V,E)$ is usually abbreviated by the name of the graph $(V,E)$,
 * we use the taditional subobjects-are-isomorphism-classes-of-monos-convention, as in [[subobject]]
 * although there are well-documented problems with conceiving of the  [[skeleton]] as an assignation $\mathsf{CAT}\rightarrow\mathrm{CAT}$, let alone a functorial one, for brevity we formally write $\mathsf{Skeleton}(\mathsf{C})$ to denote a skeleton of a category $\mathsf{C}$
-* there is the following known (reftodo) issue in logical treatments of the language of category theory: if $f$ and $g$ are morphisms, and if $f\circ g$ is defined, i.e. if $\mathrm{cod}(g)=\mathrm{dom}(f)$, then $f\circ g = 1$ can only be interpreted as $f\circ g = 1_{\mathrm{dom}(g)}$, so in this sense writing $1_{\mathrm{dom}(g)}$ here is redundant. However, if one analyzes a logic with equality, then, if the subscript is _omitted_, the transitivity of equality would lead us to the fallacious conclusion that  _whenever_ we have  morphisms $f_0,g_0,f_1,g_1$ with $f_0\circ g_0 = 1$ and $f_1\circ g_1 = 1$, then $f_0\circ g_0 = f_1\circ g_1$. This conclusion would not have followed had we dutifully written $f_0\circ g_0 = 1_{\mathrm{dom}(g_0)}$ and $f_1\circ g_1 = 1_{\mathrm{dom}(g_1)}$ and heeded the possibility that $1_{\mathrm{dom}(g_0)}$ and $1_{\mathrm{dom}(g_0)}$ may be unequal (formally, that $\neg(1_{\mathrm{dom}(g_0)} = 1_{\mathrm{dom}(g_1)})$ is interpreted as $\rotatebox{90}{\mathsf{T}}$. For this reason, in the logical analysis below we use a signature having infinitely-many  $0$-ary function symbols denoted $1_{o_i}$.
+* there is the following known (reftodo) issue in logical treatments of the language of category theory: if $f$ and $g$ are morphisms, and if $f\circ g$ is defined, i.e. if $\mathrm{cod}(g)=\mathrm{dom}(f)$, then $f\circ g = 1$ can only be interpreted as $f\circ g = 1_{\mathrm{dom}(g)}$, so in this sense writing $1_{\mathrm{dom}(g)}$ here is redundant. However, if one analyzes a logic with equality, then, if the subscript is _omitted_, the transitivity of equality would lead us to the fallacious conclusion that  _whenever_ we have  morphisms $f_0,g_0,f_1,g_1$ with $f_0\circ g_0 = 1$ and $f_1\circ g_1 = 1$, then $f_0\circ g_0 = f_1\circ g_1$. This conclusion would not have followed had we dutifully written $f_0\circ g_0 = 1_{\mathrm{dom}(g_0)}$ and $f_1\circ g_1 = 1_{\mathrm{dom}(g_1)}$ and heeded the possibility that $1_{\mathrm{dom}(g_0)}$ and $1_{\mathrm{dom}(g_0)}$ may be unequal (formally, that $\neg(1_{\mathrm{dom}(g_0)} = 1_{\mathrm{dom}(g_1)})$ is interpreted as $\top$. For this reason, in the logical analysis below we use a signature having infinitely-many  $0$-ary function symbols denoted $1_{o_i}$.
 
 
 We recall that, by Section(reftodo), for any objects $G_0=(V_0,E_0)$ and $G_1=(V_1,E_1)$ of SimpGph, 
@@ -216,7 +216,7 @@ SimpGph.WeakEmbeddings($G_0,G_1$) $:=$  $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$ i
 
 SimpGph.StrongEmbeddings($G_0,G_1$) $:=$  $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$ is a graph-isomorphism onto its image $\}$
 
-SimpGph.IsometricEmbeddings($G_0,G_1$) $:=$ $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$ is a graph-isomorphism onto its image, and $\mathsf{T}\vdash_{x,y:V_0}$ $\mathrm{dist}_{\mathrm{im}(f)}(f(x),f(y))=\mathrm{dist}_{G_1}(f(x),f(y))$\}$.
+SimpGph.IsometricEmbeddings($G_0,G_1$) $:=$ $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$ is a graph-isomorphism onto its image, and $\mathsf{T}\vdash_{x,y:V_0}$ $\mathrm{dist}_{\mathrm{im}(f)}(f(x),f(y))=\mathrm{dist}_{G_1}(f(x),f(y))\}$.
 
 
 ##### Context for the three wide subcategories
@@ -233,16 +233,26 @@ Analyzing the above subcategories has natural connections with other parts of ca
 
 * * * (tellingly.shaped) if the hom-set Mor(SimpGph.IsometricEmbeddings($T_{\mathrm{elling}}$,G$))$ is non-empty, then $T_{\mathrm{elling}}$ and $G$ are elementarily-equivalent.
 
-Intuitively: _if_ we can prove that the graph $G$ has at least one $T_{\mathrm{elling}}$ly-shaped generalized point, where the shape coming from regular monos would not be sufficientt for the logical applications, _then_ we know it to be in the equivalence class we are interested in. 
-This is one more example of the well-known principle of characterizing some property (here: _being elementarily equivalent_) by the existence of at least one good morphism in an suitable category.
+Intuitively: if we can prove that the graph $G$ has at least one $T_{\mathrm{elling}}$ly-shaped [[generalized element]], then we know it to be in the equivalence class we are interested in. And it would not be enough for the logical application if the generalized element was "shaped" by the wide subcategory of regular monos, while it is sufficient if it is shaped by the wide subcategory having only the isometric regular monos. 
+This an example of the method of characterizing a property (here: _being elementarily equivalent_) by the existence of at least one good morphism in an suitable category.
 
-(There are versions of this for the full subcategory $\mathsf{SimpGph}_{<\omega}$ of finte graphs, in which of course, elementary equivalence is the same as isomorphism and thus is often weakened to equivalence up to some [[quantifier-rank]].)
+(There are versions of this method for the full subcategory of $SimpGph$ which contains only the _finite_ graphs. There, of course, elementary equivalence is the same as isomorphism and thus is often weakened to equivalence up to some [[quantifier-rank]], and the $T_{\mathrm{elling}$ly shaped representative graph is itself finite.)
 
-The reason for the importance of isometric regular monos for the implication (tellingly.shaped) is the use of [[Gaifman normal forms]] (GNF) of first-order formulas in its proof. Roughly speaking, isometric regular monos are guaranteed to respect a GNF, while moving along regular monos, let alone monos, may invalidate a GNF.
+The reason for the importance of _isometric_ regular monos for the implication (tellingly.shaped) is the use of [[Gaifman normal forms]] (GNF) of first-order formulas in its proof. Roughly speaking, isometric regular monos are guaranteed to respect a GNF, while moving along regular monos, let alone monos, may invalidate a GNF.
 
- To sum up, 
+While [[isometric regular monos]] have several uses, they should not only be _used_ but also be _reflected on_, in terms of their mapping properties. Category theory provides the tools for this. 
 
-* while [[isometric regular monos]] have several uses, they should not only be _used_ but also be _reflected on_, in terms of their mapping properties. Category theory provides the tools for this. 
+
+#### Structure of the analysis of the wide subcategories
+
+We structure the investigation as follows 
+
+* first, we list some evident properties of the wide subcategories
+
+* second, we systematically go through all the properties of $SimpGph$ given in the general sections of [[category of simple graphs]] and document what they imply for the wide subcategories
+
+* third, we investigate more specialized questions, in the direction of [[model theory]]
+
 
 ##### Evident properties of the wide subcategories
 
@@ -265,11 +275,12 @@ Mor(SimpGph.IsometricEmbeddings) $\subset$ Mor(SimpGph.StrongEmbeddings) $\subse
 * None of SimpGph.WeakEmbeddings, SimpGph.StrongEmbedding, SimpGph.IsometricEmbedding has any [[terminal object]].
 
 
-#### Which of the wide subcategories has all finite products
+##### How are the properties in the above sections reflected in the wide subcategories? 
 
 (under construction)
 
- 
+
+
 #### Using the concept of categories-having-images
 
 For further reference, we now recall a few basic concepts. 
@@ -324,7 +335,7 @@ We recall that SimpGph has epi-mono-factorizations (and by Section reftodo above
 
 * (epi.mono) Every morphism of SimpGph has an epi-mono-factorization. That is, for each $f\in$Mor(SimpGph)t here is a $m$ono and an $e$pi of $SimGph$ with $f=m\circ e$.
 
-We note the following evident implication:
+It follows from Proposition \ref{specificEmbeddingOfSimpGphIntoSet}:
 
 * _if_ there is a morphism $\mathrm{dom}(f)\overset{h}{\rightarrow}\mathrm{dom}(f)$ of SimpGph with 
 
@@ -332,15 +343,6 @@ We note the following evident implication:
 
 then
 $f\in\mathsf{SimpGph.StrongEmbeddings}$.
-
-<sub> 
-Proof. Let $\Gamma:\mathsf{SimpGph}\rightarrow \mathsf{Set}$ be the embedding from Proposition \ref{specificEmbeddingOfSimpGphIntoSet}. 
-By definition, $e = (Gamma(f))|_{im(f)}$, and, since $\Gamma$ is a functor, (twosided) implies
-$(\Gamma(h))\circ(\Gamma(e))=1_{\Gamma(\mathrm{dom}(f))}$
-and
-$(\Gamma(e))\circ(\Gamma(h))=1_{\Gamma(\mathrm{cod}(f))}$
-hence $\Gamma(h)$ is a graph-isomorphism $O_0\rightarrow {\rm im}(f)$, i.e. $f\in \mathsf{SimpGph.StrongEmbeddings}$.
-</sub>
 
 
 
@@ -367,11 +369,7 @@ The morphism $f$ of SimpGph defined by the illustration on the left is a non-reg
 </div>
 
 
-testing other inclusion-method: 
-
-<img src="http://ncatlab.org/nlab/files/nonregularmono20170614.jpg" width="660" >
-
-#### Remarks on (non-)axiomatizability the classes of morphisms of the three wide subcategories in the first-order logic of category theory
+#### Remarks on (non-)axiomatizability the classes of morphisms of the three wide subcategories w.r.t. first-order logic of category theory
 
 
 We use the set of variables
@@ -452,8 +450,6 @@ There arises a sub-question:
 (under construction)
 
 
-Mnemonic: str$0$ng, $1$so, $2$pi, $3$ono.
-
 ##### Axiomatizing Mor(SimpGph.IsometricEmbeddings) 
 
 Being an isometric regular mono _appears_ not to be a first-order property w.r.t. the language of 1-category theory.
@@ -473,7 +469,7 @@ Our goal is to give a proof that
 * [[Jiří Adámek]] and Horst Herrlich, _Cartesian closed categories, quasitopoi, and topological universes_. Comm. Math. Univ. Carol., Vol. 27, No. 2 (1986), 235-257. ([web](http://dml.cz/handle/10338.dmlcz/106447))
 {#AdamHerr} 
 
-* [[Hans-J&uuml;rgen Bandelt, Victor Chepoi]], Metric graph theory and geometry: a survey. Contemporary Mathematics, Volume 453, 2008, 
+* [[Hans-Jürgen Bandelt, Victor Chepoi]], Metric graph theory and geometry: a survey. Contemporary Mathematics, Volume 453, 2008, 
 {#BandeltChepoi2008}
 
 * Reinhard Diestel, Graph Theory (Second Edition), Graduate Texts in Mathematics 173, Springer (2000). 
