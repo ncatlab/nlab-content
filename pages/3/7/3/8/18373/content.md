@@ -9,8 +9,44 @@
 +-- {: .num_defn }
 ###### Definition
 
-The **infinitesimally thickened Sierpinski topos** is the topos of presheaves on the ordinal category \mathbf{3}: $\{ 0 \to 1 \to 2 \}$. The name emphasizes the view of this topos as exhibiting [[differential cohesion]] over the cohesive [[Sierpinski topos]] using the coreflective embedding $i : \mathbf{2} \hookrightarrow \mathbf{3}$ sending $0$ to $0$ and $1$ to $2$.
+The **infinitesimally thickened Sierpinski topos** is the topos of presheaves on the ordinal category $\mathbf{3}: \{ 0 \to 1 \to 2 \}$. The name emphasizes the view of this topos as exhibiting [[differential cohesion]] over the cohesive [[Sierpinski topos]] using the coreflective embedding $i : \mathbf{2} \hookrightarrow \mathbf{3}$ sending $0$ to $0$ and $1$ to $2$.
+
+The objects of the category are diagrams $A_2 \to A_1 \to A_0$ in $Set$ o and arrows are commuting squares.
 
 =--
 
 ## Properties
+
+
+### Differential cohesion
+ {#DifferentialCohesion}
+
+We can view objects of the topos as exhibiting a simple notion of differential cohesion: in $A_r \to A_{inf} \to A_p$ the $A_r$ are the "real" points, the $A_{inf}$ are the "infinitesimal" points and the $A_p$ are the "pieces", i.e., connected components.
+
+The coreflective embedding above results in an adjoint quadruple
+
+$$
+ ( i_! \dashv i^* \dashv i_* \dashv i^! )
+  :
+  Sh(\mathbf{2})
+  \stackrel{\overset{i_!}{\hookrightarrow}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\to}}{\stackrel{i^!}{\leftarrow}}}}
+
+  Sh(\mathbf{3})
+  \,.
+$$
+
+which are defined explicitly as follows:
+
+$$ i_!(A_1 \to A_0) = A_1 \to A_1 \to A_0 $$
+$$i^*(A_2 \to A_1 \to A_0) = A_2 \to A_0$$
+$$i_*(A_1 \to A_0) =  A_1 \to A_0 \to A_0$$
+$$ i^!(A_2 \to A_1 \to A_0) = A_2 \to A_1$$
+
+This gives us elementary characterizations of the various subcategories of $Sh(\mathbf{3})$ involved in differential cohesion:
+* The [[reduced objects|reduced object]] are the image of $i_!$: so they have the same real and infinitesimal points.
+* The [[coreduced objects|coreduced object]] are the image of $i_*$: pieces all consist of exactly one infinitesimal point.
+
+and the differential modalities are defined as:
+$$ \Re(A_2 \to A_1 \to A_0) = A_2 \to A_2 \to A_0$$
+$$ \Im(A_2 \to A_1 \to A_0) = A_2 \to A_0 \to A_0$$
+$$ \&(A_2 \to A_1 \to A_0) = A_2 \to A_1 \to A_1$$
