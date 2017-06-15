@@ -100,7 +100,12 @@ Under the second notion of morphism (where simple graphs are identified with set
 
 ## Notions of subgraphs from the nPOV
 
-(Insert standard graph-theoretic definitions of types of subgraph here.) 
+A usual definition of _subgraph_ in combinatorics is, roughly: _subset_. 
+More precisely, if _undirected simple graph_ means _pair $(V,E)$ of two sets, with $E\subseteq[V]^2$ any subset of the set of all two-element subsets of $V$_, then a usual meaning of _subgraph_ of $(V,E)$ is just: any pair $(W,F)$ with $W\subseteq V$, $F\subseteq E$, and[^1] $F\subseteq [W]^2$. (cf. e.g. [p. 3](#DiestelGraphTheoryFourthEd))
+In particular, such subgraph may have isolated vertices which are not isolated in the ambient graph $G$, and they need not be induced subgraphs: an _induced_ subgraph is a subgraph in the above sense for which, moreover, $F = [W]^2\cap E$. In words: the edge-set of the subgraph must contain all edges _induced_ within the ambient graph by the vertex set of the subgraph. This also happens to be the usual notion of substructure in model theory, for any relational structure. 
+Another usual notion of subgraph in combinatorics is _spanning_ subgraph. This is just any subgraph $(W,F)$ in the above sense with $W=V$. Somewhat counterintuitively (with regard to connotations of the words _spanning_ and _induced_), a _spanning_ subgraph need not be _induced_, and in fact it never is, _except_ if the subgraph is the graph itself. 
+
+[^1]: The last condition is to ensure that $(W,F)$ is itself again a graph, which would not be guaranteed if we defined subgraph to be just any pair of subsets of the respective sets $V$ and $E$. 
 
 From the [[nPOV]], it is often possible to describe notions of subgraph in terms of types of monomorphisms in categories of graphs; for example, 
 
@@ -130,7 +135,7 @@ Given a (pseudo)graph $G$ represented by $(V,H,s,i)$, the edges of $G$ are just 
 
 * **graph**
 
-  * [[omega-graph]]
+* [[omega-graph]]
 
 * [[planar graph]]
 
@@ -140,7 +145,7 @@ Given a (pseudo)graph $G$ represented by $(V,H,s,i)$, the edges of $G$ are just 
 
 * [[quiver]]
 
-  * [[n-quiver]]
+* [[n-quiver]]
 
 * [[relation]]
 
@@ -149,6 +154,10 @@ Given a (pseudo)graph $G$ represented by $(V,H,s,i)$, the edges of $G$ are just 
 * [[Feynman diagram]]
 
 ## References
+
+* E. Babson, H. Barcelo, M. de Longueville, R. Laubenbacher, A Homotopy Theory for Graphs, [arXiv:math/0403146 ](http://arxiv.org/abs/math/0403146)
+
+* {#DiestelGraphTheoryFourthEd} R. Diestel, Graph Theory, 4. ed., Springer 2010
 
 * Frank Harary (1969), _Graph Theory_, Addison-Wesley.
 
@@ -163,8 +172,6 @@ Given a (pseudo)graph $G$ represented by $(V,H,s,i)$, the edges of $G$ are just 
 * [[Ronnie Brown]], I. Morris, J. Shrimpton, and C.D. Wensley (2008), _Graphs of Morphisms of Graphs_, Electronic Journal of Combinatorics, A1 of Volume 15(1), 1--28.
 
 * [[Bill Lawvere]] (1989), _Qualitative distinctions between some toposes of generalized graphs_, in Categories in computer science and logic (Boulder, CO,   1987), volume 92 of _Contemporary Mathematics_, 261--299. American Mathematical Society, Providence, RI.
-
-* E. Babson, H. Barcelo, M. de Longueville, R. Laubenbacher, A Homotopy Theory for Graphs, [arXiv:math/0403146 ](http://arxiv.org/abs/math/0403146)
 
 Discussion of use of [[simplicial complexes]] in graph theory:
 
