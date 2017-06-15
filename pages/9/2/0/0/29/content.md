@@ -29,7 +29,7 @@ Two [[objects]] of a [[category]] are said to be _isomorphic_ if there exists an
 
 But beware that two objects may be isomorphic by more than one isomorphism. In particular a single object may be isomorphic to itself by nontrivial isomorphisms other than the [[identity morphism]]. Frequently the particular choice of isomorphism matters.
 
-Every isomrophism is in particular an [[epimorphism]] and a [[monomorphism]], but the converse need not hold.
+Every isomorphism is in particular an [[epimorphism]] and a [[monomorphism]], but the converse need not hold.
 
 Common jargon includes "is a mono" or "is monic" for "is a monomorphism", and "is an epi" or "is epic" for "is an epimorphism", and "is an iso" for "is an isomorphism".
 
