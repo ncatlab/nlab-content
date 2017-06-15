@@ -176,8 +176,14 @@ where
 
 * $i$ is given by an injection between vertex-sets and is full at the edge level, and (thus) is a [[regular mono]]. 
 
-The factorization of $f$ into $q$ followed by $i \circ a$ is the (regular epi)-mono factorization, while the factorization of $f$ into $a \circ q$ followed by $i$ is the epi-(regular mono) factorization. To round out
-the discussion, we prove that regular monos are stable under pushout (which ensures that the epi-(regular mono) factorization is an [[orthogonal factorization system]]). 
+The factorization of $f$ into $q$ followed by $i \circ a$ is the (regular epi)-mono factorization, while the factorization of $f$ into $a \circ q$ followed by $i$ is the epi-(regular mono) factorization. The fact that regular monos are stable under pushout (which ensures that the epi-(regular mono) factorization is an [[orthogonal factorization system]]) is true because $SimpGph$, being a [[quasitopos]], is a *coregular category* (meaning $SimpGph^{op}$ is [[regular category|regular]]). 
+
+In particular, we have the easy facts that 
+
+* $f$ is a mono iff $q$ is a graph isomorphism: monos in $SimpGph$ are simple graph maps that are injective on vertices and edges, 
+
+* $f$ is an epi iff $i$ is a graph isomorphism: epis in $SimpGph$ are simple graph maps that are surjective on vertices. 
+
 
 ## Three wide subcategories of $SimpGph$
 
