@@ -108,7 +108,7 @@ Every PROP defines a [[polycategory]]; see there for more. Note that PROPs are s
 
 ## References
 
-* Wee Liang Gan, _Koszul Duality for Dioperads_, [(arXiv:0201074v2)](http://arxiv.org/pdf/math/0201074v2.pdf). 
+* Wee Liang Gan, _Koszul Duality for Dioperads_, [(arXiv:0201074v2)](http://arxiv.org/abs/math/0201074). 
 {#Gan}
 
 * {#HR1} [[Philip Hackney]] and [[Marcy Robertson]], _On the Category of PROPs_, [arXiv:1207.2773v2](http://arxiv.org/pdf/1207.2773v2.pdf).
