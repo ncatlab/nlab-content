@@ -84,6 +84,17 @@ which is the source-target pairing $\langle d_0, d_1 \rangle: X(2) \to X(1) \tim
 Being a quasitopos with small coproducts, it is $\infty$-extensive provided that coproducts are disjoint. However, this is trivial to check (it even suffices to check, according to [[Elephant]] 2.6.5, that $0 \to 1$ is a [[regular monomorphism]], or that $1 + 1$ is a disjoint coproduct, which it obviously is). 
 =-- 
 
++-- {: .num_remark #quasitopos} 
+###### Remark 
+Implicit in this proof is the way in which (for example) limits of simple graphs are calculated. Since $SimpGph$ is realized as a category of separated presheaves which is a [[reflective subcategory]] of all presheaves, limits in $SimpGph$ are calculated just as they are in the presheaf category $Set^{C^{op}}$, which is to say: they are computed objectwise, at the objects $1, 2$ of $C$. 
+
+For example, consider how to construct the [[equalizer]] of a pair of graph maps $f, g: G \rightrightarrows H$. For the vertex set of the equalizer (computing the equalizer at the object $1$ of $C$), one just takes the equalizer of the functions between the vertex sets of $G$ and $H$. At the edge set level where we have maps $E = G(2) \rightrightarrows F = H(2)$: since there is at most one edge between two vertices, the maps $f(2), g(2)$ must agree on $e \in E$ provided $f(d_0 e) = g(d_0 e$ and $f(d_1 e) = g(d_1 e)$, so the equalizer graph is just the full or [[graph|induced subgraph]] of $G$ given by the equalizer vertex set. 
+
+Moreover, every induced subgraph $H \hookrightarrow G$ arises as an equalizer (consider the equalizer of the two embeddings of $G$ into the amalgamation $G +_H G$, which at the vertex level agrees with $H \hookrightarrow G$). 
+
+Of course this is elementary, but we get much more more: the quasitopos $SimpGph$ is also a [[locally cartesian closed category]], and [[dependent products]] can also be read off directly from how they work for presheaves. 
+=-- 
+
 It is easy to describe [[monomorphism|monos]] and [[epimorphism|epis]] in $SimpGph$. For, let $\Gamma = \hom(1, -): SimpGph \to Set$ be the underlying vertex-set [[forgetful functor]]. 
 
 +-- {: .num_prop #EmbeddingOfSimpGphIntoSet} 
@@ -149,7 +160,7 @@ $$\Gamma(i) = Eq(\Gamma(f), \Gamma(g))$$
 
 and at the edge level by $K(x, y) \Leftrightarrow G(i(x), i(y))$; in other words, if $x, y$ belong to $K$ and there is an edge between them in $G$, then that edge lies in $K$. To express this last condition, we say the subgraph $i$ is _full_ (at the edge level). 
 
-Thus, $i$ is a regular mono in $SimpGph$ iff both $\Gamma(i)$ is monic in $Set$ and $i$ is full at the edge level. 
+Thus, $i$ is a regular mono in $SimpGph$ iff both $\Gamma(i)$ is monic in $Set$ and $i$ is full at the edge level (see Remark \ref{quasitopos}). 
 
 The [[coequalizer]] of $f$ and $g$, say $Coeq(f, g) = q \colon H \to Q$, is given at the vertex level by 
 
