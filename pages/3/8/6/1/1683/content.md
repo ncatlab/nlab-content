@@ -101,9 +101,14 @@ The weak homotopy eqivalence $B U \to \Omega U$ is discussed in detail in
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, appendix B.2 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-Discussion of KU as a [[symmetric spectrum]] is in
+The incarnation of $KU$ and $KO$ as a [[symmetric spectrum]] is discussed in
 
 * {#Schwede12} [[Stefan Schwede]], Example I.2.10 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
+
+and the structure of a [[symmetric ring spectrum]] on $KO$ is discussed in
+
+* {#Joachim01} [[Michael Joachim]], _A symmetric ring spectrum representing
+$KO$-theory_, Topology 40 (2001) 299-308
 
 Discussion of $KO$ in analogy to the construction of [[tmf]] is in 
 
