@@ -191,4 +191,9 @@ for the category that these form.
 
 * {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
+The structure of a [[symmetric ring spectrum]] on [[KO]] is discussed in
+
+* {#Joachim01} [[Michael Joachim]], _A symmetric ring spectrum representing
+$KO$-theory_, Topology 40 (2001) 299-308
+
 [[!redirects symmetric ring spectra]]
