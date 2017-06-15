@@ -250,14 +250,13 @@ SimpGph.Monos, SimpGph.RegularMonos, SimpGph.IsometricRegularMonos has any [[ter
 
 We now explain the names of the three subcategories. 
 
-It is evident (using the functor $\Gamma$ from Proposition \ref{EmbeddingOfSimpGphIntoSet}) that the morphisms of Simp.Gph.Monos are indeed precisely the [[monos]] of SimpGph. 
+* It is evident (using the functor $\Gamma$ from Proposition \ref{EmbeddingOfSimpGphIntoSet}) that the morphisms of Simp.Gph.Monos are indeed precisely the [[monos]] of SimpGph. 
  
+* How to get from the _definition_ of SimpGph.RegularMonos given in Definition \ref{threeWideSubcategories} to [[regular monomorphism]]s? Answer: directly by definition of _graph-isomorphism_, Definition \ref{threeWideSubcategories} says that the morphisms $f$ of SimpGph.RegularMonos are those for which the vertex-set $\mathrm{im}(\Gamma(f))$, with $\Gamma$ from Proposition \ref{EmbeddingOfSimpGphIntoSet}, induces a graph isomorphic to the graph $\mathrm{dom}(f)$. Therefore, these morphisms are those injective graph homomorphisms whose image is an _induced_ subgraph of the target. Further, the term used in the nLab instead of _induced_ is _full_, (which, incidentally, was in use in mid-twentieth century graph theory, then fell out of favor), so the question reduces to why the morphisms $f$ of $SimpGph$ with the two properties that (1) $\Gamma(f)$ is injective and (2) the graph $im(f)$ is a full subgraph of $\mathrm{cod}(f)$, are the regular monos; but sufficient explanations for this _have already been given_ in Section "Equalizers and coequalizers" of this article.
 
-We note that 
+* By definition of SimpGph.IsometricRegularMono, for each morphism of that subcategory, the graph im($f$) is what in graph theory usually is called an _isometric subgraph_. 
 
-* the combinatorial definition of SimpGph.RegularMonos given in Definition \ref{threeWideSubcategories} says that these are those graph embeddings whose image is an _induced_ subgraph of the target (and the term used in the nLab instead of _induced_ is _full_, which, incidentally, was in use in mid-twentieth century graph theory, then fell out of favor), 
-* sufficient _explanations_ of why the morphisms in  SimpGph.RegularMonos are precisely the regular monos of SimpGph, whence the name, _have already been given_ in Section "Equalizers and coequalizers" of this article.
-
+Isometric subgraphs have several uses in graph-theoretical considerations, which to describe here would take us too far afield.
 
 ## References 
 
