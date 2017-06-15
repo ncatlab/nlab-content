@@ -110,6 +110,10 @@ and the structure of a [[symmetric ring spectrum]] on $KO$ is discussed in
 * {#Joachim01} [[Michael Joachim]], _A symmetric ring spectrum representing
 $KO$-theory_, Topology 40 (2001) 299-308
 
+The uniqueness of the [[E-infinity ring]] structure on $KU$ is due to
+
+* [[Andrew Baker]], [[Birgit Richter]], _$\Gamma$-cohomology of rings of numerical polynomials and $E_\infty$ structures on K-theory_ ([arXiv:math/0304473](https://arxiv.org/abs/math/0304473))
+
 Discussion of $KO$ in analogy to the construction of [[tmf]] is in 
 
 * {#Mathew13} [[Akhil Mathew]], _The homology of $tmf$_ ([arXiv:1305.6100](http://arxiv.org/abs/1305.6100))
