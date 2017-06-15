@@ -36,6 +36,8 @@ The more traditional definition, based on a traditional presentation of the [[eq
 
 * A ring object in [[Top]] is a [[topological ring]].
 
+* A ring object in [[Ho(Top)]] is an [[H-ring]].
+
 * A [[topos]] equipped with a ring object is called a [[ringed topos]], see there for more details.
 
 * The [[affine line]] (see there) is a ring object in the given ambient [[topos]].
