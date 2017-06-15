@@ -251,20 +251,12 @@ SimpGph.Monos, SimpGph.RegularMonos, SimpGph.IsometricRegularMonos has any [[ter
 We now explain the names of the three subcategories. 
 
 It is evident (using the functor $\Gamma$ from Proposition \ref{EmbeddingOfSimpGphIntoSet}) that the morphisms of Simp.Gph.Monos are indeed precisely the [[monos]] of SimpGph. 
+ 
 
-The following explanation of the name of SimpGph.RegularMonos is expressly written for readers less familiar with category theory. 
-
-We first note that 
+We note that 
 
 * the combinatorial definition of SimpGph.RegularMonos given in Definition \ref{threeWideSubcategories} says that these are those graph embeddings whose image is an _induced_ subgraph of the target (and the term used in the nLab instead of _induced_ is _full_, which, incidentally, was in use in mid-twentieth century graph theory, then fell out of favor), 
-* sufficient explanations of why the morphisms in  SimpGph.RegularMonos are precisely the regular monos of SimpGph, whence the name, _has already been given_ in Section "Equalizers and coequalizers" of this article.
-
-We nevertheless add a few explanations. The definition of a graph-isomorphism is: _graph-homomorphism which has an inverse_. 
-Therefore, by definition, if $G_0\overset{f}{\rightarrow}G_1$ is a morphism of SimpGph.RegularMonos, then there is a graph-homomorphism $g\colon \mathrm{im}(f)\rightarrow \dom(f)=G_0$ such that $f\circ g$ and $g\circ f$ are the identities on their respective domains.
-
-(under construction)
-
-
+* sufficient _explanations_ of why the morphisms in  SimpGph.RegularMonos are precisely the regular monos of SimpGph, whence the name, _have already been given_ in Section "Equalizers and coequalizers" of this article.
 
 
 ## References 
