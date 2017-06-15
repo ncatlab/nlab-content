@@ -77,7 +77,7 @@ Review includes
 
 * {#Malkiewich11} [[Cary Malkiewich]], section 2 of _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
-In the incarnation as a [[symmetric spectrum]]:
+In the incarnation of $MO$ as a [[symmetric spectrum]] is discussed in
 
 * {#Schwede12} [[Stefan Schwede]], Example I.2.8 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
 
