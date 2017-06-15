@@ -2433,6 +2433,14 @@ Being a [[generalized (Eilenberg-Steenrod) cohomology]] theory, topological K-th
 
 The degree-0 part of this spectrum, i.e. the classifying space for degree 0 topological $K$-theory is modeled in particular by the space $Fred$ of [[Fredholm operator]]s.
 
+### Ring spectrum
+
+The [[classifying space]] $B U \times \mathbb{Z}$ for (complex) topological K-theory is an [[H-ring]] 
+(p. 205 (213 of 251) in _[[A Concise Course in Algebraic Topology]]_.)
+
+(...)
+
+
 ### Chromatic filtration
 
 [[!include chromatic tower examples - table]]
