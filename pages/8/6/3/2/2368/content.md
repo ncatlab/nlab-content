@@ -3209,9 +3209,9 @@ $$
 
 We discuss this for symmetric spectra. The proof for orthogonal spectra is of the same form.
 
-First of all, by example \ref{CoendGivesQuotientByDiagonalGroupAction} an object in $[Sym, Top^{\ast/}_{cg}]$ is equivalently a "symmetric sequence", namely a sequence of pointed topological spaces $X_k$, for $k \in \mathbb{N}$, equipped with an [[action]] of $\Sigma(k)$ (def. \ref{TopologicalDiagramCategoriesForSpectra}).
+First of all, (by [this example](Introduction+to+Stable+homotopy+theory+--+1-2#CoendGivesQuotientByDiagonalGroupAction)) an object in $[Sym, Top^{\ast/}_{cg}]$ is equivalently a "symmetric sequence", namely a sequence of pointed topological spaces $X_k$, for $k \in \mathbb{N}$, equipped with an [[action]] of $\Sigma(k)$ (def. \ref{TopologicalDiagramCategoriesForSpectra}).
 
-By corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor} and lemma \ref{FSPStructuredSphereSpectra}, the structure morphism of an $\mathbb{S}_{sym}$-[[module object]] on $X$
+By corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor} and [this lemma](Introduction+to+Stable+homotopy+theory+--+1-2#FSPStructuredSphereSpectra), the structure morphism of an $\mathbb{S}_{sym}$-[[module object]] on $X$
 
 $$
   \mathbb{S}_{sym} \otimes_{Day} X \longrightarrow X
@@ -3225,8 +3225,8 @@ $$
 
 over $Sym \times Sym$. This means equivalently that there is such a morphism for all $n_1, n_2 \in \mathbb{N}$ and that it is $\Sigma(n_1) \times \Sigma(n_2)$-equivariant.
 
-Hence it only remains to see that these natural transformations are uniquely fixed once the one for $n_1 = 1$ is given. To that end, observe that lemma \ref{FSPStructuredSphereSpectra} says that in the following [[commuting squares]] (exhibiting the action property on the level of functors with smash product, where we are notationally suppressing the [[associators]]) the left vertical morphisms are [[isomorphisms]]:
-
+Hence it only remains to see that these natural transformations are uniquely fixed once the one for $n_1 = 1$ is given. To that end, observe that [this lemma](Introduction+to+Stable+homotopy+theory+--+1-2#FSPStructuredSphereSpectra) says that in the following [[commuting squares]] (exhibiting the action property on the level of functors with smash product, where we are notationally suppressing the [[associators]]) the left vertical morphisms are [[isomorphisms]]:
+a
 $$
   \array{
     S^{n_1}\wedge S^{n_2} \wedge X_{n_3} 
@@ -3355,7 +3355,7 @@ $$
   \,.
 $$
 
-The [[Day convolution]] product appearing here is over the category $Sym$ from def. \ref{TopologicalDiagramCategoriesForSpectra}. By example \ref{CoendGivesQuotientByDiagonalGroupAction} and unwinding the definitions, this is for any two symmetric spectra $A$ and $B$ given degreewise by the [[wedge sum]] of component spaces summing to that total degree, smashed with the symmetric group with basepoint adjoined and then quotiented by the diagonal action of the symmetric group acting on the degrees separately:
+The [[Day convolution]] product appearing here is over the category $Sym$ from def. \ref{TopologicalDiagramCategoriesForSpectra}. By [this example](Introduction+to+Stable+homotopy+theory+--+1-2#CoendGivesQuotientByDiagonalGroupAction) and unwinding the definitions, this is for any two symmetric spectra $A$ and $B$ given degreewise by the [[wedge sum]] of component spaces summing to that total degree, smashed with the symmetric group with basepoint adjoined and then quotiented by the diagonal action of the symmetric group acting on the degrees separately:
 
 $$
   \begin{aligned}
