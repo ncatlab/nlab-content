@@ -29,7 +29,7 @@ The general concept of [[derived functor]] is in homological algebra usually cal
 
 ## Definition
 
-Let $\mathcal{A}$ be an [[abelian category]]. Without real restruction of generality, we may assume that $\mathcal{A} = R Mod$ is the [[category of modules]] over some [[ring]], an we will often speak in terms of this case.
+Let $\mathcal{A}$ be an [[abelian category]]. Without essential loss of generality, we may assume that $\mathcal{A} = R Mod$ is the [[category of modules]] over some [[ring]], and we will often speak in terms of this case.
 
 The category $\mathcal{A}$ embeds into its [[nLab:derived category]], the category of degreewise [[nLab:injective object|injective]] [[nLab:cochain complexes]] 
 
@@ -62,7 +62,7 @@ is called an **[[nLab:additive functor]]** if
 
 $$
 \array { x &          &            &          & y \\
-           & {}_{\mathllap{i_X}}\searrow &            & \swarrow_{\mathrlap{i_y}} \\
+           & {}_{\mathllap{i_x}}\searrow &            & \swarrow_{\mathrlap{i_y}} \\
            &          & x \oplus y \\
            & {}^{\mathllap{p_x}}\swarrow &            & \searrow^{\mathrlap{p_y}} \\
          x &          &            &          & y }
@@ -70,7 +70,7 @@ $$
 \array { F(x) &          &                                      &          & F(y) \\
               & {}_{\mathllap{i_{F(x)}}}\searrow &   & \swarrow_{\mathrlap{i_{F(y)}}} \\
               &          & F(x \oplus y) \cong F(x) \oplus F(y) \\
-              & {}^{\mathllap{p_{F(X)}}}\swarrow &                                      & \searrow^{\mathrlap{p_{F(y)}}} \\
+              & {}^{\mathllap{p_{F(x)}}}\swarrow &                                      & \searrow^{\mathrlap{p_{F(y)}}} \\
          F(x) &          &                                      &          & F(y) }
 $$
 
@@ -248,7 +248,7 @@ where
 
 * $P$ is an [[injective resolution]] functor;
 
-* $\mathcal{K}(F)$ is the prolongation of $F$ according to def. \ref{ProlongationOfFunctorToChainComplexes};
+* $\mathcal{K}^\bullet(F)$ is a prolongation of $F$ analogous to def. \ref{ProlongationOfFunctorToChainComplexes};
 
 * $H^n(-)$ is the $n$-[[chain homology]] functor. Hence
 
@@ -289,7 +289,7 @@ where
 
 * $Q$ is a [[projective resolution]] functor;
 
-* $\mathcal{K}(F)$ is the prolongation of $F$ according to def. \ref{ProlongationOfFunctorToChainComplexes};
+* $\mathcal{K}_\bullet(F)=\mathcal{K}(F)$ is the prolongation of $F$ according to def. \ref{ProlongationOfFunctorToChainComplexes};
 
 * $H_n(-)$ is the $n$-[[chain homology]] functor. Hence
 
@@ -331,14 +331,14 @@ $$
 
 We discuss the first statement, the second is formally dual. 
 
-By remark \ref{InjectiveResolutionInComponents} an injective resolution $X \stackrel{\simeq_{qi}}{\to} X^\bullet$ is equivalently an [[nLab:exact sequence]] of the form
+By [this](/nlab/show/injective+resolution#InjectiveResolutionInComponents) remark an injective resolution $X \stackrel{\simeq_{qi}}{\to} X^\bullet$ is equivalently an [[nLab:exact sequence]] of the form
 
 $$
   0 \to X \hookrightarrow X^0 \to X^1 \to \cdots
   \,.
 $$
 
-If $F$ is left exact then it preserves this excact sequence by definition of left exactness, and hence 
+If $F$ is left exact then it preserves this exact sequence by definition of left exactness, and hence 
 
 $$
   0 \to F(X) \hookrightarrow F(X^0) \to F(X^1) \to \cdots
