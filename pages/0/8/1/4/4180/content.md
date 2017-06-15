@@ -110,7 +110,7 @@ If $a \leq b$ and $x \leq y$ in an inverse semigroup, then $a x \leq b y$ and $x
 +-- {: .proof} 
 ###### Proof 
 Writing $a = e b$ for some idempotent $e$, we have $a x = e (b x)$ and so $a x \leq b x$. Similarly $b x \leq b y$, so $a x \leq b y$ by transitivity. 
-This gives $a x \leq b y$. If $x = e y$ for an idempotent $e$, then $x^\ast = (e y)^\ast = y^\ast e^\ast = y^\ast e$; this gives $x^\ast \leq y^\ast$, 
+This gives $a x \leq b y$. If $x = e y$ for an idempotent $e$, then $x^\ast = (e y)^\ast = y^\ast e^\ast$; this gives $x^\ast \leq y^\ast$, 
 =-- 
 
 +-- {: .num_cor} 
