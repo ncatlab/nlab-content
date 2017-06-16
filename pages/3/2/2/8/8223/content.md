@@ -213,15 +213,15 @@ Definition \ref{threeWideSubcategories} gives three examples of wide subcategori
 +-- {: .num_defn #threeWideSubcategories}
 ###### Definition 
 
-Let SimpGph.Monos, SimpGph.RegularMonos, and SimpGph.IsometricRegularMonos be the wide subcategories of SimpGph with the following hom-sets:
+Let MonoSimpGph, RegMonoSimpGph, and IsomeRegMonoSimpGph be the wide subcategories of SimpGph with the following hom-sets:
 
-SimpGph.Monos($G_0,G_1$) $:=$  $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: the function $f$ is injective $\}$,
+MonoSimpGph($G_0,G_1$) $:=$  $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: the function $f$ is injective $\}$,
 
-SimpGph.RegularMonos($G_0,G_1$) $:=$  $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$ is a graph-isomorphism onto its image $\}$,
+RegMonoSimpGph($G_0,G_1$) $:=$  $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$ is a graph-isomorphism onto its image $\}$,
 
-SimpGph.IsometricRegularMonos($G_0,G_1$) $:=$ $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$ is a graph-isomorphism onto its image, and, for any $x,y\in V$ we have $\mathrm{dist}_{\mathrm{im}(f)}(f(x),f(y))=\mathrm{dist}_{G_1}(f(x),f(y))\}$.
+IsomeRegMonoSimpGph($G_0,G_1$) $:=$ $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$ is a graph-isomorphism onto its image, and, for any $x,y\in V$ we have $\mathrm{dist}_{\mathrm{im}(f)}(f(x),f(y))=\mathrm{dist}_{G_1}(f(x),f(y))\}$.
 
-(Here $\mathrm{dist}_G\colon V\times V\rightarrow\omega$ denotes the function which takes any pair of vertices the length of a shortest graph-theoretic path with those endpoints.)
+(Here $\mathrm{dist}_G\colon V\times V\rightarrow\omega$ denotes the function which takes any pair of vertices to the length of a shortest graph-theoretic path with these endpoints.)
 
 
  =--
@@ -233,30 +233,42 @@ Closedness under composition of each of the three subclasses of $\mathrm{Mor}(Si
 
 Evident remarks: 
 
-* Each of SimpGph.Monos, SimpGph.RegularMonos, SimpGph.IsometricRegularMonos are [[concrete categories]]. (because of Proposition \ref{EmbeddingOfSimpGphIntoSet}) 
+* Each of MonoSimpGph, RegMonoSimpGph, IsomeRegMonoSimpGph are [[concrete categories]]. (because of Proposition \ref{EmbeddingOfSimpGphIntoSet}) 
 
 *  There are the class inclusions (of which the first would be false for multigraphs),
 
-Mor(SimpGph.IsometricRegularMonos) $\subset$ Mor(SimpGph.RegularMonos) $\subset$ Mor(SimpGph.Monos) $=$ Monos(SimpGph).
+Mor(IsomeRegMonoSimpGph) $\subset$ Mor(RegMonoSimpGph) $\subset$ Mor(MonoSimpGph) $=$ Monos(SimpGph).
 
-* Because of the latter equality, each of SimpGph.Monos, SimpGph.RegularMonos, SimpGph.IsometricRegularMonos is a [[left cancellative category]]. (And none is a groupoid or a preorder.)
+* Because of the latter equality, each of MonoSimpGph, RegMonoSimpGph, IsomeRegMonoSimpGph is a [[left cancellative category]]. (And none is a groupoid or a preorder.)
 
 
 * None of 
-SimpGph.Monos, SimpGph.RegularMonos, SimpGph.IsometricRegularMonos has any [[terminal object]].
+MonoSimpGph, RegMonoSimpGph, IsomeRegMonoSimpGph has any [[terminal object]].
 
-* The relation $(\emptyset,\emptyset)$, which is symmetric and reflexive, is the (only) initial object of each of SimpGph.Monos, SimpGph.RegularMonos, SimpGph.IsometricRegularMonos, because this is the only initial object of SimpGph. 
+* The relation $(\emptyset,\emptyset)$, which is symmetric and reflexive, is the (only) initial object of each of MonoSimpGph, RegMonoSimpGph, IsomeRegMonoSimpGph, because this is the only initial object of SimpGph. 
 
 
 We now explain the names of the three subcategories. 
 
 * It is evident (using the functor $\Gamma$ from Proposition \ref{EmbeddingOfSimpGphIntoSet}) that the morphisms of Simp.Gph.Monos are indeed precisely the [[monos]] of SimpGph. 
  
-* How to get from the _definition_ of SimpGph.RegularMonos given in Definition \ref{threeWideSubcategories} to [[regular monomorphism]]s? Answer: directly by definition of _graph-isomorphism_, Definition \ref{threeWideSubcategories} says that the morphisms $f$ of SimpGph.RegularMonos are those for which the vertex-set $\mathrm{im}(\Gamma(f))$, with $\Gamma$ from Proposition \ref{EmbeddingOfSimpGphIntoSet}, induces a graph isomorphic to the graph $\mathrm{dom}(f)$. Therefore, these morphisms are those injective graph homomorphisms whose image is an _induced_ subgraph of the target. Further, the term used in the nLab instead of _induced_ is _full_, (which, incidentally, was in use in mid-twentieth century graph theory, then fell out of favor), so the question reduces to why the morphisms $f$ of $SimpGph$ with the two properties that (1) $\Gamma(f)$ is injective and (2) the graph $im(f)$ is a full subgraph of $\mathrm{cod}(f)$, are the regular monos; but sufficient explanations for this _have already been given_ in Section "Equalizers and coequalizers" of this article.
+* How to get from the _definition_ of RegMonoSimpGph given in Definition \ref{threeWideSubcategories} to [[regular monomorphism]]s? Answer: directly by definition of _graph-isomorphism_, Definition \ref{threeWideSubcategories} says that the morphisms $f$ of RegMonoSimpGph are those for which the vertex-set $\mathrm{im}(\Gamma(f))$, with $\Gamma$ from Proposition \ref{EmbeddingOfSimpGphIntoSet}, induces a graph isomorphic to the graph $\mathrm{dom}(f)$. Therefore, these morphisms are those injective graph homomorphisms whose image is an _induced_ subgraph of the target. Further, the term used in the nLab instead of _induced_ is _full_, so the question reduces to why the morphisms $f$ of $SimpGph$ with the two properties that (1) $\Gamma(f)$ is injective and (2) the graph $im(f)$ is a full subgraph of $\mathrm{cod}(f)$, are the regular monos; but sufficient explanations for this _have already been given_ in Section "Equalizers and coequalizers" of this article.
 
-* By definition of SimpGph.IsometricRegularMono, for each morphism of that subcategory, the graph im($f$) is what in graph theory usually is called an _isometric subgraph_. 
+* By definition of IsomeRegMonoSimpGph, for each morphism of that subcategory, the graph im($f$) is what in graph theory usually is called an _isometric subgraph_. 
 
 Isometric subgraphs have several uses in graph-theoretical considerations, which to describe here would take us too far afield.
+
+The following question suggests itself:
+
+* (guiding.question) How similar are MonoSimpGph, RegMonoSimpGph, IsomeRegMonoSimpGph from a category-theoretic point of view?
+
+This can be made precise in infinitely-many ways. Here are two: 
+
+* (inequivalence) Are MonoSimpGph, RegMonoSimpGph, IsomeRegMonoSimpGph mutually in[[equivalent]]? 
+* (axiomatizability) Which of Mor(MonoSimpGph), Mor(RegMonoSimpGph), Mor(IsomeRegMonoSimpGph) are finitely axiomatizable in first-order logic of category theory? 
+
+The answer to (axiomatizability.MonoSimpGph) is evidently yes: monos are defined by a single first-order formula in the language of category theory. (And even by a Horn sequent.)
+
 
 ## References 
 
