@@ -111,9 +111,9 @@ Two [[strict categories]] $C$ and $D$ are __isomorphic__ if there exist [[strict
 
 If you think of $Cat$ as the category of (strict) categories and functors, then this is the usual notion of [[isomorphism]] in a category.  This is the most obvious notion of equivalence of categories and the first to be considered, but it is simply too strong for the purposes to which [[category theory]] is put.
 
-#### Basic examples why strict isomorphism is too strong. 
+#### Basic examples why strict isomorphism is too strong 
 
-Generally, (and to repeat what was said above), the reason to avoid isomorphisms in favor of equivalences of categories is the flexibility gained by replacing strict equations by isomorphism. 
+Generally, (and to repeat what was said above), the reason to avoid isomorphisms in favor of equivalences of categories is the flexibility gained by replacing strict equations by isomorphism.
 
 Specifically, a basic example is this: it is widely known that, given a field $K$, to most intents and purposes the abstract concept of a $2$-dimensional $K$-vector space (together with all $K$-linear maps between them) is equivalent to the concrete concept of the _dimension_ $d$ itself (together with all $2\times 2$ matrices over $K$). The functor $F$ which sends an abstract $2$-dimensional $K$-vector spaces to the _dimension_ $2$ itself (and does the usual thing to the linear maps) can be fitted into an _equivalence_ of categories, but not into an isomorphism of categories, essentially for _size_ reasons alone: the target category is a [[small category]] (and if the field is finite, even a [[finite category]]), while the source category is a [[large category]]. The source category (of all $K$-vector spaces) is large even if $K$ is a finite field, but for an inessential reason: in the usual contemporary implementation of mathematics, you are absolutely free how to set-theoretically implement your vector space (you may declare any set, no matter how large, to serve as your first basis vector, for example), but these implementation choices are essentially irrelevant. 
 So the single number $2$ gets sent a proper class of objects, and when defining the functor $G$ (in the notation above) you both (0) have to make an arbitrary choice among a class of objects, and (1) cannot make that choice so as to have $G\circ F=Id_{\mathcal{C}}$ strictly.
