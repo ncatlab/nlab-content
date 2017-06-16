@@ -745,6 +745,10 @@ In the case that $G=GL(\infty;\mathbb{C})$, the compatibility of the trace with 
 ( _to be completed..._ )
 
 
+### Isotropy of a topos
+
+The [[isotropy group of a topos]] is its free loop space object in the 2-category [[Topos]].
+
 
 ## Related concepts
 
