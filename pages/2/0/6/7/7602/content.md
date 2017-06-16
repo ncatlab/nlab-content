@@ -40,6 +40,10 @@ A polycategory that is "representable on both sides", meaning informally that mo
 
 Some categorical structures that are normally defined in a monoidal category can instead be defined in a polycategory, including [[Frobenius algebras]] and [[dual objects]].  Dual objects, in particular, are a form of "negation" that make a linearly distributive category into a [[star-autonomous category]].
 
+## Generalizations
+
+Just as [[multicategories]] are a special case of [[generalized multicategories]], which can be defined relative to any suitable [[monad]], polycategories are a special case of [[generalized polycategories]], which can be defined relative to any suitable [[pseudo-distributive law]].
+
 ## References
 
 * M.E. Szabo, *Polycategories*, Comm. Algebra 3 (1975) 663-689.  [DOI](http://www.tandfonline.com/doi/abs/10.1080/00927877508822067)
