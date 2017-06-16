@@ -36,7 +36,7 @@ This article is _not_ about the former informal meaning, which arguably is about
 
 ## Ideas and intuitive introduction
 
-The term _unnatural isomorphism_ is born of a wish to speak about things which appear very similar, but the similarity is less compelling than in other situations. Then, [[category theory]] is a useful tool to understnad the underlying reasons. Understanding situations of unnatural isomorphism can help to better appreciate [[natural isomorphism]]s, in particular, to appreciate that---contrary to what the adjective _natural_ may suggest---many isomorphisms that occur in nature are not natural in the technical sense, while many others are, and the natural ones are particularly efficient to work with.
+The term _unnatural isomorphism_ is born of a wish to speak about things which appear very similar, but the similarity is less compelling than in other situations. Then, [[category theory]] is a useful tool to understand the underlying reasons. Understanding situations of unnatural isomorphism can help to better appreciate [[natural isomorphism|natural isomorphisms]], in particular, to appreciate that---contrary to what the adjective _natural_ may suggest---many isomorphisms that occur in nature are not natural in the technical sense, while many others are, and the natural ones are particularly efficient to work with.
 
 
 ## Terminology
