@@ -262,11 +262,20 @@ The following question suggests itself:
 
 * (guiding.question) How similar are MonoSimpGph, RegMonoSimpGph, IsomeRegMonoSimpGph from a category-theoretic point of view?
 
-This can be made precise in infinitely-many ways. Here are two: 
+This can be made precise in infinitely-many ways. Here are two:
 
-* (inequivalence) Are MonoSimpGph, RegMonoSimpGph, IsomeRegMonoSimpGph mutually in[[equivalent]]? 
-* (axiomatizability) Which of Mor(MonoSimpGph), Mor(RegMonoSimpGph), Mor(IsomeRegMonoSimpGph) are finitely axiomatizable in first-order logic of category theory? 
+Question (inequivalence)
+Are MonoSimpGph, RegMonoSimpGph, IsomeRegMonoSimpGph mutually in[[equivalent]]? 
 
+Question(axiomatizability) Which of Mor(MonoSimpGph), Mor(RegMonoSimpGph), Mor(IsomeRegMonoSimpGph) are finitely axiomatizable in first-order logic of category theory? 
+
+On Question (inequivalence). 
+So far, not a single _category-theoretic_ property has been mentioned which would distinguish any of the three from the others.
+
+(under construction)
+
+
+On Question(axiomatizability.
 The answer to (axiomatizability.MonoSimpGph) is evidently yes: monos are defined by a single first-order formula in the language of category theory. (And even by a Horn sequent.)
 
 
