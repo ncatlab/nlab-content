@@ -49,7 +49,7 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 * **Proposition**. A Grothendieck topos $\mathcal{Y}$ is an &#233;tendue iff there exists a [[site]] $(\mathcal{C}, J)$ for $\mathcal{Y}$ such that every morphism of $\mathcal{C}$ is monic.
 
-* In particular for small $\mathcal{C}$, the presheaf topos $\mathcal{S}^{\mathcal{C}^{op}}$ is an &#233;tendue iff all morphisms in $\mathcal{C}$ are monic. For monoids this amounts to being cancellative: $m_1m=m_2m$ implies $m_1=m_2$ and includes all free monoids.
+* In particular for small $\mathcal{C}$, the presheaf topos $\mathcal{S}^{\mathcal{C}^{op}}$ is an &#233;tendue iff all morphisms in $\mathcal{C}$ are monic. In particular for [[monoid]]s $\mathcal{C}$ this is sometimes called [[left cancellative category|left cancellative]] (e.g. each free monoid is left cancellative).
 
 * [[Subtoposes]] of &#233;tendues are &#233;tendues . K. Rosenthal uses this together with the preceding remark on $\mathcal{S}^{\mathcal{C}^{op}}$ for all-monic $\mathcal{C}$ in order to construct further &#233;tendues $Sh_j(\mathcal{S}^{\mathcal{C}^{op}})$ via a topology $j$ from a suitable functor $H:\mathcal{C}\to\mathcal{S}$ (for further details see [[Jónsson-Tarski topos]] or Rosenthal(1981)).
 
