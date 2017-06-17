@@ -68,7 +68,7 @@ hyperimaginaries. This is related to a result of Hrushovski's that in a stable t
     $\mathbb{R}^{\mathcal{U}}/E \not \simeq \left(\mathbb{R}/E \right)^{\mathcal{U}}$,
     since $\mathbb{R}/E \simeq \mathbb{R}$ (after all, the real numbers
     are Hausdorff) so that the right hand side is the nonstandard reals
-    $^* \mathbb{R}$ again (so every number has a cloud of infinitesimals
+    $^* \mathbb{R}$ again (so every number has a [[halo|cloud]] of infinitesimals
     around it) while the left hand side has no points which are
     infinitesimally close together.
 
