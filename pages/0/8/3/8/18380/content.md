@@ -5,7 +5,7 @@
 In [[set theory]], it is common to build non-standard models of set theory inside an existing model of set theory. The same can be done in [[topos theory]]. It is natural to consider a similar construction in [[type theory]], or perhaps in [[homotopy type theory]].
 
 ### Question ###
-Mike Shulman, in his blog-post [HoTT should it itself](https://homotopytypetheory.org/2014/03/03/hott-should-eat-itself/) gives a good overview of the state of the art.
+Mike Shulman, in his blog-post [HoTT should eat itself](https://homotopytypetheory.org/2014/03/03/hott-should-eat-itself/) gives a good overview of the state of the art.
 There is later work by [Altenkirch and Kaposi](AltenKirchKaprosi)
 which treats the set level case. This makes progress over earlier work in standard type theory.
 
