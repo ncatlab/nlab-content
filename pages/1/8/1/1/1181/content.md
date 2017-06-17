@@ -210,7 +210,7 @@ let $f = (f^* \dashv f_*) : \mathcal{E} \underoverset{f_*}{f^*}{\leftrightarrows
 
 =--
 
-([Johnstone, lemma A.4.1.14](#Johnstone)). Of course, by the [finite colimit characterization](http://ncatlab.org/nlab/show/natural+numbers+object#finite_colimit_characterization_24), we need only the fact that inverse images, being left adjoints, preserve finite colimits. 
+([Johnstone, lemma A.4.1.14](#Johnstone)). Of course, by the [finite colimit characterization](http://ncatlab.org/nlab/show/natural+numbers+object#finite_colimit_characterization_24), we need only the fact that inverse images preserve finite colimits and the terminal object. 
 
 +-- {: .num_example}
 ###### Example
