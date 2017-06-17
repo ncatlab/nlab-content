@@ -11,7 +11,7 @@
 
 The **infinitesimally thickened Sierpinski topos** is the topos of presheaves on the ordinal category $\mathbf{3}: \{ 0 \to 1 \to 2 \}$. The name emphasizes the view of this topos as exhibiting [[differential cohesion]] over the cohesive [[Sierpinski topos]] using the coreflective embedding $i : \mathbf{2} \hookrightarrow \mathbf{3}$ sending $0$ to $0$ and $1$ to $2$.
 
-The objects of the category are diagrams $A_2 \to A_1 \to A_0$ in $Set$ o and arrows are commuting squares.
+The objects of the category are diagrams $A_2 \to A_1 \to A_0$ in $Set$ and arrows are commuting squares.
 
 =--
 
@@ -43,8 +43,8 @@ $$i_*(A_1 \to A_0) =  A_1 \to A_0 \to A_0$$
 $$ i^!(A_2 \to A_1 \to A_0) = A_2 \to A_1$$
 
 This gives us elementary characterizations of the various subcategories of $Sh(\mathbf{3})$ involved in differential cohesion:
-* The [[reduced objects|reduced object]] are the image of $i_!$: so they have the same real and infinitesimal points.
-* The [[coreduced objects|coreduced object]] are the image of $i_*$: pieces all consist of exactly one infinitesimal point.
+* The [[reduced object|reduced objects]] are the image of $i_!$: so they have the same real and infinitesimal points.
+* The [[coreduced object|coreduced objects]] are the image of $i_*$: pieces all consist of exactly one infinitesimal point.
 
 and the differential modalities are defined as:
 $$ \Re(A_2 \to A_1 \to A_0) = A_2 \to A_2 \to A_0$$
