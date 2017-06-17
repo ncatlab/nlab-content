@@ -21,7 +21,7 @@
 
 [[William Lawvere]]'s definition of an _atomic_ [[infinitesimal space]] is as an [[object]] $\Delta$ in a [[topos]] $\mathcal{T}$ such that the [[inner hom]] [[functor]] $(-)^\Delta : \mathcal{T} \to \mathcal{T}$ has a [[right adjoint]] (is an [[atomic object]]).
 
-Notice that by definition of [[inner hom]], $(-)^\Delta$ always has a [[left adjoint]]. A [[right adjoint]] can only exist for very particular objects. Therefore the term **amazing right adjoint**
+Notice that by definition of [[inner hom]], $(-)^\Delta$ always has a [[left adjoint]]. A [[right adjoint]] can only exist for very particular objects. Therefore the term **amazing right adjoint**.
 
 ## Right adjoints to representable exponentials 
 
