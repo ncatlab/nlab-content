@@ -200,17 +200,17 @@ In particular, we have the easy facts that
 
 Graph theory suggests both full and wide subcategories of $SmpGrph$. See [[the category of simple graphs from a graph-theoretic perspective]] for more details. 
 
-### Natural numbers object 
+### Natural numbers object and related structures 
 
-The category $SmpGrph$ has a [[natural numbers object]]; on abstract grounds this is formed by applying the reflection functor 
+The category $SmpGrph$ has a [[natural numbers object]], formed by applying the discrete graph functor 
 
-$$L: Set^{C^{op}} \to SmpGrph$$ 
+$$\Delta: Set \to SmpGrph$$ 
 
-to the natural numbers object in $Set^{C^{op}}$. 
+to the natural numbers object in $Set$. 
 
 ## References 
 
-* [[Jiří Adámek]] and Horst Herrlich, _Cartesian closed categories, quasitopoi, and topological universes_. Comm. Math. Univ. Carol., Vol. 27, No. 2 (1986), 235-257. ([web](http://dml.cz/handle/10338.dmlcz/106447))
+* [[Jiří Adámek]] and [[Horst Herrlich]], _Cartesian closed categories, quasitopoi, and topological universes_. Comm. Math. Univ. Carol., Vol. 27, No. 2 (1986), 235-257. ([web](http://dml.cz/handle/10338.dmlcz/106447))
 {#AdamHerr} 
 
 * Reinhard Diestel, Graph Theory (Second Edition), Graduate Texts in Mathematics 173, Springer (2000). 
