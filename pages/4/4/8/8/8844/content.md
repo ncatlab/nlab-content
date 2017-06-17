@@ -51,6 +51,12 @@ Facts:
 
 * Given an $f : U \twoheadrightarrow M_1$, any other $g : U \twoheadrightarrow M_1$ which is also an interpretation $M_1 \to M_2$ is of the form $\sigma \circ f$ for some $\sigma \in \operatorname{Aut}(M_1)$.
 
+### Examples
+
+* The construction of the [[Grothendieck group of a commutative monoid]] implements a canonical interpretation of the ring $\mathbb{Z}$ in the semiring $\mathbb{N}$ (in fact inside $\mathbb{N}$ viewed as the standard model of [[Peano arithmetic]]).
+
+* The complex field $\mathbb{C}$ is canonically interpreted in the real field $\mathbb{R}$ by identifying $\mathbb{C}$ with $\mathbb{R}^2$ and noting that the multiplication of complex numbers is definable from multiplication on the reals.
+
 ## Classifying topses
 An interpretation $T \to T'$ is precisely the inverse image part of a [[geometric morphism]] of [[classifying topos|classifying toposes]] $\mathcal{E}(T') \to \mathcal{E}(T)$. In particular, [[structure in model theory|models]] of $T$ are [[points of a topos | points]] of [[Set]] in $\mathcal{E}(T)$.
 
