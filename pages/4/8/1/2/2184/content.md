@@ -101,11 +101,21 @@ Under the second notion of morphism (where simple graphs are identified with set
 ## Notions of subgraphs from the nPOV
 
 A usual definition of _subgraph_ in combinatorics is, roughly: _subset_. 
-More precisely, if _undirected simple graph_ means _pair $(V,E)$ of two sets, with $E\subseteq[V]^2$ any subset of the set of all two-element subsets of $V$_, then a usual meaning of _subgraph_ of $(V,E)$ is just: any pair $(W,F)$ with $W\subseteq V$, $F\subseteq E$, and[^1] $F\subseteq [W]^2$. (cf. e.g. [p. 3](#DiestelGraphTheoryFourthEd))
-In particular, such subgraph may have isolated vertices which are not isolated in the ambient graph $G$, and they need not be induced subgraphs: an _induced_ subgraph is a subgraph in the above sense for which, moreover, $F = [W]^2\cap E$. In words: the edge-set of an _induced_ subgraph must contain all edges _induced_ within the ambient graph by the vertex set of the subgraph. (This also happens to be the usual notion of substructure in model theory, for any relational structure.) 
-Another usual notion of subgraph in combinatorics is _spanning_ subgraph. This is just any subgraph $(W,F)$ in the above sense with $W=V$. Somewhat counterintuitively (with regard to connotations of the words _spanning_ and _induced_), a _spanning_ subgraph need not be _induced_, and in fact it never is, _except_ if the subgraph is the graph itself. 
+More precisely, if _undirected simple graph_ means _pair $(V,E)$ of two sets, with $E\subseteq[V]^2$ any subset of the set of all two-element subsets of $V$_, then a usual meaning of _subgraph_ of $(V,E)$ is (cf. e.g. [p. 3](#DiestelGraphTheoryFourthEd)): any pair $(W,F)$ with $W\subseteq V$, $F\subseteq E$, and[^1] $F\subseteq [W]^2$. 
 
 [^1]: The last condition is to ensure that $(W,F)$ is itself again a graph, which would not be guaranteed if we defined subgraph to be just any pair of subsets of the respective sets $V$ and $E$. 
+
+
+In particular, such a subgrap $(W,F)$ may have isolated vertices which are not isolated in the ambient graph $G$, and $(W,F)$ need not be an _induced_ subgraph, which by definition is a subgraph in the above sense for which $F = [W]^2\cap E$. In words: the edge-set of an _induced_ subgraph must contain all edges _induced_ within the ambient graph by the vertex set of the subgraph.[^2] 
+
+[^2]: This happens to be the usual notion of substructure in model theory, for any relational structure.
+
+Another usual notion of subgraph in combinatorics is[^3] _spanning_ subgraph. This is just any subgraph $(W,F)$ in the above sense with $W=V$. 
+
+
+[^3]: Somewhat counterintuitively (with regard to connotations of the words _spanning_ and _induced_), a _spanning_ subgraph need not be _induced_, and in fact it never is, _except_ if the subgraph is the graph itself. 
+
+
 
 From the [[nPOV]], it is often possible to describe notions of subgraph in terms of types of monomorphisms in categories of graphs; for example, 
 
@@ -115,11 +125,12 @@ From the [[nPOV]], it is often possible to describe notions of subgraph in terms
 
 in the [[category of simple graphs]], and similarly for suitable categories of other types of graph. 
 
-One synonym,[^2] in the nLab for _induced subgraph_ is *full subgraph*, for brevity, and for harmony with other uses of _full_ in category theory (but also for more precise reasons).
+One synonym, in the nLab[^4] for _induced subgraph_ is *full subgraph*, for brevity, and for harmony with other uses of _full_ in category theory (but also for more precise reasons).
+
+[^4]: Incidentally, the term _full_ was in use in mid-twentieth century graph theory, then seems to have fallen out of favor.
 
 The precise meaning of _subgraph_ depends on the chosen formalization of *graph*, needless to say.
 
-[^2]: Incidentally, the term _full_ was in use in mid-twentieth century graph theory, then seems to have fallen out of favor.
 
 ## Definition in terms of action on a set of half-edges
 
