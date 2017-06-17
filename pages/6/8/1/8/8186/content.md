@@ -9,7 +9,7 @@ On the [[category|Categories]] side, the book centers on that part of categorica
 
 On the [[allegory|Allegories]] side: it may be said they were first widely publicized in this book. They comprise many aspects of [[relation|relational]] algebra corresponding to the categorical algebra studied in the first part of the book. 
 
-The book, while it covers an extraordinary amount of ground in less than 300 pages, is fairly idiosyncratic, especially in the choice of terminology and in the overall arrangement (designed to be self-contained for the diligent reader). There is no list of references given. 
+The book, while it covers an extraordinary amount of ground in less than 300 pages, is fairly idiosyncratic, especially in the choice of terminology (such as _terminator_ instead of _terminal object_) and in the overall arrangement (designed to be self-contained for the diligent reader). There is no list of references given. 
 
 
 category: reference
