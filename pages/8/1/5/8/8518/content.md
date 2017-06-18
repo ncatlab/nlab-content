@@ -10,3 +10,83 @@
   * [[snake lemma]] $\Rightarrow$ [[connecting homomorphism]]
 
   * [[braid lemma]]
+
+
+
+
+
+
+
+
+
+## Diagram-chase-like lemmas
+
++-- {: .standout}
+**Caveat Lector.**
+This section may duplicate/contradict other nLab accounts of similar lemmas. This section, its title, and its place in the present article, are tentative. Also, the title is somewhat of a misnomer since many of the lemmas intended to be collected (or linked) here are about categories which are _not_ abelian categories. The section is meant to be a place to collect lemmas asserting that the existence of one type of morphisms in one part of a commutative diagram implies that some other morphism in the diagram must have some type.
+
+
+=--
+
+### the snake lemma
+
+[[snake lemma]]
+### salamander lemma 
+
+[[salamander lemma]]
+
+### the five lemma
+
+[[five lemma]]
+
+### lemmas on pushouts 
+
+A pushout implying a pullback via [[monomorphism]] (resp. [[strong monomorphism]]), in [[topos]] (resp. [[quasitopos]])
+
+Suppose that $(\mathrm{T},\mathrm{C})$ is either
+
+* (monomorphism,topos), or
+* (strong monomorphism,quasitopos)
+
+Suppose that 
+$$\array{
+O_{0,1} & \to & O_{1,1} \\
+\downarrow m &&\downarrow h  \\
+O_{0,0} & \to & O_{1,0}
+}$$
+is a commutative diagram in a category $\mathcal{C}$  such that 
+
+* * $\mathcal{C}$ is $\mathrm{C}$
+* * $m$ is $\mathrm{T}$ in $\mathcal{C}$
+* * the diagram is a pushout in $\mathcal{C}$
+
+
+Then 
+
+* * $h$ is $\mathrm{T}$ in $\mathcal{C}$
+* * the diagram is a pullback in $\mathcal{C}$
+
+### lemmas on equalizers 
+
+An equalizer diagram implying an equalizer diagram, via monos and a pullback square. 
+
+Suppose $\mathcal{C}$ is any category with equalizers. 
+Suppose 
+
+$$\array{
+O_{0,1} & \to & O_{1,1} & \underoverset{\quad {}_0f_{1} \quad}{{}_1f_{1}}{\rightrightarrows} & O_{2,1} &  & &  & \\
+\downarrow m_0 &&\downarrow m_1 &&\downarrow m_2 &&  &&  \\
+O_{0,0} & \to & O_{1,0} & \underoverset{\quad {}_0f_{0} \quad}{ {}_1f_{0} }{\rightrightarrows} & O_{2,0}  & &  & 
+}$$
+
+is a diagram in $\mathcal{C}$ in which 
+
+* * each of $m_0$,$m_1$, $m_2$ is monic
+* * the square is a pullback
+* * the lower row is an equalizer
+
+Then 
+
+* * its upper row is an equalizer
+
+
