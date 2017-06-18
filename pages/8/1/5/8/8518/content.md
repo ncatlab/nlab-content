@@ -66,6 +66,8 @@ Then
 * * $h$ is $\mathrm{T}$ in $\mathcal{C}$
 * * the diagram is a pullback in $\mathcal{C}$
 
+
+(cf. [[quasitopos]], Section "Properties")
 ### lemmas on equalizers 
 
 An equalizer diagram implying an equalizer diagram, via monos and a pullback square. 
