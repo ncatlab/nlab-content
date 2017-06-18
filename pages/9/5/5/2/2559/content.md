@@ -43,7 +43,11 @@ The $Y_\Delta$ defined this way is indeed a sheaf, due to the assumption that $(
 
 * The topic of amazing right adjoints appears to have been studied mostly for toposes, but a related definition has been given for any category (with products): if $O$ is an [[exponentiable object]] of a category $\mathcal{C}$, then $O$ being a [[tiny object]] in the sense of [Definition 0.1](#Yetter1987) means that the [[internal hom|endofunctor]] $(-)^O$ has a right adjoint. (This adjoint is sometimes denoted $(-)^{1/O}$, c.f.  [p. 269](#Lawvere2002))
 
+In this situation, one then has, symbolically
 
+$$
+  (-)\times O \quad \dashv\quad (-)^O \quad \dashv\quad  (-)^{1/O}
+$$
 
 ## References#
 
