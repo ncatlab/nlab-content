@@ -191,7 +191,7 @@ By contrast, if a solid quasitopos is additionally [[exact category|exact]], and
 
   * The category of sets equipped with a symmetric relation (as presheaves on the full subcategory of finite sets and injections consisting of just the objects $1$, $2$). 
 
-  * The category of sets equipped with a reflexive symmetric relation (as presheaves on the full subcategory of finite sets consisting of just the objects $1$, $2$). 
+  * The category of sets equipped with a reflexive symmetric relation (as presheaves on the full subcategory of finite sets consisting of just the objects $1$, $2$). See [[category of simple graphs]]. 
 
 * The category of [[bornological set|bornological sets]]. 
 
