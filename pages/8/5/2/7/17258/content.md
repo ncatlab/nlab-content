@@ -130,7 +130,7 @@ A more general way to view this, is to consider the surjective homomorphism $\al
 
 $$
 
-\alpha_!\dashv \alpha^*\dashv\alpha_*:Set^{(\mathbb{Z}\times\mathbb{Z})^{op}}\to Set^{F_2{^{op}}}
+\alpha_!\dashv \alpha^*\dashv\alpha_*:Set^{F_2{^{op}}}\to Set^{(\mathbb{Z}\times\mathbb{Z})^{op}}
 
 $$
 
