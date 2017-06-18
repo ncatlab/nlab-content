@@ -23,7 +23,7 @@ The [[action functional]] of [[gravity]] was originally conceived as a [[nonline
 
 The [[field strength]] of gravity -- the [[Riemann tensor]] -- is the [[curvature]] of [[Levi-Civita connection]]. Typically this is referred to a [[spin connection]] in this context.
 
-Promoting this perspective form the [[Poincaré group]] to the [[super Poincaré group]] yields _[[supergravity]]_ forulated in [[super Cartan geometry]]. Promoting it further to the [[L-infinity algebra cohomology|Lie n-algebra]] extensions of the [[super Poincaré group]] (from the [[brane scan]]/[[schreiber:The brane bouquet|brane bouquet]]) yields [[type II supergravity]], [[heterotic supergravity]] and [[11-dimensional supergravity]] in [[higher Cartan geometry]]-formulation ([[D'Auria-Fré formulation of supergravity]]).
+Promoting this perspective from the [[Poincaré group]] to the [[super Poincaré group]] yields _[[supergravity]]_ formulated in [[super Cartan geometry]]. Promoting it further to the [[L-infinity algebra cohomology|Lie n-algebra]] extensions of the [[super Poincaré group]] (from the [[brane scan]]/[[schreiber:The brane bouquet|brane bouquet]]) yields [[type II supergravity]], [[heterotic supergravity]] and [[11-dimensional supergravity]] in [[higher Cartan geometry]]-formulation ([[D'Auria-Fré formulation of supergravity]]).
 
 [[!include local and global geometry - table]]
 
