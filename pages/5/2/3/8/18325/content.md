@@ -1,8 +1,35 @@
-This is a synonym for [[diagonal fill-in]] morphism.
+If
 
-The term is used for example in:
 
-*  R. Garner, "Homomorphisms of higher categories"
-Advances in Mathematics, Volume **224** (2010),  2269--2311
+$$ \array {
+O_{0,1} & \overset{f_1}{\longrightarrow} & O_{1,1} \\
+\downarrow h_0 & & \downarrow h_1 \\
+O_{0,0} & \overset{f_0}{\longrightarrow} & O_{1,0} \\
+}
+$$
 
-It also is often used in the context of [[horn]]s in simplicial sets and related structures. The term makes it possible to summarize the definition of a [[Kan complex]] in one sentence: a Kan complex is a simplicial set in which every horn has a filler. 
+is a commutative diagram in a category $\mathcal{C}$, then a _filler_  (synonyms:  _diagonal fill-in_ , [[lift]]) is:
+
+* morphism $j\colon O_{0,0}\rightarrow O_{1,1}$ in $\mathcal{C}$ making both triangles created commute. 
+(That is, $f_0 = h_1 j$ and $f_1 = j h_0$.)
+
+In certain contexts, the above commutative square is called a _lifting problem_.
+
+If $j$ is uniquely determined (in an appropriate sense), then $h_0$ is said to be _orthogonal_ to $h_1$
+
+This concept plays an important role in homotopy theory.
+
+The term is used in the context of [[horn]]s in simplicial sets and related structures. The term makes it possible to summarize the definition of a [[Kan complex]] in one sentence: a Kan complex is a simplicial set in which every horn has a filler. 
+
+
+Related: 
+
+[[factorization system]]
+
+[[homotopy lifting property]]
+
+[[orthogonality]]
+
+
+[[!redirects fill-in]]
+[[!redirects diagonal fill-in]]
