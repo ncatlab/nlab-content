@@ -1,45 +1,63 @@
 
-See
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
-* . <a href="http://nlab.mathforge.org/nlab/show/pullback#Pasting">pasting law for pullbacks</a>
+#Contents#
+* table of contents
+{:toc}
 
-* . <a href="http://nlab.mathforge.org/nlab/show/limit+in+a+quasi-category#PushoutPasting">pasting law for (∞,1)-pullbacks</a>
+## Idea
+
+In [[category theory]], the _pasting law_ is a statement about (de-)composition of [[pullback]]/[[pushout]] [[diagrams]]. 
+
+## Statement
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[category]] or more generally an [[(∞,1)-category]]. Consider a [[commuting diagram]] in $\mathcal{C}$ of the following shape:
 
 
+$$
+  \array{
+    & \longrightarrow && \longrightarrow
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    & \longrightarrow && \longrightarrow    
+  }
+$$
 
+Then:
 
-## Diagram-chase-like lemmas
+1. if the right square is a pullback, then the total rectangle is a pullback precisely if the left sqzuare is a pullback.
 
-
-
-+-- {: .standout}
-**Caveat Lector.**
-This section may duplicate/contradict other nLab accounts of similar lemmas. This section, its title, and its place in the present article, are tentative. Also, the title is somewhat of a misnomer since many of the lemmas intended to be collected (or linked) here are about categories which are _not_ abelian categories. The section is meant to be a place to collect lemmas asserting that the existence of one type of morphisms in one part of a commutative diagram implies that some other morphism in the diagram must have some type.
-
+1. if the left square is a [[pushout]], then the total rectangle is a pushout precisely if the right square is a pushout.
 
 =--
 
-Lemmas similar to the following are often referred to informally as _diagram chasing_ or _diagram chases_. (It can be argued that this is technically incorrect in situations where no elements are used.)
+For **proof** see
 
-### salamander lemma 
+* for [[category theory]]: at _[pullback -- pasting law](pullback#Pasting)_
 
-[[salamander lemma]]
-
-### the snake lemma
-
-[[snake lemma]]
+* for [[(∞,1)-category theory]]: at _[(∞,1)-limit -- pushout pasting law](limit+in+a+quasi-category#PushoutPasting)_
 
 
-### the five lemma
+## Related statements
 
-[[five lemma]]
-
-### lemmas on pullbacks and pushouts
-
-**Closedness of pullback squares under composition.**
-
-* The composition of two pullback squares is a pullback square.
-
++-- {: .num_prop}
+###### Proposition
 **Outer square being a pullback implies left-hand square being a pullback, in the presence of a jointly monic span.**
 
 If 
@@ -62,47 +80,14 @@ Then
 
 * the square consisting of $h_0$, $h_1$, $f_{1,0}$, $f_{1,1}$ is a pullback in $\mathcal{C}$
 
-**A pushout implying a pullback via [[monomorphism]] (resp. [[strong monomorphism]]), in [[topos]] (resp. [[quasitopos]]).**
-
-Suppose that $(\mathrm{T},\mathrm{C})$ is either
-
-* (monomorphism,topos), or
-* (strong monomorphism,quasitopos)
-
-Suppose that 
-$$\array{
-O_{0,1} & \to & O_{1,1} \\
-\downarrow m &&\downarrow h  \\
-O_{0,0} & \to & O_{1,0}
-}$$
-is a commutative diagram in $\mathrm{C}$ such that 
-
-* * $m$ is $\mathrm{T}$ in $\mathrm{C}$
-* * the diagram is a pushout in $\mathrm{C}$
+=--
 
 
-Then 
-
-* * $h$ is $\mathrm{T}$ in $\mathrm{C}$
-* * the diagram is a pullback in $\mathrm{C}$
-
-
-(cf. [[quasitopos]], Section "Properties"). Note that the result for quasitoposes immediately implies the result for toposes, since all monomorphisms $i: A \to B$ in a topos are [[regular monomorphism|regular]] ($i$ being the equalizer of the arrows $\chi_i, t \circ !: B \to \Omega$ in 
-
-$$\array{
- & & 1 \\ 
- & \mathllap{!} \nearrow & \downarrow \mathrlap{t} \\ 
-B & \underset{\chi_i}{\to} & \Omega
-}$$ 
-
-where $\chi_i$ is the classifying map of $i$) and therefore strong. 
-
-
-### lemmas on equalizers 
-
++-- {: .num_prop}
+###### Proposition
 **An equalizer diagram implying an equalizer diagram, via monos and a pullback square.**
 
-Suppose $\mathcal{C}$ is any category with equalizers. 
+Suppose $\mathcal{C}$ is any [[category]] with [[equalizers]]. 
 Suppose 
 
 $$\array{
@@ -120,3 +105,7 @@ is a diagram in $\mathcal{C}$ in which
 Then 
 
 * * the upper row is an equalizer iff the left square is a pullback. 
+
+
+=--
+
