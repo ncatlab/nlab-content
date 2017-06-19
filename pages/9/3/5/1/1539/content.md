@@ -55,7 +55,7 @@ Equivalently, in addition to finite limits and colimits and local cartesian clos
 ###### Definition/Proposition
 
 
-The [[full subcategory]] $SepPSh(C) \hookrightarrow PSh(C)$ of a [[category of presheaves]] over a [[site]] $C$, consisting of the [[separated presheaves]] on $C$, is a quasitopos.  A category equivalent to such a separated presheaf category is called a **Grothendieck quasitopos**, by analogy with the notion of [[Grothendieck topos]].  
+The [[full subcategory]] $SepPSh(C) \hookrightarrow PSh(C)$ of a [[category of presheaves]] over a [[site]] $C$, consisting of the [[separated presheaves]] on $C$, is a quasi#topos.  A category equivalent to such a separated presheaf category is called a **Grothendieck quasitopos**, by analogy with the notion of [[Grothendieck topos]].  
 
 =--
 
@@ -63,16 +63,17 @@ The [[full subcategory]] $SepPSh(C) \hookrightarrow PSh(C)$ of a [[category of p
 
 ### General
 
-+-- {: .un_lemma}
++-- {: .num_lemma #PushoutOfStrongMonos}
 ###### Lemma
+**(pushout of strong monos)
 
 In a quasitopos the [[pushout]] of a [[strong monomorphism]] is again a strong mono, and the resulting square is also a [[pullback]] square.
 
 =--
 
-This appears as [Elephant, Lemma A.2.6.2](#Elephant), using the synonym _cocover_ for _strong monomorphism_. Since a topos is a quasitopos in which all monomorphisms are strong, this implies that the pushout of a mono in a topos is again a mono and that the resulting square is a pullback. Together with the fact that colimits are universal in a topos, this implies that a topos is an [[adhesive category]]. 
+This appears as [Elephant, Lemma A.2.6.2](#Elephant), using the synonym _cocover_ for _strong monomorphism_. Since a [[topos]] is a quasitopos in which all monomorphisms are strong, this implies that the pushout of a mono in a topos is again a mono and that the resulting square is a pullback. Together with the fact that colimits are universal in a topos, this implies that a topos is an [[adhesive category]]. 
 
-+-- {: .un_corollary}
++-- {: .num_corollary}
 ###### Corollary
 
 A quasitopos that is also a [[balanced category]] is a [[topos]].
@@ -82,7 +83,7 @@ A quasitopos that is also a [[balanced category]] is a [[topos]].
 This is [Elephant, corollary 2.6.3](#Elephant).
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 A quasitopos has [[disjoint coproduct]]s precisely if the unique morphism $\emptyset \to *$ from the [[initial object]] to the [[terminal object]] is a [[strong monomorphism]].
@@ -92,7 +93,7 @@ A quasitopos has [[disjoint coproduct]]s precisely if the unique morphism $\empt
 This is [Elephant, corollary 2.6.5](#Elephant).
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -102,7 +103,7 @@ An [[object]] $C$ in a quasitopos is called **coarse** if for every [[bimorphism
 
 So the coarse objects are those that see monic epic morphisms as [[isomorphism]]s, hence that do onot see the failure of the quasitopos to be a [[balanced category]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -119,8 +120,8 @@ $$
 
 This is [Elephant, prop 2.6.12](#Elephant).
 
-+-- {: .un_lemma}
-###### Observation
++-- {: .num_lemma}
+###### Lemma
 
 If $\mathcal{E} \simeq SepPSh(C)$ is a Grothendieck quasitopos of [[separated presheaves]] on a [[site]] $C$, then $Coarse(\mathcal{E}) \simeq Sh(C)$ is the [[sheaf topos]] on $C$.
 
