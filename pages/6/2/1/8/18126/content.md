@@ -1527,7 +1527,8 @@ $\,$
 The following examples illustrate how all these ingredients and construction principles
 may be combined.
 
-The following example we will examine in more detail below in example \ref{HomeomorphismBetweenTopologicalAndCombinatorialCircle},
+The following example we will examine in more detail below in example \ref{Homeomorphism
+BetweenTopologicalAndCombinatorialCircle},
 after we have introduced the concept of _[[homeomorphisms]]_ [below](#Homeomorphisms).
 
 +-- {: .num_example }
@@ -8465,8 +8466,8 @@ The extreme case of this phenomenon are [[totally disconnected topological space
 (def. \ref{TotallyDisconnectedTopologicalSpace} below) which are nevertheless not [[discrete topological spaces|discrete]]
 (examples \ref{RationalNumbersAreTotallyDisconnected} and \ref{TotallyDisconnectedCantorSpace} below).
 Spaces which are free from this exotic behaviour include the
-_[[locally connected topological spaces]]_ (def.  \ref{LocallyConnected} below) 
-and in particular 
+_[[locally connected topological spaces]]_ (def.  \ref{LocallyConnected} below)
+and in particular
 the [[locally path-connected topological spaces]] (def. \ref{ForLocallyPathConnectedThenPathConnectedComponentsAgree} below).
 
 
@@ -15294,17 +15295,32 @@ If the [[gluing functions]] which relate the Euclidean [[local charts]] of  topo
 Accordingly, a differentiable manifold is a space to which the tools of ([[infinitesimal analysis|infinitesimal]] [[analysis]] may be applied _locally_.
 Notably we may ask whether a [[continuous function]] between differentiable manifolds is [[differentiation|differentiable]]
 by computing its [[derivatives]] pointwise in any of the Euclidean [[coordinate charts]].
-This way differential and smooth manifolds are the basis for much of [[differential geometry]]. They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].
+
+This way differential and smooth manifolds are the basis for what is called _[[differential geometry]]_.
+(They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].)
+
+Basic examples of smooth manifolds are the [[n-spheres]] (example \ref{SmoothManifoldnSphere} below),
+the [[projective spaces]] (example \ref{SmoothManifoldRealComplexProjectiveSpace} below).
+and the [[general linear group]] (example \ref{GLn}) below.
+
+
 
 $\,$
 
 
+The definition of [[topological manifolds]] (def. \ref{TopologicalManifold} below) involves two clauses:
+The conceptual condition is that a manifold is  _[[locally Euclidean topological space]]_ (def. \ref{LocallyEuclideanSpace} below).
+On top of this one demands as a technical regularity
+condition [[paracompact Hausdorff topological space|paracompact Hausdorffness]], which serves to ensure that manifolds behave well.
+Therefore we first consider locally Euclidean spaces in themselves.
 
 +-- {: .num_defn #LocallyEuclideanSpace}
 ###### Definition
 **([[locally Euclidean topological space]])**
 
-A [[topological space]] $X$ is _[[locally Euclidean topological space|locally Euclidean]]_ if every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which is [[homeomorphism|homeomorphic]] to the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]]:
+A [[topological space]] $X$ is _[[locally Euclidean topological space|locally Euclidean]]_ if every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which,
+as a [[subspace]] (example \ref{SubspaceTopology}), is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism})
+to the [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) with its [[metric topology]] (def. \ref{MetricTopology}):
 
 $$
   \mathbb{R}^n
@@ -15323,7 +15339,7 @@ The "local" [[topological properties]] of Euclidean space are inherited by local
 
 +-- {: .num_prop #LocalPropertiesOfLocallyEuclideanSpace}
 ###### Proposition
-**([[locally Euclidean spaces]] are $T_1$-[[separation axiom|separated]], [[sober topological space|sober]] and [[locally compact topological space|locally compact]], [[locally connected topological space|locally connected]] and [[locally path-connected topological space]])**
+**([[locally Euclidean spaces]] are $T_1$-[[separation axiom|separated]], [[sober topological space|sober]], [[locally compact topological space|locally compact]], [[locally connected topological space|locally connected]] and [[locally path-connected topological spaces]])**
 
 Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}). Then
 
@@ -15368,20 +15384,23 @@ In conclusion this means that the restriction of an irreducible closed subset in
 
 Regarding the third statement:
 
-Let $x \in X$ be a point and let $U_x \supset \{x\}$ be an open neighbourhood. We need to find a compact nighbourhood $K_x \subset U_x$.
+Let $x \in X$ be a point and let $U_x \supset \{x\}$ be an open neighbourhood. We need to find a compact neighbourhood $K_x \subset U_x$.
 
 By assumption there exists a Euclidean open neighbourhood $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} V_x \subset X$. By definition of the [[subspace topology]] the intersection $U_x \cap V_x$ is still open as a subspace of $V_x$ and hence $\phi^{-1}(U_x \cap V_x)$ is an open neighbourhood of $\phi^{-1}(x)  \in \mathbb{R}^n$.
 
-Since Euclidean spaces are locally compact, there exists a compact neighbourhood $K_{\phi^{-1}(x)} \subset \mathbb{R}^n$ (for instance a sufficiently small [[closed ball]] around $x$, which is compact by the [[Heine-Borel theorem]], prop. \ref{BorelHeine}). Now since [[continuous images of compact spaces are compact]], it follows that also $\phi(K) \subset X$ is a compact neighbourhood.
+Since Euclidean spaces are locally compact (example \ref{MetricSpacesAreLocallyCompact}), there exists
+a compact neighbourhood $K_{\phi^{-1}(x)} \subset \mathbb{R}^n$ (for instance a sufficiently small [[closed ball]] around $x$, which is compact by the [[Heine-Borel theorem]], prop. \ref{BorelHeine}).
+Now since [[continuous images of compact spaces are compact]] prop. \ref{ContinuousImageOfACompactSpaceIsCompact}, it follows
+that also $\phi(K) \subset X$ is a compact neighbourhood.
 
 Regarding the last two statements:
 
 We need to show that for every point $x \in X$ and every [neighbourhood $U_x \supset \{x\}$
 there exists a neighbourhood $C_x \subset U_x$ which is [[connected topological space|connected]]
-and a eighbourhood $PC_x \subset U_x$ which is [[path-connected topological space|path-connected]].
+and a neighbourhood$PC_x \subset U_x$ which is [[path-connected topological space|path-connected]].
 
 By local Euclideanness there exists a chart $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} V_x \subset X$.
-Since [[Euclidean space]] is locally connected and locally path-connected, there is a connected and a path-connected
+Since [[Euclidean space]] is locally connected and locally path-connected spring, there is a connected and a path-connected
 neighbourhood of the pre-image $\phi^{-1}(x)$ contained in the pre-image $\phi^{-1}( U_x \cap V_x )$.
 Since continuous images of connected spaces
 are connected (prop. \ref{ContinuousImagesOfConnectedSpacesAreConnected}), and
@@ -15804,7 +15823,7 @@ Similarly the [[open disk]] $D^n$ becomes a [[smooth  manifold]] when equipped w
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #SmoothManifoldnSphere}
 ###### Example
 **([[n-sphere]] as a [[smooth manifold]])**
 
