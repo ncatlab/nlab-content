@@ -36,7 +36,10 @@ The above is actually a complete definition, but here we spell it out.
 
 Let $X$ and $Y$ be objects of a [[category]] $C$ such that all binary [[product]]s with $Y$ exist.  (Usually, $C$ actually has all binary products.)  Then an __exponential object__ is an object $X^Y$ equipped with an __[[evaluation map]]__ $ev: X^Y \times Y \to X$ which is universal in the sense that, given any object $Z$ and map $e: Z \times Y \to X$, there exists a unique map $u: Z \to X^Y$ such that
 $$ Z \times Y \stackrel{u \times id_Y}\to X^Y \times Y \stackrel{ev}\to X $$
-equals $e$.
+equals $e$. (The map $u$ is called the _exponential transpose_  of $e$ and, sometimes, denoted[^1] $\lambda(e)$ .)
+
+
+[^1]: Cf. e.g. T. Streicher, Introduction to Category Theory and Categorical Logic, Lecture Notes, TU-Darmstadt, 2003. It is also, rarely, denoted $e^{\flat}$, which is  read "e flat" (cf. the staff notation used in contemporary music).
 
 As with other [[universal construction]]s, an exponential object, if any exists, is [[generalized the|unique up to unique isomorphism]].  It can also be characterized as a [[distributivity pullback]].
 
