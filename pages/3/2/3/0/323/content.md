@@ -204,7 +204,7 @@ $$
 is equivalently the [[equalizer]]
 
 $$
-  a \times_c b \to a \times b \stackrel{\overset{f p_1}{\to}}{\underset{g p_2}{\to}}
+  a \times_c b \to a \times b \stackrel{\overset{f p_1}{\longrightarrow}}{\underset{g p_2}{\longrightarrow}}
   c
 $$
 
@@ -229,6 +229,7 @@ There are three commuting squares: the two inner ones and the outer one.
 
 +-- {: .num_prop}
 ###### Proposition
+**([[pasting law]])**
 
 Suppose the right-hand inner square is a pullback: then the left-hand one is a pullback if and only if the outer square is.
 
