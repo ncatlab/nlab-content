@@ -35,7 +35,7 @@ The correct statement of this relation turns out to be that quantum corrections 
 
   * [[black holes in string theory]]
 
-
+* [[p-adic AdS-CFT]]
 
 ## References
 
