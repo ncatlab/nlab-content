@@ -1,2 +1,44 @@
 
-abcc
+$$\array{
+O_{0} & \overset{f}{\longrightarrow} & O_{1} &\\
+\downarrow \theta(O_{0}) &&\downarrow \theta(O_{1}) &&   \\
+F_1(O_{0}) & \overset{F_1(f)}{\longrightarrow} & F_1(O_{1}) & 
+}$$
+
+$$\array{
+U(O_{0}) & \overset{U(f)}{\longrightarrow} & U(O_{1}) &\\
+\downarrow U(\theta(O_{0})) &&\downarrow U(\theta(O_{1})) &&   \\
+U(F_1(O_{0})) & \overset{U(F_1(f))}{\longrightarrow} & U(F_1(O_{1})) & 
+}$$
+
+$$
+  \array{
+    &&  a
+    \\
+    & \swarrow && \searrow
+    \\
+    b &&&& c
+    \\
+    & \searrow && \swarrow
+    \\
+    && d
+    \,.
+  }
+$$
+<div style="float:left;width:4em;height:25em;margin: 10px 10px 10px 0;">
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="100%" height="100%" viewBox="0 0 400 300" >
+<g>
+!include nonregularmono20170614
+
++--{: style="text-align:center"} [[!include SomePage > figureN]] =-- 
+</g>
+</svg>
+</div>
+
+$$\array{
+O_{0,1} & \to & O_{1,1} & \underoverset{\quad {}_0f_{1} \quad}{{}_1f_{1}}{\rightrightarrows} & O_{2,1} &  & &  & \\
+\downarrow m_0 &&\downarrow m_1 &&\downarrow m_2 &&  &&  \\
+O_{0,0} & \to & O_{1,0} & \underoverset{\quad {}_0f_{0} \quad}{ {}_1f_{0} }{\rightrightarrows} & O_{2,0}  & &  & 
+}$$
