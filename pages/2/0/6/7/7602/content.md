@@ -14,7 +14,9 @@
 
 ## Idea
 
-A **polycategory** is like a [[category]] or a [[multicategory]], but where both the [[domain]] and the [[codomain]] of a [[morphism]] can be [[finite set|finite]] [[lists]] of [[objects]] rather than just single objects.
+A **polycategory** is like a [[category]] or a [[multicategory]], but where both the [[domain]] and the [[codomain]] of a [[morphism]] can be [[finite set|finite]] [[lists]] of [[objects]] rather than just single objects.  Like multicategories, polycategories have both symmetric and non-symmetric variants.
+
+Just as a symmetric multicategory with one object is also called an [[operad]], and so a general symmetric multicategory is sometimes called a "colored operad", a symmetric polycategory with one object is also called a **dioperad** and a general symmetric multicategory is sometimes called a "colored dioperad".
 
 ## Properties
 
@@ -52,4 +54,12 @@ Just as [[multicategories]] are a special case of [[generalized multicategories]
 
 * [[Richard Garner]], *Polycategories via pseudo-distributive laws*, [arXiv](http://arxiv.org/abs/math/0606735)
 
+* Wee Liang Gan, _Koszul duality for dioperads_, [arxiv](https://arxiv.org/abs/math/0201074)
+
 [[!redirects polycategories]]
+[[!redirects dioperad]]
+[[!redirects dioperads]]
+[[!redirects colored dioperad]]
+[[!redirects colored dioperads]]
+[[!redirects coloured dioperad]]
+[[!redirects coloured dioperads]]
