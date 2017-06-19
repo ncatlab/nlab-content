@@ -121,7 +121,7 @@ In [[noncommutative geometry]] both principal and associated bundles have analog
 
 * [[Norman Steenrod]], _The topology of fibre bundles_, Princeton Mathematical Series __14__, 1951. viii+224 pp. [MR39258](http://www.ams.org/mathscinet-getitem?mr=39258); reprinted 1994 
 
-* [[Dale Husemöller]], _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer Graduate Texts in Math. __20__, 2nd ed. 1975 (327 p.), 3rd. ed. 1994 (353 p.) 
+* [[Dale Husemöller]], _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer Graduate Texts in Math. __20__, 2nd ed. 1975 (327 p.), 3rd. ed. 1994 (353 p.) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/husemoller)) 
 
 * [[M M Postnikov]], _&#1051;&#1077;&#1082;&#1094;&#1080;&#1080; &#1087;&#1086; &#1075;&#1077;&#1086;&#1084;&#1077;&#1090;&#1088;&#1080;&#1080;. &#1057;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088; IV. &#1044;&#1080;&#1092;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1072;&#1103; &#1075;&#1077;&#1086;&#1084;&#1077;&#1090;&#1088;&#1080;&#1103;_ (Lectures in geometry. Semester IV. Differential geometry.) Nauka, Moscow, 1988. 496 pp. [MR90h:53002](http://www.ams.org/mathscinet-getitem?mr=985587)
 
