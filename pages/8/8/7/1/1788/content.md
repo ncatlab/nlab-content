@@ -1,1 +1,5 @@
-(free)
+
+On objects this takes $F : (\int_C P)^{op} \to Set$ to 
+$$i(F)(A \in C) = \{ (p,a) | p \in P(A), a \in F(A,p) \} = \Sigma_{p \in P(A)} F(A,p)$$
+with obvious projection to $P$. The inverse takes $f : Q \to P$ to
+$$i^{-1}(f)(A, p \in P(A)) = f_A^{-1}(p)$$
