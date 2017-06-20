@@ -293,7 +293,7 @@ be a commutative diagram in a category $\mathcal{C}$.
 
 * If $m_0$ is monic in $\mathcal{C}$, and if the left square is a pullback, then $m_1$ still need not be monic. 
 
-(Right square irrelevant here. Example is  $\mathcal{C}=Set$, $O_{0,0}=O_{0,1}=\emptyset$, $O_{1,1}=\{0,1\}$, $O_{1,0}=\{0\}$, the maps then being uniquely determined, but $m_1$ not being monic. )
+(Right square irrelevant here.)
 
 * If $m_1$ is an iso in $\mathcal{C}$, and if the left square is a pullback, then $m_0$ is an iso in $\mathcal{C}$.
 
