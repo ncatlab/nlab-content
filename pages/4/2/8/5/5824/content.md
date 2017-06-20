@@ -41,7 +41,7 @@ $$
 
 Then:
 
-1. if the right square is a pullback, then the total rectangle is a pullback precisely if the left sqzuare is a pullback.
+1. if the right square is a pullback, then the total rectangle is a pullback precisely if the left square is a pullback.
 
 1. if the left square is a [[pushout]], then the total rectangle is a pushout precisely if the right square is a pushout.
 
