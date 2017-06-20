@@ -7,8 +7,9 @@
 
 __$Grp$__ is the [[category]] with [[group|groups]] as [[object|objects]] and group [[homomorphisms]] as [[morphism]]s.
 
-More abstractly, we can think of $Grp$ as the [[full subcategory]] of $Cat$ with groups as objects.
+More abstractly, we can think of $Grp$ as the [[full subcategory]] of $Cat$ with groups as objects. 
 
+If $E$ is any category with finite products, there is a category $Grp(E)$ of [[group objects]] in $E$. This category if equivalent to the category $Prod(T_{Grp}, E)$ of product-preserving functors from the [[Lawvere theory]] for groups to $E$. 
 
 ##Remarks##
 
@@ -17,6 +18,79 @@ Since groups may be identified with one-object [[groupoid]]s, it is sometimes us
 On the other hand, if we regard $Grp$ as a full sub-$2$-category of $Grpd_*$, the $2$-category of *[[pointed object|pointed]]* groups, then this is [[locally discrete 2-category|locally discrete]] and [[equivalence of categories|equivalent]] to the ordinary $1$-[[1-category|category]] $Grp$.  This is because the only *pointed* intertwiner between two homomorphisms is the identity.
 
 Precisely analogous statements hold for the category [[Alg]] of algebras.
+
+## Properties 
+
+(In this section, all statements about $Grp$ are valid more generally for $Grp(E)$ where $E$ is a [[topos]] with a [[natural numbers object]].) 
+
+The category $Grp$ is one of the prototypical examples of a [[semiabelian category]], and so enjoys some nice properties. For example, it is [[regular category|regular]] and even [[Barr-exact category|exact]], and [[protomodular category|protomodular]] so that one can expect a certain battery of [diagram chasing lemmas](/nlab/show/diagram+chasing+lemmas+-+contents) to hold in it. 
+
+The category of groups is also [[balanced category|balanced]]. This follows from a somewhat remarkable theorem: 
+
++-- {: .num_theorem #eq} 
+###### Theorem 
+Every [[monomorphism]] in $Grp$ is an [[equalizer]]. 
+=-- 
+
+The proofs most commonly seen in the literature are elementary but nonconstructive; a typical example may be found [here](/nlab/show/regular+monomorphism#grpreg) at [[regular monomorphism]]. Here we give a [[constructive mathematics|constructive]] proof. 
+
++-- {: .proof} 
+###### Proof 
+Let $i: H \to G$ be monic, and let $\pi: G \to G/H$ be the canonical [[surjective function]] $g \mapsto g H$. Let $A$ be the [[free object|free]] [[abelian group]] on $G/H$ with $j: G/H \to A$ the canonical injection, and let $A^G$ denote the set of functions $f: G \to A$, with the pointwise abelian group structure inherited from $A$. This carries a $G$-[[module]] structure defined by 
+
+$$(g \cdot f)(g') = f(g' g^{-1}).$$ 
+
+For any $f \in A^G$, the function $d_f: G \to A^G$ defined by $d_f(g) = g f - f$ defines a [[derivation]], i.e., a map satisfying the equation $d_f(g g') = g d_f(g') + d_f(g)$. Consider now the wreath product, i.e., the [[semidirect product]] $A^G \rtimes G$, where the multiplication is defined by $(f, g) \cdot (f', g') = (f + g f', g g')$. By the derivation equation, we have a homomorphism $\phi: G \to A^G \rtimes G$ defined by $\phi(g) := (d_{j \pi}(g), g)$, and there is a second homomorphism $\psi: G \to A^G \rtimes G$ defined by $\psi(g) := (0, g)$. We claim that $i: H \to G$ is the equalizer of the pair $\phi, \psi$. For, 
+
+$$\array{ 
+d_{j\pi}(g) = 0 & \text{iff} & (\forall_{g': G})\; g\cdot j\pi(g') = j\pi(g') \\ 
+ & \text{iff} & (\forall_{g': G})\; j\pi(g' g^{-1}) = j\pi(g') \\ 
+ & \text{iff} & (\forall_{g': G})\; j(g' g^{-1}H) = j(g' H) \\ 
+ & \text{iff} & (\forall_{g': G})\; g' g^{-1} H = g' H \\ 
+ & \text{iff} & g^{-1} H = H \\ 
+ & \text{iff} & g \in H. 
+}$$ 
+
+(All we needed was *some* injection $j: G/H \to A$ into an abelian group; embedding into the free abelian group is a pretty canonical choice.) 
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+This proof can be adapted to show that monomorphisms in the category of [[finite set|finite]] groups (group objects in $FinSet$) are also equalizers. All that needs to be modified is the choice of $A$, which we could take to be $P(G/H)$ with symmetric difference as the addition operation. 
+=-- 
+
++-- {: .num_cor} 
+###### Corollary 
+The category of groups is [[balanced category|balanced]]: every [[epimorphism|epic]] mono is an [[isomorphism]]. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+This follows because an epic equalizer is an equalizer of two maps that (by epi-ness) must be the same, hence the equalizer is an isomorphism. 
+=-- 
+
++-- {: .num_cor} 
+###### Corollary 
+Every epimorphism in the category of groups is a coequalizer. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Since every morphism $f: G \to H$ factors as a *regular* epi $p: G \to G/\ker(f)$ followed by a mono $i$, having $f$ epi implies $i$ is a epic mono. Epic monos $i$ being isomorphisms, $f$ is then forced to be regular epic as well. 
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+Despite the fact that every morphism in $Grp$ factors as an epi followed by a regular mono, it is not true that $Grp^{op}$ is regular. Indeed, (regular) monos are in $Grp$ not stable under pushouts. This follows essentially from the plenitude of [[simple objects]] in $Grp$: if $H$ is not simple but embeds in a simple group $G$, then there is a nontrivial quotient $H \to H/N$, and in the pushout diagram 
+
+$$\array{
+H & \hookrightarrow & G \\ 
+\downarrow & & \downarrow \\ 
+H/N & \to & P
+}$$ 
+
+the object $P$ will be a proper quotient of $G$ and therefore $P \cong 1$, so that the pushout of the mono $H \to G$ which is $H/N \to 1$ fails to be mono. 
+=-- 
 
 ## Related entries
 
