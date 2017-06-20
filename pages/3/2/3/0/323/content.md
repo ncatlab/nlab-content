@@ -275,6 +275,30 @@ On the other hand, in the [[(∞,1)-category]] of [[∞-groupoids]], there is a 
 
 =--
 
+### Preservation properties
+
+Let 
+$$\array{
+O_{0,1} & \to & O_{1,1} & \to  & O_{2,1} &  & &  & \\
+\downarrow m_0 &&\downarrow m_1 &&\downarrow m_2 &&  &&  \\
+O_{0,0} & \to & O_{1,0} & \to & O_{2,0}  & &  & 
+}$$
+be a commutative diagram in a category $\mathcal{C}$. 
+
+* If the left square and the right square are pullback squares, then so is the total square.
+
+* If $m_1$ is monic in $\mathcal{C}$, and if the left square is a pullback, then $m_0$ is monic in $\mathcal{C}$.
+
+(Right square irrelevant here.)
+
+* If $m_0$ is monic in $\mathcal{C}$, and if the left square is a pullback, then $m_1$ still need not be monic. 
+
+(Right square irrelevant here. Example is  $\mathcal{C}=Set$, $O_{0,0}=O_{0,1}=\emptyset$, $O_{1,1}=\{0,1\}$, $O_{1,0}=\{0\}$, the maps then being uniquely determined, but $m_1$ not being monic. )
+
+* If $m_1$ is an iso in $\mathcal{C}$, and if the left square is a pullback, then $m_0$ is an iso in $\mathcal{C}$.
+
+(Right square irrelevant here.)
+
 ### Saturation
 
 The [[saturated class of limits|saturation]] of the class of pullbacks is the class of limits over categories $C$ whose groupoid reflection $\Pi_1(C)$ is trivial and such that $C$ is [[L-finite category|L-finite]].
