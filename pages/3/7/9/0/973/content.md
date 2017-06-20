@@ -18,7 +18,9 @@
 {:toc}
 
 ## Idea
-In a [[Lawvere theory]], one specifies an algebraic theory by giving a [[small category|small]] [[category]] $T$ with finite [[products]]. Then a [[model]] of the theory is given by a [[functor]] $T \to Set$ that [[preserved limit|preserves]] products. A **sketch** is a generalization of this idea, where we take a small category $T$, and pick some distinguished limit and colimit cones. Then a model of the sketch is a functor that preserves these limits and colimits.
+In a [[Lawvere theory]], one specifies an algebraic theory by giving a [[small category|small]] [[category]] $T$ with [[finite products]]. Then a [[model]] of the theory is given by a [[functor]] $T \to Set$ that [[preserved limit|preserves]] products. 
+
+A **sketch** is a generalization of this idea, where we take a [[small category]] $T$, and pick some distinguished [[limit]] and [[colimit]] [[cones]]. Then a model of the sketch is a functor that preserves these limits and colimits.
 
 ## Definition
 
