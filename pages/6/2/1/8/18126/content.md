@@ -8695,13 +8695,13 @@ Then also their [[product topological space]]  $\underset{i \in I}{\prod}X_i$
 Let $U_1, U_2 \subset \underset{i \in I}{\prod}X_i$ be an [[open cover]]
 of the product space by two disjoint open subsets. We need to show that precisely one of the two
 is empty. Since each $X_i$ is connected and hence non-empty, the product space is not empty, and hence
-it is sufficient to show that at lest one of the two is empty.
+it is sufficient to show that at least one of the two is empty.
 
-Assume on the contrary that both $U_1$ and $U_2$ are non-empty.
+Assume on the contrary that both $U_1$ and $U_2$ were non-empty.
 
 Observe first that if so, then we could find $x_1 \in U_1$ and $x_2 \in U_2$
-whose coordinates differed only a a finite subset of $I$. This is since by the nature of the
-[[Tychonoff topology]] $\pi_i(U_1) = X_i$ and $\pi_i(U_2) = X_i$ for all but a finite number of $i \in iI$.
+whose coordinates differed only in a finite subset of $I$. This is since by the nature of the
+[[Tychonoff topology]] $\pi_i(U_1) = X_i$ and $\pi_i(U_2) = X_i$ for all but a finite number of $i \in i$.
 
 Next observe that we then could even find $x'_1 \in U_1$ that differed only in a single coordinate from $x_2$:
 Because pick one coordinate in which $x_1$ differs from $x_2$ and change it to the corresponding coordinate of $x_2$.
@@ -8712,7 +8712,7 @@ this finally yields an $x'_1$ as claimed.
 
 Therefore it is now sufficient to see that it leads to a contradiction to assume
 that there are points $x_1 \in U_1$ and $x_2 \in U_2$
-that differ in only the $i_0$th coordinate, for some $i_0 \in I$ then $x_1 = x_2$.
+that differ in only the $i_0$th coordinate, for some $i_0 \in I$, in that this would imply that $x_1 = x_2$.
 
 Observe that the inclusion
 
@@ -8721,10 +8721,10 @@ $$
 $$
 
 which is the identity on the $i_0$th component and is otherwise constant on the $i$th component of
-$x_1$ or equivalently of $x_2$ is a continuous function, by the nature of the Tychonoff topology.
+$x_1$ or equivalently of $x_2$ is a continuous function, by the nature of the [[Tychonoff topology]] (example \ref{InfiniteProductTopologicalSpace}).
 
 Therefore also the restrictions $\iota^{-1}(U_1)$ and $\iota^{-1}(U_2)$ are open subsets.
-Moreover they are still disjoint and cover $X_i$. Hence by the connectedness of $X_i$,
+Moreover they are still disjoint and cover $X_{i_0}$. Hence by the connectedness of $X_{i_0}$,
 precisely one of them is empty. This means that the $i_0$-component of both $x_1$ and $x_2$
 must be in the other subset of $X_i$, and hence that $x_1$ and $x_2$ must both be in $U_1$
 or both in $U_2$, contrary to the assumption.
@@ -8735,7 +8735,7 @@ or both in $U_2$, contrary to the assumption.
 $\,$
 
 While topological spaces are not always connected, they
-always decompose into their connected components:
+always decompose _at least as sets_ into their connected components:
 
 +-- {: .num_defn #ComponentsConnected}
 ###### Definition
@@ -8750,7 +8750,7 @@ $$
   (x \sim y)
     \;\coloneqq\;
   \left(
-    \underset{ U \subset X \; \text{\open} }{\exists}
+    \underset{ U \subset X \; \text{open} }{\exists}
     \left(
        \left( x,y \in U \right)
         \phantom{A}\text{and}\phantom{A}
@@ -8760,15 +8760,18 @@ $$
   \,.
 $$
 
+Equivalently, the connected components are the [[maximal elements]] in the [[pre-ordered set]] of connected [[subspaces]],
+pre-ordred by inclusion.
+
 =--
 
 +-- {: .num_example #DisjointUnionConnectedComponents}
 ###### Example
 **([[connected components]] of [[disjoint union spaces]])**
 
-For $\{X_i\}_{i \in I}$ a $I$-indexed [[set]] of [[connected topological spaces]] then
+For $\{X_i\}_{i \in I}$ an $I$-indexed [[set]] of [[connected topological spaces]], then
 the set of [[connected components]] (def. \ref{ComponentsConnected}) of their
-[[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces}) is the index set $I$.
+[[disjoint union space]] $\underset{i \in I}{\sqcup}X_i$ (example \ref{DisjointUnionOfTopologicalSpaces}) is the index set $I$.
 
 =--
 
@@ -8780,7 +8783,7 @@ below. But first notice some basic properties of connected components:
 ###### Proposition
 **([[topological closure]] of [[connected topological space|connected]] [[subspace]] is [[connected topological space|connected]])**
 
-Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] which, as a [[subspace]], is connected. Then also the [[topological closure]] $Cl(S) \subset X$ is connected
+Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] which, as a [[subspace]], is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}). Then also the [[topological closure]] $Cl(S) \subset X$ is connected
 
 =--
 
@@ -8806,14 +8809,17 @@ This means that $B = \emptyset$, and hence that $Cl(S)$ is connected.
 ###### Proposition
 **([[connected components]] are [[closed subset|closed]])**
 
-Let $(X,\tau)$ be a [[topological space]]. Then its connected components (def. \ref{ComponentsConnected}) are [[closed subsets]].
+Let $(X,\tau)$ be a [[topological space]]. Then its [[connected components]] (def. \ref{ComponentsConnected}) are [[closed subsets]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By definition, the connected components are [[maximal elements]] in the set of connected subspaces [[preorder|pre-ordered]] by inclusion. By prop. \ref{ClosureOfConnectedSubspaceIsConnected} this means that they must contain their closures, hence they must equal their closures.
+By definition, the connected components are [[maximal elements]] in the set of connected subspaces [[preorder|pre-ordered]] by inclusion. 
+Assume a connected component $U$ were not closed. By prop. \ref{ClosureOfConnectedSubspaceIsConnected} 
+its closure $Cl(U)$ is still closed, and would be strictly larger, contradicting the maximality of $U$. 
+This yields a [[proof by contradiction]]. 
 
 =--
 
@@ -8821,6 +8827,7 @@ By definition, the connected components are [[maximal elements]] in the set of c
 ###### Remark
 
 Prop. \ref{ConnectedComponentsAreClosed} implies that when a space has a [[finite set]] of connected components, then they are not just closed but also open, hence [[clopen subsets]] (because then each is the [[complement]] of a finite union of closed subspaces).
+This in turn means that the space is the [[disjoint union space]] of its connected components.
 
 For a non-finite set of connected components this remains true if the space is [[locally connected topological space|locally connected]]
 see def. \ref{LocallyConnected}, lemma \ref{AlternativeCharacterizationOfLocalConnectivity} below.
@@ -8859,9 +8866,9 @@ But the important point is that there are non-discrete totally disconnected topo
 
 +-- {: .num_example #RationalNumbersAreTotallyDisconnected}
 ###### Example
-**(the [[rational numbers]] are [[totally disconnected topological space|totally disconnected]])**
+**(the [[rational numbers]] are [[totally disconnected topological space|totally disconnected]] but non-[[discrete topological space]])**
 
-The [[rational numbers]] $\mathbb{Q} \subset \mathbb{R}$ equipped #
+The [[rational numbers]] $\mathbb{Q} \subset \mathbb{R}$ equipped 
 with their [[subspace topology]] (def. \ref{SubspaceTopology})
 inherited
 from the [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology}) on the [[real numbers]], form a [[totally disconnected space]] (def. \ref{TotallyDisconnectedTopologicalSpace}), but not a [[discrete topological space]]
@@ -8893,7 +8900,7 @@ $$
   \,.
 $$
 
-Hence no [[inhabited set|inhabited]] open subspace of the rational numbers is connected.
+Hence no [[inhabited set|non-empty]] open subspace of the rational numbers is connected.
 
 =--
 
@@ -8911,7 +8918,7 @@ The [[Cantor space]] $\underset{n \in \mathbb{N}}{\prod} Disc(\{0,1\})$ (example
 ###### Proof
 
 The [[base of a topology|base opens]] (def. \ref{TopologyBase})
-of the [[product space]] $\underset{n \in \mathbb{N}}{\prod} Disc(\{1,2\})$ are of the form
+of the [[product topological space]] $\underset{n \in \mathbb{N}}{\prod} Disc(\{1,2\})$ (example \ref{InfiniteProductTopologicalSpace}) are of the form
 
 $$
   \left( \underset{i \in I \subset \mathbb{N}}{\prod} U_i \right)
@@ -8978,7 +8985,8 @@ which _are_ the disjoint union of their connected components:
 A [[topological space]]  $(X,\tau)$ is called _[[locally connected topological space|locally connected]]_
 if the following equivalent conditions hold:
 
-1. For every point $x$ and every [[neighbourhood]] $U_x \supset \{x\}$ there is a [[connected topological space|connected]]
+1. For every point $x$ and every [[neighbourhood]] $U_x \supset \{x\}$ there is 
+   a [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace})
    open neighbourhood $Cn_x \subset U_x$.
 
 1. Every [[connected component]] of every open [[subspace]] of $X$ is open.
@@ -9001,15 +9009,16 @@ $\,$
 
 1) $\Rightarrow$ 2)
 
-Assume $X$ is locally connected, and let $U \subset X$ be an open subset with $U_0 \subset U$ a connected component. We need to show that $U_0$ is open.
+Assume every neighbourhood of $X$ contains a connected neighbourhood 
+and let $U \subset X$ be an open subset with $U_0 \subset U$ a connected component. We need to show that $U_0$ is open.
 
-Consider any point $x \in U_0$. Since then also $x \in U$, the defintion of local connectedness, def. \ref{LocallyConnected}, implies that there is a connected open neighbourhood $U_{x,0}$ of $X$. Observe that this must be contained in $U_0$, for if it were not then $U_0 \cup U_{x,0}$ were a larger open connected open neighbourhood, contradicting the maximality of the connected component $U_0$.
+Consider any point $x \in U_0$. Since then also $x \in U$, there is a connected open neighbourhood $U_{x,0}$ of $x$ in $X$. Observe that this must be contained in $U_0$, for if it were not then $U_0 \cup U_{x,0}$ were a larger open connected open neighbourhood, contradicting the maximality of the connected component $U_0$.
 
 Hence $U_0 = \underset{x \in U_0}{\cup} U_{x,0}$ is a union of open  subsets, and hence itself open.
 
 2) $\Rightarrow$ 3)
 
-Now assume that every connected component of every open subset $U$ is open. Since the connected components generally consitute a [[cover]] of $X$ by [[disjoint subsets]] this means that now they for an [[open cover]] by disjoint subsets. But by forming intersections with the cover this implies that every open subset of $U$ is the disjoint union of open subsets of the connected components (and of course every union of open subsets of the connected components is still open in $U$), which is the definition of the topology on the [[disjoint union space]] of the connected components.
+Now assume that every connected component of every open subset $U$ is open. Since the connected components generally constitute a [[cover]] of $X$ by [[disjoint subsets]], this means that now they form an [[open cover]] by disjoint subsets. But by forming intersections with the cover this implies that every open subset of $U$ is the disjoint union of open subsets of the connected components (and of course every union of open subsets of the connected components is still open in $U$), which is the definition of the topology on the [[disjoint union space]] of the connected components.
 
 3) $\Rightarrow$ 1)
 
@@ -9023,8 +9032,8 @@ But, by definition, $U_x$ contains an open neighbourhood of $x$ and by assumptio
 ###### Example
 **([[Euclidean space]] is [[locally connected topological space|locally connected]])
 
-For $n \in \mathbb{N}$ the [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) (with its [[metric topology]]
-(example \ref{MetricTopology}) is [[locally connected topological space|locally connected]]
+For $n \in \mathbb{N}$ the [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) (with its [[metric topology]], 
+example \ref{MetricTopology}) is [[locally connected topological space|locally connected]]
 (def. \ref{LocallyConnected}).
 
 =--
@@ -9034,7 +9043,7 @@ For $n \in \mathbb{N}$ the [[Euclidean space]] $\mathbb{R}^n$ (example \ref{Eucl
 
 By nature of the Euclidean metric topology, every neighbourhood $U_x$ of a point $x$
 contains an [[open ball]] containing $x$ (def. \ref{OpenBalls}).
-Moreover, every open ball clearly contains an open cube,
+Moreover, every open ball clearly contains an open [[cube]],
 hence a [[product space]] $\underset{i \in \{1, \cdots, n\}}{\prod} (x_i-\epsilon, x_i + \epsilon)$ of [[open intervals]] which is still a neighbourhood of $x$ (example \ref{ClosedIntervalsProduct}).
 
 Now intervals are connected by example \ref{ConnectedSubspacesOfRealLineAreTheIntervals}
@@ -9081,7 +9090,8 @@ $$
   \gamma \;\colon\; [0,1] \longrightarrow X
 $$
 
-from the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]].
+from the [[closed interval]] (example \ref{OpenAndClosedIntervals}) equipped with 
+its [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology}).
 
 We say that this path _connects_ its endpoints $\gamma(0), \gamma(1) \in X$.
 
@@ -9111,7 +9121,7 @@ $$
   const_x \;\colon\; [0,1] \to \ast \overset{}{\longrightarrow} X
 $$
 
-is continuous (example \ref{PointsViaContinuousFunctions}). Therefore $x \sim_{pcon} x$  for all point ([[reflexive relation|reflexivity]]).
+is continuous (example \ref{PointsViaContinuousFunctions}). Therefore $x \sim_{pcon} x$  for all points ([[reflexive relation|reflexivity]]).
 
 For $x,y \in X$ two points and
 
@@ -9142,7 +9152,12 @@ $$
   [0,1] \longrightarrow X
 $$
 
-two paths with $\gamma_1(0) = x$, $\gamma_1(1) = \gamma_2(0) = y$ and $\gamma_2(1) = z$,
+two paths with $\gamma_1(0) = x$, $\gamma_1(1) = \gamma_2(0) = y$ and $\gamma_2(1) = z$
+
+$$
+  \gamma_1(x) \overset{\gamma_1}{\righsquigarrow} \gamma_1(1) = \gamma_2(0) \overset{ \gamma_2 }{\rightsquigarrow} \gamma_2(1)
+$$
+
 consider the function
 
 $$
@@ -9151,6 +9166,7 @@ $$
     \\
     t
     &\mapsto&
+    \mathrlap{
     \left\{
       \array{
         \gamma_1(2t) & \vert& 0 \leq t \leq 1/2
@@ -9158,6 +9174,7 @@ $$
         \gamma_2(2t-1) &\vert& 1/2 \leq t \leq 1
       }
     \right.
+    }
   }
   \,.
 $$
@@ -9177,9 +9194,12 @@ are called the _path-connected components_ of $X$.
 The set of the path-connected components is usually denoted
 
 $$
-  \pi_0(X) \coloneqq X/\sim_{pcon}
+  \pi_0(X) \;\coloneqq\; X/\sim_{pcon}
   \,.
 $$
+
+(The notation  reflects the fact that this is the degree-zero case of a more general concept of _[[homotopy groups]]_ $\pi_n$ for all $n \in \mathbb{N}$. We discuss the _[[fundamental group]]_ $\pi_1$ in [[Introduction to Topology -- 2|part 2]]. The higher homotopy groups
+are discussed in _[[Introduction to Homotopy Theory]]_).
 
 If there is a single path-connected component ($\pi_0(\ast) \simeq \ast$),
 then $X$ is called a _[[path-connected topological space]]_.
@@ -9235,14 +9255,14 @@ $$
 with either of its two possible topologies (example \ref{ImageFactorization})
 is path-connected.
 
-In particular path-connectednss is a [[topological property]] (def. \ref{Homeomorphism}).
+In particular path-connectedness is a [[topological property]] (def. \ref{Homeomorphism}).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Let $x,y \in X$ be two points. Since $p \colon X \to f(X)$ is surjective,
+Let $x,y \in X$ be two points. Since $p \;\colon\; X \to f(X)$ is surjective,
 there are pre-images $p^{-1}(x), p^{-1}(y) \in X$. Since $X$ is path-connected,
 there is a continuous function
 
@@ -9251,7 +9271,7 @@ $$
 $$
 
 with $\gamma(0) = p^{-1}(x)$ and $\gamma(1) = p^{-1}(y)$. Since the composition of continuous
-function is continuous, it follows that $p \circ \gamma \colon [0,1] \to f(X)$ is a path
+functions is continuous, it follows that $p \circ \gamma \;\colon\; [0,1] \to f(X)$ is a path
 connecting $x$ with $y$.
 
 
@@ -9263,12 +9283,12 @@ connecting $x$ with $y$.
 **([[path space]])**
 
 Let $X$ be a [[topological space]].
-Since the interval $[0,1]$ is a [[locally connected topological space]] (example \ref{MetricSpacesAreLocallyCompact})
+Since the [[interval]] $[0,1]$ is a [[locally compact topological space]] (example \ref{MetricSpacesAreLocallyCompact})
 there is the [[mapping space]]
 
 $$
   P X
-  \;\coloneqq\; Maps([0,1])
+  \;\coloneqq\; Maps([0,1],X)
 $$
 
 hence the set of [[paths]] in $X$ (def. \ref{Path})
@@ -9322,7 +9342,7 @@ is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpac
 +-- {: .proof}
 ###### Proof
 
-Assume it were not, then it would be covered by two disjoint inhabited open subsets $U_1, U_2 \subset X$. But by path connectedness there were a continuous path $\gamma \colon [0,1] \to X$ from a point in one of the open subsets to a point in the other. The continuity would imply that $\gamma^{-1}(U_1), \gamma^{-1}(U_2) \subset [0,1]$ were a disjoint open cover of the interval. This would be in contradiction to the fact that intervals are connected. Hence we have a [[proof by contradiction]].
+Assume it were not, then it would be covered by two disjoint non-empty open subsets $U_1, U_2 \subset X$. But by path connectedness there were a continuous path $\gamma \colon [0,1] \to X$ from a point in one of the open subsets to a point in the other. The continuity would imply that $\gamma^{-1}(U_1), \gamma^{-1}(U_2) \subset [0,1]$ were a disjoint open cover of the interval. This would be in contradiction to the fact that intervals are connected. Hence we have a [[proof by contradiction]].
 
 =--
 
@@ -9341,7 +9361,7 @@ is [[path-connected topological space|path-connected]] (def. \ref{PathConnectedC
 ###### Examples
 **([[Euclidean space]] is [[locally path-connected topological space|locally path-connected]])**
 
-For $n \in \mathbb{N}$ then [[Euclidean space]] $\mathbb{R}^n$ (with its [[metric topology]]) is locally path-connected, since each [[open ball]] is a [[path-connected topological space]].
+For $n \in \mathbb{N}$ then [[Euclidean space]] $\mathbb{R}^n$ (with its [[metric topology]]) is locally path-connected, since each [[open ball]] is a [[path-connected topological space]] (example \ref{PathConnectedEuclideanSpace}).
 
 =--
 
@@ -12235,9 +12255,9 @@ $$
 
 By [[locally compact topological space|local compactness]], every point $x \in X$ has an open neighbourhood $V_x$ whose [[topological closure]] $Cl(V_x)$ is [[compact topological space|compact]].
 
-By definition of [[base of a topology]] (def. \ref{TopologyBase}), 
-for each $x \in X$ there exists $B_x \in \beta$ such that ${x} \subset B_x \subset V_x$, 
-hence such that $Cl(B_x) \subset Cl(V_x)$. 
+By definition of [[base of a topology]] (def. \ref{TopologyBase}),
+for each $x \in X$ there exists $B_x \in \beta$ such that ${x} \subset B_x \subset V_x$,
+hence such that $Cl(B_x) \subset Cl(V_x)$.
 
 Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] (lemma \ref{SubsetsInClosedSubspace}),
 since $Cl(V_x)$ is compact by assumption,
@@ -12862,7 +12882,7 @@ In the discussion of [[topological manifolds]] [below](#Manifolds), we are parti
 interested in topological spaces that are both paracompact as well as Hausdorff.
 In fact these are even normal:
 
-+-- {: .num_defn #ParacompactHausdorffSpacesAreNormal}
++-- {: .num_prop #ParacompactHausdorffSpacesAreNormal}
 ###### Proposition
 **([[paracompact Hausdorff spaces are normal]])**
 
@@ -15527,7 +15547,7 @@ This implies the equivalence of following further regularity properties:
 ###### Proposition
 **(equivalence of regularity conditions for [[locally Euclidean space|locally Euclidean]] [[Hausdorff spaces]])**
 
-Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) 
+Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace})
 which is [[Hausdorff topological space|Hausdorff]] (def. \ref{HausdorffTopologicalSpace}).
 
 Then the following are equivalent:
@@ -15545,20 +15565,29 @@ Then the following are equivalent:
 ###### Proof
 
 First, observe that $X$ is [[locally compact]] in the strong sense of def. \ref{LocallyCompactSpace}:
-By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact in the weak sense that every point has a [[neighbourhood base]] of compact neighbourhoods, but since $X$ is assumed to be Hausdorff,
+By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact in the weak sense that 
+neighbourhood contains a compact neighbourhood, but since $X$ is assumed to be Hausdorff,
 this implies the stronger statement by prop. \ref{InHausdorffSpacesDefinitionsOfLocalCompactnessAgree}.
 
 **1) $\Rightarrow$ 2)**
 
 Let $X$ be sigma-compact. We show that then $X$ is [[second-countable topological space|second-countable]]:
 
-By sigma-compactness there exists a [[countable set]] $\{K_i \subset X\}_{i \in I}$ of compact subspaces. By $X$ being locally Euclidean, each admits an [[open cover]] by restrictions of [[Euclidean spaces]]. By their compactness, each of these has a subcover $\{ \mathbb{R}^n \overset{\phi_{i,j}}{\to} X \}_{j \in J_i}$ with $J_i$ a finite set. Since [[countable unions of countable sets are countable]], we have obtained  a countable cover by Euclidean spaces $\{ \mathbb{R}^n  \overset{\phi_{i,j}}{\to} X\}_{i \in I, j \in J_i}$. Now Euclidean space itself is second countable (by example \ref{SecondCountableEuclideanSpace}), hence admits a countable set $\beta_{\mathbb{R}^n}$ of base open sets. As a result the union $\underset{{i \in I} \atop {j \in J_i}}{\cup} \phi_{i,j}(\beta_{\mathbb{R}^n})$ is a base of opens for $X$. But this is a countable union of countable sets, and since [[countable unions of countable sets are countable]] we have obtained a countable base for the topology of $X$. This means that $X$ is second-countable.
+By sigma-compactness there exists a [[countable set]] $\{K_i \subset X\}_{i \in I}$ of compact subspaces. By $X$ being locally Euclidean, each  $K_i$ admits an [[open cover]] by restrictions of [[Euclidean spaces]]. By their compactness, each $K_i$
+has a subcover 
+
+$$
+  \{ \mathbb{R}^n \overset{\phi_{i,j}}{\to} X \}_{j \in J_i}
+$$
+
+with $J_i$ a finite set. Since [[countable unions of countable sets are countable]], we have 
+obtained  a countable cover of $X$ by Euclidean spaces $\{ \mathbb{R}^n  \overset{\phi_{i,j}}{\to} X\}_{i \in I, j \in J_i}$. Now Euclidean space itself is second countable (by example \ref{SecondCountableEuclideanSpace}), hence admits a countable set $\beta_{\mathbb{R}^n}$ of base open sets. As a result the union $\underset{{i \in I} \atop {j \in J_i}}{\cup} \phi_{i,j}(\beta_{\mathbb{R}^n})$ is a base of opens for $X$. But this is a countable union of countable sets, and since [[countable unions of countable sets are countable]] we have obtained a countable base for the topology of $X$. This means that $X$ is second-countable.
 
 **1) $\Rightarrow$ 3)**
 
 Let $X$ be sigma-compact. We show that then $X$ is paracompact with a countable set of connected components:
 
-Since [[locally compact and sigma-compact spaces are paracompact]] (prop. \ref{ParacompactFromLocallyCompactAndSigmacompact}), it follows that $X$ is paracompact. By [[locally connected topological space|local connectivity]] (prop. \ref{LocalPropertiesOfLocallyEuclideanSpace}) $X$ is the [[disjoint union space]] of its [[connected components]] (def. \ref{LocallyConnected}). Since, by the previous statement, $X$ is also second-countable it cannot have an uncountable set of connected components.
+Since [[locally compact and sigma-compact spaces are paracompact]] (prop. \ref{ParacompactFromLocallyCompactAndSigmacompact}), it follows that $X$ is paracompact. By [[locally connected topological space|local connectivity]] (prop. \ref{LocalPropertiesOfLocallyEuclideanSpace}) $X$ is the [[disjoint union space]] of its [[connected components]] (def. \ref{LocallyConnected}, lemma \ref{AlternativeCharacterizationOfLocalConnectivity}). Since, by the previous statement, $X$ is also second-countable it cannot have an uncountable set of connected components. (Because there must be at least one base open contained in every connected component.)
 
 **2)$\Rightarrow$ 1)** Let $X$ be second-countable, we need to show that it is sigma-compact.
 
@@ -15573,7 +15602,7 @@ such that
 the topological closures $\{K_i \coloneqq Cl(U_i) \subset X\}_{i \in I}$
 constitute a cover by [[compact topological space|compact]] [[subspaces]].
 By paracompactness there is a locally finite refinement of this cover.
-Since [[paracompact Hausdorff spaces are normal]], the [[shrinking lemma]] applies (lemma \ref{ShrinkingLemmaForLocallyFiniteCountableCovers}) to this refinement and yields a locally finite open cover
+Since [[paracompact Hausdorff spaces are normal]] (prop. \ref{ParacompactHausdorffSpacesAreNormal}), the [[shrinking lemma]] applies (lemma \ref{ShrinkingLemmaForLocallyFiniteCountableCovers}) to this refinement and yields a locally finite open cover
 
 $$
   \mathcal{V} \coloneqq \{V_j \subset X \}_{j \in J}
@@ -15584,13 +15613,13 @@ Since [[closed subsets of compact spaces are compact]] (lemma \ref{ClosedSubsets
 
 Now fix any $j_0 \in J$.
 
-We claim that for every $j \in J$ there is a finite sequence of indices $(j_0, j_1, \cdots, j_n, j_{n+1} = j)$ with the property
+We claim that for every $j \in J$ there is a finite sequence of indices $(j_0, j_1, \cdots, j_n, j_{n} = j)$ with the property
 that $V_{j_k} \cap V_{j_{k+1}} \neq \emptyset$ for all $k \in \{0, \cdots, n\}$.
 
 To see this, first observe that it is sufficient to show sigma-compactness for the case that $X$ is [[connected topological space|connected]]. From this the general statement follows since [[countable unions of countable sets are countable]]. Hence assume that $X$ is connected.
 It follows from prop. \ref{PathConnectedFromConnectedLocallyEuclideanSpace} that  $X$ is [[path-connected topological space|path-connected]].
 
-Hence for any $x \in V_{j_0}$ and $y \in V_{j}$ there is a path $\gamma \colon [0,1] \to X$ connecting $x$ with $y$. Since the [[closed interval]] is compact
+Hence for any $x \in V_{j_0}$ and $y \in V_{j}$ there is a path $\gamma \colon [0,1] \to X$ (def. \ref{Path}) connecting $x$ with $y$. Since the [[closed interval]] is compact (example \ref{CompactClosedInterval})
 and since [[continuous images of compact spaces are compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}), it follows that there is a finite subset of the $V_i$ that covers the image of this path. This proves the claim.
 
 It follows that there is a function
@@ -15603,17 +15632,17 @@ which sends each $V_j$ to the [[minimum]] natural number $n$ as above.
 
 We claim now that for all $n \in \mathbb{N}$ the [[preimage]] of $\{0,1, \cdots, n\}$ under this function is a [[finite set]].
 Since [[countable unions of countable sets are countable]] this
-means that $f$ serves as an countable enumeration of the set $J$ and hence implies  implies that $\{ Cl(V_j) \subset X\}_{j \in J}$ is a countable cover of $X$ by compact subspaces, hence that $X$ is sigma-compact.
+means that $f$ serves as a countable enumeration of the set $J$ and hence implies that $\{ Cl(V_j) \subset X\}_{j \in J}$ is a countable cover of $X$ by compact subspaces, hence that $X$ is sigma-compact.
 
-We prove this last claim by [[induction]]. It is true for $n = 0$ by construction. Assume it is true for some $n \in \mathbb{N}$, hence that $f^{-1}(\{0,1, \cdots, n\})$ is a finite set. Since finite unions of compact subspaces are again compact (example \ref{UnionsAndIntersectionOfCompactSubspaces}) it follows that
+We prove this last claim by [[induction]]. It is true for $n = 0$ by construction, since $f^{-1}(\{0\) = V_{j_0}$. Assume it is true for some $n \in \mathbb{N}$, hence that $f^{-1}(\{0,1, \cdots, n\})$ is a finite set. Since finite unions of compact subspaces are again compact (example \ref{UnionsAndIntersectionOfCompactSubspaces}) it follows that
 
 $$
   K_n
     \coloneqq
-  \underset{V \in f^{-1}(\{0,\cdots, n\})}{\cup} V
+  \underset{V \in f^{-1}(\{0,\cdots, n\})}{\cup} Cl(V)
 $$
 
-is compact. By local finiteness of the $\{V_j\}_{j \in J}$, every point $x \in K_n$ has an open neighbourhood $W_x$ that intersects only a finite set of the $V_j$. By compactness of $K_n$, the cover $\{W_x \cap X \subset K_n\}_{x \in K_n}$ has a finite subcover. In conclusion this implies that only a finite number of the $V_j$ intersect $K_n$.
+is compact. By local finiteness of the $\{Cl(V_j)\}_{j \in J}$, every point $x \in K_n$ has an open neighbourhood $W_x$ that intersects only a finite set of the $Cl(V_j)$. By compactness of $K_n$, the cover $\{W_x \cap K_nfGi \subset K_n\}_{x \in K_n}$ has a finite subcover. In conclusion this implies that only a finite number of the $V_j$ intersect $K_n$.
 
 Now by definition $f^{-1}(\{0,1,\cdots, n+1\})$ is a subset of those $V_j$ which intersect $K_n$, and hence itself finite.
 
@@ -15657,18 +15686,18 @@ that richer definition before discussing them.
 ###### Definition
 **([[local chart]], [[atlas]] and [[gluing function]])
 
-Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold}), then
+Given an $n$-dimensional [[topological manifold]] $X$ (def. \ref{TopologicalManifold}), then
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/ChartsOfAManifold.png" width="400">
 </div>
 
 
-1. an [[open subset]] $U \subset X$ and a [[homeomorphism]] $\phi \colon \mathbb{R}^n \overset{\phantom{A}\simeq\phantom{A}}{\to} U$ is also called a _[[local coordinate chart]]_ of $X$.
+1. An [[open subset]] $U \subset X$ and a [[homeomorphism]] $\phi \colon \mathbb{R}^n \overset{\phantom{A}\simeq\phantom{A}}{\to} U$ is also called a _[[local coordinate chart]]_ of $X$.
 
-1. an [[open cover]] of $X$ by local charts $\left\{ \mathbb{R}^n \overset{\phi_i}{\to} U \subset X \right\}_{i \in I}$ is called an _[[atlas]]_ of the topological manifold.
+1. An [[open cover]] of $X$ by local charts $\left\{ \mathbb{R}^n \overset{\phi_i}{\to} U \subset X \right\}_{i \in I}$ is called an _[[atlas]]_ of the topological manifold.
 
-1. denoting for each $i,j \in I$ the [[intersection]] of the $i$th chart with the $j$th chart in such an atlas by
+1. Denoting for each $i,j \in I$ the [[intersection]] of the $i$th chart with the $j$th chart in such an atlas by
 
    $$
      U_{i j} \coloneqq U_i \cap U_j
@@ -15698,36 +15727,39 @@ Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold
 =--
 
 
-
-For convenience we recall the definition of [[differentiable functions]]
-between [[Euclidean spaces]].
+Next we consider the case that the gluing functions of a topologiclal manifold
+are [[differentiable functions]] in which case one speaks of a _[[differentiable manifold]]_ (def. \ref{DifferentiableManifold} below).
+For convenience we first recall the definition of [[differentiable functions]]
+between [[Euclidean spaces]]:
 
 +-- {: .num_defn #DifferentiableFunctionBetweenCartesianSpaces}
 ###### Definition
 **([[differentiable functions]] between [[Euclidean spaces]])**
 
-Let $n \in \mathbb{N}$ and let $U \subset \mathbb{R}^n$ be an [[open subset]].
+Let $n \in \mathbb{N}$ and let $U \subset \mathbb{R}^n$ be an [[open subset]] of [[Euclidean space]] (example \ref{EuclideanNorm}).
 
 Then a [[function]] $f \;\colon\; U \longrightarrow \mathbb{R}$ is called  **differentiable** at $x\in U$
 if there exists a [[linear map]] $d f_x : \mathbb{R}^n \to \mathbb{R}$ such that the following [[limit of a sequence|limit]]
-exists as $h$ approaches zero "from all directions at once":
+exists and vanishes as $h$ approaches zero "from all directions at once":
 
 $$
   \lim_{h\to 0} \frac{f(x+h)-f(x) - d f_x(h)}{\Vert h\Vert} = 0.
 $$
 
-This means that for all $\epsilon \in (0,\infty)$ there exists an [[open subset]] $V\subseteq U$ containing $x$ such that whenever $x+h\in V$ we have $\frac{f(x+h)-f(x) - d f_x(h)}{\Vert h\Vert} \lt \epsilon$.
+This means that for all $\epsilon \in (0,\infty)$ there exists an [[open neighbourhood]] $V_x\subseteq U$ of $x$ such that whenever $x+h\in V$ we have $\frac{f(x+h)-f(x) - d f_x(h)}{\Vert h\Vert} \lt \epsilon$.
 
-We say that $f$ is _differentiable on_ a [[subset]] $I$ of $U$ if $f$ is differentiable at every $x\in I$, and _differentiable_ if $f$ is differentiable on all of $U$. We say that $f$ is *continuously differentiable* if it is differentiable and  $d f$ is a [[continuous function]].
+We say that $f$ is _differentiable on_ a [[subset]] $S$ of $U$ if $f$ is differentiable at every $x\in S$, 
+and we say that $f$ is _differentiable_ if $f$ is differentiable on all of $U$. 
+We say that $f$ is *continuously differentiable* if it is differentiable and  $d f$ is a [[continuous function]].
 
-The map $d f_x$ is called the **derivative** or **differential of $f$ at $x$**.
+The function $d f_x$ is called the **derivative** or **differential of $f$ at $x$**.
 
 More generally, let $n_1, n_2 \in \mathbb{N}$ and let $U\subseteq \mathbb{R}^{n_1}$ be an [[open subset]].
 
 Then a [[function]] $f \;\colon\; U \longrightarrow \mathbb{R}^{n_2}$ is _differentiable_  if for all $i \in \{1, \cdots, n_2\}$ the component function
 
 $$
-  f_i \;\colon\; U \overset{f}{\longrightarrow} \mathbb{R}^{n_2} \overset{pr_u}{\longrightarrow}  \mathbb{R}
+  f_i \;\colon\; U \overset{f}{\longrightarrow} \mathbb{R}^{n_2} \overset{pr_i}{\longrightarrow}  \mathbb{R}
 $$
 
 is differentiable in the previous sense
@@ -15747,7 +15779,8 @@ $$
 
 to the space of [[linear maps]] from $\mathbb{R}^{n_1}$ to $\mathbb{R}^{n_2}$, which is canonically itself a [[Euclidean space]]. We say that $f$ is _twice continuously differentiable_ if $d f$ is continuously differentiable.
 
-Generally then, for $k \in \mathbb{N}$ the function $f$ is called _$k$-fold continuously differentiable_ or _of class $C^k$_ if the $k$-fold differential $d^k f$ exists and is a continuous function.
+Generally then, for $k \in \mathbb{N}$ the function $f$ is called _$k$-fold continuously differentiable_ or _of class $C^k$_ if 
+for all $j \leq k$ the $j$-fold differential $d^j f$ exists and is a continuous function.
 
 Finally, if $f$ is $k$-fold continuously differentiable for all $k \in \mathbb{N}$ then it is called a _[[smooth function]]_
 or _of class $C^\infty$_.
@@ -15755,7 +15788,7 @@ or _of class $C^\infty$_.
 =--
 
 Of the various properties satisfied by [[differentiation]], the following plays a special role in the theory of
-differentiable manifolds (notably in the discussion of their [[tangent bundles]]):
+differentiable manifolds (notably in the discussion of their [[tangent bundles]], def. \ref{TangentBundle} below):
 
 +-- {: .num_prop #ChainRuleOnEuclideanSpace}
 ###### Proposition
