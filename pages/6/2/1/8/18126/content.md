@@ -8816,10 +8816,10 @@ Let $(X,\tau)$ be a [[topological space]]. Then its [[connected components]] (de
 +-- {: .proof}
 ###### Proof
 
-By definition, the connected components are [[maximal elements]] in the set of connected subspaces [[preorder|pre-ordered]] by inclusion. 
-Assume a connected component $U$ were not closed. By prop. \ref{ClosureOfConnectedSubspaceIsConnected} 
-its closure $Cl(U)$ is still closed, and would be strictly larger, contradicting the maximality of $U$. 
-This yields a [[proof by contradiction]]. 
+By definition, the connected components are [[maximal elements]] in the set of connected subspaces [[preorder|pre-ordered]] by inclusion.
+Assume a connected component $U$ were not closed. By prop. \ref{ClosureOfConnectedSubspaceIsConnected}
+its closure $Cl(U)$ is still closed, and would be strictly larger, contradicting the maximality of $U$.
+This yields a [[proof by contradiction]].
 
 =--
 
@@ -8868,7 +8868,7 @@ But the important point is that there are non-discrete totally disconnected topo
 ###### Example
 **(the [[rational numbers]] are [[totally disconnected topological space|totally disconnected]] but non-[[discrete topological space]])**
 
-The [[rational numbers]] $\mathbb{Q} \subset \mathbb{R}$ equipped 
+The [[rational numbers]] $\mathbb{Q} \subset \mathbb{R}$ equipped
 with their [[subspace topology]] (def. \ref{SubspaceTopology})
 inherited
 from the [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology}) on the [[real numbers]], form a [[totally disconnected space]] (def. \ref{TotallyDisconnectedTopologicalSpace}), but not a [[discrete topological space]]
@@ -8985,7 +8985,7 @@ which _are_ the disjoint union of their connected components:
 A [[topological space]]  $(X,\tau)$ is called _[[locally connected topological space|locally connected]]_
 if the following equivalent conditions hold:
 
-1. For every point $x$ and every [[neighbourhood]] $U_x \supset \{x\}$ there is 
+1. For every point $x$ and every [[neighbourhood]] $U_x \supset \{x\}$ there is
    a [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace})
    open neighbourhood $Cn_x \subset U_x$.
 
@@ -9009,7 +9009,7 @@ $\,$
 
 1) $\Rightarrow$ 2)
 
-Assume every neighbourhood of $X$ contains a connected neighbourhood 
+Assume every neighbourhood of $X$ contains a connected neighbourhood
 and let $U \subset X$ be an open subset with $U_0 \subset U$ a connected component. We need to show that $U_0$ is open.
 
 Consider any point $x \in U_0$. Since then also $x \in U$, there is a connected open neighbourhood $U_{x,0}$ of $x$ in $X$. Observe that this must be contained in $U_0$, for if it were not then $U_0 \cup U_{x,0}$ were a larger open connected open neighbourhood, contradicting the maximality of the connected component $U_0$.
@@ -9032,7 +9032,7 @@ But, by definition, $U_x$ contains an open neighbourhood of $x$ and by assumptio
 ###### Example
 **([[Euclidean space]] is [[locally connected topological space|locally connected]])
 
-For $n \in \mathbb{N}$ the [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) (with its [[metric topology]], 
+For $n \in \mathbb{N}$ the [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) (with its [[metric topology]],
 example \ref{MetricTopology}) is [[locally connected topological space|locally connected]]
 (def. \ref{LocallyConnected}).
 
@@ -9090,7 +9090,7 @@ $$
   \gamma \;\colon\; [0,1] \longrightarrow X
 $$
 
-from the [[closed interval]] (example \ref{OpenAndClosedIntervals}) equipped with 
+from the [[closed interval]] (example \ref{OpenAndClosedIntervals}) equipped with
 its [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology}).
 
 We say that this path _connects_ its endpoints $\gamma(0), \gamma(1) \in X$.
@@ -15565,7 +15565,7 @@ Then the following are equivalent:
 ###### Proof
 
 First, observe that $X$ is [[locally compact]] in the strong sense of def. \ref{LocallyCompactSpace}:
-By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact in the weak sense that 
+By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact in the weak sense that
 neighbourhood contains a compact neighbourhood, but since $X$ is assumed to be Hausdorff,
 this implies the stronger statement by prop. \ref{InHausdorffSpacesDefinitionsOfLocalCompactnessAgree}.
 
@@ -15574,13 +15574,13 @@ this implies the stronger statement by prop. \ref{InHausdorffSpacesDefinitionsOf
 Let $X$ be sigma-compact. We show that then $X$ is [[second-countable topological space|second-countable]]:
 
 By sigma-compactness there exists a [[countable set]] $\{K_i \subset X\}_{i \in I}$ of compact subspaces. By $X$ being locally Euclidean, each  $K_i$ admits an [[open cover]] by restrictions of [[Euclidean spaces]]. By their compactness, each $K_i$
-has a subcover 
+has a subcover
 
 $$
   \{ \mathbb{R}^n \overset{\phi_{i,j}}{\to} X \}_{j \in J_i}
 $$
 
-with $J_i$ a finite set. Since [[countable unions of countable sets are countable]], we have 
+with $J_i$ a finite set. Since [[countable unions of countable sets are countable]], we have
 obtained  a countable cover of $X$ by Euclidean spaces $\{ \mathbb{R}^n  \overset{\phi_{i,j}}{\to} X\}_{i \in I, j \in J_i}$. Now Euclidean space itself is second countable (by example \ref{SecondCountableEuclideanSpace}), hence admits a countable set $\beta_{\mathbb{R}^n}$ of base open sets. As a result the union $\underset{{i \in I} \atop {j \in J_i}}{\cup} \phi_{i,j}(\beta_{\mathbb{R}^n})$ is a base of opens for $X$. But this is a countable union of countable sets, and since [[countable unions of countable sets are countable]] we have obtained a countable base for the topology of $X$. This means that $X$ is second-countable.
 
 **1) $\Rightarrow$ 3)**
@@ -15634,7 +15634,7 @@ We claim now that for all $n \in \mathbb{N}$ the [[preimage]] of $\{0,1, \cdots,
 Since [[countable unions of countable sets are countable]] this
 means that $f$ serves as a countable enumeration of the set $J$ and hence implies that $\{ Cl(V_j) \subset X\}_{j \in J}$ is a countable cover of $X$ by compact subspaces, hence that $X$ is sigma-compact.
 
-We prove this last claim by [[induction]]. It is true for $n = 0$ by construction, since $f^{-1}(\{0\) = V_{j_0}$. Assume it is true for some $n \in \mathbb{N}$, hence that $f^{-1}(\{0,1, \cdots, n\})$ is a finite set. Since finite unions of compact subspaces are again compact (example \ref{UnionsAndIntersectionOfCompactSubspaces}) it follows that
+We prove this last claim by [[induction]]. It is true for $n = 0$ by construction, since $f^{-1}(\{0\}) = V_{j_0}$. Assume it is true for some $n \in \mathbb{N}$, hence that $f^{-1}(\{0,1, \cdots, n\})$ is a finite set. Since finite unions of compact subspaces are again compact (example \ref{UnionsAndIntersectionOfCompactSubspaces}) it follows that
 
 $$
   K_n
@@ -15649,6 +15649,7 @@ Now by definition $f^{-1}(\{0,1,\cdots, n+1\})$ is a subset of those $V_j$ which
 
 =--
 
+This finally gives a good idea of what the definition of topological manifolds should be:
 
 +-- {: .num_defn #TopologicalManifold}
 ###### Definition
@@ -15661,8 +15662,8 @@ A _topological manifold is a [[topological space]] which is
 1. [[paracompact Hausdorff topological space|paracompact Hausdorff]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{ParacompactSpace}).
 
 If the local [[Euclidean spaces]] $\mathbb{R}^n \overset{\simeq}{\to} U \subset X$ are all of [[dimension]] $n$
-for a fixed $n \in \mathbb{N}$, then the topological manifold is said to be of dimension $n$, too.
-Sometimes one also says "$n$-fold" in this case.
+for some $n \in \mathbb{N}$, then the topological manifold is said to be of dimension $n$, too.
+Sometimes one also says "$n$-fold" in this case. 
 
 =--
 
@@ -15671,15 +15672,34 @@ Sometimes one also says "$n$-fold" in this case.
 ###### Remark
 **(varying terminology regarding "topological manifold")**
 
-Often a topological manifold (def. \ref{TopologicalManifold}) is required to be [[sigma-compact]] (def. \ref{CompactSigma}). But by prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} this is not an extra condition as long as there is a [[countable set]] of [[connected components]].
-Moreover, manifolds with uncountably many connected components are rarely considered in practice.
+Often a _topological manifold_ (def. \ref{TopologicalManifold}) 
+is required 
+to be [[second-countable topological space|second-countable]] (def. \ref{CountableSecond}) 
+or [[sigma-compact]] (def. \ref{CompactSigma}). But by 
+prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} both 
+conditions are implied by def. \ref{TopologicalManifold} if there is a [[countable set]] of [[connected components]].
+Manifolds with uncountably many connected components are rarely considered in practice.
+The restriction to countably many connected components is strictly necessary
+for several important theorems (beyond the scope of our discussion here) such as:
+
+1. the [[Whitney embedding theorem]];
+
+1. the [[embedding of smooth manifolds into formal duals of R-algebras]].
 
 =--
 
-Essentially all **examples** of [[topological manifolds]] that we are interested in are
-even [[differentiable manifolds]] (def. \ref{DifferentiableManifold} below) and so we first consider
-that richer definition before discussing them.
+Besides the trivial case of [[Euclidean spaces]] themselves, 
+we discuss here three main classes of  **examples** of manifolds:
 
+1. [[n-spheres]] $S^n$ (example \ref{SmoothManifoldnSphere} below)
+
+1. [[projective spaces]] $k P^n$ (example \ref{SmoothManifoldRealComplexProjectiveSpace} below)
+
+1. [[general linear groups]] $GL(n,k)$ (example \ref{SmoothManifoldGeneralLinearGroup}) below.
+
+Since all these examples are not just [[topological manifolds]] but naturally carry 
+also the structure of _[[differentiable manifolds]]_, we first consider
+this richer definition before turning to the examples:
 
 
 +-- {: .num_defn #Charts}
@@ -15697,7 +15717,7 @@ Given an $n$-dimensional [[topological manifold]] $X$ (def. \ref{TopologicalMani
 
 1. An [[open cover]] of $X$ by local charts $\left\{ \mathbb{R}^n \overset{\phi_i}{\to} U \subset X \right\}_{i \in I}$ is called an _[[atlas]]_ of the topological manifold.
 
-1. Denoting for each $i,j \in I$ the [[intersection]] of the $i$th chart with the $j$th chart in such an atlas by
+1. Denoting for each $i,j \in I$ the [[intersection]] of the $i$th chart with the $j$th chart in such an [[atlas]] by
 
    $$
      U_{i j} \coloneqq U_i \cap U_j
@@ -15748,8 +15768,8 @@ $$
 
 This means that for all $\epsilon \in (0,\infty)$ there exists an [[open neighbourhood]] $V_x\subseteq U$ of $x$ such that whenever $x+h\in V$ we have $\frac{f(x+h)-f(x) - d f_x(h)}{\Vert h\Vert} \lt \epsilon$.
 
-We say that $f$ is _differentiable on_ a [[subset]] $S$ of $U$ if $f$ is differentiable at every $x\in S$, 
-and we say that $f$ is _differentiable_ if $f$ is differentiable on all of $U$. 
+We say that $f$ is _differentiable on_ a [[subset]] $S$ of $U$ if $f$ is differentiable at every $x\in S$,
+and we say that $f$ is _differentiable_ if $f$ is differentiable on all of $U$.
 We say that $f$ is *continuously differentiable* if it is differentiable and  $d f$ is a [[continuous function]].
 
 The function $d f_x$ is called the **derivative** or **differential of $f$ at $x$**.
@@ -15779,7 +15799,7 @@ $$
 
 to the space of [[linear maps]] from $\mathbb{R}^{n_1}$ to $\mathbb{R}^{n_2}$, which is canonically itself a [[Euclidean space]]. We say that $f$ is _twice continuously differentiable_ if $d f$ is continuously differentiable.
 
-Generally then, for $k \in \mathbb{N}$ the function $f$ is called _$k$-fold continuously differentiable_ or _of class $C^k$_ if 
+Generally then, for $k \in \mathbb{N}$ the function $f$ is called _$k$-fold continuously differentiable_ or _of class $C^k$_ if
 for all $j \leq k$ the $j$-fold differential $d^j f$ exists and is a continuous function.
 
 Finally, if $f$ is $k$-fold continuously differentiable for all $k \in \mathbb{N}$ then it is called a _[[smooth function]]_
@@ -15808,7 +15828,7 @@ be two [[differentiable functions]] (def. \ref{DifferentiableFunctionBetweenCart
 [[derivative]] of their [[composition|composite]] is the composite of their derivatives:
 
 $$
-  d(g \circ f)_x = d g_{f(x)} \circ d f
+  d(g \circ f)_x = d g_{f(x)} \circ d f_x
   \,.
 $$
 
@@ -15817,7 +15837,7 @@ $$
 
 +-- {: .num_defn #DifferentiableManifold}
 ###### Definition
-**([[differentiable manifold]])**
+**([[differentiable manifold]] and [[smooth manifold]])**
 
 For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifold]]_ or _$C^p$-manifold_ for short is
 
@@ -15856,18 +15876,125 @@ such that
 
   is a $p$-fold [[differentiable function]] between open subsets of [[Euclidean space]].
 
-Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ is the identity function. In this case the above exhibits a passage to a different, but equivalent, differentiable atlas.
+(Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ is the identity function. In this case the above exhibits a passage to a different, but equivalent, differentiable atlas.)
+
+If a manifold is $C^p$ differentiable for all $p$, then it is called a _[[smooth manifold]]_.
+Accordingly a continuous function between differentiable manifolds which is $p$-fold differentiable
+for all $p$ is called a _[[smooth function]]_,
+
+
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #CategoryDiff}
 ###### Remark
 **([[category]] [[Diff]] of [[differentiable manifolds]])**
 
-In analogy to remark \ref{TopCategory} there is a [[category]] called [[Diff]]${}_p$ (or similar) whose [[objects]] are $C^p$-[[differentiable manifolds]] and whose [[morphisms]] are $C^p$-[[differentiable functions]].
+In analogy to remark \ref{TopCategory} there is a [[category]] called [[Diff]]${}_p$ (or similar) whose [[objects]] are $C^p$-[[differentiable manifolds]] and whose [[morphisms]] are $C^p$-[[differentiable functions]], for given $p \in \mathbb{N} \cup \{\infty\}$.
 
 =--
 
+The analog of the concept of [[homeomorphism]] (def. \ref{Homeomorphism}) is now this:
+
++-- {: .num_defn #Diffeomorphism}
+###### Definition
+**([[diffeomorphism]])**
+
+Given [[smooth manifolds]] $X$ and $Y$ (def. \ref{DifferentiableManifold}), then a [[smooth function]]
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$ 
+
+is called a _[[diffeomorphism]]_, if there is an [[inverse function]]
+
+$$
+  X \longleftarrow Y \;\colon\; g
+$$
+
+which is also a [[smooth function]] (hence if $f$ is an [[isomorphism]] in the [[category]] [[Diff]]${}_\infty$ 
+from remark \ref{CategoryDiff}).
+
+=--
+
+Here it is important to note that while being a [[topological manifold]] is just a [[property]]
+of a [[topological space]], a [[differentiable manifold]] carries [[extra structure]] encoded in the 
+[[atlas]]:
+
++-- {: .num_defn #SmoothStructure}
+###### Definition
+**([[smooth structure]])**
+
+Let $X$ be a [[topological manifold]] (def. \ref{TopologicalManifold}) and let 
+
+$$
+  \left(
+    \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\longrightarrow} U_i \subset X
+  \right)_{i \in I}
+  \phantom{AAA}
+   \text{and}
+  \phantom{AAA}
+  \left(
+    \mathbb{R}^{n} \underoverset{\simeq}{\psi_j}{\longrightarrow} V_j \subset X
+  \right)_{j \in J}
+$$
+
+be two [[atlases]] (def. \ref{Charts}), both making $X$ into a [[smooth manifold]] (def. \ref{DifferentiableManifold}).
+
+Then there is a [[diffeomorphism]] (def. \ref{Diffeomorphism}) of the form
+
+$$
+  f
+  \;\colon\;
+  \left(
+    X 
+      \;,\;
+    \left(
+      \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\longrightarrow} U_i \subset X
+    \right)_{i \in I}    
+  \right)
+    \overset{\simeq}{\longrightarrow}
+  \left(
+    X\;,\;
+    \left(
+      \mathbb{R}^{n} \underoverset{\simeq}{\psi_j}{\longrightarrow} V_j \subset X
+    \right)_{j \in J}
+  \right)
+$$
+
+precisely if the [[identity function]] on the underlying set of $X$ constitutes such a diffeomorphism.
+(Because if $f$ is a diffeomorphism, then also $f^{-1}\circ f = id_X$ is a diffeomorphism.)
+
+That the identity function is a diffeomorphism between $X$ equipped with these two atlases means,
+by definition \ref{DifferentiableManifold}, that 
+
+$$
+  \underset{{i \in I} \atop {j \in J}}{\forall}
+  \left(
+    \phi_i^{-1}(V_j) \overset{\phi_i}{\longrightarrow} V_j \overset{\psi_j^{-1}}{\longrightarrow} \mathbb{R}^n
+    \phantom{AA}
+    \text{is smooth}
+  \right)
+  \,.
+$$
+
+Notice that the functions on the right may equivalently be written as
+
+$$
+  \mathbb{R}^n \supset
+   \,
+   \phi_i^{-1}(U_i \cap U_j)
+     \overset{\phi_i}{\longrightarrow}
+    U_i \cap V_j \overset{\psi_j^{-1}}{\longrightarrow} \psi_j^{-1}(U_i \cap V_j) \; \subset \mathbb{R}^n
+$$
+
+showing their analogy to the glueing functions within a single atlas spring.  
+
+Hence diffeomorphsm induces an [[equivalence relation]] on the set of 
+smooth atlases that exist on a given [[topological manifold]] $X$. An [[equivalence class]]
+with respect to this equivalence relation is called a _[[smooth structure]]_ on $X$.
+
+=--
 
 +-- {: .num_example #DifferentiableManifoldCartesianSpace}
 ###### Example
@@ -15876,6 +16003,10 @@ In analogy to remark \ref{TopCategory} there is a [[category]] called [[Diff]]${
 For $n \in \mathbb{N}$ then the [[Cartesian space]] $\mathbb{R}^n$ equipped with the [[atlas]] consisting of the single [[chart]] $\mathbb{R}^n \overset{id}{\to} \mathbb{R}^n$ is a [[smooth manifold]], in particularly a $p$-fold differentiable manifold for every $p \in \mathbb{N}$ according to def. \ref{DifferentiableManifold}.
 
 Similarly the [[open disk]] $D^n$ becomes a [[smooth  manifold]] when equipped with the atlas whose single chart is the [[homeomorphism]] $\mathbb{R}^n \to D^n$.
+
+This defines a [[smooth structure]] (def.  \ref{SmoothStructure}) on $\mathbb{R}^n$ and $D^n$.
+Strikingly, precisely for $n = 4$ there are _other_ smooth structures on $\mathbb{R}^4$,
+hence called _[[exotic smooth structures]]_.
 
 =--
 
