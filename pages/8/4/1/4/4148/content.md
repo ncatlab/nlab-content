@@ -1,5 +1,5 @@
 ##Idea
-An important aspect of [[group theory]] is the study of [[normal subgroups]]. A **protomodular** category, even one which not [[pointed category|pointed]], is defined in such a way that it possesses an intrinsic notion of [[normal subobject]]. The concept is due to [[Dominique Bourn]] and as such sometimes referred to as _Bourn_-protomodularity.
+An important aspect of [[group theory]] is the study of [[normal subgroups]]. A **protomodular** category, even one which is not [[pointed category|pointed]], is defined in such a way that it possesses an intrinsic notion of [[normal subobject]]. The concept is due to [[Dominique Bourn]] and as such sometimes referred to as _Bourn_-protomodularity.
 
 ##Definition 
 
@@ -10,7 +10,7 @@ Consider any [[finitely complete category]] $\mathcal{C}$ and denote by $Pt\math
 Any map $f: X \to Y$ induces, by pullbacks, a [[base change]] functor denoted
 $f^{\ast}: Pt_Y \mathcal{C} \to Pt_X \mathcal{C}$ between the fibres above $Y$ and $X$.
 
-Then a [[left exact category]] $\mathcal{C}$ is said to be **protomodular** when the fibration $\pi$ has [[conservative functor|conservative]] base change functors, i.e., reflecting the isomorphisms. A protomodular category is necessarily [[Mal'cev category|Mal'cev]].
+Then a [[left exact category]] $\mathcal{C}$ is said to be **protomodular** when the fibration $\pi$ has [[conservative functor|conservative]] base change functors, i.e., ones that reflect isomorphisms. A protomodular category is necessarily [[Mal'cev category|Mal'cev]].
 
 ## Examples
 
@@ -37,7 +37,7 @@ A _pointed_ protomodular category is strongly [[unital]], and
 
 ##Strong protomodularity
 
-A category $\mathcal{C}$ is **strongly protomodular**, when it is protomodular and such that any change of base functor $f^{\ast}$ is a _normal_ functor, i.e. a left exact conservative functor which reflects the [[normal monomorphisms]].
+A category $\mathcal{C}$ is **strongly protomodular** when it is protomodular and is such that any change of base functor $f^{\ast}$ is a _normal_ functor, that is, a left exact conservative functor which reflects the [[normal monomorphisms]].
 
 [[Grp]], [[Ring]] and the dual of any topos are strongly protomodular.
 
