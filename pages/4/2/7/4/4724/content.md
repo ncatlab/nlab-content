@@ -186,14 +186,14 @@ or _of class $C^\infty$_.
 
 =--
 
-Of the various properties satisfied by [[differentiation]], the following plays a special role in the theory of 
+Of the various properties satisfied by [[differentiation]], the following plays a special role in the theory of
 differentiable manifolds (notably in the discussion of their [[tangent bundles]]):
 
 +-- {: .num_prop #ChainRuleOnEuclideanSpace}
 ###### Proposition
 **([[chain rule]] for [[differentiable functions]] between [[Euclidean spaces]])**
 
-Let $n_1, n_2, n_3 \in \mathbb{N}$ and let 
+Let $n_1, n_2, n_3 \in \mathbb{N}$ and let
 
 $$
   \mathbb{R}^{n_1}
@@ -207,7 +207,13 @@ be two [[differentiable functions]] (def. \ref{DifferentiableFunctionBetweenCart
 [[derivative]] of their [[composition|composite]] is the composite of their derivatives:
 
 $$
-  d(g \circ f)_x = d g_{f(x)} \circ d f
+  d(g \circ f) = (d g) \circ (d f)
+$$
+
+hence for all $x \in \mathbb{R}^{n_1}$ we have
+
+$$
+  d(g \circ f)_x = d g_{f(x)} \circ d f_x
   \,.
 $$
 
@@ -222,13 +228,13 @@ $$
 
 +-- {: .num_defn #DifferentiableManifold}
 ###### Definition
-**(differentiable manifold)**
+**([[differentiable manifold]] and [[smooth manifold]])**
 
 For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifold]]_ or _$C^p$-manifold_ for short is
 
 1. a [[topological manifold]] $X$ (def. \ref{TopologicalManifold});
 
-1. an [[atlas]] $\{\mathbb{R}^n \overset{\phi_i}{\to} X\}$ (def. \ref{Charts}) all whose [[gluing functions]]  (def. \ref{Charts}) are $p$ times continuously [[differentiable function|differentiable]] (def. \ref{DifferentiableFunctionBetweenCartesianSpaces}).
+1. an [[atlas]] $\{\mathbb{R}^n \overset{\phi_i}{\to} X\}$ (def. \ref{Charts}) all whose [[gluing functions]]  are $p$ times continuously [[differentiable function|differentiable]].
 
 A $p$-fold [[differentiable function]] between $p$-fold differentiable manifolds
 
@@ -261,12 +267,125 @@ such that
 
   is a $p$-fold [[differentiable function]] between open subsets of [[Euclidean space]].
 
-Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ is the identity function. In this case the above exhibits a passage to a different, but equivalent, differentiable atlas.
+(Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ is the identity function. In this case the above exhibits a passage to a different, but equivalent, differentiable atlas.)
 
-Hence there is a [[category]] [[Diff]]${}_p$ whose [[objects]] are $C^p$-[[differentiable manifolds]] and whose [[morphisms]] are $C^p$-[[differentiable functions]].
+If a manifold is $C^p$ differentiable for all $p$, then it is called a _[[smooth manifold]]_.
+Accordingly a continuous function between differentiable manifolds which is $p$-fold differentiable
+for all $p$ is called a _[[smooth function]]_,
+
+
 
 =--
 
++-- {: .num_remark #CategoryDiff}
+###### Remark
+**([[category]] [[Diff]] of [[differentiable manifolds]])**
+
+In analogy to remark \ref{TopCategory} there is a [[category]] called [[Diff]]${}_p$ (or similar) whose [[objects]] are $C^p$-[[differentiable manifolds]] and whose [[morphisms]] are $C^p$-[[differentiable functions]], for given $p \in \mathbb{N} \cup \{\infty\}$.
+
+=--
+
+The analog of the concept of [[homeomorphism]] (def. \ref{Homeomorphism}) is now this:
+
++-- {: .num_defn #Diffeomorphism}
+###### Definition
+**([[diffeomorphism]])**
+
+Given [[smooth manifolds]] $X$ and $Y$ (def. \ref{DifferentiableManifold}), then a [[smooth function]]
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+is called a _[[diffeomorphism]]_, if there is an [[inverse function]]
+
+$$
+  X \longleftarrow Y \;\colon\; g
+$$
+
+which is also a [[smooth function]] (hence if $f$ is an [[isomorphism]] in the [[category]] [[Diff]]${}_\infty$
+from remark \ref{CategoryDiff}).
+
+=--
+
+Here it is important to note that while being a [[topological manifold]] is just a [[property]]
+of a [[topological space]], a [[differentiable manifold]] carries [[extra structure]] encoded in the
+[[atlas]]:
+
++-- {: .num_defn #SmoothStructure}
+###### Definition
+**([[smooth structure]])**
+
+Let $X$ be a [[topological manifold]] (def. \ref{TopologicalManifold}) and let
+
+$$
+  \left(
+    \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\longrightarrow} U_i \subset X
+  \right)_{i \in I}
+  \phantom{AAA}
+   \text{and}
+  \phantom{AAA}
+  \left(
+    \mathbb{R}^{n} \underoverset{\simeq}{\psi_j}{\longrightarrow} V_j \subset X
+  \right)_{j \in J}
+$$
+
+be two [[atlases]] (def. \ref{Charts}), both making $X$ into a [[smooth manifold]] (def. \ref{DifferentiableManifold}).
+
+Then there is a [[diffeomorphism]] (def. \ref{Diffeomorphism}) of the form
+
+$$
+  f
+  \;\colon\;
+  \left(
+    X
+      \;,\;
+    \left(
+      \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\longrightarrow} U_i \subset X
+    \right)_{i \in I}
+  \right)
+    \overset{\simeq}{\longrightarrow}
+  \left(
+    X\;,\;
+    \left(
+      \mathbb{R}^{n} \underoverset{\simeq}{\psi_j}{\longrightarrow} V_j \subset X
+    \right)_{j \in J}
+  \right)
+$$
+
+precisely if the [[identity function]] on the underlying set of $X$ constitutes such a diffeomorphism.
+(Because if $f$ is a diffeomorphism, then also $f^{-1}\circ f = id_X$ is a diffeomorphism.)
+
+That the identity function is a diffeomorphism between $X$ equipped with these two atlases means,
+by definition \ref{DifferentiableManifold}, that
+
+$$
+  \underset{{i \in I} \atop {j \in J}}{\forall}
+  \left(
+    \phi_i^{-1}(V_j) \overset{\phi_i}{\longrightarrow} V_j \overset{\psi_j^{-1}}{\longrightarrow} \mathbb{R}^n
+    \phantom{AA}
+    \text{is smooth}
+  \right)
+  \,.
+$$
+
+Notice that the functions on the right may equivalently be written as
+
+$$
+  \mathbb{R}^n \supset
+   \,
+   \phi_i^{-1}(U_i \cap U_j)
+     \overset{\phi_i}{\longrightarrow}
+    U_i \cap V_j \overset{\psi_j^{-1}}{\longrightarrow} \psi_j^{-1}(U_i \cap V_j) \; \subset \mathbb{R}^n
+$$
+
+showing their analogy to the glueing functions within a single atlas spring.
+
+Hence diffeomorphsm induces an [[equivalence relation]] on the set of
+smooth atlases that exist on a given [[topological manifold]] $X$. An [[equivalence class]]
+with respect to this equivalence relation is called a _[[smooth structure]]_ on $X$.
+
+=--
 
 
 
@@ -275,11 +394,15 @@ Hence there is a [[category]] [[Diff]]${}_p$ whose [[objects]] are $C^p$-[[diffe
 
 +-- {: .num_example #DifferentiableManifoldCartesianSpace}
 ###### Example
-**([[Cartesian spaces]] as [[smooth manifolds]])
+**([[Cartesian space]] as a [[smooth manifold]])
 
-For $n \in \mathbb{N}$ then [[Cartesian space]] $\mathbb{R}^n$ equipped with the atlas consisting of the single [[chart]] $\mathbb{R}^n \overset{id}{\to} \mathbb{R}^n$ is a [[smooth manifold]], in particularly a $p$-fold differentiable manifold for every $p \in \mathbb{N}$ according to def. \ref{DifferentiableManifold}.
+For $n \in \mathbb{N}$ then the [[Cartesian space]] $\mathbb{R}^n$ equipped with the [[atlas]] consisting of the single [[chart]] $\mathbb{R}^n \overset{id}{\to} \mathbb{R}^n$ is a [[smooth manifold]], in particularly a $p$-fold differentiable manifold for every $p \in \mathbb{N}$ according to def. \ref{DifferentiableManifold}.
 
 Similarly the [[open disk]] $D^n$ becomes a [[smooth  manifold]] when equipped with the atlas whose single chart is the [[homeomorphism]] $\mathbb{R}^n \to D^n$.
+
+This defines a [[smooth structure]] (def. \ref{SmoothStructure}) on $\mathbb{R}^n$ and $D^n$.
+Strikingly, precisely for $n = 4$ there are _other_ smooth structures on $\mathbb{R}^4$,
+hence called _[[exotic smooth structures]]_.
 
 =--
 
@@ -385,7 +508,7 @@ Then the [[gluing functions]] for the Euclidean charts on $S$ are $k$-fold diffe
 **([[general linear group]])**
 
 For $n \in \mathbb{N}$, the [[general  linear group]] $Gl(n,\mathbb{R})$
-is a smooth manifold 
+is a smooth manifold
 (as an [[open subspace]] of [[Euclidean space]] $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R} \simeq \mathbb{R}^{(n^2)})$,
 via example \ref{OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds} and example \ref{DifferentiableManifoldCartesianSpace}).
 
