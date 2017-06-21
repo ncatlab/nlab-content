@@ -23,13 +23,15 @@ A property of topological spaces is said to be **hereditary** if its satisfactio
 
 ## Examples
 
-The open  subsets of a [[closed interval]] $[0,1] \subset \mathbb{R}$ regarded as a topological subspace of the [[real line]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]] is generated from the [[sub-base of a topology|sub-base]] $\beta = \{ [0, a) ,(a,1]\}_{a \in [0,1]}$.
+* The open  subsets of a [[closed interval]] $[0,1] \subset \mathbb{R}$ regarded as a topological subspace of the [[real line]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]] is generated from the [[sub-base of a topology|sub-base]] $\beta = \{ [0, a) ,(a,1]\}_{a \in [0,1]}$.
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/OpenSubsetsOfSquareInsidePlane.png" width="200">
 </div>
 
 The image on the right shows open subsets in the closed square $[0,1]^2$, regarded as a topological subspace of the Euclidean plane
+
+* A subset of a [[metric space]] equipped with its [[induced metric]] is a subspace with respect to the corresponding [[metric topologies]].
 
 ## Properties 
 
