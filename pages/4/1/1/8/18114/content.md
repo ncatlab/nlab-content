@@ -147,4 +147,4 @@ In the proof of prop. \ref{sequentiallyCompactMetricSpacesAreEquivCompact} the i
 
 * [[Lebesgue number lemma]]
 
-
+* [[continuous metric space valued function on compact metric space is uniformly continuous]]
