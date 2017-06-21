@@ -165,7 +165,7 @@ $$
   \gamma \colon [0,1] \longrightarrow GL(2,\mathbb{C})
 $$
 
-connecting the identity matrix on $mathbb{C}^2$ with the one that swaps the two entries, i.e.
+connecting the identity matrix on $\mathbb{C}^2$ with the one that swaps the two entries, i.e.
 
 with $\gamma(0) = \left( \array{ 1 & 0 \\ 0 & 1 }  \right)$
 
@@ -177,9 +177,9 @@ $$
   \array{
     S^1 \times [0,1] &\overset{}{\longrightarrow}& GL(2,\mathbb{C})
     \\
-    t 
+    (z,t) 
       &\overset{\phantom{AA}}{\longrightarrow}& 
-    f_{H \oplus 1} \cdot \gamma(t) \cdot f_{1 \oplus H} \cdot \gamma(t)
+    f_{H \oplus 1}(z) \cdot \gamma(t) \cdot f_{1 \oplus H}(z) \cdot \gamma(t)
   }
 $$
 
