@@ -318,9 +318,8 @@ Hence:
 
 +-- {: .num_prop}
 ###### Proposition
-**([[continuous function on compact space is uniformly continuous]])**
 
-Let $K \subset \mathbb{R}^n$ be a compact [[subspace]] of [[Euclidean space]]. Then every [[continuous function]] of the form $K \to \mathbb{R}$ is [[uniformly continuous function|uniformly continuous]].
+[[continuous metric space valued function on compact metric space is uniformly continuous]]
 
 =--
 
