@@ -103,9 +103,11 @@ The idea captured by corollary \ref{ContinuousBijectionsFromCompactSpacesToHausd
 
 ## Related statements
 
+* [[continuous metric space valued function on compact metric space is uniformly continuous]]
+
 * [[proper maps to locally compact spaces are closed]]
 
-* [[a CW-complex is a Hausdorff space]]
+* [[CW-complexes are paracompact Hausdorff spaces]]
 
 * [[Hausdorff implies sober]]
 
