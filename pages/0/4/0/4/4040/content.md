@@ -1,8 +1,8 @@
 
 
-**[[topology]]** ([[point-set topology]]) 
+**[[topology]]** ([[point-set topology]], [[point-free topology]]) 
 
-see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy theory]]_
+see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[topological homotopy theory|topological]] [[homotopy theory]]_
 
 [[Introduction to Topology|Introduction]]
 
@@ -159,6 +159,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
   * [[sequentially compact metric spaces are totally bounded]]
 
+* [[continuous metric space valued function on compact metric space is uniformly continuous]]
+
 * [[paracompact Hausdorff spaces are normal]]
 
 * [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
@@ -188,8 +190,6 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[tube lemma]]
 
-* [[Heine-Borel theorem]]
-
 * [[Michael's theorem]]
 
 * [[Brouwer's fixed point theorem]]
@@ -198,16 +198,26 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[Jordan curve theorem]]
 
+**Analysis Theorems**
 
-**topological [[homotopy theory]]**
+* [[Heine-Borel theorem]]
+
+* [[intermediate value theorem]]
+
+* [[extreme value theorem]]
+ 
+
+**[[topological homotopy theory]]**
 
 * [[left homotopy]], [[right homotopy]]
 
-* [[homotopy equivalence]]
+* [[homotopy equivalence]], [[deformation retract]]
+
+* [[fundamental group]], [[covering space]]
 
 * [[homotopy group]]
 
-* [[covering space]]
+* [[weak homotopy equivalence]]
 
 * [[Whitehead's theorem]]
 
@@ -215,7 +225,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[nerve theorem]]
 
-* [[Hurewicz cofibration]]
+* [[homotopy extension property]], [[Hurewicz cofibration]]
 
 * [[topological cofiber sequence|cofiber sequence]]
 
