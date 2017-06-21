@@ -101,4 +101,4 @@ See [[oplax monoidal functor]] for more details.
 
 The following article explains the double category perspective:
 
-* [[Mike Shulman]], _Comparing composites of left and right derived functors_, New York Journal of Mathematics, Volume 17 (2011) pp 75-125, [journal abstract page](http://nyjm.albany.edu/j/2011/17-5.html) 
+* [[Mike Shulman]], _Comparing composites of left and right derived functors_, New York Journal of Mathematics, Volume 17 (2011) pp 75-125, ([arXiv:0706.2868](https://arxiv.org/abs/0706.2868), [journal abstract page](http://nyjm.albany.edu/j/2011/17-5.html))
