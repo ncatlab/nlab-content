@@ -148,6 +148,8 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 ## Related concepts
 
+* [[induced metric]]
+
 * [[metric jet]] -- a notion of "tangency" for maps of metric spaces
 
 * [[complete metric space]] and [[localic completion]]
