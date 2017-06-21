@@ -748,7 +748,7 @@ Other textbook accounts include
 ))
 
 
-A fairly comprehensive set of lecture notes on the [[higher algebra]] monoidal categories is in
+A fairly comprehensive set of lecture notes on the [[higher algebra]] of monoidal categories is in
 
 * [[Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[Victor Ostrik]], _Topics in Lie theory and Tensor categories_, Lecture notes (spring 2009) ([web](http://ocw.mit.edu/courses/mathematics/18-769-topics-in-lie-theory-tensor-categories-spring-2009/lecture-notes/))
 
@@ -757,6 +757,9 @@ A brief discussion in the context of [[enriched category theory]] is in
 * [[Max Kelly]], _Basic concepts of enriched category theory_,
 London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp.; remake: TAC reprints 10, [tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html),[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)
 
+Survey of some applications is in
+
+* [[Ross Street]], _Monoidal categories in, and linking, geometry and algebra_ ([arXiv:1201.2991](https://arxiv.org/abs/1201.2991))
 
 Quick surveys of relevant definitions include also
 
