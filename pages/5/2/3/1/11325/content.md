@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _cosmic consorship hypothesis_ is a hypothesis in the [[theory (physics)|theory]] of [[Einstein]]-[[gravity]] ([[general relativity]]) saying that under physically reasonable conditions all [[singularities]] in [[spacetime]] have to be behind and [[event horizon]].
+The _cosmic consorship hypothesis_ is a hypothesis in the [[theory (physics)|theory]] of [[Einstein]]-[[gravity]] ([[general relativity]]) saying that under physically reasonable conditions all [[singularities]] in [[spacetime]] have to be behind an [[event horizon]].
 
 ## References
 
@@ -33,7 +33,7 @@ See also
 
 * Wikipedia, _[Cosmic censorship hypothesis](http://en.wikipedia.org/wiki/Cosmic_censorship_hypothesis)_
 
-[[1redirects cosmic censorship hypotheses]]
+[[!redirects cosmic censorship hypotheses]]
 
 [[!redirects cosmic censorship]]
 
