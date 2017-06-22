@@ -120,7 +120,7 @@ This Kleisli composition plays an important role in [[computer science]]; for th
 
 In more general 2-categories the [[universal properties]] of [[Kleisli objects]] are dual to the universal properties of [[Eilenberg-Moore category#Definition|Eilenberg–Moore objects]].
 
-In particular, $C_{\mathbf{T}}$ is initial in the [[adjoint functor#RelationToMonads|category of adjunctions]] for $\mathbf{T}$ (whereas $C^{\mathbf{T}}$ is terminal). For a proof, see [[Category Theory in Context]] Proposition 5.2.12.
+In particular, $C_{\mathbf{T}}$ is [[initial object|initial]] in the [[adjoint functor#RelationToMonads|category of adjunctions]] for $\mathbf{T}$ (whereas $C^{\mathbf{T}}$ is [[terminal objects|terminal]]). For a proof, see _[[Category Theory in Context]]_ Proposition 5.2.12.
 
 ### In functional programming
 
