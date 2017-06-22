@@ -194,7 +194,7 @@ $$
     {}^{\mathllap{\eta(A) \otimes \eta(A)}}\downarrow && {}^{\mathllap{ R L( \eta(A) \otimes \eta(A) ) }}\downarrow 
   && 
     {}^{\mathllap{R( L(\eta(A))  \otimes L(\eta(A)) )}}\downarrow
-  & \searrow^{\mathrlap{id}}
+  & \searrow^{\mathrlap{R(id \otimes id)}}
   \\
   \mu_R(L(A))
   &\colon&
@@ -251,19 +251,7 @@ $$
   }
 $$
 
-But observe that
-
-$$
-  e_{L(A)}
-    \;\colon\;
-  1
-    \overset{e_L}{\longrightarrow}
-  L(1) 
-    \overset{L(e_A)}{\longrightarrow} 
-  L(A)
-$$
-
-and hence that
+Now unwinding the above definitions of $e_{R L}(A)$ in terms of the definition of $e_R$ we find that
 
 $$
   e_{R L (A)}
@@ -305,15 +293,51 @@ $$
   \,.
 $$
 
+The argument for the homomorphism property of the counit should be formally dual to the above.
+
 =--
 
 
-> (discuss counit)
+
 
 
 ## Examples
 
-* In [[linear type theory]] (see there for more) the $!$-[[modality]] may have [[categorical semantics]] as the [[comonad]] induced by a monoidal adjunction. 
++-- {: .num_example #Stabilization}
+###### Example
+**([[stabilization]] in [[stable homotopy theory]])**
+
+
+The [[stabilization]] adjunction 
+
+  $$
+    \left(
+    \Sigma^\infty(-)_+
+    \dashv
+    \Omega^\infty
+    \right)
+    \;\colon\;
+    Ho(Spectra)
+     \underoverset
+       {\underset{\Omega^\infty}{\longrightarrow}}
+       {\overset{\Sigma^\infty(-)}{\longleftarrow}}
+       {\bot}
+    Ho(Spaces)
+  $$
+
+  between the [[classical homotopy category]] $Ho(Spaces)$ and the [[stable homotopy category]] $Ho(Spectra)$ is a monoidal adjunction, since the [[left adjoint]] $\Sigma^\infty(-)_+$ (forming the [[suspension spectrum]] of a space after freely [[pointed topological space|adjoining a basepoint]]) is [[strong monoidal functor|strong monoidal]] with respect to forming [[product topological spaces]] and forming [[smash  product of spectra]], respectively.
+
+  In fact this is the [[derived functors]] of what is even a [[monoidal Quillen adjunction]] between the [[classical model structure on topological spaces]] and the stable [[model structure on orthogonal spectra]] ([this cor.](Introduction+to+Stable+homotopy+theory+--+1-2#StableMonoidalQuillenSuspensionSpectrumFunctor)) which implies (strong) modality of the derived functors on homotopy categories ([this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#StrongMonoidalDerivedFunctorFromStrongMonoidalQuillenAdjunction)).
+
+=--
+
++-- {: .num_example #ExponentialModality}
+###### Example
+**([[exponential modality]] in [[linear type theory]])**
+
+In [[linear type theory]] (see there for more) the [[exponential modality]] $!$ may have [[categorical semantics]] as the [[comonad]] induced by a monoidal adjunction. 
+
+=--
 
 ## Related concepts
 
