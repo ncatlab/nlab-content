@@ -162,10 +162,9 @@ A _[[monoidal transformation]]_ between monoidal functors is a [[natural transfo
 ## Properties
 
 
-+-- {: .un_defn}
-###### Observation
-
-Lax monoidal functors send [[monoid]]s to monoids.
++-- {: .num_prop #MonoidsToMonoidsByLaxMonoidal}
+###### Proposition
+**(Lax monoidal functors send [[monoid]]s to monoids)**
 
 If $F : (C,\otimes) \to (D,\otimes)$ is a lax monoidal functor and 
 
@@ -173,7 +172,7 @@ $$
   (A \in C,\;\; \mu_A : A \otimes A \to A, \; i_A : I \to A)
 $$
 
-is a [[monoid]] in $C$, then the object $F(A)$ is naturally equipped with the structure of a monoid in $D$ by setting
+is a [[monoid object]] in $C$, then the object $F(A)$ is naturally equipped with the structure of a monoid in $D$ by setting
 
 $$
   i_{F(A)} : I_D \stackrel{}{\to} F(I_C) \stackrel{F(i_A)}{\to} F(A)
@@ -197,14 +196,15 @@ $$
   Mon(f) : Mon(C) \to Mon(D)
 $$
 
-between the categories of monoids.
+between the [[categories of monoids]] in $C$ and $D$, respectively.
 
 =--
 
-Similarly, an [[oplax monoidal functor]] sends [[comonoids]] to comonoids. 
+Similarly: 
 
-+-- {: .un_defn}
-###### Observation
++-- {: .un_prop #OplaxSendsComonoidsToComonoids}
+###### Proposition
+**([[oplax monoidal functors]] sends [[comonoids]] to comonoids)**
 
 For $(C,\otimes)$ a [[monoidal category]] write $\mathbf{B}C$ for the correspinding [[delooping]] [[2-category]].
 
