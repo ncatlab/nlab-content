@@ -44,7 +44,7 @@ $$
 where the second map is the product operation in $E$. Since this is by assumption commutative up to coherent higher homotopy, this map factors through the [[homotopy quotient]] by the [[∞-action]] of the [[symmetric group]] $\Sigma_n$
 
 $$
-  a^n \;\colon\; X \times \ast //\Sigma_n \simeq   X^n//\Sigma_n \longrightarrow E
+  a^n \;\colon\; X \times \ast //\Sigma_n \longrightarrow   X^n//\Sigma_n \longrightarrow E
   \,.
 $$
 
