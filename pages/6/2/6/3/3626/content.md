@@ -227,8 +227,6 @@ In polycategorical language we can give another [[unbiased]] definition of a  co
 
 ## Related concepts
 
-* [[Frobenius monoid]]
-
 * [[Frobenius monad]]
 
 * [[Calabi-Yau algebra]]
