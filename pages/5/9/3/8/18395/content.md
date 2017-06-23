@@ -18,7 +18,7 @@
 {:toc}
 
 ##Idea
-A $p$-derivation on a commutative [[ring]] $R$ is a map $\delta:R \to R$ such that $\phi(r) \coloneqq r^p + p \delta(r)$ is a [[ring homomorphism]]. $\phi$ is called the _Frobenius lift_ attached to $\delta$.
+For a prime $p$, a $p$-derivation on a commutative [[ring]] $R$ is a map $\delta:R \to R$ such that $\phi(r) \coloneqq r^p + p \delta(r)$ is a [[ring homomorphism]]. $\phi$ is called the _Frobenius lift_ attached to $\delta$.
 
 An example of a $p$-derivation is the [[Fermat quotient]].
 
