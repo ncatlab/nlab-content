@@ -56,5 +56,3 @@ In view of this, in the context of [[arithmetic differential equations]] the Fer
 
 [[!redirects Fermat quotients]]
 
-[[!redirects p-derivation]]
-[[!redirects p-derivations]]
