@@ -107,7 +107,7 @@ A comprehensive account is in chapter 2 of
 
 Discussion in [[derived algebraic geometry]] is in
 
-* {#GaitsgoryRozenblyum11} [[Dennis Gaitsgory]], [[Nick Rozenblyum]], _Crystals and D-modules_ ([arXiv:1111.2087](http://arxiv.org/abs/1111.2087))
+* {#GaitsgoryRozenblyum11} [[Dennis Gaitsgory]], [[Nick Rozenblyum]], _Crystals and D-modules_,  Pure and Applied Mathematics Quarterly Volume 10 (2014) Number 1 ([arXiv:1111.2087](http://arxiv.org/abs/1111.2087), [publisher](http://www.intlpress.com/site/pub/pages/journals/items/pamq/content/vols/0010/0001/a002/index.html))
 
 Lecture notes include
 
