@@ -7,6 +7,10 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
 =--
 =--
 
@@ -18,7 +22,7 @@
 
 ## Idea
 
-What is called _$\kappa$-symmetry_ is a certain fermionic [[symmetry]] of [[Green-Schwarz action functionals]] for [[super p-branes]] whose effect is to [[gauge symmetry|gauge away]] half of the [[spinor|spinorial]] [[sigma-model]] [[field (physics)|fields]].
+What is called _$\kappa$-symmetry_ in [[string theory]] is a certain fermionic [[symmetry]] of [[Green-Schwarz action functionals]] for [[super p-branes]] whose effect is to [[gauge symmetry|gauge away]] half of the [[spinor|spinorial]] [[sigma-model]] [[field (physics)|fields]].
 
 In a completely super-covariant formulation of the [[Green-Schwarz action functionals]], this $\kappa$-symmetry is simply the odd-graded part of the [[supermanifold|super]]-[[worldvolume]] [[super-diffeomorphism]] symmetry of the [[sigma-model]] ([Sorokin-Tkach-Volkov 89](#SorokinTkachVolkov89), review includes [Sorokin 99, section 4.3](#Sorokin99), [Howe-Sezgin 04, section 4.3](#HoweSezgin04)): If 
 
@@ -64,7 +68,7 @@ $$
   \mathbb{R}^{2,1} \hookrightarrow \mathbb{R}^{10,1}
 $$
 
-of 2+1d [[Minkowski spacetime]], thought of as the [[worldvolume]] of a [[membrane]], into 11d Minkowski spacetime, linearly along the coordinate axis. Any such embedding breaks the [[isometry group]] of $\mathbb{R}^{10,1}$ from the 11 [[Poincaré group]] $Iso(10,1)$ to the [[product group]] 
+of 2+1d [[Minkowski spacetime]], thought of as the [[worldvolume]] of a [[membrane]], into 11d Minkowski spacetime, linearly along the coordinate axis. Any such embedding breaks the [[isometry group]] of $\mathbb{R}^{10,1}$ from the 11d [[Poincaré group]] $Iso(10,1)$ to the [[product group]] 
 
 $$
   Iso(2,1) \times SO(8)
@@ -74,7 +78,7 @@ $$
 
 (meaning that this [[subgroup]] is the [[stabilizer subgroup]] of the embedding). 
 
-Now consider instead [[super Minkowski spacetime]] $\mathbb{R}^{10,1\vert \mathbf{32}}$ (with $\mathbf{32}$ the irreducible [[Majorana spinor]] representation in 11), hence the local model [[superspace]] for [[super spacetimes]] in [[11-dimensional supergravity]]. We are to ask what subspace of the [[spin representation]] $\mathbf{32}$ preserves the embedding in that the [spinor bilinear pairing](Majorana+spinor#TheSpinorPairingToVectors) $\overline{\psi}_1 \Gamma \psi_2$ on that subspace lands in $\mathbb{R}^{2,1} \hookrightarrow Iso(2,1) \hookrightarrow Iso(10,1)$ ([Sorokin 99, sectin 5.1](#Sorokin99)). This is found to be the case for a half-dimensional subspace, and hence we may lift the above to a super-embedding of the form
+Now consider instead [[super Minkowski spacetime]] $\mathbb{R}^{10,1\vert \mathbf{32}}$ (with $\mathbf{32}$ the irreducible [[Majorana spinor]] representation in 11), hence the local model [[superspace]] for [[super spacetimes]] in [[11-dimensional supergravity]]. We are to ask what subspace of the [[spin representation]] $\mathbf{32}$ preserves the embedding in that the [spinor bilinear pairing](Majorana+spinor#TheSpinorPairingToVectors) $\overline{\psi}_1 \Gamma \psi_2$ on that subspace lands in $\mathbb{R}^{2,1} \hookrightarrow Iso(2,1) \hookrightarrow Iso(10,1)$ ([Sorokin 99, section 5.1](#Sorokin99)). This is found to be the case for a half-dimensional subspace, and hence we may lift the above to a super-embedding of the form
 
 
 $$
@@ -105,6 +109,10 @@ Historically $\kappa$-symmetry was originally observed and considered for [[Gree
 Based on this the [[Green-Schwarz action functional]] for the [[superstring]] in 10d ([[heterotic string]], [[type II superstring]]) was found in ([Green-Schwarz 84](#GreenSchwarz84)) by first observing that the plain [[Nambu-Goto action]] for a string on a [[supermanifold]] has twice as many fermionic [[shell|on-shell]] [[degrees of freedom]] as the [[NSR-string]] and then by adding a term to the action (the [[WZW-term]]) to correct this defect, by ensuring that the sum of the NG-action with the WZW term enjoys $\kappa$-symmetry.
 By the same recipe later $\kappa$-symmetric Green-Schwarz-type [[sigma-model]] actions for all the other [[super p-branes]] were found, for instance for the [[M2-brane]] in ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87)).
 
+
+## Related entries
+
+* [[geometry of physics -- supersymmetry]]
 
 
 ## References
