@@ -39,7 +39,8 @@ $$
 \end{matrix}
 $$
 commutes.
-* (right cancellability) Given an arrow $v:y\to z$ in $W$ and a pair of [[parallel morphisms]] $f,g: x\to y$ such that $v\circ f = v \circ g$, there is an arrow $v':w\to x$ in $W$ such that $f\circ v' = g \circ v'$.
+* (right cancellability) Given an arrow $v:y\to z$ in $W$ and a pair of [[parallel morphisms]] $f,g: x\to y$ such that $v\circ f = v \circ g$, there is an arrow $v':w\to x$ in $W$ such that $f\circ v' = g \circ v'$:
+$$ w \xrightarrow{v'} x \underoverset{g}{f}{\rightrightarrows} y \xrightarrow{v} z$$
 
 One may also say that $W$ is a **right Ore system** in $C$ (although this is potentially confusing since the Ore condition is only part of the definition), or that $(C,W)$ **admits a category of right fractions**.  If $(C^{op}, W^{op})$ admits a calculus of right fractions, we say that $(C,W)$ admits a **calculus of left fractions**.  Unfortunately there is no uniformity regarding the choice of 'left' versus 'right;' some authors use 'left' where we use 'right' and vice versa.
 
