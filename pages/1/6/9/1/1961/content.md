@@ -92,7 +92,7 @@ $$
 and
 
 $$
-  (\gamma_1 \sim' \gamma_2)
+  (\gamma_1 {\sim^\prime} \gamma_2)
    \coloneqq
    \underset{
       {  { \mathbb{R}^n  \underoverset{}{\phi \, \text{chart}}{\to} U_i \subset X } } \atop { U_i \supset \{x\} }
