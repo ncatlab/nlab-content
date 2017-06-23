@@ -41,4 +41,8 @@ A space that admits only Hausdorff cospaces is equivalently an H-closed space, i
 * G. E. Strecker and G. Viglino, _Cotopology and Minimal Hausdorff Spaces_ 1969,  Proceedings of the American Mathematical Society
 Vol. 21 No. 3.
 
+The concept originally developed from
+
+* de Groot, _Subcompactness and the Baire category theorem_ 1963, Nederl. Akad. Wetensch. Proc., Ser. A66 = Indag. Math., vol. 25, pp. 761-767.
+
 [[!redirects cocompact space]]
