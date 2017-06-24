@@ -28,7 +28,10 @@ $$
 $$
 
 of [[hom-set]]s for [[object]]s $X\in D$ and $Y\in C$.  Two [[morphism]]s 
-$f:L X \to Y$ and $\tilde f : X \to R Y$ which correspond under this bijection are said to be **adjuncts** of each other.  That is, $\tilde f$ is the adjunct of $f$ and $f$ is the adjunct of $\tilde f$.
+$f:L X \to Y$ and $\tilde f : X \to R Y$ which correspond under this bijection are said to be **adjuncts** of each other.  That is, $\tilde f$ is the (right-[^1])adjunct of $f$ and $f$ is the (left-)adjunct of $\tilde f$.
+
+[^1]: Cf. e.g. p. 81 of [[Categories Work|Mac Lane]], second edition, for this usage. A notational device sometimes encountered in the literature is what one can call the  flat-sharp-formalism: then $\tilde f$ is denoted $f^\sharp$ and $f$ denoted $f^\flat$. (Cf. e.g. [[Category Theory in Context|Riehl]], (2014), p. 116, 124). 
+If $\theta\colon C(L X,Y) \rightarrow D(X,R Y) $ is a natural isomorphism, then $\theta(f^\sharp)=f^\flat$. Here, ${f}^\sharp$ is read _f-sharp_, and ${f}^\flat$ is read  _f-flat_, like in the stave notation in modern music. This connection is a reason for why [[currying]] is sometimes indicated by ${}^\flat$.
 
 Sometimes people call $\tilde f$ the "adjoint" of $f$, and vice versa, but this is potentially confusing because it is the _functors_ $F$ and $G$ which are adjoint.  Other possible terms are _conjugate_ and [[mate]].
 
