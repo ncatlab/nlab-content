@@ -50,7 +50,7 @@ We now **prove** this in  increasing generality, first for  binary open covers (
 ###### Lemma
 **(shrinking lemma for binary covers)**
 
-Let $(X,\tau)$ be a [[normal topological space]] and let $\{U \subset X\}_{i \in \{1,2\}}$ an [[open cover]] by two [[open subsets]].
+Let $(X,\tau)$ be a [[normal topological space]] and let $\{U_i \subset X\}_{i \in \{1,2\}}$ an [[open cover]] by two [[open subsets]].
 
 Then there exists an open set $V_1 \subset X$ whose [[topological closure]] is contained in $U_1$
 
@@ -245,11 +245,9 @@ $$
   \,.
 $$
 
-We claim now that $\{W_i \subset X\}_{i \in I}$ thus defined is a cover of $X$. Because by assumption that $\{U_i \subset X\}_{i \in I}$ is locally finite, so for every point $x \in X$ there exists a finite set $J_x \subset I$ such that $(i \in I \setminus J_x) \Rightarrow (x \notin U_i)$. Since $(T,\leq)$ is a total order, it must contain an element $(J, \mathcal{V})$ such that 
-the finite set $J_x \cap K$ is contained in its index set $J$, hence  $J_x \cap K \subset J$. Since that $\mathcal{V}$ is a cover, it follows that $x \in \underset{i \in J_x \cap K}{V_i} \subset  \underset{i \in I}{\cup} V_i$, hence in $\underset{i \in I}{\cup} W_i$.
+We claim now that $\{W_i \subset X\}_{i \in I}$ thus defined is a cover of $X$. Take an arbitrary point $x \in X$. If $x \in U_i$ for some $i \notin K$, we have $U_i = W_i$ and therefore $x$ is in $\underset{i \in I}{\cup} W_i$. Otherwise, combining with the assumption that $\{U_i \subset X\}_{i \in I}$ is locally finite, the set $J_x$ of indices $i \in I$ such that $x \in U_i$ is finite and $J_x \subset K$. Since $(T,\leq)$ is a total order, it must contain an element $(J, \mathcal{V})$ such that $J_x \subset J$.  And since that $\mathcal{V}$ is a cover and $x$ cannot belong to any $U_i$ with $i$ outside of $J_x$, it must be that $x \in \underset{i \in J_x}{\cup} V_i \subset \underset{i \in J}{\cup} V_i$, and hence $x$ is in $\underset{i \in I}{\cup} W_i$.
 
 This shows that $(K,\mathcal{W})$ is indeed an element of $S$. It is clear by construction that it is an upper bound for $(T ,\leq )$. Hence we have shown that every [[chain]] in $(S,\leq)$ has an upper bound, and so Zorn's lemma implies the claim.
-
 
 
 =--
