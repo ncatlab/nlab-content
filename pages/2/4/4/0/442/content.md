@@ -486,7 +486,11 @@ Also still worthwhile reading are the following early papers:
 
 * [[Gavin Wraith]], _Algebras over Theories_ , Colloquium Mathematicum **XXIII** no.2 (1971) pp.181-190. ([pdf](https://eudml.org/doc/archive%5Cdsc_569f%5Cdsc_40fc%5C/bwmeta1.element.desklight-374f9cbc-939c-4bdb-8b0c-c21872987c9a/full-text/cm23_2_01.pdf))
 
-Textbook treatments are
+An early textbook treatment was in
+
+* {#Pareigis70} [[Bodo Pareigis]], _Categories and Functors_ , New York: Academic Press 1970. (chap. 3; [link](https://epub.ub.uni-muenchen.de/7244/))
+
+Modern textbook treatments are
 
 * [[Francis Borceux]], _Handbook of categorical algebra 2 -- Categories and structures_ , Encyclopedia of Mathematics and its Applications, Cambridge UP 1994. (chap. 3)
 
