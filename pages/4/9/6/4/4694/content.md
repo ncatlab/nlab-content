@@ -13,7 +13,7 @@
 =--
 =--
 
-#Contents#
+#Contents
 * table of contents
 {:toc}
 
@@ -297,48 +297,6 @@ The argument for the homomorphism property of the counit should be formally dual
 
 =--
 
-$(...)$
-
-$$
-  \array{     
-     R (X) \otimes R(Y)
-      &\overset{\eta(R(X) \otimes R(Y))}{\longrightarrow}&
-     R L (R(X) \otimes R(Y))
-      &\underoverset{}{ R( {\mu_L^{-1}(R(X), R(Y))} ) }{\longrightarrow}&
-     R ( L  R(X) \otimes L R (Y) )
-       &\overset{R( \epsilon(X) \otimes \epsilon(Y) )}{\longrightarrow}&
-     R(X \otimes Y)
-     \\
-     &{}_{\mathllap{ \text{derived } \atop {\text{adjunction unit}} }}\searrow& 
-     \downarrow^{\mathrlap{R j L (R(X) \otimes R(Y))}}
-     &&
-     \downarrow^{\mathrlap{R j ( L R (X) \otimes L R(Y) )}}
-     &&
-     \downarrow^{\mathrlap{ R j( X \otimes Y ) }}
-     \\
-      &&
-     R P L (R(X) \otimes R(Y))
-      &\underoverset{}{ R Q( {\mu_L^{-1}(R(X), R(Y))} ) }{\longrightarrow}&
-     R P ( L  R(X) \otimes L R (Y) )
-       &\overset{R Q( \epsilon(X) \otimes \epsilon(Y) )}{\longrightarrow}&
-     R P (X \otimes Y)
-  }
-$$
-  
-   and
-
-   $$
-     e_R
-     \;\colon\;
-     1 
-       \overset{\eta(1)}{\longrightarrow} 
-     R L(1) 
-       \overset{R(e_L^{-1})}{\longrightarrow} 
-     R(1)
-     \,,
-   $$
-
-
 
 ## Examples
 
@@ -367,6 +325,71 @@ The [[stabilization]] adjunction
 
   In fact this is the [[derived functors]] of what is even a [[monoidal Quillen adjunction]] between the [[classical model structure on topological spaces]] and the stable [[model structure on orthogonal spectra]] ([this cor.](Introduction+to+Stable+homotopy+theory+--+1-2#StableMonoidalQuillenSuspensionSpectrumFunctor)), which implies (strong) monoidality of the derived functors on homotopy categories ([this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#StrongMonoidalDerivedFunctorFromStrongMonoidalQuillenAdjunction)).
 
+In detail, let
+
+$$
+  (L \dashv R)
+   \;\colon\;
+  \mathbb{S}_{orth}Mod_{stable}
+     \underoverset
+      {\underset{\Omega^\infty_{orth}}{\longrightarrow}}
+      {\overset{\Sigma^\infty_{orth}}{\longleftarrow}}
+      {\bot}
+  Top^{\ast/}_{Quillen}
+    \underoverset
+       {\underset{}{\longrightarrow}}
+       {\overset{(-)_+}{\longleftarrow}}
+       {\bot}
+  Top_{Quillen}
+$$
+
+be the Quillen adjunction on orthogonal spectra ([here](Introduction+to+Stable+homotopy+theory+--+1-2#SuspensionSpectrumStructuredStrictQuillenAdjunction)).
+The left adjoint $L$ is a strong monoidal functor, and hence so is its [[derived functor]] $\Sigma^\infty(-)_+ \colon Ho(Top) \to Ho(Spectra)$ (by [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#StrongMonoidalDerivedFunctorFromStrongMonoidalQuillenAdjunction)). 
+
+{#DerivedLaxMonoidalStructure} We want to see that the structure of a lax monoidal functor which is induced on the derived right adjoint $\Omega^\infty(-) \colon Ho(Top) \to Ho(Spectra)$ via prop. \ref{MonoidalAdjunctionElementary} is the expected one, given on [[Omega-spectra]] $X$ and $Y$ by
+
+$$
+  \Omega^\infty(X) \wedge \Omega^\infty(X)
+    =
+   X_0 \wedge Y_0
+    \overset{}{\to}
+   (X \wedge Y)_0
+    =
+   \Omega^\infty( X \wedge Y )
+  \,.
+$$
+
+To see this, observe that if $X$ and $Y$ are [[CW-spectrum|CW-]][[Omega-spectra]] and hence cofibrant and fibrant in $\mathbb{S}_{orth}Mod_{stable}$ then the derived lax monoidal structure is given by the total bottom composite in the following diagram
+$$
+  \array{     
+     R (X) \otimes R(Y)
+      &\overset{\eta(R(X) \otimes R(Y))}{\longrightarrow}&
+     R L (R(X) \otimes R(Y))
+      &\underoverset{}{ R( {\mu_L^{-1}(R(X), R(Y))} ) }{\longrightarrow}&
+     R ( L  R(X) \otimes L R (Y) )
+       &\overset{R( \epsilon(X) \otimes \epsilon(Y) )}{\longrightarrow}&
+     R(X \otimes Y)
+     \\
+     &{}_{\mathllap{ \text{derived } \atop {\text{adjunction unit}} }}\searrow& 
+     \downarrow^{\mathrlap{R j L (R(X) \otimes R(Y))}}
+     &&
+     \downarrow^{\mathrlap{R j ( L R (X) \otimes L R(Y) )}}
+     &&
+     \downarrow^{\mathrlap{ R j( X \otimes Y ) }}
+     \\
+      &&
+     R P L (R(X) \otimes R(Y))
+      &\underoverset{}{ R Q( {\mu_L^{-1}(R(X), R(Y))} ) }{\longrightarrow}&
+     R P ( L  R(X) \otimes L R (Y) )
+       &\overset{R Q( \epsilon(X) \otimes \epsilon(Y) )}{\longrightarrow}&
+     R P (X \otimes Y)
+  }
+  \,,
+$$
+
+where we write for brevity $(L \dashv R) \coloneqq (\Sigma^\infty_{orth} \dashv \Omega^\infty_{orth})$, and  where $j \colon id \longrightarrow P$ denotes [[functorial factorization|functorial]] [[fibrant replacement]] (which exists since the [[small object argument]] applies in $\mathbb{S}_{orth}Mod_{stable}$). By functoriality of the replacement, all the squares commute, so that the derived lax monoidal structure on CW-Omega spectra is seen to be equivalently the underived one.
+
+But that underived top horizontal composite is manifestly just the canonical isomorphism $X_0 \wedge Y_0 \simeq (X \wedge Y)_0$ (since $R$ simply picks the component space in degree-0  and $L$ preserves the component space in degree 0).
 
 
 =--
