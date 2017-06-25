@@ -52,6 +52,14 @@ Up to [[equivalence of categories|equivalence]] of categories, the category of $
 
 In particular, following our standard example, the category of topologically complete spaces (that is the category of completely metrizable toplogical spaces) may be taken to have complete metric spaces as objects and continuous functions as morphisms.
 
+## Related concepts
+
+* [[metrisable space]]
+
+* [[cotopology]]
+
+* [[uniform space]]
+
 
 ## References
 
