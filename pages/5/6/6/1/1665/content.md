@@ -84,7 +84,7 @@ This is the easier, more conceptual way to remember right Kan lifts: in a global
 
 Dual to the situation in Kan extensions, one is interested in whether a Kan lift is _respected_ by a 1-cell with codomain the domain of the lift. This is defined as follows:
 
-- given $(\widetilde{f}, \varepsilon) = \mathop{Rift}_p f$, $g$ is said to _respect_ this right lift if $(\widetilde{f}g, \varepsilon \bullet g) = \mathop{Rift}_p(fg)$
+- given $(\widetilde{f}, \varepsilon) = \mathop{Rift}_p f$, $g$ is said to _respect_ this right lift if $(\widetilde{f}g, \varepsilon \bullet g) = \mathop{Rift}_p(f g)$
 
 and analogously for left Kan lifts. A Kan lift $\widehat{f}$ is _absolute_ if it is respected by any 1-cell into $\mathop{dom}(\widehat{f})$. Absolute Kan lifts subsume adjunctions and relative adjunctions, and are prominently present in the axioms of a [[Yoneda structure]]; for more see the examples below.
 
