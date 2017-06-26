@@ -59,7 +59,7 @@ $$
 A _global flow_ of $v$ is a function of the form
 
 $$
-  \Phi \;\colon\; X \times \mathbb{R} \longrightarrow \mathbb{R}
+  \Phi \;\colon\; X \times \mathbb{R} \longrightarrow X
 $$
 
 such that for each $x \in X$ the function $\phi(x,-) \colon \mathbb{R} \to X$ is an integral curve of $v$ (def. \ref{IntegralCurve}).
@@ -91,7 +91,7 @@ The vector field $v$ is called a _complete vector field_ if it admits a global f
 +-- {: .num_prop }
 ###### Proposition
 
-Let $\phi$ be a global flow of a vecotr field $v$ (def. \ref{FlowOfAVectorField}). This yields an [[action]] of the additive group $(\mathbb{R},+)$ of [[real numbers]] on the [[differentiable manifold]] $X$ by [[diffeomorphisms]], in that 
+Let $\phi$ be a global flow of a vector field $v$ (def. \ref{FlowOfAVectorField}). This yields an [[action]] of the additive group $(\mathbb{R},+)$ of [[real numbers]] on the [[differentiable manifold]] $X$ by [[diffeomorphisms]], in that 
 
 * $\phi_v(-,0) = id_X$;
 
