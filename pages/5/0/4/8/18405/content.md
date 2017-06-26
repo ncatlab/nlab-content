@@ -20,6 +20,8 @@ Given a [[tangent vector field]] on a [[differentiable manifold]] $X$ then its _
 
 ## Definition
 
+### Traditional definition
+
 Throughout, let $X$ be a [[differentiable manifold]] and let $v \in \Gamma(T X)$ be a continuously differentiable [[vector field]] on $X$ (i.e. of class $C^1$).
 
 
@@ -85,6 +87,55 @@ The vector field $v$ is called a _complete vector field_ if it admits a global f
 
 
 =--
+
+### Synthetic definition
+ {#SyntheticDefinition}
+
+In [[synthetic differential geometry]] a [[tangent vector field]] is a morphism $v \colon X \to X^D$ such that
+
+$$
+  \array{
+    && X^D 
+    \\
+    & {}^{\mathllap{v}}\nearrow & \downarrow^{\mathrlap{X^{\ast \to D}}}
+    \\
+    X &=& X
+  }
+$$
+
+The [[internal hom]]-[[adjunct]] of such a morphism is of the form
+
+$$
+  \tilde v \;\colon\; D \longrightarrow X^X
+  \,.
+$$
+
+If $X$ is sufficiently nice (a [[microlinear space]] should be sufficient) then this morphism factors through the internal [[automorphism group]] $\mathbf{Aut}(X)$ inside the internal [[endomorphisms]] $X^X$
+
+$$
+  \tilde v \;\colon\; D \longrightarrow \mathbf{Aut}(X) \hookrightarrow X^X
+  \,.
+$$
+
+Then a group homomorphism 
+
+$$
+  \phi_v \;\colon\; (R,+) \longrightarrow \mathbf{Aut}(X)
+$$
+
+with the property that restricted along any of the affine inclusions $D \hookrightarrow \mathbb{R}$ it equals $\tilde v$
+
+$$
+  \array{
+     D &\hookrightarrow& \mathbb{R}
+     \\
+     & {}_{\mathllap{\tilde v}}\searrow & \downarrow^{\mathrlap{\phi}}
+     \\
+     && \mathbf{Aut}(X) &\hookrightarrow& X^X
+  }
+$$
+
+is a _flow_ for $v$.
 
 ## Properties
 
