@@ -387,3 +387,7 @@ February 1999, Volume 135, Issue 3, pp 743-788 ([pdf](http://hopf.math.purdue.ed
 
 * [[Nicholas Kuhn]], _Goodwillie towers and chromatic homotopy: an overview_, Geom. Topol. Monogr. 10 (2007) 245-279 ([arXiv:math/0410342](http://arxiv.org/abs/math/0410342))
 
+On the relation to [[configuration space (mathematics)|configuration spaces]]:
+
+* Michael Ching, _Calculus of Functors and Configuration Spaces_ ([pdf](https://www3.amherst.edu/~mching/Work/skye.pdf))
+
