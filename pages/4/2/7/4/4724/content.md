@@ -381,7 +381,7 @@ $$
 
 showing their analogy to the glueing functions within a single atlas spring.
 
-Hence diffeomorphsm induces an [[equivalence relation]] on the set of
+Hence diffeomorphism induces an [[equivalence relation]] on the set of
 smooth atlases that exist on a given [[topological manifold]] $X$. An [[equivalence class]]
 with respect to this equivalence relation is called a _[[smooth structure]]_ on $X$.
 
