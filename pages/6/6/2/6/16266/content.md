@@ -36,7 +36,7 @@ In the category [[Set]] of sets small [[limits]]
 distribute over [[sifted colimits]]
 and [[finite products]] distribute over small [[colimits]].
 
-## In precontinuos categories and locally finitely presentable categories
+## In precontinuous categories and locally finitely presentable categories
 
 According to Definition 5.11 in [ALR](#ALR),
 a category is _precontinuous_
