@@ -54,7 +54,7 @@ $$
 
 be a [[continuous function]] to the [[real numbers]] equipped with their [[Euclidean space|Euclidean]] [[metric topology]]. 
 
-Then $f$ attains is [[maximum]] and its [[minimum]], i.e. there exist $x_{min}, x_{max} \in C$ such that for all $x \in C$ it is true that
+Then $f$ attains its [[maximum]] and its [[minimum]], i.e. there exist $x_{min}, x_{max} \in C$ such that for all $x \in C$ it is true that
 
 $$
   f(x_{min})
