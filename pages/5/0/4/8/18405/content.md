@@ -1,16 +1,31 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
+## Idea
+
+Given a [[tangent vector field]] on a [[differentiable manifold]] $X$ then its _flow_ is the [[group]] of [[diffeomorphisms]] of $X$ that lets the points of the manifold "flow along the vector field" hence which sends them along _flow lines_ (integral curvs) that are tangent to the vector field.
+
 ## Definition
 
-Throughout, let $X$ be a [[differentiable manifold]] and let $v \in \Gamma(T X)$ be a differentiable [[vector field]] on $X$.
+Throughout, let $X$ be a [[differentiable manifold]] and let $v \in \Gamma(T X)$ be a continuously differentiable [[vector field]] on $X$ (i.e. of class $C^1$).
 
 
 +-- {: .num_defn #IntegralCurve}
 ###### Definition
-**(integral curve or flow line)**
+**(integral curves/flow lines)**
 
 
 An _integral curve_ or _flow line_ of the vector field $v$ is a [[differentiable function]] of the form
@@ -19,11 +34,13 @@ $$
   \gamma
     \;\colon\;
   \mathbb{R}
+    \subset 
+    U
     \longrightarrow
   X    
 $$
 
-with the property that its [[tangent vector]] at any $t \in \mathbb{R}$ equals the value of the vector field $v$ at the point $\gamma(t)$
+for $U \subset \mathbb{R}$ an [[open interval]]  with the property that its [[tangent vector]] at any $t \in \mathbb{R}$ equals the value of the vector field $v$ at the point $\gamma(t)$:
 
 $$
   \underset{t \in \mathbb{R}}{\forall}
@@ -35,43 +52,46 @@ $$
 
 =--
 
-+-- {: .num_prop #IntegralCurvesUniqueness}
-###### Proposition
-**(uniqueness of integral curves)
++-- {: .num_defn #FlowOfAVectorField}
+###### Definition
+**(flow of a vector field)**
 
-For each point $x \in X$ and vector $v_0 \in T_{x} X$ there is a unique integral curve $\gamma \colon \mathbb{R} \to X$ (def. \ref{IntegralCurve}) with the properties 
-
-1. $\gamma(0) = x$;
-
-1. $d \gamma_0 = v_0$.
-
-Moreover, the function
+A _global flow_ of $v$ is a function of the form
 
 $$
-  \Phi_v \;\colon\; X \times \mathbb{R} \longrightarrow X
+  \Phi \;\colon\; X \times \mathbb{R} \longrightarrow \mathbb{R}
 $$
 
-such that for each $x \in X$ the function $\Phi(x,-) \colon \mathbb{R} \to X$
-is the integral curve of $v$ through $x$, is a [[differentiable function]].
+such that for each $x \in X$ the function $\phi(x,-) \colon \mathbb{R} \to X$ is an integral curve of $v$ (def. \ref{IntegralCurve}).
+
+A _flow domain_ is an open subset $O \subset X \times \mathbb{R}$ such that for all $x \in X$ the intersection $O \cap \{x\} \times \mathbb{R}$ is an [[open interval]] containing $0$. 
+
+A _flow_ of $v$ on a flow domain $O \subset X \times \mathbb{R}$ is a differentiable function 
+
+$$
+  X \times \mathbb{R} \supset O \overset{\phi}{\longrightarrow} X
+$$ 
+
+such that for all $x \in X$ the function $\phi(x,-)$ is an integral curve of $v$ (def. \ref{IntegralCurve}).
 
 
 =--
 
-+-- {: .num_defn #FlowOfAVectorField}
++-- {: .num_defn #CompleteVectorField}
 ###### Definition
-**(flow of a vector field)
+**(complete vector field)
 
-Given a differentiable vector field $v$ on a [[differentiable manifold]] $X$, then 
-the function $\Phi_v$ from prop. \ref{IntegralCurvesUniqueness} called the _flow_ of the vector field $v$. One also writes $\exp(t v) \coloneqq \phi_v(-,t)$.
+The vector field $v$ is called a _complete vector field_ if it admits a global flow (def. \ref{FlowOfAVectorField}).
+
 
 =--
 
 ## Properties
 
-+-- {: .num_defn #SheavesOnCartSp}
-###### Definition
++-- {: .num_prop }
+###### Proposition
 
-The flow of a vector field $v$ (def. \ref{FlowOfAVectorField}) yields an [[action]] of the additive group $(\mathbb{R},+)$ of [[real numbers]] on the [[differentiable manifold]] $X$ by [[diffeomorphisms]], in that 
+Let $\phi$ be a global flow of a vecotr field $v$ (def. \ref{FlowOfAVectorField}). This yields an [[action]] of the additive group $(\mathbb{R},+)$ of [[real numbers]] on the [[differentiable manifold]] $X$ by [[diffeomorphisms]], in that 
 
 * $\phi_v(-,0) = id_X$;
 
@@ -81,9 +101,30 @@ The flow of a vector field $v$ (def. \ref{FlowOfAVectorField}) yields an [[actio
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+**(fundamental theorem of flows)**
+
+Let $X$ be a [[smooth manifold]] and $v \in \Gamma(T X)$ a smooth [[vector field]]. Then $v$ has a unique maximal flow (def. \ref{FlowOfAVectorField}).
+
+This unique flow is often denoted $\phi_v$ or $\exp(v)$ (see also at _[[exponential map]]_).
+
+=--
+
+e.g. [Lee, theorem 12.9](#Lee)
+
++-- {: .num_prop }
+###### Proposition
+
+Let $X$ be a [[compact topological space|compact]] [[smooth manifold]]. Then every smooth [[vector field]] $v \in \Gamma(T X)$ is a complete vector field (def. \ref{CompleteVectorField}) hence has a global flow (def. \ref{FlowOfAVectorField}).
+
+=--
+
+e.g. [Lee, theorem 12.12](#Lee)
+
 ## References
 
-* John Lee, chapter 12 "Integral curves and flows" of _Introduction to smooth manifolds_ ([pdf](http://webmath2.unito.it/paginepersonali/sergio.console/lee.pdf))
+* {#Lee} John Lee, chapter 12 "Integral curves and flows" of _Introduction to smooth manifolds_ ([pdf](http://webmath2.unito.it/paginepersonali/sergio.console/lee.pdf))
 
 [[!redirects flows of a vector field]]
 
