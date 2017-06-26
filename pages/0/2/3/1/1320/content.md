@@ -52,7 +52,7 @@ Beware that monadic functors are not closed under composition. For a specific ex
 
 * [[comonadic functor]], [[monadicity theorem]]
 
-
+* If the comparison functor is only [[fully faithful]], a functor is sometimes said to be of [[descent type]].
 
 [[!redirects monadic]]
 [[!redirects monadic category]]
