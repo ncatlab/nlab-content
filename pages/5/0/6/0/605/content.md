@@ -1,5 +1,5 @@
 
-+-- {: .rightHandSide}
++-- {: .rig#htHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Manifolds and cobordisms
@@ -51,6 +51,8 @@ If one considers [[manifolds with corners]] then there is a fairly evident refin
 
 
 ## Related concepts
+
+* [[h-cobordism]]
 
 * [[cobordism theory]]
 
