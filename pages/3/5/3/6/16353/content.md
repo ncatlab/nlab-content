@@ -67,7 +67,7 @@ then it follows that $\delta$ is the derivation coming from $v_\delta$ under $Ve
 +-- {: .num_remark}
 ###### Remark
 
-Via the [[embedding of smooth manifolds into formal duals of R-algebras]] as observing that algebra homomorphisms of the form $C^\infty(X)[\epsilon]/(\epsilon^2)\leftarrow C^\infty(X)$ which are the identity modulo $\epsilon$ are equivalently [[derivations]], 
+Via the [[embedding of smooth manifolds into formal duals of R-algebras]] and observing that algebra homomorphisms of the form $C^\infty(X)[\epsilon]/(\epsilon^2)\leftarrow C^\infty(X)$ which are the identity modulo $\epsilon$ are equivalently [[derivations]], 
 theorem \ref{Statement} is the starting point for generalizations of [[smooth manifolds]] to [[formal smooth manifolds]] and more generally of [[differential geometry]] to _[[synthetic differential geometry]]_.
 
 =--
@@ -82,6 +82,10 @@ Beware however that related algebraic properties familiar from [[affine schemes]
 
 ## Related theorems
 
+* [[embedding of smooth manifolds into formal duals of R-algebras]]
+
+* [[smooth Serre-Swan theorem]]
+
 * [[Borel's theorem]]
 
 * the [[Tietze extension theorem]]
@@ -90,7 +94,6 @@ Beware however that related algebraic properties familiar from [[affine schemes]
 
 * the [[Steenrod-Wockel approximation theorem]]
 
-* [[embedding of smooth manifolds into formal duals of R-algebras]]
 
 
 ## References
