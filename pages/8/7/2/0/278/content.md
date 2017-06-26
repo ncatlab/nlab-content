@@ -91,7 +91,12 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 ## References
  {#References}
 
+
 ### Traditional
+
+The study of differential geometry goes back to the study of [[surfaces]] [[embedding of smooth manifolds|embedded]] into [[Euclidean space]] $\mathbb{R}^3$ in
+
+* {#Gauss1827} [[Carl Friedrich Gauss]], _General Investigations of Curved Surfaces_, 1827 ([Gutenberg](http://www.gutenberg.org/ebooks/36856))
 
 Textbooks include
 
