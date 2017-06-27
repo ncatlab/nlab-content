@@ -61,6 +61,8 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 * [[Penrose-Hawking theorem]], [[cosmic censorship hypothesis]]
 
+* [[weak gravity conjecture]]
+
 * [[first order formulation of gravity]]
 
   * [[Plebanski formulation of gravity]], [[gravity as a BF-theory]], [[teleparallel gravity]]
