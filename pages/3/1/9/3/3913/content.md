@@ -197,7 +197,7 @@ $$
 $$
 
 =--
-Equivalently, this says $Th(V_1 \oplus V_2)$ is the fiberwise smash product of $Th(V_1)$ and $Th(V_2)$ over $X$.
+
 +-- {: .proof}
 ###### Proof
 
