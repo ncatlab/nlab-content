@@ -18,20 +18,21 @@
 
 ## Idea
 
-A dual of the [[graviton]] under [[electric-magnetic duality]] (e.g. [Hull 01](#Hull01), [Bekaert-Boulanger-Henneaux 02](#BekaertBoulangerHenneaux02), [Godazger-Godazger-Nicolai 13, section 2.2](#GodazgerGodazgerNicolai13)).
+A dual of the [[graviton]] under [[electric-magnetic duality]] (e.g. [Curtright 85](#Curtright85), [Hull 01](#Hull01), [Bekaert-Boulanger-Henneaux 02](#BekaertBoulangerHenneaux02), [Godazger-Godazger-Nicolai 13, section 2.2](#GodazgerGodazgerNicolai13)).
 
 Dual gravitons have been considered in particular for manifestly EM-duality-symmetric formulations of [[supergravity]] [[Lagrangians]]. See for instance ([de Wit-Nicolai 13, section 6](#deWitNicolai13)) and see at _[3-d supergravity -- possible gaugings](3-dimensional+supergravity#PossibleGaugings)_.
 
-Dual graviton can be coupled to topological [[BF-theory]] in _D_ = 5 ([Bizdadea 09](#Bizdadea09)), so it should be also coupled with [[gravity as a BF theory]] in extra dimensions _D_ > 4.
+The spin-2 dual graviton is described by the [Curtright field](https://en.wikipedia.org/wiki/Curtright_field) in five spacetime dimensions. Dual graviton can be coupled to topological [[BF-theory]] in _D_ = 5 ([Bizdadea 09](#Bizdadea09)), so it should be also coupled with [[gravity as a BF theory]] in extra dimensions _D_ > 4.
 
 
 ## References
 
 The dual graviton was maybe first discussed in 
 
-* T. Curtwright, _Generalised Gauge Fields_, Phys.Lett. B165 (1985) 304
+* {#Curtright85} [[Thomas Curtright]], _Generalised Gauge Fields_,  Phys.Lett. B 165:304, 1985 (doi:[10.1016/0370-2693(85)91235-3](https://doi.org/10.1016%2F0370-2693%2885%2991235-3))
 
 then further in
+
 
 * {#Hull01} [[Chris Hull]], _Duality in Gravity and Higher Spin Gauge Fields_, JHEP 0109:027,2001 ([arXiv:hep-th/0107149](http://arxiv.org/abs/hep-th/0107149))
 
