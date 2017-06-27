@@ -171,7 +171,11 @@ $$
   \right\}_{x \in X}
 $$
 
-be the collection of choices of such open balls, around each point of the manifold. This is an [[open cover]] which [[refinement|refines]] the cover $\{U'_i \subset X\}_{i \in I}$. Again by [[paracompact topological space|paracompactness]] of $X$, there exists a [[locally finite cover|locally finite]] subcover, hence a [[subset]] of points $S \subset X$ such that
+be the collection of choices of such open balls, around each point of the manifold. This is an [[open cover]] which [[refinement|refines]] the cover $\{U'_i \subset X\}_{i \in I}$. Again by [[paracompact topological space|paracompactness]] of $X$, 
+
+> fix this
+
+there exists a [[locally finite cover|locally finite]] subcover, hence a [[subset]] of points $S \subset X$ such that
 
 $$  
   \left\{
