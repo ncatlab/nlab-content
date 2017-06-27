@@ -3,6 +3,8 @@
 
 * [[black hole entropy]]
 
+* [[weak gravity conjecture]]
+
 ## References
 
 In [[AQFT]]:
