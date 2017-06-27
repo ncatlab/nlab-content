@@ -191,7 +191,7 @@ $$
   \right\}_{s \in S \subset X}
 $$
 
-a set of [[smooth bump functions]] whose [[support]] is the [[topological closure]] of the chosen open ball around $s$, regarded now as a subspace of the corresponding $j$-th copy of $\mathbb{R}^n$:
+be a set of [[smooth bump functions]] whose [[support]] is the [[topological closure]] of the chosen open ball around $s$, regarded now as a subspace of the corresponding $j$-th copy of $\mathbb{R}^n$:
 
 $$
   Supp(b_s) = Cl\left( B^\circ_s(\epsilon_s) \right)
