@@ -1,0 +1,14 @@
+Thomas L. Curtright is professor for theoretical physics at the University of Miami.
+
+* [webpage](http://www.physics.miami.edu/~curtright/home.html)
+
+* [wikipedia entry](https://en.wikipedia.org/wiki/Thomas_Curtright)
+
+## related $n$Lab entries
+
+* [[dual graviton]]
+
+* [Curtright field](https://en.wikipedia.org/wiki/Curtright_field)
+
+category: people
+
