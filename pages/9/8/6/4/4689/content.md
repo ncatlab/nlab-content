@@ -84,6 +84,8 @@ As a result, the field of fundamental physics today finds itself in a somewhat a
 
 * [[asymptotic safety]]
 
+* [[weak gravity conjecture]]
+
 ## References
 
 ### General
