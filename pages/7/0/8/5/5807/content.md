@@ -15,7 +15,7 @@
 
 ## Idea ##
 
-**Writhe** is a measure of how much a knot or link _writhes_ around itself.  As a 1-dimensional line cannot actually twist, this is not a [[knot invariant]] but is an invariant of [[framed knots]] (and links).  Since a [[link diagram]] can be given a natural framing (the _blackboard framing_), it is possible to compute the write of a specific diagram.  One place where this is used very neatly is to convert the [[Kauffman bracket]], which is an invariant of framed links, in to the [[Jones polynomial]], being an invariant of ordinary links.
+**Writhe** is a measure of how much a knot or link _writhes_ around itself.  As a 1-dimensional line cannot actually twist, this is not a [[knot invariant]] but is an invariant of [[framed knots]] (and links).  Since a [[link diagram]] can be given a natural framing (the _blackboard framing_), it is possible to compute the writhe of a specific diagram.  One place where this is used very neatly is to convert the [[Kauffman bracket]], which is an invariant of framed links, into the [[Jones polynomial]], being an invariant of ordinary links.
 
 ## Definition ##
 
