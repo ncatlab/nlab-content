@@ -137,7 +137,7 @@ $$
 by setting
 
 $$
-  \hat \phi_i
+  \hat \psi_i
   \;\colon\;
    x
   \mapsto
@@ -169,7 +169,7 @@ $$
   \;\colon\;
   X
     \longrightarrow
-  \left(\mathbb{R}^{n+1})\right)^{\vert J \vert}
+  \left(\mathbb{R}^{n+1}\right)^{\vert J \vert}
   \simeq
   \mathbb{R}^{(n+1)\cdot {\vert J \vert}}
   \,.
@@ -177,7 +177,7 @@ $$
 
 This is an immersion. Hence it remains to see that it is also an [[embedding of topological spaces]]. 
 
-By [this prop](embedding+of+topological+spaces#OpenClosedContinuousInjectionsAreEmbeddings) it is sufficient to see that the injective continuous function is a [[closed map]]. But this follows generally since $X$ is a [[compact topological space]] by assumption, and since $Y$ is a [[Hausdorff topological space]] by definition of manifolds, and since [[maps from compact spaces to Hausdorff spaces are closed and proper]].
+By [this prop](embedding+of+topological+spaces#OpenClosedContinuousInjectionsAreEmbeddings) it is sufficient to see that the injective continuous function is a [[closed map]]. But this follows generally since $X$ is a [[compact topological space]] by assumption, and since [[Euclidean space]] is a [[Hausdorff topological space]], and since [[maps from compact spaces to Hausdorff spaces are closed and proper]].
 
 =--
 
