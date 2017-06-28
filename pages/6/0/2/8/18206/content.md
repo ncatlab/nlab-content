@@ -121,7 +121,21 @@ Then the following are equivalent
 In one direction, if $f$ is an injective proper map, 
 then since [[proper maps to locally compact spaces are closed]], it follows that $f$ is also  [[closed map]]. The claim then follows since [[closed injections are embeddings]], and since the image of a closed map is closed.
 
-Conversely, if $f$ is a closed embedding, we only need to show that the embedding map is proper. So for $C \subset Y$ a [[compact subspace]], we need to show that the [[pre-image]] $f^{-1}(C) \subset X$ is also compact. But since $f$ is an injection (being an embedding), that pre-image is just the intersection $f^{-1}(C) \simeq C \cap f(X)$. By the nature of the [[subspace topology]], this is compact if $C$ is. 
+Conversely, if $f$ is a closed embedding, we only need to show that the embedding map is proper. So for $C \subset Y$ a [[compact subspace]], we need to show that the [[pre-image]] $f^{-1}(C) \subset X$ is also compact. But since $f$ is an injection (being an embedding), that pre-image is just the intersection $f^{-1}(C) \simeq C \cap f(X)$. 
+
+To see that this is compact, let $\{V_i \subset X\}_{i \in I}$ be an open cover of the subspace $C \cap f(X)$,
+hence, by the nature of the [[subspace topology]], let $\{U_i \subset Y\}_{i \in I}$ be a set of open subsets of
+$Y$, which cover $C \cap f(X) \subset Y$ and with $V_i$ the restriction of $U_i$ to $C \cap f(X)$.
+Now since $f(X) \subset Y$ is closed by assumption, it follows that the complement $Y \setminus f(X)$ is open
+and hence that
+
+$$
+  \{ U_i \subset Y \}_{i \in  I} \sqcup \{ Y \setminus f(X) \}
+$$
+
+is an open cover of $C \subset Y$. By compactness of $C$ this has a finite subcover. Since restricting that
+finite subcover back to $C \cap f(X)$ makes the potential element $Y \setminus f(X)$ disappear, this
+restriction is a finite subcover of $\{V_i \subset C \cap f(X)\}$. This shows that $C \cap f(X)$ is compact.
 
 =--
 
