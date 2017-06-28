@@ -95,7 +95,7 @@ The fact that all type-theoretic constructions can be performed in any context i
 
 The interpretation of [[terms]] in [[type theory]] as generalized elements of objects in a category is discussed for instance on p. 8 of
 
-* [[Steve Awodey]], [[Andrej Bauer]], _Propositions as $[$Types$]$_, Journal of Logic and Computation. Volume 14, Issue 4, August 2004, pp. 447-471 ([pdf](http://andrej.com/papers/brackets_letter.pdf))
+* [[Steve Awodey]], [[Andrej Bauer]], _Propositions as $[$Types$]$_, Journal of Logic and Computation. Volume 14, Issue 4, August 2004, pp. 447-471 ([pdf](http://math.andrej.com/data/bracket_types.pdf))
 
 
 [[!redirects generalised element]]
