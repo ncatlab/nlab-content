@@ -103,6 +103,110 @@ Similarly [[normal spaces]] are equivalently those such that every [[locally fin
 
 Paracompact [[smooth manifolds]] even have _smooth_ partitions of unity subordinate to any open cover (this follows from the existence of a smooth [[bump function]] on $[-1,1]$). It is not true, however, that [[analytic manifolds]] have analytic partitions of unity - the aforementioned [[bump function]] is smooth but not analytic:
 
++-- {: .num_lemma #SmoothManifoldClosedBallRefinementOfCover}
+###### Lemma
+**([[open cover]] of [[smooth manifold]] admits [[locally finite cover|locally finite]] [[refinement]] by [[closed balls]])**
+
+Let $X$ be a [[smooth manifold]] and let 
+$\{U_i \subset X\}_{i \in I}$ be an [[open cover]]. 
+Then there exists cover
+
+$$
+  \left\{
+    B_0(\epsilon_j) 
+      \underoverset{\simeq}{\psi_j}{\to}
+    V_j
+      \subset 
+    X
+  \right\}_{i \in J}
+$$
+
+which is a [[locally finite cover|locally finite]] [[refinement]] of $\{U_i \subset X\}_{i \in I}$ with each patch [[diffeomorphism|diffeomorphic]] to a [[closed ball]] in [[Euclidean space]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First consider the case that $X$ is [[compact topological space]]. 
+
+Let 
+
+$$
+  \left\{
+    \mathbb{R}^n
+      \underoverset{\simeq}{\phi_j}{\longrightarrow}
+    V_j
+    \subset X
+  \right\}
+$$
+
+be a smooth [[atlas]] representing the [[smooth structure]] on $X$. The [[intersections]]
+
+$$
+  \left\{
+    U_i \cap V_j
+  \right\}_{i \in I, j \in J}
+$$
+
+still form an open cover of $X$. Hence for each point $x \in X$ there is $i \in I$ and $j \in J$ with $x \in U_i \cap V_j$. By the nature of the [[Euclidean topology]], there exists a [[closed ball]] $B_x$ around $\phi_j^{-1}(x)$ in $\phi_j^{-1}(U_i \cap V_j) \subset \mathbb{R}^n$. Its [[image]] $\phi_j(B_x) \subset X$ is a neighbourhood of  $x \in X$ diffeomorphic to a closed ball.
+
+The [[interiors]] of these balls form an [[open cover]]
+
+$$
+  \left\{
+    Int(B_x)
+     \subset 
+    X
+  \right\}_{x \in X}
+$$
+ 
+of $X$ which, by construction, is a refinement of $\{U_i \subset X\}_{i \in I}$. By the assumption that $X$ is compact, this has a finite subcover
+
+$$
+  \left\{
+    Int(B_k)
+    \subset 
+    X
+  \right\}_{k \in K}
+$$
+
+for $K$ a [[finite set]]. Hence 
+
+$$
+  \left\{
+    B_k
+    \subset 
+    X
+  \right\}_{k \in K}
+$$
+
+is a finite cover by closed balls, hence in particular locally finite, and by construction it is still a refinement of the orignal cover.
+This shows the statement for $X$ compact.
+
+Now for general $X$, notice that without restriction we may assume that $X$ is [[connected topological space|connected]], for if it is not, then we obtain the required refinement on all of $X$ by finding one on each [[connected component]].
+
+But if a locally Euclidean paracompact Hausdorff space $X$ is connected, then it is [[sigma-compact topological space|sigma-compact]] and in fact admits a countable increasing exhaustion
+
+$$
+  V_0 \subset V_1 \subsez V_2 \subset \cdots
+$$
+
+by [[open subsets]] whose [[topological closures]]
+
+$$
+  K_0 \subset K_1 \subset K_2 \subset \cdots
+$$
+
+exhaust $X$ by [[compact topological space|compact]] subspaces $K_n$ (by the proof of [this prop.](topological#manifold#RegularityConditionsForTopologicalManifoldsComparison)).
+
+By arguing as above in the compact case, we find locally finite refinements by closed balls of the original cover restricted to $K_{n+1} \setminus K{n-1}$ for all $n \in \mathbb{N}$ (setting $K_{\lt 0} \coloneqq \emptyset$), hence finite refinements by closed balls covering $K_n \setminus K_{n-1}$ for all $n \in \mathbb{N}$ such that these balls are contained in $K_{n+1}\setminus K_{n-2}$. The union of all these over $n \in \mathbb{N}$ is still locally finite, and hence is a cover of the required form.
+
+
+=--
+
+
 +-- {: .num_prop #SmoothManifoldAdmitsSmoothPartitionsOfUnity}
 ###### Proposition
 **([[smooth manifolds]] admit smooth partitions of unity)**
@@ -111,172 +215,83 @@ Let $X$ be a paracompact [[smooth manifold]]. Then every [[open cover]] $\{U_i \
 
 =--
 
+
 +-- {: .proof}
 ###### Proof
 
-Since $X$ is paracompact, the given open cover has a [[refinement]] to a [[locally finite cover]], and then there exists one with the same index set ([this prop.](paracompact+Hausdorff+spaces+equivalently+admit+subordinate+partitions+of+unity#LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet)):
+By lemma \ref{SmoothManifoldClosedBallRefinementOfCover} the given cover
+has a [[locally finite cover|locally finite]] [[refinement]]
+by [[closed subsets]] [[diffeomorphism|diffeomorphic]] to [[closed balls]]:
 
 $$
   \left\{
-    U'_i \subset X
-  \right\}_{i \in I}
+    B_0(\epsilon_j) 
+      \underoverset{\simeq}{\psi_j}{\to}
+    V_j
+      \subset 
+    X
+  \right\}_{i \in J}
   \,.
 $$
 
-
-Recall that the smooth manifold $X$ is a [[normal topological space]], because it is a [[paracompact Hausdorff space]] by definition and [[paracompact Hausdorff spaces are normal]].  Therefore we may invoke the [[shrinking lemma]] to obtain yet another open cover with the same index set
+Given this, let
 
 $$
+  h_j \;\colon\; X \longrightarrow \mathbb{R}
+$$
+
+be the function which on $V_j$ is given by a smooth [[bump function]] 
+
+$$
+  b_j \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}
+$$
+
+with [[support]]  $supp(b_j) = B_0(\epsilon_j)$:
+
+$$
+  h_j
+  \;\colon\;
+  x 
+  \mapsto
   \left\{
-     V_i \subset X
-  \right\}_{i \in I}
-$$
-
-with the property that
-
-$$  
-  \underset{i \in I}{\forall}  
-  \left(
-     V_i \subset Cl(V_i) \subset U'_i \subset U_i
-  \right)
+    \array{
+      b_j(\psi_j^{-1}(x)) &\vert& x \in V_j
+      \\
+      0 &\vert& \text{otherwise}
+    }
+  \right.
   \,.
 $$
 
-Now let 
+By the nature of [[bump functions]] this is indeed a [[smooth function]] on all of $X$. By local finiteness of the cover by closed balls, the function
 
 $$
-  \{\mathbb{R}^n  \underoverset{}{\phi_j }{\to} X\}_{j \in J}
-$$ 
-
-be an [[atlas]] exhibiting the [[smooth structure]] on the smooth manifold. Then by definition, for each point $x \in X$ there is $i_x \in I$ and $j_x \in J$ such that 
-
-$$
-  x \in V_{i_x} \cap Im(\phi_{j_x})
-  \,.
+  h \;\colon\; X \longrightrrow \mathbb{R}
 $$
 
-By the nature of the [[subspace topology]], this intersection is still an open subset of $Im(\phi_{j_x}) \simeq \mathbb{R}^n$. Therefore by the definition of the [[metric topology]] there exists a [[positive number|positive]] [[real number]] $\epsilon_{x}$ such that the [[open ball]] of [[radius]] $\epsilon_x$ around $x$ is an open neighbourhood of $x$ still contained in $V_{i_x}$:
+given by
 
 $$
-  B^\circ_x(\epsilon_x) \subset V_{i_x} \cap Im(\phi_{j_x})
-  \,.
+  h(x) 
+    \coloneqq 
+  \underset{j \in J}{\sum} h_j(x)
 $$
 
-Let then
+is well defined (the sum involves only a finite number of non-vanishing contributions) and is smooth. Therefore setting
 
 $$
-  \left\{
-     B^\circ_x(\epsilon_x)
-     \subset X
-  \right\}_{x \in X}
+  f_j \;\coloneqq\; \frac{h_j}{h}
 $$
 
-be the collection of choices of such open balls, around each point of the manifold. This is an [[open cover]] which [[refinement|refines]] the cover $\{U'_i \subset X\}_{i \in I}$. Again by [[paracompact topological space|paracompactness]] of $X$, 
-
-> fix this
-
-there exists a [[locally finite cover|locally finite]] subcover, hence a [[subset]] of points $S \subset X$ such that
-
-$$  
-  \left\{
-     B^\circ_s(\epsilon_s)
-     \subset
-     X
-  \right\}_{s \in S \subset X}
-$$
-
-is a locally finite open cover of $X$.
-
-Let then
+then 
 
 $$
-  \left\{
-    \mathbb{R}^n \overset{\phantom{AA}b_s\phantom{AA}}{\longrightarrow} \mathbb{R}
-  \right\}_{s \in S \subset X}
+ \left\{
+    f_j
+ \right\}_{j \in J}
 $$
 
-be a set of [[smooth bump functions]] whose [[support]] is the [[topological closure]] of the chosen open ball around $s$, regarded now as a subspace of the corresponding $j$-th copy of $\mathbb{R}^n$:
-
-$$
-  Supp(b_s) = Cl\left( B^\circ_s(\epsilon_s) \right)
-  \,.
-$$
-
-Hence the [[smooth bump functions]] $b_s$ vanish on $\mathbb{R}^n \backslash Cl(B^\circ_s(\epsilon_s))$, such that their [[extension]] by zero to functions $\hat b_s$ on all of $X$
-
-$$
-  \array{
-     \mathbb{R}^n &\overset{b_s}{\longrightarrow}& \mathbb{R}
-     \\
-     {}^{\mathllap{\phi_{i_s}}}\downarrow & \nearrow_{\mathrlap{\hat b_s}}
-     \\
-     X
-  }
-$$
-
-are still [[smooth functions]]: $\hat b_s \in C^\infty(X,\mathbb{R})$. 
-
-Now by local finiteness of both the cover $\{U'_i \subset X\}_{i \in I}$ and of the cover $\{B^\circ_s(\epsilon_s)\}_{s \in S}$ we have that the sum
-
-$$
-  \underset{ {i \in I} \atop {s \in S \cap U'_i }}{\sum} \hat b_s(x)
-  \;\in\;
-  \mathbb{R}
-$$
-
-is well defined for each $x \in X$ (only finitely many of the summands are non-zero) and by the covering property each point $x$ is contained in at least one of the patches of the cover, hence in the [[interior]] of the [[support]] of at least one of the $\hat b_s$ and so 
-
-$$
-  \underset{s \in S}{\sum} \hat b_s(x) \;\gt\; 0
-$$
-
-for all $x \in X$. This means that it makes sense to define
-
-$$
-  f_i 
-  \;\coloneqq\;
-  \frac{
-    \underset{s \in S \cap U'_i}{\sum} \hat b_s 
-  }
-  {
-    \underset{ { i \in I} \atop { s \in S \cap U'_i} }{\sum} \hat b_s
-  }
-$$
-
-and these are still smooth functions: $f_i \in C^\infty(X,\mathbb{R})$. 
-
-We claim now that these form the required partition of unity subordinate to the original cover:
-
-1. By construction of the various open covers we have
-
-   $$
-     \underset{s \in S \cap U_i}{\forall} \left(Supp(b_s) = Cl\left(B^\circ_s(\epsilon_s)\right) \subset Cl(V_i) \subset U'_i \subset U_i\right)
-   $$ 
-
-   and hence
-
-   $$
-     Supp(f_i) \subset U_i
-     \,.
-   $$
-
-1. By construction of the functions $f_i$ we have
-
-   $$
-     \underset{i  \in I}{\sum} f_i(x)
-      =
-     \underset{i \in I}{\sum}
-     \frac{
-        \underset{s \in S \cap U_i}{\sum} \hat b_s
-     }
-     {
-       \underset{ {i \in I} \atop {s \in S \cap U_i} }{\sum} \hat b_s
-     }
-     = 
-     1
-     \,.
-   $$
-
+is a subordinate partition of unity by smooth functions as required.
 
 
 
