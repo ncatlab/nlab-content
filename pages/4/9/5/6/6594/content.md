@@ -14,7 +14,7 @@
 =--
 #### Differential cohomology
 +--{: .hide}
-[[!include differential cohomology - contents]]
+[[!include differential cohomologFy - contents]]
 =--
 =--
 =--
@@ -675,6 +675,11 @@ A formalization of higher Cartan geometry via [[differential cohesion]] is in
 * {#dcct} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 * [[Urs Schreiber]], _[[schreiber:Higher Cartan Geometry]]_, Harmonic analysis seminar, Charles University Prague, 2015
+
+Formalization of this in [[homotopy type theory]] is in
+
+* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017
+
 
 [[!redirects Cartan 2-geometry]]
 
