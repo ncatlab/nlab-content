@@ -13,11 +13,23 @@
 * table of contents
 {:toc}
 
+
 ## Definition
 
-A **diffeomorphism** is a [[smooth function]] $f: X \to Y$ beween [[smooth manifolds]] such that there exists an [[inverse]] smooth function $f^{-1}$ (a function which is a set-theoretic inverse and at the same time smooth).
+Given two $k$-times [[differentiable manifolds]] (or [[smooth manifolds]]), then a _diffeomorphism_ 
 
-Diffeomorphisms are precisely the [[isomorphism]]s in the [[category]] [[Diff]] of [[smooth manifold]]s
+$$
+  f
+   \;\colon\;
+  X 
+    \longrightarrow
+  Y
+$$
+
+is a [[differentiable function]]
+such that there exists an [[inverse]] differentiabe function $f^{-1}$ (a function which is an [[inverse function]] on the underlying sets and is itself [[differentiable function|differentiable]] to the given degree).
+
+Diffeomorphisms are the [[isomorphisms]] in the corrresponding [[category]] [[Diff]] of [[differentiable manifolds]]/[[smooth manifolds]].
 
 ## Properties
 
@@ -28,7 +40,7 @@ It is clear that
 +-- {: .num_lemma}
 ###### Observation
 
-Every diffeomorphism is in particular a [[homeomorphism]] between the underlying [[topological space]]s.
+Every diffeomorphism is in particular a [[homeomorphism]] between the underlying [[topological spaces]].
 
 =--
 
