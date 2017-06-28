@@ -9457,7 +9457,8 @@ $$
   Y
 $$
 
-with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]], we have that $X \to f(X)$ is a [[homeomorphism]].
+with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]], we have that $X \to f(X)$ 
+is a [[homeomorphism]] (def. \ref{Homeomorphism}).
 
 =--
 
@@ -9481,7 +9482,7 @@ This is called a _closed embedding_ if the [[image]] $f(X) \subset Y$ is a [[clo
 +-- {: .proof}
 ###### Proof
 
-If $f$ is injective, then the map onto its [[image]] $X \to f(X) \subset Y$ is a [[bijection]]. Moreover, it is still continuous with respect to the subspace topology on $f(X)$ (example \ref{ImageFactorization}). Now a bijective continuous function is a homeomorphism precisely if it is an [[open map]] or a [[closed map]] prop. \ref{HomeoContinuousOpenBijection} . But the image projection of $f$ has this property, respectively, if $f$ does, by prop \ref{OpenClosedImageProjection}.
+If $f$ is injective, then the map onto its [[image]] $X \to f(X) \subset Y$ is a [[bijection]]. Moreover, it is still continuous with respect to the subspace topology on $f(X)$ (example \ref{ImageFactorization}). Now a bijective continuous function is a homeomorphism precisely if it is an [[open map]] or a [[closed map]], by  prop. \ref{HomeoContinuousOpenBijection} . But the image projection of $f$ has this property, respectively, if $f$ does, by prop \ref{OpenClosedImageProjection}.
 
 =--
 
@@ -9491,13 +9492,13 @@ If $f$ is injective, then the map onto its [[image]] $X \to f(X) \subset Y$ is a
 
 Let
 
-1. $X$ be a [[topological space]]
+1. $X$ be a [[topological space]],
 
-1. $Y$ a [[locally compact topological space]]
+1. $Y$ a [[locally compact topological space]],
 
-1. $f \colon X \to Y$ be a [[continuous function]].
+1. $f \colon X \to Y$ a [[continuous function]].
 
-Then the following are equivalent
+Then the following are equivalent:
 
 1. $f$ is an [[injective function|injective]] [[proper map]],
 
@@ -9509,10 +9510,27 @@ Then the following are equivalent
 ###### Proof
 
 In one direction, if $f$ is an injective proper map,
-then since [[proper maps to locally compact spaces are closed]] (prop. \ref{ProperMapsToLocallyCompactSpacesAreClosed}), it follows that $f$ is also  [[closed map]]. The claim then follows since [[closed injections are embeddings]] (prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings}), and since the image of a closed map
+then since [[proper maps to locally compact spaces are closed]] (prop. \ref{ProperMapsToLocallyCompactSpacesAreClosed}), we have that $f$ is also  [[closed map]]. The claim then follows since [[closed injections are embeddings]] (prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings}), and since the image of a closed map
 is closed, by definition.
 
-Conversely, if $f$ is a closed embedding, we only need to show that the embedding map is proper. So for $C \subset Y$ a [[compact subspace]], we need to show that the [[pre-image]] $f^{-1}(C) \subset X$ is also compact. But since $f$ is an injection (being an embedding), that pre-image is just the intersection $f^{-1}(C) \simeq C \cap f(X)$. By the nature of the [[subspace topology]], this is compact if $C$ is.
+Conversely, if $f$ is a closed embedding, we only need to show that the embedding map is proper. So for $C \subset Y$ a [[compact subspace]], we need to show that the [[pre-image]] $f^{-1}(C) \subset X$ is also compact. But since $f$ is an injection (being an embedding), that pre-image 
+is equivalently just the intersection $f^{-1}(C) \simeq C \cap f(X) \subset Y$,
+regarded as a [[subspace]] of $Y$. 
+
+To see that this is compact, let $\{V_i \subset X\}_{i \in I}$ be an open cover of the subspace $C \cap f(X)$,
+hence, by the nature of the [[subspace topology]], let $\{U_i \subset Y\}_{i \in I}$ be a set of open subsets of
+$Y$, which cover $C \cap f(X) \subset Y$ and with $V_i$ the restriction of $U_i$ to $C \cap f(X)$.
+Now since $f(X) \subset Y$ is closed by assumption, it follows that the complement $Y \setminus f(X)$ is open
+and hence that
+
+$$
+  \{ U_i \subset Y \}_{i \in  I} \sqcup \{ Y \setminus f(X) \}
+$$
+
+is an open cover of $C \subset Y$. By compactness of $C$ this has a finite subcover. Since restricting that
+finite subcover back to $C \cap f(X)$ makes the potential element $Y \setminus f(X)$ disappear, this
+restriction is a finite subcover of $\{V_i \subset C \cap f(X)\}$. This shows that $C \cap f(X)$ is compact.
+
 
 =--
 
@@ -12655,7 +12673,7 @@ i.e. the set of all [[continuous functions]] $k^n \to k^n$ equipped with the [[c
 +-- {: .proof}
 ###### Proof
 
-On the one had, the [[universal property]] of the [[mapping space]] ([this prop.](Introduction+to+Topology+--+1#UniversalPropertyOfMappingSpace)) gives that the inclusion
+On the one hand, the [[universal property]] of the [[mapping space]] (prop. \ref{UniversalPropertyOfMappingSpace}) gives that the inclusion
 
 $$
   GL(n, \mathbb{R}) \to Maps(\mathbb{R}^n, \mathbb{R}^n)
@@ -15966,11 +15984,11 @@ from remark \ref{CategoryDiff}).
 **(basic properties of [[diffeomorphisms]])
 
 Let $X,Y$ be [[differentiable manifolds]] (def. \ref{DifferentiableManifold}).
-Let 
+Let
 
 $$
   f \colon X \longrightarrow Y
-$$ 
+$$
 
 be a [[diffeomorphisms]] (def. \ref{Diffeomorphism}) with inverse differentiable function
 
@@ -15986,17 +16004,17 @@ Then:
    Because, by definition, $f$ is in particular a [[continuous function]], as is its [[inverse function]] $g$.
 
 1. The [[derivative]] (def. \ref{DifferentiableFunctionBetweenCartesianSpaces}) $d f$ of
-   takes values in invertible linear maps, i.e. $d f_x \colon T_x X \overset{\simeq}{\to} T_{f(x)} X$ is a linear isomorphsm 
+   takes values in invertible linear maps, i.e. $d f_x \colon T_x X \overset{\simeq}{\to} T_{f(x)} X$ is a linear isomorphsm
    for all $x \in X$.
 
    This is because by the [[chain rule]] (prop. \ref{ChainRuleOnEuclideanSpace}) the defining equations
-   
+
    $$
      g \circ f = id_X \phantom{AAAAA}  f \circ g = id_{Y}
    $$
-   
+
    imply that
-   
+
    $$
      d g_{f(x)} \circ d f_x = d (id_X)_x = id_{T_x X}
      \phantom{AAAAA}
@@ -16563,7 +16581,7 @@ $$
   \,.
 $$
 
-Since $\alpha$ is a [[diffeomorphism]] and since derivatives of diffeomorphisms are 
+Since $\alpha$ is a [[diffeomorphism]] and since derivatives of diffeomorphisms are
 linear isomorphisms (by remark \ref{DiffeoCoord}), this says that the derivative of $\gamma_n^j$ is related to that of $\gamma_n^i$ by a linear isomorphism , and hence
 
 $$
@@ -17237,7 +17255,7 @@ $\,$
 An [[embedding of topological spaces]] (def. \ref{EmbeddingOfTopologicalSpaces}) in an inclusion
 of topological spaces such that the ambient topology induces the included one.
 An _[[embedding of smooth manifolds]]_ (def. \ref{SmoothManifoldsEmbedding} below) is similarly
-meant to be an an inclusion of [[smooth manifolds]], such that the also the ambient differential structure
+meant to be an an inclusion of [[smooth manifolds]], such that the ambient [[smooth structure]]
 induces the included one. In order for this to be the case we need that the [[tangent spaces]]
 include into each other. This is the concept of an _[[immersion of differentiable manifolds]]_ (def. \ref{Immersion} below).
 
@@ -17247,6 +17265,8 @@ may be thought of as a sub-manifold of Euclidean space. We state and prove the w
 of this statement (just for [[compact topological space|compact]] manifolds and without any bound
 on the dimension of the ambient Euclidean space) below as prop. \ref{CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace}.
 The strong form of this statement is famous as the _[[Whitney embedding theorem]]_ (remark \ref{EmbeddingWhitney} below).
+
+$\,$
 
 +-- {: .num_defn #Immersion}
 ###### Definition
@@ -17286,7 +17306,7 @@ A _closed embedding_ is an embedding such that the image $f(X) \subset Y$ is a [
 
 +-- {: .num_example }
 ###### Nonexample
-**(immersions that are not embeddings)**
+**([[immersions]] that are not [[embdding of smooth manifolds|embeddings]])**
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/Immersion.png" width="150">
@@ -17326,8 +17346,12 @@ this follows directly since [[injective proper maps to locally compact spaces ar
 
 =--
 
+We now turn to the construction of embedding of smooth manifolds into Euclidean spaces 
+(prop. \ref{CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace} and remark \ref{EmbeddingWhitney} below).
+To that end we need to consider _smooth_ partitions of unity, which we discuss now (prop. \ref{SmoothManifoldAdmitsSmoothPartitionsOfUnity} below).
+
 Since manifolds by definition are [[paracompact Hausdorff spaces]], they admit subordinate [[partitions of unity]]
-by continuous functions. But [[smooth manifolds]] even admit partitions of unity by _[[smooth functions]]_:
+by continuous functions (by prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}). But [[smooth manifolds]] even admit partitions of unity by _[[smooth functions|smooth]] [[bump functions]]_:
 
 +-- {: .num_defn #BumpFunction}
 ###### Definition
@@ -17445,188 +17469,234 @@ Finally the function $x \mapsto \phi_\varepsilon(x-x_0)$ has support the closed 
 
 
 
-+-- {: .num_prop #SmoothManifoldAdmitsSmoothPartitionsOfUnity}
-###### Proposition
-**([[smooth manifolds]] admit [[smooth function|smooth]] [[partitions of unity]])**
++-- {: .num_lemma #SmoothManifoldClosedBallRefinementOfCover}
+###### Lemma
+**([[open cover]] of [[smooth manifold]] admits [[locally finite cover|locally finite]] [[refinement]] by [[closed balls]])**
 
-Let $X$ be a paracompact [[smooth manifold]]. Then every [[open cover]] $\{U_i \subset X\}_{i \in I}$ has a subordinate partition of unity by functions $\{f_i \colon U_i \to \mathbb{R}\}_{i \in I}$ which are _[[smooth functions]]_.
+Let $X$ be a [[smooth manifold]] and let
+$\{U_i \subset X\}_{i \in I}$ be an [[open cover]].
+Then there exists cover
+
+$$
+  \left\{
+    B_0(\epsilon_j)
+      \underoverset{\simeq}{\psi_j}{\to}
+    V_j
+      \subset
+    X
+  \right\}_{i \in J}
+$$
+
+which is a [[locally finite cover|locally finite]] [[refinement]] of $\{U_i \subset X\}_{i \in I}$ with each patch [[diffeomorphism|diffeomorphic]] to a [[closed ball]] in [[Euclidean space]].
+
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Since $X$ is paracompact, the given open cover has a [[refinement]] to a [[locally finite cover]], and then there exists one with the same index set ([this prop.](paracompact+Hausdorff+spaces+equivalently+admit+subordinate+partitions+of+unity#LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet)):
+First consider the special case that $X$ is [[compact topological space]].
+
+Let
 
 $$
   \left\{
-    U'_i \subset X
-  \right\}_{i \in I}
-  \,.
+    \mathbb{R}^n
+      \underoverset{\simeq}{\phi_j}{\longrightarrow}
+    V_j
+    \subset X
+  \right\}
 $$
 
-
-Recall that the smooth manifold $X$ is a [[normal topological space]], because it is a [[paracompact Hausdorff space]] by definition and [[paracompact Hausdorff spaces are normal]].  Therefore we may invoke the [[shrinking lemma]] to obtain yet another open cover with the same index set
-
-$$
-  \left\{
-     V_i \subset X
-  \right\}_{i \in I}
-$$
-
-with the property that
-
-$$
-  \underset{i \in I}{\forall}
-  \left(
-     V_i \subset Cl(V_i) \subset U'_i \subset U_i
-  \right)
-  \,.
-$$
-
-Now let
-
-$$
-  \{\mathbb{R}^n  \underoverset{}{\phi_j }{\to} X\}_{j \in J}
-$$
-
-be an [[atlas]] exhibiting the [[smooth structure]] on the smooth manifold. Then by definition, for each point $x \in X$ there is $i_x \in I$ and $j_x \in J$ such that
-
-$$
-  x \in V_{i_x} \cap Im(\phi_{j_x})
-  \,.
-$$
-
-By the nature of the [[subspace topology]], this intersection is still an open subset of $Im(\phi_{j_x}) \simeq \mathbb{R}^n$. Therefore by the definition of the [[metric topology]] there exists a [[positive number|positive]] [[real number]] $\epsilon_{x}$ such that the [[open ball]] of [[radius]] $\epsilon_x$ around $x$ is an open neighbourhood of $x$ still contained in $V_{i_x}$:
-
-$$
-  B^\circ_x(\epsilon_x) \subset V_{i_x} \cap Im(\phi_{j_x})
-  \,.
-$$
-
-Let then
+be a smooth [[atlas]] representing the [[smooth structure]] on $X$. The [[intersections]]
 
 $$
   \left\{
-     B^\circ_x(\epsilon_x)
-     \subset X
+    U_i \cap V_j
+  \right\}_{i \in I, j \in J}
+$$
+
+still form an open cover of $X$. Hence for each point $x \in X$ there is $i \in I$ and $j \in J$ with $x \in U_i \cap V_j$. By the nature of the [[Euclidean topology]], there exists a [[closed ball]] $B_x$ around $\phi_j^{-1}(x)$ in $\phi_j^{-1}(U_i \cap V_j) \subset \mathbb{R}^n$. Its [[image]] $\phi_j(B_x) \subset X$ is a neighbourhood of  $x \in X$ diffeomorphic to a closed ball.
+
+The [[interiors]] of these balls form an [[open cover]]
+
+$$
+  \left\{
+    Int(B_x)
+     \subset
+    X
   \right\}_{x \in X}
 $$
 
-be the collection of choices of such open balls, around each point of the manifold. This is an [[open cover]] which [[refinement|refines]] the cover $\{U'_i \subset X\}_{i \in I}$. Again by [[paracompact topological space|paracompactness]] of $X$, there exists a [[locally finite cover|locally finite]] subcover, hence a [[subset]] of points $S \subset X$ such that
+of $X$ which, by construction, is a refinement of $\{U_i \subset X\}_{i \in I}$. By the assumption that $X$ is compact, this has a finite subcover
 
 $$
   \left\{
-     B^\circ_s(\epsilon_s)
-     \subset
-     X
-  \right\}_{s \in S \subset X}
+    Int(B_l)
+    \subset
+    X
+  \right\}_{l \in L}
 $$
 
-is a locally finite open cover of $X$.
-
-Let then
+for $L$ a [[finite set]]. Hence
 
 $$
   \left\{
-    \mathbb{R}^n \overset{\phantom{AA}b_s\phantom{AA}}{\longrightarrow} \mathbb{R}
-  \right\}_{s \in S \subset X}
+    B_l
+    \subset
+    X
+  \right\}_{l \in L}
 $$
 
-be a set of [[smooth bump functions]] whose [[support]] is the [[topological closure]] of the chosen open ball around $s$
-(for instance via example \ref{SomeBumpFunctions}), regarded now as a subspace of the corresponding $j$-th copy of $\mathbb{R}^n$:
+is a finite cover by closed balls, hence in particular locally finite, and by construction it is still a refinement of the orignal cover.
+This shows the statement for $X$ compact.
+
+Now for general $X$, notice that without restriction we may assume that $X$ is [[connected topological space|connected]], for if it is not, then we obtain the required refinement on all of $X$ by finding one on each [[connected component]].
+
+But if a locally Euclidean paracompact Hausdorff space $X$ is connected, then it is [[sigma-compact topological space|sigma-compact]] and in fact admits a countable increasing exhaustion
 
 $$
-  Supp(b_s) = Cl\left( B^\circ_s(\epsilon_s) \right)
-  \,.
+  V_0 \subset V_1 \subset V_2 \subset \cdots
 $$
 
-Hence the [[smooth bump functions]] $b_s$ vanish on $\mathbb{R}^n \backslash Cl(B^\circ_s(\epsilon_s))$, such that their [[extension]] by zero to functions $\hat b_s$ on all of $X$
+by [[open subsets]] whose [[topological closures]]
 
 $$
-  \array{
-     \mathbb{R}^n &\overset{b_s}{\longrightarrow}& \mathbb{R}
-     \\
-     {}^{\mathllap{\phi_{i_s}}}\downarrow & \nearrow_{\mathrlap{\hat b_s}}
-     \\
-     X
-  }
+  K_0 \subset K_1 \subset K_2 \subset \cdots
 $$
 
-are still [[smooth functions]]: $\hat b_s \in C^\infty(X,\mathbb{R})$.
+exhaust $X$ by [[compact topological space|compact]] subspaces $K_n$ (by the proof of prop. \ref{RegularityConditionsForTopologicalManifoldsComparison})).
 
-Now by local finiteness of both the cover $\{U'_i \subset X\}_{i \in I}$ and of the cover $\{B^\circ_s(\epsilon_s)\}_{s \in S}$ we have that the sum
-
-$$
-  \underset{ {i \in I} \atop {s \in S \cap U'_i }}{\sum} \hat b_s(x)
-  \;\in\;
-  \mathbb{R}
-$$
-
-is well defined for each $x \in X$ (only finitely many of the summands are non-zero) and by the covering property each point $x$ is contained in at least one of the patches of the cover, hence in the [[interior]] of the [[support]] of at least one of the $\hat b_s$ and so
+For $n \in \mathbb{N}$, consider the open subspace
 
 $$
-  \underset{s \in S}{\sum} \hat b_s(x) \;\gt\; 0
+  V_{n+2} \setminus K_{n-1}
+    \;\subset\;
+  X
 $$
 
-for all $x \in X$. This means that it makes sense to define
+which canonically inherits the structure of a smooth manifold (example \ref{OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds}). As above we find a refinement of the restriction of $\{U_i \subset X\}_{i \in I}$ to this open subset by closed balls and since the further subspace $K_{n+1}\setminus K_n$ is still compact (example \ref{UnionsAndIntersectionOfCompactSubspaces}) there is a finite set $L_n$ such that
 
 $$
-  f_i
-  \;\coloneqq\;
-  \frac{
-    \underset{s \in S \cap U'_i}{\sum} \hat b_s
-  }
-  {
-    \underset{ { i \in I} \atop { s \in S \cap U'_i} }{\sum} \hat b_s
-  }
+  \{B_{l_n} \subset V_{n+2} \setminus K_{n-1} \subset X \}_{l_n \in L_n}
 $$
 
-and these are still smooth functions: $f_i \in C^\infty(X,\mathbb{R})$.
+is a finite cover of $K_{n+1} \setminus K_n$ by closed balls refining the original cover.
 
-We claim now that these form the required partition of unity subordinate to the original cover:
 
-1. By construction of the various open covers we have
+It follows that the union of all these
 
-   $$
-     \underset{s \in S \cap U_i}{\forall} \left(Supp(b_s) = Cl\left(B^\circ_s(\epsilon_s)\right) \subset Cl(V_i) \subset U'_i \subset U_i\right)
-   $$
+$$
+  \left\{
+   B_{l_n} \subset X
+  \right\}_{n \in \mathbb{N}, l_n \in L_n}
+$$
 
-   and hence
-
-   $$
-     Supp(f_i) \subset U_i
-     \,.
-   $$
-
-1. By construction of the functions $f_i$ we have
-
-   $$
-     \underset{i  \in I}{\sum} f_i(x)
-      =
-     \underset{i \in I}{\sum}
-     \frac{
-        \underset{s \in S \cap U_i}{\sum} \hat b_s
-     }
-     {
-       \underset{ {i \in I} \atop {s \in S \cap U_i} }{\sum} \hat b_s
-     }
-     =
-     1
-     \,.
-   $$
+is a refinement by closed balls as required. It local finiteness follows by the fact that each $B_{l_n}$ is contained in the "strip" $V_{n+2} \setminus K_{n-1}$, each strip contains only a finite set of $B_{l_n}$-s and each strip intersects only a finite number of other strips. (Hence an open subset around a point $x$ which intersects only a finite number of elements of the refined cover is given by any one of the balls $B_{l_n}$ that contain $x$.)
 
 
 =--
 
 
++-- {: .num_prop #SmoothManifoldAdmitsSmoothPartitionsOfUnity}
+###### Proposition
+**([[smooth manifolds]] admit smooth partitions of unity)**
+
+Let $X$ be a paracompact [[smooth manifold]]. Then every [[open cover]] $\{U_i \subset X\}_{i \in I}$ has a subordinate partition of unity by functions $\{f_i \colon U_i \to \mathbb{R}\}_{i \in I}$ which are _[[smooth functions]]_.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{SmoothManifoldClosedBallRefinementOfCover} the given cover
+has a [[locally finite cover|locally finite]] [[refinement]]
+by [[closed subsets]] [[diffeomorphism|diffeomorphic]] to [[closed balls]]:
+
+$$
+  \left\{
+    B_0(\epsilon_j)
+      \underoverset{\simeq}{\psi_j}{\to}
+    V_j
+      \subset
+    X
+  \right\}_{i \in J}
+  \,.
+$$
+
+Given this, let
+
+$$
+  h_j \;\colon\; X \longrightarrow \mathbb{R}
+$$
+
+be the function which on $V_j$ is given by a smooth [[bump function]]
+
+$$
+  b_j \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}
+$$
+
+with [[support]]  $supp(b_j) = B_0(\epsilon_j)$:
+
+$$
+  h_j
+  \;\colon\;
+  x
+  \mapsto
+  \left\{
+    \array{
+      b_j(\psi_j^{-1}(x)) &\vert& x \in V_j
+      \\
+      0 &\vert& \text{otherwise}
+    }
+  \right.
+  \,.
+$$
+
+By the nature of [[bump functions]] this is indeed a [[smooth function]] on all of $X$. By local finiteness of the cover by closed balls, the function
+
+$$
+  h \;\colon\; X \longrightarrow \mathbb{R}
+$$
+
+given by
+
+$$
+  h(x)
+    \coloneqq
+  \underset{j \in J}{\sum} h_j(x)
+$$
+
+is well defined (the sum involves only a finite number of non-vanishing contributions) and is smooth. Therefore setting
+
+$$
+  f_j \;\coloneqq\; \frac{h_j}{h}
+$$
+
+then
+
+$$
+ \left\{
+    f_j
+ \right\}_{j \in J}
+$$
+
+is a subordinate partition of unity by smooth functions as required.
+
+
+
+=--
+
+$\,$
+
 Now we may finally state the simplest form of the embedding theorem for smooth manifolds:
 
-+-- {: .num_example #CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace}
++-- {: .num_prop #CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace}
 ###### Proposition
 **(weak embedding theorem)**
 
-For every [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) [[smooth manifold]] $X$ (of [[finite number|finite]] [[dimension]] (def \ref{DifferentiableManifold}), there exists some $k \in \mathbb{N}$ such that $X$ has an embedding (def. \ref{SmoothManifoldsEmbedding}) into the [[Euclidean space]] of dimension $k$, regarded as a smooth manifold via example \ref{DifferentiableManifoldCartesianSpace}:
+For every [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) [[smooth manifold]] $X$ of [[finite number|finite]] [[dimension]] (def \ref{DifferentiableManifold}), there exists some $k \in \mathbb{N}$ such that $X$ has an embedding (def. \ref{SmoothManifoldsEmbedding}) into the [[Euclidean space]] of dimension $k$, regarded as a smooth manifold via example \ref{DifferentiableManifoldCartesianSpace}:
 
 $$
   X \overset{\text{embd}}{\hookrightarrow} \mathbb{R}^k
@@ -17653,13 +17723,13 @@ is still an open cover.
 
 Since $X$ is a [[smooth manifold]], there exists a [[partition of unity]] $\{f_i \in C^\infty(X,\mathbb{R})\}_{i \in J }$ subordinate to this cover with _[[smooth functions]]_ $f_i$ (by prop. \ref{SmoothManifoldAdmitsSmoothPartitionsOfUnity}).
 
-This we may use to extend the inverse [[chart]] identifications
+This we may use to [[extension|extend]] the inverse [[chart]] identifications
 
 $$
   X \supset \;\; U_i \underoverset{\simeq}{\psi_i}{\longrightarrow} \mathbb{R}^n
 $$
 
-to smooth functions
+to smooth functions on all of $X$
 
 $$
   \hat \psi_i \;\colon\; X \to \mathbb{R}^{n}
@@ -17668,7 +17738,7 @@ $$
 by setting
 
 $$
-  \hat \phi_i
+  \hat \psi_i
   \;\colon\;
    x
   \mapsto
@@ -17700,7 +17770,7 @@ $$
   \;\colon\;
   X
     \longrightarrow
-  \left(\mathbb{R}^{n+1})\right)^{\vert J \vert}
+  \left(\mathbb{R}^{n+1} \right)^{\vert J \vert}
   \simeq
   \mathbb{R}^{(n+1)\cdot {\vert J \vert}}
   \,.
@@ -17708,7 +17778,8 @@ $$
 
 This is an immersion. Hence it remains to see that it is also an [[embedding of topological spaces]].
 
-By prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings} it is sufficient to see that the injective continuous function is a [[closed map]]. But this follows generally since $X$ is a [[compact topological space]] by assumption, and since $Y$ is a [[Hausdorff topological space]] by definition of manifolds, and since [[maps from compact spaces to Hausdorff spaces are closed and proper]] (prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}).
+By prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings} it is sufficient to see that the injective continuous function is a [[closed map]]. But this follows generally since $X$ is a [[compact topological space]] by assumption, and since 
+[[Euclidean space|Euclidean]] [[metric space]] is a [[Hausdorff topological space]] (example \ref{HausdorffMetricSpace}), and since [[maps from compact spaces to Hausdorff spaces are closed and proper]] (prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}).
 
 =--
 
