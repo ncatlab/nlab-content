@@ -5,17 +5,42 @@
 
 ## Definitions
 
+* [[locally Euclidean space]]
+
+  * [[coordinate chart]], [[coordinate transformation]]
+
+  * [[atlas]], 
+
+  * [[smooth structure]]
+
 * [[manifold]]
 
-  * [[coordinate chart]], [[atlas]], [[smooth structure]]
+  * [[topological manifold]]
 
-  * [[orientation]], [[spin structure]], [[string structure]], [[fivebrane structure]]
+  * [[differentiable manifold]], ,[[smooth manifold]]
 
-  * [[smooth manifold]], [[Riemannian manifold]], [[complex manifold]]
 
 * [[infinite dimensional manifold]]
 
   * [[Banach manifold]], [[Hilbert manifold]], [[ILH manifold]], [[Frechet manifold]], [[convenient manifold]]
+
+
+* [[tangent bundle]]
+
+* [[normal bundle]]
+
+* [[G-structure]], [[torsion of a G-structure]]
+
+  * [[orientation]], [[spin structure]], [[string structure]], [[fivebrane structure]]
+
+* [[Cartan geometry]]: 
+
+  * [[Riemannian manifold]]
+
+  * [[complex manifold]]
+
+  * [[symplectic manifold]]
+
 
 
 * [[cobordism]]
@@ -43,7 +68,9 @@
 
 * [[A-hat genus]], [[Witten genus]]
 
-## Theorem
+## Theorems
+
+* [[Whitney embedding theorem]]
 
 * [[Thom's transversality theorem]]
 
