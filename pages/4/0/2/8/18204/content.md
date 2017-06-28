@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Manifolds and cobordisms
++-- {: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -42,7 +53,7 @@ Given an $n$-dimensional [[topological manifold]] $X$ (def. \ref{TopologicalMani
      \mathbb{R}^n
    $$
 
-   is called the _[[gluing function]]_ from chart $i$ to chart $j$.
+   is called the _gluing function_ or _coordinate transformation_ from chart $i$ to chart $j$.
 
 > graphics grabbed from [[The Geometry of Physics - An Introduction|Frankel]]
 
@@ -54,3 +65,7 @@ Given an $n$-dimensional [[topological manifold]] $X$ (def. \ref{TopologicalMani
 * [[transition function]]
 
 [[!redirects gluing functions]]
+
+
+[[!redirects coordinate transformation]]
+[[!redirects coordinate transformations]]
