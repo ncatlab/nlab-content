@@ -92,6 +92,8 @@ For a modern analysis of Scott's representation theorem, see:
 
 * {#Hyland13} [[Martin Hyland]]. Classical lambda calculus in modern dress. To appear in _Mathematical Structures in Computer Science_, 2013. [arxiv](http://arxiv.org/abs/1211.5762)
 
+* {#Hyland14} [[Martin Hyland]], _Towards a Notion of Lambda Monoid_ , Electronic Notes in Theoretical Computer Science **303** (2014) pp.59-77.
+
 Bicategorical and monoidal generalizations of the notion of reflexive object are discussed in:
 
 * [[R. A. G. Seely]]. Modelling Computations : a 2-categorical Framework. LICS 1987. ([pdf](http://www.math.mcgill.ca/rags/WkAdj/LICS.pdf))
