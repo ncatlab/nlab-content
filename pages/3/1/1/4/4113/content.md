@@ -129,7 +129,7 @@ which is a [[locally finite cover|locally finite]] [[refinement]] of $\{U_i \sub
 +-- {: .proof}
 ###### Proof
 
-First consider the case that $X$ is [[compact topological space]]. 
+First consider the special case that $X$ is [[compact topological space]]. 
 
 Let 
 
@@ -166,20 +166,20 @@ of $X$ which, by construction, is a refinement of $\{U_i \subset X\}_{i \in I}$.
 
 $$
   \left\{
-    Int(B_k)
+    Int(B_l)
     \subset 
     X
-  \right\}_{k \in K}
+  \right\}_{l \in L}
 $$
 
-for $K$ a [[finite set]]. Hence 
+for $L$ a [[finite set]]. Hence 
 
 $$
   \left\{
-    B_k
+    B_l
     \subset 
     X
-  \right\}_{k \in K}
+  \right\}_{l \in L}
 $$
 
 is a finite cover by closed balls, hence in particular locally finite, and by construction it is still a refinement of the orignal cover.
@@ -190,7 +190,7 @@ Now for general $X$, notice that without restriction we may assume that $X$ is [
 But if a locally Euclidean paracompact Hausdorff space $X$ is connected, then it is [[sigma-compact topological space|sigma-compact]] and in fact admits a countable increasing exhaustion
 
 $$
-  V_0 \subset V_1 \subsez V_2 \subset \cdots
+  V_0 \subset V_1 \subset V_2 \subset \cdots
 $$
 
 by [[open subsets]] whose [[topological closures]]
@@ -199,9 +199,34 @@ $$
   K_0 \subset K_1 \subset K_2 \subset \cdots
 $$
 
-exhaust $X$ by [[compact topological space|compact]] subspaces $K_n$ (by the proof of [this prop.](topological#manifold#RegularityConditionsForTopologicalManifoldsComparison)).
+exhaust $X$ by [[compact topological space|compact]] subspaces $K_n$ (by the proof of [this prop.](topological+manifold#RegularityConditionsForTopologicalManifoldsComparison)).
 
-By arguing as above in the compact case, we find locally finite refinements by closed balls of the original cover restricted to $K_{n+1} \setminus K{n-1}$ for all $n \in \mathbb{N}$ (setting $K_{\lt 0} \coloneqq \emptyset$), hence finite refinements by closed balls covering $K_n \setminus K_{n-1}$ for all $n \in \mathbb{N}$ such that these balls are contained in $K_{n+1}\setminus K_{n-2}$. The union of all these over $n \in \mathbb{N}$ is still locally finite, and hence is a cover of the required form.
+For $n \in \mathbb{N}$, consider the open subspace
+
+$$
+  V_{n+2} \setminus K_{n-1}
+    \;\subset\;
+  X
+$$
+
+which canonically inherits the structure of a smooth manifold ([this prop.](differentiable+manifold#OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds)). As above we find a refinement of the restriction of $\{U_i \subset X\}_{i \in I}$ to this open subset by closed balls and since the further subspace $K_{n+1}\setminus K_n$ is still compact (by [this lemma](compact+space#UnionsAndIntersectionOfCompactSubspaces)) there is a finite set $L_n$ such that 
+
+$$
+  \{B_{l_n} \subset V_{n+2} \setminus K_{n-1} \subset X \}_{l_n \in L_n}
+$$
+
+is a finite cover of $K_{n+1} \setminus K_n$ by closed balls refining the original cover.
+
+
+It follows that the union of all these 
+
+$$
+  \left\{
+   B_{l_n} \subset X
+  \right\}_{n \in \mathbb{N}, l_n \in L_n}
+$$
+
+is a refinement by closed balls as required. It local finiteness follows by the fact that each $B_{l_n}$ is contained in the "strip" $V_{n+2} \setminus K_{n-1}$, each strip contains only a finite set of $B_{l_n}$-s and each strip intersects only a finite number of other strips. (Hence an open subset around a point $x$ which intersects only a finite number of elements of the refined cover is given by any one of the balls $B_{l_n}$ that contain $x$.)
 
 
 =--
@@ -266,7 +291,7 @@ $$
 By the nature of [[bump functions]] this is indeed a [[smooth function]] on all of $X$. By local finiteness of the cover by closed balls, the function
 
 $$
-  h \;\colon\; X \longrightrrow \mathbb{R}
+  h \;\colon\; X \longrightarrow \mathbb{R}
 $$
 
 given by
