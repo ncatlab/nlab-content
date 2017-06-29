@@ -31,7 +31,7 @@ $\,$
 
 {#AA} Lecture notes. $\;\;\;\;\;\;\;$ (web version requires Firefox browser -- [free download](https://www.mozilla.org/en-US/firefox/new/))
 
-{#PartI}**part I**: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_ $\;\;\;$([[IntroductionToTopologyI-170621.pdf:file]] 192p)
+{#PartI}**part I**: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_ $\;\;\;$([[IntroductionToTopologyI-170629.pdf:file]] 202p)
 
 
 {#PartII}**part II**: _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Basic Homotopy Theory]]_
