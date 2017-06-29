@@ -285,6 +285,8 @@ with further developments in
 
 * {#Marvan93} [[Michal Marvan]], section 1.1 of _On Zero-Curvature Representations of Partial Differential Equations_,  (1993) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.5631))
 
+* [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
+
 
 In the context of algebraic geometry, the abstract characterization of jet bundles as the direct images of base change along the de Rham space projection is noticed on p. 6 of
 
