@@ -16424,7 +16424,7 @@ be differentiable:
 Let $k$ be a "differentiable field", specifically $k  \in \{\mathbb{R}, \mathbb{C}\}$
 so that $k^n$ is equipped with the canonical [[smooth structure|differentiable sructure]] from example \ref{DifferentiableManifoldCartesianSpace}.
 
-Given a [[differentiable manifold]] $X$ (def. \ref{DifferentiableManifold}), 
+Given a [[differentiable manifold]] $X$ (def. \ref{DifferentiableManifold}),
 then a _[[differentiable vector bundle|differentiable k-vector bundle]]_ over $X$ of [[rank of a vector bundle|rank]] $k$ is
 
 1. a [[differentiable manifold]] $E$;
@@ -16450,11 +16450,11 @@ such that there exists
        && U_i
      }
    $$
-   
+
    which makes this diagram commute and which is [[fiber]]-wise a [[linear map]].
-   
+
 A [[homomorphism]] between differentiabe vector bundles $[E_1 \overset{\pi_1}{\to}X]$
-and $[E_2 \overset{\pi_2}{\to} X]$ over the same base differentiable manifolds is 
+and $[E_2 \overset{\pi_2}{\to} X]$ over the same base differentiable manifolds is
 a [[differentiable function]] as in the top of the following [[diagram]]
 
 $$
@@ -16476,7 +16476,7 @@ $$
 on the [[fiber]] over each point $x \in X$.
 
 More generally, if $[E_1 \overset{}{\to} X_1]$ and $[E_2 \overset{\pi_2}{\to} X_2]$
-are differentable vector bundles over possibly different differentiable base manifolds, then 
+are differentable vector bundles over possibly different differentiable base manifolds, then
 a homomorphism is a differentiable function $f \colon E_1 \to E_2$ together with a
 differentiable function $f \colon X \to Y$ that make the diagram
 
@@ -16490,21 +16490,21 @@ $$
   }
 $$
 
-commute and such that 
+commute and such that
 
 $$
   f_x \;\colon\; (E_1)_x \longrightarrow (E_2)_{f(x)}
 $$
 
-is a linear map for all $x \in X$. 
+is a linear map for all $x \in X$.
 
 This yields a [[category]] (remark \ref{TopCategory}) whose
 
 * [[objects]] are the differentiable vector bundles;
 
-* [[morphisms]] are the homomorphisms between these. 
+* [[morphisms]] are the homomorphisms between these.
 
-We write $Vect(Diff)$ for this category. 
+We write $Vect(Diff)$ for this category.
 
 Underlying a differentiable vector bundle, is a [[topological vector bundle]] (def. \ref{TopologicalVectorBundle}).
 This yields a [[forgetful functor]]
@@ -16810,7 +16810,7 @@ in that  for all $i,j \in I$, $x \in U_i \cap U_j$
 ###### Proof
 
 The bijectivity of the map is immediate from the fact that the first derivative of $\phi^{-1}\circ \gamma^\phi_{\vec v}$
-at $\phi^{-1}(x)$ is 
+at $\phi^{-1}(x)$ is
 
 $$
   \begin{aligned}
@@ -16930,12 +16930,12 @@ $$
 $$
 
 Therefore it makes sense to canonically identify all the tangent spaces of Euclidean space with that Euclidean space
-itself. 
+itself.
 
 In words, what this identification does is to use the additive group structure on
-$\mathbb{R}^n$ to translate any tangent vector at any point $x \in \mathbb{R}^n$ to the corresponding 
-tangent vector at $0$. 
-(Side remark: Hence this construction is not specific to $\mathbb{R}^n$ but 
+$\mathbb{R}^n$ to translate any tangent vector at any point $x \in \mathbb{R}^n$ to the corresponding
+tangent vector at $0$.
+(Side remark: Hence this construction is not specific to $\mathbb{R}^n$ but
 applies to every [[Lie group]] and it fact to  every [[coset]] space of a Lie group.)
 
 As a result, the collection of all the tangent spaces of Euclidean space is naturally identified
@@ -17076,7 +17076,7 @@ is an [[endofunctor]] on the [[category]] [[CartSp]] whose
 
 1. [[morphisms]] are the [[differentiable functions]] between these (for any chosen differentiability class $C^k$ with $k \gt 0$).
 
-In fact more is true: By example \ref{TangentSpace} $T X$ has the structure of a 
+In fact more is true: By example \ref{TangentSpace} $T X$ has the structure of a
 [[differentiable vector bundle]] (def. \ref{DifferentiableVectorBundle}) and the function $T X \overset{ d f}{\longrightarrow} T X$ is evidently a [[homomorphism]] of [[differentiable vector bundles]]
 
 $$
@@ -17471,7 +17471,7 @@ A _closed embedding_ is an embedding such that the image $f(X) \subset Y$ is a [
 
 +-- {: .num_example }
 ###### Nonexample
-**([[immersions]] that are not [[embdding of smooth manifolds|embeddings]])**
+**([[immersions]] that are not [[embedding of smooth manifolds|embeddings]])**
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/Immersion.png" width="150">
