@@ -30,7 +30,7 @@ $$h\circ g\colon colim_K lim_I D \to colim_{K^I} lim_I D' \to lim_I colim_K D.$$
 Here $D'\colon I\times K^I\to I\times K\to C$ is obtained from $D$ by [[precomposition]].
 
 Using this setup, we now observe that
-$I$-[[limits]] [[commute]] with $K$-[[colimits]] if and only if $f$ is an [[isomorphism]] for any $D$.
+$I$-[[limits]] [[commutativity of limits and colimits|commute]] with $K$-[[colimits]] if and only if $f$ is an [[isomorphism]] for any $D$.
 
 We say that
 $I$-limits _distribute_ over $K$-colimits if $h$ is an isomorphism for any $D$.
