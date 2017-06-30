@@ -23,7 +23,11 @@ One may consider [[internal categories]] in [[homotopy type theory]]. Under the 
 
 For internal [[1-categories]] in HoTT (as opposed to more general internal [[(infinity,1)-categories]]) a comprehensive discussion was given in ([Ahrens-Kapulkin-Shulman-13](#AhrensKapulkinShulman13)).
 
-Particularly useful in the context of such categories are [[displayed categories]].
+In some literature, the "Rezk-completeness" condition on such categories is omitted from the definition, and categories that satisfy it are called *saturated* or *univalent*.
+
+## Related pages
+
+* Particularly useful in the context of such categories are [[displayed categories]].
 
 ## References
 
@@ -53,3 +57,7 @@ Discussion of implementation of this in [[Coq]] includes
 [[!redirects internal category theory in homotopy type theory]]
 [[!redirects internal category theory in HoTT]]
 
+[[!redirects saturated category]]
+[[!redirects univalent category]]
+[[!redirects saturated categories]]
+[[!redirects univalent categories]]
