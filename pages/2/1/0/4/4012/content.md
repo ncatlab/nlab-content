@@ -96,6 +96,12 @@ Another important example of a colax-idempotent monad is the monad on $Cat/B$ th
 
 This latter is actually a special case of a general situation.  If $T$ is a (2-)monad relative to which one can define [[generalized multicategories]], then often it induces a lax-idempotent 2-monad $\tilde{T}$ on the 2-category of such generalized multicategories (aka "virtual $T$-algebras"), such that (pseudo) $\tilde{T}$-algebras are equivalent to (pseudo) $T$-algebras.  When $T$ is the 2-monad whose algebras are strict 2-functors $B\to Cat$ and whose pseudo algebras are pseudofunctors $B\to Cat$, then a virtual $T$-algebra is a category over $B$, and it is a pseudo $\tilde{T}$-algebra just when it is an opfibration.  Similarly, there is a lax-idempotent 2-monad on the 2-category of [[multicategories]] whose pseudo algebras are [[monoidal categories]], and so on.
 
+## Properties
+
+* [[pseudo-distributive laws]] involving lax-idempotent 2-monads have an especially nice form; see [(Marmolejo)](#MarmolejoDL) and [(Walker)](#WalkerDL).
+
+* Any lax-idempotent 2-monad almost gives rise to a [[Yoneda structure]]; see [(Walker)](#WalkerYS).
+
 ## Related concepts
 
 * [[idempotent monad]]
@@ -117,6 +123,15 @@ This latter is actually a special case of a general situation.  If $T$ is a (2-)
 * A. J. Power, G. L. Cattani, G. Winskel, _A representation result for free cocompletions_, JPAA 151:273--286, 2000 {#PowerCattaniWinskel} <a href="        http://dx.doi.org/10.1016/S0022-4049(99)00063-8">doi</a>
 
 * Marmolejo--Wood, _Kan extensions and lax idempotent pseudomonads_, [TAC](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html) 26, p. 1--29 (2011)
+
+* Francisco Marmolejo, *Distributive laws for pseudomonads*, [TAC](http://tac.mta.ca/tac/volumes/1999/n5/5-05abs.html)
+ {#MarmolejoDL}
+
+* Charles Walker, *Yoneda Structures and KZ Doctrines*, [arxiv](https://arxiv.org/abs/1703.08693)
+ {#WalkerYS}
+
+* Charles Walker, *Distributive Laws via Admissibility*, [arXiv](https://arxiv.org/abs/1706.09575)
+ {#WalkerDL}
 
 [[!redirects KZ monad]]
 [[!redirects KZ-monad]]
