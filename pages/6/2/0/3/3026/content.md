@@ -252,7 +252,7 @@ $$
 which are open in $X$.
 
 
-Regarding the second point:  The image of an open subset $U \subset X$ is $i(U) = U \subset X^\ast$, which is open by definition
+Regarding the second point:  The image of an open subset $U \subset X$ is $i(U) = U \subset X^\ast$, which is open by definition.
 
 Regarding the third point: We need to show that $i \colon X \to i(X) \subset X^\ast$ is a [[homeomorphism]]. This is immediate from the definition of $X^\ast$.
 
@@ -288,7 +288,7 @@ $$
   }
 $$
 
-which is the identity on $X \setminus \{x_0\}$ ad sends $x_0 \mapto \infty$ (hence which is just the identity on the underlying sets) is a [[homeomorphism]].
+which is the identity on $X \setminus \{x_0\}$ and sends $x_0 \mapsto \infty$ (hence which is just the identity on the underlying sets) is a [[homeomorphism]].
 
 =--
 
