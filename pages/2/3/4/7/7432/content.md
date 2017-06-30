@@ -174,8 +174,7 @@ The argument given for the theorem above carries over without obstruction to the
 A category $E$ is equivalent to a [[presheaf topos]] (functors with values in the 1-category [[Set]] of [[0-groupoids]]) if and only if it is cocomplete and atomic as a $Set$-category. Representables $C(-, c)$ are (among the) atomic objects of $Set^{C^{op}}$, and generate the presheaf topos by closing under all small colimits. 
 =-- 
 
-Bunge proves in fact a slight strengthening as follows: a category is equivalent to a presheaf category $Set^{C^{op}}$ if and only if it 
-is cocomplete, regular, and has a generating set of atomic objects. 
+(The literal statement in Bunge's thesis is that a category is equivalent to a presheaf category $Set^{C^{op}}$ if and only if it is cocomplete, regular, and has a generating set of atomic objects, but this is trivially the same since presheaf toposes are of course [[regular category|regular]].)  
 
 ## Related concepts 
 
