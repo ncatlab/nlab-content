@@ -19,6 +19,8 @@ See any of the references, particularly [(CHP)](#CHP)
 
 * [[generalized polycategories]] are naturally defined relative to a pseudo-distributive law on a [[Prof]]-like bicategory; see [(Garner)](#Garner) for the canonical example of ordinary (symmetric) [[polycategories]].
 
+* Pseudo-distributive laws involving [[lax-idempotent 2-monads]] have an especially nice form; see [(Marmolejo)](#MarmolejoDL) and [(Walker)](#Walker).
+
 ## Related pages
 
 * [[distributive law]]
@@ -37,6 +39,12 @@ See any of the references, particularly [(CHP)](#CHP)
 
 * [[Richard Garner]], *Polycategories via pseudo-distributive laws*, [arXiv](http://arxiv.org/abs/math/0606735)
  {#Garner}
+
+* Francisco Marmolejo, *Distributive laws for pseudomonads*, [TAC](http://tac.mta.ca/tac/volumes/1999/n5/5-05abs.html)
+ {#MarmolejoDL}
+
+* Charles Walker, *Distributive Laws via Admissibility*, [arXiv](https://arxiv.org/abs/1706.09575)
+ {#Walker}
 
 [[!redirects pseudo-distributive laws]]
 [[!redirects pseudodistributive law]]
