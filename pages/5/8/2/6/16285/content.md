@@ -38,7 +38,7 @@ The preliminaries of the lectures state that religion and [[philosophy]] have th
 
 ...
 
-> Neu ist aber die Verkn&#252;pfung der Philospophie und der Theologie nicht: sie hat Statt gefunden bei denjenigen Theologen, die man die Kirchenv&#228;ter nennt, bei den vorz&#252;glichen derselben. 
+> Neu ist aber die Verkn&#252;pfung der Philosophie und der Theologie nicht: sie hat Statt gefunden bei denjenigen Theologen, die man die Kirchenv&#228;ter nennt, bei den vorz&#252;glichen derselben. 
 
 ...
 
