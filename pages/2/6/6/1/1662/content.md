@@ -36,7 +36,7 @@ S          & \hookrightarrow & Y
 
 * [[interactions of images and pre-images with unions and intersections]]:
 
-  * [[pre-images preserve unions and intersections]] (a general reason for this being that unions are colimits, intersections are limits, and $f^\ast$ is simultaneously a left- and a right-adjoint: $f^\ast$ is right-adjoint to the [[existential image]] and left-adjoint to the [[universal image]])
+  * [[pre-images preserve unions and intersections]] (a general reason for this being that unions are colimits, intersections are limits, and $f^\ast$ is simultaneously a left- and a right-adjoint: $f^\ast$ is right-adjoint to the [[existential quantifier]] $\exists_f$ and left-adjoint to the [[universal quantifier]] $\forall_f$)
 
 
 ## Related concepts
