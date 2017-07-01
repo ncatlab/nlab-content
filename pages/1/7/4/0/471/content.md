@@ -11,20 +11,19 @@
 =--
 
 #Contents#
-
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
  
-An _interval object_ $I$ in a [[category]] $C$ is an [[object]] that behaves in $C$ roughly like the unit interval $I := [0,1]$ with its two boundary point inclusions 
+An _interval object_ $I$ in a [[category]] $C$ is an [[object]] that behaves in $C$ roughly like the standard [[topological interbal]] $I \coloneqq [0,1]$ with its two boundary point inclusions 
 
 $$
   {*}\amalg {*} \stackrel{[0, 1]}{\to}
   I 
 $$
 
-in the category [[Top]] of [[topological space]]s, where $[0,1]$ is the [[copairing]] of the [[global elements]] $0\colon {*} \to I$ and $1\colon {*} \to I$.
+in the category [[Top]] of [[topological spaces]], where $[0,1]$ is the [[copairing]] of the [[global elements]] $0\colon {*} \to I$ and $1\colon {*} \to I$.
 
 A bare interval object may be nothing more than such a diagram. If $C$ admits sufficiently many [[limit]]s and [[colimit]]s, then from this alone a lot of structure derives. The precise definition of further structure and property imposed on an interval object varies with the intended context and applications. 
 
@@ -158,7 +157,7 @@ of $n \in \mathbb{N}$ copies of the [[co-span]] $I$ with itself by pushout over 
 In [section 4](http://arxiv.org/PS_cache/math/pdf/0502/0502155v2.pdf#page=11)
 of
 
-* Clemens Berger, [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ ([arXiv](http://arxiv.org/abs/math.AT/0502155))
+* [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ ([arXiv](http://arxiv.org/abs/math.AT/0502155))
 
 the following definition is given:
 
@@ -220,7 +219,7 @@ In [[homotopy type theory]] the cellular interval can be axiomatized as a [[high
 
 * The **standard interval object** in [[Cat]] is the 1st [[oriental]] $\{0\to 1\}$ (see [[co-span co-trace]])
 
-* For $V = C = Top$ with its standard model structure the standard topological closed interval  $I := [0,1]$ with $pt \stackrel{\sigma, \tau}{\to}I$ the maps to 0 and 1, respectively. This is the case described in detail at [[Trimble n-category]].
+* For $V = C =$ [[Top]] equipped with with the [[classical model structure on topological spaces]], the topological [[closed interval]]  $I \colon [0,1]$ (with its [[Euclidean space|Euclidean]] [[metric topology]]) with $pt \stackrel{\sigma, \tau}{\to}I$ the maps to 0 and 1, respectively. This is the standard _[[topological interval]]_. This is the case described in detail at _[[Trimble n-category]]_.
 
 * For $V = \omega Cat$ the category of [[strict omega-category|strict omega-categories]] the first [[oriental]], the 1-[[globe]] $I = \{a \to b\}$ is an interval object. In this strict case in fact all hom objects are already equal to the point ${}_{pt}[I, I^{\vee n}]_{pt} = pt$ and 
 $$
