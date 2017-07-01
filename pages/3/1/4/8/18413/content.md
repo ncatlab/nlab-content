@@ -122,15 +122,14 @@ $$
 
 ### Freyd's characterization 
 
-As an object of the category $Int$ of [[intervals]] ([[linear orders]] with distinct [[top]] and [[bottom]] elements), the topological interval $[0, 1]$ is characterized by a [[universal property]] discovered by [[Freyd]]. Let $F: Int \to Int$ be the [[functor]] defined on objects by $F(X) = X \vee X$, formed by identifying the [[top]] element of the first copy of $X$ with the [[bottom]] of the second copy of $X$, with the ordering such that the two inclusions $i_1, i_2: X \to X \vee X$ are order-preserving. 
+As an object of the category $Int$ of [[intervals]] ([[linear orders]] with distinct [[top]] and [[bottom]] elements) equipped with their [[order topology]], the topological interval $[0, 1]$ is characterized by a [[universal property]] discovered by [[Freyd]]. Let $F: Int \to Int$ be the [[functor]] defined on objects by $F(X) = X \vee X$, formed by identifying the [[top]] element of the first copy of $X$ with the [[bottom]] of the second copy of $X$, with the ordering such that the two inclusions $i_1, i_2: X \to X \vee X$ are order-preserving. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
 **(Freyd)** 
 
-As an [[order theory|order-theoretic]] object the interval $[0, 1]$ is the terminal $F$-[[terminal coalgebra of an endofunctor|coalgebra]]. 
+The topological interval $[0, 1]$ is the terminal $F$-[[terminal coalgebra of an endofunctor|coalgebra]]. 
 
-(Equipped with the corresponding [[order topology]], this is the topological interval $[0,1]$.)
 
 =-- 
 
