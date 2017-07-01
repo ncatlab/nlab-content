@@ -51,14 +51,28 @@ An initial object $\emptyset$ is called a **[[strict initial object]]** if any m
 
 By definition, an initial object is equipped with a universal [[cocone]] under the unique functor $\emptyset\to C$ from the [[empty category]].  On the other hand, the unique morphisms $!:\emptyset \to x$ form a cone *over* the [[identity functor]], i.e. a natural transformation $\Delta_\emptyset \to Id_C$ from the [[constant functor]] at the initial object to the identity functor.  In fact this is almost another characterization of an initial object:
 
-+--{: .un_theorem}
++--{: .num_theorem #cone}
 ###### Theorem
 Suppose $I\in C$ is an object equipped with a natural transformation $p:\Delta_I \to Id_C$ such that $p_I = 1_I : I\to I$.  Then $I$ is an initial object of $C$.
 =--
 +--{: .proof}
 ###### Proof
 Obviously $I$ has at least one morphism to every other object $X\in C$, namely $p_X$, so it suffices to show that any $f:I\to X$ must be equal to $p_X$.  But the naturality of $p$ implies that $\Id_C(f) \circ p_I = p_X \circ \Delta_I(f)$, and since $p_I = 1_I$ this is to say $f \circ 1_I = p_X \circ 1_I$, i.e. $f=p_I$ as desired.
-=--
+=-- 
+
++-- {: .num_cor} 
+###### Corollary 
+An object $I$ is initial in $C$ iff $I$ is the limit of $Id_C$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+If $I$ is initial, then there is a [[cone]] $(!_X: I \to X)_{X \in Ob(C)}$ from $I$ to $Id_C$, and if $(p_X: A \to X)_{X \in Ob(C)}$ is any cone from $A$ to $Id_C$, then $p_X = !_X \circ p_I$. Hence $p_I: A \to I$ defines a morphism of cones, and the unique morphism of cones since if $q$ any morphism of cones, then $p_I = !_I \circ q = 1_I \circ q = q$. Thus $(!_X: I \to X)_{X \in Ob(C)}$ is the limit cone. 
+
+Conversely, if $(p_X: L \to X)_{X \in Ob(C)}$ is a limit cone for $Id_C$, then $p_X \circ p_L = p_X$ for all $X$. This means that both $p_L: L \to L$ and $1_L: L \to L$ define morphisms of cones; by the uniqueness in the definition of limit, we infer $p_L = 1_L$. Then by Theorem \ref{cone} we conclude $L$ is initial. 
+=-- 
+
+
 
 ## Related concepts
 
