@@ -182,6 +182,23 @@ In this example, $Conn((0, 1)) = \{(0, 1)\}$, but $QConn((0, 1)) = \{(0, 0), (0,
 
 ### Basic examples {#basic}
 
++-- {: .num_example #LocallyConstantFunctionsOnConnectedSpaces}
+###### Example
+**([[locally constant function]] on [[connected topological spaces]] are [[constant functions]])**
+
+If $X$ is a connected topological space and $f \colon X \to Y$ is a [[locally constant function|locally constant]] [[continuous function]], then $f$ is in fact a [[constant function]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of locally constant functions, every point $x \in X$ has an [[open neighbourhood]] $U_x$ such that the restriction $f\vert_{U_x}$ is a constant function. The [[unions]] of these neighbourhoods for a fixed constant value hence are disjoint open subsets that constitute a cover of $X$. By connectedness this cover must consist of a single non-empty element. But by construction this mans that $f$ is constant.
+
+=--
+
+
+
 +-- {: .num_example #ContinuousImagesOfConnectedSpacesAreConnected}
 ###### Example
 **([[continuous function|continuous]] [[images]] of connected spaces are connected)**
