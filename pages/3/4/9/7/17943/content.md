@@ -176,7 +176,7 @@ Conversely, given any lift, $\hat \gamma$, then its restrictions $\hat \gamma\ve
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #CoveringSpacesHomotopyLifting}
 ###### Proposition
 **([[homotopy lifting property]] of [[covering spaces]])**
 
@@ -275,6 +275,22 @@ Therefore
 $$
   \hat f(y') \coloneqq \widehat{f \circ \gamma}
 $$
+
+if a lift of $f(y')$.
+
+We claim now that this pointwise construction is independent of the choice $\gamma$, and hat as a function of $y'$ it is indeed continuous. This will prove the claim.
+
+Now by the path lifting lemma \ref{CoveringSpacePathLifting} the lift $\widehat{\f \circ \gamma}$ is unique given $f \circ \gamma$, and hence $\hat f(y')$ depends at most on the choice of $\gamma$.
+
+Hence let $\gamma' \colon [0,1] \to Y$ be another path in $$Y that connects $y$ with $y'$. We need to show that then $\widehat{f \circ \gamma'} = \widehat{f \circ \gamma}$.
+
+First observe that if $\gamma'$ is related to $\gamma$ by a [[homotopy]], so that then also $f \circ \gamma'$ is related to $f \circ \gamma$ by a homotopy, then this is the statement of the homotopy lifting property of lemma \ref{CoveringSpacesHomotopyLifting}.
+
+Next write $\bar\gamma'\cdot \gamma$ for the concatenation of the path $\gamma$ with the reverse of the path $\gamma'$, hence a loop in $Y$, so that $f \circ (\bar\gamma'\cdot \gamma)$ is a loop in $X$. The assumption that $f_\ast(\pi_1(Y,y)) \subset p_\ast(\pi_1(E,e))$ means that the path $\widehat{f \circ (\bar \gamma' \cdot \gamma)}$ which lifts this loop to $E$ is itself a loop in $E$.
+
+But this means that the lift of $f \circ ( \gamma' \cdot (\bar\gamma' \cdot \gamma) )$, coincides with that of $f \circ \gamma'$. But $\bar \gamma' \cdot (\gamma' \cdot \gamma)$ is homotopic (via reparameterization) to just $\gamma$. Hence it follows now with the first statement that the lift of $f \circ \gamma'$ indeed coincides with that of $f \circ \gamma$.
+
+This shows that the above prescription for $\hat f$ is well defined. It remains to see that the function $\hat f$ obtained this way is continuous.
 
 
 ...
