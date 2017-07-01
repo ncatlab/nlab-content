@@ -219,6 +219,8 @@ see also _[[differential topology]]_, _[[algebraic topology]]_, _[[functional an
 
 * [[fundamental group]], [[covering space]]
 
+* [[fundamental theorem of covering spaces]]
+
 * [[homotopy group]]
 
 * [[weak homotopy equivalence]]
