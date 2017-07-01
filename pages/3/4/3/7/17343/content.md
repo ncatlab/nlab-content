@@ -648,7 +648,7 @@ $$
   I \coloneqq [0,1] \hookrightarrow \mathbb{R}
 $$
 
-for the standard topological [[interval]], a [[compact topological space|compact]] [[connected topological space|connected]] [[topological subspace]] of the [[real line]].
+for the standard [[topological interval]], a [[compact topological space|compact]] [[connected topological space|connected]] [[topological subspace]] of the [[real line]].
 
 Equipped with the canonical inclusion of its two endpoints
 
@@ -996,8 +996,9 @@ Of course the concept of left homotopy in def. \ref{LeftHomotopy} is accompanied
 
 +-- {: .num_defn #TopologicalPathSpace}
 ###### Definition
+**([[path space]])**
 
-For $X$ a [[topological space]], its **standard topological [[path space object]]** is the topological [[mapping space]] $X^I$, prop. \ref{MappingTopologicalSpaceIsExponentialObject}, out of the standard interval $I$ of def. \ref{TopologicalInterval}.
+For $X$ a [[topological space]], its **standard topological [[path space object]]** is the topological [[path space]], hence the [[mapping space]] $X^I$, prop. \ref{MappingTopologicalSpaceIsExponentialObject}, out of the standard interval $I$ of def. \ref{TopologicalInterval}.
 
 
 =--
@@ -5282,7 +5283,7 @@ $$
   X
 $$
 
-(obtained by forming the [[product]] with the standard topological intervall $I = [0,1]$) is indeed a _[[cylinder object]]_ in the abstract sense of def. \ref{PathAndCylinderObjectsInAModelCategory}.
+(obtained by forming the [[product space]] with the standard [[topological interval]] $I = [0,1]$) is indeed a _[[cylinder object]]_ in the abstract sense of def. \ref{PathAndCylinderObjectsInAModelCategory}.
 
 
 =--
@@ -5323,7 +5324,7 @@ $$
   X \times X
 $$
 
-(obtained by forming the [[mapping space]], def. \ref{CompactOpenTopology}, with the standard topological intervall $I = [0,1]$) is indeed a _[[path space object]]_ in the abstract sense of def. \ref{PathAndCylinderObjectsInAModelCategory}.
+(obtained by forming the [[mapping space]], def. \ref{CompactOpenTopology}, with the standard [[topological interval]] $I = [0,1]$) is indeed a _[[path space object]]_ in the abstract sense of def. \ref{PathAndCylinderObjectsInAModelCategory}.
 
 =--
 
