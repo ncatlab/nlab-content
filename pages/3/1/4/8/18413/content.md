@@ -1,0 +1,88 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+Generally, a _topological interval_ is a ([[bounded set|bounded]]) [[interval]] in the [[real line]] (an [[open interval]] $(a,b)$ or a [[closed interval]] $[a,b]$ or a [[half-open interval]] $(a,b]$ or $[a,b)$) equipped with the [[subspace topology]] of the [[Euclidean space|Euclidean]] [[metric topology]].
+
+Specifically in the context of [[topological homotopy theory]], the _standard topological [[interval object]]_ is the [[closed interval]] $[0,1]$ equipped with the [[continuous functions]] 
+
+1. $const_0 \;\colon\; \ast \to [0,1]$
+
+1. $const_1 \;\colon\; \ast \to [0,1]$
+
+which include the [[point space]] as the two endpoints, respectively.
+
+Together with the unique function $[0,1] \to \ast$ this yields the factorization of the [[codiagonal]] on the [[point space]]
+
+$$
+  \ast \sqcup \ast \overset{(const_0,const_1)}{\longrightarrow} [0,1] \overset{\exists!}{\longrightarrow} \ast
+$$
+
+which exhibits an example of an _[[interval object]]_ in the general sense of [[model category]] theory with respect to the [[classical model structure on topological spaces]].
+
+## Topological cylinder
+
+For $X$ a [[topological space]], then the [[product topological space]] $X \times [0,1]$ with the topological interval is the _standard topological [[cylinder]]_ over $X$. Accordingly with tespect to the [[classical model structure on topological spaces]] this is an example a of _[[cylinder object]]_.
+
+## Left homotopy
+
+Given $X,Y$ two [[topological spaces]] and $f,g \;\colon\; X \longrightarrow Y$ two [[continuous functions]],then a **[[left homotopy]]**
+
+$$
+  \eta \colon f \,\Rightarrow_L\, g
+$$
+
+is a [[continuous function]]
+
+$$
+  \eta \;\colon\; X \times I \longrightarrow Y
+$$
+
+
+out of the [[product topological space]] of $X$ with the topological interval, such that this fits into a [[commuting diagram]] of the form
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="http://www.ncatlab.org/nlab/files/AHomotopy.jpg" width="400">
+</div>
+
+
+$$
+  \array{
+     X
+     \\
+     {}^{\mathllap{(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{f}}
+     \\
+     X \times I &\stackrel{\eta}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{g}}
+     \\
+     X
+  }
+  \,.
+$$
+
+(graphics grabbed from J. Tauber [here](http://jtauber.com/blog/2005/07/01/path_homotopy/))
+
+
+[[!redirects topological intervals]]
