@@ -39,7 +39,7 @@ This section recalls basic relevant concepts from [[topology]] ("point-set topol
 
 ### Homotopy
 
-The fundamental concept of [[homotopy theory]] is that of _[[homotopy]]_. In the context of [[topological spaces]] this is about [[continuous function|contiunous]] deformations of [[continuous functions]] parameterized by the standard interval:
+The fundamental concept of [[homotopy theory]] is that of _[[homotopy]]_. In the context of [[topological spaces]] this is about [[continuous function|contiunous]] deformations of [[continuous functions]] parameterized by the standard [[topological interval]]:
 
 +-- {: .num_defn #TopologicalInterval}
 ###### Definition
@@ -50,7 +50,7 @@ $$
   I \coloneqq [0,1] \hookrightarrow \mathbb{R}
 $$
 
-for the standard topological [[interval]], a [[compact topological space|compact]] [[connected topological space|connected]] [[topological subspace]] of the [[real line]].
+for the standard [[topological interval]], a [[compact topological space|compact]] [[connected topological space|connected]] [[topological subspace]] of the [[real line]].
 
 Equipped with the canonical inclusion of its two endpoints
 
