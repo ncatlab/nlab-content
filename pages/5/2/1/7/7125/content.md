@@ -264,7 +264,7 @@ Of course, more interesting examples of the gluing construction abound as well. 
 
 * A concrete instance of the constructions in both the preceding examples is the [[Sierpinski topos]] $Set^{\to}$ corresponding e.g. to $Set\downarrow id_{Set}$: its objects are functions $X\to Y$ between sets $X,Y$ and the closed copy of $Set$ sits on the objects of the form $X\to 1$ and the open copy on the objects $X\overset{\simeq}{\to}Y$.
 
-* Since a topos $\mathcal{E}$ is finitely bicomplete, the product functor $\sqcap:\mathcal{E}\times\mathcal{E}\to\mathcal{E}$ with $(X,Y)\mapsto X\times Y$ is part of an adjoint string $\sqcup\dashv\triangle\dashv\sqcap$ involving the [[diagonal functor]] and the coproduct functor. Since $\sqcap$ is left exact Artin gluing applies. In the case $\mathcal{E}=Set$ , $\mathbb{Gl}(\sqcap)$ yields the [[hypergraph|topos of hypergraphs]]; this example is discussed in detail at [[hypergraph]]. These cases are somewhat unusual in that the fringe functor here has a left adjoint which itself has a further left adjoint.
+* Since a topos $\mathcal{E}$ is finitely bicomplete, the product functor $\sqcap:\mathcal{E}\times\mathcal{E}\to\mathcal{E}$ with $(X,Y)\mapsto X\times Y$ is part of an adjoint string $\sqcup\dashv\triangle\dashv\sqcap$ involving the [[diagonal functor]] and the coproduct functor. Since $\sqcap$ is left exact, Artin gluing applies. In the case $\mathcal{E}=Set$ , $\mathbb{Gl}(\sqcap)$ yields the [[hypergraph|topos of hypergraphs]]; this example is discussed in detail at [[hypergraph]]. These cases are somewhat unusual in that the fringe functor here has a left adjoint which itself has a further left adjoint.
 
 ### Remarks
 
