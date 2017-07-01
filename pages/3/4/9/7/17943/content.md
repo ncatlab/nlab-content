@@ -174,6 +174,110 @@ By [[induction]] over $j$, this yields the required lift $\hat \gamma$.
 
 Conversely, given any lift, $\hat \gamma$, then its restrictions $\hat \gamma\vert_{[t_j, t_{j+1}]}$ are uniquely fixed by the above inductive argument. Therefore also the total lift is unique.
 
+=--
+
++-- {: .num_prop}
+###### Proposition
+**([[homotopy lifting property]] of [[covering spaces]])**
+
+Let $p \colon E \to X$ be a [[covering space]]. Then commuting squares of the form
+
+$$
+  \array{
+    \{0\} \times \{0,1\} &\longrightarrow& \ast
+    \\
+    \downarrow && \downarrow
+    \\ 
+    [0,1] \times \{0,1\}
+      &\overset{}{\longrightarrow}&
+    E
+    \\
+    {}^{\mathllap{}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    [0,1] \times [0,1] &\underset{\gamma}{\longrightarrow}& X
+  }
+$$
+
+have a unique lift in the lower diagram
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The proof is analogous to that of lemma \ref{CoveringSpacePathLifting}: The [[Lebesgue number lemma]] gives a partition of $[0,1] \times [0,1]$ into a finite number of squares such that the image of each under $\gamma$ lands in an open subset over which the covering space trivializes. Then there is [[induction|inductively]] an unique appropriate lift over each of these squares
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+**(lifting theorem)**
+
+Let 
+
+1. $p \colon E \to X$ be a [[covering space]];
+
+1. $e \in E$ a point, with $x \coloneqq p(e)$ denoting its image,
+
+1. $Y$ be a [[connected topological space|connected]] and [[locally path-connected topological space|locally path-connected]] [[topological space]];
+
+1. $y \in Y$ a point
+
+1. $f \colom (Y,y) \longrightarrow (X,x)$ a [[continuous function]] such that $f(y) = x$.
+
+Then the following are equivalent:
+
+1. There exists a lift $\hat f$ in the diagram
+
+   $$
+     \array{
+       && (E,e)
+       \\
+       & {}^{\mathllap{\hat f}}\nearrow & \downarrow^{\mathrlap{p}}
+       \\
+       (Y,y) &\underset{f}{\longrightarrow}& (X,x)
+     }
+   $$
+
+   of [[pointed topological spaces]].
+
+1. The [[image]] of the [[fundamental group]] of $Y$ under $f$ in that of $X$ is contained in the image of the fundamental group of $E$ under $p$:
+
+   $$
+     f_\ast(\pi_1(Y,y)) \subset p_\ast( \pi_1(E,e) )
+     \,
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The implication $1) \Rightarrow 2)$ is immediate. We need to show that the second statement already implies the first.
+
+Since $Y$ is connected and locally path-connected, it is also a [[path-connected topological space]] (...). Hence for every point $y' \in Y$ there exists a [[path]] $\gamma$ connecting $y$ with $y'$ and hence a path $f \circ \gamma$ connecting $x$ with $f(y')$.  By the path-lifting property (lemma \ref{CoveringSpacePathLifting}) this has a unique lift
+
+$$
+  \array{
+    \{0\} &\overset{e}{\longrightarrow}& E
+    \\
+    \downarrow &{}^{\mathllap{\widehat{f \circ \gamma}}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    [0,1]
+     &\underset{f \circ \gamma}{\longrightarrow}&
+    X
+  }
+  \,.
+$$
+
+Therefore
+
+$$
+  \hat f(y') \coloneqq \widehat{f \circ \gamma}
+$$
+
+
+...
 
 =--
 
