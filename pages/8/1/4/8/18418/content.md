@@ -22,7 +22,7 @@
 
 ## Idea
 
-In [[topology]], the _[[fundamental theorem of covering spaces]]_ asserts that for $X$ a [[locally connected topological space|locally connected]] and [[semi-locally simply-connected topological space]], then the [[functor]] given by sending a [[covering space]] over $X$ to its [[monodromy]] [[permutation representation]] of the [[fundamental groupoid]] $\Pi_1(X)$ of $X$ 
+In [[topology]], the _[[fundamental theorem of covering spaces]]_ asserts that for $X$ a [[locally path-connected topological space|locally path-connected]] and [[semi-locally simply-connected topological space]], then the [[functor]] given by sending a [[covering space]] over $X$ to its [[monodromy]] [[permutation representation]] of the [[fundamental groupoid]] $\Pi_1(X)$ of $X$ 
 
 $$
   Fib
@@ -62,7 +62,7 @@ The following is a description of the reconstruction in terms of elementary [[po
 
 Let 
 
-1. $(X,\tau)$ be a [[locally connected topological space|locally connected]] [[semi-locally simply connected topological space|semi-locally simply connected]] [[topological space]],
+1. $(X,\tau)$ be a [[locally path-connected topological space|locally path-connected]] [[semi-locally simply connected topological space|semi-locally simply connected]] [[topological space]],
 
 1. $\rho \in Set^{\Pi_1(X)}$ a [[permutation representation]] of its [[fundamental groupoid]].
 
