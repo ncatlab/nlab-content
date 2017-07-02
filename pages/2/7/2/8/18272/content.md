@@ -43,7 +43,7 @@ The [[injective function|injection]] in the second item is in general proper. If
 
 =-- 
 
-+-- {: .num_prop} 
++-- {: .num_prop #PreImagePreservesUnionsAndIntersections} 
 ###### Proposition 
 **(pre-images preserve unions and intersections)** 
 
