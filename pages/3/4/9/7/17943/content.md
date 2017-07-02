@@ -176,6 +176,7 @@ Conversely, given any lift, $\hat \gamma$, then its restrictions $\hat \gamma\ve
 
 =--
 
+
 +-- {: .num_prop #CoveringSpacesHomotopyLifting}
 ###### Proposition
 **([[homotopy lifting property]] of [[covering spaces]])**
@@ -198,7 +199,9 @@ $$
   }
 $$
 
-have a unique lift in the lower diagram
+have a unique lift in the lower diagram.
+
+
 
 =--
 
@@ -206,6 +209,45 @@ have a unique lift in the lower diagram
 ###### Proof
 
 The proof is analogous to that of lemma \ref{CoveringSpacePathLifting}: The [[Lebesgue number lemma]] gives a partition of $[0,1] \times [0,1]$ into a finite number of squares such that the image of each under $\gamma$ lands in an open subset over which the covering space trivializes. Then there is [[induction|inductively]] a unique appropriate lift over each of these squares
+
+=--
+
++-- {: .num_example #IfFundamentalGroupsIncludeThenfLoopsLiftToLoops}
+###### Example
+
+
+Let $(E,e) \overset{p}{\longrightarrow} (X,x)$ be a [[pointed topological space|pointed]] [[covering space]]
+and let $f \colon (Y,y) \longrightarrow (X,x)$ be a point-preserving [[continuous function]] such that the image of the [[fundamental group]] of $(Y,y)$ is contained within the image of the fundamental group of $(E,e)$ in that of $(X,x)$:
+
+$$
+  f_\ast(\pi_1(Y,y)) \subset p_\ast(\pi_1(E,e))
+  \phantom{AA}
+  \subset 
+  \pi_1(X,x)
+  \,.
+$$
+
+Then for $\ell_Y$ a [[path]] in $(Y,y)$ that happens to be a [[loop]], every lift of its image path $f \circ \ell$ in $(X,x)$ to a path $\widehat{f\circ \ell_Y}$ in $(E,e)$ is also a loop there.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By assumption, there is a loop $\ell_E$ in $(E,e)$ and a homotopy fixing the endpoints of the form
+
+$$
+  \eta_{X} \;\colon\; p \circ \ell_E \Rightarrow f\circ \ell_Y
+  \,.
+$$
+
+Then by the homotopy lifting property (lemma \ref{CoveringSpacesHomotopyLifting}), there is a homotopy in $(E,e)$ fixing the starting point, of the form
+
+$$
+  \eta_{E} \;\colon\; \ell_E \Rightarrow \widehat{f \circ \ell_Y}
+$$
+
+and lifting the homotopy $\eta_X$. Since $\eta_X$ in addition fixes the endpoint, the uniqueness of the path lifting (lemma \ref{CoveringSpacePathLifting}) implies that also $\eta_{E}$ fixes the endpoint. Therefore $\eta_E$ is in fact a homotopy between loops, and so $\weidehat{f \circ \ell_Y}$ is indeed a loop.
 
 =--
 
@@ -286,20 +328,121 @@ Hence let $\gamma' \colon [0,1] \to Y$ be another path in $Y$ that connects $y$ 
 
 First observe that if $\gamma'$ is related to $\gamma$ by a [[homotopy]], so that then also $f \circ \gamma'$ is related to $f \circ \gamma$ by a homotopy, then this is the statement of the homotopy lifting property of lemma \ref{CoveringSpacesHomotopyLifting}.
 
-Next write $\bar\gamma'\cdot \gamma$ for the concatenation of the path $\gamma$ with the reverse of the path $\gamma'$, hence a loop in $Y$, so that $f \circ (\bar\gamma'\cdot \gamma)$ is a loop in $X$. The assumption that $f_\ast(\pi_1(Y,y)) \subset p_\ast(\pi_1(E,e))$ and the uniqueness of the path lifting (lemma \ref{CoveringSpacePathLifting}) implies that the path $\widehat{f \circ (\bar \gamma' \cdot \gamma)}$ which lifts this loop to $E$ is itself a loop in $E$.
+Next write $\bar\gamma'\cdot \gamma$ for the [[path concatenation]] of the path $\gamma$ with the [[reverse path]] of the path $\gamma'$, hence a loop in $Y$, so that $f \circ (\bar\gamma'\cdot \gamma)$ is a loop in $X$. The assumption that $f_\ast(\pi_1(Y,y)) \subset p_\ast(\pi_1(E,e))$ implies (example \ref{IfFundamentalGroupsIncludeThenfLoopsLiftToLoops}) that the path $\widehat{f \circ (\bar \gamma' \cdot \gamma)}$ which lifts this loop to $E$ is itself a loop in $E$.
 
 By uniqueness of path lifting, this means that the lift of $f \circ ( \gamma' \cdot (\bar\gamma' \cdot \gamma) )$ coincides with that of $f \circ \gamma'$. But $\bar \gamma' \cdot (\gamma' \cdot \gamma)$ is homotopic (via reparameterization) to just $\gamma$. Hence it follows now with the first statement that the lift of $f \circ \gamma'$ indeed coincides with that of $f \circ \gamma$.
 
 This shows that the above prescription for $\hat f$ is well defined. 
 
-It now remains to see that the function $\hat f$ obtained this way is continuous.
+It only remains to show that the function $\hat f$ obtained this way is continuous.
 
-Let $y' \in Y$ be a point and $W_{\hat f(y')} \subset E$ an open neighbourhood of its image in $E$. We need to see that there is an open neighbourhood $V_{y'} \subset Y$ such that $\hat f(V_y) \subset W_{\hat f(y')}$.
+Let $y' \in Y$ be a point and $W_{\hat f(y')} \subset E$ an open neighbourhood of its image in $E$. It is sufficient to see that there is an open neighbourhood $V_{y'} \subset Y$ such that $\hat f(V_y) \subset W_{\hat f(y')}$. 
 
-Let $U_{f(y')} \subset X$ be an open neighbourhood over which $p$ trivializes. Then $p^{-1}(U_{f(y')}) \cap W_{\hat f(y')} \subset U_{f(y')} \times Disc(p^{-1}(f(y')))$ is an open subset of the product space. 
-The projection $\pi \colon U_{f(y)} \times Disc(p^{-1}(f(y'))) \to U_{f(y')} \times \{\hat f(y')\}$ is an open map, so $p(\pi(p^{-1}(U_{f(y)}) \cap W_{\hat f(y')})) \subset p(W_{\hat f(x)})$ is still an open subset, whence so is $f^{-1}(p(\pi(p^{-1}(U_{f(y)}) \cap W_{\hat f(y')})))$.  
+Let $U_{f(y')} \subset X$ be an open neighbourhood over which $p$ trivializes. Then the restriction
 
-Now since $Y$ is locally path connected, this contains a path connected open subset, and by the uniqueness of the path lifting, the image of that under $\hat f$ is in $W_{\hat f(y')}$.
+$$
+  p^{-1}(U_{f(y')}) \cap W_{\hat f(y')} 
+    \;\subset\; 
+  U_{f(y')} \times Disc(p^{-1}(f(y')))
+$$ 
+
+is an open subset of the product space. Consider its further restriction 
+
+$$
+  \left( U_{f(y')} \times \{\hat f(y')\} \right)
+    \cap 
+  \left( 
+    p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
+  \right) 
+$$
+
+to the [[leaf]] 
+
+$$
+  U_{f(y')} \times \{\hat f(y')\} \;\subset\; U_{f(y')} \times p^{-1}(f(y'))
+$$
+
+which is itself an open subset. Since $p$ is an [[open map]] ([this prop.](covering+space#CoveringProjectionsAreOpenMaps)), the subset 
+
+$$
+  p\left(
+    \left(
+      U_{f(y')} \times \{\hat f(y')\}
+    \right)
+      \cap 
+    \left( 
+      p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
+    \right) 
+  \right)
+  \subset X
+$$
+
+is open, hence so is its pre-image
+
+$$
+  f^{-1}
+  \left(
+    p
+      \left(
+        \left(
+          U_{f(y')} \times \{\hat f(y')\}
+        \right)
+          \cap 
+        \left( 
+          p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
+        \right) 
+    \right)
+  \right)
+    \;\subset\; 
+  Y
+  \,.
+$$
+
+
+Since $Y$ is assumed to be [[locally path-connected topological space|locally path-connected]], there exists a path-connected open neighbourhood
+
+$$
+  V_{y'}
+    \subset 
+  f^{-1}\left(p\left(
+    \left(U_{f(y')} \times \{\hat f(y')\}\right)
+      \cap 
+    \left( 
+      p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
+    \right) 
+  \right)
+  \right)
+  \,.
+$$
+
+By the uniqueness of pah lifting, the image of that under $\hat f$ is
+
+$$
+  \begin{aligned}
+    \hat f(V_{y_'}) 
+    & = 
+    f(V_{y'}) \times \{\hat f(y')\} 
+    \\
+     & \subset
+    p\left(
+      \left(U_{f(y')} \times \{\hat f(y')\}\right)
+        \cap 
+      \left( 
+        p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
+      \right) 
+    \right) \times \{\hat f(y')\}
+    \\
+    & \simeq
+      \left( U_{f(y')} \times \{\hat f(y')\} \right)
+        \cap 
+      \left( 
+        p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
+      \right)   
+     \\
+     & \subset W_{\hat f(y')}
+  \end{aligned}
+  \,.
+$$
 
 
 =--
