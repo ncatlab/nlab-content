@@ -103,8 +103,9 @@ Now consider a [[separable space|separable]] metric space; that is, we have a [[
 
 Let $X$ be simply a [[set]].
 
-+-- {: .num_prop}
++-- {: .num_prop #Recognition}
 ###### Proposition
+**(recognition of topological bases)**
 
 A collection $B$ of [[subsets]] of $X$ is a base for *some* topology on $X$ iff these conditions are met:
 
