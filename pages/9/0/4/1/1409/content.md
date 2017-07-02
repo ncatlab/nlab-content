@@ -1,4 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 Given a [[set]] $S$, the __identity function__ on $S$ is the [[function]] $id_S\colon S \to S$ that maps any element $x$ of $S$ to itself:
 $$ id_S = (x \mapsto x) = \lambda x.\; x ;$$
 or equivalently,
@@ -8,6 +26,12 @@ The identity functions are the [[identity morphisms]] in the category [[Set]] of
 
 More generally, in any [[concrete category]], the identity morphism of each object is given by the identity function on its [[underlying set]].
 
+
+## Related concepts
+
+* [[identity type]]
+
+* [[identity functor]]
 
 [[!redirects identity function]]
 [[!redirects identity functions]]
