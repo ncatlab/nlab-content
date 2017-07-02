@@ -21,7 +21,7 @@
 
 The concept of _equivalence of categories_ is the correct [[category theory|category theoretic]] notion of "sameness" of [[categories]]. 
 
-Concretely, an equivalence between two categories is a pair of [[functors]] between them which are [[inverse]] to each other _up to_ [[natural isomorphism]] of functors.
+Concretely, an equivalence between two categories is a pair of [[functors]] between them which are [[inverse]] to each other _up to_ [[natural isomorphism]] of functors ([[inverse functors]]).
 
 This is like an [[isomorphism]], but weakened such as to accomodate for the fact that the correct ambient context for categories is not iself a 1-category, but is the [[2-category]] [[Cat]] of all categories. Hence abstractly an equivalence of categories is just the special case of an [[equivalence in a 2-category]] specialized to [[Cat]].
 
@@ -38,7 +38,7 @@ to [[higher category theory|higher categories]] (see e.g. _[[equivalence of 2-ca
 +-- {: .num_defn #EquivalenceViaInverseFunctor}
 ###### Definition
 
-An **equivalence** between two [[categories]] $\mathcal{C}$ and $\mathcal{D}$ is an [[equivalence in a 2-category|equivalence in the 2-category]] [[Cat]] of all [[categories]], hence it is
+An **equivalence** between two [[categories]] $\mathcal{C}$ and $\mathcal{D}$ is an [[equivalence in a 2-category|equivalence in the 2-category]] [[Cat]] of all [[categories]], hence a pair of [[inverse functors]], hence it is
 
 1. a pair of [[functors]] 
 
