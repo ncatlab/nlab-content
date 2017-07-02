@@ -1,3 +1,4 @@
+[[!redirects reconstructing covering spaces from monodromy]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
