@@ -262,6 +262,31 @@ This image is the _[[Cantor space]]_ as a subspace of the closed interval.
 
 ## Properties
 
+### Basic properties
+
++-- {: .num_prop #ProjectionsAreOpenMaps}
+###### Proposition
+**([[projections]] are [[open maps]])**
+
+For $\{X_i\}_{i \in I}$ a set of topological spaces, the for each $j \in I$ the [[projection]] out of their product space into the $j$th component
+
+$$
+ p_j \;\colon\; \underset{i \in I}{\prod} X_i \longrightarrow X_j
+$$
+
+is an [[open map]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since images preserve unions ([this prop.](interactions+of+images+and+pre-images+with+unions+and+intersections#PreservationOfUnionsAndIntersectionsOfSets)) it is sufficient to check that the image under $p_j$ of a [[base fo the topology|base open]] is still open. But base opens in the product topology by definition are, in particular, products of open subsets.
+
+=--
+
+
+
 ### Universal property
 
 The product topological space construction from def. \ref{ProductTopologicalSpace} is the [[limit]] in [[Top]] over the [[discrete category|discrete]] [[diagram]] consisting of the factor spaces, hence the [[category theory|category theoretic]] [[product]]. 
