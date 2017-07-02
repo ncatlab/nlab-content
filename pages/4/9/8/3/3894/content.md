@@ -39,7 +39,7 @@ There are many more explicit (and more abstract) equivalent ways to say this, wh
 
 Notably one may consider reductions of the frames in the $k$th order [[jet bundle]]. (e. g. [Alekseevskii](#Alekseevskii)) This yields order $k$ $G$-structure and the ordinary $G$-structures above are then first order.
 
-Moreover, the definition makes sense for generalized [[manifolds]] modeled on other base spaces than just [[Cartesian spaces]]. In particular there is an evident generalization to [[supermanifolds]].
+Moreover, the definition makes sense for generalized [[manifolds]] modeled on other base spaces than just [[Cartesian spaces]]. In particular there are evident generalizations to [[supermanifolds]] and to [[complex manifolds]].
 
 ### In terms of $(B,f)$-structures 
  {#InTermsOfBfStructures}
@@ -465,9 +465,21 @@ This continues with lifts to the
 
 * For $H_n \to E_{n(n)}$ the inclusion of the [[maximal compact subgroup]] into the [[split real form]] of an [[exceptional Lie group]], the corresponding structure is an [[exceptional generalized geometry]].
 
+### Complex geometric examples
+
+* The choice of $SO(n, \mathbb{C})$ as subgroup of $GL(n, \mathbb{C})$, determines a complex Riemannian structure;
+
+* $CO(n, \mathbb{C}) \hookrightarrow GL(n, \mathbb{C})$, a complex conformal structure;
+
+* $Sp(2n, \mathbb{C})\hookrightarrow GL(2n, \mathbb{C})$, an almost symplectic structure;
+
+* $GL(2, \mathbb{C}) GL(n, \mathbb{C}) \hookrightarrow GL(2n, \mathbb{C}), n \geq 3$,  determines an almost quaternionic structure;
+
+* more generally a $GL(m, \mathbb{C}) GL(n, \mathbb{C})$-structure on a $m n$-dimensional manifold is locally identical to a Grassmannian spinor structure.
+
 ### Higher geometric examples
 
-See the list at [[tiwsted differential c-structure]].
+See the list at [[twisted differential c-structure]].
 
 ## Further issues
 
@@ -523,6 +535,17 @@ Discussion of $G$-structures in [[supergeometry]] includes
 
 * [[Dmitri Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Uwe Semmelmann]], _Killing spinors are Killing vector fields in Riemannian Supergeometry_ ([arXiv:dg-ga/9704002](http://arxiv.org/abs/dg-ga/9704002))
 
+### In complex geometry
+
+* Sergey Merkulov, _On group theoretic aspects of the non-linear twistor transform_, ([pdf](http://people.maths.ox.ac.uk/lmason/Tn/40/TN40-07.pdf))
+
+and his chapter A in
+
+* Yuri Manin, _Gauge Field Theory and Complex Geometry_, Springer.
+
+* Norman Wildberger, _On the complexication of the classical geometries and exceptional numbers_, ([pdf](http://web.maths.unsw.edu.au/~norman/papers/L.pdf))
+
+* Jun-Muk Hwang, _Rational curves and prolongations of G-structures_,[arXiv:1703.03160](https://arxiv.org/abs/1703.03160)
 
 ### In higher geometry
 
