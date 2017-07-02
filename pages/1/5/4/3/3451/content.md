@@ -19,13 +19,14 @@
 
 _Monodromy_ is the name for the [[action]] of the the [[homotopy group (of an ∞-stack)|homotopy groups]] of a [[space]] $X$ on [[fibers]] of [[covering spaces]] or [[locally constant ∞-stacks]] on $X$.
 
-## Details
 
-
-### In point-set topology
+## In point-set topology
  {#InPointSetTopology}
 
+
 We discuss monodromy of [[covering spaces]] in elementary [[point-set topology]].
+
+### Definition
 
 +-- {: .num_defn #CoveringSpaceMonodromy}
 ###### Definition
@@ -139,6 +140,9 @@ This is the equality to be shown.
 
 =--
 
+
+### Properties
+
 +-- {: .num_remark}
 ###### Remark
 **([[fundamental theorem of covering spaces]])**
@@ -158,8 +162,59 @@ is known as the _[[fundamental theorem of covering spaces]]_.
 
 =--
 
++-- {: .num_example #CoveringSpaceFundamentalGroupoid}
+###### Example
+**([[fundamental groupoid]] of covering space)
 
-### In cohesive $\infty$-Groupoids
+Let $E \overset{p}{\longrightarrow} X$ be a covering space.
+
+Then the [[fundamental groupoid]] $\Pi_1(E)$ of the total space $E$ is
+[[equivalence of categories|equivalently]] the [[Grothendieck construction]]
+of the [[monodromy]] functor $Fib_E \;\colon\; \Pi_1(X) \to Set$
+
+$$
+  \Pi_1(E)
+   \;\simeq\;
+  \int_{\Pi_1(X)} Fib_E
+$$
+
+whose
+
+* [[objects]] are pairs $(x,\hat x)$ consisting of a point $x \in X$ and en element $\hat x \in Fib_E(x)$;
+
+* [[morphisms]] $[\hat \gamma] \colon (x,\hat x) \to (x', \hat x')$ are morphisms $[\gamma] \colon x \to x'$ in $\Pi_1(X)$ such that $Fib_E([\gamma])(\hat x) = \hat x'$.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By the uniqueness of the path-lifting ([this lemma](covering+space#CoveringSpacePathLifting)) and the very definition of the [[monodromy]] functor.
+
+=--
+
++-- {: .num_prop #MonodromyConnectednessOfCoveringSpace}
+###### Proposition
+
+Let $X$ be a [[path-connected topological space]] and let $E \overset{p}{\to} X$ be a [[covering space]]. Then the total space $E$ is 
+
+1. [[path-connected topological space|path-connected]] precisely if the [[monodromy]] $Fib_E$ is a [[transitive action]];
+
+1. [[simply connected topological space|simply connected]] precisely if the [[monodromy]] $Fib_E$ is [[free action]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{CoveringSpaceFundamentalGroupoid}.
+
+=--
+
+
+
+## In cohesive $\infty$-Toposes
 
 Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] and $X \in \mathbf{H}$ any object. Then the [[locally constant ∞-stacks]] on $X$ are represented by morphisms $X \to LConst Core(\infty Grpd)$. By adjunction such morphisms are equivalent to [[(∞,1)-functors]] $\Pi(X) \to Core(\infty Grpd)$  This morphism exhibits the **monodromy** of the [[locally constant ∞-stack]]. 
 
