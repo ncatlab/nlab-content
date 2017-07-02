@@ -122,17 +122,19 @@ $$
 
 ### Freyd's characterization 
 
-As an object of the category $Int$ of [[intervals]] ([[linear orders]] with distinct [[top]] and [[bottom]] elements) equipped with their [[order topology]], the topological interval $[0, 1]$ is characterized by a [[universal property]] discovered by [[Freyd]]. Let $F: Int \to Int$ be the [[functor]] defined on objects by $F(X) = X \vee X$, formed by identifying the [[top]] element of the first copy of $X$ with the [[bottom]] of the second copy of $X$, with the ordering such that the two inclusions $i_1, i_2: X \to X \vee X$ are order-preserving. 
+The topological interval $[0, 1]$ may be characterized by a [[coalgebra for an endofunctor|coalgebraic]] definition first identified by [[Freyd]]. Let $Top_{\ast, \ast}$ be the category of topological spaces $X$ equipped with a pair $x_0, x_1$ of distinct points, for example $I = ([0, 1]; 0, 1)$. Let $F: Top_{\ast, \ast} \to Top_{\ast, \ast}$ be the [[functor]] defined on objects by $F(X; x_0, x_1) = (X \vee X, y_0, y_1)$, where $X \vee X$ is the quotient of $X \sqcup X$ formed by identifying the element $x_1$ of the first copy of $X$ with $x_0$ of the second copy of $X$, where $y_0$ is identified with $x_0$ of the first copy, and $y_1$ is identified with $x_1$ of the second copy. 
+
+For $I = ([0, 1]; 0, 1)$ there is an evident identification $F(I) = ([0, 2]; 0, 2)$, and moreover there is an $F$-coalgebra structure $I \to F(I)$ given by "multiplication by $2$". 
 
 +-- {: .num_theorem} 
 ###### Theorem 
 **(Freyd)** 
 
-The topological interval $[0, 1]$ is the terminal $F$-[[terminal coalgebra of an endofunctor|coalgebra]]. 
+$I = ([0, 1], 0, 1)$ is the terminal $F$-[[terminal coalgebra of an endofunctor|coalgebra]]. 
 
 
 =-- 
 
-The coalgebra structure $[0, 1] \to [0, 1] \vee [0, 1] \cong [0, 2]$ is given by "multiplication by $2$"; loosely speaking, $[0, 1]$ is isomorphic to its [[subdivision]] in a universal way.  
+For more information, see [[coalgebra of the real interval]], which shows in particular how the interval structure of $[0, 1]$ may be defined by coinduction. 
 
 [[!redirects topological intervals]]
