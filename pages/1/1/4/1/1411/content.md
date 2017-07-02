@@ -44,8 +44,6 @@ Similarly, a __unit law__ is the statement that a given operation has an identit
 * [[equivalence]]
 
 
-[[!redirects identity]]
-[[!redirects identities]]
 [[!redirects identity element]]
 [[!redirects identity elements]]
 
