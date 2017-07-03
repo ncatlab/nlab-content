@@ -1,33 +1,27 @@
 
-**[[homotopy theory]]**
+**[[homotopy theory]], [[(∞,1)-category theory]], [[homotopy type theory]]** 
 
-* [[algebraic topology]], [[simplicial homotopy theory]], [[stable homotopy theory]]
+flavors: [[stable homotopy theory|stable]], [[equivariant homotopy theory|equivariant]], [[rational homotopy theory|rational]], [[p-adic homotopy theory|p-adic]], [[proper homotopy theory|proper]], [[geometric homotopy theory|geometric]], [[cohesive homotopy theory|cohesive]], [[directed homotopy theory|directed]]...
 
-## Introductions
+models:  [[topological homotopy theory|topological]], [[simplicial homotopy theory|simplicial]], [[localic homotopy theory|localic]], ...
 
-* [[Introduction to Homotopy Theory]]
+see also **[[algebraic topology]]**
+
+
+**Introductions**
+
+* [[Introduction to Topology -- 2|Introduction to Basic Homotopy Theory]]
+
+* [[Introduction to Homotopy Theory|Introduction to Abstract Homotopy Theory]]
 
 * [[geometry of physics -- homotopy types]]
 
-## Background
+
+**Definitions**
 
 * [[homotopy]], [[higher homotopy]]
 
 * [[homotopy type]]
-
-## Variations
-
-* [[stable homotopy theory]]
-
-* [[geometric homotopy theory]]
-
-* [[proper homotopy theory]]
-
-* [[directed homotopy theory]]
-
-## Definitions
-
-* [[homotopy]]
 
 * [[Pi-algebra]], [[spherical object and Pi(A)-algebra]]
 
@@ -37,7 +31,7 @@
 
     * [[model category]]
 
-    * [[category of fibrant objects]]
+    * [[category of fibrant objects]], [[cofibration category]]
 
     * [[Waldhausen category]]
 
@@ -49,7 +43,7 @@
 
   * [[homotopy category of an (∞,1)-category]]
 
-## Paths and cylinders ##
+**Paths and cylinders**
 
 * [[left homotopy]]
 
@@ -71,7 +65,7 @@
 
   * [[infinitesimal interval object]]
 
-## Homotopy groups
+**Homotopy groups**
 
 * [[homotopy group]]
 
@@ -99,15 +93,28 @@
 
   * [[fundamental category]]
 
-## Theorems
+**Basic facts**
 
-* [[homotopy hypothesis]]-theorem
+* [[fundamental group of the circle is the integers]]
 
-* [[Hurewicz theorem]]
+**Theorems**
+
+* [[fundamental theorem of covering spaces]]
+
+* [[Freudenthal suspension theorem]]
+
+* [[Blakers-Massey theorem]]
 
 * [[higher homotopy van Kampen theorem]]
 
+* [[nerve theorem]]
+
+* [[Whitehead's theorem]]
+
+* [[Hurewicz theorem]]
+
 * [[Galois theory]]
 
+* [[homotopy hypothesis]]-theorem
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/homotopy+-+contents)</div>
+
