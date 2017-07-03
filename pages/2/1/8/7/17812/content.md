@@ -3160,8 +3160,6 @@ The formulation via the axioms of [[differential cohesion]] that we use here fol
 
 * {#Schreiber} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
-The concept of [[V-manifold]] in [[dfferential cohesion]] is due to 
-
 * [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations Part I -- Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
 
 * [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017 ([pdf](http://www.math.kit.edu/iag3/~wellen/media/diss.pdf))
