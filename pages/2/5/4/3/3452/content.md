@@ -1,3 +1,4 @@
+
 # Locally constant functions
 * table of contents
 {: toc}
@@ -14,10 +15,15 @@ If $X$ is a [[topological space]] and $Y$ is any [[set]], then a [[function]] $f
 
 We have $Y$ here as a set; but in fact, $Y$ may be given any [[topological structure]]; then every locally constant function $f$ will become a locally constant [[continuous map]].
 
-## Properties
+## Examples
+
++-- {: .num_example #LocallyConstantFunctionIntoDiscreteSpace}
+###### Example
+**(continuous function into [[discrete space]] is locally constant)**
 
 A function into a [[discrete topological space]] is [[continuous function|continuous]] precisely if it is locally constant.
 
+=--
 
 ## Pattern
 
