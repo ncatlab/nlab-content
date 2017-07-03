@@ -375,17 +375,17 @@ The description of sheafification in terms of [[local isomorphism]]s is in secti
 
 The description in terms of [[dense monomorphism]]s using [[Lawvere-Tierney topology]] is in section V.3 of
 
-* [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+* [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
 Extension of sheafification of presheaves with values in other categories has been advanced in
 
-* [[Alex Heller]], K. A. Rowe, _On the category of sheaves_ , Amer. J. Math. 84, 1962, 205-216.
+* [[Alex Heller]], K. A. Rowe, _On the category of sheaves_, Amer. J. Math. 84, 1962, 205-216
 
-* Barr, Grillet and Van Osdol, _Exact categories and categories of sheaves_ , Lecture Notes in Math., Vol. 236, Springer, Berlin, 1971
+* Barr, Grillet, and Van Osdol, _Exact categories and categories of sheaves_, Lecture Notes in Math., Vol. 236, Springer, Berlin, 1971
 
 * Friedrich Ulmer, _On the existence and exactness of the associated sheaf functor_, J. Pure Appl. Algebra 3, 1971, 295-306 
 
-* [[Alexander Rosenberg]], _Almost quotient categories, sheaves and localizations_ , 181 p. Seminar on supermanifolds 25, University of Stockholm, D. Leites editor, 1988 (in Russian; partial remake in English exists)
+* [[Alexander Rosenberg]], _Almost quotient categories, sheaves and localizations_, 181 p. Seminar on supermanifolds 25, University of Stockholm, D. Leites editor, 1988 (in Russian; partial remake in English exists)
 
 Discussion in [[homotopy type theory]] is in
 
