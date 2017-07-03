@@ -14,10 +14,12 @@
 * table of contents
 {:toc}
 
-## Definition
+
+
+## In point-set topology
  {#Definition}
 
-The following is the elementary discussion of universal covering spaces in [[point-set topology]].
+The following is the classical discussion of universal covering spaces in [[point-set topology]].
 
 +-- {: .num_prop #SimplyConnectedCoveringUniqueness}
 ###### Proposition
@@ -47,9 +49,7 @@ $$
     \\
     && X
   }
-$$
-
-$$
+  \phantom{AAAAAA}
   \array{
     E_2 && \overset{g}{\longrightarrow} && E_1
     \\
@@ -127,9 +127,13 @@ Specifically, if $X$ is a space with basepoint $x_0$, we define $X^{(1)}$ to be 
 This [[regular representation]] can be seen to arise by taking a [[category of elements]] in the same way that the regular representation of a group is gotten by taking its action on itself: we can see that the  _universal covering groupoid_ $\Pi(X)^{(1)}$ in the [[slice category]] $\mathbf{Grpd}/\Pi(X)$ (see the universal covering $\infty$-groupoid below) is just the category of elements of the action of $\Pi(X)$ on itself, and can be topologized in a natural way by lifting the topology on $X$ along the canonical projection $\Pi(X)^{(1)} \to \Pi(X)$; decategorifying this yields $X^{(1)}$.
 =--
 
-## As the homotopy fiber of $X \rightarrow \Pi_1(X)$
 
-We describe now how the universal cover construction may be understood from the [[nPOV]].  The basic idea is that the universal cover of a space $X$ is the (homotopy) fiber of the map $X\to \Pi_1(X)$ from $X$ to its fundamental groupoid.  We can think of this as a way of precisely saying "make $\Pi_1$ trivial in a universal way."  There are at least two slightly different ways of making this precise in the language of $(\infty,1)$-toposes, depending on whether we view $X$ as a [[little topos]] or as an object of a [[big topos]].
+## In cohesive homotopy theory
+ {#InCohesiveHomotopyTheory}
+
+We describe now how the universal cover construction may be understood from the [[nPOV]], using concept from [[cohesive homotopy theory]].
+
+ The basic idea is that the universal cover of a space $X$ is the (homotopy) fiber of the map $X\to \Pi_1(X)$ from $X$ to its [[fundamental groupoid]], regarded as a morphism of topological [[stacks]].  We can think of this as a way of precisely saying "make $\Pi_1$ trivial in a universal way."  There are at least two slightly different ways of making this precise in the language of $(\infty,1)$-toposes, depending on whether we view $X$ as a [[little topos]] or as an object of a [[big topos]].
 
 ### In terms of big toposes
 
@@ -190,7 +194,7 @@ $$
     \downarrow && \downarrow
     \\
     X &\to& \Pi(X)
-  }
+s  }
   \,.
 $$
 
@@ -300,8 +304,10 @@ Therefore, since $\widetilde{E}$ is trivialized over any 1-connected object, and
 
 ## Higher universal covering objects
 
-The nPOV descriptions above lend themselves easily to generalization.
+The [[nPOV]] discussion [above](#InCohesiveHomotopyTheory) lends lends itself to generalization from covering spaces to the whole [[Whitehead tower]]. See at _[[[[Whitehead tower in an (∞,1)-topos]]]]_.
 
+
+> the following is probably redundant and should be removed
 
 ### Universal covering objects in a big $(\infty,1)$-topos {#InInftTopos}
 
