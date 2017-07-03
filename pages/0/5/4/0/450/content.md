@@ -23,6 +23,9 @@
 The notion of _$n$-fold category_ is what is obtained by iterating the process of forming [[internal categories]] $n$-times, starting with sets: an $0$-fold category is just an object of the ambient category (say a [[set]]) and then inductively an $n+1$-fold category is a [[internal category]] in the category of $n$-fold categories.
 
 If the ambient category is instead an [[(∞,1)-category]] such as [[∞Grpd]], then an $n$-fold category is an _[[n-fold complete Segal space]]_, see there for more details.
++--{: .query}
+[[DamienC]]: unless I miss a point, the above sentence doesn't seem to be correct. For instance, for n=2, a 2-fold complete Segal space looks rather like a bicategory than a double category. 
+=--
 
 ## Definition
 
