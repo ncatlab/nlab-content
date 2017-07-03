@@ -53,7 +53,10 @@ $$
 
 ## Related concepts
 
-* [[ETop∞Grpd]]
+
+* [[topological infinity-groupoid]]
+
+  * [[Euclidean-topological infinity-groupoid]]
 
 ## References
 
