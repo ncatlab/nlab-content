@@ -95,6 +95,9 @@ $$ [a,b] + [b,c] = [a,c] .$$
 
 In the last few examples, each part of a partition is an [[inhabited set]].  In such cases, a __tagged partitition__ is a partition in which each part has been equipped with one of its elements.
 
+## References
+
+* [[Garrett Birkhoff]], _Lattice Theory_, AMS, third edition, 1973.
 
 [[!redirects partition]]
 [[!redirects partitions]]
