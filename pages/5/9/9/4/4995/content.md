@@ -1377,8 +1377,8 @@ Expositions and discussion of the formalization of cohesion in [[homotopy type t
 
 The corresponding [[Coq]]-code is in 
 
-* [[Mike Shulman]], _[HoTT/Coq/Subcategories](https://github.com/mikeshulman/HoTT/tree/master/Coq/Subcategories)_
-  {#Shulman}
+* {#Shulman} [[Mike Shulman]], _[HoTT/Coq/Subcategories](https://github.com/mikeshulman/HoTT/tree/master/Coq/Subcategories)_
+  
 
 Exposition is at
 
