@@ -401,8 +401,11 @@ By prop. \ref{OverCohesiveSiteBecomingIsResolved} we have that $(\flat\dashv \sh
 
 +-- {: .num_remark #OnDoubleNegation}
 ###### Remark
-As mentioned above, the Aufhebung of $\emptyset\dashv \ast$ is necessarily given by a _dense_ subtopos $\mathcal{E}_j$. Since $\neg\neg$ is the unique largest dense topology (cf.
-[[double negation topology]] or the references cited there) it follows in general that $\mathcal{E}_{\neg\neg}\subseteq\mathcal{E}_j$ , in particular in the case that $\mathcal{E}_{\neg\neg}$ happens to be [[essential geometric morphism|essential]] and hence happens to be a [[level of a topos|level]], the minimality condition on Aufhebung means that $\mathcal{E}_{\neg\neg}=\mathcal{E}_j$.
+
+As mentioned above, the Aufhebung of $\emptyset\dashv \ast$ is necessarily given by a _[[dense subtopos|dense]]_ subtopos $\mathcal{E}_j$. Since the [[double negation topology]] $\neg\neg$ is the unique largest dense topology  it follows in general that $\mathcal{E}_{\neg\neg}\subseteq\mathcal{E}_j$ , in particular in the case that $\mathcal{E}_{\neg\neg}$ happens to be [[essential geometric morphism|essential]] and hence happens to be a [[level of a topos|level]], the minimality condition on the Aufhebung of the initial opposition means that $\mathcal{E}_j = \mathcal{E}_{\neg\neg}$ is, in particular, a [[Boolean topos]].
+
+=--
+
 
 A special case of this are toposes $\mathcal{E}$ such that $\mathcal{E}_{\neg\neg}$ is [[open subtopos|open]] whence essential in particular; these are called $\bot$-scattered toposes. For the record we state:
 
@@ -412,7 +415,6 @@ Let $\mathcal{E}$ be a $\bot$-[[scattered topos]]. The Aufhebung of $\emptyset\d
 Another consequence is that the Aufhebung $\mathcal{E}_j$ of $\emptyset\dashv\ast$ is [[Boolean topos|Boolean]] precisely when $\mathcal{E}_{\neg\neg}$ is essential e.g. for Boolean $\mathcal{E}$ this happens trivially and accordingly the Aufhebung of $\emptyset\dashv \ast$ is $\mathcal{E}$ in this case. 
 
 It also follows from the [above proposition](#OverCohesiveSiteBecomingIsAufgehoben) that for [[cohesive sites]] over [[Set]]: $\mathbf{H}_{\neg\neg}=Set$ i.e. the double negation topos coincides  with the base.
-=--
 
 
 +-- {: .num_example}
