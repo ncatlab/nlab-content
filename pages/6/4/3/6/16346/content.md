@@ -933,7 +933,7 @@ $$
 ### **2)** General Cartan geometry
  {#GStructureAndCartanGeometry}
 
-Given a [[topos]] of [[differential cohesion]] $\mathbf{H}$ as in corollary \ref{SystemOfModalities} above (hence an [[elastic]] [[substance]]), then on general abstract grounds there is -- and that's the point of this axiomatic formulation -- a good concept and theory of _$V$-[[manifolds]]_ and  _[[G-structures]]_ on these. Applied to the case of [[supergeometry]] as established in prop. \ref{CoReflectionsOfToposes} this hence yields a theory of $G$-structures on $V$-manifolds in supergeometry, and hence of [[Cartan geometry]] modeled on the inclusion $G \to G \rtimes V$. Here we recall the elements of [[abstract general]] [[Cartan geometry]] formulated axiomatically this way. Below in _[Super Cartan geometry](#SuperCartanGeometry)_ we then specify to the [[concrete particular]] super Cartan 
+Given a [[topos]] of [[differential cohesion]] $\mathbf{H}$ as in corollary \ref{SystemOfModalities} above (hence an [[elastic]] [[substance]]), then on general abstract grounds there is -- and that's the point of this axiomatic formulation -- a good concept and theory of _[[V-manifolds]]_ and  _[[G-structures]]_ on these. Applied to the case of [[supergeometry]] as established in prop. \ref{CoReflectionsOfToposes} this hence yields a theory of $G$-structures on [[V-manifold]] in supergeometry, and hence of [[Cartan geometry]] modeled on the inclusion $G \to G \rtimes V$. Here we recall the elements of [[abstract general]] [[Cartan geometry]] formulated axiomatically this way. Below in _[Super Cartan geometry](#SuperCartanGeometry)_ we then specify to the [[concrete particular]] super Cartan 
 geometry.
 
 1. _[V-Manifolds](#Manifolds)_
@@ -998,7 +998,7 @@ Let now $V \in \mathbf{H}$ be given, equipped with the structure of a [[group]] 
 +-- {: .num_defn #VManifold}
 ###### Definition
 
-A _$V$-[[manifold]]_ is an $X \in \mathbf{H}$ such that there exists a _$V$-[[atlas]]_, namely a [[correspondence]] of the form
+A _[[V-manifold]]_ is an $X \in \mathbf{H}$ such that there exists a _$V$-[[atlas]]_, namely a [[correspondence]] of the form
 
 $$
   \array{
