@@ -16,7 +16,7 @@
 
 ## Definition
 
-A [[topological space]] is called **locally path-connected** if it has a [[basis of the topology|basis]] of [[path-connected space|path-connected]] [[neighbourhoods]]. In other words, if for every point $x$ and [[neighbourhood]] $V \ni x$, there exists a path-connected neighbourhood $U \subset V$ that contains $x$.
+A [[topological space]] is called **locally path-connected** if it has a [[basis of the topology|basis]] of [[path-connected space|path-connected]] [[neighbourhoods]]. In other words, if for every point $x$ and [[neighbourhood]] $V \ni x$, there exists a path-connected neighbourhood $U \subsubset V$ that contains $x$.
 
 
 
@@ -64,21 +64,54 @@ $U$ is connected. Hence we have a [[proof by contradiction]].
 
 ## Examples
 
-+-- {: .num_example}
++-- {: .num_example #LocallyPathConnectedEuclideanSpace}
 ###### Examples
 **([[Euclidean space]] is locally path-connected)**
 
 For $n \in \mathbb{N}$ then [[Euclidean space]] $\mathbb{R}^n$ (with its [[metric topology]]) is locally path-connected, since each [[open ball]] is [[path-connected topological space]].
 
+Similarly the [[open intevals]], [[closed intervals]] and [[half-open intervals]], regarded as [[topological subspaces]] of the [[Euclidean space|Euclidean]] [[real line]], are locally path connected.
+
 =--
 
 +-- {: .num_example}
 ###### Example
+**(open subspace of locally path-connected space is locally path connected)**
 
 
 Every [[open subset|open]] [[subspace]] of a locally path connected topological space is itself locally path connected.
 
 =--
+
++-- {: .num_example #LocallyPathConnectedCircle}
+###### Example
+**([[circle]] is locally path-connected)**
+
+The [[Euclidean space|Euclidean]] [[circle]] 
+
+$$
+  S^1 = \left\{ x \in \mathbb{R}^2 \;\vert\;  {\Vert x\Vert} = 1\right\}
+  \subset \mathbb{R}^2
+$$
+
+is locally path connected.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of the [[subspace topology]] and the defining [[topological base]] of the [[Euclidean plane]], a [[base for a topology|base for the topology]] of $S^1$ is given by the [[images]] of [[open intervals]] under the [[local homeomorphism]]
+
+$$
+  (cos(-), sin(-)) \;\colon\; \mathbb{R}^1 \to S^1
+  \,.
+$$
+
+But these open intervals are locally path connected by example \ref{LocallyPathConnectedEuclideanSpace}, and in fact they are, evidently [[path-connected topological space]].
+
+=--
+
 
 ## Related concepts
 
