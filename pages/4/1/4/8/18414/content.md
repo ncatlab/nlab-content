@@ -95,7 +95,7 @@ There is also a proof in [[homotopy type theory]] ([UF, corollary 8.1.10](#UF)).
 
 ### In topological homotopy theory
 
-Lecture notes include
+Lecture notes on the classical discussion include
 
 * {#Waldhausen} [[Friedhelm Waldhausen]], p. 63-77 of  _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
@@ -105,8 +105,10 @@ Lecture notes include
 ### In homotopy type theory
 
 The proof in [[homotopy type theory]] is discussed in
+
+* [[Daniel Licata]], [[Michael Shulman]], _Calculating the Fundamental Group of the Circle in Homotopy Type Theory_,  ([arXiv:1301.3443](https://arxiv.org/abs/1301.3443))
  
-* {#UF} [[UF-IAS-2012|Univalent Foundations Project]], section 8.1 of _Homotopy Type Theory -- Univalent Foundations of Mathematics_
+* {#UF} [[UF-IAS-2012|Univalent Foundations Project]], section 8.1 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 the HoTT-[[Coq]]-code is at
 
