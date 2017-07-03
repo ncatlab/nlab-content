@@ -165,12 +165,12 @@ $X$ is compact iff it is a [[compact object]] in $Op(X)$.
 
 =--
 
-Compactness is equivalent to the condition of being "stably closed" (and it is this condition which suggests the correct notion of [[proper map]] in [[algebraic geometry]] and elsewhere):
-
-Closely related to [[closed-projection characterization of compactness]], a [[logic]]al characterisation of compactness is used in [[Abstract Stone Duality]]:
-
 +-- {: .num_defn #quantification}
 ###### Definition
+
+Compactness is equivalent to the condition of being [[stably closed]]. It is this condition which suggests the correct notion of [[proper map]] in [[algebraic geometry]] and elsewhere:
+
+Closely related to [[closed-projection characterization of compactness]], a [[logic]]al characterisation of compactness is used in [[Abstract Stone Duality]]:
 
 $X$ is compact iff for any space $Y$ and any open subset $U$ of $X \times Y$, the subset
 $$ \forall_X U = \{ b : Y \;|\; \forall\; a: X,\; (a, b) \in U \} $$
