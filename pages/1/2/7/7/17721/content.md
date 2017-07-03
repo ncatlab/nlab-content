@@ -45,7 +45,7 @@ The consistency of the framework used for the elimination (e.g. in the [[theorem
 
 ## Higher inductive inductive types ##
 
-Experiments with higher inductive inductive types are sections 11.3 "Cauchy reals" and section 11.6 "Conway surreals"  of the [HoTT book](#HoTTBook).
+Experiments with higher inductive inductive types are sections 11.3 "Cauchy reals" and section 11.6 "Conway surreals"  of the [HoTT book](#HoTTBook). As they are at the set level, these are instances of quotient inductive-inductive types; see [QIIT](#QIIT).
 
 ## References ##
 
@@ -60,6 +60,7 @@ Swansea University, 2013.  [PDF](http://cs.swan.ac.uk/~csfnf/thesis/thesis.pdf)
 
 * {#HoTTBook} [[Univalent Foundations Project]], section 11 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
 
+* {#QIIT}  Thorsten Altenkirch, Paolo Capriotti, Gabe Dijkstra, Fredrik Nordvall Forsberg, _Quotient inductive-inductive types_, [arXiv](https://arxiv.org/abs/1612.02346), 2016
 
 Parts of the above text are taken from 
 
