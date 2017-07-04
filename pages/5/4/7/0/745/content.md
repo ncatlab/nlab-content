@@ -85,7 +85,7 @@ The definition of $(f/g)$ is now complete. But there are two functors defined on
 
 * there is a functor $H_D\colon (f/g)\rightarrow D$ which sends each object $(c,d,\alpha)$ to $d$, and each pair $(\beta,\gamma)$ to $\gamma$.
 
-While these are _intuitively_ the simplest ways one can think of to obtain a functor from the comma category to the source categories of the defining cospan, there is also a _categorical_ justification for singling out $H_C$ and $H_D$: these functors are the two projection morphisms of an associated 2-categorical pullback. See the next section for more. 
+While these are _intuitively_ the simplest ways one can think of to obtain a functor from the comma category to the source categories of the defining cospan, there is also a _categorical_ justification for singling out $H_C$ and $H_D$: these functors are the two projection morphisms of an associated 2-categorical pullback. See [this section](#AsA2Limit) for more. 
 
 
 
@@ -110,9 +110,9 @@ $$
   }
 $$
 
-(in the 1-category [[Cat]] of categories).
+in the standard sense of pullback of morphisms in the 1-category [[Cat]] of categories.
 
-Compare this with the construction of [[homotopy pullback]] ([here](homotopy+pullback#HomotopyPullbackByFactorizationLemma)), hence wth the definition of [[loop space object]] and also with [[generalized universal bundle]].
+Compare this with the construction of [[homotopy pullback]] ([here](homotopy+pullback#HomotopyPullbackByFactorizationLemma)), hence with the definition of [[loop space object]] and also with [[generalized universal bundle]].
 
 ### Via 2-category theory: as a 2-limit
  {#AsA2Limit}
@@ -137,11 +137,11 @@ In particular, the comma category is the [[universal cone]] that commutes up to 
 
 $$
   \array{
-    (f/g) &\overset{H_C}{\to}& C
+    & (f/g) &\overset{H_C}{\to}& C
     \\
-    \downarrow &\swArrow& \downarrow^f
+    H_D & \downarrow &\swArrow& \downarrow^f
     \\
-    D &\stackrel{g}{\to}& E
+    & D &\stackrel{g}{\to}& E
   }
 $$
 
