@@ -1252,6 +1252,53 @@ $$
 
 ## Properties
 
+### Homotopy invariance
+
++-- {: .num_prop #KGroupsHomotopyInvariance}
+###### Proposition
+**([[homotopy invariance]] of K-groups)
+
+Let $X$ and $Y$ be [[paracompact Hausdorff spaces]], and let 
+
+$$
+  f \;\colonn\; X \longrightarrow Y
+$$
+
+be a [[continuous function]] which is a [[homotopy equivalence]].
+Then the pullback operation on (reduced) K-groups along $f$ (remark \ref{FunctorialityOfKGroup}, remark \ref{FunctorialityOfReducedKGroups}) is an 
+[[isomorphism]]:
+
+$$
+  f^\ast
+  \;\colon\;
+  K(Y) 
+    \overset{\simeq}{\longrightarrow}
+  K(X)
+$$
+
+and
+
+$$
+  f^\ast
+  \;\colon\;
+  \tilde K(Y)
+    \overset{\simeq}{\longrightarrow}
+  \tilde K(X)
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is an immediate consequence of the fact that over paraompact Hausdorff spaces
+isomorphism classes of topological vector bundles are homotopy invariant ([this example.](topological+vector+bundle#HomotopyInvarianceOfIsomorphismClassesOfVectorBundles))
+
+=--
+
+
 ### Exact sequences
  {#ExactSequences}
 
@@ -1363,7 +1410,7 @@ $x$ is given by a [[virtual vector bundle]] of the form $E - rk(E)$
 (prop. \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}, prop. \ref{KGrupDirectSummandReducedKGroup}).
 and by prop. \ref{ReducedKEquivalenceRelationVerified} the triviality of this
 class means that there is $n \in \mathbb{N}$ such that  $E \oplus_A (A \times \mathbb{C}^n)$
-is a [[trivializable vector bundle]]. With this, prop. ... gives that $E \oplus_A (A \times \mathbb{C}^n)$
+is a [[trivializable vector bundle]]. Therefore [this prop.](topological+vector+bundle#IsomorphismOfVectorBundlesOnClosedSubsetOfCompactHausdorffSpaceExtendsToOpenNeighbourhoods) gives that $E \oplus_A (A \times \mathbb{C}^n)$
 is isomorphic to the [[pullback bundle]] of a vector bundle $E'$ on $X/A$. This proves the claim.
 
 =--
@@ -1371,7 +1418,7 @@ is isomorphic to the [[pullback bundle]] of a vector bundle $E'$ on $X/A$. This 
 
 +-- {: .num_cor #LongExactSequenceInReducedTopologicalKTheory}
 ###### Corollary
-**(long exact sequence in reduced topological K-theory)**
+**([[long exact sequence]] in [[reduced K-theory|reduced topological K-theory]])**
 
 For $X$ a [[compact Hausdorff space]] and for $A \subset X$ a [[closed subset|closed]] [[subspace]] inclusion,
 there is a [[long exact sequence]] of [[reduced K-theory]] groups of the form
@@ -1416,16 +1463,38 @@ $$
   \cdots
 $$
 
-obtained by consecutively forming [[mapping cones]]. Since a [[cone]] is a [[contractible topological space]]
-and since vector bundles over the [[quotient space]] by a contractible space are equivalent to
-bundles over the original space [this prop.](topological+vector+bundle#VectorBundlesOverQuotientByContractibleSubspaceAreEquivalentToVectorBundlesOnTotalSpace)
-and since quotienting out the cone in a mapping cone is equivalent toquotienting out its base, we get
+obtained by consecutively forming [[mapping cones]]. 
+By the discussion at _[[topological cofiber sequence]]_ this may be rearranged as
 
 $$
-  Vect(X \cup Cone(A)) \simeq Vect(X / A)
+  \array{
+    A
+      &\overset{i}{\longrightarrow}&
+    X
+      &\overset{j}{\longrightarrow}&
+    Cone(i)
+      &\longrightarrow&
+    Cone(j)
+    \\
+    && && 
+    \downarrow {\mathrlap{\text{homotopy} \atop \text{equivalence}}}
+    &&
+    \downarrow^{\mathrlap{\text{homotopy} \atop \text{equivalence}}}
+    \\
+    && && 
+    X/A
+    &&
+    S A
+      &\overset{S i}{\longrightarrow}&
+    S X
+      &\longrightarrow& \cdots
+  }
 $$
 
-etc. This yields the claim.
+([this prop.](topological+cofiber+sequence#HomotopyEquivalenceSuspensionWithMappingConeOfMappingCone)
+and [this](topological+cofiber+sequence)).
+
+The claim hence follows by the [[homotopy invariance]] of the K-groups (prop. \ref{KGroupsHomotopyInvariance}).
 
 =--
 
