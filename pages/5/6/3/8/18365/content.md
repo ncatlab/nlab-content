@@ -460,7 +460,7 @@ $$
   \ast \longrightarrow Cone(X)
 $$
 
-are [[homotopy equivalences]]. Hence 
+are [[homotopy equivalences]]. Hence
 every [[cone]] is a [contractible topological space]] (example \ref{ContractibleTopologicalSpace}).
 
 =--
@@ -543,13 +543,13 @@ Since $X \to Cone(X)$ is a [[closed Hurewicz cofibration]] , the [[pasting law]]
 **([[suspension]])
 
 For $X$ a [[topological space]], then the [[mapping cone]] (def. \ref{MappingConeCylinder})
-of the unique function $X \to \ast$ to the [[point space]] is 
+of the unique function $X \to \ast$ to the [[point space]] is
 
 $$
-  S X 
+  S X
     \coloneqq
   Cone(X \to \ast)
-   \simeq  
+   \simeq
   Cone(X) \underset{X}{\sqcup} Cone(X)
   \,.
 $$
@@ -573,7 +573,7 @@ $$
   Cone(f) \longrightarrow Y/f(X)
 $$
 
-from its [[mapping cone]] (def. \ref{MappingConeCylinde}) to the naive [[quotient space]] (example \ref{QuotientBySubspace})  is a [[homotopy equivalence]].
+from its [[mapping cone]] (def. \ref{MappingConeCylinder}) to the naive [[quotient space]] (example \ref{QuotientBySubspace})  is a [[homotopy equivalence]].
 
 
 =--
@@ -707,10 +707,10 @@ Hence from every $f \colon X \to Y$ with closed image, we get long sequences
 
 $$
   \array{
-    X 
+    X
       &\overset{f}{\longrightarrow}&
     Y
-      &\overset{f}{\longrightarrow}&
+      &\overset{g}{\longrightarrow}&
     Cone(f)
       &\longrightarrow&
     Cone(g)
@@ -718,10 +718,10 @@ $$
     && && &&
     \downarrow^{\mathrlap{\text{homotopy} \atop \text{equivalence}}}
     \\
-    && && && 
-    S X 
+    && && &&
+    S X
       &\overset{S f}{\longrightarrow}&
-    S Y 
+    S Y
       &\longrightarrow& \cdots
   }
 $$
