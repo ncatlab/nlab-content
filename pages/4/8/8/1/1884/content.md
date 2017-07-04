@@ -838,8 +838,9 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #ReducedKEquivalenceRelationVerified}
 ###### Proposition
+
 
 For $X$ a [[compact Hausdorff space]] then the commutative [[monoid]] $(Vect(X)_{/\sim_{red}}, +)$
 from def. \ref{EquivalenceRelationForReducedKTheory} is already an [[abelian group]] and is
@@ -1264,7 +1265,7 @@ Let
 
 * $X$ be a [[pointed topological space|pointed]] [[compact Hausdorff space]];
 
-* $A \subset X$ a [[pointed topological space]] [[closed subset|closed]] [[subspace]]
+* $A \subset X$ a [[pointed topological space|pointed]] [[closed subset|closed]] [[subspace]]
 
 Write $X/A$ for the corresponding [[quotient space]] ([this def.](quotient+space#QuotientBySubspace)).
 Denote the [[continuous functions]] of [[subspace]] inclusion and of  [[quotient space]] co-projection  by
@@ -1275,10 +1276,11 @@ $$
   X
     \overset{q}{\longrightarrow}
   X/A
-  \,.
+  \,,
 $$
 
-Then the induced sequence of [[reduced K-theory]] groups (by functoriality, remark \ref{FunctorialityOfReducedKGroups})
+respectively.
+Then the induced sequence of [[reduced K-theory]] groups (def. \ref{KernelReducedKGroup}, remark \ref{FunctorialityOfReducedKGroups})
 
 $$
   \tilde K_{\mathbb{C}}(X/A)
@@ -1309,6 +1311,62 @@ $$
 =--
 
 (e.g. [Wirthmuller 12, p. 32 (34 of 67)](Wirthmuller12), [Hatcher, prop. 2.9](#Hatcher))
+
++-- {: .proof}
+###### Proof
+
+First observe that both statements are equivalent to each other: By
+[[natural transformation|naturality]] of the construction of [[kernels]] the following
+[[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    \tilde K_{\mathbb{C}}(X/A)
+      &\overset{q^\ast}{\longrightarrow}&
+    \tilde K_{\mathbb{C}}(X)
+      &\overset{i^\ast}{\longrightarrow}&
+    \tilde K_{\mathbb{C}}(A)
+    \\
+    {}^{\mathllap{id}}\downarrow && \downarrow && \downarrow
+    \\
+    \tilde K_{\mathbb{C}}(X/A)
+      &\overset{q^\ast}{\longrightarrow}&
+    K_{\mathbb{C}}(X)
+      &\overset{i^\ast}{\longrightarrow}&
+    K_{\mathbb{C}}(A)
+    \\
+    &&
+    \downarrow && \downarrow
+    \\
+    && K_{\mathbb{C}}(\ast) &\underset{id}{\longrightarrow}& K_{\mathbb{C}}(\ast)
+  }
+  \,.
+$$
+
+Here the top vertical morphisms, the [[kernel]] inclusions, are [[monomorphisms]], and 
+hence the top horizonal row is exact precisely if the middle horizontal row is.
+
+Hence it is sufficient to conider the top row. First of all
+the composite function $A \overset{i}{\to} X \overset{q}{\to} X/A$ is a [[constant function]],
+constant on the basepoint,
+and hence $i^\ast \circ q^\ast$ is a constant function, constant on zero. This says that
+we have an inclusion
+
+$$
+  im(q^\ast) \subset ker(i^\ast)
+  \,.
+$$
+
+Hence it only remains to see for $x \in \tilde K(X)$ a class with $i^\ast(x) = 0$
+that $x = q^\ast(y)$ comes from a class on the quotient &X/A&. But by compactness, the class
+$x$ is given by a [[virtual vector bundle]] of the form $E - rk(E)$
+(prop. \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}, prop. \ref{KGrupDirectSummandReducedKGroup}).
+and by prop. \ref{ReducedKEquivalenceRelationVerified} the triviality of this
+class means that there is $n \in \mathbb{N}$ such that  $E \oplus_A (A \times \mathbb{C}^n)$
+is a [[trivializable vector bundle]]. With this, prop. ... gives that $E \oplus_A (A \times \mathbb{C}^n)$
+is isomorphic to the [[pullback bundle]] of a vector bundle $E'$ on $X/A$. This proves the claim.
+
+=--
 
 
 +-- {: .num_cor #LongExactSequenceInReducedTopologicalKTheory}
