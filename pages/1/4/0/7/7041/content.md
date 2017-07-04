@@ -117,7 +117,39 @@ $$
   \,.
 $$
 
-This clearly tends to zero as $r \to 1$. The form of the higher derivatives is the same but with higher inverse powers of $(r^2 -1)$ and so this conclusion remains the same for all derivatives. Hence $\phi$ is smooth.
+This clearly tends to zero as $r \to 1$. A quick way to see this is to consider the inverse function and expand the [[exponential]] to see that this tends to $\infty$ as $r \to 1$:
+
+$$
+  \frac{
+    \left( 1- r^2  \right)^2
+  }
+  {
+    2 r
+  }
+  \exp\left(
+     \frac
+       {1}
+       {
+         1- r^2 
+       }
+    \right)
+  = 
+  \sum_{n = 0}^\infty 
+    \frac{1}{n!}
+  \frac{
+    \left( 1- r^2  \right)^2
+  }
+  {
+    2 r
+  }
+   \frac{1}
+     {
+       (1- r^2)^n
+     }
+$$
+
+
+The form of the higher derivatives is similar but with higher inverse powers of $(r^2 -1)$ and so this conclusion remains the same for all derivatives. Hence $\phi$ is smooth.
 
 Now for arbitrary radii $\varepsilon \gt 0$ define 
 
