@@ -20,18 +20,18 @@
 
 ## Idea ##
 
-The _comma category_ of two [[functors]] $f : C \to E$ and $g : D \to E$ is a [[category]] like an [[arrow category]] of $E$ where all arrows have their [[source]] in the image of $f$ and their [[target]] in the image of $g$ (and the morphisms between arrows keep track of how these sources and targets are in these images). It is a kind of [[2-pullback]]: a [[directed homotopy theory|directed]] refinement of the [[homotopy pullback]] of two functors between [[groupoids]].
+The _comma category_ of two [[functors]] $f : C \to E$ and $g : D \to E$ is a [[category]] like an [[arrow category]] of $E$ where all arrows have their [[source]] in the image of $f$ and their [[target]] in the image of $g$ (and the morphisms between arrows keep track of how these sources and targets are in these images). It can also be seen a kind of [[2-limit]]: a [[directed homotopy theory|directed]] refinement of the [[homotopy pullback]] of two functors between [[groupoids]].
 
 
 ## Definition
 
 We discuss three equivalent definitions of comma categories
 
-1. [Explicitly in components](#InComponents)
+* [Explicitly in components](#InComponents)
 
-1. [As a fiber product](#AsAFiberProduct)
+* [As a fiber product](#AsAFiberProduct)
 
-1. [As a 2-pullback](#AsA2Pullback)
+* [As a 2-limit](#AsA2Limit)
 
 +-- {: .num_remark}
 ###### Remark
@@ -89,7 +89,7 @@ While these are _intuitively_ the simplest ways one can think of to obtain a fun
 
 
 
-### Via a pullback in the 1-category Cat: as a fiber product
+### Via fiber products in the 1-category Cat
  {#AsAFiberProduct}
 
 Let $I = \{a \to b\}$ be the (directed) [[interval category]] and $E^I = Funct(I,E)$ the [[functor category]]. 
@@ -102,7 +102,7 @@ $$
     &\to&
     E^I
     \\
-    \downarrow && \downarrow^{\mathrlap{(F\mapsto F(a))\times(F\mapsto F(b))}}
+    \downarrow & (pb) & \downarrow^{\mathrlap{(F\mapsto F(a))\times(F\mapsto F(b))}}
     \\
     C \times D
     &\stackrel{f \times g}{\to}&
@@ -114,8 +114,8 @@ $$
 
 Compare this with the construction of [[homotopy pullback]] ([here](homotopy+pullback#HomotopyPullbackByFactorizationLemma)), hence wth the definition of [[loop space object]] and also with [[generalized universal bundle]].
 
-### Via 2-category theory: as a 2-pullback
- {#AsA2Pullback}
+### Via 2-category theory: as a 2-limit
+ {#AsA2Limit}
 
 Equivalently, the comma category is the [[comma object]] of the cospan $C\overset{f}{\rightarrow}E\overset{g}{\leftarrow}D$. 
 
