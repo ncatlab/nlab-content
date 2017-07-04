@@ -189,7 +189,7 @@ Work towards dependent W-types in HoTT is here; see also [[inductive families]].
 
 A formal proof about the [[h-level]] of W-types is discussed in
 
-* Nils Anders Danielsson, _Positive h-levels are closed under W_
+* Nils Anders Danielsson, _Positive h-levels are closed under W_ ([web](https://homotopytypetheory.org/2012/09/21/positive-h-levels-are-closed-under-w/))
  {#Danielsson}
 
 Discussion of W-types in [[homotopy type theory]], or rather in [[model categories]] presenting [[homotopy theories]], is in 
