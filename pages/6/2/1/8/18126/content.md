@@ -9457,7 +9457,7 @@ $$
   Y
 $$
 
-with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]], we have that $X \to f(X)$
+with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]] (example \ref{SubspaceTopology}), we have that $X \to f(X)$
 is a [[homeomorphism]] (def. \ref{Homeomorphism}).
 
 =--
@@ -9486,6 +9486,11 @@ If $f$ is injective, then the map onto its [[image]] $X \to f(X) \subset Y$ is a
 
 =--
 
+The following characterization of closed embeddings uses concepts
+of (locally) compact spaces discussed [below](#CompactSpaces). The reader may wish to 
+skip the following and only compact back to it in the discussion of
+[[embeddings of smooth manifolds]] [further bellow](#Embeddings) in prop. \ref{ProperInjectiveImmersionsAreEquivalentlyTheClosedEmbeddings}.
+
 +-- {: .num_prop #InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings}
 ###### Proposition
 **([[injective proper maps to locally compact spaces are equivalently the closed embeddings]])**
@@ -9494,15 +9499,15 @@ Let
 
 1. $X$ be a [[topological space]],
 
-1. $Y$ a [[locally compact topological space]],
+1. $Y$ a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}),
 
 1. $f \colon X \to Y$ a [[continuous function]].
 
 Then the following are equivalent:
 
-1. $f$ is an [[injective function|injective]] [[proper map]],
+1. $f$ is an [[injective function|injective]] [[proper map]] (prop. \ref{ProperContinuous}),
 
-1. $f$ is a closed [[embedding of topological spaces]].
+1. $f$ is a closed [[embedding of topological spaces]] (def \ref{EmbeddingOfTopologicalSpaces}).
 
 =--
 
@@ -17459,11 +17464,12 @@ is...
 ###### Definition
 **([[embedding of smooth manifolds]])**
 
-An _[[embedding]] of [[smooth manifolds]]_ is a [[smooth function]] $f : X \hookrightarrow Y$ between [[smooth manifolds]] $X$ and $Y$ such that
+An _[[embedding]] of [[smooth manifolds]]_ is a [[smooth function]] $f : X \hookrightarrow Y$ 
+between [[smooth manifolds]] $X$ and $Y$ (def. \ref{DifferentiableManifold}) such that
 
-1. $f$ is an [[immersion of smooth manifolds|immersion]] (def. \ref{Immersion});
+1. the underlying [[continuous function]] is an [[embedding of topological spaces]] (def. \ref{EmbeddingOfTopologicalSpaces});
 
-1. the underlying [[continuous function]] is an [[embedding of topological spaces]] (def. \ref{EmbeddingOfTopologicalSpaces}).
+1. $f$ is an [[immersion of smooth manifolds|immersion]] (def. \ref{Immersion}).
 
 A _closed embedding_ is an embedding such that the image $f(X) \subset Y$ is a [[closed subset]].
 
@@ -17485,7 +17491,21 @@ at the points where it just touches itself, the pre-images under $f$ of open sub
 <img src="https://ncatlab.org/nlab/files/Figure8Immersion.png" width="400">
 </div>
 
-As a concrete examples, consider the function  $(sin(2-), sin(-)) \;\colon\; (-\pi, \pi) \longrightarrow \mathbb{R}^2$. While this is an immersion and [[injective]], it fails to be an embedding due to the points at $t = \pm \pi$ "touching" the point at $t = 0$.
+As a concrete examples, consider the function  
+
+$$
+  \phi  
+   \coloneqq
+  (sin(2-), sin(-)) \;\colon\; (-\pi, \pi) \longrightarrow \mathbb{R}^2
+  \,.
+$$
+
+While this is an immersion and [[injective]], it fails to be an embedding due to the points at $t = \pm \pi$ "touching" the point at $t = 0$:
+
+Every open neighbourhood in  $\mathbb{R}^2$ which contains the origin $(0,0)$ also contains the image
+$\phi( (-\pi , -\pi + \epsilon) \sqcup (\pi-\epsilon, \pi) )$ for some $\epsilon$ and hence in the 
+subspace topology on $(-\pi,\pi) \hookrightarrow \athbb{R}^2$ none of the intervals $(-\delta, \delta) \subset (-\pi,\pi)$
+is open, contrary to the actual Euclidean topolgy on $(-\pi,\pi)$.
 
 > graphics grabbed from <a href="https://books.google.de/books?id=xygVcKGPsNwC&lpg=PP1&pg=PA86&redir_esc=y#v=onepage&q&f=false">Lee</a>
 
@@ -17499,7 +17519,7 @@ Let $X$ and $Y$ be [[smooth manifolds]] (def. \ref{DifferentiableManifold}), and
 
 1. $f$ is a [[proper map|proper]] [[injective function|injective]]  [[immersion]] (def. \ref{ProperContinuous}, def. \ref{Immersion});
 
-1. $f$ is a closed embedding (def. \ref{SmoothManifoldsEmbedding}).
+1. $f$ is a closed [[embedding of smooth manifolds]] (def. \ref{SmoothManifoldsEmbedding}).
 
 =--
 
@@ -17511,7 +17531,7 @@ this follows directly since [[injective proper maps to locally compact spaces ar
 
 =--
 
-We now turn to the construction of embedding of smooth manifolds into Euclidean spaces
+We now turn to the construction of [[embeddings of smooth manifolds]] into [[Euclidean spaces]]
 (prop. \ref{CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace} and remark \ref{EmbeddingWhitney} below).
 To that end we need to consider _smooth_ partitions of unity, which we discuss now (prop. \ref{SmoothManifoldAdmitsSmoothPartitionsOfUnity} below).
 
@@ -17534,7 +17554,7 @@ $$
 
 such that
 
-1. $b$ is [[smooth function|smooth]];
+1. $b$ is [[smooth function|smooth]] (def. \ref{DifferentiableFunctionBetweenCartesianSpaces});
 
 1. $b$ has [[compact support]] (def. \ref{PartitionOfUnity}).
 
@@ -17546,8 +17566,12 @@ not of interest. Here is one of many ways to obtain examples:
 
 +-- {: .num_example #SomeBumpFunctions}
 ###### Example
+**(a class of [[bump functions]])**
 
-For every [[closed ball]] $B_{x_0}(\epsilon) = \{x \in \mathbb{R}^n \,\vert\, {\Vert x - x_0 \Vert} \leq \epsilon\} \subset \mathbb{R}^n$ there exists a bump function $b \colon \mathbb{R}^n \to \mathbb{R}$ (def. \ref{BumpFunction}) with
+For every [[closed ball]] $B_{x_0}(\epsilon) = \{x \in \mathbb{R}^n \,\vert\, {\Vert x - x_0 \Vert} \leq \epsilon\} \subset \mathbb{R}^n$ 
+(def. \ref{OpenBalls})
+there exists a bump function $b \colon \mathbb{R}^n \to \mathbb{R}$ (def. \ref{BumpFunction}) with [[support]]
+$Supp(b) \coloneqq Cl\left( b^{-1}( (0,\infty) ) \right)$ being that closed ball:
 
 $$
   Supp(b) = B_x(\epsilon)
@@ -17617,7 +17641,39 @@ $$
   \,.
 $$
 
-This clearly tends to zero as $r \to 1$. The form of the higher derivatives is the same but with higher inverse powers of $(r^2 -1)$ and so this conclusion remains the same for all derivatives. Hence $\phi$ is smooth.
+This clearly tends to zero as $r \to 1$. A quick way to see this is to consider the inverse function and expand the [[exponential]] to see that this tends to $\infty$ as $r \to 1$:
+
+$$
+  \frac{
+    \left( 1- r^2  \right)^2
+  }
+  {
+    2 r
+  }
+  \exp\left(
+     \frac
+       {1}
+       {
+         1- r^2
+       }
+    \right)
+  =
+  \sum_{n = 0}^\infty
+    \frac{1}{n!}
+  \frac{
+    \left( 1- r^2  \right)^2
+  }
+  {
+    2 r
+  }
+   \frac{1}
+     {
+       (1- r^2)^n
+     }
+$$
+
+
+The form of the higher derivatives is the same but with higher inverse powers of $(r^2 -1)$ and so this conclusion remains the same for all derivatives. Hence $\phi$ is smooth.
 
 Now for arbitrary radii $\varepsilon \gt 0$ define
 
