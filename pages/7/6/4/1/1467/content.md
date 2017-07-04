@@ -26,7 +26,7 @@ One often wishes to study [[compact Hausdorff spaces]].  For locales, one usuall
 
 
 
-## Definitions 
+## Definitions/characterizations 
 
 There are many ways to say that a space $X$ is compact. The first is perhaps the most common: 
 
@@ -53,7 +53,9 @@ A _subcover_ of an open cover as above is a [[subset]] $J\subset I$ of the given
 
 A [[topological space]] is called _compact_ if every [[open cover]] has a finite subcover (def. \ref{OpenCover}).
 
-=--
+=-- 
+
+For the purposes of exposition, this definition will be taken as the baseline definition. Throughout the remainder of this section we state a number of propositions of type "A space is compact (in the sense of Definition \ref{hb}) iff it satisfies property P", which can be read as saying that property P can be taken as an alternative definition of compactness (and may in fact be considered a more convenient or preferable definition over \ref{hb}, depending on author and context). 
 
 +-- {: .num_remark #DifferingTerminology}
 ###### Remark
@@ -65,8 +67,11 @@ Some authors use "compact" to mean "compact and [[Hausdorff topological space|Ha
 
 Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even when 'compact' is not used to imply Hausdorffness).
 
-=--
+=-- 
 
+The various reformulations of compactness fall into several families. Some are more or less tautological reformulations based on direct logical or set-theoretic manipulations of the open covering definition; we give these first. Others express compactness in terms of notions of convergence (nets, filters, ultrafilters). A third family expresses compactness of a space in terms of "stable" properties of maps sourced is that space; this is perhaps the most intrinsically categorical of the three families. 
+
+### Elementary reformulations 
 
 If [[excluded middle]] is assumed, then def. \ref{hb} has the following reformulations in terms of [[closed subsets]]:
 
@@ -95,18 +100,94 @@ Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]]. Write $C_i \coloneqq X \
 
 Then statement 3 is the [[contraposition]] of the second, and contrapositives are equivalent under [[excluded middle]].
 
+=-- 
+
+The closed-subset formulations of compactness appear frequently and are often more convenient. For example, [[compactness theorems]] in [[model theory]] draw on a connection between the finite intersection property and finite satisfiability of sets of axioms. 
+
+In another direction, the definition (\ref{hb}) also works for [[locales]], since it refers only to the [[frame]] of open sets.  Here is an equivalent way to phrase it that is often convenient for locale theory. 
+
++-- {: .num_prop #directed}
+###### Proposition
+
+$X$ is compact iff given any [[direction|directed]] collection of opens whose union is $X$ (a directed open cover), $X$ belongs to the collection.
+
+=-- 
+
++-- {: .proof} 
+###### Proof 
+For the "only if" direction: if $\mathcal{U}= \{U_i\}_{i \in I}$ is a directed open cover, then by the open-cover definition of compactness, $X$ is the union of finitely many $U_i$. But by definition of directedness, any finite subfamily of $\mathcal{U}$ has an upper bound in $\mathcal{U}$; since the only upper bound of $X$ is $X$, it follows that $X$ belongs to $\mathcal{U}$. 
+
+For the "if" direction: given an open cover $\mathcal{U}$ of $X$, let $\mathcal{U}'$ be the family of open sets that are unions of finite subfamilies of $\mathcal{U}$. This $\mathcal{U}$ is clearly directed, and an open cover of $X$ since $\mathcal{U}$ is. By hypothesis, $X$ belongs to $\mathcal{U}'$, so $X$ is a union of finitely many elements of $\mathcal{U}$. This shows $X$ is compact according to Definition \ref{hb}. 
+=-- 
+
+As the union is a [[colimit]] in the [[category of open subsets]] $Op(X)$, we can also say
+
++-- {: .num_prop #object}
+###### Proposition
+
+$X$ is compact iff it is a [[compact object]] in $Op(X)$.
+
+=-- 
+
++-- {: .proof} 
+###### Proof 
+To say $X$ is a compact object means that $\hom(X, -): Op(X) \to Set$ preserves [[filtered colimits]], or colimits of filtered diagrams. Here we may as well replace $Set$ by the full subcategory consisting of $0, 1$ (a $0$-element set or a $1$-element set) since the hom-sets for posets are of size $0$ or $1$. Further, 
+in a [[poset]] like $Op(X)$, a filtered diagram is the same as a nonempty directed diagram $D$, and $\hom(X, \bigcup_{d \in D} d)$ has size $1$ iff $X = \bigcup_{d \in D} d$. On the other hand, $\bigcup_{d \in D} \hom(X, d)$ has size $1$ iff $X = d$ for some $d$ in $D$. Thus that $\hom(X, -)$ preserves filtered colimits amounts to the same thing as saying $X$ belongs to any directed open cover $D$, which is the same as compactness by Proposition \ref{directed}. 
+=-- 
+
+
+### Compactness via convergence 
+
+If the [[ultrafilter theorem]] (a weak form of the [[axiom of choice]]) is assumed, compactness may be characterized in terms of [[ultrafilter]] (or ultranet) [[convergence]]: 
+
++-- {: .num_prop #ultrafilter}
+###### Proposition
+
+$X$ is compact iff every [[ultrafilter]] $\mathcal{U}$ (or ultranet $\nu$) on $X$ [[converges|converges]] to some point $x \in X$, meaning that $\mathcal{U}$ contains the filter of [[neighborhoods]] of $x$ (or that $\nu$ is eventually in any neighbourhood of $x$).
 
 =--
+
+In any case, compactness can be characterized in terms of [[proper filter]] or equivalently (see at _[[eventuality filter]]_) of [[net]] [[convergence]] . 
+
++-- {: .num_prop #refinement}
+###### Proposition
+
+$X$ is compact iff every [[proper filter]]/[[net]] on $X$ has a [[convergence|convergent]] proper [[refinement]]/[[subnet]].
+
+=--
+
+This is equivalent to the characterization given in the [Idea-section](#Idea) above:
+ 
++-- {: .num_prop #clustering}
+###### Proposition
+
+$X$ is compact iff every proper filter $\mathcal{U}$ (or net $\nu$) on $X$ has a cluster point $x$, meaning that every element of $\mathcal{U}$ meets (has [[inhabited set|inhabited]] intersection with) every neighbourhood of $x$ (or $\nu$ is frequently in every neighbourhood of $x$).
+
+=-- 
+
+While the usual definitions (\ref{hb}&\ref{fip}) are for [[topological spaces]], the convergence definitions (\ref{ultrafilter}--\ref{clustering}) make sense in any [[convergence space]]. 
+
+
+### Compactness via stability properties 
+
+Frequently in category theory, for example when we discuss [[internal logic]] in [[toposes]], we are interested in properties of maps that are stable under pullback, and it turns out that compactness can be reformulated in terms of stability properties. 
+
+A first example concerns the property of a topological space $X$ that the unique map $!: X \to 1$ is a [[closed map]]. As a statement in ordinary point-set topology, this is plainly a tautology, trivially true for any space $X$. (Side remark: it is not at all a tautology in the more general setting of internal locales in toposes; the word "closed" is reserved for locales $X$ having that property. See also [[closed morphism]].) However, even in ordinary point-set topology, $!: X \to 1$ is usually not *stably closed*. In more detail: the pullback of $!: X \to 1$ along a (or the) map $Y \to 1$ is the projection map 
+
+$$X \times Y \to Y$$ 
+
+and the issue is whether this map is closed. This leads us to the following proposition. 
 
 +-- {: .num_defn #projection}
 ###### Proposition
 **([[closed-projection characterization of compactness]])**
 
-A topological space $X$ is compact (def. \ref{hb}) precisely if for any topologocial space $Y$, the [[projection map]] $X \times Y \to Y$ out of their [[product topological space]] is [[closed map|closed]]. 
+A topological space $X$ is compact (def. \ref{hb}) precisely if for any topological space $Y$, the [[projection map]] $X \times Y \to Y$ out of their [[product topological space]] is [[closed map|closed]]. 
 
-=--
+=-- 
 
-For **proof** see at _[[closed-projection characterization of compactness]]_
+Thus, compactness of $X$ is equivalent to $!: X \to 1$ being stably closed. 
+For a **proof**, see *[[closed-projection characterization of compactness]]*. 
 
 +-- {: .num_remark}
 ###### Remark
@@ -117,60 +198,12 @@ Moreover, the characterization of compact spaces via prop. \ref{projection} may 
 
 =--
 
+Of course, the notion of being stably closed applies to maps $p: X \to Y$ besides $!: X \to 1$. An analysis of this notion (that the pullback $f^\ast p: X \times_Y Z \to Z$ is a closed map for every map $f: Z \to Y$) leads to the correct notion of [[proper map]] in [[algebraic geometry]] and elsewhere. 
 
-If the [[ultrafilter theorem]] (a weak form of the [[axiom of choice]]) is assumed, compactness may be characterized in terms of [[ultrafilter]] (or ultranet) [[convergence]]: 
+Closely related to [[closed-projection characterization of compactness]], a characterisation of compactness in terms of logical [[quantification]] is featured in [[Paul Taylor]]'s [[Abstract Stone Duality]]:
 
-+-- {: .num_defn #ultrafilter}
-###### Definition
-
-$X$ is compact iff every [[ultrafilter]] $\mathcal{U}$ (or ultranet $\nu$) on $X$ [[converges|converges]] to some point $x \in X$, meaning that $\mathcal{U}$ contains the filter of [[neighborhoods]] of $x$ (or that $\nu$ is eventually in any neighbourhood of $x$).
-
-=--
-
-In any case, compactness can be characterized in terms of [[proper filter]] or equivalently (see at _[[eventuality filter]]_) of [[net]] [[convergence]] . 
-
-+-- {: .num_defn #refinement}
-###### Definition
-
-$X$ is compact iff every [[proper filter]]/[[net]] on $X$ has a [[convergence|convergent]] proper [[refinement]]/[[subnet]].
-
-=--
-
-This is equivalent to the characterization given in the [Idea-section](#Idea) above:
- 
-+-- {: .num_defn #clustering}
-###### Definition
-
-$X$ is compact iff every proper filter $\mathcal{U}$ (or net $\nu$) on $X$ has a cluster point $x$, meaning that every element of $\mathcal{U}$ meets (has [[inhabited set|inhabited]] intersection with) every neighbourhood of $x$ (or $\nu$ is frequently in every neighbourhood of $x$).
-
-=--
-
-While the usual definitions (\ref{hb}&\ref{fip}) are for [[topological spaces]], the convergence definitions (\ref{ultrafilter}--\ref{clustering}) make sense in any [[convergence space]].
-
-The definition (\ref{hb}) also works for [[locales]], since it refers only to the [[frame]] of open sets.  An equivalent way to phrase it is
-
-+-- {: .num_defn #directed}
-###### Definition
-
-$X$ is compact iff given any [[direction|directed]] collection of opens whose union is $X$ (a directed open cover), $X$ belongs to the collection.
-
-=--
-
-As the union is the [[coproduct]] in the [[category of open subsets]] $Op(X)$, we can also say
-
-+-- {: .num_defn #object}
-###### Definition
-
-$X$ is compact iff it is a [[compact object]] in $Op(X)$.
-
-=--
-
-+-- {: .num_defn #quantification}
-###### Definition
-
-Compactness is equivalent to the condition of being [[stably closed]]. It is this condition which suggests the correct notion of [[proper map]] in [[algebraic geometry]] and elsewhere:
-
-Closely related to [[closed-projection characterization of compactness]], a [[logic]]al characterisation of compactness is used in [[Abstract Stone Duality]]:
++-- {: .num_prop #quantification}
+###### Proposition
 
 $X$ is compact iff for any space $Y$ and any open subset $U$ of $X \times Y$, the subset
 $$ \forall_X U = \{ b : Y \;|\; \forall\; a: X,\; (a, b) \in U \} $$
@@ -188,8 +221,6 @@ for every open $V$ in $Y$.
 =--
 
 A [[de Morgan duality|dual]] condition is satisfied by an [[overt space]].
-
-
 
 ## Properties
 
