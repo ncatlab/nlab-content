@@ -95,9 +95,25 @@ $$ [a,b] + [b,c] = [a,c] .$$
 
 In the last few examples, each part of a partition is an [[inhabited set]].  In such cases, a __tagged partitition__ is a partition in which each part has been equipped with one of its elements.
 
+## The lattice of partitions of a finite set
+
+For any finite set $S$ with $n$ elements, the partially ordered set of partitions of $S$ forms a [[lattice]] (called $\Pi_n$). Viewing partitions as equivalence relations on $S$, this lattice structure may be described as follows [(Birkhoff)](#Birkhoff):
+
+* the [[bottom]] element is the [[diagonal relation]] on $S$
+* the [[top]] element is the total relation on $S$
+* the [[meet]] of two equivalence relations $\pi$ and $\rho$ on $S$ is the equivalence relation $\pi \wedge \rho$ defined by $x(\pi\wedge \rho)y$ iff $x\pi y$ and $x\rho y$
+* the [[join]] of two equivalence relations $\pi$ and $\rho$ is the meet of all equivalence relations $\sigma$ such that $\pi \subseteq \sigma$ and $\rho \subseteq \sigma$ (this is well-defined since $\Pi_n$ is finite)
+
+Dually, viewing partitions as surjections from $S$, the lattice structure may be described as follows:
+
+* the [[bottom]] element is the identity function $S \to S$
+* the [[top]] element is the unique function $S \to 1$ to the 1-element set
+* the [[join]] of two surjections $\pi : S \to B$ and $\rho : S \to C$ is their [[pushout]]
+* the [[meet]] of two surjections $\pi : S \to B$ and $\rho : S \to C$ is the join of all surjections $\sigma : S \to A$ for which there exist functions $f : A \to B$ and $g : A \to C$ such that $\pi = f \circ \sigma$ and $\rho = g \circ \sigma$
+
 ## References
 
-* [[Garrett Birkhoff]], _Lattice Theory_, AMS, third edition, 1973.
+* {#Birkhoff} [[Garrett Birkhoff]], _Lattice Theory_, AMS, third edition, 1973.
 
 [[!redirects partition]]
 [[!redirects partitions]]
