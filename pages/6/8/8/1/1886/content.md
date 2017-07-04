@@ -139,6 +139,10 @@ Transfinite composition plays a role in
 * the [[transfinite construction of free algebras]]
 
 
+## Related concepts
+
+* [[transfinite induction]]
+
 ## References
 
 For instance 
