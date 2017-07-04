@@ -254,3 +254,6 @@ Types (HITs) in Coq_ [PDF](http://www.crm.cat/en/activities/documents/barras-crm
 
 
 [[!redirects higher inductive types]]
+
+[[!redirects HIT]]
+[[!redirects HITs]]
