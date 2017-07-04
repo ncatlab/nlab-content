@@ -17,7 +17,7 @@ Better, it is a lax [[double functor]] from $C$, regarded as a [[double category
 
 A displayed category may equivalently be described as a *normal* lax functor from $C$ to [[Prof]] (either the bicategory or the double category, as appropriate).  Formally, this is because $Prof = Mod(Span)$, where $Mod(-)$ denotes the double category of horizontal monads and modules, and $Mod$ is a [[right adjoint]] to the inclusion of [[virtual double categories]] and normal (lax) functors into all (lax) functors; see [(CS, Prop. 5.14)](#CS).
 
-Equivalently, it is a [[double profunctor]] between $C$ and the trivial double category $1$, i.e., a double presheaf on $C$.
+Equivalently, it is a [[double profunctor]] between $C$ and the terminal double category $1$, i.e., a double presheaf on $C$.
 
 ## Correspondence to slices
 
