@@ -1,12 +1,19 @@
+
 Pavol &#352;evera is a mathematical physicist originally from Bratislava.
 
 * [website](http://fyzikus.fmph.uniba.sk/typo/index.php?id=433)
 
 ## Some publications
 
+* [[Pavol Ševera]], _Letters to A. Weinstein_ ([web](http://sophia.dtp.fmph.uniba.sk/~severa/letters/), [arXiv:1707.00265](https://arxiv.org/abs/1707.00265))
+
+  on [[Courant algebroids]]
+
 * Pavol &#352;evera, _[[Some title containing the words "homotopy" and "symplectic", e.g. this one]]_, based on a talk at "Poisson 2000", CIRM Marseille, June 2000; ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
 
-There are many, many more
+  on [[symplectic Lie n-algebroids]]
+
+
 ## related entries
 
 
