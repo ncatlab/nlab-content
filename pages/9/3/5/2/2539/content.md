@@ -33,9 +33,16 @@ The _Tietze extension theorem_ says that [[continuous functions]] extend from [[
 
 For $X$ a [[normal topological space]] and $A \subset X$ a [[closed subspace]], there is for every [[continuous function]] $f \colon A \to \mathbb{R}$ to the [[real line]] a continuous function $F \colon X \to \mathbb{R}$ extending it, i.e. such that $F|_A = f$.
 
+One also says that _$\mathbb{R}$ is an [[absolute extensor]]_.
+
 =--
 
-One also says that _$\mathbb{R}$ is an [[absolute extensor]]_.
++-- {: .proof}
+###### Proof
+
+
+
+=--
 
 ### For smooth manifolds {#Manifolds}
 
@@ -113,10 +120,20 @@ defines an element in $C^\infty(\mathbb{R}^n)/I$.
 
 ## References
 
+Leture notes include
+
+* Adam Boocher, _A proof of the Tietze Extension Theorem Using Urysohn's Lemma_, 2005 ([pdf](http://www.maths.ed.ac.uk/~aboocher/math/tietze.pdf))
+
+Discussion of the smooth version includes
+
+* {#MoerdijkReyes} [[Ieke Moerdijk]], [[Gonzalo Reyes]], chapters I and II of _[[Models for Smooth Infinitesimal Analysis]]_
+
+
+See also
+
 * Wikipedia, _[Tietze extension theorem](https://en.wikipedia.org/wiki/Tietze_extension_theorem)_
 
 * [[Planet Math]], _[Proof of the Tietze extension theorem](http://planetmath.org/proofoftietzeextensiontheorem)_
 
-The smooth version is discussed in 
 
-* {#MoerdijkReyes} [[Ieke Moerdijk]], [[Gonzalo Reyes]], chapters I and II of _[[Models for Smooth Infinitesimal Analysis]]_
+[http://trove.nla.gov.au/work/14594778?q&online=true](http://trove.nla.gov.au/work/14594778?q&online=true)
