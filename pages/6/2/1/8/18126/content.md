@@ -17473,6 +17473,8 @@ between [[smooth manifolds]] $X$ and $Y$ (def. \ref{DifferentiableManifold}) suc
 
 A _closed embedding_ is an embedding such that the image $f(X) \subset Y$ is a [[closed subset]].
 
+If $X \hookrightarrow Y$ is an embedding of smooth manifolds, then $X$ is also called a _[[submanifold]]_ of $Y$.
+
 =--
 
 +-- {: .num_example }
@@ -17688,13 +17690,15 @@ Finally the function $x \mapsto \phi_\varepsilon(x-x_0)$ has support the closed 
 
 =--
 
+We want to say that a smooth manifold admits subordinate partitions of unity by bump functions (prop. \ref{SmoothManifoldAdmitsSmoothPartitionsOfUnity} below). To that end we first need to see that 
+it admits refinemens of covers by closed balls.
 
 
 +-- {: .num_lemma #SmoothManifoldClosedBallRefinementOfCover}
 ###### Lemma
 **([[open cover]] of [[smooth manifold]] admits [[locally finite cover|locally finite]] [[refinement]] by [[closed balls]])**
 
-Let $X$ be a [[smooth manifold]] and let
+Let $X$ be a [[smooth manifold]] (def. \ref{DifferentiableManifold}) and let
 $\{U_i \subset X\}_{i \in I}$ be an [[open cover]].
 Then there exists cover
 
@@ -17708,7 +17712,8 @@ $$
   \right\}_{i \in J}
 $$
 
-which is a [[locally finite cover|locally finite]] [[refinement]] of $\{U_i \subset X\}_{i \in I}$ with each patch [[diffeomorphism|diffeomorphic]] to a [[closed ball]] in [[Euclidean space]].
+which is a [[locally finite cover|locally finite]] [[refinement]] of $\{U_i \subset X\}_{i \in I}$ with each patch [[diffeomorphism|diffeomorphic]] to a [[closed ball]] (def. \ref{OpenBalls})
+regarded as a [[subspace]] of [[Euclidean space]].
 
 
 =--
@@ -17716,7 +17721,7 @@ which is a [[locally finite cover|locally finite]] [[refinement]] of $\{U_i \sub
 +-- {: .proof}
 ###### Proof
 
-First consider the special case that $X$ is [[compact topological space]].
+First consider the special case that $X$ is [[compact topological space]] (def. \ref{CompactTopologicalSpace}).
 
 Let
 
@@ -17729,7 +17734,8 @@ $$
   \right\}
 $$
 
-be a smooth [[atlas]] representing the [[smooth structure]] on $X$. The [[intersections]]
+be a smooth [[atlas]] representing the [[smooth structure]] on $X$ (def. \ref{SmoothStructure}) 
+(hence an [[open cover]] by patches which are [[diffeomorphism|diffeomorphic]] to standard [[Euclidean space]]). The [[intersections]]
 
 $$
   \left\{
@@ -17737,7 +17743,7 @@ $$
   \right\}_{i \in I, j \in J}
 $$
 
-still form an open cover of $X$. Hence for each point $x \in X$ there is $i \in I$ and $j \in J$ with $x \in U_i \cap V_j$. By the nature of the [[Euclidean topology]], there exists a [[closed ball]] $B_x$ around $\phi_j^{-1}(x)$ in $\phi_j^{-1}(U_i \cap V_j) \subset \mathbb{R}^n$. Its [[image]] $\phi_j(B_x) \subset X$ is a neighbourhood of  $x \in X$ diffeomorphic to a closed ball.
+still form an open cover of $X$. Hence for each point $x \in X$ there is $i \in I$ and $j \in J$ with $x \in U_i \cap V_j$. By the nature of the [[Euclidean space]] [[metric topology]], there exists a [[closed ball]] $B_x$ around $\phi_j^{-1}(x)$ in $\phi_j^{-1}(U_i \cap V_j) \subset \mathbb{R}^n$. Its [[image]] $\phi_j(B_x) \subset X$ is a neighbourhood of  $x \in X$ diffeomorphic to a closed ball.
 
 The [[interiors]] of these balls form an [[open cover]]
 
@@ -17772,9 +17778,11 @@ $$
 is a finite cover by closed balls, hence in particular locally finite, and by construction it is still a refinement of the orignal cover.
 This shows the statement for $X$ compact.
 
-Now for general $X$, notice that without restriction we may assume that $X$ is [[connected topological space|connected]], for if it is not, then we obtain the required refinement on all of $X$ by finding one on each [[connected component]].
+Now for general $X$, notice that without restriction we may assume that $X$ is [[connected topological space|connected]]
+(def. \ref{ConnectedTopologicalSpace}), for if it is not, then we obtain the required refinement on all of $X$ by finding one on each [[connected component]] (def. \ref{ComponentsConnected}), and so we are immediately reduced to the connected case.
 
-But if a locally Euclidean paracompact Hausdorff space $X$ is connected, then it is [[sigma-compact topological space|sigma-compact]] and in fact admits a countable increasing exhaustion
+But, by the proof of prop. \ref{RegularityConditionsForTopologicalManifoldsComparison}, if a 
+locally Euclidean paracompact Hausdorff space $X$ is connected, then it is [[sigma-compact topological space|sigma-compact]] and in fact admits a countable increasing exhaustion
 
 $$
   V_0 \subset V_1 \subset V_2 \subset \cdots
@@ -17786,7 +17794,7 @@ $$
   K_0 \subset K_1 \subset K_2 \subset \cdots
 $$
 
-exhaust $X$ by [[compact topological space|compact]] subspaces $K_n$ (by the proof of prop. \ref{RegularityConditionsForTopologicalManifoldsComparison})).
+exhaust $X$ by [[compact topological space|compact]] subspaces $K_n$.
 
 For $n \in \mathbb{N}$, consider the open subspace
 
@@ -17796,7 +17804,8 @@ $$
   X
 $$
 
-which canonically inherits the structure of a smooth manifold (example \ref{OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds}). As above we find a refinement of the restriction of $\{U_i \subset X\}_{i \in I}$ to this open subset by closed balls and since the further subspace $K_{n+1}\setminus K_n$ is still compact (example \ref{UnionsAndIntersectionOfCompactSubspaces}) there is a finite set $L_n$ such that
+which canonically inherits the structure of a smooth manifold 
+by example \ref{OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds}. As above we find a refinement of the restriction of $\{U_i \subset X\}_{i \in I}$ to this open subset by closed balls and since the further subspace $K_{n+1}\setminus K_n$ is still compact (example \ref{UnionsAndIntersectionOfCompactSubspaces}) there is a finite set $L_n$ such that
 
 $$
   \{B_{l_n} \subset V_{n+2} \setminus K_{n-1} \subset X \}_{l_n \in L_n}
@@ -17813,7 +17822,7 @@ $$
   \right\}_{n \in \mathbb{N}, l_n \in L_n}
 $$
 
-is a refinement by closed balls as required. It local finiteness follows by the fact that each $B_{l_n}$ is contained in the "strip" $V_{n+2} \setminus K_{n-1}$, each strip contains only a finite set of $B_{l_n}$-s and each strip intersects only a finite number of other strips. (Hence an open subset around a point $x$ which intersects only a finite number of elements of the refined cover is given by any one of the balls $B_{l_n}$ that contain $x$.)
+is a refinement by closed balls as required. Its local finiteness follows by the fact that each $B_{l_n}$ is contained in the "strip" $V_{n+2} \setminus K_{n-1}$, each strip contains only a finite set of $B_{l_n}$-s and each strip intersects only a finite number of other strips. (Hence an open subset around a point $x$ which intersects only a finite number of elements of the refined cover is given by any one of the balls $B_{l_n}$ that contain $x$.)
 
 
 =--
@@ -17821,9 +17830,10 @@ is a refinement by closed balls as required. It local finiteness follows by the 
 
 +-- {: .num_prop #SmoothManifoldAdmitsSmoothPartitionsOfUnity}
 ###### Proposition
-**([[smooth manifolds]] admit smooth partitions of unity)**
+**([[smooth manifolds]] admit [[smooth function|smooth]] [[partitions of unity]])**
 
-Let $X$ be a paracompact [[smooth manifold]]. Then every [[open cover]] $\{U_i \subset X\}_{i \in I}$ has a subordinate partition of unity by functions $\{f_i \colon U_i \to \mathbb{R}\}_{i \in I}$ which are _[[smooth functions]]_.
+Let $X$ be a [[smooth manifold]] (def. \ref{DifferentiableManifold}). Then every [[open cover]] $\{U_i \subset X\}_{i \in I}$ has a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}) by functions $\{f_i \colon U_i \to \mathbb{R}\}_{i \in I}$ 
+which are _[[smooth functions]]_.
 
 =--
 
@@ -17842,7 +17852,7 @@ $$
     V_j
       \subset
     X
-  \right\}_{i \in J}
+  \right\}_{j \in J}
   \,.
 $$
 
@@ -17852,7 +17862,7 @@ $$
   h_j \;\colon\; X \longrightarrow \mathbb{R}
 $$
 
-be the function which on $V_j$ is given by a smooth [[bump function]]
+be the function which on $V_j$ is given by a smooth [[bump function]] (def. \ref{BumpFunction}, example \ref{SomeBumpFunctions})
 
 $$
   b_j \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}
@@ -17889,13 +17899,14 @@ $$
   \underset{j \in J}{\sum} h_j(x)
 $$
 
-is well defined (the sum involves only a finite number of non-vanishing contributions) and is smooth. Therefore setting
+is well defined (the sum involves only a finite number of non-vanishing contributions),
+non vanishing (since every point is contained in the support of one of the $h_i$) and is smooth (since finite sums of smooth functions are smooth). Therefore if we set
 
 $$
   f_j \;\coloneqq\; \frac{h_j}{h}
 $$
 
-then
+for all $j \in J$ then
 
 $$
  \left\{
@@ -17911,13 +17922,13 @@ is a subordinate partition of unity by smooth functions as required.
 
 $\,$
 
-Now we may finally state the simplest form of the embedding theorem for smooth manifolds:
+Now we may finally state and prove the simplest form of the embedding theorem for smooth manifolds:
 
 +-- {: .num_prop #CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace}
 ###### Proposition
 **(weak embedding theorem)**
 
-For every [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) [[smooth manifold]] $X$ of [[finite number|finite]] [[dimension]] (def \ref{DifferentiableManifold}), there exists some $k \in \mathbb{N}$ such that $X$ has an embedding (def. \ref{SmoothManifoldsEmbedding}) into the [[Euclidean space]] of dimension $k$, regarded as a smooth manifold via example \ref{DifferentiableManifoldCartesianSpace}:
+For every [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) [[smooth manifold]] $X$ of [[finite number|finite]] [[dimension]] (def \ref{DifferentiableManifold}), there exists some $k \in \mathbb{N}$ such that $X$ has an [[embedding of smooth manifolds]] (def. \ref{SmoothManifoldsEmbedding}) into the [[Euclidean space]] of dimension $k$, regarded as a smooth manifold via example \ref{DifferentiableManifoldCartesianSpace}:
 
 $$
   X \overset{\text{embd}}{\hookrightarrow} \mathbb{R}^k
@@ -17934,7 +17945,8 @@ $$
   \{\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\longrightarrow} U_i \subset X\}_{i \in I}
 $$
 
-be an [[atlas]] exhibiting the [[smooth structure]] of $X$. In particular this is an [[open cover]], and hence by compactness there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
+be an [[atlas]] exhibiting the [[smooth structure]] of $X$ (def. \ref{SmoothStructure}),
+hence an [[open cover]] by pathces [[diffeomorphism|diffeomorphic]] to [[Euclidean space]]. By compactness there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
 
 $$
   \{\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X\}_{i \in J \subset I}
@@ -17942,7 +17954,7 @@ $$
 
 is still an open cover.
 
-Since $X$ is a [[smooth manifold]], there exists a [[partition of unity]] $\{f_i \in C^\infty(X,\mathbb{R})\}_{i \in J }$ subordinate to this cover with _[[smooth functions]]_ $f_i$ (by prop. \ref{SmoothManifoldAdmitsSmoothPartitionsOfUnity}).
+Since $X$ is a [[smooth manifold]], there exists a [[partition of unity]] $\{f_i \in C^\infty(X,\mathbb{R})\}_{i \in J }$ subordinate to this cover (def. \ref{PartitionOfUnity}) with _[[smooth functions]]_ $f_i$ (by prop. \ref{SmoothManifoldAdmitsSmoothPartitionsOfUnity}).
 
 This we may use to [[extension|extend]] the inverse [[chart]] identifications
 
@@ -17973,7 +17985,8 @@ $$
   \,.
 $$
 
-The idea now is to combine all these functions to obtain an injective function
+The idea now is to use the [[universal property]] of the [[product topological space]]
+to combine all these functions to obtain an injective function of the form
 
 $$
   (\hat \psi_i)_{i \in J}
@@ -17984,7 +17997,7 @@ $$
   \,.
 $$
 
-But while this is injective, it need not be an [[immersion]], since the [[derivatives]] of the product functions $f_i \cdot \psi_i$ may vanish, even though the derivatives of the two factors do not vanish separately. However this is readily fixed by adding yet more ambient coordinates and considering the function
+But while this is injective, it need not be an [[immersion]], since the [[derivatives]] of the product functions $f_i \cdot \psi_i$ may vanish. However this is readily fixed by adding yet more ambient coordinates and considering the function
 
 $$
   (\hat \psi_i, f_i)_{i \in I}
@@ -17997,7 +18010,12 @@ $$
   \,.
 $$
 
-This is an immersion. Hence it remains to see that it is also an [[embedding of topological spaces]].
+By exmple \ref{SomeBumpFunctions} the derivative of $f_j$ is non-vanishing on the interior of the support of $f_j$, and 
+by nature of partitions of unity, the interior of the supports of all these functions cover $X$. This means that 
+at every point of $x$ at least one of the $f_j$ has a non-vanishing derivative, and hence the derivative of the 
+function $(\hat \psi_i, f_i)_{i \in I}$ is non-vanishing.
+
+This shows that this function is an immersion. Hence it remains to see that it is also an [[embedding of topological spaces]].
 
 By prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings} it is sufficient to see that the injective continuous function is a [[closed map]]. But this follows generally since $X$ is a [[compact topological space]] by assumption, and since
 [[Euclidean space|Euclidean]] [[metric space]] is a [[Hausdorff topological space]] (example \ref{HausdorffMetricSpace}), and since [[maps from compact spaces to Hausdorff spaces are closed and proper]] (prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}).
@@ -18008,8 +18026,8 @@ By prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings} it is sufficient to s
 ###### Remark
 **([[Whitney embedding theorem]])**
 
-The _[[Whitney embedding theorem]]_ (which we do not prove here) strenghens the statement
-of prop. \ref{CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace} in two crucucial ways:
+The _[[Whitney embedding theorem]]_ (which we do not prove here) strengthens the statement
+of prop. \ref{CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace} in two ways:
 
 1. it applies to non-compact smooth manifolds with a countable set of connected components;
 
