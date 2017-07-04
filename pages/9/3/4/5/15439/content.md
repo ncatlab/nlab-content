@@ -35,7 +35,21 @@ More concretely, if $S$ is any [[infinity-cohesive site]] of "differentiable spa
 
 * [[infinitesimally thickened point]]
 
+* [[infinitesimal disk bundle]]
+
 [[!include function field analogy -- table]]
+
+## References
+
+Discussion in [[differential cohesion]] is in
+
+* [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
+
+and formalization in [[homotopy type theory]] is in 
+
+* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, PhD Thesis, 2017
+
+
 
 [[!redirects formal disks]]
 
