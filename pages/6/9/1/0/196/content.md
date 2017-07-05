@@ -108,7 +108,9 @@ Special properties these may have:
 
 * [[function algebra]], [[pullback of functions]]
 
-* [[continuous function]], [[smooth function]]
+* [[continuous function]], [[differentiable function]], [[smooth function]]
+
+* [[bounded function]]
 
 * [[fixed point]]
 
