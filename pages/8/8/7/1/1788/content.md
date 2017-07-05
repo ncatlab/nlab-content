@@ -1,3 +1,15 @@
-
-
-ssgg
+$$
+  \array{
+     X &\overset{f_1}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{ (id_X, const_0) }}\downarrow 
+       && 
+     {}^{\mathllap{ (id_Y,const_0) }}\downarrow 
+       & 
+     \searrow^{\mathrlap{ f_2 }}
+     \\
+     X \times [0,1] 
+       &\overset{f_1 \times id_{[0,1]} }{\longrightarrow}& 
+  }
+  \,.
+$$
