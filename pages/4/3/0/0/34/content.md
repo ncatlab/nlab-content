@@ -266,7 +266,7 @@ Another collection of discussions of definitions of higher categories is given a
 
 A brief useful survey of approaches to the definition of higher categories is provided by the set of slides
 
-* [[Andre Joyal]], [[Tim Porter]], [[Peter May]], _Weak categories_ ([pdf](http://www.ima.umn.edu/talks/workshops/SP6.7-18.04/may/PorterMay.pdf))
+* [[Andre Joyal]], [[Tim Porter]], [[Peter May]], _Weak categories_ ([pdf](https://web.archive.org/web/20150326110254/http://www.ima.umn.edu/talks/workshops/SP6.7-18.04/may/PorterMay.pdf))
 
 The theory of [[quasi-categories]] as [[(∞,1)-categories]] has reached a point where it is well developed and being applied to a wealth of problems with
 
