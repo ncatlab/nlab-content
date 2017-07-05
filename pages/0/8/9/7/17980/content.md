@@ -89,6 +89,10 @@ Corresponding adinkras for the chiral scalar supermultiplet (CM), the vector mul
 
 ## References
 
+For an introduction to adinkras, see the talk
+
+* [[Lutian Zhao]], _What is an Adinkra?_, 2014 ([slides](http://math.sjtu.edu.cn/conference/Bannai/2014/data/20141213B/slides.pdf))
+
 The concept of adinkras was introduced into [[supersymmetry]] [[representation theory]] in 
 
 * {#FauxGates04} [[Michael Faux]], [[Jim Gates]], _Adinkras: A Graphical Technology for Supersymmetric Representation Theory_, Phys.Rev. D71 (2005) 065002 ([hep-th/0408004](https://arxiv.org/abs/hep-th/0408004))
