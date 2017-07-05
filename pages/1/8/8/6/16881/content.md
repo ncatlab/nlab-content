@@ -20,7 +20,7 @@
 
 ## Idea
 
-The classical _extreme value theorem_ states that a [[continuous function]] on the [[bounded subset|bounded]] [[closed interval]] $[0,1]$ with values in the [[real numbers]] does attain its [[maximum]] and its [[minimum]]. This is a special case in [[analysis]] of the more general statement in [[topology]] that [[continuous images of compact spaces are compact]].
+The classical _extreme value theorem_ states that a [[continuous function]] on the [[bounded subset|bounded]] [[closed interval]] $[0,1]$ with values in the [[real numbers]] does attain its [[maximum]] and its [[minimum]] (and hence in particular is a [[bounded function]]). This is a special case in [[analysis]] of the more general statement in [[topology]] that [[continuous images of compact spaces are compact]].
 
 Although the Extreme Value Theorem (EVT) is often stated as a theorem about [[continuous maps]], it\'s really about [[semicontinuous maps]].
 
