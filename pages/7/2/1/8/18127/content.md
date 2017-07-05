@@ -8,15 +8,13 @@
 
 ***
 
-This page is a detailed introduction to basic [[topology]].
-Starting from scratch (required background is just a basic concept of _[[sets]]_), and amplifying motivation from [[analysis]],
-it first develops standard [[point-set topology]] ([[topological spaces]]).
-In passing, some basics of [[category theory]] make an informal appearance,
-used to transparently summarize some conceptually important aspects of the theory, such as [[initial topology|initial]]
-and [[final topologies]] and the [[reflective subcategory|reflection]] into
-[[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]].
-The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
-and ends with their first application to the classification of [[covering spaces]].
+This page is a detailed introduction to basic [[topological homotopy theory|topological]] [[homotopy theory]].
+We introduce the [[fundamental group]] of [[topological spaces]] and the concept of 
+[[covering spaces]]. Then we prove the [[fundamental theorem of covering spaces]], saying that 
+they are equivalent to [[permutation representations]] of the fundamental group. This is
+a simple topological version of the general principle of _[[Galois theory]]_ and has many 
+applications. As one example application, we use it to prove that the [[fundamental group of the circle is the integers]].
+
 
 > Under construction.
 
@@ -46,6 +44,10 @@ $\,$
 +--{: .hide}
 [[!include topology - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
@@ -69,7 +71,7 @@ classification of [[covering spaces]].
   {#Homotopy}
 
 It is clear that for $n \geq 1$ the [[Euclidean space]] $\mathbb{R}^n$ or equivalently the [[open ball]] $B_0^\circ(1)$ in $\mathbb{R}^n$
-is _not_ [[homeomorphic]] to the [[point space]] $\ast = \mathbb{R}^0$ (simply because there is not even a [[bijection]] bewteen the
+is _not_ [[homeomorphic]] to the [[point space]] $\ast = \mathbb{R}^0$ (simply because there is not even a [[bijection]] between the
 underlying [[sets]]). Nevertheless, intuitively the $n$-ball is a "continuous deformation" of the point, obtained as the radius of the $n$-ball tends to zero.
 
 This intuition is made precise by observing that there is a [[continuous function]] out of the [[product topological space]]
@@ -110,20 +112,39 @@ $$
 
 Such "continuous deformations" are called _[[homotopies]]_:
 
-+-- {: .num_defn #SheavesOnCartSp}
+In the following we use this terminlogy:
+
++-- {: .num_defn #TopologicalInterval}
 ###### Definition
+**([[topological interval]])
+
+The _[[topological interval]]_ is 
+
+1. the [[closed interval]] $[0,1] \subset \mathbb{R}^1$ 
+   regarded, in the standard way, as a [[subspace]] of the [[real line]] with its [[Euclidean space|Euclidean]] [[metric topology]],
+
+1. equipped with the [[continuous functions]]
+
+   1. $const_0 \;\colon\; \ast \to [0,1]$
+
+   1. $const_1 \;\colon\; \ast \to [0,1]$
+
+which include the [[point space]] as the two endpoints, respectively.
 
 =--
+
+
 
 +-- {: .num_defn #LeftHomotopy}
 ###### Definition
 **([[homotopy]])**
 
-For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a _[[left homotopy|(left) homotopy]]_
+For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$.  
+A _[[left homotopy|(left) homotopy]]_
 from $f$ to $g$, to be denoted
 
 $$
-  \eta \colon f \,\Rightarrow_L\, g
+  \eta \;\colon\; f \,\Rightarrow\, g
   \,,
 $$
 
@@ -135,7 +156,7 @@ $$
 
 
 out of the [[product topological space]] ([this example](Introduction+to+Topology+--+1#ProductTopologicalSpace))
-of $X$ with the standard [[closed interval]] $[0,1]$ with its [[Euclidean space|Euclidean]] [[metric topology]], 
+of $X$ with the standard [[closed interval]] $[0,1]$ with its [[Euclidean space|Euclidean]] [[metric topology]],
 such that this fits into a [[commuting diagram]] of the form
 
 <div style="float:right;margin:0 10px 10px 0;">
@@ -147,11 +168,11 @@ $$
   \array{
      {0} \times X
      \\
-     {}^{\mathllap{(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{f}}
+     {}^{\mathllap{(id,const_0)}}\downarrow & \searrow^{\mathrlap{f}}
      \\
      [0,1] \times X  &\stackrel{\eta}{\longrightarrow}& Y
      \\
-     {}^{\mathllap{(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{g}}
+     {}^{\mathllap{(id,const_1)}}\uparrow & \nearrow_{\mathrlap{g}}
      \\
      \{1\} \times X
   }
@@ -225,178 +246,7 @@ The following three [[graphs]]
 
 $\,$
 
-
-## Connected components
- {#ConnectedComponents}
-
-Using the concept of [[homotopy]] one obtains the basic tool of [[algebraic topology]], namely the construction of algebraic [[homotopy invariants]] of topological spaces. We introduce the simplest and indicate their use.
-
-
-+-- {: .num_example}
-###### Example
-
-A [[homotopy]] between two points
-
-$x,y \;\colon\; \ast \to X$
-
-is a continuous [[path]] between these points.
-
-=--
-
-+-- {: .num_defn #pi0}
-###### Definition
-**(connected components)**
-
-The set of [[homotopy classes]] of points in a [[topological space]] $X$ is called its set of
-_path-[[connected components]]_, denoted.
-
-$$
-  \pi_0(X) \in Set
-  \,.
-$$
-
-If $\pi_0(X) \simeq \ast$ consists of a single element, we say that $X$ is a _[[path-connected topological space]]_.
-
-If $f \colon X \to Y$ is a [[continuous map]] between [[topological spaces]], then on [[homotopy classes]] of points it induces a [[function]] between the corresponding connected components, which we denote by:
-
-$$
-  \pi_0(f) \;\colon\; \pi_0(X) \longrightarrow \pi_0(Y)
-  \,.
-$$
-
-=--
-
-This construction is evidently compatible with [[composition]], in that
-
-$$
-  \pi_0(g \circ f) = \pi_0(g) \circ \pi_0(f)
-$$
-
-and it evidently is [[unitality|unital]], in that
-
-$$
-  \pi_0(id_X) = id_{\pi_{0}(X)}
-  \,.
-$$
-
-One summarizes this by saying that $\pi_0$ is a _[[functor]]_ from the [[category]] [[Top]] of [[topological spaces]] to the [[category]] [[Set]] of [[sets]], denoted
-
-$$
-  \pi_0 \;\colon\; Top \longrightarrow Set
-  \,.
-$$
-
-An immediate but important consequence is this:
-
-+-- {: .num_prop #ConnectedComponentsDistinctImpliesHeomeClassesDistinct}
-###### Proposition
-
-If two [[topological spaces]] have sets of [[connected components]] that are not in [[bijection]], then those spaces are not [[homeomorphic]] to each other:
-
-$$
-  \pi_0(X) \neq \pi_0(Y)
-  \;\;\;
-    \Rightarrow
-  \;\;\,
-  X \underset{homeo}{\neq} Y
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Since $\pi_0$ is [[functor|functorial]], it immediately follows that it sends [[isomorphisms]] to [[isomorphisms]], hence [[homeomorphisms]] to [[bijections]]:
-
-$$
-  \begin{aligned}
-     & f \circ g = id \;\;and\;\; g \circ f = id
-    \\
-    \Rightarrow \;\;\;\;\;\;&
-    \pi_0(f \circ g) = \pi_0(id) \;\;and \;\; \pi_0(g \circ f) = \pi_0(id)
-    \\
-    \Leftrightarrow \;\;\;\;\;\;
-    &
-    \pi_0(f) \circ \pi_0(g) = id \;\;and \;\; \pi_0(g) \circ \pi_0(f) = id
-  \end{aligned}
-  \,.
-$$
-
-=--
-
-This means that we may use path connected components as a first "topological invariant" that allows us to distinguish some topological spaces.
-
-+-- {: principle}
-**principle of algebraic topology**
-
-$\,\,$ _Use topological invariants to distinguish topological spaces._
-
-=--
-
-
-As an example for how this is being used, we have the following proof of a simple special case of the [[topological invariance of dimension]] (theorem \ref{TopologicalInvarianceOfDimension}):
-
-
-+-- {: .num_prop #TopologicalInvarianceOfDimensionFirstSimpleCase}
-###### Proposition
-**([[topological invariance of dimension]] -- first simple case)**
-
-The [[Cartesian spaces]] $\mathbb{R}^1$ and $\mathbb{R}^2$ are not [[homeomorphic]] (def. \ref{Homeomorphism}).
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Assume there were a [[homeomorphism]]
-
-$$
-  f \colon \mathbb{R}^1 \longrightarrow \mathbb{R}^2
-$$
-
-we will derive a contradiction. If $f$ is a homeomorphism, then clearly so is its restriction to the [[topological subspaces]] (example \ref{SubspaceTopology}) obtained by removing $0 \in \mathbb{R}^1$ and $f(0) \in \mathbb{R}^2$.
-
-$$
-  f
-    \;\colon\;
-  (\mathbb{R}^1-\{0\})
-    \longrightarrow
-  (\mathbb{R}^2 - \{f(0)\})
-  \,.
-$$
-
-
-It follows that we would get a bijection of [[connected components]] between $\pi_0(\mathbb{R}^1 - \{0\})$ and $\pi_0(\mathbb{R}^2  - \{f(0)\})$. But clearly the first set has two elements, while the second has just one:
-
-$$
-  \pi_0(\mathbb{R}^1-\{0\})
-    \;\neq\;
-  \pi_0(\mathbb{R}^2 - \{f(0)\})
-  \,.
-$$
-
-
-=--
-
-The key lesson of the proof of prop. \ref{TopologicalInvarianceOfDimensionFirstSimpleCase} is its strategy:
-
-
-+-- {: principle}
-**principle of algebraic topology**
-
-$\,\,$ _Use topological invariants to distinguish topological spaces._
-
-=--
-
-
-Of course in practice one uses more sophisticated invariants than just $\pi_0$.
-
-The next topological invariant after the [[connected components]] is the _[[fundamental group]]:
-
-
-
-
-## Fundamental group
+###  Fundamental group
  {#FundamentalGroups}
 
 
@@ -459,6 +309,23 @@ is called _[[simply connected topological space|simply connected]]_.
 
 =--
 
+We will need also the following local version:
+
++-- {: .num_defn #SemiLocallySimplyConnected}
+###### Definition
+**([[semi-locally simply connected topological space]])**
+
+A [[topological space]] $X$ is called
+
+1. _[[locally path-connected]]_ if for every point $x \in X$ and for every [[neighbourhood]] $x \in U \subset X$ there
+   exists a neighbourhood $x \in V \subset U$ such that $V$ is [[path-connected topological space|path-connected]] (def. \ref{pi0});
+
+1. _[[semi-locally simply connected topological space|semi-locally simply connected]]_ if every point $x \in X$ has a [[neighbourhood]] $x \in U \subset X$ such that the induced morphism of [[fundamental groups]] $\pi_1(U,x) \to \pi_1(X,x)$ is trivial (i.e. sends everything to the [[neutral element]]).
+
+=--
+
+
+
 
 +-- {: .num_prop #topologicalInvarianceOfDimensionSecondSimpleCase}
 ###### Proposition
@@ -500,7 +367,11 @@ shows that $f$ cannot be an [[isomorphism]], hence not a [[homeomorphism]].
 
 =--
 
-We now discuss a "dual incarnation" of fundamental groups, which often helps to compute them.
+
+
+### Groupoids
+
+(...)
 
 
 
@@ -700,22 +571,14 @@ $$
 
 One says that $\rho$ is an _[[action]]_ or _[[permutation representation]]_ of $\pi_1(X,x)$ on $F_x$.
 
-=--
-
-
-+-- {: .num_remark}
-###### Remark
 
 For $G$ any [[group]], then there is a [[category]] $G Set$ whose [[objects]] are [[sets]]
 equipped with an [[action]] of $G$, and whose [[morphisms]] are [[function|functions]] which respect
-these actions. 
-
-
-The construction in def. \ref{ActionOfFundamentalGroupOnFibersOfCovering} is a [[functor]] 
+these actions.  The above construction is a [[functor]]
 of the form
 
 $$
-  Cov(X) \longrightarrow \pi_1(X,x) Set
+  Fib_x \;\colon\; Cov(X) \longrightarrow \pi_1(X,x) Set
   \,.
 $$
 
@@ -737,121 +600,1014 @@ Their corresponding [[permutation actions]] may be seen from the pictures on the
 
 =--
 
-We are now ready to state the main theorem about the [[fundamental group]]. Except that it
-does require the following slightly technical condition on the base topological space.
-This condition is satisfied for all "reasonable" topological spaces:
++-- {: .num_prop #CoveringProjectionsAreOpenMaps}
+###### Proposition
+**(covering projections are [[open maps]])**
 
-+-- {: .num_defn #SemiLocallySimplyConnected}
-###### Definition
-**(semi-locally simply connected)**
+If $p \colon E \to X$ is a covering space projection, then $p$ is an [[open map]].
 
-A [[topological space]] $X$ is called
 
-1. _[[locally path-connected]]_ if for every point $x \in X$ and for every [[neighbourhood]] $x \in U \subset X$ there
-   exists a neighbourhood $x \in V \subset U$ such that $V$ is [[path-connected topological space|path-connected]] (def. \ref{pi0});
+=--
 
-1. _[[semi-locally simply connected topological space|semi-locally simply connected]]_ if every point $x \in X$ has a [[neighbourhood]] $x \in U \subset X$ such that the induced morphism of [[fundamental groups]] $\pi_1(U,x) \to \pi_1(X,x)$ is trivial (i.e. sends everything to the [[neutral element]]).
++-- {: .proof}
+###### Proof
+
+By definition of covering space there exists an [[open cover]] $\{U_i \subset X\}_{i \in I}$ and [[homeomorphisms]] $p^{-1}(U_i) \simeq U_i \times Disc(F_i)$ for all $i \in I$. Since the [[projections]] out of a [[product topological space]] are [[open maps]] ([this prop.](product+topological+space#ProjectionsAreOpenMaps)), it follows that $p$ is an open map when restricted to any of the $p^{-1}(U_i)$. But a general open subset $W \subset E$ is the union of its restrictions to these subspaces:
+
+$$
+  W = \underset{i \in I}{\cup} (W \cap p^{-1}(U_i))
+  \,.
+$$
+
+Since images preserve unions ([this prop.](interactions+of+images+and+pre-images+with+unions+and+intersections#PreservationOfUnionsAndIntersectionsOfSets)) it follows that
+
+$$
+  p(W) = \underset{i \in I}{\cup} p(W \cap p^{-1}(U_i))
+$$
+
+is a union of open sets, and hence itself open.
+
+=--
+
+We discuss [[left lifting properties]] satisfied by covering spaces.
+
+1. [path-lifting property](#CoveringSpacePathLifting),
+
+1. [homotopy-lifting propery](#CoveringSpacesHomotopyLifting),
+
+1. the [lifting theorem](#TheTheoremLifting).
+
++-- {: .num_lemma #CoveringSpacePathLifting}
+###### Lemma
+**(path lifting property)**
+
+Let $p \colon E \to X$ be any [[covering space]].  Given
+
+1. $\gamma \colon [0,1] \to X$ a [[path]] in $X$,
+
+1. $\hat x_0 \in E$ be a lift of its starting point, hence such that $p(\hat x_0) = \gamma(0)$
+
+then there exists a unique path $\hat \gamma \colon [0,1] \to E$ such that
+
+1. it is a lift of the original path: $p \circ \hat \gamma = \gamma$;
+
+1. it starts at the given lifted point: $\hat \gamma(0) = \hat x_0$.
+
+In other words, every [[commuting diagram]] in [[Top]] of the form
+
+$$
+  \array{
+    \{0\} &\overset{\hat x_0}{\longrightarrow}& E
+    \\
+    \downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    [0,1] &\underset{\gamma}{\longrightarrow}& X
+  }
+$$
+
+has a unique [[lift]]:
+
+$$
+  \array{
+    \{0\} &\overset{\hat x_0}{\longrightarrow}& E
+    \\
+    \downarrow &{}^{\mathllap{\hat \gamma}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    [0,1] &\underset{\gamma}{\longrightarrow}& X
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+####### Proof
+
+First consider the case that the covering space is trival, hence of the [[Cartesian product]] form
+
+$$
+  pr_1 \;\colon\;  X \times Disc(S) \longrightarrow X
+  \,.
+$$
+
+By the [[universal property]] of the [[product topological spaces]]
+in this case a lift $\hat \gamma \colon [0,1] \to X \times Disc(S)$ is equivalently a [[pair]] of continuous functions
+
+$$
+  pr_1(\hat \gamma) \colon [0,1] \to X  \phantom{AAAA} pr_2(\hat \gamma) \colon [0,1] \to Disc(S)
+  \,,
+$$
+
+Now the lifting condition explicitly fixes $pr_1(\hat \gamma) = \gamma$. nMoreover, a continuous function into a [[discrete topological space]] $Disc(S)$ is [[locally constant function|locally constant]], and since $[0,1]$ is a [[connected topological space]] this means that $pr_2(\hat \gamma)$ is in fact a [[constant function]] ([this example](connected+space#LocallyConstantFunctionsOnConnectedSpaces)), hence uniquely fixed to be $pr_2(\hat \gamma) = \hat x_0$.
+
+This shows the statement for the case of trivial covering spaces.
+
+Now consider any covering space $p \colon E \to X$. By definition of covering spaces, there exists for every point $x \in X$ a [[open neighbourhood]] $U_x \subset X$ such that the restriction of $E$ to $U_x$ becomes a trivial covering space:
+
+$$
+  p^{-1}(U_x) \simeq U_x \times Disc(p^{-1}(x))
+  \,.
+$$
+
+Consider such a choice
+
+$$
+  \{U_x \subset X\}_{x \in X}
+  \,.
+$$
+
+This is an [[open cover]] of $X$. Accordingly, the [[pre-images]]
+
+$$
+  \left\{
+    \gamma^{-1}(U_x)
+    \subset
+    [0,1]
+  \right\}_{x \in X}
+$$
+
+constitute an open cover of the [[topological interval]] $[0,1]$.
+
+Now $[0,1]$ is a [[sequentially compact topological space|compact]] [[metric space]] and therefore the [[Lebesgue number lemma]] implies that there is a [[positive number]] $\epsilon \in (0,\infty)$ and cover of $[0,1]$ by [[open intervals]] of the form $(-\epsilon + x , x  + \epsilon) \cap [0,1] \subset [0,1]$ which [[refinement|refines]] this cover. Again since $[0,1]$ is a [[compact topological space]] there is a [[finite set]] of such intervals which covers $[0,1]$. This means that we find a [[finite number]] of points
+
+$$
+  t_0 \lt t_1 \lt \cdots \lt_{n+1} \in [0,1]
+$$
+
+with $t_0 = 0$ and $t_{n+1} = 1$ such that for all $0 \lt j \leg n$ there is $x_j \in X$ such that the corresponding path segment
+
+$$
+  \gamma([t_j, t_{j+1}]) \subset X
+$$
+
+is contained in $U_{x_j}$ from above.
+
+Now assume that $\hat \gamma\vert_{[0,t_j]}$ has been found. Then by the triviality of the covering space over $U_{x_j}$ and the first argument above, there is a unique lift of $\gamma\vert_{[t_j, t_{j+1}]}$ to a continuous function $\hat \gamma|_{[t_j,t_{j+1}]}$ with starting point $\hat \gamma(t_j)$. Since $[0,t_{j+1}]$ is the [[pushout]] $[0,t_j] \underset{\{t_j\}}{\sqcup} [t_j,t_{j+1}]$ ([this example](Top#TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself)), it follows that $\hat \gamma|_{[0,t_j]}$ and $\hat \gamma\vert_{[t_j,t_{j+1}]}$ uniquely glue to a continuous function $\hat \gamma\vert_{[0,t_{j+1}]}$ which lifts $\gamma\vert_{[0,t_{j+1}]}$.
+
+By [[induction]] over $j$, this yields the required lift $\hat \gamma$.
+
+Conversely, given any lift, $\hat \gamma$, then its restrictions $\hat \gamma\vert_{[t_j, t_{j+1}]}$ are uniquely fixed by the above inductive argument. Therefore also the total lift is unique.
 
 =--
 
 
++-- {: .num_prop #CoveringSpacesHomotopyLifting}
+###### Proposition
+**([[homotopy lifting property]] of [[covering spaces]])**
+
+Let $p \colon E \to X$ be a [[covering space]]. Then given a [[homotopy]] relative the starting point between two [[paths]] in $X$, there is for every lift of these two paths to paths in $E$ with the same starting point a unique homotopy between the lifted paths that lifts the given homotopy:
+
+For [[commuting squares]] of the form
+
+$$
+  \array{
+    \{0\} \times \{0,1\} &\longrightarrow& \ast
+    \\
+    \downarrow && \downarrow
+    \\
+    [0,1] \times \{0,1\}
+      &\overset{}{\longrightarrow}&
+    E
+    \\
+    {}^{\mathllap{}}\downarrow
+      &{}^{\mathllap{\hat \eta}}\nearrow&
+    \downarrow^{\mathrlap{p}}
+    \\
+    [0,1] \times [0,1] &\underset{\eta}{\longrightarrow}& X
+  }
+$$
+
+there is a unique diagonal [[lift]] in the lower diagram, as shown.
+
+Moreover if the homotopy $\eta$ also fixes the endpoint, then so does the lifted homotopy $\hat \eta$.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The proof is analogous to that of lemma \ref{CoveringSpacePathLifting}: The [[Lebesgue number lemma]] gives a partition of $[0,1] \times [0,1]$ into a [[finite number]] of squares such that the image of each under $\gamma$ lands in an open subset over which the covering space trivializes. Then there is [[induction|inductively]] a unique appropriate lift over each of these squares.
+
+Finally, if the homotopy in $X$ is constant also at the endpoint, hence on $\{1\} \times [0,1]$, then the function constant on $\hat \eta(1,1)$ is clearly a lift of the path $eta\vert_{\{1\}\times [0,1]}$ and by uniqueness of the path lifting (lemma \ref{CoveringSpacePathLifting}) this means that also $\hat \eta$ is constant on $\{1\} \times [0,1]$.
+
+=--
+
++-- {: .num_example #IfFundamentalGroupsIncludeThenfLoopsLiftToLoops}
+###### Example
+
+
+Let $(E,e) \overset{p}{\longrightarrow} (X,x)$ be a [[pointed topological space|pointed]] [[covering space]]
+and let $f \colon (Y,y) \longrightarrow (X,x)$ be a point-preserving [[continuous function]] such that the image of the [[fundamental group]] of $(Y,y)$ is contained within the image of the fundamental group of $(E,e)$ in that of $(X,x)$:
+
+$$
+  f_\ast(\pi_1(Y,y)) \subset p_\ast(\pi_1(E,e))
+  \phantom{AA}
+  \subset
+  \pi_1(X,x)
+  \,.
+$$
+
+Then for $\ell_Y$ a [[path]] in $(Y,y)$ that happens to be a [[loop]], every lift of its image path $f \circ \ell$ in $(X,x)$ to a path $\widehat{f\circ \ell_Y}$ in $(E,e)$ is also a loop there.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By assumption, there is a loop $\ell_E$ in $(E,e)$ and a homotopy fixing the endpoints of the form
+
+$$
+  \eta_{X} \;\colon\; p \circ \ell_E \Rightarrow f\circ \ell_Y
+  \,.
+$$
+
+Then by the homotopy lifting property (lemma \ref{CoveringSpacesHomotopyLifting}), there is a homotopy in $(E,e)$ fixing the starting point, of the form
+
+$$
+  \eta_{E} \;\colon\; \ell_E \Rightarrow \widehat{f \circ \ell_Y}
+$$
+
+and lifting the homotopy $\eta_X$. Since $\eta_X$ in addition fixes the endpoint, the uniqueness of the path lifting (lemma \ref{CoveringSpacePathLifting}) implies that also $\eta_{E}$ fixes the endpoint. Therefore $\eta_E$ is in fact a homotopy between loops, and so $\weidehat{f \circ \ell_Y}$ is indeed a loop.
+
+=--
+
++-- {: .num_prop #TheTheoremLifting}
+###### Proposition
+**(lifting theorem)**
+
+Let
+
+1. $p \colon E \to X$ be a [[covering space]];
+
+1. $e \in E$ a point, with $x \coloneqq p(e)$ denoting its image,
+
+1. $Y$ be a [[connected topological space|connected]] and [[locally path-connected topological space|locally path-connected]] [[topological space]];
+
+1. $y \in Y$ a point
+
+1. $f \colon (Y,y) \longrightarrow (X,x)$ a [[continuous function]] such that $f(y) = x$.
+
+Then the following are equivalent:
+
+1. There exists a lift $\hat f$ in the diagram
+
+   $$
+     \array{
+       && (E,e)
+       \\
+       & {}^{\mathllap{\hat f}}\nearrow & \downarrow^{\mathrlap{p}}
+       \\
+       (Y,y) &\underset{f}{\longrightarrow}& (X,x)
+     }
+   $$
+
+   of [[pointed topological spaces]].
+
+1. The [[image]] of the [[fundamental group]] of $Y$ under $f$ in that of $X$ is contained in the image of the fundamental group of $E$ under $p$:
+
+   $$
+     f_\ast(\pi_1(Y,y)) \subset p_\ast( \pi_1(E,e) )
+     \,
+   $$
+
+Moreover, if $Y$ is path-connected, then the lift in the first item is unique.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The implication $1) \Rightarrow 2)$ is immediate. We need to show that the second statement already implies the first.
+
+Since $Y$ is connected and locally path-connected, it is also a [[path-connected topological space]] ([this prop.](locally+path-connected+space#ForLocallyPathConnectedTheConnectedComponentsCoincideWithThePathConnectedComponents)). Hence for every point $y' \in Y$ there exists a [[path]] $\gamma$ connecting $y$ with $y'$ and hence a path $f \circ \gamma$ connecting $x$ with $f(y')$.  By the path-lifting property (lemma \ref{CoveringSpacePathLifting}) this has a unique lift
+
+$$
+  \array{
+    \{0\} &\overset{e}{\longrightarrow}& E
+    \\
+    \downarrow &{}^{\mathllap{\widehat{f \circ \gamma}}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    [0,1]
+     &\underset{f \circ \gamma}{\longrightarrow}&
+    X
+  }
+  \,.
+$$
+
+Therefore
+
+$$
+  \hat f(y') \coloneqq \widehat{f \circ \gamma}
+$$
+
+if a lift of $f(y')$.
+
+We claim now that this pointwise construction is independent of the choice $\gamma$, and that as a function of $y'$ it is indeed continuous. This will prove the claim.
+
+Now by the path lifting lemma \ref{CoveringSpacePathLifting} the lift $\widehat{\f \circ \gamma}$ is unique given $f \circ \gamma$, and hence $\hat f(y')$ depends at most on the choice of $\gamma$.
+
+Hence let $\gamma' \colon [0,1] \to Y$ be another path in $Y$ that connects $y$ with $y'$. We need to show that then $\widehat{f \circ \gamma'} = \widehat{f \circ \gamma}$.
+
+First observe that if $\gamma'$ is related to $\gamma$ by a [[homotopy]], so that then also $f \circ \gamma'$ is related to $f \circ \gamma$ by a homotopy, then this is the statement of the homotopy lifting property of lemma \ref{CoveringSpacesHomotopyLifting}.
+
+Next write $\bar\gamma'\cdot \gamma$ for the [[path concatenation]] of the path $\gamma$ with the [[reverse path]] of the path $\gamma'$, hence a loop in $Y$, so that $f \circ (\bar\gamma'\cdot \gamma)$ is a loop in $X$. The assumption that $f_\ast(\pi_1(Y,y)) \subset p_\ast(\pi_1(E,e))$ implies (example \ref{IfFundamentalGroupsIncludeThenfLoopsLiftToLoops}) that the path $\widehat{f \circ (\bar \gamma' \cdot \gamma)}$ which lifts this loop to $E$ is itself a loop in $E$.
+
+By uniqueness of path lifting, this means that the lift of $f \circ ( \gamma' \cdot (\bar\gamma' \cdot \gamma) )$ coincides with that of $f \circ \gamma'$. But $\bar \gamma' \cdot (\gamma' \cdot \gamma)$ is homotopic (via reparameterization) to just $\gamma$. Hence it follows now with the first statement that the lift of $f \circ \gamma'$ indeed coincides with that of $f \circ \gamma$.
+
+This shows that the above prescription for $\hat f$ is well defined.
+
+It only remains to show that the function $\hat f$ obtained this way is continuous.
+
+Let $y' \in Y$ be a point and $W_{\hat f(y')} \subset E$ an open neighbourhood of its image in $E$. It is sufficient to see that there is an open neighbourhood $V_{y'} \subset Y$ such that $\hat f(V_y) \subset W_{\hat f(y')}$.
+
+Let $U_{f(y')} \subset X$ be an open neighbourhood over which $p$ trivializes. Then the restriction
+
+$$
+  p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
+    \;\subset\;
+  U_{f(y')} \times Disc(p^{-1}(f(y')))
+$$
+
+is an open subset of the product space. Consider its further restriction
+
+$$
+  \left( U_{f(y')} \times \{\hat f(y')\} \right)
+    \cap
+  \left(
+    p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
+  \right)
+$$
+
+to the [[leaf]]
+
+$$
+  U_{f(y')} \times \{\hat f(y')\} \;\subset\; U_{f(y')} \times p^{-1}(f(y'))
+$$
+
+which is itself an open subset. Since $p$ is an [[open map]] ([this prop.](covering+space#CoveringProjectionsAreOpenMaps)), the subset
+
+$$
+  p\left(
+    \left(
+      U_{f(y')} \times \{\hat f(y')\}
+    \right)
+      \cap
+    \left(
+      p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
+    \right)
+  \right)
+  \subset X
+$$
+
+is open, hence so is its pre-image
+
+$$
+  f^{-1}
+  \left(
+    p
+      \left(
+        \left(
+          U_{f(y')} \times \{\hat f(y')\}
+        \right)
+          \cap
+        \left(
+          p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
+        \right)
+    \right)
+  \right)
+    \;\subset\;
+  Y
+  \,.
+$$
+
+
+Since $Y$ is assumed to be [[locally path-connected topological space|locally path-connected]], there exists a path-connected open neighbourhood
+
+$$
+  V_{y'}
+    \subset
+  f^{-1}\left(p\left(
+    \left(U_{f(y')} \times \{\hat f(y')\}\right)
+      \cap
+    \left(
+      p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
+    \right)
+  \right)
+  \right)
+  \,.
+$$
+
+By the uniqueness of pah lifting, the image of that under $\hat f$ is
+
+$$
+  \begin{aligned}
+    \hat f(V_{y_'})
+    & =
+    f(V_{y'}) \times \{\hat f(y')\}
+    \\
+     & \subset
+    p\left(
+      \left(U_{f(y')} \times \{\hat f(y')\}\right)
+        \cap
+      \left(
+        p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
+      \right)
+    \right) \times \{\hat f(y')\}
+    \\
+    & \simeq
+      \left( U_{f(y')} \times \{\hat f(y')\} \right)
+        \cap
+      \left(
+        p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
+      \right)
+     \\
+     & \subset W_{\hat f(y')}
+  \end{aligned}
+  \,.
+$$
+
+It remains to show that this lift is unique if $Y$ is path-connected. (...)
+
+=--
+
+
+
+
+### Monodromy
+
++-- {: .num_defn #CoveringSpaceMonodromy}
+###### Definition
+**([[monodromy]] of a covering space)
+
+Let $X$ be a [[topological space]] and $E \overset{p}{\to} X$ a [[covering space]]. Write $\Pi_1(X)$ for the [[fundamental groupoid]] of $X$.
+
+Define a [[functor]]
+
+$$
+  Fib_E
+    \;\colon\;
+  \Pi_1(X)
+    \longrightarrow
+  Set
+$$
+
+to the [[category]] [[Set]] of [[sets]] as follows:
+
+1. to a point $x \in X$ assign the [[fiber]] $p^{-1}(\{x\}) \in Set$;
+
+1. to the [[homotopy class]] of a [[path]] $\gamma$ connecting $x \coloneqq \gamma(0)$ with $y \coloneqq \gamma(1)$ in $X$ assign the function $p^{-1}(\{x\}) \longrightarrow p^{-1}(\{y\})$ which takes $\hat x \in p^{-1}(\{x\})$ to the endpoint of a path $\hat \gamma$ in $E$ which lifts $\gamma$ through $p$ with starting point $\hat \gamma(0) = \hat x$
+
+   $$
+     \array{
+       p^{-1}(x) &\overset{}{\longrightarrow}& p^{-1}(y)
+       \\
+       (\hat x = \hat \gamma(0)) &\mapsto& \hat \gamma(1)
+     }
+     \,.
+   $$
+
+This construction is well defined for a given representative $\gamma$ due to the unique path-lifting property of covering spaces ([this lemma](covering+space#CoveringSpacePathLifting)) and it is independent of the choice of $\gamma$ in the given homotopy class of paths due to the homotopy-lifting property ([this lemma](covering+space#CoveringSpacesHomotopyLifting)).  Similarly, these two lifting properties give that this construction respects composition in $\Pi_1(X)$ and hence is indeed a [[functor]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Given a [[homomorphism]] between two [[covering spaces]] $E_i \overset{p_i}{\to} X$, hence a [[continuous function]] $f \colon E_1 \to E_2$ which respects [[fibers]] in that the [[diagram]]
+
+$$
+  \array{
+    E_1 && \overset{f}{\longrightarrow} && E_2
+    \\
+    & {}_{\mathllap{p_1}}\searrow && \swarrow_{\mathrlap{p_2}}
+    \\
+    && X
+  }
+$$
+
+[[commuting diagram|commutes]], then the component functions
+
+$$
+  f\vert_{\{x\}} \;\colon\; p_1^{-1}(\{x\}) \longrightarrow p_2^{-1}(\{x\})
+$$
+
+are compatible with the monodromy $Fib_{E}$ (def. \ref{CoveringSpaceMonodromy}) along any [[path]] $\gamma$ between points $x$ and $y$ from def. \ref{CoveringSpaceMonodromy} in that the following [[diagrams]] of [[sets]] [[commuting diagram|commute]]
+
+$$
+  \array{
+     p_1^{-1}(x) &\overset{f\vert_{\{x\}}}{\longrightarrow}& p_2^{-1}(x)
+     \\
+     {}^{\mathllap{Fib_{E_1}([\gamma])}}\downarrow
+       &&
+     \downarrow^{\mathrlap{ Fib_{E_2}([\gamma]) }}
+     \\
+     p_1^{-1}(y) &\underset{f\vert_{\{y\}}}{\longrightarrow}& p_2^{-1}(\{y\})
+  }
+  \,.
+$$
+
+This means that $f$ induces a [[natural transformation]] between the monodromy functors of $E_1$ and $E_2$, respectively, and hence that constructing monodromy is itself a functor from the [[category]] of [[covering spaces]] of $X$ to that of [[permutation representations]] of the [[fundamental groupoid]] of $X$:
+
+$$
+  Fib
+   \;\colon\;
+  Cov(X)
+    \longrightarrow
+  Set^{\Pi_1(X)}
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #CoveringSpaceFundamentalGroupoid}
+###### Example
+**([[fundamental groupoid]] of covering space)
+
+Let $E \overset{p}{\longrightarrow} X$ be a covering space.
+
+Then the [[fundamental groupoid]] $\Pi_1(E)$ of the total space $E$ is
+[[equivalence of categories|equivalently]] the [[Grothendieck construction]]
+of the [[monodromy]] functor $Fib_E \;\colon\; \Pi_1(X) \to Set$
+
+$$
+  \Pi_1(E)
+   \;\simeq\;
+  \int_{\Pi_1(X)} Fib_E
+$$
+
+whose
+
+* [[objects]] are pairs $(x,\hat x)$ consisting of a point $x \in X$ and en element $\hat x \in Fib_E(x)$;
+
+* [[morphisms]] $[\hat \gamma] \colon (x,\hat x) \to (x', \hat x')$ are morphisms $[\gamma] \colon x \to x'$ in $\Pi_1(X)$ such that $Fib_E([\gamma])(\hat x) = \hat x'$.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By the uniqueness of the path-lifting, lemma \ref{CoveringSpacePathLifting} and the very definition of the [[monodromy]] functor.
+
+=--
+
++-- {: .num_prop #CoveringConnectivityViaMonodromy}
+###### Proposition
+
+Let $X$ be a [[path-connected topological space]] and let $E \overset{p}{\to} X$ be a [[covering space]]. Then the total space $E$ is
+
+1. [[path-connected topological space|path-connected]] precisely if the [[monodromy]] $Fib_E$ is a [[transitive action]];
+
+1. [[simply connected topological space|simply connected]] precisely if the [[monodromy]] $Fib_E$ is [[free action]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{CoveringSpaceFundamentalGroupoid}.
+
+=--
+
+### Reconstruction
+
+The following is a description of the reconstruction in terms of elementary [[point-set topology]].
+
++-- {: .num_defn #ElementaryReconstructionCoveringSpace}
+###### Definition
+**([[reconstruction of covering spaces from monodromy]])**
+
+Let
+
+1. $(X,\tau)$ be a [[locally path-connected topological space|locally path-connected]] [[semi-locally simply connected topological space|semi-locally simply connected]] [[topological space]],
+
+1. $\rho \in Set^{\Pi_1(X)}$ a [[permutation representation]] of its [[fundamental groupoid]].
+
+Consider the [[disjoint union]] [[set]] of all the sets appearing in this representation
+
+$$
+  E(\rho) \;\coloneqq\;  \underset{x \in X}{\sqcup} \rho(x)
+$$
+
+For an [[open subset]] $U \subset X$ which is [[path-connected topological space|path-connected]] and for which every element of the [[fundamental group]] $\pi_1(U,x)$ becomes trivial under $\pi_1(U,x) \to \pi_1(X,x)$, and for $\hat x \in \rho(x)$ with $x \in U$ consider the subset
+
+$$
+  V_{U,\hat x}
+    \coloneqq
+  \left\{
+    \rho(\gamma)(\hat x)
+    \;\vert\;
+    x' \in U
+    \,,\phantom{A}
+    \gamma \,\text{path from}\, x \,\text{to}\, x'
+  \right\}
+  \;\subset\;
+  E(\rho)
+  \,.
+$$
+
+The collection of these defines a [[base for a topology]] (prop. \ref{ElementaryReconstructedCoveringSpaceWellDefined} below). Write $\tau_{\rho}$ for the corresponding topology. Then
+
+$$
+  (E(\rho), \tau_{\rho})
+$$
+
+is a [[topological space]]. It canonically comes with the function
+
+$$
+  \array{
+    E(\rho) &\overset{p}{\longrightarrow}& X
+    \\
+    \hat x \in \rho(x) &\mapsto& x
+  }
+  \,.
+$$
+
+Finally, for
+
+$$
+  f \;\colon\; \rho_1 \longrightarrow \rho_2
+$$
+
+a [[homomorphism]] of permutation representations, there is the evident induced function
+
+$$
+  \array{
+    E(\rho_1)
+     &\overset{Rec(f)}{\longrightarrow}&
+    E(\rho_2)
+    \\
+    (\hat x \in \rho_1(x)) &\mapsto& (f_x(\hat x) \in \rho_2(x))
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #ElementaryReconstructedCoveringSpaceWellDefined}
+###### Proposition
+
+The construction $\rho \mapsto E(\rho)$ in def. \ref{ElementaryReconstructionCoveringSpace}
+is well defined and yields a [[covering space]] of $X$.
+
+Moreover, the construction $f \mapsto Rec(f)$ yields a homomorphism of covering spaces.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First to see that we indeed have a [[topological space|topology]], we need to check  (by [this prop.](topological+base#Recognition)) that every point is contained in some base element, and that every point in the intersection of two base elements has a base neighbourhood that is still contained in that intersection.
+
+So let $x \in X$ be a point. By the assumption that $X$ is [[semi-locally simply connected]] there exists an [[open neighbourhood]] $U_x \subset X$ such that every loop in $U_x$ on $x$ is contractible in $X$. Moreover by the assumption that $X$ is [[locally path-connected topological space]], this contains a possibly smaller open neighbourhood $U'_x \subset U_x$ which is [[path-connected topological space|path connected]]. Moreover, as every subset of $U_x$, it still has the property that every loop in $U'_x$ based on $x$ is contractible as a loop in $X$. Now let $\hat x \in E$ be any point over $x$, then it is contained in the base open $V_{U'_x,x}$.
+
+The argument for the base open neighbourhoods contained in intersections is similar.
+
+
+Then we need to see that $p \colon E(\rho) \to X$ is a [[continuous function]]. Since taking pre-images preserves unions ([this prop.](interactions+of+images+and+pre-images+with+unions+and+intersections#PreImagePreservesUnionsAndIntersections)), and since by semi-local simply connectedness every neighbourhood contains an open $U \subset X$ that labels a base open, it is sufficient to see that $p^{-1}(U)$ is a base open. But by the very assumption on $U$, there is a unique morphism in $\Pi_1(X)$ from any point $x \in U$ to any other point in $U$, so that $\rho$ applied to these paths establishes a bijection of sets
+
+$$
+  p^{-1}(U)
+    \;\simeq\;
+  \underset{\hat x \in \rho(x)}{\sqcup} V_{U,\hat x}
+    \;\simeq\;
+  U \times \rho(x)
+  \,,
+$$
+
+thus exhibiting $p^{-1}(U)$ as a union of base opens.
+
+Finally we need to see that this continuous function $p$ is a covering projection, hence that every point $x \in X$ has a neighbourhood $U$ such that $p^{-1}(U) \simeq U \times \rho(x)$. But this is again the case for those $U$ all whose loops are contractible in $X$, by the above identification via $\rho$, and these exist around every point by semi-local simply-connetedness of $X$.
+
+This shows that $p \colon E(\rho) \to X$ is a covering space. It remains to see that $Ref(f) \colon E(\rho_1) \to E(\rho_2)$ is a homomorphism of covering spaces. Now by construction it is immediate that this is a function over $X$, in that this [[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    E(\rho_1) && \overset{Rec(f)}{\longrightarrow}&& E(\rho_2)
+    \\
+    & \searrow && \swarrow
+    \\
+    && X
+  }
+  \,.
+$$
+
+So it only remains to see that $Ref(f)$ is a [[continuous function]]. So consider $V_{U, y_2 \in \rho_2(x)}$ a base open of $E(\rho_2)$. By [[natural transformation|naturality]] of $f$ its pre-image under $Rec(f)$ is
+
+$$
+  Rec(f)^{-1}(V_{U, y_2 \in \rho_2(x)})
+  =
+  \underset{y_1 \in f^{-1}(y_2)}{\sqcup} V_{U,y_1}
+$$
+
+and hence a union of base opens.
+
+=--
+
+
+
+## Topological Galois theory
+
+### Fundamental theorem of covering spaces
 
 +-- {: .num_theorem #FundamentalTheoremOfCoveringSpaces}
 ###### Theorem
 **([[fundamental theorem of covering spaces]])**
 
-Let $X$ be a [[topological space]] which is [[connected topological space|path-connected]] (def. \ref{pi0}),
-[[locally path-connected topological space|locally path connected]] (def. \ref{SemiLocallySimplyConnected})
-and [[semi-locally simply connected topological space|semi-locally simply connected]] (def. \ref{SemiLocallySimplyConnected}). Then
-for any $x \in X$ the functor
-$$
-  Fib_x \;\colon\; Cov(X) \overset{}{\longrightarrow} \pi_1(X,x) Set
-  \,.
-$$
-from def. \ref{ActionOfFundamentalGroupOnFibersOfCovering} that describes
-the [[action]] of the [[fundamental group]] of $X$ on the set of [[leaves]] over $x$
-has the following property:
+Let $X$ be a [[locally path-connected topological space|locally path-connected]] and [[semi-locally simply-connected topological space]]. Then the operations on
 
-1. every [[isomorphism class]] of $\pi_1(X,x)$-[[actions]] is in the image of the functor (one says: the functor is _[[essentially surjective functor|essentially surjective]]_);
+1. extracting the [[monodromy]] $Fib_{E}$ of a [[covering space]] $E$ over $X$
 
-1. for any two covering spaces $E_1, E_2$ of $X$ then the map on [[hom-sets|morphism sets]]
+1. [[reconstructing a covering space from monodromy]] $Rec(\rho)$
 
-   $$
-     Fib_x \;\colon\; Hom_{Cov(X)}(E_1, E_2) \longrightarrow Hom( Fib_x(E_1), Fib_x(E_2) )
-   $$
-
-   is a [[bijection]] (one says the functor is a _[[fully faithful functor]]_ ).
-
-
-A functor with these two properties one calls an _[[equivalence of categories]]_:
+constitute an [[equivalence of categories]]
 
 $$
-  Cov(X) \overset{\simeq}{\longrightarrow} \pi_1(X,x) Set
+  Cov(X)
+    \underoverset
+      {\underset{Fib}{\longrightarrow}}
+      {\overset{Rec}{\longleftarrow}}
+      {}
+  Set^{\Pi_1(X)}
   \,.
 $$
 
 =--
 
-This has some interesting implications:
++-- {: .proof}
+###### Proof
 
-Every sufficiently nice topological space $X$ as above has a covering which is [[simply connected topological space|simply connected]]
-(def. \ref{SimplyConnected}). This is the covering corresponding, under the [[fundamental theorem of covering spaces]]
-(theorem \ref{FundamentalTheoremOfCoveringSpaces}) to the action of $\pi_1(X)$ on itself.
-This is called the _[[universal covering space]]_ $\hat X \to X$. The above theorem implies that the
-[[fundamental group]] itself may be recovered as the [[automorphisms]] of the universal covering space:
+Given $\rho \in Set^{\Pi_1(X)}$ a [[permutation representation]],
+we need to exhibit a [[natural isomorphism]] of permutation representations.
 
 $$
-  \pi_1(X) \simeq Aut_{Cov_{/X}}(\hat X, \hat X)
+  \eta_{\rho}
+    \;\colon\;
+  \rho \longrightarrow Fib(Rec(\rho))
+$$
+
+First consider what the right hand side is like:
+By [this def.](reconstruction+of+covering+spaces+from+monodromy#ElementaryReconstructionCoveringSpace) of $Rec$ and [this def.](monodromy#CoveringSpaceMonodromy) of $Fib$ we have for every $x \in X$ an actual equality
+
+$$
+  Fib(Rec(\rho))(x) = \rho(x)
+  \,.
+$$
+
+To similarly understand the value of $Fib(Rec(\rho))$ on morphisms $[\gamma] \in \Pi_1(X)$, let $\gamma \colon [0,1] \to X$ be a representing [[path]] in $X$. We find, by the [[Lebesgue number lemma]] as in the proof of [this lemma](covering space#CoveringSpacePathLifting), a [[finite number]] of paths $\{\gamma_i\}_{i \in \{1,n\}}$ such that
+
+1. regarded as morphisms $[\gamma_i]$ in $\Pi_1(X)$ they [[composition|compose]] to $[\gamma]$:
+
+   $$
+     [\gamma] = [\gamma_n] \circ \cdots \circ [\gamma_2] \circ [\gamma_1]
+   $$
+
+1. each $\gamma_i$ factors through an open subset $U_i \subset X$ over which $Rec(\rho)$ trivializes.
+
+Hence by [[functor|functoriality]] of $Fib(Rec(\rho))$ it is sufficient to understand its value on these paths $\gamma_i$. But on these we have again by direct unwinding of the definitions that
+
+$$
+  Fib(Rec(\rho))([\gamma_i]) = \rho([\gamma_i])
+  \,.
+$$
+
+This means that if we take
+
+$$
+  \eta_\rho(x) \colon \rho(x) \overset{=}{\longrightarrow} Fib(Rec(\rho))
+$$
+
+to be the above identification, then this is a [[natural transformation]] and hence in a particular a natural isomorphism, as required.
+
+Conversely, given $E \in Cov(X)$ a covering space, we need to exhibit a natural isomorphism of covering spaces of the form
+
+$$
+  \epsilon_E
+    \;\colon\;
+  Rec(Fib(E)) \longrightarrow E
+  \,.
+$$
+
+Again by [this def.](reconstruction+of+covering+spaces+from+monodromy#ElementaryReconstructionCoveringSpace) of $Rec$ and [this def.](monodromy#CoveringSpaceMonodromy) of $Fib$  the underlying set of $Rec(Fib(E))$ is actually equal to that of $E$, hence it is sufficient to check that this [[identity function]] on underlying sets is a [[homeomorphism]] of [[topological spaces]].
+
+By the assumption that $X$ is [[locally path-connected topological space|locally path-connected]] and [[semi-locally simply connected topological space|semi-locally simply connected]], it is sufficient to check for $U\subset X$ an open path-connected subset and $x \in X$ a point with the property that $\pi_1(U,x) \to \pi_1(X,x)$ lands is constant on the trivial element, that the open subsets of $E$ of the form $U \times \{\hat x\} \subset p^{-1}(U)$ form a basis for the topology of $Rec(Fib(E))$. But this is the case by definition of $Rec$.
+
+This proves the equivalence.
+
+(Notice that the assumption of local path-connectedness and semi-local simply-connectedness of $X$ is used only to guarantee that the functor $Rec$ exists in the first place.)
+
+
+=--
+
+
+### Applications
+
++-- {: .num_prop}
+###### Proposition
+**([[fundamental group of the circle is the integers]])**
+
+The [[fundamental group]] $\pi_1$ of the [[circle]] $S^1$ is the additive group of [[integers]]:
+
+
+$$
+  \pi_1(S^1) \overset{\simeq}{\longrightarrow} \mathbb{Z}
+$$
+
+and the isomorphism is given by assigning [[winding number]].
+
+=--
+
+Here in the context of [[topological homotopy theory]] the [[circle]] $S^1$ is the [[topological subspace]] $S^1 = \{x \in \mathbb{R}^2 \,\vert\, x_1^2 + x_2^2 = 1 \} \subset \mathbb{R}^2$ of the [[Euclidean plane]] with its [[metric topology]], or any [[topological space]] of the same [[homotopy type]]. More generally, the circle in question is, as a [[homotopy type]], the [[homotopy pushout]]
+
+$$
+  S^1 \simeq \ast \underset{\ast \sqcup \ast}{\coprod} \ast
+  \,,
+$$
+
+hence the [[homotopy type]] with the [[universal property]] that it makes a homotopy commuting diagram of the form
+
+$$
+  \array{
+    \ast \sqcup \ast &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    \ast &\longrightarrow& S^1
+  }
   \,.
 $$
 
 
-+-- {: .num_example #FundamentalGroupOfTheCircle}
-###### Example
-**(computing the fundamental group of the circle)**
++-- {: .proof #ClassicalPointSetProof}
+###### Proof
 
-The covering $\exp(2\pi i(-)) \;\colon\; \mathbb{R}^1 \to S^1$ from example \ref{CoveringOfCircleByRealLine}
-is [[simply connected topological space|simply connected]] (def. \ref{SimplyConnected}),  hence must be the [[universal covering space]], up to [[homeomorphism]].
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/UniversalCoveringOfCircle.png" width="150">
+</div>
 
-It is fairly straightforward to see that the only [[homeomorphisms]] from $\mathbb{R}^1$ to itself
-over $S^1$ are given by [[integer]] translations by $n \in \mathbb{N} \hookrightarrow \mathbb{R}$:
+The [[universal covering space]] $\widehat{S^1}$ of $S^1$ is the [[real line]] (by [this example](universal+covering+space#UniversalCoveringOfCircleRealLine)):
+
+$$
+  p \coloneqq (cos(2 \pi(-)), \sin(2 \pi(-)))
+   \;\colon\; \mathbb{R}^1 \longrightarrow S^1
+  \,.
+$$
+
+Since the [[circle]] is [[locally path-connected topological space|locally path-connected]] ([this example](locally+path-connected+space#LocallyPathConnectedCircle)) and [[semi-locally simply connected topological space|semi-locally simply connected]] ([this example](semi-locally+simply+connected+topological+space#LocallySimplyConnectedCircle)) the [[fundamental theorem of covering spaces]] applies and gives that the [[automorphism group]] of $\mathbb{R}^1$ over $S^1$ equals the automorphism group of its [[monodromy]] [[permutation representation]]:
+
+$$
+  Aut_{Cov(S^1)}(\mathbb{R}^1)
+    \;\simeq\;
+  Aut_{\pi_1(S^1) Set}(Fib_{S^1})
+  \,.
+$$
+
+Moreover, as a corollary of the [[fundamental theorem of covering spaces]] we have that the [[monodromy]] representation of a [[universal covering space]] is given by the [[action]] of the [[fundamental group]] $\pi_1(S)$ on itself ([this prop.](universal+covering+space#ReconstructCoveringForFreeAndTransitiveMonodromyRepresentation)).
+
+But the [[automorphism group]] of any group regarded as an [[action]] on itself by left multiplication is canonically isomorphic to that group itself (by [this example](permutation+representation#AutomorphismsOfGAsGTorsor)), hence we have
+
+$$
+  Aut_{{\pi_1(S^1)} Set}(Fib_{S^1})
+   \;\simeq\;
+  Aut_{{\pi_1(S^1)} Set}( \pi_1(S^1) )
+   \;\simeq\;
+  \pi_1(S^1)
+  \,.
+$$
+
+Therefore to conclude the proof it is now sufficient to show that
+
+$$
+  \mathrm{Aut}_{Cov(S^1)}(\mathbb{R}^1) \simeq \mathbb{Z}
+  \,.
+$$
+
+To that end, consider a [[homeomorphism]] of the form
 
 $$
   \array{
-    \mathbb{R}^1
-      &&
-        \underoverset{\simeq}{t \mapsto t + n}{\longrightarrow}
-      &&
-    \mathbb{R}^1
+    \mathbb{R}^1 && \underoverset{\simeq}{f}{\longrightarrow} && \mathbb{R}^1
     \\
-    & {}_{\mathllap{\exp(2 \pi i(-))}}\searrow && \swarrow_{\mathrlap{\exp(2 \pi i(-))}}
+    & {}_{\mathllap{p}}\searrow && \swarrow_{\mathrlap{p}}
     \\
     && S^1
   }
   \,.
 $$
 
-Hence
+Let $s \in S^1$ be any point, and consider the restriction of $f$ to the fibers over the [[complement]]:
 
 $$
-  Aut_{Cov_{/S^1}}(\hat S^1, \hat S^1) \simeq \mathbb{Z}
-$$
-
-and hence the [[fundamental group]] of the [[circle]] is the additive group of [[integers]]:
-
-$$
-  \pi_1(S^1) \simeq \mathbb{Z}
+  \array{
+    p^{-1}(S^1 \setminus \{s\}) && \underoverset{\simeq}{f}{\longrightarrow} && p^{-1}(S^1 \setminus \{s\})
+    \\
+    & {}_{\mathllap{p}}\searrow && \swarrow_{\mathrlap{p}}
+    \\
+    && S^1 \setminus \{s\}
+  }
   \,.
 $$
 
+By the [[covering space]] property we have (via [this example](universal+covering+space#UniversalCoveringOfCircleRealLine)) a [[homeomorphism]]
+
+$$
+  p^{-1}(S^1 \setminus \{s\})
+   \simeq
+  (0,1) \times Disc(\mathbb{Z})
+  \,.
+$$
+
+Therefore, up to homeomorphism,  the restricted function is of the form
+
+$$
+  \array{
+    (0,1)\times Disc(\mathbb{Z})
+      &&
+      \underoverset{\simeq}{f}{\longrightarrow}
+      &&
+    (0,1) \times Disc(\mathbb{Z})
+    \\
+    & {}_{pr_1}\searrow && \swarrow_{pr_1}
+    \\
+    && (0,1)
+  }
+  \,.
+$$
+
+By the [[universal property]] of the [[product topological space]] this means that $f$ is equivalently given by its two components
+
+$$
+  (0,1) \times Disc(\mathbb{Z})
+    \overset{pr_1 \circ f}{\longrightarrow}
+  (0,1)
+  \phantom{AAAA}
+  (0,1) \times Disc(\mathbb{Z})
+    \overset{pr_2 \circ f}{\longrightarrow}
+  Disc(\mathbb{Z})
+  \,.
+$$
+
+By the [[commuting diagram|commutativity]] of the above [[diagram]], the first component is fixed to be $pr_1$. Moreover, by the fact that $Disc(\mathbb{Z})$ is a [[discrete space]] it follows that the second component is a [[locally constant function]] (by [this example](locally+constant+function#LocallyConstantFunctionIntoDiscreteSpace)). Therefore, since the [[product space]] with a [[discrete space]] is a [[disjoint union space]]  (via [this example](product+topological+space#ProductWithDiscreteFiniteTopologicalSpace))
+
+$$
+  (0,1) \times Disc(\mathbb{Z}) \simeq \underset{n \in \mathbb{Z}}{\sqcup}(0,1)
+$$
+
+and since the disjoint summands $(0,1)$ are [[connected topological spaces]] ([this example](connected+space#ConnectedSubspacesOfRealLineAreTheIntervals)), it follows that the second component is a [[constant function]] on each  of these summands (by [this example](connected+space#LocallyConstantFunctionsOnConnectedSpaces)).
+
+Finally, since every function out of a [[discrete topological space]] is continuous, it follows in conclusion that the restriction of $f$ to the fibers over $S^1 \setminus \{s\}$ is entirely encoded in an [[endofunction]] of the set of [[integers]]
+
+$$
+  \phi \;\colon\; \mathbb{Z} \to \mathbb{Z}
+$$
+
+by
+
+$$
+  \array{
+    S^1 \setminus \{s\} \times Disc(\mathbb{Z})
+      &\overset{f}{\longrightarrow}&
+    S^1 \setminus \{s\} \times Disc(\mathbb{Z})
+    \\
+    (t,k) &\mapsto& (t, \phi(k))
+  }
+  \,.
+$$
+
+
+Now let $s' \in S^1$ be another point, distinct from $s$. The same analysis as above applies now to the restriction of $f$ to $S^1 \setminus \{s'\}$ and yields a function
+
+$$
+  \phi' \;\colon\; \mathbb{Z} \longrightarrow \mathbb{Z}
+  \,.
+$$
+
+
+Since
+
+$$
+  \left\{
+    p^{-1}(S^1 \setminus \{s\})
+    \subset \mathbb{R}^1
+     \,,\,
+    p^{-1}(S^1 \setminus \{s'\})
+    \subset \mathbb{R}^1
+  \right\}
+$$
+
+is an [[open cover]] of $\mathbb{R}^1$, it follows that $f$ is unqiuely fixed by its restrictions to these two subsets.
+
+Now unwinding the definition of $p$ shows that the condition that the two restrictions coincide on the intersection $S^1 \setminus \{s,s'\}$ implies that there is $n \in \mathbb{Z}$ such that $\phi(k) = k+ n$ and $\phi'(k) = k+n$.
+
+This shows that $Aut_{Cov(S^1)}(\mathbb{R}^1) \simeq \mathbb{Z}$.
+
 =--
 
-$\,$
-
-***
 
 $\,$
-
 
 
 ## References
