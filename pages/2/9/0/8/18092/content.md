@@ -53,7 +53,7 @@ For $p = \infty$ one takes the [[supremum]] over the [[absolute values]] of the 
 $$
   {\Vert \vec x\Vert_\infty}
     \;\coloneqq\;
-  \underset{1 \leq i \leq n}{\sub} {\vert x_i\vert}
+  \underset{1 \leq i \leq n}{sup} {\vert x_i\vert}
   \,.
 $$
 
