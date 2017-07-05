@@ -20,7 +20,12 @@
 
 ## Summary
 
-The _Tietze extension theorem_ says that [[continuous functions]] extend from [[closed subsets]] of a [[normal topological space]] $X$ to the whole space $X$. 
+The _Tietze extension theorem_ says that [[continuous functions]] [[extension|extend]] from [[closed subsets]] of a [[normal topological space]] $X$ to the whole space $X$. 
+
+This is a close cousin of [[Urysohn's lemma]] with many applications.
+
+One implication is that [[topological vector bundles]] over a topological space $X$ that trivialize over a [[closed subspace]] $A$ are equivalent to vector bundles on the [[quotient space]] $X/A$ (see [there](topological+vector+bundle#OverClosedSubspaces)). This in turn is what implies the [[long exact sequence in cohomology]] for [[topological K-theory]] (see [there](topological+K-theory#ExactSequences)).
+
 
 
 ## Statement 
