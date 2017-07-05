@@ -35,6 +35,26 @@ $$
 
 What us _uniform_ about this convergence is that the bound $N(\epsilon)$ is required to work for all $x \in X$ (hence uniformly over $x$). This is in contrast to [[pointwise convergence]] where one allows a different bound $N$ to exist for each $\epsilon$ and each point $x \in X$ separately. Since for non-[[finite set|finite]] $X$ the [[maximum]] of all such local choices of $N$ in general does not exist, uniform convergence is a stronger condition than [[pointwise convergence]].
 
+## Examples
+
++-- {: .num_prop #FunctionsUniformCauchySequence}
+###### Proposition
+
+Let 
+
+1. $X$ be a [[set]];
+
+1. $Y$ a [[complete space|complete]] [[metric space]].
+
+Consider the set $F(X,Y)$ of [[functions]] $X \to Y$ as a [[metric space]] via the [[supremum norm]]. Then this is again [[complete space|complete]]: every [[Cauchy sequence]] of functions converges uniformly.
+
+If $X$ is equipped with the structure of a [[topological space]] and if the Cauchy sequence of functions consist of [[continuous functions]], then also the [[limit of a sequence|limit]] function is continuous.
+
+=--
+
+(e.g. [Gamelin-Greene 83, theorem I 2.5 and II 3.5](#GamelnGreene83))
+
+
 ## Related concepts
 
 * [[pointwise convergence]]
@@ -48,4 +68,8 @@ What us _uniform_ about this convergence is that the bound $N(\epsilon)$ is requ
 ## References
 
 * Wikipedia, _[Uniform convergence](https://en.wikipedia.org/wiki/Uniform_convergence)_
+
+## References
+
+* {#GamelinGreene83} Theodore Gamelin, Robert Greene, _Introduction to Topology_, Dover (1983, 199)
 
