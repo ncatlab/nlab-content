@@ -55,22 +55,158 @@ Therefore one also says that _$\mathbb{R}$ is an [[absolute extensor]]_ in [[top
 +-- {: .proof}
 ###### Proof
 
-First assume that $f$ is a [[bounded function]], so that there exists a bound $c \in \mathbb{R}$ with $\underset{a \in A}{\forall} {\vert f(a)\vert} \leq c$. 
 
-We produce a [[sequence]] of approximations to the desired extension by [[induction]]. Then we will observe that the sequence is a [[Cauchy sequence]] and conclude by observing that this implies that it [[limit of a sequence]] is an extension of $f$ as desired.
+We produce a [[sequence]] of approximations to the desired extension by [[induction]]. Then we will observe that the sequence is a [[Cauchy sequence]] and conclude by observing that this implies that it [[limit of a sequence|limit]] is an extension of $f$ as desired.
 
-To start the induction, define the [[pre-images]]
+
+For the induction step, let 
 
 $$
-  E_0 \coloneqq f^{-1}( (-\infty, -c/3] )
-  \phantom{AAAA}
-  F_0 \coloneqq f^{-1}( [c/3, \infty) )
+  \hat f_n \;\colon\; X \longrightarrow \mathbb{R}
+$$
+
+be a [[continuous function]] on $X$ such that the difference of its restriction to $A$ with $f$ is a [[bounded function]], for a bound $c_n \in (0,\infty) \subset \mathbb{R}$:
+
+$$
+  \underset{a \in A}{\forall} 
+  \left( 
+    { \left\Vert f(a) - \hat f_n (a) \right\Vert } \leq c_n
+  \right)
   \,.
 $$
 
-Since the subsets $(-\infty,-c/3], [8c/3,\infty) \subset \mathbb{R}$ are [[closed subsets]], and since $f$ is a [[continuous function]], these are [[closed subsets]] of $A$.
+Consider then the subsets 
 
-Now...
+$$
+  S_- \coloneqq \left( f - \hat f_n\vert_A \right)^{-1}\big( [-c_n, -c_n/3] \big) 
+  \phantom{AAAA}
+  S_+ \coloneqq \left( f - \hat f_n\vert_A \right)^{-1}\big( [c_n/3, c_n] \big)
+  \,.
+$$
+
+Since the [[closed intervals]] $[-c_n,-c_n/3], [c_n/3, c_n] \subset \mathbb{R}$ are [[closed subsets]], and since $f - \hat f_n\vert_A$ is a [[continuous function]], these are [[closed subsets]] of $A$. Moreover, since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]], these are also closed subsets of $X$.
+
+Therefore, since $X$ is [[normal topological space|normal]] by assumption, it follows by [[Urysohn's lemma]] that there is a continuous function
+
+$$
+  \phi \;\colon\; X \longrightarrow \mathbb{R}
+$$
+
+with 
+
+$$
+  \underset{x \in X}{\forall} \left( 0 \leq \phi(x) \leq 1 \right)
+$$
+
+and
+
+$$
+  \phi\vert_{S_+} = 1
+  \phantom{AAAA}
+  \phi\vert_{S_-} = 0
+  \,.
+$$
+
+Consider then the continuous function
+
+$$
+  g
+    \;\coloneqq\;
+  \tfrac{2 c}{3} \phi
+  - \tfrac{c}{3}
+$$
+
+with 
+
+$$
+  \underset{x \in X}{\forall} \left( -\frac{c_n}{3} \leq g(x) \leq \frac{c_n}{3} \right)
+$$
+
+and
+
+$$
+  \phi\vert_{S_+} = \frac{c_n}{3}
+  \phantom{AAAA}
+  \phi\vert_{S_-} = -\frac{c_n}{3}
+  \,.
+$$
+
+
+$$
+  \underset{x \in X}{\forall} \left( -\tfrac{c}{3} \leq g (x) \leq \tfrac{c}{3} \right)
+  \,.
+$$
+
+Moreover, this function satisfies
+
+$$
+ \underset{a \in A}{\forall} 
+ \left(
+    \left\Vert f - \hat f_n(a) - g(a)  \right\Vert
+    \leq \tfrac{2 c_n}{3}
+ \right)
+ \,.
+$$
+
+To wit, this is because
+
+1. for $a \in S_+$ we have $g(a) = \tfrac{c_n}{3}$ and $f(a) + \hat f(a) \in [c_n/3,c_n]$;
+
+1. for $a \in S_-$ we have $g(a) = -\tfrac{c_n}{3}$ and $f(a) + \hat f(a) \in [-c_n/3,-c_n]$;
+
+1. for $a \in Y \setminus \{S_+ \cup S_-\}$ we have $g(a) \in [-c_n/3,c_n3]$ as well as $f(a) + \hat f_n(a) \in [-c_n/3, c_n/3]$.
+
+
+It follows that if we set
+
+$$
+  \hat f_{n+1} \coloneqq \hat f_n + g
+$$
+
+then
+
+$$
+  \underset{a \in A}{\forall}
+  \left(
+     { \left\Vert f(a) - \hat f_{n+1}(a) \right\Vert }
+     \leq 
+     \tfrac{2 c_n}{3}
+  \right)
+  \,.
+$$
+
+This gives the induction step.
+
+To start the induction, first assume that $f$ is bounded by a constant $c_0$. Then we may set 
+
+$$
+  \hat f_0 \coloneqq const_0
+  \,.
+$$
+
+Hence [[induction]] now gives a [[sequence]] of continuous functions
+
+$$
+  (\hat f_n)_{n \in \mathbb{N}}
+$$
+
+with the property that 
+
+$$
+  \underset{a \in A}{\forall} 
+  \left(
+    \left\Vert f(a) -\hat f_n(a) \right\Vert
+    \leq \left( \tfrac{2}{3}\right)^n c
+  \right)
+  \,.
+$$
+
+Moreover, by construction the sequence satisfies
+
+$$
+  ,,,
+$$
+
 
 =--
 
