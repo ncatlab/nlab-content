@@ -28,6 +28,10 @@ This theorem establishes an [[isomorphism]] between the [[absolute Galois groups
 
 ## References
 
+Exposition includes
+
+* Michael Harris, _The perfectoid concept: Test case for an absent theory_ ([pdf](http://www.math.columbia.edu/~harris/otherarticles_files/perfectoid.pdf))
+
 The concept is due to 
 
 * {#Scholze11} [[Peter Scholze]], _Perfectoid spaces_ ([arXiv:1111.4914](http://arxiv.org/abs/1111.4914))
