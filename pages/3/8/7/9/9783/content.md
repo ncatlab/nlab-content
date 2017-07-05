@@ -2,12 +2,14 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Functional analysis
+#### Analysis
 +-- {: .hide}
-[[!include functional analysis - contents]]
+[[!include analysis - contents]]
 =--
 =--
 =--
+
+
 
 # Bounded sets
 * table of contents
@@ -51,6 +53,7 @@ The family of all bounded sets of a LCTVS defines a [[bornology]] on its [[under
 
 * [[totally bounded metric space]]
 
+* [[bounded function]]
 
 [[!redirects bounded set]]
 [[!redirects bounded sets]]
