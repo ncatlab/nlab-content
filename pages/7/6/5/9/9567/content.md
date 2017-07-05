@@ -28,9 +28,13 @@ An (ordinary) __series__ $\sum_{n=0}^\infty a_n$ whose members are the elements 
 
 The most straightforward notion of the **sum** of a series is the [[limit of a sequence|limit]] of its sequence of partial sums, if this sequence converges, relative to some [[topological space|topology]] on the space where the members of the sequence belong to.  A series that does not converge in this sense is called [[divergent series|divergent]]; sometimes these can also be "summed" by fancier techniques.
 
-## Related concepts
+## Examples
+
+* [[geometric series]]
 
 * [[Taylor series]]
+
+## Related concepts
 
 * [[asymptotic series]]
 
