@@ -116,8 +116,6 @@ $$
 ## Related theorems
  {#RelatedTheorems}
 
-* [[Hadamard lemma]]
-
 * [[Borel's theorem]]
 
 * the [[Tietze extension theorem]]
