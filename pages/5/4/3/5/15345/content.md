@@ -25,6 +25,8 @@ This theorem establishes an [[isomorphism]] between the [[absolute Galois groups
 
 * [[global analytic geometry]]
 
+* [[p-adic Hodge theory]]
+
 
 ## References
 
@@ -43,6 +45,8 @@ motivated by
 Review includes
 
 * {#Bhatt14} [[Bhargav Bhatt]], _What is... a perfectoid space?_, Notices of the AMS, volume 61, number 9 ([[BhattPerfectoidSpace.pdf:file]])
+
+* [[Bhargav Bhatt]], _Lecture notes for a class on perfectoid spaces_, ([pdf](/http://www-personal.umich.edu/~bhattb/teaching/mat679w17/lectures.pdf))
 
 * [[Peter Scholze]], _Perfectoid spaces: a survey_, [arXiv](http://arxiv.org/abs/1303.5948).
 
