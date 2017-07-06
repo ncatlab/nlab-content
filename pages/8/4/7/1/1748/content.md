@@ -202,9 +202,14 @@ Likewise if there is a [[cylinder functor]], one gets functorially defined [[cyl
 
 [[!include homotopy-homology-cohomology]]
 
-* [[homotopy class]]
+
+* [[left homotopy]], [[right homotopy]]
+
+* [[homotopy relative boundary]]
 
 * [[higher homotopy]]
+
+* [[homotopy class]]
 
 * [[transfor]]
 
