@@ -9,10 +9,10 @@
 ***
 
 This page is a detailed introduction to basic [[topological homotopy theory|topological]] [[homotopy theory]].
-We introduce the [[fundamental group]] of [[topological spaces]] and the concept of 
-[[covering spaces]]. Then we prove the [[fundamental theorem of covering spaces]], saying that 
+We introduce the [[fundamental group]] of [[topological spaces]] and the concept of
+[[covering spaces]]. Then we prove the [[fundamental theorem of covering spaces]], saying that
 they are equivalent to [[permutation representations]] of the fundamental group. This is
-a simple topological version of the general principle of _[[Galois theory]]_ and has many 
+a simple topological version of the general principle of _[[Galois theory]]_ and has many
 applications. As one example application, we use it to prove that the [[fundamental group of the circle is the integers]].
 
 
@@ -118,9 +118,9 @@ In the following we use this terminlogy:
 ###### Definition
 **([[topological interval]])
 
-The _[[topological interval]]_ is 
+The _[[topological interval]]_ is
 
-1. the [[closed interval]] $[0,1] \subset \mathbb{R}^1$ 
+1. the [[closed interval]] $[0,1] \subset \mathbb{R}^1$
    regarded as a [[topological space]] in the standard way, as a [[subspace]] of the [[real line]] with its [[Euclidean space|Euclidean]] [[metric topology]],
 
 1. equipped with the [[continuous functions]]
@@ -130,21 +130,21 @@ The _[[topological interval]]_ is
    1. $const_1 \;\colon\; \ast \to [0,1]$
 
    which include the [[point space]] as the two endpoints, respectively
-   
+
 1. equipped with the (unique) [[continuous function]]
 
    $$
      [0,1] \overset{}{\longrightarrow} \ast
    $$
-   
+
    to the [[point space]] (which is the [[terminal object]] in [[Top]])
-   
+
 regarded, in summary, as a factorization
 
 $$
-  \nabla_\ast  
+  \nabla_\ast
     \;\colon\;
-  \ast \sqcup \ast 
+  \ast \sqcup \ast
     \overset{(const_0,const_1)}{\longrightarrow}
   [0,1]
     \overset{}{\longrightarrow}
@@ -153,7 +153,7 @@ $$
 
 of the [[codiagonal]] on the point space, namely the unique continuous function $\nabla_\ast$
 out of the [[disjoint union space]] $\ast \sqcup \ast \simeq Disc(\{0,1\})$
-([[homeomorphism|homeomorphic]] to the [[discrete topological space]] on two elements). 
+([[homeomorphism|homeomorphic]] to the [[discrete topological space]] on two elements).
 
 =--
 
@@ -163,11 +163,11 @@ out of the [[disjoint union space]] $\ast \sqcup \ast \simeq Disc(\{0,1\})$
 ###### Definition
 **([[homotopy]])**
 
-Let $X,Y \in $ [[Top]] be two [[topological spaces]] and let 
+Let $X,Y \in $ [[Top]] be two [[topological spaces]] and let
 
 $$
   f,g\colon X \longrightarrow Y
-$$ 
+$$
 
 be two [[continuous functions]] between them.
 
@@ -218,10 +218,10 @@ $$
   \text{and}
   \phantom{AAA}
   \eta(-,1) = g
-  \,.  
+  \,.
 $$
 
-If there is a homotopy $f \Rightarrow g$ (possibly unspecified) 
+If there is a homotopy $f \Rightarrow g$ (possibly unspecified)
 we say that $f$ is _homotopic_ to $g$, denoted
 
 $$
@@ -237,14 +237,14 @@ $$
 **([[homotopy]] is an [[equivalence relation]])
 
 Let $X,Y \in $ [[Top]] be two [[topological spaces]].
-Write $Hom_{Top}8X,Y9$ for the [[set]] of [[continuous functions]]
-from $X$ to 4y4. 
+Write $Hom_{Top}(X,Y)$ for the [[set]] of [[continuous functions]]
+from $X$ to $Y$.
 
-Then being [[homotopy|homotopic]] (def. \ref{LeftHomotopy}) is an [[equivalence relation]]
+Then the relating of being [[homotopy|homotopic]] (def. \ref{LeftHomotopy}) is an [[equivalence relation]]
 on this set. The correspnding [[quotient set]]
 
 $$
-  [X,Y] \;\colon\; Hom_{Top}(X,Y)/\sim_h
+  [X,Y] \; \coloneqq \; Hom_{Top}(X,Y)/\sim_h
 $$
 
 is called the set of _[[homotopy classes]]_ of continuous functions.
@@ -268,22 +268,73 @@ $$
     \\
     \downarrow && \downarrow^{\mathrlap{}}
     \\
-    [X,Y] \times [Y,Z] &\longrightarrow& [X,Z] 
+    [X,Y] \times [Y,Z] &\longrightarrow& [X,Z]
   }
   \,.
 $$
- 
- 
+
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Let 
+To see that the relation is [[reflexive relation|reflexive]]: A homotopy $f \Rightarrow f$ from a function $f$ to itself is given by
+the function which is constant on the topological interval:
+
+$$
+  X \times [0,1] \overset{pr_1}{\longrightarrow} X
+  \,.
+$$
+
+This is continuous becaue [[projections]] out of [[product topological spaces]] are continuous, by
+the [[universal property]] of the [[Cartesian product]].
+
+To see that the relation is [[symmetric relation|symmetric]]: If $\eta \colon f \Rightarrow g$ is a homotopy then
 
 $$
   \array{
-    X 
+    X \times [0,1] &\overset{id_X \times (1-(-))}{\longrightarrow}& X \times [0,1] &\overset{\eta}{\longrightarrow}& X
+    \\
+    (x,t) &\mapsto& (x,1-t) &\mapsto&  \eta(x,1-t)
+  }
+$$
+
+is a homotopy $g \Rightarrow f$. This is continuous because $1-(-)$ is a [[polynomial]] function, and
+[[polynomials are continuous]], and because [[Cartesian product]] and [[composition]] of continuous functions
+is again continuous.
+
+Finally to see that the relation is [[transitive relation|transitive]]: If $\eta_1 \colon f \Rightarrow g$
+and $\eta_2 \colon g \Rightarrow h$ are two composable homotopies, then consider the "$X$-parameterized 
+[[path concatenation]]"
+
+$$
+  \array{
+    X \times [0,1] &\overset{\eta_2 \circ \eta_1}{\longrightarrow}& X
+    \\
+    (x,t) &\mapsto& 
+    \left\{
+      \array{
+         \eta_1(x,2t) &\vert& t \leq 1/2
+         \\
+         \eta_{2}(x,2t-1) &\vert& t \leq 1/2
+      }
+    \right.
+  }
+  \,.
+$$
+
+To see that this is continuous, observe that $\{ X \times [0,1/2] \subset X, X \times [1/2,1] \subset X \}$
+is a [[cover]] of $X \times [0,1]$ by [[closed subsets]] (in the [[product topology]]) and
+because $\eta_1(-,2(-))$ and $\eta_2(-,2(-)-1)$ are continuous (being composites of 
+Cartesian products of continuous functions) and agree on the intersection $X \times \{1/2\}$. Hence
+the continuity follows by [this example](Top#ClosedSubspacesGluing).
+
+Finally to see that homotopy respects composition: Let
+
+$$
+  \array{
+    X
       \overset{f_1}{\longrightarrow}
     Y
       \underoverset
@@ -302,7 +353,7 @@ $$
   \eta \;\colon\; f_2 \Rightarrow f'_2
 $$
 
-be a homotopy. It is sufficient to show that then there is a homotopy
+be a homotopy. It is sufficient to show that then there is a homotopy of the form
 
 $$
   f_3 \circ f_2 \circ f_1 \Rightarrow   f_3 \circ f'_2 \circ f_1
@@ -315,22 +366,22 @@ $$
   \array{
      X &\overset{f_1}{\longrightarrow}& Y
      \\
-     {}^{\mathllap{ (id_X, const_0) }}\downarrow 
-       && 
-     {}^{\mathllap{ (id_Y,const_0) }}\downarrow 
-       & 
+     {}^{\mathllap{ (id_X, const_0) }}\downarrow
+       &&
+     {}^{\mathllap{ (id_Y,const_0) }}\downarrow
+       &
      \searrow^{\mathrlap{ f_2}}
      \\
-     X \times [0,1] 
-       &\overset{f_1 \times id_{[0,1]} }{\longrightarrow}& 
-     Y \times [0,1]  
-       &\stackrel{\eta}{\longrightarrow}& 
+     X \times [0,1]
+       &\overset{f_1 \times id_{[0,1]} }{\longrightarrow}&
+     Y \times [0,1]
+       &\stackrel{\eta}{\longrightarrow}&
      Z &\overset{f_3}{\longrightarrow}& W
      \\
-     {}^{\mathllap{(id_X,  const_1)}}\uparrow 
-       && 
-     {}^{\mathllap{ (id,const_1) } }\uparrow 
-       & 
+     {}^{\mathllap{(id_X,  const_1)}}\uparrow
+       &&
+     {}^{\mathllap{ (id,const_1) } }\uparrow
+       &
      \nearrow_{\mathrlap{ f'_2 }}
      \\
      X &\underset{f_1}{\longrightarrow}& Y
@@ -348,11 +399,17 @@ Prop. \ref{EquivRelHomotopy} means that [[homotopy classes]] of [[continuous fun
 are the [[morphisms]] in a [[category]] whose [[objects]] are still the [[topological spaces]].
 
 This category (at least when restricted to spaces that admit the structure of [[CW-complexes]])
-is called the _[[classical homotopy category]]_, often denoted 
+is called the _[[classical homotopy category]]_, often denoted
 
 $$
   Ho(Top)
   \,.
+$$
+
+Hence for $X,Y$ topological spaces, then
+
+$$
+  Hom_{Ho(Top)}(X,Y) = [X,Y]
 $$
 
 Moreover, sending a continuous function to its homotopy class is a [[functor]]
@@ -374,7 +431,7 @@ from the ordinary category [[Top]] of topological spaces with actual continuous 
 
 Let $X,Y \in $ [[Top]] be two [[topological spaces]].
 
-A [[continuous function]] 
+A [[continuous function]]
 
 $$
   f \;\colon\; X \longrightarrow Y
@@ -421,8 +478,8 @@ $$
 ###### Remark
 **([[homotopy equivalences]] are the [[isomorphisms]] in the [[homotopy category]])**
 
-In view of remark \ref{HomotopyCategory} a continuous function $f$ is 
-a homotopy equivalence precisely if its image $\kappa(f)$ in the 
+In view of remark \ref{HomotopyCategory} a continuous function $f$ is
+a homotopy equivalence precisely if its image $\kappa(f)$ in the
 [[homotopy category]] is an [[isomorphism]].
 
 =--
@@ -447,9 +504,10 @@ on the [[class]] of [[topological spaces]].
 +-- {: .proof}
 ###### Proof
 
-This is immediate from remark \ref{IsomorphismHomotopyEquivalence} by general 
-properties of [[categories]] and [[functors]]. 
-Hence making this explicit involves the construction already used in the proof
+This is immediate from remark \ref{IsomorphismHomotopyEquivalence} by general
+properties of [[categories]] and [[functors]].
+
+But for the record we spell it out. This involves the construction already used in the proof
 of prop. \ref{EquivRelHomotopy}:
 
 It is clear that the relation it [[reflexive relation|reflexive]] and [[symmetric relation|symmetric]].
@@ -485,7 +543,7 @@ $$
   \,.
 $$
 
-It is sufficient to produce homotopies of the form
+We need to produce homotopies of the form
 
 $$
   (g_1 \circ g_2 ) \circ (f_2 \circ f_1) \Rightarrow id_X
@@ -498,7 +556,7 @@ $$
   \,.
 $$
 
-To this end, consider
+Now the diagram
 
 $$
   \array{
@@ -512,9 +570,13 @@ $$
      \\
      X &\underset{f_1}{\longrightarrow}& Y
   }
-  \,.
+  \,,
 $$
-    
+
+with $\eta$ one of the given homotopies,
+exhibits a homotopy $ (g_1\circ g_2) \circ (f_2 \circ f_1) \Rightarrow g_1 \circ f_1$. Composing this with the 
+given homotopy $g_1 \circ f_1 \Rightarrow id_X$ gives the first of the two homotopies required above.
+The second one follows by the same construction, just with the lables of the functions exchanged.
 
 =--
 
@@ -600,7 +662,7 @@ structure in $\mathbb{R}^n$.
 
 
 Since the [[open ball]] is [[homeomorphism|homeomorphic]] to the whole [[Cartesian space]] $\mathbb{R}^n$
-([this example](Introduction+to+Topology+--+1#OpenBallsHomeomorphicToRn)) it follows with 
+([this example](Introduction+to+Topology+--+1#OpenBallsHomeomorphicToRn)) it follows with
 example \ref{HomotopyEquivalenceHomeomorphism} and example \ref{EquivRelHomotopy}
 that also $\mathbb{R}^n$ is a contractible topological space:
 
@@ -646,7 +708,7 @@ $$
   \gamma_1, \gamma_2 \;\colon\; [0,1] \longrightarrow X
 $$
 
-be two [[paths]] in $X$, i.e. two [[continuous functions]] from the [[closed interval]] to $X$, 
+be two [[paths]] in $X$, i.e. two [[continuous functions]] from the [[closed interval]] to $X$,
 such that their endpoints agree:
 
 $$
@@ -676,7 +738,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-Let $X$ be a [[topological space]] and let $x, y \in X$ be two points. Write 
+Let $X$ be a [[topological space]] and let $x, y \in X$ be two points. Write
 
 $$
   P_{x,y} X
@@ -696,19 +758,19 @@ $$
   \,.
 $$
 
-The operation of [[path concatenation]] descends to thes equivalence
+The operation of [[path concatenation]] descends to these equivalence
 classes, so that for all $x,y, z \in X$ there is a function
 
 $$
   Hom_{\Pi_1(X)}(x,y)
    \times
-  Hom_{\Pi_1(y,z)}
+  Hom_{\Pi_1(X)}(y,z)
     \longrightarrow
-  Hom_{\Pi_1(x,z)}
+  Hom_{\Pi_1(X)}(x,z)
   \,.
 $$
 
-Moreover, this composition operation is [[associativity|associative]] in the evident sense. 
+Moreover, this composition operation is [[associativity|associative]] in the evident sense.
 
 Set of points of $X$ together with the set $Hom_{\Pi_1(X)}(x,y)$ for all points of points
 and equipped with this composition operation is called the _[[fundamental groupoid]]_ of $X$, denoted
@@ -765,9 +827,19 @@ oriented [[surface]] of [[genus of a surface|genus]] 2:
 
 > graphics grabbed from [Lawson 03](#Lawson03)
 
++-- {: .num_example}
+###### Example
 
-+-- {: .num_defn}
+The fundamental group of Euclidean space is trivial.
+
+=--
+
+In general it is hard to explicitly compute the fundamental group of a topological
+space. But often it is already useful to know if two spaces have the same fundamental group or not.
+
++-- {: .num_defn #PushElementsFundamentalGroup}
 ###### Definition
+**(pushforward of elements of [[fundamental groups]])**
 
 Let $(X,x)$ and $(Y,y)$ be [[pointed topological space]] and let
 
@@ -777,7 +849,7 @@ $$
 
 be a [[continuous function]] which respects the chosen points, in that $f(x) = y$.
 
-Then there is the function
+Then there is an induced [[homomorphism]] of [[fundamental groups]] (def. \ref{FundamentalGroup})
 
 $$
   \array{
@@ -785,13 +857,26 @@ $$
     \\
     [\gamma] &\mapsto& [f \circ \gamma]
   }
+$$
+
+given by sending a closed [[path]] $\gamma \colon [0,1] \to X$  to the composite
+
+$$
+  f \circ \gamma
+  \;\colon\;
+  [0,1]
+    \overset{\gamma}{\longrightarrow}
+  X
+    \overset{f}{\longrightarrow}
+  Y
   \,.
 $$
 
-
-
 =--
 
+
++-- {: .num_remark}
+###### Remark
 
 Again, this operation is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$
 of [[pointed topological spaces]], whose [[objects]] are
@@ -803,7 +888,52 @@ $$
   \,.
 $$
 
-As $\pi_0$, so also $\pi_1$ is a topological invariant. As before, we may use this to prove a simple case of the theorem of the [[topological invariance of dimension]]:
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Let $X,Y \in Top^{\ast/}$ be [[pointed topological space]] and let $f_1, f_2 \;\colon\; X \longrightarrow Y$
+be two base-point preserving continuous functions. If there is a homotopy 
+
+$$
+  \eta \;\colon\; f_1 \Rightarrow f_2
+$$
+
+then the induced [[homomorphisms]] on fundamental groups agree
+
+$$
+  (f_1)_\ast = (f_2)_\ast \;\colon\; \pi_1(X,x) \to \pi_1(Y,y)
+  \,.
+$$
+
+In particular if $f \;\colon; X \longrightarrow Y$ is a [[homotopy equivalence]] then 
+$f_\ast \;\colon\; \pi_1(X,x) \to \pi_1(Y,y)$ is an [[isomorphism]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows by the fact that homotopy respects composition (prop. \ref{EquivRelHomotopy}):
+
+If $\gamma \;\colon\; [0,1] \longrightarrow X$ is a closed path representing a given element of
+$\pi_1(X,x)$, then the homotopy $f_1 \Rightarrow f_2$ induces a homotopy
+
+$$
+  f_1 \circ \gamma \Rightarrow f_2 \circ \gamma
+$$
+
+and therefore these represent the same elements in $\pi_1(Y,y)$.
+
+If follows that if $f$ is a homotopy equivalence with homotopy inverse $g$, then 
+$g_\ast \colon \pi_1(Y,y) \to \pi_1(X,x)$ is an [[inverse morphism]] to  $f_\ast \colon \pi_1(X,x) \to \pi_1(Y,y)$
+and hence $f_\ast$ is an [[isomorphism]].
+
+=--
+
+
+
 
 +-- {: .num_defn #SimplyConnected}
 ###### Definition
@@ -824,57 +954,23 @@ We will need also the following local version:
 ###### Definition
 **([[semi-locally simply connected topological space]])**
 
-A [[topological space]] $X$ is called
-
-1. _[[locally path-connected]]_ if for every point $x \in X$ and for every [[neighbourhood]] $x \in U \subset X$ there
-   exists a neighbourhood $x \in V \subset U$ such that $V$ is [[path-connected topological space|path-connected]] (def. \ref{pi0});
-
-1. _[[semi-locally simply connected topological space|semi-locally simply connected]]_ if every point $x \in X$ has a [[neighbourhood]] $x \in U \subset X$ such that the induced morphism of [[fundamental groups]] $\pi_1(U,x) \to \pi_1(X,x)$ is trivial (i.e. sends everything to the [[neutral element]]).
-
-=--
-
-
-
-
-+-- {: .num_prop #topologicalInvarianceOfDimensionSecondSimpleCase}
-###### Proposition
-**([[topological invariance of dimension]] -- second simple case)**
-
-There is _no_ [[homeomorphism]] between $\mathbb{R}^2$ and $\mathbb{R}^3$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Assume there were such a homeomorphism $f$; we will derive a contradiction.
-
-If $f$ is a homeomorphism, then so is its restriction to removing the origin from $\mathbb{R}^2$
-and $f(0)$ from $\mathbb{R}^3$:
+A [[topological space]] $X$ is called  _[[semi-locally simply connected topological space|semi-locally simply connected]]_ if every point $x \in X$ has a [[neighbourhood]] $U_x \subset X$ such that every loop in $X$ is contractible as a loop in $X$,
+hence such that the induced morphism of [[fundamental groups]] (def. \ref{PushElementsFundamentalGroup})
 
 $$
-  (\mathbb{R}^2 - \{0\})
-    \longrightarrow
-  (\mathbb{R}^3 - \{f(0)\})
-  \,.
-$$
+  \pi_1(U,x) \to \pi_1(X,x)
+$$ 
 
-Thse two spaces are both path-connected, hence $\pi_0$ does not distiguish them.
+is trivial (i.e. sends everything to the [[neutral element]]).
 
-But they do have different [[fundamental groups]] $\pi_1$:
-
-1. The fundamental group of $\mathbb{R}^{2} - \{0\}$ is $\mathbb{Z}$ (counting the winding of loops around the removed point).
-We discuss this further below in example \ref{FundamentalGroupOfTheCircle}.
-
-1. The fundamental group of $\mathbb{R}^3 - \{f(0)\}$ is trivial: because the single removed point is
-no obstruction to sliding loops past it and contracting them.
-
-But since passing to fundamental groups is [[functor|functorial]], the same argument
-as in the proof of prop. \ref{ConnectedComponentsDistinctImpliesHeomeClassesDistinct}
-shows that $f$ cannot be an [[isomorphism]], hence not a [[homeomorphism]].
-
+If every $x$ has a neighbourhood $U_x$ which is itself simyply connected, then $X$ is called a
+_[[locally simply connected topological space]]_. This implies semi-local simply-connectedness.
 
 =--
+
+
+
+
 
 
 
