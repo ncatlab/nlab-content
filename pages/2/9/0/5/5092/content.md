@@ -18,7 +18,7 @@ Ji&#345;&#237; Rosick&#253; is a pure [[category theory|category theorist]]. One
 * [[quantale]]
 
 [[!redirects Jiri Rosicky]]
-
+[[!redirects Rosicky]] 
 [[!redirects J. Rosicky]]
 [[!redirects Jiří Rosicky]]
 [[!redirects J. Rosický]]
