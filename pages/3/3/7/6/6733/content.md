@@ -43,6 +43,9 @@ This is a $1/2$-[[BPS state]] of 11-dimensional supergravity.
 
 The [[near horizon geometry]] of this spacetime is [[anti de Sitter spacetime|AdS7]]$\times$[[4-sphere|S4]]. For more on this see at _[[AdS-CFT]]_.
 
+{#NearHorizonOrbifold} More generally for lower BPS black M5-branes, the near horizon geometry is $AdS_7 \times S^4/G$, where $G$ is a [[finite group|finite]] [[subgroup]] of [[special unitary group|SU(2)]] ([[ADE classification|ADE subgroup]]) acting by left multiplication on the [[quaternions]] $\mathbb{H}$ in the canonical way, under the identitfication $S^4 \simeq S(\mathbb{R}^5) \simeq S(\mathbb{R}\oplus \mathbb{H})$ ([MFF 12, section 8.3](#MFF12)).
+
+
 [[!include black branes in supergravity -- table]]
 
 
@@ -296,6 +299,10 @@ That this metric, as well as that of every black $p$ brane for _odd_ $p$, is com
 
 * [[Gary Gibbons]], [[Gary Horowitz]], [[Paul Townsend]], p. 15 of _Higher-dimensional resolution of dilatonic black hole singularities_, Class.Quant.Grav.12:297-318,1995 ([arXiv:hep-th/9410073](https://arxiv.org/abs/hep-th/9410073))
 
+The [[orbifold]] structure for lower-BPS M5-branes is discussed in
+
+* {MFF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+
 ### $\sigma$-Model description
  {#ReferencesSigmaModelDescription}
 
@@ -303,9 +310,14 @@ The [[sigma-model]] description of the (single) M5-brane of [[Green-Schwarz acti
 
 * {#BLNPST97} [[Igor Bandos]], [[Kurt Lechner]], Alexei Nurmagambetov, [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_, Phys. Rev. Lett. 78 (1997) 4332-4334 ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
 
+* P. Pasti, [[Dmitri Sorokin]] and M. Tonin, _Covariant Action for a D=11 Five-Brane with the Chiral Field_, Phys.Lett. B398 (1997) 41.
+
+
 and in non-covariant form in 
 
 * Mina Aganagic, Jaemo Park, Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_ ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
+
+
 
 A comparison of the different action functionals here is in 
 
@@ -348,15 +360,15 @@ A precise mathematical formulation of the proposal made there is given in
 
 A discussion that embeds this argument into the larger context of [[AdS-CFT duality]] is in 
 
-* [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
- {#Witten98}
+* {#Witten98} [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
+ 
 
 See also the references at _[[6d (2,0)-supersymmetric QFT]]_.
 
 The [[double dimensional reduction]] to the [[D4-brane]] [[D=5 super Yang-Mills theory]] and the relation to [[Khovanov homology]] is discussed in 
 
-* [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
- {#Witten11}
+* {#Witten11} [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
+ 
 
 with further comments in 
 
@@ -381,18 +393,8 @@ Discussion of open M5-branes ending on [[M9-branes]] in a [[Yang monopole]] is i
 
 * [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys.Rev.Lett.97:231601 2006 ([arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193))
 
-### Sugra solutions
 
-The [[anti de Sitter spacetime]] $AdS_7 \times S^4$ arises in [[11-dimensional supergravity]] as the large $N$ limit of $N$ coincident M5-branes:
 
-* P. Pasti, [[Dmitri Sorokin]] and M. Tonin, _Covariant Action for a D=11 Five-Brane with the Chiral Field_, Phys.Lett. B398 (1997) 41.
-
-* I. Bandos, K. Lechner, A. Nurmagambetov, P. Pasti, [[Dmitri Sorokin]] and M. Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_, 
-Phys.Rev.Lett. 78 (1997) 4332.
-
-*  M. Aganagic, J. Park, C. Popescu and [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_, Nucl.Phys. B496 (1997) 191.
-
-> these reference are in the wrong place here, needs fixing
 
 ### Nonabelian 2-form fields
 
@@ -421,15 +423,15 @@ A formal proposal is [[schreiber:7d Chern-Simons theory and the 5-brane|here]].
 
 ### More on the algebraic topology
 
-* [[Edward Witten]], _Duality relations among topological effects in string theory_, J. High Energy Phys. 0005 (2000)
+* {#Witten2000} [[Edward Witten]], _Duality relations among topological effects in string theory_, J. High Energy Phys. 0005 (2000)
 031 ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
- {#Witten2000}
+ 
 
-* [[Hisham Sati]], _Geometric and topological structures related to M-branes II: Twisted String and String^c structures_ ([arXiv:1007.5419](http://arxiv.org/abs/1007.5419))
- {#Sati10}
+* {#Sati10} [[Hisham Sati]], _Geometric and topological structures related to M-branes II: Twisted String and String^c structures_ ([arXiv:1007.5419](http://arxiv.org/abs/1007.5419))
+ 
 
-* [[Hisham Sati]], _Twisted topological structures related to M-branes II: Twisted $Wu$ and $Wu^c$ structures_ ([arXiv:1109.4461](http://arxiv.org/abs/1109.4461))
- {#Sati}
+* {#Sati} [[Hisham Sati]], _Twisted topological structures related to M-branes II: Twisted $Wu$ and $Wu^c$ structures_ ([arXiv:1109.4461](http://arxiv.org/abs/1109.4461))
+ 
 
 [[!redirects M5-branes]]
 
