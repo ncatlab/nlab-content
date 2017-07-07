@@ -27,6 +27,8 @@ This theorem establishes an [[isomorphism]] between the [[absolute Galois groups
 
 * [[p-adic Hodge theory]]
 
+* [[perfectoid field]]
+
 
 ## References
 
