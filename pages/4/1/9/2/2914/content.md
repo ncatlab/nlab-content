@@ -66,6 +66,25 @@ and by prop. \ref{ModelStructureInheritsGoodProperties} with $\mathcal{C}$ cofib
 
 =--
 
++-- {: .num_prop #ModelStructureInheritsEnriched}
+###### Proposition
+
+If $\mathcal{C}$ is an [[cartesian enriched model category]], then so is $\mathcal{C}_{/X}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By basic properties of [[cartesian enriched categories]] they are stable under slicing, where tensoring is computed in $\mathcal{C}$.
+Hence with $\mathcal{C}$ enriched also $\mathcal{C}_{/X}$ is.
+The [[pushout product axiom]] now follows from the fact
+that in overcategories pushouts can be computed in the underlying category $\mathcal{C}$.
+The [[unit axiom]] follows from the unit axiom of $\mathcal{C}$
+using the fact that tensorings are computed in $\mathcal{C}$.
+
+=--
+
 ### Derived hom-spaces
 
 +-- {: .num_prop #PresentationOfSliceInfinityCat}
