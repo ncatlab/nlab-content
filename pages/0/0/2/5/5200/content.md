@@ -70,6 +70,7 @@ Suppose $\mathfrak{M},w\models K p$, then, for every  $t$ with $R w t$, we have 
   
 * [[T modal logic]]
 
+* [[Löb's axiom]]
 
 ## References
 
