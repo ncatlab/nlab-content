@@ -108,6 +108,8 @@ by saying (reproduced in [Lawvere 69 reprint, p. 2](#Lawvere69)):
 
 * [[incompleteness theorem]] 
 
+* [[Löb's theorem]]
+
 ## References
 
 The original article is
