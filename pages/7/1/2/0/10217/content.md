@@ -154,6 +154,8 @@ Indeed, let $R$ be a formula that represents the unary predicate $\neg Prov$, an
 
 ## Related concepts
 
+* [[Löb's theorem]]
+
 * [[Lawvere's fixed point theorem]]
 
 * [[Chaitin's incompleteness theorem]]
