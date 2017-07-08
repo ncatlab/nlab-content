@@ -124,6 +124,8 @@ However, it is possible to add a fixed-point combinator to typed $\lambda$-calcu
 
 ## Related pages
 
+* [[Löb's theorem]]
+
 * [[Lawvere fixed point theorem]]
 
 * [[looping combinator]]
