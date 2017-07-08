@@ -1,5 +1,5 @@
 
-* [webpage](http://math.northwestern.edu/~nrozen/)
+* [webpage](http://math.uchicago.edu/~nick/)
 
 * [[Notes on geometric Langlands]]
 
