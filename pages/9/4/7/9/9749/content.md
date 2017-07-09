@@ -153,7 +153,8 @@ J. Culbertson and K. Sturtz use the Giry monad in their categorical approach to 
 
 * Jared Culbertson and Kirk Sturtz, _Bayesian machine learning via category theory_, 2013 ([arxiv:1312.1445](http://arxiv.org/abs/1312.1445)) 
 
-* Kirk Sturtz, _Bayesian Inference using the Symmetric Monoidal Closed Category Structure_, [ arXiv:1601.02593](http://arxiv.org/abs/1601.02593)
+* Kirk Sturtz, _The Factorization of the Giry monad and convex spaces as an extension of the Kleisi category_, [ arXiv:1601.02593](https://arxiv.org/abs/1707.00488)
+
 
 E. Burroni discusses the Giry monad in:
 
