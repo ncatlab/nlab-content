@@ -16,7 +16,7 @@
 ## Idea
  {#Idea}
 
-A [[topological space]] (or more generally: a [[convergence space]]) is _compact_ if everything converges as much as possible. It is a kind of ultimate topological expression of the general idea of a space being "[[closed space|closed]] and [[bounded set|bounded]]": every [[net]] must [[accumulation point|accumulate]] somewhere in the space; by boundedness it cannot escape, and by closure the point is in the space. 
+A [[topological space]] (or more generally: a [[convergence space]]) is _compact_ if everything converges as much as possible. It is a kind of ultimate topological expression of the general idea of a space being "[[closed space|closed]] and [[bounded set|bounded]]": every [[net]] must [[accumulation point|accumulate]] somewhere in the space. By boundedness the net cannot escape, and by closure the point is in the space. 
 
 There is also a notion of compactness for [[locales]]. Observe that (using [[classical logic]]) already every [[locally compact locale]] is [[spatial locale|spatial]] ([this prop.](locally+compact+locale#UsingClassicalLogicLocallyCompactLocaleIsSpatial)).
 
