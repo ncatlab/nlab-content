@@ -22,7 +22,7 @@ Compactness is a topological notion that was developed to abstract the key prope
 
 Compactness provides an intrinsic way of formulating this property in the context of general topological spaces, without the need to view them as subspaces of an ambient space.  Still, it is common to work with _compact [[subsets]]_ of a given space.  These are those subsets which are compact spaces with the [[subspace topology]].
 
-One often wishes to study [[compact Hausdorff spaces]] ("compacta") since these enjoy particularly useful properties. For instance they all arise as [[one-point compactifications]] (of [[paracompact Hausdorff spaces]]).
+One often wishes to study [[compact Hausdorff spaces]] ("compacta") since these enjoy particularly useful properties. For instance they all arise as [[one-point compactifications]] (of [[locally compact Hausdorff spaces|locally compact]] [[Hausdorff spaces]], see [this remark](one-point+compactification#CompactHausdorffSpaceIsCompactificationOfComplementOfAnyPoint)).
 
 As for most concepts related to [[topological spaces]], there is also a concept of compactness for _[[locales]]_. Observe that (using [[classical logic]]) every [[locally compact locale]] is aready [[spatial locale|spatial]] ([this prop.](locally+compact+locale#UsingClassicalLogicLocallyCompactLocaleIsSpatial)).
 Instead of compact Hausdorff locales one usually considers compact [[regular space|regular]] locales, since regularity is easier to formulate and handle than Hausdorffness in locale theory (these are equivalent, since every locale is $T_0$ [[separation axiom|separated]] and hence $T_3$ if regular, while every Hausdorff space is $T_3$ if compact).
