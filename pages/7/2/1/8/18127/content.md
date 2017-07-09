@@ -305,14 +305,14 @@ is a homotopy $g \Rightarrow f$. This is continuous because $1-(-)$ is a [[polyn
 is again continuous.
 
 Finally to see that the relation is [[transitive relation|transitive]]: If $\eta_1 \colon f \Rightarrow g$
-and $\eta_2 \colon g \Rightarrow h$ are two composable homotopies, then consider the "$X$-parameterized 
+and $\eta_2 \colon g \Rightarrow h$ are two composable homotopies, then consider the "$X$-parameterized
 [[path concatenation]]"
 
 $$
   \array{
     X \times [0,1] &\overset{\eta_2 \circ \eta_1}{\longrightarrow}& X
     \\
-    (x,t) &\mapsto& 
+    (x,t) &\mapsto&
     \left\{
       \array{
          \eta_1(x,2t) &\vert& t \leq 1/2
@@ -326,7 +326,7 @@ $$
 
 To see that this is continuous, observe that $\{ X \times [0,1/2] \subset X, X \times [1/2,1] \subset X \}$
 is a [[cover]] of $X \times [0,1]$ by [[closed subsets]] (in the [[product topology]]) and
-because $\eta_1(-,2(-))$ and $\eta_2(-,2(-)-1)$ are continuous (being composites of 
+because $\eta_1(-,2(-))$ and $\eta_2(-,2(-)-1)$ are continuous (being composites of
 Cartesian products of continuous functions) and agree on the intersection $X \times \{1/2\}$. Hence
 the continuity follows by [this example](Top#ClosedSubspacesGluing).
 
@@ -574,7 +574,7 @@ $$
 $$
 
 with $\eta$ one of the given homotopies,
-exhibits a homotopy $ (g_1\circ g_2) \circ (f_2 \circ f_1) \Rightarrow g_1 \circ f_1$. Composing this with the 
+exhibits a homotopy $ (g_1\circ g_2) \circ (f_2 \circ f_1) \Rightarrow g_1 \circ f_1$. Composing this with the
 given homotopy $g_1 \circ f_1 \Rightarrow id_X$ gives the first of the two homotopies required above.
 The second one follows by the same construction, just with the lables of the functions exchanged.
 
@@ -701,6 +701,7 @@ $\,$
 
 +-- {: .num_defn #PathHomotopyRelativeBoundary}
 ###### Definition
+**([[homotopy relative boundary]])**
 
 Let $X$ be a [[topological space]] and let
 
@@ -735,8 +736,9 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #EquivalenceRelationHomotopyRelativeBoundary}
 ###### Proposition
+**([[homotopy relative boundary]] is [[equivalence relation]] on sets of [[paths]])**
 
 Let $X$ be a [[topological space]] and let $x, y \in X$ be two points. Write
 
@@ -758,29 +760,81 @@ $$
   \,.
 $$
 
-The operation of [[path concatenation]] descends to these equivalence
-classes, so that for all $x,y, z \in X$ there is a function
+=--
+
+
+Recall the operations on [[paths]]: [[path concatenation]] $\gamma_2 \cdot \gamma_1$, [[path reversion]] $\overline{\gamma}$ and [[constant paths]]
+
++-- {: .num_prop #ConcatenationOfHomotopyClassesOfPaths}
+###### Proposition
+**([[path concatenation|concatenation]] of [[homotopy relative boundary]]-classes of [[paths]])**
+
+For $X$ a [[topological space]], then  the operation of [[path concatenation]] descends to [[homotopy relative boundary]]
+[[equivalence classes]], so that for all $x,y, z \in X$ there is a function
 
 $$
-  Hom_{\Pi_1(X)}(x,y)
-   \times
-  Hom_{\Pi_1(X)}(y,z)
-    \longrightarrow
-  Hom_{\Pi_1(X)}(x,z)
+  \array{
+    Hom_{\Pi_1(X)}(x,y)
+     \times
+    Hom_{\Pi_1(X)}(y,z)
+      & \longrightarrow & 
+    Hom_{\Pi_1(X)}(x,z)
+    \\
+     ([\gamma_1], [\gamma_2])
+    &\mapsto&
+    [\gamma_2] \cdot [\gamma_1] \coloneqq  [\gamma_2 \cdot \gamma_1]
+  }
   \,.
 $$
 
-Moreover, this composition operation is [[associativity|associative]] in the evident sense.
+Moreover, 
 
-Set of points of $X$ together with the set $Hom_{\Pi_1(X)}(x,y)$ for all points of points
-and equipped with this composition operation is called the _[[fundamental groupoid]]_ of $X$, denoted
+1. this composition operation is [[associativity|associative]] in that for all $x,y,z,w \in X$ 
+   and $[\gamma_1] \in Hom_{\Pi_1(X)}(x,y)$, $[\gamma_2] \in Hom_{\Pi_1(X)}(y,z)$ and $[\gamma_3] \in Hom_{\Pi_1(X)})(z,w)$
+   then 
+
+   $$
+     [\gamma_3] \cdot ([\gamma_2]\cdot [\gamma_1])
+     \;=\;
+     ([\gamma_3] \cdot [\gamma_2]) \cdot [\gamma_1]
+   $$   
+
+1. this composition operation is [[unitality|unital]] with [[neutral elements]] the [[constant paths]] in that for all $x,y \in X$
+   and $[\gamma] \in Hom_{\Pi_1(X)}(x,y)$ we have
+   
+   $$
+     [const_y] \cdot [\gamma] = [\gamma] = [\gamma] \cdot [const_x]
+     \,.
+   $$
+
+1. this composition operation has [[inverse elements]] given by [[path reversal]] in that for all $x, y \in X$ 
+   and $[\gamma] \in Hom_{\Pi_1(X)}(x,y)$ we have
+   
+   $$
+     [\overline{\gamma}] \cdot[\gamma] = [const_x]
+     \phantom{AAAA}
+     [\gamma] \cdot [\overline{\gamma}] = [const_y]
+     \,.
+   $$
+
+=--
+
+
++-- {: .num_defn #FundamentalGroupoidAndFundamentalGroup}
+###### Definition
+**([[fundamental groupoid]] and [[fundamental groups]])**
+ 
+Let $X$ be a [[topological space]]. Then set of points of $X$ together with the sets $Hom_{\Pi_1(X)}(x,y)$ 
+of [[homotopy relative boundary]]-classes of [[paths]] (def. \ref{PathHomotopyRelativeBoundary}) for all points of points
+and equipped with the concatenation operation from prop. \ref{ConcatenationOfHomotopyClassesOfPaths}
+is called the _[[fundamental groupoid]]_ of $X$, denoted
 
 $$
   \Pi_1(X)
   \,.
 $$
 
-If we pick a single point $x \in X$, then one writes
+Given a choice of point $x \in X$, then one writes
 
 $$
   \pi_1(X,x)
@@ -789,36 +843,13 @@ $$
   \,.
 $$
 
-Under the above composition this is a [[group]], and as such is called the _[[fundamental group]]_
-of $X$ at $x$.
+Prop. \ref{ConcatenationOfHomotopyClassesOfPaths} says that under concatenation of paths, this
+set is a [[group]]. As such it is called the _[[fundamental group]]_ of $X$ at $x$.
 
 =--
 
 
 
-+-- {: .num_defn #FundamentalGroup}
-###### Definition
-**(fundamental group)**
-
-Let $X$ be a [[topological space]] and let $x \in X$ be a chosen point. Then write
-
-$$
-  \pi_1(X,x)
-    \;\in\;
-  Grp
-$$
-
-for, to start with, the set of [[homotopy classes]] of [[paths]] in $X$ that start and end at $x$. Such paths are also called the continuous [[loops]] in $X$ based at $x$.
-
-1. Under concatenation of loops, $\pi_1(X,x)$ becomes a [[semi-group]].
-
-1. The constant loop is a [[neutral element]] under this composition (thus making $\pi_1(X,x)$ a "[[monoid]]").
-
-1. The  reverse of a loop is its [[inverse]] in $\pi_1(X,x)$, making $\pi_1(X,x)$ indeed into a [[group]].
-
-This is called the _[[fundamental group]]_ of $X$ at $x$.
-
-=--
 
 The following picture indicates the four non-equivalent non-trivial generators of the [[fundamental group]] of the
 oriented [[surface]] of [[genus of a surface|genus]] 2:
@@ -827,12 +858,24 @@ oriented [[surface]] of [[genus of a surface|genus]] 2:
 
 > graphics grabbed from [Lawson 03](#Lawson03)
 
-+-- {: .num_example}
++-- {: .num_example #FundamentalGroupOfEuclideanSpace}
 ###### Example
+**([[fundamental group]] of [[Euclidean space]])**
 
-The fundamental group of Euclidean space is trivial.
+For $n \in \mathbb{N}$ and $x \in \mathbb{R}^n$ any point in the 
+$n$-dimensional [[Euclidean space]] (regarded with its [[metric topology]])
+we have that the [[fundamental group]] (def. \ref{FundamentalGroupoidAndFundamentalGroup})
+at that point is trivial:
+
+$$
+  \pi_1(\mathbb{R}^n, x) = \ast
+  \,.
+$$
 
 =--
+
+
+
 
 In general it is hard to explicitly compute the fundamental group of a topological
 space. But often it is already useful to know if two spaces have the same fundamental group or not.
@@ -878,7 +921,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Again, this operation is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$
+The pushforward operation in def. \ref{PushElementsFundamentalGroup} is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$
 of [[pointed topological spaces]], whose [[objects]] are
 topological spaces equipped with a chosen point, and whose [[morphisms]] are [[continuous functions]]
 $f \colon X \to Y$ that take the chosen basepoint of $X$ to that of $Y$:
@@ -894,7 +937,7 @@ $$
 ###### Proposition
 
 Let $X,Y \in Top^{\ast/}$ be [[pointed topological space]] and let $f_1, f_2 \;\colon\; X \longrightarrow Y$
-be two base-point preserving continuous functions. If there is a homotopy 
+be two base-point preserving continuous functions. If there is a homotopy
 
 $$
   \eta \;\colon\; f_1 \Rightarrow f_2
@@ -907,7 +950,7 @@ $$
   \,.
 $$
 
-In particular if $f \;\colon; X \longrightarrow Y$ is a [[homotopy equivalence]] then 
+In particular if $f \;\colon; X \longrightarrow Y$ is a [[homotopy equivalence]] then
 $f_\ast \;\colon\; \pi_1(X,x) \to \pi_1(Y,y)$ is an [[isomorphism]].
 
 =--
@@ -926,7 +969,7 @@ $$
 
 and therefore these represent the same elements in $\pi_1(Y,y)$.
 
-If follows that if $f$ is a homotopy equivalence with homotopy inverse $g$, then 
+If follows that if $f$ is a homotopy equivalence with homotopy inverse $g$, then
 $g_\ast \colon \pi_1(Y,y) \to \pi_1(X,x)$ is an [[inverse morphism]] to  $f_\ast \colon \pi_1(X,x) \to \pi_1(Y,y)$
 and hence $f_\ast$ is an [[isomorphism]].
 
@@ -959,7 +1002,7 @@ hence such that the induced morphism of [[fundamental groups]] (def. \ref{PushEl
 
 $$
   \pi_1(U,x) \to \pi_1(X,x)
-$$ 
+$$
 
 is trivial (i.e. sends everything to the [[neutral element]]).
 
