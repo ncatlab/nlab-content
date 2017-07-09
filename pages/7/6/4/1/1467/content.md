@@ -16,17 +16,16 @@
 ## Idea
  {#Idea}
 
-A [[topological space]] (or more generally: a [[convergence space]]) is _compact_ if everything converges as much as possible. 
+A [[topological space]] (or more generally: a [[convergence space]]) is _compact_ if all [[sequences]] and more generally [[nets]] inside it [[convergence|converge]] as much as possible. 
 
-Compactness is a topological notion that was developed to abstract the key property of a subspace of a [[Euclidean space]] being "[[closed space|closed]] and [[bounded set|bounded]]": *every [[net]] must [[accumulation point|accumulate]] somewhere in the subspace*. (Roughly, the reason is that boundedness implies the net cannot escape the subspace, and the point to which it accumulates lies in the subspace by closure. See the [[Heine-Borel theorem]] for more.) 
+Compactness is a topological notion that was developed to abstract the key property of a [[subspace]] of a [[Euclidean space]] being "[[closed space|closed]] and [[bounded set|bounded]]": *every [[net]] must [[accumulation point|accumulate]] somewhere in the subspace*. (Roughly, the reason is that boundedness implies the net cannot escape the subspace, and the point to which it accumulates lies in the subspace by closure. This is the statement of the _[[Heine-Borel theorem]]_, see there for for more.) 
 
-Compactness provides an intrinsic way of formulating this property in the context of general topological spaces, without the need to view them as subspaces of an ambient space. 
+Compactness provides an intrinsic way of formulating this property in the context of general topological spaces, without the need to view them as subspaces of an ambient space.  Still, it is common to work with _compact [[subsets]]_ of a given space.  These are those subsets which are compact spaces with the [[subspace topology]].
 
-There is also a notion of compactness for [[locales]]. Observe that (using [[classical logic]]) already every [[locally compact locale]] is [[spatial locale|spatial]] ([this prop.](locally+compact+locale#UsingClassicalLogicLocallyCompactLocaleIsSpatial)).
+One often wishes to study [[compact Hausdorff spaces]] ("compacta") since these enjoy particularly useful properties. For instance they all arise as [[one-point compactifications]] (of [[paracompact Hausdorff spaces]]).
 
-It is also common to work with _compact [[subsets]]_ of a space.  These are those subsets which are compact spaces with the [[subspace topology]].
-
-One often wishes to study [[compact Hausdorff spaces]].  For locales, one usually speaks of compact [[regular space|regular]] locales; these are equivalent (since every locale is $T_0$ and hence $T_3$ if regular, while every Hausdorff space is $T_3$ if compact) since regularity is easier to formulate and handle than Hausdorffness in locale theory.
+As for most concepts related to [[topological spaces]], there is also a concept of compactness for _[[locales]]_. Observe that (using [[classical logic]]) every [[locally compact locale]] is aready [[spatial locale|spatial]] ([this prop.](locally+compact+locale#UsingClassicalLogicLocallyCompactLocaleIsSpatial)).
+Instead of compact Hausdorff locales one usually considers compact [[regular space|regular]] locales, since regularity is easier to formulate and handle than Hausdorffness in locale theory (these are equivalent, since every locale is $T_0$ [[separation axiom|separated]] and hence $T_3$ if regular, while every Hausdorff space is $T_3$ if compact).
 
 
 
