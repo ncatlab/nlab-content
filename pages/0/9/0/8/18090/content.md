@@ -9,8 +9,6 @@
 
 
 
-
-
 ***
 
 This page contains a detailed introduction to basic [[topology]].
@@ -34,7 +32,7 @@ $\,$
 {#PartI}**part I**: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_ $\;\;\;$([[IntroductionToTopologyI-170704.pdf:file]] 203p)
 
 
-{#PartII}**part II**: _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Basic Homotopy Theory]]_
+{#PartII}**part II**: _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Basic Homotopy Theory]]_ $\;\;\,$ ([[IntroductionToTopologyII-171007.pdf:file]])
 
 $\,$
 
@@ -150,7 +148,9 @@ $\,$
 ## References
 
 
-### General
+### Point-Set Topology
+
+#### General
 
 A canonical compendium is
 
@@ -171,7 +171,7 @@ See also the references at _[[algebraic topology]]_.
 
 
 
-### Special topics
+#### Special topics
 
 The standard literature typically omits the following important topics:
 
@@ -187,6 +187,16 @@ An introductory textbook that takes sober spaces, and their relation to logic, a
 Detailed discussion of the [[Hausdorff reflection]] is in
 
 * {#vanMunster14} Bart van Munster, _The Hausdorff quotient_, 2014 ([pdf](https://www.math.leidenuniv.nl/scripties/BachVanMunster.pdf))
+
+### Basic homotopy theory
+
+A textbook account is in 
+
+* [[Tammo tom Dieck]], sections 2 an 3 of _Algebraic Topology_, EMS 2006 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
+
+Lecture notes include
+
+* {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) ([pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf))
 
 
 
