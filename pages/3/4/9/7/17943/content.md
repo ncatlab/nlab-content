@@ -52,8 +52,10 @@ $$
       {\overset{Rec}{\longleftarrow}}
       {}
   Set^{\Pi_1(X)}
-  \,.
 $$
+
+
+between the [[category of covering spaces]], and the category  of [[permutation representation|permutation]] [[groupoid representations]] of the [[fundamental groupoid]] of $X$.
 
 =--
 
