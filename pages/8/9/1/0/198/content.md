@@ -61,6 +61,8 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 
 * [[trivial representation]]
 
+* [[linear representation]], [[permutation representation]]
+
 * [[adjoint representation]], [[coadjoint representation]]
 
 * [[induced representation]], [[coinduced representation]]
@@ -68,6 +70,8 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 * [[Lie algebra representation]]
 
 * [[Galois representation]]
+
+* [[groupoid representation]]
 
 ## Related concepts
 
@@ -101,8 +105,6 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 [[!redirects representation]]
 [[!redirects representations]]
 
-[[!redirects linear representation]]
-[[!redirects linear representations]]
 
 [[!redirects group representation]]
 [[!redirects group representations]]
