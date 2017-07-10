@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _linear representation_ is a [[representation]] on a [[category]] of [[vector spaces]] or similar ([[Vect]], [[Mod]], etc.)
+
+This is the most common flavor of [[representations]]. One sometimes considers representations on objects other than linear spaces (such as [[permutation representations]]) but often these are called not representations but _[[actions]]_.
+
+## Related concepts
+
+* [[permutation representation]]
+
+
+[[!redirects linear representations]]
