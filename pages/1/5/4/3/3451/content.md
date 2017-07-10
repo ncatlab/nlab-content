@@ -63,6 +63,8 @@ This construction is well defined for a given representative $\gamma$ due to the
 
 =--
 
+Hence this defines a "[[permutation representation|permutation]] [[groupoid representation]]" of $\Pi_1(X)$.
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -158,7 +160,7 @@ $$
   Set^{\Pi_1(X)}
 $$
 
-is known as the _[[fundamental theorem of covering spaces]]_.
+between the [[category of covering spaces]] and the [[permutation representation|permutation]] [[groupoid representations]] of the [[fundamental groupoid]] is known as the _[[fundamental theorem of covering spaces]]_.
 
 =--
 
