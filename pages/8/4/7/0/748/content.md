@@ -50,6 +50,8 @@ The [[duality|dual]] notion is an [[under category]].
 
 * If $1$ is a [[terminal object]] in $\mathbf{C}$, then $\mathbf{C}/1$ is isomorphic to $\mathbf{C}$.
 
+* For $X$ a [[topological space]] then the [[category of covering spaces]] over $X$ is a [[full subcategory]] of the slice category $Top_{/X}$ of the [[category of topological spaces]].
+
 ## Properties
 
 ### Relation to codomain fibration
