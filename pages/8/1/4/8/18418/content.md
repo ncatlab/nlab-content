@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[topology]], the _[[fundamental theorem of covering spaces]]_ asserts that for $X$ a [[locally path-connected topological space|locally path-connected]] and [[semi-locally simply-connected topological space]], then the [[functor]] given by sending a [[covering space]] over $X$ to its [[monodromy]] [[permutation representation]] of the [[fundamental groupoid]] $\Pi_1(X)$ of $X$ 
+In [[topology]], the _[[fundamental theorem of covering spaces]]_ asserts that for $X$ a [[locally path-connected topological space|locally path-connected]] and [[semi-locally simply-connected topological space]], then the [[functor]] given by sending a [[covering space]] over $X$ to its [[monodromy]] [[permutation representation|permutation]] [[groupoid representation]] of the [[fundamental groupoid]] $\Pi_1(X)$ of $X$ 
 
 $$
   Fib
@@ -29,7 +29,7 @@ $$
   Cov(X) \longrightarrow Set^{\Pi_1(X)}
 $$ 
 
-is an [[equivalence of categories]]. This means that there exists a functor the other way around
+is an [[equivalence of categories]] between the [[category of covering spaces]] and that of [[permutation representation|permutation]] [[groupoid representations]] of $\Pi_1(X)$. This means that there exists a functor the other way around
 
 $$
   Rec 
