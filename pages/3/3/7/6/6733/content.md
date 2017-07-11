@@ -301,7 +301,7 @@ That this metric, as well as that of every black $p$ brane for _odd_ $p$, is com
 
 The [[orbifold]] structure for lower-BPS M5-branes is discussed in
 
-* {MFF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+* {#MFF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
 ### $\sigma$-Model description
  {#ReferencesSigmaModelDescription}
@@ -310,7 +310,7 @@ The [[sigma-model]] description of the (single) M5-brane of [[Green-Schwarz acti
 
 * {#BLNPST97} [[Igor Bandos]], [[Kurt Lechner]], Alexei Nurmagambetov, [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_, Phys. Rev. Lett. 78 (1997) 4332-4334 ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
 
-* P. Pasti, [[Dmitri Sorokin]] and M. Tonin, _Covariant Action for a D=11 Five-Brane with the Chiral Field_, Phys.Lett. B398 (1997) 41.
+  Paolo Pasti, [[Dmitri Sorokin]] and M. Tonin, _Covariant Action for a D=11 Five-Brane with the Chiral Field_, Phys. Lett. B398 (1997) 41.
 
 
 and in non-covariant form in 
