@@ -304,7 +304,7 @@ whose objects are the groupoid homomorphisms / functors, and whose morphisms are
 
 A [[small groupoid]] (def. \ref{GroupoidGlobalDefinition}) is equivalently a [[small category]] in which all [[morphisms]] are [[isomorphism|isomorphisms]].
 
-While therefore groupoid theory may be regarded as a special case of [[category theory]], it 
+While therefore groupoid theory may be regarded as a special case of [[category theory]], it
 is noteworthy that the two theories are quite different in character. For example [[higher groupoid]]
 theory is _[[homotopy theory]]_ which is rich but quite tractable, for instance via tools
 such as [[simplicial homotopy theory]] or [[homotopy type theory]], while [[higher category theory]]
@@ -333,7 +333,7 @@ There is also the [[homotopy category]] $Ho(Grpd)$ whose
 
 =--
 
-Of course instead of quotienting out conjugation actions/natural transformations one may 
+Of course instead of quotienting out conjugation actions/natural transformations one may
 keep track of them:
 
 +-- {: .num_prop #HorizontaComposition}
@@ -347,8 +347,8 @@ $$
     \overset{F_1}{\longrightarrow}
   \mathcal{G}_2
     \underoverset
-      {\underset{F_2}{\longrightarrow}}
-      {\overset{F'_2}{\longrightarrow}}
+      {\underset{\phantom{AA}F_2\phantom{AA}}{\longrightarrow}}
+      {\overset{\phantom{AA}F'_2\phantom{AA}}{\longrightarrow}}
       {\Downarrow{\mathrlap{\eta}}}
   \mathcal{G}_3
     \overset{F_3}{\longrightarrow}
@@ -359,11 +359,12 @@ be morphisms and a homotopy $\eta$. Then there is a homotopy
 
 $$
   \mathcal{G}_1
+  \phantom{AAA}
     \underoverset
       {\underset{F_3 \circ F'_2\circ F_1}{\longrightarrow}}
       {\overset{F_3 \circ F'_2\circ F_1}{\longrightarrow}}
       {\Downarrow{\mathrlap{ F_2 \cdot \eta_ \cdot F_1 }}}
-  \mathcal{G}_2
+  \phantom{AAA}\mathcal{G}_2
 $$
 
 between the respective composites, with components given by
