@@ -46,7 +46,7 @@ Or we define an __$n$-groupoid__ abstractly as an [[n-truncated object of an (in
 ### As Kan complexes
  {#AsKanComplexes}
 
-A general model for [[∞-groupoid]]s are [[Kan complex]]es. In this context an  $n$-groupoid in the general sense is modeled by a Kan complex all whose [[homotopy group]]s vanish in degree $k \gt n$. In this generality one also speaks of a [[homotopy n-type]]. 
+A general model for [[∞-groupoid]]s is that of [[Kan complex]]es. In this context an  $n$-groupoid in the general sense is modeled by a Kan complex all of whose [[homotopy group]]s vanish in degree $k \gt n$. In this generality one also speaks of a [[homotopy n-type]]. 
 
 Every such $n$-type is equivalent to a "small" model, an $(n+1)$-[[coskeletal]] Kan complex: one in which every $k$-sphere $\partial \Delta^{k+1}$ for $k \geq n+1$ has a _unique_ filler.
 
