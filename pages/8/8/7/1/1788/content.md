@@ -1,11 +1,150 @@
 
++-- {: .num_prop}
+###### Proposition
+**([[horizontal composition]] of [[homotopies]])
+
+Consider a [[diagram]] of [[groupoids]], groupoid homomorphsims (functors) and homotopies (natural transformations) as follows:
+
+$$
+  \mathcal{G}_1
+    \underoverset
+       {\underset{\phantom{AA}F'_1\phantom{AA}}{\longrightarrow}}
+       {\overset{\phantom{AA}F_1\phantom{AA}}{\longrightarrow}}
+       {\Downarrow {\eta_1}}
+  \mathcal{G}_2
+    \underoverset
+       {\underset{\phantom{AA}F'_2\phantom{AA}}{\longrightarrow}}
+       {\overset{\phantom{AA}F_2\phantom{AA}}{\longrightarrow}}
+       {\Downarrow {\eta_2}}
+  \mathcal{G}_3
+$$
+
+The _[[horizontal composition]]_ of the homotopies to a single homotopy of the form
+
+$$
+  \mathcal{G}_1
+     \underoverset
+       {\underset{F'_2 \circ F'_1}{\longrightarrow}}
+       {\overset{F_2\circ F_1}{\longrightarrow}}
+       {\Downarrow \eta_2 \cdot \eta_1}
+  \mathcal{G}_3
+$$
+
+may be defined in temrs of the horizontal composition of homotopies with morphisms (prop. \ref{HmotopiesWithMorphismsHorizontaComposition}) and the ("vertical") composition of homotopies with themselves, in two different ways, namely by decomposing the above diagram as
+
+
 $$
   \array{
-    \mathcal{G}_1 &\underoverset{\simeq}{inc_1}{\longleftarrow}& \underset{i \in \pi_0(\mathcal{G}_1)}{\sqcup} Aut_{\mathcal{G}_1}(x_i)
+  \mathcal{G}_1
+    \underoverset
+       {\underset{\phantom{AA}F'_1\phantom{AA}}{\longrightarrow}}
+       {\overset{\phantom{AA}F_1\phantom{AA}}{\longrightarrow}}
+       {\Downarrow {\eta_1}}
+  \mathcal{G}_2
+    \underoverset
+       {}
+       {\overset{\phantom{AA}F_2\phantom{AA}}{\longrightarrow}}
+       {}
+  \mathcal{G}_3
+  \\
+  \mathcal{G}_1
+    \underoverset
+       {\underset{\phantom{AA}F'_1\phantom{AA}}{\longrightarrow}}
+       {}
+       {}
+  \mathcal{G}_2
+    \underoverset
+       {\underset{\phantom{AA}F'_2\phantom{AA}}{\longrightarrow}}
+       {\overset{\phantom{AA}F_2\phantom{AA}}{\longrightarrow}}
+       {\Downarrow {\eta_2}}
+  \mathcal{G}_3
+  }
+$$
+
+or as
+
+$$
+  \array{
+  \mathcal{G}_1
+    \underoverset
+       {}
+       {\overset{\phantom{AA}F_1\phantom{AA}}{\longrightarrow}}
+       {}
+  \mathcal{G}_2
+    \underoverset
+       {\underset{\phantom{AA}F'_2\phantom{AA}}{\longrightarrow}}
+       {\overset{\phantom{AA}F_2\phantom{AA}}{\longrightarrow}}
+       {\Downarrow {\eta_2}}
+  \mathcal{G}_3
+  \\
+  \mathcal{G}_1
+    \underoverset
+       {\underset{\phantom{AA}F'_1\phantom{AA}}{\longrightarrow}}
+       {\overset{\phantom{AA}F_1\phantom{AA}}{\longrightarrow}}
+       {\Downarrow {\eta_1}}
+  \mathcal{G}_2
+    \underoverset
+       {\underset{\phantom{AA}F'_2\phantom{AA}}{\longrightarrow}}
+       {}
+       {}
+  \mathcal{G}_3
+  }
+$$
+
+In the first case we get
+
+$$
+  \eta_2 \cdot \eta_1
+  \;\coloneqq\;
+  (\eta_2 \cdot F'_1) \circ (F_2 \cdot \eta_1)
+$$
+
+while in the second case we get
+
+$$
+  \eta_2 \cdot \eta_1
+   \;\coloneqq\;
+   ( F'_2 \cdot \eta_1 ) \circ (\eta_2 \cdot F_1)
+  \,.
+$$
+
+These two definitions coincide.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For $x$ an object of $\mathcal{G}_1$, then we need that the following square [[diagram]] [[commuting diagram|commutes]] in $\mathcal{G}_3$
+
+$$
+  \array{
+    F_2(F_1(x))
+      &\overset{ (F_2\cdot \eta_1)(x) }{\longrightarrow}& F_2(F'_1(x))
     \\
-    {}^{\mathllap{F}}\downarrow && \downarrow^{\mathrlap{\tilde F \coloneqq p_2 \circ F \circ inc_1}}
+    {}^{\mathllap{ (\eta_2 \cdot F_1)(x) }}\downarrow 
+      && 
+    \downarrow^{\mathrlap{ (\eta_2\cdot F'_1)(x) }}
     \\
-    \mathcal{G}_2 \underoverset{p_2}{\simeq}{\longrightarrow} \underset{j \in \pi_0(\mathcal{G}_2)}{\sqcup} Aut_{\mathcal{G}_2}(x_j)
+    F'_2(F_1(x))  
+      & \underset{ (F'_2 \cdot \eta_1)(x) }{\longrightarrow} &  
+    F'_2(F'_1(y))    
+  }
+   \phantom{AAAA} = \phantom{AAAA}
+  \array{
+    F_2(F_1(x)) &\overset{F_2(\eta_1(x))}{\longrightarrow}& F_2(F'_1(x))
+    \\
+    { }^{\mathllap{\eta_2(F_1(x))}}\downarrow  
+      && 
+    \downarrow^{\mathrlap{ \eta_2(F'_1(x)) }}
+    \\
+    F'_2(F_1(x))  
+      & \underset{F'_2(\eta_1(x))}{\longrightarrow} &  
+    F'_2(F'_1(y))
   }
   \,.
 $$
+
+But the ommutativity of the square on the right is the defining compatibility condition on the components of $\eta_2$ applied to the morphism $\eta_1(x)$ in $\mathcal{G}_2$.
+
+=--
