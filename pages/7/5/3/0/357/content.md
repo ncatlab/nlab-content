@@ -48,7 +48,24 @@ We can also give an explicit definition, which was more or less already given in
 
 ## Examples
 
-...
+* Any double category is an example, and thus also any bicategory
+viewing the arrows as horizontal.
+* For any [[monoidal category]] $V$, there is a virtual double category
+of $V$-matrices whose objects are sets, vertical arrows are functions
+and a horizontal arrow $p : X \to Y$ is a family of objects $p_{y,x}
+\in V$ for each $x\in X, y \in Y$, and a 2-cell from $X_0
+\overset{p_1}{\to} X_1 \to\dots \to X_n$ to $Y_0 \overset{q}{\to} Y_1$
+along $f : X_0 \to Y_0, g : X_n \to Y_n$ is a family of arrows
+$\alpha_{x_0,...} : p_1(x_1,x_0)\otimes p_2(x_2,x_1)\otimes\dots \to
+q(g(x_n),f(x_0))$ in $V$ (using the unit of the monoidal category if the source string is empty).
+If $V$ has certain colimits that are preserved by $\otimes$ then
+composites exist and this virtual double category is pseudo.
+* Given a monad on a virtual double category, the [[generalized multicategory| horizontal kleisli
+double category]] produces a virtual double
+category that is only pseudo under strong conditions on the monad. In
+particular, "free monoid" monad on the double category of sets and
+spans does not produce a pseudo double category.
+
 
 ## Higher categories of virtual double categories
 
