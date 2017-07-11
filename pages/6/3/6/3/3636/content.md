@@ -23,7 +23,7 @@ It deals with properties of non-[[compact space|compact]] [[topological space]]s
 
 Historically the subject is traced back to Kerekjarto's classification of non-compact surfaces in 1923, but its emergence as an important tool in geometric topology came with [[Larry Siebenmann]]'s work in 1965.
 
-Suppose $M$ is a _smooth_ [[manifold]] with boundary, $\partial M$, then $M\setminus \partial M$ is an open manifold. Now suppose someone gives us an open manifold $N$, is it possible to detect if there is a compact manifold $M$, with $M\setminus \partial \cong N$.  Siebenmann showed that certain conditions on the _ends_ of $N$ were necessary and that there were obstructions if the dimension of $M$ was greater than 5.
+Suppose $M$ is a _smooth_ [[manifold]] with boundary, $\partial M$, then $M\setminus \partial M$ is an open manifold. Now suppose someone gives us an open manifold $N$, is it possible to detect if there is a compact manifold $M$, with $M\setminus \partial M \cong N$.  Siebenmann showed that certain conditions on the _ends_ of $N$ were necessary and that there were obstructions if the dimension of $M$ was greater than 5.
 
 Its potential importance of proper homotopy, 
 for example for physical applications, comes from the fact that the phenomena it studies include the limiting behaviour of the system.
