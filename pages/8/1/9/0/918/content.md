@@ -9,6 +9,7 @@ A [[function]] $f$ (of sets) from $A$ to $B$ is __surjective__ if, given any ele
 
 A _[[bijection]]_ is a function that is both [[surjection|surjective]] and [[injection|injective]].
 
+## The surjection preorder
 
 If there is a surjection $A \to B$, then one writes[^leqstar] $|B| \leq^* |A|$. The relation $\leq^*$ is a [[preorder]] on the class of all sets, the preorder reflection of the category $Surj$ of sets and surjections. Contrast with the notation $|B| \leq |A|$ if there is an [[injection]] $B\to A$. Assuming the [[axiom of excluded middle]], if there is a injection $B\to A$ and $B$ is [[inhabited]], there is a surjection $A\to B$. Thus $|B| \leq |A|$ implies $|B| \leq^* |A|$. If $B=\empty$ (=not inhabited, since we are assuming excluded middle) then by definition one also has $|B| \leq^* |A|$, so we have the implication in all cases.
 
