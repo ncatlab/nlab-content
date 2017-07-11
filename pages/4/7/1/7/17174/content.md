@@ -46,7 +46,7 @@ $$
   \alpha_i \in H^\bullet(E,R) \;\;\, i \in I
 $$
 
-in the [[ordinary cohomology]] of $E$ with [[coefficients]] in $R$, such that for each point $x \in X$ the restriction of the $\alpha_i$ to the [[fiber]] $F_x$ is $R$-[[linearly independent]] and their $R$-[[linear span]] is [[isomorphism|isomorphic]] to the cohology $H^\bullet(F,R)$ of the fiber
+in the [[ordinary cohomology]] of $E$ with [[coefficients]] in $R$, such that for each point $x \in X$ the restriction of the $\alpha_i$ to the [[fiber]] $F_x$ is $R$-[[linearly independent]] and their $R$-[[linear span]] is [[isomorphism|isomorphic]] to the cohomology $H^\bullet(F,R)$ of the fiber
 
 $$
   H^\bullet(F, R)
