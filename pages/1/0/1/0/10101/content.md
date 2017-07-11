@@ -19,7 +19,7 @@
 
 ## Idea
 
-The [[cohomology groups]] of the twisting operator in [[topologically twisted D=4 super Yang-Mills theory|topologically twisted]] [[N=2 D=4 super Yang-Mills theory]] for a [[ring]]. This is called the _chiral ring_ of the [[theory (physics)|theory]]. 
+The [[cohomology groups]] of the twisting operator in [[topologically twisted D=4 super Yang-Mills theory|topologically twisted]] [[N=2 D=4 super Yang-Mills theory]] form a [[ring]]. This is called the _chiral ring_ of the [[theory (physics)|theory]]. 
 
 For one of the possible twists this is the [[ordinary cohomology]] of a corresponding [[Kähler manifold]]. For the other it is a deformation thereof by [[instanton]]-correction, also called a _[[quantum cohomology]]_.
 
