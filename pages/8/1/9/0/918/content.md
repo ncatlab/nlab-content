@@ -5,11 +5,15 @@
 
 ## Definition
 
-A [[function]] $f$ (of sets) from $A$ to $B$ is __surjective__ if, given any element $y$ of $B$, $y = f(x)$ for some $x$.  A surjective function is also called __onto__ or a __surjection__; it is the same as an [[epimorphism]] in [[Set|the category of sets]]. If there is a surjection $A \to B$, then one writes[^leqstar] $|B| \leq^* |A|$. The relation $\leq^*$ is a [[preorder]] on the class of all sets, the preorder reflection of the category $Surj$ of sets and surjections. Contrast with the notation $|B| \leq |A|$ if there is an [[injection]] $B\to A$. Assuming the [[axiom of excluded middle]], if there is a injection $B\to A$ and $B$ is [[inhabited]], there is a surjection $A\to B$. Thus $|B| \leq |A|$ implies $|B| \leq^* |A|$. If $B=\empty$ (=not inhabited, since we are assuming excluded middle) then by definition one also has $|B| \leq^* |A|$, so we have the implication in all cases.
+A [[function]] $f$ (of sets) from $A$ to $B$ is __surjective__ if, given any element $y$ of $B$, $y = f(x)$ for some $x$.  A surjective function is also called __onto__ or a __surjection__; it is the same as an [[epimorphism]] in [[Set|the category of sets]]. 
+
+A _[[bijection]]_ is a function that is both [[surjection|surjective]] and [[injection|injective]].
+
+
+If there is a surjection $A \to B$, then one writes[^leqstar] $|B| \leq^* |A|$. The relation $\leq^*$ is a [[preorder]] on the class of all sets, the preorder reflection of the category $Surj$ of sets and surjections. Contrast with the notation $|B| \leq |A|$ if there is an [[injection]] $B\to A$. Assuming the [[axiom of excluded middle]], if there is a injection $B\to A$ and $B$ is [[inhabited]], there is a surjection $A\to B$. Thus $|B| \leq |A|$ implies $|B| \leq^* |A|$. If $B=\empty$ (=not inhabited, since we are assuming excluded middle) then by definition one also has $|B| \leq^* |A|$, so we have the implication in all cases.
 
 [^leqstar]: One also writes $\empty \leq^* |A|$ for all sets $A$, but this is a standalone definition, and doesn't follow from a construction on $Surj$.
 
-A _[[bijection]]_ is a function that is both [[surjection|surjective]] and [[injection|injective]].
 
 The [[axiom of choice]] states precisely that every surjection in the category of sets has a [[section]]. Thus in this setting one has: $|B| \leq^* |A|$ implies $|B| \leq |A|$, and so $|B| \leq^* |A|$ iff $|B| \leq |A|$ assuming AC. Some authors who doubt the axiom of choice use the term 'onto' for a surjection as defined above and reserve 'surjective' for the stronger notion of a function with a section (a [[split epimorphism]]). 
 
