@@ -142,9 +142,9 @@ The simplest example (see the classical monograph Dieck, Kamps, Puppe, _Homotopi
 
 The collections
 
-* Hurewicz fibrations (def. \ref{HurewiczCofibration}),
+* [[Hurewicz fibrations]],
 
-* closed Hurewicz cofibrations (def. \ref{ClosedHurewiczCofibration}),
+* closed Hurewicz cofibrations (def. \ref{HurewiczCofibration}, def. \ref{ClosedHurewiczCofibration}),
 
 * and [[homotopy equivalences]] 
 
