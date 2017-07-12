@@ -77,7 +77,7 @@ The homotopy lifting property is an instance of a [[right lifting property]].
 
 ### For topological spaces
 
-Here the ambient category is $C = $ [[Top]] and the [[interval object]] is $I = [0,1]$.
+Here the ambient category is $C = $ [[Top]] and the [[interval object]] is the [[topological interval]] $I = [0,1]$.
 
 A [[continuous map]] $p:E\to B$ of [[topological spaces]] satisfies the **homotopy lifting property** (or *covering homotopy property*) with respect to a space $Y$ if for every [[commuting square]] in $Top$
 
