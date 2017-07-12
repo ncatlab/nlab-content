@@ -60,6 +60,10 @@ In graph theory, the Moore path category is known as the __[[free category]]__ o
 [[!redirects path concatenation]]
 [[!redirects path concatenations]]
 
+[[!redirects concatenation of paths]]
+[[!redirects concatenrations of paths]]
+
+
 [[!redirects reverse path]]
 [[!redirects reverse paths]]
 
