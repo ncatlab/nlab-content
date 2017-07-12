@@ -40,7 +40,7 @@ is an isomorphism.
 
   See also [[closed monoidal structure on presheaves]].
 
-* [[Cat]] is also cartesian closed.
+* [[Cat]] is also cartesian closed. (Cf. e.g. p. 98 of [[Categories Work|Mac Lane]], 2nd ed.,  or the remark below Definition 4.3.9 in [[Category Theory in Context|Riehl]].)
 
 * Many [[nice category of spaces|nice categories of topological spaces]] are also cartesian closed, particularly the [[convenient category of topological spaces|convenient categories of spaces]].
 
