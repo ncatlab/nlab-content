@@ -949,6 +949,94 @@ on [[homotopy categories]].
 
 
 
++-- {: .num_example #FundamentalGroupoid2Functor}
+###### Example
+**([[(2,1)-functor|(2,1)-functoriality]] of [[fundamental groupoid]])
+
+If $X$ and $Y$ are [[topological spaces]] and $f \;\colon\; X \longrightarrow Y$
+is a [[continuous function]] between them, then this induces a groupoid homomorphism (functor)
+between the respective [[fundamental groupoids]] (def. \ref{FundamentalGroupoid})
+
+$$
+  F_f \;\colon\; \Pi_1(X) \longrightarrow \Pi_1(Y)
+$$
+
+given on objects by the underlying function of $f$
+
+$$
+  (F_f)_0 \coloneqq f
+$$
+
+and given on the class of a [[path]] by the evident postcomposition with $f$
+
+$$
+  (F_f)_{x,y} 
+    \;\colon\; 
+  (x \overset{[\gamma]}{\longrightarrow} y)
+    \;\mapsto\;
+  (f(x) \overset{[f \circ \gamma]}{\longrightarrow} f(y) ) 
+  \,.
+$$
+
+This construction clearly respects [[identity morphisms]] and [[composition]] and hence is
+itself a [[functor]] of the form
+
+$$
+  \Pi_1 \;\colon\; Top \longrightarrow Grpd_1
+$$
+
+from the [[category]] [[Top]] of [[topological  space]] to the [[1-category]] [[Grpd]] of groupoids.
+
+But more is true: If $f,g \;\colon\; X \longrightarrow Y$ are two [[continuous function]] and 
+
+$$
+  \eta \;\colon\; f \Rightarrow g
+$$
+
+is a [[left homotopy]] between them, hence a continuous function
+
+$$
+  \eta \;\colon\; X \times [0,1] \longrightarrow Y
+$$ 
+
+such that $\eta(-,0) = f$ and $\eta(-,1) = g$, then this induces a homotopy between the above groupoid homomorphisms
+(a natural transformation of functors).
+
+This shows that the fundamental groupoid functor in fact descends to [[homotopy categories]]
+
+$$
+  \Pi_1 \;\colon\; Ho(Top) \longrightarrow Ho(Grpd)
+  \,.
+$$
+
+(In fact this means it even extends to a [[(2,1)-functor]] from the [[(2,1)-category]]
+of topological spaces, continuous functions, and [[higher homotopy]]-classes of left homotopues,
+to that of groupoids.)
+
+As a direct consequence it follows that if there is a [[homotopy equivalence]]
+
+$$
+  X \simeq_h Y
+$$
+
+between [[topological spaces]], then there is an induced [[equivalence of groupoids]]
+betwee their [[fundamental groupoids]]
+
+$$
+  \Pi_1(X) \simeq \Pi_1(Y)
+  \,.
+$$
+
+Hence the [[fundamental groupoid]] is a _[[homotopy invariant]]_ of topological spaces.
+Of course by prop. \ref{DeloopingGroupoidEquivalence} the fundamental groupoid is
+equivalent, as a groupoid, to the disjoint union of the [[deloopings]] of
+all the [[fundamental groups]] of the given topological spaces, one for each [[connected component]],
+and hence this is equivalently the statement that the set of connected components
+and the fundamental groups of a topological space are homotopy invariants. 
+
+=--
+
+
 +-- {: .num_example #DiscreteGroupoid}
 ###### Example
 **([[discrete groupoid]])**
@@ -956,7 +1044,7 @@ on [[homotopy categories]].
 For $X$ any set, there is the _[[discrete groupoid]]_ $Disc(X)$, whose set of objects
 is $X$ and whose only morphisms are [[identity morphisms]].
 
-This is also the  [[fundamental groupoid]] (example \ref{FundamentalGroupoid}) 
+This is also the  [[fundamental groupoid]] (example \ref{FundamentalGroupoid})
 of the [[discrete topological space]] on the set $X$.
 
 =--
@@ -989,7 +1077,7 @@ $$
 into from the category [[Grp]] of groups to the [[1-category]] of [[groupoids]].
 
 But beware that this functor is not fully faithful when homotopies of groupoids are taken into acount,
-because there are in general non-trivial homotopies between morphims of the form 
+because there are in general non-trivial homotopies between morphims of the form
 
 $$
   B \phi_1, B \phi_2
@@ -1013,7 +1101,7 @@ $$
   }
 $$
 
-hence such that 
+hence such that
 
 $$
   \phi_2 = Ad_h \circ \phi_1
@@ -1026,7 +1114,7 @@ $$
   B(-) \;\colon\; Grp \longrightarrow Ho(Grp)
 $$
 
-to the [[homotopy category]] of groupoids is not fully faithful. 
+to the [[homotopy category]] of groupoids is not fully faithful.
 
 But since $B G$ is canonically a [[pointed object]] in groupoids, we may also regard [[delooping]]
 as a functor
@@ -1043,7 +1131,7 @@ $$
   B(-) \;\colon\; Grp \hookrightarrow Ho(Grpd^{\ast/})
 $$
 
-then also the homotopies are required to preserve the absepoint, and for 
+then also the homotopies are required to preserve the absepoint, and for
 homotopies between homomorphisms between delooped groups this means, since there only
 is a single point, that these homotopies are all trivial. Hence regarded this way
 the functor is a [[fully faithful functor]] again, hence an [[equivalence of categories]]
