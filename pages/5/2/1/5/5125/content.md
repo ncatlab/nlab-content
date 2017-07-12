@@ -21,7 +21,7 @@ Associated to any [[normal modal logic]], $\Lambda$ in $\mathcal{L}_\omega(n)$ (
 generally) is an algebra $\mathfrak{A}^\Lambda_\omega$,which is a [[algebraic models for modal logics|BAO]] of type $n$, 
 i.e. $n$ (modal) operators, $m_i$.  This is called the **Lindenbaum--Tarski algebra** of $\Lambda$, and is a quotient of the [[term algebra]] of  $\mathcal{L}_\omega(n)$, i.e. of the free universal algebra of type $n$ formed by the $\mathcal{L}_\omega(n)$-formulae using the connectives $\vee$, $\wedge$, $\neg$, $\bot$, $\top$, and the $\Diamond_i$.  The Lindenbaum--Tarski algebra is formed from this free algebra by using the congruence $\simeq_\Lambda$, where 
 
-$$\phi \simeq_\Lambda\psi  if and only if  {\vdash}_\Lambda \phi\leftrightarrow \psi.$$  
+$$\phi \simeq_\Lambda\psi  \iff  {\vdash}_\Lambda \phi\leftrightarrow \psi.$$  
   
 (Recall the usual rules of notation: $\phi \to \psi$ is $\neg\phi\vee\psi$; 
 $\phi\leftrightarrow \psi$ is $(\phi\to \psi)\wedge (\psi\to\phi)$; and 
