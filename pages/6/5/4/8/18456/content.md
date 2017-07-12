@@ -1,0 +1,10 @@
+
+* [webpage](http://www.physics1.howard.edu/people/facultyandstaff_thubsch.html)
+
+## related $n$Lab entries
+
+* [[adinkra]]
+
+category: people
+
+[[!redirects Tristan Hubsch]]
