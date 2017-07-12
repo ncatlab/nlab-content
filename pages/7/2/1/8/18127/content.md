@@ -1106,7 +1106,7 @@ In def. \ref{FundamentalGroupoidAndFundamentalGroup} we extracted the [[fundamen
 at some point $x \in X$ from a larger algebraic structure, that incorporates all the basepoints,
 to be called the _[[fundamental groupoid]]_. This larger algebraic structure of _[[groupoids]]_ is usefully made
 explicit for the formulation and proof of the [[fundamental theorem of covering spaces]] (theorem \ref{FundamentalTheoremOfCoveringSpaces} below)
-and the development of [[homotopy theory]] in general. 
+and the development of [[homotopy theory]] in general.
 
 Where a _[[group]]_ may be thought of as a _group of symmetry transformations_ that [[isomorphism|isomorphically]] relates one [[object]] to itself (the _[[symmetries]]_ of one object, such as the [[isometries]] of a [[polyhedron]]) a _groupoid_ is a collection of symmetry transformations acting between possibly more than one object.
 
@@ -1338,11 +1338,31 @@ whose objects are the groupoid homomorphisms / functors, and whose morphisms are
 
 =--
 
+The archetypical example of a groupoid we already encountered above:
+
++-- {: .num_example #FundamentalGroupoid}
+###### Example
+**([[fundamental groupoid]])
+
+For $X$ a [[topological space]], then its _[[fundamental groupoid]]_
+(as in def. \ref{FundamentalGroupoidAndFundamentalGroup})
+has as set of objects the underlying set of $X$, and for $x,y \in X$
+two points, the set of homomorphisms is the set of [[paths]] from
+$x$ to $y4 modulo [[homotopy relative boundary]]:
+
+$$
+  Hom_{\Pi_1(X)}(x,y) (P_{x,y})/\sim_h
+$$
+
+and [[composition]] is given by [[concatenation of paths]].
+
+=--
+
 +-- {: .num_remark}
 ###### Remark
 **([[groupoids]] are special cases of [[categories]])**
 
-A [[small groupoid]] (def. \ref{GroupoidGlobalDefinition}) is equivalently a [[small category]] in which all [[morphisms]] are [[isomorphism|isomorphisms]].
+A [[small groupoid]] (def. \ref{GroupoidDependentlyTypes}) is equivalently a [[small category]] in which all [[morphisms]] are [[isomorphism|isomorphisms]].
 
 While therefore groupoid theory may be regarded as a special case of [[category theory]], it
 is noteworthy that the two theories are quite different in character. For example [[higher groupoid]]
@@ -1350,63 +1370,6 @@ theory is _[[homotopy theory]]_ which is rich but quite tractable, for instance 
 such as [[simplicial homotopy theory]] or [[homotopy type theory]], while [[higher category theory]]
 is intricate and becomes tractable mostly by making recourse to higher groupoid theory in the guise of
 [[(infinity,1)-category theory]] and [[(infinity,n)-categories]].
-
-=--
-
-
-+-- {: .num_example #GroupoidFromDelooping}
-###### Example
-**([[delooping]] of a  [[group]])**
-
-Let $G$ be a [[group]]. Then there is a groupoid, denoted $B G$, with a single object $p$, with morphisms
-
-$$
-  Hom_{B G}(p,p) \coloneqq G
-$$
-
-the elements of $G$, with composition the multiplication in $G$, with identity morphism the [[neutral element]] in $G$ and with inverse morphisms the inverse elements in $G$.
-
-This is also called the _[[delooping]]_ of $G$ (because the [[loop space object]] of $B G$ at the unique point is the given group:
-$\Omega B G \simeq G$).
-
-=--
-
-
-+-- {: .num_example #GroupoidsCoproduct}
-###### Example
-**([[disjoint union]]/[[coproduct]] of groupoids)
-
-Let $\{\mathcal{G}_i\}_{i \in I}$ be a [[set]] of groupoids. Then their [[disjoint union]] ([[coproduct]]) is the groupoid
-
-$$
-  \underset{i \in I}{\sqcup} \mathcal{G}_i
-$$
-
-whose set of objects is the disjoint union of the sets of objects of the summand groupoids, and whose sets of morphisms between two objects is that of $\mathcal{G}_i$ if both objects are form this groupoid, and is [[empty set|empty]] otherwise.
-
-=--
-
-
-+-- {: .num_example #DeloopingGroupoidDisjointUnion}
-###### Example
-**([[disjoint union]] of [[delooping]] groupoids)
-
-Let $\{G_i\}_{i \in I}$ be a [[set]] of [[groups]]. Then there is a groupoid
-$\underset{i \in I}{\sqcup} B G_i$ which is the disjoint union groupoid (example \ref{GroupoidsCoproduct}) of the [[delooping]] groupoids $B G_i$ (example \ref{GroupoidFromDelooping}).
-
-Its set of objects is the index set $I$, and
-
-$$
-  Hom(i,j)
-   =
-  \left\{
-    \array{
-      G_i &\vert& i = j
-      \\
-      \emptyset &\vert& \text{otherwise}
-    }
-  \right.
-$$
 
 =--
 
@@ -1446,12 +1409,48 @@ For instance
 =--
 
 
+
+
++-- {: .num_example #DiscreteGroupoid}
+###### Example
+**([[discrete groupoid]])**
+
+For $X$ any set, there is the _[[discrete groupoid]]_ $Disc(X)$, whose set of objects
+is $X$ and whose only morphisms are [[identity morphisms]].
+
+This is also the  [[fundamental groupoid]] (example \ref{FundamentalGroupoid})
+of the [[discrete topological space]] on the set $X$.
+
+=--
+
+
+
+
++-- {: .num_example #GroupoidsCoproduct}
+###### Example
+**([[disjoint union]]/[[coproduct]] of groupoids)
+
+Let $\{\mathcal{G}_i\}_{i \in I}$ be a [[set]] of groupoids. Then their [[disjoint union]] ([[coproduct]]) is the groupoid
+
+$$
+  \underset{i \in I}{\sqcup} \mathcal{G}_i
+$$
+
+whose set of objects is the disjoint union of the sets of objects of the summand groupoids, and whose sets of morphisms between two objects is that of $\mathcal{G}_i$ if both objects are form this groupoid, and is [[empty set|empty]] otherwise.
+
+=--
+
+
+
+
+
+
 +-- {: .num_prop #1CategoryOfGroupoids}
 ###### Remark
 **([[1-category]] of [[groupoids]])**
 
 From def. \ref{GroupoidDependentlyTypes} we see that there
-is a [[category]]whose
+is a [[category]] whose
 
 * [[objects]] are the small groupoids;
 
@@ -1822,6 +1821,232 @@ $$
 $$
 
 =--
+
+
+
+
++-- {: .num_example #FundamentalGroupoid2Functor}
+###### Example
+**([[(2,1)-functor|(2,1)-functoriality]] of [[fundamental groupoid]])
+
+If $X$ and $Y$ are [[topological spaces]] and $f \;\colon\; X \longrightarrow Y$
+is a [[continuous function]] between them, then this induces a groupoid homomorphism (functor)
+between the respective [[fundamental groupoids]] (def. \ref{FundamentalGroupoid})
+
+$$
+  F_f \;\colon\; \Pi_1(X) \longrightarrow \Pi_1(Y)
+$$
+
+given on objects by the underlying function of $f$
+
+$$
+  (F_f)_0 \coloneqq f
+$$
+
+and given on the class of a [[path]] by the evident postcomposition with $f$
+
+$$
+  (F_f)_{x,y}
+    \;\colon\;
+  (x \overset{[\gamma]}{\longrightarrow} y)
+    \;\mapsto\;
+  (f(x) \overset{[f \circ \gamma]}{\longrightarrow} f(y) )
+  \,.
+$$
+
+This construction clearly respects [[identity morphisms]] and [[composition]] and hence is
+itself a [[functor]] of the form
+
+$$
+  \Pi_1 \;\colon\; Top \longrightarrow Grpd_1
+$$
+
+from the [[category]] [[Top]] of [[topological  space]] to the [[1-category]] [[Grpd]] of groupoids.
+
+But more is true: If $f,g \;\colon\; X \longrightarrow Y$ are two [[continuous function]] and
+
+$$
+  \eta \;\colon\; f \Rightarrow g
+$$
+
+is a [[left homotopy]] between them, hence a continuous function
+
+$$
+  \eta \;\colon\; X \times [0,1] \longrightarrow Y
+$$
+
+such that $\eta(-,0) = f$ and $\eta(-,1) = g$, then this induces a homotopy between the above groupoid homomorphisms
+(a natural transformation of functors).
+
+This shows that the fundamental groupoid functor in fact descends to [[homotopy categories]]
+
+$$
+  \Pi_1 \;\colon\; Ho(Top) \longrightarrow Ho(Grpd)
+  \,.
+$$
+
+(In fact this means it even extends to a [[(2,1)-functor]] from the [[(2,1)-category]]
+of topological spaces, continuous functions, and [[higher homotopy]]-classes of left homotopues,
+to that of groupoids.)
+
+As a direct consequence it follows that if there is a [[homotopy equivalence]]
+
+$$
+  X \simeq_h Y
+$$
+
+between [[topological spaces]], then there is an induced [[equivalence of groupoids]]
+betwee their [[fundamental groupoids]]
+
+$$
+  \Pi_1(X) \simeq \Pi_1(Y)
+  \,.
+$$
+
+Hence the [[fundamental groupoid]] is a _[[homotopy invariant]]_ of topological spaces.
+Of course by prop. \ref{DeloopingGroupoidEquivalence} the fundamental groupoid is
+equivalent, as a groupoid, to the disjoint union of the [[deloopings]] of
+all the [[fundamental groups]] of the given topological spaces, one for each [[connected component]],
+and hence this is equivalently the statement that the set of connected components
+and the fundamental groups of a topological space are homotopy invariants.
+
+=--
+
+
+
+
+
+
+
+
++-- {: .num_example #GroupoidFromDelooping}
+###### Example
+**([[delooping]] of a  [[group]])**
+
+Let $G$ be a [[group]]. Then there is a groupoid, denoted $B G$, with a single object $p$, with morphisms
+
+$$
+  Hom_{B G}(p,p) \coloneqq G
+$$
+
+the elements of $G$, with composition the multiplication in $G$, with identity morphism the [[neutral element]] in $G$ and with inverse morphisms the inverse elements in $G$.
+
+This is also called the _[[delooping]]_ of $G$ (because the [[loop space object]] of $B G$ at the unique point is the given group:
+$\Omega B G \simeq G$).
+
+For $G_1, G_2$ two groups, then there is a [[natural bijection]] between [[group homomorphisms]]
+$\phi \colon G_1 \to G_2$ and groupoid homomorphisms $G G_1 \to B_ G_2$: the latter are all of the form
+$B \phi$, with $(B \phi)_0$ uniquely fixed and $(B \phi)_{p,p} = \phi$.
+
+This means that the construction $B(-)$ is a  [[fully faithful functor]]
+
+$$
+  B(-) \;\colon\; Grp \hookrightarrow Grpd_1
+$$
+
+into from the category [[Grp]] of groups to the [[1-category]] of [[groupoids]].
+
+But beware that this functor is not fully faithful when homotopies of groupoids are taken into acount,
+because there are in general non-trivial homotopies between morphims of the form
+
+$$
+  B \phi_1, B \phi_2
+  \;\colon\;
+  B G \longrightarrow B H
+$$
+
+By definition, such a homotopy (natural transformation) $\eta \;\colon\; B \phi_1 \Rightarrow B \phi_2$
+is a choice of a single elemet $\eta_p \in H$ such that for all $g \in G$
+we have
+
+$$
+  \phi_2(g) = h \cdot \phi_1(g) \cdot h^{-1}
+  \phantom{AAAAAAAAA}
+  \array{
+    p &\overset{h}{\longrightarrow}& p
+    \\
+    {}^{\mathllap{\phi_1(g)}}\downarrow && \downarrow^{\mathrlap{\phi_2(g)}}
+    \\
+    p &\underset{h}{\longrightarrow}& p
+  }
+$$
+
+hence such that
+
+$$
+  \phi_2 = Ad_h \circ \phi_1
+  \,.
+$$
+
+Therefore notably the induced functor
+
+$$
+  B(-) \;\colon\; Grp \longrightarrow Ho(Grp)
+$$
+
+to the [[homotopy category]] of groupoids is not fully faithful.
+
+But since $B G$ is canonically a [[pointed object]] in groupoids, we may also regard [[delooping]]
+as a functor
+
+$$
+  B(-) \;\colon\; Grp \longrightarrow Grpd^{\ast/}
+$$
+
+to the [[category of pointed objects]] of [[Grpd]]. Since groupoid homomorphisms $B G_1 \to B G_2$
+necessarily preserve the basepoint, this makes no difference at this point. But as we now
+pass to the [[homotopy category]]
+
+$$
+  B(-) \;\colon\; Grp \hookrightarrow Ho(Grpd^{\ast/})
+$$
+
+then also the homotopies are required to preserve the absepoint, and for
+homotopies between homomorphisms between delooped groups this means, since there only
+is a single point, that these homotopies are all trivial. Hence regarded this way
+the functor is a [[fully faithful functor]] again, hence an [[equivalence of categories]]
+onto its [[essential image]]. By prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings} below
+this essential image consists precisely of the (pointed) [[connected object|connected]] groupoids:
+
+_Groups are equivalently pointed connected groupoids_.
+
+=--
+
+
++-- {: .num_example #DeloopingGroupoidDisjointUnion}
+###### Example
+**([[disjoint union]] of [[delooping]] groupoids)
+
+Let $\{G_i\}_{i \in I}$ be a [[set]] of [[groups]]. Then there is a groupoid
+$\underset{i \in I}{\sqcup} B G_i$ which is the disjoint union groupoid (example \ref{GroupoidsCoproduct}) of the [[delooping]] groupoids $B G_i$ (example \ref{GroupoidFromDelooping}).
+
+Its set of objects is the index set $I$, and
+
+$$
+  Hom(i,j)
+   =
+  \left\{
+    \array{
+      G_i &\vert& i = j
+      \\
+      \emptyset &\vert& \text{otherwise}
+    }
+  \right.
+$$
+
+=--
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 +-- {: .num_defn #GroupoidConnectedComponents}
@@ -2203,14 +2428,14 @@ $$
   \array{
     E_1 && \overset{f}{\longrightarrow} && E_2
     \\
-    & \searrow && \swarrow
+    & {}_{\mathllap{p_1}}\searrow && \swarrow_{\mathrlap{p_2}}
     \\
     && X
   }
   \,.
 $$
 
-This defines a [[category]] $Cov(X)$ whose
+This defines a [[category]] $Cov(X)$, the _[[category of covering spaces]]_ over $X$, whose
 
 * [[objects]] are the covering spaces over $X$;
 
@@ -2244,6 +2469,10 @@ Precisely, for $k \geq 1$ this is a [[covering space]]
 
 =--
 
+
+$\,$
+
+$\,$
 
 
 +-- {: .num_example #CoveringOfCircleByRealLine}
@@ -2283,108 +2512,11 @@ set $\mathbb{Z}$ of [[natural numbers]].
 =--
 
 
-+-- {: .num_defn #ActionOfFundamentalGroupOnFibersOfCovering}
-###### Definition
-**(action of fundamental group on fibers of covering)**
+$\,$
 
-Let $E \overset{\pi}{\longrightarrow} X$ be a [[covering space]] (def. \ref{CoveringSpace})
-
-Then for $x \in X$ any point, and any choice of element $e \in F_x$ of the [[leaf space]] over $x$,
-there is, up to [[homotopy]], a unique way to lift a representative
-path in $X$ of an element $\gamma$ of the the [[fundamental group]] $\pi_1(X,x)$ (def. \ref{FundamentalGroupoidAndFundamentalGroup}) to a
-continuous path in $E$ that starts at $e$. This path necessarily ends at some (other) point $\rho_\gamma(e) \in F_x$
-in the same [[fiber]]. This construction provides a [[function]]
-
-$$
-  \array{
-    \rho &\colon& F_x \times \pi_1(X,x) &\longrightarrow& F_x
-    \\
-    && (e,\gamma) &\mapsto& \rho_\gamma(e)
-  }
-$$
-
-from the [[Cartesian product]] of the [[leaf space]] with the [[fundamental group]]. This function
-is compatible with the [[group]]-structure on $\pi_1(X,x)$, in that the following [[commuting diagram|diagrams commute]]:
-
-$$
-  \array{
-    F_x \times \{const_x\} && \longrightarrow && F_x \times \pi_1(X,x)
-    \\
-    & {}_{\mathllap{id}}\searrow && \swarrow_{\mathrlap{\rho}}
-    \\
-    && F_x
-  }
-  \;\;\;\;\;\;
-  \left(
-  \array{
-    \text{the neutral element,}
-    \\
-    \text{i.e. the constant loop,}
-    \\
-    \text{acts trivially}
-  }
-  \right)
-$$
-
-and
-
-$$
-  \array{
-    F_x \times \pi_1(X,x) \times \pi_1(X,x)
-      &\overset{\rho \times id}{\longrightarrow}&
-    F_x \times \pi_1(X,x)
-    \\
-    {}^{\mathllap{id \times ((-)\cdot(-))}}\downarrow && \downarrow^{\mathrlap{\rho}}
-    \\
-    F_x \times \pi_1(X,x)
-      &\underset{\rho}{\longrightarrow}&
-    F_x
-  }
-  \;\;\;\;\;\;
-  \left(
-  \array{
-    \text{acting with two group elements }
-    \\
-    \text{is the same as}
-    \\
-    \text{first multiplying them}
-    \\
-    \text{ and then acting with their product element}
-  }
-  \right)
-  \,.
-$$
-
-One says that $\rho$ is an _[[action]]_ or _[[permutation representation]]_ of $\pi_1(X,x)$ on $F_x$.
+Here are some basic properties of covering spaces:
 
 
-For $G$ any [[group]], then there is a [[category]] $G Set$ whose [[objects]] are [[sets]]
-equipped with an [[action]] of $G$, and whose [[morphisms]] are [[function|functions]] which respect
-these actions.  The above construction is a [[functor]]
-of the form
-
-$$
-  Fib_x \;\colon\; Cov(X) \longrightarrow \pi_1(X,x) Set
-  \,.
-$$
-
-=--
-
-+-- {: .num_example }
-###### Example
-**(three-sheeted covers of the circle)**
-
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="150">
-</div>
-
-There are, up to [[isomorphism]], three different 3-sheeted [[covering spaces]] of the [[circle]] $S^1$.
-
-The one from example \ref{kForlCovringOfCircle} for $k = 3$. Another one. And the trivial one.
-Their corresponding [[permutation actions]] may be seen from the pictures on the right.
-> graphics grabbed from [Hatcher](homotopy+equivalence#Hatcher)
-
-=--
 
 +-- {: .num_prop #CoveringProjectionsAreOpenMaps}
 ###### Proposition
@@ -2415,6 +2547,85 @@ is a union of open sets, and hence itself open.
 
 =--
 
++-- {: .num_lemma #CoveringSpaceFiberwiseDiagonalOpenAndClosed}
+###### Lemma
+**([[fiber product|fiber-wise]] [[diagonal]] of covering space is [[open subset|open]] and [[closed subset|closed]])**
+
+Let $E \overset{p}{\to} X$ be a covering space. Consider the [[fiber product]]
+
+$$
+  E \times_X E \coloneqq \{ (e_1, e_2) \in E \times E \;\vert\; p(e_1) = p(e_2) \}
+$$
+
+hence (by the discussion at [Top - Univeral constructions](Top#UniversalConstructions)) the [[topological subspace]] of the [[product space]] $E \times E$, as shown on the right. By the [[universal property]] of the [[fiber product]], there is the [[diagonal]] [[continuous function]]
+
+$$
+  \array{
+    E &\longrightarrow& E \times_X E
+    \\
+    e &\mapsto& (e,e)
+  }
+  \,.
+$$
+
+Then the [[image]] of $E$ under this function is an [[open subset]] and a [[closed subset]]:
+
+$$
+  \Delta(E) \subset E \times_X E
+  \;\;\;
+  \text{is open and closed}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First to see that it is an open subset. It is sufficient to show that for any $e \in E$ there exists an open neighbourhood of $(e,e) \in E \times_X E$.
+
+Now by definition of covering spaces, there exists an open neighbourhood $U_{p(e)} \subset X$ of $p(e) \in X$ such that
+
+$$
+  \array{
+    U_{p(e)} \times Disc(p^{-1}(p(e)))
+      && \overset{\simeq}{\longrightarrow} && E\vert_{U_{p(e)}}
+    \\
+    & {}_{\mathllap{pr_1}}\searrow && \swarrow_{\mathrlap{p}}
+    \\
+    && U_{p(e)}
+  }
+  \,.
+$$
+
+It follows that $U_{p(e)} \times \{e\} \subset E$ is an open neighbourhood. Hence by the nature of the [[product topology]], $U_{p(e)} \times U_{p(e)} \subset E \times E$ is an open neighbourhood of $(e,e)$ in $E \times E$ and hence by the nature of the [[subspace topology]] the restriction
+
+$$
+  (E \times_X E) \cap (U_{p(e)} \times U_{p(e)}) \subset E \times_X E
+$$
+
+is an open neighbourhood of $(e,e)$ in $E \times_X E$.
+
+Now to see that the diagonal is closed, hence that the complement $(E \times_X E) \setminus \Delta(E)$ is an open subset, it is sufficient to show that every point $(e_1, e_2)$ with $e_1 \neq e_2$ but $p(e_1) = p(e_2)$ has an open neighbourhood in this complement.
+
+As before, there is an open neighbourhood $U \subset X$ of $p(e_1) = p(e_2)$ over which the cover trivializes, and hence $U \times \{e_1\}, U \times \{e_2\} \subset E$ are open neighbourhoods of $e_1$ and $e_2$, respectively. These are disjoint by the assumption that $e_1 \neq e_2$. As above, this means that the intersection
+
+$$
+  (E \times_X E) \cap ( (U \times \{e_1\}) \times (U \times \{e_2\}) )
+  \subset
+  (E \times_X E) \setminus \Delta(E)
+$$
+
+is an open subset of the complement of the diagonal in the fiber product.
+
+
+=--
+
+
+$\,$
+
+### Lifting properties 
+
 We discuss [[left lifting properties]] satisfied by covering spaces.
 
 1. [path-lifting property](#CoveringSpacePathLifting),
@@ -2422,6 +2633,74 @@ We discuss [[left lifting properties]] satisfied by covering spaces.
 1. [homotopy-lifting propery](#CoveringSpacesHomotopyLifting),
 
 1. the [lifting theorem](#TheTheoremLifting).
+
+
++-- {: .num_lemma #LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}
+###### Lemma
+**([[lifts]] out of [[connected topological space|connected space]] into [[covering spaces]] are unique relative to any point)**
+
+Let
+
+1. $E \overset{p}{\to} X $ be a covering space,
+
+1. $Y$ a [[connected topological space]]
+
+1. $f \;\colon\; Y \longrightarrow X$ a [[continuous function]].
+
+1. $\hat f_1, \hat f_2 \;\colon\; Y \longrightarrow E$ two [[lifts]] of $f$, in that the following [[commuting diagram|diagram commutes]]:
+
+   $$
+     \array{
+       && E
+       \\
+       & {}^{\mathllap{\hat f_i}}\nearrow & \downarrow^{\mathrlap{p}}
+       \\
+       Y &\underset{f}{\longrightarrow}& X
+     }
+   $$
+
+   for $i \in \{1,2\}$.
+
+If there exists $y \in Y$ such that $\hat f_1(y) = \hat f_2(y)$ then the two lifts already agree everywhere: $\hat f_1 = \hat f_2$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[universal property]] of the [[fiber product]]
+
+$$
+  E \times_X E \coloneqq \left\{ (e_1, e_2) \in E \times E \;\vert\; p(e_1) = p(e_2) \right\} \subset E \times E
+$$
+
+the two lifts determine a single continuous function of the form
+
+$$
+  (\hat f_1, \hat f_2)
+    \;\colon\;
+  Y \longrightarrow E \times_X E
+  \,.
+$$
+
+Write
+
+$$
+  \Delta(E)  \coloneqq \left\{ (e,e) \in E \times_X E \;\vert\; e \in E  \right\}
+$$
+
+for the [[diagonal]] on $E$ in the fiber product. By lemma \ref{CoveringSpaceFiberwiseDiagonalOpenAndClosed} this is an open subset and a closed subset of the fiber product space. Hence by continuity of $(\hat f_1, \hat f_2)$ also its pre-image
+
+$$
+  (\hat f_1, \hat f_2)^{-1}(\Delta(E)) \subset Y
+$$
+
+is both closed and open, hence also its [[complement]] is open in $Y$.
+
+Moreover, the assumption that the functions $\hat f_1$ and $\hat f_2$ agree in at least one point means that the above pre-image is [[inhabited set|non-empty]]. Therefore the assumption that $Y$ is [[connected topological space|connected]] implies that this pre-image coincides with all of $Y$. This is the statement to be proven.
+
+=--
+
 
 +-- {: .num_lemma #CoveringSpacePathLifting}
 ###### Lemma
@@ -2467,7 +2746,7 @@ $$
 =--
 
 +-- {: .proof}
-####### Proof
+###### Proof
 
 First consider the case that the covering space is trival, hence of the [[Cartesian product]] form
 
@@ -2480,11 +2759,11 @@ By the [[universal property]] of the [[product topological spaces]]
 in this case a lift $\hat \gamma \colon [0,1] \to X \times Disc(S)$ is equivalently a [[pair]] of continuous functions
 
 $$
-  pr_1(\hat \gamma) \colon [0,1] \to X  \phantom{AAAA} pr_2(\hat \gamma) \colon [0,1] \to Disc(S)
+  pr_1(\hat \gamma) \;\colon\; [0,1] \to X  \phantom{AAAA} pr_2(\hat \gamma) \;\colon\; [0,1] \to Disc(S)
   \,,
 $$
 
-Now the lifting condition explicitly fixes $pr_1(\hat \gamma) = \gamma$. nMoreover, a continuous function into a [[discrete topological space]] $Disc(S)$ is [[locally constant function|locally constant]], and since $[0,1]$ is a [[connected topological space]] this means that $pr_2(\hat \gamma)$ is in fact a [[constant function]] ([this example](connected+space#LocallyConstantFunctionsOnConnectedSpaces)), hence uniquely fixed to be $pr_2(\hat \gamma) = \hat x_0$.
+Now the lifting condition explicitly fixes $pr_1(\hat \gamma) = \gamma$. Moreover, a continuous function into a [[discrete topological space]] $Disc(S)$ is [[locally constant function|locally constant]], and since $[0,1]$ is a [[connected topological space]] this means that $pr_2(\hat \gamma)$ is in fact a [[constant function]] ([this example](connected+space#LocallyConstantFunctionsOnConnectedSpaces)), hence uniquely fixed to be $pr_2(\hat \gamma) = \hat x_0$.
 
 This shows the statement for the case of trivial covering spaces.
 
@@ -2514,13 +2793,15 @@ $$
 
 constitute an open cover of the [[topological interval]] $[0,1]$.
 
-Now $[0,1]$ is a [[sequentially compact topological space|compact]] [[metric space]] and therefore the [[Lebesgue number lemma]] implies that there is a [[positive number]] $\epsilon \in (0,\infty)$ and cover of $[0,1]$ by [[open intervals]] of the form $(-\epsilon + x , x  + \epsilon) \cap [0,1] \subset [0,1]$ which [[refinement|refines]] this cover. Again since $[0,1]$ is a [[compact topological space]] there is a [[finite set]] of such intervals which covers $[0,1]$. This means that we find a [[finite number]] of points
+Now the [[closed interval]] is a [[compact topological space]], so that this cover has a finite open subcover. By the [[Euclidean space|Euclidean]] [[metric topology]], each element in this finite subcover is a disjoint union of open intervals. The collection of all these open intervals is an open refinement of the original cover, and by compactness it once more has a finite subcover, now such that each element of the subcover is guaranteed to be a single open interval.
+
+This means that we find a [[finite number]] of points
 
 $$
   t_0 \lt t_1 \lt \cdots \lt_{n+1} \in [0,1]
 $$
 
-with $t_0 = 0$ and $t_{n+1} = 1$ such that for all $0 \lt j \leg n$ there is $x_j \in X$ such that the corresponding path segment
+with $t_0 = 0$ and $t_{n+1} = 1$ such that for all $0 \lt j \leq n$ there is $x_j \in X$ such that the corresponding path segment
 
 $$
   \gamma([t_j, t_{j+1}]) \subset X
@@ -2620,7 +2901,7 @@ and lifting the homotopy $\eta_X$. Since $\eta_X$ in addition fixes the endpoint
 
 +-- {: .num_prop #TheTheoremLifting}
 ###### Proposition
-**(lifting theorem)**
+**(lifting theorem for covering spaces)**
 
 Let
 
@@ -2636,7 +2917,7 @@ Let
 
 Then the following are equivalent:
 
-1. There exists a lift $\hat f$ in the diagram
+1. There exists a unique lift $\hat f$ in the diagram
 
    $$
      \array{
@@ -2656,8 +2937,6 @@ Then the following are equivalent:
      f_\ast(\pi_1(Y,y)) \subset p_\ast( \pi_1(E,e) )
      \,
    $$
-
-Moreover, if $Y$ is path-connected, then the lift in the first item is unique.
 
 
 =--
@@ -2814,7 +3093,8 @@ $$
   \,.
 $$
 
-It remains to show that this lift is unique if $Y$ is path-connected. (...)
+This shows that the lifted function is continuous. Finally that this lift
+is unique is the statement of lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}.
 
 =--
 
@@ -2823,7 +3103,7 @@ It remains to show that this lift is unique if $Y$ is path-connected. (...)
 
 ### Monodromy
 
-we now extract from a covering space is _[[monodromy]]_, which is a [[groupoid representation]]
+We now extract from a covering space is _[[monodromy]]_, which is a [[groupoid representation]]
 of the [[fundamental groupoid]] of the base space.
 
 +-- {: .num_defn #GroupoidRepresentation}
@@ -3059,6 +3339,24 @@ $$
 =--
 
 
+
++-- {: .num_example }
+###### Example
+**(three-sheeted covers of the circle)**
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="150">
+</div>
+
+There are, up to [[isomorphism]], three different 3-sheeted [[covering spaces]] of the [[circle]] $S^1$.
+
+The one from example \ref{kForlCovringOfCircle} for $k = 3$. Another one. And the trivial one.
+Their corresponding [[permutation actions]] may be seen from the pictures on the right.
+> graphics grabbed from [Hatcher](homotopy+equivalence#Hatcher)
+
+=--
+
+
 +-- {: .num_example #CoveringSpaceFundamentalGroupoid}
 ###### Example
 **([[fundamental groupoid]] of covering space)
@@ -3111,9 +3409,8 @@ By example \ref{CoveringSpaceFundamentalGroupoid}.
 
 
 
+$\,$
 
-
-### Reconstruction
 
 The following is a description of the reconstruction in terms of elementary [[point-set topology]].
 
