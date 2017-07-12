@@ -67,7 +67,7 @@ To be really careful, this version of $Cat$ is an [[anabicategory]].
 
 ### Cartesian-closed structure 
 
-The category Cat, at least in its traditional version comprising small categories only, is [[cartesian closed]]. (Cf. e.g. p. 98 of [[Categories Work|Mac Lane]], 2nd ed.,  or the remark below Definition 4.3.9 in [[Category Theory in Context|Riehl]].) This makes diagrams like the one expressing the [[comma category]] construction as a pullback defined. 
+The category Cat, at least in its traditional version comprising small categories only, is [[cartesian closed]]. (Cf. e.g. p. 98 of [[Categories Work|Mac Lane]], 2nd ed.,  or the remark below Definition 4.3.9 in [[Category Theory in Context|Riehl]].) 
 
 ### Size issues
 
