@@ -75,23 +75,23 @@ and hence is called the _[[fundamental group]]_ of the space (def. \ref{Fundamen
 This same information turns out to be encoded in "continuously varying sets" over a topological
 space, hence in "[[bundles]] of [[sets]]", called _[[covering spaces]]_ (def. \ref{CoveringSpace} below).
 As one moves around a loop, then the parameterized set comes back to itself up to a [[bijection]]
-called the _[[monodromy]]_ of the loop. This encodes an _[[action]]_ or _[[permutation representation]]_ of the fundamental group. The 
+called the _[[monodromy]]_ of the loop. This encodes an _[[action]]_ or _[[permutation representation]]_ of the fundamental group. The
 _[[fundamental theorem of covering spaces]]_ (prop. \ref{FundamentalTheoremOfCoveringSpaces} below)
 says  that covering spaces are equivalently characterized by their [[monodromy]] [[representation]]
 of the fundamental group. This is an incarnation of the general principle of _[[Galois theory]]_
 in [[topological homotopy theory]]. Sometimes this allows to compute fundamental groups
 from behaviour of covering spaces, for instance it allows to prove that the [[fundamental group of the circle is the integers]]
-(prop. \ref{CircleFundamentalGroup} below). 
+(prop. \ref{CircleFundamentalGroup} below).
 
 In order to formulate and prove these statements, it turns out convenient to do away
 with the arbitrary choice of basepoint that is involved in the definition of fundamental
-groups, and instead collect _all_ homotopy classes of paths into a single structure, 
+groups, and instead collect _all_ homotopy classes of paths into a single structure,
 called the _[[fundamental groupoid]]_ of a topological space (example \ref{FundamentalGroupoid} below)
 an example of a generalization of groups to _[[groupoids]]_ (discussed [below](#Groupoid)).
 The fundamental groupoid may be regarded as an [[algebra|algebraic]] incarnation of the
 [[homotopy type]] presented by a topological space, _up to level 1_ (the _[[homotopy 1-type]]_).
 
-The algebraic reflection of the full [[homotopy type]] of a topological space involves 
+The algebraic reflection of the full [[homotopy type]] of a topological space involves
 higher dimensional analogs fo the [[fundamental group]] called the _higher [[homotopy groups]]_.
 We close with an outlook on these [below](#HigherHomotopyGroups).
 
@@ -2400,27 +2400,32 @@ Assuming the [[axiom of choice]] then the following are equivalent:
 In one direction, if $F$ has an inverse up to natural isomorphism, then this induces by definition a bijection
 on connected components, and it induces isomorphism on homotopy groups by lemma \ref{AutomorphismGroupDependsOnlyOnConnectedComponent}.
 
-In the other direction, choose equivalences to [[skeleta]] as in prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings}:
+In the other direction, choose equivalences to [[skeleta]] as in prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings}
+to get a [[commuting diagram]] in the [[1-category]] of groupoids as follows:
 
 $$
   \array{
     \mathcal{G}_1 &\underoverset{\simeq}{inc_1}{\longleftarrow}& \underset{i \in \pi_0(\mathcal{G}_1)}{\sqcup} Aut_{\mathcal{G}_1}(x_i)
     \\
-    {}^{\mathllap{F}}\downarrow && \downarrow^{\mathrlap{\tilde F \coloneqq p_2 \circ F \circ inc_1}}
+    {}^{\mathllap{F}}\downarrow && \downarrow^{\mathrlap{\tilde F }}
     \\
-    \mathcal{G}_2 &\underoverset{p_2}{\simeq}{\longrightarrow}& \underset{j \in \pi_0(\mathcal{G}_2)}{\sqcup} Aut_{\mathcal{G}_2}(x_j)
+    \mathcal{G}_2 &\underoverset{inc_2}{\simeq}{\longleftarrow}& \underset{i \in \pi_0(\mathcal{G}_1)}{\sqcup} Aut_{\mathcal{G}_2}(F_0(x_i))
   }
   \,.
 $$
 
-Here $inc_1$ and $p_2$ are equivalences of groupoids by prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings} and
-hence are weak homotopy equivalences by the statement above. Since moreover $F$ is a weak homotopy equivalence by
-assumption, it follows clearly that also $\tilde F$ is a weak homotopy equivalence.
+Here $inc_1$ and $inc_2$ are equivalences of groupoids by prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings}.
+Moreover, by assumption that $F$ is a weak homotopy equivalence $\tilde F$ is the union of of deloopings of
+isomorphisms of groups, and hence has a strict inverse, in particular a homotopy inverse, hence is in particular
+an euivalence of groupoids.
 
-Since $\tilde F$ is a morphism between disjoint unions of delooping groupoids, the statement follows now with lemma \ref{DeloopingGroupoidEquivalence}.
+In conclusion, when regarded as a diagram in the [[homotopy category]] $Ho(Grpd)$ (def. \ref{HomotopyCategoryOfGroupoids}),
+the top, bottom and right moprhism of the above diagram are isomorphisms. It follows that also
+$f$ is an isomorphism in $Ho(Grpd)$. But this means exactly that it is a homotopy equivalence of groupoids, by
+def. \ref{EquivalenceOfGroupoids}.
+
 
 =--
-
 
 
 
