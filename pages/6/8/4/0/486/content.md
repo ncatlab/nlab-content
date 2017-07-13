@@ -77,6 +77,8 @@ The [[codomain fibration]] of a pretopos is always a [[stack]] for its precanoni
 
 * [[2-pretopos]]
 
+* [[(∞,1)-pretopos]]
+
 ## References
 
 *  [[Benno van den Berg]],  [[Ieke Moerdijk]] (2008-09-25); _$W$-types in sheaves_; [vdBM_Wtypes.ps/pdf](http://www.phil.cmu.edu/projects/ast/Papers/)
