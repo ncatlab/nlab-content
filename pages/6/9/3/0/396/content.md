@@ -15,12 +15,14 @@
 
 ## Definition
 
-A **full and faithful functor** is a [[functor]] which is both [[full functor|full]] and [[faithful functor|faithful]].  "Full and faithful" is sometimes shortened to "fully faithful" or "ff."   See also [[full subcategory]].
+A **full and faithful functor** is a [[functor]] which is both [[full functor|full]] and [[faithful functor|faithful]].  That is, a [[functor]] $F\colon C \to D$ from a [[category]] $C$ to a category $D$ is called _full and faithful_ if for each pair of [[objects]] $x, y \in C$, the [[function]]
+$$F\colon C(x,y) \to D(F(x), F(y))$$
+between [[hom sets]] is [[bijective]].  "Full and faithful" is sometimes shortened to "fully faithful" or "ff."   See also [[full subcategory]].
 
 
 ## Properties
 
-* Together with [[bo functor|bijective-on-objects functors]], fully faithful  functors form an [[bo-ff factorization system|orthogonal factorization system]] on $Cat$. More invariantly, pair them with [[essentially surjective functor]]s to get a bicategorial factorization system.
+* Together with [[bo functor|bijective-on-objects functors]], fully faithful  functors form an [[bo-ff factorization system|orthogonal factorization system]] on $Cat$; see [[bo-ff factorization system]]. More invariantly, pair them with [[essentially surjective functor]]s to get a bicategorial factorization system.
 
 +-- {: .num_example #FullSubcategoryInclusionsReflectCoLimits}
 ###### Example
