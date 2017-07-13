@@ -59,12 +59,44 @@ $\,$
 
 $\,$
 
-In order to handle topological spaces, to compute their properties and distinguish them, it
-turns out to be useful to consider not just continuity within a topological space, but also
-continuous deformations of [[continuous functions]] _between_ topological spaces. This is the
-concept of _[[homotopy]]_, and its study is _[[homotopy theory]]_. We introduce the basic concept
-and consider its most fundamental application: the [[fundamental group]] and its relation to the
-classification of [[covering spaces]].
+In order to handle topological spaces, to compute their properties and to distinguish them, it
+turns out to be useful to consider not just continuous variation within a topological space, i.e.
+[[continuous functions]] between topological spaces, but also continuous deformations of [[continuous functions]] themselves.
+This is the concept of _[[homotopy]]_ (def. \ref{LeftHomotopy} below), and its study is called _[[homotopy theory]]_.
+If one regards topological spaces with [[homotopy classes]] of continuous functions between them
+then their nature changes, and one speaks of _[[homotopy types]]_ (remark \ref{IsomorphismHomotopyEquivalence} below).
+
+Of particular interest are homotopies between [[paths]] in a topological space. If a [[loop]]
+in a topological space is homotopic to the constant loop, this means that it does not "wind around a hole"
+in the space. Hence the set of homotopy classes of loops in a topological space, which is a [[group]]
+under [[concatenation of paths]], detects crucial information about the global structure of the space,
+and hence is called the _[[fundamental group]]_ of the space (def. \ref{FundamentalGroupoidAndFundamentalGroup}).
+
+This same information turns out to be encoded in "continuously varying sets" over a topological
+space, hence in "[[bundles]] of [[sets]]", called _[[covering spaces]]_ (def. \ref{CoveringSpace} below).
+As one moves around a loop, then the parameterized set comes back to itself up to a [[bijection]]
+called the _[[monodromy]]_ of the loop. This encodes an _[[action]]_ or _[[permutation representation]]_ of the fundamental group. The 
+_[[fundamental theorem of covering spaces]]_ (prop. \ref{FundamentalTheoremOfCoveringSpaces} below)
+says  that covering spaces are equivalently characterized by their [[monodromy]] [[representation]]
+of the fundamental group. This is an incarnation of the general principle of _[[Galois theory]]_
+in [[topological homotopy theory]]. Sometimes this allows to compute fundamental groups
+from behaviour of covering spaces, for instance it allows to prove that the [[fundamental group of the circle is the integers]]
+(prop. \ref{CircleFundamentalGroup} below). 
+
+In order to formulate and prove these statements, it turns out convenient to do away
+with the arbitrary choice of basepoint that is involved in the definition of fundamental
+groups, and instead collect _all_ homotopy classes of paths into a single structure, 
+called the _[[fundamental groupoid]]_ of a topological space (example \ref{FundamentalGroupoid} below)
+an example of a generalization of groups to _[[groupoids]]_ (discussed [below](#Groupoid)).
+The fundamental groupoid may be regarded as an [[algebra|algebraic]] incarnation of the
+[[homotopy type]] presented by a topological space, _up to level 1_ (the _[[homotopy 1-type]]_).
+
+The algebraic reflection of the full [[homotopy type]] of a topological space involves 
+higher dimensional analogs fo the [[fundamental group]] called the _higher [[homotopy groups]]_.
+We close with an outlook on these [below](#HigherHomotopyGroups).
+
+
+$\,$
 
 
 ## Homotopy
@@ -482,7 +514,15 @@ In view of remark \ref{HomotopyCategory} a continuous function $f$ is
 a homotopy equivalence precisely if its image $\kappa(f)$ in the
 [[homotopy category]] is an [[isomorphism]].
 
+As an object of the [[homotopy category]], a topoogical space is often referred to
+as a ([[strong homotopy type|strong]]) [[homotopy type]]. Homotopy types
+have a different nature than the [[topological spaces]] which _present_ them,
+in that topological spaces that are far from being [[homeomorphism|homeomorphic]]
+may still be equivalent as homotopy types.
+
+
 =--
+
 
 +-- {: .num_example #HomotopyEquivalenceHomeomorphism}
 ###### Example
@@ -3105,8 +3145,8 @@ is unique is the statement of lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpac
 
 Since the lift of a path through a [[covering space]] [[projection]] is unique once the lift of the
 starting point is chosen, (lemma \ref{CoveringSpacePathLifting}) every path in the base space
-determuined a [[function]] between the [[fiber]] [[sets]] over its endpoints. By the 
-[[homotopy lifting property]] of covering spaces (lemma \ref{CoveringSpacesHomotopyLifting}) 
+determuined a [[function]] between the [[fiber]] [[sets]] over its endpoints. By the
+[[homotopy lifting property]] of covering spaces (lemma \ref{CoveringSpacesHomotopyLifting})
 this function only depends on the [[equivalence class]] of the path under [[homotopy relative boundary]].
 Therefore this fiber-assignment is in fact an _[[action]]_ of the [[fundamental groupoid]] of the base space on sets,
 called a _[[groupoid representation]]_ (def. \ref{GroupoidRepresentation} below).
@@ -3119,7 +3159,7 @@ It is a measure for how the coverign space fails to be globally trivial.
 In fact the [[fundamental theorem of covering spaces]] (prop. \ref{FundamentalTheoremOfCoveringSpaces})
 below says that the [[monodromy]] representation characterizes the covering spaces completely
 and faithfully. This means that covering spaces may be dealt with completely with tools from
-[[group theory]] and [[representation theory]], a fact that we make use of in the computation of 
+[[group theory]] and [[representation theory]], a fact that we make use of in the computation of
 examples [below](#Examples).
 
 $\,$
@@ -3659,10 +3699,11 @@ This proves the equivalence.
  {#Examples}
 
 ### Fundamental groups
+ {#ExamplesFundamentalGroups}
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #CircleFundamentalGroup}
 ###### Proposition
 **([[fundamental group of the circle is the integers]])**
 
@@ -3865,6 +3906,7 @@ This shows that $Aut_{Cov(S^1)}(\mathbb{R}^1) \simeq \mathbb{Z}$.
 
 
 ### Higher homotopy groups
+ {#HigherHomotopyGroups}
 
 (...)
 
