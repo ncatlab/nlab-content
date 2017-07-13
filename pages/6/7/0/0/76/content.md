@@ -19,6 +19,8 @@
 
 In generality, _homotopy theory_ is the study of mathematical contexts in which [[functions]] or rather ([[homomorphism|homo]]-)[[morphisms]] are equipped with a concept of _[[homotopy]]_ between them, hence with a concept of "equivalent [[deformations]]" of morphisms, and then iteratively with [[homotopies of homotopies]] between those, and so forth. 
 
+For exposition see _[[Introduction to Topology -- 2|Introduction to Basic Homotopy Theory]]_, _[[Introduction to Homotopy Theory]]_, and _[[geometry of physics -- homotopy types]]_.
+
 A key aspect is that in such homotopy theoretic contexts the concept of _[[isomorphism]]_ is relaxed to that of _[[homotopy equivalence]]_: Where a [[morphism]] is regarded as [[inverse morphism|invertible]] if there is a reverse function such that both [[composition|composites]] are _[[equality|equal]]_ to the [[identity morphism]], for a [[homotopy equivalence]] one only requires the composites to be [[homotopy|homotopic]] to the identity. Regarding objects in a homotopical context up to [[homotopy equivalence]] this way is to regard them as _[[homotopy types]]_. 
 
 The classical example is the [[classical model structure on topological spaces|classical homotopy theory of topological spaces]], where one considers [[topological spaces]] with [[continuous functions]] between them, and with the original concept of [topological homotopies](Introduction+to+Topology#LeftHomotopy) between these continuous functions. The [[category]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[homotopy equivalence]]-[[equivalence classes|class]] of [[continuous functions]] is also called the _[[classical homotopy category]]_. 
