@@ -138,8 +138,11 @@ Note that the stronger universe axiom implies, as above, that finite colimits ar
 ## Related pages
 
 * [[elementary topos]]
+
 * [[predicative topos]]
-* [[Grothendieck (∞,1)-topos]]
+
+* [[Grothendieck (∞,1)-topos]], [[(∞,1)-pretopos]]
+
 * [[homotopy type theory]]
 
 ## References
