@@ -34,7 +34,7 @@ $$
 $$
 So it suffices to show that each $\mu^{-1}(\{a\})$ is open. We have
 $$
-  \mu^{-1}(\{a\}) = \bigcup_{x \in X}\{x\} \times \{g \in G: g \cdot x = a\}.
+  \mu^{-1}(\{a\}) = \bigcup_{x \in X}\{g \in G: g \cdot x = a\} \times \{x\}.
 $$
 Thus we only have to show that for each $a, x \in X$, the set $\{g \in G: g \cdot x = a\}$ is open. If there is no such $g$, then this is empty, hence open. Otherwise, let $g_0$ be such that $g_0 \cdot x= a$.  Then we have
 $$
