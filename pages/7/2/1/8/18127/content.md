@@ -2624,7 +2624,7 @@ is an open subset of the complement of the diagonal in the fiber product.
 
 $\,$
 
-### Lifting properties 
+### Lifting properties
 
 We discuss [[left lifting properties]] satisfied by covering spaces.
 
@@ -2854,7 +2854,7 @@ Moreover if the homotopy $\eta$ also fixes the endpoint, then so does the lifted
 +-- {: .proof}
 ###### Proof
 
-The proof is analogous to that of lemma \ref{CoveringSpacePathLifting}: The [[Lebesgue number lemma]] gives a partition of $[0,1] \times [0,1]$ into a [[finite number]] of squares such that the image of each under $\gamma$ lands in an open subset over which the covering space trivializes. Then there is [[induction|inductively]] a unique appropriate lift over each of these squares.
+The proof is analogous to that of lemma \ref{CoveringSpacePathLifting}: Given a cover of $X$ over which the covering space trivializes, its preimage is a cover of $[0,1]^2$ over whose elements unique lifts relative to one point exist. By compactness of $[0,1]^2$ this has a finite subcover. Over this we find a lift by induction: To start the induction, there must be one patch which contains the base point, and so we lift there. Then in the induction step, if there is at least one open set left over which we have not lifted yet, by [[connected topological space|connectedness]] of $[0,1]^2$ it follows that there is one which intersects the union  of those patches over which we have already lifted. Hence we have a lift of at least one point over this patch prescribed and hence again find a unique lift over the whole patch
 
 Finally, if the homotopy in $X$ is constant also at the endpoint, hence on $\{1\} \times [0,1]$, then the function constant on $\hat \eta(1,1)$ is clearly a lift of the path $eta\vert_{\{1\}\times [0,1]}$ and by uniqueness of the path lifting (lemma \ref{CoveringSpacePathLifting}) this means that also $\hat \eta$ is constant on $\{1\} \times [0,1]$.
 
@@ -3103,8 +3103,26 @@ is unique is the statement of lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpac
 
 ### Monodromy
 
-We now extract from a covering space is _[[monodromy]]_, which is a [[groupoid representation]]
-of the [[fundamental groupoid]] of the base space.
+Since the lift of a path through a [[covering space]] [[projection]] is unique once the lift of the
+starting point is chosen, (lemma \ref{CoveringSpacePathLifting}) every path in the base space
+determuined a [[function]] between the [[fiber]] [[sets]] over its endpoints. By the 
+[[homotopy lifting property]] of covering spaces (lemma \ref{CoveringSpacesHomotopyLifting}) 
+this function only depends on the [[equivalence class]] of the path under [[homotopy relative boundary]].
+Therefore this fiber-assignment is in fact an _[[action]]_ of the [[fundamental groupoid]] of the base space on sets,
+called a _[[groupoid representation]]_ (def. \ref{GroupoidRepresentation} below).
+In particular, associated with any homotopy-class
+of a [[loop]], hence of an element in the [[fundamental group]], there is associated a
+[[bijection]] of the fiber over the loop's basepoint with itself, hence a [[permutation representation]]
+of the [[fundamental group]]. This is called the _[[monodromy]]_ of the covering space.
+It is a measure for how the coverign space fails to be globally trivial.
+
+In fact the [[fundamental theorem of covering spaces]] (prop. \ref{FundamentalTheoremOfCoveringSpaces})
+below says that the [[monodromy]] representation characterizes the covering spaces completely
+and faithfully. This means that covering spaces may be dealt with completely with tools from
+[[group theory]] and [[representation theory]], a fact that we make use of in the computation of 
+examples [below](#Examples).
+
+$\,$
 
 +-- {: .num_defn #GroupoidRepresentation}
 ###### Definition
@@ -3546,13 +3564,8 @@ and hence a union of base opens.
 =--
 
 
-
-## Topological Galois theory
-
-### Fundamental theorem of covering spaces
-
-+-- {: .num_theorem #FundamentalTheoremOfCoveringSpaces}
-###### Theorem
++-- {: .num_prop #FundamentalTheoremOfCoveringSpaces}
+###### Proposition
 **([[fundamental theorem of covering spaces]])**
 
 Let $X$ be a [[locally path-connected topological space|locally path-connected]] and [[semi-locally simply-connected topological space]]. Then the operations on
@@ -3641,7 +3654,13 @@ This proves the equivalence.
 =--
 
 
-### Applications
+
+## Examples
+ {#Examples}
+
+### Fundamental groups
+
+
 
 +-- {: .num_prop}
 ###### Proposition
@@ -3844,6 +3863,10 @@ This shows that $Aut_{Cov(S^1)}(\mathbb{R}^1) \simeq \mathbb{Z}$.
 
 =--
 
+
+### Higher homotopy groups
+
+(...)
 
 $\,$
 
