@@ -304,7 +304,7 @@ whose objects are the groupoid homomorphisms / functors, and whose morphisms are
 ###### Remark
 **([[groupoids]] are special cases of [[categories]])**
 
-A [[small groupoid]] (def. \ref{GroupoidGlobalDefinition}) is equivalently a [[small category]] in which all [[morphisms]] are [[isomorphism|isomorphisms]].
+A [[small groupoid]] (def. \ref{GroupoidDependentlyTypes}) is equivalently a [[small category]] in which all [[morphisms]] are [[isomorphism|isomorphisms]].
 
 While therefore groupoid theory may be regarded as a special case of [[category theory]], it
 is noteworthy that the two theories are quite different in character. For example [[higher groupoid]]
@@ -384,7 +384,7 @@ A groupoid is called **tame** if its [[groupoid cardinality]] is finite.
 **([[1-category]] of [[groupoids]])**
 
 From def. \ref{GroupoidDependentlyTypes} we see that there
-is a [[category]]whose
+is a [[category]] whose
 
 * [[objects]] are the small groupoids;
 
@@ -970,11 +970,11 @@ $$
 and given on the class of a [[path]] by the evident postcomposition with $f$
 
 $$
-  (F_f)_{x,y} 
-    \;\colon\; 
+  (F_f)_{x,y}
+    \;\colon\;
   (x \overset{[\gamma]}{\longrightarrow} y)
     \;\mapsto\;
-  (f(x) \overset{[f \circ \gamma]}{\longrightarrow} f(y) ) 
+  (f(x) \overset{[f \circ \gamma]}{\longrightarrow} f(y) )
   \,.
 $$
 
@@ -987,7 +987,7 @@ $$
 
 from the [[category]] [[Top]] of [[topological  space]] to the [[1-category]] [[Grpd]] of groupoids.
 
-But more is true: If $f,g \;\colon\; X \longrightarrow Y$ are two [[continuous function]] and 
+But more is true: If $f,g \;\colon\; X \longrightarrow Y$ are two [[continuous function]] and
 
 $$
   \eta \;\colon\; f \Rightarrow g
@@ -997,7 +997,7 @@ is a [[left homotopy]] between them, hence a continuous function
 
 $$
   \eta \;\colon\; X \times [0,1] \longrightarrow Y
-$$ 
+$$
 
 such that $\eta(-,0) = f$ and $\eta(-,1) = g$, then this induces a homotopy between the above groupoid homomorphisms
 (a natural transformation of functors).
@@ -1032,7 +1032,7 @@ Of course by prop. \ref{DeloopingGroupoidEquivalence} the fundamental groupoid i
 equivalent, as a groupoid, to the disjoint union of the [[deloopings]] of
 all the [[fundamental groups]] of the given topological spaces, one for each [[connected component]],
 and hence this is equivalently the statement that the set of connected components
-and the fundamental groups of a topological space are homotopy invariants. 
+and the fundamental groups of a topological space are homotopy invariants.
 
 =--
 
@@ -1515,24 +1515,30 @@ Assuming the [[axiom of choice]] then the following are equivalent:
 In one direction, if $F$ has an inverse up to natural isomorphism, then this induces by definition a bijection
 on connected components, and it induces isomorphism on homotopy groups by lemma \ref{AutomorphismGroupDependsOnlyOnConnectedComponent}.
 
-In the other direction, choose equivalences to [[skeleta]] as in prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings}:
+In the other direction, choose equivalences to [[skeleta]] as in prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings}
+to get a [[commuting diagram]] in the [[1-category]] of groupoids as follows:
 
 $$
   \array{
     \mathcal{G}_1 &\underoverset{\simeq}{inc_1}{\longleftarrow}& \underset{i \in \pi_0(\mathcal{G}_1)}{\sqcup} Aut_{\mathcal{G}_1}(x_i)
     \\
-    {}^{\mathllap{F}}\downarrow && \downarrow^{\mathrlap{\tilde F \coloneqq p_2 \circ F \circ inc_1}}
+    {}^{\mathllap{F}}\downarrow && \downarrow^{\mathrlap{\tilde F }}
     \\
-    \mathcal{G}_2 &\underoverset{p_2}{\simeq}{\longrightarrow}& \underset{j \in \pi_0(\mathcal{G}_2)}{\sqcup} Aut_{\mathcal{G}_2}(x_j)
+    \mathcal{G}_2 &\underoverset{inc_2}{\simeq}{\longleftarrow}& \underset{i \in \pi_0(\mathcal{G}_1)}{\sqcup} Aut_{\mathcal{G}_2}(F_0(x_i))
   }
   \,.
 $$
 
-Here $inc_1$ and $p_2$ are equivalences of groupoids by prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings} and
-hence are weak homotopy equivalences by the statement above. Since moreover $F$ is a weak homotopy equivalence by
-assumption, it follows clearly that also $\tilde F$ is a weak homotopy equivalence.
+Here $inc_1$ and $inc_2$ are equivalences of groupoids by prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings}.
+Moreover, by assumption that $F$ is a weak homotopy equivalence $\tilde F$ is the union of of deloopings of 
+isomorphisms of groups, and hence has a strict inverse, in particular a homotopy inverse, hence is in particular
+an euivalence of groupoids. 
 
-Since $\tilde F$ is a morphism between disjoint unions of delooping groupoids, the statement follows now with lemma \ref{DeloopingGroupoidEquivalence}.
+In conclusion, when regarded as a diagram in the [[homotopy category]] $Ho(Grpd)$ (def. \ref{HomotopyCategoryOfGroupoids}),
+the top, bottom and right moprhism of the above diagram are isomorphisms. It follows that also 
+$f$ is an isomorphism in $Ho(Grpd)$. But this means exactly that it is a homotopy equivalence of groupoids, by 
+def. \ref{EquivalenceOfGroupoids}.
+
 
 =--
 
