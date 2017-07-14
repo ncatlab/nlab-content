@@ -3,16 +3,20 @@
 * table of contents
 {:toc}
 
-## Idea
-
-the stable [[orthogonal group]]
 
 ## Definition
 
-[[direct limit]]
+For each $n \in \mathbb{N}$ there is an inclusion
+
+$$
+  O(n) \hookrightarrow O(n+1)
+$$
+
+of the [[orthogonal group]] in dimension $n$ into that in dimension $n+1$. The _stable orthogonal group_ is the [[direct limit]] over this sequence of inclusions.
 
 $$
   O \coloneqq {\underset{\to}{\lim}}_n O(n)
+  \,.
 $$
 
 ## Properties
