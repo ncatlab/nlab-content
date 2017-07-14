@@ -40,10 +40,9 @@ The reader can probably think of other variations on this theme.
 
 ## Related concepts
 
-* If one opts for the alternative[^1] definition that subobjects _are_ monomorphisms into the object (not isomorphism classes thereof), then one gets a [[groupoid]] of subobjects instead. 
+* If one opts for the alternative[^1] definition that subobjects _are_ monomorphisms into the object (not isomorphism classes thereof), then one gets a [[preorder]] of subobjects instead. In any case, the *poset* of [[subobjects]] $Sub(X)$ in our sense is the posetal reflection of the preorder $Mono(X)$ of subobjects in the alternative sense, and of course the reflection quotient map $Mono(X) \to Sub(X)$ is an [[equivalence]]. 
 
-
-[^1]: Discussions of this can be found in cf. [A.1.3](#Johnstone) and [this MO discussion](#MO)
+[^1]: Discussions of this can be found in [A.1.3](#Johnstone) of Johnstone's Elephant, and also [this MO discussion](#MO). 
 
 * [[lattice of subgroups]]
 
