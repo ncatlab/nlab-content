@@ -23,7 +23,7 @@
 
 ## Idea
 
-Given any [[object]] $X$ in any [[category]] $C$, the [[subobjects]] of $X$ form a [[poset]], called (naturally enough) the __poset of subobjects__ of $X$, or the __subobject poset__ of $X$.
+Given any [[object]] $X$ in any [[category]] $C$, the [[subobjects]] of $X$ form a [[poset]] (though in general it may be a [[large category|large]] one, i.e. a partially ordered [[proper class]]), called (naturally enough) the __poset of subobjects__ of $X$, or the __subobject poset__ of $X$.
 
 Sometimes it is the __poset of [[regular subobjects]]__ that really matters (although these are the same in any ([[pretopos|pre]])[[topos]]).
 
