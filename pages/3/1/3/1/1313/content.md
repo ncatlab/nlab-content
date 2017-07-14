@@ -40,7 +40,7 @@ equals $e$. (The map $u$ is known by various names, e.g. the _exponential transp
 
 
 [^1]: Cf. e.g. T. Streicher, Introduction to Category Theory and Categorical Logic, Lecture Notes, TU-Darmstadt, 2003. It is also, rarely, denoted $e^{\flat}$, which is  read "e flat" (cf. the staff notation used in contemporary music). 
-There are reasons for both notations: $\lambda(e)$ is a Hat tip to the [[lambda-calculus]], in which currying plays a central role, while $e^\flat$ is in tune with a formalism sometimes used to denote [[adjuncts]]: since the endofunctor $(-)^Y$ is right-adjoint to $(-)\times Y$, the morphism $e^\flat=\lambda(e)=u$ (cf. above for $u$) is the adjunct of $e$ .
+There are reasons for both notations: $\lambda(e)$ is a hat tip to the [[lambda-calculus]], in which currying plays a central role, while $e^\flat$ is in tune with a formalism sometimes used to denote [[adjuncts]]: since the endofunctor $(-)^Y$ is right-adjoint to $(-)\times Y$, the morphism $e^\flat=\lambda(e)=u$ (cf. above for $u$) is the adjunct of $e$ .
 
 As with other [[universal construction]]s, an exponential object, if any exists, is [[generalized the|unique up to unique isomorphism]].  It can also be characterized as a [[distributivity pullback]].
 
