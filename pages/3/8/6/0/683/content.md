@@ -887,7 +887,7 @@ The following is sometimes in the literature taken as the definition of homotopy
 +-- {: .num_defn}
 ###### Definition
 
-Let $D$ be a [[category]] and $F : D \to$ [[Top]] a [{[functor]]. 
+Let $D$ be a [[category]] and $F : D \to$ [[Top]] a [[functor]]. 
 
 Define a [[simplicial topological space]] $sF$ by setting
 
@@ -895,7 +895,7 @@ $$
   sF : [n] \mapsto \coprod_{d_0 \leftarrow d_1 \leftarrow \cdots \leftarrow d_n} F(d_n) 
 $$
 
-and using the obvious face and degeneracy maps: face maps act by mapping components of the [[coproduct]]s of one sequence of morphisms to one obtained by deleting outer arrows or composing inner arrows. If the rightmost arrow is deleted, then the component map is not the identity but is $F(d_n) \to D(d_{n-1})$. The degeneracy maps similarly introduce identity morphisms.
+and using the obvious face and degeneracy maps: face maps act by mapping components of the [[coproduct]]s of one sequence of morphisms to one obtained by deleting outer arrows or composing inner arrows. If the rightmost arrow is deleted, then the component map is not the identity but is $F(d_n) \to F(d_{n-1})$. The degeneracy maps similarly introduce identity morphisms.
 
 =--
 
