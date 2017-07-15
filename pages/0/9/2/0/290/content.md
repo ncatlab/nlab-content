@@ -124,16 +124,19 @@ A short introduction to different aspects of QFT usually covered in a first cour
 * Gerald B. Folland, _Quantum field theory: A tourist guide for mathematicians_, Math. Surveys and Monographs __149__ ([ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81003&format=complete))
 
 
-* R. E. [[Borcherds]], A. Barnard, _Lectures on QFT_, ([arxiv:math-ph/0204014](http://arxiv.org/abs/math-ph/0204014))
+* [[Richard Borcherds]], A. Barnard, _Lectures on QFT_, ([arxiv:math-ph/0204014](http://arxiv.org/abs/math-ph/0204014))
 
 A standard textbook written from the perspective of [[effective field theory]] is
 
-* [[Steven Weinberg]] _The Quantum Theory of Fields_ (Cambridge University
-Press,Cambridge,1995). 
+* {#Weinberg95} [[Steven Weinberg]] _The Quantum Theory of Fields_, Cambridge University Press (1995)
 
 A review of rigorous aspects and [[AQFT]]-like formulations is in
 
 * [[Franco Strocchi]], _Relativistic Quantum Mechanics and Field Theory_, Found.Phys. 34 (2004) 501-527 ([arXiv:hep-th/0401143](http://arxiv.org/abs/hep-th/0401143))
+
+* {#FredenhagenRejzner12} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative algebraic quantum field theory_, In _Mathematical Aspects of Quantum Field Theories_, Springer 2016 ([arXiv:1208.1428](https://arxiv.org/abs/1208.1428))
+
+* {#FredenhagenRejzner15} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative Construction of Models of Algebraic Quantum Field Theory_ ([arXiv:1503.07814](https://arxiv.org/abs/1503.07814))
 
 An extensive compilation of material on QFT aiming for mathematical precision is
 
@@ -144,27 +147,24 @@ A discussion of aspects of QFT with an eye towards applications in [[string theo
 * [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 
-Differential geometric and topological aspects (e.g. connections to index theorems and moduli spaces) are emphasized in
+Aspects of [[topology]] and [[differential geometry]]  (e.g. connections to [[index theorems]] and [[moduli spaces]]) are emphasized in
 
 * Charles Nash, _Differential topology and quantum field theory_, Acad. Press 1991. 
 
 An indication of the modern foundational picture of quantum mechanics is attempted in
 
-* [[Hisham Sati]], [[Urs Schreiber]], _Mathematical foundations of quantum field and perturbative string theory_ Proceedings of Symposia in Pure Mathematics, AMS (<a href="http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory">web</a>).
- {#SatiSchreiber}
+* {#SatiSchreiber} [[Hisham Sati]], [[Urs Schreiber]], _Mathematical foundations of quantum field and perturbative string theory_ Proceedings of Symposia in Pure Mathematics, AMS (<a href="http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory">web</a>).
+ 
 
 See also
 
-* [[Albert Schwarz]], Quantum field theory and topology, Grundlehren der Math. Wissen. __307__, Springer 1993.  
+* [[Albert Schwarz]], _Quantum field theory and topology_, Grundlehren der Math. Wissen. __307__, Springer 1993.  
 
 
 * [[Graeme Segal]], _[[Three Roles of Quantum Field Theory]]_ , Felix Klein lectures, Bonn (2011)
 
-For further references see [[FQFT]] and [[AQFT]].
+For further references see _[[FQFT]]_ and _[[AQFT]]_.
 
-Texts on supersymmetric QFT include
-
-* V. S. Varadarajan, _Supersymmetry for mathematicians: an introduction_, AMS and Courant Institute, 2004.
 
 See also
 
