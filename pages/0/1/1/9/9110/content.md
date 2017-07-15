@@ -23,7 +23,9 @@
 
 ## Idea
 
-The _Freund-Rubin compactification_ is a [[Kaluza-Klein mechanism|Kaluza-Klein compactification]] of [[11-dimensional supergravity]] on a [[manifold]] $X_7$  of [[dimension]] 7 (in the original [[model (in theoretical physics)|model]] a round 7-[[sphere]]) with non-vanishing constant 4-form [[field strength]] ("flux") of the [[supergravity C-field]] in the remaining four dimensional [[anti-de Sitter spacetimes]] $AdS_4$.
+In general a _Freund-Rubin compactification_ ([Freund-Rubin 80](#FreundRubin80)) is a [[Kaluza-Klein compactification]] of a theory of [[gravity]] coupled to [[gauge fields]] or more generally [[higher gauge fields]] with flux ([[field strength]]) on the compact [[fiber]] spaces such that the result is stable (an example of [[moduli stabilization]] via [[flux compactification]]).
+ 
+In the [[string theory]] literature often _the Freund-Rubin compactification_ refers to a [[Kaluza-Klein mechanism|Kaluza-Klein compactification]] of [[11-dimensional supergravity]] on a [[manifold]] $X_7$  of [[dimension]] 7 (in the original [[model (in theoretical physics)|model]] a round 7-[[sphere]]) with non-vanishing constant 4-form [[field strength]] ("flux") of the [[supergravity C-field]] in the remaining four dimensional [[anti-de Sitter spacetimes]] $AdS_4$.
 
 If $X_7$ has [[weak G2 holonomy]] with weakness parameter/[[cosmological constant]] $\lambda$ the scale of the flux, then this yields $N = 1$ [[supersymmetry]] in the [[effective QFT]] in four dimensions, discussed at _[[M-theory on G2-manifolds]]_. The [[KK-reduction]] on the circle fiber of these solutions to [[type IIA supergravity]] yields type IIA sugra on [[complex projective space]] $\mathbb{C}P^3$ ([Nilsson-Pope 84](#NilssonPope84), [ABJM 08](#ABJM08))
 
@@ -41,7 +43,7 @@ If $X_7 = S^7/G_{ADE}$ is an [[orbifold]] of the round [[7-sphere]] by an finite
 
 The original article is 
 
-* [[Peter Freund]], M. A. Rubin, Phys. Lett. B 97, 233 (1980).
+* {#FreundRubin80} [[Peter Freund]] and M. A. Rubin, _Dynamics Of Dimensional Reduction_, Phys. Lett. B 97, 233 (1980).
 
 A detailed textbook account is in
 
