@@ -135,6 +135,13 @@ Since there is no consensus even on the definition of [[predicative topos|predic
 
 Note that the stronger universe axiom implies, as above, that finite colimits are van Kampen, and in particular therefore that finite coproducts are disjoint.  Instead of strengthening this axiom, we could assume explicitly that finite coproducts are disjoint, and then repeat the proof of descent given above.
 
+## Examples
+ {#Examples}
+
+There is presently no known example of an elementary $(\infty,1)$-topos which is not a [[Grothendieck (∞,1)-topos]], though there are some ideas.
+
+
+
 ## Related pages
 
 * [[elementary topos]]
