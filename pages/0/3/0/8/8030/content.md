@@ -12,7 +12,7 @@
 #Contents#
 * table of contents
 {:toc}
-
+#
 ## Idea
 
 In [[physics]], _moduli stabilization_ refers to the problem of rendering [[Kaluza-Klein compactifications]] stable.
@@ -24,9 +24,16 @@ The problem of _moduli stabilization_ is the problem of identifying mechanisms o
 
 Equivalently, since fast varying moduli appear as light or massless [[particles]] in the low-dimensional [[effective field theory]] which would show up in accelerator [[experiments]] (such as the [[LHC]]) but don't, the problem is to identify mechanisms or conditions that would render these moduli fields massive.
 
-In [[classical field theory]] of [[gravity]] then KK-compactifications are argued ([Penrose 03, section 10.3](#Penrose03)) to generically be unstable by the [[Penrose-Hawking singularity theorem]]. 
+## Freund-Rubin flux compactifications
+ {#FluxCompactfications}
 
-In [[string theory]] it is argued that string theoretic effects may stabilize the compact dimensions, namely a combination of [[flux compactification]] and [[non-perturbative effect|non-perturbative]] [[brane]] effects ([Acharya 02](#Acharya02), [KKLT 03](#KKLT03)). However, these arguments typically focus on fluctuations that preserve given [[special holonomy]] ([[supersymmetry and Calabi-Yau manifolds|Calabi-Yau 3-folds]] in type II or [[M-theory on G2-manifolds|G2-manifolds in M-theory]]). There is also a more generic argument for volume compactification by string winding modes ("[[Brandenberger-Vafa mechanism]]" [Brandenberger-Vafa 89](#BrandenbergerVafa89), [Watson-Brandenberger 03](#WatsonBrandenberger03)) and the claim ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) that in the non-perturbative [[IKKT model]] computer simulations show a spontaneous stable compactification to 3+1 dimensions.
+In pure [[classical field theory|classical]] [[gravity]] KK-compactifications are argued ([Penrose 03, section 10.3](#Penrose03)) to generically be unstable by the [[Penrose-Hawking singularity theorem]]. 
+
+But if extra [[gauge fields]] or [[higher gauge field]] beyond pure gravity are admitted in the higher dimensions, then stable compactifications may exist if there is "magnetic flux" in the compact fiber spaces. These are called _[[Freund-Rubin compactifications]]_, or _[[flux compactifications]]_. 
+
+A well-studied example is 6-dimensional [[Einstein-Maxwell theory]] with magnetic flux on a 2-dimensional [[fiber]] spaces over a 4-dimensional base space ([Freund-Rubin 80](#FreundRubin80), [RDSS 83](#RDSS83)).
+
+Similarly, in [[string theory]] it is argued that the extra fields and further string theoretic effects may stabilize the compact dimensions, namely a combination of [[flux compactification]] and [[non-perturbative effect|non-perturbative]] [[brane]] effects ([Acharya 02](#Acharya02), [KKLT 03](#KKLT03)). However, these arguments typically focus on fluctuations that preserve given [[special holonomy]] ([[supersymmetry and Calabi-Yau manifolds|Calabi-Yau 3-folds]] in type II or [[M-theory on G2-manifolds|G2-manifolds in M-theory]]). There is also a more generic argument for volume compactification by string winding modes ("[[Brandenberger-Vafa mechanism]]" [Brandenberger-Vafa 89](#BrandenbergerVafa89), [Watson-Brandenberger 03](#WatsonBrandenberger03)) and the claim ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) that in the non-perturbative [[IKKT model]] computer simulations show a spontaneous stable compactification to 3+1 dimensions.
 
 ## In string theory
 
@@ -60,11 +67,28 @@ The moduli stabilization in ([KKLT 03](#KKLT03)) was demonstrated in two steps. 
 
 ## References
 
-### In field theory
+### In pure gravity
 
-The problem of generic in-stability of moduli of gravity KK-compactifications is highlighted in
+The problem of generic in-stability of moduli of pure gravity KK-compactifications is highlighted in
 
 * {#Penrose03} [[Roger Penrose]], section 10.3 in _On the stability of extra space dimensions_ in Gibbons, Shellard, Rankin (eds.) _The Future of Theoretical Physics and Cosmology_, Cambridge (2003) ([spire](https://inspirehep.net/record/608935/))
+
+### Freund-Rubin flux compactifications
+
+[[Freund-Rubin compactifcation|Freund-Rubin]] [[flux compactifications]] are due to
+
+A class of stable compactifications of 6d Einstein-Maxwell theory down to four dimensions is due to
+
+* {#FreundRubin80} [[Peter Freund]] and M. A. Rubin, _Dynamics Of Dimensional Reduction_, Phys. Lett. B 97, 233 (1980).
+
+and the special case of compactifications of 6d Einstein-Maxwell theory to 4d is in
+
+*  {#RDSS83} S. Randjbar-Daemi, [[Abdus Salam]] and J. A. Strathdee, _Spontaneous Compactification In Six-Dimensional Einstein-Maxwell Theory_, Nucl. Phys. B 214, 491 (1983) ([spire](https://inspirehep.net/record/182427/))
+
+Further discussion of these models as toy models for [[flux compactifications]] in [[string theory]] is in
+
+* {#DouglasKachru07} [[Michael Douglas]], [[Shamit Kachru]], section D.1 of _Flux compactification_, Rev. Mod. Phys. 79, 733 (2007)
+
 
 ### In string theory
 
