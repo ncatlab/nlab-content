@@ -21,7 +21,11 @@
 ## Idea
 
 
-A kind of [[spacetime]].
+A kind of [[spacetime]]. For the moment see at _[[KK-monopole]]_ for more.
+
+<img src="https://ncatlab.org/nlab/files/TaubNUT.png" width="300">
+
+> graphics grabbed from [Acharya-Gukov 04](#AcharyaGukov04)
 
 Consider the [[left invariant 1-forms]] on the [[3-sphere]] $\simeq$ 
 [[special unitary group|SU(2)]], which in terms of [[Euler angles]] are
@@ -41,6 +45,8 @@ Then the [[pseudo-Riemannian metric]] defining the Taub-NUT geometry is
 $$
   (d s)^2 = \frac{1}{4} \frac{r+n}{r-n} (d r)^2 + \frac{r-n}{r+n} n^2 {\sigma_3}^2 + \frac{1}{4}(r^2 - n^2)({\sigma_1}^2 + {\sigma_2}^2)
 $$
+
+
 
 ## Relation to D6-branes
 
