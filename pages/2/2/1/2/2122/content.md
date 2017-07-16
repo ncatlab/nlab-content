@@ -6,6 +6,8 @@ We can import new entries by looking at [category:category](http://ncatlab.org/n
 
 * [[Alg]]: [[algebra|algebras]] as objects, homomorphisms as morphisms.  This is actually many different categories, depending on a choice of ground [[field]] or more generally [[commutative ring]].  Since any one of these categories consists of models of a [[Lawvere theory]], it has all small [[limit|limits]] and [[colimit|colimits]].
 
+* [[Bicat]]: [[bicategories]]($=$weak 2-categories) as objects, [[2-functors]] as its 1-cells, [[pseudonatural transformations]] between its 1-cells as its 2-cells, and [[modifications]] between its 2-cells as its 3-cells. BiCat is a [[tricategory]]. BiCat is sometimes denoted $Hom$.
+
 * [[CartSp]]: spaces $\mathbb{R}^n$ as objects, smooth maps as morphisms.
 
 * [[Cat]]: [[small category|small categories]] as objects, [[functor|functors]] as morphisms.  Since this category consists of models of a [[finite limits theory]], it has all small [[limit|limits]] and [[colimit|colimits]].  It is [[cartesian closed category|cartesian closed]], and its [[internal hom]]s make it into a [[2-category]].
