@@ -124,7 +124,7 @@ Street fibrations in [[Cat]] also arise in mathematics, though often under diffe
 
 The notion was originally defined in 
 
-* [[Ross Street]], *Fibrations in bicategories*
+* [[Ross Street]], *Fibrations in bicategories*, Cahiers de topologie et g&#233;om&#233;trie diff&#233;rentielle cat&#233;goriques, tome 21, no 2 (1980), p. 111-160
 
 although there it was given in a very abstract form.  A more explicit form like that given above can be found in
 
