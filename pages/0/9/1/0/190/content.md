@@ -67,7 +67,10 @@ To be really careful, this version of $Cat$ is an [[anabicategory]].
 
 ### Cartesian-closed structure 
 
-The category Cat, at least in its traditional version comprising small categories only, is [[cartesian closed]]. (Cf. e.g. p. 98 of [[Categories Work|Mac Lane]], 2nd ed.,  or the remark below Definition 4.3.9 in [[Category Theory in Context|Riehl]].) 
+The category Cat, at least in its traditional version comprising small categories only, is [[cartesian closed]]. [^1]
+
+
+[^1]: Cf. p. 98 of [[Categories Work|Mac Lane]], 2nd ed., or the remark below Definition 4.3.9 in [[Category Theory in Context|Riehl]]; a detailed exposition of cartesian-closedness of Cat, essentially by proving that for any category $\mathcal{D}$, the functor category $\mathrm{Fun}(\mathcal{C},\mathcal{D})$ represents the functor $Cat( (-)\times \mathcal{C} , \mathcal{D})$, equivalently, that $\mathrm{Fun}(\mathcal{C},\mathcal{D})$ behaves like an internal hom $[\mathcal{C},\mathcal{D}]$, equivalently, that for any category $\mathcal{C}$ there exists a right-adjoint to the endofunctor $(-)\times \mathcal{C}$ of $Cat$, is given in Awodey, Category Theory, Second Edition, Sections 7.5-7.7.
 
 ### Size issues
 
