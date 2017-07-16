@@ -190,6 +190,12 @@ and developed as [[causal perturbation theory]] for [[gauge theory]] such as [[q
 
 * {#Scharf95} [[Günter Scharf]], _Finite Quantum Electrodynamics: The Causal Approach_, Berlin: Springer-Verlag, 1995, 2nd edition
 
+and for [[quantum chromodynamics]] and perturbative [[quantum gravity]] in 
+
+* {#Scharf01} [[Günter Scharf]], _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
+
+
+
 Discussion of perturbative [[quantum gravity]] in this perspective is in 
 
 * {#BrunettiFredenhagenRejzner13} [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Quantum gravity from the point of view of locally covariant quantum field theory_ ([arXiv:1306.1058](https://arxiv.org/abs/1306.1058))
