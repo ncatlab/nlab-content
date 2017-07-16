@@ -83,3 +83,17 @@ Discussion of the [[standard model of cosmology]] in the context of AQFT on curv
 [[!redirects locally covariant algebraic quantum field theory]]
 [[!redirects locally covariant AQFT]]
 
+[[!redirects quantum field theory on curved spacetime]]
+[[!redirects quantum field theory on curved spacetimes]]
+
+
+[[!redirects quantum field theories on curved spacetime]]
+[[!redirects quantum field theories on curved spacetimes]]
+
+[[!redirects QFT on curved spacetime]]
+[[!redirects QFT on curved spacetimes]]
+
+[[!redirects QFTs on curved spacetime]]
+[[!redirects QFTs on curved spacetimes]]
+
+
