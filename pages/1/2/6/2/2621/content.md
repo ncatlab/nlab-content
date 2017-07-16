@@ -131,7 +131,7 @@ Further discussion is for instance in
 ### In AQFT
  {#ReferencesInAQFT}
 
-Perturbation theory in the context of [[AQFT]] (or at least in the spirit) is discussed in the following articles.
+Perturbation theory in the spirit of [[AQFT]], namely in [[locally covariant perturbative quantum field theory]] is discussed in the following articles.
 
 The observation that in [[perturbation theory]] the [[renormalization|Stückelberg-Bogoliubov-Epstein-Glaser]] local [[S-matrix|S-matrices]] yield a [[local net of observables]] was first made in 
 
@@ -157,7 +157,7 @@ Proceedings of the Conference on Mathematical Physics in Mathematics and Physics
 
 (relation to [[renormalization]])
 
-* [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of qed_, Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/abs/hep-th/9807078)). 
+* [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theories: the example of qed_, Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/abs/hep-th/9807078)). 
 
 (relation to [[gauge theory]] and [[QED]])
 
