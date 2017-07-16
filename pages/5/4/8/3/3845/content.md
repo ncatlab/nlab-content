@@ -115,7 +115,9 @@ The notion of pasting in a [[2-category]] was introduced in
 
 * [[Jean Benabou]], _Introduction to bicategories_ , in _Lecture Notes in Mathematics_ Vol. 47, pp. l-77, Springer-Verlag, New York/Berlin, (1967)
 
-An survey discussion of pasting in [[2-categories]] is in 
+A reasonably self-contained, formal, and illustrated seven-page introduction to pasting diagrams in the context of weak 2-categories, and their relation to [[string diagrams]] is given by [[Chris Schommer-Pries]] in Section A.4 of "The Classification of Two-Dimensional Extended Topological Field Theories", arXiv:1112.1000v2.
+
+A survey discussion of pasting in [[2-categories]] is in 
 
 * [[John Power]], _2-Categories_ ([pdf](http://www.brics.dk/NS/98/7/BRICS-NS-98-7.pdf))
 
