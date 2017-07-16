@@ -53,7 +53,6 @@ Introductions include
 
 * Peter Skands, _Introduction to QCD_ ([arXiv:1207.2389](https://arxiv.org/abs/1207.2389))
 
-
 * Y. Kurihara, _QCD at LHC for beginners_ 
 
   Lesson 1 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_1.pdf))
@@ -61,6 +60,11 @@ Introductions include
   Lesson 2 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_2.pdf))
 
   Lesson 3 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_3.pdf))
+
+Rigorous construction as a [[perturbative quantum field theory]] via [[causal perturbation theory]] is due to
+
+* {#Scharf01} [[Günter Scharf]], _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
+
 
 
 Discussion of QCD [[perturbation theory]] includes
