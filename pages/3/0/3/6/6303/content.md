@@ -6,4 +6,8 @@
 
 * [[AQFT]], [[local net of observables]]
 
+* [[AQFT on curved spacetimes]]
+
+* [[locally covariant perturbative quantum field theory]]
+
 category: people
