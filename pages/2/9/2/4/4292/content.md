@@ -109,3 +109,6 @@ category: analysis, algebra
 [[!redirects formal power series ring]]
 [[!redirects formal power series rings]]
 
+[[!redirects formal power series algebra]]
+[[!redirects formal power series algebras]]
+
