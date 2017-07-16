@@ -2,8 +2,29 @@
 
 * [webpage](http://phys-merger.physik.unibas.ch/~aste/scharf.html)
 
+## Writings
+
+Scharf pioneered the application of [[causal perturbation theory]] to the rigorous construction of [[perturbative quantum field theories]]:
+
+In his books
+
+* _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Springer 1995
+
+he discusses [[quantum electrodynamics]] this way, and in 
+
+* _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
+
+he discusses [[Yang-Mills theory]], hence [[quantum chromodynamics]] and [[quantum gravity]] as [[perturbative quantum field theories]].
+
+
+
 ## related $n$Lab entries
 
 * [[causal perturbation theory]]
 
+* [[locally covariant perturbative quantum field theory]]
+
 category: people
+
+[[!redirects Gunter Scharf]]
+[[!redirects Guenter Scharf]]
