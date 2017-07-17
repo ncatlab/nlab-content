@@ -107,6 +107,19 @@ where the algebras appearing are precisely the four [[normed division algebras]]
 
 This is due to ([Adams 58](#Adams58)), proven with the [[Adams spectral sequence]].
 
+### Stable homotopy elements
+
+Left invariant framings $\mathcal{L}$ on compact connected Lie groups $G$ with $dim(G)=k$ give rise to elements $[G,\mathcal{L}]$ in the stable homotopy group $\pi_k^s$ of spheres. One can restrict attention to semisimple Lie groups $G$ since this construction behaves well with respect to products, $G \to T\times G/T$ gives a framed diffeomorphism and  $[S^1,\mathcal{L}] \in \pi_1^s$ is the generator. The following facts are assembled from ([Ossa 1982](https://doi.org/10.1016/0040-9383(82%2990013-1)) and ([Minami 2016](http://projecteuclid.org/euclid.jmsj/1468956166))
+
+* For any *semisimple* compact connected Lie group $G$, Ossa proved that $72[G,\mathcal{L}]=0$. In particular the only possible torsion is at the primes 2 and 3.
+
+* The left invariant framings on $SO(n),Spin(n)$ and $SU(n)$ give the zero element for $n\geq 7$, those on $Sp(n)$ for $n\geq 4$, as do those on $F_4,E_6,E_7,E_8, SO(4),SO(6),SU(5),SU(6)$. (this means that the undetermined cases of rank 4 in Ossa's Table 1 are in fact all 0)
+
+* The left invariant framings on the remaining groups ($SU(2)=Spin(3)=Sp(1),SU(3),SU(4)=Spin(6),Sp(2)=Spin(5),Sp(3),SO(3),SO(5)$ and $G_2$) represent known nonzero classes in $\pi_\ast^s$.
+
+
+
+
 ## Properties
 
 ### Relation to intersection pairing and Kervaire invariant
