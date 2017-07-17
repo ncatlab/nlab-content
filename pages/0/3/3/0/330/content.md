@@ -42,21 +42,21 @@ For example:
 
 ## Variations
 
-Many (but not all) of the examples above are [[cartesian closed categories]].  In a more general [[closed category]], a morphism from the unit object to $x$ can be called an _element_ of $x$. For example, an element of an [[abelian group]] $x$ is a morphism from the group $\mathbf{Z}$ of integers to $x$, and of course this is equivalent to the usual notion of element of $x$. But here the adjective 'global' is not used.
+Many (but not all) of the examples above are [[cartesian closed categories]].  In a more general [[closed category]], a morphism from the unit object to $x$ can be called an _element_ of $x$. For example, an element of an [[abelian group]] $x$ is a morphism from the group $\mathbf{Z}$ of integers to $x$, and of course this is equivalent to the usual notion of element of $x$. Here the adjective 'global' would not conform to the usage above since $\mathbf{Z}$ is not terminal, although we warn that some authors may call a map $\mathbf{Z} \to A$ a "global element" of $A$.
 
-Somewhat relatedly, there is[^1] a usage defining the informal notion "name of a morphism" as follows: if $\mathcal{C}$ is any [[closed monoidal category]], and if $\text{"}\cdot\text{"}\colon \mathcal{C}(A,B)\rightarrow\mathcal{C}(I, [A,B])$ is some function (where $\mathcal{C}(\cdot,\cdot)$ denotes the non-internal-hom) then 
+Thus generally, when $C$ is cartesian closed or even [[semicartesian monoidal category|semicartesian monoidal]] closed, the monoidal unit $I$ is terminal and such elements $I \to A$ are global elements in the sense of this article. But again, even in the general monoidal case, some authors call maps of the form $I \to A$ "global elements", even though this conflicts with our usage. 
 
- (*name* of a morphism $A\overset{f}{\rightarrow}B$ in $\mathcal{C}$) 
+As an important special case, there is[^1] for [[closed monoidal categories]] a notion of "name of a morphism", as follows. Let $\mathcal{C}$ be closed monoidal, with external ($Set$-valued) homs denoted by $\mathcal{C}(A, B)$, the monoidal product by $\otimes$ and the monoidal unit by $I$, and internal homs by $[A, B]$. Then for each pair $(A, B)$, the evident composite map 
 
-$:=$ 
+$$\mathcal{C}(A, B) \stackrel{\mathcal{C}(\lambda_A, 1_B)}{\to} \mathcal{C}(I \otimes A, B) \cong \mathcal{C}(I, [A, B])$$ 
 
-(global element $I\overset{\text{"f"}}{\rightarrow} [A,B]$ of the internal hom $[A,B]$ in $\mathcal{C}$), 
+($\lambda_A: I \otimes A \to A$ the left unit isomorphism) defines a map which we denote as $name_{A, B}: \mathcal{C}(A,B)\rightarrow\mathcal{C}(I, [A,B])$. Notice this is the component at $(A, B)$ of a natural bijection $name$; it takes a map $f: A \to B$ in $\mathcal{C}$ to its name, typically denoted as $\text{"}f\text{"}: I \to [A, B]$, and which is an element of the internal hom $[A, B]$. 
 
-where $I$ denotes [[the]] monoidal unit of $\mathcal{C}$. When $C$ is cartesian closed or even [[semicartesian monoidal category|semicartesian monoidal]] closed, this name is a global element in the sense of this article (but may sometimes be called a global element regardless, even for the more general case). 
 
-[^1]: Cf. John Baez, Quantum Gravity Seminar, University of California, Riverside, Fall 2006, notes taken by Derek Wise, lecture of 2 November 2006.
 
-In contrast to a global element, a morphism to $x$ from _any_ object $i$ whatsoever may be seen as a [[generalized element]] of $x$. For example, if $i$ is the [[unit interval]] (in topology, chain complexes, etc), then a map from $i$ to $x$ is a *path* (rather than a point) in $x$. Or in a slice category $C/b$, if $\rho: a \to b$ is an [[embedding]], then a morphism from $\rho$ to $\pi$ is a _local_ section of $\pi$.
+[^1]: See, e.g., John Baez, Quantum Gravity Seminar, University of California, Riverside, Fall 2006, notes taken by Derek Wise, lecture of 2 November 2006.
+
+Finally, in contrast to a global element, a morphism to $x$ from _any_ object $i$ whatsoever may be seen as a [[generalized element]] of $x$. For example, if $i$ is the [[unit interval]] (in topology, chain complexes, etc), then a map from $i$ to $x$ is a *path* (rather than a point) in $x$. Or in a slice category $C/b$, if $\rho: a \to b$ is an [[embedding]], then a morphism from $\rho$ to $\pi$ is a _local_ section of $\pi$.
 
 
 [[!redirects global element]]
