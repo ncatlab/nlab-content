@@ -163,7 +163,7 @@ $$
   \mathbb{S}[G] \coloneqq \Sigma^\infty(G_+)
 $$
 
-eqipped with this monoid structure
+equipped with this monoid structure
 the _[[H-group ring spectrum]]_ of $G$. See [there](∞-group+∞-ring#HGroupRingSpectra) for more.
 
 
@@ -340,7 +340,7 @@ $$
   B U(1)_+ \longrightarrow B U \times \mathbb{Z} \simeq \Omega^\infty K U
 $$
 
-in $Ho(Top^{\ast/})$, which in turn is the $((-)_+ dashv U)$-[[adjunct]] of the canonical
+in $Ho(Top^{\ast/})$, which in turn is the $((-)_+ \dashv U)$-[[adjunct]] of the canonical
 
 $$
   \mathcal{O}(1) \;\colon\; B U(1) \longrightarrow B U \simeq B U \times \{1\} \hookrightarrow B U \times \mathbb{Z}
@@ -442,7 +442,7 @@ $$
 +-- {: .num_theorem}
 ###### Theorem
 
-If $X \in Ho(Top^{\ast/})$ has the homotpy type of a [[finite CW-complex]], then the [[natural transformation]]
+If $X \in Ho(Top^{\ast/})$ has the homotopy type of a [[finite CW-complex]], then the [[natural transformation]]
 
 $$
   \Phi_X
