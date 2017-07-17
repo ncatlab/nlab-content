@@ -141,7 +141,7 @@ Moreover, the construction $f \mapsto Rec(f)$ yields a homomorphism of covering 
 
 First to see that we indeed have a [[topological space|topology]], we need to check  (by [this prop.](topological+base#Recognition)) that every point is contained in some base element, and that every point in the intersection of two base elements has a base neighbourhood that is still contained in that intersection. 
 
-So let $x \in X$ be a point. By the assumption that $X$ is [[semi-locally simply connected]] there exists an [[open neighbourhood]] $U_x \subset X$ such that every loop in $U_x$ on $x$ is contractible in $X$. Moreover by the assumption that $X$ is [[locally path-connected topological space]], this contains a possibly smaller open neighbourhood $U'_x \subset U_x$ which is [[path-connected topological space|path connected]]. Moreover, as every subset of $U_x$, it still has the property that every loop in $U'_x$ based on $x$ is contractible as a loop in $X$. Now let $\hat x \in E$ be any point over $x$, then it is contained in the base open $V_{U'_x,x}$. 
+So let $x \in X$ be a point. By the assumption that $X$ is [[semi-locally simplc connected space|semi-locally simply connected]] there exists an [[open neighbourhood]] $U_x \subset X$ such that every loop in $U_x$ on $x$ is contractible in $X$. By the assumption that $X$ is [[locally path-connected topological space]], this contains an open neighbourhood $U'_x \subset U_x$ which is [[path-connected topological space|path connected]]. As every subset of $U_x$, it still has the property that every loop in $U'_x$ based on $x$ is contractible as a loop in $X$. Now let $\hat x \in E$ be any point over $x$, then it is contained in the base open $V_{U'_x,x}$. 
 
 The argument for the base open neighbourhoods contained in intersections is similar.
 
@@ -161,7 +161,7 @@ thus exhibiting $p^{-1}(U)$ as a union of base opens.
 
 Finally we need to see that this continuous function $p$ is a covering projection, hence that every point $x \in X$ has a neighbourhood $U$ such that $p^{-1}(U) \simeq U \times \rho(x)$. But this is again the case for those $U$ all whose loops are contractible in $X$, by the above identification via $\rho$, and these exist around every point by semi-local simply-connetedness of $X$.
 
-This shows that $p \colon E(\rho) \to X$ is a covering space. It remains to see that $Ref(f) \colon E(\rho_1) \to E(\rho_2)$ is a homomorphism of covering spaces. Now by construction it is immediate that this is a function over $X$, in that this [[commuting diagram|diagram commutes]]:
+This shows that $p \colon E(\rho) \to X$ is a covering space. It remains to see that $Rec(f) \colon E(\rho_1) \to E(\rho_2)$ is a homomorphism of covering spaces. Now by construction it is immediate that this is a function over $X$, in that this [[commuting diagram|diagram commutes]]:
 
 $$
   \array{
@@ -174,7 +174,7 @@ $$
   \,.
 $$
 
-So it only remains to see that $Ref(f)$ is a [[continuous function]]. So consider $V_{U, y_2 \in \rho_2(x)}$ a base open of $E(\rho_2)$. By [[natural transformation|naturality]] of $f$ its pre-image under $Rec(f)$ is
+So it only remains to see that $Rec(f)$ is a [[continuous function]]. So consider $V_{U, y_2 \in \rho_2(x)}$ a base open of $E(\rho_2)$. By [[natural transformation|naturality]] of $f$ its pre-image under $Rec(f)$ is
 
 $$
   Rec(f)^{-1}(V_{U, y_2 \in \rho_2(x)})
