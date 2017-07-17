@@ -3880,7 +3880,7 @@ Let
 
 1. $(X,\tau)$ be a [[locally path-connected topological space|locally path-connected]] [[semi-locally simply connected topological space|semi-locally simply connected]] [[topological space]],
 
-1. $\rho \in Set^{\Pi_1(X)}$ a [[permutation representation]] of its [[fundamental groupoid]].
+1. $\rho \in Rep(\Pi_1(X),Set)$ a [[permutation representation]] of its [[fundamental groupoid]].
 
 Consider the [[disjoint union]] [[set]] of all the sets appearing in this representation
 
@@ -3888,7 +3888,17 @@ $$
   E(\rho) \;\coloneqq\;  \underset{x \in X}{\sqcup} \rho(x)
 $$
 
-For an [[open subset]] $U \subset X$ which is [[path-connected topological space|path-connected]] and for which every element of the [[fundamental group]] $\pi_1(U,x)$ becomes trivial under $\pi_1(U,x) \to \pi_1(X,x)$, and for $\hat x \in \rho(x)$ with $x \in U$ consider the subset
+For 
+
+1. $U \subset X$ an [[open subset]] 
+
+   1. which is [[path-connected topological space|path-connected]] 
+   
+   1. for which every element of the [[fundamental group]] $\pi_1(U,x)$ becomes trivial under $\pi_1(U,x) \to \pi_1(X,x)$,
+
+1. for $\hat x \in \rho(x)$ with $x \in U$ 
+
+consider the subset
 
 $$
   V_{U,\hat x}
@@ -3958,12 +3968,12 @@ Moreover, the construction $f \mapsto Rec(f)$ yields a homomorphism of covering 
 
 First to see that we indeed have a [[topological space|topology]], we need to check  (by [this prop.](topological+base#Recognition)) that every point is contained in some base element, and that every point in the intersection of two base elements has a base neighbourhood that is still contained in that intersection.
 
-So let $x \in X$ be a point. By the assumption that $X$ is [[semi-locally simply connected topological space|semi-locally simply connected]] there exists an [[open neighbourhood]] $U_x \subset X$ such that every loop in $U_x$ on $x$ is contractible in $X$. Moreover by the assumption that $X$ is [[locally path-connected topological space]], this contains a possibly smaller open neighbourhood $U'_x \subset U_x$ which is [[path-connected topological space|path connected]]. Moreover, as every subset of $U_x$, it still has the property that every loop in $U'_x$ based on $x$ is contractible as a loop in $X$. Now let $\hat x \in E$ be any point over $x$, then it is contained in the base open $V_{U'_x,x}$.
+So let $x \in X$ be a point. By the assumption that $X$ is [[semi-locally simply connected topological space|semi-locally simply connected]] there exists an [[open neighbourhood]] $U_x \subset X$ such that every loop in $U_x$ on $x$ is contractible in $X$. By the assumption that $X$ is a [[locally path-connected topological space]], this contains an open neighbourhood $U'_x \subset U_x$ which is [[path-connected topological space|path connected]] and, as every subset of $U_x$, it still has the property that every loop in $U'_x$ based on $x$ is contractible as a loop in $X$. Now let $\hat x \in E$ be any point over $x$, then it is contained in the base open $V_{U'_x,x}$.
 
 The argument for the base open neighbourhoods contained in intersections is similar.
 
 
-Then we need to see that $p \colon E(\rho) \to X$ is a [[continuous function]]. Since taking pre-images preserves unions ([this prop.](interactions+of+images+and+pre-images+with+unions+and+intersections#PreImagePreservesUnionsAndIntersections)), and since by semi-local simply connectedness every neighbourhood contains an open $U \subset X$ that labels a base open, it is sufficient to see that $p^{-1}(U)$ is a base open. But by the very assumption on $U$, there is a unique morphism in $\Pi_1(X)$ from any point $x \in U$ to any other point in $U$, so that $\rho$ applied to these paths establishes a bijection of sets
+Then we need to see that $p \colon E(\rho) \to X$ is a [[continuous function]]. Since taking pre-images preserves unions ([this prop.](interactions+of+images+and+pre-images+with+unions+and+intersections#PreImagePreservesUnionsAndIntersections)), and since by semi-local simply connectedness and local path connectedness every neighbourhood contains an open neighbourhood $U \subset X$ that labels a base open, it is sufficient to see that $p^{-1}(U)$ is a base open. But by the very assumption on $U$, there is a unique morphism in $\Pi_1(X)$ from any point $x \in U$ to any other point in $U$, so that $\rho$ applied to these paths establishes a bijection of sets
 
 $$
   p^{-1}(U)
@@ -3978,7 +3988,7 @@ thus exhibiting $p^{-1}(U)$ as a union of base opens.
 
 Finally we need to see that this continuous function $p$ is a covering projection, hence that every point $x \in X$ has a neighbourhood $U$ such that $p^{-1}(U) \simeq U \times \rho(x)$. But this is again the case for those $U$ all whose loops are contractible in $X$, by the above identification via $\rho$, and these exist around every point by semi-local simply-connetedness of $X$.
 
-This shows that $p \colon E(\rho) \to X$ is a covering space. It remains to see that $Ref(f) \colon E(\rho_1) \to E(\rho_2)$ is a homomorphism of covering spaces. Now by construction it is immediate that this is a function over $X$, in that this [[commuting diagram|diagram commutes]]:
+This shows that $p \colon E(\rho) \to X$ is a covering space. It remains to see that $Rec(f) \colon E(\rho_1) \to E(\rho_2)$ is a homomorphism of covering spaces. Now by construction it is immediate that this is a function over $X$, in that this [[commuting diagram|diagram commutes]]:
 
 $$
   \array{
@@ -3991,12 +4001,24 @@ $$
   \,.
 $$
 
-So it only remains to see that $Ref(f)$ is a [[continuous function]]. So consider $V_{U, y_2 \in \rho_2(x)}$ a base open of $E(\rho_2)$. By [[natural transformation|naturality]] of $f$ its pre-image under $Rec(f)$ is
+So it only remains to see that $Rec(f)$ is a [[continuous function]]. So consider $V_{U, y_2 \in \rho_2(x)}$ a base open of $E(\rho_2)$. By [[natural transformation|naturality]] of $f$ 
+
+$$
+  \array{
+    \rho_1(x') &\overset{f_{x'}}{\longrightarrow}& \rho_2(x')
+    \\
+    {}^{\mathllap{\rho_1(\gamma)}}\uparrow{}^{\mathrlap{\simeq}} && {}^{\mathllap{\simeq}}\uparrow^{\mathrlap{\rho_2(\gamma)}}
+    \\
+    \rho_1(x) &\underset{f_{x}}{\longrightarrow}& \rho_2(x)
+  }
+$$
+
+its pre-image under $Rec(f)$ is
 
 $$
   Rec(f)^{-1}(V_{U, y_2 \in \rho_2(x)})
   =
-  \underset{y_1 \in f^{-1}(y_2)}{\sqcup} V_{U,y_1}
+  \underset{y_1 \in f^{-1}(y_2)}{\sqcup} V_{U,y_1 \in \rho_1(x)}
 $$
 
 and hence a union of base opens.
