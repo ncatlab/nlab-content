@@ -392,13 +392,13 @@ Conversely, given any lift, $\hat \gamma$, then its restrictions $\hat \gamma\ve
 
 +-- {: .num_prop #HomotopyLiftingPropertyOfCoveringSpaces}
 ###### Proposition
-**([[homotopy lifting property]] of [[covering spaces]])**
+**([[homotopy lifting property]] of [[covering spaces]] against [[locally connected topological spaces|locally connected spaces]])**
 
 Let
 
 1. $E \overset{p}{\to} X$ be a covering space;
 
-1. $Y$ a [[locally path-connected topological space]].
+1. $Y$ a [[locally connected topological space]].
 
 Then every [[lifting problem]] of the form
 
@@ -462,7 +462,33 @@ To that end, let $\{U_i \subset X \}_{i \in I}$ be an open cover over which the 
 
 By lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint} over these $\hat f$ is constant on one leaf, and hence so is $\hat \eta$. This constant lift is continuous.
 
-This shows that $\hat \eta$ restricts to a continuous function over an open cover of $Y \times [0,1]$ and thus is itself continuous.
+This shows that $\hat \eta$ restricts to a continuous function over an open cover of $Y \times [0,1]$ and thus is itself continuous ([this prop.](Top#ClosedSubspacesGluing)).
+
+=--
+
+
+
++-- {: .num_remark #CoveringSpacesAreSerreFibrationsButNotInGeneralHurewiczFibrations}
+###### Remark
+**(covering spaces are [[Serre fibrations]] but not in general [[Hurewicz fibrations]])**
+
+Since the [[Euclidean space|Euclidean]] $n$-disks $D^n \subset \mathbb{R}^n$ are evidently locally connected, prop. \ref{HomotopyLiftingPropertyOfCoveringSpaces} says in particular that covering spaces have the [[right lifting property]] against the set of inclusions
+
+
+$$
+  \left\{
+    D^n \overset{(id, const_0)}{\hookrightarrow} D^n \times [0,1]
+  \right\}
+  \,.
+$$
+
+A continuous function with the right lifting property against this set of functions is called a _[[Serre fibration]]_.
+
+On the other hand, a continuous function with the right lifting property against the inclusions $X \overset{(id_X, const_0)}{\hookrightarrow} X \times [0,1]$ for _all_ topological spaces $X$ is called a _[[Hurewicz fibration]]_.
+
+Not every covering space is a Hurewicz fibration, for counterexamples see [this example](Serre+fibration#SerreFibrationsWhichAreNotHurewiczFibrations).
+
+However, if we restrict all topological spaces involved to [[compactly generated topological spaces|compactly generated]] [[weakly Hausdorff topological spaces]] (one of the [[convenient categories of topological spaces]] that one often restricts attention to) then every covering space both whose base space as well as whose total space admits is the structure of a [[CW-complex]] is a Hurewicz fibration ([this prop.](Serre+fibration#SerreFibrationsBetweenCWComplexesAreHurewiczFibrations)).
 
 
 =--
