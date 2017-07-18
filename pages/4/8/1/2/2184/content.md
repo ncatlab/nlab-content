@@ -163,7 +163,7 @@ The precise meaning of _subgraph_ depends on the chosen formalization of *graph*
 
 ## Simple graphs as 1-complexes, and barycentric subdivision
 
-Recall that a [[simplicial complex]] of dimension one (1-complex) consists of the data of a set $V$ together with a set $S$ of non-empty subsets of $V$ that contains all of the singleton subsets.
+Recall that a [[simplicial complex]] of dimension one (1-complex) consists of the data of a set $V$ together with a set $S$ of non-empty subsets of $V$ of cardinality at most $2$, that contains all of the singleton subsets.
 It is immediate that any 1-complex determines and is determined by a simple graph, taking the edges to be the set of pairs of distinct elements:
 $$
 E = \{\{x,y\} \mid \{x,y\} \in S, x \ne y\}
@@ -176,8 +176,8 @@ Let $G$ be a graph with vertex set $V$ and edge set $E$.
 The **barycentric subdivision** of $G$ is the graph $G'$ with vertex set $V \cup E$, and with an edge joining $v \in V$ to $e \in E$ just in case $v$ is incident to (i.e., at either end of) $e$ in $G$.
 It is easy to check that $G'$ contains no loops, while the two-fold barycentric subdivision $G''$ contains no loops or multiple edges, in other words is a simple graph.
 (More generally, the $n$-fold barycentric subdivision contains no circuit of length $\le n$).
-Part of the reason for the importance of simple graphs is that many "topological" properties of graphs (e.g., [[planar graph|planarity]]) are preserved under barycentric subdivision, so it suffices to consider these properties for simple graphs.
-(Although obviously, not all graph-theoretic properties are preserved. For example, barycentric subdivision always produces a [[bipartite graph]].)
+Part of the reason for the importance of simple graphs is that many "topological" properties of graphs (e.g., [[planar graph|planarity]]) are preserved under barycentric subdivision, so it suffices to consider such properties for simple graphs.
+(Although, obviously, not _all_ graph-theoretic properties are preserved. For example, barycentric subdivision always produces a [[bipartite graph]].)
 
 ## Flavors of graphs
 
