@@ -56,6 +56,8 @@ Here $B_{n-1}$ is a ring such that... ([Stapleton 13, p. 3](#Stapleton13))
 
 * [[Chern character]]
 
+* [[higher chromatic Chern character]]
+
 * [[Morava E-theoretic Chern character]]
 
 ## References
