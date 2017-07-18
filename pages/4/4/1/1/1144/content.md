@@ -294,7 +294,7 @@ $$
 
 be the affine plane in $\mathbb{R}^{n+1}$ that contains $\Delta^n_{smth}$ in its defining inclusion from def. \ref{SmoothnSimplex}. This is a [[smooth manifold]] [[diffeomorphism|diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^{n}$.
 
-A smooth differential form on $\Delta^n_{smth}$ of degree k$ is a collection of [[linear functions]]
+A smooth differential form on $\Delta^n_{smth}$ of degree $k$ is a collection of [[linear functions]]
 
 $$
   \wedge^k T_x F^n \longrightarrow \mathbb{R}
