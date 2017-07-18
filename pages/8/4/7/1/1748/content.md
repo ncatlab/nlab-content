@@ -21,7 +21,9 @@
 
 ## Idea 
 
-In many [[category|categories]] $C$ in which one does [[homotopy theory]], there is a notion of _homotopy_ between morphisms, which is closely related to the higher morphisms in [[higher category theory]].  If we regard such a category as a presentation of an $(\infty,1)$-[[(infinity,1)-category|category]], then homotopies $f\sim g$ present the 2-cells $f\Rightarrow g$ in the resulting $(\infty,1)$-category.
+In many [[category|categories]] $C$ in which one does [[homotopy theory]], there is a notion of _homotopy_ between [[morphisms]], which is closely related to the [[2-morphisms]] in [[higher category theory]]: a homotopy between two morphisms is a way in which they are equivalent.  
+
+If we regard such a category as a presentation of an $(\infty,1)$-[[(infinity,1)-category|category]], then homotopies $f\sim g$ present the 2-cells $f\Rightarrow g$ in the resulting $(\infty,1)$-category.
 
 ## Definition
 
