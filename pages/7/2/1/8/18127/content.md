@@ -1445,6 +1445,7 @@ For instance
     Core(FinVect) \simeq \underset{n \in \mathbb{N}}{\sqcup} GL(n)
     \,.
   $$
+  
 
 =--
 
@@ -1487,7 +1488,7 @@ whose set of objects is the disjoint union of the sets of objects of the summand
 Let $\{\mathcal{G}_i\}_{i \in I}$ be a [[set]] of [[groupoids]]. Their [[product category|product groupoid]]
 is the [groupoid]]
 
-$$  
+$$
   \underset{i \in I}{\prod} \mathcal{G}_i
 $$
 
@@ -1506,11 +1507,11 @@ is the corresponding Cartesian product of morphisms, with elements denoted
 
 $$
   (x_i)_{i \in I} \overset{(f_i)_{i \in I}}{\longrightarrow} (y_i)_{i \in I}
-  \,.  
+  \,.
 $$
 
 For instance if each of the groupoids is the [[delooping]] $\mathcal{G}_i = B G_i$
-of a [[group]] $G_i$ (example \ref{GroupoidFromDelooping}) then the product groupoid is the 
+of a [[group]] $G_i$ (example \ref{GroupoidFromDelooping}) then the product groupoid is the
 delooping groupoid of the [[direct product group]]:
 
 $$
@@ -1520,7 +1521,7 @@ $$
   \,.
 $$
 
-As another example, if $\underset{i \in I}{\sqcup} \mathcal{G}_i$ is the [[coproduct]] groupoid from 
+As another example, if $\underset{i \in I}{\sqcup} \mathcal{G}_i$ is the [[coproduct]] groupoid from
 example \ref{GroupoidsCoproduct}, and if $\mathcal{G}$ is any groupoid, then a groupoid homomorphism
 of the form
 
@@ -1541,13 +1542,13 @@ The analogous statement holds for homotopies between groupoid homomorphisms, and
 [[hom-groupoid]] out of a coproduct of groupoids is the product groupoid of the separate hom-groupoids:
 
 $$
-  Hom_{Grpd}\left( 
+  Hom_{Grpd}\left(
     \underset{i \in I}{\sqcup} \mathcal{G}_i
     \;,\;
     \mathcal{G}
   \right)
   \;\simeq\;
-  \underset{i \in I}{\prod} 
+  \underset{i \in I}{\prod}
   Hom_{Grpd}( \mathcal{G}_1, \mathcal{G} )
   \,.
 $$
@@ -2517,7 +2518,7 @@ def. \ref{EquivalenceOfGroupoids}.
 ## Covering spaces
  {#CoveringSpaces}
 
-A _covering space_ (def. \ref{CoveringSpace} below) is 
+A _covering space_ (def. \ref{CoveringSpace} below) is
 a "continuous [[fiber bundle]] of sets" over a topological space, in just the same way as
 a [[topological vector bundle]] is a "continuous [[fiber bundle]] of vector spaces".
 
@@ -2604,7 +2605,7 @@ $$
   }
 $$
 
-is called a _trivialization_ of $E \overset{p}{\to} X$. 
+is called a _trivialization_ of $E \overset{p}{\to} X$.
 
 It is in this sense that evry coverin space $E$ is, by definition, locally trvializable.
 
@@ -2795,7 +2796,7 @@ $\,$
 ### Lifting properties
 
 If $E \overset{p}{\longrightarrow} X$ is any [[continuous function]]
-(possibly a [[covering space]] or a [[topological vector bundle]]) then a _[[section]]_ is 
+(possibly a [[covering space]] or a [[topological vector bundle]]) then a _[[section]]_ is
 a continuous function $\sigma \colon  X \to E$ which sends each point in the base
 to a point in the [[fiber]] above it, hence which makes this [[commuting diagram|diagram commute]]:
 
@@ -2810,7 +2811,7 @@ $$
   \,.
 $$
 
-We may think of this as "lifting" each point in the base to point in the fibers "through" the 
+We may think of this as "lifting" each point in the base to point in the fibers "through" the
 projection map $p$. More generally if $Y \hookrightarrow X$ is a subspace,
 we may consider such lifts only over $Y$
 
@@ -2825,7 +2826,7 @@ $$
 $$
 
 sometimes called a "local section". But this suggests that for $Y \overset{f}{\longrightarrow} X$
-any continuous function, we consider "lifting its image through $p$" 
+any continuous function, we consider "lifting its image through $p$"
 
 $$
   \array{
@@ -2839,17 +2840,17 @@ $$
 $$
 
 For example if $Y = [0,1]$ is the [[topological interval]], then $f \colon [0,1] \to X$
-is a [[path]] in the base space $X$, and a lift through $p$ of this is a path in the total 
+is a [[path]] in the base space $X$, and a lift through $p$ of this is a path in the total
 space which "runs above" the given path. Such lifts of paths through covering projections
 is the topic of _[[monodromy]]_ [below](#Monodromy).
 
 Here it is usually of interest to consider the lifting problem subject to some constraint.
 For instance we will want to consider lifts of paths $\gamma \colon [0,1] \to X$
-through a covering projection, subject to the condition that the 
+through a covering projection, subject to the condition that the
 starting point $\gamma(0)$ is lifted to a prescribed point $p \in E$.
 
 Since such a point is equivalently a continuous function $const_p \colon \ast \to X$,
-this is the same as asking for a continuous function $\sigma$ that makes both triangles in the 
+this is the same as asking for a continuous function $\sigma$ that makes both triangles in the
 following [[diagram]] [[commuting diagram|commute]]:
 
 $$
@@ -2863,7 +2864,7 @@ $$
   \,.
 $$
 
-This is an example of a general situation which plays a central role in 
+This is an example of a general situation which plays a central role in
 [[homotopy theory]]: We say that a square [[commuting diagram]]
 
 $$
@@ -2888,9 +2889,9 @@ $$
   }
 $$
 
-such that both resulting triangles commute is a _[[lift]]_. If such a lift exists for 
+such that both resulting triangles commute is a _[[lift]]_. If such a lift exists for
 $i$ taken from some [[class]] of morphisms, then one says that $p$ has the _[[right lifting property]]_
-against this class. 
+against this class.
 
 
 We now discuss some [[right lifting properties]] satisfied by covering spaces:
@@ -3635,14 +3636,14 @@ $$
 $$
 
 We say that a groupoid representation is _faithful_ or _free_ if for all objects $x$
-its restriction to a group representation of $Azt_{\mathcal{G}}(x)$ this way is transitive or free, 
+its restriction to a group representation of $Azt_{\mathcal{G}}(x)$ this way is transitive or free,
 respectively.
 
 Here the representation $\rho$ of a group $G$ on some set $S$
 
 1. _[[transitive action|transitive]]_ if for all pairs of elements $s_1, s_2 \in S$ there is a $g \in G$
    such that $\rho(g)(s_1) = s_2$;
-   
+
 1. _[[free action|free]]_ if whenever $g(s) = s$ holds for all $s \in S$ then $g$ is the [[neutral elements]].
 
 =--
@@ -3654,8 +3655,8 @@ Here the representation $\rho$ of a group $G$ on some set $S$
 Assuming the [[axiom of choice]] then the following holds:
 
 Let $\mathcal{G}$ be a [[groupoid]]. Then its [[category of representations|groupoid of]]
-[[groupoid representations]] $Rep(\mathcal{G})$ (def. \ref{GroupoidRepresentation}) 
-is [[equivalence of groupoids|equivalent]] (def. \ref{EquivalenceOfGroupoids}) to 
+[[groupoid representations]] $Rep(\mathcal{G})$ (def. \ref{GroupoidRepresentation})
+is [[equivalence of groupoids|equivalent]] (def. \ref{EquivalenceOfGroupoids}) to
 the [[product category|product groupoid]] (example \ref{ProductGroupoid})
 indexed by the set of [[connected components]] $\pi_0(\mathcal{G})$ (def. \ref{GroupoidConnectedComponents}) of [[group representations]]
 (example \ref{GroupRepresentationsAsDeloopingRepresentations})
@@ -3674,7 +3675,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Let $\mathcal{C}$ be the category that the representation is on (e.g. $\mathcal{C} = $ [[Set]] 
+Let $\mathcal{C}$ be the category that the representation is on (e.g. $\mathcal{C} = $ [[Set]]
 for [[permutation representations]]). Then by definition
 
 $$
@@ -3739,10 +3740,10 @@ to the groupoid core of the [[category]] [[Set]] of [[sets]] (example \ref{Group
      \,.
    $$
 
-This construction is well defined for a given representative $\gamma$ due to the unique path-lifting property of covering spaces 
-(lemma \ref{CoveringSpacePathLifting}) and it is independent of the choice of $\gamma$ in the given homotopy class of paths due 
-to the [[homotopy lifting property]] (example \ref{CoveringSpacesHomotopyLifting}).  
-Similarly, these two lifting properties give that this construction respects composition in $\Pi_1(X)$ and hence is indeed 
+This construction is well defined for a given representative $\gamma$ due to the unique path-lifting property of covering spaces
+(lemma \ref{CoveringSpacePathLifting}) and it is independent of the choice of $\gamma$ in the given homotopy class of paths due
+to the [[homotopy lifting property]] (example \ref{CoveringSpacesHomotopyLifting}).
+Similarly, these two lifting properties give that this construction respects composition in $\Pi_1(X)$ and hence is indeed
 a homomorphism of groupoids (a functor).
 
 =--
@@ -3750,8 +3751,9 @@ a homomorphism of groupoids (a functor).
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #FunctorialExtractingHomotopy}
 ###### Proposition
+**(extracting [[monodromy]] is [[functor|functorial]])**
 
 Given a [[homomorphism]] between two [[covering spaces]] $E_i \overset{p_i}{\to} X$, hence a [[continuous function]] $f \colon E_1 \to E_2$ which respects [[fibers]] in that the [[diagram]]
 
@@ -3786,14 +3788,14 @@ $$
   \,.
 $$
 
-This means that $f$ induces a homotopy ([[natural transformation]]) between the monodromy homomorphisms (functors) 
+This means that $f$ induces a homotopy ([[natural transformation]]) between the monodromy homomorphisms (functors)
 
 $$
   \Pi_1(X)
     \array{
       \overset{Fib_{E_1}}{\longrightarrow}
       \\
-        \Downarrow 
+        \Downarrow
       \\
       \underset{Fib_{E_2}}{\longrightarrow}
     }
@@ -3888,15 +3890,15 @@ $$
   E(\rho) \;\coloneqq\;  \underset{x \in X}{\sqcup} \rho(x)
 $$
 
-For 
+For
 
-1. $U \subset X$ an [[open subset]] 
+1. $U \subset X$ an [[open subset]]
 
-   1. which is [[path-connected topological space|path-connected]] 
-   
+   1. which is [[path-connected topological space|path-connected]]
+
    1. for which every element of the [[fundamental group]] $\pi_1(U,x)$ becomes trivial under $\pi_1(U,x) \to \pi_1(X,x)$,
 
-1. for $\hat x \in \rho(x)$ with $x \in U$ 
+1. for $\hat x \in \rho(x)$ with $x \in U$
 
 consider the subset
 
@@ -4001,7 +4003,7 @@ $$
   \,.
 $$
 
-So it only remains to see that $Rec(f)$ is a [[continuous function]]. So consider $V_{U, y_2 \in \rho_2(x)}$ a base open of $E(\rho_2)$. By [[natural transformation|naturality]] of $f$ 
+So it only remains to see that $Rec(f)$ is a [[continuous function]]. So consider $V_{U, y_2 \in \rho_2(x)}$ a base open of $E(\rho_2)$. By [[natural transformation|naturality]] of $f$
 
 $$
   \array{
@@ -4030,31 +4032,44 @@ and hence a union of base opens.
 ###### Proposition
 **([[fundamental theorem of covering spaces]])**
 
-Let $X$ be a [[locally path-connected topological space|locally path-connected]] and [[semi-locally simply-connected topological space]]. Then the operations on
+Let $X$ be a [[locally path-connected topological space|locally path-connected]] and [[semi-locally simply-connected topological space]] (def. \ref{SemiLocallySimplyConnected}). Then the operations on
 
-1. extracting the [[monodromy]] $Fib_{E}$ of a [[covering space]] $E$ over $X$
+1. extracting the [[monodromy]] $Fib_{E}$ of a [[covering space]] $E$ over $X$ (def. \ref{CoveringSpaceMonodromy}, prop. \ref{FunctorialExtractingHomotopy})
 
-1. [[reconstructing a covering space from monodromy]] $Rec(\rho)$
+1. [[reconstructing a covering space from monodromy]] $Rec(\rho)$ (def. \ref{ElementaryReconstructionCoveringSpace}, prop. \ref{ElementaryReconstructedCoveringSpaceWellDefined})
 
-constitute an [[equivalence of categories]]
+constitute an [[equivalence of groupoids]] (def. \ref{EquivalenceOfGroupoids}
 
 $$
-  Cov(X)
+  Core(Cov(X))
     \underoverset
       {\underset{Fib}{\longrightarrow}}
       {\overset{Rec}{\longleftarrow}}
-      {}
-  Set^{\Pi_1(X)}
-  \,.
+      {\simeq}
+  Rep(\Pi_1(X), Set)
 $$
+
+between the groupoid $Core(Cov(X))$ (example \ref{CoreGroupoid}, def. \ref{CoveringSpace}) whose [[objects]]
+are covering spaces over $X$, and whose [[morphisms]] are [[isomorphisms]] between these (def. \ref{CoveringSpace}) 
+and the groupoid $Rep(\Pi_1(X), Set)$ of [[permutation representation|permutation]] [[groupoid representations]]
+(def. \ref{GroupoidRepresentation}) of the [[fundamental groupoid]] $\Pi_1(X)$ of $X$ (example \ref{FundamentalGroupoid}).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Given $\rho \in Set^{\Pi_1(X)}$ a [[permutation representation]],
-we need to exhibit a [[natural isomorphism]] of permutation representations.
+First we demonstrate a homotopy ([[natural isomorphism]]) of the form
+
+$$
+  id_{Rep(\Pi_1(X), Set)}
+    \ovesret{\simeq}{\longrightarrow}
+  Fib \circ Rec
+  \,.
+$$
+
+To this end, given $\rho \in Rep(\Pi_1(X), Set)$ a [[permutation representation|permutation]] [[groupoid representation]],
+we need to exhibit in turn a homotopy ([[natural isomorphism]]) of permutation representations.
 
 $$
   \eta_{\rho}
@@ -4063,14 +4078,15 @@ $$
 $$
 
 First consider what the right hand side is like:
-By [this def.](reconstruction+of+covering+spaces+from+monodromy#ElementaryReconstructionCoveringSpace) of $Rec$ and [this def.](monodromy#CoveringSpaceMonodromy) of $Fib$ we have for every $x \in X$ an actual equality
+By def. \ref{ElementaryReconstructionCoveringSpace} of $Rec$ and def. \ref{CoveringSpaceMonodromy} of $Fib$ we have for every $x \in X$ an actual equality
 
 $$
   Fib(Rec(\rho))(x) = \rho(x)
   \,.
 $$
 
-To similarly understand the value of $Fib(Rec(\rho))$ on morphisms $[\gamma] \in \Pi_1(X)$, let $\gamma \colon [0,1] \to X$ be a representing [[path]] in $X$. We find, by the [[Lebesgue number lemma]] as in the proof of [this lemma](covering space#CoveringSpacePathLifting), a [[finite number]] of paths $\{\gamma_i\}_{i \in \{1,n\}}$ such that
+To similarly understand the value of $Fib(Rec(\rho))$ on morphisms $[\gamma] \in \Pi_1(X)$, let $\gamma \colon [0,1] \to X$ be a representing [[path]] in $X$. As in the proof of the path lifting lemma \ref{CoveringSpacePathLifting}
+we find a [[finite number]] of paths $\{\gamma_i\}_{i \in \{1,n\}}$ such that
 
 1. regarded as morphisms $[\gamma_i]$ in $\Pi_1(X)$ they [[composition|compose]] to $[\gamma]$:
 
@@ -4090,12 +4106,53 @@ $$
 This means that if we take
 
 $$
-  \eta_\rho(x) \colon \rho(x) \overset{=}{\longrightarrow} Fib(Rec(\rho))
+  \eta_\rho(x) \;\colon\; \rho(x) \overset{=}{\longrightarrow} Fib(Rec(\rho))
 $$
 
-to be the above identification, then this is a [[natural transformation]] and hence in a particular a natural isomorphism, as required.
+to be the above identification, then this is a homotopy/[[natural isomorphism]] as required.
 
-Conversely, given $E \in Cov(X)$ a covering space, we need to exhibit a natural isomorphism of covering spaces of the form
+It remains to see that these morphism $\eta_\rho$ are themselves natural in $\rho$, hence that for each morphism $\phi \colon \rho \to \rho'$ the diagram
+
+
+$$
+  \array{
+    \rho &\overset{\phi}{\longrightarrow}& \rho'
+    \\
+    {}^{\mathllap{eta_\rho}}\downarrow && \downarrow^{\mathrlap{\eta_{\rho'}}}
+    \\
+    Fib(Rec(\rho))
+    &\underset{Fib(Rec(\phi))}{\longrightarrow}&
+    Fib(Rec(\rho'))
+  }
+$$
+
+commutes as a diagram in $Rep(\Pi_1(X), Set)$. Since these morphisms are themselves groupoid homotopies (natural isomorphisms) this is the case precisely if for all $x \in X$ the corresponding component diagram commutes. But by the above this is
+
+
+$$
+  \array{
+    \rho(x) &\overset{\phi(x)}{\longrightarrow}& \rho'(x)
+    \\
+    {}^{\mathllap{=}}\downarrow && \downarrow^{\mathrlap{=}}
+    \\
+    Fib(Rec(\rho))(x)
+    &\underset{Fib(Rec(\phi))(x) }{\longrightarrow}&
+    Fib(Rec(\rho'))(x)
+  }
+$$
+
+and hence this means that the top and bottom horizontal morphism are in fact equal. Directz unwiinding of the definitions shows that this is indeed the case.
+
+Now we demonstrate a homotopy ([[natural isomorphism]]) of the form
+
+$$
+  Rec \circ Fib
+    \overset{\simeq}{\longrightarrow}
+  id_{Core(Cov(X))}
+  \,.
+$$
+
+For $E \in Cov(X)$ a covering space, we need to exhibit a natural isomorphism of covering spaces of the form
 
 $$
   \epsilon_E
@@ -4104,13 +4161,11 @@ $$
   \,.
 $$
 
-Again by [this def.](reconstruction+of+covering+spaces+from+monodromy#ElementaryReconstructionCoveringSpace) of $Rec$ and [this def.](monodromy#CoveringSpaceMonodromy) of $Fib$  the underlying set of $Rec(Fib(E))$ is actually equal to that of $E$, hence it is sufficient to check that this [[identity function]] on underlying sets is a [[homeomorphism]] of [[topological spaces]].
+Again by def. \ref{ElementaryReconstructionCoveringSpace} of $Rec$ and def. \ref{CoveringSpaceMonodromy} of $Fib$  the underlying set of $Rec(Fib(E))$ is actually equal to that of $E$, hence it is sufficient to check that this [[identity function]] on underlying sets is a [[homeomorphism]] of [[topological spaces]].
 
 By the assumption that $X$ is [[locally path-connected topological space|locally path-connected]] and [[semi-locally simply connected topological space|semi-locally simply connected]], it is sufficient to check for $U\subset X$ an open path-connected subset and $x \in X$ a point with the property that $\pi_1(U,x) \to \pi_1(X,x)$ lands is constant on the trivial element, that the open subsets of $E$ of the form $U \times \{\hat x\} \subset p^{-1}(U)$ form a basis for the topology of $Rec(Fib(E))$. But this is the case by definition of $Rec$.
 
 This proves the equivalence.
-
-(Notice that the assumption of local path-connectedness and semi-local simply-connectedness of $X$ is used only to guarantee that the functor $Rec$ exists in the first place.)
 
 
 =--
