@@ -9,7 +9,6 @@ $\,$
 
 > previous section: _[[geometry of physics -- supersymmetry]]_
 
-> under construction
 
 
 $\,$
@@ -2510,7 +2509,7 @@ exhibits $\mu_2/\mathfrak{h}_1$ as a [[nLab:cocycle]] in ([[nLab:rational homoto
 
 Notice that a priori this is (twisted) [[nLab:nonabelian cohomology]], though it may happen to land in abelian-, i.e. stable-cohomology.
 
-Such descent is what one needs to find for the [[brane bouquet]] [above](#pBranes), in order to interpret each of its branches as encoding $p$-brane model on spacetime itself. This is a purely algebraic problem which has been solved ([Fiorenza-Sati-Schreiber 15](#FSS15)). We discuss the solution in a moment.
+Such descent is what one needs to find for the [[schreiber:brane bouquet]] [above](#pBranes), in order to interpret each of its branches as encoding $p$-brane model on spacetime itself. This is a purely algebraic problem which has been solved ([Fiorenza-Sati-Schreiber 15](#FSS15)). We discuss the solution in a moment.
 
 
 
@@ -8518,7 +8517,7 @@ $\,$
 
 sends the doubly dimensionally reduced IIA/B D-brane cocycles
 
-to _some_ otber super $L_\infty$-cocycles.
+to _some_ other super $L_\infty$-cocycles.
 
 The following theorem says that
 
