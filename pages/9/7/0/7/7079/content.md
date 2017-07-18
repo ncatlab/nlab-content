@@ -31,19 +31,18 @@ These concepts exists also in [[homotopical categories]] with less [[extra struc
 In a [[model category]], an [[object]] $X$ is said to be **fibrant** if the unique morphism $X\to 1$ to the [[terminal object]] is a [[fibration]].
 
 $$
-  (X \;\; \text{cofibrant})
-   \;\;\Leftrightarrow\;\;
-  ( 0 \overset{\in Cof}{\longrightarrow} X)
-$$
-
-[[formal dual|Dually]], $X$ is said to be **cofibrant** if the unique morphism $0\to X$ from the [[initial object]] is a [[cofibration]].
-
-$$
   (X \;\; \text{fibrant})
    \;\;\Leftrightarrow\;\;
   ( X \overset{\in Fib}{\longrightarrow} 1)
 $$
 
+[[formal dual|Dually]], $X$ is said to be **cofibrant** if the unique morphism $0\to X$ from the [[initial object]] is a [[cofibration]].
+
+$$
+  (X \;\; \text{cofibrant})
+   \;\;\Leftrightarrow\;\;
+  ( 0 \overset{\in Cof}{\longrightarrow} X)
+$$
 
 Hence the axiom that every morphism in a model category factors 
 
@@ -55,17 +54,17 @@ implies [[fibrant resolution]] and [[cofibrant resolution]] of objects:
 
 For $X$ any object then 
 
-1. the factorization of the terminal morphism as an acyclic cofibration followed by a fibration yields a fibrant object $X_{fib}$ weakly equivalent to $$X
+1. the factorization of the terminal morphism as an acyclic cofibration followed by a fibration yields a fibrant object $X_{fib}$ weakly equivalent to $X$
 
    $$
       X 
         \overset{\in Cof \cap W}{\longrightarrow} 
-      X_{cof}
+      X_{fib}
         \overset{\in Fib}{\longrightarrow}
       1
    $$
 
-1. the factorization of the initial morphism as a cofibration followed by an acyclic fibration yields a cofibrant object $X_{cof}$ weakly equivalent to $$X
+1. the factorization of the initial morphism as a cofibration followed by an acyclic fibration yields a cofibrant object $X_{cof}$ weakly equivalent to $X$
 
    $$
      0 
