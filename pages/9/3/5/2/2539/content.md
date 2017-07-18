@@ -87,7 +87,7 @@ $$
 
 Since the [[closed intervals]] $[-c_n,-c_n/3], [c_n/3, c_n] \subset \mathbb{R}$ are [[closed subsets]], and since $f - \hat f_n\vert_A$ is a [[continuous function]], these are [[closed subsets]] of $A$. Moreover, since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]], these are also closed subsets of $X$.
 
-Therefore, since $X$ is [[normal topological space|normal]] by assumption,  follows [[Urysohn's lemma]] that there is a continuous function
+Therefore, since $X$ is [[normal topological space|normal]] by assumption,  it follows with [[Urysohn's lemma]] that there is a continuous function
 
 $$
   \phi \;\colon\; X \longrightarrow \mathbb{R}
@@ -155,7 +155,7 @@ To wit, this is because
 
 1. for $a \in S_-$ we have $g_{n+1}(a) = -\tfrac{c_n}{3}$ and $f(a) - \hat f_{n}(a) \in [-c_n/3,-c_n]$;
 
-1. for $a \in Y \setminus \{S_+ \cup S_-\}$ we have $g(a) \in [-c_n/3,c_n3]$ as well as $f(a) - \hat f_{n}(a) \in [-c_n/3, c_n/3]$.
+1. for $a \in Y \setminus \{S_+ \cup S_-\}$ we have $g(a) \in [-c_n/3,c_n/3]$ as well as $f(a) - \hat f_{n}(a) \in [-c_n/3, c_n/3]$.
 
 
 It follows that if we set
@@ -205,16 +205,30 @@ $$
 Moreover, for $n_1, n_2 \in \mathbb{N}$ with $n_2 \geq n_1$ and $x \in X$ we have 
 
 $$
-  \hat f_{n_2}(x) - \hat f_{n_1}(x)
-  = 
-  g_{n_1 + 1}(x) + g_{n_1 + 2}(c) + \cdots + g_{n_2}(x)
-  \leq
-  \sum_{k = n_1+1}^n_2 \tfrac{1}{3^{k}} c_0
-  \leq
-  \sum_{k = n_1+1}^\infty \tfrac{1}{3^{k}} c_0
+  \begin{aligned}
+    \hat f_{n_2}(x) - \hat f_{n_1}(x)
+    & = 
+    g_{n_1 + 1}(x) + g_{n_1 + 2}(c) + \cdots + g_{n_2}(x)
+    \\
+    & \leq
+    \underoverset{k = n_1+1}{n_2}{\sum}
+    \tfrac{1}{3^{k}} c_0
+    \\
+    & \leq
+    \underoverset{k = n_1+1}{\infty}{\sum}
+    \tfrac{1}{3^{k}} c_0
+  \end{aligned}
 $$
 
-Since the [[geometric series]] $\sum_{k = 0}^\infty 1/3^k$ converges, this becomes arbitrarily small for large $n_1$. 
+That the [[geometric series]] $\sum_{k = 0}^\infty 1/3^k$ [[convergence of a sequence|converges]]
+
+$$
+  \underoverset{n}{k = 0}{\sum} 1/3 k
+   \overset{n \to \infty}{\longrightarrow}
+  \frac{1}{1 - 1/3} = 3/2
+$$
+
+this becomes arbitrarily small for large $n_1$. 
 
 This means that the sequence $(\hat f_{n+1})_{n\in \mathbb{N}}$ is a [[Cauchy sequence]] in the [[supremum norm]] for real-valued functions.
 
@@ -318,4 +332,3 @@ See also
 * [[Planet Math]], _[Proof of the Tietze extension theorem](http://planetmath.org/proofoftietzeextensiontheorem)_
 
 
-[http://trove.nla.gov.au/work/14594778?q&online=true](http://trove.nla.gov.au/work/14594778?q&online=true)
