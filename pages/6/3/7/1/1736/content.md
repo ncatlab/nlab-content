@@ -189,7 +189,7 @@ For standard references see at _[[model category]]_.
 
 An example of an equivalence of [[homotopy categories]] of model categories which does not lift to a Quillen equivalence is in 
 
-* [[Daniel Dugger]], [[Brooke Shipley]], _A curious example of triangulated-equivalent model categories wich are not Quillen equivalent_, Algebraic & Geometric Topology 9 (2009) ([pdf](http://homepages.math.uic.edu/~bshipley/dugger.shipley.curious.example.pdf))
+* [[Daniel Dugger]], [[Brooke Shipley]], _A curious example of triangulated-equivalent model categories which are not Quillen equivalent_, Algebraic & Geometric Topology 9 (2009) ([pdf](http://homepages.math.uic.edu/~bshipley/dugger.shipley.curious.example.pdf))
  {#DuggerShipley09}
 
 
