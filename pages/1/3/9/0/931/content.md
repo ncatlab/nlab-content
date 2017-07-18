@@ -20,11 +20,11 @@
 
 For $G$ a [[group]],  a $G$-**torsor** (also called a **principal homogeneous space**) is an [[inhabited object]]/[[space]] $P$ with an [[action]] $\rho : G \times P \to P$ by $G$ that is
 
-* free: only the identity element acts trivially;
+* [[free action|free]]: only the identity element acts trivially;
 
 and
 
-* transitive: for every two points in (a fiber of) the space, there is an element of the group taking one to the other.
+* [[transitive action|transitive]]: for every two points in (a fiber of) the space, there is an element of the group taking one to the other.
 
 In other words, in the classical case where we are working in the category of sets over the point, a torsor is a [[heap]]:
 
