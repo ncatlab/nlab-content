@@ -2844,12 +2844,13 @@ is a [[path]] in the base space $X$, and a lift through $p$ of this is a path in
 space which "runs above" the given path. Such lifts of paths through covering projections
 is the topic of _[[monodromy]]_ [below](#Monodromy).
 
-Here it is usually of interest to consider the lifting problem subject to some constraint.
+Here it is of interest to consider the lifting problem subject to some constraint.
 For instance we will want to consider lifts of paths $\gamma \colon [0,1] \to X$
 through a covering projection, subject to the condition that the
 starting point $\gamma(0)$ is lifted to a prescribed point $p \in E$.
 
-Since such a point is equivalently a continuous function $const_p \colon \ast \to X$,
+Since such a point is equivalently a continuous function $const_p \colon \ast \to X$
+out of the [[point space]],
 this is the same as asking for a continuous function $\sigma$ that makes both triangles in the
 following [[diagram]] [[commuting diagram|commute]]:
 
@@ -2890,7 +2891,7 @@ $$
 $$
 
 such that both resulting triangles commute is a _[[lift]]_. If such a lift exists for
-$i$ taken from some [[class]] of morphisms, then one says that $p$ has the _[[right lifting property]]_
+for the given $p$ and for each $i$ taken from some [[class]] of morphisms, then one says that $p$ has the _[[right lifting property]]_
 against this class.
 
 
@@ -3102,7 +3103,7 @@ Let
 
 1. $E \overset{p}{\to} X$ be a covering space;
 
-1. $Y$ a [[locally path-connected topological space]].
+1. $Y$ a [[locally connected topological space]].
 
 Then every [[lifting problem]] of the form
 
@@ -3166,18 +3167,44 @@ To that end, let $\{U_i \subset X \}_{i \in I}$ be an open cover over which the 
 
 By lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint} over these $\hat f$ is constant on one leaf, and hence so is $\hat \eta$. This constant lift is continuous.
 
-This shows that $\hat \eta$ restricts to a continuous function over an open cover of $Y \times [0,1]$ and thus is itself continuous.
+This shows that $\hat \eta$ restricts to a continuous function over an open cover of $Y \times [0,1]$ and 
+thus is itself continuous ([this prop.](Top#ClosedSubspacesGluing)).
 
 
 =--
 
 
 
++-- {: .num_remark #CoveringSpacesAreSerreFibrationsButNotInGeneralHurewiczFibrations}
+###### Remark
+**([[covering spaces]] are [[Serre fibrations]] but not in general [[Hurewicz fibrations]])**
+
+Since the [[Euclidean space|Euclidean]] $n$-disks $D^n \subset \mathbb{R}^n$ are evidently locally connected, prop. \ref{HomotopyLiftingPropertyOfCoveringSpaces} says in particular that covering spaces have the [[right lifting property]] against the set of inclusions
+
+
+$$
+  \left\{
+    D^n \overset{(id, const_0)}{\hookrightarrow} D^n \times [0,1]
+  \right\}
+  \,.
+$$
+
+A continuous function with the right lifting property against this set of functions is called a _[[Serre fibration]]_.
+
+On the other hand, a continuous function with the right lifting property against the inclusions $X \overset{(id_X, const_0)}{\hookrightarrow} X \times [0,1]$ for _all_ topological spaces $X$ is called a _[[Hurewicz fibration]]_.
+
+Not every covering space is a Hurewicz fibration, for counterexamples see [this example](Serre+fibration#SerreFibrationsWhichAreNotHurewiczFibrations).
+
+However, if we restrict all topological spaces involved to [[compactly generated topological spaces|compactly generated]] [[weakly Hausdorff topological spaces]] (one of the [[convenient categories of topological spaces]] that one often restricts attention to) then every covering space both whose base space as well as whose total space admits is the structure of a [[CW-complex]] is a Hurewicz fibration ([this prop.](Serre+fibration#SerreFibrationsBetweenCWComplexesAreHurewiczFibrations)).
+
+
+=--
+
 
 
 +-- {: .num_example #CoveringSpacesHomotopyLifting}
 ###### Example
-**(lift homotopy of paths for given lifts of paths)**
+**([[homotopy  lifting property]] for given lifts of paths relative starting point)**
 
 Let $p \colon E \to X$ be a [[covering space]]. Then given a [[homotopy]] relative the starting point between two [[paths]] in $X$,
 
@@ -4063,7 +4090,7 @@ First we demonstrate a homotopy ([[natural isomorphism]]) of the form
 
 $$
   id_{Rep(\Pi_1(X), Set)}
-    \ovesret{\simeq}{\longrightarrow}
+    \overset{\simeq}{\longrightarrow}
   Fib \circ Rec
   \,.
 $$
@@ -4170,14 +4197,19 @@ This proves the equivalence.
 
 =--
 
-
+$\,$
 
 ## Examples
  {#Examples}
 
+We now use the theorems established above to compute the [[fundamental groups]] of topological spaces
+in some basic examples. In particular we prove the archetypical example
+saying that the [[fundamental group of the circle is the integers]]  (prop. \ref{CircleFundamentalGroup} below).
+
+$\,$
+
 ### Fundamental groups
  {#ExamplesFundamentalGroups}
-
 
 
 +-- {: .num_prop #CircleFundamentalGroup}
