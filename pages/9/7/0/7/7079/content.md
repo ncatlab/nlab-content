@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 #### Model category theory
 +--{: .hide}
 [[!include model category theory - contents]]
@@ -14,11 +18,78 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A [[model category]] is a [[homotopical category]] equipped with extra good control over the [[weak equivalences]]. In particular every [[object]] of the category is weakly equivalent to an object that is particularly well behaved for forming [[derived hom-spaces]] _into_ it -- these are the fibrant objects, as well as weakly equivalent to a object that is particularly well-behaved for forming [[derived hom-spaces]] _out of_ it -- these are the cofibrant objects.
+
+Hence fibrant and cofibrant objects are particularly good representatives of objects, which are the "same" as the given objects up to [[weak equivalence]].
+
+These concepts exists also in [[homotopical categories]] with less [[extra structure]] than that of a full [[model category]]. For instance a [[category of fibrant objects]] implements roughly half of the model category axioms, namely those for [[fibrations]] and, as the name indicates, it has a concept of weakly equivalent replacement by fibrant objects, but in general not by cofibrant object. And [[formal dual|dually]], in a [[cofibration category]] there is a notion of cofibrant objects but not necessarily of fibrant objects.
+
 ## Definition
 
-In a [[model category]], an [[object]] $X$ is said to be **fibrant** if the unique map $X\to 1$ to the [[terminal object]] is a [[fibration]].
+In a [[model category]], an [[object]] $X$ is said to be **fibrant** if the unique morphism $X\to 1$ to the [[terminal object]] is a [[fibration]].
 
-Dually, $X$ is said to be **cofibrant** if the unique map $0\to X$ from the [[initial object]] is a [[cofibration]].
+$$
+  (X \;\; \text{cofibrant})
+   \;\;\Leftrightarrow\;\;
+  ( 0 \overset{\in Cof}{\longrightarrow} X)
+$$
+
+[[formal dual|Dually]], $X$ is said to be **cofibrant** if the unique morphism $0\to X$ from the [[initial object]] is a [[cofibration]].
+
+$$
+  (X \;\; \text{fibrant})
+   \;\;\Leftrightarrow\;\;
+  ( X \overset{\in Fib}{\longrightarrow} 1)
+$$
+
+
+Hence the axiom that every morphism in a model category factors 
+
+1. as an [[acyclic cofibration]] followed by a [[fibration]]
+
+1. as a [[cofibration]] followed by an [[acyclic fibration]]
+
+implies [[fibrant resolution]] and [[cofibrant resolution]] of objects:
+
+For $X$ any object then 
+
+1. the factorization of the terminal morphism as an acyclic cofibration followed by a fibration yields a fibrant object $X_{fib}$ weakly equivalent to $$X
+
+   $$
+      X 
+        \overset{\in Cof \cap W}{\longrightarrow} 
+      X_{cof}
+        \overset{\in Fib}{\longrightarrow}
+      1
+   $$
+
+1. the factorization of the initial morphism as a cofibration followed by an acyclic fibration yields a cofibrant object $X_{cof}$ weakly equivalent to $$X
+
+   $$
+     0 
+       \overset{\in Cof}{\longrightarrow}
+     X_{cof}
+       \overset{\in Fib \cap W}{\longrightarrow}
+     X
+   $$
+
+
+## Examples
+
+The standard examples appear 
+
+1. in the [[classical model structure on topological spaces]], here every object $X$ is fibrant (namely the [[continuous function]] $X \to \ast$ to the [[point space]] is a [[Serre fibration]]), and the cofibrant objects are the [[retracts]] of [[cell complexes]], in particular the [[CW-complexes]];
+
+1. in the [[classical model structure on simplicial sets]], here every object is cofibrant, and the fibrant objects are the [[Kan complexes]].
+
+Other examples include:
+
+* In the projective [[model structure on dgc-algebras]] in non-negative degree, the cofibrant objects are the [[Sullivan algebras]] (see [there](model+structure+on+dg-algebras#SullivanAlgebras)). This plays a key role in [[rational homotopy theory]]
+
+* ...
+
 
 ## Related concepts
 
