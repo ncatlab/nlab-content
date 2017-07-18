@@ -1,10 +1,25 @@
 
++-- {: .num_remark #CoveringSpacesAreSerreFibrationsButNotInGeneralHurewiczFibrations}
+###### Remark
+**(covering spaces are [[Serre fibrations]] but not in general [[Hurewicz fibrations]])**
+
+Since the [[Euclidean space|Euclidean]] $n$-disks $D^n \subset \mathbb{R}^n$ are evidently locally connected, prop. \ref{HomotopyLiftingPropertyOfCoveringSpaces} says in particular that covering spaces have the [[right lifting property]] against the set of inclusions
+
 
 $$
-  \array{
-    \rho &\overset{\phi}{\longrightarrow}& \rho'
-    \\
-    {}^{\mathllap{eta_\rho}}\downarrow 
-      && 
-  }
+  \left\{
+    D^n \overset{(id, const_0)}{\hookrightarrow} D^n \times [0,1]
+  \right\}
+  \,.
 $$
+
+A continuous function with the right lifting property against this set of functions is called a _[[Serre fibration]]_.
+
+On the other hand, a continuous function with the right lifting property against the inclusions $X \overset{(id_X, const_0)}{\hookrightarrow} X \times [0,1]$ for _all_ topological spaces $X$ is called a _[[Hurewicz fibration]]_.
+
+Not every covering space is a Hurewicz fibration, for counterexamples see [this example](Serre+fibration#SerreFibrationsWhichAreNotHurewiczFibrations).
+
+However, if we restrict all topological spaces involved to [[compactly generated topological spaces|compactly generated]] [[weakly Hausdorff topological spaces]] (one of the [[convenient categories of topological spaces]] that one often restricts attention to) then every covering space both whose base space as well as whose total space admits is the structure of a [[CW-complex]] is a Hurewicz fibration ([this prop.](Serre+fibration#SerreFibrationsBetweenCWComplexesAreHurewiczFibrations)).
+
+
+=--
