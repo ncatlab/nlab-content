@@ -31,6 +31,10 @@ This has been considered for
 
 * maps from [[Morava E-theory]] at level $(n+1)$ to Morava E-theory at level $n$, tensored with some ring, see at _[[E-theoretic Chern character]]_.
 
+## Related concepts
+
+* [[transchromatic character]]
+
 ## References
 
 A survey is for instance in the introduction of 
