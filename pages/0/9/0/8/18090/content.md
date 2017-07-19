@@ -32,7 +32,7 @@ $\,$
 {#PartI}**part I**: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_ $\;\;\;$([[IntroductionToTopologyI-170704.pdf:file]] 203p)
 
 
-{#PartII}**part II**: _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Basic Homotopy Theory]]_ $\;\;\,$ ([[IntroductionToTopologyII-170718b.pdf:file]] 58p)
+{#PartII}**part II**: _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Basic Homotopy Theory]]_ $\;\;\,$ ([[IntroductionToTopologyII-170719.pdf:file]] 60p)
 
 $\,$
 
@@ -67,10 +67,9 @@ continuously on their arguments, in that their values do not "jump".
 Such a concept of [[continuous function|continuity]] is familiar from [[analysis]] on [[metric spaces]],
 (recalled [below](#Continuity)) but the definition in topology generalizes this analytic concept
 and renders it more foundational, generalizing the concept of [[metric spaces]] to that of _[[topological spaces]]_.
-(def. \ref{TopologicalSpace} below).
 
 Hence, [[topology]] is the study of the [[category]] whose [[objects]] are [[topological spaces]], and whose
-[[morphisms]] are [[continuous functions]] (see also remark \ref{TopCategory} below).
+[[morphisms]] are [[continuous functions]].
 This category is much more flexible than that of [[metric spaces]], for example it admits the construction of
 arbitrary [[quotients]] and [[intersections]] of spaces.
 Accordingly, topology underlies or informs many and diverse areas of mathematics, such as
@@ -105,7 +104,7 @@ Beware the popular imagery of "[[rubber-sheet geometry]]", which only captures p
 in that it invokes spaces that _locally_ still look like [[metric spaces]] (called _[[topological manifolds]]_, see [below](#Manifolds)).
 But the concept of topological spaces is a good bit more general.
 Notably, [[finite topological spaces]] are either [[discrete topological space|discrete]] or very much unlike
-[[metric spaces]] (example \ref{FiniteT1SpacesAreDiscrete} below); the former play a role in [[categorical logic]]. Also, in [[geometry]], exotic topological spaces frequently arise when  forming non-free [[quotients]].
+[[metric spaces]]; the former play a role in [[categorical logic]]. Also, in [[geometry]], exotic topological spaces frequently arise when  forming non-free [[quotients]].
 In order to gauge just how many of such "exotic" examples of topological  spaces beyond locally [[metric spaces]] one wishes
 to admit in the theory,
 extra "[[separation axioms]]" are imposed on topological spaces (see [below](#SeparationAxioms)), and the flavour of topology as a field
