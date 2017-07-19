@@ -206,9 +206,9 @@ Moreover, for $n_1, n_2 \in \mathbb{N}$ with $n_2 \geq n_1$ and $x \in X$ we hav
 
 $$
   \begin{aligned}
-    \hat f_{n_2}(x) - \hat f_{n_1}(x)
+    {\Vert \hat f_{n_2}(x) - \hat f_{n_1}(x) \Vert}
     & = 
-    g_{n_1 + 1}(x) + g_{n_1 + 2}(c) + \cdots + g_{n_2}(x)
+    {\Vert g_{n_1 + 1}(x) + g_{n_1 + 2}(c) + \cdots + g_{n_2}(x) \Vert}
     \\
     & \leq
     \underoverset{k = n_1+1}{n_2}{\sum}
