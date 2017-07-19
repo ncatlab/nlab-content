@@ -21,10 +21,11 @@ If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat pr
 
 ### Papers
 
-* _Equivariant bundle gerbes_, [arXiv:1506.07931](http://arxiv.org/abs/1506.07931). 
-Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny Stevenson]] and [[nLab:Raymond Vozzo|Raymond Vozzo]]. Accepted (20th April 2017) to appear, [Advances in Theoretical and Mathematical Physics](http://intlpress.com/site/pub/pages/journals/items/atmp/_home/_main/).
-
 * _The smooth Hom-stack of an orbifold_, Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]], [arXiv:1610.05904](https://arxiv.org/abs/1610.05904). To appear in the proceedings of [Higher Structures:Advances](http://www.matrix-inst.org.au/events/higherstructures/) at the [MATRIX institute](http://www.matrix-inst.org.au/). (Accepted 13 December 2016)
+
+* _Equivariant bundle gerbes_, [Advances in Theoretical and Mathematical Physics](http://intlpress.com/site/pub/pages/journals/items/atmp/_home/_main/)
+ 21 (2017) no. 4 (to appear) [arXiv:1506.07931](http://arxiv.org/abs/1506.07931). 
+Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny Stevenson]] and [[nLab:Raymond Vozzo|Raymond Vozzo]]. 
 
 * _Quasi-periodic paths and a string 2-group model from the free loop group_, [Journal of Lie Theory](http://www.heldermann.de/JLT/jltcover.htm), 27 (2017), No. 4, 1151-1177. [journal version](http://www.heldermann.de/JLT/JLT27/JLT274/jlt27058.htm) (paywall), [arXiv:1702.01514](https://arxiv.org/abs/1702.01514). Joint with [[Michael Murray]] and [[Christoph Wockel]].  
 
