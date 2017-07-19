@@ -44,7 +44,7 @@ But in order for maps of homology groups to have a chance to retain enough infor
 
 For instance if $E = $ $H \mathbb{F}_2$ then the [[dual Steenrod algebra]] $\mathcal{A}$ (co-)acts on $E_\bullet(X) = H_\bullet(X,\mathbb{F}_2)$ and a necessary condition for a morphism of homology groups to come from a morphism of spectra is that it is a [[homomorphism]] with respect to this co-action.  The  [[classical Adams spectral sequence]] (discussed [below](#ClassicalAdamsSpectralSequence)), accordingly, approximates $[X,Y]_\bullet$ by $Hom_{\mathcal{A}}(H_\bullet(X,\mathbb{F}_2), H_\bullet(Y,\mathbb{F}_2))$.
 
-More generally, since spectra are equivalently [[module spectra]] over the [[sphere spectrum]] $\mathbb{S}$, the operation of forming $E$-homology spectra $X \mapsto E \wedge S$ is equivalently the [[extension of scalars]] along the ring unit $\mathbb{S}\longrightarrow E$. This means that the extra structure inherited by $E$-homology groups contains the information given by the further extensions along the [[cosimplicial object|cosimplicial]] diagram
+More generally, since spectra are equivalently [[module spectra]] over the [[sphere spectrum]] $\mathbb{S}$, the operation of forming $E$-homology spectra $X \mapsto E \wedge X$ is equivalently the [[extension of scalars]] along the ring unit $\mathbb{S}\longrightarrow E$. This means that the extra structure inherited by $E$-homology groups contains the information given by the further extensions along the [[cosimplicial object|cosimplicial]] diagram
 
 $$
   \mathbb{S} \longrightarrow E \stackrel{\longrightarrow}{\longrightarrow} E \wedge E \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
