@@ -59,7 +59,7 @@ Finally, we can express this more compactly by writing $\pi$ in cycle form, as t
 ###### Proposition
 
 Let $n \in \mathbb{N}$ and $\Sigma(n)$ the [[symmetric group]]
-on $n$ elements. Then the [[conjugacy classes]] of elements of $\Sigma(n)$, hence of permutations of $n$ elements, correspond to the [[cycle]] structures: two elements are conjugate to each other precisely if they have the same number of distinct cycles of the same lenght.
+on $n$ elements. Then the [[conjugacy classes]] of elements of $\Sigma(n)$, hence of permutations of $n$ elements, correspond to the [[cycle]] structures: two elements are conjugate to each other precisely if they have the same number of distinct cycles of the same length, or in other words if they define the same [[partition]] of $n$.
 
 =--
 
