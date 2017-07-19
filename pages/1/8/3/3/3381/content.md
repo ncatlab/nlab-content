@@ -67,23 +67,53 @@ on $n$ elements. Then the [[conjugacy classes]] of elements of $\Sigma(n)$, henc
 ###### Example
 
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="100">
-</div>
-
-
 For the symmetric group on three elements there are three such classes:
 
-$$
-  \array{
-    (1\; 2\; 3)
-    \\
-    (1 \; 2) (3)
-    \\
-    (1) (2) (3)
-    
-  }
-$$
+<div>
+<div style="float:left">
+ <div>(1 2 3)</div>
+ <div>(1 2)(3)</div>
+ <div>(1)(2)(3)</div>
+</div>
+<div style="float:left">
+<div>
+ <svg width="80" height="40" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <desc>Young diagram (3)</desc>
+ <g>
+  <title>Layer 1</title>
+  <rect x="10" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_1"/>
+  <rect x="30" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_2"/>
+  <rect x="50" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_3"/>
+ </g>
+ </svg>
+</div>
+<div>
+ <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <desc>Young diagram (2,1)</desc>
+ <g>
+  <title>Layer 1</title>
+  <rect x="10" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_1"/>
+  <rect x="30" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_2"/>
+  <rect x="10" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_3"/>
+ </g>
+ </svg>
+</div>
+<div>
+ <svg width="40" height="90" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <desc>Young diagram (1,1,1)</desc>
+ <g>
+  <title>Layer 1</title>
+  <rect x="10" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_1"/>
+  <rect x="10" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_2"/>
+  <rect x="10" y="50" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_3"/>
+ </g>
+ </svg>
+</div>
+</div>
+<div style="float:left">
+<img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="100">
+</div>
+</div>
 
 =--
 
