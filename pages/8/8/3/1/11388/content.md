@@ -2,6 +2,6 @@
 
 
 
-* [webpage](http://math.mit.edu/~nstapleton/)
+* [webpage](http://homepages.uni-regensburg.de/~stn30788/)
 
 category: people
