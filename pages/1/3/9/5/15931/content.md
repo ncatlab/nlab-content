@@ -23,7 +23,7 @@ In [[constructive mathematics]], _proof relevance_ refers to the concept that ma
 
 This idea is formalized notably by the idea of [[propositions as types]] in [[type theory]] where a proof is an actual [[term]] (the _proof term_) of some [[type]].
 
-For instance logical [[disjunction]] "A or B" in [[type theory]] (in particular in [[homotopy type theory]]) may be exhibited by the [[sum type]] $A + B$ of the types representing th induvidual propositions, and a proof/term of $A + B$ carries in it the information of whether it proved $A$ or $B$ to (hence) prove their disjunction.  Similarly, a proof of $C \to (A + B)$ will include the information of which proofs of $C$ lead to proofs of $A$ and which proofs of $C$ lead to proofs of $B$.
+For instance logical [[disjunction]] "A or B" in [[type theory]] (in particular in [[homotopy type theory]]) may be exhibited by the [[sum type]] $A + B$ of the types representing the induvidual propositions, and a proof/term of $A + B$ carries in it the information of whether it proved $A$ or $B$ to (hence) prove their disjunction.  Similarly, a proof of $C \to (A + B)$ will include the information of which proofs of $C$ lead to proofs of $A$ and which proofs of $C$ lead to proofs of $B$.
 
 
 ## References
