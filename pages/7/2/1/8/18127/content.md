@@ -3103,7 +3103,7 @@ Let
 
 1. $E \overset{p}{\to} X$ be a covering space;
 
-1. $Y$ a [[locally connected topological space]].
+1. $Y$ a [[topological space]].
 
 Then every [[lifting problem]] of the form
 
@@ -3190,19 +3190,14 @@ $$
   \{ V_y \times I_k \}_{k \in K_y}
 $$
 
-still restricts to a cover of $\{y\} \times [0,1]$. Finally, by the assumption that $Y$ is locally connected, there exists a connected open subset $C_y \subset Y$ with $y \in C_y \subset V_y$, and so
+still restricts to a cover of $\{y\} \times [0,1]$.
 
-$$
-  \{C_y \times I_k\}_{k \in K_y}
-$$
+This means that the same argument as for the path lifting in lemma \ref{CoveringSpacePathLifting}
+provides a unique lift $\widehat{\eta\vert_{V_y \times [0,1]}}$ for each $y \in Y$.
 
-restricts to an open cover of $\{y\} \times [I]$. Now since $C_y$ is connected, its image $\eta(C_y \times \{t\})$ lifts to a fingle leaf of $E\vert_{U_i}$.
+Moreover, for $y_1, y_2 \in Y$ two points, these lifts clearly have to agree on $V_{y_1} \cap V_{y_2}$.
 
-This means that the same argument as for the path lifting in lemma \ref{CoveringSpacePathLifting} provides a unique lift $\widehat{\eta\vert_{C_y \times [0,1]}}$ for each $y \in Y$.
-
-Moreover, for $y_1, y_2 \in Y$ two points, these lifts clearly have to agree on $C_{y_1} \cap C_{y_2}$.
-
-Since $\{C_y \times [0,1] \subset Y \times [0,1]\}_{y \in Y}$ is an open cover, means that there is a unique function $\hat \eta$ that restricts to all these local lifts ([this prop](Top#ClosedSubspacesGluing)). This is the required lift.
+Since $\{V_y \times [0,1] \subset Y \times [0,1]\}_{y \in Y}$ is an open cover, means that there is a unique function $\hat \eta$ that restricts to all these local lifts ([this prop](Top#ClosedSubspacesGluing)). This is the required lift.
 
 
 =--
@@ -3211,26 +3206,13 @@ Since $\{C_y \times [0,1] \subset Y \times [0,1]\}_{y \in Y}$ is an open cover, 
 
 +-- {: .num_remark #CoveringSpacesAreSerreFibrationsButNotInGeneralHurewiczFibrations}
 ###### Remark
-**([[covering spaces]] are [[Serre fibrations]] but not in general [[Hurewicz fibrations]])**
+**([[covering spaces]] are [[Hurewicz fibrations]])**
 
-Since the [[Euclidean space|Euclidean]] $n$-disks $D^n \subset \mathbb{R}^n$ are evidently locally connected, prop. \ref{HomotopyLiftingPropertyOfCoveringSpaces} says in particular that covering spaces have the [[right lifting property]] against the set of inclusions
-
-
-$$
-  \left\{
-    D^n \overset{(id, const_0)}{\hookrightarrow} D^n \times [0,1]
-  \right\}
-  \,.
-$$
-
-A continuous function with the right lifting property against this set of functions is called a _[[Serre fibration]]_.
-
-On the other hand, a continuous function with the right lifting property against the inclusions $X \overset{(id_X, const_0)}{\hookrightarrow} X \times [0,1]$ for _all_ topological spaces $X$ is called a _[[Hurewicz fibration]]_.
-
-Not every covering space is a Hurewicz fibration, for counterexamples see [this example](Serre+fibration#SerreFibrationsWhichAreNotHurewiczFibrations).
-
-However, if we restrict all topological spaces involved to [[compactly generated topological spaces|compactly generated]] [[weakly Hausdorff topological spaces]] (one of the [[convenient categories of topological spaces]] that one often restricts attention to) then every covering space both whose base space as well as whose total space admits is the structure of a [[CW-complex]] is a Hurewicz fibration ([this prop.](Serre+fibration#SerreFibrationsBetweenCWComplexesAreHurewiczFibrations)).
-
+Continuous functions that satisfy the [[homotopy lifting property]], hence that
+have the [[right lifting property]] against continuous functions of the form
+$Y \overset{(id, const_0)}{\longrightarrow} Y \times [0,1]$
+are called _[[Hurewicz fibrations]]_. Hence prop. \ref{HomotopyLiftingPropertyOfCoveringSpaces}
+says that covering projections are in particular Hurewicz fibrations.
 
 =--
 
