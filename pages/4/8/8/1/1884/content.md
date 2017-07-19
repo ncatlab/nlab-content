@@ -1319,8 +1319,8 @@ over the [[quotient space]]..
 
 =--
 
-The **proof** of lemma \ref{VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace} is 
-given at _[[topological vector bundle]]_ 
+The **proof** of lemma \ref{VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace} is
+given at _[[topological vector bundle]]_
 [here](topological+vector+bundle+VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace).
 What makes that proof work, in turn, is the [[Tietze extension theorem]], via
 [this lemma](topological+vector+bundle#IsomorphismOfVectorBundlesOnClosedSubsetOfCompactHausdorffSpaceExtendsToOpenNeighbourhoods).
@@ -1429,10 +1429,10 @@ Hence it only remains to see for $x \in \tilde K(X)$ a class with $i^\ast(x) = 0
 that $x = q^\ast(y)$ comes from a class on the quotient $X/A$. But by compactness, the class
 $x$ is given by a [[virtual vector bundle]] of the form $E - rk(E)$
 (prop. \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}, prop. \ref{KGrupDirectSummandReducedKGroup}).
-and by prop. \ref{ReducedKEquivalenceRelationVerified} the triviality of $i^\ast(E- rk(E))$ means that 
+and by prop. \ref{ReducedKEquivalenceRelationVerified} the triviality of $i^\ast(E- rk(E))$ means that
 there is $n \in \mathbb{N}$ such that  $i \ast(E) \oplus_A (A \times \mathbb{C}^n)$
-is a [[trivializable vector bundle]]. 
-Therefore lemma \ref{VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace} gives 
+is a [[trivializable vector bundle]].
+Therefore lemma \ref{VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace} gives
 that $E \oplus_X (X \times \mathbb{C}^n)$
 is isomorphic to the [[pullback bundle]] of a vector bundle $E'$ on $X/A$. This proves the claim.
 
@@ -2534,8 +2534,10 @@ $$
 ### As a generalized cohomology theory
  {#AsAGeneralizedCohomologyTheory}
 
-That topological K-theory satisfies the axioms of a [[generalized (Eilenberg-Steenrod) cohomology theory]]
-was shown (at least) in [Atiyah-Hirzebruch 61, 1.8](#AtiyahHirzebruch61).
+Topological K-theory satisfies the axioms of a [[generalized (Eilenberg-Steenrod) cohomology theory]]
+([Atiyah-Hirzebruch 61, 1.8](#AtiyahHirzebruch61)).
+
+This is essentially the statement of the long exact sequences [above](#ExactSequences).
 
 
 ### Complex orientation and formal group law
