@@ -2584,7 +2584,7 @@ This defines a [[category]] $Cov(X)$, the _[[category of covering spaces]]_ over
 **(trivial covering space)**
 
 For $X$ a [[topological space]] and $S$ a [[set]] with $Disc(S)$ the [[discrete topological space]]
-on that set, then the [[projection]] out of the [[poduct topological space]]
+on that set, then the [[projection]] out of the [[product topological space]]
 
 $$
   pr_1 \;\colon\; X \times Disc(S) \longrightarrow X
@@ -2726,7 +2726,7 @@ $$
   E \times_X E \coloneqq \{ (e_1, e_2) \in E \times E \;\vert\; p(e_1) = p(e_2) \}
 $$
 
-hence (by the discussion at [Top - Univeral constructions](Top#UniversalConstructions)) the [[topological subspace]] of the [[product space]] $E \times E$, as shown on the right. By the [[universal property]] of the [[fiber product]], there is the [[diagonal]] [[continuous function]]
+hence (by the discussion at [Top - Universal constructions](Top#UniversalConstructions)) the [[topological subspace]] of the [[product space]] $E \times E$, as shown on the right. By the [[universal property]] of the [[fiber product]], there is the [[diagonal]] [[continuous function]]
 
 $$
   \array{
@@ -3524,7 +3524,66 @@ This shows that the lifted function is continuous. Finally that this continuous 
 =--
 
 
+The lifting theorem implies that there are "universal" covering spaces:
 
++-- {: .num_defn #UniversalCoveringSpace}
+###### Definition
+**([[universal covering space]])**
+
+A [[covering space]] $E \overset{p}{\to} X$ is called a _[[universal covering space]]_
+if the total space $E$ is a [[simply connected topological space]] (def. \ref{SimplyConnected})
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $X$ a [[locally path-connected topological space]], then any two [[universal covering spaces]] over
+$X$ (def. \ref{UniversalCoveringSpace}) are isomorphic.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Since both $E_1$ and $E_2$ are simply connected, the assumption of the lifting theorem for covering spaces is satisfied 
+(prop. \ref{TheTheoremLifting}). This says that there are horizontal continuous function making the following diagrams commute:
+
+$$
+  \array{
+    E_1 && \overset{f}{\longrightarrow} && E_2
+    \\
+    & {}_{\mathllap{p_1}}\searrow && \swarrow_{\mathrlap{p_2}}
+    \\
+    && X
+  }
+  \phantom{AAAAAA}
+  \array{
+    E_2 && \overset{g}{\longrightarrow} && E_1
+    \\
+    & {}_{\mathllap{p_1}}\searrow && \swarrow_{\mathrlap{p_2}}
+    \\
+    && X
+  }
+$$
+
+$$
+  \array{
+    E_i && \overset{id}{\longrightarrow} && E_i
+    \\
+    & {}_{\mathllap{p_i}}\searrow && \swarrow_{\mathrlap{p_i}}
+    \\
+    && X
+  }
+$$
+
+and that these are _unique_ once we specify the image of a single point, which we may freely do (in the given fiber).
+
+So if we pick any point $x \in X$ and $\hat x_1 \in E_1$ with $p(\hat x = x)$ and $\hat x_2 \in E_2$ with $p(\hat x_2) = x$ and specify that $f(\hat x_1) = \hat x_2$ and $g(\hat x_2) = \hat x_1$ then uniqueness applied to the composites implies $f \circ g = id_{E_{2}}$ and $g \circ f = id_{E_1}$.
+
+
+=--
 
 
 
@@ -3920,6 +3979,26 @@ By the uniqueness of the path-lifting, lemma \ref{CoveringSpacePathLifting} and 
 =--
 
 
++-- {: .num_example #CoveringConnectivityViaMonodromy}
+###### Example
+**(covering space is simply connected if monodromy is free and transitive)
+
+Let $X$ be a [[path-connected topological space]] and let $E \overset{p}{\to} X$ be a [[covering space]]. Then the total space $E$ is
+
+1. [[path-connected topological space|path-connected]] precisely if the [[monodromy]] $Fib_E$ is a [[transitive action]];
+
+1. [[simply connected topological space|simply connected]] (def. \ref{SimplyConnected}) precisely if the [[monodromy]] $Fib_E$ is a [[transitive action|transitive]] and [[free action]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{CoveringSpaceFundamentalGroupoid}.
+
+=--
+
+
 $\,$
 
 
@@ -4216,8 +4295,34 @@ By the assumption that $X$ is [[locally path-connected topological space|locally
 
 This proves the equivalence.
 
+=--
+
+
+
++-- {: .num_example #ReconstructCoveringForFreeAndTransitiveMonodromyRepresentation}
+###### Example
+**([[universal covering space]] reconstructed from [[free action|free]] and [[transitive action|transitive]] [[fundamental group]] [[representation]])**
+
+Let $X$ be a [[topological space]] which is 
+
+* [[path-connected space|path-connected]],
+
+* [[locally path-connected space|locally path-connected]]
+
+* and [[semi-locally simply-connected space|semi-locally simply-connected]]
+
+Then a [[universal covering space]] of $X$ (def. \ref{CoveringUniversal}) exists.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{CoveringConnectivityViaMonodromy} the covering space is connected and simply connected precisely if its [[monodromy]] representation is free and transitive. By the [[fundamental theorem of covering spaces]] (prop. \ref{FundamentalTheoremOfCoveringSpaces}) every [[permutation representation]] of the [[fundamental group]] $\pi_1(X)$ arises as the monodromy of some covering space. Hence it remains to see that a free and transitive representation of $\pi_1(X)$ exists: The action of any group $G$ on itself, by left multiplication,
+is free and transitive.
+
+=--
+
 
 $\,$
 
@@ -4567,8 +4672,10 @@ The corresponding covering spaces of the circle are shown in the graphics.
 =--
 
 
+
 ### Higher homotopy groups
  {#HigherHomotopyGroups}
+
 
 (...)
 
