@@ -2128,23 +2128,26 @@ of the vector bundles restricted to $U$.
 
 A bundle isomorphism $E_1\vert_A \simeq E_2\vert_A$ is equivalently a trivializing section
 (example \ref{FiberwiseLinearlyIndependentSectionsTrivialize}) of the
-[[tensor product of vector bundles]] $(E_1\vert_A)^\ast \otimes_A E_2\vert_A$ of $E_2\vert A$ with with the [[dual vector bundle]] $(E_2\vert_A)^\ast$.
+[[tensor product of vector bundles]] $(E_1\vert_A)^\ast \otimes_A E_2\vert_A$ of $E_2\vert_A$ with the [[dual vector bundle]] $(E_2\vert_A)^\ast$.
 (by [this prop.](tensor+product+of+vector+bundles#FinitrRankBundleHomomorphismIsSectionOfTensorProductWithDual)).
 
-Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] of $X$ over which this tensor product bundle trivializes with
+Let $\{V_i \subset X\}_{i \in I}$ be an [[open cover]] of $X$ over which this tensor product bundle trivializes with
 trivializations
 
 $$
   \left\{
-    U_i \times \mathbb{R}^{(n^2)}
+    V_i \times \mathbb{R}^{(n^2)}
      \underoverset{\simeq}{\phi_i}{\longrightarrow}
     (E_1^\ast \otimes_X E_2)\vert_{U_i}
   \right\}
   \,.
 $$
 
-By compactness of $X$, we may assume that $I$ is a [[finite set]].
-Then a trivializing section $\sigma \in \Gamma_A( (E_1\vert_A)^\ast \otimes_A E_2 \vert_A )$ as above is on each $U_i \cap A$
+
+Since [[compact Hausdorff spaces are normal]], the [[shrinking lemma]] applies and gives a refinement of this
+by a cover $\{U_i \subset X\}_{i \in I}$ by _closed_ subsets $U_i \subset X$.
+
+Then a trivializing section $\sigma \in \Gamma_A\left( (E_1\vert_A)^\ast \otimes_A E_2 \vert_A \right)$ as above is on each $U_i \cap A$
 a [[continuous function]]
 
 $$
@@ -2156,14 +2159,16 @@ $$
 to the [[general linear group]] $GL(n,k) \subset Mat_{n \times n}(k)$, such that
 
 $$
-  \sigma\vert_{U_i \cap A} = \phi_i^{-1}\circ \sigma_i
+  \sigma\vert_{U_i \cap A} = \phi_i \circ \sigma_i
   \,.
 $$
 
 Regarded as a function
 to the $n \times n$ [[matrices]], this is a set of $n^2$ [[continuous function]] $((\sigma_i)_{a b})$
 
-Since [[compact Hausdorff spaces are normal]] the [[Tietze extension theorem]] applies to these component functions and yields
+Now since $U_i \subset X$ is closed by construction, and $A \subset X$ is closed by assumption,
+also the intersections $U_i \cap X$ are closed.
+Since [[compact Hausdorff spaces are normal]] the [[Tietze extension theorem]] therefore applies to these component functions and yields
 [[extensions]] of each $\sigma_i$ to a [[continuous function]] of the form
 
 $$
@@ -2186,12 +2191,13 @@ $$
 Summing these up yields a single section $\hat \sigma$ of $E_1^\ast \otimes_X E_2$
 
 $$
-  \sigma
+  \hat \sigma
     \coloneqq
   \sum_{i \in I}
-  \phi_i^{-1}(f_i \cdot \hat \sigma_i)
+  \phi_i(f_i \cdot \hat \sigma_i)
   \in
   \Gamma_X(E_1^\ast \otimes_X E_2)
+  \,,
 $$
 
 which by construction is an [[extension]] of the original section, in that
@@ -2201,10 +2207,42 @@ $$
   \,.
 $$
 
-Since the [[general linear group]] $GL(n,k) = det^{-1}(k \setminus \{0\}) \subset Mat_{n \times n}(k)$
+This is because for each $a \in A \subset X$ we have, using the above definitions,
+
+$$
+ \begin{aligned}
+   \left(\underset{i \in I}{\sum} \phi_i(f_i \cdot \hat \sigma_i)\right)(a)
+   & =
+   \underset{i \in I}{\sum} (\phi_i (\hat \sigma_i(a)))
+   \\
+   & = \underset{i \in I}{\sum} \phi_i( f_i(a) \sigma_i(a) )
+   \\
+   & = \underset{i \in I}{\sum} f_i(a) \cdot (\phi_i \circ \sigma_i)(a)
+   \\
+   & = \underset{i \in I}{\sum} f_i(a) \cdot \sigma(a)
+   \\
+   & = \left( \underset{i \in I}{\sum} f_i(a)\right) \cdot \sigma(a)
+   \\
+   & = \sigma(a)
+ \end{aligned}
+$$
+
+Here the last step uses the nature of the partition of unity.
+
+Now while $\hat \sigma$ is an extension of the section $\sigma$ to $X$, it will in general
+not be a trivializing section on $X$.
+
+But since the [[general linear group]] $GL(n,k) = det^{-1}(k \setminus \{0\}) \subset Mat_{n \times n}(k)$
 is an [[open subset]] of the [[Euclidean space]] $Mat_{n \times n}(k) \simeq k^{(n^2)}$, it follows that
 each point $x \in A$ has an open neighbourhood $U_x \subset X$ such that $\hat \sigma\vert_{U_x}$
-is still a trivializing section.  The union of these
+is still a trivializing section, namely choosing $i_x \in I$ such that $x \in U_{i_x}$ set
+
+$$
+  U_x \coloneqq (\hat \sigma_{i_x})^{-1}( GL(n,k) )
+  \,.
+$$
+
+The union of these
 
 $$
   U \coloneqq \underset{x \in A}{\cup} U_x
@@ -2228,7 +2266,7 @@ Let $X$ be a [[compact Hausdorff space]] and let $A \subset X$ be a [[closed sub
 If a topological vector bundle $E \overset{p}{\to} X$ is such that its restriction $E\vert_A$
 is [[trivializable vector bundle|trivializable]], then $E$ is [[isomorphism|isomorphic]] to
 the [[pullback bundle]] $q^\ast E'$ of a topological vector bundle $E' \to X/A$
-over the [[quotient space]]..
+over the [[quotient space]].
 
 =--
 
@@ -2239,7 +2277,7 @@ Let
 
 $$
   A \times k^n
-    \overset{\phi}{\longrightarrow}
+    \underoverset{\simeq}{\phi}{\longrightarrow}
   E\vert_A
 $$
 
@@ -2247,7 +2285,7 @@ be an isomorphism of vector bundles over $A$, which exists by assumption.
 Consider then on the total space $E\vert_A$ the [[equivalence relation]] given by
 
 $$
-  \phi(x,v) \sim \phi(x',v)
+  \phi^{-1}(x,v) \sim \phi^{-1}(x',v)
 $$
 
 for all $x,x' \in A$ and $v \in k^n$. Let
@@ -2256,7 +2294,22 @@ $$
   E' \coloneqq E/\sim
 $$
 
-be the corresponding [[quotient topological space]]. Since the composite continuous function
+be the corresponding [[quotient topological space]]. Observe that for $x \in X$
+we have $E'_x = E_x$ while for $x \in A$ we have a canonical identification $E'_{x/A} \simeq k^n$,
+and over these points quotient coprojection is identified with $\phi^{-1}$:
+
+$$
+  \array{
+    E
+      &\overset{}{\longrightarrow}&
+    E'
+    \\
+    (x,v) &\mapsto& \left\{ \array{ (x,v) &\vert& x \in X \setminus A  \\ \phi^{-1}_x(v) &\vert& x\in A }  \right.
+  }
+  \,.
+$$
+
+Since the composite continuous function
 
 $$
   E \overset{p}{\longrightarrow} X \overset{q}{\longrightarrow} X/A
@@ -2283,7 +2336,19 @@ $$
   \,.
 $$
 
-In fact this is a [[pullback]] diagram, since $E \to E'$ is an isomorphism on each fiber, by construction.
+We claim that this is a [[pullback]] diagram in [[Top]]:
+
+By the above description of the top horizontal function, it is a pullback diagram
+of underlying sets. Hence we need to see that the topology on $E$
+has a [[base for a topology|base]] given by the pre-images
+of the open subsets in $X$ and in $E'$. Now by definition of the quotient space
+topology on $E'$, its open subsets are those of $E$ that either do not
+contain a point $(x,v)$ with $x \in A$ or if they do, then they also
+contain all the points of the form $(x', \phi_{x'}^{-1}(\phi_x(v)))$ for
+$x' \in A$. Moreover, if $(x,v)$ is in the open subset for $x \in A$,
+then also $(x,v')$ for all $v'$ in some open ball in $k^n$ containing $v$.
+Hence intersecing these pre-images with pre-images of open subsets of $X$ under $p$
+yields a basis for the topology.
 
 Hence it only remains to see that $E' \overset{p'}{\longrightarrow} X/A$ is a vector bundle. The
 fiberwise linearity is clear, we need to show that it is locally trivializable.
@@ -2292,11 +2357,11 @@ To that end, let $\{U_i \subset X\}_{i \in I}$ be an open cover over which $E \o
 has a local trivialization. Since $A \subset X$ is assumed to be closed, it follows that
 
 $$
-  \left\{ U_i \setminus A \subset X \setminus A\right\}_{i \jn I}
+  \left\{ U_i \setminus A \subset X \setminus A\right\}_{i \in I}
 $$
 
 is an open cover of the complement of $A$ in $X$. By the nature of the [[quotient space topology]], this
-induces an open cover of $X\setminus A$ if we adjoin the quotient $U/A$  of an open neighbourhood $U \subset X$ of $A$ in $X$,
+induces an open cover of $X\setminus A$. If we adjoin the quotient $U/A$  of an open neighbourhood $U \subset X$ of $A$ in $X$,
 then
 
 $$
@@ -2305,7 +2370,7 @@ $$
 
 is an open cover of $X/A$. Moreover, by the construction of $E' \overset{p'}{\to} X/A$ it is clear that
 this bundle has a local trivialization over $U_i$, since $E \overset{p}{\to} X$ does,
-and similarly $E''$ trivializes over $U/A$ if $X$ trivializes over $U$. But such a $U$ does indeed exist by
+and similarly $E'$ trivializes over $U/A$ if $E$ trivializes over $U$. But such a $U$ does indeed exist by
 lemma \ref{IsomorphismOfVectorBundlesOnClosedSubsetOfCompactHausdorffSpaceExtendsToOpenNeighbourhoods}.
 
 =--
@@ -2316,7 +2381,7 @@ lemma \ref{IsomorphismOfVectorBundlesOnClosedSubsetOfCompactHausdorffSpaceExtend
 
 Prop \ref{VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace} is the reason why [[reduced K-theory|reduced]] [[topological K-theory]]
 satisfies the [[long exact sequences in cohomology]] that make it a [[generalized (Eilenberg-Steenrod) cohomology theory]].
-See at _[[topological K-theory]]_
+See
 
 =--
 
