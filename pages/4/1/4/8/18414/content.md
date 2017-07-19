@@ -105,7 +105,7 @@ $$
   \mathrm{Aut}_{Cov(S^1)}(\mathbb{R}^1) \simeq \mathbb{Z}
   \,.
 $$
-
+#
 To that end, consider a [[homeomorphism]] of the form
 
 $$
@@ -232,6 +232,164 @@ This shows that $Aut_{Cov(S^1)}(\mathbb{R}^1) \simeq \mathbb{Z}$.
  {#ProofInHomotopyTypeTheory}
 
 There is also a purely synthetic a proof in [[homotopy type theory]] ([Licata-Shulman 13](#LicataShulman13), [UF, corollary 8.1.10](#UF)).
+
+
+## Consequences
+ {#Consequences}
+
+
++-- {: .num_example #CoveringOfCircleAndConjugacyClassesOfSymmetricGroup}
+###### Example
+**([[isomorphism classes]] of [[covering spaces|coverings]] of the circle are [[conjugacy classes]] in the [[symmetric group]])**
+
+The [[monodromy]] construction assigns to an [[isomorphism class]] of covering spaces
+over the [[circle]] $S^1$
+with [[fibers]] consisting of $n$ elements [[conjugacy classes]]
+of elements the [[symmetric group]] $\Sigma(n)$:
+
+$$
+  \left \{
+    \array{
+      \text{isomorphism classes of}
+      \\
+      \text{finite covering spaces }
+      \\
+      \text{over the circle}
+    }
+  \right\}
+   \;\simeq\;
+  \left\{
+    \array{
+      \text{conjugacy classes of}
+      \\
+      \text{elements of a symmetric group}
+    }
+  \right\}
+$$
+
+To see this, 
+we may without restriction (via [this prop.](groupoid#representation#GroupoidRepresentationsAreProductsOfGroupRepresentations)) choose a basepoint $x \in S^1$ so that
+a monodromy representation is equivalently a groupoid morphism of the form
+
+$$
+  \rho
+    \;\colon\;
+  B \mathbb{Z}
+    \overset{\simeq}{\longrightarrow}
+  B \pi_1(S^1,x)
+    \overset{\rho}{\longrightarrow}
+  Core(Set)
+  \,.
+$$
+
+Since $\mathbb{Z}$ is the [[free abelian group]] on a single generator, such as morphism
+is uniquely determined by the image of $1 \in \mathbb{Z}$. This is taken to some
+isomorphism of the set $p^{-1}(x)$. If we choose any identification $\phi \colon p^{-1}(x) \overset{\simeq}{\to} \{1, \cdots, n\}$,
+then this defines an element $\sigma \in \Sigma(n)$ in the [[symmetric group]]:
+
+$$
+  \array{
+    x &\mapsto&  p^{-1}(x) &\underoverset{\simeq}{\phi}{\longrightarrow}& \{1, \cdots, n\}
+    \\
+    {}^{\mathllap{1}}\downarrow && {}^{\mathllap{\rho(1)}}\downarrow && \downarrow^{\sigma}
+    \\
+    x &\mapsto& p^{-1}(x) &\underoverset{\phi}{\simeq}{\longrightarrow}& \{1, \cdots, n\}
+  }
+  \,.
+$$
+
+Now if
+
+$$
+  f \;\colon\; E_1 \overset{\simeq}{\longrightarrow} E_2
+$$
+
+is an isomorphism of covering spaces,
+then by the [[fundamental theorem of covering spaces]] this corresponds bijectively to a homomorphism of representations
+
+$$
+  Fib(f) \;\colon\; Fib_{E_1} \overset{\simeq}{\longrightarrow} Fib_{E_2}
+$$
+
+which in turn is by definition a homotopy (natural isomorphism) between the monodromy functors
+$Fib_{E_i} \;\colon\; B \mathbb{Z} \to Core(Set)$.
+
+The combination of the naturality square of this natural isomorphism with the above identification
+yields the following diagram
+
+$$
+  \array{
+    \{1,\cdots, n\}
+      &\overset{\phi_1^{-1}}{\longrightarrow}&
+    p_1^{-1}(x)
+      &\overset{f\vert_{\{x\}}}{\longrightarrow}&
+    p_2^{-1}(x)
+      &\overset{\phi_2}{\longrightarrow}&
+    \{1, \cdots, n\}
+    \\
+    {}^{\mathllap{\sigma_1}}
+    \downarrow
+      &&
+    {}^{\mathllap{ Fib_{E_1}(1) }}\downarrow
+      &&
+    \downarrow^{\mathrlap{ Fib_{E_2}(1) }}
+      &&
+    \downarrow^{\mathrlap{ \sigma_2 }}
+    \\
+    \{1,\cdots, n\}
+      &\underset{\phi_1^{-1}}{\longrightarrow}&
+    p_1^{-1}(x)
+      &\underset{f\vert_{\{x\}}}{\longrightarrow}&
+    p_2^{-1}(x)
+      &\underset{\phi_2}{\longrightarrow}&
+    \{1, \cdots, n\}
+  }
+  \,.
+$$
+
+The commutativity of the total rectangle says that the permutations $\sigma_1$ and $\sigma_2$ are related by conjugation
+with the element $\phi_2 \circ f\vert_{\{x\}}\circ \phi_1^{-1}$.
+
+=--
+
+
++-- {: .num_example }
+###### Example
+**(three-sheeted covers of the circle)**
+
+Consider the three-sheeted [[covering spaces]] of the [[circle]].
+
+By example \ref{CoveringOfCircleAndConjugacyClassesOfSymmetricGroup}
+these are, up to isomorphism, given by the [[conjugacy classes]] of the elements 
+of the [[symmetric group]] $\Sigma(3)$ on three elements. These in turn are labeled by the 
+[[cycle]] structure of the elements ([this prop.](symmetric+group#ConjugacycClassesOfSymmetricGroupCorrespondToCycleSet)).
+
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="150">
+</div>
+
+For the symmetric group on
+three elements there are three such classes
+
+$$
+  \array{
+    (1\; 2\; 3)
+    \\
+    (1 \; 2) (3)
+    \\
+    (1) (2) (3)
+    
+  }
+$$
+
+The corresponding covering spaces of the circle are shown in the graphics.
+
+> graphics grabbed from [Hatcher](homotopy+equivalence#Hatcher)
+
+=--
+
+
 
 ## References
 
