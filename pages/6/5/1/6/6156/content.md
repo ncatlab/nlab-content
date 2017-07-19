@@ -44,7 +44,7 @@ and, in a different way, in
 
 [[Michael Barr]]'s full exact embedding theorem for [[Barr exact categories]], proved in (?)
 
-* Michael Barr, _Embedding of categories_, Proc. Amer. Math. Soc. __37__, No. 1 (Jan., 1973), pp. 42-46, [jstor](http://www.jstor.org/stable/2038702)
+* Michael Barr, _Embedding of categories_, Proc. Amer. Math. Soc. __37__, No. 1 (Jan., 1973), pp. 42-46 ([jstor](http://www.jstor.org/stable/2038702), [pdf](http://www.math.mcgill.ca/barr/papers/embed.pdf))
 
 generalizes the Lubkin-Freyd-Mitchell embedding theorems for abelian categories. The Giraud's theorem for topoi is not much more than a special case of that theorem. 
 
