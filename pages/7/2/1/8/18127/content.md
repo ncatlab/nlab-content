@@ -4416,8 +4416,9 @@ This shows that $Aut_{Cov(S^1)}(\mathbb{R}^1) \simeq \mathbb{Z}$.
 =--
 
 
-+-- {: .num_example}
++-- {: .num_example #CoveringOfCircleAndConjugacyClassesOfSymmetricGroup}
 ###### Example
+**([[isomorphism classes]] of [[covering spaces|coverings]] of the circle are [[conjugacy classes]] in the [[symmetric group]])**
 
 The [[monodromy]] construction assigns to an [[isomorphism class]] of covering spaces
 over the [[circle]] $S^1$
@@ -4427,11 +4428,13 @@ of elements the [[symmetric group]] $\Sigma(n)$:
 $$
   \left \{
     \array{
+      \text{isomorphism classes of}
+      \\
       \text{finite covering spaces }
       \\
-      \text{over}\ S^1
+      \text{over the circle}
     }
-  \right\}/\sim_{\text{iso}}
+  \right\}
    \;\simeq\;
   \left\{
     \array{
@@ -4439,12 +4442,11 @@ $$
       \\
       \text{elements of a symmetric group}
     }
-  \right}
+  \right\}
 $$
 
-By prop. \ref{GroupoidRepresentationsAreProductsOfGroupRepresentations}
-we may without restriction choose a basepoint $x \in S^1$ so that
-a monodromy representation is equivalently a groupoid morphism
+To see this we may without restriction choose a basepoint $x \in S^1$ so that
+a monodromy representation is equivalently a groupoid morphism of the form (prop. \ref{GroupoidRepresentationsAreProductsOfGroupRepresentations})
 
 $$
   \rho
@@ -4480,14 +4482,14 @@ $$
 $$
 
 is an isomorphism of covering spaces,
-then by prop. \ref{FunctorialExtractingHomotopy} and prop. \ref{FundamentalTheoremOfCoveringSpaces}
+then by the [[fundamental theorem of covering spaces]] (prop.  \ref{FundamentalTheoremOfCoveringSpaces})
 this corresponds bijectively to a homomorphism of representations
 
 $$
   Fib(f) \;\colon\; Fib_{E_1} \overset{\simeq}{\longrightarrow} Fib_{E_2}
 $$
 
-which is b definition a homotopy (natural isomorphism) between the monodromy functors
+which in turn is by definition a homotopy (natural isomorphism) between the monodromy functors
 $Fib_{E_i} \;\colon\; B \mathbb{Z} \to Core(Set)$.
 
 The combination of the naturality square of this natural isomorphism with the above identification
@@ -4523,7 +4525,8 @@ $$
   \,.
 $$
 
-In conclusion this means that the two permutations $\sigma_1$ and $\sigma_2$ are related by conjugation.
+The commutativity of the total rectangle says that the permutations $\sigma_1$ and $\sigma_2$ are related by conjugation
+with the element $\phi_2 \circ f\vert_{\{x\}} \circ \phi_1^{-1}$.
 
 =--
 
@@ -4532,14 +4535,33 @@ In conclusion this means that the two permutations $\sigma_1$ and $\sigma_2$ are
 ###### Example
 **(three-sheeted covers of the circle)**
 
+Consider the three-sheeted [[covering spaces]] of the [[circle]].
+
+By example \ref{CoveringOfCircleAndConjugacyClassesOfSymmetricGroup}
+these are, up to isomorphism, given by the [[conjugacy classes]] of the elements
+of the [[symmetric group]] $\Sigma(3)$ on three elements. These in turn are labeled by the
+[[cycle]] structure of the elements ([this prop.](symmetric+group#ConjugacycClassesOfSymmetricGroupCorrespondToCycleSet)).
+
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="150">
 </div>
 
-There are, up to [[isomorphism]], three different 3-sheeted [[covering spaces]] of the [[circle]] $S^1$.
+For the symmetric group on
+three elements there are three such classes
 
-The one from example \ref{kForlCovringOfCircle} for $k = 3$. Another one. And the trivial one.
-Their corresponding [[permutation actions]] according to def. \ref{CoveringSpaceMonodromy} may be seen from the pictures on the right.
+$$
+  \array{
+    (1\; 2\; 3)
+    \\
+    (1 \; 2) (3)
+    \\
+    (1) (2) (3)
+
+  }
+$$
+
+The corresponding covering spaces of the circle are shown in the graphics.
+
 > graphics grabbed from [Hatcher](homotopy+equivalence#Hatcher)
 
 =--
