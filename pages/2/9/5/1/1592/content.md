@@ -94,7 +94,7 @@ Then a [[path-connected topological space|path-connected]] and [[simply connecte
 
 +-- {: .num_prop #ReconstructCoveringForFreeAndTransitiveMonodromyRepresentation}
 ###### Proposition
-**(universal covering space reconstructed from free and transitive monodromy representation)**
+**([[universal covering space]] reconstructed from [[free action|free]] and [[tansitive action|transitive]] [[fundamental group]] [[representation]])**
 
 Let $X$ be a topological space which is _[[well-connected space|well-connected]]_ in that it is
 
