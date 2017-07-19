@@ -68,6 +68,8 @@ Then
 
 * [[unit of an adjunction]]
 
+* [[mate]] 
+
 * **adjunct**
 
 [[!redirects adjuncts]]
