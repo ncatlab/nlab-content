@@ -1,5 +1,10 @@
-If
+# Contents 
+* table of contents
+{:toc} 
 
+## Fillers of commutative squares 
+
+If
 
 $$ \array {
 O_{0,1} & \overset{f_1}{\longrightarrow} & O_{1,1} \\
@@ -8,21 +13,23 @@ O_{0,0} & \overset{f_0}{\longrightarrow} & O_{1,0} \\
 }
 $$
 
-is a commutative diagram in a category $\mathcal{C}$, then a _filler_  (synonyms:  _diagonal fill-in_ , [[lift]]) is:
+is a commutative diagram in a category $\mathcal{C}$, then a _filler_ (synonyms:  *diagonal fill-in*, [[lift]]) is:
 
 * morphism $j\colon O_{0,0}\rightarrow O_{1,1}$ in $\mathcal{C}$ making both triangles created commute. 
 (That is, $f_0 = h_1 j$ and $f_1 = j h_0$.)
 
-In certain contexts, the above commutative square is called a _lifting problem_.
+In certain contexts, the problem of whether there exists a filler in this sense is called a *lifting problem*.
 
-If $j$ is uniquely determined (in an appropriate sense), then $h_0$ is said to be _orthogonal_ to $h_1$
+If $j$ is uniquely determined (in an appropriate sense), then $h_0$ is said to be _orthogonal_ to $h_1$: see [[orthogonality]]. 
 
-This concept plays an important role in homotopy theory.
+The concept of filler plays an important role in homotopy theory; see for example [[model category]]. 
 
-The term is used in the context of [[horn]]s in simplicial sets and related structures. The term makes it possible to summarize the definition of a [[Kan complex]] in one sentence: a Kan complex is a simplicial set in which every horn has a filler. 
+## Horn fillers for simplicial sets 
+
+The term is used in the context of [[horns]] in simplicial sets and related structures. The term makes it possible to summarize the definition of a [[Kan complex]] in one sentence: a Kan complex is a simplicial set in which every horn has a filler. 
 
 
-Related: 
+## Related concepts  
 
 [[factorization system]]
 
