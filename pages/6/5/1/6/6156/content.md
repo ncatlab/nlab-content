@@ -1,14 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * toc
 {: toc}
 
-[[Barr]] proved a theorem about embedding [[regular categories]] into categories of [[small presheaves]], and also a strengthening for [[Barr exact categories]].
+[[Barr]] proved a theorem about [[embedding of categories|embedding]] [[regular categories]] into [[presheaf category|categories of]] [[small presheaves]], and also a strengthening for [[Barr exact categories]].
 
 ## Idea  
 
 Barr's embedding theorem has the classical form of many embedding[^note] theorems in mathematics: if a structure $\mathcal{C}$ has certain good properties, then it admits an embedding with certain other good properties into another structure $\mathcal{D}$ which is somehow more explicit than $\mathcal{C}$.
 
-[^note]: In category theory, an _embedding_ usually means a functor which is _injective on morphisms_. (This obviously implies both [[faithful]] and _injective on objects_.) 
 
 For example, 
 
