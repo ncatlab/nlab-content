@@ -59,7 +59,7 @@ Finally, we can express this more compactly by writing $\pi$ in cycle form, as t
 ###### Proposition
 
 Let $n \in \mathbb{N}$ and $\Sigma(n)$ the [[symmetric group]]
-on $n$ elements. Then the [[conjugacy classes]] of elements of $\Sigma(n)$, hence of permutations of $n$ elements, correspond to the [[cycle]] structures: two elements are conjugate to each other precisely if they have the same number of distinct cycles of the same length, or in other words if they define the same [[partition]] of $n$.
+on $n$ elements. Then the [[conjugacy classes]] of elements of $\Sigma(n)$, hence of permutations of $n$ elements, correspond to the [[cycle]] structures: two elements are conjugate to each other precisely if they have the same number of distinct cycles of the same length, or in other words if they define the same underlying [[partition]] of $n$.
 
 =--
 
@@ -70,12 +70,12 @@ on $n$ elements. Then the [[conjugacy classes]] of elements of $\Sigma(n)$, henc
 For the symmetric group on three elements there are three such classes:
 
 <div>
-<div style="float:left">
- <div>(1 2 3)</div>
- <div>(1 2)(3)</div>
+<div style="float:left;width:30%;margin:10%">
+ <div style="padding-bottom:20px">(1 2 3) ~ (1 3 2)</div>
+ <div style="padding-bottom:20px">(1 2)(3) ~ (1 3)(2) ~ (1)(2 3)</div>
  <div>(1)(2)(3)</div>
 </div>
-<div style="float:left">
+<div style="float:left;width:20%">
 <div>
  <svg width="80" height="40" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
  <desc>Young diagram (3)</desc>
@@ -110,12 +110,14 @@ For the symmetric group on three elements there are three such classes:
  </svg>
 </div>
 </div>
-<div style="float:left">
+<div style="float:left;width:20%">
 <img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="100">
 </div>
 </div>
 
 =--
+
+<div style="width:200px;height:30px"></div>
 
 $\,$
 
