@@ -117,6 +117,20 @@ For the symmetric group on three elements there are three such classes:
 
 =--
 
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
 ### Relation to the field with one element
 
 One may regard the symmetric group $S_n$ as the [[general linear group]] in dimension $n$ on the [[field with one element]]  $GL(n,\mathbb{F}_1)$.
