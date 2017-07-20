@@ -292,14 +292,16 @@ that takes a set $S$ to the $S$-fold coproduct $S \cdot I$, where $I$ is the mon
 
 * In still other directions, there are for example notions of [[cyclic operad]] and [[modular operad]]. 
 
-* Some authors give a special status to **non-unitary** operads, which contain no nullary operations (see Chapter 1 of [(Fresse, HOGTG I)](#FresseHOGTG)).
-For example, the original [[associahedron|associahedral operad]] of [[James D. Stasheff|Stasheff]] is an example of a non-unitary operad, and [(Markl, Shnider, and Stasheff)](#MarklShniderStasheff) even _define_ "operad" to mean non-unitary operad.
-
-* Finally, it is sometimes useful to consider an alternative definition of operad based on "partial" composition operations
+* It is sometimes useful to consider an alternative definition of operad based on "partial" composition operations
 $$sub_i: C(m) \times C(n) \to C(m+n-1)$$ 
 which encode the idea of substituting an $n$-ary operation into the $i-th$ argument of an $m$-ary operation, to get an $(m+n-1)$-ary operation. 
-For example, this notion of composition allows the consideration of operads without identity operations (called "pseudo-operads" by [(Markl, Shnider, and Stasheff)](#MarklShniderStasheff)).
-In the presence of identity operations, the two forms of operadic composition are mutually definable (see Chapter 2 of [(Fresse, HOGTG I)](#FresseHOGTG)).
+For example, this notion of composition allows the consideration of [[non-unital operad]]s without identity operations (called "pseudo-operads" by [(Markl, Shnider, and Stasheff)](#MarklShniderStasheff)).
+On the other hand, in the presence of identity operations, the two forms of operadic composition are mutually definable (see Chapter 2 of [(Fresse, HOGTG I)](#FresseHOGTG)).
+
+* Finally, some authors give a special status to **non-unitary** operads, which are operads containing no nullary operations (see Chapter 1 of [(Fresse, HOGTG I)](#FresseHOGTG)).
+For example, [(Markl, Shnider, and Stasheff)](#MarklShniderStasheff) _define_ "operad" to mean non-unitary operad.
+Non-unitary operads (which have no nullary operations) should not be confused with non-unital operads (which have no identity operation).
+On the other hand, note that the original definition of the [[associahedron|associahedral operad]] due to [[James D. Stasheff|Stasheff]] is an example of an operad which is both non-unital and non-unitary.
 
 ## The monad attached to an operad 
 
