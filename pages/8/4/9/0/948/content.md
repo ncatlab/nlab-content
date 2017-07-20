@@ -23,7 +23,7 @@
 
 ## Idea
 
-Broadly speaking, __constructive mathematics__ is [[mathematics]] done without the [[principle of excluded middle]], or other principles, such as the full [[axiom of choice]], that imply it, hence without "non-contructive" methods of [[formal proof]], such as [[proof by contradiction]]. This in in contast to _[[classical mathematics]]_, where such principles are taken to hold.
+Broadly speaking, __constructive mathematics__ is [[mathematics]] done without the [[principle of excluded middle]], or other principles, such as the full [[axiom of choice]], that imply it, hence without "non-constructive" methods of [[formal proof]], such as [[proof by contradiction]]. This is in contrast to _[[classical mathematics]]_, where such principles are taken to hold.
 
 There are variations of what exactly is regarded as constructive mathematics, for instance [[intuitionistic mathematics|intuitionism]] or [[predicative mathematics|predicativism]], see the list of schools [below](#OriginsAndSchools). But beware the ambiguity in terminology: In [[Brouwer]]-style [[intuitionistic mathematics]] one includes [[axioms]] that _[[contradiction|contradict]]_ [[classical logic]], while other authors use "intuitionistic" to mean what elsewhere is called "constructive", and referring only to rejection of [[excluded middle]] and [[axiom of choice|choice]]. Some authors (particularly [[material set theory|material set theorists]]) use "constructive" to mean *[[predicative]]* constructive and "intuitionistic" to mean impredicative constructive. 
 Other authors emphasize the necessity that constructive theories be [[proof relevance|proof relevant]], with denial of the excluded middle's universality subordinate to this requirement; see ([Harper 2013](#Harper13)).
