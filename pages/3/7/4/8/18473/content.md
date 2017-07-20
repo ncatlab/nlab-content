@@ -28,31 +28,51 @@ In this article we survey the various notions of categorical embedding that have
 
 ## Definitions 
 
-A "pure" *1-categorical* notion of embedding is as follows. 
+### 1-categorical definitions
 
-+-- {: .num_defn} 
-###### Definition 
-An *embedding* of a category $C$ into a category $D$ is a [[functor]] $F: C \to D$ whose application to morphisms is an [[injective function]] $Mor(C) \to Mor(D)$. 
-=-- 
+Perhaps the most obvious 1-categorical definition of embedding is:
 
-This definition is adopted in [Adamek-Herrlich-Strecker](#AHS) and in [Riehl](#Riehl), for example. In this definition we accept that categories are [[strict categories]], where objects can be compared for [[equality]]. It follows that if $F(c) = F(c')$ for objects $c, c'$ of $C$, then $F(1_c) = F(1_{c'})$ and thus $1_c = 1_{c'}$ by injectivity on morphisms, whence $c = c'$. Thus, embeddings in this sense necessarily yield injective functions $Ob(C) \to Ob(D)$ on the object classes. 
+* a [[functor]] $F: C \to D$ that is both injective on objects and a [[faithful functor]].
 
-Embeddings in this sense are straightforwardly the same thing as [[monomorphisms]] in the $1$-category [[Cat]]. They are also the same as [[faithful functors]] which are injective on objects. 
+This definition is adopted in [Adamek-Herrlich-Strecker](#AHS) and in [Riehl](#Riehl), for example.  In this definition we accept that categories are [[strict categories]], where objects can be compared for [[equality]].  Embeddings in this sense are straightforwardly the same thing as [[monomorphisms]] in the $1$-category [[Cat]].
 
-A *full embedding* in this sense is an embedding that is also a [[full functor]]. 
+If we define categories with [one collection of morphisms](/nlab/show/category#OneCollectionOfMorphisms), then this definition is equivalent to saying that the action of $F$ on morphisms is an [[injective function]] $Mor(C) \to Mor(D)$.  In particular, if this latter condition holds and $F(c) = F(c')$ for objects $c, c'$ of $C$, then $F(1_c) = F(1_{c'})$ and thus $1_c = 1_{c'}$ by injectivity on morphisms, whence $c = c'$.
 
-On the other hand, a "pure" *2-categorical* notion of embedding as follows. 
+However, as noted above, in many cases an "embedding" means something *stronger* than a mere monomorphism, being required to reflect "all the structure".  For instance, an embedding of [[topological spaces]] is a subspace inclusion, not merely an injective continuous map (the latter being the monos in [[Top]]).
 
-+-- {: .num_defn} 
-###### Definition 
-An *embedding* of a category $C$ into a category $D$ is a [[fully faithful functor]] $F: C \to D$. 
-=-- 
+In particular, the above definition of embedding does not even reflect the property of objects being isomorphic, so that it is not necessarily injective on isomorphism classes of objects!  This suggests that a (still 1-categorical) embedding of categories ought to be something stronger.  Some possibilities include:
+
+* The [[regular monomorphisms]] or [[extremal monomorphisms]] in [[Cat]] (what are those?)
+* Monomorphisms in $Cat$ that are also [[full functors]], hence [[fully faithful functors]].  These are sometimes called **full embeddings**.
+* Monomorphisms in $Cat$ that are also injective on isomorphism classes of objects (this is used in [[Toposes, Triples, and Theories]]), or more strongly that are also [[pseudomonic functors]].
+
+### 2-categorical definitions
+
+Most of the above 1-categorical notions of embedding corresponds to a "pure" 2-categorical notion by simply removing the injectivity on objects.  Thus we have the following candidates:
+
+* [[faithful functors]]
+* [[fully faithful functors]]
+* [[pseudomonic functors]]
+
+The choice between these is closely related to the question of giving an equivalence-invariant notion of [[subcategory]].
+
+### Relationship
+
+Every fully faithful functor is *equivalent* to one that is fully faithful and injective on objects.  Let $f:C\to D$ be fully faithful, and let $E$ be the "mapping cylinder" category, whose objects are the disjoint unions of those of $C$ and $D$, with $C$ and $D$ embedded fully-faithfully (and of course injectively on objects), and $E(c,d) = D(f c,d)$ and $E(d,c) = D(d,f c)$.  Full-faithfulness of $f$ allow us to compose all arrows in $E$ making it a category.  There is a projection $E\to D$ that is the identity on $D$ and acts by $f$ on $C$, and which is an inverse equivalence to the inclusion $D\to E$.  Thus, $f:C\to D$ is equivalent, in the 2-category whose objects are functors and whose morphisms are pseudo-commutative squares, to the inclusion functor $C\to E$, which is fully faithful and injective on objects.
+
+## Examples
+
+### The Yoneda embedding
+
+Probably the most common embedding of categories encountered is the [[Yoneda embedding]].  This is fully faithful, but whether or not it is always injective on objects depends on set-theoretic details of how we define categories.  If we use a definition of category with [a family of collections of morphisms](/nlab/show/category#AFamilyOfCollectionsOfMorphisms), then it might happen that two distinct (but necessarily isomorphic) objects $x$ and $y$ have $C(z,x) = C(z,y)$ as sets for all $z\in C$, so that the Yoneda embedding would take $x$ and $y$ to literally the same presheaf.  (Such an equality of hom-sets is not as weird as it might sound; for instance, when regarding a [[preordered set]] as a category it's natural to define every nonempty homset to be the *same* [[terminal set]].)
 
 ## Related concepts
 
 * [[Barr embedding theorem]]
 
 * [[embedding]] 
+
+* [[subcategory]]
 
 ## References 
 
