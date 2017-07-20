@@ -680,7 +680,17 @@ First observe that if $\gamma'$ is related to $\gamma$ by a [[homotopy]], so tha
 
 Next write $\bar\gamma'\cdot \gamma$ for the [[path concatenation]] of the path $\gamma$ with the [[reverse path]] of the path $\gamma'$, hence a loop in $Y$, so that $f \circ (\bar\gamma'\cdot \gamma)$ is a loop in $X$. The assumption that $f_\ast(\pi_1(Y,y)) \subset p_\ast(\pi_1(E,e))$ implies (example \ref{IfFundamentalGroupsIncludeThenfLoopsLiftToLoops}) that the path $\widehat{f \circ (\bar \gamma' \cdot \gamma)}$ which lifts this loop to $E$ is itself a loop in $E$.
 
-By uniqueness of path lifting, this means that the lift of $f \circ ( \gamma' \cdot (\bar\gamma' \cdot \gamma) )$ coincides with that of $f \circ \gamma'$. But $\bar \gamma' \cdot (\gamma' \cdot \gamma)$ is homotopic (via reparameterization) to just $\gamma$. Hence it follows now with the first statement that the lift of $f \circ \gamma'$ indeed coincides with that of $f \circ \gamma$.
+
+By uniqueness of path lifting, this means that the lift of 
+
+$$
+  f \circ ( \gamma' \cdot (\bar\gamma' \cdot \gamma) )
+  =
+  (f \circ \gamma') \cdot (f \circ (\bar \gamma' \cdot \gamma) )
+$$ 
+
+coincides 
+at $1 \in [0,1]$ with that of $f \circ \gamma'$ at 1. But $\gamma' \cdot (\bar \gamma' \cdot \gamma)$ is homotopic (via reparameterization) to just $\gamma$. Hence it follows now with the first statement that the lift of $f \circ \gamma'$ indeed coincides with that of $f \circ \gamma$.
 
 This shows that the above prescription for $\hat f$ is well defined. 
 
