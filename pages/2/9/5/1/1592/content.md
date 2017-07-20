@@ -74,7 +74,7 @@ $$
 
 and that these are _unique_ once we specify the image of a single point, which we may freely do (in the given fiber).
 
-So if we pick any point $x \in X$ and $\hat x_1 \in E_1$ with $p(\hat x = x)$ and $\hat x_2 \in E_2$ with $p(\hat x_2) = x$ and specify that $f(\hat x_1) = \hat x_2$ and $g(\hat x_2) = \hat x_1$ then uniqueness applied to the composites implies $f \circ g = id_{E_{2}}$ and $g \circ f = id_{E_1}$. 
+So if we pick any point $x \in X$ and $\hat x_1 \in E_1$ with $p(\hat x) = x$ and $\hat x_2 \in E_2$ with $p(\hat x_2) = x$ and specify that $f(\hat x_1) = \hat x_2$ and $g(\hat x_2) = \hat x_1$ then uniqueness applied to the composites implies $f \circ g = id_{E_{2}}$ and $g \circ f = id_{E_1}$. 
 
 =--
 
@@ -94,7 +94,7 @@ Then a [[path-connected topological space|path-connected]] and [[simply connecte
 
 +-- {: .num_prop #ReconstructCoveringForFreeAndTransitiveMonodromyRepresentation}
 ###### Proposition
-**([[universal covering space]] reconstructed from [[free action|free]] and [[tansitive action|transitive]] [[fundamental group]] [[representation]])**
+**([[universal covering space]] reconstructed from [[free action|free]] and [[transitive action|transitive]] [[fundamental group]] [[representation]])**
 
 Let $X$ be a topological space which is _[[well-connected space|well-connected]]_ in that it is
 
