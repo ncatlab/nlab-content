@@ -8,15 +8,18 @@
 
 ***
 
-This page is a detailed introduction to basic [[topological homotopy theory|topological]] [[homotopy theory]].
-We introduce the [[fundamental group]] of [[topological spaces]] and the concept of
-[[covering spaces]]. Then we prove the [[fundamental theorem of covering spaces]], saying that
-they are equivalent to [[permutation representations]] of the fundamental group. This is
+This page is an introduction to basic [[topological homotopy theory|topological]] [[homotopy theory]].
+We introduce the concept of [[homotopy]] between [[continuous functions]] and the induced concept
+of [[homotopy equivalence]] of [[topological spaces]].
+Homotopy classes of paths form the _[[fundamental groupoid]]_ of a topological space, the 
+first step in extracting combinatorial data in homotopy theory. We use this example to introduce
+[[groupoids]] and their [[homotopy theory]] in general and mention that this models the homotopy theory
+of those topological spaces that are [[homotopy 1-types]]. Then we discuss the concept of [[covering spaces]]
+and use groupoids to give a simple proof of the [[fundamental theorem of covering spaces]], which says that these  are euivalent
+to permutation representations of the fundamental groupoid.  This is
 a simple topological version of the general principle of _[[Galois theory]]_ and has many
 applications. As one example application, we use it to prove that the [[fundamental group of the circle is the integers]].
 
-
-> Under construction.
 
 $\,$
 
@@ -3556,7 +3559,7 @@ if the total space $E$ is a [[simply connected topological space]] (def. \ref{Si
 
 =--
 
-It makes sense to speak of _[[generalized the|the]]_ universal covering space, because any two 
+It makes sense to speak of _[[generalized the|the]]_ universal covering space, because any two
 are isomorphic:
 
 +-- {: .num_prop #UniversalCoveringSpaceUniqueUpToIsomorphism}
@@ -3614,7 +3617,7 @@ So if we pick any point $x \in X$ and $\hat x_1 \in E_1$ with $p(\hat x) = x$ an
 ###### Example
 **([[universal covering space]] of the [[circle]])**
 
-The [[real line]], which is simply connected by example \ref{SimplyConnectedEuclideanSpace}, 
+The [[real line]], which is simply connected by example \ref{SimplyConnectedEuclideanSpace},
 equipped with the projection from example \ref{CoveringOfCircleByRealLine}
 
 $$
@@ -3622,7 +3625,7 @@ $$
 $$
 
 is [[generalized the|the]] (prop. \ref{UniversalCoveringSpaceUniqueUpToIsomorphism}) [[universal covering space]]
-of the [[circle]]. 
+of the [[circle]].
 =--
 
 
@@ -3967,8 +3970,8 @@ $$
   Fib_{E_1}([\gamma]) \;\colon\; e \mapsto \hat \gamma(1)
 $$
 
-Since the function $f$ is compatible with the 
-covering projections, the image $f\circ \hat \gamma$ is a lift of $\gamma$ to $E_2$, 
+Since the function $f$ is compatible with the
+covering projections, the image $f\circ \hat \gamma$ is a lift of $\gamma$ to $E_2$,
 with $(f \circ \hat \gamma)(0) = f(\hat \gamma(0)) = f(e)$.
 Therefore
 
@@ -4423,7 +4426,7 @@ and the isomorphism is given by assigning [[winding number]].
 </div>
 
 By example \ref{UniversalCoveringRealLineOfCircle},
-the [[universal covering space]] $\widehat{S^1}$ of $S^1$ is the [[real line]] 
+the [[universal covering space]] $\widehat{S^1}$ of $S^1$ is the [[real line]]
 
 $$
   p \coloneqq (cos(2 \pi(-)), \sin(2 \pi(-)))
