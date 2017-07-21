@@ -21,9 +21,10 @@ In [[topology]], a (parametrised, oriented) __path__ in a [[space]] $X$ is a map
 A __path from $a$ to $b$__ is a path $f$ such that $f(0) = a$ and $f(1) = b$.  
 An __unparametrised path__ is an [[equivalence class]] of paths, such that $f$ and $g$ are equivalent if there is an [[monotone function|increasing]] [[automorphism]] $\phi$ of $\mathbb{I}$ such that $g = f \circ \phi$.  An __unoriented path__ is an equivalence class of paths such that $f$ is equivalent to $(x \mapsto f(1 - x))$.  
 
-If $P$ is a path, then its __reverse path__[^1], denoted $P^-$, is defined to be the composite $P \circ ( t\mapsto 1-t )$.
+If $P$ is a path, then its __reverse path__[^1], denoted $\overline{P}$, is defined to be the composite $P \circ ( t\mapsto 1-t )$. 
+The operation $\overline{\cdot}$ is called _path reversal_.
 
-[^1]: Cf. e.g. [Section 2.1](#tomDieck2008); beware that that reference, like many others, uses the synonym "inverse path", even though there is no "canonical" group in which $P^-$ would be a *strict* inverse, and that it uses $a$ and $b$ for the endpoints of the _interval_, not the endpoints of the paths in the space $X$, and that the 2008 edition has a typo: " $w(1-t)$ " in loc. cit., when   *inverse path* gets defined, should be $u(1-t)$.
+[^1]: Cf. e.g. [[Introduction to Topology -- 2]], or also [Section 2.1](#tomDieck2008); beware that that reference, (0) like many others, uses the synonym "inverse path", even though there is no "canonical" group in which $\overline{P}$ would be a *strict* inverse, and (1) that it uses $a$ and $b$ for the endpoints of the _interval_, not the endpoints of the paths in the space $X$, and (2) that it uses $P^-$ instead of $\overline{P}$, which however is less suited for notational iterating (compare $\overline{\overline{P}}=P$ with $(P^-)^-=P$), and that (3)  the 2008 edition has a typo: " $w(1-t)$ " in loc. cit., when   *inverse path* gets defined, should be $u(1-t)$.
 
 A __Moore path__ is defined like a path, except for having another domain: replace $[0,1]$ with the interval $[0,n]$ for some [[natural number]] (or, more commonly, any non-negative [[real number]]) $n$.  All of these variations can be combined, of course.  (For unoriented paths, one usually says 'between $a$ and $b$' instead of 'from $a$ to $b$'.  Also, a Moore path from $a$ to $b$ has $f(n) = b$ instead of $f(1) = b$.  Finally, there is not much difference between unparametrised paths and unparametrised Moore paths, since we may interpret $(t \mapsto n t)$ as a reparametrisation $\phi$.)
 
