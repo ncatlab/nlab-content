@@ -36,11 +36,9 @@ The above is actually a complete definition, but here we spell it out.
 
 Let $X$ and $Y$ be objects of a [[category]] $C$ such that all binary [[product]]s with $Y$ exist.  (Usually, $C$ actually has all binary products.)  Then an __exponential object__ is an object $X^Y$ equipped with an __[[evaluation map]]__ $ev: X^Y \times Y \to X$ which is universal in the sense that, given any object $Z$ and map $e: Z \times Y \to X$, there exists a unique map $u: Z \to X^Y$ such that
 $$ Z \times Y \stackrel{u \times id_Y}\to X^Y \times Y \stackrel{ev}\to X $$
-equals $e$. (The map $u$ is known by various names, e.g. the _exponential transpose_ or *[[currying]]* of $e$ and, sometimes, denoted[^1] $\lambda(e)$ .)
+equals $e$.
 
-
-[^1]: Cf. e.g. T. Streicher, Introduction to Category Theory and Categorical Logic, Lecture Notes, TU-Darmstadt, 2003. It is also, rarely, denoted $e^{\flat}$, which is  read "e flat" (cf. the staff notation used in contemporary music). 
-There are reasons for both notations: $\lambda(e)$ is a hat tip to the [[lambda-calculus]], in which currying plays a central role, while $e^\flat$ is in tune with a formalism sometimes used to denote [[adjuncts]]: since the endofunctor $(-)^Y$ is right-adjoint to $(-)\times Y$, the morphism $e^\flat=\lambda(e)=u$ (cf. above for $u$) is the adjunct of $e$ .
+The map $u$ is known by various names, such as the _exponential transpose_ or *[[currying]]* of $e$.  It is sometimes denoted $\lambda(e)$ in a hat tip to the [[lambda-calculus]], since in the [[internal logic]] of a cartesian closed category this is the operation corresponding to $\lambda$-abstraction.  It is also sometimes denoted $e^\flat$, being an instance of the more general notion of [[adjunct]] or [[mate]].
 
 As with other [[universal construction]]s, an exponential object, if any exists, is [[generalized the|unique up to unique isomorphism]].  It can also be characterized as a [[distributivity pullback]].
 
