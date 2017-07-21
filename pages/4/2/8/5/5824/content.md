@@ -26,16 +26,16 @@ In [[category theory]], the _pasting law_ is a statement about (de-)composition 
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[category]] or more generally an [[(∞,1)-category]]. Consider a [[commuting diagram]] in $\mathcal{C}$ of the following shape:
+Let $\mathcal{C}$ be a [[category]] or more generally an [[(∞,1)-category]] or [[derivator]]. Consider a [[commuting diagram]] in $\mathcal{C}$ of the following shape:
 
 
 $$
   \array{
-    & \longrightarrow && \longrightarrow
+    x & \longrightarrow & y & \longrightarrow & z
     \\
     \downarrow && \downarrow && \downarrow
     \\
-    & \longrightarrow && \longrightarrow    
+    u & \longrightarrow & v & \longrightarrow & w
   }
 $$
 
@@ -56,56 +56,43 @@ For **proof** see
 
 ## Related statements
 
-+-- {: .num_prop}
-###### Proposition
-**Outer square being a pullback implies left-hand square being a pullback, in the presence of a jointly monic span.**
-
-If 
-
-
-$$\array{
-O_{0,1} & \overset{f_{1,1}}{\to} & O_{1,1} & \overset{f_{2,1}}{\to} & O_{2,1} &  & &  & \\
-\downarrow h_0 &&\downarrow h_1 &&\downarrow h_2 &&  &&  \\
-O_{0,0} & \overset{f_{1,0}}{\to} & O_{1,0} & \overset{f_{2,0}}{\to} & O_{2,0}  & &  & 
-}$$
-
-is a commutative diagram in any category $\mathcal{C}$ such that 
-
-*  the square consisting of $h_0$, $h_2$, $f_{2,1}\circ f_{1,1}$,  $f_{2,0}\circ f_{1,0}$ is a pullback in $\mathcal{C}$
-* for all morphisms $g_1$ and $g_2$ with $cod(g_i)=O_{1,1}$: 
-
- ${}\qquad$ ( $f_{2,1}\circ g_1 = f_{2,1}\circ g_2$ and  $h_1\circ g_1 = h_1 \circ g_2$) implies ($g_1=g_2$) 
-
-Then 
-
-* the square consisting of $h_0$, $h_1$, $f_{1,0}$, $f_{1,1}$ is a pullback in $\mathcal{C}$
-
-=--
-
+In general, the implications in the above result do require the hypothesis (e.g. in the pullback case that the right square is a pullback).  However, in some cases this can be omitted.
 
 +-- {: .num_prop}
 ###### Proposition
-**An equalizer diagram implying an equalizer diagram, via monos and a pullback square.**
+Suppose we have a diagram of the above shape
 
-Suppose $\mathcal{C}$ is any [[category]] with [[equalizers]]. 
-Suppose 
+$$
+  \array{
+    x & \longrightarrow & y & \longrightarrow & z
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    u & \longrightarrow & v & \longrightarrow & w
+  }
+$$
 
-$$\array{
-O_{0,1} & \to & O_{1,1} & \underoverset{\quad {}_0f_{1} \quad}{{}_1f_{1}}{\rightrightarrows} & O_{2,1} &  & &  & \\
-\downarrow m_0 &&\downarrow m_1 &&\downarrow m_2 &&  &&  \\
-O_{0,0} & \to & O_{1,0} & \underoverset{\quad {}_0f_{0} \quad}{ {}_1f_{0} }{\rightrightarrows} & O_{2,0}  & &  & 
-}$$
-
-is a diagram in $\mathcal{C}$ in which 
-
-* * each of $m_0$,$m_1$, $m_2$ is monic
-* * the squares on the right are serially commutative 
-* * the lower row is an equalizer
-
-Then 
-
-* * the upper row is an equalizer iff the left square is a pullback. 
-
-
+in which the total rectangle (consisting of $x,z,u,w$) is a pullback, and moreover the induced map $y\to v\times z$ is a [[monomorphism]].  Then the left-hand square (consisting of $x,y,u,v$) is also a pullback.
 =--
 
+Another related statement involves a pair of rectangles and equalizers.
+
++-- {: .num_prop}
+###### Proposition
+Suppose $\mathcal{C}$ is any [[category]] with [[equalizers]] and that we have a diagram of the following shape:
+
+$$
+  \array{
+    x & \longrightarrow & y & \rightrightarrows & z
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    u & \longrightarrow & v & \rightrightarrows & w
+  }
+$$
+
+such that the vertical arrows are all monic, the squares on the right are serially commutative, and the lower row is an equalizer.  Then the upper row is an equalizer if and only if the left square is a pullback.
+=--
+
+[[!redirects pasting law for pullbacks]]
+[[!redirects pasting law for pushouts]]
