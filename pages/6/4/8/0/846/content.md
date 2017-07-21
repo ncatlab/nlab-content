@@ -382,7 +382,7 @@ $$
   (S \star S')(-)
   :=
   \int^{[i],[j] \in \Delta_a}
-    (S_i \times S'_j) \times Hom_{\Delta_a}(-,[i] \boxplus [j])
+    (S_i \times S'_j) \times Hom_{\Delta_a}([i] \boxplus [j],-)
   \,.
 $$
 
