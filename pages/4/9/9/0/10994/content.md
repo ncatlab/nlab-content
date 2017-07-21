@@ -2,11 +2,7 @@ The term _arrow_ is sometimes used as a synonym for _[[morphism]]_, _[[map]]_, a
 
 In [[computer science]] it may also refer to a concept generalizing [[monad (in computer science)|monads]], see at _[[arrow (in computer science)]]_.
 
-Abbreviations for the class of all arrows of a category $\mathsf{C}$ used in the literature: $\mathrm{Ar}(\mathsf{C})$, $\mathrm{Mor}(\mathsf{C})$.
-
-With the notation used in [[arrow category]] one has $\mathrm{Ob}(\mathrm{Arr}(\mathsf{C}))=\mathrm{Ar}(\mathsf{C})$. 
-
-In view of the existing notation $\mathrm{Arr}(\mathsf{C})$ for a full-fledged _category_, while the $\mathrm{Ar}(\mathsf{C})$ refers to a structureless _class_, the notation $\mathrm{Mor}(\mathsf{C})$ is perhaps preferable.
+Abbreviations for the class of all arrows of a category $\mathsf{C}$ used in the literature include $\mathrm{Arr}(\mathsf{C})$, $\mathrm{Ar}(\mathsf{C})$, and $\mathrm{Mor}(\mathsf{C})$.  Note that this is the class of [[objects]] of the [[arrow category]] of $\mathsf{C}$, and the same notations are sometimes used for that whole category.
 
 category: disambiguation
 
