@@ -64,13 +64,15 @@ To be really careful, this version of $Cat$ is an [[anabicategory]].
 
 ## Properties
 
+### Cartesian closed structure 
 
-### Cartesian-closed structure 
+The category $Cat$, at least in its traditional version comprising small categories only, is [[cartesian closed]]: the [[exponential objects]] are [[functor categories]].  Direct proofs can be found in:
 
-The category Cat, at least in its traditional version comprising small categories only, is [[cartesian closed]]. [^1]
+* p. 98 of [[Categories Work]], 2nd ed.
+* remark below Definition 4.3.9 in [[Category Theory in Context]]
+* [[Steve Awodey]], *Category Theory*, Second Edition, Sections 7.5-7.7.
 
-
-[^1]: Cf. p. 98 of [[Categories Work|Mac Lane]], 2nd ed., or the remark below Definition 4.3.9 in [[Category Theory in Context|Riehl]]; a detailed exposition of cartesian-closedness of Cat, essentially by proving that for any category $\mathcal{D}$, the functor category $\mathrm{Fun}(\mathcal{C},\mathcal{D})$ represents the functor $Cat( (-)\times \mathcal{C} , \mathcal{D})$, equivalently, that $\mathrm{Fun}(\mathcal{C},\mathcal{D})$ behaves like an internal hom $[\mathcal{C},\mathcal{D}]$, equivalently, that for any category $\mathcal{C}$ there exists a right-adjoint to the endofunctor $(-)\times \mathcal{C}$ of $Cat$, is given in Awodey, Category Theory, Second Edition, Sections 7.5-7.7.
+A more indirect proof could proceed by identifying $Cat$ via the [[nerve]] construction as a [[reflective subcategory]] of [[sSet]], which is cartesian closed as it is a [[presheaf category]], and showing that this subcategory is an [[exponential ideal]].
 
 ### Size issues
 
