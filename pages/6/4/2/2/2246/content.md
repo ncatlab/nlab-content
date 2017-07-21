@@ -13,7 +13,7 @@ A field, $F$, of characteristic $p$ is perfect if every element of $F$ is a $p$t
 
 ## Examples 
 
-All fields of [[characteristic]] zero are perfect, as are all [[finite fields]], and all [[algebraically closed fields]], and all extensions of perfect fields. 
+All fields of [[characteristic]] zero are perfect, as are all [[finite fields]], all [[algebraically closed fields]], and all algebraic extensions of perfect fields. 
 
 An example of a field that isn't perfect is the field of rational functions over a finite field.
 
