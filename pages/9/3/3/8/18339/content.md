@@ -1,1 +1,1 @@
-Possible synonym for [[unnaturally isomorphic]].
+&lt; [[unnaturally isomorphic]].
