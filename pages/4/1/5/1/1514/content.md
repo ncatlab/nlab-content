@@ -273,6 +273,9 @@ Textbook accounts include
 
 * [[Joseph Polchinski]], _[[String theory]]_, part I, appendix A
 
+* Daisuke Fujiwara, _Rigorous Time Slicing Approach to Feynman Path Integrals_ 2017, Springer ([doi:/10.1007/978-4-431-56553-6](https://dx.doi.org/10.1007/978-4-431-56553-6))
+
+
 Discussion in [[constructive quantum field theory]] includes
 
 * [[James Glimm]], [[Arthur Jaffe]], _[[Quantum physics -- A functional integral point of view]]_,  535 pages, Springer
