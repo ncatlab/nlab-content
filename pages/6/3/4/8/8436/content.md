@@ -26,7 +26,7 @@ The [[physics]] of [[solid]] condensed [[matter]] (made of [[fermions]], due to 
 
 * [[Levin-Wen model]]
 
-* [AdS-CFT -- Relation to solid state physics](AdS-CFT#ToCondensedMatterPhysics)
+* [[AdS-CFT in condensed matter physics]]
 
 * [[topological order]]
 
