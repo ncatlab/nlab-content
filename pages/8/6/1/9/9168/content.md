@@ -98,7 +98,15 @@ $$
 
 on the given [[spacetime]] $(X,g)$.
 
-This equation admits both an advanced and a retarded [[Green's function]] $\Delta_S^{A/R}$.
+This equation admits both an advanced and a retarded [[Green's functions]]
+$$
+  \Delta_S^{A/R}
+    \;\colon\;
+  C^\infty_c(X)
+    \longrightarrow
+  C^\infty(X)
+  \,.
+$$
 
 =--
 
@@ -151,12 +159,18 @@ $$
   \Delta_S^A(x,y)
 $$
 
-is the _[[causal propagator]]_, namely the difference between the retarded and the advanced [[Green's function]] from prop. \ref{FreeScalarFieldEOMAndGreensFunctions}.
+is the _[[causal propagator]]_ , namely the difference between the retarded and the advanced [[Green's function]] from prop. \ref{FreeScalarFieldEOMAndGreensFunctions}.
 
 =--
 
++-- {: .num_defn #SheavesOnCartSp}
+###### Definition
 
-Peierls+bracket#PeierlsPoissonBracket
+By [this prop.](Peierls+bracket#PeierlsPoissonBracket) ([Khavkine 14](Peierls+bracket#Khavkine14)) the canonical Poisson bracket coincides, for the free scalar field theory, with the [[Peierls bracket]].
+
+See also [Fredenhagen-Rejzner 15, 3.3 Example: the Poisson of $\phi^4$ interaction](locally+covariant+perturbative+quantum+field+theory#FredenhagenRejzner15)
+
+=--
 
 ## Examples
 
@@ -179,9 +193,13 @@ Peierls+bracket#PeierlsPoissonBracket
 
 ## Redirects
 
+
+
 Discussion of scalar fields in [[cosmology]] includes
 
 * J.W. van Holten, _On single scalar field cosmology_ ([arXiv:1301.1174](http://arxiv.org/abs/1301.1174))
+
+
 
 
 [[!redirects scalar field]]
