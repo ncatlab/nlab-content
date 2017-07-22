@@ -32,9 +32,15 @@ where $\Delta$ is the _wave operator_ /[[Laplace operator]].
 
 * [[scalar field]]
 
+* [[Green's function]]
+
 * [[Feynman propagator]]
 
 * [[spectral geometry]], [[hearing the shape of a drum]]
+
+## References
+
+* {#Ginoux08} [[Nicolas Ginoux]], _Linear wave equations_,  Ch. 3 in [[Christian Bär]], [[Klaus Fredenhagen]], _Quantum Field Theory on Curved Spacetimes: Concepts and Methods_, Lecture Notes in Physics, Vol. 786, Springer, 2009 
 
 [[!redirects wave equations]]
 
