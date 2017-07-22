@@ -532,6 +532,13 @@ A famous example of this is the [[topological twist|topologically twisted]][[2d 
 
 ## References
 
+Discussion of free field theories and their [[quantization]] on [[globally hyperbolic Lorentzian manifolds]] is in 
+
+* {#BaerGinouxPfaeffle07} [[Christian Bär]], [[Nicolas Ginoux]], [[Frank Pfäffle]], _Wave Equations on Lorentzian Manifolds and Quantization_, ESI Lectures in Mathematics and Physics, European Mathematical Society Publishing House, ISBN 978-3-03719-037-1, March 2007, Softcover ([arXiv:0806.1036](https://arxiv.org/abs/0806.1036))
+
+Discussion on Euclidean manifolds and in terms of [[BV-formalism]] is in
+
+
 * {#CostelloGwilliam} [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
  
 
