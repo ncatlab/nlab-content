@@ -20,9 +20,9 @@
 
 ## Idea
 
-A _vielbein_ or _solder form_ on a [[manifold]] $X$ is a linear identification of a [[tangent bundle]] with a [[vector bundle]] with explicit [[orthogonal structure]].
+A _vielbein_ or _solder form_ on a [[manifold]] $X$ is a linear identification of a [[tangent bundle]] with a [[vector bundle]] with explicit ([[pseudo-orthogonal structure|pseudo-]])[[orthogonal structure]].
 
-Any such choice encodes a [[Riemannian metric]] on $X$. 
+Any such choice encodes a ([[pseudo-Riemannian metric|pseudo-]])[[Riemannian metric]] on $X$. 
 
 ## Definition
 
