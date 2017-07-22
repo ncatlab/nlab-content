@@ -39,6 +39,8 @@ A [[Lorentzian manifold]] (without [[boundary]]) is **globally hyperbolic** if i
 
 =--
 
+See also ([Baer-Ginoux-Pfaeffle 07, theorem 1.3.10](#BaerGinouxPfaeffle07)).
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -63,9 +65,12 @@ A _time orientation_ of a globally hyperbolic Lorentzian spacetime is a choice o
 
 ## References
 
-A standard textbook exposition is section 6.6 of 
+Textbook accounts include
 
-* {#LargeScale} Hawking, Ellis, _The large-scale structure of Space-Time_ Cambridge (1973)
+* {#LargeScale} Hawking, Ellis, section 6.6 of _The large-scale structure of Space-Time_ Cambridge (1973)
+
+
+* {#BaerGinouxPfaeffle07} [[Christian Bär]], [[Nicolas Ginoux]], [[Frank Pfäffle]], _Wave Equations on Lorentzian Manifolds and Quantization_, ESI Lectures in Mathematics and Physics, European Mathematical Society Publishing House, ISBN 978-3-03719-037-1, March 2007, Softcover ([arXiv:0806.1036](https://arxiv.org/abs/0806.1036))
   
 
 The fact that a single Cauchy surface implies a foliation by Cauchy surfaces is due to 
