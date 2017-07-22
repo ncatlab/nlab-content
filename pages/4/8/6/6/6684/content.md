@@ -22,7 +22,7 @@ A __path from $a$ to $b$__ is a path $f$ such that $f(0) = a$ and $f(1) = b$.
 An __unparametrised path__ is an [[equivalence class]] of paths, such that $f$ and $g$ are equivalent if there is an [[monotone function|increasing]] [[automorphism]] $\phi$ of $\mathbb{I}$ such that $g = f \circ \phi$.  An __unoriented path__ is an equivalence class of paths such that $f$ is equivalent to $(x \mapsto f(1 - x))$.  
 
 If $P$ is a path, then its __reverse path__[^1], denoted $\overline{P}$, is defined to be the composite $P \circ ( t\mapsto 1-t )$. 
-The operation $\overline{\cdot}$ is called _path reversal_.
+The operation $P\mapsto\overline{P}$ is called _path reversal_.
 
 [^1]: Cf. e.g. [[Introduction to Topology -- 2]], or also [Section 2.1](#tomDieck2008); beware that that reference, (0) like many others, uses the synonym "inverse path", even though there is no "canonical" group in which $\overline{P}$ would be a *strict* inverse, and (1) that it uses $a$ and $b$ for the endpoints of the _interval_, not the endpoints of the paths in the space $X$, and (2) that it uses $P^-$ instead of $\overline{P}$, which however is less suited for notational iterating (compare $\overline{\overline{P}}=P$ with $(P^-)^-=P$), and that (3)  the 2008 edition has a typo: " $w(1-t)$ " in loc. cit., when   *inverse path* gets defined, should be $u(1-t)$.
 
