@@ -5,7 +5,11 @@
 
 ## Idea
 
-Given a smooth [[bundle]] $E \to \Sigma$ over a [[smooth manifold]] $\Sigma$, then its _Euler-Lagrange complex_ is a [[resolution]] of the [[constant sheaf]] of [[locally constant functions]] on the [[jet bundle]] $J^\infty E$ by a [[chain complex]] of sheaves of certain [[differential forms]]. The Euler-Lagrange complex starts out as the complex of [[horizontal differential forms]] up to degree $n \coloneqq dim(\Sigma)$ the [[dimension]] of $\Sigma$, the following [[differential]] is the [[Euler-Lagrange operator]], followed by the [[Helmholtz operator]].
+Given a smooth [[bundle]] $E \to \Sigma$ over a [[smooth manifold]] $\Sigma$, then its _Euler-Lagrange complex_ is a [[resolution]] of the [[constant sheaf]] of [[locally constant functions]] on the [[jet bundle]] $J^\infty E$ by a [[chain complex]] of sheaves of certain [[differential forms]]. The Euler-Lagrange complex starts out as the complex of [[horizontal differential forms]] up to degree $n \coloneqq dim(\Sigma)$ the [[dimension]] of $\Sigma$, the following [[differential]] is 
+
+1. the [[Euler-Lagrange operator]] $\delta_{El}$
+
+1. followed by the [[Helmholtz operator]] $\delta_{Heml}$
 
 $$
  0 \to \mathbb{R}
@@ -17,9 +21,9 @@ $$
   \cdots 
   \stackrel{d_H}{\to}
   \Omega^{n,0}(J^\infty E)
-  \stackrel{E}{\to}
+  \stackrel{\delta_{EL}}{\to}
   \mathcal{F}^1(J^\infty E)
-  \stackrel{\delta_V}{\to}
+  \stackrel{\delta_{Helm}}{\to}
   \mathcal{F}^2(J^\infty E)
   \stackrel{\delta_V}{\to}
   \cdots
@@ -87,3 +91,6 @@ Review includes
 
 [[!redirects Euler complex]]
 [[!redirects Euler complexes]]
+
+[[!redirects Euler-Lagrange operator]]
+[[!redirects Euler-Lagrange operators]]
