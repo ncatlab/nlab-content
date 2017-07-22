@@ -15,7 +15,7 @@
 
 ## Idea
 
-A [[Lorentzian manifold]] is called _globally hyperbolic_ if it admits a well-defined time evolution from initial data of physical fields on it.
+A [[Lorentzian manifold]] is called _globally hyperbolic_ if it admits a well-defined time evolution from initial data of [[field (physics)|physical fields]] on it.
 
 
 ## Definition
@@ -25,7 +25,7 @@ There are several equivalent definitions of global hyperbolicity. A simple one i
 +-- {: .num_defn}
 ###### Definition
 
-A [[Lorentzian manifold]] (without [[boundary]]) is called **globally hyperbolic** if it contain a [[Cauchy surface]].
+A [[Lorentzian manifold]] (without [[boundary]]) is called **globally hyperbolic** if it contains a [[Cauchy surface]].
 
 =--
 
@@ -48,25 +48,30 @@ $$
   \phi\colon \mathbb{R} \times \Sigma \to X
 $$
 
-from the [[product]] of the [[real line]] with a $(dim X - 1)$-[[dimension]]al [[smooth manifold]] $\Sigma$ and for each $t \in \mathbb{R}$ the image $\phi(t, \Sigma) \subset X$ is a [[Cauchy surface]] of $X$.
+from the [[product]] of the [[real line]] with a $(dim X - 1)$-[[dimension|dimensional]] [[smooth manifold]] $\Sigma$ and for each $t \in \mathbb{R}$ the image $\phi(t, \Sigma) \subset X$ is a [[Cauchy surface]] of $X$.
 
 =--
+
+A _time orientation_ of a globally hyperbolic Lorentzian spacetime is a choice of [[orientation]] of the factor $\mathbb{R}$ under the above homoemorphism.
+
 
 ## Related concepts
 
 * [[AQFT on curved spacetimes]], [[locally covariant perturbative quantum field theory]]
 
+* [[Cauchy problem]]
+
 ## References
 
 A standard textbook exposition is section 6.6 of 
 
-* Hawking, Ellis, _The large-scale structure of Space-Time_ Cambridge (1973)
-  {#LargeScale}
+* {#LargeScale} Hawking, Ellis, _The large-scale structure of Space-Time_ Cambridge (1973)
+  
 
 The fact that a single Cauchy surface implies a foliation by Cauchy surfaces is due to 
 
-* [[Robert Geroch]], (1970)
- {#Geroch}
+* {#Geroch} [[Robert Geroch]], (1970)
+ 
 
 The refinement of this statement to a smooth splitting is in 
 
@@ -77,9 +82,13 @@ The refinement of this statement to a smooth splitting is in
 [[!redirects globally hyperbolic]]
 [[!redirects globally hyperbolic Lorentzian manifold]]
 [[!redirects globally hyperbolic pseudo-Riemannian manifold]]
-[[!redirects globally hyperbolic spacetime]]
 
 [[!redirects globally hyperbolic spacetime]]
 [[!redirects globally hyperbolic spacetimes]]
+
+
+[[!redirects time orientation]]
+[[!redirects time orientations]]
+
 
 
