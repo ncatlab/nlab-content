@@ -32,6 +32,14 @@ is called the **fundamental solution** for $P$; alternative names like __Green f
 
 ## References
 
+* {#BaerGinouxPfaeffle07} [[Christian Bär]], [[Nicolas Ginoux]], [[Frank Pfäffle]], section 2 and 3 of _Wave Equations on Lorentzian Manifolds and Quantization_, ESI Lectures in Mathematics and Physics, European Mathematical Society Publishing House, ISBN 978-3-03719-037-1, March 2007, Softcover ([arXiv:0806.1036](https://arxiv.org/abs/0806.1036))
+
+
+* {#Ginoux08} [[Nicolas Ginoux]], _Linear wave equations_,  Ch. 3 in [[Christian Bär]], [[Klaus Fredenhagen]], _Quantum Field Theory on Curved Spacetimes: Concepts and Methods_, Lecture Notes in Physics, Vol. 786, Springer, 2009 
+
+* {#Khavkine14} [[Igor Khavkine]], section 2 of _Covariant phase space, constraints, gauge and the Peierls formula_, Int. J. Mod. Phys. A, 29, 1430009 (2014) ([arXiv.1402.1282](https://arxiv.org/abs/1402.1282))
+
+
 * Wikipedia, _[Fundamental solution](http://en.wikipedia.org/wiki/Fundamental_solution)_
 
 * Wikipedia, _[Green's functions](http://en.wikipedia.org/wiki/Green%27s_function)_
