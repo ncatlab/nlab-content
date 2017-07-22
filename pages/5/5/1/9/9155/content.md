@@ -80,3 +80,6 @@ Steps towards a local version of [[BV-formalism]] are undertaken in
 
 [[!redirects local QFT]]
 [[!redirects local QFTs]]
+
+[[!redirects local Lagrangian field theory]]
+[[!redirects local Lagrangian field theories]]
