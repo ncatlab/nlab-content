@@ -17,7 +17,16 @@
 
 ## Definition
 
-Given a [[bundle]] $\pi \colon P \to X$ of [[smooth manifolds]], then a [[differential form]] on $P$ is _horizontal_ if it vanishes on [[vertical vector fields]].
+There are two different meanings of _horizontal differential form_
+
+Given a [[bundle]] $\pi \colon P \to X$ of [[smooth manifolds]], 
+
+* then a [[differential form]] on the total space $P$ is _horizontal_ if it vanishes on [[vertical vector fields]]:
+
+* in the context of [[variational calculus]]: 
+
+  a differential form on the the total space $J^\infty_X(E)$ of the [[jet bundle]] of $E$ is horizontal if it is in the horizontal compoent of the [[variational bicomplex]] of $J^\infty(E)$.
+
 
 ## Related concepts
 
