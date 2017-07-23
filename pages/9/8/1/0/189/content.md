@@ -38,7 +38,7 @@ A quiver is a kind of [[graph]] and is often called a [[directed graph]] (or [[d
 
 ### Slick definition
 
-The **[[walking structure|walking]] quiver** $X$ is the [[category]] with
+The **[[walking structure|walking]] quiver**[^1] $X$ is the [[category]] with
 
 * one [[object]] $X_0$, called the object of _vertices_;
 
@@ -61,6 +61,8 @@ The category of quivers in $C$, [[Quiv]]$(C)$, is the [[functor category]] $C^{X
 
 In the basic case where $C$ is [[Set]], the category Quiv(Set) is equivalent to the category of [[presheaves]] on $X^{op}$.  So: the category of quivers, [[Quiv]], is the category of presheaves on the category $X^{op}$.
 
+
+[^1]: Also called "the elementary "parallel process" " by [[William Lawvere]] in [p. 272](#GeneralizedGraphs).
 
 ### Nuts-and-bolts definitions 
 
@@ -177,6 +179,8 @@ A special kind of quiver (finite, no loops, no parallel arcs) is treated in
 {#DG2nd}
 
 
+* [[William Lawvere]]: _Qualitative Distinctions Between Some Toposes of Generalized Graphs_, Contemporary Mathematics 92 (1989) 
+{#GeneralizedGraphs}
 
 [[!redirects quiver]]
 [[!redirects quivers]]
