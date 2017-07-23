@@ -19,6 +19,9 @@
 
 In [[representation theory]] a _norm map_ is a canonical morphism from [[coinvariants]] to [[invariants]] of a given [[action]] which, in suitably well behaved cases is given by [[group averaging]].
 
+(e.g [Lurie, constructions 6.1.6.4, 6.1.6.8, 6.1.6.18](#Lurie))
+
+
 For [[∞-actions]] of [[finite groups]] $G$ on objects $E$ in [[stable (∞,1)-categories]], then the [[homotopy cofiber]] $X^{t G}$ of the norm map is called the _[[Tate construction]]_, sitting in a [[homotopy fiber sequence]]
 
 $$
@@ -31,7 +34,11 @@ $$
 
 For the [[stable (∞,1)-category of spectra]] this is accordingly called the _[[Tate spectrum]]_.
 
+
+
 ## Related concepts
+
+* [[cyclotomic spectrum]]
 
 * _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
 
