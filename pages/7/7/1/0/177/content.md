@@ -18,9 +18,7 @@
 
 The term _directed graph_ is used in both [[graph theory]] and [[category theory]] and the precise definition varies depending on the particular reference under consideration---even within one of the two theories.
 
-In [[graph theory]], _directed graph_ (often abbreviated to the contraction _digraph_[^1]) usually means a [[simple directed graph]], and [[category theory]], _directed graph_ or _digraph_ usually means a [[quiver]], which may have multiple edges and loops; the basic *difference* being that (according to one *widespread convention*), the word *digraph* implies that there are neither loops nor *parallel* arcs (while directed cycles of length two *are* allowed in a digraph; cf. e.g. [Section 1.2](#DG2nd)). 
-
-[^1]: In the nLab, this term tends to be avoided, since the prefix *di-* in this portmanteau is reminiscent of the prefix *bi-* in terms like *bicategory*, but does not have the same function (simply coming from contracting *directed*).
+In [[graph theory]], _directed graph_ (often abbreviated to the contraction _digraph_) usually means a [[simple directed graph]], and [[category theory]], _directed graph_ or _digraph_ usually means a [[quiver]], which may have multiple edges and loops; the basic *difference* being that (according to one *widespread convention*), the word *digraph* implies that there are neither loops nor *parallel* arcs (while directed cycles of length two *are* allowed in a digraph; cf. e.g. [Section 1.2](#DG2nd)). 
 
 From a category-theoretic point of view, it is not superfluous to state the obvious fact that this is somewhat orthogonal to how the underlying [[quiver]] of a category looks like: that quiver *always* has a loop at each vertex, and, usually, many parallel arcs. In particular, the *underlying quiver of a category is never a digraph* (in the sense of, e..g,[BJG2009](#DG2nd)).
 
@@ -28,7 +26,7 @@ From a graph-theoretical point of view, it is not superfluous to emphasize the o
 
 Unsurprisingly, a generous disregard to issues around allowing loops or not, and sometimes even to allowing parallel arcs, is common in the literature. Because of the additional information given by directions, digraph theory tends to have more technical terms than the theory of undirected graphs, in particular, some systematic prefix-constructions (like *in-neighbor*).
 
-We here list a few, calibrating our conventions according to [BJG2009](#DG2nd), but only in so far as they are fundamental and potentially useful in category theory.[^2] For concision and robustness, we mostly use words.
+We here list a few, calibrating our conventions according to [BJG2009](#DG2nd), but only in so far as they are fundamental and potentially useful in category theory.[^1] For concision and robustness, we mostly use words.
 
 
 **arc**: directed edge
@@ -48,7 +46,7 @@ We here list a few, calibrating our conventions according to [BJG2009](#DG2nd), 
 Remarks. For the definitions of _trail_ and _path_, which in particular involve negations, to be sensical, both the vertex [[set]] and the arc [[set]] of the digraph need to have an [[equality]] relation, and one has to work with a logic which allows negating equality.
 
 
-[^2]: One example of a use of digraph theory *sensu stricto* in category theory is giving a rigorous justification of the  notational practice of [[pasting diagrams]], which was achieved in the late 1980s (cf. e.g. [Johnson87](#Johnson1987), [Johnson89](#Johnson1989), [Power90](#Power1990) ). 
+[^1]: One example of a use of digraph theory *sensu stricto* in category theory is giving a rigorous justification of the  notational practice of [[pasting diagrams]], which was achieved in the late 1980s (cf. e.g. [Johnson87](#Johnson1987), [Johnson89](#Johnson1989), [Power90](#Power1990) ). 
 There, parallel arcs or loops are of secondary importance. 
 
 
