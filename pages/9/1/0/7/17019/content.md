@@ -52,4 +52,7 @@ This is equivalently the [[topological Hochschild homology]] of the sphere spect
 * {#Malkiewich15} [[Cary Malkiewich]], _A visual introduction to cyclic sets and cyclotomic spectra_, 2015 ([pdf](http://math.uiuc.edu/~cmalkiew/ytm_2015.pdf))
 
 
+* {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_ ([arXiv:1707.01799](https://arxiv.org/abs/1707.01799))
+
+
 [[!redirects cyclotomic spectra]]
