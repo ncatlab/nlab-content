@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -21,9 +36,24 @@ For the [[stable (∞,1)-category of spectra]] this is accordingly called the _T
 
 * Tate spectra for [[cyclic groups]] play a role in the characterization of [[cyclotomic spectra]].
 
+* For $N$ a $G$-[[representation]] and $H N$ its [[Eilenberg-MacLane spectrum]], then the Tate spectrum $H N^{t G}$ represents what is classically called _[[Tate cohomology]]_
+
+  $$
+    \hat H^{-n}(G,N) \;\simeq\; \pi_n( H N^{t G} )
+  $$
+
+  ([Nikolaus-Scholze 17, p. 13](#NikolausScholze17)) This may be generalized to possibly infinite [[discrete groups]], see at _[[Farrell-Tate cohomology]]_.
+
 ## References
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
+The general abstract discussion is due t 
+
+* [[Jacob Lurie]], section 6.1 of _[[Higher Algebra]]_
+
+Review with an eye towards [[topological cyclic homology]] is in
+
+* {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], section I f _On topological cyclic homology_ ([arXiv:1707.01799](https://arxiv.org/abs/1707.01799))
+
 
 [[!redirects Tate spectra]]
 
