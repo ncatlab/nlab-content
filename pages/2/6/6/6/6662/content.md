@@ -153,6 +153,59 @@ X^p
 &\stackrel{can}{\to}& S^p X
 }$$
 
+
+### For $E_\infty$-Rings
+ {#ForEInfinityRings}
+
++-- {: .num_defn #EInfinityFrobenius}
+###### Definition
+
+Let $E$ be a [[E-infinity ring]] and $p$ a [[prime number]].
+Then the _Frobenius morphism_ on $R$ is the composite morphism of [[spectra]]
+
+$$
+  R
+    \overset{\Delta_p}{\longrightarrow}
+  (R \wedge \cdots \wedge R)^{t C_p}
+    \overset{prod^{t C_p}}{\longrightarrow}
+  R^{C_p}
+$$
+
+where
+
+1. $C_p = \mathbb{Z}/p\mathbb{Z}$ denotes the [[cyclic group]] of order $p$;
+
+1. $(-)^{t C_p}$ denotes the [[Tate spectrum]] of a spectrum with $C_p$-[[action]];
+
+1. the [[smash product of spectra]] $R \wedge \cdots \wedge R$ is regarded with the $C_p$-action given by [[permutation]] of smash factors;
+
+1. $\Delta_p$ dentotes the _[[Tate diagonal]]_ map
+
+1. $prod^{t C_p}$ is the image of the $p$-fold product operation of the ring spectrum $prod \;\colon\; R \wedge \cdots \wedge R \to R$ under the [[(infinity,1)-functor]] which forms Tate spectra.
+
+=--
+
+([Nikolaus-Scholze 17, def. IV.1.1](#NikolausScholze17))
+
++-- {: .num_example}
+###### Example
+
+Let $A \in CRing$ be an ordinary [[commutative ring]] and write $H A$ for its [[Eilenberg-MacLane spectrum]]. Then for $p$ a [[prime number]] the Frobenous homomorphsm from def. \ref{EInfinityFrobenius}
+
+$$  
+  H A \longrightarrow H A^{t C_p}
+$$
+
+coincides on the 0th [[stable homotopy group]] with the ordinary Frobenius homomorphism
+
+$$
+  A \longrightarrow A/p
+$$
+
+=--
+
+([Nikolaus-Scholze 17, example IV.1.1](#NikolausScholze17))
+
 ## Properties
 
 ### For fields
@@ -248,7 +301,7 @@ Discussion in the context of [[power operations]] on [[E-infinity rings]] is in
 
 * {#Lurie} [[Jacob Lurie]], _[[Rational and p-adic Homotopy Theory]]_
 
-Discussion in the context of [[topological cyclic homology]] is in 
+Discussion for [[E-infinity rings]] via [[Tate spectra]] is due to
 
 * {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_ ([arXiv:1707.01799](https://arxiv.org/abs/1707.01799))
 
