@@ -38,6 +38,8 @@ For the [[stable (∞,1)-category of spectra]] this is accordingly called the _[
 
 ## Related concepts
 
+* [[Tate spectrum]]
+
 * [[cyclotomic spectrum]]
 
 * _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
@@ -45,6 +47,13 @@ For the [[stable (∞,1)-category of spectra]] this is accordingly called the _[
 
 ## References
 
+The general abstract construction is due to
+
 * {#Lurie} [[Jacob Lurie]], section 6.1.6 of _[[Higher Algebra]]_
+
+Review with an eye towards discussion of [[topological cyclic homology]] is in section I.1 of 
+
+* {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_, ([arXiv:1707.01799](https://arxiv.org/abs/1707.01799))
+
 
 [[!redirects norm maps]]
