@@ -248,6 +248,9 @@ Discussion in the context of [[power operations]] on [[E-infinity rings]] is in
 
 * {#Lurie} [[Jacob Lurie]], _[[Rational and p-adic Homotopy Theory]]_
 
+Discussion in the context of [[topological cyclic homology]] is in 
+
+* {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_ ([arXiv:1707.01799](https://arxiv.org/abs/1707.01799))
 
 
 [[!redirects Frobenius morphisms]]
