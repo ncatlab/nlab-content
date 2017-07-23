@@ -1,6 +1,10 @@
 
-> This entry is about a usual strict sense of the term "digraph" often used in combinatorial contexts. Such "digraphs" are often formalized rather [[set]]-theoretically. 
-In a nutshell, they  have some relevance to category theory because of, e.g., the notational device of [[pasting diagrams]] and formalizations thereof, such as [[pasting schemes]], which---*this being the main point**---do neither carry any composition-structure in and of themselves, nor usually have loops or parallel arcs, and are therefore plain (and often even plane) digraphs. For the usual notion of directed graph in category theory, see [[quiver]].
+> This article is about "digraphs" in the usual combinatorial sense. 
+
+For the usual notion of directed graph in category theory, see [[quiver]].
+
+a usual strict sense of the term "digraph" often used in combinatorial contexts. Such "digraphs" are often formalized rather [[set]]-theoretically. 
+In a nutshell, they  have some relevance to category theory because of, e.g., the notational device of [[pasting diagrams]] and formalizations thereof, such as [[pasting schemes]], which---*this being the main point**---do neither carry any composition-structure in and of themselves, nor usually have loops or parallel arcs, and are therefore plain (and often even plane) digraphs. 
 
 #Contents#
 * table of contents
@@ -31,12 +35,18 @@ Remarks. For the definitions of _trail_ and _path_, which in particular involve 
 
 ## Definition
 
+
 (..) 
 
 
 ## Related concepts
 
 * [[pasting scheme]]
+
+## References
+
+* [[Gregory Gutin]], [[Jørgen Bang-Jensen]]: _Digraphs: Theory, Algorithms and Applications_. Springer Monographs in Mathematics. Second Edition (2009)
+{#DG2nd}
 
 
 [[!redirects digraph]]
