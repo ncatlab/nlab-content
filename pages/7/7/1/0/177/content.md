@@ -27,23 +27,21 @@ In [[graph theory]], _directed graph_ (often abbreviated to the contraction _dig
 The basic *difference* is (according to one *widespread convention*) to have *digraphs* imply that there be neither any loop nor any *parallel* arc (directed cycles of length two *are* allowed in a digraph; cf. e.g. [Section 1.2](#DG2nd)). 
 
 From a category-theoretic point of view, it is not superfluous to state the obvious: a [[digraph]] never is the [[quiver]] underlying any category: _such_ a quiver *always* has a loop at each vertex, and, usually, many parallel arcs. 
-In particular, the *underlying quiver of a category is never a digraph* (in the sense of, e..g,[BJG2009](#DG2nd)).
+In particular, the *underlying quiver of a category is never a digraph* (in the sense of, e.g.,[BJG2009](#DG2nd)).
 
 There is an article of [[William Lawvere]] which is relevant for a page documenting different treatments of the idea of directed graphs, such as this one.  Therein, one reads (cf. [p. 272](#GeneralizedGraphs)) [^1]
 
-[^1]: Technical note: the author of the above passage drew a box around the (diagram of) the category E. This is missing for technical reasons. 
-:  
+[^1]: Technical note: the author of the above passage drew a box around the (diagram of) the category E. This is missing for technical reasons.
 
 > [..] the elementary "parallel process" $E= \bullet\overset{\rightarrow}{\rightarrow}\bullet$ is a reflexive graph which happens to admit only one definition of composition making it into a category $\mathbf{P}$. [..] Its [[actions]] $S^{\mathbf{P}^{\mathrm{op}}}$ are the **irreflexive** graphs (the negative is in a way appropriate even for those objects which happen to have loops at some point $p$, for morphisms are allowed to interchange *any* two such loops).
 
 
 
 
-We note that by "the negative is in a way appropriate" Lawvere explains why he chose the strong negation *irr-* even though such an "irreflexive graph" may contain loops at *some* vertices, which is obviously different from what one expects from the usual sense of [[irreflexive relation]].
+With "the negative is in a way appropriate" Lawvere explains the strong negation *irr-* even though such an "irreflexive graph" *may* contain loops at *some* vertices, which is obviously different from what one would *expect* from the usual sense of [[irreflexive relation]]. 
+This should be explained explicitly all the more in view of simple undirected graph often being literally defined as *symmetric irreflexive relations* on a set. 
 
-
-Some authors have adopted this interesting sense of "irreflexive", necessitating an additional  use of the a modifier "strict". (cf. [p. 7](#GraphsOfMorphismsOfGraphs))
-
+Some authors have adopted this interesting variant sense of "irreflexive", prompting an additional use of the a modifier "strict" to form a composite "strict irreflexive graph". (cf. [p. 7](#GraphsOfMorphismsOfGraphs); note that [BMSW](#GraphsOfMorphismsOfGraphs) uses "digraph" as a synonym for "strict irreflexive graph", and this conventional sense of "digraph" is precisely the one in [[digraph]]).
 
 
 An example of a use of digraph theory in category theory is giving a rigorous justification of the  notational practice of [[pasting diagrams]]. 
@@ -55,20 +53,29 @@ From a graph-theoretical point of view, it is not superfluous to emphasize the o
 
 
 
-The convention of formalising directed graphs like in [[digraph]]is widespread in modern combinatorics, but it is mostly just that: conventional. 
+The convention of formalising directed graphs like in [[digraph]] is widespread in modern combinatorics, but it is mostly just that: conventional. 
 In particular there is no mathematical reason to take the [[relative complement]] of $V\times V$ and the diagonal $\{(v,v)\colon v\in V\}$. 
 
 Such a definition can be see as either needlessly complicated and negative, or simpler and more intuitive than [[quivers]]. 
 This is a matter of opinion and culture; similar comparisons can be found in what is perhaps the earliest article reviewing graph theory from a category theoretic perspective (cf. [p. 2](#BumbyLatch1986)).
 
-The main point is: *both* [[quivers]] and [[digraphs]] use [[sets]], but [[digraphs]] use a [[limit]] in the category of sets. 
+The main point is: the definitions in *both* [[quiver]] and [[digraph]] use [[sets]], but, from a category-theoretic point of view, [[digraph]] uses a [[limit]] in the category of sets: the [[product]] of the vertex set with itself. 
 
-It is a fact that [[quivers]] are more general: to have [[digraphs]] offer multiple arcs or loops requires additional patching or switching to other definitions---many sources in the combinatorial literature are aware of that,  of course, e.g. [p. 25](#Diestel2010) defines the "term" precisely to be a [[quiver]], just does not mention that word.  
-The restriction to loopless quivers without parallel arcs is mostly a result of *what questions are being asked about them* in combinatorics. 
+It is a fact that [[quivers]] are more general than [[digraph]]s: to have [[digraph]] offer multiple arcs or loops requires additional patching or switching to other definitions---many sources in the combinatorial literature are aware of that,  of course, e.g. [p. 25](#Diestel2010) defines a "directed graph" precisely to be a [[quiver]], just does not mention that word.  
+The restriction to loopless quivers without parallel arcs is mostly a result of 
 
-In the material point of view, issues of how to represent the connections loom large (think of the various different data structures for digraphs, such as signed adjacency matrices, signed incidence matrices, linked lists for adjacency *lists*).  
-The structural point of view, exemplified by [[quivers]], in a way already fixes the concept: functions, and it then only remains to be decided how to represent function. 
-These differences are not absolutely clear cut, yet distinct enough to be meaningful. 
+* the *questions* that are answered in the combinatorial literature, 
+* a tendency in combinatorics to formalized *multiplicities* by attaching *weights* (mostly [[number]]s) to a single arc of a directed graph, thus seeing no need for actual multiplicities of the arcs, while in category theory one tends to construct a mathematical structure for a given purpose right from the start, instead of tacking further mathematical objects of different types onto another structure. 
+
+
+The difference between the two formalizations, given in [[digraph]] and [[quiver]], can be seen to be analogous to the differences between [[material set theory]] and [[structural set theory]].
+
+The material point of view makes the decision of how to represent the connections loom large (examples are the various different data structures for digraphs, such as signed adjacency matrices, signed incidence matrices, linked lists for adjacency *lists*, one often vastly more efficient than the other).  
+
+The structural point of view, exemplified by [[quivers]], in a way already fixes the formalizing concept: functions. 
+It then only remains to be decided how to represent function. 
+
+These differences are not clear-cut, yet meaningful. 
 
 All these points of view have disadvantages and advantages and it depends on what one is trying to do what one should use.
 
@@ -88,6 +95,12 @@ All these points of view have disadvantages and advantages and it depends on wha
 
 ## References
 
+* [[Ronald Brown]], I. Morris, J. Shrimpton, C.D. Wensley: _Graphs of morphisms of graphs_, The Electronic Journal of Combinatorics 15 (2008), A1
+{#GraphsOfMorphismsOfGraphs}
+
+* R. Diestel: _Graph Theory_. Fourth Edition. Springer (2010)
+{#Diestel2010}
+
 * [[Gregory Gutin]], [[Jørgen Bang-Jensen]]: _Digraphs: Theory, Algorithms and Applications_. Springer Monographs in Mathematics. Second Edition (2009)
 {#DG2nd}
 
@@ -103,10 +116,6 @@ All these points of view have disadvantages and advantages and it depends on wha
 
 * [[John Power]]: _A 2-Categorical Pasting Theorem_, Journal of Algebra 129 (1990) 
 {#Power1990}
-
-* [[Ronald Brown]], I. Morris, J. Shrimpton, C.D. Wensley: _Graphs of morphisms of graphs_, The Electronic Journal of Combinatorics 15 (2008), A1
-{#GraphsOfMorphismsOfGraphs}
-
 [[!redirects directed graph]]
 [[!redirects directed graphs]]
 [[!redirects Directed graph]]
