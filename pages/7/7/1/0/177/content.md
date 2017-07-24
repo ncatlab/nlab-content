@@ -29,17 +29,17 @@ The basic *difference* is (according to one *widespread convention*) to have *di
 From a category-theoretic point of view, it is not superfluous to state the obvious fact that this is somewhat orthogonal to how the underlying [[quiver]] of a category looks like: _such_ a quiver *always* has a loop at each vertex, and, usually, many parallel arcs. 
 In particular, the *underlying quiver of a category is never a digraph* (in the sense of, e..g,[BJG2009](#DG2nd)).
 
-There is an of [[William Lawvere]] which is very relevant to the above:  
+There is an article of [[William Lawvere]] which is relevant for a page documenting different treatments of the idea of directed graphs, such as this one.  Therein, one reads (cf. [p. 272](#GeneralizedGraphs)) [^1]
+
+[^1]: Technical note: the author of the above passage drew a box around the (diagram of) the category E. This is missing for technical reasons. 
+:  
 
 > [..] the elementary "parallel process" $E= \bullet\overset{\rightarrow}{\rightarrow}\bullet$ is a reflexive graph which happens to admit only one definition of composition making it into a category $\mathbf{P}$. [..] Its actions $S^{\mathbf{P}^{\mathrm{op}}}$ are the **irreflexive** graphs (the negative is in a way appropriate even for those objects which happen to have loops at some point $p$, for morphisms are allowed to interchange *any* two such loops).
 
-[p. 272](#GeneralizedGraphs) [^1]
-
-[^1]: Technical note: the author of the above passage drew a box around the (diagram of) the category E. This is missing for technical reasons. 
 
 
 
-We also note that by "the negative is in a way appropriate" Lawvere explains why he chose the strong negation *irr-* even though such an "irreflexive graph" may contain loops at *some* vertices, which is obviously different from what one expects from the usual sense of [[irreflexive relation]].
+We note that by "the negative is in a way appropriate" Lawvere explains why he chose the strong negation *irr-* even though such an "irreflexive graph" may contain loops at *some* vertices, which is obviously different from what one expects from the usual sense of [[irreflexive relation]].
 
 
 Some authors have adopted this interesting sense of "irreflexive", necessitating an additional  use of the a modifier "strict". (cf. [p. 7](#GraphsOfMorphismsOfGraphs))
