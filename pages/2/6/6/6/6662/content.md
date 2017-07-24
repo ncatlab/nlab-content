@@ -187,7 +187,7 @@ where
 
 ([Nikolaus-Scholze 17, def. IV.1.1](#NikolausScholze17))
 
-+-- {: .num_example}
++-- {: .num_example #EInfinityFrobeniusReducesToOrdinaryFrobenius}
 ###### Example
 
 Let $A \in CRing$ be an ordinary [[commutative ring]] and write $H A$ for its [[Eilenberg-MacLane spectrum]]. Then for $p$ a [[prime number]] the Frobenous homomorphsm from def. \ref{EInfinityFrobenius}
