@@ -1,15 +1,43 @@
 TESTING, mostly by verbatim copying from other parts of the nLab
 
 
+Examples of [[normed vector spaces]] (def. \ref{NormedVectorSpace}) and hence, via prop. \ref{MetricSpaceFromNormedVectorSpace},
+of [[metric spaces]] include the following:
 
-+-- {: .num_defn #Digraph}
-###### Definition
-**(digraph; cf. [p. 2](#DG2nd))**
++-- {: .num_example #EuclideanNorm}
+###### Example
+**([[Euclidean space]] cf. [etc](#Waldhausen) )**
 
+For $n \in \mathbb{N}$, the [[Cartesian space]]
 
-A digraph is a pair $(V,A)$ of [[sets]], with $A\subseteq V\times V\setminus\{ (v,v)\colon v\in V\}$.
+$$
+  \mathbb{R}^n
+    =
+   \left\{
+     \vec x
+     =
+     (x_i)_{i = 1}^n
+     \vert
+      x_i \in \mathbb{R}
+   \right\}
+$$
 
+carries a [[norm]] (the _Euclidean norm_ ) given by the [[square root]] of the [[sum]] of the [[squares]] of the components:
 
+   $$
+     {\Vert \vec x \Vert}
+       \;\coloneqq\;
+     \sqrt{
+     \underoverset{i = 1}{n}{\sum}
+       (x_i)^2
+     }
+     \,.
+   $$
+
+Via prop. \ref{MetricSpaceFromNormedVectorSpace} this gives $\mathbb{R}^n$ the structure of a
+[[metric space]], and as such it is called the _[[Euclidean space]]_ of [[dimension]] $n$.
+
+=--
 
 A _[[metric space]]_ is
 
@@ -262,3 +290,6 @@ $$
 =--
 
 $\,$
+
+
+* {#Waldhausen} [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
