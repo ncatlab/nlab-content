@@ -2,6 +2,39 @@ TESTING, mostly by verbatim copying from other parts of the nLab
 
 
 
++-- {: .num_defn #Digraph}
+###### Definition
+**(digraph; cf. [p. 2](#DG2nd))**
+
+
+A digraph is a pair $(V,A)$ of [[sets]], with $A\subseteq V\times V\setminus\{ (v,v)\colon v\in V\}$.
+
+
+
+A _[[metric space]]_ is
+
+1. a [[set]] $X$ (the "underlying set");
+
+1. a [[function]] $d \;\colon\; X \times X \to [0,\infty)$ (the "distance function") from the [[Cartesian product]] of the set with itself to the [[nonnegative number|non-negative]] [[real numbers]]
+
+such that for all $x,y,z \in X$:
+
+1. (symmetry) $d(x,y) = d(y,x)$
+
+1. ([[triangle inequality]]) $d(x,z) \leq d(x,y)+ d(y,z)$.
+
+1. (non-degeneracy) $d(x,y) = 0 \;\;\Leftrightarrow\;\; x = y$
+
+=--
+
++-- {: .num_defn #OpenBalls}
+###### Definition
+**([[open balls]])**
+
+Let $(X,d)$, be a [[metric space]]. Then for every element $x \in X$ and every  $\epsilon \in \mathbb{R}_+$ a [[positive number|positive]] [[real number]], we write
+
+
+
 A key source of metric spaces are [[norm|normed]] _[[vector spaces]]_:
 
 +-- {: .num_defn #NormedVectorSpace}
