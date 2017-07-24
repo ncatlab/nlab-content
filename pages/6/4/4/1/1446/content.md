@@ -1,4 +1,4 @@
-I am an advanced researcher at the Max Planck Institute for Mathematics, Bonn. I study the interactions of topology, higher category theory, and quantum field theory. Preprints,  papers, and more details can be found on my [website](http://sites.google.com/site/chrisschommerpriesmath/Home).
+Chris Schommer-Pries is an assistant professor at the University of Notre Dame.  He studies the interactions of topology, higher category theory, and quantum field theory. Preprints,  papers, and more details can be found on his [website](http://sites.nd.edu/chris-schommer-pries/).
 
 
 ## Slides and talks
