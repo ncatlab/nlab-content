@@ -204,6 +204,9 @@ and a clear comprehensive account of the situation (topological anomaly, geometr
 * {#Freed86} [[Daniel Freed]], _Determinants, torsion, and strings_,  Comm. Math. Phys. Volume 107, Number 3 (1986), 483-513. ([Euclid](http://projecteuclid.org/euclid.cmp/1104116145))
   
 
+Slick formulation of these anomalies as [[invertible topological field theories]] is discussed in 
+
+* [[Daniel Freed]], _Anomalies and Invertible Field Theories_, talk at [StringMath2013](http://scgp.stonybrook.edu/events/event-pages/string-math-2013) ([arXiv.1404.7224](https://arxiv.org/abs/1404.7224))
 
 
 A physicists' monograph is
