@@ -1,2 +1,231 @@
+TESTING, mostly by verbatim copying from other parts of the nLab
 
-hhhd
+
+
+A key source of metric spaces are [[norm|normed]] _[[vector spaces]]_:
+
++-- {: .num_defn #NormedVectorSpace}
+###### Dedfinition
+**(normed vector space)**
+
+A _[[normed vector space]]_ is
+
+1. a [[real vector space]] $V$;
+
+1. a [[function]] (the _[[norm]]_)
+
+   $$
+     {\Vert {-} \Vert} \;\colon\; V \longrightarrow \mathbb{R}_{\geq 0}
+   $$
+
+   from the underlying [[set]] of $V$ to the [[non-negative number|non-negative]] [[real numbers]],
+
+such that for all $c \in \mathbb{R}$ with [[absolute value]] ${\vert c \vert}$ and all $v , w \in V$ it holds true that
+
+1. (linearity) ${\Vert c v \Vert} = {\vert c \vert} {\Vert v \Vert }$;
+
+1. ([[triangle inequality]]) ${\Vert v+w \Vert} \leq {\Vert v \Vert } + {\Vert w \Vert}$;
+
+1. (non-degeneracy) if ${\Vert v \Vert} = 0$ then $v = 0$.
+
+=--
+
+
+
++-- {: .num_prop #MetricSpaceFromNormedVectorSpace}
+###### Proposition
+
+Every [[normed vector space]] $(V, {\Vert {-} \Vert})$
+becomes a [[metric space]] according to def. \ref{MetricSpace} by setting
+
+$$
+  d(x,y) \coloneqq {\Vert x-y \Vert}
+  \,.
+$$
+
+=--
+
+Examples of [[normed vector spaces]] (def. \ref{NormedVectorSpace}) and hence, via prop. \ref{MetricSpaceFromNormedVectorSpace},
+of [[metric spaces]] include the following:
+
++-- {: .num_example #EuclideanNorm}
+###### Example
+**([[Euclidean space]])**
+
+For $n \in \mathbb{N}$, the [[Cartesian space]]
+
+$$
+  \mathbb{R}^n
+    =
+   \left\{
+     \vec x
+     =
+     (x_i)_{i = 1}^n
+     \vert
+      x_i \in \mathbb{R}
+   \right\}
+$$
+
+carries a [[norm]] (the _Euclidean norm_ ) given by the [[square root]] of the [[sum]] of the [[squares]] of the components:
+
+   $$
+     {\Vert \vec x \Vert}
+       \;\coloneqq\;
+     \sqrt{
+     \underoverset{i = 1}{n}{\sum}
+       (x_i)^2
+     }
+     \,.
+   $$
+
+Via prop. \ref{MetricSpaceFromNormedVectorSpace} this gives $\mathbb{R}^n$ the structure of a
+[[metric space]], and as such it is called the _[[Euclidean space]]_ of [[dimension]] $n$.
+
+=--
+
++-- {: .num_defn #pNorm}
+###### Example
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Vector-p-Norms_qtl1.svg/220px-Vector-p-Norms_qtl1.svg.png" width="200">
+</div>
+
+More generally, for $n \in \mathbb{N}$, and $p \in \mathbb{R}$, $p \geq 1$, then the [[Cartesian space]] $\mathbb{R}^n$ carries the _[[p-norm]]_
+
+   $$
+     {\Vert \vec x \Vert}_p  \coloneqq \root p {\sum_i {|x_i|^p}}
+   $$
+
+
+In this first part we discuss the foundations of the concept of "sets equipped with topology"
+([[topological spaces]]) and of [[continuous functions]] between them.
+
+
+
+$\,$
+
++-- {: principle}
+**([[classical logic]])**
+
+The [[proofs]] in the following freely use the [[principle of excluded middle]], hence [[proof by contradiction]],
+and in a few places they also use the [[axiom of choice]]/[[Zorn's lemma]].
+
+Hence we discuss [[topology]] in its traditional form with [[classical logic]].
+
+We do however highlight the role of [[frame]] homomorphisms (def. \ref{HomomorphismOfFramesOfOpens} below) and that of [[sober topological spaces]] (def. \ref{Sober} below). These concepts pave the way to a [[constructive mathematics|constructive]]
+formulation of [[topology]] in terms not of [[topological spaces]] but in terms of _[[locales]]_ (remark \ref{Locales} below).
+For further reading along these lines see [Johnstone 83](locale#Johnstone83).
+
+=--
+
+$\,$
+
++-- {: principle}
+**([[set theory]])**
+
+Apart from [[classical logic]], we assume the usual informal concept of [[sets]]. The reader (only) needs to
+know the concepts of
+
+1. [[subsets]] $S \subset X$;
+
+1. [[complements]] $X \setminus S$ of subsets;
+
+1. [[image]] sets $f(X)$ and [[pre-image]] sets $f^{-1}(Y)$ under a [[function]]
+$f \colon X \to Y$;
+
+1. [[unions]] $\underset{i \in I}{\cup} S_i$ and [[intersections]] $\underset{i \in I}{\cap} S_i$ of [[dependent type|indexed sets of]] subsets $\{S_i \subset X\}_{i \in I}$.
+
+The only rules of set theory that we use are the
+
+1. [[interactions of images and pre-images with unions and intersections]]
+
+1. [[de Morgan duality]].
+
+For reference, we recall these:
+
++-- {: .num_prop #PreservationOfUnionsAndIntersectionsOfSets}
+###### Proposition
+**([[images]] preserve [[unions]] but not in general [[intersections]])**
+
+Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{S_i \subset X\}_{i \in I}$ be a set of [[subsets]] of $X$. Then
+
+1. $f\left( \underset{i \in I}{\cup}  S_i\right) = \left(\underset{i \in I}{\cup} f(S_i)\right)$ (the [[image]] under $f$ of a [[union]] of subsets is the union of the images)
+
+1. $f\left( \underset{i \in I}{\cap}  S_i\right) \subset \left(\underset{i \in I}{\cap} f(S_i)\right)$ (the [[image]] under $f$ of the [[intersection]] of the subsets is contained in the intersection of the images).
+
+The [[injective function|injection]] in the second item is in general proper. If $f$ is an [[injective function]] and if $I$ is [[inhabited set|non-empty]], then this is a [[bijection]]:
+
+* $(f\,\text{injective}) \Rightarrow \left(f\left( \underset{i \in I}{\cap}  S_i\right) = \left(\underset{i \in I}{\cap} f(S_i)\right)\right)$
+
+
+=--
+
++-- {: .num_prop #PreservedByPreImages}
+###### Proposition
+**([[pre-images]] preserve [[unions]] and [[intersections]])**
+
+Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{T_i \subset Y\}_{i \in I}$ be a set of [[subsets]] of $Y$. Then
+
+1. $f^{-1}\left( \underset{i \in I}{\cup}  T_i\right) = \left(\underset{i \in I}{\cup} f^{-1}(T_i)\right)$ (the [[pre-image]] under $f$ of a [[union]] of subsets is the union of the pre-images),
+
+1. $f^{-1}\left( \underset{i \in I}{\cap}  T_i\right) = \left(\underset{i \in I}{\cap} f^{-1}(T_i)\right)$ (the [[pre-image]] under $f$ of the [[intersection]] of the subsets is contained in the intersection of the pre-images).
+=--
+
++-- {: .num_prop #deMorgan}
+###### Proposition
+**([[de Morgan's law]])**
+
+Given a [[set]] $X$ and a set of subsets
+
+$$
+  \{S_i \subset X\}_{i \in I}
+$$
+
+then the [[complement]] of their [[union]] is the [[intersection]] of their [[complements]]
+
+$$
+  X \setminus
+  \left(
+     \underset{i \in I}{\cup}  S_i
+  \right)
+  \;\;=\;\;
+   \underset{i \in I}{\cap}
+   \left(
+      X \setminus S_i
+   \right)
+$$
+
+and the [[complement]] of their [[intersection]] is the [[union]] of their [[complements]]
+
+$$
+  X \setminus
+  \left(
+     \underset{i \in I}{\cap}  S_i
+  \right)
+  \;\;=\;\;
+   \underset{i \in I}{\cup}
+   \left(
+      X \setminus S_i
+   \right)
+  \,.
+$$
+
+Moreover, taking complements reverses inclusion relations:
+
+$$
+  \left(
+    S_1 \subset S_2
+  \right)
+  \;\;\Leftrightarrow\;\,
+  \left(
+    X\setminus S_2 \subset X \setminus S_1
+  \right)
+  \,.
+$$
+
+=--
+
+
+=--
+
+$\,$
