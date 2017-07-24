@@ -17,7 +17,8 @@
 
 ## Idea
 
-A **tricategory** is a particular [[algebraic definition of higher category|algebraic]] notion of _weak_ [[3-category]].  The idea is that a tricategory is a category _weakly_ [[enriched category|enriched]] over [[Bicat]]: the [[hom-object|hom-objects]] of a tricategory are [[bicategories]], and the associativity and unity laws of [[enriched category|enriched categories]] hold only up to coherent equivalence.
+A **tricategory** is a particular [[algebraic definition of higher category|algebraic]] notion of _weak_ [[3-category]]. 
+The idea is that a tricategory is a category _weakly_ [[enriched category|enriched]] over [[Bicat]]: the [[hom-object|hom-objects]] of a tricategory are [[bicategories]], and the associativity and unity laws of [[enriched category|enriched categories]] hold only up to coherent equivalence.
 
 ## Coherence theorems
 {#Coherence}
@@ -38,9 +39,9 @@ The monoidal product is given by [[tensor product]] over $R$.
 
 By [[delooping]] this once, this gives an example of a [[tricategory]] with a single object.
 
-The tricategory statement follows from theorem 21 of
+The tricategory statement follows from Theorem 24 in either the journal version, or the arXiv:0711.1761v2 version of:
 
-* [[Richard Garner]], [[Nick Gurski]], _The low-dimensional structures that tricategories form_ ([arXiv:0711.1761](http://arxiv.org/abs/0711.1761))
+* [[Richard Garner]], [[Nick Gurski]]: The low-dimensional structures formed by tricategories. Math. Proc. Camb. Phil. Soc. 146 (2009),pp. 551--589, ([arXiv:0711.1761](http://arxiv.org/abs/0711.1761))
 
 This, and that the monoidal bicategory is even symmetric monoidal is given by the main theorem in
 
