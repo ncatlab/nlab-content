@@ -83,7 +83,7 @@ $$
    \mathbb{S} \longrightarrow \mathbb{S}^{C_p} \longrightarrow \mathbb{S}^{t C_p}
 $$
 
-(the first being the $( B C_p \times (-) \dashv (-)^{C_p} )$-[[unit of an adjunction|unit]] into the [[homotopy fixed points]], the second the defining morphism into the [[Tate spectrum]]  ). These canonically carry equivariant structure (...) and hence make $\mathbb{S}$ a cyclotomic spectrum.
+(the first being the $( B C_p \times (-) \dashv (-)^{C_p} )$-[[unit of an adjunction|unit]] into the [[homotopy fixed points]], the second the defining morphism into the [[Tate spectrum]]  ). These canonically carry equivariant structure (...) and hence make $\mathbb{S}$ a cyclotomic spectrum in the sense of def. \ref{CyclotomicSpectrumViaTateSpectra}.
 
 As such it is equivalently $\mathbb{S} \simeq THH(\mathbb{S})$ according to example \ref{THHCarriesCyclotomicStructure}.
 
