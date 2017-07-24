@@ -30,7 +30,7 @@ A _unitor_ in [[category theory]] and [[higher category theory]] is an [[isomorp
 
 ### In bicategories
 
-In a [[bicategory]] the [[composition]] of [[1-morphism]]s does not satisfy [[uniticity]] as an equation, but ther are natural _unitor_ 2-morphisms 
+In a [[bicategory]] the [[composition]] of [[1-morphism]]s does not satisfy [[uniticity]] as an equation, but there are natural _unitor_ 2-morphisms 
 
 $$
   Id \circ f \stackrel{\simeq}{\Rightarrow} f
