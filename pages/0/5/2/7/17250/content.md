@@ -170,6 +170,8 @@ To sum up: it seems that the most promising direction to spell out a concept of 
 
 * [[construction in philosophy]]
 
+* [[Attempt to Introduce the Concept of Negative Quantities into Philosophy|Concept of Negative Quantities]]
+
 * [[Aufhebung]]
 
 * [[Science of Logic]]
