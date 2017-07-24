@@ -56,7 +56,7 @@ A _cyclotomic spectrum_ is
 
 ([Nikolaus-Scholze 17, def. 1.3, def. II.1.1](#NikolausScholze17)).
 
-This is equivalent to the traditional definition for spectra whose [[stable homotopy groups]] are bounded from below ([Nikolaus-Scholze 17, theorem 1.4](#NikolausScholze17)).
+This is equivalent to the traditional definition for spectra whose [[stable homotopy groups]] are bounded from below ([Nikolaus-Scholze 17, theorem 1.4](#NikolausScholze17)). More formally, theorem II.6.9 states that the forgetful functor $CycSp^{gen} \to CycSp$ (Prop. II.3.4) induces an equivalence between the subcategories of those objects whose underlying non-equivariant spectra are bounded below.
 
 ## Examples
  {#Examples}
