@@ -1,13 +1,32 @@
 
 > This article is about "digraphs" in the usual combinatorial sense. 
 For the usual notion of directed graph in category theory, see [[quiver]].
+The basic connection is: every directed graph is a quiver, not every quiver is a digraph. 
+(In a reasonably loose sense of "is": type-theoretically speaking, not every directed graph is a quiver, the formalizations being different.)
 
 #Contents#
 * table of contents
 {:toc}
 
 
+## Ideas
 
+Digraphs are one way to formalize the idea of a *network* consisting *points with connections*. 
+
+Many ways to do so exist. The particular sense of "digraph" documented here is a widespread one in the combinatorial literature, the underlying *idea* being that in this formalization the connections have some sort of *material existence*, lying around in a [[set]] of *all* connections there could possibly be, and *some* of them then being selected to form the network. 
+This gives this definition a distinctive combinatorial flavour. 
+
+Conceptually this is quite *distinct* from the *idea* underlying the definition of [[quivers]], wherein there are *only as many connections as one would like to have from the get-go*, and one then uses [[functions]], or, in another way of looking at it, [[functors]], to describe what is connected to what, and how. 
+
+Conceptually, this distinction can meaningfully be compared with the distinction between [[material set theory]] and [[structural set theory]]: with digraphs, the connections within a network have a material existence[^1], independent of that network.
+With [[quivers]], one encodes the connections, encoding the information of what 
+
+[^1]: This can be taken quite literally: mathematicians working in combinatorics tend to think of the connections as things lying about, some of them being of interest and selected. 
+Moreover, the material point of view leaves the encoding-concept still up to the person using it: e.g. in programming, the connections have a material existence as some part of a data structure, and physically as some mark in some storage device. 
+In the material point of view, issues of how to represent the connections loom large (think of the various different data structures for digraphs, such as signed adjacency matrices, signed incidence matrices, linked lists for adjacency *lists*).  
+The structural point of view, exemplified by [[quivers]], in a way already fixes the concept: functions, and it then only remains to be decided how to represent function. 
+These differences are not absolutely clear cut, yet distinct enough to be meaningful. 
+All these points of view have disadvantages and advantages and it depends on what one is trying to do what one should use.
 
 ## Definition
 
