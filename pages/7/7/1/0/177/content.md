@@ -1,4 +1,4 @@
-> This entry is meant to be a **disambiguation page**, plus some commentary that would not fit well on either of the pages [[digraph]] and [[quiver]]. 
+> This entry is meant to be a **disambiguation page**, plus some **commentary** that would not fit well on either of the pages [[digraph]] and [[quiver]]. 
 The term "directed graph" is somewhat intermediate between two rather precisely delineated terms: [[digraph]] and [[quiver]].
 In a sense, "directed graph" is an undefined term, but the latter two both are defined. 
 Every digraph is a quiver, not every quiver is a [[digraph]].
@@ -26,7 +26,7 @@ The definition varies---even within *one* of the two theories.
 In [[graph theory]], _directed graph_ (often abbreviated to the contraction _digraph_) usually means [[simple directed graph]], and in [[category theory]], _directed graph_ or _digraph_ usually means [[quiver]], hence may have multiple edges and loops. 
 The basic *difference* is (according to one *widespread convention*) to have *digraphs* imply that there be neither any loop nor any *parallel* arc (directed cycles of length two *are* allowed in a digraph; cf. e.g. [Section 1.2](#DG2nd)). 
 
-From a category-theoretic point of view, it is not superfluous to state the obvious fact that this is somewhat orthogonal to how the underlying [[quiver]] of a category looks like: _such_ a quiver *always* has a loop at each vertex, and, usually, many parallel arcs. 
+From a category-theoretic point of view, it is not superfluous to state the obvious: a [[digraph]] never is the [[quiver]] underlying any category: _such_ a quiver *always* has a loop at each vertex, and, usually, many parallel arcs. 
 In particular, the *underlying quiver of a category is never a digraph* (in the sense of, e..g,[BJG2009](#DG2nd)).
 
 There is an article of [[William Lawvere]] which is relevant for a page documenting different treatments of the idea of directed graphs, such as this one.  Therein, one reads (cf. [p. 272](#GeneralizedGraphs)) [^1]
@@ -34,7 +34,7 @@ There is an article of [[William Lawvere]] which is relevant for a page document
 [^1]: Technical note: the author of the above passage drew a box around the (diagram of) the category E. This is missing for technical reasons. 
 :  
 
-> [..] the elementary "parallel process" $E= \bullet\overset{\rightarrow}{\rightarrow}\bullet$ is a reflexive graph which happens to admit only one definition of composition making it into a category $\mathbf{P}$. [..] Its actions $S^{\mathbf{P}^{\mathrm{op}}}$ are the **irreflexive** graphs (the negative is in a way appropriate even for those objects which happen to have loops at some point $p$, for morphisms are allowed to interchange *any* two such loops).
+> [..] the elementary "parallel process" $E= \bullet\overset{\rightarrow}{\rightarrow}\bullet$ is a reflexive graph which happens to admit only one definition of composition making it into a category $\mathbf{P}$. [..] Its [[actions]] $S^{\mathbf{P}^{\mathrm{op}}}$ are the **irreflexive** graphs (the negative is in a way appropriate even for those objects which happen to have loops at some point $p$, for morphisms are allowed to interchange *any* two such loops).
 
 
 
@@ -54,6 +54,23 @@ In this approach, parallel arcs or loops are of secondary importance.
 From a graph-theoretical point of view, it is not superfluous to emphasize the obvious: *every digraph is a quiver*, but *not every quiver is a digraph* (again, in the sense of [BJG2009](#DG2nd)).
 
 
+
+The convention of formalising directed graphs like in [[digraph]]is widespread in modern combinatorics, but it is mostly just that: conventional. 
+In particular there is no mathematical reason to take the [[relative complement]] of $V\times V$ and the diagonal $\{(v,v)\colon v\in V\}$. 
+
+Such a definition can be see as either needlessly complicated and negative, or simpler and more intuitive than [[quivers]]. 
+This is a matter of opinion and culture; similar comparisons can be found in what is perhaps the earliest article reviewing graph theory from a category theoretic perspective (cf. [p. 2](#BumbyLatch1986)).
+
+The main point is: *both* [[quivers]] and [[digraphs]] use [[sets]], but [[digraphs]] use a [[limit]] in the category of sets. 
+
+It is a fact that [[quivers]] are more general: to have [[digraphs]] offer multiple arcs or loops requires additional patching or switching to other definitions---many sources in the combinatorial literature are aware of that,  of course, e.g. [p. 25](#Diestel2010) defines the "term" precisely to be a [[quiver]], just does not mention that word.  
+The restriction to loopless quivers without parallel arcs is mostly a result of *what questions are being asked about them* in combinatorics. 
+
+In the material point of view, issues of how to represent the connections loom large (think of the various different data structures for digraphs, such as signed adjacency matrices, signed incidence matrices, linked lists for adjacency *lists*).  
+The structural point of view, exemplified by [[quivers]], in a way already fixes the concept: functions, and it then only remains to be decided how to represent function. 
+These differences are not absolutely clear cut, yet distinct enough to be meaningful. 
+
+All these points of view have disadvantages and advantages and it depends on what one is trying to do what one should use.
 
 ## Related concepts
 
