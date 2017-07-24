@@ -17,6 +17,8 @@
 
 * [[Critique of Pure Reason]]
 
+* [[Attempt to Introduce the Concept of Negative Quantities into Philosophy|Concept of Negative Quantities]]
+
 * [[transcendental ideal]]
 
 * [[infinite judgement]]
