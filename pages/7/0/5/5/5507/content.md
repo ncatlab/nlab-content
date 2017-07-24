@@ -64,6 +64,8 @@ This appears as [[Higher Topos Theory|HTT, cor. 7.2.2.30]].
 
   * **cohomological dimension** 
 
+  * [[virtual cohomological dimension]]
+
   * [[covering dimension]]
 
   * [[Heyting dimension]]
