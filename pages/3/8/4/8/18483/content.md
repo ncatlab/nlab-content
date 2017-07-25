@@ -1,6 +1,7 @@
+
 # Contents 
 * table of contents 
-{:toc}
+{: toc}
 
 ## Introduction 
 
@@ -32,7 +33,7 @@ The genesis of every article is recorded in a revision history. Thus every contr
 
 +-- {: .num_remark} 
 ###### Remark 
-There is a uniform Joker name applied to those who don't perform an edit under their own names: "Anonymous Coward". *This should be taken as a joke*; there is no judgment intended (the label "Anonymous Coward" for unsigned edits is hardcoded into the wiki software).  An edit attributed to "Anonymous Coward" could be a case of someone who didn't submit under their real name because they forgot, or it could be someone who has good reason not to submit under their real name -- whatever. It's none of our business. We appreciate all the good edits made by the "Anonymous Cowards" out there just as we do those made by everyone else.  However, we do encourage everyone to use their own name, or at least a consistent alias, if possible.
+There is a uniform Joker name applied to those who don't perform an edit under their own names: "[[Anonymous]]". (This was originally "Anonymous Coward", a joke.)  An edit attributed to "Anonymous" could be a case of someone who didn't submit under their real name because they forgot, or it could be someone who has good reason not to submit under their real name -- whatever. It's none of our business. We appreciate all the good edits made by the "Anonymous Cowards" out there just as we do those made by everyone else.  However, we do encourage everyone to use their own name, or at least a consistent alias, if possible.
 =-- 
 
 ## Some obvious truisms 
@@ -150,3 +151,7 @@ Unlike the above advice about notation, such variations in spelling and punctuat
 ## References 
 
 * Paul Halmos, *How To Write Mathematics*, Enseign. Math. (2) 16 (1970), 123-152. ([online pdf](http://www2.math.uu.se/~takis/ETC/Halmos_howToWriteMath.pdf)) 
+
+
+[[!redirects writing in the nLab]]
+[[!redirects writing on the nLab]]
