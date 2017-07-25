@@ -55,3 +55,24 @@ Digraphs are one of the ways to formalize the idea of *directed connections betw
 
 
 ## Definitions
+
+
++-- {: .num_defn #Digraph}
+###### Definition
+**(digraph; directed graphs via [[material set theory]])**
+
+A digraph is a [[pair]] $(V,A)$ of [[sets]], with $A\subseteq V\times V\setminus\{ (v,v)\colon v\in V\}$.
+The elements of $V$ are called *vertices*, the elements of $A$ are called *arcs*. 
+
+
+=--
+
++-- {: .num_defn #Neighbourhoods}
+###### Definition
+**(in-neighborhood, out-neighbourhood)**
+
+Suppose $D=(V,A)$ is a digraph and $v\in V$. The *in-neighborhood* of $v$ in $D$, denoted $N^{\leftarrow}_D(v)$, is the set $\{ u\in V\colon (u,v)\in A\}$. The *in-neighborhood* of $v$ in $D$, denoted $N^{\rightarrow}_D(v)$, is the set $\{ u\in V\colon (v,u)\in A\}$.
+
+
+=--
+
