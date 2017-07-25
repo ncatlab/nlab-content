@@ -5,5 +5,6 @@
 ## related $n$Lab entries
 
 * [[Thom spectrum]]
+* [[cyclotomic space]]
 
 category: people
