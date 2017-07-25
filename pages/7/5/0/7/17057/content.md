@@ -30,6 +30,10 @@ $$
 
 (e.g [Lurie, def. 6.1.6.24](#Lurie))
 
++-- {: .standout } 
+Depending on which edition you have, chapter 6 may be chapter 7.
+=--
+
 For the [[stable (∞,1)-category of spectra]] this is accordingly called the _Tate spectrum_.
 
 ## Examples
