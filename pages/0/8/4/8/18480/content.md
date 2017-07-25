@@ -9,14 +9,26 @@
 
 ***
 
-
-
-This article is about "digraphs" in the usual combinatorial sense. 
-For the usual notion of directed graph in category theory, see [[quiver]]. 
+This page is about a formalization of the concept of [[directed graphs]] that is usual in combinatorics. 
+For the usual definition of directed graph in category theory, see [[quiver]]. 
 For some commentary on how the two formalizations relate to one another, see [[directed graph]].
 The basic connection is: every directed graph is a quiver, not every quiver is a digraph. 
 (In a reasonably loose sense of "is": type-theoretically, not every directed graph is a quiver, the formalizations being different.)
 
+
+
+
+$\,$
+
+disambiguation nLab page: _[[directed graph]]_
+
+**this nLab page:** _directed graphs -- the combinatorial definition_: digraph
+
+related nLab page: _directed graphs -- the category-theoretic definition_: [[quivers]]
+
+$\,$
+
+See also [[geometric shape for higher structures]].
 
 
 ***
@@ -33,7 +45,13 @@ $\,$
 =--
 =--
 
-
-
+#Digraphs#
 * table of contents
 {:toc}
+
+## Idea
+
+Digraphs are one of the ways to formalize the idea of *directed connections between [[points]]*: to use the [[category of sets]] and its limits, and to *choose* the *desired* connections from a usually much larger reservoir of *possible* connections. This has advantages and disadvantages. Other ways of formalization, such as [[quivers]], from the outset *start* with *only* the desired connections.
+
+
+## Definitions
