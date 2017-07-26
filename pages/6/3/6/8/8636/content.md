@@ -1,6 +1,9 @@
+
+## Idea
+
 Pasting schemes are one possibility to give a rigorous treatment of  the (older) notational device of [[pasting diagrams]]. 
 
-They appear to have been introduced by M. Johnson in [Chapter 2](#Johnson1987).
+They appear to have been introduced in ([Johnson 1987](#Johnson1987)).
 
 
 
