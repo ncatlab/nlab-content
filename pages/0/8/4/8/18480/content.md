@@ -28,10 +28,9 @@ $\,$
 
 ## Idea
 
-In combinatorics, a **digraph** (a shortening of *directed graph*) consists of a [[set]] and a [[binary relation]] on that set that is [[irreflexive relation|irreflexive]]. The elements of the set are called *nodes* or *vertices*, and elements of the relation are called *edges* or *arcs*; the idea is that whenever an ordered pair $(x, y)$ belongs to the relation, then we depict it as an arrow or directed edge going from node $x$ to node $y$. The irreflexivity condition means there is never an edge from a node to itself. 
+In combinatorics, a **digraph** (a shortening of *directed graph*)  consists of a [[set]] and a [[binary relation]] on that set that is [[irreflexive relation|irreflexive]]. The elements of the set are called *nodes* or *vertices*, and elements of the relation are called *edges* or *arcs*; the idea is that whenever an ordered pair $(x, y)$ belongs to the relation, then we depict it as an arrow or directed edge going from node $x$ to node $y$. The irreflexivity condition means there is never an edge from a node to itself. 
 
 ## Definitions
-
 
 +-- {: .num_defn #Digraph}
 ###### Definition
@@ -43,71 +42,218 @@ The elements of $V$ are called *vertices*, the elements of $A$ are called *arcs*
 
 =-- 
 
-+-- {: .num_example} 
++-- {: .num_example #ExampleDigraph} 
 ###### Example 
-A basic example of a digraph is an [[ordinal]] $\ell$ where $V$ is the underlying set of $\ell$ and $A$ is the relation $\{(i, i+1): i, i+1 \in \ell\}$. 
+A basic example of a digraph is an [[ordinal]] $\alpha$ where $V$ is the underlying set of $\alpha$ and $A$ is the relation $\{(i, i+1): i, i+1 \in \alpha\}$. 
 =-- 
 
 +-- {: .num_defn #Neighbourhoods}
 ###### Definition
 **(in-neighborhood, out-neighbourhood)**
 
-Suppose $D=(V,A)$ is a digraph and $v\in V$. The *in-neighborhood* of $v$ in $D$, denoted $N^{\leftarrow}_D(v)$, is the set $\{ u\in V\colon (u,v)\in A\}$. The *out-neighborhood* of $v$ in $D$, denoted $N^{\rightarrow}_D(v)$, is the set $\{ u\in V\colon (v,u)\in A\}$.
-
+Suppose $D=(V,A)$ is a digraph and $v\in V$. 
+The *in-neighborhood* of $v$ in $D$, denoted $N^{\rightarrow}_D(v)$, is the set $\{ u\in V\colon (u,v)\in A\}$. The *out-neighborhood* of $v$ in $D$, denoted $N^{\leftarrow}_D(v)$, is the set $\{ u\in V\colon (v,u)\in A\}$.
 
 =--
+
+We note that the rationale for the slightly non-standard notation $N^{\leftarrow}_D(v)$ is to have it be intuitively understandable: the arrow points away from the vertex and points to the letter which stands for the set which contains the out-neighbours.
 
 
 +-- {: .num_defn #Degrees}
 ###### Definition
 **(in-degree, out-degree)**
 
-
-
-Suppose $D=(V,A)$ is a digraph and $v\in V$. The *in-degree* of $v$ in $D$, denoted $d^{\leftarrow}_D(v)$, is the [[cardinality]] of the in-neighborhood of $v$ in $D$. The *out-degree* of $v$ in is defined analogously.
+Suppose $D=(V,A)$ is a digraph and $v\in V$. 
+The *in-degree* of $v$ in $D$, denoted $d^{\rightarrow}_D(v)$, is the [[cardinality]] of the in-neighborhood of $v$ in $D$. The *out-degree* of $v$ in is defined analogously.
 
 
 =--
+
+
++-- {: .num_defn #CategoryOfDigraphs}
+###### Definition
+**(category of digraphs, digraph morphism)**
+The *category of digraphs*, denoted $\mathsf{Dgr}$, is the concrete 1-category whose objects are the digraphs, and which, for arbitrary digraphs $D=(V,A)$ and $D'=(V',A')$ has hom-set $\mathsf{Dgr}(D,D')$ equal to the set of all set-maps $V\overset{f}{\rightarrow}V'$ such that for all $u,v\in V$, $(u,v)\in A$ implies $(f(u),f(v))\in A'$. 
+The morphisms of $\mathsf{Dgr}$ are called *digraph-morphisms*. 
+
+=--
+
+Note that the category $\mathsf{Dgr}$ is equivalent to a full subcategory of [[Quiv]].
 
 
 
 +-- {: .num_defn #Walk}
 ###### Definition
 **(walk in a digraph)**
-
-Suppose $D=(V,A)$ is a digraph. A *walk* in $D$ is a [[sequence]] $P\colon\ell\rightarrow V\cup A$, where $\ell$ is an [[ordinal]], with $P(0)\in V$, and such that for all $i\in\ell$,  $P(2i)\in V$, $P(2i+1)\in A$, and $P(2i+1) = (P(2i),P(2i+2))$. 
-The [[cardinality]] of the ordinal $\ell$ is called the *length* of $P$.
-
+Suppose $D=(V,A)$ is a digraph. 
+A *walk in $D$* is a *digraph-morphism into $D$ whose domain is an ordinal*. (Note that ordinals are digraphs, as per Definition \ref{ExampleDigraph}).
 
 =--
 
-Note that $\ell=0$ is permitted; then, the only non-vacous condition is that $P(0)$ be an element of $V$. That is, a path cannot start with an arc. 
 
++-- {: .num_defn #WalkElementary}
+###### Definition
+**(walk in a digraph; elementary definition)**
+
+Suppose $D=(V,A)$ is a digraph. 
+A *walk* in $D$ consists of the data 
+
+* a [[sequence]] $P\colon\alpha\rightarrow V$, with  $\alpha\in\omega+1$ (successor of the first [[limit ordinal]]), 
+
+and the axiom
+
+* for all $i\in\alpha$, if $i+1\in\alpha$, then $(P(i),P(i+1))\in A$.
+
+If $\alpha=0$, then $P$ is called *the empty walk*. 
+The phrase *$\alpha$-vertex path* means any *path whose domain is $\alpha$*.
+
+=--
+
+Crucially, the axiom, combined with digraphs always being *irreflexive*, implies that always $\neg \, (P(i)=P(i+1))$. Walks are only allowed to be non-injective *every other step*, so to speak. 
+
++-- {: .num_example #TheLeastInjectiveWalk} 
+###### Example 
+In a sense the *least injective* walk is obtained by considering any digraph containing a *2-cycle* (see below) $C$, taking $\alpha=\omega$ and defining $P$ to alternate back and forth on $C$ forever. 
+This walk has a two-element image. 
+=-- 
+
+
+Definition \ref{WalkElementary} is evidently equivalent to Definition \ref{Walk}.
+We note that $\omega+1=\omega\cup\{\omega\}$, and that $\alpha=0$ is permitted; then the axiom is vacuous (the hypothesis being always false), and $P$ then is the empty function (since $0$ is [[initial]] in [[Set]]) and hence the [[empty set]]. 
+Note also that if e.g. $\alpha=\omega$, then the set of indices to which the axiom applies are precisely the finite ordinals. 
+
+
++-- {: .num_defn #StartAndEndVertices}
+###### Definition
+**(start vertex, $A$-$B$-walk in a digraph)**
+
+Suppose $D=(V,A)$ is a digraph. 
+Suppose $\alpha\overset{P}{\rightarrow} V$ is a non-empty walk in $D$. 
+Then $P(0)$ is called the *start vertex* of $P$. 
+Suppose that $A,B$ are [[subsets]] of $V$, not necessarily disjoint. 
+Then $P$ is an $A$--$B$-path if and only if $\alpha\gt 0$ is a finite ordinal and $P(0)\in A$, $P(\alpha-1)\in B$ and $0\lt i\lt \alpha-1$ implies $\neg\, (P(i)\in A\cup B)$. 
+If $A=\{a\}$ and $B=\{b\}$ are singletons, one also writes $a$--$b$-path for *$\{a\}$--$\{b\}$-path*. 
+
+
+
+=--
 
 +-- {: .num_defn #Trail}
 ###### Definition
 **(trail in a digraph)**
 
 Suppose $D=(V,A)$ is a digraph. 
-A *trail* in $D$ is a walk $P$ in $D$ such that the [[restriction]] $P|_{  \{2i\colon i\in\ell\} }$ is injective as a [[function]].
+A *trail* in $D$ is a walk $\alpha\overset{P}{\longrightarrow}V$ such that the [[function]] $\alpha\rightarrow A$ with $\alpha(i)=(P(i),P(i+1))$ is  injective.
 
 =--
 
+While having *walk* imply that all the arcs be aligned is very *common*, the following is a rather *un*common definition, which nevertheless has an important role in Power's ([proof](#Power1990)) of unique interpretability of [[pasting schemes]]: 
+
++-- {: .num_defn #WeakWalkElementary}
+###### Definition
+**(weak walk in a digraph;)**
+
+Suppose $D=(V,A)$ is a digraph. 
+A *weak walk* in $D$ consists of the data 
+
+* a [[sequence]] $P\colon\alpha\rightarrow V$, with  $\alpha\in\omega+1$ (successor of the first [[limit ordinal]]), 
+
+and the axiom
+
+* (under revision)
+
+=--
+
++-- {: .num_defn #WeakTrail}
+###### Definition
+**(trail in a digraph)**
+
+Suppose $D=(V,A)$ is a digraph. 
+A *weak trail* in $D$ is a weak walk $\alpha\overset{P}{\longrightarrow}V$ such that the [[function]] $\alpha\rightarrow A$ with $\alpha(i)=(P(i),P(i+1))$ is  injective.
+
+=--
+
+Note that a *weak trail* precisely satisfies the [[red herring principle]]: in need not be trail (but it can happen to be).
 
 
 +-- {: .num_defn #Path}
 ###### Definition
 **(path in a digraph)**
 
-Suppose $D=(V,A)$ is a digraph. A *path* in $D$ is a trail $P$ in $D$ such that  $P$ itself is [[injective]] as a [[function]]. 
+Suppose $D=(V,A)$ is a digraph. 
+A *path* in $D$ is a trail $P$ in $D$ such that $P$ is [[injective]] as a [[function]]. 
 
 =--
 
 Note that the standard meaning of "path" in (di)graph theory is different to the standard topological meaning of [[path]]. 
-In (di)graph theory, a path never has self-intersections, and hence (essentially) is a (di)graph isomorphism onto its image, while in topology the term *path* signals that self-intersections *are* permitted. 
+In (di)graph theory, a path never has self-intersections, and hence is a (di)graph isomorphism onto its image, while in topology the term *path* signals that self-intersections *are* permitted. 
 The standard term in topology for a path which is *free of self-intersections* is [[arc]] (eg [Kowalksky 1965](#Kowalksky65), Definition 29b). 
 As a saving grace, the standard way to rigorously define the arcs of *plane* digraphs uses precisely the topological [[arcs]]. 
 
+
+
++-- {: .num_defn #Ray}
+###### Definition
+**(ray in a digraph)**
+
+Suppose $D=(V,A)$ is a digraph. 
+A *ray* in $D$ is a path $P$ in $D$ such that $\mathrm{dom}(P)=\omega$ is the first limit ordinal.
+
+=--
+
+
++-- {: .num_example} 
+###### Example 
+Every ray is isomorphic in $\mathsf{Dgr}$ to the digraph $\omega$ from Example  \ref{ExampleDigraph}.
+
+=--
+
+
++-- {: .num_defn #CycleInDigraph}
+###### Definition
+**(cycle in a digraph)**
+
+Suppose $D=(V,A)$ is a digraph. 
+A *cycle* in $D$ is a trail $\alpha\overset{P}{\rightarrow}V$ in $D$ such 
+
+* $2 \lt \alpha \lt \omega$
+
+* the [[restriction]] $P|_{\alpha-1}$ is an [[injective]] function
+
+* $P(0)=P(\alpha-1)$
+
+=--
+
+Note that since $\alpha$ is required to be finite, $\alpha-1$ is defined. 
+
+We remark passing (e.g. there is no use for 2-cycles in the usual [[pasting schemes]]), since the term is so common, that the image of any cycle is a [[finite set]], and that, despite its domain having precisely three elements, a cycle $P$ with $\mathrm{dom}(P)=3$ is traditionally called a *2-cycle*. 
+The reason is that a 2-cycle "has" (to use a usual abuse of language) precisely two arcs. 
+Allowing 2-cycles, yet neither loops nor parallel arcs, has become a  standard meaning of *digraph* in combinatorics.
+
+
+
++-- {: .num_defn #Acyclic}
+###### Definition
+**(acyclic digraph (DAG); classical definition)**
+
+Suppose $D=(V,A)$ is a digraph. 
+Then $D$ is called *acyclic* if and only if there does not exist any cycle in $D$. 
+(A usual abbreviation for *acyclic directed graph* is *DAG*).
+
+
+=--
+
+
+
++-- {: .num_defn #ConstructiveDAG}
+###### Definition
+**(constructive DAG)**
+
+A *constructive DAG* is any digraph satisfying the following axiom:
+
+* (w) etc
+
+=--
 
 
 +-- {: .num_defn #King}
@@ -134,10 +280,10 @@ The term *$\omega$-king* is a natural variant of the usual term *$k$-king* in di
 ###### Definition
 **(plane digraph)**
 
-A *plane digraph* consists of data 
+A *plane digraph* consists of the data 
 
 * a subset $V\subseteq\mathbb{R}^2$ of the [[plane]]
-* a [[set]] $A$ of [[arcs]] (in the usual topological sense), each $a\in A$ having the form $[0,1]\overset{a}{\rightarrow}\mathbb{R}^2$
+* a [[set]] $A$ of [[arcs]] (in the usual topological sense), each $a\in A$ of the form $[0,1]\overset{a}{\rightarrow}\mathbb{R}^2$
 
 and the axioms
 
@@ -151,9 +297,9 @@ and the axioms
 
 =--
 
-Plane digraphs are often introduced into a context like (abstract) digraphs are, i.e. by writing $D=(V,A)$, the type of $D$ being invisible from the notation.
+Note that plane digraphs are often introduced into a context like (abstract) digraphs are, i.e. by writing $D=(V,A)$, although the type of $D$ being is invisible, and although for a plane digraph $D=(V,A)$, we do not (in general) have $A\subseteq V\times V$. 
 
-While this article makes essential use of the treatment of plane graphs given in ([Diestel](#DiestelGraphTheoryFourthEd), Chapter 4), there are adaptations made for the present purposes: 
+We note that this article makes essential use of the treatment of plane graphs given in ([Diestel](#DiestelGraphTheoryFourthEd), Chapter 4), and that there are adaptations made for the present purposes: 
 
 * here, *arc* means arc in the usual topological sense, without exception, while in ([Diestel](#DiestelGraphTheoryFourthEd)) "arc" is defined to be a [[subset]] of the  [[plane]], in particular is not parametrized, in particular does not carry directional information
 
@@ -164,19 +310,33 @@ While this article makes essential use of the treatment of plane graphs given in
 The *convention* to have digraph imply that there be no loops and no parallel arcs, and resort to other terms such as *directed pseudograph* to signal loops or parallel arcs, is widespread in modern combinatorics. 
 For example, see p. 2 of ([Gutin and Bang-Jensen](#DG2nd)), and Section 1.2 of ([Csaba et al](#DecompositionProof)).
 
+
+
 Unsurprisingly, while the convention that digraph implies that there be no parallel arrows has been widely adopted nowadays, there is a generous disregard for whether a digraph may contain loops. In this set-theoretical definition given above, this corresponds to the decision whether to allow $A$ to contain elements of the form $(v,v)$. 
 
 The terms *walk*, *trail* and *path* are standard in modern combinatorics. They are in particular compatible with standard usage in the theory of *undirected* graphs, in that upon forgetting (so to speak) the directions in the various definitions, one obtains the standard notions of walk, trail and path in (undirected) graph theory.
 
-Needless to say (since given by the definitions), in a trail, arc-repetitions are forbidden, and in a path, any repetition is forbidden.
 
-The terminology "king" above is standard in modern digraph theory; the term "coking" is not, but in tune with category-theoretic usages. The term "$\infty$-king" appears not to be attested but is in tune with a standard notion of $d$-king in digraph-theory, and a standard usage in contemporary mathematics to use $\infty$ to indicate that some parameter is permitted to take any value.
+Many (e.g. [p. 11](#DG2nd)) modern reference define walks to be sequences whose codomain conains both vertices and arcs. 
+We do not do so. The definitions are equivalent to all intents and purposes. Having paths consist of vertices only and letting the structure of the target space determine the axioms seems cleaner. 
 
 
-A reason for treating the concept of $\infty$-kings here is A. J. Power's proof ([Power 1990](#Power1990)) of a *pasting theorem*, a rigorous justification of the notational practice of [[pasting diagrams]]: therein, both $\infty$-kings and $\infty$-cokings play an important role (Power calls $\infty$-kings "sources" and $\infty$-cokings "sinks"; both these terms clash with two standard technical terms in, respectively, contemporary digraph theory and flow theory, which is why the alternative terms were chosen).
+Needless to say (since given by the definitions), *in a trail, arc-repetitions are forbidden*, and in a path, any repetition is forbidden.
 
-The choice of definitions documented here is biased towards (one of) the uses digraphs are put to in category theory, in particular in giving a rigorous justification of [[pasting diagrams]]. 
+The perhaps oddly hybrid concept of *trail* has a crucial role in A. J. Power's ([proof](#Power1990)) of unique interpretability of [[pasting schemes]]: any [[face]] of a *plane digraph* determines a *boundary trail* which always is a *weak trail* precisely in the sense of \ref(). 
+
+
+ Generically, such a *boundary trail* has many vertex-repetitions, but it never has any arc-repetition. 
+
+The terminology "king" above is standard in modern digraph theory; the term "coking" is not, but in tune with category-theoretic usages. The term "$\omega$-king" appears not to be attested but is in tune with a standard notion of $d$-king in digraph-theory, and a standard usage in contemporary mathematics to use $\omega$ to indicate that some parameter is permitted to take any value.
+
+
+The choice of definitions documented here is biased towards (one of) the *uses* digraphs are put to in category theory, in particular in giving a rigorous justification of [[pasting diagrams]]. 
 The most salient example of this is the emphasis given to *plane digraphs* in this article. 
+
+A reason for treating the concept of $\omega$-kings here is A. J. Power's proof ([Power 1990](#Power1990)) of a *pasting theorem*, a rigorous justification of the notational practice of [[pasting diagrams]]: therein, both $\omega$-kings and $\omega$-cokings play an important role (Power calls $\omega$-kings "sources" and $\omega$-cokings "sinks"; both these terms clash with two standard technical terms in, respectively, contemporary digraph theory and flow theory, which is why the alternative terms were chosen).
+
+Moreover, Power makes crucial use of a concept of *addition of $a$--$b$-paths*, which is why the notation in Definition \ref(#StartAndEndVertices) was introduced.
 
 
 ## Uses of digraphs in category theory 
@@ -186,7 +346,7 @@ Pasting diagrams are fundamental to [[higher category theory]]: already the axio
 The formal justification of pasting diagrams was achieved in the late 1980. 
 Note that there are more than one definition of [[pasting scheme]] in the literature. 
 E.g. there are M. Johnson's pasting schemes (([Johnson 1987](#Johnson1987), Chapter 2), ([Johnson 1989](#Johnson1989), Section 2)) and Power's pasting schemes ([Power 1990](#Power1990)). 
-The definition which is strictly relevant to the present article is Power's. He defines defines pasting schemes as a special kind of digraph ([Power 1990](#Power1990), Section 3), details will be found at [[pasting scheme]] .
+The definition which is strictly relevant to the present article is Power's. He defines defines pasting schemes as a special kind of digraph ([Power 1990](#Power1990), Section 3), details will be found at [[pasting scheme]].
 
 ## Related concepts
 
