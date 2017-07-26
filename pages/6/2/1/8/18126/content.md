@@ -2022,7 +2022,7 @@ Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}), and let
 +-- {: .proof}
 ###### Proof
 
-If $S \subset C$ is closed in $(C,\tau_{sub})$ this means equivalently that there is an open open subset $V \subset C$ in $(C, \tau_{sub})$ such that
+If $S \subset C$ is closed in $(C,\tau_{sub})$ this means equivalently that there is an open subset $V \subset C$ in $(C, \tau_{sub})$ such that
 
 $$
   S = C \setminus V
@@ -11555,7 +11555,7 @@ hence $f$ is continuous.
 
 In the language of [[category theory]] (remark \ref{TopCategory}), prop. \ref{UniversalPropertyOfMappingSpace}
 says that the [[mapping space]] construction with its [[compact-open topology]] from def. \ref{CompactOpenTopology}
-is an _[[exponential object]]_ or _[[internal hom]]_. This just means that it beahves in all abstract ways just as
+is an _[[exponential object]]_ or _[[internal hom]]_. This just means that it behaves in all abstract ways just as
 a [[function set]] does for plain functions, but it does so for continuous functions and being itself
 equipped with a topology.
 
