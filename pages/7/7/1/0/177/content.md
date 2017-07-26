@@ -23,33 +23,29 @@ Every digraph is a quiver, not every quiver is a [[digraph]].
 The term _directed graph_ is used in both [[graph theory]] and [[category theory]].
 The definition varies---even within *one* of the two theories.
 
-In [[graph theory]], _directed graph_ (often abbreviated to the contraction _digraph_) usually means [[simple directed graph]], and in [[category theory]], _directed graph_ or _digraph_ usually means [[quiver]], hence may have multiple edges and loops. 
-The basic *difference* is (according to one *widespread convention*) to have *digraphs* imply that there be neither any loop nor any *parallel* arc (directed cycles of length two *are* allowed in a digraph; cf. e.g. [Section 1.2](#DG2nd)). 
+In [[graph theory]], _directed graph_ (often abbreviated to the contraction _digraph_) usually means [[simple directed graph]], and in [[category theory]], directed graph/digraph usually means [[quiver]], hence may have multiple edges and loops. 
+The basic *difference* is (according to one *widespread convention*) to have *digraphs* imply that there be neither any loop nor any *parallel* arc (directed cycles of length two *are* allowed in a digraph; cf. e.g. [Gutin and Bang-Jensen 2009](#DG2nd), Section 1.2). 
 
-From a category-theoretic point of view, it is not superfluous to state the obvious: a [[digraph]] never is the [[quiver]] underlying any category: _such_ a quiver *always* has a loop at each vertex, and, usually, many parallel arcs. 
-In particular, the *underlying quiver of a category is never a digraph* (in the sense of, e.g.,[BJG2009](#DG2nd)).
+A [[digraph]] never is the [[quiver]] underlying any category: such a quiver *always* has a loop at each vertex and any number of parallel arcs. 
+In particular, the underlying quiver of a category is never a [[digraph]] (as defined there, and in the sense of [Gutin and Bang-Jensen 2009](#DG2nd) for example).
 
-There is an article of [[William Lawvere]] which is relevant for a page documenting different treatments of the idea of directed graphs, such as this one.  Therein, one reads (cf. [p. 272](#GeneralizedGraphs)) [^1]
-
-[^1]: Technical note: the author of the above passage drew a box around the (diagram of) the category E. This is missing for technical reasons.
+There is an article of [[William Lawvere]] which is relevant for a page documenting different treatments of the idea of directed graphs, such as this one.  Therein, one reads (cf. ([Lawvere 1989](#GeneralizedGraphs), page 272)) 
 
 > [..] the elementary "parallel process" $E= \bullet\overset{\rightarrow}{\rightarrow}\bullet$ is a reflexive graph which happens to admit only one definition of composition making it into a category $\mathbf{P}$. [..] Its [[actions]] $S^{\mathbf{P}^{\mathrm{op}}}$ are the **irreflexive** graphs (the negative is in a way appropriate even for those objects which happen to have loops at some point $p$, for morphisms are allowed to interchange *any* two such loops).
 
 
+With "the negative is in a way appropriate" Lawvere explains the use of the strong negation *irr-*, despite such an "irreflexive graph" being permitted to contain loops at *some* of its vertices, which is obviously different from what one would expect from the usual sense of [[irreflexive relation]]. 
+This is a usage in need of explanation, all the more against the backdrop of contemporary teaching where the term "simple undirected graph" is often literally defined as symmetric irreflexive relation (on the vertex set).
 
-
-With "the negative is in a way appropriate" Lawvere explains the use of the strong negation *irr-*, despite such an "irreflexive graph" being permitted to contain loops at *some* of its vertices, which is obviously different from what one would *expect* from the usual sense of [[irreflexive relation]]. 
-This is a usage in need of explanation, all the more against the backdrop of contemporary teaching where the term "simple undirected graph" is often literally defined as *symmetric irreflexive relation* (on the vertex set).
-
-Some authors have adopted this interesting variant sense of "irreflexive", prompting an additional use of the a modifier "strict" to form a composite "strict irreflexive graph". (cf. [p. 7](#GraphsOfMorphismsOfGraphs); note that [BMSW](#GraphsOfMorphismsOfGraphs) uses "digraph" as a synonym for "strict irreflexive graph", and this sense of "digraph" is precisely the one in [[digraph]]).
+Some authors have adopted this interesting variant sense of "irreflexive", prompting an additional use of the a modifier "strict" to form a composite "strict irreflexive graph". (cf. ([Brown et al 2008](#GraphsOfMorphismsOfGraphs)), which uses "digraph" as a synonym for "strict irreflexive graph", and this sense of "digraph" is precisely the one in [[digraph]]).
 
 
 An example of a use of digraph theory in category theory is giving a rigorous justification of the  notational practice of [[pasting diagrams]]. 
-This was achieved in the late 1980s (cf. e.g. [Johnson87](#Johnson1987), [Johnson89](#Johnson1989), [Power90](#Power1990)). 
+This was achieved in the late 1980s (cf. e.g. [Johnson 1987](#Johnson1987), [Johnson 1989](#Johnson1989), [Power 1990](#Power1990)). 
 In this approach, parallel arcs or loops are of secondary importance. 
 
 
-From a graph-theoretical point of view, it is not superfluous to emphasize the obvious: *every digraph is a quiver*, but *not every quiver is a digraph* (again, in the sense of [BJG2009](#DG2nd)).
+From a graph-theoretical point of view, every digraph is a quiver, but not every quiver is a digraph (again, in the sense of [Gutin and Bang-Jensen 2009](#DG2nd)).
 
 
 
@@ -57,11 +53,11 @@ The convention of formalising directed graphs like in [[digraph]] is widespread 
 In particular there is no mathematical reason to take the [[relative complement]] of $V\times V$ and the diagonal $\{(v,v)\colon v\in V\}$. 
 
 Such a definition can be see as either needlessly complicated and negative, or simpler and more intuitive than [[quivers]]. 
-This is a matter of opinion and culture; similar comparisons can be found in what is perhaps the earliest article reviewing graph theory from a category theoretic perspective (cf. [p. 2](#BumbyLatch1986)).
+This is a matter of opinion and culture; similar comparisons can be found in what is perhaps the earliest article reviewing graph theory from a category theoretic perspective (cf. [Bumby-Latch 1986](#BumbyLatch1986)).
 
 The main point is: the definitions in *both* [[quiver]] and [[digraph]] use [[sets]], but, from a category-theoretic point of view, [[digraph]] uses a [[limit]] in the category of sets: the [[product]] of the vertex set with itself. 
 
-It is a fact that [[quivers]] are more general than [[digraph]]s: to have [[digraph]] offer multiple arcs or loops requires additional patching or switching to other definitions---many sources in the combinatorial literature are aware of that,  of course, e.g. [p. 25](#Diestel2010) defines a "directed graph" precisely to be a [[quiver]], just does not mention that word.  
+It is a fact that [[quivers]] are more general than [[digraph]]s: to have [[digraph]] offer multiple arcs or loops requires additional patching or switching to other definitions---many sources in the combinatorial literature are aware of that,  of course, e.g. ([Diestel 2010](#Diestel2010)) defines a "directed graph" precisely to be a [[quiver]], just does not mention that word.  
 The restriction to loopless quivers without parallel arcs is mostly a result of 
 
 * the *questions* that are answered in the combinatorial literature, 
@@ -75,20 +71,14 @@ The material point of view makes the decision of how to represent the connection
 The structural point of view, exemplified by [[quivers]], in a way already fixes the formalizing concept: functions. 
 It then only remains to be decided how to represent function. 
 
-These differences are not clear-cut, yet meaningful. 
-
 All these points of view have disadvantages and advantages and it depends on what one is trying to do what one should use.
 
 ## Related concepts
 
-  * [[digraph]] (briefly, the usual meaning of this term in combinatorics uses two [[negation]]s: quiver with*out* any loop and with*out* any parallel edges)
-
-  * [[graph]]
-
-  * [[quiver]] (briefly, _the_ usual meaning of this term is _presheaf on the finite, two-object, four-morphism category with two parallel non-endomorphisms_, aka "the walking quiver" or "the elementary parallel process")
-
-  * [[n-quiver]]
-
+* [[digraph]] 
+* [[graph]]
+* [[quiver]]
+* [[n-quiver]]
 * [[ribbon graph]]
 
 
