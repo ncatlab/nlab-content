@@ -59,7 +59,7 @@ Review of this includes
 
 Some kind of notes are in
 
-* Rosona Eldred, _Tot primer_ ([pdf](http://www.math.uiuc.edu/~reldred2/tot-primer.pdf))
+* Rosona Eldred, _Tot primer_ ([pdf](https://drive.google.com/file/d/0B6WoYElpsU2TTXdNbmNyXzZjamc/view))
 
 See also 
 
