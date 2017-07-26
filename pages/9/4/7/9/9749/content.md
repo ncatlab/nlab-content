@@ -48,7 +48,7 @@ This makes the [[endofunctor]] $P$ into a [[monad]], and this is the _Giry monad
 
 ### Algebras over the Giry monad
 
-([Doberkat 03](#Doberkat03)) works out the [[algebra over a monad|algebras]] for the Giry monad. We want measurable maps between $P(X)$ and $X$, such that the 'fibres' are convex and closed, and such that $\delta_{x}$, the delta distribution on $x$, is in the fibre over $x$. And there's another condition which requires a compact subset of $P(X)$ to be sent to a compact subset of $X$.
+([Doberkat 03](#Doberkat03)) works out the [[algebra over a monad|algebras]] for the Giry monad using the Giry monad defined on $Pol$. We want measurable maps between $P(X)$ and $X$, such that the 'fibres' are convex and closed, and such that $\delta_{x}$, the delta distribution on $x$, is in the fibre over $x$. And there's another condition which requires a compact subset of $P(X)$ to be sent to a compact subset of $X$.
 
 Now, as ever, $P(X)$ will support an algebra, $\mu_{X}: P(P(X)) \to P(X)$. This is the analogue of a [[free construction|free]] [[group]] being an algebra of the group monad. But just as there are many interesting groups which are not free, we should want to find algebras of Giry's monad which are not of the $\mu_{X}$ form. Doberkat shows that for such an algebra $X$ must be connected, and suggests this example
 
@@ -62,7 +62,7 @@ The other example he gives has $X$ a bounded, closed and convex subset of $\math
 
 Doberkat has a longer article on [[Eilenberg-Moore algebra]]s of the Giry monad as item 5 [here](http://ls10-www.cs.uni-dortmund.de/index.php?id=18). (Unfortunately, the monograph 'Stochastic Relations: Foundations for Markov Transition Systems' doesn't appear to be available.) There are two monads being treated here, one which sends a Polish space to the space of all probability measures, the other to the space of all subprobability measures. The extra structure relating to these monads, is that of a (positive) convex structure. In the case of a convex structure, this intuitively captures the idea that a weighted sum of points in the space has barycentre within the space. 
 
-Doberkat's work relates to the category of Polish spaces with continuous maps. He notes that it would be interesting to develop the theory for the general case of Borel measurable maps.
+[Sturtz] exploits the close relationship between the tensor product structure of the two categories, measurable spaces and convex spaces, to generalize the fundamental results of Doberkat, to arbitrary measurable spaces, not just Polish spaces.  With this generalization, the Giry-algebras are (characterized as) convex spaces.  
 
 ## Related constructions
 
@@ -153,7 +153,7 @@ J. Culbertson and K. Sturtz use the Giry monad in their categorical approach to 
 
 * Jared Culbertson and Kirk Sturtz, _Bayesian machine learning via category theory_, 2013 ([arxiv:1312.1445](http://arxiv.org/abs/1312.1445)) 
 
-* Kirk Sturtz, _The Factorization of the Giry monad and convex spaces as an extension of the Kleisi category_, [ arXiv:1601.02593](https://arxiv.org/abs/1707.00488)
+* {#Sturtz} [[Kirk Sturtz]], _The Factorization of the Giry monad and convex spaces as an extension of the Kleisi category_, [ arXiv:1601.02593](https://arxiv.org/abs/1707.00488)
 
 
 E. Burroni discusses the Giry monad in:
