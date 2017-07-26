@@ -17,7 +17,7 @@
 
 The _Jordan curve theorem_ is a basic fact in [[topology]]. It stands out as having a statement that intuitively seems completely obvious, but which turns out to require a non-trivial [[formal proof]].
 
-The theorem states that every [[continuous function|continuous]] [[loop]] (where a loop is a closed [[curve]]) in the [[Euclidean plane]] which does not intersect itself divides the plane into two disjoint regions, the inside contained in the curve, and the outside.
+The theorem states that every [[continuous function|continuous]] [[loop]] (where a loop is a closed [[curve]]) in the [[Euclidean plane]] which does not intersect itself divides the plane into two disjoint [[regions]], the inside contained in the curve, and the outside.
 
 
 ## Related theorems
