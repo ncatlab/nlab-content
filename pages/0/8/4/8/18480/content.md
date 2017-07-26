@@ -147,22 +147,16 @@ A *trail* in $D$ is a walk $\alpha\overset{P}{\longrightarrow}V$ such that the [
 
 =--
 
-While having *walk* imply that all the arcs be aligned is very *common*, the following is a rather *un*common definition, which nevertheless has an important role in Power's [proof](#Power1990) of unique interpretability of [[pasting schemes]]: 
+While having *walk* imply that all the arcs be *aligned* is very *common*, the following is a rather *un*common definition, which nevertheless has an important role in Power's [proof](#Power1990) of unique interpretability of [[pasting schemes]]: 
 
 +-- {: .num_defn #WeakWalkElementary}
 ###### Definition
-**(weak walk in a digraph;)**
-
-Suppose $D=(V,A)$ is a digraph. 
-A *weak walk* in $D$ consists of the data 
-
-* a [[sequence]] $P\colon\alpha\rightarrow V$, with  $\alpha\in\omega+1$ (successor of the first [[limit ordinal]]), 
-
-and the axiom
-
-* for all $i\in\alpha$, if $i+1\in\alpha$, then (  $(P(i),P(i+1))\in A$   [[or]]    $(P(i+1),P(i))$   ).
+**(weak walk in a digraph)**
+Read the (elementary) definition of *walk* with  "weak walk" instead of "walk" , and "then (  $(P(i),P(i+1))\in A$   [[or]]    $(P(i+1),P(i))$   )" instead of "then $(P(i),P(i+1))\in A$".
 
 =--
+
+Note that a *weak walk* validates the usual [[red herring principle]]: a red herring need not be a herring (yet may happen to, and a  wealk walk need not be walk (yet may happen to).
 
 +-- {: .num_defn #WeakTrail}
 ###### Definition
@@ -172,8 +166,6 @@ Suppose $D=(V,A)$ is a digraph.
 A *weak trail* in $D$ is a weak walk $\alpha\overset{P}{\longrightarrow}V$ such that the [[function]] $\alpha\rightarrow A$ with $\alpha(i)=(P(i),P(i+1))$ is  injective.
 
 =--
-
-Note that a *weak trail* precisely satisfies the [[red herring principle]]: in need not be trail (but it can happen to be).
 
 
 +-- {: .num_defn #Path}
@@ -189,7 +181,6 @@ Note that the standard meaning of "path" in (di)graph theory is different to the
 In (di)graph theory, a path never has self-intersections, and hence is a (di)graph isomorphism onto its image, while in topology the term *path* signals that self-intersections *are* permitted. 
 The standard term in topology for a path which is *free of self-intersections* is [[arc]] (eg [Kowalksky 1965](#Kowalksky65), Definition 29b). 
 As a saving grace, the standard way to rigorously define the arcs of *plane* digraphs uses precisely the topological [[arcs]]. 
-
 
 
 +-- {: .num_defn #Ray}
@@ -225,11 +216,11 @@ A *cycle* in $D$ is a trail $\alpha\overset{P}{\rightarrow}V$ in $D$ such
 =--
 
 Note that since $\alpha$ is required to be finite, $\alpha-1$ is defined. 
+The image of any cycle is a [[finite set]].
 
-We remark passing (e.g. there is no use for 2-cycles in the usual [[pasting schemes]]), since the term is so common, that the image of any cycle is a [[finite set]], and that, despite its domain having precisely three elements, a cycle $P$ with $\mathrm{dom}(P)=3$ is traditionally called a *2-cycle*. 
+We remark passing (there is no use for 2-cycles in the usual [[pasting schemes]]), since *2-cycle* is a term often encountered, that, despite its domain having precisely three elements, a cycle $P$ with $\mathrm{dom}(P)=3$ is traditionally called a *2-cycle*. 
 The reason is that a 2-cycle "has" (to use a usual abuse of language) precisely two arcs. 
 Allowing 2-cycles, yet neither loops nor parallel arcs, has become a  standard meaning of *digraph* in combinatorics.
-
 
 
 +-- {: .num_defn #Acyclic}
@@ -238,22 +229,18 @@ Allowing 2-cycles, yet neither loops nor parallel arcs, has become a  standard m
 
 Suppose $D=(V,A)$ is a digraph. 
 Then $D$ is called *acyclic* if and only if there does not exist any cycle in $D$. 
-(A usual abbreviation for *acyclic directed graph* is *DAG*).
+
+A usual abbreviation in combinatorics for *acyclic directed graph* is *DAG*.
 
 
 =--
 
 
 
-+-- {: .num_defn #ConstructiveDAG}
-###### Definition
-**(constructive DAG)**
 
-A *constructive DAG* is any digraph satisfying the following axiom:
 
-* (w) etc
 
-=--
+
 
 
 +-- {: .num_defn #King}
@@ -301,9 +288,60 @@ Note that plane digraphs are often introduced into a context like (abstract) dig
 
 We note that this article makes essential use of the treatment of plane graphs given in ([Diestel](#DiestelGraphTheoryFourthEd), Chapter 4), and that there are adaptations made for the present purposes: 
 
-* here, *arc* means arc in the usual topological sense, without exception, while in ([Diestel](#DiestelGraphTheoryFourthEd)) "arc" is defined to be a [[subset]] of the  [[plane]], in particular is not parametrized, in particular does not carry directional information
+* here, *arc* means arc in the usual topological sense, without exception, while in ([Diestel](#DiestelGraphTheoryFourthEd)) "arc" is defined to be a [[subset]] of the  [[plane]], in particular is not parametrized, in particular does not carry *directional information*.
 
 * in ([Diestel](#DiestelGraphTheoryFourthEd), Chapter 4), both $V$ and $A$ in the definition of plane graphs are required to be [[finite sets]]. Here we make no such restriction.
+
+* for ease of reference, we calibrate the point-set topological terminology (e.g. when favoring "component" over its near-synonym "region" used in [Diestel](#DiestelGraphTheoryFourthEd)) according to [[Introduction to Topology]]. 
+If the need arises, [Munkres 2000](#Munkres2000) is the next reference.
+
+
++-- {: .num_defn #Face}
+###### Definition
+**(face of a plane digraph)**
+
+Suppose $D=(V,A)$ is a plane digraph. 
+The *set of faces of $D$*, denoted $\mathrm{Fa}(D)$, is the set of [[connected components]], in the sense of [Section 7](Introduction+to+Topology+--+1#subspaces), of the [[relative complement]] $\mathbb{R}^2\setminus\bigcup\{   \mathrm{image}(a) \colon a\in A        \}$, where $\mathrm{image}(a)=\{   a(t)\colon 0\leq t\leq 1    \}$.
+
+A *face of $D$* is a *member of the set $\mathrm{Fa}(D)$*.
+Each face of $D$ is an open connected subspace of the plane. 
+
+=--
+
+
++-- {: .num_defn #AbstractDigraphOfAPlaneDigraph}
+###### Definition
+**(the (abstract) digraph of a plane digraph)**
+
+Suppose $D=(V,A)$ is a plane digraph. 
+
+Then $\mathrm{Digraph}(D)$ is the digraph defined as follows:
+
+=--
+
+
+
+
+
+A central technical tool in  ([Power's proof](#Power1990)) are *boundary trails*:
+
++-- {: .num_defn #BoundaryTrailOfAFace}
+###### Definition
+**(boundary trail of a face)**
+
+Suppose $D=(V,A)$ is a plane digraph. 
+Suppose $F$ is a face of $D$. 
+Then the *boundary trail* of $F$ is *the weak trail overlying the frontier of $F$, where this phrase means the following: (...)
+
+=--
+
+
+Boundary trails validate the [[red herring principle]] in the following way: each boundary trail is a *weak trail*, yet need not be a trail. 
+(In A.J. Power's [application](#Power1990) of plane digraphs to category theory, boundary trails are *never* trails, in essence since all one ever cares about to make rigourous are [[pasting diagrams]] whose 1-skeleton is *acyclic*. 
+
+
+
+
 
 ## Remarks on the definitions
 
@@ -323,7 +361,7 @@ We do not do so. The definitions are equivalent to all intents and purposes. Hav
 
 Needless to say (since given by the definitions), *in a trail, arc-repetitions are forbidden*, and in a path, any repetition is forbidden.
 
-The perhaps oddly hybrid concept of *trail* has a crucial role in A. J. Power's ([proof](#Power1990)) of unique interpretability of [[pasting schemes]]: any [[face]] of a *plane digraph* determines a *boundary trail* which always is a *weak trail* precisely in the sense of \ref(). 
+The perhaps oddly hybrid concept of *trail* has a crucial role in A. J. Power's ([proof](#Power1990)) of unique interpretability of [[pasting schemes]]: any *face* of a *plane digraph* determines a *boundary trail* which always is a *weak trail*. 
 
 
  Generically, such a *boundary trail* has many vertex-repetitions, but it never has any arc-repetition. 
@@ -347,33 +385,6 @@ The formal justification of pasting diagrams was achieved in the late 1980.
 Note that there are more than one definition of [[pasting scheme]] in the literature. 
 E.g. there are M. Johnson's pasting schemes (([Johnson 1987](#Johnson1987), Chapter 2), ([Johnson 1989](#Johnson1989), Section 2)) and Power's pasting schemes ([Power 1990](#Power1990)). 
 The definition which is strictly relevant to the present article is Power's. He defines defines pasting schemes as a special kind of digraph ([Power 1990](#Power1990), Section 3), details will be found at [[pasting scheme]].
-
-
-## Lemmas
-
-
-The following appears to have first been published in [Power 1990](#Power1990) and to not have found its way into the digraph-theoretic literature:
-
-+-- {: .num_lemma #PowersDigraphLemma}
-###### Lemma
-**(Power's Digraph Lemma; classical version)**
-
-Suppose $D=(V,A)$ is a plane digraph. 
-Suppose $q_{-\infty}\in V$ is an $\omega$-king in $D$. 
-Suppose $q_{\infty}\in V$ is an $\omega$-coking in $D$. 
-
-Then the following two statements are equivalent in classical logic. 
-(...)
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-(...)
-
-
-=--
 
 
 
@@ -400,6 +411,11 @@ Then the following two statements are equivalent in classical logic.
 * [[Michael Johnson]]: _The Combinatorics of $n$-Categorical Pasting_, Journal of Pure and Applied Algebra 62 (1989) 
 {#Johnson1989}
 
+
+* [[James R. Munkres]]: _Topology_, Prentice Hall. Second Edition (2000) 
+{#Munkres2000}
+
+
 * [[John Power]]: _A 2-Categorical Pasting Theorem_, Journal of Algebra 129 (1990) 
 {#Power1990} 
 
@@ -407,3 +423,4 @@ Then the following two statements are equivalent in classical logic.
 
 [[!redirects digraph]]
 [[!redirects digraphs]]
+
