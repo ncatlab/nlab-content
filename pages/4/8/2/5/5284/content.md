@@ -21,7 +21,7 @@
 
 The _free loop space_ $\mathcal{L}X$ of a [[topological space]] $X$ (based or not) is the space of *all* [[loops]] in $X$. This is in contrast to the *based* [[loop space]] of a based space $X$ for which the loops are at the fixed [[base point]] $x_0\in X$.
 
-The free loop space carries a canonical [[action]] ([[infinity-action]]) of the [[circle group]]. The [[homotopy quotient]] by that action $\mathcal{L}(X)/S^1$ (the "[[cyclic loop space]]") contains what is known as the _[[twisted loop space]]_ of $X$.
+The free loop space carries a canonical [[action]] ([[infinity-action]]) of the [[circle group]], and furthermore is a [[cyclotomic space]]. The [[homotopy quotient]] by that action $\mathcal{L}(X)/S^1$ (the "[[cyclic loop space]]") contains what is known as the _[[twisted loop space]]_ of $X$.
 
 
 ## Definition
