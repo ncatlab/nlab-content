@@ -30,7 +30,7 @@ such that for all $i$
 
 1. $G_{i+1} \hookrightarrow G_i$ is a [[normal subgroup]];
 
-1. the [[quotient]] $G_i/G_{i}$ is an [[abelian group]];
+1. the [[quotient]] $G_i/G_{i+1}$ is an [[abelian group]];
 
 1. each $G_i$ is closed under the action of $\pi_1(X)$;
 
