@@ -31,7 +31,7 @@ $\,$
 In combinatorics, a **digraph** (a shortening of *directed graph*)  consists of a [[set]] and a [[binary relation]] on that set that is [[irreflexive relation|irreflexive]]. The elements of the set are called *nodes* or *vertices*, and elements of the relation are called *edges* or *arcs*; the idea is that whenever an ordered pair $(x, y)$ belongs to the relation, then we depict it as an arrow or directed edge going from node $x$ to node $y$. 
 The irreflexivity condition means there is never an edge from a node to itself. 
 
-## Definitions
+## Definition and basic notions  
 
 +-- {: .num_defn #Digraph}
 ###### Definition
@@ -45,12 +45,13 @@ A *morphism* from a digraph $(V, A)$ to a digraph $(V', A')$ is a function $f: V
 
 =-- 
 
-Notice that $\mathsf{Dgr}$ is a [[full subcategory]] of the category of quivers [[Quiv]] (some details to be inserted here). 
+A digraph $(V, A)$ may be regarded as a [[quiver]] in an evident way, with source and target functions $s, t: A \rightrightarrows V$. It is straightforward that $\mathsf{Dgr}$ is a [[full subcategory]] of the category of quivers [[Quiv]]. Of course most quivers are not digraphs since quivers can have parallel edges: distinct edges $a, b$ where $s(a) = s(b)$ and $t(a) = t(b)$. 
 
+Some useful examples of digraphs are based on [[ordinals]]: 
 
 +-- {: .num_example #ExampleDigraph} 
 ###### Example 
-A basic example of a digraph is an [[ordinal]] $\alpha$ where $V$ is the underlying set of $\alpha$ and $A$ is the relation $\{(i, i+1): i, i+1 \in \alpha\}$. We will call this an *ordinal digraph*. 
+If $\alpha$ is an ordinal, we may form a digraph $(V, A)$ where $V$ is the underlying set of $\alpha$ and $A$ is the relation $\{(i, i+1): i, i+1 \in \alpha\}$. We call this an *ordinal digraph*. 
 =-- 
 
 +-- {: .num_defn #Walk}
@@ -60,9 +61,11 @@ Suppose $D=(V,A)$ is a digraph.
 A *walk in $D$* is a digraph-morphism $\alpha \to D$ where $\alpha$ is an ordinal digraph. 
 =-- 
 
-Notice that for $\alpha = 1$, the hom-set $\mathsf{Dgr}(1, D)$ may be identified with the set of vertices of $D$. The "forgetful functor" $\mathsf{Dgr}(1, -): \mathsf{Dgr} \to Set$ realizes $\mathsf{Dgr}$ as a [[concrete category]]. 
+Notice that for $\alpha = 1$, the hom-set $\mathsf{Dgr}(1, D)$ may be identified with the set of vertices of $D$. The definition of graph morphism implies that underlying set functor $U = \mathsf{Dgr}(1, -): \mathsf{Dgr} \to Set$ is [[faithful functor|faithful]], and realizes $\mathsf{Dgr}$ as a [[concrete category]]. 
 
-Generally we will only be interested in walks $\alpha \to D$ such that $\alpha \leq \omega$; here $\omega$ is of course the first infinite ordinal. Unwinding the definitions, here is an elementary description of such walks: 
+For $\alpha = 2$, the hom-set $\mathsf{Dgr}(2, D)$ may be identified with the set of arcs of $D$. However, the edge-set functor $\mathsf{Dgr}(2, -): \mathsf{Dgr} \to Set$ is very far from being faithful. 
+
+Generally we will only be interested in walks $\alpha \to D$ such that $\alpha \leq \omega$ in the sense of ordinals; here $\omega$ is of course the first infinite ordinal. Unwinding the definitions, here is an elementary description of such walks: 
 
 +-- {: .num_defn #WalkElementary}
 ###### Definition
@@ -80,7 +83,66 @@ such that
 If $\alpha=0$, then $P$ is called *the empty walk*. 
 The phrase *$\alpha$-vertex path* means any *path whose domain is $\alpha$*.
 
+=-- 
+
+## Monomorphisms of digraphs 
+
+In our development, it will be useful to characterize various classes of monomorphisms in $\mathsf{Dgr}$. We begin with plain monomorphisms. 
+
++-- {: .num_prop} 
+###### Proposition 
+A morphism of digraphs $f: D \to D'$ is monic iff its underlying function $U(f)$ is monic. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+It is well-known that faithful functors $U$ reflect monomorphisms and epimorphisms. For suppose $U(f)$ is monic. Given a diagram in $\mathsf{Dgr}$ of the form 
+
+$$C \underoverset{h}{g}{\rightrightarrows} D \stackrel{f}{\to} D'$$ 
+
+if we have $f \circ g = f \circ h$ then $U(f) \circ U(g) = U(f) \circ U(h)$, whence $U(g) = U(h)$ by monicity of $U(f)$. Since $U$ is faithful, it follows that $g = h$; therefore $f$ is monic. The argument for epimorphisms is dual. 
+
+For the other direction, use the fact that $U = \mathsf{Dgr}(1, -)$ is representable. It follows immediately from the definition of monomorphism that representable functors preserve monomorphisms, so if $f$ is monic, then so is $U(f)$. 
+=-- 
+
+## Trails and paths 
+
++-- {: .num_defn #Path}
+###### Definition
+**(path in a digraph)**
+
+Suppose $D=(V,A)$ is a digraph. 
+A *path* in $D$ is a walk $P: \alpha \to D$ whose underlying function is [[injection|injective]]. 
+
 =--
+
+Or what is the same, that $\mathsf{Dgr}(1, P)$ is a [[monomorphism]] in $Set$. 
+
++-- {: .num_defn #Trail}
+###### Definition
+**(trail in a digraph)**
+
+Suppose $D=(V,A)$ is a digraph. 
+A *trail* in $D$ is a walk $\alpha\overset{P}{\longrightarrow}V$ such that the [[function]] $e_P: \alpha\rightarrow A$ with $e_P(i)=(P(i),P(i+1))$ is injective.
+
+=--
+
+This is the same as saying that $e_P = \mathsf{Dgr}(2, P)$, as a function between edge sets $\mathsf{Dgr}(2, \alpha) \to \mathsf{Dgr}(2, D)$, is a monomorphism in $Set$. 
+
+We have the following easy result. 
+
++-- {: .num_prop} 
+###### Proposition 
+In a digraph $D$, every path is a trail. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+If $P: \alpha \to D$ is a path and $e_P(i) = e_P(j)$ for $i, j \in \alpha$, then $(P(i), P(i+1)) = (P(j), P(j+1))$, so $P(i) = P(j)$. By injectivity of the function $P$, it follows that $i = j$. Thus $e_P$ is injective. 
+=--
+
+
+## Miscellaneous notions 
 
 In [contemporary](#MO277288) mathematics, ordered pairs $(x,y)$, $(y,x)$ are called *antiparallel arcs*.
 
@@ -121,10 +183,6 @@ This walk has a two-element image.
 =-- 
 
 
-Definition \ref{WalkElementary} is evidently equivalent to def.  \ref{Walk}.
-We note that $\omega+1=\omega\cup\{\omega\}$, and that $\alpha=0$ is permitted; then the axiom is vacuous (the hypothesis being always false), and $P$ then is the empty function (since $0$ is [[initial]] in [[Set]]) and hence the [[empty set]]. 
-Note also that if e.g. $\alpha=\omega$, then the set of indices to which the axiom applies are precisely the finite ordinals. 
-
 
 +-- {: .num_defn #StartAndEndVertices}
 ###### Definition
@@ -141,14 +199,7 @@ If $A=\{a\}$ and $B=\{b\}$ are singletons, one also writes $a$--$b$-path for *$\
 
 =--
 
-+-- {: .num_defn #Trail}
-###### Definition
-**(trail in a digraph)**
 
-Suppose $D=(V,A)$ is a digraph. 
-A *trail* in $D$ is a walk $\alpha\overset{P}{\longrightarrow}V$ such that the [[function]] $\alpha\rightarrow A$ with $\alpha(i)=(P(i),P(i+1))$ is  injective.
-
-=--
 
 While having *walk* imply that all the arcs be *aligned* is very *common*, the following is a rather *un*common definition, which nevertheless has an important role in Power's [proof](#Power1990) of unique interpretability of [[pasting schemes]]: 
 
@@ -173,14 +224,7 @@ A *weak trail* in $D$ is a weak walk $\alpha\overset{P}{\longrightarrow}V$ such 
 =--
 
 
-+-- {: .num_defn #Path}
-###### Definition
-**(path in a digraph)**
 
-Suppose $D=(V,A)$ is a digraph. 
-A *path* in $D$ is a trail $P$ in $D$ such that $P$ is [[injective]] as a [[function]]. 
-
-=--
 
 Note that the standard meaning of "path" in (di)graph theory is different to the standard topological meaning of [[path]]. 
 In (di)graph theory, a path never has self-intersections, and hence is a (di)graph isomorphism onto its image, while in topology the term *path* signals that self-intersections *are* permitted. 
