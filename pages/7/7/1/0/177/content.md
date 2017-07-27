@@ -26,6 +26,30 @@ The definition varies---even within *one* of the two theories.
 In [[graph theory]], _directed graph_ (often abbreviated to the contraction _digraph_) usually means [[simple directed graph]], and in [[category theory]], directed graph/digraph usually means [[quiver]], hence may have multiple edges and loops. 
 The basic *difference* is (according to one *widespread convention*) to have *digraphs* imply that there be neither any loop nor any *parallel* arc (directed cycles of length two *are* allowed in a digraph; cf. e.g. [Gutin and Bang-Jensen 2009](#DG2nd), Section 1.2). 
 
+### Table of definitions of directed graphs in various references
+
+This is to give a compressed look-up table, more or less usable without wandering anywhere else, telling you what definition of directed graph is being used in the reference you happen to be working with.
+
+
+
+| reference | kind of directed graph | formalization used  | *word* used in reference | miscellaneous further comments |
+|---------------------|---|-----|---------------|----------------------|
+|  [BangJensenGutin2nd]({#DG2nd}) |    [[digraph]]               | the one in [[digraph]], except for a needless assumption of a vertex-set being non-empty: an empty vertex-set implies that the binary relation is the empty relation, but this *is* a [[digraph]] |  *digraph*  | beware that that book sometimes treats [[quivers]], but calls them *directed pseudographs* and formalizes those using [[multisets]] of ordered pairs |
+| [BondyMurtyt1st](#BondyMurtyFirstEdition) | [[quiver]] | unusually hybrid formalization via *families of ordered pairs* | *digraph*; beware that Bondy-Murty-digraphs are *not* [[digraphs]] | aversion to the void: needless assumption of vertex-sets being non-empty; essentially, Bondy-Murty-digraphs$\simeq$Schrijver-digraphs|
+| [ChartrandLesniakZhang6th](#CLZ2016) | [[digraph]] | the one in [[digraph]], except for a needless assumption of a digraph being non-empty set: the empty set *is* a [[digraph]] | digraph | beware that what the authors call "The First Theorem of Digraph Theory" is a *not* a theorem of "Digraph Theory" in the strictest technical sense of "Digraph Theory"($=$the first-order theory of irreflexive binary relations) since it *uses the language of arithmetic*|
+|  [DiestelGraphTheory4th]({#Diestel2010}) |    [[quiver]]               | usual one: the "nuts-and-bolts-definition" in [[quiver]] | *directed graph*; contraction *digraph* used but once in main text  | beware that *directed path* in the book means something different, type-theoretically at least, from *path in a [[digraph]]*: in the book, a *directed path* is itself a [[digraph]], not a sequence of vertices |
+|  [AnalyticCombinatorics1st]({#AnalyticCombinatorics2009}) |   [[binary relation]]               | [[binary relations]], formalized in [[material set theory]]-style, cf. [V.5.1](#AnalyticCombinatorics2009) | both  *digraph* and *directed graph* used interchangeably | beware that Flajolet-Sedgwewick-diraphs are just [[binary relations]], *not* [[digraphs]] |
+
+
+
+
+|  [SchrijverComOpt1st]({#Schriver2003}) |    [[quiver]]               | unusually hybrid formalization via *families of ordered pairs* | *digraph*; beware that Schrijver-digraphs are *not* [[digraphs]] | no aversion to the void here; moreover, note that SchrijverDigraphs$\simeq$Bondy-Murty-digraphs  |
+
+Note that "kind of directed graph" is a used in a loose, undefined sense, sufficiently clear from the context. 
+
+### Further Commentary
+
+
 A [[digraph]] never is the [[quiver]] underlying any category: such a quiver *always* has a loop at each vertex and any number of parallel arcs. 
 In particular, the underlying quiver of a category is never a [[digraph]] (as defined there, and in the sense of [Gutin and Bang-Jensen 2009](#DG2nd) for example).
 
@@ -85,11 +109,22 @@ All these points of view have disadvantages and advantages and it depends on wha
 
 ## References
 
+
+* A. Bondy, U.S.R. Murty: Graph Theory with Applications. Fifth Printing. North Holland 1982.
+{#BondyMurtyFirstEdition}
+
+* Gary Chartrand, Linda Lesniak, Ping Zhang: _Graphs & Digraphs_. Sixth edition. CRC Press. 2016
+{#CLZ2016}
+
 * [[Ronald Brown]], I. Morris, J. Shrimpton, C.D. Wensley: _Graphs of morphisms of graphs_, The Electronic Journal of Combinatorics 15 (2008), A1
 {#GraphsOfMorphismsOfGraphs}
 
 * R. Diestel: _Graph Theory_. Fourth Edition. Springer (2010)
 {#Diestel2010}
+
+
+* [[Philippe Flajolet]], Robert Sedgewick, _Analytic Combinatorics_, 2009 ([pdf](http://algo.inria.fr/flajolet/Publications/book.pdf))
+{#AnalyticCombinatorics2009}
 
 * [[Gregory Gutin]], [[Jørgen Bang-Jensen]]: _Digraphs: Theory, Algorithms and Applications_. Springer Monographs in Mathematics. Second Edition (2009)
 {#DG2nd}
@@ -100,12 +135,16 @@ All these points of view have disadvantages and advantages and it depends on wha
 * [[Michael Johnson]]: _The Combinatorics of $n$-Categorical Pasting_, Journal of Pure and Applied Algebra 62 (1989) 
 {#Johnson1989}
 
-
 * [[William Lawvere]]: _Qualitative Distinctions Between Some Toposes of Generalized Graphs_, Contemporary Mathematics 92 (1989) 
 {#GeneralizedGraphs}
 
 * [[John Power]]: _A 2-Categorical Pasting Theorem_, Journal of Algebra 129 (1990) 
 {#Power1990}
+
+* [[Alexander Schrijver]]: _Combinatorial Optimization_. Volume A. Springer. First  Edition (2003)
+{#Schrijver2003}
+
+
 [[!redirects directed graph]]
 [[!redirects directed graphs]]
 [[!redirects Directed graph]]
