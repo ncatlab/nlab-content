@@ -46,7 +46,8 @@ We are now ready for the first batch of definitions.
 
 *  For a __pseudograph__, a pair of vertices is as in a loop graph, while edges are interpreted as pairs of vertices as in a multigraph.  Thus a pseudograph is given by $V$, $E$, and a function $d: E \to \left\langle{V \atop 2}\right\rangle$.
 
-Note:  While 'simple graph' is unambiguous, the other terms above are not.  In particular, 'multigraph' sometimes means a pseudograph, 'pseudograph' sometimes means a loop graph, and 'loop graph' sometimes means a pseudograph.  These could be made unambiguous by saying 'simple multigraph', 'simple loop graph', and 'multipseudograph', respectively, but we will try to keep our terminology short.
+Note:  While 'simple graph' is unambiguous, the other terms above are not.  In particular, 'multigraph' sometimes means a pseudograph, 'pseudograph' sometimes means a loop graph, and 'loop graph' sometimes means a pseudograph.  These could be made unambiguous by saying 'simple multigraph', 'simple loop graph', and 'multipseudograph', respectively, but we will try to keep our terminology short. 
+An oldfashioned (e.g. [p. 142](#Harary1953)) term for 'simple graph' is 'linear graph', traces of which remain in the usual term 'linear hypergraph' in combinatorics (i.e. hypergraph any two edges of which intersect in at most one element of the ground set).
 
 ### Directed graphs
 
@@ -217,6 +218,8 @@ Textbooks:
 
 * Frank Harary (1969), _Graph Theory_, Addison-Wesley.
 
+
+
 * Frank Harary and E.M. Palmer (1973), _Graphical Enumeration_, Academic Press.
 
 * {#Serre1977} [[Jean-Pierre Serre]] (1977), _Trees_, Springer.
@@ -241,12 +244,16 @@ Other references:
 
 * [[Ronnie Brown]], I. Morris, J. Shrimpton, and C.D. Wensley (2008), _Graphs of Morphisms of Graphs_, Electronic Journal of Combinatorics, A1 of Volume 15(1), 1--28.
 
+
+* {#Harary1953} [[Frank Harary]]: _On the notion of balance of a signed graph_. The   Michigan Mathemathical Journal, Volume 2, Issue 2 (1953), 143-146.
+
+
 Discussion of use of [[simplicial complexes]] in graph theory:
 
 * MO, _[What have simplicial complexes ever done for graph theory?](http://mathoverflow.net/questions/161586/what-have-simplicial-complexes-ever-done-for-graph-theory)_
 
 
-
+[[!redirects linear graph]]
 [[!redirects graph]]
 [[!redirects graphs]]
 [[!redirects undirected graph]]
