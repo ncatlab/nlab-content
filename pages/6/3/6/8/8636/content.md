@@ -26,7 +26,7 @@ Pasting schemes are one possibility to give a rigorous treatment of  the (older)
 
 More than one definition of *pasting scheme* has been used to give a justification to the practice of [[pasting diagrams]]. 
 
-For example, there exist the *pasting schemes in the sense of  [Johnson 1987](#Johnson1987), and there are the *pasting schemes in the sense of [Power 1990](#Power1990).  
+For example, there are *pasting schemes in the sense of  [Johnson 1987](#Johnson1987), and there are *pasting schemes in the sense of [Power 1990](#Power1990).  
 
 ## Related concepts
 
@@ -42,7 +42,7 @@ For example, there exist the *pasting schemes in the sense of  [Johnson 1987](#J
 
 The notion of pasting in a [[2-category]] was introduced in
 
-* [[Jean Benabou]], _Introduction to bicategories_ , in _Lecture Notes in Mathematics_ Vol. 47, pp. l-77, Springer-Verlag, New York/Berlin, (1967)
+* [[Jean Bénabou]], _Introduction to bicategories_, in _Lecture Notes in Mathematics_ Vol. 47, pp. l-77, Springer-Verlag, New York/Berlin, (1967)
 
 
 
