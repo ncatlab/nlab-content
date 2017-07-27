@@ -327,8 +327,7 @@ Of course one needs a map from *plane digraphs* to (abstract) *digraphs*:
 **(the (abstract) digraph of a plane digraph)**
 
 Suppose $D=(V,A)$ is a plane digraph. 
-
-Then $\mathrm{Dig}(D)$ is the digraph defined as follows: it has vertex set $V$ and arc set $A' :=      \{    ( a(0)  ,   a(1) )  \colon    a\in A           \}$.
+Then $\mathrm{Dig}(D)=(V',A')$ is the digraph defined as follows: it has vertex set $V':=V$ and arc set $A' :=      \{    ( a(0)  ,   a(1) )  \colon    a\in A           \}$.
 
 =--
 
@@ -345,10 +344,12 @@ All digraph-theoretic technical terms like *out-neighborhood*, *outdegree* which
 
 
 A central technical tool in  ([Power's proof](#Power1990)) are *boundary walks*: 
-boundary walks validate the [[red herring principle]] in the following way: each boundary walk is a *weak walk*, yet need not be a walk. 
+boundary walks validate a form of the [[red herring principle]]: each boundary walk is a *weak walk*, yet need not be a walk. 
 
-The boundary walks one works with when using A.J. Power's [application](#Power1990) of plane digraphs to category theory, are often weak *trails*, "often" in the sense that most [[pasting diagrams]] one encounters in practice do not have any arc-repetitions, equivalently, the 1-cells of these diagrams have an underlying undirected graphs with is *bridgeless*. 
-However, this is not generally true, and to have both *walks* and *trails* is not futile but necessary: a typical example of a pasting diagram occurring naturally in category theory are [[whiskering]] diagrams: for them, the *boundary trail* of the *exterior* face *does* have arc-repetions, hence is not a trail but only a walk.
+
+The boundary walks one works with when using A.J. Power's [application](#Power1990) of plane digraphs to category theory are often weak *trails*, "often" in the sense that most [[pasting diagrams]] one encounters in practice do not have any arc-repetitions.
+Equivalently, the 1-cells of usual pasting diagrams have an underlying undirected graphs with is *bridgeless*. 
+However, this is not generally true, and to have both *walks* and *trails* is not futile but necessary: a typical example of a pasting diagram occurring naturally in category theory are [[whiskering]] diagrams: the *boundary trail* of the *exterior* face of the typical whiskering diagram *does* have arc-repetions, hence is not a trail but only a walk.
 
 
 
@@ -366,11 +367,11 @@ Unsurprisingly, while the convention that digraph implies that there be no paral
 The terms *walk*, *trail* and *path* are standard in modern combinatorics. They are in particular compatible with standard usage in the theory of *undirected* graphs, in that upon forgetting (so to speak) the directions in the various definitions, one obtains the standard notions of walk, trail and path in (undirected) graph theory (for example [Figure 1.8](#BondyMurtyFirstEdition) illustrates precisely this convention).
 
 
-Many (e.g. [p. 11](#DG2nd) and [) modern reference define walks to be sequences whose codomain conains both vertices and arcs. 
+Many (e.g. [p. 11](#DG2nd) and [Chapter 1](#BondyMurtyFirstEdition)) modern reference define walks to be sequences whose codomain conains both vertices and arcs. 
 For simplicity we do not do so. 
 Having paths consist of vertices only, and letting the structure of the target space determine the axioms seems cleaner. 
 We can afford to make this simplification *only* because digraphs cannot have any parallel arcs: for digraphs, our definition and the vertex-arc-alternating definition of [p. 11](#DG2nd) are equivalent to all intents and purposes.
-There is, however a good reason why e.g. [Bondy and Murty](#BondyMurtyFirstEdition)   use the latter definition: for them, a *directed graph* [10.1](#BondyMurtyFirstEdition) is not a *digraph* but a [[quiver]], and---evidently---if multiple parallel arcs are permitted, *then a vertex-sequence does not contain enough information to define a "walk"*. 
+There is, however a good reason why e.g. [Bondy and Murty](#BondyMurtyFirstEdition) use the latter definition: for them, a *directed graph* is (cf. [10.1](#BondyMurtyFirstEdition), though Bondy--Murty's formalization is different from usual [[quivers]] and a rare hybrid between purely functional and purely relation-theoretic formalizations: they use maps with codomain set $V\times V$) not a *digraph* but a [[quiver]], and---evidently---if multiple parallel arcs are permitted, *then a vertex-sequence does not contain enough information to define a "walk"*. 
 Upon stepping from one vertex to the next, a vertex sequence by itself cannot tell one which parallel arc to pick.
 
 
