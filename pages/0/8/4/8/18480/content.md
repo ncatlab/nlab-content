@@ -43,6 +43,8 @@ The elements of $V$ are called *vertices*, the elements of $A$ are called *arcs*
 
 =-- 
 
+In [contemporary](#MO277288) mathematics, ordered pairs $(x,y)$, $(y,x)$ are called *antiparallel arcs*.
+
 +-- {: .num_example #ExampleDigraph} 
 ###### Example 
 A basic example of a digraph is an [[ordinal]] $\alpha$ where $V$ is the underlying set of $\alpha$ and $A$ is the relation $\{(i, i+1): i, i+1 \in \alpha\}$. 
@@ -474,6 +476,8 @@ The definition which is strictly relevant to the present article is Power's. He 
 * [[Michael Johnson]]: _The Combinatorics of $n$-Categorical Pasting_, Journal of Pure and Applied Algebra 62 (1989) 
 {#Johnson1989}
 
+* Manfred Weis (https://mathoverflow.net/users/31310/manfred-weis), Calculating Cost-Optimal 1-Factors in Digraphs, URL (version: 2017-07-26): https://mathoverflow.net/q/277288
+{#MO277288}
 
 * [[James R. Munkres]]: _Topology_, Prentice Hall. Second Edition (2000) 
 {#Munkres2000}
