@@ -152,6 +152,8 @@ Discussion of scalar fields in [[cosmology]] includes
 [[!redirects complex scalar field]]
 [[!redirects complex scalar fields]]
 
+[[!redirects scalar field theory]]
+[[!redirects scalar field theories]]
 
 [[!redirects scalar particle]]
 [[!redirects scalar particles]]
