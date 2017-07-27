@@ -37,18 +37,52 @@ The irreflexivity condition means there is never an edge from a node to itself.
 ###### Definition
 **(digraph)**
 
-A digraph is a [[pair]] $(V,A)$ of [[sets]], with $A\subseteq V\times V\setminus\{ (v,v)\colon v\in V\}$.
+A *digraph* is a [[pair]] $(V,A)$ of [[sets]], with $A\subseteq V\times V\setminus\{ (v,v)\colon v\in V\}$.
 Here, $V\times V$ denotes the [[product]], and ${}\setminus{}$ the [[relative complement]] in the [[category of sets]].
-The elements of $V$ are called *vertices*, the elements of $A$ are called *arcs*. 
+The elements of $V$ are called *vertices*, the elements of $A$ are called *arcs*. For $a = (v, w)$ an arc, we call $v$ the *source* of $a$ and $w$ the *target* of $a$, also denoted $s(a)$ and $t(a)$ respectively. 
+
+A *morphism* from a digraph $(V, A)$ to a digraph $(V', A')$ is a function $f: V \to V'$ such that $(f(v), f(w)) \in A'$ whenever $(v, w) \in A$. Digraphs and their morphisms form a [[category]] denoted $\mathsf{Dgr}$. 
 
 =-- 
 
-In [contemporary](#MO277288) mathematics, ordered pairs $(x,y)$, $(y,x)$ are called *antiparallel arcs*.
+Notice that $\mathsf{Dgr}$ is a [[full subcategory]] of the category of quivers [[Quiv]] (some details to be inserted here). 
+
 
 +-- {: .num_example #ExampleDigraph} 
 ###### Example 
-A basic example of a digraph is an [[ordinal]] $\alpha$ where $V$ is the underlying set of $\alpha$ and $A$ is the relation $\{(i, i+1): i, i+1 \in \alpha\}$. 
+A basic example of a digraph is an [[ordinal]] $\alpha$ where $V$ is the underlying set of $\alpha$ and $A$ is the relation $\{(i, i+1): i, i+1 \in \alpha\}$. We will call this an *ordinal digraph*. 
 =-- 
+
++-- {: .num_defn #Walk}
+###### Definition
+**(walk in a digraph)**
+Suppose $D=(V,A)$ is a digraph. 
+A *walk in $D$* is a digraph-morphism $\alpha \to D$ where $\alpha$ is an ordinal digraph. 
+=-- 
+
+Notice that for $\alpha = 1$, the hom-set $\mathsf{Dgr}(1, D)$ may be identified with the set of vertices of $D$. The "forgetful functor" $\mathsf{Dgr}(1, -): \mathsf{Dgr} \to Set$ realizes $\mathsf{Dgr}$ as a [[concrete category]]. 
+
+Generally we will only be interested in walks $\alpha \to D$ such that $\alpha \leq \omega$; here $\omega$ is of course the first infinite ordinal. Unwinding the definitions, here is an elementary description of such walks: 
+
++-- {: .num_defn #WalkElementary}
+###### Definition
+**(walk in a digraph; elementary definition)**
+
+Suppose $D=(V,A)$ is a digraph. 
+A *walk* in $D$ consists of 
+
+* a [[sequence]] $P\colon\alpha\rightarrow V$, with  $\alpha\leq\omega$. 
+
+such that
+
+* for all $i\in\alpha$, if $i+1\in\alpha$, then $(P(i),P(i+1))\in A$.
+
+If $\alpha=0$, then $P$ is called *the empty walk*. 
+The phrase *$\alpha$-vertex path* means any *path whose domain is $\alpha$*.
+
+=--
+
+In [contemporary](#MO277288) mathematics, ordered pairs $(x,y)$, $(y,x)$ are called *antiparallel arcs*.
 
 +-- {: .num_defn #Neighbourhoods}
 ###### Definition
@@ -73,44 +107,10 @@ The *in-degree* of $v$ in $D$, denoted $d^{\rightarrow}_D(v)$, is the [[cardinal
 =--
 
 
-+-- {: .num_defn #CategoryOfDigraphs}
-###### Definition
-**(category of digraphs, digraph morphism)**
-The *category of digraphs*, denoted $\mathsf{Dgr}$, is the [[concrete category]] whose objects are the digraphs, and which, for arbitrary digraphs $D=(V,A)$ and $D'=(V',A')$ has hom-set $\mathsf{Dgr}(D,D')$ equal to the set of all set-maps $V\overset{f}{\rightarrow}V'$ such that for all $u,v\in V$, $(u,v)\in A$ implies $(f(u),f(v))\in A'$. 
-The morphisms of $\mathsf{Dgr}$ are called *digraph-morphisms*. 
-
-=--
-
-Note that the category $\mathsf{Dgr}$ is equivalent to a full subcategory of [[Quiv]].
 
 
 
-+-- {: .num_defn #Walk}
-###### Definition
-**(walk in a digraph)**
-Suppose $D=(V,A)$ is a digraph. 
-A *walk in $D$* is a *digraph-morphism into $D$ whose domain is an ordinal*. (Note that this is sensical since ordinals are digraphs, compare Example \ref{ExampleDigraph}).
 
-=--
-
-
-+-- {: .num_defn #WalkElementary}
-###### Definition
-**(walk in a digraph; elementary definition)**
-
-Suppose $D=(V,A)$ is a digraph. 
-A *walk* in $D$ consists of the data 
-
-* a [[sequence]] $P\colon\alpha\rightarrow V$, with  $\alpha\in\omega+1$ (successor of the first [[limit ordinal]]), 
-
-and the axiom
-
-* for all $i\in\alpha$, if $i+1\in\alpha$, then $(P(i),P(i+1))\in A$.
-
-If $\alpha=0$, then $P$ is called *the empty walk*. 
-The phrase *$\alpha$-vertex path* means any *path whose domain is $\alpha$*.
-
-=--
 
 The axiom implies---digraphs being *irreflexive*--- that always $\neg \, (P(i)=P(i+1))$. Walks are only allowed to be non-injective *every other step*, so to speak. 
 
