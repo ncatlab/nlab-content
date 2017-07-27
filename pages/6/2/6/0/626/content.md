@@ -150,6 +150,13 @@ String diagrams for [[monoidal categories]] are discussed in
 
 * [[Andre Joyal]] and [[Ross Street]], _Planar diagrams and tensor algebra_, available [here](http://www.math.mq.edu.au/~street/PlanarDiags.pdf).
 
+
+For [[1-categories]] in 
+
+* [[Dan Marsden]]: Category Theory Using String Diagrams. arXiv:1401.7220v2  [math.CT]
+
+(therein: many explicit calculations, colored illustrations, avoiding the common practice of indicating 0-cells by non-filled circles)
+
 For [[traced monoidal categories]] in
 
 * [[Andre Joyal]], [[Ross Street]] and [[Dominic Verity|Verity]], _Traced monoidal categories_.
