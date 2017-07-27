@@ -22,11 +22,19 @@ This page also briefly treats similar technical terms **oriented graph**, **sign
 
 
 
-> We see one family, in the same room but hardly together. The family of signed, gain, and biased graphs is a lot like that. The Bibliography and Glossary are supposed to lead the family members to talk to one another. May they do so!  ([Thomas Zaslavsky: front page](#HomePageOfSignedGraphs))
 
 
+
+The term _directed graph_ is used in both [[graph theory]] and [[category theory]].
+The definition varies---even within *one* of the two theories.
+
+In [[graph theory]], _directed graph_ (often abbreviated to the contraction _digraph_) nowadays usually means a [[digraph]], while in [[category theory]], directed graph/digraph means and always has meant a [[quiver]]. 
+The basic the difference is: [[quivers]] may have multiple arrows in the *same* direction (often called "parallel"), and also *loops*, while [[digraphs]] may not have any of those.
 
 ## Overview of usual technical terms 
+
+
+> We see one family, in the same room but hardly together. The family of signed, gain, and biased graphs is a lot like that. The Bibliography and Glossary are supposed to lead the family members to talk to one another. May they do so!  ([Thomas Zaslavsky: front page](#HomePageOfSignedGraphs))
 
 The following table is meant to have *pragmatic* value. I has little *epistomological* value. 
 It should go without saying for thinking readers that the table does not, like e.g. [[periodic table]] does, describe objective *connections between things*, but merely *conventional connections between language and things*. 
@@ -39,45 +47,13 @@ The table describes a clear-enough reality, yet is bound to read dated in the fu
 |  [[quiver]] |     loops allowed, parallel arcs allowed     | presheaf on the walking quiver |   |  
 |  [[digraph]] |    no loops, no parallel arcs, but 2-cycles allowed     | irreflexive binary relation  |   |  
 |  oriented [[graph]] |   looks essentially like oriented one-dimensional [[simplicial complex]]   | undirected simple graph whose edges were replaced by one arrow each |   |  
-|  signed [[graph]] | undirected [[graph]] with a sign on each edge    | [[graph]] together with a function $\{$edges$\}$ $\rightarrow$ $\{-,+\}$,not subject to any axioms |   |  
+|  signed [[graph]] | undirected [[graph]] with a sign on each edge    | undirected simple [[graph]] together with a function $\{$edges$\}$ $\rightarrow$ $\{-,+\}$,not subject to any axioms |  beware that this should *not* in a natural way be regarded a "directed graph", though they *are* often used in *contexts* together with directed graphs and thus belong on this page; in a sense, "signed graphs" are a non-example, an odd-one-out, in particular in that they seem tricky to categorically construct (note that e.g.  [[digraphs]] and [[oriented graphs]] are essentially special kinds of [[quivers]] |  
 |  bidirected [[graph]] |  [[quiver]] with a sign on each vertex-arrow-*incidence*   | quiver together with function $\{$vertices$\}$ $\times$ $\{$arrows$\}$ $\rightarrow$ $\{-,+\}$, subject to axioms |   |  
 
 
-## Signed graphs
+## Table of definitions of directed graphs in various references
 
-A *signed graph* is a [[simple undirected graph|graph]] *each of whose edges has  been assigned one element of a specified two-element set*. 
-The latter's elements are customarily interpreted as "signs", and *sometimes* the sign-set is also equipped with arithmetical structure, though this is *not* part of the definition.  
-Signed graphs (and the basic theorems of their theory) are notorious for being rediscovered over and over again; a critically annotated bibliography on signed graphs and their various guises is [Zaslavsky](#ZaslavskyBibliography).
-
-
-
-
-
-## Oriented graphs
-
-An *oriented graph* is a [[simple undirected graph|graph]] *each of whose edges has  been given one of the two orientations*. 
-As such, *no* multiplicities whatsoever are possible, not even *directed 2-cycles*($=$antiparallel arcs). 
-This is the standard meaning of *oriented graph* in combinatorics, the term generally being perceived to signal that even 2-cycles are forbidden, in contrast to [[digraphs]] which may have them. 
-There are several ways to formalize "oriented graph", and here we do not describe any of them. 
-
-
-## Bidirected graphs
-
-Briefly, bidirected graphs 
-
-## Commentary
-
-The term _directed graph_ is used in both [[graph theory]] and [[category theory]].
-The definition varies---even within *one* of the two theories.
-
-In [[graph theory]], _directed graph_ (often abbreviated to the contraction _digraph_) usually mean a [[digraph]], while in [[category theory]], directed graph/digraph usually means a [[quiver]]; the difference is: [[quivers]] may have multiple parallel arrows in the same direction, and also loops, while [[digraphs]] may not have any of those.
-
-
-
-
-### Table of definitions of directed graphs in various references
-
-This is to give a compressed look-up table, more or less usable without wandering anywhere else, telling you what definition of directed graph is being used in the reference you happen to be working with.
+This is to give a compressed look-up table, quickly usable, telling you what definition of directed graph is being used in the reference you happen to be working with.
 
 
 
@@ -93,25 +69,51 @@ This is to give a compressed look-up table, more or less usable without wanderin
 
 Note that "kind of directed graph" is a used in a loose, undefined sense, sufficiently clear from the context. 
 
-### Further Commentary
 
-#### Connections to category theory
+## Signed graphs
+
+A *signed graph* is a [[simple undirected graph|graph]] *each of whose edges has  been assigned one element of a specified two-element set*. 
+The latter's elements are customarily interpreted as "signs", and *sometimes* the sign-set is also equipped with arithmetical structure, though this is *not* part of the definition.  
+
+Signed graphs (and the basic theorems of their theory) are notorious for being rediscovered over and over again; a critically annotated bibliography on signed graphs and their various guises is [Zaslavsky](#ZaslavskyBibliography).
+
+
+In a sense, the *theory* of signed graphs wields at least two [[constant symbols]] (in the sense of [[model theory]]) more than that *theory* of undirected simple graphs. 
+
+
+## Oriented graphs
+
+An *oriented graph* is a [[simple undirected graph|graph]] *each of whose edges has  been given one of the two orientations*. 
+As such, *no* multiplicities whatsoever are possible, not even *directed 2-cycles*($=$antiparallel arcs). 
+This is the standard meaning of *oriented graph* in combinatorics, the term generally being perceived to signal that even 2-cycles are forbidden, in contrast to [[digraphs]] which may have them. 
+There are several ways to formalize "oriented graph", and here we do not describe any of them. 
+
+
+
+
+## Bidirected graphs
+
+Briefly, bidirected graphs are quivers
+
+
+
+## Connections to category theory
 
 Herein some evident aspects are pointed out explicitly.
 
-##### Underlying quivers
+### Underlying quivers
 
 A *nonempty* [[digraph]] never is isomorphic to the [[quiver]] [[forgetful functor|underlying]] any category: such a quiver *always* has a loop at each vertex, which is already enough to rule out any isomorphism. 
 
 
-##### A genuine applications of digraphs to category theory
+### A genuine applications of digraphs to category theory
 
 An example of a use of digraph theory in category theory is giving a rigorous justification of the  notational practice of [[pasting diagrams]]. 
 This was achieved in the late 1980s (cf. e.g. [Johnson 1987](#Johnson1987), [Johnson 1989](#Johnson1989), [Power 1990](#Power1990)). 
 In this approach, parallel arcs or loops are of secondary importance, and sometimes expressly forbidden, so the work of Johnson and Power can be seen as a genuine application of graph theory to category theory. 
 
 
-##### *All* quivers deemed irreflexive by Lawvere
+### *All* quivers deemed irreflexive by Lawvere
 
 
 There is an article of [[William Lawvere]] which is relevant in one precise respect to a disambiguation page such as the present one: *an unusual use of the adjective "irreflexive"*. 
@@ -129,7 +131,7 @@ In a sense, a [[digraph]] is a "strictly-Lawvere-irreflexive graph".
 
 From a graph-theoretical point of view, every digraph is a quiver, but not every quiver is a digraph (again, in the sense of [Gutin and Bang-Jensen 2009](#DG2nd)).
 
-##### Cultural differences in what to regard as simpler 
+## Cultural differences in what to regard as simpler 
 
 The convention of formalising directed graphs like in [[digraph]] is widespread in modern combinatorics, but it is mostly just that: conventional. 
 In particular, forbidding parallel arcs, and in particular, forbidding loops by yaking the  [[relative complement]] of $V\times V$ and the diagonal $\{(v,v)\colon v\in V\}$ is sometimes [^1] regarded to a *needless and negative complication* , and sometimes ([p.2,first paragraph]](#BumbyLatch1986) regarded the typical way of doing things in category theory. 
@@ -209,6 +211,11 @@ All these points of view have disadvantages and advantages and it depends on wha
 
 * [[William Lawvere]]: _Qualitative Distinctions Between Some Toposes of Generalized Graphs_, Contemporary Mathematics 92 (1989) 
 {#GeneralizedGraphs}
+
+
+* [[Eugene L. Lawler]]: _Combinatorial Optimization: Networks and Matroids_, Holt, Rinehart and Winston. )1976)
+{#Lawler1976}
+
 
 * [[John Power]]: _A 2-Categorical Pasting Theorem_, Journal of Algebra 129 (1990) 
 {#Power1990}
