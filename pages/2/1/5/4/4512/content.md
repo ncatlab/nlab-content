@@ -5,7 +5,7 @@ $k$-modules.
 Functors similar to the forgetful functor ${}_{kG} Mod\to {}_{k}Mod$ in the sense of 
 having such a functorial Maschke's property are abstracted into the notion of a separable functor.
 
-Similar phenomena appear in the study of ring extensions $f: R\to S$: such a ring extension is separable iff the extension of scalars $M\mapsto S\otimes_R M$ is a separable functor. 
+Similar phenomena appear in the study of ring extensions $f: R\to S$: such a ring extension is separable iff restriction of scalars $\operatorname{Res}_R^S: {}_{S}Mod \to {}_{R}Mod$ is a separable functor. 
 
 ## Definition
 
