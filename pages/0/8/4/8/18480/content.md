@@ -33,6 +33,8 @@ The irreflexivity condition means there is never an edge from a node to itself.
 
 ## Definition and basic notions  
 
+In this section we collect some definitions that are fundamental to digraph theory, but presented largely from the point of view of category theory. 
+
 +-- {: .num_defn #Digraph}
 ###### Definition
 **(digraph)**
@@ -63,7 +65,15 @@ A *walk in $D$* is a digraph-morphism $\alpha \to D$ where $\alpha$ is an ordina
 
 Notice that for $\alpha = 1$, the hom-set $\mathsf{Dgr}(1, D)$ may be identified with the set of vertices of $D$. The definition of graph morphism implies that underlying set functor $U = \mathsf{Dgr}(1, -): \mathsf{Dgr} \to Set$ is [[faithful functor|faithful]], and realizes $\mathsf{Dgr}$ as a [[concrete category]]. 
 
-For $\alpha = 2$, the hom-set $\mathsf{Dgr}(2, D)$ may be identified with the set of arcs of $D$. However, the edge-set functor $\mathsf{Dgr}(2, -): \mathsf{Dgr} \to Set$ is very far from being faithful. 
+For $\alpha = 2$, the hom-set $\mathsf{Dgr}(2, D)$ may be identified with the set of arcs of $D$. However, the arc-set functor $\mathsf{Dgr}(2, -): \mathsf{Dgr} \to Set$ is very far from being faithful. 
+
+If we let $C$ denote the full subcategory of $\mathsf{Dgr}$ consisting of the ordinal digraphs $1, 2$, then the inclusion $i: C \hookrightarrow \mathsf{Dgr}$ induces a functor $\mathsf{Dgr} \to Set^{C^{op}} = Quiv$ according to the usual "[[nerve]]" construction 
+
+$$\mathsf{Dgr} \to Set^{C^{op}}$$ 
+
+$$D \mapsto (c \mapsto \mathsf{Dgr}(i c, D))$$ 
+
+and this nerve functor is exactly the full embedding $\mathsf{Dgr} \to Quiv$. Since full embeddings reflect and preserve isomorphisms, a digraph morphism $f: D \to D'$ is an isomorphism iff the vertex-function $\mathsf{Dgr}(1, f)$ and arc-function $\mathsf{Dgr}(2, f)$ are isomorphisms (which is in any case obvious from the definition of digraph morphism, but this underscores the general importance of walks). 
 
 Generally we will only be interested in walks $\alpha \to D$ such that $\alpha \leq \omega$ in the sense of ordinals; here $\omega$ is of course the first infinite ordinal. Unwinding the definitions, here is an elementary description of such walks: 
 
@@ -74,7 +84,7 @@ Generally we will only be interested in walks $\alpha \to D$ such that $\alpha \
 Suppose $D=(V,A)$ is a digraph. 
 A *walk* in $D$ consists of 
 
-* a [[sequence]] $P\colon\alpha\rightarrow V$, with  $\alpha\leq\omega$. 
+* a [[sequence]] $P\colon\alpha\rightarrow V$, with  $\alpha\leq\omega$, 
 
 such that
 
@@ -106,6 +116,8 @@ if we have $f \circ g = f \circ h$ then $U(f) \circ U(g) = U(f) \circ U(h)$, whe
 For the other direction, use the fact that $U = \mathsf{Dgr}(1, -)$ is representable. It follows immediately from the definition of monomorphism that representable functors preserve monomorphisms, so if $f$ is monic, then so is $U(f)$. 
 =-- 
 
+(Still to come: characterization of regular monomorphisms.) 
+
 ## Trails and paths 
 
 +-- {: .num_defn #Path}
@@ -122,7 +134,6 @@ Or what is the same, that $\mathsf{Dgr}(1, P)$ is a [[monomorphism]] in $Set$. I
 +-- {: .num_defn #Trail}
 ###### Definition
 **(trail in a digraph)**
-
 Suppose $D=(V,A)$ is a digraph. 
 A *trail* in $D$ is a walk $\alpha\overset{P}{\longrightarrow}V$ such that the [[function]] $e_P: \alpha\rightarrow A$ with $e_P(i)=(P(i),P(i+1))$ is injective.
 
@@ -139,7 +150,7 @@ In a digraph $D$, every path is a trail.
 
 +-- {: .proof} 
 ###### Proof 
-Since we just observed that a path $P$ is the same as a monic walk, and since representable functors preserve monomorphisms, it follows that $e_P = \mathsf{Dgr}(2, P)$ is a monomorphism. 
+Since we just observed that a path $P$ is the same as a monic walk, and since representable functors like $\mathsf{Dgr}(2, -)$ preserve monomorphisms, it follows that $e_P = \mathsf{Dgr}(2, P)$ is a monomorphism. 
 =--
 
 ## Symmetrizing and "weak" notions 
@@ -162,7 +173,7 @@ The functor $Symm$ carries an [[idempotent monad]] structure.
 
 +-- {: .proof} 
 ###### Proof 
-It is clear that $u_{Symm(D)}: Symm(D) \to Symm^2(D)$ is an [[isomorphism]] because taking the symmetric closure of a relation is itself idempotent. The multiplication $m: Symm^2 \to Symm$ of the monad is defined by taking the inverse: $m = u_{Symm}^{-1}$. Then $m$ is natural and the unit law $m \circ u_{Symm} = 1$ is automatic. The associativity of $m$ follows by inverting a naturality square for $u$. 
+It is clear that $u_{Symm(D)}: Symm(D) \to Symm^2(D)$ is an [[isomorphism]] (and even an identity map) because taking the symmetric closure of a relation is itself idempotent. Similarly $Symm(u_D)$ is also an identity map: $u_{Symm(D)} = Symm(u_D)$. The multiplication $m: Symm^2 \to Symm$ of the monad is defined by taking the inverse: $m = u_{Symm}^{-1}$. Then $m$ is natural and the unit law $m \circ u_{Symm} = 1$ is automatic; the other unit law $m \circ Symm(u_D)$ follows. The associativity of $m$ follows by inverting a naturality square for $u$. 
 =-- 
 
 Morally we may consider the category of undirected graphs to be the category of algebras over the monad $Symm$. In any case, this is a full subcategory of $\mathsf{Dgr}$ consisting of digraphs of the form $Symm(D)$. 
@@ -179,7 +190,6 @@ Similarly,
 
 * A *weak trail* $\alpha \to D$ is defined to be a trail $\alpha \to Symm(D)$. 
 
-For example
 
 ## Miscellaneous notions 
 
@@ -239,7 +249,7 @@ If $A=\{a\}$ and $B=\{b\}$ are singletons, one also writes $a$--$b$-path for *$\
 =--
 
 
-Earlier discussion of weak trails mentioned Power's [proof](#Power1990) of unique interpretability of [[pasting schemes]]. 
+Discussion of weak trails from a previous revision mentioned Power's [proof](#Power1990) of unique interpretability of [[pasting schemes]]. 
 
 
 
