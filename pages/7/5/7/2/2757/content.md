@@ -72,8 +72,19 @@ In terms of this the **principle of induction** is equivalent to saying that the
 
 * Ch. 3, Formal arithmetics, in: Elliott Mendelson, _Introduction to mathematical logic_, D. Van Nostrad 1964
 
+
+[[!redirects induction]]
 [[!redirects inductions]]
+
+[[!redirects mathematical induction]]
 
 [[!redirects induction principle]]
 [[!redirects principle of induction]]
+
 [[!redirects inductive argument]] 
+
+[[!redirects induction scheme]]
+[[!redirects induction schemes]]
+[[!redirects induction schema]]
+[[!redirects induction schemata]]
+[[!redirects induction schemas]]
