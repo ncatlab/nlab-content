@@ -82,7 +82,7 @@ $$C^\infty_c(X) \longrightarrow \mathbb{R}$$
 
 from the [[topological vector space]] of compactly supported test functions (def. \ref{CompactlySupportedTestFunctions}) to the [[real numbers]].
 
-The space of distributions on $X$ is denoted $\mathcal{D}(X)$. There is an obvious bilinear pairing 
+The space of distributions on $X$ is denoted $\mathcal{D}'(X)$ (see also remark \ref{NotationForSpaceOfDistributions}). There is an obvious bilinear pairing 
 
 $$
   \array{
@@ -96,9 +96,20 @@ given by [[evaluation]].
 
 Often one writes $\langle S, \phi\rangle$ instead of $S(\phi)$. The space of distributions can be given the weak $*$-topology, meaning the smallest topology rendering the maps 
 
-$$\langle -, \phi\rangle: \mathcal{D}(U) \to \mathbb{R}$$ 
+$$\langle -, \phi\rangle \;\colon\; \mathcal{D}'(U) \to \mathbb{R}$$ 
 
-continuous for all test functions $\phi$.  As $C_c^\infty(U)$ is reflexive, this agrees with the weak topology.  Other natural topologies exist, such as uniform convergence on compact subsets of $C_c^\infty(U)$ (in this case, this agrees with uniform convergence on bounded subsets which usually goes by the name of the *strong* topology).
+continuous for all test functions $\phi$.  As $C_c^\infty(U)$ is reflexive, this agrees with the weak topology.  
+
+=--
+
+Other natural topologies exist, such as uniform convergence on compact subsets of $C_c^\infty(U)$ (in this case, this agrees with uniform convergence on bounded subsets which usually goes by the name of the *strong* topology).
+
+
++-- {: .num_remark #NotationForSpaceOfDistributions}
+###### Remark
+**(notation)**
+
+On general grounds the symbols $D(X)$ or $\mathcal{D}(X)$ or similar would seem evident notation for the space of distributions on a smooth manifold $X$. However, [[Laurent Schwartz]] in his seminal work ([Schwartz 50](#Schwartz50)) used $\mathcal{D}(X)$ to denote the space $C^\infty_c(X)$ of compactly supported continuous functions, and then $\mathcal{D}'(X)$ for its linear continuous dual, hence for the space of distributions (see also [H&#246;rmander 90, below def. 2.1.1](#Hoermander90)). 
 
 =--
 
@@ -111,7 +122,7 @@ $$\langle f, \phi\rangle = \int_X f(x)\phi(x) d x $$
 
 is defined; in this way a function $f$ locally integrable over $X$ may be regarded as a distribution on $X$ (explaining both the sense in which distributions are "generalized functions" and a reason for the angle-bracket notation for the evaluation pairing). In particular, there is an obvious inclusion 
 
-$$C_c^{\infty}(X) \hookrightarrow \mathcal{D}(X)$$ 
+$$C_c^{\infty}(X) \hookrightarrow \mathcal{D}'(X)$$ 
 
 and this inclusion turns out to be [[dense subset|dense]]. 
 
@@ -138,7 +149,7 @@ where $\alpha$, $\beta$ are multi-indices.
 
 ### Inducing operations by dual extension
 
-As $\mathcal{D}(U)$ is dual to $C_c^\infty(U)$, each continuous linear operator on $C_c^\infty(U)$ induces a corresponding linear operator on $\mathcal{D}(U)$ in the obvious way.  Given
+As $\mathcal{D}'(U)$ is dual to $C_c^\infty(U)$, each continuous linear operator on $C_c^\infty(U)$ induces a corresponding linear operator on $\mathcal{D}'(U)$ in the obvious way.  Given
 
 $$
 F\colon C_c^\infty(U) \to C_c^\infty(U)
@@ -147,7 +158,7 @@ $$
 we define
 
 $$
-F^*\colon \mathcal{D}(U) \to \mathcal{D}(U)
+F^*\colon \mathcal{D}'(U) \to \mathcal{D}'(U)
 $$
 
 according to the usual formula for dualities
@@ -156,7 +167,7 @@ $$
 F^* S(\phi) = S(F \phi).
 $$
 
-However, since there is an obvious inclusion $C_c^\infty(U) \to \mathcal{D}(U)$ induced by the standard inner product on $C_c^\infty(U)$, what is more usually desired is not this dual operator but an **extension** operator.  That is, instead of $F^*$ we want an operator $F^\dagger \colon \mathcal{D}(U) \to \mathcal{D}(U)$ with the property that for $\phi \in C_c^\infty(U)$ then $F^\dagger(\phi) = F(\phi)$ (identifying $C_c^\infty(U)$ with its image in $\mathcal{D}(U)$).  Being slightly more careful, let us write $\iota \colon C_c^\infty(U) \to \mathcal{D}(U)$ for the inclusion induced by the inner product.  Then we want $F^\dagger(\iota \phi) = \iota (F(\phi))$.
+However, since there is an obvious inclusion $C_c^\infty(U) \to \mathcal{D}'(U)$ induced by the standard inner product on $C_c^\infty(U)$, what is more usually desired is not this dual operator but an **extension** operator.  That is, instead of $F^*$ we want an operator $F^\dagger \colon \mathcal{D}'(U) \to \mathcal{D}'(U)$ with the property that for $\phi \in C_c^\infty(U)$ then $F^\dagger(\phi) = F(\phi)$ (identifying $C_c^\infty(U)$ with its image in $\mathcal{D}'(U)$).  Being slightly more careful, let us write $\iota \colon C_c^\infty(U) \to \mathcal{D}'(U)$ for the inclusion induced by the inner product.  Then we want $F^\dagger(\iota \phi) = \iota (F(\phi))$.
 
 If the extension exists, we have
 
@@ -170,7 +181,7 @@ $$
 F^\dagger(\iota \phi)(\psi) = \langle F(\phi), \psi \rangle = \langle \phi, F^+(\psi) \rangle
 $$
 
-In this case, the definition of $F^\dagger$ on the whole of $\mathcal{D}(U)$ is obvious: simply take ${F^+}^*$.  That is, the dual operator to the adjoint to $F$.  In full, $F^\dagger \colon \mathcal{D}(U) \to \mathcal{D}(U)$ is defined via the formula
+In this case, the definition of $F^\dagger$ on the whole of $\mathcal{D}'(U)$ is obvious: simply take ${F^+}^*$.  That is, the dual operator to the adjoint to $F$.  In full, $F^\dagger \colon \mathcal{D}'(U) \to \mathcal{D}'(U)$ is defined via the formula
 
 $$
 \langle F^\dagger(S),\phi\rangle = \langle S, F^+(\phi) \rangle
@@ -182,7 +193,7 @@ $$
 (\phi,\psi) = \int_U \phi \psi
 $$
 
-This is to ensure that the inclusion $C_c^\infty(U) \to \mathcal{D}(U)$ is complex linear and not conjugate linear.  Otherwise extending operators becomes complex.
+This is to ensure that the inclusion $C_c^\infty(U) \to \mathcal{D}'(U)$ is complex linear and not conjugate linear.  Otherwise extending operators becomes complex.
 
 Two instances are of particular importance: 
 
@@ -322,7 +333,7 @@ See also _[[hyperfunction]]_, [[ultradistribution]] and references therein.
 
 The original articles include
 
-* [[Laurent Schwartz]], _Th&#233;orie des distributions_, 1&#8211;2 , Hermann  (1950&#8211;1951)
+* {#Schwartz50} [[Laurent Schwartz]], _Th&#233;orie des distributions_, 1&#8211;2 , Hermann  (1950&#8211;1951)
 
 * [[I. M. Gel'fand]], G.E. Shilov, _Generalized functions_, 1&#8211;5 , Acad. Press  (1966&#8211;1968) transl. from &#1048;. &#1052;. &#1043;&#1077;&#1083;&#1100;&#1092;&#1072;&#1085;&#1076;, &#1043;. &#1045;. &#1064;&#1080;&#1083;&#1086;&#1074; &#1054;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1077; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1080;, &#1074;&#1099;&#1087;. 1-3, &#1052;.:&#1060;&#1080;&#1079;&#1084;&#1072;&#1090;&#1075;&#1080;&#1079;, 1958; 1: &#1054;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1077; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1080; &#1080; &#1076;&#1077;&#1081;&#1089;&#1090;&#1074;&#1080;&#1103; &#1085;&#1072;&#1076; &#1085;&#1080;&#1084;&#1080;, 2: &#1055;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1089;&#1090;&#1074;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1085;&#1099;&#1093; &#1086;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1093; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1081;, 3: &#1053;&#1077;&#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1077; &#1074;&#1086;&#1087;&#1088;&#1086;&#1089;&#1099; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1076;&#1080;&#1092;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1091;&#1088;&#1072;&#1074;&#1085;&#1077;&#1085;&#1080;&#1081;
 
@@ -330,7 +341,7 @@ The original articles include
     
 Modern accounts include
 
-* [[Lars Hörmander]], _The analysis of linear partial differential operators_, vol. I, Springer 1983
+* {#Hoermander90} [[Lars Hörmander]], _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
 * M. Kunzinger, R. Steinbauer, _Foundations of a nonlinear distributional geometry_, Acta Appl. Math. __71__, 179-206 (2002)
 
