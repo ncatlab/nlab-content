@@ -69,6 +69,9 @@ This is to give a compressed look-up table, quickly usable, telling you what def
 |  [HararyGraphTheory1969](#HararyGraphTheory1969) |   [[digraph]]               | the one in [[digraph]]; cf. [Chapter 16](#HararyGraphTheory1969), provided the word "collection" is read "set", which, as is abundantly clear from the context, is what Harary means; Harary is unambiguous that he does not allow digraphs to have loops; so Harary-digraphs are [[digraphs]] |  *digraph* | Harary uses [p. 199, second paragraph](#HararyGraphTheory1969) the unusual term "semiwalk" what is called "wealk walk" in [[digraph]]; note [p. 198, last paragraph](#HararyGraphTheory1969) that Harary's "path" is (modulo "paths" in [[digraph]] not being digraphs but only vertex-sequences) precisely the usual meaning of "path", although he only mentions that there be no point-repetitions: this evidently implies that there are no arc-repetitions; in summary, Harary-paths are [[digraph|paths]] |
 |  [FlajoletSedgewick1st](#AnalyticCombinatorics2009) |   [[binary relation]]               | [[binary relations]], formalized in [[material set theory]]-style, cf. [V.5.1](#AnalyticCombinatorics2009) | both  *digraph* and *directed graph* used interchangeably | beware that Flajolet-Sedgwewick-digraphs are just [[binary relations]], *not* [[digraphs]] |
 |  [SchrijverComOpt1st](#Schriver2003) |    [[quiver]]               | unusually hybrid formalization via *families of ordered pairs*; Bondy-Murty formalise Schrijver's *family* using a function called $\psi_D$ | *digraph*; beware that Schrijver-digraphs are *not* [[digraphs]] | no aversion to the void here; moreover, note that SchrijverDigraphs$\simeq$Bondy-Murty-digraphs  |
+|  [West2002](#West2002) |    [[digraph]]               | | *digraph*;|   |
+
+
 
 Note that "kind of directed graph" is a used in a loose, undefined sense, sufficiently clear from the context. 
 
@@ -257,6 +260,11 @@ All these points of view have disadvantages and advantages and it depends on wha
 
 * [[Alexander Schrijver]]: _Combinatorial Optimization_. Volume A. Springer. First  Edition (2003)
 {#Schrijver2003}
+
+
+* Douglas B. West: _Introduction to Graph Theory_. Second Edition. Pearson Education. (2002)
+{#West2002}
+
 
 * Thomas Zaslavsky: _A Mathematical Bibliography of Signed and Gain Graphs and Allied Areas_, Electronic Journal of Combinatorics, Dynamic Surveys in Combinatorics, #DS8.
 {#ZaslavskyBibliography}
