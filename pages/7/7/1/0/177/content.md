@@ -233,8 +233,9 @@ Some reasonably distinct aspects are:
 
 * While arguably the *simplest nontrivial limit of all*, the definition of [[digraphs]] uses a [[limit]] of the [[category of sets]], the [[cartesian product]] of the vertex set with itself, while the definition of [[quivers]] avoids doing so, and can therefore be interpreted in categories which do not have all binary products. 
 
-* It is a fact that [[quivers]] are more general than [[digraph]]s: to have [[digraph]] offer multiple arcs or loops requires additional patching, like using *families of ordered pairs* (this is done in e.g. BondyMurty) or switching to other definitions.
+* It is a fact that [[quivers]] are more general than [[digraph]]s: to have [[digraph]] offer multiple arcs or loops requires adhocery, like *weight-functions* or hybrid definitions like the use of *families of ordered pairs* (e.g. [Section 10.1](#BondyMurtyFirstEdition)). 
 Many references in the combinatorial literature are aware of that,  of course, e.g. ([Diestel 2010](#Diestel2010)) defines a "directed graph" precisely to be a [[quiver]], without mentioning the word.  
+The use of [[digraphs]] is not amiss, of course, if *questions* are being analyzed which would make one talk about [[quivers]] *as if they were* [[digraphs]], which is the case for many combinatorial questions, such as about [[tournaments]]; then one might just as well use [[digraphs]] from the outset. 
 
 * The restriction, within modern combinatorics, to [[digraphs]] ($\simeq$ loopless quivers without any parallel arcs) is mostly a result of 
 
