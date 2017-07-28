@@ -119,7 +119,7 @@ and this inclusion turns out to be [[dense subset|dense]].
 
 Other notions of spaces of distributions, each endowed with the weak $*$-topology, include 
 
-* Compactly supported distributions on $U$. These are functionals on $C^{\infty}(U)$ (test functions without compact support). 
+* [[compactly supported distributions]] on $U$. These are functionals on $C^{\infty}(U)$ (test functions without compact support). 
 
 * Rapidly decaying distributions (usually on $U = \mathbb{R}^n$). These are functionals on the space of smooth functions each of whose partial derivatives (of any order) has "tempered" or moderate growth (i.e., bounded by polynomial growth). 
 
