@@ -97,7 +97,7 @@ $$
 G S(D)\underoverset{G\xi}{\sigma_{G D}}{\rightrightarrows}G(D)\overset{\sigma_{\langle
 D,\xi\rangle}=\xi}{\rightarrow}\langle D,\xi \rangle
 $$
-Applying $K$ and using $KG=FL$, we see that $K\langle D,\xi\rangle$
+Applying $K$ and using $K G=F L$, we see that $K\langle D,\xi\rangle$
 should be the object part of a reflexive coequalizer in
 $\mathcal{C}^{\mathbb{T}}$ of the form
 $$
