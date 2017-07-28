@@ -59,13 +59,14 @@ This is to give a compressed look-up table, quickly usable, telling you what def
 
 
 
-| reference | kind of directed graph | formalization used  | *word* used in reference | miscellaneous further comments |
+| reference | kind of directed graph emphasized in the reference | formalization used; and exact reference to place in reference  | *word* used in reference | miscellaneous further comments |
 |---------------------|---|-----|---------------|----------------------|
 |  [BangJensenGutin2nd](#DG2nd) |    [[digraph]]               | the one in [[digraph]], except for a needless assumption of a vertex-set being non-empty: an empty vertex-set implies that the binary relation is the empty relation, but this *is* a [[digraph]] |  *digraph*  | beware that that book sometimes treats [[quivers]], but calls them *directed pseudographs* and formalizes those using [[multisets]] of ordered pairs |
 | [BondyMurtyt1st](#BondyMurtyFirstEdition) | [[quiver]] | unusually hybrid functional-relational formalization via *families of ordered pairs* | *digraph*; beware that Bondy-Murty-digraphs are *not* [[digraphs]] | aversion to the void: needless assumption of vertex-sets being non-empty; essentially, Bondy-Murty-digraphs$\simeq$Schrijver-digraphs|
 | [ChartrandLesniakZhang6th](#CLZ2016) | [[digraph]] | the one in [[digraph]], except for a needless assumption of a digraph being non-empty set: the empty set *is* a [[digraph]] | *digraph* | beware that what the authors call "The First Theorem of Digraph Theory" is a *not* a theorem of "Digraph Theory" in the strictest technical sense of "Digraph Theory"($=$the first-order theory of irreflexive binary relations) since it *uses the language of arithmetic*|
 |  [CsabaEtAl2016](#DecompositionProof) |    [[digraph]]               | the one in [[digraph]] |  *digraph*  | |
-|  [DiestelGraphTheory4th](#Diestel2010) |    [[quiver]]               | usual one: the "nuts-and-bolts-definition" in [[quiver]] | *directed graph*; contraction *digraph* used but once in main text  | beware that *directed path* in the book means something different, type-theoretically at least, from *path in a [[digraph]]*: in the book, a *directed path* is itself a [[digraph]], not a sequence of vertices |
+|  [DiestelGraphTheory4th](#Diestel2010) |    [[quiver]]               | usual one: cf. [Section 1.10](#Diestel2010), which is the "nuts-and-bolts-definition" in [[quiver]] | *directed graph*; wisely, the contraction *digraph* is used but once in main text, avoiding a clash with [[digraph]] | beware that *directed path* in the book means something different, type-theoretically at least, from *path in a [[digraph]]*: in the book, a *directed path* is itself a [[digraph]], not a sequence of vertices |
+|  [HararyGraphTheory1969](#HararyGraphTheory1969) |   [[digraph]]               | the one in [[digraph]]; cf. [Chapter 16](#HararyGraphTheory1969), provided the word "collection" is read "set", which, as is abundantly clear from the context, is what Harary means; Harary is unambiguous that he does not allow digraphs to have loops; so Harary-digraphs are [[digraphs]] |  *digraph* | Harary uses [p. 199, second paragraph](#HararyGraphTheory1969) the unusual term "semiwalk" what is called "wealk walk" in [[digraph]]; note [p. 198, last paragraph](#HararyGraphTheory1969) that Harary's "path" is (modulo "paths" in [[digraph]] not being digraphs but only vertex-sequences) precisely the usual meaning of "path", although he only mentions that there be no point-repetitions: this evidently implies that there are no arc-repetitions; in summary, Harary-paths are [[digraph|paths]] |
 |  [FlajoletSedgewick1st](#AnalyticCombinatorics2009) |   [[binary relation]]               | [[binary relations]], formalized in [[material set theory]]-style, cf. [V.5.1](#AnalyticCombinatorics2009) | both  *digraph* and *directed graph* used interchangeably | beware that Flajolet-Sedgwewick-digraphs are just [[binary relations]], *not* [[digraphs]] |
 |  [SchrijverComOpt1st](#Schriver2003) |    [[quiver]]               | unusually hybrid formalization via *families of ordered pairs*; Bondy-Murty formalise Schrijver's *family* using a function called $\psi_D$ | *digraph*; beware that Schrijver-digraphs are *not* [[digraphs]] | no aversion to the void here; moreover, note that SchrijverDigraphs$\simeq$Bondy-Murty-digraphs  |
 
@@ -229,6 +230,11 @@ All these points of view have disadvantages and advantages and it depends on wha
 
 * [[Gregory Gutin]], [[Jørgen Bang-Jensen]]: _Digraphs: Theory, Algorithms and Applications_. Springer Monographs in Mathematics. Second Edition (2009)
 {#DG2nd}
+
+
+* [[Frank Harary]]: _Graph Theory_. Addison Wesley. First Edition. (1969)
+{#HararyGraphTheory1969}
+
 
 * [[Frank Harary]]: _The notion of balance of a signed graph_. 
 
