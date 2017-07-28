@@ -23,6 +23,9 @@ $$
 
 If $Supp(f) \subset X$ is a [[compact subspace]], then one says that $f$ has _[[compact support]]_.
 
+### In functional analysis
+
+* [[support of a distribution]]
 
 
 ### In topos theory and type theory
