@@ -1,4 +1,10 @@
 
 * [papers on the arXiv](https://arxiv.org/a/brandt_f_1.html)
 
+## related $n$Lab entries
+
+* [[brane scan]]
+
+* [[super Poincare Lie algebra]]
+
 category: people
