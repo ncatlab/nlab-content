@@ -19,9 +19,13 @@ A __Baire space__ is a [[topological space]] such that the [[intersection]] of a
 
 ## Examples
 
+The [[Baire category theorem]] states that:
+
 *  Any [[complete metric space]] (or rather its [[forgetful functor|underlying]] topological space, hence any completely metrizable topological space) is a Baire space.
 
 *  Any [[locally compact Hausdorff space]] is a Baire space. In fact, any [[G-delta set]] of a locally compact Hausdorff space is a Baire space under the [[subspace]] topology. 
+
+Moreover:
 
 *  Any [[open subspace]] of a Baire space is also a Baire space. 
 
