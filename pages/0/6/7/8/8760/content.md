@@ -17,12 +17,24 @@
 
 A _vertex_ is a _[[point]]_ in a [[graph]] or [[simplicial set]] or similar. In the context of [[simplicial sets]] it is a 0-[[dimension|dimensional]] [[simplex]].
 
+An alternative term, monosyllabic, yet unusual in contemporary graph-theory, and considered old-fashioned, is 'point'. (Cf. [Chapter 2](#HararyGraphTheory))
+
 
 ## Related concepts
 
 * [[edge]]
 
 * **vertex**, [[simplex]], [[dendrex]]
+
+
+
+## References
+
+
+* Frank Harary: Graph Theory. Addison-Wesley. 1969
+{#HararyGraphTheory}
+
+
 
 [[!redirects vertex]]
 [[!redirects vertices]]
