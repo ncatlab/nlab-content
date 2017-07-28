@@ -96,6 +96,12 @@ The phrase *$\alpha$-vertex path* means any *path whose domain is $\alpha$*.
 
 Some special cases: If $\alpha=0$, then $P$ is called *the empty walk*. We have already seen that a $1$-walk is tantamount to a vertex, and that a 2-walk is tantamount to an edge. We call a walk $\omega \to D$ a *ray* in $D$. 
 
++-- {: .num_example #cycle} 
+###### Example 
+Another useful example of a digraph is a finite [[cyclic order]]. For each $n \geq 2$, there is a digraph $Z_n$ whose vertex set is the underlying set of the finite cyclic group $\mathbb{Z}/(n)$, and whose arc relation is the set $\{(i, i+1): i \in \mathbb{Z}/(n)\}$. 
+=--
+
+ 
 ## Monomorphisms of digraphs 
 
 In our development, it will be useful to characterize various classes of monomorphisms in $\mathsf{Dgr}$. We begin with plain monomorphisms. 
@@ -118,7 +124,7 @@ For the other direction, use the fact that $U = \mathsf{Dgr}(1, -)$ is represent
 
 (Still to come: characterization of regular monomorphisms.) 
 
-## Trails and paths 
+## Trails, paths, and cycles 
 
 +-- {: .num_defn #Path}
 ###### Definition
@@ -135,15 +141,15 @@ Or what is the same, that $\mathsf{Dgr}(1, P)$ is a [[monomorphism]] in $Set$. I
 ###### Definition
 **(trail in a digraph)**
 Suppose $D=(V,A)$ is a digraph. 
-A *trail* in $D$ is a walk $\alpha\overset{P}{\longrightarrow}V$ such that the [[function]] $e_P: \alpha\rightarrow A$ with $e_P(i)=(P(i),P(i+1))$ is injective.
+A *trail* in $D$ is a walk $\alpha\overset{P}{\longrightarrow}V$ such that the [[partial function]] $e_P: \alpha\rightarrow A$ with $e_P(i)=(P(i),P(i+1))$ is injective.
 
 =--
 
-This is the same as saying that $e_P = \mathsf{Dgr}(2, P)$, as a function between edge sets $\mathsf{Dgr}(2, \alpha) \to \mathsf{Dgr}(2, D)$, is a monomorphism in $Set$. 
+The domain of $e_P$ is canonically identified with the arc set of $\alpha$, and the trail condition is equivalent to saying that $\mathsf{Dgr}(2, P)$ (which we again denote as $e_P$), as a function between edge sets $\mathsf{Dgr}(2, \alpha) \to \mathsf{Dgr}(2, D)$, is a monomorphism in $Set$. 
 
 We have the following easy result. 
 
-+-- {: .num_prop} 
++-- {: .num_prop #PathsAreTrails} 
 ###### Proposition 
 In a digraph $D$, every path is a trail. 
 =-- 
@@ -151,7 +157,21 @@ In a digraph $D$, every path is a trail.
 +-- {: .proof} 
 ###### Proof 
 Since we just observed that a path $P$ is the same as a monic walk, and since representable functors like $\mathsf{Dgr}(2, -)$ preserve monomorphisms, it follows that $e_P = \mathsf{Dgr}(2, P)$ is a monomorphism. 
-=--
+=-- 
+
+Continuing the theme of monic digraph morphisms, we introduce the notion of cycle: 
+
++-- {: .num_defn} 
+###### Definition 
+An $n$-*cycle* in a digraph $D$ is a monic morphism $P: Z_n \to D$ (see Example \ref{cycle}). 
+=-- 
+
+Evidently a digraph morphism $C: Z_n \to D$ can be identified with a walk $P: \{0, \ldots, n\} \to D$ such that $P(0) = P(n)$. There is an identification between arcs of the ordinal digraph $\{0, \ldots, n\}$ and arcs of $Z_n$; thus if $C: Z_n \to D$ is *monic*, we have a composite injective map in $Set$, 
+
+$$\mathsf{Dgr}(2, \{0, \ldots, n\}) \cong \mathsf{Dgr}(2, Z_n) \stackrel{\mathsf{Dgr}(2, C)}{\to} \mathsf{Dgr}(2, D),$$ 
+
+which implies that the walk $P$ associated with an $n$-cycle $C: Z_n \to D$ is a trail. 
+
 
 ## Symmetrizing and "weak" notions 
 
@@ -159,7 +179,7 @@ For various digraph (directed graph) notions above, it can be useful to consider
 
 +-- {: .num_defn} 
 ###### Definition 
-For a digraph $D$, we define $Symm(D)$ to have the same vertices as $D$, and the arc relation to be the symmetric closure of $D$. In other words, $(v, w)$ is an arc of $Symm(D)$ iff $(v, w)$ or $(w, v)$ is an arc of $D$. 
+For a digraph $D$, we define $Symm(D)$ to have the same vertices as $D$, and the arc relation to be the symmetric closure of the arc relation of $D$. In other words, $(v, w)$ is an arc of $Symm(D)$ iff $(v, w)$ or $(w, v)$ is an arc of $D$. 
 =-- 
 
 Clearly the symmetric closure of an irreflexive relation remains irreflexive, so $Symm(D)$ is again a digraph, and the assignment $D \mapsto Symm(D)$ is the object part of an obvious functor $Symm: \mathsf{Dgr} \to \mathsf{Dgr}$. Also the monomorphism $D \to Symm(D)$ that is the identity on vertices is the component $u_D$ of a [[natural transformation]] 
@@ -173,7 +193,7 @@ The functor $Symm$ carries an [[idempotent monad]] structure.
 
 +-- {: .proof} 
 ###### Proof 
-It is clear that $u_{Symm(D)}: Symm(D) \to Symm^2(D)$ is an [[isomorphism]] (and even an identity map) because taking the symmetric closure of a relation is itself idempotent. Similarly $Symm(u_D)$ is also an identity map: $u_{Symm(D)} = Symm(u_D)$. The multiplication $m: Symm^2 \to Symm$ of the monad is defined by taking the inverse: $m = u_{Symm}^{-1}$. Then $m$ is natural and the unit law $m \circ u_{Symm} = 1$ is automatic; the other unit law $m \circ Symm(u_D)$ follows. The associativity of $m$ follows by inverting a naturality square for $u$. 
+It is clear that $u_{Symm(D)}: Symm(D) \to Symm^2(D)$ is an [[isomorphism]] (and even an identity map) because the operation of taking the symmetric closure of a relation is itself idempotent. Similarly $Symm(u_D)$ is also an identity map: $u_{Symm(D)} = Symm(u_D)$. The multiplication $m: Symm^2 \to Symm$ of the monad is defined by taking the inverse: $m = u_{Symm}^{-1}$. Then $m$ is natural and the unit law $m \circ u_{Symm} = 1$ is automatic; the other unit law $m \circ Symm(u_D)$ follows. The associativity of $m$ follows by inverting a naturality square for $u$. 
 =-- 
 
 Morally we may consider the category of undirected graphs to be the category of algebras over the monad $Symm$. In any case, this is a full subcategory of $\mathsf{Dgr}$ consisting of digraphs of the form $Symm(D)$. 
