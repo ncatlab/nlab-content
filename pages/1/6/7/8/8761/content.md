@@ -34,7 +34,7 @@ Some deplore the geometric connotations of "edge", with its geometric connotatio
 The term "edge" is clearly the most usual one in modern graph theory by far. 
 
 An alternative term, unusual in contemporary graph-theory and considered old-fashioned, is 'line'. (Cf., notably, [Chapter 2](#HararyGraphTheory) and many other articles of Harary's). 
-The word 'line' lives on to this day in the standard technical term [[line graph]].
+The word 'line' lives on to this day in the standard technical term [[line graph]], while "edge graph" does not even lexically exist. 
 
 
 
