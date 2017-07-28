@@ -47,6 +47,7 @@ is called the **fundamental solution** for $P$; alternative names like __Green f
 [[!redirects fundamental solutions]]
 
 [[!redirects Green function]]
+[[!redirects Green functions]]
 
 [[!redirects Green's function]]
 [[!redirects Green's functions]]
