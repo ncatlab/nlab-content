@@ -1,0 +1,18 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+##Idea
+
+A (complex) **del Pezzo surface** is a smooth projective complex surface with [[ample line bundle|ample]] anticanonical line bundle. Such a surface has a degree defined as the self-intersection of the canonical divisor. The possible degrees run between $d=1$ and $d=9$. Topologically, del Pezzo surfaces are determined by their degree except for $d=8$. If $d$ is different from 8, then a del Pezzo surface of degree $d$ is a generic blow up of the [[projective plane]] $\mathbb{P}^2$ in $9-d$ points. But if $d=8$, there are two choices: $\mathbb{P}^2$ blown up in one point and $\mathbb{P}^1 \times \mathbb{P}^1$.
+
+##Related concept
+
+* [[mysterious duality]]
+
+[[!redirects del Pezzo surfaces]]
+[[!redirects Del Pezzo surface]]
+[[!redirects Del Pezzo surfaces]]
+
