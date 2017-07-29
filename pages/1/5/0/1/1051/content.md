@@ -21,7 +21,7 @@ More generally, for $\kappa$ a [[cardinal number|regular cardinal]] say that a *
 
 If the directed set is an [[ordinal]], one speaks of a [[sequential limit]].
 
-The [[duality|dual]] notion is that of [[directed colimit]], a [[limit]] of a functor whose source is a downward-directed set.
+The [[duality|dual]] notion is that of [[directed colimit]], a [[colimit]] of a functor whose source is a upward-directed set.
 
 
 ## Terminology
