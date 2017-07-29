@@ -42,10 +42,16 @@ The following conditions on a [[category]] $C$ are equivalent.  When they are sa
 
 +-- {: .num_prop}
 ###### Proposition
-In an adhesive category, the pushout of a monomorphism is again a monomorphism.
+In an adhesive category, suppose given a [[pushout]] square
+$$ \array{ C & \xrightarrow{m} & A \\ ^f\downarrow && \downarrow^g \\ B & \xrightarrow{n} & D } $$
+such that $m$ is a monomorphism.  Then:
+
+1. $n$ is also a monomorphism.
+2. The square is also a [[pullback]] square.
+3. The square is also a [[distributivity pullback]] around $(g,m)$; hence in particular $n = \forall_g m$ is the [[universal quantification]].
 =--
 
-E.g. ([Lack, prop. 2.1](#Lack)) Notice that generally [[monomorphisms]] (as discussed there) are preserved by [[pullback]].
+(Notice that generally [[monomorphisms]] (as discussed there) are preserved by [[pullback]].)  For a proof of the above proposition, see ([Lack, prop. 2.1](#Lack)) and ([Lack-Sobocinski, Lemmas 2.3 and 2.8](#LS1)).  The latter Lemma 2.8 states only that $n = \forall_g m$ (a weaker universal property since it refers only to other *monomorphisms* into $D$), but the proof applies more generally.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -79,6 +85,9 @@ We give only a sketch; details are in [(LS, Lemma 4.5)](#LS).  If $(f,n)$ and $(
 Adhesiveness is an [[exactness property]], similar to being a [[regular category]], an [[exact category]], or an [[extensive category]].  In particular, it can be phrased in the language of "lex colimits".
 
 ## References
+
+* [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive and quasiadhesive categories*, [PDF](http://users.ecs.soton.ac.uk/ps/papers/adhesivejournal.pdf)
+ {#LS1}
 
 * [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive categories*, [PDF](http://users.ecs.soton.ac.uk/ps/papers/adhesive.pdf)
  {#LS}
