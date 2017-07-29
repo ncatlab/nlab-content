@@ -9282,7 +9282,7 @@ connecting $x$ with $y$.
 **([[path space]])**
 
 Let $X$ be a [[topological space]].
-Since the [[interval]] $[0,1]$ is a [[locally compact topological space]] (example \ref{MetricSpacesAreLocallyCompact})
+Since the [[interval]] $[0,1]$ is a [[locally compact topological space]] (example \ref{EuclideanSpacesAreLocallyCompact})
 there is the [[mapping space]]
 
 $$
@@ -11139,10 +11139,6 @@ we consider one such alternative definition below in def. \ref{LocalCompactnessV
 For [[Hausdorff topological spaces]] all these definitions
 happen to be equivalent (prop. \ref{InHausdorffSpacesDefinitionsOfLocalCompactnessAgree} below), but in general they are not.
 
-The version we state in def. \ref{LocallyCompactSpace} is the one that gives various results
-(such as the [[universal property]] of the mapping space, prop. \ref{UniversalPropertyOfMappingSpace} below)
-_without_ requiring the Hausdorff property.
-
 =--
 
 +-- {: .num_example #DiscreteSpacesAreLocallyCompact}
@@ -11153,7 +11149,7 @@ Every [[discrete topological space]] (example \ref{CoDiscreteTopology}) is [[loc
 
 =--
 
-+-- {: .num_example #MetricSpacesAreLocallyCompact}
++-- {: .num_example #EuclideanSpacesAreLocallyCompact}
 ###### Example
 **([[Euclidean space]] is [[locally compact topological space|locally compact]])**
 
@@ -11348,7 +11344,7 @@ satisfies the expected [[universal property]] of a [[mapping space]] (prop. \ref
 
 For
 
-1. $(X, \tau_X)$ a [[locally compact topological space]] (def. \ref{LocallyCompactSpace})
+1. $(X, \tau_X)$ a [[locally compact topological space]] (in the sense of def. \ref{LocallyCompactSpace} or just in the sense of def. \ref{LocalCompactnessViaCompactNeighbourhoodBase})
 
 1. $(Y,\tau_Y)$ any [[topological space]]
 
@@ -11400,7 +11396,7 @@ Accordingly this topology $\tau_{\text{cpt-op}}$ is called the _[[compact-open t
 **([[universal property]] of the [[mapping space]])**
 
 Let $(X,\tau_X)$, $(Y, \tau_Y)$, $(Z, \tau_Z)$
-be [[topological spaces]], with $X$ [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}).
+be [[topological spaces]], with $X$ [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace} or just def. \ref{LocalCompactnessViaCompactNeighbourhoodBase}).
 Then
 
 1. The [[evaluation]] function
@@ -11480,7 +11476,8 @@ Let $V \subset Y$ be an open subset. We need to show that $ev^{-1}(V) = \{(x, f)
 is a union of products of the form $U \times V^K$ with $U\subset X$ open and $U^K \subset Hom_{Set}(K,U)$ a basic open according to def. \ref{CompactOpenTopology}.
 
 For $(x, f) \in ev^{-1}(V)$, the preimage $f^{-1}(V) \subset X$ is an open neighbourhood of $x$ in $X$, by continuity of $f$.
-By local compactness of $X$, there is a compact subset $K \subset f^{-1}(V)$ which is still a neighbourhood of $x$.
+
+{#LocalCompactnessInProofOfExponentiability} By local compactness of $X$, there is a compact subset $K \subset f^{-1}(V)$ which is still a neighbourhood of $x$.
 Since $f$ also still takes that into $V$,
 we have found an open neighbourhood
 
@@ -11555,7 +11552,7 @@ hence $f$ is continuous.
 
 In the language of [[category theory]] (remark \ref{TopCategory}), prop. \ref{UniversalPropertyOfMappingSpace}
 says that the [[mapping space]] construction with its [[compact-open topology]] from def. \ref{CompactOpenTopology}
-is an _[[exponential object]]_ or _[[internal hom]]_. This just means that it behaves in all abstract ways just as
+is an _[[exponential object]]_ or _[[internal hom]]_. This just means that it beahves in all abstract ways just as
 a [[function set]] does for plain functions, but it does so for continuous functions and being itself
 equipped with a topology.
 
@@ -12499,7 +12496,7 @@ is a [[paracompact topological space]] (def. \ref{ParacompactSpace}).
 +-- {: .proof}
 ###### Proof
 
-The Euclidean space is [[locally compact topological space|locally compact]] by example \ref{MetricSpacesAreLocallyCompact}
+The Euclidean space is [[locally compact topological space|locally compact]] by example \ref{EuclideanSpacesAreLocallyCompact}
 and [[sigma-compact topological space|sigma-compact]] by example \ref{SigmaCompactEuclideanSpace}.
 Therefore the statement follows since [[locally compact and sigma-compact spaces are paracompact]]
 (prop.  \ref{ParacompactFromLocallyCompactAndSigmacompact}).
@@ -12754,7 +12751,7 @@ As an open subspace of Euclidean space, $GL(n,\mathbb{R})$ is not compact, by th
 
 As Euclidean space is Hausdorff (example \ref{HausdorffMetricSpace}), and since every [[topological subspace]] of a Hausdorff space is again Hausdorff, so $Gl(n,\mathbb{R})$ is Hausdorff.
 
-Similarly, as Euclidean space is [[locally compact topological space|locally compact]] (example \ref{MetricSpacesAreLocallyCompact}) and since
+Similarly, as Euclidean space is [[locally compact topological space|locally compact]] (example \ref{EuclideanSpacesAreLocallyCompact}) and since
 an open subspace of a locally compact space is again locally compact, it follows that $GL(n,\mathbb{R})$ is locally compact.
 
 From this it follows that $GL(n,\mathbb{R})$ is paracompact, since locally compact topological groups are paracompact
@@ -15554,7 +15551,7 @@ Let $x \in X$ be a point and let $U_x \supset \{x\}$ be an open neighbourhood. W
 
 By assumption there exists a Euclidean open neighbourhood $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} V_x \subset X$. By definition of the [[subspace topology]] the intersection $U_x \cap V_x$ is still open as a subspace of $V_x$ and hence $\phi^{-1}(U_x \cap V_x)$ is an open neighbourhood of $\phi^{-1}(x)  \in \mathbb{R}^n$.
 
-Since Euclidean spaces are locally compact (example \ref{MetricSpacesAreLocallyCompact}), there exists
+Since Euclidean spaces are locally compact (example \ref{EuclideanSpacesAreLocallyCompact}), there exists
 a compact neighbourhood $K_{\phi^{-1}(x)} \subset \mathbb{R}^n$ (for instance a sufficiently small [[closed ball]] around $x$, which is compact by the [[Heine-Borel theorem]], prop. \ref{BorelHeine}).
 Now since [[continuous images of compact spaces are compact]] prop. \ref{ContinuousImageOfACompactSpaceIsCompact}, it follows
 that also $\phi(K) \subset X$ is a compact neighbourhood.
@@ -17997,19 +17994,19 @@ $$
   \,.
 $$
 
-This function is an immersion: On the interior of the support of the bump functions 
+This function is an immersion: On the interior of the support of the bump functions
 the product functions $f_i\cdot \psi_i$ have smooth inverses $\tfrac{\psi_i^{-1}}{f_i}$
 and therefore their differentials have vanishing kernel.
 
 Hence it remains to see that the function is also an [[embedding of topological spaces]].
 
 Observe that it is an injective function: If two points $x,y \in X$ have the same image,
-this means that they have the same image under all the $f_i \cdot \psi_i$. But where these 
+this means that they have the same image under all the $f_i \cdot \psi_i$. But where these
 are non-vanishing, they are bijective. Moreover, since their supports cover $X$, not all of
 them vanish on $x$ and $y$. Therefore $x$ and $y$ must be the same.
 
-Hence we have an injective immersion. 
-With this prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings} says that it is now sufficient 
+Hence we have an injective immersion.
+With this prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings} says that it is now sufficient
 to show that we also have a [[closed map]]. But this follows generally since $X$ is a [[compact topological space]] by assumption, and since
 [[Euclidean space|Euclidean]] [[metric space]] is a [[Hausdorff topological space]] (example \ref{HausdorffMetricSpace}), and since [[maps from compact spaces to Hausdorff spaces are closed and proper]] (prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}).
 
