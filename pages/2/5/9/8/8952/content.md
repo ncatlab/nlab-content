@@ -18,14 +18,19 @@
 What is called _observational type theory_ (OTT) is a flavor of [[type theory]] in between [[extensional type theory]] and [[intensional type theory]].
 
 It may be regarded as a first-stage approximation to 
-[[homotopy type theory]] (HoTT): the [[propositions]] of OTT correspond to the [[h-propositions]] of HoTT, and the [[types]] in OTT correspond to [[h-sets]] in HoTT. The notion of [[equality]] on OTT is based on [[setoids]], which is a special case of [[internal category in an (infinity,1)-category|higher internal groupoids]]. There are a few technical differences (e.g. proofs of propositions are [[definitional equality|definitionally equal]] in OTT, whereas proofs of hprops are only [[propositional equality|propositionally equal]] in HoTT) but on the whole HoTT looks a lot like a higher-dimensional version of OTT.
+[[homotopy type theory]] (HoTT): the [[propositions]] of OTT correspond to the [[h-propositions]] of HoTT, and the [[types]] in OTT correspond to [[h-sets]] in HoTT.  The notion of [[equality]] on OTT is based on [[setoids]], which is a special case of [[internal category in an (infinity,1)-category|higher internal groupoids]].  Since equality is defined type-by-type, OTT enjoys [[function extensionality]], and a form of [[propositional extensionality]] at least for a specified universe of propositions (not necessarily including all [[h-propositions]]).
 
+There are a few technical differences (e.g. proofs of propositions are [[definitional equality|definitionally equal]] in OTT, whereas proofs of hprops are only [[propositional equality|propositionally equal]] in HoTT) but on the whole HoTT looks a lot like a higher-dimensional version of OTT.
 
 ## References
 
 Observational type theory was introduced in
 
 * [[Thorsten Altenkirch]] and [[Conor McBride]], _Towards observational type theory_ ([pdf](http://strictlypositive.org/ott.pdf))
+
+A blog post about an Agda implementation, including propositional extensionality (which is not mentioned in the above paper) is at
+
+* [Hier Soir, an OTT Hierarchy](http://mazzo.li/epilogue/index.html%3Fp=1098.html)
 
 The above comparison between OTT and HoTT is taken from 
 
@@ -34,3 +39,4 @@ The above comparison between OTT and HoTT is taken from
 
 [[!redirects observational type theory]]
 [[!redirects observational type theories]]
+[[!redirects OTT]]
