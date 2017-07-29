@@ -123,14 +123,14 @@ Conversely, every locally compact Haudorff space $X$ arises in this way, since i
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #real}
 ###### Example
 
 The [[real numbers]], [[complex numbers]], and $\mathfrak{p}$-[[adic completions]] of [[algebraic number fields]] (with respect to a [[prime ideal]] $\mathfrak{p}$ in the [[ring of integers]]) are locally compact. In [[positive characteristic]] $p$, the field of [[Laurent series]] $\mathbb{F}_q((t))$ over a [[finite field]] with $q$ elements, topologized with respect to a discrete valuation, is locally compact. In fact, any non-discrete locally compact [[field]] must be of one of these types; they are called [[local fields]]
 
 =-- 
 
-+-- {: .num_example }
++-- {: .num_example #product}
 ###### Example
 
 Finite [[product topological spaces]] of locally compact spaces are locally compact. 
@@ -148,7 +148,7 @@ Finite [[product topological spaces]] of locally compact spaces are locally comp
 ###### Example
 **([[topological manifolds]] are [[locally compact topological spaces]])**
 
-[[topological manifolds]], being locally [[homeomorphism|homeomorphic]] to the [[Euclidean space|Euclidean]] [[metric spaces]] $\mathbb{R}^n$, are locally compact, via example \ref{MetricSpacesAreLocallyCompact}.
+[[topological manifolds]], being locally [[homeomorphism|homeomorphic]] to the [[Euclidean space|Euclidean]] [[metric spaces]] $\mathbb{R}^n$, are locally compact, via examples \ref{real} and \ref{product}.
 
 In fact this applies also to [[locally Euclidean spaces]] which are not necessarily [[paracompact topological space|paracompact]] [[Hausdorff topological spaces]], such as the [[long line]].
 
