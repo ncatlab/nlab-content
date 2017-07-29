@@ -30,7 +30,7 @@ Observational type theory was introduced in
 
 A blog post about an Agda implementation, including propositional extensionality (which is not mentioned in the above paper) is at
 
-* [Hier Soir, an OTT Hierarchy](http://mazzo.li/epilogue/index.html%3Fp=1098.html)
+* [[Conor McBride]], [Hier Soir, an OTT Hierarchy](http://mazzo.li/epilogue/index.html%3Fp=1098.html)
 
 The above comparison between OTT and HoTT is taken from 
 
