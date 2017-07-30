@@ -47,23 +47,25 @@ A *morphism* from a digraph $(V, A)$ to a digraph $(V', A')$ is a function $f: V
 
 =-- 
 
-A digraph $(V, A)$ may be regarded as a [[quiver]] in an evident way, with source and target functions $s, t: A \rightrightarrows V$. It is straightforward that $\mathsf{Dgr}$ is a [[full subcategory]] of the category of quivers [[Quiv]]. Of course most quivers are not digraphs since quivers can have parallel edges: distinct edges $a, b$ where $s(a) = s(b)$ and $t(a) = t(b)$. 
+A digraph $(V, A)$ may be regarded as a [[quiver]] in an evident way, with source and target functions $s, t: A \rightrightarrows V$. It is straightforward that $\mathsf{Dgr}$ is (equivalent to) a [[full subcategory]] of the category of quivers [[Quiv]]. Of course most quivers are not digraphs since quivers can have parallel edges: distinct edges $a, b$ where $s(a) = s(b)$ and $t(a) = t(b)$. 
 
 Some useful examples of digraphs are based on [[ordinals]]: 
 
 +-- {: .num_example #ExampleDigraph} 
 ###### Example 
-If $\alpha$ is an ordinal, we may form a digraph $(V, A)$ where $V$ is the underlying set of $\alpha$ and $A$ is the relation $\{(i, i+1): i, i+1 \in \alpha\}$. We call this an *ordinal digraph*. 
+If $\alpha$ is an ordinal, we may form a digraph $(V, A)$ where $V$ is the underlying set of $\alpha$ and $A$ is the relation $\{(i, i+1): i, i+1 \in \alpha\}$. We call this an *ordinal digraph* and denote it by the ordinal itself. 
 =-- 
 
 +-- {: .num_defn #Walk}
 ###### Definition
+
 **(walk in a digraph)**
 Suppose $D=(V,A)$ is a digraph. 
 A *walk in $D$* is a digraph-morphism $\alpha \to D$ where $\alpha$ is an ordinal digraph. 
+
 =-- 
 
-Notice that for $\alpha = 1$, the hom-set $\mathsf{Dgr}(1, D)$ may be identified with the set of vertices of $D$. The definition of graph morphism implies that underlying set functor $U = \mathsf{Dgr}(1, -): \mathsf{Dgr} \to Set$ is [[faithful functor|faithful]], and realizes $\mathsf{Dgr}$ as a [[concrete category]]. 
+Notice that for $\alpha = 1$, the hom-set $\mathsf{Dgr}(1, D)$ may be identified with the set of vertices of $D$. The definition of graph morphism implies that the underlying set functor $U = \mathsf{Dgr}(1, -): \mathsf{Dgr} \to Set$ is [[faithful functor|faithful]], and realizes $\mathsf{Dgr}$ as a [[concrete category]]. 
 
 For $\alpha = 2$, the hom-set $\mathsf{Dgr}(2, D)$ may be identified with the set of arcs of $D$. However, the arc-set functor $\mathsf{Dgr}(2, -): \mathsf{Dgr} \to Set$ is very far from being faithful. 
 
@@ -98,17 +100,19 @@ Some special cases: If $\alpha=0$, then $P$ is called *the empty walk*. We have 
 
 +-- {: .num_example #cycle} 
 ###### Example 
-Another useful example of a digraph is a finite [[cyclic order]]. For each $n \geq 2$, there is a digraph $Z_n$ whose vertex set is the underlying set of the finite cyclic group $\mathbb{Z}/(n)$, and whose arc relation is the set $\{(i, i+1): i \in \mathbb{Z}/(n)\}$. 
+Another useful example of a digraph is a finite [[cyclic order]]. For each $n \geq 2$, there is a digraph $Z_n$ whose vertex set is the underlying set of the finite cyclic group $\mathbb{Z}/n$, and whose arc relation is the set $\{(i, i+1): i \in \mathbb{Z}/n\}$. 
 =--
 
  
-## Monomorphisms of digraphs 
+## Categorical properties of $\mathsf{Dgr}$ 
 
-In our development, it will be useful to characterize various classes of monomorphisms in $\mathsf{Dgr}$. We begin with plain monomorphisms. 
+To be included: observations on which types of limits, and maybe colimits, do and don't exist in $\mathsf{Dgr}$. 
+
+In our development, it will be useful to characterize various classes of [[monomorphisms]] in $\mathsf{Dgr}$. We begin with plain monomorphisms. 
 
 +-- {: .num_prop #Mono} 
 ###### Proposition 
-A morphism of digraphs $f: D \to D'$ is monic iff its underlying function $U(f)$ is monic. 
+A morphism of digraphs $f: D \to D'$ is monic iff its underlying function $U(f)$ is monic ([[injective function|injective]]). 
 =-- 
 
 +-- {: .proof} 
