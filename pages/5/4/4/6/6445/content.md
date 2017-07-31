@@ -126,3 +126,5 @@ To be written, possibly with some original research.
 
 
 [[!redirects matroids]] 
+[[!redirects pregeometry]]
+[[!redirects pregeometries]]
