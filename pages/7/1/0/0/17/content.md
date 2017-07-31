@@ -87,14 +87,6 @@ Currently, the following stylish themes are available:
 
 The inbuilt export features of the n-Lab have been switched off.  However, it is still possible to get a local version of the n-Lab.  This is a _static_ version in that you cannot edit pages, but is complete and all the links correctly point to the pages on the local version.
 
-+-- {: .query}
-The following command line magic depends on the [list of all pages](http://ncatlab.org/nlab/list) which no longer works. Is there any other way to download a copy of the nLab?
-
-[[Andrew Stacey|Andrew]]: The "all pages" is currently reenabled, but there are alternative methods depending on exactly what you want to do with the copy.  Best route would be to join us in the [nForum](https://nforum.ncatlab.org/) and discuss it so that we can come up with the best method.
-
-(For housekeeping, I'll delete this query box in a few days.)
-=--
-
 One way to do this on a Unix-based system (Linux, MacOSX, BSD), is to use the `wget` command.  The command is:
 
     wget --output-document=- http://ncatlab.org/nlab/list \
@@ -329,6 +321,7 @@ But if you just put up a query block and don\'t post anything to the Forum, you\
 
 
 ## How to make a standout box
+ {#standout}
 
 If you want to make some text stand out (an important theorem, or slogan), you can do it using a __standout box__:
 
