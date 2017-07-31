@@ -94,9 +94,9 @@ $$
 
 As for [[compact spaces]] ([this remark](compact+space#DifferingTerminology)), some authors choose to include the [[Hausdorff space|Hausdorff]] condition as a matter of course, calling locally compact not-necessarily-Hausdorff spaces 'locally quasi-compact'. We will not follow that convention here, but the reader should be warned that without the Hausdorff hypothesis, there are several inequivalent notions of local compactness in the literature; see [the English Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Locally_compact_space) for a survey and counterexamples.
 
+Note, however, that a topological space $X$ satisfying Definition \ref{LocallyCompactSpace} is regular, because, as is immediate from the definition, closed neighbourhoods then form a neighbourhood basis of $X$, which is equivalent to regularity. Thus we only need that $X$ be $T_{0}$ for it to in fact be Hausdorff.  
+ 
 =--
-
-
 
 ## Examples
 
