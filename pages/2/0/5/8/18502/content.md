@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Amer_Iqbal)
+
+## related $n$Lab entries
+
+* [[mysterious duality]]
+
+category: people
