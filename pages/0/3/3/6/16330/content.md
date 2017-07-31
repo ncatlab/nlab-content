@@ -11,6 +11,12 @@
 
 
 A version of [[type theory]].
+In practice any type theory is called a simple type theory if type formation is *not* indexed, that is the judgment that a type $A$ is well-formed has no other inputs.
+Contrast [[polymorphism|polymorphic type theory]], where types depend on a context of type variables or [[dependent type theory]], where types depend on a context of more general variables.
+
+## Related Pages
+
+* [[pure type system]]
 
 ## References
 
