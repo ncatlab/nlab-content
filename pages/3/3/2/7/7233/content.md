@@ -412,6 +412,10 @@ and a second class of examples in
 
 * {#Kovalev00} [[Alexei Kovalev]], _Twisted connected sums and special Riemannian holonomy_ ([arXiv:math/0012189](https://arxiv.org/abs/math/0012189))
 
+More compact examples are constructed in 
+
+* {#JoyceKarigiannis07} [[Dominic Joyce]], [[Spiro Karigiannis]], _A new construction of compact $G_2$-manifolds by gluing families of Eguchi-Hanson spaces_, arXiv:[1707.09325](https://arxiv.org/abs/1707.09325)
+
 Surveys include
 
 * [[Spiro Karigiannis]], _What is... a $G_2$-manifold_ ([pdf](http://www.ams.org/notices/201104/rtx110400580p.pdf))
