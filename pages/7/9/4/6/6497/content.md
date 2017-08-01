@@ -4,5 +4,6 @@ __George Lusztig__ is a mathematician at MIT, born in Romania. He has many deep 
 * [homepage](http://math.mit.edu/~gyuri/)
 * list of [papers](http://www-math.mit.edu/~gyuri/pub.html) and his own [comments](http://www-math.mit.edu/~gyuri/papers/comm.html) on some papers
 * [wikipedia](http://en.wikipedia.org/wiki/George_Lusztig)
+* G. Lusztig, _Comments on my papers_, [arxiv/1707.09368](https://arxiv.org/abs/1707.09368), 55 pages, contains historical notes on some of Lusztig's papers and the list of 247 publications till mid 2017
 
 [[!redirects G. Lusztig]]
