@@ -231,6 +231,8 @@ In polycategorical language we can give another [[unbiased]] definition of a  co
 
 * [[Calabi-Yau algebra]]
 
+* [[hypergraph category]]
+
 ## References ##
 
 Frobenius algebras were introduced by [[Brauer]] and Nesbitt and were named after [[Ferdinand Frobenius]].
