@@ -17,16 +17,13 @@
 =--
 =--
 
-
-
 # Contents
 * table of contents
 {: toc}
 
-
 ## Idea
 
-A _differential equation_ is an [[equation]] involving [[terms]] that are [[derivatives]].  One sometimes distinguishes _partial_ differential equations (which involve [[partial derivatives]]) from _[[ordinary differential equation|ordinary]]_ differential equations (which don\'t).
+A _differential equation_ is an [[equation]] involving [[terms]] that are [[derivatives]] (or [[differentials]]).  One sometimes distinguishes _partial_ differential equations (which involve [[partial derivatives]]) from _[[ordinary differential equation|ordinary]]_ differential equations (which don\'t).
 
 
 ## As sub-$\infty$-groupoids of tangent and jet bundle
@@ -164,6 +161,7 @@ In this diagram now
 
 * [[D-module]], [[D-geometry]]
 
+
 ## References
 
 General accounts include
@@ -197,6 +195,7 @@ A [[domain specific programming language]] for differential equations is present
 See also
 
 * _[Dispersive Wiki](http://wiki.math.toronto.edu/DispersiveWiki/index.php/Main_Page)_
+
 
 [[!redirects differential equation]]
 [[!redirects differential equations]]
