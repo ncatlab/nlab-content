@@ -63,7 +63,7 @@ to be the [[n-truncated object of an (infinity,1)-topos|0-truncation]] of the ob
 
 =--
 
-Passing to the 0-truncation here amounts to dividing out the [[homotopy|homotopies]] between maps from the $n$-sphere into $X$. The [[n-truncated object of an (infinity,1)-topos|0-truncated]] objects in $\mathbf{H}/X$ have the interpretation of [[sheaf|sheaves]] on $X$. So in the world of [[∞-stack]]s a homotopy [[group object]] is a [[sheaf]] of groups.
+Passing to the 0-truncation here amounts to dividing out the [[homotopy|homotopies]] between maps from the $n$-sphere into $X$. The [[n-truncated object of an (infinity,1)-topos|0-truncated]] objects in $\mathbf{H}_{/X}$ have the interpretation of [[sheaf|sheaves]] on $X$. So in the world of [[∞-stack]]s a homotopy [[group object]] is a [[sheaf]] of groups.
 
 To see that there is indeed a group structure on these _homotopy sheaves_ as usual, notice from the general properties of [[power]]ing we have that 
 
@@ -90,7 +90,7 @@ $$
   \pi_n(X) \times \pi_n(X) \to \pi_n(X)
 $$
 
-is the [[sheaf topos]] $\tau_{\leq 0} \mathbf{H}_{/X}$. By the usual argument about [[homotopy group]]s, these are trivial for $n = 0$ and [[abelian group|abelian]] for $n \geq 2$.
+in the [[sheaf topos]] $\tau_{\leq 0} \mathbf{H}_{/X}$. By the usual argument about [[homotopy group]]s, these are trivial for $n = 0$ and [[abelian group|abelian]] for $n \geq 2$.
 
 ### Of morphisms
 
