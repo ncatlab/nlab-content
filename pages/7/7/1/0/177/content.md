@@ -1,8 +1,5 @@
-> This entry is meant to be a **disambiguation page**, plus some **commentary** that would not fit well on either of the pages [[digraph]] and [[quiver]]. 
-The term "directed graph" is somewhat intermediate between two rather precisely delineated terms: [[digraph]] and [[quiver]].
-In a sense, "directed graph" is an undefined term, but the latter two both are defined. 
-Every digraph is a quiver, not every quiver is a [[digraph]]. 
-This page also briefly treats the related technical terms **oriented graph**,  **bidirected graph**, and **signed graph**, the latter of which  can hardly be regarded as a directed graph. Each of the latter three terms  has a standard meaning in modern combinatorics.
+> This entry is a *disambiguation page*, plus some commentary that would not fit well on either of the pages [[digraph]] and [[quiver]], particularly on 
+related technical terms such as *oriented graph*, *bidirected graph*, and *signed graph*, with their standard meanings in modern combinatorics.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -25,21 +22,16 @@ This page also briefly treats the related technical terms **oriented graph**,  *
 
 
 
-The term _directed graph_ is used in both [[graph theory]] and [[category theory]].
-The definition varies---even within *one* of the two theories.
+The term _directed graph_ is used in both [[graph theory]] and [[category theory]]. The definition varies -- even within *one* of the two theories.
 
-In [[graph theory]], _directed graph_ (often abbreviated to the contraction _digraph_) nowadays usually means a [[digraph]], while in [[category theory]], directed graph/digraph means and always has meant a [[quiver]]. 
-The basic the difference is: [[quivers]] may have multiple arrows in the *same* direction (often called "parallel"), and also *loops*, while [[digraphs]] may not have any of those.
+In [[graph theory]], _directed graph_ (often abbreviated to the contraction _digraph_) nowadays usually means a [[digraph]], while in [[category theory]], directed graph generally means a [[quiver]]. The basic difference is: [[quivers]] may have multiple arrows in the *same* direction (often called "parallel"), and also *loops*, while [[digraphs]] may not have any of those.
 
 ## Overview of usual technical terms 
 
 
 > We see one family, in the same room but hardly together. The family of signed, gain, and biased graphs is a lot like that. The Bibliography and Glossary are supposed to lead the family members to talk to one another. May they do so!  ([Thomas Zaslavsky: front page](#HomePageOfSignedGraphs))
 
-The following table is meant to have *pragmatic* value. I has little *epistomological* value. 
-It should go without saying for thinking readers that the table does not, like e.g. [[periodic table]] does, describe objective *connections between things*, but merely *conventional connections between language and things*. 
-The table describes a clear-enough reality, yet is bound to read dated in the future, even *in substance* rather than style. 
-
+The following table may help distinguish the various terminological conventions in current use: 
 
 | technical term | distinctive feature |  short verbal definition  | [[signature]]; and axioms, of the [[theory]] (in a narrow sense of "theory")| comments |  
 |---------------------|-------------|---------------|---------------|---------------|
@@ -50,8 +42,7 @@ The table describes a clear-enough reality, yet is bound to read dated in the fu
 |  signed [[graph]] | undirected [[graph]] with a sign on each edge    | undirected simple [[graph]] together with a function $\{$edges$\}$ $\rightarrow$ $\{-,+\}$,not subject to any axioms | dependent on the chosen formalization of [[graph|undirected simple graph]]; if [[graph|undirected simple graph]] is formalized in one of the usual ways as a [[relation|symmetric irreflexive relation]], and the signs in the usual way as two [[signature|constant symbols]], then the signature is:  [[equality| = ]], one relation symbol, two constant symbols; and the axioms then are: one axiom expressing irreflexivity, one axiom expressing symmetry; note that no axiom to express distinctness of the two constant symbols is necessary, as this, in the usual approach, is built into the signature; if [[constructive logic]] is required, the signature might be larger, requiring an [[apartness relation]] to express irreflexivity  | beware that this should *not* in a natural way be regarded a "directed graph", though they *are* often used in *contexts* together with directed graphs and thus belong on this page; in a sense, "signed graphs" are a non-example, an *odd-one-out*, in particular in that they seem tricky to categorically construct |
 |  bidirected [[graph]] |  [[quiver]] with a sign on each vertex-arrow-*[[incidence|incidence relation]]*   | quiver together with function $\{$vertices$\}$ $\times$ $\{$arrows$\}$ $\rightarrow$ $\{-,+\}$, subject to axioms |   |  |
 
-Note that there are two points of view in model theory, one regards [[equality| = ]] as a [[logic|logical symbol]] of a meta-language, the other regards  [[equality| = ]] as a binary relation symbol within the language under investigation. 
-In the table, as a reminder that equality plays an important roles in these theories, the latter view was taken. 
+Note that there are two points of view in model theory: one regards [[equality| = ]] as a [[logic|logical symbol]] of a meta-language (e.g., first-order logic with equality), the other regards  [[equality| = ]] as a binary relation symbol defined within the language under investigation. In the table, as a reminder that equality plays an important role in these theories, the latter view was taken. 
 
 ## Table of definitions of directed graphs in various references
 
@@ -292,6 +283,8 @@ All these points of view have disadvantages and advantages and it depends on wha
 
 * [[Ronald Brown]], I. Morris, J. Shrimpton, C.D. Wensley: _Graphs of morphisms of graphs_, The Electronic Journal of Combinatorics 15 (2008), A1
 {#GraphsOfMorphismsOfGraphs}
+
+* {#BumbyLatch1986} Richard Bumby and Dana Latch, *Categorical constructions in graph theory*, lnternat. J. Math. and Math. Sci., Vol. 9 No. l (1986), 1-16. ([pdf](http://www.emis.de/journals/HOA/IJMMS/Volume9_1/791947.pdf)) 
 
 * R. Diestel: _Graph Theory_. Fourth Edition. Springer (2010)
 {#Diestel2010}
