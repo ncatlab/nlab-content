@@ -66,6 +66,14 @@ For $d= 4$ EM-duality is the special abelian case of [[S-duality]] for [[Yang-Mi
 
 * [[!include electric-magnetic duality -- table]]
 
+* [[M2-brane]] and [[M5-brane]]: the 4-form $G_4$ which the M2-brane couples to is the Hodge-dual of the 7-form $G_7$ which the M5-brane couples to 
+
+$$
+  G_7 = \star G_4
+$$
+
+as imposed by the equations of motion for 11d [[supergravity]] (see [here](https://ncatlab.org/nlab/show/torsion+constraints+in+supergravity#Examples11dSuGra)). The associated [[C3-field]] and [[C6-field]] are electric-magnetic duals. 
+
 ## Related concepts
 
 [[duality in physics]], [[duality in string theory]]
