@@ -79,9 +79,9 @@ s(i(e)) = t(e)
 t(i(e)) = s(e)
 $$
 Of course, since the source $s : E \to V$ and target $t : E \to V$ functions determine each other in the presence of the involution $i : E \to E$, it is enough to give, say, $s$ and $i$ to define an undirected graph.
-In that case, one might alternatively view $E$ as a set of "half-edges", with $i$ the involution swapping the two halves of an edge.
-(This point-of-view is often taken, for example, in studies of [[ribbon graphs]] and [[dessins d'enfants]].)
-One can also lift the condition that $i$ has no fixed points to allow for the possibility of undirected graphs with "dangling" edges (with only one side attached to a vertex).
+In that case, one might alternatively view $E$ as a set of "half-edges" or "flags" (with $i$ the involution swapping the two halves of an edge), and even lift the condition that $i$ has no fixed points to allow for the possibility of undirected graphs with "dangling" or "open" edges (i.e., with only one side attached to a vertex).
+
+Although this definition of undirected graphs with open edges is standard (cf. [[ribbon graph]]), [Kock (2016b)](#Kock2016BM) remarks that "it does not naturally lead to good notions of morphisms, beyond isomorphisms". A slight variation of this definition with a more natural notion of morphism was introduced by [Joyal and Kock (2009)](#JoyalKockQPL): they define a "Feynman graph" as a triple of finite sets $V, E, H$ together with a triple of a function $t : H \to V$, an injection $s : H \to E$, and a fixed point free involution $i : E \to E$. (See also [Kock (2016a)](#Kock2016GHP) for further discussion.)
 
 ### Orientations
 
@@ -247,6 +247,11 @@ Other references:
 
 * {#Harary1953} [[Frank Harary]]: _On the notion of balance of a signed graph_. The   Michigan Mathemathical Journal, Volume 2, Issue 2 (1953), 143-146.
 
+* {#JoyalKockQPL} [[André Joyal]] and [[Joachim Kock]], Feynman graphs, and nerve theorem for compact symmetric multicategories (extended abstract), in _Proceedings of the 6th International Workshop on Quantum Physics and Logic_(Oxford 2009), Electronic Notes in Theoretical Computer Science 270 (2) (2011), 105-113. [arXiv:0908.2675](https://arxiv.org/abs/0908.2675)
+
+* {#Kock2016GHP} [[Joachim Kock]], Graphs, hypergraphs, and properads, _Collect. Math._ 67 (2016), 155-190. [arXiv:1407.3744](https://arxiv.org/abs/1407.3744)
+
+* {#Kock2016BM} [[Joachim Kock]], Cospan construction of the graph category of Borisov and Manin, [arXiv:1611.10342](https://arxiv.org/abs/1611.10342)
 
 Discussion of use of [[simplicial complexes]] in graph theory:
 
