@@ -515,6 +515,11 @@ Now over each $U_i$ the the situation for the brackets is just that of corollary
 
   * [[Poisson bracket Lie n-algebra]]
 
+## References
+
+Discussion in [[Lagrangian field theory]] inclues
+
+* {#BeniniSchenkel16} [[Marco Benini]], [[Alexander Schenkel]], _Poisson algebras for non-linear field theories in the Cahiers topos_, Annales Henri Poincar\'e, 18(4), 1435-1464 (2017) ([arXiv:1602.00708](https://arxiv.org/abs/1602.00708))
 
 [[!include Isbell duality - table]]
 
