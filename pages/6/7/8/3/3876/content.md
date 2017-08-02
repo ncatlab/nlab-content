@@ -25,6 +25,8 @@ A [[differential operator|differential]] or [[pseudodifferential operator]] is *
 
 * [[index theory]], [[KK-theory]]
 
+* [[hyperbolic differential operator]]
+
 ## References
 
 * [eom](http://eom.springer.de/e/e035500.htm)
