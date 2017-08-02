@@ -39,7 +39,7 @@ A (unipotent) [[character sheaf]] ([Lusztig 85](#Lusztig85)) for $G$ is a [[simp
 
 * [[twistor correspondence]], [[Penrose transform]]
 
-* [Schubert calculus -- Corresondences](Schubert+calculus#Correspondences)
+* [Schubert calculus -- Correspndences](Schubert+calculus#Correspondences)
 
 ## References
 
