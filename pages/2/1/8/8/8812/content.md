@@ -38,10 +38,9 @@ The symbol may naturally be thought of as an element in the [[K-theory]] of $X$ 
 
 ## Related concepts
 
-* [[elliptic differential operator]]
+* [[elliptic differential operator]], [[elliptic chain complex]]
 
-* [[elliptic chain complex]]
-
+* [[hyperbolic differential operator]]
 
 
 ## References
