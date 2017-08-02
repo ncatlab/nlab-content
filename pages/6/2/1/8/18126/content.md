@@ -11472,17 +11472,17 @@ and $(-)\times (-)$ denotes forming the [[product topological space]] (example \
 
 To see the continuity of the evaluation map:
 
-Let $V \subset Y$ be an open subset. We need to show that $ev^{-1}(V) = \{(x, f) \vert f(x) \in V\}$
-is a union of products of the form $U \times V^K$ with $U\subset X$ open and $U^K \subset Hom_{Set}(K,U)$ a basic open according to def. \ref{CompactOpenTopology}.
+Let $V \subset Y$ be an open subset. It is sufficient to show that $ev^{-1}(V) = \{(x, f) \vert f(x) \in V\}$
+is a union of products of the form $U \times V^K$ with $U\subset X$ open and $V^K \subset Hom_{Set}(K,W)$ a basic open according to def. \ref{CompactOpenTopology}.
 
 For $(x, f) \in ev^{-1}(V)$, the preimage $f^{-1}(V) \subset X$ is an open neighbourhood of $x$ in $X$, by continuity of $f$.
 
-{#LocalCompactnessInProofOfExponentiability} By local compactness of $X$, there is a compact subset $K \subset f^{-1}(V)$ which is still a neighbourhood of $x$.
+{#LocalCompactnessInProofOfExponentiability} By local compactness of $X$, there is a compact subset $K \subset f^{-1}(V)$ which is still a neighbourhood of $x$, hence contains an open neighbourhood $U \subset K$.
 Since $f$ also still takes that into $V$,
 we have found an open neighbourhood
 
 $$
-  (x,f) \in {K \times V^K} \underset{\text{open}}{\subset} ev^{-1}(V)
+  (x,f) \in {U \times V^K} \underset{\text{open}}{\subset} ev^{-1}(V)
 $$
 
 with respect to the product topology. Since this is still contained in $ev^{-1}(V)$, for all $(x,f)$ as above,
