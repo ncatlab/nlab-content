@@ -184,6 +184,8 @@ See also
 
 * DispersiveWiki, _[Yang-Mills equations](http://wiki.math.toronto.edu/DispersiveWiki/index.php/Yang-Mills_equations)_
 
+[[!redirects Yang-Mills theories]]
+
 [[!redirects Yang--Mills theory]]
 [[!redirects Yang–Mills theory]]
 [[!redirects Yang-Mills action]]
@@ -191,4 +193,6 @@ See also
 
 [[!redirects theta-angle]]
 [[!redirects theta-angles]]
+
+
 
