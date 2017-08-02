@@ -5,7 +5,7 @@
 
 ## Idea
 
-The _geometric Satake equivalence_ identifies for a suitable [[algebraic group]] $G$, and suitable [[local field]] $K$ with [[ring of integers]] $\mathcal{O}_K$, suitable functions on the double [[coset]]/[[Grassmannian]] $G(\mathcal{O}_K)\backslash G(K)/G(\mathcal{O}_K)$ with the [[representation ring]] of the [[Langlands dual group]] ${}^L G$.
+The _geometric Satake equivalence_ identifies for a suitable [[algebraic group]] $G$, and suitable [[local field]] $K$ with [[ring of integers]] $\mathcal{O}_K$, suitable functions on the [[double coset]]/[[Grassmannian]] $G(\mathcal{O}_K)\backslash G(K)/G(\mathcal{O}_K)$ with the [[representation ring]] of the [[Langlands dual group]] ${}^L G$.
 
 Notice that the double coset appearing here is akin to that which controls the [[Langlands correspondence]], whose geometric meaning is discussed for instance at _[[Weil uniformization]]_ and at _[[function field analogy]]_.
 
