@@ -14,6 +14,7 @@ This construction generalises to [[topological groups]] and [[Lie groups]], wher
 * [[Clifford-Klein form]]
 * [[locally Klein geometry]]
 * [[Hecke algebra]]
+* [[Bruhat decomposition]]
 
 [[!redirects double cosets]]
 [[!redirects double coset space]]
