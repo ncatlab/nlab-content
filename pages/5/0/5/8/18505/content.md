@@ -1,0 +1,19 @@
+
+# Contents
+* table of contents
+{: toc}
+
+##Idea
+
+Given a [[group]] $G$ and two [[subgroups]] $H$ and $K$, then the set of **double cosets**, $H \backslash G/K$, is composed of [[equivalence classes]] of elements of $G$ where two are regarded as equivalent if they differ by left multiplication with an element in $H$ and right multiplication with an element of $K$.
+
+This construction generalises to [[topological groups]] and [[Lie groups]], where it is called a **double coset space**.
+
+##Related concepts
+
+* [[Clifford-Klein form]]
+* [[locally Klein geometry]]
+* [[Hecke algebra]]
+
+[[!redirects double cosets]]
+[[!redirects double coset space]]
