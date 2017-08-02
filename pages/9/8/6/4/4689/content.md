@@ -131,3 +131,5 @@ In the context of [[locally covariant perturbative quantum field theory]] this i
 A brief survey of the relevant issued with more pointers to the literature is in
 
 * [[Igor Khavkine]], _Gravity: an exercise in quantization_, talk at _Quantum Gravity in Perspective_, Munich, 31 May 2013 ([video](https://www.youtube.com/watch?v=G5O9RKmXyfM#t=2444))
+
+[[!redirects perturbative quantum gravity]]
