@@ -183,6 +183,8 @@ These notes, or at least the first few chapters of them, acted as course notes f
  
 * 12 More simplicial constructions!
 
+(This gives the list for the first few chapters. There are more, but they are in a more fluid state.  Anyone who would like a `fluid copy' is welcome to contact the author.)
+
 category: reference
 [[!redirects crossed menagerie]]
 
