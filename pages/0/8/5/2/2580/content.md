@@ -262,10 +262,11 @@ where $|\alpha| = \alpha_1 + \ldots + \alpha_n$ is the total degree of the multi
 Thus derivatives of distributions are defined to all orders. Some examples are given in the section "examples".
 
 ### Multiplication of Distributions
-Distributions fail to address some uses to which physicists would like to put them (as in [[path integral]]s), since there is no good way to multiply distributions in a way that extends multiplication of functions. 
+
+Distributions fail to address some uses to which physicists would like to put them (as in [[path integrals]]), since there is no general way to multiply distributions in a way that extends multiplication of functions (but see at [[product of distributions]]). 
 In certain mathematical interpretations of [[quantum field theory]], a quantum field is a (operator valued) distribution and the [[Lagrangian]] of the [[standard model of particle physics]] contains products of those.
 
-The fact that there is no extension of multiplication to distributions is a famous no-go theorem of Laurent Schwartz.
+The fact that there is no general extension of multiplication to distributions is a famous no-go theorem of Laurent Schwartz. But for pairs of distributions whose sum of [[wave front sets]] does not intersect the zero section of the [[cotangent bundle]] the product makes sense, see at _[[product of distributions]]_.
 
 #### Heuristics of Why Multiplication is Impossible
 Two heuristic explanations why multiplication is not possible:
