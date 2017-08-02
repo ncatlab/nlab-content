@@ -58,7 +58,7 @@ This description appears to depend on combinatorial technicalities of Coxeter gr
 
 $$P(G/B) \to P(G/B)$$ 
 
-where the quantale multiplication is composition. As a sup-lattice, this quantale is isomorphic to $P(B\backslash G/B)$, the power set of the set of double cosets $B g B$. According to the general theory of BN-pairs, the double cosets are in bijection with the elements of a Coxeter group $W$ given by $N/T$; the bijection is given by the well-defined map 
+where the quantale multiplication is composition. As a sup-lattice, this quantale is isomorphic to $P(B\backslash G/B)$, the power set of the set of [[double cosets]] $B g B$. According to the general theory of BN-pairs, the double cosets are in bijection with the elements of a Coxeter group $W$ given by $N/T$; the bijection is given by the well-defined map 
 
 $$W \to B \backslash G/B: w \mapsto B w B$$
 
