@@ -1,0 +1,12 @@
+[[!redirects microcausal functionals]]
+
+
+
+## Idea
+
+Given a [[globally hyperbolic spacetime]], the _microcausal functionals_ form the subspace of all smooth functionals on the [[smooth space]] of [[smooth functions]] on a [[globally hyperbolic spacetime]] which does contain [[distribution|distributional]] functionals including the point [[interaction]] terms $\phi^n(x)$ (as e.g. in [[phi^4 theory]]) but constrained in their [[wave front sets]] such that the [[Moyal star product]] induced from a [[Hadamard distribution]] is still defined on these functionals (i.e. such that the relevant [[products of distributions]]) are defined.
+ 
+The resulting algebra is the _[[Wick algebra]]_ of [[quantum observables]] of the the [[free field|free]] [[scalar field]] on this spacetime.
+
+For the moment see at _[[Wick algebra]]_ for more.
+
