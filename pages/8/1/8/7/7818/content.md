@@ -20,7 +20,7 @@
 
 ## Idea
 
-A [[section]] of a [[bundle]] [[connection on a bundle|with connection]] is called _flat_ if its [[covariant derivative]] vanishes.
+A [[section]] of a [[bundle]] [[connection on a bundle|with connection]] is called _flat_ or _covariantly constant_ if its [[covariant derivative]] vanishes.
 
 ## Related concepts
 
@@ -28,4 +28,9 @@ A [[section]] of a [[bundle]] [[connection on a bundle|with connection]] is call
 
 * [[flat connection]]
 
+* [[Killing vector]], [[Killing spinor]]
+
 [[!redirects flat sections]]
+
+[[!redirects covariantly constant section]]
+[[!redirects covariantly constant sections]]
