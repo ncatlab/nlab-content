@@ -127,9 +127,11 @@ By [this prop.](Peierls+bracket#PeierlsPoissonBracket) ([Khavkine 14](Peierls+br
 
 ## Related concepts
 
-* [[wave equation]]
+* [[wave equation]], [[Klein-Gordon euqation]]
 
-* [[Feynman propagator]]
+* [[causal propagator]], [[Feynman propagator]]
+
+* [[Wick algebra]]
 
 ## Redirects
 
