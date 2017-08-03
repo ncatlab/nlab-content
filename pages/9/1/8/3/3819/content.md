@@ -43,18 +43,12 @@ In the [[AQFT]] approach to [[quantum field theory]] the observables are the ver
 
 * [[space of states (in geometric quantization)]]
 
+* [[Wick algebra]]
+
 * [[beable]]
 
 [[!include Isbell duality - table]]
 
-
-[[!redirects observable]]
-[[!redirects observables]]
-[[!redirects algebra of observables]]
-[[!redirects algebras of observables]]
-
-[[!redirects algebra of quantum observables]]
-[[!redirects algebras of quantum observables]]
 
 ## References
 
@@ -69,4 +63,13 @@ showing that, while there are no globally defined local gauge invariant observab
 Careful discussion of observables in abelian [[gauge theory]] ([[electromagnetism]]) is in 
 
 * {#BeniniSchenkelSzabo15} [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Homotopy colimits and global observables in Abelian gauge theory_ ([arXiv:1503.08839](http://arxiv.org/abs/1503.08839))
+
+
+[[!redirects observable]]
+[[!redirects observables]]
+[[!redirects algebra of observables]]
+[[!redirects algebras of observables]]
+
+[[!redirects algebra of quantum observables]]
+[[!redirects algebras of quantum observables]]
 
