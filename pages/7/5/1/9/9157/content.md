@@ -1,6 +1,10 @@
 
 * [webpage](http://www.math.tamu.edu/~comech/archive/fedosov/)
 
+## related $n$Lab entries
+
+* [[Fedosov deformation quantization]]
+
 category: people
 
 [[!redirects Boris Vasilievich Fedosov]]
