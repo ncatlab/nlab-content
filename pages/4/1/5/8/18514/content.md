@@ -60,3 +60,7 @@ The causal propagator yields the [[Peierls bracket]], which is the [[Poisson bra
 ## Related concepts
 
 * [[Feynman propagator]]
+
+* [[Hadamard distribution]]
+
+
