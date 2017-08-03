@@ -188,6 +188,8 @@ This observation may be exploited in various neat ways. One is that if $p(x)$ is
 
 * [[spectral polynomial algebra]]
 
+* [[Wick polynomial]]
+
 [[!redirects polynomial]]
 [[!redirects polynomials]]
 
