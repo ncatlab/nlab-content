@@ -19,12 +19,14 @@
 
 ## Idea
 
-_Wick's lemma_ is a [[combinatorics|combinatorial]] formula for the [[moments]] of [[Gaussian probability distributions]]. 
+_Wick's lemma_ is a [[combinatorics|combinatorial]] formula for the product in [[associative algebras]] that appear in the context of [[free field theory]].
 
-In the context of [[quantum field theory]] Gaussian integrals appear as [[path integrals]] of free field theories and Wick's lemma provides a way to compute quantum [[observables]]. The [[combinatorics]] of Wick's theorem is then embodied in [[Feynman diagrams]], see there for more.
+From the point of view of [[path integral quantization]], Wick's lemma is about the [[moments]] of [[Gaussian probability distributions]]. See at _[[Feynman diagram]]_ for more on this.
 
 
-In the context of [[BV-quantization]] Wick's lemma is a consequence of the [[homological perturbation lemma]].  ([Gwilliam, section 2.3](#Gwilliam)).
+From the point of view of [[causal perturbation theory]] Wick's lemma expresses the [[Moyal deformation quantization]] of a [[free field theory]], see at _[[Wick algebra]]_ for more on this.
+
+From the point of view of [[BV-quantization]] Wick's lemma arises as a consequence of the [[homological perturbation lemma]]  ([Gwilliam, section 2.3](#Gwilliam)).
 
 ## Related concepts
 
@@ -36,9 +38,9 @@ In the context of [[BV-quantization]] Wick's lemma is a consequence of the [[hom
 
 * Wikipedia, _[Wick's theorem](https://en.wikipedia.org/wiki/Wick%27s_theorem)_
 
-Discussion of Wick's lemma as a consequence of the [[homological perturbation lemma]] for [[BV-complexes]] is in section 2.3 of
+Discussion of Wick's lemma as a consequence of the [[homological perturbation lemma]] for [[BV-complexes]] is in 
 
-* {#Gwilliam} [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+* {#Gwilliam} [[Owen Gwilliam]], section 2.3 _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
  
 
 [[!redirects Wick lemma]]
