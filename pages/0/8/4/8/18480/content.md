@@ -5,7 +5,7 @@
 
 ***
 
-This page is about a formalization of the concept of [[directed graphs]] that is usual in combinatorics. For the notion of directed graph as commonly understood in category theory, see [[quiver]]. For some commentary on how the two formalizations relate to one another, see [[directed graph]].
+This page is about the concept of [[directed graphs]] that is usual in combinatorics. For the notion of directed graph as commonly understood in category theory, see [[quiver]]. For some commentary on how the two formalizations relate to one another, see [[directed graph]].
 
 
 ***
@@ -106,7 +106,13 @@ Another useful example of a digraph is a finite [[cyclic order]]. For each $n \g
  
 ## Categorical properties of $\mathsf{Dgr}$ 
 
-To be included: observations on which types of limits, and maybe colimits, do and don't exist in $\mathsf{Dgr}$. 
+The category $\mathsf{Dgr}$ is not especially well-behaved for a category theorist. For example, it doesn't have a terminal object (no, the ordinal digraph $1$ is not terminal), and it does not admit all coequalizers. In both cases the culprit is the irreflexivity condition. 
+
+It does however have products indexed over nonempty sets, and equalizers. These limits are computed as they are in [[Quiv]], e.g., the quiver product of two digraphs is again a digraph and is their product in $\mathsf{Dgr}$. Such limits are easy to compute because $Quiv$, being a presheaf topos $Set^{C^{op}}$, has limits (and colimits) that are computed pointwise/objectwise. 
+
+It follows from these observations that $\mathsf{Dgr}$ has pullbacks which are simply $Quiv$-pullbacks; they are computed objectwise at the objects $c = 1, 2$, i.e., one simply takes pullbacks in $Set$ at each of the vertex and edge levels. 
+
+
 
 In our development, it will be useful to characterize various classes of [[monomorphisms]] in $\mathsf{Dgr}$. We begin with plain monomorphisms. 
 
