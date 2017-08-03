@@ -55,7 +55,7 @@ Without further assumption on $\mathcal{E}$ we have the following definition.
 For $U \to *$ an [[epimorphism]] in $\mathcal{E}$, an [[object]] $E \in \mathcal{E}$ is called **locally constant and split by $U$** if in the [[over category]] $\mathcal{E}/U$ we have an [[isomorphism]]
 
 $$
-  E \times U \simeq (\Delta F) \times U
+  E \times U \simeq (\Delta S) \times U
   \,,
 $$
 
