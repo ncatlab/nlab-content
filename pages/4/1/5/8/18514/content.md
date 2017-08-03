@@ -1,0 +1,62 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+
+Let $(X,g)$ be a [[time orientation|time-oriented]] [[globally hyperbolic spacetime]] and let $m \in \mathbb{R}_{\geq 0}$ (the "[[mass]]"). Then the [[Klein-Gordon equation]]
+
+$$
+  (\Box_g - m^2) \phi = 0
+$$
+
+(a [[partial differential equation]] on [[smooth functions]] $f \in C^\infty(X,\mathbb{R})$ ) has unique advanced and retarded [[Green functions]] $E^{R/A}$, namely [[continuous linear functionals]]
+
+$$
+  E^{A/R} 
+   \;\colon\;
+  C^\infty_c(X)
+   \longrightarrow
+  C^\infty(X)
+$$
+
+(from [[bump functions]] to general [[smooth functions]]) which are [[fundamental solutions]] in that 
+
+$$
+  (\Box_g - m^2) \circ E^{A/R} = \delta
+  \phantom{AAAA}
+  E^{A/R} \circ (\Box_g - m^2) = \delta
+$$
+
+and which have advanced/retarded [[support of a distribution]] when viewed (via the [[Schwartz kernel theorem]]) as [[distributions]] on the [[Cartesian product]] manifold $X \times X$
+
+$$
+  supp( E^{A/R}) \subset \{ (x_1, x_2) \in X \times X  \;\vert\; x_1 \in J^{\mp} (x_2) \}
+ \,.
+$$
+
+In fact these two fundamental solutions are related by switching their arguments 
+
+$$
+  E^{A/R}(x_1, x_2) = E^{R/A}(x_2, x_1)
+  \,.
+$$
+
+The differene
+
+$$
+  E \;\coloneqq\; E^A - E^R
+$$
+
+is called the _causal propagator_ .
+
+## Properties
+
+The causal propagator yields the [[Peierls bracket]], which is the [[Poisson bracket]] on the [[covariant phase space]] of the [[free field|field]] [[scalar field|scalar]] [[field (physics)|field]]
+
+
+## Related concepts
+
+* [[Feynman propagator]]
