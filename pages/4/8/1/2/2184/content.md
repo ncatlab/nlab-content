@@ -190,6 +190,25 @@ Part of the reason for the importance of simple graphs is that many "topological
 
 * [[directed graph]]
 
+## Lawvere's remarks on graph theory 
+
+
+At the [[Como]] conference in 1990, [[William Lawvere]] gave a videotaped lecture, in which he makes thoughtful remarks, relevant to the present article and section: 
+
+
+> {#LawvreOnGraphTheory} I have great problems reading books on graph theory, books and papers on graph theory, because they never tell you exactly what they are talking about. Sometimes the graphs are [word inaudible, even when played slower], sometimes they are absolutely reflexive, sometimes they are not. 
+Even if they go so far as talking about homomorphisms, I still don't know exactly what that is, i.e., which category are we in? 
+What they should do is admit that they are working in three or four *different* categories and they don't know how to pass from one to the other, and so on, and [inaudible words] to simplify.  
+But no, they prefer to talk in a vague way and smushing these together. [inaudible] tried to understand some of the problems of graph theorists and get [bogged? locked?] in the first page. 
+Does anybody actually know what a graph minor is? 
+[some interjection from the audience] Graph minor. Big problem. 
+(..) you see, this famous [inaudible works] problem on graph minors. 
+Looks like that that might be interesting. 
+But I can't determine *exactly* what it is, because, if you read the first parts of the paper, they waffle, you see, they don't give you a *property* (...)
+([William Lawvere] in his 1990 lecture at [[Como]], Italy, Villa Olmo)
+
+
+
 ## Related concepts
 
 * **graph**
