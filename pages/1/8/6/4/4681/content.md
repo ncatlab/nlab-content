@@ -42,7 +42,7 @@ In [[operator theory]], one sometimes distinguishes 'linear maps' (defined every
 
 ## Related concepts
 
-* **linear operator**
+* [[linear isomorphism]]
 
 * [[bounded linear operator]] / [[unbounded linear operator]]
 
