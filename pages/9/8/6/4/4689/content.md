@@ -131,7 +131,7 @@ The generalization of this to perturbation about [[AQFT on curved spacetimes|cur
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Quantum gravity from the point of view of locally covariant quantum field theory_ ([arXiv:1306.1058](http://arxiv.org/abs/1306.1058))
 
-* [[Romeo Brunetti]], [[Klaus Fredenhagen]], Thomas-Paul Hack, Nicola Pinamonti, [[Katarzyna Rejzner]], _Cosmological perturbation theory and quantum gravity_, Journal of High Energy Physics August 2016, 2016:32
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], Thomas-Paul Hack, Nicola Pinamonti, [[Katarzyna Rejzner]], _Cosmological perturbation theory and quantum gravity_, Journal of High Energy Physics August 2016:32 ([arXiv:1605.02573](https://arxiv.org/abs/1605.02573))
 
 
 [[!redirects perturbative quantum gravity]]
