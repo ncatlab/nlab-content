@@ -443,8 +443,14 @@ See also
 category: analysis
 
 [[!redirects distributions]]
+
 [[!redirects generalized function]]
 [[!redirects generalized functions]]
 
+[[!redirects Schwartz distribution]]
+[[!redirects Schwartz distributions]]
+
+
 [[!redirects linear distribution]]
 [[!redirects linear distributions]]
+
