@@ -24,6 +24,8 @@ Given a [[globally hyperbolic spacetime]], the [[causal propagator]] defines a [
 
 A _Hadamard distribution_ is such a modification of the causal propagator by a symmetric component such that the resulting [[wave front set]] is just one causal half of that of the [[causal propagator]]. This allows to define the corresponding [[Moyal star product]] on the larger algebra of [[microcausal functionals]] which is large enough to contain the [[adiabatic switching|adiabatically switched]] point [[interaction]] terms $g \phi(x)^n$ (as in [[phi^4 theory]] etc.). The resulting [[algebra of observables]] is the _[[Wick algebra]]_ of the free scalar field.
 
+The Hadamard distribution may also be thought of as the [[2-point function]] of a [[quasi-free quantum state]]. These states are therefore called _quasi-free Hadamard states_.
+
 
 ## Definition
 
