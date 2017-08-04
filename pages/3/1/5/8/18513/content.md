@@ -541,7 +541,7 @@ Let $(X,g)$ be a [[globally hyperbolic spacetime]]. Then a [[Hadamard distributi
 
 Let $(X,g)$ be a [[globally hyperbolic spacetime]].
 
-Write $\mathcal{F}_{mc} \subset \mathcal{F}_{dist}$ for the subalgebra of smooth functionals on the [[smooth space]] of smooth functions on $X$ which is generated from those [[distributions]] on some Cartesian product $X^n$ as in def. \ref{SmoothFunctionalsOnSmoothFunctions} whose [[wave front set]] excludes those covectors to point in $X^n$ all whose components are future pointing or all whose components are past-pointing.
+Write $\mathcal{F}_{mc} \subset \mathcal{F}_{dist}$ for the subalgebra of smooth functionals on the [[smooth space]] of smooth functions on $X$ which is generated from those [[distributions]] on some Cartesian product $X^n$ as in def. \ref{SmoothFunctionalsOnSmoothFunctions} whose [[wave front set]] excludes those covectors to point in $X^n$ all whose components are in the [[future cone]] or all whose components are in the [[past cone]].
 
 =--
 
