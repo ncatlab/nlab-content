@@ -37,7 +37,7 @@ $$
     \\
     etc.
   }
-  \,.
+  \,.S
 $$
 
 The intuitive idea is that these operators span a [[Hilbert space]] $\mathcal{H}$ of [[quantum states]] from a [[vacuum state]] $\vert vac \rangle \in \mathcal{H}$ characterized by the condition
@@ -541,9 +541,78 @@ Let $(X,g)$ be a [[globally hyperbolic spacetime]]. Then a [[Hadamard distributi
 
 Let $(X,g)$ be a [[globally hyperbolic spacetime]].
 
-Write $\mathcal{F}_{mc} \subset \mathcal{F}_{dist}$ for the subalgebra of smooth functionals on the [[smooth space]] of smooth functions on $X$ which is generated from those [[distributions]] on some Cartesian product $X^n$ as in def. \ref{SmoothFunctionalsOnSmoothFunctions} whose [[wave front set]] excludes those covectors to point in $X^n$ all whose components are in the [[future cone]] or all whose components are in the [[past cone]].
+Write $\mathcal{F}_{mc} \subset \mathcal{F}_{dist}$ for the subalgebra of smooth functionals 
+
+$$
+  C^\infty(X) \longrightarrow \mathbb{R}
+$$
+
+on the [[smooth space]] of smooth functions on $X$ which is generated from those [[distributions]] on some Cartesian product $X^n$ (as in def. \ref{SmoothFunctionalsOnSmoothFunctions}) whose [[wave front set]] excludes those covectors to a point in $X^n$ all whose components are in the [[future cone]] or all whose components are in the [[past cone]].
 
 =--
+
++-- {: .num_example }
+###### Example
+**(regular functionals are microcausal)**
+
+Every regular functional (def. \ref{SmoothFunctionalsOnSmoothFunctions}) is a [[microcausal functional]] (def. \ref{MicrocausalFunctionals}), since the [[wave front set]] of a distribution that is given by an ordinary function is empty:
+
+$$
+  \mathcal{F}_{reg} \subset \mathcal{F}_{mc}
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[adiabatic switching|adiabtaically switched]] point interactions are microcausal)**
+
+Let $g \in C^\infty_c(X)$ be a [[bump function]], then for $n \in \mathbb{N}$ the smooth functional
+
+$$
+  \array{
+    C^\infty(X) &\overset{}{\longrightarrow}& \mathbb{R}
+    \\
+    \phi &\mapsto& \int_X g(x) (\phi(x))^n dvol(x)
+  }
+$$
+
+is a [[micorcausal functional]] (def. \ref{MicrocausalFunctionals}).
+
+If here we think of $\phi(x)^n$ as a point-[[interaction]] term (as for instance in [[phi^4 theory]]) then $g$ is to be thought of as an "[[adiabatic switching|adiabatically switched]]" [[coupling constant]]. These are the relevant interaction terms to be quantized via [[causal perturbation theory]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For notational convenience, consider the case $n = 2$ (the other cases are directly analogous). The distribution in question is the [[delta distribution]]
+
+$$
+  \int_X g(x) \phi(x)^2 dvol(x)
+  \;=\;
+  \int_{X \times X} g(x_1) \phi(x_1) \phi(x_2) dvol(x_1) dvol(x_2)
+  =
+  \langle g \cdot \delta(-,-) , (\phi \circ pr_1)\cdot (\phi \circ pr_2)  \rangle_g
+  \,.
+$$
+
+Now for $(x_1, x_2) \in X \times X$ and $\mathbb{R}^{2n} \simeq U \subset X \times X$ a [[chart]] around this  the [[Fourier transform]] of $g \cdot \delta(-,-)$ restricted to this chart is proportional to 
+
+$$
+  \begin{aligned}
+    (k_1, k_2) 
+      & \mapsto 
+     \int g(x_1) \delta(x_1, x_2) \exp( k_1 \cdot x_1 + k_2 \cdot x_2 ) dvol(x_1) dvol(x_2)
+    \\
+    ...
+   \end{aligned}
+$$
+
+=--
+
+
 
 +-- {: .num_prop #MoyalStarProductOnMicrocausal}
 ###### Proposition
