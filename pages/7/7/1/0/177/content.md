@@ -67,28 +67,6 @@ This is to give a compressed look-up table, quickly usable, telling you what def
 Note that "kind of directed graph" is a used in a loose, undefined sense, sufficiently clear from the context. 
 
 
-## Signed graphs
-
-A *signed graph* is a [[simple undirected graph|graph]] *each of whose edges has  been assigned one element of a specified two-element set*. 
-The latter's elements are customarily interpreted as "signs", and *sometimes* the sign-set is also equipped with arithmetical structure, though this is *not* part of the definition.  
-
-Signed graphs should *not* be regarded to be *directed graphs*. Signs on undirected edges are not the same as directional information. 
-Of course, upon *arbitarily specifying a [[total order]] on the vertex set*, the signs *can* be interpreted to contain directional information, but this extraneous choice of total order is not natural.
-
-Signed graphs (and the basic theorems of their theory) are notorious for being rediscovered over and over again; a critically annotated bibliography on signed graphs and their various guises is [Zaslavsky](#ZaslavskyBibliography).
-
-
-In a sense, the [[theory]] of signed graphs has a [[[model theory|signature]] which contains at least two [[model theory|constant symbols]], whereas e.g. the theory of undirected simple graphs (in the narrowest sense) has none. 
-
-A *signed graph* should *not* be regarded a "directed graph", though they *are* often used in *contexts* together with directed graphs and thus belong on this page; in a sense, "signed graphs" are a non-example, an odd-one-out, in particular in that they seem tricky to categorically construct.  
-
-
-
-
-
-
-
-
 ## Bidirected graphs
 
 Roughly speaking, bidirected graphs are quivers in which *each non-loop arrow gets decorated with _two_ elements drawn from a two-element set fixed in advanced, one thought to be attached to the arrow's tail, the other to its head*. 
@@ -160,7 +138,7 @@ From a graph-theoretical point of view, every digraph is a quiver, but not every
 * [[n-quiver]]
 * [[ribbon graph]]
 * [[oriented graph]] 
-
+* [[signed graph]] 
 
 ## References
 
