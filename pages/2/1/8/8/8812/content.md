@@ -18,10 +18,10 @@
 For $X$ a [[smooth manifold]], $E \to X$ a [[vector bundle]] and $D : \Gamma(E) \to \Gamma(E)$ a [[differential operator]] on [[sections]] of $E$, its **symbol** is the bundle morphism
 
 $$
-   \sigma(D) \;:\; T^* X \times_X E \to E
+   \sigma(D) \;:\; T^* X \otimes_X E \to E
 $$
 
-given at any point $x \in X$ on a [[cotangent bundle|cotangent vector]] of the form $(\mathbf{d}f)_x \in \Gamma(T^* X)_x$ by
+from the [[tensor product of vector bundles]] with the [[cotangent bundle]] which is given at any point $x \in X$ on a [[cotangent vector]] of the form $(\mathbf{d}f)_x \in \Gamma(T^* X)_x$ by
 
 $$
   \sigma(D)_x \;\colon\; \mathbf{d}f_x \mapsto [D,f]_x
@@ -34,7 +34,21 @@ The symbol may naturally be thought of as an element in the [[K-theory]] of $X$ 
 
 ## Examples
 
-* For $X = \mathbb{R}^n$ a [[Cartesian space]] and $D$ the [[Dirac operator]] of the [[flat connection]], the symbol of $D$ reproduces the [[symbol map]] between [[differential forms]] and [[Clifford algebra]] elements.
++-- {: .num_defn #SymbolMap}
+###### Definition
+**([[symbol map]])**
+
+For $X = \mathbb{R}^n$ a [[Cartesian space]] and $D$ the [[Dirac operator]] of the [[flat connection]], the symbol of $D$ reproduces the [[symbol map]] between [[differential forms]] and [[Clifford algebra]] elements.
+
+=--
+
++-- {: .num_example #BicharacteristicFlow}
+###### Example
+**([[bicharacteristic flow]])**
+
+For $E$ a [[real vector bundle|real]] [[trivial line bundle]] then the principal symbol is equivalently just a real-valued [[smooth function]] on the [[cotangent bundle]]. Since any cotangent bundle is canonically a [[symplectic manifold]], in this case the symbol may be regarded as a [[Hamiltonian]] funtion. The corresponding [[Hamiltonian flow]] is called the _[[bicharacteristic flow]]_ of the given differential operator.
+
+=--
 
 ## Related concepts
 
