@@ -144,7 +144,9 @@ on the [[Cartesian product]] manifold such that
      i E(x_1, x_2)
    $$
 
-1. the [[wave front set]] is one causal half that of the causal propagator:
+1. (wave front set spectral condition [Radzikowski 96, def. 6.1](#Radzikowski96))
+
+   the [[wave front set]] is one causal half that of the causal propagator:
 
    $$
      WF(\omega)
@@ -157,6 +159,8 @@ on the [[Cartesian product]] manifold such that
        k_1 \in V_{x_1}^+
      \right\}
    $$
+
+
 
 1. (Klein-Gordon bi-solution) $(\Box_g - m^2) \omega(-,x) = 0$ and $(\Box_g - m^2)\omega(x,-) = 0$, for all $x \in X$;
 
@@ -174,10 +178,12 @@ on the [[Cartesian product]] manifold such that
 **(existence of Hadamard distributions)
 
 Let $(X,g)$ be a [[globally hyperbolic spacetime]]. Then a [[Hadamard distribution]] $\omega$ according to def. \ref{HadamardDistribution} does exist.
+
+It is given, up to addition by a smooth function, as the difference between the [[advanced propagator]] and the [[Feynman propagator]]
  
 =--
 
-([Radzikowski 96](#Radzikowski96))
+([Radzikowski 96, above theorem 6.3 with theorem 5.1](#Radzikowski96))
 
 ## Related concepts
 
@@ -201,7 +207,15 @@ Existence was shown in
 [[!redirects quasi-free Hadamard state]]
 [[!redirects quasi-free Hadamard states]]
 
+[[!redirects Hadamard state]]
+[[!redirects Hadamard states]]
+
+[[!redirects Hadamard propagator]]
+[[!redirects Hadamard propagators]]
+
 
 [[!redirects Hadamard 2-point function]]
 [[!redirects Hadamard 2-point functions]]
+
+
 
