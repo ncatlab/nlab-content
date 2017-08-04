@@ -13,13 +13,19 @@ From the [[nPOV]], a weak form of the double coset construction is often more na
 
 ## Properties
 
+### Mackey's formula
+ {#MackeyFormula}
+
 Double coset decompositions are useful in [[representation theory]], for example in [[George Mackey]]'s formula for the [[restricted representation|restriction]] back to $H$ of a module [[induced representation|induced]] from $K$. Let $W$ be a representation of $K$. Then
 
 $$
-Res^G_H Ind^G_K W \cong \underset{H \backslash G/K} \bigoplus Ind^H_{K_g} W_g,
+  Res^G_H Ind^G_K W 
+   \cong 
+  \underset{[g] \in H \backslash G/K} \bigoplus Ind^H_{K_g} W_g
+  \,,
 $$
 
-where $K_g := H \intersection g K g^{-1}$, and $W_g$ is the representation of $K_g$ which is $W$ as a vector space, but with action $x \cdot w = (g^{-1} x g) w$ where now $g^{-1} x g \in K$.
+where $K_g \coloneqq H \intersection g K g^{-1}$, and $W_g$ is the representation of $K_g$ which is $W$ as a vector space, but with action $x \cdot w = (g^{-1} x g) w$ where now $g^{-1} x g \in K$.
 
 
 ##Related concepts
