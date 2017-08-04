@@ -1,0 +1,15 @@
+A *signed graph* is an undirected simple [[graph]] (a set $V$ of *vertices* together with a collection $E$ of two-element subsets of $V$ called *edges*) plus a function from $E$ to a two-element set of "signs", e.g., $\sigma: E \to \{+, -\}$. A *morphism* of signed graphs is a function between vertex sets which preserves signed graph structure. 
+
+If $\binom{V}{2}$ denotes the set of two-element subsets of $V$, a signed graph could be equivalently defined to be a set $V$ together with a [[partial function]] $\binom{V}{2} \to \{+, -\}$. The domain of this partial function is declared to be $E$, so the data of a signed graph can be represented as $V$ together with a [[span]] of type 
+
+$$\binom{V}{2} \hookleftarrow E \stackrel{\sigma}{\to} \{+, -\}.$$ 
+
+Signed graphs should *not* be regarded as *directed graphs*: signs on undirected edges are not the same as directional information. If a [[linear order]] has been imposed on the vertex set, then the sign function can be interpreted as imparting directions to edges (say if $x \lt y$ in the order and an edge $e$ between $x$ and $y$ has sign $+$, then the direction is $x \to y$; if $e$ has sign $-$, then the direction is $y \to x$). However, such linear orders on vertices will not be preserved by morphisms of signed graphs, so this does not give a [[functor|functorial]] way to derive directed graphs from signed graphs. 
+
+Signed graphs (and the basic theorems of their theory) are notorious for being rediscovered over and over again; a critically annotated bibliography on signed graphs and their various guises is [Zaslavsky](#ZaslavskyBibliography).
+
+
+## References 
+
+* Thomas Zaslavsky: _A Mathematical Bibliography of Signed and Gain Graphs and Allied Areas_, Electronic Journal of Combinatorics, Dynamic Surveys in Combinatorics, #DS8.
+{#ZaslavskyBibliography}
