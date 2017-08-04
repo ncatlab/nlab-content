@@ -1,4 +1,21 @@
 
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+=--
+=--
+
+
 # The future cone
 * table of contents
 {: toc}
@@ -14,9 +31,14 @@ The dual concept is the _past cone_.
 
 ## In relativity theory
 
-Given a [[Lorentzian manifold]] equipped with a global choice of which [[timelike curves]] are future-directed, the __future__ of $x$ consists of all points $y$ such that there exists a future-directed curve (which may be timelike, lightlike, or a mixture) from $x$ to $y$.
+Given a [[Lorentzian manifold]] $(X,x)$ equipped with a [[time orientation]] then
+
+* the _future cone_ at $x \in X$ is the subspace $V_x^+ \subset T_x X$ of the [[tangent space]] of $X$ consisting of all those [[tangent vectors]] which are future pointing;
+
+* the __future__ of $x$ consists of all points $y$ such that there exists a future-directed curve (which may be timelike, lightlike, or a mixture) from $x$ to $y$.
 
 If we may put a global time coordinate $t$ on the manifold (which is a stronger condition), then the future cone of $x$ consists of all points $y$ such that $t(y) \geq t(x)$ and $x$ and $y$ are not space-like separated.
+
 
 
 ## In directed homotopy theory
