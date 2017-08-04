@@ -5,4 +5,6 @@
 
 * [[internal category in homotopy type theory]]
 
+* [[category object in an (infinity,1)-category]]
+
 category: people
