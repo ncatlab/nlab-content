@@ -47,7 +47,7 @@ $$
 
 (where here we implicitly understand all operations as [[derived functors]]). (e.g. [Huybrechts 08, page 4](#Huybrechts08))
 
-Hence this is a pul-tensor-push [[integral transform]] through the product [[correspondence]]
+Hence this is a pull-tensor-push [[integral transform]] through the product [[correspondence]]
 
 $$
   \array{
