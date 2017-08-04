@@ -1,12 +1,26 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* tic
+* table of contents
 {:toc}
 
-#Idea
-Pseudodifferential operators generalize [[differential operator]]s and are of similar importance to the theory of [[partial differential equation]]s as [[Schwartz distributions]], see also [[microlocal analysis]].
+## Idea
 
-#Definition
+Pseudodifferential operators generalize [[differential operators]] and are of similar importance to the theory of [[partial differential equations]] as [[Schwartz distributions]], see also [[microlocal analysis]].
+
+## Definition
+
 Let $X \subset \mathbb{R}^n$ be open.
 A pseudodifferential operator is a [[Fourier integral operator]] of the form
 
@@ -22,14 +36,8 @@ where the function $a$, called the **symbol** of the pseudodifferential operator
 
 If $\mathcal{F}$ denotes the [[Fourier transform]] a short hand notation for this definition is $A u = \mathcal{F}^{-1} (a \, \mathcal{F}u)$, put in words: Fourier transform $u$, multiply with $a$ and transform back.
 
-##every differential operator is a pseudodifferential operator
-We restrict ourselfes to one dimension for simplicity, let $D := -i \frac{d}{dx}$ and write a differential operator $P$ as
-$$
-  P(x, D) := \sum_{k = 0}^n f_n(x) D^k
-$$ 
-with given functions $f_n$. Then $P$ is a pseudodifferential operator with symbol $a(x, y, \theta) = P(x, \theta)$. The symbol of a differential operator therefore is a polynom in $\theta$, which motivates a part of the definition of symbol classes below: We expect that the growth of the symbol in $\theta$ is polynomial at most, and the degree of the bounding polynomial decreases by $1$ if we apply differentiation in $\theta$ to the symbol.
+## Definition of symbols
 
-##Definition of symbols
 If one allows arbitrary functions as symbols there will be no control of the behaviour of the associated pseudodifferential operators, of course. In order to get a theory where these operators are, for example, continuous with respect to the standard topologies on the [[topological vector space]]s that they are defined on, some assumptions have to be made. Different levels of generality of the theory correspond to different assumptions about the symbols. One standard symbol space is defined as follows:
 
 Let $X \subset \mathbb{R}^n$ be open, $0 \le \rho \le 1, 0 \le \delta \le 1, m \in \mathbb{R}, n \in \mathbb{N}, n \neq 0$.
@@ -59,9 +67,30 @@ $$
 
 Symbols of order $- \infty$ are often called **smoothing** and their operators **smoothing operators**. The reason for this is that their pseudodifferential operators map distribution spaces into spaces of smooth functions, for example:
 
-* smoothing theorem: The pseudodifferential operator of a smoothing symbol maps $\mathcal{E}'$, the [[dual vector space|dual space]] of $C^{\infty}$, into $\mathcal{S}$, the Schwartz space of rapidly decreasing smooth functions.
+## Examples
 
-#References
+### Every differential operator is a pseudodifferential operator
+
+We restrict ourselfes to one dimension for simplicity, let $D := -i \frac{d}{dx}$ and write a differential operator $P$ as
+$$
+  P(x, D) := \sum_{k = 0}^n f_n(x) D^k
+$$ 
+with given functions $f_n$. Then $P$ is a pseudodifferential operator with symbol $a(x, y, \theta) = P(x, \theta)$. The symbol of a differential operator therefore is a polynom in $\theta$, which motivates a part of the definition of symbol classes below: We expect that the growth of the symbol in $\theta$ is polynomial at most, and the degree of the bounding polynomial decreases by $1$ if we apply differentiation in $\theta$ to the symbol.
+
+
+## Properties
+
+### Smoothing theorem
+
+The pseudodifferential operator of a smoothing symbol maps $\mathcal{E}'$, the [[dual vector space|dual space]] of $C^{\infty}$, into $\mathcal{S}$, the Schwartz space of rapidly decreasing smooth functions.
+
+
+### Propagation of singularities theorem
+
+* [[propagation of singularities theorem]]
+
+
+## References
 
 * Wikipedia on [pseudodifferential operator] (http://en.wikipedia.org/wiki/Pseudo-differential_operator)
 
@@ -72,3 +101,6 @@ An elementary and short introduction can be found here:
 * [[Lars Hörmander]], _The analysis of linear partial differential operators_, in 4 vols.: I. Distribution theory and Fourier analysis, II. Differential operators with constant coefficients, III. Pseudo-differential operators, IV. Fourier integral operators.
 
 [[!redirects pseudodifferential operators]]
+
+[[!redirects pseudo-differential operator]]
+[[!redirects pseudo-differential operators]]
