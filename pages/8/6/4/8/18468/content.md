@@ -126,6 +126,10 @@ Survey and exposition of locally covariant algebraic quantum field theory includ
 
 * {#Hollands07} [[Stefan Hollands]], section 3 of _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev. Math. Phys. 20:1033-1172, 2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
 
+* [[Robert Wald]], _The Formulation of Quantum Field Theory in Curved Spacetime_ ([arXiv:0907.0416](https://arxiv.org/abs/0907.0416))
+
+* [[Robert  Wald]], _The History and Present Status of Quantum Field Theory in Curved Spacetime_ ([arXiv:gr-qc/0608018](https://arxiv.org/abs/gr-qc/0608018))
+
 * {#FredenhagenRejzner12} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative algebraic quantum field theory_, In _Mathematical Aspects of Quantum Field Theories_, Springer 2016 ([arXiv:1208.1428](https://arxiv.org/abs/1208.1428))
 
 * {#FredenhagenRejzner15} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative Construction of Models of Algebraic Quantum Field Theory_ ([arXiv:1503.07814](https://arxiv.org/abs/1503.07814))
