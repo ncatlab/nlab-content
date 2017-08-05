@@ -20,6 +20,14 @@ What is called the _Feynman propagator_ (or just _propagator_ for short) in [[qu
 
 For [[fermion]] fields the analogous expressions are called _Dirac propagators_.
 
+### As a Green functions
+
+[[!include propagators - table]]
+
+
+
+### As a zeta function
+
 From another perspective, the loop contributions of [[Feynman diagrams]] are typically would-be [[traces]] over inverse powers $H^{-n}$ of the relativistic particle [[Hamiltonian]].
 
 For instance for the free [[scalar particle]] of [[mass]] $m$ in 4d [[Minkowski spacetime]] the 1-loop [[vacuum amplitude]] is the regularized trace over the Feynman propagator
