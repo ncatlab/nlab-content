@@ -1,6 +1,4 @@
 
-> under construction
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
