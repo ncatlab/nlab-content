@@ -1,10 +1,11 @@
+[[!redirects co-span co-trace]]
 #Idea#
 
-One can naturally think of a [[cospan]] as the abstraction of a [[cobordism]]. For instance an [[interval object]] cospan models the standard topological interval $[0,1]$ regarded as a cobordism from pt to pt. The _co-span co-trace_ on the interval glues the two ends of the interval together to produce a _circle_ regarded as a cospan from $\emptyset$ to itself.
+One can naturally think of a [[cospan]] as the abstraction of a [[cobordism]]. For instance an [[interval object]] cospan models the standard topological interval $[0,1]$ regarded as a cobordism from pt to pt. The _cospan cotrace_ on the interval glues the two ends of the interval together to produce a _circle_ regarded as a cospan from $\emptyset$ to itself.
 
-The [[duality|concrete dual]] of a co-span, obtained by mapping it into some target object, is a [[span]], which in the context of [[groupoidification]] and [[geometric function theory]] can be interpreted as a generalized linear map. On such a generalized linear map, there is a notion of _trace_, the [[span trace]].
+The [[duality|concrete dual]] of a cospan, obtained by mapping it into some target object, is a [[span]], which in the context of [[groupoidification]] and [[geometric function theory]] can be interpreted as a generalized linear map. On such a generalized linear map, there is a notion of _trace_, the [[span trace]].
 
-The _co-span co-trace_ is the concept dual to that: the image of the co-trace of a co-span under mapping it into a target object is the span trace of the result of mapping the original co-span to that target object. 
+The _cospan cotrace_ is the concept dual to that: the image of the cotrace of a cospan under mapping it into a target object is the span trace of the result of mapping the original cospan to that target object. 
 
 
 #Definition#
@@ -21,7 +22,7 @@ $$
   }
 $$
 
-a [[cospan]] with identical left and right index object $\Sigma$, its **co-span co-trace** $cotr(T)$ is the composite of the result 
+a [[cospan]] with identical left and right index object $\Sigma$, its **cospan cotrace** $cotr(T)$ is the composite of the result 
 
 $$
   \array{
@@ -33,7 +34,7 @@ $$
   }
 $$
 
-of dualizing one leg of the co-span with the co-span
+of dualizing one leg of the cospan with the cospan
 
 $$
   \array{
@@ -94,7 +95,7 @@ $$
 
 #Examples
 
-## Co-tracing topological interval to circle
+## Cotracing topological interval to circle
 
 Let the ambient category be [[Top]], let $I = [0,1]$ be the standard topological interval and let $e := [0,\epsilon]$ be a small interval, for some $0 \lt \epsilon \lt 1/2$ -- to be thought here as a _collar_ of the point $pt$.
 
@@ -139,7 +140,7 @@ See also
 * Marco Grandis, _Collared cospans, cohomotopy and TQFT (Cospans in Algebraic Topology II)_ ([pdf](http://www.dima.unige.it/~grandis/wCub2.pdf)) 
 
 
-## Co-tracing category interval object to the natural numbers
+## Cotracing category interval object to the natural numbers
 
 Let the ambient category be [[Cat]], let $I = \{a \to b\}$ be the standard [[interval object]] in [[Cat]] and let 
 $pt = \{\bullet\}$ be the terminal category.
