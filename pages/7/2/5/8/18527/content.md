@@ -1,0 +1,11 @@
+
+**[[Green functions]] for the [[Klein-Gordon operator]] on a [[globally hyperbolic spacetime]]:**
+
+| [[propagator]] | $\phantom{AA}$  |  $\phantom{AA}$ primed [[wave front set]] | on [[Minkowski spacetime]] | generally |
+|---|----|---|---|---|
+| [[causal propagator]] | $\array{\Delta_S \coloneqq   \Delta_A - \Delta_R }$ |  <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> $\array{- \\ \phantom{A} \\ \phantom{a}}$  <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60"> |$\array{\Delta_S(x,y) = \\ \langle vac\vert [\Phi(x),\Phi(y)] \vert vac\rangle }$ | [[Peierls bracket|Peierls-Poisson bracket]] |
+| [[advanced propagator]] | $\Delta_A$  |   <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60"> | $\array{\Delta_A(x,y) = \\ \theta(y-x)\langle vac\vert [\Phi(x),\Phi(y)] \vert vac\rangle } $ |  |
+| [[retarded propagator]] | $\Delta_R$ | <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> | $\array{\Delta_A(x,y) = \\ \theta(x-y)\langle vac\vert [\Phi(x),\Phi(y)] \vert vac\rangle }$ |  |
+| [[Feynman propagator]] | $E_F$ |  <img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60"> | $\array{E_F(x,y) = \\ \langle vac \vert T(\Phi(x)\Phi(y)) \vert vac \rangle }$  | [[time-ordered product]] |
+| [[Dirac propagator]] | $E_D = \Delta_A + \Delta_R$ |   <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> $\array{+ \\ \phantom{A} \\ \phantom{a}}$ <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60"> |  |  |
+| [[Hadamard propagator]] | $\omega = E_F - \Delta_A$ |  <img src="https://ncatlab.org/nlab/files/HadamardPropagator.png" width="60"> | $\array{\omega(x,y) = \\ \langle vac \vert \Phi(x) \Phi(y) \vert vac \rangle }$ | [[2-point function]] of [[quasi-free state]] |
