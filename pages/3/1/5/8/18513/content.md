@@ -611,11 +611,21 @@ $$
   \,.
 $$
 
+
 Since $g$ is a plain [[bump function]], its Fourier transform $\hat g$ is quickly decaying (in the sense of wave front sets)  with $k_1 + k_2$ ([this prop.](wavefront+set#EmptyWaveFronSetCorrespondsToOrdinaryFunction)). Thus only on the cone $k_1 + k_2 = 0$ that function is in fact constant and in particular not decaying. 
+
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/WaveFrontSetOfDeltaDistributionInTwoVariables.png" width="200"/>
+</div>
 
 This means that the wave front set consists of the element of the form $(x, (k, -k))$ with $k \neq 0$. Since $k$ and $-k$ are both in the [[future cone]] or both in the past cone precisely if $k = 0$, this situation is excluded in the wave front set and hence the distribution $g \cdot \delta(-,-)$ is microcausal.
 
+> (graphics grabbed from [Khavkine-Moretti 14, p. 45](quasi-free+quantum+state#KhavkineMoretti14))
+
 =--
+
+This shows that microcausality in this case is related to conservation of momentum in th point interaction.
 
 
 
