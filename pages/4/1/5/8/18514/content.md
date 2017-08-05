@@ -68,6 +68,9 @@ $$
 
 is called the _causal propagator_ .
 
+[[!include propagators - table]]
+
+
 ## Properties
 
 The causal propagator yields the [[Peierls bracket]], which is the [[Poisson bracket]] on the [[covariant phase space]] of the [[free field|field]] [[scalar field|scalar]] [[field (physics)|field]]. The [[Moyal deformation quantization]] of this [[covariant phase space]] yields the [[Wick algebra]] of [[quantum observables]] of the free scalar field.
@@ -77,7 +80,7 @@ The causal propagator yields the [[Peierls bracket]], which is the [[Poisson bra
 
 * [[Feynman propagator]]
 
-* [[Hadamard distribution]]
+* [[Hadamard propagator]]
 
 ## References
 
