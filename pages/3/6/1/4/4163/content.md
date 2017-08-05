@@ -12,7 +12,15 @@
 
 > see [[perturbation theory]] and [[locally covariant perturbative quantum field theory]]
 
+## Properties
+
+* [[main theorem of perturbative renormalization theory]]
+
 ## Related concepts
+
+* [[renormalization]]
+
+* [[causal perturbation theory]]
 
 * [[non-perturbative field theory]]
 
@@ -40,6 +48,7 @@ See also
 
 ### AQFT
 
+See the references at _[[causal perturbation theory]]_ and _[[locally covariant perturbative quantum field theory]]_.
 
 [[!redirects perturbative field theory]]
 
