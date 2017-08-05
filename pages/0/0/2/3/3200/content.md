@@ -28,6 +28,15 @@ $$
 
 is called the **fundamental solution** for $P$; alternative names like __Green function__ and __function of influence__ are also used. A particular solution of the nonhomogeneous equation for some other $g$ can be obtained by calculating the [[convolution]] with the fundamental solution. (Compare the fact that the delta distribution is the [[identity element]] for convolution.)
 
+## Examples
+
+### Propagators for free fields
+
+The Green functions for the [[wave operator]]/[[Klein-Gordon operator]] are known as the _[[propagators]]_ for [[free fields]] in [[field theory]]:
+
+[[!include propagators - table]]
+
+
 ## Related concepts
 
 * [[Feynman propagator]]
