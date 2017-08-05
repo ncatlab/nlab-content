@@ -185,6 +185,23 @@ It is given, up to addition by a smooth function, as the difference between the 
 
 ([Radzikowski 96, above theorem 6.3 with theorem 5.1](#Radzikowski96))
 
+## Examples
+
+### In Minkowski spacetime
+
+In [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ the Hadamard distribution is given by
+
+$$
+  \omega(x,y)
+  \;=\;
+  \tfrac{1}{(2\pi)^{d-1}}
+  \int_{\mathbb{R}^d}
+  e^{i p (x-y)}
+  \theta(p^0) \delta(p^2 + m^2 ) d^4 p
+$$
+
+(e.g. [KM 14, equation (38) and section 3.4](#KM14))
+
 ## Related concepts
 
 * [[causal propagator]]
@@ -204,7 +221,7 @@ Existence was shown in
 
 Review and further deveopments are in 
 
-*  [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5 in [[Romeo Brunetti]] et al. (eds.) _Advances in Algebraic Quantum Field Theory_, Springer, 2015 ([arXiv:1412.5945](https://arxiv.org/abs/1412.5945))
+*  {#KM14} [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5 in [[Romeo Brunetti]] et al. (eds.) _Advances in Algebraic Quantum Field Theory_, Springer, 2015 ([arXiv:1412.5945](https://arxiv.org/abs/1412.5945))
 
 
 [[!redirects Hadamard distributions]]
