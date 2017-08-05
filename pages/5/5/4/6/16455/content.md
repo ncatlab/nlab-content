@@ -20,7 +20,10 @@
 
 ## Idea
 
-The _Klein-Gordon equation_ is the [[equation of motion]] of a [[free field|free]] [[scalar field|scalar]] [[field (physics)|field]].
+The _Klein-Gordon equation_ is the [[partial differential equation]] which is the [[equation of motion]] of a [[free field|free]] [[scalar field|scalar]] [[field (physics)|field]] of possibly non-vanishing [[mass]] $m$ on some (possibly [[curved spacetime|curved]]) [[spacetime]] ([[Lorentzian manifold]]): it is the relativistic [[wave equation]] with inhomogenety the mass $m^2$.
+
+The structure of the Klein-Gordon equation appears also in the [[equations of motion]] of richer [[field (physics)|fields]] than just [[scalar fields]], where now the underlying [[field bundle]] may more generally be some [[vector bundle]]. Therefore the [[fundamental solutions]] of the Klein-Gordon equation, called the _[[propagators]]_ (see [below](#FundamentalSolutions)) pervades all of relativistic [[perturbative quantum field theory]].
+
  
 ## Definition
 
@@ -39,6 +42,11 @@ Sometimes the Klein-Gordon equation is thought of as a [[general relativity|rela
 
 ## Properties
 
+### Bicharacteristic flow and propagation of singularities
+
+The [[bicharacteristic strips]] of the Klein-Gordon operator are [[cotangent vectors]] along [[lightlike]] [[geodesics]] ([this example](bicharacteristic+flow#BicharachteristicFlowOfKleinGordonOperator)).
+
+
 ### Fundamental solutions
  {#FundamentalSolutions}
 
@@ -56,11 +64,8 @@ According to [Radzikowski 96](#Radzikowski96), the constraints on the wavefront 
 
 [[!include propagators - table]]
 
+These propagators govern the construction of the [[Wick algebra]] of [[quantum observables]] of the [[free field|free]] [[scalar field]] on the given [[globally hyperbolic spacetime]], as well as the further [[deformation quantization]] to [[interaction|interacting]] [[perturbative quantum field theory]] [[quantum field theory on curved spacetimes|on curved spacetimes]] via [[causal perturbation theory]]. See at _[[locally covariant perturbative quantum field theory]]_ for more on this.
 
-
-### Bicharacteristic flow and propagation of singularities
-
-The [[bicharacteristic strips]] of the Klein-Gordon operator are [[cotangent vectors]] along [[lightlike]] [[geodesics]] ([this example](bicharacteristic+flow#BicharachteristicFlowOfKleinGordonOperator)).
 
 ## References
 
