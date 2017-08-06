@@ -374,7 +374,9 @@ Sometimes one considers larger spaces of distributions, where worse singularitie
 
 Distributions can be alternatively described using [[nonstandard analysis]], see there. 
 
-## Rekated concepts
+## Related concepts
+
+* [[order of a distribution]]
 
 * [[scaling degree of a distribution]]
 
