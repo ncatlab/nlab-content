@@ -112,9 +112,9 @@ The notion of pasting in a [[2-category]] was introduced in
 
 
 
-Other notions of pasting presentations have been given by Street and by Steiner, 
+Other notions of pasting presentations have been given by Street ([[parity complexes]]) and by Steiner, 
 
-* Street, Parity complexes, Cahiers Top. G&#233;om Diff. Cat&#233;goriques 32 (1991), 315-343. ([link](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1991__32_4/CTGDC_1991__32_4_315_0/CTGDC_1991__32_4_315_0.pdf)) Corrigenda, Cahiers Top. G&#233;om Diff. Cat&#233;goriques 35 (1994), 359-361. ([link](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1994__35_4/CTGDC_1994__35_4_359_0/CTGDC_1994__35_4_359_0.pdf))
+* [[Ross Street]], _Parity complexes_, Cahiers Top. G&#233;om Diff. Cat&#233;goriques 32 (1991), 315-343. ([link](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1991__32_4/CTGDC_1991__32_4_315_0/CTGDC_1991__32_4_315_0.pdf)) Corrigenda, Cahiers Top. G&#233;om Diff. Cat&#233;goriques 35 (1994), 359-361. ([link](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1994__35_4/CTGDC_1994__35_4_359_0/CTGDC_1994__35_4_359_0.pdf))
 
 * Richard Steiner, The algebra of directed complexes, Appl. Cat. Struct. 1 (1993), 247-284. 
 
