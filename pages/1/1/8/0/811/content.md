@@ -140,7 +140,7 @@ However, Hermida's definition was missing the stability of cartesian 2-cells und
 
 A definition for strict $n$-categories due to Hermida is unpublished, but it is used and presented in another joint work with [Marta Bunge](http://www.math.mcgill.ca/bunge), presented at CATS07 at Calais:
 
-* Marta Bunge, "Intrinsic $n$-stack completions over a topos," slides [here](http://saxo.univ-littoral.fr/CT08/slides/Bunge.pdf)
+* Marta Bunge, "Intrinsic $n$-stack completions over a topos," slides [here](https://www.researchgate.net/publication/230792798_Intrinsic_n-stack_completions_over_a_topos)
 
  $n$-pseudofunctors may be viewed (and defined) as [[anafunctor]]s.  For $n$-groupoids such an approach to $n$-pseudofunctors has been studied in
 
