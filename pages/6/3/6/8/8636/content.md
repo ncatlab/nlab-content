@@ -76,7 +76,7 @@ Power shows that under the progressivity conditions, for each $c \in C_2$ there 
 
 +-- {: .num_theorem} 
 ###### Theorem 
-For every pasting scheme $(Q, i)$, the free 2-category on the 2-computad $Comp(Q, i)$ has exactly one 2-morphism $\gamma$ whose $0$-domain is the source of $Q$ and whose $0$-codomain is the sink of $Q$. The $1$-domain of $\gamma$ is the directed path consisting of **positive** edges of the unique unbounded component of $\mathbb{R}^2 \setminus i(R(Q))$, and the $1$-codomain is the directed path consisting of **negative** edges of that component.  
+For every pasting scheme $(Q, i)$, the free 2-category on the 2-computad $Comp(Q, i)$ has exactly one 2-morphism $\gamma$ whose $0$-domain is the source of $Q$, whose $0$-codomain is the sink of $Q$, whose $1$-domain of $\gamma$ is the directed path consisting of **positive** edges of the unique unbounded component of $\mathbb{R}^2 \setminus i(R(Q))$, and whose $1$-codomain is the directed path consisting of **negative** edges of that component.  
 =-- 
 
 ## Related concepts
