@@ -11,29 +11,41 @@ The concept controls the problem of [[extension of distributions]] from the [[co
 
 ## Definition
 
-+-- {: .num_defn #SheavesOnCartSp}
++-- {: .num_defn #RescaledDistribution}
 ###### Definition
+**(rescaled distribution)**
 
-Let $n \in \mathbb{N}$. For $\lambda \in (0,\infty) \subset \athbb{R}$ a [[positive number|positive]] [[real number]] and $u \in \mathcal{D}'(\mathbb{R}^n)$ a [[distribution]] on [[Cartesian space]] $\mathbb{R}^n$ the _rescaled distribution_ 
+Let $n \in \mathbb{N}$. For $\lambda \in (0,\infty) \subset \mathbb{R}$ a [[positive number|positive]] [[real number]] and write 
+
+$$
+  \array{ 
+    \mathbb{R}^n 
+      &\overet{m_\lambda}{\longrightarrow}& 
+    \mathbb{R}^n
+    \\
+    x &\mapsto& \lambda x
+  }
+$$
+
+for the [[diffeomorphism]] given by multiplication with $\lambda$, using the canonical [[real vector space]]-structure of $\mathbb{R}^n$.
+
+Then for $u \in \mathcal{D}'(\mathbb{R}^n)$ a [[distribution]] on [[Cartesian space]] $\mathbb{R}^n$ the _rescaled distribution_ is the [[pullback of a distribution|pullback]] of $u$ along $m_\lambda$
 
 $$
   u_\lambda
+  \coloneqq
+   m_\lambda^\ast U
   \;\in\;
   \mathcal{D}'(\mathbb{R}^n)
+  \,.
 $$
 
-is given as a [[generalized function]] by
-
-$$
-  u_\lambda(x) \coloneqq u(\lambda x)
-$$
-
-hence as a [[continous linear function]] on [[bump functions]] by
+Explicitly, this is given by
 
 $$
   \array{
      \mathcal{D}(\mathbb{R}^n) 
-       &\overset{ \leangle  u_\lambda, - \rangle}{\longrightarrow}&
+       &\overset{ \langle  u_\lambda, - \rangle}{\longrightarrow}&
      \mathbb{R}
      \\
      b &\mapsto& \lambda^{-n} \langle u , b(\lambda^{-1}\cdot (-))\rangle
@@ -41,8 +53,38 @@ $$
   \,.
 $$
 
+Similarly for $X \subset \mathbb{R}^n$ an [[open subset]] which is invariant under $m_\lambda$, the rescaling of a distribution $u \in \mathcal{D}'(X)$ is is $u_\lambda \coloneqq m_\lambda^\ast u$.
 
+=--
 
++-- {: .num_defn #ScalingDegree}
+###### Definition
+
+Let $n \in \mathbb{N}$ and let $X \subset \mathbb{R}^n$ be an [[open subset]] of [[Cartesian space]] which is invariant under $m_\lambda$ (def. \ref{RescaledDistribution}) for all $\lambda \in (0,\infty)$, and let $u \in \mathcal{D}'(X)$ be a [[distribution]] on this subset.
+
+The _scaling degree_ of $u$ is the [[infimum]]
+
+$$
+  sd(u)
+  \;\coloneqq\;
+  inf
+  \left\{
+    \omega \in \mathbb{R}
+     \;\vert\;
+    \underset{\lambda \to 0}{\lim}
+     \lambda^\omega u_\lambda
+     = 0
+  \right\}
+$$
+
+of the set of [[real numbers]] $\omega$ such that the [[limit of a sequence|limit]] of the rescaled distribution $\lambda^\omega u_\lambda$ (def. \ref{RescaledDistribution}) vanishes. If there is no such $\omega$ one sets $sd(u) \coloneqq \infty$.
+
+The _degree of divergence_ of $u$ is the difference of the scaling degree by the [[dimension]] of the underlying space:
+
+$$
+  deg(u) \coloneqq sd(u) - n
+  \,.
+$$
 
 =--
 
