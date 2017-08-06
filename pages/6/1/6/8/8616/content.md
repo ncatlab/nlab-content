@@ -89,6 +89,10 @@ $$
 
 Under pullback differential forms form a [[presheaf]] on the catories [[CartSp]] and [[SmthMfd]], in fact a [[sheaf]] with respect to the standard [[open cover]]-[[coverage]].
 
+## Related concepts
+
+* [[pullback of a distribution]]
+
 ## References
 
 A standard reference is 
