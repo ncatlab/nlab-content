@@ -1,3 +1,4 @@
+[[!redirects main theorem of perturbative renormalization theory]]
 
 
 +-- {: .rightHandSide}
