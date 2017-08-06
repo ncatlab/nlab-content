@@ -43,6 +43,8 @@ $C$ making above a short exact sequence in $C$.
 
 * [[absolute extensor]]
 
+* [[extension of distributions]]
+
 ## Examples 
 
 ### Extension of functions
