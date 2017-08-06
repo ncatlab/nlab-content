@@ -95,6 +95,8 @@ $$
 
 * [[support]]
 
+* [[point-supported distribution]]
+
 * [[order of a distribution]]
 
 * [[scaling degree of a distribution]]
