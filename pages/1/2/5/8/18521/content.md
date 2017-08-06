@@ -37,14 +37,16 @@ Equivalently, an oriented graph consists of a set $V$ and a subset $E \hookright
 
 ### More general graph orientations
 
-If loops and multiple edges are allowed, an oriented graph is essentially the same thing as a [[directed graph]], but in many situations it is useful to consider a _given_ undirected graph equipped with one of its many possible orientations.
-For example, various [[graph invariants]] (such as the [[flow polynomial]], or [[W. T. Tutte|Tutte]]'s original definition of the [[Tutte polynomial]]) can be defined for an arbitrary orientation of a graph, but are independent of the choice of orientation.
+If the underlying undirected graph is allowed to have loops and multiple edges, then an oriented graph is essentially the same thing as a [[directed graph]] (i.e., [[quiver]]).
 
 Formally, let an undirected graph $G$ be given by a quiver $s,t : E \rightrightarrows V$ together with a [[fixed point]] free [[involution]] $i : E \to E$ such that $s\circ i = t$ and $t \circ i = s$ (in the style of [Serre 1977](#Serre1977)).
 Then an orientation of $G$ consists of a subset $E^+ \subseteq E$ such that $E$ is the [[disjoint union]] $E = E^+ \uplus i(E^+)$.
 
-Any such orientation induces a corresponding directed graph (i.e., [[quiver]]) $G^+ = E^+ \rightrightarrows V$.
-Conversely, any directed graph $E \rightrightarrows V$ can be seen as an orientation of the undirected Serre graph defined by adding a formal inverse to each edge.
+Any such orientation induces a corresponding quiver $G^+ = E^+ \rightrightarrows V$.
+Conversely, any quiver $E \rightrightarrows V$ can be seen as an orientation of the undirected Serre graph defined by adding a formal inverse to each edge.
+
+Although the terms "oriented graph" and "directed graph" become essentially equivalent under this reading, in many situations it is useful to consider an oriented graph as one of the many possible orientations of a given undirected graph.
+For example, various [[graph invariants]] (such as the [[flow polynomial]], or [[W. T. Tutte|Tutte]]'s original definition of the [[Tutte polynomial]]) can be defined relative to an arbitrary orientation of a graph, but are independent of the choice of orientation.
 
 ## References
 
