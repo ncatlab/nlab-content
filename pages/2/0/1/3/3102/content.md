@@ -17,7 +17,7 @@
 ## Definition
 
 
-Given an [[object]] $Y$ of a [[category]] $C$, a __sink__ to $Y$ in $C$ is a [[collection]] of [[morphisms]] of $C$ whose [[targets]] (codomains) are all $Y$:
+Given an [[object]] $Y$ of a [[category]] $C$, a __sink__ to $Y$ in $C$ is a [[family]] of [[morphisms]] of $C$ whose [[targets]] (codomains) are all $Y$:
 
 $$ \array {
    X_1 \\
@@ -27,9 +27,9 @@ $$ \array {
    X_3
 } $$
 
-We do not, in general, require that this collection be [[small category|small]]; if it is so we would call it a "small sink".
+We do not, in general, require that this family be [[small category|small]]; if it is so we would call it a "small sink".
 
-The [[duality|dual]] concept is a collection of morphisms of $C$ whose [[sources]] (domains) are all $Y$:
+The [[duality|dual]] concept is a family of morphisms of $C$ whose [[sources]] (domains) are all $Y$:
 
 $$ \array {
    & & X_1 \\
@@ -44,6 +44,10 @@ Confusingly, this dual concept is called a __source__ from $Y$ in $C$, even thou
 ### Structured sinks
 
 If $U\colon C\to D$ is a functor, then a **$U$-structured sink** is a collection of objects $X_i\in C$ together with a sink in $D$ of the form $\{U(X_i) \to Y\}$.  This notion figures in the definition of a [[final lift]].
+
+## Examples
+
+* Any [[cocone]] under a [[diagram]] is a sink; indeed a cocone is precisely a sink indexed by the objects of the domain of the diagram together with a commutativity condition for the arrows in the diagram.
 
 ## Related pages
 
