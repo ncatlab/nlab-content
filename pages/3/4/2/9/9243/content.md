@@ -15,7 +15,15 @@
 
 ## Idea
 
-In [[theories of physics]] described by [[action functionals]] the _interaction_ of [[field (physics)|fields]]/[[particles]] is described by [[polynomial]] expression of the fields.
+Given a [[local Lagrangian density]] $L$ defining the [[action functional]] of a [[local field theory]], typically it splits as a sum
+
+$$
+  L = L_{free} + L_{int}
+$$ 
+
+of a term $L_{free}$ that defines a [[free field theory]] ([[kinetic energy]]) and a remainder $L_{int}$. That remainder then describes the _interactions_ that the otherwise free fields undergo.
+
+The _[[interaction picture]]_ of [[quantum physics]] serves to decompose the [[quantization]] of [[local field theories]] such that the interaction is seen as a [[perturbation]] of the quantization of the [[free field theory]]. This underlies most constructions of [[perturbative quantum field theory]], including the mathematically rigorous formulation via [[causal perturbation theory]].
 
 ## Examples
 
