@@ -24,7 +24,7 @@ So as a slogan we have that
 
 +-- {: .standout}
 
- A combinatorial model structure is one that is generated from _small data_ : it is generated from a small set of (acyclic) cofibrations between small objects. 
+ A combinatorial model structure is one that is generated from _small data_: it is generated from a small set of (acyclic) cofibrations between small objects. 
 
 =--
 
