@@ -115,7 +115,7 @@ $$
   \,.
 $$
 
-Concretely, if the first non-vanishing [[derivative]] $D^k b(0)$ of $b$ at 0 occurs as $k \in \mathbb{N}$, then the scalding degree is $-k$.
+Concretely, if the first non-vanishing [[derivative]] $D^k b(0)$ of $b$ at 0 occurs as $k \in \mathbb{N}$, then the scaling degree is $-k$.
 
 =--
 
@@ -141,7 +141,7 @@ $$
   E_F(x)
   \;=\;
   \tfrac{1}{(2\pi)^n}\int_{\mathbb{R}^n} \frac{e^{i p\cdot x}}{p^2 - m^2 + i 0}
-  d^n o
+  d^n p
 $$
 
 be the [[Feynman propagator]] for the massive [[free field|free]] [[scalar field]] on $n$-dimensional [[Minkowski spacetime]] (a [[Green function]] for the [[Klein-Gordon equation]]). Its scaling degree is
