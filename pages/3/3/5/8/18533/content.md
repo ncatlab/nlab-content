@@ -17,7 +17,7 @@
 
 ## Definition
 
-Let $X \subset \mathbb{R}^n$ be an [[open subset]] of [[Euclidean space]]. One way to state the [[continuous function|continuity]] condition on a [[distribution]] $u$ on $X$, being a [[continuous linear functional]] on the space $C\infty_c(X)$ of [[bump functions]] is to require that for all [[compact topological space|compact]] [[subspaces]] $K$ there exist constants $C$ and $k$ such that the [[absolute value]] of $u(b)$ is bounded by $C$ times the [[suprema]] of the [[sums]] of the [[absolute values]] of all [[derivatives]] of $b$ of order bounded by $k$:
+Let $X \subset \mathbb{R}^n$ be an [[open subset]] of [[Euclidean space]]. One way to state the [[continuous function|continuity]] condition on a [[distribution]] $u$ on $X$, being a [[continuous linear functional]] on the space $C^\infty_c(X)$ of [[bump functions]] is to require that for all [[compact topological space|compact]] [[subspaces]] $K$ there exist constants $C$ and $k$ such that the [[absolute value]] of $u(b)$ is bounded by $C$ times the [[suprema]] of the [[sums]] of the [[absolute values]] of all [[derivatives]] of $b$ of order bounded by $k$:
 
 $$
   \underset{ {K \subset X} \atop {\text{compact}}}{\forall}
