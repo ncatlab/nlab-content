@@ -31,7 +31,7 @@ for $V$ the [[interaction]] term, and "$T$" indicating the [[time-ordered produc
 
 It turns out that at each step in the [[induction]] (corresponding to each loop order) a [[distribution]] has to be [extended to a point](extension%20of%20distributions#SolutionSpaceOfPointExtensions), namely to the point at which the [[interaction]] takes place. A key theorem ([Epstein-Glaser 73, section 5](EpsteinGlaser73), [this prop.](extension+of+distributions#SpaceOfPointExtensions)) states that this extension is parameterized by a finite-dimensional space of [[point-supported distributions]] at that point. This freedom in [[extension of distributions]] is identified with the traditional [[renormalization]] freedom in [[perturbative quantum field theory]], see at _[[main theorem of perturbative renormalization]]_ for more on this point. 
 
-(It may be argued, vividly so in [Scharf 95](#Scharf95), that the notorious "infinities" that "plague" quantum field theory in other approaches are nothing but the result of incorrectly dealing with the issue of [[extension of distributions]]. )
+(It may be argued, vividly so in [Scharf 95, p. 181-182](#Scharf95), that the notorious "infinities" that "plague" quantum field theory in other approaches are nothing but the result of incorrectly dealing with the issue of [[extension of distributions]]. )
 
 Recently it was shown that the [[interacting field algebra]] induced by the [[S-matrix]] constructed via causal perturbation theory this way is a model for [[Fedosov's formal deformation quantization]] of the given [[local Lagrangian density]] ([Collini 16](#Collini16), [Hawkins-Rejzner 16](#HawkinsRejzner16)), thus justifying the method from first principles of (perturbative) [[quantization]].
 
