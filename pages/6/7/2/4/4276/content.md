@@ -1,24 +1,14 @@
-**[[AQFT]]** and **[[operator algebra]]**
+**[[algebraic quantum field theory]]** ([[locally covariant perturbative AQFT|locally covariant perturbative]], [[homotopical algebraic quantum field theory|homotopical]])
 
-[[homotopical algebraic quantum field theory]]
+## Concepts
 
-## Definitions
+* [[quantum mechanical system]], [[subsystem]]
 
-* [[quantum mechanical system]]
+* [[quantum observable]]
 
-  * [[observable]]
+  * [[operator algebra]], [[C*-algebra]], [[von Neumann algebra]]
 
-    * [[operator algebra]]
-
-      * [[C*-algebra]]
-
-      * [[von Neumann algebra]]
-
-    * [[subsystem]]
-
-  * [[states in AQFT and operator algebra|state]], 
-
-    * [[cyclic vector]], [[separating vector]]
+* [[causal locality]]
 
 * [[local net of observables]]
 
@@ -31,6 +21,29 @@
   * [[field net]]
 
   * [[conformal net]]
+
+* [[states in AQFT and operator algebra|quantum states]], 
+
+  * [[cyclic vector]], [[separating vector]]
+
+  * [[quasi-free state]]
+
+  * [[Hadamard state]]
+
+
+**[[quantization]]**
+
+* [[covariant phase space]]
+
+* [[Peierls bracket|Poisson-Peierls bracket]]
+
+* [[Wick algebra]], [[microcausal functionals]]
+
+* [[causal perturbation theory]]
+
+  * [[S-matrix]], [[interacting field algebra]]
+
+* [[locally covariant perturbative AQFT]]
 
 
 ## Theorems
@@ -67,11 +80,12 @@
 
 * [[DHR superselection theory]]
 
+### Perturbative QFT
 
+* [[main theorem of perturbative renormalization]]
 
 ### Euclidean QFT
 
-* [[Osterwalder-Schrader theorem]]
+* [[Osterwalder-Schrader theorem]] ([[Wick rotation]])
 
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/AQFT+and+operator+algebra+contents)</div>
