@@ -29,7 +29,7 @@ The "interaction picture" in [[quantum physics]] is a way to decompose solutions
 
 * In the [[Heisenberg picture]], the dependence of observables on time (or more generally [[spacetime]]) is encoded, while the state is held fixed; the axiomatic formalization of this is given by the [[Haag–Kastler axioms]] of [[AQFT]].
 
-* The __Dirac (interaction) picture__ is a mixture of these two approaches: dynamics is split into a free (or otherwise solvable) part and an [[interaction]] (often then treated as a [[perturbation theory|perturbation]]); one of these is take to affect the states, the other the observables.
+* The __Dirac (interaction) picture__ is a mixture of these two approaches: dynamics is split into a free (or otherwise solvable) part and an [[interaction]] (often then treated as a [[perturbation theory|perturbation]]); one of these is taken to affect the states, the other the observables.
 
 The pictures are named after those physicists who first used or popularised these approaches to quantum physics.
 
@@ -45,7 +45,7 @@ $$
 
 be Hermitian operator, thought of as a [[Hamiltonian]], decomposed as the [[sum]] of a free part ([[kinetic energy]]) and an interaction part ([[potential energy]]).
 
-For exampled for a  [[non-relativistic particle]] of [[mass]] $m$ propagating on the [[line]] subject to a [[potential energy]] $V_{pot} \colon \mathbb{R} \to \mathbb{R}$, then $\mathcal{H} = L^2(X)$ is the Hilbert space space of [[square integrable functions]] and
+For example, for a  [[non-relativistic particle]] of [[mass]] $m$ propagating on the [[line]] subject to a [[potential energy]] $V_{pot} \colon \mathbb{R} \to \mathbb{R}$, then $\mathcal{H} = L^2(X)$ is the Hilbert space space of [[square integrable functions]] and
 
 $$
   H 
