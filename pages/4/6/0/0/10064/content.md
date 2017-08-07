@@ -19,17 +19,20 @@ An _iterated integral_ is a expression involving nested [[integrals]], such as
 $$ \int_{x=a}^b \bigg(\int_{y=g(x)}^{h(x)} f(x,y) \,\mathrm{d}y\bigg) \,\mathrm{d}x ,$$
 where the grouping parentheses are usually left out.  Iterated integrals are the subject of [[Fubini theorem]]s.
 
-Iterated integrals include nested [[integration of differential forms]] of the kind as it appears in the formulation of [[parallel transport]] for nonabelian-value [[connection on a bundle|connection]] form.
+Iterated integrals include nested [[integration of differential forms]] of the kind as it appears in the formulation of [[parallel transport]] for nonabelian-value [[connection on a bundle|connection]] form (known as the _[[Dyson formula]]_ in [[physics]]).
 
 Applied to higher degree forms iterated integrals serve to express generalized [[transgression]] of differential forms to [[loop spaces]] and other [[mapping spaces]] relaized as [[diffeological spaces]].
 
 ## Related concepts
+
+* [[Dyson formula]]
 
 * [[Chen connection]]
 
 * [[higher holonomy]]
 
 * [ordinary homology -- description in terms of higher linear algebra](ordinary%20homology#InTermsOfHigherLinearAlgebra)
+
 
 ## References
 
