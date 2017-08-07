@@ -21,19 +21,19 @@ What is called _causal perturbation theory_ is a mathematically rigorous constru
 
 A key idea of causal perturbation theory is that the [[interaction]] term $V$ is considered multiplied with some [[smooth function]] $g$ which has [[compact support]] on [[spacetime]]. This hence serves as a spacetime-dependent "[[coupling constant]]" which "switches off" the interaction outside a compact region, but not discontinuously as in many other schemes, but smoothly, hence "adiabatically" in terminology borrowed from [[thermodynamics]]. Therefore this is often called the "[[adiabatic switching]]" function, or similar.
 
-The corresponding [[S-matrix]] would naively be given by the expression
+The corresponding [[S-matrix]] would naively be given by the [[Dyson formula]]
 
 $$
-  S_g \coloneqq T \exp\left( \int_X g(x) V(x) d\mu(x) \right)
+  S_g \coloneqq T \exp\left( \int_X g(x) V(x) dvol(x) \right)
 $$
 
-for $V$ the [[interaction]] term, and "$T$" indicating the [[time-ordered product]]. Causal perturbation theory proceeds by [[axiom|axiomatizing]] the key structural properties of this "[[adiabatic switching|adiabatically switched]]" [[S-matrix]] and then proving by [[induction]] that solutions to these axioms exist. 
+for $V$ the [[interaction]] term, and "$T$" indicating the [[time-ordered product]]. Causal perturbation theory proceeds by [[axiom|axiomatizing]] the key structural properties of this "[[adiabatic switching|adiabatically switched]]" [[S-matrix]], making sense of the "[[time-ordered product]]" by appropriate [[causal locality|causal ordering]] (whence the name of the approach) and then proving by [[induction]] that solutions to these axioms exist. 
 
 It turns out that at each step in the [[induction]] (corresponding to each loop order) a [[distribution]] has to be [extended to a point](extension%20of%20distributions#SolutionSpaceOfPointExtensions), namely to the point at which the [[interaction]] takes place. A key theorem ([Epstein-Glaser 73, section 5](EpsteinGlaser73), [this prop.](extension+of+distributions#SpaceOfPointExtensions)) states that this extension is parameterized by a finite-dimensional space of [[point-supported distributions]] at that point. This freedom in [[extension of distributions]] is identified with the traditional [[renormalization]] freedom in [[perturbative quantum field theory]], see at _[[main theorem of perturbative renormalization]]_ for more on this point. 
 
 (It may be argued, vividly so in [Scharf 95, p. 181-182](#Scharf95), that the notorious "infinities" that "plague" quantum field theory in other approaches are nothing but the result of incorrectly dealing with the issue of [[extension of distributions]]. )
 
-Recently it was shown that the [[interacting field algebra]] induced by the [[S-matrix]] constructed via causal perturbation theory this way is a model for [[Fedosov's formal deformation quantization]] of the given [[local Lagrangian density]] ([Collini 16](#Collini16), [Hawkins-Rejzner 16](#HawkinsRejzner16)), thus justifying the method from first principles of (perturbative) [[quantization]].
+In fact the [[interacting field algebra]] induced by the [[S-matrix]] constructed via causal perturbation theory this way is a model for [[Fedosov's formal deformation quantization]] of the given [[local Lagrangian density]] ([Collini 16](#Collini16), [Hawkins-Rejzner 16](#HawkinsRejzner16)), thus justifying the method from first principles of (perturbative) [[quantization]].
 
 
 The key axiom imposed on the [[S-matrix]] in causal perturbation theory is [[causal locality]], whence the name of the approach. This axiom asks that if adiabatic switching functions $g$ and $h$ have [[spacelike]] separated [[supports]] then the S-matrix _factors_
