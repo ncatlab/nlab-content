@@ -162,3 +162,6 @@ For more see the references at _[[locally covariant perturbative quantum field t
 
 [[!redirects wave front set]]
 [[!redirects wave front sets]]
+
+[[!redirects wave-front set]]
+[[!redirects wave-front sets]]
