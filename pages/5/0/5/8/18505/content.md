@@ -25,7 +25,7 @@ $$
   \,,
 $$
 
-where $K_g \coloneqq H \intersection g K g^{-1}$, and $W_g$ is the representation of $K_g$ which is $W$ as a vector space, but with action $x \cdot w = (g^{-1} x g) w$ where now $g^{-1} x g \in K$. This formula, sometimes called _Mackey's decomposition theorem_, amounts to the [[Beck-Chevalley condition]] for the homotopy pullback square.
+where $K_g \coloneqq H \intersection g K g^{-1}$, and $W_g$ is the representation of $K_g$ which is $W$ as a vector space, but with action $x \cdot w = (g^{-1} x g) w$ where now $g^{-1} x g \in K$. This formula, sometimes called _Mackey's decomposition theorem_, amounts to the [[Beck-Chevalley condition]] for the homotopy pullback square. It appears, as the _Mackey axiom_, in one of the original definitions of [[Mackey functor]] ([Bouc 02](#Bouc02)).
 
 
 ##Related concepts
@@ -34,6 +34,10 @@ where $K_g \coloneqq H \intersection g K g^{-1}$, and $W_g$ is the representatio
 * [[locally Klein geometry]]
 * [[Hecke algebra]]
 * [[Bruhat decomposition]]
+
+##References
+
+* {#Bouc02} Serge Bouc, _Mackey functors_, ([pdf](http://www.lamfa.u-picardie.fr/bouc/mackey.pdf))
 
 [[!redirects double cosets]]
 [[!redirects double coset space]]
