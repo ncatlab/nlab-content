@@ -23,9 +23,15 @@ The _product_ of two [[distributions]] is an operation that generalizes the ordi
 
 * [[Hadamard distribution]]
 
+* [[microcausal functional]], [[Wick algebra]]
+
+* [[operator-valued distribution]]
+
 ## References
 
 * {#Hoermander90} [[Lars Hörmander]], section 8.1 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
 [[!redirects products of distributions]]
 
+[[!redirects multiplication of distributions]]
+[[!redirects multiplications of distributions]]
