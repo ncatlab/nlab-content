@@ -47,7 +47,7 @@ $$
 
 This is hence called the _pullback of distributions_.
 
-If $f$ happens to be a [[diffeomorphism]] with [[inverse function]] $f$ then $f^\ast u$ for $u \in \mathcal{D}'(X_2)$ is explicitly given by
+If $f$ happens to be a [[diffeomorphism]] with [[inverse function]] $f^{-1}$ then $f^\ast u$ for $u \in \mathcal{D}'(X_2)$ is explicitly given by
 
 $$
   \langle  f^\ast u , b \rangle
