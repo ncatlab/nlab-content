@@ -262,9 +262,9 @@ where $|\alpha| = \alpha_1 + \ldots + \alpha_n$ is the total degree of the multi
 Thus derivatives of distributions are defined to all orders. Some examples are given in the section "examples".
 
 ### Multiplication of Distributions
- {#MutliplicationsOfDistributions}
+ {#MultiplicationsOfDistributions}
 
-See at _[[mutliplication of distributions]]_
+See at _[[multiplication of distributions]]_
 
 ## Examples 
 
