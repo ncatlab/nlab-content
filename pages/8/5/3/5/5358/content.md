@@ -28,7 +28,7 @@ $$
 
 be a [[topos]] sitting by its [[global section]] [[geometric morphism]] over a base $\mathcal{S}$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $X$ an [[object]] in $\mathcal{E}$, let $Aut_{\mathcal{E}}(X)$ be its [[automorphism group]] (in $\mathcal{S}$). Then $\Delta Aut(X)$ is canonically a [[group object]] in $\mathcal{E}$.
@@ -44,14 +44,14 @@ is an [[isomorphism]].
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Any Galois object is [[locally constant object]]: since $X \to *$ is epi we may take it as a cover $U = X \to *$ and then then above principality condition says that pulled back to this cover $X$ becomes constant.
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -65,7 +65,7 @@ A **Galois topos** is a [[topos]] that is
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Often a Galois topos is in addition required to be pointed.
@@ -74,7 +74,7 @@ Often a Galois topos is in addition required to be pointed.
 
 ## Examples
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $\mathcal{E}$ [[connected topos|connected]] and 
@@ -92,7 +92,7 @@ The definition appears in
 
 * [[Ieke Moerdijk]], _Prodiscrete groups and Galois toposes_ Proc. Kon. Nederl. Akad. van Wetens. Series A, 92-2 (1989)
 
-* [[Eduardo Dubuc]], _On the representation theory of Galois and Atomic Topoi_ ([arXiv:0208222](http://arxiv.org/abs/math/0208222))
-{#Dubuc}
+* {#Dubuc} [[Eduardo Dubuc]], _On the representation theory of Galois and Atomic Topoi_ ([arXiv:0208222](http://arxiv.org/abs/math/0208222))
+
 
 [[!redirects Galois object]]
