@@ -33,9 +33,17 @@ Full [[quantum field theory]] is sometimes called -- for emphasis and in contras
 
 ## References
 
+Outlook from the point of view of [[causal perturbation theory]]/[[locally covariant perturbative quantum field theory]] is in
+
+
+* {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
+
+
 A textbook account in the school of [[AQFT]] is in 
 
 * [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 2013
+
+
 
 Lectures notes for non-perturbative [[supersymmetry|supersymmetric]] QFT (such as in [[AdS-CFT]]) includes
 
