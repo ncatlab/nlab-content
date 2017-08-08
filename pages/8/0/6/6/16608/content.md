@@ -32,3 +32,4 @@ Some other examples are related to [[Witt-Burnside functors]], Witt rings in the
 * [[Michael Hill]], _Derived Equivariant Algebraic Geometry_, ([lecture and notes](https://www.msri.org/workshops/689/schedules/18236))
 * Kristen Mazur, _On the Structure of Mackey Functors and Tambara Functors_, ([thesis](http://sites.lafayette.edu/mazurk/files/2013/07/Mazur-Thesis-4292013.pdf))
 * {#Hill17} [[Michael Hill]], _On the Andre-Quillen homology of Tambara functors_, ([arXiv:1701.06219](https://arxiv.org/abs/1701.06219))
+* [[Andrew Blumberg]], [[Michael Hill]], _Incomplete Tambara functors_, ([arXiv:1603.03292](https://arxiv.org/abs/1603.03292))
