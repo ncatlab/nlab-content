@@ -27,3 +27,6 @@ A [[function]] such that its [[square]] has a well-defined [[integration]] again
 * [[L-2 space]]
 
 [[!redirects square integrable functions]]
+
+[[!redirects square-integrable function]]
+[[!redirects square-integrable functions]]
