@@ -1,0 +1,11 @@
+
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Nikolay_Bogolyubov)
+
+## related $n$Lab entries
+
+* [[causal perturbation theory]]
+
+* [[Bogoliubov's formula]]
+
+category: people
