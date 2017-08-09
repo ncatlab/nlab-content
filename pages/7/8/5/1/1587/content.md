@@ -1001,13 +1001,14 @@ between the [[category of covering spaces]] and the [[permuation representation|
 
 
 ## Examples 
+ {#Examples}
 
 +-- {: .num_example #TrivialCoveringSpace}
 ###### Example
 **(trivial covering space)**
 
 For $X$ a [[topological space]] and $S$ a [[set]] with $Disc(S)$ the [[discrete topological space]]
-on that set, then the [[projection]] out of the [[poduct topological space]]
+on that set, then the [[projection]] out of the [[product topological space]]
 
 $$
   pr_1 \;\colon\; X \times Disc(S) \longrightarrow X
@@ -1031,6 +1032,23 @@ $$
 is called a _trivialization_ of $E \overset{p}{\to} X$. 
 
 It is in this sense that evry coverin space $E$ is, by definition, locally trvializable.
+
+=--
+
+
+
+
++-- {: .num_example #nSphereCoveringOverRealProjectiveSpace}
+###### Example
+**([[n-sphere]] covering over [[real projective space]])**
+
+For $n \in \mathbb{N}$ the canonical projection 
+
+$$
+  S^n \longrightarrow \mathbb{R}P^n
+$$
+
+from the [[n-sphere]] to the [[real projective space]] of [[dimension]] $n$ is a covering space projection. See [this prop.](real+projective+space#nSphereAsCoveringSpaceOverRealProjectiveSpace).
 
 =--
 
