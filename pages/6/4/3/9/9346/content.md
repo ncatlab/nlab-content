@@ -401,7 +401,7 @@ The [[string scattering amplitudes]] computed in string [[perturbation theory]] 
 
 No. On the contrary, the [[perturbation series]] of any interesting QFT is supposed to have [[radius of convergence]] equal to 0 ([Dyson 52](perturbation+theory#Dyson52)). Because the expansion parameter is the [[coupling constant]] and if the series had a finite radius of convergence, there would be also _negative_ values of the coupling for which the correlators are convergent. See at _[[non-perturbative effect]]_ for more.
 
-So the non-convergence of the string perturbation series is just as it should be in QFT: a [[perturbation series]] in quantum field theory is generally an _[[asymptotic series]]_, meaning that it diverges but every finite truncation of it produces a [[sum]] that approximates the "actual" value (the actual [[correlation functions]]) in a controled way (as explained at _[[asymptotic expansion]]_.)
+So the non-convergence of the string perturbation series is just as it should be in QFT: a [[perturbation series]] in quantum field theory is generally an _[[asymptotic series]]_, meaning that it diverges but every finite truncation of it produces a [[sum]] that approximates the "actual" value (the actual [[correlation functions]]) in a controlled way (as explained at _[[asymptotic expansion]]_).
 
 The important property of the [[string scattering amplitudes]] is rather that they (plausibly) come out _termwise_ finite (proven so for [[bosonic string theory]] and the first orders of [[superstring theory]]), which means that it is already [[renormalization|renormalized]]: the higher string modes provide the natural counterterms for the renormalization (see also at _[How do strings model massive particles?](#HowDoStringsModelMassiveParticles)_).
 
