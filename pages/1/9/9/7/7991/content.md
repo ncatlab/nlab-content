@@ -27,16 +27,24 @@
 
 For $(V,\omega)$ a [[symplectic vector space]], the _metaplectic group_ $Mp(V,\omega)$ is the [[Lie group]] which is [[generalized the|the]] [[universal cover|universal]] [[double cover]] of the [[symplectic group]] $Sp(V,\omega)$.
 
-This has various more explicit presentations. One is by [[quadratic Hamiltonians]]: The metaplectic group is that subgroup of the [[quantomorphism group]] of the [[symplectic manifold]] $(V,\omega)$ whose elements are given by paths of [[Hamiltonians]] that are [[homogeneously quadratic Hamiltonians]] (due to [Leray 81, section 1.1](#Leray81), see also [Robbin-Salamon 93, sections 9-10](#RobbinSalamon93)). (The more general subgroup given by possibly inhomogeneous [[quadratic Hamiltonians]] this way is the [[extended affine symplectic group]]. The subgroup given by linear Hamiltonians is the [[Heisenberg group]] $Heis(V,\omega)$.)
+This has various more explicit presentations. One is by [[quadratic Hamiltonians]]: The metaplectic group is that subgroup of the [[quantomorphism group]] of the [[symplectic manifold]] $(V,\omega)$ whose elements are given by [[paths]] of [[Hamiltonians]] that are [[homogeneously quadratic Hamiltonians]] (due to [Leray 81, section 1.1](#Leray81), see also [Robbin-Salamon 93, sections 9-10](#RobbinSalamon93)). (The more general subgroup given by possibly inhomogeneous [[quadratic Hamiltonians]] this way is the [[extended affine symplectic group]]. The subgroup given by linear Hamiltonians is the [[Heisenberg group]] $Heis(V,\omega)$.)
 
 ### Circle extension $Mp^c$ of $Sp$
   {#CircleExtension}
 
-There is also a nontrivial  [[circle group]]-extension of the [[symplectic group]], called $Mp^c$. In terms of the [above](#DoubleCover) $Mp$ this is ([Forger-Hess 79 (2.4)](#ForgerHess79))
+There is also a nontrivial  [[circle group]]-[[group extension|extension]] of the [[symplectic group]], called $Mp^c$. This is the circle extension [[associated bundle|associated]] to the plain metaplectic group $Mp$ [above](#DoubleCover), via the canonical [[action]] of $\mathbb{Z}_2$ on $U(1)$ (by [[complex conjugation]]): ([Forger-Hess 79 (2.4)](#ForgerHess79))
 
 $$
-  Mp^c(V,\omega) = Mp(V,\omega) \times_{\mathbb{Z}_2} U(1)
+  \begin{aligned}
+    Mp^c(V,\omega) 
+     & \coloneqq
+    Mp(V,\omega) \times_{\mathbb{Z}_2} U(1)
+    \coloneqq 
+    ( Mp(V,\omega) \times U(1) )/\mathbb{Z}_2
+  \end{aligned}
 $$
+
+where the last line denotes the [[quotient group]] by the [[diagonal action]] of $\mathbb{Z}_2$.
 
 (This is in direct [[analogy]] to the group [[Spin^c]] and its relation to [[Spin]].)
 
@@ -100,7 +108,7 @@ $$
 
 ### Relation to the metalinear group
 
-Inside the [[symplectic group]] $Sp(2n, \mathbb{R})$ sits the [[general linear group]] 
+Inside the [[symplectic group]] $Sp(2n, \mathbb{R})$ in dimension $2n$ sits the [[general linear group]] in dimension $n$
 
 $$
   Gl(n,\mathbb{R}) \hookrightarrow Sp(2n,\mathbb{R})
