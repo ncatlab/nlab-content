@@ -9,3 +9,6 @@
 * [[Bogoliubov's formula]]
 
 category: people
+
+[[!redirects Bogoliubov]]
+[[!redirects Bogolyubov]]
