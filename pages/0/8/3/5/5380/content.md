@@ -36,7 +36,7 @@ is the corresponding projective space.
 If instead of forming the [[quotient]] one forms the weak quotient/[[action groupoid]], one speaks of the [[projective stack]]
 
 $$
-  \hat \mathbb{P}(X) := (X-\{0\})//\mathbb{G}_m
+  \hat \mathbb{P}(X) \coloneqq (X-\{0\})//\mathbb{G}_m
   \,.
 $$
 
@@ -211,6 +211,7 @@ hence is a [[cylinder]] $B^\circ_x(\epsilon)\vert_{S^{2n+1}} \times (\mathbb{C} 
 
 =--
 
+
 +-- {: .num_prop #CellComplexStructureOnTopologicalProjectiveSpace}
 ###### Proposition
 
@@ -348,6 +349,50 @@ To see that this is an open cover:
 1. These subsets are open in the [[quotient topology]] $k P^n = (k^n \setminus \{0\})/\sim$, since their [[pre-image]] under the quotient co-projection $k^{n+1} \setminus \{0\} \to k P^n$ coincides with the pre-image $(pr_i\circ\iota)^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n\}}{\prod} k$ (where we write $k^n \setminus \{0\} \overset{\iota}{\hookrightarrow} k^n \overset{pr_i}{\to} k$).
 
 =--
+
++-- {: .num_prop #nSphereAsCoveringSpaceOverRealProjectiveSpace}
+###### Proposition
+**([[n-sphere]] projecting to real projective space is [[covering space]] projection)
+
+For $n \in \mathbb{N}$, the [[continuous function]] $p \;\colon\; S^n \to \mathbb{R}P^n$ from prop. \ref{QuotientOfnSphereTopologicalProjectiveSpace} 
+is a [[covering space]] projection.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to produce an [[open cover]] $\{U_i \subset \mathbb{R}P^n\}_{i \in I}$ such that the restrictions of the projection to this cover are [[homeomorphism|homeomorphic]] over the base to a [[product topological space]]
+
+$$
+  \array{
+     U_i \times Disc(\mathbb{Z}_2)
+       && \overset{\simeq}{\longrightarrow} && 
+    S^n|_{U_i}
+    \\
+    & \searrow && \swarrow
+    \\
+    && U_i 
+  }
+  \,.
+$$
+
+Consider the standard open cover from def. \ref{TopologicalProjectiveSpaceStandardOpenCover}. Hence $i \in \{1, \cdots, n+1\}$
+and $U_i$ consists of those lines through the origin in $\mathbb{R}^{n+1}$ which do not lie in the subspace defined by $x_i = 0$. The intersection of this subspace with the unit sphere $S^n \subset \mathbb{R}^{n+1}$ is an [[equator]] of the $n$-sphere, and so the [[complement]] of this equator is the [[disjoint union]] of the two open [[hemispheres]] $D_i^\pm \subset S^n$. Hence 
+
+$$
+  \array{
+     S^n\vert_{U_i} & \simeq D_i^+ \sqcup D_i^- 
+   }
+  \,.
+$$
+
+Moreover, each line in $\mathbb{R}^{n+1}$ which corresponds to an element in $U_i$ intersects $D^+_i$ as well as $D^-_i$ exactly once. In particular therefore the $\mathbb{Z}_2$-action on $S^n$ restricts over $U_i$ to the interchange of these two hemispheres, and hence prop. \ref{QuotientOfnSphereTopologicalProjectiveSpace} gives the required homeomorphism as above.
+
+
+
+=--
+
 
 +-- {: .num_prop #ProjectiveSpaceOpenCoverIsAtlas}
 ###### Proposition
