@@ -88,7 +88,7 @@ with precursors in
 
 * [[Ernst Stückelberg]], A. Peterman, , _La normalisation des constants dans la theorie des quanta_, Helv. Phys. Acta 26, 499 (1953); 
 
-* {#BogoliubovShirkov59} [[Nikolay Bogoliubov]], [[DmitryShirkov]], _Introduction to the Theory of Quantized Fields_, New York (1959)
+* {#BogoliubovShirkov59} [[Nikolay Bogoliubov]], [[Dmitry Shirkov]], _Introduction to the Theory of Quantized Fields_, New York (1959)
 
 whence sometimes called the _St&#252;ckelberg-Bogoliubov-Epstein-Glaser method_.
 
