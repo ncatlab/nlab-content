@@ -47,7 +47,7 @@ $$
 in the [[cohesive (∞,1)-topos]] $\mathbf{H} = $ [[Smooth∞Grpd]], with [[domain]] the given symplectic manifold and [[codomain]] the smooth [[moduli stack]] for [[circle n-bundle with connection|circle bundles with connection]]. This in turn may be regarded as an object $\nabla \in \mathbf{H}_{/\mathbf{B}U(1)_{conn}}$ in the [[slice (∞,1)-topos]]. Then the quantomorphism group is the [[automorphism group]]
 
 $$
-  \mathbf{QuantMorph}(X.\nabla) \coloneqq 
+  \mathbf{QuantMorph}(X,\nabla) \coloneqq 
   \underset{\mathbf{B}U(1)_{conn}}{\prod} \mathbf{Aut}(\nabla)
 $$
 
