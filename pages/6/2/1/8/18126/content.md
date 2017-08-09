@@ -12774,9 +12774,7 @@ Let $X$ be a [[topological space]] such that
 
 1. $X$ is [[regular topological space|regular]];
 
-1. every [[open cover]] of $X$ has a [[refinement]] by a union of a [[countable set]] of
-
-   [[locally finite sets of subsets|locally finite]] sets of open subsets (not necessarily covering).
+1. every [[open cover]] of $X$ has a [[refinement]] by a union of a [[countable set]] of [[locally finite sets of subsets|locally finite]] sets of open subsets (the latter not necessarily covering).
 
 Then $X$ is [[paracompact topological space]].
 
@@ -12810,7 +12808,7 @@ Then $X$ is [[paracompact topological space]].
 +-- {: .proof}
 ###### Proof
 
-Let $\{U_i \subset X\}_{i \in I}$ be an open cover. By [[Michael's theorem]] (prop. \ref{RegularSpacesWherOpenCoveringIsRefinedbyCountableLocallyFiniteConnectionsofOpensAreParacompact}) it is sufficient that we find a [[refinement]] by a [[countable cover]].
+Let $\{U_i \subset X\}_{i \in I}$ be an open cover. By [[Michael's theorem]] (prop. \ref{RegularSpacesWherOpenCoveringIsRefinedbyCountableLocallyFiniteConnectionsofOpensAreParacompact}) it is sufficient that we find a [[refinement]] by a [[countable cover]] (hence a countable union of sets consisting of single open subsets).
 
 But second countability implies precisely that every open cover has a countable subcover:
 
@@ -13642,10 +13640,10 @@ such that this is [[local trivialization|locally trivial]] in that there exists:
 
 1. an [[open cover]] $\{U_i \subset X\}_{i \in I}$,
 
-1. for each $i \in I$ a [[homeomorphism]]
+1. for each $i \in I$ an $n_i \in \mathbb{N}$ and a [[homeomorphism]]
 
    $$
-     \phi_i \;\colon\; U_i \times k^n \overset{\simeq}{\longrightarrow} \pi^{-1}(U_i) \subset E
+     \phi_i \;\colon\; U_i \times k^{n_i} \overset{\simeq}{\longrightarrow} \pi^{-1}(U_i) \subset E
    $$
 
    from the [[product topological space]] of $U_i$ with the [[real numbers]] (equipped with their [[Euclidean space]] [[metric topology]]) to the restriction of $E$ over $U_i$, such that
@@ -13658,7 +13656,7 @@ such that this is [[local trivialization|locally trivial]] in that there exists:
         \underset{x \in U_i}{\forall}
         \left(
           \phi_i(x) \;\colon\;
-             k^n \overset{\text{linear}}{\longrightarrow}
+             k^{n_i} \overset{\text{linear}}{\longrightarrow}
             E_x = \pi^{-1}(\{x\})
         \right)
         \,.
@@ -13668,13 +13666,21 @@ Here is the [[diagram]] of continuous functions that illustartes these condition
 
 $$
   \array{
-    U_i \times k^n &\underoverset{\text{fibws. linear}}{\phi_i}{\longrightarrow}& E\vert_{U_i} &\hookrightarrow& E
+    U_i \times k^{n_i} &\underoverset{\text{fibws. linear}}{\phi_i}{\longrightarrow}& E\vert_{U_i} &\hookrightarrow& E
     \\
     & {}_{\mathllap{pr_1}}\searrow & \downarrow^{\mathrlap{\pi\vert_{U_i}}} && \downarrow^{\mathrlap{\pi}}
     \\
     && U_i &\hookrightarrow& X
   }
 $$
+
+Often, but not always, it is required that the numbers $n_i$ are all equal
+to some $n \in \mathbb{N}$, for
+all $i \in I$, hence that the vector space fibers all have the same [[dimension]].
+In this case one says that the vector bundle has _[[rank of a vector bundle|rank]]_ $n$.
+(Over a [[connected topological space]] this is automatic, but the fiber dimension
+may be distinct over distinct [[connected components]].)
+
 
 For $[E_1 \overset{\pi_1}{\to} X]$ and $[E_2 \overset{\phi_2}{\to} X]$ two topological vector bundles over the same base space, then a _[[homomorphism]]_
 between them is
@@ -13697,6 +13703,7 @@ $$
   }
   \,.
 $$
+
 
 =--
 
