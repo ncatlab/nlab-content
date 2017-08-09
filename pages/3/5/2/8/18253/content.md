@@ -25,9 +25,7 @@ Let $X$ be a [[topological space]] such that
 
 1. $X$ is [[regular topological space|regular]];
 
-1. every [[open cover]] of $X$ has a [[refinement]] by a union of a [[countable set]] of 
-
-   [[locally finite sets of subsets|locally finite]] sets of open subsets (not necessarily covering). 
+1. every [[open cover]] of $X$ has a [[refinement]] by a union of a [[countable set]] of [[locally finite sets of subsets|locally finite]] sets of open subsets (not necessarily covering). 
 
 Then $X$ is [[paracompact topological space]].
 
