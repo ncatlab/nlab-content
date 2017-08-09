@@ -641,7 +641,7 @@ is discussed in ([[Representability theorems|Lurie, Representability theorems, s
 
 ### Stable homotopy theory of $G$-equivariant spectra
 
-The symmetric monoidal $(\infty,1)$-category (under smash product) of [[G-spectrum|genuine $G$-spectra]]. See [equivariant stable homotopy theory](equivariant+stable+homotopy+theory#in_terms_of_mackeyfunctors).
+For a finite group, $G$, consider the map $S H^G: (Fin^G)^{op} \to CAlg(Cat_\infty)$, from the opposite of finite [[G-sets]] to the symmetric monoidal $(\infty,1)$-category (under smash product) of [[G-spectrum|genuine G-spectra]]. See [equivariant stable homotopy theory](equivariant+stable+homotopy+theory#in_terms_of_mackeyfunctors).
 
 ## Structures in linear homotopy-type theory
  {#StructuresInLinearHomotopyTypeTheory}
