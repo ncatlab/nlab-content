@@ -140,15 +140,15 @@ such that this is [[local trivialization|locally trivial]] in that there exists
 
 1. an [[open cover]] $\{U_i \subset X\}_{i \in I}$,
 
-1. for each $i \in I$ a [[homeomorphism]]
+1. for each $i \in I$ an $n_i \in \mathbb{N}$ and a [[homeomorphism]]
 
    $$
-     \phi_i \;\colon\; U_i \times k^n \overset{\simeq}{\longrightarrow} \pi^{-1}(U_i) \subset E
+     \phi_i \;\colon\; U_i \times k^{n_i} \overset{\simeq}{\longrightarrow} \pi^{-1}(U_i) \subset E
    $$
 
    from the [[product topological space]] of $U_i$ with the [[real numbers]] (equipped with their [[Euclidean space]] [[metric topology]]) to the restriction of $E$ over $U_i$, such that
 
-   1. $\phi_i$ is a map over $U_i$ in that $\pi \circ \phi_i = pr_1$, hence in that $\phi_i(\{x\} \times k^n) \subset \pi^{-1}(\{x\})$
+   1. $\phi_i$ is a map over $U_i$ in that $\pi \circ \phi_i = pr_1$, hence in that $\phi_i(\{x\} \times k^{n_i}) \subset \pi^{-1}(\{x\})$
 
    1. $\phi_i$ is a [[linear map]] in each fiber in that
 
@@ -156,11 +156,18 @@ such that this is [[local trivialization|locally trivial]] in that there exists
         \underset{x \in U_i}{\forall}
         \left(
           \phi_i(x) \;\colon\;
-             k^n \overset{\text{linear}}{\longrightarrow}
+             k^{n_i} \overset{\text{linear}}{\longrightarrow}
             E_x = \pi^{-1}(\{x\})
         \right)
         \,.
       $$
+
+Often, but not always, it is required that the numbers $n_i$ are all equal
+to some $n \in \mathbb{N}$, for
+all $i \in I$, hence that the vector space fibers all have the same [[dimension]].
+In this case one says that the vector bundle has _[[rank of a vector bundle|rank]]_ $n$.
+(Over a [[connected topological space]] this is automatic, but the fiber dimension
+may be distinct over distinct [[connected components]].)
 
 For $[E_1 \overset{\pi_1}{\to} X]$ and $[E_2 \overset{\phi_2}{\to} X]$ two topological vector bundles over the same base space, then a _[[homomorphism]]_
 between them is
@@ -172,6 +179,8 @@ such that
 1. $f$ respects the [[projections]]: $\pi_2 \circ f = \pi_1$;
 
 1. for each $x \in X$ we have that $f|_x \colon (E_1)_x \to (E_2)_x$ is a [[linear map]].
+
+
 
 =--
 
