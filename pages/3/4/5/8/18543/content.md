@@ -1,3 +1,4 @@
+[[!redirects DmitryShirkov]]
 
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Dmitry_Shirkov)
