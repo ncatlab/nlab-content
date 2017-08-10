@@ -72,6 +72,13 @@ $$
 
 * [[p-convex polarization]]
 
+* [[almost Kähler quantization]]
+
+* [[spin^c quantization]]
+
+* [[metaplectic quantization]]
+
+
 ## References
 
 Discussion of the functoriality of K&#228;hler polarization quantization with respect to the choice of [[metaplectic correction|metaplectically]] corrected K&#228;hler structure is in section 3 of 
