@@ -157,7 +157,9 @@ The [[Hodge theorem]] asserts that for a compact K&#228;hler manifold, the canon
 
 * [[Lefschetz decomposition]]
 
-* [[Kähler polarization]]
+* [[Kähler polarization]], [[almost Kähler geometric quantization]], 
+
+* [[Fedosov deformation quantization]]
 
 * [[Hodge filtration]], [[Frölicher spectral sequence]]
 
