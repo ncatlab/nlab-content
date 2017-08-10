@@ -40,7 +40,9 @@ The original article is
 
 * [[Hassler Whitney]], _Analytic extensions of differentiable functions defined in closed sets_, 1933 ([pdf](http://www.ams.org/journals/tran/1934-036-01/S0002-9947-1934-1501735-3/S0002-9947-1934-1501735-3.pdf))
 
-A survey is in
+See also
 
-* [[eom]], _[Whitney extension theorem](http://www.encyclopediaofmath.org/index.php/Whitney_extension_theorem)_
+* Wikipedia, _[Whitney extension theorem](https://en.wikipedia.org/wiki/Whitney_extension_theorem)_
 
+* [[eom]], _[Whitney extension theorem](https://www.encyclopediaofmath.org/index.php/Whitney_extension_theorem)_
+ 
