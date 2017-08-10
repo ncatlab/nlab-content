@@ -1,3 +1,4 @@
+[[!redirects The Role of locality in perturbation theory]]
 
 The page collects material related to
 
