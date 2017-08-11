@@ -40,6 +40,12 @@ The original article is
 
 * [[Hassler Whitney]], _Analytic extensions of differentiable functions defined in closed sets_, 1933 ([pdf](http://www.ams.org/journals/tran/1934-036-01/S0002-9947-1934-1501735-3/S0002-9947-1934-1501735-3.pdf))
 
+Textbook accounts include
+
+
+* {#Hoermander90} [[Lars Hörmander]], theore 2.3.6 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
+
+
 See also
 
 * Wikipedia, _[Whitney extension theorem](https://en.wikipedia.org/wiki/Whitney_extension_theorem)_
