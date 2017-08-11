@@ -7343,7 +7343,7 @@ and
 
 where he was recorded as saying
 
-> There is no question of talking of an object of type $\alpha$ unless $\alpha$ is a type, so the $\alpha$, the type, must come before $a$, come before the object, in this conceptual order. As $\alpha$ here is the universal general concept under which $a$, the object $a$, falls, the conclusion is that in the conceptual order the general concept, the universale, is prior to the object which falls under it. (Cited in P. Boldini, _Des cat&#233;gories aux types : un itin&#233;raire en math&#233;matiques appliqu&#233;es_, [pdf](http://pboldini.free.fr/Papers/mathmu.pdf)).
+> There is no question of talking of an object of type $\alpha$ unless $\alpha$ is a type, so the $\alpha$, the type, must come before $a$, come before the object, in this conceptual order. As $\alpha$ here is the universal general concept under which $a$, the object $a$, falls, the conclusion is that in the conceptual order the general concept, the universale, is prior to the object which falls under it. (Cited in P. Boldini, _Des cat&#233;gories aux types : un itin&#233;raire en math&#233;matiques appliqu&#233;es_, [pdf](http://pboldini.free.fr/Papers/mathmu.pdf), p. 13-14).
 
 The explicit statement "a type is a concept"  appears for instance (referring both to types of mathematical objects as well as to [[data types]] in [[computer science]]) in:
 
