@@ -1407,7 +1407,7 @@ For recognizing traditional constructions in this formulation, the following bas
 For $\iota \colon H \hookrightarrow G$ an [[subgroup]] inclusion of [[Lie groups]], we have a [[homotopy fiber sequence]]
 
 $$
-  G/H \to \mathbf{B}G \stackrel{\mathbf{B}\iota}{\to} \mathbf{B}H
+  G/H \to \mathbf{B}H \stackrel{\mathbf{B}\iota}{\to} \mathbf{B}G
 $$
 
 with the [[coset space]] on the left.
