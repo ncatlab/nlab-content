@@ -230,7 +230,16 @@ $$
 
 ## References
 
-The Hadamard spectrum conditon condition was first rigorously defined in 
+Textbook discussion of the Hadamard distribution for [[free fields]] in [[Minkowski spacetime]] is in
+
+* {#Scharf95} [[Günter Scharf]],  section 2.3 of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Springer 1995
+
+* [[Günter Scharf]], section 1 of  _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
+
+(there the Hadamard distribution is denoted "$-i D^+_m(x-y)$").
+
+
+The Hadamard spectrum condition was first rigorously defined in 
 
 * {#KayWald91} B. S. Kay, [[Robert Wald]], _Theorems on the uniqueness and thermal properties of stationary, nonsingular, quasifree states on spacetimes  with a bifurcate  Killing  horizon_, Phys.  Rep. 207(2), 49-136 (1991)
 
