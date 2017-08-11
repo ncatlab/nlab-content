@@ -39,6 +39,9 @@ $$
 \langle \rho_{U V}(\phi), f\rangle = \langle \phi, E_{V U} f\rangle,
 \,\,\,\,\,\,\,f\in C^\infty_0(U),\,\phi\in \mathcal{D}'(V).
 $$
+
+That's the [[pullback of distributions]] along $U \subset V$ accordng to [this prop.](PullbackOfDistributionAlongSubmersion).
+
 Now the diagram in the idea section makes sense in the following way:
 for an open embedding $X\hookrightarrow\hat{X}$, $\hat{u}\in\mathcal{D}'(\hat{X})$ __extends__ $u\in \mathcal{D}'(X)$ if $\rho_{X\hat{X}}(\hat{u}) = u$.  
 
@@ -137,7 +140,7 @@ The argument for the characterization of the point extension of distributions go
 
 thereby laying the foundation for [[causal perturbation theory]]. A more concise formulation and proof is due to
 
-* {#BrunettiFredenhagen00} [[Romeo Brunetti]], [[Klaus Fredenhagen]], section 5.1 of _Microlocal analysis and interacting quantum field theories: Renormalization on Physical Backgrounds_, Commun. Math. Phys. 208 : 623-661, 2000 ([math-ph/9903028](https://arxiv.org/abs/math-ph/9903028))
+* {#BrunettiFredenhagen00} [[Romeo Brunetti]], [[Klaus Fredenhagen]], section 5.2 of _Microlocal analysis and interacting quantum field theories: Renormalization on Physical Backgrounds_, Commun. Math. Phys. 208 : 623-661, 2000 ([math-ph/9903028](https://arxiv.org/abs/math-ph/9903028))
 
 The refinement to the point-extension problem for distributions in the solution space of a given system of [[differential equations]] is discussed in
 
