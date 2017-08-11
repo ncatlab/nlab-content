@@ -8,8 +8,14 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Algebraic Qunantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -66,8 +72,7 @@ Rigorous construction as a [[perturbative quantum field theory]] via [[causal pe
 * {#Scharf01} [[Günter Scharf]], _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
 
-
-Discussion of QCD [[perturbation theory]] includes
+Discussion of on-shell methods in QCD [[perturbation theory]] includes
 
 * [[Zvi Bern]], [[Lance Dixon]], [[David Kosower]], _On-Shell Methods in Perturbative QCD_ ([arXiv:0704.2798](http://arxiv.org/abs/0704.2798))
 
