@@ -16,7 +16,7 @@ An important ingredient of this program is the concept of an _atomic orbital $\i
 
 Examples of such $(\infty, 1)$-categories satisfying these two properties include: [[orbit categories]] of finite groups, and more generally, orbit categories of profinite groups (where the stabilizers are required to be open) and locally finite groups (where the stabilizers are required to be finite); any $\infty$-groupoid; the cyclonic orbit 2-category; the 2-category of finite connected groupoids and covering maps; the category of finite sets of cardinality $\leq n$ and surjective maps; the topological categories of finite-dimensional inner product spaces (over $\mathbb{R}$ and $\mathbb{C}$) of dimension $\leq n$ and orthogonal projections.
 
-The program looks to generate results which hold for all orbital analytic $\infty$-categories, for any instance of which, $T$, there are the associated concepts of $T$-space and $T$-spectrum. 
+The program looks to generate results which hold for all atomic orbital $\infty$-categories, for any instance of which, $T$, there are the associated concepts of $T$-space and $T$-spectrum. 
 
 
 ##Papers
