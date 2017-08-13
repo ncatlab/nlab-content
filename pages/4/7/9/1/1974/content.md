@@ -210,7 +210,7 @@ $$[X] = [A] + [B] $$
 
 whenever there is a [[short exact sequence]] 
 
-$$ 0 \to A \to X \to C \to 0 $$
+$$ 0 \to A \to X \to B \to 0 $$
 
 
 ### of a Quillen exact category ###
