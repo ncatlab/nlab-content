@@ -42,11 +42,11 @@ Intuitively, the (graded set of) $0$-cells $\mathcal{O}t_+$ consists of planar t
 
 ## Loday's realization
 
-[[Jean-Louis Loday]] gave a simple formula for realizing the Stasheff polytopes as a convex hull of integer coordinates in Euclidean space [(Loday 2004)](#Loday04).  Let $Y_n$ denote the set of (rooted planar) binary trees with $n+1$ leaves (and hence $n$ internal vertices).  For any binary tree $t \in Y_n$, define a vector $M(t) \in \mathbb{R}^n$ whose $i$th coordinate is the product $a_i b_i$ of the number of leaves to the left of the $i$th internal vertex ($a_i$) by the number of leaves to the right of the $i$th internal vertex ($b_i$).
+[[Jean-Louis Loday]] gave a simple formula for realizing the Stasheff polytopes as a convex hull of integer coordinates in Euclidean space [(Loday 2004)](#Loday04).  Let $Y_n$ denote the set of (rooted planar) binary trees with $n+1$ leaves (and hence $n$ internal vertices).  For any binary tree $t \in Y_n$, enumerate the leaves by left-to-right order, denoted $\ell_1, \ldots, \ell_{n+1}$, and enumerate the internal vertices as $v_1, \ldots, v_n$ where $v_i$ is the closest common ancestor of $\ell_i$ and $\ell_{i+1}$. Define a vector $M(t) \in \mathbb{R}^n$ whose $i$th coordinate is the product $a_i b_i$ of the number $a_i$ of leaves that are left descendants of $v_i$ and the number $b_i$ of leaves that are right descendants of $v_i$.
 
 +-- {: .un_thm}
 ###### Theorem (Loday)
-The convex hull of the points $\{ M(t) \in \mathbb{R}^n \mid t \in Y_n \}$ is a realization of the Stasheff polytope of dimension $n-1$.
+The convex hull of the points $\{ M(t) \in \mathbb{R}^n \mid t \in Y_n \}$ is a realization of the Stasheff polytope of dimension $n-1$, and is included in the affine hyperplane $\{(x_1, \ldots, x_n): x_1 + \ldots + x_n = \binom{n}{2}\}$. 
 =-- 
 
 
