@@ -38,7 +38,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-First of all the [[restriction of distributions|restriction]] of $\delta(0)$ to $\mathbb{R}^n \setminus \{0\}$ vanishes, hence the wave front set vanishes over $\mathbb{R}^n \setminus \{0\}$. 
+First of all the [[singular support of a distribution|singular support]] of $\delta(0)$ is clearly $singsupp(\delta(0)) = \{0\}$, hence the wave front set vanishes over $\mathbb{R}^n \setminus \{0\}$. 
 
 At the origin, any bump function $b$ supported around the origin with $b(0) = 1$ satisfies $b \cdot \delta(0) = \delta(0)$ and hence the wave front set over the origin is the set of covectors along which the [[Fourier transform of distributions|Fourier transform]] $\hat \delta(0)$ does not suitably decay. But this Fourier transform is in fact a [[constant function]] and hence does not decay in any direction.
 
