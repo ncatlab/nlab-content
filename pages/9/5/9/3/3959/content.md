@@ -55,6 +55,8 @@ A crucial property of smooth functions, however, is that they contain also [[bum
 
 ## Related concepts
 
+* [[smooth function with rapidly decreasing derivatives]]
+
 * [[nonlinear functional]], [[linear functional]]
 
 [[!include infinitesimal and local - table]]
