@@ -21,9 +21,9 @@ PIE-limits can also be characterized as the coalgebras for a [[pseudo morphism c
 
 ## References
 
-* Blackwell, [[Max Kelly|Kelly]], and [[John Power|Power]], *Two-dimensional monad theory*, Journal of Pure and Applied Algebra 59 (1989) 1-41
+* Blackwell, [[Max Kelly|Kelly]], and [[John Power|Power]], *Two-dimensional monad theory*, Journal of Pure and Applied Algebra 59 (1989) 1-41. doi:[10.1016/0022-4049(89)90160-6](https://doi.org/10.1016/0022-4049%2889%2990160-6)
 
-* [[John Power|Power]] and Robinson, *A characterization of pie limits*, Math. Proc. Cam. Phil. Soc. (1991) 110, 33
+* [[John Power|Power]] and Robinson, *A characterization of pie limits*, Math. Proc. Cam. Phil. Soc. (1991) 110, 33. doi:[10.1017/S0305004100070092](https://doi.org/10.1017/S0305004100070092)
 
 [[!redirects PIE-limit]]
 [[!redirects PIE limit]]
