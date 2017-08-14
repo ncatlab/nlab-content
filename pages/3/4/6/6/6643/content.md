@@ -50,7 +50,7 @@ The [[split idempotent|splitting of idempotents]] is flexible, but not PIE.  Mor
 
 ## References
 
-* G. J. Bird, G. M. Kelly, A. J. Power, R. H. Street, _Flexible limits for 2-categories_, <a href="http://dx.doi.org/10.1016/0022-4049(89)90065-0">doi</a>
+* G. J. Bird, [[Max Kelly]], [[John Power]], [[Ross Street]], _Flexible limits for 2-categories_, Journal of Pure and Applied Algebra **61** Issue 1 (1989) pp 1-27. doi:[10.1016/0022-4049(89)90065-0](http://dx.doi.org/10.1016/0022-4049(89%2990065-0)
 
 
 [[!redirects flexible limit]]
