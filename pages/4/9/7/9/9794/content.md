@@ -71,7 +71,7 @@ A _[[tempered distribution]]_ on $\mathbb{R}^n$ is a [[continuous linear functio
 ###### Proposition
 **([[Fourier transform]] is linear automorphism of Schwartz space)**
 
-For $n \in \mathbb{N}$ the operation of [[Fourier transform]] $f \maspto \hat f$ is well defined on all smooth functions on $\mathbb{R}^n$ with rapidly decreasing derivatives (def. \ref{RapidlyDecreasingFunction}) and indeed constitutes a [[linear isomorphism]] from the Schwartz space (def. \ref{SchwartzSpaceOfFunctionsWithRapidlyDecreasingDerivatives}) to itself:
+For $n \in \mathbb{N}$ the operation of [[Fourier transform]] $f \mapsto \hat f$ is well defined on all smooth functions on $\mathbb{R}^n$ with rapidly decreasing derivatives (def. \ref{RapidlyDecreasingFunction}) and indeed constitutes a [[linear isomorphism]] from the Schwartz space (def. \ref{SchwartzSpaceOfFunctionsWithRapidlyDecreasingDerivatives}) to itself:
 
 $$
   \widehat {(-)}
