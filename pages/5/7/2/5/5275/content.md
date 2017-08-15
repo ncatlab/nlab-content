@@ -28,10 +28,10 @@ $$
   X \otimes (-) : C \to C
 $$
 
-givn by forming the [[tensor product]] with $C$ has a [[right adjoint|right]] [[adjoint (∞,1)-functor]]
+given by forming the [[tensor product]] with $C$ has a [[right adjoint|right]] [[adjoint (∞,1)-functor]]
 
 $$
-  (X \otimes(-)\dashv [X,-] ) : C \stackrel{\overset{X \otimes (-)}{\leftarrow}}{\underset{[X,-]}{\to}}
+  (X \otimes(-)\dashv [X,-] ) : C \stackrel{\overset{X \otimes (-)}{\leftarrow}}{\underset{[X,-]}{\to}} C
   \,.
 $$
 
