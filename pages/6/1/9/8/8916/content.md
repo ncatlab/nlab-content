@@ -29,3 +29,11 @@ Any two Sylow $p$-subgroups of $G$ are conjugate.
 =--
 
 See [[class equation]] for a detailed discussion of these matters. 
+
+
+##References
+
+For a generalisation of Sylow theory to finite [[∞-groups]], that is, ∞-groups with finitely many non-trivial homotopy groups which are all finite, see
+
+* [[Matan Prasma]], [[Tomer Schlank]], _Sylow theorems for ∞-groups_, ([arXiv:1602.04494](https://arxiv.org/abs/1602.04494))
+
