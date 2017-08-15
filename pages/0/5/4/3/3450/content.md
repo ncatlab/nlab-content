@@ -86,6 +86,8 @@ By
 
   * [[∞-group completion]]
 
+  * [[finite ∞-group]]
+
 
 [[!include k-monoidal table]]
 
