@@ -40,7 +40,9 @@ $$
 
 ## Examples
 
-Every [[(∞,1)-topos]] with its structure of a [[cartesian monoidal (∞,1)-category]] is closed. See there for details.
+* Every [[(∞,1)-topos]] with its structure of a [[cartesian monoidal (∞,1)-category]] is closed. See there for details.
+
+* The [[(∞,1)-category of (∞,1)-modules]] over an [[E-∞ ring]] is closed.
 
 ## Related concepts
 
