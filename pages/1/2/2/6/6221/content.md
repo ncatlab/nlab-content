@@ -1,3 +1,13 @@
-A __linear algebraic group__ $G$ is any algebraic subgroup of $GL(n,k)$ where $k$ is a field.
+A __linear algebraic group__ $G$ is any algebraic subgroup of $GL(n,k)$ where $k$ is a field and $n$ a natural number.
+
+An algebraic group is linear iff it is affine.
+
+An algebraic group scheme is *affine* if the underlying scheme is [[affine scheme|affine]].
+
+The category of affine group schemes is the [[opposite category|opposite]] of the category of commutative [[Hopf algebras]].
 
 * [[Armand Borel]], _Linear algebraic groups_, Springer
+* G. Hochschild, _Algebraic groups and Hopf algebras_, Illinois J. Math. __14__:1 (1970), 52-65 [euclid](https://projecteuclid.org/euclid.ijm/1256053299)
+* Gerhard P. Hochschild, _Basic theory of algebraic groups and Lie algebras_,  Graduate Texts in Mathematics 75, 1981 [doi](10.1007/978-1-4613-8114-3)
+
+    
