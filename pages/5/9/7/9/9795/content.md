@@ -18,7 +18,7 @@ $$
 \mu_B(v) = \inf\{ t \gt 0 : t v \in B\}
 $$
 
-Then $\mu_B$ is a semi-norm on $V_B$ and $V_B/\ker \mu_B$ is a [[normed space]].
+Then $\mu_B$ is a semi-norm on $V_B$ and $E_B \coloneqq V_B/\ker \mu_B$ is a [[normed space]].
 
 
 [[!redirects absolutely convex]]
