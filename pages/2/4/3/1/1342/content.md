@@ -467,7 +467,7 @@ The article
 
 * Sharon Hollander, _A Homotopy Theory for Stacks_ ([arXiv](http://arxiv.org/abs/math.AT/0110247))
 
-spells out how the familiar formulation of the descent condition for ordinary [[stacks]] is equivalent to the corresponding descent condition for simplicial presheaves, duscussed above.
+spells out how the familiar formulation of the descent condition for ordinary [[stacks]] is equivalent to the corresponding descent condition for simplicial presheaves, discussed above.
 
 ## Codescent
 
