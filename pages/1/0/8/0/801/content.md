@@ -32,7 +32,7 @@ The reason this makes sense is that any $(\infty,1)$-topos has an [[internal lan
 
 ### Homotopy $n$-types
 
-A homotopy type that is an _[[n-truncated object in an (∞,1)-category]]_ or equivalently that interprets a [[type]] of _[[homotopy level]]_ $n+2$ is also called a _[[homotopy n-type]]_ or _$n$-type_ for short. For topological spaces / [[∞-groupoids]] this means that all [[homotopy groups]] above degree $n$ a trivial. 
+A homotopy type that is an _[[n-truncated object in an (∞,1)-category]]_ or equivalently that interprets a [[type]] of _[[homotopy level]]_ $n+2$ is also called a _[[homotopy n-type]]_ or _$n$-type_ for short. For topological spaces / [[∞-groupoids]] this means that all [[homotopy groups]] above degree $n$ are trivial. 
 
 
 ## Examples
