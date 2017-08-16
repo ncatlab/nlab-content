@@ -34,7 +34,7 @@ $$
 
 The component-wise definition depend on the chosen model for $(\infty,1)$-categories, as either
 
-* [[simplicially enriched category]]/ Top-category
+* [[simplicially enriched category]]/ [[topologically enriched categories]]
 
 * [[complete Segal space]]
 
