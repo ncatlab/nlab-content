@@ -26,9 +26,9 @@
 
 Consider a [[symplectic manifold]] (representing say a [[phase space]] of a [[physical system]]) of [[dimension]] $2n$  . 
 
-Recall that a [[Lagrangean submanifold]] is a smooth [[submanifold]] of dimension $n$ whose [[tangent spaces]] at all points are [[Lagrangean subspaces]], i.e. maximal [[isotropic subspaces]] with respect to the [[symplectic form]]. Lagrangean submanifold describes the phase of short-wave oscillations. 
+Recall that a [[Lagrangian submanifold]] is a smooth [[submanifold]] of dimension $n$ whose [[tangent spaces]] at all points are [[Lagrangian subspaces]], i.e. maximal [[isotropic subspaces]] with respect to the [[symplectic form]]. Lagrangian submanifold describes the phase of short-wave oscillations. 
 
-The _Maslov index_ is an invariant of a smooth path in a [[Lagrangean submanifold]]. 
+The _Maslov index_ is an invariant of a smooth path in a [[Lagrangian submanifold]]. 
 
 The Maslov index can be reinterpreted as a [[characteristic class]] of theories of [[Lagrangian cobordism|Lagrangian and Legendrean cobordism]]. 
 
