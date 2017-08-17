@@ -5,9 +5,9 @@
 
 ## Idea
 
-A [[Kähler structure]] on a [[symplectic manifold]] induces a [[polarization]],and [[geometric quantization]] with respect to such [[Kähler polarizations]] works particular well and has numerous examples (e.g. theth [[orbit method]] and [[quantization of Chern-Simons theory]]). 
+A [[Kähler structure]] on a [[symplectic manifold]] induces a [[polarization]],and [[geometric quantization]] with respect to such [[Kähler polarizations]] works particular well and has numerous examples (e.g. the [[orbit method]] and [[quantization of Chern-Simons theory]]). 
 
-An _[[almost Kähler structure]]_ does not induce a [[polarization]] in the usual sense, uunless it is actually a K&#228;hle structure. Nevertheless, via [[geometric quantization by push-forward]] there is still a concept of [[geometric quantization]] of almost K&#228;hler structures (in the case of finite-dimensional manifolds), which is "as good" as K&#228;hler quantization ([Borthwick-Uribe 96](#BorthwickUribe96)).
+An _[[almost Kähler structure]]_ does not induce a [[polarization]] in the usual sense, unless it is actually a K&#228;hler structure. Nevertheless, via [[geometric quantization by push-forward]] there is still a concept of [[geometric quantization]] of almost K&#228;hler structures (in the case of finite-dimensional manifolds), which is "as good" as K&#228;hler quantization ([Borthwick-Uribe 96](#BorthwickUribe96)).
 
 Examples of almost-K&#228;hler structures on [[phase spaces]] include the phase space of the [[scalar field]] with reasonable [[interaction]] terms, such as the [[free field]] or the [[phi^4 theory|phi^4 interaction]] ([Collini 16, section 3.2.2](#Collini16)).
 
