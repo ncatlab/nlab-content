@@ -917,7 +917,7 @@ called the [[representation category]] $Rep_{Grpd}(\mathcal{G})$.
 ###### Example
 **([[fundamental groupoid]])**
 
-Let $X$ be a [[topological space]]. For $x,y \in X$ two points, write $P_{x,y}X
+Let $X$ be a [[topological space]]. For $x,y \in X$ two points, write $P_{x,y}X$
 for the set of [[paths]] in $X$ from $x$ to $y$. Consider the [[equivalence relation]]
 "[[homotopy relative boundary]]" on this set and write
 
