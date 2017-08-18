@@ -33,7 +33,7 @@ The existence of a homotopy category, as well as tractable presentations of it t
 
 More generally, to every [[(∞,1)-category]] is associated a homotopy category, whose morphisms are literally the [[homotopy classes]] of the original morphisms. See at _[[homotopy category of an (∞,1)-category]]_ for more on this.
 
-These two concepts of "homotopy category" are compatible: to a [[category with weak equivalences]] is associated, if it exsists, an [[(∞,1)-category]] obtained by universally forcing the [[weak equivalences]] to become actual [[homotopy equivalences]], also called the _[[simplicial localization]]_ $L_W \mathcal{C}$ at the weak equivalences. The homotopy categories of $(\mathcal{C},W)$ and of $L_W \mathcal{C}$ coincide, which justifies the terminology "homotopy category" generally.
+These two concepts of "homotopy category" are compatible: to a [[category with weak equivalences]] is associated, if it exists, an [[(∞,1)-category]] obtained by universally forcing the [[weak equivalences]] to become actual [[homotopy equivalences]], also called the _[[simplicial localization]]_ $L_W \mathcal{C}$ at the weak equivalences. The homotopy categories of $(\mathcal{C},W)$ and of $L_W \mathcal{C}$ coincide, which justifies the terminology "homotopy category" generally.
 
 
 ## Definition
