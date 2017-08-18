@@ -66,7 +66,7 @@ Simplicial complexes are, in some sense, special cases of [[simplicial set|simpl
 
 To get from a simplicial complex to a fairly small simplicial set, you  pick a [[total order]] on the set of vertices. Without an order on the vertices, you cannot speak of the $k^{th}$ face of a simplex, which is an essential feature of a simplicial set! The degeneracies are obtained by repeating an element when listing the vertices of a simplex. If $\sigma = \{v_0,v_1,\ldots, v_n\}$, with $v_0\lt v_1\lt \ldots \lt v_n$ then, for instance, $s_0(\sigma) = \{v_0,v_0, v_1,\ldots, v_n\}$. 
 
-If you do not want to pick an order then you can still form a simplicial set where to each $n$-simplex of the original simplicial complex will correspond to $(n+1)!$ simplices of that associated simplicial set. The result is more unwieldy, but can be useful under some circumstances as it defines a functor from the category of simplicial complexes to that of simplicial sets.  This is very important when discussion group actions on simplicial complexes and how this transfers to the associated simplicial set.
+If you do not want to pick an order then you can still form a simplicial set where to each $n$-simplex of the original simplicial complex will correspond to $(n+1)!$ simplices of that associated simplicial set. The result is more unwieldy, but can be useful under some circumstances as it defines a functor from the category of simplicial complexes to that of simplicial sets.  This is very important when discussing group actions on simplicial complexes and how this transfers to the associated simplicial set.
 
 ##Simplicial complexes as sheaves on a site##
 
