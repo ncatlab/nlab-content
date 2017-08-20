@@ -1,0 +1,5 @@
+I am a mathematician currently working as a postdoc in the mathematical institute of Charles University (Prague, Czech Republic). Here is my [web page](https://sites.google.com/site/anthonybordg/home). My primary fields of research are the [Univalent Foundations](https://en.wikipedia.org/wiki/Univalent_foundations) and [[homotopy type theory]], in particular the semantics of the Univalent Foundations and the formalization of mathematics using the [[unimath]] library.
+
+Below I will try to write down some notes on various topics, ranging from algebraic and arithmetic geometry, number theory to mathematical physics. You are very welcome to make comments, fill in the details, or make any relevant addition.
+
+When at some point a personal note will meet the content of an entry in the nlab, I will try to branch out into the main nLab.  
