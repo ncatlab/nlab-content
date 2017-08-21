@@ -20,7 +20,7 @@
 
 ## Idea 
 
-In [[classical mathematics]], a _countable_ [[ordinal]] is a [[well ordering|well-ordered]] [[set]] whose [[cardinality]] is countable (i.e., either [[finite set|finite]] or [[natural numbers|denumerable]]). 
+In [[classical mathematics]], a _countable_ [[ordinal]] is the [[order type]] of a [[well ordering|well-ordered]] [[set]] whose [[cardinality]] is countable (i.e., either [[finite set|finite]] or [[natural numbers|denumerable]]). 
 
 Countable ordinals play an important role in [[recursion]] theory, [[computability theory]], and in [[proof theory]], where they are used for example to measure the [[consistency]] strength of formal [[theories]] via [[ordinal analysis]]. They also play a role in [[philosophy of mathematics]], for example to discuss what it means for a notion to be "[[predicativity|predicative]]". 
 
