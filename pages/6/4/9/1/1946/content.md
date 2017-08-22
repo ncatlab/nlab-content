@@ -164,7 +164,7 @@ For $F : I \to C$ a functor, i.e. a morphism $F(1) \to F(0)$ in $C$, we find
 * the latching object 
   $latch_1 F = colim_{(s\stackrel{+}{\to}1)} F(s) = \emptyset$;
 
-* the matching object $match_0 F = lim_{(0 \stackrel{-}{\to} 0)} F(s) = {*}$
+* the matching object $match_0 F = lim_{(0 \stackrel{-}{\to}s)} F(s) = {*}$;
 
 * the matching object $match_1 F = lim_{(1 \stackrel{-}{\to}s)} F(s) = F(0)$
 
@@ -206,7 +206,7 @@ that
       & \searrow
       \\
       && F(0) \times_{G(0)} G(1) 
-      &\stackrel{\eta_1}{\to}& G(1)
+      &\to& G(1)
       \\
       && \downarrow && \downarrow
       \\
@@ -216,7 +216,7 @@ that
 
     is a fibration.
 
-  Notice that since fibrations are preserved by pullbacks and under composition with themselves, it follows that also $\eta_1 : F(1) \to F(0)$ is a fibration.
+  Notice that since fibrations are preserved by pullbacks and under composition with themselves, it follows that also $\eta_1 : F(1) \to G(1)$ is a fibration.
 
 * The cofibrant objects in $[I,C]$ are those arrows $F(1) \to F(0)$ in $C$ for which $F(1)$ and $F(0)$ are cofibrant;
 
