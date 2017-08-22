@@ -46,7 +46,6 @@ Working out the meaning of '$Cat$-enriched category', we find that a strict 2-ca
 * a collection $ob K$ of objects $a,b,c,\ldots$, together with
 * a hom-[[category]] $K(a,b)$ for each $a,b$, and
 * a [[functor]] $1_a : \mathbf{1} \to K(a,a)$ and a functor $comp : K(b,c) \times K(a,b) \to K(a,c)$ for each $a,b,c$
-
 satisfying associativity and identity axioms (given [[enriched category|here]]).
 
 As for ordinary ($Set$-enriched) categories, an object $f \in K(a,b)$ is called a _morphism_ or _1-cell_ from $a$ to $b$ and written $f:a\to b$ as usual.  But given $f,g:a\to b$, it is now possible to have non-trivial arrows $\alpha:f\to g \in K(a,b)$, called _2-cells_ from $f$ to $g$ and written as $\alpha : f \Rightarrow g$.  Because the hom-objects $K(a,b)$ are by definition categories, 2-cells carry an associative and unital operation called _vertical composition_.  The identities for this operation, of course, are the identity 2-cells $1_f$ given by the category structure on $K(a,b)$.
