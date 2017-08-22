@@ -8,7 +8,7 @@
 =--
 =--
 
-# Augmented simplicial sets
+# Augmented simplicial set
 * table of contents
 {: toc}
 
@@ -31,7 +31,7 @@ into the constant simplicial object.
 
 ## Definitions
 
-Denote by $\Delta_+$ (also denoted $\Delta_a$) the [[augmented simplex category]], which may be defined as the [[full subcategory]] of [[Cat]] on [[free categories]] over finite and _possibly empty_ linear [[directed graphs]], which are
+Let $\Delta_+$ (also denoted $\Delta_a$) be the [[augmented simplex category]], namely the category of finite ordinals and order-preserving maps between these.   $\Delta_+$ is equivalent to the [[full subcategory]] of [[Cat]] on [[free categories]] over finite and _possibly empty_ linear [[directed graphs]], which are
 
 * $[-1] := \emptyset$;
 
@@ -43,13 +43,12 @@ Denote by $\Delta_+$ (also denoted $\Delta_a$) the [[augmented simplex category]
 
 * and so on.
 
-An **augmented simplicial set** $X$ is a [[presheaf]] on $\Delta_+$ and the [[category]] of augmented simplicial sets is the presheaf category
+An **augmented simplicial set** $X$ is a [[presheaf]] on $\Delta_+$, and the [[category]] of augmented simplicial sets is the presheaf category
 
 $$
   sSet_+ := [\Delta_+^{op}, Set]
   \,.
 $$
-
 
 There is a canonical inclusion $\Delta \hookrightarrow \Delta_+$ of the ordinary [[simplex category]] and that the [[restriction]] of an augmented simplicial set along this inclusion is a simplicial set. This gives a [[forgetful functor]]
 
