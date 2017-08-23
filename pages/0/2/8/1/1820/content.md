@@ -130,7 +130,7 @@ Moreover, every combinatorial model category arises in this way.
 Here the notation is as described at [[cofibrantly generated model category]], so: $inj(I) = rlp(I)$ and $cof(I) = llp(rlp(I))$.
 
 This statement was announced by [[Jeff Smith]] in 1998 at a conference in Barcelona and appararently first appeared in print as ([Beke, theorem 1.7](#Beke)).
-The above formulation follows ([Barwick, prop 2.2](#Barwick)).
+The above formulation follows ([Barwick, prop 1.7](#Barwick)).
  
 
 +-- {: .proof}
