@@ -448,6 +448,7 @@ $$
 chapter 2 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* {#AyalaFrancis} [[David Ayala]] and [[John Francis]], _Fibrations of ∞-categories_, [arxiv](https://arxiv.org/abs/1702.02681)
 
 
 [[!redirects fibration of quasi-categories]]
