@@ -44,7 +44,7 @@ $$
   CartFib(C) \simeq \infty Func(C^{op}, (\infty,1)Cat)
 $$
 
-between [[Cartesian fibration]]s [[fibrations of quasi-categories|of quasi-categories]] and [[(∞,1)-functor]]s to [[(∞,1)Cat]].
+between [[Cartesian fibration]]s [[fibrations of quasi-categories|of quasi-categories]] and [[indexed (∞,1)-categories]], that is, [[(∞,1)-functor]]s to [[(∞,1)Cat]].
 
 
 This correspondence may be [[model category|modeled]] 
