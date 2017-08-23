@@ -7,7 +7,7 @@
 
 This entry relates to a series of papers by [[Clark Barwick]] and colleagues which aim to provide common foundations for several different parts of [[homotopy theory]], among which [[equivariant homotopy theory]], [[parametrized homotopy theory]], [[global homotopy theory]] and [[Goodwillie calculus]].
 
-For $G$ a finite group, various equivariant concepts are defined in terms of the [[orbit category]], such as $G$-$\infty$-category and $G$-spectrum. An important ingredient of this program is the concept of an _atomic orbital $\infty$-category_ which is defined in terms of two important properties of the orbit category of $G$:
+For $G$ a finite group, various equivariant concepts are constructed as [[indexed (∞,1)-category|indexed]] over the [[orbit category]], such as $G$-$\infty$-category and $G$-spectrum. An important ingredient of this program is the concept of an _atomic orbital $\infty$-category_ which is defined in terms of two important properties of the orbit category of $G$:
 {#AtomicOrbital}
 
 1. **Orbital**: Fiber products of representable presheaves are finite disjoint unions of representable presheaves (a restatement of the fact that the category of finite $G$-sets has pullbacks ([Mackey decomposition](double+coset#MackeyFormula)), so a version of the [[Beck-Chevalley condition]]);
