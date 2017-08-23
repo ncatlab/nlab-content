@@ -73,9 +73,9 @@ In the following, let $\mathcal{X} = \langle X,\mu_X\rangle$ and $\mathcal{Y} = 
 
 ## References
 
-* [Mathematics of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/MathMSet.pdf), Apostolos Syropoulos
+* [Mathematics of Multisets](http://asyropoulos.eu/papers/PDF/MathMSet.pdf), Apostolos Syropoulos
 
-* [Categorical Models of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/mset.pdf), Apostolos Syropoulos
+* [Categorical Models of Multisets](http://asyropoulos.eu/papers/PDF/mset.pdf), Apostolos Syropoulos
 
 * [An Overview of the Applications of
 Multisets](http://www.emis.de/journals/NSJOM/Papers/37_2/NSJOM_37_2_073_092.pdf), D. Singh, A. M. Ibrahim, T. Yohanna and J. N. Singh
