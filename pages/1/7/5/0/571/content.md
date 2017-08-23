@@ -87,6 +87,13 @@ We list the following properties without their (easy) proof. The proofs can be f
 +-- {: .num_prop}
 ###### Proposition
 
+If $f \colon x \to y$ and $g \colon y \to z$ are monomorphisms, so is their composite $g f$.  If $g f$ is an monomorphism, so is $g$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
 Every [[equalizer]]
 
 $$
@@ -96,6 +103,8 @@ $$
 is a monomorphism.
 
 =--
+
+The converse of the above proposition fails, and a mononomorphism that is the equalizer of some pair of morphisms is called a [[regular monomorphism]].
 
 
 +-- {: .num_prop}
