@@ -164,6 +164,10 @@ Notice the $Id$-labels, which indicate that the edges and faces labeled by them 
 
 ## Examples
 
+### Directed graphs
+
+A directed graph (with loops and multiple edges allowed, i.e., a [[quiver]]) $E \rightrightarrows V$ is essentially the same thing as a 1-dimensional simplicial set, by taking $S_0 := V$ to be the set of vertices and $S_1 := E \uplus V$ to be the disjoint union of the set of edges with the set of vertices (interpreted as degenerate 1-simplices).
+
 ### Singular simplices (Yoneda embeddings)
 
 Let $[n]$ denote the object of $\Delta$ corresponding to the totally ordered set $\{ 0, 1, 2,\ldots, n\}$. Then the represented presheaf $\Delta(-, [n])$, typically written as $\Delta[n]$ is an example of a simplicial set. In particular we have $\Delta[n]_m=Hom_\Delta([m],[n])$ and hence $\Delta[n]_m$ is a finite set with $\binom{n+m+1}{n}$ elements.
