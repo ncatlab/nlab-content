@@ -159,6 +159,7 @@ $$\leq_{\bigcup_i U_i} = \bigvee_i \leq_{U_i}$$
 Here, $U_i, i \in I$ is a collection of open sets, and $\bigvee$ is pointwise or of relations.
 
 _Remarks_
+
 * Morally, a point in a stream is less or equal to another point if it is less or equal in any open set. The relation $\leq_X$ for the whole space does not hold much information.
 * In the typical example of the clockwise oriented circle, each point is less or equal to every other one in the relation $\leq_{S^1}$; but for a contractible subset $U \subset S^1$, a point $x$ is less or equal than $y$ if $y$ can be reached from $x$ in a monotonous clockwise path.
 * The defining equation of a stream can be thought of as a (co)sheaf condition, and there is indeed a cosheafification result.
