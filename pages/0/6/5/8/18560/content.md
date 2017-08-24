@@ -28,6 +28,10 @@ Since a profunctor is also known as a (bi)module or a distributor or a correspon
 * [cograph of an (∞,1)-profunctor](cograph+of+a+profunctor#in_category_theory_2)
 * [[(∞,1)Prof]]
 
+##References
+
+* [[Emily Riehl]], [[Dominic Verity]], _Kan extensions and the calculus of modules for ∞-categories_, ([arXiv:1507.01460](https://arxiv.org/abs/1507.01460))
+
 [[!redirects (∞,1)-profunctor]]
 [[!redirects (∞,1)-profunctors]]
 [[!redirects (infinity,1)-profunctors]]
