@@ -9,7 +9,7 @@ Microlocalization is a tool invented by [[Mikio Sato]] to study linear [[partial
 The original construction is based on the use of the specialization functor and Fourier-Sato transformation. In this section, we will discuss the construction in a general setting, i.e., over an arbitrary field of characteristic $0$. In the real situation, one usually refines the construction by using conic sheaves (i.e., sheaves invariant with respect to the natural $\mathbb{R}_+$-action) to get information about the oriented direction of propagation of singularities of sheaves of solutions of analytic partial differential systems. The construction we describe does not treat this refined information.
 
 Let $Z\hookrightarrow X$ be a closed subspace of a given analytic manifold, defined by a sheaf of ideals $\mathcal{I}$, with normal bundle denoted $T_Z X$ and conormal bundle denoted $T^*_Z X$. One defines the deformation to the normal bundle as the (analytic space associated to the) relative scheme over $X$ given by
-$$\widetilde{T_Z X}:=Spec_X(\oplus_{i\in \mathcal{I}} z^{-i} \mathcal{I}^i)^{an}$$
+$$\widetilde{T_Z X}:=Spec_X(\oplus_{i\in \mathbb{Z}} z^{-i} \mathcal{I}^i)^{an}$$
 with $\mathcal{I}^i=\mathcal{O}_X$ for $i\leq 0$.
 There is a projection $p:\widetilde{T_Z X}\to X$ and a projection $\tau:\widetilde{T_Z X}\to \mathbb{A}^1$. The fiber at $0$ of $\tau$ is denoted $s:T_Z X\to \widetilde{T_Z X}$, and its fiber at $t\neq 0$ is $X$. The fiber of $p$ on the open subset $(X\backslash Z)$ is $(X\backslash Z)\times \mathbb{A}^1-\{0\}$.
 
