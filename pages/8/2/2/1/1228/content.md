@@ -279,7 +279,7 @@ of morphisms on elements of the presheaf by pullback.
  {#MacLanesCoYonedaLemma}
 
 In a brief uncommented exercise on [MacLane, p. 62](#MacLane)  
-the following statement, which is atrributed to Kan, is called the **co-Yoneda lemma**.
+the following statement, which is attributed to Kan, is called the **co-Yoneda lemma**.
 
 
 For $D$ a [[category]], [[Set]] the [[category]] of [[set]]s, $K : D \to Set$ a [[functor]], let $(* \darr K)$ be the [[comma category]] of elements $x \in K d$, let $\Pi: (* \darr K) \to D$ be the projection $(x \in K d) \mapsto d$ and let for each $a \in D$  the functor $\Delta_a: (* \darr K) \to D$ be the diagonal functor sending everything to the constant value $a$. 
