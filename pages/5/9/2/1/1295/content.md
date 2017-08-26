@@ -29,7 +29,7 @@ First we need to describe a family of objects indexed by an object; it\'s common
 
 In these terms, the cartesian product of the family of sets is the set $S$ of (global) [[section]]s of the bundle.  This set comes equipped with an evaluation map $ev: S \times A \to B$ such that
 $$ S \times A \stackrel{ev}\to B \stackrel{g}\to A $$
-equals the usual product projection from $S \times A$ to $A$; So $ev$ is a morphism in the [[over category]] $Set/A$.  The [[universal property]] of $S$ is that, given any set $T$ and morphism $T \times A \to B$ in $Set/A$, there\'s a unique map $T \to S$ that makes everything commute.
+equals the usual product projection from $S \times A$ to $A$, so $ev$ is a morphism in the [[over category]] $Set/A$.  The [[universal property]] of $S$ is that, given any set $T$ and morphism $T \times A \to B$ in $Set/A$, there\'s a unique map $T \to S$ that makes everything commute.
 
 In other words, $S$ and $ev$ define an [[adjoint functor|adjunction]] from $Set$ to $Set/A$ in which taking the product with $A$ is the left adjoint and applying this universal property is the right adjoint.  This is the basis for the definition below, but we add one further level of generality: we move everything from $Set$ to an arbitrary over category $\mathcal{C}/I$.
 
