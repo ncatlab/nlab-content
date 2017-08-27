@@ -48,7 +48,7 @@ A (left) **module** over $A$ in $(\mathcal{V}, \otimes, I)$ is
 * equipped with a morphism
 
   $$
-    \rho : A \otimes N \to N
+    \lambda : A \otimes N \to N
   $$
 
   in $\mathcal{V}$
@@ -57,11 +57,11 @@ such that this satisfies the axioms of an [[action]], in that the following are 
 
 $$
   \array{
-     A \otimes A \otimes N &\stackrel{id_A \otimes \rho}{\to}& A \otimes N
+     A \otimes A \otimes N &\stackrel{id_A \otimes \lambda}{\to}& A \otimes N
      \\
-     \downarrow^{\mathrlap{\cdot \otimes id_n}} && \downarrow^{\mathrlap{\rho}}
+     \downarrow^{\mathrlap{\cdot \otimes id_n}} && \downarrow^{\mathrlap{\lambda}}
      \\
-     A \otimes N &\stackrel{\rho}{\to}& N
+     A \otimes N &\stackrel{\lambda}{\to}& N
   }
 $$
 
@@ -71,7 +71,7 @@ $$
   \array{   
      I \otimes N &&\stackrel{e \otimes id_N}{\to}&& A \otimes N
      \\
-     & \searrow && \swarrow_{\mathrlap{\rho}}
+     & \searrow && \swarrow_{\mathrlap{\lambda}}
      \\
      && N
   }
@@ -203,7 +203,7 @@ is simpy an _[[action]]_, say a [[group action]].
 For $S \in $ [[Set]] and $G$ a [[discrete group]], a **$G$-[[action]]** of $G$ on $S$ is a [[function]]
 
 $$
-  \rho \colon G \times S \to S
+  \lambda \colon G \times S \to S
 $$ 
 
 such that
@@ -214,13 +214,13 @@ such that
      \array{
         * \times S &&\stackrel{\simeq}{\to}&& S
         \\  
-        & {}_{(e,id_S)}\searrow && \nearrow_{\mathrlap{\rho}}
+        & {}_{(e,id_S)}\searrow && \nearrow_{\mathrlap{\lambda}}
         \\
         && G \times S
      }
    $$
 
-1. the action property holds: for all $g_1, g_2 \in G$ and $s \in S$ we have $\rho(g_1,\rho(g_2, s)) = \rho(g_1 \cdot g_2, s)$.
+1. the action property holds: for all $g_1, g_2 \in G$ and $s \in S$ we have $\lambda(g_1,\lambda(g_2, s)) = \lambda(g_1 \cdot g_2, s)$.
 
 =--
 
@@ -273,7 +273,7 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-For $A \in $ [[Ab]] an [[abelian group]] with underlying set $U(A)$, $G$-[[actions]] $\rho \colon G \times U(A) \to U(A)$ such that for each element $g \in G$ the function $\rho(g,-) \colon U(A) \to U(A)$ is an abelian group homomorphism are equivalently $\mathbb{Z}[G]$-[[module]] structures on $A$.
+For $A \in $ [[Ab]] an [[abelian group]] with underlying set $U(A)$, $G$-[[actions]] $\lambda \colon G \times U(A) \to U(A)$ such that for each element $g \in G$ the function $\lambda(g,-) \colon U(A) \to U(A)$ is an abelian group homomorphism are equivalently $\mathbb{Z}[G]$-[[module]] structures on $A$.
 
 =--
 
