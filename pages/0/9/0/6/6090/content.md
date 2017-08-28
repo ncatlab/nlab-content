@@ -326,7 +326,31 @@ for the subspace of [[horizontal differential forms]] of degree $d$ on the [[jet
 of those which are [[compact support|compactly supported]] with respect to $\Sigma$ and [[polynomial]] with respect to the 
 field variables.
 
+Every $L \in \mathcal{F}_{loc}$ induces a functional
+
+$$
+   \Gamma_\Sigma(E) \longrightarrow \mathbb{R}
+$$
+
+by [[integration of differential forms|integration]] of the [[pullback of differential forms|pullback]]
+of $L$ along the [[jet prolongation]] of a given [[section]]:
+
+$$
+  \phi \mapsto \int_{\Sigma} j^\infty(\phi)^\ast L 
+  \,.
+$$
+
+These functionals happen to be [[microcausal functional|microcausal]], so that there is an inclusion
+
+$$
+  \mathcal{F}_{loc} \hookrightarrow \mathcal{F}_{mc}
+$$
+
+into the space of [[microcausal functionals]]. (See [this example](microcausal+functional#CompactlySupportedPolynomialLocalDensities) at _[[microcausal functional]]_).
+
 =--
+
+
 
 By construction, an element of $\mathcal{F}_{loc}$ may be presented as
 
@@ -338,6 +362,9 @@ where $L_{int}, J_n \in \Omega_{poly}^{d,0}(E)$ are polynomial local densities, 
 as [[interaction]] [[Lagrangian density]] and [[source field]], respectively, and where
 $g_{sw}, j_{sw,n} \in C^\infty_c(\Sigma)$ are [[compact support|compactly supported]] [[smooth functions]]
 (a [[bump functions]]) on spacetime $\Sigma$, to be regarded as [[adiabatic switching]] functions.
+
+
+
 
 Let $\mathcal{W}$ be a [[Wick algebra]] on $\mathbb{R}^{d-1,1}$ 
 on $\Gamma(E)$), equipped with an [[action]]
@@ -374,16 +401,21 @@ such that the following conditions hold for fixed $L_{int}, \{ J_n\}_{n = 1}^N$:
      T^k \;\colon\; C^\infty_c(\Sigma)^{\otimes^{k(N+1)}} \longrightarrow \mathcal{W}[ [ g/\hbar ] ]
    $$
 
-   for $k \in \mathbb{N}$ such that
+   for $k \in \mathbb{N}$, called the $k$-ary [[time-ordered products]], such that:
+   
+   1. The unary time-ordered product is the image of the given local functional in the [[Wick algebra]] $\mathcal{W} = (\mathcal{F}_{mc}, \star)$ under the inclusion $\mathcal{F}_{loc} \hookrightarrow \mathcal{F}_{mc}$ form def. \ref{CompactlySupportedPolynomialLocalDensities}:
+   
+      $T^1(g_{sw}L_{int},j_{sw}J) = :g_{sw}L_{int}: + :j_{sw}J:$
+      
+   1. The S-matrix is the [[exponential]] of the time-ordered products:
 
-   $$
-     S( g_{sw} L_{int} )
-     \;=\;
-     \underoverset{k = 0}{\infty}{\sum} \tfrac{1}{k!}
-     \left(\tfrac{-1}{i \hbar}\right)^k
-     \langle    T^k, (g_{sw}L_{int}, \cdots, g_{sw} L_{int}, j_{sw,1}J_1, \cdots , j_{sw,1} J_1, \cdots)   \rangle
-   $$
-
+      $$ 
+        S( g_{sw} L_{int} )
+        \;=\;
+        \underoverset{k = 0}{\infty}{\sum} \tfrac{1}{k!}
+        \left(\tfrac{-1}{i \hbar}\right)^k
+        \langle    T^k, (g_{sw}L_{int}, \cdots, g_{sw} L_{int}, j_{sw,1}J_1, \cdots , j_{sw,1} J_1, \cdots)   \rangle
+      $$
 
 1. (normalization)
 
