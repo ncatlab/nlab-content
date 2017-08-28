@@ -81,19 +81,21 @@ See the [references below](#ReferencesDivergenceConvergence) for details. The ma
 
 ## Related concepts
 
-* [[causal perturbation theory]]
+* [[perturbative quantum field theory]]
 
-* [[renormalization]]
+  * [[causal perturbation theory]], [[perturbative algebraic quantum field theory]]
 
-* [[Feynman diagram]]
+  * [[renormalization]]
 
-* [[scattering amplitude]], [[string scattering amplitude]]
+  * [[Feynman diagram]]
 
-* [[vacuum]], [[tachyon]]
+  * [[scattering amplitude]], [[string scattering amplitude]]
+
+  * [[vacuum]], [[tachyon]]
 
 * [[non-perturbative quantum field theory]]
 
-* [[non-perturbative effect]]
+  * [[non-perturbative effect]]
 
 * [string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string%20theory%20FAQ#NonConvergenceOfPerturbationSeries)
 
