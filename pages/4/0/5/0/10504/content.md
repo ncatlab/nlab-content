@@ -40,5 +40,10 @@ In infinite-dimensional [[topological vector spaces]], the notion of dual basis 
 
 [[!redirects continuous linear functional]]
 [[!redirects continuous linear functionals]]
+
+[[!redirects linear continuous functional]]
+[[!redirects linear continuous functionals]]
+
+
 [[!redirects bounded linear functional]]
 [[!redirects bounded linear functionals]]
