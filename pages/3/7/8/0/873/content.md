@@ -44,6 +44,10 @@ When the abstract set $A$ is fixed, a subset $B$ of $A$ may be thought of as a _
 
 * [[saturated subset]]
 
+* [[subspace]]
+
+* [[causally closed subset]]
+
 [[!redirects subset]]
 [[!redirects subsets]]
 
