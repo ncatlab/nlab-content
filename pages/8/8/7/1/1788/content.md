@@ -1,67 +1,8 @@
 
-+-- {: .num_defn #SheavesOnCartSp}
-###### Definition
-
-Let $n \in \mathbb{N}$ and $u \in \mathcal{E}'(\mathbb{R}^n)$ a [[compactly supported distribution]] on $n$-dimensional [[Euclidean space]] with [[Fourier transform of distributions|Fourier transform]] denoted by $\hat u$. 
-
-=--
-
-+-- {: .num_example #WaveFrontOfDeltaDistribution}
-###### Example
-**(wave front set of [[delta distribution]])**
-
-For $n \in \mathbb{N}$, consider the [[delta distribution]]
-
-$$
-  \delta(0) \in \mathcal{D}'(\mathbb{R}^n)
-$$
-
-on $n$-dimensional [[Cartesian space]], given by [[evaluation]] at the origin. Its wave front set is
-
-$$
-  WF(\delta(0))
-  = 
-  \left\{
-    (0,k)
-    \;\vert\;
-    k \in \mathbb{R}^n \setminus \{0\}
-  \right\}
-  \subset
-  \mathbb{R}^n \times \mathbb{R}^n
-  \simeq
-  T^\ast \mathbb{R}^n 
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-First of all the [[singular support of a distribution|singular support]] of $\delta(0)$ is clearly $singsupp(\delta(0)) = \{0\}$, hence the wave front set vanishes over $\mathbb{R}^n \setminus \{0\}$. 
-
-At the origin, any bump function $b$ supported around the origin with $b(0) = 1$ satisfies $b \cdot \delta(0) = \delta(0)$ and hence the wave front set over the origin is the set of covectors along which the [[Fourier transform of distributions|Fourier transform]] $\hat \delta(0)$ does not suitably decay. But this Fourier transform is in fact a [[constant function]] and hence does not decay in any direction.
-
-=--
-
-
-+-- {: .num_example #WaveFrontSetOfHeavisideDistribution}
-###### Example
-**(wave front set of [[Heaviside distribution]])**
-
-Let $H \in \mathcal{D}'(\mathbb{R}^1)$ be the [[Heaviside distribution]] given by
-
-$$
-  \langle H, b\rangle \coloneqq \int_0^\infty b(x)\, d x
-  \,.
-$$
-
-Its wave front set is
-
-$$
-  WF(H) = \{(0,k) \vert k \neq 0\}
-  \,.
-$$
-
-=--
-
+   $$
+     \left[
+       i_{\mathcal{O}_1,\mathcal{O}}(Gen_{L_{int}}(\mathcal{O}_1)) 
+       \;,\; 
+       i_{\mathcal{O}_2,\mathcal{O}}(Gen_{L_{int}}(\mathcal{O}_2)) 
+     \right]
+   $$
