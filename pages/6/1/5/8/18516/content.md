@@ -171,6 +171,65 @@ This means that the wave front set consists of the element of the form $(x, (k, 
 
 This shows that microcausality in this case is related to conservation of momentum in th point interaction.
 
+More generally:
+
++-- {: .num_example #CompactlySupportedPolynomialLocalDensities}
+###### Example
+**(compactly supported polynomial local densities are microcausal)**
+
+Write
+
+$$
+  \Omega_{poly}^{h,v}(E)
+$$
+
+for the space of differential forms on the [[jet bundle]] 
+of the [[field bundle]] $E$ which locally are [[polynomials]]
+in the field variables.
+
+$$
+  \mathcal{F}_{loc}
+    \; \subset \;
+  C^\infty_c(\Sigma) \underset{\Omega_{poly}^{0,0}(E)}{\otimes} \Omega_{poly}^{d,0}(E)
+$$
+
+for the subspace of [[horizontal differential forms]] of degree $d$ on the [[jet bundle]] ([[local Lagrangian densities]])
+of those which are [[compact support|compactly supported]] with respect to $\Sigma$ and [[polynomial]] with respect to the 
+field variables.
+
+Every $L \in \mathcal{F}_{loc}$ induces a functional
+
+$$
+   \Gamma_\Sigma(E) \longrightarrow \mathbb{R}
+$$
+
+by [[integration of differential forms|integration]] of the [[pullback of differential forms|pullback]]
+of $L$ along the [[jet prolongation]] of a given [[section]]:
+
+$$
+  \phi \mapsto \int_{\Sigma} j^\infty(\phi)^\ast L 
+  \,.
+$$
+
+These functionals happen to be [[microcausal functional|microcausal]], so that there is an inclusion
+
+$$
+  \mathcal{F}_{loc} \hookrightarrow \mathcal{F}_{mc}
+$$
+
+into the space of microcausal functionals (e.g. [Fredenhagen-Rejzner 12, p. 21](#FredenhagenRejzner12)). In fact this is a [[dense subspace]] inclusion (e.g. [Fredenhagen-Rejzner 12, p. 23](#FredenhagenRejzner12))
+
+=--
+
+
+## References
+
+
+* {#FredenhagenRejzner12} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative algebraic quantum field theory_, In _Mathematical Aspects of Quantum Field Theories_, Springer 2016 ([arXiv:1208.1428](https://arxiv.org/abs/1208.1428))
+
+
+* [[Katarzyna Rejzner]], section 4.4.1 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([pdf](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
+
 
 [[!redirects microcausal functionals]]
 [[!redirects microcausal functionals]]
