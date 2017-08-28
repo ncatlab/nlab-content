@@ -33,7 +33,7 @@ Originally the notion of Hochschild homology was introduced as the
 [[chain homology]] of a certain [[chain complex]] associated to any [[bimodule]] $N$ over some [[algebra]] $A$: its [[bar complex]], written 
  
 $$
-  C_\bullet(N,A) := N \otimes_{A \otimes A^{op}} \mathrm{B}_\bullet A
+  C_\bullet(A,N) := N \otimes_{A \otimes A^{op}} \mathrm{B}_\bullet A
   \,,
 $$
   
@@ -42,25 +42,28 @@ where $N$ and $A$ are regarded as $A \otimes A^{op}$-bimodules in the obvious wa
 Then it was understood that this complex is the result of tensoring the $A$-bimodules $N$ with $A$ over $A \otimes A^{op}$ but using the [[derived functor]] of the [[tensor product]] functor --  the [[Tor functor]] -- in the ambient [[model structure on chain complexes]]:
  
 $$
-   C_\bullet(N,A) = N \otimes^D_{A\otimes A^{op}} A = Tor^\bullet_{A\otimes A^{op}}(N,A)
+   C_\bullet(A,N) = N \otimes^D_{A\otimes A^{op}} A = Tor^\bullet_{A\otimes A^{op}}(N,A)
    \,.
 $$  
  
 Then still a little later, it was understood that this is just the ordinary tensor product in the [[symmetric monoidal (∞,1)-category]] of [[chain complex]]es. If this
 is understood, we can just write again simply 
 $$
-  C_\bullet(N,A) := N \otimes_{A \otimes A^{op}} A
+  C_\bullet(A,N) := N \otimes_{A \otimes A^{op}} A
   \,.
 $$
 
-This, generally, is the definition of the Hochschild homology object
-of any bimodule over an [[monoid in a monoidal (∞,1)-category]]. Of special interest is the case where $N = A$. In this case this object is also called the ("$(\infty,1)$-" or "derived-")**center** of $A$:
+This, generally, is the definition of the Hochschild homology object of any bimodule over an [[monoid in a monoidal (∞,1)-category|monoid]] in a symmetric monoidal $(\infty,1)$-category (symmetry is needed to make sense of $A^{op}$).  Dually, the Hochschild *cohomology* object is 
+
+$$ C^\bullet(A,N) := Hom_{A\otimes A^{op}}(A,N).$$
+
+Of special interest is the case where $N = A$. In this case the Hochschild cohomology object is also called the ("$(\infty,1)$-" or "derived-")**center** of $A$:
   
 $$
-  Z(A) := A \otimes_{A \otimes A^{op}} A
+  Z(A) := Hom_{A\otimes A^{op}}(A,A).
 $$
  
-If here $A = \mathcal{O}(X)$ can be identified with an $\infty$-algebra of functions on an object $X$, and if taking functions commutes with $(\infty,1)$-pullbacks, then 
+Dually, the Hochschild homology object when $N=A$ is called the [[universal trace]] or *shadow*.  In this case, if $A = \mathcal{O}(X)$ can be identified with an $\infty$-algebra of functions on an object $X$, which is therefore commutative so that $A^{op}= A$, and if taking functions commutes with $(\infty,1)$-pullbacks, then 
 
 $$
   Z(\mathcal{O}(X)) \simeq \mathcal{O}(X \times_{X \times X} X)
