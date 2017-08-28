@@ -27,9 +27,9 @@ The approach uses the [[Haag-Kastler axioms]] for [[algebraic quantum field theo
 
 1. demands only [[formal power series]] [[star-algebras]] [[algebra of observables|of observables]] instead of [[C*-algebras]] 
 
-   (this reflects the [[perturbation theory]] in [[Planck's constant]] and the [[coupling constant]]) 
+   (this reflects the [[perturbation theory]] in [[Planck's constant]] and the [[coupling constant]]);
 
-1. evaluates [[local nets of observables]] not just on causal subspaces of [[Minkowski spacetime]] but on all [[globally hyperbolic Lorentzian manifolds]] 
+1. evaluates [[local nets of observables]] not just on causal subspaces of [[Minkowski spacetime]] but on more general [[globally hyperbolic Lorentzian manifolds]] 
 
   (this reflects the extension to general curved spacetime backgrounds). 
 
