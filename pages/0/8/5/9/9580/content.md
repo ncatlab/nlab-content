@@ -28,6 +28,24 @@ Here we consider the first sense. For the second, see at _[[category of modules]
 The collection of module categories over a monoidal category forms a [[2-category]] of module categories.
 
 
+## Definition
+
+Let $\mathcal{M}$ be a monoidal category and $B\mathcal{M}$ its [[delooping]] as a [[bicategory]]. A (left) module category is then simply a 2-functor $B\mathcal{M} \to \mathcal{Cat}$.
+
+Written out, this amounts to:
+
+* A category $\mathcal{C}$
+* A monoidal functor $\mathcal{M} \to \mathcal{End}(\mathcal{C})$
+
+Further expanding this definition, we have the following data:
+
+* A category $\mathcal{C}$
+* A functor $- \triangleright -\colon \mathcal{C} \times \mathcal{M} \to \mathcal{M}$
+* A natural isomorphism $\alpha_{A,B,X}\colon A \triangleright (B \triangleright X) \to (A \otimes B) \triangleright X$ satisfying a pentagon axiom involving the associator of $\mathcal{M}$
+* A natural isomorphism $\lambda_X\colon I \triangleright X \to X$, where $I$ is the monoidal unit of $\mathcal{M}$, compatible with the left unitor of $\mathcal{M}$.
+
+An obvious example is given by a monoidal category, which has an action on itself by left multiplication.
+
 ## Related concepts
 
 * [[bimodule category]]
