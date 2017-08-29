@@ -1,0 +1,20 @@
+
+
+## Related concepts
+
+* [[Bose-Einstein condensate]]
+
+## References
+
+* Wikipedia, _[Superfluidity](https://en.wikipedia.org/wiki/Superfluidity)_
+
+Discussion of [[axion|axionic]] [[dark matter]] superfluids ([[fuzzy dark matter]]) on [[cosmology|cosmic]] scales:
+
+
+* {#BerezhianiKhoury15} [[Lasha Berezhiani]], [[Justin Khoury]], _Theory of Dark Matter Superfluidity_, Phys. Rev. D 92, 103510 (2015) ([arXiv:1507.01019](https://arxiv.org/abs/1507.01019))
+
+* {#Khoury16} [[Justin Khoury]], _Another Path for the Emergence of Modified Galactic Dynamics from Dark Matter Superfluidity_, Phys. Rev. D 93, 103533 (2016) ([arXiv:1602.05961](https://arxiv.org/abs/1602.05961))
+
+[[!redirects superfluids]] 
+
+[[!redirects superfluidity]]
