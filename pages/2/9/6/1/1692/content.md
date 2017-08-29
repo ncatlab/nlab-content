@@ -1,3 +1,10 @@
+# The Chu construction
+
+* table of contents
+{: toc}
+
+## Idea
+
 The Chu construction is a general method for constructing a [[star-autonomous category]] from a [[closed monoidal category|closed symmetric monoidal category]]. It is named after Po-Hsiang Chu, a student of [[Michael Barr]], who gave the construction in his master's thesis at McGill University. It has been extensively developed by [[Vaughan Pratt]] for its potential applications in Theoretical Computer Science.
 
 In outline, given a closed symmetric monoidal category $C$ with [[pullback]]s and an object $d$ of $C$, there is a star-autonomous category $Chu(C, d)$ and a strong symmetric monoidal functor 
