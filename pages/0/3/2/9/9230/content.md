@@ -291,13 +291,27 @@ and the second summand corresponds to the "theta" Feynman diagram of the form
 
 ## References
 
-### General
-
 For general accounts see at 
 
 * [[Alain Connes]], [[Matilde Marcolli]], section 3 of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
 * Wikipedia, _[Feynman diagram](https://en.wikipedia.org/wiki/Feynman_diagram)_
+
+### In causal perturbation theory
+
+Discussion of Feynman diagrams in the rigorous formulation of [[causal perturbation theory]] and [[perturbative AQFT]] originates with
+
+* {#DuetschFredenhagenKellerRejzner14} [[Michael Dütsch]], [[Klaus Fredenhagen]], Kai Keller, [[Katarzyna Rejzner]], _Dimensional Regularization in Position Space, and a Forest Formula for Epstein-Glaser Renormalization_, J. Math. Phy.
+55(12), 122303 (2014) ([arXiv:1311.5424](https://arxiv.org/abs/1311.5424))
+
+see also
+
+* {#HawkinsRejzner16} [[Eli Hawkins]], [[Kasia Rejzner]], section 5.2 of _The Star Product in Interacting Quantum Field Theory_ ([arXiv:1612.09157](https://arxiv.org/abs/1612.09157))
+
+Review is in 
+
+* [[Katarzyna Rejzner]], section 6.5.2 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([pdf](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
+
 
 
 ### In terms of motivic structures
