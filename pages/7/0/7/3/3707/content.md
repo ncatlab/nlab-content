@@ -1,4 +1,4 @@
-* McKay, _Notes on characteristic variety_, [pdf](http://maths.ucc.ie/pages/staff/Mckay/Talks/charvrty.pdf)
+* McKay, _Notes on characteristic variety_, [pdf](http://www.math.utah.edu/~mckay/charvrty.pdf)
 
 * [[J. Bernstein]], [[Valery Lunts|V. Lunts]], _On nonholonomic irreducible D-modules_, Invent. Math. __94__, (1988), no. 2, 223&#8211;243.
 
