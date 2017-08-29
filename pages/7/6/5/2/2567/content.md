@@ -74,7 +74,7 @@ $$
   \,.
 $$
 
-Therefore for $c$ a cofibrant object the condition is that $F(c,-) : D \to E$ preserves cofibrations and acyclic cofibrations. Similarly for $d$ cofibrant the condition is that $F(-,d) : C \to E$ preserves cofibrations and acyclic cofibrations.
+Therefore for $c$ a cofibrant object the condition is that $F(c,-) : D \to E$ preserves cofibrations and acyclic cofibrations. Similarly for $d$ fibrant the condition is that $F(-,d) : C \to E$ preserves cofibrations and acyclic cofibrations.
 
 ## Properties {#Properties}
 
