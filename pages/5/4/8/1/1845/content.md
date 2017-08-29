@@ -27,7 +27,7 @@ K-theory starts with the study of these K-groups and their higher analogues $K_n
 More generally, there is a [[symmetric monoidal (infinity,1)-category|symmetric groupal ∞-groupoid]] $\mathbf{K}(C)$  -- i.e. a connective [[spectrum]] -- in between the [[decategorification]] from $C$ to $K(C)$, for which $K_0(C)$ is the set of [[simplicial homotopy group|connected components]]
 
 $$
-  C \mapsto \mathbf{K}(C) \to \pi_0 \mathbf{K}(C) = K(C)
+  C \mapsto \mathbf{K}(C) \to \pi_0 \mathbf{K}(C) = K_0(C)
   \,.
 $$
 
