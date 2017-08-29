@@ -399,6 +399,7 @@ produces
 
 :  [Monad (category theory)#Monads and adjunctions](http://en.wikipedia.org/wiki/Monad_%28category_theory%29#Monads_and_adjunctions)
 
+[[HowTo#how_to_make_links_to_subsections_of_a_page]] gives strange advice so I edited it.
 
 ## How to make links to subsections of a page ##
 
@@ -408,9 +409,14 @@ When you create a section header, you can add an HTML anchor tag to it with the 
 
      ## Heading {#anchorname}
 
-Then you can make a link to it, from that page or from another one, with the syntax:
+Then you can make a link to it using the syntax:
 
-     [a link](/nlab/show/some+page#anchorname)
+     [[some page#anchorname|link text]]
+
+If the link is to the same page then the page name can be omitted by using the syntax:
+
+     [link text](#anchorname)
+
 
 Of course, you can link to it from outside the nLab by adding `http://ncatlab.org` at the beginning of the link.
 
@@ -422,7 +428,7 @@ The same type of syntax enables one to link to a bibliographic reference, first 
 
 which can then be linked to from within the same page by writing 
 
-     [some link](#xyz). 
+     [link text](#xyz). 
 
 ### Definition/Proposition/Theorem-numbering
 
@@ -445,15 +451,18 @@ When you write a numbered definition or proposition or theorem, you can also sim
      ...
      =--
 
-And then you can link to it in the same way:
+And then you can link to it in the same ways:
 
-     [see this theorem](/nlab/show/some+page#theoremname)
+     [[some page#theoremname|see this theorem]]
+     [see this theorem](#theoremname)
 
 When you link to a theorem on the *same* page, however, it's better to use the syntax:
 
      see Theorem \ref{theoremname}
 
 (which inserts the number, as well as creates a hyperlink) since that will also work properly when the page is exported to LaTeX.
+
+
 
 ### Equation numbering
 
