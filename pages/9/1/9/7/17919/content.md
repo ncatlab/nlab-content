@@ -48,6 +48,7 @@ A $G$-grading is a map $\operatorname{deg}\colon \Lambda_\mathcal{C} \to G$ such
 * The trivial component $\mathcal{C}_1$ of the grading is a full fusion subcategory.
 * A $G$-extension of a fusion category $\mathcal{D}$ is a $G$-graded fusion category $\mathcal{C}$ such that $\mathcal{D} \simeq \mathcal{C}_1$.
 * A grading is faithful if $\mathcal{C}_g \neq 0$ for all $g \in G$. This is a standard assumption.
+* The __adjoint category__ $\mathcal{C}_{\text{ad}}$ is the full fusion subcategory of $\mathcal{C}$ spanned by objects of the form $X \otimes X^*$.
 
 ## Examples
 
@@ -74,7 +75,7 @@ It has the following properties:
 
 * It is faithful.
 * The trivial component is the full fusion subcategory spanned by objects of the form $X \otimes X^*$.
-* Every full fusion subcategory $\mathcal{D} \subset \mathcal{C}$ containing the trivial component is of the form $\mathcal{D} \simeq \bigoplus_{h \in H} \mathcal{C}_h$ for some subgroup $H \subset U_\mathcal{C}$.
+* Every full fusion subcategory $\mathcal{D} \subset \mathcal{C}$ containing the adjoint category $\mathcal{C}_{\text{ad}}$ is of the form $\mathcal{D} \simeq \bigoplus_{h \in H} \mathcal{C}_h$ for some subgroup $H \subset U_\mathcal{C}$.
 * The group of monoidal automorphisms of the identity functor is canonically isomorphic to $\operatorname{Hom}(U_\mathcal{C}, k^\times)$.
 
 ## References ##
