@@ -1,8 +1,5 @@
+of <a href="http://ncatlab.org/nlab/show/Q-category#InfinitesimalThickening">infinitesimal thickening of rings</a> and let
 
-   $$
-     \left[
-       i_{\mathcal{O}_1,\mathcal{O}}(Gen_{L_{int}}(\mathcal{O}_1)) 
-       \;,\; 
-       i_{\mathcal{O}_2,\mathcal{O}}(Gen_{L_{int}}(\mathcal{O}_2)) 
-     \right]
-   $$
+of [[Q-category#InfinitesimalThickening]]infinitesimal thickening of rings and let
+
+of [[Q-category#InfinitesimalThickening|infinitesimal thickening of rings]] and let
