@@ -24,24 +24,28 @@
 
 ## Idea
 
-In a context of [[synthetic differential geometry]]/[[differential cohesion]] a _coreduced object_ is one all whose [[infinitesimal space|infinitesimal]] paths are constant. 
+In a context of [[synthetic differential geometry]]/[[differential cohesion]] a _coreduced object_ is one all whose [[infinitesimal space|infinitesimal]] paths are constant.
+Compare the [[discrete object|discrete objects]], in which all paths are constant, meaning all discrete objects are also coreduced.
 
 ## Definition
 
 A context of [[differential cohesion]] is determined by the existence of an [[adjoint triple]] of  [[modalities]]
 
 $$
-  \Re \dashv &#643;_{inf} \dashv \flat_{inf}
+  \Re \dashv \Im \dashv \&
   \,,
 $$
 
-where $\Re$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] and $&#643;_{inf}$ is an [[idempotent monad]].
+where $\Re$ and $\&$ are [[idempotent monad|idempotent]] [[comonads]] and $\Im$ is an [[idempotent monad]].
 
-A **coreduced object** or **coreduced type** is one in the [[full subcategory]] defined by the middle modality $&#643;_{inf}$. 
+A **coreduced object** or **coreduced type** is one in the [[full subcategory]] defined by the [[infinitesimal shape modality]] $\Im$ or equivalently the [[infinitesimal flat modality]] $\&$.
+
+Note that an object $X$ being coreduced is the same as it being [[formally etale]].
 
 ## Examples
 
 * A coreduced [[scheme]] is also called a [[de Rham space]]. The [[cohomology]] over such is [[crystalline cohomology]], the [[quasicoherent sheaves]] over these define [[D-geometry]].
+* In a [[differential geometry|differential geometric]] setting, [[formally etale morphism|formally etale maps]] are the [[local diffeomorphism|local diffeomorphisms]], and the coreduced objects are those for which the terminal map $X \to 1$ is a local diffeomorphism.
 
 ## Related concepts
 
