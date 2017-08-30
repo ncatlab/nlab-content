@@ -299,12 +299,21 @@ For general accounts see at
 
 ### In causal perturbation theory
 
-Discussion of Feynman diagrams in the rigorous formulation of [[causal perturbation theory]] and [[perturbative AQFT]] originates with
+Discussion of Feynman diagrams in the rigorous formulation of [[causal perturbation theory]] and [[perturbative AQFT]] is due to
 
-* {#DuetschFredenhagenKellerRejzner14} [[Michael Dütsch]], [[Klaus Fredenhagen]], Kai Keller, [[Katarzyna Rejzner]], _Dimensional Regularization in Position Space, and a Forest Formula for Epstein-Glaser Renormalization_, J. Math. Phy.
+* {#Keller10} [[Kai Keller]], chapter IV of _Dimensional Regularization in Position Space and a Forest Formula for Regularized Epstein-Glaser Renormalization_, PhD thesis ([arXxiv:1006.2148](https://arxiv.org/abs/1006.2148))
+
+parts of which also appears as
+
+* {#DuetschFredenhagenKellerRejzner14} [[Michael Dütsch]], [[Klaus Fredenhagen]], [[Kai Keller]], [[Katarzyna Rejzner]], _Dimensional Regularization in Position Space, and a Forest Formula for Epstein-Glaser Renormalization_, J. Math. Phy.
 55(12), 122303 (2014) ([arXiv:1311.5424](https://arxiv.org/abs/1311.5424))
 
-see also
+Relation to Kreimer's [[Hopf algebra]] structure on Feynman diagramsis discussed in
+
+* J.M. Gracia-Bondia, S. Lazzarini, _Connes-Kreimer-Epstein-Glaser Renormalization_ ([arXiv:hep-th/0006106](https://arxiv.org/abs/hep-th/0006106))
+
+
+See also
 
 * {#HawkinsRejzner16} [[Eli Hawkins]], [[Kasia Rejzner]], section 5.2 of _The Star Product in Interacting Quantum Field Theory_ ([arXiv:1612.09157](https://arxiv.org/abs/1612.09157))
 
