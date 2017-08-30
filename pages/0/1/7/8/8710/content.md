@@ -20,7 +20,7 @@
 _Differential homotopy type theory_ is the [[modal type theory]] obtained by adding to [[cohesive homotopy type theory]] an [[adjoint triple]] of [[idempotent monad|idempotent (co)monadic]] [[modalities]]:
 
 $$
-  Red \dashv &#643;_{inf} \dashv \flat_{inf}
+  \Re \dashv \Im \dashv \&
 $$
 
 called
