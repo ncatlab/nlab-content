@@ -116,6 +116,12 @@ This can be viewed as a more elaborate version of the preceding example where $\
 
 =--
 
++-- {: .num_example}
+###### Example
+Let $\mathbf{Bin}$ be the category of sets equipped with a binary relation i.e. objects are pairs $(X,\rho)$ with $X$ a set and $\rho$ a binary relation on $X$ and morphims $(X_1,\rho_1)\to (X_2,\rho_2) are functions $f:X_1\to X_2$ such that $x\rho_1 y$ implies $f(x)\rho_2 f(y)$. This is the same as the category of [[quiver|simple directed graphs]] hence a [[quasitopos]] since it corresponds to the separated objects for the [[double negation|double negation topology]] on the directed graphs.
+Symmetricization $\rho\mapsto\bar{\rho}$ by adding pairs $(y,x)$ (if necessary) when $(x,y)\in\rho$ gives a functor from $\mathbf{Bin}$ to the full subcategory $\mathbf{Sym}$ of sets equipped with a symmetric relation that is adjoint to $\mathbf{Sym}\hookrightarrow\mathbf{Bin}$ on both sides.
+=--
+
 To say that $l\dashv r\dashv i:\mathcal{L}\to\mathcal{C}$ is a quintessential localization amounts to say that $i:\mathcal{L}\to\mathcal{C}$ exhibits $\mathcal{C}$ as a quality type over $\mathcal{L}$ with $r$ providing the right adjoint to $i\simeq l$ (provided $\mathcal{L}$, $\mathcal{C}$ are extensive).
 
 Note that a quintessential subtopos is [[dense subtopos|dense]] since $i$ is up to natural isomorphism a left adjoint whence preserves all colimits and the initial object in particular!
@@ -213,3 +219,5 @@ In a complementary direction, _[[homotopy type theory]]_ provides a synthetic fo
 [^Inf]: A motivation for this terminology from [[synthetic differential geometry|SDG]] can be found in a remark in ([Lawvere 1991](Law91a), pp.9-10).
 
 [^GoC]: From another perspective, one could view an object in a quality type as a set with _germs of cohesion_.
+
+[[!redirects bireflective subcategory]]
