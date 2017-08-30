@@ -399,7 +399,6 @@ produces
 
 :  [Monad (category theory)#Monads and adjunctions](http://en.wikipedia.org/wiki/Monad_%28category_theory%29#Monads_and_adjunctions)
 
-[[HowTo#how_to_make_links_to_subsections_of_a_page]] gives strange advice so I edited it.
 
 ## How to make links to subsections of a page ##
 
