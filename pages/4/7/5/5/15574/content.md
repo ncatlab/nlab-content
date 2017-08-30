@@ -485,7 +485,22 @@ The following is immediate:
 Let $l\dashv r\dashv i:\mathcal{L}\to\mathcal{C}$ be a quintessential localization. Then the corresponding [[adjoint modality]] $l\cdot r\dashv i\cdot r$ coincides up to natural isomorphism and provides its own Aufhebung.  $\qed$
 =--  
 
++-- {: .num_example}
+###### Example
 A simple _example_ of a non-trivial quintessential localization is given by the category $\mathcal{C}$ with objects pairs $(X, e)$ where $X$ is a set and $e=e^2$ an idempotent map $X\to X$. A morphism $f:(X_1, e_1)\to (X_2, e_2)$ is a function $f:X_1\to X_2$ with $f\cdot e_1=e_2\cdot f$. These equivariant morphisms are bound to preserve fixpoints: when $e_1(x)=x$ then $f(e_1(x))=f(x)=e_2(f(x))$. Then the fixpoint set functor $r:\mathcal{C}\to Set$ with $r(X, e)=\{x\in X | e(x)=x \}$ is left as well as right adjoint to $i(X)=(X, id_X)$ since an equivariant morphism $f:(X,e)\to (Y,id_Y)$ is uniquely determined by its restriction to the fixpoints of $e$ and its values are given by $f(e(x))$. The [[adjoint modality]] $i\cdot r\dashv i\cdot r:\mathcal{C}\to\mathcal{C}$ corresponding to $i\dashv r\dashv i:Set\to\mathcal{C}$ maps $(X,e)$ to $(r(X),id_{r(X)})$. The corresponding level sublates $\emptyset\dashv\ast$ as well as itself whereas $id_\mathcal{E}$ only sublates itself.
+=--
+
++-- {: .num_example}
+###### Example
+Let $\mathbf{Bin}$ be the category of sets equipped with a binary relation i.e. objects are pairs $(X,\rho)$ with $X$ a set and $\rho$ a binary relation on $X$ and morphims $(X_1,\rho_1)\to (X_2,\rho_2)$ are functions $f:X_1\to X_2$ such that $x\rho_1 y$ implies $f(x)\rho_2 f(y)$. This is the same as the category of [[quiver|simple directed graphs]] hence a [[quasitopos]] since it corresponds to the separated objects for the [[double negation|double negation topology]] on the directed graphs.
+
+Symmetricization $\rho\mapsto\bar{\rho}$ by adding pairs $(y,x)$ (if necessary) when $(x,y)\in\rho$ gives a functor from $\mathbf{Bin}$ to the full subcategory $\mathbf{Sym}$ of sets equipped with a symmetric relation that is adjoint to $\mathbf{Sym}\hookrightarrow\mathbf{Bin}$ on both sides.
+
+Note that this example can be viewed as a toy-model illustration of the basic dialectical movement of concepts in the logic of essence in WdL which consists in the dynamic unfolding of the (asymmetrically relational) concept of essence into the (symmetrically relational) concept of _Wechselwirkung_ or mutual action where the asymmetry between essence and appearance is finally sublated by the symmetry between action and counter action.
+
+This example (or the Yin Yang example above) also makes the point that the concept of topos is not necessary to state the definition of Aufhebung or identity of opposites but works using the concept of reflective subcategory with an essentiality. Of course, localizations of toposes are well behaved and working in this well known context makes things easier.
+=--
+
 
 For further properties of quintessential localizations see at [[quality type]].
 
