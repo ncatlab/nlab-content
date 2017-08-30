@@ -7,6 +7,8 @@ of [[Q-category#InfinitesimalThickening|infinitesimal thickening of rings]] and 
 
 ## Heading1 {#anchorname}
 
-link to [[#anchorname|heading1]].
+link to [[Sandbox#anchorname|heading1]].
 
 link to [heading1](#anchorname).
+
+link to another page [[HowTo#software]].
