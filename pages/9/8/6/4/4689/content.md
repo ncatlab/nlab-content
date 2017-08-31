@@ -127,11 +127,13 @@ The rigorous construction via [[causal perturbation theory]] of quantum gravity 
 
 * {#Scharf01} [[Günter Scharf]], _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
-The generalization of this to perturbation about [[AQFT on curved spacetimes|curved spacetimes]] is discussed via [[locally covariant perturbative quantum field theory]] in
+The generalization of this to perturbation about [[AQFT on curved spacetimes|curved spacetimes]] is discussed via [[locally covariant perturbative algebraic quantum field theory]] in
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Quantum gravity from the point of view of locally covariant quantum field theory_ ([arXiv:1306.1058](http://arxiv.org/abs/1306.1058))
 
-* [[Romeo Brunetti]], [[Klaus Fredenhagen]], Thomas-Paul Hack, Nicola Pinamonti, [[Katarzyna Rejzner]], _Cosmological perturbation theory and quantum gravity_, Journal of High Energy Physics August 2016:32 ([arXiv:1605.02573](https://arxiv.org/abs/1605.02573))
+and with applications to [[cosmology]] in
+
+* {#BFHPR16} [[Romeo Brunetti]], [[Klaus Fredenhagen]], Thomas-Paul Hack, Nicola Pinamonti, [[Katarzyna Rejzner]], _Cosmological perturbation theory and quantum gravity_, Journal of High Energy Physics August 2016:32 ([arXiv:1605.02573](https://arxiv.org/abs/1605.02573))
 
 
 [[!redirects perturbative quantum gravity]]
