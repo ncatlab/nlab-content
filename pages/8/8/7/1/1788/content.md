@@ -17,6 +17,8 @@ link to another page [[HowTo#software|howto-software]].
 
 ## a proposition and theorem
 
+[[HowTo#definitionpropositiontheoremnumbering|definitionpropositiontheoremnumbering]]
+
 +-- {: .num_prop #propname}
 ###### Proposition
 $A = A$
@@ -30,3 +32,14 @@ $A = A$
 [see this theorem](#theoremname)
 
 see Theorem \ref{theoremname}
+
+## equations
+
+
+[[HowTo#equation_numbering|equation_numbering]]
+
+
+$\[
+ \label{eqx1}
+ \exp(\pi i) + 1 = 0 
+\]$
