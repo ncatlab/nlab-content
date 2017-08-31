@@ -18,7 +18,7 @@
 
 The [[probability amplitude]] for a process of [[scattering]] of [[fundamental particles]] or [[fundamental strings]] off each other. The collection of scattering amplitudes forms the _[[S-matrix]]_. In [[perturbation theory]] this is computed by the [[Feynman diagram]] [[perturbation series]].
 
-Of particular interest are [[vacuum amplitudes]] which are scattering amplitudes "where nothing externel scatters" hence for no incoming and no outgoing states. The 1-loop vacuum amplitudes are [[regularization (physics)|regularized]] [[traces]] over [[Feynman propagators]]/[[Dirac propagators]]. These are the incarnations of [[zeta functions]], [[L-functions]] and [[eta functions]] in [[physics]].
+Of particular interest are [[vacuum amplitudes]] which are scattering amplitudes "where nothing externel scatters" hence for no incoming and no outgoing states. The 1-loop vacuum amplitudes are [[regularization (physics)|regularized]] [[traces]] over [[Feynman propagators]]. These are the incarnations of [[zeta functions]], [[L-functions]] and [[eta functions]] in [[physics]].
 
 ## Related concepts
 
@@ -114,3 +114,6 @@ Motivic structures in scattering amplitudes (see at _[[motives in physics]]_) ar
 See also the references at _[[period]]_.
 
 [[!redirects scattering amplitudes]]
+
+[[!redirects Feynman amplitude]]
+[[!redirects Feynman amplitudes]]
