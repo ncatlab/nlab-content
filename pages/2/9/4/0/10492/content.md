@@ -131,6 +131,7 @@ for the [[classifying (∞,1)-topos]] (over $\mathbf{H}$) for [[pointed objects]
 
 
 ### Reflection and excisive approximation
+ {#ReflectionAndExcisiveApproximation}
 
 
 +-- {: .num_defn #P1}
