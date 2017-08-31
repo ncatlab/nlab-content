@@ -96,5 +96,3 @@ Lecture notes concerning 1-loop vacuum amplitudes for the [[string]] include
 
 [[!redirects Feynman propagators]]
 
-[[!redirects Dirac propagator]]
-[[!redirects Dirac propagators]]
