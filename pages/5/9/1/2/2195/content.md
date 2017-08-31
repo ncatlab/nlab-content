@@ -50,7 +50,7 @@ $$
   \,.
 $$
 
-It is usually defined as a linear automorphism of the [[Schwartz space]] $S(\mathbb{R})\to S(\mathbb{R})$; there is also an appropriate extension to the space of [[distributions]] $S'(\mathbb{R})$ by $\langle \hat{f},\phi\rangle := \langle f, \hat{\phi}\rangle$ where $f\in S'(\mathbb{R})$ and $\phi\in S(\mathbb{R})$, see at _[[Fourier transform of ditributions]]_. The Fourier transform and the inverse Fourier transform are continuous, mutually inverse operators $S'(\mathbb{R})\to S'(\mathbb{R})$. 
+It is usually defined as a linear automorphism of the [[Schwartz space]] $S(\mathbb{R})\to S(\mathbb{R})$; there is also an appropriate extension to the space of [[distributions]] $S'(\mathbb{R})$ by $\langle \hat{f},\phi\rangle := \langle f, \hat{\phi}\rangle$ where $f\in S'(\mathbb{R})$ and $\phi\in S(\mathbb{R})$, see at _[[Fourier transform of distributions]]_. The Fourier transform and the inverse Fourier transform are continuous, mutually inverse operators $S'(\mathbb{R})\to S'(\mathbb{R})$. 
 There is also a unitary operator on $L_2(\mathbb{R},d x)$ which when restricted to $L_2(\mathbb{R},d x)\cap L_1(\mathbb{R},dx)$ agrees with the Fourier transform. 
 
 ### On cyclic groups (the discretized circle)
