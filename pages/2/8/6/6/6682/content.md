@@ -3,6 +3,8 @@
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Joseph_Polchinski)
 
+* _Memoirs_ ([arXiv:1708.09093](https://arxiv.org/abs/1708.09093))
+
 ## books
 
 * _[[String theory]]_, Cambridge Monographs on Mathematical Physics
@@ -10,6 +12,10 @@
 ## related entries
 
 * [[string theory]]
+
+* [[D-brane]]
+
+* [[landscape of string theory vacua]]
 
 [[!redirects Joe Polchinski]]
 
