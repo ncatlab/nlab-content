@@ -202,6 +202,8 @@ see ([Lurie, def. 1.4.2.8 and around p. 823](#HigherAlg))
 
 ## Related concepts
 
+* [[excisive (∞,1)-functor]]
+
 * [[Goodwillie calculus]]
 
   * [[Goodwillie-Taylor tower]]
