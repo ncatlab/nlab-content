@@ -1,5 +1,5 @@
 
-> This entry is about the concept in functional analysis. For the concept in differential geometry and Lie theory see at _[[distribution of subspaces]]_.
+> This entry is about the concept of distributional densities in functional analysis. For the concept in differential geometry and Lie theory see at _[[distribution of subspaces]]_.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -17,10 +17,46 @@
 
 
 ## Idea
+ {#Idea}
 
-In [[functional analysis]], a _distribution_ (or generalized function) is a [[continuous linear functional]] on a [[topological vector space]] of sufficiently well-behaved functions which may be given by [[integration]] against a fixed such function, but may be more general than that. In fact on a manifold, one may more properly distinguish the generalized functions from distributions, in the sense that generalized functions be functionals on densities, and distributions functionals on functions. They extend traditional spaces of Lebesgue integrable functions in such a way to have possibility to define generalized derivatives without exceptions and to treat fundamental solutions of linear partial differential equations as "functions". 
+In [[functional analysis]], the concept of _distributional density_, usually just called _distribution_ for short, is a generalization of the concept of [[density]], hence of something that may be [[integration|integrated]] against a [[bump function]] to produce a [[number]]. If a non-degenerate background [[density]]/[[volume form]] $dvol$ is fixed, then each other density is a [[function]] relative to $dvol$, and hence with such an identification understood distributional densities are _generalized functions_, namely objects that may arise as potentially singular [[limit of a sequence|limits]] of [[sequences]] of [[smooth functions]].  Famous examples of such are the [[delta distributions]] and the [[Heaviside distribution]] which behave like constant functions with an infinitely sharp spike or kink, respectively.
 
-Generalized functions were introduced by S. L. Sobolev in 1935, and independently (under the name _distributions_) by [[Laurent Schwartz]] in the 1940's, who unaware of Sobolev's work developed an extensive theory for them. For an infinite-dimensional variant used in the foundation of Feynman [[path integral]] see also [[Connes distribution]].
+Distributional densities appear notably as [[fundamental solutions]] to linear [[partial differential equations]] (such as for the [[wave equation]]/[[Klein-Gordon equation]], whose fundamental solutions are the [[propagators]] of [[free fields|free quantum fields]]), which is the context in which the concept was originally introduced. The study of their singularity structure (encoded by their [[singular support]] and their [[wave front set]]) is a fundamental tool in [[PDE theory]] (for instance in the [[propagation of singularities theorem]]), known as _[[microlocal analysis]]_. Distributions are also fundamental in the rigorous construction of [[perturbative quantum field theory]], where they appear in the variant as [[operator-valued distributions]].
+
+
+Often distributions are considered by default just on [[open subsets]] of [[Euclidean space]] with its canonical [[volume form]] tacitly understood. But the concept of distributions makes sense more generally on general [[smooth manifolds]] (at least). If these are equipped with the structure of a ([[pseudo-Riemannian manifold|pseudo-]]) [[Riemannian manifold]] then the induced [[volume form]] again identifies distributions with generalized functions. 
+
+More in detail, given an actual [[density]]/[[volume form]] $dvol$ on some [[smooth manifold]] $X$, then the operation of [[integration]] of [[bump functions]] (elements in the [[topological vector space]] $C^\infty_c(X)$) against $dvol$ yields the [[continuous linear functional]]
+
+$$
+  \array{
+    C^\infty_c(X)
+      &\longrightarrow&
+    \mathbb{R}
+    \\
+    b &\mapsto& \int_{x \in X} b(x) dvol(x)
+  }
+  \,.
+$$
+
+However, not every [[continuous linear functional]] on $C^\infty_c(X)$ arises this way. For example for $x_0 \in X$ any point, the simple [[evaluation]] map
+
+$$
+  \delta_{x_0}
+  \;\colon\;
+  b
+  \mapsto
+  b(x_0)
+$$
+
+is also a continuous linear functional on $C^\infty_c(X)$ (the "[[delta distribution]]"). While this is not the integral against any [[bump function]] times a fixed density, it is the [[limit of a sequence|limit]] of integrations against any [[sequence]] of bump functions (times the fixed density) whose [[support]] narrows in on $x_0$. Therefore one defines a distributional density simply to be _any_ [[continuous linear functional]] on $C^\infty_c(X)$. 
+
+Various immediate variants of this definition may be considered. For instance if the space of "test functions" $C^\infty_c(X)$ is generalized to that of all [[smooth functions]], then one speaks of _[[compactly supported distributions]]_, or if it is enlarged just to the [[Schwartz space]] of functions with all [[derivatives]] rapidly decreasing, then one speaks of [[tempered distributions]]. These are important as on them there is a a good concept of [[Fourier transform of distributions]]. 
+
+Most of the usual constructions of [[differential calculus]] generalize from [[smooth functions]] to distributions, notably there is a concept of [[derivative of distributions]] (defined by generalizing the formula for [[integration by parts]]). A key subtlety is that, however, some standard operations on functions become only [[partial function|partially defined]] on distributions, namely only when their singularity structure is compatible. In particular there is a concept of [[pullback of distributions]] and the [[product of distributions]] compatible with that of smooth functions, but defined only whenever the [[wave front sets]] of the distributions involved satisfy suitable compatibility conditions. Taking this subtlety into account for the [[operator-valued distributions]] appearing in [[perturbative quantum field theory]] is what leads to the concept of [[Wick algebras]] ("normal ordering"), see there for more.
+
+Due to their potentially singular nature, there is more freedom in the [[extension of distributions]] than there is for smooth functions. Notably for extensions from the complement of a single point to that point the freedom is in choosing a [[point-supported distribution]], and these are precisely the [[derivative of a distribution|derivatives]] of [[delta-distributions]]. In the construction of [[time-ordered products]] of [[operator-valued distributions]] it is precisely this freedom in choosing point-[[extensions of distributions]] which in [[perturbative quantum field theory]] is known as "[[renormalization]]".
+
 
 ## Definition
  {#Definitions}
@@ -372,6 +408,8 @@ Distributions can be alternatively described using [[nonstandard analysis]], see
 See also _[[hyperfunction]]_, [[ultradistribution]] and references therein.
 
 ### General
+
+Generalized functions were introduced by S. L. Sobolev in 1935, and independently (under the name _distributions_) by [[Laurent Schwartz]] in the 1940's, who unaware of Sobolev's work developed an extensive theory for them. For an infinite-dimensional variant used in the foundation of Feynman [[path integral]] see also [[Connes distribution]].
 
 The original articles include
 
