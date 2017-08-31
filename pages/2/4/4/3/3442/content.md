@@ -209,3 +209,5 @@ See also
 [[!redirects PDE\'s]]
 [[!redirects PDE/'s]]
 [[!redirects PDE's]]
+
+[[!redirects PDE theory]]
