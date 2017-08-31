@@ -13,7 +13,7 @@ generalized this to locally noetherian Grothendieck categories in
 
 The case of (dual of) a general Grothendieck category is found in
 
-* U. Oberst, _Duality theory for Grothendieck categories_, Bull. Amer. Math. Soc. __75__, (1969) 1401--1408; _Duality theory for Grothendieck categories and linearly compact rings_, J. Alg. __15__ (1970) 473--542 [journal](http://www.sciencedirect.com/science/article/pii/0021869370900517)
+* U. Oberst, _Duality theory for Grothendieck categories_, Bull. Amer. Math. Soc. __75__, (1969) 1401--1408 [pdf](https://projecteuclid.org/download/pdf_1/euclid.bams/1183530938); _Duality theory for Grothendieck categories and linearly compact rings_, J. Alg. __15__ (1970) 473--542 [journal](http://www.sciencedirect.com/science/article/pii/0021869370900517) <a href="https://doi.org/10.1016/0021-8693(70)90051-7">doi</a>
 
 A textbook exposition is in the chapter 6, _Duality_ of
 
