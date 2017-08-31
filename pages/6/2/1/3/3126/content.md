@@ -137,6 +137,7 @@ This is the first part of the proof of [[Deformation Theory|DT. prop. 1.1.9]].
 
 ## Properties
 
+
 ### Presentability and limits
  {#PresentabilityAndLimits}
 
@@ -505,6 +506,17 @@ Crucial for the internal interpretation in [[homotopy type theory]] is that the 
 
 =--
 
+#### As the classifying $\infty$-topos for a universal stable object
+
+One may understand $T \mathbf{H}$ as the result of 
+adjoining to $\mathbf{H}$ a universal "stable object"
+
+$$
+  T \mathbf{H}\simeq \mathbf{H}[X_\ast][ (\Sigma \Omega X_\ast^\bullet \to X_\ast^\bullet)^{-1} ]
+  \,.
+$$
+
+For details see at _[[excisive (∞,1)-functor]]_ the section _[Characterization via a generic stable object](excisive+%28%E2%88%9E%2C1%29-functor#CharacterizationViaAGenericStableObject)_.
 
 #### Cohesive tangent $\infty$-topos of a cohesive $\infty$-topos
 
