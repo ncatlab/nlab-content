@@ -39,6 +39,12 @@ reflecting the fact that this is the integral kernel for [[time-ordered products
 
 ## References
 
+What is now called the _Dirac propagator_ was first considered in
+
+* [[Paul Dirac]], _Classical theory of radiating electrons_, Proc. Roy. Soc.  A 167 (1983) 148-169
+
+See
+
 * F. Friedlander, _The Wave Equation on a Curved Space-Time_, Cambridge: Cambridge University Press, 1975
 
 * {#BaerGinouxPfaeffle07} [[Christian Bär]], [[Nicolas Ginoux]], [[Frank Pfäffle]], _Wave Equations on Lorentzian Manifolds and Quantization_, ESI Lectures in Mathematics and Physics, European Mathematical Society Publishing House, ISBN 978-3-03719-037-1, March 2007, Softcover ([arXiv:0806.1036](https://arxiv.org/abs/0806.1036))
