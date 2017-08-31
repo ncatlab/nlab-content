@@ -43,6 +43,10 @@ Historically the theory of general relativity was developed by [[Albert Einstein
 
 * Pietro Menotti, _Lectures on gravitation_ ([arXiv:1703.05155](https://arxiv.org/abs/1703.05155))
 
+For some introductory exposition, see 
+
+* [[John Baez]], [The General Relativity Tutorial](http://math.ucr.edu/home/baez/gr/gr.html)
+
 [[!redirects General Relativity]]
 
 [[!redirects theory of general relativity]]
