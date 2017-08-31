@@ -11,6 +11,6 @@ link to [[Sandbox#anchorname|heading1]].
 
 link to [heading1](#anchorname).
 
-link to another page [[HowTo#software]].
+link to another page [[HowTo#software|howto-software]].
 
 [[differentiable map#DerivativeOfFunctionFromRnToR]]
