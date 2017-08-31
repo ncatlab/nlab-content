@@ -106,7 +106,7 @@ Again, adjunctions and specifically [[dual adjunctions]] ("[[Galois connections]
 * [[Stone duality]]
 * [[syntax - semantics duality]]
 * [[Eckmann-Hilton duality]]
-
+* [[Gabriel-Roos-Oberst duality]]
 * [[Tannaka duality]]
 
 
