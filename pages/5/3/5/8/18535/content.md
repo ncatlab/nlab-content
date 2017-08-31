@@ -17,7 +17,7 @@
 
 ## Idea
 
-The concept of derivative of a [[distribution]] is the generalization of the concept of [[derivative]] of a [[smooth function]] with distributions thought of as [[generalized functions]].
+The concept of _derivative of a [[distribution]]_ is the generalization of the concept of [[derivative]] of a [[smooth function]] with distributions thought of as [[generalized functions]]. The concept is uniquely fixed by enforcing the formula for [[integration by parts]] to extend from [[integrals]] against [[compact support|compactly supported]] [[densities]] to distributions.
 
 ## Definition
 
@@ -79,4 +79,8 @@ and for $k \in \mathbb{N}$ the [[order of a distribution|order]] of $u$.
 * {#Hoermander90} [[Lars Hörmander]], _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
 
+[[!redirects derivatives of a distribution]]
+
+[[!redirects derivative of distributions]]
 [[!redirects derivatives of distributions]]
+
