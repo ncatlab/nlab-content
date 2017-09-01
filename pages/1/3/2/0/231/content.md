@@ -769,6 +769,8 @@ Quick surveys of relevant definitions include also
 
 * [[John Baez]], _[Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf)_
 
+* 1337777.OOO , _Maclane pentagon is some recursive square (word-normalization functor)_ , [https://github.com/1337777/maclane/blob/master/maclaneSolution.svg](https://github.com/1337777/maclane/blob/master/maclaneSolution.svg) , [https://github.com/1337777/dosen/blob/master/coherence2.v](https://github.com/1337777/dosen/blob/master/coherence2.v)
+
 For an elementary introduction to monoidal categories using [[string diagrams]], see:
 
 * [[John Baez]], [[Mike Stay]], _[Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf)_.
