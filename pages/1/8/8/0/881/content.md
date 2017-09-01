@@ -9,7 +9,12 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
+
+## Definition
 
 A (binary) [[relation]] $\sim$ on a set $A$ is __irreflexive__ if no element of $A$ is related to itself:
 $$ \forall (x: A),\; x \nsim x .$$
@@ -23,6 +28,13 @@ In [[constructive mathematics]], if $A$ is equipped with a [[tight apartness]] $
 $$ \forall (x: A),\; \forall (y: A),\; x \sim y \;\Rightarrow x \# y .$$
 Since $\#$ is irrelexive itself, any strongly irrelexive relation must be irrelexive.  The converse holds using [[excluded middle]], through which every set has a unique tight apartness.
 
+## Examples
+
+* A [[digraph]] is a graph in which the edge relation is irreflexive.
+
+## Related concepts
+
+* [[reflexive relation]]
 
 [[!redirects irreflexive relation]]
 [[!redirects irreflexive relations]]
