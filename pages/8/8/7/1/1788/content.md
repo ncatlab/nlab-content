@@ -1,45 +1,4 @@
 
+[[tadpole.png:file]]
 
-
-and for $supp(G) \geq supp(F)$ that
-
-$$
-  \begin{aligned}
-    F \star_{\omega_F} G
-    & =
-    prod \circ \exp\left(
-      \left\langle  \omega_F , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( F \otimes G )
-    \\
-    & =
-    prod \circ \exp\left(
-      \left\langle  \tfrac{i}{2}( \Delta_R + \Delta_A ) + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( F \otimes G )
-    \\
-    & = 
-    prod \circ \exp\left(
-      \left\langle  \tfrac{i}{2} \Delta_A + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( F \otimes G )
-    \\
-    & =
-    prod \circ \exp\left(
-      \left\langle  \tfrac{i}{2} \Delta_R + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( G \otimes F )    
-    \\
-    & =
-    prod \circ \exp\left(
-      \left\langle  \tfrac{i}{2} (\Delta_R - \Delta_A) + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( G \otimes F )
-    \\
-    & = 
-    G \star_{\omega} F
-    \,.
-  \end{aligned}
-$$
-
-
+<img src="https://ncatlab.org/nlab/files/tadpole.png" width="100">
