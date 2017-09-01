@@ -19,25 +19,26 @@ On this whole page, assume that $G$ is a finite group. Denote by $\underline{G}$
 
 There are 2-functors $D : \operatorname{Rep}_G-\mathcal{MOD} \rightleftarrows \underline{G}-\mathcal{MOD} : E$, called equivariantisation and deequivariantisation, respectively.
 They become weak inverses once we restrict to semisimple module categories.
+In a sense, (de)equivariantisation generalises the Morita equivalence between $\operatorname{Rep}_G$ and $\operatorname{Vec}_G$ for finite groups.
 
 ## Detailed definitions
 
 A $\underline{G}$-action (a $\underline{G}$-module category structure) on a $k$-linear semisimple category $\mathcal{C}$ amounts to the following data:
 
-* a linear functor $\rho_g\colon \mathcal{C} \to \mathcal{C} \forall g \in G$
-* an isomorphism $\gamma_{g,h}\colon \rho_g \rho_h \to \rho_{gh}$
-* an isomorphism $1_\mathcal{C} \Rightarrow \gamma_1$
+* a linear functor $^g(-)\colon \mathcal{C} \to \mathcal{C} \forall g \in G$
+* natural isomorphism isomorphism $\gamma^{g,h}\colon {}^g ({}^hX) \to {}^{gh}X$
+* a natural isomorphism $\tilde\gamma_X\colon X \to {}^1 X$
 * satisfying certain obvious coherence axioms
 
 ### Equivariantisation
 
-__Definition__ A _$G$-equivariant object_ in $\mathcal{C}$ is then an object $X$ in $\mathcal{C}$ and a family of isomorphisms $u_g\colon \rho_g X \to X$ compatible with $\rho$ and $\gamma$.
+__Definition__ A _$G$-equivariant object_ in $\mathcal{C}$ is then an object $X$ in $\mathcal{C}$ and a family of isomorphisms $u_g\colon {}^g X \to X$ compatible with the action and $\gamma$.
 
 The $G$-equivariant objects form a category (where morphisms need to commute with the $u_g$), which is denoted by $\mathcal{C}^G$.
 
 The primordial example for this construction is the category of finite dimensional vector spaces $k-\operatorname{Vect}$, which has a trivial $G$-action. Its $G$-equivariant objects $k-\operatorname{Vect}^G$ are simply $\operatorname{Rep}_G$.
 
-Since $k-\operatorname{Vect}$ has a natural action on any $k$-linear category like $\mathcal{C}$, $k-\operatorname{Vect}^G \simeq \operatorname{Rep}_G$ acquires an action on $\mathcal{C}$. This concludes the definition of the 2-functor $E$.
+Since $k-\operatorname{Vect}$ has a natural action on any $k$-linear category like $\mathcal{C}$, $k-\operatorname{Vect}^G \simeq \operatorname{Rep}_G$ acquires an action on $\mathcal{C}^G$. Explicitly, let $(V, \rho\colon G \to \operatorname{End}(V))$ a representation, and $(X, u_g)$ an equivariant object, then the module structure $-\triangleright-\colon \operatorname{Rep}(G) \boxtimes \mathcal{C}^G \to \mathcal{C}^G$ is defined as $(V, \rho) \triangleright (X, u_g) = (V \triangleright X, \rho(g) \otimes u_g)$. Thus we define the 2-functor $E$ as $E\mathcal{C} = \mathcal{C}^G$.
 
 ### Deequivariantisation
 
