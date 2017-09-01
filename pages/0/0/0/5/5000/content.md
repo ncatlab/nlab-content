@@ -1,6 +1,6 @@
 # Books in algebraic geometry
 
-We should limit to books which we can really recommend, either by their special content, approach or pedagogical value. Historically fine but outdated books are in a separate historical section below. The outstanding surveys may be added to the lists if they are not too specialized to minor directions: the subfields may be covered in separate lists. See also MathOverflow discussions [best-algebraic-geometry-text-book-other-than-hartshorne](http://mathoverflow.net/questions/2446/best-algebraic-geometry-text-book-other-than-hartshorne), [life-after-hartshorne-the-book](http://mathoverflow.net/questions/61515/life-after-hartshorne-the-book-not-the-person)
+We should limit to books which we can really recommend, either by their special content, approach or pedagogical value. Historically fine but outdated books are in a separate historical section below. The outstanding surveys may be added to the lists if they are not too specialized to minor directions: the subfields may be covered in separate lists. See also MathOverflow discussions [best-algebraic-geometry-text-book-other-than-hartshorne](http://mathoverflow.net/questions/2446/best-algebraic-geometry-text-book-other-than-hartshorne), [life-after-hartshorne-the-book](http://mathoverflow.net/questions/61515/life-after-hartshorne-the-book-not-the-person). To orient in the basic standard terminology, the wikipedia's [Glossary of algebraic geometry](https://en.wikipedia.org/wiki/Glossary_of_algebraic_geometry) is decent.
 
 * table of contents
 {: toc}
@@ -8,15 +8,16 @@ We should limit to books which we can really recommend, either by their special 
 
 ## Introductory level but excellent textbooks
 
-* Miles Reid, _Undergraduate algebraic geometry_, London Math. Soc. Student Texts __12__
-* Joe Harris, _Introductory algebraic geometry_ (varieties) 
-* Igor Shafarevich, _Basic algebraic geometry_ (varieties and schemes)
-* Shigeru Mukai, _An introduction to invariants and moduli_, Cambridge Studies in Adv. Math. __81__ 
-* William Fulton, _Algebraic curves. An introduction to algebraic geometry_, 3rd ed. 2008 (varieties)
+* [[Miles Reid]], _Undergraduate algebraic geometry_, London Math. Soc. Student Texts __12__
+* [[Joe Harris]], _Introductory algebraic geometry_ (varieties) 
+* [[Igor Shafarevich]], _Basic algebraic geometry_ (varieties and schemes)
+* [[Shigeru Mukai]], _An introduction to invariants and moduli_, Cambridge Studies in Adv. Math. __81__ 
+* [[William Fulton]], _Algebraic curves. An introduction to algebraic geometry_, 3rd ed. 2008 (varieties)
+* [[James Milne|J. S. Milne]], _Algebraic geometry_, 2017 [pdf](http://www.jmilne.org/math/CourseNotes/AG.pdf)
 
 ## Schemes, standard sources
 
-* Robin Hartshorne, _Algebraic geometry_, Springer
+* [[Robin Hartshorne]], _Algebraic geometry_, Springer
 * Qing Liu, _Algebraic geometry and arithmetic curves_, 592 pp. Oxford Univ. Press 2002 
 * D. Eisenbud, J. Harris, _The geometry of schemes_, Springer Grad. Texts in Math.
 * [[David Mumford]], _Red book of varieties and schemes_ (cf. also unfinished sequel notes for the later part of Mumford's course, coauthored with Oda, [ch. 1-6 pdf](http://www.math.upenn.edu/~chai/624_08/mumford-oda_chap1-6.pdf), [ch. 7-8 pdf](http://www.math.upenn.edu/~chai/624_08/mumford-oda_chap7-8.pdf))
