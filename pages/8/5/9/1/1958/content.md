@@ -40,6 +40,9 @@ This fact can also be used as the basis of a definition of the cotangent bundle.
 
 * [[Liouville-Poincaré 1-form]]
 
+* [[wavefront set]], [[microlocal analysis]]
+
+* [[microsupport]], [[microlocal sheaf theory]]
 
 [[!redirects cotangent vector]]
 [[!redirects cotangent vectors]]
