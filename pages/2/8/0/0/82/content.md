@@ -39,6 +39,7 @@ There are always two ways to think of topos theory: as being
 
 * [[higher topos theory]]
 
+* [[microlocal sheaf theory]]
 
 ## References
 
