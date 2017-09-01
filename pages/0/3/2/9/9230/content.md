@@ -291,6 +291,8 @@ and the second summand corresponds to the "theta" Feynman diagram of the form
 
 * [[Schwinger-Dyson equation]]
 
+* [[tadpole]]
+
 ## References
 
 For general accounts see at 
