@@ -1,5 +1,5 @@
 
-__$Quiv$__ or __$DiGraph$__ is the category of [[quivers]] or (as category theorists often call them) [[directed graph]].
+__$Quiv$__ or __$DiGraph$__ is the category of [[quivers]] or (as category theorists often call them) [[directed graphs]].
 
 We can define a quiver to be a functor $G\colon X^{op} \to Set$, where $X^{op}$ is the [[category]] with an [[object]] $0$, an object $1$ and two [[morphisms]] $s, t\colon 1 \to 0$, along with [[identity morphisms]].  This lets us efficiently define $Quiv$ as the category of [[presheaves]] on $X$, where:
 
@@ -7,6 +7,24 @@ We can define a quiver to be a functor $G\colon X^{op} \to Set$, where $X^{op}$ 
 * morphisms are [[natural transformations]] between such functors.
 
 In other words, $Quiv$ is the [[functor category]] from this $X^{op}$ to [[Set]].
+
+## As a topos 
+
+The category $Quiv = Set^{X^{op}}$, being a category of [[presheaves]], is a [[topos]]. The [[representable functors]] $X(-, 0), X(-, 1)$ may be pictured as the "generic figures" (generic vertex, generic edge) that occur in directed graphs: 
+
+$$X(-, 0) = \bullet, \qquad X(-, 1) = (x \stackrel{e}{\to} y)$$ 
+
+and from this picture we easily see that $X(-, 0)$ has two subobjects $\emptyset, \bullet$ whereas $X(-, 1)$ has five: $empty, x, y, (x, y), (x \stackrel{e}{\to} y)$. 
+
+This in turn allows us to calculate the structure of the [[subobject classifier]] $\Omega$: it is the quiver with two vertices and five edges that looks roughly like 
+
+$$\array{
+\emptyset & \underoverset{x}{y}{\rightleftarrows} & \bullet \\ 
+\mathllap{empty} \circlearrowleft & & \circlearrowleft \circlearrowleft \mathrlap{x \stackrel{e}{\to} y} \\ 
+ & & \mathllap{(x, y)}  
+}$$ 
+
+(so there is one loop labeled "empty" at the vertex $\emptyset$, and two loops at the vertex $\bullet$, one labeled $(x, y)$ and the other $x \stackrel{e}{\to} y$). 
 
 
 category: category
