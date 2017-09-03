@@ -88,9 +88,9 @@ Currently, the following stylish themes are available:
  
 Here is how to download a local copy of the $n$Lab: 
 
-First e-mail to our admin [[Adeel Khan]] an SSH public key (follow [these instructions](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key)). 
+First send an e-mail to our admin [[Adeel Khan]] with your SSH public key (follow [these instructions](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key)). 
 
-Once  Adeel grants you access, you will then be able to clone the git repository from `nlab-git@saunders.phil.cmu.edu:nlab-content`.  To save server resources you can download a "bare" version of the repository with
+Once Adeel grants you access, you will then be able to clone the git repository from `nlab-git@saunders.phil.cmu.edu:nlab-content`.  To save server resources you should download a "bare" version of the repository with
 
     git clone --bare nlab-git@saunders.phil.cmu.edu:nlab-content
 
@@ -101,7 +101,7 @@ and then run
     cd nlab-content
     git remote set-url origin nlab-git@saunders.phil.cmu.edu:nlab-content
 
-to get a "normal" repository with a working tree.  Use `git pull` inside the working directory to sync it with the server (you can set up a [https://help.ubuntu.com/community/CronHowto](cronjob) to do this every day, for example).
+to get a "normal" repository with a working tree.  Use `git pull` inside the working directory to sync it with the server (you can set up a [cronjob](https://help.ubuntu.com/community/CronHowto) to do this every day, for example).
 
 # Getting Started #
 
