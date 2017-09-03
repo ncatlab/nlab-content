@@ -769,13 +769,6 @@ Quick surveys of relevant definitions include also
 
 * [[John Baez]], _[Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf)_
 
-* 1337777.OOO , _Maclane pentagon is some recursive square (word-normalization functor)_ , [https://github.com/1337777/maclane/blob/master/maclaneSolution.svg](https://github.com/1337777/maclane/blob/master/maclaneSolution.svg) , [https://github.com/1337777/dosen/blob/master/coherence2.v](https://github.com/1337777/dosen/blob/master/coherence2.v)
-
-+-- {: .query}
-__1337777.OOO__. Stop trying to insert your reference until you have explained and discussed it in
-the [nForum: monoidal-category](https://nforum.ncatlab.org/discussion/4226/monoidal-category). It is annoying to keep having to remove it.
-=--
-
 For an elementary introduction to monoidal categories using [[string diagrams]], see:
 
 * [[John Baez]], [[Mike Stay]], _[Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf)_.
