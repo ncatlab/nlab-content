@@ -25,7 +25,7 @@ A [[category]] is _extensive_ if it has [[coproducts]] that interact well with [
 
 ## Definitions
 
-An __finitely extensive category__ (or __finitary extensive category__) is a category $E$ with finite [[coproduct|coproducts]] such that one, and hence all, of the following equivalent conditions holds:
+A __finitely extensive category__ (or __finitary extensive category__) is a category $E$ with finite [[coproduct|coproducts]] such that one, and hence all, of the following equivalent conditions holds:
 
  1. Pullbacks of finite-coproduct injections along arbitrary morphisms exist and finite coproducts are [[disjoint coproduct|disjoint]] and [[pullback stability|stable under pullback]].
  2. For any objects $a,b$ the coproduct functor $E/a \times E/b \to E/(a+b)$ is an [[equivalence of categories]].
