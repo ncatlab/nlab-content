@@ -1151,6 +1151,17 @@ see ([Collini 16, section 2.2](#Collini16)).
 #### Feynman diagrams and Renormalization
  {#ExistenceAndRenormalization}
 
+We discuss here how [[time-ordered product]], and hence the perturbative S-matrix [above](#PerturbativeSMatrixAndTimeOrderedProducts),
+is uniquely determined away from the locus where interaction points coincide (prop. \ref{TimeOrderedProductAwayFromDiagonal} below).
+Moreover, we discuss how on that locus the time-ordered product is naturally expressed as a sum 
+of [[products of distributions]] of [[Feynman propagators]] that are labeled by [[Feynman diagrams]]: the _[[Feynman perturbation series]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} below).
+
+This means that the full  [[time-ordered product]] is an [[extension of distributions]] of these
+_[[scattering amplitudes]]- to the locus of coinciding vertices. The space of possible such 
+extensions turns out to be finite-dimensional in each order of $g/\hbar, j/\hbar$, parameterizing the choice of
+[[point-supported distributions]] at the interaction points whose [[degree of a distribution|scaling degree]]
+is bounded by the given Feynman propagators.
+
 +-- {: .num_defn #TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport}
 ###### Definition
 
@@ -1338,6 +1349,22 @@ with disjoint support. It is immediate from the above that it is the unique solu
 
 =--
 
++-- {: .num_remark #TimeOrderedProductAssociative}
+###### Remark
+**([[time-ordered product]] is [[associativity|assocativative]])**
+
+Prop. \ref{TimeOrderedProductAwayFromDiagonal} implies in particular that the
+time-ordered product is [[associativity|associative]], in that 
+
+$$
+  T( T(V_1 \cdots V_{k_1}) \cdots T(V_{k_{n-1}+1} \cdots V_{k_n} ) )
+  =
+  T( V_1 \cdots V_{k_1} \cdots V_{k_{n-1}+1} \cdots V_{n_n} )
+  \,.
+$$
+
+=--
+
 It follows that the problem of constructing time-ordered products, and hence (by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}) the
 perturbative S-matrix, consists of finding compatible [[extension of distributions|extension]]
 of the distribution
@@ -1371,8 +1398,9 @@ for set of scalar field Feynman diagrams with that tuple of vertices.
 
 =--
 
-+-- {: .num_prop #}
++-- {: .num_prop #FeynmanPerturbationSeriesAwayFromCoincidingPoints}
 ###### Proposition
+**([[Feynman perturbation series]] away from coinciding vertices)
 
 
 For $v \in \mathbb{N}$ the $v$-fold
@@ -1395,7 +1423,7 @@ $$
   prod 
     \circ
   \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
-  \underset{ r \gt s \in \{1, \cdots, v\} }{\prod}
+  \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
   \tfrac{1}{e_{r,s}!}
   \left\langle
       \hbar \omega_F
@@ -1404,7 +1432,10 @@ $$
       \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
   \right\rangle
   (V_1 \otimes \cdots \otimes V_v)
+  \,,
 $$
+
+where the edge numbers $e_{r,s} = e_{r,s}(\Gamma)$ are those of the given Feynman diagram $\Gamma$.
 
 =--
 
@@ -1413,91 +1444,98 @@ $$
 +-- {: .proof}
 ###### Proof
 
+We proceed by [[induction]] over the number of [[vertices]].
 The statement is trivially true for a single vertex.
-Assume it is true for $v \geq 1$ vertices. This means that
+Assume it is true for $v \geq 1$ vertices. It follows that
 
 $$
   \begin{aligned}
-  T(L_1 \cdots L_v L_{v+1})
-  & =
-  \exp(\langle \hbar \omega_F, \partial_{\phi} \otimes \partial_\phi \rangle) (T(L_1 \cdots L_v) \otimes L_{v+1})
-  \\
-  &= 
-  \exp(\langle \hbar \omega_F, \partial_{\phi} \otimes \partial_\phi \rangle)
-  \left(
-  \;
-  prod
-    \circ
-  \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
-  \underset{ r \gt s \in \{1, \cdots, v\} }{\prod}
-  \left\langle
-      \hbar \omega_F
-      \,,\,
-      \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
-      \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
-  \right\rangle
-  (V_1 \otimes \cdots \otimes V_v)
-  \;\otimes\;
-  V_{v+1}
-  \right)
-  \\
-  & =
-  prod
-    \circ
-  \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
-  \underset{ r \gt s \in \{1, \cdots, v\} }{\prod}
-  \underset{t \in \{ 1, \cdots, v \}}{\sum}
-  \underset{e_{t,{v+1}} \in \mathbb{N}}{\sum}
-    \frac{1}{p!}
-  \tfrac{1}{e_{r,s}!}
-  \left\langle
-      \hbar \omega_F
-      \,,\,
-      \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
-      \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
-  \right\rangle
-  (V_1 \otimes \cdot \otimes  \frac{\delta V_t}{ \delta \phi} \otimes \cdots \otimes V_v)
-  \;\otimes\;
-  \frac{\delta^p V_{v+1}}{\delta \phi^p}
-  \\
-  &=
-  prod
-    \circ
-  \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v+1}}}{\sum}
-  \underset{ r \gt s \in \{1, \cdots, v+1\} }{\prod}
-  \tfrac{1}{e_{r,s}!}
-  \left\langle
-      \hbar \omega_F
-      \,,\,
-      \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
-      \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
-  \right\rangle
-  (V_1 \otimes \cdots \otimes V_{v+1})
+    T(V_1 \cdots V_v V_{v+1})
+    & =
+    T( T(V_1 \cdots V_v) V_{v+1} ) 
+    \\
+    &= 
+    prod \circ
+    \exp\left(
+      \left\langle 
+         \hbar \omega_F, \frac{\delta}{\delta \phi} \otimes \frac{\delta}{\delta \phi} 
+      \right\rangle
+    \right)
+    \left(
+      prod
+        \circ
+      \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
+      \underset{ r \gt s \in \{1, \cdots, v\} }{\prod}
+      \frac{1}{e_{r,s}!}
+      \left\langle
+          \hbar \omega_F
+          \,,\,
+          \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
+          \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
+      \right\rangle
+      (V_1 \otimes \cdots \otimes V_v)
+    \right)
+    \;\otimes\;
+    V_{v+1}
+    \\
+    & =
+    prod
+      \circ
+    \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
+      \underset{ r \gt s \in \{1, \cdots, v\} }{\prod}
+      \tfrac{1}{e_{r,s}!}
+    \left\langle
+        \hbar \omega_F
+        \,,\,
+        \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
+        \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
+    \right\rangle
+    \left(
+    \underset{e_{1,{v+1}}, \cdots e_{v,v+1} \in \mathbb{N}}{\sum}
+      \underset{t \in \{1, \cdots v\}}{\prod}
+      \tfrac{1}{e_{t,v+1} !}
+    \left(
+      \frac{\delta^{e_{1,v+1}} V_1 }{\delta \phi_{1}^{e_{1,v+1}}} 
+        \otimes 
+        \cdots
+        \otimes  
+      \frac{ \delta^{e_{v,v+1}} V_v}{ \delta \phi_{v}^{e_{v,v+1}} }
+    \right)
+    \;\otimes\;
+    \frac{\delta^{e_{1,v+1} + \cdots + e_{v,v+1}} V_{v+1}}{\delta \phi_{v-1}^{e_{1,v+1} + \cdots + e_{v,v+1}}}
+    \right)
+    \\
+    &=
+    prod
+      \circ
+    \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v+1}}}{\sum}
+    \underset{ r \lt s \in \{1, \cdots, v+1\} }{\prod}
+    \tfrac{1}{e_{r,s}!}
+    \left\langle
+        \hbar \omega_F
+        \,,\,
+        \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
+        \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
+    \right\rangle
+    (V_1 \otimes \cdots \otimes V_{v+1})
   \end{aligned}
 $$
 
-Hence the statement follows by [[induction]].
+Here in the first step we use the [[associativity]] of the time-ordered product 
+(remark \ref{TimeOrderedProductAssociative}), in the second step we use the induction assumption,
+in the third we pass the outer functional derivatives through the pointwise product
+using the [[product rule]], and in the fourth step we recognize that this amounts to summing 
+in addition over all possible choices of sets of edges from the first $v$ vertices to the new $v+1$st vertex,
+which yield in total the sum over all diagrams with $v+1$ vertices.
 
 =--
 
 
-
-Now:
-
-1. these graphs are the traditional _[[Feynman graphs]]_,
-
-1. the [[product of distributions|product distributions]] which they encode
-are the corresponding _[[scattering amplitudes]]_ for the scattering process of the shape of that
-graph;
-
-1 .their [[extension of distributions|extension]] to the diagonal is the [[renormalization]] of these amplitudes.
-
-([Keller 10, section IV](#Keller10))
-
+(...)
 
 The [[main theorem of perturbative renormalization]] states that
 
-1. For fixed $L_{int}$ such extensions exist, and in each order there is a finite dimensional space of possible choices.
+1. For fixed $L_{int}$ the extension of these time-ordered products to the diagonal exists, and in each order there is a finite dimensional space of possible choices.
 
 1. There is a way to make these choices coherently, so that
    one obtains the $S$-matrix indeed as a function in $L_{int}$. (a "renormalization scheme").
