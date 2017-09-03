@@ -83,26 +83,25 @@ Currently, the following stylish themes are available:
 * [nLab -- nCafe style](http://userstyles.org/styles/22800) by [[Daniel Schappi|Daniel Schäppi]].  This is based on Bruce Bartlett's theme but changes the overall colour scheme somewhat to something a little more like the n-Cafe.
 
 
-## How to Download a Local Copy of the n-Lab {#download}
+## How to Download a Local Copy of the n-Lab 
+  {#download}
+ 
+Here is how to download a local copy of the $n$Lab: 
 
-The inbuilt export features of the n-Lab have been switched off.  However, it is still possible to get a local version of the n-Lab.  This is a _static_ version in that you cannot edit pages, but is complete and all the links correctly point to the pages on the local version.
+First e-mail to our admin [[Adeel Khan]] an SSH public key (follow [these instructions](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key)). 
 
-One way to do this on a Unix-based system (Linux, MacOSX, BSD), is to use the `wget` command.  The command is:
+Once  Adeel grants you access, you will then be able to clone the git repository from `nlab-git@saunders.phil.cmu.edu:nlab-content`.  To save server resources you can download a "bare" version of the repository with
 
-    wget --output-document=- http://ncatlab.org/nlab/list \
-     | perl -lne '/<div id="allPages"/ and $print = 1;
-                  /<div id="wantedPages"/ and exit;
-                  /href="([^"]*)"/ and $print and print "http://ncatlab.org$1";' \
-     | wget -i - -kKEpN
+    git clone --bare nlab-git@saunders.phil.cmu.edu:nlab-content
 
-If you are fortunate enough to be using the Z-shell then you can type it exactly as written.  Other shells may complain at the line-breaks in the perl code (they should be alright with the backslashed line-breaks).  If so, simply type it all as one line.
+and then run
 
-One huge advantage of this script over the inbuilt export is that if you run it from the same place each time, it will only download _modified_ pages.  That saves a lot of bandwidth and time.
+    git clone nlab-content.git nlab-content
+    rm nlab-content.git
+    cd nlab-content
+    git remote set-url origin nlab-git@saunders.phil.cmu.edu:nlab-content
 
-The following is an explanation of how it works.  The first step is to get a list of all the pages, we do this by downloading the `All pages` page and extracting a list of the pages (via a perl script). We feed this back into wget as a list of pages to get (using the `-i` option). For each downloaded page we ensure that we have the required extras to display it correctly (`-p` option), we convert the links so that they work correctly: links to downloaded files point to downloaded files, links to non-downloaded files point to non-downloaded files (`-k` option), we use time-stamping to only get new pages (`-N`), but because we're doing a little post-processing we need to keep the original files for time-stamping to work correctly (`-K`). Files are also converted to html extension (`-E`) since no matter how they were generated, they are now boring html (well, okay, xhtml+mathml+svg) files.
-
-If anyone can post instructions for other operating systems, or other programs (such as `curl`) then please do so.
-
+to get a "normal" repository with a working tree.  Use `git pull` inside the working directory to sync it with the server (you can set up a [https://help.ubuntu.com/community/CronHowto](cronjob) to do this every day, for example).
 
 # Getting Started #
 
