@@ -41,7 +41,9 @@ and from this picture we easily see that $X(-, 0)$ has two subobjects $\emptyset
 
 ### The subobject classifier
 
-This in turn allows us to calculate the structure of the [[subobject classifier]] $\Omega$: it is the quiver with two vertices and five edges that looks roughly like 
+Knowing the subobjects of the representable functors in turn allows us to calculate the structure of the [[subobject classifier]] $\Omega$ since they correspond to the elements of the value of $\Omega$ at the corresponding objects of $X^{op}$ i.e. the set of vertices of $\Omega$ is $\Omega(0)=\{\emptyset,\bullet\}$ and the set of edges is $\Omega(1)=\{empty, x, y, (x, y), (x \stackrel{e}{\to} y)\}$.
+
+Whence pictured $\Omega$ is the quiver with two vertices and five edges that looks roughly like 
 
 $$\array{
 \emptyset & \underoverset{x}{y}{\rightleftarrows} & \bullet \\ 
