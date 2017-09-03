@@ -1168,8 +1168,9 @@ which have pairwise disjoint spacetime [[support]].
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #TimeOrderedProductAwayFromDiagonal}
 ###### Proposition
+**([[time-ordered product]] away from the diagonal)**
 
 Restricted to $\left(\mathcal{F}_{loc}\langle g,j\rangle\right)^{\otimes^k}_{pds}$
 (def. \ref{TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport})
@@ -1181,9 +1182,9 @@ $$
   \;\coloneqq\;
   prod \circ
   \exp\left(
-   \langle
+   \left\langle
      \omega_F , \frac{\delta}{\delta \phi} \otimes \frac{\delta}{\delta \phi}
-   \rangle
+   \right\rangle
   \right)
   (F \otimes G)
 $$
@@ -1346,6 +1347,140 @@ Moreover, by the nature of the exponential expression, this means in each order 
 extend [[product of distributions|products]] of Feynman propagators labeled by
 [[graphs]] whose [[vertices]] correspond to the polynomial factors in $F$ and $G$ and whose
 [[edges]] indicate over which variables the Feynman propagators are to be multiplied.
+
+
++-- {: .num_defn #ScalarFieldFeynmanDiagram}
+###### Definition
+**([[scalar field]] [[Feynman diagram]])**
+
+A _[[scalar field]] [[Feynman diagram]]_ $\Gamma$ is 
+
+1. a [[natural number]] $v \in \mathcal{N}$ (number of [[vertices]]);
+
+1. a $v$-[[tuple]] of elements $(V_r \in \mathcal{F}_{loc} \langle g,j\rangle)_{r \in \{1, \cdots, v\}}$ (the interaction and external field vertices)
+
+1. for each $a \lt b \in \{1, \cdots, v\}$ a natural number $e_{a,b} \in \mathbb{N}$ ("of [[edges]] from the $a$th to the $b$th vertex").
+
+For a given [[tuple]] $(V_j)$ of interaction vertices we write
+
+$$
+  FDiag_{(V_j)}
+$$
+
+for set of scalar field Feynman diagrams with that tuple of vertices.
+
+=--
+
++-- {: .num_prop #}
+###### Proposition
+
+
+For $v \in \mathbb{N}$ the $v$-fold
+[[time-ordered product]] away from the diagonal, 
+given by prop. \ref{TimeOrderedProductAwayFromDiagonal}
+
+$$
+  T_v
+    \;\colon\;
+  \left(\mathcal{F}_{loc}\langle g,j\rangle\right)_{pds}^{\otimes^{v}}
+    \longrightarrow
+  \mathcal{W}[ [ g/\hbar, j/\hbar] ]
+$$
+
+is equal to
+
+$$
+  T_k(V_1 \cdots V_v)
+    \;=\;
+  prod 
+    \circ
+  \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
+  \underset{ r \gt s \in \{1, \cdots, v\} }{\prod}
+  \tfrac{1}{e_{r,s}!}
+  \left\langle
+      \hbar \omega_F
+      \,,\,
+      \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
+      \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
+  \right\rangle
+  (V_1 \otimes \cdots \otimes V_v)
+$$
+
+=--
+
+([Keller 10, IV.1](#Keller10))
+
++-- {: .proof}
+###### Proof
+
+The statement is trivially true for a single vertex.
+Assume it is true for $v \geq 1$ vertices. This means that
+
+$$
+  \begin{aligned}
+  T(L_1 \cdots L_v L_{v+1})
+  & =
+  \exp(\langle \hbar \omega_F, \partial_{\phi} \otimes \partial_\phi \rangle) (T(L_1 \cdots L_v) \otimes L_{v+1})
+  \\
+  &= 
+  \exp(\langle \hbar \omega_F, \partial_{\phi} \otimes \partial_\phi \rangle)
+  \left(
+  \;
+  prod
+    \circ
+  \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
+  \underset{ r \gt s \in \{1, \cdots, v\} }{\prod}
+  \left\langle
+      \hbar \omega_F
+      \,,\,
+      \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
+      \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
+  \right\rangle
+  (V_1 \otimes \cdots \otimes V_v)
+  \;\otimes\;
+  V_{v+1}
+  \right)
+  \\
+  & =
+  prod
+    \circ
+  \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
+  \underset{ r \gt s \in \{1, \cdots, v\} }{\prod}
+  \underset{t \in \{ 1, \cdots, v \}}{\sum}
+  \underset{e_{t,{v+1}} \in \mathbb{N}}{\sum}
+    \frac{1}{p!}
+  \tfrac{1}{e_{r,s}!}
+  \left\langle
+      \hbar \omega_F
+      \,,\,
+      \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
+      \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
+  \right\rangle
+  (V_1 \otimes \cdot \otimes  \frac{\delta V_t}{ \delta \phi} \otimes \cdots \otimes V_v)
+  \;\otimes\;
+  \frac{\delta^p V_{v+1}}{\delta \phi^p}
+  \\
+  &=
+  prod
+    \circ
+  \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v+1}}}{\sum}
+  \underset{ r \gt s \in \{1, \cdots, v+1\} }{\prod}
+  \tfrac{1}{e_{r,s}!}
+  \left\langle
+      \hbar \omega_F
+      \,,\,
+      \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
+      \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
+  \right\rangle
+  (V_1 \otimes \cdots \otimes V_{v+1})
+  \end{aligned}
+$$
+
+Hence the statement follows by [[induction]].
+
+=--
+
+
 
 Now:
 
