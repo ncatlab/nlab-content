@@ -16,7 +16,10 @@
 
 ## Definition
 
-An **$E_\infty$-algebra** is an [[algebra over an operad]] for an [[E-∞ operad]].
+Given a [[symmetric monoidal (infinity,1)-category]] $C$, an **$E_\infty$-algebra** in $C$ is synonymous with a [[commutative monoid in a symmetric monoidal (infinity,1)-category|commutative monoid]] in $C$.
+Most often $C$ is the [[(infinity,1)-category of chain complexes]] over a [[field]] or [[commutative ring]], or the [[stable (infinity,1)-category]] of [[spectra]] (see also [[E-infinity ring]]).
+
+In terms of [[operads]], an $E_\infty$-algebra is an [[algebra over an operad]] for an [[E-∞ operad]].
 
 
 ## Realizations
