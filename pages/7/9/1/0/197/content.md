@@ -57,11 +57,29 @@ How does $\Omega$ work? Suppose that $X\subseteq Y$ is a subgraph and $\chi_X:Y\
 
 ### (Double) negation
 
-The [[negation]] $\neg:\Omega\to \Omega$ is defined as the characteristic map of $\bot:1\to\Omega$. It interchanges the vertices $\empty$ and $\bullet$ (vertices inside a subgraph are vertices outside its complement and vice versa) and maps $empty$ to $e$ (edges fully outside a subgraph are fully inside its complement) and maps the loops at $\bullet$ to $empty$ (an edge is outside the complement of a subgraph as long as its source and target are in the subgraph) and interchanges $x,y$.
+The [[negation]] $\neg:\Omega\to \Omega$ is defined as the characteristic map of $\bot:1\to\Omega$. It specifies how
+
+$$im(\bot)= \underoverset{{empty}}{\empty}{\circlearrowleft}$$
+
+sits as a subgraph in $\Omega$: 
+
+since $\bullet$ is not $im(\bot)$ whereas $\empty$ is, $\neg$ interchanges the two vertices and, accordingly, all loops at $\bullet$ must go ${empty}$ . Conversely, $empty$ goes to $e$ (since it is fully contained in $im(\bot)$). Now $x$ has its target but not its source in $im(\bot)$ hence it goes to $y$ whereas $y$ has its source but not its target in $im(\bot)$ and therefor goes to $x$.
 
 Complementing a subobject $X\subseteq Y$ i.e. taking the subobject $\neg X$ of $Y$ that is classified by $\neg\circ\chi_X$ amounts to taking all vertices of $Y$ not in $X$ and all the edges in $Y$ between them.
 
-Whence the result $\neg\neg X$ of applying $\neg$ twice to $X\subseteq Y$ amounts to adding to $X$ all the edges of $Y$ that have source and target in $X$. This implies in turn that a subgraph $X\subseteq Y$ is [[dense subobject|dense]] for the [[double negation|double negation topology]] $\neg\circ\neg:\Omega\to\Omega$ , precisely when it contains all vertices of $Y$ since complementing twice will throw into $\neg\neg X$ all the arrows in $Y$ between all the vertices in $X$.
+Whence the result $\neg\neg X$ of applying $\neg$ twice to $X\subseteq Y$ amounts to adding to $X$ all the edges of $Y$ that have source and target in $X$. This implies in turn that a subgraph $X\subseteq Y$ is [[dense subobject|dense]] for the [[double negation|double negation topology]] $\neg\circ\neg:\Omega\to\Omega$ , precisely when it contains all vertices of $Y$ since complementing twice will throw into $\neg\neg X$ all the edges in $Y$ between all the vertices in $X$.
+
+By definition, a quiver $X$ is [[separated object|separated]] for $\neg\neg$ when for every other quiver $Y$ and dense subobject $i:S\hookrightarrow Y$ and any map $f:S\to X$ there is at most one $g:Y\to X$ such that the following diagram commutes:
+
+$$
+\array{
+S & & \\
+i\downarrow &\searrow &f \\
+Y &\underset{g}{\to} & X
+}
+$$
+
+A separated quiver $X$ is a $\neg\neg$-sheaf when such a unique $g$ always exists.
 
 ## Related entries
 
