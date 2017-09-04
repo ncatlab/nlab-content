@@ -777,3 +777,10 @@ An application to [[multisymplectic geometry]] is discussed in
 Discussion in the context of [[supergeometry]] is in 
 
 * [[Gennadi Sardanashvily]], _Grassmann-graded Lagrangian theory of even and odd variables_ ([arXiv:1206.2508](https://arxiv.org/abs/1206.2508))
+
+[[!redirects horizontal derivative]]
+[[!redirects horizontal derivatives]]
+
+[[!redirects vertical derivative]]
+[[!redirects vertical derivatives]]
+
