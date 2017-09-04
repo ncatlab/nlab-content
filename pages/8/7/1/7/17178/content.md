@@ -790,6 +790,14 @@ Under the Quillen equivalence of prop.
 
 ([Lydakis 98, theorem 12.5](#Lydakis98), [MMSS 00, prop. 11.9](#MMSS00))
 
+## Related concepts
+
+* [[symmetric spectrum]], [[orthogonal spectrum]]
+
+* [[spectrum object]]
+
+* [[cospectrum]]
+
 ## References
 
 * {#Kan63} [[Daniel Kan]], _Semisimplicial spectra_, Illinois J. Math. Volume 7, Issue 3 (1963), 463-478. ([Euclid](http://projecteuclid.org/euclid.ijm/1255644953))
