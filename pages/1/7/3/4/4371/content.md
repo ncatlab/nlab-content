@@ -75,6 +75,9 @@ This is called the **double negation topology**.
 The topology axioms can be formulated in purely equational form, i.e., as equations between operations of the form $\Omega^n \to \Omega$. By the Yoneda lemma, it suffices to verify the corresponding equations between transformations $Hom(-, \Omega)^n \to Hom(-, \Omega)$, which boils the problem down to checking the equations for ordinary Heyting algebras in $Set$. For ordinary Heyting algebras, proofs may be found [here](Heyting+algebra#ToBooleanAlgebras).
 =--
 
+### Example
+
+* In case of $Set^{\rightrightarrows}$, the presheaf topos of directed graphs, the action of $\neg\neg$ as a [[closure operator]] on subgraphs $X\subseteq Y$ amounts to adding to the edge set of $X$ all the edges in $Y$ between vertices that are in $X$. The patient reader will find further details on the $\neg\neg$-topology for this elementary example spelled out at length at [[Quiv]].
 
 ### Properties
   {#Properties}
