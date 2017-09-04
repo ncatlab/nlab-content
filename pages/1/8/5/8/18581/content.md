@@ -16,7 +16,7 @@
 
 ## Idea
 
-The concept of a _cospectrum_ is the [[formal dual]] to the concept of a ([[sequential spectrum|sequential]]) [[spectrum object]]. Where a [[sequential spectrum]] is a [[sequence]] of [[objects]] $(X_n)$ equipped with a sequence of [[morphisms]] of the form $\Sigma X_n \to \Sigma X_{n+1}$ (for $\Sigma$ a [[reduced suspension]] operation), a _cospectrum_ is such a sequence of objects, but with the direction of the structure maps reversed: $X_{n+1} \to \Sigma X_{n}$.
+The concept of a _cospectrum_ is the [[formal dual]] to the concept of a ([[sequential spectrum|sequential]]) [[spectrum object]]. Where a [[sequential spectrum]] is a [[sequence]] of [[objects]] $(X_n)$ equipped with a sequence of [[morphisms]] of the form $\Sigma X_n \to X_{n+1}$ (for $\Sigma$ a [[reduced suspension]] operation), a _cospectrum_ is such a sequence of objects, but with the direction of the structure maps reversed: $X_{n+1} \to \Sigma X_{n}$.
 
 
 
