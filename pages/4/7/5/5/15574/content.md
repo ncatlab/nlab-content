@@ -492,7 +492,8 @@ A simple _example_ of a non-trivial quintessential localization is given by the 
 
 +-- {: .num_example}
 ###### Example
-Let $\mathbf{Bin}$ be the category of sets equipped with a binary relation i.e. objects are pairs $(X,\rho)$ with $X$ a set and $\rho$ a binary relation on $X$ and morphims $(X_1,\rho_1)\to (X_2,\rho_2)$ are functions $f:X_1\to X_2$ such that $x\rho_1 y$ implies $f(x)\rho_2 f(y)$. This is the same as the category of [[quiver|simple directed graphs]] hence a [[quasitopos]] since it corresponds to the separated objects for the [[double negation|double negation topology]] on the directed graphs.
+Let $\mathbf{Bin}$ be the category of sets equipped with a binary relation i.e. objects are pairs $(X,\rho)$ with $X$ a set and $\rho$ a binary relation on $X$ and morphims $(X_1,\rho_1)\to (X_2,\rho_2)$ are functions $f:X_1\to X_2$ such that $x\rho_1 y$ implies $f(x)\rho_2 f(y)$. This is the same as the category of [[quiver|simple directed graphs]] hence a [[quasitopos]] since it corresponds to the separated objects for the [[double negation|double negation topology]] on the directed graphs. 
+$(\empty,\empty)$ and $(\{\ast\},\{\ast,\ast\})$ are the initial resp. the terminal object in $\mathbf{Bin}$.
 
 Symmetricization $\rho\mapsto\bar{\rho}$ by adding pairs $(y,x)$ (if necessary) when $(x,y)\in\rho$ gives a functor from $\mathbf{Bin}$ to the full subcategory $\mathbf{Sym}$ of sets equipped with a _symmetric_ relation that is adjoint to the inclusion on both sides:
 
@@ -500,9 +501,9 @@ $$
 i\dashv s\dashv i:\mathbf{Sym}\hookrightarrow\mathbf{Bin}\quad .
 $$
 
-$(\empty,\empty)$ and $(\{\ast\},\{\ast,\ast\})$ are the initial resp. the terminal object in $\mathbf{Bin}$. The inclusion 
+The inclusion 
 
-$$e\vdash u\vdash t: Set\hookrightarrow\mathbf{Bin}$$
+$$e\dashv u\dashv t: Set\hookrightarrow\mathbf{Bin}$$
 
 is an essential localization whereby $t$ maps a set $X$ to $(X,\tau_X)$ with $\tau_X$ the total relation on $X$, $u$ is the forgetful functor mapping $(X,\rho)$ to its underlying set $X$, and $e$ maps a set $X$ to $(X,\empty)$. The correponding modalities ($\Box$ resp. $\diamond$) are mapping $(X,\rho)$ to $(X,\empty)$ resp. to $(X,\tau_X)$. The corresponding level resolves $0\dashv 1$ and is itself in turn resolved by $\mathbf{Sym}$ since the total as well as the empty relation on a set $X$ is symmetrical.
 
