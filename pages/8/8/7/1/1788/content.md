@@ -1,206 +1,37 @@
-+-- {: .num_defn #LagrangianForFreeScalarFieldOnMinkowskiSpacetime}
-###### Definition
-**([[local Lagrangian density]] for [[free field|free]] [[scalar field]] on [[Minkowski spacetime]])**
+## Do tags on elements of a sub list work?
 
-For $p \in \mathbb{N}$, let [[spacetime]] $\Sigma \coloneqq \mathbb{R}^{p,1} = (\mathbb{R}^d, \eta)$ be [[Minkowski spacetime]] of [[dimension]] $p + 1$, where $\eta$ denotes the Minkowski [[metric tensor]] of [[signature of a quadratic form|signature]] $(-,+,\cdots, +)$. We write $\mathrm{dvol}_\Sigma \in \Omega^{p+1}(\Sigma)$ for the corresponding [[volume form]] and $\{x^\mu \colon \Sigma \to \mathbb{R}\}_{\mu = 0}^p$ for the canonical [[coordinate functions]].
+{#pgh} Here is a paragraph starting with the tag `pgh`.
 
-Let the [[field bundle]]I $E \to \Sigma$ be the [[trivial vector bundle|trivial]] [[real line bundle]] over $\Sigma$.
+See [this paragraph](#pgh).
 
-Then its [[jet bundle]] $J^\infty E$ has canonical coordinates
+from [[quasitopos]] 
 
-$$
-  \{ \{x^\mu\}, \phi, \{\phi_{,\mu}\}, \{\phi_{,\mu \nu}\}, \cdots \}
-  \,.
-$$
+* The following examples are categories of separated presheaves for the $\neg\neg$-topology on various presheaf toposes: 
 
-In these coordinates, the [[local Lagrangian density]]
+  * {#inj} The category of [[monomorphisms]] between sets (as presheaves on the [[interval category]]).  
 
-$$
-  L \in \Omega^{p+1,0}(\Sigma)
-$$
+  * {#endorel} The category of sets equipped with a [[relation]] (as presheaves on 
+    $$G_1 = (0 \stackrel{\overset{s}{\to}}{\underset{t}{\to}} 1),$$ 
+    a truncation of the [[globular category]]).  
 
-defining the [[free field|free]] [[scalar field]] of [[mass]] $m \in [0,\infty)$ on $\Sigma$ is
+  * {#endoref} The category of sets equipped with a reflexive relation (as presheaves on a truncated reflexive globular category). 
 
-$$
-  L
-    \coloneqq
-  \tfrac{1}{2}
-  \left(
-    \eta^{\mu \nu} \phi_{,\mu} \phi_{,\nu}
-    +
-    m^2 \phi^2
-  \right)
-  \mathrm{dvol}_\Sigma
-  \,.
-$$
+  * {#endosym} The category of sets equipped with a symmetric relation (as presheaves on the full subcategory of finite sets and injections consisting of just the objects $1$, $2$). 
 
-=--
+  * {#endorefsym} The category of sets equipped with a reflexive symmetric relation (as presheaves on the full subcategory of finite sets consisting of just the objects $1$, $2$). See [[category of simple graphs]]. 
 
-+-- {: .num_prop #EulerLagrangeOfLagrangianOfFreeScalarField}
-###### Proposition
+* {#born} The category of [[bornological set|bornological sets]].
 
-In the situation of def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}
-the [[Euler-Lagrange operator]] $\delta_{EL} \colon \Omega^{p+1,0}(\Sigma) \to \Omega^{p+1,1}_S(\Sigma)$ takes the [[local Lagrangian density]] for the [[free field|free]] [[scalar field]] to
+* Tags must be at the start of a text element, not at the end. {#atend} 
 
-$$
-  \delta_EL L
-  \;=\;
-  \left(
-    \eta^{\mu \nu} \phi_{,\mu \nu}  + m^2 \phi
-  \right)
-  d_V \phi \wedge \mathrm{dvol}_\Sigma
-  \,.
-$$
+* With a tag at the end not preceded by a space.{#atend2}
+----
 
-Hence for $\Phi : \Sigma \to \mathbb{R}$ the $\phi$-component of a [[section]] of the [[field bundle]], its [[equation of motion]] is the [[Klein-Gordon equation]]
+Tag [at end](#atend) of text preceded by a space doesn't work. 
 
-$$
-  \left(\eta^{\mu \nu} \partial_\mu \partial_\nu + m^2 \right) \Phi = 0
-  \,.
-$$
+Spaceless tag [at end](#atend2) doesn't work.
 
-Moreover, the induced [[pre-symplectic current]] $\omega \in \Omega^{p-1,2}(E)$ is
+All of these work (with the tag at the start):
 
-$$
-  \omega 
-    = 
-  \left(\eta^{\mu \nu} d_V \phi_{,\mu} \wedge d_V \phi \right) \wedge \iota_{\partial_\nu} dvol_{\Sigma}
-$$
+* [$Inj$](#inj), [$EndoRel$](#endorel), [$EndoSym$](#endosym), [$EndoRef$](#endoref), [$EndoRefSym$](#endorefsym).
 
-and hence the induced [[symplectic form]] on the [[covariant phase space]] of the free scalar field
-takes two [[smooth function]] $w_1,w_2 \in C^\infty(\Sigma)$, regarded as [[tangent vectors]] at zero to
-
-$$
-  \mathbf{\Omega}_{\Sigma_{p-1}}(w_1, w_2)
-    \;=\;
-    \int_{\Sigma_{p-1}}
-    \left(
-      (\partial_n w_1) w_2
-      -
-      w_1 \partial_n w_2
-    \right)
-    dvol_{\Sigma_{p-1}}
-    \,,
-$$
-
-where $\Sigma_{p-1} \hookrightarrow \Sigma$ is any [[Cauchy surface]]
-and where $n \in N \Sigma_{p-1}$ denotes its time-like normal vector field.
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The vertical differential is
-
-$$
-  d_V L
-    =
-  \left(
-    \eta^{\mu \nu} \phi_{,\mu} d_V \phi_{,\nu}
-      +
-    m^2 \phi d_V \phi
-  \right)
-  \wedge \mathrm{dvol}_\Sigma
-  \,.
-$$
-
-By definition of the [[Euler-Lagrange operator]], in order to find $\mathrm{EL}$ and $\theta$, we need to exhibit this as the
-sum of the form $(-) \wedge d_V \phi  - d_H \theta$.
-
-The key to find $\theta$ is  to realize $d_V \phi_{,\nu}\wedge \mathrm{dvol}_\Sigma$ as a [[horizontal derivative]]. Since $d_H \phi = \phi_{,\mu} d x^\mu$ this is accomplished by
-
-$$
-  d_V \phi_{,\nu} \wedge \mathrm{dvol}_\Sigma
-  =
-  d_V d_H \phi \wedge \iota_{\partial_\nu} \mathrm{dvol}_\Sigma
-$$
-
-Hence we may set
-
-$$
-  \theta
-    \coloneqq
-  \eta^{\mu \nu} \phi_{,\mu} d_V \phi \wedge \iota_{\partial_\nu}
-  \mathrm{dvol}_\Sigma
-  \,,
-$$
-
-because with this we have
-
-$$
-  d_H \theta
-  =
-  \eta^{\mu \nu}
-  \left(
-    \phi_{,\mu \nu} d_V \phi
-    -
-    \eta^{\mu \nu} \phi_{,\mu} d_V \phi_{,\nu}
-  \right) \wedge \mathrm{dvol}_\Sigma
-  \,.
-$$
-
-In conclusion this yields the decomposition of the vertical differential of the Lagrangian density
-
-$$
-  d_V L
-  =
-  \underset{
-    = \delta_{EL} L
-  }{
-  \underbrace{
-    \left(
-      \eta^{\mu \nu} \phi_{,\mu \nu}  + m^2 \phi
-    \right)
-    d_V \phi \wedge \mathrm{dvol}_\Sigma
-  }
-  }
-  -
-  d_H \theta
-  \,,
-$$
-
-which shows that $\delta_{EL} L$ is as claimed, and that $\theta$ is a presymplectic potential current.
-Hence the presymplectic current itself is
-
-$$
-  \begin{aligned}
-    \omega &\coloneqq d_V \theta
-    \\
-    & = 
-    d_V \left( \eta^{\mu \nu} \phi_{,\mu} d_V \phi \wedge \iota_{\partial_\nu} \mathrm{dvol}_\Sigma \right)
-    \\
-    & = 
-    \left(\eta^{\mu \nu} d_V \phi_{,\mu} \wedge d_V \phi \right) \wedge \iota_{\partial_\nu} dvol_{\Sigma}
-  \end{aligned}
-  \,.
-$$
-
-For $\Sigma_p \hookrightarrow \Sigma$ a [[Cauchy surface]], the [[transgression]] of
-this presymplectic current to the [[formal normal neighbourhood]] of $\Sigma$ is 
-
-$$
-  \begin{aligned}
-    \omega_{\Sigma_{p-1}}(w_1, w_2)
-    & =
-    \int_\Sigma 
-      \left( 
-        e^{\mu \nu} \mathbf{d} \partial_mu \phi \wedge \mathbf{d} \phi 
-      \right)
-      \iota_{\partial_\nu} dvol_\Sigma (\phi_1, \phi_2)
-    \\
-    & = 
-    \int_{\Sigma_{p-1}}
-    \left(
-      (\partial_n w_1) w_2
-      -
-      w_1 \partial_n w_2
-    \right)
-    dvol_{\Sigma_{p-1}}
-  \end{aligned}
-$$
- 
-
-
-=--
