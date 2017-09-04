@@ -31,26 +31,26 @@ Scalar fields serve as a key toy example in theoretical studies of [[field theor
 
 #### As a classical local field
 
-Recall that a _[[classical field theory|classical]] [[local field theory]]_ is for some prescribed class of [[manifolds]] $X$ of given [[dimension]] $n \in \mathbb{N}$ interpreted as [[spacetimes]]/[[worldvolumes]]:
+Recall that a _[[classical field theory|classical]] [[local field theory]]_ is for some prescribed class of [[manifolds]] $\Sigma$ of given [[dimension]] $p+1 \in \mathbb{N}$ interpreted as [[spacetimes]]/[[worldvolumes]]:
 
-1. a choice of [[fiber bundle]] $E \to X$, called the _[[field bundle]]_;
+1. a choice of [[fiber bundle]] $E \to\Sigma$, called the _[[field bundle]]_;
 
-1. a choice $L \in \Omega^{n,0}(J^\infty(E))$ of [[horizontal differential form]] of degree $n$ on the [[jet bundle]] of the field bundle, called the _[[local Lagrangian density]]_. 
+1. a choice $L \in \Omega^{p+1,0}(J^\infty(E))$ of [[horizontal differential form]] of degree $p+1$ on the [[jet bundle]] of the field bundle, called the _[[local Lagrangian density]]_. 
 
 +-- {: .num_defn #LocalLagrangianOfFreeScalarField}
 ###### Definition
 **(free scalar field as a classical local field theory)**
 
-As a [[classical field theory|classical]] [[local field theory|local field]] the _relativistic [[free field|free]] scalar field_ in [[dimension]] $n \in \mathbb{N}$  is
+As a [[classical field theory|classical]] [[local field theory|local field]] the _relativistic [[free field|free]] scalar field_ in [[dimension]] $p+1 \in \mathbb{N}$ of [[mass]] $m \in [0,\infty)$ is
 
-* for each [[globally hyperbolic spacetime|globally hyperbolic]] [[orientation|oriented]] and [[time orientation|time-oriented]] [[spacetime]] $(X,e)$ ($X$ a [[smooth manifold]], $e$ a [[pseudo-orthogonal structure]]/[[vielbein]]  inducing a [[pseudo-Riemannian metric]] $g$)
+* for each [[globally hyperbolic spacetime|globally hyperbolic]] [[orientation|oriented]] and [[time orientation|time-oriented]] [[spacetime]] $(\Sigma,e)$ ($\Sigma$ a [[smooth manifold]], $e$ a [[pseudo-orthogonal structure]]/[[vielbein]]  inducing a [[pseudo-Riemannian metric]] $g$)
 
 1. the [[field bundle]] given by the [[trivial line bundle]] $X \times k \overset{pr_1}{\to} X$ over $X$;
 
-1. the [[local Lagrangian density]] $L \in \Omega^{n,0}(J^\infty_X(X \times k))$ (a [[horizontal differential form]] on the [[jet bundle]] of the [[trivial line bundle]] over $X$) given by
+1. the [[local Lagrangian density]] $L \in \Omega^{p+1,0}(J^\infty_X(X \times k))$ (a [[horizontal differential form]] on the [[jet bundle]] of the [[trivial line bundle]] over $X$) given by
 
    $$
-     L \;\coloneqq\; \vert \nabla \phi\vert^2 dvol
+     L \;\coloneqq\; \left( \vert \nabla \phi\vert^2 + m^2 \phi^2\right) dvol_ \Sigma
    $$
 
    where
@@ -63,13 +63,13 @@ As a [[classical field theory|classical]] [[local field theory|local field]] the
         g^{\mu \nu} \phi_{,\mu} \phi_{,\nu}
       $$
 
-   1. $dvol$ denotes the [[volume form]] of $(X,e)$, canonically regarded as a [[horizontal differential form]] on $J^\infty(X \times k)$.
+   1. $dvol$ denotes the [[volume form]] of $(\Sigma,e)$, canonically regarded as a [[horizontal differential form]] on $J^\infty(\Sigma \times k)$.
 
 =--
 
-Recall that given a [[classical field theory|classical]] [[local field theory]] defined by a [[local Lagrangian density]] $L \in \Omega^{n,0}(J^\infty(E))$, then
+Recall that given a [[classical field theory|classical]] [[local field theory]] defined by a [[local Lagrangian density]] $L \in \Omega^{p+1,0}(J^\infty(E))$, then
 
-1. the [[configuration space]] is the [[smooth space]] of [[smooth function|smooth]] [[sections]]  $\Gamma_X(E)$ of the [[field bundle]];
+1. the [[configuration space]] is the [[smooth space|smooth]] [[space of sections]]   $\Gamma_X(E)$ of the [[field bundle]];
 
 1. the [[equations of motion]] is the [[partial differential equation]] on elements $\phi \in \Gamma_X(E)$ given by
 
@@ -91,22 +91,22 @@ Recall that given a [[classical field theory|classical]] [[local field theory]] 
 +-- {: .num_prop #FreeScalarFieldEOM}
 ###### Proposition
 
-The [[equation of motion]] of the free scalar field (def. \ref{LocalLagrangianOfFreeScalarField}) is the [[wave equation]]
+The [[equation of motion]] of the free scalar field (def. \ref{LocalLagrangianOfFreeScalarField}) is the [[Klein-Gordon equation]]
 
 $$
-  \Box_g \phi = 0
+  \left(\Box_g + m^2 \right)\phi = 0
   \,,
 $$
 
-on the given [[spacetime]] $(X,g)$.
+on the given [[spacetime]] $(\Sigma,e)$, hence the [[wave equation]] for $m = 0$.
 
 =--
 
 
-+-- {: .num_defn #FreeScalarFieldGreenFunctions}
-###### Definition
++-- {: .num_prop #FreeScalarFieldGreenFunctions}
+###### Proposition
 
-On a [[time orientation|time oriented]] [[globally hyperbolic spacetime]] the [[wave equation]] admits unique advanced and a retarded [[Green's functions]].
+On a [[time orientation|time oriented]] [[globally hyperbolic spacetime]] the [[Klein-Gordon operator]] admits unique [[advanced propagator]] and [[retarded propagator]].
 
 =--
 
@@ -127,7 +127,7 @@ By [this prop.](Peierls+bracket#PeierlsPoissonBracket) ([Khavkine 14](Peierls+br
 
 ## Related concepts
 
-* [[wave equation]], [[Klein-Gordon euqation]]
+* [[wave equation]], [[Klein-Gordon equation]]
 
 * [[causal propagator]], [[Feynman propagator]]
 
