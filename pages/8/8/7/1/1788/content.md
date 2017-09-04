@@ -14,7 +14,7 @@ $$
   \,.
 $$
 
-In these coordinates, the [[local Lagrangian density]] 
+In these coordinates, the [[local Lagrangian density]]
 
 $$
   L \in \Omega^{p+1,0}(\Sigma)
@@ -27,19 +27,18 @@ $$
     \coloneqq
   \tfrac{1}{2}
   \left(
-    \eta^{\mu \nu} \phi_{,\mu} \phi_{,\nu} 
+    \eta^{\mu \nu} \phi_{,\mu} \phi_{,\nu}
     +
     m^2 \phi^2
   \right)
   \mathrm{dvol}_\Sigma
-  \,.[[
+  \,.
 $$
 
 =--
 
 +-- {: .num_prop #EulerLagrangeOfLagrangianOfFreeScalarField}
 ###### Proposition
-**([[covariant phase space]] of [[free field|free]] [[scalar field]] on [[Minkowski spacetime]])**
 
 In the situation of def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}
 the [[Euler-Lagrange operator]] $\delta_{EL} \colon \Omega^{p+1,0}(\Sigma) \to \Omega^{p+1,1}_S(\Sigma)$ takes the [[local Lagrangian density]] for the [[free field|free]] [[scalar field]] to
@@ -61,21 +60,33 @@ $$
   \,.
 $$
 
-Moreover, the [[presymplectic current]] of the free scala field is
+Moreover, the induced [[pre-symplectic current]] $\omega \in \Omega^{p-1,2}(E)$ is
 
 $$
-  \omega \in \Omega^{p,2}(\Sigma)
+  \omega 
+    = 
+  \left(\eta^{\mu \nu} d_V \phi_{,\mu} \wedge d_V \phi \right) \wedge \iota_{\partial_\nu} dvol_{\Sigma}
 $$
 
-is
+and hence the induced [[symplectic form]] on the [[covariant phase space]] of the free scalar field
+takes two [[smooth function]] $w_1,w_2 \in C^\infty(\Sigma)$, regarded as [[tangent vectors]] at zero to
 
 $$
-  \omega
-   \;=\;
-    \eta^{\mu \nu} (d_V \phi_{,\mu}) \wedge (d_V \phi) \wedge \iota_{\partial_\nu}
-  \mathrm{dvol}_\Sigma
-  \,.
+  \mathbf{\Omega}_{\Sigma_{p-1}}(w_1, w_2)
+    \;=\;
+    \int_{\Sigma_{p-1}}
+    \left(
+      (\partial_n w_1) w_2
+      -
+      w_1 \partial_n w_2
+    \right)
+    dvol_{\Sigma_{p-1}}
+    \,,
 $$
+
+where $\Sigma_{p-1} \hookrightarrow \Sigma$ is any [[Cauchy surface]]
+and where $n \in N \Sigma_{p-1}$ denotes its time-like normal vector field.
+
 
 =--
 
@@ -88,7 +99,7 @@ $$
   d_V L
     =
   \left(
-    \eta^{\mu \nu} \phi_{,\mu} d_V \phi_{,\nu} 
+    \eta^{\mu \nu} \phi_{,\mu} d_V \phi_{,\nu}
       +
     m^2 \phi d_V \phi
   \right)
@@ -107,17 +118,17 @@ $$
   d_V d_H \phi \wedge \iota_{\partial_\nu} \mathrm{dvol}_\Sigma
 $$
 
-Hence we set
+Hence we may set
 
 $$
   \theta
-  \coloneqq
-    \eta^{\mu \nu} \phi_{,\mu} d_V \phi \wedge \iota_{\partial_\nu}
+    \coloneqq
+  \eta^{\mu \nu} \phi_{,\mu} d_V \phi \wedge \iota_{\partial_\nu}
   \mathrm{dvol}_\Sigma
-  \,.
+  \,,
 $$
 
-This way we have
+because with this we have
 
 $$
   d_H \theta
@@ -131,19 +142,66 @@ $$
   \,.
 $$
 
-In conclusion this yields the decomposition
+In conclusion this yields the decomposition of the vertical differential of the Lagrangian density
 
 $$
   d_V L
   =
-  \left(
-    \eta^{\mu \nu} \phi_{,\mu \nu}  + m^2 \phi
-  \right)
-  d_V \phi \wedge \mathrm{dvol}_\Sigma
+  \underset{
+    = \delta_{EL} L
+  }{
+  \underbrace{
+    \left(
+      \eta^{\mu \nu} \phi_{,\mu \nu}  + m^2 \phi
+    \right)
+    d_V \phi \wedge \mathrm{dvol}_\Sigma
+  }
+  }
   -
   d_H \theta
+  \,,
+$$
+
+which shows that $\delta_{EL} L$ is as claimed, and that $\theta$ is a presymplectic potential current.
+Hence the presymplectic current itself is
+
+$$
+  \begin{aligned}
+    \omega &\coloneqq d_V \theta
+    \\
+    & = 
+    d_V \left( \eta^{\mu \nu} \phi_{,\mu} d_V \phi \wedge \iota_{\partial_\nu} \mathrm{dvol}_\Sigma \right)
+    \\
+    & = 
+    \left(\eta^{\mu \nu} d_V \phi_{,\mu} \wedge d_V \phi \right) \wedge \iota_{\partial_\nu} dvol_{\Sigma}
+  \end{aligned}
   \,.
 $$
+
+For $\Sigma_p \hookrightarrow \Sigma$ a [[Cauchy surface]], the [[transgression]] of
+this presymplectic current to the [[formal normal neighbourhood]] of $\Sigma$ is 
+
+$$
+  \begin{aligned}
+    \omega_{\Sigma_{p-1}}(w_1, w_2)
+    & =
+    \int_\Sigma 
+      \left( 
+        e^{\mu \nu} \mathbf{d} \partial_mu \phi \wedge \mathbf{d} \phi 
+      \right)
+      \iota_{\partial_\nu} dvol_\Sigma (\phi_1, \phi_2)
+    \\
+    & = 
+    \int_{\Sigma_{p-1}}
+    \left(
+      (\partial_n w_1) w_2
+      -
+      w_1 \partial_n w_2
+    \right)
+    dvol_{\Sigma_{p-1}}
+  \end{aligned}
+$$
+ 
 
 
 =--
