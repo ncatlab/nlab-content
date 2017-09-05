@@ -102,7 +102,7 @@ i.e.
 $$
   (X \overline\otimes Y)(c_1,c_2)
   =
-  X(c_1)\otimes_V X(c_2)
+  X(c_1)\otimes_V Y(c_2)
   \,.
 $$
 
