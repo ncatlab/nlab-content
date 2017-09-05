@@ -710,6 +710,8 @@ which is the right hand side of the equivalence to be proven.
 
 * [[BV-BRST complex]]
 
+* [[presymplectic current]], [[covariant phase space]]
+
 ## References
 
 The variational bicomplex was introduced independently in
