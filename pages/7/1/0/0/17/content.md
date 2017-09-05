@@ -407,7 +407,7 @@ When you create a section header, you can add an HTML anchor tag to it with the 
 
      ## Heading {#anchorname}
 
-Then you can make a link to it using the syntax:
+__Note that the tag must be placed at the end.__ Then you can make a link to it using the syntax:
 
      [[some page#anchorname|link text]]
 
@@ -420,9 +420,9 @@ Of course, you can link to it from outside the nLab by adding `http://ncatlab.or
 
 Note that if you skip the first step, it is still *possible* to create a link to a subsection, since (at least if the page has a table of contents) every section on the page is automatically assigned an HTML anchor by Instiki.  However, using such links is *not* encouraged, since the automatically generated anchor names will change whenever the page is rearranged and go away if a manual anchor name is added, which will cause such links to break. 
 
-The same type of syntax enables one to link to a bibliographic reference, first by creating an anchor: 
+{#thispgh}The same type of syntax enables one to link to arbitrary text blocks such as paragraphs or list elements, such as a [link](#thispgh) to this paragraph itself. __Note that these tags must be at the start of the text__. In particular, a bibliographic reference can be made by first by creating an anchor: 
 
-     * Reference {#xyz}
+     * {#xyz} Reference 
 
 which can then be linked to from within the same page by writing 
 
