@@ -108,7 +108,7 @@ $$
   \,,
 $$
 
-where the first term on the right clearly vanishes when pulled back to the shell, $EL(\phi)=0$ on $X$. The above wedge product between variational forms is inherited from the wedge product on $\Omega^\bullet(j_\infty E)$. This implies that the presymplectic current density, $\omega(\phi) = \delta(\theta(\phi))$, is horizontally closed on shell:
+where the first term on the right clearly vanishes when pulled back to the shell, $EL(\phi)=0$ on $X$. The above wedge product between variational forms is inherited from the wedge product on $\Omega^\bullet(j_\infty E)$. This implies that the [[presymplectic current]], $\omega(\phi) = \delta(\theta(\phi))$, is horizontally closed on shell:
 
 $$
 \begin{aligned}
@@ -160,7 +160,7 @@ given a [[presymplectic form]] on the locus of solutions of a system of [[partia
 
 We use same notation as the preceding section. Namely dependence on $\phi$ in local forms really means dependence on finitely many components of the infinite jet $j^\infty(\phi)$. Also, $\iota$ denotes the embedding of the space of solutions in the space of field configurations. Moreover, we presume to work on a sufficiently small neighborhoods in the space of solutions and field configurations that the Poincar\'e lemma applies.
 
-Consider a system of partial differential equations $P(\phi)=0$, together with a local presymplectic form $\Omega = \int_{X|_{in}} \omega(\phi)$, where $\omega(\phi)$ is a degree-$(2,dim X-1)$ element of the [[variational bicomplex]], that is $\delta \omega = 0$. Suppose further that presymplectic current density $\omega(\phi)$ is horizontally conserved on solutions:
+Consider a system of partial differential equations $P(\phi)=0$, together with a local presymplectic form $\Omega = \int_{X|_{in}} \omega(\phi)$, where $\omega(\phi)$ is a degree-$(2,dim X-1)$ element of the [[variational bicomplex]], that is $\delta \omega = 0$. Suppose further that [[presymplectic current]] density $\omega(\phi)$ is horizontally conserved on solutions:
 
 $$
   d  \iota^* \omega(\phi) = \iota^* d \omega(\phi) = 0
