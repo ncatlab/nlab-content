@@ -1,4 +1,6 @@
-## Do tags on elements of a sub list work?
+## Where should tags for text elements appear. Start or end?
+
+This started off as "do tags on elements of a sub list work?"
 
 {#pgh} Here is a paragraph starting with the tag `pgh`.
 
@@ -22,9 +24,10 @@ from [[quasitopos]]
 
 * {#born} The category of [[bornological set|bornological sets]].
 
-* Tags must be at the start of a text element, not at the end. {#atend} 
+* The tag at the end of this list item doesn't make it into the HTML. {#atend} 
 
-* With a tag at the end not preceded by a space.{#atend2}
+* removing the space before the tag doesn't help.{#atend2}
+
 ----
 
 Tag [at end](#atend) of text preceded by a space doesn't work. 
@@ -34,4 +37,15 @@ Spaceless tag [at end](#atend2) doesn't work.
 All of these work (with the tag at the start):
 
 * [$Inj$](#inj), [$EndoRel$](#endorel), [$EndoSym$](#endosym), [$EndoRef$](#endoref), [$EndoRefSym$](#endorefsym).
+
+-----
+
+## heading1 with tag at end works.{#head1}
+
+link to [heading1](#head1).
+
+## {#head2}heading2 with tag at start. The tag doesn't make it into HTML.
+
+link to [heading2](#head2).
+
 
