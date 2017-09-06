@@ -7,7 +7,7 @@
 +-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
-#### Algbraic Quantum Field Theory
+#### Algebraic Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -21,7 +21,7 @@
 
 ## Idea
 
-What are called _advanced_ and _retarded propagators_ $\Delta_{A/R}$ are the [[Green functions]] for the [[wave operator]]/[[Klein-Gordon operator]] (hence "[[propagators]]") on a [[globally hyperbolic spacetime]] $(X,e)$ characterized by the fact that their [[support of a distribution|support]] as [[distributions]]
+What are called _advanced_ and _retarded causal propagators_ $\Delta_{A/R}$ are the [[Green functions]] for the [[wave operator]]/[[Klein-Gordon operator]] (hence "[[propagators]]") on a [[globally hyperbolic spacetime]] $(X,e)$ characterized by the fact that their [[support of a distribution|support]] as [[distributions]]
 
 $$
   \Delta_{A/R}
@@ -59,20 +59,80 @@ This implies in particular that
 
    is symmetric in its arguments, reflecting the fact that this is the integral kernel for [[time-ordered products]] away from the [[diagonal]].
 
+## Definition 
+
++-- {: .num_defn #CausalPropatorOnMinkowskiSpacetime}
+###### Definition
+**(advanced propagator on Minkowski spacetime)**
+
+On [[Minkowski spacetime]] of [[dimension]] $p+1$ the _retarded propagator_ is the [[product of distributions]] of the [[Heaviside distribution]] $\Theta$ in the time-component with the [[causal propagator]] $\Delta$:
+
+$$
+  \Delta_R(x,y)
+  \; \coloneqq \;
+  \Theta((x-y)^0) \Delta(x,y)  
+  \,.
+$$
+
+Similarly the advanced propagator is
+
+$$
+  \Delta_a(x,y)
+  \; \coloneqq \;
+  -\Theta(-(x-y)^0) \Delta(x,y)  
+  \,.
+$$
+
+In terms of the various equivalent expressions for the causal propagator ([this prop.](causal+propagator#EquivalentExpressinsForCausalPropagatorOnMinkowskiSpacetime)) this has the following equivalent more explicit expressions:
+
+$$
+  \Delta_{R/A}(x,y)
+  \;=\;
+   - i
+   (2\pi)^{-p}
+   \Theta(\pm(x-y)^0)
+   \int \frac{1}{E(\vec k)} sin(E(\vec k) (x-y)^0 ) e^{ - i \vec k \cdot (\vec x - \vec y)}
+   d^p \vec k  
+  \,.
+$$
+
+=--
+
+
+
 ## Properties
 
++-- {: .num_prop #AdvancedPropagatorAsContourIntegral}
+###### Proposition
+**(advanced/retarded propagators as [[contour integrals]])
+
+The retarded/advanced propagator on Minkowski spacetime (def. \ref{CausalPropatorOnMinkowskiSpacetime}) is  equal to 
 
 $$
   \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfFeynmanIntegrand}
-  \Delta_A(x,y)
+  \Delta_{R/A}(x,y)
   \;=\;
-  (2\pi)^{-p}
+  (2\pi)^{-(p+1)}
+  \underset{\epsilon \to 0^+}{\lim}
   \int
-    \frac{e^{-i k_\mu x^\mu}}{ k_\mu k^\mu + m^2 - i k_0 \epsilon/2 }
+    \frac{e^{-i k_\mu x^\mu}}{ k_\mu k^\mu + m^2 \mp i k_0 \epsilon/2 }
   d^4 k
 $$
 
-Consider the abbreviation
+<img src="https://ncatlab.org/nlab/files/ContourForAdvancedPropagator.png" height="280">
+
+> graphics grabbed from ([Kocic 16](#Kocic16))
+
+=--
+
+(e.g. [Scharf 95 (2.3.22)](#Scharf95))
+
+
+
++-- {: .proof}
+###### Proof
+
+We first discuss the case of the retarded propagator. To that end, consider the abbreviation
 
 $$
   E_\epsilon(\vec k) 
@@ -83,15 +143,17 @@ $$
  \,.
 $$
 
-With this we compute:
+With this we compute as follows:
 
 $$
   \begin{aligned}
+    (2\pi)^{-(p+1)}
     \underset{\epsilon \to 0^+}{\lim}
     \int
      \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 - i k_0 \epsilon /2 }
     d^{p+1} k
     & =
+    (2\pi)^{-(p+1)}
     \underset{\epsilon \to 0^+}{\lim}
     \int
     \int
@@ -104,6 +166,7 @@ $$
     d^p \vec k 
     \\
     & =
+    (2\pi)^{-(p+1)}
     \underset{\epsilon \to 0^+}{\lim}
     \int
       \frac{
@@ -118,7 +181,7 @@ $$
     & = 
     \left\{
       \array{
-        2\pi i
+        (2\pi)^{-(p+1)} (-2\pi i) 
         \int
         \frac{
           e^{-i E(\vec k) (x-y)^2 e^{-i \vec k \cdot (\vec x - \vec y)}}
@@ -139,13 +202,15 @@ $$
     \right.
     \\
     & = 
-    \pi i
-    \Theta(x^0)
+    - i (2\pi)^{-p}
+    \Theta((x-y)^0)
     \int
       \frac{1}{E(\vec k)}
       sin\left( E(\vec k)(x-y)^0 \right)
       e^{-i \vec k \cdot (\vec x - \vec y)}
      d^p \vec k
+     \\
+     & = \Delta_R(x,y)
      \,,
   \end{aligned}
 $$
@@ -158,18 +223,27 @@ where the key step is the third: To obtain this in the case $x \gt 0$ we
      \begin{aligned}
        \int_{-\infty}^\infty d k_0 
        & = \phantom{+} 
-         \int_{-\infty}^0 d k_0 + \int_{0}^{- i \infty} 
+         \int_{-\infty}^0 d k_0 + \int_{0}^{- i \infty} d k_0
        \\
-       & = + \int_{-i \infty}^0 + \int_0^\infty d k_0
+       & = + \int_{-i \infty}^0 d k_0  + \int_0^\infty d k_0
+       \,;
      \end{aligned}
-   $$;
+   $$
 
-1. complete this to a sum of two [[contour integrals]], the first going clockwise around the [[pole]] at $- E_\epsilon(\vec k) - i \epsilon \in \mathbb{C}$ in the [[lower half plane]], the second going clockwise around $+ E_\epsilon(\vec k) + i$;
+1. complete this to a sum of two [[contour integrals]], the first going clockwise around the [[pole]] at $- E_\epsilon(\vec k) - i \epsilon \in \mathbb{C}$ in the [[lower half plane]], the second going clockwise around $+ E_\epsilon(\vec k) - i \epsilon$;
 
-1. apply [[Cauchy's integral formula]] to find the sum of the [[residues]] at these two [[poles]].
+1. apply [[Cauchy's integral formula]] to find the sum of the [[residues]] at these two [[poles]] (compare the corresponding computation for the [[causal propagator]] in [this prop.](causal+propagator#EquivalentExpressinsForCausalPropagatorOnMinkowskiSpacetime)). Observe that the minus sign in the prefactor $(-2\pi i)$ comes from the fact that the contours run _clockwise_ instead of counter-clockwise.
 
-For $x \lt 0$ one proceeds analogously, now completing to contours in the upper half plane. These do not enclose the two [[poles]] and hence in this case [[Cauchy's integral formula]] says that the result vanishes.
+For $x \lt 0$ we proceeds analogously, now completing to contours in the upper half plane. These do not enclose the two [[poles]] and hence in this case [[Cauchy's integral formula]] says that the result vanishes.
 
+Finally, for the advanced propagator the argument is directly analogous, with two differences:
+
+1. now the poles sit in the upper half plane, and hence we pick up a contribution for $(x-y)^0 \lt 0$ and none for $(x-y)^0 \gt 0$, hence in the end a prefactor of $\Theta(-(x-y)^0)$ instead of $\Theta((x-y)^0)$;
+
+1. the contours that do contribute now go counter-clockwise, instead of counter-clockwise, and hence we pick up an extra minus sign compared to the previous computation, as befits the definition of $\Delta_A(x,y) \coloneqq -\Theta(-(x-y)^0) \Delta(x,y)$.
+
+
+=--
 
 ## Related concepts
 
@@ -177,6 +251,13 @@ For $x \lt 0$ one proceeds analogously, now completing to contours in the upper 
 
 
 ## References
+
+Textbook discussion for [[free fields]] in [[Minkowski spacetime]] is in
+
+* {#Scharf95} [[Günter Scharf]],  section 2.3 of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Springer 1995
+
+* {#Scharf01} [[Günter Scharf]], section 1 of  _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
+
 
 An overview of the [[Green functions]] of the [[Klein-Gordon operator]], hence of the [[Feynman propagator]], [[advanced propagator]], [[retarded propagator]], [[causal propagator]] etc. is given in
 
@@ -196,8 +277,17 @@ Review in the context of [[perturbative algebraic quantum field theory]] include
 * [[Katarzyna Rejzner]], sections 4.1 and 6.2.3 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([pdf](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
 
+[[!redirects retarded and advanced causal propagators]]
+
+[[!redirects advanced and retarded propagators]]
+[[!redirects retarded and advanced propagators]]
 
 
+[[!redirects advanced and retarded propagator]]
+[[!redirects retarded and advanced propagator]]
+
+
+[[!redirects advanced propagator]]
 [[!redirects advanced propagators]]
 
 [[!redirects retarded propagator]]
