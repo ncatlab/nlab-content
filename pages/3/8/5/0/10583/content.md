@@ -29,7 +29,7 @@ Sometimes one also calls the collection of all [[time-like]] vectors the light c
 
 ## Related concepts
 
-* [[future cone]] 
+* [[causal cone]]
 
 * [[celestial sphere]]
 
