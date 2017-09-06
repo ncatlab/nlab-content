@@ -458,7 +458,7 @@ $$
     e^{+ i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)}
   \right) d^p \vec k
     \\
-    = 
+    & = 
    -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
     \,.
   \end{aligned}
