@@ -102,15 +102,15 @@ $$
      \\
      & = 
      -i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)}\left( 
-      e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)}
+      e^{- i E(\vec k) (x^0 - y^0) - \vec k \cdot (\vec x - \vec y)}
       -
-      e^{+ i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)} 
+      e^{+ i E(\vec k) (x^0 - y^0) + \vec k \cdot (\vec x - \vec y)} 
     \right) d^p \vec k
     \\
      & = 
      - i
      (2\pi)^{-p}
-     \int \frac{1}{E(\vec k)} sin(E(\vec k) (x-y)^0 ) e^{ - i \vec k \cdot (\vec x - \vec y)}
+     \int \frac{1}{E(\vec k)} sin(E(\vec k) (x^0 - y^0) ) e^{ - i \vec k \cdot (\vec x - \vec y)}
      d^p \vec k
      \\
   \end{aligned}
@@ -132,7 +132,7 @@ $$
   \Delta(x,y)
   \;=\;
   (2 \pi)^{p-2}
-  sgn((x-y)^0)
+  sgn((x^0 - y^0))
   \left(
     \delta( -{\vert x-y\vert}^2 )
     -
@@ -254,14 +254,14 @@ $$
      \int
      \left(
      \frac{
-       e^{-i E(\vec k) (x-y)^2 e^{-i \vec k \cdot (\vec x - \vec y)}}
+       e^{-i E(\vec k) (x^0 - y^0) e^{-i \vec k \cdot (\vec x - \vec y)}}
      }
      {
        2 E(\vec k)
      }
      -
      \frac{
-       e^{ + i E(\vec k)(x-y)^2} e^{-i \vec k \cdot (\vec x - \vec y)}
+       e^{ + i E(\vec k) (x^0 - y^0)} e^{-i \vec k \cdot (\vec x - \vec y)}
      }{
        2 E(\vec k)
      }
@@ -273,7 +273,7 @@ $$
     (2\pi)^{-p}
     \int
       \frac{1}{E(\vec k)}
-      sin\left( E(\vec k)(x-y)^0 \right)
+      sin\left( E(\vec k)(x^0 - y^0) \right)
       e^{-i \vec k \cdot (\vec x - \vec y)}
      d^p \vec k
      \,.
