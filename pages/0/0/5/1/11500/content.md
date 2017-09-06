@@ -28,6 +28,8 @@ $$
   \,.
 $$
 
+Hence the [[contour integral]] picks out the enclosed _[[residues]]_.
+
 More generally, this implies, by [[Taylor series]] expansion of $f$, that for $n \in \mathbb{N}$ the $n$th complex [[derivative]] $f^{(n)}$ is
 
 $$
