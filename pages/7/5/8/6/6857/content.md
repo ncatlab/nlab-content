@@ -13,7 +13,7 @@ Basic [[elementary function]]s (e.g. exponential, logarithmic, sine, cosine) are
 
 Very important class are so called __orthogonal polynomials__; they are neatly classified in so called "Askey-Wilson scheme", while they can be expressed as special values of hypergeometric series, they include special cases like Jacobi, Hermite, [[Legendre polynomial|Legendre]], Laguerre, Chebyshev polynomials etc.  
 
-Some other important special functions include [[gamma function]], [[Euler beta function]], [[theta functions]] ( [[Jacobi theta functions]], [[elliptic theta functions]]), Weierstrass elliptic $\mathcal{P}$-function, elliptic integrals, hyperelliptic integrals, [[mock theta functions]], [[Riemann zeta function]], ultraspherical polynomials, Whittaker functions, [[Airy funtion]], [[dilogarithm]], Bessel functions...
+Some other important special functions include [[gamma function]], [[Euler beta function]], [[theta functions]] ( [[Jacobi theta functions]], [[elliptic theta functions]]), Weierstrass elliptic $\mathcal{P}$-function, elliptic integrals, hyperelliptic integrals, [[mock theta functions]], [[Riemann zeta function]], ultraspherical polynomials, Whittaker functions, [[Airy funtion]], [[dilogarithm]], [[Bessel functions]]...
 
 ...and $q$-version of many of the mentioned functions (e.g. Ramanujan's $q$/beta integral); 
 
