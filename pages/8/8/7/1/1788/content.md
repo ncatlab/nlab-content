@@ -1,25 +1,5 @@
 
 
-   $$
-     \begin{aligned}
-       \int_{-\infty}^\infty d k_0 
-       & = \phantom{+} 
-         \int_{-\infty}^0 d k_0 + \int_{0}^{- i \infty} 
-       \\
-       & = + \int_{-i \infty}^0 + \int_0^\infty d k_0
-     \end{aligned}
-   $$
-
-#Contents#
-* table of contents
-{:toc}
-
-
-## Some section
- {#SomeAnchor}
-
-
-
 [[ContourForCausalPropagator.png:file]]
 
 <img src="https://ncatlab.org/nlab/files/ContourForCausalPropagator.png" height="200">
@@ -27,6 +7,11 @@
 [[ContourForAdvancedPropagator.png:file]]
 
 <img src="https://ncatlab.org/nlab/files/ContourForAdvancedPropagator.png" height="260">
+
+
+[[ContourForHadamardPropagator.png:file]]
+
+<img src="https://ncatlab.org/nlab/files/ContourForHadamardPropagator.png" height="220">
 
 
 $$
