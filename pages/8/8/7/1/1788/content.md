@@ -1,9 +1,69 @@
 
-[[FieldSpecies.pdf:file]]
 
-[[ContoursForHeavisideFourierTransform.png:file]]
+$$
+  \begin{aligned}
+    \underset{\epsilon \to 0^+}{\lim}
+    \int
+     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 + i k_0 \epsilon /2 }
+    d^{p+1} k
+    & =
+    \underset{\epsilon \to 0^+}{\lim}
+    \int
+    \int
+      \frac{
+        e^{-i k_0 x^0} e^{- i \vec k \cdot (\vec x - \vec y)}
+      }{
+        - (k_0 - i \epsilon )^2 + E_\epsilon(\vec k)^2 
+      } 
+    d k_0
+    d^p \vec k 
+    \\
+    & =
+    \underset{\epsilon \to 0^+}{\lim}
+    \int
+      \frac{
+        e^{-i k_0 (x-y)^0} e^{- i \vec k \cdot (\vec x - \vec y)}
+      }{
+        ( E_\epsilon(\vec k) + (k_0 - i \epsilon) )
+        ( E_\epsilon(\vec k) - (k_0 - i \epsilon) )
+      } 
+    d k_0
+    d^p \vec k
+    \\
+    & = 
+    \left\{
+      \array{
+        2\pi i
+        \int
+        \frac{
+          e^{-i E(\vec k) (x-y)^2 e^{-i \vec k \cdot (\vec x - \vec y)}}
+        }
+        {
+          2 E(\vec k)
+        }
+        -
+        \frac{
+          e^{ + i E(\vec k)(x-y)^2} e^{-i \vec k \cdot (\vec x - \vec y)}
+        }{
+          2 E(\vec k)
+        }
+        & \vert & x^0 \gt 0
+        \\
+        0 & \vert & x^0 \lt 0
+      }
+    \right.
+    \\
+    & = 
+    - \pi i
+    \Theta(x^0)
+    \int
+      \frac{1}{E(\vec k)}
+      sin\left( E(\vec k)(x-y)^0 \right)
+      e^{-i \vec k \cdot (\vec x - \vec y)}
+     d^p \vec k
+  \end{aligned}
+$$
 
-<img src="https://ncatlab.org/nlab/files/ContoursForHeavisideFourierTransform.png" width="300">
 
 
 ## Where should tags for text elements appear. Start or end?
