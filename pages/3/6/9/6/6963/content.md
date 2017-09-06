@@ -12,7 +12,7 @@ A [[categorification]] of the concept of $\mathcal{M}$-category to $2$-[[2-categ
 
 ## Definitions
 
-{#def} Let $\mathcal{M}$ (or $Mono$) be the category whose [[objects]] are [[injections]] ([[monomorphisms]] in the [[category of sets]]) and whose [[morphisms]] are [[commutative squares]]. $\mathcal{M}$ is a [[reflective subcategory]] of the [[arrow category]] $Set^\to$ (the [[Sierpinski topos]]), where the reflector [[product-preserving functor|preserves products]]; as a result, $\mathcal{M}$ is [[complete category|complete]], [[cocomplete category|cocomplete]] [[cartesian closed category]]. (In fact, $\mathcal{M}$ is a Grothendieck [[quasitopos]], as discussed [here](free+cartesian+category#Subset).) 
+{#def} Let $\mathcal{M}$ (or $Mono$) be the category whose [[objects]] are [[injections]] ([[monomorphisms]] in the [[category of sets]]) and whose [[morphisms]] are [[commutative squares]]. $\mathcal{M}$ is a [[reflective subcategory]] of the [[arrow category]] $Set^\to$ (the [[Sierpinski topos]]), where the reflector [[product-preserving functor|preserves products]]; as a result, $\mathcal{M}$ is [[complete category|complete]], [[cocomplete category|cocomplete]] [[cartesian closed category]]. (In fact, $\mathcal{M}$ is a Grothendieck [[quasitopos]], as discussed [here](free+cartesian+category#Subset): it is the category of [[separated presheaves]] for the [[double negation topology]] on $Set^\to$.) 
 
 A ([[locally small category|locally small]]) __$\mathcal{M}$-category__ is simply a [[category enriched]] over $\mathcal{M}$. In other words, where the hom-objects are pairs of sets $(T, L)$ where $T \subseteq L$. 
 
