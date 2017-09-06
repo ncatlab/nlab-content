@@ -176,6 +176,7 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 
 * [[motivic spectrum]]
 
+* [[Brown representability theorem]]
 
 [[!include k-monoidal table]]
 
