@@ -1,4 +1,70 @@
 
+By [this equation](advanced+and+retarded+causal+propagators#eq:AdvancedPropagatorAsSumOfResidues) for from the discussion at _[[advanced propagator]]_ and [this equation](Hadamard+distribution#eq:2PointFunctionFreeScalarFieldOnMinkowski) from the discussion at _[[Hadamard propagator]]_ we have
+
+$$
+  \begin{aligned}
+    i \Delta_A(x,y)
+    & = 
+    \left\{
+      \array{
+        -
+        (2\pi)^{-p} 
+        \int
+        \left(
+          \frac{
+            e^{-i E(\vec k) (x^0 - y^0) e^{-i \vec k \cdot (\vec x - \vec y)}}
+          }
+          {
+            2 E(\vec k)
+          }
+          -
+          \frac{
+            e^{ + i E(\vec k)(x^0 - y^0)} e^{-i \vec k \cdot (\vec x - \vec y)}
+          }{
+            2 E(\vec k)
+          }
+        \right)
+        & \vert & (x^0 - y^0) \lt 0
+        \\
+        0 & \vert & (x^0 - y^0) \gt 0
+      }
+    \right.
+    \\
+    \omega(x,y)
+    & = 
+    (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
+  \end{aligned}
+$$
+
+Therefore
+
+$$
+  \begin{aligned}
+    \omega(x,y)
+    + i \Delta_A(x,y)
+    & = 
+      \left\{
+        \array{
+      (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{- i E(\vec k) (x^0 - y^0) - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
+          & \vert & (x^0 - y^0) \gt 0
+          \\
+      (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{+ i E(\vec k) (x^0 - y^0) - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
+          & \vert & (x^0 - y^0) \lt  0
+        }
+      \right. 
+    \\
+    & = 
+    \left\{
+      \array{
+        \omega(x,y) & \vert & (x^0 - y^0) \gt 0
+        \\
+        \omega(y,x) & \vert & (x^0 - y^0) \lt 0
+      }
+    \right.
+  \end{aligned} 
+$$
+
+
 
 [[ContourForCausalPropagator.png:file]]
 
@@ -12,6 +78,10 @@
 [[ContourForHadamardPropagator.png:file]]
 
 <img src="https://ncatlab.org/nlab/files/ContourForHadamardPropagator.png" height="220">
+
+[[ContourForFeynmanPropagator.png:file]]
+
+<img src="https://ncatlab.org/nlab/files/ContourForFeynmanPropagator.png" height="300">
 
 
 $$
