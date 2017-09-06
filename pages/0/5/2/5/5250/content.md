@@ -22,7 +22,7 @@
 
 ## Idea
 
-The future cone of a point $x$ is the set consisting of all points in the future of $x$.  (We usually interpret this condition weakly, so that $x$ itself belongs to its own future cone.)
+The future cone of a point $x$ is the set consisting of all points in the [[future]] of $x$.  (We usually interpret this condition weakly, so that $x$ itself belongs to its own future cone.)
 
 Perhaps the terms *forward cone* resp. *backward cone* might be used as synonyms for the concept.
 
@@ -39,6 +39,7 @@ Given a [[Lorentzian manifold]] $(X,x)$ equipped with a [[time orientation]] the
 
 If we may put a global time coordinate $t$ on the manifold (which is a stronger condition), then the future cone of $x$ consists of all points $y$ such that $t(y) \geq t(x)$ and $x$ and $y$ are not space-like separated.
 
+For more see at _[[causal cone]]_.
 
 
 ## In directed homotopy theory
