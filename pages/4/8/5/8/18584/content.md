@@ -21,4 +21,6 @@
 
 * Eric Weisstein, _[Change of variables theorem](http://mathworld.wolfram.com/ChangeofVariablesTheorem.html)_
 
+[[!redirects changes of integration variables]]
+
 [[!redirects changing integration variables]]
