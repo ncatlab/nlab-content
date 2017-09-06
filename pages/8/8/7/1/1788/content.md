@@ -1,3 +1,9 @@
+
+[[ContoursForHeavisideFourierTransform.png:file]]
+
+<img src="https://ncatlab.org/nlab/files/ContoursForHeavisideFourierTransform.png" width="300">
+
+
 ## Where should tags for text elements appear. Start or end?
 
 This started off as "do tags on elements of a sub list work?"
