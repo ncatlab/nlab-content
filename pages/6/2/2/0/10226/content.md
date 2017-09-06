@@ -32,6 +32,11 @@ In [[perturbative quantum field theory]] of [[free fields]] propagation is typic
 
 * [[Hamiltonian]]
 
+## References
+
+An overview of the [[Green functions]] of the [[Klein-Gordon operator]], hence the [[Feynman propagator]], [[advanced propagator]], [[retarded propagator]], [[causal propagator]] etc. is given in
+
+* {#Kocic16} [[Mikica Kocic]], _Invariant Commutation and Propagation Functions Invariant Commutation and Propagation Functions_, 2016 ([[KGPropagatorsOnMinkowskiTable.pdf:file]])
 
 
 [[!redirects quantum propagators]]
