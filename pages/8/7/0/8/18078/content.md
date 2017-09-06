@@ -1,8 +1,67 @@
+## Where should tags for text elements appear. Start or end?
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/WaveFrontSetOfDeltaDistributionInTwoVariables.png" width="200"/>
+This started off as "do tags on elements of a sub list work?"
 
-(graphics grabbed from [Khavkine-Moretti 14, p. 45](quasi-free+quantum+state#KhavkineMoretti14))
-</div>
+{#pgh} Here is a paragraph starting with the tag `pgh`.
 
-This means that the wave front set consists of the element of the form $(x, (k, -k))$ with $k \neq 0$. Since $k$ and $-k$ are both in the [[future cone]] or both in the past cone precisely if $k = 0$, this situation is excluded in the wave front set and hence the distribution $g \cdot \delta(-,-)$ is microcausal.
+See [this paragraph](#pgh).
+
+from [[quasitopos]] 
+
+* The following examples are categories of separated presheaves for the $\neg\neg$-topology on various presheaf toposes: 
+
+  * {#inj} The category of [[monomorphisms]] between sets (as presheaves on the [[interval category]]).  
+
+  * {#endorel} The category of sets equipped with a [[relation]] (as presheaves on 
+    $$G_1 = (0 \stackrel{\overset{s}{\to}}{\underset{t}{\to}} 1),$$ 
+    a truncation of the [[globular category]]).  
+
+  * {#endoref} The category of sets equipped with a reflexive relation (as presheaves on a truncated reflexive globular category). 
+
+  * {#endosym} The category of sets equipped with a symmetric relation (as presheaves on the full subcategory of finite sets and injections consisting of just the objects $1$, $2$). 
+
+  * {#endorefsym} The category of sets equipped with a reflexive symmetric relation (as presheaves on the full subcategory of finite sets consisting of just the objects $1$, $2$). See [[category of simple graphs]]. 
+
+* {#born} The category of [[bornological set|bornological sets]].
+
+* The tag at the end of this list item doesn't make it into the HTML. {#atend} 
+
+* removing the space before the tag doesn't help.{#atend2}
+
+----
+
+Tag [at end](#atend) of text preceded by a space doesn't work. 
+
+Spaceless tag [at end](#atend2) doesn't work.
+
+All of these work (with the tag at the start):
+
+* [$Inj$](#inj), [$EndoRel$](#endorel), [$EndoSym$](#endosym), [$EndoRef$](#endoref), [$EndoRefSym$](#endorefsym).
+
+-----
+
+{#strange}Strangely single bracket link texts allow math expressions while double bracket texts don't. For example
+
+    [$Set^\to$](Sierpinski+topos) vs [[Sierpinski topos|$Set^\to$]] vs [$Set^\to$](https://ncatlab.org/nlab/show/Sierpinski+topos). 
+
+produces
+
++-- {: .standout}
+[$Set^\to$](Sierpinski+topos) vs [[Sierpinski topos|$Set^\to$]] vs [$Set^\to$](https://ncatlab.org/nlab/show/Sierpinski+topos) .
+=--
+
+however only the third form, with full URL, works when viewing revisions.
+
+its [strange](#strange)
+
+-----
+
+## heading1 with tag at end works.{#head1}
+
+link to [heading1](#head1).
+
+## {#head2}heading2 with tag at start. The tag doesn't make it into HTML.
+
+link to [heading2](#head2).
+
+
