@@ -144,6 +144,7 @@ $$
 where $J_1$ denotes the [[Bessel function]] of order 1.
 
 Finally this may also be expressed as the [[contour integral]]
+
 $$
   \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfContourIntegral}
   \Delta(x,y)
@@ -157,7 +158,7 @@ $$
   \,,
 $$
 
-where the [[Jordan curve]] $C(\vec k) \subset \mathbb{C}$ runs counter-clockwise, enclosing the points $\pm E(\vec k) \in \mathbb{R} \subset \mathbb{C}$.
+where the [[Jordan curve]] $C(\vec k) \subset \mathbb{C}$ runs counter-clockwise, enclosing the points $\pm E(\vec k) \in \mathbb{R} \subset \mathbb{C}$. (Compare to the analogous expression for the [[advanced propagator]]: [this prop.](advanced+propagator#AdvancedPropagatorAsContourIntegral).)
 
 
 <img src="https://ncatlab.org/nlab/files/ContourForCausalPropagator.png" height="160">
