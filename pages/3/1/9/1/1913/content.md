@@ -208,6 +208,8 @@ where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is als
 
 ## Related concepts
 
+* [[closed differential form]], [[exact differential form]]
+
 * [[integration of differential forms]]
 
 * [[horizontal differential form]], [[vertical differential form]]
