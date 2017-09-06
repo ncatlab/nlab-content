@@ -849,7 +849,7 @@ By [this prop.](Peierls+bracket#PeierlsPoissonBracket) (e.g. [Khavkine 14](Peier
 ### Interacting scalar field
 
 We discuss [[perturbative quantum field theory]] of the free scalar field perturbed by an [[interaction]] term
-via [[locally covariant perurbative algebraic quantum field theory]].
+via [[locally covariant perturbative algebraic quantum field theory]].
 
 #### On Minkowski spacetime
 
