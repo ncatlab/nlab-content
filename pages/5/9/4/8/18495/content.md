@@ -112,6 +112,12 @@ $$
 
 [[!redirects singular support of a distribution]]
 
+[[!redirects distributional support]]
+[[!redirects distributional supports]]
+
+
 [[!redirects singular support]]
 [[!redirects singular supports]]
+
+
 
