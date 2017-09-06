@@ -5,12 +5,14 @@
 
 ## Idea
 
-The part of the [[complex plane]] of [[positive number|positive]] imaginary part.
+The part of the [[complex plane]] of [[positive number|positive]] [[imaginary part]]  is often called the _[[upper half plane]]_, sometimes denoted $\mathfrak{H}$.
 
-$\mathfrak{H}$
+
 
 
 ## Related concepts
+
+* [[contour integral]]
 
 * [[Möbius group]]
 
