@@ -83,7 +83,10 @@ category: analysis
 
 
 [[!redirects Fourier series]]
+
 [[!redirects Fourier integral]]
+[[!redirects Fourier integrals]]
+
 [[!redirects Fourier analysis]]
 
 [[!redirects Fourier mode]]
