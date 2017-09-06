@@ -9,3 +9,5 @@
 | [[Dirac propagator]] | $\Delta_D = \tfrac{1}{2}(\Delta_A + \Delta_R)$ |   <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> $\array{+ \\ \phantom{A} \\ \phantom{a}}$ <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60"> |  |  |
 | [[Hadamard propagator]] | $\begin{aligned} \omega &= \tfrac{i}{2}\Delta + H \\ & = \omega_F - i \Delta_A \end{aligned}$ |  <img src="https://ncatlab.org/nlab/files/HadamardPropagator.png" width="60"> | $\array{\omega(x,y) = \\ \langle vac \vert \Phi(x) \Phi(y) \vert vac \rangle }$ | [[2-point function]] of [[quasi-free state]] |
 | [[Feynman propagator]] | $\array{\omega_F & = i \Delta_D + H \\ & = \omega + i \Delta_A}$ |  <img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60"> | $\array{E_F(x,y) = \\ \langle vac \vert T(\Phi(x)\Phi(y)) \vert vac \rangle }$  | [[time-ordered product]] |
+
+(see also [[Mikica Kocic|Kocic]]'s overview: [[KGPropagatorsOnMinkowskiTable.pdf:file]])
