@@ -15,9 +15,9 @@
 
 ## Idea
 
-A _line integral_ is an [[integral]] along a [[curve]].  These are also called _path integrals_ (not to be confused with the [[path integral]] in quantum field theory, which is integration over a space of curves rather than along a curve in some space) and _contour integrals_ (especially in [[complex analysis]]).
+A _line integral_ is an [[integral]] along a [[curve]].  These are sometimes called _path integrals_ (not to be confused with the [[path integral]] in [[quantum physics]], which is integration over a space of curves rather than along a curve in some space) and _[[contour integrals]]_ (especially in [[complex analysis]]).
 
-By the modern understanding of the integration of [[differential forms]], one integrates $1$-forms ([[cotangent vector fields]]) along [[orientation|oriented]] curves, and so this would be the natural way to understand a line integral.  However, there are several slightly different line integrals, and not all of them are reducible to integration of $1$-forms along oriented curves.  Sometimes we have to fall back on more basic notions, ultimately the integration of [[pseudoform|pseudo]]-$1$-forms on a $1$-dimensional space.
+By the modern understanding of the [[integration of differential forms]], one integrates [[differential 1-forms]] ([[cotangent vector fields]]) along [[orientation|oriented]] [[curves]], and so this would be the natural way to understand a line integral.  However, there are several slightly different line integrals, and not all of them are reducible to integration of $1$-forms along oriented curves.  Sometimes we have to fall back on more basic notions, ultimately the integration of [[pseudoform|pseudo]]-$1$-forms on a $1$-dimensional space.
 
 
 ## Definitions
@@ -39,7 +39,7 @@ We can start to justify the classical notation by interpreting $\vec{r}$ as the 
 $$ \int_C \vec{F} \cdot \mathrm{d}\vec{r} \coloneqq \int_a^b \vec{F}(\vec{r}(t)) \cdot \vec{r}'(t) \,\mathrm{d}t ,$$
 in which case the classical notation simply seems to be suppressing some of the notation in the formal definition on the right.  In particular, we interpret $\mathrm{d}\vec{r}$ as meaning $\vec{r}'(t) \,\mathrm{d}t$.
 
-But this suggests that we should really be looking at differential forms.  Since $X$ is a Cartesian space, we may identify it with any of its [[tangent spaces]] and so identify $\vec{F}$ with a [[tangent vector field]] on $X$, or equivalenty a vector-valued $0$-form.  Since $\vec{r}$ is only serving to parametrise the curve, it should be interpreted as something trivial, in this case the [[identity map]] on $X$, also viewed as a vector-valued $0$-form.  Then $\mathrm{d}\vec{r}$ is a vector-valued $1$-form (which we can do since a Cartesian space has a trivial [[connection]]), and $\vec{F} \cdot \mathrm{d}\vec{r}$ is an ordinary $1$-form.  Finally, since the curve $C$ is given up to an increasing reparametrisation, it is an [[orientation|oriented]] $1$-submanifold of $X$.  Now we may interpet the notation
+But this suggests that we should really be looking at differential forms.  Since $X$ is a Cartesian space, we may identify it with any of its [[tangent spaces]] and so identify $\vec{F}$ with a [[tangent vector field]] on $X$, or equivalenty a vector-valued $0$-form.  Since $\vec{r}$ is only serving to parametrise the curve, it should be interpreted as something trivial, in this case the [[identity map]] on $X$, also viewed as a vector-valued $0$-form.  Then $\mathrm{d}\vec{r}$ is a vector-valued $1$-form (which we can do since a Cartesian space has a trivial [[connection]]), and $\vec{F} \cdot \mathrm{d}\vec{r}$ is an ordinary $1$-form.  Finally, since the curve $C$ is given up to an increasing reparametrisation, it is an [[orientation|oriented]] $1$-submanifold of $X$.  Now we may interpret the notation
 $$ \int_C \vec{F} \cdot \mathrm{d}\vec{r} $$
 literally as the integral of a $1$-form.  It is now no longer necessary that $C$ be given by a continuously differentiable parametrisation; the vector-valued $0$-form $\vec{r}$ is continuously differentiable regardless, and so we only need $C$ to be a [[rectifiable curve]] (although it is a theorem that such a curve must have a parametrisation ---by [[arclength]] if nothing else--- that is continuously differentiable [[almost everywhere]], so that the classical definition still covers this using a [[Riemann integral]]).
 
@@ -73,7 +73,7 @@ although this is most intuitive for curves that are consistently [[timelike curv
 
 ### Contour integral of a complex function
 
-Classically, we have the [[complex plane]] $\mathbb{C}$, a [[continuous map]] $f\colon \mathbb{C} \to \mathbb{C}$, and a [[continuously differentiable map]] $C\colon [a,b] \to \mathbb{C}$; the __contour integral__ (or __line integral__ again) of $f$ along $C$ is defined as
+Classically, we have the [[complex plane]] $\mathbb{C}$, a [[continuous map]] $f\colon \mathbb{C} \to \mathbb{C}$, and a [[continuously differentiable map]] $C\colon [a,b] \to \mathbb{C}$; the __[[contour integral]]__ (or __line integral__ again) of $f$ along $C$ is defined as
 $$ \int_C f \mathrm{d}z \coloneqq \int_a^b f(C(t)) C'(t) \,\mathrm{d}t ,$$
 where the integral on the right is a [[Riemann integral]] and $C'$ is the [[derivative]] of $C$.  If $\phi\colon [e,f] \to [a,b]$ is a continuously differentiable [[monotone function|increasing]] [[bijection]], then
 $$ \int_{C \circ \phi} f \mathrm{d}z = \int_C f \mathrm{d}z ,$$
@@ -109,6 +109,14 @@ $$ {|\mathrm{d}z|} = {|\mathrm{d}(x + \mathrm{i}y)|} = {|\mathrm{d}x + \mathrm{i
 since $\mathrm{d}x^2 + \mathrm{d}y^2$ is the standard metric on $\mathbb{C}$.
 
 
+## Properties
+
+### Cauchy's theorems
+
+* [[Cauchy integral formula]]
+
+* [[Cauchy integral theorem]]
+
 ## References
 
 Here are a couple of old Usenet posts that explain how line integrals of scalar fields should be viewed in terms of forms and pseudoforms.
@@ -117,6 +125,11 @@ Here are a couple of old Usenet posts that explain how line integrals of scalar 
 * [second](https://groups.google.com/group/sci.physics.research/msg/424da828e75b6b90?dmode=source)
 
 These are obsolete with the concept of [[absolute forms]], but they contain more explicit calculations.
+
+See also
+
+
+* Wikipedia, _[Line integral](https://en.wikipedia.org/wiki/Line_integral)_
 
 
 [[!redirects line integral]]
