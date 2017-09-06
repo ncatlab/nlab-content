@@ -293,6 +293,12 @@ Review in the context of [[perturbative algebraic quantum field theory]] include
 [[!redirects retarded propagator]]
 [[!redirects retarded propagators]]
 
+[[!redirects advanced causal propagator]]
+[[!redirects advanced causal propagators]]
+
+[[!redirects retarded causal propagator]]
+[[!redirects retarded causal propagators]]
+
 [[!redirects advanced Green function]]
 [[!redirects advanced Green functions]]
 
