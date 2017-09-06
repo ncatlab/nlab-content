@@ -1,0 +1,13 @@
+
+## Related entries
+
+* [[Cauchy integral formula]]
+
+* [[Jordan curve theorem]]
+
+
+## References
+
+* Eric Weisstein, _[Jordan curve](http://mathworld.wolfram.com/JordanCurve.html)_
+
+[[!redirects Jordan curves]]
