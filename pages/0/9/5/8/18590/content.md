@@ -1,0 +1,64 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[analysis]] or [[differential geometry]], a _derivative_ is the result of applying [[differentiation]] to a [[differentiable map]]. 
+
+## Variants
+
+* [[total derivative]]
+
+* [[partial derivative]]
+
+* [[derivative of a distribution]]
+
+* [[exterior derivative]]
+
+* [[covariant derivative]]
+
+* [[exterior covariant derivative]]
+
+* [[functional derivative]]
+
+* [[Fréchet derivative]]
+
+* [[Lie derivative]]
+
+* [[directional derivative]]
+
+* [[Radon-Nikodym derivative]]
+
+* [[Schwarzian derivative]]
+
+## Properties
+
+
+* [[Stokes theorem]]
+
+* [[derivations of smooth functions are vector fields]]
+
+
+## Related concepts
+
+* [[integral]]
+
+[[!redirects derivatives]]
