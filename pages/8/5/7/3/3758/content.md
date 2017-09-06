@@ -84,6 +84,12 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
 
     * [[quasi-state]]
 
+    * [[quasi-free state]]
+
+    * [[vacuum state]]
+   
+    * [[Hadamard state]]
+
   * [[bra-ket]]
 
   * [[ground state]], [[excited state]]
