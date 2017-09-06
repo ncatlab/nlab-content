@@ -1,5 +1,5 @@
 
-> See also _[[differentiation]]_.
+> See also _[[differentiation]]_ and _[[derivative]]_.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -424,6 +424,8 @@ so $E(v) = v (4\sin(\frac{1}{2v}) - \sin(\frac{1}{v})) \to 0$.
 
 * [[continuous function]], **differentiable function**, [[continuously differentiable function]], [[smooth function]], [[analytic function]]
 
+* [[derivative of distributions]]
+
 
 [[!redirects differentiable map]]
 [[!redirects differentiable maps]]
@@ -452,9 +454,5 @@ so $E(v) = v (4\sin(\frac{1}{2v}) - \sin(\frac{1}{v})) \to 0$.
 [[!redirects C^k function]]
 [[!redirects C^k functions]]
 
-[[!redirects derivative]]
-[[!redirects derivatives]]
 
-[[!redirects pointwise derivative]]
-[[!redirects pointwise derivatives]]
 [[!redirects differentiability]] 
