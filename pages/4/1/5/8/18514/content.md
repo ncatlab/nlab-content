@@ -106,7 +106,7 @@ $$
      & = 
      - i
      (2\pi)^{-p}
-     \frac{1}{E(\vec k)} sin(E(\vec k) (x-y)^0 ) e^{ - i \vec k \cdot (\vec x - \vec y)}
+     \int \frac{1}{E(\vec k)} sin(E(\vec k) (x-y)^0 ) e^{ - i \vec k \cdot (\vec x - \vec y)}
      d^p \vec k
      \\
   \end{aligned}
@@ -121,7 +121,7 @@ $$
 
 and where in the last expression the integral is to be understood as the weak limit of integrals up to ${\vert \vec k\vert}$ as ${\vert k \vert} \to \infty$ ([Scharf 95 (2.3.8)](#Scharf95)).
 
-The last expresion may be computed to be equal to
+The last expression may be computed to be equal to
 
 $$
   \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfBesselFunction}
@@ -143,45 +143,33 @@ $$
 
 where $J_1$ denotes the [[Bessel function]] of order 1.
 
-Finally this may be expressed as 
-
-$$
-  \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfFeynmanIntegrand}
-  \Delta(x,y)
-  \;=\;
-  (2\pi)^{-p}
-  \int
-    \frac{e^{-i k_\mu x^\mu}}{ k_\mu k^\mu + m^2 - i k_0 \epsilon/2 }
-  d^4 k
-  -
-  (2\pi)^{-p}
-    \frac{e^{-i k_\mu x^\mu}}{ k_\mu k^\mu + m^2 + i k_0 \epsilon/2 }
-  d^4 k
-$$
-
-which is equivalently the [[contour integral]]:
-
+Finally this may also be expressed as the [[contour integral]]
 $$
   \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfContourIntegral}
   \Delta(x,y)
   \;=\;
-  -
-  (2\pi)^{-(p+1)} 
-  \oint C(\vec k)
-  \int
-  \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
-  d^p \vec k \,d k_0   
+    (2\pi)^{-(p+1)}
+    \int
+    \oint_{C(\vec k)}
+     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
+    d k_0
+    d^{p} k
   \,,
 $$
 
 where the [[Jordan curve]] $C(\vec k) \subset \mathbb{C}$ runs counter-clockwise, enclosing the points $\pm E(\vec k) \in \mathbb{R} \subset \mathbb{C}$.
+
+
+<img src="https://ncatlab.org/nlab/files/ContourForCausalPropagator.png" height="160">
+
+> graphics grabbed from [Kocic 16](#Kocic16)
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-For the expression (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfModeExpansion) decompose the original integral into its contributions from $k_0 \geq 0$ and from $k_0 \leq 0$ and then apply the [[changes of integration variables]]  $k_0 = \sqrt{h}$ for $k_0 \geq 0$ and $k_0 = -\sqrt{h}$ for $k_0 \leq 0$.
+For the expression (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfModeExpansion) decompose the original integral into its contributions from $k_0 \geq 0$ and from $k_0 \leq 0$ and then apply the [[changes of integration variables]]  $k_0 = \sqrt{h}$ for $k_0 \geq 0$ and $k_0 = -\sqrt{h}$ for $k_0 \leq 0$:
 
 
 $$
@@ -217,7 +205,77 @@ $$
   \end{aligned}
 $$
 
-For the expression (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfBesselFunction) see [Scharf 95 (2.3.8) to (2.3.18)](#Scharf95)
+For the derivation of  (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfBesselFunction) from the last line of (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfModeExpansion) see [Scharf 95 (2.3.8) to (2.3.18)](#Scharf95).
+
+Finally to obtain (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfContourIntegral), [[Cauchy's integral formula]] says that the given contour integral picks up the [[residues]] of the [[poles]] of the [[integrand]] at $\pm E(\vec k) \in \mathbb{R} \subset \mathbb{C}$: 
+
+
+$$
+  \begin{aligned}
+    (2\pi)^{-(p+1)}
+    \int
+    \oint_{C(\vec k)}
+     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
+    d k_0
+    d^{p} k
+    & =
+    (2\pi)^{-(p+1)}
+    \int
+    \oint_{C(\vec k)}
+      \frac{
+        e^{-i k_0 x^0} e^{- i \vec k \cdot (\vec x - \vec y)}
+      }{
+        - k_0^2 + E(\vec k)^2 
+      } 
+    d k_0
+    d^p \vec k 
+    \\
+    & =   
+    (2\pi)^{-(p+1)}
+    \int
+    \oint_{C(\vec k)}
+      \frac{
+        e^{-i k_0 (x-y)^0} e^{- i \vec k \cdot (\vec x - \vec y)}
+      }{
+        ( E_\epsilon(\vec k) + k_0 )
+        ( E_\epsilon(\vec k) - k_0 )
+      } 
+    d k_0
+    d^p \vec k
+    \\
+    & = 
+    (2\pi)^{-(p+1)}
+     2\pi i
+     \int
+     \left(
+     \frac{
+       e^{-i E(\vec k) (x-y)^2 e^{-i \vec k \cdot (\vec x - \vec y)}}
+     }
+     {
+       2 E(\vec k)
+     }
+     -
+     \frac{
+       e^{ + i E(\vec k)(x-y)^2} e^{-i \vec k \cdot (\vec x - \vec y)}
+     }{
+       2 E(\vec k)
+     }
+    \right)
+    d^p \vec k
+    \\
+    & = 
+    - i 
+    (2\pi)^{-p}
+    \int
+      \frac{1}{E(\vec k)}
+      sin\left( E(\vec k)(x-y)^0 \right)
+      e^{-i \vec k \cdot (\vec x - \vec y)}
+     d^p \vec k
+     \,.
+  \end{aligned}
+$$
+
+That the last line here is indeed equal to the causal propagator is the statement of the last line of (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfModeExpansion). 
 
 =--
 
