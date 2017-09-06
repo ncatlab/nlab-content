@@ -23,6 +23,23 @@ $$
 
 is sometimes called the _Heaviside step function_. If this is regarded as a [[distribution]] then it is also called the _Heaviside distribution_.
 
+## Properties
+
+The Heaviside distribution is equivalently the following [[limit of a sequence|limit]] of [[Fourier integrals]]
+
+$$
+  \begin{aligned}
+    \Theta(x)
+    & =
+    \frac{1}{2\pi i} \int_{-\infty}^\infty \frac{e^{i \omega x}}{\omega - i 0^+}
+    \\
+    & \coloneqq
+    \underset{ \epsilon \to 0^+}{\lim} 
+    \frac{1}{2 \pi i}
+    \int_{-\infty}^\infty \frac{e^{i \omega x}}{\omega - i \epsilon} d\omega
+  \end{aligned}
+$$
+
 
 ## References
 
