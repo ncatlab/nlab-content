@@ -1,0 +1,16 @@
+
+
+## Related concepts
+
+* [[special function]]
+
+* [[causal propagator]]
+
+
+## References
+
+See also
+
+* Wikipedia, _[Bessel function](https://en.wikipedia.org/wiki/Bessel_function)_
+
+[[!redirects Bessel functions]]
