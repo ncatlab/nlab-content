@@ -88,8 +88,21 @@ If $X$ is a [[compact space|compact]] [[smooth manifold]], then the space of [[s
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #SchwartSpaceOfFunctionsIsFrechetSpace}
 ###### Example
+**(the [[Schwartz space]] is a Fr&#233;chet space)**
+
+The [[Schwartz space]] $\mathcal{S}$ of functions with rapidly decreasing derivatives ([this def.](Schwartz+space#SchwartzSpaceOfFunctionsWithRapidlyDecreasingDerivatives))
+is a Fr&#233;chet space. 
+
+=--
+
+
+See [this prop.](Schwartz+space#SchwartSpaceOfFunctionsIsFrechetSpace)
+
+
++-- {: .num_example }
+###### Non-Example
 
 The [[Lebesgue space]] $L^p(\mathbb{R})$ for $p \lt 1$ is *not* a Fr&#233;chet space, because it is not locally convex.
 
