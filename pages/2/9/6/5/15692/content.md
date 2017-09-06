@@ -16,14 +16,35 @@
 
 ## Idea
 
-What is called the _Feynman propagator_ (or just _propagator_ for short) in [[quantum field theory]] of [[scalar particles]] or other [[bosons]] is effectively the [[Green's function]] of the [[wave operator]] of the given [[field (physics)]]/[[particle]] (e.g. [GFP](#GFP)).
+What is called the _Feynman propagator_ over a [[globally hyperbolic spacetime]] is one of the [[Green function]] for the [[Klein-Gordon operator]] $\Box + m^2$ (hence a [[fundamental solution]] to the [[wave equation]] when the [[mass]] $m$ vanishes). 
 
+As discussed in detail at _[S-matrix -- Feynman diagrams and renormalization](S-matrix#ExistenceAndRenormalization)_, 
+the Feynman propagator encodes [[time-ordered products]] of [[quantum observables]] in [[free field]] [[perturbative quantum field theory]] in the same way as the [[Hadamard propagator]] encodes [[normal ordered products]] of quantum fields in [[perturbative quantum field theory]]. This implies that the [[scattering amplitude]] associated with a [[Feynman diagram]] in the [[Feynman perturbation series]] expansion of the [[S-matrix]] is, away from the locus of coinciding interaction points, a [[product of distributions|product]] of Feynman propagators, one for each [[edge]] in the Feynman diagram (the [[extension of distributions]] of this [[product of distributions]] to coinciding points is _[[renormalization]]_.
 
-### As a Green functions
+## Definition
 
+By the discussion at _[S-matrix -- Feynman diagrams and renormalization](S-matrix#ExistenceAndRenormalization)_, the Feynman propagator $\omega_F$ is properly defined to be the [[linear combination]] of the chosen [[Hadamard propagator]] (encoding the [[vacuum state]]) and the [[advanced causal propagator]]:
+
++-- {: .num_defn}
+###### Definition
+**(Feynman propagator on [[globally hyperbolic spacetimes]])
+
+Given a [[time orientation||time-oriented]] [[globally hyperbolic spacetime]] $\Sigma$ there exists a unique [[advanced causal propagator]] $\Delta_A \in \mathcal{D}'(\Sigma \times \Sigma)$ and a [[Hadamard propagator]] $\omega \in \mathcal{D}'(\Sigma \times \Sigma)$, unique up to addition of a regular distributio (a smooth function). Given a choice of $\omega$ (the [[vacuum state]]) then the corresponding _Feynman propagator_ is the sum
+
+$$
+  \omega_F \coloneqq \omega + i \Delta_A
+  \,.
+$$
+
+=--
+
+(for [[Minkowski spacetime]] see e.g. [Scharf 95 (2.3.41)](#Scharf95), for general [[globally hyperbolic spacetimes]])
+
+On [[Minkowski spacetime]] this may be expressed as a sum of [[products of distibutions]] of a [[Heaviside distribution]] in the time coordinate with the Hadamard distribution and its opposite, and this is often taken as the definition of the Feynman propagator. But the above formula applies to general [[globally hyperbolic spacetimes]].
+ 
 [[!include propagators - table]]
 
-
+### On Minkowski spacetime
 
 ### As a zeta function
 
@@ -66,7 +87,14 @@ $$
 
 Textbook accounts include
 
+* {#Scharf95} [[Günter Scharf]],  section 2.3 of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Springer 1995
+
+* {#Scharf01} [[Günter Scharf]], section 1 of  _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
+
+
 * {#BCEMZ03} A. Bytsenko, G. Cognola, [[Emilio Elizalde]], [[Valter Moretti]], S. Zerbini, section 2 of _Analytic Aspects of Quantum Fields_, World Scientific Publishing, 2003, ISBN 981-238-364-6
+
+
 
 Lecture notes include
 
