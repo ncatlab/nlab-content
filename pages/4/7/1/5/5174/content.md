@@ -19,13 +19,14 @@
 
 ## Idea
 
-To some extent one can think of a [[sheaf]] $F$ on a [[topological space]] as being like a [[Set]]-valued [[function]] on that space: to each point $x \in X$ it assigns the [[stalk]] $x^* F \in Set$. A _Lawvere distribution_ is in this analogy the analog of a [[distribution]] in the sense of [[functional analysis]]: where the latter is a [[linear functional]], the former is a [[colimit]]-preserving [[functor]].
+The concept of _Lawvere distribution_ is a kind of _[[categorification]]_ of the concept of _[[distribution]]_ in [[functional analysis]].
 
-Here we think of a [[coproduct]] of sets as the [[categorification]] (under set [[cardinality]]) of the sum of numbers and hence read preservation of colimits as _linearity_ .
+To some extent one may think of a [[sheaf]] $F$ on a [[topological space]] as being a [[Set]]-valued [[function]] on that space: to each point $x \in X$ it assigns the [[stalk]] $x^* F \in Set$. In this analogy a _Lawvere distribution_ is the analog of a [[distribution]] in the sense of [[functional analysis]]: where the latter is a [[linear functional]], the former is a [[colimit]]-preserving [[functor]].
+(Here we think of a [[coproduct]] of sets as the [[categorification]] (under set [[cardinality]]) of the [[sum]] of [[numbers]] and hence read preservation of colimits as _linearity_ .)
 
-Better yet, under [[∞-groupoid cardinality]] we may think of tame [[∞-groupoid]]s as [[real number]]s and hence of [[(∞,1)-sheaves]] as analogous to functions. This yields a notion of Lawvere distributions on [[(∞,1)-topos]]es given by [[(∞,1)-colimit]] preserving [[(∞,1)-functor]]s.
+Better yet, under [[∞-groupoid cardinality]] we may think of tame [[∞-groupoid]]s as [[real numbers]] and hence of [[(∞,1)-sheaves]] as a [[higher category theory|higher]]/[[homotopy theory|homotopical]] [[categorification]] of real-number valued functions. This yields a more general notion of Lawvere distributions on [[(∞,1)-toposes]] given by [[(∞,1)-colimit]] preserving [[(∞,1)-functors]].
 
-More generally one can allow to generalize $(\infty,1)$-toposes to general [[locally presentable (∞,1)-categories]]. Viewed this way, Lawvere distributions are the morphism in $Pr(\infty,1)Cat$, the [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]].
+Still more generally one may allow to generalize $(\infty,1)$-toposes to general [[locally presentable (∞,1)-categories]]. Viewed this way, Lawvere distributions are the morphism in $Pr(\infty,1)Cat$, the [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]].
 
 
 ## Definition
