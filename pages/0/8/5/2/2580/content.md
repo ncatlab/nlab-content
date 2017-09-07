@@ -356,17 +356,13 @@ A proof is given in these [notes](http://www-math.mit.edu/~helgason/hormander.pd
 
 ### In synthetic differential geometry 
 
-There is another point of view on distributions: that they _can_ be modeled by actual functions provided that one admits infinite and infinitesimal quantities of the type used in Robinson nonstandard analysis. One particular approach is to formulate axiomatically the theory of distributions so that it can be interpreted in [[smooth topos]]es that model the axioms of [[synthetic differential geometry]] and support a suitable notion of invertible [[infinitesimal object]]s and infinitely large integers.
+There is another point of view on distributions: that they _can_ be modeled by actual functions provided that one admits infinite and infinitesimal quantities of the type used in Robinson [[nonstandard analysis]]. One particular approach is to formulate axiomatically the theory of distributions so that it can be interpreted in [[smooth toposes]] that model the axioms of [[synthetic differential geometry]] and support a suitable notion of invertible [[infinitesimal object]]s and infinitely large integers.
 
 This is discussed in chapter VII, section 3 of
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
 
 which closely mirrors the original treatment in Robinson's book Non-standard Analysis. Examples of models that support these axioms are the toposes $\mathcal{Z}$ and $\mathcal{B}$ described there. 
-
-### Lawvere distributions
-
-See [[Lawvere distribution]].
 
 ### Currents
 
@@ -383,7 +379,6 @@ Sometimes one considers larger spaces of distributions, where worse singularitie
 Distributions can be alternatively described using [[nonstandard analysis]], see there. 
 
 ## Related concepts
-
 
 * [[order of a distribution]]
 
@@ -402,6 +397,8 @@ Distributions can be alternatively described using [[nonstandard analysis]], see
 * [[product of distributions]]
 
 * [[Fourier transform of distributions]]
+
+* [[Lawvere distribution]] ([[categorification]] of the concept of distributions)
 
 ## References
 
@@ -437,11 +434,16 @@ Applications of distributions in [[physics]] are discussed in
 
 * N. N. Bogolyubov, A. A. Logunov, I.T. Todorov, _Introduction to axiomatic quantum field theory_, Benjamin  (1975)
 
-In theorem 5.1.1 of 
+In 
 
-* [[Alfred Frölicher]], [[Andreas Kriegl]], _Linear spaces and differentiation theory_, Wiley 1988. 
+* {#FroelicherKriegl88} [[Alfred Frölicher]], [[Andreas Kriegl]], theorem 5.1.1 _Linear spaces and differentiation theory_, Wiley 1988 ([pdf](http://www.fuw.edu.pl/~kostecki/scans/froelicherkriegl1988.pdf))
+
+Discussion in terms of [[monads]] on the [[Cahiers topos]] is in
+
+* {#Kock11} [[Anders Kock]], section 11 of _Commutative monads as a theory of distributions_ ([arxiv/1108.5952](http://arxiv.org/abs/1108.5952)) 
 
 the [[convenient vector space]] of Schwartz distributions [[compactly supported distribution|of compact support]] is characterized by a [[monad|monadic]] construction.
+
 In generalization of this, an abstract formalization of distributions in [[category theory]]/[[universal algebra]] is discussed in 
 
 * {#Kock11} [[Anders Kock]], _Commutative monads as a theory of distributions_ ([arxiv/1108.5952](http://arxiv.org/abs/1108.5952)) 
