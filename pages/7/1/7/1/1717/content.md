@@ -165,7 +165,7 @@ We now define the one-object strict [[2-groupoid]] $\mathbf{B}G$ from the crosse
     $$
 
   So in diagrams this means that a 2-morphism 
-  corresponding to $(Id, k) \in G_1 \times G_2$ is labelled as
+  corresponding to $(Id, h) \in G_1 \times G_2$ is labelled as
 
   $$
     \array{
