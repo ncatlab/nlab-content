@@ -1,9 +1,9 @@
 __$Inj$__ (or __$Set_inj$__) is the [[wide subcategory]] of the [[topos]] [[Set]] with its [[morphisms]] restricted to [[monomorphism|monomorphisms]] ([[injective function]]s).
 
-* __This is wrong__ $Inj$ is a [[quasitopos#inj]]. It is a  [[reflective subcategory]] of the [[Sierpinski topos]], the [[category of presheaves|presheaf topos]] $Set^{\to}$ ($Set$'s  [[arrow category]]). It contains the  [[separated presheaf|separated presheaves]] under the [[double negation#in_topos_theory|double negation topology]] on $Set^{\to}$.
+*  $Inj$'s   [[arrow category]], $Inj^\to$, is the  [[quasitopos#mono]] [[M-category#mono|Mono]]  of set monomorphisms which is a  [[reflective subcategory]] of the [[category of presheaves|presheaf topos]] $Set^{\to}$ (the [[Sierpinski topos]].)  It is the category of [[separated presheaves]] for the [[double negation#topology|double negation topology]] on $Set^\to$.
 
 * For a set $S$, its [[power set]] ($\mathcal{P}S$ or $2^S$) is the [[slice category]] $Inj/S$ which has  objects that are injections to $S$ and morphisms that are injections of injections that form commuting triangles.  $2^S$ is a
-quasitopos because it is a slice of a quasitopos or more directly because it is a  [[Heyting algebra]].
+quasitopos because it is a  [[Heyting algebra]].
 
 ## See also
 
