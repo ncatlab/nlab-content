@@ -1,3 +1,4 @@
+[[!redirects Moyal quantization]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
