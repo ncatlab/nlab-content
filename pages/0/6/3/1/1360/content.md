@@ -135,7 +135,7 @@ Similarly we have
 +-- {: .num_cor}
 ###### Corollary
 
-If $X \in \mathcal{C}$ is cofibrant and $A \in \mathcal{C}$ is fibrant, then $\mathcal{C}(Y,X)$ is fibrant in [[sSet]], hence is a [[Kan complex]].
+If $X \in \mathcal{C}$ is cofibrant and $A \in \mathcal{C}$ is fibrant, then $\mathcal{C}(X,A)$ is fibrant in [[sSet]], hence is a [[Kan complex]].
 
 =--
 
