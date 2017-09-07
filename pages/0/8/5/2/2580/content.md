@@ -123,7 +123,7 @@ The space of distributions on $X$ is denoted $\mathcal{D}'(X)$ (see also remark 
 
 $$
   \array{
-    \mathcal{D}(X) \times C_c^{\infty}(X) &\longrightarrow& \mathbb{R}
+    \mathcal{D}'(X) \times C_c^{\infty}(X) &\longrightarrow& \mathbb{R}
     \\
     (S, \phi) &\mapsto& S(\phi)
   }
