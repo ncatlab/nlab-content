@@ -38,15 +38,41 @@ Therefore and since Schwartz's notation for the space $C^\infty(X)$ of all smoot
 
 ## References
 
+### Traditional
+
 * {#Hoermander90} [[Lars Hörmander]], section 2.3 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
-Discussion in terms of [[monads]] on the [[Cahiers topos]] is in
+### In terms of smooth toposes
 
-* {#Kock11} [[Anders Kock]], section 11 of _Commutative monads as a theory of distributions_ ([arxiv/1108.5952](http://arxiv.org/abs/1108.5952)) 
 
-based on 
+Discussion of compactly supported distributions in terms morphisms out of [[internal homs]] in a [[smooth topos]] is in
 
-* {#FroelicherKriegl88} [[Alfred Frölicher]], [[Andreas Kriegl]], section 5 of _Linear spaces and differentiation theory_, Wiley 1988 ([pdf](http://www.fuw.edu.pl/~kostecki/scans/froelicherkriegl1988.pdf))
+* {#MoerdijkReyes91} [[Ieke Moerdijk]], [[Gonzalo Reyes]], around prop. 3.6 of _[[Models for Smooth Infinitesimal Analysis]]_, Springer 1991
+
+and for the [[Cahiers topos]] in
+
+* {#KockReyes03} [[Anders Kock]], [[Gonzalo Reyes]], _Some calculus with extensive quantities: wave equation_, Theory and Applications of Categories , Vol. 11, 2003, No. 14, pp 321-336 ([TAC](http://www.tac.mta.ca/tac/volumes/11/14/11-14abs.html))
+
+* {#Kock11} [[Anders Kock]], _Commutative monads as a theory of distributions_ ([arxiv/1108.5952](http://arxiv.org/abs/1108.5952)) 
+
+using results of
+
+* {#FroelicherKriegl88} [[Alfred Frölicher]], [[Andreas Kriegl]], section 5 of  _Linear spaces and differentiation theory_, Wiley 1988 ([pdf](http://www.fuw.edu.pl/~kostecki/scans/froelicherkriegl1988.pdf))
+
+and following the general conception of "[[intensive and extensive]]" in 
+
+* {#Lawvere86} [[William Lawvere]], Introduction to _[[Categories in Continuum Physics]], Lectures given at a Workshop held at SUNY, Buffalo 1982. Lecture Notes in Mathematics 1174. 1986
+
+Generalization to non-compactly supported distributions is in
+
+* {#KockReyes04} [[Anders Kock]], [[Gonzalo Reyes]], _Categorical distribution theory; heat equation_ ([arXiv:math/0407242](https://arxiv.org/abs/math/0407242))
+
+and [[sheaf theory|sheaf theoretic]] discussion of distributions as morphisms of [[smooth spaces]] is in 
+
+* {#Paugam12} [[Frédéric Paugam]], section 3.2 of _Towards the mathematics of quantum field theory_, 2012 ([pdf](https://webusers.imj-prg.fr/~frederic.paugam/documents/enseignement/master-mathematical-physics.pdf)) 
+
+
+
 
 
 
