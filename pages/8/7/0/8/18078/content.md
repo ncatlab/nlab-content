@@ -1,70 +1,187 @@
 
-$\pitchfork$
 
-## Where should tags for text elements appear. Start or end?
+## Relation to universal enveloping algebras
 
-This started off as "do tags on elements of a sub list work?"
++-- {: .num_defn #PolynomialPoissonAlgebra}
+###### Definition
+**(polynomial Poisson algebra)**
 
-{#pgh} Here is a paragraph starting with the tag `pgh`.
+A [[Poisson algebra]]  $((A,\cdot), \{-,-\})$
+is called _polynomial_ if the underlying [[commutative algebra]] $(A,\cdot)$
+is a [[polynomial algebra]], hence a [[symmetric algebra]] 
 
-See [this paragraph](#pgh).
+$$
+  Sym(V) \coloneqq T(V)/(x \otimes y - y \otimes x \vert x,y \in V)
+$$ 
 
-from [[quasitopos]] 
+on some [[vector space]] $V$. Here 
 
-* The following examples are categories of separated presheaves for the $\neg\neg$-topology on various presheaf toposes: 
+$$
+  T(V) \coloneqq \underset{n \in \mathbb{N}}{\oplus} V^{\otimes^n}
+$$
 
-  * {#inj} The category of [[monomorphisms]] between sets (as presheaves on the [[interval category]]).  
+denotes the [[tensor algebra]] of $V$. We write
 
-  * {#endorel} The category of sets equipped with a [[relation]] (as presheaves on 
-    $$G_1 = (0 \stackrel{\overset{s}{\to}}{\underset{t}{\to}} 1),$$ 
-    a truncation of the [[globular category]]).  
+$$
+  \mu \;\colon\; T(V) \longrightarrow Sym(V)
+$$ 
 
-  * {#endoref} The category of sets equipped with a reflexive relation (as presheaves on a truncated reflexive globular category). 
+for the canonical [[projection]] map (which is an algebra [[homomorphism]]) and
 
-  * {#endosym} The category of sets equipped with a symmetric relation (as presheaves on the full subcategory of finite sets and injections consisting of just the objects $1$, $2$). 
+$$
+  \sigma \;\colon\; Sym(V) \longrightarrow T(V)
+$$
 
-  * {#endorefsym} The category of sets equipped with a reflexive symmetric relation (as presheaves on the full subcategory of finite sets consisting of just the objects $1$, $2$). See [[category of simple graphs]]. 
+for its [[linear map|linear]] inverse (symmetrization, which is not in general an algebra [[homomorphism]]).
 
-* {#born} The category of [[bornological set|bornological sets]].
+Notice that by its bi-[[derivation]] property the Poisson bracket 
+on a polynomial Poisson algebra is fixed by its restriction to linear elements
 
-* The tag at the end of this list item doesn't make it into the HTML. {#atend} 
+$$
+  \{-,-\} \;\colon\; V \otimes V \longrightarrow Sym(V)
+  \,.
+$$
 
-* removing the space before the tag doesn't help.{#atend2}
-
-----
-
-Tag [at end](#atend) of text preceded by a space doesn't work. 
-
-Spaceless tag [at end](#atend2) doesn't work.
-
-All of these work (with the tag at the start):
-
-* [$Inj$](#inj), [$EndoRel$](#endorel), [$EndoSym$](#endosym), [$EndoRef$](#endoref), [$EndoRefSym$](#endorefsym).
-
------
-
-{#strange}Strangely single bracket link texts allow math expressions while double bracket texts don't. For example
-
-    [$Set^\to$](Sierpinski+topos) vs [[Sierpinski topos|$Set^\to$]] vs [$Set^\to$](https://ncatlab.org/nlab/show/Sierpinski+topos). 
-
-produces
-
-+-- {: .standout}
-[$Set^\to$](Sierpinski+topos) vs [[Sierpinski topos|$Set^\to$]] vs [$Set^\to$](https://ncatlab.org/nlab/show/Sierpinski+topos) .
 =--
 
-however only the third form, with full URL, works when viewing revisions.
++-- {: .num_example #PolynomialLiePoissonStructure}
+###### Example
+**(polynomial [[Lie-Poisson structure]])**
 
-its [strange](#strange)
+Let $(C^\infty(\mathbb{R}^n), \pi)$ be a [[Poisson manifold]] whose
+underlying manifold is a [[Cartesian space]] $\mathbb{R}^n$. Then the restriction
+of its Poisson algebra $( C^\infty(\mathbb{R}^n, \cdot), \pi^{i j} \partial_i(-) \cdot \partial_j(-)  )$
+to the [[polynomial functions]] $\mathbb{R}[x^1, \cdots, x^n ] \ookrightarrow C^\infty(\mathbb{R}^n)$
+is a polynomial Poisson algebra according to def. \ref{PolynomialPoissonAlgebra}.
 
------
+In particular if $(\mathfrak{g}, [-,-])$ is a [[Lie algebra]] and
+$(\mathfrak{g}^\ast, \{-,-\})$ the corresponding [[Lie-Poisson structure|Lie-Poisson manifold]], 
+then the corresponding polynomial Poisson algebra is $(Sym(\mathfrak{g}), \{-,-\})$
+where the restriction of the Poisson bracket to linear polynomial elements coincides with the [[[Lie bracket]]:
 
-## heading1 with tag at end works.{#head1}
+$$
+  \{x,y\} = [x,y]
+  \,.
+$$
 
-link to [heading1](#head1).
+=--
 
-## {#head2}heading2 with tag at start. The tag doesn't make it into HTML.
++-- {: .num_defn #UniversalEnvelopingAlgebraOfPolynomialPoissonAlgebra}
+###### Definition
+**(universal enveloping algebra of polynomial Poisson algebra)**
 
-link to [heading2](#head2).
+Given a polynomial Poisson algebra $(Sym(V), \{-,-\})$ (def. \ref{PolynomialPoissonAlgebra}),
+say that its _universal enveloping algebra_ $\mathcal{U}(V,\{-,-\})$ is the [[associative algebra]] which is the [[quotient]] of 
+the [[tensor algebra]] of $V$ with a [[power series|formal variable]] $\hbar$ adjoined
+by the two-sided ideal which is generated by the the $\hbar$-Poisson bracket relation on linear elements:
+
+$$
+  \mathcal{U}(V,\{-,-\})
+  \;\coloneqq\;
+  T(V)/( x \otimes y - y \otimes x - \hbar \{x,y\} \vert x,y \in V )
+  \,.
+$$
+
+This comes with the quotient projection linear map which we denote by
+
+$$
+  \rho \;\colon\; T(V)[ [ \hbar ] ] \longrightarrow \mathcal{U}(V,\hbar\{-,-\})
+  \,.
+$$
 
 
+=--
+
+([Penkava-Vanhaecke 00, def. 3.1](#PenkavaVanhaecke00))
+
++-- {: .num_example}
+###### Example
+**([[universal enveloping algebra]] of [[Lie algebra]])**
+
+In the case of a polynomial [[Lie-Poisson structure]] $(Sym(\mathfrak{g}), [-,-])$ (example \ref{PolynomialLiePoissonStructure})
+the universal enveloping algebra $\mathcal{U}(\mathfrak{g},[-,-])$ from def. \ref{UniversalEnvelopingAlgebraOfPolynomialPoissonAlgebra}
+(for $\hbar = 1$) coincides with the standard [[universal enveloping algebra]] of the [[Lie alebra]] $(\mathfrak{g}, [-,-])$.
+
+=--
+
+The combined linear projection maps from def. \ref{PolynomialPoissonAlgebra} and def. \ref{UniversalEnvelopingAlgebraOfPolynomialPoissonAlgebra}
+we denote by
+
+$$
+  \tau \coloneqq \rho \circ (\sigma[ [ \hbar ] ]) \;\colon\; Sym(V)[ [ \hbar ] ] \longrightarrow \mathcal{U}(V,\{-,-\})
+  \,.
+$$
+
+
++-- {: .num_prop #UniversalEnvelopingAlgebraProvidesDeformationQuantizationAtLeastToOrder3}
+###### Proposition
+**(universal enveloping algebra provides deformation quantization at least up to order 3)**
+
+Let $( Sym(V), \{-,-\} )$ be a polynomial Poisson algebra (def. \ref{PolynomialPoissonAlgebra})
+such that the canonical linear map to its universal enveloping algebra (def. \ref{UniversalEnvelopingAlgebraOfPolynomialPoissonAlgebra})
+is [[injective function|injective]] up to order $n \in \mathbb{N}\cup \{\infty\}$
+
+$$
+  \tau/(\hbar^{n+1}) \;\colon\; Sym(V)[ [ \hbar ] ]/(\hbar^{n+1}) \hookrightarrow \mathcal{U}(V,\hbar\{-,-\})/(\hbar^{n+1})
+  \,.
+$$
+
+Then the restriction of the product on $\mathcal{U}(V,\hbar\{-,-\})/(\hbar^{n+1})$ to $Sym(V)/(\hbar^{n+1})$
+is a deformation quantization of $(Sym(V), \{-,-\})$ to order $n$ (hence a genuine deformation quantization in the case that $n = \infty$).
+
+Moreover, this is _always_ the case for $n = 3$, hence for every polynomial Poisson algebra its universal enveloping algebra 
+always provides a deformation quantization of order $3$ in $\hbar$.
+
+=--
+
+([Penkava-Vanhaecke 00, theorem 3.2 with section 2](#PenkavaVanhaecke00))
+
+
++-- {: .num_example #DeformationQuantizationOfLiePoissonStructuresByUniversalEnvelopingAlgebras}
+###### Example
+**(deformation quantization of Lie-Poisson structures by universal enveloping algebras)**
+
+In the following cases the map $\tau$ in prop. \ref{UniversalEnvelopingAlgebraProvidesDeformationQuantizationAtLeastToOrder3}
+is injective to arbitrary order, hence in these cases the universal enveloping algebra
+provides a complete deformation quantization:
+
+1. the case that the Poisson bracket is [[linear Poisson structure|linear]] in that restricts as
+
+   $$
+     \{-,-\} \;\colon\; V \otimes V \longrightarrow V \hookrightarrow Sym(V)
+     \,.
+   $$
+
+   This is the case of the [[Lie-Poisson structure]] from example \ref{PolynomialLiePoissonStructure}.
+   In fact in this case the map $\tau$ is not just injective.
+
+1. more generally, the case that the Poisson bracket restricted to linear elements has linear and 
+   constant contribution in that it restricts as
+   
+   $$
+     \{-,-\} \;\colon\; V \otimes V \longrightarrow \mathbb{R} \oplus V \hookrightarrow Sym(V)
+     \,.
+   $$
+   
+   This includes notably the Poisson structures induced by [[symplectic vector spaces]],
+   in which case the restriction
+   
+   $$
+     \{-,-\} \;\colon\; (\mathbb{R} \oplus V) \otimes (\\mathbb{R} \oplus V) \longrightarrow (\mathbb{R} \oplus V)
+   $$
+   
+   is the [[Lie bracket]] of the associated [[Heisenberg Lie algebra]].
+
+
+   
+=--
+
+([Penkava-Vanhaecke 00, p. 26](#PenkavaVanhaecke00))
+
+
+
+
+## References
+
+* {#PenkavaVanhaecke00} [[Michael Penkava]], [[Pol Vanhaecke]], _Deformation quantization of Polynomial Poisson algebras_,
+Journal of Algebra 227, 365-393 (2000) 
