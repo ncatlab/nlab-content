@@ -119,6 +119,8 @@ One may regard [[gravity]] as an [[effective field theory]] and just quantize in
 
 * {#DonoghueIntroduction} John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
 
+* [[Zvi Bern]], _Perturbative Quantum Gravity and its Relation to Gauge Theory_, Living Rev Relativ. 2002; 5(1): 5. ([doi:10.12942/lrr-2002-5](https://dx.doi.org/10.12942%2Flrr-2002-5))
+
 A brief survey of the relevant mathematical issues with more pointers to the literature is in
 
 * [[Igor Khavkine]], _Gravity: an exercise in quantization_, talk at _Quantum Gravity in Perspective_, Munich, 31 May 2013 ([pdf slides](http://www.science.unitn.it/~khavkine/khavkine-munich.pdf), [video](https://www.youtube.com/watch?v=G5O9RKmXyfM#t=2444))
