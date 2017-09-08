@@ -2,10 +2,9 @@
 
 > the analysis, synthesis, and modification of signals, which are broadly defined as functions conveying "information about the behavior or attributes of some phenomenon"
 
-See also [[sampling theory]], [[time series]], [[information geometry]]
+See also [[sampling theory]], [[time series]], [[information geometry]], [[white noise]]
 
-* H. Akaike, _Information theory and an extension of the maxi-
-mum likelihood principle_, in hoc. 2nd Int. Symp. Inform.392
+* H. Akaike, _Information theory and an extension of the maximum likelihood principle_, in hoc. 2nd Int. Symp. Inform.392
 Theory, suppl. Problems of Control and Inform. Theory, 1973, 
 * M. Wax, T. Kailath, _Detection of signals by information theoretic criteria_, IEEE Transactions on Acoustics, Speech, and Signal Processing __33__:2, 1985 [doi](https://doi.org/10.1109/TASSP.1985.1164557)
 
