@@ -629,7 +629,7 @@ After the original informal suggestions by [[Tomonaga]], [[Julian Schwinger]], [
 
 the mathematics of renormalization was finally understood and summarized in the 1975 Erice Majorana School:
 
-* {#Wightman76} G. Velo and [[Arthur Wightman]] (eds.) _Renormalization Theory, NATO ASI Series C 23 , D. Reidel, Dordrecht, 1976
+* {#Wightman76} G. Velo and [[Arthur Wightman]] (eds.) _Renormalization Theory_ Proceedings of the 1975 Erice summer school, NATO ASI Series C 23, D. Reidel, Dordrecht, 1976
 
 which included [[causal perturbation theory]], [[BPHZ renormalization]], proof of the [[forest formula]] and the [[BRST complex]] method for [[gauge theory]].
 
