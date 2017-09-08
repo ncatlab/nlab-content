@@ -49,7 +49,11 @@ If the category is simply the vector spaces over a field $k$, then for $l\in L$,
 ### PBW theorem
 
 The [[Poincaré–Birkhoff–Witt theorem]] states that the 
-[[associated graded]] algebra of an enveloping algebra $U(g)$ in characteristics zero is canonically isomorphic to a symmetric algebra $Sym(g)$, and $U(g)$ is isomorphic to $S(g)$ as a coalgebra, via the projection map $U(g)\to Gr U(g)$. 
+[[associated graded]] algebra of an enveloping algebra $U(g)$ in [[characteristics zero]] is canonically isomorphic to a [[symmetric algebra]] $Sym(g)$, and $U(g)$ is isomorphic to $S(g)$ as a coalgebra, via the projection map $U(g)\to Gr U(g)$. 
+
+### Relation to formal deformation quantization
+
+See at _[[deformation quantization]]_ the section _[Relation to universal enveloping algebras](deformation+quantization#RelationToUniversalEnvelopingAlgebras)_.
 
 ## Examples
 
