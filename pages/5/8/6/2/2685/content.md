@@ -2,6 +2,8 @@
 
 #related $n$Lab entries#
 
+* [[perturbative quantum field theory]]
+
 * [[path integral]]
 
 
