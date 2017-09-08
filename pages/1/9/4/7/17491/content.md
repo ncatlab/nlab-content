@@ -9,7 +9,8 @@ This page collects material related to
 
   ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
 
-on [[higher algebra]] ([[brave new algebra]]) in [[stable homotopy theory]], i.e. on [[ring spectra]], [[module spectra]] etc.
+on [[higher algebra]] ([[brave new algebra]]) in [[stable homotopy theory]], i.e. on [[ring spectra]], [[module spectra]] etc. This was the first to give a symmetric [[monoidal model category]] of [[spectra]] (called [[S-modules]]), in which $A_\infty$ and $E_\infty$-[[ring spectra]] could be defined as ordinary monoids and modules. 
+The book is sometimes referred to as *EKMM* for short, after the initials of its authors.
 
 #Contents#
 * table of contents
@@ -54,3 +55,5 @@ on [[higher algebra]] ([[brave new algebra]]) in [[stable homotopy theory]], i.e
 ## Chapter XIII. Epilogue. The category of $\mathbb{L}$-spectra under $S$
 
 category: reference
+
+[[!redirects EKMM]]
