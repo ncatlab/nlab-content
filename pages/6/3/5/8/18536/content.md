@@ -3,10 +3,12 @@
 
 ## related $n$Lab entries
 
-* [[quantum field theory]]
+* [[perturbative quantum field theory]]
 
 * [[quantum electrodynamics]]
 
 * [[adiabatic switching]]
+
+* [[Tomonaga-Schwinger equation]]
 
 category: people
