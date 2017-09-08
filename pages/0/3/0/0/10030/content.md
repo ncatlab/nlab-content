@@ -7,6 +7,10 @@
 
 An _asymptotic series_ is a [[formal power series]] that may not [[convergence|converge]], but whose terms decrease fast enough such that the truncation of the series at any finite order still provides a controled approximation to a given [[function]]. 
 
+The concept of asymptotic expansions plays a key role in the interpretation of [[perturbative quantum field theory]]: This computes [[quantum observables]] as [[formal power series]] (in the [[coupling constant]] and in [[Planck's constant]]) whose [[radius of convergence]] necessarily vanishes in all cases of interest ([Dyson 52](#Dyson52)). Nevertheless, for [[quantum electrodynamics]] and [[quantum chromodynamics]] as in the [[standard model of particle physics]], the truncation of these series to the first handful of terms happens to agree with [[experiment]] (such as at the [[LHC]] collider) to high precision. Therefore one interprets the [[scattering matrix]] in [[perturbative quantum field theory]] as an asymptotic series. 
+
+In [[resurgence theory]] one tries to re-identify from an asymptotic series the corresponding [[analytic function|non-analytic]] contributions.
+
 ## Definition
 
 +-- {: .num_defn}
@@ -43,13 +47,6 @@ The [[Taylor series]] of a [[smooth function]] at any point is always an [[asymp
 
 =--
 
-+-- {: .num_example}
-###### Example
-
-The [[perturbation series]] in [[quantum field theory]] is typically an asymptotic expansion.
-
-=--
-
 ## Related concepts
 
 * [[series]]
@@ -70,6 +67,14 @@ Basic introductions include
 * _Taylor series and asymptotic expansions_ [pdf](http://www.math.ubc.ca/~feldman/m321/asymptotic.pdf)
 
 * R. Shankar Subramanian, _An Introduction to Asymptotic Expansions_ ([pdf](http://web2.clarkson.edu/projects/subramanian/ch527/supplem/asympt.pdf))
+
+The argument that the [[S-matrix]] formal power series in all [[perturbative quantum field theories]] of interest is necessatily divergent is due to
+
+
+* {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum
+electrodynamics_, Phys. Rev. 85, 631, 1952 ([spire](http://inspirehep.net/record/29799?ln=en))
+
+  **Abstract**: _An argument is presented which leads tentatively to the conclusion that all the power-series expansions currently in use in quantum electrodynamics are divergent after the renormalization of mass and charge. The divergence in no way restricts the accuracy of practical calculations that can be made with the theory, but raises important questions of principle concerning the nature of the physical concepts upon which the theory is built._
 
 
 [[!redirects asymptotic expansion]]
