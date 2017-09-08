@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* table of contents
+* table of contents# 
 {:toc}
 
 ## Definition
@@ -140,6 +140,8 @@ This is also called the **Kostant-Souriau central extension**
 
 ## Related concepts
 
+* A _[[polynomial Poisson algebra]]_ is one whose underlying commutative algebra is a [[polynomial algebra]].
+
 *  A __[[Poisson manifold]]__ is a [[smooth manifold]] whose associatve algebra of [[smooth function]]s with values in the [[real line]] $\mathbb{R}$ that is equipped with the structure of a Poisson algebra (over $\mathbb{R}$).
 
 * A [[Poisson n-algebra]] is a Poisson algebra in chain complexes with a bracket of degree $1-n$.
@@ -151,6 +153,8 @@ This is also called the **Kostant-Souriau central extension**
 * A [[Jordan-Lie-Banach algebra]] is a non-associative (quantum) Poisson algebra.
 
 * The [[quantomorphism group]] is the [[Lie group]] that integrates the Poisson [[Lie bracket]]. Over a [[symplectic vector space]] this contains notably the corresponding [[Heisenberg group]].
+
+
 
 [[!include Isbell duality - table]]
 
