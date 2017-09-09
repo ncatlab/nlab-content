@@ -37,7 +37,10 @@ Related to the [[Kuratowski]] and [[Mac Lane]] characterizations is the [[matroi
 
 ## Related entries
 
+* [[Euler's formula for planar graphs]]
+
 * [[planar map]]
+
 * [[topological map]]
 
 ## References
