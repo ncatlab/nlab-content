@@ -277,13 +277,13 @@ and the second summand corresponds to the "theta" Feynman diagram of the form
 
 * [[perturbative quantum field theory]]
 
-* [[S-matrix]]
+* [[S-matrix]], [[perturbation series]] 
 
-* [[scattering amplitude]], [[string scattering amplitude]]
-
-* [[perturbation series]]
+* [[causal perturbation theory]]
 
 * [[path integral quantization]]
+
+* [[scattering amplitude]], [[string scattering amplitude]]
 
 * [[Feynman propagator]]
 
@@ -292,6 +292,8 @@ and the second summand corresponds to the "theta" Feynman diagram of the form
 * [[Schwinger-Dyson equation]]
 
 * [[tadpole]]
+
+* [[loop order]]
 
 ## References
 
