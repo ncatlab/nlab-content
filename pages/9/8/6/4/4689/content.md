@@ -24,6 +24,13 @@
 
 A theory of _quantum gravity_ is supposed to be a [[quantum field theory]] (QFT) -- or something similar -- that corresponds to the [[classical field theory]] of [[gravity]], possibly by [[quantization]].
 
+The key technical problem with quantum gravity as a [[non-perturbative quantum field theory]] is that all known constructions of QFTs quantize [[field (physics)|fields]] defined _on_ a given [[spacetime]] [[background field|background]], while, in contrast, the field of [[gravity]] _is_ (part of) that spacetime. 
+
+Since even for field theories that are defined on space-time backgrounds, such as [[Yang-Mills theory]], [[non-perturbative quantum field theory|non-perturbative]] quantization is a big open problem away from toy examples (for Yang-Mills theory it has been dubbed one of the _Millenium Problems_, see at _[[quantization of Yang-Mills theory]]_) this means that non-perturbative quantum gravity is an even wider open problem.
+
+However, the [[Einstein-Hilbert action]] that defines gravity may be expanded around any of its solutions (to the [[Einstein equations]]) and the resulting perturbation of the field of gravity around this background behaves, to low order, like an ordinary [[field (physics)|field]] on a fixed spacetime background. This allows to treat _perturbtive quantum gravity_ as a [[perturbative quantum field theory]], see the references [below](#ReferencesAsAnEffectiveFieldTheory).
+
+
 While the [[Einstein-Hilbert action]] (or any of its variants) that defines the dynamics of gravity makes perfect sense at low energies as the definition of an [[effective quantum field theory]] (see there for details), it is not expected to be a non-effective theory at arbitrary high energies, because it is not [[renormalization|renormalizable]]: all non-renormalizable QFTs that have appeared in practice turned out to be [[effective QFT]] approximations (see there) to renormalizable [[UV-completions]]. 
 
 The idea has been explored that gravity is simply to be regarded as a [[classical field theory]], but trying to couple such a classical field theory to a [[stress-energy tensor]] of a matter [[quantum field theory]] leads to conceptual problems that break the very foundation of what is known about theoretical physics. The technical problem is this: the [[equations of motion]] of classical Einstein [[gravity]] ([[Einstein's equations]]) assert that the [[Einstein tensor]] of the [[field (physics)]] of [[gravity]] equals the [[energy-momentum tensor]] of all other [[force]] and [[matter]] [[field (physics)|fields]]. Here into the [[energy-momentum tensor]] enters the expression for [[energy]] and [[momentum]] of classical matter fields. However, according to the [[standard model of particle physics]], these matter fields are not described by [[classical field theory]]. This then is the technical problem: there is no consistent way in sight to modify [[Einstein's equations]] so as to have a quantum EM tensor in it. The simple idea of taking the [[expectation value]] of the quantum matter EM-tensor leads to all kinds of theoretical problems.
@@ -112,7 +119,7 @@ That [[Einstein gravity]] is not pertrubatively [[renormalization|renormalizable
 
 * A. E. M. van de Ven, _Two loop quantum gravity_, Nucl. Phys. B 378 (1992) 309.
 
-### As an effective field theory
+### As an effective perturbative field theory
  {#ReferencesAsAnEffectiveFieldTheory}
 
 One may regard [[gravity]] as an [[effective field theory]] and just quantize in [[perturbation theory]]. An introduction to this perspective is in
