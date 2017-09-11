@@ -1,4 +1,4 @@
-**[[algebraic quantum field theory]]** ([[locally covariant perturbative AQFT|locally covariant perturbative]], [[homotopical algebraic quantum field theory|homotopical]])
+**[[algebraic quantum field theory]]** ([[perturbative AQFT|perturbative]], [[AQFT on curved spacetime|on curved spacetimes]], [[homotopical algebraic quantum field theory|homotopical]])
 
 ## Concepts
 
@@ -8,16 +8,14 @@
 
   * [[operator algebra]], [[C*-algebra]], [[von Neumann algebra]]
 
-* [[causal locality]]
-
 * [[local net of observables]]
+
+  * [[causal locality]]
 
   * [[Haag-Kastler axioms]]
 
   * [[Wightman axioms]]
   
-  * [[causal net]]
-
   * [[field net]]
 
   * [[conformal net]]
@@ -28,6 +26,8 @@
 
   * [[quasi-free state]]
 
+  * [[vacuum state]]
+
   * [[Hadamard state]]
 
 
@@ -35,15 +35,26 @@
 
 * [[covariant phase space]]
 
-* [[Peierls bracket|Poisson-Peierls bracket]]
+* [[Peierls-Poisson bracket]], [[causal propagator]]
 
-* [[Wick algebra]], [[microcausal functionals]]
+* [[causal perturbation theory]], [[perturbative AQFT]]
 
-* [[causal perturbation theory]]
+* [[Wick algebra]]
 
-  * [[S-matrix]], [[interacting field algebra]]
+  * [[microcausal functionals]]
 
-* [[locally covariant perturbative AQFT]]
+  * [[normal ordered product]]
+
+* [[S-matrix]], [[scattering amplitude]]
+
+  * [[causal additivity]]
+
+  * [[time-ordered product]], [[Feynman propagator]]
+
+  * [[Feynman diagram]], [[Feynman perturbation series]]
+
+* [[interacting field algebra]]
+
 
 
 ## Theorems
