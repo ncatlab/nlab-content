@@ -19,7 +19,7 @@ This entry provides hyperlinks for the text
 
   _Factorization algebras in perturbative quantum field theory_
 
-  ([pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
+  ([Volume 1](http://people.mpim-bonn.mpg.de/gwilliam/vol1may8.pdf), [Volume 2](http://people.mpim-bonn.mpg.de/gwilliam/vol2may8.pdf))
 
 on the description of [[perturbation theory|perturbative]] [[quantum field theory]] via [[factorization algebras of observables]] (see there for more details).
 
