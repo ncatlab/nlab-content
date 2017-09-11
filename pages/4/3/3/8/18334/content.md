@@ -29,6 +29,10 @@ The program of _homotopical algebraic quantum field theory_ ([Benini-Schenkel 16
 
 The axioms as considered in [Schenkel 17](#Schenkel17) have some  similarity with that of [[factorization homology]], but also do take into account the [[causality]] condition for [[quantum fields]] on [[Lorentzian manifolds]].
 
+## Related concepts
+
+* [[locally covariant perturbative algebraic quantum field theory]]
+
 ## References
 
 For review see
@@ -54,3 +58,5 @@ The [[stack]] of [[Yang-Mills theory|Yang-Mills]] [[gauge fields]] is discussed 
 
 
 [[!redirects homotopical algebraic quantum field theories]]
+
+[[!redirects homotopical AQFT]]
