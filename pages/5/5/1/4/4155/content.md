@@ -49,6 +49,16 @@ $$
 
 ## References ##
 
+An introduction into Tomita-Takesaki modular theory is here:
+
+* Stephen J. Summers: "Tomita-Takesaki Modular Theory" ([arXiv] (http://xxx.uni-augsburg.de/abs/math-ph/0511034))
+
+...while a paper that puts it to serious work is this:
+
+* H.J. Borchers: "On Revolutionizing of Quantum Field Theory
+with Tomita's Modular Theory", ([ESI preprint page] (http://www.esi.ac.at/preprints/ESI-Preprints.html))
+
+
 Many textbooks on operator algebras contain a chapter about modular theory.
 
 MathOverflow question [tomita-takesaki-versus-frobenius-where-is-the-similarity](http://mathoverflow.net/questions/68270/tomita-takesaki-versus-frobenuis-where-is-the-similarity)
