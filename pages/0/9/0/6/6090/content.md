@@ -636,7 +636,7 @@ such that the following conditions hold for fixed $L_{int}, \{ J_n\}_{n = 1}^N$:
      S(0) = 1
    $$
 
-1. (causal additivity)
+1. ([[causal additivity]])
 
    $$
      \left( supp(J_1) \geq supp(J_2) \right)
@@ -2222,6 +2222,9 @@ See also
 An entertaining account of some of the history and the sociology of S-matrix theory is on the first pages of
 
 * {#Shankar99} [[Ramamurti Shankar]], _Effective Field Theory in Condensed Matter Physics_ in _Conceptual Foundations of Quantum Field Theory_, 1999 ([arXiv:cond-mat/9703210](http://arxiv.org/abs/cond-mat/9703210))
+
+
+
 
 [[!redirects S-matrices]]
 
