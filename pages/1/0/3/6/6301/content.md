@@ -77,19 +77,26 @@ Then they comment on Martinec's account above, and other's, by saying:
 
 ## Related concepts
 
+* [[causal structure]]
+
+* [[causal additivity]]
+
+* [[causal closure]]
+
+* [[causal perturbation theory]]
+
 * [[local prequantum field theory]]
 
 * [[local quantum field theory]]
 
-* [[causal structure]]
+* in [[AQFT]]: 
+
+  [[local net of observables]], [[Haag-Kastler axioms]]
 
 * in [[FQFT]]: 
 
   [[extended field theory]]
 
-* in [[AQFT]]: 
-
-  [[local net of observables]], [[Haag-Kastler axioms]]
 
 ## References
 
