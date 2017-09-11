@@ -45,3 +45,6 @@ In various variants it has been (re-)proved in the following articles:
 
 * [[Stefan Hollands]], theorem 2 in _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev. Math. Phys. 20:1033-1172, 2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
 
+
+
+[[!redirects Stückelberg-Peterson renormalization group]]
