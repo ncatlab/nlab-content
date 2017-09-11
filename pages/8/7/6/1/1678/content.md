@@ -213,3 +213,8 @@ Note that both of these use somewhat outdated terminology.
 [[!redirects oplax natural transformations]]
 [[!redirects oplax transformation]]
 [[!redirects oplax transformations]]
+
+[[!redirects lax 2-natural transformation]]
+[[!redirects lax 2-natural transformations]]
+[[!redirects oplax 2-natural transformation]]
+[[!redirects oplax 2-natural transformations]]
