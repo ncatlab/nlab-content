@@ -68,9 +68,14 @@ Similarly
 
 * Tomasz R. Taylor, _A Course in Amplitudes_ ([arXiv:1703.05670](https://arxiv.org/abs/1703.05670))
 
+* {#SummersBuchholz} Stephen J. Summers, [[Detlev Buchholz]], _Scattering in Relativistic Quantum Field Theory: Fundamental Concepts and Tools_ ([arXiv:math-ph/0509047] (https://arxiv.org/abs/math-ph/0509047))
+
+
 A historical overview of the development of on-shell methods/analytic methods is in 
 
 * {#Dixon13} [[Lance Dixon]], _Calculating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
+
+
  
 
 
