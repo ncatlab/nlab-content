@@ -24,12 +24,13 @@
 
 ## Idea
 
-_$C^\ast$-algebraic deformation quantization_ or _strict deformation quantization_ is a refinement of _[[formal deformation quantization]]_ which produces quantum [[algebras of observables]] not just as [[formal power series]] in [[Planck's constant]], but actual [[C-star algebras]].
+What is called _strict_ or _$C*$-algebraic deformation quantization_ is an attempt to formalize [[quantization]] of [[phase spaces]] or more generally of [[Poisson manifolds]] by _[[continuous field of C*-algebras|continuously deforming]]_, in a precise sense, their [[commutative algebra|commutative]] [[algebras of functions]] ([[algebras of observables]]) to non-commutative [[C*-algebras]] whose [[commutators]] are, to "first order" in a suitable sense, determined by the given [[Poisson bracket]].
 
-Where [[formal deformation quantization]] yields [[perturbative quantum field theory]] ([Collini 16](perturbative+algebraic+quantum+field+theory#Collini16)), $C^\ast$-algebraic deformation quantization is hoped to produce [[non-perturbative quantum field theory]]. But to date no examples for interacting field theories in spacetime dimension $\geq 4$ are known.
+This is in contrast to _[[formal deformation quantization]]_, where one asks not for [[C*-algebras]] but just for [[formal power series algebras]]. Where formal deformation quantization is _[[perturbative quantum field theory|perturbative]]_ quantization ([[perturbation]] in [[Planck's constant]], see [Collini 16](perturbative+algebraic+quantum+field+theory#Collini16)), strict deformation quantization is meant to reflect [[non-perturbative quantum field theory|non-perturbative]] quantization.
 
+While there are good examples of strict $C^\ast$-algebraic deformation quantization for toy examples such as low spacetime dimension (notably [[quantum mechanics]]) to date no examples of interacting field theories in spacetime dimension $\geq 4$ have a known non-perturbative quantization. (For the case of [[Yang-Mills theory]]/[[QCD]] the construction of its non-perturbative quantization is one of the open "Millenium Problems" listed by the Clay Mathematics Institute, see at _[[quantization of Yang-Mills theory]]_.) 
 
-Typically the $C^\ast$-algebraic deformation takes the quantum algebra to be a suitable [[convolution algebra]] of suitably [[polarization|polarized]] sections over a [[Lie groupoid]] that [[Lie integration|Lie integrates]] a [[Poisson Lie algebroid]] which encodes the original [[Poisson bracket]] to be quantized ([Howkins 06](#EH)), see at _[[geometric quantization of symplectic groupoids]]_.
+Typically the $C^\ast$-algebraic deformation takes the quantum algebra to be a suitable [[convolution algebra]] of suitably [[polarization|polarized]] sections over a [[Lie groupoid]] that [[Lie integration|Lie integrates]] a [[Poisson Lie algebroid]] which encodes the original [[Poisson bracket]] to be quantized ([Hawkins 06](#EH)), see at _[[geometric quantization of symplectic groupoids]]_.
 
 ## Properties
 
@@ -111,3 +112,5 @@ For the special case of [[Poisson manifolds]] that are total spaces of [[Lie alg
 [[!redirects strict deformation quantizations]]
 
 [[!redirects C-star algebraic deformation quantization]]
+
+[[!redirects strict C*-algebraic deformation quantization]]
