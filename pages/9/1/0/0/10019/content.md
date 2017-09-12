@@ -1,5 +1,9 @@
 
-[[quantization]] by means of the [[path integral]]
+## Idea
+
+[[quantization]] by means of the [[path integral]].
+
+Rigorous constructions go by the term _[[constructive quantum field theory]]_
 
 ## Related concepts
 
