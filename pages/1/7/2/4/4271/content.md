@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _state_ is a [[configuration space|configuration]] of a system in [[physics]], together with enough information about its [[time evolution]] (typically, the first derivative is sufficient) to allow one to propagate it arbitrarily.
+A _state_ of a system in [[physics]] is...
 
 In the [[Bayesian interpretation of physics]], the state of a system is not a property of reality but instead indicates an observer\'s knowledge about the system.  A _[[pure state]]_ gives maximal information about the system (which amounts to complete information in [[classical mechanics]] but not generally in [[quantum mechanics]]), while a _[[mixed state]]_ is more general.  A mixed state can be decomposed into a [[probability distribution]] on the space of pure states, although this decomposition is unique only for classical systems.  In a frequentist interpretation of probability, a mixed state can describe only a statistical ensemble of systems; the real world is in one (generally unknown) pure state (possibly with additional hidden variables in the quantum case, depending on the interpretation of quantum physics).
 
