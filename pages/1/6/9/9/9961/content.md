@@ -1,11 +1,35 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-[[computation|Computational]] model for [[gauge theory]] ([[Yang-Mills theory]])
+Lattice gauge theory is a [[computation|Computational]] model for [[gauge theory]] ([[Yang-Mills theory]]).
+
+These are numerical simulation of [[Wick rotation|Wick rotated]] [[non-perturbative quantum field theory|non-perturbative QCD]] obtained by discretizing the Euclidean [[spacetime]] to a _lattice_ [[graph]] of [[vertices]] and [[edges]] between them, regarding the [[gauge field]] as a function on the [[edges]] (assigning to an edge the [[holonomy]]/[[parallel transport]] of the gauge field) and then explicitly evaluating the would-be [[path integral]] of the [[Yang-Mills action]] over these field configurations as an approximate numerical sum. 
+
+Specifically for [[QCD]] this is also called _lattice QCD_, etc.
+
+Hence this yieds numerical values for [[correlation functions]] etc. which are non-perturbative in the [[coupling constant]] but nevertheless approximate, due to finite lattice spacing and numerical error. 
+
+Since the explicit [[non-perturbative quantum field theory|non-perturbative]] formulation of [[Yang-Mills theories]] such as [[QCD]] is presently wide open (see also at _[[quantization of Yang-Mills theory]]_) these numerical simulation provide, besides [[experiment]] (e.g. of in particular of [[quark-gluon plasma]]), a key insight into the non-perturbative nature of the theory, such as its [[instanton sea]] ([Gruber 13](#Gruber13)) and the phenomenona of [[confinement]] and [[mass gap]].
+
+Despite the word "theory", lattice gauge theory is more like "computer-simpulated [[experiment]]". While it allows to see phenomena of QCD, it usually cannot provide a conceptual explanation, and of course not a mathematical derivation.
+
+
 
 ## Related concepts
 
@@ -27,6 +51,12 @@ Disucssion of [[QCD instantons]] in LGT includes ([Moore 03, section 7](#Moore03
 
 * {#Moore03} Guy Moore, _Informal lectures on lattice gauge theory_, 2003 ([pdf](http://www.physics.mcgill.ca/~guymoore/latt_lectures.pdf))
 
+See also 
+
+* Wikipedia, _[Lattice gauge theory](https://en.wikipedia.org/wiki/Lattice_gauge_theory)_
+
+* Wikipedia, _[Lattice QCD](https://en.wikipedia.org/wiki/Lattice_QCD)_
+
 ### Monte-Carlo simulations
  {#ReferencesMontoCarloSimulations}
 
@@ -44,3 +74,5 @@ Disucssion of [[QCD instantons]] in LGT includes ([Moore 03, section 7](#Moore03
 
 
 [[!redirects lattice gauge field theory]]
+
+[[!redirects lattice QCD]]
