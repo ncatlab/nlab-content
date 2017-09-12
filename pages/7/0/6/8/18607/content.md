@@ -1,0 +1,10 @@
+
+* [webpage](http://www.phas.ubc.ca/~mav/vanraamsdonk.html)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Mark_Van_Raamsdonk)
+
+## related $n$Lab entries
+
+* [[holographic entanglement entropy]]
+
+category: peope
