@@ -179,6 +179,8 @@ I am writing an irregular column at [PhysicsForums Insights](https://www.physics
 
 * _[Super p-Brane Theory from Super Homotopy Theory](http://www.physicsforums.com/insights/super-p-brane-theory-emerging-super-homotopy-theory/)_
 
+* _[Introduction to Perturbative Quantum Field Theory](https://www.physicsforums.com/insights/paqft-idea-references/)_
+
 ## more on the web
 
 For logs of further activity see my page
