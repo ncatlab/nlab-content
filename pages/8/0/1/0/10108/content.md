@@ -25,7 +25,7 @@ Despite its fundamental role in the [[standard model of particle physics]], vari
 
 and notably
 
-* the _mass gap problem_, the question of why the [[bound states]] of massless [[quarks]] ([[hadrons]]) have [[mass]]
+* the [[mass gap problem]], the question of why the [[bound states]] of massless [[quarks]] ([[hadrons]]) have [[mass]]
 
 ## References
 
@@ -35,7 +35,7 @@ A survey and problem description is in
 
 * {#JaffeWitten} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/sites/default/files/yangmills.pdf))
 
-and a report on the progress (esseentially none) is in 
+and a report on the progress (essentially none) is in 
 
 * {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills
 Millenium Prize Problem_, 2004 ([pdf](http://www.claymath.org/sites/default/files/ym2.pdf))
