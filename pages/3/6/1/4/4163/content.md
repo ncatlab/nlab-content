@@ -12,7 +12,7 @@
 #Contents#
 * table of contents
 {:toc}
-o
+
 ## Idea
 
 What is called _perturbative quantum field theory_ (pQFT) is [[quantum field theory]] where the [[interaction]] (between [[field (physics)|fields]]/[[particles]]) is treated as a tiny [[perturbation]] of the "[[free field theory]]" where no interaction is assumed to takes place ("[[perturbation theory]]"). This is meant to be an approximation to the actual _[[non-perturbative quantum field theory]]_. However, the latter remains elusive except for toy examples of low spacetime dimension, vanishing interaction and/or [[topological field theory|topological invariance]] and most of the "quantum field theory" in the literature is tacitly understood to be perturbative.
@@ -147,8 +147,18 @@ The relation of the construction via [[causal perturbation theory]] to the [[Fey
 55(12), 122303 (2014) ([arXiv:1311.5424](https://arxiv.org/abs/1311.5424))
 
 
+[[!redirects perturbative quantum field theories]]
 
 
 [[!redirects perturbative field theory]]
+[[!redirects perturbative field theorys]]
 
-[[!redirects perturbative quantum field theories]]
+[[!redirects perturbative QFT]]
+[[!redirects perturbative QFTs]]
+
+
+[[!redirects pQFT]]
+[[!redirects pQFTs]]
+
+
+
