@@ -75,9 +75,9 @@ Introductions include
 
   Lesson 3 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_3.pdf))
 
-Rigorous construction as a [[perturbative quantum field theory]] via [[causal perturbation theory]] is due to
+Rigorous construction as a [[perturbative quantum field theory]] via [[causal perturbation theory]] is discussed in
 
-* {#Scharf01} [[Günter Scharf]], _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
+* {#Scharf01} [[Günter Scharf]], chapter 3 of _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
 
 Discussion of on-shell methods in QCD [[perturbation theory]] includes
