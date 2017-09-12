@@ -359,14 +359,19 @@ Reviews include the following:
 * Alberto Salvio, _Superconductivity, Superfluidity and Holography_ ([arXiv:1301.0201](http://arxiv.org/abs/1301.0201))
 
 [[!redirects AdS/CFT]]
+
 [[!redirects AdS/CFT correspondence]]
 [[!redirects AdS-CFT correspondence]]
-
 [[!redirects AdS-CFT correspondence]]
-
 [[!redirects AdS/CFT correspondence]]
 
 [[!redirects AdS-CFT duality]]
 
 [[!redirects AdS7-CFT6]]
+[[!redirects AdS7-CFT6 duality]]
+
 [[!redirects AdS5-CFT4]]
+[[!redirects AdS5-CFT4 duality]]
+
+[[!redirects AdS4-CFT3]]
+[[!redirects AdS4-CFT3 duality]]
