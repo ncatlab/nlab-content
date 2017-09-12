@@ -83,6 +83,10 @@ See also
 
 * Nadav Drukker, [[Marcos Marino]], Pavel Putrov, _From weak to strong coupling in ABJM theory_ ([arXiv:1007.3837](http://arxiv.org/abs/1007.3837))
 
+Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the ABJM theory for the [[M2-brane]] is discussed in
+
+* Jun Nian, Xinyu Zhang, _Entanglement Entropy of ABJM Theory and Entropy of Topological Black Hole_ ([arXiv:1705.01896](https://arxiv.org/abs/1705.01896))
+
 [[!redirects ABJM model]]
 [[!redirects ABJM-model]]
 
