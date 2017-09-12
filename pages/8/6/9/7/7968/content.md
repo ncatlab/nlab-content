@@ -30,7 +30,7 @@ which governs the [[prequantization]] lift from real ([[differential cohomology|
 
 Finally, when infinitesimally approximating this [[quantization]] step in [[perturbation theory]] in $h$ (see at [[formal deformation quantization]]), then Planck's constant is the very [[formal geometry|formal expansion parameter]] of the [[deformation theory|deformation]]. This we discuss below in
 
-* _[In formal deformation quantization](#InFormalDeformationQuantization)_.
+* _[In perturbative quantization](#InFormalDeformationQuantization)_.
 
 
 ## As a physical constant 
@@ -166,11 +166,12 @@ See at _[[higher geometric quantization]]_ for more on this.
 
 
 
-## In formal deformation quantization
+## In perturbative quantization
  {#InFormalDeformationQuantization}
 
-In [[formal deformation quantization]], Planck's constant is that very formal deformation parameter. See there for more.
+In [[perturbative quantum field theory]] Planck's constant (together with the [[coupling constant]], which indicates the strength of [[interactions]]) is regarded as tiny, in fact as [[infinitesimal]], in that all [[observables]] are expressed as (generally non-converging, [[asymptotic series|asymptotic]]) [[formal power series]] in the coupling constant.
 
+This is explicitly realized by [[formal deformation quantization]], which regards [[quantization]] as as deformation of the classical [[algebra of observables]] to a non-commutative algebra on [[formal power series]] with [[coefficients]] the original observables.
 
 
 ## Related concepts
