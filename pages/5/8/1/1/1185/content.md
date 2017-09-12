@@ -155,9 +155,14 @@ The __[[successor]]__ of a well-ordered cardinal $\kappa$ is the smallest well-o
 * A cardinal $\kappa$ is a **[[measurable cardinal]]** if some (hence any) set of cardinality $\kappa$ admits a two-valued [[measure]] which is $\kappa$-additive, or equivalently an [[ultrafilter]] which is $\kappa$-complete.
 
 
-## Groupoid cardinality
 
-For a generalization of cardinality from sets to [[groupoids]] see [[groupoid cardinality]].
+## Related concepts
+
+* [[groupoid cardinality]]
+
+* [[counting measure]]
+
+* [[ordinal number]]
 
 
 ## References
