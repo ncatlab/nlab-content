@@ -26,19 +26,6 @@ The fact that any two spacelike-separated regions of spacetime thus behave like 
 
 (One sometimes sees a further criterion to causality, that the causal influences in timelike and lightlike directions only propagate into the [[future]], but this is not so simply dealt with; it probably only makes sense as a statement about coarse-grained [[entropy]] in [[statistical physics]].)
 
-For a formalization of this idea see for instance
-
-* [[local quantum field theory]]
-
-* [[local prequantum field theory]]
-
-* [[local net of observables]]
-
-Under [[Wick rotation]], causal locality becomes "[[statistical locality]]"  (see _[[Osterwalder-Schrader theorem]]_).
-
-## Microcausality
- {#Microcausality}
-
 From ([Grigor'ev 197x](#Grigoriev)):
 
 > Microcausality condition
@@ -55,9 +42,71 @@ Notice that $10^{-15}$[[cm]] $ = 10^{-17}m  = 10^{-2}$[[fm]] and that the (charg
 
 It seems that [Grigor'ev 197x](#Grigoriev) just cited the length scale resolution of particle accelerators at that time. More recently, the [[LHC]] (see there) probes scales $\simeq 10^{-20}m$.
 
+
+## In algebraic quantum field theory
+  {#InAlgebraicQuantumFieldTheory}
+
+In [[algebraic quantum field theory]] causal locality is formalized as follows. This is a key statement in the [[Haag-Kastler axioms]] on [[causally local nets of quantum observables]]:
+
++-- {: .num_defn #CausalLocalityOfAlgebrasOfObservables}
+###### Definition
+**(causal locality of algebras of observables)**
+
+A [[co-presheaf]] of [[algebras of quantum observables]] $\mathcal{A}$ on some [[spacetime]] is _causally local_ if the algebras  $\mathcal{A}(\mathcal{O})$ localized in [[spacelike]] separated [[spacetime]] regions $\mathcal{O}$ commute with each other (inside any of the algebras of observables localized in the causal closure $\mathcal{O}$ of the union of the two spacetime regions). 
+
+$$
+  \left(
+    \mathcal{O}_1 
+     \;\text{spacelike separated from}
+     \;
+    \mathcal{O}2
+  \right)
+  \;\Rightarrow\;
+  \left(
+    [\mathcal{A}(\mathcal{O}_1), \mathcal{A}(\mathcal{O}_2)]
+    \;=\;
+    0
+    \;\;\;\;
+    \in \mathcal{A}( \mathcal{O} )
+  \right)
+  \,.
+$$
+
+=--
+
+Under [[Wick rotation]], this causal locality becomes "statistical locality""  (see at _[[Osterwalder-Schrader theorem]]_).
+
+In [[perturbative algebraic quantum field theory]] this condition follows from the [[causal additivity]] of the [[S-matrix]] (see there the section _[Causal locality and Quantum obsrvables](S-matrix#CausalLocality)_).
+
+There are variants that one may consider:
+
++-- {: .num_defn #StrongLocality}
+###### Definition
+**(strong causal locality of algebras of observables)**
+
+A [[local net of quantum observables]] is **strongly causally local** if it is causally local in that algebras $A_1 = A(O_1)$ and $A_2 = A(O_2)$ associated with  spacelike separated regions commute with each other, and in addition for all commutative subalgebras $C_1 \subset A_1$ and $C_2 \subset A_2$ the algebra $C_1 \vee C_2 \subset A(O_1 \vee O_2)$ satisfies
+
+1. $(C_1 \vee C_2) \cap A_1 = C_1$
+
+1. $(C_1 \vee C_2) \cap A_2 = C_2$.
+
+=--
+
+This is ([Nuiten 11, def. 14](#Nuiten11)).
+
+
+There have been various proposals to understand these conditions from other principles: 
+
+1. In ([Schreiber 09](#Schreiber09)) the condition \ref{CausalLocalityOfAlgebrasOfObservables} is related to [[n-functor|n-functoriality]] of a corresponding ([[Schrödinger picture]]) [[functorial quantum field theory]].
+
+1. In ([Nuiten 11, theorem 4.2](#Nuiten11)) the condition \ref{StrongLocality} us shown to be implied by the associated pre-sheaf of [[Bohr toposes]] satisfying spatial [[descent]] by [[local geometric morphisms]].
+
+1. In ([Brunetti-Fredenhagen-Imani-Rejzner 12](#BrunettiFredenhagenImaniRejzner12)) condition def. \ref{CausalLocalityOfAlgebrasOfObservables} is shown to be equivalent to the [[co-presheaf]] of observables being a [[monoidal functor]] is a suitable way.
+
+
 ## In S-matrix theories and string theory
 
-In [[S-matrix]] theories causality is meant to be incarnated in terms of [[analytic function|analyticity]] properties of the [[scattering amplitudes]] (for this reason one often speaks of "the analytic S-matrix").
+In [[S-matrix]] theories [[causal additivity]] is meant to also be incarnated in terms of [[analytic function|analyticity]] properties of the [[scattering amplitudes]] (for this reason one often speaks of "the analytic S-matrix").
 
 One S-matrix theory is [[perturbative string theory]]. Discussion of causality in string theory includes [Martinec 95](#Martinec95) and ([Erler-Gross 04](#ErlerGross04)). The latter write in their introduction:
 
@@ -109,10 +158,24 @@ Then they comment on Martinec's account above, and other's, by saying:
 * Anthony Duncan, _The Conceptual Framework of Quantum Field Theory -- Dynamics IV: Aspects of locality: clustering, microcausality, and analyticity_, Oxford Scholarship Online ([web](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199573264.001.0001/acprof-9780199573264-chapter-6))
 
 * {#Bell75} [[John Bell]], _The theory of local beables_ (1975) ([pdf](http://cds.cern.ch/record/980036/files/197508125.pdf))
- 
-
 
 * [pdf](http://ptp.oxfordjournals.org/content/52/1/335.full.pdf)
+
+### In algebraic quantum field theory
+
+For references on the traditional discussion in [[AQFT]] see at _[[Haag-Kastler axioms]]_ and at _[[causally local net of observables]]_. Proposals to understand the causal locality axiom from other principles include
+
+
+* {#Schreiber09} [[Urs Schreiber]], _AQFT from $n$-functorial QFT_ , Comm. Math. Phys., Volume 291, Issue 2, pp.357-401 2009 ([pdf](http://ncatlab.org/schreiber/files/AQFTfromFQFT.pdf))
+
+
+* {#Nuiten11} [[Joost Nuiten]], _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets]]_, Proceedings of [QPL 2011](http://qpl.science.ru.nl/), [EPTCS 95, 2012](http://rvg.web.cse.unsw.edu.au/eptcs/content.cgi?QPL2011), pp. 211-218
+([arXiv:1109.1397](http://arxiv.org/abs/1109.1397))
+
+* {#BrunettiFredenhagenImaniRejzner12} [[Romeo Brunetti]], [[Klaus Fredenhagen]], Paniz Imani, [[Katarzyna Rejzner]], _The Locality Axiom in Quantum Field Theory and Tensor Products of $C^*$-algebras_ ([arXiv:1206.5484](https://arxiv.org/abs/1206.5484))
+
+
+
 
 ### In S-matrix theories and string theory
 
