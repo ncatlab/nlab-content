@@ -1,4 +1,3 @@
-[[!redirects local net]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -75,7 +74,9 @@ $$
   \mathcal{A} : LorSp \to Alg_{inc} \to Alg
 $$
 
-such that whenever $X_1 \coprod X_2 \hookrightarrow X$ is a causal embedding, def. \ref{CatOfSpacetimeEmbeddings}, we have that $\mathcal{A}(X_1) \subset \mathcal{A}(X)$ commutes with $\mathcal{A}(X_2) \subset \mathcal{A}(X)$.
+such that 
+
+* ([[causal locality]]) whenever $X_1 \coprod X_2 \hookrightarrow X$ is a causal embedding, def. \ref{CatOfSpacetimeEmbeddings}, we have that $\mathcal{A}(X_1) \subset \mathcal{A}(X)$ commutes with $\mathcal{A}(X_2) \subset \mathcal{A}(X)$.
 
 =--
 
@@ -165,8 +166,9 @@ In ([Nuiten 11](#Nuiten11)) the following variant of [[causal locality]] was con
 
 +-- {: .num_defn #StrongLocality}
 ###### Definition
+**([[strong causal locality]])**
 
-A net of observables is **strongly local** if it is microlocal in that algebras $A_1 = A(O_1)$ and $A_2 = A(O_2)$ associated with  spacelike separated regions commute with each other, and in addition for all commutative subalgebras $C_1 \subset A_1$ and $C_2 \subset A_2$ the algebra $C_1 \vee C_2 \subset A(O_1 \vee O_2)$ satisfies
+A net of observables is **[[strong causal locality|strongly (causally) local]]** if it is microlocal (i.e. [[causal locality|causally local]]) in that algebras $A_1 = A(O_1)$ and $A_2 = A(O_2)$ associated with  spacelike separated regions commute with each other, and in addition for all commutative subalgebras $C_1 \subset A_1$ and $C_2 \subset A_2$ the algebra $C_1 \vee C_2 \subset A(O_1 \vee O_2)$ satisfies
 
 1. $(C_1 \vee C_2) \cap A_1 = C_1$
 
@@ -317,6 +319,12 @@ which was however mostly ignored and forgotten. It is taken up again in
 (a quick survey is in section 8, details are in section 2).
 
 
+[[!redirects causally local nets of observables]]
+
+[[!redirects causally local net of quantum observables]]
+[[!redirects causally local nets of quantum observables]]
+
+[[!redirects local net]]
 [[!redirects local nets]]
 
 [[!redirects Haag-Kastler net]]
