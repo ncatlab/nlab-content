@@ -8,7 +8,7 @@ This page collects material related to the textbook
 
   Wiley 2001
 
-which applies [[causal perturbation theory]] to rigorously construct quantum [[Yang-Mills theory]] ([[quantum chromodynamics]]) and [[quantum gravity]] as [[perturbative quantum field theories]].
+which applies [[causal perturbation theory]] to rigorously construct quantum [[Yang-Mills theory]] ([[quantum chromodynamics]] and [[electroweak field|electroweak theory]]) and [[quantum gravity]] as [[perturbative quantum field theories]].
 
 The analogous discussion of [[quantum electrodynamics]] in in
 
