@@ -11,6 +11,8 @@
 
 * [[holographic entanglement entropy]]
 
+* [[black hole entropy]] via [[AdS-CFT duality]]
+
 ## References
 
 * Wikipedia, _[Entropy of entanglement](http://en.wikipedia.org/wiki/Entropy_of_entanglement)_
