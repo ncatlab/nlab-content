@@ -28,7 +28,9 @@ $$
 is a probability density.
 
 
-## Application in physics
+## In quantum physics
+
+### General
 
 Probability amplitudes appear as [[pure states]] of [[quantum mechanical systems]] in the form of _[[wave functions]]_ $\psi$ on the [[phase space]] of a corresponding [[classical system]]. The [[Born rule]] of [[quantum physics]] says  that the probability density $\rho = \psi^\ast \psi$ describes the probability to find the physical system in a given classical state (in a given region of its phase space).
 
@@ -36,6 +38,15 @@ The fact that probability amplitudes are complex-valued means that under additio
 
 For instance on some [[probability space]] $(X,\mu)$ there are the probability amplitudes $ \exp(i \pi/2) \mu$ and $\exp(-i \pi/2)\mu$ whose associated probability densities are both just $\mu$ itself again. But the sum of these two probability amplitudes vanishes, in contrast to the sum of their associated probability densities. This is known as "destructive" [[quantum interference]].
 
+### Scattering amplitudes
+
+In [[perturbative quantum field theory]] the key probability amplitudes considered are _[[scattering amplitudes]]_, which encode the probability for a given  configuration of field quanta to come in from the far past, interact with each other and hence "scatter off" each other, and then re-emerge as some other set of field quanta in the far future.
+
+These amplitudes are collected in the _[[scattering matrix]]_ of the [[perturbative quantum field theory]].
+
+## Related concepts
+
+* [[quantum observable]]
 
 [[!redirects probability amplitude]]
 [[!redirects probability amplitudes]]
