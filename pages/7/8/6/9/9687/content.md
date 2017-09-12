@@ -31,6 +31,7 @@ While confinement in plain [[Yang-Mills theory]] is still waiting for mathematic
 ## Related concepts
 
 * [[asymptotic freedom]]
+* [[quantization of Yang-Mills theory]]
 
 ## References
 
