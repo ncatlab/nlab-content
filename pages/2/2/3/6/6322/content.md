@@ -27,6 +27,10 @@ _Quantum chromodynamics_ ("QCD") is the [[quantum field theory]] of [[Yang-Mills
 
 The corresponding [[effective field theory]] that describes [[bound states]] such as [[protons]] is [[quantum hadrodynamics]].
 
+## Properties
+
+* [[asymptotic freedom]]
+
 ## Related concepts
 
 * [[lattice QCD]]
