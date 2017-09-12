@@ -53,6 +53,8 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
 
       * [[confinement]]
 
+      * [[mass gap]]
+
       * [[quark-gluon plasma]]
 
     * [[electroweak field]]
