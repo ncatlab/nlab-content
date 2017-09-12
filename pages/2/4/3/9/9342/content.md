@@ -16,7 +16,17 @@
 
 ## Idea
 
-Full [[quantum field theory]] is sometimes called -- for emphasis and in contrast to its approximation by [[perturbation theory]] -- _non-perturbative quantum field theory_ .
+The construction of [[quantum field theory]] is often considered only in the [[infinitesimal neighbourhood]] of the [[classical field theory|classical]] [[free field theory]]; this is called _[[perturbative quantum field theory]]_. Since this very coarse (but remarkably succesful) perturbative concept of quantum field theory has come to often be considered by default, one speaks of _non-perturbative quantum field theory_ in order to amplify that the full theory is meant to be considered, not just the perturbative approximation.
+
+An important [[non-perturbative effect]] in experimentally observed [[quantum physics]] that is invisible to [[perturbative QFT]] is the [[confinement]] and the [[mass gap]] of [[quantum chromodynamics]] ([[Yang-Mills theory]] with [[simple Lie group|simple]] [[gauge group]]).
+
+Presently non-perturbative quantum field theories have been constructed only in simple toy examples, such as for [[free field theories]] (no interaction) or in low [[spacetime]] [[dimension]] (e.g. [[2d CFTs]]) or for [[topological quantum field theories]]. 
+
+Indeed the example of non-perturbative [[quantization of Yang-Mills theory]] (see there) in 4 dimensions, or even just enough of it to find the expected [[mass gap]] of the theory, is listed as one of the open "Millenium Problems" by the Clay Mathematics Institute.
+
+One attempt to construct non-perturbative quantum field theories on [[Minkowski spacetime]] was to make rigorous sense of the [[path integral]] for the [[Wick rotation|Wick-rotated]] Euclidean theory by construction of suitable [[measures]]. This approach is known as "[[constructive quantum field theory]]". It worked for [[scalar field theory]] such as [[phi^4 theory]]  in spacetime dimension 2 and 3, but (so far) not in dimension 4.
+
+It may be noteworthy that the established construction of [[perturbative quantum field theory]] has been understood to be an example of the systematic process of [[quantization]] called [[formal deformation quantization]], specifically as an example of [[Fedosov deformation quantization]] ([Collini 16](perturbative+algebraic+quantum+field+theory#Collini16)). Since the non-perturbative version of [[formal deformation quantization]] is _[[strict C*-algebraic deformation quantization]]_ the latter might be a useful perspective on the problem.
 
 ## Related concepts
 
