@@ -96,3 +96,6 @@ A discussion of the problems of the traditional notion and its rectification in 
 * section _[Fields](geometry%20of%20physics#Fields)_ of _[[geometry of physics]]_
 
 [[!redirects field bundles]]
+
+[[!redirects field fiber]]
+[[!redirects field fibers]]
