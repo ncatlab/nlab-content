@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] _loop order_ refers to something like the "number of loops" in the [[Feynman diagram]] that contibutes to a given [[scattering amplitude]]. The higher the loop order, the smaller the contribution of this [[Feynman diagram]] to the total [[scattering amplitude]], because loop order translates into prefactors by powers of [[Planck's constant]] $\hbar$ (see [below](#RelationToPowersInPlancksConstant)), which is "small". 
+In [[perturbative quantum field theory]] the [[scattering amplitudes]] in the [[S-matrix]] are expressed as [[formal power series]] in (the [[coupling constant]] and) in [[Planck's constant]] $\hbar$. This formal power series may be expressed as a formal sum of contributions labeled by [[Feynman diagrams]]. The _loop order_ refers to something like the "number of loops" of [[edges]] in the [[Feynman diagram]] that contibutes to a given [[scattering amplitude]]. The higher the loop order, the higher the power of $\hbar$ that is contributed by this diagram (see [below](#RelationToPowersInPlancksConstant)), which is "small". 
 
 Most predictions of the [[standard model of particle physics]] have very good agreement with [[experiment]] already to very low loop order, first or second; inclusion of third loop order is used to constrain theoretical uncertainties of the result (e.g. in [[Higgs field]] computation, see [ADDHM 15](#ADDHM15)). 
 In rare cases higher loop orders are used (for instance in the computation of the [[anomalous magnetic moments]] [AHKN 12](#AHKN12), but this is not a scattering experiment).
@@ -128,6 +128,10 @@ $$
 * {#ADDHM15} Charalampos Anastasiou, Claude Duhr, Falko Dulat, Franz Herzog, Bernhard Mistlberger, _Higgs boson gluon-fusion production in N3LO QCD_, Phys. Rev. Lett. 114, 212001 (2015) ([arXiv:1503.06056](https://arxiv.org/abs/1503.06056))
 
 
+[[!redirects loop orders]]
+
 [[!redirects 1-loop]]
 [[!redirects 2-loop]]
 [[!redirects 3-loop]]
+
+
