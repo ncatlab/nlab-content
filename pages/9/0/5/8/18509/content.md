@@ -1,14 +1,22 @@
 
+
 ## Idea
 
 A [[differential operator]] whose [[principal symbol]] is hyperbolic (...)
 
+Over a [[Lorentzian manifold]] this is a _normally hyperbolic differential operator_ is the principal symbol coincides with the given [[pseudo-Riemannian metric]].
+
 ## Examples
 
 * [[wave operator]]
+
+* [[Klein-Gordon operator]]
 
 ## Related concepts
 
 * [[elliptic differential operator]]
 
 [[!redirects hyperbolic differential operators]]
+
+[[!redirects normally hyperbolic differential operator]]
+[[!redirects normally hyperbolic differential operators]]
