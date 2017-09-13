@@ -3,7 +3,7 @@
 {:bluebox: .un_remark style="border:solid #000000;background: #E6DF13;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 
-> This entry is about the notion in [[physics]]. For the different notion of the same name in [[algebra]] see at _[[field]]_.
+> This entry is about the notion in [[physics]] and [[classical field theory|classical]]/[[quantum field theory]]. For the different notion of the same name in [[algebra]] see at _[[field]]_.
 
 ***
 
