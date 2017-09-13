@@ -23,7 +23,7 @@ The key object of perturbative QFT is the perturbative _[[scattering matrix]]_ w
 
 The perturbative [[S-matrix]] turns out to have an expression as a sum over separate [[scattering amplitudes]] for elementary processes labeled by _[[Feynman diagrams]]_, each of which depicts one specific way for fields ([[particles]]) to interact with each other. That the full S-matrix is the sum over all amplitudes for all these possible scattering processes, the _[[Feynman perturbation series]]_, is an incarnation of the informal heuristic of the [[path integral]] and the [[superposition principle]] in [[quantum physics]], which says that the [[probability amplitude]] for a specific outcome is the sum over the probability amplitudes of all the possible processes that can contribute to this outcome. 
 
-For all interesting interacting [[theory (physics)|theories]], such as [[quantum electrodynamics]] and [[quantum chromodynamics]], this [[scattering matrix]] [[formal power series]] necessarily has _vanishing_ [[radius of convergence]] ([Dyson 52](perturbation+theory#Dyson52)). It is regarded as an [[asymptotic series]] whose first couple of terms sum to a good approximation of the actual value to be computed. Indeed, the sum of the first few loop orders in the [[S-matrix]] for  [[QED]] and [[QCD]] in the [[standard model of particle physics]] turns out to be in agreement with [[experiment]] to high precision. 
+For all interesting interacting [[theory (physics)|theories]], such as [[quantum electrodynamics]] and [[quantum chromodynamics]], this [[scattering matrix]] [[formal power series]] necessarily has _vanishing_ [[radius of convergence]] ([Dyson 52](#Dyson52)). It is regarded as an [[asymptotic series]] whose first couple of terms sum to a good approximation of the actual value to be computed. Indeed, the sum of the first few loop orders in the [[S-matrix]] for  [[QED]] and [[QCD]] in the [[standard model of particle physics]] turns out to be in agreement with [[experiment]] to high precision. 
 
 (There are however known [[non-perturbative effects]] which are not captured in perturbation theory, such as [[instantons in QCD]]. In [[resurgence theory]] one tries to identify these from the nature of the perturbation series.)
 
@@ -70,7 +70,11 @@ The argument that the perturbation series of realistic pQFTs necessarily diverge
 * {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum
 electrodynamics_, Phys. Rev. 85, 631, 1952 ([spire](http://inspirehep.net/record/29799?ln=en))
 
-see also
+recalled for instance in 
+
+* {#Suslov05} [[Igor Suslov]], section 1 of _Divergent perturbation series_, Zh.Eksp.Teor.Fiz. 127 (2005) 1350; J.Exp.Theor.Phys. 100 (2005) 1188 ([arXiv:hep-ph/0510142](https://arxiv.org/abs/hep-ph/0510142))
+
+* Justin Bond, last section of _Perturbative QFT is Asymptotic; is Divergent; is Problematic in Principle_ ([pdf](https://mcgreevy.physics.ucsd.edu/s13/final-papers/2013S-215C-Bond-Justin.pdf))
 
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
 
