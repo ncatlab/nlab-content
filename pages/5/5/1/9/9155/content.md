@@ -57,6 +57,12 @@ Here, too, one can consider the analog of [[extended quantum field theory]] and 
 
 * [[cluster decomposition]]
 
+* [[Lagrangian quantum field theory]]
+
+* [[algebraic quantum field theory]]
+
+* [[perturbative algebraic quantum field theory]]
+
 ## References
 
 * _[[schreiber:Local prequantum field theory]]_
