@@ -19,7 +19,7 @@
 
 ## Idea
 
-_Quantum electrodynamics_ ("QED") is the [[quantum field theory]] of [[electromagnetism]]: it describes the [[quantum theory]] of [[photon]]s and [[electron]]s.
+_Quantum electrodynamics_ ("QED") is the [[quantum field theory]] of [[electromagnetism]]: it describes the [[quantum theory]] of [[photons]] and [[electrons]].
 
 
 ## Related concepts
@@ -66,6 +66,10 @@ Mathematically rigorous discussion in [[causal perturbation theory]] is in
 A construction of QED in the context of [[locally covariant perturbative quantum field theory|pertubative AQFT]] is discussed in 
 
 * [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of QED_ , Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/abs/hep-th/9807078)). 
+
+Comparison to [[experiment]] is reviewed in
+
+* _Tests of QED_ ([pdf](http://edu.itp.phys.ethz.ch/hs10/ppp1/PPP1_6.pdf))
 
 
 
