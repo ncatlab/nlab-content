@@ -304,6 +304,7 @@ For general accounts see at
 * Wikipedia, _[Feynman diagram](https://en.wikipedia.org/wiki/Feynman_diagram)_
 
 ### In causal perturbation theory
+ {#ReferencesInCausalPerturbationTheory}
 
 Discussion of Feynman diagrams in the rigorous formulation of [[causal perturbation theory]] and [[perturbative AQFT]] is due to
 
