@@ -61,9 +61,19 @@ In particular the [[phenomenology|phenomenologically]] interesting case of a com
 
 ## References
 
-The original informal conception of the theory is due to [[Tomonaga]], [[Schwinger]], [[Feynman]] and [[Dyson]]:
+The original informal conception of perturbative QFT is due to [[Tomonaga]], [[Schwinger]], [[Feynman]] and [[Dyson]]:
 
 * {#Dyson49} [[Freeman Dyson]], _The raditation theories of Tomonaga, Schwinger and Feynman_, Phys. Rev. 75, 486, 1949 ([pdf](http://web.ihep.su/dbserv/compas/src/dyson49b/eng.pdf))
+
+The argument that the perturbation series of realistic pQFTs necessarily diverges goes back to 
+
+* {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum
+electrodynamics_, Phys. Rev. 85, 631, 1952 ([spire](http://inspirehep.net/record/29799?ln=en))
+
+see also
+
+* {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
+
 
 The rigorous formulation of renormalized perturbative quantum field theory in terms of [[causal perturbation theory]] was first accomplished in 
 
