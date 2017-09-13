@@ -2234,3 +2234,5 @@ An entertaining account of some of the history and the sociology of S-matrix the
 
 [[!redirects S-matrix theory]]
 [[!redirects S-matrix theories]] 
+
+[[!redirects Feynman perturbation series]]
