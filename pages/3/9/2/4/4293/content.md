@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Formal geometry
++--{: .hide}
+[[!include formal geometry -- contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
@@ -58,9 +70,13 @@ In contrast, a smooth function need not be analytic; the classic counterexample 
 
 +-- {: .num_prop}
 ###### Proposition
+**(Taylor series is [[asymptotic series]])**
 
 The Taylor series of a [[smooth function]] $f$ is always an [[asymptotic expansion]] of $f$.
+
 =--
+
+This follows from the [[Hadamard lemma]], see [this example](asymptotic series#TaylorSeriesOfSmoothFunctionIsAsymptoticSeries) for details.
 
 +-- {: .num_theorem}
 ###### Theorem
