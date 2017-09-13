@@ -22,13 +22,13 @@
 
 ## Idea
 
-A theory of _quantum gravity_ is supposed to be a [[quantum field theory]] (QFT) -- or something similar -- that corresponds to the [[classical field theory]] of [[gravity]], possibly by [[quantization]].
+A theory of _quantum gravity_ (QG) is supposed to be a [[quantum field theory]] (QFT) -- or something similar -- that corresponds to the [[classical field theory]] of [[gravity]], possibly by [[quantization]].
 
-The key technical problem with quantum gravity as a [[non-perturbative quantum field theory]] is that all known constructions of QFTs quantize [[field (physics)|fields]] defined _on_ a given [[spacetime]] [[background field|background]], while, in contrast, the field of [[gravity]] _is_ (part of) that spacetime. 
+The key technical problem with quantum gravity as a [[non-perturbative quantum field theory]] is that all known constructions of QFTs quantize [[field (physics)|fields]] defined _on_ a given [[spacetime]] [[background field|background]], while, in contrast, the field of [[gravity]] _is_ that spacetime. 
 
 Since even for field theories that are defined on space-time backgrounds, such as [[Yang-Mills theory]], [[non-perturbative quantum field theory|non-perturbative]] quantization is a big open problem away from toy examples (for Yang-Mills theory it has been dubbed one of the _Millenium Problems_, see at _[[quantization of Yang-Mills theory]]_) this means that non-perturbative quantum gravity is an even wider open problem.
 
-However, the [[Einstein-Hilbert action]] that defines gravity may be expanded around any of its solutions (to the [[Einstein equations]]) and the resulting perturbation of the field of gravity around this background behaves, to low order, like an ordinary [[field (physics)|field]] on a fixed spacetime background. This allows to treat _perturbtive quantum gravity_ as a [[perturbative quantum field theory]], see the references [below](#ReferencesAsAnEffectiveFieldTheory).
+However, the [[Einstein-Hilbert action]] that defines gravity may be expanded around any of its solutions to the [[Einstein equations]] and the resulting [[perturbation]] of the field of gravity around this background behaves, to low order, like an ordinary [[field (physics)|field]] on a fixed spacetime background. This allows to treat _perturbative quantum gravity_ (pQG) as a [[perturbative quantum field theory]], see the references [below](#ReferencesAsAnEffectiveFieldTheory).
 
 
 While the [[Einstein-Hilbert action]] (or any of its variants) that defines the dynamics of gravity makes perfect sense at low energies as the definition of an [[effective quantum field theory]] (see there for details), it is not expected to be a non-effective theory at arbitrary high energies, because it is not [[renormalization|renormalizable]]: all non-renormalizable QFTs that have appeared in practice turned out to be [[effective QFT]] approximations (see there) to renormalizable [[UV-completions]]. 
@@ -146,3 +146,5 @@ and with applications to [[cosmology]] in
 
 
 [[!redirects perturbative quantum gravity]]
+
+[[!redirects pQG]]
