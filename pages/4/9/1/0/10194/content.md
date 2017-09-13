@@ -1,5 +1,5 @@
 
-* [webpage](http://www.cardiff.ac.uk/maths/contactsandpeople/profiles/hollandss.html)
+* [webpage](http://home.uni-leipzig.de/tet/?page_id=215)
 
 ## related $n$Lab entries
 
