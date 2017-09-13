@@ -6,7 +6,7 @@
 
 Scharf pioneered the application of [[causal perturbation theory]] to the rigorous construction of [[perturbative quantum field theories]]:
 
-In his books
+{#Textbooks} In his book
 
 * _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Springer 1995
 
@@ -14,7 +14,7 @@ he discusses [[quantum electrodynamics]] this way, and in
 
 * _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
-he discusses [[Yang-Mills theory]], hence [[quantum chromodynamics]] and [[quantum gravity]] as [[perturbative quantum field theories]].
+he discusses [[Yang-Mills theory]], hence [[electroweak theory]] and [[quantum chromodynamics]] as well as [[perturbative quantum gravity]].
 
 
 
