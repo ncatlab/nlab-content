@@ -8,5 +8,7 @@
 
 * [[Feynman perturbation series]]
 
+* [[Yang-Mills instanton]], [[instanton in QCD]]
+
 category: people
 
