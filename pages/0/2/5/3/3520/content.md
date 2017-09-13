@@ -109,7 +109,13 @@ $$
 
 =--
 
+## Applications
 
+The Hadamard lemma implies in particular that
+
+* [[derivations of smooth functions are vector fields]] (see there for the proof);
+
+* the [[Taylor series]] of a [[smooth function]] is an [[asymptotic series]] ([this example](asymptotic+series#TaylorSeriesOfSmoothFunctionIsAsymptoticSeries)).
 
 
 
