@@ -22,7 +22,7 @@
 
 In [[perturbative quantum field theory]] the [[scattering amplitudes]] in the [[S-matrix]] are expressed as [[formal power series]] in (the [[coupling constant]] and) in [[Planck's constant]] $\hbar$. This formal power series may be expressed as a formal sum of contributions labeled by [[Feynman diagrams]]. The _loop order_ refers to something like the "number of loops" of [[edges]] in the [[Feynman diagram]] that contibutes to a given [[scattering amplitude]]. The higher the loop order, the higher the power of $\hbar$ that is contributed by this diagram (see [below](#RelationToPowersInPlancksConstant)), which is "small". 
 
-Most predictions of the [[standard model of particle physics]] have very good agreement with [[experiment]] already to very low loop order, first or second; inclusion of third loop order is used to constrain theoretical uncertainties of the result (e.g. in [[Higgs field]] computation, see [ADDHM 15](#ADDHM15)). 
+Most predictions of the [[standard model of particle physics]] have very good agreement with [[experiment]] already to very low loop order, first or second; inclusion of third loop order is used to constrain theoretical uncertainties of the result (see [Cacciari 05, slide 5](#Cacciari05), e.g. in [[Higgs field]] computationd, see [ADDHM 15](#ADDHM15)). 
 In rare cases higher loop orders are used (for instance in the computation of the [[anomalous magnetic moments]] [AHKN 12](#AHKN12), but this is not a scattering experiment).
 
 This usefulness of low loop order is forturnate because
@@ -122,6 +122,8 @@ $$
 
 
 ## References
+
+* {#Cacciari05} Matteo Cacciari, _(Theoretical) review of heavy quark production_, BNL 14/12/2005 ([pdf](https://www.phenix.bnl.gov/WWW/publish/xiewei/RBRC_Workshop_Dec/heavyworkshop/cacciari.pdf))
 
 * {#AHKN12} Tatsumi Aoyama, Masashi Hayakawa, Toichiro Kinoshita, Makiko Nio, _Tenth-Order QED Contribution to the Electron g-2 and an Improved Value of the Fine Structure Constant_, 10.1103/PhysRevLett.109.111807 ([arXiv:1205.5368](#https://arxiv.org/abs/1205.5368))
 
