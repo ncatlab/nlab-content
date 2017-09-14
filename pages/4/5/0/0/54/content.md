@@ -59,35 +59,21 @@ and survey talks are here:
 
 ## teaching 
 
-In summer 2014 I taught a master course
+See behind the links for detailed lecture notes that I wrote.
 
-* _[[schreiber:HAI|Homological Algebra]]_.
+| date |  lecture notes |
+|------|--------|
+| winter $\,\,$ 2017 | _[[schreiber:Mathematical Quantum Field Theory]]_ |
+| summer 2017 | _[[schreiber:Topological K-Theory]]_ |
+| summer 2017 | _[[Introduction to Topology|Topology]]_ |
+| winter $\,\,$ 2016 | _[[schreiber:From the Superpoint to T-Folds|Super Cartan Geometry]]_ |
+| summer 2016 | _[[Introduction to Stable homotopy theory -- S|Complex oriented cohomology theory]]_ |
+| summer 2016 | _[[Introduction to Stable homotopy theory|Stable Homotopy Theory]]_ |
+| summer 2015 | _[[schreiber:Structure Theory for Higher WZW Terms]]_ |
+| summer 2015 | _[[schreiber:Higher Cartan Geometry]]_  |
+| summer 2014 | _[[schreiber:HAI|Homological Algebra]]_ |
 
-In summer 2015 I taught a seminar
 
-* _[[schreiber:Higher Cartan Geometry]]_.
-
-Since summer 2015 I have given several enactments of a lecture series
-
-* _[[schreiber:Structure Theory for Higher WZW Terms]]_.
-
-In summer 2016 I taught a master course
-
-* _[[Introduction to Stable homotopy theory|Stable Homotopy Theory]]_
-
-and organized a seminar on
-
-* _[[Introduction to Stable homotopy theory -- S|Complex oriented cohomology theory]]_.
-
-In winter 2016/17 I am giving a lecture on
-
-* _[[schreiber:From the Superpoint to T-Folds|Super Cartan Geometry]]_
-
-In summer 2017 I will be teaching
-
-* an introductory course _[[Topologie]]_
-
-* a seminar _[[schreiber:Topological K-Theory]]_
 
 A list of further teaching in the past is _[here](http://ncatlab.org/schreiber/show/HomePage#Teaching)_.
 
