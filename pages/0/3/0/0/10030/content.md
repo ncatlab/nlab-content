@@ -156,11 +156,13 @@ From [Suslov 05](#Suslov05):
 
 ## Related concepts
 
-* [[series]]
+* [[series]], [[divergent series]]
 
-* [[Taylor series]]
+* [[Taylor series]], [[Puiseux series]]
 
-* [[perturbation series]]
+* [[resummation]], [[regular summation method]], [[Borel summability]]
+
+* [[perturbation series]], [[Stokes phenomenon]]
 
 ## References
 
@@ -171,7 +173,7 @@ Vol. 211, (1912), pp. 279-313 ([JSTOR](http://www.jstor.org/stable/91005))
 
 Basic introductions include
 
-* _Taylor series and asymptotic expansions_ [pdf](http://www.math.ubc.ca/~feldman/m321/asymptotic.pdf)
+* Joel Feldman, _Taylor series and asymptotic expansions_ lecture notes [pdf](http://www.math.ubc.ca/~feldman/m321/asymptotic.pdf)
 
 * R. Shankar Subramanian, _An Introduction to Asymptotic Expansions_ ([pdf](http://web2.clarkson.edu/projects/subramanian/ch527/supplem/asympt.pdf))
 
