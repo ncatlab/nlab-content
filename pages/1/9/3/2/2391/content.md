@@ -385,7 +385,7 @@ This is ([KontsevichRosenberg, A.1.9.2](#KontsevichRosenberg)).
 ### Infinitesimal thickenings
  {#InfinitesimalThickening}
 
-Generally, [[infinitesimal object|infintiesimal thickenings]] are characterized by [[coreflective subcategory|coreflective embeddings]]:
+Generally, [[infinitesimal object|infinitesimal thickenings]] are characterized by [[coreflective subcategory|coreflective embeddings]]:
 
 A characteristic property of an [[infinitesimally thickened point]] $D$ is that for any object $X$ without infinitesimal thickening, there are in general nontrivial morphisms $D \to X$, but there is only a unique morphism $X \to D$, reflecting the fact that $D$ has only a single global point. Thus if by $i : C \to \bar C$ we denote the inclusion of objects $X$ without infinitesimal thickening into the collection of possibly infinitesimally thickened objects, and by $p : \bar C \to C$ the projection that contracts away the infinitesimal extension, we have indeed an [[adjunction]]
 
