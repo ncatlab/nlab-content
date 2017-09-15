@@ -1,5 +1,4 @@
 
-
 {:principle: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 
@@ -1485,7 +1484,7 @@ whose set of objects is the disjoint union of the sets of objects of the summand
 =--
 
 +-- {: .num_defn #ProductGroupoid}
-###### Definitio
+###### Definition
 **([[product category|product]] of [[groupoids]])**
 
 Let $\{\mathcal{G}_i\}_{i \in I}$ be a [[set]] of [[groupoids]]. Their [[product category|product groupoid]]
