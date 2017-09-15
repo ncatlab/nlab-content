@@ -100,7 +100,7 @@ We write
 $$
   dvol_\Sigma
    \;\coloneq\;
-  d x^0 \wedge d x^1 \wedge \cdots d x^p
+  d x^0 \wedge d x^1 \wedge \cdots \wedge d x^p
   \in \Omega^{p+1}(\mathbb{R}^{p,1})
 $$
 
@@ -137,7 +137,7 @@ $$
 It will be useful to unify spacetime and the space of field values into a single space, the [[Cartesian product]]
 
 $$
-  E \;\coloneqq\; X \times \Sigma
+  E \;\coloneqq\; \Sigma \times F
 $$
 
 and to think of this equipped with the [[projection]] map onto the first factor as a [[fiber bundle]] of spaces of field values over spacetime
@@ -162,8 +162,8 @@ This is then called the _[[field bundle]]_, which specifies the kind of values t
 
 Given a [[spacetime]] $\Sigma$ and a [[field bundle]] $\array{E \\ \downarrow^{\mathrlap{fb}} \\ \Sigma }$,
 then a _[[field (physics)|field]] configuration_ (of type specified by this field bundle)
-is a smooth  [[section]] _smooth [[section]]_ of this [[bundle]], namely a [[smooth function]] of the form
-$\Phi \colon \Sigma \longrightarrow E$ such that composed with the [[projection]] map it is the [[identity function]], i.e. such that $p \circ \phi = id$, or, diagrammatically, such that
+is a _smooth [[section]]_ of this [[bundle]], namely a [[smooth function]] of the form
+$\Phi \colon \Sigma \longrightarrow E$ such that composed with the [[projection]] map it is the [[identity function]], i.e. such that $fb \circ \Phi = id$, or, diagrammatically, such that
 
 $$
   \array{
@@ -201,7 +201,7 @@ $$
   \array{
     && E
     \\
-    & {}^{\mathllap{\Phi_{(-)}(-)}}\nearrow & \downarrow^{\mathrlap{p}}
+    & {}^{\mathllap{\Phi_{(-)}(-)}}\nearrow & \downarrow^{\mathrlap{fb}}
     \\
     U \times \Sigma &\underset{pr_2}{\longrightarrow}& \Sigma
   }
@@ -263,7 +263,7 @@ $$
 
 #### Field variations
 
-Given a [[field bundle]] as above, we know what type of quantities the corresponding fields assign to a given spacetime point. Among all consistent such field configurations, some are to qualify as those that "may occur in reality" if we think of the field theory as a means to describe parts of the [[observable universe]]. Moreover, if the reality to be described does not exhibit "action at a distance" then admissibility of its field configurations should be determined over arbitrary small spacetime regions,in fact over the [[infinitesimal neighbourhood]] of any point. This means equivalently that the realized field configurations should be those that satisfy a specific _[[differential equation]]_, hence an [[equation]] between the value of its [[derivatives]] at any spacetime point.
+Given a [[field bundle]] as above, we know what type of quantities the corresponding fields assign to a given spacetime point. Among all consistent such field configurations, some are to qualify as those that "may occur in reality" if we think of the field theory as a means to describe parts of the [[observable universe]]. Moreover, if the reality to be described does not exhibit "action at a distance" then admissibility of its field configurations should be determined over arbitrary small spacetime regions, in fact over the [[infinitesimal neighbourhood]] of any point. This means equivalently that the realized field configurations should be those that satisfy a specific _[[differential equation]]_, hence an [[equation]] between the value of its [[derivatives]] at any spacetime point.
 
 In order to formalize this, it is useful to first collect all the possible derivatives that a field may have at any given point into one big space of "field derivatives at spacetime points". This collection is called the _[[jet bundle]]_ of the [[field bundle]], given as def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below.
 
@@ -311,7 +311,7 @@ $$
   \right)
 $$
 
-where the indices $\mu, \mu_1, \mu_2, \cdot$ range from 0 to $p$, while the index $a$ ranges from $1$ to $s$. In terms of these coordinates the [[bundle]] [[projection]] map $jb_k$ is just the one that remembers the spacetime coordinates $x^\mu$ and forgets the values of the field $\phi^a$ and its derivatives $\phi_{\mu}$. Similarly there are intermediate projection maps
+where the indices $\mu, \mu_1, \mu_2, \cdots$ range from 0 to $p$, while the index $a$ ranges from $1$ to $s$. In terms of these coordinates the [[bundle]] [[projection]] map $jb_k$ is just the one that remembers the spacetime coordinates $x^\mu$ and forgets the values of the field $\phi^a$ and its derivatives $\phi_{\mu}$. Similarly there are intermediate projection maps
 
 $$
   \array{
@@ -343,11 +343,11 @@ $$
   U \overset{f}{\longrightarrow} J^\infty_\Sigma(E)
 $$
 
-from some [[Cartesian space]] $U$ is equivalently a system of ordinary smooth functioon
+from some [[Cartesian space]] $U$ is equivalently a system of ordinary smooth functions
 
 $$
   \left(
-    U \overset{f_k}{\longrightarrow} J^k(E)
+    U \overset{f_k}{\longrightarrow} J^k_\Sigma(E)
   \right)_{k \in \mathbb{N}}
 $$
 
@@ -361,7 +361,7 @@ $$
   \,.
 $$
 
-Finally _[[jet prolongation]]_ is that function from the [[space of sections]] of the original bundle to the space of section so the jet bundle which records the field $\Phi$ and all its spacetimes [[derivatives]]:
+Finally _[[jet prolongation]]_ is that function from the [[space of sections]] of the original bundle to the space of sections of the jet bundle which records the field $\Phi$ and all its spacetimes [[derivatives]]:
 
 $$
   \array{
@@ -399,7 +399,7 @@ $$
 $$
 
 is such that around each point of $J^\infty_\Sigma(E)$ there is a [[neighbourhood]] $U \subset J^\infty_\Sigma(E)$
-on which it is given by a function on a smooth function on $J^k_\Sigma(E)$ for some finite $k$
+on which it is given by a function on a smooth function on $J^k_\Sigma(E)$ for some finite $k$.
 
 =--
 
@@ -478,7 +478,7 @@ $$
   \,.
 $$
 
-This defines a bigrading on the [[de Rham complex]] of $J^\infty_\Sigma(E)$, into horizontal degree $r$ and vertical degree $s$t
+This defines a bigrading on the [[de Rham complex]] of $J^\infty_\Sigma(E)$, into horizontal degree $r$ and vertical degree $s$:
 
 $$
   \Omega^\bullet\left( J^\infty_\Sigma(E) \right)
@@ -639,7 +639,7 @@ $$
   d \Theta
 $$
 
-such that $\delta EL$ is a "[[source form]]":
+such that $\delta_{EL}$ is a "[[source form]]":
 
 $$
   \delta_{EL} \mathbf{L} \in \Omega^{p+1,0}(E) \wedge \delta \Omega^{0,0}(E) \; \subset \Omega^{p+1,1}(E)
