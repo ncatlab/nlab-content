@@ -170,4 +170,18 @@ that takes a set $S$ to the $S$-fold coproduct $S \cdot I$, where $I$ is the mon
 
 ...
 
+# Examples #
+
+> this list of examples should eventually be collected in a table of cotents on operad theory
+
+* [[endomorphism operad]]
+
+* [[E-k operad]]
+
+* [[Eilenberg-Zilber operad]]
+
+generalizations:
+
+* [[(∞,1)-operad]]
+
 [[!redirects operads]]
