@@ -46,3 +46,4 @@ This is discussed in [lecture 14](http://www.math.rutgers.edu/~weibel/MVWnotes/p
 
 
 [[!redirects motivic complex]]
+[[!redirects motivic complexes]]
