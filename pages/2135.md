@@ -4,8 +4,12 @@ Probably the default spaces are [[topological spaces]] (as defined by [[Bourbaki
 
 Often one restricts to [[nice topological spaces]] or to a [[nice category of spaces]]; these are not always the same kind of restriction!  There are many examples under those two headings; [[m-cofibrant spaces]] in particular allow one to identify [[homotopy equivalence]] with [[weak homotopy equivalence]].  More generally in [[homotopy theory]], one uses the [[homotopy hypothesis]] to identify spaces with $\infty$-[[infinity-groupoid|groupoids]], of which there are several models.
 
-As [[space and quantity|space is dual to quantity]], space and quantity can be [[categorification|categorified]] together; see $\infty$-[[infinity-space|space]] and compare $\infty$-[[infinity-quantity|quantity]].  More abstract categorified spaces include [[Grothendieck toposes]] and [[stacks]] (or ever their $\infty$-versions).
+As [[space and quantity|space is dual to quantity]], space and quantity can be [[categorification|categorified]] together; see $\infty$-[[infinity-space|space]] and compare $\infty$-[[infinity-quantity|quantity]].  Other categorified spaces include [[Grothendieck toposes]] (which are categorified locales) and [[stacks]] (which are categorified [[sheaf|sheaves]]) and even their $\infty$-versions ($(\infty,1)$-[[(infinity,1)-topos|toposes]] and $\infty$-[[infinity-stack|stacks]]).
 
->[[Urs Schreiber]]: wait, the point of [[infinity-space]] is that this is precisely another way to look at what an [[infinity-stack]]. Can we reword the above sentence?
++-- {: .query}
+[[Urs Schreiber]]: wait, the point of [[infinity-space]] is that this is precisely another way to look at what an [[infinity-stack]]. Can we reword the above sentence?
+
+_Toby_:  Yeah, I\'m not sure what I meant by 'more abstract' there.
+=--
 
 There is also a fair amount to be said about [[generalized smooth spaces]].
