@@ -54,7 +54,7 @@ A [[lined topos]] $(\mathcal{T},R)$ is a **smooth topos** if
 
 * the algebra spectra $Spec(W)$ of all [[infinitesimal object|Weil algebras]] $W$
   in $\mathcal{T}$  are [[infinitesimal object]]s in that
-  the functor $(-)^{Spec W} : \mathcal{T} \to \maathcal{T}$ has a [[right adjoint]] (the "[[amazing right adjoint]]");
+  the functor $(-)^{Spec W} : \mathcal{T} \to \mathcal{T}$ has a [[right adjoint]] (the "[[amazing right adjoint]]");
 
 * it satisfies the [[Kock-Lawvere axiom]] in that for all $R$-Weil algebra objects $W$ the canonical morphism
 
