@@ -1,4 +1,4 @@
-A __continuous predicate__, as described by [[Charles Sanders Peirce]], is a special type of [[relation theory|relational]] [[predicate]] that arises as the limit of an iterated process of [[hypostatic abstraction]].
+A __continuous predicate__, as described by [[Charles Sanders Peirce]], is a special type of [[relation theory|relational predicate]] that arises as the limit of an iterated process of [[hypostatic abstraction]].
 
 The following is an extended exposition of the concept in Peirce's own words:
 
