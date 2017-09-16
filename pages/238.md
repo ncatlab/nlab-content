@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * extended [[geometric function theory]]
+
   * continued replying to [[Mike Shulman|Mike]] at [[hyperstructure]]
     
 # 2009-02-26
