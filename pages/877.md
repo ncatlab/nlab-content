@@ -1,3 +1,2 @@
-See [[irreflexive relation]].
-
-category: delete
+&lt; [[irreflexive relations]]
+[[!redirects irreflexive relations -- history]]
