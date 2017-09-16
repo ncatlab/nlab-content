@@ -137,10 +137,13 @@ which merges the structural theory developed in
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
-
 with the theory developed in
 
 * [[Jacob Lurie]], _Noncommutative algebra_, _Commutative algebra_ (see [[higher algebra]]).
+
+A discussion of derived algebraic geometry over [[E-infinity ring]]s is in 
+
+* [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]
  
 A part of (derived) algebraic geometry in the framework of $A_\infty$-category can be found in
 
