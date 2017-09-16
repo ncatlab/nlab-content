@@ -114,6 +114,8 @@ Thus such sheaf is a space, site is not (any 'affine' site is just a toolbox hav
 [[Mike Shulman|Mike]]: I view that as reaching pretty far back.  Hausdorff was writing in 1914, nearly a century ago.  In modern mathematics, "topology" is always used is Hausdorff's sense, until Grothendieck decided it should also mean something different.
 
 I did remark that probably the topos of sheaves should be considered the space rather than the site.  Certainly a topos is not always considered a "space," but sometimes it is.  Anyway I don't think the question of what is, or isn't, a "space" is really relevant.
+
+_Harry_: I feel like grothendieck topology is fine, since the condition of continuity is actually a condition about the function's behavior with respect to the contravariant open set functor. It's in this sense that a Grothendieck topology generalizes a classical topology.
 =--
 
 
