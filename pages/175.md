@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include mathematicscontents]]
+</div>
+
+
 ## related entries ##
 
 * [[group]] 
