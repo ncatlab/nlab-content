@@ -11,6 +11,8 @@ The ideas on this page are things that I, [[Andrew Stacey]], want to use.  I sus
 So should we merge this with [[PRO]] now?  ---Toby
 
 Yes.  However, not knowing what is standard and what isn't, I'm not sure I could do that merge.  The stuff on this page is what I want to know about so I don't want to lose any of it in the merge. ---Andrew
+
+Understood.  I\'m not sure how to do it either, but I\'ll think about it.  ---Toby
 =--
 
 
