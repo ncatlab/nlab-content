@@ -15,7 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-08-26
+
+*  [[Toby Bartels]]:  Edits to [[cobordism category]], particularly addition of #Idea# and noting that the alleged direct sum is just a coproduct.
 
 * [[Urs Schreiber]]: created [[infinitesimal object]], with a bit of material, but haven't found yet the time to round this up and polish
 
@@ -23,7 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
    * [[David Corfield]]: And the Ralph Hartzler Fox of 'Crowell and Fox' about whom Ronnie Brown [wrote](http://www.bangor.ac.uk/~mas010/pdffiles/groupoidsurvey.pdf)
  
->Crowell and Fox in [43, p. 153] took the view that a few definitions 'like that of a group, or a topological space, have a fundamental importance for the whole of mathematics that can hardly be exaggerated. Others are more in the nature of convenient, and often highly specialised, labels which serve principally to pigeonhole ideas. As far as this book is concerned, the notions of category and groupoid belong in this latter class. It is an interesting curiosity that they provide a convenient systematisation of the ideas involved in developing the fundamental group.'
+     >Crowell and Fox in [43, p. 153] took the view that a few definitions 'like that of a group, or a topological space, have a fundamental importance for the whole of mathematics that can hardly be exaggerated. Others are more in the nature of convenient, and often highly specialised, labels which serve principally to pigeonhole ideas. As far as this book is concerned, the notions of category and groupoid belong in this latter class. It is an interesting curiosity that they provide a convenient systematisation of the ideas involved in developing the fundamental group.'
+
 
 ## 2009-08-25
 
