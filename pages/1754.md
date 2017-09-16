@@ -9,3 +9,7 @@ Notice that, by a result recalled at [[descent for simplicial presheaves]], a re
 #Examples#
 
 ...
+
+[[!redirects rectified infinity-stacks]]
+[[!redirects rectified ∞-stack]]
+[[!redirects rectified ∞-stacks]]
