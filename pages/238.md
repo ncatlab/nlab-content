@@ -15,7 +15,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-04-17 #
 
 *  [[Toby Bartels]]:
-   *  More details about how to model [[pure set]]s in structural set theory.
+   *  Wrote [[axiom of extensionality]] and [[transitive closure]] while writing the below.
+   *  Added the more general definition to [[extensional relation]].  It seems right to me and I can prove that it\'s correct for well-founded relations, but I must admit that I made it up just now.
+   *  More details about how to model [[pure set]]s in structural set theory, applying the above.
    *  Wrote [[Cantor's theorem]], including a constructive version from Paul Taylor.
 
 # 2009-04-16 #
