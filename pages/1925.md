@@ -87,3 +87,6 @@ Ch.IV, paragraph 22, p.95ff  -- Providence, R.I. : AMS 1996.
 * [Heaps and torsors](http://www.math.ucr.edu/home/baez/torsors.html)
 
 There is an oidification ([[horizontal categorification]]) of a heap, sometimes called a _heapoid_. 
+
+
+[[!redirects group torsor]]
