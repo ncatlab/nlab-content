@@ -26,7 +26,9 @@ From these, one can prove additional closure properties of $U$, including the us
 +-- {: .query}
 
  [[Urs Schreiber|Urs]]: actually, could you indicate how 
-the statement about function sets follows? (I understand that the power set $P(u)$ is the function set $2^u$.) 
+the statement about function sets follows? (I understand that the power set $P(u)$ is the function set $2^u$.)
+
+_Toby_:  The set of functions from $A$ to $B$ can be encoded as a subset of the power set of $A \times B$ (as can also be done in topos theory).  You can encode $A \times B$ (see [[cartesian product]] and look at the binary special case for the usual method) as a subset of $P(P(A \cup B))$.  As long as $\emptyset \in U$ (which I think should be required, but not $\mathbb{N}$), you get $2$ as $P(P(\emptyset))$ (or, constructively, as a subset of that), so you can form the $2$-indexed union $A \cup B$ and hence $P(P(A \cup B))$.  So all that is needed is to show that if $t \subseteq u \in U$, then $t \in U$; this follows from the first axiom since $t \in P(u)$.
 
 =--
 
@@ -100,6 +102,8 @@ Let $C$ be a $U$-small category.  Then the category of $U$-[[presheaf|presheaves
 +-- {: .query}
 
 [[Urs Schreiber|Urs]]: Let me see if I follow this in detail: an upper bound for the size of $Obj([C^{op},U Set])$ is the size of $\{ F : Obj(C)\times Mor(C) \to U Set\}$ where both $Obj(C)$ and $Mor(C)$ are in $U Set$. How do I see that this is $U$-large?
+
+_Toby_:  We\'re looking at the cardinal number $|U|^{|u| \times |v|}$ where $u = Obj(C)$ and $v = Mor(C)$.  Use the fact that any Grothendieck universe must be infinite (since it has $\emptyset$, $P(\emptyset)$, etc) and you have the result from cardinal arithmetic that $\kappa^\lambda = \kappa$ when $\lambda \lt \kappa$ and $\kappa$ is infinite.
 
 =--
 
