@@ -15,7 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-06-20 #
 
 *  [[Toby Bartels]]:
-   *  Wrote [[countable set]] and [[infinite set]].
+   *  Wrote [[countable set]], [[infinite set]], [[relative complement]], and [[preimage]].
    *  Has the 'Change page name.' feature broken for anybody else?
 
 # 2009-06-19 #
