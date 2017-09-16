@@ -101,11 +101,7 @@ A well developed case is that of [[(∞,1)-topos]]es.
 
 ## References {#References}
 
-A quick introduction of the basic facts of topos theory is chapter I, "Background in topos theory" in 
-
-* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
-
-Another survey is
+Another survey is in
 
 * [[Ross Street]], _A survey of topos theory_ (notes for students, 1978) [pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf)
 
@@ -117,7 +113,11 @@ This later grew into the more detailed
 
 * [[Peter Johnstone]], [[Elephant|Sketches of an elephant: a topos theory compendium]]
 
-A standard textbook on [[Grothendieck topos|sheaf topos]]es is
+A quick introduction of the basic facts of [[Grothendieck topos]] theory is chapter I, "Background in topos theory" in 
+
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
+
+A standard textbook on this case is
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
