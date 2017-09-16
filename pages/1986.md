@@ -15,6 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-08-03
 
 * [[Zoran Škoda]]: To assist [[John Baez]]'s links, created [[Eilenberg-Moore category]], [[Kleisli category]] and added details and redirects to [[monadic functor]]. To John's question: I think most basic facts in Tannaka reconstruction including sort of those on coalgebra level are in chapter 3 of [Bodo Pareigis' online notes](http://www.mathematik.uni-muenchen.de/~pareigis/pa_schft.html); his emphasis is on [[end]]s and coends. However I hope you find Kazhdan's notes, they must be great. I created entry [[Tomasz Maszczyk]] with very interesting past seminar abstract at the bottom relating a new reconstruction theorem coming from nc geometry. 
@@ -52,7 +53,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Zoran Škoda]]: created [[reconstruction theorem]]. There should eventually be separate entries for each of the main classes and examples, which are listed in the main entry.
 
-* [[John Baez]]: I love the idea of an article full of [[reconstruction theorems]]!  I contributed one, perhaps not quite the sort Zoran was thinking --- but I just happened to have it on hand, and I think with some work one can see that it's part of the big family of Tannaka--Krein-like results.  By the way, I took a course with Kazhdan in which he went through tons of Tannaka--Krein--like theorems, but I've been unable to find my notes from that course!  He started with a very primitive (and thus important) result saying something like this: any $k$-linear abelian category with a faithful functor to $FinVect_k$ is equivalent to the category of finite-dimensional representations of some coalgebra.  Does anyone know a reference to this sort of theorem?  It's crucial that we use _co_algebras here.
+  * [[John Baez]]: I love the idea of an article full of [[reconstruction theorems]]!  I contributed one, perhaps not quite the sort Zoran was thinking --- but I just happened to have it on hand, and I think with some work one can see that it's part of the big family of Tannaka--Krein-like results.  By the way, I took a course with Kazhdan in which he went through tons of Tannaka--Krein--like theorems, but I've been unable to find my notes from that course!  He started with a very primitive (and thus important) result saying something like this: any $k$-linear abelian category with a faithful functor to $FinVect_k$ is equivalent to the category of finite-dimensional representations of some coalgebra.  Does anyone know a reference to this sort of theorem?  It's crucial that we use _co_algebras here.
 
 * [[Urs Schreiber]]: 
 
@@ -65,6 +66,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * created [[differential forms in synthetic differential geometry]] with two purposes: it reviews the definition found in the literature and then proposes a -- supposedly nicer -- reformulation
 
 * [[Zoran Škoda]]: added a query in [[compact object]]: the stated characterization of categories of $R$-modules is known at least about 3 decades before Ginzburg's lectures. Maybe we should look into classical sources.
+
 * [[John Baez]]: 
 
    * Added theorem characterizing categories of $R$-modules to [[compact object]].
@@ -77,9 +79,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * [[Urs Schreiber]]: I added a remark to the text above on what "non-trivial" means. Generally, I think you can't log too much of your activity here, just too little. So if in doubt whether anyone else might be interested in your changes or not, drop a note here.
 
-*  [[John Baez]]: Welcome, Sridhar Ramesh!  I'd like to add: we are not trying to force you to do lots of bureaucratic work, so please don't feel we are _demanding_ you to log changes here.  If you make a change and feel too tired to log it here, we won't be mad at you.  We just _like_ to see changes here, even smallish ones.
+  *  [[John Baez]]: Welcome, Sridhar Ramesh!  I'd like to add: we are not trying to force you to do lots of bureaucratic work, so please don't feel we are _demanding_ you to log changes here.  If you make a change and feel too tired to log it here, we won't be mad at you.  We just _like_ to see changes here, even smallish ones.
 
 * [[Eric]]: Asked a question of [[Mike Shulman|Mike]] (or anyone else interested in SDG) at [[synthetic differential geometry]].
+
 
 ## 2009-08-01
 
