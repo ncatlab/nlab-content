@@ -33,6 +33,8 @@ Finsler-extensionality is often also not strong enough, however.  Consider the s
 
 +-- {: .query}
 If this set is Finsler-extensional, then $b_0 = b_1 = \cdots$, so $S_a \cong S_{b_0}$ after all.  So this set is Finsler-extensional if and only if it is strongly extensional (in which case it is a point).  ---Toby
+
+[[Mike Shulman|Mike]]: You're right.  I think that actually the notion here is not quite the same as what Aczel calls 'Finsler-extensional.' he uses isomorphisms of $S_y\cup \{y\}$ rather than $S_y$, and his counterexample is $\{a,b\}$ with $a\prec a$ and $a\prec b$.  So maybe we should call it something else.  But probably we can come up with a counterexample to this version too.
 =--
 
 To remedy this, we give the following definition.  Let $S$ be equipped with a binary relation $\prec$.  A **bisimulation** on $S$ is a binary relation $\sim$ such that whenever $x\sim y$, for any $a\prec x$ there is a $b\prec y$ with $a\sim b$, and for every $b\prec y$ there is an $a\prec x$ with $a\sim b$.  We then say that $\prec$ is **strongly extensional** if every bisimulation is contained in the identity relation; i.e. if $\sim$ is a bisimulation then $x\sim y$ implies $x=y$.  Again, it is easy to show that strong extensionality implies Finsler-extensionality, hence also weak extensionality, and is equivalent to weak extensionality for well-founded relations.
