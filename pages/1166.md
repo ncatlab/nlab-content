@@ -1,3 +1,7 @@
+[[!redirects subsequential spaces]]
+[[!redirects sequential pseudotopological space]]
+[[!redirects sequential pseudotopological spaces]]
+
 # Idea
 
 A **subsequential space** is a set equipped with a notion of _sequential convergence_, giving it a "topology" in an informal sense.
