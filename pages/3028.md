@@ -56,6 +56,13 @@ The other direction takes a little more effort.  The quickest (but dirtiest) rou
 The tenor of the new definition and its equivalence to the standard one is a theme that will run throughout this page.  In our elementary treatment, weak definitions are to be preferred to the standard strong ones.  Their equivalence exposes some of the deep results of Hilbert space theory.
 =--
 
+As this is intended as an elementary treatment, it is likely that at some point we will want to assume that our Hilbert space is "small", by which (of course) we mean "separable".  Fortunately, it is not hard to formulate separability without recourse to metric spaces.
+
++-- {: .num_defn #sep}
+###### Definition
+An inner product space is **separable** if it contains a sequence, say $(x_n)$ with the property that $\langle x, x_n\rangle = 0$ for all $n$ implies that $x = 0$.
+=--
+
 ## Cauchy-Schwarz
 
 The Cauchy-Schwarz inequality is one of the basic results of Hilbert space theory.  As we wish to avoid any mention of a norm, we state it as follows.
@@ -73,9 +80,36 @@ with equality if and only if $u$ and $v$ are collinear.
 ###### Proof
 The "if and only if" part gives us the key to the most direct proof.  It will simplify matters a little if we assume that $u$ and $v$ are non-zero, the case where one of them is zero being easy to establish.
 
-Now if $u$ and $v$ are collinear then there is some $\lambda \in \mathbb{C}$ such that $u = \lambda v$.  
+Now if $u$ and $v$ are collinear then there is some $\lambda \in \mathbb{C}$ such that $u = \lambda v$.  There is only one possibility for $\lambda$ which can be found by taking inner products with $v$: if $\lambda$ exists such that $u = \lambda v$ then $\lambda = \langle u, v\rangle/\langle v, v\rangle$.  So we consider the question: is $\langle v, v\rangle u = \langle u, v\rangle v$?  Or, equivalently, is $\langle v, v\rangle u - \langle u, v\rangle v = 0$?
 
-_To be continued_
+We have a test for when a vector is non-zero using the inner product.  One of the axioms for an inner product says that a vector $w$ is zero if and only if $\langle w, w\rangle = 0$.  Moreover, we also know that in any case $\langle w, w\rangle \ge 0$.  Thus we have
+
+\[
+\label{csineq}
+\left\langle \langle v, v\rangle u - \langle u, v\rangle v, \langle v, v\rangle u - \langle u, v\rangle v \right\rangle \ge 0
+\]
+
+with equality if and only if $u$ and $v$ are collinear.
+
+Before expanding out the left hand side of this, we note that
+
+$$
+\left\langle \langle v, v\rangle u - \langle u, v\rangle v , v \right\rangle = 0
+$$
+
+whence \eqref{csineq} simplifies to
+
+$$
+\left\langle \langle v, v\rangle u - \langle u, v\rangle v, u \right\rangle \ge 0
+$$
+
+with equality if and only if $u$ and $v$ are collinear.  Expanding this out yields
+
+$$
+\langle v,v\rangle \langle u,u\rangle - \langle u, v \rangle \langle v, u\rangle \ge 0
+$$
+
+with equality if and only if $u$ and $v$ are collinear.  Rearranging and square-rooting produces the traditional statement of the Cauchy-Schwarz inequality.
 =--
 
 ## Subspaces and Complements
