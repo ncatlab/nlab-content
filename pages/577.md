@@ -1,3 +1,8 @@
+# Cartesian monads
+* tic
+{: toc}
+
+
 ##Idea##
 
 A cartesian monad is a [[monad]] on a [[locally cartesian category]] that gets along well with [[pullbacks]].
@@ -101,4 +106,7 @@ In this sense, a cartesian monad is really *locally* cartesian.
 
 Some past discussion about the term 'cartesian' has been moved to [[locally cartesian category]].
 
+
 [[!redirects cartesian monads]]
+[[!redirects Cartesian monad]]
+[[!redirects Cartesian monads]]
