@@ -1,6 +1,6 @@
 #Idea#
 
-The notion of [[compact object]] in a mere [[category]] is motivated by the example of [[Top]].  But as $Top$ is an $(\infty,1)$-[[(infinity,1)-category|category]], it should also make sense in that context.
+The notion of [[compact object]] in an ordinary [[category]] is motivated by the example of [[Top]].  But as $Top$ is an $(\infty,1)$-[[(infinity,1)-category|category]], it should also make sense in that context.
 
 #Definition#
 
@@ -16,7 +16,7 @@ $$
   C(X,-) : C \to C
 $$
 
-commutes with all [[limit in quasi-categories|colimit]].
+commutes with all [[limit in quasi-categories|colimits]].
 
 
 #Remarks#
