@@ -10,7 +10,7 @@ The **string group** $String(n)$  is defined to be, as a [[topological group]], 
 Notice that $Spin(n)$ itself is the [[Whitehead tower|simply connected cover]] of the [[special orthogonal group]] $SO(n)$, which in turn is the connected component (of the identity)  of the [[orthogonal group]] $O(n)$. Hence $String(n)$ is one element in the [[Whitehead tower]] of $\mathrm{O}(n)$:
 
 $$
-  \cdots Fivebrane(n) \to String(n) \to Spin(n) \to SO(n) \to \mathrm{O}(n)
+  \cdots to Fivebrane(n) \to String(n) \to Spin(n) \to SO(n) \to \mathrm{O}(n)
   \,.
 $$
 
