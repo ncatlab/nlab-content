@@ -1,4 +1,4 @@
-A _structure type_ is a [[categorification|categorified]] [[generating function]].  Whereas a generating function assigns a number to each [[natural number]] (or [[finite set]]), a structure type assigns a [[groupoid]].  In this way, a structure type specifies a category of finite [[structured set]]s.
+A _structure type_ is a [[categorification|categorified]] [[generating function]].  Whereas a generating function assigns a number to each [[natural number]] (or [[finite set]]), a structure type assigns a [[groupoid]].  In this way, a structure type specifies a category of finite [[structured sets]].
 
 If we think of the term $Z^n$ as "the set with $n$ elements", then the coefficient is the groupoid of ways for the set to be enowed with the given structure.  For example, the structure type "being a finite set" is
 \[E^Z := \frac{1}{\overline{0!}} + \frac{1}{\overline{1!}}Z + \frac{1}{\overline{2!}}Z^2 + \cdots + \frac{1}{\overline{n!}}Z^n + \cdots,\]
