@@ -16,6 +16,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * added to [[model structure on simplicial sets]] a puny beginning of a discussion of what is supposed to eventually become a discussion of the relation to model structures on strict $\infty$-groupoids 
+
+  * created [[omega-nerve]] and [[model structure on strict omega-groupoids]]
+
   * expanded a bit on the discussion at the beginning of [[model structure on simplicial sets]]
 
   * added detailed proof to [[geometric morphism]] of the fact that geometric morphisms $Sh(X) \to Sh(Y)$ are bijectively induced from continuous functions $X \to Y$
