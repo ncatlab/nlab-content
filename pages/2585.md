@@ -118,7 +118,7 @@ $$
   \,.
 $$
 
-In $\mathbf{H} = $ [[Top]], this is the relation satisfied by the [[fundamental ∞-groupoid]] $\Pi(X)$ of a [[topological space]] $X$. Accordingly here in a general $(\infty,1)$-topos $\mathbf{H}$ we may think of the functor $\Pi : \mathbf{H} \to \infty Grpd$ as giving for each generalized [[space]] its geometry [[schreiber:path ∞-groupoid]] of geometric paths in it.
+In $\mathbf{H} = $ [[Top]], this is the relation satisfied by the [[fundamental ∞-groupoid]] $\Pi(X)$ of a [[topological space]] $X$. Accordingly here in a general $(\infty,1)$-topos $\mathbf{H}$ we may think of the functor $\Pi : \mathbf{H} \to \infty Grpd$ as giving for each generalized [[space]] its geometric [[schreiber:path ∞-groupoid]] of geometric paths in it.
 
 Accordingly, then, we may think of the ordinary [[homotopy group]]s of $\Pi(X)$ as the **geometric homotopy groups** of $X \in \mathbf{H}$.
 
