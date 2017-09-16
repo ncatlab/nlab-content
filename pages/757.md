@@ -27,7 +27,7 @@ More in detail, the left Bousfield localization of $C$ is realized as a new [[mo
 
 * the cofibrations being precisely the original cofibrations.
 
-* this specifies the new fibrations, even though a precise characterization may be hard to come by (frequently, though, some of them are [[homotopy pullback]]s of of fibrations between $S$-[[local object]]s in $C$)
+* this specifies the new fibrations, even though a precise characterization may be hard to come by (frequently, though, some of them are [[homotopy pullback]]s of fibrations between $S$-[[local object]]s in $C$)
 
 * except that the fibrant objects betwen the $S$-[[local object]]s that are fibrant in $C$.
 
@@ -131,7 +131,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{R}Hom(L,Z) &\stckrel{\simeq}{\to}&
+    \mathbf{R}Hom(L,Z) &\stackrel{\simeq}{\to}&
     \mathbf{R}Hom(K,Z)
   }
   \,,
