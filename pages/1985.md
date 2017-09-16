@@ -6,3 +6,10 @@ The article develops some of the central aspects of the theory of [[abelian cate
 
 
 category: reference
+
+[[!redirects Des catégories abéliennes]]
+[[!redirects Des categories abeliennes]]
+[[!redirects des catégories abéliennes]]
+[[!redirects des categories abeliennes]]
+[[!redirects Des Catégories Abéliennes]]
+[[!redirects Des Categories Abeliennes]]
