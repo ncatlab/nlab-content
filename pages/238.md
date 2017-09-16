@@ -22,6 +22,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
    * Added a bit to the examples section at [[Hilbert space]], mentioning in particular the orthonormal basis theorem. 
 
+   * Wrote [[approximation of the identity]], linked to by one thing I wrote at [[Hilbert space]]. 
+
 *  [[Tim Porter|Tim]]:
 
    * Added a useful reference to [[topological category]], plus a comment on terminology. It should be noted that the authors (Adamek, Herrlich and Strecker) use 'topological concrete category' in the index, which they shorten to 'topological category' in the text.  Does that provide a solution to the terminological problem?
