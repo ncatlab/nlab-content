@@ -112,3 +112,8 @@ See also for instance lemma 3.4.9 in
 =--
 
 **Remark**. So this says that every Cech cover is a [[hypercover]]. But not conversely. [[localization|Localization]] of [[simplicial presheaf|simplicial presheaves]] at Cech covers yieds [[Cech cohomology]]. 
+
+
+[[!redirects Čech cover]]
+[[!redirects Čech covers]]
+[[!redirects Cech covers]]
