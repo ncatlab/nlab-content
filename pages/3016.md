@@ -20,6 +20,8 @@ Of course Wikipedia's emphasis on neutrality reflects the difficulties people ha
 
 +-- {: .query}
 For my part, I don\'t care so much about truth (and in fact doubt that there is such a thing, objectively, in this matter).  It\'s just that this is the $n$-Category Lab, on which we discuss things from an $n$-categorial perspective.  A truly universal resource, as Wikipedia aspires to be, will want to be more neutral; here we take a particular point of view and try to describe that.  Other labs might take other points of view, and they wouldn\'t necessarily be wrong, just different.  Of course, it tells you something that I spend my time *here* and not *there* (where 'there' means either something neutral or something with some other POV).  But I think that it tells you more about me than about the truth.  ---[[Toby Bartels]]
+
+[[Mike Shulman]]: I agree with Toby.  I think there are many valid POVs on mathematics, and our goal here is to develop a particular one of those.  The $n$-POV need not be *the* truth, although it is *a* truth, i.e. a valid viewpoint, and it is the particular viewpoint from which we are writing here.
 =--
 
 If you feel sceptical about the $n$-point of view, you may want to ignore the $n$Lab. Or you may want to take its content as a contribution to a discussion on what is behind the claim that category theory is the right language to describe the world, or at least the world of mathematical ideas.
