@@ -6,13 +6,13 @@ ETCS was proposed by [[Bill Lawvere]], who published an undergraduate set-theory
 
 * F. William Lawvere, R. Rosebrugh, [_Sets for mathematics_](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics)
 
-An informative discussion of the pros and cons of Lawvere's aproach can be found in
+An informative discussion of the pros and cons of Lawvere's approach can be found in
 
 * Jean-Pierre Marquis, 
 _Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_
 ([pdf](http://www.math.mcgill.ca/rags/seminar/Marquis_KreiselLawvere.pdf))
 
-Erik Palmgren has a [constructive variant](http://www.math.uu.se/~palmgren/cetcs.pdf) of ETCS.
+Erik Palmgren has a [constructive variant](http://www.math.uu.se/~palmgren/cetcs.pdf) of ETCS (in the [[predicative mathematics|predicative]] sense of "constructive"), which can be summarized as: $Set$ is a [[well-pointed topos|well-pointed]] [[Π-pretopos]] with a [[NNO]] which has [[enough projectives]] (i.e. [[COSHEP]] is satisfied).  Here "well-pointed" must be taken in its constructive sense, as including that the [[terminal object]] is indecomposable and projective.
 
 #Todd Trimble's exposition of ETCS#
 
