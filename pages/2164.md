@@ -258,7 +258,7 @@ It was from this insight that [[synthetic differential geometry]] was
 eventually developed. 
 
 * Lawvere, _Outline of synthetic differential geometry_,
-([web](http://www.acsu.buffalo.edu.wlawvere/downloadlist.html))
+([web](http://www.acsu.buffalo.edu/~wlawvere/downloadlist.html))
 
 A classical case of [[category theory|general abstract nonsense]] used to
 understand a subtle situation.
@@ -266,7 +266,7 @@ understand a subtle situation.
 A summary and discussion of the axiomatically defined standard infinitesimal 
 objects $D$, $D_k$, $D_k(n)$ is in section 1.2 of
 
-* Anders Kock, _Synthetic Geometry of Manifolds_ ([pdf]())
+* Anders Kock, _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 Details on the right adjoint to the exponentiation functor $(-)^X$ for
 $X$ an infinitesimal object are in appendix 4 of 
