@@ -10,7 +10,7 @@
 
 In the context of [[synthetic differential geometry]] a [[differential form]] $\omega$ of degree $k$ on a [[manifold]] $X$ is literally a function on the space of _infinitesimal cubes_ or _infinitesimal simplices_ in $X$.
 
-We give the definition as availalable in the literature and then interpret this in a more unified way in terms of [[infinity-quantity|∞-quantities]].
+We give the definition as availalable in the literature and then interpret this in a more unified way in terms of the [[schreiber:Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] of the [[infinitesimal singular simplicial complex]].
 
 # Definition #
 
