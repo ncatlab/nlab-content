@@ -1,6 +1,13 @@
-##Lexicon##
-(This continues from [[graded vector space]] a lexicon of terminology relating to differential graded objects, especially as relate to [[rational homotopy theory]].)
 
+
+{:myproof: .proof style="margin-left:2em;"}
+{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
++-- {: goal}
+###### Lexicon
+##Lexicon##
+This continues from [[graded vector space]] a lexicon of terminology relating to differential graded objects, especially as relate to [[rational homotopy theory]].
+=--
 **Definition**
 
 **Differential (pre-)graded vector spaces.**
@@ -90,5 +97,11 @@ If $(V,\partial)$ is a pre-dgvs with 'lower grading' that is the summands are wr
 If $(V,\partial)$ is presented with the 'upper grading', so $V^p$, then the corresponding words will have a 'co' as prefix, cochain complex, cocycle, etc.  
 
 There is no real distinction between the two cases in the abstract, but in applications there is often a fixed 'dimensional' interpretation and then the 'natural' and 'geometric' aspects determine which is more appropriate or useful. 
+{:myproof: .proof style="margin-left:2em;"}
+{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
++-- {: goal}
+###### Lexicon links onwards:
 
 [[Tim Porter|Tim]]:  The lexicon will continue on a new entry on [[differential graded algebra|differential graded algebras]].  (Yes I know there is [[dg-algebra]] already but as I said before, these lexicon pages are for editing and I am not 100% happy about the terminological conventions on that existing page, nor am I suggesting that this lexicon gets things 'right'!
+=--
