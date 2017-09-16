@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-27
 
+* [[Urs Schreiber]]: added to [[effective epimorphism]] a remark on how the 1-categorical case is a special case of the $(\infty,1)$-categorical case and replied to the discussion
+
 *  [[Toby Bartels]]:
    *  Reorganised [[integration]] (another new, unlogged page!).
    *  A question about [[special lambda-rings]] (a new, unlogged page!) at [[Lambda-ring]].
