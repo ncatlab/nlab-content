@@ -1,3 +1,5 @@
+[[!redirects augmented simplex category]]
+
 #Idea#
 
 The **simplex category** $\Delta$ encodes one of the main [[geometric shapes for higher structures]]. Its objects are the standard cellular $n$-[[simplex|simplices]]. It is also called the [[simplicial category]], but that term is ambiguous.
