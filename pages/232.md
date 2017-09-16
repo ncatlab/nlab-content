@@ -91,19 +91,27 @@ this says that composition is _unital_.
 
 #### Enrichment through lax monoidal functors #### 
 
-If $V$ is a monoidal category, then an alternative way of defining an $V$-category is as a set $X$ together with a [[lax monoidal functor]] of the form 
+If $V$ is a monoidal category, then an alternative way of viewing a $V$-category is as a set $X$ together with a lax monoidal functor $\Phi = \Phi_d$ of the form 
 
-$$M^{op} \to Set^{X \times X}$$ 
+$$V^{op} \stackrel{yon_V}{\to} Set^{V} \stackrel{d}{\to} Set^{X \times X}$$ 
 
-where the codomain is identified with the monoidal category of endomorphisms on $X$, $\hom(X, X)$ in the [[bicategory]] of [[span]]s of sets. Given an $M$-category $(X, d: X \times X \to M)$, the corresponding lax monoidal functor $\Phi$ takes an object $m$ of $M^{op}$ to the span 
+where the codomain is identified with the monoidal category of spans on $X$, i.e., the local hom-category $\hom(X, X)$ in the [[bicategory]] of [[span]]s of sets. Given an $V$-category $(X, d: X \times X \to V)$ under the ordinary definition, the corresponding lax monoidal functor $\Phi$ takes an object $v$ of $V^{op}$ to the span 
 
-$$\Phi(m)_{x, y} := \hom_M(m, d(x, y))$$ 
+$$\Phi(v)_{x, y} := \hom_V(v, d(x, y))$$ 
 
 Under the composition law, we get a natural map 
 
-$$\hom(m, d(x, y)) \times \hom(m', d(y, z)) \to \hom(m \otimes m', d(x, y) \otimes d(y, z)) \stackrel{\hom(1, comp)}{\to} \hom(m \otimes m', d(x, z))$$ 
+$$\hom(v, d(x, y)) \times \hom(v', d(y, z)) \to \hom(v \otimes v', d(x, y) \otimes d(y, z)) \stackrel{\hom(1, comp)}{\to} \hom(v \otimes v', d(x, z))$$ 
 
-which gives the tensorial constraint $\Phi(m) \circ \Phi(m') \to \Phi(m \otimes m')$ for a lax monoidal functor; the identity law similarly gives the unit constraint. By using a Yoneda-style argument, such a lax monoidal functor conversely induces an $M$-enrichment on $X$, and the two notions are equivalent. 
+which gives the tensorial constraint $\Phi(v) \circ \Phi(v') \to \Phi(v \otimes v')$ for a lax monoidal functor; the identity law similarly gives the unit constraint. 
+
+Conversely, by using a Yoneda-style argument, such a lax monoidal functor structure on $\Phi = \Phi_d$ induces an $M$-enrichment on $X$, and the two notions are equivalent. 
+
+Alternatively, we can equivalently describe a $V$-enriched category as precisely a bicontinuous lax monoidal functor of the form 
+
+$$Set^V \to Set^{X \times X}$$ 
+
+since bicontinuous functors of the form $Set^V \to Set^{X \times X}$ are precisely those of the form $Set^d$ for some function $d: X \times X \to V$ [at least if $V$ is [[Cauchy complete category|Cauchy complete]]. 
 
 ##Passage between ordinary categories and enriched categories##
 
