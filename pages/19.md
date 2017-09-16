@@ -374,6 +374,8 @@ A category also have a composition that must be preserved, what would it transla
 
 Now i remember what i didn't remember to write last time. Would it be ok to think of these presheaves as presentations of categories instead of as categories, since they are (so far supposed to be) equivalent to categories.
 Actually, the same for simplicial sets. Would it be ok to think of these presheaves as presentations of simplicial sets? This would be so much easier and clearer.
+
+[[David Roberts]]: Recall that simplicial sets are _defined_ to be presheaves on $\Delta$, and that the value of the functor on the object $[n]$ just returns the set of $n$-simplices...
 =--
 
 +--{.query}
