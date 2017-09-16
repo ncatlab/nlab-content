@@ -1,1 +1,6 @@
 Fibered category is the original name what is here called [[Grothendieck fibration]]. There is also a notion of fibered $n$-category due Claudio Hermida which is defined recursively; for $n=2$ there are also other equivalent definitions, also due Hermida. 
+
+
+[[!redirects fibred category]]
+[[!redirects fibered categories]]
+[[!redirects fibred categories]]
