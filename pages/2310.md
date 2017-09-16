@@ -7,6 +7,8 @@ $$
   \,.
 $$
 
+Compare with the notion of [[weakly periodic cohomology theory]].
+
 
 #related entries#
 
