@@ -40,7 +40,7 @@ $Bord_{(\infty,n)}$ as given in
 
 where the main point, apart from the [[(∞,n)-category]] machinery in the background, is definition 2.2.9.
 
-The idea is to start with thinking of $n$-dimensional cobordisms as forming something like an [[n-fold category]] by simply saying that the collection of compositites of cobordisms is given by big cobordisms with markings on them, indicating where we think of them as being composed.
+The idea is to start with thinking of $n$-dimensional cobordisms as forming something like an [[n-fold category]] by simply saying that the collection of composites of cobordisms is given by big cobordisms with markings on them, indicating where we think of them as being composed.
 
 Let's first do this for composition in one direction, as in an ordinary 1-category of $n$-dimensional cobordisms.
 
@@ -56,7 +56,7 @@ The collection of these tuples, consisting of an embedded manifold $X \hookright
 
 To generalize this from just a 1-categorical structure to an $n$-categorical structure, we simply take a manifold $X$ as before, but now draw markings on it in $n$ transversal directions, thereby putting a kind of grid on it that subdivides the manifold into cubical slices. A manifold with such subdivision on it may then be regarded as giving an element in the space of $n$-dimensional pasting diagrams in an $n$-fold category.
 
-To formalize this more general case, we embed $X$ not just into a $V \times \mathbb{R}$, but a $V \times \mathbb{R}^n$. This then provides us with $n$ different coodinate functions $\phi_i : X \hookrightarrow V \times \mathbb{R}^n \stackrel{p_i}{\to} \mathbb{R}$ on $X$, each running along one of the directions in which we may think of $X$ as having been glued from smaller manifolds.
+To formalize this more general case, we embed $X$ not just into a $V \times \mathbb{R}$, but a $V \times \mathbb{R}^n$. This then provides us with $n$ different coordinate functions $\phi_i : X \hookrightarrow V \times \mathbb{R}^n \stackrel{p_i}{\to} \mathbb{R}$ on $X$, each running along one of the directions in which we may think of $X$ as having been glued from smaller manifolds.
 
 A collection of markings indicating such gluing is now a collection of numbers $\{t_j^1\}, \;\{t_j^2\}, \; \cdots \{t_j^n\}$, one for each of these directions.
 
