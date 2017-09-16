@@ -190,7 +190,7 @@ $$
 
 The original reference is
 
-* E. Dubuc, [[Anders Kock]], _On 1-form classifiers_ ([pdf](http://home.imf.au.dk/kock/DK84.pdf))
+* E. Dubuc, [[Anders Kock]], _On 1-form classifiers_, Comm. Alg. __12__  (1984),  no. 11-12, 1471--1531 ([pdf](http://home.imf.au.dk/kock/DK84.pdf))
 
 Parts of the above material are a summary of the following talk:
 
