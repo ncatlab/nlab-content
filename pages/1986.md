@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-31
 
+* [[Jon Awbrey]] added a stub and a link for future development at [[Peirce's logic of information]].
+
 * [[Urs Schreiber]]
 
   * created an _Idea_ section at [[space and quantity]], mainly to list some links. 
