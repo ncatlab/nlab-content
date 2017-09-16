@@ -47,5 +47,15 @@ We thus have that the element in $\pi_n(A)$ corresponded to an element in the Mo
 Tim
 
 
+[[Dan]]:
+
+Thanks for your quick response. I appreciate your help on this. 
+
+I would have sent this to you by email, but I don't know your email address. Please feel free to delete this correspondence from your page. 
+
+Sincerely, 
+
+Dan Lior
+
 =--
 category: people
