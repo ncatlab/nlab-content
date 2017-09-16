@@ -91,6 +91,10 @@ Tom Leinster has written about "comparative $\infty$-categoriology" (to [borrow]
 
 * Tom Leinster, _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math/0305049))
 
+Another collection of discussions of definitions of higher categories is given at
+
+* [[John Baez]], Peter May [[Approaching Higher Category Theory]]
+
 A brief useful survey of approaches to the definition of higher categories is provided by the set of slides
 
 * Andr&eacute; Joyal, [[Tim Porter]], Peter May, _Weak categories_ ([pdf](http://www.ima.umn.edu/talks/workshops/SP6.7-18.04/may/PorterMay.pdf))
