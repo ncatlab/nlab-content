@@ -26,7 +26,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-02
 
-* [[Urs Schreiber]] further expanded [[equivariant cohomology]] a bit: made the essential idea a standout box and added group cohomology and local systems as examples.
+* [[Urs Schreiber]] 
+
+  * expanded the beginning of [[extended topological quantum field theory]], also added further links to existing entries
+
+  * further expanded [[equivariant cohomology]] a bit: made the essential idea a standout box and added group cohomology and local systems as examples.
 
 
 * [[Rafael Borowiecki]]: 
