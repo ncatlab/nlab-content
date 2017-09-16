@@ -37,7 +37,7 @@ What is not yet described in detail it what it means for an $(\inftty,n)$-catego
 
 The precise formulation of the cobordism hypothesis then takes the form of the following
 
-(theorem 2.4.6 in [[On the Classificatin of Topological Field Theories]])
+(theorem 2.4.6 in [[On the Classification of Topological Field Theories]])
 
 +-- {: .num_theorem #Lagrange}
 ###### Theorem (cobordism hypothesis, framed version)
