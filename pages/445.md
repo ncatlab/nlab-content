@@ -4,7 +4,7 @@ The familiar notion of the image of a map of sets may be formalized to yield a n
 
 #Definition#
 
-There are several defintions that are equivalent when they jointly apply.
+There are several definitions that are equivalent when they jointly apply.
 
 
 ## In terms of subobjects ##
@@ -18,7 +18,7 @@ Let $C$ be a [[category]], and $f: c \to d$ be a [[morphism]]. The **image** of 
 
 * The notion of [[regular category]] formalizes a sense in which image factorizations do behave well: factorizations into a [[regular epimorphism]] followed by a mono which are stable under pullback. 
 
-
+* In $\mathrm{Cat}$, the image of a functor $F:A\to B$ is the smallest subcategory of $B$ which contains images through $F$ of all morphisms in $A$; some of the morphisms in the image are not images of any morphism in $A$; all morphisms in the image of $F$ are compositions in $B$ of  $B$-composable sequences of images of morphisms in $A$ which themselves do not necessarily form $A$-composable sequences of morphisms in $A$. Sometimes the notion of   [[essential image]] is more appropriate; as the essential image is only equivalent to the image, this is somewhat bicategorical point of view.  
 
 ## as a left adjoint functor ##
 
