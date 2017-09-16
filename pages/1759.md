@@ -14,6 +14,8 @@ Chances are that you won't get the page before end of the day anyway, and meanwh
 
 We are in the process of migrating to a new host, which will hopefully do away with this problem. Meanwhile, it is all the more important that you drop a note here when you work on the $n$Lab, so that the rest of us has a chance of becoming aware of it.
 
+PS: If you find it difficult to resist the temptation and want to try **Recently Revised** anyway, PLEASE DON'T. You really will bring the entire nLab to its knees.
+
 =--
 
 So, if you feel people's attention should be drawn to some changes you make, please mention them *here*.  That will help [[Contributors|the rest of us]] spot them, so we can learn what you know --- and maybe make further improvements!
@@ -27,9 +29,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 *  [[David Corfield]]: Added a comment at [[free cocompletion]], which got me looking for 'pseudoadjunction'.
 I would trigger a new page for it, but don't know optimal naming conventions.
 
+  * [[Eric]]: Hi David. Now that we have redirects, you can feel less concerned about naming conventions. For example, if you start a page [[pseudoadjuntion]] and people come out with pitchforks saying it should be [[pseudo-adjunction]], we now have the capability to simply change the page name. Better than that, we can add [[redirects]] so that both [[pseudoadjunction]] and [[pseudo-adjunction]] point to the same page and then it doesn't matter. People can use either one when linking to your page.
+
 *  [[Tim Porter|Tim]]: I have started an entry on [[dg-quiver]].  I have paused because I cannot decide whether this is the right version to put there or whether to use Peter May's discussion in the talk that is linked to from that page.
-
-
 
 ## 2009-07-17
 
