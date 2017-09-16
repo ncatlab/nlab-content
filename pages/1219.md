@@ -2,7 +2,7 @@
 
 [Roman Sikorski](http://www.ams.org/mathscinet/search/author.html?mrauthid=162010) defined the term "differential module" in 1971/72.
 [Mark Mostow](http://www.ams.org/mathscinet/search/author.html?mrauthid=127450) further developed the theory in 1979.
-The following definition of a differentiable space comes from Mostow's paper where it is attributed to Sikorski.
+The following definition of a differentiable space (a kind of [[generalized smooth space]]) comes from Mostow's paper where it is attributed to Sikorski.
 
 +-- {: mynumdef #DiffSp}
 ###### Definition
@@ -14,7 +14,6 @@ A _differentiable space_ is a topological space $X$ together with, for each open
 The elements of $C^\infty(X)$ are called _smooth functions_ on $X$.
 =--
 
-## References
-
+# References #
 * [Differential modules](http://www.ams.org/mathscinet-getitem?mr=482794) 1971/72
 * [The differentiable space structures of Milnor classifying spaces, simplicial complexes, and geometric realizations](http://www.ams.org/mathscinet-getitem?mr=587553) 1979.
