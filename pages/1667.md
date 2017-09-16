@@ -1,4 +1,4 @@
-I retired from a readership in mathematics at Sussex University (UK) in 1999. I am just putting a gingerly toe into the waters of this wiki for the first time - patience please! I got courage for this from the seeing here the names of some old mathematical colleagues. The trouble with hermetic retirement is that one not only loses touch with old friends but also misses the opportunity to make new ones. One misses the gossip, too!
+I retired from a readership in mathematics at Sussex University (UK) in 1999. I am just putting a gingerly toe into the waters of this wiki for the first time - patience please! I got courage for this from seeing here the names of some old mathematical colleagues. The trouble with hermetic retirement is that one not only loses touch with old friends but also misses the opportunity to make new ones. One misses the gossip, too!
 
 This medium of mathematical converse was a pipedream for me for many years. It will probably seem pretty clunky to the next generation, who will no doubt be able to express themselves by a mere act of will, with all the digital _hardware_ incarnated in human flesh. Caro electronica facienda sit.
 
