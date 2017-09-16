@@ -94,6 +94,13 @@ In a $Cat$-like bicategory, left modules over a monad are usually called _algebr
 Some monads arise from [[operad]]s, in which case algebras for the monad are the same as algebras for the operad.  A [[Lawvere theory]] is another special sort of monad in $Cat$.
 
 
+## $(\infty,1)$-Monads
+
+There is a [[vertical categorification]] of mondas  to [[(∞,1)-category|(∞,1)-categories]] in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
+
+* [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
+
+
 ## Related entries #
 
 * [[strong monad]]
@@ -103,15 +110,15 @@ Some monads arise from [[operad]]s, in which case algebras for the monad are the
 
 Five short videotaped lectures:
 
-* The Catsters, [Monads](http://www.youtube.com/view_play_list?p=0E91279846EC843E).
+* [[The Catsters]], [Monads](http://www.youtube.com/view_play_list?p=0E91279846EC843E).
 
 Introductory slides:
 
-* John Baez, [Universal Algebra and Diagrammatic Reasoning](http://math.ucr.edu/home/baez/universal/universal_hyper.pdf).
+* [[John Baez]], [Universal Algebra and Diagrammatic Reasoning](http://math.ucr.edu/home/baez/universal/universal_hyper.pdf).
 
 Book (recall that monads are also called 'triples'):
 
-* Michael Barr and Charles Wells, [Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html).
+* [[Michael Barr]] and [[Charles Wells]], [Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html).
 
 
 [[!redirects algebra of a monad]]
