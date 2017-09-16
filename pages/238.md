@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-25 #
 
+*  [[Toby Bartels]]:  **Vanity issue!?!?!?**  Trying to get highly-ranked on search engines *is* a vanity issue!  I\'m here to create a permanent resource and figure out ideas, not to beat Wikipedia!
+
 * [[Urs Schreiber|Urs]]
 
   * expanded and restructured [[sieve]] -- introduced the explicit _distinction_ between the notion of _sieve_ and that of _subfunctor_ and made their _bijection_ explicit: this seems to be the standard way that "sieve" is used in the literature: authors don't seem to say "sieve" synonymously with "subfunctor", but say "sieve" if they explicitly mean the _set_ of elements of the subfunctor. There is a bijection, but not an equality of concepts. 
