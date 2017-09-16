@@ -2,4 +2,5 @@ Michael Makkai is the inventor of [[anafunctor]]s and [[FOLDS]], which are both 
 
 *  [homepage](http://www.math.mcgill.ca/makkai/)
 
-category: biography
+
+category: people
