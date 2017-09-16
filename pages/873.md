@@ -1,4 +1,4 @@
-In traditional set theory, a subset of a [[set]] $A$ is a set $B$ with the *property* that
+In traditional [[set theory]], a subset of a [[set]] $A$ is a set $B$ with the *property* that
 $$x \in B \;\Rightarrow\; x \in A$$
 for any object $x$ whatsoever.  One writes $B \subseteq A$ or $B \subset A$ (depending on the author) if $B$ has this property.  Set theory\'s _axiom of extensionality_ says that $A = B$ if (and only if) $A \subseteq B$ and $B \subseteq A$.
 
