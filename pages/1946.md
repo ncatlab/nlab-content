@@ -69,6 +69,96 @@ in the appropriate way in $M$.
 
 * For a general Reedy category $R$, the diagonal functor $C\to C^R$ need not be either a right or a left [[Quillen adjunction|Quillen functor]] (although, of course, it has left and right adjoints given by colimits and limits over $R$).  One can, however, characterize those Reedy categories for which one or the other is the case, and in this case one can construct [[homotopy limit|homotopy limits]] and colimits using the derived functors of these Quillen adjunctions.
 
+# Examples #
+
+## Arrow category ##
+
+The simplest nontrivial example is obtained for 
+
+$$
+  R = I = \{1 \to 0\}
+$$ 
+
+the [[interval category]]. 
+
+In this case the [[functor category]] $[I,C]$ is the [[arrow category]] $C$.
+
+We take the degree on the objects to be as indicated. Then $R_- = R$ and $R_+$ contains only the identity morphisms.
+
+For $F : I \to C$ a functor, i.e. a morphism $F(1) \to F(0)$ in $C$, we find that lathcing and 
+
+
+* the latching object $L_0 F = colim_{\partial (R_+/0)} F = \emptyset$;
+
+* the latching object $L_1 F = colim_{\partial (R_+/1)} F = \emptyset$;
+
+* the matching object $M_0 F = lim_{\partial(0/ R_-)} F = {*}$
+
+* the matching object $M_1 F = lim_{\partial(1/R_-)} F = F(1)$
+
+where $\emptyset$ denotes the [[initial object]] and ${*}$ the [[terminal object]] (being the [[colimit]] and [[limit]] over the empty [[diagram]],  respectively).
+
+From this we find that
+
+* a [[natural transformation]] $\eta : F \to G$ 
+ 
+  $$
+    \array{
+      F(1) &\stackrel{\eta_1}{\to}& G(0)
+      \\
+      \downarrow && \downarrow
+      \\
+      F(0) &\stackrel{\eta_0}{\to}& G(0)
+    }
+  $$
+
+  is a Reedy fibration in $[I,C]$ if
+
+  * $\eta_0 : F(0) \to G(0)$ is a fibration
+
+  * the universal morphism $F(1) \to F(0) \times_{G(0)} G(1)$ 
+   
+    $$
+    \array{
+      F(0)
+      \\
+      & \searrow
+      \\
+      && F(0) \times_{G(0)} G(1) 
+      &\stackrel{\eta_1}{\to}& G(0)
+      \\
+      && \downarrow && \downarrow
+      \\
+      && F(0) &\stackrel{\eta_0}{\to}& G(0)
+    }
+    $$
+
+    is a fibration.
+
+  Notice that since fibrations are preserved by pullbacks and under composition with themselves, it follows that also $\eta_1 : F(1) \to F(0)$ is a fibration.
+
+* The fibrant objects in $[I,C]$ are those arrows $F(1) \to F(0)$ in $C$ that are fibrations between fibrant objects in $C$.
+
+
+## Tower category ##
+
+Let $R = \mathbb{N}^{op} = \{\cdots \to 2 \to 1 \to 0\}$ be the natural numbers regarded as a [[poset]] using the great-than  relation.
+
+With the degree as indicated, this is a Reedy category with $R_- = R$ and $R_+$ containing only identity morphisms.
+
+Now the [[functor category]] $[R,C]$ is the category of _towers_ of morphisms in $C$. 
+
+The analysis of the Reedy model structure on this involves just a repetition of the steps invoilved in the analysis of the arrow category in the above example. One finds:
+
+* a natural transformation $\eta : F \to G$ is a fibration precisely if
+
+  * all components $\eta_n : F(n) \to G(n)$ are fibrations
+
+  * all universal morphisms $F(n) \to F(n-1) \times_{G(n-1)} G(n)$ are fibrations.
+
+* the fibrant objects are the towers of fibrations on fibrant objects in $C$.
+
+
 # References #
 
 A review of Reedy model structures is in section A.2.9 of
