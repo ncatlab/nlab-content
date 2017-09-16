@@ -36,6 +36,12 @@ _Ronnie_: I would use, and have used,  $\mathbf{B}G$ for a (the) [[classifying s
 
 Of course Brandt initiated the groupoid idea, coming from the composition of quaternary quadratic forms, generalising ideas of Gauss, but  other later traditions come via Reidemeister in algebraic topology and much wider from Charles Ehresmann, for fibre bundles, Lie groupoids, foliations, and other geometric applications, and these need to be considered for notational decisions. 
 
-I guess the needs of geometry, algebra, analysis, logic and computer science,  and even physics,  will never be completely reconciled. 
+I guess the needs of geometry, algebra, analysis, logic and computer science,  and even physics,  will never be completely reconciled.
+
+_Toby_:  We ran into the conflict with $B$ before and somewhat tentatively decided to use $\mathbf{B}G$ for the groupoid and $\mathcal{B}G$ for the space (and maybe $\mathcal{N}G$ for the nerve).  You can read some of that discussion at [[category algebra]] (where it is as out of place as it is here), including reasons for distinguishing $G$ from $\mathbf{B}G$.
+
+Probably it was a mistake to use the letter $B$ again.  I think that the idea was to identify all versions of a [[homotopy 1-type]] (groupoid, simplicial set satisfying certain conditions, nice topological space with no nontrivial higher homotopy groups, etc), but that is not very helpful to other fields.  I would be happy to use a different letter but would want to use something.
+
+By 'groupoid theorists descended from Brandt' I really meant all those who see groupoids as generalised groups (a single set with a partial binary operation satisfying various conditions) rather than those who see them as special kinds of categories (a set of objects, a set ---or even doubly-indexed family of sets--- of isomorphisms, and so on; while it is perfectly possible to view general categories in the Brandt-like way, that seems pretty rare).
 
 =--
