@@ -1,10 +1,14 @@
 A _relation_ is the extension of a [[predicate]].  That is, if you have a statement whose [[truth value]] may depend on some variables, then you get a relation that consists of those instantiations of the variables that make the statement true.  Equivalently, you can think of a relation as a [[function]] whose [[target]] is the set of truth values.
 
+For the theory of relations as combinatorial objects, see [[relation theory]].
+
+
 ## Definitions ##
 
 ### General case ###
 
 Given a family $(A_i)_{i: I}$ of [[set]]s, a **relation** on that family is a [[subset]] of the [[cartesian product]] $\prod_{i: I} A_i$.  Equivalently, a **relation** is a [[function]] from $\prod_{i: I} A_i$ to the set $\TV$ of [[truth value]]s (because $\TV$ is the [[subobject classifier]] in [[Set]]).
+
 
 ### Special cases ###
 
@@ -20,6 +24,7 @@ An __$n$-ary relation__ on $A$ is a relation on a family of $n$ copies of $A$, t
 
 For a binary relation, one often uses a symbol such as $\sim$ and writes $a \sim b$ instead of $(a,b) \in \sim$.  Actually, even when a relation is given by a letter such as $R$, one often sees $a R b$ instead of $(a,b) \in R$, although now that does not look so good.
 
+
 ## Morphisms ##
 
 If $A$ and $B$ are each sets equipped with a relation, then what makes a [[function]] $f: A \to B$ a _morphism_ of sets so equipped?
@@ -34,9 +39,11 @@ In general, it\'s more natural to require only preservation; these are the morph
 
 But in some contexts, particularly when dealing only with [[irreflexive relation]]s, we instead require (only) that a morphism reflect the relation.  Sometimes an even stricter condition is imposed, as for [[well-order]]s.  But even in these cases, the definition of isomorphism comes out the same.
 
+
 ## Binary relations ##
 
 Binary relations are especially widely used.
+
 
 ### Kinds of binary relations ###
 
@@ -56,6 +63,7 @@ Special kinds of binary relations on $A$ additionally include:
 
 Combinations of the above properties of binary relations produce [[equivalence relation]]s, [[apartness relation]]s, and the various kinds of [[order]]s.
 
+
 ### The $2$-poset of binary relations ###
 
 Binary relations form a $2$-[[2-category|category]] (in fact a $2$-[[2-poset|poset]]) [[Rel]], which is the basic example of an [[allegory]].
@@ -69,6 +77,7 @@ The identity morphism is given by [[equality]].
 The special properties of the kinds of binary relations listed earlier can all be described in terms internal to $\Rel$; most of them make sense in any allegory.  Irreflexive and asymmetric relations are most useful if the allegory\'s [[hom-object|hom-poset]]s have [[bottom]] elements, and linear relations require this.  Comparisons require the hom-posets to have finite [[union|unions]], and well-founded relations require some sort of higher-order structure.
 
 As a [[function]] may be seen as a functional, entire relation, so the category [[Set]] of sets and functions is a [[subcategory]] of [[Rel]] (in fact a [[replete subcategory|replete]] and locally [[full subcategory|full]] sub-$2$-category).
+
 
 ## Generalisation ##
 
