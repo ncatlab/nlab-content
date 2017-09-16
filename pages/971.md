@@ -26,6 +26,15 @@ If an accessible category in addition has all (small) [[colimit]]s (or, equivale
 
 ## Properties {#Properties}
 
+
++-- {: .un_prop}
+###### Proposition 
+
+A [[small category]] is accessible precisely if it is [[idempotent complete]].
+
+=--
+
+
 +-- {: .un_prop}
 ###### Proposition (preservation of accessibility under inverse images)
 
