@@ -8,6 +8,11 @@ such as
 
 ...
 
+# References #
+
+* Baez, Lectures on n-Categories and Cohomology ([pdf](http://math.ucr.edu/home/baez/cohomology.pdf), [[Lectures on n-Categories and Cohomology|nLab]])
+
+  * See, in particular, the discussion beginning at the bottom of page 24.
 
 [[!redirects generalized (Eilenberg–Steenrod) cohomology]]
 [[!redirects generalized (Eilenberg--Steenrod) cohomology]]
