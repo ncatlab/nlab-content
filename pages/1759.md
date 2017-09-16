@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]:
 
+  * added two further references, by Birgit Richter, on the ($\infty$-)monoidal structure of the Dold-Kan correspondence  to [[Dold-Kan correspondence]]
+
   * added a small section on and a link to [[matching family]] at [[sheafification]]
 
   * reorganized [[Dold-Kan correspondence]] in an attempt to make the material more systematic -- then I started adding a detailed def/lemma/theorem/proof list of the classical statement, but didn't get very far yet
