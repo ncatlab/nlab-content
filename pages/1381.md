@@ -8,7 +8,12 @@
 </div>
 
 
-#Idea#
+# Symmetric monoidal $(\infty,1)$-categories
+* tic
+{: toc}
+
+
+##Idea#
 
 A _symmetric monoidal $(\infty,1)$-category_ is 
 
@@ -22,11 +27,10 @@ This means that it is
 
 * for which the [[tensor product]] is commutative up to infinite coherent homotopy.
 
-This can be understood as a special case of an [[(∞,1)-operad]] (..to be expanded on...)
+This can be understood as a special case of an [[(∞,1)-operad]] (...to be expanded on...)
 
-#Definition#
 
-## in terms of quasi-categories ##
+##Definition in terms of quasi-categories ##
 
 Recall that in terms of [[quasi-category|quasi-categories]] a general [[monoidal (infinity,1)-category]] is conceived as a coCartesian fibration $C^\otimes \to N(\Delta)^{op}$ of [[simplicial set]]s over the ([[opposite category|opposite]] of) the [[nerve]]  $N(\Delta)^{op}$ of the [[simplex category]] satisfying a certain property. 
 
@@ -56,21 +60,26 @@ such that
 =--
 
 
-###Remarks###
++-- {: .un_remark}
+###### Remark
 
-* There is a functor $\varphi : \Delta^{op} \to FinSet_*$ such that the [[monoidal (infinity,1)-category]] _underlying_ a symmetric monoidal $(\infty,1)$-category $p : C^\otimes \to N(FinSet_*)$ is the [[(infinity,1)-pullback]] of $p$ along $\varphi$.
+There is a functor $\varphi : \Delta^{op} \to FinSet_*$ such that the [[monoidal (infinity,1)-category]] _underlying_ a symmetric monoidal $(\infty,1)$-category $p : C^\otimes \to N(FinSet_*)$ is the [[(infinity,1)-pullback]] of $p$ along $\varphi$.
+=--
 
-#Examples#
+
+##Examples#
 
 * [[stable (infinity,1)-category of spectra]]
 
 * [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]
 
-#References#
+
+##References#
 
 The defintion of symmetric monoidal quasi-category is definition 1.2 in 
 
 * [[Jacob Lurie]], [[higher algebra|Commutative algebra]]
+
 
 [[!redirects symmetric monoidal (infinity,1)-categories]]
 [[!redirects symmetric monoidal (∞,1)-category]]
