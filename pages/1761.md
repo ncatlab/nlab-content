@@ -9,3 +9,7 @@ This should be related to the "$\infty$-dimensional sheaf theory" described at [
 +--{ .query}
 _Zoran_: Could one define $(\infty,1)$-sieves somehow as subobjects (in quasi-category sense) of representables in enriched quasi-category setup ?
 =--
+
++-- {: .query}
+So if $\infty$-stacks are really $(\infty,1)$-sheaves, and stacks are really $(2,1)$-sheaves, then these are the real $2$-sheaves, that is $(2,2)$-sheaves? (with notation following that of $(n,r)$-[[(n,r)-category|category]]).  ---Toby
+=--
