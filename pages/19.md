@@ -57,6 +57,7 @@ But maybe surprisingly, category theory turns out to be much more than the study
 * [[internal category]]
 * [[internalization]]
 * [[isomorphism]]
+* [[large category]]
 * [[limit]]
 * [[locally small category]]
 * [[monoid]]
