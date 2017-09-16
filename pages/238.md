@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-13 #
 
+* [[Urs Schreiber|Urs]]: I gather it is in order to express congratulations to [[Mike Shulman]] given [the latest changes](http://ncatlab.org/nlab/show/diff/Mike+Shulman) to his page
+
 *  [[Toby Bartels]]:  I think that the (unordered) notion of _category with inverses_ at [[partially ordered category]] should be the same as that of _[[dagger category]]_.
 
 # 2009-06-12 #
