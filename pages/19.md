@@ -275,7 +275,11 @@ However, I don\'t object to this list; it might or might not work better on a se
 
 _Todd_: Yes, I thought what Jon wrote might have been what he had in mind (but I didn't want to put words in his mouth, so I left the question open-ended), and then what Toby wrote would have been my follow-up question. Mind you, I am open to the suggestion that there may be philosophical antecedents or anticipations of the notion of category in these earlier developments (and I'd find that very interesting), but it's not clear to me how that would be the case in any precise sense. I think Toby's recasting this as 'Etymology' is far safer, until more evidence is brought to the table.
 
-[[JA]]: I don't think that E & MacL were simply punning, but I doubt if it's necessary to take up more space here, as this page already bogs down my connection.  Just for one thing to think about, though, you might reflect on the question of "natural kinds", and the part that it played in the thought of Aristotle, Kant, and Peirce.
+[[JA]]: I don't think that E & MacL were simply punning, but I doubt if it's necessary to take up more space here, as this page already bogs down my connection.  Just for one thing to think about, though, you might reflect on the question of "natural kinds", and the part that it played in the thought of Aristotle, Kant, and Peirce. 
+
+_Todd_: It's clear enough (especially in view of examples of 'large categories' which consist of various species of structured sets) that "categories" was not an altogether inappropriate choice of word, but that's speaking at a pretty broad philosophical level. The more specific sense of category as involving morphisms and their compositional algebra is a different matter. It's not clear (to me, yet) that the germ of any such sense can be traced to any of the aforementioned authors; IMO a more convincing precursor in this wise might be Klein's Erlangen Program. 
+
+As for "functor": it's even less clear to me that there was any tight connection in Mac Lane's mind between Carnap's use and his (Mac Lane's) own appropriation. I suspect that it was meant more to conjure an association with "function" than with Carnap particularly. 
 
 =--
 
