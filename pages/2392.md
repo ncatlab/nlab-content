@@ -48,3 +48,5 @@ This is the approach described in (the new version of !)
 
 
 [[!redirects (∞,1)-operad]]
+[[!redirects (∞,1)-operads]]
+[[!redirects (infinity,1)-operads]]
