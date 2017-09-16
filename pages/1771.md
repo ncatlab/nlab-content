@@ -2,6 +2,12 @@
 
 #Idea#
 
+The notion of smooth $\infty$-stack is essentially that of 
+
+* [[Lie ∞-groupoid]].
+
+* [[orbifold|∞-orbifold]].
+
 Following the logic described at
 
 * [[space and quantity]]
