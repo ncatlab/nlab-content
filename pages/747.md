@@ -22,11 +22,12 @@ Various interrelated flavors of model structures on the category of simplicial p
 Notice that when regarded as a presentation of an [[(infinity,1)-sheaf]], i.e. of an [[infinity-stack]], a simplicial presheaf, being an ordinary functor instead of a [[pseudofunctor]] corresponds to a [[rectified infinity-stack]]. It might therefore seem that a model given by simplicial presheaves is too restrictive to capture the full expected flexibility of a notion of [[infinity-stack]].
 But this is not so. 
 
-In proposition 6.5.2.1 of
+In 
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
-a fully general definition of a [[(infinity,1)-category of (infinity,1)-sheaves|(infinity,1)-category of infinity-stacks]] is given it is shown that, indeed, the Brown-Joyal-Jardine model is a [[presentable (infinity,1)-category|presentation]] of that.
+a fully general definition of a [[(infinity,1)-category of (infinity,1)-sheaves|(infinity,1)-category of infinity-stacks]] is given it is shown -- proposition 6.5.2.1 --
+that, indeed, the Brown-Joyal-Jardine model is a [[presentable (infinity,1)-category|presentation]] of that.
 
 More precisely
 
@@ -73,6 +74,8 @@ The standard, but somewhat more terse, lecture notes are
 based on
 
 * **Jardine01** J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384
+
+See also
 
 * Benjamin Blander, _Local projective model structures on simplicial presheaves_,  K-Theory, Volume 24, Number 3, November 2001 , pp. 283--301(19) ([journal](http://www.ingentaconnect.com/content/klu/kthe/2001/00000024/00000003/00384649?crawler=true))
 
