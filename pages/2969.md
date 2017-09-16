@@ -1,4 +1,4 @@
-A map $i:A\to X$  of topological spaces is said to satisfy the **homotopy extension property** (HEP) with respect to a space $Z$ if for any map $\tilde{f}:X\to Z$ and a homotopy $F:X\times I\to Z$ such that $F(-,0)=\tilde{f}\circ i$, a homotopy $\tilde{F}:X\times I\to Z$ exists such that $\tilde{F}\circ (i\times id_I)=F$. Denote $f:=\tilde{f}\circ i=F(-,0)$; then this is expressed by means of the commutative diagram
+A map $i:A\to X$  of topological spaces is said to satisfy the **homotopy extension property** (HEP) with respect to a space $Y$ if for any map $\tilde{f}:X\to Y$ and a homotopy $F:X\times I\to Y$ such that $F(-,0)=\tilde{f}\circ i$, a homotopy $\tilde{F}:X\times I\to Y$ exists such that $\tilde{F}\circ (i\times id_I)=F$. Denote $f:=\tilde{f}\circ i=F(-,0)$; then this is expressed by means of the commutative diagram
 
 $$\array{
 A & &\stackrel{i}\to && X\\
@@ -8,11 +8,11 @@ A & &\stackrel{i}\to && X\\
 A\times I &&\stackrel{i\times id}\to&&X\times I
 }$$
 
-Here we denoted $\sigma_0:x\mapsto (x,0)$, so that $F\circ\sigma_0=F(-,0)$.
+Here we denoted $\sigma_0:x\mapsto (x,0)$, so that $F\circ\sigma_0=F(-,0)$. Map $\tilde{f}$ is sometimes said to be the initial condition of the homotopy extension problem. $\tilde{F}$ is the extension of homotopy $F$ with given initial condition which itself extends $F\circ\sigma_0$. 
 
-Surely it is superfluous to write the arrow $f:A\to Z$ as if we erase it, the commutativity still has a commuting square around it saying $F\circ\sigma_0=\tilde{f}\circ i$, but it is conceptually nice to think of $\tilde{f}$ as extending some $f:=F\circ\sigma_0$. 
+Surely it is superfluous to write the arrow $f:A\to Y$: if we erase it, the commutativity of the remaning square just sorrounding its position is saying $F\circ\sigma_0=\tilde{f}\circ i$; however it is conceptually nice to think of $\tilde{f}$ as extending some $f:=F\circ\sigma_0$. 
 
-One can instead of the diagram above write a diagram involving adjoint maps. In other words, instead of any homotopy $h:A\times I\to Z$ we use the exponential law to write $h':A\to Z^I$ where the correspondence is given by the formula $h'(a)(t)=f(a,t)$. Then the homotopy lifting property is the existence of the diagonal map $\tilde{F}'$ in the diagram:
+One can instead of the diagram above write a diagram involving adjoint maps. In other words, instead of any homotopy $h:A\times I\to Y$ we use the exponential law to write $h':A\to Y^I$ where the correspondence is given by the formula $h'(a)(t)=f(a,t)$. Then the homotopy lifting property is the existence of the diagonal map $\tilde{F}'$ in the diagram:
 
 $$
   \array{
@@ -57,9 +57,9 @@ $$
   \,.
 $$
 
-By the assumption on $i$, there is $\tilde{G}$ such that both triangles commute.
+By the assumption on $i$, there is a $\tilde{G}$ as in the diagram, such that both triangles commute, i.e. $ev_0\circ\tilde{G}=F\circ i_*(g)$ and $\tilde{G}\circ i = \tilde{F}\circ g$.
 
-If $i:A\to X$ is satisfying the HEP with respect to $Y$ then there is a diagonal in that external square which is some map $\tilde{G}:X\to Y^I$. This map together with $f:Z\to Y^I$, by the universal property of pushout, determines a unique map $\tilde{F}:X\coprod_A Z\to Y^I$ such that $\tilde{F}\circ i_*(g)=\tilde{G}$ and $\tilde{F}\circ g_*(i)=f$. We need to show that 
-$ev_0\circ\tilde{F}=F$ and $\tilde{F}\circ g_*(i)=f$.
+If $i:A\to X$ is satisfying the HEP with respect to $Y$ then there is a diagonal in that external square which is some map $\tilde{G}:X\to Y^I$. This map together with $f:Z\to Y^I$, by the universal property of pushout, determines a unique map $\tilde{F}:X\coprod_A Z\to Y^I$ such that $\tilde{F}\circ i_*(g)=\tilde{G}$ and $\tilde{F}\circ g_*(i)=f$. We need to show only that 
+$ev_0\circ\tilde{F}=F$ as $\tilde{F}\circ g_*(i)=f$ holds by the construction of $\tilde{F}$ as stated.
 
-By the definition of $\tilde{G}$ and the commutativity of the original double square diagram, $ev_0\circ \tilde{F}\circ i_*(g)=ev_0\circ\tilde{G}=F\circ i_*(g)$ and $f\circ g = \tilde{G}\circ i = \tilde{F}\circ i_*(g)\circ i = \tilde{F}\circ g_*(i)\circ g$. This is almost what we wanted except that we precompose the wanted identities with certain maps. If we could cancel $i_*(g)$ in the first and $g$ in the second identity we are done. But we can do this by the uniqueness part of the universal property of pushout. 
+By the definition of $\tilde{G}$ and the commutativity of the original double square diagram, $ev_0\circ \tilde{F}\circ i_*(g)=ev_0\circ\tilde{G}=F\circ i_*(g)$ and $ev_0\circ \tilde{F}\circ g_*(i)=ev_0\circ f=F\circ g_*(i)$. This is almost what we wanted except that we precompose the wanted identity with both maps into the pushout. Thus by the uniqueness part of the universal property of pushout it follows that $ev_0\circ\tilde{F}=F$.
