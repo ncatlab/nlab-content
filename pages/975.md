@@ -36,7 +36,7 @@ The following lists chapterwise linked lists of keywords to relevant and related
 
 For a pedagogical motivation of the general topic under consideration here see
 
-* [[heuristic introduction to sheaves, cohomology and higher stacks]]
+* [[motivation for sheaves, cohomology and higher stacks]]
 
 
 #1 The language of categories#
