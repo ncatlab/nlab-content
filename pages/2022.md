@@ -6,13 +6,11 @@ Given a [[finite category|locally finite]] [[partially ordered set]] $C$, its _H
 
 ## Definition ##
 
-A **Hasse diagram** $H$ is a [[directed graph]] whose edges satisfy the [[covering relation]].
+A **Hasse diagram** $H$ is a [[directed graph]] such that the [[graph|adjacency relation]] equals the [[covering relation]].
 
-+-- {: .query}
-I don\'t understand that sentence as phrased; I think that you mean that the adjacency relation equals the covering relation?  (Of course, maybe I rewrote [[covering relation]] badly; Wikipedia\'s article on covering relations wasn\'t very clear.  But it didn\'t seem to be a relation the way that you wrote it.)  ---Toby
-=--
+In particular, given a [[proset]] $C$, its Hasse diagram $H(C)$ is obtained by "forgetting all composite morphisms". The proset $C$ may then be recovered as the free poset on that Hasse diagram.
 
-There is a [[forgetful functor]]
+More formally, there is a [[forgetful functor]]
 
 $$U: Ord \to Hasse,$$
 
