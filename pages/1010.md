@@ -10,6 +10,8 @@ Although developed for application to [[category theory]], the definition is usu
 
 +--{: .query}
 I don\'t really like how this page looks now, since it focuses once more on the 'evil' set theory.  I think that I\'ll rewrite it to talk about strongly inaccessible cardinal numbers first, which is a reasonable approach from any perspective, and then look at how you can say this more directly in both material and structural set theory.  That means that I\'ll restore some text that was removed (not much of that was moved to [[universe in a topos]]), but this time I\'ll verify the correctness of the structural material (using [[universe in a topos]] as a guide) as I go.  ---Toby
+
+[[Mike Shulman|Mike]]: I'm not sure I agree.  Firstly, I actually think it is better to define what you really want---in this case, a collection of sets closed under the operations we need---and only later observe that it may be equivalent to something in terms of inaccessible cardinals.  I also expect that the equivalence between universes and inaccessibles requires the [[axiom of choice]], so wouldn't it be better to separate them?  Finally, this page is called "Grothendieck universe," not [[inaccessible cardinal]], so I think that here we should take the universes as primary, not their cardinals.
 =--
 
 
@@ -59,12 +61,16 @@ Then using their usual encodings in set theory:
 
 Given a universe $U$, an element of $U$ is called a **$U$-small set**, while a subset of $U$ is called **$U$-moderate**.  Every $U$-small set is $U$-moderate by requirement (1) of the definition.  If the universe $U$ is understood, we may simply say **small** and **moderate**.
 
-The term _$U$-large_ is ambiguous; it sometimes means 'not small' but sometimes means the same as 'moderate' (or 'moderate but not small').  The reason is that language that distinguishes 'small' from 'large' in terms of sets and proper classes translates directly into terms of $U$-small and $U$-moderate sets.  Those sets that are not even $U$-moderate are 'too large' to be translated into language of proper classes.
+The term _$U$-large_ is ambiguous; it sometimes means 'not small' but sometimes means the same as 'moderate' (or 'moderate but not small').  The reason is that language that distinguishes 'small' from 'large' in terms of sets and [[proper class|proper classes]] translates fairly directly into terms of $U$-small and $U$-moderate sets.  To be precise, if we redefine "set" to mean "$U$-small set," then every proper class in this new world of sets will be represented by a $U$-moderate set (a subset of $U$).  Those sets that are not even $U$-moderate are 'too large' to be translated into language of proper classes.
+
+(Note, though, that not all $U$-moderate sets represent proper classes relative to the world of $U$-small sets, only those that are _first-order definable_ from $U$-small sets.  If $\kappa$ is the [[cardinal number|cardinality]] of the universe $U$, then there are  $2^\kappa$ $U$-moderate sets, but only $\kappa$ proper classes.)
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Is this use of "$U$-large" standard?  I've always seen "large" used in the context of a universe to mean _any_ set that is not necessarily in $U$, while sometimes "moderate" means a set that is no larger than the universe (hence, essentially a subset of $U$).  The use of "large" here to mean what I am used to calling "moderate" threw me for quite a while.
 
 _Toby_:  I\'m pretty sure that I\'ve seen it, but maybe I\'m letting my memory be corrupted by [others](http://golem.ph.utexas.edu/category/2007/06/large_smooth_categories.html#c010236).  In any case, I think that 'moderate' is better language, so let\'s use that here.  (There is sense behind this usage of 'large', however, as I've explained above.)
+
+[[Mike Shulman|Mike]]: Yes, although it's not quite as straightforward as it may seem (see my correction).
 =--
 
 As such, these concepts are [[evil]], since two sets may be [[isomorphism|isomorphic]] yet have different properties with respect to $U$.  However, a set which is isomorphic to a $U$-small or $U$-moderate set is called **essentially** $U$-small or $U$-moderate; these concepts are non-evil.
