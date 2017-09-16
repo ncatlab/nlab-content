@@ -20,6 +20,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]: 
 
+  * added to [[Grothendieck construction]] the definition in terms of pullback of the "universal Cat-bundle" -- and added pointers to Grothendieck fibration and to category of elements at [[generalized universal bundle]]
+
   * created [[fibrations of simplicial sets]]
 
   * added to [[Kan fibration]] a sentence on right/left Kan fibrations and made [[inner Kan fibration]], [[left Kan fibration]], [[right Kan fibration]] and [[weak Kan fibration]] redirect to it
