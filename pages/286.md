@@ -76,4 +76,6 @@ _Harry_: Couldn't we just say: Let $f$ and $g$ be (left? right?)-composable iff 
 _Toby_:  That seems to bring us back to the idea of composing along an isomorphism between $dom g$ and $cod f$, now generalised to quasicategories.
 
 [[Mike Shulman]]: Yes, if you only know that $h[dom g]$ is isomorphic to $h[cod f]$, you still need to *choose* an isomorphism along which to compose $f$ and $g$.  Different choices will give you different "composites".
+
+_Harry_: Can two wrongs (or evils in this case) make a right?  Maybe we can solve the composition problem by passing to the skeleton of the homotopy category?
 =--
