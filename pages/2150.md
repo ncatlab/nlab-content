@@ -1,4 +1,8 @@
-Let $X$ be a [[paracompact space|paracompact]] [[Hausdorff space]]. A [[sheaf]] $F$ of [[groups]] over $X$ is __fine__ if for every two disjoint closed subsets $A,B\subset X$, $A\cap B\neq \emptyset$, there is an [[endomorphism]] of the sheaf of groups $F\to F$ which restricts to the identity in a neighborhood of $A$ and to the $0$ endomorphism in a neighborhood of $B$. Every fine sheaf is [[soft sheaf|soft]].
+Let $X$ be a [[paracompact space|paracompact]] [[Hausdorff space]]. A [[sheaf]] $F$ of [[groups]] over $X$ is __fine__ if for every two disjoint closed subsets $A,B\subset X$, $A\cap B = \emptyset$, there is an [[endomorphism]] of the sheaf of groups $F\to F$ which restricts to the identity in a neighborhood of $A$ and to the $0$ endomorphism in a neighborhood of $B$. Every fine sheaf is [[soft sheaf|soft]].
+
++-- {: .query}
+Changed $A \cap B \neq \emptyset$ to $A \cap B = \emptyset$. Unless I am very confused, this is the right definition! David Speyer
+=--
 
 +-- {: .query}
 David Speyer asks: Voisin, in _Hodge Theory and Complex Alegbraic Geometry I_, definition 4.35 makes a different definition of fine sheaf. I can see that they are related, but I can't see precisely what the relation is. 
