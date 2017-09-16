@@ -136,9 +136,11 @@ For a similar link list with considerable overlap see
 
 * [[locale]]
 
+* [[localic topos]]
 
 ##Geometric Logic and Classifying Topoi##
 
+* [[classifying topos]]
 
 ##Appendix: Sites for Topoi##
 
