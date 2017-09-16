@@ -13,7 +13,8 @@ By contrast, when we add *structure* to objects, i.e. we consider an adjoint to 
 
 * Cauchy completion of a [[metric space]], or more generally a [[uniform space]]
 * Dedekind completion of an order
-* [[profinite completion of a group|profinite completion]] of a discrete group
+* [[profinite completion of a group|profinite completion]] of a discrete group 
+* Field of fractions of an integral domain 
 
   +--{: .query}
   Is this a case of profinite completion of a category, i.e., adding cofiltered limits?
