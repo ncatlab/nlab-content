@@ -1,0 +1,27 @@
+# Idea #
+
+A _total order_ on a set is a way of ordering its elements to say that some elements precede others, with the understanding that any two elements can be compared one way or the other.
+
+# Definition #
+
+Given a [[set]] $S$, a __total order__ on $S$ is a (binary) [[relation]] $\leq$ with the following properties:
+* reflexivity: for any element $x$ of $S$, $x \leq x$;
+* transitivity: whenever $x \leq y \leq z$, then $x \leq z$;
+* antisymmetry: whenever $x \leq y \leq x$, then $x = y$;
+* totality: for any $x$ and $y$ in $S$, $x \leq y$ or $y \leq x$.
+
+A __[[toset]]__ is a set equipped with a partial order.
+
+# Relation to linear orders #
+
+A [[linear order]] is much like a total order, except that it is based on an irreflexive relation $\lt$.
+
+Using [[excluded middle]], one can move between linear orders and total orders using [[negation]]; that is, the negation of a total order is a linear order and vice versa.  Actually one usually swaps the order too, as follows:
+* $x \leq y$ iff $y \nless x$;
+* $x \lt y$ iff $y \nleq x$.
+
+One often sees $x \lt y$ defined as $x \le y$ but $x \ne y$; this is equivalent, but doesn\'t show the duality explicitly.  Similarly, one often sees $x \leq y$ defined as $x \lt y$ or $x = y$; this is not even equivalent constructively, although it is classically.
+
+In classical mathematics, the distinction between total orders and linear orders is merely a terminological technicality, which is not always observed; more precisely, there is a [[natural isomorphism|natural bijection]] between the set of total orders on a given set $S$ and the set of linear orders on $S$, and one distinguishes them by their notation.  In [[constructivism|constructive mathematics]], however, they are irreducibly different.
+
+For more, including why linear orders are more often useful in constructive mathematics, see [[linear order]].
