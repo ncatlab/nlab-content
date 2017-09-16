@@ -65,9 +65,11 @@ is an isomorphism of sets.
 
 Here is an application of this concept to characterize which abelian categories are categories of modules of some ring:
 
-**Theorem**: Let $C$ be an abelian category.  If $C$ has all small coproducts and has a compact [[projective object| projective]] [[generator]], then $C \simeq R Mod$ for some ring $R$.  In fact, if $C$ has all small colimits and $x$ is a compact projective generator, when we can take $R = C(x,x)^{op}$.  Conversely, if $C \simeq R Mod$, then $C$ has all small coproducts and $x = R$ is a compact projective generator.
+**Theorem**: Let $C$ be an abelian category.  If $C$ has all [[small category|small]] [[coproducts]] and has a [[compact object|compact]] [[projective object| projective]] [[generator]], then $C \simeq R Mod$ for some ring $R$.  In fact, in this situation we can take $R = C(x,x)^{op}$ where $x$ is any compact projective generator.   Conversely, if $C \simeq R Mod$, then $C$ has all small coproducts and $x = R$ is a compact projective generator.
 
-**Proof**: The nontrivial part of this theorem is Prop. 2.1.7. of Victor Ginzburg's [Lectures on Noncommutative Geometry](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf#page=4).  Conversely, it is easy to see that $R$ is a compact projective generator of $R Mod$.
+**Proof**: 
+This theorem, minus the explicit description of $R$, can be found as Exercise F on page 103 of Peter Freyd's book [Abelian Categories](http://www.emis.de/journals/TAC/reprints/articles/3/tr3.pdf#page=132).
+The first part of this theorem can also be found as Prop. 2.1.7. of Victor Ginzburg's [Lectures on noncommutative geometry](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf#page=4).  Conversely, it is easy to see that $R$ is a compact projective generator of $R Mod$. 
 
 +--{.query}
 Zoran: While Ginzburg's reference is surely a worthy to look at, it would be better not to give false impression that this [[reconstruction theorem]] is due Ginzburg or at all new. It is rather a classical and well know fact probably from early 1960s, essentially small strengthening of a variant of a circle of abelian reconstruction theorems including the [Gabriel-Popescu theorem](http://myyn.org/m/article/gabriel-popescu-theorem-for-ab5-categories)(probably our variant could be read off from classical algera book by Faith for example, or Popescu's book on abelian categories, in any case it is well known in [[noncommutative algebraic geometry]]). In fact for this fact, if I think better, the reconstruction belongs usually to expositions which treat classical Morita theory for rings. 
