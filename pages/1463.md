@@ -1,7 +1,11 @@
-[[!redirects ultrafilter principle]]
+# The ultrafilter theorem
+* tic
+{: toc}
 
 
-In classical mathematics, the ultrafilter theorem is a theorem about ultrafilters, proved as a standard application of [[Zorn's lemma]].  In the [[foundations]] of mathematics, however, it is interesting to consider which results are implied by it or equivalent to it (very few imply it without being equivalent, other than those that imply the full axiom of choice itself).
+## Idea
+
+In [[classical mathematics]], the ultrafilter theorem is a theorem about ultrafilters, proved as a standard application of [[Zorn's lemma]].  In the [[foundations]] of mathematics, however, it is interesting to consider which results are implied by it or equivalent to it (very few imply it without being equivalent, other than those that imply the full axiom of choice itself).
 
 
 ## Statement and proof
@@ -19,6 +23,7 @@ Given a proper filter $F$ on $X$, consider the [[partial order|poset]] of proper
 =--
 
 Although this proof uses Zorn's lemma, the statement itself is weaker.  In particular, it is weaker than the [[axiom of choice]] (even assuming the principle of [[excluded middle]]).
+
 
 ## Other formulations
 
@@ -43,6 +48,7 @@ These classical results in analysis are equivalent to the ultrafilter theorem in
 *  [[Stone-Cech compactification]]: the [[compact Hausdorff space]]s form a [[reflective subcategory]] of [[Top]].  (The classical result that they form a reflective subcategory of the category $T_3$ of completely regular Hausdorff spaces is enough; the classical result that the reflection is a dense embedding on $T_3$ also follows.)
 *  [[Banach-Alaoglu theorem]]: the closed unit ball of the double dual of a [[Banach space]] is weak* compact.  (The result for *separable* spaces does not require the ultrafilter theorem.)
 
+
 ## References
 
 Various equivalences with the ultrafilter theorem are stated and proved (in <b>ZF</b>) in
@@ -52,3 +58,6 @@ Various equivalences with the ultrafilter theorem are stated and proved (in <b>Z
 See a summary (in GIF!): [page 1](http://www.math.vanderbilt.edu/~schectex/ccc/excerpts/equivuf1.gif) and [page 2](http://www.math.vanderbilt.edu/~schectex/ccc/excerpts/equivuf2.gif).
 
 It\'s possible that I\'ve made some mistakes above in deciding which of these use excluded middle or the existence of a natural numbers object.  (I very much doubt that any of them use replacement.)
+
+
+[[!redirects ultrafilter principle]]
