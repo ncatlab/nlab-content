@@ -79,9 +79,13 @@ On the other hand, if $E$ is the [[classifying topos]] of a [[geometric theory]]
 
 ## Having enough points ##
 
-A [[topos]] is said to have **enough points** if isomorphy can be tested [[stalk]]wise.
+A [[topos]] is said to have **enough points** if isomorphy can be tested [[stalk]]wise, i.e. if the inverse image functors from all of its points are jointly [[conservative functor|conservative]].
 
-More precisely: if it is true that every morphism $f : A \to B$ such that for every point $p$ of the topos the morphism of [[stalks]] $p^* f : p^* A \to p^* B$ is an isomorphism implies already that $f$ itself is an isomorphism.
+More precisely, $E$ has enough points if for any morphism $f : A \to B$, if for every point $p$ of $E$, the morphism of [[stalks]] $p^* f : p^* A \to p^* B$ is an isomorphism, then $f$ itself is an isomorphism.
+
+If $E$ is a [[Grothendieck topos]], one can prove from this that there in fact exists a *set* of points of $E$ which are jointly conservative, and therefore a geometric morphism $Set/X \to E$, for some set $X$, which is [[surjective geometric morphism|surjective]].  (In general, of course, a topos can have a proper class of non-isomorphic points.)
+
+A Grothendieck topos has enough points precisely when it underlies a bounded [[ionad]].
 
 
 ### Examples ###
@@ -105,3 +109,4 @@ section 7.5 of
 
 
 [[!redirects point of topos]]
+[[!redirects topos with enough points]]
