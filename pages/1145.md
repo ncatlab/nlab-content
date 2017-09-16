@@ -11,29 +11,48 @@
 
   * [[Higher Topos Theory]]
 
-
 * [[topology and geometry|Topology and Geometry]]
 
-  * [[homotopy theory|Homotopy Theory]]
+  * [[geometry]] (general list), [[topology]] (general list)
 
-    * [[stable homotopy theory|Stable Homotopy Theory]]
+  * [[general topology]]
+  
+  * [[homotopy theory]]
 
-    * [[rational homotopy theory|Rational Homotopy Theory]]
+  * [[stable homotopy theory]], [[rational homotopy theory]]
 
-  * [[differential geometry|Differential Geometry]]
+  * [[differential geometry]]
 
-    * [[synthetic differential geometry]]
+     * [[synthetic differential geometry]]
 
-  * [[higher geometry|Higher Geometry]]
+  * [[differential topology]]
+
+  * [[algebraic geometry]]
+  
+  * [[noncommutative algebraic geometry]]
+
+  * [[noncommutative geometry]] (general flavour)
+
+  * [[higher geometry]]
 
 * [[algebra|Algebra]]
 
-  * [[universal algebra|Universal Algebra]]
+  * [[universal algebra]]
 
-  * [[higher algebra|Higher Algebra]]
+  * [[higher algebra]]
 
-  * [[group theory|Group Theory]]
+  * [[homological algebra]]
 
-    * [[representation theory|Representation Theory]]
+  * [[group theory]], [[ring theory]]
+
+    * [[representation theory]]
+
+  * [[algebraic approaches to differential calculus]]
+
+* [[analysis]]
+
+  * [[nonstandard analysis]]
+
+  * [[functional analysis]], [[operator algebras]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/mathematicscontents)</div>
