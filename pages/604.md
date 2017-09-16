@@ -1,3 +1,10 @@
+<div class="rightHandSide toc">
+
+[[!include functorial quantum field theory - contents]]
+
+</div>
+
+
 #Idea#
 
 In so far as a [[cobordism]] connects its boundary components with each other, the idea of an _extended cobordism_ is that its (pieces of) boundary components are themselves extended cobordisms between <em>their</em> (pieces of) boundary components.
