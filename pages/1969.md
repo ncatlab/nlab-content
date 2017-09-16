@@ -7,6 +7,11 @@ For $X,Y \in Obj(C)$ objects of $C$ the [[SSet]]-[[hom object]] $\mathbf{C}(X,Y)
 
 There are various equivalent explicit expressions for this objects. These are described and compared in the following.
 
++-- {: .query}
+I don\'t like this term, (for reasons other than using the word 'categorical' ^_^).  Is there any hom-space that is *not* $(\infty,1)$-categorial?  It seems to me that if your hom-objects are spaces, then you\'re an $(\infty,1)$-category; and if you\'re an $(\infty,1)$-category, then your hom-objects could be any spaces.  So how about [[hom-space]]?  ---Toby
+=--
+
+
 # Details #
 
 Let $C$ be a [[model category]]. Recall the [[simplicial localization|hammock localization]] procedure on $C$:
@@ -77,6 +82,11 @@ A useful quick review is page 14, 15 of
 
 * Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
 
+
 [[!redirects (∞,1)-categorical hom-space]]
 [[!redirects (infinity,1)-categorical hom space]]
 [[!redirects (∞,1)-categorical hom space]]
+[[!redirects (infinity,1)-categorial hom-space]]
+[[!redirects (∞,1)-categorial hom-space]]
+[[!redirects (infinity,1)-categorial hom space]]
+[[!redirects (∞,1)-categorial hom space]]
