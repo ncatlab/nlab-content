@@ -1,3 +1,2 @@
-See [[simplicial presheaf]].
-
-category: delete
+&lt; [[simplicial presheaves]]
+[[!redirects simplicial presheaves -- history]]
