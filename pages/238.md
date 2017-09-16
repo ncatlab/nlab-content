@@ -11,6 +11,15 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+# 2009-06-25 #
+* [[Tim Porter|Tim]]: 
+
+   * I have added material to [[gerbe]], although it is still a long way from explaining the link with cohomology with integer coefficients that was requested.
+
+   * In the process of doing the above I have added a deconstruction section to [[torsor]], and created [[trivial torsor]].
+
+   *  I created a brief entry on [[Jean-Luc Brylinski]], but this is really a stub with a link to Wikipedia.
+
 
 # 2009-06-24 #
 * [[Finn Lawler]]: Added a proof (sketch) of the 'lax Yoneda lemma' to [[lax natural transformation]].  Also replied re terminology at [[modification]] (thanks to Urs for a fantastic reply to my question there).
