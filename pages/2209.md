@@ -12,7 +12,7 @@ Peirce's incipient theory of information, that he appears to have developed by s
 
 : ([Peirce 1866, Lowell Lecture 7, CE 1, 467](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Information_%3D_Comprehension_%C3%97_Extension#Selection_1))
 
-Today we would say that information has to do with constraint, law, redundancy.  I think that Peirce is talking about more or less the same thing under the theme of _superfluous comprehension_, where the comprehension of a term --- more generally any significant expression --- is the collection of properties, also known as _intensions_, that it implies about the things to which it applies.
+Today we would say that information has to do with constraint, law, redundancy.  I think that Peirce is talking about more or less the same thing under the theme of _superfluous comprehension_, where the comprehension of a term is the collection of properties, also known as _intensions_, that it implies about the things to which it applies.
 
 ## External links ##
 
