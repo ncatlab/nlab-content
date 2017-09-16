@@ -1,5 +1,5 @@
 
-**supergeometry**
+**[[supergeometry]]**
 
 ## Approaches ##
 
