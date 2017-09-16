@@ -1,6 +1,15 @@
+<div class="rightHandSide toc">
+[[!include homotopy - contents]]
+</div>
 
+#Conetnts#
 
-Gievn a [[site]] $C$ equipped with an [[interval object]] ${*}\sqcup {*} \stackrel{i_0 \sqcup i_1}{\to}I$ the **homotopy localization** of an [[(∞,1)-category of (∞,1)-sheaves]] $Sh_\infty(C)$ on $C$ is the [[localization of an (∞,1)-category|(∞,1)-categorical localization]] of $Sh_\infty(C)$ at the morphisms of the form
+* automatic table of contents goes here
+{:toc}
+
+#Idea#
+
+Given a [[site]] $C$ equipped with an [[interval object]] ${*}\sqcup {*} \stackrel{i_0 \sqcup i_1}{\to}I$ the **homotopy localization** of an [[(∞,1)-category of (∞,1)-sheaves]] $Sh_\infty(C)$ on $C$ is the [[localization of an (∞,1)-category|(∞,1)-categorical localization]] of $Sh_\infty(C)$ at the morphisms of the form
 
 $$
   X \stackrel{Id \times i_0}{\to} X \times I
