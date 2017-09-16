@@ -1,6 +1,6 @@
 # Idea #
 
-In [[homotopy theory]], a _spectrum_ containing only "stable information."  One way for a higher category theorist to understand the notion of spectrum is to start with the idea of a [[groupal n-groupoid|grouplike]] [[k-tuply monoidal n-category|stably monoidal]] $\infty$-[[infinity-groupoid|groupoid]].  To a homotopy theorist, this means a space with a multiplication which is associative, unital, commutative, and has inverses up to all coherent higher homotopies (as encoded, for instance, by an [[operad]]).
+In [[homotopy theory]], a _spectrum_ is an object containing only "stable information."  One way for a higher category theorist to understand the notion of spectrum is to start with the idea of a [[groupal n-groupoid|grouplike]] [[k-tuply monoidal n-category|stably monoidal]] $\infty$-[[infinity-groupoid|groupoid]].  To a homotopy theorist, this means a space with a multiplication which is associative, unital, commutative, and has inverses up to all coherent higher homotopies (as encoded, for instance, by an [[operad]]).
 
 The collection of grouplike stably monoidal $\infty$-groupoids is a sub-$(\infty,1)$-category of the $(\infty,1)$-category of spectra, called the _connective_ ones.  The passage from connective spectra to arbitrary spectra can perhaps best be explained as analogous to the passage from bounded-below [[chain complex|chain complexes]] to arbitrary chain complexes.  So while a connective spectrum, like a topological space, contains data only in dimensions $\ge 0$, an arbitrary spectrum contains data in all dimensions.  In particular, a spectrum $E$ has homotopy groups $\pi_k(E)$ for all _integers_ $k$, all of which are abelian groups.
 
@@ -10,10 +10,12 @@ There are many "models" for spectra, all of which present the same homotopy theo
 
 #Remarks#
 
-* In direct analogy to how topological spaces form the archetypical example, [[Top]], of an [[(infinity,1)-category]], spectra form the archetypical example $Sp(Top)$ of a [[stable (infinity,1)-category]]. In fact, there is a general procedure for turning any [[pointed category|pointed]] [[(infinity,1)-category]] $C$ into a stable $(\infty,1)$-category $Sp(C)$ and doing this to [[Top]] yields $Sp(Top)$.
+* In direct analogy to how topological spaces form the archetypical example, [[Top]], of an [[(infinity,1)-category]], spectra form the archetypical example $Sp(Top)$ of a [[stable (infinity,1)-category]]. In fact, there is a general procedure for turning any [[pointed category|pointed]] [[(infinity,1)-category]] $C$ into a stable $(\infty,1)$-category $Sp(C)$, and doing this to the category $Top_*$ of pointed spaces yields $Sp(Top)$.
 
 +--{.query}
 What\'s the point?  The unit interval?  Or the point?  (Or does it matter, since the unit interval is contractible?)  ---Toby
+
+[[Mike Shulman|Mike]]: You use the category of pointed/based spaces, which is pointed in the sense of having a zero object.
 =--
 
 # Conjectures #
