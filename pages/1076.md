@@ -246,4 +246,10 @@ Alex Heller's memoir is very readable
 
 F. Muro's complementary slides surveying triangulated categories: [htag.pdf](http://personal.us.es/fmuro/htag.pdf).
 
+A survey of formalisms used in [[stable homotopy theory]] -- tools to present the triangulated [[homotopy category]] of a  [[stable (infinity,1)-category]] -- is in
+
+* [[Neil Strickland]], _Axiomatic stable homotopy - a survey_ ([arXiv:math.AT/0307143](http://front.math.ucdavis.edu/0307.5143))
+
+
+
 [[!redirects triangulated categories]]
