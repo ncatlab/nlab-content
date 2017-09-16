@@ -167,18 +167,18 @@ Does it help to have local copies of images?
 
 <center>
 <img alt="Rooted Node" src="/nlab/files/Rooted_Node.jpg" width="20" height="10" />
-<img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="51" />
-<img alt="Cactus A Big" src="/nlab/files/Cactus_A_Big.jpg" width="20" height="38" />
-<img alt="Cactus (A) Big" src="/nlab/files/Cactus_lAr_Big.jpg" width="20" height="79" />
-<img alt="Cactus ABC Big" src="/nlab/files/Cactus_ABC_Big.jpg" width="50" height="38" />
-<img alt="Cactus ((A)(B)(C)) Big" src="/nlab/files/Cactus_llArlBrlCrr_Big.jpg" width="65" height="118" />
+<img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="50" />
+<img alt="Cactus A Big" src="/nlab/files/Cactus_A_Big.jpg" width="20" height="40" />
+<img alt="Cactus (A) Big" src="/nlab/files/Cactus_lAr_Big.jpg" width="20" height="80" />
+<img alt="Cactus ABC Big" src="/nlab/files/Cactus_ABC_Big.jpg" width="50" height="40" />
+<img alt="Cactus ((A)(B)(C)) Big" src="/nlab/files/Cactus_llArlBrlCrr_Big.jpg" width="65" height="120" />
 <img alt="Cactus (A(B)) Big" src="/nlab/files/Cactus_lAlBrr_Big.jpg" width="60" height="80" />
-<img alt="Cactus (A,B) Big" src="/nlab/files/Cactus_lAcBr_Big.jpg" width="65" height="78" />
-<img alt="Cactus ((A,B)) Big" src="/nlab/files/Cactus_llAcBrr_Big.jpg" width="65" height="118" />
-<img alt="Cactus (A,B,C) Big" src="/nlab/files/Cactus_lAcBcCr_Big.jpg" width="65" height="78" />
-<img alt="Cactus ((A),(B),(C)) Big" src="/nlab/files/Cactus_llArclBrclCrr_Big.jpg" width="65" height="118" />
-<img alt="Cactus (A,(B,C)) Big" src="/nlab/files/Cactus_lAclBcCrr_Big.jpg" width="90" height="119" />
-<img alt="Cactus (X,(A),(B),(C)) Big" src="/nlab/files/Cactus_lXclArclBrclCrr_Big.jpg" width="90" height="119" />
+<img alt="Cactus (A,B) Big" src="/nlab/files/Cactus_lAcBr_Big.jpg" width="65" height="80" />
+<img alt="Cactus ((A,B)) Big" src="/nlab/files/Cactus_llAcBrr_Big.jpg" width="65" height="120" />
+<img alt="Cactus (A,B,C) Big" src="/nlab/files/Cactus_lAcBcCr_Big.jpg" width="65" height="80" />
+<img alt="Cactus ((A),(B),(C)) Big" src="/nlab/files/Cactus_llArclBrclCrr_Big.jpg" width="65" height="120" />
+<img alt="Cactus (A,(B,C)) Big" src="/nlab/files/Cactus_lAclBcCrr_Big.jpg" width="90" height="120" />
+<img alt="Cactus (X,(A),(B),(C)) Big" src="/nlab/files/Cactus_lXclArclBrclCrr_Big.jpg" width="90" height="120" />
 </center>
 
 ***
