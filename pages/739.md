@@ -11,7 +11,7 @@ However, because of [[Stone duality]], it turns out that maps between profinite 
 
 * A motivating example is the absolute [[Galois group]] of a number field.
 
-* In SGA1, Grothendieck definied the fundamental group of a scheme to be a profinite group.  (This is linked with his work on [[pro-representable functor|pro-representable functors]].)
+* In SGA1, Grothendieck defined the [[algebraic fundamental group]] of a scheme to be a profinite group.  (This is linked with his work on [[pro-representable functor|pro-representable functors]].)
 
 *  Any finite group is profinite!
 
@@ -23,9 +23,9 @@ However, because of [[Stone duality]], it turns out that maps between profinite 
 
 * The category of profinite groups has nice 'exactness' properties. The projective limit of a system of profinite groups is an exact functor, unlike its behaviour on groups themselves. To extend this behaviour beyond (pro)finite groups sometimes pro-localic groups have been used.
 
-* [[profinite completion|Profinite completions]] have been extended from groups to homotopy types for the analysis of finitary properties of the homotopy type. Various constructions in algebraic geometry lead  naturally to [[profinite homotopy type|profinite homotopy types]].
+* [[profinite completion of a group|Profinite completions]] have been extended from groups to homotopy types for the analysis of finitary properties of the homotopy type. Various constructions in algebraic geometry lead  naturally to [[profinite homotopy type|profinite homotopy types]].
 
-* Subclasses of profinite groups are studied.  For instance, if $p$ is a prime number, a pro-$p$ group is a pro-object in the category of $$-groups.
+* Subclasses of profinite groups are extensively studied.  For instance, if $p$ is a prime number, a pro-$p$ group is a pro-object in the category of $$-groups.
 
 * Pro-p analytic groups have been introduced as an analogue of Lie groups, with certain rings of formal power series replacing differentiable functions.
 
