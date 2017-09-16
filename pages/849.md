@@ -4,7 +4,7 @@ You can distinguish this from the external [[hom-set]] $Hom(x,y)$; however, ever
 $$Hom(I,hom(x,y)) \cong Hom(x,y)$$
 by a [[natural isomorphism]].  More generally in a [[closed monoidal category]],
 $$Hom(a,hom(b,c)) \cong Hom(a \otimes b,c)$$
-naturally.
+naturally.  The rightward map here is often called __currying__, especially in a [[closed monoidal category]] (and more especially for the $\lambda$-calculus).
 
 Every closed category may be seen as a category [[enriched category|enriched]] over itself.  Accordingly, an internal hom is a special case of a [[hom-object]].
 
