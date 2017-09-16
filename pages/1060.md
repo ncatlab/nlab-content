@@ -4,11 +4,10 @@ A $*$-autonomous category \[1\] is a [[symmetric monoidal
 category|symmetric]] [[closed monoidal category]] $\langle
 C,\otimes, I\rangle$ with a _dualizing object_: an object
 $\bot$ such that the canonical morphism
-
-$$d_A:\A\to(A\multimap\bot)\multimap\bot$$
-
+$$ d_A: A \to (A \multimap \bot) \multimap \bot ,$$
 which is the transpose of the evaluation map
-$ev_{A,\bot}:(A\multimap\bot)\otimes A\to \bot$, is an
+$$ ev_{A,\bot}: (A \multimap \bot) \otimes A \to \bot ,$$
+is an
 isomorphism for all $A$.  (Here, $\multimap$ denotes the [[internal hom]].)
 
 Define a functor $(-)^*=(-)\multimap\bot$.  The map $d_A$
@@ -54,3 +53,6 @@ Models of [[linear logic]] are based on $*$-autonomous categories.
 
 1. Barr, Michael, _$*$-Autonomous Categories_. LNM 752,
    Springer-Verlag 1979.
+
+
+[[!redirects *-autonomous category]]
