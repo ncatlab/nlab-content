@@ -87,4 +87,4 @@ $$
 
 where $P_1(X)$ is the [[path groupoid]] of $X$.
 
-Similarly, 2-bundles may be equipped with connections by refining their cocycles $X \to \mathbf{B}H$ to cocycles out of a higher path groupoid. Details in this are at [[schreiber:Differential Nonabelian Cohomology|Differential Nonabelian Cohomology]]. 
+Similarly, 2-bundles may be equipped with connections by refining their cocycles $X \to \mathbf{B}H$ to cocycles out of a higher path groupoid. Details on this are at [[schreiber:Differential Nonabelian Cohomology|Differential Nonabelian Cohomology]]. 
