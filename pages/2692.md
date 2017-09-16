@@ -6,4 +6,6 @@
 
 * [[generalized universal bundle]]
 
+* [[homotopy coinvariants functor]]
+
 category: people
