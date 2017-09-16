@@ -239,6 +239,8 @@ $[\Delta^1,x^* A] \stackrel{d_0 \times d_1}{\to} x^*A \times x^* A$ is a fibrati
 The category of fibrant objects $SSh(X)$ 
 is in fact the motivating example in [[BrownAHT]]. Notice that the [[homotopy category]] in question coincides with that using the [[model structure on simplicial presheaves]], so that the category of fibrant objects of stalk-wise Kan sheaves is a model for the homotopy category of [[infinity-stack]]s.
 
+
+
 # Simple consequences of the definition #
 
 Before looking at more sophisticated constructions, we record the following direct consequences of the definition.
@@ -312,7 +314,7 @@ is also a weak equivalence.
 =--
 
 
-# Homotopy fiber products and factorization lemma #
+# Generalized universal bundles and the factorization lemma #
 
 A central lemma in the theory of categories of fibrant objects is the factorization lemma
 
@@ -361,7 +363,8 @@ with
 The way the proof of this lemma works, one sees that
 this really arises in the wider context of computing
 [[homotopy limit]]s in $C$. Therefore we split the
-proof in two steps that are useful in their own right.
+proof in two steps that are useful in their own right
+and will be taken up in the next section on homotopy limits.
 
 +-- {: .un_defn}
 ###### Definition 
@@ -417,7 +420,7 @@ $$
      B \times B &\stackrel{p_1}{\to}&
      B
      \\
-     \downarrow^{d_1} & \searrow_{p_2}
+     \downarrow^{d_1} & \swarrow_{p_2}
      \\
      B
   }
@@ -441,7 +444,7 @@ $$
     \stackrel{p_2}{\to}
     B
     \\
-    =
+    & =
     \mathbf{E}_f B \to C \times B
     \stackrel{p_2}{\to}
     B 
@@ -525,56 +528,304 @@ $$
 =--
 
 
-#Useful properties of categories of fibrant objects#
+#More sophisticated consequences of the definition#
 
-...to be merged with the rest...
+Using the factorization lemma, one obtaines the following
+further useful statements about categories of fibrant
+objects:
 
-In a category of fibrant objects, the following is true:
+Recall that plain weak equivalences,
+if they are not at the same time fibrations,
+are not required by the axioms to be preserved by 
+[[pullback]]. But it follows from the axioms that
 
-## Pullback of weak equivalences ##
++-- {: .un_lemma }
+###### Lemma
 
-While weak equivalences are not preserved generally under pullback,  they are preserved under pullback along fibrations.
+The pullback of a weak equivalence along a fibration
+is again a weak equivalence.
 
+=--
 
-## Path objects are replacements ##
++-- {: .proof}
+###### Proof
 
-For $B$ any object and $B^I$ its path object, the morphisms
+This is a bit of work. For the time being see
+page 11 in [[BrownAHT]].
 
-$$
-  d_0, d_1 : B^I \to B
-$$
+=--
 
-are acyclic fibrations.
+**Remarks** 
+
+* [[model category|Model categories]]
+that satisfy this property are called 
+[[right proper model category|right proper model categories]].
+
+* Right properness is a crucial assumption
+in the closely related work
+
+  * Jardine, 
+    _Cocycle categories_   
+    ([arXiv](http://arxiv.org/abs/math.AT/0605198))
+
 
 
 
 ## The homotopy category ##
 
-The [[homotopy]] category of a category of fibrant objects has a simple characterization:
+We discuss now 
+that the structure of a category of fibrant objects on a 
+[[homotopical category]] $C$ induces 
 
-Let first $\pi C$ be the category with the same objects as $C$ and which $Hom_{\pi C}(A,B)$ equal to the quotient of $Hom_C(A,B)$ by the equivalence relation $f \sim g$ if there is a weak equivalence $t : A' \to A$ such that there is a [[homotopy|right homotopy]] from $f \circ t$ to $g \circ t$.
+* a related category $\pi C$ 
 
-Then
+* with a morphism $C \to \pi C$
 
-+-- {: .un_theorem}
+  * that is the identity on objects, 
+  
+  * and induces on $\pi C$ a notion of weak equivalences
+    $$
+      \pi W \subset Mor(\pi C)
+    $$
+    and fibrations
+    $$
+      \pi F \subset Mor(\pi C)
+    $$
+
+* such that
+
+  * the weak equivalences in $\pi C$ form a [[calculus of fractions|left multiplicative system]] .
+
+This implies the following convenient construction
+of the [[homotopy category]] of $C$:
+
++-- {: .un}
 ###### Theorem
 
-The [[homotopy category]] $Ho_C$ of the category $C$ of fibrant objects is characterized by
-$$
-  Hom_{Ho_C}(A,B) \simeq colim_{A'} Hom_{\pi C}(A',B)  
-  \,,
-$$
-where the colimit is taken over all weak equivalences $t : A' \to A$.
+For $C$ a category of fibrant objects, 
+its [[homotopy category]] is 
+([[equivalence of categories|equivalent]] to) the category
+$Ho_C$ with
+
+* the same objects as $C$;
+
+* the [[hom-set]] $Ho_C(A,B)$ for all $A, B \in Obj(C)$
+  given naturally by
+  $$
+    \begin{aligned}
+      Ho_C(A,B) 
+      & \simeq 
+      colim_{\hat A \stackrel{w\in \pi W}{\to} A}
+      \pi C (\hat A,B)
+      \\
+      & =
+      colim_{\hat A \stackrel{f\in \pi W\cap F}{\to} A}
+      \pi C (\hat A,B)      
+    \end{aligned}
+    \,.
+  $$
+
 =--
 
-### Remark ###
+Here the colimit is, as described at [[calculus of fractions|multiplicative system]], over the [[opposite category]] of the category $\pi W_A$ or $(\pi F\cap \pi W)_A$ 
+whose objects are weak equivalences $\hat A \stackrel{w \in \pi W}{\to} A$ or acyclic fibrations
+$\hat A \stackrel{f \in \pi W\cap F}{\to} A$ in $\pi C$, and whose morphisms are commuting triangles
 
-By the factorization lemma above (and using 2-out-of-3 valid in any [[category with weak equivalences]]) it follows that inverting just the acyclic fibrations in $C$ is already equivalent to inverting all weak equivalences. This means that the above theorem remains valid if the weak equivalences $t : A' \to A$ are replaced by _acyclic fibrations_.
+$$
+  \array{
+    \hat A &&\stackrel{h}{\to}&& \hat A'
+    \\
+    & \searrow && \swarrow
+    \\
+    &&
+    A
+  }
+$$
+in $\pi C$ (i.e. for arbitrary $h$).
+
+So more in detail the above colimit is over the functor
+
+$$
+  \pi C(-, B)_A : 
+  (\pi W_A)^{op} \to (\pi C)^{op} 
+  \stackrel{\pi C(-, B)}{\to}
+  Set
+  \,,
+$$
+
+where the first functor is the obvious forgetful functor.
+
+**Remark**
+
+It is again the factorization lemma above (and using 2-out-of-3 that implies that inverting just the acyclic fibrations in $C$ is already equivalent to inverting all weak equivalences. This means that the above theorem remains valid if the weak equivalences $t : A' \to A$ are replaced by _acyclic fibrations_.
 
 Using acyclic fibrations here has the advantage that these are preserved under [[pullback]]. This allows to consistently compose spans whose left leg is an acyclic fibration by [[pullback]]. See [[homotopical cohomology theory]] and [[anafunctor]].
 
 A discussion of this point of using weak equivalences versus acyclic fibrations in the construction of the homotopy category is also in Jardine: [Cocycle categories](http://www.math.uiuc.edu/K-theory/0782/).
 
+
+
+We now provide the missing definitions and then the proof
+of this theorem.
+
++-- {: .un_defn}
+###### Definition
+
+Two morphism $f,g : A \to B$ in $C(A,B)$
+are **[[homotopy|homotopic]]**, denoted $f \sim g$, precisely if they fit into a diagram
+
+$$
+  \array{
+    &&
+    A 
+    &\stackrel{f}{\to}& B
+    \\
+    &{}^{w \in W}\nearrow&&& \uparrow^{d_0}
+    \\
+    \hat A 
+    &&
+    \stackrel{\eta}{\to}
+    &&
+    B^I
+    \\
+    &{}_{w\in W}\searrow & &&
+    \downarrow^{d_1}
+    \\
+    &&
+    A
+    &\stackrel{g}{\to}& 
+    B
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .un_lemma }
+###### Lemma
+
+This relation is an [[equivalence relation]]
+on $C(A,B)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Requires some work. For the time being see
+pages 6 and 7 of [[BrownAHT]].
+
+=--
+
+
++-- {: .un_defn}
+###### Definition
+
+For $C$ a category of fibrant objects the category
+$\pi C$ is defined to be the category
+
+* with the same objects as $C$;
+
+* with [[hom-set]]s the set of equivalence classes
+  $$
+   \pi C(A,B) := C(A,B)/_\sim
+  $$
+  under the above equivalence relation.
+
+* Composition in $\pi C$ is given by composition of
+  representatives in $C$.
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+The obvious functor
+
+$$
+  C \to \pi C
+$$
+
+is the identity on objects and the projection to
+[[equivalence relation|equivalence classes]] on
+[[hom-set]].
+
+Let $\pi W \subset Mor(\pi C)$ be the image of the 
+weak equivalences of $C$ in $\pi C$ under this functor,
+and $\pi F$ the image of the fibrations.
+
+=--
+
++-- {: .un_lemma }
+###### Lemma
+
+The weak equivalences $\pi W$ in $\pi C$ form
+a [[calculus of fractions|left multiplicative system]].
+
+=--
+
++-- {: .un_lemma }
+###### Lemma
+
+The homotopy categories of $C$ and $\pi C$ coincide:
+
+$$
+  Ho_C \simeq Ho_{\pi C}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By one of the lemmas above, the morphisms
+$d_i : B^I \to B$ are weak equivalences
+and become [[isomorphism]]s in $Ho_C$.
+The [[section]] $\sigma : B \to B^I$
+then becomes an [[inverse]] for both 
+of them, hence the images of $d_0$ and
+$d_1$ in $Ho_C$ coincide. Therefore
+the above diagram says that homotopic morphisms
+in $C$ become equal in $Ho_C$.
+
+But this means that the localization morphism
+$$
+  Q_C : C \to Ho_C
+$$
+factors through $\pi C$ as
+
+$$
+  Q_C : C \to \pi C \stackrel{Q_{\pi C}}{\to} Ho_C
+$$
+
+where $Q_{\pi C}$ sends weak equivalences in $\pi C$
+to isomorphisms in $Ho_C$.
+
+The universal property of $Q$ then implies the universal
+property for $Q_{\pi C}$
+
+$$
+  \array{
+    C &\to& \pi C &\to & A
+    \\
+    \downarrow^{Q_C} & \swarrow^{Q_{\pi C}} && \swarrow
+    \\
+    Ho_C
+  }
+  \,.
+$$
+
+=--
+
+
+
+The above theorem on the description of $Ho_C$
+now follows from the general formula for
+[[localization]] at a 
+[[calculus of fractions|left multiplicative system]]
+of weak equivalences.
 
 # Pointed category of fibrant objects #
 
@@ -598,9 +849,9 @@ is the **fibre** of $p$ and $i$ is the _fibre inclusion_.
 (This is the _kernel_ of the morphism $f$ of [[pointed object]]s)
 
 
-## Loop object ##
+## [[fibration sequence|Fibration sequences]] ##
 
-For $B$ any object and $B^I$ any of its [[path object]]s, the fiber of $B^I \stackrel{d_0 \times d_1}{\to} B \times B$ is the **loop object** $\Omega^{(I)} B$ of $B$ with respect to the chosen path object. This construction becomes independent up to canonical isomorphism of the chosen path space after mapping to the [[homotopy category]] and hence there is a functor
+For $B$ any object and $B^I$ any of its [[path object]]s, the fiber of $B^I \stackrel{d_0 \times d_1}{\to} B \times B$ is the **[[loop space object|loop object]]** $\Omega^{(I)} B$ of $B$ with respect to the chosen path object. This construction becomes independent up to canonical isomorphism of the chosen path space after mapping to the [[homotopy category]] and hence there is a functor
 
 $$
   \Omega : Ho_C \to Ho_C
