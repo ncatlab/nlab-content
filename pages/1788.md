@@ -464,19 +464,20 @@ Am I mad?
 
 This is the original Markdown list:
 
-
 1.  Bird
 1.  McHale
 1.  Parish
 
-<table markdown="1"><tr><td>I can put $x^2$ math in a table!</td></tr></table>
+<table markdown="1">
+<tr><td>I can put $x^2$ math in a table!</td></tr>
+</table>
 
 | Another  | Way  |
 | -------  | ---- |
 | to $x^2$ | make |
 | a table  |      |
 
-[A pic](http://www.bangor.ac.uk/r.brown/fig6_10c2.jpg)
+![A pic](http://www.bangor.ac.uk/r.brown/fig6_10c2.jpg)
 
 $$\begin{aligned}
   K(1,\mathbf{DFib(X)}(A,B)) \cong& K(1, Ran_X B^A)\\
