@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Definition#
 
 _Horizontal categorification_ or _Oidification_ 
