@@ -13,14 +13,22 @@ Ronnie Brown has published a long series of articles over the years developing t
 
 * Ronnie Brown, _publication list_ ([web](http://www.bangor.ac.uk/~mas010/publicfull.htm))
 
-Currently a comprehensive **textbook** is in preparation. It is not done yet, but if you email the author, maybe you can get a pdf copy of the latest version.
+Currently a comprehensive **monograph** is in preparation on the subject of the algebraic topology of filtered spaces using [[crossed complex]]es and cubical [[omega groupoids]] with connections. It is not done yet, but if you email the author, maybe you can get a pdf copy of the latest version. A survey of that area is the Fields Institute article given below. 
 
 Meanwhile, there is the website
 
 * Ronald Brown, Philip J. Higgins and Rafael Sivera, _Nonabelian algebraic topology _ ([web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html)).
 
+The use of crossed complexes allows the notion of free crossed resolution, and so clear links with standard homological algebra. The place of strict $n$-fold groupoids in nonabelian  homological algebra needs much further work. One key is that the Higher Homotopy van Kampen Theorem allows some algebraic information on gluing homotopy types, giving _some colimit information on nonabelian structures_. The traditional invariants, e.g. homotopy groups, $k$-invariants, ..., then have to be extracted from this larger structure.  
+
 +-- {: .query}
 This link is broken. Is there a current version? A quick Google search didn't find me anything useful.
 
 *  [[Tim Porter]]:  Bangor's servers were `got at' a short time ago and there seems to be maintenance many nights so try again.  The link worked for mem but that may not be a good test! 
+
+* [[Ronnie Brown|Ronnie]] Works today 27 Feb. 
 =--
+
+* _Crossed complexes and homotopy groupoids as non commutative tools for higher dimensional local-to-global problems_, Proceedings of the Fields Institute Workshop on Categorical Structures for Descent and Galois Theory, Hopf Algebras and Semiabelian Categories, September 23-28, Fields Institute Communications 43 (2004) 101-130. (math.AT/0212274 revised). 
+
+
