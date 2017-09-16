@@ -254,6 +254,8 @@ This yields a well defined function for the following reasons:
 
 +-- {: .query}
 Am I right that what we are really need of our space here is not necessarily that it be Hausdorff but simply that it be [[sober space|sober]]?  (Then the nonconstructive aspects of the argument ---which is what made me look at this--- come in only because the theorem that a Hausdorff space must be sober is not constructively valid.)  ---Toby
+
+[[Mike Shulman]]: Yes, that's exactly right.  All the complication defining $\bar f$ above is just an unrolled way of saying that geometric morphisms between [[locale|localic]] topoi are equivalent to continuous maps of locales, which are equivalent to continuous functions if you have sober spaces.  I think that should be clarified.
 =--
 
 So our function $\bar f : X \to Y$ is well defined and satisfies $\bar f^{-1}(U_Y) = f^*(U_Y)$ for every open set $U_Y \in Obj(Op(Y))$. In particular it is therefore a continuous map.
