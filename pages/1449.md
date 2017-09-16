@@ -2,7 +2,7 @@
 
 #Definition#
 
-Let $C$ be a [[category]] with [[finte limit]]s. A **power object** of an object $c \in C$ is 
+Let $C$ be a [[category]] with [[finite limit]]s. A **power object** of an object $c \in C$ is 
 
 * an [[object]] $\Omega^c$ 
 
