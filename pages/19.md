@@ -126,7 +126,10 @@ Now i only wish i knew more about fundamental localizers to write more.
   =--
 * A theory of models for homotopy types. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
   +-- {: .query}
-  I removed the bit about smallness here.  Small categories model small homotopy types, and large categories model large homotopy types; there\'s nothing deep here.  That said, we could reasonably split this list into two, for uses of categories that are generally small vs uses of categories that are generally large.  The fact is, however, that one can always shift one\'s perspective on what is small and large if one wants to.  ---Toby
+  [[Toby Bartels]]: I removed the bit about smallness here.  Small categories model small homotopy types, and large categories model large homotopy types; there\'s nothing deep here.  That said, we could reasonably split this list into two, for uses of categories that are generally small vs uses of categories that are generally large.  The fact is, however, that one can always shift one\'s perspective on what is small and large if one wants to. 
+
+  [[John Baez]]: I'm glad you removed the stuff about smallness here, Toby.  While size issues can be important in category theory, they're a bit of a distraction in this entry. 
+
   =--
 * A unifying tool and language in [[mathematics]].
 * A new [[foundations|foundation of mathematics]] that focuses attention on structural issues and away from how mathematical objects are 'built up' as sets.
