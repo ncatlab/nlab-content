@@ -12,6 +12,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-03-02
+
+* [[Urs Schreiber|Urs]]
+
+  * created [[limit in quasi-categories]] and in the course of saturating links from there also created [[join of simplicial sets]], [[join of categories]], [[join of quasi-categories]], [[over-category in quasi-categories]], [[terminal object in a quasi-category]] and edited [[quasi-category]] itself a bit
+
+
 # 2009-03-01
 
 [[Toby Bartels]]:
