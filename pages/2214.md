@@ -25,6 +25,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-09-04
+
+* [[Rafael Borowiecki]]: 
+
+  * The [[Timeline of category theory and related mathematics]] is repaired thanks to Andrew Stacey. See the new question there about updating links in a new migration.
+
+  * Andrew, i am glad that you are interested in my big problem. But i don't really understand your question. Is it not enough to ask the question at the timeline page and say here that i have added a problem to solve to the page? Perhaps the question at the timeline was not clear. The same timeline at wikipedia has/will have soon about 1500 links. When i migrate it to nLab again, and better than the last time, i need to change the links to link to correct pages at nLab. It is only some of the names that need to be changed to link to correct nLabs pages, which often have different names than those in wikipedia.
+
 * [[Zoran Škoda]]: created [[fibration of points]] following [[Borceux-Bourn]].
 
 * [[Andrew Stacey]]: I have implemented all the little database tweaks that were needed and done my best to reverse all the truncations.  Please see [this comment](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=52&page=2#Item_22) for details.  Please also check if a long page is how it ought to be (thinking particularly of the timeline).
