@@ -335,6 +335,7 @@ Internal error?
 
 $$A \diamond B \;\vee\; A \bowtie B$$
 
+A trivial change
 ****
 
 category: meta
