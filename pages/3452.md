@@ -13,3 +13,16 @@ A locally constant function is a [[function]] whose value never changes.  This i
 If $X$ is a [[topological space]] and $Y$ is any [[set]], then a [[function]] $f$ from (the [[underlying set]] of) $X$ to $Y$ is __locally constant__ if, for every element $a$ of $X$, $f$ is [[constant function|constant]] when restricted to some [[neighbourhood]] of $a$.
 
 We have $Y$ here as a set; but in fact, $Y$ may be given any [[topological structure]]; then every locally constant function $f$ will become a locally constant [[continuous map]].
+
+## Relation to sheaves
+
+A locally constant function is a section of a [[constant sheaf]].
+
+This is the beginning of a pattern:
+
+* a [[locally constant sheaf]] is a section of a [[constant stack]];
+
+* a locally constant stack is a section of (... and so on...)
+
+* a [[locally constant ∞-stack]] is a section of a [[constant ∞-stack]].
+
