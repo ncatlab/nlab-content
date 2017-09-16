@@ -14,7 +14,9 @@ Here "non-trivial" means: anything that any other contributor might be intereste
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list.
 
 ***
+## 2009-08-25
 
+* [[David Roberts]]: some dates at [[twisted cohomology]] on the earliest references, and added title, date and small clarification on Reidemeister's 1938 article at [[history of cohomology with local coefficients]].
 
 ## 2009-08-24
 
