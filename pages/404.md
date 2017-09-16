@@ -18,3 +18,4 @@ $$
 $$
 are the same as [[natural transformations]] between functors between $X$ and $Y$.
 
+* $Arr(C)$ is the [[comma category]] $(id/id)$ where $id : C \to C$ is the identity functor.
