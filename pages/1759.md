@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]] 
 
+  * added to [[principal bundle]] a long detailed section called "the $G$-action from the homotopy pullback" -- this may look like weird overkill, but the point is that this serves as a warmup for an analogous discussion at [[principal infinity-bundle]]
+
   * rediscovered that we had an entry [[Cech methods]] and added lots of links to that
 
   * provided explicit details at [[Cech cohomology]] for the general (nonabelian) case in low degree
