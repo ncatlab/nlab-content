@@ -67,7 +67,7 @@ There are several modifications one can make the above. In the case that $C$ is 
 * [[Eduardo Dubuc]] and C. S. de la Vega _On the Galois theory on Grothendieck_, Bol. Acad. Nac. Cienc. (Cordoba) **65** (2000) 111--136. [arXiv](http://arxiv.org/abs/math.CT/0009145)
 
 
-The constructon for general [[topos]]es is described in section 8.4 of
+The construction for general [[topos]]es is described in section 8.4 of
 
 * [[Peter Johnstone]], _Topos theory_ , Academic Press (1977)
 
@@ -75,7 +75,7 @@ The constructon for general [[topos]]es is described in section 8.4 of
 
 The following generalization is in the setting of [[locales]]. 
 
-* A. Joyal, M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc. 51 (1984), no. 309, vii+71 pp. 
+* [[Andre Joyal]], M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc. 51 (1984), no. 309, vii+71 pp. 
 
 A modern approach from classical via Grothnedieck up to [[categorical Galois theory]] based on precategories and adjunctions is in 
 
