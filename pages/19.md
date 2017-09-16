@@ -157,17 +157,25 @@ Further, i think that removing "evil" from the headline would be much better, si
 
 Finally, i don't understand all the dissagreement. All on this page should be fundamental and established firmly and written down a long time ago in many places. Sorry for sounding like a complainer but lately the responses on this page are nagging and complaining. This should be differentiated from correcting real errors on the page.
 
+_Toby_:  So Kapranov & Voevodsky wrote that?  Very well, that\'s easy enough to deal with.
+
+I don\'t understand why you say that evil 'is a follow up from the main principle' while your talk about 'how to distinguish categories in the first place' is the principle itself.  In fact, I would reverse those.  K&V could just as easily have used the word 'evil' in place of 'unnatural', and they would be talking about our sense of [[evil]], yet they say nothing about equivalence of categories.  One has to reason further to realise that it is therefore evil to speak about equality of two functors (between given categories), therefore evil to speak about isomorphism of two categories, therefore necessary to consider more general notions of natural isomorphism of functors and equivalence of categories.  I would now like to make the header read 'The principle of evil'.
+
+But I agree with you, Rafael, that we should try to explain it better if it is confusing to a first-time reader, rather than to not say it at all.  What do people think of the version below now?
+
 =--
 
-Category theory has a main principle:
+According to Kapranov and Voevodsky, category theory has a main principle:
 
 _In any category it is unnatural and undesirable to speak about equality of two objects_.
 
-To develop category theory within set theory (or even within first-order logic with equality) necessarily allows one to discuss [[evil]] by defining categories as [[strict categories]]; some alternative [[foundations of mathematics]] make this impossible, but otherwise it requires discipline to state definitions and theorem without evil.
+Around here, we refer to any reference two equality of two given objects (and similar notions of equality) as more than 'unnatural'; we call them '[[evil]]'.
 
-Therefore there are many notions of equivalence in category theory (both [[equivalence]] in categories) and ([[equivalence of categories]]) to solve this obstacle.
+If one develops category theory within set theory (or even within first-order logic with equality), then it necessarily possible to speak about equality of two objects, so it takes some discipline to avoid this.  Some alternative [[foundations of mathematics]] make it impossible to speak evil, but then these are not as easy for the newcomer to use.
 
-For the theorem accepted as the fundamental theorem of category theory see the [[Yoneda lemma]].
+There are many weaker notions of equivalence in category theory to solve this obstacle.  For two objects within a given category, we consider whether (and how!) they are [[isomorphism|isomorphic]] rather than [[equality|equal]]; within [[higher category theory|higher categories]], we consider whether even weaker notions of [[equivalence]] of two objects.  Similarly, the notion of whether two given categories (or higher categories) are [[equivalence of categories|equivalent]] is a relatively weak one.
+
+For the theorem accepted as the fundamental theorem (rather than main principle) of category theory, see the [[Yoneda lemma]].
 
 
 # Contrast to theories of other objects
@@ -356,6 +364,8 @@ As for what these large simplicial sets are, why do you think that you need simp
 _Rafael_: It was not me who started the notice on size. However i think it is very important to distinguish and keep track of size. Especially since simplicial sets are small by definition (even using the other functorial definition) and would only account for small categories. It might be all the same to you Toby but this is very rarely so for other people. But it is a very valuable insight. I would also be much more careful with saying that ANYTHING can be made large. Then, i wish everything would be so easy, try to find a book or at least a chapter about large simplicial sets.
 
 As for large simplicies i interpreted the diagrams wrongly and you are right. As you said "we need only simplices with up to 4 vertices", as this is the truncation on simplicies as interpreted from the diagram. This idea croped up when i was reading a related page in nLab, probably also with diagrams.
+
+_Toby_:  Anything defined in terms of small sets can be made large by defining it in terms of classes instead.  Depending on what foundational axioms you accept, the definition might not be sensible, but it will be if you adopt [[Grothendieck universes]], as most category theorists do when needed.  Size issues are important, but their importance should not be exaggerated; indeed, it is hard to understand them if you don\'t know when they\'re relevant and when (as here) they are constantly stressed but irrelevant.  It is not true, after all, that (as you write) 'simplicial sets are small by definition' any more than categories are small by definition; it all depends on what size you specify in the definition.  Even if you don\'t specify anything but rely on a conventional meaning of terms like 'set' or 'class', it depends on your conventions for those.  (I would follow Mac Lane in _[[Categories Work]]_ and say that a 'set' need not be small, so that a 'simplicial set' need not be small either, if you define it using the word 'set'.  But I don\'t mind clarifying for others that these simplicial sets might have to be large.)
 
 =--
 
