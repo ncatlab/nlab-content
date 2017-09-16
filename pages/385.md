@@ -6,7 +6,29 @@ The _Crans-Gray tensor product_ is a [[tensor product]] on the category of [[str
 [[Ronnie Brown|Ronnie]]: The tensor product of strict globular 2-categories is really a strict globular 4-category. However there is a _cotruncation_ from dimension $n$ to lower dimension $m$ which at dimension $m$ imposes some additional relations. I know how to write this down in the crossed complex case but am not so sure in the globular and category case. 
 
 It also seems that the monoidal closed structure on strict globular omega categories in the third paper below gives "higher order lax transformations". What else?  In the crossed complesx case, you get higher order left homotopies. 
+
+[[Urs Schreiber|Urs]]: I had a vague recollection that Sjoerd Crans gives a detailed discussion of this somewhere, but now that I looked again as his stuff all I seem to be able to find is the remark on [pp. 14 (3 of 60)](http://www.tac.mta.ca/tac/volumes/1999/n2/n2.pdf#page=3)
+of 
+
+Sjoerd Crans, _A tensor product for $Gray$-categories_ ([tac](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html))
+
 =--
+
++--{: .query}
+
+[[Urs Schreiber|Urs]]: Another question:
+
+Does the $\omega$-nerve intertwine the Gray tensor product on $\omega$-categories with the cartesian product on simplicial sets?
+
+$$
+  N(C \otimes D) \simeq N(C)\times N(D)
+  \;\;\;
+  ??
+$$
+
+=--
+
+
 
 The Crans-Gray tensor product can be understood as arising as follows:
 
@@ -27,3 +49,9 @@ A detailed discussion is in
 * R. Brown and P.J. Higgins, Tensor products and homotopies for $\omega$-groupoids and crossed complexes,  J. Pure Appl. Alg. 47 (1987) 1--33.
 
 * F.A. Al-Agl, R. Brown and R. Steiner,  Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71--118.
+
+Some helpful remarks and diagrams are in 
+
+* Sjoerd Crans, _A tensor product for $Gray$-categories_ ([tac](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html))
+
+which is however mainly concerned with a slightly different topic.
