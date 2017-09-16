@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-24 #
 
+* [[Urs Schreiber|Urs]]
+
+  * created [[A-infinity operad]]  and [[category over an operad]] and gave the operadic definition at [[A-infinity category]]
+
 *  [[Toby Bartels]]:
    *  Changed the numbering at [[k-tuply connected n-category]] but haven\'t moved the page yet.
    *  Created a new [category: lexicon](/nlab/list/lexicon) to find Tim\'s lexicon entries.  (If these are incorporated into more mainstream $n$Lab entries, then we could get rid of this category, but for now it\'s nice to be able to track them down without running through the whole list.)
