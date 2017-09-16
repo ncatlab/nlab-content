@@ -5,6 +5,12 @@
 
 # Mathematics blogs #
 
++--{: .query}
+[[Mike Shulman]]: I think this page would be even more useful if it included brief notes about what sort of activity tends to go on at each blog in the list.
+
+[[Eric]]: Good idea, but maybe too much for any one person, so if you find your blog listed here, please provide a note about it.
+=--
+
 * [Affine Mess] (http://affinemess.com) 
 
 * [A Mind for Madness](http://hilbertthm90.wordpress.com)
@@ -123,9 +129,6 @@
 
 * [XOR's hammer](http://xorshammer.wordpress.com)
 
-+--{: .query}
-[[Mike Shulman]]: I think this page would be even more useful if it included brief notes about what sort of activity tends to go on at each blog in the list.
-=--
 
 #Statistics blogs#
 
