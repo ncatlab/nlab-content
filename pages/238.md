@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * reacted to the discussion at [[Day convolution]] and provided the requested further details in the main entry
+
   * corrected the statement about the relation of $SetMod$ to $Span(Set)$ at [[distributor]] by adding the missing clause about discrete categories
 
   * created [[structured generalized space]]
