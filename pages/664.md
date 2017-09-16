@@ -64,8 +64,14 @@ that whereas these separate elements of structure had all been
 considered previously, the aim of this theory is to consider the
 whole structure, despite its apparent complications. The equivalence of categories is a convincing reason for supposing that the axioms for a crossed $n$-cube of groups are a complete axiomatisation of this homotopical structure, as was not previously known. 
 
+# Algebraic example#
+Let us put a bit of flesh on the example given in the introduction.  Suppose that  $G$ is a group and $N_1, N_2, .., N_n$ are $n$-normal subgroups of $G$ (there may be repeats).
+
+Now define for $A \subseteq  \langle n \rangle$, $M_A = \bigcap\{N_i\mid i \in A\}$, and for $A\in M_A$, $b\in M_B$, $h(a,b) = [a,b]$, the commutator of $a$ and $b$ in $G$.  The result is a crossed $n$-cube (sometimes called the _inclusion crossed $n$-cube determined by the normal $n$-ad of subgroups.
 
 
+#Simplicial example#
+If instead of a space you start with a [[simplicial group]] $G$, as model for a connected homotopy type, then there is a crossed $n$-cube generalising the [[crossed square]] given in terms of the [[Moore complex]].
 #References#
 
 * G. J. Ellis and R.Steiner, _Higher dimensional crossed modules and the homotopy groups of 
