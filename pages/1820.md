@@ -290,7 +290,7 @@ This are corollaries 2.7 and 2..8 in [Bar](http://www.math.harvard.edu/~clarkbar
 
 ## Properties 
 
-### Homotopy colimits 
+### Homotopy colimits {#hocolims}
 
 +-- {: .un_proposition }
 ###### Proposition
