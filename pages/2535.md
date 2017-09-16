@@ -36,9 +36,13 @@
 
 * [[Models for Smooth Infinitesimal Analysis]]
 
+  * [[Fermat theory]]
+
   * [[smooth algebra]] (C-∞-ring)
 
   * [[smooth loci]]
+
+  * [[smooth natural numbers]]
 
 ## Variations ##
 
