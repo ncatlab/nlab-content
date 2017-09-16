@@ -2,7 +2,7 @@
 
 The notion of _stack_ is the one-step [[vertical categorification]] of a [[sheaf]]. 
 
-Or rather, it is the half-categorification of a sheaf where the _codomain_ is categorified (from [[Set]] to [[Grpd]]). If also the domain (the [[site]]) is categorified, one speaks of a [[derived stack]].
+Or rather, it is the half-categorification of a sheaf where the _codomain_ is categorified (from [[Set]] to [[Cat]] or [[Grpd]]). If also the domain (the [[site]]) is categorified, one speaks of a [[derived stack]].
 
 Since the full $\infty$-categorification of "[[sheaf]]" is [[infinity-stack]], a stack is conversely an [[infinity-stack]] which happens to be 1-truncated.
 
@@ -10,10 +10,11 @@ From this $\infty$-point of view it seems a bit pointless to say "stack" instead
 
 More concretely this means that a stack on a [[site]] $S$ is 
 
-* a ([[pseudofunctor|pseudo]]-)[[functor]] $S^{op} \to Grpd$ to the 2-category [[Grpd]] of groupoids;
+* a ([[pseudofunctor|pseudo]]-)[[functor]]from  $S^{op}$ to the 2-category [[Cat]] of categories or [[Grpd]] of groupoids;
 
 * that satisfies [[descent]].
 
+In the latter case, the stack is sometimes referred to as a stack of groupoids. This is the more commonly occurring case so the term _stack- has come to mean 'stack of groupoids' in much of the literature. 
 
 In some circles the notion of a stack as a generalized groupoid is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stacks]] have attracted much attention in the study of [[Lie groupoid]]s and [[orbifold]]s, while [[generalized smooth space]]s are only beginning to be investigated more in [[Lie theory]]. 
 
@@ -89,5 +90,7 @@ Introductory material is
 
 * I. Moerdijk, _Introduction to the language of stacks and gerbes_ ([arXiv](http://arxiv.org/abs/math/0212266))
 
+
+ * A. Vistoli, _Notes on Grothendieck topologies, fibered categories and descent theory_ ([arXiv](http://arxiv.org/abs/math/0412512))
 
 [[!redirects stack*]]
