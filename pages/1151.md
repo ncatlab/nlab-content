@@ -36,12 +36,12 @@ Notice that the grading one usually sees on cohomology classes is in the above d
 
 #Examples#
 
-* The archetypical example for [[nonabelian cohomology]] theory is the [[(infinity,1)-topos]] $H = $ [[Top]], the [[(infinity,1)-category]] of [[topological space]]s. For $X$ and $A$ two topological spaces, the cohomology classes of $X$ with values in $A$ are the homotopy classes of continuous maps $X \to A$. For $A = K(a,n)$ an [[Eilenberg-MacLane space]] with $a$ an abelian group this reproduces "ordinary cohomology" of spaces. For $A = B G$ a [[classifying space]] of a topological [[group]] $G$, this reproduces degree 1 [[nonabelian cohomology]] $H^1(X,G)$. In general, for $A$ an [[n-type]], $H(X,A)$ is topological degree $n$ [[nonabelian cohomology]].
+* The archetypical example for [[nonabelian cohomology]] theory is the [[(infinity,1)-topos]] $H = $ [[Top]], the [[(infinity,1)-category]] of [[topological space]]s. For $X$ and $A$ two topological spaces, the cohomology classes of $X$ with values in $A$ are the homotopy classes of continuous maps $X \to A$. For $A = K(a,n)$ an [[Eilenberg-Mac Lane space]] with $a$ an abelian group this reproduces "ordinary cohomology" of spaces. For $A = B G$ a [[classifying space]] of a topological [[group]] $G$, this reproduces degree 1 [[nonabelian cohomology]] $H^1(X,G)$. In general, for $A$ an $n$-type, $H(X,A)$ is topological degree-$n$ [[nonabelian cohomology]].
 
-* The archetypical example for abelian cohomology theory is the [[stable (infinity,1)-topos]] $H = $ [[Spec]], the [[stable (infinity,1)-category]] of [[spectrum|spectra]]. This is the case in the literature often addressed as [[generalized cohomology]], since it generalizes the entities specified by the Eilenberg-Steenrod axioms. But really, the general concept of cohomology is more general than this "generalized cohomology".
+* The archetypical example for abelian cohomology theory is the [[stable (infinity,1)-topos]] $H = $ [[Spec]], the [[stable (infinity,1)-category]] of [[spectrum|spectra]]. This is the case in the literature often addressed as [[generalized cohomology]], since it generalizes the entities specified by the Eilenberg--Steenrod axioms. But really, the general concept of cohomology is more general than this "generalized cohomology".
 
 * Objects in general nonabelian cohomology are usually called [[infinity-stack]]s are 
-[[(infinity,1)-sheaf|(infinity,1)-sheaves]], since every Grothendieck-Rezk-Lurie [[(infinity,1)-topos]] arises as a [[(infinity,1)-category of (infinity,1)-sheaves]].
+[[(infinity,1)-sheaf|(infinity,1)-sheaves]], since every Grothendieck--Rezk--Lurie [[(infinity,1)-topos]] arises as a [[(infinity,1)-category of (infinity,1)-sheaves]].
 
 * [[abelian sheaf cohomology|Abelian sheaf cohomology]] for complexes of sheaves in non-negative degree is cohomology of the sub-[[(infinity,1)-topos]] of $\infty$-stacks which take values in [[infinity-groupoid]]s which, under the [[Dold-Kan correspondence]] come from [[chain complex]]es.
 
@@ -51,9 +51,9 @@ Several familiar "cohomlogy theories" are not so much genuine cohomology theorie
 
 * [[Cech cohomology]] is the technique of computing $H(X,A)$ by computing 1-categorical [[hom-set]]s $C(\hat X,A)$ on _resolutions_ of the domain object $X$.
 
-* The technique of computing [[abelian sheaf cohomology]] by computing the [[derived global section functor]] is similarly a technique of computing $H(X,A)$ in terms of 1-categorical [[hom-set]]s $C(X,\hat A)$ into _resolutions_ of the coefficient object (namely [[injective]] resolutions).
+* The technique of computing [[abelian sheaf cohomology]] by computing the [[derived global section functor]] is similarly a technique of computing $H(X,A)$ in terms of 1-categorical [[hom-set]]s $C(X,\hat A)$ into _resolutions_ of the coefficient object (namely [[injective resolution]]s).
 
-* [[monadic cohomology|Monadic cohomology]], like [[Cech cohomology]] is concerned with 1-categorical resolutions of the coefficient object in terms of [[bar construction]]s. [[David Ben-Zvi]] can provide more details on the precise [[(infinity,1)-category|(infinity,1)-categorical]] cohomology that this corresponds to...
+* [[monadic cohomology|Monadic cohomology]], like [[Cech cohomology]], is concerned with 1-categorical resolutions of the coefficient object in terms of [[bar construction]]s. [[David Ben-Zvi]] can provide more details on the precise [[(infinity,1)-category|(infinity,1)-categorical]] cohomology that this corresponds to ...
 
 * Differential cohomology theories are effectively the cohomology theories of [[fundamental infinity-groupoid]]s. 
 
