@@ -112,7 +112,7 @@ let
 Then the condition that $f$ is cartesian with respect to $p$ is equivalently the condition that the functor
 
 $$
-  X_f \to X_{x_2} \times_{S_{p(x_2)}} S/p(f)
+  X_f \to X_{x_2} \times_{Y_{p(x_2)}} Y/p(f)
 $$
 
 into the [[pullback]] of the obvious projection $X_{x_2} \to S/p(x_2)$ along the projection $S/p(f) \to S/p(x_2)$ is a [[k-surjective functor|surjective equivalence]].
@@ -121,7 +121,7 @@ This definition in terms of pullbacks is the one that straightforwardly generali
 
 ### in $(\infty,1)$-categories
 
-There is a notion of cartesian edge in a [[simplicial set]] $X$ relative to a morphism $p : X \to Y$ of simplicial sets. In the case that these simplicial sets are [[quasi-category|quasi-categories]], i.e. simplicial set incarnations of [[(∞,1)-category|(∞,1)-categories]] this yields a notion of cartesian morphisms in $(\infty,1)$-categories.
+There is a notion of cartesian edge in a [[simplicial set]] $X$ relative to a morphism $p : X \to Y$ of simplicial sets. In the case that these simplicial sets are [[quasi-category|quasi-categories]] -- i.e. simplicial set incarnations of [[(∞,1)-category|(∞,1)-categories]] -- this yields a notion of cartesian morphisms in $(\infty,1)$-categories.
 
 Let $p : X \to Y$ be a morphism of [[simplicial set]]s that may be the [[quasi-category]] incarnation of an [[infinity-functor]] of [[(infinity,1)-category|(∞,1)-categories]].
 Let $f : x_1 \to x_2$ be an edge in $X$, i.e. a morphism $f : \Delta^1 \to X$.
@@ -134,14 +134,14 @@ Assume that $p$ is an [[inner Kan fibration]] of simplicial sets.
 Then $f $ in $X$ is _$p$-cartesian_ if the induced morphism
 
 $$
-  X_{/f} \to X_{/y} \times_{S_{/p(y)}} S_{/p(f)}
+  X_{/f} \to X_{/y} \times_{Y_{/p(y)}} Y_{/p(f)}
 $$
 
 is acyclic [[Kan fibration]].
 
 This is def 2.4.1.1 in [[Higher Topos Theory|HTT]].
 
-This is equivalent to the condition that for all squares
+This is equivalent to the condition that for all [[horn]] inclusions
 
 $$
   \array{
@@ -157,7 +157,7 @@ $$
   }
 $$
 
-(with $\Lambda[n]_n$ the $n$th [[horn]] of the $n$-[[simplex]]) a lift $\sigma$
+(with $\Lambda[n]_n$ the $n$th [[horn]] of the $n$-[[simplex]]) such that the last edge of the horn is the given egde $f$, a lift $\sigma$
 
 $$
   \array{
