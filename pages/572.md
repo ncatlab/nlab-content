@@ -1,6 +1,6 @@
 #Idea#
 
-_Complete Segal spaces_ are one model for $(\infty,1)$-[[(infinity,1)-category|categories]]. 
+_Complete [[Segal space]]s_ are one model for $(\infty,1)$-[[(infinity,1)-category|categories]]. 
 
 The rough idea is that a complete Segal space is the [[nerve]] of a [[enriched category|category enriched]] [[homotopical enrichment|weakly]] over [[Top]]: it is not a [[simplicial set]], but a simplicial [[topological space]] which satisfies the [[homotopy theory|homotopy theoretic]] analog of the condition that otherwise implies that a [[simplicial set]] is the [[nerve]] of a [[category]].
 
@@ -54,7 +54,7 @@ More precisely...
 
 #Remarks#
 
-* One definition of [[(infinity,n)-category]] is in terms of complete Segal spaces.
+* One definition of $(\infty,n)$-[[(infinity,n)-category|category]] is in terms of complete Segal spaces.
 
 
 #References#
