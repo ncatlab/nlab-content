@@ -49,6 +49,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 ##2009-09-24
 
+* [[Mike Shulman]]: A different viewpoint on universes in [[SEAR]].
+
 * [[Rafael Borowiecki]]: Replied at [[category theory]]. Now i understand less than i did before.
 
 * [[David Roberts]]: A bit at [[Morita equivalence]], on the version for Lie groupoids, and a sketchy start to universes in [[SEAR]].
