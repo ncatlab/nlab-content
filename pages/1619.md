@@ -17,6 +17,8 @@ $$
 
 A lift one further step through the Whitehead tower is a [[Fivebrane structure]].
 
+This has generalizations to the smooth context, where instead of the topological String-group one uses the [[String Lie 2-group]].
+
 ## Definition ##
 
 Let $X$ be an $n$-dimensional manifold. 
