@@ -1,3 +1,2 @@
-See [[ind-object in an (infinity,1)-category]].
-
-category: redirect
+&lt; [[ind-object (infinity,1)-category]]
+[[!redirects ind-object (infinity,1)-category -- history]]
