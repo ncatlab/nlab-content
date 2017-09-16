@@ -2,6 +2,10 @@
 This page is (I believe) original research.  Suggestions, corrections, and additions are very welcome.  In particular, if you have suggestions for a better name than SEAR, or if you've seen a similar theory somewhere else, please mention it!  -- [[Mike Shulman]]
 =--
 
++-- {: .query}
+This looks nice, and I think that it probably matches pretty closely the way that I usually think when reading ordinary mathematics.  I haven\'t read it very carefully yet, so take this with a grain of salt, but I think that it would be even more user-friendly to use sets, elements, and *subsets* (rather than binary relations) as the basic concepts.  Presumably you have to throw in ordered pairs too, but I think that this matches 'ordinary' language *very* closely.  ---Toby
+=--
+
 
 # Introduction #
 
@@ -20,13 +24,13 @@ A good description of the difference between material and structural set theory 
 
 > with ZFC it's more as if you can just hop in the car and go; with ETCS you build the car engine from smaller parts with your bare hands, but in the process you become an expert mechanic, and are not so rigidly attached to a particular make and model.
 
-Using this metaphor, SEAR can be thought of as an ETCS-car which comes preassembled with a nice slick control panel.  Or, using an alternate metaphor, ZFC is like Windows, ETCS is like UNIX, and SEAR is like OS X (or maybe Ubuntu).  With SEAR you get a nice familiar interface with which it is easy to do standard things, there is less cruft than you get with ZFC, and behind the scenes you have all the power of ETCS (and more).
+Using this metaphor, SEAR can be thought of as an ETCS-car which comes preassembled with a nice slick control panel.  Or, using an alternate metaphor, ZFC is like Windows, ETCS is like UNIX, and SEAR is like OS X (or maybe Ubuntu).  With SEAR you get a nice familiar interface with which it is easy to do standard things, there is less cruft than you get with ZFC, and behind the scenes you have all the power of ETCS (and more).  (Of course, if you like Microsoft products, then this metaphor probably does not appeal to you.)
 
 Note that experts will probably always prefer to build their own car; the goal of SEAR is to make structural set theory accessible to a wider audience.  In particular, SEAR is intended to demonstrate the complete independence of [[structural set theory]] from [[category theory]].  Thus, apart from being (by default) stronger than ETCS, SEAR differs from it in the following ways:
 
 * It includes the notion of an *element* of a set as a primitive concept, rather than defining it as a particular sort of function.
-* It does *not* include the notion of a [[function]] as a primitive concept (instead it includes the notion of a binary [[relation]], with functions defined via their [[graph of a function|graphs]] in a familiar way).
-* It does not include the notions of composition or identities (of either functions or relations) as primitive concepts.  In particular, it does not require the user to know what a [[category]] is.
+* It does *not* include the notion of a [[function]] as a primitive concept (instead it includes the notion of a [[binary relation]], with functions defined via their [[graph of a function|graphs]] in a familiar way).
+* It does not include the notions of composition or identities (of either functions or relations) as primitive concepts.  In particular, it does not require the user to know what a [[category]] is, even implicitly.
 * As a corollary, its axioms do not require knowledge of categorical concepts such as [[limits]] and [[natural numbers objects]] (although these concepts can be very naturally introduced while learning SEAR).
 * The property of [[axiom of separation|separation]] (one of the most important facts in the everyday use of set theory) is a direct consequence of the axioms of SEAR.  Compare how in ETCS, the property of bounded separation follows from the theorem that a [[topos]] is a [[Heyting category]], which requires [[Trimble on ETCS II|substantial work]].
 
@@ -35,9 +39,13 @@ Note that experts will probably always prefer to build their own car; the goal o
 
 ## Types ##
 
-SEAR is a theory about three types of things: **sets**, **elements**, and **relations**.  Every element, and every variable that ranges over elements, is always associated to something denoting a set (which might be a constant, or a variable); we say it is an element **of** that set.  If $x$ is an element of $A$ we write $x\in A$; note that this is not an *assertion* which may be true or false, but a *typing* declaration.  In formal terms, this means that SEAR is a [[dependent type theory]].  One consequence of this is that whenever we quantify over elements we must always quantify over elements *of some set*; thus we can say "for all elements $x\in A$" but not "for all elements $x$."  Another consequence is that the assertion $x=y$ is only well-formed (a precondition to its being true _or_ false) if $x$ and $y$ are elements of the same set.
+SEAR is a theory about three types of things: **sets**, **elements**, and **relations**.  Every element, and every variable that ranges over elements, is always associated to something denoting a set (which might be a constant or a variable); we say it is an element **of** that set.  If $x$ is an element of $A$ we write $x\in A$; note that this is not an *assertion* which may be true or false, but a *typing* declaration.  In formal terms, this means that SEAR is a [[dependent type theory]].  One consequence of this is that whenever we quantify over elements we must always quantify over elements *of some set*; thus we can say "for all elements $x\in A$" but not "for all elements $x$."  Another consequence is that the assertion $x=y$ is only well-formed (a precondition to its being true _or_ false) if $x$ and $y$ are elements of the same set.
 
-In a similar manner, every relation is always associated to an ordered pair of sets, the first called its **domain** and the second its **codomain**  (thus all relations in SEAR are binary relations).  If $\varphi$ is a relation from $A$ to $B$ we write $\varphi:A\looparrowright B$.  As with elements, the assertion $\varphi=\psi$ is only well-formed if $\varphi$ and $\psi$ have the same domain and the same codomain.
+In a similar manner, every relation is always associated to an ordered pair of sets, the first called its **domain** and the second its **codomain** (thus the fundamental relations in SEAR are binary relations).  If $\varphi$ is a relation from $A$ to $B$ we write $\varphi:A\looparrowright B$.  As with elements, the assertion $\varphi=\psi$ is only well-formed if $\varphi$ and $\psi$ have the same domain and the same codomain.
+
++-- {: .query}
+I haven\'t changed this, since I haven\'t gone through the whole article yet, but I think that it\'s very dangerous to use 'domain' here.  A lot of people already know the 'domain' of a binary relation (and especially of a [[functional relation]] in its guise as a [[partial function]]) as a subset of $A$ (consisting of those $x$ such that $\varphi(x,y)$ for some $y$ in $B$).  It is a hallmark of category theorists to use the term in your way, and that\'s one of our crimes in the eyes of others: appropriating terms.  Anyway, I like '[[source]]' and '[[target]]' myself.  ---Toby
+=--
 
 Implicit in the existence of three types of things is that nothing is both a set and an element, etc., so in particular a statement such as $x=A$ is not well-formed if $x$ is an element and $A$ a set.  Furthermore, SEAR does not include an equality relation between sets: even if $A$ and $B$ are both sets we do not consider $A=B$ to be well-formed.  (Thus SEAR adheres to the philosophy of "speak no [[evil]].")
 
