@@ -36,5 +36,7 @@ A poset is **locally finite** if every closed bounded interval is finite.
 * Tim Porter, _Enriched categories and models for spaces of
 dipaths. A discussion document and overview of some techniques_ ([pdf](http://drops.dagstuhl.de/opus/volltexte/2007/898/pdf/06341.PorterTimothy.Paper.898.pdf))
 
-
+[[!redirects partially ordered set]]
+[[!redirects partially ordered sets]]
 [[!redirects poset]]
+[[!redirects posets]]
