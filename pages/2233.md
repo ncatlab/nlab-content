@@ -1,7 +1,7 @@
 
 #Idea#
 
-_Extended quantum field theory_ or _many-tiered quantum field theory_ is the [[higher category theory|higher categorical]] version of [[FQFT|functorial quantum field theory]]:
+_Extended quantum field theory_ (or _many-tiered quantum field theory_) is the [[higher category theory|higher categorical]] version of [[FQFT|functorial quantum field theory]]:
 
 whereas 
 
@@ -15,14 +15,13 @@ For that reason extended QFT is also sometimes called **local** or **localized**
 
 #The category of extended cobordisms#
 
-There are various suggestions of more or less detail for a precise definition of a higher category $Bord_n$ (or also denoted $Cob_n$ or similar) of extended $n$-dimensional cobordisms. 
+The definition of a j-cobordism is recursive. A (j+1)-cobordism between j-cobordisms is a closed smooth compact oriented (j+1)-manifold with boundary the disjoint union of the j-cobordism.
+
+$nCob_m$ is a n-category with closed smooth compact oriented n-manifolds as objects and cobordisms of cobordisms up to m-cobordisms, up to diffeomorphism, as morphisms.
+
+There are various suggestions with more or less detail for a precise definition of a higher category $nBord_n$ (or also denoted $nCob_n$ or similar) of fully extended $n$-dimensional cobordisms. 
 
 A very general one is described at [[(∞,n)-category of cobordisms]].
-
-
-$nCob_m$ has closed smooth compact oriented n-manifolds as objects and cobordisms of cobordisms up to cobordisms of dimension m, up to diffeomorphism.
-
-A (j+1)-cobordism between j-cobordisms is...
 
 See 
 
@@ -33,14 +32,15 @@ See
 For a fixed base ring $R$,
 and C a symmetric monoidal n-category.
 
-A m-extended C-valued TQFT of dimension n is a symmetric n-tensor functor $Z:nCob_m \rightarrow C$ that assign
+A m-extended C-valued TQFT of dimension n is a symmetric n-tensor functor $Z:nCob_m \rightarrow$C that assign
 * closed smooth compact oriented n-manifolds $\rightarrow$ elements of $R$
 * closed smooth compact oriented (n-1)-manifolds $\rightarrow$ $R$-modules
 * bordisms of closed smooth compact oriented (n-1)-manifolds $\rightarrow$ $R$-linear maps between $R$-modules
 * closed smooth compact oriented (n-2)-manifolds $\rightarrow$ $R$-linear 1-categories
 * bordisms of closed smooth compact oriented (n-2)-manifolds $\rightarrow$ functors between $R$-linear 1-categories
 
-* ...
+* . . .
+(this is so typical, instiki don't display correctly)
 
 * closed smooth compact oriented 0-manifolds $\rightarrow$ $R$-linear (m-2)-categories
 * bordisms of closed smooth compact oriented 0-manifolds $\rightarrow$ (m-2)-functors between $R$-linear (m-2)-categories
@@ -51,6 +51,9 @@ m can range between 2 and n+1.
 
 This suggests that one can see ETQFT's as C-valued representations of $nCob_m$.
 
++-- {: .query}
+_Rafael_: I obviously used a linear category in the dedinition as C instead of a general C. Do anyone know how to generalize it? Neither do i know the compatibility conditions and gluing formulas, any good explicit references?
+=--
 #Examples#
 
 m=2 gives ordinary TQFT.
