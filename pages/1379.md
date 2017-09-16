@@ -28,3 +28,5 @@ Category theorists care about proper classes because many examples of categories
 
 
 [[!redirects class]]
+[[!redirects proper classes]]
+[[!redirects classes]]
