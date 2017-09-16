@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-16
 
+* [[Mike Shulman|Mike]]:
+
+  * Introduced the terminology _strict [[homotopy limit]]_ by analogy with [[strict 2-limit]].
+
+  * Rearranged [[homotopy pullback]] to make it fit better with [[homotopy limit]].
+
 * [[Toby Bartels]]:
   * Fixed links to [[equivalence]] that should really be to [[weak equivalence]].
   * Separated [[Segal space]] from [[complete Segal space]].
