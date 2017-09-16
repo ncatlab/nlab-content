@@ -50,6 +50,8 @@ A Morita equivalence of Lie groupoids then is a span as above, equivalently an i
 I'm also not sure that this should be called the folk model structure, as I don't think it exists for groupoids internal to $Diff$. Details of the model structure are in a paper by Everaert, Kieboom and van der Linden, but seem to be tailored towards groupoids internal to categories of algebraic things (e.g semiabelian categories). I think the best one can do is a category of fibrant objects, but that is not something I've looked at much.
 
 _Toby_:  For me, an anafunctor involves a surjective submersion rather than an open cover, which is how that got in there.  The important thing is to have equivalent hom-categories.
+
+[[David Roberts]]: I'm not what I was thinking at the time, but you are pretty much right: the definition of anafunctors depends on a choice of a subcanonical singleton [[Grothendieck pretopology]], so it was remiss of me to demand the use of open covers :) As for the definition of Morita morphism, I now can't remember if that referred to the span which is an arrow in the localised 2-category or the arrow in the unlocalised 2-category that is sent to an equivalence under localisation. At least for me, the terminology Morita morphism evokes the generalisation from a Morita equivalence (a span of weak equivalences) to a more general morphism in that setting.
 =--
 Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]]s. This relation between Lie groupoids and their stacks of torsors is analogous to the relation between algebras and their categories of modules, which is probably the reason for the choice of terminology.
 
