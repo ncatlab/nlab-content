@@ -110,7 +110,7 @@ Given a point $y \in E$, a tangent vector $v \in T_{y} E$
 is said to be **vertical** if $d \pi(v) = 0$.  
 Define $\Lambda^{n+1}_{1}T^{*}E$ to be the subbundle of the $n+1$-form bundle $\Lambda^{n+1} T^{*} E$ whose fiber at $y \in E$ 
 consists of all $\beta \in \Lambda^{n+1} T^{*}_{y} E$ such that
-\[          \iota_{v_1}\iota_{v_2} \beta =0   \]
+$$          \iota_{v_1}\iota_{v_2} \beta =0   $$
 for all vertical vectors $v_1,v_2 \in T_{y}E$.
 Sections of $\Lambda^{n+1}_{1}T^{*}E$ are called $\mathbf{n}$**-horizontal** $\mathbf{n+1}$**-forms**. 
   
@@ -121,65 +121,65 @@ equipped with a volume form.
 Let $q^1, \dots, q^{n+1}$ be local coordinates on $\Sigma$ and let
 $u^1, \dots , u^d$ be local coordinates on $X$.  Then $\Lambda_1^{n+1} T^* E$
 has a local basis of sections given by $(n+1)$-forms of two types: first, the wedge product of all $n+1$ cotangent vectors of type $dq^i$:
-\[    \vol=dq^1 \wedge \cdots \wedge dq^{n+1}  \]
+$$    \vol=dq^1 \wedge \cdots \wedge dq^{n+1}  $$
 and second, wedge products of $n$ cotangent vectors of type $dq^i$ 
 and a single one of type $du^a$:
-\[   
-dq^1 \wedge \cdots \wedge \widehat{dq^i} \wedge \cdots \wedge dq^{n+1} \wedge du^a . \]
+$$   
+dq^1 \wedge \cdots \wedge \widehat{dq^i} \wedge \cdots \wedge dq^{n+1} \wedge du^a . $$
 Here the hat means that we omit the factor of $dq^i$.  
 If $y = (p,u) \in \Sigma \times X$, this basis gives an isomorphism
-\[   \Lambda^{n+1}_1 T^*_y E \;\; \cong \;\; \Lambda^{n+1} T^*_p \Sigma \; \oplus \;
-\Lambda^{n} T^*_p \Sigma \otimes T^*_u X .\]
+$$   \Lambda^{n+1}_1 T^*_y E \;\; \cong \;\; \Lambda^{n+1} T^*_p \Sigma \; \oplus \;
+\Lambda^{n} T^*_p \Sigma \otimes T^*_u X .$$
 
 The volume form on $\Sigma$ also determines isomorphisms
-\[  
+$$  
 \mathbb{R} \overset{\sim}{\to} \Lambda^{n+1} T^*_p \Sigma
-\]
-\[ 
+$$
+$$ 
                  c \mapsto  c \, \vol_p  
-\] 
+$$ 
 and 
-\[
+$$
 T_p \Sigma   \overset{\sim}{\to}  \Lambda^{n} T^*_p \Sigma
-\]
-\[
+$$
+$$
          v      \mapsto     \iota_v \vol_p  .
-\]
+$$
 We thus obtain an isomorphism 
-\[   \Lambda^{n+1}_1 T^*_y E \;\; \cong \;\; \mathbb{R} \; \oplus \; 
-T_p \Sigma \otimes T^*_u X .\]
+$$   \Lambda^{n+1}_1 T^*_y E \;\; \cong \;\; \mathbb{R} \; \oplus \; 
+T_p \Sigma \otimes T^*_u X .$$
 
 On the other hand, the trivialization $E = \Sigma \times X$ gives
 an isomorphism of affine spaces
-\[ J^1_y E \; \; \cong \; \; T^*_p \Sigma \otimes T_u X   \]
+$$ J^1_y E \; \; \cong \; \; T^*_p \Sigma \otimes T_u X   $$
 which has the side-effect of making $J^1_y E$ into a vector space. Since we've identified
 $\Lambda^{n+1} T^*_p \Sigma$ with $\mathbb{R}$, an affine map from $J^1_y E$ to $\Lambda^{n+1} T^*_p \Sigma$ is just
 an element of $T_x \Sigma \otimes T^*_u X$ plus a constant.
 So, we obtain
-\[   (J^1_y E)^* \; \; \cong \; \; \mathbb{R} \; \oplus \; 
-T_p \Sigma \otimes T^*_u X .\] 
+$$   (J^1_y E)^* \; \; \cong \; \; \mathbb{R} \; \oplus \; 
+T_p \Sigma \otimes T^*_u X .$$
 This gives a specific vector bundle isomorphism
 $(J^1 E)^* \cong \Lambda_1^{n+1} T^* E$, as desired. 
 
 
 It is better to use the pulled back volume form $\pi^* \vol$ as a substitute for the coordinate-dependent $n+1$-form $dq^1 \wedge \cdots \wedge dq^{n+1}$ on $E$.  This gives another basis of
 sections of $\Lambda_1^{n+1} T^* E$, which by abuse of notation we call
-\[  dQ = \pi^* \vol   \]
+$$  dQ = \pi^* \vol   $$
 and
-\[  dQ_i^a = 
-\left(\pi^* \iota_{\partial/\partial q^i} \vol\right) \wedge du^a .\]
+$$  dQ_i^a = 
+\left(\pi^* \iota_{\partial/\partial q^i} \vol\right) \wedge du^a .$$
 Corresponding to this basis there are
 local coordinates $P$ and $P^i_a$ on $\Lambda_1^{n+1} T^* E$, which combined with the coordinates $q^i$ and $u^a$ pulled back from $E$ give a local coordinate system on $\Lambda_1^{n+1} T^* E$.  
 
 In these
 coordinates the canonical $n+1$-form on $(J^1 E)^* \cong \Lambda_1^{n+1} T^* E$ is:
-\[
+$$
           \alpha = P dQ + P^i_a dQ_i^a, 
-\]
+$$
 and the $n+2$ multisymplectic form is
-\[ 
+$$ 
 \omega = dP \wedge dQ + dP^i_a \wedge dQ_i^a.
-\]
+$$
 
 
 
@@ -237,9 +237,123 @@ a closed string propagating without interaction.
 
 * covariant configuration bundle $E = \Sigma \times X$.
 
-(more needs to be said here...)
 
-... blah-blah-blah...
+We will work out the covariant Hamiltonian formalism (also known as the **de Donder-Weyl formalism**) for this example in detail. We follow here the exposition found in 
+
+* F. Helein, Hamiltonian formalisms for
+multidimensional calculus of variations and perturbation theory, [arXiv:math-ph/0212036](http://arxiv.org/abs/math-ph/0212036)
+
+For simplicity we will only consider the case where $\Sigma$ is the
+cylinder $\mathbb{R}\times S^1$ and $X$ is $d$-dimensional Minkowski spacetime, $\mathbb{R}^{1,d-1}$.
+A solution of the classical bosonic string is then a map $\phi : \Sigma \to X$ which is a critical point of the area subject to certain boundary conditions.
+
+Equivalently, by exploiting symmetries
+in the variational problem, one can describe solutions $\phi$ by equipping $\mathbb{R} \times S^{1}$ with its standard Minkowski metric and then solving the
+$1+1$ dimensional field theory specified by the Lagrangian density
+$$
+\mathcal{L}=\frac{1}{2} g^{ij}\eta_{ab} \frac{\partial
+  \phi^{a}}{\partial q^i}\frac{\partial \phi^{b}}{\partial q^j}.
+$$
+
+Here $q^i$ $(i = 0,1)$ are standard coordinates on $\mathbb{R} \times S^1$ and
+$g=\mathrm{diag}(1,-1)$ is the Minkowski metric on $\mathbb{R} \times S^1$, while
+$\phi^a$ are the coordinates of the map $\phi$ in $\mathbb{R}^{1,d-1}$ and $\eta =
+\mathrm{diag}(1,-1,\cdots,-1)$ is the Minkowski metric on $\mathbb{R}^{1,d-1}$. The corresponding Euler-Lagrange equation is just a version of the
+wave equation:
+$$
+g^{ij}\partial_{i} \partial_{j} \phi^a =0.
+$$
+
+The space $E=\Sigma \times X$ can be thought of as a trivial bundle over $\Sigma$, and the graph of a function $\phi : \Sigma \to X$ is a smooth section of $E$.  We write the coordinates of a
+point $(q,u)\in E$ as $\left(q^i,u^a \right)$.
+Let $J^1 E \to E$ be the first jet bundle of $E$.
+We may regard $J^1 E$ as a vector bundle whose
+fiber over $(q,u)\in E$ is $T^*_q \Sigma \otimes T_u X$.  
+The Lagrangian density for
+the string can be defined as a smooth function on $J^1 E$:
+$$
+\mathcal{L}=\frac{1}{2} g^{ij}\eta_{ab}u^{a}_{i}u^{b}_{j},
+$$
+which depends in this example only on the fiber coordinates $u^a_{i}$.  
+
+From the Lagrangian $\mathcal{L} : J^{1}E \to \mathbb{R}$, the **de 
+Donder-Weyl Hamiltonian** $\mathcal{H} : T \Sigma \otimes T^*X \to \mathbb{R}$ can be constructed via a Legendre transform.   It is given as follows:
+$$
+\mathcal{H}= p^{i}_{a}u^{a}_{i}- \mathcal{L} =\frac{1}{2} \eta^{ab}g_{ij}p_{a}^{i}p_{b}^{j},
+$$
+where $u^a_{i}$ are defined implicitly by
+$p_a^{i}=\partial \mathcal{L} / \partial u^{a}_{i}$,
+and $p_a^{i}$ are coordinates on the
+fiber $T^{*}_{u}X \otimes T_{q}\Sigma$.
+Note that $\mathcal{H}$ differs from the standard (non-covariant) Hamiltonian density for a field theory: 
+$$
+p^{0}_{a}u^{a}_{0} - \mathcal{L}.
+$$
+
+Let $\phi$ be a section of $E$ and let $\pi$ be a smooth section of $T \Sigma \otimes T^*X$ restricted to $\phi(\Sigma)$ with fiber coordinates $\pi_{a}^{i}$.  It is then straightforward to show
+that $\phi$ is a solution of the Euler-Lagrange equations 
+if and only if $\phi$ and $\pi$ satisfy the following system of equations:
+$$
+\frac{\partial \pi^{i}_{a}}{\partial q^i} = 
+  -  \left.\frac{\partial \mathcal{H}}{\partial
+  u^{a}} \right \vert_{u=\phi,p=\pi} 
+$$
+$$
+\frac{\partial \phi^{a}}{\partial q^i} = \left.\frac{\partial \mathcal{H}}{\partial
+  p^i_{a}} \right \vert_{u=\phi,p=\pi}.
+$$
+
+
+This system of equations is a generalization of Hamilton's equations for the point particle.
+
+As explained above, the covariant phase space for the bosonic string is the dual jet bundle 
+$(J^1 E)^*$, and this space is equipped with a canonical 2-form $\alpha$ 
+whose exterior derivative $\omega = d \alpha$ is a multisymplectic 3-form.
+Using the isomorphism
+$$         (J^1 E)^* \cong  T \Sigma \otimes T^*X \times \mathbb{R} ,$$
+a point in $(J^1 E)^{*}$ gets coordinates $(q^i,u^a,p^{i}_{a},e)$. 
+In terms of these coordinates, 
+$$
+\alpha= e dq^{0} \wedge dq^{1} +
+\left(p_{a}^{0} du^{a} \wedge dq^{1} - 
+p_{a}^{1} du^{a} \wedge dq^{0} \right) .
+$$
+The multisymplectic structure on $(J^1 E)^*$ is thus
+$$   
+\omega = 
+de \wedge dq^0 \wedge dq^{1} +
+\left(dp_a^0 \wedge du^a \wedge dq^{1} - 
+dp_a^1 \wedge du^a \wedge dq^{0} \right) .  
+$$
+So, the variable $e$ may be considered as canonically conjugate to the area form $dq^{0} \wedge dq^{1}$.  
+
+As before, let $\phi$ be a section of $E$ and let $\pi$ be a smooth section of $T \Sigma \otimes T^*X$ restricted to $\phi(\Sigma)$.  Consider the submanifold $S \subset (J^1 E)^*$ with coordinates:
+$$
+(q^i,\phi^{a}(q^j),\pi_{a}^{i}(q^j),-\mathcal{H}).
+$$
+Note that $S$ is constructed from $\phi$, $\pi$ and
+from the constraint $e + \mathcal{H}=0$. This constraint is analogous to the one that is used in finding constant energy solutions in the extended phase space approach to classical mechanics.  At each point in
+$S$, a tangent bivector $v=v_{0} \wedge v_{1}$ can be defined as
+$$
+v_{0} =\frac{\partial}{\partial q^{0}} + 
+\frac{\partial \phi^a}{\partial q^{0}}\frac{\partial}{\partial u^a} + 
+\frac{\partial \pi_{a}^{i}}{\partial q^{0}}
+\frac{\partial}{\partial p_{a}^{i}}
+$$
+$$
+v_{1} = \frac{\partial}{\partial q^{1}} + 
+\frac{\partial \phi^a}{\partial q^{1}}
+\frac{\partial}{\partial u^a} + 
+\frac{\partial \pi_{a}^{i}}{\partial q^{1}}
+\frac{\partial}{\partial p_{a}^{i}}.  
+$$
+
+Explicit computation reveals that the submanifold $S$ is
+generated by solutions to Hamilton's equations if and only if
+$$
+\omega(v_{0},v_{1},\cdot)=0. 
+$$
+
 
 
 ## Relation to $n$-symplectic manifolds
