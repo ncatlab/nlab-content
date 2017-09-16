@@ -1,3 +1,2 @@
-See [[Bertrand Toën]].
-
-category: redirect
+&lt; [[Bertrand Toen]]
+[[!redirects Bertrand Toen -- history]]
