@@ -1,1 +1,5 @@
 Of course, a simplicial commutative differential graded algebra is a [[simplicial object]] in the category [[CDGA]] of commutative [[differential graded algebra|differential graded algebras]].
+
++--{: .query}
+Note that we already have [[CoDGCA]].  ---[[Toby Bartels]]
+=--
