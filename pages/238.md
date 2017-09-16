@@ -14,6 +14,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-21 #
 
+* [[Zoran Škoda]]: I have made [[D-module]] and [[local system]] somewhat more precise; actually I have put lots of more precise statements; the subtleties on wheather we work over a complex manifold, variety, variety in char zero, or nonsingular variety in char 0, may affect some of the statements. To suplement this I was forced to create a comprehensive entry [[regular differential operator}]. I see that for some reason people continue talking connections and 
+avoid going down to sheaves, resolutions of diagonal, de Rham site and regular differential operators, which are all necessary to cover this subject properly in my view; there are missing related items like [[holonomic D-module]], treatment of costratification, crystals and so on. I created [[coreflective subcategory]], just giving the definition and saying that the rest of abstract preoprteis are dual to [[reflective subcategory]] where more is written. But one should write specific examples which call specifically for coreflective subcategories. Created [[topologizing subcategory]].
+
 * [[David Roberts]]:
 
   * Added examples to [[semi-abelian category]] - the opposite of the category of pointed objects in a topos, and the category of crossed modules.
