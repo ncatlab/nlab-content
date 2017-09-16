@@ -15,6 +15,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * fiddled a bit with the entry [[higher category theory]] (added one more introductory sentence, created a hyperlinked list of definitions of higher categories) but I still feel that we should put more energy in this particular entry. It is sort of the single central entry one would expect an "$n$Lab" to be built around, but currently it doesn't even come close to living up to playing such a pivotal role. I am imagining that it should carry some paragraphs that highlight the powerful recent developments in view of [[Pursuing Stacks]], of the kind that I filled in today in the entry [[Carlos Simpson]]. Does any higher category theory expert out there feel like writing an expositional piece for the $n$Lab here?
+
+  * created [[simplicial localization]] but was then too lazy to draw the hammock. But main point here is the link to an article by [[Tim Porter]] that nicely collects all the relevant definitions and references 
+
+    * there is plenty of further material by [[Tim Porter]] that should eventually be referenced at various $(\infty,1)$-categorical entries. By chance I just came across the slides [Weak categories](http://www.ima.umn.edu/talks/workshops/SP6.7-18.04/may/PorterMay.pdf) which I now linked to from [[weak omega-category]] and [[higher category theory]] 
+
   * created [[principal infinity-bundle]], just for completeness
 
   * created [[principal 2-bundle]] -- this is just the result of what came to mind while typing, I am sure to have forgotten and misrepresented crucial aspects. [[Toby Bartels]] should please have a critical look and modify as necessary, as should [[Igor Bakovic]] and [[Christoph Wockel]] in case they are reading this. 
