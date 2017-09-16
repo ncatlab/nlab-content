@@ -554,6 +554,10 @@ The characterization of the model category of simplicial presheaves as the canon
 
   * [[Jacob Lurie]], [[Higher Topos Theory]]
 
+A set of lecture notes on simplicial presheaves with an eye towrads algebraic sites and [[derived algebraic geometry]] is
+
+* [[Bertrand Toen]], _Simplicial presheaves and derived algebraic geometry_ , lecture at [Simplicial methofs in higher categories](http://www.crm.es/HigherCategories/)  ([pdf](http://www.crm.cat/HigherCategories/hc1.pdf))
+
 Last not least, it is noteworthy that the idea of localizing simplicial sheaves at stalkwise weak equivalences is already described and applied in 
 
 * [[Kenneth Brown]], [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf cohomology]],
