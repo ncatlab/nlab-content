@@ -410,4 +410,12 @@ Translating these diagrams into forumas using the _convention LB_ as described a
 =--
 
 
+## Nonabelian Lia algebra cohomology
+
+When the groups in question are [[Lie group]]s, there is an [[infinitesimal object|infinitesimal]] version of nonabelian group cohomology:
+
+* [[nonabelian Lie algebra cohomology]]
+
+See there for details.
+
 [[!redirects nonabelian group cohmology]]
