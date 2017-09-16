@@ -59,7 +59,7 @@ or see the list of links below.
 
 * [[Lawvere-Tierney topology]]
 
-* [[sheafification in a Lawvere-Tierney topos]]
+* [[Lawvere-Tierney topology|sheafification in a Lawvere-Tierney topos]]
 
 ##VI Topoi and Logic ##
 
