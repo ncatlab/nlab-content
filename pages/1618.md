@@ -13,6 +13,7 @@ Zoran: now one can redefine easily each functor by taking isomorphic representat
 
 Todd: How much does it matter? It matters if for example you want to say that points of $Sh(X)$, $X$ a sober space, are in bijection with points of $X$. Otherwise one can just refer back to equivalence of categories, unless you see a problem with that. 
 
+[[Mike Shulman]]: I would argue that "a point" of a topos really should mean "a geometric morphism from $Set$," *not* "an isomorphism class of geometric morphisms from $Set$," for the same reason that "a group" means, well, "a group" and not "an isomorphism class of groups."  Following from that, I would say that it's not really correct to say that points of $Sh(X)$ (for $X$ sober) are in bijection with $X$, but rather that the category of points of $Sh(X)$ is equivalent to the category of points of $X$.  Note that that's actually a stronger statement than saying that their sets of isomorphism classes of objects are in bijection.
 =--
 
 ## points of sheaf topoi ##
@@ -86,7 +87,9 @@ More precisely: if it is true that every morphism $f : A \to B$ such that for ev
 
 +--{.query}
 
-_Todd_: I don't have much time to think about this now, but I doubt this is true. A "point" of $Sh(X)$ corresponds to a closed irreducible set of $X$, and there may be very few of these. The claim is true though if $X$ is sober. 
+_Todd_: I don't have much time to think about this now, but I doubt this is true. A "point" of $Sh(X)$ corresponds to a closed irreducible set of $X$, and there may be very few of these. The claim is true though if $X$ is sober.
+
+[[Mike Shulman]]: But $Sh(X)$ is equivalent to $Sh(X_{sober})$, where $X_{sober}$ is the soberification of $X$, since $X_{sober}$ and $X$ have the same frame of open sets.
 
 =-- 
 
