@@ -13,5 +13,13 @@ A **commutative ring** is an [[abelian monoid]] in [[Ab]].
 
 
 [[!redirects rings]]
+[[!redirects unital ring]]
+[[!redirects unital rings]]
+[[!redirects associative ring]]
+[[!redirects associative rings]]
+[[!redirects associative unital ring]]
+[[!redirects associative unital rings]]
 [[!redirects commutative ring]]
 [[!redirects commutative rings]]
+[[!redirects commutative unital ring]]
+[[!redirects commutative unital rings]]
