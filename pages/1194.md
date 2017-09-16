@@ -2,7 +2,6 @@
 
 Type theory is a branch of mathematical [[logic]] which studies elements of varying _types_, or _sorts_, rather than elements of a single fixed sort.  Type theory is distinguished particularly by the importance of [[context]] in the specification of terms and formulas, and has close links to the [[internal logic]] of categories.
 
-
 # An introduction for category-theorists
 
 One way to look at type theory, from the point of view of a category theorist, is as a _syntax for describing the construction of objects and morphisms in a category_.  The [[syntax|syntactic]] constructs corresponding to objects and morphisms are called _types_ and _terms_, respectively.  The types correspond to objects (with various subtleties), while the terms denote morphisms by using _variables_ to indicate domains.  For example, given terms $f(x)$ and $g(y)$ with one free variable each, representing morphisms $[f]$ and $[g]$, the term $g(f(x))$ represents the morphism $[g]\circ [f]$.
@@ -13,12 +12,82 @@ An important extension of type theory involves _dependent_ types: types which ar
 
 How does type theory relate to logic?  Well, _propositional logic_ is just the type theory whose semantic categories are _posets_.  In this case, the types $P,Q,\dots$ are usually called _propositions_, and the existence of a (necesarily unique) term of type $Q$, having a free variable of type $P$, is just the assertion that $P\le Q$ (or, in more logical language, "$P$ implies $Q$").  The type constructor for binary products is usually written $\wedge$ and called "and," the type constructor for binary coproducts is usually written $\vee$ and called "or," and so on.
 
+In general, a logic is given by a collection of typed
+terms, together with a set of rules for forming
+propositions from these, and a set of _inference rules_
+that allow us to infer new theorems from old ones.  The
+types and terms form the underlying type theory of the
+logic, and the propositions 'depend' on these.  A model of
+a logic will then consist of a category $E$ of propositions
+that is [[Grothendieck fibration|fibred over]] (or
+equivalently [[indexed category|indexed by]]) a category
+$C$ of terms; i.e. there will be a fibration $p:E\to C$ or
+an indexed category $p':C^{op}\to Cat$ with $p':A\mapsto
+E_A$.  So an alternative way of thinking of propositional
+logic is as the 'logic' of a poset fibred over the trivial
+one-object category, which corresponds to the fact that the
+propositions do not contain or depend on typed terms.
+
 Now, it turns out that there are (at least) two ways to reconcile logic (the type theory of posets) with type theory of more general categories.  In the first approach, which can be described as _typed predicate logic_ or _logic over type theory_, we keep the propositions separate from the types.  (Since, as we have seen, propositional logic is a specific kind of type theory, this means we really have two interacting type theories.  However, in this case we generally reserve "type" for the second kind of type as distinguished from the "propositions.")  
 
-The syntax of typed predicate logic involves types and terms, but also propositions and implications, and "proposition constructors" (quantifiers) such as $\exists x$ and $\forall x$ where $x$ is a variable associated to a type (not a proposition).  The natural home for the semantics of typed predicate logic turns out to be an _indexed poset_: a category $C$ together with a functor $P:C^{op}\to Pos$.  The ordinary type theory happens in $C$ as described above, and a proposition $\phi$ with a free variable $x$ of type $A$ is interpreted by an element $[\phi]$ of the poset $P(A)$.  The prototypical indexed poset is $P:Set^{op}\to Pos$ sending each set to the poset of its [[subset]]s, with an evident generalization to [[subobject]]s in any category; thus we think  of $[\phi]$ as "the set of all $x\in A$ such that $\phi(x)$ is true."
+The syntax of typed predicate logic involves types and
+terms, but also propositions and implications, and
+"proposition constructors" (quantifiers) such as $\exists
+x$ and $\forall x$ where $x$ is a variable associated to a
+type (not a proposition).  The natural home for the
+semantics of typed predicate logic turns out to be an
+_indexed poset_: a category $C$ together with a functor
+$P:C^{op}\to Pos$.  The ordinary type theory happens in $C$
+as described above, and a proposition $\phi$ with a free
+variable $x$ of type $A$ is interpreted by an element
+$[\phi]$ of the poset $P(A)$.  The prototypical indexed
+poset is $P:Set^{op}\to Pos$ sending each set to the poset
+of its [[subset]]s, with an evident generalization to
+[[subobject]]s in any category; thus we think  of $[\phi]$
+as "the set of all $x\in A$ such that $\phi(x)$ is true."
+Another way of describing this setup is as the _subobject
+fibration_ $cod:Sub(C)\to C$.
 
-Just as the allowed constructions on types are reflected in the structure of the semantic category, the allowed constructions on propositions here are reflected in the structure of the semantic posets $P(A)$.  For instance, if we allow conjunction $\wedge$ of propositions, then each $P(A)$  must be a meet-[[semilattice]].  The action of the functor $P$ on morphisms, usually written $f^*:P(Y)\to P(X)$, is used to introduce spurious variables.  The left and right [[adjoint functor|adjoints]] to $f^*$, when they exist, describe the semantics of the two quantifiers; thus we write them as $\exists_f \dashv f^* \dashv \forall_f$.
+Just as the allowed constructions on types are reflected in
+the structure of the semantic category, the allowed
+constructions on propositions here are reflected in the
+structure of the semantic posets $P(A)$.  For instance, if
+we allow conjunction $\wedge$ of propositions, then each
+$P(A)$ must be a meet-[[semilattice]].  The action of the
+functor $P$ on morphisms, usually written $f^*:P(Y)\to
+P(X)$, is used to model the substitution of the term
+represented by $f$ for the variable of a proposition,
+multiple variables and substitutions being interpreted by
+means of finite products, as in [[Lawvere theory|Lawvere
+theories]].  In that case, the functor $\pi^*:P(X)\to
+P(X\times Y)$ interprets the adding of an unused variable
+to a context.  The left and right [[adjoint
+functor|adjoints]] to $f^*$, when they exist, describe the
+semantics of the two quantifiers; thus we write them as
+$\exists_f \dashv f^* \dashv \forall_f$.  The functors
+$\exists_\pi$ and $\forall_\pi$ interpret the traditional
+existential and universal quantifiers.
 
 The [[internal logic]] of various sorts of categories are most naturally regarded as the typed predicate logic associated to the "poset of subobjects" functor $Sub:C^{op}\to Pos$, and the requisite levels of structure on $C$ induce the required semantic structure on both $C$ and $Sub$.  For instance, if $C$ is [[regular category|regular]], then each $Sub(X)$ is a meet-semilattice and the adjoints $\exists_f$ exist, while if $C$ is a [[Heyting category]], then each $Sub(X)$ is a [[Heyting algebra]] and both adjoints $\exists_f$ and $\forall_f$ exist.  However, not all indexed posets in which one wants to apply type theory are constructed from subobjects  in some category; see for instance [[tripos]].
 
-The _second_ approach to reconciling type theory with logic is to blur the distinction between types and propositions; this is called the "propositions as types" paradigm.  Instead of requiring that a proposition $\phi$ be interpreted as merely true or false (that is, a [[truth value]] or equivalently a [[subsingleton]]), we allow it to be interpreted by any set (that is, any object of the semantic category).  One way to think of this is that $[\phi]$ is the set of _proofs_, or _reasons_, why $\phi$ is true; it is [[inhabited set|inhabited]] iff $\phi$ is true, but a true statement may have many distinct proofs (although, for technical reasons, not in [[classical logic]]).  Thus, for instance, instead of asserting that $\phi\Rightarrow \psi$, we consider the _type_ $\phi \to \psi$ of all proofs that $\phi$ implies $\psi$, which is inhabited just when $\phi$ actually does imply $\psi$.  Similarly, the quantifiers $\exists$ and $\forall$ become identified with the dependent type constructors $\Sigma$ and $\pi$.
+The _second_ approach to reconciling type theory with logic
+is to blur the distinction between types and propositions;
+this is called the "propositions as types" paradigm.
+Instead of requiring that a proposition $\phi$ be
+interpreted as merely true or false (that is, a [[truth
+value]] or equivalently a [[subsingleton]]), we allow it to
+be interpreted by any set (that is, any object of the
+semantic category).  One way to think of this is that
+$[\phi]$ is the set of _proofs_, or _reasons_, why $\phi$
+is true; it is [[inhabited set|inhabited]] iff $\phi$ is
+true, but a true statement may have many distinct proofs
+(although, for technical reasons, this is not the case in
+naive categorical models of [[classical logic]]).  Thus,
+for instance, instead of asserting that $\phi\Rightarrow
+\psi$, we consider the _type_ $\phi \to \psi$ of all proofs
+that $\phi$ implies $\psi$, which is inhabited just when
+$\phi$ actually does imply $\psi$.  Similarly, the
+quantifiers $\exists$ and $\forall$ become identified with
+the dependent type constructors $\Sigma$ and $\Pi$.  In
+this case, the semantics involved is the more general
+_codomain fibration_ $p:C^\to\to C$, whose fibres are the [[slice category|slice categories]] $C/A$.
