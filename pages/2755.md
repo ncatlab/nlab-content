@@ -3,13 +3,15 @@
 * automatic table of contents goes here
 {:toc}
 
+
 #Idea#
 
-One imagines that from a [[quantum field theory]] one can derive a [[classical field theory]] of which the original quantum field theory may be regarded as a [[quantization]].
+One imagines that from a [[quantum field theory]] one can derive a [[classical field theory]] of which the original quantum field theory may be regarded as a [[quantization]].  Whereas quantization may be haphazard, since quantum physics seems to be a more fundamental description of reality that need not be derivable from anything classical, we expect taking the classical limit to be more systematic, since the appearance of a classical world in some regimes should be explicable by fundamental quantum theories.  However, it may not be as systematic as some people would like, as in this [blog discussion](http://golem.ph.utexas.edu/category/2009/10/this_weeks_finds_in_mathematic_43.html#c028689).
 
 What precisely this means and to which degree precisely it makes sense depends on which precise formulation of these concepts one considers. For instance when regarding [[deformation quantization]] as definition the quantum theory then taking the classical limit is an obvious straightforward operation. But in more complete contexts, such as when the [[quantum field theory]] is realized as an [[FQFT]] or [[AQFT]], the passage to the classical limit may be subtle or not make sense at all.
 
-Most prescriptions for taking classical limits are formulated in algebraic settings. To fit for instance a 1-dimensional [[FQFT]] intoo the discussion one is likely to find in the literature, one will have to encode it equivalently in its [[spectral triple]] (as described there) and then proceed with that.
+Most prescriptions for taking classical limits are formulated in algebraic settings. To fit for instance a 1-dimensional [[FQFT]] into the discussion one is likely to find in the literature, one will have to encode it equivalently in its [[spectral triple]] (as described there) and then proceed with that.
+
 
 #References#
 
@@ -19,11 +21,10 @@ A general discussion of classical limit in terms of such coherent states in in s
 
 * [[Arnold Neumaier]], [[Dennis Westra]], _Classical and Quantum Mechanics via Lie algebras_ ([arXiv](http://lanl.arxiv.org/abs/0810.1019))
 
-This is based on literature on [[coherent state]]s such as thee book
+This is based on literature on [[coherent state]]s such as the book
 
-* Perelomov (..)
+* Perelomov (...)
 
 or
 
-* Yaffe, _Large $N$ limits as classical mechanics_ ,
-Rev. Mod. Phys. 54, 407 - 435 (1982)
+* Yaffe, _Large $N$ limits as classical mechanics_, Rev. Mod. Phys. 54, 407--435 (1982)
