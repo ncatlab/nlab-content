@@ -61,7 +61,7 @@ The role of the assumptions about covers is:
 
 In Section 1.1.5 of [HGT I][], the following additional axiom was assumed on the class of covers:
 
-* every [[equivalence relation]] involving a cover has a quotient object which is a cover.
+* every [[congruence]] involving a cover has a quotient object which is a cover.
 
 This is not needed for anafunctors but is used to relate descent to bundles (and then to $2$-bundles).
 
