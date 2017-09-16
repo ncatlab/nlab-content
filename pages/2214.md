@@ -25,6 +25,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-09-04
+* [[Zoran Škoda]]: created [[internal relation]]. I was once working on replacing tens (and spend hours on this) of wikipedia links in timeline with our own links, and even created new entries in nlab to support the new links in nlab. For example I created the entry for [[Otto Schreier]] in nlab to support the quotation for Schreier in nlab version of Timeline. I also do not understand why things like the Cayley 1843 entry are ignored (and hence will disappear in new migration); I spent hours of time looking into references which I recalled vaguely to confirm what I thought about it. I see no reason for wikipedia to overwrite our work  on changes. 80 links changed in single day is possible done by me; I recall that I did work once on making many links either more functional (including making the blind link to wikipedia link) or update them with new biography entries in nlab. I would not say that in that particular day only the links changed.
+
 
 * [[Jon Awbrey]] made a first pass at formatting [[Trimble on ETCS III]] and thinks himself to have earned a nice Labor Day vacation, so if it's messed up don't tell him till Tuesday.
 
