@@ -30,7 +30,11 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 ## 2009-07-20
 
-* [[Urs Schreiber]]: quick reply to Toby at [[locally presentable category]]: I didn't mean to leave out the "locally", but now that we are at it: what's the point of saying "locally" here in the first place?
+* [[Urs Schreiber]]: 
+
+  * have a question at [[essential image]]: we should consider the weak/homotopy version of the definition of limit as the equalizer of the cokernel pair of a morphism, is there any literature/knowledge about that?
+
+  * quick reply to Toby at [[locally presentable category]]: I didn't mean to leave out the "locally", but now that we are at it: what's the point of saying "locally" here in the first place?
 
 *  [[Toby Bartels]]:  Added quite a bit to [[free monoid]].
 
