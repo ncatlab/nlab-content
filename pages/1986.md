@@ -16,6 +16,17 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-08-03
+
+* [[Urs Schreiber]]: 
+
+  *  created [[(infinity,1)-quantity]] -- some comments:
+
+     * this accompanies a blog question [here](http://golem.ph.utexas.edu/category/2009/08/question_on_synthetic_differen.html)
+
+     * among other things this aims to provide the full general nonsense $\infty$-version of the statement at the beginning of [[differential form]]
+
+     * I could move this to my private web. Let me know if you feel that would be better.
+
 * [[Zoran Škoda]]: created [[crossed profunctor]] (of crossed modules) and [[butterfly]] (pappilon). First after M. Jibladze (1990) and second after B. Noohi (2005). I did not draw the diagram but wrote equations explicitly. I have the file of the book where Jibladze's paper is if somebody needs it. 
 * [[Eric]]:
 
