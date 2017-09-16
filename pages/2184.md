@@ -163,7 +163,8 @@ Isn't there some way to state very simply:
 
 Here is a humble attempt...
 
-#Definition#
++-- {: .un_defn}
+###### Definition
 
 An **abstract graph** $X$ is a [[category]] with
 
@@ -179,3 +180,15 @@ the _???_;
 A **graph** is a [[functor]] $G: X\to$ [[Set]].
 
 More generally, a **graph [[internalization|in]] a category $C$** is a [[functor]] $G : X \to C$.
+=--
+
+_Toby_:  First, it depends on what kind of 'graph' you mean.
+
+Let\'s take a simple undirected graph.  Then the answer is no, since the definition of a simple graph is not (despite the name) as simple as the definition of digraph (directed pseudograph).  Whereas a digraph consists of just $V$, $E$, and $d: E \to V^2$, a simple graph consists of $V$, $E$, and an injection $d: E \to \left({V \atop 2}\right)$.  The two problems here are: how do you say that $d$ is an injection? and how do you describe a function $E \to \left({V \atop 2}\right)$ in terms of functions among $V$ and $E$?  (A map $E \to V^2$ can be done; that\'s the same as two maps $E \to V$.)  You can describe these things more internally, of course (say by replacing 'injective function' with '[[monomorphism]]'), but there\'s no category $X$ such that a simple graph is precisely a functor from $X$ to $Set$.
+
+In fact, the *only* kind of graph above that can be defined as a functor from $X$ to $Set$ for some fixed 'abstract general' category $X$ is directed pseudograph, the kind of graph discussed at [[digraph]].  Between that, and the fact that every strict category has an underlying digraph, it\'s no surprise that this is the sort of graph that category theorists like.  But it\'s not the sort of graph that graph theorists like so much!
+
+It would be worth discussing what sort of graphs can be internalised in what sort of categories.  Those graphs that allow loops are easier; I think that I can do them!  For the graphs without loops, I haven\'t even decided what\'s the best way to phrase the definition in [[constructive mathematics]].  (Luckily it doesn\'t matter for finite graphs.)
+
+
+[[!redirects undirected graph]]
