@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[David Roberts]]: further tinkering at [[history of cohomology with local coefficients]] - mentioned link of Reidemeister's original approach to crossed complexes. Forgive my ignorance Zoran, but I'm not sure what to do about your comment there. Is it meant to extend cohomological history generally or provide details on related topics? 
 
+  * Zoran: Local cohomologies is discovered by Steenrod and systematically used only around 1943 or so, but special cases like Reidemeister torsion can be listed as earlier if you decided to do so and if Steenrod liked to see the influence that way. But this is nonsense if other related cases of related OBSTRUCTIONS to those studied by Reidemeister, like Nielsen invariant, Whitehead torsion etc. are not listed as well. This is NOT intended to be generally about (co)homology, I pointed to the relation with specifically supposedly related to the things which you do list. But maybe my opinion about he connections is wrong, I just put the possibility that things apperaed earlier in a way not acknowledged by Steenrod, but possibly seen so nowdays. 
+
 
 ## 2009-08-27
 
