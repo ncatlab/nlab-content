@@ -13,3 +13,4 @@ Comparing the above to the defintion of [[effective epimorphism]], we propose th
 
 
 [[!redirects regular epi]]
+[[!redirects regular epimorphisms]]
