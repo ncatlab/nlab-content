@@ -1,11 +1,21 @@
-#Idea#
+A **group** is a [[monoid]] in which every element has an [[inverse]].
 
-To some extent, a group "is" a [[groupoid]] with a single object. More precisely a group "is" a [[pointed object|pointed]] groupoid with a single object.
 
-Of course to start with, more along the lines of [the definition you're used to](http://en.wikipedia.org/wiki/Group_%28mathematics%29#Definition).
-a **group** is a [[monoid]] in which every element has an [[inverse]].
+#Weakened version#
 
-But the [[delooping]] of a group $G$ is a [[groupoid]] $\mathbf{B} G$ with 
+Following the practice of [[centipede mathematics]], we can remove certain properties from this definition and see what we get:
+* remove inverses to get [[monoids]], then remove the identity to get [[semigroups]];
+* or remove associativity [[loop(algebra)|loops]], then remove the identity to get [[quasigroups]];
+* or remove all of the above to get [[magma|magmas]];
+* or instead allow (in a certain way) for the binary operation to be partial to get [[groupoids]], then remove inverses to get [[categories]];
+* etc.
+
+
+#Delooping#
+
+To some extent, a group "is" a [[groupoid]] with a single object, or more precisely a [[pointed object|pointed]] groupoid with a single object.
+
+The [[delooping]] of a group $G$ is a [[groupoid]] $\mathbf{B} G$ with 
 
 * $Obj(\mathbf{B}G) = \{\bullet\}$ 
 
@@ -54,5 +64,6 @@ Equivalently, it is a functor $C^{op}\to Grp$ whose underlying functor $C^{op} \
 For example, a group object in [[Diff]] is a [[Lie group]].  A group object in [[Top]] is a [[topological group]].  And a group object in $CAlg^{op}$, where $CAlg$ is the category of commutative algebras, is a (commutative) [[Hopf algebra]].
 
 A group object in [[Grp]] is the same thing as an abelian group (see [[Eckmann-Hilton argument]]), and a group object in [[Cat]] is the same thing as an [[internal category]] in [[Grp]], both being equivalent to the notion of [[crossed module]]. 
+
 
 [[!redirects groups]]
