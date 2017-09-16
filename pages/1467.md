@@ -50,7 +50,7 @@ One often wishes to study compact [[Hausdorff space]]s.  For locales, one usuall
 
 ## Terminology
 
-Some authors use "compact" to mean "compact Hausdorff" (a much [[nice topological space|nicer sort of space]], and forming a much [[nice category of spaces|nicer category of spaces]]), and use the word "[[quasicompact]]" to refer to just "compact" as we are using it here. This custom seems to be prevalent among [[algebraic goemetry|algebraic geometers]], for example, and particularly so within Francophone schools.
+Some authors use "compact" to mean "compact Hausdorff" (a much [[nice topological space|nicer sort of space]], and forming a much [[nice category of spaces|nicer category of spaces]]), and use the word "[[quasicompact]]" to refer to just "compact" as we are using it here. This custom seems to be prevalent among [[algebraic geometry|algebraic geometers]], for example, and particularly so within Francophone schools.
 
 But it is far from clear to me ([[Todd Trimble]]) that "quasicompact" is very well-established outside such circles (despite some arguments in favor of it), and using simply "compact" for the nicer concept therefore carries some risk of creating misunderstanding among mathematicians at large. My own habit at any rate is to say "compact Hausdorff" for the nicer concept, and I will continue using this on the nLab until consensus is reached (if that happens). 
 
