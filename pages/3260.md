@@ -33,6 +33,8 @@ $$
   \,.
 $$ 
 
+### Homotopical categories of $G$-equivariant spaces
+
 +-- {: .un_defn}
 ###### Definition
 **(models for $G$-equivariant spaces)**
@@ -89,6 +91,37 @@ where the equivalence is induced by the functor that sends $G$-space to the pres
 Stated as theorem VI.6.3 in [EqHoCo](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf).
 
 =--
+
+
+### $(\infty,1)$-category of $G$-equivariant spaces {#InfGTop}
+
+We may naturally enhance the [[homotopical category]] $G Top_{loc}$ from above to an [[(∞,1)-category]] whose [[homotopy category of an (∞,1)-category]] coincides with the [[homotopy category]] of $G Top_{loc}$, by systematically using the geometric line object.
+
+Start with the category $G Top_{cof}$ of CW-complexes equipped with an action by a finite group and equivariant continuos maps as morphisms. 
+
+Equip this category with the line object $I = \mathbb{R}$ thought of as a $G$-space by taking the $G$-action to be trivial. Using the two canonical points $({*} \stackrel{0}{\to} I \stackrel{1}{\leftarrow} {*})$ this becomes an [[interval object]]. As discussed there, from this is induced a [[cosimplicial object]]
+
+$$
+  \Delta_I : \Delta \to G Top_{cof}
+  \,.
+$$
+
+In degree $k$ this is $I^k = \mathbb{R}^k$ (equipped with the trivial $G$-action), but with face maps such that the standard topological  $k$-simplex is cut out inside $\mathbb{R}^k$.
+
+Using this we make $G Top_{cof}$ into a [[Kan complex]]-[[enriched category]], hence an [[(∞,1)-category]], by taking the [[SSet]]-[[hom object]] to be
+
+$$
+  G Top_{cof} (X,Y) :=
+  Hom_{G Top_{cof}}(X \times \Delta_I^\bullet, Y)
+  \in SSet
+  \,.
+$$
+
+The [[homotopy category|homotopy category of an (∞,1)-category]] of this the category $Ho(G Top_{cof})$ whose objects are those of $G Top_{cof}$ and whose morphisms are equivalence classes of morphisms in there, with two taken to be equivalent if they are related by an $I$-homotopy.
+
+Since $G$ acts trivially on $I$, an $I$-homotopy is the standard notion of homotopy used in $G$-[[equivariant homotopy theory]]. So $Ho(G Top_{cof})$ is the standard equivariant homotopy category.
+
+
 
 ## In more general model categories
 
