@@ -89,6 +89,8 @@ _Toby_:  At least $Set^{\mathbf{2}}$ is *different* from $Set$.  And how do you 
 ...
 
 
+* See also [[inner product of multisets]].
+
 ## References
 
 * [Mathematics of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/MathMSet.pdf), Apostolos Syropoulos
