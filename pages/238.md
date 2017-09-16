@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-18 #
 
+* [[Todd Trimble|Todd]]: wrote the beginnings of an apparently long-awaited article on [[weighted colimit]]s. 
+
 * [[Urs Schreiber|Urs]]
 
   * filled in the definition at [[simplicial homotopy]] together with an intentionally pedestrian proof that simplicial homotopy in a Kan complex is an equivalence relation
