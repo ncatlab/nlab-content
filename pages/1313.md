@@ -7,19 +7,21 @@ An __exponential object__ $X^Y$ is an [[internal hom]] $[Y,X]$ in a [[cartesian 
 
 The above is actually a complete definition, but here we spell it out.
 
-Given objects $X$ and $Y$ of a [[category]] $C$ with binary [[product]]s, an __exponential object__ is an object $X^Y$ equipped with an __evaluation map__ $ev: X^Y \times Y \to X$ which is universal in the sense that, given any object $Z$ and map $e: Z \times Y \to X$, there exists a unique map $u: Z \to X^Y$ such that
+Let $X$ and $Y$ be objects of a [[category]] $C$ such that all binary [[product]]s with $Y$ exist.  (Usually, $C$ actually has all binary products.)  Then an __exponential object__ is an object $X^Y$ equipped with an __evaluation map__ $ev: X^Y \times Y \to X$ which is universal in the sense that, given any object $Z$ and map $e: Z \times Y \to X$, there exists a unique map $u: Z \to X^Y$ such that
 $$ Z \times Y \stackrel{u \times id_Y}\to X^Y \times Y \stackrel{ev}\to X $$
-equals $e$.  Note that all [[product]]s with $Y$ must exist if this is to make sense.
+equals $e$.
 
 As with other [[universal construction]]s, an exponential object, if any exists, is [[generalized the|unique up to unique isomorphism]].
 
 
 # Related notions #
 
-Let $C$ be a category and $X,Y\in C$.  Usually one assumes that $C$ is a [[cartesian monoidal category]], although this is not necessary for the concepts to make sense.
+As before, let $C$ be a category and $X,Y\in C$.
 
 +--{: .query}
 Mike, you keep insisting that $C$ must have finite products, but $Y$ can be exponentiable as long as all products with *it* exist.  For an example (where $C$ is a slice category), every display morphism (which I haven\'t yet written about at [[context]]) is exponentiable in a dependent type theory with dependent products but (to prevent finite products) without identity types, even though (since not every morphism is display) the relevant slice category lacks some products (since the category of contexts lacks some pullbacks).  ---[[Toby Bartels]]
+
+[[Mike Shulman|Mike]]: Okay.
 =--
 
 * If $X^Y$ exists, then we say that $X$ __exponentiates__ $Y$ or that $Y$ is __exponentiable__ by $X$.
@@ -31,6 +33,10 @@ Mike, you keep insisting that $C$ must have finite products, but $Y$ can be expo
 * Conversely, if $X$ is such that $X^Y$ exists for all $Y$, we say that $X$ __exponentiates__.  Again, $C$ is __cartesian closed__ if it has a terminal object and every object exponentiates.
 
 Dually, a __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^{op}$.  A __[[cocartesian closed category]]__ has all of these (and an [[initial object]]).
+
++--{: .query}
+[[Mike Shulman|Mike]]: Is 'cocartesian closed' really good terminology?  The intended interpretation is of course co-(cartesian closed), but it sounds to me more like a cocartesian monoidal category which is closed monoidal.  What about 'cocartesian coclosed?'
+=--
 
 
 # Examples #
