@@ -203,17 +203,26 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 * [[(infinity,1)-category of (infinity,1)-sheaves]]
 
-  * [[hypercompletion]]
+  * [[local object]]
+
+  * [[descent]]
+
+  * [[sheaf]]
+
+  * [[stack]]
 
   * [[derived stack]]
+
+  * [[infinity-stackification]]
+
+  * [[hypercompletion]]
+
 
 * [[model structure on simplicial presheaves]]
 
   * [[simplicial presheaf]]
 
   * [[infinity-stack homotopically]]
-
-  * [[infinity-stackification]]
 
   * [[descent for simplicial presheaves]]
 
