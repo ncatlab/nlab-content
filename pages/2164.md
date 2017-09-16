@@ -26,7 +26,7 @@ If the [[topos]] in question furthermore is equipped with a [[lined topos|line o
 
 The notion of infinitesimal object and infinitesimal space then makes sense in any [[smooth topos]], and may be reasoned about generally for all smooth toposes. In any concrete [[Models for Smooth Infinitesimal Analysis|model]] for the axioms there will accordingly be concrete realizations of these infinitesimal objects.
 
-## realizatons in algebraic geometry ##
+## realizations in algebraic geometry ##
 
 Notably, for instance the [[Grothendieck topos]] of [[presheaf|presheaves]] on the [[opposite category]] $k CAlg^{op}$ of that of commutative $k$-[[algebra]]s (over some [[field]] $k$) is a simple realization of a [[smooth topos]] (see for instance [Kock-SGM, section 93](http://home.imf.au.dk/kock/SGM-final.pdf)). This topos and its variants and in particular their [[category of sheaves|sheaf]]-[[localization]]s provide the context in which [[algebraic geometry]] takes place.
 
