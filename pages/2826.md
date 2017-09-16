@@ -1,6 +1,6 @@
 ## Idea ##
 
-A **Dold fibration** is a map that allows [[lifting]] of [[homotopies]], agreeing with a given map up to a [[vertical homotopy]].
+A **Dold fibration** is a map that allows [[lifting]] of [[homotopies]], with initial condition agreeing with a given map up to a [[vertical homotopy]].
 
 
 ## Definition ##
