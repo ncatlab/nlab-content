@@ -9,7 +9,11 @@ Ordinary [[gravity]] -- as a [[classical field theory]] -- is determined by an [
 
 In **supergravity** the [[manifold]] in question is equipped with a [[Spin structure]] and the Einstein-Hilbert action functional is extended to one on the space of [[Riemannian metric]]s and [[section]]s of a [[vector bundle]] associated to the [[spinor bundle]]. 
 
-To qualify as a [[supersymmetry|supersymmetric]] theory this action functional is required to be invariant under certain operations on the space of metrics and spinor sections that may mix both. In general this desired invariance is achieved only if the action functional is extended still a bit further to a space of metrics, [[spinor]] sections and certain [[differential form]]s on the [[manifold]]. 
+To qualify as a [[supersymmetry|supersymmetric]] theory this action functional is required to be invariant under certain operations on the space of metrics and spinor sections that may mix both. 
+
+Roughly, an [[action functional]] of supergravity must be locally invariant under the action of a [[super Poincare Lie algebra]] in the way that ordinary [[gravity]] is locally invariant under the action of the ordinary [[Poincare Lie algebra]].
+
+In general this desired invariance is achieved only if the action functional is extended still a bit further to a space of metrics, [[spinor]] sections and certain [[differential form]]s on the [[manifold]]. 
 
 The extra degress of freedom in supergravity theories, the spinor sections and possibly the differential forms, have physically the interpretation of _fermionic_ and _bosonic_ _matter_ fields coupled to ordinary gravity. Therefore theories of supergravity may be regarded as ordinary theories of gravity and matter, subject to peculiar constraints on the nature of the matter fields.
 
