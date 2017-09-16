@@ -147,7 +147,7 @@ In other words, the objects of $\mathrm{Desc}(S/R)$ are the pairs $(N,\alpha)$ w
 * $\sum_i m_i s_i = m$.
 
 
-### In terms of (co)monadic descent
+### In terms of (co)monadic descent {#ComonadicDescent}
 
 This [[coring]]-formulation of [[descent]] may be understood as special case of co[[monadic descent]] (see also the discussion at [[Bénabou–Roubaud theorem]]). We spell this out in detail:
 
