@@ -2,4 +2,6 @@ Given a _commutative_ [[ring]] $k$ and an associative  $k$-algebra $A$ over $k$,
 
 The tensor algebra $T_A Der(A,A\otimes A)$ of the $A$-bimodule $Der(A,A\otimes A)$ (which is the [[free monoid]] on $Der(A,A\otimes A)$ in the monoidal category of $A$-bimodules) is a step in the definition of the [[deformed preprojective algebra]]s of [[Bill Crawley-Boevey]]. A theorem of [van den Bergh](http://en.wikipedia.org/wiki/Michel_Van_Den_Bergh) says that for any associative $A$ the tensor algebra $T_A Der(A,A\otimes A)$ has a canonical [[double Poisson bracket]].
 
-* Michel Van den Bergh, Double Poisson algebras, Trans. Amer. Math. Soc. (2007), [arXiv:math.AG/0410528](http://arXiv.org/abs/math/0410528)
+* Michel Van den Bergh, _Double Poisson algebras_, Trans. Amer. Math. Soc. (2007), [arXiv:math.AG/0410528](http://arXiv.org/abs/math/0410528)
+
+* Anne Pichereau, Geert Van de Weyer, _Double Poisson cohomology of path algebras of quivers_, J. Alg. __319__, 5 (2008), 2166-2208([doi](http://dx.doi.org/10.1016/j.jalgebra.2007.09.021))
