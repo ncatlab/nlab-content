@@ -47,6 +47,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Tim Porter]]
 * [[Toby Bartels]]
 * [[Todd Trimble]]
+* [[Tom Hirschowitz]]
 * [[Tom Leinster]]
 * [[Tom Prince]]
 * [[Urs Schreiber]]
