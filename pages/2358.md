@@ -240,7 +240,7 @@ Then define [[E-infinity ring]] spectra to be ordinary [[monoid]] objects in thi
 
 
 
-These two approaches are equivalent is a suitable sense. See [[Noncommutative Algebra]], page 129 and [[Commutative Algebra]], 0.0.2 and paragraph 4.3.
+These two approaches are equivalent is a suitable sense. See [[Noncommutative Algebra]], page 129 and [[Commutative Algebra]], Remark 0.0.2 and paragraph 4.3.
 
 [[derived algebraic geometry]] categorifies [[algebraic geometry]]
 
@@ -258,7 +258,7 @@ These two approaches are equivalent is a suitable sense. See [[Noncommutative Al
 
 * a [[quasi-category]]
 
-  (see there for details). In fact, see [[Higher Topos Theory]] for lots of details.
+  (see there for details). In fact, see chapter 1 of [[Higher Topos Theory]] for lots of details.
 
 use [[homotopy coherent nerve]] to go from a [[simplicially enriched category]] to its corresponding [[quasi-category]] 
 
@@ -396,6 +396,8 @@ $$
 
 the [[stable (infinity,1)-category of spectra]] is the stabilization of the [[(infinity,1)-category]] [[Top]] of [[topological space]]s.
 
+> I think we need pointed topological spaces here?
+
 **Fact**: $Sp$ has an essentially unique structure of a [[symmetric monoidal (infinity,1)-category]].
 
 This monoidal structure $\otimes$ is uniquely characterized by the following two properties:
@@ -431,7 +433,7 @@ so let $C$ now be a [[symmetric monoidal (infinity,1)-category]].
 
 **definition** A [[commutative monoid in an (infinity,1)-category|commutative monoid in]] $C$ is a [[section]] $s$ of the structure map mentioned above $C^\otimes \to N(\Gamma) \stackrel{s}{\to} C^\otimes$.
 
-The monoid object itself is the image of $\langle 1 \rangle$ under $s$, $A = s(\langle 1 \rangle)$.
+The monoid object itself is the image of $\langle 1 \rangle$ under $s$, $A = s(\langle 1 \rangle)$. (Sort of. I think the whole point is that we don't ever say something like "this _particular_ $A$ is _the_ monoid object". Rather, the picture should roughly be that we have all of the standard diagrams describing a commutative monoid object, except that the various objects in the diagrams are _not necessarily the same object_. However, these _a priori_ different objects will be _a fortiori_ homotopy equivalent, so that in particular the usual picture will reappear in the homotopy category. Moreover, of course, these diagrams will not be strictly commutative, but commutative up to coherent homotopy, so that in particular the usual strict commutativity reappears after passage to the homotopy category.)
 
 > There is one more condition on $s$, though.
 
