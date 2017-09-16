@@ -77,6 +77,8 @@
 </g>
 <g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 292.490800, 327.664948)'>
 <text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>S</text>
+<text x='-90' y='125' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>Y</text>
+<text x='85' y='125' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>Z</text>
 </g>
 <g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 303.990800, 241.361684)'>
 <text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>O</text>
