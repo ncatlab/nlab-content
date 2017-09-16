@@ -1,8 +1,11 @@
+[[!redirects hyperstructural]]
+[[!redirects hyperstructures]]
+
 #Idea#
 
-[[Nils Baas]] has been emphasizing for many years, in print and in private communication, the conviction that the usual  notions of [[n-category]], [[infinity-category]] [[omega-category]] in [[higher category theory]] are **not** naturally suited for describing
+[[Nils Baas]] has been emphasizing for many years, in print and in private communication, the conviction that the usual  notions of [[n-category]], [[infinity-category]] [[omega-category]] in [[higher category theory]] are __not__ naturally suited for describing
 
-* [[extended cobordism]]s such as appearing in 
+* [[extended cobordisms]] such as appearing in 
 
   * the [[generalized tangle hypothesis|tangle hypothesis]]
 
@@ -14,10 +17,9 @@
 
   * biology.
 
+The point is essentially that the _directedness_ of morphisms and --- related to that --- the binary notion of [[source]] and [[target]] in categories and higher categories are notions alien to these contexts, which in applications have to and are essentially removed again in a second step by adding extra structure and requiring further properties, such as various monoidal structures and dualities, which allow to change the direction of morphisms, to collect objects together, etc.
 
-The point is essentially that the _directedness_ of morphisms and -- related to that -- the binary notion of [[source]] and [[target]] in categories and higher categories are notions alien to these contexts, which in applications have to and are essentially removed again in a second step by adding extra structure and requiring further properties, such as various monoidal structures and dualities, which allow to change the direction of morphisms, to collect objects together, etc.
-
-In contrast to that, Baas pointed out that more naturally the above situations are thought of from the beginning in terms of hierarchies of what he calls _bonds_, where, quite generally, a bond is an oject equipped with information of how a collection of sub-bonds sits inside it, _bound by the bond_.
+In contrast to that, Baas pointed out that more naturally the above situations are thought of from the beginning in terms of hierarchies of what he calls _bonds_, where, quite generally, a bond is an object equipped with information of how a collection of sub-bonds sits inside it, _bound by the bond_.
 
 A sketch of a generic such a situation of hierarchical bonds is a diagram 
 
@@ -43,13 +45,13 @@ where a bond $B$ binds sub-bonds $b_1, b2$ and $b_3$ which in turn bind sub-bond
 
 For instance $B$ might be an [[extended cobordism]] with three boundary components $b_1, b_2, b_3$ which in turn have pieces of boundary components $\beta_i$.
 
-Nils Baas has made, in print and in private communication, suggestions for a formalization of such systems of hierarchical bonds and coined the term **hyperstructures** for these. One reference is
+Nils Baas has made, in print and in private communication, suggestions for a formalization of such systems of hierarchical bonds and coined the term __hyperstructures__ for these. One reference is
 
 * Nils Baas, _Introducing abstract matter_ ([pdf](http://pagesperso-orange.fr/vbm-ehr/ChEh/articles/Baas%20paper.pdf))
 
 #Remarks#
 
-* The notion of replacing morphisms by _bonds_ is familiar and concretely realized at least in a hierarchy of depth 2 in the context of [[groupoidification]] and [[geometric function theory]], where morphisms are replaced by [[span]]s. Regarding these as [[cospan]]s in the [[opposite category]] produces diagrams like the above sketch of a generic bond system. 
+* The notion of replacing morphisms by _bonds_ is familiar and concretely realized at least in a hierarchy of depth 2 in the context of [[groupoidification]] and [[geometric function theory]], where morphisms are replaced by [[spans]]. Regarding these as [[cospans]] in the [[opposite category]] produces diagrams like the above sketch of a generic bond system. 
 
 * Accordingly, the notion of [[multispan]] and [[multi-cospan]] may come close to exhibiting some crucial aspects of the idea that motivated the concept of hyperstructures.
 
@@ -57,10 +59,11 @@ Nils Baas has made, in print and in private communication, suggestions for a for
 
 * David Corfield, [Category Theory and Biology](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html)
 
-  * The birth of the idea of [[multispan]]s as a formalization of hyperstructures is mentioned in [this comment](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html#c013165). 
+  * The birth of the idea of [[multispans]] as a formalization of hyperstructures is mentioned in [this comment](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html#c013165). 
 Its application to the description of extended cobordisms and the [[generalized tangle hypothesis]] is topic of some thought chatted about at [this entry](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html#c021486).
 
 +--{.query}
+
 [[Mike Shulman|Mike]]: Shouldn't we allow "oriented bonds" as well?  I am thinking of the case of, say, rings and modules, where a module $M$ that has right actions by rings $R$ and $S$ and a left action by $T$ should have $R,S,T$ as "sub-bonds" but with different "orientations."  And the "gluing" operation is tensor product, which only works if one module is a left module and the other is a right module.  This example also goes up in dimension, for instance modules over algebras over rings.  However, it seems that one would also needs this for cobordisms; aren't you only allowed to glue cobordisms along boundaries whose orientations match?
 
 [[Urs Schreiber|Urs]]: right, the module example currently does not really fit yet. The reason seems to be that the would-be [[dagger category|dagger]] functor is not the identity on objects here, but sends objects to their opposites.
@@ -84,7 +87,7 @@ $$
   \,.
 $$
 
-We might be able to emulate this within the setting described below by supposing that there are two different dummy objects $\bullet$ and $\circ$ around which behave at least to some extent like initial objects and that the original span was secretly really the multispan 
+We might be able to emulate this within the setting described below by supposing that there are two different dummy objects $\bullet$ and $\circ$ around which behave at least to some extent like initial objects and that the original span was secretly really the multispan:
 
 $$
   \array{
@@ -120,7 +123,7 @@ $$
   \,.
 $$
 
-This would introduce the desired orientation on objects, as the second multispan behaves like
+This would introduce the desired orientation on objects, as the second multispan behaves like:
 
 $$
   B^{op} \leftarrow C \to A^{op}
