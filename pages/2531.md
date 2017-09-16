@@ -1,7 +1,8 @@
+[[!redirects microlinear spaces]]
+
 <div class="rightHandSide toc">
 [[!include synthetic differential geometry - contents]]
 </div>
-
 
 #Contents#
 
@@ -13,25 +14,22 @@
 In traditional [[differential geometry]] a smooth [[manifold]] may be thought of as a "locally linear space": a space that is locally isomorphic to a 
 [[vector space]] $\simeq \mathbb{R}^n$.
 
-In the broader context of [[synthetic differential geometry]]  there may exist [[space]]s -- in a [[smooth topos]] $\mathcal{T}$ with line object $R$ --
+In the broader context of [[synthetic differential geometry]]  there may exist [[spaces]] --- in a [[smooth topos]] $\mathcal{T}$ with line object $R$ ---
 considerably more general than manifolds. While for all of them  there is a notion of [[tangent bundle]] $T X : = X^D$ (with $D$ the [[infinitesimal space|infinitesimal interval]]), not all such tangent bundles 
 necessarily have $R$-linear fibers! 
 
 A _microlinear space_  is essentially an object $X$ in a [[smooth topos]],  such that its [[tangent bundle]] does have $R$-linear fibers.
 
-In fact the definition is a bit stronger than that, but the main point in practice of microlinearity is that the linearity of the fibers of the tangent bundle allows to apply most of the familiar constructions in [[differential geometry]]  to these spaces.
+In fact the definition is a bit stronger than that, but the main point in practice of microlinearity is that the linearity of the fibers of the tangent bundle allows to apply most of the familiar constructions in [[differential geometry]] to these spaces.
 
 # Definition #
-
 
 +-- {: .un_defn}
 ###### Definition
 **(microlinear space)**
 
 
-Let $\mathcal{T}$ be a [[smooth topos]] with line object $R$.  An object $X \in \mathcal{T}$
-is a **microlinear space** if for each diagram $\Delta : J \to \mathcal{T}$ of [[infinitesimal space]]s in $\mathcal{T}$ and for each [[colimit|cocone]] $\Delta \to \Delta_c$ under it such that homming into $R$ produces a [[limit]] diagram , $R^\Delta_c \simeq \lim_{j \in J} R^{\Delta_j}$, 
-also homming into $X$ produces a limit diagram: $X^\Delta_c \simeq \lim_{j \in J} X^{\Delta_j}$.
+Let $\mathcal{T}$ be a [[smooth topos]] with line object $R$.  An object $X \in \mathcal{T}$ is a __microlinear space__ if for each diagram $\Delta : J \to \mathcal{T}$ of [[infinitesimal spaces]] in $\mathcal{T}$ and for each [[colimit|cocone]] $\Delta \to \Delta_c$ under it such that homming into $R$ produces a [[limit]] diagram , $R^\Delta_c \simeq \lim_{j \in J} R^{\Delta_j}$, also homming into $X$ produces a limit diagram: $X^\Delta_c \simeq \lim_{j \in J} X^{\Delta_j}$.
 
 =--
 
@@ -120,7 +118,7 @@ the following.
 
 1. The standard line $R$ is microlinear.
 
-1. The collection of microlinear spaces is closed under [[limit]]s in $\mathcal{T}$:
+1. The collection of microlinear spaces is closed under [[limits]] in $\mathcal{T}$:
 
    for $X = \lim_i X_i$ a [[limit]] of microlinear spaces $X_i$, also $X$ is microlinear.
   
@@ -133,7 +131,7 @@ the following.
 ###### Proof
 
 This is obvious from the standard properties
-of [[limit]]s and the fact that the [[internal hom]]-functor
+of [[limits]] and the fact that the [[internal hom]]-functor
 $(-)^Y : \mathcal{T} \to \mathcal{T}$ preserves limits.
 (See [[limits and colimits by example]] if you don't find it obvious.)
 
@@ -180,18 +178,11 @@ $(-)^Y : \mathcal{T} \to \mathcal{T}$ preserves limits.
 ###### Proposition
 **(microlinear loci)**
 
-Let $\mathcal{F}$, $\mathcal{G}, \mathcal{Z}, \mathcal{B}$
-be the [[smooth topos]]es of the same name that are discussed in detail in
-[[Models for Smooth Infinitesimal Analysis|MSIA, capter III]]. These are 
-constructed there as [[category of sheaves|categories of sheaves]] on a
-[[subcategory]] of the category $\mathbb{L} = (C^\infty Ring^{fin})$ of 
-smooth _loci_ .
+Let $\mathcal{F}$, $\mathcal{G}, \mathcal{Z}, \mathcal{B}$ be the [[smooth toposes]] of the same name that are discussed in detail in [[Models for Smooth Infinitesimal Analysis|MSIA, capter III]]. These are constructed there as [[category of sheaves|categories of sheaves]] on a [[subcategory]] of the category $\mathbb{L} = (C^\infty Ring^{fin})$ of smooth _loci_.
 
-All [[representable functor|representable objects]] in these [[smooth topos]]es
-are microlinear. 
+All [[representable functor|representable objects]] in these [[smooth toposes]] are microlinear. 
 
 =--
-
 
 +-- {: .proof}
 ###### Proof
@@ -200,26 +191,9 @@ For $\mathcal{F}$ and $\mathcal{G}$ this is the statement of [[Models for Smooth
 
 For $\mathcal{Z}$ and $\mathcal{B}$ the argument is similarly easy:
 
-These are categories of sheaves on the full category $\mathbb{L} = (C^\infty Ring^{fin})^{op}$.
-The line object $R$ is representable in each case, $R = \ell C^\infty(\mathbb{R})$.
-Every object in $\mathbb{L}$ is a limit (not necessarily finite) over copies of
-$R$ in $\mathbb{L}$. Accordingly, every object $\ell A$ of $\mathbb{L}$ satisfies the
-microlinearity axioms in $\mathbb{L}$ in that for each cocone 
-$\Delta \to \Delta_c : J \to \mathbb{L}$ of [[infinitesimal object]]s such that $R^{\Delta_c} \simeq \lim_{j \in J} R^{\Delta_j}$ we also have $(\ell A)^{\Delta_c} \simeq \lim_{j \in J} (\ell A)^{\Delta_j}$.
-Now, the [[Yoneda embedding]] $Y : \mathbb{L} \to PSh(C)$ preserves limits and
-exponentials. Since the [[Grothendieck topology]] in question is
-[[subcanonical coverage|subcanonical]], $Y((\ell A)^{\Delta_j})$
-is in $Sh(C)$ and hence is the exponential object $Y(\ell A)^{Y \Delta_j}$
-there. Finally, the _finite_ limit over $J$ is preserved by the reflection
-$PSh(C) \to Sh(C)$ (sheafification, which acts trivially on our representables), 
-so $Y(\ell A)^{\Delta_c} \simeq \lim_{j \in J}  Y(\ell A)^{Y(\Delta_j)}$
-and hence all $Y(\ell A)$ are microlinear in $\mathcal{Z}$ and $\mathcal{B}$.
-
+These are categories of sheaves on the full category $\mathbb{L} = (C^\infty Ring^{fin})^{op}$.  The line object $R$ is representable in each case, $R = \ell C^\infty(\mathbb{R})$.  Every object in $\mathbb{L}$ is a limit (not necessarily finite) over copies of $R$ in $\mathbb{L}$. Accordingly, every object $\ell A$ of $\mathbb{L}$ satisfies the microlinearity axioms in $\mathbb{L}$ in that for each cocone $\Delta \to \Delta_c : J \to \mathbb{L}$ of [[infinitesimal objects]] such that $R^{\Delta_c} \simeq \lim_{j \in J} R^{\Delta_j}$ we also have $(\ell A)^{\Delta_c} \simeq \lim_{j \in J} (\ell A)^{\Delta_j}$.  Now, the [[Yoneda embedding]] $Y : \mathbb{L} \to PSh(C)$ preserves limits and exponentials.  Since the [[Grothendieck topology]] in question is [[subcanonical coverage|subcanonical]], $Y((\ell A)^{\Delta_j})$ is in $Sh(C)$ and hence is the exponential object $Y(\ell A)^{Y \Delta_j}$ there.  Finally, the _finite_ limit over $J$ is preserved by the reflection $PSh(C) \to Sh(C)$ (sheafification, which acts trivially on our representables), so $Y(\ell A)^{\Delta_c} \simeq \lim_{j \in J}  Y(\ell A)^{Y(\Delta_j)}$ and hence all $Y(\ell A)$ are microlinear in $\mathcal{Z}$ and $\mathcal{B}$.
 
 =--
-
-
-
 
 
 # References #
@@ -230,8 +204,7 @@ The notion of microlinear space in the above fashion is due to
 
 and was studied further under the name _strong infinitesimal linearity_
 
-* [[Anders Kock]], R. Lavendhomme, _Strong infinitesimal linearity, with applications
-   to string difference and affine connections_, Cahiers de Top. 25 (1984)
+* [[Anders Kock]], R. Lavendhomme, _Strong infinitesimal linearity, with applications to string difference and affine connections_, Cahiers de Top. 25 (1984)
 
 This is similar to but stronger than the earlier "condition (E)" given in
 
@@ -239,12 +212,11 @@ This is similar to but stronger than the earlier "condition (E)" given in
 
 which apparently was also called "infinitesimal linearity" (without the "strong").
 
-Spaces satisfying this condition were called _infinitesimally linear spaces_, for
-instance in
+Spaces satisfying this condition were called _infinitesimally linear spaces_, for instance in
 
 * [[Anders Kock]] (1981) .
 
-The later re-typing  of that book 
+The later re-typing of that book
 
 * [[Anders Kock]], _Synthetic Differential Geometry_ (2006)  ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
 
