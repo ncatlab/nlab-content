@@ -4,7 +4,7 @@
 
 #Definition#
 
-Given a [[Lie algebroid]] $A$ together with the structure of a [[Lie algebroid]] $A^*$ on the dual of the vector bundle underlying $A$, the interpretation of a Lie algebroids as a [[supermanifold]] as described at [[L-infinity algebroid]] induces two notions of differentials $d_A$ and $d_{A^*}$ and two notions of Schouten brackets. 
+Given a [[Lie algebroid]] $A$ together with the structure of a [[Lie algebroid]] $A^*$ on the dual of the vector bundle underlying $A$, the interpretation of a Lie algebroids as a [[supermanifold]] as described at [[Lie infinity-algebroid]] induces two notions of differentials $d_A$ and $d_{A^*}$ and two notions of Schouten brackets. 
 
 A pairs $(A,A^*)$ of Lie algebroids is a **Lie bialgebroid** if these differentials are derivations of the corresponding Schouten brackets.
 
