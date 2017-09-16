@@ -97,7 +97,7 @@ Since the world of categories (about 50 years old) is currently less familiar th
 _Toby_:  Ah well, I agree that one should do locale theory!  OK, if your point is that, however convenient ETCS may be as a foundation of *existing* mathematics, working in ETCC is likely to be convenient for useful *future* mathematics, then you may be right!
 
 _Roger Witte_ says
-Mike, [A new look at pointfree metrization theorems](http://www.emis.de/journals/CMUC/ps/cmuc9801/banaspul.ps).  Two down, Three to go?
+Mike, [A new look at pointfree metrization theorems]().  Two down, Three to go?
 
 Toby
 Yes - we already know how to do maths in ETCS but we need to learn how to do it in ETCC.
@@ -107,6 +107,13 @@ Yes - we already know how to do maths in ETCS but we need to learn how to do it 
 Moreover, something which I think a lot of people don't think about is that just because you can define, in some limited framework, a notion of "X" which can be proven equivalent to the usual way that people think about X's, doesn't mean that your limited framework is completely sufficient for all the mathematical study of X's.  In particular, what about the very theorem that your notion of X is equivalent to the usual notion of X?  Foundations should suggest new ways of thinking, yes, but they should also accomodate the ways in which people already think, and should not throw out good existing mathematics.
 
 I do, however, like the idea of defining, say, "the category of semigroups" via constructions in $Cat$ out of the category $Set$.  That's the sort of thing I've always envisioned that [[michaelshulman:2-categorical logic|elementary 2-topos theory]] would give us.  But that has a very different feel, to me, from ETCC, because it recognizes that ordinary mathematical structures *themselves* are built out of sets, even if we build them by way of building the categories *of* such structures out of the category *of* sets.
+
+_Roger Witte_ Says
+No I don't think we do define everything the same way in Set.  I think it feels that way because we have spent 150+ years finding the ad hoc ways of building things with sets followed by unifying the underlying commonalities.  It all feels natural and unified now but it wasn't nearly so obvious that it was so when Frege and Cantor etc. were doing the underlying hard work.
+
+If we want to discover whether using the category of categories we have to find the ad hoc solutions for everything, then assemble them into a logical order and abstract out the commonalities and then see whether we have a beautiful natural and coherent whole - a completely new perspective is inevitably messy initially.
+
+Sometimes our experience with sets helps us find the new way of thinking, sometimes it hinders.  But until we have undertaken the whole effort of providing a good story for how to found mathematics on categories of categories, we won't know whether we have thrown the baby out with the bathwater or whether we have put a new baby in the bath!
 =--
 
 ... but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _structural_ or _categorial_ (or _categorical_, which is more common but clashes with another sense of 'categorical' in logic).
