@@ -16,7 +16,7 @@ where
 
 * $(e^a)$ is the vielbein.
 
-This is reminiscent of the form of the [[action functional]] in [[BF-theory]]
+This is reminiscent of the form of the [[action functional]] in [[BF theory]]
 
 $$
   \int_X F^{a b} \wedge B_{a b}
@@ -62,3 +62,6 @@ Related is also the construction in
 A blog discussion about this and possible interpretations in [[higher category theory]] is at
 
 * [[Urs Schreiber]], _2-Palatini_ ([blog](http://golem.ph.utexas.edu/string/archives/000876.html))
+
+
+[[!redirects gravity as a BF-theory]]
