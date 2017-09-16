@@ -1,4 +1,4 @@
-In any [[2-category]] $K$, a morphism $f:A\to B$ is called **eso** if for any [[ff morphism]] $m:C\to D$, the following square is a [[2-limit|(weak) pullback]]:
+In any [[2-category]] $K$, a morphism $f:A\to B$ is called **eso** if for any [[ff morphism]] $m:C\to D$, the following square is a ([[2-limit|weak]]) [[pullback]]:
 $$\array{K(B,C) & \to & K(B,D)\\
 \downarrow & & \downarrow \\
 K(A,C) & \to & K(A,D)}$$
