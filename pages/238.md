@@ -14,8 +14,18 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-29
 
+* [[Urs Schreiber|Urs]]
+
+  * thanks to [[Mike Shulman|Mike]] for his polishing of my original [[filtrant category]] at [[filtered category]]
+
+  * in a first attempt to clean up the entries surrounding [[abelian category]] I branched off [[Ab-enriched category]], made [[pre-additive category]] a commented redirect to that and "commented out" the respective discussion still to be found at [[additive category]]. 
+
+  * am all in favor of [[Finn Lawler|Finn]]'s graphics! The only reason I don't include nice graphics myself a lot is that currently these take me longer to create than the MathML hacks 
+
 * [[Finn Lawler]]: Uploaded PNG images of the zig-zag identities and added them to [[adjunction]].  They're probably a bit too small, but what do people think of this approach as a work-around until there's an easy way to convert TeX to SVG?  Any other suggestions?
 (Note: I tried converting these diagrams to SVG as described [here](http://meta.wikimedia.org/wiki/Help:Displaying_a_formula#Commutative_diagrams) but the resulting files were huge and didn't display anyway when inserted into the markdown source.  Instead I used `pdfcrop` and `convert` on the `pdflatex` output.)
+
+
 
 # 2009-03-28
 
