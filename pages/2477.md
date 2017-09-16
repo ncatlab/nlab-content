@@ -1,4 +1,9 @@
-#Definition#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
 
 
 A [[stack]] $X$ is **geometric** if 
@@ -13,12 +18,13 @@ A [[stack]] $X$ is **geometric** if
 
 
 
+
+## References
+
 A discussion in the context of [[geometric context]]s and ordinary [[stack]]s is here:
 
-* [[Bertrand Toen]], _Master Course on Stacks_ (http://www.math.univ-toulouse.fr/~toen/m2.html)
+* [[Bertrand Toen]], _Master Course on Stacks_ ([web](http://www.math.univ-toulouse.fr/~toen/m2.html))
 
-#Higher categorical version#
-
-A discussion in the context of [[infinity-stack]]s is here:
+A discussion in the context of [[∞-stack]]s is here:
 
 * [[Bertrand Toen]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry II: geometric stacks and applications_ ([arXiv](http://arxiv.org/abs/math/0404373))
