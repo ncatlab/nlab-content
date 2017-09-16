@@ -302,7 +302,7 @@ $$ hom_{CocompleteCat} (F C, D) \simeq
 
 instead of a natural isomorphism of sets, then we say we have a 'pseudoadjunction' instead of an adjunction.   A pseudoadjunction is the right generalization of adjunction when we go to 2-categories; if we were feeling in a modern mood we might just say 'adjunction' and expect people to know we meant 'pseudo'.
 
-Anyway, it seems like we really _do_ have such a pseudoadjunction, at least _modulo size issues_---which unfortunately is sort of like saying "modulo truth"!  The problem is that if Cat is the 2-category of [[small category|small]] categories then to define the free cocompletion functor
+Naively, it seems we _do_ have such a pseudoadjunction, at least _modulo size issues_---which unfortunately is sort of like saying "modulo truth"!  The problem is that if Cat is the 2-category of [[small category|small]] categories then to define the free cocompletion functor
 
 $$ F : Cat \to CocompleteCat $$
 
@@ -312,7 +312,7 @@ $$ U: CocompleteCat \to Cat $$
 
 we need $Cat$ to be the 2-category of large categories!   So, instead of an honest pseudoadjunction that bounces us back and forth between two 2-categories, the size keeps ratcheting up each time we make a round trip!
 
-In particular, if we try to define a [[pseudomonad]]
+In particular, if we try to define a [[2-monad|pseudomonad]]
 
 $$ U F : Cat \to Cat $$
 
