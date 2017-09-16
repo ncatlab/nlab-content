@@ -1,3 +1,12 @@
+<div class="rightHandSide toc">
+[[!include homotopy - contents]]
+</div>
+
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 The [[homotopy category]] of an [[(infinity,1)-category]] $C$ is, roughly, the best [[category|1-categorical]] approximation to $C$.  It has the same objects as $C$, and its morphisms are [[equivalence]] classes of 1-morphisms in $C$.
