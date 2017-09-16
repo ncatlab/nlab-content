@@ -1,6 +1,10 @@
 [[!include contents]]
 
-__Topology__ denotes both a field in mathematics, and a particular structure in a [[topological space]]. As a subject it is dealing with the expressions of continuity and boundary, and studying the geometric properties of spaces and relations of subspaces, which do not change under continuous deformations, regardless to the changes in metric properties. The word 'topology' sometimes means 'the collection of open sets in a [[topological space]]'. In particular, if someone says 'Let $T$ be a topology on $X$', then they mean 'Let $X$ be equipped with the structure of a topological space, and let $T$ be the collection of open sets in this space'. Topology as a structure enables one to model continuity and convergence locally. In metric spaces, recently topologists and geometric group theorists started looking at asymptotic properties at large, which are in some sense dual to the standard topological structure and are usually referred to as _coarse topology_.
+
+__Topology__ is one of the basic fields of [[mathematics]].  The term is also used for a particular structure in a [[topological space]]; see [[topological structure]] for that.
+
+The subject of topology deals with the expressions of continuity and boundary, and studying the geometric properties of spaces and relations of subspaces, which do not change under continuous deformations, regardless to the changes in metric properties. Topology as a structure enables one to model continuity and convergence locally. In metric spaces, recently topologists and geometric group theorists started looking at asymptotic properties at large, which are in some sense dual to the standard topological structure and are usually referred to as _coarse topology_.
+
 
 #some entries related to topology#
 
