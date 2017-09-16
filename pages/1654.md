@@ -94,3 +94,9 @@ which is given by the weighted colimit construction $W \mapsto W \cdot F$.
 ## Examples ##
 
 To be filled in. 
+
+#References#
+
+* Very nice descriptions on the n-Cafe by:
+  * [John Baez](http://golem.ph.utexas.edu/category/2007/02/day_on_rcfts.html#c007688)
+  * [Todd Trimble](http://golem.ph.utexas.edu/category/2007/02/day_on_rcfts.html#c007723)
