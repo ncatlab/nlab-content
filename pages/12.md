@@ -462,3 +462,5 @@ _Toby_:  See [[Bibliography]] for the beginnings of a literature list.
 Jim Stasheff: Is bibtex incompatible with this wiki?
 The nice lines separating entries on screen do not print.
 It would be better (but too late?) if the person's name was aligned with the first line of the Event.
+
+_Toby_:  Yet another reason for formatting this all as a list, I think.
