@@ -1,3 +1,10 @@
+<div class="rightHandSide toc">
+
+[[!include functorial quantum field theory - contents]]
+
+</div>
+
+
 #Idea#
 
 The notion of cobordism category is an abstract one intended to capture important features of (many variants of) the [[category]] of [[cobordism]]s and include in the same formalism cobordisms for closed manifolds with various kinds of structure. 
