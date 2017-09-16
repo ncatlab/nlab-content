@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-04
 
+* [[Zoran Škoda]]: Created [[differential topology]], [[general topology]], [[algebraic approaches to differential calculus]], [[skewfield]] (with redirect 'division ring'; I chose 1-word synonym as a main version however). Some users (outside of the contributor community) asked for more browsing access to nlab, namely to be able to descend to entries in specific subfields differently than via the long all pages list, or guessing and google search for notions; thus I gave small contribution to this by expanding [[algebra]], [[topology and geometry]] and [[mathematics]]; I do not think that we should care to ever have something like a complete tree, but having overview entries with lots of links in subfields will create more awareness of non-obvious entries. I also think that the descent from anything like top entries to concrete entries should not be unique in general and link overlap whenever logical and intelligent cross-referencing would not hurt.
+
 *  [[Toby Bartels]]:
    *  Discussion at [[directed graph]].
    *  Added [[characteristic morphism]] to [[characteristic function]].
