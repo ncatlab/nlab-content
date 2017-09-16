@@ -174,7 +174,8 @@ $D$ is the [[subobject]] of $R$ of all those elements whose square is 0.
 $$
   D = \{x \in R | x^2 = 0\}
 $$
- 
+=--
+
 It may be helpful to recall that in terms of [[limit]]s this notation means that
 $D$ is the [[equalizer]] of 
 
@@ -289,5 +290,4 @@ Details on the right adjoint to the exponentiation functor $(-)^X$ for
 $X$ an infinitesimal object are in appendix 4 of 
 
 * Moerdijk, Reyes, _[[Models for Smooth Infinitesimal Analysis]]_
-
 
