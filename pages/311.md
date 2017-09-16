@@ -19,6 +19,45 @@ By the [[Yoneda lemma]], any such transformation $\theta$ (isomorphism or not) i
 
 Following the proof of the Yoneda lemma, representability means precisely this: given any object $x$ of $C$ and any element $\alpha \in F(x)$, there exists a unique morphism $f: x \to c$ such that the function $F(f)$ carries the universal element $\xi \in F(c)$ to $\alpha \in F(x)$. Such a dry formulation fails to convey the remarkable power of this concept, which can really only be appreciated through the myriad examples which illustrate it. 
 
+## Definition in enriched category theory ##
+
+The above definition generalizes straightforwardly
+to [[enriched category theory]].
+
+Let $V$ be a [[closed monoidal category]] and $C$ a $V$-[[enriched category]].
+
+Then for every object $c \in C$ there is a 
+$V$-[[enriched functor]]
+
+$$
+  C(c,-) : C \to V
+$$
+
+from $C$ to $V$ regarded canonically as a $V$-[[enriched category]].
+
+This is defined
+
+* on objects by $C(c,-) : d \mapsto C(c,d) \in V$
+
+* on morphisms between $d$ and $d'$ by 
+
+$$
+  C(c,-)_{d,d'} : C(d,d') \to [C(c,d), C(c,d')]
+  \,,
+$$ 
+
+being the [[adjunct]] of the composition morphism 
+
+$$
+  \circ_{c,d,d'} : C(d,d') \otimes C(c,d) \to C(c,d')
+  \,.
+$$ 
+
+A $V$-enriched functor $F : C \to V$ is **representable** if there is $c \in C$ and a $V$-[[enriched natural transformation]] $\eta : F \to C(c,-)$.
+
+If $V$ is [[symmetric monoidal category|symmetric monoidal]] one can form the [[opposite category]] $C^{op}$ and have the analogous definition for representable functors $F : C^{op} \to V$.
+
+
 # Examples #
 
 ## Example 1: limits ##
@@ -87,6 +126,13 @@ $$G\Bund: Ho_{Top}^{op} \to Set.$$
 A **[[classifying space]]** $\mathcal{B}G$ is precisely a representing object for this functor; the universal element is the (isomorphism class of the) classifying $G$-bundle $[\pi: \mathcal{E}G \to \mathcal{B}G]$.
 
 These general considerations are quite commonplace in algebraic topology, where they crop up for example in the connection between generalized cohomology theories and spectra; cf. Brown's representability theorem. 
+
+
+#References#
+
+a discussion of representable functors in the context of enriched category theory is in section 1.6 and section 1.10 of
+
+* Kelly, _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
 
 
