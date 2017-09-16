@@ -169,10 +169,10 @@ where on the right the cartesian product is in the [[nice category of spaces|nic
 As described at [[closed monoidal structure on presheaves]]
 the [[internal hom]]  $[S,T]$ of simplicial sets is the simplicial set
 $$
-  [S,T] : [n] \mapsto Hom_{SSet}(S \times \Delta^n, T)
+  [S,T] : [n] \mapsto Hom_{SSet}(S \times \Delta[n], T)
   \,,
 $$
-where $\Delta^n = Y([n])$ is the standard simplicial $n$-[[simplex]], the image of $[n] \in \Delta$ under the [[Yoneda embedding]].
+where $\Delta[n] = Hom_{\mathbf{\Delta}}(-,[n])$ is the standard simplicial $n$-[[simplex]], the image of $[n] \in \mathbf{\Delta}$ under the [[Yoneda embedding]]. This formula is clearly representing a Kan extension. 
 
 
 # Adjunctions #
