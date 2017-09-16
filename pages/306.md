@@ -52,7 +52,7 @@ In higher topoi the the subobject classifiers are the [[generalized universal bu
 in the [[n-topos]] $n Cat$ of [[n-category|n-categories]] the subobject classifier is the [[stuff, structure, property|forgetful functor]]
 
 $$
-  n-true : (n-1)Cat_* \to (n-1)Cat
+  n true : (n-1)Cat_* \to (n-1)Cat
 $$
 
 from the $n$-category of [[pointed object|pointed]] $(n-1)$-categories to that of $(n-1)$-categories, which forgets the point.
