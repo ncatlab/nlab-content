@@ -112,3 +112,7 @@ But the five vertices that project onto the line $A P R$ form a regular pentagon
 
 * John Baez, [Some thoughts on the Number 6](http://math.ucr.edu/home/baez/six.html)
 
+
+[[!redirects pentagon-decagon-hexagon identity]]
+[[!redirects pentagon–decagon–hexagon identity]]
+[[!redirects pentagon--decagon--hexagon identity]]
