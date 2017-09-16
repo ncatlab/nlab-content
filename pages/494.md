@@ -1,13 +1,13 @@
 # Definition #
 
-We say that two functors $L:C\to D$ and $R:D\to C$ are **adjoint** if they form an [[adjunction]] $L \dashv R$ in the [[2-category]] [[Cat]] of categories.  This means that they are equipped with [[natural transformation]]s $\eta:1_C \to R L$ and $\epsilon:L R \to 1_D$ satisfying the [[triangle identities]], that is the compositions
-$
-L \stackrel{L\eta}\to L R L\stackrel{\epsilon L}\to L
-$
+We say that two functors $L:C\to D$ and $R:D\to C$ are **adjoint** if they form an [[adjunction]] $L \dashv R$ in the [[2-category]] [[Cat]] of categories.  This means that they are equipped with [[natural transformation]]s $\eta: 1_C \to R \circ L$ and $\epsilon: L \circ R \to 1_D$ satisfying the [[triangle identities]], that is the compositions
+$L \stackrel{L\eta}\to L R L\stackrel{\epsilon L}\to L$
 and 
 $R\stackrel{\eta R}\to R L R \stackrel{R\epsilon}\to R$ 
 are identities.
 The left or right adjoint of any functor, if it exists, is [[generalized the|unique up to unique isomorphism]].
+
+We say that $L$ is the __[[left adjoint]]__ of $R$ and that $R$ is the __[[right adjoint]]__ of $L$.
 
 In the case of [[Cat]], there are a number of equivalent characterizations of an adjunction, some of which are given below.
 
