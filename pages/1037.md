@@ -186,7 +186,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[sub-quasi-category]]
 
-  * [[opposite quasi-category]]
+  * [[opposite (∞,1)-category]]/[[opposite quasi-category]]
 
 * [[(∞,1)-functor]]
 
