@@ -72,8 +72,8 @@ $$
 
 $$
 \array{
-C_1 \times_{C_0} C_1  & \stackrel{e \times_{C_0} 1}{\to} &
- C_1 \times_{C_0} C_1 & \stackrel{1 \times_{C_0} e}{\leftarrow} & C_1 \times_{C_0} C_1 \\
+C_0 \times_{C_0} C_1  & \stackrel{e \times_{C_0} 1}{\to} &
+ C_1 \times_{C_0} C_1 & \stackrel{1 \times_{C_0} e}{\leftarrow} & C_1 \times_{C_0} C_0 \\
 {}                    & {}^{p_2}\searrow                 & \downarrow^{c}       & \swarrow^{p_1}                          & {} \\
 {}                    & {}                               & C_1                  & {}                                      & {}
 }
