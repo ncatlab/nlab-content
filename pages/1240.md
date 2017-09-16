@@ -7,7 +7,7 @@ Given a [[group]] $G$ with subgroup $H \hookrightarrow G$ and a [[representation
 #Explanation#
 
 
-We start with a Lie group $G$ acting smoothly and transitively on a smooth manifold $M$.  The stabilizer of your favorite point $x \in M$ will be a Lie subgroup $H \subseteq G$, and we have
+We start with a Lie group $G$ acting smoothly and transitively on a smooth [[manifold]] $M$.  The stabilizer of your favorite point $x \in M$ will be a Lie subgroup $H \subseteq G$, and we have
 
 $$ M \cong G/H $$
 
