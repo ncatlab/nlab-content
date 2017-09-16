@@ -1,3 +1,2 @@
-See [[internalization]].
-
-category: redirect
+&lt; [[Internalization]]
+[[!redirects Internalization -- history]]
