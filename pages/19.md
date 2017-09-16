@@ -40,6 +40,10 @@ For more on this and for the many different generalized sets see
 
 * Sets, categories and structuralism - Costas Drossos
 
++--{.query}
+Rafael: I am a bit skeptical if to interpret ETAS as a set theory.
+=--
+
 #Literature#
 * Categories for the working mathematician 2'nd ed. - Saunders Mac Lane
 * Categories for everybody- Steve Awodey
