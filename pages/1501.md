@@ -10,4 +10,4 @@ This convention fits in with the standardized conventions regarding [[adjoint fu
 A [[monoidal category]] is _rigid_ if every object has both a right dual and a left dual. 
 =--
 
-Note that this definition only asserts the existence of the dual objects. It does _not_ assert that specific duals have been chosen. Nor does it assert that the right dual of an object is isomorphic to its left dual (this need not be the case).
+Note that this definition only asserts the existence of the dual objects. It does _not_ assert that specific duals have been chosen. Nor does it assert that the right dual of an object is isomorphic to its left dual: this need not be the case in general, though it is true in a [[braided monoidal category]], and thus automatically also in a [[symmetric monoidal category]].  In practice, algebraic geometers are the most frequent users of the term 'rigid', and they focus on the symmetric monoidal case, so they ignore the difference between right and left duals.
