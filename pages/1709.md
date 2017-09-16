@@ -127,25 +127,35 @@ This is the definition of twisted cohomology as it appears for instance essentia
 
 We now discuss how this is a special case of the above definition of twisted cohomology.
 
-A pair consisting of an abelian thing $A$ acted on by a nonabelian thing $G$ can be equivalently thought of as one single nonabelian thing: the homotopy quotient of $A$ by $G$, a concrete realization of which is the Borel construction $\mathbf{E}G \times_G A$. This is not a spectrum anymore, but is a space.
+A pair consisting of a space $A$ acted on by a  group  $G$ can be equivalently thought of in terms of one single space: the homotopy quotient of $A$ by $G$, a concrete realization of which is the Borel construction $\mathbf{E}G \times_G A$. This is not a spectrum anymore, but is a space.
 
-Once we place ourselves in a context where both $G$ and $A$ live, this is best thought of as a game with [[fibration sequences]]
+Once we place ourselves in a context where both $G$ and $A$ live, this is best thought of in terms of [[fibration sequences]]
 
 So for instance the fact that some $G$ acts on some $A$ is witnessed by the existence of a left-long fibration sequence
 
 $$
-  \cdots \to A \to A//G \to \mathbf{B}G \to S
+  \cdots \to A \to A//G \to \mathbf{B}G.
 $$
 
-where in language used among nonabelian cohomologists, as it were, we have
+If it should happen that the fibration sequence extends one step to the right,
+
+$$
+  \cdots \to A \to A//G \to \mathbf{B}G \to S,
+$$
+
+we can assume, from properties of fibration sequences that $S = BA.$ 
+
+In language used among nonabelian cohomologists, ss it said that we have
 
 $\mathbf{B}G \to S$ is the [[action]]
 
-and 
+in contrast to the classical
 
-$A//G$ is the [[action groupoid]] .
+$G \times A \to A$ is the action.
+ 
+Then $A//G =G \times A$ with this map and the projection to $A$  is the [[action groupoid]] .
 
-For our general nonsense purposes we don't need to care here what exactly $S$ is, as long as the action on it induces this sequence, but in concrete realizations that'll be of interest. So we can just as well assume that $S = \mathbf{B}A$, which will be useful in the following.
+
 
 So we look at the remaining fibration sequence, which sits by definition in a homotopy pullback square
 
