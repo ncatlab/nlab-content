@@ -1,1 +1,3 @@
 Given a commutative ring $R$, the commutative ring of **rational functions** with coefficients in $R$ is the field of fractions of the [[polynomial]] ring $R[z]$.  
+
+Let $X$ be an affine variety over a field $k$ with the ring of regular functions $\mathcal{O}(X)$. A rational function is any element of the quotient field of $\mathcal{O}(X)$, that is the function field of the variety. Rational functions are therefore equivalence classes of fractions, hence they are not defined everywhere.
