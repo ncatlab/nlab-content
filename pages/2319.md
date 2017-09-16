@@ -1,0 +1,29 @@
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+</div>
+
+
+A _spin structure_ on a [[manifold]] $X$ with an [[orientation]] is a lift $\hat g$ of the classifying map $g : X \to \mathcal{B} S O(n)$ of the [[tangent bundle]] through the second step $\mathcal{B}Spin(n) \to \mathcal{B}S O(n)$ in the [[Whitehead tower]] of $O(n)$.
+
+$$
+  \array{
+    && \mathcal{B}Spin(n)
+    \\
+    & {}^{\hat g}\nearrow & \downarrow
+    \\
+    X &\stackrel{g}{\to}&
+    \mathcal{B}S O(n)
+  }
+$$
+
+Spin structures derive their name from the fact that their existence on a space $X$ make the [[quantum anomaly]] for spinning particles propagating on $X$ vanish. See there.
+
+The next steps correspond to 
+
+* [[String structure]]
+
+* [[Fivebrane structure]].
+
+[[!redirects Spin structure]]
+[[!redirects Spin-structure]]
+[[!redirects spin-structure]]
