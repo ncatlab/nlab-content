@@ -13,3 +13,5 @@ Segal categories were defined 1974 implicitly by [[Graeme Segal]]. They were nam
 * Julia E. Bergner, _A survey of $(\infty, 1)$-categories_ ([arXiv](http://arxiv.org/abs/math.AT/0610239))
 
 * see also [[Segal space]]
+
+[[!redirects Segal categories]]
