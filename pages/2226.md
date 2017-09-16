@@ -92,22 +92,30 @@ Already in this elementary context, there are several different meanings that mi
 
 ## Dyadic aspects of sign relations ##
 
-For an arbitrary triadic relation $L \subseteq O \:\times\: S \:\times\: I$, whether it is a sign relation or not, there are six dyadic relations that are obtained by projecting $L$ on one of the planes of the $OSI$-space $O \:\times\: S \:\times\: I$.  The six dyadic projections of a triadic relation $L$ are defined and notated as follows:
+For an arbitrary 3-adic relation $L \subseteq X \:\times\: Y \:\times\: Z = X_1 \:\times\: X_2 \:\times\: X_3$, sign relation or not, there are six 2-adic (or 2-ary) relations that are obtained by projecting $L$ on one of the planes of the $X Y Z$-space $X \:\times\: Y \:\times\: Z$.  Various notations for these projections are defined in such a way that all of the forms on any one row below are equivalent:
 
 $$\array{
 \arrayopts{\colalign{left}}
-L_{OS} & = & proj_{OS} L & = & \{ (o, s) \in O \:\times\: S : (o, s, i) \in L \:(\exists i \in I) \}
+L_{X Y} & = & proj_{X Y} L & = & L_{12} & = & proj_{12} L & = &
+\{ (x, y) \in X \:\times\: Y : (x, y, z) \in L \: (\exists z \in Z) \}
 \\
-L_{SO} & = & proj_{SO} L & = & \{ (s, o) \in S \:\times\: O : (o, s, i) \in L \:(\exists i \in I) \}
+L_{X Z} & = & proj_{X Z} L & = & L_{13} & = & proj_{13} L & = &
+\{ (x, z) \in X \:\times\: Z : (x, y, z) \in L \: (\exists y \in Y) \}
 \\
-L_{IS} & = & proj_{IS} L & = & \{ (i, s) \in I \:\times\: S : (o, s, i) \in L \:(\exists o \in O) \}
+L_{Y X} & = & proj_{Y X} L & = & L_{21} & = & proj_{21} L & = &
+\{ (y, x) \in Y \:\times\: X : (x, y, z) \in L \: (\exists z \in Z) \}
 \\
-L_{SI} & = & proj_{SI} L & = & \{ (s, i) \in S \:\times\: I : (o, s, i) \in L \:(\exists o \in O) \}
+L_{Y Z} & = & proj_{Y Z} L & = & L_{23} & = & proj_{23} L & = &
+\{ (y, z) \in Y \:\times\: Z : (x, y, z) \in L \: (\exists x \in X) \}
 \\
-L_{OI} & = & proj_{OI} L & = & \{ (o, i) \in O \:\times\: I : (o, s, i) \in L \:(\exists s \in S) \}
+L_{Z X} & = & proj_{Z X} L & = & L_{31} & = & proj_{31} L & = &
+\{ (z, x) \in Z \:\times\: X : (x, y, z) \in L \: (\exists y \in Y) \}
 \\
-L_{IO} & = & proj_{IO} L & = & \{ (i, o) \in I \:\times\: O : (o, s, i) \in L \:(\exists s \in S) \}
+L_{Z Y} & = & proj_{Z Y} L & = & L_{32} & = & proj_{32} L & = &
+\{ (z, y) \in Z \:\times\: Y : (x, y, z) \in L \: (\exists x \in X) \}
 }$$
+
+By way of unpacking the set-theoretic notation, here is what the first definition says in ordinary language.  The 2-adic relation that results from the projection of $L$ on the $X Y$-plane $X \:\times\: Y$ is written briefly as $L_{X Y}$, or written more fully as $proj_{X Y} L$, and it is defined as the set of all ordered pairs $(x, y)$ in the cartesian product $X \:\times\: Y$ for which there exists an ordered triple $(x, y, z)$ in $L$ for some element $z$ in the domain $Z$.
 
 ### Connotation ###
 
