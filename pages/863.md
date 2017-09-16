@@ -63,3 +63,7 @@ Keep in mind, however, that the only use of [[excluded middle]] in the classical
 
 
 [[!redirects loset]]
+[[!redirects linearly ordered set]]
+[[!redirects linear order]]
+[[!redirects losets]]
+[[!redirects linearly ordered sets]]
