@@ -1,16 +1,29 @@
 #Idea#
 
-A _Grothendieck category_ is an [[abelian category]] $C$ such that all [[complex]]es in $C$ (with respect to a [[category with translation|translation]]) are [[quasi-isomorphism|quasi-isomorphic]] to [[injective object|homotopically injective]] complexes.
+_Grothendieck categories_ are those [[abelian category|abelian categories]] $C$
+
+* such that for [[presheaf|presheaves]] on a [[site]] with values in $C$ there is a notion of [[sheafification]];
+
+* such that all [[complex]]es in $C$ (with respect to a [[category with translation|translation]]) are [[quasi-isomorphism|quasi-isomorphic]] to [[injective object|homotopically injective]] complexes (so that [[derived functor on a derived category|derived functor]] can be computed on homotopically injective replacements).
+
 
 #Definition#
 
-A **Grothendieck category** is an [[abelian category|abelian]] [[small category]]
+In terms of the AB$n$ hierarchy discussed at [[additive and abelian categories]] we have
+
+A **Grothendieck category** is an [[additive and abelian categories|AB5-category]] which has a [[generator]].
+
+This means that a **Grothendieck category** is an [[abelian category|abelian]] [[small category]]
 
 * that admits a [[generator]];
 
 * that admits small [[colimit]]s;
 
-* such that small [[filtered category|filtered]] [[colimit]]s are [[exact functor|exact]].
+* such that small [[filtered category|filtered]] [[colimit]]s are _exact_ in the following sense:
+
+  * for $I$ a [[directed set]] and $0 \to A_i \to B_i \to C_i \to 0$ an [[exact sequence]] for each $i \in I$, then $0 \to colim_i A_i \to colim_i B_i \to colim_j B_j \to 0$ is also an [[exact sequence]].
+
+
 
 
 #Properties#
