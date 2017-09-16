@@ -57,5 +57,9 @@ _Toby_:  No, I can\'t get anything at all out of Beeson (or other references) ab
 
 Like the [[axiom of choice]], the existence of a global choice operator is consistent with the other axioms of most foundations.  For example, in ZF, the [[constructible universe]] (which models $ZF + (V=L)$, the [[axiom of constructibility]]) admits a natural classical [[well-ordering]] of the entire universe, giving rise to a naturally defined global choice operator (namely, $\varepsilon x.P$ = the smallest $x$ such that $P$ in the global well-ordering).
 
+# Readings #
+
+* [Hilbert's $\varepsilon$-Operator](http://planetmath.org/encyclopedia/HilbertsVarepsilonOperator.html), _PlanetMath_.
+
 category: foundational axiom
 
