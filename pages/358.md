@@ -39,7 +39,7 @@ There is a [[periodic table]] of $k$-tuply monoidal $n$-categories:
 
 ## Historical notes ##
 
-Originally the importance of pointedness was not fully appreciated, so any $n$-category was accepted as $0$-tuply monoidal, and $k$-tuply monoidal $n$-categories were identified simply with $(k-1)$-connected $(n+k)$-categories (those in which any two parallel $j$-morphisms are equivalent for $j \lt k$).  See [[periodic table]] for this original.
+Originally the importance of pointedness was not fully appreciated, so any $n$-category was accepted as $0$-tuply monoidal, and $k$-tuply monoidal $n$-categories were identified simply with $k$-[[k-tuply connected n-category|connected]] $(n+k)$-categories (those in which any two parallel $j$-morphisms are equivalent for $j \lt k$).  See [[periodic table]] for this original.
 
 # Low dimensions #
 
@@ -49,20 +49,18 @@ As remarked above, a $0$-tuply monoidal $n$-category is just a pointed one, and 
 
 ## $k=1$, $n=0$ ##
 
-A 1-tuply monoidal 0-category is a pointed 0-connected 1-category, or a 1-category with a chosen object in which all objects are isomorphic.  Thus we might as well as assume there is exactly one object, in which case we just have a [[monoid]].  A functor between one-object categories, which preserves the basepoint automatically, is exactly a [[monoid homomorphism]].
+A 1-tuply monoidal 0-category is a pointed 1-connected 1-category, or a 1-category with a chosen object in which all objects are isomorphic.  Thus we might as well as assume there is exactly one object, in which case we just have a [[monoid]].  A functor between one-object categories, which preserves the basepoint automatically, is exactly a [[monoid homomorphism]].
 
-More interestingly, a natural transformation between functors $f,g:X\to Y$ between one-object categories is just an object $y\in Y$ (its component at the single object) such that $f(x) y = y g(x)$ for all $x\in X$.  So the 2-category of 0-connected 1-categories is not equivalent to the 1-category of monoids.  However, a _pointed_ natural transformation must have its component at the basepoint being the identity; thus $y=1$ and so the only such natural transformations are identities $f=g$.  Therefore, the 2-category of pointed 0-connected 1-categories (that is, 1-tuply monoidal 0-categories) is equivalent to the 1-category of monoids.
+More interestingly, a natural transformation between functors $f,g:X\to Y$ between one-object categories is just an object $y\in Y$ (its component at the single object) such that $f(x) y = y g(x)$ for all $x\in X$.  So the 2-category of 1-connected 1-categories is not equivalent to the 1-category of monoids.  However, a _pointed_ natural transformation must have its component at the basepoint being the identity; thus $y=1$ and so the only such natural transformations are identities $f=g$.  Therefore, the 2-category of pointed 1-connected 1-categories (that is, 1-tuply monoidal 0-categories) is equivalent to the 1-category of monoids.
 
 ## $k=2$, $n=0$ ##
 
-A 2-tuply monoidal 0-category is a pointed 1-connected 2-category.  Interpreting things as weakly as possible, we are talking about a [[bicategory]] $B$ with one object $*$ and one 1-cell (its identity).  By the usual [[Eckmann-Hilton argument]], the set $B(1_*,1_*)$ is a commutative monoid, but there is also additional structure: the associatior and unitors of the bicategory.  The pentagon identity implies that the associator is the identity, and the unitor axioms imply that the two unitors are the same, but they are not necessarily the identity.  Therefore, a 1-connected 2-category (if by 2-category we mean bicategory) is a commutative monoid $X$ equipped with a chosen invertible element $d_X$.  This was apparently first observed by Tom Leinster.
+A 2-tuply monoidal 0-category is a pointed 2-connected 2-category.  Interpreting things as weakly as possible, we are talking about a [[bicategory]] $B$ with one object $*$ and one 1-cell (its identity).  By the usual [[Eckmann-Hilton argument]], the set $B(1_*,1_*)$ is a commutative monoid, but there is also additional structure: the associatior and unitors of the bicategory.  The pentagon identity implies that the associator is the identity, and the unitor axioms imply that the two unitors are the same, but they are not necessarily the identity.  Therefore, a 2-connected 2-category (if by 2-category we mean bicategory) is a commutative monoid $X$ equipped with a chosen invertible element $d_X$.  This was apparently first observed by Tom Leinster.
 
-In similar vein, one can work out (see Cheng-Gurski):
+In similar vein, one can work out (see Cheng--Gurski):
 
 * a (weak) functor between 2-connected bicategories is a monoid homomorphism $F:X\to Y$ equipped with a distinguished invertible element $m_F\in Y$.
-
 * a (weak) natural transformation between two monoid homomorphisms is just the assertion that they are equal (and thus, every such transformation is invertible).
-
 * a modification between two such transformations is a distinguished not-necessarily-invertible element $\Gamma\in Y$.
 
 Note that the invertible elements $d_X$ and $m_F$ play no role in the definition of the higher morphisms, so they might as well not be there, up to equivalence.  However, the nonidentity modifications do screw things up, so the tricategory of 2-connected bicategories is not equivalent to the 1-category of commutative monoids.  But if we add in the basepoints, then we get:
