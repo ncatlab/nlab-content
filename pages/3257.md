@@ -5,7 +5,7 @@
 
 ## Idea
 
-[[Jim Dolan]] (or if not him, then somebody in [[John Baez]]\'s circle) has tried to make the term 'canonical' precise in a way analogous to the way in which the concept of [[natural transformation]] has made the term 'natural' precise.
+[[Jim Dolan]] has made the term 'canonical' precise in a way analogous to the way in which the concept of [[natural transformation]] has made the term 'natural' precise.
 
 A canonical transformation is like a natural transformation except that it is only required to be natural with respect to [[isomorphisms]].  Every natural transformation is canonical, but not every canonical transformation is natural.
 
@@ -32,6 +32,11 @@ Note that, while $u$ must be an isomorphism, $\eta(x)$ need not be.
 A canonical transformation can be understood as a special kind of natural transformation.  Given $F, G\colon C \to D$ as in the definition, we can restrict $F$ and $G$ to the [[core]] (underlying groupoid) $\tilde{C}$ of $C$ to produce $\tilde{F}, \tilde{G}\colon \tilde{C} \to D$.  Then a canonical transformation from $F$ to $G$ is precisely a natural transformation from $\tilde{F}$ to $\tilde{G}$.
 
 In particular, if $C$ is already a [[groupoid]], then every canonical transformation between functors out of $C$ is natural.
+
+
+## References
+
+* [old newsgroup thread](http://groups.google.com/group/sci.math/browse_frm/thread/9f5ca96dc1a95ada/47a1bb21f6566547) introducing the contrast between 'natural' and 'canonical' (note that 'Robert Scott' is really [[Jim Dolan]])
 
 
 [[!redirects canonical transformations]]
