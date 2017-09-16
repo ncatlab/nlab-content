@@ -1,6 +1,10 @@
 A [[category]] $C$ is **presentable** if
+
 +-- {: .query}
 Do you mean __*locally* presentable__?  Or are you following Lurie now?  Should we change the terminology below?
+
+[[Urs Schreiber]]: oh, sorry, this is a result of bad copy-and-pasting, I had meant to type locally presentable -- but now that we are discussing this, maybe we can sort this out: what's the point of saying "locally" presentable? Which reasons would there be not to follow Lurie on this? 
+
 =--
 
 * $C$ is [[locally small category]]
