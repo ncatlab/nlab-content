@@ -12,7 +12,7 @@
 * [[algebraic geometry]]
 * [[scheme]], [[quasicompact]], [[noetherian scheme]], [[reduced scheme]], [[integral scheme]]
 * [[spectrum (geometry)]]
-* [[algebraic variety]], [[normal variety]]
+* [[algebraic variety]], [[normal variety]], [[diffiety]]
 * [[algebraic space]], [[algebraic stack]]
 * [[quasicoherent sheaf]], [[coherent sheaf]], [[relative scheme]]
 * [[pure motive]], [[Voevodsky motive]]
