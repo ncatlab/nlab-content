@@ -218,6 +218,29 @@ Let us run through the initial example again, this time attempting to interpret 
 
 A function like this has an abstract type and a concrete type.  The abstract type is what we invoke when we write things like $f : \mathbb{B} \; \times \; \mathbb{B} \to \mathbb{B}$ or $f : \mathbb{B}^2 \to \mathbb{B}$.  The concrete type takes into account the qualitative dimensions or the "units" of the case, which can be explained as follows.
 
+* Let $P$ be the set of values $\{ \text{&#x2997;} p \text{&#x2998;}, \; p \} \;=\; \{ \mathop{not}\; p, \; p \} \;\cong\; \mathbb{B}$.
+
+* Let $Q$ be the set of values $\{ \text{&#x2997;} q \text{&#x2998;}, \; q \} \;=\; \{ \mathop{not}\; q, \; q \} \;\cong\; \mathbb{B}$.
+
+Then interpret the usual propositions about $p, q$ as functions of the concrete type $f : P \;\times\; Q \to \mathbb{B}$.
+
+We are going to consider various _operators_ on these functions.  Here, an operator $\mathop{F}$ is a function that takes one function $f$ into another function $\mathop{F}f$.
+
+The first couple of operators that we need to consider are logical analogues of the pair that play a founding role in the classical finite difference calculus, namely:
+
+* The _difference operator_ $\mathop{&Delta;}$, written here as $\mathop{D}$.
+
+* The _enlargement operator_ $\mathop{&Epsilon;}$, written here as $\mathop{E}$.
+
+These days, $\mathop{E}$ is more often called the _shift operator_.
+
+In order to describe the universe in which these operators operate, it is necessary to enlarge the original universe of discourse.  Starting from the initial space $X = P \;\times\; Q$, its _(first order) differential extension_ $\mathop{E}X$ is constructed according to the following specifications:
+
+$$\array{
+\arrayopts{\colalign{right center center}}
+\mathop{E}X & = & X \;\times\; \mathop{d}X
+}$$
+
 ## External links ##
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
@@ -279,3 +302,5 @@ Upload Queue ---
 [[Cactus_Graph_EfalPrQ_eq_dPldQr.jpg|Cactus Graph Ef@(P)Q = dP(dQ):pic]]
 
 [[Cactus_Graph_EfalPrlQr_eq_dP_dQ.jpg|Cactus Graph Ef@(P)(Q) = dP dQ:pic]]
+
+[[Directed_Graph_PQ_Enlargement_Conj.jpg|Directed Graph PQ Enlargement Conj:pic]]
