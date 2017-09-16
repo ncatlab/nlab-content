@@ -7,6 +7,9 @@ A plain _cogroup_ is
 
 +-- {: .query}
 But the only [[group object]] in $Set^{op}$ is empty.  Don\'t we really want to work in [[pointed set]]s?  ---Toby
+
+[[Urs Schreiber|Urs]]: ah, that might be. Please save me here, I started wrting this when I realized it took me more thinking than I could afford, time-wise.  
+
 =--
 
 
