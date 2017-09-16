@@ -1,4 +1,5 @@
 [[!redirects ∞-category]]
+[[!redirects ∞-categories]]
 [[!redirects $\infty$-category]]
 
 
