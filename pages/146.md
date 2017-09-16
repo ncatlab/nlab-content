@@ -69,49 +69,5 @@ $$
 $$
 Since this holds for all $B$, the claim follows, again using [[Yoneda lemma|Yoneda]].
 
-#Discussion about 'free cocompletion'#
-
-This section is a slightly new sort of experiment.
-Here [[John Baez]] would like to explain this remark to [[Mike Stay]]:
-
-"In the case where $C = Set$ and $S$ is [[small category|small]], an important general principle is that the category of presheaves on $S$ and [[natural transformation|natural transformations]] between them is the [[free cocompletion]] of $S$."
-
-The idea is that I'll write some stuff, then Mike will write some questions, and so on.  Other people are welcome to join but only if they _keep it simple_.  Please: _no showing off!_  In particular, Mike does not yet understand coends or Kan extensions, so part of my job is to explain these, not just use them.
-
-First, let me state the above result precisely.
-
-Given a small category $A$, let $\hat{A}$ be our short name for $Set^{A^{op}}$, the category of presheaves on $A$ and natural transformations between them.
-
-The [[Yoneda lemma]] gives an embedding $Y : A \to \hat{A}$.
-
-The result says: given any [[cocomplete category]] $B$, and any functor $F : A \to B$, there is a [[cocontinuous functor]] $\widehat{F} : \hat{A} \to B$ making this triangle commute up to natural isomorphism:
-
-$$
-  \array{
-     A &\stackrel{F}{\to}& B
-     \\
-     F\downarrow & \nearrow_{\widehat{F}}
-     \\
-     \widehat{A}
-  }
-  \,,
-$$
-
-Moreover, $\widehat{F}$ is unique up to natural isomorphism.
-
-Our job is to understand how to construct this $\widehat{F}$.
-
-[[Urs Schreiber]]: By the way, there is a pretty good pedagogical and intuitive explanation of this from page 7 on of
-
-* Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html))
-
-On page 8 this explains with lots of pictures how a presheaf is an "instruction for how to build a colimit".
-
-Then on p. 9 the universal morphism that we are looking for here is identified as the one that "takes the instructions for building a colimit and actually _builds_ it".
-
-(That text, by the way, contains various other gems. A pity that it is left unfinished.)
-
-Might it be reasonable to move this discussion of free cocompletion and Yoneda extension of functors from this entry here either to [[free cocompletion]] or to [[Yoneda extension]]?
-
 
 [[!redirects presheaves]]
