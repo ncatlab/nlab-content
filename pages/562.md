@@ -1,6 +1,6 @@
 # Idea #
 
-A **[[Alexander Grothendieck|Grothendieck]] fibration** (also called a **cartesian fibration** or just a **fibration**) is a [[functor]] $p:E\to B$ such that the fibers $E_b = p^{-1}(b)$ depend (contravariantly) pseudofunctorially on $b\in B$.  One also says that $E$ is a **fibered category** over $B$. Dually, in a (Grothendieck) **opfibration** the dependence is covariant.
+A **[[Alexander Grothendieck|Grothendieck]] fibration** (also called a **cartesian fibration** or [[fibered category]] or just a **fibration**) is a [[functor]] $p:E\to B$ such that the fibers $E_b = p^{-1}(b)$ depend (contravariantly) pseudofunctorially on $b\in B$.  One also says that $E$ is a **fibered category** over $B$. Dually, in a (Grothendieck) **opfibration** the dependence is covariant.
 
 There is an [[equivalence of categories|equivalence]] of [[strict 2-category|2-categories]] between the 2-category of fibrations over $B$ and the 2-category $[B^{op},Cat]$ of contravariant [[pseudofunctor]]s from $B$ to [[Cat]], also called _$B$-indexed categories_.  The construction of a fibration from a pseudofunctor is sometimes called the _Grothendieck construction_, although fortunately (or unfortunately) Grothendieck performed many constructions.  Less ambiguous terms are the [[category of elements]] and the [[2-limit|lax colimit]].
 
@@ -67,6 +67,8 @@ Note that such a pseudofunctor can also be represented by an opfibration $E_1\to
 There is a notion of Grothendieck fibration for [[quasi-category|quasicategories]] defined using lifting of fillers for certain simplicial spheres, used in work of Joyal and Lurie.  Applied to [[nerve|nerves]] of categories, it generalizes the original notion.
 
 There is also a notion of fibration for 2-categories that has been studied by Hermida.  See [[n-fibration]] for a general version.
+
+For [[(infinity,1)-category|(∞,1)-categories]] the notion of fibered category is modeled by the notion of [[Cartesian fibration]] of simplicial sets.
 
 # References #
 
