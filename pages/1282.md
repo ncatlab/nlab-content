@@ -279,3 +279,7 @@ But this sounds like a function talking! "You give me these arrows $f$ and $g$,"
 
 ...\[To be continued\]
 
+
+#References#
+
+* [[The Catsters]], [General Limits and Colimits](http://www.youtube.com/watch?v=g47V6qxKQNU)
