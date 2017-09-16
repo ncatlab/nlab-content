@@ -7,7 +7,7 @@ Periods appear in a number of situations in classical algebraic geometry. Specif
 
 ## References
 
-* M. Kontsevich, D. Zagier, [Periods](http://www.math.gla.ac.uk/~tl/periods.pdf)
+* M. Kontsevich, D. Zagier, [Periods](http://www.maths.gla.ac.uk/~tl/periods.pdf)
 
 * M. Kontsevich, _Operads and motives in deformation quantization_, Lett.Math.Phys. __48__ (1999) 35--72, [math.QA/9904055](http://arxiv.org/abs/math.QA/9904055)
 
