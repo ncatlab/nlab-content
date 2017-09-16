@@ -1,6 +1,6 @@
 #Definition#
 
-There is a very general notion of _injective object_s in a category $C$, and a sequence of refinements as $C$ is equipped with more [[stuff, structure, property|structure and property]], in particular for $C$ an [[abelian category]] [[additive and abelian categories|of sorts]].
+There is a very general notion of _injective objects_ in a category $C$, and a sequence of refinements as $C$ is equipped with more [[stuff, structure, property|structure and property]], in particular for $C$ an [[abelian category]] [[additive and abelian categories|or a relative]].
 
 ## General definition ##
 
@@ -60,18 +60,19 @@ The dual notion is a [[projective object]].
 
 ## In abelian categories ##
 
-More specifically, the term _injective object_ is used in the context that  $C$ is an [[abelian category]] for $J$ the class of morphisms $f : X \to Y$ such that $0 \to X \stackrel{f}{\to} Y$ is exact.
+More specifically, the term _injective object_ is used in the context that  $C$ is an [[abelian category]] for $J$ the class of morphisms $f : X \to Y$ such that $0 \to X \stackrel{f}{\to} Y$ is [[exact sequence|exact]].  (Then $J$ is simply the class of all [[monomorphism]]s, but abelian category theorists like to think about exact sequences.)
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Unless I'm very confused, in an abelian category, that is just the class of all monomorphisms.  But maybe you have some more general context in mind?
 
+_Toby_:  I think that it\'s just a cultural preference, as I wrote above.
 =--
  
-An [[object]] $I$ of $C$ is **injective** if it satisfies the following equivalent conditions:
+Then an [[object]] $I$ of $C$ is **injective** if it satisfies the following equivalent conditions:
 
 * the [[hom-functor]] $Hom_C(-, I) : C^{op} \to Set$ is [[exact functor|exact]];
 
-* for all [[morphism]]s $f : X \to Y$ such that $0 \to X \to Y$ is [[exact complex|exact]] and for all $k : X \to I$, there exists $h : Y \to I$ such that $ h\circ f = k$.
+* for all [[morphism]]s $f : X \to Y$ such that $0 \to X \to Y$ is [[exact sequence|exact]] and for all $k : X \to I$, there exists $h : Y \to I$ such that $ h\circ f = k$.
 
 $$
   \array{
@@ -140,6 +141,6 @@ $$
 
 Much of this discussion can be found in 
 
-* Kashiwara-Schapira, [[Categories and Sheaves]]
+* Kashiwara--Schapira, [[Categories and Sheaves]]
 
-The general notion of injection objects is in section 9.5, the case of injective complexes in section 14.1.
+The general notion of injective objects is in section 9.5, the case of injective complexes in section 14.1.
