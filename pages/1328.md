@@ -43,55 +43,110 @@ By the general properties of [[localization of an (infinity,1)-category]] there 
 This was worked out in 
 
 * D. Dugger, S. Hollander, D. Isaksen, _Hypercovers and simplicial presheaves_ ([pdf](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf))
+
+We now describe central results of that article.
  
 **Definition**
 
-For $X \in S$ an object in the [[site]] regarded as a simplicial presheaf and $U \in [S^{op}, SSet]$ a simplicial presheaf on $S$, a morphism $U \to X$ is a **[[hypercover]]** if it is an acyclic fibration with respect to the local injective [[model structure on simplicial presheaves]].
+For $X \in S$ an object in the [[site]] regarded as a simplicial presheaf and $Y \in [S^{op}, SSet]$ a simplicial presheaf on $S$, a morphism $Y \to X$ is a **[[hypercover]]** if it is a _local acyclic fibration_, i.e. of for all $V \in S$ and all diagrams
+
+$$
+  \array{
+    \Lambda^k[n]\otimes V &\to & Y
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta^n\otimes V &\to& 
+    X
+  }
+  \;\; respectively \;\,
+  \array{
+    \partial \Delta^n\otimes V &\to & Y
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta^n\otimes V &\to& 
+    X
+  }
+$$
+there exists a covering  [[sieve]] $\{U_i \to V\}$ of $V$ with respect to the given [[Grothendieck topology]] on $S$ such that for every $U_i \to V$ in that [[sieve]] the pullback of the abve diagram to $U$ has a lift
+
+$$
+  \array{
+    \Lambda^k[n]\otimes U_i &\to & Y
+    \\
+    \downarrow &\nearrow & \downarrow
+    \\
+    \Delta^n\otimes U_i &\to& 
+    X
+  }
+  \;\; respectively \;\,
+  \array{
+    \partial \Delta^n\otimes U_i &\to & Y
+    \\
+    \downarrow &\nearrow& \downarrow
+    \\
+    \Delta^n\otimes U_i &\to& 
+    X
+  } 
+  \,.
+$$
+
+If $S$ is a [[Verdier site]] then every such hypercover $Y \to X$ has a refinement by a hypercover which is cofibrant with respect to the projective global [[model structure on simplicial presheaves]]. We shall from now on make the assumption that the hypercovers $Y \to X$ we discuss are cofibrant in this sense. (This is true in most cases that arise in practice, see the discussion after [DHI, def. 9.1](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=29) .
+
 
 **Proposition**
 
-The objects of $Sh_{(\infty,1)}(S)$ -- i.e. the fibrant objects with respect to the local injective model structure on $[S^{op}, SSet]$ -- are precisely those objects $A$ of $PSh_{(\infty,1)}(S)$ -- i.e. the fibrant objects with respect to the global injective model structure on $[S^{op}, SSet]$ -- which **satisfy descent for all hypercovers**, i.e. those for which for all hypercover $f : U \to X$ in $[S^{op}, SSet]$ we have that
+The objects of $Sh_{(\infty,1)}(S)$ -- i.e. the fibrant objects with respect to the projective model structure on $[S^{op}, SSet]$ -- are precisely those objects $A$ of $PSh_{(\infty,1)}(S)$ -- i.e. [[Kan complex]]-valued simplicial presheaves -- which
+**satisfy descent for all split hypercovers**, i.e. those for which for all split hypercover $f : Y \to X$ in $[S^{op}, SSet]$ we have that
 
 $$
   [S^{op}, SSet](X,A) \stackrel{\simeq}{\to}
-  [S^{op}, SSet](U,A)
+  [S^{op}, SSet](Y,A)
 $$
 
 is a [[model structure on simplicial sets|weak equivalence of simplicial sets]].
 
-Proof. This is theorem, 1.2 in [DHI](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf) formulated in the light of lemma 4.4.
+Proof. This is [DHI, thm 1.3](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=3) formulated in the light of [DHI, lemma 4.4 ii)](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=9).
 
 
-By the [[co-Yoneda lemma]] every simplicial presheaf $F : S^{op} \to SSet$ which we may regard as a presheaf $F : \Delta^{op}\times S^{op} \to Set$ is isomorphic to the [[weighted limit|weighted colimit]] $F \simeq lim^\Delta F_\bullet$ with [[SSet]]-weight the canonical cosimplicial simplicial set $\Delta$, i.e. for all $X \in S$
+Notice that by the [[co-Yoneda lemma]] every simplicial presheaf $F : S^{op} \to SSet$, which we may regard as a presheaf $F : \Delta^{op}\times S^{op} \to Set$, is isomorphic to the [[weighted limit|weighted colimit]] $F \simeq lim^\Delta F_\bullet$, where $F_n$ is the Set-valued presheaf of $n$-cells of $F$ regarded as an $SSet$-valued presheaf under the inclusion $Set \hookrigtharrow SSet$, and
+where the [[SSet]]-weight is the canonical cosimplicial simplicial set $\Delta$, i.e. for all $X \in S$
 
 $$
   F : X \mapsto \int^{[n] \in \Delta} \Delta^n \times F(X)_n
   \,.
 $$
 
-In particular therefore for $A$ global-injective fibrant the descent condition reads
+In particular therefore for $A$ a [[Kan complex]]-valued presheaf the descent condition reads
 
 $$
   [S^{op}, SSet](X,A) \stackrel{\simeq}{\to}
-  [S^{op}, SSet](colim^\Delta U_\bullet,A)
+  [S^{op}, SSet](colim^\Delta Y_\bullet,A)
   \simeq
-  lim^\Delta [S^{op}, SSet](U_\bullet,A)
+  lim^\Delta [S^{op}, SSet](Y_\bullet,A)
   \,.
 $$
 
 With the shorthand notation introduced above the **descent condition** finally reads, for all global-injective fibrant simplicial presheaves $A$ and hypercovers $U \to X$:
 
 $$
-  A(X) \stackrel{\simeq}{\to} lim^\Delta A(U_\bullet)
+  A(X) \stackrel{\simeq}{\to} lim^\Delta A(Y_\bullet)
   \,.
 $$
 
-The right hand here is often denoted $Desc(U_\bullet \to X, A)$, in which case this reads
+The right hand here is often denoted $Desc(Y_\bullet \to X, A)$, in which case this reads
 
 $$
-  A(X) \stackrel{\simeq}{\to} Desc(U_\bullet \to X, A)
+  A(X) \stackrel{\simeq}{\to} Desc(Y_\bullet \to X, A)
   \,.
 $$
+
+
+
+
+
+
 
 ## formulation in terms of homotopy limit ##
 
