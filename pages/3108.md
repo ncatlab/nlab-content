@@ -13,3 +13,7 @@ We might also ask for WFS on Set (or more general categories) whose left class o
 * On any extensive category, there is a WFS whose right class is the epimorphisms if and only if there exist enough [[projective objects]] (i.e. every object admits an epimorphism from a projective one).  For if such a WFS exists, then clearly the "cofibrant" objects are the projectives, so cofibrant replacement provides a projective cover of any object.  Conversely, if there are enough projectives, then we take the left class to be the complemented monics with projective complement; a factorization of $X\to Y$ is provided by $X\to X+Y' \to Y$, where $Y'\to Y$ is a projective cover.  In particular, there is a WFS on Set whose right class is the epimorphisms if and only if [[COSHEP]] holds.  As remarked above, the "cofibrant" objects here are the projective ones, while the "fibrant" objects are the "well-supported ones;" thus we might call this the *projective model structure*.
 
 Looking at the "projective" and "injective" model structures above, by analogy with the [[model structures on chain complexes]] we might also be tempted to call (complemented mono, split epi) the *Hurewicz WFS*.
+
+[[!redirects weak factorization systems on Set]]
+[[!redirects WFS on Set]]
+[[!redirects wfs on Set]]
