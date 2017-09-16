@@ -19,7 +19,13 @@ _Toby_:  I don\'t see what\'s unstructural about that!  Although I think that we
 
 In reply to Toby's point about replacing relations by subsets as fundamental, it makes sense to me that we probe the interior of a set by how it relates to other sets, and that we find out about the elements of a set by how it relates to the one-point set. But the aim seems to be useability by everyday mathematicians. That being said, this material seems easier to learn as a first approach to foundations (for undergraduates/early postgrads) than ZF or NBG, requiring less cruft to get to proving theorems.
 
+[[Mike Shulman]]: re Toby: It feels unstructural because the element $(x,y)$ is no longer internally featureless; it has the intrinsic property of being the pair of $x$ and $y$.  I see "structural" as meaning that, among other things, isomorphic objects are indistinguishable; but with that approach, the selected product $A\times B$ is distinguishable from any other product.  (Additionally, in some metatheories it requires choice to get from one to the other.)
 
+I also feel that maybe viewing relations $A\looparrowright B$ as subsets of $A\times B$ is merely a habit ingrained in us by material set theory over the course of the 20th century, and thus something that structural set theory should try to wean us from.
+
+re David: Well, $P(A\times B)$ represents the relations from $A$ to $B$, and with separation you can cut out a set $B^A$ representing the functions.  However, although Theorem \ref{topos} would be true with this interpretation, it was intended only to be about a "meta-bijection."  I've tried to clarify it.
+
+Universes can be defined in any structural set theory in a fairly straightforward way, modulo the usual translation from "set of sets" to "family of sets."  There is some stuff from a more ETCS-like perspective at [[universe in a topos]]; I'm sure that this can be rephrased in SEAR (if you want to take a shot, feel free!).
 =--
 
 
@@ -197,18 +203,18 @@ In structural set theory, sets cannot contain other sets (or relations), so we c
 
 **Axiom 3 (power sets):** _For any set $A$, there exists a set $P A$ and a relation $\epsilon:A\looparrowright P A$ such that for any subset $S$ of $A$, there exists a unique $s\in P A$ with the property that for any $x\in A$, we have $x\in S$ iff $\epsilon(x,s)$._
 
-As in both material set theory and ETCS, many useful consequences flow from this axiom.
+As in both material set theory and ETCS, many useful consequences flow from this axiom.  We first observe that it implies a generalization of itself.
 
 +-- {: .num_theorem #topos}
 ###### Theorem
-For any sets $A$ and $B$, there is a bijective correspondence between functions $B\to P A$ and relations $B\looparrowright A$.  It follows that $Set$ is a [[topos]] (and $Rel$ is a power allegory).
+For any relation $R:B\looparrowright A$, there exists a unique function $f_R:B\to P A$ such that $R(y,x)$ if and only if $\epsilon(x,f_R(y))$.  It follows that $Set$ is a [[topos]] (and $Rel$ is a power allegory).
 =--
 +--{: .proof}
 ###### Proof
-Given $f:B\to P A$, we define $R_f:B\looparrowright A$ such that $R_f(y,x)$ holds iff $\epsilon(x,f(y))$ holds.  And given $R:B\looparrowright A$, we define $f_R(y)$ to be the unique element of $P A$ such that $\epsilon(x,f_R(y))$ holds iff $R(y,x)$ holds.  It is easy to verify that these are inverse correspondences.
+We simply define $f_R$ elementwise; for each $y$ we define $f_R(y)$ to be the unique element of $P A$ such that $\epsilon(x,f_R(y))$ holds iff $R(y,x)$ holds.  Extensionality of functions implies that it is unique.
 =--
 
-An **[[equivalence relation]]** on a set $A$ is, of course, a relation $R:A\looparrowright A$ which is reflexive, transitive, and symmetric.
+We now  construct [[quotient set]]s.  Of course, by an **[[equivalence relation]]** on a set $A$ we mean a relation $R:A\looparrowright A$ which is reflexive, transitive, and symmetric.
 
 +-- {: .num_theorem #quotients}
 ###### Theorem
