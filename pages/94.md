@@ -168,7 +168,7 @@ of the $L_\infty$-algebra $\mathfrak{g}$.
 
 One observes that this construction is bijective: every (degreewise finite dimensional) cochain [[semifree dga]] generated in positive degree comes from a (degreewise finite dimensional) $L_\infty$-algebra this way.
 
-This means that we may just as well _define_ a (degreewise finite dimensional) $L_\infty$-algebra as an object in the [[opposite category]] of (degreewise finite dimensional) [[dg-algebra]]s that are [[semifree dga]]s and generated in positive degree.
+This means that we may just as well _define_ a (degreewise finite dimensional) $L_\infty$-algebra as an object in the [[opposite category]] of (degreewise finite dimensional) commutative [[dg-algebra]]s that are [[semifree dga]]s and generated in positive degree.
 
 And this turns out to be one of the most useful perspectives on $L_\infty$-algebras.
 
