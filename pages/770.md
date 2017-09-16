@@ -1,6 +1,6 @@
 A **homotopy 1-type** is a [[topological space]] (or a [[simplicial set]] or other model for a [[homotopy type]]) all of whose [[homotopy group]]s $\pi_n$ are trivial for $n\gt 1$.  See [[homotopy n-type]] for generalities.
 
-A connected homotopy 1-type is completely determined, up to (weak) homotopy equivalence, by the one [[group]] $\pi_1$.  A connected homotopy 1-type with $\pi_1 = G$ is called an [[Eilenberg-Mac Lane space]] and written $K(G,1)$.  A general homotopy 1-type can then be written as a disjoint union of such $K(G,1)$s, and is completely determined by its [[fundamental groupoid]].
+A connected homotopy 1-type is completely determined, up to (weak) homotopy equivalence, by the one [[group]] $\pi_1$.  A connected homotopy 1-type with $\pi_1 = G$ is  an [[Eilenberg-Mac Lane space]] and is often written $K(G,1)$.  A general homotopy 1-type can then be written as a disjoint union of such $K(G,1)$s, and is completely determined by its [[fundamental groupoid]].
 
 In the other direction, for any (discrete) group $G$ one can construct its [[classifying space]] $\mathcal{B}G$, which is a $K(G,1)$.  In fact, many versions of this construction (such as the geometric realization of the simplicial nerve $nerve(G)$; see [[Dold-Kan correspondence]]) apply just as well to any [[groupoid]].  Since a groupoid essentially a disjoint union of groups, we can obtain any 1-type in this way.
 
