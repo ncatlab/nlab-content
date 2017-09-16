@@ -6,7 +6,7 @@ In other words, a $2$-crossed module _is_ the Moore complex of a $2$-truncated s
 
 ##Definition#
 
-A __$2$-crossed module__ is a normal complex of groups
+A __$2$-crossed module__ is a [[normal complex of groups]]
 $$L\stackrel{\partial_2}{\to} M \stackrel{\partial_1}{\to}N,$$ 
 together with an [[action]] of $N$ on all three groups and a mapping 
 $$\{ - ,- \} : M\times M \to L$$
