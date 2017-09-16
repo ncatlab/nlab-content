@@ -43,9 +43,13 @@ This is true for instance for
 
 
 +--{+ .query}
- One should say more: there are so many applications
- and fairly difficult theorems there; for example van    
- Osdol's  work.
+One should say more: there are so many applications
+and fairly difficult theorems there; for example van    
+Osdol's  work.
+
+[[Mike Shulman|Mike]]: Another way to think about this is: if you have a type of structure $T$ defined in terms of finite limits (such as groups, algebras, modules, etc.), then [[internal logic|internal]] $T$-models are preserved by both direct and inverse images of geometric morphisms.  Therefore, the adjunction between sheaves and presheaves of sets directly induces an adjunction between $T$-models in sheaves and presheaves.  And since finite limits of sheaves and presheaves are computed pointwise, $T$-models in the category of (pre)sheaves are the same as (pre)sheaves of $T$-models-in-$Set$.
+
+If $T$ is _not_ defined in terms of finite limits, then internal $T$-models in sheaves need not be the same as sheaves of $T$-models-in-$Set$.  My intuition would be that the former, rather than the latter, is the more interesting and important notion.  For instance, a local ring in a topos of sheaves is a sheaf of rings whose _stalks_ are local, rather than a sheaf taking values in the category of local rings, and this is usually what people care about.  But since people have studied the other version, there must be important examples of it as well?
 =--
 
 
