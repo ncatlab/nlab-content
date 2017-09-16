@@ -140,4 +140,7 @@ $CE(\mathfrak{g})$ is the graded supercommutative ring of functions on the NQ-su
 
 That looks much better, thanks. Should we delete the discussion, or how does that work?
 ---Maarten
+
+Yes, when a discussion is closed and does not contain material that is of interest independently for posteriority, we should eventually remove it. As soon as you see this here, feel free to delete the box. -- [[Urs Schreiber|Urs]]
+
 =--
