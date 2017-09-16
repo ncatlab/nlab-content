@@ -7,7 +7,7 @@ But maybe surprisingly, category theory turns out to be much more than the study
 #category theory entries#
 * [[(-1)-category]]
 * [[2-morphism]]
-* [[adjunction]]
+* [[adjoint functor]]
 * [[anafunctor]]
 * [[braided monoidal category]]
 * [[cartesian monoidal category]]
