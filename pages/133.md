@@ -52,9 +52,11 @@ There are a number of weaker axioms which are implied by the full axiom of choic
 
 * The axiom [[COSHEP]], also called the "presentation axiom," says that any set admits a surjection from a projective one (whereas full AC says that all sets are projective).  This implies CC and DD, and is moreover sufficient for the existence of [[projective resolution]]s and cofibrant replacements, as well as the usual theorems in algebra that (for example) [[Mod]] has enough projectives.  For example, see the [[folk model structure on Cat]].
 
-* The axiom of [[small violations of choice]] (SVC) asserts there is a set $S$ such that every set is a [[subquotient]] of $C\times S$ for some choice set $C$.  Intuitively, this says that the failure of AC is parametrized by a single set.  It can be regarded as a "dual" of COSHEP, since it deals with choice sets rather than projective ones, and together with COSHEP it implies full AC.
+* The [[axiom of small violations of choice]] (SVC) asserts there is a set $S$ such that every set is a [[subquotient]] of $C\times S$ for some choice set $C$.  Intuitively, this says that the failure of AC is parametrized by a single set.  It can be regarded as a "dual" of COSHEP, since it deals with choice sets rather than projective ones, it implies the existence of (at least some) [[injective resolution]]s, and together with COSHEP it implies full AC.
 
-* The assertion that $Set$ has a [[generic proof]], or equivalently that the [[free exact completion]] $Set_{ex/lex}$ of $Set$ is a [[topos]], appears also to be a weaker form of AC.  An even weaker statement is that $Set_{ex/lex}$ is [[well-powered category|well-powered]].  Finally, a still weaker statement, which is also implied by COSHEP, is that for each set $X$, the full subcategory of $Set/X$ consisting of the surjections has a [[weak multilimit|weak multi-initial-object]].
+* The [[axiom of multiple choice]] should eventually be mentioned too.
+
+* The assertion that $Set$ has a [[generic proof]], or equivalently that the [[free exact completion]] $Set_{ex/lex}$ of $Set$ is a [[topos]], appears also to be a weaker form of AC.  An even weaker statement is that $Set_{ex/lex}$ is [[well-powered category|well-powered]].  Finally, a still weaker statement, which is also implied by COSHEP, is that for each set $X$, the full subcategory of $Set/X$ consisting of the surjections has a [[weak multilimit|weak multi-initial-object]].  (Under COSHEP, it in fact has a weak initial object, namely a projective cover of $X$.)
 
 The axiom of choice can also be strengthened in a few ways.
 
