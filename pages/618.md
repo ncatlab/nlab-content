@@ -15,7 +15,7 @@ A **coverage** on a category $C$ consists of a collection of families of cotermi
 
 * If $\{f_i:U_i\to U\}_{i\in I}$ is a covering family and $g:V\to U$ is a morphism, then there exists a covering family $\{h_j:V_j\to V\}$ such that each composite $g h_j$ factors through some $f_i$.
 
-A **site** is a category equipped with a coverage.  Often sites are required to be [[small category|small]].
+A [[site]] is a category equipped with a coverage.  Often [[site]]s are required to be [[small category|small]] (see [[large site]]).
 
 
 ### Sheaves on a site ###
@@ -26,7 +26,7 @@ See [[sheaf]], of course, but it seems appropriate to briefly recall the concept
 
 If $C$ is a site, a presheaf $X:C^{op}\to Set$ is called a **sheaf** on $C$ if it is a sheaf for every covering family in $C$.  We call a site $C$ **subcanonical** if every representable functor $C(-,c):C^{op}\to Set$ is a sheaf.
 
-The category $Sh(C)$ of sheaves is a full subcategory of the category $[C^{op},Set]$ of presheaves.  If $C$ is subcanonical, then its Yoneda embedding $C\to [C^{op},Set]$ factors through $Sh(C)$.  If $C$ is small, then $Sh(C)$ is [[reflective subcategory|reflective]] in $[C^{op},Set]$ and a [[Grothendieck topos]].
+The category $Sh(C)$ of sheaves is a full [[subcategory]] of the category $[C^{op},Set]$ of presheaves.  If $C$ is subcanonical, then its [[Yoneda embedding]] $C\to [C^{op},Set]$ factors through $Sh(C)$.  If $C$ is small, then $Sh(C)$ is [[reflective subcategory|reflective]] in $[C^{op},Set]$ and a [[Grothendieck topos]].
 
 
 ### Sites with pullbacks ###
