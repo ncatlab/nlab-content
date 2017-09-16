@@ -1,4 +1,14 @@
-A **homotopy 2-type** is a [[homotopy type]] whose [[homotopy group|homotopy groups]] vanish above dimension 2.  Homotopy 2-types can be classified by various different types of algebraic data.
+A **homotopy 2-type** can be thought of as a [[homotopy type]] whose [[homotopy group|homotopy groups]] vanish above dimension 2.  
+
+Alternatively, two spaces share the same homotopy 2-type if they are linked by a chain of 2-equivalences, where a 2-equivalence is a continuous map 
+that induces isomorphisms on $\pi_i$ for $i = 0,1,2$; see the general discussion of n-equivalence in the entry on [[homotopy n-type]]. 
+
+For any nice space, $X$, you can kill its higher homotopy groups in dimensions greater than 2 by attaching cells in those dimensions, thus constructing a new space, $Y$, say, and so that the inclusion of $X$ into $Y$ is a 2-equivalence,  thus any nice space has the same homotopy 2-type as a homotopy 2-type in the first sense we mentioned.
+
+
+
+
+Homotopy 2-types can be classified by various different types of algebraic data.
 
 
 ## Homotopy 2-types as crossed modules ##
