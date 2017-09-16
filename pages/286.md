@@ -74,4 +74,6 @@ _Toby_:  I also don\'t have the time to think about it carefully; I feel pretty 
 _Harry_: Couldn't we just say: Let $f$ and $g$ be (left? right?)-composable iff $h[dom g]$ is isomorphic to $h[cod f]$ where $h$ is the homotopy category functor (assuming quasicategories, but there should be a good enough way to define this in more generality, no?).  This way, $g \circ f$ is only specified up to homotopy (that is, we know that it's in the homotopy class of $h[g] \circ h[f]$.  I think there might be a few technicalities to work out with 1-Categories, but applying the homotopy functor immediately collapses it to that case.  
 
 _Toby_:  That seems to bring us back to the idea of composing along an isomorphism between $dom g$ and $cod f$, now generalised to quasicategories.
+
+[[Mike Shulman]]: Yes, if you only know that $h[dom g]$ is isomorphic to $h[cod f]$, you still need to *choose* an isomorphism along which to compose $f$ and $g$.  Different choices will give you different "composites".
 =--
