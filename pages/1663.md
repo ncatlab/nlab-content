@@ -1,10 +1,10 @@
 ##Idea#
-[[crossed complex|Crossed complexes]] are a useful extension of crossed modules allowing not only the encoding of an algebraic model for the  [[homotopy 2-type]], but also information on the '[[complex of chains on the universal cover]]'.  The category of crossed complexes is a monoidal closed category equivalent to various types of strict infinity groupoid. 
+[[crossed complex|Crossed complexes]] are a useful extension of [[crossed module]]s allowing not only the encoding of an algebraic model for the [[homotopy 2-type]], but also information on the '[[complex of chains on the universal cover]]'.  The category of crossed complexes is a [[monoidal closed category]] equivalent to various types of [[strict infinity-groupoid]]. 
 
-To model the homotopy 3-type of a space, we can use either a [[2-crossed module]] or a [[crossed square]] (or various other algebraic models to be s=added some time in the future). A [[crossed complex]] is a 'hybrid', part [[crossed module]] but with a 'tail' which is a chain complex. What would be the 'hybrid' between a 2-crossed module and a chain complex. Are there examples that are easily constructed? What sort of information do they encode? Are they easy to analyse, understand, ... and useful?
+To model the [[homotopy 3-type]] of a space, we can use either a [[2-crossed module]] or a [[crossed square]] (or various other algebraic models to be added some time in the future). A [[crossed complex]] is a 'hybrid', part [[crossed module]] but with a 'tail' which is a [[chain complex]]. What would be the 'hybrid' between a 2-crossed module and a chain complex? Are there examples that are easily constructed? What sort of information do they encode? Are they easy to analyse, understand, ... and useful?
 
 ##Definition#
- A _2-crossed complex_ is a [[normal complex   of  groups]]
+ A __2-crossed complex__ is a [[normal complex   of  groups]]
 
  $$\ldots \to C_n \stackrel{\partial_n}{\longrightarrow} C_{n-1} \longrightarrow \ldots \longrightarrow C_0,$$
 
