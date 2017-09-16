@@ -13,6 +13,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-20
 
+* [[Zoran Škoda]]: created [[spectrum (geometry)]].
+
 Im Midwesten nichts Neues
 
 
