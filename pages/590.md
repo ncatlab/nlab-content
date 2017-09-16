@@ -1,6 +1,6 @@
 #Idea#
 
-The concept of _colimit_ is that [[duality|dual]] to a limit:
+The concept of _colimit_ is that [[duality|dual]] to a [[limit]]:
 
 a colimit of a [[diagram]] is, if it exists, the [[representable functor|co-classifying space]] for morphisms _out_ of that diagram.
 
@@ -102,5 +102,5 @@ $$
 Since this holds naturally for every $c'$, the [[Yoneda lemma|Yoneda lemma, corollary II]] on uniquenes of representing objects implies that $R (lim F) \simeq lim (R \circ F)$.
 =--
 
+
 [[!redirects colimits]]
-[[!redirects inductive limit]]
