@@ -71,7 +71,7 @@ A continuous map $\phi : X \to Y$ between simply connected space is a
 
 ## rational $n$-sphere ##
 
-The **rational $n$-sphere** $(S^n)_0$can be written as
+The **rational $n$-sphere** $(S^n)_0$ can be written as
 
 $$
   (S^n)_0  :=
