@@ -6,6 +6,9 @@ _Functions are relations._
 
 +-- {: .query}
 Types are functions?  ---TB
+
+[[JA]]:  The type of a relation arrow $f$ in a relation category $C$ is the function $\mathop{dom}_{(-)} f : \mathbb{N}^+ \to \mathop{Obj}(C)$, in other words, its sequence of domains.
+
 =--
 
 ## Idea ##
@@ -30,7 +33,7 @@ What Thing (3) would correspond to a Relational Category as a Metagraph correspo
 
 * Let's call Thing 3 a _Relational Metagraph_.
 
-So it seems that a __relational metagraph__ ought to consist of _objects_ $a, b, c, \ldots$, _relational arrows_ $p, q, r, \ldots$, and a number of operations $\mathop{dom}_j$ that assign to each relational arrow $p$ an object $\mathop{dom}_j p$ for each $j$ in the arity of $p$.
+So it seems that a __relational metagraph__ ought to consist of _objects_ $a, b, c, \ldots$, _relational arrows_ $f, g, h, \ldots$, and a number of operations $\mathop{dom}_j$ that assign to each relational arrow $f$ an object $\mathop{dom}_j f$ for each $j$ in the arity of $f$.
 
 _Et sic deinceps &hellip;_
 
