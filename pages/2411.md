@@ -1,5 +1,4 @@
 
-
 > this is a sub-entry of [[A Survey of Elliptic Cohomology]], see there for background and context.
 
 **definition**
@@ -39,7 +38,7 @@ $$
 acts on field theories $E_X$ over $X$ 
 
 $$
-  $E_X \mapst E$
+  $E_X \mapsto E$
 $$
 
 by the assignment
