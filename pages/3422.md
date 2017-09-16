@@ -55,4 +55,43 @@ The correspondence between $(\infty,1)$-categorical [[cartesian fibrations]] $E 
 * [[model structure for coCartesian fibrations]]
 
 
+## Relation beween the model structures
+
++-- {: .un_theorem}
+###### Theorem (HTT, section 3.1.5)
+
+Let $S$ be a [[simplicial set]].
+
+There is a sequence of [[Quillen adjunction]]s
+
+$$
+  (sSet/S)_{Joyal}
+  \stackrel{\overset{}{\to}}{\overset{}{\leftarrow}}
+  sSet^+/S
+  \stackrel{\overset{}{\to}}{\overset{}{\leftarrow}}
+  (sSet^+/S)^{loc}
+  \stackrel{\overset{}{\to}}{\overset{}{\leftarrow}}
+  (sSet/S)_{rfib}
+  \stackrel{\overset{}{\to}}{\overset{}{\leftarrow}}
+  (sSet/S)_{Quillen}
+  \,.
+$$
+
+Where from left to right we have
+
+1. [[model structure on an overcategory]] for the Joyal [[model structure for quasi-categories]];
+
+1. [[model structure for Cartesian fibrations]];
+
+1. some localizaton of the model structure for Cartesian fibrations;
+
+1. [[model structure for right fibrations]] 
+
+1. [[model structure on an overcategory]] for the Quillen [[model structure on simplicial sets]];
+
+The first and third Quillen adjunction here is a [[Quillen equivalence]] if $S$ is a [[Kan complex]].
+
+=--
+
+
 [[!redirects (∞,1)-Grothendieck construction]]
