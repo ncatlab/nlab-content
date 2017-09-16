@@ -13,8 +13,25 @@ $$
   \,.
 $$
 
+#Remarks#
+
+* With the [[smash product of spectra]] $Sp(Top_*)$ becomes a [[symmetric monoidal (infinity,1)-category]].
+
+  * an [[algebra in an (infinity,1)-category|algebra object]] in $Sp(Top_*)$ with respect to this monoidal structure is an [[associative ring spectrum]];
+
+  * an [[commutative algebra in an (infinity,1)-category|algebra object]] in $Sp(Top_*)$ with respect to this monoidal structure is a [[commutative ring spectrum]];
+
+
 #References#
 
-section 9 of 
+the stable $(\infty,1)$-category of spectra is described in section 9 of 
 
-* [[Jacob Lurie]], [[Stable Infinity-Categories]]
+* [[Jacob Lurie]], [[Stable Infinity-Categories]] .
+
+It monoidal structure is described in section 4.2
+
+* [[Jacob Lurie]], [[higher algebra|Noncommutative algebra]].
+
+That this is a symmetric monoidal structure is described in section  6 of
+
+* [[Jacob Lurie]], [[higher algebra|Commutative algebra]].
