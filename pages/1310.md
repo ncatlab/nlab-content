@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
+
 This entry discusses the conceptual notion of [[representations]] of [[Lie ∞-algebroids]] and their realization in terms of
 **modules for [[differential graded algebras]]**
 and of modules of [[differential graded coalgebras]]. 
