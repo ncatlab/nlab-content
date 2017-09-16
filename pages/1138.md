@@ -1,7 +1,23 @@
+#Idea#
+
+Given a morphism $f : X \to Y$ of [[site]]s, the _inverse image_ operation is a functor
+
+$$
+  f^{-1} : Sh(Y) \to Sh(X)
+$$
+
+that may be interpreted as encoding the idea of _pulling back along $f$_ the "bundle of wich the sheaf is the sheaf of sections".
+
+In the case that $X$ and $Y$ are (the [[site]]s corresponding to) [[topological space]]s this interpretation becomes literally true: the inverse image of a sheaf on topological spaces is the pullback operation on the corresponding [[etale space]]s.
+
 #Definition#
 
-Given a [[site|morphisms of sites]] $f : X \to Y$ coming from a [[functor]] $f^t : S_Y \to S_X$ of the underlying [[category|categories]], the [[direct image]] operation on [[presheaf|presheaves]] and [[sheaf|sheaves]] 
-$F \mapsto f_* F$
+Given a [[site|morphisms of sites]] $f : X \to Y$ coming from a [[functor]] $f^t : S_Y \to S_X$ of the underlying [[category|categories]].
+
+
+## on presheaves ##
+
+The [[direct image]] operation $f_* : PSh(X) \to PSh(Y)$ on [[presheaf|presheaves]] 
 is just precomposition with $f^t$
 
 $$
@@ -31,26 +47,151 @@ $$
 
 of a [[presheaf]] $F$ along $f^t$. 
 
-The **inverse image** operation on [[sheaf|sheaves]] is the 
-[[adjoint functor|left adjoint]] to the direct image operation on sheaves. This is _not_ simply the left Kan extension of the sheaf regarded as a presheaf, but the Kan extension followed by [[sheafification]] $\bar{(-)} : PSh(X) \to Sh(X)$:
 
+
+## on sheaves ##
+
+The inverse image operation on the [[category of sheaves]] $Sh(Y) \subset PSh(Y)$ inside the category of presheaves involves [[Kan extension]] followed by [[sheafification]].
+
+First notice that
+
++-- {: .un_lemma}
+###### Lemma
+
+The [[direct image]] operation $f_* : PSh(X) \to PSh(Y)$ restricts to a functor $f_* : Sh(X) \to Sh(Y)$ that sends sheaves to sheaves.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The direct image $f_* : PSh(X) \to PSh(Y)$ is more generally characterized by 
+$$
+  Hom_{PSh(Y)}(A, f_* F)
+  \simeq
+  Hom_{PSh(X)}(\hat {f^t} A, F)
+$$
+where $\hat f^t$ is the [[Yoneda extension]] of $Y \circ f^t : Y \to PSh(X)$ to a functor $\hat {f^t} : PSh(X) \to PSh(Y)$, because using the [[co-Yoneda lemma]] and the colim expression for the [[Yoneda extension]] we have
+
+$$
+ \begin{aligned}
+   Hom(A, f_* F) & \simeq 
+   Hom(colim_{Y(U) \to A}) U, f_* F)
+   \\
+   & \simeq
+    \lim_{Y(U) \to A} Hom(U, f_* F)
+   \\
+   & \simeq
+    \lim_{Y(U) \to A} F(f^t(U))
+   \\
+   & \simeq
+    Hom( colim_{Y(U) \to A} f^t(U), F )
+   \\
+   & \simeq Hom(\hat {f^t}(A), F)
+   \,.
+ \end{aligned}
+$$
+
+Let now $\pi : B \to A$ be a [[local isomorphism]] in $PSh(Y)$.  By definition of morphism of [[site]]s we have that 
+$$
+  \hat {f^t}(\pi) : \hat{f^t}(B) \to \hat{f^t}(A)
+$$
+is a [[local isomorphism]] in $X$. From this and the above we obtain the isomorphism
+
+$$
+  Hom(B, f_* F)
+  \simeq
+  Hom(\hat {f^t}(B), F)
+  \stackrel{\simeq}{\to}
+  Hom(\hat {f^t}(A), F)  
+  \simeq
+  Hom(A, f_* F)
+  \,,
+$$
+where the isomorphism in the middle is due to the fact that
+$F$ is a sheaf on $X$. Since this holds for all local isomorphism $\pi : B \to A$ in $PSh(Y)$, $f_* F$ is a sheaf on $Y$.
+
+=--
+
+
++-- {: .un_defn}
+###### Definition
+
+For $f : X \to Y$ a morphism of [[site]]s, the 
+**inverse image of sheaves** is the functor
 $$
   f^{-1} : Sh(Y) \to Sh(X)
 $$
+defined as the inverse image on presheaves followed
+by [[sheafification]]
 $$
-  f^{-1} : Sh(Y) \hookrightarrow PSh(Y)
-  \stackrel{f^{-1}}{\to}
-  PSh(X)
-  \stackrel{\bar {(-)}}{\to}
+  f^{-1} : Sh(Y) \hookrightarrow PSh(Y) \stackrel{Lan_{f^t}}{\to} PSh(X) \stackrel{\bar{-}}{\to}
   Sh(X)
   \,.
 $$
 
-See [[restriction and extension of sheaves]].
+=--
 
-More generally, the left adjoint part of any [[geometric morphism]] is called its **inverse image functor**.
++-- {: .un_proposition}
+###### Proposition
+
+The inverse image $f^{-1} : Sh(Y) \to Sh(X)$
+of sheaves has the following properties:
+
+* it is [[left adjoint]] to the [[direct image]]
+  $(f^{-1} \vdashf_*)$;
+
+* it therefore commutes with small [[colimit]]s but is in addition left [[exact functor|exact]] in that it commutes with finite [[limit]]s.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The left-adjointness is obtained by the following computation, for any
+two $F \in Sh(X)$ and $G \in Sh(Y)$ and using the above facts as well as the fact that [[sheafification]] $\bar {(-)} : PSh(X) \to Sh(X)$ is [[left adjoint]] to the inclusion $Sh(X) \hookrightarriw PSh(X)$:
+
+$$
+  \begin{aligned}
+    Hom_{Sh(Y)}(G, f_*F)
+     & \simeq
+    Hom_{PSh(Y)}(G, f_* F)
+     \\
+     & \simeq
+       Hom_{PSh(X)}(Lan_{f^t} G, F)
+     \\
+     & \simeq
+      Hom_{Sh(X)}( \bar{(Lan_{f^t} G)}, F)
+     \\
+     & =:
+      Hom_{Sh(X)}(f^{-1}G, F)
+  \end{aligned}
+  \,.
+$$
+
+The proof of left-exactness requires more technology and work.
+
+=--
+
+
+## on sheaves on topological spaces ##
+
+In the case where the [[site]]s $X$ and $Y$ in question are given by [[category of open subsets|categories of open subsets]] of [[topological space]]s denoted, by a abuse of symbols, also by $X$ and $Y$, one can identify sheaves with their corresponding [[etale space]]s over $X$ and $Y$. In that case the inverse image is simply obtained by the pullback along the continuous map $f : X \to Y$ of the corresponding [[etale space]]s.
+
 
 #Remarks#
+
+* See also [[restriction and extension of sheaves]].
+
+* It follows that direct image and inverse image of
+sheaves define a [[geometric morphism]] 
+$f : Sh(X) \to Sh(Y)$
+of [[sheaf]] [[topos|topoi]]
+
+* Generally, therefore, the left adjoint partner in 
+the adjoint pair defining a [[geometric morphism]]
+of [[topos|topoi]] is
+called the **inverse image functor**.
 
 * The other adjoint to the [[direct image]], the [[adjoint functor|right adjoint]], is (if it exists) the [[restriction and extension of sheaves|extension]] of sheaves.
 
@@ -89,3 +230,14 @@ $$
 
 This approximates the possibly non-open subset $f^{-1}(V)$ by all open subsets $U$  _containing_ it.
 
+
+
+#References#
+
+for the general description in terms of Kan extension and sheafification see section 17.5 of
+
+* Kashiwara-Schapira, [[Categories and Sheaves]]
+
+For the description in terms of pullback of etale spaces see secton VII.1 of
+
+MacLane-Moerdijk, [[Sheaves in Geometry and Logic]]
