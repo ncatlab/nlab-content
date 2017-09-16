@@ -102,3 +102,8 @@ Bunke and Schick in a series of articles developed a model of differential K-the
 
 
 (...)
+
+
+# Examples #
+
+* In [[gauge theory]] gauge fields are modeled by cocycles in [[differential cohomology]]. The field modeled by differential K-theory is the [[RR-field]]. 
