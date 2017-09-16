@@ -49,6 +49,9 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 
 
+## 2009-09-23
+
+
 ## 2009-09-22
 
 * [[Urs Schreiber]]: added automatic TOCs to [[limit]], [[adjoint functor]], [[Kan extension]], [[cohomology]], [[FQFT]], [[category theory]], [[descent]] and maybe some other entries
