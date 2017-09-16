@@ -24,7 +24,7 @@ As before, let $C$ be a category and $X,Y\in C$.
 
 * More generally, a morphism $Y \to A$ is __exponentiable__ when it is exponentiable in the [[over category]] $C/A$.  Then $C$ is __[[locally cartesian closed category|locally cartesian closed]]__ if every morphism is exponentiable.
 
-* Conversely, if $X$ is such that $X^Y$ exists for all $Y$, we say that $X$ is __exponentiating__.  Again, $C$ is __cartesian closed__ if it has a terminal object and every object is exponentiating.
+* Conversely, if $X$ is such that $X^Y$ exists for all $Y$, we say that $X$ is __exponentiating__.  Again, $C$ is __cartesian closed__ if it has a terminal object and every object is exponentiating.  (The reader should beware that some authors say "exponentiable" for what is here called "exponentiating.")
 
 Dually, a __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^{op}$.  A __[[cocartesian coclosed category]]__ has all of these (and an [[initial object]]).
 
@@ -81,3 +81,7 @@ Now suppose that $C$ is a [[distributive category]].  Then we have these isomorp
 Here $Y + Z$ is a [[coproduct]] of $Y$ and $Z$, while $0$ is an [[initial object]].  Thus in a distributive category, the exponentiable objects are closed under coproducts.
 
 Note that any cartesian closed category with finite coproducts must be distributive, so all of the isomorphisms above hold in any closed [[2-rig]] (such as [[Set]], of course).
+
+[[!redirects exponential objects]]
+[[!redirects exponentiable object]]
+[[!redirects exponentiable objects]]
