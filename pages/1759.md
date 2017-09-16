@@ -48,7 +48,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Andrew Stacey]] was pleasantly pleased to stumble across [[Tall-Wraith monoid]]s and made a few minor alterations (mainly style, and added a couple of references).  I'll shove this question over on the [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=49) as well, but should we have a lab convention on fonts for categories, functors, objects, and the like?
 
-   *[[John Baez]]: especially given the large and opinionated group of contributors, we probably shouldn't fuss over fonts too much, but I'm in favor of the KISS philosophy: "keep it simple, sweetheart".  Namely: use capital letters for big things, small letters for little things, and Greek letters when you run out of ordinary letters, or want to show off your erudition.
+   * [[John Baez]]: especially given the large and opinionated group of contributors, we probably shouldn't fuss over fonts too much, but I'm in favor of the KISS philosophy: "keep it simple, sweetheart".  Namely: use capital letters for big things, small letters for little things, and Greek letters when you run out of ordinary letters, or want to show off your erudition.
 
 * [[David Corfield]]
 
