@@ -12,6 +12,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-05-24 #
+
+* [[Urs Schreiber|Urs]]:
+
+  * created [[A Survey of Cohomological Physics]]
+
+  * added cross-links to [[monoidal category]] and [[manifold]]
+
 # 2009-05-23 #
 
 *  [[Toby Bartels]]:
