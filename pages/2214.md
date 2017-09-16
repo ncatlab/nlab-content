@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-09
 
+* [[Jon Awbrey]]: Piecewise discussion at [[boolean domain]], but it will be later before I can get to the rest of the pieces.
+
 *  [[Toby Bartels]]:  Discussions at [[center]], [[evil]], [[graph]], [[boolean domain]], [[limits and colimits by example]], [[semicartesian monoidal category]].
 
 * [[Mike Shulman]]: 
