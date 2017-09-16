@@ -103,6 +103,8 @@ Notice that in the graded commutative algebra $A$ every odd element $\theta$ aut
 
 # Examples #
 
+For a list of examples see also [[Models for Smooth Infinitesimal Analysis]].
+
 ## Dubuc topos ##
 
 ## Stein topos ##
