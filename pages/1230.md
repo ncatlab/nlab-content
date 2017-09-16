@@ -14,6 +14,14 @@ The level of strictness in Hermida's definition is a bit puzzling to me.  A 2-fi
 who are the main consumers of
 Grothendieck's definition, and have direct and inverse image functors all over the place. Thus the terminology is homotopically biased, at least in social sense. I am a bit puzzled about the statement of semi-strictness you say; I used this definition in a number of examples of mine and it was always working' maybe my perception of what should be a 2-pseudofunctor is not good as well. But one should also compare with Gray's universal property in the formal/adjointness book. I think fibered strict n-category is better than strict fibered n-category. The thing is that sometimes in expositions people use fibered category actually for pseudofunctor, then one would think that strict
 in the sense of functor. There is also a curiousity (used by Thomason) that Grothendieck construction works for lax functors in fact. Gorghendieck construction for n=2 has been studied by hermida (though he has just few words on it) so I doubt he woudl not have the correspondence with teh coprrect generality of 2-pseduofunctors. Igro and I were doing some ground work on the 2-Groth constr but we did not do complete equivalence of 2-categories, just some other aspects, so i can not claim myself. 
+
+_Mike_: I don't always use the nLab terminology in my own work either; I tend to be more Australian and say "2-category" for the strict notion.  But I've been convinced that it is valuable for the nLab to have a consistent terminological convention, and for $n\gt 2$ the weak notions are (most of us believe) so much more important than the strict ones that they deserve the unadorned name.
+
+And I agree that "fibered strict $n$-category" is better than "strict fibered $n$-category," although perhaps "strictly fibered strict $n$-category" would be even better in view of the relative strictness of Hermida's definition.  If I am remembering correctly, I think that Hermida's 2-fibrations over a 2-category $B$ correspond to pseudofunctors from $B^{coop}$ into $Str2Cat$, the 2-category of strict 2-categories, strict 2-functors, and strict 2-natural transformations.  A fully weak version would of course land in the 3-category of 2-categories, (weak) 2-functors, (pseudo) natural transformations, and modifications.
+
+I disagree that algebraic geometers are the main consumers of fibrations.  They are used plenty by category theorists as well, and people working in related fields such as categorical topology.  (And they _should_ be used by more topologists, an oversight I am working to correct.)
+
+Yes, actually the category of elements (aka lax colimit, aka one of Grothendieck's constructions) works for lax functors landing in $Prof$ and not just in $Cat$, and that way it recaptures all functors, not just fibrations.  Probably there is a similar version of this in the $n$-case.
 =--
 
 category: redirect
