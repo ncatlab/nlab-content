@@ -24,36 +24,36 @@ As usual, $Ker \partial / Im \partial$ is called the [[homology]] of $(V,\partia
 
 
 
-Let $(V,\partial)$, $(V^\prime,\partial^\prime)$ be two pre-dgvs
+Let $(V,\partial)$, $(V',\partial')$ be two pre-dgvs
 
-$$Hom(V,V^\prime) = \bigoplus_{p\in \mathbb{Z}}Hom_p(V,V^\prime)$$
+$$Hom(V,V') = \bigoplus_{p\in \mathbb{Z}}Hom_p(V,V')$$
 
 is a pre-dgvs with differential
 
-$$Df = \partial^\prime\circ f - (-1)^{|f|}f\circ\partial$$
+$$Df = \partial'\circ f - (-1)^{|f|}f\circ\partial$$
 
 for $f$ homogeneous.
 
-A degree $r$ linear morphism $f$ is _compatible with the differentials_ if it is a cycle for this differential $D$, i.e., $Df = 0$ or $\partial^\prime f = (-1)^{r}f\partial.$
+A degree $r$ linear morphism $f$ is _compatible with the differentials_ if it is a cycle for this differential $D$, i.e., $Df = 0$ or $\partial' f = (-1)^{r}f\partial.$
 
 A **morphism between pre-dgvs** is a linear morphism of degree 0 that is compatible with the differentials:
 
-$$f: (V,\partial)\to (V^\prime,\partial^\prime).$$ 
+$$f: (V,\partial)\to (V',\partial').$$ 
 
-This induces $H(f): H(V,\partial)\to H(V^\prime,\partial^\prime).$
+This induces $H(f): H(V,\partial)\to H(V',\partial').$
 
 We get a category $pre -  DGVS$ and $H$ is a functor $H : pre\! -\! DGVS\to pre\!-\! GVS$.
 
 
 **Weak equivalences or [[quasi-isomorphism|quasi-isomorphisms]]**
 
-If $f: (V,\partial)\to (V^\prime,\partial^\prime)$ in {\sf pre-DGVS}, then $f$ is a **weak equivalence** or [[quasi-isomorphism]] if $H(f)$ is an isomorphism.  In this case we write $f: (V,\partial)\stackrel{\simeq}{\to} (V^\prime,\partial^\prime)$
+If $f: (V,\partial)\to (V',\partial')$ in {\sf pre-DGVS}, then $f$ is a **weak equivalence** or [[quasi-isomorphism]] if $H(f)$ is an isomorphism.  In this case we write $f: (V,\partial)\stackrel{\simeq}{\to} (V',\partial')$
 
 
 
 **Homotopies**
 
-Let  $f,f^\prime : (V,\partial)\to (V^\prime,\partial^\prime)$ be two morphisms in $pre-DGVS$. We say $f$ and $f^\prime$ are **homotopic** denoted $f\sim f^\prime$ if $f-f^\prime$ is a boundary in $(Hom(V,V^\prime),D)$, i.e., there is some $h : V \to V^\prime$ of degree +1 such that $f-f^\prime = Dh = \partial^\prime h + h\partial$.
+Let  $f,f' : (V,\partial)\to (V',\partial')$ be two morphisms in $pre-DGVS$. We say $f$ and $f'$ are **homotopic** denoted $f\sim f'$ if $f-f'$ is a boundary in $(Hom(V,V'),D)$, i.e., there is some $h : V \to V'$ of degree +1 such that $f-f' = Dh = \partial' h + h\partial$.
 
 **Contractable and Acyclic DGVSs**
 
@@ -75,12 +75,12 @@ $$\partial s^rv = (-1)^rs^r(\partial v).$$
 
 **Tensor product of (pre-) dgvs**
 
-If $(V,\partial)$, and $(V^\prime,\partial^\prime)$ are pre-dgvs, then we give the tensor product, $V\otimes V^\prime$, the differential given on generators by
+If $(V,\partial)$, and $(V',\partial')$ are pre-dgvs, then we give the tensor product, $V\otimes V'$, the differential given on generators by
 
-$$ \partial(v\otimes v^\prime) = (\partial v) \otimes v^\prime + (-1)^{|v|}v \otimes (\partial^\prime v^\prime ),$$
+$$ \partial(v\otimes v') = (\partial v) \otimes v' + (-1)^{|v|}v \otimes (\partial' v' ),$$
 
-and we denote the result by $(V,\partial)\otimes (V^\prime, \partial^\prime)$. We have ([[Kunneth Theorem]])
-$$H((V,\partial)\otimes (V^\prime, \partial^\prime)) \cong H(V,\partial)\otimes H(V^\prime, \partial^\prime).$$
+and we denote the result by $(V,\partial)\otimes (V', \partial')$. We have ([[Kunneth Theorem]])
+$$H((V,\partial)\otimes (V', \partial')) \cong H(V,\partial)\otimes H(V', \partial').$$
 
 
 **Duals of (pre-)dgvs**
