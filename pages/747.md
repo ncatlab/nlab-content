@@ -400,7 +400,7 @@ In the _projective_ [[local model structure on simplicial presheaves|local model
 +-- {: .proof}
 ###### Proof
 
-> [[Urs Schreiber]]: this is apparently stated explicitly at least in some publication by Dan Dugger, but I am still trying to track that down. Meanwhile, here is the proof that I come up with.
+> [[Urs Schreiber]]: here is a supposed proof that I come up with, but see the remark below
 
 Notice that cofibrant objects in $SPSh(C)_{proj}^{loc}$ are those objects such that maps out of them lift through all objectwise acyclic Kan fibrations.
 In particular all [[representable functor|representable]]s are cofibrant in $SPSh(C)^{loc}_{proj}$.
@@ -516,10 +516,16 @@ The way these lifts are constructed they do satisfy the naturality condition tha
 =--
 
 
+See also the proof of lemma 2.7 in section 9 of
+
+* [[Daniel Dugger]], _Universal homotopy theories_  ([pdf](http://hopf.math.purdue.edu/Dugger/dduniv.pdf))
 
 
++-- {: .query}
 
+[[Urs Schreiber]]: hm, there Dugger has that extra "free degeneracies"-condition. Did I miss that in the above? In any case, this condition is satisfied for [[Cech nerve]]s, which is all that the remark in the section above really needs. But I need to sort this out here.
 
+=--
 
 
 
@@ -547,17 +553,17 @@ See also
 
 A detailed study of [[descent]] for simplicial presheaves is given in
 
-* **DHI04** Daniel Dugger, Sharon Hollander, Daniel C. Isaksen, _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
+* **DHI04** [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
 
-* **DI02** D. Dugger, D. Isaksen, _Weak equivalences of simplicial presheaves_ ([arXiv](http://arxiv.org/abs/math/0205025))
+* **DI02** [[Daniel Dugger]], [[Daniel Isaksen]], _Weak equivalences of simplicial presheaves_ ([arXiv](http://arxiv.org/abs/math/0205025))
 
 A survey of many of the model structures together with a treatment of the left local projective one is in
 
-* Benjamin Blander, _Local projective model structure on simplicial presheaves_ ([pdf](http://www.math.uiuc.edu/K-theory/0462/combination2.pdf))
+* [[Benjamin Blander]], _Local projective model structure on simplicial presheaves_ ([pdf](http://www.math.uiuc.edu/K-theory/0462/combination2.pdf))
 
 See also
 
-* Daniel Isaksen, _Flasque model structure for simplicial presheaves_  ([web](http://www.math.uiuc.edu/K-theory/0679/), [pdf](http://www.math.uiuc.edu/K-theory/0679/flasque.pdf))
+* [[Daniel Isaksen]], _Flasque model structure for simplicial presheaves_  ([web](http://www.math.uiuc.edu/K-theory/0679/), [pdf](http://www.math.uiuc.edu/K-theory/0679/flasque.pdf))
 
 The characterization of the model category of simplicial presheaves as the canonical [[presentable (infinity,1)-category|presentation]] of the (hypercompletion of) the [[(∞,1)-category of (∞,1)-sheaves]] on a site is in
 
@@ -567,7 +573,7 @@ The characterization of the model category of simplicial presheaves as the canon
 
 Last not least, it is noteworthy that the idea of localizing simplicial sheaves at stalkwise weak equivalences is already described and applied in 
 
-* Kenneth Brown, [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaff cohomology]],
+* [[Kenneth Brown]], [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf cohomology]],
 
 using instead of a full [[model category]] structure the more lightweight one of a Brown [[category of fibrant objects]].
 
