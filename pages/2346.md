@@ -107,12 +107,9 @@ For the case of a relation from $X$ to $Y$ without $X = Y$, see under the cograp
 The __graph__ of a [[relation]] of arbitrary arity is similarly a subset of an arbitrary [[cartesian product]]; see [[relation theory]] for more on this.
 
 
-
 ## Cograph of a function ##
 
-[[Bill Lawvere]] has also considered the __cograph__ of a function, which is dually a [[quotient set]] of the [[disjoint union]] $X \uplus Y$; $a$ is identified with $b$ if $f(a) = b$ (and additional identifications may follow).  
-
-By regarding again a set as a [[0-category]], this is a special case of the notion of [[cograph of a functor]]
+[[Bill Lawvere]] has also considered the __cograph__ of a function, which is dually a [[quotient set]] of the [[disjoint union]] $X \uplus Y$; $a$ is identified with $b$ if $f(a) = b$ (and additional identifications may follow).  However it may make more sense to define the cograph to be a quotient [[poset]] of (the discrete poset) $X \uplus Y$; we declare $a \lt b$ if $f(a) = b$ (and *no* additional relationships follow).  By regarding again a set as a [[0-category]], the latter notion of cograph is a special case of the notion of [[cograph of a functor]], as follows:
 
 A function $f : X \to Y$ determins a [[functor]] $\bar f : I \to Set$ from the [[interval category]] $I = \mathbf{2} = \{a \to b\}$ to [[Set]] by setting $\bar f(a) = X$, $\bar f(b) = Y$ and $\bar f(a \to b) = f$.
 
@@ -141,11 +138,13 @@ $$
   \,.
 $$
 
-The cograph of $f$ in the sense of Lawvere is the set of connected components of this category, i.e. $\pi_0(cograph(f))$.
+The cograph of $f$ in the sense of Lawvere is the set of [[connected component]]s of this category, i.e. $\pi_0(cograph(f))$.
+
 
 ### Relation to graph theory ###
 
 The notion of cograph of a function may be even more related to the sense of [[graph]] in graph theory; although the identifications are not done there, the cograph draws a picture in which any relation (or [[multispan]]) of any arity becomes a directed graph (or directed multigraph) whose vertex set is the disjoint union of the relation\'s domains.  When the vertex set is broken up into a disjoint union in this way, graph theorists study this as _multipartite graphs_; in particular, directed bipartite graphs with vertex set broken up as $X + Y$ correspond precisely to binary relations from $X$ to $Y$.
+
 
 # Generalization #
 
