@@ -63,6 +63,59 @@ I guess, my plan of attack now is to see how we can define functor via cograph. 
 
 [[Todd Trimble|Todd]]: Yes, that's true, the cograph is fine. I thought that Eric had wanted a $C$ which would uniformly work, independently of which functor $F$ was being considered. Instead, we construct the cograph $C$ in terms of $F$, and everything is for the best in this best of all possible worlds. And we get the picture Eric was aiming for. 
 
+[[Eric]]: Neat. Now, if we (I'll try, but I'm not confident and wouldn't mind if someone else did it!) can write down a succinct definition of functor in terms of cographs with a picture like the one above (if not that one), we could add it to [[functor]].
+
+[[Eric]]: By the way, here is something I wrote on my personal web [[ericforgy:Natural Transformation]]:
+
+***
+
+##Definition##
+Given small categories $A$ and $B$ define their **disjoint union** $A\sqcup B$ to be the category with
+$$Obj(A\sqcup B) = Obj(A)\sqcup Obj(B)$$
+and
+$$Hom_{A\sqcup B}(x,y) = 
+  \left\{
+    \begin{aligned}
+      Hom_A(x,y) & if x,y \in A \\
+      Hom_B(x,y) & if x,y \in B \\
+      \emptyset & otherwise
+    \end{aligned}
+  \right.
+$$
+There are two **inclusion maps**
+$$i_A:A\to A\sqcup B\quad\text{and}\quad i_B:B\to A\sqcup B$$
+defined for any morphism $f:a\to b$ in $A$ and morphism $g:c\to d$ in $B$ by
+$$i_A(a) = a\sqcup\emptyset,\quad i_A(b) = b\sqcup\emptyset,\quad\text{and}\quad i_A(f) = f\sqcup\emptyset$$
+and
+$$i_B(c) = \emptyset\sqcup\c,\quad i_B(d) = \emptyset\sqcup d,\quad\text{and}\quad i_B(g) = \emptyset\sqcup g.$$
+
+***
+
+I intentionally did not use the word "functor" above even though that is really the [[coproduct]] in [[Cat]]. The reason is that I want to use this disjoint union to _define_ a functor. The following is a possible starting point:
+
+##Definition##
+Given categories $A$, $B$ and inclusion maps $i_A:A\to A\sqcup B$, $i_B:B\to A\sqcup B$, a **functor** is a map $F:A\to B$ that assigns morphisms $\alpha_x:i_A(x)\to i_B\circ F(x)$ and $\alpha_y:i_A(y)\to i_B\circ F(y)$ for any morphism $f:x\to y$ in $A$ such that the following diagram commutes:
+$$ 
+  \array{ 
+    i_A(x)
+    & 
+    \stackrel{i_A(f)}{\to} 
+    & 
+    i_A(y) 
+    \\ 
+    \mathllap{\scriptsize{\alpha_x}}\downarrow 
+    && 
+    \downarrow\mathrlap{\scriptsize{\alpha_y}} 
+    \\ i_B\circ F(x)
+    & 
+    \stackrel{i_B\circ F(f)}{\to} & i_B\circ F(y) 
+  }
+$$
+
+<img src="http://ncatlab.org/nlab/files/alt_functor.jpg" width = "250"/>
+
+***
+
 ##Discussion##
 
 [[Eric]]: Motivated by some discussion over at [[natural transformation]], I was wondering if the following alternative definition of functor holds water:
