@@ -34,3 +34,5 @@ Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict
 ***
 
 If we take this down from "3" to "0", then I don't see the difference between a 0-category and a discrete category. - [[Eric Forgy|Eric]]
+
+It all depends on what you mean by "different."  Note that the page [[3-category]] admits (although not prominently enough, IMHO) that its definition "may give a concept more general than your preferred definition of 3-category, but it will be equivalent."  If I say that a discrete category is, _morally_, just a set, will that answer your question?  -Mike
