@@ -7,7 +7,7 @@ A subset $F$ of a [[poset]] $L$ is called a __filter__ if it is upward-closed an
 1. for some $A$ in $L$, $A \in F$;
 1. if $A \in F$ and $B \in F$, then for some $C \in F$, $C \leq A$ and $C \leq B$.
 
-Somtimes the term 'filter' is used for an [[upper set]], that is any set satisfying axiom (1).  (Ultimately this connects with the use of 'ideal' in [[monoid]] theory.)
+Sometimes the term 'filter' is used for an [[upper set]], that is any set satisfying axiom (1).  (Ultimately this connects with the use of 'ideal' in [[monoid]] theory.)
 
 In a [[lattice]], one can use these alternative axioms:
 1. If $A \in F$ and $B$ in $L$, then $A \vee B \in F$;
@@ -28,13 +28,7 @@ Filters are often assumed to be proper by default in analysis and topology, wher
 
 If the complement of a filter is an ideal, then we say that the filter is __prime__ (and equivalently that the ideal is prime).  A prime filter is necessarily proper; a proper filter in a lattice is prime iff, whenever $A \cup B \in F$, either $A \in F$ or $B \in F$.  In other words, $F: L \to TV$ must be a homomorphism of lattices.
 
-In [[nonstandard analysis]] and [[model theory]], a particularly important class of filters are the [[ultrafilter]]s.  A filter is an __ultrafilter__, or __maximal filter__, if it is maximal among the proper filters.  A filter $F$ in a [[Boolean algebra|Boolen lattice]] is an ultrafilter iff, given any subset $A$ of $S$, either $A$ or its complement belongs to $F$ but not both.  In constructive mathematics, an __ultrafilter__ is a filter of sets satisfying the axiom
-$$ A \in F \;\Leftrightarrow\; \forall (B \in F),\; \exists (x \in A \cap B) .$$
-This is equivalent to the previous definition, using [[excluded middle]].
-
-In a distributive lattice, every ultrafilter is prime; the converse holds in a Boolean lattice.  In this case, we can say that $F: L \to TV$ is a homomorphism of Boolean lattices.
-
-Given an element $x$ of $S$, the __principal ultrafilter__ (of subsets of $S$) at $x$ consists of every subset of $S$ to which $x$ belongs.  It is possible, if one denies the [[axiom of choice]], that every ultrafilter of subsets is principal.  In contrast, the [[Boolean prime ideal theorem]] states that any proper filter (in a Boolean lattice) may be extended to a maximal filter.
+In [[nonstandard analysis]] and [[model theory]], a particularly important class of filters are the [[ultrafilter]]s.  
 
 # Filterbases
 
