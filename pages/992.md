@@ -161,3 +161,7 @@ but is certainly the only comprehensive source for these results.
 A diagram of the interrelation of all the models for stable $(\infty,1)$-categories with a useful list of literature for each are these seminar notes:
 
 * S. Schwede, _Enhancements of triangulated categories_ ([pdf](http://www.math.uni-bonn.de/people/schwede/EnhancedSeminar.pdf))
+
+[[!redirects stable (infinity,1)-categories]]
+[[!redirects stable (∞,1)-category]]
+[[!redirects stable (∞,1)-categories]]
