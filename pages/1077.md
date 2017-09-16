@@ -49,6 +49,7 @@ _Toby_:  If it helps, here is a bit more on that subject, which I wrote at [[dir
 _Toby_:  Yes, that\'s what I had in mind.  (Although you could also do a more local version, letting the requirement that the index set be discrete and the requirement the hom-sets be enriched over $Set_part$ meet halfway, if you see what I mean.)
 =--
 
+
 # Semiadditive categories #
 
 A category $C$ with all finite biproducts is called a **semiadditive category**.  More precisely, this means that $C$ has all finite products and coproducts, that the unique map $0\to 1$ is an isomorphism (hence $C$ has a zero object), and that the canonical maps $c_1 \sqcup c_2 \to c_1 \times c_2$ defined above are isomorphisms.
@@ -56,6 +57,8 @@ A category $C$ with all finite biproducts is called a **semiadditive category**.
 Amusingly, for $C$ to be semiadditive, it actually suffices to assume that $C$ has finite products and coproducts and that there exists *any* [[natural transformation|natural]] family of isomorphisms $c_1 \sqcup c_2 \cong c_1 \times c_2$ --- not necessarily the canonical maps constructed above.  A proof can be found in
 
 * Stephen Lack, "Non-canonical isomorphisms", [arXiv:0912.2126](http://arxiv.org/abs/0912.2126).
+
+An [[additive category]], although normally defined through the theory of [[enriched categories]], may also be understood as a semiadditive category with an [[extra property]], as explained below.
 
 
 # Biproducts imply enrichment #
@@ -68,9 +71,10 @@ One proves that $+$ is associative and commutative. Of course, the zero morphism
 $$ a \to 1 \cong 0 \to b .$$
 One proves that $0$ is the neutral element for $+$ and that this matches the $0$ morphism that we began with in the definition.
 
-If additionally every morphism $f: a \to b$ has an inverse $-f: a \to b$, then $C$ is enriched over the category $Ab$ of abelian [[groups]] and is therefore (precisely) an _[[additive category]]_.
+If additionally every morphism $f: a \to b$ has an inverse $-f: a \to b$, then $C$ is enriched over the category $Ab$ of [[abelian groups]] and is therefore (precisely) an __[[additive category]]__.
 
 If, on the other hand, the addition of morphisms is idempotent ($f+f=f$), then $C$ is enriched over the category $SLat$ of [[semilattices]] (and is therefore a kind of [[2-poset]]).
+
 
 # Biproducts as enriched Cauchy colimits #
 
