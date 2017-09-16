@@ -42,9 +42,9 @@ John Baez keeps a web page with relevant links and background material
 
 In particular there are the articles in preparation
 
-* John Baez, _Higher-dimensional algebra VII: Groupoidification_ ([pdf](http://math.ucr.edu/home/baez/hda7.pdf))
+* John Baez, Alexander Hoffnung and Christopher Walker, _Higher-dimensional algebra VII: Groupoidification_ ([pdf](http://math.ucr.edu/home/baez/hda7.pdf))
 
-* John Baez, Alexander Hoffnung and Christopher Walker, _Groupoidification made easy_ ([pdf](http://math.ucr.edu/home/baez/groupoidification.pdf))
+* John Baez and Alexander Hoffnung, _Higher-dimensional algebra VIII: The Hecke Bicategory_ ([pdf](http://math.ucr.edu/home/baez/hda8.pdf))
 
 #Relation to representation theory#
 
