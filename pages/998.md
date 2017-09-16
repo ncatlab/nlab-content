@@ -75,3 +75,5 @@ version of the degeneration of Hodge-to-de Rham [[spectral sequence]], conjectur
 * the n-geometry cafe, _the NAG canon_ ([blog](http://www.noncommutative.org/index.php/the-nag-canon.html))
 
 * F. van Oystaeyen, _Algebraic geometry for associative algebras_, Marcel Dekker 2000. vi+287 pp.
+
+* S. Mahantga, _On some approaches towards non-commutative algebraic geometry_, [math.QA/0501166](http://arxiv.org/abs/math/0501166)
