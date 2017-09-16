@@ -12,3 +12,4 @@ I also have [[Toby Bartels:HomePage|my own personal web here]], although not muc
 category: people
 
 [[!redirects Toby]]
+[[!redirects Ybot Sletrab]]
