@@ -9,3 +9,4 @@ category: people
 
 
 [[!redirects GavinWraith]]
+[[!redirects Gavin W]]
