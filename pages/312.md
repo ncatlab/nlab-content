@@ -1,4 +1,9 @@
-# Definition #
+# Subobjects
+* table of contents
+{: toc}
+
+
+## Definition
 
 In category theory, a **subobject** of an object $c$ of a category $C$ is an isomorphism class of [[monomorphism|monos]] $i: a \to c$ into $c$. (Two morphisms $i: a \to c$, $j: b \to c$ are _isomorphic_ if there exists an isomorphism $k: a \to b$ such that $i = j k$.)
 
@@ -6,15 +11,18 @@ Monos into an object $c$ are [[preorder|preordered]] by a relation
 $$(i: a \to c) \leq (j: b \to c)$$
 defined by the condition that there exists $k: a \to b$ such that $i = j k$. (There is at most one such $k$ since $j$ is monic, and such $k$ is monic since $i$ is monic.) A subobject of $c$ may equivalently be defined as an element of the posetal reflection of this preorder.  
 
-# Restated in terms of over categories #
+
+## Restated in terms of over categories
 
 Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on monomorphisms. Then $C_c$ is the [[partial order|poset]] of subobjects of $c$ and the set of isomorphism classes of $C_c$ is the set of subobjects of $c$. However this "set" can be in fact a proper class in general, see [[well-powered category]].
 
-# The set of subobjects as a functor #
+
+## The set of subobjects as a functor
 
 Suppose $E$ is a [[well-powered category]]. Denote by $Sub(X)$ the set of subobjects of object $X$ in $E$. The correspondence $Sub:X\mapsto Sub(X)$ may be extended to a contravariant functor, namely if $f: X\to Y$ is arbitrary and $m:S\hookrightarrow Y$ is a monic, then the pullback $f^*(m):f^*(S)\to X$ of $m$ along $f$ is automatically a monic; the correspondence $m\mapsto f^*(m)$ describes $Sub(f)$ at the level of representatives of subobjects.  
 
-# Generalizations #
+
+## Generalizations
 
 * More generally, in some contexts we may take "subobject" to mean an isomorphism class of morphisms $i: a\to c$ satisfying some suitable condition other than being a monomorphism (usually a stronger one).  Common choices are [[strong monomorphisms]], [[regular monomorphisms]], or the right class of some [[orthogonal factorization system]].  (The latter choice has the advantage that then [[images]] will automatically exist.)
 
@@ -23,7 +31,7 @@ Suppose $E$ is a [[well-powered category]]. Denote by $Sub(X)$ the set of subobj
 * The [[partial order]] on the collection of subobjects internalizes into contexts more general than [[Set]]. For instance in every [[topos]] the [[subobject classifier]] $\Omega$ has the structure of an internal poset (see there).
 
 
-# Comparison with the notion of "subset" #
+## Comparison with the notion of "subset"
 
 The notion of subobject figures prominently in [[topos]] theory and in other approaches to [[set theory]] based on categories. It is not an exact translation of the usual notion of "subset" in traditional set theory; in ordinary set theory, the notion of subset is defined in terms of a global elementhood relation between sets, which one doesn't have in categorical set theory (and which one wouldn't necessarily want: it's "[[evil|evil]]" in the sense of not being invariant with respect to isomorphism).
 
@@ -31,4 +39,6 @@ Category-theoretically, the traditional notion of subset gives a way of picking 
 
 On the other hand, there is no particular harm either in having such structure around, as long as one remembers that it is not an isomorphism invariant.  People will instinctively turn to canonical representatives whenever they can -- think of what we would tell a student who asks for help understanding how to multiply elements in $\mathbb{Z}_13$ -- and even category theorists do so when they are available.
 
+
 [[!redirects subobjects]]
+[[!redirects subalgebra]]
