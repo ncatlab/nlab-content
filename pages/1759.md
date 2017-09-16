@@ -9,7 +9,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-27
 
-*  [[Toby Bartels]]:  Started [[regular space]], but I have to leave and have not finished it.
+*  [[Toby Bartels]]:
+   *  Replied to an anonymous comment at [[evil]].
+   *  Started [[regular space]], but I have to leave and have not finished it.
 
 
 ## 2009-07-26
