@@ -21,6 +21,7 @@ From a fundamental category theoretic perspective, there are two fundamental kin
 * the duality between [[space and quantity]]
 * [[Pontryagin duality]]
 * [[Stone duality]]
+* [[Eckmann-Hilton duality]]
 
 #Definition#
 
