@@ -20,7 +20,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
-  * started expanding [[limit]]: more motivation, more details on definition, more examples
+  * added a link to [[David Corfield|David]]'s new entry [[algebraic set theory]] at [[set theory]]. It would be nice to put it into context there, eventually.
+
+
+  * started expanding [[limit]] (and also a bit [[colimit]]): more motivation, more details on definition, more examples
 
   * created [[generalized element]]
 
