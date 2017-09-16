@@ -378,12 +378,34 @@ $$
 
 
 
-# some properties and constructions #
+# Fibrant and cofibrant objects #
 
 
 ## fibrant objects ##
 
-The fibrant objects in the [[local model structure on simplicial presheaves]] are those that satisfy [[descent for simplicial presheaves]]. See there for more details.
+The fibrant objects in the [[local model structure on simplicial presheaves]] are those that 
+
+* are fibrant with respect to the respective [[global model structure on simplicial presheaves|global model structure]]
+
+* and satisfy [[descent for simplicial presheaves]]. See there for more details.
+
+This descent condition is the analog in this model of the [[sheaf]]-condition and the [[stack]]-condition. In fact, it reduces to these for truncated simplicial presheaves.
+
+Since the fibrancy condition in the global projective model structure is simple -- it just requires that the [[simplicial presheaf]] is in fact a presheaf of [[Kan complex]]es -- the local projective model structure has slightly more immediate characterization of fibrant objects than the local injective model structures. (In fact, for suitable choices of [[site]]s it may become very simple, as the above discussion of site dependence of the model structure shows).
+
+Onm the other hand the cofibrancy condition on objects is entirly _trivial_ in the global and local injective model structure: since a cofibration there is just an objectwise cofibration, and since every [[simplicial set]] is cofibrant, every object is injective cofibrant.
+
+But the cofibrant objects in the projective structure are not too nasty either: every object that is degreewise a coproduct of representables is cofibrant. In particular the [[Cech nerve]]s of any _good cover_ (see below for more details) is a projectively cofibrant object.
+
+A **cofibrant replacement** functor in the local projective structure  is discussed in 
+
+* [[Daniel Dugger]], _Universal homotopy theories_  ([pdf](http://hopf.math.purdue.edu/Dugger/dduniv.pdf))
+
+
+Something related to a **fibrant replacement** functor ("$\infty$-stackification") is discussed in section 6.5.3 of 
+
+* [[Jacob Lurie]], [[Higher Topos Theory]]
+
 
 ## cofibrant objects ##
 
@@ -522,6 +544,30 @@ See also the proof of lemma 2.7 in section 9 of
 * [[Daniel Dugger]], _Universal homotopy theories_  ([pdf](http://hopf.math.purdue.edu/Dugger/dduniv.pdf))
 
 
+The following consequence follows now trivially, but iss still of interest
+
++-- {: .un_def }
+###### Definition
+**(good cover)**
+
+A [[Cech nerve]] $U$  with a weak equivalence $U \stackrel{\simeq}{\to} X$ in $SPSh(C)^{loc}$ is a **good cover** if it is degreewise a coproduct of [[representable functor|representable]]s.
+
+=--
+
++-- {: .un_remark }
+###### Remark
+
+This reduces to the ordinary notion of good cover as an open cover by contractible spaces such that all finite intersections of these are again contractibe when using a [[site]] like $C = $ [[CartSp]].
+
+=--
+
+
++-- {: .un_corollary }
+###### Corollary
+
+Any good cover $U \stackrel{\simeq}{\to} X$ is a cofibrant replacement for $X$.
+
+=--
 
 
 #References#
