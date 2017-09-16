@@ -3,4 +3,6 @@
 
 * A list of publications [html](http://www.math.yale.edu/~mk486/publ.html)
 
+[[!redirects Kapranov]]
+
 category: people
