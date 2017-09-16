@@ -64,6 +64,17 @@ This means that a  differential graded Lie algebra is an internal Lie algebra in
 For instance, if someone knows de Rham theory from a geometric viewpoint, we know that  in the long run it will be useful for them to understand the differential graded algebra from a categorical viewpoint  as that is one of the most fruitful  approaches for geometrically significant generalisations and applications BUT the debutant can get very put off by thinking that they have to understand lots of category theory before they can start understanding the de Rham complex. In fact coming from that direction they can understand the category theory via the de Rham theory.  So I suggest that we simply avoid 'simply'!!  
 
 I know some researchers in other subject areas are looking with interest to the nLab as a quick means of entry into some interesting mathematics and a handy reference for definitions and background. That is great but it perhaps means that  we have to be a bit careful about our natural feeling that the categorical approach is nearly always the 'best'.  'Simply' is one problem, another is, I think, use of diagrams rather than formulae.  My feeling is that both should be given (though the diagrams are more difficult to get looking nice). 
+
+[[Urs Schreiber|Urs]]: these are all good points. In general I believe it will be good to offer different perspectives in an $n$Lab entry, and explain what they are useful for, each. I take the point that the word "simply" for the categorical perspective may raise unintended feelings, so maybe it should be avoided or at least not left uncommented. 
+
+But we should also not hide the important point here, which is hinted at by the word simply: I think that the important point is that the abstract  category-theoretic formulation which packages a long list of detailed definitions in a single statement such as "internal Lie algebra" allows us to recognize that that list of definitions is _right_.
+
+There are many definitions that one can dream up. But some are better than others and category theory can explain why.
+
+For instance I have seen experts who calucalted with differential graded algebra all day long be mystified by why exactly all the sign rules are as they are. The best explanation they had was: it works and yields interesting results. They were positively interested to learn that _all_ these signs follow automatically and consistently by realizting that differential graded algebra is algebra internal to the category of chain complexes.
+
+This doesn't mean that it is best to introduce DGCA in this internal language. But it does mean that it is worthwhile pointting out that lots of nitty-gritty details of definitions can "simply" be derived by starting with an abstract internal definition and then turning the crank.
+
 =--
 
 ####Examples
