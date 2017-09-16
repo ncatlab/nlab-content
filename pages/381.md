@@ -62,7 +62,7 @@ $$
 * The category of strict $\omega$-categories admits a [[closed monoidal category|biclosed monoidal structure]] called the [[Crans-Gray tensor product]].
 
 
-* Terminology on $\omega$-categories varies. We here follow section 2.2 of [[Sjoerd Crans]]: [Pasting presentations for $\omega$-categories](http://crans.fol.nl/papers/thpp.html), where it says 
+* Terminology on $\omega$-categories varies. We here follow section 2.2 of [[Sjoerd Crans]]: [Pasting presentations for $\omega$-categories](http://home.tiscali.nl/secrans/papers/thpp.html), where it says 
 
   * _[[Ross Street|Street]] allowed $\omega$-categories to have infinite dimensional cells. Steiner has the extra condition that every cell has to be finite dimensional, and called them $\infty$-categories, following [[Ronnie Brown|Brown]] and Higgins. I will use Steiner's approach here since that's the one that reflects the notion of higher dimensional homotopies closest, but I will nonethless call them $\omega$-categories, and I agree with [[Dominic Verity|Verity]]'s suggestion to call the other ones $\omega^+$-categories._
 
@@ -117,15 +117,15 @@ and also in
 
 * Ross Street, _Categorical and combinatorial aspects of descent theory_ ([arXiv](http://arxiv.org/abs/math.CT/0303175))
 
-The theory of $\omega$-categories was further developed by Sjoerd Crans in parts 2 and 3 of his [thesis](http://crans.fol.nl/papers/comb.html)
+The theory of $\omega$-categories was further developed by Sjoerd Crans in parts 2 and 3 of his [thesis](http://home.tiscali.nl/secrans/papers/comb.html)
 
-* Sjord Crans, _Pasting presentations for $\omega$-categories_ ([link](http://crans.fol.nl/papers/thpp.html))
+* Sjord Crans, _Pasting presentations for $\omega$-categories_ ([link](http://home.tiscali.nl/secrans/papers/thpp.html))
 
-* Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega$-Cat_ ([link](http://crans.fol.nl/papers/thten.html))
+* Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega$-Cat_ ([link](http://home.tiscali.nl/secrans/papers/thten.html))
 
 See also the 
 
-* [Introduction](http://crans.fol.nl/papers/thintro.ps.gz) 
+* [Introduction](http://home.tiscali.nl/secrans/papers/thintro.ps.gz) 
 
 to his thesis, in particular section I.3 "$\omega$-categories".
 
