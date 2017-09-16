@@ -1,0 +1,1 @@
+A [[ring]] $R$ is **simple** if it has no nontrivial two-sided [[ideal]]s. In other words, it is the [[simple object]] in the category of $R$-$R$-bimodules.   
