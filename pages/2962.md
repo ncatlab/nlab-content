@@ -18,12 +18,23 @@ While abelian [[Lie algebra cohomology]] is obtained from the study of [[Chevall
 
 For example the problem of extensions of Lie algebras by nonabelian Lie algebras leads to 1,2,3 nonabelian cocycles; 2-cocycles are analogues of [[group extension|factor systems]].
 
+Below, in the section [Abstract definition](#AbstractDefinition) we discuss how a nonabelian Lie algebra cocylce is a morphism
+
+$$
+  (\psi,\chi) : \mathfrak{g} \to Der(\mathfrak{k})
+$$
+
+of [[L-∞-algebra]]s to the [[strict Lie 2-algebra]] of derivations of $\mathfrak{k}$.
+
 ## Nonabelian 2-cocycles
 
 Let $F$ be a field. **Lie algebra factor system** (or a **nonabelian 2-cocycle**) on a $F$-Lie algebra $\mathfrak{b}$ with coefficients in $F$-Lie algebra $\mathfrak{k}$ is a pair $(\chi,\psi)$ where $\chi: \mathfrak{b}\wedge \mathfrak{b}\to\mathfrak{k}$ and $\psi:\mathfrak{b}\to Der(\mathfrak{k})$ are $F$-linear maps satisfying
 
 $$
-\chi([b_1,b_2]\wedge b_3)-\chi(b_1\wedge [b_2,b_3])+\chi(b_2\wedge[b_1,b_3])=\psi(b_3)(\chi(b_1\wedge b_2))-\psi(b_1)(\chi(b_2\wedge b_3))+\psi(b_2)(\chi(b_1\wedge b_3))
+  \begin{aligned}
+& \chi([b_1,b_2]\wedge b_3)-\chi(b_1\wedge [b_2,b_3])+\chi(b_2\wedge[b_1,b_3])
+\\& = \psi(b_3)(\chi(b_1\wedge b_2))-\psi(b_1)(\chi(b_2\wedge b_3))+\psi(b_2)(\chi(b_1\wedge b_3))
+\end{aligned}
 $$
 
 for all $b_1,b_2,b_3\in B$ and
@@ -123,7 +134,6 @@ More in detail:
 
 =--
 
-
 +-- {: .proof}
 ###### Proof
 
@@ -152,9 +162,9 @@ extended as a graded derivation to all of $\wedge^\bullet \mathfrak{g}^*$.
 
 For any [[strict Lie 2-algebra]] coming from a [[differential crossed module]]
 $(\mathfrak{h}_1 \stackrel{\delta}{\to} \mathfrak{h}_1)$ with action
-$\rho : \mathfrak{h}_1 \to der(\mathfrak{h}_2)$, that we think of
+$\rho : \mathfrak{h}_1 \to der(\mathfrak{h}_2)$ -- that we think of
 in the following as equivalently a linear map
-$\rho : \mathfrak{h}_1 \otimes \mathfrak{h}_2 \to \mathfrak{h}_2$,
+$\rho : \mathfrak{h}_1 \otimes \mathfrak{h}_2 \to \mathfrak{h}_2$ --
 the [[Chevalley-Eilenberg algebra]] is
 
 $$
@@ -173,12 +183,18 @@ differential given on degree 1 generators by
 
 $$
   d_\delta |_{\mathfrak{h}_1^*} = [-,-]_{\mathfrak{h}_1}^* + \delta^*
+  : \mathfrak{h}_1^* \to 
+    \mathfrak{h}_1^* \wedge \mathfrak{h}_1^*
+    \oplus
+    \mathfrak{h}_2^*
 $$
 
 and on degree 2 generators by
 
 $$
   d_\delta |_{\mathfrak{h}_2^*} = \rho^*
+  : 
+  \mathfrak{h}_^* \to \mathfrak{h}_1^* \otimes \mathfrak{h}_2^*
   \,.
 $$
 
@@ -360,6 +376,13 @@ $$
 along the above lines.
 
 =--
+
++-- {: .query}
+
+There is a slight gap here, concerning the fact that $CE(Der(\mathfrak{k}))$ may not be a Sullivan algebra, and hence not cofibrant in the [[model structure on dg-algebras]]: while it is of course a [[semifree dga]], it need not satisfy that addition nilpotency condition. I'll try to think what to do about that... -[[Urs Schreiber|Urs]]
+
+=--
+
 
 
 ## References
