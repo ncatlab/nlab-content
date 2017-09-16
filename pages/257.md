@@ -108,3 +108,5 @@ For yet another introduction to model categories, with an eye towards their use 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
 [[!redirects model categories]]
+[[!redirects model structure]]
+[[!redirects model structures]]
