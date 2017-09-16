@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]:
 
+  * by coincidence I came across the old entry [[crossed module]] and noticed that there were meanwhile plenty of links to add to it -- so I did
+
   * added two further references, by Birgit Richter, on the ($\infty$-)monoidal structure of the Dold-Kan correspondence  to [[Dold-Kan correspondence]]
 
   * added a small section on and a link to [[matching family]] at [[sheafification]]
