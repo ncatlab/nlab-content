@@ -2,6 +2,11 @@
 [[!include category theory - contents]]
 </div>
 
+#Contents#
+
+* tic
+{:toc}
+
 
 #Idea#
 
