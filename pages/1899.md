@@ -102,25 +102,29 @@ That means that for $a \in A$, $\Delta(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$
   By the way, I'm not clear about how to interpret your hints.  Do you already know the answer to this and are trying to teach me some category theory by leading me through it, or do you not know and are hoping that, polymath-style, we'll figure it out without either of us having to expend too much energy?  Either is fine by me (I need to learn some more Cat. Th. so any help is helpful!), I just like to know which track I'm on.
 
   [[John Baez]]: I guess I'm just trying to figure it out. From the very start I knew _some_ answer to why comonoid objects in $AbGp$ are co-abelian group objects: namely, when you check, you see it's true.  But I like to understand these things using general principles, so I was wondering what general principle was at work here.  My current best guess is not very profound: it's "every comonoid object in an abelian category is a co-abelian group object", or if you prefer, "every object in an abelian category becomes a co-abelian group object in a unique way" - a variation on the well-trodden theme of "every object in a category with finite products becomes a cocommutative comonoid in a unique way".    
+  =--
 
-  [[Andrew Stacey]]: PS Don't forget to indent paragraphs in this query box.
++-- {: .query}
+[[Andrew Stacey]]: PS Don't forget to indent paragraphs in this query box.
 
-   [[John Baez]]: Huh, wow, it really makes a big difference.
+ [[John Baez]]: Huh, wow, it really makes a big difference.
 
-  [[Andrew Stacey]]: can't tell if you're being sarcastic here.  If so, try leaving a comment with _absolutely no_ indent and see what chaos ensues.
+[[Andrew Stacey]]: can't tell if you're being sarcastic here.  If so, try leaving a comment with _absolutely no_ indent and see what chaos ensues.
 
-  [[John Baez]]: No, I wasn't being sarcastic.  I tried it and saw what chaos ensued.  But further down the page we're having a boxed discussion without these darned indents, and it's working fine.  So why bother with indents in the first place?
+[[John Baez]]: No, I wasn't being sarcastic.  I tried it and saw what chaos ensued.  But further down the page we're having a boxed discussion without these darned indents, and it's working fine.  So why bother with indents in the first place?
 
-  _Toby_: The purpose of the indentation is to keep the query box with the appropriate entry in the unnumbered list.  Besides the obvious (and obviously small) aesthetic advantage, this does two things when it happens in the middle of a list:
-  *  it helps the diff mechanism tell when a query box is inserted or removed with no other change to the list;
-  *  it keeps the numbering in a numbered list correct.
+_Toby_: The purpose of the indentation is to keep the query box with the appropriate entry in the unnumbered list.  Besides the obvious (and obviously small) aesthetic advantage, this does two things when it happens in the middle of a list:
+*  it helps the diff mechanism tell when a query box is inserted or removed with no other change to the list;
+*  it keeps the numbering in a numbered list correct.
 
-  [[Lab Elf]]: Actually, it does more than that.  Without the indentation then the parser gets really confused as to where the list ends.  It tries to end the list before the comment ends, but that would lead to malformed XHTML so somewhere the offending section gets removed.  Have a go at removing the indentation of a comment and see what happens.
+[[Lab Elf]]: Actually, it does more than that.  Without the indentation then the parser gets really confused as to where the list ends.  It tries to end the list before the comment ends, but that would lead to malformed XHTML so somewhere the offending section gets removed.  Have a go at removing the indentation of a comment and see what happens.
 
-  The thing to remember is that indentation _means_ something and so should only be added or removed by experienced Lab Elves who have undergone rigorous training in how to safely remove indentation without risking danger to the public.
+The thing to remember is that indentation _means_ something and so should only be added or removed by experienced Lab Elves who have undergone rigorous training in how to safely remove indentation without risking danger to the public.
 
-  The rule is: the _contents_ of a query box (or other box: theorems, proofs, all come under this heading) should have the same indentation (or more) as the opening demarkation.
-  =-- 
+The rule is: the _contents_ of a query box (or other box: theorems, proofs, all come under this heading) should have the same indentation (or more) as the opening demarkation.
+
+_Toby_:  But none of that terrible XHTML-destroying stuff will happen if you consistently indent *nothing* in the query box, which is what John asked about.  Just for kicks, I have removed all indentation from this box; it destroys the list structure, but leaves perfectly good XHTML.
+=-- 
 
   It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric). For details on this see _The Hunting of the Hopf Ring_, referred to belelow.  This monoidal structure for abelian groups turns out to be the tensor product.
 
