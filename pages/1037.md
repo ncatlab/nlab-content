@@ -246,7 +246,7 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 * [[groupoid object in an (infinity,1)-category]]
 
-  * [[Cech-nerve]]
+  * [[Cech nerve]]
 
   * [[delooping]]
 
