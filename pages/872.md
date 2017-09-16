@@ -12,3 +12,4 @@ The bottom of the poset of [[subset]]s or [[subobject]]s of a given set or objec
 
 
 [[!redirects bottom element]]
+[[!redirects bottom elements]]
