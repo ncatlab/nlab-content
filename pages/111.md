@@ -42,7 +42,7 @@ A _category_ $C$ consists of
 
   * source and target are respected by identities: $s(1_x) = x$, $t(1_x) = x$;
 
-  * composition is _associative_: $(f \circ g)\circ h = f\circ (g \circ h)$ whenever $t(f) = s(g)$ and $t(g) = s(h)$;
+  * composition is _associative_: $(h \circ g)\circ f = h\circ (g \circ f)$ whenever $t(f) = s(g)$ and $t(g) = s(h)$;
 
   * composition satisfies the _left and right unit laws_:
 given any morphism $f: x \to y$ we have $1_y \circ f = f = f \circ 1_x$. 
