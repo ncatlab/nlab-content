@@ -26,20 +26,22 @@ where $U$ is the [[forgetful functor]] from [[pointed set|pointed sets]] to sets
 * It is the [[comma category]] $(*/P)$, where $*$ is the inclusion of the one-point set $*:*\to Set$ and $P:C\to Set$ is itself:
 $$\array{ Elem(P,C) &\to& * \\ \downarrow^{\pi_P} &\Downarrow& \downarrow^{pt} \\ C &\to& Set.}$$
 
-* It's [[opposite category|opposite]] is the [[comma category]] $(Y/P)$, where $Y$ is the [[Yoneda embedding]] $C^{op}\to [C,Set]$ and $P$ is the functor $*\to [C,Set]$ which picks out $P$ itself:
+* Its [[opposite category|opposite]] is the [[comma category]] $(Y/P)$, where $Y$ is the [[Yoneda embedding]] $C^{op}\to [C,Set]$ and $P$ is the functor $*\to [C,Set]$ which picks out $P$ itself:
 $$\array{ Elem(P,C)^{op} &\overset{\pi_P^{op}}{\to}& C^{op} \\ \downarrow &\Downarrow& \downarrow^{Y} \\ * & \underset{P}{\to}& [C,Set].}$$
 
-$Elem(P,C)$ is also often written with [[end|coend]] notation as $\int^C P$, $\int^{c: C} P(c)$, or $\int^c P(c)$.  This suggests the fact the set of objects of the category of elements is the [[disjoint union]] (sum) of all of the sets $P(c)$. 
+$Elem(P,C)$ is also often written with [[end|coend]] notation as $\int^C P$, $\int^{c: C} P(c)$, or $\int^c P(c)$.  This suggests the fact the set of objects of the category of elements is the [[disjoint union]] (sum) of all of the sets $P(c)$.
 
 +--{.query}
 
 Should the above statement be changed from disjoint union to direct product? - Eric
 
+No.  Each object of $el(P)$ is an element of exactly one $P(c)$, so the set of objects is the disjoint union.  An element of the direct product would consist of an element of $P(c)$ for _every_ $c$.  -Mike
+
 =--
 
 #Properties#
 
-* The category of elements is naturally equipped with a _projection functor_ $\pi_P:Elem(P,C) \to C$ given by $(c,x)\mapsto c$ and $u\mapsto u$.  This projection is a [[Grothendieck fibration|discrete fibration]] and can be viewed also as a $C$-indexed family of sets.
+* The category of elements is naturally equipped with a _projection functor_ $\pi_P:Elem(P,C) \to C$ given by $(c,x)\mapsto c$ and $u\mapsto u$.  This projection is a [[Grothendieck fibration|discrete opfibration]] and can be viewed also as a $C$-indexed family of sets.
 
 ##Example: Action Groupoid##
 
@@ -76,3 +78,5 @@ PS: Don't worry. I will make the edits once a nice notation is decided.
 _Toby_:  I don\'t really like $Unpack$, although $El$ seems fine.  I do think that we should show the integral notation too, however, and give Urs\'s justification for it.  (I\'ll do that now.)
 
 _Eric_: Excellent. Instead of $El$ (and forget about $Unpack$), could we call it $Element(P,C)$ or even $Elem(P,C)$ and let $P:C\to Set$? From what I can tell about [[Grothendieck construction]], this would be more consistent. Lurie uses the notation $Groth(P,C)$ for $P:C\to Cat$ so $Elem(P,C)$ with $P:C\to Set$ makes sense to me.
+
+[[Mike Shulman|Mike]]: $el(P)$ is a fairly common notation.
