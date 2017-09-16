@@ -7,6 +7,8 @@ This entry is about the book
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _Models for Smooth Infinitesimal Analysis_ Springer (1991)
 
+about models of [[smooth topos]]es for [[synthetic differential geometry]] that have a [[full and faithful functor|full and faithful]] embedding of the [[category]] [[Diff]] of smooth [[manifold]]s.
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -26,6 +28,8 @@ The following tabulates various models for [[smooth topos]]es and lists their pr
 ## the topos $\mathcal{F}$ ##
 
 ## the topos $\mathcal{Z}$ ##
+
+The [[smooth topos]] $\mathcal{Z}$ is that of [[sheaf|sheaves]] on the category $\mathbb{L}$ of [[smooth loci]] with respect to the [[Grothendieck topology]] given by _finite_ open covers of smooth loci.
 
 +-- {: .un_defn}
 ###### Definition
@@ -183,7 +187,7 @@ $\mathcal{B} := Sh_{fin-open/proj}(\mathbb{L})$ is the [[category of sheaves]] o
 ###### Proposition
 **(properties)**
 
-For the [[topos]] $\mathcal{B}$ the following is true. 
+The topos inherits most of the properties of $\mathcal{Z}$, notably:
     
 * the [[Grothendieck topology]] is [[subcanonical coverage|subcanonical]]
   
@@ -203,7 +207,19 @@ For the [[topos]] $\mathcal{B}$ the following is true.
     
 * a version of [[nonstandard analysis]] is realized
   
-  (chapter VI, below 5.4)
+  (chapter VI, below 5.4).
+
+A main difference is that in $\mathcal{B}$ every 
+[[smooth locus]], i.e.
+every [[representable functor|representable]], is an [[inhabited object]].
+In particular therefore there exist, in the [[internal logic]], elements of the object of invertible infinitesimals:
+
+$$
+  \exists x \in \mathbb{I}
+  \,.
+$$
+
+(chpater VI, prop 5.4).
     
 =--
 
