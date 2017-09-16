@@ -1,3 +1,2 @@
-See [[linear order]].
-
-category: redirect
+&lt; [[loset]]
+[[!redirects loset -- history]]
