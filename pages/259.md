@@ -66,6 +66,8 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 
 * [[terminal object in a quasi-category]]
 
+* [[monomorphism in an (∞,1)-category]]
+
 * [[limit in quasi-categories]]
 
 * [[sub-quasi-category]]
@@ -73,6 +75,8 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 * [[fibrations of quasi-categories]]
 
 * [[opposite quasi-category]]
+
+
 ## Discussion
 
 A previous version of this entry led to the following discussion.
