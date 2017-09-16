@@ -72,16 +72,15 @@ $$
 
 There are two definitions of Kan extensions, which are equivalent in good situations, when both forms exist (but see [below](#pointwiseVsWeak) for when they don't):
 
-* ('weak') Kan extensions, defined as adjoints to or universal transformations to/from pullback of functor categories, and
+* adjoints to or universal transformations to/from pullback of functor categories, and
 
-* ('pointwise') Kan extensions, defined in terms of weighted (co)limits.
+* certain weighted (co)limits.
 
-Kan extensions that are computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "weak Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
-
-To disambiguate, this entry uses both terms 'weak' and 'pointwise'.
+Kan extensions that are computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "**weak** Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
 
 
-### Weak Kan extensions ##
+
+### Kan extensions ##
 
 The functor $p : C \to C'$ induces, by precomposition, a functor between [[functor category|functor categories]]
 $$
@@ -225,15 +224,11 @@ $$
 Here $(const_{c'}/p)$ and $(p/const_{c'})$ are [[comma category|comma categories]] in the notation described there.
 
 
-+-- {: .un_remark}
-###### Warning   {#pointwiseVsWeak}
+### Distinction   {#pointwiseVsWeak}
 
-Note, however, that not all _weak_ Kan extensions (in the universal-transformation sense defined above) are _pointwise_ Kan extensions, i.e. computed as weighted (co)limits, and they can exist even when $D$ does not admit very many limits.  For instance, the Kan extensions that arise in the study of [[derived functor]]s are not computed in this way.
+Not all Kan extensions in the universal-transformation sense defined above are _pointwise_ Kan extensions, i.e. computed as weighted (co)limits, and they can exist even when $D$ does not admit very many limits.  For instance, the Kan extensions that arise in the study of [[derived functor]]s are not computed in this way.
 
-=--
-
-
-
+The upshot is that if a pointwise extension exists then it is the same as the corresponding non-pointwise extension, but the converse does not always hold.  Instead a non-pointwise extension is pointwise if and only if it is preserved by all representable functors ([[Categories Work]], theorem X.5.3).
 
 
 
