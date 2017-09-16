@@ -13,4 +13,7 @@ It is usually assumed that $Set$ satisfies the [[axiom of choice]] and has a [[n
 
 Conversely, $\Set$ in [[constructive mathematics]] cannot satisfy the axiom of choice (since this implies [[excluded middle]]), although constructivists might accept [[COSHEP]] (that $Set$ has [[projective object|enough projectives]]).  In [[predicative mathematics]], $\Set$ is not even a topos, although most predicativists would still agree that it is a [[pretopos]], and predicativists of the constructive school would even agree that it is a [[locally cartesian closed category|locally cartesian closed]] pretopos.
 
+
 category: category
+
+[[!redirects category of sets]]
