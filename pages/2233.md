@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+
+[[!include functorial quantum field theory - contents]]
+
+</div>
 
 #Idea#
 
