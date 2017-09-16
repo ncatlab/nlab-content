@@ -301,21 +301,21 @@ $$\array{F:A  &\to& \hat{B}\\ a &\mapsto& \int_{b \in B} F(a)(b) \; \times \; ho
 
 In a similar way, the Yoneda embedding says
 
-$$\array{Y:A &\to& \hat{A}\\ a &\mapsto& \int_{a' \in A} Y(a)(a') \times hom(-, a')\\&&= \int_{a' \in A} hom(a', a) \times hom(-, a')\\&&= hom(-, a)}$$
+$$\array{Y:A &\to& \hat{A}\\ a &\mapsto& \int_{a' \in A} Y(a)(a') \; \times \; hom(-, a')\\&&= \int_{a' \in A} hom(a', a) \; \times \; hom(-, a')\\&&= hom(-, a)}$$
 
 That is, the set of morphisms from $-$ to $a$ is the set of morphisms from $-$ to an intermediate object $a'$ times the morphisms from $a'$ to $a$, where $a'$ ranges over all possible objects in $A$.
 
 Doing the same for an arbitrary cocontinuous functor $G:\hat{A} \to \hat{B}$ says
 
-$$c = \int_{a \in A} c(a) \times hom(-, a)$$
+$$c = \int_{a \in A} c(a) \; \times \; hom(-, a)$$
 
 maps to
 
-$$G(x) = \int_{a \in A} \int_{b \in B} G(a)(b) \times hom(a, b) ) \times c(a) \times hom(-, a)$$
+$$G(x) = \int_{a \in A} \left(\int_{b \in B} G(a)(b) \; \times \; hom(a, b) \right) \; \times \; c(a) \; \times \; hom(-, a)$$
 
 which simplifies to
 
-$$G(x) = \int_{b \in B} \int_{a \in A} G(a)(b) \times c(a) \times hom(-, b)$$
+$$G(x) = \int_{b \in B} \int_{a \in A} G(a)(b) \; \times \; c(a) \; \times \; hom(-, b)$$
 
 by taking $a$ as the midpoint between $-$ and $b$.  So $G$ is completely determined (up to isomorphism) by its values on the embedding of $A$.
 
