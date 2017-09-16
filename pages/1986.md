@@ -17,6 +17,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-08-07
+
+*  [[Toby Bartels]]:  Rewrote the definition at [[property sup]] slightly; it seems to me that $\Omega$ should be an ascending chain of subobjects of a fixed object $M$, rather than an ascending chain of a fixed subobject $M$ (which I can\'t even parse).  That also fits in with a noetherian category\'s having the property, but I mention it here in case I\'m wrong.
+
+*  [[Aleks Kissinger]] has joined us, adding examples to [[dagger category]].
+
 * [[Zoran Škoda]] created short entries [[simple object]], [[semisimple object]], [[socle]], [[nilpotent ideal]]; noticed that if I create a redirect ((apples)) for ((apple)) and used it in ((pear)), the entry ((apple)) is NOT listed in the list of "linked from" entries at the bottom of the page. Thus if I link by a redirect name, I will miss the backpointer. This happened with [[simple objects]] listed in [[semisimple object]], but [[simple object]] does not say that it is linked from [[semisimple object]]. Added more to [[artinian ring]]. Toby, I agree that $n Cat$ and $n$-$Cat$ are accepted synonyms, that hyphen looks better than minus, and that there is no <em>a priori</em> rational reason for $R$-$Mod$ as opposed to $R Mod$, however the tradition in math community and in professional typerighting (say in numerous journals of AMS) do not use $R Mod$, at least not noticably often, in favour of other versions, and if nlab has strange (even if abstractly correct) conventions in conventional part of math, it may be less attractive to students and professionals. Additional confusion may arise in confusion the name $R$ or so before $Mod$ with a modifier like $gr$, $dg$, $co$ or alike, which are more often (and with stronger arguments) in tradition written without hyphen.  
 
   * expanded [[germ]]; created (Gabriel's) [[property sup]] with redirect [[property (sup)]]. 
