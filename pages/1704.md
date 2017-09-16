@@ -58,8 +58,9 @@ on higher [[path groupoid]]s of $X$, one obtains higher versions of the notion o
 
 The notion of principal $\infty$-bundle (often addressed in the relevant literature in the language of [[torsor]]s) appears in the context of the [[simplicial presheaf]] [[model structure on simplicial presheaves|model]] for generalized spaces in
 
-* Jardine, _Cocycle categories_ ([pdf](http://arxiv.org/abs/math.AT/0605198)) .
+* Jardine, Luo, _Higher order principal bundles_ ([pdf](http://www.math.uiuc.edu/K-theory/0681/cocycles6.pdf))
 
+* Jardine, _Cocycle categories_ ([pdf](http://arxiv.org/abs/math.AT/0605198)) .
 
 An earlier description in terms of simplicial objects is
 
