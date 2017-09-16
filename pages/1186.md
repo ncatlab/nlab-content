@@ -6,9 +6,30 @@ There is a wealth of equivalent ways to make precise what this means, which are 
 
 ## presentation by simplicial model categories ##
 
-Presentable $(\infty,1)$-categories are precisely those [[(infinity,1)-category|(infinity,1)-category]] which are _presented_ by a combinatorial [[simplicial model category]] $C$ in that they are the full [[simplicially enriched category|simplicial subcategory]] $C^\circ \hookrightarrow C$ on fibrant-cofibrant objects of $C$ 
+Presentable $(\infty,1)$-categories are precisely those [[(infinity,1)-category|(infinity,1)-category]] which are _presented_ by a [[combinatorial simplicial model category]] $C$ in that they are the full [[simplicially enriched category|simplicial subcategory]] $C^\circ \hookrightarrow C$ on fibrant-cofibrant objects of $C$ 
 
 (Or, equivalently, the [[quasi-category]] associated to this [[simplicially enriched category]]).
+
+Under this presentation,
+equivalence of presentable $(\infty,1)$-categories corresponds precisely
+to spans of [[Quillen equivalence]]s between presenting
+[[combinatorial simplicial model category|combinatorial simplicial model categories]].
+
+$C^\circ$ and $D^\circ$ are equivalent as $(\infty,1)$-categories precisely
+if there exists a chain of simplicial Quillen equivalence
+
+$$
+  C 
+  \stackrel{\leftarrow}{\to}
+  \stackrel{\to}{\leftarrow}
+  \stackrel{\leftarrow}{\to}
+  \cdots  
+  D.
+$$
+
+This is remark A.3.7.7 in [[Higher Topos Theory|HTT]].
+
+
 
 Partly due to the fact that [[simplicial model category|simplicial model categories]] have been studied for a longer time -- partly because they are simply more tractable -- than [[(infinity,1)-category|(infinity,1)-categories]], many $(\infty,1)$-categories are indeed handled in terms of such a presentation by a [[simplicial model category]]. 
 
