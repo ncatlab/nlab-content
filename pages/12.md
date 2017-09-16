@@ -454,3 +454,7 @@ The nice lines separating entries on screen do not print.
 It would be better (but too late?) if the person's name was aligned with the first line of the Event.
 
 _Toby_:  Yet another reason for formatting this all as a list, I think.
+
+[[Todd Trimble]]: Can I ask what organizational principles people are using to compile this list? My impression is that huge swaths are being left out (for example, last time I looked I didn't see where monads/triples were introduced, and I didn't see the 1965 Eilenberg-Moore paper). 
+
+I like the idea of a page with a shorter list of major themes in category theory, each of which could have its own timeline page, rather than some huge monolithic entry on a subject so huge and multifarious as category theory. 
