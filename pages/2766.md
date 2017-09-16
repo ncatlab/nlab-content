@@ -4,7 +4,7 @@
 
 Let $F:J\to C$ be a [[diagram]] in a category $C$.
 
-For any objects $c,c'\in C$, let $T:\Delta c\to F$ and $T':\Delta c'\to F$ denote [[cones]] over $F$. A **cone morpmism** is a $C$-morphism $\phi\colon c \to c'$ such that all component diagrams
+For any objects $c,c'\in C$, let $T:\Delta c\to F$ and $T':\Delta c'\to F$ denote [[cones]] over $F$. A **cone morphism** is a $C$-morphism $\phi\colon c \to c'$ such that all component diagrams
 
 $$\array{
 c &{}&\stackrel{\phi}{\longrightarrow} &{}& c' \\
