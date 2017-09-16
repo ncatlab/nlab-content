@@ -22,3 +22,6 @@ A category is **balanced** if every [[monomorphism|monic]] [[epimorphism|epic]] 
 * Topological categories are rarely balanced; in [[Top]], for example, the monic epimorphisms are the continuous bijections.  However, the category of [[compact Hausdorff space]]s is balanced.
 
 * In a [[partial order|poset]] or a [[quiver]], _every_ morphism is both monic and epic; thus such categories are "as far as possible from being balanced."
+
+
+[[!redirects balanced categories]]
