@@ -52,7 +52,7 @@ i.e. a (co)representative of the functor $Hom_{[C,D]}(F,p_*(-))$. Similarly, rig
 
 ## In terms of universal natural transformations ##
 
-The left Kan extension $Lan_p F$ of $F : C \to D$ is the functor $Lan F : C' \to D$ such that there exists a [[natural transformation]] $\eta_F : F \Rightarrow p_* Lan F$. 
+[[generalized the|The]] left Kan extension $Lan_p F$ of $F : C \to D$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p_* Lan F$. 
 
 $$
   \array{
