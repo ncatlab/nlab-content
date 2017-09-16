@@ -9,6 +9,8 @@
 
 * [exchange of thoughts](#exchangeofthoughts)
 
+* [beta versions](#betaversions)
+
 # contact {#contact} 
 
 The best way to contact me is by sending me an email at <fiorenza@mat.uniroma1.it>
@@ -36,7 +38,13 @@ I enjoy exchanging thoughts on topics of interest for my research and always fel
 
 * [[domenicofiorenza:HomePage|my personal web within the nLab]]
 
+# beta versions {#betaversions}
 
+Here is where I develop revisions of nLab entries which (from my point of view) deserve consistent revision. As revision is complte I'll post them on the nLab. Everithing you find here is work in progress: please, edit it!
+
+Currently revising:
+
+* [[domenicofiorenza:limit|limit]]
 
 
 
