@@ -39,6 +39,8 @@ $$
   M U(\mathbb{C}P^\infty)
 $$
 
+(???)
+
 this is the universal even periodic cohomology theory with orientation
 
 The [[cohomology ring]] $M P({*})$ is the [[Lazard ring]] which is the universal coefficient ring for [[formal group law]]s.
