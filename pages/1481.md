@@ -13,7 +13,7 @@ The search is on for the abstract formalization of the process of _quantization_
 
 +-- {.standout}
 
-There is an open problem of mathematical (-[[physics]]) model building: what is the true formalism behind [[quantization]] that is to quantization such as, say, [[symplectic geometry]] is to [[Hamiltonian mechanics]].
+There is an open problem of mathematical (-[[physics]]) model building: what is the true formalism behind [[quantization]]?  That is to quantization such as, say, [[symplectic geometry]] is to [[Hamiltonian mechanics]]?
 
 The formalism of [[FQFT]] clearly suggests that the fundamental description of [[quantization]] is some natural operation on higher functors.
 
@@ -221,42 +221,71 @@ $$
 $$
 
 
-## the notion of background field ##
+## the notion of background field and action functional ##
 
-a flat classical background field (with vanishing [[field strength]]) is 
+a flat classical background field (with vanishing [[field strength]]) is a morphism
 
 
 $$
   \nabla : \Pi(X) \to A
 $$
 
-(the more general situation is described at ..., but need not concern us here for the moment. It's quantization will not be essentially different from that of the flat case)
+(the more general situation is described at ..., but need not concern us here for the moment. It's quantization will structurally be a bit, but not essentially different from that of the flat case)
 
+this encodes an $A$-[[principal ∞-bundle]] [[connection on a bundle|with connection]]. 
 
+In the case that $A = \mathbf{B}G$ is the [[delooping]] of an $\infty$-group $G$, so that $A$ has a unique [[pointed object|point]] $pt_A : {*} \to \mathbf{B}G$ the total space of this [[principal ∞-bundle]] is the ([[homotopy pullback|homotopy]]) [[pullback]] $P$ in
 
-choose representation 
+$$ 
+ \array{
+  P &\to& {*}
+  \\
+  \downarrow && \downarrow
+  \\
+  X \simeq [pt,X] &\stackrel{\nabla|_{pt}}{\to}& \mathbf{B}G
+ }
+  \,,
+$$
+
+where $\nabla|_{pt}$ is the component of $\nabla$ (as a morphism out of a colimit) on points in $X$.
+
+We are interested in forming the associated $\infty$-bundle induced by a choice of [[representation]]
 
 $$
   \rho : A \to V
 $$
 
-on an $(\infty,1)$-category valued stack $V$. Consider lax pullback
+on some [[(∞,1)-category]] $V$. As a cocycle this is just the composite
 
+$$
+  \rho_* \nabla : \Pi(X) \stackrel{\nabla}{\to}
+   A \stackrel{\rho}{\to} V
+  \,.
+$$
+
+This is the _background field_ that encodes the forces acting on the objects propagating in $X$ whose quantum dynamics we seek.
+
+We will often abuse notation and write just $\nabla$ for $\rho_* \nabla$, when the context is clear.
+
+A choice of extension of this through the inclusion $\Pi(X) \to Bord(X)$ is the corresponding **action functional** $\exp(S_\nabla)$
 
 $$
   \array{
-    E &\to& {*}
+    \Pi(X) &\stackrel{\nabla}{\to}& V
     \\
-    \downarrow && \downarrow
+    \downarrow & \nearrow_{\exp(S_\nabla)}
     \\
-    \Pi(X) &\stackrel{\rho_* \nabla}{\to}& V
+    Bord(X)
   }
+  \,.
 $$
 
-notice that $E$ itself is again in $\mathbf{H}$  
+For each cobordism $\Sigma$ the component $\exp(S_\nabla)|_\Sigma$ of the action functional will define a total space of an associated bundle $E_\Sigma$. These are discussed in the next section.
 
 
 ## the notion of section and state ##
+
+A _state_ of the quantum theory over a cobordism $\Sigma$ is supposed to be a _section_ of the bundle $E_\Sigma \to [\Sigma,X]$ over the configuration space $[\Sigma,X]$ of fields on $\Sigma$, where we allow generalized sections that may be distributional.
 
 In order to define sections and states,
 we need to fix a [[point]] of the coefficient object $V$, i.e. a morphism
@@ -390,7 +419,12 @@ given by the linear combination of all elements $v \in E_x$ weighted by the [[gr
 
 ##  the propagation map ##
 
+In total the above discussion yields, starting from a background field $\nabla : \Pi(X) \to V$, a [[multispan]] of  $\infty$-bundles $E_\Sigma$ over configuration spaces $[\Sigma,X]$.
 
+An an object in the [[over category]] $C(E_{\Sigma}) := \mathbf{H}/E_{\Sigma}$ encodes a -- possibly distributional -- section of $E_\Sigma \to [\Sigma,X]$. The quantum propagation we take to be the pull-push of the [[geometric function object]]s $C(E_\Sigma)$ through this [[multispan]].
+
+
+...
 
 Let $\Sigma_{in} \to \Sigma \leftarrow \Sigma_{out}$
 be a [[cobordism]] [[cospan]] regarded as part of the [[multispan|multi-cospan]] $\Sigma_H$ that defines $Bord(X)$ as
