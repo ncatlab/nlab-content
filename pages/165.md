@@ -25,13 +25,17 @@ So the fundamental groupoid is an improvement on the idea of the fundamental gro
 ## Topologizing the fundamental groupoid
 
 The fundamental groupoid $\Pi_1(X)$ can be made into a [[topological groupoid]] (i.e. a [[internal groupoid|groupoid internal]] to [[Top]]) when $X$ is [[path-connected space|path-connected]], [[locally path-connected space|locally path-connected]] and [[semi-locally simply connected space|semi-locally simply connected]].
-This construction is closely linked with the construction of a [[universal covering space]] for a path-connected pointed space.
+This construction is closely linked with the construction of a [[universal covering space]] for a path-connected pointed space. The object space of this groupoid is just the space $X$.
 
 +--{: .query}
 [[Mike Shulman]]: Could you say something about what topology you have in mind here?  Is the space of objects just $X$ with its original topology?
+
+[[David Roberts]]: The short answer is that it is propositions 4.17 and 4.18 in my [[davidroberts:HomePage|thesis]], but I will put it here soon.
+
+Regarding topology on the fundamental groupoid for a general space; it inherits a topology from the path space $X^I$, but there is also a topology (unless I've missed some subtlety) as given in 4.17 mentioned above, but the extant literature on the topological fundamental group uses the first one.
 =--
 
-When $X$ is not semi-locally simply connected, the fundamental groupoid inherits a non-discrete topology from the fundamental group $\pi_1(X)$, which is an obstruction to the above-mentioned source fibre\'s being a covering space.  When $X$ is not locally path-connected, $\pi_0(X)$ also inherits a non-discrete topology (the [[quotient topology]] of $X$ by the relation of path connections).
+When $X$ is not semi-locally simply connected, the arrows of the fundamental groupoid inherits a non-discrete topology from the path space, which is an obstruction to the above-mentioned source fibre\'s being a covering space. However the composition is no longer continuous. When $X$ is not locally path-connected, $\pi_0(X)$ also inherits a non-discrete topology (the [[quotient topology]] of $X$ by the relation of path connections).
 
 In circumstances like these more sophisticated methods are appropriate, such as [[shape theory]].  This is also related to the [[fundamental group of a topos]], which is in general a [[progroup]] or a [[localic group]] rather than an ordinary group.
 
