@@ -43,8 +43,8 @@ Compare this to [[nonstandard analysis]], where infinite numbers are represented
 
 ## References
 
-Chapter VI in,
+See in 
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
 
-especially section 1.6 and section 2 of this chapter.
+chapter VI -- there section 1.6 section 2 -- and chapter VII.
