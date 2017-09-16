@@ -8,19 +8,21 @@
 
 ## Idea
 
-The notion of [[limit]] generalizes to [[quasi-category|quasi-categories]] straightforwardly using the generalization of [[over category]] and [[terminal object]] to [[over quasi-category]] and [[terminal object in a quasi-category]].
+One of the [[universal construction]]s in [[(∞,1)-category theory]]:
+
+the notion of [[limit]] generalizes from [[category theory]] to [[quasi-category|quasi-categories]] straightforwardly using the generalization of [[over category]] and [[terminal object]] to [[over quasi-category]] and [[terminal object in a quasi-category]].
 
 
 ## Definition
 
-For $K$ and $C$ two [[quasi-category|quasi-categories]] and $F : K \to C$ a morphism of [[quasi-category|quasi-categories]], the **limit** over $F$ is, if it exists, the [[terminal object in a quasi-category|quasi-categorical terminal object]] in the [[over quasi-category|over quasi-categories]] $C_{/F}$:
+For $K$ and $C$ two [[quasi-category|quasi-categories]] and $F : K \to C$ a morphism of [[quasi-category|quasi-categories]], the **limit** over $F$ is, if it exists, the [[terminal object in a quasi-category|quasi-categorical terminal object]] in the [[over quasi-category]] $C_{/F}$:
 
 $$
   lim F := TerminalObj(C_{/F})
   \,.
 $$
 
-The definition of [[colimit]] in this context is the obvious analogue.
+A quasi-categorical **colimit** is accordingly an limit in the [[opposite quasi-category]].
 
 ## Examples
 
@@ -90,11 +92,18 @@ If instead of [[∞-Grpd]] the target is the [[(∞,1)-category of (∞,1)-categ
 
 The definition of limit in quasi-categories is due to
 
-* A. Joyal, _Quasi-categories and Kan complexes_ Journal of Pure and Applied Algebra 175 (2002), 207-222.
 
-It appears as [definition 1.2.13.4, p. 48](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=48) in 
 
-* [[Jacob Lurie]], [[Higher Topos Theory]] 
+* [[André Joyal]], _Quasi-categories and Kan complexes_ Journal of Pure and Applied Algebra 175 (2002), 207-222.
+
+A brief survey is on page 159 of
+
+* [[André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
+
+
+A detailed account is in [definition 1.2.13.4, p. 48](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=48) in 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 
 
 [[!redirects limit in a quasi-category]]
