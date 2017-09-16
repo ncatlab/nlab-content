@@ -3,3 +3,6 @@ A [[function]] $f$ from $A$ to $B$ is __surjective__ if, given any element $y$ o
 A _[[bijection]]_ is a function that is both surjective and [[injection|injective]].
 
 The [[axiom of choice]] states precisely that every surjection in the category of sets has a [[section]].  Some authors who doubt the axiom of choice use the term 'onto' for a surjection as defined above and reserve 'surjective' for the stronger notion of a function with a section (a [[split epimorphism]]).
+
+
+[[!redirects surjective function]]
