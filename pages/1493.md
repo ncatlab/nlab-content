@@ -1,1 +1,3 @@
-redirect: [[omega-category]]
+See [[omega-category]].
+
+category: redirect
