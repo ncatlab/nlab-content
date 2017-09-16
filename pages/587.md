@@ -73,7 +73,9 @@ In [rot13](http://www.rot13.com/): gur bccbfvgr bs gur pngrtbel bs svavgryl cerf
 =--
 
 +--{.query}
-[[Finn Lawler]] Shouldn't that be 'gur bccbfvgr bs gur pngrtbel bs *svavgryl trarengrq serr tebhcf*'?
+[[Finn Lawler]] Shouldn't that be 'gur bccbfvgr bs gur pngrtbel bs svavgryl trarengrq serr tebhcf'?
+
+Wait, never mind.  I was confusing categories of contexts with Lawvere theories, which don't allow equations in contexts.  I can see how those would give you gur bccbfvgr bs gur pngrtbel bs svavgryl cerfragrq tebhcf.
 =--
 
 # Display morphisms
