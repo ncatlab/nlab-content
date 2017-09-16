@@ -59,10 +59,13 @@ More precisely...
 
 #References#
 
-Pages 29 to 31 of
+Complete Segal spaces were originally defined by
+Charles Rezk. 
+
+Information is for instance on pages 29 to 31 of
 
 * Jacob Lurie, _On the classification of TFTs_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
 
-Section 4 of 
+or section 4 of 
 
 * Julia E. Bergner, _A survey of $(\infty, 1)$-categories_ ([arXiv](http://arxiv.org/abs/math.AT/0610239)).
