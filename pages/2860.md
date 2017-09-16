@@ -56,7 +56,16 @@ Let $(C, \otimes, I)$ be a monoidal category.  We define the following full subc
 
 1. $C^{\operatorname{sym}}$ is the largest **symmetric** monoidal subcategory.  That is, it is the full subcategory where the switcheroo functor is naturally isomorphic to the identity.
 2. $C^{\operatorname{co}}$ is the subcategory of commutative, associative, unital **comonoids**.  Note that we take morphisms in $C$, not morphisms of comonoid.  These are the objects that come equiped with diagonal and projection morphisms.
+=-- 
+
++--{.query}
+
+[[Todd Trimble|Todd]]: Sorry, I don't know what you mean by the switcheroo functor for a monoidal category. 
+
+There is what is called the [[center]] of a monoidal category, which is a braided monoidal category. The center of the center should be symmetric monoidal (although I'd have to think this through again carefully). Comonoids in the center or center of center form a monoidal category, and I'm thinking something like this would be a natural habitat to consider. 
+
 =--
+
 
 Thus to be able to consider *arbitrary* Lawvere theories we need to be in the intersection of $C^{\operatorname{sym}}$ and $C^{\operatorname{co}}$.  However, there are many Lawvere theories that do not need such structure.  Accordingly we can interpose a finer classification on Lawvere theories according to whether or not they need the symmetric or comonoid structure.
 
@@ -115,6 +124,12 @@ $$
 
 Apart from the obvious question of finding the literature behind all of this (and thus getting the terminology correct), certain other questions spring to mind.  Well, okay, one question springs to mind.
 
-1. Suppose that I have two monoidal Lawvere theories, $T_1$ and $T_2$, that are equivalent as ordinary Lawvere theories.  Are they equivalent as monoidal Lawvere theories?  More concretely, suppose that I have two presentations for the same Lawvere theory in terms of operations and identities and both define monoidal Lawvere theories (so neither has identities involving repetition, omission, or exchanging[^minute]), are the **monoidal** Lawvere theories equivalent?
+1. Suppose that I have two monoidal Lawvere theories, $T_1$ and $T_2$, that are equivalent as ordinary Lawvere theories.  Are they equivalent as monoidal Lawvere theories?  More concretely, suppose that I have two presentations for the same Lawvere theory in terms of operations and identities and both define monoidal Lawvere theories (so neither has identities involving repetition, omission, or exchanging[^minute]), are the **monoidal** Lawvere theories equivalent? 
+
+_Todd_: Yes. More generally, there is a 2-functor 
+
+$$Cart \to Mon$$ 
+
+from the 2-category of categories with products, product-preserving functors, and natural transformations to the 2-category of monoidal categories, strong monoidal functors, and monoidal transformations. As all 2-functors do, this preserves equivalences (and the notions of equivalence in these 2-categories are the right ones). 
 
 [^minute]: I keep wanting to write "repetition, hesitation, or deviation".
