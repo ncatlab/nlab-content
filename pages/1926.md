@@ -104,12 +104,24 @@ topological spaces equipped with extra geometrical structure.
 +-- {: .un_defn}
 ###### Definition ( [[Structured Spaces|StSp]] )
 
-A **homotopical topology** on an [[(∞,1)-category]] $\mathcal{G}$ is a [[Grothendieck topology]] on $\mathcal{G}$ that is generated from its intersection with a subcategory $\mathcal{G}^{ad} \subset \mathcal{G}$ whose morphisms -- called the  **admissable morphisms** have the following properties
+A **homotopical topology** on an [[(∞,1)-category]] $\mathcal{G}$ is a [[Grothendieck topology]] on $\mathcal{G}$ that is generated from its intersection with a subcategory $\mathcal{G}^{ad} \subset \mathcal{G}$ whose morphisms -- called the  **admissible morphisms** have the following properties
 
-* admissable morphisms are stable under [[pullback]];
+* admissible morphisms are stable under [[pullback]];
 
-* admissable morphism satisfy [[category with weak equivalences|2-out-of-3]].
+* admissible morphism satisfy [[category with weak equivalences|2-out-of-3]].
+
+Equivalently, this is a [[Grothendieck topology]] on $\mathcal{G}$ which is _generated_ from admissible morphisms.
+
 =--
+
++-- {: .un_remark}
+###### Admissibility 
+
+As will become clear when looking at examples, the notion of
+admissible morphisms models the idea of maps between test spaces that behave like _open injections_ or, more generally, as _local homeomorphisms_ .
+
+=--
+
 
 +-- {: .un_defn}
 ###### Definition ( [[Structured Spaces]] 1.2.5 )
@@ -124,20 +136,63 @@ A **geometry (for $(\infty,1)$-toposes)** is
   
   * is [[idempotent complete category|idempotent complete]].
 
-* equipped with a _homotopical coverage_ .
+* equipped with a _homotopical topology_ .
+
 =--
+
+
++-- {: .un_defn}
+###### Definition (discrete geometry, [[Structured Spaces|StSp]], 1.2.10)
+
+The **disscrete geometry** $\mathcal{G}^0$ on $\mathcal{G}$ is given by
+
+* the admissible morphisms in $\mathcal{G}$ are precisely the equivalences
+
+* the [[Grothendieck topology]] on $\mathcal{G}$ is trivial: a [[sieve]] is covering only if it is maximal.
+
+Every (essentially small) [[(infinity,1)-category]] $C$ becomes a 
+geometry by regarding it as a discrete geometry in the above way.
+
+=--
+
+
 
 ## pregeometry ##
 
-... like a geometry, but only required to have
-[[product]]s, not required to have all [[limit]]s.
++-- {: .un_defn}
+###### Definition (pregeometry, [[Structured Spaces|StSp]], 3.1.1)
 
+A **pregeometry** (for structured [[(∞,1)-topos]]es) is 
+
+* an [[(∞,1)-category]] $\mathcal{T}$;
+
+* equipped with an admissibility structure (homotopical topology)
+
+such that
+
+* $\mathcal{T}$ has all [[product]]s.
+
+=--
+
+
++-- {: .un_remark}
+###### Remark 
+
+
+So a geometry differs from a pregeometry in that it is 
+[[idempotent complete]] and closed not
+only under [[products]] but under all finite [[limit]]s.
+
+Various concepts for geometries have immediate analogues for
+pregeometries.
+
+=--
 
 
 ## structured $(\infty,1)$-topos ##
 
 +-- {: .un_defn}
-###### Definition ([[Structured Spaces|StSp]], 1.2.8)
+###### Definition (geometry structure on an $(\infty,1)$-topos, [[Structured Spaces|StSp]], 1.2.8)
 
 For $\mathcal{G}$ a geometry, and $T \simeq Sh_\infty(S)$ an [[(∞,1)-topos]],
 a **$\mathcal{G}$-structure on the $(\infty,1)$-topos $T$** making it a 
@@ -163,7 +218,131 @@ such that
     Cech(C(\pi)) \stackrel{\simeq}{\to} C(W)
     \,.
   $$
+
 =--
+
+
++-- {: .un_defn}
+###### Definition (pregeometry structure on an $(\infty,1)$-topos, [[Structured Spaces|StrSp]] 3.1.4)
+
+Let $\mathcal{T}$ be a pregeometry and $\mathcal{X}$ an [[(∞,1)-topos]].
+
+A **$\mathcal{T}$-structure** on $\mathcal{X}$ is an [[(infinity,1)-functor]]
+$\mathcal{O} : \mathcal{T} \to \mathcal{X}$ such that
+
+* $\mathcal{O}$ preserves finite [[product]]s.
+
+* $\mathcal{O}$ preserves [[pullback]]s of  admissible morphism
+  in that for every [[pullback]] diagram
+
+  $$
+    \array{
+      U' &\to& U
+      \\
+      \downarrow && \downarrow^f
+      \\
+      X' &\to& X
+    }
+  $$
+  
+  in $\mathcal{T}$ with $f$ admissable, the image
+  
+  $$
+    \array{
+      \mathcal{O}(U') &\to& \mathcal{O}(U)
+      \\
+      \downarrow && \downarrow^f
+      \\
+      \mathcal{O}(X') &\to& \mathcal{O}(X)
+    }
+  $$
+  
+  is again a [[pullback]].
+  
+* $\mathcal{O}$ respects covers by admissable morphisms in that for every
+  covering sieve $\{f_i : U_i \to X\}$ in $\mathcal{T}$ by admissble $f_i$
+  the induced map $\coprod_i \mathcal{O}(U_i) \to \mathcal{O}(X)$
+  is an [[effective epimorphism]] in $\mathcal{X}$.
+
+=--
+
++-- {: .un_defn}
+###### Definition (geometric envelope, [[Structured Spaces|StrSp]] 3.4.1)
+
+...the universal geometry extending a pregeometry...
+
+=--
+
+
+
++-- {: .un_prop}
+###### Proposition ([[Structured Spaces|StSp]]  3.4.5) 
+
+
+Let $\mathcal{T}$ be a pregeometry and $f : \mathcal{T} \to \mathcal{G}$
+a morphism that exhibts the geometry $\mathcal{G}$ as a geometric envelope
+of $\mathcal{T}$. Then for every [[(∞,1)-topos]] $\mathcal{X}$ precomposition with $f$ induces an equivalence of 
+[[(infinity,1)-category|(∞,1)-categories]] of $\mathcal{T}$- and
+$\mathcal{G}$-structures on $\mathcal{X}$:
+
+$$
+  Str_{\mathcal{G}}(\mathcal{X}) \stackrel{\simeq}{\to}
+  Str_{\mathcal{T}}(\mathcal{X})
+  \,,\;\;\;\;
+  Str_{\mathcal{G}}(\mathcal{X})^{loc} \stackrel{\simeq}{\to}
+  Str_{\mathcal{T}}(\mathcal{X})^{loc}
+$$
+
+=--
+
+
+
+### smooth morphisms ###
+
++-- {: .un_defn}
+###### Definition (smooth morphism, [[Structured Spaces]], 3.1.7)
+
+A morphism $f : X \to S$ in a pregeometry $\mathcal{T}$ is called **smooth**
+if it is _locally stably admissaible_ in that there exists a  cover $\{u_i : U_i \to X\}$ (meaning: generators of a covering [[sieve]])
+of $X$ by admissible morphisms, such that on $U_i$ the morphism $f$
+factors admissibly through some $S \times V_i$ in that there is a commuting
+diagram
+
+$$
+  \array{
+    U_i &\stackrel{u_i}{\to}& X
+    \\
+    \downarrow && \downarrow
+    \\
+    S \times V_i &\stackrel{p_1}{\to}& S
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .un_remark}
+###### Remark 
+
+To interpret this, recall that we think of 
+admissible morphisms as injections of open subsets.
+
+=--
+
++-- {: .un_prop}
+###### Proposition ([[Structured Spaces]], 3.1.8)
+
+* Smooth morphisms are stable under [[pullback]].
+
+* pregeometric $\mathcal{T}$-structures $\mathcal{O} : \mathcal{T} \to \mathcal{X}$  preserve pullbacks of smooth morphisms.
+
+
+=--
+
+
+
+
 
 # Examples #
 
