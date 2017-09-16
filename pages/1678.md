@@ -26,10 +26,11 @@ F_{A,B}$
 respect to identities and composition (see the
 references for details).
 
-The word 'natural' is often dropped for brevity.
+An __oplax natural transformation__ is as above, only with the $2$-cells $\alpha_f$ reversed.  This distinction is not entirely consistent in the literature; see the discussion of terminology below.
 
-$\alpha$ is a __pseudo-natural__ transformation if each
-$\alpha_f$ is [[isomorphism|invertible]], and a __strict__ one if each is an [[identity morphism|identity]].  An __oplax__ transformation is as above, only with all 2-cells reversed.
+An (op)lax natural transformation $\alpha$ is a __[[pseudo-natural transformation]]__ if each $\alpha_f$ is [[isomorphism|invertible]], and a __strict natural transformation__ or __[[strict 2-natural transformation]]__ if each is an [[identity morphism|identity]].  
+
+In all of these cases, the word 'natural' is often dropped for brevity.
 
 
 ## Categories and $n$-categories of lax transformations ##
@@ -163,3 +164,8 @@ Also, if you reverse the definitions of lax and oplax transformations, then you 
 [arXiv](http://arxiv.org/abs/math/9810017).
 
 Note that both of these use somewhat outdated terminology.
+
+
+[[!redirects oplax transformation]]
+[[!redirects lax transformation]]
+[[!redirects oplax natural transformation]]
