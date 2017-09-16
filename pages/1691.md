@@ -1,8 +1,8 @@
-Let $G$ be a [[group]], $K\subset G$ a normal subgroup and $A$ a left $G$-module. Recall that the group cohomology $H^n(G,A)$ form the [[derived functor]] of the invariants functor $A\mapsto A^G = \{ a\in A | g a = a, g\in G\}$. The coinvariants can be computed in two stages $A^G = (A^K)^{G/K}$ and the [[Grothendieck spectral sequence]] for the composition of the two invariants functors can be computed. Therefore we obtain a functorial [[spectral sequence]], called the Hochschild--Serre spectral sequence with $E_2$-term 
+Let $G$ be a [[group]], $K\subset G$ a normal subgroup and $A$ a left $G$-module. Recall that the group cohomology $H^n(G,A)$ form the [[derived functor]] of the invariants functor $A\mapsto A^G = \{ a\in A | g a = a, g\in G\}$. The invariants can be computed in two stages $A^G = (A^K)^{G/K}$ and the [[Grothendieck spectral sequence]] for the composition of the two invariants functors can be computed. Therefore we obtain a functorial [[spectral sequence]], called the Hochschild--Serre spectral sequence with $E_2$-term 
 
 $$E^{p,q}_2 = H^p(G/H,H^q(H,A)),$$ 
 
-which is converging to the group cohomology $E^n_\infty = H^n(G,A)$.  There is a similar spectral sequence for group homology. 
+which is converging to the group cohomology $E^n_\infty = H^n(G,A)$.  There is a similar spectral sequence for group homology obtained as a Grothendieck spectral sequence for the two-stage computation of coinvariants.  
 
 
 [[!redirects Hochschild–Serre spectral sequence]]
