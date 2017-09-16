@@ -141,6 +141,8 @@ The subject as it develops from this point on is a little like doing [[different
 
 ## Differential Expansions of Propositions ##
 
+### Bird's Eye View ###
+
 An efficient calculus for the realm of logic represented by boolean functions and elementary propositions makes it feasible to compute the finite differences and differentials of those functions and propositions.
 
 For example, consider a proposition of the form &ldquo;$p \;\mathop{and}\; q$&rdquo; that is graphed as two letters attached to a root node:
@@ -191,13 +193,19 @@ And this is equivalent to the following graph:
 <img alt="Cactus Graph ((dP)(dQ))" src="/nlab/files/Cactus_Graph_lldPrldQrr.jpg" width="500" />
 </center>
 
-We have just met with the fact that the difference of the __$\mathop{and}$__ is the __$\mathop{or}$__ of the differences.
+We have just met with the fact that the logical difference of the __<font size="+1">and</font>__ is the __<font size="+1">or</font>__ of the logical differences.
 
 <center>
 <img alt="Cactus Graph PQ Diff ((dP)(dQ))" src="/nlab/files/Cactus_Graph_PQ_Diff_lldPrldQrr.jpg" width="500" />
 </center>
 
 It will be necessary to develop a more refined analysis of that statement directly, but that is roughly the nub of it.
+
+If the form of the above statement reminds you of De&nbsp;Morgan's rule, it is no accident, as differentiation and negation turn out to be closely related operations.  Indeed, one can find discussions of logical difference calculus in the Boole&ndash;De&nbsp;Morgan correspondence and Peirce also made use of differential operators in a logical context, but the exploration of these ideas has been hampered by a number of factors, not the least of which has been the lack of a syntax that was adequate to handle the complexity of expressions that evolve.
+
+### Worm's Eye View ###
+
+Let us run through the initial example again, this time attempting to interpret the formulas that develop at each stage along the way.
 
 ## External links ##
 
