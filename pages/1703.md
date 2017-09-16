@@ -65,6 +65,12 @@ The first article aiming to make this theory of higher bundles and [[gerbe]]s mo
 
 * [[Toby Bartels]], _2-Bundles_ ([arXiv](http://arxiv.org/abs/math.CT/0410328), [web](http://toby.bartels.name/2bundles/))
 
++--{ .query}
+Zoran: surely true for differential-geometric context, but in topos theoretic context concrete and systematic local trivialization vs. cocycle and 2-descent description is given also much earlier in Luca Mauri's thesis (http://home.aubg.bg/faculty/aganchev/Category Theory/Mauri (papers)/mauri-2.pdf) in 1998 and soon after that an abridged version is published in the article 
+
+L. Mauri, M. Tierney, Two-descent, two-torsors and local equivalence, J. Pure Appl. Algebra 143 (1999), 313--327
+=--
+
 One should notice that if one uses categories internal to [[diffeological space]]s, then these are (under their [[nerve]]) in particular [[simplicial presheaf|simplicial presheaves]], and that the [[anafunctor]]s used as morphisms between these simplicial presheaves represent precisely the morphisms the corresponding [[(infinity,1)-category of (infinity,1)-sheaves]] using the [[model structure on simplicial presheaves]] or, more lightweight, the structure of a Brown [[category of fibrant objects]] on $\infty$-groupoid valued sheaves.
 
 A description of higher prinicpal bundles (see also [[principal infinity-bundle]]) in terms of the [[model structure on simplicial presheaves]] appears in
