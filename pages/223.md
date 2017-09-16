@@ -16,3 +16,4 @@ Note that in this context, 'large' is used more strictly than in general categor
 
 
 [[!redirects essentially small category]]
+[[!redirects small categories]]
