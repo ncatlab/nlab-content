@@ -1,13 +1,25 @@
 # Idea #
 
+## in synthetic differential geometry ##
+
 In the context of [[synthetic differential geometry]] the notion of
 the _infinitesimal small_, which was historically formalised and is still
 widely thought of in terms
 of the limit constructions of differential calculus, is conceived 
 instead axiomatically in terms of special properties of certain
-_infinitesimal objects_ in a suitable [[topos]] of [[space]]s. In [[algebraic geometry]]
+_infinitesimal objects_ in a suitable [[topos]] of [[space]]s. 
+
+## in algebraic geometry ##
+
+In [[algebraic geometry]]
 there is an earlier and closely related formalism of infinitesimal neighborhoods, which is the foundation of Grothendieck's approach to [[regular differential operators]], costratifications, crystalline cohomology and de Rham descent. The infinitesimal thickenings also appear in a variant of noncommutative geometry of Kapranov
 , and in the language of abelian categories of quasicoherent sheaves in the work of Lunts and Rosenberg on regular differential operators in noncommutative context, which strongly takes into account tensor product.
+
+## in nonstandard analysis ##
+
+See 
+
+* [[nonstandard analysis]]
 
 # Definition #
 
