@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-30 #
 
+* [[David Corfield|David]]:
+
+  * asked question at [[context]]
+
 * [[Urs Schreiber|Urs]]:
 
   * expanded [[presentable (infinity,1)-category]] by adding the theorem that every presentable $(\infty,1)$-category is indeed presented by a combinatorial simplicial model category.
