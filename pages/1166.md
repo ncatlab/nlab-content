@@ -53,6 +53,8 @@ _Toby_:  Ha, now I\'ve realised that 'sequential convergence space' is really no
 [[Mike Shulman|Mike]]: Okay.  I didn't realize at first that a "convergence space" is not the same as a pseudotopological space, since pseudotopological spaces seem to me the most natural notion of convergence for filters.  (Are there natural convergence spaces that are not pseudotopological?)  Move it back to [[subsequential space]] if you want.
 
 _Toby_:  First, I really ought to check that I\'ve got the definitions of 'convergence space' and 'Cauchy space' exactly correct.  (In particular, the former varies somewhat in early literature, much as 'topological space' did when it first came out.)  I don\'t *think* that the pseudotopological clause is in there, but ... I need to double-check.  (And if it\'s not, then I\'ll find you your counterexample too.)
+
+_Toby_:  Here\'s your counterexample: convergence almost everywhere.  With this convergence, the space of almost-everywhere defined real-valued Lebesgue-measureable functions on the real line is a sequential convergence space that is not pseudotopological.
 =--
 
 
