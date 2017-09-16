@@ -7,3 +7,7 @@ A **complete lattice** is a [[partial order|poset]] which has all [[join|joins]]
 * The [[unit interval]] $[0,1]$.
 
 Of these example, only power sets are complete [[constructive mathematics|constructively]].
+
++--{: .query}
+[[Mike Shulman|Mike]]: Aren't some versions of the reals complete constructively?  Like the MacNeille reals?
+=--
