@@ -15,7 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-08-23
+
+*  [[Toby Bartels]]:  Tried to clean up the formatting at [[Jim Stasheff]]\'s new [[history of cohomology with local coefficients]].  In particular, this involved removing some stuff that seemed to refer to a bibliography that wasn\'t there, so please complain (or just put it back) if that was wrong.
 
 * [[Mike Shulman]]:
 
