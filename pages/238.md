@@ -13,7 +13,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-16
 
-* [[Zoran Škoda|Zoran]]: Created [[Loday-Pirashvili category]] and [[equivariant object]]. In the entry [[Bousfield localization]] I added a paragraph on Bousfield localization for triangulated categories. 
+* [[Zoran Škoda|Zoran]]: Created [[Loday-Pirashvili category]], [[dense functor]] and [[equivariant object]]. There are two different notions of dense subcategory, first of which has two different definitions and is related to colimits and nerve functor, and second which is related to pro-objects. In the entry [[Bousfield localization]] I added a paragraph on Bousfield localization for triangulated categories; made changes to [[nerve]] (more to be done: one needs to clarify the example of geometric realization etc.). 
 
 * [[Tim Porter|Tim]]: 
   * I have put a request on [[Loday-Pirashvili category]] for some discussion of the links between the ideas here and those in [[2-vector-space]], as there is overlap.
