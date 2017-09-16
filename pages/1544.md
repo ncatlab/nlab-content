@@ -131,6 +131,11 @@ Connections on [[tangent bundle]]s play an important role for instance on  [[Rie
 
 Generalizing the parallel transport definition from ordinary manifolds to [[supermanifold]]s yields the notion of [[superconnection]].
 
+
+## Simons-Sullivan structured bundles
+
+When the notion of connection on a principal bundle is slightly coarsened, i.e. when more connections are regarded as being ismorphic than usual, one arrives at a structure called a [[Simons-Sullivan structured bundle]]. This has the special property that for $G = U$  the [[unitary group]], the corresponding [[Grothendieck group]] of such bundles is a model for [[differential K-theory]].
+
 #References#
 
 The description of connections as smooth functors on the [[path groupoid]] has a long history in its restriction to _based loops_ . This is recalled at
