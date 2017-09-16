@@ -276,7 +276,7 @@ that obtains the model structure from the [[model structure on chain complexes]]
 
 A standard textbook reference is section V.3 of
 
-* [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra_, Springer
+* [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra_,  transl. from the 1988 Russian (Nauka Publ.) original. Springer 1996. xviii+372 pp. 2nd corrected ed. 2002.
 
 An original reference seems to be
 
