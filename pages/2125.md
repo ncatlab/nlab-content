@@ -24,13 +24,13 @@ If instead we look at chain complexes and [[simplicial object]]s not in [[Ab]] b
 
 * monoids in the category of simplicial vector spaces are simplicial algebras.
 
-Analogous statements apply to the dual Dod-Kan correspondence, where the monoids in question are accordingly cosimplicial rings and [[differential graded algebras]] with differential of positiuve degree.
+Analogous statements apply to the dual Dod-Kan correspondence, where the monoids in question are accordingly cosimplicial rings and [[differential graded algebras]] with differential of positive degree.
 
 A crucial fact about the [[Dold-Kan correspondence]] is that
 
 * The Dold-Kan correspondence respects these monoidal structures.
 
-But it doesn't in general do so _strictly_, except possibly in one direction. Rather, it does so in th context of [[higher category theory]].
+But it doesn't in general do so _strictly_, except possibly in one direction. Rather, it does so in the context of [[higher category theory]].
 
 
 There are two different versions of the monoidal Dold-Kan corespondence, which are almost but apparently not entirely formal duals of each other (at least not in the detailed constructions):
