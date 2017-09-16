@@ -20,7 +20,11 @@ So, roughly, an $(\infty,1)$-operad is an algebraic structure that has for each 
 
 ## Definitions
 
-Two models for $(\infty,1)$-operads exist to date, one by Cisinski-[[Ieke Moerdijk|Moerdijk]], the other by [[Jacob Lurie|Lurie]].
+Two models for $(\infty,1)$-operads exist to date, one by [[Denis-Charles Cisinski|Cisinski]]-[[Ieke Moerdijk|Moerdijk]]-[[Ittay Weiss|Weiss]], the other by [[Jacob Lurie|Lurie]].
+
+The first one models $(\infty,1)$-operads as [[dendroidal set]]s in close analogy to (in fact as a generalization of how) [[simplicial set]]s model [[(∞,1)-category|(∞,1)-categories]].
+
+The second models the [[(∞,1)-category]] version of a [[category of operators]] of an operad.
 
 ### In terms of dendroidal sets
 
@@ -119,7 +123,7 @@ At the time of this writing there is no discussion in "the literature" of the re
 =--
 
 
-There is an obvious way to regard as [[tree]] as an $(\infty,1)$-category of operators:
+There is an obvious way to regard a [[tree]] as an $(\infty,1)$-category of operators:
 
 +-- {: .un_defn}
 ###### Definition
@@ -213,7 +217,7 @@ By an (at the moment unpublished) result by [[Ieke Moerdijk|Moerdijk]], right [[
 
 For this the extension property means that if we find a collection $\{C_{k_i} \to N_d(A)\} = Sp(T)$ of corollas in $N_d(A)$ that match at some inputs and output, then these can be composed to an image $T \to N_d(A)$ of the corresponding tree $T$ in $N_d(A)$. 
 
-An image of $T$ in $N_d(A)$ is an image of $\omega(T)$ in $A$. In the [[category of operators]] $\omega(A)$ every tree may be represented as the composite of a sequence of morphisms each of which consists of precisely one of the corollas $C_{k_i}$ in parallel to a identity morphisms. This way gluing the tree from the corollas is a matter of composing a sequence of edges in $A$. But this is guaranteed to be possible if $A$ is a [[weak Kan complex]].
+An image of $T$ in $N_d(A)$ is an image of $\omega(T)$ in $A$. In the [[category of operators]] $\omega(A)$ every tree may be represented as the composite of a sequence of morphisms each of which consists of precisely one of the corollas $C_{k_i}$ in parallel to identity morphisms. This way gluing the tree from the corollas is a matter of composing a sequence of edges in $A$. But this is guaranteed to be possible if $A$ is a [[weak Kan complex]].
 
 **symmetric monoidal product and outer horn lifting**
 
