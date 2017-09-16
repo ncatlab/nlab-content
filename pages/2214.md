@@ -26,6 +26,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-15
 
+* [[Urs Schreiber]]
+
+  * created an entry [[inbound citations]] and linked to it from the main table of contents. Let me know what you think of this suggestion. See also the blog entry on it [here](http://golem.ph.utexas.edu/category/2009/09/inbound_citations.html).
+
 * [[Jon Awbrey]] added a [link to a Forum discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=71) at [[relation theory]].
 
 * [[Mike Shulman]]: Two questions at [[graph of a functor]].  One of them spills over into [[cograph of a functor]] and [[weak pullback]].
