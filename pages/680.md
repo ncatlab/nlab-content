@@ -61,7 +61,6 @@ where
 
   with [[differential]] $\partial_n : N G_n \to N G_{n-1}$ given by $d_0^n$.
 
-
 These functors respect the standard weak equivalences with respect to the standard [[model structure on simplicial sets]] [[model structure on chain complexes|and on chain complexes]] in that they induce isomorphisms between [[simplicial homotopy group]]s and [[homology]] groups.
 
 =--
@@ -249,12 +248,81 @@ is an isomorphism of all $j \lt n$. For $j = n-1$ this is then the desired resul
 
 Now consider the free chain complex on $\Delta^n$...
 
+# Generalizations and enhancements #
 
-
-# Generalizations #
-
-There are various generalizations of the standard
+There are various generalizations and enhancements of the
 Dold-Kan correspondence.
+
+## Monoidal version ##
+
+Both the category of simplicial abelian groups as well as the [[category of chain complexes]] carry a standard structure of a [[monoidal category]].  For simplicial abelian groups this is the levelwise or 'pointwise' tensor product.
+
+This means that one may ask whether the normalized Moore complex functor
+$$
+  N : [\Delta^{op},Ab] \to Ch_+(Ab) 
+$$
+and its adjoint
+$$
+  \Xi:  
+       Ch_+(Ab) \to [\Delta^{op},Ab] 
+$$
+respect these monoidal structures.  A partial answer is:
+
++-- {: .num_theorem }
+###### Theorem 
+
+For $Ab$ the category of abelian groups, the functor
+$$
+  N : [\Delta^{op},Ab] \to Ch_+(Ab) 
+$$
+
+is [[lax monoidal|lax monoidal functor]] with respect to the Eilenberg--Zilber map
+
+$$
+    EZ :  N(A \otimes A) \to N(A) \otimes N(B) 
+$$
+
+and [[oplax monoidal|oplax monoidal functor]] with respect to the Alexander--Whitney map 
+
+$$ 
+AW :  N(A) \otimes N(B) \to N(A \otimes B)
+$$
+
+Moreover, the Alexander--Whitney map is left inverse to the Eilenberg--Zilber map:
+
+$$  
+ AW \circ EZ = 1 : N(A \otimes B) \to N(A \otimes B) 
+$$
+
+However, Alexander--Whitney map is not right inverse to the Eilenberg--Zilber map:
+
+$$  
+ EZ \circ AW \ne 1 
+$$
+
+Instead there is a chain homotopy 
+
+$$ EZ \circ AW \simeq 1  
+$$
+
+Similarly, the adjoint to the normalized Moore complex functor
+
+$$
+  \Xi : Ch_+(Ab) \to [\Delta^{op},Ab]
+$$
+
+is lax monoidal with respect to the Alexander--Whitney map and oplax lax monoidal with respect to the Eilenberg--Zilber map.
+
+=--
+
+As a consequence, both $N$ and $\Xi$ send [[monoid|monoids]] to monoids and [[comonoid|comonoids]] to comonoids.   For more details, see:
+
+* [[monoidal Dold-Kan correspondence]]
+
+
+Moreover, the normalized Moore complex functor is both  and [[oplax monoidal|oplax monoidal functor]] with respect to the levelwise tensor product of simplicial
+
+
 
 ## Dual Dold--Kan correspondence ##
 
@@ -324,16 +392,6 @@ Perhaps the 'ultimate' form of a 'classical' Dold--Kan result is by Pilar Carras
 Dominique Bourn's formulation is very pretty. The Moore complex functor is [[monad|monadic]] when the basic category is semi-Abelian (Th. 1.4. p.113 in _Bourn2007_ below). Of course for simplicial _groups_, the  monad on chain complexes of groups gives the [[hypercrossed complex]]es of Carrasco and Cegarra, but here they fall out from the theory.  On the down side there is apparently no 
 full analysis as yet of the actual form of this monad.
 
-
-## Monoidal version ##
-
-Both the category of simplicial abelian groups as well as the [[category of chain complexes]] carry a standard structure of a [[monoidal category]].
-
-This means that one may consider [[monoid]]s in each of these categories and study what there image is under the Dold-Kan correspondence in the other category.
-
-This is discussed in detail at
-
-* [[monoidal Dold-Kan correspondence]]
 
 
 
