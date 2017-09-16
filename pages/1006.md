@@ -4,7 +4,7 @@ An **$n$-Lie algebra** is defined to be an algebraic structure which
 
 * _but_ without necessarily the grading underlying an $L_\infty$-algebra, and in particular without the requirement that $D_n$ be of homogeneous degree -1 in any grading.
 
-Therefore ,any "$n$-Lie algebras" that appear in the literature are **not** examples of $L_\infty$-algebras.
+Therefore, any "$n$-Lie algebras" that appear in the literature are **not** examples of $L_\infty$-algebras.
 
 So $n$-Lie algebras in this sense in general don't integrate to [[Lie infinity-groupoid]]s via the usual [[Lie theory]]. An important application of $n$-Lie algebras is as formalizations and generalizations of Nambu-brackets. 
 
