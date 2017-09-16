@@ -1,3 +1,2 @@
-See [[higher group character]].
-
-category: redirect
+&lt; [[higher group characters]]
+[[!redirects higher group characters -- history]]
