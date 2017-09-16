@@ -49,13 +49,7 @@ The categories $Gau$ and $QGau$ are not well known, but some of their subcategor
 
 *  An arbitrary topological space defines a quasigauge space in a more complicated way.  Given any open set $U$ in a space $X$, define the pseudometric (in fact a pseudoultrametric) $d_U$ as follows:
    $$ d_U(x,y) = \begin{cases} 0 & if\; x \in U \;\Rightarrow\; y \in U ,\\ 1 & if\; x \in U \;\wedge\; y \notin U ;\end{cases} $$
-   then the $d_U$ form a base for a quasigauge, which induces the original topology on $X$.  In other words, every space is "quasigaugeable."  In this way $Top$ also becomes a full subcategory of $QGau$.
-
-Note, though, that these various inclusions are not "compatible."  Any metric induces a uniformity, but the triangle
-$$\array{Met &\to& Unif \\ & \searrow &\downarrow \\ && Gau}$$
-does not commute.  (In particular, note that $Met\to Unif$ is not full, whereas both inclusions into $Gau$ are.)  Likewise, any uniformity induces a topology, but
-$$\array{Unif &\to& Top \\ & \searrow &\downarrow \\ && QGau}$$
-does not commute.
+   then the $d_U$ form a base for a quasigauge, which induces the original topology on $X$.  In other words, every space is "quasigaugeable."  In this way $Top$ also becomes a full subcategory of $QGau$.  Note, though that replacing $1$ by any other positive real number gives a _different_ embedding of $Top$ in $QGau$.
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Back atcha... do you have any good examples of gauge spaces that are not of one of these types?  And is there any value in embedding metric spaces, uniform spaces, and topological spaces into this mysterious larger category $QGau$, in ways so that their images are essentially disjoint?  Do we ever, for instance, want to talk about a short map from a metric space to a topological space, or vice versa?  I would like the answer to be "yes," but I haven't managed to make it come out that way myself yet.
@@ -67,6 +61,11 @@ Incidentally, I didn\'t list Cauchy spaces yet (and didn\'t finish describing ge
 I think that it\'s nice to be able to see these all as special cases of one kind of thing; then the usual ways of finding the 'underlying' foo of a bar become reflections (and sometimes coreflections).  This is basically how Lowen-Colebunder\'s book (which I\'ve referenced, for example, on [[convergence space]]) works (although her big category of everything is the category of mereological spaces, which includes $Conv$, rather than $QGau$).
 
 Seeing this as inclusions and (co)reflections prevents any expectation that the diagrams above should commute, since they mix different things in the wrong way.  On the other hand, it also shows us that (for example) any topological space has an underlying uniform space ... if you want it.
+
+[[Mike Shulman|Mike]]: I believe I did check that $Top\to QGau$ is full, but you should verify it.
+
+I removed my comments about triangles commuting; go ahead and write about the reflections and I'll see whether I still want to make that comment.  I can see thinking of uniform spaces as "saturated" gauge spaces, so that the uniform space underlying a metric space is its "saturation" (reflection) in the larger category $Gau$.  Perhaps Cauchy spaces can also be thought of this way.  I will be kind of surprised if $Top$ turns out to be reflective in $QGau$, but if it were that would also be pretty neat.
+
 =--
 
 ## Reflections
