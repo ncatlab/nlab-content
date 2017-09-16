@@ -349,7 +349,7 @@ and many more...
 
 ## talk notes ##
 
-* the talks by [[Dan Freed]], Schick, [[Ulrich Bunke] and Schreiber at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]. Much of the above material is taken from Thomas Schick's lecture there.
+* the talks by [[Dan Freed]], Schick, [[Ulrich Bunke]] and Schreiber at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]. Much of the above material is taken from Thomas Schick's lecture there.
 
 
 
