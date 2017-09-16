@@ -92,9 +92,7 @@ $$
   \,.
 $$
 
-Note that the join of simplicial sets $S \star T$ is cocontinuous in each of its separate arguments $S$, $T$ (this is true generally of Day convolution products). This observation can help simplify calculations. For example, simplicial joins preserve unions in the first argument $S$, and inasmuch as horns are unions of face simplices, it follows easily that 
-
-$$\Lambda^k[m] \star \Delta[n] \cong \Lambda^k[m+n+1]$$
+Note that the join of simplicial sets $S \star T$ is [[cocontinuous functor|cocontinuous]] in each of its separate arguments $S$, $T$ (this is true generally of Day convolution products). 
 
 ### Extension to a closed monoidal structure
 
@@ -114,14 +112,25 @@ $$
   \,.
 $$
 
+### Join of quasi-categories
+
+If the simplicial sets in question are [[quasi-categories]], their join computes the corresponding [[join of quasi-categories]], effectively an [[over quasi-category]] construction.
+
+In this sense the join can then also be computed -- up to equivalence of quasi-categories -- as the [[homotopy colimit|homotopy pushout]] of the two projections out of $S \times S'$.
+
 In this form, the join is used
 in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=42) of
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
-
-for the definition of the [[join of quasi-categories]]. 
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
 
+## Examples
+
+Recall that the join of simplicial sets $S \star T$ is a [[cocontinuous functor]] in each of its separate arguments $S$, $T$ (this is true generally of Day convolution products). 
+
+This observation can help simplify calculations. For example, simplicial joins preserve unions in the first argument $S$, and inasmuch as [[horn]]s are unions of face simplices, it follows easily that 
+
+$$\Lambda^k[m] \star \Delta[n] \cong \Lambda^k[m+n+1]$$
 
 
 ## References
