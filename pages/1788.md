@@ -5,7 +5,7 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 ***
 
-Click on the following links to jump to an anchor point.
+Click on the following links to jump to an anchor point.  Of course, the same syntax works when linking to different pages, just replace "Sandbox" with the name of that page.
 
 * [jump to the first anchor point](/nlab/show/Sandbox#anchor1)
 
@@ -37,9 +37,8 @@ Definition \ref{catdef} is clearly missing something.
 
 One caveat: if you want to use references to numbered definitions and theorems and so forth then **every** _numbered_ definition (etc) has to have a label, even if you don't intend referring back to it.  So if we have Definition 1 and Definition 2, and only intend referring back to Definition 2 then Definition 1 still has to have a label.
 
-This only works with anchors produced in definitions and similar.  So \ref{anotheranchor} doesn't work.
+This only works with anchors produced in definitions and similar.  So \ref{anotheranchor} doesn't work.  The converse, however, does work: we can use a link [like this](/nlab/show/Sandbox#catdef) to point to the above definition.  This also works from a different wiki page.
 
-Linking to anchors in other pages is something that maybe ought to go in the HowTo, but perhaps not in [this section](HowTo#svgedit).
 
 ***
 
