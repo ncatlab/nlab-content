@@ -4,7 +4,7 @@ If $C$ is a [[finitely complete category]] (a category with all [[finite limit]]
 
 ## Definition ##
 
-A [[functor]] $F: C \rightarrow D$ is __flat__ if each for each object $d \in D$, the [[comma category]] $(d / F)$ is [[filtered category|filtered]].
+A [[functor]] $F: C \rightarrow D$ is **flat** if for each object $d \in D$, the [[comma category]] $(d / F)$ is [[filtered category|cofiltered]].
 
 ### Remarks ###
 
