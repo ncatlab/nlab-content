@@ -127,8 +127,9 @@ $$
 
 (if either limit exists).
 
-
-
++--{.query}
+[[Todd Trimble]]: So far, this is a really good article. However, I would not say in this last line "if either limit exists", because small limits on the right certainly exist always since $Set$ is complete; instead, "if $lim F$ exists". 
+=--
 
 
 
