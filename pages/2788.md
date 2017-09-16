@@ -1,4 +1,4 @@
-# Experimental Alternative Definition of Functor
+#Contents#
 
 +-- {: .standout}
 This page is an informal/speculative discussion of an alternative (yet hopefully equivalent) definition of [[functor]]. It first appeared as a discussion at [[functor]] itself, but was subsequently moved here.
@@ -7,7 +7,15 @@ This page is an informal/speculative discussion of an alternative (yet hopefully
 * tic
 {: toc}
 
-##Definition##
+##Discussion 2.0##
+
+After Discussion 1.0 below, it seems that the original intention of this page was to define a [[functor]] in terms of a [[cograph of a functor|cograph]]. Given a functor, it is straightforward to construct its cograph. However, it may be possible to do the reverse, i.e. start with a cograph and infer the functor that gives rise to that cograph.
+
+Is it possible to define a functor in terms of cograph? If so, how?
+
+##Discussion 1.0##
+
+###Definition###
 Given small categories $A$ and $B$ define their **disjoint union** $A\sqcup B$ to be the category with
 $$Obj(A\sqcup B) = Obj(A)\sqcup Obj(B)$$
 and
@@ -27,7 +35,7 @@ $$i_A(a) = a\sqcup\emptyset,\quad i_A(b) = b\sqcup\emptyset,\quad\text{and}\quad
 and
 $$i_B(c) = \emptyset\sqcup\c,\quad i_B(d) = \emptyset\sqcup d,\quad\text{and}\quad i_B(g) = \emptyset\sqcup g.$$
 
-##Definition##
+###Definition###
 Given categories $A$, $B$ and inclusion maps $i_A:A\to A\sqcup B$, $i_B:B\to A\sqcup B$, a **functor** is a map $F:A\to B$ that assigns morphisms $\alpha_x:i_A(x)\to i_B\circ F(x)$ and $\alpha_y:i_A(y)\to i_B\circ F(y)$ for any morphism $f:x\to y$ in $A$ such that the following diagram commutes:
 $$ 
   \array{ 
@@ -118,7 +126,7 @@ $$
 
 ***
 
-##Definition##
+###Definition###
 Given small categories $A$ and $B$ define their **disjoint union** $A\sqcup B$ to be the category with
 $$Obj(A\sqcup B) = Obj(A)\sqcup Obj(B)$$
 and
@@ -142,7 +150,7 @@ $$i_B(c) = \emptyset\sqcup\c,\quad i_B(d) = \emptyset\sqcup d,\quad\text{and}\qu
 
 I intentionally did not use the word "functor" above even though that is really the [[coproduct]] in [[Cat]]. The reason is that I want to use this disjoint union to _define_ a functor. The following is a possible starting point:
 
-##Definition##
+###Definition###
 Given categories $A$, $B$ and inclusion maps $i_A:A\to A\sqcup B$, $i_B:B\to A\sqcup B$, a **functor** is a map $F:A\to B$ that assigns morphisms $\alpha_x:i_A(x)\to i_B\circ F(x)$ and $\alpha_y:i_A(y)\to i_B\circ F(y)$ for any morphism $f:x\to y$ in $A$ such that the following diagram commutes:
 $$ 
   \array{ 
@@ -165,7 +173,7 @@ $$
 
 ***
 
-##Discussion##
+###Discussion###
 
 [[Eric]]: Motivated by some discussion over at [[natural transformation]], I was wondering if the following alternative definition of functor holds water:
 
@@ -208,7 +216,7 @@ Alternatively, you could take it as understood that the sets $A_0$ and $B_0$ are
 
 ***
 
-##Definition##
+###Definition###
 Given categories $A$, $B$ and inclusion maps $i_A:A\to A\sqcup B$, $i_B:B\to A\sqcup B$, a **functor** is a map $F:A\to B$ that assigns morphisms $\alpha_x:i_A(x)\to i_B\circ F(x)$ and $\alpha_y:i_A(y)\to i_B\circ F(y)$ for any morphism $f:x\to y$ in $A$ such that the following diagram commutes:
 $$ 
   \array{ 
