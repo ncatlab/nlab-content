@@ -86,6 +86,15 @@ Can someone who has these notes or wants to write a summary put something here p
 I (Alex) am back in California.  It would be great if someone passed on notes of some sort from the conference.
 =--
 
+
+* [[Kevin Costello]], [[costello.pdf:file]], talk notes by [[Christoph Wockel]]
+
+* [[Chris Douglas]], [[douglas.pdf:file]], talk notes by [[Christoph Wockel]]
+
+* [[Jacob Lurie]], [[lurie.pdf:file]], talk notes by [[Christoph Wockel]]
+
+
+
 ### related $n$Lab entries ###
 
 * [[FQFT]]
