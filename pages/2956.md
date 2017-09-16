@@ -12,4 +12,4 @@ The _Baez-Dolan stabilization hypothesis_ states that for all $k = n+2$ a [[k-tu
 
 For the case of monoideal [[(n,r)-category|(n,1)-categories]] a proof of the stabilization hypothesis appears in 
 
-* [[Jacob Lurie]], [[E-k-Algebras]] ([stabilization hypothesis](http://ncatlab.org/nlab/show/E-k-Algebras#StabilizationHypothesis))
+* [[Jacob Lurie]], $\mathbb{E}[k]$-[[E-k-Algebras|Algebras]] ([stabilization hypothesis](http://ncatlab.org/nlab/show/E-k-Algebras#StabilizationHypothesis))
