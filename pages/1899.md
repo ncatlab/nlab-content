@@ -201,6 +201,8 @@ $$
 [[John Baez]]: I never take any principle to extremes, not even this one.  I mainly just want to make life easy on people who read my stuff or hear my talks.   I think links to "notation used on this page" would be great when used _in addition_ to on-the-spot explanations of the notation when it's introduced, and occasional reminders.  I'm afraid however that most mathematicians would use these hyperlinks as an excuse to use more notation, when 99% of them should spend time figuring out how to use less.  
 
 Anyway, I think I'm starting to repeat myself, so I'll stop.
+
+[[David Roberts]]: sorry for butting in (I've always wondered what would happen if I _edit the page anyway_). Maybe I'm lazy, but I've started to say, let $X$ be a space, then let $X$ be a topological groupoid etc. Sometimes I even use $Y$. Every map (in any category!) is called $f$ (or $g$, if absolutely necessary). Hopefully this immunises the reader to think that all such objects should be thought of in the same way. This is opposed to people who work with stacks as (justified) replacements for spaces, then use unreadable fonts to label them, when really the distinction should be erased. My two vents, I mean cents 
 =--
 
 
