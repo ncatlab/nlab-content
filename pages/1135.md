@@ -33,7 +33,7 @@ Equivalently, a [[category]] $C$ is **semi-abelian** if
 
 #Remarks#
 
-* In its most general form, the [[Dold-Kan corespondence]] holds for simplicial objects in semi-abelian categories.
+* In its most general form, the [[Dold-Kan correspondence]] holds for simplicial objects in semi-abelian categories.
 
 
 #Examples#
