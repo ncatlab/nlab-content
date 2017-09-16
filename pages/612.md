@@ -1,20 +1,44 @@
+<div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://owpdb.mfo.de/photoNormal?id=6852" alt="Jacob Lurie" /></div>
+
+
 
 * [website](http://www-math.mit.edu/~lurie/)
 
 
 #References (partly) indexed on the $n$Lab#
 
-* [[Higher Topos Theory]] ([pdf](http://www-math.mit.edu/~lurie/topoibook/highertopoi.pdf))
-* [[Stable Infinity-Categories]] ([pdf](http://www-math.mit.edu/~lurie/topoibook/DAGI.pdf))
-* [[higher algebra|Noncommutative Algebra]] ([pdf](http://www-math.mit.edu/~lurie/topoibook/DAGII.pdf))
-* [[higher algebra|Commutative Algebra]] ([pdf](http://www-math.mit.edu/~lurie/topoibook/DAGIII.pdf))
-* [[structured generalized space|Structured spaces]] ([pdf](http://www-math.mit.edu/~lurie/papers/DAG-V.pdf))
-* [[On the Classification of Topological Field Theories]] ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
-* [[(infinity,2)-category|(infinity,2)-categories]] ([pdf](http://www-math.mit.edu/~lurie/papers/bicat.pdf))
+* [[Higher Topos Theory]] ([arXiv](http://www-math.mit.edu/~lurie/papers/survey.pdf))
+
+  on [[higher category theory]] and [[higher topos theory]]
+
+* [[(∞,2)-category|(infinity,2)-categories]] ([arXiv](http://arxiv.org/abs/0905.0462))
+
+  on [[higher category theory]]
+
+* [[Stable ∞-Categories]] ([arXiv](http://arxiv.org/abs/math/0608228))
+
+  on [[stable homotopy theory]] and [[homological algebra]]
+
+* [[higher algebra|Noncommutative Algebra]] ([arXiv](http://arxiv.org/abs/math/0702299))
+
+  and
+
+  [[higher algebra|Commutative Algebra]] ([arXiv](http://arxiv.org/abs/math/0703204))
+
+  on [[higher algebra]]
+
+* [[structured generalized space|Structured spaces]] ([arXiv](http://arxiv.org/abs/0905.0459))
+
+* [[On the Classification of Topological Field Theories]] ([arXiv](http://arxiv.org/abs/0905.0465))
+
+  on [[FQFT|functorial]] [[extended topological quantum field theory|extended]] [[TQFT|topological]] [[quantum field theory]]
+
+* [[A Survey of Elliptic Cohomology]] ([pdf](http://www-math.mit.edu/~lurie/papers/survey.pdf))
+
+  on the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[tmf]], the gluing of all [[elliptic cohomology]] theories
 
 
-+-- {: .query}
-Many of these links seem to be broken today (2009-06-28).  ---Toby
+
 =--
 
-category: biography
+category: people
