@@ -37,6 +37,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * started a stub-entry on [[Stable Infinity-Categories]] (Lurie's PhD part I) and advertized this little program of textbook $n$labification [here](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c022834) at the blog
+
   * started an entry [[Higher Topos Theory]] (on Lurie's book) in a style analogous to [[Categories and Sheaves]] -- I included a link to [[Mike Shulman|Mike]]'s personal page [[michaelshulman:n-topos for large n|n-topos for large n]]; eventually it would be nice if we had an entry on the general idea and purpose of [[higher topos theory]]
 
   * started expanding [[Kan extension]]
