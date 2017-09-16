@@ -1,0 +1,6 @@
+Cosieve is a dual notion to [[sieve]], and they can be used to define Grothendieck cotopologies.
+
+A __cosieve__ $R$ under object $x$ in $C$ is a family of morphisms $f:x\to y$ in $C$ with domain $x$ closed under postcomposition with any morphism in $C$. In other words, $f\in R$ implies $h\circ f\in R$ whenever the composition $h\circ f$ exists. Cosieves under $x$ are also said to be _cosieve in_ the under-category $x\C$; all such cosieves for varying $x$ are said to be _cosieves on_ $C$. Cosieves may be viewed subfunctors of the (co)representable (covariant) functors $h^x=C(x,-)$. 
+
+Cosieves on $C$ may be organized into a category $\mathrm{coSv}(C)$. For convenience we will note the domain $x$ of a sieve as a part of the data. Thus objects of $\mathrm{coSv}(C)$ are pairs of the form $(x,R)$ where $x\in\mathrm{Ob}(C)$ and $R$ is a cosieve in $x\C$. A morphism $(x,R)\to (x',R')$ is a map $f:x\to x'$ such that
+the cosieve $R'\circ f = \{g\circ f | g\in R'\}$ is a subset of $R$. The usual composition of underlying morphisms in $C$ defines a composition in $\mathrm{coSv}(C)$, because $R''\circ (g\circ f)= (R''\circ g)\circ f\subset R'\circ f\subset R$ where $g:(x',R')\to (x'',R'')$.    
