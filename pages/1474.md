@@ -1,25 +1,64 @@
 A [[topological space]] (or more generally, a [[convergence space]]) is _Hausdorff_ if convergence is unique.  The concept can also be defined for [[locale]]s, but it is not as natural and a bit complicated.  A Hausdorff space is often called $T_2$, since this condition came second in the original list of four [[separation axioms]] (there are more now) satisfied by [[metric space]]s.
 
-Hausdorff spaces are a kind of [[nice topological space]]; they do not form a particularly [[nice category of spaces]] themselves, but many such nice categories consist of only Hausdorff spaces.  In fact, Felix Hausdorff\'s original definition of 'topological space' actually required the space to be Hausdorff, hence the name.  Certainly [[homotopy theory]] needs only Hausdorff spaces.  It is also common in analysis to assume that all spaces encountered are Hausdorff; if necessary, this can be arranged since every space has a Hausdorff quotient (in fact, the Hausdorff spaces form a [[reflective subcategory]] of [[Top]]), although usually an easier method is available than this sledgehammer.
+Hausdorff spaces are a kind of [[nice topological space]]; they do not form a particularly [[nice category of spaces]] themselves, but many such nice categories consist of only Hausdorff spaces.  In fact, [[Felix Hausdorff]]\'s original definition of 'topological space' actually required the space to be Hausdorff, hence the name.  Certainly [[homotopy theory]] (up to [[weak homotopy equivalence]]) needs only Hausdorff spaces.  It is also common in analysis to assume that all spaces encountered are Hausdorff; if necessary, this can be arranged since every space has a Hausdorff quotient (in fact, the Hausdorff spaces form a [[reflective subcategory]] of [[Top]]), although usually an easier method is available than this sledgehammer.
+
 
 ## Definitions
 
-The traditional definition is this:  A topological space is __Hausdorff__ if any two distinct points can be separated by neighbourhoods.  That is, given points $x$ and $y$, if $x \neq y$, then there exist neighbourhoods $U$ of $x$ and $V$ of $y$ such that $U \cap V$ is the [[empty set]].
+The traditional definition is this:
++-- {: .num_defn #classical}
+###### Definition
+Given points $x$ and $y$, if $x \neq y$, then there exist neighbourhoods $U$ of $x$ and $V$ of $y$ such that $U \cap V$ is the [[empty set]].
+=--
+That is, any two distinct points can be separated by neighbourhoods.
 
-Here is a classically equivalent definition that is more suitable for [[constructive mathematics]]:  Given points $x$ and $y$, if every neighbourhood $U$ of $x$ meets every neighbourhood $V$ of $y$ (which means that $U \cap V$ is [[inhabited set|inhabited]]), then $x = y$.
+Here is a classically equivalent definition that is more suitable for [[constructive mathematics]]:
++-- {: .num_defn #constructive}
+###### Definition
+Given points $x$ and $y$, if every neighbourhood $U$ of $x$ meets every neighbourhood $V$ of $y$ (which means that $U \cap V$ is [[inhabited set|inhabited]]), then $x = y$.
+=--
 
-Here is an equivalent definition that makes sense for arbitrary [[convergence space]]s:  Given a [[net]] (or equivalently, a proper [[filter]]), if it converges to both $x$ and $y$, then $x = y$.  That is, convergence in a Hausdorff space is unique.
+Here is an equivalent definition (constructively equivalent to Definition \ref{constructive}) that makes sense for arbitrary [[convergence space]]s:
++-- {: .num_defn #convergence}
+###### Definition
+Given a [[net]] (or equivalently, a proper [[filter]]), if it converges to both $x$ and $y$, then $x = y$.
+=--
+That is, convergence in a Hausdorff space is unique.
 
-Here is a definition for [[locale]]s, equivalent to the above for spatial locales:  ...  (Get this from Johnstone.)
-
-There is also a notion of _sequential_ Hausdorffness:  A space is __sequentially Hausdorff__ if, whenever a [[sequence]] converges to both $x$ and $y$, then $x = y$.  Some forms of [[predicative mathematics]] find this concept more useful.  Hausdorffness implies sequential Hausdorffness, but the converse is false even for [[sequential space]]s (although it is true for [[first countable space]]s).
 
 ## Properties
 
 The topology on a [[compact space|compact]] Hausdorff space is given precisely by the (existent because compact, unique because Hausdorff) limit of each [[ultrafilter]] on the space.  Accordingly, compact Hausdorff topological spaces are (perhaps surprisingly) described by a (large) [[algebraic theory]].  In fact, the category of compact Hausdorff spaces is monadic (over [[Set]]); the [[monad]] in question maps each set to the set ultrafilters on it.  (The results of this paragraph require the [[ultrafilter theorem]], a weak form of the [[axiom of choice]].)
 
-A compact Hausdorff locale is necessarily regular; a regular locale is necessarily Hausdorff.  Accordingly, [[locale]] theory usually speaks of 'compact regular' locales instead of 'compact Hausdorff' locales, since the definition of regularity is easier and more natural.  Then a version of the previous paragraph works for compact regular locales *without* the ultrafilter theorem, and indeed [[constructive mathematics|constructively]] over any [[topos]].
+A compact Hausdorff locale (or space) is necessarily [[regular locale|regular]]; a regular locale (or $T_0$ space) is necessarily Hausdorff.  Accordingly, [[locale]] theory usually speaks of 'compact regular' locales instead of 'compact Hausdorff' locales, since the definition of regularity is easier and more natural.  Then a version of the previous paragraph works for compact regular locales *without* the ultrafilter theorem, and indeed [[constructive mathematics|constructively]] over any [[topos]].
 
-[[!redirects Hausdorff spaces]]
+
+## Related notions
+
+Arguably, the desire to make spaces Hausdorff ($T_2$) in analysis is really a desire to make them $T_0$; nearly every space that arises in analysis is at least [[regular space|regular]], and a regular $T_0$ space must be Hausdorff.  Forcing a space to be $T_0$ is like forcing a [[category]] to be [[skeletal category|skeletal]]; indeed, forcing a [[preorder]] to be a [[partial order]] is a special case of both (see [[specialisation topology]] for how).  It may be nice to assume, when working with a particular space, that it is $T_0$ but not to assume, when working with a particular underlying set, that every topology on it is $T_0$.
+
+Whatever one thinks of that, there is a non-$T_0$ version of Hausdorff space, an __$R_1$ space__.  (The symbol here comes from being a weak version of a **r**egular space; in general a $T_i$ space is precisely both $R_{i-1}$ and $T_0$).  This is also called a __preregular space__ (in _[[HAF]]_) and a __reciprocal space__ (in convergence theory).
++-- {: .un_defn}
+###### Definition (of $R_1$)
+Given points $a$ and $b$, if every neighbourhood of $a$ meets every neighbourhood of $b$, then every neighbourhood of $a$ is a neighbourhood of $b$.  Equivalently, if any net (or proper filter) converges to both $a$ and $b$, then every net (or filter) that converges to $a$ also converges to $b$.
+=--
+
+There is also a notion of __sequentially Hausdorf space__:
++-- {: .un_defn}
+###### Definition (of sequentially Hausdorff)
+Whenever a [[sequence]] converges to both $x$ and $y$, then $x = y$.
+=--
+Some forms of [[predicative mathematics]] find this concept more useful.  Hausdorffness implies sequential Hausdorffness, but the converse is false even for [[sequential space]]s (although it is true for [[first countable space]]s).
+
+The reader can now easily define a _sequentially $R_1$ space_.
+
+
 [[!redirects sequentially Hausdorff space]]
+[[!redirects R1 space]]
+[[!redirects preregular space]]
+[[!redirects reciprocal space]]
+[[!redirects Hausdorff spaces]]
 [[!redirects sequentially Hausdorff spaces]]
+[[!redirects R1 spaces]]
+[[!redirects preregular spaces]]
+[[!redirects reciprocal spaces]]
