@@ -9,4 +9,5 @@ Topologist and author of
 
 amongst others.
 
+
 [Home page](http://www.mpim-bonn.mpg.de/Research/People/Senior+Researchers/Baues,+H.-J./)
