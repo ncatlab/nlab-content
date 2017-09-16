@@ -44,7 +44,7 @@ In particular, any [[symmetric monoidal (∞,1)-category]] yields an example of 
 
 This is the approach described in (the new version of !)
 
-* [[Jacob Lurie]], _Commutative algebra_ ([pdf](http://www-math.mit.edu/~lurie/papers/DAG-III.pdf))
+* [[Jacob Lurie]], _Commutative algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-III.pdf))
 
 
 [[!redirects (∞,1)-operad]]
