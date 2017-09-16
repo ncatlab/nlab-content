@@ -7,6 +7,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-07-25
+
+*  [[Toby Bartels]]:  Comments for Eric at [[measure space]] and [[Eric Forgy:Densitized Pseudo Twisted Forms|on his web]].
+
+
 ## 2009-07-24
 
 *  [[Toby Bartels]]:
