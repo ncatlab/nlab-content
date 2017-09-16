@@ -1,3 +1,10 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
 A **sketch** is a [[small category]] with specified [[limit]]s and [[colimit]]s.
 
 A **model of a sketch** is a [[Set]]-valued [[functor]] preserving the specified limits and colimits.
@@ -10,7 +17,7 @@ A **limit-sketch** is a sketch with just limits and no colimits specified.
 
 The categories of models of limit-sketches are the [[locally presentable category|locally presentable categories]].
 
-#References#
+## References
 
 An overview of the theory is given in
 
