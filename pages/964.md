@@ -3,6 +3,7 @@ $$ x \wedge (\bigvee_i y_i) = \bigvee_i (x\wedge y_i).$$
 
 A frame will automatically be a [[Heyting algebra]] by the [[adjoint functor theorem]], so you can think of a frame as a [[cartesian closed category|cartesian closed]] [[suplattice]], or a cartesian [[quantale]].  Note that frame homomorphisms are not required to preserve the Heyting implication.
 
-An object of the [[opposite category]] to the category of frames is a [[locale]], an alternative to a [[topological space]].  Conversely, any topological space has a frame of open subsets.  (In fact, one definition of a topological space is a set equipped with a subframe of its power set.)
+An object of the [[opposite category]] to the category of frames is a [[locale]], an alternative to a [[topological space]].  Conversely, any topological space has a frame of open subsets.  (In fact, one definition of a topological space is a set equipped with a subframe of its [[power set]].)
+
 
 [[!redirects frames]]
