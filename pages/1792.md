@@ -64,7 +64,9 @@ Up to topological structure, the suspension of the $n$-[[simplex]] is the $(n+1)
 
 ## References ##
 
-Everybody knows about the suspension, but [Wikipedia](http://secure.wikimedia.org/wikipedia/en/wiki/Join_%28topology%29) knows about the join (see also textbooks by Hatcher and Postnikov, Homotopy of CW-complexes). The question on what is the Eckman-Hilton dual to $X\star Y$ find in 
+Everybody knows about the suspension, but [Wikipedia](http://secure.wikimedia.org/wikipedia/en/wiki/Join_%28topology%29) knows about the join.  See also the textbook by Hatcher and Postnikov, _Homotopy of CW-complexes_.
+
+The question on what is the Eckman-Hilton dual to $X\star Y$ find in 
 
 * D. B. Fuks, Eckmann--Hilton duality and the theory of functors in the category of topological spaces, 1966 Russ. Math. Surv. 21 1--33 [doi](http://dx.doi.org/10.1070/RM1966v021n02ABEH004149), [free Russian original pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=5847&what=fullt&option_lang=rus)
 
