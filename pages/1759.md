@@ -30,6 +30,8 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 ## 2009-07-23
 
+* [[Andrew Stacey]] was pleasantly pleased to stumble across [[Tall-Wraith monoid]]s and made a few minor alterations (mainly style, and added a couple of references).  I'll shove this question over on the [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=49) as well, but should we have a lab convention on fonts for categories, functors, objects, and the like?
+
 * [[David Corfield]]
 
   * started [[P-ring]]
