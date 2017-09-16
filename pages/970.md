@@ -24,3 +24,5 @@ _Toby_:  The functional question is whether we should make links like `[[small c
 _Toby_:  Looks good.  I did redirect [[essentially small category]] to [[small category]] on the grounds that they\'re actually equivalent; but if there\'s anything special to say on the former, you can undo that.
 
 =--
+
+[[!redirects large categories]]
