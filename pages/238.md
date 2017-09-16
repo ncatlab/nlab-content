@@ -13,6 +13,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 #2009-04-01
 
+* [[Tim Porter|Tim]]: (I seem to remember a request to put more recent changes at the top, even if you have one on today's page so ... .)
+
+  * I have put another of the Lexicon series of entries up.  It is [[differential graded Lie algebra]].
+
 * [[Urs Schreiber|Urs]]
 
   * created [[infinity-stackification]]
