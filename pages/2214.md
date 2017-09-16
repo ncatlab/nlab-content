@@ -50,6 +50,14 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-17
 
+* [[Urs Schreiber]]: 
+
+  * branched off the seminar notes mentioned below to [[basic ideas of moduli stacks of curves and Gromov-Witten theory]]
+
+    in that context created [[moduli space]], currently also being the redirect for [[fine moduli space]], [[coarse moduli space]] and [[moduli stack]]
+
+    all still mighty rough, but I think valuable raw material to base further editorial developments on
+
 * [[Andrew Stacey]] I have replied to Zoran's points over on the n-Forum at [this discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64) since that seems a better place to have a discussion than here.
 
 * [[Urs Schreiber]]: 
