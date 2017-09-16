@@ -13,7 +13,7 @@ A [[category]] $C$ is **semi-abelian** if it
 
 * is [[exact category|Barr-exact]];
 
-* is [[Bourn-protomodular]].
+* is [[Bourn-protomodular category|Bourn-protomodular]].
 
 Equivalently, a [[category]] $C$ is **semi-abelian** if
 
