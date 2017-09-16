@@ -41,4 +41,19 @@ a **localization** of $C$.
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
+
 [[!redirects localization of an (∞,1)-category]]
+[[!redirects localisation of an (infinity,1)-category]]
+[[!redirects localization of an (∞,1)-category]]
+[[!redirects localizations of an (infinity,1)-category]]
+[[!redirects localizations of an (∞,1)-category]]
+[[!redirects localisations of an (infinity,1)-category]]
+[[!redirects localizations of an (∞,1)-category]]
+[[!redirects localizations of (infinity,1)-categories]]
+[[!redirects localizations of (∞,1)-categories]]
+[[!redirects localisations of (infinity,1)-categories]]
+[[!redirects localizations of (∞,1)-categories]]
+[[!redirects localization of (infinity,1)-categories]]
+[[!redirects localization of (∞,1)-categories]]
+[[!redirects localisation of (infinity,1)-categories]]
+[[!redirects localization of (∞,1)-categories]]
