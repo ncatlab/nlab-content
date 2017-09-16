@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
 Handling higher structures such as [[higher category theory|higher categories]] usually involves conceiving them as  conglomerates of _cells_ of certain _shape_.
 
 The most familiar of these possible shapes are
