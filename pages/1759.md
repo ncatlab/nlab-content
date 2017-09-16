@@ -12,6 +12,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-07-05
+
+* [[Urs Schreiber]]
+
+  * added a tiny bit of discussion to [[principal infinity-bundle]] about how the homotopy pullback definition gives the $G$-action and vice versa. But need to say more here.
+
+    * By the way has anyone seen [[Mike Shulman|Mike]]? I know that he has thought about this, it's related to his [[michaelshulman:exactness hypothesis|exactness hypothesis]].
 
 ## 2009-07-04
 
