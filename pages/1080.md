@@ -1,10 +1,10 @@
 #Idea#
 
-In a category $C$ with [[biproduct]]s, morphisms between objects are naturally encoded in terms of arrays of morphisms between the [[direct sum|direct summands]] of the objects. The natural operations on  morphisms (addition, composition) correspond to the usual matrix calculus operations on these arrays. 
+In a category $C$ with [[biproduct]]s, morphisms between finite biproducts are naturally encoded in terms of arrays of morphisms between the [[direct sum|direct summands]] of the objects. The natural operations on  morphisms (addition, composition) correspond to the usual matrix calculus operations on these arrays. 
 
 For the special case that $C =$ [[Vect]] this reproduces the standard matrix calculus of linear algebra.
 
-#Definition#
+#Rules#
 
 Let $f : X \to Y$ be a [[morphism]] in a [[category]] with [[biproduct]]s where the objects $X$ and $Y$ are given as [[direct sum]]s
 $$
@@ -15,14 +15,14 @@ $$
   \,.
 $$
 
-Since a [[biproduct]] is both a [[product]] as well as a [[coproduct]], the morphism $f$ is fixed by all its compositions $f_{i j}$ with the product projections $p_i : Y \to Y_i$ and the coproduct injections $i_j : X_j \to X$:
+Since a [[biproduct]] is both a [[product]] as well as a [[coproduct]], the morphism $f$ is fixed by all its compositions $f^i_j$ with the product projections $\pi^i : Y \to Y_i$ and the coproduct injections $\iota_j : X_j \to X$:
 
 $$
-  f_{i j}
+  f^i_j
   :=
-  X_j \stackrel{i_j}{\to}
+  X_j \stackrel{\iota_j}{\to}
   X \stackrel{f}{\to}
-  Y \stackrel{p_i}{\to}
+  Y \stackrel{\pi^i}{\to}
   Y_i
   \,.
 $$
@@ -33,11 +33,11 @@ $$
   f := 
   \left(
     \array{
-       f_{11} & f_{12} & \cdots & f_{1 m}
+       f^1_1 & f^1_2 & \cdots & f^1_m
        \\
-       \vdots & \vdots && \vdots
+       \vdots & \vdots & \ddots & \vdots
        \\
-       f_{n1} & f_{n2} & \cdots & f_{n m}
+       f^n_1 & f^n_2 & \cdots & f^n_m
     }
   \right)
   \,.
@@ -45,36 +45,40 @@ $$
 
 With this notation one has the following rules for computation:
 
-**matrix addition**
+##matrix addition##
 
 $$
-  (f + g)_{i j} = f_{i j} + g_{i j}
+  (f + g)^i_j = f^i_j + g^i_j
 $$
 
 
-**matrix product **
+##matrix multiplication##
 
 $$
-  (g \circ f)_{i j}
+  (g \circ f)^i_j
   =
-  \sum
-     g_ {k j} \circ f_{i k}
+  \sum_k
+     g^k_j \circ f^i_k
   \,,
 $$
 
 where in each case the sum of morphisms is taken using the canonical [[enriched category|enrichment]] of $C$ in abelian [[monoid]]s (as described at [[biproduct]]).
 
+##Summation convention##
+
+As can be seen in the above formulas, particularly for matrix multiplication, this is a context is which the **[Einstein summation convention](https://secure.wikimedia.org/wikipedia/en/wiki/Einstein_summation_convention)** can be used, with a distinction drawn between upper and lower indices.  Then repeated indices (in formulas with general applicability) will always appear once upper and once lower, summed over.  However, this convention can apply only to the morphisms, not to the objects.
+
 #In dagger categories#
 
 If the category $C$ is in addition a [[dagger category]] with an obvious compatibility condition between the dagger operation $(-)^\dagger : C \to C$ and the biproduct structure, then the usual rules of computation for matrices over complex numbers have analogs in $C$.
 
-**conjugation**
+##conjugation##
 
 $$
   (f^\dagger)_{i j} =  (f_{j i})^\dagger
 $$
 
-
+Here the distinction between upper and lower indices cannot be maintained, although it is still true that repeated indices will be summed in formulas with general applicability.
 
 #References#
 
