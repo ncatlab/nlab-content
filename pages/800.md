@@ -45,7 +45,7 @@ is fraught with peril.  For instance, an adjoint inverse is unique up to unique 
 
 ## Weak equivalence ##
 
-Categories $C$ and $D$ are __weakly equivalent__ if there exist a category $X$ and functors $F: X \to D$ and $G: X \to C$ that are [[essentially surjective functor|essentially surjective]] and [[fully faithful functor|fully faithful]].  In this case, we say that $F$ is a __weak equivalence__ from $X$ to $D$ (so $G$ is an equivalence from $X$ to $C$) and call the [[span]] $(X,F,G)$ a __weak equivalence__ between $C$ and $D$.
+Categories $C$ and $D$ are __weakly equivalent__ if there exist a category $X$ and functors $F: X \to D$ and $G: X \to C$ that are [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|fully faithful]].  In this case, we say that $F$ is a __weak equivalence__ from $X$ to $D$ (so $G$ is an equivalence from $X$ to $C$) and call the [[span]] $(X,F,G)$ a __weak equivalence__ between $C$ and $D$.
 
 A functor with a weak inverse is necessarily essentially surjective and fully faithful; the converse is equivalent to the axiom of choice.  Thus any strong equivalence becomes a weak equivalence in which $X$ is taken to be either $C$ or $D$ (or even built symmetrically out of $C$ and $D$ if you\'re so inclined); a weak equivalence becomes a strong equivalence using the axiom of choice to find weak inverses and composing across $X$.
 
