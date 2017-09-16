@@ -20,7 +20,7 @@ Other attempted axiomatizations of the same idea "something that acts like the c
 
 * [[bicategory of relations]] (a special sort of [[cartesian bicategory]])
 
-* [[1-category equipment]]
+* [[1-category equipped with relations]]
 
 ## References
 
