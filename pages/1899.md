@@ -11,8 +11,7 @@ Let $V$ be an [[algebraic theory]] and let $V Alg$ be the category of models of 
 =--
 
 To see why these are _what acts on $V$-algebras_ one needs to understand what a co-$V$-object in $V Alg$ actually is.
-A co-$V$-object in some category $D$ is a [[representable functor|representable covariant functor]] from $D$ to $V Alg$.
-To give a particular $D$-object, $d$, the structure of a co-$V$-object is to give a lift of the $Set$-valued $Hom$-functor $D(d,-)$ to $V Alg$.
+A co-$V$-object in some category $D$ is a [[representable functor|representable covariant functor]] from $D$ to $V Alg$.  To give a particular $D$-object, $d$, the structure of a co-$V$-object is to give a lift of the $Set$-valued $Hom$-functor $D(d,-)$ to $V Alg$.
 Thus a co-$V$-object in $V Alg$ is a representable covariant functor from $V Alg$ to itself.
 
 One can therefore consider composition of such representable covariant functors.
@@ -66,33 +65,27 @@ One postscript to this is that although the category of co-$V$-algebra objects i
 * If $V$ is the theory of [[commutative algebra|commutative associative algebras]] over a [[field]] $k$, then a $V$-algebra is a commutative associative algebra over $k$, and the corresponding sort of Tall--Wraith $V$-monoid is called a [[plethory]].
 
 * If $V$ is the theory of [[abelian group|abelian groups]], than a $V$-algebra is an abelian group, and the corresponding sort of Tall--Wraith $V$-monoid is a [[ring]].
-To see this, we need to think about the category of _co-abelian group objects in abelian groups_.
-These are abelian groups $A$ together with morphisms of abelian groups
+
+To understand the last example, we need to think about _co-abelian group objects in the category of abelian groups_.  Abstractly, such a thing is an abelian group object [[internalization|internal to]] $AbGp^{op}$. Concretely, such a thing is an abelian group $A$ together with group homomorphisms
 
 $$
-\Delta : A \to A \coprod A, \epsilon A \to I
-$$
+\Delta : A \to A \coprod A, $$
+$$\epsilon : A \to I $$
 
-where $I$ is the initial object in the category of abelian groups (thus, the coproduct over an empty indexing set).
-These have to satisfy certain obvious coherences.
+where $I$ is the initial object in the category of abelian groups.  These homomorphisms must satisfy certain laws: just the abelian group axioms written out diagrammatically, with all the arrows turned around.
 
-We have that $I = \{0\}$.
-Thus $\epsilon$ is forced to be the map that sends everything to $0$.
+In fact, $I = \{0\}$.  Thus $\epsilon$ is forced to be the map that sends everything to $0$: we have no choice here.
 
 We also have that $A \coprod A = A \oplus A$.
-That means that for $a \in A$, $\Delta(a) = a_1 + a_2$ for some $a_1, a_2 \in A$.
-Now one of the coherences is that $\epsilon$ is a counit for $\Delta$.
-This means that $(\epsilon \oplus 1) \Delta = 1$ and similarly for $1 \oplus \epsilon$.
-Thus $a_1 = a_2 = a$ and $\Delta$ is the diagonal map.
+That means that for $a \in A$, $\Delta(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$.  Now, one of the laws says that $\epsilon$ is a counit for $\Delta$. This means that $(\epsilon \oplus 1) \Delta = 1$ and similarly for $1 \oplus \epsilon$. Thus $a_1 = a_2 = a$ and $\Delta$ is the diagonal map.  So, we have no choice here either.
 
-It is simple to show that the triple $(A, \Delta, \epsilon)$ with $\Delta$ the diagonal map and $\epsilon$ the zero map _is_ a co-abelian group object in the category of abelian groups.
-Thus the category of co-abelian group objects in the category of abelian groups is isomorphic, via the obvious forgetful functor, to the category of abelian groups.
+Indeed, it is easy to show that the triple $(A, \Delta, \epsilon)$ with $\Delta$ the diagonal map and $\epsilon$ the zero map _is_ a co-abelian group object in the category of abelian groups.  Thus the category of co-abelian group objects in the category of abelian groups is isomorphic, via the obvious forgetful functor, to the category of abelian group objects.
 
-It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric).
-For details on this (for the moment) see _The Hunting of the Hopf Ring_.
-This monoidal structure for abelian groups turns out to be the tensor product.
+(Indeed, our argument here has shown more generally that if $X$ is a category with finite products, the category of comonoid objects in $X$ is equivalent to $X$.  Something about $AbGp$ is making these comonoid objects be co-abelian group objects.)
 
-Thus a _Tall--Wraith monoid_ for abelian groups is actually an ordinary monoid in the category of abelian groups; in other words, a [[ring]].
+It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric). For details on this see _The Hunting of the Hopf Ring_, referred to belelow.  This monoidal structure for abelian groups turns out to be the tensor product.
+
+Thus a Tall--Wraith monoid for abelian groups is actually an ordinary monoid in the category of abelian groups: in other words, a [[ring]]!
 
 # References #
 
