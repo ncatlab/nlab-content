@@ -84,7 +84,7 @@ epi after projecting further to $\omega$-[[equivalence]]-classes.
 * an [[acyclic fibration]] if it is $k$-surjective for all $k \in \mathbb{N}$;
 
 * a [[weak equivalence]] if it is essentially $k$-surjective for all $k \in \mathbb{N}$.
-See also [[equivalence]].
+See also [[equivalence of categories]].
 
 ###Remarks###
 
