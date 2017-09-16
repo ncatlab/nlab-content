@@ -70,6 +70,8 @@ _Toby_:  Yeah, a dependent type theory can always be rephrased as an independent
 [[Mike Shulman]]: Amazingly enough, as you said at latest changes, this conversation does seem to be leading in the direction of actual mathematics.  It does seem like that should be possible, but I don't have the time to think about it any more deeply now.  Aside from pointing out the obvious fact that until we get to $\omega$-categories, we do want to allow equality relations on *some* of the types in the dependent type theory.
 
 _Toby_:  I also don\'t have the time to think about it carefully; I feel pretty secure about my intuition, but that is all.  But I would see the equality relation between parallel $n$-morphisms in an $n$-category as something extralogical, just as much as the type of $n$-morphisms between parallel $(n-1)$-morphisms.
+
+_Harry_: Couldn't we just say: Let f and g are (left? right?)-composable iff h[dom g]) is isomorphic to h[cod f]) where h is the homotopy category functor (assuming quasicategories, but there should be a good enough way to define this in more generality, no?).  This way, g o f is only specified up to homotopy (that is, we know that it's in the homotopy class of h[g] o h[f].  I think there might be a few technicalities to work out with 1-Categories, but applying the homotopy functor immediately collapses it to that case.  
 =--
 
 The following discussion is about the (un)suitability of the following epigraph:
