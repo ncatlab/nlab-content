@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-26
 
+*  [[Toby Bartels]]:  Yes, always more at [[affine space]], such as morphisms.
+
 * [[Mike Shulman]]: A bunch more at [[affine space]], including an "unbiased" definition.  There's still a lot more to say.
 
 *  [[Toby Bartels]]:
