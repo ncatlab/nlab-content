@@ -30,7 +30,7 @@ Said heuristically: the [[Jones polynomial]] of the knot $K$ can be understood a
 
 The beautiful thing about Chern-Simons theory is that Witten was able use the _locality_ property of the [[path integral]] to give a _nonperturbative_ way to actually compute it. In this way Chern-Simons theory has become the 'poster-child' of [[extended topological quantum field theory]] since it exemplifies the main idea: take advantage of the higher gluing laws in order to compute geometric quantities. 
 
-One of the major mathematical projects around Chern-Simons theory has therefore been to try and understand it rigorously as a 3-2-1-0 [[extended topological quantum field theory]]. For the abelian case the major paper in this regard is [Topological quantum field theories from Compact Lie Groups](http://arxiv.org/abs/0905.0731) by Freed, Hopkins, [[Jacob Lurie|Lurie]] and Teleman. No-one has yet made rigorous sense of the nonabelian theory as an extended [[TQFT]]. However, the invariants that the theory assigns to closed [[manifold]]s of dimension 0,1,2 and 3 are heuristically expected to be:
+One of the major mathematical projects around Chern-Simons theory has therefore been to try and understand it rigorously as a 3-2-1-0 [[extended topological quantum field theory]]. For the abelian case the major paper in this regard is [Topological quantum field theories from Compact Lie Groups](http://arxiv.org/abs/0905.0731) by [[Dan Freed|Freed]], Hopkins, [[Jacob Lurie|Lurie]] and Teleman. No-one has yet made rigorous sense of the nonabelian theory as an extended [[TQFT]]. However, the invariants that the theory assigns to closed [[manifold]]s of dimension 0,1,2 and 3 are heuristically expected to be:
 
 A closed 3-manifold $M$ $\mapsto$ the path integral given above (a number).
 
@@ -52,7 +52,7 @@ A point $\mapsto$ the category of skyscraper sheaves on ---, thought of as a 2-c
 +-- {: .query}
 Bruce: I've run out of time here and I can't precisely fill in those blanks above.  Any help?
 
-[[Ben Webster]]: My understandin is that nobody is quite sure how to fill in those blanks.  One line of thinking is that it should be an object in a 3-category with is **not** 2Cat.
+[[Ben Webster]]: My understanding is that nobody is quite sure how to fill in those blanks.  One line of thinking is that it should be an object in a 3-category with is **not** 2Cat.
 =--
 
 Other groups have conceptualized this differently (but most likely equivalently at the end of the day as)
@@ -116,3 +116,11 @@ In [Quantum field theory and the Jones polynomial](http://projecteuclid.org/DPub
 One question that's been bugging me (Ben Webster) recently is what fills in the analogy "[[Jones polynomial]] is to Chern-Simons theory as [[Khovanov homology]] is to ??"
 
 Which is to say _What 3/4-dimensional structure is Khovanov homology hinting at?_  I'm inclined to think there must be one, as it seems that all of the knot homologies associated by Chern-Simons theory to representations have categorifications (I have a [mostly finished paper](http://math.mit.edu/~bwebster/KI-HRT.pdf) on this).  Presumably these all glue together into something, possibly by a similar trick to the Reshetikhin-Turaev construction of 3-manifold invariants, but it's not so easy for me to see how.
+
+## References  
+
+Long list of references should eventually go here. For the moment there is:
+
+* [[Dan Freed]], _Remarks on Chern-Simons theory_ ([arXiv](http://arxiv.org/abs/0808.2507))
+
+  * _Classical Chern-Simons theory, part II_ ([pdf](http://www.ma.utexas.edu/users/dafr/cs2.pdf))
