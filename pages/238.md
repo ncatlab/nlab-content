@@ -13,6 +13,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 #2009-04-09
+* [[Zoran Škoda]]: created [[von Neumann algebra]] emphasising on sources of relations to category theory and low dimensional topology (particularly G. Segal's program on relations between CFT and elliptic cohomology). There is a good wikipedia entry on von Neumann algebras with lost of references and details, but neglecting the connection to the above topics which should be expanded on. Moreover somebody should mayve write entres on related topics as [[Connes fusion]], [[modular functor]] etc. as those are relevant for some of us.
 
 *  [[Toby Bartels]]:  I came to some sort of decision at [[direct sum]].
 
