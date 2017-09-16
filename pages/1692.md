@@ -109,7 +109,9 @@ which is faithful by the notion of concrete category. What is striking is that t
 More examples to be added later...
 
 +--{.query}
-Hi Toby; could I get you to explain the aside about Boolean rigs above? I'm thinking Boolean algebras is appropriate, as we have $ I \to x^* \wp x $, $ x \otimes x^* \to D $ [where $\wp$ denotes Girard's "par" and $D$ denotes the dualizer], together with appropriate triangular equations, categorifying the inequalities $1 \leq (\neg x) \vee v$ and $x \wedge (\neg x) \leq 0$ in a Boolean algebra. --*Todd*
+Hi Toby; could I get you to explain the aside about Boolean rigs above? I'm thinking Boolean algebras is appropriate, as we have $ I \to x^* \wp x $, $ x \otimes x^* \to D $ [where $\wp$ denotes Girard's "par" and $D$ denotes the dualizer], together with appropriate triangular equations, categorifying the inequalities $1 \leq (\neg x) \vee v$ and $x \wedge (\neg x) \leq 0$ in a Boolean algebra. ---Todd
 
 Now that I go to write [[Boolean rig]], I\'m not so sure.  I just know that $Chu(P X,\empty)$ at [[measurable space]] is *not* (even classically) a Boolean algebra.  I\'ll get back to you in a day or less.  ---Toby
+
+Right, I agree. The Chu construction applied to a complete Heyting algebra is merely a $*$-autonomous quantale, not a $*$-autonomous locale (which would be a complete Boolean algebra), as you noted at [[measurable space]]. ---Todd
 =--
