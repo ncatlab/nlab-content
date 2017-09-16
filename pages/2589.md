@@ -7,14 +7,14 @@
 
 The **Fivebrane group** $Fivebrane(n)$  is defined to be, as a [[topological group]], the [[Whitehead tower|7-connected cover]] of the [[String group]] $String(n)$, for any $n \in \mathbb{N}$.
 
-Notice that $String(n)$ itself if the 3-connected cover of $Spin(n)$,  which is itself is the [[Whitehead tower|simply connected cover]] of the [[special orthodonal group]] $SO(n)$, which in turn is the connected component (of the identity)  of the [[orthogonal group]] $O(n)$. Hence $Fivebrane(n)$ is one element in the [[Whitehead tower]] 
+Notice that $String(n)$ itself if the 3-connected cover of $Spin(n)$,  which is itself is the [[Whitehead tower|simply connected cover]] of the [[special orthogonal group]] $SO(n)$, which in turn is the connected component (of the identity)  of the [[orthogonal group]] $O(n)$. Hence $Fivebrane(n)$ is one element in the [[Whitehead tower]] of $\mathrm{O}(n)$:
 
 $$
-  \cdots Fivebrane(n) \to String(n) \to Spin(n) \to SO(n) \to O(n)
+  \cdots \to Fivebrane(n) \to String(n) \to Spin(n) \to SO(n) \to \mathrm{O}(n)
   \,.
 $$
 
-of $O(n)$. 
+**Fivebrane group** to [[string group]] to [[spin group]] to [[special orthogonal group]] to [[orthogonal group]].
 
 The [[homotopy group]]s of $O(n)$ are for $k \in \mathbb{N}$ and for sufficiently large $n$
 
