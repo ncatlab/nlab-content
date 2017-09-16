@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-03-09
+
+*  [[Toby Bartels]]:  I finally wrote [[relation]], which makes me realise that there is no [[subset]] yet ....  Also [[order]], but that\'s just a list of links to more specific pages.
+
 # 2009-03-08
 
 *  [[Toby Bartels]]:  I tried to clarify the difference between a [[preorder]] (a structure on a given set that satisfies certain properties) and a [[proset]] (a set equipped with such a structure).  I need to finish that for [[partial order]]/[[poset]] and [[total order]]/[[toset]], although I would also entertain the idea that these should be redirected.  But I got sidetracked writing [[linear order]] and [[loset]].  (And then there\'s [[quasiorder]]; I don\'t think that [[quoset]] is so important for reasons that I don\'t want to get into here.)
