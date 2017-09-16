@@ -89,6 +89,10 @@ _Mike_: I'm not convinced.  For simplicity I'm going to suppose there is only on
 _Toby_: OK, you\'re right. There\'s still a sense in which groups are given in cartesian logic (obviously, since the example above does this), but if you start with the common definition using quantification, you\'ll only notice this after going through a proof within the richer language.
 
 Am I at least right that, once you know (perhaps through experience with monoids) to give the unit as a constant operation, then the inverse is given by provably unique existence?  (And does this have anything to do with the fact that semigroup homomorphisms of monoids need not be monoid homomorphisms, while monoid homomorphisms of groups must be group homomorphisms?  Certainly the fact that the uniqueness is provable in the richer logic is related to the fact that isomorphisms are the same.)
+
+_Mike_: Yes, I think you're right: the presentation of a group as a monoid in which inverses exist is a cartesian theory.
+
+I think the answer to the parenthetical has less to do with cartesianness of a theory and more to do with geometricness.  It's a general fact that geometric logic is preserved by morphisms of structures, but more general first-order logic is not; see D1.2.9.  So since the property "being an inverse of $x$" is geometric, morphisms of monoids always preserve inverses when they exist; but since the property of "being an identity" is not geometric, morphisms of semigroups need not preserve identities.
 =--
 
 A [[coherent category]] is basically defined to be a regular category in which the subobject posets additionally have pullback-stable finite unions.  Thus, in a coherent category we can interpret so-called _coherent logic_, which adds $\vee$ and $\bot$ to regular logic.  Likewise, in an infinitary-coherent (or "geometric") category we can interpret _geometric logic_, which adds infinitary disjunctions $\bigvee_i \varphi_i$ to coherent logic.  Geometric logic is especially important because it is preserved by the inverse image parts of [[geometric morphism]]s, and because any geometric theory has a [[classifying topos]].
