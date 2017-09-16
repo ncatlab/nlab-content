@@ -56,17 +56,19 @@ There is an obvious [[monoidal category|monoidal structure]] on the [[cube categ
 
 #Remarks#
 
- The Crans-Gray tensor product extends the tensor product  on strict $\omega$-groupoids given by R. Brown and P.J. Higgins (see below); they construct a symmetric monoidal closed structure on these $\omega$-groupoids. 
+* The Crans-Gray tensor product extends the tensor product  on strict $\omega$-groupoids given by R. Brown and P.J. Higgins (see below); they construct a symmetric monoidal closed structure on these $\omega$-groupoids. 
 
-The third  paper below sets up an equivalence between globular $\omega$-categories and certain cubical $\omega$-categories with connections, to which the monoidal closed structure in the previous paper is easily extended. 
+* The article _BrHi_ below sets up an equivalence between globular $\omega$-categories and certain cubical $\omega$-categories with connections, to which the monoidal closed structure in the previous paper is easily extended. 
 
+* There is the [[Verity-Gray tensor product]] on [[stratified simplicial set]]s (as described there). Via the [[oriental|omega-nerve]] [[strict omega-category|strict omega-categories]] form the [[complicial set]]s within all [[stratified simplicial set]]s. According to observation 60 of [Verity06](http://arxiv.org/abs/math/0604414) section 11.4 of [Verity04](http://arxiv.org/abs/math/0410412) proves that the Crans-Gray tensor product is the reflection of the Verity-Gray tensor product under this inclusion.
+ 
 #References#
 
 A detailed discussion is in
 
 * Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega$-Cat_ ([ftp, gzipped PostScript](ftp://ftp.math.mcgill.ca/pub/crans/thten.ps.gz))
 
-* R. Brown and P.J. Higgins, Tensor products and homotopies for $\omega$-groupoids and crossed complexes,  J. Pure Appl. Alg. 47 (1987) 1--33.
+* **BrHi** R. Brown and P.J. Higgins, Tensor products and homotopies for $\omega$-groupoids and crossed complexes,  J. Pure Appl. Alg. 47 (1987) 1--33.
 
 * F.A. Al-Agl, R. Brown and R. Steiner,  Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71--118.
 
