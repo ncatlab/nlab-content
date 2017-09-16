@@ -10,13 +10,7 @@ There are many "models" for spectra, all of which present the same homotopy theo
 
 #Remarks#
 
-* In direct analogy to how topological spaces form the archetypical example, [[Top]], of an [[(infinity,1)-category]], spectra form the archetypical example $Sp(Top)$ of a [[stable (infinity,1)-category]]. In fact, there is a general procedure for turning any [[pointed category|pointed]] [[(infinity,1)-category]] $C$ into a stable $(\infty,1)$-category $Sp(C)$, and doing this to the category $Top_*$ of pointed spaces yields $Sp(Top)$.
-
-+--{.query}
-What\'s the point?  The unit interval?  Or the point?  (Or does it matter, since the unit interval is contractible?)  ---Toby
-
-[[Mike Shulman|Mike]]: You use the category of pointed/based spaces, which is pointed in the sense of having a zero object.
-=--
+* In direct analogy to how topological spaces form the archetypical example, [[Top]], of an [[(infinity,1)-category]], spectra form the archetypical example $Sp(Top)$ of a [[stable (infinity,1)-category]]. In fact, there is a general procedure for turning any [[pointed category|pointed]] [[(infinity,1)-category]] $C$ into a stable $(\infty,1)$-category $Sp(C)$, and doing this to the category $Top_*$ of [[pointed object|pointed]] spaces yields $Sp(Top)$.
 
 # Conjectures #
 
