@@ -17,7 +17,7 @@ For more on the general idea and its development, see [[FQFT]] and [[extended to
 
 #Non-topological QFTs#
 
-In constrast to topological QFTs, non-topological quantum field theries in the [[FQFT]] description are $n$-functors on $n$-categories $Bord^S_n$ whose morphisms are manifolds with extra $S$-structure, for instance
+In constrast to topological QFTs, non-topological quantum field theories in the [[FQFT]] description are $n$-functors on $n$-categories $Bord^S_n$ whose morphisms are manifolds with extra $S$-structure, for instance
 
 * $S =$ conformal structure $\to$ [[conformal field theory]]
 
