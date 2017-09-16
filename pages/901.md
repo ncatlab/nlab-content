@@ -10,6 +10,8 @@ Would it make sense to take this opportunity on nLab to give this a new modern n
 [[Tim Porter|Tim]]: As they are very special diagrams, I do not think that Eric's suggestion is a good one. The pro and ind terminology was to replace inverse and direct system which was already being used in the 1930s (I think?)  The 'ind' terminology is at least as old as 1960 (see Grothendeck's seminar on descent.)
 
 [[Mike Shulman|Mike]]: I think the terminology "ind-object" is too well-established to be changed.  And I don't really think there's much reason to want to change it anyway; it may come historically from a terminology that we do not use, but it is unambiguous and the notion deserves its own name.  In particular, it is not a (filtered) colimit; the whole point is that you don't actually _take_ the colimit (or alternately, you only take it inside the free colimit-completion).
+
+_Toby_:  Not to disparage 'ind-object', but I think that the term that Eric\'s looking for is 'formal filtered colimit'.
 =--
 
 Recalling the nature of [[filtered category|filtered]] colimits, this means that in particular chains of inclusions 
