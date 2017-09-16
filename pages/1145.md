@@ -13,7 +13,9 @@
 
   * [[homotopy theory|Homotopy Theory]]
 
-  * [[rational homotopy theory|Rational Homotopy Theory]]
+    * [[stable homotopy theory|Stable Homotopy Theory]]
+
+    * [[rational homotopy theory|Rational Homotopy Theory]]
 
   * [[differential geometry|Differential Geometry]]
 
