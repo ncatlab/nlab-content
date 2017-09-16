@@ -72,6 +72,10 @@ Or maybe I can't.  Now I write it, it seems a lot more tenuous than when I thoug
 
 Is there a specific setting you have in mind where what you want to do is unproblematic? 
 
+[[Andrew Stacey|Andrew]]: Yes.  I want to do it in the category of models in set of a [[commutative algebraic theory]].  Over there, it doesn't say anything about the monoidal structure being symmetric but I have an inkling that it is.  However, not every object is a coalgebra.
+
+(As a little background: I'm returning to some stuff that I thought about a while ago and am trying to finish off, but I don't remember all of what I thought when I originally thought about it which is why I'm not as clear as I would like to be)
+
 =--
 
 
