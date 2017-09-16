@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 # Idea #
 
 A _Reedy model structure_ is a [[global model structure on functors]]:
