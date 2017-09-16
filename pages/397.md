@@ -55,6 +55,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Roger Witte]]
 * [[Romie Banerjee]]
 * [[Ronnie Brown]]
+* [[Ryan Grady]]
 * [[Sebastian Thomas]]
 * [[Simon Willerton]]
 * [[Sridhar Ramesh]]
