@@ -290,9 +290,9 @@ W. G. Dwyer, D. M. Kan, Singular functors and realization functors, Nederl. Akad
 
 * [Isbell 1960] J. R. Isbell, Adequate subcategories, Illinois J. Math. 4, 541--552 (1960)
 
-* [Leinster 2004] T. Leinster, Higher operads, higher categories, London Mathematical Society Lecture Note Series, 298. Cambridge Univ. Press 2004. xiv+433 pp. ISBN: 0-521-53215-9, [arXiv:math.CT/0305049](http://front.math.ucdavis.edu/0305.5049)
+* [Leinster 2004] [[Tom Leinster]], Higher operads, higher categories, London Mathematical Society Lecture Note Series, 298. Cambridge Univ. Press 2004. xiv+433 pp. ISBN: 0-521-53215-9, [arXiv:math.CT/0305049](http://front.math.ucdavis.edu/0305.5049)
 
-* [Street 1987] R. Street, The algebra of oriented simplexes,
+* [Street 1987] [[Ross Street]], The algebra of oriented simplexes,
 J. Pure Appl. Algebra 49 (1987), no. 3, 283--335.
 
 
