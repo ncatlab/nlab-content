@@ -1,4 +1,4 @@
-Charles Sanders Peirce is one of the founder of symbolic [[logic]].
+Charles Sanders Peirce is one of the founders of symbolic [[logic]].
 
 
 [[!redirects C.S. Peirce]]
