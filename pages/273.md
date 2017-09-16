@@ -13,11 +13,11 @@ talk at Colloqium on Operator Algebras and their Applications to Mathematical Ph
 
 This is recounted for instance by Ross Street in
 
-* Ross Street, _Categorical and combinatorial aspects of descent theory_ ([pdf](http://arxiv.org/ftp/math/papers/0303/0303175.pdf))
+* [[Ross Street]], _Categorical and combinatorial aspects of descent theory_ ([pdf](http://arxiv.org/ftp/math/papers/0303/0303175.pdf))
 
 and 
 
-* Ross Street, _An australian conspectus on higher categories_ ([pdf](http://www.math.mq.edu.au/~street/Minneapolis.pdf)).
+* [[Ross Street]], _An australian conspectus on higher categories_ ([pdf](http://www.math.mq.edu.au/~street/Minneapolis.pdf)).
 
 Parallel to this development of the notion of [[descent|descent and codescent]] there was the development of [[homotopical cohomology theory]] as described in
 
