@@ -18,6 +18,7 @@
 * [[evil]]
 * [[infinity-topos]]
 * [[internal logic]]
+* [[internal set]]
 * [[philosophy]]
 * [[predicative mathematics]]
 * [[pure set]]
