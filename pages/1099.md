@@ -2,6 +2,8 @@
 
 An _$(\infty,1)$-functor_ is a morphism between [[(infinity,1)-category|(infinity,1)-categories]].
 
+The collection of all $(\infty,1)$-functors between two $(\infty,1)$-categories form an [[(infinity,1)-category of (infinity,1)-functors]].
+
 #Definition#
 
 The details of the definition depend on the model chosen for
