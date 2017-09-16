@@ -258,7 +258,7 @@ This is [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroi
 
 The original article that introduced th D'Auria-Fr&eacute;-formalism is
 
-* **geSuGra** R. D'Auria, P. Fr&eacute; [[GeometricSupergravity.pdf:file]]
+* **geSuGra** R. D'Auria, P. Fr&eacute; _Geometric supergravity in $D = 11$ and its hidden supergroup_ [[GeometricSupergravity.pdf:file]]
  
 The standard textbook monograph on [[supergravity]] in general and this formalism is particular is
 
@@ -266,12 +266,7 @@ The standard textbook monograph on [[supergravity]] in general and this formalis
 
 The _geometric perspective_ discussed there is both the emphasis of working over base [[supermanifold]]s and combined with that the the approach that here we call tthe _D'Auria-Fr&eacute;-formalism_ . 
 
-
-At the time of this writing the book is out of print and unavailable from bookshops. But your local physics department library will have a copy.
-
-A huge list of further literature goes here:
-
-...
+At the time of this writing the book is out of print and unavailable from bookshops. But your local physics department library may have a copy.
 
 The interpretation of the D'Auria-Fr&eacute;-formalism in the light of higher gauge theory as discussed above, together with a discussion of the [[supergravity Lie 3-algebra]] in the context of [[String Lie 2-algebra|String Lie n-algebra]]s was given in 
 
@@ -281,12 +276,22 @@ This had been preceded by some blog discussion, for instance
 
 * [[Urs Schreiber]], _Castellani on FDA in SuGra: gauge 3-group of M-theory_ ([blog](http://golem.ph.utexas.edu/string/archives/000840.html))
 
-  this is, as far as [[Urs Schreiber|I]] am aware, the first occurence of the explicit observation that the FDA-formalism is about higher gauge theory, based on hearing a talk on
+This is, as far as [[Urs Schreiber|I]] am aware, the first occurence of the explicit observation that the FDA-formalism is about higher gauge theory, based on hearing a talk on
 
-  * [[Leonardo Castellani]], _Lie derivatives along antisymmetric tensors, and the M-theory superalgebra_ ([arXiv](http://arxiv.org/abs/hep-th/0508213))
+* [[Leonardo Castellani]], _Lie derivatives along antisymmetric tensors, and the M-theory superalgebra_ ([arXiv](http://arxiv.org/abs/hep-th/0508213))
 
 * [[Urs Schreiber]], _SuGra 3-connection reloaded_ ([blog](http://golem.ph.utexas.edu/category/2006/08/sugra_3connection_reloaded.html))
 
 Apart from that the first vague mention of the observation that the "FDA"-formalism for supergravity is about higher categorical Lie algebras (as far as [[Urs Schreiber|I]] am aware, would be grateful for further references) is page 2 of
 
 * [[Pietro Fre]], [[Pietro Antonio Grassi]], _Free differential algebras, rheonomy and pure spinors_ ([arXiv](http://arxiv.org/abs/0801.3076))
+
+Here are some more references:
+
+* Pietro Fr&eacute;, _M-theory FDA, twisted tori and Chevalley cohomology_ ([arXiv] (http://www.arxiv.org/abs/hep-th/0510068))
+
+* Pietro Fr&eacute; and Pietro Antonio Grassi,
+_Pure spinors, free differential algebras, and the supermembrane_ ([arXiv] (http://www.arxiv.org/abs/hep-th/0606171))
+
+* Pietro Fr&eacute; and Pietro Antonio Grassi, _Free differential algebras, rheonomy, and pure spinors_ 
+([arXiv] (http://www.arxiv.org/abs/0801.3076))
