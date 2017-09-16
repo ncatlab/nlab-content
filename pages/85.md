@@ -30,7 +30,7 @@ $$
 Then the above convolution product is
 
 $$
-  F \star G : e \mapsto \oplus_{c \cdot d = e} F(c) \times F(d)
+  F \star G : e \mapsto \oplus_{c \cdot d = e} F(c) \times G(d)
   \,.
 $$
 
