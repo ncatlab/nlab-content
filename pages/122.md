@@ -61,4 +61,30 @@ An advantage of this approach is that it applies to the case of topological cate
 
 An analogous approach works for strict cubical $\omega$-categories with connections, using the good properties of [[cube]]s, so leading to a [[closed monoidal category|monoidal closed structure]] for these objects. This yields by an [[equivalence of categories]] a monoidal closed structure on [[strict omega-category|strict globular omega-categories]], where the [[tensor product]] is the [[Crans-Gray tensor product]]. 
 
+##Discussion##
+
+[[Eric]]: For some reason, I always thought a natural transformation was a more general map between functors $\alpha:F\Rightarrow G$, where
+$$F:A\to B\quad\text{and}\quad G:C\to D.$$
+
+Then $\alpha(F):C\to D$ is a functor and we'd probably also want 2-component functors $\alpha_C:A\to C$ and $\alpha_D:B\to D$ such that the following diagram commutes
+$$ 
+  \array{ 
+    A 
+    & 
+    \stackrel{F}{\to} 
+    & 
+    B 
+    \\ 
+    \mathllap{\scriptsize{\alpha_C}}\downarrow 
+    &\mathllap{\scriptsize{\alpha}}\Downarrow & 
+    \downarrow\mathrlap{\scriptsize{\alpha_D}}
+    \\ C 
+    & 
+    \stackrel{G}{\to} & D 
+  }
+$$
+If this is not a natural transformation, is there another name for it?
+
+When $A = C$ and $B = D$, this should coincide with the usual definition. If so, why don't we define natural transformation in this more general way? It seems more "natural" to me.
+
 [[!redirects natural transformations]]
