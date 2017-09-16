@@ -1,4 +1,8 @@
+<div class="rightHandSide toc">
 [[!include mathematicscontents]]
+</div>
+
+
 
 This entry collects links to $n$Lab-entries related to **Higher Algebra**: [[algebra]] inside [[monoidal (infinity,1)-category|monoidal (infinity,1)-categories]] . 
 
@@ -71,10 +75,15 @@ See also
 
 #The monoidal structure on stable homotopy theory #
 
-* [[stable (infinity,1)-category of spectra]]
+* [[stable homotopy theory]]
+
+  * [[stable (infinity,1)-category of spectra]]
+
+  * [[stable homotopy category]]
 
 * [[smash product of spectra]]
 
+  * [[symmetric monoidal smash product of spectra]]
 
 
 #Symmetric monoidal $(\infty,1)$-categories and commutative algebra #
