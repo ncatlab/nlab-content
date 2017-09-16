@@ -27,7 +27,7 @@ This data has to satisfy the following properties:
 
 #Example#
 
-* The tautological example is the full [[subcategory]] of any [[model category]] on all objects which are fibrant. 
+* The tautological example is the [[full subcategory]] of any [[model category]] on all objects which are fibrant. 
 
 * The category of [[sheaf|sheaves]] with values in [[simplicial set|simplicial sets]] which are [[stalk]]wise [[Kan complex|Kan complexes]] with fibrations and weak equivalences those morphisms of sheaves which are [[stalk]]wise fibrations and weak equivalences in the [[model structure on simplicial sets]].
 
