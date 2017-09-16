@@ -38,6 +38,9 @@ For the case of $V = $ [[SSet]]-[[enriched category|enrichment]] one elegant way
 $W \Rightarrow C(c,F(-)) : K \to SSet$ where the _weight_ functor $W$ is not constant on the point, as for ordinary limits, but is given by $W : k \mapsto N(K/k)$.
 
 
+The same idea works if we are enriched over a $V$ that is not [[SSet]] but is itself enriched over [[SSet]], such as [[topological space]]s or [[spectrum|spectra]], since then any $V$-category becomes an [[SSet]]-category as well in a natural way.  Finally, although a general [[model category]] need not be enriched over anything, it is always "almost" enriched over [[SSet]], and so one can still make sense of this using the techniques of _framings_ and _resolutions_; see the books of Hirschhorn and Hovey.
+
+
 Following the reasoning described in example 1 of [[representable functor]] one then defines the homotopy limit $L$ of a functor $F: K \to C$ to be a representing object for such homotopy cones, in the sense that we have a (weak) equivalence
 $$ Map(X,L) \simeq HoCones(X,F)$$
 of hom-objects (spaces or simplicial sets in the classical context; enriched hom-objects in the enriched context).
