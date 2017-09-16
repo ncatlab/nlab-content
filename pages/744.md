@@ -86,24 +86,22 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
 
 1. _How do I get accented characters?_
 
-   You can use HTML/XML/SGML [character entity references](http://www.w3schools.com/tags/ref_entities.asp).  If the character you want has a mnemonic HTML name, like &amp;eacute; for &eacute;, you can use that.  Otherwise, you can use an SGML numerical code, like &amp;#x34AB; for &#x34AB;, that corresponds directly to Unicode.  To look up the numbers for SGML characters, try the [Unicode Character Names Index](http://unicode.org/charts/charindex.html).  [[Toby Bartels|Toby]] has a [complete list of HTML and XML character entity references](http://toby.bartels.name/characters/) (&larr; __NB.__ This link is broken &mdash; try the Unicode Databank pages listed in the [[Sandbox]]) with individual pages where you can check browser compliance (originally for when you couldn\'t take even things like &amp;harr; for granted, but even now &amp;lrm; and &amp;thinsp; may be lacking).  While you can use this technique for mathematical symbols too, it\'s best to do those in iTeX as explained above.
+   You can use HTML/XML/SGML [character entity references](http://www.w3schools.com/tags/ref_entities.asp).  If the character you want has a mnemonic HTML name, like &amp;eacute; for &eacute;, you can use that.  Otherwise, you can use an SGML numerical code, like &amp;#x34AB; for &#x34AB;, that corresponds directly to Unicode.  To look up the numbers for SGML characters, try the [Unicode Character Names Index](http://unicode.org/charts/charindex.html).  [[Toby Bartels|Toby]] has a [complete list of HTML and XML character entity references](http://tobybartels.name/characters/) (or try the Unicode Databank pages listed below) with individual pages where you can check browser compliance (originally for when you couldn\'t take even things like &amp;harr; for granted, but even now &amp;lrm; and &amp;thinsp; may be lacking).  While you can use this technique for mathematical symbols too, it\'s best to do those in iTeX as explained above.
 
-__Reference.__  [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/)
-
-* Frequently Occurring Characters (FOC's):
-   1.  [Math Symbols](http://www.sql-und-xml.de/unicode-database/sm.html)
-   1.  [Math Operators](http://www.sql-und-xml.de/unicode-database/mathematical-operators.html)
-   1.  [Math Miscellaneous A](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-a.html)
-   1.  [Math Miscellaneous B](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-b.html)
-   1.  [Letterlike Symbols](http://www.sql-und-xml.de/unicode-database/letterlike-symbols.html)
-   1.  [Miscellaneous Symbols](http://www.sql-und-xml.de/unicode-database/miscellaneous-symbols.html)
-   1.  [General Punctuation](http://www.sql-und-xml.de/unicode-database/general-punctuation.html)
-   1.  [Open Punctuation](http://www.sql-und-xml.de/unicode-database/ps.html)
-   1.  [Other Punctuation](http://www.sql-und-xml.de/unicode-database/po.html)
-   1.  [Close Punctuation](http://www.sql-und-xml.de/unicode-database/pe.html)
-   1.  [Geometric Shapes](http://www.sql-und-xml.de/unicode-database/geometric-shapes.html)
-   1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
-   1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
+   * [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) pages:
+     1.  [Math Symbols](http://www.sql-und-xml.de/unicode-database/sm.html)
+     1.  [Math Operators](http://www.sql-und-xml.de/unicode-database/mathematical-operators.html)
+     1.  [Math Miscellaneous A](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-a.html)
+     1.  [Math Miscellaneous B](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-b.html)
+     1.  [Letterlike Symbols](http://www.sql-und-xml.de/unicode-database/letterlike-symbols.html)
+     1.  [Miscellaneous Symbols](http://www.sql-und-xml.de/unicode-database/miscellaneous-symbols.html)
+     1.  [General Punctuation](http://www.sql-und-xml.de/unicode-database/general-punctuation.html)
+     1.  [Open Punctuation](http://www.sql-und-xml.de/unicode-database/ps.html)
+     1.  [Other Punctuation](http://www.sql-und-xml.de/unicode-database/po.html)
+     1.  [Close Punctuation](http://www.sql-und-xml.de/unicode-database/pe.html)
+     1.  [Geometric Shapes](http://www.sql-und-xml.de/unicode-database/geometric-shapes.html)
+     1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
+     1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
 
 ## _n_-Lab Specifics
 
