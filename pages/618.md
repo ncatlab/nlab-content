@@ -1,9 +1,11 @@
 # Idea #
 
-A **coverage** on a category $C$ is a collection of families of coterminal morphisms $\{f_i:U_i\to U\}_{i\in I}$ to be thought of as [[cover|covering families]].  The essential characteristic of these covering families is that they be "stable under pullback."  A number of other "saturation" conditions are frequently also imposed for convenience.  A category equipped with a coverage is called a [[site]].
+A **coverage** on a [[category]] $C$ is a collection of families $\{f_i:U_i\to U\}_{i\in I}$ of [[morphism]]s to be thought of as [[cover|covering families]].  The essential characteristic of these covering families is that they be "stable under [[base change|pullback]]."  A number of other "saturation" conditions are frequently also imposed for convenience.  A category equipped with a coverage is called a [[site]].
 
 +-- {: .query}
 _Bruce_: What does 'coterminal morphism' mean? Bruce from 10 minutes into the future: I think it means "a collection of morphisms is coterminal if they have the same target". In that case, I'm thinking "coterminal" introduces needless terminological complexity. Can't it be left out?
+
+_Toby_:  Past Bruce, future Bruce is correct.  And yeah, I\'d take it out too.  In fact, I will.
 =--
 
 One of the main purposes of a coverage is that it provides the minimum structure necessary to define a notion of [[sheaf]] (or more generally [[stack]]) on $C$.  A [[Grothendieck topos]] is defined to be the category of sheaves (of sets) on a small site.  From this perspective, the example to keep in mind is the [[partial order|poset]] $O(X)$ of open sets in some [[topological space]] (or [[locale]]) $X$, where a morphism is an inclusion, and a family of inclusions $\{U_i \hookrightarrow U\}$ is a covering family iff $U = \bigcup_i U_i$.
