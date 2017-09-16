@@ -37,6 +37,16 @@
 
 * [[proper model category]]
 
+## presentation of $(\infty,1)$-categories ##
+
+* [[(∞,1)-category]]
+
+* [[simplicial localization]]
+
+* [[(∞,1)-categorical hom-space]]
+
+* [[presentable (∞,1)-category]]
+
 ## model structures ##
 
 * [[model structure on topological spaces|on topological spaces]]
