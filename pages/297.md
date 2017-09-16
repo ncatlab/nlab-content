@@ -18,7 +18,7 @@ that it was realized that
 
 (Strictly speaking, Atiyah's original article mentions this functor slightly indirectly only.)
 
-All tis was originally formalized in the context of [[TQFT|topological quantum field theory]] only. This is the easiest case that already exhibits all the functoriality that is implied by "FQFT" but by farr not the only case (see below).
+All this was originally formalized in the context of [[TQFT|topological quantum field theory]] only. This is the easiest case that already exhibits all the functoriality that is implied by "FQFT" but by far not the only case (see below).
 
 A pedagogical exposition of how the physicist's way of thinking about the path integral leads to its definition as a functor is given in
 
