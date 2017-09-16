@@ -34,17 +34,16 @@ $$
   \,.
 $$
 
-The [[left adjoint]] to $p^*$ is **left Kan extension** of functors
+The [[left adjoint]] to $p_*$ is **left Kan extension** along $p$ of functors
 $$
   Lan = Lan_p : [C,D] \to [C',D]
   \,,
 $$
-along $p$, and the [[right adjoint]] is **right Kan extension** of functors
+and the [[right adjoint]] is **right Kan extension** along $p$ of functors
 $$
   Ran = Ran_p: [C,D] \to [C',D]
   \,.
 $$
-along $p$.
 More generally, it is possible that these adjoints do not exist, but may be partially defined. Namely, for some functor $F\in [C,D]$ there exist a functor $Lan_p\,F:C'\to D$, *the left Kan extension of $F$ along $p$*,  and a natural isomorphism 
 $$
 Hom_{[C,D]}(F,p_*(-))\cong Hom_{[C',D]}(Lan\,F,-),
@@ -123,6 +122,8 @@ See [section 4.3, p. 215](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#
 See for instance section 2.3 in 
 
 * Kashiwara and Shapira, [[Categories and Sheaves]]
+
+MacLane's book *Categories for working mathematicians* has a famous treatment of Kan extensions with a statement "everything (in category theory) is (an example of) Kan extension". 
 
 For the context of [[enriched category theory]] see 
 chapter 4 of
