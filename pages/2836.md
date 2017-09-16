@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include stable homotopy theory - contents]]
+</div>
+
+
 
 #Contents#
 * automatic table of contents goes here
