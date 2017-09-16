@@ -6,7 +6,9 @@ The _hypercompletion_ ([[Higher Topos Theory|Lu]]) or _$t$-completion_ ([ToVe](h
 
 **Definition [p. 530](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=530) of [[Higher Topos Theory|HTT]]**
 
-An [[(∞,1)-topos]] of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-sheaves]] is **hypercomplete**  if every [[infinity-connective morphism|∞-connective morphism]] is an equivalence.
+An [[(∞,1)-topos]] of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-sheaves]] is a **[[hypercomplete (∞,1)-topos]]**  if every [[infinity-connective morphism|∞-connective morphism]] is an equivalence.
+
+This may be read as saying that the [[Whitehead theorem]] is valid in the [[(∞,1)-topos]].
 
 ##Remarks##
 
