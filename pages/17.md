@@ -128,6 +128,10 @@ Besides such sidebars that appear in many pages, you can also use inclusion to p
 
 You may wish to customize the font scheme (both for math or text) on the nLab, as well as tweak things such as the small edit box for comments. Experienced users can do this themselves by tweaking the CSS. Alternatively, one can try the nLab [Stylish](https://addons.mozilla.org/en-US/firefox/addon/2108) theme for Firefox available [here](https://addons.mozilla.org/en-US/firefox/addon/2108). You might also want to try a Firefox [extension](https://addons.mozilla.org/en-US/firefox/addon/4125) which allows you to edit the text box using your favourite text editor. 
 
+# How to use redirects #
+
+See [[redirects]].
+
 # Instiki HowTo #
 
 For general information and help with Instiki, see the [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage) wiki.
