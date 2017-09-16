@@ -118,8 +118,10 @@ is an [[effective epimorphism]] in $Sh(S)$.
 
 Write $StrSh(S,V) \subset Func(V,Sh(S))$ for the full subcategory of such morphisms of the [[(infinity,1)-category of (infinity,1)-functors]].
 
-**Remark** Notice that in words following the above introduction this just says that we require that for every open subset $U$ of our space $X$, very function $f : U \to v$ on $U$ with values in $v$ can be built from a suitable collection of functions $f_i : U \to u_i$ if the $u_i$ cover  the codomain $v$.
-
++-- {: .un_remark}
+###### Remark
+Notice that in words following the above introduction this just says that we require that for every open subset $U$ of our space $X$, very function $f : U \to v$ on $U$ with values in $v$ can be built from a suitable collection of functions $f_i : U \to u_i$ if the $u_i$ cover  the codomain $v$.
+=--
 
 
 
