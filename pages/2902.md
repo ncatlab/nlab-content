@@ -18,7 +18,7 @@ We also present two other proofs: a modernized version of Euclid's original proo
 
 #Euclid's proof#
 
-The essence of [Euclid's proof](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII10.html) proof can be understood if we take for granted the numerical values of the various angles in his construction, which are easily established.
+The essence of [Euclid's proof](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII10.html) can be understood if we take for granted the numerical values of the various angles in his construction, which are easily established.  Euclid himself would not have used numerical values like this, and they are not a part of the proof; they're merely a short-hand that allows the reader to see at a glance the relationships between angles that the original proof established by routine methods.
 
 [[!include pentagon decagon hexagon identity/Euclid]]
 
