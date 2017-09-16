@@ -15,12 +15,7 @@ One can argue that a more conceptual way to talk about them is in terms of [[Lie
 
 ## in supermanifold language ##
 
-An $n$-symplectic manifold is a [[NQ-supermanifold]] $X$ with an  $\mathbb{N}$-graded symplectic form $\omega$ of grading-degree $n$ 
-
-$$
-  \omega : (C(X)\wedge C(X))^\bullet \to C(X)^{\bullet -n}
-  \,.
-$$
+An $n$-symplectic manifold is a [[NQ-supermanifold]] $X$ with an  $\mathbb{N}$-graded symplectic form $\omega$ of grading-degree $n$.
 
 So $\omega$ is a closed nondegenerate [[super differential form]] that respects the $\mathbb{N}$-refined grading of the underlying $\mathbb{Z}_2$-garded [[supermanifold]] as indicated.
 
@@ -41,7 +36,7 @@ A $0$-symplectic manifold is an ordinary [[symplectic manifold]].
 
 A $1$-symplectic manifold is an ordinary [[Poisson manifold]].
 
-
+Regarded as a [[Lie algebroid]], it should by [[Lie integration]] integrate to a [[Lie groupoid]] with extra structure. These are the [[symplectic groupoid]]s.
 
 ## $n=2$: Courant algebroid ## 
 
@@ -50,6 +45,17 @@ A $2$-symplectic manifold is a [[Courant algebroid]].
 Consider first a 2-symplectic point. This is a [[semifree dga]] generated on some graded vector space $V$ and equipped with a _symmetric_ non-degenerate bilinear form on $V_1$. (An odd-graded skew form is a symmetric form!).
 
 This is essentially the [[String Lie 2-algebra]].
+
+# relation to multisymplectic geometry #
+
+There is also the closely related notion  of [[multisymplectic geometry]]. See 
+
+  * [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_, ([arXiv](http://arxiv.org/abs/0901.4721))
+
+for some relations of this to the above situation for $n = 2$. Essentially multisymplectic geometry studies the higher $n$-ary brackets induced from the binary graded symplectic form discussed here. The relation between these two pictures is the same as that between as studied in the context of [[hemistrict Lie 2-algebra]]s.
+
+An article with more details on this by [[Chris Rogers]] is apparently in preparation.
+
 
 #References#
 
