@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-19 #
+
+*  [[Toby Bartels]]:  Split [[measure space]] off from [[measurable space]].
+
 # 2009-06-18 #
 
 *  [[Todd Trimble]] keeps creating analysis pages that [[Toby Bartels|I]] link to; today\'s were [[measurable space]] and [[topological vector space]].
