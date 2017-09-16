@@ -1,3 +1,5 @@
+[[!redirects quasigauge space]]
+
 A gauge space is a [[topological space]] (necessary completely regular) whose topology is given by a family of [[metric space|pseudometrics]].  More generally, a quasigauge space is a space (not necessarily completely regular) whose topology is given by a family of quasipseudometrics.
 
 Actually, a gauge space has additional structure, so that it can be seen as giving a (completely regular) [[Cauchy space]], a [[uniform space]], or even a generalisation of a [[metric space]] in which the category $Met$ of metric spaces and short maps is a [[full subcategory]].
@@ -55,6 +57,9 @@ does not commute.  (In particular, note that $Met\to Unif$ is not full, whereas 
 $$\array{Unif &\to& Top \\ & \searrow &\downarrow \\ && QGau}$$
 does not commute.
 
++--{: .query}
+[[Mike Shulman|Mike]]: Back atcha... do you have any good examples of gauge spaces that are not of one of these types?  And is there any value in embedding metric spaces, uniform spaces, and topological spaces into this mysterious larger category $QGau$, in ways so that their images are essentially disjoint?  Do we ever, for instance, want to talk about a short map from a metric space to a topological space, or vice versa?  I would like the answer to be "yes," but I haven't managed to make it come out that way myself yet.
+=--
 
 ## Reflections
 
