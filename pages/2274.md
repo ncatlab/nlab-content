@@ -56,6 +56,10 @@ The constructions can be almost literally transferred to the [[synthetic differe
 More recently, some partial generalizations were found in the purely algebraic framework. One could take any [[coring]] (or even an additive [[comonad]]) with a [[grouplike element]] and define corresponding connections and descent data and generalize the correspondence found by Grothendieck (see [[semi-free dga]] and Menini-Stefan reference below).
 
 
+#related entries#
+
+See also [[deRham space]].
+
 #Literature#
 
 * A. Grothendieck, _Crystals and the de Rham cohomology of schemes_, p. 306--358 of _Dix exposes sur la cohomologie des schemas_, North Holland, Amsterdam, 1968.
