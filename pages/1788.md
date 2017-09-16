@@ -7,6 +7,21 @@ The sandbox had gotten a little full, making it hard to use as a sandbox.  So [[
 ***
 
 
+# Contents
+* tic
+{: toc}
+
+
+## Linking to this heading is a crapshoot
+
+(blah, blah, blah)
+
+
+## Linking to this heading is a sure thing {#sure}
+
+(blah, blah, blah)
+
+
 category: meta
 
 [[!redirects Symbol Sandbox]]
