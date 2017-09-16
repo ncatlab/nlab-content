@@ -8,11 +8,12 @@
 
 #Idea#
 
-In as far as a  [[generalized smooth space]] is a (pre)sheaf on smooth test domains, following the lore of [[space and quantity]] a generalized smooth quantity (such as a generalized smooth function or a generalized smooth section) is a co-presheaf on smooth test domains.
+A **smooth algebra** or **$C^\infty-ring$** is an [[algebra]] $A$ over the reals for which not only the product operation $\cdot : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$ lifts to the algebra product $A \times A \to A$, but for which _every smooth map_ $f : \mathbb{R}^n \to \mathbb{R}^m$ ([[morphism]] in [[Diff]]) lifts to a smooth map $A(f) : A^n \to A^m$ in a compatible way. 
 
-Product preserving co-presheaves on [[CartSp]] form a generalized notion of smooth algebras with very nice structural properties, such as required in [[geometric function theory]].
+In short this means that $A$ is a [[product]]-preserving [[presheaf|co-presheaf]] on [[CartSp]].
 
-These generalized smooth algebras, usually called **$C^\infty$-rings** are examples of [[locally modeled monoid]]s.
+The [[opposite category]] of the [[category]] of $C^\infty$-rings is the category of [[smooth loci]]. This and its subcategories play a major role as [[site]]s for [[category of sheaves|categories of sheaves]] that serve as  [[Models for Smooth Infinitesimal Analysis|models]] for [[synthetic differential geometry]].
+
 
 #Motivating example#
 
@@ -436,3 +437,4 @@ A brief but useful review is also on p. 3 of
 
 [[!redirects generalized smooth algebras]]
 [[!redirects C-infinity-ring]]
+[[!redirects smooth algebra]]
