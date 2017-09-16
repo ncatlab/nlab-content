@@ -9,4 +9,6 @@ Is there a simplicial nerve that\'s not of simplicial categories?  If not, I\'d 
 
 _Toby_:  Ah, I see how 'simplicial nerve' is confusing; so how about just [[nerve of a simplicial category]]?
 
+[[Urs Schreiber|Urs]]: right, that might be the best option -- I have to run now, maybe you can implement that?
+
 =--
