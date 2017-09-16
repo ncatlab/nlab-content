@@ -5,7 +5,7 @@ Examples
 * In [[Vect]] every object $A$ has an injective hull, $A \stackrel{id_A}{\longrightarrow} A$.
 * In [[Pos]] every object has an injective hull, its [[MacNeille completion]].
 * In [[Ab]] every object has an injective hull. The embedding $\mathbb{Z} \hookrightarrow \mathbb{Q}$ is an example.
-* In the category of fields and field extensions, every object has an injective hull, its [[algebraic closure]].
+* In the category of fields and algebraic field extensions, every object has an injective hull, its [[algebraic closure]].
 
 ##References##
 
