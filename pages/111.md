@@ -19,7 +19,7 @@ The example to keep in mind is the category [[Set]], in which the objects are se
 
 A _category_ $C$ consists of 
 
-* a collection $C_0$ of _objects_;
+* a [[collection]] $C_0$ of _objects_;
 
 * a collection $C_1$ of _morphisms_ (or _arrows_);
 
