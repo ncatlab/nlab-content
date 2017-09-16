@@ -2,14 +2,16 @@ You cannot see me: I\'m invisible!
 
 [[!include contents]]
 
-# Contents #
-
-* dummy line for automatically generated table of contents
-{:toc}
-
 ***
 
 Every wiki needs a sandbox! Just test _below_ and don't worry about messing things up.
+
+***
+
+# Contents #
+
+* a few bytes for the docbot to eat while building the toc
+{:toc}
 
 ***
 
@@ -37,7 +39,7 @@ __Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) --- [O
 
 # Type Spec #
 
-Assign types in the following specification:
+__Version 0__
 
 $$\array{
 \arrayopts{\colalign{left}}
@@ -60,6 +62,8 @@ $$\array{
 
 Here, a notation of the form $x \underset{A}{\Downarrow}$ means that $x$ is of the type $A$, while a notation of the form $x \overset{A}{\underset{B}{\Downarrow}}$ means that $x$ is of the type $A \Rightarrow B$.
 
+__Version 1 : One Liner__
+
 $$
 {
 ((x       \underset{A}{\Downarrow} y
@@ -79,7 +83,9 @@ $$
           \underset{C}{\Downarrow}
 }
 $$
-or
+
+__Version 2 : Gathered__
+
 $$
 \begin{gathered}
 {
@@ -103,7 +109,9 @@ $$
 }
 \end{gathered}
 $$
-or
+
+__Version 3 : One Liner + Big Delimiters__
+
 $$
 {
 \bigl((x       \underset{A}{\Downarrow} y
@@ -123,7 +131,9 @@ $$
                \underset{C}{\Downarrow}
 }
 $$
-or
+
+__Version 4 : Gathered + Big Delimiters__
+
 $$
 \begin{gathered}
 {
@@ -147,6 +157,12 @@ $$
 }
 \end{gathered}
 $$
+
+__Remarks__
+
+Windows + Firefox : all versions still give that "broken arrow" effect where the shaft looks patched together from different width pieces.
+
+Windows + IE : arrows okay, but MathPlayer crashes for some reason, will try re-installing.
 
 ***
 
