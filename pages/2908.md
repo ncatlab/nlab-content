@@ -64,8 +64,8 @@ Every monadic category is the category of algebras for some [[variety of algebra
 
 As special cases of the last item:
 
-*  A concrete category is bounded monadic if and only if it is equationally presentable (presented by a variety) by a small set of equations.
-*  A concrete category is bounded algebraic if and only if it is presented by a quasivariety with a small set of axioms.
+*  A concrete category is bounded monadic if and only if it is equationally presentable (presented by a variety) with a small set of operations (and hence equations).
+*  A concrete category is bounded algebraic if and only if it is presented by a quasivariety with a small set of operations.
 *  A concrete category is finitary monadic if and only if it is the category of algebras for some finitary variety; that is, we have only a small set of finitary operations.
 *  A concrete category is finitary algebraic if and only if it is the category of algebras for some finitary quasivariety.
 
@@ -94,6 +94,7 @@ Actually, AHS discusses the more general concept of algebraic (etc) *functors*, 
 For Johnstone, a concrete category is 'algebraic' if and only if it is monadic.  However, Johnstone also discusses [[equationally presentable category|equationally presentable categories]].
 
 
+[[!redirects algebraic category]]
 [[!redirects algebraic categories]]
 [[!redirects bounded algebraic category]]
 [[!redirects bounded algebraic categories]]
