@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea ##
 
 A _well-order_ on a set $S$ is a [[relation]] $\prec$ that allows one to interpret $S$ as an [[ordinal number]] $\alpha$ and $\prec$ as the relation $\lt$ on the ordinal numbers less than $\alpha$.  In particular, one can do [[induction]] on $S$ over $\prec$ (although the more general [[well-founded relations]] also allow this).
