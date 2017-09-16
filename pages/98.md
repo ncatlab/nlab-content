@@ -31,5 +31,5 @@ In this context
 * etc.
 
 
-[[!redirects Chevalley–Eilenberg algebra]]
 [[!redirects Chevalley--Eilenberg algebra]]
+[[!redirects Chevalley–Eilenberg algebra]]
