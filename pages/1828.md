@@ -15,9 +15,18 @@ If $f$ is a [[function]] thought as a [[functional relation|functional]] [[entir
 
 More generally, we have the following:
 
-| If $R$ is ... | then $R^{op}$ is ... |
-| ------------- | -------------------- |
-| functional    | injective            |
-| entire        | surjective           |
-| injective     | functional           |
-| surjective    | entire               |
+| If $R$ is ... | | then $R^{op}$ is ... |
+| ------------- |-| -------------------- |
+| functional    | | injective            |
+| entire        | | surjective           |
+| injective     | | functional           |
+| surjective    | | entire               |
+
+
+[[!redirects opposite of a relation]]
+[[!redirects dual relation]]
+[[!redirects dual of a relation]]
+[[!redirects inverse relation]]
+[[!redirects inverse of a relation]]
+[[!redirects converse relation]]
+[[!redirects converse of a relation]]
