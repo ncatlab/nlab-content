@@ -98,4 +98,6 @@ If $\underline{K}$ is a 1-category equipment satisfying the hypotheses of the th
 It is shown [here](http://rfcwalters.blogspot.com/2009/10/categorical-algebras-of-relations.html) that any bicategory of relations is an allegory.
 =--
 
+
 [[!redirects (1,2)-category equipment]]
+[[!redirects 1-category equipments]]
