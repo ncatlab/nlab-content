@@ -14,12 +14,12 @@ defined by the condition that there exists $k: a \to b$ such that $i = j k$. (Th
 
 ## Restated in terms of over categories
 
-Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on monomorphisms. Then $C_c$ is the [[partial order|poset]] of subobjects of $c$ and the set of isomorphism classes of $C_c$ is the set of subobjects of $c$. However this "set" can be in fact a proper class in general, see [[well-powered category]].
+Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on monomorphisms. Then $C_c$ is the [[poset]] of subobjects of $c$ and the set of isomorphism classes of $C_c$ is the set of subobjects of $c$. However this "set" can be in fact a proper class in general, see [[well-powered category]].
 
 
-## The set of subobjects as a functor
+## The poset of subobjects as a functor
 
-Suppose $E$ is a [[well-powered category]]. Denote by $Sub(X)$ the set of subobjects of object $X$ in $E$. The correspondence $Sub:X\mapsto Sub(X)$ may be extended to a contravariant functor, namely if $f: X\to Y$ is arbitrary and $m:S\hookrightarrow Y$ is a monic, then the pullback $f^*(m):f^*(S)\to X$ of $m$ along $f$ is automatically a monic; the correspondence $m\mapsto f^*(m)$ describes $Sub(f)$ at the level of representatives of subobjects.  
+Suppose $E$ is a [[well-powered category]]. Denote by $Sub(X)$ the poset of subobjects of object $X$ in $E$. The correspondence $Sub:X\mapsto Sub(X)$ may be extended to a [[contravariant functor]] $X \to Pos$ (that is a functor $X^op \to Pos$), namely if $f: X\to Y$ is arbitrary and $m:S\hookrightarrow Y$ is a monic, then the pullback $f^*(m):f^*(S)\to X$ of $m$ along $f$ is automatically a monic; the correspondence $m\mapsto f^*(m)$ describes $Sub(f)$ at the level of representatives of subobjects.  
 
 
 ## Generalizations
