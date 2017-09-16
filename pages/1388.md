@@ -15,3 +15,7 @@ I am still trying to find out to which degree both definitions are equivalent.
 See also the discussion at [[E-infinity ring]].
 
 =--
+
+[[!redirects A-infinity rings]]
+[[!redirects A∞-ring]]
+[[!redirects A∞-rings]]
