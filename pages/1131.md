@@ -92,7 +92,7 @@ Let $DGLA$ be the corresponding category.
 
 
 
-A dgla is $n$-_reduced_ (resp. _homologically $n$-reduced_) if $L_p = 0$ (resp. $H_p(L,\partial) = 0$) for all $p\lt n$.  Denote by $DGLA_n$ (resp.  $DGLA}_{hn}$), the corresponding categories.
+A dgla is $n$-_reduced_ (resp. _homologically $n$-reduced_) if $L_p = 0$ (resp. $H_p(L,\partial) = 0$) for all $p\lt n$.  Denote by $DGLA_n$ (resp.  $DGLA_{hn}$), the corresponding categories.
 
 ####Filtrations
 
