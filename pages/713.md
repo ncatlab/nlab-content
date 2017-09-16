@@ -102,12 +102,19 @@ is a bit like trying to find an 'inverse' to precomposition with $Y$.  And that'
 
 But don't worry: I'm only mentioning this to intimidate you... err, I mean: to start getting you used to Kan extensions.  They're 'best possible approximations to the perhaps impossible task of finding an inverse to precomposition with a functor'.   But never mind!
 
+[[Mike Stay]]: So the real content of the theorem is saying that there's always a "best" one; I can imagine that in other situations, you might have a bunch of inequivalent approximations, none of which is better than all the others, and would need to make an arbitrary choice.
+
 Now, try this exercise:
 
 **Exercise.**  Using the Theorem, show that going from 
 a functor $A \to \widehat{B}$ to a cocontinuous functor
-$\widehat{A} \to \widehat{B}$ gets you back where you started---at least up to natural isomorphism.  Also show that going from a cocontinuous functor
-$\widehat{A} \to \widehat{B}$ to a functor $A \to \widehat{B}$ gets you back where you started---at least up to natural isomorphism.
+$\widehat{A} \to \widehat{B}$ gets you back where you started---at least up to natural isomorphism.  
+
+[[Mike Stay]] Well, given any functor $F:A \to \widehat{B}$, you get from the theorem a cocontinuous functor $\widehat{F}:\widehat{A} \to \widehat{B}$ such that $\widehat{F} \circ Y$ is naturally isomorphic to $F$.
+
+Also show that going from a cocontinuous functor $\widehat{A} \to \widehat{B}$ to a functor $A \to \widehat{B}$ gets you back where you started---at least up to natural isomorphism.
+
+[[Mike Stay]] Call our given functor $\widehat{F}: \widehat{A} \to \widehat{B}$.  Precompose with $Y$ to get $\widehat{F} \circ Y: A \to \widehat{B}$.  Then the theorem gives us a cocontinuous functor $G: \widehat{A} \to \widehat{B}$ such that $G \circ Y$ is the best approximation to $\widehat{F} \circ Y$.  But this is $\widehat{F}$ itself--at least up to natural isomorphism.
 
 I don't think it requires any special knowledge to do it.   I could be wrong, but I have a feeling that the answer, or at least part of it, just writes itself.  You write down what you want, and what the Theorem says you know...
 
