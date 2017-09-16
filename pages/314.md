@@ -472,4 +472,4 @@ See [[limits and colimits by example]] for what this formula says for instance f
 
 ## Commutativity of limits with colimits ##
 
-In general limits do not commute with colimits. But under a number of special conditions of iinterest they do. More on that at [[commutativity of limits and colimits]].
+In general limits do not commute with colimits. But under a number of special conditions of interest they do. More on that at [[commutativity of limits and colimits]].
