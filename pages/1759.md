@@ -359,7 +359,7 @@ I thank people from Indiana math dept who discussed with me in Fall 2002 when I 
 
     * [[John Baez]]: The guilty conscience need not be accused by name.  I think we should warn the reader when we go off on an excursion like this.  Perhaps just a warning like: **The following passage might be considered [[centipede mathematics]]**, together with a small version of the following picture.  I wish I knew how to center a picture!
 
-![A pic](http://math.ucr.edu/home/baez/centipede.jpg)  
+      ![A pic](http://math.ucr.edu/home/baez/centipede.jpg)  
 
 * [[Tom Ellis]] created [[extremal monomorphism]]
 
