@@ -1,23 +1,30 @@
-Recall that an [[isometry]] between two [[Riemannian manifolds]] $(M,g), (N,h)$ is a diffeomorphism $\phi: M \to N$ such that $\phi^* h = g$.  In other words, $\phi$ respects the Riemannian structure as well as the differentiable structure.  
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+Recall that an [[isometry]] between two [[Riemannian manifolds]] $(M,g), (N,h)$ is a [[diffeomorphism]] $\phi: M \to N$ such that $\phi^* h = g$.  In other words, $\phi$ respects the Riemannian structure as well as the differentiable structure.  
 
 It follows that if $d,d'$ are the metrics on $M,N$ induced by the Riemannian metrics $g,h$, then $d'(\phi(x),\phi(y)) = d(x,y)$ for $x,y \in M$---that is, $\phi$ is distance-preserving.
 Interestingly, a version of  the converse is true, according to the Myers--Steenrod theorem:
 
 +-- {: .standout}
-If $\phi: M \to N$ is distance-preserving and surjective, then it is an isometry (in particular, it is smooth).
+If $\phi: M \to N$ is distance-preserving and surjective, then it is an [[isometry]] (in particular, it is smooth).
 =--
 
 For notational simplicity, assume $N=M$.
 
 $\phi$ is evidently a homeomorphism.  Now pick $p \in M$ and a neighborhood $D_r(p)$ such that for any $q \in D_r(p)$, there is a unique geodesic in that neighborhood connecting $p,q$.  Call it $\gamma$.   I claim that $\phi \circ \gamma$ is a geodesic in $N$.
  
-The geodesic $\gamma$ can be assumed to be parametrized by unit length. We have for all $t$, 
+The [[geodesic]] $\gamma$ can be assumed to be parametrized by unit length. We have for all $t$, 
 \[ d(p,q) = d(\gamma(t),p) + d(\gamma(t), q).\]
 Thus 
 \[ \label{streq} d(\phi(p),\phi(q)) = d(\phi(\gamma(t)),\phi(p)) + d(\phi(\gamma(t)), \phi(q)) .\]
 In other words, we have strict equality in the triangle inequality.  
 
-##Geodesic preservation##
+##Geodesic preservation
 
 In a Riemannian manifold $M$, if $q,r$ lie in a small neighborhood of $p$ and 
 \[ d(q,r) + d(r,p)  = d(q,p) ,\]
@@ -26,7 +33,7 @@ Indeed, draw a geodesic $\alpha$ from $q$ to $r$ and a geodesic $\beta$ from $r$
 
 So, returning to the discussion above, we see that by (eq:streq) $\phi$ *sends geodesics to geodesics*.
 
-##Exponential coordinates##
+## Exponential coordinates
 
 Now fix open $U \subset T_p(M),V \subset T_q(N)$ containing the origin such that $\exp_p$ takes $U$ diffeomorphically to a neighborhood $D_r(p)$, and $\exp_q$ takes $V$ diffeomorphically to $D_r(q)$.  There is an expression for $\phi$ as a map $\tilde{\phi}: U \to V$ in these exponential coordinates.  
 It is obtained as follows: if $v \in U$, take a geodesic $\gamma_v$ with $\gamma_v'(0) = v$ and consider $(\phi \circ \gamma_v)'(0)$.  In fact this induces more generally a map
@@ -34,7 +41,7 @@ It is obtained as follows: if $v \in U$, take a geodesic $\gamma_v$ with $\gamma
 Since $\gamma_v$ moves at constant speed $|v|$ and $\phi \circ \gamma_v$ moves at the same speed, it follows that
 $\tilde{\phi}$ is norm-preserving.  Also $\tilde{\phi}(0) = 0$.  If we can show that $\tilde{\phi}$ is linear, then we'll get smoothness in this exponential coordinate system---hence smoothness in general.
 
-##$\tilde{\phi}$ is an isometry##
+## $\tilde{\phi}$ is an isometry
 
 It can be checked that
 \[ \boxed{\lim_{A,B \to 0 \in T_p(M)} \frac{d(\exp_p(A),\exp_p(B)) }{|A-B|} } = 1.\]
@@ -55,7 +62,7 @@ To show that $\tilde{\phi}$ is linear, we appeal to a general fact:
 
 
 
-##Conclusion of the proof##
+##Conclusion of the proof
 
 Now we have seen that $\phi$ is smooth, and that for $v \in T_p(M)$, $|v|_p = |\phi_*(v)|_{\phi(p)}$, i.e. $\phi$ preserves lengths on tangent vectors.  By the polarization identity, $\phi$ preserves the inner product, and is thus an isometry.
 
@@ -63,7 +70,7 @@ Now we have seen that $\phi$ is smooth, and that for $v \in T_p(M)$, $|v|_p = |\
 
 
 
-##A   lemma##
+##A lemma
 
 We never proved a fact  about the exponential map---the equality 
 \[ \lim_{A,B \to 0 \in T_p(M)} \frac{d(\exp_p(A),\exp_p(B)) }{|A-B|} = 1.\]
