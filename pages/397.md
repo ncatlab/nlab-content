@@ -18,6 +18,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Benoit Jubin]]
 * [[beroal]]
 * [[Bruce Bartlett]]
+* [[Charles Rezk]]
 * [[Charles Wells]]
 * [[Chris Brav]]
 * [[Chris Schommer-Pries]]
