@@ -297,6 +297,8 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
 
    Once you have the SVG, you can include it on a page as described [here](http://golem.ph.utexas.edu/instiki/show/SVG).  Since raw SVG is a bit ugly, you may want to put the SVG on a "subpage" by itself (with a name like `pagename > imagename`) which is included from the main page (see above for the syntax to include other pages).
 
+   You can also use the SVG-editor to create and edit SVGs right here in the lab.  For more details see [this entry](#svgeditor) below.
+
 1. Use the CodeCogs-server to produce [xypic](http://www.tug.org/applications/Xy-pic/)-coded diagrams.
 
    For that, code a diagram in _xypic_ as usual. Then write the code
@@ -317,7 +319,46 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
 
    <img src="http://latex.codecogs.com/gif.latex?\xymatrix{(f/g)\ar[r]\ar[d]%26A\ar[d]^f\ar[dl]^\alpha\\B\ar[r]_g%26C}" />
 
+# How to use the SVG editor {#svgedit}
 
+There is now an SVG-editor embedded within Instiki (the software running the nLab).  The homepage for this editor is [here](http://code.google.com/p/svg-edit/).
+
+## Quick Start
+
+1. Click "Edit page" on a page in which you wish to insert an SVG diagram.
+2. Click in the edit box where you want the diagram to go.
+3. In the list on the right-hand side above the links to the formatting tips is a button labelled "Create SVG graphic".  Click on this.  Note: if you forget to do step 2, you won't be able to click on this button.
+4. The SVG-editor will now launch in a new window.  Create your SVG.
+5. When you are done, select "Save SVG" from the file menu.  The SVG code will now appear in the edit box of the page.
+
+<svg width="277" height="172" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw" viewBox="0 0 10 10">
+   <path fill="#000000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+  </marker>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_2" y="77" x="268.5">Y</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_3" y="172" x="116.5">Z</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_4" y="76" x="115.5">Y x Z</text>
+  <path marker-end="url(#se_arrow_fw)" id="svg_5" d="m31.5,8c71,-9 155,-10 216,41" stroke-width="5" stroke="#000000" fill="none"/>
+  <path marker-end="url(#se_arrow_fw)" id="svg_6" d="m5.5,27c2,62 54,134 87,136" stroke-width="5" stroke="#000000" fill="none"/>
+  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-width="5" stroke="#000000" id="svg_7" y2="135" x2="116.5" y1="87" x1="114.5"/>
+  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-width="5" stroke="#000000" id="svg_8" y2="68" x2="245.5" y1="67" x1="156.5"/>
+  <line stroke-dasharray="5,5" marker-end="url(#se_arrow_fw)" fill="none" stroke-width="5" stroke="#000000" id="svg_9" y2="50" x2="73.5" y1="30" x1="29.5"/>
+  <text x="8.5" y="18" id="svg_1" fill="#000000" stroke="#000000" stroke-width="0" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">X</text>
+ </g>
+</svg> 
+
+## Hints and Tips
+
+1. The editor does not present all options straight away.  For example, to get a curved arrow, you first need to draw a straight line.  Then select that straight line (using the arrow tool at the top of the left-hand menu) and a new list of options will appear, one of which is the arrow type.
+
+2. To edit an **existing** SVG, select the text between (and including) the `<svg>` and `</svg>` tags (but **don't** include any whitespace afterwards).  The "Create SVG" button changes to "Edit existing SVG graphic". 
+
+3. To get rid of any extraneous whitespace around the picture, go to the "Main Menu" (the funny looking button top left) and select "Document Properties".  There you can set the size of the SVG, including "fit to content".  Only do this once the SVG is finished.
 
 # Other Sources of Information #
 
@@ -336,6 +377,7 @@ Here are some useful specifics:
 * [Upload files](http://golem.ph.utexas.edu/instiki/show/File+Uploads)
 * [Use keyboard shortcuts](http://golem.ph.utexas.edu/instiki/show/AccessKeys)
 * [Make slideshows](http://golem.ph.utexas.edu/instiki/show/S5)
+* [SVG Editor](http://code.google.com/p/svg-edit/) Homepage for the SVG editor project.
 
 ## survey of available math typesetting commands ##
 
