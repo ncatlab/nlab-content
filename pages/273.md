@@ -9,7 +9,7 @@
 
 #Idea#
 
-The notion of [[cohomology]] finds its natural general formulation in terms of [[hom-space]]s in an [[(infinity,1)-topos]], as described at [[cohomology]]. Much of the cohomologies which have been traditionally considered, such as [[abelian sheaf cohomology|sheaf cohomology]] turn out to be just a special case of the general situation, for objects which are sufficiently abelian in the sense of [[stable (infinity,1)-category|stable (infinity,1)-categories]].
+The notion of [[cohomology]] finds its natural general formulation in terms of [[hom-space]]s in an [[∞-stack]][[(∞,1)-topos]], as described at [[cohomology]]. Much of the cohomologies which have been traditionally considered, such as [[abelian sheaf cohomology|sheaf cohomology]] turn out to be just a special case of the general situation, for objects which are sufficiently abelian in the sense of [[stable (infinity,1)-category|stable (∞,1)-categories]].
 
 Therefore to amplify that one is looking at general [[cohomology]] without restricting to [[abelian sheaf cohomology|abelian cohomology]] one sometimes speaks of  **nonabelian cohomology**. 
 
@@ -91,8 +91,9 @@ For examples and discussion of this see
 
 #References#
 
+In as far as nonabelian cohomology is nothing but the study of [[(infinity,1)-categorical hom-space|hom-spaces]] between [[∞-stack]]s, see also the references at [[∞-stack]].
 
-A readable survey is
+A readable survey on nonabelian cohomology is
 
 * [[Bertrand Toen]], _Non-abelian cohomology_ ([ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps))
 
