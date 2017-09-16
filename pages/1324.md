@@ -14,13 +14,9 @@ Famous examples include
 
 ##Definition##
 
-Here is the rough idea, copied, for the moment, verbatim from Markl94 [p. 26] (http://arxiv.org/PS_cache/hep-th/pdf/9411/9411208v1.pdf#page=26). For more details see references below.
+Let $\{K_n\}$ be the sequence of [[associahedron|Stasheff associahedra]]. This is naturally equipped with the structure of a [[multicategory]] -- a non-symmetric [[operad]] -- enriched over [[Top]], usually denoted $K$ (it seems). 
 
-For $n \geq 2$ the **associahedron** $K_n$ is an $(n-2)$-dimensional polyhedron whose $i$-dimensional cells are, for $0 \leq i \leq n-2$, indexed by all (meaningful) insertions of $(n-i-2)$ pairs of brackets between $n$ independent indeterminants, with suitably defined incidence maps.
-
-There exists a natural structure of a nonsymmetric topological [[operad]] -- a [[multicategory]] -- on the nonsymmetric collection $\{K_n\}$. 
-
-A [[topological space]] $X$ is called an **$A(\infty)$-space** if it admits an action of $K$.
+A [[topological space]] $X$ is called an **$A(\infty)$-space** if it admits an action of $K$, i.e. if $\{X_n\}$ is (equipped with the structure of) an [[algebra over an operad]] for $K$.
 
 
 
