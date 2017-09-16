@@ -11,11 +11,6 @@ A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$.
 * The face map $d_i : X_n \rightarrow X_{n-1}$ is dual to the unique injection $\delta^i : [n-1] \rightarrow [n]$ in the category $\Delta$ whose image omits the element $i \in [n]$. Similarly, the degeneracy map $s_i : X_n \rightarrow X_{n+1}$ is dual to the unique surjection $\sigma^i : [n+1] \rightarrow [n]$ in $\Delta$ such that $i \in [n]$ has two elements in its preimage. The maps $\delta^i$ and $\sigma^i$ satisfy certain obvious relations; the face are degeneracy maps satisfy relations dual to these (so we get a [[functor]] from $\Delta^{op}$ to $\Set$).  The relations satisfied by the face and degeneracy maps are often called  the [[simplicial identities]].
 
 
-+--{.query} 
-[[Tim Porter|Tim]] : I have changed the notation so that the maps in $\Delta$  are given Greek symbols whilst their images under the functor $X$ are denoted $d_i$ and $s_i$, so as to bring the notation into line with the standard one. Can someone check that I have been consistent, please?
-
-_Toby_: The notation seems to be consistent on this page.
-=--
 #Examples#
 
 * Let $[n]$ denote the object of $\Delta$ corresponding to the totally ordered set $\{ 0, 1, 2,\ldots, n\}$. Then the represented presheaf $\Delta(-, [n])$, which we typically write as $\Delta[n]$ is an example of a simplicial set. By the Yoneda lemma, the $n$-simplices of a simplicial set $X$ are in natural bijective correspondence to maps $\Delta[n] \rightarrow X$ of simplicial sets.
@@ -51,3 +46,9 @@ Here are some examples:
 * The simplicial nerve functor and its left adjoint $\Simp\Set \leftrightarrow \Simp\Cat$ where [[SimpCat]] denotes the category of [[simplicially enriched category|simplicially enriched categories]], i.e., categories enriched in $\Simp\Set$.
 
 * The adjunction $- \times X: \SimpSet \leftrightarrow \SimpSet :(-)^X$ between the product with a simplicial set $X$ and the internal-hom, which makes $\Simp\Set$ into a [[cartesian closed category]].
+
+#References#
+
+A pedagogical introduction to simplicial sets is
+
+* Greg Friedman, _An elementary illustrated introduction to simplicial sets_ ([arXiv](http://arxiv.org/abs/0809.4221))
