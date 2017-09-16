@@ -17,13 +17,21 @@ In the book
 
 a realization of a [[topos]] for synthetic differential geometry is constructed in terms of [[structured generalized space|structured generalized spaces]] modeled on [[generalized smooth algebra]]s. Among other things, the book describes in detail how the familiar but ill-defined "infinitesimal reasoning" in standard differential geometry finds its precise formulation in such a topos.
 
-In this vein, Anders Kock, in a long series of articles, reformulates large parts of differential geometry using synthetic reasoning. In his work he particularly makes use of the fact that as sophisticated as a synthetic [[topos]] may be when explicitly constructed, being a [[topos]] means that one can reason inside it almost literally as in [[Set]]. Using this Kock's work gives descriptions of synthetic differential geometry which are entirely intuitive and have no topos-theoretic flavor. All he needs is the assumption that the _Kock-Lawvere axiom_ is satisfied for "numbers". Here "numbers" is really to be interpreted in the topos, but if one just accepts that they satisfy the KL axiom, one may work with infinitesimals in this context in essentially precisely the naive way, with the topos theory in the background just ensuring that everything makes good sense.
+In this vein, [[Anders Kock]], in a long series of articles, reformulates large parts of differential geometry using synthetic reasoning. In his work he particularly makes use of the fact that as sophisticated as a synthetic [[topos]] may be when explicitly constructed, being a [[topos]] means that one can reason inside it almost literally as in [[Set]]. Using this Kock's work gives descriptions of synthetic differential geometry which are entirely intuitive and have no topos-theoretic flavor. All he needs is the assumption that the _Kock-Lawvere axiom_ is satisfied for "numbers". Here "numbers" is really to be interpreted in the topos, but if one just accepts that they satisfy the KL axiom, one may work with infinitesimals in this context in essentially precisely the naive way, with the topos theory in the background just ensuring that everything makes good sense.
+
+## Well adapted models ##
+
+A [[topos]] $T$ modelling the axioms of synthetic differential geometry is called **(well) adapted** if the ordinary [[differential geometry]] of [[manifold]]s embeds into it. 
+
+A standard model for well adapted syntehtic toposes is obtained in terms of sheaves on diuals of "germ determined" $C^\infty$-rings. This is described in great detail in the textbook [[Models for Smooth Infinitesimal Analysis]]. 
+
+The conception and discussion of these well adapted toposes goes back to E. Dubuc, who studied them in a long series of articles. He [asks](http://north.ecc.edu/alsani/ct99-00(8-12)/msg00218.html) people to refer it this topos as the **Dubuc topos**. 
 
 
 
 # Variations #
 
-## higher categoricalversions ##
+## higher categorical versions ##
 
 * Synthetic differential geometry may be thought of as embedded in the general theory of [[derived smooth manifold]]s and, generally, that of [[generalized scheme]].
 
