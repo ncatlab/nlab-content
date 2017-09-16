@@ -46,4 +46,13 @@ Is there any reason for calling these 'weak' homotopy equivalences rather than m
 [[Mike Shulman|Mike]]: By "these" I assume you mean weak homotopy equivalences of simplicial sets, categories, etc.  My answer is yes.  One reason is that in some cases, such as as simplicial sets, symmetric sets, and probably cubical sets, there is also a notion of "homotopy equivalence" from which this notion needs to be distinguished.  A simplicial homotopy equivalence, for instance, is a simplicial map $f:X\to Y$ with an inverse  $g:Y\to X$ and simplicial homotopies $X\times \Delta^1 \to X$ and $Y\times \Delta^1 \to Y$ relating $f g$ and $g f$ to identities.
 
 _Toby_:  Interesting.  I would have guessed that any weak homotopy equivalence could be strengthened to a homotopy equivalence in this sense, but maybe not.
+
+[[Tim Porter|Tim]]: I think the initial paragraph is somehow back to front from a philosophical point of view, as well as a historical one.  Homotopy theory grew out of studying spaces up to homotopy equivalence or rather from studying paths in spaces (and integrating along them). This leads to some invariants such as homology and the fundamental group. Weak homotopy type (and it might be interesting to find out when this term was first used) is the result and then around the 1950s with the development of Whitehead's approach (CW complexes etc.) the distinction became more interesting between the two concepts.
+
+I like to think of 'weak homotopy equivalence' as being 'observational', i.e. $f$ is a w.h.e if when we look at it through the observations that we can make of it, it looks to be an 'equivalence'.  It is 'top down'. 'Homotopy equivalence' is more 'constructive' and 'bottom up'. The idea of simple homotopy theory takes this to a more extreme case, (which is related to Toby's query and to the advent of K-theory).
+
+With the constructive logical side of the nLab becoming important is there some point in looking at this 'constructive' homotopy theory as a counter balance to the model category approach which can tend to be very demanding on the set theory it calls on?   
+
+
+On a niggly point, the homotopy group of a space is only defined if the space is non-empty so one of the statements in this entry is pedantically a bit dodgy! 
 =--
