@@ -49,6 +49,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 ## 2009-09-22
 
+* [[Lab Elf|Lab Elf (carpentry department)]]: Maruku (the implementation of markdown used here) can do automatic tables of contents (for use _within_ a page, it can't do cross-page contents).  For an example see [[Froelicher space|this page]] and for the syntax, see the [maruku extended syntax page](http://maruku.rubyforge.org/maruku.html#toc-generation).
+
 * [[Urs Schreiber]] 
 
   * created [[functorial quantum field theory - contents]] and added it as a floating table of contents to relevant entries -- trusting that the related issues currently [discussed on the forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=61&page=1#Item_9) will eventually be solved by CSS means
