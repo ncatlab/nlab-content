@@ -13,6 +13,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 #2009-04-01
 
+* [[Urs Schreiber|Urs]]
+
+  * tried to resolve/incorporate parts of the discussion at [[localization]] by reworking the entry a bit -- also left a comment there
+
+  * noticed that we have considerable overlap now between [[multiplicative system]] and [[category of fractions]]. Left a comment there to remind us. Somebody who knows the precise status of these two terms in the math community should please go ahead and merge the material in one entry, keeping a redirect page for the respective other term
+
 * [[Tim Porter|Tim]]:
 
   * I have added a comment on the terminology [[localization]]. Perhaps an algebraic geometric historical perspective could be useful here to help explain the terminology. (I'm not sure that I am competent to provide this however!)
