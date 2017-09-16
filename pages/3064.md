@@ -18,4 +18,4 @@ This generalizes [[nonabelian group cohomology]], which is the special case of n
 
 ### Atiyah Lie groupoid
 
-The [[Atiyah Lie groupoid]] $At(P) \to \Pi(X)$ of a [[principal bundle]] $P \to X$ is the extension of $\Pi(X)$ classified by the nonabelian groupoid cocycle $\Pi(X) \to \mathbf{B} AUT(G)$ coming from a [[connection on a bundle|conneciton]] on $P$.
+The [[Atiyah Lie groupoid]] $At(P) \to \Pi(X)$ of a [[principal bundle]] $P \to X$ is the extension of $\Pi(X)$ classified by the nonabelian groupoid cocycle $\Pi(X) \to \mathbf{B} AUT(G)$ coming from a [[connection on a bundle|connection]] on $P$.
