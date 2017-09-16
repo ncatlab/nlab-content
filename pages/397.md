@@ -1,6 +1,7 @@
 Here is a list of people who have contributed content to the nLab (or, failing that, who have been impersonated by people who have contributed content to the nLab). 
 
 * [[Akhil Mathew]]
+* [[amca01|Alasdair McAndrew]]
 * [[Aleks Kissinger]]
 * [[Alex Hoffnung]]
 * [[Alex Nelson]]
