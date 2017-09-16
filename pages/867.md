@@ -41,3 +41,7 @@ dipaths. A discussion document and overview of some techniques_ ([pdf](http://dr
 [[!redirects partially ordered sets]]
 [[!redirects poset]]
 [[!redirects posets]]
+[[!redirects partial orders]]
+[[!redirects partially-ordered]]
+[[!redirects partially-ordered set]]
+[[!redirects partially-ordered sets]]
