@@ -1,0 +1,3 @@
+The _long line_ is a [[line]] in the sense of being a $1$-dimensional [[manifold]] (without boundary) that is not closed (so not a [[circle]]).  However, it is not [[paracompact space|paracompact]] either, so it is not [[homeomorphic]] to the [[real line]] (even though it is [[Hausdorff space|Hausdroff]]).
+
+For a construction using [[ordinal numbers]], see [Wikipedia](http://en.wikipedia.org/wiki/Long_line_%28topology%29).
