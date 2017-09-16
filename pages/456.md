@@ -10,7 +10,7 @@ $$
 $$
 between the corresponding  [[Grothendieck topos|Grothendieck topoi]] of [[sheaf|sheaves]] on $X$ and $Y$, such that
 
-* $f^*$ is [[left adjoint]] to $f_*$
+* $f^*$ is [[adjoint functor|left adjoint]] to $f_*$
 
 * $f^*$ is [[exact functor|left exact]] in that it preserves finite [[limit]]s.
 
@@ -26,7 +26,7 @@ Another motivation of the concept comes from the the fact that a [[functor]] suc
 
 #Definition#
 
-If $E$ and $F$ are [[topos|toposes]], a **geometric morphism** $f:E\to F$ consists of an pair of [[adjoint functors]] $(f^*,f_*)$
+If $E$ and $F$ are [[topos|toposes]], a **geometric morphism** $f:E\to F$ consists of an pair of [[adjoint functor]]s $(f^*,f_*)$
 $$
   f_* : F \to E
 $$
@@ -35,7 +35,7 @@ $$
   \,,
 $$
 
-such that the [[left adjoint]] $f^*:F \to E$ is [[exact functor|exact]] in that it preserves finite [[limit]]s.
+such that the left adjoint $f^*:F \to E$ preserves finite [[limit]]s.
 
 
 
@@ -46,9 +46,9 @@ such that the [[left adjoint]] $f^*:F \to E$ is [[exact functor|exact]] in that 
 
 #Surjections and embeddings#
 
-A geometric morphism $f : E \to F$ is a **surjection** if $f^*$ is [[faithful]].
+A geometric morphism $f : E \to F$ is a **surjection** if $f^*$ is [[faithful functor|faithful]].
 
-It is an **embedding** if $f_*$ is [[fully faithful]].
+It is an **embedding** if $f_*$ is [[full and faithful functor|fully faithful]].
 
 **Proposition**
 
