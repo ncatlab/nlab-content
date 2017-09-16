@@ -111,7 +111,7 @@ Alternatively, we can equivalently describe a $V$-enriched category as precisely
 
 $$Set^V \to Set^{X \times X}$$ 
 
-since bicontinuous functors of the form $Set^V \to Set^{X \times X}$ are precisely those of the form $Set^d$ for some function $d: X \times X \to V$ [at least if $V$ is [[Cauchy complete category|Cauchy complete]]. 
+since bicontinuous functors of the form $Set^V \to Set^{X \times X}$ are precisely those of the form $Set^d$ for some function $d: X \times X \to V$, at least if $V$ is [[Cauchy complete category|Cauchy complete]]. 
 
 ## Enrichment in a bicategory ## 
 
@@ -124,7 +124,7 @@ Let $B$ be a bicategory, and write $\otimes$ for horizontal (1-cell) composition
 
 such that the associativity and unitality diagrams, as written above, commute. Viewing a monoidal category $M$ as a 1-object bicategory $\Sigma M$, the notion of enrichment in $M$ coincides with the notion of enrichment in the bicategory $\Sigma M$. 
 
-If $X$, $Y$ are sets which come equipped with enrichments in $B$, then a $B$-functor consists of a function $f: X \to Y$ such that $p_Y \circ f = p_X$, and ...
+If $X$, $Y$ are sets which come equipped with enrichments in $B$, then a $B$-functor consists of a function $f: X \to Y$ such that $p_Y \circ f = p_X$, together with a function $f_1: X \times X \to B_2$, satisfying the constraint $f_1(x, y): \hom_X(x, y) \to \hom_Y(f(x), f(y))$, and satisfying equations expressing coherence with the composition and unit data $\circ$, $j$ of $X$ and $Y$. (Diagram to be inserted, perhaps.) 
 
 ##Passage between ordinary categories and enriched categories##
 
