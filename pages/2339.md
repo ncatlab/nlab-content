@@ -281,6 +281,7 @@ $$
     Spec A^0({*})
     \\
     \downarrow^{\sigma_0} && \downarrow    
+    \\
     \hat E &\stackrel{\simeq}{\to}& Spf A^0(\mathbb{C}P^\infty)
   }
 $$
