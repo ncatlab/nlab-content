@@ -4,6 +4,8 @@
 
 * [[cocycle]]
 
+* [[characteristic class]]
+
 ### special and general types ###
 
 * [[chain homology and cohomology|cochain cohomology]]
@@ -83,6 +85,8 @@
   * [[schreiber:differential equivariant cohomology|differential equivariant cohomology]]
 
   * [[schreiber:differential twisted cohomology|differential twisted cohomology]]
+
+* [[relative cohomology]]
 
 ### operations ###
 
