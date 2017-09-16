@@ -1,3 +1,1 @@
-category: delete
-[[!redirects testing]]
-[[!redirects tester]]
+&lt; [[Sandbox]]
