@@ -12,7 +12,7 @@ A **zero object**, or **null object**, is an [[object]] of a [[category]] that i
 
 * For every category $C$ with a [[terminal object]] $pt$ the [[over category|under category]] $pt \downarrow C$ of [[pointed object]]s in $C$ has a zero object: the morphism $Id_{pt}$.
 
-* In any category [[enriched category|enriched]] over pointed sets or abelian groups, any initial _or_ terminal object is automatically a zero object.  In this case a zero object $0$ can also be characterized by the identity $1_0 = 0_{0,0}$, i.e. the [[identity morphism]] of the zero object is equal to the [[zero morphism]] from it to itself.  This is a special case of a [[Cauchy colimit]].  In particular, any [[additive category]] has a zero object.
+* In any category [[enriched category|enriched]] over pointed sets or abelian groups, any initial _or_ terminal object is automatically a zero object.  In this case a zero object $0$ can also be characterized by the identity $1_0 = 0_{0,0}$, i.e. the [[identity morphism]] of the zero object is equal to the [[zero morphism]] from it to itself.  This is a special case of an [[absolute limit]].  In particular, any [[additive category]] has a zero object.
 
 # Consequences #
 
