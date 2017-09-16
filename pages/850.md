@@ -17,7 +17,7 @@ We shall write the corresponding category as $\mathcal{T}^g$.
 For a generalised $\mathcal{T}$-object $X = (P_X,F_X,c_X)$ we refer to $P_X$ as the _plots_ of $X$, $F_X$ as the _functions_ on $X$, and $c_X$ as the _composition law_ of $X$.  We shall often write composition as $\phi \circ \alpha$ when the notation is not considered confusing.
 =--
 
-The requirement that $\mathcal{T}$ be essentially small implies that the collections of natural transformations form sets and thus that this is, indeed, a category.
+The requirement that $\mathcal{T}$ be essentially small implies that the collections of natural transformations form sets and thus that this is, indeed, a [[locally small category]].
 
 Certain elementary properties are easy to prove.
 
@@ -36,6 +36,10 @@ Identifying $\mathcal{T}$ with its image, we have natural isomorphisms
 \]
 
 _Other elementary properties to follow_
+=--
+
++--{: .query}
+[[Mike Shulman|Mike]]: I repeat here my [objection](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c022207) that "generalized object" is too general a term.
 =--
 
 ## Concrete Generalised $\mathcal{T}$-Objects
