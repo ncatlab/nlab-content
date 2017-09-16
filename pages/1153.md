@@ -26,4 +26,5 @@ Also, I feel like a broken record saying this, but the category of spectra is _n
 
 _Toby_:  I didn\'t think that this would make a difference to the elementary properties of the category, but maybe that\'s wrong.  I certainly see your point about restricting to categories of sheaves, however; I expected that that would go under the 'Grothendieck' or 'Grothendieck--Rezk--Lurie' condition.  But do we even have yet a notion of 'Grothendieck' abelian category that reproduces the concept of a category of abelian sheaves (other than simply 'category of abelian shaves')?
 
+[[Mike Shulman|Mike]]: Including the non-connective spectra makes a big difference to the elementary properties: otherwise the "suspension" functor would not be an auto-equivalence.  I don't think I've ever seen a set of Giraud-like axioms for categories of abelian sheaves, but it seems plausible that they might exist.  I'm nothing like an expert on abelian categories.
 =--
