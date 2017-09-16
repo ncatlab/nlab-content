@@ -64,7 +64,7 @@ Charles Rezk.
 
 Information is for instance on pages 29 to 31 of
 
-* Jacob Lurie, _On the classification of TFTs_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
+* Jacob Lurie, _On the classification of TFTs_ ([pdf](http://www.math.harvard.edu/~lurie/papers/cobordism.pdf))
 
 or section 4 of 
 
