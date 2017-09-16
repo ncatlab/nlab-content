@@ -248,4 +248,5 @@ For Cheng\'s theory of measure spaces, see the 1985 edition of Bishop & Bridges,
 [[!redirects sigma-field]]
 [[!redirects delta-field]]
 [[!redirects sigma-ring]]
-[[!redirects delta-ring]]'
+[[!redirects delta-ring]]
+[[!redirects measurable spaces]]
