@@ -64,9 +64,9 @@ Given a [[set]] $X$ and a collection $\Sigma$ of [[subset]]s $S \subseteq X$, we
 
    Actually, (2) is now redundant again; $S \cup T = X \setminus ((X \setminus T) \setminus S)$.  But perhaps more importantly, $\Sigma$ is closed under *absolute* complementation (that is, complementation relative to the entire ambient set $X$); that is:
 
-   *  If $S$ is measurable, then so is its complement $X \setminus S$.
+   *  If $S$ is measurable, then so is its complement $\neg{S}$.
 
-   In light of this, the most common definition of algebra is probably to use this fact together with (1,2); then (3) follows because $T \setminus S = X \setminus (S \cup (X \setminus T))$ and (4) follows because $X = X \setminus \empty$.  On the other hand, one could equally well use intersection instead of union; absolute complements allow the full use of [[de Morgan duality]].
+   In light of this, the most common definition of algebra is probably to use this fact together with (1,2); then (3) follows because $T \setminus S = \neg(S \cup \neg{T})$ and (4) follows because $X = \neg\empty$.  On the other hand, one could equally well use intersection instead of union; absolute complements allow the full use of [[de Morgan duality]].
 
    Warning: the term 'field' here is even more archaic that the term 'ring' above; indeed the only field in this sense which is a [[field]] (in the usual sense) under symmetric difference and intersection is the field $\{\empty, X\}$ for an [[inhabited set]] $X$.
 
@@ -80,10 +80,10 @@ Given a [[set]] $X$ and a collection $\Sigma$ of [[subset]]s $S \subseteq X$, we
 
    As with $\sigma$-rings, (2) is redundant; as with algebras, it\'s probably most common to use the absolute complement in place of (3,4).  Thus the usual definition of a $\sigma$-algebra states:
    1.  The [[empty set]] $\empty$ is measurable.
-   1.  If $S$ is measurable, then so is its complement $X \setminus S$.
+   1.  If $S$ is measurable, then so is its complement $\neg{S}$.
    1.  If $S_1, S_2, S_3, \ldots$ are measurable, then so is their union $\bigcup_i S_i$.
 
-   And again we could again just as easily use intersection as union, even in the infinite case.  That is, a $\delta$-algebra is automatically a $\sigma$-algebra, because $\bigcup_i S_i = X \setminus \bigcap_i (X \setminus S_i)$.
+   And again we could again just as easily use intersection as union, even in the infinite case.  That is, a $\delta$-algebra is automatically a $\sigma$-algebra, because $\bigcup_i S_i = \neg\bigcap_i \neg{S_i}$.
 
 
 Any and all of the above notions have been used by various authors in the definition of measurable space.  Of course, the finitary notions (ring and algebra) aren\'t strong enough to describe the interesting features of Lebesgue measure; they are used to study very different examples.  On the other hand, $\delta$-rings and $\sigma$-rings may be more convenient than $\sigma$-algebras for some purposes; in particular, the collection of measurable sets with finite measure (in a given [[measure space]]) is a $\delta$-ring, and the collection of measurable sets with $\sigma$-finite measure is a $\sigma$-ring.
@@ -152,15 +152,74 @@ So as far as I ([[Toby Bartels]]) can tell, there is no general predicative theo
 
 ### Constructive theory
 
-...
+There are a couple of related problems with the classical theory.  One is that the notion of $\sigma$-algebra is highly suspicious, because it relies on an operation, [[complement]]ation, that behaves very differently in the [[intuitionistic logic]] that [[constructive mathematics]] uses.  The other is that, even you acept the definition of $\sigma$-algebra anyway (after all, the Lebesgue-measurable sets on the real line do still form one), there may be very few measurable functions.
+
+Indeed, if we set aside the general theory of measurable spaces and simply do Lebesgue measure ad hoc in a constructive (even predicative) way, we find that instead of measurable [[function]]s we really want measurable [[partial function]]s whose domain of definition is a full set.  (A full set is a measurable set whose intersection with any set of measure $x$ also has measure $x$; classically, a set is full if and only if its complement is a null set.)  This suggests that if we want to define the concept of measurable function, then we have to know what the full sets are, which requires knowing at least something about the measure ---and yet we\'re only supposed to be talking about a measure*able* space!
+
+There is a way out, due to Henry Cheng, for both of these problems at once.  Instead of dealing with individual sets, we will deal with pairs of [[disjoint set]]s.  The intuition is that we use disjoint pairs $(A,B)$ such that $A \cup B$ is full ---with $(A,\neg{A})$ being the motivating example in the classical theory---, but we let the $\sigma$-algebra itself tell us which pairs those are.  Once we fix a particular measure, we may find additional pairs whose union is full, somewhat like finding additional measurable sets when taking the completion in the classical theory (although taking the completion is a separate phenomenon here), but that\'s all right; the important thing is that each pair chosen really is full in any measure used (much as each set in a classical $\sigma$-algebra must actually be measurable by any measure used).
+
+(Some of the abstract nonsense below is original research, but based heavily on Cheng\'s ideas.)
+
+
+#### The Boolean semi-algebra of disjoint pairs
+
+So, given a set $X$, a __disjoint pair__ in $X$ is a pair $(A,B)$ of [[subset]]s of $X$ such that $A \cap B$ is [[empty set|empty]].  Every set $A$ defines a disjoint pair $[A] = (A,\neg{A})$, but many disjoint pairs are not of this form; the extreme counterexample is $(\empty,\empty)$.  We order disjoint pairs by the usual order on the first component and the opposite on the second:
+$$ (A,B) \subseteq (C,D) \;\Leftrightarrow\; A \subseteq C \;\wedge\; B \supseteq D .$$
+Similarly, we make the usual operations on sets into operations on disjoint pairs by applying formal [[de Morgan duality]] to the second component:
+
+*  $ \empty = [\empty] = (\empty, X) $;
+*  $ X = [X] = (X, \empty) $;
+*  $ (A,B) \cup (C,D) = (A \cup C, B \cap D) $;
+*  $ (A,B) \cap (C,D) = (A \cap C, B \cup D) $;
+*  $ \bigcup_i (A_i,B_i) = (\bigcup_i A_i, \bigcap_i B_i) $;
+*  $ \bigcap_i (A_i,B_i) = (\bigcap_i A_i, \bigcup_i B_i) $.
+
+(Note that we do not write $[A]$ as $A$ except when $A$ is given as $\empty$ or $X$, because for example, $[A \cap B] = [A] \cap [B]$, while classically valid, may fail constructively.)
+
+These operations form the disjoint pairs into a [[lattice]]; in fact, it is both a [[complete lattice]] and a [[distributive lattice]], but it is not constructively completely distributive in either direction.  (Compare the fact that a power set is, constructively, completely distributive only in one direction, making it a [[frame]]; here the directions are mixed by the formal duality and so neither works.  On the other hand, that the power set is a frame is used to show that the infinitary operations do define disjoint pairs.)
+
+Finally, we define the complement of $(A,B)$, not using the complements of $A$ and $B$ (which may not even be disjoint) but instead simply by reversing them:
+$$ \neg(A,B) = (B,A) .$$
+Then an actual [[de Morgan duality]] holds for these operations:
+
+*  $ \neg\bigcup_i (A_i,B_i) = \bigcap_i \neg(A_i,B_i) $;
+*  $ \neg\bigcap_i (A_i,B_i) = \bigcup_i \neg(A_i,B_i) $;
+*  $ \neg\neg(A,B) = (A,B) $, the famous [[double negation]] law.
+
+We can go on to define relative complement $(A,B) \setminus (C,D)$ and symmetric difference $(A,B) \uplus (C,D)$ in terms of complement, intersection, and union as usual, and they obey many of the usual classical laws.  (For instance, $\uplus$ is ---through a fairly lengthy calculation--- associative, which is not constructively true of [[symmetric difference]] on a power set.)
+
+At this point, the reader could be forgiven for thinking that we have cleverly pulled a [[Boolean algebra]] out of a mere [[Heyting algebra]], but this is not true; aside from the give-away that this lattice is not constructively completely distributive, it is not even classically a Boolean algebra.  This is because $(A,B) \cup \neg(A,B) = (A \cup B, \empty)$ (and similarly for intersection) and there is no requirement that $A \cup B = X$.  What we have instead is a complete Boolean [[rig]], aka semi-ring with unit; to keep consistent with previous terminology, I\'ll call such a thing a _Boolean semi-algebra_.
+
+
+#### The $\sigma$-semi-algebra of complemented pairs
+
+Given a set $X$, a __$\sigma$-semi-algebra__ on $X$ is a collection $\Sigma$ of disjoint pairs in $X$, called the __complemented pairs__ of $\Sigma$, such that:
+1.  $[\empty] = (\empty,X)$ is a complemented pair;
+1.  If $(A,B)$ is a complemented pair, then so is its complement $(B,A)$;
+1.  If $(A_1,B_1), (A_2,B_2), (A_3,B_3), \ldots$ are complemented pairs, then so is their union $(\bigcup_i A_i, \bigcap_i B_i)$.
+
+The arguments above that $\Sigma$ is closed under countable intersections, relative complements, and symmetric differences goes through.  (We can also define analogous notions of semi-algebra, $\delta$-semi-ring, and so forth.)
+
+Of course, a __Cheng measurable space__ (we don\'t really want 'semi-' here) is a set equipped with a $\sigma$-semi-algebra.
+
+Incidentally, the reason why we do not use the term 'measurable pair' is that $A$ and $B$ may easily both be measurable in some sense yet without having $(A,B)$ as a complemented pair.  In particular, $(\empty,\empty)$ is rarely a complemented pair (although that is not forbidden either), yet it is hard to call it non-measurable.
+
+
+#### Measurable functions
+
+Given two Cheng measurable spaces $X$ and $Y$, an __almost function__ from $X$ to $Y$ is a [[partial function]] from $X$ to $Y$ such that, for some complemented pair $(A,B)$, the domain of $f$ contains $A \cup B$.  A __measurable function__ from $X$ to $Y$ is a partial function from $X$ to $Y$ such that, given any complemented pair $(C,D)$ in $Y$, the pair $(f^*(C),f^*(D))$ of [[preimage]]s is a complemented pair.  (By trying $(C,D) = (X,\empty)$, we see that a measurable function is an almost function, but the converse need not hold.)
+
+Cheng measurable spaces and measurable functions between them form a [[topological concrete category]].
 
 
 ### In dream universes
 
-...
-
-
 ... coming ...
+
+
+## References
+
+For Cheng\'s theory of measure spaces, see the 1985 edition of Bishop & Bridges, _Constructive Analysis_.  (And the references therein, obviously, but I haven\'t read those.)
 
 
 [[!redirects measurable set]]
