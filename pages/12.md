@@ -186,5 +186,17 @@ By considering examples of these spaces and by considering what specifically one
 There have been several such generalisations in recent mathematical history.
 A (partial) list is below.
 
+Testing lists:
+
+1. Hello World
+1. This should be number 2
+
+This is the original Markdown list:
+
+1.  Bird
+1.  McHale
+1.  Parish
+
+
 
 category: meta
