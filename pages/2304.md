@@ -35,4 +35,8 @@ I think the page called "graph theory" should be about the field in general, lik
 [[Jon Awbrey]]: Mike, all punny business aside, I don't think there's anything _wrong_ with the page on [[graph]] that can be fixed.  I'm a pragmatist about language, and if there's a community of people who use the terms that way, then it's pointless for me to try and reform their usage.  All I can do is observe that there are communities who use the words another way.  That usually happens because different people have different objectives and senses of what works to those ends.  So I don't see any duplication of intent here, though I might on further examination, I don't know.
 
 _Toby_:  It turns out that I wrote an opinion about this back on [[graph]].
+
+_Todd_: Although I agree with Mike, I have a possible compromise. We on the nLab have been known to write entries on individual books (like Stone Spaces by Johnstone). Why not simply rename this entry "Graph Theory" (caps) and start talking about this book by Harary, which is being quoted with approval here? That way you could definitely have your fixed anchor -- this is how Harary defines the notion of 'graph', and this is what he does with it -- and you could begin talking about an important book at the same time. 
+
+An entry 'graph theory' (lower-case) would then be about the field at large, as Mike suggests. 
 =--
