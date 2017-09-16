@@ -10,7 +10,7 @@ A **triangulated category** is
 
 * an [[additive category]];
 
-* [[category with translation|with translation]];
+* [[category with translation|with (additive) translation]];
 
 * equipped with a collection of [[category with translation|triangles]] called **distinguished triangles** (dts) 
 
@@ -162,6 +162,11 @@ $$
     T X
   }
 $$
+
++--{: .query}
+[[Mike Shulman|Mike]]: This classical definition is actually redundant; TR4 and one direction of TR3 follow from the remaining axioms.  See J.P. May, _The additivity of traces in triangulated categories_, [pdf](http://www.math.uchicago.edu/~may/PAPERS/AddJan01.pdf).
+=--
+
 
 #Remarks#
 
