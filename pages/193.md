@@ -13,7 +13,7 @@ $$
     &&&&1_C& 
     \\
     &&\cellopts{\colspan{5}}\begin{svg}
-       [[!include adjunction/zigzageta]]
+       [[!include adjunction > zigzageta]]
        \end{svg}\\
     D
     & \stackrel{R}{\to}&
@@ -24,7 +24,7 @@ $$
     C
     \\
     \cellopts{\colspan{4}}\begin{svg}
-       [[!include adjunction/zigzagepsilon]]
+       [[!include adjunction > zigzagepsilon]]
        \end{svg}
     \\
     &&1_D&
@@ -39,7 +39,7 @@ $$
     &&1_C& 
     \\
     \cellopts{\colspan{5}}\begin{svg}
-       [[!include adjunction/zigzageta]]
+       [[!include adjunction > zigzageta]]
        \end{svg}\\
     C
     & \stackrel{L}{\to}&
@@ -50,7 +50,7 @@ $$
     D
     \\
     &&\cellopts{\colspan{4}}\begin{svg}
-       [[!include adjunction/zigzagepsilon]]
+       [[!include adjunction > zigzagepsilon]]
        \end{svg}
     \\
     &&&&1_D&
