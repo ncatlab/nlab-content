@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-08
 
+* [[Jon Awbrey]] added a bit more content to [[sign relation]] and then broke for lunch.  ($n$-tweet?)
+
 * [[Urs Schreiber]] 
 
   * created stubs for [[localic topos]] and [[n-localic (∞,1)-topos]]
