@@ -18,7 +18,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-10
 
-*  [[Toby Bartels]]:  Added a note on $2$-[[2-colimit|colimits]] to [[2-limit]].
+*  [[Toby Bartels]]:
+   *  Contents at [[Stone Spaces]].  I hope to go through at least the first 4 chapters and relearn all of the topology there that I already know, only now in terms of locales (and hopefully constructively).  As I do so, I\'ll write it up here.
+   *  Added a note on $2$-[[2-colimit|colimits]] to [[2-limit]].
 
 * [[Urs Schreiber]]: created [[Thomason model category]]
 
