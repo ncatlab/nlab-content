@@ -20,10 +20,10 @@ $\Gamma^\bullet \to H^\bullet(-,\mathbb{R}) \otimes \Gamma^\bullet(*)$ be a morp
 $$
   \array{
   \bar \Gamma^\bullet(-)
-  &\to&
+  &\stackrel{F}{\to}&
   \Omega^\bullet(-)\otimes \Gamma^\bullet(*)
   \\
-  \downarrow && \downarrow
+  \downarrow^{cl} && \downarrow
   \\
   \Gamma^\bullet(-)
   &\to&
@@ -48,7 +48,28 @@ There are variations of this definition, with some technical differences in the 
   * higher circle [[bundle gerbe]]s with connection;
 
 * apart from that people studied mainly 
-[[differential K-theory]]
+[[differential K-theory]].
+
+In [[physics]] differential cocycles model [[gauge theory|gauge fields]]. 
+
+* Cocycles in ordinary differential cohomology (e.g. [[Deligne cohomology]]) model
+
+  * in degree 2: the [[electromagnetic field]] 
+
+  * in degree 3: the [[Kalb-Ramond field]] 
+
+  * in degree 4: the [[supergravity C-field]] 
+
+* Cocycles in [[differential K-theory]] model the
+
+  * [[RR-field]] .
+
+For $c \in \bar \Gamma^\bullet(X)$ a differentia cocycle representing a gauge, one says that
+
+* its image $F(c)$ in differential forms is the corresponding [[field strength]];
+
+* its image $cl(c)$ in non-differential cohomology is the "topological twist" of the [[gauge theory|gauge field]]. In special cases this can be identified with [[magnetic charge]].
+
 
 #Differential cohomology following Bunke-Schick#
 
