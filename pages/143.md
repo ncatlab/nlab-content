@@ -221,7 +221,6 @@ But since $X \simeq colim_i U_i$ the right hand is $X \times_X Y$, which is just
 ###### Lemma
 
 A presheaf $A \in PSh(S)$ is a [[local object]] with respect to all of $W$ already if it is local with respect to those morphisms in $W$ whose codomain is [[representable functor|representable]]
-
 =--
 
 
@@ -255,7 +254,6 @@ $$
   \cdots = Id_{A(X)}
   \,.
 $$
-
 =--
 
 
@@ -263,7 +261,6 @@ $$
 ###### Lemma
 
 Every morphism $Y \to X$ in $W \subset PSh(S)$ factors as an epimorphism followed by a monomorphism in $PSh(S)$ with both being morphisms in $W$.
-
 =--
 
 +-- {: .proof}
@@ -313,7 +310,6 @@ $$
 $$
 
 for $U = \sqcup_{\alpha} U_\alpha$ a disjoint union of representables
-
 =--
 
 +-- {: .proof}
@@ -321,7 +317,6 @@ for $U = \sqcup_{\alpha} U_\alpha$ a disjoint union of representables
 
 This is a direct consequence of the standard fact that
 subfunctors are in bijection with [[sieve]]s.
-
 =--
 
 
@@ -355,7 +350,6 @@ $$
 with the left vertical morphism a [[dense monomorphism]]
  
 (and with $U = \sqcup_\alpha U_\alpha$ the disjoint union (of representable presheaves) over a [[cover]]ing family of objects.)
-
 =--
 
 
@@ -370,7 +364,6 @@ The morphisms in $W$ with representable codomain
 * of the form $colim (W  \stackrel{\to}{\to} U) \to X$ (with $W$ a cover of $U \times_X U$) as above are [[hypercover]]s
 
 of the representable $X$.
-
 =--
 
 
@@ -380,7 +373,6 @@ of the representable $X$.
 ###### Proposition
 
 A presheaf $A$ is $W$-local, i.e. a sheaf, already if it is local (satisfies [[descent]]) with respect to all [[cover]]s, i.e. all [[dense monomorphism]]s with codomain a [[representable functor|representable]].
-
 =--
 
 >[[Urs Schreiber|Urs]]: the above shows this almost. I am not sure yet how to see the remaining bit directly, without making recourse to the full machinery leading up to section VII, 4, corollary 7 in [[Sheaves in Geometry and Logic]].
@@ -443,7 +435,6 @@ and deduce
 
 *  by the equivalence just mentioned this is
 $\cdots \simeq PSh_S[W^{-1}](U,A)$.
-
 =--
 
 
@@ -452,7 +443,6 @@ $\cdots \simeq PSh_S[W^{-1}](U,A)$.
 ###### Remark: covers versus hypercovers
 
 For checking the sheaf condition the [[dense monomorphism]]s, i.e. the ordinary [[cover]]s are already sufficient. But for [[sheafification]] one really needs the [[local isomorphism]]s, i.e. the [[hypercover]]s. If one takes the colimit in the sheafification prescription above only over [[cover]]s, one obtains instead of sheafification the plus-construction.
-
 =--
 
 
@@ -467,7 +457,6 @@ $$
 $$
 
 where the colimit is over all [[dense monomorphism]]s (instead of over all [[local isomorphism]]s as for [[sheafification]] $\bar A$).
-
 =--
 
 +-- {: .un_remark}
@@ -490,7 +479,6 @@ $$
 $$
 
 for $W \to U \times_X U$ a cover. For higher [[stack]]s the hypercover is in general a longer simplicial object of covers and accordingly if one restricts to covers instead of using hypercovers one will need to use the plus-construction more and more often.
-
 =--
 
 
