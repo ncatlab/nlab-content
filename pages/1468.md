@@ -19,7 +19,7 @@ This page contains material related to the event
 
 #Workshop lectures#
 
-
+In addition to the notes provided by Alex Hoffnung below, there are also notes being posted by Evan Jenkins on his [webpage](http://www.math.uchicago.edu/~ejenkins/nwtft.html). 
 
 ## David Ben-Zvi on   Topological Field Theory, Loop Spaces, and Representation Theory
 
