@@ -183,6 +183,8 @@ On a previous version of this entry with opposite convention on where to put the
 _Todd_: There is an inevitable debate here about whether one should use $C^{op} \otimes D \to V$ or $C \otimes D^{op} \to V$. My own convention is to use the latter. For example, every functor $C \to D$ yields a profunctor by composition with the Yoneda embedding on $D$. 
 
 [[Mike Shulman|Mike]]: My convention is $D^{op}\otimes C$.  I agree with your reasoning for why $D$ should be contravariant; I like to put it first because in the hom-functor $C(-,-)$ the contravariant variable appears first.
+
+[[Sridhar Ramesh]]: But surely, just as well, a functor from $C$ to $D$ yields a contravariant functor from $C$ to $Set^D$ and thus a profunctor $C^{op} \otimes D \to V$, by composition with the contravariant Yoneda embedding of $D$ into $Set^D$? At the moment, I still do not see why there is reason to prefer in the abstract general one to the other of $(c, d) \mapsto Hom_D(F(c), d)$ and $(d, c) \mapsto Hom_D(d, F(c))$, though it's not an issue I've thought very much about or have strong emotions regarding. Are there further reasons beyond the above?
 =--
 
 
