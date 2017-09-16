@@ -19,6 +19,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * [[Urs Schreiber]]: I also get this error message when trying to export the $n$Lab as html -- I remember the html export was particularly heavy on the server and maybe it was truned off in view of the server being a bit weak -- we are trying to move to a better host eventually
 
+  *  _Toby_:  Yes, Jacques turned that off because it was such a load on the server; I expect that we can turn it on again when we get a better host.  In principle, you can get the HTML by exporting the source and compiling it on a local copy of Instiki, but of course you have to install Instiki to do that.  (Also note that you\'ll need the CSS files if you want the HTML to look the same, including fonts, query boxes, etc.)  And neither of these includes old versions; I think that Urs(?) is backing those up periodically in case the server crashes.
+
 * [[David Corfield|David]]: began an experiment on [[homotopy (as an operation)]] of dualizing the [[cohomology]] page. Began [[generalized (Eilenberg-Steenrod) homotopy]].
 
 * [[Urs Schreiber]]:
