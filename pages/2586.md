@@ -3,10 +3,8 @@ The __spin group__ $Spin(n)$ is the [[universal covering space]] of the [[specia
 The spin group is one element in the [[Whitehead tower]] of $O(n)$, which starts out like
 
 $$
-  \cdots \to Fivebrane(n)
-  \to String(n) \to Spin(n)
-  \to SO(n)
-  \to \mathrm{O}(n)
+  \cdots \to Fivebrane(n) \to String(n) \to Spin(n) \to SO(n) \to \mathrm{O}(n)
+  \,.
 $$
 
 [[Fivebrane group]] to [[string group]] to **spin group** to [[special orthogonal group]] to [[orthogonal group]].
