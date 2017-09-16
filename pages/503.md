@@ -181,5 +181,7 @@ _David_: Concerning the result that on Set the terminal F-coalgebra is the Cauch
 
 Does this all tie in with the [[ideal completion]] as <a href="http://golem.ph.utexas.edu/category/2009/08/chasing_around_the_triangle.html">discussed</a> by Awodey where you sum types/sets in a topos into a universal object?
 
+How many kinds of completion are there for an enriched category? I see some may coincide in certain cases. 
+
 [[!redirects Cauchy complete categories]]
 [[!redirects Cauchy completion]]
