@@ -1,3 +1,2 @@
-See [[initial object]].
-
-category: delete
+&lt; [[initial]]
+[[!redirects initial -- history]]
