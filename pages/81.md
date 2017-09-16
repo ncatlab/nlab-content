@@ -19,7 +19,7 @@ In pure mathematics the result of such a search process for natural notions has 
 
 The inclined theoretical-mathematical physicist can hardly regard this development without wondering about concept formation in physics. In view of the in part deeply ontologically satisfactory category theoretic explanations and discoveries in mathematics, the justifiable question is how this convergency to a natural mathematical reality which is clearly being achieved here should reach over to the natural physical reality.
 
-And indeed: quite a few fundamental insights in [[category theory]] originated from theoretical physicists who took the time to follow the structures they had to deal with to their proper nature. In the realm of classical physics this notably is true for [William Lawvere](http://en.wikipedia.org/wiki/William_Lawvere) whose study of continuum mechanics led him to profound categorical formulations of basic physical and ontological concepts (see for instance [[space and quantity]]). In the realm of quantum mechanics there is John Roberts, whose work on [[quantum field theory]] and in particular on [[AQFT|algebraic quantum field theory]] led , among other things, to formulations of [[strict omega-category]] and [[nonabelian cohomology]]. Generally, the quest for an understanding of [[quantum field theory]] keeps driving category theoretic developments, more recently in the context of the [[generalized tangle hypothesis]].
+And indeed: quite a few fundamental insights in [[category theory]] originated from theoretical physicists who took the time to follow the structures they had to deal with to their proper nature. In the realm of classical physics this notably is true for [[Bill Lawvere]], whose study of continuum mechanics led him to profound categorical formulations of basic physical and ontological concepts (see for instance [[space and quantity]]). In the realm of quantum mechanics there is John Roberts, whose work on [[quantum field theory]] and in particular on [[AQFT|algebraic quantum field theory]] led , among other things, to formulations of [[strict omega-category]] and [[nonabelian cohomology]]. Generally, the quest for an understanding of [[quantum field theory]] keeps driving category theoretic developments, more recently in the context of the [[generalized tangle hypothesis]].
 
 
 
@@ -77,3 +77,6 @@ But for one the most important points there is to date no good comprehensive sur
 The above text is in parts a translation of 
 
 * U. Schreiber, [[mathphysphil.pdf:file]]
+
+
+[[!redirects Physics]]
