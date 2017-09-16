@@ -1,6 +1,6 @@
 ##Filtered space##
 
-A [[filtered space]] $X_*$ consists of a space $X=X_\infty$ and a sequence of subspaces 
+A [[filtered space]] $X_*$ consists of a space $X=X_\infty$ and a [[sequence]] of subspaces 
 
 $$X_*:= \quad X_0 \subseteq X_1 \subseteq \cdots \subseteq X_n \subseteq \cdots \subseteq X_\infty. $$
 
