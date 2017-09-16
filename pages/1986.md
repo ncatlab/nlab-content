@@ -18,6 +18,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-22:
 
+* [[Urs Schreiber]]: 
+
+  * replied to [[Ronnie Brown]] at [[singular cohomology]]
+
+  * thanks to [[Toby Bartels|Toby]] for [[space]] -- I have just one request for a change of wording there
+
 *  [[Toby Bartels]]:  Thanks to [[Rafael Borowiecki]], I added a link at [[Higher Topos Theory]] to the published version on Lurie\'s MIT website.
 
 
