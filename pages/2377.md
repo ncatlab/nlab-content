@@ -60,9 +60,13 @@ There seems to be something wrong with the axiom of infinity. The present versio
 
 The concept of a ghost of an inconsistent assumption employed to motivate Collection is not really useful, since the inconsistency axiom 0=1 is also such a ghost.
 
+[[Mike Shulman]]: (Thanks Toby.)  Unfortunately, most mathematicians aren't that conversant with the language of logic, so my thought was not to frighten them off with too much of it.  Of course, the logic is first order logic.  Likewise, I think most mathematicians have little appreciation of constructive (=intuitionistic) logic, so the theory is presented as classical by default (but, unlike some of the more common presentations of ZF, the axioms as stated are still correct intuitionistically).
 
- 
+I really don't see what 0=1 being a consequence of an inconsistent assumption has to do with using other, less stupid, consequences of such an assumption to motivate a (believed to be) non-inconsistent axiom.  The point is, you (or someone else) *might want* axiom X.  Unfortunately, axiom X is inconsistent.  But *why* would you want axiom X?  Not to prove 0=1, certainly!  Your goal in introducing axiom X was to prove something else that is a "more direct" consequence of axiom X than 0=1 is (or, at least, a consequence of it along a different path).  So it makes sense to try to modify axiom X to make it consistent, yet maintain its direct connection to what you wanted it for.  Of course, none of that has any precise meaning, but it's *motivation*, so it doesn't need to.
+
 =--
+
+
 # Introduction #
 
 **SEAR**, short for **Sets, Elements, And Relations**, is a [[structural set theory]] with the following properties:
