@@ -26,6 +26,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-02
 
+* [[Andrew Stacey]] I've written enough on the Instiki/MediaWiki issues elsewhere and I'm not going to rehash them here (or even link to them).  In short: it ain't gonna happen.  The issues we're having is purely a matter of database differences - it's nothing to do with Instiki itself.  I doubt many people do a database migration - certainly none of the nonsense (abstract or otherwise) that I've read has mentioned the problems we've had - so the issues aren't well known.  I'm finding them out as we go along.  I apologise that it's a live test, but there were only three serious beta testers and they didn't pick up on all of these issues as there were only three of them.
+
+  I don't know why splitting the timeline up wouldn't feel like 2009.  I think that _long_ pages are a hangover from the _old days_.  We should have shorter pages included in to bigger pages (which, incidentally, is what MediaWiki does only it does it without telling you).  "Pages" should be layered so that a visitor gets a broad overview first, then clicks through to get finer and finer details.  One long page seems to miss the point of hyperlinks.
+
+  However, as has been pointed out in elsewhere, this is a lousy place to have a discussion.  These are interesting points to discuss, but distracting on this page, so if anyone would like to pursue them further, I suggest we shift it over to the [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).
+
+  What is more important is to let me know (preferably on the forum) of any other issues with the migrated site.  Now that my eyes have uncrossed, I've realised that I was misreading the MySQL article on storage limits and we _can_ have superlong pages so we will.  Soon.  I promise.
+
+  (I still say it's a bad idea)
+
 * [[Mike Shulman]]
 
   * Did some editing of [[center]] (added categorifications) and   [[normalizer]], and created [[centralizer]].
