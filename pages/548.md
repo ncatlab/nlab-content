@@ -14,7 +14,7 @@ It is the special case of an [[n-group]] for $n=2$.
 
 ## Definition 
 
-A __$2$-group__ is a groupal [[groupoid]], that is a groupoid whose objects have been made into a [[group]].  Equivalently, it is a [[monoidal category]] in which each every [[object]] and [[morphism]] is invertible.  Also equivalently, it is a $2$-[[2-groupoid|groupoid]] with one object, a very basic case of a $k$-[[k-tuply groupal n-groupoid]] $n$-[[n-groupoid|groupoid]].
+A __$2$-group__ is a groupal [[groupoid]], that is a groupoid whose objects have been made into a [[group]].  Equivalently, it is a [[monoidal category]] in which each every [[object]] and [[morphism]] is invertible.  Also equivalently, it is a $2$-[[2-groupoid|groupoid]] with one object, a very basic case of a [[k-tuply groupal n-groupoid]].
 
 Like other notions of [[higher category theory]], $2$-groups come in weak and strict forms, depending on how you interpret the above.
 
