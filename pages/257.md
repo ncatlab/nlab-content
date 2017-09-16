@@ -70,3 +70,5 @@ for errata and more.
 For yet another introduction to model categories, with an eye towards their use as [[presentable (infinity,1)-category|presentations]] of [[(infinity,1)-category|(infinity,1)-categories]] see Appendix A.2 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+[[!redirects model categories]]
