@@ -4,10 +4,16 @@ A __quantum channel__ is a mapping between [[Hilbert spaces]], $\Phi : L(\mathca
 [[David Roberts]]: Can we write this as:
 
 >A __quantum channel__ is an arrow in a category whose objects are Hilbert spaces, and the arrow itself is a morphism of C-star algebras $\Phi : L(\mathcal{H}_{A}) \to L(\mathcal{H}_{B})$, where $L(\mathcal{H}_{i})$ is a *-subalgebra of $B(\mathcal{H}_i)$ (if this is the case) Clearly one cannot just take a family of operators and then say by fiat they can be considered as a C-star algebra.
+
+
+> [[Ian Durham]]:(What's the accepted formatting for replying to a query by the way?)  Anyway, in answer to your question, I would say "maybe."  So, the first thing I would say is that this construction (as I have it written) isn't what I originally had.  I originally had (in a paper I was working on) something akin to what you wrote, but several people commented on it and said it should be the way I wrote it here.  Here's (I think) the rationale: since quantum channels can also carry classical information, i.e. $\Phi : L(\mathcal{H}_{A}) \otimes C(X) \to L(\mathcal{H}_{B})$, where $C(X)$ where $C(X)$ is the space of [[continuous functions]] on some space $X$, the Hilbert spaces are not necessarily of the same dimension.  But in order to form a monoid (which I wish to do in order to make use of Cayley's theorem), I wanted a single object.  So I wanted to make the input and output space the same on some level.  A C*-algebra lets me do that.  Does that make sense?  So it not only generalizes it but also gives me the flexibility to use it for something else (at least that was the intent).
+
+[[David Roberts]]: (just keep going between the last comment and the equals-hyphen-hyphen which closes the query. Also starting with your name flags to people who stumble on the entry who is \'speaking\'. I added your name above so my quotation didn't run into your reply) I would suggest, that the category is \'better\' than the monoid, and instead of Cayley the [[Yoneda lemma]] may be handy to get an analogous result. You wrote
+
+>several people commented on it and said it should be the way I wrote it here. 
+
+to which I reply they probably weren't category theorists :)
 =--
-
-> (What's the accepted formatting for replying to a query by the way?)  Anyway, in answer to your question, I would say "maybe."  So, the first thing I would say is that this construction (as I have it written) isn't what I originally had.  I originally had (in a paper I was working on) something akin to what you wrote, but several people commented on it and said it should be the way I wrote it here.  Here's (I think) the rationale: since quantum channels can also carry classical information, i.e. $\Phi : L(\mathcal{H}_{A}) \otimes C(X) \to L(\mathcal{H}_{B})$, where $C(X)$ where $C(X)$ is the space of [[continuous functions]] on some space $X$, the Hilbert spaces are not necessarily of the same dimension.  But in order to form a monoid (which I wish to do in order to make use of Cayley's theorem), I wanted a single object.  So I wanted to make the input and output space the same on some level.  A C*-algebra lets me do that.  Does that make sense?  So it not only generalizes it but also gives me the flexibility to use it for something else (at least that was the intent).
-
 In general, we are interested in completely positive trace-preserving (CPTP) maps.  
 
 > Zoran: what this ugly acronym means ? We should have an antiacronym point of view in nlab, whenever the acronyms are not in hugely wide use!
@@ -32,15 +38,20 @@ In other words, whether or not classical information is processed by the channel
 
 >[[Ian Durham]]: I would be fine with that.  My only point is that, it had always been my understanding that the use of the word "channel" in this context can be traced back to Shannon and von Neumann using it in an information theoretic context.  I've honestly never heard it used otherwise (caveat: obviously I am aware of its use in geography and elsewhere, I simply meant I'd never seen it used in physics in any other context).
 
+[[David Roberts]]: I was thinking more the analogy with biology, with channels passing various chemicals in and out of cells (cf particles in and out of atoms)
 
 Note, however, that these are not necessarily the same $C^{*}$-algebras.  Since the channels are represented by square matrices, the input and output $C^{*}$-algebras must have the same dimension, $d$.  Thus we can consider them both subsets of some $d$-dimensional $C^{*}$-algebra, $C$, i.e. $A \subset C$ and $B \subset C$. Thus a quantum channel is a mapping from $C$ to itself.
 
 
 +--{: .query}
 [[David Roberts]]: One needs to be careful with this approach, because it is no different to calling on the [[Nash embedding theorem]] and saying all smooth maps between finite dimensional Riemannian manifolds are maps from $\mathbf{R}^N$ to itself. They are _not_ maps from $C$ to itself, because we do not know _a priori_ where the complement of the source algebra in $C$ is mapped. 
-=--
 
 > Mmm, ok, good point.  Hmmm.  Again, my justification is because of what I wanted to use it for and also because I wanted a nice, generalized definition that could be used in a category-theoretic way.
+
+[[David Roberts]]: In that case I echo my claim above: stick with the category and forsake the monoid. It shouldn\'t be any more tricky.
+=--
+
+
 
 The following is a proof that a quantum channel is a [[category]].  The proof actually proves it is a [[monoid]], but the need for it to be a category becomes more clear when we start dealing with these things en masse.
 
