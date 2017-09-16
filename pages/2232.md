@@ -29,6 +29,9 @@ Finally, if we decategorify further, we find that the center of a [[set]] (i.e. 
 _Toby_:  I didn\'t look closely enough at your centre of a category then!  What you say here contradicts what you wrote below ---that the centre of a $k$-tuply monoidal $n$-category is a $(k+1)$-tuply monoidal $n$-category, which is my understanding--- and contradicts what John Baez writes in Section 1.1 (page 5) of [HDA1](http://math.ucr.edu/home/baez/bm2cat.ps).
 
 [[Mike Shulman]]: I expanded it a lot; let me know if this is any better.  It's even more confusing than I realized at first.
+
+_Toby_:  I understand it, it still doesn\'t actually include the centre of a set (or more generally of an $n$-category) that I learnt about from HDA1.  Now, maybe that\'s not a very useful concept ... except that it fits in so well with the centre of a $k$-tuply monoidal $n$-category for $k \gt 0$!  How many of these $k + 1$ different centres that a $k$-tuply monoidal $n$-category has are used?
 =--
+
 
 [[!redirects centre]]
