@@ -4,7 +4,7 @@
 
 ## Definition ##
 
-A _simplicially enriched category_ is a [[enriched category|category enriched over]] the [[monoidal category]] of [[simplicial sets]].
+A _simplicially enriched category_ is a [[enriched category|category enriched over]] the cartesian [[monoidal category]] of [[simplicial sets]].
 
 These enriched categories are sometimes, somewhat imprecisely, called just _[[simplicial categories]]_.
 
