@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-23 #
 
+* [[Finn Lawler]]: created [[modification]] (and asked a question there) and [[lax natural transformation]], including a statement of what I think is the Yoneda lemma for them.  I have a proof (I think), which I'll add a sketch of later, if no-one finds the statement obviously wrong in the meantime.
+
 * [[Urs Schreiber|Urs]]
 
   * added to [[weak factorization system]] the full details of the (elementary) proof that morphisms defined by a right lifting property are stable under pullback -- 
