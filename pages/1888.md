@@ -1,4 +1,50 @@
+# Definition #
 
+Given a monoidal category $V$, a 'tensorial strength' for a functor 
+
+$$F : V \to V$$
+
+is usually defined as a natural transformation 
+
+$$ v \otimes F(w) \to F(v \otimes w)$$
+
+making two diagrams commute.  The first says that the two obvious morphisms from $u \otimes v \otimes F(w)$ to $F(u \otimes v \otimes w)$ are equal.  The second says that two obvious morphisms from $1 \otimes F(w)$ to $F(w)$ are equal.  
+ 
++-- {: .standout}
+
+Please, someone, add the diagrams.  They are the first two in the Wikipedia entry [strong monad](http://en.wikipedia.org/wiki/Strong_monad).
+
+=--
+
++-- {: .standout}
+
+_Tentative_ -- The following reformulation of the standard definition is tentative. See the discussion referenced below
+
+=--
+
+It seems we may phrase this definition more conceptually as follows. There is a bicategory $V-Act$ where:
+
+* the objects are categories $C$ equipped with a lax left $V$-action, i.e. a [[lax monoidal functor]] $\alpha : V \to End(C)$,
+* the morphisms are functors laxly preserving this action, and 
+* the 2-morphisms are natural transformations compatible with this action.  
+
+$V$ has a canonical left action on itself, which allows us to think of it as an object of $V-Act$.  So, given a functor $F: V \to V$, a **tensorial strength** for $F$ is defined to be a way of equipping it with the structure of a morphism in $V-Act$.
+
+A bit more precisely: 
+
+$$V-Act = Lax(B V, Cat)$$
+
+Here $B V$ is $V$ regarded as a 1-object weak 2-category, $Cat$ is regarded as a 2-category, and $Lax$ is the bicategory of 
+
+* weak 2-categories
+* [[lax functor|lax functors]]
+* [[lax natural transformation|lax natural transformations]]
+
+There is a forgetful 2-functor
+
+$$V-Act \to Cat $$
+
+and a **tensorial strength** for a functor $F: V \to V$ is a way of lifting it to a morphism $\tilde{F}: \tilde{V} \to \tilde{V}$ in $V-Act$, where $\tilde{V}$ is $V$ equipped with its canonical left action on itself.
 
 # Idea #
 
@@ -45,3 +91,10 @@ in the theory, such as $T = p \wedge (-)$, or $T = p \Rightarrow (-)$, etc. The 
 
 (Peirce went a little further, and incorporated notions of contravariant strength as well.) 
 
+# References #
+
+The tentative 'more conceptual' definition of tensorial strength, as well as the 'description' above, arose in this discusssion:
+
+* [[John Baez]], _The Monads Hurt My Head -- But Not Anymore_ ([blog](http://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html#c025476))
+
+The concept of tensorial strength is a prerequisite for the concept of [[strong monad]], so see the further discussion there.
