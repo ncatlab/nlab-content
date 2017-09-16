@@ -152,3 +152,5 @@ so that
 $$F^*(1_V) = 1_{F^*(V)}$$
 
 as required. Hence, $F^*$ is a functor.
+
+[[!redirects functors]]
