@@ -137,4 +137,4 @@ _David R_: After some thought, one could do without _the_ identity anafunctor, a
 
 _Toby_: You only get an anabicategory anyway, because of the choice of pullbacks (unless the structure of the coverage fixes these, as can be done in $Set$).
 
-Anafunctors really should make sense in any site whatsoever (as long as we can compose ananatural transformations, which I guess we can if the site is subcanonical).  The trick of getting away with single maps (as one can do, for example, in a superextensive site) is not really necessary.  In fact, it makes the definitions, while more complicated, really look more natural in topological categories.
+Anafunctors really should make sense in any [[site]] whatsoever (as long as we can compose ananatural transformations, which I guess we can if the site is subcanonical).  The trick of getting away with single maps (as one can do, for example, in a superextensive site) is not really necessary.  In fact, using a coverage makes the definitions, while more complicated, really look more natural in topological categories.
