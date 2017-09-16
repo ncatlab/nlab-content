@@ -27,6 +27,6 @@ The **comma object** of two morphisms $f:A\to C$ and $g:B\to C$ in a [[2-categor
 </svg>
 =--
 
-which is universal in the sense of a [[2-limit]].  A **strict comma object** is analogous but has the universal property of a [[strict 2-limit]].  A square containing a 2-cell with this property is sometimes called a **comma square**.
+which is universal in the sense of a [[2-limit]].  A **strict comma object** is analogous but has the universal property of a [[strict 2-limit]].  (Note that any strict comma object is a comma object.)  A square containing a 2-cell with this property is sometimes called a **comma square**.
 
 In [[Cat]], comma objects are [[comma category|comma categories]], and give their name to the general notion.
