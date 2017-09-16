@@ -53,7 +53,7 @@ This means the following:
   $$
   Namely using the [[homotopy hypothesis]] (which is a theorem, recall), we may identify $B O(n)$ with the one object [[groupoid]] whose space of morphisms is $O(n)$ and similarly for $ B \mathbb{Z}_2$. Then the map in question is the one induced from the group homomorphism that sends orientation preserving elements in $O(n)$ to the identity and orientation reversing elements to the nontrivial element in $\mathbb{Z}_2$.
 
-  * an **orientation** on $X$ is a choice of lift of the structure group through $B SO(n) \to B O(n)$
+  * an **[[orientation]]** on $X$ is a choice of lift of the structure group through $B SO(n) \to B O(n)$
   $$
    \array{
     && B SO(n)
@@ -76,7 +76,7 @@ This means the following:
    }
   $$
 
-  * a **spin structure** on an oriented manifold $X$ is a choice of lift of the structure group through $B Spin(n) \to B SO(n)$
+  * a **[[spin structure]]** on an oriented manifold $X$ is a choice of lift of the structure group through $B Spin(n) \to B SO(n)$
   $$
    \array{
     && B Spin(n)
@@ -122,7 +122,7 @@ This means the following:
    }
   $$
 
-  * a **fivebrane structure** on an string manifold $X$ is a choice of lift of the structure group through $B Fivebrane(n) \to B String(n)$
+  * a **[[fivebrane structure]]** on an string manifold $X$ is a choice of lift of the structure group through $B Fivebrane(n) \to B String(n)$
   $$
    \array{
     && B Fivebrane(n)
@@ -139,13 +139,13 @@ This means the following:
 
 One can reformulate an
 
-* orientation-
+* [[orientation]]-
  
-* Spin-
+* [[spin structure|Spin]]-
 
-* String-
+* [[string structure|String]]-
 
-* Fivebrane-
+* [[fivebrane structure|Fivebrane]]-
 
 structure in terms of the existence of a certain class on the total space of the given bundle.
 
@@ -180,7 +180,7 @@ $$
   \,.
 $$
 
-If now $X$ does admit a String structure, i.e. a decomposition of $X \to B Spin(n)$ into a map $X \to B String(n) \to B Spin(n)$ then we obtain the following diagram, where each square is a [[homotopy limit|homotopy pullbacks]]
+If now $X$ does admit a String structure, i.e. a decomposition of $X \to B Spin(n)$ into a map $X \to B String(n) \to B Spin(n)$ then we obtain the following diagram, where each square is a [[homotopy limit|homotopy pullback]]
 
 $$
   \array{
