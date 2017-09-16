@@ -278,6 +278,9 @@ $$
 
 In conclusion, there are two extreme ways to represent a pure set by an isomorphism class of graphs, but any accessible pointed graph will represent a pure set one way or another.  For well-founded sets, the two extreme ways are equivalent, but for ill-founded sets the choice between them can make a difference (and in fact, there are a number of other possible variants, corresponding to the spectrum of anti-foundation axioms discussed by Aczel).
 
+Note that the version on the left is the unwrapping of the loop; we would like a stronger version of rigidity that would rule out the version on the right.  As it is, the best that we have come up with is simply: isomorphic to the unwrapping of some extensional APG.  Technically this works, but it is not very satifsying.
+
+
 # References #
 
 *  Peter Aczel (1988).  Non-well-founded sets.  CSLI 14; Stanford University.  [PDF](http://standish.stanford.edu/pdf/00000056.pdf).
