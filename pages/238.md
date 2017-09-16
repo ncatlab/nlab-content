@@ -12,6 +12,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-05-16 #
+
+*  [[Toby Bartels]]:
+   *  Created [[algebra for an endofunctor]] and [[monoid object]] just to be linked to from [[algebra]], but they are very much stubs; there is related discussion at [[coalgebra]].
+   *  Changed the category of [[Anders Kock]] from [people](/nlab/list/people) to [biography](/nlab/list/biography), although frankly I can\'t remember why we keep these separate.
+   *  Noted exactly which limits are needed at [[power object]].
+   *  Noted on [[direct product]] just how trivial the direct coproduct is.
+   *  Answered Mike\'s question at [[algebraic theory]] by incorporating actual theorems from an actual reference instead of using vague handwaving in the query box, for once.
+
 # 2009-05-15 #
 
 * [[Bruce Bartlett|Bruce]]:
