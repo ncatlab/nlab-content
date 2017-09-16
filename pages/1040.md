@@ -1,12 +1,19 @@
-An __idempotent monad__  is a monad $(T,\mu,\eta)$ in a category $C$ such that one of the following equivalent statements are true:
+An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a category $C$ such that one (hence all) of the following equivalent statements are true:
 
-(i) $\mu : TT\to T$ is an isomorphism of the functors;
+1. $\mu : TT\to T$ is a [[natural transformation|natural isomorphism]].
 
-(ii) for every $T$-algebra ($T$-module)
-$(M,u)$, the corresponding $T$-action $u:TM\to M$ is an isomorphism;
+1. For every $T$-algebra ($T$-module)
+$(M,u)$, the corresponding $T$-action $u:TM\to M$ is an isomorphism.
 
-(iii) the forgetful functor $C^T\to C$ (where $C^T$ is the Eilenberg-Moore category of $T$-algebras) is a fully faithful functor. 
+1. The forgetful functor $C^T\to C$ (where $C^T$ is the Eilenberg-Moore category of $T$-algebras) is a [[full and faithful functor]].
 
-According to Gabriel-Zisman, there is a correspondence, up to an equivalence of categories, between the [[reflective subcategory|reflective subcategories]] in $C$, and Eilenberg-Moore categories for idempotent monads in $C$.
+The last statement means that in such a case $C^T$ is, up to equivalence a full [[reflective subcategory]] of $C$.  Conversely, the monad induced by any reflective subcategory is idempotent, so giving an idempotent monad on $C$ is equivalent to giving a reflective subcategory of $C$.
 
-Literature: F. Borceux, Handbook of categorical algebra, vol.2, p. 196.
+In the language of [[stuff, structure, property]], an idempotent monad may be said to equip its algebras with _properties only_ (since $C^T\to C$ is fully faithful), unlike an arbitrary monad, which equips its algebras with _at most structure_ (since $C^T\to C$ is, in general, faithful but not full).  Note that no functor which forgets stuff can be monadic.
+
+
+# References#
+
+* F. Borceux, Handbook of categorical algebra, vol.2, p. 196.
+
+* Gabriel-Zisman
