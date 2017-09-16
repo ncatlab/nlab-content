@@ -246,7 +246,7 @@ described here, people had a pretty good guess about some aspects of
 this story, and this aspect they called 
 [[abelian sheaf cohomolohy|sheaf cohomology]]. It turns out that 
 sheaf cohomology is precisely the _abelian_ part of general cohomology.
-So now general cohomology is sometimes called [[nonabelian cohomolohy]]
+So now general cohomology is sometimes called [[nonabelian cohomology]]
 to distinguish it from the more traditional cohomology theory. 
 
 * Here is what "abelian part of general cohomology" means:
