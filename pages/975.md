@@ -153,6 +153,26 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
   * [[colimit]]
 
+  * examples
+   
+    * [[product]]
+
+    * [[coproduct]]
+
+    * [[pullback]]
+ 
+    * [[pushout]]
+ 
+    * [[fiber product]]
+  
+    * [[equalizer]]
+
+    * [[coequalize]]
+
+    * [[kernel]]
+
+    * [[cokernel]]
+
   * [[weighted limit]]
 
   * [[continuous functor]]
