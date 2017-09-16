@@ -5,7 +5,7 @@
 
 ## Idea
 
-In as much as a [[Chevalley-Eilenberg algebra]] of an $L_\infty$-[[Lie infinity-algebroid|algebroid]] is the algebra of functions on an [[NQ-supermanifold]] $\mathbf{X}$, the **Weil algebra** is the algebra of functions on the [[shifted tangent bundle]] $T[1] \mathbf{X}$.
+In as much as a [[Chevalley-Eilenberg algebra]] of a Lie $\infty$-[[Lie infinity-algebroid|algebroid]] is the algebra of functions on an [[NQ-supermanifold]] $\mathbf{X}$, the **Weil algebra** is the algebra of functions on the [[shifted tangent bundle]] $T[1] \mathbf{X}$.
 
 Over a [[contractible space|contractible]] base space the Weil algebra may also be understood as the [[mapping cone]] of the identity on the [[Chevalley-Eilenberg algebra]].
 
