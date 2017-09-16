@@ -32,3 +32,5 @@ that sends a representation to its underlying [[vector space]]. The [[Tannakian 
 
 
 [[!redirects representation category]]
+
+category: category
