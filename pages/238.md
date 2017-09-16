@@ -15,6 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-06-02 #
 
 *  [[Toby Bartels]]:
+   *  An [[AnonymousCoward|anonymous coward]] created a blank version of [[Hausdorff maximal principle]], so I started that ... but it needs proofs! (at least).
    *  A new reference, [[HAF]], since I\'ve now cited it thrice.
    *  Created [[gauge space]].  A lot of this is original research; years ago, I wanted to work out the general theory (even constructively) of quasigauge spaces, and perhaps now I will.  (Or perhaps I will stop here, with only results that are known or easy to prove from what is known.)
 
