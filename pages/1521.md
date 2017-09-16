@@ -93,7 +93,7 @@ While Johan Alm was preparing his notes the article
 
 appeared, which in its section presented ideas about an abstract nonsense formulation of path integrals in finite theories not unsimilar to the ones discussed here. 
 
-For instance the simple example of 1-dimensional Dijkgraaf-Witten theory appearing on page 3 there is reproduced naturally as a special case of Johan Alm's general abstract Kan extension quantization.
+For instance the simple example of 1-dimensional [[Dijkgraaf-Witten theory]] appearing on page 3 there is reproduced naturally as a special case of Johan Alm's general abstract Kan extension quantization.
 
 Blog discussion on Johan Alm's work is here:
 
