@@ -83,6 +83,7 @@ There are in turn different ways to make that last statement precise:
 
   * Moerdijk-Reyes, [[Models for Smooth Infinitesimal Analysis]]
 
+  For more on this see [[differential forms in synthetic differential geometry]].
 
 ## Examples ##
 
