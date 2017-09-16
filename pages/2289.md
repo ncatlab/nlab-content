@@ -1,4 +1,126 @@
-just a second...
+
+This entry is about the text
+
+* [[Jacob Lurie]], _A Survey of Elliptic Cohomology_ ([pdf](http://www-math.mit.edu/~lurie/papers/survey.pdf))
+
+
+#Summary#
+
+The text starts with showing or recalling that the collection of all [[elliptic cohomology]] theories and the gluing of their representing [[spectrum|spectra]] into the single [[tmf]] spectrum is best understood in terms of global sections of the structure sheaf of functions on the refinement of the moduli [[space]] of all elliptic curves to a [[structured (∞,1)-topos]].
+
+Then it uses this [[higher topos theory|higher topos theoretic]] perspective to analyze further properties of [[elliptic cohomology]] theories, in particular their refinements to [[equivariant cohomology]].
+
+## gluing all elliptic cohomology theories to the tmf spectrum ##
+
+The triple of [[generalized (Eilenberg-Steenrod) cohomology]] theories
+
+1. periodic ordinary [[integral cohomology]]
+
+1. complex [[K-theory]]
+
+1. [[elliptic cohomology]]
+
+constitutes the collection of all possible [[generalized (Eilenberg-Steenrod) cohomology]] theories with the extra [[stuff, structure, property|property]] that they are
+
+* [[multiplicative cohomology theory|multiplicative]]
+
+and
+
+* [[periodic cohomology theory|periodic]].
+
+It so happens that all multiplicaive periodic generalized Eilenberg-Steenrod cohomology theories $A$ are characterized by the [[formal group]] (an [[infinitesimal space|infinitesimal]] [[group]]) whose [[ring]] of functions is the [[cohomology ring]] $A(\mathbb{C}P^\infty)$ obtained by evaluating $A$ on the complex projective space $\mathbb{C}P^\infty \simeq \mathcal{B} U(1)$ -- the [[classifying space]] for complex [[line bundle]]s -- and whose group product is induced from the morphism $\mathbb{C}P^\infty \times \mathbb{C}P^\infty \to \mathbb{C}P^\infty$ that representes the [[tensor product]] of complex [[line bundle]]s.
+
+There are precicely three different types of such formal groups:
+
+* the additive formal group (a single one)
+
+* the multiplicative formal group (a single one)
+
+* a formal group defined by an [[elliptic curve]] (many).
+
+The first case corresponds to periodic [[integral cohomology]]. The second corresponds to complex [[K-theory]]. Each element in the third family corresponds to one flavor of [[elliptic cohomology]].
+
+It is therefore natural to subsume all elliptic cohomology theories into one single cohomology theory. This is the theory called [[tmf]].
+
+It turns out that the right way to formalize what "subsume" means in the above sentence involves formulating the way in which an [[elliptic cohomology]] theory is associated to a given [[eliptic curve]] in the correct [[higher category theory|higher categorical]] language:
+
+The collection of all 1-dimensional [[elliptic curve]]s forms a generalized [[space]] $M_{1,1}$ -- a [[stack]] -- defined by the property that it is the [[classifying space]] for elliptic curves in that elliptic curves over a ring $R$ correspond to classifying maps $\phi : Spec R \to M_{1,1}$.
+
+Then the classical assignment of an [[elliptic cohomology]]  theory to an [[elliptic curve]] is an assignment
+
+$$
+  \{\phi : Spec R \to M_{1,1}\}
+  \to
+  CohomologyTheories
+  \,.
+$$
+
+We may think of maps $Spec R \to M_{1,1}$ as picking certain subsets of the generalized [[space]] $M_{1,1}$ and of morphisms
+
+$$
+  \array{
+     Spec(R) &&\to&& Spec(R')
+     \\   
+     & \searrow && \swarrow
+     \\
+     && M_{1,1}
+  }
+$$
+
+as maps between such subsets. Hence the assignment of cohomology theories to elliptic curves is much like a [[sheaf]] of cohomology theories on the moduli [[space]] ([[stack]]) of [[elliptic curve]]s.
+
+In order to _glue_ all elliptic cohomology theories in some way one would like to take something like the [[category of elements]] of this [[sheaf]], i.e. its [[homotopy limit]]. In order to say what that should mean, one has to specify the suitable nature of the codomain, the collection of "all cohomology theories".
+
+As emphasized at [[generalized (Eilenberg-Steenrod) cohomology]], the best way to do this is to identify a generalized (Eilenberg-Steenrod) cohomology theory with the [[spectrum]] that represents it. It is and was well known how to do this for each elliptic curve seperately. What is not so clear is how this can be done coherently for all elliptic curves at once: we need a lift of the above cohomology-theory-valued sheaf to a sheaf of representing [[spectrum|spectra]]
+
+$$
+  \array{
+    && Spectra
+    \\
+    & {}^{?}\nearrow & \;\;\;\downarrow^{represent}
+    \\
+    \{\phi : Spec R \to M_{1,1}\}
+    &\to&
+    CohomologyTheories
+  }
+  \,.
+$$
+
+In this generality this turns out to be a hard problem. But by definition here we are really interested just in the special case where all cohomology theories in question are [[multiplicative cohomology theory|multiplicative cohomology theories]] and where hence all spectra in question are [[commutative ring spectrum|commutative ring spectra]]
+
+$$
+  \array{
+    && CommRingSpectra
+    \\
+    & {}^{O_{M^{der}}}\nearrow & \downarrow
+    \\
+    \{\phi : Spec R \to M_{1,1}\}
+    &\to&
+    MultiplicativeCohomologyTheories
+  }
+  \,.
+$$
+
+As indicated, this problem does turn out to have a solution: Goerss, [[Mike Hopkins|Hopkins]] and Miller showed that the desired lift denoted $O_{M^{der}}$ above exists.
+
+Accordingly, one can then obtain the [[tmf]] spectrum as the [[homotopy limit]] of this sheaf of [[E-∞ ring]]s $O_{M^{der}}$. Recall from the discussion at [[limit in a quasi-category]] that such a homotopy limit computes global sections. It is an $\infty$-version of computing sections in a [[Grothendieck construction]], really, as described there.
+
+## interpretatioin in terms of higher topos theory ##
+
+What is noteworthy about the above construction is that, as the notation above suggests, sheaves of [[E-infinity ring]]s generalize sheaves of rings as thery are familiar from the theory of [[ringed space]]s, where they are called **structure sheaves**.
+
+Accordingly, the morphism $O_{M^{der}}$ makes the moduli [[space]] of elliptic curves into a [[structured (∞,1)-topos]].
+
+This perspective embeds the theory of [[elliptic cohomology]] and of the [[tmf]] spectrum as an application into the general context of [[higher topos theory]] and [[derived algebraic geometry]]. 
+
+## equivariant elliptic cohomology ##
+
+
+...
+
+
+
+##related entries ##
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
 
