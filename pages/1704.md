@@ -8,9 +8,7 @@ The notion of _principal $\infty$-bundle_ is a [[vertical categorification|categ
 For motivation, background and further details see 
 
 * [[motivation for sheaves, cohomology and higher stacks]]
-
 * [[gerbe]]
-
 * [[principal 2-bundle]].
 
 #Definition#
@@ -19,7 +17,7 @@ Let $C$ be an [[(infinity,1)-topos]], i.e. an [[(infinity,1)-category of (infini
 
 Let $\mathbf{B} G$ be a one-object $\infty$-groupoid in $C$, defining an $\infty$-group $G$. 
 
-Then for $X$ any object in $C$, a $G$-principal $\infty$-bundle $P \to X$ is a [[fibration sequence|homotopy fibber]] of a morphism  $X \to \mathbf{B} G$
+Then for $X$ any object in $C$, a $G$-principal $\infty$-bundle $P \to X$ is a [[fibration sequence|homotopy fiber]] of a morphism  $X \to \mathbf{B} G$
 
 $$
   \array{
@@ -65,7 +63,7 @@ The notion of principal $\infty$-bundle (often addressed in the relevant literat
 
 An earlier description in terms of simplicial objects is
 
-* P. Glenn, _Realization of cohomology classes in arbitrary exact categories_, J. Pure Appl. Algebra 25, 1982, no. 1, 33- 105.
+* P. Glenn, _Realization of cohomology classes in arbitrary exact categories_, J. Pure Appl. Algebra 25, 1982, no. 1, 33--105.
 
 In article not the total space of the bundle $P \to X$ is axiomatized, but the $\infty$-[[action groupoid]] of the action of $G$ on it.
 
