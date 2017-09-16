@@ -33,3 +33,5 @@ _Toby_:  Being a complete directed graph (in the graph theorists\' usual sense) 
 * For $X$ a [[finite set]] of cardinality $n \gt 0$, the [[category algebra]] of $Codisc(X)$ is the algebra of $n\times n$ matrices. The contractibility of $Codisc(X)$ is reflected in the fact that this algebra is [[Morita equivalence|Morita equivalent]] to the ground ring, which is the category algebra of the [[point]].
 
   This maybe serves to illustrate: even though codiscrete groupoids are pretty trivial, they are not too trivial to be entirely without interest. Often it is useful to have big puffed-up versions of the point available.
+
+[[!redirects codiscrete category]]
