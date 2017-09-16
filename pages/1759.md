@@ -16,6 +16,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]:
 
+  * in order to link to the new article by Martins and Picken I created [[path n-groupoid]]
+
+    * then from that created [[Gray-groupoid]] and [[path infinity-groupoid]]
+
   * added a pointer to some notes by Daniel Dugger to the discussion of free cocompletion at [[presheaf]] -- Dugger gives a nice pedagogical description 
 
     * would it make sense to move this discussion of free cocompletion to the entry [[free cocompletion]]?
