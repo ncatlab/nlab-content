@@ -4,6 +4,8 @@ A **von Neumann algebra** is a unital $*$-subalgebra of the algebra of bounded o
 
 #Relevance#
 
+The **Gel'fand-Neumark theorem** states that there is a contravariant [[equivalence]] between the category of commutative von Neumann algebras and the category of localizable [[measurable space|measurable spaces]]. General von Neumann algebras are seen then as a 'noncommutative' measurable spaces.
+
 The importance of von Neumann algebras for ([[higher category theory|higher]]) [[category theory]] and topology lays in the evidence that von Neumann algebras are deeply connected with the low dimensional [[quantum field theory]] (2d CFT, TQFT in low dimensions, inclusions of factors, quantum groups and knot theory; elliptic [[cohomology]]: works of Wenzl, Vaughan Jones, Anthony Wasserman, Kerler, Kawahigashi, Ocneanu, Szlachanyi etc.). 
 
 The highlights of their structure theory include the results on classification of factors (A. Connes, 1970s) and theory of inclusions of subfactors (V. Jones). (Hilbert) bimodules over von Neumann algebras have a remarkable tensor product due Connes ([[Connes fusion]]). Following Segal's manifesto
