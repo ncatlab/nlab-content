@@ -47,3 +47,7 @@ Finally, a third escape that suggests itself would be to look for a notion of al
 * [[Sjoerd Crans]], _A tensor product for $Gray$-categories_ ([TAC](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html))
 
 * [[Joachim Kock]], _Weak identity arrows in higher categories_ (semistrict categories with weak units): [math/0507116](http://arxiv.org/abs/math/0507116)
+
+
+* [[Michael Batanin]], Denis-Charles Cisinski, Mark Weber, _Algebras of higher operads as enriched categories II_
+([arXiv](http://arxiv1.library.cornell.edu/abs/0909.4715))
