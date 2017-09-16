@@ -79,7 +79,7 @@ For more on this idea, see [[internal logic]].
 
 * [[Todd Trimble]] has a notion called a "modal operator" on a topos, from which one can construct a new topos of "$G$-structures": see [[toddtrimble:Three topos theorems in one]].  A possibly related idea is Toby Kenney's notion of lex distributive [[diad]], from which one can also construct a topos.
 
-* From any [[partial combinatory algebra]] one can construct a [[realizability topos]], whose [[internal logic]] is "computable" or "effective" mathematics relative to that PCA.  In particular, for the PCA $\mathbb{N}$, one obtains the [[effective topos]], the most-studied of realizability toposes.  Realizability toposes are not Grothendieck's.
+* From any [[partial combinatory algebra]] one can construct a [[realizability topos]], whose [[internal logic]] is "computable" or "effective" mathematics relative to that PCA.  In particular, for [[Kleene's first algebra]], one obtains the [[effective topos]], the most-studied of realizability toposes.  Realizability toposes are generally not Grothendieck toposes.
 
 * A topos can also be constructed from any [[tripos]].  This includes realizability toposes as well as toposes of sheaves on locales.
 
