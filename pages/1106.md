@@ -38,6 +38,8 @@ For a similar link list with considerable overlap see
 
 * [[sheaf]]
 
+* [[global section]]/[[constant sheaf]]
+
 ##III Grothendieck Topologies and Sheaves
 
 * [[presheaf]]
@@ -80,6 +82,7 @@ For a similar link list with considerable overlap see
 
   * [[universe in a topos]]
 
+* [[point of a topos]]
 
 * [[fundamental group of a topos]]
 
