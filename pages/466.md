@@ -101,22 +101,22 @@ $$
   c \simeq d
 $$
 
-## corollary III: universality of representing objects ##
+### corollary III: universality of representing objects ###
 
-A [[presheaf]] $X : C^{op} \to Set$ is [[representable functor|representable]] precisely if the [[comma category]] $(Y,const_X)$ has a [[terminal object]]. If a [[terminal object]] is $(c, f : Y(c) \to X) \simeq (c, f \in X(c))$ then $X \simeq Y(c)$.
+A [[nLab:presheaf|presheaf]] $X : C^{op} \to Set$ is [[nLab:representable functor|representable]] precisely if the [[nLab:comma category|comma category]] $(Y,const_X)$ has a [[nLab:terminal object|terminal object]]. If a [[nLab:terminal object|terminal object]] is $(d, f : Y(d) \to X) \simeq (d, f \in X(d))$ then $X \simeq Y(d)$.
 
-This follows from unwrapping the definition of morphisms in the [[comma category]] $(Y,const_X)$ and applying the Yoneda lemma to find
+This follows from unwrapping the definition of morphisms in the [[nLab:comma category|comma category]] $(Y,const_X)$ and applying the Yoneda lemma to find
 
 $$
   (Y,const_X)((c,f \in X(c)), (d, g \in X(d)))
   \simeq
   \{
-    u \in C(c,d) : X(u)(f) = g
+    u \in C(c,d) : X(u)(g) = f
   \}
   \,.
 $$
 
-Hence $(Y,const_X)((c,f \in X(c)) \simeq pt$ says precisely that $X(-)(f) : C(c,d) \to X(d)$ is a bijection.
+Hence $(Y,const_X)((c,f \in X(c), (d, g \in X(d))) \simeq pt$ says precisely that $X(-)(f) : C(c,d) \to X(c)$ is a bijection.
 
 ## Interpretation ##
 
