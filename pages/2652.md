@@ -13,7 +13,7 @@ Additionally, we tend to use the term 'completion' only for a [[faithful functor
 
 # List of completions
 
-* [[Cauchy complete category|Cauchy completion]] of a [[metric space]], or more generally a [[uniform space]]
+* [[complete space|Cauchy completion]] of a [[metric space]], or more generally a [[uniform space]]
 
 * [[Dedekind completion]] of a [[linear order]] (or sometimes a more general [[preorder]])
 
