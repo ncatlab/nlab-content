@@ -3,6 +3,7 @@
 ##Archive##
 
 * [[latest changes|current]]
+* [[2009 June changes|2009 June]]
 * [[2009 May changes|2009 May]]
 * [[2009 April changes|2009 April]]
 * [[2009 March changes|2009 March]]
