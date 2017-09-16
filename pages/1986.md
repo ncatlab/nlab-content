@@ -19,6 +19,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-08-05
 
 *  [[Toby Bartels]]:
+   *  Expanded [[algebra for an endofunctor]] to actually include [[algebra for a monad]] (which has redirected there for some time).
    *  Wrote [[overt space]].
    *  Numbered and added to the definitions at [[compact space]].
    *  Wrote [[interval]].
