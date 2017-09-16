@@ -18,7 +18,7 @@ For this to make sense, $f^*$ must exist; that is, all [[pullback]]s along $f$ m
 
 #Remarks#
 
-Note that the *left* adjoint to the base-change functor, the _dependent coproduct_ or _dependent sum_ $\sum_f: C/A \to C/I$, is much simpler.  It is simply given by [[composition]] with $f$, so it always exists when it makes sense (that is when $f$ has all pullbacks).
+Note that the *left* adjoint to the base-change functor, the __dependent coproduct__ or __dependent sum__ $\sum_f: C/A \to C/I$, is much simpler.  It is simply given by [[composition]] with $f$, so it always exists when it makes sense (that is when $f$ has all pullbacks).
 
 +-- {: .un_prop }
 ###### Proposition
@@ -39,3 +39,4 @@ This is theorem 2 in section IV, 7 of
 
 [[!redirects dependent products]]
 [[!redirects dependent sum]]
+[[!redirects dependent coproduct]]
