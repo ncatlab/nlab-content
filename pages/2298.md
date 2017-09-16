@@ -1,5 +1,5 @@
 
-[[higher geometry]]
+**[[higher geometry]]**
 
 ## Ingredients ##
 
