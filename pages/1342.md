@@ -512,3 +512,6 @@ This statement is closely related to the [[higher homotopy van Kampen theorem]],
 For blog discussion about this see
 
 * [Codescent and the van Kampen theorem](http://golem.ph.utexas.edu/category/2008/10/codescent_and_the_van_kempen_t.html)
+
+
+[[!redirects descent and codescent]]
