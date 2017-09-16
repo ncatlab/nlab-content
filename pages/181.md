@@ -85,6 +85,8 @@ It is easily checked by induction that these maps define a cone from $x$ to the 
 _Todd_: I noticed under "algebra" that it wasn't so easy to find a page for algebras of an endofunctor. It might help to have something like "Algebra (disambiguation)" for this and other entries with multiple meanings. 
 
 _Mike_: Seconded.
+
+_Toby_:  The page [[algebra]] is already basically a disambiguation page; the problem is that some links to it should go to different pages, and [[algebra for an endofunctor]] really ought to be created (which I just did).
 =--
 
 ##Differential graded coalgebras
