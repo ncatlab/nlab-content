@@ -32,9 +32,13 @@ The homotopy category of a stable $(\infty,1)$-category is shown to be a [[trian
 
 ##3 The Homotopy Category of a Stable $\infty$-Category##
 
+* [[homotopy category of an (infinity,1)-category]]
+
 ##4 Properties of Stable $\infty$-Categories##
 
 ##5 Exact Functors##
+
+* [[exact functor]]
 
 ##6 t-Structures and Localization##
 
@@ -52,11 +56,24 @@ The homotopy category of a stable $(\infty,1)$-category is shown to be a [[trian
 
 ##12 The $\infty$-Categorical Dold-Kan Correspondence##
 
+* [[Dold-Kan correspondence]]
+
 ##13 Homological Algebra##
+
+* [[homological algebra]]
+
+* [[derived category]]
+
+* [[derived functor on a derived category]]
 
 ##14 The Universal Property of $D^-(A)$
 
 ##15 Presentable Stable $\infty$-Categories
+
+* [[accessible (infinity,1)-category]]
+
+* [[presentable (infinity,1)-category]]
+
 
 ##16 Accessible t-Structures##
 
