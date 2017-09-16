@@ -1,3 +1,2 @@
-See [[directed space]].
-
-category: delete
+&lt; [[d-space]]
+[[!redirects d-space -- history]]
