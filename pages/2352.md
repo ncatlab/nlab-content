@@ -44,6 +44,10 @@ such that standard constructions of [[category theory]] work,
 in particular a version of the [[Yoneda lemma]].
 See [[higher category theory]]. 
 
++--{.query}
+[[Eric]]: Is it really necessary to restrict $n$ to $0\leq n\leq\infty$? In principle, couldn't you have a graph of a (-1)-functor and/or (-2)-functor?
+=--
+
 Then with $C,D \in n Cat$ let $f : C \to D$ be a ($n$-)[[functor]].
 
 By the general logic of [[distributor]]s this defines an $n$-correspondence
