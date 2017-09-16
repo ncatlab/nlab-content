@@ -20,9 +20,11 @@ Higher category theory is still very much in the making, even though things seem
 
     * [[simplicially enriched category]]
 
-  * [[Segal category]]
+    * [[complete Segal space]]
 
-  * [[complete Segal space]]
+    * [[Segal category]]
+
+  * [[(infinity,2)-category]]
 
   * [[(infinity,n)-category]]
 
