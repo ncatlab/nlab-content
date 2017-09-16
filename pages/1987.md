@@ -1,1 +1,4 @@
 I am a graduate student in the Logic program at Berkeley, broadly interested in categorical logic and foundations of mathematics, as well as in applications of category theory to the semantics of programming languages.
+
+
+category: people
