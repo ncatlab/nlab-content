@@ -19,7 +19,7 @@ I for one would be happy to move this to [[well order]].  Indeed, when I began r
 
 [[Mike Shulman|Mike]]: Well, I'm not an expert at grammar, so I don't know what the difference is between "well-order" and "well order."  Neither sounds really correct to me, however, since "well" is an _adverb_ but is being used as an adjective modifying "order."
 
-_Toby_:  Actually, 'well' (like 'ill') can be either an adjective or an adverb.  If it were an adverb here, then we wouldn\'t need the hyphen even in 'well ordered', and the noun would be 'good order'.  Note that an 'ordered set' is a set equipped with an order as well as a set that\'s been ordered (and in fact the verb 'order' is derived from the noun); so is a 'well ordered set' a set that\'s been ordered well, or is a 'well-ordered set' a set equipped with a well order?  (Although by this logic, there should be no hyphen in 'well-founded', since 'found' is definitely a verb there and not a noun.)
+_Toby_:  Actually, 'well' (like 'ill') can be either an adjective or an adverb.  If it were an adverb here, then we wouldn\'t need the hyphen even in 'well ordered', and the noun would be 'good order'.  Note that an 'ordered set' is a set equipped with an order as well as a set that\'s been ordered (and in fact the verb 'order' is derived from the noun); so is a 'well ordered set' a set that\'s been ordered well, or is a 'well-ordered set' a set equipped with a well order?  (Although by this logic, there should be no hyphen in 'well-founded', since 'found' is definitely a verb there and not a noun.  ...  This reasoning doesn\'t really fit with 'partially-ordered set' either, does it?  Of course, I\'ve never liked those hyphens, and now I see why.)
 =--
 
 # Examples #
