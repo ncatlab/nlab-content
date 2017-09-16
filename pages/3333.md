@@ -518,4 +518,12 @@ In the case that $G=GL(\infty;\mathbb{C})$, the compatibility of the trace with 
 
 ( _to be completed..._ )
 
+## References
+
+Free loop space objects in the [[(∞,1)-topos]] of [[derived stack]]s on the site of [[differential graded algebra]]s are discussed in
+
+* [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Connections_ ([arXiv](http://arxiv.org/abs/1002.3636))
+
+
+
 [[!redirects free loop space objects]]
