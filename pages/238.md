@@ -13,6 +13,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-04-16 #
 
+* [[Urs Schreiber|Urs]]: 
+
+  * added some links to [[Tim Porter|Tim]]'s latest addition to [[rational homotopy theory]] -- in that context I created [[torsion]] and [[torsion subgroup]]
+
+  * finally created [[exact sequence]] which was requested by a bunch of entries
+
+  * added to the "Idea" section of [[Grothendieck category]] a statement suggesting that these are _precisely_ those additive categories for which sheafification exists. Is that right?
+
+  * [[Zoran Skoda|Zoran]] kindly looked up the definition of AB6-category which was still missing at [[additive and abelian categories]], I put it in now 
+
 * [[Tim Porter|Tim]]:
 
   * I created the next entry in the rational homotopy lexicon series with the ungainly title [[differential graded algebras and differential graded Lie algebras-relationships]]. 
