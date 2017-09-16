@@ -173,7 +173,7 @@ $$
     &&
     spaces locally like model spaces
     &&
-    spaces coprobeable by model spaces
+    concrete spaces coprobeable by model spaces
     &&
     spaces probeable by model spaces
     \\
@@ -200,13 +200,13 @@ We explain what this means from right to left.
 
 #### spaces probeable by model spaces: $\infty$-stacks ####
 
-An object $X$ _probeable_ by objects of $\mathcal{G}$ comes with an assignment
+An object $X$ _probeable_ by objects of $\mathcal{G}$ should come with an assignment
 
 $$
   X : (U \in \mathcal{G}) \mapsto (X(U) \in \infty Grpd)
 $$
 
-of an $\infty$-groupoid of possible ways to probe $X$ by $U$, for each possible $U$, naturally in $U$. So this defines an object in [[(∞,1)-category of (∞,1)-presheaves]] on $\mathcal{G}$
+of an [[∞-groupoid]] of possible ways to probe $X$ by $U$, for each possible $U$, natural in $U$. More prrecisely, should define an object in the [[(∞,1)-category of (∞,1)-presheaves]] on $\mathcal{G}$
 
 $$
    X \in PSh(\mathcal{G}) 
@@ -214,7 +214,7 @@ $$
    (\infty,1)Func(\mathcal{G}^{op}, \infty Grpd)
 $$
 
-But for $X$ to be _consistently_ probeable it must be true that probes by $U$ can be reconstructed from overlapping probes of pieces of $U$. Technically this means that the [[(∞,1)-presheaf]] $X$ is actually an object in an [[(∞,1)-category of (∞,1)-sheaves]] on $\mathcal{G}$
+But for $X$ to be _consistently_ probeable it must be true that probes by $U$ can be reconstructed from overlapping probes of pieces of $U$, as seen by the [[coverage|topology]] of $\mathcal{G}$. More precisely, this should mean that the [[(∞,1)-presheaf]] $X$ is actually an object in an [[(∞,1)-category of (∞,1)-sheaves]] on $\mathcal{G}$
 
 $$
   X \in 
@@ -254,31 +254,52 @@ $$
 
 
 
-#### spaces co-probeable by model spaces: structured $(\infty,1)$-toposes ####
+#### concrete spaces co-probeable by model spaces: structured $(\infty,1)$-toposes ####
 
-[[structured (∞,1)-topos]]
+Spaces probeable by $\mathcal{G}$ in the above sense can be very general. They need not even have a "concrete underlying space", even for general definition of what _that_ might mean.
+
+**(Counter-)Example** For $\mathcal{G} = $ [[Diff]], for every $n \in \mathbb{N}$ we have the [[∞-stack]] $\Omega_{cl}^n(-)$ (which happens to be an ordinary [[sheaf]]) that assigns to each manifold $U$ the set of closed [[differential form|n-form]]s on $U$. This is important as a generalized space: it is something like the rational version of the [[Eilenberg-MacLane space]] $K(\mathbb{Z}, n)$. But at the same time this is a "wild" space that has exotic properties: for instance for $n=3$ this space has just a single point, just a single curve in it, just a single surface in it, but has many nontrivial probes by 3-dimensional manifolds.
+
+In contrast to that, a _structured space_ is supposeed to be a probable space/[[∞-stack]] on $\mathcal{G}$ which does have an "underlying concrete space".
+
+In the classical theory for instance of [[diffeological space]]s one requires that this means that there is at least an underlying [[topological space]]. But this in turn is a bit _too_ restrictive for general purposes. We observe that a topological space is the same as a [[0-localic topos]]: a [[categiry of sheaves]] on a [[category of open subsets]] of a [[topological space]]. The obvious generalization of this to [[higher geometry]] is: an [[n-localic (∞,1)-topos]] $\mathcal{X}$.
+
+We think of $\mathcal{X}$ as the [[(∞,1)-topos]] of [[∞-stack]]s on a category of open subsets of a would-be space, only that this would be space $X$ might not have an independent existence apart from $\mathcal{X}$.
+
+To say that $\mathcal{X}$ is _modeled on $\mathcal{G}$_ means that among all the [[∞-stack]]s on the would-be space is singled out one that is the [[structure sheaf]] of functions with values in objects of $\mathcal{G}$: for each object $V \in \mathcal{G}$ there is a [[structure sheaf]] $\mathcal{O}(-,V) \in \mathcal{X}$, naturally in $V$.
+
+This yields an [[(∞,1)-functor]]
+
+$$
+  \mathcal{O} : \mathcal{G} \to \mathcal{X}
+  \,.
+$$
+
+We think of $X$ as being a concrete space _co-probebale_ by $\mathcal{G}$ (we can map from the concrete $X$ into objects of $\mathcal{G}$).
+
+We say $\mathcal{O}$ is a _consistent_ collection of co-probes if coprobes with values in $V$ may be reconstructed from co-probes with values in pieces of $V$.
+
+(means: $\mathcal{O}$ preserves [[limit]]s and sends covering coproducts to [[effective epimorphism]]s).
+
+**Definition** A pair $(\mathcal{X}, \mathcal{O})$ of an [[(∞,1)-topos]] $\mathcal{X}$ equipped with $\mathcal{G}$-valued [[structure sheaf|structure sheaves]] $\mathcal{O} : \mathcal{G} \to \mathcal{X}$ a
+[[structured (∞,1)-topos]].
+
+**example**
+
+The archetypical examples are those obtained from the model space objects in $\mathcal{G}$ themselves
+
+$$
+  \mathcal{G} \stackrel{Spec^{\mathcal{G}}}{\hookrightarrow}
+  Str(\mathcal{G})
+$$
+
+Abstractly, this inclusion works as follows: let $\mathcal{G}_{disc}$ be the geometry $\mathcal{G}$ equipped with the discrete [[coverage|topology]] (no nontrivial covers). Then one can identify...
+
 
 #### spaces locally like model spaces: generalized schemes ####
 
 
-
-* A **geometric space modeled on $\mathcal{G}$** -- a $\mathcal{G}$-[[generalized scheme]] -- is a space not only probeable by objects of $\mathcal{G}$, but one that is a [[structured (∞,1)-topos]] that is locally _equivalent_ to objects of $\mathcal{G}$:
-
-  * there is a canonical way to regard every object $U \in \mathcal{G}$ as a [[structured (∞,1)-topos]] $(Sh(U), \mathcal{O}_U)$ where
-
-    * $Sh(U)$ is the [[(∞,1)-topos]] of [[∞-stack]]s on $U$
-
-    * $\mathcal{O}_U$ is the more or less obvious $\mathcal{G}$-valued element of $Sh_U$.
-
-  * using this we can say when a general $\mathcal{G}$-[[structured (∞,1)-topos]] is locally equivalent to one of the form $(Sh(U), \mathcal{O}_U)$ -- these are the $\mathcal{G}$-[[generalized scheme]]s
-
-  * and a generalized space $X$ modeled on $\mathcal{G}$ is a geometric space if it is represented by such a generalized scheme in that 
-
-    $$
-      X : U \mapsto Hom((Sh(U), \mathcal{O}_U) 
-          , (\mathcal{X}, \mathcal{O}))
-      \,.
-    $$
+a $\mathcal{G}$-[[structured (∞,1)-topos]] such that there is $U_i \in \mathcal{G}$ and an [[effective epimorphism]] $\coprod_i U_i \to \mathcal{X}$.
 
 +-- {: .un_proposition}
 ###### Proposition
@@ -298,6 +319,13 @@ The second statement is theorem 2.4.1 in [[Structured Spaces]], the first one is
 
 =--
 
+**examples**
+
+* ordinary smooth [[manifold]] are 0-localic [[Diff]]-[[generalized scheme]]s
+
+* ordinary [[schemes]] are 0-localic $(CRing^{fin})^{op}$-[[generalized scheme]]s
+
+* [[Deligne-Mumford stack]]s are 1-localic $(CRing^{fin})^{op}$-[[generalized scheme]]s
 
 
 ### sheaves on $(\infty,1)$-toposes ###
