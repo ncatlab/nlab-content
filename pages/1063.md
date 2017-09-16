@@ -16,4 +16,4 @@ where $p$ is a cokernel, hence [[epimorphism|epic]], and $i$ is a kernel, and he
 
 * Of course, any [[abelian category]] is pre-abelian.
 
-* The category $TF$ of torsion-free abelian groups is [[reflective subcategory|reflective]] in $Ab$.  Therefore, it is a complete and cocomplete Ab-enriched category; an in particular pre-abelian.  However, it is not abelian; the monomorphism $2:\mathbb{Z}\to \mathbb{Z}$ is not a kernel.
+* The category $TF$ of torsion-free abelian groups is [[reflective subcategory|reflective]] in $Ab$.  Therefore, it is a complete and cocomplete Ab-enriched category, and therefore in particular pre-abelian.  However, it is not abelian; the monomorphism $2:\mathbb{Z}\to \mathbb{Z}$ is not a kernel.
