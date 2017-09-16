@@ -1,5 +1,9 @@
 #Idea#
 
+The term "local system" originally meant and means _local system of coefficients for [[cohomology]]_ . In that context a local system is a connective [[spectrum]] or some other coefficient [[topological space]] $A$ equipped with an [[action]] of the first [[fundamental group]] $\pi_1(X)$ of a given connected base space  $X$. The corresponding [[fibration sequence]] $A \to A//\pi_1(X) \to \mathbf{B}\pi_1(X)$ together with the canonical $\pi_1(X)$-cocycle $c : X \to \mathbf{B}\pi_1(X)$ on $X$ that classified the [[universal cover]] of $X$ define a notion of [[twisted cohomology]] with twist $[c]$. This is the "$A$-cohomology with local coefficients" for the given action. See [[twisted cohomology]] for details.
+
+The term "local system" has developed a bit of life of its own independent of this application in [[twisted cohomology]]. Many authors understand under a local system just the representation of the [[fundamental groupoid]] of some space on some object. This is described in the following.
+
 [[schreiber:Differential Nonabelian Cohomology|Recall]] that for $X$ a [[manifold]] and $P_1(X)$ its [[path groupoid]] (morphisms are thin-homotopy classes of smooth paths in $X$) and [[Vect]] the category of vector spaces, a suitably well-behaved [[functor]]
 
 $$
