@@ -22,8 +22,15 @@ $$
 $$
 
 This is indeed an extension of $u$ in the sense that $^* u({}^r_1,\ldots,{}^*r_n)={}^* r$ iff $u(r_1,\ldots,r_n)=r$.
-This way, the usual operations $+,\cdot$ and the absolute value $|\cdot|$ extend to $^*\mathbb{R}$; usually one denotes these standard three operations on ${}*\mathbb{R}$ without putting $^*$ in front, writing simply e.g. $f_F+g_F$. (To extend appropriately the division we need a little bit more care as it is originally just partially defined, so we need an extension of the formalism to subsets of real line.) 
+This way, the usual operations $+,\cdot$ and the absolute value $|\cdot|$ extend to $^*\mathbb{R}$; usually one denotes these standard three operations on ${}*\mathbb{R}$ without putting $^*$ in front, writing simply e.g. $f_F+g_F$. To extend appropriately the division we need a little bit more care as it is originally just partially defined, so we need an extension of the formalism to subsets of real line. In particular there is a following definition of an extension $^* E\subset{}^*\mathbb{R}$ of a subset $E\subset\mathbb{R}$:
 
-An element $x\in{}^*\mathbb{R}$ is *finite* if $|x|\lt {}^* r$ for some $r\in\mathbb{R}$. Every finite element $x\in{}^*\mathbb{R}$ is infinitesimally close to a unique real number $q\in\mathbb{R}$ in the sense that $|x-{}^*r|$ is either $0$ or a positive infinitesimally small number. We say that $q$ is the __standard part__ of $x$ and is denoted by $q= st(x)$. Given a real number $r\in\mathbb{R}$, the subset $\mu(r)$ of all elements $x\in{}^*\mathbb{R}$ such that $st(x)=r$ is said to be the __monad__ of the real number $r\in\mathbb{R}$.
+$$
+f_F\in{}^* E\,\,\Leftrightarrow\,\,\{i\in\mathbb{N}|f(i)\in E\}\in F.
+$$
+
+An element $x\in{}^*\mathbb{R}$ is *finite* if $|x|\lt {}^* r$ for some $r\in\mathbb{R}$. Every finite element $x\in{}^*\mathbb{R}$ is infinitesimally close to a unique real number $q\in\mathbb{R}$ in the sense that $|x-{}^*q|$ is either $0$ or a positive infinitesimally small number. We say that $q$ is the __standard part__ of $x$ and is denoted by $q= st(x)$. Given a real number $r\in\mathbb{R}$, the subset $\mu(r)$ of all elements $x\in{}^*\mathbb{R}$ such that $st(x)=r$ is said to be the __monad__ of the real number $r\in\mathbb{R}$. Monads should be taught as infinitesimal neighborhoods. An elementary fact:
+a subset $E\subset\mathbb{R}$ is open iff $\mu(r)\subset{}^*E$ for all $r\in E$; closed iff $st(x)\in E$ for all finite $x\in{}^* E$; and compact iff for all $x\in{}^* E$ the number $st(x)$ exists and $st(x)\in E$. 
+
+In this model of nonstandard analysis a version of the transfer principle (in terms of certain formal language $L(\mathbb{R})$) is established by a theorem of Los. 
 
 * Sergio Albeverio, Jens Erik Fenstad, Raphael Hoegh-Krohn, _Nonstandard methods in stochastic analysis and mathematical physics_, Academic Press 1986 (there is also a Dover 2009 edition and a 1990 Russian translation)
