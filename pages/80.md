@@ -10,7 +10,7 @@ Philosophical interest in <i>n</i>-categories may be characterised as belonging 
 
 ##Metaphysical##
 
-* Higher category theory provides a new [[foundations|foundation]] for mathematics.
+* Higher category theory provides a new foundation for mathematics - [[foundations|logical]] and [[foundations and philosophy|philosophical]].
 
 * Higher category theory refines the notion of sameness to allow more subtle variants.
 
