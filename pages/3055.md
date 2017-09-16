@@ -15,7 +15,7 @@ $$
 
 from the [[arrow category]] $[I,C] = Arr(C)$ that sends each [[morphism]] $(c_1 \stackrel{f}{\to} c_2) \in [I,C]$ to its codomain $c_2$.
 
-This functor is always a [[Grothendieck fibration|opfibration]]. It corresponds under the [[Grothendieck construction]] to the [[pseudofunctor]]
+This functor is always an [[Grothendieck fibration|opfibration]]. It corresponds under the [[Grothendieck construction]] to the [[pseudofunctor]]
 
 $$
   C/(-) : C \to Cat
@@ -34,9 +34,11 @@ If instead of the codomain the domain is used, one obtains the dual notion: [[do
 
 ## Details
 
+We spell out the details of the functor, of its cartesian and opcartesian morphisms and their properties.
+
 ### The arrow category
 
-Recal from the discussion at [[arrow category]] that the objects in $Arr(C)$ are morphisms in $C$ and the morphisms $(f:x_1\to x_2)\to (g: y_1\to y_2)$ in $Arr(C)$ are the commutative squares in $C$ of the form 
+Recall from the discussion at [[arrow category]] that the objects in $Arr(C)$ are morphisms in $C$ and the morphisms $(f:x_1\to x_2)\to (g: y_1\to y_2)$ in $Arr(C)$ are the commutative squares in $C$ of the form 
 
 $$\array{
     x_1 &\stackrel{v}\to& y_1
