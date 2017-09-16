@@ -50,6 +50,13 @@ One version of Mac Lane's Coherence Theorem states that in MonCat, every monoida
 
   * [[cartesian closed category]] 
  
+* [[rigid monoidal category]]
+
+* [[semisimple category]]
+
+* [[fusion category]]
+
+  * [[modular tensor category]]
 
 * [[monoidal (infinity,1)-category]] -- see also the discussion below
 
