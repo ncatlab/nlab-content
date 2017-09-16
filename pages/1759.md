@@ -15,6 +15,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-14
 
+*  [[Urs Schreiber]]:
+
+   * after a little reflection I moved the previous content at [[electromagnetism]] to [[electromagnetic field]] and kept just a brief note at the former, for later expansion 
+  
+   then I worked on [[electromagnetic field]]
+
+   I renamed the section I was working on into _Mathematical model from physical input_ . This now starts with quick and concise derivation of the fact that the EM field is modeled by a Cech-Deligne cocycle based on a quick definition of Maxwell's equations and the quantization condition.
+
+    the following sections "the local picture" and "the global picture" are supposed to provide the remaining details and background. Still needs polishing.
+
 *  [[Toby Bartels]]:
 
    *  Fixed links at [[Timeline of category theory and related mathematics]] until I finally got tired (through 1969).
