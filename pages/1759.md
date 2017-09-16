@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-29
 
+* [[Urs Schreiber]]
+
+  * slightly expanded and polished the examples at [[Reedy model structure]] further
+
 * [[David Roberts]]: cleaning up the [links](http://en.wiktionary.org/wiki/links#English) is clearly the job of the golf department
 
 ## 2009-07-28
