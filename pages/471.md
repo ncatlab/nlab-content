@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include homotopy - contents]]
+</div>
+
+
 #Contents#
 
 * automatic table of contents goes here
@@ -42,7 +47,7 @@ We give two very similar definitions that differ only in some extra assumptions.
 A **plain interval object** in a category $C$ is just a [[cospan]] diagram with equal feet
 
 $$
-  pt \stackrel{0}{\to} I \stackrel{1}{\left} pt
+  pt \stackrel{0}{\to} I \stackrel{1}{\leftarrow} pt
 $$
 
 in $C$, with $I$ and $pt$ any two objects and $0$ and $1$ any two morphisms.
@@ -401,7 +406,7 @@ It may be helpful to unpack the above definition a bit.
       \\
       & \uparrow^{Id \times Id} 
       \\
-      I
+      & I
     }
     \,,
     \;\;\;\;\;
