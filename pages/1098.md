@@ -2,7 +2,7 @@
 
 #Definition#
 
-Write $(\infty,0)Cat$ for [[generalized the|the]] category [[Infinity-Grpd]] of regarded as an [[(infinity,1)-category]].
+Write $(\infty,0)Cat$ for [[generalized the|the]] category [[Infinity-Grpd]] of $\infty$-[[infinity-groupoid|groupoids]] regarded as an [[(infinity,1)-category]].
 
 Let $S$ be a [[simplicial set]] (which in particular may be a [[quasi-category]]). 
 
