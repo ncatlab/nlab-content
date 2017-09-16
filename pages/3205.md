@@ -28,7 +28,7 @@ After being reassured that there was no need to learn MathML (**CatLab** would b
 Before rushing into the creation of **CatLab**, it was the purpose of this page to serve as a seed for its creation. The virtual ribbon cutting should be orchestrated by an active member of the **Category Theory Mailing List** and this page may serve as something of a **CatLab** sandbox to help potential  contributors get familiar with the possibilities.
 
 +-- {: .standout}
-A nascent CatLab may not be found at [[joyalscatlab:HomePage|joyalscatlab]], although it\'s final shape has yet be determined.
+A nascent CatLab may not (now?) be found at [[joyalscatlab:HomePage|joyalscatlab]], although it\'s final shape has yet be determined.
 =--
 
 
