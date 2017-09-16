@@ -69,3 +69,4 @@ A [[stalk]] $F_x$ (for $F$ a [[sheaf]] on a [[topological space $S$ and $x$ an e
 
 
 [[!redirects directed colimits]]
+[[!redirects Directed colimits]]
