@@ -1,10 +1,8 @@
-##Philosophy##
-
 #Idea#
 
 Philosophical interest in <i>n</i>-categories may be characterised as belonging to one of two kinds.
 
-* **Metaphysical**: A new language which may prove to be as important for philosophy as predicate logic has been for Bertrand Russell and successive analytic philosophers. 
+* **Metaphysical**: The formation of a new language which may prove to be as important for philosophy as predicate logic was for Bertrand Russell and the analytic philosophers he inspired. 
 
 * **Illustrative of mathematics as intellectual enquiry**: Such a reconstitution of the fundamental language of mathematics reveals much about mathematics as a tradition of enquiry stretching back several millennia, for instance, the continued willingness to reconsider basic concepts.
 
@@ -12,9 +10,9 @@ Philosophical interest in <i>n</i>-categories may be characterised as belonging 
 
 * Higher category theory provides a new foundation for mathematics - [[foundations|logical]] and [[foundations and philosophy|philosophical]].
 
-* Higher category theory refines the notion of sameness to allow more subtle variants.
+* Higher category theory refines the notion of sameness to allow more subtle variants. It advocates the avoidance of [[evil]].
 
-* There ought to be a categorified logic, or 2-logic. There are some suggestions that existing work on modal logic is relevant. Blog discussion: [I](http://golem.ph.utexas.edu/category/2007/11/concrete_groups_and_axiomatic_1.html), [II](http://golem.ph.utexas.edu/category/2008/02/2galois_and_2logic.html), [III](http://golem.ph.utexas.edu/category/2008/03/worrying_about_2logic.html), [IV](http://golem.ph.utexas.edu/category/2008/11/the_internal_language_of_a_2to.html). Mike Shulman's project: [2-categorical logic](http://ncatlab.org/michaelshulman/show/2-categorical+logic).
+* There ought to be a categorified [[internal logic|logic]], or 2-logic. There are some suggestions that existing work on modal logic is relevant. Blog discussion: [I](http://golem.ph.utexas.edu/category/2007/11/concrete_groups_and_axiomatic_1.html), [II](http://golem.ph.utexas.edu/category/2008/02/2galois_and_2logic.html), [III](http://golem.ph.utexas.edu/category/2008/03/worrying_about_2logic.html), [IV](http://golem.ph.utexas.edu/category/2008/11/the_internal_language_of_a_2to.html). Mike Shulman's project: [2-categorical logic](http://ncatlab.org/michaelshulman/show/2-categorical+logic).
 
 * Higher category theory may provide the right tools to take physics forward. [A Prehistory of n-Categorical Physics](http://math.ucr.edu/home/baez/history.pdf) See also [[physics]].
 
