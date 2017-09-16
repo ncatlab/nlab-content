@@ -1,8 +1,7 @@
-<div class="rightHandSide toc">
-
 ##Archive##
 
-* [[latest changes|current]]
+* [current](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
+* [[2009 September changes|2009 September]]
 * [[2009 August changes|2009 August]]
 * [[2009 July changes|2009 July]]
 * [[2009 June changes|2009 June]]
@@ -14,6 +13,3 @@
 * [[2008 changes|2008]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/all+changes)</div>
-
-
-</div>
