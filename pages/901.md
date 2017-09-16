@@ -96,9 +96,28 @@ is the fibration classified by $F$.
 
 (...or close, let me check this...)
 
-+-- {. :query}
+
++-- {: .query}
 
 [[David Roberts]]: I don't think this is true, since the fibration classified by $F$ would be $(F,U)$ (or $(U,F)$, whichever is suitable) where $U:Set_* \to Set$ is the forgetful functor$=$universal set bundle. The $F$ in $(Y,F)$ is to be considered an object of $Set^{C^{op}}$, not as a functor $C^{op} \to Set$. 
+
+[[Urs Schreiber|Urs]]: Ahm, let me see. So $(Y,F)$ (which, yes, should more precisely be written $(Y,const_F)$) has as objects morphisms of presheaves $e : Y(c) \to F$, equivalently by Yoneda the objects are elements $e \in F(c)$. 
+
+Its morphisms from $e : Y(c) \to F$ to $e' : Y(c')  \to F$ are given by morphisms $f : c \to c'$ in $C$ such that $f^* e' = e$. 
+
+That seems to me to be the category which is also characterized as being the (strict) pullback of
+
+$$
+  \array{
+    && Set_*
+    \\
+    && \downarrow^{U}
+    \\
+    C^{op} &\stackrel{F}{\to}& Set
+  }
+$$ 
+
+No?
 
 =--
 
