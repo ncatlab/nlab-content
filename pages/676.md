@@ -43,6 +43,7 @@
       * [[RR field]]
       * [[D'Auria-Fre formulation of supergravity]]
       * [[gravity as a BF-theory]]
+  * [[holonomic quantum fields]]
   * [[sigma-model]]
 
     * [[Dijkgraaf-Witten theory]]
