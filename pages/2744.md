@@ -8,7 +8,7 @@
 Multisymplectic geometry is a generalization of [[symplectic geometry]] to cases where the symplectic 2-form is generalized to a higher degree [[differential form]].
 It encodes aspects of [[n-symplectic manifold]]s. For the moment, see there for further details and references.
 
-In as far as [[symplectic geometry]] encodes [[Hamiltonian mechanics]], multisymplectic geometry may be regarded as resulving the symplectic geometry of the [[Hamiltonian mechanics]] of [[classical field theory]]: the kinematics of an $n$-dimensional field theory may be encoded in an degree $1+n$ higher symplectic form. Roughly the idea is that undeer a suitable fiber integration this becomes an ordinary symplectic form on the ordinary phase space of the theory.
+In as far as [[symplectic geometry]] encodes [[Hamiltonian mechanics]], multisymplectic geometry may be regarded as resolving the symplectic geometry of the [[Hamiltonian mechanics]] of [[classical field theory]]: the kinematics of an $n$-dimensional field theory may be encoded in an degree $1+n$ higher symplectic form. Roughly the idea is that under a suitable fiber integration this becomes an ordinary symplectic form on the ordinary phase space of the theory.
 
 This is similar to, and in fact a special case of, how for instance a [[line bundle]] on a [[loop space]] with a 2-form [[Chern class]] may arise by [[transgression]] from a [[bundle gerbe]] down on the original space, with a 3-form class.
 
