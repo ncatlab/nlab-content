@@ -140,6 +140,8 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 * concepts
 
+  * [[homotopy category of an (infinity,1)-category]]
+
   * [[join of quasi-categories]]
 
     * [[join of simplicial sets]]
