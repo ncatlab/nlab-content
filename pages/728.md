@@ -1,3 +1,3 @@
 See [[Tim Porter]].
 
-category: redirect
+category: delete
