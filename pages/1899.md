@@ -130,6 +130,8 @@ The rule is: the _contents_ of a query box (or other box: theorems, proofs, all 
 _Toby_:  But none of that terrible XHTML-destroying stuff will happen if you consistently indent *nothing* in the query box, which is what John asked about.  Just for kicks, I have removed all indentation from this box; it destroys the list structure, but leaves perfectly good XHTML.
 
 [[Andrew Stacey]]: Yes, but you cheated by un-indenting the query box.  So this complies with the rule that the wise and sagacious lab elf outlined and so does not produce malformed XHTML to be cleaned up by the sanitiser.  However, it does muck up the list and makes what appears below look like it is not part of the example.  If no-one beats me to it, I'll add something to the FAQ or HowTo about it.
+
+_Toby_:  I didn\'t cheat, I did what John was suggesting when he asked 'So why bother with indents in the first place?'.  The answer to that is what I said: it mucks up the list otherwise.  If you indent only partially, *then* you muck up the query box too (and I\'ll accept, although I haven\'t checked, that you get bad XHTML), but John\'s already learned that lesson.  (Or maybe I\'m misinterpreting what he said.)
 =-- 
 
   It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric). For details on this see _The Hunting of the Hopf Ring_, referred to belelow.  This monoidal structure for abelian groups turns out to be the tensor product.
