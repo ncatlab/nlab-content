@@ -7,3 +7,4 @@ F. William Lawvere is one of the greatest category theorists of all time.  He in
 category: biography
 
 [[!redirects William Lawvere]]
+[[!redirects Lawvere]]
