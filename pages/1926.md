@@ -99,8 +99,10 @@ topological spaces equipped with extra geometrical structure.
 
 # Definition #
 
+## geometry ##
+
 +-- {: .un_defn}
-###### Definition
+###### Definition ( [[Structured Spaces|StSp]] )
 
 A **homotopical topology** on an [[(∞,1)-category]] $\mathcal{G}$ is a [[Grothendieck topology]] on $\mathcal{G}$ that is generated from its intersection with a subcategory $\mathcal{G}^{ad} \subset \mathcal{G}$ whose morphisms -- called the  **admissable morphisms** have the following properties
 
@@ -110,7 +112,7 @@ A **homotopical topology** on an [[(∞,1)-category]] $\mathcal{G}$ is a [[Groth
 =--
 
 +-- {: .un_defn}
-###### Definition
+###### Definition ( [[Structured Spaces]] 1.2.5 )
 
 A **geometry (for $(\infty,1)$-toposes)** is 
 
@@ -125,8 +127,17 @@ A **geometry (for $(\infty,1)$-toposes)** is
 * equipped with a _homotopical coverage_ .
 =--
 
+## pregeometry ##
+
+... like a geometry, but only required to have
+[[product]]s, not required to have all [[limit]]s.
+
+
+
+## structured $(\infty,1)$-topos ##
+
 +-- {: .un_defn}
-###### Definition
+###### Definition ([[Structured Spaces|StSp]], 1.2.8)
 
 For $\mathcal{G}$ a geometry, and $T \simeq Sh_\infty(S)$ an [[(∞,1)-topos]],
 a **$\mathcal{G}$-structure on the $(\infty,1)$-topos $T$** making it a 
@@ -209,3 +220,5 @@ to structured morphisms here is in section 10.1. there.
 
 
 [[!redirects geometry (for structured (∞,1)-toposes)]]
+[[!redirects pregeometry (for structured (infinity,1)-toposes)]]
+[[!redirects pregeometry (for structured (∞,1)-toposes)]]
