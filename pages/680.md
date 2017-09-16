@@ -143,7 +143,19 @@ An obvious analogue gives cubical or globular nerves.
 
 #References#
 
-The standard Dold-Kan correspondence is discussed in [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) of 
+Historical references for the Dold-Kan correspondence are
+
+* A. Dold, _Homology of symmetric products and other functors of complexes_ 
+([jstor](http://www.jstor.org/stable/1970043))
+
+which considers the correspondence for categories of [[module]]s, and
+
+* A. Dold, D. Puppe, _Homologie nicht-additiver Funktoren. Anwendugen_ ([numdam](http://www.numdam.org/item?id=aif_1961__11__201_0))
+
+that generalizes the result to arbitrary [[abelian category|abelian categories]].
+
+
+A standard modern textbook reference for the ordinary Dold-Kan correspondence is [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) of 
 
 * Goerss, Jardine, _Simplicial Homotopy Theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
