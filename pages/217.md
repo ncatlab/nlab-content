@@ -8,11 +8,12 @@ ETCS was proposed by [[Bill Lawvere]], who published an undergraduate set-theory
 
 An informative discussion of the pros and cons of Lawvere's approach can be found in
 
-* Jean-Pierre Marquis, 
-_Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_
-([pdf](http://www.math.mcgill.ca/rags/seminar/Marquis_KreiselLawvere.pdf))
+* Jean-Pierre Marquis, _Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_ ([pdf](http://www.math.mcgill.ca/rags/seminar/Marquis_KreiselLawvere.pdf))
 
-Erik Palmgren has a [constructive variant](http://www.math.uu.se/~palmgren/cetcs.pdf) of ETCS (in the [[predicative mathematics|predicative]] sense of "constructive"), which can be summarized as: $Set$ is a [[well-pointed topos|well-pointed]] [[Π-pretopos]] with a [[NNO]] which has [[enough projectives]] (i.e. [[COSHEP]] is satisfied).  Here "well-pointed" must be taken in its constructive sense, as including that the [[terminal object]] is indecomposable and projective.
+Erik Palmgren has a [[constructive mathematics|constructive]] [[predicative mathematics|predicative]] variant of ETCS, which can be summarized as: $Set$ is a [[well-pointed topos|well-pointed]] $\Pi$-[[Π-pretopos|pretopos]] with a [[NNO]] and [[enough projectives]] (i.e. [[COSHEP]] is satisfied).  Here "well-pointed" must be taken in its constructive sense, as including that the [[terminal object]] is indecomposable and projective.
+
+*  Erik Palmgren, _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_ ([pdf](http://www.math.uu.se/~palmgren/cetcs.pdf))
+
 
 #Todd Trimble's exposition of ETCS#
 
@@ -24,5 +25,6 @@ Erik Palmgren has a [constructive variant](http://www.math.uu.se/~palmgren/cetcs
 
 * Todd Trimble, _ETCS: Building joins and coproducts_
 ([[Trimble on ETCS III|nLab entry]], [original blog entry](http://topologicalmusings.wordpress.com/2008/12/15/etcs-building-joins-and-coproducts/))
+
 
 category: foundational axiom
