@@ -2,7 +2,9 @@
 
 The _Dold--Kan correspondence_ asserts that the [[nerve and realization]] [[adjunction]] between abelian 
 [[simplicial group]]s and [[chain complex]]es encodes
-certain classes of [[infinity-groupoid]]s equivalently be as [[chain complex]]es. 
+[[infinity-groupoid]]s with abelian group structure equivalently in terms of [[chain complex]]es of abelian groups. 
+
+Analogous statement hold for the category of abelian groups replaces by any other [[abelian category]].
 
 This allows one
 
