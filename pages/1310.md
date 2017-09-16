@@ -268,7 +268,7 @@ The same definition, up to inessential technical details, appears also in
 
 Some further discussion and examples of Lie-$\infty$-algebroid representations is at
 
-* Urs Schreiber, [On Lie-∞ theory](http://golem.ph.utexas.edu/category/2008/05/action_lie_infinityalgebroids.html)
+* Urs Schreiber, [On Lie-oo theory](http://golem.ph.utexas.edu/category/2008/05/action_lie_infinityalgebroids.html)
 
 * Hisham Sati, Urs Schreiber, Jim Stasheff, _Twisted differential String- and Fivebrane structures_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/5twist.pdf))
 
