@@ -56,4 +56,6 @@ Just curious...
 
 [[Eric]]: On second thought, $d\delta = 0$ is probably too strong. You could probably get away with $d\delta = -\delta d$.
 
+[[Mike Shulman]]: No, I haven't looked into stochastic calculus; that's an interesting idea.  But I don't know what $d\delta$ means.
+
 =--
