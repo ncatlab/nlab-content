@@ -121,3 +121,6 @@ etc.
 The basic results of elementary group theory apply to group objects in any category with finite products.  (Arguably, it is precisely the *elementary* results that apply in any such category.)
 
 The theory of group objects is an example of a [[Lawvere theory]].
+
+
+[[!redirects group objects]]
