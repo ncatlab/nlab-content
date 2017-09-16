@@ -237,6 +237,167 @@ This is [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroi
   * $G = d C + \mu_4(\psi, E) \in \Omega^4(X)$ -- the **4-form field strength**
 
 
+## gauge transformations ##
+
+There is an evident notion of _gauge transformations_ (i.e. isomorphisms) of [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]]s. We unwrap this and derive this way the formulation of gauge transformations as used in the [literature](#References) on the  D'Auria-Fr&eacute; formalism.
+
+Recall -- from the discussion at [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]] -- that $\infty$-connections on a trivial [[principal ∞-bundle]] (to which we restrict attention here) on a space $X$ with values in an [[L-infinity algebra|L-∞-algebra]] $\mathfrak{g}$ are encoded by a diagram
+
+$$
+  \array{
+    \Pi^{inf}(X) &\stackrel{A}{\to}& cone(\mathfrak{g})
+    \\
+    \downarrow^{id} && \downarrow
+    \\
+    \Pi^{inf}(X) &\stackrel{P(F_A)}{\to}& 
+    \Sigma \mathfrak{g}
+  }
+$$
+
+of [[schreiber:∞-Lie algebroid|∞-Lie algebrboid]]s, which dually, after passing to [[Chevalley-Eilenberg algebra]]s, becomes a diagram of [[dg-algebra]]s
+
+$$
+  \array{
+    \Omega^\bullet(X) &\stackrel{A}{\leftarrow}& W(\mathfrak{g})
+    \\
+    \uparrow && \uparrow
+    \\
+    \Omega^\bullet(X)
+    &\stackrel{\{P(F_A)\}}{\leftarrow}&
+    inv(\mathfrak{g})
+  }
+  \,,
+$$
+
+where $W(\mathfrak{g})$ is the [[Weil algebra]] and $inv(\mathfrak{g})$ the algebra of [[invariant polynomial]]s of $\mathfrak{g}$, where $F_A$ denotes the [[schreiber:curvature|curvature]] forms and $P(F_A)$ the collection of [[schreiber:curvature|curvature characteristic forms]] built from them.
+
+A gauge transformation between two field configurations
+
+$$
+  \phi, \phi' : \Pi^{inf}(X) \to cone(\mathfrak{g})
+$$
+
+is modeld by a left [[homotopy]] $\phi \Rightarrow \phi'$ 
+(in the corresponding [[model category]] structure that [[presentable (infinity,1)-category|presents]] this higher categoriccal setup) which extends to  a homotopy of [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connections]] in that it fits into a diagram
+
+$$
+  \array{
+    \Pi^{inf}(X) &\stackrel{\nearrow \downarrow\searrow^{\phi}}{\searrow \nearrow_{\phi'}}& 
+      cone(\mathfrak{g})
+    \\
+    \downarrow^{id} && \downarrow
+    \\
+    \Pi^{inf}(X) &\stackrel{P(\phi) = P(\phi')}{\to}& \Sigma \mathfrak{g}
+  }
+$$
+
+meaning that $\eta$ does not affect the [[schreiber:curvature|curvature characteristic forms]] associated with the two fields $\phi$ and $\phi'$.
+
+In terms of the [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]] [[semifree dga]]s
+this means more explicitly that a gauge transformation is presented by
+
+* a morphism
+
+  $$
+    \eta : \Omega^\bullet(X\times I) \leftarrow W(\mathfrak{g})
+    \,,
+  $$
+
+  where $I = [0,1]$ is the standard interval, 
+
+* such that 
+
+  * its restriction
+    to the two endpoints of the interval 
+    reproduces $\phi$ and $\phi'$, respectively,
+    i.e. such that we have a commuting diagram
+
+    $$
+      \array{
+        \Omega^\bullet(X)
+        \\
+        \;\;\uparrow^{(Id \times i_0)^*} & \nwarrow^{\phi}
+        \\
+        \Omega^\bullet(X \times I) 
+        &\stackrel{\eta}{\leftarrow}&  W(\mathfrak{g})
+        \\
+        \;\;\downarrow^{(Id \times i_1)^*} 
+           & \swarrow_{\phi'}
+        \\
+        \Omega^\bullet
+      }
+      \,,
+    $$ 
+
+    where $i_0, i_1 : {*} \to I$ are the two endpoint inclusions of the interval
+    
+  * and such that the composite $\Omega^\bullet(X \times I) \stackrel{\eta}{\leftarrow} W(\mathfrak{g}) \stackrel{}{\leftarrow} inv(\mathfrak{g})$  which computes the [[schreiber:curvature|curvature characteristic form]]s of $\eta$, is constant along $I$, in that we have a commuting
+    diagram
+    
+    $$
+      \array{
+        \Omega^\bullet(X \times I) 
+         &\stackrel{\eta}{\leftarrow}&
+        W(\mathfrak{g})
+        \\
+        \uparrow && \uparrow
+        \\
+        \Omega^\bullet(X) &\stackrel{\{P(F_A)\}}{\leftarrow}&
+         inv(\mathfrak{g})
+      }
+      \,,
+    $$
+
+    where the left vertical morphism is pullback along the projection $X \times I \to X$.
+
+We now unwrap what this means explicitly in terms of generators of [[dg-algebra]]s and find the physics literature expression for gauge transformations this way:
+
+Let $V$ be the [[graded vector space]] underlying the [[L-infinity algebra|L-∞-algebra]] $\mathfrak{g}$, and let $V^*$ its degreewise dual. Recall that the underlying graded-commutative algebra of the [[Weil algebra]] $W(\mathfrak{g)$ is the [[Grassmann algebra]] $\wedge^\bullet V^* \oplus V^*[1]$ on $V^*$ plus its degree-shifted copy. 
+
+* Choose a basis $\{t^a\}$ of $V^*$ of homogeneous degree elements. Write $\{\sigma t^a\}$ for the corresponding basis of $V^*[1]$.  On a homogeneous basis element $t^a \in V^*$ of degree $k$ in the remaining unshifted copy $\eta$ may be written as
+
+  $$
+    \eta(t^a) := \eta^a := \bar \phi^a + (d_{dR} s) \wedge \epsilon^a 
+     \;\;\;\;\in \Omega^\bullet(X \times I)
+    \,,
+  $$
+
+  where
+
+  * $\bar \phi^a$ is in the image of $\Omega^k(X)$ pulled back to $\Omega^k(X \times I)$ and such that with $s \in C^\infty(I)$ the canonical coordinate on the interval we have $\bar \phi^a|_{s = 0} = \phi^a$ and $\bar \phi^a|_{s = 1} = {\phi'}^a$;
+
+  * $\epsilon^k$ is in the image of $\Omega^{k-1}(X)$ under pullback. 
+
+The component $\epsilon^a$ is what in the physics literature is called the **gauge parameter**.
+
+We will see below that writing the same expression for the shifted generators $\sigma t^a$ will imply that the analogue of $\epsilon$ vanishes on these and that $\eta$ is constant along the interval on shifted elements. So for brevity we assume this now.
+
+Apart from being a morphism of graded-commutative algebra, $\eta$ has to be a morphism of [[dg-algebra]]s and hence has to respect the differentials on both sides in that
+
+$$
+  d_{dR}\bar \phi^a  - (d_{dR} s) \wedge (d_{dR} \epsilon^a)
+  =
+  \phi(d_{\mathfrak{g}} t^a)
+  \,.
+$$
+
+Projected onto the $\frac{\partial}{\partial s}$-component this equation says (remembering the form of $\eta$ given above and that it vanishes on shifted generators) that
+
+$$
+  \frac{\partial}{\partial s} \bar\phi^a =
+  d_{dR} \epsilon^a + 
+  C^a{}_{b c} \bar\phi^b \wedge \epsilon^c
+  + 
+  F_\phi^a|_{\frac{\partial}{\partial s}}
+  \,,
+$$
+
+where $C^a{}_{b c}$ are the structure constants of $d_{\mathfrak{g}}$ in our chosen basis of $V^*$ and where the last expression on the right.
+
+This is the familiar **equation for infinitesimal gauge transformations** in the physics literature.
+
+
+
 ## rheonomy ##
 
 ### Idea ###
