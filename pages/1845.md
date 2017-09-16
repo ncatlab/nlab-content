@@ -121,13 +121,19 @@ $$
 
 # References #
 
-The general definition of the K-theory spectrum of a [[stable (infinity,1)-category|stable (infinity,1)-categories]] is remark 11.4 in
+It was in 
+
+* [[Bertrand Toen]], Gabriele Vezzosi, _A remark on K-theory and $S$-categories_ ([arXiv](http://arxiv.org/PS_cache/math/pdf/0210/0210125v2.pdf)).
+
+that it was proven that the the [[Waldhausen S-construction]] of the [[K-theory spectrum]] depends precisely on the [[simplicial localization]] of the [[Waldhausen category]], i.e. of the [[(infinity,1)-category]] that it presents.
+
+In view of this remark 11.4 in
 
 * [[Jacob Lurie]], [[stable (infinity,1)-category|Stable Infinity-Categories]] .
 
-This is related to the [[model category]] theoretic construction in
+interprets the construction of the K-theory spectrum as a natural operation of 
+[[stable (infinity,1)-category|stable (infinity,1)-categories]], as described above.
 
-* [[Bertrand Toen]], Gabriele Vezzosi, _A remark on K-theory and $S$-categories_ ([arXiv](http://arxiv.org/PS_cache/math/pdf/0210/0210125v2.pdf)).
 
 The standard constructions of K-theory spectra from exact categories are discussed in detail in chapter 1 of
 
