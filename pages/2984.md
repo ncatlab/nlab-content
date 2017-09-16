@@ -1,1 +1,1 @@
-See [Precursors](http://mywikibiz.com/Directory:Jon_Awbrey/Notes/Precursors)
+&lt; [[precursors]]
