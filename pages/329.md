@@ -9,12 +9,11 @@
 
 * The concept of a strict 2-category is the simplest generalization of a [[category]] to a [[higher category theory|higher category]]. It is the one-step [[vertical categorification|categorification]] of the concept of a category.
 
-+--{.query}
-[[Eric]]: In terms of [[geometric shapes for higher structures]], this definition is a special case where the shapes are globes. Should we make that explicit?
-=--
-
 The term _2-category_ implicitly refers to a [[geometric shapes for higher structures|globular]] structure. Closely related are [[double category|double categories]], which are based ob [[cube]]s instead. Every strict 2-category gives rise to a strict [[double category]].
 
++--{.query}
+[[Eric]]: Is it possible to think of a strict globular 2-category to be a special case of a strict [[n-fold category|2-fold category]]? In other words, is a strict globular n-category a degenerate strict $n$-fold category?
+=--
 
 ##Definition
 
