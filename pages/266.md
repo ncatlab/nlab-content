@@ -28,7 +28,7 @@ i.e. to extending the domain of $F$ through $p$ from $C$ to $C'$.
 
 ## Local and global definition ##
 
-As for the definition of [[limit]] (and [[homotopy limit]]) and induced from the _local_ definition of [[adjoint functor]]s, there is a _local_ definition of what Kan extension meas, which applies to every single functor, and there is a _global_ definition, which applies to the category of all functors. If the local Kan extension of every single functor exists for some category, then both definitions coincide. 
+As for the definition of [[limit]] (and [[homotopy limit]]) and induced from the _local_ definition of [[adjoint functor]]s, there is a _local_ definition of what Kan extension means, which applies to every single functor, and there is a _global_ definition, which applies to the category of all functors. If the local Kan extension of every single functor exists for some category, then both definitions coincide. 
 
 In particular, the _global_ definition of Kan extension is a direct generalization of the _global_ definition of [[limit]].
 
@@ -197,7 +197,7 @@ Details are in [section 4.3, p. 215](http://arxiv.org/PS_cache/math/pdf/0608/060
 
 * see also [[examples of Kan extensions]]
 
-### basic example: restriction and extenion of sheaves ###
+### basic example: restriction and extension of sheaves ###
 
 For more on the following see also 
 
