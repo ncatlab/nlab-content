@@ -13,6 +13,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-04-16 #
 
+* [[Urs Schreiber|Urs]]: 
+
+  * replied to [[David Roberts|David]] at [[ind-object]]
+
+  * have a request and a question at [[bar and cobar construction]]
 
 * [[David Roberts]]: 
 
