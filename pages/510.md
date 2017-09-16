@@ -8,30 +8,30 @@
 
 # Idea #
 
-A [[topological space|topological]] spectrum is an object in the universal [[stable (infinity,1)-category]] $Sp(Top) \simeq Sp(\infty Grpd)$ that "stabilizes" the [[(infinity,1)-category]] [[Top]] or $\simeq$ [[Infinity-Grpd]] of [[topological space]]s or [[infinity-groupoid]]s.
+A [[topological space|topological]] spectrum is an object in the universal [[stable (∞,1)-category]] $Sp(Top) \simeq Sp(\infty Grpd)$ that "stabilizes" the [[(∞,1)-category]] [[Top]] or $\simeq$ [[∞-Grpd]] of [[topological spaces]] or [[∞-groupoids]].
 
-Recall that the central characterization of a [[stable (infinity,1)-category]] is that all objects $A$ have a [[delooping]] object $\mathbf{B}A$ that is written $\Sigma A$ in this context and called the _suspension_ of $A$. Thus a spectrum is like a [[topological space]] or [[infinity-groupoid]] that may be [[delooping|delooped]] indefinitely.
+Recall that the central characterization of a [[stable (∞,1)-category]] is that all objects $A$ have a [[delooping]] object $\mathbf{B}A$ that is written $\Sigma A$ in this context and called the _suspension_ of $A$. Thus a spectrum is like a [[topological space]] or [[∞-groupoid]] that may be [[delooping|delooped]] indefinitely.
 
-In fact all ordinary [[topological space]]s and [[infinity-groupoid]]s that have the property that all their [[delooping]]s exist are special examples of spectra. They are called the 
+In fact all ordinary [[topological spaces]] and [[∞-groupoids]] that have the property that all their [[deloopings]] exist give rise to special examples of spectra.  These are called the
 
 * **connective spectra**
 
-* or **infinite [[loop space]]s** 
+* or **infinite [[loop spaces]]** 
 
-* or [[groupal n-groupoid|grouplike]] [[k-tuply monoidal n-category|stably monoidal]] $\infty$-[[infinity-groupoid|groupoid]]s
+* or [[groupal n-groupoid|grouplike]] [[k-tuply monoidal n-category|stably monoidal]] $\infty$-[[∞-groupoid|groupoids]]
 
-* or [[symmetric monoidal (infinity,1)-category|symmetic monoidal infinity-groupoid]]s.
+* or [[symmetric monoidal (∞,1)-category|symmetic monoidal ∞-groupoids]].
 
-Connective spectra form a sub [[(infinity,1)-category]] of spectra
+Connective spectra form a sub [[(∞,1)-category]] of spectra
 
 $$
   Top \stackrel{\supset}{\leftarrow} ConnectSp(Top) \hookrightarrow Sp(Top)
   \,.
 $$
 
-There are objects in $Sp(Top)$, though, that do not come from infinitely deloopable spaces. These are the **non-connective spectra**. For general spectra there is a notion of [[homotopy group]]s of negative degree. The connective ones are precisely those for which all negative degree [[homotopy group]]s vanish.
+There are objects in $Sp(Top)$, though, that do not come from "naively" delooping a space infinitely many times.  These are the **non-connective spectra**.  For general spectra there is a notion of [[homotopy groups]] of negative degree. The connective ones are precisely those for which all negative degree [[homotopy groups]] vanish.
 
-Non-connective spectra are well familiar in as far as they are in the image of the [[nerve]] operation of the [[Dold-Kan correspondence]]: this identifies [[infinity-groupoid]]s that are not only connective spectra but even have a _strict_ symmetric monoidal [[group]] structure with non-negatively graded [[chain complex]]es of abelian groups. 
+Non-connective spectra are well familiar in as far as they are in the image of the [[nerve]] operation of the [[Dold-Kan correspondence]]: this identifies [[∞-groupoids]] that are not only connective spectra but even have a _strict_ symmetric monoidal [[group]] structure with non-negatively graded [[chain complex]]es of abelian groups. 
 
 $$
  \array{
@@ -44,9 +44,9 @@ $$
  }
 $$
 
-The [[homology]] groups of the chain complex correspond precisely to the [[homotopy group]]s of the corresponding [[topological space]] or [[infinity-groupoid]].
+The [[homology]] groups of the chain complex correspond precisely to the [[homotopy groups]] of the corresponding [[topological space]] or [[∞-groupoid]].
 
-The free stabilization of the [[(infinity,1)-category]] of non-negatively graded chain complexes is simpy the [[stable (infinity,1)-category]] of arbitrary chain complexes. There is a stabilized Dold-Kan correspondence that identifies these with special objects in $Sp(Top)$. 
+The free stabilization of the [[(∞,1)-category]] of non-negatively graded chain complexes is simpy the [[stable (∞,1)-category]] of arbitrary chain complexes. There is a stabilized Dold-Kan correspondence that identifies these with special objects in $Sp(Top)$. 
 
 $$
  \array{
