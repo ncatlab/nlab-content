@@ -73,10 +73,13 @@ _[[Eric Forgy|Eric]] says_: I thought this sounded familiar. Is an under categor
 _[[Eric Forgy|Eric]] says_: Found it, but I'll leave my question here in case it inspires anything that can be included. I see on <a href="http://www.math.uni-hamburg.de/home/schreiber/tangcat.pdf">page 3</a> Urs says that a tangent category is a co-slice category.
 
 
-[[!redirects coslice category]]
+[[!redirects under category]]
 [[!redirects under-category]]
 [[!redirects undercategory]]
-[[!redirects coslice categories]]
+[[!redirects coslice category]]
+[[!redirects co-slice category]]
+[[!redirects under categories]]
 [[!redirects under-categories]]
 [[!redirects undercategories]]
-[[!redirects under categories]]
+[[!redirects coslice categories]]
+[[!redirects co-slice categories]]
