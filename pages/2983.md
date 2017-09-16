@@ -14,3 +14,13 @@ See also
 [[!redirects Bruhat-Tits building]]
 [[!redirects Bruhat–Tits building]]
 [[!redirects Bruhat--Tits building]]
+
+####Introductory references#### 
+
+For a short, gentle and geometrical introduction, see:
+
+* [[John Baez: This Week's Finds in Mathematical Physics, [week 263] (http://math.ucr.edu/home/baez/week263.html) second half.]] 
+
+An introductory textbook that starts with explaining Coxeter groups is this:
+
+* [[Abramenko, Peter; Brown, Kenneth S.: Buildings. Theory and applications. (Springer 2008, [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05288866&format=complete) )]]
