@@ -2,7 +2,7 @@
 
 #Definition#
 
-A **fusion category** is a [[rigid monoidal category|rigid]]  [[semisimple category|semisimple]] linear ([[Vect]]-[[enriched category|enriched]]) [[monoidal category]], with only finitely many isomorphism classes of simple objects, such that the endomorphisms of the unit object is just the ground field $k$.
+A **fusion category** is a [[rigid monoidal category|rigid]]  [[semisimple category|semisimple]] linear ([[Vect]]-[[enriched category|enriched]]) [[monoidal category]], with only finitely many isomorphism classes of simple objects, such that the endomorphisms of the unit object form just the [[ground field]] $k$.
 
 #Remarks#
 
