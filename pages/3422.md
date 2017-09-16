@@ -125,6 +125,58 @@ that takes a [[simplicial presheaf]] on $C$ to a simplicial set over $S$ -- the 
 
 =--
 
++-- {: .un_example}
+###### Example 
+
+The straightening functor effectively computes the fibers of a Cartesian fibration $(p : X \to C)$ over every point $x \in C$. As an illustration for how this is expressed in terms of morphisms in that pushout, consider the simple situation where
+
+* $C = *$ only has a single point;
+
+* $X = \left\{ a \to b \;\;\; c\right\}$ is a category with three objects, two of them connected by a morphism
+
+* $p : X\to C$ is the only possble functor, sending everything to the point.
+
+Then 
+
+* $C^{\triangleright} = 
+    \left\{
+      \array{
+         a &\to& b && c
+         \\
+         & \searrow \Leftarrow& \downarrow & \swarrow
+         \\
+         && v
+      }
+    \right\}
+  $
+
+and
+
+* $X^{\triangleright} \coprod_{X} C = 
+    \left\{
+      \array{
+         && \bullet
+         \\
+         & \swarrow & \downarrow & \searrow
+         \\
+         \downarrow& \Leftarrow & \downarrow
+         \\
+         & \searrow & \downarrow & \swarrow
+         \\
+         && v
+      }
+    \right\}
+  $
+
+
+Therefore the category of morphisms in this pushout from $*$ to $v$ is indeed again the category $\{a \to b \;\;\; c\}$.
+
+
+
+=--
+
+
+
 +-- {: .un_theorem}
 ###### Theorem 
 **(presentation of $(\infty,0)$-Grothendieck construction)**
