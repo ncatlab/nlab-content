@@ -1,10 +1,10 @@
 #Idea#
 
-A _sieve_ is a way to encode a morphism of [[presheaf|presheaves]] that behaves like a [[cover]]. It is used to say which [[presheaf|presheaves]] are actually [[sheaf|sheaves]] with respect to a given [[coverage]] or [[Grothendieck topology]].
+A _sieve_ is a way to encode a morphism of [[presheaves]] that behaves like a [[cover]]. It is used to say which [[presheaves]] are actually [[sheaves]] with respect to a given [[coverage]] or [[Grothendieck topology]].
 
-_Sieves_ are an equivalent way to encode [[subobject]]s of [[representable functor]]s in a [[presheaf]] category in terms of the total sets of _elements_ of such a subfunctor.
+_Sieves_ are an equivalent way to encode [[subobjects]] of [[representable functors]] in a [[presheaf]] category in terms of the total sets of _elements_ of such a subfunctor.
 
-The notion of _sieve_ is usually used when certain such subobjects are singled out as [[cover]]s of a (sifted) [[coverage]]: the singled out subobjects then correspond to _covering sieves_.
+The notion of _sieve_ is usually used when certain such subobjects are singled out as [[covers]] of a (sifted) [[coverage]]: the singled out subobjects then correspond to _covering sieves_.
 
 +-- {: .query}
 Urs, I changed 'coverage' back to 'Grothendieck topology' above, since it\'s specifically Grothendieck topologies that deal with covering sieves; coverages deal with arbitrary covering families (generally not sieves and generally not all of them), which is part of why coverages both can be more useful and are less canonical.
@@ -45,7 +45,7 @@ This is probably called a _sieve_ because it "sifts out" the 'special' maps into
 
 There is a canonical way to create subfunctors from sieves and sieves from subfunctors.
 
-A subfunctor is a [[subobject]] in a [[functor category]]. Here, specifically, one is interested in [[subobject]]s in a [[presheaf]] category of [[representable functor]]s. It's these subfunctors of representable functors that are in bijection with sieves.
+A subfunctor is a [[subobject]] in a [[functor category]]. Here, specifically, one is interested in [[subobjects]] in a [[presheaf]] category of [[representable functors]]. It's these subfunctors of representable functors that are in bijection with sieves.
 
 +-- {: .un_defn}
 ###### Definition
@@ -76,7 +76,7 @@ Right now, this makes me _prefer_ the notion of 'sieve' to the notion of 'subfun
 
 [[Urs Schreiber|Urs]]: thanks for the comment, Bruce! Here I would find it helpful if you could put in directly what you would find helpful. Because I am not sure. At the moment it says right at the beginning that sieves are a way to encode subfunctors of representables. This is the reason why we care about them.
 
-The point is really, as described in some detail at [[sheaf]], that we want to characterize certain morphisms of presheaves, called [[local isomorphism]]s. And it turns out that a lot is already gained once we understand all local isomorphisms that are monomorphisms (called then [[dense monomorphism]]s). And it turns out that among them in turn it suffices to look at those with representable codomain. These, finally, are seen to have a more pedestrian description in terms of sieves. That's why one cares about sieves.
+The point is really, as described in some detail at [[sheaf]], that we want to characterize certain morphisms of presheaves, called [[local isomorphisms]]. And it turns out that a lot is already gained once we understand all local isomorphisms that are monomorphisms (called then [[dense monomorphisms]]). And it turns out that among them in turn it suffices to look at those with representable codomain. These, finally, are seen to have a more pedestrian description in terms of sieves. That's why one cares about sieves.
 
 Should we say this here again? Maybe. But It is already described in some detail at [[sheaf]].
 
@@ -194,7 +194,7 @@ So the set is just the set of maps from $V$ to $X$ that factor through one of th
 
 * For $X$ a [[topological space]] let $Op(X)$ be the [[category of open subsets]] of $X$ and consider presheaves $PSh(X) := [Op(X)^{op}, Set]$ on $X$. For any open subset $c = V \in Op(X)$ let $\{d_i\} = \{U_i\}$ be a cover of $V$ by open subsets $U_i$ in the ordinary sense (i.e. each $U_i$ is an open subset of $V$ and their joint union is $V$, $\bigcup_i U_i = V$), then  $\pi : (\coprod_i Y(U_i)) \stackrel{\coprod_i U_i \hookrightarrow_i X}{\to} Y(V)$ (with $Y$ the [[Yoneda embedding]]) is a [[local epimorphism]] of presheaves on $V$ and its [[image]] -- or equivalently its [[coimage]] -- is the subfunctor $(F := \bigcup_i Y(U_i)) \hookrightarrow Y(V)$ that sends each $W \in Op(X)$ to the set of maps $W \to V$ that factor through one of the $U_i$. The collection of all such maps for all choice of $W$ is the corresponding _covering sieve_ $\{ f : W \to V  \in Mor(S) \;|\; f = W \to U_i \to V  \}$.
 
-* The situation for more general [[site]]s $S$ other than $Op(X)$ is literally the same as above, with $U_i, W, V$ etc. objects of $S$.
+* The situation for more general [[sites]] $S$ other than $Op(X)$ is literally the same as above, with $U_i, W, V$ etc. objects of $S$.
 
 
 
@@ -211,7 +211,7 @@ $$
   \,.
 $$
 
-This is the [[coproduct]] in the [[category of open subsets]] of $X$, but that behaves very differently from the [[disjoint coproduct]]s that we are used to from categories like [[Set]].  On the other hand, when one comes to a category of [[presheaves]] or [[sheaves]] (a [[Grothendieck topos]]), this [[topos]] *does* have disjoint coproducts.
+This is the [[coproduct]] in the [[category of open subsets]] of $X$, but that behaves very differently from the [[disjoint coproducts]] that we are used to from categories like [[Set]].  On the other hand, when one comes to a category of [[presheaves]] or [[sheaves]] (a [[Grothendieck topos]]), this [[topos]] *does* have disjoint coproducts.
 
 Another way to think of this is obtained by first
 forming the [[fiber product]] of $U_1$ with $U_2$ over $V$ in $Op(X)$,  which is the intersection $U_1 \cap U_2$ sitting in the [[pullback]] diagram
@@ -244,7 +244,7 @@ is not only a [[pullback]] also a [[pushout]] diagram.
 
 The important point about (covering) sieves is that they show up when the above situation is sent via the [[Yoneda embedding]] from $Op(X)$ to [[presheaf|presheaves]] on $Op(X)$. The crucial aspect here that gives rise to the peculiarities of sieves is that 
 
-* the [[Yoneda embedding]] preserves [[limit]]s, but not, in general, [[colimit]]s
+* the [[Yoneda embedding]] preserves [[limits]], but not, in general, [[colimits]]
 
 As a result, the above discussion goes through equivalently for the [[presheaf|presheaves]] [[representable functor|represented]] by our open subsets all the way up to the last pushout. In $Op(X)$ that last pushout reproduced the open subset $V$. In $PSh(X) = [Op(X)^{op}, Set]$ it instead reproduces the _sieve_ on $V$ generated by $U_1$ and $U_2$.
 
@@ -419,7 +419,7 @@ In the present simple example we worked with a cover given by just two objects $
 
 Namely, let's come back to the observation that the coproduct $Y(U_1) \amalg Y(U_2)$ does exist. Let's just call this presheaf $\mathbf{U}$. (not in general a [[representable functor|representable]]!).
 
-Then it is easy to see by the same kind of objectwise reasoning that the colimiting presheaf that we are after is equivalently the colimit over the pair of [[parallel morphism]]s
+Then it is easy to see by the same kind of objectwise reasoning that the colimiting presheaf that we are after is equivalently the colimit over the pair of [[parallel morphisms]]
 
 $$
   \mathbf{U} \times_{Y(V)} \mathbf{U}
@@ -477,7 +477,7 @@ $$
   \,.
 $$
 
-When one passes from just presheaves to [[(infinity,1)-presheaf|(infinity,1)-presheaves]], then [[cover]]ing presheaves will be given by the right kind of colimit over these [[simplicial object|simplicial]] diagrams (namely the [[homotopy limit|homotopy colimit]]). More on that is at [[descent]].
+When one passes from just presheaves to [[(∞,1)-presheaves]], then [[cover]]ing presheaves will be given by the right kind of colimit over these [[simplicial object|simplicial]] diagrams (namely the [[homotopy limit|homotopy colimit]]). More on that is at [[descent]].
 
 
 
@@ -549,13 +549,13 @@ and hence identifies $Hom(F,G)$ indeed as the set of [[descent]] data for the [[
 # Interpretation in terms of higher descent and codescent #
 
 
-This description contains in it the seed of its generalization from the context of [[sheaf|sheaves]] to that of [[descent]] for [[infinity-stack]]s. 
+This description contains in it the seed of its generalization from the context of [[sheaf|sheaves]] to that of [[descent]] for [[∞-stacks]]. 
 
 See also the discussion at [[Cech cover]].
 
 For $Y := \coprod_i U_i$ a cover, there is a [[simplicial presheaf]] $ Y_\bullet$ -- the [[Cech nerve]] of the cover -- that in degree $n$ is the $(n+1)$-fold [[fiber product]] $Y_n = Y^{[n+1]} = Y \times_X Y \times_X \cdots \times_X Y$.
 
-This may be regarded as an [[infinity-groupoid]] valued presheaf.
+This may be regarded as an [[∞-groupoid]] valued presheaf.
 
 More algebraically, with $\Pi(\Delta^n)$ the free [[strict omega-groupoid]] on the standard filtered $n$-[[simplex]], $Y_\bullet$ is the [[nerve]] of the groupoid
 
@@ -582,5 +582,5 @@ $$
 
 simply because all the higher morphism of $Codesc(Y)$ have to map to identity morphisms in $A$.
 
-
+[[!redirects sieves]]
 
