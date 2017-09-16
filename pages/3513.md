@@ -27,12 +27,12 @@ A morphism $f : X \to Y$ is
 * a weak equivalence if the induced morphism
 
   $$
-    X^{\triangleleft} \corpod_X S
+    X^{\triangleleft} \coprod_X S
     \to 
     Y^{\triangleleft} \coprod_Y S
   $$
 
-  is a weak equivalence is the Joyal [[model structure for quasi-categories]].
+  is a weak equivalence in the Joyal [[model structure for quasi-categories]], where $X^{\triangleleft}$ is the [[join of simplicial sets|joint]] ${*} \star X$.
 
 (def. 1.2.4.5)
 
