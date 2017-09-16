@@ -16,6 +16,8 @@ Euclid gave a proof of this identity in his <i>Elements</i>, as Proposition 10 o
 
 [[!include pentagon decagon hexagon identity/Euclid]]
 
+The line segment $A B$ is one edge of a pentagon inscribed in a circle centred at $F$, and $A K$ and $K B$ are edges of a decagon inscribed in the same circle.  Note that while $A B$ is bisected by $H$ and $A K$ is bisected by $L$, the point $N$ is _not_ a point of bisection of $A H$.
+
 Triangle $A B F$ is similar to triangle $B F N$.  So $\frac{A B}{B F}=\frac{B F}{F N}=\frac{B F}{B N}$, with the last equality true because the triangles are isosceles with $F N = B N$.  Thus ${B F}^2={A B}\cdot{B N}$.
 
 Triangle $B A K$ is similar to triangle $K A N$.  So $\frac{B A}{A K}=\frac{K A}{A N}$.  Thus ${A K}^2={A B}\cdot{A N}$.
@@ -36,6 +38,8 @@ We present two other proofs of the identity.  Both of these rely on a lemma conc
 The lemma states that in any isosceles triangle with angles of 72&deg;, 36&deg; and 72&deg;, the ratio of the long sides of the triangle to its base is $\Phi$, the golden ratio, which is defined as the unique positive solution of the equation:
 
 $$1+\frac{1}{\Phi}=\Phi$$
+
+Note that some authors call "the golden ratio" the reciprocal of the number we're calling $\Phi$.  For the purpose of this article, $\Phi=\frac{\sqrt{5}+1}{2}\approx 1.61803$.
 
 In the diagram above, triangle $B D E$ is similar to triangle $B E C$.  So:
 
@@ -61,6 +65,10 @@ square where the two red rectangles overlap, and that has area $4b^2$.
 Now if we subtract a single $t^2$, the light blue rectangle, then we're left with a square of side length $r$,
 thanks to the fact that $\Phi=1+1/\Phi$.  So $(2s)^2-t^2=r^2$, which is the pentagon-decagon-hexagon identity.
 
+The middle section of this proof is essentially a proof of the identity:
+
+$$\Phi^2+\frac{1}{\Phi^2}=3$$
+
 ##Proof from a construction on the icosahedron##
 
 [[!include pentagon decagon hexagon identity/icosahedron]]
@@ -70,7 +78,7 @@ which has the vertices $A$, $B$, $-A$ and $-B$ as its corners.  Where two vertic
 
 By construction, all vertices will be equidistant from the centre of symmetry, and it's not too hard to prove that all the edge lengths are equal.  (The edge lengths have been normalised to 1.)  So it's not difficult to see that we really do have an icosahedron here.
 
-The right triangle $O R P$ is similar to the right triangle $C A B$.  So $\frac{O R}{O P}=\Phi=\frac{C A}{C B}$.  So by the golden triangle lemma, $C B$ is the edge length of a decagon inscribed in a circle of radius $C A$.
+The right triangle $O R P$ is similar to the right triangle $C A B$.  So $\frac{C A}{C B}=\frac{O R}{O P}=\Phi$, with the last equality there by construction.  It follows from the golden triangle lemma that $C B$ is the edge length of a decagon inscribed in a circle of radius $C A$.
 
 But the five vertices that project onto the line $A P R$ form a regular pentagon inscribed in a circle of radius $C A$, and the edge length of that pentagon is $A B$.  So the right triangle $C A B$ constitutes a proof of the pentagon-decagon-hexagon identity.
 
@@ -78,7 +86,7 @@ But the five vertices that project onto the line $A P R$ form a regular pentagon
 
 * John Baez, [This Week's Finds in Mathematical Physics, Week 283](http://math.ucr.edu/home/baez/week283.html)
 
-* [n-Caf&eacute; discussion](http://golem.ph.utexas.edu/category/2009/11/this_weeks_finds_in_mathematic_44.html)
+* [n-Caf&eacute; discussion of TWF 283](http://golem.ph.utexas.edu/category/2009/11/this_weeks_finds_in_mathematic_44.html)
 
 * John Baez, [Some thoughts on the Number 6](http://math.ucr.edu/home/baez/six.html)
 
