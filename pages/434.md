@@ -20,4 +20,6 @@
 * [[internal logic]]
 * [[philosophy]]
 * [[predicative mathematics]]
+* [[pure set]]
+* [[set theory]]
 * [[truth value]]
