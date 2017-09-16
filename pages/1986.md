@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-30
 
+* [[Jon Awbrey]] added [[multigrade operator]] and [[parametric operator]].  Added the missing Figures to [[minimal negation operator]] but didn't know how to scale them here --- 80% or 500px would probably be good.
+
 *  [[Toby Bartels]]:  Edited [[nonstandard analysis]] a bit.  Grammatically, I changed 'infinitesimally small' to 'infinitesimal', which already means 'infinitely small' (in absolute value).
 
 
