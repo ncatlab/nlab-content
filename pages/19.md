@@ -97,7 +97,6 @@ But abstract nonsense still tends to meet with some resistance. In the preface o
 
 * Much of ordinary mathematics can be thought of as taking place [[internalization|inside]] the archetypical category [[Set]] of sets. In as far as any other category may be thought of as a generalization of $Set$, a category is a **[[universe]]** inside which mathematics may take place.
 
-
 * A theory of models for [[homotopy type]]s. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
 
 * A description of partial [[symmetry|symmetries]], in the sense that [[group]]s describe symmetries.
@@ -363,6 +362,18 @@ As for extending this correspondence to embrace other properties/structures/stuf
 
 _Toby_:  (Aside: Since the left adjoint returns the original category up to [[isomorphism of categories|isomorphism]], even some evil things can be so transported.)
 
+_Rafael_: Todd, i thought it was obvious that i was not talking about presheaves on $\Delta$ but about presheaves on a full subcategory of $\Delta$, and the presheaves satisfying some conditions. The thing is that it is a bit long to be spelled out precisely all the time. I would actually be glad if someone could write these conditions down, or at least give a reference where they are wrtten down.
+
+Now, unless the nerve functor defined on this specific symplectic full subcategory of $\Delta$ has an inverse the equivalence between these presheaves and categories break down. This equivalence was what i was really asking for, if it exist. If it don't exist i still don't see how these presheaves can be categories, since there must exist a 1-1 correspondence preserving categorical properties and categorical notions between Cat and these set valued presheaves on this simplicial cateory! Such as an equivalence of categories, no less. Perhaps one of the functors mentioned abowe can be modified so they become inverses. [[simplicial category]] think there is no such equivalence.
+
+Then there was previously some doubt if the nerve can be defined for large categories. I have heard both yes and no here.
+
+However i see the point of how to reconstruct a category from a simplicial set. And that every simplicial set can be "categorified" in the sense that objects become 0-simplexes, morphisms become 1-simplexes,... which is nice. By the way this functor needs a name. Now be careful with the terminology. You are suggesting that simplicial sets are these special Set valued presheaves on $\Delta$! What you mean is probably that these presheaves are equivalent to simplicial sets. So first this equivalence have to be proven. [[simplicial set]] suggest using the Yoneda lemma for the proof. How much this equivalence preserves is an issue, just as for the equivalence between Cat and these set valued presheaves on this special simplicial cateory discussed above. I am still thinking of a simplicial set as constructed out of simplicies. Why would i want to think of it as a presheaf? It might be easier if i knew that.
+
+A category also have a composition that must be preserved, what would it translate to for these presheaves?
+
+Now i remember what i didn't remember to write last time. Would it be ok to think of these presheaves as presentations of categories instead of as categories, since they are (so far supposed to be) equivalent to categories.
+Actually, the same for simplicial sets. Would it be ok to think of these presheaves as presentations of simplicial sets? This would be so much easier and clearer.
 =--
 
 +--{.query}
