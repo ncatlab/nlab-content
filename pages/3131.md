@@ -14,4 +14,6 @@ There are two kind of morphisms of noncartesian internal categories: functors an
 
 +--{: .query}
 [[David Roberts]]: I think Ross Street and the other Australian category theorists call this a quantum category - I did go to a talk once, but my notes are elsewhere.
+
+[[David Roberts]]: It has been pointed out to me by Jeff Egger that this is incorrect, in that quantum categories as defined by the Australian school are generalisations of bimonoids/bialgebras, whereas internal categories generalise monoids (via horizontal categorification). Hmm, I wasn't paying attention in that talk as much as I thought I was.
 =--
