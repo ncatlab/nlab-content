@@ -15,6 +15,9 @@ An $(n,r)$-category is a [[higher category theory|higher category]] such that, e
 
 So $(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]] and $n$-[[n-groupoid|groupoids]], covering all of the ground in between (and a bit beyond). As $n$ increases, there are many more possibilities, until there are infinitely many kinds of $(\infty,r)$-[[(infinity,n)-category|categories]].
 
++--{.query}
+[[Eric]]: What is the category of all (small) $(n,r)$-categories? An $(n+1,r+1)$-category?
+=--
 
 # Definition
 
