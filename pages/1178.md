@@ -34,7 +34,14 @@ A further large part of mathematics is concerned not just with sets, but with se
 
 If [[set theory]] is really the [[ETCS|elementary theory of the category of sets]], then what is [[homotopy theory]], really, in this sense? The answer to this is supposed to be: the theory of the [[(infinity,1)-category]] [[Top]] of topological spaces.
 
-And the entire discussion for the 1-category [[Set]] above then has its analogs for the [[(infinity,1)-category]] [[Top]]. In particular, [[Top]] is an [[(infinity,1)-category]] which happens to be the archetypical example of an [[(infinity,1)-topos]]. This means that once one understans constructions in [[homotopy theory]] as $(\infty,1)$-categorical constructions, they tend to generalize to the wider contexts of other other [[(infinity,1)-topos|(infinity,1)-topoi]].
+And the entire discussion for the 1-category [[Set]] above then has its analogs for the [[(infinity,1)-category]] [[Top]]. In particular, [[Top]] is an [[(infinity,1)-category]] which happens to be the archetypical example of an [[(infinity,1)-topos]]. This means that once one understands constructions in [[homotopy theory]] as $(\infty,1)$-categorical constructions, they tend to generalize to the wider contexts of other other [[(infinity,1)-topos|(infinity,1)-topoi]].
+
+
++--{+ .query}
+
+_David_ : Just as not all reasoning in the topos [[Set]] carries over to other toposes, what can be said of the reasoning in [[Top]] that does/does not work in other (infinity, 1)-toposes?
+
+=--
 
 ## side remark: relation to more general $\infty$-categories ##
 
@@ -44,13 +51,13 @@ At this point the natural question is:
 
 This has a good but somewhat more technical answer:
 
-the problem of defining higher categories is the problem of defining the right coherence laws -- associators, pentagonators and so forth. But even if the higher category in question is not groupoidal, i.e. is [[directed object|directed]], the coherence cells will be equivalences, i.e. weakly invertivle cells. So the problem of controlling coherence laws is a problem of $(\infty,0)$-categorical nature. 
+the problem of defining higher categories is the problem of defining the right coherence laws -- associators, pentagonators and so forth. But even if the higher category in question is not groupoidal, i.e. is [[directed object|directed]], the coherence cells will be equivalences, i.e. weakly invertible cells. So the problem of controlling coherence laws is a problem of $(\infty,0)$-categorical nature. 
 
 For this reason it is useful to first go to infinit cell degree with just the invertible cells, and  only after that start increasing the degree of the non-invertible cells. 
 
 Concretely, we have the following useful constructions for $(\infty,1)$-categories:
 
-* there is a simple definition of the [[(infinity,1)-category of (infinity,1)-categories]]. This should be the $(\infty,1)$-subcategory on all invertible 2-cells (transformations of $(\infty,1)$-functors) of the [[(infinity,2)-category of (infinity,1)-categories]], which has a more involved definition, but the point is that the $(\infty,1)$-category of all $(\infty,1)$-categories is allready quite sufficient for many constructions. 
+* there is a simple definition of the [[(infinity,1)-category of (infinity,1)-categories]]. This should be the $(\infty,1)$-subcategory on all invertible 2-cells (transformations of $(\infty,1)$-functors) of the [[(infinity,2)-category of (infinity,1)-categories]], which has a more involved definition, but the point is that the $(\infty,1)$-category of all $(\infty,1)$-categories is already quite sufficient for many constructions. 
 
 * there is a simple iterative definition of [[(infinity,n)-category]] by an iterative weak enrichment in $(\infty,n-1)$-categories, again precisely due to the presence of invertible cells in all degrees, which allows to say what a [[homotopy limit]] of $(\infty,n-1)$-categories is, as enters for instance in the definition of [[complete Segal space]].
 
@@ -64,13 +71,13 @@ This for instance yields a unified picture of [[cohomology]]: in [[Top]] the coh
 
 More details on the heuristics of this are at [[heuristic introduction to sheaves, cohomology and higher stacks]].
 
-Notably in the "abelian" or "stable" case, where the objects of the [[(infinity,1)-category]] don't just behave like [[topological space]]s, but like [[spectrum|spectra]] this allows to subsume central developments in [[homological algebra]] in a simple pattern:
+Notably in the "abelian" or "stable" case, where the objects of the [[(infinity,1)-category]] don't just behave like [[topological space]]s but like [[spectrum|spectra]], this allows to subsume central developments in [[homological algebra]] in a simple pattern:
 
-in its modern form [[homological algebra]] is about [[derived category|derived]] [[triangulated category|triangulated categories]]. But unfortunately the axioms of a [[triangulated category]] are a bit unwieldy, which is not just a practicial nuisance but leads to bad behaviour of the general theory of these categories. But then it turns out that most triangulated categories that arise in practice are nothing but the 1-categorical shadow of what is called  a [[stable (infinity,1)-category]] (the [[homotopy category of an (infinity,1)-category|homotopy category of a stable (infinity,1)-category]]): an $(\infty,1)$-category in which each object is "stable"/"abelian" -- and moreover the definition of [[stable (infinity,1)-category]] is short and simple and obvious. The awkward axioms of [[triangulated category|triangulated categories]] follow from these simple laws by forcing them into the 1-categorical version.
+in its modern form [[homological algebra]] is about [[derived category|derived]] [[triangulated category|triangulated categories]]. But unfortunately the axioms of a [[triangulated category]] are a bit unwieldy, which is not just a practical nuisance but leads to bad behaviour of the general theory of these categories. But then it turns out that most triangulated categories that arise in practice are nothing but the 1-categorical shadow of what is called  a [[stable (infinity,1)-category]] (the [[homotopy category of an (infinity,1)-category|homotopy category of a stable (infinity,1)-category]]): an $(\infty,1)$-category in which each object is "stable"/"abelian" -- and moreover the definition of [[stable (infinity,1)-category]] is short and simple and obvious. The awkward axioms of [[triangulated category|triangulated categories]] follow from these simple laws by forcing them into the 1-categorical version.
 
 ## new possibilities ##
 
-Natural language is never just a value in its own right, but always the potential to achieve new things which are literally unthinakble without this language.
+Natural language is never just a value in its own right, but always the potential to achieve new things which are literally unthinkable without this language.
 
 The identification of a coherent framework of $(\infty,1)$-categories is rapidly leading to a wealth of new developments in areas where [[infinity-category]] theory has long been expected to be crucial, but never quite lived up to the status of a useful well-developed tool that would allow to go beyond its own introspection.
 
