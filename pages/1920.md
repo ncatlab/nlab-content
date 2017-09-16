@@ -28,3 +28,13 @@ $$\array{
 T X & \overset{m X}{\leftarrow} & T T X & & & & T Y & & & & Z}$$
 
 A $T$**-multicategory** in $V$ is by definition a monad in the bicategory described above. 
+
+
+## References
+
+*  G.S.H. Cruttwell and [[Mike Shulman]]; [A unified framework for generalized multicategories](http://arxiv.org/abs/0907.2460)
+
+
+[[!redirects generalized multicategories]]
+[[!redirects generalised multicategory]]
+[[!redirects generalised multicategories]]
