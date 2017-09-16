@@ -9,6 +9,8 @@ The **fundamental groupoid** of a space $X$ is a [[groupoid]] whose objects are 
 The **fundamental groupoid** $\pi_1(X)$ of a topological space  $X$ is the [[groupoid]] whose set of objects is $X$ and whose morphism from $x$ to $y$ are the homotopy-classes $[\gamma]$ of continuous maps $\gamma : [0,1] \to X$ whose endpoints map to $x$ and $y$ (which the homotopies are required to fix). Composition is by concatenation of representative maps. Under the [[homotopy]]-[[equivalence relation]] this becomes an associative and unital composition with respect to which every morphism has an inverse.
 
 
+
+
 #Remarks#
 
 * For any $x$ in $X$ the first homotopy group $\pi_1(X,x)$ of $X$ based at $X$ arises as the [[automorphism group]] of $x$ in $\Pi_1(X)$:
@@ -16,7 +18,12 @@ $$
   \pi_1(X,x) = Aut_{\Pi_1(X)}(x)
   \,.
 $$
-So the fundamental groupoid is an improvement on the idea of the fundamental group, which gets rid of the choice of basepoint.
+So the fundamental groupoid is an improvement on the idea of the fundamental group, which gets rid of the choice of basepoint. The set of connected components of $\pi_1(X)$ is precisely the set $\pi_0(X)$ of path-components of $X$ (not to be confused with the set of connected components of $X$, sometimes denoted by the same symbol).
+
+* The fundamental groupoid $\pi_1(X)$ can be made into a topological groupoid (i.e. a groupoid internal to $Top$) by noticing the set of objects is just the space $X$, and the set of arrows is just the quotient of the path space $X^I$ with the compact-open topology. The source, target, unit and composition maps arise from $ev_0,ev_1:X^I \to X$, $const:X \to X^I$ and concatenation of paths $X^I \times_X X^I \to X^I$. When $X$ is path-connected, locally path-connected and semi-locally simply connected the source fibre at an object of this topological groupoid is a universal [[covering space]], with projection the restriction of the target map. 
+
+* When $X$ is not semi-locally simply connected, the  fundamental group inherits a non-discrete topology from $\pi_1(X)$, which is an obstruction to the above-mentioned source fibre being a covering space.  When $X$ is not locally path-connected, $\pi_0(X)$ inherits a non-discrete topology from $\pi_1(X)$. In circumstances like these more sophisticated methods would be appropriate, such as [[shape theory]].
+
 
 * An improvement on this relevant to the [[van Kampen theorem]] for computing the fundamental group or groupoid is to take $\pi_1(X,A)$, namely the full subgroupoid of $\pi_1(X)$ on a set $A$ of base points, chosen according to the geometry at hand. Thus if $X$ is the union of two open sets $U,V$ with intersection $W$ then we can take $A$ large enough to meet each path-component of $U,V,W$. If $X$ has an action of a group $G$ then $G$ acts on $\pi_1(X,A)$ if $A$ is a union of orbits of the action.  
 
