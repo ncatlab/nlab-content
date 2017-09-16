@@ -5,35 +5,22 @@
 
 ## Definition
 
-For a given [[geometric theory]] $T$, a **classifying [[topos]]** for $T$ is a [[Grothendieck topos]] $S[T]$ equipped with a "universal model $U$ of $T$".  
+For a given [[geometric theory]] $T$, a **classifying [[topos]]** for $T$ is a [[Grothendieck topos]] $S[T]$ equipped with a "universal model $U$ of $T$".  This means that for any Grothendieck topos $E$ together with a model $X$ of $T$ in $E$, there exists a unique (up to isomorphism) [[geometric morphism]] $f: E \to S[T]$ such that $f^*$ maps the $T$-model $U$ to the model $X$.  More precisely, for any Grothendieck topos $E$, the category of $T$-models in $E$ is equivalent to the category of geometric morphisms $E \to S[T]$.
 
-
-> [[Urs  Schreiber|Urs]]: check if the following sentence is correct:
-
-If $C_T$ is the syntactic category of $T$ then this universal model is a certain  functor
-
+If $C_T$ is the [[syntactic category]] of $T$, so that $T$-models are the same as [[geometric category|geometric functors]] out of $C_T$, then this universal model can be identified with a certain geometric functor
 $$
   U : C_T \to S[T]
   \,.
 $$
-
-This means that for any Grothendieck topos $E$ together with a model $X$ of $T$ in $E$, there exists a unique (up to isomorphism) [[geometric morphism]] $f: E \to S[T]$ such that $f^*$ maps the $T$-model $U$ to the model $X$.  More precisely, for any Grothendieck topos $E$, the category of $T$-models in $E$ is equivalent to the category of geometric morphisms $E \to S[T]$.
-
-> [[Urs  Schreiber|Urs]]: check if the following sentence is correct:
-
-Again, in terms of functors on syntactic categories this means that every model
-
+Its universality property means that any geometric functor
 $$
   X : C_T \to E
 $$
-
-factors uniquely as
-
+factors essentially uniquely as
 $$
   X : C_T \stackrel{U}{\to} S[T] \stackrel{f^*}{\to} E
 $$
-
-for $U$ the universal model and $f^*$ the [[left adjoint]] part of a [[geometric morphism]].
+for $U$ the universal model and $f^*$ the [[left adjoint]] part of a [[geometric morphism]].  More precisely, composition with $U$ defines an equivalence between the category of geometric morphisms $E\to S[T]$ and the category of geometric functors $C_T\to E$.
 
 Classifying toposes can also be defined over any base topos $S$ instead of [[Set]].  In that case "Grothendieck topos" is replaced by "bounded $S$-topos."
 
