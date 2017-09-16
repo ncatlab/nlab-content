@@ -12,7 +12,7 @@ Noncommutative algebraic geometry extends the [[algebraic geometry|algebraic geo
 
 ## relation to noncommutative geometry a la Connes ##
 
-Noncommutative algebraic geometry is just a subfield of [[noncommutative geometry]]. Among prominent other subfields, the most influential is the direction lead by [[Alain Connes]]. 
+Noncommutative algebraic geometry may be considered a subfield of general [[noncommutative geometry]]. Among prominent other subfields, the most influential is the direction lead by [[Alain Connes]]. 
 
 In Connes' noncommutative geometry the algebras in question are [[operator algebras]] viewed as algebras of continuous, smooth or measurable functions or more general continuous global sections. There it is customary and sufficient to describe a space globally by a single algebra: 
 no need for sheaves and gluing local descriptions.
@@ -76,4 +76,4 @@ version of the degeneration of Hodge-to-de Rham [[spectral sequence]], conjectur
 
 * F. van Oystaeyen, _Algebraic geometry for associative algebras_, Marcel Dekker 2000. vi+287 pp.
 
-* S. Mahantga, _On some approaches towards non-commutative algebraic geometry_, [math.QA/0501166](http://arxiv.org/abs/math/0501166)
+* S. Mahanta, _On some approaches towards non-commutative algebraic geometry_, [math.QA/0501166](http://arxiv.org/abs/math/0501166)
