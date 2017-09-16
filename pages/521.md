@@ -33,7 +33,7 @@ $$
 $$
 in [[Cat]], where
 
-* $I$ is the [[interval category]];
+* $I$ is the [[interval category]] $\{0 \to 1\}$;
 
 * $[I,C]$ is the [[closed monoidal category|internal hom]] in [[Cat]], which here is the [[arrow category]] $Arr(C)$;
 
