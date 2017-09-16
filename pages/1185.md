@@ -90,14 +90,14 @@ This order relation is [[antisymmetric relation|antisymmetric]] (and therefore a
 
 The well-ordered cardinals are [[well-order|well-ordered]] by the ordering $\lt$ on [[ordinal number]]s.  Assuming the [[axiom of choice]], this agrees with the previous order in the sense that $\kappa \leq \lambda$ iff $\kappa \lt \lambda$ or $\kappa = \lambda$.  Another definition is to define that $\kappa \lt \lambda$ if $\kappa^+ \leq \lambda$, using the successor operation below.
 
-The __[[successor]]__ of a well-ordered cardinal $\kappa$ is the smallest well-ordered cardinal larger than $\kappa$.  Note that (except for finite cardinals), this is different from $\kappa$\'s successor as an [[ordinal number]].
+The __[[successor]]__ of a well-ordered cardinal $\kappa$ is the smallest well-ordered cardinal larger than $\kappa$.  Note that (except for finite cardinals), this is different from $\kappa$\'s successor as an [[ordinal number]].  We can also take successors of arbitrary cardinals using the operation of [[Hartog's number]], although this won\'t quite have the properties that we want of a successor without the axiom of choice.
 
 
 # Properties #
 
 * It is traditional to write $\aleph_0$ for the first infinite cardinal (the cardinality of the natural numbers), $\aleph_1$ for the next (the first uncountable cardinality), and so on.  In this way every cardinal (assuming choice) is labeled $\aleph_\mu$ for a unique [[ordinal number]] $\mu$, with $(\aleph_\mu))^+ = \aleph_{\mu+1}$.
 
-* For every cardinal $\pi$, we have $2^\pi \gt \pi$ (this is sometimes called "Cantor's theorem").  The question of whether $2^{\aleph_n} = \aleph_{n+1}$ is called the [[continuum hypothesis]].
+* For every cardinal $\pi$, we have $2^\pi \gt \pi$ (this is sometimes called [[Cantor's theorem]]).  The question of whether $2^{\aleph_n} = \aleph_{n+1}$ is called the [[continuum hypothesis]].
 
 * For every transfinite cardinal $\pi$ we have $\pi+\pi = \pi$ and $\pi \cdot \pi = \pi$.
 
