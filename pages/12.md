@@ -356,10 +356,11 @@ _Toby_:  What is the purpose of the timeline?  If it\'s to know when things were
 $4$ Cartan Seminaire writing up sheaf theory in 1948 for the first time
 
 +--{.query}
-Zoran: this is [CartanSem 1948-1949](http://www.numdam.org/numdam-bin/feuilleter?id=SHC_1948-1949__1__). I see no sheaf theory explicitly introduced. 
+Zoran: this is [CartanSem 1948-1949](http://www.numdam.org/numdam-bin/feuilleter?id=SHC_1948-1949__1_). I see no sheaf theory explicitly introduced. 
 
 _Rafael_: I don't see anything there, the page is missing. In this case i have a [reference](http://en.wikipedia.org/wiki/Sheaf_theory) i trusted. Where this author have his reference i have no idea.
 
+Zoran: oops one character too long, try [again](http://www.numdam.org/numdam-bin/feuilleter?id=SHC_1948-1949__1_)
 =--
 
 
