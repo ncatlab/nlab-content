@@ -9,7 +9,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-26
 
-*  [[Todd Trimble]] wrote [[generalized multicategory]].
+*  [[Todd Trimble]] wrote [[generalized multicategory]], and added a reference at [[Crans-Gray tensor product]] to Sjoerd Crans's papers. Guessed that his papers on teisi might be relevant to an inquiry Mike Shulman made there. 
 
 *  [[Toby Bartels]] wrote [[separation axioms]] (and a stub at [[disjoint sets]]).
 
