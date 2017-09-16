@@ -48,7 +48,9 @@ be $\infty$-[[differentiable stacks]] if one considers
 A Grothendieck--Rezk--Lurie **$(\infty,1)$-topos** is an [[(∞,1)-category]] $X$ satisfying the following equivalent conditions:
  
 
-* $X$ is an [[(∞,1)-category of (∞,1)-sheaves]]: in other words, there exists a small [[(∞,1)-category]] $S$ and an accessible left [[exact (infinity,1)-functor|exact]] [[(∞,1)-functor]] $\bar {(-)} : PSh(S) \to X$
+* $X$ is an [[(∞,1)-category of (∞,1)-sheaves]] (meaning: of [[∞-stack]]s): 
+
+  there exists a small [[(∞,1)-category]] $S$ and an accessible left [[exact (infinity,1)-functor|exact]] [[(∞,1)-functor]] $\bar {(-)} : PSh(S) \to X$
 from [[(∞,1)-presheaves]] on $X$, which has a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]].
 
 * $X$ satisfies the $(\infty,1)$-categorical analogs of [[Giraud's axioms]]:
@@ -56,6 +58,14 @@ from [[(∞,1)-presheaves]] on $X$, which has a [[(infinity,1)-fully faithful fu
   * [[limit in quasi-categories|(∞,1)-colimits]] in $X$ are universal;
   * [[coproduct]]s in $X$ are [[disjoint coproduct|disjoint]];
   * every [[groupoid object in an (infinity,1)-category|groupoid object]] in $X$ is [[quotient object|effective]] (i.e. has a [[delooping]]). 
+
+The equivalence of these two characterizations is one of the main theorems of [[Higher Topos Theory|HTT]].
+
+# Models #
+
+Another main theorem about $(\infty,1)$-toposes is that
+[[models for infinity-stack (infinity,1)-toposes]] are given by the [[model structure on simplicial presheaves]].
+
 
 #References#
 
