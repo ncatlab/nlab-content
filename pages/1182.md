@@ -127,20 +127,149 @@ The following is supposed to going to be a list of linked keywords corresponding
 
 ## Integral Transforms ##
 
+### 1. Introduction ###
 
-### Preliminaries ###
 
-#### $\infty$-categories ####
-
-* [[why (infinity,1)-categories?]]
-
-* [[Higher Topos Theory]]
-
-* [[schreiber:Journal Club -- (infinity,1)-Categories|Journal Club -- (infinity,1)-Categories]]
+#### 1.1 Perfect stacks ####
 
 * [[ind-object]]
 
   * [[ind-object in an (infinity,1)-category]]
+
+  * [[compact object]]
+
+
+#### 1.2 Tensors and functors ####
+
+* [[geometric function theory]]
+
+* [[groupoidification]]
+
+
+#### 1.3 Centers and traces ####
+
+* [[span trace]]
+
+* [[co-span co-trace]]
+
+* [[loop space object]]
+
+  * [[homotopy limit]]
+
+#### 1.4 Hecke categories ####
+
+#### 1.5 Topological  field theory ####
+
+* [[FQFT]]
+
+* [[sigma-model]]
+
+
+### 2. Preliminaries ###
+
+#### 2. $\infty$-categories ####
+
+The [[infinity-category|infinity-categories]] that we are dealing with here are 
+
+* [[(infinity,1)-category|(infinity,1)-categories]].
+
+There are several reasons for 
+
+* [[why (infinity,1)-categories?]]
+
+in the present context, the main one being that they allow to make precise the ideas summarized in the
+
+* [[heuristic introduction to sheaves, cohomology and higher stacks]].
+
+
+In principle one will want to eventually understand [[geometric function theory]] in the context of more general [[higher category theory]], in particular for [[(infinity,n)-category|(infinity,1)-categories]], but a great deal is already gained by just (hah!) looking at [[(infinity,1)-category|(infinity,1)-categories]] -- not the least because (only) for them a well-developed theory exists, developed by [[Andre Joyal]] and further developed by [[Jacob Lurie]]:
+
+* [[Higher Topos Theory]]
+
+This subsumes and unifies notably a wealth of more-or-less ad-hoc constructions that have been known for a bit longer. In particular the theory of [[model category|model categories]] is realized as a way to, well, model $(\infty,1)$-categories:
+
+In particular every
+
+* [[simplicial model category]]
+
+is naturally a 
+
+* [[presentable (infinity,1)-category|presentation of an (infinity,1)-category]].
+
+##### Enhancing triangulated categories ####
+
+The aim of _geometric $\infty$-function theory_ is to develop a good $\infty$-categorical generalization of the simple notion of 
+
+* _sets of functions on spaces_ 
+
+to 
+
+* "$\infty$-categories of $\infty$-functions" on "$(\infty)$-spaces" 
+
+essentially following the general philosophy of [[space and quantity]].
+
+Whatever the answer is, the collection of such $\infty$-functions should be
+
+* abelian
+
+and
+
+* monoidal
+
+in a suitable sense. 
+
+From various examples it has become clear that the right [[vertical categorification]] of a function $X \to \mathbb{C}$ is a [[functor]] $X \to Vect_{\mathbb{C}}$, which -- if sufficiently well behaved -- we may regard as a vector bundle on $X$.
+
+Indeed, just as functions $[X,\mathbb{C}]$ form a vector space, functors $[X, Vect_{\mathbb{C}}]$ naturally form a [[2-vector space]].
+
+Such a 2-vector space is in particular an [[abelian category]]. This is one of the ways in which we expect $\infty$-functions to form an _abelian_ collection. 
+
+Experience shows that the right (or at least a very good) $\infty$-[[vertical categorification]] of [[abelian category]] is a
+
+* [[stable (infinity,1)-category]].
+  
+It turns out that just as [[model category|model categories]] and related [[homotopical categor|homotopical categories]] are best thought of as, well, _models_ for $(\infty,1)$-categories, so various constructions in [[homological algebra]] -- and in the end really all of modern homological algebra -- is best thought of as models for [[stable (infinity,1)-category|stable (infinity,1)-categories]].
+
+This concerns notably
+
+* [[A-infinity category|A-infinity categoires]]
+
+and
+
+* [[pretriangulated dg-category|pretriangulated dg-categoires]]
+
+which, in turn, are already [[enhanced triangulated category|enhanced]] [[triangulated category|triangulated categories]]: namely [[differential graded category|dg]]-[[enriched category|enriched]] versions thereof.
+
+At this point you are urged to really have a look at the entry on [[stable (infinity,1)-category]] and marvel about the fact that 
+
+* **the definition of stable $(\infty,1)$-category is short, simple and transparant**.
+
+It's the most obvious thing in the world. And yet, it turns out that the rather involved definitions of [[derived category|derived]] [[triangulated category]] follow from this simple definition when one decides to look at just the 1-categorical shadow given by the [[homotopy category of an (infinity,1)-category|homotopy category of the stable (infinity,1)-category]].
+
+This is a general pattern here:
+
+* $(\infty,1)$-categorical notions -- and in particular [[quasi-category|quasi-categorical]] notions are _conceptually_ simple and lend themselves to the formulation and description of higher categorical situations;
+
+* but for concrete constructions in terms of them there is a wealth of tools with different areas of applicability, many of which have been understood and developed as theories in their own right.
+
+
+
+#### monoidal $\infty$-categories ####
+
+* recall
+
+  * [[monoidal category]]
+ 
+  * [[symmetric monoidal category]]
+
+now consider
+
+* [[monoidal (infinity,1)-category]]
+
+* [[symmetric monoidal (infinity,1)-category]]
+
+
+
 
 #### basic ideas related to $\infty$-stacks ####
 
@@ -356,22 +485,23 @@ Morphisms from the [[fundamental infinity-groupoid]] are also called [[local sys
 
 
 
-#### monoidal $\infty$-categories ####
-
-#### derived algebraic geometry ####
-
-#### derived loop spaces ####
+#### 2.4 derived loop spaces ####
 
 * [[homotopy limit]]
 
 * [[loop space object]]
 
-#### $E_n$-structures ####
+* [[constant infinity-stack]]
+
+
+#### 2.5 $E_n$-structures ####
 
 * [[operad]]
 
+  * [[category over an operad]]
 
-### perfect stacks ###
+
+### 3. perfect stacks ###
 
 * [[(infinity,1)-category of (infinity,1)-sheaves]]
 
