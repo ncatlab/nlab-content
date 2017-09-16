@@ -117,15 +117,14 @@ is an isomorphism and we have $(g f)^{-1}=f^{-1}g^{-1}$.
 
 ## Examples
 
-* A map $f:S\to T$ in the category [[Set]] invertible iff it is
+* In the category of sets [[Set]], a map $f:S\to T$ is invertible iff it is
 _bijective_. 
 
-* An isomorphism in the category [[Top]] is said to be a _homeomorphism_.
+* In the category [[Top]], an isomorphism is said to be a _homeomorphism_.
 
 * The isomorphisms of a category $C$ are closed under composition.
 They form a category $Iso(C)$ having the same objects as $C$. The
 category $Iso(C)$ is a groupoid. 
-
 
 
 * **Group** A [[group]] is a groupoid with a single object.
@@ -135,7 +134,79 @@ In fact, groupoids are the [[horizontal categorification|many object version]] o
 
 ## Definition
 
-* 
+* The _opposite_ of a category $C$ is the cateory $C^o$ obtained
+by formally reversing the direction of the arrows of $C$. 
+It is sometime useful to make a distinction between the objects
+of $C$ and of $C^o$ by denoting $a^o\in C^o$ the object which corresponds
+to an object $a\in C$, and by denoting $f^o\in C^o(b^o,a^o)$
+the arrow which corresponds to an arrow $f\in C(a,b)$.
+If $f\in C(a,b)$ and $g\in C(b,c)$ then
+the composite of $g^o\in C(c^o,b^o)$ with $f^o\in C(b^o,a^o)$ is defined 
+to be the arrow $(g f)^o\in C^o(c^o,a^o)$. Thus $f^o g^o:=(g f)^o$.
+
+
+
+##Definition##
+
+A _functor_ $F$ from a [[category]] $C$ to a category $D$ is a map sending each [[object]] $x \in C$ to an object $F(x) \in D$ and each [[morphism]] $f : x \to y$ in $C$ to morphism $F(f) : F(x) \to F(y)$ in $D$, such that
+
+* $F$ preserves [[composition]]: $F(f g) = F(f) F(g)$ whenever the left-hand side is well-defined,
+
+* $F$ preserves [[identity morphisms]]: for each object $x \in X$, $F(1_x) = 1_{F(x)}$.
+
+## Examples
+
+
+##Examples ## 
+
+
+### morphisms of monoids and groups ###
+
+For $A,B$ [[monoid]]s or $G, H$ [[group]]s, let $\mathbf{B}A, \mathbf{B}B$, $\mathbf{B}G$, $\mathbf{B}H$ be the corresponding obe-object [[category|categories]] (as described at [[delooping]]). Then functors
+
+$$
+  \mathbf{B}A \to \mathbf{B}B
+$$
+
+are canonically in bijection with monoid homomorphisms $A \to B$ and accordingly functors
+
+$$
+  \mathbf{B}G \to \mathbf{B}H
+$$
+
+are canonically in bijection with group homomorphisms $G \to H$.
+
+
+### Representations ###
+
+With $\mathbf{B}G$ as above, functors on $\mathbf{B}G$ with values in [[Vect]] are the same as linear [[representation]]s of the [[group]] $G$. In fact, we have a canonical isomorphism of categories
+
+$$
+  Funct(\mathbf{B}G, Vect) \simeq Rep(G)
+$$
+
+of the [[functor category]] with the representation category.
+
+
+
+
+## Special properties ##
+
+Functors with special properties are important in applications. See for instance
+
+
+
+* [[full functor]]
+
+* [[faithful functor]]
+
+* [[fully faithful functor]]
+
+* [[essentially surjective functor]]
+
+##Definition##
+
+The functors between two categories $C$ and $D$ form themselves a category, the [[functor category]] $[C,D]$, whose morphisms are [[natural transformations]]. Equipped with these functor categories as [[hom-object]]s, we have a $2$-[[2-category|category]] [[Cat]] of categories, functors and natural transformations.  In other words, functors are [[morphisms]] in $Cat$.
 
 ##Reference
 
