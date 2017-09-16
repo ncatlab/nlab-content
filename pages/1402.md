@@ -1,3 +1,2 @@
-See [[full and faithful functor]].
-
-category: delete
+&lt; [[fully faithful functor]]
+[[!redirects fully faithful functor -- history]]
