@@ -17,9 +17,6 @@ Here $\leq$ is the internal [[partial order]] on $\Omega$, and $\wedge: \Omega \
 
 Given any [[subobject]] inclusion $X \hookrightarrow Y$ in $E$, consider its [[characteristic morphism]] $\chi_X: Y \to \Omega$. Then $\chi_X \circ j$ is another morphism $Y \to \Omega$, which defines another subobject $j_*(X)$ of $Y$. The elements of $j_*(X)$ are those elements of $Y$ that are 'locally' in $X$.
 
-# Sheaves
-
-... how to tell if an object of $E$ is a sheaf ... iff it is uniquely defined when consistently 'locally' defined ...
 
 # Equivalence with Grothendieck topologies
 
@@ -43,3 +40,51 @@ $$j \in \hom_E(\Omega, \Omega)$$
 which is just the Lawvere-Tierney operator $j: \Omega \to \Omega$.
 
 Conversely, any morphism $j:\Omega\to\Omega$ determines a subobject $J$ of $\Omega$, which therefore associates to every object $c$ a set of sieves on $c$.  It is easy to check that the axioms for covering sieves in a Grothendieck topology correspond exactly to the required properties of the operator $j$.
+
+
+
+
+#Sheaves#
+
+Using Lawvere-Tierney topologies, 
+the notion of [[sheaf]] and [[sheafification]] generalizes from [[Grothendieck topos|Grothendieck topoi]] to arbitrary topoi. 
+
+Technically this is achieved essentially by replaxing [[local isomorphism]]s everywhere with [[dense monomorphism]]s.
+
+If $E = PSh(S)$ is a [[presheaf]] [[Grothendieck topos]] for a [[site]] $S$ regarded as a [[topos]] with Lawvere-Tierney topology and hence equipped with a notion of [[dense monomorphism]]s, then 
+a [[presheaf]] $F \in PSh(S)$ is a [[sheaf]] with respect to the given topology precisely if 
+$$
+  Hom_{PSh(S)}(-, F)
+  : PSh(S)^{op} \to Set
+$$ 
+sends all [[dense monomorphism]]s to [[isomorphism]]s.
+
+This condition clearly makes sense for every topos with Lawvere-Tierney topology.
+
+
+## Sheafification ##
+
+By using [[dense monomorphism]]s in place of [[local isomorphism]]s, this induces a notion of [[sheafification]] on an arbitrary [[topos]] $E$ with [[Lawvere-Tierney topology]].
+
+This sheafification is a [[functor]] 
+
+$$
+  \bar {(-)} : E \to Sh(E)
+$$
+
+to the [[subcategory]] $i : Sh(E) \hookrightarrow E$ of objects local with respect to [[dense monomorphism]]s which is
+
+* [[exact functor|left exact]] (commutes with all small limits);
+
+* [[left adjoint]] to $i$.
+
+In the case that $E = PSh(S)$ and the Lawvere-Tierney topology is that corresponding to a Grothendieck topology on $S$, the two notions of [[sheafification]] coincide.
+
+
+#References#
+
+Lawvere-Tierney topologies are discussed in section V.1 of
+
+* MacLane, Moerdijk, [[Sheaves in Geometry and Logic]]
+
+the notion of sheaves in section V.3, the sheafification functor in section V.3 and the relation to Grothendieck topologies in section V.4.
