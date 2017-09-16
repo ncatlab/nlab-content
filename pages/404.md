@@ -1,20 +1,20 @@
 #Definition#
 
-For $C$ any [[category]], its _arrow category_ is the [[functor category]]
+For $C$ any [[category]], its **arrow category** is the [[functor category]]
 
 $$
   Arr(C) := Funct(I,C)
 $$
 
-for $I = \{a \to b\}$ the [[category]] with two objects and with one single non-trivial morphism going between these objects (a combinatorial model for the interval, indeed, the directed [[interval object]] in [[Cat]]).  $Arr(C)$ is also written $[\mathbf{2},C]$ or $C^{\mathbf{2}}$, since **[[2]]** is a common [[notation]] for the category $I$ (it is the [[ordinal number]] $2$ regarded as a category).
+for $I$ the [[interval category]].  $Arr(C)$ is also written $[\mathbf{2},C]$ or $C^{\mathbf{2}}$, since **[[2]]** is a common [[notation]] for the interval category.
 
 #Remarks#
 
-* This means that the [[object]]s of $Arr(C)$ are the [[morphism]]s (the "arrows", therefore the name) of $C$, while the [[morphism]]s of $Arr(C)$ are commuting square [[diagram]]s in $C$. 
+* This means that the [[objects]] of $Arr(C)$ are the [[morphisms]] (the "arrows", therefore the name) of $C$, while the [[morphisms]] of $Arr(C)$ are commuting square [[diagrams]] in $C$. 
 
 * $Arr(C)$ plays the role of a directed [[homotopy|path object]] for categories in that functors
 $$
   X \to Arr(Y)
 $$
-are the same as [[natural transformation|natural transformations]] between functors between $X$ and $Y$.
+are the same as [[natural transformations]] between functors between $X$ and $Y$.
 
