@@ -274,5 +274,6 @@ _Toby_:  Thanks, Urs, that\'s great!
 
 
 [[!redirects graph of a relation]]
-[[!redirects cograph]]
 [[!redirects cograph of a function]]
+[[!redirects cograph]]
+[[!redirects Cograph]]
