@@ -26,3 +26,5 @@ Replacing "finite" by "of cardinality less than $\kappa$" everywhere, for some [
 * [[Set]], Graph, [[Pos]], [[Cat]], [[Ab]] are all lfp.
 
 * [[Top]], [[FinSet]] are not lfp.
+
+[[!redirects locally finitely presentable categories]]
