@@ -236,7 +236,14 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[infinity-stack homotopically]]
 
+  * [[global model structure on simplicial presheaves]]
+
+  * [[local model structure on simplicial presheaves]]
+
+  * [[local model structure on simplicial sheaves]]
+
   * [[descent for simplicial presheaves]]
+
 
 * [[cohomology]]
 
@@ -291,6 +298,10 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
  
   * [[model category]]
  
+    * [[Quillen adjunction]]
+
+      * [[Quillen equivalence]]
+
     * [[monoidal model category]]
 
     * [[enriched model category]]
