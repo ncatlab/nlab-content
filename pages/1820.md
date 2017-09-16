@@ -82,6 +82,7 @@ There are two powerful theorems that characterize combinatorial model categories
 
 A central theorem about combinatorial model categories is **[[Jeff Smith]]'s theorem** which establishes the existence of combinatorial model category structures from a small amount of input data.
 
+
 +-- {: .num_theorem }
 ###### Theorem 
 **(Jeff Smith's theorem)**
@@ -261,7 +262,20 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Recalled as theorem 4.32 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf).
+This is theorem 1.1. in [Dug00](http://arxiv.org/abs/math/0007068).
+
+=--
+
+Notice that the theorem just mentions plain combinatorial model categories, not [[simplicial model category|simplicial model categories]]. But of course by basic facts of [[enriched category theory]] $Funct(C^{op}, SSet)$ is an [[SSet]]-[[enriched category]] and its projective [[global model structure on functors]] $Func(C^{op}, SSet)_{proj}$ is compatibly a [[simplicial model category]], as are all its [[Bousfield localization of model categories|Bousfield localizations]]. (See [[model structure on simplicial presheaves]] for more details.) Therefore an immediate but very useful corollary of the above statement is
+
++-- {: .un_corollary }
+###### Corollary 
+
+Every combintorial model category is [[Quillen equivalence|Quillen equivalent]] to one which is
+
+* a [[simplicial model category]]
+
+* a left [[proper model category]].
 
 =--
 
