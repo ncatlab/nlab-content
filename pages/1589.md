@@ -21,6 +21,23 @@ Here are some scanned notes of talks from Bruce (not always complete!):
 
 * Christoph Schweigert, Monday morning 9.15. CFT and algebra in braided tensor categories I. [[talk1.pdf:file]]
 
+* Ullrich Bunke, Smooth K-theory [[oberwolfach_bunke.pdf:file]]
+
+* Thomas Schick, Smooth differential cohomology [[oberwolfach_schick.pdf:file]]
+
+* Kevin Costello 1 [[oberwolfach_costello1.pdf:file]]
+
+* Kevin Costello 2 [[oberwolfach_costello2.pdf:file]]
+
+* Kevin Costello 3 [[oberwolfach_costello3.pdf:file]]
+
+* Scott Wilson [[oberwolfach_wilson.pdf]]
+
+* Alex Kahle, Superconnections and index theory [[oberwolfach_kahle.pdf]]
+
+* Dan Freed, Orientifolds [[oberwolfach_freed.pdf:file]]
+
+
 
 ### 1. Modular tensor categories and rational CFT ###
 
