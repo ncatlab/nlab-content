@@ -46,13 +46,18 @@ Alternatively, observe that if $x \in C$ and $x \in K$, where $C$ is a connected
 $$ Conn(x) = \bigcap \{ clopen K \;:\; x \in K \} .$$
 If we define connected components with this formula, then we can define a space to be connected if and only if it has exactly one connected component (or at most one, if you allow the empty space to be connected).
 
+## Locally connected space
+
 +-- {: .un_remark}
 ###### Warning
 
 It is not generally true that a space is the coproduct (in $Top$) of its connected components. For example, the connected components in [[Cantor space]] $2^{\mathbb{N}}$ (with its topology as a product of 2-point discrete spaces) are just the singletons, but the coproduct of the singleton subspaces carries the discrete topology; another example with this feature is the set of rational numbers with its absolute-value topology (the one induced as a subset of the real line).
 =--
 
+
 Indeed, a space is the coproduct of its connected components precisely when it is **locally connected** (meaning that every point has a connected neighborhood). This occurs for example if there are only finitely many connected components (because then each connected component will be both closed and open).
+
+For more on this see [[locally connected topos]].
 
 A space $X$ is **totally disconnected** if its connected components are precisely the singletons of $X$. 
 
