@@ -78,8 +78,7 @@ For paracompact spaces, [[numerable open cover|numerable open covers]] are cofin
 
 * counterexamples
 
-  * the [[long line]] is *not* paracompact, even though it is a [[manifold]] (unless one specifically requires paracompactness of manifolds) but it fails to be 
-[[second-countable space|second-countable]].
+  * the [[long line]] is *not* paracompact, even though it is a [[manifold]] (unless one specifically requires paracompactness of manifolds) but it fails to be [[second-countable space|second-countable]].
 
 
 # Properties #
@@ -100,7 +99,7 @@ For paracompact spaces, [[numerable open cover|numerable open covers]] are cofin
 
 A discussion with an eye towards [[abelian sheaf cohomology]] and abelian [[Cech cohomology]] is around page 32 of
 
-* **Bry** Brylinski, _Loop spaces, characteristic classes geoemtric quantization_
+* **Bry** Brylinski, _Loop spaces, characteristic classes geoemetric quantization_
 
 
 
