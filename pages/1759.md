@@ -24,7 +24,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]] created [[Kan fibrant replacement]]
 
-* Zoran: created Grothendieck Festschrift, made an addition to timeline.
+* Zoran: created [[Dennis trace]] (experts please expand!),[[Grothendieck Festschrift]], and quoted it as an addition to the timeline entry.
 
 * [[Urs Schreiber]] 
 
