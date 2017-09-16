@@ -1,1 +1,1 @@
-As __stable space__ in the sense of [[shape theory]] is a space for which the corresponding Cech nerve prosimplicial set is a [[stable pro-object]].
+A __stable space__, in the sense of [[shape theory]], is a space for which the corresponding Cech nerve prosimplicial set, $\check{C}(X,-) : Cov(X)\to Ho(sSets$), is a [[stable pro-object]]. 
