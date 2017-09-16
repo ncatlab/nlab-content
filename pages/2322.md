@@ -19,3 +19,6 @@ This statement is originally due to [[Charles Rezk]]. It is reproduced as theore
 
 * [[Jacob Lurie]], [[Higher Topos Theory]].
 
++-- {: .query}
+David Corfield: What are the object classifiers for [[Top]]?
+=--
