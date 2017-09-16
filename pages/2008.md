@@ -6,7 +6,7 @@ This linearization idea has been obtained at the level of [[sheaves]] of $\mathc
 
 We plan in the nLab to cover many aspects of the interaction between geometry and differential calculi of various sorts including [[synthetic differential geometry]] and algebaric counterparts of notions from differential calculi. It is hard to say, however, where [[homological algebra]] belongs: the differential in the sense of homological algebra is rather a notion which can be systematized into the more general subject of [[homotopical algebra]], but in some cases it is related to analogues of [[exterior differentiation]] for the de Rham [[complex]] of [[differential forms]] (say on manifolds). But there is also an analogue of the [[Taylor series]] for functors in some homotopical contexts (say Goodwillie calculus). 
 
-See [[derivation]], [[regular differential operator]], [[differential form]], [[differential bimodule]], [[differential forms in synthetic differential geometry]], [[connection]], [[connection for a differential graded algebra]], [[D-module]], [[Fox derivative]]...
+See [[derivation]], [[regular differential operator]], [[differential form]], [[differential bimodule]], [[differential forms in synthetic differential geometry]], [[connection]], [[connection for a differential graded algebra]], [[D-module]], [[Fox derivative]], ...
 
 
 
