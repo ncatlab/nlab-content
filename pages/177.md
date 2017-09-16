@@ -53,7 +53,9 @@ Let $G_0 = G(X_0)$ and $G_1 = G(X_1)$.
 
 _[[Eric Forgy|Eric]] asks_: Given a small [[category]] $C$ whose set of objects is countable, I'm interested in finding the smallest [[directed graph]] $G$ such that its free category/quiver $F(G)$ is equivalent to $C$. Is that a standard construction? If so, what would it be called? Does that even make any sense?
 
-Here is one idea I had...
+[[John Baez]]: If I had you a small category $C$, there's usually _no_ directed graph $G$ such that $F(G)$ is equivalent to $C$!  For example: suppose $C$ has one object and two morphisms.  (There are two categories of this sort; pick your favorite.)  Quivers are very special categories.
+
+[[Eric Forgy|Eric]] continues: Here is one idea I had...
 
 Consider the nerve $N(C)$ and set $G_0 = N(C)_0$.
 
