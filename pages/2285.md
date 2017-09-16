@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
 The term __'classical physics'__ usually denotes the part of [[physics]] which is based on exploring fundamental laws of nature which do not involve [[quantum physics]], or from another point of view, currently accepted areas of physics whose theoretical foundations in an almost canonical form existed before the discovery of quantum mechanics. This includes [[classical mechanics]], [[continuum mechanics]], [[classical electrodynamics]], magnetohydrodynamics, [[thermodynamics]], classical [[statistical mechanics]], geometrical and wave [[optics]] and the areas of phenomena which can be explained using these. For example, due to high speeds quantum phenomena are surpressed in the study of plasma (e.g. research on fusion). 
 
 Depending on context, relativity theory (both special and general) may or may not be included in classical physics. In the Lagrangean and Hamiltonian approaches, special relativity can be easily introduced into a classical mechanical system; general relativity, however, brings up the [[problem of time]].  Classical electrodynamics (with the [[Maxwell equations]]) is implicitly also a relativistic theory, even if it was originally described in a way hiding this fact. 
