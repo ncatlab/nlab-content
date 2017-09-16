@@ -15,7 +15,7 @@ The [[space]]s of relevance in many applications -- notably in those related to 
 
 ## geometries ##
 
-This may be formalized by fixing a an [[(∞,1)-category]]
+This may be formalized by fixing an [[(∞,1)-category]]
 $\mathcal{G}$ whose objects we think of as **loci** -- test spaces with which all spaces with $\mathcal{G}$-geometry structure may be probed -- and whose morphisms we think of maps between loci that respect the geometric structure in question.
 
 Since the specification of $\mathcal{G}$ encodes what we want to _mean_ by _geometric structure_, $\mathcal{G}$ is called a **geometry**.
