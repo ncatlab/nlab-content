@@ -110,12 +110,15 @@ That means that for $a \in A$, $\Delta(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$
 
   By the way, I'm not clear about how to interpret your hints.  Do you already know the answer to this and are trying to teach me some category theory by leading me through it, or do you not know and are hoping that, polymath-style, we'll figure it out without either of us having to expend too much energy?  Either is fine by me (I need to learn some more Cat. Th. so any help is helpful!), I just like to know which track I'm on.
 
+  [[John Baez]]: I guess I'm just trying to figure it out. From the very start I knew _some_ answer to why comonoid objects in $AbGp$ are co-abelian group objects: namely, when you check, you see it's true.  But I like to understand these things using general principles, so I was wondering what general principle was at work here.  My current best guess is not very profound: it's "every comonoid object in an abelian category is a co-abelian group object", or if you prefer, "every object in an abelian category becomes a co-abelian group object in a unique way" - a variation on the well-trodden theme of "every object in a category with finite products becomes a cocommutative comonoid in a unique way".    
+
   [[Andrew Stacey]]: PS Don't forget to indent paragraphs in this query box.
 
    [[John Baez]]: Huh, wow, it really makes a big difference.
 
   [[Andrew Stacey]]: can't tell if you're being sarcastic here.  If so, try leaving a comment with _absolutely no_ indent and see what chaos ensues.
 
+  [[John Baez]]: No, I wasn't being sarcastic.  I tried it and saw what chaos ensued.  But further down the page we're having a boxed discussion without these darned indents, and it's working fine.  So why bother with indents in the first place?
    =-- 
 
   It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric). For details on this see _The Hunting of the Hopf Ring_, referred to belelow.  This monoidal structure for abelian groups turns out to be the tensor product.
@@ -194,6 +197,10 @@ $$
 c \cong 0, e \cong 0, g \cong a, h \cong f, i \cong d, k \cong a, l \cong j, m \cong h, n \cong b
 $$
 (I think!)
+
+[[John Baez]]: I never take any principle to extremes, not even this one.  I mainly just want to make life easy on people who read my stuff or hear my talks.   I think links to "notation used on this page" would be great when used _in addition_ to on-the-spot explanations of the notation when it's introduced, and occasional reminders.  I'm afraid however that most mathematicians would use these hyperlinks as an excuse to use more notation, when 99% of them should spend time figuring out how to use less.  
+
+Anyway, I think I'm starting to repeat myself, so I'll stop.
 =--
 
 
