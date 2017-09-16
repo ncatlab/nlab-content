@@ -63,7 +63,7 @@ To emphasize that one considers $\infty$-stacks on higher categorical sites one 
 
 #References#
 
-The study of $\infty$-stacks is known in parts as the study of [[nonabelian cohomology]]. See there fore further references.
+The study of $\infty$-stacks is known in parts as the study of [[nonabelian cohomology]]. See there for further references.
 
 The search for $\infty$-stacks probably began with [[Alexander Grothendieck]] in _[[Pursuing Stacks]]_.
 
