@@ -103,11 +103,14 @@ $$
 $$
 It is clear that the definition in this form makes sense in every 2-category. In a bit different terminology, the left Kan extension 1-cell $F:C\to D$ along 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p_* = K(p,D):K(C',D)\to K(C,D)$. 
 
+This version of the definition clearly makes sense in any [[2-category]].
+
+
 ## Local definition: in terms of weighted (co)limits ##
 
 
 Whenever the [[limit]] on the right hand side of the following 
-equivalence exists, the right Kan extension on the 
+equivalence exists for all $c'$, the right Kan extension on the 
 left exists and is specified by this expression:
 
 $$
@@ -130,10 +133,10 @@ $$
     }
   \right\}
 $$ 
-is the [[comma category]].
+is the [[comma category]].  We have written this as an ordinary "conical" limit over a comma category, but it can equivalently be written as a [[weighted limit]] over $C$ itself, weighted by the hom-functor $C'(c',-)$.
 
 Similarly if the following [[colimit]] exists, it 
-computes the left Kan extension
+computes a left Kan extension
 
 $$
   (Lan_p F)(c') \simeq co\lim_{p(c) \to c' \in (p/c')}
@@ -141,10 +144,13 @@ $$
   \,.
 $$
 
-It follows in particular that the (right/left) Kan extension exists when $D$ admits [[limit]]s/[[colimit]]s indexed by $C$.
+It follows in particular that the (right/left) Kan extension exists when $D$ admits weighted [[limit]]s/[[colimit]]s over $C$.
 
+These statements have an elegant formulation in terms of [[end]]s and [[coend]]s (...)
 
-These statements have an elegant fomulation in terms of [[end]]s and [[coend]]s (...)
+Note, however, that _not_ all Kan extensions (in the universal-transformation sense) are computed in this way, and Kan extensions in that sense can exist even when $D$ does not admit very many limits.  For instance, the Kan extensions that arise in the study of [[derived functor]]s are not computed in this way.
+
+Kan extension that are computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "weak Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
 
 
 ## Global definition: adjoint to pullback of functor categories ##
@@ -165,7 +171,6 @@ $$
   Ran = Ran_p: [C,D] \to [C',D]
   \,.
 $$
-
 
 As discussed at [[adjoint functor]], it is possible that these adjoints do not exist, but may still be partially defined. Namely, for some functor $F\in [C,D]$ there exist a functor $Lan_p\,F:C'\to D$, *the left Kan extension of $F$ along $p$*,  and a natural isomorphism 
 $$
@@ -227,7 +232,7 @@ It is however noteworthy that also the opposite perspective does occur in geomet
 * and similar in higher degrees: if $C = P_1(X)$ is the smooth path groupoid of a smooth space and $D = \mathbf{B} U(1)$ the smooth [[group]] $U(1)$ regarded as a one-object [[Lie groupoid]], then smooth functors $C \to D$ correspond to smooth 1-forms $\in \Omega^1(X)$ on $X$, and precomposition with a smooth functor $p : P_1(X) \to P_1(X')$ corresponds to the familiar notion of _pullback_ of 
 1-forms.
 
-This means that wether or not Kan extension corresponds geometrically to pushforward or to pullback depends on the way (covariant or contravariant) in which the domain categories $C$, $C'$ are identified with geometric entities.
+This means that whether or not Kan extension corresponds geometrically to pushforward or to pullback depends on the way (covariant or contravariant) in which the domain categories $C$, $C'$ are identified with geometric entities.
 
 
 #References#
@@ -240,7 +245,7 @@ MacLane's book
 
 * MacLane, [[Categories Work|Categories for the working mathematician]] 
 
-has a famous treatment of Kan extensions with a statement: "The notion of Kan extensions subsumes all the other fundamental concepts in category theory". 
+has a famous treatment of Kan extensions with a statement: "The notion of Kan extensions subsumes all the other fundamental concepts in category theory".  Of course, many other fundamental concepts of category theory can also be regarded as subsuming all the others.
 
 For the context of [[enriched category theory]] see 
 chapter 4 of
