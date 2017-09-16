@@ -1,5 +1,4 @@
-# Links #
+__Propositional logic__, or __$0$th-order logic__, is that part of [[logic]] that deals only with [[propositions]] with no free variables.  Compare [[predicate logic]], or $1$st-order logic, and [[higher-order logic]].
 
-* [Propositional Calculus @ PlanetMath](http://planetmath.org/encyclopedia/PropositionalCalculus.html)
 
-* [Propositional Calculus @ MyWikiBiz](http://mywikibiz.com/Propositional_calculus)
+[[!redirects propositional calculus]]
