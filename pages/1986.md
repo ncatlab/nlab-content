@@ -16,9 +16,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
-## 2009-08-06
+## 2009-08-07
+* [[Zoran Škoda]] created (Gabriel's) [[property sup]] with redirect [[property (sup)]].
 
 * [[Urs Schreiber]]: expanded and rearranged [[germ]] a bit
+
+## 2009-08-06
 
 *  [[Toby Bartels]]:  Added to [[germ]] the example that causes me to keep linking to it.
 
