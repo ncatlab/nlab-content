@@ -13,7 +13,7 @@ $$
 
 there is a diagonal such that the entire diagram commutes. Map $\sigma_0:Y\to Y\times I$ is given by $y\mapsto (y,0)$ for $y\in Y$.
 
-A map $p$ is a [[Hurewicz fibration]] if it satisfies the homotopy lifting property with respect to all spaces $X$. A map $p$ is a **Serre fibration** if it satisfies the homotopy lifting property with respect to all disks. 
+A map $p$ is a [[Hurewicz fibration]] if it satisfies the homotopy lifting property with respect to all spaces $X$. A map $p$ is a **Serre fibration** if it satisfies the homotopy lifting property with respect to all disks (equivalently, all cubes). 
 
 Homotopy lifting property is an instance of a [[right lifting property]]. 
 
