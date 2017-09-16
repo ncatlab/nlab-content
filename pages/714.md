@@ -1,4 +1,9 @@
-#Idea#
+# $\dagger$-categories
+* tic
+{: toc}
+
+
+## Idea
 
 The definition of a [[category]] effectively enforces an ordering on the "0-faces" -- the source and target objects -- of every 1-cell (every morphism). In many cases this is essential, in that there is no way to regard the generic morphism $a \stackrel{f}{\to} b$ in the generic category as a morphism from $b$ to $a$ instead.
 
@@ -20,7 +25,7 @@ The notation and terminology here is motivated from the example [[Hilb]] of Hilb
 a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor $n Cob \to Hilb$ which respects the dagger-structure on both sides.
 
 
-#Definition#
+## Definition
 
 A **dagger category** is a [[category]] $C$ equipped with a contravariant functor
 $$
@@ -29,7 +34,7 @@ $$
 which is the identity on objects, and which satisfies $\dagger \circ \dagger = \mathrm{id}_C$.
 
 
-#Examples#
+## Examples
 
 * The category [[Rel]] of sets and [[relations]] is a dagger category, taking dagger as relational converse.
 
@@ -38,7 +43,7 @@ which is the identity on objects, and which satisfies $\dagger \circ \dagger = \
 * $\mathcal{R}(G)$, the category of unitary [[representation]]s of a (discrete) [[group]] $G$ and intertwining maps, is a dagger category. For an intertwiner $\phi : R \rightarrow S$, let $\phi^\dagger : S \rightarrow R$ be the adjoint of $\phi$ in [[Hilb]].
 
 
-#Underlying groupoid#
+## Underlying groupoid
 
 For the purpose of considering what makes two objects of a $\dagger$-category [[equivalence|equivalent]], one should not consider all [[isomorphism]]s (invertible morphisms) but rather all **unitary isomorphisms**: those morphisms $f$ whose adjoint is their inverse.
 
@@ -47,7 +52,7 @@ For example, in $Hilb$, there are many invertible linear operators, but only tho
 The unitary isomorphisms form a [[groupoid]], which may be regarded as the _[[core]]_ of the $\dagger$-category.
 
 
-#References#
+## References
 
 The concept of $\dagger$-category is discussed here:
 
@@ -64,3 +69,5 @@ Certain specially nice $\dagger$-categories, such as $C^*$-categories and [[modu
 * Bojko Bakalov and Alexander Kirillov, Jr., _Lectures on Tensor Categories and Modular Functors_, American Mathematical Society, Providence, Rhode Island, 2001.
 [web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html)
 
+
+[[!redirects dagger category]]
