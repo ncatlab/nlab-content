@@ -1,4 +1,4 @@
-Measurable spaces are a necessary prelude to the general to the general theory of measure and integration.  Basically, a measurable space picks out those sets of a [[measure space]] that are 'measurable', regardless of what their actual measure is.  (Thus you get a measure space by placing a measure on a measurable space.)
+Measurable spaces are a necessary prelude to the general theory of measure and [[integration]].  Basically, a measurable space picks out those sets of a [[measure space]] that are 'measurable', regardless of what their actual measure is.  (Thus you get a measure space by placing a measure on a measurable space.)
 
 Ideally, all subsets would be measurable, but this contradicts the [[axiom of choice]] for the basic example of [[Lebesgue measure]] on the [[real line]].  Although it is possible to use nonstandard [[foundations]] of mathematics in which all subsets of the real line are Lebesgue measurable, any general theory that includes that example and is more general than those foundations requires some notion of measurable space.
 
