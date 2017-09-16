@@ -34,23 +34,33 @@ We will have a pseudofunctor $F : Open(B)^{op}\to Grpd$, and this will be a stac
 
 ##Definition:## 
 
-* A stack of groupoids, $F$, on $B$ is *locally non-empty* if there is an open covering $\mathcal{U}$ of $B$ for which each groupoid $F(U)$ is non-empty, for $U \in \mathcal{U}$.
+*   A stack of groupoids, $F$, on $B$ is *locally non-empty* if there is an open covering $\mathcal{U}$ of $B$ for which each groupoid $F(U)$ is non-empty, for $U \in \mathcal{U}$.
 
-* A stack of groupoids, $F$, on $B$ is said to be *locally connected*  if there is an open covering $\mathcal{U}$ of $B$ for which each groupoid $F(U)$ is connected, for $U \in \mathcal{U}$.
+*   A stack of groupoids, $F$, on $B$ is said to be *locally connected*  if there is an open covering $\mathcal{U}$ of $B$ for which each groupoid $F(U)$ is connected, for $U \in \mathcal{U}$.
 
 
 and finally:
 
-*A *gerbe* $F$ on $B$ is a locally non-empty, locally connected stack of groupoids on $B$.
+*  A *gerbe* $F$ on $B$ is a locally non-empty, locally connected stack of groupoids on $B$.
 
 
 It is important to note that it does not state in the definition of a gerbe that the open cover that we have over which it is non-empty is or is not one over which it is connected.
 
+_Local connectedness_ can be well stated by saying that for the various $U$, if $x$ and $y$ are local objects defined over $U$, the set $F(U)(x,y)$ is not empty. (Translation: a 'local object', or 'locally defined object', of $F$ is a 'local section'  of $Ob(F)$,say, over $U$, in other an element in $Ob(F(U))$.
+
+
+
 ## Example## 
 $\mathcal{T}ors(G)$ is a gerbe on $B$.
+
+To see _locally non-empty_: If $U$ is any open set in $B$, then as $\mathcal{T}ors(G)(U) = Tors(U;G)$, the category of $G_U$-torsors over $U$, it has at least the [[trivial torsor|trivial $G_U$-torsor]] amongst its objects, so $\mathcal{T}ors(G)$ is locally non-empty.
+
+
 
 ===Differential geometry===
 * $H^3(X,\mathbb{Z})$ and $\mathcal{O}_X^*$-gerbes: [[Jean-Luc Brylinski]]'s approach
 
 _Daniel_:Please, would someone mind explain this with detail? I am interested in understand quantization and somehow, this thing comes up all the time...
 I got it from the entry on wikipedia on [gerbes,]( http://en.wikipedia.org/wiki/Gerbe) but it was not explained.
+
+[[Tim Porter|Tim]]:  I will get there but the route is not that short! It is however not that long either.
