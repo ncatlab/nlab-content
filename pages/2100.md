@@ -174,7 +174,7 @@ $$
   }
 $$
 
-Here the outer diagram exhibits a morphism $k : f_* \Psi \to \Phi$. The universsal property of the [[pullback]] says that this essentially uniquely corresponds to the [[adjunct]]  morphism $\bar k : \Psi \to f^* \Phi$.
+Here the outer diagram exhibits a morphism $k : f_* \Psi \to \Phi$. The universal property of the [[pullback]] says that this essentially uniquely corresponds to the [[adjunct]]  morphism $\bar k : \Psi \to f^* \Phi$.
 
 The fact that the pull-push respects composition of spans is a direct consequence of the way [[pullback]] diagrams compose under pasting: recall that in a diagram
 
