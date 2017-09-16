@@ -24,7 +24,6 @@ commute.
 
 The following discussion took place at the component diagram above:
 
-+--{.query}
 [[Eric]]: What is the "component free" way to say that?
 
 [[Finn Lawler]]:  I think the category of cones over $F$ is the comma category $\Delta / F$, so that a morphism $\alpha : T \to T'$ should be just a natural transformation $\alpha : \Delta c \Rightarrow \Delta c'$ such that $T' \alpha = T$.  That gives your condition in components, I think.
@@ -81,9 +80,6 @@ $$
   }
 $$
 
-
-
-=--
 
 [[!redirects cone morphisms]]
 [[!redirects cone function]]
