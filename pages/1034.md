@@ -1,11 +1,16 @@
-# Idea #
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 A **universe** in a [[topos]] is a topos-theoretic version of the notion of [[Grothendieck universe]]; see that page for general motivation and applications.
 
 To free the notion from membership-based set theory, we must replace _sets of sets_ by _families of sets_, just as in passing from [[power set]]s to [[power object]]s we must replace sets of subsets by families of subsets.
 
 
-# Definition #
+## Definition 
 
 A **universe** in a topos $\mathcal{E}$ is a morphism $el:E\to U$ satisfying the axioms to follow.  We think of $el:E\to U$ as a $U$-indexed family of objects (sets), and we define a morphism $a:A\to I$ (regarded as an $I$-indexed family of objects) to be **$U$-small** if there exists a morphism $f:I\to U$ and a [[pullback]] square
 $$\array{A & \to & E\\
@@ -30,7 +35,7 @@ If we assume only (1)--(3), then the identity morphism $1_0:0\to 0$ of the initi
 
 Note that any object isomorphic to a $U$-small object is $U$-small; thus in the language of [[Grothendieck universe]]s this notion of smallness corresponds to _essential_ smallness.  Roughly, we may say that (1) corresponds to transitivity of a Grothendieck universe, (3) and (4) correspond to closure under power sets, and (2) corresponds to closure under indexed unions.
 
-#Example: universes in SET#
+## Example: universes in SET
 
 We spell out in detail some implications of these axioms for the case
 that the [[topos]] in question is the Categeory of Sets according to 
@@ -118,7 +123,7 @@ In **summary**
 
 
 
-# Axioms of universes #
+## Axioms of universes 
 
 Just as [[ZFC]] and other material [[set theory|set theories]] may be augmented with axioms guaranteeing the existence of [[Grothendieck universe]]s, so may [[ETCS]] and other structural set theories be augmented with axioms guaranteeing the existence of universes in the above sense.  For example, the counterpart of Grothendieck's axiom
 
@@ -129,12 +134,12 @@ would be
 * For every morphism $a:A\to I$ in $\mathcal{E}$, there exists a universe $el:E\to U$ such that $a$ is $U$-small.
 
 
-# Consequences #
+## Consequences 
 
 One can show, from the above axioms, that the $U$-small morphisms are closed under finite [[coproduct]]s and under [[quotient object]]s.  See the reference below.
 
 
-# In terms of indexed categories #
+## In terms of indexed categories 
 
 Recall that an $\mathcal{E}$-[[indexed category]] is a [[pseudofunctor]] $\mathcal{E}^{op}\to \Cat$.  The fundamental $\mathcal{E}$-indexed category is the _self-indexing_ $\mathbb{E}$ of $\mathcal{E}$, which takes $I\in \mathcal{E}$ to the [[over category|slice category]] $\mathbb{E}^I = \mathcal{E}/I$ and $x:I\to J$ to the [[base change]] functor $x^*$.
 
@@ -143,7 +148,7 @@ An **internal full subcategory** of $\mathcal{E}$ is a full sub-indexed category
 An internal full subcategory is an **internal full subtopos** if each $\mathbb{F}$ is a logical subtopos of $\mathbb{E}$ (closed under finite limits, exponentials, and containing the subobject classifier).  A universe in $\mathcal{E}$, as defined above, can then be identified with an internal full subtopos satisfying the additional axiom that $U$-small morphisms are closed under composition.
 
 
-# In the internal logic #
+## In the internal logic 
 
 In a topos with a universe, we can talk about small objects in the [[internal logic]] by instead talking about elements of $U$.  We can then rephrase the axioms of a universe in the internal logic to look more like the usual axioms for a Grothendieck universe, with the morphism $el:E\to U$ interpreted as a "family of objects"  $(S_u)_{u:U}$:
 
@@ -159,6 +164,6 @@ In a [[well-pointed topos]], such as a model of [[ETCS]], these "internal" axiom
 =--
 
 
-# References #
+## References 
 
 * Thomas Streicher, "[Universes in Toposes](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.ps.gz)."  In _From sets and types to topology and analysis: towards practicable foundations for constructive mathematics_.
