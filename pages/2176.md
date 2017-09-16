@@ -1525,15 +1525,25 @@ f_{15}
 
 # Quick Review : Field Picture #
 
-Let us summarize, in rough but intuitive terms, the outlook on differential logic that we have reached so far.  We've been considering a class of operators on universes of discourse, each of which takes us from considering one universe of discourse, $X^\circ$, to considering a larger universe of discourse, $\operatorname{E}X^\circ$.  An operator $\operatorname{W}$ of this general type, namely, $\operatorname{W} : X^\circ \to \operatorname{E}X^\circ$, acts on each proposition $f : X \to \mathbb{B}$ of the source universe $X^\circ$ to produce a proposition $\operatorname{W}f : \operatorname{E}X \to \mathbb{B}$ of the target universe $\operatorname{E}X^\circ$.
+Let us summarize, in rough but intuitive terms, the outlook on differential logic that we have reached so far.  We've been considering a class of operators on universes of discourse, each of which takes us from considering one universe of discourse, $X^\circ$, to considering a larger universe of discourse, $\mathop{E}X^\circ$.  An operator $\mathop{W}$ of this general type, namely, $\mathop{W} : X^\circ \to \mathop{E}X^\circ$, acts on each proposition $f : X \to \mathbb{B}$ of the source universe $X^\circ$ to produce a proposition $\mathop{W}f : \mathop{E}X \to \mathbb{B}$ of the target universe $\mathop{E}X^\circ$.
 
-The two main operators that we've examined so far are the enlargement or shift operator $\operatorname{E} : X^\circ \to \operatorname{E}X^\circ$ and the difference operator $\operatorname{D} : X^\circ \to \operatorname{E}X^\circ$.  The operators $\operatorname{E}$ and $\operatorname{D}$ act on propositions in $X^\circ$, that is, propositions of the form $f : X \to \mathbb{B}$ that are said to be _about_ the subject matter of $X$, and they produce extended propositions of the forms $\operatorname{E}f, \operatorname{D}f : \operatorname{E}X \to \mathbb{B}$, propositions whose extended sets of variables allow them to be read as being about specified collections of changes that conceivably occur in $X$.
+The two main operators that we've examined so far are the enlargement operator $\mathop{E} : X^\circ \to \mathop{E}X^\circ$ and the difference operator $\mathop{D} : X^\circ \to \mathop{E}X^\circ$.  The operators $\mathop{E}$ and $\mathop{D}$ act on propositions in $X^\circ$, that is, propositions of the form $f : X \to \mathbb{B}$ that are said to be _about_ the subject matter of $X$, and they produce extended propositions of the forms $\mathop{E}f, \mathop{D}f : \mathop{E}X \to \mathbb{B}$, propositions whose extended sets of variables allow them to be read as being about specified collections of changes that conceivably occur in $X$.
 
 At this point we find ourselves in need of visual representations, suitable arrays of concrete pictures to anchor our more earthy intuitions and help us keep our wits about us as we venture higher into the ever more rarefied air of abstractions.
 
 One good picture comes to us by way of the _field_ concept.  Given a space $X$, a _field_ of a specified type $Y$ over $X$ is formed by associating with each point of $X$ an object of type $Y$.  If that sounds like the same thing as a function from $X$ to the space of things of type $Y$ --- it is nothing but --- and yet it does seem helpful to vary the mental images and to take advantage of the figures of speech that spring to mind under the emblem of this field idea.
 
 In the field picture a proposition $f : X \to \mathbb{B}$ becomes a _scalar field_, that is, a field of values in $\mathbb{B}$.
+
+For example, consider the logical conjunction $p q : X \to \mathbb{B}$ that is shown in the following venn diagram:
+
+<table align="center" cellpadding="8" markdown="1" style="border:none; text-align:center">
+<td style="border:none">
+<img alt="Field Picture PQ Conjunction" src="/nlab/files/Field_Picture_PQ_Conjunction.jpg" width="500" /><br>
+<font size="+2">$\text{Conjunction} \: p q : X \to \mathbb{B}$</font>
+</td></table>
+
+Each of the operators $\mathop{E}, \mathop{D} : X^\circ \to \mathop{E}X^\circ$ takes us from considering propositions $f : X \to \mathbb{B}$, here viewed as _scalar fields_ over $X$, to considering the corresponding _differential fields_ over $X$, analogous to what are usually called _vector fields_ over $X$.
 
 # External Links #
 
