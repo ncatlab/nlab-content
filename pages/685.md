@@ -91,3 +91,7 @@ A 2-limit is called **finite** if its diagram shape and its weight are both "fin
 [[!redirects 2-categorial limit]]
 [[!redirects 2-colimit]]
 [[!redirects 2-limits]]
+[[!redirects lax limit]]
+[[!redirects lax colimit]]
+[[!redirects oplax limit]]
+[[!redirects oplax colimit]]
