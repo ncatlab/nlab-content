@@ -34,7 +34,7 @@ consisting of a single [[interval]].
 * **$K_4$** The fourth associahedron $K_4$ is the pentagon which expresses the different ways a product of four elements may be bracketed
 
 +--{: style="text-align:center"}
-[[!include associahedron/K4]]
+[[!include associahedron > K4]]
 =--  
 
 One can also think of this as the top-level structure of the 4th [[oriental]]. This controls in particular the _pentagon identity_ in the definition of [[monoidal category]], as discussed there.
