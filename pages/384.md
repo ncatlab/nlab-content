@@ -25,3 +25,6 @@ Milnor has argued that the category of spaces which are homotopy equivalent to C
 * J.P. May, A Concise Course in Algebraic Topology, U. Chicago Press, 1999. 
 
 * J. Milnor, On spaces having the homotopy type of a CW-complex, Trans. Amer. Math. Soc. 90 (2) (1959), 272-280.
+
+
+[[!redirects CW-complex]]
