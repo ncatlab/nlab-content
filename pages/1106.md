@@ -1,6 +1,6 @@
 This entry is about the book
 
-* S. MacLane, I. Moerdik, _Sheaves in Geometry and Logic_.
+* [[Sauders MacLane]], [[Ieke Moerdijk]], _Sheaves in Geometry and Logic_.
 
 For more information on "sheaves in geometry and logic" see for instance
 
