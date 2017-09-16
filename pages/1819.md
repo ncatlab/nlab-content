@@ -1,6 +1,6 @@
 # Idea #
 
-Combinatorial simplicial model categories, i.e. [[model category|modelcategories]] that are both
+Combinatorial simplicial model categories, i.e. [[model category|model categories]] that are both
 
 * [[combinatorial model category|combinatorial model categories]]
 
