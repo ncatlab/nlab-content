@@ -9,4 +9,4 @@ $$
 $$
 
 to a [[reflective (infinity,1)-subcategory]] is called 
-a **localization** of $C$.
+a **[[localization]]** of $C$.
