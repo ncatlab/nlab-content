@@ -1,0 +1,1 @@
+The field of **rational numbers**, denoted $\mathbb{Q}$, is the field of fractions of the commutative ring of integers, $\mathbb{Z}$.
