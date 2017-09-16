@@ -1,10 +1,87 @@
+
+> under construction
+
 <div class="rightHandSide toc">
 [[!include physicscontents]]
 </div>
 
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+
+
+## Idea
+
+### The $n$POV {#nPOVIdea}
+
+What in [[physics]] is called **BV-BRST formalism** or just **BV-formalism** is from the [[nPOV]] the following:
+
+the _configuration space_ $Conf$ of a physical system -- notably that of a [[gauge theory]] -- is in general not a naive space, such as a [[manifold]], but instead a [[space]] in the general sense of [[higher geometry]]: it is in fact an object in the [[(∞,1)-topos]] of [[∞-stack]]s/[[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on the [[(∞,1)-site]] 
+
+$$
+  C :=(dgAlg_k^-)^{op}
+$$ 
+
+of formal duals to [[differential graded algebra|cochain differential graded algebras]] in non-postive degree:
+
+$$
+  Conf \in \mathbf{H} = Sh_{(\infty,1)}(C)
+  \,.
+$$  
+
+The way to understand how such [[∞-stack]]s are [[space]]s is described at [[motivation for sheaves, cohomology and higher stacks]]:
+
+we think here of an object $Spec A \in (dgAlg_k^-)^{op}$ as a test space with [[derived geometry|derived]] algebra of functions $A \in dgAlg$.  An object in $Sh_{(\infty,1)}(C)$ is an [[∞-groupoid]] with geometric structure given by such test objects: it can be _probed_ by such test objects.
+
+Every such [[∞-groupoid]] $X$ modeled on objects in $C$ has also a _global_ function algebra $\mathcal{O}(X) \in dgAlg$. This is in general an _unbounded_ [[differential graded algebra]]: it may be nontrivial in positive and negative degrees. For $X = Conf$ the configuration space of a [[gauge theory]], the dg-algebra
+
+$$
+  \mathcal{O}(Conf) \in dgAlg
+$$
+
+is called the **BV-BRST-complex** of the physical system. Roughly, in positive degrees this dg-algebra remembers the [[k-morphism]]s of the $\infty$-groupoid $Conf$, while in negative degrees it remembers the negative degrees of the derived function algebra of the space of objects of the $\infty$-groupoid.
+
+In the physics literature 
+
+* the elements in degree 0 of $\mathcal{O}(Conf)$ are called the **fields** (really they are the functions on the naive space of fields);
+
+* the elements in positive degree are called the **ghost**s -- this are really the duals to the [[k-morphism]]s of the [[L-∞-algebroid]] $Conf$;
+
+* the elements in negative degree are called **anti-fields** and **anti-ghosts**.  (This is just formal terminology made up in physics for lack of a better term. It has in particular _nothing_ to do with the notion of _anti-particles_ !)
+
+The operation $X \mapsto \mathcal{O}(X)$ extends to an [[(∞,1)-functor]] $\mathcal{O} : \mathbf{H} \to dgAlg^{op}$, which is part of an [[adjoint (∞,1)-functor|(∞,1)-adjunction]]
+
+$$
+  (\mathcal{O} \dashv Spec) \;\; : \;\;
+  \mathbf{H} \stackrel{\overset{Spec}{\leftarrow}}{\overset{\mathcal{O}}{\to}}
+  dgAlg^{op}
+  \,.
+$$
+
+In detail, $\mathcal{O}$ acts as follows: every [[∞-stack]] $X$ may be written as a ([[homotopy colimit|colimit]]) over [[representable functor|representable]] $Spec A_i \in dgAlg_i$
+
+$$
+  X \simeq \lim_{\to^i} Y(Spec A_i)
+  \,,
+$$
+
+where $Y : (dgAlg^-)^{op} \to \mathbf{H}$ is the [[Yoneda embedding]].
+
+The functor $\mathcal{O}$ takes any such colimit-description, and simply reinterprets the colimit in $dgAlg^{op}$, i.e. the limit in $dgAlg$:
+
+$$
+  \mathcal{O}(X) = \lim_{\leftarrow^i} A_i
+  \,.
+$$
+
+This is proposition 3.1 in
+
+* [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Connections_ ([arXiv:math/1002.3636](http://arxiv.org/abs/1002.3636))
+
+
+### The pedestrian POV
 
 BV theory is the answer to the second of two different questions:
 
@@ -12,7 +89,7 @@ BV theory is the answer to the second of two different questions:
 
  * **Lagrangian BV**: integrating forms over [[NQ-supermanifolds]].
 
-##Hamiltonian BFV## 
+### Hamiltonian BFV
 
 The F is for Fradkin.
 In this context, the BFV-complex is a [[homological resolution]] of the problem of taking quotients of symplectic manifolds by group actions. 
@@ -57,9 +134,9 @@ _Quantization of Donaldson-Uhlenbeck-Yau theory_
 
 The latter is NOT in a Poisson context, any more than Lagrangians are only for symplectic manifolds.
 
-##Lagrangian BV## 
+##Lagrangian BV
 
-###Idea###
+###Idea
 
 * Lagrangian BV-formalism is a means to describe 
 [[integration over supermanifolds]] for [[NQ-supermanifolds]] given by $L_\infty$-[[Lie infinity-algebroid|algebroid]]s.
@@ -71,7 +148,7 @@ The latter is NOT in a Poisson context, any more than Lagrangians are only for s
 
 
 
-The path integral in quantum field theory is supposed to be the integral over a space $X$ of field configurations
+The [[path integral]] in [[quantum field theory]] is supposed to be the integral over a space $X$ of field configurations
 using a measure $d\mu_S$ which is conceived in the form
 $$
   \mu_S(\phi) = \exp(\frac{i}{\hbar} S(\phi)) \mu(\phi)
@@ -112,12 +189,12 @@ $exp(\frac{i}{\hbar}S(-)) \mu$ is a _closed differential form_.
 
 This means that Lagrangian BV formalism is nothing but a way of describing closed differential forms on $L_\infty$-[[Lie infinity-algebroid|algebroid]]s in terms of multivectors contracted into a reference differention form. The multivectors dual to degree 0 elements in the $L_\infty$-[[Lie infinity-algebroid|algebroid]] are the so-called "**anti-fields**", while those dual to the higher degree elements are the so-called "**anti-ghosts**".
 
-###Examples###
+### Examples
 
 See [[examples for Lagrangian BV]].
 
 
-### Relation to groupoid cardinality ###
+### Relation to groupoid cardinality
 
 There ought to be a close relation between the 
 integration over $L_\infty$-[[Lie infinity-algebroid|algebroid]]s using BV-formalism and the notion of [[groupoid cardinality]]
@@ -126,7 +203,7 @@ a notion of [[volume of a Lie groupoid]].
 
 
 
-#Literature#
+## References
 
 A comprehensive recent review is
 
@@ -153,13 +230,10 @@ Modern Physics Letters A, 5 7, 487--494
 
 
 
-#Related entries#
+## Related entries
 
 * [[homotopy BV algebra]]
 
-#Further discussion#
-
-We had a discussion of some aspects of BV-formalism over at the $n$-Category Caf&eacute; at [Frobenius Algebras and the BV Formalism](http://golem.ph.utexas.edu/category/2008/11/frobenius_algebras_and_the_bv.html).
 
 
 [[!redirects BV-theory]]
