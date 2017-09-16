@@ -62,6 +62,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Tom Leinster]]
 * [[Tom Prince]]
 * [[Urs Schreiber]]
+* [[Vaughan Pratt]]
 * [[Victor Porton]]
 * [[Vishal Lama]]
 * [[Zoran Škoda]]
