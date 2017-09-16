@@ -19,3 +19,4 @@ There are several different but related formalizations of the notion of cover.
 
 
 [[!redirects covers]]
+[[!redirects covering]]
