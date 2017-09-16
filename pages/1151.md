@@ -301,3 +301,5 @@ So I would tend to think that all these are subsumed under abelian sheaf cohomol
 
 =--
 
+
+[[!redirects cohomologies]]
