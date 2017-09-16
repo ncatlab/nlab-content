@@ -49,6 +49,14 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 ##2009-09-24
 
+* [[Urs Schreiber]]: worked on [[geometry (for structured (infinity,1)-toposes)]]
+
+  * expanded and improved "Idea" section
+
+  * in "References" section started commented list with explicit pointers to definitions 
+
+  * needs expansion -- and warning: I think I missed some $(-)^{op}$s and $Ind(-)$s. But have to run now.
+
 * [[Mike Shulman]]: Some discussion is continuing at [[pure set]].
 
 * [[Urs Schreiber]] some rough notes on genera and the elliptic genus at [[elliptic cohomology]].
