@@ -43,9 +43,8 @@ Any [[Grothendieck topos]] can be thought of as a 'classifying topos'. A useful 
 [here](http://golem.ph.utexas.edu/category/2007/10/geometric_representation_theor_2.html#c012724).
 
 
-## Background on theory theory
+## Background on the theory of theories
 
-> [[Urs Schreiber|Urs]]: this section title is my fault. Find a better one.
 
 The notion of _classifying topos_ is part of a trend, begun by [[Bill Lawvere|Lawvere]], of viewing a mathematical [[theory]] as a category with suitable exactness properties and which contains a "generic model", and a model of the theory as a functor which preserves those properties. The original example is that of finitary [[algebraic theory]], which was reformulated in terms of categories with finite products (see [[Lawvere theory]]). 
 
