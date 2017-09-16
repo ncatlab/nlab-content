@@ -1,3 +1,3 @@
-see [[descent]]
+See [[descent]].
 
 category: redirect
