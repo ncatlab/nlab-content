@@ -33,6 +33,10 @@ Then $dR' : Spaces \to Spaces$ may be defined as the [[right adjoint]] to $Red$.
 This definition coincides with the previous one on 
 those spaces that are [[formally smooth scheme]]s. In fact, a [[scheme]] $X$ is [[formally smooth scheme|formally smooth]] precisely if the [[right adjoint]] of $Red$ applied to $X$ coincides with the coequalizer of $(X^D \stackrel{\to}{\to} X)$.
 
+# Related concepts #
+
+See also [[Grothendieck connection]], which is sometimes called **deRham descent**. 
+
 #References#
 
 The deRham space construction on spaces ([[scheme]]s) is described in [section 3, p. 7](http://math.berkeley.edu/~teleman/math/simpson.pdf#page=7)
