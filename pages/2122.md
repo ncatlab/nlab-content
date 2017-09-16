@@ -75,4 +75,9 @@ _Toby_:  I can see that a list of categories *with properties* could be useful.
 John, you don\'t mean Recently Revised; you mean [[latest changes]].  (Your link will break when Recently Revised itself comes back.)
 
 Rafael, I don\'t know if you\'ve been checking [[latest changes]], but I often log your edits there after I see them.  But I don\'t see why anyone would get upset that you don\'t read their commentary if they leave it on the wrong page.
+
+_Rafael_: I am sorry to have missed the logging but i only recently by accident noticed that you also log at Latest Changes. I thought that all changes were in Recently Revised. Since Toby is logging for me, thanks Toby, i will try to remember to do it myself so others don't have to do it for me.
+
+
+  
 =--
