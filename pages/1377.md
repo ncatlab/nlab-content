@@ -41,6 +41,10 @@ Since on the nLab, everything is weak by default, it seems that we should probab
 [[Finn Lawler|Finn]]:  For Gray, $C,D,F,G$ are all strict, and $\eta,\epsilon$ are lax.  I'm still trying to understand the connection between the two formulations, so I'm not sure how extra weakness on one side translates to the other.  I should have a better idea soon.
 
 [[Mike Shulman|Mike]]: Unfortunately, there is no 3-category, not as usually understood, in which the 2-cells are lax transformations.  The interchange law for whiskering lax transformations holds only laxly, so at most you have some sort of 'lax 3-category.'  Actually, in the case of $2Cat$, what you have is that $2Cat$ with the lax [[Gray tensor product]] is biclosed and hence enriched over itself, and that sort of enrichment is the relevant 3-category-like structure.  (More grist for [[michaelshulman:n-topos for large n|my mill]] that lax things are important!)
+
+[[Finn Lawler|Finn]]:  Yes, that's been worrying me.  Figuring out the relationship between the two definitions will be my mini-project for the coming week -- it's about time I got to grips with this sort of enriched-Yoneda wizardry.
+
+Gray shows that given a strict 2-adjunction between the 2-comma categories $(F\downarrow D)$ and $(C\downarrow G)$ you get lax $\eta,\epsilon$.  Maybe using a stricter comma construction will yield pseudo-natural unit and counit -- I don't know, but I'll try to find out.  (Of course, any hints or suggestions you have will be greatly appreciated!)
 =--
 
 ## Sources ##
@@ -57,4 +61,8 @@ except that they allow $F$ to be an oplax functor, $G$ a lax functor, $\hat\phi$
 [[Finn Lawler|Finn]]:  I'm roughly following Seely, _Modelling computations: a 2-categorical framework_, from [here](http://www.math.mcgill.ca/~rags/WkAdj/LICS.pdf).  He cites Gray and Kelly--Street, _Review of the elements of 2-categories_ (which I haven't seen yet).
 
 [[Mike Shulman|Mike]]: Kelly-Street don't say anything about lax adjunctions.  I want to make sure we think seriously about what this sort of thing should be called, rather than just following one or another author.  As far as I can tell, it doesn't fit into the general precise meaning of 'lax' (being a type of morphism of algebras for a 2-monad), and there are so many possible variations (as in Gray's book) that it might be nice to have a sensible system of nomenclature that would include them all.  Maybe.  On the other hand, I actually never really took Gray's stuff very seriously because I couldn't think of any examples; maybe I should look more closely at Seely's paper.
+
+[[Finn Lawler|Finn]]:  Yes, that would be nice, but I for one don't know enough yet about the big picture to make any suggestions that would generalize easily.
+
+I'm interested in this stuff because I want to use strict 2-categories with lax structure to model rewrite systems, as Seely does.  These lax/quasi/local adjunctions are one way of specifying lax structure, but there are probably others (3-monads on 2-Cat?  Lawvere 3-theories?).
 =--
