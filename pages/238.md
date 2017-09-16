@@ -15,6 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-04-20 #
 
 *  [[Toby Bartels]]:
+   *  Yet more at [[pure set]].  See the pretty pictures!  Or rather ... make them pretty if you know how, for I do not.  (;_;)
    *  Another question for Finn, now at [[minimal logic]].
    *  More correct material at [[pure set]].
 
