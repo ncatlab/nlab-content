@@ -189,4 +189,59 @@ This is how you know the notion of natural transformation is morally the "right"
 
 [[Urs Schreiber]]: I added above a subsection on this characterization in terms of the cartesian closed monoidal structure on $Cat$.
 
+[[Eric]]: I think I got it. 
+
+Given two functors $F:A\to B$ and $G:C\to D$, let $\alpha:F\Rightarrow G$ together with component functors $\alpha_C:A\to C$ and $\alpha_D:B\to D$ be a map such that 
+$$\alpha_D\circ F\Rightarrow G\circ\alpha_C$$
+is a natural transformation (in the standard sense). Does this guy have a name?
+
+The reason why I bring this up is that I do not like bigons. Bigons are not a good shape for doing computational geometry, geometric realization, etc. So before I could finally grok what a [[cone]] was, I had to draw a bunch of diagrams. These diagrams were bigons. Yucky!
+
+Thanks Todd. That was a valiant effort, but didn't manage to convince me (I have a thick skull!). I still like this more general definition. Given topological spaces $W,X,Y,Z$, we could also be interested in studying spaces $(W\to X)\Rightarrow (Y\to Z)$. What you described would then be a special case where $W=Y$ and $X=Z$.
+
+Here is my attempt to formalize an alternative definition:
+
+***
+
+>##Definition##
+
+>Given categories $A$,$B$,$C$,$D$ and functors $F:A\to B$,$G:C\to D$ a __natural transformation__ $\alpha:F \Rightarrow G$ 
+$$ 
+  \array{ 
+    A 
+    & 
+    \stackrel{F}{\to} 
+    & 
+    B 
+    \\ 
+    \mathllap{\scriptsize{\alpha_C}}\downarrow 
+    &\mathllap{\scriptsize{\alpha}}\Downarrow & 
+    \downarrow\mathrlap{\scriptsize{\alpha_D}}
+    \\ C 
+    & 
+    \stackrel{G}{\to} & D 
+  }
+$$
+>assigns functors $\alpha_C:A\to C$ and $\alpha_D:B\to D$ called **component functors** and for any morphism $f:x\to y$ in $A$ assigns morphisms $\alpha_x:\alpha_D\circ F(x)\to G\circ\alpha_C(x)$ and $\alpha_y:\alpha_D\circ F(y)\to G\circ\alpha_C(y)$ in $D$ called **component morphisms** such that the following diagram commutes in $D$:
+$$ 
+  \array{ 
+    \alpha_D\circ F(x) 
+    & 
+    \stackrel{\alpha_D\circ F(f)}{\to} 
+    & 
+    \alpha_D\circ F(y) 
+    \\ 
+    \mathllap{\scriptsize{\alpha_x}}\downarrow 
+    && 
+    \downarrow\mathrlap{\scriptsize{\alpha_y}} 
+    \\ G\circ\alpha_C(x) 
+    & 
+    \stackrel{G\circ\alpha_C(f)}{\to} & G\circ\alpha_C(y) 
+  }
+$$
+
+***
+
+Again, this reduces to the traditional definition when $\alpha_C$ and $\alpha_D$ are identity functors. What do you think? If this doesn't already have a name (it probably does), what would be a good name for it?
+
 [[!redirects natural transformations]]
