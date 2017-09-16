@@ -1,8 +1,7 @@
 [[!redirects semiring]]
 [[!redirects rigs]]
 [[!redirects semirings]]
-[[!redirects tropical rig]]
-[[!redirects tropical semiring]]
+
 
 A __rig__, or __semiring__, is a [[ring]] 'without negatives' (hence the missing 'n' in the name, get it?).
 
