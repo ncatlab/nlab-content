@@ -24,11 +24,13 @@ $$\int \sum_{1 \leq i \leq n} a_i \chi_{S_i} d\mu = \sum_{1 \leq i \leq n} a_i \
 
 The integral is extended to all measurable functions $f: X \to [0, \infty]$ by the rule 
 
-$$\int f = \sup \{\int s d\mu: 0 \leq s \leq f, s simple\}$$ 
+$$\int f d\mu = \sup \{\int s d\mu: 0 \leq s \leq f, s simple\}$$ 
+
+* Sometimes the notation used is $\int_X f d\mu$. If $S \subseteq X$ is measurable, one may define $\int_S f d\mu$ to be $\int_X \chi_S \cdot f d\mu$. 
 
 A measurable function $f: X \to [0, \infty]$ is **integrable** with respect to $\mu$ if its integral is finite. For measurable functions $f: X \to [-\infty, \infty]$, define $f_+$ and $f_{-}$ by 
 
-$$f_+(x) = \max{f(x), 0}, \qquad f_{-}(x) = \max{-f(x), 0}$$ 
+$$f_+(x) = \max\{f(x), 0\}, \qquad f_{-}(x) = \max\{-f(x), 0\}$$ 
 
 so that $f = f_+ - f_{-}$, $|f| = f_+ + f_{-}$. We say $f$ is **integrable** if both $f_+$ and $f_{-}$ are integrable, and we put 
 
