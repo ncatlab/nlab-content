@@ -149,3 +149,42 @@
  </g> 
                   </g> 
 </svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"> <defs>
+<marker id="myarrow" viewBox="0 0 10 10" refX="0" refY="5" 
+      markerUnits="strokeWidth"
+      markerWidth="10" markerHeight="10"
+      orient="auto"> <path d="M 0 0 L 10 5 L 0 10 z" /> </marker>
+</defs> <foreignObject x="0ex" y="0ex" width="3ex" height="2.5ex">
+<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
+<mi>A</mi>
+</math>
+</foreignObject> <foreignObject x="7ex" y="0ex" width="3ex" height="2.5ex">
+<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
+<mi>B</mi>
+</math>
+</foreignObject> <foreignObject x="0ex" y="8.5ex" width="3ex" height="2.5ex">
+<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
+<mi>C</mi>
+</math>
+</foreignObject> <foreignObject x="7ex" y="8.5ex" width="3ex" height="2.5ex">
+<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
+<mi>D</mi>
+</math>
+</foreignObject> <line x1="3ex" y1="1.75ex" x2="7ex" y2="1.75ex" stroke="black" stroke-width="1" marker-end="url(#myarrow)" /> <foreignObject x="0ex" y="-3.25ex" width="10ex" height="3ex">
+<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
+<mi>f</mi>
+</math>
+</foreignObject> <line x1="1.5ex" y1="3ex" x2="1.5ex" y2="7.75ex" stroke="black" stroke-width="1" marker-end="url(#myarrow)" /> <foreignObject x="-1.5ex" y="2.875ex" width="10ex" height="3ex">
+<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
+<mi>g</mi>
+</math>
+</foreignObject> <line x1="8.5ex" y1="3ex" x2="8.5ex" y2="7.75ex" stroke="black" stroke-width="1" marker-end="url(#myarrow)" /> <foreignObject x="5.5ex" y="2.875ex" width="10ex" height="3ex">
+<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
+<mi>h</mi>
+</math>
+</foreignObject> <line x1="3ex" y1="10.25ex" x2="7ex" y2="10.25ex" stroke="black" stroke-width="1" marker-end="url(#myarrow)" /> <foreignObject x="0ex" y="5.25ex" width="10ex" height="3ex">
+<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
+<mi>k</mi>
+</math>
+</foreignObject> </svg> 
