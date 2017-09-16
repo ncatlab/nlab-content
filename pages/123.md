@@ -161,6 +161,6 @@ $$F^*(1_V) = 1_{F^*(V)}$$
 
 as required. Hence, $F^*$ is a functor.
 
-* See [[functor (discussion)]] for an informal discussion about functors.
+* See also an [[experimental alternative definition of functor]].
 
 [[!redirects functors]]
