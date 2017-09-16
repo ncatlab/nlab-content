@@ -80,15 +80,17 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
     * [[discrete category]]
 
-    * [[monoid]]
+    * [[poset]]
 
     * [[groupoid]]
 
+    * [[monoid]]
+
     * [[group]]
 
-    * [[poset]]
-
     * [[arrow category]]
+
+    * [[comma category]]
 
   * concrete examples
 
