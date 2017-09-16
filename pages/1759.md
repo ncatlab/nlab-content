@@ -15,16 +15,17 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-04
 
-*  [[Tim]]: I have asked a silly question at [[pseudofunctor]], but would appreciate an answer. Can I make a plea to someone to provide a more detailed treatment of the Grothendieck construction as well. (I mean the one which is related to the pseudocolimit. At least a general reference to that should be in the entry.)
+*  [[Toby Bartels]]:  Mentioned [[automorphism groups]].
 
+*  [[Tim]]: I have asked a silly question at [[pseudofunctor]], but would appreciate an answer. Can I make a plea to someone to provide a more detailed treatment of the Grothendieck construction as well. (I mean the one which is related to the pseudocolimit. At least a general reference to that should be in the entry.)
 
 *  [[Toby Bartels]]:
    *  Put some stuff at [[equality]], but there is much more that could and should be said there.
    *  Added some pretty broad examples to [[evil]].
 
-* [[Tim]]: I have added new references to [[distributor]] and [[Grothendieck fibration]].
+*  [[Tim]]: I have added new references to [[distributor]] and [[Grothendieck fibration]].
 
-*  [[Toby Bartels]] added a bit to the scandalously short page [[isomorphism]].
+*  [[Toby Bartels]]:  Added a bit to the scandalously short page [[isomorphism]].
 
 
 ## 2009-07-03
