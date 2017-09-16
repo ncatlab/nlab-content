@@ -74,3 +74,11 @@ The second condition implies that the functor $F_Q$ in the first condition is un
 * In [[2-limit|2-categorical terms]], the homotopy category $Ho(C)$ is the _coinverter_ of the canonical 2-cell
 $$\array{& \to \\ W & \Downarrow & C\\ & \to}$$
 where $W$ is the category whose objects are morphisms in $W$ and whose morphisms are commutative squares in $C$.
+
+#Derived category#
+
+What is called a [[derived category]] is the special case of the homotopy category of a [[category of chain complexes]] in an [[abelian category]]. See [[derived category]] for more details.
+
+#References#
+
+See the references at [[model category]].
