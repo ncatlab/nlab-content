@@ -1,8 +1,7 @@
-
 #Contents#
 
-{:toc}
-
+* table of contents
+{: toc}
 
 #Idea#
 
@@ -2156,7 +2155,9 @@ is the **fibre** of $p$ and $i$ is the _fibre inclusion_.
 (This is the _kernel_ of the morphism $f$ of [[pointed object]]s)
 
 
-## [[fibration sequence|Fibration sequences]] ##
+## Fibration Sequences ##
+
+(See also [[fibration sequence]])
 
 For $B$ any object and $B^I$ any of its [[path object]]s, the fiber of $B^I \stackrel{d_0 \times d_1}{\to} B \times B$ is the **[[loop space object|loop object]]** $\Omega^{(I)} B$ of $B$ with respect to the chosen path object. This construction becomes independent up to canonical isomorphism of the chosen path space after mapping to the [[homotopy category]] and hence there is a functor
 
