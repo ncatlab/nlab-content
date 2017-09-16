@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -33,7 +32,7 @@ In usual ring theory people often talk about nonunital rings as well: multiplica
 
 One can define a semigroup object in any [[monoidal category]] simply by leaving off the unit condition of a monoid object; then a semigroup object in $Ab$ is a nonunital ring.  In order to talk about commutative semigroups, of course the monoidal category needs to be symmetric. To internalize $Ab$ to internal abelian group objects in a monoidal category it also needs to be symmetric. Thus one has a notion of a (unital or not) ring object in any symmetric monoidal category.
 
-## rings over/under a ring ##
+## rings over a ring ##
 
 There is another generalization of rings: generalizing $k$-algebras to $A$-rings. Instead of a commutative unital ring $k$ (for algebras) take any (nonunital noncomutative) ring $A$. An $A$-ring $R$ is simply a monoid in the (nonsymmetric) monoidal category of $A$-bimodules. Every $A$-ring is a ring in the usual sense, in the sense that there is an obvious forgetful functor to the usual rings. In fact the unit map $A\to R$ is a morphism of rings, and the category of $A$-rings is precisely the [[coslice category]] $A/Ring$. Unfortunately, by the tradition, apart from being called $A$-rings, the objects (in Ring) *under* $A$ are usually called *rings over* $A$. Unlike for the $k$-algebras, the multiplication $R\times R\to R$ is not $A$-linear in the second factor, but only $\mathbb{Z}$-linear. 
 
@@ -43,9 +42,14 @@ A dual notion to an $A$-ring is an $A$-[[coring]].
 
 See the discussion 'quick algebra quiz' at [cafe](http://golem.ph.utexas.edu/category/2008/12/a_quick_algebra_quiz.html).
 
+##Remark##
+
+So sometimes for a notion of a ring in a monoidal category one does not ask for an additive group structure (internal to a symmetric monoidal category) if it is already present on the objects in that category: examples are simplicial rings (as monoids in simplicial abelian groups) and dg-rings, and $A$-rings. In other context e.g. a ring in a topos, and simplicial rings viewed as rings in simplicial sets, one needs explicitly to combine a semigroup and an internal abelian group structure. The rings will be algebras over a composed operad (or monad) of a semigroup operad and an abelian group operad, using a standard [[distributive law]] for that situation in the sense of operads (or monads).
+
+
 ## In an arbitrary topos ##
 
-The ordinary definition of _ring_ makes sense [[internalization|internal to]] an arbitary [[topos]]. Picking a ring object $R$ in a [[topos]] $\mathcal{T}$ makes that a [[ringed topos]].
+The ordinary definition of _ring_ makes sense [[internalization|internal to]] an arbitary [[topos]]. This means that one either takes a set theoretical definition and interprets in the sense of the language of the topos, or takes the definition in terms of diagrams for the abelian group, multiplicative semigroup and the distributivity, where the cartesian product is the monoidal structure used. Picking a ring object $R$ in a [[topos]] $\mathcal{T}$ promotes it into a [[ringed topos]].
 
 An ordinary ring is a ring object in the [[topos]] [[Set]].
 
