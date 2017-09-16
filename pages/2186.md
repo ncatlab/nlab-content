@@ -49,7 +49,13 @@ $$
 f_F\lt g_F \;\Leftrightarrow\; \{i\in\mathbb{N}|f(i)\lt g(i)\}\in F,
 $$
 
-which makes $*:\mathbb{R}\hookrightarrow {}^*\mathbb{R}$ a [[monotone function]]. An element $\delta\in{}^*\mathbb{R}$ such that $^* 0\lt\delta$ is called a __positive number__; an element $\delta$ such that $^* r\lt\delta\lt{}^* r$ for all $r\in \mathbb{R}$ such that $r\gt 0$ is called an __infinitesimal number__. Unlike in the real numbers, positive infinitesimal numbers exist: for example the class $f_F$ where $f:n\mapsto 1/n$ is such and $g_F$ for $g:n\mapsto 1/n^2$ is a different one. 
+which makes $*:\mathbb{R}\hookrightarrow {}^*\mathbb{R}$ a [[monotone function]]. 
+
+* An element $\delta\in{}^*\mathbb{R}$ such that $^* 0\lt\delta$ is called a __positive number__ .  
+
+* An element $\delta$ such that for all positive $r\in \mathbb{R}$ we have  $\delta\lt{}^* r$ is called an __infinitesimal number__. 
+
+Unlike in the real numbers, positive infinitesimal numbers exist: for example the class $f_F$ where $f:n\mapsto 1/n$ is such and $g_F$ for $g:n\mapsto 1/n^2$ is a different one. 
 
 
 Let $n$ be a nonnegative integer and $u:\mathbb{R}^n\to\mathbb{R}$ a function. Then there is a nonstandard extension $^* u:({}^*\mathbb{R})^n\to{}^*\mathbb{R}$ of $f$; it is defined by
@@ -104,12 +110,21 @@ Very roughly, this is the mechanism by which aspects of nonstandard analysis are
 
 +--{: .query}
 [[Mike Shulman]]: I don't think it's as simple as that.  I mean, already in $Set$ the object $\mathbb{R}$ has generalized elements on the domain of definition $\mathbb{N}$, which are also sequences of real numbers.  So if there's any nonstandard analysis to be recovered here, there has to be more to it than that.
+
+[[Urs Schreiber]]: yes, there should be more. Here is a bit more:
+
 =--
 
-For details see chapter 6 of
+The _generic non-standard natural number_ is the [[generalized element]] of $N$ on the domain of definition $\ell C^\infty(\mathbb{N})/{NullTail}$, where $NullTail$ is the ideal of sequences of real numbers that vanish above some integer, given by the canonical injection $\ell C^\infty(\mathbb{N})/NullTail \to N$ that is dual to the canonical projection of the ring onto its quotient.
+
+The ring $C^\infty(\mathbb{N})/NullTail$ here is a quotient ring of sequences as above, where two sequences are identified if they agree above some integer. So $\ell C^\infty(\mathbb{N})/NullTail$ is the [[smooth locus]] whose function algebra is a nonstandard extension of $\mathbb{R}$.
+
+
+For details see chapter VI of
 
 * [[Ieke Moerdijk]] and [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
 
+The generic non-standard natural number is discussed on page 252.
 
 #References#
 
@@ -117,5 +132,5 @@ For details see chapter 6 of
 
 * Jerome Keisler, _Elementary calculus: an infinitesimal approach_, [online](http://www.math.wisc.edu/~keisler/calc.html) undergraduate textbook.
 
-* Wikipedia: [nonstandard analysis](http://en.wikipedia.org/wiki/Non-standard_analy), [ultraproduct](http://en.wikipedia.org/wiki/Ultraproduc), [hyperreal numbers](http://en.wikipedia.org/wiki/Hyperreal_numbers), [Abraham Robinson](http://en.wikipedia.org/wiki/Abraham_Robinson)
+* Wikipedia: [nonstandard analysis](http://en.wikipedia.org/wiki/Non-standard_analysis), [ultraproduct](http://en.wikipedia.org/wiki/Ultraproduct), [hyperreal numbers](http://en.wikipedia.org/wiki/Hyperreal_numbers), [Abraham Robinson](http://en.wikipedia.org/wiki/Abraham_Robinson)
 
