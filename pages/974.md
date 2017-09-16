@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include compact object - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
