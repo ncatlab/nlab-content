@@ -6,7 +6,7 @@
 
 ## Idea
 
-The **join** $S \star T$ of two [[simplicial set]]s $S$ and $T$ is a new simplicial set that may geometrically be thought of as a [[cone]] over $T$ with tip of shape $S$. 
+The **join** $S \star T$ of two [[simplicial set]]s $S$ and $T$ is a new simplicial set that may geometrically be thought of as a [[cone]] over $T$ with tip of shape $S$. Topologically, it can also be thought of as the union of line segments connecting $S$ to $T$ if both are placed in general position. 
 
 If the simplicial sets in question are [[quasi-categories]] the notion of join on them produces the notion of [[join of quasi-categories]] that underlies many constructions in [[higher category theory]] such as the definition of [[limit in a quasi-category]].
 
@@ -91,6 +91,10 @@ $$
     S_i \times S'_j \cdot \Delta([n],[i] \otimes_{join} [j])
   \,.
 $$
+
+Note that the join of simplicial sets $S \star T$ is cocontinuous in each of its separate arguments $S$, $T$ (this is true generally of Day convolution products). This observation can help simplify calculations. For example, simplicial joins preserve unions in the first argument $S$, and inasmuch as horns are unions of face simplices, it follows easily that 
+
+$$\Lambda^k[m] \star \Delta[n] \cong \Lambda^k[m+n+1]$$
 
 ### Extension to a closed monoidal structure
 
