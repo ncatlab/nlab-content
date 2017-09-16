@@ -183,4 +183,6 @@ $$
 
 If so, it has a certain beauty that appeals to me. Thanks!
 
+Urs: that diagram seems to be meaningful only if $A = B$, right? In that case, this is a functor $F : A \to A$ together with a natural transformation from the identity functor on $A$ into $F$.
+
 [[!redirects functors]]
