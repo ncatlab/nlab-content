@@ -34,13 +34,6 @@ whenever this makes sense. For instance in the context of
 may be taken to be the fibration classified by $\chi_f : C \times D^{op} \to (\infty,0)$
 as described at  [[universal fibration of (infinity,1)-categories]].
 
-+--{: .query}
-[[Mike Shulman]]: Why are we using "weak pullback" here?  The page [[weak pullback]] is basically a disambiguation page, so I think that elsewhere we should instead use precise terminology and links.  In this case what is meant is a [[comma object]], yes?
-
-[[Urs Schreiber]]: yes, I have changed this accordingly. I have also renamed the disambiguation page that used to be at [[weak pullback]] into [[2-pullback]].
-
-=--
-
 
 # Definition #
 
