@@ -1929,6 +1929,8 @@ The following Tables develop these ideas in more detail.
 
 </table>
 
+<br>
+
 <table align="center" cellpadding="1" cellspacing="0" markdown="1" style="text-align:center; width:90%">
 
 <caption><font size="+2">$\text{Table 9.} \:\: \text{Simple Qualifiers of Propositions (Version 2)}$</font></caption>
@@ -1976,17 +1978,17 @@ The following Tables develop these ideas in more detail.
     $is   \: v$</td></tr>
 
 <tr>
-<td>$f_{0}$</td>
-<td>$0000$</td>
-<td style="border-right:2px solid black">$\text{&#x2997; &#x2998;}$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:white; color:black">$0$</td></tr>
+<td style="border-bottom:2px solid black">$f_{0}$</td>
+<td style="border-bottom:2px solid black">$0000$</td>
+<td style="border-bottom:2px solid black; border-right:2px solid black">$\text{&#x2997; &#x2998;}$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td></tr>
 
 <tr>
 <td>$f_{1}$</td>
@@ -2028,17 +2030,17 @@ The following Tables develop these ideas in more detail.
 <td style="background:white; color:black">$0$</td></tr>
 
 <tr>
-<td>$f_{8}$</td>
-<td>$1000$</td>
-<td style="border-right:2px solid black">$u \: v$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:black; color:white">$1$</td></tr>
+<td style="border-bottom:2px solid black">$f_{8}$</td>
+<td style="border-bottom:2px solid black">$1000$</td>
+<td style="border-bottom:2px solid black; border-right:2px solid black">$u \: v$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td></tr>
 
 <tr>
 <td>$f_{3}$</td>
@@ -2054,17 +2056,17 @@ The following Tables develop these ideas in more detail.
 <td style="background:white; color:black">$0$</td></tr>
 
 <tr>
-<td>$f_{12}$</td>
-<td>$1100$</td>
-<td style="border-right:2px solid black">$u$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:black; color:white">$1$</td></tr>
+<td style="border-bottom:2px solid black">$f_{12}$</td>
+<td style="border-bottom:2px solid black">$1100$</td>
+<td style="border-bottom:2px solid black; border-right:2px solid black">$u$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td></tr>
 
 <tr>
 <td>$f_{6}$</td>
@@ -2080,17 +2082,17 @@ The following Tables develop these ideas in more detail.
 <td style="background:white; color:black">$0$</td></tr>
 
 <tr>
-<td>$f_{9}$</td>
-<td>$1001$</td>
-<td style="border-right:2px solid black">$\text{&#x2997;&#x2997;} u \text{&#xFE50;} v \text{&#x2998;&#x2998;}$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:black; color:white">$1$</td></tr>
+<td style="border-bottom:2px solid black">$f_{9}$</td>
+<td style="border-bottom:2px solid black">$1001$</td>
+<td style="border-bottom:2px solid black; border-right:2px solid black">$\text{&#x2997;&#x2997;} u \text{&#xFE50;} v \text{&#x2998;&#x2998;}$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td></tr>
 
 <tr>
 <td>$f_{5}$</td>
@@ -2106,17 +2108,17 @@ The following Tables develop these ideas in more detail.
 <td style="background:white; color:black">$0$</td></tr>
 
 <tr>
-<td>$f_{10}$</td>
-<td>$1010$</td>
-<td style="border-right:2px solid black">$v$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:black; color:white">$1$</td></tr>
+<td style="border-bottom:2px solid black">$f_{10}$</td>
+<td style="border-bottom:2px solid black">$1010$</td>
+<td style="border-bottom:2px solid black; border-right:2px solid black">$v$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td></tr>
 
 <tr>
 <td>$f_{7}$</td>
@@ -2158,17 +2160,17 @@ The following Tables develop these ideas in more detail.
 <td style="background:black; color:white">$1$</td></tr>
 
 <tr>
-<td>$f_{14}$</td>
-<td>$1110$</td>
-<td style="border-right:2px solid black">$\text{&#x2997;&#x2997;} u \text{&#x2998;&#x2997;} v \text{&#x2998;&#x2998;}$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:white; color:black">$0$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:black; color:white">$1$</td>
-<td style="background:black; color:white">$1$</td></tr>
+<td style="border-bottom:2px solid black">$f_{14}$</td>
+<td style="border-bottom:2px solid black">$1110$</td>
+<td style="border-bottom:2px solid black; border-right:2px solid black">$\text{&#x2997;&#x2997;} u \text{&#x2998;&#x2997;} v \text{&#x2998;&#x2998;}$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:white; color:black">$0$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td>
+<td style="border-bottom:2px solid black; background:black; color:white">$1$</td></tr>
 
 <tr>
 <td>$f_{15}$</td>
