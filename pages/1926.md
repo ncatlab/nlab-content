@@ -23,10 +23,10 @@ Since the specification of $\mathcal{G}$ encodes what we want to _mean_ by _geom
 By the general abstract nonsense of [[space and quantity]], the most general notion of [[space]] modeled on the test objects in $\mathcal{G}$ is an [[∞-stack]] on $\mathcal{G}$. We write
 
 $$
-  \mathbf{H} := Sh_\infty(C)
+  \mathbf{H} := Sh_\infty(Pro(C))
 $$
 
-for a choice of [[(∞,1)-category of (∞,1)-sheaves]] on $\mathcal{G}$: the **gros [[(∞,1)-topos]] of $C$-geometric spaces**.
+for a choice of [[(∞,1)-category of (∞,1)-sheaves]] on [[pro-object]]s in $\mathcal{G}$: the **gros [[(∞,1)-topos]] of $\mathcal{G}$-geometric spaces**.
 The choice of $\mathbf{H}$ on top of the choice of $\mathcal{G}$ encodes the notion **locality** of spaces modeled on $\mathcal{G}$.
 
 The [[Yoneda embedding]] $\mathcal{G} \hookrightarrow Sh_\infty(\mathcal{G})$ ensures that every test space in $\mathcal{G}$ may canonically be regarded as a general space modeled on $\mathcal{G}$. When studying geometry it is of interest to refine this inclusion of very simple into very general spaces through a hierarchy
@@ -35,11 +35,11 @@ of types of spaces of decreasing rigid geometric structure, for instance:
 $$
   \array{
     \mathcal{G} &\stackrel{Spec^{\mathcal{G}}}{\hookrightarrow}& Sch(\mathcal{G}) &\hookrightarrow&
-   Sh_\infty(\mathcal{G})
+   Sh_\infty(Pro(\mathcal{G}))
    \\
     && \downarrow && \downarrow
    \\
-   && Str(\mathcal{G}) &\hookrightarrow& PSh_\infty(\mathcal{G})
+   && Str(\mathcal{G}) &\hookrightarrow& PSh_\infty(Pro(\mathcal{G}))
   }
 $$
 
