@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-08 #
 
+* [[Todd Trimble]]: asked Alex a question at [[Alex Hoffnung]]. 
+
 * [[Bruce Bartlett|Bruce]]: Added link to notes to the strings, fields and topology workshop at Oberwolfach. Also added a "How To" section for creating CSS gismos like query boxes on your personal nLab wiki space.
 
 # 2009-06-07 #
