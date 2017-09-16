@@ -19,7 +19,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-08-26
 
 *  [[Toby Bartels]]:
-   *  Started [[complex number]].
+   *  Started [[complex number]], [[hypercomplex number]].
    *  Edits to [[cobordism category]], particularly addition of #Idea# and noting that the alleged direct sum is just a coproduct.
 
 * [[Urs Schreiber]]: created [[infinitesimal object]], with a bit of material, but haven't found yet the time to round this up and polish
