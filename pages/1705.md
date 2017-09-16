@@ -26,3 +26,7 @@ A comprehensive survey of the general topic involved here is
 * [[Tim Porter]], _$S$-Categories, $S$-groupoids, Segal categories and quasicategories_ ([arXiv](http://arxiv.org/abs/math/0401274))
 
 Hammock localization is described in section 4.1 there.
+
+A useful quick collection of facts is in the beginning of section 2 of 
+
+* Clark Barwick, _On (enriched) Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
