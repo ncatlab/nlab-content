@@ -20,7 +20,7 @@ $$
 
 In this form the Yoneda lemma is also referred to as [[Yoneda reduction]].
 
-Under [[duality|abstract duality|]] an [[end]] turns into a [[coend]], so a co-Yoneda lemma ought to be a similarly fundamental expression for $F(c)$ in terms of a [[coend]].
+Under [[duality|abstract duality]] an [[end]] turns into a [[coend]], so a co-Yoneda lemma ought to be a similarly fundamental expression for $F(c)$ in terms of a [[coend]].
 
 The natural candidate is the statement that **every [[presheaf]] is a [[colimit]] of [[representable functor|representables]]** which may be stated as
 
