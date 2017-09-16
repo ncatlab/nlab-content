@@ -119,8 +119,7 @@ $$
 
 [[Urs Schreiber]]: This section is supposed to provide a useful reformulation of the simplicial deRham complex in the context described at [[schreiber:∞-Lie theory]].
 
-The statement is supposed to be:
-
+In the language uses there, the statement we establish is the following:
 
 =--
 
@@ -140,9 +139,7 @@ Let $(\mathcal{T} = Sh(C),R)$ be a [[Models for Smooth Infinitesimal Analysis|we
 
 =--
 
-The following discussion breaks this down and then means to prove it.
-
-> but check
+The following discussion breaks this down and then desccribes the proof.
 
 As a preparation, recall from the discussion at [[differential forms in synthetic differential geometry]] that if we pass from [[Diff]] to a [[smooth topos]] $(\mathcal{T},R)$ that models the axioms of [[synthetic differential geometry]], then for sufficiently well-behaved objects $X \in \mathcal{T}$ there is the [[infinitesimal singular simplicial complex]] $X^{\Delta^\bullet_{inf}} : \Delta^{op} \to \mathcal{T}$, the [[simplicial object]] that in degree $k$ is the [[space]] of [[infinitesimal object|infinitesimal]] $k$-[[simplex|simplices]] in $X$.
 
@@ -177,7 +174,7 @@ where
 The above proposition now reads in pedestrian terms:
 
 +-- {: .un_prop}
-###### supposed Proposition
+###### Proposition
 
 The [[Moore complex|Moore cochain complex]] of the [[cosimplicial algebra]] $C^\infty(\Pi^{inf}(X_\bullet)) := Hom_{\mathcal{T}}(\Pi^{inf}(X_\bullet),R)$ is [[quasi-isomorphism|quasi-isomorphic]] to the simplicial deRham complex of $X_\bullet$.
 
@@ -185,9 +182,9 @@ The [[Moore complex|Moore cochain complex]] of the [[cosimplicial algebra]] $C^\
 
 
 +-- {: .proof}
-###### supposed Proof
+###### Proof
 
-The problem is entirely controlled by the bisimplicial object $([p],[q]) \mapsto (X_p)^{\Delta^q_{inf}}$.
+The problem is entirely controlled by the [[bisimplicial object]] $([p],[q]) \mapsto (X_p)^{\Delta^q_{inf}}$.
 We know that 
 
 * for fixed $p$, the normalized [[Moore complex]] of the [[cosimplicial algebra]] $Hom((X_p)^{\Delta^\bullet_{inf}},R)$ is the [[deRham complex]] of $X_p$ -- this is the statement about combinatorial [[differential forms in synthetic differential geometry]].
