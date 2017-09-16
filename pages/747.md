@@ -27,7 +27,7 @@ In
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
 a fully general definition of a [[(infinity,1)-category of (infinity,1)-sheaves|(infinity,1)-category of infinity-stacks]] is given it is shown -- proposition 6.5.2.1 --
-that, indeed, the Brown-Joyal-Jardine model is a [[presentable (infinity,1)-category|presentation]] of that.
+that, indeed, the Brown--Joyal--Jardine model is a [[presentable (infinity,1)-category|presentation]] of that.
 
 More precisely
 
@@ -57,7 +57,7 @@ But since in all cases the weak equivalences are the same (where they apply, for
 By Lurie's result these are in each case in turn equivalent to the [[homotopy category of an (infinity,1)-category|homtopy category of]] the [[(infinity,1)-topos]] of [[infinity-stack]]s. So in particular they serve as a home for general [[cohomology]].
 
 
-Various old results appear in a new light this way. For instance using the old result of [[BrownAHT]] on the way ordinary [[abelian sheaf cohomology]] is embedded in the [[homotopy theory]] of simplicial sheaves, one sees that the old right derived functor definition of [[abelian sheaf cohomology]] really computes the [[infinity-stackification]] of a sheaf of [[chain complex]]es regarded under the [[Dold-Kan correspondence]] as a simplicial sheaf.
+Various old results appear in a new light this way. For instance using the old result of [[BrownAHT]] on the way ordinary [[abelian sheaf cohomology]] is embedded in the [[homotopy theory]] of simplicial sheaves, one sees that the old right derived functor definition of [[abelian sheaf cohomology]] really computes the [[infinity-stackification]] of a sheaf of [[chain complex]]es regarded under the [[Dold–Kan correspondence]] as a simplicial sheaf.
 
 
 # Map #
@@ -122,7 +122,7 @@ $$
      cofibrant = global projective cofib;
      \\
      &&&&&&&&&
-     fibrant = Kan-valued and...    
+     fibrant = Kan valued and...    
      \\
      &&&&&&&&&
      \;\;\; 
@@ -196,7 +196,7 @@ $$
 
 On the right this lists the model structures on simplicial (pre)sheaves, here displayed as (pre)sheaves with values in [[simplicial set]]s, using $SPSh(C) \simeq PSh(C,SSet)$.
 
-On the left we have the Joyal-Tierney and Luo-Bubenik-Tim [[model structures on presheaves of simplicial groupoids]].
+On the left we have the Joyal--Tierney and Luo--Bubenik--Tim [[model structures on presheaves of simplicial groupoids]].
 
 (...have to check here the relation $Sh(X,SGrpd)\leftrightarrow PSh(X, SGrpd)$)
 
