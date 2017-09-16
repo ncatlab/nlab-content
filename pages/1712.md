@@ -1,1 +1,1 @@
-See [Wikipedia](http://en.wikipedia.org/wiki/Semi-direct_product) until we get our own article.
+&lt; [[semidirect product]]
