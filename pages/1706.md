@@ -154,12 +154,8 @@ A videa of Lurie lecturing on his theorem is here:
 
 * [[Jacob Lurie]], _TQFT and the Cobordism Hypothesis_ ([video](http://www.ma.utexas.edu/video/dafr/lurie/), [notes](http://www.ma.utexas.edu/users/plowrey/dev/rtg/notes/perspectives_TQFT_notes.html))
 
+* The [[UC Riverside Seminar on Cobordism and Topological Field Theories]], organized by [[Julie Bergner]] in the Fall of 2009.  
 
-Notes from a [lecture series](http://golem.ph.utexas.edu/category/2009/10/seminar_on_cobordism_and_topol.html) organized by [[Julie Bergner]] are here:
-
-* [lecture 1](http://math.ucr.edu/~alex/cobordism_lecture1.pdf)
-
-* [lecture 2]()
 
 
 
