@@ -1,5 +1,10 @@
 A weighted colimit is a concept of [[colimit]] suitable for [[enriched category theory]], dual (in the enriched sense) to the concept of [[weighted limit]]. 
 
++--{: .query}
+[[Mike Shulman|Mike]]: Are weighted limits and weighted colimits really different enough that they need entirely separate pages?
+=--
+
+
 ## Discussion ## 
 
 Recall that a colimit of a diagram in a category $C$, that is, of a functor $F: J \to C$, is given by a universal cocone for $F$. A **cocone** for $F$ is a natural transformation from $F$ to a constant diagram 
