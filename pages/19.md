@@ -384,6 +384,8 @@ Other standard references include:
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
   +-- {: .query}
   Rafael: Urs, why have you removed a perfectly good link?
+
+  _Toby_:  If you mean [this edit](http://ncatlab.org/nlab/revision/diff/category+theory/73), Urs didn\'t so much *remove* a link as *change* it.  Your (Rafael\'s) link is actually avaiable at the target of Urs\'s link ... although it\'s also reasonable to have both of them here if you want to restore yours.
   =--
 * Project description: higher categorical structures and their applications [free online] (http://www.math.uchicago.edu/~may/NCATS/ForWeb.pdf)
 
