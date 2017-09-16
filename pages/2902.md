@@ -150,6 +150,14 @@ If we want, we can now appeal to Euclid's golden triangle lemma -- which gives u
 
 Finally, suppose we wish to avoid using the intermediate value theorem.  To do this, we need to specify the length-to-width ratio, $x$, of the rectangles in our construction, and show that our choice yields a regular icosahedron.
 
+One approach we could take is to set $x=\Phi$, and directly calculate the length of an edge of our icosahedron that doesn't lie on one of the rectangles.  If this length is $1$ -- matching the edges that _do_ lie on the rectangles -- the icosahedron will be regular.
+
+[[!include pentagon decagon hexagon identity/pythagorean icosahedron]]
+
+As the diagram above shows, this isn't too hard; with the help of a re-scaled version of the diagram we used to demonstrate the identity $\Phi^2+\frac{1}{\Phi^2}=3$, we can see that ${A Q}^2=\frac{3}{4}$, and, since the vertices that project to $Q$ are a distance of $\frac{1}{2}$ out of the plane, the squared length of the edge that projects to $A Q$ will be $1$.
+
+But if this is a little too close to resorting to algebra, we can take a more geometric approach.
+
 If we project the generic version of our icosahedron onto the plane of one of its rectangles, we get this:
 
 [[!include pentagon decagon hexagon identity/irregular icosahedron]]
