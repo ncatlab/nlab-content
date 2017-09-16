@@ -1,8 +1,19 @@
 #Idea#
 
-A _category with [[weak equivalence]]s_ is the minimum structure required for a model in [[homotopy theory]]. 
+A _category with [[weak equivalence]]s_ is is an ordinary [[category]] that is to be thought of as the truncation of an [[(∞,1)-category]] where only the information is kept which of its morphisms are _equivalences_ in the full [[(∞,1)-category]].
 
-In particular, a [[model category]] is a category with weak equivalences and some extra bells and whistles.
+The [[(∞,1)-category]] is recovered from the category with weak equivalences by [[simplicial localization]]. The corresponding [[homotopy category of an (∞,1)-category]] is often computed directly as the [[homotopy category]] of the category with weak equivalences.
+
+Often categories with weak equivalences are equipped with further extra structure that helps with computing the [[simplicial localization]], the [[homotopy category]] and [[derived functor]]s. 
+
+* In a [[homotopical category]] the condition on the weak equivalences is slightly stronger.
+
+* In a [[category of fibrant objects]] there are additional auxialry morphisms called fibrations.
+
+* In a [[Waldhausen category]] there are additional auxialry morphisms called cofibrations.
+
+* In a [[model category]] there are both of these additional auxiliary classes of morphisms with special interrelation between them.
+
 
 #Definition#
 
