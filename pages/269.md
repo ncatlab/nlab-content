@@ -119,6 +119,8 @@ Also shouldn't we have something on this page about Grandis's use of cubical set
 [[Todd Trimble]]: The passage from Pratt's paper is a bit brief, but my impression is that they are discussing the Lawvere algebraic theory of two constants, which is a cartesian prop, and which contains more figures than the pro given by the monoidal category of [[cube]]s. In particular, there are diagonal maps in the cartesian prop which aren't present in the category of cubes in the sense here (and which aren't reflected as far as I can tell by cubical sets with connection). Perhaps we need some disambiguation then? 
 
 And please correct me if I'm wrong, but I believe the interval as final coalgebra is a coalgebra for the join-square endofunctor $x \mapsto x \vee x$ acting on the category of bipointed sets (where the two points are distinct). The condition that the two points are distinct is non-algebraic, so I can't see a clear connection which would point to something dual in cubical sets in Pratt's sense. But maybe there's more going on than meets my eyes. 
+
+[[David Corfield]]: Thanks Todd. I think you're right about Pratt's work, see example 5 [here](http://cs.nyu.edu/pipermail/fom/1998-March/001627.html). If his usage is at all prevalent, we should disambiguate. So, next question, which are Grandis's cubical sets? He seems to be able to do some remarkable things with them, e.g., the link to noncommutative spaces in section 3 of [this](http://www.dima.unige.it/~grandis/DAT.Intro.pdf).
 =--
 
 # Cubical sets in homotopy theory #
