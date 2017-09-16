@@ -15,6 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-03-12
 
 *  [[Toby Bartels]]:
+   *  Finally wrote [[full subcategory]] and directed links to it.
    *  I\'ve continued the conversation that [[Eric Forgy]] started at [[preorder]].
    *  I have my own terminological question at [[linear relation]].
 
