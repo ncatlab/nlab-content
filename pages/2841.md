@@ -7,3 +7,4 @@ A pair $(X,A)$ where $A$ is a closed subspace of $X$ is an **NDR-pair** or a (cl
 
 [[!redirects absolute neighborhood retract]]
 [[!redirects NDR-pair]]
+[[!redirects NDR-pairs]]
