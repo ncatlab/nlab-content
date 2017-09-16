@@ -27,7 +27,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-14
 
-* [[Urs Schreiber]]: joined the discussion at [[graph of a function]]. I am thinking that this is best understood as a special case of a more general concept, for wich  I created now entries
+* [[Urs Schreiber]]: 
+
+  * created [[adjoint (∞,1)-functor]]
+
+    the essential information had before already been in the corresponding section at [[adjoint functor]], to which I added the relevant link. 
+
+  * joined the discussion at [[graph of a function]]. I am thinking that this is best understood as a special case of a more general concept, for wich  I created now entries
 
   * [[graph of a functor]]
 
