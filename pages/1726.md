@@ -49,4 +49,6 @@ A more detailed discussion of $(\infty,n)$-categories in terms of $n$-fold compl
 
 * [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv](http://arxiv.org/abs/0905.0462))
 
+A construction very close in spirit to $n$-fold complete Segal spaces are [[Charles Rezk]]'s [[Theta space]]s.
+
 [[!redirects n-fold Segal space]]
