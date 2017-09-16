@@ -1,3 +1,2 @@
-see [[Charles Ehresmann]]
-
-category: delete
+&lt; [[Ehresmann]]
+[[!redirects Ehresmann -- history]]
