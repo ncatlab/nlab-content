@@ -127,7 +127,7 @@ MacLane's book
 
 * MacLane, [[Categories Work|Categories for the working mathematician]] 
 
-has a famous treatment of Kan extensions with a statement "everything (in category theory) is (an example of) Kan extension". 
+has a famous treatment of Kan extensions with a statement: "The notion of Kan extensions subsumes all the other fundamental concepts in category theory". 
 
 For the context of [[enriched category theory]] see 
 chapter 4 of
