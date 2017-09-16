@@ -77,7 +77,8 @@ Notice that the grading one usually sees on cohomology classes is in the above d
 
 
 
-* The archetypical example for [[nonabelian cohomology]] theory is the [[(infinity,1)-topos]] $H = $ [[Top]], the [[(infinity,1)-category]] of [[topological space]]s. For $X$ and $A$ two topological spaces, the cohomology classes of $X$ with values in $A$ are the homotopy classes of continuous maps $X \to A$. For $A = K(a,n)$ an [[Eilenberg-Mac Lane space]] with $a$ an abelian group this reproduces "ordinary cohomology" of spaces. For $A = B G$ a [[classifying space]] of a topological [[group]] $G$, this reproduces degree 1 [[nonabelian cohomology]] $H^1(X,G)$. In general, for $A$ an $n$-type, $H(X,A)$ is topological degree-$n$ [[nonabelian cohomology]].
+* The archetypical example for [[nonabelian cohomology]] theory is the [[(infinity,1)-topos]] $H = $ [[Top]], the [[(infinity,1)-category]] of [[topological space]]s. For $X$ and $A$ two topological spaces, the cohomology classes of $X$ with values in $A$ are the homotopy classes of continuous maps $X \to A$. For $A = K(a,n)$ an [[Eilenberg-Mac Lane space]] with $a$ an abelian group this reproduces "ordinary cohomology" of spaces. For $n \gt 1$ this special case happens to be actually abelian.
+ For $A = B G$ a [[classifying space]] of a topological [[group]] $G$, this reproduces degree 1 [[nonabelian cohomology]] $H^1(X,G)$. In general, for $A$ an $n$-type, $H(X,A)$ is topological degree-$n$ [[nonabelian cohomology]].
 
 * The archetypical example for abelian cohomology theory is the [[stable (infinity,1)-topos]] $H = $ [[Spec]], the [[stable (infinity,1)-category]] of [[spectrum|spectra]]. This is the case in the literature often addressed as [[generalized cohomology]], since it generalizes the entities specified by the Eilenberg--Steenrod axioms. But really, the general concept of cohomology is more general than this "generalized cohomology". 
 
