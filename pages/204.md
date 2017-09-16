@@ -1,3 +1,2 @@
-See [[full functor]].
-
-category: redirect
+&lt; [[full]]
+[[!redirects full -- history]]
