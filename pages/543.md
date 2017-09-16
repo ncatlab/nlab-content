@@ -10,22 +10,34 @@ In what is strictly speaking a restrictive sense -- which is however widely and 
 
 Therefore an $A_\infty$-category in this standard sense of [[homological algebra]] is a category which is in some way [[homotopical enrichment|homotopically enriched]] over a [[category of chain complexes]] $Ch$. Since a category which is [[enriched category|enriched]] in the ordinary sense of [[enriched category theory]] is a [[dg-category]], there is a close relation between $A_\infty$-categories and [[dg-category|dg-categories]].
 
-+--{.query}
-
-  [[Urs Schreiber|Urs]]: it seems that it ought to be true in some precise sense that we have the following analogy
-
- [[quasi-category]]/[[complete Segal space]] is to [[simplicial category]]
- as
- $A_\infty$-category is to [[dg-category]]
- namely as
- homotopical enrichment is to
- strict enrichment
-
-Is there a way to make this (or something similar) precise? In particular: does one get $A_\infty$-categories by applying the definition of [[complete Segal space|Segal space]] with [[Top]] replaced by [[category of chain complexes|Ch]]?
-
-=--
 
 $A_\infty$-categories in this linear sense are a [[horizontal categorification]] of the notion of [[A-infinity-algebra]]. As such they are to [[A-infinity-algebra]]s as [[Lie infinity-algebroid]]s are to [[L-infinity-algebra]]s. For this point of view see the Kontsevich-Soibelman reference below.
+
+**Definition**
+
+An $A_\infty$-category is a [[category over an operad]]
+for the [[A-infinity operad]]: the free resolution 
+in the context of dg-operads of the linear associative operad.
+
+
+##Examples and remarks##
+
+* Every [[dg-category]] may be regarded as a special case of an  [[A-infinity category]].
+
+* Every $A_\infty$-category is $A_\infty$-equivalent to a [[dg-category]].
+
+  * This is a corollary of the $A_\infty$-categorical [[Yoneda lemma]].
+  
+  * beware that this statement does not imply that the notion of 
+  $A_\infty$-categories is obsolete (see section 1.8 in Bespalov et al.):
+  in practice it is often easier to work with a given naturally
+  arising $A_\infty$-category than constructing its equivalent [[dg-category]]
+  
+    * for instance when dealing with a [[Fukaya A_infinity-category]];
+  
+    * or when dealing with various constructions on dg-categories, for instance certain quotients,
+that naturally yield directly $A_\infty$-categories instead of dg-categories.
+
 
 
 ## more general $A_\infty$-categories
