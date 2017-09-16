@@ -29,7 +29,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
-  * added a quer box at [[limits and colimits by example]] in the section titled "for programmers". I am suggesting that since the material doesn't actually use a computer program to explain limits and colimits but instead explains how to write such a computer program, the material should be moved elsewhere. 
+  * added a section on limits in under categories to [[limits and colimits by example]] and a detailed proof of how they are computed by limits in the underlying category -- please check
+
+  * added a linked table of contents at [[limits and colimits by example]]
+
+  * added a query box at [[limits and colimits by example]] in the section titled "for programmers". I am suggesting that since the material doesn't actually use a computer program to explain limits and colimits but instead explains how to write such a computer program, the material should be moved elsewhere. 
 
   * added an "Idea" section to [[n-localic (infinity,1)-topos]]
 
