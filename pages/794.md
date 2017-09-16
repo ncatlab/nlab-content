@@ -1,4 +1,4 @@
-If $G$ is a group and $n \geq 1$ then the **Eilenberg--Mac Lane space** $K(G,n)$ is a connected space  with the only non-trivial homotopy group $G$ in dimension $n$. Thus $G$ must necessarily be abelian for $n \geq 2$. 
+If $G$ is a group and $n \geq 1$ then an **Eilenberg--Mac Lane space** $K(G,n)$ is a connected space  with its only non-trivial homotopy group being $G$ in dimension $n$, thus $G$ must necessarily be abelian for $n \geq 2$. 
 
 The construction of such a space can be given for $n \geq 2$ using the standard [[Dold-Kan correspondence]] between chain complexes and simplicial abelian groups: let $C(G,n)$ be the chain complex which is $G$ in dimension $n$ and trivial elsewhere; the geometric realisation of the corresponding simplicial ableian group is then a $K(G,n)$. 
 
