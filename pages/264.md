@@ -8,7 +8,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 Frequently one encounters an ordinary [[category]] $C$ which is known in some way or other to be the $1$-[[1-category|categorical]] truncation of a [[higher category theory|higher category]] $\hat C$. 
 
@@ -28,7 +28,7 @@ This is in particular the case when $C$ is equipped with the structure of a comb
 
 
 
-#Definition#
+## Definition
 
 Given a [[category with weak equivalences]] (such as a [[model category]]), its __homotopy category__ $Ho(C)$ is -- if it exists -- the [[category]] which is universal with the property that there is a [[functor]]
 
@@ -65,12 +65,14 @@ The second condition implies that the functor $F_Q$ in the first condition is un
 
   [[Tim Porter|Tim]] Do you mean $Hom(-\times I,-)$=>$Hom(-,-)$, which make sense and is one otf the usual ways of defining this. (You can find this in Kamps and Porter's book for example (I would say that wouldn't I! but the royalties are really measily, and when there has been conversion of currencies followed by tax, etc... !)) I don't think you need bipointed spaces, but you do need to be more careful about the product, if you are working in pointed spaces.
 =--
-#Properties#
+
+
+## Properties
 
 * If it exists, the homotopy category $Ho(C)$ is unique up to [[equivalence of categories]].
 
 
-# Remarks #
+## Remarks 
 
 
 * As described at [[localization]], in general, the morphisms of $Ho(C)$ must be constructed using zigzags of morphisms in $C$ in which the backwards-pointing arrows are weak equivalences.  This means that in general, $Ho(C)$ need not be [[locally small category|locally small]] even if $C$ is.  However, in many cases (such as any [[model category]]) there is a more direct description of the morphisms in $Ho(C)$ as [[homotopy]] classes of maps in $C$ between suitably "good" (fibrant and cofibrant) objects.
@@ -80,18 +82,22 @@ $$\array{& \to \\ W & \Downarrow & C\\ & \to}$$
 where $W$ is the category whose objects are morphisms in $W$ and whose morphisms are commutative squares in $C$.
 
 
-#Derived category#
+## Derived category
 
 What is called a [[derived category]] is the special case of the homotopy category of a [[category of chain complexes]] in an [[abelian category]]. See [[derived category]] for more details.
 
 
-# Examples
+## Examples
 
-* In classical topology, _the_ homotopy category refers to the homotopy category of [[Top]] with [[weak homotopy equivalences]], which can equivalently be constructed as the category of homotopy classes of maps between [[CW complex|CW complexes]].
+* In classical [[homotopy theory]], _the_ homotopy category refers to the homotopy category [[Ho(Top)]] of [[Top]] with weak equivalences taken to be [[weak homotopy equivalences]].
+
+* [[Ho(Top)]] is often restricted to the [[full subcatgeory]] of spaces of the [[homotopy type]] of a [[CW-complex]] (the full subcategory of CW-complexes in $Ho(Top)$). This is equivalent to $Ho(sSet_{Quillen})$, the homotopy category of the standard Quillen-[[model structure on simplicial sets]]. This equivalence is one aspect of the [[homotopy hypothesis]].
+
+* In [[stable homotopy theory]] one considers the homtopy category of [[spectra]].
 
 * For the homotopy category of [[Cat]], see [[Ho(Cat)]].
 
 
-#References#
+## References
 
 See the references at [[model category]].
