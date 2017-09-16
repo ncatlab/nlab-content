@@ -32,7 +32,7 @@ For instance, the field of [[differential geometry]] has long managed to avoid t
 For instance the ordinary category [[Diff]] of smooth [[manifold]]s fails to have all [[pullback]]s, it only has pullbacks along [[transversal map]]s.
 This observation is usually the starting point for realizing that differential geometry is in need of a bit of [[category theory]] in the form of [[higher geometry]]. 
 
-In all notions of [[generalized smooth space]]s all pullbacks do exist,.But they may still not be the "right" pullbacks. For instance cohomology of pullback objects may not have the expected properties. This is solved by passing to smooth [[derived stack]]s, such as [[derived smooth manifold]]s.
+In all notions of [[generalized smooth space]]s all pullbacks do exist. But they may still not be the "right" pullbacks. For instance cohomology of pullback objects may not have the expected properties. This is solved by passing to smooth [[derived stack]]s, such as [[derived smooth manifold]]s.
 
 
 Recent developments in [[higher category theory]], such as the concept of higher [[Structured Spaces]] based on [[Higher Topos Theory]], put all these notions of generalized geometries into a unified picture of [[higher geometry]] that realizes old ideas about how category theory provides a languge for [[space and quantity]] in great detail and powerful generality and sheds new light on old [[classical mathematics|classical]] problems such the description of the [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves|derived moduli stack of derived elliptic curves]] and the construction of the [[tmf]] [[spectrum]] from it.
