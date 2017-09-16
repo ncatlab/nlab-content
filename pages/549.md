@@ -7,6 +7,10 @@ $$
   \,.
 $$
 
++--{: .query}
+[[Mike Shulman|Mike]]: I've never seen this notation before.  I have seen ${}^{\perp} I$, but usually $\perp$ refers to [[orthogonality]], i.e. the class of maps satisfying a _unique_ lifting property.  I don't think there is a standard notation for the non-unique lifting property.  Some people write $Inj(I)$.  I like to write $I^{\boxslash}$  for the class of maps with the RLP for $I$; "boxslash" doesn't seem to be supported in itex, but I like it because it looks like a square with a lift in it.  Some people just use $\Box$ but that conflicts with a common notation for [[pushout product]]s.   Anyway, putting whatever symbol on the right of the $I$ indicates to me the class of maps having a _right_ lifting property.
+=--
+
 The left class $L$ is then necessarily the class of maps who have the left lifting property with respect to the right class
 
 $$
@@ -48,6 +52,11 @@ where
 =--
 
 The small object argument plays a role in the theory of [[cofibrantly generated model category|cofibrantly generated model categories]]. 
+
++--{: .query}
+[[Mike Shulman|Mike]]: In reply to Urs' comment at [[latest changes]], there are plenty of "modern" authors who use the small object argument in categories that are not locally presentable, such as topological spaces.  So the more precise statement is important.
+=--
+
 
 ##The Construction##
 
