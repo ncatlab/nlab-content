@@ -64,3 +64,5 @@ The idea for all $n$ was then sketched, together with many other ideas about [[L
 What we call $n$-symplectic manifold here is called $\Sigma_n$-manifold there.
 
 > [[Urs Schreiber]]: I find $\Sigma_n$ too undescriptive. But logically I should then be speaking of _$n$-Poisson manifolds_ so that for $n=1$ we get the ordinary version, not for $n=0$. But I find _symplectic_ still much nicer descriptive than "Poisson", so the above choice of terminology follows aesthetics a little bit more than established terminology. But only slightly. Only by a difference of 1.
+
+> _Toby_:  What if you changed the numbering by $1$?  Must your $n$ match the $n$ in $\Sigma_n$?
