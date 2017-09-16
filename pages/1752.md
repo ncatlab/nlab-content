@@ -1,10 +1,14 @@
 
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
 
 See [[model structure on simplicial presheaves]].
 
 
-#Definition#
+## Definition ##
 
 There are many [[model category]] structures on the category of [[simplicial presheaf|simplicial presheaves]] derived from the [[model structure on simplicial sets]]. 
 
@@ -24,7 +28,10 @@ One gets _local_ projective and _local_ injective model structures by applying l
 
 * the **local injective** (weak equivalences are locally (usually stalkwise) and cofibrations are objectwise those of SimpSet).
 
-Again, these two model structures are Quillen equivalent by the identity functors between the underlying categories and hence provide projective and injective versions of the corresponding homotopy theory of [[infinity-stack homotopically|infinity-stacks]].
+**Warning** Since the (homtopy classes) of weak equivalences do not form a small set, the existence theorem recalled at [[Bousfield localization]] does not apply. The existence of the Bousfield localization has to be shown by hand. For the injective structure this is what Joyal and Jardine accomplished.
+
+
+Again, the injective and projective local model structures are Quillen equivalent by the identity functors between the underlying categories and hence provide projective and injective versions of the corresponding homotopy theory of [[infinity-stack homotopically|infinity-stacks]].
 
 In the local injective structure all objects are cofibrant, so that the [[opposite category]] of simplicial presheaves with the local injective model structure is a [[category of fibrant objects]].
 
@@ -39,11 +46,11 @@ In between the injective and the projective model structures there are many othe
 In the following let $S$ be a small [[site]] and denote by $SimpPr(S)$ be the category of [[simplicial presheaf|simplicial presheaves]] on $S$.
 
 
-#Local model structures#
+## Local model structures ##
 
-One usually says that a **local model structure** on a category of [[presheaf|presheaves]] is one whose weak equivalences are not defined objectwise but on [[cover]]s and/or on stalks.
+One usually says that a **local model structure** on a category of [[presheaf|presheaves]] is one whose weak equivalences are not defined objectwise but on [[cover]]s and/or on [[stalk]]s.
 
-##Local weak equivalences##
+### Local weak equivalences ###
 
 There are different equivalent ways to define local weak equivalences of simplicial presheaves on a site $S$.
 
@@ -129,7 +136,7 @@ there is a lift after pulling back to some cover of $U$.
 (...)
 
 
-### Examples ###
+## Examples ###
 
 * Every object-wise weak equivalence is in particular a local weak equivalence.
 
