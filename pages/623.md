@@ -88,10 +88,6 @@ The Moore complex is a [[normal complex of groups]].
 
 *  The notation $N G$ is quite widely used in the literature but can get confused with that sometimes used for the [[nerve]] functor, so care is needed. (We have therefore used $\mathcal{N}$ for the latter.) The $N$ here stands for 'normalised'.
 
-+-- {: .query}
-   Dang, my fault for messing this up a while back; I read it as nerve on [[crossed complex]] and so changed it.  I would use $\mathcal{N}$ for the nerve, to go with $\mathcal{B}$ for the [[classifying space]] functor (to contrast with $\mathbf{B}$ as discussed on [[category algebra]]).  ---Toby
-
-=--
 
 # related complexes #
 
