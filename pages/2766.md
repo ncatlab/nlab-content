@@ -1,10 +1,8 @@
-**WARNING: Tentative**
-
 ## Definition 
 
-Let $F:J\to C$ be a [[diagram]] in a category $C$. Also, for any objects $c,c'\in C$, let $T:\Delta(c)\to F$ and $T':\Delta(c')\to F$ denote [[cones]] over $F$. 
+Let $F:J\to C$ be a [[diagram]] in a category $C$. Also, for any morphism $\phi:c\to c'$ in $C$, let $T:\Delta(c)\to F$ and $T':\Delta(c')\to F$ denote [[cones]] over $F$. 
 
-A **cone morphism** is a [[natural transformation]] $\Delta(\phi)\colon \Delta(c)\to\Delta(c')$ such that the diagram
+A **cone morphism** is a [[natural transformation]] $\Delta(\phi)\colon \Delta(c)\to\Delta(c')$ whose component is $\phi:c\to c'$ such that the diagram
 $$\array{
 \Delta(c) &{}&\stackrel{\Delta(\phi)}{\longrightarrow} &{}& \Delta(c') \\
 {}& \mathllap{\scriptsize{T}}\searrow &{}& \swarrow\mathrlap{\scriptsize{T'}} &{}  \\
@@ -14,7 +12,6 @@ $$
 commutes.
 
 Note, in particular, this means that all component diagrams
-
 $$\array{
 c &{}&\stackrel{\phi}{\longrightarrow} &{}& c' \\
 {}& \mathllap{\scriptsize{T_j}}\searrow &{}& \swarrow\mathrlap{\scriptsize{T'_j}} &{}  \\
@@ -35,7 +32,7 @@ commute.
 I hope this helps.  If it's done the opposite, apologies.  I've a habit of trying the one and accomplishing the other.
 
 [[Eric]]: Hmm. I'm probably confused, but when I draw the naturality square for $\alpha:\Delta(c)\to\Delta(c')$, I get
-\[ 
+$$
   \array{ 
     c 
     & 
@@ -51,21 +48,37 @@ I hope this helps.  If it's done the opposite, apologies.  I've a habit of tryin
     \stackrel{Id_{c'}}{\to} & c' 
   }
   \,. 
-\] 
+$$ 
 for every $j,k\in J$.
 
-=--
+[[Eric]]: I think I got it. My diagram is correct, except we have $\alpha_j = \alpha_k$ and we want this to be $\phi:c\to c'$. I made that more explicit in the definition above by adding "whose component is $\phi:c\to c'$." 
 
-**The following material is very tentative**
+The full blown diagram looks like
 
-Note that given any cone $T':\Delta c'\to F$ and any morphism $\phi:c\to c'$ we can obtain a new cone $T:\Delta c\to F$ whose components are given by
+$$ 
+  \array{ 
+    c 
+    & 
+    \stackrel{Id_c}{\to} 
+    & 
+    c 
+    \\ 
+    \mathllap{\scriptsize{\phi}}\downarrow
+    && 
+    \downarrow\mathrlap{\scriptsize{\phi}}
+    \\ c' 
+    & 
+    \stackrel{Id_{c'}}{\to} & c' \\
+    \mathllap{\scriptsize{T'_j}}\downarrow
+    && 
+    \downarrow\mathrlap{\scriptsize{T'_k}}
+    \\ 
+    F(j)&\stackrel{F(f)}{\to}&F(k)
+  }
+$$
 
-$$T_j = \phi^* T'_j =  T'_j\circ \phi,$$
 
-which can be thought of as "pulling back" the cone $T'$ along $\phi$.
 
-+--{.query}
-[[Finn Lawler]]: I think this is just composition with $\Delta \phi$.
 =--
 
 [[!redirects cone morphisms]]
