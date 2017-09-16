@@ -1,3 +1,10 @@
+<div class="rightHandSide toc">
+[[!include homotopy theory - contents]]
+
+***
+
+[[!include stable homotopy theory - contents]]
+</div>
 
 
 One may think of classical [[homotopy theory]] as the study of the [[(∞,1)-category]] [[Top]] of [[topological space]]s, or rather of its [[homotopy category of an (infinity,1)-category|homotopy category]] $Ho(Top)$.
