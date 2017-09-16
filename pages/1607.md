@@ -18,7 +18,7 @@ The structure of a tetracategories was given by [[Todd Trimble]].
 
   * [[U52unitcondition.pdf:file]]
 
-  * [[U53unitcondition.pdf:file]]
+  * [[U53unitcondition.pdf:file]] (this comes up as U52, but I don't know how to change it. -DMR)
 
   * [[U54unitcondition.pdf:file]]
 
