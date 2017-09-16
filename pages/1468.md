@@ -101,9 +101,9 @@ Can someone who has these notes or wants to write a summary put something here p
 
 #Conference Talks#
 
-+-- {: .query}
-I (Alex) am back in California.  It would be great if someone passed on notes of some sort from the conference.
-=--
+##Julie Bergner##
+
+* [[Julie Bergner]], [[bergner.pdf:file]], talk notes by [[Christoph Wockel]]
 
 ##Kevin Costello##
 
