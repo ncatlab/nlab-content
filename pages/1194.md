@@ -98,17 +98,25 @@ Thus, if $T$ is a type theory and $C$ a category with corresponding structure, i
 By the way, it should be noted that there are various technical difficulties in making this precise.  For instance, categories of any sort form a 2-category (or something more, if they are higher categories themselves), so we have to make type theories into a 2-category as well.  Also, there is a bit of a mismatch in that *substitution* in type theory is usually "implicit," which implies that it is strictly associative, but the corresponding categorical operation of [[pullback]] is not generally strictly associative.  For this reason, various people have defined technical intermediaries between type theories and categories, which mostly boil down to a category equipped with a [[split fibration]] replacing its [[codomain fibration]].  These go by names like *comprehension category*, *category with attributes*, or *contextual category*.
 
 
-# Syntax of type theory
+# Syntax of type theory {#Syntax}
 
-It's hard to give a universal definition of "type theory" which applies in all cases, but in general the setup is like this.  Type theory is a set of rules for making *judgments*.  The most basic judgment is of the form
-$$ \Gamma \vdash t:A $$
-which asserts that in [[context]] $\Gamma$, $t$ is a well-formed *term* of *type* $A$.  The context $\Gamma$ is generally a list of declarations of variables with their types.  So, for instance, the assertion that any two natural numbers have a sum, which is also a natural number, could be stated as the following type-theoretic judgment:
-$$ x:N, y:N \vdash x+y :N .$$
-One also usually includes judgments that two given terms (of the same type!) are equal, so for instance the associativity of natural number addition could be stated as
-$$ x:N, y:N, z:N \vdash (x+y)+z = x+(y+z) :N .$$
-Type theorists tend to write a rule for making judgments in the following form:
-$$ \frac{\Gamma_1 \vdash t_1:A_1 \qquad \dots \qquad \Gamma_n \vdash t_n:A_n}{\Delta \vdash s:B}. $$
-This is to be read as a rule asserting that if $\Gamma_1 \vdash t_1:A_1$  through $\Gamma_n \vdash t_n:A_n$ are valid judgments, then so is $\Delta \vdash s:B$.  A given type theory is determined by the collection of such rules that it admits.  The appropriate rules can be grouped in various ways.
+It's hard to give a universal definition of "a type theory," but the following very general setup covers most cases.  Note that in general, the following definitions are mutually [[recursion|recursive]].
+
+* A **typing declaration** is something of the form $t:A$.  We say that $t$ is a **term** (of type $A$) and that $A$ is the **type**.  In some type theories, there is a fixed collection of allowable types, while in others the types are themselves terms belonging to some other type (often called $Type$).
+
+* A **[[context]]** is a list of typing declarations, in which each term is a fresh variable (i.e. one not occurring to the left of its typing declaration).  If the list of types is not fixed, then one requires that each type occurring in a context be well-formed relative to the sub-context appearing to its left.  In other words, for $\Gamma, x:A$ to be a valid context, the judgment (see below) $\Gamma \vdash A:Type$ must be derivable.
+
+* A **judgment** is something of the form $\Gamma \vdash \mathcal{J}$, where $\Gamma$ is a valid context.  Different type theories allow different things in the place of $\mathcal{J}$, but the most common are *typing declarations* and *equalities* between terms of the same type.  For example, the judgment
+  $$ x:N, y:N \vdash x+y :N $$
+  asserts that any two natural numbers have a sum, which is also a natural number.  Similarly, 
+  $$ x:N, y:N, z:N \vdash (x+y)+z = x+(y+z) :N $$
+  asserts that natural number addition is associative.
+
+* A **rule** asserts that if some given list of judgments are valid, then so is another one of a specified form derived from them.  Of course, to be interesting such rules must contain "meta-variables" which range over contexts, types, or terms.  Rules are generally written in the following form:
+  $$ \frac{\Gamma_1 \vdash t_1:A_1 \qquad \dots \qquad \Gamma_n \vdash t_n:A_n}{\Delta \vdash s:B}. $$
+  This is to be read as a rule asserting that if $\Gamma_1 \vdash t_1:A_1$  through $\Gamma_n \vdash t_n:A_n$ are valid judgments, then so is $\Delta \vdash s:B$.
+
+A given type theory is determined by its collections of types, judgments, and rules.  Rules can of course be classified in various ways; here are some of the most common.
 
 ## Structural rules
 
