@@ -6,6 +6,8 @@
 
 A __fibre bundle__ or __fiber bundle__ is a [[bundle]] in which every [[fibre]] is [[isomorphism|isomorphic]], in some coherent way, to a __standard fibre__ (sometimes also called __typical fiber__). Though it is pre-dated by many examples and methods, systematic usage of locally trivial fibre bundles with structure groups in mainstream mathematics started with a famous book of Steenrod. 
 
+One may say that 'fibre bundles are [[fibrations]]' by the [[Milnor slide trick]].
+
 
 # Definitions
 
