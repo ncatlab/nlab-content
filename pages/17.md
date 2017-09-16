@@ -294,6 +294,7 @@ Here are some useful specifics:
 * [Use wiki syntax](http://golem.ph.utexas.edu/instiki/show/Syntax#wiki)
 * [Embed SVG in equations](http://golem.ph.utexas.edu/instiki/show/SVG)
 * [Upload files](http://golem.ph.utexas.edu/instiki/show/File+Uploads)
+* [Essay Writing](http://www.rushessay.com)
 * [Use keyboard shortcuts](http://golem.ph.utexas.edu/instiki/show/AccessKeys)
 * [Make slideshows](http://golem.ph.utexas.edu/instiki/show/S5)
 
