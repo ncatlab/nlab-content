@@ -1,3 +1,4 @@
+[[!redirects Understanding Constructions on Categories]]
 [[!redirects Understanding Categories]]
 This is an experiment. As with any experiment, it may flop.
 
@@ -34,7 +35,7 @@ These pages are to be friendly in nature with a similar spirit as [[John Baez]]'
 
 Here is a list of pages we hope to get started on:
 
-* [[Understanding Constructions on Set]]
+* [[Understanding Constructions in Set]]
 * [[Understanding M-Set]]
 
 category: reference
