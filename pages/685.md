@@ -4,7 +4,7 @@ A **2-limit** is the type of [[limit]] that is appropriate in a (weak) [[2-categ
 
 1. Since in a 2-category we avoid [[evil]], the "cones" in a 2-limit are required to commute only up to isomorphism.
 
-1. The universal property of the limit is expressed by an [[equivalence]] of categories rather than a bijection of sets.  This means that (1) every other cone over the diagram that commutes up to isomorphism factors through the limit, up to isomorphism, and (2) every transformation _between_ cones also factors through a 2-cell in the limit.  We will give some examples below.
+1. The universal property of the limit is expressed by an [[equivalence of categories]] rather than a bijection of sets.  This means that (1) every other cone over the diagram that commutes up to isomorphism factors through the limit, up to isomorphism, and (2) every transformation _between_ cones also factors through a 2-cell in the limit.  We will give some examples below.
 
 1. Since 2-categories are [[enriched category|enriched]] over [[Cat]] (this is precise in the [[strict 2-category|strict]] case, and [[bicategory|weakly]] true otherwise), Cat-[[weighted limit]]s become important.  This means that both the diagrams we take limits of and the shape of "cones" that limits represent can involve 2-cells as well as 1-cells.
 
