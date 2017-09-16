@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-01
 
+* [[Todd Trimble]] added a teeny bit to [[locally convex topological vector space]]. I hope to be more in nLab editor mode soon. Congratulations on a successful migration (with big thanks to [[Andrew Stacey]]). 
+
 * [[Jon Awbrey]] added content to [[hypostatic abstraction]].
 
 * [[John Baez]]: 
