@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-28
 
+* [[Andrew Stacey]]: Mathematical and non-mathematical stuff going on at [[Tall-Wraith monoids]].  Folded up the mathematical bit of the middle discussion (on what's so special about $AbGrp$) into the main text, but probably not in the nicest and clearest way.  Also continued the discussion on fonts and the like further down.
+
 * [[Urs Schreiber]] 
 
   * added a few words to [[(infinity,1)-topos]] (in particular pointed out that the equivalence of the two definitions given is a main theorem, and added the links to the entries on models)
