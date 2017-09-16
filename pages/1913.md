@@ -19,7 +19,29 @@ Urs, do you know where the need for orientation comes in here?  I don\'t follow 
 _Toby_:  Between Eric\'s comment here and Urs\'s at [[latest changes]], I\'m happy to remove this query box.
 
 [[Eric]]: I think it is a good question. Maybe we should keep the query box here until the answer is incorporated in the page.
+
+[[Urs Schreiber]]: here is my reply, that I originally posted at [[latest changes]]. I'll try to eventually work this into the main text of the entry
+
+The orientation of the diffential form corresponds to the inherent orientation of [[k-morphism]]s: as we identify the differential form with a smooth functor on the [[path n-groupoid]], that [[path n-groupoid]] necessarily has _oriented_ $k$-volumes as its [[k-morphism]]s, simply because these $k$-morphisms need to come with information about their (higher categorical) source and target.
+
+To get pseudo-differential forms that may be integrated also over non-oriented and possibly non-orientable manifolds one needs to consider parallel transport functors not with coefficients in just $\mathbf{B}^n \mathbb{R}$ coming from the [[crossed complex]] 
+     
+$$
+   (\mathbb{R} \to {*} \to \cdots \to {*})
+$$
+
+but the more refined crossed complex
+
+$$
+  (\mathbb{R} \to {*} \to \cdots \to \mathbb{Z}_2)
+$$
+
+where the $\mathbb{Z}_2$-factor acts by sign reversal on $\mathbb{R}$ (one can also use $U(1)$ instead of $\mathbb{R}$, this way $[P_n(-), \mathbf{B}^n U(1)]$ becomes the [[Deligne cohomology|Deligne complex]] and knows not just about differential forms but about $U(1)$ $n-1$-gerbes with connection even).
+
+A little bit of discussion of this unoriented case is currently at [[orientifold]]. There for the case $n=2$.
+
 =--
+
 Note that an $n$-morphism in $P_n(X)$ is an oriented $n$-dimensional submanifold of $X$.
 
 Such a functor (as described in more detail at [[connection on a bundle]]) assigns a real number to each parametrised $n$-dimensional cube of $X$, that is a subspace by a smooth map $\Sigma : [0,1]^n \to X$.  If the differential form that this $n$-functor defines is denoted $\omega \in \Omega^n(X)$, then this real number is denoted by the [[integration|integral]]
