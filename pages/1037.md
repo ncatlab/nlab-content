@@ -182,6 +182,8 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[(∞,1)-functor]]
 
+  * [[full and faithful (∞,1)-functor]]
+
   * [[(∞,1)-presheaf]]
 
   * [[(∞,1)-category of (∞,1)-functors]]
