@@ -8,6 +8,14 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
+I keep getting this error message whenever I hit "See Changes" or "Diff" on the Sandbox:
+
+> Application error (Apache)
+
+> Something very bad just happened. I just know it. Do you smell smoke?
+
+***
+
 Punctuation in \text ???
 
 * $\text{:=}$
