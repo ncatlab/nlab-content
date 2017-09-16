@@ -30,6 +30,9 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 ## 2009-07-23
 
+
+* [[David Corfield]]: Started [[Lambda-ring]] with some Baezian exposition and an abstract of James Borger. Hmm, is there a difference between $\lambda$-ring and $\Lambda$-ring? This [paper](http://wwwmaths.anu.edu.au/~borger/papers/03/lambda.pdf) uses both.
+
 *  [[Toby Bartels]] welcomed [[Sebastian Thomas]] at [[(n,k)-transformation]].
 
 
