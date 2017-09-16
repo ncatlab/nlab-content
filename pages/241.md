@@ -6,13 +6,13 @@ For a given fixed [[ETCS|category of sets]] $S$, a __Grothendieck [[topos]]__ ov
 
 * The [[site]] is not considered part of the structure; different sites may give rise to [[equivalence of categories|equivalent]] category of sheaves.
 
-* By the general theory of [[geometric morphism]]s, every Grothendieck topos sits inside a category of [[presheaf|presheaves]] by a [[geometric embedding]] $Sh(S) \hookrightarrow PSh(S)$. 
+* By the general theory of [[geometric morphisms]], every Grothendieck topos sits inside a category of [[presheaf|presheaves]] by a [[geometric embedding]] $Sh(S) \hookrightarrow PSh(S)$. 
 
-  * This may be taken as an alternative definition of [[sheaf]]: since [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] are bijectively given by [[geometric embedding]]s,  instead of explicitly defining a sheaf as a presheaf satisfying [[descent]], one may define categories of sheaves as geometric embeddings into presheaf categories. 
+  * This may be taken as an alternative definition of [[sheaf]]: since [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] are bijectively given by [[geometric embeddings]],  instead of explicitly defining a sheaf as a presheaf satisfying [[descent]], one may define categories of sheaves as geometric embeddings into presheaf categories. 
 
   * For details on the relation between the two perspectives see [[geometric embedding]].
 
-  * This perspective is useful for defining the [[vertical categorification]] of sheaves: [[stack]]s and [[infinity-stack]]s: the higher categories of these may be defined as geometric embeddings into higher categories of presheaves. This has been worked out in detail for [[(infinity,1)-category|(infinity,1)-catregories]]. See [[(infinity,1)-category of (infinity,1)-sheaves]].
+  * This perspective is useful for defining the [[vertical categorification]] of sheaves: [[stacks]] and [[∞-stacks]]: the higher categories of these may be defined as geometric embeddings into higher categories of presheaves. This has been worked out in detail for [[(∞,1)-categories]]. See [[(∞,1)-category of (∞,1)-sheaves]].
 
 
 #Giraud characterization of Grothendieck topoi#
@@ -21,9 +21,9 @@ Giraud characterized Grothendieck toposes as categories satisfying certain exact
 
 Giraud\'s theorem characterises Grothendieck toposes as follows:
 * a [[locally small category]] with a small [[generating set]],
-* with all finite [[limit]]s,
-* with all small [[coproduct]]s, which are [[disjoint coproduct|disjoint]], and [[pullback stability|pullback-stable]],
-* where all [[congruence]]s have effective [[quotient object]]s, which are also pullback-stable.
+* with all finite [[limits]],
+* with all small [[coproducts]], which are [[disjoint coproduct|disjoint]], and [[pullback stability|pullback-stable]],
+* where all [[congruences]] have effective [[quotient objects]], which are also pullback-stable.
 
 These conditions are equivalent to
 
@@ -35,7 +35,7 @@ This characterisation may be suitable even when the base category $S$ is only a 
 
 ## Generalizations ##
 
-The notion of Grothendieck topos and its characterization from Giraud-type properties can be generalized from the context of categories to that of [[(infinity,1)-category|(infinity,1)-categories]], where it yields the notion of [[(infinity,1)-topos]].
+The notion of Grothendieck topos and its characterization from Giraud-type properties can be generalized from the context of categories to that of [[(∞,1)-categories]], where it yields the notion of [[(∞,1)-topos]].
 
 
 #References#
@@ -46,7 +46,7 @@ Grothendieck topoi appear around section IIIm,4 of
 
 A proof of Giraud's theorem is in appendix A.
 
-The proof of Giraud's theorem for [[(infinity,1)-topos|(infinity,1)-topoi]] is section 6.1.5 of
+The proof of Giraud's theorem for [[(∞,1)-topoi]] is section 6.1.5 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
