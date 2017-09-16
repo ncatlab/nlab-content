@@ -179,3 +179,5 @@ $$L = \mathbb{L}(V)/I , \quad L' = \mathbb{L}(V')/I' ,$$
 $$L\star L' = \mathbb{L}(V\oplus V')/{I,I'}.$$
 
 The differential on $L\star L'$ is the unique Lie algebra derivation extending $\partial$ and $\partial'$.
+
+[[!redirects differential graded Lie algebras]]
