@@ -12,7 +12,7 @@ Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on monomorp
 
 # Generalizations #
 
-* More generally, in some contexts we may take "subobject" to mean an isomorphism class of morphisms $i: a\to c$ satisfying some suitable condition other than being a monomorphism (usually a stronger one).  Common choices are [[strong monomorphism]]s, [[regular monomorphism]]s, or the right class of some [[orthogonal factorization system]].  (The latter choice has the advantage that then [[image]]s will automatically exist.)
+* More generally, in some contexts we may take "subobject" to mean an isomorphism class of morphisms $i: a\to c$ satisfying some suitable condition other than being a monomorphism (usually a stronger one).  Common choices are [[strong monomorphisms]], [[regular monomorphisms]], or the right class of some [[orthogonal factorization system]].  (The latter choice has the advantage that then [[images]] will automatically exist.)
 
   * For example, in [[Top]] a monomorphism is just an injective function, whereas the strong and regular monomorphisms coincide and are the subspace embeddings.  In some contexts at least, one can argue that subspace embeddings are a more appropriate notion of "subobject" in $Top$ (for example, if one wants to exhibit it as a [[locally bounded category]]).  A similar thing happens in a [[quasitopos]].
 
