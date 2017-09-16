@@ -1,14 +1,17 @@
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
 
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 The _string 2-group_ is a _smooth_ [[2-group]] incarnation of the [[topological group]] called the [[string group]].
 
-## motivation from quantum physics ##
+### Motivation from quantum physics
 
 Since, by definition, the topological [[string group]] has vanishing third [[homotopy group]], it cannot be a (finite dimensional) [[Lie group]] (because these all have nontrivial $\pi_3$). However, for various applications it is necessary to have a smooth model of the [[string group]]. The string 2-group provides this.
 
@@ -26,13 +29,13 @@ Such a lift classifies a topological [[string group]]-[[principal bundle]] on $X
 
 In order to make sense of this one needs an incarnation and refinement of the topological [[string group]] inside an [[(infinity,1)-topos]] of [[Lie infinity-groupoid]]s. This is what the string 2-group accomplishes.
  
-## as an integration of the String Lie 2-algebra ##
+### As an integration of the String Lie 2-algebra 
 
 The string Lie 2-group is the result of applying [[Lie integration]] to the [[String Lie 2-algebra]] for the case that the Lie algebra 3-cocycle this is defined by is normalized such that its image as a left-invariant 3-form on the [[spin group]] is the image in [[deRham cohomology]] of the generator of the degree [[integral cohomology]] group $H^3(Spin(n), \mathbb{Z}) \simeq \mathbb{Z}$.
 
 ...
 
-## in terms of Whitehead towers in a smooth $(\infty,1)$-topos ##
+### In terms of Whitehead towers in a smooth $(\infty,1)$-topos 
 
 +-- {: .query}
 
@@ -100,15 +103,15 @@ With that definition, $\frac{1}{2}p_1$ does _not exist_ as a smooth cocycle. But
 
 So the string 2-group is a smooth [[2-group]] incarnation of...
 
-# Constructions #
+## Constructions 
 
 There are various equivalent constructions that should eventually be described here in detail. For the time being this here is very incomplete and -- notably -- biased. But it should improve eventally.
 
-## as a weak Lie 2-group ##
+### As a weak Lie 2-group
 
 ... Henriques...
 
-## as a strict Lie 2-group ##
+### As a strict Lie 2-group
 
 A realization of the string 2-group as a [[strict 2-group]] [[internalization|internal]] to [[diffeological space]]s was given in 
 
@@ -185,12 +188,12 @@ where
 * the 2-groupoid $\mathbf{B}String_{BCSS}$ is the version given in BCSS (morhisms again are paths in $Spin(n)$ that are composed using the group product).
 
 
-## as a finite-dimensional weak Lie 2-group ##
+### As a finite-dimensional weak Lie 2-group 
 
 ...Schommer-Pries ...
 
 
-## by co-killing of homotopy groups in the smooth $(\infty,1)$-topos ##
+### By co-killing of homotopy groups in the smooth $(\infty,1)$-topos ##
 
 ...The smooth version of $\frac{1}{2}p_1 : \mathbf{B}Spin(n) \to \mathbf{B}^3 R//Z$ is constructed as follows.
 
@@ -245,7 +248,7 @@ $$
 
 Of course actually constructing this [[homotopy pullback]] (which is defined only up to weak equivalence of course) amounts to constructing one of the above models, or similar.
 
-#References#
+## References
 
 * Henriques
 
