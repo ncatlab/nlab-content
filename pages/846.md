@@ -1,8 +1,15 @@
+The join of simplicial sets extends that historically given for [[simplicial complex|simplicial complexes]], cf. for instance, the description and discussion in Spanier's classical text(page 109 and then pages 114 -116) on Algebraic Topology. For instance, given a simplicial complex $K$, the join of a point with $K$ will be a cone on $K$. 
+
+The adaptation of this to simplicial sets reveals a neat link with some categorical structure in the category, $\Delta_a$, of finite ordinals (including the empty one).  Recall
 
 
 #Definition#
 
-The objects of the _augmented_ [[simplex category]] $\Delta_a$ can be identified with finite sets of cardinality $0$, $1$, $2$ .... The operation of addition of natural numbers extends to the structure of a [[monoidal category]] on $\Delta_a$:
+The objects of the _augmented_ [[simplex category]] $\Delta_a$ can be identified with the finite totally ordered sets. 
+
+The operation of addition of natural numbers extends to give the **ordinal sum** which gives the structure of a [[monoidal category]] to $\Delta_a$ (for details see the discussion in the entry 
+[[simplex category]]).
+
 
 Using the ordinary notation for the objects of the simplex category, this product acts as
 
@@ -14,22 +21,10 @@ $$
   \,,
 $$
 
-where $[n] := (0 \to 1 \to \cdots \to n)$, $n \in \mathbb{N}$  is the totally ordered set with $n$-elements, as usual. In this notation one writes $[-1]$ for the object of $\Delta_a$ given by the empty set. If instead we'd use the notation
-
-$$
-  (k) := [n-1]
-$$
-
-for the objects of $\Delta_a$, where the number $k$ directly gives the cardinality of the finite set in question, 
-with $k \in \mathbb{N}$, then the join tensor product on $\Delta_a$ reads more naturally:
-
-$$
-  \otimes_{join} : ([k], [l]) \mapsto (k + l)
-  \,.
-$$
+where $[n] := (0 \to 1 \to \cdots \to n)$, $n \in \mathbb{N}$  is the totally ordered set with $n$-elements, as usual. 
 
 
-Now, via the general process of [[Day convolution]] the monoidal structure on $\Delta_a$ is lifted to a monoidal structure on presheaves on $\Delta_a$, i.e. to the the category [[ASSet]] of augmented [[simplicial set]]s. This is given by the [[end|coend]] formula
+Now, via the general process of [[Day convolution]], this monoidal structure on $\Delta_a$ is lifted to a monoidal structure on presheaves on $\Delta_a$, i.e. to the the category [[ASSet]] of augmented [[simplicial set]]s. This is given by the [[end|coend]] formula
 
 $$
   \otimes_{join} : ASSet \times ASSet \to ASSet
@@ -73,7 +68,7 @@ in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4
 This join was studied by P. J. Ehlers, in his thesis
 
 _Algebraic Homotopy in Simplicially Enriched Groupoids_, 1993, 
-University of Wales Bangor, (see also the reference below),
+University of Wales Bangor, (see also the reference below and the Menagerie notes available from [[Tim Porter]]'s homepage.),
 
 but was there ascribed to Jack Duskin and Don van Osdol in some unpublished notes.  The main ideas were derived there from earlier work by Bill Lawvere.
 
