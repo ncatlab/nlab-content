@@ -7,7 +7,7 @@ _Functions are relations._
 +-- {: .query}
 Types are functions?  ---TB
 
-[[JA]]:  The type of a relation arrow $f$ in a relation category $C$ is the function $\mathop{dom}_{(-)} f : \mathbb{N}^+ \to \mathop{Obj}(C)$, in other words, its sequence of domains.
+The type of a $k$-adic relation arrow $f$ in a relation category $C$ is its sequence of domains $(dom_1 f, \ldots, dom_k f)$, in other words, the function $\mathop{type}_f : [1, k] \to \mathop{Obj}(C)$ defined by $\mathop{type}_f j = \mathop{dom}_j f$.  ---[[JA]]
 
 =--
 
