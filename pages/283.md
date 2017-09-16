@@ -21,3 +21,5 @@ For $(\infty,1)$-topoi the standard reference is
 * [[Jacob Lurie]], [[Higher Topos Theory]]
  ([arXiv](http://arxiv.org/abs/math.CT/0608040))
 
+
+[[!redirects infinity topos]]
