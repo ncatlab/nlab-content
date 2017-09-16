@@ -13,7 +13,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-20
 
-* [[Zoran Škoda]]: created [[compact object]], [[noncommutative algebraic geometry]], [[spectrum (geometry)]], [[Pierce spectrum]], [[filter]] (thanks Mike for an essential typographic correction), [[generator]], [[cogenerator]] (the latter were prompted by editing [[Morita equivalence]], paragraph on classical Morita). 
+* [[Zoran Škoda]]: created [[algebraic monad]], [[generalized ring]], [[compact object]], [[noncommutative algebraic geometry]], [[spectrum (geometry)]], [[Pierce spectrum]], [[filter]] (thanks Mike for an essential typographic correction), [[generator]], [[cogenerator]] (the latter were prompted by editing [[Morita equivalence]], paragraph on classical Morita). 
 
 Im Midwesten nichts Neues
 
