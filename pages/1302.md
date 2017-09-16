@@ -4,9 +4,10 @@
 * automatic TOC goes here
 {: toc}
 
-#Definition#
 
-## as locally presentable $\mathcal{O}_X$-modules ##
+## Definition
+
+### As locally presentable $\mathcal{O}_X$-modules 
 
 Given a [[ringed space]] $(X,O_X)$ a __quasicoherent sheaf of $O_X$-modules__ is a sheaf $\mathcal{M}$ of $O_X$-modules such that there is a cover $\{U_\alpha\}_{\alpha\in A}$ of $X$ by open sets such that for every $\alpha$ there exist $I_\alpha$ and $J_\alpha$ and an exact sequence of sheaves of $O_X$-modules of the form
 $$
@@ -19,7 +20,7 @@ which should be viewed as a local presentation of $\mathcal{M}$. If $I_\alpha, J
 Replacing covers by open sets, by covers of a terminal object in a site, the definition extends to [[ringed site]]s with a terminal object; the restrictions of $O_X$-modules should be replaced by pullbacks.
 There are generalizations for [[algebraic stack]]s, ind-schemes, diagrams of schemes (for example [configuration schemes](http://arxiv.org/abs/math/0012061) of V. Lunts, obtained by gluing along closed embeddings of schemes; simplicial schemes) and so on. 
 
-## as sheaves on $Aff/X$ ##
+### As sheaves on $Aff/X$ {#CoolDefinition}
 
 There is an equivalent reformulation of the above in terms of [[sheaf|sheaves]] of $\mathcal{O}$-modules on the [[site]] $Aff/X$ of [[affine scheme]]s over $X$.
 
@@ -52,15 +53,15 @@ is an [[isomorphism]]. See
 **Remark** This definition has a straightforward generalization to various [[higher category theory|higher categorical]] setups, such as [[derived scheme]]s and other [[generalized scheme]]s. See [[geometric infinity-function theory]] for a detailed discussion of properties of "derived quasicoherent sheaves".
 
 
-# Properties #
+## Properties 
 
-## quasicoherent sheaves over affine schemes ##
+### Quasicoherent sheaves over affine schemes 
 
 Given an affine scheme $X=\mathrm{Spec}\,R$ (where $R$ is a commutative unital ring), the affine Serre theorem establishes the equivalence of the category $Qcoh(\mathrm{Spec}\,R)$ of quasicoherent sheaves (in Zariski topology) and the category of $R$-modules. Similarly on a projective scheme of the type $Proj(A)$ where
 $A$ is a nonnegatively graded ring, the (projective) Serre theorem establishes the equivalence of $Qcoh(\mathrm{Proj}\,(A))$ and 
 the localization of the category of graded $A$-modules by the subcategory of modules of finite length (and similarly, of coherent sheaves and graded $A$-modules of finite type modulo finite-length). These theorems are among basic motivating theorems for [[noncommutative algebraic geometry]]. An interesting in-depth comparison of the notions of quasi-coherent sheaves in commutative and noncommutative context are also in the Orlov's article quoted above.
 
-## the category of quasicoherent sheaves ##
+### The category of quasicoherent sheaves 
 
 In the case of general (commutative) schemes, every presheaf of $O_X$-modules which is quasicoherent in the sense of having local presentation as above, is in fact a sheaf. It is known that the category of quasicoherent sheaves of $O_X$-modules over any [[quasicompact]] quasiseparated scheme is a [[Grothendieck category]] and in particular has enough [[injective object]]s.
 
