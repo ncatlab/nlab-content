@@ -206,6 +206,8 @@ _[[John Baez]]_: I'm deleting the mistake that launched this discussion: "In fac
 
 David R: Thankyou!
 
+[[Mike Shulman]]: Coming in a bit late, I don't disagree with the conclusion (removing that sentence), but I also feel the need to point out that there _is_ a notion which generalizes both enriched and internal categories, and which also includes things that one might reasonably call "enriched internal categories."  I'm thinking of the notion of categories enriched in a [[bicategory]] (or, in my opinion more correctly, an [[equipment]]).  Ordinary enriched categories are categories enriched in a monoidal category considered as an equipment with one object; ordinary internal categories are categories with one object enriched in an equipment of spans.  And as a basic example of "enriched internal categories," consider for a nice category $S$ the equipment whose objects are those of $S$ and whose (pro)arrows from $X$ to $Y$ are internal abelian group objects in $S/(X\times Y)$.  A category enriched in this equipment (perhaps with one object) can be thought of as "a category internal to $S$ and enriched in (internal) abelian groups."
+
 =--
 
 |Set theory| |Category theory|
