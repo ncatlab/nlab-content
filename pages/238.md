@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-19 #
 
+* [[Tim Porter|Tim]]: I have adjusted [[homotopy coherent nerve]] in an attempt to answer some of the points made there by [[Todd Trimble|Todd]],
+
 * [[Urs Schreiber|Urs]]:
 
   * almost missed [[Tim Porter]]'s addition about the [[Dwyer-Kan loop groupoid]] to [[simplicial homotopy group]] -- that sounds very good, I'd be happy if we make this the default point of view at that entry and derive the more traditional description only as a special case from that
