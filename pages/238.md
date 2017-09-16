@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-26 #
 
+*  [[Toby Bartels]]:
+   *  Wrote [[up set]] and [[down set]] to satisfy some links.
+   *  Inspired [[David Roberts]] to write [[numerable open cover]].
+   *  Spun [[strict 2-group]] off of [[2-group]] and added a bit of material about weak and coherent $2$-groups.
+   *  Started [[(n,j)-transformation]] based on discussion at [[modification]]; also wrote [[j-morphism]] and [[n-functor]] to fill links from it.
+
 *  [[Eric Forgy]] has a request at [[notation]].
 
 *  [[David Roberts]]: created [[fibration theory]]. Also a comment at [[gerbe (general idea)]] about the fibration theory axioms.
