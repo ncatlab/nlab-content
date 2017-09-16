@@ -51,29 +51,33 @@ $$
 ###### Remark
 We need to justify this notion of completeness.  One direction is simple: the sequence of partial sums of the series $\sum \lambda_n b_n$ is Cauchy and so if the space is complete, it has a limit and this limit satisfies the criterion.
 
-The other direction takes a little more effort.  The quickest (but dirtiest) route is simply to observe that if that condition is satisfied then whenever we have an isometry from $\ell^0$ (with its standard inner product) into our space then it extends to $\ell^2$.  A slightly more concrete route is as follows.  Start with a Cauchy sequence in $H$, say $(x_n)$, and then apply Gram-Schmidt.  This results in an orthonormal sequence, say $(b_n)$.  For each $k$, we define $\lambda_k$ as the limit (in $\mathbb{C}$) of $(\langle x_n, b_k\rangle)$.  We can make $\lambda_k$ a positive real number by taking the phase factor in to $b_k$.  Let $(s_n)$ be the sequence of partial sums of the series $\sum \lambda_k b_k$.  Then $(s_n)$ is Cauchy and the interpolation of $(s_n)$ and $(x_n)$ is also Cauchy.  By assumption, $(s_n)$ has a weak limit.  As it is Cauchy, the existence of a weak limit is enough to show that it has a strong limit.  Thus $(x_n)$ also converges and so $H$ is complete.
+The other direction takes a little more effort.  The quickest (but dirtiest) route is simply to observe that if that condition is satisfied then whenever we have an isometry from $\ell^0$ (with its standard inner product) into our space then it extends to $\ell^2$.  A slightly more concrete route is as follows.  Start with a Cauchy sequence in $H$, say $(x_n)$, and then apply the [[Gram–Schmidt process]].  This results in an orthonormal sequence, say $(b_n)$.  For each $k$, we define $\lambda_k$ as the limit (in $\mathbb{C}$) of $(\langle x_n, b_k\rangle)$.  We can make $\lambda_k$ a positive real number by taking the phase factor in to $b_k$.  Let $(s_n)$ be the sequence of partial sums of the series $\sum \lambda_k b_k$.  Then $(s_n)$ is Cauchy and the interpolation of $(s_n)$ and $(x_n)$ is also Cauchy.  By assumption, $(s_n)$ has a weak limit.  As it is Cauchy, the existence of a weak limit is enough to show that it has a strong limit.  Thus $(x_n)$ also converges and so $H$ is complete.
 
 The tenor of the new definition and its equivalence to the standard one is a theme that will run throughout this page.  In our elementary treatment, weak definitions are to be preferred to the standard strong ones.  Their equivalence exposes some of the deep results of Hilbert space theory.
 =--
 
-As this is intended as an elementary treatment, it is likely that at some point we will want to assume that our Hilbert space is "small", by which (of course) we mean "separable".  Fortunately, it is not hard to formulate separability without recourse to metric spaces.
+As this is intended as an elementary treatment, it is likely that at some point we will want to assume that our Hilbert space is "small", by which (of course) we mean "[[separable space|separable]]".  Fortunately, it is not hard to formulate separability without recourse to metric spaces.
 
 +-- {: .num_defn #sep}
 ###### Definition
 An inner product space is **separable** if it contains a sequence, say $(x_n)$ with the property that $\langle x, x_n\rangle = 0$ for all $n$ implies that $x = 0$.
 =--
 
-## Cauchy-Schwarz
+## Cauchy--Schwarz
 
-The Cauchy-Schwarz inequality is one of the basic results of Hilbert space theory.  As we wish to avoid any mention of a norm, we state it as follows.
+The Cauchy--Schwarz inequality is one of the basic results of Hilbert space theory.  As we wish to avoid any mention of a norm, we state it as follows.
 
 +-- {: .num_proposition #csineq}
 ###### Proposition
 Let $H$ be a Hilbert space, $u,v \in H$.  Then
 $$
-|\langle u, v \rangle| \le \langle u, u \rangle^{\frac{1}{2}} \langle v, v \rangle^{\frac{1}{2}}
+|\langle u, v \rangle|^2 \le \langle u, u \rangle \langle v, v \rangle
 $$
 with equality if and only if $u$ and $v$ are collinear.
+=--
+
++-- {: .query}
+I removed the square roots here, since there doesn\'t seem to be much point to them if you\'re not going to connect with a metric.  (On the other hand, surely even an elementary treatment of Hilbert spaces may deign to mention the geometric concept of distance?  It\'s one thing to not assume a knowledge of metric spaces, but it\'s another thing to refuse to even mention norms.)  ---Toby
 =--
 
 +-- {: .proof}
@@ -109,7 +113,7 @@ $$
 \langle v,v\rangle \langle u,u\rangle - \langle u, v \rangle \langle v, u\rangle \ge 0
 $$
 
-with equality if and only if $u$ and $v$ are collinear.  Rearranging and square-rooting produces the traditional statement of the Cauchy-Schwarz inequality.
+with equality if and only if $u$ and $v$ are collinear.  Rearranging and square-rooting produces the traditional statement of the Cauchy--Schwarz inequality.
 =--
 
 ## Subspaces and Complements
