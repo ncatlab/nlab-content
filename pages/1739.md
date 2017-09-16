@@ -7,7 +7,7 @@ This entry is about the article
   in 
 
   [[John Baez]] and [[Peter May]],
-  [[John Baez:Approaching Higher Categories|Approaching Higher Categories]] 
+  [[John Baez:Towards Higher Categories|Towards Higher Categories]] 
 
 
 #related $n$Lab entries#
