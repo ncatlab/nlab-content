@@ -14,6 +14,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-27 #
 
+*  [[Eric Forgy]] has begun some pages related to administration of the Lab:
+   *  [[Organization of the nLab]]
+   *  [[On Scientific Contributions to the nLab]]
+   *  [[AnonymousCoward]] (which is not new but has a new discussion of privacy issues)
+   *  not so much administration but new suggestions for resources:
+      *  [[Bibliography]]
+      *  [[Notation]]
+
 * [[Urs Schreiber]]
 
   * created a section "Category theory for Trimble $n$-categories" at [[Trimble n-category]] and put in a query box with a list of questions -- I'd be interested in whatever partial answers and comments 
