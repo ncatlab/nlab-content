@@ -108,7 +108,7 @@ This shows up in cohomology as Chern character.
 
 **Formal groups.**  A [[formal group]] is a group in the [[category]] of [[formal scheme]]s.
 
-A formal scheme $\hat X$ is defined for $Y \hookrightarrow X$ a closed subscheme.
+A [[formal scheme]] $\hat X$ is defined for $Y \hookrightarrow X$ a closed subscheme.
 Intuitively the [[formal scheme]]  $\hat X$ is like the $\infty$-jet bundle of $Y$ inside of $X$.
 
 **Definition.**  The locally [[ringed space]] $\hat X$ is defined as the [[topological space]] $Y$
@@ -117,8 +117,13 @@ with structure sheaf $\lim O_X/^n$, where $V(U)$ has underlying space $Y$.
 
 **Examples.**  $X=\hat X$ when $Y=X$.  $\mathrm{Spec} k[t]=X$, $Y=V(t)$, $\hat X=k[t,t^{-1}]$.
 
-**Definition.** $\mathrm{Spf} R$ is the locally [[ringed space]] with the underlying [[topological space]]
-$\mathrm{Spec} R/I$ and [[sheaf]] $O_{\mathrm{Spf} R}(\mathrm{Spf} R)=\lim R/I^n$.
+**Definition. (formal spectrum)** The [[formal spectrum]] $\mathrm{Spf} R$ of a ring $R$ with specified ideal $I \subset R$ is the locally [[ringed space]] with the underlying [[topological space]]
+being $\mathrm{Spec} R/I$ and global sections of the [[structure sheaf]] given by the [[limit]] 
+
+$$
+  O_{\mathrm{Spf} R}(\mathrm{Spf} R)=\lim R/I^n
+  \,.
+$$
 
 
 ### formal group laws from elliptic curve ###
