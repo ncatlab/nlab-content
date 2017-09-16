@@ -36,4 +36,6 @@ _Toby_:  Sure, there are lots of [[adjunctions]] that work this way.  (I forget 
 
 [[Eric]]: Wait a second. Does the "walking commutative square" consist of 4 objects? If so, then the diagonal should be a morphism because it is the composite of two sides so the diagram is not complete as drawn. It should include the diagonal. I'm sure I'm confused. What am I missing?
 
+[[Mike Shulman]]: Yes, the diagonal is a morphism.  I didn't draw it because we don't usually draw the diagonal when we draw a commutative square, just like we don't usually draw identity morphisms.
+
 =--
