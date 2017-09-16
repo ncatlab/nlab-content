@@ -1,5 +1,9 @@
 
-#Definition#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition ##
 
 An object $X$ in a category $C$ with a [[zero object]] $0$ is __simple__ if there are precisely two [[subobject]]s of $X$: $0$ and $X$. 
 
@@ -7,11 +11,19 @@ Note that $0$ itself is *not* simple, as it has only *one* subobject.  This is s
 
 In [[constructive mathematics]], we want to phrase the definition as: a subobject of $X$ is $0$ if and only if it is not $X$.
 
+## Examples ##
 
-#Related entries#
+* In the category [[Vect]] of [[vector space]]s over some field $k$, the irreducible objects are precisely the 1-dimensional vector spaces, i.e. $k$ itself, up to [[isomorphism]].
+
+* For $G$ a [[group]] and $Rep(G)$ its category of [[representation]]s, the simple objects are the [[irreducible representation]]s.
+
+## Related entries ##
 
 * [[semisimple category]]
 
+  * [[fusion category]]
+
+  * [[modular tensor category]]
 
 [[!redirects simple objects]]
 
