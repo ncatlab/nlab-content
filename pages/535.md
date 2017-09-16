@@ -1,6 +1,6 @@
 #Idea#
 
-A _causet_ or _causal_ set is essentially the same thing as a [[partial order|poset]].  
+A _causet_ or _causal_ set is essentially the same thing as a [[partial order|poset]], more precisely a _locally finite_ poset.  
 
 The difference in terminology indicates the restriction to certain applications: regarding a poset as a _causal set_ means to regard it as a model for something like a space with time evolution: a morphism $a \to b$ in the poset is read as encoding the information: "there is a time evolution process which takes $a$ to $b$". Equipped with this interpretation as causal sets, posets find applications in
 
@@ -43,3 +43,4 @@ A causal set, or **causet** is a [[partial order|poset]] $X$ such that for all o
 
 [[!redirects causets]]
 [[!redirects causal set]]
+[[!redirects locally finite poset]]
