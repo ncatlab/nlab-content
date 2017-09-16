@@ -56,7 +56,7 @@ On the other hand, the aim is to keep iTeX as close as possible to standard LaTe
 
 * Whitespace in embedded text.  In LaTeX `$x \text{ and } y$` renders as $x\;\text{and}\;y$ but in iTeX it renders as $x\text{ and }y$.  This is because MathML says that fore and aft whitespace on `mtext` elements should be swallowed.  The **safe** syntax is `$x\;\text{and}\;y$`.
 
-* Two-character relations.  In LaTeX, two neighbouring relation symbols are combined into one relation symbol.  Thus `$y := f(x)$` becomes $y \mathrel{:=} f(x)$, while `$y = -f(x)$` becomes $y = -f(x)$ because a minus sign is a unary operator instead of a binary relation.  Since MathML doesn\'t know the difference between unary operators and binary relations, it is inconvenient for iTeX to do this, so `$y := f(x)$` comes out as $y := f(x)$ instead.  The __safe__ syntax is `$y \mathrel{:=} f(x)$`, which produces $y \mathrel{:=} f(x)$.  However, in many cases, there is a combined command that you can use.  In this case, `$y \coloneqq f(x)` produces $y \coloneqq f(x)$.  This method is better when [available](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html); even in LaTeX, it will adjust the vertical positioning a bit to look nice.
+* Two-character relations.  In LaTeX, two neighbouring relation symbols are combined into one relation symbol.  Thus `$y := f(x)$` becomes $y \mathrel{:=} f(x)$, while `$y = -f(x)$` becomes $y = -f(x)$ because a minus sign is a unary operator instead of a binary relation.  Since MathML doesn\'t know the difference between unary operators and binary relations, it is inconvenient for iTeX to do this, so `$y := f(x)$` comes out as $y := f(x)$ instead.  The __safe__ syntax is `$y \mathrel{:=} f(x)$`, which produces $y \mathrel{:=} f(x)$.  However, in many cases, there is a combined command that you can use.  In this case, `$y \coloneqq f(x)$` produces $y \coloneqq f(x)$.  This method is better when [available](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html); even in LaTeX, it will adjust the vertical positioning a bit to look nice.
 
 ## HTML, XML, etc.
 
@@ -107,5 +107,6 @@ If about something mathematical then try to convince [[John Baez|John]], [[Urs S
 ### How can I get a personal section of the nLab?
 
 Some users have personal areas of the _n_-Lab where they can have password protected pages and do work without fitting it into the rest of _n_-Lab.  If you would like to have such an area, ask the [[nlabmeta:steering committee|steering committee]].
+
 
 category:meta
