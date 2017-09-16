@@ -61,6 +61,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
   one entry that really deserves a TOC is [[category of fibrant objects]] -- but I failed to insert one there. Encountered lots of strange behaviour like truncations of the entry (had to rollbck several times) or error messages after saving. Could it be that this entry exceeds some length limit?
 
+  [[Andrew Stacey|Lab Elf (carpentry division)]]: The length limit is _really long_ now, about 500 million characters.  If we get that long we should contact the Guinness book of records.  The problem was actually due to having a wiki-link in one of the headings.  Oddly enough, there was no error message on this in the logs but changing it solved the problem (it now says "see also [[fibration sequence]]" after the heading).  I imagine it's to do with the fact that things in the table of contents are links to the sections in the document so having a wiki-link would mean that one thing (the entry in the table of contents) was a link to two places (the section and the page the wiki-link points to).  As the Maruku filter is independent of the wiki, it doesn't know of wiki-links and so doesn't know how to handle them.
+
 * [[Mike Shulman]]: More at [[SEAR]], including how to eliminate equality entirely, and how to prove the SEAR Collection axiom from ZF.
 
 * [[Urs Schreiber]]: many thanks to [[Jon Awbrey]] for providing help with automatic TOCs. Great that it works now, but why does it? What does that funny "tic" thing achieve? Let's discuss this on the forum -- [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=82&page=1#Item_1) -- and summarize the result at [[HowTo]] eventually 
