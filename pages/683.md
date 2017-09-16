@@ -7,13 +7,14 @@ In classical homotopy theory, the presentation is given by a [[category with wea
 In [[enriched homotopy theory]], the presentation is given by an [[enriched model category]] or an [[enriched homotopical category]], and it presents an "enriched $(\infty,1)$-category."  Here the appropriate notion is a [[weighted limit|weighted]] homotopy limit, which is expected to construct "weighted $(\infty,1)$-limits" in the presented "enriched $(\infty,1)$-category."  Note that as yet, no fully general notion of "enriched $(\infty,1)$-category" exists; see [[homotopical enrichment]].
 
 
-# Definitions #
+#Definitions #
 
-There are two ways to define homotopy limits:
+As for ordinary [[limit]]s,
+there are two ways to define homotopy limits:
 
-* with explicit constructions that satisfy a "local" universal property: the homotopy limit object "represents homotopy-coherent cones up to homotopy."
+* with explicit constructions that satisfy a _local_ universal property: the homotopy limit object "represents homotopy-coherent cones up to homotopy."
 
-* as [[derived functor]]s that satisfy a "global" universal property: the homotopy limit _functor_ is "universal among homotopical approximations to the strict limit functor."
+* as [[derived functor]]s that satisfy a _global_ universal property: the homotopy limit _functor_ is "universal among homotopical approximations to the strict limit functor."
 
 One of the central theorems of the subject is that in good cases, the two give equivalent results; see below.
 
