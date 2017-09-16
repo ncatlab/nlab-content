@@ -10,12 +10,12 @@ be the map $(x_1 , \ldots \, , x_n) \mapsto (m_1 x_1, \ldots  \, ,
 m_n x_n).$ Then a _subdivision of type $(m)$_  of a map $\alpha : I^n
 \rightarrow X$ is a factorisation $\alpha = \alpha' \circ
 \phi_{(m)}$; its  _parts_ are the cubes $\alpha_{(r)}$ where
-$(r) = (r_1, \ldots , r_n)$ is an $n$-tuple of integers with $1
-\leq r_i \leq m_i$, $i = 1, \ldots , n,$ and where
+$(r) = (r_1, \ldots \,, r_n)$ is an $n$-tuple of integers with $1
+\leq r_i \leq m_i$, $i = 1, \ldots\, , n,$ and where
 $\alpha_{(r)} : I^n \rightarrow X$ is given by
 
-$$(x_1, \ldots , x_n) \mapsto
-\alpha'(x_1 + r_1 - 1, \ldots , x_n + r_n - 1).$$
+$$(x_1, \ldots \, , x_n) \mapsto
+\alpha'(x_1 + r_1 - 1, \ldots \, , x_n + r_n - 1).$$
 
 We then say that $\alpha$ is the _composite_  of the cubes $\alpha_{(r)}$ and write
 $\alpha = [\alpha_{(r)}]$. The _domain_ of $\alpha_{(r)}$ is
@@ -27,11 +27,11 @@ $m_i \gt 1,$ and we then write $\alpha = [\alpha_1 , \ldots\, ,
 \alpha_m{_j} ]_j;$ the composite is _in the directions_ $j$,
 $k$ $(j \neq k)$  if $m_j$, $m_k$ are the only $m_i \gt 1,$ and we then write
 
-$$\alpha = [ \alpha_{rs}]_{j,k} $$
+$$\alpha = [ \alpha_{rs}]_{j,k} \quad  or \quad  [ \alpha_{rs}] \quad  _{j}\!\downarrow ^{\textstyle\to ^k} $$
 
-for $r = 1 , \ldots , m_j$ and $s = 1, \ldots \,, m_k.$
+for $r = 1 , \ldots , m_j$ and $s = 1, \ldots \,, m_k.$ The aim is to follow matrix conventions in writing double compositions. 
 
-These definitions and notations are useful for showing how the singular cubical complex allows expression for _algebraic inverses to subdivision_. 
+These definitions and notations are useful for showing how the singular cubical complex allows expression for _algebraic inverses to subdivision_, something seemingly very difficult either simplicially or globularly. The implications of this advantage for weak category theory seem not to have been investigated. 
 
 
 A _cubical set with connections and compositions and inverses_ is a cubical
@@ -68,8 +68,31 @@ $$      \varepsilon_i(a+_j b) = \begin{cases}
 
 $$      \varepsilon_i (-_j b) =
                   \begin{cases}
-     -_{j+1} \varepsilon_ia & (i \leq j) \\
-     -_j \varepsilon_ia & (i \gt j) \end{cases}$$
+     -_{j+1} \varepsilon_i a & (i \leq j) \\
+     -_j \varepsilon_i a & (i \gt j) \end{cases}$$
+
+We have for $i \ne j$ and whenever both sides are defined:
+
+$$
+   (a+_i b) +_j (c+_i d) = (a+_j c) +_i (b+_j d)
+$$
+
+These relations are called the _interchange laws_, and both sides of this equation may be written:
+
+$$\begin{bmatrix} a& c\\ b & d  \end{bmatrix} \quad _{i}\!\downarrow ^{\textstyle\to ^j}$$
+
+ Further:
+
+$
+-_i (a+_j b) = (-_i a) +_j (-_i b)$    and  $ -_i (-_j a) =
+-_j (-_i a)$  if $i \ne j$  
+
+$-_j(a+_j b)  = (-_j  b)+_j(-_j a)$  and  $ -_j (-_j a) =a$.
+   
+
+
+
+If further $K$ is a [[cubical set with connections]] then we also require  
      
 
 $$    \Gamma^\alpha _i (a+_j b) = \begin{cases}
@@ -94,20 +117,6 @@ $$ \begin{bmatrix} \Gamma^-_j a & \varepsilon_{j+1} b \\
 
 
 
-We have for $i \ne j$ and whenever both sides are defined:
-
-$$
-   (a+_i b) +_j (c+_i d) = (a+_j c) +_i (b+_j d)
-$$
-
-These relations are called the _interchange laws_. Further:
-
-$
--_i (a+_j b) = (-_i a) +_j (-_i b)$    and  $ -_i (-_j a) =
--_j (-_i a)$  if $i \ne j$  
-
-$-_j(a+_j b)  = (-_j  b)+_j(-_j a)$  and  $ -_j (-_j a) =a$.
-   
 
 
 
@@ -131,7 +140,12 @@ t_{j-1},1-t_j,t_{j+1} ,\ldots,t_n).
 $$
 
 
+The above list of relations may seem formidable, but they all express simple geometric ideas most of which have been in some form or another well used in algebraic topology. 
 
+Notice also that in the singular cubical complex of a space, the interchange and transport laws hold **exactly**.  
+
+
+We also get a notion of [[cubical omega-category]] with connections by assuming that  all compositions $+_i$ give a category structure with source and target maps $\partial^-_i, \partial^+_i:K_n \to K_{n-1}$ and identity maps $\varepsilon_i: K_{n-1} \to K_n$.  
 
 ##References## 
 
