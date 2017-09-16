@@ -134,20 +134,25 @@ If $A$ has all pullbacks, then we can form the bicategory $Span(A)$ of [[span|sp
 
 This approach makes it easy to define the notion of [[internal profunctor]].
 
+
 ## Examples
 
-* A [[small category]] is a category internal to [[Set]].  In this case, $C_0$ is a set of objects and $C_1$ is a set of morphisms and the pullback is Cartesian product.
-* A [[topological category]] is a category internal to [[Top]], where $C_0$ is the "space of objects" and $C_1$ the "space of morphisms".
-* A small [[cocategory]] is a category internal to $Set^{op}$.
+A [[small category]] is a category internal to [[Set]].  In this case, $C_0$ is a set of objects and $C_1$ is a set of morphisms and the pullback is a subset of the [[Cartesian product]].
+
+Historically, the motivating example was (apparently) the notion of [[Lie groupoids]]: a small Lie groupoid is a [[groupoid]] internal to the category [[Diff]] of [[smooth space|smooth]] [[manifolds]]. This generalises immediately to a [[Lie category]]. Similarly, a [[topological groupoid]] is a groupoid internal to [[Top]]. (Warning: the term 'topological category' usually means a [[topological concrete category]], an unrelated notion.)  In these examples, $C_0$ is a "space of objects" and $C_1$ a "space of morphisms".
+
+Further examples:
+* A [[cocategory]] in $C$ is a category internal to $C^{op}$.
 * A [[double category]] is a category internal to [[Cat]]. 
 * A [[double bicategory]] is a category internal to [[Bicat]] (in a suitably weak sense).
 * A [[crossed module]] is equivalent to a category internal to [[Grp]].
 * A [[Baez-Crans 2-vector space]] is a category internal to [[Vect]].
-* Historically, the motivating example was (apparently) the notion of [[Lie groupoid|Lie groupoids]]: groupoids internal to the category [[Diff]] of manifolds. 
+
 
 ## Internal functors
 
-Functors between internal categories are defined in a similar fashion. See [[functor]].  But if the ambient category does not satisfy the [[axiom of choice]] it is often better to use [[anafunctor|anafunctors]] instead.
+Functors between internal categories are defined in a similar fashion. See [[functor]].  But if the ambient category does not satisfy the [[axiom of choice]] it is often better to use [[anafunctor|anafunctors]] instead; this makes sense when $C$ is a [[superextensive site]].
+
 
 ## Internal nerve
 
