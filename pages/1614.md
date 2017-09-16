@@ -34,8 +34,8 @@ In constrast to topological QFTs, non-topological quantum field theries in the [
 In many of the simplest examples, this is taken to be the [[classifying space]] of a group, but this is not the only case that can be considered.  The topic is explored more fully in [[HQFT]]. 
 
 
-[[!redirects topological quantum field theory]]
 [[!redirects topological quantum field theories]]
+[[!redirects TQFT]]
 [[!redirects TQFTs]]
 [[!redirects TFT]]
 [[!redirects TFTs]]
