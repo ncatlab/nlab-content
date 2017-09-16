@@ -17,6 +17,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-08-07
+
+* [[Urs Schreiber]]: added to [[category algebra]] the description of (at least groupoid algebras) in terms of the weak colimit over the constand 2-functor to $Vect-Mod$. That's kind of remarkable. I have to admit to my shame that I wasn't aware of this fact before. It's extracted from Free-Hopkins-Lurie-Teleman's latest, where it is the starting point for a huge story.
+
 * [[Zoran Škoda]]: I will most likely be on vacation for next about 10 days, what means mainly offline, though I hope to contribute with an item here and there within that period. To live safely (=with nlab) when offline I downloaded the whole html version of the site which I backed up online at my institute's server (which is pretty well working). Here is the today's file [nlab.tar.gz](http://www.irb.hr/korisnici/zskoda/nlab.tar.gz), only about 10Mb but with 77 Mb after gunzipping back to tar and about the same after untarring. Of course I will not update this file at least till full return back. 
 
 *  [[Toby Bartels]]:
