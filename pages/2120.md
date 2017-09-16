@@ -9,3 +9,4 @@ A __continuous map__ between [[locales]] is simply a [[frame]] homomorphism in t
 
 
 [[!redirects continuous function]]
+[[!redirects continuous maps]]
