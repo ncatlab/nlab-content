@@ -1,4 +1,8 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+##Idea##
 
 The _homotopy coherent nerve_ (also called _simplicial nerve_) of a [[simplicially enriched category]] is a [[simplicial set]] which includes information about all the higher homotopies present in the hom-spaces.  It generalizes the ordinary [[nerve]] of an ordinary [[category]].
 
@@ -27,7 +31,7 @@ regard the $n$-simplex as an [[strict omega-category|n-category]].
 
 
 
-#Preliminary definitions#
+##Preliminary definitions##
 
 For $\Delta^n$ the standard [[simplicial set|simplicial]] $n$-[[simplex]], define the [[simplicially enriched category]] $S[\Delta^n]$ as follows:
 
@@ -53,11 +57,11 @@ Some minutes later!  Does this read well now?
 
 * the composition operation is induced by 'composition of the corresponding paths' and thus essentially by union of the sets involved.
 
-#Remark:# 
+##Remark:## 
 
 in case you are wondering why we did not just say $P(i,j)$ was the poset of subsets of the set of elements between $i$ and $j$, it is because of the composition.  Of course, it can be done but looks more messy.
 
-#Example and (hopefully) explanation#
+##Example and (hopefully) explanation##
 
 We will examine the lowest dimensional cases. For $n = 0,1$, there is nothing of note.
 
@@ -92,19 +96,19 @@ is to be a simplicial map.
 A similar phenomenon occurs in higher dimensions.  There are two 'extra faces' in $S[5](0,5)$, and so on.
 
 
-##Remark##
+###Remark###
 
 We will return to other thoughts on this $S$ construction later in the entry.
 
 
 One of the reasons for discussing the above is the following:
 
-#Definition#
+##Definition##
 
 For $C$ a [[simplicially enriched category]], the **homotopy coherent nerve**  $N(C)$ is the [[simplicial set]] uniquely characterized by the formula $ Hom_{SSet}(\Delta^n, N(C)) = Hom_{SSet-Cat}(S[\Delta^n], C)$.
 
 
-#Remarks#
+##Remarks##
 
 * The original motivation for the introduction of the homotopy coherent nerve is that it provides a neat simplicial formulation of idea of [[homotopy coherent diagram|homotopy coherent diagrams]]. These were studied in the 1970s, by Boardman and Vogt in joint work,  and Vogt individually,  and Cordier (reference below). Cordier realised that, with a slight modification in the definition, Vogt's definition of homotopy coherent diagram, indexed by a small category $A$, say, corresponded exactly to a simplicially enriched functor from the $SSet$-category $S[A]$ to the $SSet$-category $Top$. They thus also corresponded to simplicial maps from the [[nerve]] of $A$ to $N(Top)$, (although that latter object was 'too large' to be a simplicial 'set'). This allowed a good definition of homotopy coherent diagrams in arbitrary simplicially enriched categories to be given. This definition works best when the simplicially enriched category is 'locally Kan', in other words it is enriched in the category of [[Kan complex|Kan complexes]]. These locally Kan $SSet$-categories are the fibrant ones in a model category structure on the category of $SSet$-categories. Cordier and Porter (1986) proved that if $C$ is a locally Kan simplicially enriched category then $N(C)$ is a '[[weak Kan complex]]', in other words, a [[quasi-category]].  Many of the ideas behind this result can be traced to Vogt's paper of 1973.
 
@@ -118,7 +122,7 @@ For $C$ a [[simplicially enriched category]], the **homotopy coherent nerve**  $
 
    A particular case of this nerve is the nerve of a [[2-group]] considered as a 2-category.
 
-#References#
+##References##
 
 The homotopy coherent nerve operation was introduced in
 
@@ -128,7 +132,11 @@ For the role played by the simplicial nerve in the context for relating quasi-ca
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
-# Discussion #
+A review is also in
+
+* Vivek Dhand, _The simplicial nerve of a simplicial category_ ([pdf](http://www.math.msu.edu/~dhand/sSet.pdf))
+
+## Discussion ##
 
 The following discussion was at [[simplicial nerve]] when this page was at [[simplicial nerve of simplicial categories]].
 +-- {: .query}
