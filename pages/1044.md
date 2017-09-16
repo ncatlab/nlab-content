@@ -1,3 +1,2 @@
-See [[end]].
-
-category: redirect
+&lt; [[coend]]
+[[!redirects coend -- history]]
