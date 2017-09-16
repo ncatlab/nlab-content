@@ -786,13 +786,15 @@ It turns out that the monoidal $(\infty,1)$-categories that we are concerned wit
 
 For each $1 \leq n \leq \infty$ let $E_n$ denote the [[little n-disk operad|little n-disk]] [[operad]] whose [[topological space]] of $E_n^k$ of $k$-ary operations is the space of embedding of $k$ $n$-dimensional disks (balls) in one $n$-dimensional disk without intersection, and whose composition operation is the obvious one obtained from gluing the big outer disks into given inner disks.
 
-In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792) (reference _EnAction_ below ) the theory of [[(infinity,1)-categories]] equipped with an action of the $E_n$-[[operad]] is established, so that
+In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792) (reference _EnAction_ below ) the theory of [[(infinity,1)-category|(infinity,1)-categories]] equipped with an action of the $E_n$-[[operad]] is established, so that
 
-* $(\infty,1)$-categories with an $E_1$-action are precisely [[monoidal (infinity,1)-category|monoidal (infinity,1)-categories]] ( _is that right??_ ) -- 1-fold monoidal $(\infty,1)$-categories;
+* $(\infty,1)$-categories with an $E_1$-action are precisely [[monoidal (infinity,1)-category|monoidal (infinity,1)-categories]]  -- 1-fold monoidal $(\infty,1)$-categories;
 
 * $(\infty,1)$-categories with an $E_\infty$-action are precisely [[symmetric monoidal (infinity,1)-category|symmetric monoidal (infinity,1)-categories]] -- $\infty$-tuply monoidal $(\infty,1)$-categories;
 
 * $(\infty,1)$-categories with an $E_n$-action for $1 \lt n \lt \infty$ are the corresponding $n$-tuply monoidal $(\infty,1)$-categories in between.
+
+>**Remark** The second statement is example 2.3.8 in [EnAction](http://dspace.mit.edu/handle/1721.1/43792). The first seems to be clear but is maybe not in the literature. Jacob Lurie is currently rewriting [[higher algebra|Higher Algebra]] such as to build in a discussion of $E_n$-operadic structures in the definition of $k$-tuply monoidal $(\infty,1)$-categories.
 
 
 Now, since geometric $\infty$-function theory is indeed _geometric_, we obtain a simple but powerful statement about the $k$-tupliness (heh) of the monoidal structure on our $(\infty,1)$-category of $\infty$-functions $C(X)$ of a space $X$:
