@@ -541,6 +541,7 @@ is another way to think of $\mathbf{H}(X,A)$.
 
 ## History and references ##
 
+
 The general perspective on cohomology was essentially established 35 years ago in
 
 * Kenneth Brown, [[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]] 
@@ -584,10 +585,21 @@ For a _motivation_ of these definitions from the point of view of cohomology as 
 
 * Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf)) .
 
+The general abstract picture of cohomology as connected components of mapping spaces in [[(∞,1)-topos]]es is the topic of section 7.2.2 of
 
-Essentially by applying these general constructions in the presence of a smooth [[fundamental ∞-groupoid]] functor $\Pi : H \to H$ one obtains _differential_ cohomology. More on that is at [[schreiber:Differential Nonabelian Cohomology]].
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-A discussion of cohomology in the general sense discussed above, using tools of [[model category]] theory for [[simplicial object]]s, is
+Notice that the discussion there is, as often in the literature, given from the perspectiv of a [[petit topos]], i.e. where one thinks of the [[(∞,1)-topos]] $\mathcal{X}$ as that of [[∞-stack]]s on a given [[space]] $X$ (instead of as a [[gros topos]] of _all_ generalized spaces, as we do in the above entry). Accordingly then from that perspective one wants to study the cohomology of $X$ itself, which corresponds to the [[terminal object]] in the $(\infty,1)$-topos. Accordingly, the cohomology in that section 7.2.2 is defined for the terminal coefficient object and for an [[Eilenberg-MacLane object]] $K(A,n)$:
+
+$$
+  H^n(\mathcal{X},A) := \pi_0\mathcal{X}({*}, K(A,n))
+$$
+
+(definition 7.2.2.14).
+
+
+
+Another reference with a  discussion of cohomology in the general sense discussed above, using tools of [[model category]] theory for [[simplicial object]]s, is
 
 * [[Brian Conrad]], _Cohomological descent_ ([pdf](http://math.stanford.edu/~conrad/papers/hypercover.pdf))
 
