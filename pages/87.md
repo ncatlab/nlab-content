@@ -50,7 +50,7 @@ Note that assuming $F_0\to C_0$ is a cover, so is $F_0\times F_0\to C_0\times C_
 
 By the remarks above, if $S$ is [[Set]] and "cover" means "[[surjection]]" (an example where the covers are the regular epimorphisms), then we recover the original external notion of ([[small category|small]]) anafunctor.
 
-If $C\leftarrow F \to D$ and $C\leftarrow G \to D$ are internal anafunctors, we define a __natural transformation__ between them to be a natural transformation between the two induced internal natural transformations $F\times_C G \to D$.  We can then prove that internal categories, anafunctors, and natural transformations form a [[bicategory]].  (Interestingly, you may need the axiom of choice in the [[metalogic]] to conclude this, depending on whether their is a natural way to choose the necessary pullbacks; else you get an [[anabicategory]], which is Makkai\'s version of a bicategory to be used in the absence of choice.)
+If $C\leftarrow F \to D$ and $C\leftarrow G \to D$ are internal anafunctors, we define a __natural transformation__ between them to be a natural transformation between the two induced internal natural transformations $F\times_C G \to D$.  We can then prove that internal categories, anafunctors, and natural transformations form a [[bicategory]].  (Interestingly, you may need the axiom of choice in the [[metalogic]] to conclude this, depending on whether there is a natural way to choose the necessary pullbacks; else you get an [[anabicategory]], which is Makkai\'s version of a bicategory to be used in the absence of choice.)
 
 The role of the assumptions about covers is:
 
