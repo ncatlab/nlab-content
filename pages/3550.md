@@ -103,7 +103,7 @@ This is [[Higher Topos Theory|HTT, def. 6.2.1.5]]
 ###### Definition
 **$(\infty,1)$-sheaves**
 
-Let $C$ be a [[small category|small]] [[(∞,1)-category]] with a [[Grothendieck topology]]. 
+Let $C$ be an [[(∞,1)-site]]. 
 
 Let $S$ be the collection of all monomorphisms $U \to Y(c)$ that correspond to covering [[sieve]]s in $C$. Say an object $C \in PSh_{(\infty,1)}(C)$ in the [[(∞,1)-category of (∞,1)-presheaves]] on $C$ is an **$(\infty,1)$-sheaf** if it is an $S$-[[local object]] (i.e. if it satisfies [[descent]] along all morphisms $U \to Y(c)$ coming from covering sieves).
 
