@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-07-08
 
 * [[Urs Schreiber]]:
+ 
+  * added to [[nerve]] an "Idea" section and a further "examples"-section on nerves for chain complexes and the relation to the Dold-Kan correspondence
+
+  * after a bit of work and with a bit of luck, I found the old reference by Kan where the description of the Dold-Kan correspondence is given in terms of nerves -- this is the nice way to do it -- added that reference to the [[Dold-Kan correspondence]]
+
+    * that reminds me that it would be nice if we eventually had an entry on that verey general nonsense behind nerves (or do we already have that somewhere?)
 
   * by coincidence I came across the old entry [[crossed module]] and noticed that there were meanwhile plenty of links to add to it -- so I did
 
