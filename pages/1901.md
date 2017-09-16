@@ -1,5 +1,3 @@
-[[!redirects Verity on descent for strict omega-groupoid valued presheave]]
-
 This entry is about a theorem by [[Dominic Verity]] that characterizes the [[descent]] condition for [[infinity-stack]]s that take values not in arbitrary [[infinity-groupoid]]s, but just in [[strict omega-groupoid]]s.
 
 The details are here:
@@ -57,3 +55,6 @@ The question remained open how that definition of descent on $Str \omega Grpd$-v
 It is this question that Dominic Verity's theorem answers.
 
 In words, Verity's theorem says that Ross Street's descent conditon on a $Str \omega Grpd$-valued presheaf $A$ is the correct one if the [[hypercover]] $\pi : Y \to X$  along which one checks descent is sufficiently well behaved -- in that the [[simplicial object|cosimplicial]] $\infty$-groupoid $A(Y)$ is [[Reedy category|Reedy fibrant]]. 
+
+
+[[!redirects Verity on descent for strict omega-groupoid valued presheave]]
