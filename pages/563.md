@@ -16,15 +16,7 @@ _Toby_:  As you suggest, the two versions are equivalent, so in a way it doesn\'
 
 In general, there is not much reason to say "pseudofunctor" instead of "functor," since the only relevant type of functor between arbitrary bicategories is weak.  However, if the domain and codomain are known to be [[strict 2-category|strict 2-categories]] (including ordinary $1$-[[1-category|categories]]), it can be helpful to say "pseudofunctor" or "weak functor" to emphasize that it is not a [[strict 2-functor]].  Note that if the codomain is a $1$-category, then there is no difference.
 
-+--{: .query}
-[[Tim]]: This wording is inconsistent with general principles elsewhere in the Lab I think. Any 1-category or strict 2-category _is_ a bicategory by default. I cannot think of a wording that gets around that without destroying the good sense that the paragraph talks about.
-
-_Toby_:  How\'s this?
-
-[[Tim]]: Very good.
-=--
-
-Pseudo or weak functors are also to be distinguished from [[lax functor|lax]] and oplax functors, which preserve identities and composition only up to a  transformation in one direction or the other, which may be non-invertible.
+Pseudo or weak functors are also to be distinguished from [[lax functor]]s and [[lax functor|oplax functor]]s, which preserve identities and composition only up to a  transformation in one direction or the other, which may be non-invertible.
 
 An older terminology, which should probably be avoided at all costs, uses "homomorphism of bicategories" for a weak functor and "morphism of bicategories" for a lax one.
 
@@ -32,6 +24,8 @@ An older terminology, which should probably be avoided at all costs, uses "homom
 ## Definition
 
 ... put a precise definition here; pick a convention ...
+
+
 
 
 [[!redirects pseudo functor]]
