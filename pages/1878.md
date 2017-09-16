@@ -23,9 +23,10 @@ For $S \subset Mor(C)$ any collection of morphisms, write
 * $S_\perp$ for the collection of morphisms with the _left_ 
   [[weak factorization system|lifting property]] with respect to $S$;
   
-**Definition**
++-- {: .un_defn}
+###### Definition
 
-A [[model category]] $C$ that is a [[presentable]] category is 
+A [[model category]] $C$ that is a [[presentable category]] is 
 **cofibrantly generated** if there is a small [[set]] $C_0 \subset Mor(C)$ 
 of cofibrations such that the collection $C$ of all cofibrations is
 
@@ -33,6 +34,7 @@ $$
   C = ({}_\perp C_0)_\perp
   \,.
 $$
+=--
 
 Notice that necessarily
 
@@ -42,19 +44,27 @@ $$
 
 There is another way to characterize $({}_\perp C)_\perp$.
 
-**Definition**
++-- {: .un_defn}
+###### Definition
 
 A collection $S \subset Mor(C)$ of morphisms is called 
 **closed under pushout, retract and transfinite composition** if ...
+=--
 
-**Proposition** 
++-- {: .un_prop}
+###### Proposition
 
 If $C$ is [[presentable category|presentable]], and $C_0$ is any set
 of morphisms, then $({}_\perp C_0)_\perp$ is 
 the smallest collection containing $C_0$ that is closed under 
 pushout, retracts and transfinite composition.
+=--
 
-Proof. Use the [[small object argument]].
++-- {: .proof}
+###### Proof
+
+Use the [[small object argument]].
+=--
 
 
 See [[Higher Topos Theory|HTT section A.1.2]].
