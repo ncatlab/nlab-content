@@ -153,6 +153,10 @@ Recall that a differential form on $X$ is a section of the exterior algebra of t
 
 Of particular importance are $L$-valued forms when $L$ is a [[line bundle]]; these are also called __$L$-twisted forms__.  In local coordinates, a twisted form looks just like an ordinary form, once you choose a nonzero vector in $L$ as a basis.  Therefore, they can seem sneaky and confusing sometimes when you realise that they do not behave in the same way!
 
++-- {: .query}
+[Martin Lo: It's not clear what is a "twisted form" from first reading. Is the definition that a V-valued form on X is a V-twisted form on X?]
++--
+
 Let $\Psi$ be the [[pseudoscalar]] bundle; that is, a section of $\Psi$ (a pseudoscalar field) is given locally by a simple [[scalar]] field (a real-valued function) for each [[orientation]] of a local patch, with opposite orientations giving oppositely-signed scalars.  A __pseudoform__ is a $\Psi$-twisted form.
 
 On an $n$-dimensional manifold $X$, the space $\Omega^n(X)$ of $n$-forms is itself a line bundle; a $p$-form twisted by this line bundle is a __densitised form__.  Sometimes an $n$-form is itself called a __density__.  Actually, as we will see under integration below, it is really an $n$-*pseudo*form that should be called a density, but that is not the traditional terminology.
