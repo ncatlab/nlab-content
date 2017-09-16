@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-03 #
 
+* [[Todd Trimble]]: gave a proof of [[Zorn's lemma]]. Wouldn't mind expanding that entry to include the mutual equivalence between AC, Zorn, and well-ordering principle (assuming excluded middle). May get around to putting in something at [[Hausdorff maximality principle]]. 
+
 * [[Mike Shulman|Mike]]: Inspired by [[gauge space]], created [[prometric space]].
 
 *  [[Toby Bartels]]:
