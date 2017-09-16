@@ -276,15 +276,63 @@ Table&nbsp;2 presents a sample of _interpretive categories_ for higher order pro
 
 ## Higher order propositions and logical operators $(n = 2)$ ##
 
-By way of reviewing notation and preparing to extend it to higher order universes of discourse, let us first consider the universe of discourse $X^\circ = [x_1, x_2] = [u, v]$, based on two logical features or boolean variables $u$ and $v$.
+By way of reviewing notation and preparing to extend it to higher order universes of discourse, let's first consider the universe of discourse $X^\circ = [x_1, x_2] = [u, v]$ that is based on just two logical features or boolean variables $u$ and $v$.
 
 The universe of discourse $X^\circ$ consists of two parts, a set of _points_ and a set of _propositions_.
 
-The points of $X^\circ$ form the space:
+The points of $X^\circ$ form a space described as follows:
 
+<div markdown="1"><font size="+1">
 $$\array{
-X & = & \langle u, v \rangle & = & \{ (u, v) \} & \cong & \mathbb{B}^2
+X
+&amp; = &amp;
+\langle u, v \rangle
+&amp; = &amp;
+\{ (u, v) \}
+&amp; \cong &amp;
+\mathbb{B}^2
 }$$
+</font></div>
+
+Each point in $X$ may be indicated by means of a _singular proposition_, that is, a proposition that describes it uniquely.  This form of representation leads to the following enumeration of points:
+
+<div markdown="1"><font size="+1">
+$$\array{
+X
+&amp; = &amp;
+\{ &amp;
+\text{&#x2997;} u \text{&#x2998;&#x2997;} v \text{&#x2998;}
+&amp; , &amp;
+\text{&#x2997;} u \text{&#x2998;} \: v
+&amp; , &amp;
+u \: \text{&#x2997;} v \text{&#x2998;}
+&amp; , &amp;
+u \: v
+&amp; \}
+&amp; \cong &amp;
+\mathbb{B}^2
+}$$
+</font></div>
+
+Each point in $X$ may also be described by means of its _coordinates_, that is, by the ordered pair of values in $\mathbb{B}$ that the coordinate propositions $u$ and $v$ take on that point.  This form of representation leads to the following enumeration of points:
+
+<div markdown="1"><font size="+1">
+$$\array{
+X
+&amp; = &amp;
+\{ &amp;
+(0, 0)
+&amp; , &amp;
+(0, 1)
+&amp; , &amp;
+(1, 0)
+&amp; , &amp;
+(1, 1)
+&amp; \}
+&amp; \cong &amp;
+\mathbb{B}^2
+}$$
+</font></div>
 
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
