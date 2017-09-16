@@ -1,10 +1,8 @@
-#Contents#
-* automatic table of contents goes here
-{:toc}
-
-##Idea##
+[[!redirects Understanding Constructions on Set]]
 
 See [[Understanding Constructions in Categories]]
+
+## Idea
 
 [[Set]]...
 
@@ -13,17 +11,17 @@ See [[Understanding Constructions in Categories]]
 
 ***
 
-##Limits##
+## Limits
 
 [[limits]]
 
-####Initial Object####
+#### Initial Object
 
 The empty set $\emptyset$ is the [[initial object]] in Set.
 
 Why?
 
-####Terminal Object####
+#### Terminal Object
 
 Any one element set is a [[terminal object]] in Set.
 
@@ -57,7 +55,7 @@ Why?
 
 #### Pullbacks
 
-The [[pullback]] of sets is ...
+The [[pullback]] of two functions of sets is the set of pairs (x, y) such that f(x)=g(y).
 
 Why?
 
@@ -113,4 +111,3 @@ arbitrary (but small) [[coproducts]]
 
 
 [[!redirects Understanding Set]]
-[[!redirects Understanding Constructions on Set]]
