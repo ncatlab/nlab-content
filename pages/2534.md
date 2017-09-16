@@ -51,6 +51,9 @@ In the following, let $\mathcal{X} = \langle X,\mu_X\rangle$ and $\mathcal{Y} = 
 
    $$\langle\mathcal{X},\mathcal{Y}\rangle = |\mathcal{X}\mathcal{Y}|.$$
 
++--{.query}
+[[Eric]]: What would a colimit over an MSet-valued functor $F:A\to MSet$ look like?
+=--
 
 ## Morphisms
 
