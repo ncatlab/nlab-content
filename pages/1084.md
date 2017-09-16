@@ -33,7 +33,7 @@ $$
   \,.
 $$
 
-When the [[(∞,1)-category]] is [[presentable (∞,1)-category|presented]] by a [[model category]] and when all objects involved are cofibrant in this model structurem then this may be computed by the ordinary [[colimit]] 
+When the [[(∞,1)-category]] is [[presentable (∞,1)-category|presented]] by a [[model category]] and when all objects involved are cofibrant in this model structure then this may be computed by the ordinary [[colimit]] 
 
 $$
   \array{
@@ -118,9 +118,7 @@ $$
   X\times I \cup_{f} Y
 $$
 
-(here for all $x\in X$, $(x,1)$ is identified with $f(x)$) modulo the contraction of $X\times \{0\}$ to a point. 
-
-When 
+(here for all $x\in X$, $(x,1)$ is identified with $f(x)$) modulo the contraction of $X\times \{0\}$ to a point. The opposite convention is also possible: identify $(x,0)$ with $f(x)$ for all $x$ and then contract $X\times\{1\}$ to a point; the two constructions of cones are canonically homeomorphic; the first is sometimes called the "inverse mapping cone".
 
 Singular chain complex functor from [[Top]] to the 
 [[category of chain complexes]] of abelian groups sends the mapping cone to a mapping cone in the sense of chain complexes (up to conventions on the orientation of the interval and vector order in the definition of mapping cone of chain complexes). 
