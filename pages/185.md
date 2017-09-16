@@ -1,15 +1,12 @@
-[[!redirects generalized smooth algebras]]
-[[!redirects C-infinity-ring]]
-[[!redirects smooth algebra]]
-[[!redirects smooth algebras]]
-
 <div class="rightHandSide toc">
 [[!include synthetic differential geometry - contents]]
 </div>
 
+
 #Contents#
 * tic
 {:toc}
+
 
 ## Idea
 
@@ -26,7 +23,7 @@ The smoothness of such $C^\infty$-rings is witnessed by the fact that this Lawve
 The [[opposite category]] of the [[category]] of $C^\infty$-rings is the category of [[smooth loci]]. This and its subcategories play a major role as [[site]]s for [[category of sheaves|categories of sheaves]] that serve as  [[Models for Smooth Infinitesimal Analysis|models]] for [[synthetic differential geometry]].
 
 
-#Motivating example#
+## Motivating example
 
 For $X$ a smooth [[manifold]], the assignment
 
@@ -80,8 +77,7 @@ $$
 $$
 
 
-
-#Definitions#
+## Definitions
 
 +-- {: .un_defn}
 ###### Definition
@@ -169,7 +165,7 @@ the **smooth tensor product over $C$** of $A$ and $B$.
 =--
 
 
-## internal smooth algebras ##
+### Internal smooth algebras
 
 For any [[smooth topos]] $(\mathcal{T}, R)$, there is an [[internalization|internal]]
 notion of [[generalized smooth algebra]]:
@@ -259,12 +255,9 @@ Here
 =--
 
 
+## Properties
 
-
-
-# Properties #
-
-## general properties ##
+### General properties
 
 There is a [[stuff, structure, property|forgetful functor]] 
 
@@ -356,7 +349,7 @@ In the context of [[geometric function theory]] the corresponding general statem
 =--
 
 
-## smooth function algebras on manifolds ##
+### Smooth function algebras on manifolds
 
 
 +-- {: .un_prop}
@@ -434,18 +427,7 @@ The functor $C^\infty(-) = Hom_{Diff}(-,-) : Diff \to C^\infty Alg$
 =--
 
 
-
-
-
-
-
-
-
-
-
-
-
-#References#
+## References
 
 A standard textbook reference is chapter 1 of
 
@@ -469,6 +451,12 @@ Similar discussion is in
 
 A brief but useful review and further context is also on p. 3 of
 
-* David Spivak, _Quasi-Smooth derived manifolds_ ([pdf](http://math.berkeley.edu/~dspivak/thesis2.pdf)) <- link is broken.
+* [[David Spivak]], _Quasi-Smooth derived manifolds_ ([pdf](http://www.uoregon.edu/~dspivak/thesis2.pdf))
 
 See also the references at [[Fermat theory]], of which $C^\infty$-rings are a sepcial case. And the references at [[smooth locus]], the formal dual of a $C^\infty$-ring.
+
+
+[[!redirects generalized smooth algebras]]
+[[!redirects C-infinity-ring]]
+[[!redirects smooth algebra]]
+[[!redirects smooth algebras]]
