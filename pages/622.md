@@ -25,5 +25,7 @@ The following is a partial list of pages that are closely related to my research
 * [[Tall-Wraith monoid]]
 * [[an elementary treatment of Hilbert spaces]]
 * [[algebraic theories in functional analysis]]
+* [[davidroberts:which smooth paths do I use]]
+* [[davidroberts:topological fundamental bigroupoid]]
 
 category: people
