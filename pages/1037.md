@@ -401,9 +401,21 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 ##7 Higher Topos Theory in Topology
 
 
+### 7.1 Paracompact spaces
 
+* [[shape theory]]
 
+### 7.2 Dimension theory
 
+* [[homotopy]]
+
+* [[cohomology]]
+
+  * [[cocycle]]
+
+  * [[Eilenberg-MacLane object]]
+
+  * [[gerbe]]
 
 ##Appendix##
 
