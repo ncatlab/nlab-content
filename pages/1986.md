@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 ## 2009-08-06
 
+* [[David Roberts]]: added comment to [[fundamental groupoid]] about topology thereon and relation to local connectedness. In other news, I have a (non-academic) job, so as of next week my contributions will slow down a bit.
+
 * [[Zoran Škoda]]: created several shorter entries [[open subscheme]], [[open immersion of schemes]], [[reduced scheme]], [[integral scheme]], [[integral domain]], [[noetherian scheme]] (warning: the listed proposition is not that obvious to prove) and made some changes to [[noetherian ring]]. 
 
 ## 2009-08-05
