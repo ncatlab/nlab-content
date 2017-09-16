@@ -14,7 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-23 #
 
-* [[Tim Porter|Tim]]:  I have added a request  at [[local system]]. Basically the current entry reads as if it related to a relatively recent idea. I suggest we look at the origins of the idea,  at least as old as 'Steenrod (1943)' if not before.  It is central to much of the nLab work. Probably we need to be much less restrictive in the motivation of this entry.
+* [[Tim Porter|Tim]]:  
+
+   * I have added a request  at [[local system]]. Basically the current entry reads as if it related to a relatively recent idea. I suggest we look at the origins of the idea,  at least as old as 'Steenrod (1943)' if not before.  It is central to much of the nLab work. Probably we need to be much less restrictive in the motivation of this entry.
+
+   * I have added some historical and motivational perspective in [[twisting function]] and would suggest that a similar section is needed for [[twisting cochain]].  The two threads of twisting the fibre and _deforming_ the local structure of a 'product' are at the origin of both concepts.
 
 
 # 2009-04-22 #
