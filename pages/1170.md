@@ -45,6 +45,8 @@ I\'m inclined to call such a thing a 'sequential [[filter|convergence space]]'. 
 [[Mike Shulman|Mike]]: I accept your terminology.  The logic of "subsequential space" is that these are the subobjects of sequential spaces inside the Grothendieck topos of "consequential spaces," but that's not really very persuasive.  "Sequential convergence space" is unfortunately kind of long, but it is logical, and of course once one has established what sort of space one is working with in any particular context one is free to just call them "spaces."
 
 I added some remarks addressing the relationship to convergence spaces.  I also like convergence spaces (and their friends, like pseudotopological spaces) very much, and I'm sure they are important in some contexts, such as analysis or more point-set-y topology.   However, I think that probably sequential convergence spaces are a better choice for homotopy theory, for the reasons I gave above.
+
+_Toby_:  Ha, now I\'ve realised that 'sequential convergence space' is really not correct, since the last clause of the definition makes it a pseudotopological space!  So it should be 'sequential pseudotopological space', and now 'subsequential space' is looking nicer than ever.
 =--
 
 
