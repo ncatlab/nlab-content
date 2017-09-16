@@ -126,6 +126,8 @@ gets you back where you started---at least up to natural isomorphism.
 
 Start with any cocontinuous functor $G: \widehat{A} \to \widehat{B}$.  Precompose with $Y$ to get $G \circ Y: A \to \widehat{B}$.  Then go back using the Theorem, obtaining a cocontinuous functor $\widehat{G}: \widehat{A} \to \widehat{B}$ such that $\widehat{G} \circ Y$ is naturally isomorphic to $G \circ Y$.  We need to show that we got back where we started, up to natural isomorphism.  So, we need to show that $\widehat{G}$ is natural isomorphic to $G$.  What next?
 
+(Hint: don't be afraid to get stuck and realize that you could get out of being stuck if you knew a certain Lemma which might also be useful for other things we're talking about below.)
+
 ##How should we think about this, intuitively?##
   
 When we say $\widehat{A}$ is the 'free cocompletion' of the category $A$, it means we're freely throwing in [[colimit]]s (and thus wrecking the old colimits $A$ may have had).  Since colimits are generalized 'sums', we can consider a [[decategorification|decategorified]] analogue:
