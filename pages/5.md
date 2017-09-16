@@ -1,3 +1,2 @@
-See [[mathematics]].
-
-category: redirect
+&lt; [[Math]]
+[[!redirects Math -- history]]
