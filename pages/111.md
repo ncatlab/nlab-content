@@ -9,13 +9,13 @@ a collection of [[morphism|morphisms]].  Every morphism
 has a [[source]] object and a [[target]] object.  If $f$ is a morphism with $x$ as its source and $y$ as its target,
 we write
 $$f : x \to y$$
-and we say that $f$ is a morphism from $x$ to $y$.  In a category, we can [[composition|compose]] a morphism $g : x \to y$ and a morphism $f : x \to y$ to get a morphism $f g : x \to z$.  Composition is associative and satisfies the left and right unit laws.
+and we say that $f$ is a morphism from $x$ to $y$.  In a category, we can [[composition|compose]] a morphism $g : x \to y$ and a morphism $f : y \to z$ to get a morphism $f g : x \to z$.  Composition is associative and satisfies the left and right unit laws.
 
 The example to keep in mind is the category [[Set]], in which the objects are sets and a morphism $f : x \to y$ is a function from the set $x$ to the set $y$.  Here composition is the usual composition of functions.
 
 #Definition#
 
-A _category_ $C$ consist of 
+A _category_ $C$ consists of 
 
 * a collection $C_0$ of _objects_;
 
