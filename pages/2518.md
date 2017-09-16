@@ -6,6 +6,8 @@ A **structural set theory** is a [[set theory]] in which the elements of a set h
 +--{: .query}
 [[Arnold Neumaier]]: Both descriptors ''structural'' and ''material'' sound misnomers. 
 The name ''nonstructural'' for ''a set theory in which the elements of a set have no structure apart from their identity as elements of that set'' seems more to the point.
+
+[[Mike Shulman]]: The intended meaning is that structural set theory provides a clean framework for structural mathematics, which is about structures that are built from sets.  This use of the word "structuralism" is quite common, as I'm sure you know.
 =--
 
 When viewed as a [[foundations|foundation]] for mathematics, the idea of structural set theory is that sets (together with other attendant concepts such as [[element]]s, [[functions]], and [[relations]]) are the "raw material" from which mathematical structures are built.  The elements of a set thus have no "structure" until it is given to them by means of functions and relations.
