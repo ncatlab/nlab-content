@@ -12,6 +12,10 @@ Barring opinions whether zero should be a natural number, in SEAR we have sets $
 
 A candidate for $\mathbf{2}$ is clearly $P\mathbf{1}$, but we need to show it has two elements. Also, it would be nice to not have to use the power object.
 
++--{: .query}
+[[Mike Shulman]]: If you don't want to use powersets, then I'm pretty sure you'll need an axiom of coproducts.  Unless I'm mistaken, the collection of [[subsingleton]] sets satisfies Axioms 0, 1, and 2.
+=--
+
 ## Three and many ##
 
 From here we proceed inductively...
