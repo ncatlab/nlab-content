@@ -220,12 +220,12 @@ The monoidal structure induced in $C^\infty(\Pi(X))$ under the [[monoidal Dold-K
 
 
 
-## Lie group cohomology {##Liegroupcohomology}
+## Lie group cohomology {#Liegroupcohomology}
 
 Let $G$ be a [[Lie group]] and let $\mathbf{B}G$ be its [[delooping]] regarded as a [[Kan complex]] valued [[simplicial presheaf]] (on [[Diff]] or [[CartSp]] or the like). The cosimplicial smooth algebra $C^\infty(\mathbf{B}G)$ has in degree $k$ the smooth algebra of $\mathbb{R}$-valued functions on $G^{\times_k}$. The differential of the corresponding dual [[Moore complex]] $N^\bullet(C^\infty(\mathbf{B}G))$ is the one that computes smooth [[group cohomology]] on $G$ with coefficients in $\mathbb{R}$ with the trivial module structure.
 
 
-## Differential forms {##differentialforms}
+## Differential forms {#differentialforms}
 
 
 Consider again the example of [[singular cohomology]] of a [[smooth space]] $X$ above. In the sense of [[synthetic differential geometry]] we have a natural restriction map
