@@ -1,5 +1,10 @@
 **categorification**
 
+## Background ##
+
+* [[category theory]]
+* [[higher category theory]]
+
 ##Contents##
 
 * [[vertical categorification]]
