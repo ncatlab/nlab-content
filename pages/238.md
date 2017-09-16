@@ -14,6 +14,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-27
 
+* [[Mike Shulman|Mike]]:
+
+  * Zoran and I are having a discussion about definitions of [[abelian category]].
+
+  * Redirected [[filtrant category]] to [[filtered category]].
+
+  * Moved the discussion about the word "bimorphism" from [[balanced category]] to [[bimorphism]].
+
+  * Redirected [[parallel morphism]] to [[parallel morphisms]] (which _is_ in line with the naming conventions).
+
 * [[Urs Schreiber|Urs]]: 
 
   * created [[exact functor]]
