@@ -306,6 +306,8 @@ $$
   f(-) = \int^{a \in A} f(a) \times hom_A(-,a).
 $$
 
+_Toby_:  I wonder if you might do better using the other formula?  (The one that had an old comment after it that you just erased?)
+
 This reference might also give helpful clues:
 
 * Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
