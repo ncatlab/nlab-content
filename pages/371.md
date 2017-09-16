@@ -20,3 +20,8 @@ In a category with a zero object 0, there is always a canonical morphism from an
 
 
 [[!redirects 0-object]]
+[[!redirects 0 object]]
+[[!redirects null object]]
+[[!redirects zero objects]]
+[[!redirects 0 objects]]
+[[!redirects null objects]]
