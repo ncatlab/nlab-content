@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * continued polishing and adding statements and proofs to [[category of fibrant objects]]
+
   * created a stub for [[simplicial skeleton]] -- much more to be said here eventually
 
 # 2009-06-29 #
