@@ -77,6 +77,10 @@ The links are ordered following the sections of the articles
 
   * [[spectrum object]]
 
+* [[commutative ring spectrum]]
+
+  * [[E-infinity ring]]
+
 # Symmetric monoidal model categories #
 
 * [[model category]]
