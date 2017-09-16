@@ -382,3 +382,4 @@ A [[structured (∞,1)-topos]] $(\mathcal{X}, \mathcal{O})$ is a **$\mathcal{G}$
 
 
 
+[[!redirects spaces]]
