@@ -26,6 +26,14 @@ $$ |z|^2 = z \bar{z} .$$
 Most concepts in analysis can be extended from $\mathbb{R}$ to $\mathbb{C}$, as long as they do not rely on the order in $\mathbb{R}$.  Sometimes $\mathbb{C}$ even works better, either because it is algebraically closed or because of Goursat\'s theorem.  Even when the order in $\mathbb{R}$ is important, often it is enough to order the absolute values of complex numbers.  See [[ground field]] for some of the concepts whose precise definition may vary with the choice of $\mathbb{R}$ or $\mathbb{C}$ (or even other possibilities).
 
 
+## Geometry of complex numbers
+
+The complex numbers form a plane, the __complex plane__ $\mathbb{C} \cong \mathbb{R}^2$.  The standard real-valued coordinates on this plane are $\mathrm{x}$ and $\mathrm{y}$, with $\mathrm{z} = \mathrm{x} + \mathrm{i}\mathrm{y}$ the [[identity function]] on $\mathbb{C}$.  Much of [[complex analysis]] can be understood through [[differntial topology]] by identifying $\mathbb{C}$ with $\mathbb{R}^2$, using either $\mathrm{x}$ and $\mathrm{y}$ or $\mathrm{z}$ and $\bar{\mathrm{z}}$.  (For example, Cauchy\'s integral theorem is Green\'s/Stokes\'s theorem.)
+
+It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C}$, the [[Riemann sphere]] $\overline{\mathbb{C}}$ (note that the bar here does *not* indicate complex conjugation).  One may think of $\overline{\mathbb{C}}$ as $\mathbb{C} \cup \{\infty\}$; functions valued in $\mathbb{C}$ but containing 'poles' may be taken to be valued in $\overline{\mathbb{C}}$, with $f(\zeta) = \infty$ whenever $\zeta$ is a pole of $f$.
+
+
 [[!redirects complex numbers]]
 [[!redirects complex number system]]
 [[!redirects complex conjugation]]
+[[!redirects complex plane]]
