@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-24
 
+* [[Urs Schreiber|Urs]] 
+
+  * have more stupid questions (for [[Toby Bartels|Toby]], probably) at [[Grothendieck universe]]
+
 *  [[Toby Bartels]]:
    *  Gave a structural definition at [[Grothendieck universe]], but somebody should check it (Mike, this means you).
    *  Some more foundational material, including [[set theory]], [[pure set]], and [[point]] (which is a bit purple).
