@@ -1,4 +1,4 @@
-The join of simplicial sets extends that historically given for [[simplicial complex|simplicial complexes]], cf. for instance, the description and discussion in Spanier's classical text(page 109 and then pages 114 -116) on Algebraic Topology. For instance, given a simplicial complex $K$, the join of a point with $K$ will be a cone on $K$. 
+The join of simplicial sets extends that historically given for [[simplicial complex|simplicial complexes]], cf. for instance, the description and discussion in Spanier's classical text(page 109 and then pages 114 -116) on Algebraic Topology. For instance, given a simplicial complex $K$, the join of a point with $K$ will be a cone on $K$ and the join of a two point space $2$ with $K$ will be the [[suspension]] of $K$. 
 
 The adaptation of this to simplicial sets reveals a neat link with some categorical structure in the category, $\Delta_a$, of finite ordinals (including the empty one).  Recall
 
