@@ -211,7 +211,7 @@ $$
   \,.
 $$
 
-This is the [[coproduct]] in the [[category of open subsets]] of $X$, but that behaves very differently from the [[disjoint coproduct]]s that we are used to from categories like [[Set]].  On the other hand, when one comes to a category of [[presheaves]] or [[sheaves]] (a [[Grothendieck topos]]), this [[topos]] *does* have disjiont coproducts.
+This is the [[coproduct]] in the [[category of open subsets]] of $X$, but that behaves very differently from the [[disjoint coproduct]]s that we are used to from categories like [[Set]].  On the other hand, when one comes to a category of [[presheaves]] or [[sheaves]] (a [[Grothendieck topos]]), this [[topos]] *does* have disjoint coproducts.
 
 Another way to think of this is obtained by first
 forming the [[fiber product]] of $U_1$ with $U_2$ over $V$ in $Op(X)$,  which is the intersection $U_1 \cap U_2$ sitting in the [[pullback]] diagram
