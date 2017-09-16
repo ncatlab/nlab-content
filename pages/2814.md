@@ -2,9 +2,15 @@
 * automatic table of contents goes here
 {:toc}
 
-## Idea ##
 
-A _monoidal functor_  is a [[functor]] $F : C \to D$ between [[monoidal category|monoidal categories]] $(C,\otimes_C, I_C)$ and $(D,\otimes_D, I_D)$ that respects the [[tensor product]] and the unit up to coherent but not necessarily invertible [[morphism]]s
+## Idea
+
+Just as a [[functor]] is a [[morphism]] between [[categories]], so a _monoidal functor_ is a morphism between [[monoidal categories]].  Monoidal functors come in varying levels of strictness and strength.
+
+
+## Definition ##
+
+A __monoidal functor__ is a [[functor]] $F : C \to D$ between [[monoidal category|monoidal categories]] $(C,\otimes_C, I_C)$ and $(D,\otimes_D, I_D)$ that respects the [[tensor product]] and the unit up to coherent but not necessarily invertible [[morphism]]s
 
 $$
   \epsilon : I_D \stackrel{}{\to} F(I_c)  
@@ -21,7 +27,8 @@ If these structure morphisms are [[isomorphism]]s then $F$ is called a **strong 
 
 Lax monoidal functors send [[monoid]]s to monoids.
 
-### Comonoidal functors
+
+## Comonoidal functors
 
 A __[[colax monoidal functor]]__ (with various alternative names including **comonoidal**), is a monoidal functor from the [[opposite categories]] $C^{op}$ to $D^{op}$.
 
@@ -39,7 +46,8 @@ I know that term, which is why I included it in the list of terms (^_^).  It\'s 
 Zoran: I say colax monoidal in my articles, though in informal conversations I am used to geometers who mostly like "comonoidal" as they have dual roles when applied to categories of sheaves and transporting various properties on the tensor categories of sheaves for example; but the main reson is probably because most examples are not "strong" monoidal so usage of words lax and weak would be superfluous for most applications they have in mind.
 =--
 
-### 2-Category perspective
+
+## 2-Category perspective
 
 If we pass to the [[delooping]] [[2-category|2-categories]] $\mathbf{B}C$ and $\mathbf{B}D$ then a lax monoidal functor corresponds to a [[lax 2-functor]] 
 
