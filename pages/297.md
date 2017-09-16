@@ -22,7 +22,7 @@ A pedagogical exposition of how the physicist's way of thinking about the path i
 
 * Kevin Walker, _TQFTs_ ([pdf](http://canyon23.net/math/tc.pdf))
 
-A pedagogical exposition of the notion of quantum field theory as a functor on cobordisms is in 
+A pedagogical exposition of the notion of quantum field theory as a functor on [[cobordism]]s is in 
 
 * John Baez, _Quantum quandaries: a Category-Theoretic perspective_ ([arXiv](http://arxiv.org/abs/quant-ph/0404040))
 
@@ -48,9 +48,9 @@ There the notion of 2-dimensionaspl [[conformal field theory]] is axiomatized as
 
 ##Extended (multi-tiered) FQFT##
 
-But one notices that the formalization of quantum field theory as a [[functor]] on cobordisms encodes only a small aspect of the full sewing law imagined to be satisfied by the path integral: In a 1-category of $n$-dimensional cobordisms these are glued along $(n-1)$-dimensional boundaries. One could imagine more generally a formalization where a given cobordisms is allowed to be chopped into arbitrary parts of arbitrary co-dimension such that the path integral can still consistently be evaluated on each of these parts.
+But one notices that the formalization of quantum field theory as a [[functor]] on [[cobordism]]s encodes only a small aspect of the full sewing law imagined to be satisfied by the path integral: In a 1-[[category]] of $n$-dimensional [[cobordism]]s these are glued along $(n-1)$-dimensional boundaries. One could imagine more generally a formalization where a given [[cobordism]] is allowed to be chopped into arbitrary parts of arbitrary co-dimension such that the path integral can still consistently be evaluated on each of these parts.
 
-This leads to the notion of _extended quantum field theory_, which is taken to be an $\infty$-functor on an [[higher category theory|infinity category]] of cobordisms. Early ideas about a formalization of this approach were given in
+This leads to the notion of _extended quantum field theory_, which is taken to be an $\infty$-functor on an [[higher category theory|infinity category]] of [[extended cobordism]]s. Early ideas about a formalization of this approach were given in
 
 * John Baez and Jim Dolan, _Higher-dimensional algebra and Topological Quantum Field Theory_  ([arXiv](http://arxiv.org/abs/q-alg/9503002)) .
 
@@ -70,9 +70,9 @@ There is a long-term project by Stephan Stolz and Peter Teichner which originall
 
 More recently, Mike Hopkins and Jacob Lurie claimed 
 ([Hopkins-Lurie on Baez-Dolan](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html))
-to have found a complete coherent formalization of topological extended FQFT in the context of [[(infinity,1)-category|(infinity,n)-categories]]. See
+to have found a complete coherent formalization of topological extended FQFT in the context of [[(infinity,1)-category|(infinity,n)-categories]] using an [[(infinity,n)-category of cobordisms]]. This is described in 
 
-* Jacob Lurie, _On the classification of topological field theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
+* [[Jacob Lurie]], _On the classification of topological field theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
 
 ## (extended) FQFT from background fields: $\sigma$-models## 
 
@@ -105,7 +105,11 @@ _Integral Transforms and Drinfeld Centers in Derived Geometry_ ([arXiv](http://a
 
 which realizes $\sigma$-models by homming [[cobordism]] [[cospan]]s into the total spaces (realized as [[infinity-stack homotopically|infinity-stack]]) of background fields and regarding the resulting [[span]]s as pull-push operators on suitable [[geometric function theory|geometric functions]].  
 
-A related discussion concerning obtaining an extended FQFT from a higher categorical background field in the context of [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]] is proposed in 
+A similar approach to bring the old work by Dan Freed mentioned above in contact with the picture of extended functorial QFT and the Baez-Dolan-Lurie structure theorem is
+
+* Daniel S. Freed, Michael J. Hopkins, Jacob Lurie, Constantin Teleman, _Topological Quantum Field Theories from Compact Lie Groups_ ([arXiv](http://arxiv.org/abs/0905.0731)).
+
+A related discussion concerning the construction of an extended FQFT from a higher categorical background field in the context of [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]] is proposed in 
 
 * [[schreiber:Nonabelian cocycles and their sigma model QFTs]]. 
 
