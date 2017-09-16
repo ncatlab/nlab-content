@@ -28,6 +28,10 @@ Blob homology has some similarities with
 
 * [[local net]]s in [[AQFT]].
 
+It should be closely related to
+
+* [[topological chiral homology]].
+
 #References#
 
 A big article by  [[Kevin Walker]] and [[Scott Morrison]] is in preparation. Some notes appeared in the context of the
