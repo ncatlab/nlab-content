@@ -291,6 +291,7 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects weighted pseudoform]]
 [[!redirects weighted pseudoforms]]
 [[!redirects de Rham cohomology]]
+[[!redirects deRham cohomology]]
 [[!redirects Stokes theorem]]
 [[!redirects Stokes' theorem]]
 [[!redirects Stokes's theorem]]
