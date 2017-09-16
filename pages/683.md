@@ -23,15 +23,16 @@ There are two ways to define homotopy limits:
 
 * as [[derived functor]]s that satisfy a "global" universal property: the homotopy limit _functor_ is "universal among homotopical approximations to the strict limit functor."
 
-One of the central theorems of the subject is that in good cases, the two give equivalent results.  This is sort of a folk theorem, especially in classical contexts.  One fairly general statement and proof, in modern language, can be found in
+One of the central theorems of the subject is that in good cases, the two give equivalent results.  Perhaps the original statement can be found in XI.8.1 of:
+
+* A. K. Bousfield and D. M. Kan, _Homotopy limits, completions, and localizations_.
+
+(As was often the case with Kan's papers at that time, there are some details omitted from that treatment, but most are, as he claimed, quite easy to complete.)  For another approach in an algebraic context, there is a description in Illusie's thesis.
+
+An abstract version in modern language, with proof, can be found in
 
 * Michael Shulman, [Homotopy limits and colimits and enriched homotopy theory](http://arxiv.org/abs/math/0610194).
 
-+-- {: .query}
-[[Urs Schreiber|Urs]]: It would be nice to give this statement more in detail. Could you point me to specific literature on this?
-
-[[Tim Porter|Tim]] Like a lot else in this area, one of the earliest references to this sort of result is in Bousfield and Kan's SLN 304.  The material can be collected from parts of their chapter XI, and the result proposition 8.1, is, I think, more or less what Mike is saying. (As was often the case with Kan's papers t that time, there are some details omitted from that treatment, but most are, as he claimed, quite easy to complete.) For another approach in an algebraic context, there is a description in Illusie's thesis (SLN ?? but I have not a copy with me.)
-=--
 
 ### Global definition ###
 
@@ -297,6 +298,8 @@ This example, too, is important at [[geometric function theory]].
 _Descent objects_ as they appear in [[descent and codescent]] are naturally conceived as homotopy limits. See also [[infinity-stack]].
 
 # References #
+
+* A. K. Bousfield and D. M. Kan, _Homotopy limits, completions, and localizations_.  Springer LNM 304.  The classical reference; see in particular chapter XI.
 
 * Wojciech Chacholski and Jerome Scherer, _Homotopy theory of diagrams_ ([arXiv](http://arxiv.org/abs/math.AT/0110316)) includes a global definition of homotopy (co)limit as [4.1, p. 14](http://arxiv.org/PS_cache/math/pdf/0110/0110316v1.pdf#page=19), and discusses how to compute them (co)limits concretely using local constructions.  For instance the above statement on the computation of homotopy pullbacks is proposition [2.5, p. 15](http://arxiv.org/PS_cache/math/pdf/0110/0110316v1.pdf#page=20)
 
