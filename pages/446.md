@@ -2,7 +2,7 @@ An _allegory_ is a category with properties meant to reflect the properties one 
 
 ## Definition
 
-An **allegory** is a (1,2)-category $A$ equipped with an [[involution]] $(-)^o \colon A^{op}\iso A$ which is the identity on objects, such that
+An **allegory** is a (1,2)-category $A$ equipped with an [[involution]] $(-)^o \colon A^{op} \iso A$ which is the identity on objects, such that
 
 * each hom-poset $A(x,y)$ has binary [[intersections]], and
 * the *modular law* holds: for $\phi\colon x\to y$, $\psi\colon y\to z$, and $\chi\colon x\to z$, we have $\psi \phi \cap \chi \le \psi (\phi \cap \psi^o \chi)$.
