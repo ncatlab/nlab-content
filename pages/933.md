@@ -75,3 +75,4 @@ For some special algebras this is true. For example, the dual of symmetric algeb
 
 [[!redirects chain algebra]]
 [[!redirects cochain algebra]]
+[[!redirects dg-algebras]]
