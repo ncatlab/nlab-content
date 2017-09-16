@@ -2266,17 +2266,17 @@ I think it's best to begin with a few simple observations, as I frequently find 
 <td style="border:none">__Observation 1__</td></tr>
 
 <tr>
-<td style="border:none">__IF__ we know that the element $x$ is of the type $X$</td></tr>
+<td style="border:none">__IF__ we know that the element $x$ bears the type $X$</td></tr>
 
 <tr>
-<td style="border:none">__AND__ we know that the function $f$ is of the type $X \to Y$</td></tr>
+<td style="border:none">__AND__ we know that the function $f$ bears the type $X \to Y$</td></tr>
 
 <tr>
-<td style="border:none">__THEN__ we know that the element $f(x)$ is of the type $Y$.</td></tr>
+<td style="border:none">__THEN__ we know that the element $f(x)$ bears the type $Y$.</td></tr>
 
 </table>
 
-We can abbreviate this inference, that operates on two pieces of information to produce another piece of information, in the following conventional form:
+The inference in view, that operates on two pieces of information to produce another piece of information, may be abbreviated in the following conventional form:
 
 <div markdown="1"><font size="+1">
 
@@ -2284,7 +2284,7 @@ $$\array{
 \arrayopts{\colalign{left}\rowlines{none solid}}
 \phantom{mm} x : X
 \\
-\phantom{mm} f : X \to Y
+\phantom{mm} f : X \to Y \phantom{mm}
 \\
 \phantom{mm} f(x) : Y
 }$$
