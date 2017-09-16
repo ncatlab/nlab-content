@@ -12,3 +12,11 @@ The standard reference for Postnikov systems in homotopy theory is
 
 
 category: people
+
+[[!redirects Постников]]
+[[!redirects Михаил Михайлович Постников]]
+[[!redirects Михаил Постников]]
+[[!redirects Postnikov]]
+[[!redirects Mikhail Postnikov]]
+[[!redirects Mihail Postnikov]]
+[[!redirects Michael Postnikov]]
