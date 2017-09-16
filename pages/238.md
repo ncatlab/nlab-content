@@ -14,6 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-30 #
 
+*  [[Toby Bartels]]:
+   *  Responded to [[Ronnie Brown]] at [[groupoid]].
+   *  Noted an incomplete thought at [[simplicial homotopy]].
+   *  Complained a bit at [[homotopy]].
+
 * [[Urs Schreiber|Urs]]
 
   * created [[Quillen adjunction]]
