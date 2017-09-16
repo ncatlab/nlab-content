@@ -378,12 +378,13 @@ with
 
 =--
 
-**Remarks**
++-- {: .un_remark}
+###### Remarks
 
-* This is the analog of the _factorization axiom_ in a [[model category]] which says that every map factors as an acyclic cofibration followed by a fibration.
+This is the analog of the _factorization axiom_ in a [[model category]] which says that every map factors as an acyclic cofibration followed by a fibration.
 
-* Notice that this in particular implies that every weak equivalence is given by a span of acyclic fibrations. In the context of [[Lie groupoid]] theory these are known as the [[Morita equivalence]]s between groupoids. (And groupoids indeed form a category of fibrant objects for instance with respect to the Brown-Golasinski [[folk model structure]]).
-
+Notice that this in particular implies that every weak equivalence is given by a span of acyclic fibrations. In the context of [[Lie groupoid]] theory these are known as the [[Morita equivalence]]s between groupoids. (And groupoids indeed form a category of fibrant objects for instance with respect to the Brown-Golasinski [[folk model structure]]).
+=--
 
 The way the proof of this lemma works, one sees that
 this really arises in the wider context of computing
@@ -775,19 +776,20 @@ equivalence, hence is a weak equivalence.
 
 =--
 
-**Remarks** 
++-- {: .un_remark}
+###### Remarks
 
-* [[model category|Model categories]]
+[[model category|Model categories]]
 that satisfy this property are called 
 [[right proper model category|right proper model categories]].
 
-* Right properness is a crucial assumption
+Right properness is a crucial assumption
 in the closely related work
 
-  * Jardine, 
-    _Cocycle categories_   
-    ([arXiv](http://arxiv.org/abs/math.AT/0605198))
-
+* Jardine, 
+  _Cocycle categories_   
+  ([arXiv](http://arxiv.org/abs/math.AT/0605198))
+=--
 
 
 
@@ -831,7 +833,10 @@ $$
 
 
 
-**Remark** This essentially says that $A \times_C C^I \times_C B$ is the 
++-- {: .un_remark}
+###### Remark
+
+This essentially says that $A \times_C C^I \times_C B$ is the 
 universal object that makes the diagram
 $$
   \array{
@@ -844,6 +849,7 @@ $$
 $$
 commute up to [[homotopy]] 
 (see the section on homotopies for more on that).
+=--
 
 +-- {: .num_lemma }
 ###### Lemma
@@ -1244,13 +1250,15 @@ $$
 
 where the first functor is the obvious forgetful functor.
 
-**Remark**
++-- {: .un_remark}
+###### Remark
+
 It is again the factorization lemma above (and using 2-out-of-3 that implies that inverting just the acyclic fibrations in $C$ is already equivalent to inverting all weak equivalences. This means that the above theorem remains valid if the weak equivalences $t : A' \to A$ are replaced by _acyclic fibrations_.
 
 Using acyclic fibrations here has the advantage that these are preserved under [[pullback]]. This allows to consistently compose spans whose left leg is an acyclic fibration by [[pullback]]. See [[homotopical cohomology theory]] and [[anafunctor]].
 
 A discussion of this point of using weak equivalences versus acyclic fibrations in the construction of the homotopy category is also in Jardine: [Cocycle categories](http://www.math.uiuc.edu/K-theory/0782/).
-
+=--
 
 
 We now provide the missing definitions and then the proof
