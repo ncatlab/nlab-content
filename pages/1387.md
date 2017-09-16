@@ -1,3 +1,3 @@
-see [[homotopy coherent nerve]]
+See [[homotopy coherent nerve]].
 
 category: redirect
