@@ -2,10 +2,10 @@
 
 We say that two functors $L:C\to D$ and $R:D\to C$ are **adjoint** if they form an [[adjunction]] $L \dashv R$ in the [[2-category]] [[Cat]] of categories.  This means that they are equipped with [[natural transformation]]s $\eta:1_C \to R L$ and $\epsilon:L R \to 1_D$ satisfying the [[triangle identities]], that is the compositions
 $
-L \stackrel{L\eta}\to LRL\stackrel{\epsilon L}\to L
+L \stackrel{L\eta}\to L R L\stackrel{\epsilon L}\to L
 $
 and 
-$R\stackrel{\eta R}\to RLR \stackrel{R\epsilon}\to R$ 
+$R\stackrel{\eta R}\to R L R \stackrel{R\epsilon}\to R$ 
 are identities.
 The left or right adjoint of any functor, if it exists, is [[generalized the|unique up to unique isomorphism]].
 
@@ -90,6 +90,24 @@ Note that this definition is simply obtained by applying the [[Yoneda lemma]] to
 #Examples#
 
 * see [[examples of adjoint functors]].
+
+
+#Properties#
+
+Let $L \dashv R$ be a pair of adjoint functors. We have the following
+
+* ($R$ is [[full and faithful functor|full and faithful]])
+  $\Leftrightarrow$ ($\epsilon : L \circ R \stackrel{\simeq}{\to} Id_D$)
+
+* ($L$ is [[full and faithful functor|full and faithful]]) $\Leftrightarrow$ ($\eta : Id_C \stackrel{\simeq}{\to} R \circ L$)
+
+* the following are equivalent
+
+  * $L$ and $R$ are both [[full and faithful functor|full and faithful]];
+
+  * $L$ is an [[equivalence of categories|equivalence]];
+
+  * $R$ is an [[equivalence of categories|equivalence]];
 
 
 #Videos#
