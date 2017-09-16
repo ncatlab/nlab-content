@@ -2,6 +2,11 @@
 [[!include physicscontents]]
 </div>
 
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
 
 What is called the _AKSZ formalism_ -- after the initials of its four authors -- Alexandrov, [[Maxim Kontsevich|Kontsevich]], Schwarz, Zaborosnky -- is a a special technique for constructing [[path integral|action functional]]s  in [[gauge theory]].
 
@@ -23,7 +28,7 @@ The AKSZ construction assumes parameter space and target space of the [[sigma-mo
 target space would instead be represented by a [[Lie ∞-groupoid]]. In a complete picture of [[sigma-model]] [[quantization]] the ASZ method should therefore be a means to handle a linearized or infinitesimal approximation to the full theory.
 
 
-#References#
+## References 
 
 The original reference is 
 
@@ -31,7 +36,7 @@ The original reference is
 
 Dmitry Roytenberg's useful review of the original work:
 
-* Dmitry Roytenberg, _AKSZ-BV Formalism and Courant Algebroid-induced Topological Field Theories_ ([arXiv](http://arxiv.org/abs/hep-th/0608150)).
+* [[Dmitry Roytenberg]], _AKSZ-BV Formalism and Courant Algebroid-induced Topological Field Theories_ ([arXiv](http://arxiv.org/abs/hep-th/0608150)).
 
 A cohomological reduction of the formalism is described in 
 
