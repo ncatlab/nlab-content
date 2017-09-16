@@ -252,5 +252,38 @@ _Urs_: no, the $\alpha$ the way you defined it _is_ a transformation between the
 
 _Toby_:  You are right that it is rotated *conceptually*, but what I wrote there was also supposed to be rotated conceptually.  The thing itself is indifferent to being from $F$ to $G$, but once you declare (conceptually) that it is to be something from $F$ to $G$, then what you have is a morphism in an arrow $2$-category, as I wrote there.
 
+[[Eric]]: Thanks Toby. Here is a prepared remark with a comment below:
 
+***
+
+I wrote the definition down intentionally so that the composite _is_ a natural transformation, but I hope I can convince you that $\alpha:F\Rightarrow G$ is _not_ a natural transformation because the domains and codomains of $F$ and $G$ do not coincide (which they must to be a standard natural transformation). I'll call it something else then. How about "sheet transformations"?
+
+>##Definition##
+
+>Given categories $A$,$B$,$C$,$D$ and functors $F:A\to B$,$G:C\to D$ a __sheet transformation__ $\alpha:F \Rightarrow G$ 
+$$ 
+  \array{ 
+    A 
+    & 
+    \stackrel{F}{\to} 
+    & 
+    B 
+    \\ 
+    \mathllap{\scriptsize{\alpha_C}}\downarrow 
+    &\mathllap{\scriptsize{\alpha}}\Downarrow & 
+    \downarrow\mathrlap{\scriptsize{\alpha_D}}
+    \\ C 
+    & 
+    \stackrel{G}{\to} & D 
+  }
+$$
+>assigns functors $\alpha_C:A\to C$ and $\alpha_D:B\to D$ called **component functors** such that
+$$\alpha_D\circ F\Rightarrow G\circ\alpha_C$$
+>is a **natural transformation**.
+
+***
+
+>The thing itself is indifferent to being from $F$ to $G$, but once you declare (conceptually) that it is to be something from $F$ to $G$, then what you have is a morphism in an arrow $2$-category, as I wrote there.
+
+Interesting! That means a morphism in a arrow 2-category is the same thing as a "sheet transformation" (or vice versa :))
 [[!redirects natural transformations]]
