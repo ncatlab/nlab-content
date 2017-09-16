@@ -61,10 +61,12 @@ A Lie algebroid over the manifold $X$ is
 
  * the structure of a Lie module over $\mathfrak{g}$ on $C^\infty(X)$ (i.e. an action of $\mathfrak{g}$ on $X$);
 
- * the strucuture of a $C^\infty(X)$-module on $\mathfrak{g}$ (in fact: such that $\mathfrak{g}$ is a finitely generated projective module);
+ * the structure of a $C^\infty(X)$-module on $\mathfrak{g}$ (in fact: such that $\mathfrak{g}$ is a finitely generated projective module);
 
  * such that the two actions satisfy two compatibility conditions which are modeled on the standard relations obtained by setting $\mathfrak{g} = \Gamma(T X)$.
 =--
+
+This is the special case of a [[Lie-Rinehart pair]] $(A,\mathfrak{g})$ where the associative algebra $A$ is of the form $C^\infty(X)$.
 
 
 #Examples#
