@@ -3,7 +3,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 
 The _associahedra_ or _Stasheff polytopes_ $\{K_n\}$ are [[CW complex]]es that naturally arrange themselves into an topological [[operad]] that resolves the standard associative operad: an [[A-infinity-operad]]. 
@@ -12,13 +12,14 @@ The vertices of $K_n$ correspond to ways in which one can bracket a product of $
 
 The associahedra were introduced by Jim Stasheff in order to describe [[topological space]]s equipped with a multiplication operation that is associative up to every higher coherent homotopy. 
 
-#Definition#
+## Definition
 
 Here is the rough idea, copied, for the moment, verbatim from Markl94 [p. 26] (http://arxiv.org/PS_cache/hep-th/pdf/9411/9411208v1.pdf#page=26) (for more details see references below):
 
 For $n \geq 1$ the **associahedron** $K_n$ is an $(n-2)$-dimensional polyhedron whose $i$-dimensional cells are, for $0 \leq i \leq n-2$, indexed by all (meaningful) insertions of $(n-i-2)$ pairs of brackets between $n$ independent indeterminants, with suitably defined incidence maps.
 
-#Illustrations#
+
+## Illustrations
 
 * **$K_1$** is the [[empty set]], a degenerate case not usually considered.
 
@@ -56,7 +57,7 @@ One can also think of this as the top-level structure of the 4th [[oriental]]. T
   * This is part of a larger website [Petites pages sur divers sujets](http://math.univ-lyon1.fr/~chapoton/petitespages.html) which contains illusrations of other polyedra, too.
 
 
-## Relation to orientals ##
+## Relation to orientals 
 
 The above list shows that the first few Stasheff polytopes are nothing but the first few [[oriental]]s. This doesn't remain true as $n$ increases.
 The orientals are free **strict** [[omega-category|omega-categories]] on [[simplex]]es as parity complexes. This means that certain interchange cells (e.g., Gray tensorators) show up as thin in the oriental description. 
@@ -66,17 +67,21 @@ The first place this happens is the sixth oriental: where there are three tensor
 It was when [[Todd Trimble]] made this point to [[Ross Street]] that Street began to think about using associahedra to define weak [[n-category|n-categories]].
 
 
+## Categorified associahedra {#Categorification}
 
+There is a [[vertical categorification|categorification]] of associahedra discussed in
 
-#References#
+* [[Stefan Forcey]], _A catgorification of associahedra_ ([web](http://faculty.tnstate.edu/sforcey/ct06.htm))
+
+## References
 
 The original article that defines associahedra and in which the operad $K$ that gives $A(\infty)$-topological spaces is implicit is
 
-* Stasheff, _Homotopy associative H-spaces I_, _II_, Trans. Amerk. Math. Soc. 108 (1963), 275--312
+* [[Jim Stasheff]], _Homotopy associative H-spaces I_, _II_, Trans. Amerk. Math. Soc. 108 (1963), 275--312
 
 A textbook discussion (slightly modified) is in section 1.6 of the book
 
-* Martin Markl, Steve Shnider, Jim Stasheff, _Operads in Algebra, Topology and Physics_ ([web](http://books.google.de/books?id=fMhZjT9lQo0C&pg=PA56&lpg=PA56&dq=Stasheff+associahedra&source=bl&ots=ZuGXjT4zbp&sig=V-taGG2LHS0msHK-PTxmUXXCvEY&hl=de#PPP1,M1))
+* [[Martin Markl]], Steve Shnider, [[Jim Stasheff]], _Operads in Algebra, Topology and Physics_ ([web](http://books.google.de/books?id=fMhZjT9lQo0C&pg=PA56&lpg=PA56&dq=Stasheff+associahedra&source=bl&ots=ZuGXjT4zbp&sig=V-taGG2LHS0msHK-PTxmUXXCvEY&hl=de#PPP1,M1))
 
 Further explanations and references are collected at
 
