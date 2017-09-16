@@ -251,3 +251,4 @@ For Cheng\'s theory of measure spaces, see the 1985 edition of Bishop & Bridges,
 [[!redirects sigma-ring]]
 [[!redirects delta-ring]]
 [[!redirects measurable spaces]]
+[[!redirects Cheng measurable space]]
