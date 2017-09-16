@@ -1,3 +1,10 @@
+<div class="rightHandSide toc">
+
+[[!include functorial quantum field theory - contents]]
+
+</div>
+
+
 This entry is about the article
 
 * [[Jacob Lurie]], _On the Classification of Topological Field Theories_ ([arXiv](http://arxiv.org/abs/0905.0465))
