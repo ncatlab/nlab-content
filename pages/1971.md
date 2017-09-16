@@ -29,6 +29,21 @@ Taking a suitable limit (or really [[colimit]]) of the rings $\Lambda_n$ as $n \
 
 +-- {: .query}
 [[David Corfield]]: Why does Hazewinkel in his description of the construction of $\Lambda$ on p. 129 of [this](http://arxiv.org/abs/0804.3888) use a graded projective limit construction in terms of projections of polynomial rings?
+
+[[John Baez]]: Hmm, it sounds like you're telling me that there are 'projections' 
+
+$$ \Lambda_{n+1} \to \Lambda_n $$
+
+given by setting the $(n+1)$st variable to zero, and that Hazewinkel defines $\Lambda$ to be the limit (= projective limit) 
+
+$$ \cdots \Lambda_2 \to \Lambda_1 \to Lambda_0 $$
+
+rather than the colimit
+
+$$ \Lambda_0 \to \Lambda_1 \to \Lambda \to \cdots $$
+
+Right now I can't see the difference between these two constructions: they seem to give the same result.  Am I right?
+
 =--
 
 The definition depends on the ground [[field]] (or [[commutative ring]] or [[rig]]) $k$, so we may write $\Lambda(k)$ to be precise.
@@ -48,4 +63,7 @@ where $S$ is the groupoid of [[finite sets]] and bijections, and $\FinVect_{\mat
 [[John Baez]]: Do we need the complex numbers in the previous paragraph, or will any field do equally well?  Maybe just any field of characteristic zero?  I really want to know!  Another way to put my question: take the category of representations of the permutation group $S_n$ in finite-dimensional vector spaces over the field $k$.  Take the Grothendieck group of this.  Does this depend on $k$?  Does something weird happen when $n$ is divisible by $char k$? 
 
 _Toby_:  Since this is all algebra, any algebraically complete field of characteristic zero must work.  Do you know a reference for the proof?; can we see what it depends on?
+
+[[John Baez]]: What I really care about is non-algebraically closed fields of characteristic nonzero.  The proof is lurking in any book on representations of the symmetric group.   It consists of two steps.  First, the $n$-box Young diagrams in turn correspond to the degree-$n$ symmetric polynomials in an obvious way.  Second, every rep of $S_n$ is completely reducible, and the irreducible ones are described by $n$-box Young diagrams.  The second part is still true over $\mathbb{Q}$, but I don't know if it's true over other fields, like finite fields.  I think it's _not_, since Brauer is famous for studying 'modular representations of symmetric groups', meaning reps over finite fields.  But I'd like to know how the story changes, if it does.  
+
 =--
