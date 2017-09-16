@@ -48,3 +48,7 @@ sectrion 1.2.7 in
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
 discusses morphisms of [[quasi-category|quasi-categories]].
+
+[[!redirects (infinity,1)-functors]]
+[[!redirects (∞,1)-functor]]
+[[!redirects (∞,1)-functors]]
