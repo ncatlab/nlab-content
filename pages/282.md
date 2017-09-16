@@ -33,6 +33,7 @@ Meanwhile, there is the website
 The use of crossed complexes allows the notion of free crossed resolution, and so clear links with standard homological algebra. The place of strict $n$-fold groupoids in nonabelian  homological algebra needs much further work. One key is that the [[higher homotopy van Kampen theorem]] allows some algebraic information on gluing homotopy types, giving _some colimit information on nonabelian structures_. The traditional invariants, e.g. homotopy groups, $k$-invariants, ..., then have to be extracted from this larger structure.  
 
 
-* _Crossed complexes and homotopy groupoids as non commutative tools for higher dimensional local-to-global problems_, Proceedings of the Fields Institute Workshop on Categorical Structures for Descent and Galois Theory, Hopf Algebras and Semiabelian Categories, September 23-28, Fields Institute Communications 43 (2004) 101-130. (math.AT/0212274 revised). 
+* _Crossed complexes and homotopy groupoids as non commutative tools for higher dimensional local-to-global problems_, Proceedings of the Fields Institute Workshop on Categorical Structures for Descent and Galois Theory, Hopf Algebras and Semiabelian Categories, September 23--28, Fields Institute Communications 43 (2004) 101--130. ([math.AT/0212274](http://arxiv.org/abs/math.AT/0212274) revised). 
 
 
+[[!redirects Nonabelian algebraic topology]]
