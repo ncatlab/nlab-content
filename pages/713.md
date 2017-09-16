@@ -128,8 +128,7 @@ Start with any cocontinuous functor $G: \widehat{A} \to \widehat{B}$.  Precompos
 
 (Hint: don't be afraid to get stuck and realize that you could get out of being stuck if you knew a certain Lemma which might also be useful for other things we're talking about below.)
 
-[[Mike Stay]] Well, we need to show that $G \circ Y \cong \widehat{G} \circ Y \Rightarrow G \cong \widehat{G}$.  The way you capitalized "Lemma" makes me think it must be the Yoneda Lemma you're talking about, but I'm not sure how to get the implication above from $Nat(hom(A, -), F) \cong FA$.
-
+[[Mike Stay]] Well, we need to show that $G \circ Y \cong \widehat{G} \circ Y \Rightarrow G \cong \widehat{G}$; is $Y$ an epimorphism?
 
 ##How should we think about this, intuitively?##
   
