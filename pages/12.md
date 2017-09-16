@@ -257,6 +257,9 @@ Testing punctuation: $x^2 + y^2$.
 
 Testing punctuation: $x^2 + y^2.$
 
+`&amp;&rarr;`
+<code>&amp;&rarr;</code>
+
 ****
 
 category: meta
