@@ -1,8 +1,3 @@
-[[!redirects antipode]]
-[[!redirects Hopf monoid]]
-[[!redirects Hopf monoids]]
-[[!redirects Hopf algebras]]
-
 #Idea#
 
 A Hopf algebra is a generalization of:
@@ -97,3 +92,8 @@ William C. Waterhouse, Introduction to affine group schemes, Graduate Texts in M
 # A Word of caution #
 
 In algebraic topology, it is common to define Hopf algebras without mentioning the antipode, since in many topological cases of interest it exists automatically.  For example, this is the case if it is [[graded object|graded]] and "connected" in the sense that its degree-0 part is just the ground field (a property possessed by the homology or cohomology of any connected space).  In algebraic topology also the strict coassociativity is not always taken for granted.
+
+[[!redirects antipode]]
+[[!redirects Hopf monoid]]
+[[!redirects Hopf monoids]]
+[[!redirects Hopf algebras]]
