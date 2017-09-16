@@ -132,6 +132,7 @@ Here are some examples of internal $\infty$-groupoids according to the first def
 
 * Another classical example consists of the [[∞-Lie groupoids]].
 
+* [[topological infinity-groupoid]]
 
 ## Internal strict $\infty$-groupoids {#Strict}
 
