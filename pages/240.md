@@ -5,7 +5,7 @@ A [[topos]] $E$ is **well-pointed** if
 
 # Boolean properties
 
-Assuming that one accepts [[excluded middle]] in one\'s metalogic, a well-pointed topos is also [[Boolean topos|Boolean]].  Similarly, a well-pointed topos is _two-valued_; that is, the only [[global element|global elements]] of the [[subobject classifier]] are $\top$ and $\bot$ (and these are distinct, by nondegeneracy).
+Assuming that one accepts [[excluded middle]] in one\'s metalogic, a well-pointed topos is also [[Boolean topos|Boolean]].  Similarly, a well-pointed topos is [[two-valued topos|two-valued]]; that is, the only [[global element|global elements]] of the [[subobject classifier]] are $\top$ and $\bot$ (and these are distinct, by nondegeneracy).
 
 # Logical properties
 
