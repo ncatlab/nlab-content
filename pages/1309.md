@@ -68,4 +68,10 @@ _Todd_: Part of the problem is that I don't have a deep feeling myself for Conne
 _Toby_:  OK, so neither of us understands it well enough to be sure.  Still, if I get the description as an ordered graph, then I see that there is a problem with maps to the $0$-cycle.
 
 The good news is that, looking at your definition of a cyclically reflexive notion of cyclic order, I can no longer imagine why I might have thought that such a thing would not work.  Indeed, applying [[de Morgan duality]] to the axioms above for an irreflexive version, we immediately get a reflexive version that is (classically, and even constructively for finite sets) equivalent to your definition.  (It\'s still true that the irreflexive version is probably better from a constructive perspective, much as is true for linear/total orders, because cyclic totality fails for the reflexive ternary order relation on the unit circle in the located Dedekind complex plane, but that\'s not what was concerning me before, nor is it relevant for finite sets.)
+
+[[Mike Shulman]]: Probably this whole discussion should be taking place at [[cycle category]].
+
+According to [Berger-Moerdijk](http://arxiv.org/abs/0809.3341)'s characterization of the cycle category (Example 2.7), I think the $0$-cycle is not terminal.  They describe it as the "total category" of a certain "crossed $\Delta$-group" which is a presheaf $n\mapsto G_n$ of groups on $\Delta$ with certain extra structure; in this case the relevant presheaf sends each set $[n] = \{0,1,\dots,n\}$ to $C_n$, the cyclic group on $n$ letters.  The total category of a crossed $\Delta$-group has the same objects as $\Delta$, and the morphisms $[m]\to [n]$ are pairs $(\alpha,g)$ where $\alpha:[m]\to [n]$ in $\Delta$ and $g\in G_m$.  Thus, in particular, the morphisms $[m]\to [0]$ in $\Lambda$ can be identified with elements $g\in C_m$, so there is more than one of them.
+
+I think I have just lost whatever geometric intuition I used to think I had for the cycle category.
 =--
