@@ -61,7 +61,9 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 * [[Lab Elf|Lab Elf (carpentry department)]]: Maruku (the implementation of markdown used here) can do automatic tables of contents (for use _within_ a page, it can't do cross-page contents).  For an example see [[Froelicher space|this page]] and for the syntax, see the [maruku extended syntax page](http://maruku.rubyforge.org/maruku.html#toc-generation).
 
-  * [[Urs Schreiber]]: ah, thanks Lab Elf! I wasn't awware of this. This will save me a few keystrokes. Should be mentioned at [[HowTo]].
+   * [[Urs Schreiber]]: ah, thanks Lab Elf! I wasn't aware of this. This will save me a few keystrokes. Should be mentioned at [[HowTo]].
+
+   * [[Jon Awbrey]] tried that at [[differential logic]] and couldn't get it to work.  Is there some extra trick to that?
 
 * [[Urs Schreiber]] 
 
