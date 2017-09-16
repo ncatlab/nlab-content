@@ -117,7 +117,7 @@ For more on this and for the many different generalized sets see
 
 Rafael: I am a bit skeptical if to interpret ETAC as a set theory.
 
-_Toby_:  See [[set theory]] for the contrast between material and structural set theories.  See also [[foundation]]s; there may be some overlap between what you intend to write here and what is or should be there.
+_Toby_:  See [[set theory]] for the contrast between material and structural set theories.  See also [[foundations]]; there may be some overlap between what you intend to write here and what is or should be there.
 
 I don\'t understand why you say that (material) set theory can reproduce category theory through ETAC.  Doesn\'t set theory reproduce category theory through the usual set-based definitions of category, functor, and natural transformation?
 
