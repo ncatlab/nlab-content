@@ -290,6 +290,7 @@ Testing HTML comments: <!-- this is a comment --> this is after the comment. Oh,
 
 Okay, if there's more than just me interested in getting the graphics right then I'm implementing the following: an [[SVG Sandbox]] just for mucking around with SVGs.  That way, we don't mess up this sandbox.  I've shifted what was above to the new Sandbox (though I'll leave the SVG from earlier in the 'box here ).  [[Andrew Stacey]]
 
+Internal error?
 
 ****
 
