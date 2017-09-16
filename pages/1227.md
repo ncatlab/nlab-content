@@ -44,3 +44,6 @@ Equivalently, an [[(infinity,1)-presheaf]] is in $ind_\kappa\text{-}C$ if there 
 Section 5.3 and in particular 5.3.3 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+
+[[!redirects ind-object (infinity,1)-category]]
