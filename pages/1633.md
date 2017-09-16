@@ -5,10 +5,9 @@
 
 ## Definition
 
-A locally compact space is a space such that every point has a [[compact space|compact]] neighborhood. It may be considered as an example of a [[nice topological space]]. 
+A locally compact space is a space such that every point has a neighborhood base consisting of [[compact space|compact]] sets. It may be considered as an example of a [[nice topological space]]. 
 
 Note: as observed in the discussion at [[compact space]], many authors choose to include the [[Hausdorff space|Hausdorff]] condition as a matter of course, calling locally compact not-necessarily-Hausdorff spaces 'locally quasi-compact'. We will not follow that convention here, but the reader should be warned that without the Hausdorff hypothesis, there are several inequivalent notions of local compactness in the literature; see [the English Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Locally_compact_space) for a survey and counterexamples. 
-
 
 ## Examples ## 
 
@@ -28,14 +27,6 @@ Note: as observed in the discussion at [[compact space]], many authors choose to
 ## Basic category-theoretic results ## 
 
 Perhaps the most important consequence of local compactness for categorical topology is that locally compact spaces are [[exponential object|exponentiable]], i.e., if $Y$ is locally compact, then $Y \times -: Top \to Top$ has a [[adjunction|right adjoint]] $(-)^Y: Top \to Top$. In fact, this is almost an abstract definition of local compactness: for $T_0$ spaces, local compactness is equivalent to being exponentiable. This situation generalises to [[locales]]: a result of Hyland is that locale is locally compact if and only if it is exponentiable.  (See [[exponential law for spaces]] for more details.) 
-
-+--{.query}
-
-[[Todd Trimble]]: I think this claim for locally compact spaces as defined above is false; locally compact spaces are exponentiable if instead they are defined to be spaces which have a neighborhood base of compact neighborhoods. I don't quite see how the additional hypothesis of $T_0$ would change that. 
-
-_Toby_:  That\'s a good definition too.  The page [[exponential law for spaces]] suggests that _core_-compactness is the deciding feature.  All of these definitions are equivalent for Hausdorff spaces, and they\'re hard to untangle in the literature.  Do we know enough to be Bourbaki and decide which is best?
-
-=--
 
 As noted above, locally compact spaces form a finitely complete [[full subcategory]] of $Top$. It is not true that arbitrary products of locally compact spaces are locally compact. However, some important examples of locally compact spaces are constructed as restricted direct products, as follows. 
 
