@@ -8,6 +8,16 @@ The dual concept is an [[algebra for an endofunctor]].
 
 See also [[terminal coalgebra]].
 
+##Examples of coalgebras for functors on [[Set]]:
+
+* $X \to F(X) = D(X)$, the set of probability distributions on $X$: Markov chain on $X$.
+* $X \to F(X) = P(X)$, the powerset on $X$: Binary relation on $X$.
+* $X \to F(X) = X^A \times B$: Deterministic automaton.
+* $X \to F(X) = P(X^A \times B)$: Nondeterministic automaton.
+* $X \to F(X) = A \times X \times X$, for a set of labels $A$: Labelled binary tree.
+
+See [[coalgebra]] for examples on categories of modules.
+
 #Blog resources#
 
 David Corfield, [_Coalgebraically Thinking_](http://golem.ph.utexas.edu/category/2008/11/coalgebraically_thinking.html)
