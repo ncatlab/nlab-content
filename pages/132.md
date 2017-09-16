@@ -4,6 +4,8 @@ A [[category]] is **discrete** if it contains only identity morphisms.  The idea
 
 Conversely, for $S$ a collection, one says that the _discrete category over $S$_ is the category with $S$ as its collection of objects and only identity morphisms.  
 
+The notion of "discrete category" is [[evil]].  A corresponding non-evil property is that any two parallel morphisms are equal and invertible; this is the same as being [[equivalence of categories|equivalent]] to a discrete category.
+
 
 # Topological meaning #
 
@@ -14,5 +16,7 @@ This is especially confusing if one extends the use of "discrete category over $
 +--{.query}
 
 What is the difference between a discrete category and a [[0-category]]? - [[Eric Forgy|Eric]]
+
+Well, depending on your definition, a 0-category might _be_ a set (rather than the discrete category _on_ a set), or a discrete category, or a category that is _equivalent_ to a discrete category, or an $\omega$-category that is equivalent to a discrete one.  But morally, there is little difference.  - [[Mike Shulman|Mike]]
 
 =--
