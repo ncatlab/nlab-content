@@ -3,7 +3,7 @@
 * [[differential geometry]], [[differential topology]], [[Diff]], [[cobordism]]
 * [[differential form]], [[tangent space]]
 * [[symplectic geometry]], [[symplectic manifold]], [[Poisson manifold]]
-* [[fibre bundle]], [[principal bundle]]
+* [[fibre bundle]], [[principal bundle]], [[noncommutative principal bundle]]
 * [[connection]] (and links therein)
 * [[Morse function]], [[Morse lemma]]
 * [[differentiable stack]], [[orbifold]], [[stratifold]], [[orientifold]]
@@ -18,6 +18,7 @@
 * [[algebraic variety]], [[normal variety]], [[Kähler manifold]], [[hyperplane line bundle]]
 * [[algebraic space]], [[algebraic stack]], [[diffiety]]
 * [[quasicoherent sheaf]], [[coherent sheaf]], [[relative scheme]]
+* [[smooth scheme]], [[smooth morphism of schemes]], [[etale morphism]], [[formally smooth morphism]]
 * [[pure motive]], [[Voevodsky motive]]
 * [[D-module]], [[local system]], [[regular differential operator]], [[Grothendieck connection]]
 * [[flag variety]], [[geometric quantization]], [[coherent state]], [[orbit]], [[coadjoint orbit]]
@@ -36,4 +37,4 @@ There are many entries on [[sheaf]], [[stack]], [[site]], [[locale]] and [[topos
 
 * [[germ]], [[etale space]], [[soft sheaf]], [[flabby sheaf]], [[fine sheaf]], [[Grothendieck topos]], [[Grothendieck topology]], [[(infinity,1)-topos]], [[smooth topos]], [[(infinity,1)-category of (infinity,1)-sheaves]], [[cover]], [[hypercover]], [[local object]], [[local isomorphism]], [[coverage]], [[local epimorphism]], [[hypercompletion]], [[sieve]], [[Verdier site]], [[Grothendieck fibration]], [[Pierce spectrum]], [[Stone duality]], [[point of a topos]], [[geometric morphism]]... 
 
-and pages on various [[cohomology|cohomologies]], including [[sheaf cohomology]], [[nonabelian cohomology]], [[differential cohomology]], [[Deligne cohomology]], [[Bredon cohomology]] and their cocycle classes including [[torsors]], [[gerbes]], [[principal 2-bundles]] as well as the related picture of the [[descent]] theory (cf. [[oriental]], [[descent for simplicial presheaves]]...).
+and pages on various [[cohomology|cohomologies]], including [[sheaf cohomology]], [[nonabelian cohomology]], [[differential cohomology]], [[Deligne cohomology]], [[etale cohomology]], [[equivariant cohomology]], [[Bredon cohomology]] and their cocycle classes including [[torsors]], [[gerbes]], [[principal 2-bundles]] as well as the related picture of the [[descent]] theory (cf. [[oriental]], [[descent for simplicial presheaves]]...).
