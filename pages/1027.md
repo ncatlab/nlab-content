@@ -1,4 +1,4 @@
-A __fibre product__ or __fiber product__ is simply a [[product]] in a [[over category|slice category]].  The fibre product of two morphisms is the same as their [[pullback]]. A fiber product of a collection of objects in a slice category, usually more than two, is often called a _wide pullback_. 
+A __fibre product__ or __fiber product__ is simply a [[product]] in a [[over category|slice category]].  The fibre product of two morphisms is the same as their [[pullback]]; accordingly, a fiber product more than two morphisms is often called a __wide pullback__. 
 
 More explicitly, for $f : A \to C$ and $g : B \to C$ two [[morphism]]s in a [[category]] $C$, the fiber product $A \times_C B$
 of $A$ with $B$ over $C$ is, if it exists, [[generalized the|the]] [[pullback]]
@@ -22,6 +22,8 @@ Of course, the fiber of $A$ at the generalized element $x: I \to C$ is itself a 
 You\'re English, [[David Corfield|David]], so how come you don\'t like 'fibre'?  ---[[Toby Bartels|Toby]]
 
 I just thought it was policy here. That's what the [[HowTo]] page says anyway. ---[[David Corfield|David]]
+
+That\'s only for page titles.  (I know, because I wrote it!)  Actually, now that we have a usable system of redirects, even that may not be so important.  The English Wikipedia does fine with a policy only of including redirects for alternate spellings.  ---Toby
 =--
 
 #Examples#
@@ -117,3 +119,4 @@ fiber products of derived spaces.
 [[!redirects fibre product]]
 [[!redirects fibered product]]
 [[!redirects fibred product]]
+[[!redirects wide pullback]]
