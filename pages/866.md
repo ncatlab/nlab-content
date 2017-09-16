@@ -30,7 +30,13 @@ There are really two ways to do this, shown below.  (We will write these as if e
 
 Now, if $f$ is a [[bijection]], then it preserves the relation if and only if its inverse reflects it, so clearly an [[isomorphism]] of relation-equipped sets should do both.  What about a mere morphism?
 
-In general, it should also do both.  But in some contexts, we only require it to do one or the other.  For binary relations, use this rule of thumb:
+In general, it should also do both.
+
++--{: .query}
+[[Mike Shulman|Mike]]: I'm not sure what you mean by that.  To me preservation of the relation is the much more 'natural' type of morphism; for instance, they are the morphisms you get if you consider sets-with-a-relation as the models of a finite-limit theory.
+=--
+
+But in some contexts, we only require it to do one or the other.  For binary relations, use this rule of thumb:
 *  A morphism of sets, each equipped with a [[reflexive relation]], need only *preserve* the relation;
 *  A morphism of sets, equipped with an [[irreflexive relation]], need only *reflect* the relation.
 
