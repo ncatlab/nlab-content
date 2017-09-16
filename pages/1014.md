@@ -2,7 +2,7 @@ A **pure set** is a [[set]] of pure sets.
 
 This is a circular definition; if you interpret it [[recursion|recursively]], then you get **well-founded sets**; if you interpret it [[corecursion|corecursively]], then you allow for **ill-founded sets**.  (But note that the corecursive interpretation includes the well-founded sets as well, an example of the [[red herring principle]].)
 
-At first, the only well-founded set possible is the [[empty set]] $\empty = \{ \}$, the set of no pure sets.  Once you have that, you can form $\star = \{\empty\}$, then $\{\star\}$ and $\{\empty,\star\}$, and so on.  These are the [[hereditarily finite set]]s; using an axiom of infinity, you can jump to the [[countably infinite set]] of all hereditarily finite sets and continue from there.
+At first, the only well-founded set possible is the [[empty set]] $\empty = \{ \}$, the set of no pure sets.  Once you have that, you can form $\star = \{\empty\}$, then $\{\star\}$ and $\{\empty,\star\}$, and so on.  These are the [[hereditarily finite sets]]; using an axiom of infinity, you can jump to the [[countably infinite set]] of all hereditarily finite sets and continue from there.
 
 For ill-founded sets, there are additional possibilities, such as a set $\bullet$ such that $\bullet = \{\bullet\}$ (a suggestive model for the [[point]]), or sets $A$ and $B$ such that $A = \{B\}$ and $B = \{\empty, A\}$.  These may be ruled out by an appropriate [[axiom of foundation]], or explicitly allowed and tamed by the dual axiom of anti-foundation.
 
@@ -28,7 +28,7 @@ These subsidiary notions are also needed:
 *  Two trees are __equivalent__ if there exists a graph isomorphism between them; for rigid trees, such an isomorphism must be unique.
 *  A tree $X$ is an __immediate subtree__ of a tree $Y$ if $X$ is isomorphic to a tree rooted at one of the children of the root in $Y$; for rigid trees, this can again happen only in one way.
 
-Then rigid trees model ill-founded pure sets; well-founded rigid trees model well-founded pure sets.  The immediate-subtree relation models the global membership relation on pure sets.  Notice that the [[axiom of extensionality]] holds: if two trees have equivalent immediate subtrees, then they are themselves equivalent.  More generally, if __[[ETCS]]__ holds for the structural sets (of nodes, etc) used in this definition, then $\mathbf{ZC}^-$ (which is __[[ZFC]]__ without the axioms of [[axiom of replacement|replacement]] and [[axiom of foundation|foundation]]) holds for rigid trees, while $\mathbf{ZC}$ ($\mathbf{ZC}^-$ together with foundation) holds for well-founded rigid trees.  (Similar results hold for [[constructive mathematics|constructive]] weakenings of ETCS and ZFC; other possible changes, such as adding replacement or [[Grothendieck universe]]s, also correspond.)
+Then rigid trees model ill-founded pure sets; well-founded rigid trees model well-founded pure sets.  The immediate-subtree relation models the global membership relation on pure sets.  Notice that the [[axiom of extensionality]] holds: if two trees have equivalent immediate subtrees, then they are themselves equivalent.  More generally, if __[[ETCS]]__ holds for the structural sets (of nodes, etc) used in this definition, then $\mathbf{ZC}^-$ (which is __[[ZFC]]__ without the axioms of [[axiom of replacement|replacement]] and [[axiom of foundation|foundation]]) holds for rigid trees, while $\mathbf{ZC}$ ($\mathbf{ZC}^-$ together with foundation) holds for well-founded rigid trees.  (Similar results hold for [[constructive mathematics|constructive]] weakenings of ETCS and ZFC; other possible changes, such as adding replacement or [[Grothendieck universes]], also correspond.)
 
 +-- {: .query}
 This definition needs to be fixed; it gives only Scott-[[extensional relation|extensionality]] rather than strong extensionality.  I\'ll work on it.  ---Toby
@@ -79,7 +79,7 @@ A non-well-founded set will give an infinite picture; here is $\bullet = \{\bull
 $$ \array { \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \vdots } $$
 Looking at the immediate subtree, we verify that $\bullet \in \bullet$.
 
-Of course, even a well-founded [[infinite set]] has an infinite picture, but each individual branch is finite; here is $\omega_N$, the set of von Neumann [[natural number]]s:
+Of course, even a well-founded [[infinite set]] has an infinite picture, but each individual branch is finite; here is $\omega_N$, the set of von Neumann [[natural numbers]]:
 $$ \array {
         &          &          & \omega_N \\
         & \nearrow & \nearrow &          & \nwarrow & \cdots \\
@@ -140,7 +140,7 @@ $$ \array {
 } $$
 As the root is a child of itself, the entire subgraph is an immediate subgraph of itself, so $\bullet \in \bullet$.
 
-Finally, here is the set $\omega_N$ of von Neumann [[natural number]]s:
+Finally, here is the set $\omega_N$ of von Neumann [[natural numbers]]:
 $$ \array {
          &            & \omega_N \\
          & \nearrow   & \uparrow & \nwarrow & \cdots \\
