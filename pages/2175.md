@@ -82,10 +82,6 @@ Templates ---
 
 Upload Queue ---
 
-[[Venn_Diagram_lPcQcRr.jpg|Venn Diagram (P,Q,R):pic]]
-
-[[Venn_Diagram_llPrclQrclRrr.jpg|Venn Diagram ((P),(Q),(R)):pic]]
-
 __GIF__
 
 [[Venn_Diagram_4_Dimensions_UV_Cacti_8_Inch.gif|Venn Diagram 4 Dimensions UV Cacti 8 Inch:pic]]
