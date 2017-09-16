@@ -1,3 +1,2 @@
-See [[Lie infinity-algebroid]].
-
-category: redirect
+&lt; [[L-infinity-algebroid]]
+[[!redirects L-infinity-algebroid -- history]]
