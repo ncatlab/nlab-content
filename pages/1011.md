@@ -40,4 +40,10 @@ _Toby_:  Sure, there are lots of [[adjunctions]] that work this way.  (I forget 
 
 [[Eric]]: Ok. I thought the missing diagonal was the barrier to being "free". What is the barrier then? If you start with a directed graph as you drew without the diagonal then the corresponding quiver contains the diagonal as it should. There must be something else I'm missing. Thanks. 
 
+[[Urs Schreiber]]: apart from looking at the counterexample that Mike gave, it shoud be useful to say in words in full generality what is going on:
+
+>In a _free_ category on a directed graph composition of morphisms is always just a concatenation operation. Nothing really happens when you compose any two morphisms. 
+
+So another good counterexample to think of is a [[delooping]] category $\mathbf{B}A$ of a [[monoid]] $A$ or $\mathbf{B}G$ of a [[group]] $G$: in as far as the product operation in $A$ and $G$ actually does something instead of just saying that $a \cdot b$ is $a b$, the corresponding category is not a free category.
+
 =--
