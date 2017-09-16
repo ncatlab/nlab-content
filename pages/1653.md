@@ -31,6 +31,9 @@ These were all proposed *before* $\sigma$-algebras became standard.  It is not a
 <img src="http://www.iai.uni-bonn.de/~idea/chimera.gif" alt="" width="208" />
 
 ---Toby
+
+[[John Baez]]: my point of adding the warning 'centipede mathematics' was simply that for someone seeking to learn about $\sigma$-algebras for the first time, the list of weaker concepts below may be distracting.  History has nothing to do with it: if I'm trying to learn the definition of 'group' and someone tells me about loops, it scarcely matters which definition came first.  More importantly, I'm not really trying to say that centipede mathematics is 'bad'.  I think it can be great, and I would never want you to restrain yourself from engaging in it!  I just think it should be noted when it occurs, for the sake of beginners, and I'm trying to do that in a humorous way.
+
 =--
 
 Given a [[set]] $X$ and a collection $\Sigma$ of [[subset]]s $S \subseteq X$, we will always use the term 'measurable' to describe an element of $\Sigma$.  There are really several kinds of collections that $\Sigma$ could be:
