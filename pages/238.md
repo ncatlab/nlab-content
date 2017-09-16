@@ -11,8 +11,12 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+# 2009-04-16 #
+
+Im Westens nicht neues. 
 
 # 2009-04-15 #
+* [[Zoran Škoda]]: created [[fibered n category]], [[Karoubian category]], [[pseudo-abelian category]] (redirect),  [[Koszul duality]], [[pure motive]], [[Voevodsky motive]], [[motives and dg-categories]] (there needs to be a separate big entry on [[mixed motive]], then [[motivic complexes]], [[standard conjectures]], [[Hodge filtration]] etc.), [[element in abelian category]]; created book-page [[Gray-adjointness-for-2-categories]]; additions and references to [[A-infinity category]], [[dg-category]], [[twisting cochain]].
 
 * [[Urs Schreiber|Urs]]: 
 
