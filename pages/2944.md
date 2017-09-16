@@ -1,0 +1,1 @@
+The __zero ideal__ of a [[ring]] $R$ is the two-sided [[ideal]] that consists entirely of the zero element.  It may be denoted $\{0\}$, $\mathbf{0}$, or simply $0$.
