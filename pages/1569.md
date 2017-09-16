@@ -1,9 +1,7 @@
-[[!redirects nitwits]]
-[[!redirects nincompoops]]
-
 [[nitwitta]]
 
 
-
 category: meta
-category: redirect
+
+[[!redirects nitwits]]
+[[!redirects nincompoops]]
