@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * proudly presenting what is now the widest (horizontally speaking) $n$Lab entry as yet: at [[model structure on simplicial presheaves]] I added a section "Map" where I draw a big diagram that indicates at least part of the collection of model structures, their interrelation, definition and authors
 
+    *  Yeah, I was thinking of reworking that map to run vertically ....  ---Toby
+
   * replied at [[delooping]], at [[group]], added a bit at [[Notation]]
 
   * moved the key statement of [[Toby Bartels|Toby]]'s remark to the very beginning of [[group]] 
