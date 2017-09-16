@@ -10,6 +10,29 @@ Given an element $x$ of $S$, the __principal__ (or __fixed__) __ultrafilter__ (o
 
 Free ultrafilters are important in [[nonstandard analysis]] and [[model theory]], where the ultrafilter theorem seems to be a necessity.
 
+**Category Theoretic Idea** 
+
+(Todd Trimble's [description](http://dialinf.wordpress.com/2009/01/21/ultraproducts-the-category-theoretic-way/) of Lawvere's idea)
+
+Let 3 denote a 3-element set, say $\{0, 1, 2\}$. Let $M = hom(3, 3)$ be the 27-element monoid consisting of functions from 3 to 3, with composition of functions playing the role of monoid multiplication. Then for any set $X$, $M$ acts naturally on $hom(X, 3)$, abbreviated here to $3^X$. Thus $3^X$ lives in the category $M$-Set. The set $3 = 3^1$ in particular carries a structure of $M$-set.
+
+So, the map $X \mapsto 3^X$ defines a functor $Set \to (M-Set)^{op}$. This functor is left adjoint to a functor $(M-Set)^{op} \to Set$ which sends an $M$-set $Y$ to $hom_M(Y, 3)$, the set of functions $Y \to 3$ which respect the $M$-actions. Then, it turns out that the set of ultrafilters on $X$ can be naturally identified with the set $hom_M(3^X, 3)$, and the principal ultrafilter map
+
+$$
+X \to hom_M(3^X, 3)
+$$
+
+is again the unit of the adjunction. [The object 3 plays a dual role, both as set and as $M$-set, and the adjunction we speak of here is based on this ambimorphicity of 3. This is parallel to the ambimorphic nature of 2 seen as set or as Boolean algebra.]
+
+One can play a similar game, replacing $3$ by any set $A$, replacing $hom(3, 3)$, by $hom(A, A)$, etc. The monad of the adjunction would then be $hom_{A^A} (A^X, A)$. If $A$ is finite and greater than 2, this monad is again the ultrafilter monad.
+
+Lawvere seemed to be interested in formulating "large cardinal hypotheses" in terms of obstructions to nice duality statements for these and similar monads, where "nice" would mean here that the unit
+
+$$
+X \to hom_{A^A} (A^X, A)
+$$
+
+is an isomorphism. Again, if $A \gt 2$ is finite, and assuming the axiom of choice, this niceness is obstructed by the existence of infinite sets $X$. But if we take $A$ to be larger, let us say the set of natural numbers $\mathbb{N}$, the existence of obstructions to this niceness then becomes tantamount to the existence of measurable cardinals. Lawvere cites one or two more examples of this phenomenon, of a more topological nature. 
 
 [[!redirects principal ultrafilter]]
 [[!redirects fixed ultrafilter]]
