@@ -544,7 +544,7 @@ Given a suitable interval obect in a [[site]] $C$, one may ask for [[∞-stack]]
 
 ## example: $\mathbb{A}^1$-homotopy theory ##
 
-See [[A1-homotpy theory]].
+See [[A1-homotopy theory]].
 
 
 
