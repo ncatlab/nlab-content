@@ -1,0 +1,5 @@
+A real __microbundle of dimension $n$__ is a 4-tuple $\xi = (E,p,B,i)$ where $E$ is a topological space (total space of $\xi$), $B$ is a topological space (base space of $xi$), and $p:E\to B$ (projection), $i:B\hookrightarrow E$ (inclusion of base space) are continuous maps satisfying $p\circ i = id_B$ and the local triviality condition of the form: for all $b\in B$, there are neighborhoods $U\ni b$. $V\ni i(b)$ and a homeomorphism $h:U\times R^n\to V\cap p^{-1}(U)$ such that $p(h(u,v))=u$ and $h(u,0)=i(u)$ for all $u\in U$. Open subspace $i(B)$ is called the zero section of $\xi$. 
+
+Microbundles were defined by John Milnor.
+
+A __morphism of microbundles__ $\phi:\xi\to\xi'$ is a germ of maps from neighborhoods of zero section of $\xi$ to $\xi'$, which commutes with projections and inclusions, with composition defined for representative as a composition of functions on smaller neighborhoods. 
