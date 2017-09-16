@@ -9,7 +9,7 @@ what are the axioms for a variant of 2-category which this example belongs to. I
 _Toby_:  Or look at the complete definition in the reference that I just added.
 =--
 
-If [[Cat]] is defined as consisting of ([[small category|small]]) [[category|categories]], anafunctors, and [[ananatural transformation]]s (as is most appropriate in the absence of choice), then $Cat$ is naturally an anabicategory rather than any stricter notion.
+If [[Cat]] is defined as consisting of ([[small category|small]]) [[category|categories]], anafunctors, and [[ananatural transformation]]s (as is most appropriate in the absence of choice), then $Cat$ is more naturally an anabicategory rather than any stricter notion.
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Is that only because of the non-canonicity of pullbacks in $Set$?  If our version of $Set$ has canonical chosen pullbacks, do we get an ordinary bicategory?
