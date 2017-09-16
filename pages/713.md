@@ -104,7 +104,13 @@ $\widehat{A} \to \widehat{B}$ to a functor $A \to \widehat{B}$ gets you back whe
   
 When we say $\widehat{A}$ is the 'free cocompletion' of the category $A$, it means we're freely throwing in [[colimit]]s (and thus wrecking the old colimits $A$ may have had).  Since colimits are generalized 'sums', we can consider a [[decategorification|decategorified]] analogue:
 
-**Decategorified Theorem.** Given any set $A$, let $\tilde{A}$ be the free commutative monoid on $A$, and let $y : A \to \tilde{A}$ be the obvious inclusion.  If $B$ is a commutative monoid, given any function $F : A \to B$, there is a monoid homomorphism $\tilde{F} : \hat{A} \to B$ making this triangle commute:
+**Decategorified Theorem.** Given any set $A$, let $\tilde{A}$ be the free commutative monoid on $A$, and let $y : A \to \tilde{A}$ be the obvious inclusion.  
+
++-- {: .query}
+Shouldn't you say commutative monoid $A$, and then $\tilde{A}$ is the free commutative monoid on the underlying set of $A$? -- David
+=--
+
+If $B$ is a commutative monoid, given any function $F : A \to B$, there is a monoid homomorphism $\tilde{F} : \hat{A} \to B$ making this triangle commute:
 $$
   \array{
      A &\stackrel{F}{\to}& B
