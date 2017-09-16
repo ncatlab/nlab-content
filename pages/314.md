@@ -326,16 +326,16 @@ $$
 $$
 which sends every object of $C$ to the diagram functor constant on this object.
 
-The [[left adjoint]]
+The [[adjoint functor|left adjoint]]
 $$
   colim_D : [D,C] \to C
 $$
 of this functor is, if it exists, the functor
-which sends every diagram to its [[colimit]] and the [[right adjoint]] is, if it exists, the functor
+which sends every diagram to its [[colimit]] and the [[adjoint functor|right adjoint]] is, if it exists, the functor
 $$
   lim_D : [D,C] \to C
 $$
-which sends every diagram to its [[limit]]. The Hom-isomorphisms of these [[adjunction]]s state precisely the universal property of [[limit]] and [[colimit]] given above.
+which sends every diagram to its [[limit]]. The Hom-isomorphisms of these adjunctions state precisely the universal property of [[limit]] and [[colimit]] given above.
 
 From this perspective, a limit is a special case of a [[Kan extension]], as described there.
 
