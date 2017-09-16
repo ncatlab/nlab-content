@@ -37,7 +37,7 @@ This has the following properties:
 +-- {: .query}
 Rafael Borowiecki: I could add something of the order 100 categories here, but i know very little of their properties. Should i add them anyway?
 
-It would also be helpful to have a list of properties to fill in for each category to make it a real database. As a start i suggest: size, concrete, complete, enrichment, topos. This list could also get very large resulting in an even larger table (written as a list). For instance one could also add cartesian closedness, monoidality, model structure.
+It would also be helpful to have a list of properties to fill in for each category to make it a real database. As a start i suggest: size, concrete, complete, enrichment, topos. This list could also get very large resulting in an even larger table (written as a list). For instance one could also add functoriality (is it a category of functors?, notice that the Yoneda lemma do not hold for any category), cartesian closedness, monoidality, model structure.
 
 I don't know where to put this request but the logging of changes should be automated. Simply add a smaller box one might fill in if one wishes below the editing box and hope that not every edit will also edit this changes box. It could be limited to size.
 
