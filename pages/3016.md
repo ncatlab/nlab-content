@@ -56,7 +56,7 @@ This construction is probably literally _unthinkable_ without adopting the $n$-p
 
 ### In cohomology
 
-Thousands of definitions of notions of cohomology and its variants. From the nPOV, just a single concept: an [[derived hom space|∞-categorical hom-space]]. See [[cohomology]].
+Thousands of definitions of notions of cohomology and its variants. From the $n$POV, just a single concept: an [[derived hom space|∞-categorical hom-space]] in an [[(∞,1)-topos]]. See [[cohomology]].
 
 ### In homotopy theory {#InHomotopyTheory}
 
@@ -81,6 +81,7 @@ Recently, this problem was fully solved and homotopy theory fully understood as 
 * the [[homotopy category]] of a [[model category]] is simply the [[decategorification]] of the corresponding $(\infty,1)$-category to just a [[1-category]];
 
 * and for instance the notion of homotopy category of a stable $(\infty,1)$-category reproduces the notion of [[triangulated category]], thus incorporating also a large toolset from [[homological algebra]] into the picture.
+
 
 ### In deformation theory {#DeformationTheory}
 
