@@ -1,1 +1,1 @@
-The latest version of Instiki includes the ability to redirect pages.
+The latest version of Instiki includes the ability to redirect pages.  But how does it work?  I'm afraid you'll have to guess, until someone puts the information here.
