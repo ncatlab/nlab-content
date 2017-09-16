@@ -38,7 +38,7 @@ The various notions of **group cohomology** are special cases of this:
 
 * **Group cohomology with coefficients in a nontrivial module** is in turn the following special case and variation of nonabelian group cohomology:
 
-  * let $A := \mathbf{B}^n_\rho K$ be a [[strict infinity-groupoid]] coming from a [[crossed complex]] of the form 
+  * let $A := \mathbf{B}^n_\rho K$ be a [[strict omega-groupoid]] coming from a [[crossed complex]] of the form 
     $$
       [\mathbf{B}^n_\rho K] := (  \cdots \to {*} \to {*} \to K \to \cdots \to {*} \to {}* \to G \stackrel{\to}{\to}{*})
     $$
@@ -316,7 +316,7 @@ A random example for this use of terminology would be
 
 For a conceptual discussion of nonabelian group cohomology see
 
-* [[John Baez]], [[Mike Shulman]], _Lectures on $n$-Categories and Cohomology_ ([arXiv](http://arxiv.org/abs/math/0608420))
+* [[John Baez]], [[Mike Shulman]], _[[Lectures on n-Categories and Cohomology]]_ ([arXiv](http://arxiv.org/abs/math/0608420))
 
 
 
