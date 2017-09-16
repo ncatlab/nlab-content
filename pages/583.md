@@ -2,6 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea 
 
 One of the most important observations of [[category theory]] is that large parts of mathematics can be [[internalization|internalized]] in any [[category]] with sufficient structure.  The most basic examples of this involve algebraic structures; for instance, a [[group]] can be defined in any category with finite products, and an [[internal category]] can be defined in any ambient category with [[pullback]]s. For such [[algebraic theory|algebraic]] (or even [[essentially algebraic theory|essentially algebraic]]) structures, which are defined by _operations_ with _equational axioms_ imposed, it suffices for the ambient category to have (usually finite) limits.
@@ -15,16 +16,16 @@ However, it turns out that if we assume some additional structure on the ambient
 
 It turns out that there is a hierarchy of types of logical theories, each of which corresponds to a type of category in which such theories can be internalized.
 
-<table><tr><th>Theory</th><th>Category</th></tr>
-<tr><td>finite limit (aka "left exact" or "cartesian")</td><td>[[finitely complete category]]</td></tr>
-<tr><td>regular</td><td>[[regular category]]</td></tr>
-<tr><td>coherent</td><td>[[coherent category]]</td></tr>
-<tr><td>disjunctive</td><td>[[extensive category|lextensive category]] (aka finitary disjunctive category)</td></tr>
-<tr><td>geometric</td><td>[[coherent category|infinitary coherent category]] (aka geometric category)</td></tr>
-<tr><td>first-order</td><td>[[Heyting category]]</td></tr>
-<tr><td>dependent types</td><td>[[locally cartesian closed category]]</td></tr>
-<tr><td>higher order</td><td>[[topos|elementary topos]]</td></tr>
-</table>
+|Theory| |Category|
+|------|-|--------|
+|finite limit (aka "left exact" or "cartesian")| |[[finitely complete category]]|
+|regular| |[[regular category]]|
+|coherent| |[[coherent category]]|
+|disjunctive| |[[extensive category|lextensive category]] (aka finitary disjunctive category)|
+|geometric| |[[coherent category|infinitary coherent category]] (aka geometric category)|
+|first-order| |[[Heyting category]]|
+|dependent types| |[[locally cartesian closed category]]|
+|higher order| |[[topos|elementary topos]]|
 
 Each type of logic up through "geometric" can also be described in terms of [[sketch|sketches]], which we do not discuss here.  Not coincidentally, the corresponding types of category up through "geometric" fit into the framework of [[familial regularity and exactness]].  Sketches can also describe theories applicable to categories not even having all finite limits, such as finite product sketches or finite sum sketches, but the logical approach taken here seems to require at least finite limits.
 
@@ -57,15 +58,15 @@ Of course, this is not enough; we need to say somehow that _the axioms are satis
 
 We then define, inductively, an interpretation of every _logical formula_ that can be constructed from the theory by a _subobject_ in $C$.  The idea is that if $x:A$ is a variable of type $x$ and $\varphi(x)$ is a formula with $x$ as its free variable, then the interpretation of $\varphi(x)$ should be the "subset" $\{x\in A | \varphi(x)\}$ of $A$.  The base case of this induction is that if $t$ is a term interpreted by a morphism $A\to B$ and $R:B$ is a relation symbol, then $R(t)$ is interpreted by the pullback of the chosen subobject $R\hookrightarrow B$ representing $R$ along the morphism $t:A\to B$.  The building blocks of logical formulas then correspond to operations on the posets $Sub(A)$ of subobjects in $C$, as follows.
 
-<table><tr><th>Logical operator</th><th>Operation on Sub(<i>A</i>)</th></tr>
-<tr><td>[[conjunction]]: &and;</td><td>[[intersection]] (pullback)</td></tr>
-<tr><td>truth: &top;</td><td>top element (<i>A</i>)</td></tr>
-<tr><td>[[disjunction]]: &or;</td><td>[[union]]</td></tr>
-<tr><td>falsity: &bot;</td><td>bottom element ([[initial object|strict initial object]])</td></tr>
-<tr><td>implication: &rarr;</td><td>[[Heyting algebra|Heyting implication]]</td></tr>
-<tr><td>[[existential quantification]]: &exist;</td><td>[[adjoint functor|left adjoint]] to pullback</td></tr>
-<tr><td>[[universal quantification]]: &forall;</td><td>[[adjoint functor|right adjoint]] to pullback</td></tr>
-</table>
+|Logical operator| |Operation on $Sub(A)$|
+|----------------|-|---------------------|
+|[[conjunction]]: $\wedge$| |[[intersection]] (pullback)|
+|truth: $\top$| |top element ($A$ itself)|
+|[[disjunction]]: $\vee$| |[[union]]|
+|falsity: $\bot$| |bottom element ([[initial object|strict initial object]])|
+|[[implication]]: $\Rightarrow$| |[[Heyting algebra|Heyting implication]]|
+|[[existential quantification]]: $\exists$| |[[left adjoint]] to pullback|
+|[[universal quantification]]: $\forall$| |[[right adjoint]] to pullback|
 
 The fact that existential and universal quantifiers can be interpreted as left and right adjoints to pullbacks was first realized by Lawvere.  One way to realize that it makes sense is to notice that in [[Set]], the image of a subset $R\subset A$ under a function $f:A\to B$ can be defined as
 $$\{b\in B | (\exists a\in A)(a\in R \;\wedge\; f(a)=b)\},$$
@@ -102,7 +103,7 @@ It follows that this is also true, suitably interpreted, as a statement about in
 
 There are (at least) three caveats.  Firstly, we must take care to use only the rules appropriate to the fragment of logic that is valid in the particular categories we are interested in.  For example, if we want our conclusions to be valid in any regular category, we must restrict ourselves to reasoning "within regular logic."  Most mathematicians are not familiar with making such distinctions in their reasoning, but in practice most things one would want to say about a regular theory turn out to be provable in regular logic.  (We will not spell out the details of what this means.)  And once we are in a Heyting category, and in particular in a topos, this problem goes away and we can use full first-order logic.
 
-The second, more important, caveat is that the internal logic of all these categories is, in general, [[constructive mathematics|constructive]]. This means that, among other things, the interpretation of $\neg\neg\varphi$ is, in general, distinct from that of $\varphi$, and that $\varphi\vee \neg\varphi$ is not always valid.  So even if we believe that classical logic (including the principle of [[excluded middle]] and even the [[axiom of choice]]) is "true," as many mathematicians do, there is still a reason to look for proofs that are constructively acceptable, since it is only these which are valid in the internal logic of most categories.  If the category is [[Boolean category|Boolean]] and/or satisfies the internal [[axiom of choice]], however, then this problem goes away, but these fail in many categories in which one wants to internalize (such as many [[Grothendieck topos]]es).
+The second, more important, caveat is that the internal logic of all these categories is, in general, [[constructive mathematics|constructive]]. This means that, among other things, the interpretation of $\neg\neg\varphi$ is, in general, distinct from that of $\varphi$, and that $\varphi\vee \neg\varphi$ is not always valid.  So even if we believe that [[classical logic]] (including the principle of [[excluded middle]] and even the [[axiom of choice]]) is "true," as many mathematicians do, there is still a reason to look for proofs that are constructively acceptable, since it is only these which are valid in the internal logic of most categories.  If the category is [[Boolean category|Boolean]] and/or satisfies the internal [[axiom of choice]], however, then this problem goes away, but these fail in many categories in which one wants to internalize (such as many [[Grothendieck topos]]es).
 
 The third caveat is that one must take care to distinguish the _internal_ logic of a category from what is _externally_ true about it.  In general, internal validity is "local" truth, meaning things which become true "after passing to a [[cover]]."  This is particularly important for formulas involving _disjunction_ and _existence_.  For example, an object's being [[projective object|projective]] in the category $C$ is a different statement from its being _internally_ projective, meaning that "$X$ is projective" is true in the internal logic.  Another good example can be found in the different notions of [[finite object]] in a topos.  This problem goes away if the ambient category is [[well-pointed topos|well-pointed]], but well-pointed categories are even rarer than Boolean ones satisfying choice; the only well-pointed Grothendieck topos is [[Set]] itself.
 
@@ -138,7 +139,7 @@ But see [[Mitchell–Bénabou language]] for the version in a [[topos]].
 
 ### Internal logic in $Set$ {#LogicOfSet}
 
-The [[topos]] [[Set]] of course has as its internal logic the "ordinary" logic. This is reproduced by following the abstract nonsense as follows:
+The [[topos]] [[Set]] in [[classical mathematics]] of course has as its internal logic the "ordinary" logic. This is reproduced by following the abstract nonsense as follows:
 
 the [[terminal object]] of [[Set]] is [[generalized the|the]] one-element set ${*}$, the [[subobject classifier]] in [[Set]] is the two-element set $\Omega = \{true, false\}$ equipped with the map
 
