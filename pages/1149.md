@@ -1,4 +1,4 @@
-The following is (supposed to be) a pedagogical motivation of the concepts [[sheaf]], [[stack]], [[infinity-stack]] and [[Higher Topos Theory|higher topos theory]]. It assumes only that the reader has a working knowledge of [[topological space]]s and aims to provide from that an intuitive but useful idea of the relevance of the circle of ideas of [[Categories and Sheaves|categories and sheaves]], [[nonabelian cohomology]], [[sheaf cohomology]] and a bit of [[Higher Topos Theory|higher topos theory]].
+The following is (supposed to be) a pedagogical motivation of the concepts [[sheaf]], [[stack]], [[infinity-stack]] and [[Higher Topos Theory|higher topos theory]]. It assumes only that the reader has a working knowledge of [[topological space]]s and aims to provide from that an intuitive but useful idea of the relevance of the circle of ideas of [[Categories and Sheaves|categories and sheaves]], [[cohomology]], [[sheaf cohomology]] and a bit of [[Higher Topos Theory|higher topos theory]].
 
 # Motivation: maps between topological spaces #
 
