@@ -575,7 +575,7 @@ Then
 
   etc.
 
-For $\mathbf{B}\mathb{Z}$ it is the other way round:
+For $\mathbf{B}\mathbb{Z}$ it is the other way round:
 
 * the _categorical_ homotopy groups of $\mathbf{B}\mathbb{Z}$ are 
 
