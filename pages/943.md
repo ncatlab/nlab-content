@@ -1,4 +1,4 @@
-The term [[convenient category of topological spaces]] is used for a [[cartesian closed category]] of spaces. 
+The term [[convenient category of topological spaces]] is used for a [[cartesian closed category]] of [[topological space]]s.   These are examples of [[nice category of spaces|nice categories of spaces]].
 
 One example is the category of [[compactly generated space]]s.
 
