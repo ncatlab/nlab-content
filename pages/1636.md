@@ -1,8 +1,12 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+##Idea##
 
 In as far as the simplicial $n$-[[simplex]] $\Delta^n$ (a [[simplicial set]]) is a combinatorial model for the $n$-ball, its _boundary_ $\partial \Delta^n$ is a combinatorial model for the $(n-1)$-[[sphere]].
 
-#Definition#
+##Definition##
 
 The **boundary** $\partial \Delta^n$ of the simplicial $n$-[[simplex]] $\Delta^n$ is the simplicial set _generated_ from the simplicial set $\Delta^n$ minus its unique non-degenerate cell in dimension $n$.
 
@@ -21,7 +25,8 @@ The [[geometric realization]] of this is the inclusion of the $(n-1)$-sphere as 
 
 Simplicial boundary inclusions are one part of the [[cofibrantly generated model category|cofibrant generation]] of the classical [[model structure on simplicial sets]].
 
-#Examples#
+
+##Examples##
 
 For low $n$ the boundaries of $n$-simplices look like (see also the illustrations at [[oriental]])
 
@@ -52,6 +57,6 @@ For low $n$ the boundaries of $n$-simplices look like (see also the illustration
   $
 
 
-#Remarks#
+##Remarks##
 
 * the closely related concept is that of [[horn]].
