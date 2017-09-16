@@ -1,3 +1,2 @@
-See [[ringoid]].
-
-category: redirect
+&lt; [[ringoid]]
+[[!redirects ringoid -- history]]
