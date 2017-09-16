@@ -58,11 +58,11 @@ $$
 
 So if the [[internal hom]] exists, it has to be of the form given. It remains to show that with this definition $[-,F]$ really is [[right adjoint]] to $-\otimes F$.
 
+=--
+
 See pages 46, 47 of 
 
 * MacLane-Moerdijk, [[Sheaves in Geometry and Logic]].
-
-=--
 
 
 ## Definition in terms of homs of direct images ##
