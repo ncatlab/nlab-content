@@ -15,10 +15,31 @@ $$
   \,.
 $$
 
+## Model category structures
+
+There is the 
+
+* [[model structure for quasi-categories]]
+
+* [[model structure on sSet-categories]].
+
+The [[homotopy coherent nerve]] 
+
+$$
+  sSet Cat \stackrel{N}{\to} sSet_{Joyal}
+$$
+
+is the [[right adjoint]] part of a [[Quillen equivalence]] between these model structures.
+
 ## References
 
+The [[homotopy coherent nerve]] is an old idea. See there for references.
 
-A detailed discussion is in 
+The [[Quillen equivalence]] between the [[model structure for quasi-categories]] and the [[model structure on sSet-categories]] is described in
+
+* [[Julie Bergner]], _A survey of $(\infty,1)$-categories_ ([arXiv](http://arxiv.org/abs/math/0610239))
+
+A detailed discussion of the map from quasi-categories to $SSet$-categories is in 
 
 * [[Dan Dugger]], [[David Spivak]], _Rigidification of quasi-categories_ ([arXiv:0910.0814](http://arxiv.org/abs/0910.0814))
 
