@@ -22,6 +22,8 @@ A __stably monoidal $n$-category__ is an $(n+2)$-tuply monoidal $n$-category.  A
 
 Use of the word "stable" here also creates confusion with its other meanings (see [here](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html#c021217) and [here](http://golem.ph.utexas.edu/category/2009/01/categories_logic_and_physics_i_2.html#c021205)).  Algebraic topologists often use "stable" to mean "related to [[spectrum|spectra]]," and spectra are related to, but distinct from, symmetric monoidal $\infty$-groupoids.  (<i>Connective</i> spectra can be identified with symmetric _groupal_ $\infty$-groupoids.)  Lurie is also using "stable $(\infty,1)$-category" to mean "an $(\infty,1)$-category which behaves like the $(\infty,1)$-category of spectra."  One might not like this, but it is not original with him; several other algebraic topologists use "stable model category" in the same sense.  And since we have the perfectly good alternative term "symmetric monoidal" to use here, which has other things to recommend it as well, why create needless confusion?
 
+_Toby_:  Hopefully John will admit that saying 'stable' instead of 'stably monoidal' (or 'stably groupal') was a slip of the tonuge ... pen ... fingers.  I\'m used to 'stably monoidal', and I don\'t think that it should cause confusion ---if used in full.  Also, I think there\'s some historical confusion about 'symmetric monoidal $2$-category' or maybe 'symmetric monoidal $3$-category' that 'stably monoidal' isn\'t subject to, although that\'s a bit parochial.
+
 =--
 
 # The periodic table
