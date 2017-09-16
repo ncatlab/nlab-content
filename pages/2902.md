@@ -25,7 +25,7 @@ Triangle $B A K$ is similar to triangle $K A N$.  So $\frac{B A}{A K}=\frac{K A}
 Adding our two results, we have:
 ${B F}^2+{A K}^2={A B}\cdot(A N + B N)={A B}^2$.
 
-$B F$ is our radius (or equivalently, the length of one side of a hexagon inscribed in the same circle), $A K$ is a decagon side, and $A B$ is a pentagon side.
+$B F$ is our radius (or equivalently, the length of one side of a hexagon inscribed in the same circle), $A K$ is a decagon side, and $A B$ is a pentagon side.  So we have established the pentagon-decagon-hexagon identity.
 
 #Other proofs#
 
@@ -65,20 +65,42 @@ square where the two red rectangles overlap, and that has area $4b^2$.
 Now if we subtract a single $t^2$, the light blue rectangle, then we're left with a square of side length $r$,
 thanks to the fact that $\Phi=1+1/\Phi$.  So $(2s)^2-t^2=r^2$, which is the pentagon-decagon-hexagon identity.
 
-The middle section of this proof is essentially a proof of the identity:
+The middle section of this proof is essentially a diagrammatic proof of the identity:
 
 $$\Phi^2+\frac{1}{\Phi^2}=3$$
 
+which can also be verified algebraically from the defining equation for $\Phi$.
+
 ##Proof from a construction on the icosahedron##
+
+
+[[!include pentagon decagon hexagon identity/duads]]
+
+Suppose we construct a regular icosahedron based on three orthogonal "duads".  These are rectangles in the golden ratio, with vertices of the icosahedron at their corners.
 
 [[!include pentagon decagon hexagon identity/icosahedron]]
 
-Suppose we construct an icosahedron based on three orthogonal "duads".  These are rectangles in the golden ratio, with vertices of the icosahedron at their corners.  In the diagram above, everything is projected into the plane of one duad,
-which has the vertices $A$, $B$, $-A$ and $-B$ as its corners.  Where two vertices are projected to the same point in the diagram, there is a circle drawn around the point.
+In the diagram above, everything is projected into the plane of one duad, which has the vertices $A$, $B$, $-A$ and $-B$ as its corners.  Where two vertices are projected to the same point in the diagram, there is a circle drawn around the point.
 
-By construction, all vertices will be equidistant from the centre of symmetry, and it's not too hard to prove that all the edge lengths are equal.  (The edge lengths have been normalised to 1.)  So it's not difficult to see that we really do have an icosahedron here.
+By construction, all vertices will be equidistant from the centre of symmetry.  To establish that we really do have a _regular_ icosahedron here, we need to prove that all the edge lengths are equal.  The 6 edges that lie along the short side of some duad are all of length 1, by construction.  The 24 other edges can be shown to be of the same length by essentially just one calculation; in each case, the difference in the coordinates of the relevant vertices are $\frac{\Phi}{2}$, $\frac{1}{2}$ and $\frac{\Phi-1}{2}$.  So four times the sum of the squares of these coordinate differences will be:
 
-The right triangle $O R P$ is similar to the right triangle $C A B$.  So $\frac{C A}{C B}=\frac{O R}{O P}=\Phi$, with the last equality there by construction.  It follows from the golden triangle lemma that $C B$ is the edge length of a decagon inscribed in a circle of radius $C A$.
+$$(\Phi-1)^2+\Phi^2+1=\frac{1}{\Phi^2}+\Phi^2+1=4$$
+
+where we've used the fact that $\Phi-1=\frac{1}{\Phi}$, which follows directly from the defining equation for $\Phi$, and then the identity:
+
+$$\frac{1}{\Phi^2}+\Phi^2=3$$
+
+So the edge lengths will all equal 1.  We also need to prove that $A P R$ is actually a straight line, as we've drawn it!  This amounts to proving that the ratio of vertical to horizontal displacement from $R$ of the points $A$ and $P$ are the same:
+
+$$\frac{\frac{\Phi}{2}}{\frac{\Phi}{2}+\frac{1}{2}}=\frac{\frac{1}{2}}{\frac{\Phi}{2}}$$
+
+or equivalently:
+
+$$\Phi^2=\Phi+1$$
+
+which follows directly from the defining equation for $\Phi$.
+
+The right triangle $O R P$ is similar to the right triangle $C A B$.  So $\frac{C A}{C B}=\frac{O R}{O P}=\Phi$, with the last equality true by construction.  It follows from the golden triangle lemma that $C B$ is the edge length of a decagon inscribed in a circle of radius $C A$.
 
 But the five vertices that project onto the line $A P R$ form a regular pentagon inscribed in a circle of radius $C A$, and the edge length of that pentagon is $A B$.  So the right triangle $C A B$ constitutes a proof of the pentagon-decagon-hexagon identity.
 
@@ -89,5 +111,4 @@ But the five vertices that project onto the line $A P R$ form a regular pentagon
 * [n-Caf&eacute; discussion of TWF 283](http://golem.ph.utexas.edu/category/2009/11/this_weeks_finds_in_mathematic_44.html)
 
 * John Baez, [Some thoughts on the Number 6](http://math.ucr.edu/home/baez/six.html)
-
 
