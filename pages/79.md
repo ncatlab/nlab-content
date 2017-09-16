@@ -48,3 +48,4 @@
 
   * [[graph]], [[directed graph]], [[order]], [[poset]], [[filter]]... 
 [[!redirects Math]]
+[[!redirects Mathematics]]
