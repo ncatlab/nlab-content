@@ -1,3 +1,7 @@
-One wants to regard a [[weak complicial set]] as the [[nerve]] of a weak [[omega-category]], even if not in all cases there may be an definition of weak [[omega-category]] apart from that [[weak complicial set]]. In that context Dominic Verity therefore speaks of **simplicial weak $\omega$-category theory**. 
+**Simplicial weak $\omega$-category theory** is the study of weak $\omega$-[[omega-category|categories]] through their nerves.  In effect, the goal is to _define_ a weak $\omega$-category to be a certain sort of ([[stratified simplicial set|stratified]]) simplicial set.  One could then hope to prove that these are precisely the [[nerve|nerves]] of weak $\omega$-categories defined in some other way.
 
-For details and references see [[weak complicial set]].
+This program was originally begun by Ross Street and has been carried forward by Dominic Verity with the theory of [[weak complicial set]]s.  It is expected that the (nerves of) weak $\omega$-categories will be weak complicial sets satisfying an extra "saturation" condition ensuring that "every [[equivalence]] is thin."
+
++--{: .query}
+[[Mike Shulman|Mike]]: This term is kind of unfortunate; *simplicial weak $\omega$-category* could also mean a simplicial object in weak $\omega$-categories.  I don't suppose we can do anything about that?
+=--
