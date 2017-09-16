@@ -26,3 +26,9 @@ Moore was one of the people who studied the subject of 'differential coalgebra',
 There are variants of the notion of twisting cochain in a variety of other contexts.
 
 A [[twisting function]] is an analogue of a twisting cochain in the context of [[simplicial set]]s.
+
+This area is related to [[homological perturbation theory]], often abbreviated to HPT. 
+
+#Reference# 
+
+D. Barnes and L. A. Lambe, A Fixed Point Approach to Homological Perturbation Theory, with Don Barnes, Proc. AMS, 112 (1991), 881-892. 
