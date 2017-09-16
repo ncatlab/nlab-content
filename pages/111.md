@@ -49,7 +49,7 @@ A _category_ $C$ consists of
   * composition is _associative_: $(h \circ g)\circ f = h\circ (g \circ f)$ whenever $t(f) = s(g)$ and $t(g) = s(h)$;
 
   * composition satisfies the _left and right unit laws_:
-given any morphism $f: x \to y$ we have $1_y \circ f = f = f \circ 1_x$. 
+    given any morphism $f: x \to y$ we have $1_y \circ f = f = f \circ 1_x$. 
 
 People often write $hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ for the collection of morphisms $f : x \to y$; the latter two have the advantage of making clear which category is being discussed.  People also often write $x \in C$ instead of $x \in C_0$ as a short way to indicate that $x$ is an object of $C$.  Also, some people write $Ob(C)$ and $Mor(C)$ instead of $C_0$ and $C_1$.
 
