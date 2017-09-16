@@ -51,6 +51,12 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-22
 
+* [[Urs Schreiber]]: added automatic TOCs to [[limit]], [[adjoint functor]], [[Kan extension]], [[cohomology]], [[FQFT]], [[category theory]], [[descent]] and maybe some other entries
+
+  this feature is great! we should insert it in most entries. Even though I was very much involved with all these entries, I was still surprised to see how long and detailed some of these tables of contents are. They really give an impression of a long entry that is not available otherwise.
+
+  one entry that really deserves a TOC is [[category of fibrant objects]] -- but I failed to insert one there. Encountered lots of strange behaviour like truncations of the entry (had to rollbck several times) or error messages after saving. Could it be that this entry exceeds some length limit?
+
 * [[Mike Shulman]]: More at [[SEAR]], including how to eliminate equality entirely, and how to prove the SEAR Collection axiom from ZF.
 
 * [[Urs Schreiber]]: many thanks to [[Jon Awbrey]] for providing help with automatic TOCs. Great that it works now, but why does it? What does that funny "tic" thing achieve? Let's discuss this on the forum -- [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=82&page=1#Item_1) -- and summarize the result at [[HowTo]] eventually 
