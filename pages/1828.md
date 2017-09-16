@@ -5,7 +5,7 @@ Given a binary [[relation]] $R$ from $X$ to $Y$, its __opposite relation__ (or _
 Note that $(R^{op})^{op} = R$.
 
 
-The operation $op$ is part of the requirments for [[Rel]] to be an [[allegory]].
+The operation $op$ is part of the requirements for [[Rel]] to be an [[allegory]].
 
 
 ## Examples
