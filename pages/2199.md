@@ -21,3 +21,5 @@ Jon: I am bracketing the following additions by Toby, as I can't tell whether th
 Jon:  The way I'll be doing things, there is actually an important distinction between the mathematical object $\mathbb{B} = \{ 0, 1 \}$ and the set of logical values $\{ \mathop{false}, \mathop{true} \}$.  There is a step of interpretation --- or "applying the mathematics to the logical subject matter" --- that separates them.  There is of course the usual interpretation, so we often get sloppy about when exactly we cross the line of interpretation, but there are good reasons for observing it at other times.
 
 Toby: Well, maybe you should just go ahead and write what you intend to write here;  everything here is a work in progress and your text can clash with mine for a bit until we work it out.  But on the nLab, we\'re very much into a structural approach to mathematics, and we\'ll want to say when one thing can be interpreted as another, and when two things are equivalent, and if so in what ways.
+
+[[Mike Shulman]]: Agreed with Toby, perhaps even more strongly.  I think his additions should definitely be part of the page.
