@@ -2,6 +2,11 @@
 [[!include higher category theory - contents]]
 </div>
 
+#Contents#
+
+* automatic TOC goes here
+{:toc}
+
 
 #Idea#
 
@@ -123,7 +128,7 @@ Moreover, every [[derived category]] of an [[abelian category]] is the triangula
 
 Hence stable homotopy theory and homological algebra are both special cases of the theory of stable $(\infty,1)$-categories.
 
-# Alternative models # 
+# Alternative models # {#alternativemodels}
 
 Stable $(\infty,1)$-categories are equivalent to
 
