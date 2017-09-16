@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-03-28
+
+* [[Finn Lawler]]: Created [[linear logic]] -- just a short stub with basic ideas on motivation and models, plus a couple of references.  Comments effusively welcomed.
+
 # 2009-03-27
 
 * [[Mike Shulman|Mike]]:
