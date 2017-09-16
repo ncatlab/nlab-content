@@ -38,7 +38,7 @@ A **category with weak equivalences** is a [[category]] $C$ equipped with a [[su
 * which satisfies "two-out-of-three": for $f, g$ any two composable morphisms of $C$, if two of $\{f, g, g \circ f\}$ are in $W$, then so is the third.
 
 
-### Refinements
+## Examples and refinements
 
 Often categories with weak equivalences are equipped with further extra structure that helps with computing the [[simplicial localization]], the [[homotopy category]] and [[derived functor]]s. 
 
@@ -51,16 +51,6 @@ Often categories with weak equivalences are equipped with further extra structur
 * In a [[model category]] there are both of these additional auxiliary classes of morphisms with special interrelation between them.
 
 
-
-
-## Purpose 
-
-The idea is that $C$ is a presentation of a [[higher category theory|higher category]] with higher morphisms, and that the weak equivalences are those morphisms which would become true [[equivalence]]s in this higher category.
-
-This higher category may be reconstructed by Dwyer-Kan localization as an $(\infty,1)$-[[(infinity,1)-category|category]].
-
-Alternatively, we may further project to the 1-category in which all weak equivalences become true [[isomorphism]]s: this is the [[homotopy category]] of $C$ with respect to $W$.
-
 ## Remarks 
 
 * If we denote by $Core(C)$ the maximal subgroupoid of $C$, then we have a chain of inclusions
@@ -71,6 +61,17 @@ $.
 * Sometimes it is useful to ask further closure properties of the weak equivalences.  One such is the "2-out-of-6" property (if $g f$ and $h g$ are weak equivalences, then so are $f$, $g$, $h$, and $h g f$) in which case one speaks of a [[homotopical category]].  Another such is closure under [[retract|retracts]] in the [[arrow category]] of $C$.  Both are satisfied automatically by any [[model category]].
 
 * Many categories with weak equivalences can be equipped with the further structure of a [[model category]]. On the other hand, some categories with weak equivalences can _not_ be equipped with a useful structure of a model category.  In particular, categories of diagrams in a model category do not always inherit a useful model structure.  Several concepts exist that weaken the axioms of a model category in order to still obtain useful results in such a case -- for instance a [[category of fibrant objects]].
+
+
+
+## Presentation of $(\infty,1)$-categories
+
+A category $C$ with weak equivalences serves as a presentation of an [[(∞,1)-category]] $\mathbf{C}$ with the same objects and at leaast the 1-morphisms of $C$, and such that every weak equivalence in $C$ becomes a true equivalence (a [[homotopy equivalence]]) in $\mathbf{C}$.
+
+The procedure (or one of its equivalent variants) that constructs the [[(∞,1)-category]] $\mathbf{C}$ from the category with weak equivalences $C$ is called Dwyer-Kan [[simplicial localization]].
+
+
+Alternatively, we may further project to the 1-category in which all weak equivalences become true [[isomorphism]]s: this is the [[homotopy category]] of $C$ with respect to $W$. Equivalently this is the [[homotopy category of an (∞,1)-category]] of $\mathbf{C}$.
 
 [[!redirects 2-out-of-3 property]]
 [[!redirects two-out-of-three property]]
