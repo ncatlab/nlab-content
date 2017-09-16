@@ -3,10 +3,7 @@
 
 A [[topological space]] $X$ is **paracompact** if every open [[cover]]ing $U$ has a [[refinement]] by an open covering $V$ that is _locally finite_, i.e. such that every point has a neighbourhood that intersects only finitely many open subsets in $V$ .
 
-Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as well; the issues here are the same as those for [[compact space]]s.
-
-
-For paracompact spaces, [[numerable open cover|numerable open covers]] are cofinal in all open covers.
+Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as well; the issues here are the same as those for [[compact space]]s.  In particular, a __paracompactum__ is a paracompact Hausdorff space.
 
 
 # Examples #
@@ -20,9 +17,38 @@ For paracompact spaces, [[numerable open cover|numerable open covers]] are cofin
 
 * manifolds
 
-  * a finite-dimensional [[manifold]] is paracompact precisely if it is [[second-countable space|second countable]]
+  *  finite-dimensional manifolds are locally compact, but we also have some converses:
 
-  *  and precisely if it is [[metric space|metrizable]]
+     * a finite-dimensional Hausdorff topological [[manifold]] is paracompact precisely if it is [[metric space|metrizable]]
+
+     * a finite-dimensional [[connected space|connected]] Hausdorff topological manifold (actually, it can have up to [[countable set|countably]] many components) is paracompact precisely if it is [[second-countable space|second countable]]
+
+     * a finite-dimensional Hausdorff topological manifold is paracompact precisely if each component is second-countable
+
+   * infinite-dimensional manifolds are generally not locally compact, but we still have some results:
+
+     * The [[Frechet manifold]] of smooth loops of a compact finite dimensional manifold is paracompact 
+
+
+     * More generally, if $E$ is the sequential [[limit]] of separable Hilbert spaces $H_n$, such that the canonical projections
+       $$
+         p_n : E \to H_n
+       $$
+       satisfy
+       $$
+         closure(p_n^{-1}(B)) = p_n^{-1}(closure(B))
+       $$
+
+       for any open ball $B$ in $H_n$, then $E$ is paracompact, and so is any manifold modelled on $E$. Such a manifold is called an _[[ILH-manifold]]_, $E$ is an _[[ILH-space]]_. In particular, [[Hilbert manifold|Hilbert manifolds]] are paracompact.
+
+       ( _Bry_ , section I.4)
+
+       +-- {: .query}
+       [[Urs Schreiber]]: don't we need some extra assumption here? Otherwise why wouldn't this imply  that every space modeled on $\mathbb{R}^n$ is paracompact, while it is only the second-countable such that are?
+
+       _Toby_:  Probably Brylinski has a requirement of metrisability or something.
+       =--
+
 
 * metric spaces
 
@@ -46,46 +72,23 @@ For paracompact spaces, [[numerable open cover|numerable open covers]] are cofin
 
     (this is due to Smirnov)
 
-* infinite dimensional manifolds
-
-  * The [[Frechet manifold]] of smooth loops of a compact finite dimensional manifold is paracompact 
-
-
-  * More generally, if $E$ is the sequential [[limit]] of separable Hilbert spaces $H_n$, such that the canonical projections
-    $$
-      p_n : E \to H_n
-    $$
-    satisfy
-    $$
-      closure(p_n^{-1}(B)) = p_n^{-1}(closure(B))
-    $$
-
-    for any open ball $B$ in $H_n$, then $E$ is paracompact, and so is any manifold modelled on $E$. Such a manifold is called an **ILH-manifold**, $E$ is an **ILH-space** . In particular, [[Hilbert manifold|Hilbert manifolds]] are paracompact.
-
-    ( _Bry_ , section I.4)
-
-    +-- {: .query}
-     
-      [[Urs Schreiber]]: don't we need some extra assumption here? Otherwise why wouldn't this imply  that every space modeled on $\mathbb{R}^n$ is paracompact, while it is only the second-countable such that are?
-     
-    =--
-
-
 
 * special cases
 
-  * the [[Sorgenfrey line]] is a good example of a paracompact space that doesn\'t fit into other general classes of paracompact spaces;
+  * the [[Sorgenfrey line]] is a good example of a paracompact space that doesn\'t fit into other general classes of paracompact spaces (in particular, it is not metrisable, locally compact, or a manifold);
 
 * counterexamples
 
-  * the [[long line]] is *not* paracompact, even though it is a [[manifold]] (unless one specifically requires paracompactness of manifolds) but it fails to be [[second-countable space|second-countable]].
+  * the [[long line]] is *not* paracompact, even though it is a [[manifold]] (unless one specifically requires paracompactness of manifolds) but it fails to be [[second-countable space|second-countable]] (even though it is connnected) or metrisable.
 
 
 # Properties #
 
-* __Dieudonne's theorem__: Every paracompact Hausdorff space is [[normal space|normal]]. A __paracompactum__ is by definition any paracompact Hausdorff space. 
+* __Dieudonne's theorem__: Every paracompact Hausdorff space is [[normal space|normal]].
 
 * every paracompact finite-dimensional [[manifold]] has a [[partition of unity]]
+
+* For paracompact spaces, [[numerable open cover|numerable open covers]] are cofinal in all open covers.
 
 ## cohomology of paracompact spaces ##
 
