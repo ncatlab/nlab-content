@@ -1,3 +1,6 @@
+
+> needs to be merged with [[infinitesimal path infinity-groupoid in a smooth topos]]
+
 # Idea #
 
 Recall from the discussion at [[path infinity-groupoid]] that to a [[manifold]] $X$ we may naturally associated its smooth path $\infty$-groupoid $\Pi(X)$ [[models for infinity-stack (infinity,1)-toposes|modeled by]] the simplicial [[smooth space]] or smooth singular simplicial complex $X^{\Delta^\bullet_{Diff}}$ which in degree $k$ is the smooth space of maps from the standard smooth $k$-simplex $Delta^k_{Diff} \subset \mathbb{R}^k$ to $X$.
