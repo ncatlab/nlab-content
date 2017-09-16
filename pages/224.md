@@ -91,13 +91,13 @@ We consider the field $k$ to be a pre-gvs with $(k)_0 = k$, and $(k)_p =0$ if $p
 
 A linear map $f :V\to W$ between pre-gvs is _of degree $p$_ if $f(V_q) \subseteq W_{p+q}$ for all $q$. (Note this may also occur as $f(V^q) \subseteq W^{q-p}$.)
 
-A _morphism_ $f : V\to W$ is a linear map of degree zero. Pregraded vector spaces and the morphisms between them define the category ${pre-GVS}$.
+A _morphism_ $f : V\to W$ is a linear map of degree zero. Pregraded vector spaces and the morphisms between them define the category ${pre GVS}$.
 
 The set of all linear maps of degree $p$ from $V$ to $W$ will be denoted $Hom_p(V,W)$ and we set 
 
 $$Hom(V,W) = \bigoplus_p Hom_p(V,W).$$
 
-Of course, we now have two notations for the same object, ${pre\!-\!GVS}(V,W) = Hom_0(V,W)$.
+Of course, we now have two notations for the same object, ${pre GVS}(V,W) = Hom_0(V,W)$.
 
 **Suspension**
 
@@ -150,9 +150,9 @@ $s^{-1}(\#V) = \#s(V)$.  These identifications are via the rules:
 
 $$\begin{aligned}
 \langle s^{-1}z;su\rangle &= (-1)^{|z|} \langle z;u \rangle,\\
-\langle sz;s^{-1}u  \rangle &= (-1)^{|z|+1}\langle z;u \rangle.\end{aligned}$$
+\langle s z;s^{-1}u  \rangle &= (-1)^{|z|+1}\langle z;u \rangle.\end{aligned}$$
 
-This sign convention is needed to ensure that $ss^{-1} = id$.
+This sign convention is needed to ensure that $s s^{-1} = id$.
 
 
 
