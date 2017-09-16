@@ -2,7 +2,7 @@ An $n$-poset is any of several concepts that generalize [[partial order|posets]]
 
 # Definition
 
-Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict you wish. Then an __$n$-poset__ is an $\infty$-category such that all parallel pairs of $j$-morphisms are [[equivalence|equivalent]] for $j \geq n$. Thus, up to equivalence, there is no point in mentioning anything beyond $n$-morphisms, not even whether two given parallel $n$-morphisms are equivalent. This definition makes sense as low as $n = -1$; the statement that parallel $(-1)$-morphisms are equivalent simply means that there exists an object (a $0$-morphism).
+Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict you wish. Then an __$n$-poset__ is an $\infty$-category such that all [[parallel morphisms|parallel]] pairs of $j$-morphisms are [[equivalence|equivalent]] for $j \geq n$. Thus, up to equivalence, there is no point in mentioning anything beyond $n$-morphisms, not even whether two given parallel $n$-morphisms are equivalent. This definition makes sense as low as $n = -1$; the statement that parallel $(-1)$-morphisms are equivalent simply means that there exists an object (a $0$-morphism).
 
 # Special cases
 * The concept of $(-1)$-[[(-1)-poset|poset]] is trivial.
