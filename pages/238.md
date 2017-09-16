@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-18 #
 
+* [[Urs Schreiber|Urs]]
+
+  * filled in the definition at [[simplicial homotopy]] together with an intentionally pedestrian proof that simplicial homotopy in a Kan complex is an equivalence relation
+
+  * slightly polished the "remarks" section at [[simplicial set]]
+
 * [[Todd Trimble|Todd]]: 
 
   * wrote [[measurable space]], including material on measures and basic integration theory. 
