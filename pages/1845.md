@@ -39,7 +39,7 @@ $$
   U \mapsto Core(VectBund(U))
 $$
 
-that sends each smooth test space $U$ (a smooth manifold, say), to [[gropupoid]] of smooth [[vector bundle]]s over $U$ with [[bundle]] [[isomorphism]]s betweem them. We regard here a vector bundle $V \to U$ as a smooth $U$-parameterized family of vector spaces (the [[fiber]]s over each point) and thus as a smooth _probe_ or _plot_  of the category $Core(Vect)$.
+that sends each smooth test space $U$ (a smooth manifold, say), to [[groupoid]] of smooth [[vector bundle]]s over $U$ with [[bundle]] [[isomorphism]]s betweem them. We regard here a vector bundle $V \to U$ as a smooth $U$-parameterized family of vector spaces (the [[fiber]]s over each point) and thus as a smooth _probe_ or _plot_  of the category $Core(Vect)$.
 
 The [[nonabelian cohomology]] theory with coefficients in $\mathbf{Vect}$ has no [[cohomology group]]s, but at least cohomology [[monoid]]s
 
@@ -63,7 +63,7 @@ $$
   [(n,m)] = [(n+r, m+r)] \;\; \forall r \in \mathbb{N}
 $$
 
-one can similarly look at equivalence classes of pairs $(V,W) \in \mathbf{Vect}(U) \times \mathbb{Vect}(U)$ of [[vector bundle]]s.
+one can similarly look at equivalence classes of pairs $(V,W) \in \mathbf{Vect}(U) \times \mathbf{Vect}(U)$ of [[vector bundle]]s.
 
 This perspective on K-theory was originally realized by Atiyah and Hirzebruch. The resulting cohomology theory is usually called [[topological K-theory]].
 
