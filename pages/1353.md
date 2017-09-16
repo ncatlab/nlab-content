@@ -51,3 +51,4 @@ Further developments are in
 
 * Dominic Verity, _Weak complicial sets Part II: Nerves of complicial Gray-categories_ ([arXiv](http://arxiv.org/abs/math/0604416))
 
+[[!redirects weak complicial sets]]
