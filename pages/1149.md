@@ -111,7 +111,7 @@ but am giving you consistent information about my secret space $X$ are the follo
 
     * there is another [[category]] in the game, namely the [[category]] called [[Set]] whose [[object]]s are [[set]]s and whose [[morphism]]s are functions between sets;
 
-    * the probe-game which we are playing can hence be understood as being an assignment of [[object]]s in [[Top]] to [[object]]s in [[Set]] and to [[morphism]]s in [[Top]] to [[morphism]]s in [[Set]] which satisfies the above consistency coditions: this is called a [[contravariant functor|contravariant]] [[Set]]-valued [[functor]] or a [[presheaf]] on [[Top]] and it is denoted $X(-) : Top^{op} \to Set$. That's just terminology for nothing but what we have been describing above.
+    * the probe-game which we are playing can hence be understood as being an assignment of [[object]]s in [[Set]] to [[object]]s in [[Top]] and of [[morphism]]s in [[Set]] to [[morphism]]s in [[Top]] which satisfies the above consistency conditions: this is called a [[contravariant functor|contravariant]] [[Set]]-valued [[functor]] or a [[presheaf]] on [[Top]] and it is denoted $X(-) : Top^{op} \to Set$. That's just terminology for nothing but what we have been describing above.
 
  * But there is one further, more nontrivial consistency check on the information about probes of my secret space $X$ which you should do: it must be true that you can piece together the information which I give for small test spaces to deduce information about probes by bigger test spaces.
 
@@ -152,7 +152,7 @@ it obeys the above three consistency rules;
 
 * Since we are thinking of sheaves $F_X : S^{op} \to Set$ and $F_Y : S^{op} \to Set$ as characterizing 'generalized spaces' $X$ and $Y$, we had better have a good notion of maps between sheaves $F_X \to F_Y$ which correspondonds to a sensible notion of maps $X \to Y$ between generalized spaces.  
 
-* That's easy to figure out: if $f : X \to Y$ is supposed to be a map between generalizeed spaces, whatever these are, then in particular it turns every probe $p \in X(U)$, of $X$ which we are thinking of as a probe map $p : U \to X$, to a probe $f \circ p \in Y(U)$ of $Y$, which we should think of as the composite map $f \circ p : U \stackrel{p}{\to} X \stackrel{f}{\to} Y$ that simply maps the image of $U$ in $X$ further to an image of $U$ in $Y$ using the map $f : X \to Y$.
+* That's easy to figure out: if $f : X \to Y$ is supposed to be a map between generalized spaces, whatever these are, then in particular it turns every probe $p \in X(U)$, of $X$ which we are thinking of as a probe map $p : U \to X$, to a probe $f \circ p \in Y(U)$ of $Y$, which we should think of as the composite map $f \circ p : U \stackrel{p}{\to} X \stackrel{f}{\to} Y$ that simply maps the image of $U$ in $X$ further to an image of $U$ in $Y$ using the map $f : X \to Y$.
 
 so in terms of their collections (sheaves) of probes a map $f : X \to Y$ of generalized spaces should be given for each probe space $U$ by a map of sets of probes
 $f_U : X(U) \to Y(U)$;
@@ -165,10 +165,10 @@ and
 $V \stackrel{p_2}{\to} X \stackrel{f}{\to} Y$ must be  similarly be related;
 
 this means that the map 
-$X(V) \stackrel{f_V}{\to} X(V) \stackrel{\phi^*}{\to} Y(V)$
+$X(V) \stackrel{f_V}{\to} Y(V) \stackrel{\phi^*}{\to} Y(U)$
 which first turns a $V$-probe of $X$ into a $V$-probe of $Y$ and then turns the result into a $U$-probe of $Y$, must coincide with the map
-$X(V) \stackrel{\phi^*}{\to} X(U) \stackrel{f_U}{\to}$
-which first turns a $V$-propbe of $X$ into a $U$-probe of $X$ and then turns the result into a $V$-probe of $Y$.
+$X(V) \stackrel{\phi^*}{\to} X(U) \stackrel{f_U}{\to} Y(U)$
+which first turns a $V$-probe of $X$ into a $U$-probe of $X$ and then turns the result into a $U$-probe of $Y$.
 
 Such an equality between two different composite maps is conveniently depicted as a square
 
@@ -198,7 +198,7 @@ Such a collection of data is called a [[natural transformation]] between the pro
 
 * With this understanding of maps between generalized spaces in hand, we should go back and compare it to the notion of _probes_ of generalized spaces by ordinary spaces.
 
-  * we had started the discussion with observing that every ordinary topological space $X$ defines a [[sheaf]] of probes by the assignment $U \mapto X(U) := \{maps from U to X\}$ =: Maps(U,X).
+  * we had started the discussion with observing that every ordinary topological space $X$ defines a [[sheaf]] of probes by the assignment $U \mapsto X(U) := \{maps from U to X\}$ =: Maps(U,X).
 
   * this way every ordinary space is a generalized space, of course;
 
@@ -210,7 +210,7 @@ Such a collection of data is called a [[natural transformation]] between the pro
 
     * if  these two notions of maps don't coincide, then the whole picture of generalized spaces so far runs into inconsistencies!
 
-    * luckily it doesn't, as one can check. Both notions of maps, while defined differently, happen to be perfectly equivalent. This statement is a simple exercise to prove, and still is the fudnamental fact which makes the important idea of generalized spaces works -- this fact is called the [[Yoneda lemma]]: it says that
+    * luckily it doesn't, as one can check. Both notions of maps, while defined differently, happen to be perfectly equivalent. This statement is a simple exercise to prove, and still is the fundamental fact which makes the important idea of generalized spaces works -- this fact is called the [[Yoneda lemma]]: it says that
 $
   MapsOfOrdinarySpaces(U,X) =: X(U) = MapsOfGeneralizedSpaces(U,X)
 $
@@ -230,7 +230,7 @@ $$
   \,.
 $$
 
-If $Y = U$ happens to be an ordinary spaces, then $X(U)$ consistently and equivalently denotes both: the collection of probes of $X$ by the ordinary space $U$, and the collection of maps of $U$ into $X$, with $U$ regarded as a generalized space itself.
+If $Y = U$ happens to be an ordinary space, then $X(U)$ consistently and equivalently denotes both: the collection of probes of $X$ by the ordinary space $U$, and the collection of maps of $U$ into $X$, with $U$ regarded as a generalized space itself.
 
 (This notation is for instance used in the book [[Categories and Sheaves]], see page 25.)
 
@@ -250,12 +250,12 @@ is not just a set, but a [[topological space]] of maps $U \to X$.
 So we should be looking at sheaves with values in topological spaces.
 
 * There is only one thing we need to take care of, then: since a 
-topological spaces ia a bit more flexible than a plain set, 
+topological spaces is a bit more flexible than a plain set, 
 we should be a bit careful about when two sheaves $U \mapsto X(U)$
 with values in topological spaces are to be regarded as
 equal for all practical purposes: recall that $X(U)$ is
 to be thought of as the space of all ways of mapping a probe
-space $U$ into a space $X$. Its not the single points (maps) in this
+space $U$ into a space $X$. It's not the single points (maps) in this
 space which matter so much, but they way they hang together. 
 
   * All "ways of hanging together" in a topological space $X(U)$
@@ -321,7 +321,7 @@ of $Z'$ by $X$ and by $Y$ is a homotopy equivalence.
 at cohomology groups of spaces $X$ by mapping $X$ into other spaces.
 We noticed that there is in general interesting information about
 $X$ which cannot be gained by mapping it into an ordinary topological
-spaces. Starting from this we have now arrived at a more general notion 
+space. Starting from this we have now arrived at a more general notion 
 of space, called a higher sheaf or an $\infty$-stack.
 
 * So let's state for the record that we succeeded: we will say now for 
