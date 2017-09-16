@@ -342,7 +342,9 @@ By abuse of language one sometimes says for $G$
 to be an extension of $K$ what leads to strange expression that not every
 Abelian extension (as extension -- in terms of the definition above) is Abelian (as a group).
 
-###Comparing different extensions;  2-coboundaries
+
+
+###Comparing different extensions;  2-coboundaries {#2Coboundaries}
 
 Let us now investigate when two extensions
 $G_1$ and $G_2$ of $B$ by $K$,
