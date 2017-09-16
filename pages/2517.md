@@ -4,18 +4,19 @@
 </div>
 
 
-#Contents#
+# Kock--Lawvere axiom
 
 * automatic table of contents goes here
 {:toc}
 
-#Idea# 
 
-The Kock-Lawvere axiom is the crucial axiom for the theory
+## Idea
+
+The Kock--Lawvere axiom is the crucial axiom for the theory
 of [[synthetic differential geometry]].
 
 Imposed on a [[topos]] equipped with an [[internalization|internal]] [[algebra]] 
-object $R$ over an internal [[ring]] object $k$, the Kock-Lawvere axiom says essentially that morphisms 
+object $R$ over an internal [[ring]] object $k$, the Kock--Lawvere axiom says essentially that morphisms 
 $D \to R$ from the
 [[infinitesimal space|infinitesimal interval]] $D \subset R$ into $R$ are necessarily _linear_
 maps, in that they always and uniquely extend to linear maps $R \to R$.
@@ -25,14 +26,15 @@ allows to identify the [[tangent bundle]]
 $T X \to X$ of a space $X$ with its fiberwise linearity
 by simply the [[internal hom]] object $X^D \to X$.
 
-Put the other way round, the Kock-Lawvere axiom axiomatizes the 
-familiar statement that "to first order every function is linear".
+Put the other way round, the Kock--Lawvere axiom axiomatizes the 
+familiar statement that "to first order every [[smooth map]] is linear".
 
-# Details #
 
-## KL-axiom for the infinitesimal interval ##
+## Details
 
-The plain Kock-Lawevere axiom on a [[ring]] object $R$ in a [[topos]] $T$
+### KL axiom for the infinitesimal interval
+
+The plain Kock--Lawevere axiom on a [[ring]] object $R$ in a [[topos]] $T$
 is that for $D = \{x \in R| x^2 = 0\}$ the [[infinitesimal space|infinitesimal interval]]
 the canonical map
 
@@ -48,7 +50,8 @@ $$
 
 is an [[isomorphism]].
 
-## KL-axiom for spectra of internal Weil algebras ##
+
+### KL axiom for spectra of internal Weil algebras
 
 We  can consider the [[internalization|internal]] $R$-algebra object
 $R \oplus \epsilon R := (R \times R, \cdot, +)$ in $T$, whose underlying object is
@@ -67,7 +70,7 @@ $$
 The element $q \in D \subset R$, $q^2 = 0$ corresponds to the algebra homomorphism
 $(a,d) \mapsto a + q d$.
 
-Using this, we can rephrase the standard Kock-Lawvere axiom by saying that the
+Using this, we can rephrase the standard Kock--Lawvere axiom by saying that the
 canonical moprhism
 
 $$
@@ -76,8 +79,7 @@ $$
 
 is an [[isomorphism]].
 
-Notice that $(R \oplus \epsilon R)$ is a Weil algebra:
-
+Notice that $(R \oplus \epsilon R)$ is a [[Weil algebra]]:
 +--{.query}
 Zoran: Who calls this Weil algebra ? Why ? Besides, $R$ is just a ring, not a field, hence word finite-dimensional is not appropriate (finite rank is OK). 
 
@@ -86,15 +88,12 @@ Zoran: Who calls this Weil algebra ? Why ? Besides, $R$ is just a ring, not a fi
 I am not sure how general this terminology is. See also the new entry [[smooth topos]].
 
 But you are right certainly about the ring/field thing. I have corrected that now above by saying that $R$ is an algebra over a ring object $k$.
-
 =--
-
-
 an $R$-algebra
 that is finite dimensional and whose underlying [[ring]] is a local ring, i.e.
 of the form $W = R \oplus m$, where $m$ is a maximal nilpotent ideal inite dimensional over $R$.
 
-Then the general version of the Kock-Lawvere axiom for all Weil algebras says that
+Then the general version of the Kock--Lawvere axiom for all Weil algebras says that
 
 For all Weil algebra objects $W$ in $T$ the canonical morphism
 
@@ -103,3 +102,8 @@ $$
 $$
 
 is an [[isomorphism]].
+
+
+[[!redirects Kock--Lawvere axiom]]
+[[!redirects Kock–Lawvere axiom]]
+[[!redirects Kock Lawvere axiom]]
