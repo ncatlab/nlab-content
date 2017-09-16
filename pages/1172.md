@@ -4,7 +4,7 @@ A __Cauchy space__ is a set $S$ together with a collection of [[filter]]s declar
 1. If $F$ and $G$ are Cauchy and $F \cap G$ is proper, then $F \cap G$ is Cauchy;
 1. Every Cauchy filter is proper.
 
-The set of Cauchy filters is almost a filter of subsets of the set of proper filters (another tongue twister), except that $F \cap G$ need not contain a Cauchy filter if it\'s not proper.
+The set of Cauchy filters is almost a filter of subsets of the set of proper filters (sort of a tongue twister), except that $F \cap G$ need not contain a Cauchy filter if it\'s not proper.
 
 The morphisms of Cauchy spaces are the Cauchy functions; a function $f$ between Cauchy spaces is __Cauchy__ if $f(F)$ is Cauchy whenever $F$ is.  In this way, Cauchy spaces form a category $Cauchy$.
 
@@ -15,3 +15,7 @@ Every Cauchy space is a [[convergence space]]; $F \to x$ if the intersection of 
 A Cauchy space $S$ is __totally bounded__ (or __precompact__) if every proper filter is contained in a Cauchy filter.  Equivalently (assuming the Boolean prime ideal theorem), $S$ is totally bounded iff every ultrafilter is Cauchy.
 
 A Cauchy space is compact (as a convergence space) if and only if it is both complete and totally bounded.
+
+# References #
+
+Eva Lowen-Colebunders (1989). Function Classes of Cauchy Continuous Maps. Dekker, New York, 1989.
