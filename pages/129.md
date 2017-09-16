@@ -2,8 +2,6 @@
 
 * [[ericforgy:HomePage|Personal nLab Area]]
 * [[ericforgy:Eric Forgy|Short bio]]
-* [essays](http://www.rushessay.com)
-
 
 [[An Exercise in Groupoidification]]
 
