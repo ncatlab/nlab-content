@@ -34,10 +34,15 @@
 
   * [[conformal field theory]]
   * [[gauge theory]]
-    * [[electromagnetic field]]
-    * [[Kalb-Ramond field]]
-    * [[supergravity C-field]]
-    * [[RR field]]
+    * [[field strength]]
+    * [[gauge fixing]]
+    * Examples
+      * [[electromagnetic field]]
+      * [[Kalb-Ramond field]]
+      * [[supergravity C-field]]
+      * [[RR field]]
+      * [[D'Auria-Fre formulation of supergravity]]
+      * [[gravity as a BF-theory]]
   * [[sigma-model]]
 
     * [[Dijkgraaf-Witten theory]]
