@@ -26,6 +26,8 @@ Compare the notion of [[locally partially ordered category]].  A partially order
 
 The name "inverses" doesn't really seem appropriate, since they are not (necessarily) inverses in the sense with which that word is generally used in category theory.  They could be, of course, but most interesting dagger categories are not groupoids.
 
+[[VictorPorton|Victor]]: So suggest me how to rename "category with inverses". I have not yet published (only put on my Web site) the article where I define "category with inverses". So it is yet not late to rename. My email: porton@narod.ru.
+
 Preservation of identities is automatic once you have an involution that preserves binary composition.
 $$
 1_x^\dagger = 1_x^\dagger \circ 1_x = 1_x^\dagger \circ (1_x^\dagger)^\dagger = (1_x^\dagger \circ 1_x)^\dagger = (1_x^\dagger)^\dagger = 1_x.
@@ -46,6 +48,8 @@ require (for any morphisms $f$ and $g$)
 
 +--{: .query}
 [[Mike Shulman|Mike]]: I'm not sure what examples you have in mind, but you may be interested in reading about the theory of allegories and categories of [[relation]]s.
+
+Answer: I have in mind categories in which arise the notion of _generalized continuity_: see [Generalized Continuity](http://www.mathematics21.org/binaries/continuousness.pdf) article at my [Algebraic General Topology site](http://www.mathematics21.org/algebraic-general-topology.html). Allegories seem not the best tool I could use, because I don't use intersections but am more interested in union of morphisms.
 =--
 
 See more in [this online article](http://www.mathematics21.org/binaries/ordered-cats-with-inv.pdf). Feel free to copy the information from this my article to nLab wiki.
