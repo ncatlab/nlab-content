@@ -66,7 +66,7 @@ is obtained from a [[groupoidification|pull-push-operation]] on the objects of $
 
 This picture arises  naturally and is maybe best understood in terms of [[FQFT]]s that arise as [[sigma-model]]s, namely which are [[representable functor|represented]] by a _target space_ object $P$:
 
-assume that $P$ is some kind of generalized space (which will usually mean: an [[(infinity,1)-sheaf]], see [[heuristic introduction to sheaves, cohomology and higher stacks]] for motivation of this point) and regard the manifolds $\Sigma$ as special cases of generalized manifolds.
+assume that $P$ is some kind of generalized space (which will usually mean: an [[(infinity,1)-sheaf]], see [[motivation for sheaves, cohomology and higher stacks]] for motivation of this point) and regard the manifolds $\Sigma$ as special cases of generalized manifolds.
 
 Writing $[- , P]$ for the [[closed monoidal category|internal hom]] in the given context, every [[cobordism]] [[cospan]] is sent to a [[span]]
 
@@ -172,7 +172,7 @@ Recall that the goal of **geometric $\infty$-function theory** is
 
 * to establish a good [[higher category theory|higher categorical]] version of linear algebra ("integral transform" = "higher matrix multiplication"!)
 
-* such that interesting classes of [[sigma-model]] [[FQFT|extended TQFTs]] $Z_P$ are [[representable functor|represented]] by [[heuristic introduction to sheaves, cohomology and higher stacks|generalized spaces]] $P$ 
+* such that interesting classes of [[sigma-model]] [[FQFT|extended TQFTs]] $Z_P$ are [[representable functor|represented]] by [[motivation for sheaves, cohomology and higher stacks|generalized spaces]] $P$ 
 
   * in that the "higher linear map" $Z_P(\Sigma)$ assigned by the [[FQFT|QFT]] to a [[cobordism]] [[cospan]] $\array{ && \Sigma \\ & \nearrow && \nwarrow \\ \Sigma_{in} &&&& \Sigma_{out}}$ is given by the [[span]] $\array{ && [\Sigma,P] \\ & \swarrow && \searrow \\ [\Sigma_{in},P] &&&& [\Sigma_{out}, P]}$.
 
@@ -234,7 +234,7 @@ There are several reasons for
 
 in the present context, the main one being that they allow to make precise the ideas summarized in the
 
-* [[heuristic introduction to sheaves, cohomology and higher stacks]].
+* [[motivation for sheaves, cohomology and higher stacks]].
 
 
 In principle one will want to eventually understand [[geometric function theory]] in the context of more general [[higher category theory]], in particular for [[(infinity,n)-category|(infinity,n)-categories]], but a great deal is already gained by just (hah!) looking at [[(infinity,1)-category|(infinity,1)-categories]] -- not the least because (only) for them a working well-developed full theory exists at the moment, developed by [[Andre Joyal]] and further developed by [[Jacob Lurie]]:
