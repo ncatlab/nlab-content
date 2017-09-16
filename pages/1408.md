@@ -6,7 +6,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 A _structured [[(∞,1)-topos]]_ is a generalization of a [[ringed space]] or rather of a [[ringed site]]: 
 a generalized [[space]] equipped with a *[[structure sheaf]]* taking values in generalized [[quantity|quantities]]. 
@@ -94,7 +94,7 @@ We now describe the theory of structure sheaves encoded in topos-valued co-presh
 * [[Jacob Lurie]], _Structured spaces_ ([arXiv](http://arxiv.org/abs/0905.0459))
 
 
-#Definition#
+## Definition
 
 Let $S$ be a [[geometry (for structured (infinity,1)-toposes)|geometric]], i.e. essentially  an $(\infty,1)$-[[site]], i.e. some small [[(∞,1)-category]] equipped with a [[coverage]], and let $Sh(S)$ be the [[(∞,1)-topos]] of [[(∞,1)-category of (∞,1)-sheaves]] on $S$. 
 
@@ -141,7 +141,7 @@ $$
 $$
 
 is a $V$-**structure** on $Sh(S)$ or 
-$V$-**structure sheaf** on $S$ if it respects gluing in $V$ in that for $\{u_i \to v\}_i$ a collection of admissable morphisms in $V$ that generates a covering [[sieve]], the induced map
+$V$-**[[structure sheaf]]** on $S$ if it respects gluing in $V$ in that for $\{u_i \to v\}_i$ a collection of admissable morphisms in $V$ that generates a covering [[sieve]], the induced map
 
 $$
   \coprod_i O_X(u_i) \to O_X(v)
@@ -164,9 +164,9 @@ Notice that in words following the above introduction this just says that we req
 
 
 
-# Examples #
+## Examples
 
-## ordinary ringed spaces ##
+### Ordinary ringed spaces
 
 It may be worthwhile to retell the motivating example in the "Idea" introduction above for the maybe more familiar case of ordinary (1-categorical) structure sheaves with values in (unital) rings.
 
@@ -202,7 +202,7 @@ $$
 =--
 
 
-## derived ringed spaces ##
+### Derived ringed spaces
 
 Now formulate the previous example according to the above definition:
 
@@ -229,7 +229,7 @@ see also
 * [[generalized scheme]]
 
 
-## derived smooth manifolds ##
+### Derived smooth manifolds 
 
 ([StrSh, example 4.5.2](http://arxiv.org/abs/0905.0459))
 
@@ -259,7 +259,7 @@ $$
 
 possible. They describe **[[derived smooth manifolds]]** as described in [DerSmooth](http://math.berkeley.edu/~dspivak/thesis2.pdf).
 
-#References#
+## References
 
 The general theory is developed in
 
