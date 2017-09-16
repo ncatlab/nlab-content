@@ -1,7 +1,7 @@
 #Idea#
 
 
-The _homotopy cogerent nerve_  (also called _simplicial nerve of simplicial categories_ ) is a [[nerve]] operation of [[simplicially enriched category|simplicially enriched categories]] which sends an [[SimpSet|SSet]]-[[enriched category]] to a [[simplicial set]].
+The _homotopy cogerent nerve_ (also called _simplicial nerve_) of a [[simplicial category|simplicially enriched categories]] is its [[nerve]] as a [[simplicial set]].
 
 #Definition#
 
