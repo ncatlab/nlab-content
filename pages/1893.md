@@ -6,6 +6,8 @@ $\Lambda$-rings are usually called $\lambda$-rings.
 [[John Baez]]: There are vastly more approachable ways of defining the concept of $\lambda$-ring.  Please, someone, type one in!  Hazewinkel's article below steers a nice middle ground between grunge and sophistication.
 =--
 
+When people talk of $\lambda$-rings they usually mean [special $\lambda$-rings](SpecialLambdaRing).
+
 ##Idea##
 
 In many situations, we can take [[direct sum]]s of [[representation]]s of some algebraic gadget.  So, decategorifying, the set of isomorphism classes of representations becomes a [[commutative monoid]]. But nobody likes commutative monoids: we all have an urge to subtract.  So, we throw in formal negatives and get an [[abelian group]] --- the so-called [[Grothendieck group]].
