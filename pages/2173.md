@@ -100,8 +100,7 @@ Table 1 is a truth table for the sixteen boolean functions of type $f : \mathbb{
 
 <table align="center" border="1" cellpadding="4" markdown="1">
 
-<caption><font size="+2">
-$\text{Table 1.} \:\: \text{Logical Boundaries and Their Complements}$
+<caption><font size="+2"> $\text{Table 1.} \:\: \text{Logical Boundaries and Their Complements}$
 </font></caption>
 
 <td>
@@ -109,15 +108,12 @@ $\array{
 \arrayopts{
 \collines{solid}
 \rowlines{none solid none none solid none none none none none none none solid none}}
-\mathcal{L}_1
-&amp; \mathcal{L}_2
-&amp; \mathcal{L}_3
-&amp; \mathcal{L}_4
+\mathcal{L}_1 &amp; \mathcal{L}_2 &amp; \mathcal{L}_3 &amp; \mathcal{L}_4
 \\
-\text{Decimal Index}
-&amp; \text{Binary Index}
-&amp; \phantom{mmm} \text{Truth Table} \phantom{mmm}
-&amp; \phantom{mmm} \text{Cactus Form} \phantom{mmm}
+\phantom{mmm} \text{Decimal Index} \phantom{mmm} &amp;
+\phantom{mmm} \text{Binary Index} \phantom{mmm} &amp;
+\phantom{mmm} \text{Truth Table} \phantom{mmm} &amp;
+\phantom{mmm} \text{Cactus Form} \phantom{mmm}
 \\
 &amp; \cellopts{\colalign{right}} p:
 &amp; 1 \: 1 \: 1 \: 1 \: 0 \: 0 \: 0 \: 0
@@ -224,26 +220,27 @@ In addition, each point of $\mathbb{B}^k$ is the unique point in the __fiber of 
 
 For example, consider two cases at opposite vertices of the $k$-cube:
 
-*  The point $(1, 1, \ldots, 1, 1)$ with all $1$s as coordinates is the point where the conjunction of all posited variables evaluates to 1, namely, the point where:
+* The point $(1, 1, \ldots, 1, 1)$ with all $1$'s coordinates is the point where the conjunction of all posited variables evaluates to 1, namely, the point where:
 
-   : $x_1   x_2  \cdots  x_{k-1}   x_k  =  1$
-*  The point $(0, 0, \ldots, 0, 0)$ with all $0$s as coordinates is the point where the conjunction of all negated variables evaluates to 1, namely, the point where:
+$$x_1 x_2 \ldots x_{k-1} x_k \; = \; 1$$
 
-   : `(`$x_1$`)(`$x_2$`)`$\cdots$`(`$x_{k-1}$`)(`$x_k$`)`$ =  1$
+* The point $(0, 0, \ldots, 0, 0)$ with all $0$'s coordinates is the point where the conjunction of all negated variables evaluates to 1, namely, the point where:
 
-To pass from these limiting examples to the general case, observe that a singular proposition $s : \mathbb{B}^k \to \mathbb{B}$ can be given canonical expression as a conjunction of literals, $s = e_1   e_2  \cdots  e_{k-1}   e_k$.  Then the proposition $\nu(e_1, e_2, \ldots, e_{k-1}, e_k)$ is $1$ on the points adjacent to the point where $s$ is 1, and $0$ everywhere else on the cube.
+$$\text{&#x2997;} x_1 \text{&#x2998;&#x2997;} x_2 \text{&#x2998;} \ldots \text{&#x2997;} x_{k-1} \text{&#x2998;&#x2997;} x_k \text{&#x2998;} \; = \; 1$$
 
-For example, consider the case where $k = 3$.  Then the minimal negation operation $\nu(p, q, r)$ --- written more simply as `(p, q, r)` --- has the following venn diagram:
+To pass from these limiting examples to the general case, observe that a singular proposition $s : \mathbb{B}^k \to \mathbb{B}$ can be given canonical expression as a conjunction of literals, $s = e_1 e_2 \ldots e_{k-1} e_k$.  Then the proposition $\nu(e_1, e_2, \ldots, e_{k-1}, e_k)$ is $1$ on the points adjacent to the point where $s$ is 1, and $0$ everywhere else on the cube.
+
+For example, consider the case where $k = 3$.  Then the minimal negation operation $\nu(p, q, r)$, written more simply as $\text{&#x2997;} p \text{&#xFE50;} q \text{&#xFE50;} r \text{&#x2998;}$, has the following venn diagram:
 
 ![Venn Diagram (p,q,r)](http://mywikibiz.com/images/1/11/Venn_Diagram_%28P%2CQ%2CR%29.jpg)
 
-Figure 2.  `(p, q, r)`
+Figure 2.  $\text{&#x2997;} p \text{&#xFE50;} q \text{&#xFE50;} r \text{&#x2998;}$
 
-For a contrasting example, the boolean function expressed by the form `((p),(q),(r))` has the following venn diagram:
+For a contrasting example, the boolean function expressed by the form $\text{&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;&#x2997;} q \text{&#x2998;&#xFE50;&#x2997;} r \text{&#x2998;&#x2998;}$ has the following venn diagram:
 
 ![Venn Diagram ((p),(q),(r))](http://mywikibiz.com/images/a/a8/Venn_Diagram_%28%28P%29%2C%28Q%29%2C%28R%29%29.jpg)
 
-Figure 3.  `((p),(q),(r))`
+Figure 3.  $\text{&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;&#x2997;} q \text{&#x2998;&#xFE50;&#x2997;} r \text{&#x2998;&#x2998;}$
 
 # Glossary of basic terms #
 
@@ -257,7 +254,7 @@ Figure 3.  `((p),(q),(r))`
 
 *  This means that the $k$ objects $x_j$ for $j$ = $1$ to $k$ are just so many boolean functions $x_j : \mathbb{B}^k \to \mathbb{B}$, subject to logical interpretation as a set of _basic propositions_ that generate the complete set of $2^{2^k}$ propositions over $\mathbb{B}^k$.
 
-*  A __literal__ is one of the $2k$ propositions $x_1, \ldots, x_k, $`(`$ x_1 $`)`$, \ldots, $`(`$ x_k $`)`, in other words, either a _posited_ basic proposition $x_j$ or a _negated_ basic proposition `(`$ x_j $`)`, for some $j$ = $1$ to $k$.
+*  A __literal__ is one of the $2k$ propositions $x_1, \ldots, x_k, \text{&#x2997;} x_1 \text{&#x2998;}, \ldots, \text{&#x2997;} x_k \text{&#x2998;}$, in other words, either a _posited_ basic proposition $x_j$ or a _negated_ basic proposition $\text{&#x2997;} x_j \text{&#x2998;}$, for some $j$ = $1$ to $k$.
 
 *  In mathematics generally, the __fiber__ of a point $y$ under a function $f : X \to Y$ is defined as the inverse image $f^{-1}(y)$.
 
@@ -276,7 +273,9 @@ Figure 3.  `((p),(q),(r))`
 *  A __singular conjunction__ in $(\mathbb{B}^k \to \mathbb{B})$ is a conjunction of $k$ literals that includes just one conjunct of the pair $\{ x_j,   \nu(x_j) \}$ for each $j$ = $1$ to $k$.
 
 *  A singular proposition $s : \mathbb{B}^k \to \mathbb{B}$ can be expressed as a singular conjunction:
+
    $$s = e_1 \, e_2 \, \cdots \, e_{k-1} \, e_k$$
+
    where $e_j = x_j$ or $e_j = \nu(x_j)$ for $j = 1$ to $k$
 
 # External links #
