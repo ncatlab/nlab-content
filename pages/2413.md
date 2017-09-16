@@ -58,7 +58,11 @@ This latest development on this is in
 
 * [[Stephan Stolz]], [[Peter Teichner]], _Super symmetric field theories and integral modular forms_ ([pdf](http://www.nd.edu/~stolz/SusyQFT.pdf))
 
-> **warning** [[Urs Schreiber|I]] am being told that this is by now outdated and to be replaced by an improved version, wich however is apparently not available yet
+> **warning** [[Urs Schreiber|I]] am being told that this is by now outdated and to be replaced by an improved version, which however is apparently not available yet
 
+
+[[!redirects geometric models for elliptic cohomology]]
+[[!redirects geometric model for tmf]]
 [[!redirects geometric models for tmf]]
+[[!redirects geometric model for TMF]]
 [[!redirects geometric models for TMF]]
