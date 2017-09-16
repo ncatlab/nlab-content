@@ -3,6 +3,10 @@
 </div>
 
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Category theory and foundations#
 
 There are two big questions about category theory and the logical foundations of mathematics:
@@ -119,6 +123,12 @@ In contrast, many of the optional or controversial axioms of set theory (such as
 #Other topics#
 
 * There is also [[algebraic set theory]].
+
+# effect of foundations on concrete problems #
+
+It may seem on first sight that foundational questions in mathematics are remote from "real mathematics". This is not quite so. For a list of "real world" problems that do depend on foundations see
+
+* [[effects of foundations on "real" mathematics]]
 
 #Blog discussion#
 
