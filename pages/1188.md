@@ -6,7 +6,7 @@ An _accessible_ $(\infty,1)$-category is one which may be [[large category|large
 
 # Definition #
 
-Let $\kappa$ be a [[cardinal number|regular cardinal]]. An [[(∞,1)-category]] $C$ is **accessible** if it satisfies the following equivalence conditions
+Let $\kappa$ be a [[cardinal number|regular cardinal]]. An [[(∞,1)-category]] $C$ is **accessible** if it satisfies the following equivalent conditions
 
 * $C$ is equivalent to the $(\infty,1)$-category  $Ind_\kappa(C^0)$ of [[ind-object in an (infinity,1)-category|ind-objects]] for small $C^0$;
 
