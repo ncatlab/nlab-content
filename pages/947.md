@@ -1,8 +1,10 @@
 The __complement__ of a [[subset]] $S$ of a set $X$ is the set
 $$
-\tilde{S} = \{ a \: X \;|\; a \notin S \}
+\tilde{S} = \{ a \in X \;|\; a \notin S \}
 .$$
-Notice that $S \cap \tilde{S} = \empty$, while $S \cup \tilde{S} = X$ by [[excluded middle]].  (There are many other notations, such as $\bar{S}$, $-S$, and so forth.)
+There are many other notations, such as $X - S$, $\bar{S}$, $-S$, and so forth.
+
+Notice that $S \cap \tilde{S} = \empty$, while $S \cup \tilde{S} = X$ by the principle of [[excluded middle]].  
 
 The __complement__ of an element $S$ of a [[lattice]] is (if it exists) the unique element $\tilde{S}$ such that $S \wedge \tilde{S} = \bot$ and $S \vee \tilde{S} = \top$.  Such complements always exist in a [[Boolean algebra]].
 
