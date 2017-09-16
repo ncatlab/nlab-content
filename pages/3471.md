@@ -165,9 +165,10 @@ This is [[Higher Topos Theory|HTT 6.3.4.1]]
 
 =--
 
-
-
 If the [[(∞,1)-topos]] is a [[locally contractible (∞,1)-topos]] then this is an [[essential geometric morphism]].
+
+The composite [[(∞,1)-functor]] $\Gamma \circ LConst$ is the [[shape of an (∞,1)-topos|shape of]] $\mathbf{H}$.
+
 
 
 [[!redirects global sections]]
