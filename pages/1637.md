@@ -1,10 +1,10 @@
-A **simplicial homotopy** is a [[homotopy]] in the classical [[model structure on simplicial sets]].
+A **simplicial homotopy** is a [[homotopy]] in the classical [[model structure on simplicial sets]]. It can also be defined combinatorially; in that form one can define a homotopy 2-cell between morphisms of simplicial objects in any category $C$. 
 
-#Definition#
+#Definition via cylinder#
 
-[[SSet]] has a [[cylinder functor]] given by [[cartesian monoidal category|cartesian]] product with the standard 1-[[simplex]] $I := \Delta^1$. 
+[[SSet]] has a [[cylinder functor]] given by [[cartesian monoidal category|cartesian]] product with the standard 1-[[simplex]] $I := \Delta^1$. In fact, one can define cylinder $X\times\Delta^1$ more generally, for example for $X$ being a simplicial object in an [[abelian category]] $A$. 
 
-Therefore for $f,g : X \to Y$ two morphisms of [[simplicial set]]s, a [[homotopy]] $\eta : f \Rightarrow g$ is a morphism $\eta : X \times \Delta^1 \to Y$ such that the diagram
+Therefore for $f,g : X \to Y$ two morphisms of [[simplicial set]]s, or of simplicials object in an abelian category $A$, a [[homotopy]] $\eta : f \Rightarrow g$ is a morphism $\eta : X \times \Delta^1 \to Y$ such that the diagram
 
 $$
   \array{
@@ -22,11 +22,27 @@ $$
   }
 $$
 
-commutes.
+commutes. 
 
-#Remarks#
+Remark: Since in the standard [[model structure on simplicial sets]] every simplicial set is cofibrant, this indeed defines left homotopies.
 
-* Since in the standard [[model structure on simplicial sets]] every simplicial set is cofibrant, this indeed defines left homotopies.
+**Combinatorial definition** 
+
+Given morphisms $f,g,:X\to Y$ of simplicial objects in any category $C$, a __simplicial homotopy__ is a family of morphisms $\eta_n:X_n\to Y_{n+1}$ $n = 0,1,2,\ldots$, such that $d_0 h_0 = f$, $d_{n+1} \eta_n = g$ and
+
+$$ d_i h_j = \left\lbrace\array{
+\eta_{j-1}d_i, & i\lt j \\
+d_i \eta_{i-1}, &i=j\neq 0\\
+\eta_j d_{i-1}, & i\gt j+1.
+}\right.$$
+
+$$ s_i h_j = \left\lbrace\array{
+\eta_{j+1} s_i, & i\le j\\
+\eta_j s_{i-1}, & i\gt j.
+}\right.$$
+
+One can prove that the combinatorial definition of homotopy agrees with the one via cylinder both for simplicial sets and for simplicial obejct in an abelian category $C  = A$.
+In the case of the category of (not necessarily abelian) groups, the combinatorial definition equals the one via cylinder only if the role of "cylinder" for a group $G$ is played by a simplicial object in the category of groups which in degree $n$ equals the free product of $(n+2)$ copies of $G$, indexed by the set $(\Delta^1)_n$ (noted by Swan and quoted in exercise 8.3.5 of Weibel: _Homological algebra_).
 
 #Properties#
 
@@ -132,7 +148,12 @@ Finally we use the fact that [[SSet]] is a [[cartesian closed category]] to dedu
 
 =--
 
++-- {: .un_proposition}
+###### Proposition
 
+Let $A$ be an abelian category and $f,g : X\to Y$ homotopic morphisms in $A$. Then the induced maps $f_*, g_* : N(X)\to N(Y)$ of their normalized chain complexes are chain homotopic. 
+
+=--
 
 #References#
 
