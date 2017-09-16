@@ -13,3 +13,9 @@ Similarly, a **locally finite category** is a category [[enriched category|enric
 # Limits and colimits
 
 One is often interested in whether an arbitrary category $D$ has [[limit]]s and [[colimit]]s indexed by finite categories.  A category with all finite limits is called **[[finitely complete category|finitely complete]]** or **left exact** (or **lex** for short).  A category with all finite colimits is called **finitely cocomplete** or **right exact**.
+
+# Quiver #
+
+**This section may not be correct and needs review.**
+
+For any finite category $C$, there is a [[directed graph]] $G$ such that its [[quiver]] $Q(G)$ is equivalent to $C$.
