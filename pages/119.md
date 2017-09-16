@@ -127,3 +127,7 @@ _Toby_:  Well, I guess that I\'ll move things around then.  We can still discuss
 
 
 [[!redirects proset]]
+[[!redirects preordered set]]
+[[!redirects preorders]]
+[[!redirects prosets]]
+[[!redirects preordered sets]]
