@@ -151,4 +151,6 @@ Note: See also an article I wrote while ago:
 
 <a href="http://phorgyphynance.wordpress.com/2008/02/10/visualizing-market-risk-a-physicists-perspective/">Visualizing Market Risk: A Physicists Perspective</a>
 
+This shows, geometrically, why the minimum variance solution is also the solution that splits the original into orthogonal pieces.
+
 category: reference
