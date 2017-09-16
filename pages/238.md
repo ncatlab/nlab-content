@@ -14,7 +14,22 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-22 #
 
+* [[Urs Schreiber|Urs]] linked to [[normal complex of groups]] by a little lemma now added to [[Moore complex]]
+
+* [[Tim Porter]] added [[normal complex of groups]]
+
 * [[Urs Schreiber|Urs]]:
+
+  * worked on [[simplicial group]]:
+
+    * added section about the adjunction between simplicial groups and simplicial sets, in particular mentioning the free simplicial abelian group functor (since that plays a role in the proof at [[abelian sheaf cohomology]], which now links to it)
+
+
+    * moved statement and proof that every simplicial group is a Kan complex into a formal theorem-proof environment
+
+    * added references to Goerss-Jardine, to [[Tim Porter]]'s [[Tim Porter:crossed menagerie|Crossed Menagerie]] and to Peter May's book "Simplicial objects in algebraic topology"
+
+    * added an "Idea" section 
 
   * added to [[Moore complex]]
 
