@@ -1,3 +1,25 @@
+#Definition#
+
+An **additive category** is a category 
+
+* is an [[Ab-enriched category]]
+(sometimes called a [[pre-additive category]]) 
+
+* which admits finite [[product]]s (and hence finite [[coproduct]]s).
+
+
+#Examples#
+
+* An especially important sort of additive category is an [[abelian category]].
+
+
+***
+
+[[Urs Schreiber|Urs]]: the following is more material and more discussion that was present in a previous version of this entry. I tried to clean this up a bit by writing the above and by moving material to [[Ab-enriched category]] with a remark on terminology at [[pre-additive category]].
+
+***
+
+
 An **preadditive category** (sometimes just called *additive*) is a category [[enriched category|enriched]] over [[abelian group]]s with their [[tensor product]].  In elementary terms, this means that each [[hom-set]] is an abelian group and composition is bilinear.
 
 +-- {+ .query}
@@ -14,4 +36,3 @@ In a preadditive category, any [[initial object|initial]] or [[terminal object|t
 
 An **additive category** is a preadditive category in which all finite biproducts exist; by the previous paragraph, it\'s enough to say either that finite products exist or that finite coproducts exist.  But originally (and often still) this requirement is not included in the term 'additive'.
 
-An especially important sort of additive category is an [[abelian category]].
