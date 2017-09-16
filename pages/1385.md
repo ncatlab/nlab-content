@@ -11,7 +11,7 @@ $$
   \,,
 $$
 
-which thereby defines a [[tensor product]] of presentable $(\infty,1)$-categories. This defines a [[monoidal (infinity,1)-category|monoidal structure]] on presentable $(\infty,1)$-categories, which is in fact [[symmetric monoidal (infinity,1)-category|symmetric]]. 
+which thereby defines a [[tensor product of presentable (∞,1)-categories]]. This defines a [[monoidal (infinity,1)-category|monoidal structure]] on presentable $(\infty,1)$-categories, which is in fact [[symmetric monoidal (infinity,1)-category|symmetric]]. 
 
 The collection of presentable $(\infty,1)$-cateories with colimit-preserving [[(infinity,1)-functor]]s between them (i.e. with "*linear*" functors between them!), called
 
