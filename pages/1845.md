@@ -1,6 +1,6 @@
 # Idea #
 
-Given a [[stable (infinity,1)-category]] $C$, its [[decategorification]] 
+Given a [[stable (infinity,1)-category]] $C$, its [[decategorification]]  $\infty$
 
 $$
   K_0(C) = \{equivalence \,classes\; [c]\; of \,objects \,c \in C\}
@@ -14,7 +14,7 @@ $$
   a \to x \to c
 $$ 
 
-a fibration sequence (i.e. a homotopy exact sequence) the abelian group operation
+a [[fibration sequence]] (i.e. a homotopy exact sequence) the abelian group operation
 
 $$
   + : K_0(C) \times K_0(C) \to K_0(C)
@@ -27,7 +27,9 @@ $$
   \,.
 $$
 
-The group $K_0(C)$ is called the **K-group** of $C$. The "K" is chosen by Grothendieck for the German word _Klasse_ for "class". The K-group of $C$ is the group of equivalence classes of $C$: it is a group due to the existence of a notion of exact sequences in $C$.
+The group $K_0(C)$ is called the **K-group** of $C$ or the [[Grothendieck group]] of $C$. See in particular the latter entry for more details.
+
+The "K" is chosen by Grothendieck for the German word _Klasse_ for "class". The K-group of $C$ is the group of equivalence classes of $C$: it is a group due to the existence of a notion of exact sequences in $C$.
 
 K-theory starts with the study of these K-groups and their higher analogues. Sometimes the K-groups themseles are called "K-theory". One would say for instance: "$K(C)$ is the K-theory of $C$."
 
@@ -109,6 +111,8 @@ $$
 
 # Related entries #
  
+* [[Grothendieck group]]
+
 * [[K-theory spectrum]]
 
 * [[topological K-theory]]
