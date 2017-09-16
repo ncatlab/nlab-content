@@ -5,7 +5,9 @@
 
 #Idea#
 
-The notion of quasi-category is a [[geometric definition of higher category]] which relaxes the [[Kan complex|Kan condition]] on a simplicial set.
+The notion of quasi-category is a [[geometric definition of higher category]] that relaxes the [[Kan complex|Kan condition]] on a simplicial set.
+
+Just as a [[Kan complex]] is a model in terms of [[simplicial set]]s of [[infinity-groupoid]]s, also called an [[(infinity,0)-category]], a [[quasi-category]] is a model in terms of [[simplicial set]]s of an [[(infinity,1)-category]].
 
 
 #Definition#
@@ -70,6 +72,6 @@ Their importance as a basis for [[category theory]] has been emphasized in the w
 
 Jacob Lurie developed the theory of quasi-categories in
 
-* Jacob Lurie, [[Higher Topos Theory]] ([arXiv](http://arxiv.org/abs/math/0608040))
+* [[Jacob Lurie]], [[Higher Topos Theory]] ([arXiv](http://arxiv.org/abs/math/0608040))
 
-in order to discuss [[infinity-stack]]s.
+in order to discuss the theory of [[(infinity,1)-topos]]es of [[infinity-stack]]s.
