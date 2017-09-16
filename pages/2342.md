@@ -1,3 +1,10 @@
+#Contents#
+
+* tic
+{:toc}
+
+#Idea#
+
 Classically, an elliptic curve is a connected Riemann surface (a connected compact 1-dimensional complex manifold) of genus 1. The curious term "elliptic" is a remnant from the 19th century, a back-formation which refers to elliptic functions (generalizing circular functions, i.e., the classical trigonometric functions) and their natural domains as Riemann surfaces. 
 
 In more modern frameworks, an elliptic curve over a field $k$ may be defined as a complete irreducible non-singular algebraic curve of genus 1 over $k$, or even as a certain type of algebraic group scheme. Elliptic curves have many remarkable properties, and their deeper arithmetic study is one of the most profound subjects in present-day mathematics. 
@@ -68,3 +75,9 @@ Elliptic curves, via their [[formal group law]]s, give the name to [[elliptic co
 See also
 
 * [[A Survey of Elliptic Cohomology - formal groups and cohomology]]
+
+#References#
+
+an introduction to elliptic curves is at
+
+* [[A Survey of Elliptic Cohomology - elliptic curves]]
