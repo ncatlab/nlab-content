@@ -1,3 +1,12 @@
+<div class="rightHandSide toc">
+[[!include stable homotopy theory - contents]]
+
+***
+
+[[!include higher algebra - contents]]
+</div>
+
+
 A _ring spectrum_ is a [[monoid]] in the [[stable homotopy category]] $Ho(\mathcal{S})$ equipped with the [[smash product of spectra]].
 
 This means that a ring spectrum is a monoid in the category $\mathcal{S}$ of [[spectrum|spectra]] up to not-necessarily coherent [[homotopy]].
@@ -10,4 +19,4 @@ Not every ring spectrum may be refined to an $A_\infty$-ring spectrum.
 
 see the references at [[stable homotopy theory]], for instance
 
-* A. Elmendord, I. Kriz, [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+* A. Elmendorf, I. Kriz, [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
