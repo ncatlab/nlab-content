@@ -6,4 +6,6 @@ A **connection** can mean
 
 * [[connection on a bundle]]
 
+* [[Grothendieck connection]]
+
 [[!redirects connections]]
