@@ -51,7 +51,7 @@ One of the earliest articles that make the differential cohomological nature of 
 
 * Dan Freed, E. Witten, _Anomalies in String Theory with D-Branes_ ([arXiv](http://arxiv.org/abs/hep-th/9907189))
 
-which uses [[Cech cohomology]]-[[Deligne cohomology|Deligne]]-cocycles.
+which uses [[Čech cohomology]]--[[Deligne cohomology|Deligne]] cocycles.
 
 
 [[!redirects Kalb--Ramond field]]
