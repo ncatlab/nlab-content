@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-30 #
 
+*  [[Toby Bartels]]:  I don\'t understand $diag$ at [[Atiyah Lie groupoid]].
+
 * [[Urs Schreiber|Urs]]:
 
   * started [[connection on a bundle]] in reply to discussion [here](http://sbseminar.wordpress.com/2009/05/28/local-systems-what-do-you-know-about-connections/#comment-5791) 
