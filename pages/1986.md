@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-18
 
+*  [[Toby Bartels]]:  Comments at [[equipment]] and [[category theory]].
+
 * [[Urs Schreiber]] much as I regret it, I still have complaints -- but also constructive suggestions -- in the discussion at [[category theory]]
 
   and i notice that a long discussion in a query box is getting cumbersome. Maybe we should move that to the blog. 
