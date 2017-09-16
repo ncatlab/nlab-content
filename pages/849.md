@@ -78,3 +78,5 @@ By the way, it's not true that every closed category is [[concrete category|conc
 =--
 
 [[!redirects internal homs]]
+[[!redirects inner hom]]
+[[!redirects inner homs]]
