@@ -4,6 +4,11 @@ T_i f(x) = (\partial_i f)(x) - \Sigma_{\lambda\in R^+} k(\lambda)\frac{f(x)-f(s_
 \lambda_i
 $$
 
+There are also many variants and generalizations of this definition to various setups. 
 Dunkl operators appear in the theory of [Caloger-Moser systems](http://www.scholarpedia.org/article/Calogero-Moser_system) and of the Cherednik (= double affine Hecke) algebras. 
 
 * Ivan Cherednik, _Introduction to double Hecke algebras_ ([arXiv](http://arxiv.org/abs/math/0404307))
+
+* P. Etingof, X. Ma, _On elliptic Dunkl operators_, (http://arxiv.org/abs/0706.2152)
+
+Dunkl operators are named after [Charles Dunkl](http://people.virginia.edu/~cfd5z/).
