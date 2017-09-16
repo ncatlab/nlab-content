@@ -23,5 +23,9 @@ A cospan in the category $C$ is the same as a [[span]] in the [[opposite categor
 
 * [[Cospans in Algebraic Topology]]
 * [[multispan]]
+* the [cograph of a function](http://ncatlab.org/nlab/show/graph+of+a+function#cograph)
+* the [[cograph of a functor]]
 
 [[!redirects cospans]]
+[[!redirects opspan]]
+[[!redirects opspans]]
