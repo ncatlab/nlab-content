@@ -12,10 +12,21 @@ $$
  }
 $$
 
-is, if it exists, the "best approximation" to extending the domain of $F$ through $p$ from $C$ to $C'$.
+is, if it exists, a "best approximation" to extending the domain of $F$ through $p$ from $C$ to $C'$.
 
 
 #Definition#
+
+The following are three equivalent definitions
+
+* Kan extension as the adjoint to pullback of functor categories;
+
+* Kan extension in terms of a universal natural transformation;
+
+* Kan extension in terms of weighted (co)limits.
+
+
+## As adjoint to pullback of functor categories ##
 
 The functor $p : C \to C'$ induces, by precomposition, a functor between [[functor category|functor categories]]
 $$
@@ -34,52 +45,86 @@ $$
   \,.
 $$
 
+## In terms of universal natural transformations ##
 
-#More details#
-
-
-Precomposition with $p$ yields a pullback functor
-on [[functor category|functor categories]]
-$$
- p^* : [E,D] \to [C,D]
- \,.
-$$
-
-* The image $Ran F := L_{p^*}$ of $F$ under the [[left adjoint]]
-$L_{p^*}$ of $p^*$ is the **right Kan extension** of $F$.
-
-* The image $Lan F := R_{p^*}$ of $F$ under the [[right adjoint]]
-$R_{p^*}$ of $p^*$ is the **left Kan extension** of $F$.
-$$
-  \array{
-    C &&\stackrel{F}{\to}& D
-    \\
-    \downarrow & \Downarrow& \nearrow_{Lan F}
-    \\
-    E
-  }
-$$
+The left Kan extension $Lan F$ of $F : C \to D$ is the functor $Lan F : C' \to D$ such that there exists a [[natural transformation]] $\eta_F : F \Rightarrow p^* Lan F$
 
 $$
   \array{
     C &&\stackrel{F}{\to}& D
     \\
-    \downarrow & \Uparrow& \nearrow_{Ran F}
+    \downarrow^p & \Downarrow^{\eta_F} & \nearrow_{Lan F}
+    \\
+    C'
+  }
+$$
+
+with the property that every other natural transformation
+$F \Rightarrow p^* G$ factors uniquely through $\eta_F$ as
+
+$$
+  \array{
+    C &&\stackrel{F}{\to}& D
+    \\
+    \downarrow^p & \Downarrow & \nearrow_{G}
+    \\
+    C'
+  }
+  \;\;\;
+  =
+  \array{
+    C &&\stackrel{F}{\to}&& D
+    \\
+    \downarrow^p & \Downarrow^{\eta_F} 
+    & \nearrow_{Lan F} &
+    \Downarrow & \downarrow^{=}
+    \\
+    C' &&\stackrel{G}{\to}&& D
+  }
+  \,.
+$$
+
+Similarly for the right Kan extension, with the direction of the natural transformations reversed:
+
+$$
+  \array{
+    C &&\stackrel{F}{\to}& D
+    \\
+    \downarrow^p & \Uparrow^{\epsilon_F}& \nearrow_{Ran F}
     \\
     E
   }
 $$
 
-
+## In terms of weighted (co)limits ##
 
 (...)
 
+# Definition in $(\infty,1)$-categories #
+
+See [section 4.3, p. 215](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=215) of [[Higher Topos Theory]].
+
+
+#Examples#
+
+* For $C' = $ the [[point]], the right Kan extension of $F$ is the [[limit]] of $F$, $Ran F \simeq \lim F$ and the left Kan extension is the [[colimit]] $Lan F \simeq colim F$.
+
+
+
+
 #References#
 
-Chapter 4 of
+See for instance section 2.3 in 
+
+* Kashiwara and Shapira, [[Categories and Sheaves]]
+
+For the context of [[enriched category theory]] see 
+chapter 4 of
 
 * G.M. Kelly, _Basic Concepts of Enriched Category Theory_, 
  Cambridge University Press, Lecture Notes in Mathematics 64, 1982,  Republished in:
 Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
+The $(\infty,1)$-categorical discussion is in 
 
+J. Lurie, [[Higher Topos Theory]]
