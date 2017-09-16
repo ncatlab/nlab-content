@@ -16,7 +16,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
-  * after checking with [[Mike Shulman|Mike]] added details of the definition of homotopy limits in terms of weighted limits in the [[SSet]]-enriched context to [[weighted limit]]; also edited accordingly the section _local definition_ at [[homotopy limit]].
+  * after checking with [[Mike Shulman|Mike]] added details of the definition of homotopy limits in terms of weighted limits in the [[SSet]]-enriched context to [[weighted limit]]; also edited accordingly the section _local definition_ at [[homotopy limit]] and created a section on weighted limits at [[representable functor]]
 
 # 2009-02-24
 
