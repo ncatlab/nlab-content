@@ -1,0 +1,4 @@
+
+So far we just have an entry on
+
+* [[localization of a simplicial model category]]
