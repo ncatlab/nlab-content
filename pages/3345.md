@@ -10,4 +10,4 @@ The is a [[model category]] structure on the [[category]] $[\Box^{op},Set]$ of [
 
 ## References
 
-* Jardine, _Model structure on cubical sets_ ([pdf](http://hopf.math.purdue.edu/Jardine/cubical2.pdf)])
+* Jardine, _Model structure on cubical sets_ ([pdf](http://hopf.math.purdue.edu/Jardine/cubical2.pdf))
