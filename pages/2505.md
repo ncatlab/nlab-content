@@ -488,4 +488,487 @@ $$
   Pic(\mathcal{M}_{1,1}) \simeq \mathbb{Z}/12\mathbb{Z}
 $$
 
-> so... to be continued
+# topological invariants of the moduli stack # 
+
+Since the upper half plane is contractible, the homotopy type of $\mathfrak{h}//\mathbb{Z}_2$ are the same as that of $* // \mathbb{Z}_2$ and similarly for the (group)cohomology
+
+$$
+  H^\bullet(\mathcal{M}_{1,1}, \mathbb{Z})
+  = H\bullet(SL_2(\mathbb{Z}), \mathbb{Z})
+$$
+
+
+and similalry for homology.
+
+In particular
+
+$$
+  H_1(\mathcal{M}_{1,1}, \mathbb{Z})
+  \simeq
+  SL_2(\mathbb{Z})^{ab} \simeq \mathbb{Z}/12\mathbb{Z}
+$$
+
+for all $m \in \mathbb{N}$ then
+
+$$
+  1 \to SL_2(\mathbb{Z})[m]
+  \to 
+  SL_2(\mathbb{Z})
+  \to 
+  SL_2(\mathbb{Z}/m \mathbb{Z})
+  \to 
+  1
+$$
+
+so that
+
+$$
+   H^1(\mathcal{M}_{1,1}, \mathbb{Z})
+  =
+  0
+$$
+
+**fact** the group $SL_2(\mathbb{Z})[m]$ is free for $m \gt 2$.
+
+so far all $\mathbb{Q}$-representations $V$ we have
+
+$$
+  H^k(SL_2(\mathbb{Z}), V)
+  \simeq
+  H^l(SL_2(\mathbb{Z}), V)^{SL_2(\mathbb{Z}/m\mathbb{Z})}
+$$
+
+due to the freeness we have also that
+
+$$
+  H^k(SL_2(\mathbb{Z}), V) = 0
+$$
+
+for $k \geq 2$
+
+and hence
+
+$$
+  H^2(SL_2(\mathbb{Z}), \mathbb{Z})
+$$
+
+is [[torsion]]
+
+$$
+  \cdots \simeq
+  Hom(H_1(SL_2(\mathbb{Z}), \mathbb{Z}), \mathbb{Q}/\mathbb{Z})
+  \simeq
+  \mathbb{Z}/12 \mathbb{Z}
+  \,.
+$$
+
+**proposition** 
+
+as [[orbifold]]s, we have an isomorphism
+
+$$
+  \mathcal{M}_{1,1} \simeq
+  X//(S_3 \times C_2)
+$$
+
+where
+
+$$
+  X :=
+\mathbb{P}^1 - \{0,1, \infty\}
+$$
+
+and $S_3$ acts on that by permuting $0,1, \infty$. (Think of $\mathbb{P}^1$ as the [[Riemann sphere]]: there is a unique holomorphic automorphism of that permuting these three points in a given fashion.) While $C_2$ acts trivially.
+
+*proof** 
+
+$$
+  \array{
+   1 \to SL_2(\mathbb{Z})[2]
+   &\to& 
+   SL_2(\mathbb{Z})
+   &\to& 
+   S_3 \simeq SL_2(\mathbb{Z}/2\mathbb{Z})
+   &\to& 
+   1
+   \\
+   &&& {}_{\phi}\searrow& \downarrow
+   \\
+  &&&& PSL_2(\mathbb{Z})
+  }
+$$
+
+now $PSL_2(\mathbb{Z})[2]$ is known to be torsion free. It acts in a standard way on the [[upper half plane]] $\mathfrak{h}$.
+
+A little discussion shows that
+
+$$
+  \mathfrak{h}/PSL_2(\mathb{Z})[2]
+  \simeq
+  X
+$$
+
+this implies that
+
+$$
+  PSL_2(\mathbb{Z})[2]
+  \simeq
+  F_2
+$$
+
+the [[free group]] on two generators. 
+
+Then the second but last map
+
+$$
+  1 \to C_2 \to SL_2(\mathbb{Z})[2]
+  \to 
+  F_2
+  \to 1
+$$
+
+has a [[section]], from which we get that 
+
+$$
+  SL_2(\mathbb{Z})[2]
+  \simeq
+  F_2 \times C_2
+$$
+
+
+and so
+
+$$
+  X//(C_2 \times S_3)
+  \simeq
+  (X//C_2) // S_3
+  \simeq
+  ((\mathfrak{h}// SPL_2(\mathbb{Z})[2])//C_2)//S_3
+  \simeq
+  ((\mathfrak{h}//PSL_2(\mathbb{Z}[2]))//S_3)
+  \simeq
+  \mathfrak{h}/ SL_2(\mathbb{Z})
+$$
+
+which is the **end of the proof**.
+
+**corollary** The [[Euler characteristic]] of the [[moduli stack]] of [[elliptic curve]]s is
+
+$$
+  \chi(\mathcal{M}_{1,1}) = \frac{-1}{12}
+  \,.
+$$
+
+now consider the line bundle
+
+$$
+  \array{
+    \mathbb{C} \times \mathfrak{h}
+    \\
+    \downarrow
+    \\
+     \mathfrak{h}//SL_2(\mathbb{Z}) 
+  }
+$$
+
+with action on the total space for $k \in\mathbb{Z}$
+
+$$
+  \left(
+    \array{
+      a & b \\ c & d
+    }
+  \right)
+  :
+  (z, \tau)
+  \mapsto
+  (c \tau + d)^k z, \frac{a \tau + b}{c \tau + d}
+$$
+
+call this [[line bundle]] on the [[moduli stack]] $\mathcal{L}_k \to \mathcal{M}_{1,1}$. We will see that all line bundles are isomorphic to one of these.
+
+**remark**
+
+$$
+  f : \mathfrak{h} \to \mathcal{C}
+$$
+
+is a [[section]] of $\mathcal{L}_k$ iff
+
+$$
+  f\left(
+    \frac{a \tau + b}{c \tau + d}
+  \right)
+  =
+  (c \tau + d)^k f(\tau)
+$$
+
+hence precisely if it defines a [[modular function]] of weight $k$! This gives a geometric interpretation of modular functions.
+
+$$
+  \array{
+    \mathbb{C} \times \mathfrak{h}
+    \\
+    \downarrow
+     \\
+     \mathfrak{h}
+  }
+$$
+
+and define an action of $G := SL_2(\mathbb{Z}) \letimes \mathbb{Z}^2$
+
+where $\mathbb{Z}^2$ acts on $SL_2(\mathbb{Z})$ by
+
+$$
+  \left(
+    \array{
+       a & b \\ c & d
+    }
+  \right)
+   : (m , n)
+   \mapsto 
+   a m + b m, c m + d n
+$$
+
+and on $\mathbb{C} \times \mathfrak{h}$ by
+
+$$
+  (m, n) : (z,\tau) \mapsto (z + m \tau + n, \tau)
+$$
+
+the resulting bundle 
+
+$$
+  \array{
+    \mathbb{C} \times \mathfrak{h}//G
+    \\
+    \downarrow
+     \\
+     \mathcal{M}_{1,1}
+  }
+$$
+
+
+we call
+
+$$
+  \mathcal{E} \to \mathcal{M}_{1,1}
+$$
+
+**theorem** for any [[complex manifold]] $T$ there is a bijection between families of elliptic curves over $T$ and [[orbifold]] maps $T \to \mathcal{M}_{1,1}$ classify them.
+
+Suppose we have an "isotrivial family" (meaning all fibers are isomorphic elliptic curves, i.e. a fiber bundle of elliptic curves)
+
+$$
+  \array{
+    
+    \\
+    \downarrow
+    \\
+    T &\stackrel{\phi}{\to}& \mathcal{M}_{1,1}
+  }
+$$
+
+recall that the group that defines $T$ as an [[orbifold]] is the first [[homotopy group]] $\pi_1(T)$.
+
+The only condition that we get from the definition of orbifold maps is that
+
+$$
+  \phi : \pi_1(T) \to SL_2(\mathbb{Z})
+$$
+
+factors through the [[stabilizer group]] $\simeq Aut(E_p)$ of our base point $p \in \mathcal{M}_{1,1}$ 
+
+
+
+# compactified moduli stack #
+
+one can see that over _compact_ $T$ with $\mathcal{M}_{1,1}$ we cannot have nontrivial famlies _without_ singular fibers.
+
+To get around that we want a **compactification** $\bar \mathcal{M}_{1,1}$ of the [[moduli stack]].
+
+also fur purposes of intersection theory, we need to further compactify.
+
+
+recall the  description of $\mathcal{M}_{1,1}$ as a weak quotient of $\mathbb{P}^1$.  Then consider:
+
+**definition** 
+
+Let
+
+$$
+  \bar \mathcal{M}_{1,1} := \mathbb{P}^1//(C_2 \times S_3)
+$$
+
+otice that this is now an [[orbifold]] which is no longer _basic_ by the above definition. In fact, we can cover it by charts of basic orbifolds as follows: consider
+
+
+$$
+  \array{
+    && \mathfrak{h}//(C_2 \times \mathbb{Z})
+    \\
+    &  \swarrow && \searrow
+    \\
+    \mathfrak{h}//SL_2(\mathbb{Z})
+    &&&&
+    \mathbb{D}//C_2
+  }
+$$
+
+>with the arrows being maps of orbifolds whose precise details I haven't typed.
+
+then let $\mathbb{D}^*$ be the punctured disk and realize the diagram
+
+$$
+  \array{
+    && \mathbb{D}^*//C_2
+    \\
+    &  \swarrow && \searrow
+    \\
+    \mathcal{M}_{1,1}
+    &&&&
+    \mathbb{D}//C_2
+  }
+$$
+
+where the right morphism is just the inclusion
+
+now we build a chart of $\bar \mathcal{M}_{1,1}$ consisting of the two patches $\mathcal{M}_{1,1}$ and $\mathbb{D}/C_2/$
+
+from this we get the alternative
+
+**definition** 
+
+$$
+  \bar \mathcal{M}_{1,1}
+  :=
+  \mathcal{M}_{1,1} \coprod_{\mathbb{D}^*//C_2}
+  \mathbb{D}//C_2
+$$
+
+
+the [[colimit]] on the right manifestly glues in the "point at infinity" that is not hit by the map $\mathbb{D}^*//C_2 \to \mathcal{M}_{1,1}$.
+
+# Gromov-Witten invariants  #
+
+**definition** A **stable curve** (over $\mathcal{C}$) of genus $g$ with $n$ marked points is a proper, connected curve with $n$ smooth marked points such that all singularities are nodes and such that the the [[automorphism]] group (of autos respecting the smooth marked points) is finite,
+
+$$
+  |Aut(C)| \lt + \infty
+$$
+
+and such that the [[arithmetic genus]] is $g$.
+
+Now $\bat \mathcal{M}_{g,n}$ is the [[fine moduli space]] for smooth curves of genus $g$.
+
+
+There is a [[line bundle]]
+
+$$
+  \mathcal{T}_i^* \to \bar \mathcal{M}_{g,n}
+$$
+
+built fiberwise from the cotangent spaces of the elliptic curves. 
+
+one of them is obtained from one of the $n$ sections $s_i$ of the universal family $\mathcal{F} \to \bar \mathcal{M}_{g,n}$. The fiber over a point is the cotangent space of the elliptic curve over that point at this section.
+
+
+Write for the first [[Chern class]] 
+
+$$
+  c_1(\mathcal{T}_i^*) = \Psi_i
+$$
+
+$$
+  k_1, \cdots, k_n
+  \in \mathbb{Z}_{\geq 0}
+$$
+
+such that 
+
+$$
+  \sum_{i = 1}^n k_i = 3 g - 3 + n
+$$
+
+then we get numbers called the [[Gromov-Witten invariants]] ("of the point")
+
+$$
+  \langle 
+    \tau_{k_1}, \cdots, \tau_{k_n}
+  \rangle_g
+   :=
+  \int_{\bar \mathcal{M}_{1,1}}
+  \prod_{i = 1}^n
+   \Psi_i^{k_i} 
+$$
+
+## example: $\langle \tau_1\rangle_1$ ##
+
+Let $x, y$ by affine coordinates on $\mathbb{P}^2$
+
+Let $f(x,y)$ and $g(x,y)$ be two generic cubics, in particular there are nine joint zeros
+
+$$
+ |\langle (x,y)| f(x,y) = g(x,y) = 0\rangle| = 0
+$$
+
+called $p_1, \cdots, p_9$.
+
+define then
+
+$$
+  F := 
+  \left\lbrace
+    (x,y,t)
+    \in \mathbb{P}^2 \times \mathbb{P}^1
+    :
+    f(x,y) - t g(x,y) = 0
+  \right\rbrace
+$$
+
+and consider
+
+$$
+  \array{
+    F
+    \\
+    \downarrow^{pr_2}
+    \\
+    \mathbb{P}^1
+    &\stackrel{\phi}{\to}&
+    \bar \mathcal{M}_{1,1}
+    \\
+    &\searrow & \downarrow^{q}
+    \\
+    && \bar M_{1,1}
+  }
+$$
+
+That map $q$ has degree $\frac{1}{2}$ (!) since $\mathbb{P}^1 \to \bar \mathcal{M}_{1,1}$ has degree 12
+
+we also find that the diaginal map $\mathbb{P}^1 \to \bar M_{1,1}$ has degree 12. It follows that $\phi$ has degree 24:
+
+$$
+  deg(\phi) = 24
+  \,.
+$$
+
+Now let $\mathcal{T}_i^* \to \bar \mathcal{M}_{g,n}$ be one of these line bundles. Consider the [[pullback]] $\phi^*(\mathcal{T}_1)$
+
+then by some argument not reproduced here we find
+
+$$
+  \int_{\mathbb{P}^1} c_1(\phi^*(\mathcal{T}_1)^*)
+  \,.
+$$
+
+Then since the order of $\phi$ is 24 we find that the first [[Gromov-Witten invariant]] is
+
+$$
+  \langle
+    \tau_1
+  \rangle_1
+  =
+  \frac{1}{24}
+  \,.
+$$
