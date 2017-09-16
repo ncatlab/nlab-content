@@ -1,4 +1,4 @@
-#Idea#
+##Idea##
 
 * A functor is what goes between [[category|categories]].
 
@@ -14,7 +14,7 @@ More precisely, a _functor_ $F$ from a category $C$ to a category $D$ is a map s
 
 Functors are morphisms in the category [[Cat]].
 
-#Internal definition#
+##Internal definition##
 
 [[internalization|Internal to]] an ambient category $A$, a functor $F : C \to D$ is 
 
@@ -75,9 +75,11 @@ $;
   }  
 $.
 
-#Example: Linear Maps#
+However, see [[anafunctor]] for a different approach.
 
-Let $\mathbf{B} End(U)$ and $\mathbf{B} End(V)$ be one-object categories whose objects are finite-dimensional vector spaces and morphisms are linear endomorphisms, i.e. [[endomorphism|full subcategories]] of <nowiki>FinVect</nowiki>.
+##Example: Linear Maps##
+
+Let $\mathbf{B} End(U)$ and $\mathbf{B} End(V)$ be one-object categories whose objects are each finite-dimensional vector space and whose morphisms are all of the linear [[endomorphism]]s on that space, i.e. one-object [[full subcategory|full subcategories]] of $Fin Vect$.
 
 ###Left Inverses###
 
@@ -91,7 +93,7 @@ $$F:\mathbf{B} End(U)\to\mathbf{B} End(V)$$
 
 by defining its action on objects by
 
-$$F(U) = FU$$
+$$F(U) = F U$$
 
 and its action on endomorphisms by
 
@@ -99,15 +101,15 @@ $$F(f) = F f F_L^{-1}.$$
 
 Composition follows immediately
 
-$$F(fg) = F fg F_L^{-1} = F f F_L^{-1} F g F_L^{-1} = F(f) F(g).$$
+$$F(f g) = F f g F_L^{-1} = F f F_L^{-1} F g F_L^{-1} = F(f) F(g).$$
 
 Identity morphisms are preserved since for any vector $y$ in $F(U)\subset V$, then 
 
-$$y = Fx$$
+$$y = F x$$
 
 for some vector $x$ in $U$ and we have
 
-$$F(1_U)y = F\circ F_L^{-1}y = F\circ F_L^{-1}\circ F x = Fx = y$$
+$$F(1_U)y = F\circ F_L^{-1}y = F\circ F_L^{-1}\circ F x = F x = y$$
 
 so that
 
@@ -135,7 +137,7 @@ $$F^{op}(f) = F_R^{-1} f F.$$
 
 Composition follows immediately
 
-$$F(fg) = F_R^{-1} fg F = F_R^{-1} f F F_R^{-1} g F = F(f) F(g).$$
+$$F(f g) = F_R^{-1} f g F = F_R^{-1} f F F_R^{-1} g F = F(f) F(g).$$
 
 Identity morphisms are preserved since for any vector $x$ in $F_R^{-1}(V)\subset U$, then 
 
@@ -150,7 +152,3 @@ so that
 $$F^{op}(1_V) = 1_{F^{op}(V)}$$
 
 as required. Hence, $F^{op}$ is a functor.
-
-#References#
-
-* See also [[anafunctor]].
