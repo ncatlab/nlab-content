@@ -3,3 +3,6 @@
 [wikipedia](http://en.wikipedia.org/wiki/Henri_Cartan)
 
 The proceedings of the famous Cartan's seminar are now online at [numdam](http://numdam.org/numdam-bin/feuilleter?j=SHC&sl=0).
+
+
+category: people
