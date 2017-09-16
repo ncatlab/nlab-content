@@ -1,3 +1,5 @@
 See [[Jim Stasheff]].
 
-category: redirect
+category: delete
+
+[[!redirects jim stasheff - history]]
