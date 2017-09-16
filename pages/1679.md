@@ -34,6 +34,10 @@ _Toby_:  Do you mean for the terminology or for the appropriate coherence laws? 
 
 Incidentally, I corrected 'function' to 'functor' in you question above; I hope that\'s OK.
 
+[[Finn Lawler|Finn]]:  I meant terminology and/or an explanation for arbitrary $n$ (which Urs gives below).
+
+Actually I was thinking of functions rather than functors, as they are the 1-cells in $0-Cat$.  But of course functions are just functors between discrete categories, and thinking of them as the latter probably makes more sense when moving to higher dimensions.
+
 [[Urs Schreiber|Urs]]: the pattern that Finn is looking for is that embodied in the nature of the [[internal hom]] of the [[closed monoidal structure on presheaves]].
 
 In its most general form, consider an [[infinity-category]] modeled as a [[simplicial set]] with certain properties. Being a simplicial set, this is a presheaf on the [[simplex category]]. Hence for $X$ and $Y$ such $\infty$-categories, the $\infty$-category of morphisms between them corresponds to the internal hom simplicial set
@@ -50,7 +54,7 @@ This simple formula encodes that pattern that Finn observed. It says that:
 
 * modifications are maps $X \times \Delta^2 \to Y$, that map $n$-cells in $X$ to $(n+2)$-cells in $Y$.
 
-It may be helpful to realize the same pattern in the globular context of, for instance, [[strict omega-catgeory]]. These are certain presheaves not on the [[simplex category]] but on the [[globe category]], but the pattern is the same: the [[internal hom]] strict $\omega$-category of morphisms between strict $\omega$-categories $X$ and $Y$ is
+It may be helpful to realize the same pattern in the globular context of, for instance, [[strict omega-category]]. These are certain presheaves not on the [[simplex category]] but on the [[globe category]], but the pattern is the same: the [[internal hom]] strict $\omega$-category of morphisms between strict $\omega$-categories $X$ and $Y$ is
 $$
   [X,Y] = Hom_{\omega Cat}(X \otimes G^\bullet , Y)
   \,,
@@ -75,6 +79,7 @@ from $X$ into the "category of cylinders in $Y$". This is maybe the most intuiti
 
 When in a certain mood, I like to think of this basic fact, that $n$-fold transformations between $k$-functors are essentially (in components) $(k-n)$-functors with values in $n$-cylinders as the "holographic principle" in category theory. That may sound a bit silly, but it is true that in the case the $k$-functors in questions are $k$-functors on $Bord_k$ respresenting $k$-dimensional [[quantum field theory]], then teir transformations, being $(k-1)$-functors, represent $(k-1)$-dim QFT, and this relation between higher and lower dim QFT is called "holography" in phyiscs.
 
+[[Finn Lawler|Finn]]:  Cool!  Thanks, Urs.  I might move this section to an article on $n$-[[n-transformation|transformations]] (if that's what they're called) once I get my head around it properly.
 =--
 
 ## References ##
