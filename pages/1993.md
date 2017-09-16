@@ -5,7 +5,7 @@
 
 ## Idea
 
-For $G$ and $H$ two [[2-group]]s, their [[delooping]]s are strict one-object [[2-groupoid]]s $\mathbf{B}G$ and $\mathbf{B}H$ and a general morphism $f : G \to H$ of 2-groups is by definition a morphism 
+For $G$ and $H$ two strict [[2-group]]s, their [[delooping]]s are strict one-object [[2-groupoid]]s $\mathbf{B}G$ and $\mathbf{B}H$ and a general morphism $f : G \to H$ of 2-groups is by definition a morphism 
 
 $$
  \mathbf{B}f : \mathbf{B}G \to \mathbf{B}H
