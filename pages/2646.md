@@ -6,4 +6,7 @@
 
 * [[descent for simplicial presheaves]]
 
+
 [[!redirects Dan Dugger]]
+
+category: people
