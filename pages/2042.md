@@ -2,7 +2,7 @@ In [[Des catégories abéliennes]] Pierre Gabriel introduced an optional propert
 
 __(sup)__ For any ascending chain $\Omega$ of [[subobjects]] of a fixed object $M$, the [[supremum]] of $\Omega$ exists; and, for any subobject $L\hookrightarrow M$, the canonical morphism
 $$
-(sup)\{L\cap P | P\in \Omega\}\to (sup \Omega) \cap L
+sup\{L\cap P | P\in \Omega\}\to (sup \Omega) \cap L
 $$
 is an isomorphism. 
 
