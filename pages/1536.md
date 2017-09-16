@@ -61,6 +61,10 @@ The analog of the Grothendieck construction for [[(infinity,1)-category|(∞,1)-
 
 The correspondence between $(\infty,1)$-categorical [[cartesian fibrations]] $E \to C$ and [[(infinity,1)-presheaf|(∞,1)-presheaves]] $C \to (\infty,1)Cat^{op}$ is [[model category|modeled]] by the [[Quillen equivalence]] between the [[model structure on marked simplicial over-sets]] and the projective [[global model structure on simplicial presheaves]].
 
+For more details see
+
+* [[(∞,1)-Grothendieck construction]]
+
 
 ## Warning on terminology ##
 
@@ -76,4 +80,3 @@ The term 'Grothendieck Construction' is applied in the literature to at least tw
 * [The Homotopy Theory of n-Fold Categories](http://www.math.uchicago.edu/~fiore/1/ThomasonNFoldBeamerSlides.pdf)
 * [Inference System Integration via Logic Morphisms](http://www.kestrel.edu/home/projects/logicware/slides-9806/sld001.htm)
 * [Category Theory for Computing Science](http://www.cwru.edu/artsci/math/wells/pub/ctcs.html)
-* [On the Classification of Topological Field Theories (Draft)](http://www.math.harvard.edu/~lurie/papers/cobordism.pdf) [[Jacob Lurie]]
