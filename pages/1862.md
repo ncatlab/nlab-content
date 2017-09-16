@@ -1,7 +1,7 @@
 
 #Idea#
 
-A _vectorial bundle_ is a $\mathbb{Z}_2$-[[graded vector space|graded vector bundle]] $E$ of possibly infinite rank, equipped with an odd [[endomorphism]] $h : E \to E$. Homomorphisms of vectorial bundles are such that the endomorphism $h$ acts like canceling parts of the even and odd degree of $E$ against each other.
+A _vectorial bundle_ is a $\mathbb{Z}_2$-[[graded vector space|graded vector bundle]] $E$ of finite rank, equipped with an odd [[endomorphism]] $h : E \to E$. Homomorphisms of vectorial bundles are such that the endomorphism $h$ acts like canceling parts of the even and odd degree of $E$ against each other.
 
 This way vectorial bundles lend themselves to the description of [[K-theory]]. In particular, they allow a geometric model for [[twisted K-theory]].
 
