@@ -65,6 +65,8 @@ A detailed discussion of the map from quasi-categories to $SSet$-categories is i
 
 * [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_ ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469))
 
-Also section 1.1.5 of 
+An introduction and overview of the relation between quasi-categories and simplicial categories is in section 1.1.5 of 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
+
+The deatils are in section 2.2
