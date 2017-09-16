@@ -92,5 +92,8 @@ When $A = C$ and $B = D$, this should coincide with the usual definition. If so,
 Then this is a square in the 2-category of categories. Such squares appear in turn as the _components_ of [[lax natural transformation]]s of 2-functors into [[Cat]].
 
 [[Eric]]: Thanks. I was hesitant to put that 2-arrow in there. I'm still learning this stuff and am on shaky ground. But no. That 2-arrow is not supposed to be a natural transformation in the traditional sense because it is not a map between functors with the same domain and codomain. It is tempting to say we might want $\alpha_D\circ F\Rightarrow\alpha_C\circ G$ to be a natural transformation in the traditional sense though.
+
+_Toby_:  That arrow certainly *looks* to me like a $2$-arrow from $\alpha_D\circ F$ to $\alpha_C\circ G$.  Unless it has no particular meaning and is just labelling the entire square as $\alpha\colon F \Rightarrow G$.  In any case, there is the question of what, if anything, goes between $\alpha_D\circ F$ and $\alpha_C\circ G$.  If nothing, then I would call such a thing a __square__ of functors.  If something more interesting, see my answer at [[ericforgy:Natural Transformation]] (which I saw first).
+
  
 [[!redirects natural transformations]]
