@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-02-25
+
+* [[Urs Schreiber|Urs]]
+
+  * after checking with [[Mike Shulman|Mike]] added details of the definition of homotopy limits in terms of weighted limits in the [[SSet]]-enriched context to [[weighted limit]]; also edited accordingly the section _local definition_ at [[homotopy limit]].
+
 # 2009-02-24
 
 * [[Urs Schreiber|Urs]]
