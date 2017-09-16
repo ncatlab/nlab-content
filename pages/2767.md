@@ -13,4 +13,6 @@ Here $1$ is a [[terminal category]] (exactly one object and exactly one morphism
 _Toby_:  I don\'t think that there is.  Sometimes people write it $K_d$, $const_d$, or even just $d$.
 
 [[Mike Shulman]]: $\Delta d$ is fairly common too, I think.
+
+[[Eric]]: As a notational convention, which is most common, $\Delta(d)$ or $\Delta d$? There were a couple instances of $Fj$ that I converted to $F(j)$. Any preference?
 =--
