@@ -6,10 +6,9 @@
 
 ## Idea ##
 
-The collectoin $[S^\bullet,R]$ of $R$-valued functions on a [[simplicial set]] $S^\bullet$ is a commutative [[cosimplicial algebra]]. Under the [[monoidal Dold-Kan correspondence]] it maps to its [[Moore complex]] [[dg-algebra]] $C^\bullet([S^\bullet,R])$: this is the **cochain complex of the simplicial set**.
+The collectoin $[S^\bullet,R]$ of $R$-valued functions on a [[simplicial set]] $S^\bullet$ is a commutative [[cosimplicial algebra]]. Under the [[monoidal Dold-Kan correspondence]] it maps to its [[Moore complex|Moore cochain complex]] $C^\bullet([S^\bullet,R])$ which is a [[dg-algebra]] under the [[cup product]]: this is the **cochain complex of the simplicial set**.
 
-We describe some properties of these cochain dg-algebras coming from simplicial sets
-
+Notably, this cochain complex is an [[E-k operad|E-∞]]-[[algebra over an operad|algebra]]. In [[chain homology and cohomology|cohomology]] it becomes a graded-commutative algebra.
 
 ## Definition ##
 
@@ -51,7 +50,7 @@ $$
   \,.
 $$
 
-This latter point of view is often preferred in the literature when $R[S_\bullet]$ is regarded as the collectoin of _chains_ on $S$ and $[S_\buller,R]$ as that of _cochains_ .
+This latter point of view is often preferred in the literature when $R[S_\bullet]$ is regarded as the collectoin of _chains_ on $S$ and $[S_\bullet,R]$ as that of _cochains_ .
 
 More precisely, we should speak of chains and cochains after applying the [[Moore complex]] functor. Write
 
@@ -128,9 +127,13 @@ The statement for the Eilenbegr-Zilber operad goes back to _HinSch87_ . A good r
 
 ## References ##
 
-The statement that for $S \in$ [[SSet]] a [[simplicial set]], the cochain complex  $C^\bullet([S,R])$ is an [[E-k-operad|E-infinity]] [[algebra over an operad|operad algebra]] apparently goes back to 
+An explicit description of the cochains that express the homotopy-symmetry of the cup product is discussoin from page 30 on of the old
 
-* HinSch87 -- V. Hinich and V. Schechtman, _On homotopy limits of homotopy algebras_, in _K-theory, arithmetic and geometry _, Lecture notes Vol. 1289, Berlin 1987 pp. 240-264 
+* N. Steenrod, [[SteenrodOnCohomologyOperations.pdf:file]], Colloquium lectures (1957)
+
+The modern operad theoretic statement that for $S \in$ [[SSet]] a [[simplicial set]], the cochain complex  $C^\bullet([S,R])$ is an [[E-k-operad|E-infinity]] [[algebra over an operad|operad algebra]] apparently goes back to 
+
+* _HinSch87_ -- V. Hinich and V. Schechtman, _On homotopy limits of homotopy algebras_, in _K-theory, arithmetic and geometry _, Lecture notes Vol. 1289, Berlin 1987 pp. 240-264 
 
 A particularly clear exposition is in
 
@@ -138,13 +141,13 @@ A particularly clear exposition is in
 
 This in turn is nicely reviewed and spelled out in section 3 of 
 
-* May03 -- [[Peter May]], _Operads and sheaf cohomology_ (2003)(unpublished private notes -- but maybe we get permission to upload them here?)
+* _May03_ -- [[Peter May]], _Operads and sheaf cohomology_ (2003)(unpublished private notes -- but maybe we get permission to upload them here?)
 
 These describe actions of the [[Eilenberg-Zilber operad]] on $C^\bullet([S^\bullet,R])$. 
 
 An action of instead the [[Barratt-Eccles operad]] is described in 
 
-* BerFre01 -- [[Clemens Berger]], [[Benoit Fresse]] _Combinatorial operad actions on cochains_ ([arXiv](http://arxiv1.library.cornell.edu/abs/math/0109158v2))
+* _BerFre01_ -- [[Clemens Berger]], [[Benoit Fresse]] _Combinatorial operad actions on cochains_ ([arXiv](http://arxiv1.library.cornell.edu/abs/math/0109158v2))
 
 
 
