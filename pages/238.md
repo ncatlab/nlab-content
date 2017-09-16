@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-01 #
 
+* [[Finn Lawler]]
+
+  * Added some links at [[Gray-adjointness-for-2-categories]] to entries on concepts in the book.  Some of these are to non-existent pages like [[lax natural transformation]].  Do pages on 'elementary' stuff like this belong here on nLab, or should we add them to Wikipedia and link there?
+
 * [[Urs Schreiber|Urs]]
 
   * created new top-level link list [[Higher Algebra]] -- to be filled with content...
