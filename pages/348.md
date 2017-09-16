@@ -254,7 +254,7 @@ But first consider the fiber product from before, now after having applied the [
 
 $$
   \array{
-   Y(U_1) \simes_{Y(V)} Y(U_2) &\to& Y(U_2)
+   Y(U_1) \times_{Y(V)} Y(U_2) &\to& Y(U_2)
    \\
    \downarrow && \downarrow
    \\
@@ -270,7 +270,7 @@ But this is also easily checked explicitly. We go through this because this kind
 
 $$
  \array{
-  Hom(Y(W),Y(U_1) \simes_{Y(V)} Y(U_2))
+  Hom(Y(W),Y(U_1) \times_{Y(V)} Y(U_2))
    &\to& Hom(Y(W),Y(U_2))
   \\
   \downarrow && \downarrow
@@ -285,7 +285,7 @@ Again by the [[Yoneda lemma]] this is simply
 
 $$
  \array{
-  (Y(U_1) \simes_{Y(V)} Y(U_2) )(W)
+  (Y(U_1) \times_{Y(V)} Y(U_2) )(W)
    &\to& 
    Hom(W,U_2)
   \\
