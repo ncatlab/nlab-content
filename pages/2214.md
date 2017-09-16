@@ -27,6 +27,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-01
 
+* [[Andrew Stacey]]: The migrating eagle has landed.
+
+  There will inevitably be hiccoughs, hangups, and hassles.  Please log them over at the [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).  Also, if you notice weird behaviour then there may be an explanation of it over there (just because I know what causes it doesn't mean I've implemented the fix yet).
+
 * [[Urs Schreiber]]
 
   * replied at [[Bousfield localization]]
@@ -39,6 +43,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  [[Rafael Borowiecki]]:
   * Posed a question at [[Timeline of category theory and related mathematics]] regarding a new migration: How do i handle to update most of 1500 links!?
+    * [[Andrew Stacey]]: I've looked for your question and can't find it.  I apologise if it's been lost in the migration, but can you ask it again?  If it's technical, the forum might be a better place to ask it.
   * Suggested that manifold objects should be treated or at least mentioned at [[manifold]].
   * Provided references for my question at [[Bousfield localization]].
   * Split the subsection what is category theory at [[category theory]] into two parts: In the narrow sense and In the wide sense. This makes sense.
@@ -46,7 +51,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * Added what it means for category theory to be a unifying tool and language in mathematics at [[category theory]].
   * Replied to the discussion at [[category theory]].
 
-  I see the migration went well, at least so far. :)
+   I see the migration went well, at least so far. :)
+
+   ([[Andrew Stacey]]: actually, it happened _after_ you posted this, but thanks all the same!
 
 *  [[Toby Bartels]]:  Happy September!!!
 
