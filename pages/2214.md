@@ -51,6 +51,12 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-28
 
+* [[Urs Schreiber]]: 
+
+  * more details at [[generalized scheme]]
+
+  * edited [[derived algebraic geometry]] (a bit structuring by headlines and some paragraphs here and there)
+
 * [[Mike Shulman]]: A reference at [[COSHEP]].
 
 ## 2009-09-27
