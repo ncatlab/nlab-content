@@ -8,15 +8,17 @@ There are several ways to deal with this and define a proper class.
 
 A __proper class__ is a [[large category|large]] [[discrete category]].  But since a large category is usually defined as having a proper class of objects, this just moves the bubble under the wallpaper to 'large category' and something must be applied there.
 
-A __proper class__ is a class that is not a [[set]].  But now we have to define 'class'.
+A __proper class__ is a class that is not a [[set]].  So now we have to define 'class'.
+
+A __proper class__ is a class whose [[cardinal number]] is not the cardinal number of any set.  This is a less [[evil]] version of the previous definition; however, in some foundations these are actually equivalent.
 
 A __class__ is a collection of [[set]]s.  Here the bubble is moved to 'collection', but we will be able to pop that bubble below.  Also we might want to allow the members of a proper class to be other than sets; certainly it is true, however, that a __pure class__ is a collection of [[pure set]]s.
 
-A __class__ is a formula in the language of [[set theory]] for a [[truth value]], equipped with a specified free variable for a set.  This is a formalisation of the previous definition, but it must be interpreted metamathematically (since after all, there are only countably many such formulas): a formula in the language of set theory for a class is defined to be a formula for a truth value with one more free variable for a set.
+A __class__ is a formula in the language of [[set theory]] for a [[truth value]], equipped with a specified free variable for a set.  This is a formalisation of the previous definition, but it must be interpreted metamathematically: a __formula for a class__ in a given [[context]] $\Gamma$ is a formula for a truth value in the extension of $\Gamma$ by one more free variable for a set.
 
-A __class__ may even be an undefined concept; the real definition is to define a __[[set]]__ as a class that is itself a member of some class.  With appropriate axioms, this is equivalent to the previous definition (and conservative over set theory without classes), but it\'s also possible to apply stronger axioms here; this is the difference between $\mathbf{BNG}$ and $\mathbf{MK}$ as extensions of <b>[[ZFC]]</b>.
+A __class__ may even be an undefined concept; the real definition is to define a __[[set]]__ as a class that is itself a member of some class.  With appropriate axioms, this is equivalent to the previous definition (and conservative over set theory without classes), but it\'s also possible to apply stronger axioms here; this choice is the difference between $\mathbf{BNG}$ and $\mathbf{MK}$ as extensions of <b>[[ZFC]]</b>.
 
-A __class__ is a [[subset]] of a [[Grothendieck universe]] $U$, while a ([[small category|small]]) set is merely an element of $U$.  This gives a relative notion, depending on $U$.  As such, we get a concept of class like that of the strong theory $\mathbf{MK}$; to be more like $\mathbf{BNG}$ (and therefore conservative over set theory without an axiom of universes) we should define a __class__ to be a definable subset of $U$.
+A __class__ is a [[subset]] of a [[Grothendieck universe]] $U$, while a ([[small category|small]]) __set__ is merely an element of $U$.  This gives a relative notion, depending on $U$.  As stated here, we get a concept of class like that of the strong theory $\mathbf{MK}$; to be more like $\mathbf{BNG}$ (and therefore conservative over set theory without an axiom of universes) we should define a __class__ to be a subset of $U$ that is definable in the language of set theory.
 
 # Usage
 
