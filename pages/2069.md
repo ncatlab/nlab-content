@@ -1,4 +1,3 @@
-
 There are several different useful notions of morphisms between [[simplicial set]]s that are _fibrations_ in one sense or other.
 
 Often the standard or the Joyal [[model structure on simplicial sets]] is understood in which case "fibration" is usually taken to mean [[Kan fibration]] or [[inner Kan fibration]].
@@ -32,3 +31,6 @@ The study of left/right/inner Kan fibrations goes back to Joyal's work on the Jo
 Details are in chapter 2 of 
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+
+[[!redirects fibrations of simplicial sets]]
