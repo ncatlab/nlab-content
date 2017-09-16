@@ -54,7 +54,7 @@ A Grothendieck--Rezk--Lurie **$(\infty,1)$-topos** is an [[(∞,1)-category]] $X
 
 * $X$ satisfies the $(\infty,1)$-categorical analogs of [[Giraud's axioms]]:
   * $X$ is [[presentable (infinity,1)-category|presentable]];
-  * [[limit in quasi-categories|(∞,1)-colimits]] in $X$ are universal;
+  * [[limit in quasi-categories|(∞,1)-colimits]] in $X$ [[universal colimits|are universal]];
   * [[coproduct]]s in $X$ are [[disjoint coproduct|disjoint]];
   * every [[groupoid object in an (infinity,1)-category|groupoid object]] in $X$ is [[quotient object|effective]] (i.e. has a [[delooping]]). 
 
