@@ -236,7 +236,7 @@ is obtained by the recipe presented here
 
 joint work with [[Jacques Distler]] and Greg Moore.
 
-(on [[differential cohomology]] of background fields in type II [[string theory]])
+(on [[differential cohomology]] of background fields in type II [[string theory]], in particular on [[orientifold]] backgrounds)
 
 * $\Sigma$ in this talk a compact 2-dimensional manifold: the _worldsheet_
 
@@ -1230,3 +1230,278 @@ $$
 $$
   X \in \Gamma(M, T M)
 $$
+
+
+
+## Costello, part III ##
+
+so recall that the derived critical locis if a function is a $P_0$-algebra,
+so it wants to quantize to $E_0$
+
+if we have a classical field theory, the derived space of 
+solutions to EL yields a $P_0$ algebra in factorizatoin algebra
+
+so it wants to become a factorization algebra
+
+**Example** $\phi \in C^\infty(M)$, $S(\phi) = \int \phi \Delta \phi$
+
+derived space of solutions to EL is the complex
+
+$$
+ \array{
+  C^\infty(M) &\stackrel{\Delta}{\to}&
+    C^\infty(M)
+  \\
+    0 && 1
+ }
+$$
+
+if $B \subset M$ is a ball, then
+
+$$
+  O(EL^n(B))
+  =
+  \Pi_{n \geq 0}(
+     Hom( C^\infty(int B) \stackrel{\Delta}{\to} C^\infty(int B))^{\otimes n},
+     \mathbb{R}
+  )^{S_n}
+$$
+
+this is a commutative dga and defines a commutative factorizaton algebra
+
+if we add an interaction term to the action functional
+
+$$
+  S(\phi)
+  =
+  \int \phi \Delta \phi + \phi^3
+$$
+
+then we get the same algebra of functions but the differential changes
+
+in Yang-Mills theory with gauge Lie algebra $g$: 
+first, we consider the derived quotient of
+$\Omega^1(M)\otimes g$ by $\Omega^0(M)\otimes g$, then, take derived critical
+locus of YM action
+
+What we get, when linearized looks like
+
+$$
+  (
+  \array{
+     \Omega^0(M) &\to& \Omega^1(M) &\stackrel{d \star d}{\to}& \Omega^3(M)
+       &\stackrel{}{\to}& \Omega^4(M)
+     \\
+     -1 && 0 && 1 && 2
+  }) \otimes g
+$$
+
+the algebra of functions iss 
+$$
+  \Pi_{n \geq 0} Hom(E^{\otimes n}; \mathbb{R})^{S_n}
+$$
+
+with diffeential including YM action
+
+**theorem**
+if we take the derived space of solutions to the EL equations,
+looking infinitesimally near a fixed solution, then we find
+a $P_0$-algebra internal to factorization algebras on $M$
+
+this amounts to quantizing the action $S$ into a solution
+of the quantum master equation
+
+this requires machinery of counter-terms, Wilsonian effective 
+actions, to even define the quantum master equation
+
+>see Kevin Costello's book linked to on hos website for details
+
+**theorem** (joint with O. Gwilliam)
+
+("wave" version)
+
+conssider the scalar field theory, with an action of the form
+
+$$
+  S(\phi) = \int \phi (\Delta \phi + m^2 \phi)
+  + arbitrary local higher terms
+$$ 
+
+use the above theorem, around the 0-solution
+
+Let $X_S$ be the classical factorization algebra associated to it
+(it is a $P_0$-algebra)
+
+Let $Q^{(n)}(X_S)$ be the set of quantizations
+
+= $\{lifts of $X_S$ to an algebra over BD/{\hbar^{n+1}}\}$
+
+there is a sequence $T^{(n)} \to T^{(n-1)} \to \cdots \to T^{(1)} \to pt$
+
+where $T^{(n)}$ maps to $Q^{(n)}(X_S)$, so that the obvious diagram commutes
+
+where $T^{(n)} \to T^{(n-1)}$ is a torsor for the abelian group of local
+functions of the field $\phi$
+
+so $T^{(\infty)} = lim_n T^n$ then
+
+$$
+  T^{(\infty)} \simeq \{\sum_{k \geq 1} \hbar^k S^{(k)}\}
+$$
+
+$
+ S^{(k)}
+$ is a local function, but this is non-canonical
+
+**more sophisticated version**
+
+consider any reasonable classical theory, with its
+classical factorization algebra $X_S$
+
+let $Q^{(n)}(X_S) = simplicial set of possible quantizations defined mod \hbar^{n+1}$
+
+$
+  Der_{loc}(X_S)
+$ 
+is the cochain complex of derivations of $X_S$, preserving
+$P_0$-structure (is, in fact, local functions on an extended space)
+
+theorem
+
+there exists a sequence of simplicial sets
+
+$$
+  T^{(n)} \to T^{(n-1)}
+  \to 
+  \cdots \to 
+  T^{(1)}
+  \to pt
+$$
+
+with maps $T^{(n)} \to Q^{(n)}(X_S)$
+
+such that $T^{(n)}$ fits into a [[homotopy limit|homotopy fiber diagram]]
+
+$$
+  \array{
+    T^{(n)}
+    &\to&
+    0
+    \\
+    \downarrow
+    &&
+    \downarrow
+    \\
+    T^{n-1} &\stackrel{obstruction}{\to}& Der_{loc}(X_S)[2]
+  }
+$$
+
+so we get obstructions; for instance for $\phi^4$-theory the obstruction is
+the famous $\beta$-function
+
+**theorem**
+Let $g$ be a simple Lie algebra. Then there is a
+quantization of Yang-Mills theory on $\mathbb{R}^4$
+which is "renormalizable"
+(behaves well with respect to scaling)
+
+the set of quantizations is 1-dimensional term by term
+
+The set of such quantizations is $\hbar \mathb{R}[[\hbar]]$
+
+
+**correlation functions**
+
+Where do correlation functions appear?
+
+If $F$ is a factorization algebra on $M_S$, corresponding to some
+QFT, then $F(B) = \{measurements we can make on the ball B\}$
+
+if $B_1, B_2 \subset B$  are disjoint, the maps
+$$
+  F(B_1)\otimes F(B_2) \to F(B)
+$$
+
+is defined by doing both observations
+
+correlation functions should be cochain maps
+
+$$
+  \langle 
+    F(B_1) \otimes \cdots \otimes F(B_n) \to \mathbb{R}
+  \rangle
+$$
+
+if $B_1, \cdots, B_n$ are disjoint, if 
+$
+  O_i \in F(B_i)
+$
+
+then
+
+$$
+  \langle O_1, \cdots, O_n\rangle
+$$
+is a measurement of how to observe $O_i$ correlations
+
+if $B_1, B_2 \subset \tilde B$ the diagram
+
+$$
+  \array{
+    F(B1) \otimes \cdots \otimes F(B_n)
+    &\stackrel{\langle \cdots \rangle}{\to}&
+    \mathbb{R}
+    \\
+    \downarrow && \uparrow^{\langle \cdots \rangle}
+    \\
+    F(\tilde B) \otimes F(B_3) \otimes \cdots \otimes F(B_n)
+  }
+$$
+
+should commute (operator product expansion)
+
+we can consider correlation functions with coefficients in any
+cochain complex, we require they must satisfy this equation
+
+**def** (Beilinson-Drinfeld)
+
+$$
+  CH_\bullet(M,F)
+  =
+  homotopy universal recipient of correlation functions
+$$
+
+$$
+  = colim_{B_1, \cdots B_n \subset M disjoint}
+F(B_1) \otimes \cdots F(B_n) 
+$$
+
+(Kevin Walker (blob homology), Jacob Lurie (topological chiral homology))
+
+**lemma**
+for a massive scalar field,
+
+$$
+  CH_\bullet(M,F) \simeq \mathbb{R}[[\hbar]]
+$$
+
+in general
+
+$
+  CH_\bullet(M,F)
+$ looks like measures on the space of critical points of the classical action
+
+if we perturb around isolated critical points, 
+$
+  CH_\bullet(M,F)
+  =
+  \mathbb{R}\[\ \hbar\]\]
+$ 
+
+in this situation correlation functions exist and are unique
+
+general program: correlation functions define a measure 
+on the space of classical solutions
+
+(Feynman graphs appear here as homotopies between operads, or something, 
+see his book)
