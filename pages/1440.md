@@ -12,6 +12,16 @@ A _derived smooth manifold_ is a [[structured generalized space]] given by a man
 
 Derived smooth manifolds were defined in
 
-* David Spivak, _Quasi-smooth derived manifolds_, PhD thesis, Berkeley (2007) ([pdf](http://www.uoregon.edu/~dspivak/derived-smooth-manifolds.pdf#page=33))
+* David Spivak, _Quasi-smooth derived manifolds_, PhD thesis, Berkeley (2007) ([pdf](http://www.uoregon.edu/~dspivak/files/thesis1.pdf))
+
+This original version of the PhD thesis sticks relatively close to the general theory developed in
+
+* [[Jacob Lurie]], [[structured generalized space|Structured spaces]] .
+
+The later version
+
+* David Spivak, _Derived smooth manifolds_ ([arXiv](http://arxiv.org/abs/0810.5174))
+
+emphasizes more the point of view of presheaf-copresheaves that also appears for similar reasons in the context of the [[Isbell envelope]].
 
 [[!redirects derived smooth manifolds]]
