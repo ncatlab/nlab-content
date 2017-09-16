@@ -24,4 +24,6 @@ See J-L. Loday, T. Pirashvili, The tensor category of linear maps, Georg. Math. 
 
 +-- {: .query}
 [[Tim Porter|Tim]]: Methinks that we need some comment on the evident connection with [[Baez–Crans 2-vector space]]. I think I remember seeing some paper on 2-vector spaces that mentions the connection.  Whether or not it exploited that connection has slipped my memory.  Can Zoran say something on this? 
+
+[[Zoran Škoda|Zoran]] Surely in char 0, internal categories to vector spaces are the same as 2-term chain complexes, but if one translates strict associative algebra, Lie algebra etc. internal to the categories of internal categories in $Vec_k$ then one has more on the internal category side then on LP side because of the truncation of the tensor product. So every strict Lie algebra in Baez-Crans 2-vector spaces gives an examples of an internal Lie algebra in LP but not other way around. Eventually I will put some treatment of this, but it is not that simple to write it clearly, so it will wait a bit for now. 
 =--
