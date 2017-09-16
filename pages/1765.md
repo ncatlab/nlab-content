@@ -149,6 +149,8 @@ In other words, the objects of $\mathrm{Desc}(S/R)$ are the pairs $(N,\alpha)$ w
 
 ### Geometric interpretation {#GeomInterpretationOfDescent}
 
+Descent for Sweedler corings is a special case of [[monadic descent|comonadic descent]]. We describe this in detail and relate it by duality to the geometrically more intuitive [monadic descent for codomain fibrations](http://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs).
+
 Assuming again a suitable geometric context as above, we may identify a [[module]] over $R = C(X)$ with (the collection of [[section]]s of) a [[vector bundle]] (or rather a suitable generalization of that: a  [[coherent sheaf]]) over $X$. Similarly for $Y$. So we write
 
 $$
