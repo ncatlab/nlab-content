@@ -1,1 +1,3 @@
-See this [entry](http://ncatlab.org/michaelshulman/show/categorified+logic) in Urs Schreiber's personal area. 
+See [[schreiber:Differential Nonabelian Cohomology]].
+
+category: delete
