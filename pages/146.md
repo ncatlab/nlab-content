@@ -101,4 +101,17 @@ Moreover, $\widehat{F}$ is unique up to natural isomorphism.
 
 Our job is to understand how to construct this $\widehat{F}$.
 
+[[Urs Schreiber]]: By the way, there is a pretty good pedagogical and intuitive explanation of this from page 7 on of
+
+* Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html))
+
+On page 8 this explains with lots of pictures how a presheaf is an "instruction for how to build a colimit".
+
+Then on p. 9 the universal morphism that we are looking for here is identified as the one that "takes the instructions for building a colimit and actually _builds_ it".
+
+(That text, by the way, contains various other gems. A pity that it is left unfinished.)
+
+Might it be reasonable to move this discussion of free cocompletion and Yoneda extension of functors from this entry here either to [[free cocompletion]] or to [[Yoneda extension]]?
+
+
 [[!redirects presheaves]]
