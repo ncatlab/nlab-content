@@ -33,7 +33,7 @@ Noncommutative projective spaces, noncommutative grassmanians, universal noncomm
 
 ##Literature##
 
-* T. Maszczyk, _Noncommutative geometry through monoidal categories I_, [arXiv:0707.1542] (http://front.math.ucdavis.edu/0707.1542)
+* [[Tomasz Maszczyk]], _Noncommutative geometry through monoidal categories I_, [arXiv:0707.1542] (http://front.math.ucdavis.edu/0707.1542)
 
 * A. Rosenberg, _Noncommutative schemes_, Compos. Math. __112__ (1998) 93--125.
 
