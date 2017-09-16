@@ -5,6 +5,7 @@ $$
   T : C \to C
   \,.
 $$
+Frequently $C$ is an [[additive category]] in which case $F$ is also required to be an _additive_ functor.
 
 A **morphism of categories with translation** $F:(C,T)\to (C',T')$ is a [[functor]] $F:C\to C'$ equipped with an [[isomorphism]] $F\circ T\cong T'\circ F$:
 
