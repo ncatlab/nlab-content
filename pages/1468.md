@@ -29,6 +29,8 @@ In addition to the notes provided by Alex Hoffnung below, there are also notes b
 
 * [[David Ben-Zvi]], [[DBZLecture3.ps:file]], talk notes by [[Alex Hoffnung]]
 
+* [[David Ben-Zvi]], [[DBZLecture4.ps:file]], talk notes by [[Alex Hoffnung]]
+
 ### related $n$Lab entries ###
 
 * [[geometric infinity-function theory]]
@@ -42,6 +44,7 @@ In addition to the notes provided by Alex Hoffnung below, there are also notes b
 
 * [[Jacob Lurie]], [[LurieLecture2.ps:file]], talk notes by [[Alex Hoffnung]]
 
+* [[Jacob Lurie]], [[LurieLecture3.ps:file]], talk notes by [[Alex Hoffnung]]
 
 ##Bertrand Toen on Secondary K-theory ##
 
@@ -49,10 +52,15 @@ In addition to the notes provided by Alex Hoffnung below, there are also notes b
 
 * [[Bertrand Toen]], [[ToenLecture2.ps:file]], talk notes by [[Alex Hoffnung]]
 
+* [[Bertrand Toen]], [[ToenLecture3.ps:file]], talk notes by [[Alex Hoffnung]]
 
 ##Orit Davidovich on Modular Tensor Categories ##
 
 * [[Orit Davidovich]], [[Davidovich.ps:file]], talk notes by [[Alex Hoffnung]]
+
+##John Francis##
+
+* [[John Francis]], [[Francis.ps:file]], talk notes by [[Alex Hoffnung]]
 
 ### related $n$Lab entries ###
 
