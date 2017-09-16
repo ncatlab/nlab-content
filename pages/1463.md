@@ -35,8 +35,8 @@ Various characterisations of [[compact space]]s are equivalent to the ultrafilte
 *  A [[uniform space]] is compact if it is complete and totally bounded.  (The converse is immediate.)
 
 These classical results in analysis are equivalent to the ultrafilter theorem in a [[Boolean topos]] with [[natural numbers object]]:
-*  The [[Tychonoff theorem]] for Hausdorff spaces: any product of compact Hausdorff spaces is compact; equivalently, any product of compact Hausdorff spatial [[locale]]s is spatial.  (If we drop the Hausdorff condition, then the result is equivalent to the full [[axiom of choice]].)
-*  [[Stone-Cech compactification]]: the compact Hausdorff spaces are a [[reflective subcategory]] of [[Top]].  (The classical result that they form a reflective subcategory of the category $T_3$ of completely regular Hausdorff spaces is enough; the classical result that the reflection is a dense embedding on $T_3$ also follows.)
+*  The [[Tychonoff theorem]] for [[Hausdorff space]]s: any product of compact Hausdorff spaces is compact; equivalently, any product of compact Hausdorff spatial [[locale]]s is spatial.  (If we drop the Hausdorff condition, then the result is equivalent to the full [[axiom of choice]].)
+*  [[Stone-Cech compactification]]: the [[compact Hausdorff space]]s form a [[reflective subcategory]] of [[Top]].  (The classical result that they form a reflective subcategory of the category $T_3$ of completely regular Hausdorff spaces is enough; the classical result that the reflection is a dense embedding on $T_3$ also follows.)
 *  [[Banach-Alaoglu theorem]]: the closed unit ball of the double dual of a [[Banach space]] is weak* compact.  (The result for *separable* spaces does not require the ultrafilter theorem.)
 
 ## References
