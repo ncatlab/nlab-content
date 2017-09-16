@@ -23,7 +23,7 @@
 
 The notation "$\underset{\longleftarrow}{\lim}^1$" is common notation for the first [[derived functor]] $R^1 \underset{\longleftarrow}{\lim}$ of the [[limit]] functor over [[sequential diagrams]] of [[abelian groups]] (prop. \ref{Lim1IsDerivedLimit} below).
 
-In good cases this is the only obstruction to a naive [[limit]] of homotopy sets being the the homotopy classes of the correct [[homotopy limit]]. Such a situation is expressed by a [[short exact sequence|short exact]] _Milnor sequence_ ([below](#MilnorSequences)).
+In good cases, this is the only obstruction to a naive [[limit]] of homotopy sets being the homotopy classes of the correct [[homotopy limit]]. Such a situation is expressed by a [[short exact sequence|short exact]] _Milnor sequence_ ([below](#MilnorSequences)).
 
 
 ## Definition
