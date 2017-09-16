@@ -12,6 +12,8 @@ I am not sure what name the SGA1 type fundamental group should be called. I do n
 I'll also leave off the description of this object to its own page. Sometime I'll also get around to writing about [[Grothendieck's Galois theory]].
 
 [[Mike Shulman|Mike]]: Of course, it would be more consistent to use the same definition of profinite group here as at [[profinite group]].  As I said there, I prefer the cofiltered-system definition since it is more "basic"  and explains why you have to consider topological groups if you want to actually take the limit.  Would you object if we defined $\hat{G}$ to be the cofiltered diagram consisting of all finite quotients of $G$, and then observed that, just as always for a profinite group, we could instead take the limit as a topological group?
+
+[[Tim Porter|Tim]]:  That was what I was hinting at in (iii).  I think also that the universal property is not yet in its optimal form as it mixes topological ond non-topological things too much. I may try to put together a categorical formulation as a 'gloss' on this.
 =-- {: .query}
 
 More abstractly, the profinite completion can be defined as a [[profinite group]] $P$ with a homomorphism $\phi:G\to P$, such that if we are given any other profinite group $P'$ and homomorphism $\psi:G \to P'$, there is a unique homomorphism $P \to P'$ making the obvious triangle commute.
