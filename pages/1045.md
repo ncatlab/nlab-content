@@ -1,4 +1,9 @@
-#Idea#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+##Idea##
 
 The _Yoneda extension_ of a [[functor]] $F : C \to D$ is extension along the [[Yoneda embedding]] $Y : C \to [C^{op},Set]$ of its domain category to a functor
 $$
@@ -9,7 +14,7 @@ $$
 The Yoneda extension exhibits the [[presheaf]] category $PSh(C)$ as the [[free cocompletion]] of $C$.
 
 
-#Definition#
+##Definition##
 
 For $C$ a [[small category]] and $F : C \to D$ a [[functor]], its **Yoneda extension**
 
@@ -24,7 +29,7 @@ $$
   \,.
 $$
 
-## Remarks ##
+### Remarks ###
 
 Often it is of interest to Yoneda extend not $F : C \to D$ 
 itself, but the composition $Y \circ F : C \to [D^{op}, Set]$ to get a functor entirely between presheaf categories
@@ -35,7 +40,7 @@ $$
   \,.
 $$
 
-## Formula ##
+### Formula ###
 
 Recalling the general formula for the left [[Kan extension]] of a functor $F : C \to D$ through a functor $p : C  \to C'$ 
 
@@ -78,7 +83,7 @@ $$
 Here the first step is from above, the second uses that colimits in presheaf categories are computed objectwise and the last one is again using the [[Yoneda lemma]].
 
 
-# Properties #
+## Properties ##
 
 * The restriction of the Yoneda extension to $C$ coincides with the original functor:
 $
