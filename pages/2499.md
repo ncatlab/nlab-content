@@ -571,7 +571,7 @@ This extension mapping can be used only if the theory has been built with diffeo
 ... (to be continued)
 
 
-# References #
+# References {#References}
 
 The original article that introduced th D'Auria-Fr&eacute;-formalism is
 
