@@ -4,7 +4,7 @@ _Simplicial presheaves_ over some [[site]] $S$ are
  
 * [[presheaf|Presheaves]] with values in the category [[SimpSet]] of simplicial sets, i.e., functors $S^{op} \to \Simp\Set$, i.e., functors $S^{op} \to [\Delta^{op}, \Set]$;
 
-or equivalently, using the Hom-[[adjunction]] and symmetry of the [[closed monoidal category|closed monoidal structure]] on [[Cat]]
+or equivalently, using the Hom-[[adjoint functor|adjunction]] and symmetry of the [[closed monoidal category|closed monoidal structure]] on [[Cat]]
 
 * simplicial objects in the category of presheaves, i.e. functors $\Delta^{op} \to [S^{op},\Set]$.
 
