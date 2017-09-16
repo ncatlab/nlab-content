@@ -312,7 +312,7 @@ $$ U: CocompleteCat \to Cat $$
 
 we need $Cat$ to be the 2-category of large categories!   So, instead of an honest pseudoadjunction that bounces us back and forth between two 2-categories, the size keeps ratcheting up each time we make a round trip!
 
-In particular, if we try to define a [[2-monad|pseudomonad]]
+In particular, if we try to define a [[pseudomonad]]
 
 $$ U F : Cat \to Cat $$
 
