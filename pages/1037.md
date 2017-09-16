@@ -367,6 +367,11 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[n-truncated object of an (∞,1)-topos]]
 
+* [[hypercomplete (∞,1)-topos]]
+
+  * [[Whitehead theorem]]
+
+  * [[hypercompletion]]
 
 * [[cohomology]]
 
