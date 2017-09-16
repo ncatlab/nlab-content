@@ -58,6 +58,7 @@ _Toby_:  That depends on what the morphisms are.
 
 [[Eric]]: I wonder if there is enough freedom in the definition of morphisms of multisets so that the colimit turns out particularly nice. I'm hoping that it might turn out to be simply the sum of multisets. According to [[limits and colimits by example]] the colimit of a Set-valued functor is a quotient of the disjoint union.
 
+_Toby_:  I think that you might hope for the [[coproduct]] (but not a general colimit) of multisets to be a sum rather than a disjoint union.  Actually, you could argue that the sum *is* the proper notion of [[disjoint union]] for abstract multisets.
 =--
 
 ## Morphisms
