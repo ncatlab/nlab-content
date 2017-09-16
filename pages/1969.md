@@ -9,7 +9,7 @@
 {:toc}
 
 
-## Idea ##
+## Idea 
 
 There are several ways to _model_ an [[(∞,1)-category]] $\mathbf{C}$ by an ordinary [[category]] $C$ equipped with some extra structure: for instance $C$ may be a [[category with weak equivalences]] or a [[model category]]. In all of these models, given two objects $X, Y \in C$, there is a way to construct an [[∞-groupoid]] $\mathbf{C}(X,Y)$ that is the correct [[hom-object]] of the [[(∞,1)-category]] $\mathbf{C}$ -- this is the _$(\infty,1)$-categorical hom-space_  modeled by $C$, often called the _derived hom space_  and then denoted $\mathbf{R}Hom(X,Y)$.
 
@@ -39,7 +39,7 @@ _Urs_: true.
 =--
 
 
-## Interrelation between the different constructions ##
+## Interrelation between the different constructions 
 
 For $(C,W \subset Mor(C))$ a [[category with weak equivalences]], Dwyer-Kan [[simplicial localization]] produces an [[SSet]]-[[enriched category]] as follows
 
@@ -107,9 +107,9 @@ $$
 
 =--
 
-## Details ##
+## Details 
 
-### Enriched homs between cofibrant/fibrant objects ###
+### Enriched homs between cofibrant/fibrant objects {#EnrichedHomsCofToFib}
 
 We describe here in more detail properties of [[hom-object]]s in a [[simplicial model category]] for the case that the domain objects are cofibrant and the codomain objects are fibrant.
 
@@ -282,7 +282,7 @@ that is homotopic to our $C(X,f)$. Therefore this is also a weak equivalence.
 
 
 
-## References ##
+## References 
 
 A useful quick review of the interrelation of the various constructions of derived hom spaces is page 14, 15 of
 
