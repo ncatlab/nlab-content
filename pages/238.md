@@ -293,7 +293,7 @@ avoid going down to sheaves, resolutions of diagonal, de Rham site and regular d
 
 * [[Urs Schreiber|Urs]]:
 
-  attempted a (long-winded) reply to [[David Corfield|David]]s question "What does it mean" at [[Coyoneda lemma]] (and would anyone mind if we renamed that to [[coYoneda lemma]]?)
+  attempted a (long-winded) reply to [[David Corfield|David]]s question "What does it mean" at [[Coyoneda lemma]] (and would anyone mind if we renamed that to [[co-Yoneda lemma]]?)
 
 * [[Mike Shulman|Mike]]: 
 
