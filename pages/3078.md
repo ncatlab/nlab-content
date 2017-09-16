@@ -3,6 +3,8 @@
 
 * A list of publications [html](http://www.math.yale.edu/~mk486/publ.html)
 
+* lecture at msri 2000 _Noncommutative neighborhoods and noncommutative Fourier transform_: [link](http://msri.org/publications/ln/msri/2000/interact/kapranov/1/index.html)
+
 [[!redirects Kapranov]]
 
 category: people
