@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-20 #
 
+*  [[Toby Bartels]]:  Put [[well-order|simulations]] everywhere.  I need to think about this (and read Aczel) some more, but I\'m fairly sure that Mike is right about them.
+
 * [[Urs Schreiber|Urs]]:
 
   * started polishing the typesetting at [[bundle gerbe]], but there is still plenty of room for further improvement
