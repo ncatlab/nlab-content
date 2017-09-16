@@ -384,9 +384,9 @@ A standard textbook reference is section 5 of
 
 * J.-L. Brylinski, _Loop Spaces, Characteristic Classes and geometric Quantization_, Birkhaeuser
 
-
 A concise review is for instance section 2 of
 
-* K. Gomi, _Projective unitary representations of smooth Deligne cohomology groups_ ([arXiv](http://arxiv.or/abs/math/0510187))
+* K. Gomi, _Projective unitary representations of smooth Deligne cohomology groups_ ([arXiv](http://arxiv.org/abs/math/0510187))
+
 
 [[!redirects Deligne complex]]
