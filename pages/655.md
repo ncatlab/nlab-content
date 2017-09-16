@@ -83,11 +83,11 @@ $$\array{& L & {\to}^\lambda & M & \\
          \lambda^\prime & \downarrow &&\downarrow & \mu\\
           &N & {\to}_{\nu}& P & \\
 }$$
-be a crossed suqare then $M$ acts on $N$ via $P$ and so we can form $N\rtimes M$ and the sequence
-$$L\stackrel{((\lambda')^{-1},\lambda)}{\longrightarrow}N\rtimes M\stackrel{\nu\mu}{\longrightarrow}P$$ 
-is a 2-crossed complex.
+be a crossed square then $N$ acts on $M$ via $P$, so ${}^n m := {}^{\nu(n)}m$, and so we can form $M\rtimes N$ and the sequence
+$$L\stackrel{((\lambda')^{-1},\lambda)}{\longrightarrow}M\rtimes N\stackrel{\mu\nu}{\longrightarrow}P$$ 
+is then a 2-crossed complex.
 
-(And, yes, these are actually group homomorphisms: $(\nu,\mu)(n,m) = \nu(n)\mu(m)$, the product of the two elements! Try it!)
+(And, yes, these are actually group homomorphisms: $(\mu,\nu)(m,n) = \mu(m)\nu(n)$, the product of the two elements! Try it!)
 
 The full result and an explanation of what is going on here is given in
 
