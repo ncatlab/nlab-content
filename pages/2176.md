@@ -1650,6 +1650,25 @@ q
 
 The differential field $\mathop{D}(p q)$ specifies the changes that need to be made from each point of $X$ in order to feel a change in the felt value of the field $p q$.
 
+## Proposition and Tacit Extension ##
+
+Now that we've introduced the field picture as an aid to thinking about propositions and their analytic series, a very pleasing way of picturing the relationships among a proposition $f : X \to \mathbb{B}$, its enlargement map $\mathop{E}f : \mathop{E}X \to \mathbb{B}$, and its difference map $\mathop{D}f : \mathop{E}X \to \mathbb{B}$ can now be drawn.
+
+To illustrate this possibility, let's return to the differential analysis of the conjunctive proposition $f(p, q) = p q$, giving the development a slightly different twist at the appropriate point.
+
+The next venn diagram shows once again the proposition $p q$, which we now view as a scalar field --- analogous to a _potential hill_ in physics, but in logic tantamount to a _potential plateau_ --- where the shaded region indicates an elevation of 1 and the unshaded region indicates an elevation of 0.
+
+<table align="center" cellpadding="8" markdown="1" style="border:none; text-align:center">
+
+<td style="border:none">
+<img alt="Field Picture PQ Conjunction" src="/nlab/files/Field_Picture_PQ_Conjunction.jpg" width="500" />
+<br>
+<font size="+2">$\text{Proposition} \: p q : X \to \mathbb{B}$</font></td>
+
+</table>
+
+Given a proposition $f : X \to \mathbb{B}$, the _tacit extension_ of $f$ to $\mathop{E}X$ is denoted $\varepsilon f : \mathop{E}X \to \mathbb{B}$ and defined by the equation $\varepsilon f = f$, so it's really just the same proposition residing in a bigger universe.  Tacit extensions formalize the intuitive idea that a function on a particular set of variables can be extended to a function on a superset of those variables in such a way that the new function obeys the same constraints on the old variables, with a "don't care" condition on the new variables.
+
 # External Links #
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
@@ -1673,8 +1692,6 @@ Templates ---
        <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
 
 Upload Queue ---
-
-[[Field_Picture_PQ_Conjunction.jpg|Field Picture PQ Conjunction:pic]]
 
 [[Field_Picture_PQ_Tacit_Extension_Conjunction.jpg|Field Picture PQ Tacit Extension Conjunction:pic]]
 
