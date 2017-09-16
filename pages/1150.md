@@ -1,20 +1,40 @@
-In the most general sense, a **bundle** over an [[object]] $B$ in a category $\mathcal{C}$ is simply an object $E$ of $\mathcal{C}$ equipped with a [[morphism]] in $\mathcal{C}$ from $E$ to $B$:
-$$ \array { E \\ \downarrow p \\ B } $$
-We usually refer to such a bundle simply as $E$, even though $p$ is really part of the data.
 
-The category of bundles over a given object $B$ is the [[over category]] $\mathcal{C}/B$.
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
+In the most general sense, a **bundle** over an [[object]] $B$ in a category $\mathcal{C}$ is simply an object $E$ of $\mathcal{C}$ equipped with a [[morphism]] in $\mathcal{C}$ from $E$ to $B$:
+$$ \array { E \\ \downarrow^{\mathrlap{p}} \\ B } $$
+
+One often refers to such a bundle simply as $E$, even though $p$ is really part of the data.
+
+For $x \in B$ a [[generalized element]] of $B$, the [[fiber]] $E_x$ of the bundle over $x$ is the [[pullback]] $x^* E$.
+
+
+## Bundles with extra structure and properties
 
 One generally considers bundles with extra properties or structure:
+
 * [[fiber bundle|fiber bundles]],
+* [[principal bundles]]
 * [[vector bundle|vector bundles]],
-* bundles with [[connection]],
+* bundles with [[connection on a bundle|connection]],
 * etc.
 
-In [[physics]], physical fields are described using bundles.
+## The collection of all bundles
 
-Bundles tend to have [[sheaf|sheaves]] of local [[section]]s.
+The category of bundles over a given object $B$ is the [[over category]] $\mathcal{C}/B$. The collection of all bundles in a given [[category]] $\mathcal{C}$ therefore arranges itself into the [[codomain fibration]] $cod : [I,\mathcal{C}] \to \mathcal{C}$. As such, the [[descent]] for bundles may be expressed as [[monadic descent]] with respect to the codomain [[bifibration]]. This does in general not work inside one of the more restrictive subcategories of bundles with extra structure and property, as the push-forward operation typically does not respect these extra conditions. For more on this see [monadic descent of bundles](http://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs).
 
-#References#
+## Relation to other concepts
+
+* Bundles tend to have [[sheaf|sheaves]] of local [[section]]s.
+
+* In [[physics]], [[gauge field]]s may be describe in terms of [[connection on a bundle|bundles with connection]].
+
+
+## References
 
 A useful collection of introductory notes to fiber bundles, vector bundles and fiber bundles with connection is at 
 
