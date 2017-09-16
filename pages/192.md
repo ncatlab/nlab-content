@@ -13,7 +13,7 @@ At least assuming [[classical logic]], these properties suffice to characterize 
 
 As a topos, $Set$ is also characterized by the fact that
 
-* $Set$ is the [[terminal object]] in the [[category]] of [[topos]]es and [[geometric morphism]]s. The terminal morphism $\Gamma : E \to Set$ from any other topos $E$ is the [[global section]]s functor.
+* $Set$ is the [[terminal object]] in the [[category]] of Grothendieck [[topos]]es and [[geometric morphism]]s. The terminal morphism $\Gamma : E \to Set$ from any other topos $E$ is the [[global section]]s functor.
 
 It is usually assumed that $Set$ satisfies the [[axiom of choice]] and has a [[natural numbers object]].  In Lawvere's theory [[ETCS]], which can serve as a foundation for much of mathematics, $Set$ is asserted to be a well-pointed topos that satisfies the axiom of choice and has a natural numbers object.  It follows that it is automatically "locally small" and "complete and cocomplete" relative to the notion of "smallness" defined in terms of itself (actually, this is true for any topos).
 
