@@ -10,6 +10,9 @@ This is different from when the two terms are real variations with their own def
 ---Toby
 
 [[Mike Shulman|Mike]]: Makes sense to me.  I am still hoping that one day we can get mediawiki-style redirects that don't require an extra click from the user.
+
+[[Urs Schreiber|Urs]]: sure, sounds very reasonable
+
 =--
 
 category: redirect
