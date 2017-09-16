@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[David Corfield|David]]
 
+  * created [[D-module]]
+
   * created [[coherent logic]]
 
   * added John's blog exposition to [[induced representation]]. Is the style OK?
