@@ -27,7 +27,7 @@ and the above describes the construction by Stasheff and Wirth
 of fibrations with fiber $B G$.
 
 +--{: .query}
-[[David Roberts]]: The list of axioms in Wirth-Stasheff about [[fibration theory|fibration theories]] is somewhat incomplete in my opinion (sorry Jim) - but only in a minor way. When it talks about the assignment of a category to each space, then goes on to talk about homotopies in that category, it seems to me we should be talking about $(infty,1)$-categories. Even without such an extension, one needs to make sense of homotopies, and so should have the minimal structure required to talk about that - perhaps a category of fibrant objects?
+[[David Roberts]]: The list of axioms in Wirth-Stasheff about [[fibration theory|fibration theories]] is somewhat incomplete in my opinion (sorry Jim) - but only in a minor way. When it talks about the assignment of a category to each space, then goes on to talk about homotopies in that category, it seems to me we should be talking about $(\infty,1)$-categories. Even without such an extension, one needs to make sense of homotopies, and so should have the minimal structure required to talk about that - perhaps a category of fibrant objects?
 =--
 
 More generally, "space" may refer to 
