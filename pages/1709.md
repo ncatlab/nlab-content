@@ -183,7 +183,7 @@ $$
 
 So if we fix the twist in $\mathbf{H}(X, \mathbf{B}G)$ (which you'd want to write as $H^1(X,G)$) to some $c \in \mathbf{H}(X, \mathbf{B}G)$ then the $c$-twisted $A$-cohomology is precisely that bit of $\mathbf{H}(X,A//G)$ that sits in the homotopy fiber over $c$.
 
-Therefore we may say that the $c$-<a href="http://ncatlab.org/nlab/show/twisted+cohomology">twisted cohomology</a> is the homotopy pullback
+Therefore we may say that the $c$-[[twisted cohomology]] is the homotopy pullback
 $\mathbf{H}^c(X,A)$ in 
 
 $$
@@ -270,7 +270,7 @@ and contains examples that are of interest in the wider context of [[string theo
 
   * twisted Bianchi identity: $d F_\nabla = H_3$
 
-  * occurence: Freed-Witten [[quantum anomaly|anomaly]] cancellation on [[nLab:brane|D-brane]]
+  * occurence: Freed-Witten [[quantum anomaly|anomaly]] cancellation on [[brane|D-brane]]
 
   * with slight variation: [[twisted K-theory]]
 
@@ -283,13 +283,13 @@ and contains examples that are of interest in the wider context of [[string theo
   * twisted Bianchi identity: 
     $d H_3 \propto \langle F_\nabla \wedge F_\nabla \rangle$
 
-  * occurence: [[nLab:Green-Schwarz mechanism|Green-Schwarz anomaly cancellation]]
+  * occurence: [[Green-Schwarz mechanism|Green-Schwarz anomaly cancellation]]
 
   * Proof. 
   
     * (with Danny Stevenson and Christoph Wockel: ([SSSS](http://www.math.uni-hamburg.de/home/schreiber/nactwist.pdf))) use BCSS model ([BCSS](http://arxiv.org/abs/math/0504123)) of $String(n)$ with [Brylinski-McLaughlin construction](http://golem.ph.utexas.edu/category/2008/02/construction_of_cocycles_for_c.html) of $\frac{1}{2}p_1$ 
 
-    * (using ([SaScSt I](http://arxiv.org/abs/0801.3480), [SaScSt III](http://www.math.uni-hamburg.de/home/schreiber/5twist.pdf)):) compute local differential form data after differentiating smooth $\infty$-groupoids to  [[nLab:Lie infinity-algebroid|L-∞ algebroids]] using the formalism of ([SaScSt I](http://arxiv.org/abs/0801.3480))
+    * (using ([SaScSt I](http://arxiv.org/abs/0801.3480), [SaScSt III](http://www.math.uni-hamburg.de/home/schreiber/5twist.pdf)):) compute local differential form data after differentiating smooth $\infty$-groupoids to  $L_\infty$-[[Lie infinity-algebroid|algebroids]] using the formalism of ([SaScSt I](http://arxiv.org/abs/0801.3480))
 
   * for aspects of the twisetd case see also
 
@@ -303,7 +303,7 @@ and contains examples that are of interest in the wider context of [[string theo
 
   * twisted cocycle: twisted nonabelian Fivebrane-gerbe with connection
 
-  * occurence: dual [[nLab:Green-Schwarz mechanism|Green-Schwarz anomaly cancellation]] for NS 5-brane magnetic dual to string
+  * occurence: dual [[Green-Schwarz mechanism|Green-Schwarz anomaly cancellation]] for NS 5-brane magnetic dual to string
 
   * ([SaScSt II](http://arxiv.org/abs/0805.0564) [SaScSt III](http://www.math.uni-hamburg.de/home/schreiber/5twist.pdf))
   
@@ -312,7 +312,7 @@ and contains examples that are of interest in the wider context of [[string theo
 
   * twisting cocycle: $\mathbb{Z}_2$-orbifold;
 
-  * twisted cocycle: [[nLab:orientifold|orientifold gerbe]] / Jandl gerbe with connection
+  * twisted cocycle: [[orientifold|orientifold gerbe]] / Jandl gerbe with connection
 
   * occurence: unoriented string
 
