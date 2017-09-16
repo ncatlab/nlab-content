@@ -1,5 +1,5 @@
 
-In the context of [[localization of an (infinity,1)-category]] or the corresponding 1-categorical [[Bousfield localization]] _local equivalences_ are those morphisms that are seen as equivalences by [[local object]]s.
+In the context of [[localization of an (∞,1)-category]] or the corresponding $1$-category-theoretic [[Bousfield localization]], _local equivalences_ are those morphisms that are seen as equivalences by [[local object]]s.
 
 More concretely, let $S$ be a subset of morphisms. Recall that an $S$-[[local object]] $X$ is one such that for all $s : A \to B$ in $S$ the induced morphism 
 
