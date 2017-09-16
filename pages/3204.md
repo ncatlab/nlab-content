@@ -59,11 +59,11 @@ There is also an interpretation of pre-Cauchy calculus in which infinitesimals a
 
 ### Invertible infinitesimals in NSA and SDG {#NSAvsSDG}
 
-All the infinitesimals appearing in nonstandard analysis are *invertible*, since the [[hyperreal numbers]] form a field.  (This is also true for all the surreal infinitesimals.)  By contrast, most of the infinitesimals appearing in synthetic differential geometry are [[nilpotent]], and hence not invertible.  However, there are some models that do contain invertible infinitesimals, and hence also 'infinite' numbers (see [[smooth natural number]]).  Two such models are the [[smooth topos]]es called $\mathcal{Z}$ and $\mathcal{B}$ in
+All the infinitesimals appearing in nonstandard analysis are *invertible*, since the [[hyperreal numbers]] form a [[field]].  (This is also true for all the surreal infinitesimals.)  By contrast, most of the infinitesimals appearing in synthetic differential geometry are [[nilpotent]], and hence not invertible.  However, there are some models that do contain invertible infinitesimals, and hence also 'infinite' numbers as their inverses (see [[smooth natural number]]).  Two such models are the [[smooth topos]]es called $\mathcal{Z}$ and $\mathcal{B}$ in
 
 * [[Ieke Moerdijk]] and [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
 
-These toposes are related to the smooth topos called $\mathcal{G}$ there, which has nilpotent but no invertible infinintesimal, by a transfer theorem (chapter VII, section 4) valid for a certain class of [[coherent formula]]s.  Additionally, the 'object of nonstandard smooth natural numbers' in these toposes is defined by an 'algebra of unbounded sequences', similar in spirit to the unbounded sequences which represent infinitely large numbers in nonstandard analysis.  However, it is not clear whether any more precise comparison can be made.
+These toposes are related to the smooth topos called $\mathcal{G}$ there, which has nilpotent but no invertible infinitesimals, by a transfer theorem (chapter VII, section 4) valid for a certain class of [[coherent formula]]s.  Additionally, the 'object of nonstandard smooth natural numbers' in these toposes is defined by an 'algebra of unbounded sequences', similar in spirit to the unbounded sequences which represent infinitely large numbers in nonstandard analysis.  However, it is not clear whether any more precise comparison can be made.
 
 
 ## References
