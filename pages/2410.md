@@ -1,3 +1,4 @@
+[[!redirects Directed Homotopy Theory]]
 This entry is about the book
 
 * [[Marco Grandis]], __Directed algebraic topology,
@@ -31,5 +32,4 @@ Prof. Grandis has posted few lines from introduction to the book  __'Directed Al
 
 category: reference
 
-[[!redirects Directed Algebraic Topology]]
 
