@@ -68,6 +68,10 @@ is broken, we fix it by inserting a redirect on [[groupoid]].
 
 Human error aside, any format change should not result in broken links.
 
+#Definitions#
+
+Although there are exceptions, e.g. [[Frolicher space]] is beautifully formatted exception, the first time a word being defined appears in a definition, it is usually highlighted in **bold** as opposed to _italics_.
+
 #Notes for Specific Pages#
 
 [[Lie infinity-algebroid representation]]:
@@ -75,6 +79,10 @@ Human error aside, any format change should not result in broken links.
 * [[Toby]]: I pulled '$L_\infty$' prefixes (here and at [[Lie infinity-algebroid]]) out because I find the 'L-∞' fairly ugly and even ambiguous.  Let me know if you don\'t like this, Eric.  ---Toby
 
   * [[Eric]]: Looks great! I think 'L-∞' looks better than 'L-infinity' (which is what it was before), but pulling it out like that is even better.
+
+[[dg-quiver]]
+
+* [[Eric]]: Happy to see this page created! I changed the appearance of "dg-quiver" in the definition from _italics_ to **bold**.
 
 ***
 
