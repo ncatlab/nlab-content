@@ -5,3 +5,9 @@ I often seem to have strong feelings about terminology.  But I have been known t
 [Personal area](http://ncatlab.org/michaelshulman/show/HomePage)
 
 category: people
+
++--{.query}
+
+[[Todd Trimble|Todd]]: Yeah, I thought something about this page was not as I remembered! Congrats on winning the post-doc (although I can't imagine anyone more deserving). :-)
+
+=--
