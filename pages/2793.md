@@ -283,3 +283,50 @@ We really want to consider elliptic curves over $R$ completed by an ideal $m$, t
 $$\mathrm{Hom}_{R} (X,Y) \leftrightarrow \mathrm{Hom}_{\hat R} (\hat X, \hat Y).$$
 
 
+##Deformation Theory##
+Fix a morphism $\mathrm{Spec} \; \mathbf{F}_q \to M_{1,1}$, that is an [[elliptic curve]] $E_0 /k$.  Let $\mathbf{O}_k$ be the sheaf over $M_{1,1}$ that classifies deformations of $E_0$ to oriented elliptic curves over $A$ where $A$ is an $E_\infty$-ring with $\pi_0 A$ a complete, local ring.
+
+Let us assume for the moment that $M_{1,1} = \mathrm{Spec} \; R$ (more generally we pass to an affine cover).  One can show that $\mathbf{O}_k$ moreover classifies oriented $p$-divisible groups which deform $E_0 [p^\infty]$.
+
+###Deformations of FGLs and Lubin-Tate Spectra###
+Recall that for $F,G$ [[formal group law]]s over $R$ a morphism is $f \in R [ [x] ]$ with $f(0) =0$ such that $f(X +_F Y) = f(X) +_G f(Y)$.  Now, let $k$ be a field of characteristic $p$ and $F,G$ formal group laws over $k$.  Let $f: F \to G$ be a morphism, then
+$$f = x^{p^n} + \dots$$
+where $n$ is the [[height]] of $f$.  For $F$ a formal group law the height of $F$, $\mathrm{ht} \; F$, is the height of $[p]F$, that is the multiplication by $p$ map.
+
+Let $\Gamma$ be a formal group law over $k$, then a deformation of $F$ consists of a complete local ring $B$ ($B/M = k$) and $F$ a formal group law over $B$ such that $p_* F = \Gamma$, where $p: B \to B/M$ is the canonical surjection. To such deformations $F_1 , F_2$ are isomorphic if there is an isomorphism $f: F_1 \to F_2$ which induces the identity on $p_* F_1 = p_* F_2 = \Gamma$.
+
+**Theorem (Lubin-Tate).** Let $k, \Gamma$ as above with $\mathrm{ht} \; \Gamma \lt \infty$ then there exists a complete local ring $E(k, \Gamma )$ with residue field $k$ and a formal group law over $E(k, \Gamma)$, $F^{univ}$ which reduces to $\Gamma$ such that there is a bijection of sets
+$$\mathrm{Hom} (E(k, \Gamma) , R) \to \mathrm{Deform} (\Gamma, R) .$$
+
+If $k = \mathbf{F}_p$, then $E(k, \Gamma) \simeq \mathbb{Z}_p [ [ u_1 , \dotsc , u_{n-1} ] ]$ where $\mathrm{ht} \; \Gamma =n$.  More generally, if $k= \mathbf{F}_q$, then E(k, \Gamma) \simeq W\mathbf{F}_q [ [ u_1 , \dotsc , u_{n-1} ] ]$, that is, the Witt ring.
+
+Let $E(k, \Gamma), F^{univ}$ as in the theorem, then we define $\overline{F}^{univ}$ over $E(k, \Gamma) [u^\pm]$, degree $u=2$, by 
+$ \overline{F}^{univ} (X,Y) = u^{-1} F^{univ} (uX , uY). $  We then define a homology theory as
+$$( E_{k,\Gamma})_* (X) = E(K,\Gamma)[ [u^\pm] ] \otimes_{MU_*} MU_* (X).$$
+
+Define a category (really a stack and let $p$ and $n$ vary) $\mathbf{FG}$ of pairs $(k,\Gamma)$ where $\mathrm{char} \; k =p$ and $\mathrm{ht} \; \Gamma =n$.  By associating to any such pair its Lubin-Tate theory we get a functor from $\mathbf{FG}$ to multiplicative cohomology theories.
+
+**Theorem (Hopkins-Miller I).** This functor lifts to $E_\infty$-rings.
+
+**The philosophy is that there should be a sheaf of $E_\infty$-rings on the stack of formal groups $\mathbf{FG}$ with global sections the sphere spectrum.  Then tmf and taf are low height approximations.**
+
+Let $E_{\infty}^{LT}$ be the subcategory of $E_\infty$-rings such that the associated cohomology theory is isomorphic to some $E_{k,\Gamma}$.
+
+**Theorem (Hopkins-Miller II).** $\pi : E_{\infty}^{LT} \to \mathbf{FG}$ is a weak equivalence of topological categories.  That is, the lift above is pretty unique.
+
+This implies Hopkins-Miller I by taking a Kan extension $\mathbf{FG} \to E_\infty$ along the inclusion $E_{\infty}^{LT} \hookrightarrow E_\infty$.
+
+##The Final Sprint##
+Let us sketch how to proceed...Let $\mathfrak{I}$ be a $p$-divisible group over $A$ with $\pi_0 A$ complete and local.  Then $\mathfrak{I}$ fits in an exact sequence
+$$ 0 \to \hat \mathfrak{I} \to \mathfrak{I} \to \mathfrak{I}_{et} \to 0 .$$
+There are two cases: either the underlying elliptic curve $E_0$ is super singular ($\mathrm{ht} \; E_0 =2$), else $E_0$ is ordinary.
+
+###The Supersingular Case###
+In this case $\widehat{E_0} [p^\infty] = E_0 [p^\infty]$, so one can show $\widehat{\mathfrak{I}} = \mathfrak{I}$ for every deformation.  Now an orientation means 
+$$\widehat{\mathfrak{I}} \simeq \mathrm{Spf} \; A^{\mathbb{C}P^\infty}[p^\infty],$$
+so $E_{k, \widehat{E_0}}$ classifies deformations to oriented $p$-divisible groups, hence $\mathbf{O}_k \simeq E_{k, \widehat{E_0}}$. By construction $E_{k,\widehat{E_0}}$ is even.
+
+###The Ordinary Case###
+This is more subtle (see DAG IV 3.4.1 for some hints).
+
+First we can analyze the formal part of the exact sequence and see that deformations to formal $p$-divisible groups of height 1 are classified by $E_{k, \widehat{E_0}} [ p^\infty]$.  By analyzing extensions etale $k$-algebras we see that $\mathbf{O}_k \simeq E_{k,\widehat{E_0}}^{\mathbb{C}P^\infty}$.  The homotopy groups are then $E_{k , \widehat{E_0}} [ [t] ]$ and are odd as the degree of $t$ is 0.
