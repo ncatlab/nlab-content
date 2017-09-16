@@ -35,7 +35,7 @@ $$
 
 for any $V$-algebra, $A$.
 
-A Tall--Wraith $V$-monoid is thus a triple $(P,\mu,\eta)$ with $\mu : P \odot P \to P$ and $\eta : I \to P$ (where $I$ is the free $V$-algebra on one element --- this represents the identity functor), satisfying the obvious coherence diagrams.
+A **Tall--Wraith $V$-monoid** is thus a triple $(P,\mu,\eta)$ with $\mu : P \odot P \to P$ and $\eta : I \to P$ (where $I$ is the free $V$-algebra on one element --- this represents the identity functor), satisfying the obvious coherence diagrams.
 An action of $P$ on a $V$-algebra, say $A$, is then a morphism $\rho : P \odot A \to A$ again satisfying certain coherence diagrams.
 
 Ah, but I have not told you what $P \odot A$ is!
@@ -48,6 +48,12 @@ This is again representable and we write its representing object $P \odot A$.
 
 As an aside, we note that this defines a bifunctor $VV^c \times V \to V$ which is an action of the monoidal category $VV^c$ on $V$.
 This can be extended to an action of $VV^c$ on the categories of $V$-algebra and co-$V$-algebra objects in a reasonably arbitrary base category.
+
++-- {: .query}
+[[John Baez]]: what's $VV^c$?  I don't see it defined here.
+And what's $V^c$ --- the opposite category?  I think we call that $V^{op}$ around here.
+
+=--
 
 One postscript to this is that although the category of co-$V$-algebra objects in $V Alg$ is not a variety of algebras, for a specific Tall--Wraith $V$-monoid $P$, the category of $P$-modules _is_ a variety of algebras.
 
@@ -96,7 +102,6 @@ Thus a _Tall--Wraith monoid_ for abelian groups is actually an ordinary monoid i
 
 * _The Hunting of the Hopf Ring_, [[Andrew Stacey|A. Stacey]] and S. Whitehouse, [arXiv:0711:3722](http://arxiv.org/abs/0711.3722)
 
-
 +-- {: .query}
 [[John Baez]]: The above material is tentative, based on things I heard [on the $n$-Cafe](http://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html#c025550), but may not have understood. 
 
@@ -115,6 +120,22 @@ $$
 $$
 
 but, frankly, wouldn't you rather we didn't?
+
+[[John Baez]]:  In lots of ordinary math the strategy of 'bigger fancier fonts for bigger fancier things' works fine: $a$ for an element of the set $A$ in the category $\mathcal{A}$.   But the problem is that in $n$-category theory everything is an object in some $n$-category... including every $n$-category, and every functor between them.   So, the idea of a clear hierarchy of two or three types of things, with bigger fancier things getting bigger fancier fonts, breaks down.  For example, while you might want to say
+
+"Consider the functor $\mathfrak{A}: \mathcal{A} \to \mathcal{A}$..."
+
+you'll often want to continue that sentence with 
+
+"... and think of it as an object $\mathfrak{A} \in End(\mathcal{A}).  Now, since $End(\mathcal{A}) \in MonCat$, it makes sense to equip $\mathfrak{A}$ with the structure of a monoid object, and we then call it a **monad**."
+
+This is just a very simple example of the kind of fancy level-shifting that takes place.  And this level-shifting is _precisely the style of thinking that makes $n$-category theory so powerful_.
+
+For this reason, at some point I decided Jim Dolan was very wise to put everything in the same font: it encourages mental flexibility.  I later impressed Ross Street greatly when I wrote on the blackboard "Consider a bicategory $x$."
+
+Even though I'll be eternally proud of that moment, I think it can be good to use a couple of different fonts in a given discussion to help 'set the types' of the entities in question --- hence the term 'typesetting'.  But this sort of distinction is only helpful _locally_: it's not so good to demand _globally_ consistent typesetting.  Your big fancy algebraic theory $\mathcal{A}$ is likely to become someone else's puny little object $a$ in $FinProdCat$, and then $FinProdCat$ will become a puny little object in $Doctrines$, and so on.
+
+
 =--
 
 
