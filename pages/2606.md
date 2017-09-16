@@ -2253,3 +2253,60 @@ o=====================================================================o
 o---------------------------------------------------------------------o
                                                                        
 </pre></td></table>
+
+# Commentary #
+
+## Comment 1 ##
+
+I think it's best to begin with a few simple observations, as I frequently find it necessary to return to the basics again and again, even if I take a different path each time.
+
+<table align="center" cellpadding="4" markdown="1" style="border:none; width:90%">
+
+<tr>
+<td style="border:none">__Observation 1__</td></tr>
+
+<tr>
+<td style="border:none">__IF__ we know that the element $x$ is of the type $X$</td></tr>
+
+<tr>
+<td style="border:none">__AND__ we know that the function $f$ is of the type $X \to Y$</td></tr>
+
+<tr>
+<td style="border:none">__THEN__ we know that the element $f(x)$ is of the type $Y$.</td></tr>
+
+</table>
+
+We can abbreviate this inference, that operates on two pieces of information to produce another piece of information, in the following conventional form:
+
+<div markdown="1"><font size="+1">
+
+$$\array{
+\arrayopts{\colalign{left}\rowlines{none solid}}
+\phantom{mm} x : X
+\\
+\phantom{mm} f : X \to Y
+\\
+\phantom{mm} f(x) : Y
+}$$
+
+</font></div>
+
+In this scheme of inference the notations &ldquo;$x$&rdquo;, &ldquo;$f$&rdquo;, and &ldquo;$f(x)$&rdquo; are referred to as _terms_ and interpreted as names of formal objects.
+
+In the same context the notations &ldquo;$X$&rdquo;, &ldquo;$X \to Y$&rdquo;, and &ldquo;$Y$&rdquo; give us information, or indicate formal constraints, that we may think of as denoting the _types_ of the formal objects under consideration.  By an act of _[[hypostatic abstraction]]_, we may choose to view these types as a species of formal objects existing in their own right, inhabiting their own niche, as it were.
+
+If a moment's spell of double vision leads us to see the functional arrow &ldquo;$\to$&rdquo; as the logical arrow &ldquo;$\Rightarrow$&rdquo;, then we may observe that the right side of this inference scheme follows the pattern of logical deduction that is usually called _modus ponens_.  And so we forge a tentative link between the pattern of information conversion implicated in functional application and the pattern of information conversion involved in the logical rule of _modus ponens_.
+
+## Comment 2 ##
+
+Notice that I am carrying out combinator applications "on the right", so the formulas might read backwards from what many people are used to.
+
+# References and Further Reading #
+
+Here are three references on combinatory logic and lambda calculus, given in order of difficulty from introductory to advanced, that are especially pertinent to the use of combinators in computer science:
+
+1.  Smullyan, R. (1985), _To Mock a Mockingbird, And Other Logic Puzzles, Including an Amazing Adventure in Combinatory Logic_, Alfred A. Knopf, New York, NY.
+
+1.  Hindley, J.R. and Seldin, J.P. (1986), _Introduction to Combinators and $\lambda$-Calculus_, London Mathematical Society Student Texts No.&nbsp;1, Cambridge University Press, Cambridge, UK.
+
+1.  Lambek, J. and Scott, P.J. (1986), _Introduction To Higher Order Categorical Logic_, Cambridge University Press, Cambridge, UK.
