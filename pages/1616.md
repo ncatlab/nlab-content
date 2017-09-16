@@ -11,3 +11,5 @@ one of the more pleasant places on this planet.
 There are [weekly workshops](http://www.mfo.de/programme/workshops) in Oberwolfach. The $n$Lab features workshop notes on the following events
 
 * [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]
+
+category: place
