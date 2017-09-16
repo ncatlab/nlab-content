@@ -11,11 +11,17 @@
 * tic
 {:toc}
 
-#Idea#
+## Idea
 
 A **smooth algebra** or **$C^\infty$-ring** is an [[algebra]] $A$ over the reals for which not only the product operation $\cdot : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$ lifts to the algebra product $A \times A \to A$, but for which _every smooth map_ $f : \mathbb{R}^n \to \mathbb{R}^m$ ([[morphism]] in [[Diff]]) lifts to a smooth map $A(f) : A^n \to A^m$ in a compatible way. 
 
-In short this means that $A$ is a [[product]]-preserving [[presheaf|co-presheaf]] on [[CartSp]].
+In short this means that $A$ is 
+
+* a [[product]]-preserving [[presheaf|co-presheaf]] on [[CartSp]];
+
+* equivalently: an algebra for the [[Lawvere theory]] [[CartSp]];
+
+The smoothness of such $C^\infty$-rings is witnessed by the fact that this Lawvere theory is even a [[Fermat theory]].
 
 The [[opposite category]] of the [[category]] of $C^\infty$-rings is the category of [[smooth loci]]. This and its subcategories play a major role as [[site]]s for [[category of sheaves|categories of sheaves]] that serve as  [[Models for Smooth Infinitesimal Analysis|models]] for [[synthetic differential geometry]].
 
