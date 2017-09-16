@@ -1,6 +1,6 @@
 #Idea#
 
-A _crossed module_ (of groups) is a (nonabelian) chain-complex incarnation of a strict [[2-group]]. For certain purposes, e.g., their homotopy theory, crossed modules can be usefully thought of as [[crossed complex|crossed complexes]] concentrated in degree 1 and 2, algebraically they are generalisations of normal subgroups, and 'simplicially' are [[Moore complex]]es of certain [[simplicial group]]s. Historically they were the first example of [[higher dimensional algebra]] to be studied.
+A _crossed module_ (of groups) is a (nonabelian) [[chain complex|chain-complex]] incarnation of a strict [[2-group]]. For certain purposes, e.g., their [[homotopy theory]], crossed modules can be usefully thought of as [[crossed complex|crossed complexes]] concentrated in degree $1$ and $2$; algebraically they are generalisations of [[normal subgroup]]s; and 'simplicially' are [[Moore complex]]es of certain [[simplicial group]]s. Historically they were the first example of [[higher dimensional algebra]] to be studied.
 
 #Definition#
 
@@ -67,7 +67,7 @@ This equation is known as the **Peiffer rule** in the literature.
 
 * Another standard example of a crossed module is $M \to ^0 P$ where $P$ is a group and $M$ is a $P$-module. Thus the category of modules over groups embeds in the category of crossed modules. 
 
-* If $\mu: M \to P$ is a crossed module with cokernel $G$, and $M$ is abelian, then the operation of $P$ on $M$ factors through $G$. In fact such crossed modules in which both $M$ and $P$ are abelian should not be sneezed at! A good example is $\mu: C_2 \times C_2 \to C_4$ where $C_n$ denotes the cyclic group of order $n$, $\mu$ is injective on each factor, and $C_4$ acts on the product by the twist.  This crossed module has a [[classifying space]] $X$ with fundamental and second homotopy groups $C_2$ and non trivial $k$-invariant in $H^3(C_2, C_2)$, so $X$ is not a product of Eilenberg-Mac Lane spaces.  However the crossed module is an algebraic model and so one one can do algebraic constructions with it. It  gives in some ways a better feel for the space than the $k$-invariant. The [[Higher Homotopy van Kampen Theorem]] implies that   the above $X$ gives the 2-type of the mapping cone of the map of classifying spaces $BC_2 \to BC_4$. 
+* If $\mu: M \to P$ is a crossed module with cokernel $G$, and $M$ is abelian, then the operation of $P$ on $M$ factors through $G$. In fact such crossed modules in which both $M$ and $P$ are abelian should not be sneezed at! A good example is $\mu: C_2 \times C_2 \to C_4$ where $C_n$ denotes the cyclic group of order $n$, $\mu$ is injective on each factor, and $C_4$ acts on the product by the twist.  This crossed module has a [[classifying space]] $X$ with fundamental and second homotopy groups $C_2$ and non trivial $k$-invariant in $H^3(C_2, C_2)$, so $X$ is not a product of Eilenberg-Mac Lane spaces.  However the crossed module is an algebraic model and so one one can do algebraic constructions with it. It  gives in some ways a better feel for the space than the $k$-invariant. The [[higher homotopy van Kampen theorem]] implies that   the above $X$ gives the 2-type of the mapping cone of the map of classifying spaces $BC_2 \to BC_4$. 
 
 
 * Suppose $F\stackrel{i}{\to}E\stackrel{p}{\to}B$ is a fibration sequence
