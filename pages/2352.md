@@ -69,6 +69,9 @@ by $\chi_f$.
 
 +--{: .query}
 [[Mike Shulman]]: It's not obvious to me that this is the best thing to call the graph of a functor; there are lots of other graphy things one can construct from a functor that all reduce to the usual notion of the graph of a function.  To start with, there is of course also the induced opfibration oven $C\times D^{op}$, would you call that the "opgraph"?  But actually, the two-sided fibration $D \leftarrow P \to C$ (an opfibration over $C$ and a fibration over $D$) looks to me more like a graph.  And then there is of course the *other* profunctor induced by $f$, which gives a fibration over $C\times D^{op}$, an opfibration over $C^{op}\times D$, and a two-sided fibration from $C$ to $D$.
+
+[[Urs Schreiber]]: I would be inclined to loosely say "graph" for all of these and to introduce terminology like "opgraph" when it really matters which specific realization we mean. Because all these seem to be so similar to me that I am not sure if it is worth distinguishing them a lot. For instance, wouldn't an analogous discussion be possible concerning what we call $F^{op} : C^{op} \to D^{op}$ given a functor $F : C \to D$? I don't actually know what a standard term is, does one say "opfunctor" for this? But I'd say it doesn't matter much either way, calling $F^{op}$ just a functor which effectively is the functor $F$ doesn't do much harm.
+
 =--
 
 
