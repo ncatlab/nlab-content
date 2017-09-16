@@ -14,3 +14,7 @@ Then a __direct sum__, or __weak direct product__, of the family is a candidate
 $$ \sum_{i: I} A_i $$
 for direct sum with the [[universal property]] that, given any other candidate $S$, there is a unique map $u: \sum A \to S$ such that $\sum A \to^u S \to^{\pi^i} A_i$ equals $\sum A \to^{\pi^i} A_j$ and $A_i \to^{\iota_i} \sum A \to^u S$ equals $A_i \to^{\iota_i} S$; that is,
 $$ \pi^i \circ u = \pi^i ; \quad u \circ \iota_i = \iota_i .$$
+
++--{: .query}
+This isn\'t actually right yet ...  ---Toby
+=--
