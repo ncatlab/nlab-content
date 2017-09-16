@@ -149,35 +149,35 @@ In rough outline the procedure is this:
 
 
 
-We need to talk about _spaces_ of sorts: 
+We need to talk about various _spaces_ of sorts: 
 
-* a space $X$ that is the **target space** -- often, but not always, to be interpreted as physical spacetime -- in which the $d$-dimensional object -- for $d=0$ for instance a point particle such as an _electron_ -- whose dynamics we want to encode propagates.
+* a space $X$ that is the **target space** -- often, but not always, to be interpreted as physical spacetime -- in which the $d$-dimensional object propagates -- for $d=0$ for instance a point particle such as an _electron_ -- whose dynamics we want to encode.
 
-  This space may be just a [[manifold]] but we want to allow it to be a kind of space a bit more general than that, for instance an [[orbifold]].
+  This space might be just a [[manifold]] but we want to allow it to be a kind of space a bit more general than that, for instance an [[orbifold]].
 
   When we are describing [[gauge theory]] the target space is smooth refinement of a [[classifying space]] $\mathbf{B}G$.
 
   When we are describing finite gauge theory such as [[Dijkgraaf-Witten theory]], the target space is just the one-object [[groupoid]] $\mathbf{B}G$ that is the [[delooping]] of the gauge group $G$. 
 
-* for each $(d+1)$-dimensional [[manifold]] $\Sigma$ a **path space** or **configuration space** $[\Sigma,X]$ of maps from $\Sigma$ into $X$.
+* Moreover, for each $(d+1)$-dimensional [[manifold]] $\Sigma$ we need a **path space** or **configuration space** $[\Sigma,X]$ of maps from $\Sigma$ into $X$.
 
-The [[category theory|general abstract nonsence]] for dealing with general spaces of this sort is that of [[space and quantity]]. As described at [[motivation for sheaves, cohomology and higher stacks]], this leads one to describe a space as an [[infinity-stack]] on some [[site]] $S$.
+The [[category theory|general abstract nonsence]] for dealing with general spaces of this sort is that of [[space and quantity]]. As described at [[motivation for sheaves, cohomology and higher stacks]], this leads one to describe a space as an [[∞-stack]] on some [[site]] $S$.
 
-In the simplest case, which the reader should keep in mind, the [[site]] in question is the [[point]] and an [[infinity-stack]] on it is just an [[infinity-groupoid]]. In turn in simple cases of this, which the reader should still keep in mind, this [[infinity-groupoid]] will be just a [[groupoid]] or at most a [[2-groupoid]].
+In the simplest case, which the reader should keep in mind, the [[site]] in question is the [[point]] and an [[∞-stack]] on it is just an [[∞-groupoid]]. In turn in simple cases of this, which the reader should still keep in mind, this [[∞-groupoid]] will be just a [[groupoid]] or at most a [[2-groupoid]].
 
-Whichever choice one makes, the collection of all such generalized spaces modeled on a certain [[site]] $S$ forms an [[(infinity,1)-topos]] $\mathbf{H}$. 
+Whichever choice one makes, the collection of all such generalized spaces modeled on a certain [[site]] $S$ forms an [[(∞,1)-topos]] $\mathbf{H}$. 
 
-Despite possibly its appearance, the reader should take this statement as suggesting an immense simplification instead of a huge complification: the language of [[(infinity,1)-topos]] is a user interface that makes pretty sophisticated and rich notions of generalized spaces have the same look-and-feel as just plain [[topological space]]s. It's the inner workings of the formalism that will take of things coming out right even when we talk about richer objects.
+Despite -- possibly -- its appearance, the reader should take this statement as suggesting an immense simplification instead of a huge complification: the language of [[(∞,1)-topos]] is a user interface that makes pretty sophisticated and rich notions of generalized spaces have the same look-and-feel as just plain [[topological space]]s. It's the inner workings of the formalism that will take of things coming out right even when we talk about richer objects.
 
-In particular, it is the machinery of [[models for infinity-stack (infinity,1)-toposes]] that provides all the tools for actually performing the operations that we shall consider. The reader unfamiliar with that will suffer little loss from concentrating his or attention on the toy examples where all "spaces" involved are finite [[groupoid]]s and trust that everything goes through analogously also in the other examples.
+In particular, it is the machinery of [[models for ∞-stack (∞,1)-toposes]] that provides all the tools for actually performing the operations that we shall consider. The reader unfamiliar with that will suffer little loss from concentrating his or attention on the toy examples where all "spaces" involved are finite [[groupoid]]s and trust that everything goes through analogously also in the other examples.
 
 
 ## the notion of path {#path}
 
 
-With an [[((∞,1)-topos]] context $\mathbf{H}$-fixed we are in a context that allows us to study [[cohomology]]. A classical background field on a target space $X$ is in parts a cocycle on $X$ with values in some coefficient object $A \in \mathbf{H}$.
+With an [[(∞,1)-topos]] $\mathbf{H}$-fixed we are in a context that allows us to study [[cohomology]]. A classical background field on a target space $X$ is in parts a cocycle on $X$ with values in some coefficient object $A \in \mathbf{H}$.
 
-But, as indicated above, it is actually, more: it is a _differential cocycle_ on $X$: something that depends not just on $X$ itself, but also on a notion of paths in $X$.
+But, as indicated above, it is actually, more: it is a _[[schreiber:Differential Nonabelian Cohomology|differential cocycle]]_ on $X$: something that depends not just on $X$ itself, but also on a notion of paths in $X$.
 
 To encode this we may pick a [[simplicial object|cosimplicial object]]
 
@@ -185,11 +185,16 @@ $$
   \Delta_H : \Delta \to \mathbf{H}
 $$
 
-in our $(\infty,1)$-category of spaces, that encodes which object in $\mathbf{H}$ models the standard $k$-[[simplex]] regarded as a space. For instance if $\mathbf{H}$ is the [[(infinity,1)-topos]] of [[Lie ∞-groupoid]]s modeled by [[∞-stack]]s on [[Diff]], we would take $\Delta_H^n$ to be the standard $n$-simplex $\Delta^n_H \subset \mathbb{R}^n$ regarded as a smooth [[manifold]] in the standard way.
+in our $(\infty,1)$-category of spaces, that encodes which object in $\mathbf{H}$ models the standard $k$-[[simplex]] regarded as a space. For instance if $\mathbf{H}$ is the [[(∞,1)-topos]] of [[Lie ∞-groupoid]]s modeled by [[∞-stack]]s on [[Diff]], we would take $\Delta_H^n$ to be the standard $n$-simplex $\Delta^n_H \subset \mathbb{R}^n$ regarded as a smooth [[manifold]] in the standard way.
 
-Then the space of disk-shaped $k$-dimensional paths in $X$ is $[\Delta_H^n,X]$.
+Then denote the space of disk-shaped $k$-dimensional paths in $X$ by 
 
-These spaces glue together to the [[path infinity-groupoid]]
+$$
+  [\Delta_H^n,X]
+  \,.
+$$ 
+
+These spaces glue together to the [[path ∞-groupoid]]
 
 $$
   \Pi(X) := \lim_\to [\Delta_H^\bullet, X]
@@ -198,7 +203,7 @@ $$
 
 This is an [[∞-groupoid]] whose [[k-morphism]] are generated from the original $k$-morphisms of $X$ and the $k$-dimensional path $\phi : \Delta^k_H \to X$.
 
-For instance if $X = Y//G$ is a global [[orbifold]], the 1-morphisms in $\Pi(X)$ will be generated from smooth paths $\gamma: y_1 \to y_2$ in $Y$ as well as orbifold jumps $g : y_1 \to g(y_1)$ subject to the relation
+For instance if $X = Y//G$ is a global [[orbifold]], the 1-morphisms in $\Pi(X)$ are generated from smooth paths $\gamma: y_1 \to y_2$ in $Y$ as well as orbifold jumps $g : y_1 \to g(y_1)$ subject to the relation
 
 $$
   \array{
@@ -211,7 +216,7 @@ $$
   \,.
 $$
 
-Or if $X = C(Y)$ is realized as the [[Cech nerve]] of some [[Cech cover]] $(U = \coprod_i U_i) \to Y$ then $\Pi(X)$ will be generated from paths $(\gamma,i) : (y_1,i) \to (y_2,i)$ in $U_i$ for all $i$ and transitions $(y,i) \to (y,j)$ for all $y \in U_i \cap U_j$ subject to the condition
+Or if $X = C(Y)$ is realized as the [[Cech nerve]] of some [[Cech cover]] $(U = \coprod_i U_i) \to Y$ then $\Pi(X)$ is generated from paths $(\gamma,i) : (y_1,i) \to (y_2,i)$ in $U_i$ for all $i$ and transitions $(y,i) \to (y,j)$ for all $y \in U_i \cap U_j$ subject to the condition
 
 $$
   \array{
@@ -235,16 +240,17 @@ $$
   \,.
 $$
 
-We think of as the image of some $k \in D$ under $\Sigma_H$  as the realization in $\mathbf{H}$ of some abstract [[cobordism]] whose boundary component inclusions are the images $\Sigma^j_H \to \Sigma_H^k$ of all morphisms $j \to k$ in $D$.
+We think the image of some $k \in D$ under $\Sigma_H$  as the realization in $\mathbf{H}$ of some abstract [[cobordism]] whose boundary component inclusions are the images $\Sigma^j_H \to \Sigma_H^k$ of all morphisms $j \to k$ in $D$.
 
 So $\Sigma_H$ encodes a [[multispan|multi-cospan]] of cobordisms in $H$. In principle $\Sigma_H$ will in general be supposed to range over _all_ cobordisms in some sense, but for our discussion it will be complete sufficient to concentrate on much less. Most of our discussion concerns a handful of cobordisms, usually just two of them and their composites.
 
 In any case, by slight abuse of notation, we shall write
 
 $$
-  Bord(X) := \lim_\to [\Sigma_H^\bullet, X]
+  Bord_\infty(X) := Bord(X) := \lim_\to [\Sigma_H^\bullet, X]
 $$
 
+for the ([[homotopy limit|homotopy]]) [[colimit]] over this [[multispan|multi-cospan]] of cobordisms
 and speak of the $\infty$-groupoid of **bordisms in $X$**. If we assume that $\Sigma_H$ ranges at least over the disk-shaped cobordisms $\Delta^k_H$ we have a canonical inclusion
 
 $$
@@ -255,16 +261,18 @@ $$
 
 ## the notion of background field {#backgroundfield}
 
-a flat classical background field (with vanishing [[field strength]]) is a morphism
+A background field that is _flat_ (meaning that it has vanishing [[field strength]]) is a morphism
 
 
 $$
   \nabla : \Pi(X) \to A
 $$
 
-(the more general situation is described at ..., but need not concern us here for the moment. It's quantization will structurally be a bit, but not essentially different from that of the flat case)
+in $\mathbf{H}$.
 
-this encodes an $A$-[[principal ∞-bundle]] [[connection on a bundle|with connection]]. 
+> The more general situation is described at ..., but need not concern us here for the moment. Its quantization is structurally slightly but not, for our purposes, essentially different from that of the flat case.
+
+This encodes an $A$-[[principal ∞-bundle]] [[connection on a bundle|with connection]]: the value $\nabla : x \mapsto P_x$ over a point is the [[fiber]] of the principal $\infty$-bundle, and the value on a path $\nabla : x_1 \stackrel{\gamma_1}{\to} x_2 \mapsto P_{x_1} \to P_{x_2}$ is the parallel transport along $\gamma$.
 
 In the case that $A = \mathbf{B}G$ is the [[delooping]] of an $\infty$-group $G$, so that $A$ has a unique [[pointed object|point]] $pt_A : {*} \to \mathbf{B}G$ the total space of this [[principal ∞-bundle]] is the ([[homotopy pullback|homotopy]]) [[pullback]] $P$ in
 
@@ -287,7 +295,9 @@ $$
   \rho : A \to V
 $$
 
-on some [[(∞,1)-category]] $V$. As a cocycle this is just the composite
+on some [[(∞,1)-category]] $V$. See below for examples.
+
+As a cocycle this is just the composite
 
 $$
   \rho_* \nabla : \Pi(X) \stackrel{\nabla}{\to}
@@ -301,7 +311,7 @@ We will often abuse notation and write just $\nabla$ for $\rho_* \nabla$, when t
 
 ## the notion of action functional {#actionfunctional}
 
-A choice of extension of this through the inclusion $\Pi(X) \to Bord(X)$ is the corresponding **action functional** $\exp(S_\nabla)$
+A choice of extension of the parallel transport morphism $\nabla : \Pi(X) \to A$ through the inclusion $\Pi(X) \to Bord(X)$ is the corresponding **action functional** $\exp(S_\nabla)$
 
 $$
   \array{
@@ -314,15 +324,20 @@ $$
   \,.
 $$
 
+This extension amounts to choosing (possibly uniquely) _traces_ over parallel transport. 
+
+**example**
+Let $\nabla : \Pi(X) \to Vect$ encode the parallel transport in a [[vector bundle]] with connection. And consider the extension to $Bord_1(X)$ with just 1-dimensional cobordisms in $X$. Then the extension amounts to finding a value for $\exp(S_\nabla)$ on the circle. To be functorial and symmetric monoidal, it must be true that the value on the circle is the result of cutting the circle open at any point, evaluating $\nabla$ on the resulting 1-disk-shaped cobordism and then applying the trace on the vector space over the endpoint.
+
 For each cobordism $\Sigma$ the component $\exp(S_\nabla)|_\Sigma$ of the action functional will define a total space of an associated bundle $E_\Sigma$. These are discussed in the next section.
 
 
 ## the notion of section and state {#section} {#state}
 
-A _state_ of the quantum theory over a cobordism $\Sigma$ is supposed to be a _section_ of the bundle $E_\Sigma \to [\Sigma,X]$ over the configuration space $[\Sigma,X]$ of fields on $\Sigma$, where we allow generalized sections that may be distributional.
+A _state_ of the quantum theory over a cobordism $\Sigma$ is supposed to be a _section_ of the bundle $E_\Sigma \to [\Sigma,X]$ over the configuration space $[\Sigma,X]$ of fields on $\Sigma$, where we allow generalized sections that may be distributional. This we define now.
 
 In order to define sections and states,
-we need to fix a [[point]] of the coefficient object $V$, i.e. a morphism
+we need to fix a [[pointed object|point]] in the coefficient object $V$, i.e. a morphism
 
 $$
   pt_V : {*} \to V
@@ -332,7 +347,7 @@ from the [[terminal object]] ${*}$ into $V$. The choice of this point determines
 
 **definition (ground monoid)**
 
-given the [[pointed object]] ${*} \stackrel{pt_V}{\to} V$ we say that the respective **ground monoid** is the [[endomorphism|endomorphism monoid]]
+Given the [[pointed object]] ${*} \stackrel{pt_V}{\to} V$ we say that the respective **ground monoid** is the [[endomorphism|endomorphism monoid]]
 
 $$
   \Omega_{pt} V = End_V(pt_V)
@@ -353,7 +368,7 @@ $$
 
 **example: ordinary linear quantum mechanism**
 
-In the special case that $V = $ [[Vect]] over some ground field $k$ the canonical point is that ground field and then the "ground monoid" is again canonically identified with the ground field: $End_{Vect_k}(k) \simeq k$. Therefore the name "ground monoid" as a generalization of this situation.
+In the special case that $V = $ [[Vect]] over some ground field $k$ the canonical point is that ground field. Then the "ground monoid" is again canonically identified with the ground field: $End_{Vect_k}(k) \simeq k$. Therefore the name "ground monoid" as a generalization of this situation.
 
 
 More generally, for $W : {*}\to V$ any other point of $V$, we say that the [[2-limit|lax pullback]]
@@ -372,7 +387,7 @@ is the object of _elements of $W$_ relative to the chosen point.
 
 **example: ordinary vectors**
 
-Again in the special case that $V = $ [[Vect]] with the above standard point, $W \in V$ will be some vector space and $el_{k}(W)$ is the set, regarded as a [[discrete category]] of its ordinaly elements -- the vectors in $W$.
+Again in the special case that $V = $ [[Vect]] with the above standard point, $W \in V$ will be some vector space and $el_{k}(W)$ is the set -- regarded as a [[discrete category]] of its ordinaly elements -- of the vectors in $W$.
 
 Moreover, given the background field differential cocycle or the action functional
 
@@ -391,9 +406,10 @@ $$
     Bord(X) &\stackrel{\exp(S_\nabla)}{\to}&
    V
   }
+  \,.
 $$
 
-Next we make use of the fact that we are in fact in an [[(infinity,1)-topos]] so that [[colimit]]s are [[pullback stability|pullback stable]]... (not yet, really)
+This $E$ is really the [[action groupoid]] of the "[[action]]" of $Bord(X)$ on $V$: it is much like the [[Atiyah Lie groupoid]] of a [[principal bundle]], with the difference that its objects are elements in an associated (not a principal bundle) and its morphism connect only elements in the fibers that are related by parallel transport along the corresponding path down in $X$.
 
 For each component $\exp(S_\nabla)|_\Sigma : [\Sigma,X] \to V$ we get a corresponding lax pullback
 
@@ -423,24 +439,36 @@ $$
   }
 $$
 
-is the fiber of the underlying $V$-$\infty$-bundle
+is the fiber of the underlying $V$-$\infty$-bundle over $x$-
 
 **example**
 
-in the case that $V = FinVect$ and $\nabla : \Pi(X) \to Vect$ is a [[vector bundle]] [[connection on a bundle|with connection]] and with the canonical point chosen for $Vect$ as above, this $el_{pt_V}(E_x)$ is simply the fiber of that vector bundle over $x$.
+In the case that $V = FinVect$ and $\nabla : \Pi(X) \to Vect$ is a [[vector bundle]] [[connection on a bundle|with connection]] and with the canonical point chosen for $Vect$ as above, this $el_{pt_V}(E_x)$ is simply the fiber of that vector bundle over $x$.
 
-Choose the [[geometric function theory]] given by [[over category|over categories]] in $\mathbf{H}$ as described at [[examples for geometric function objects]]
+Picking a point $v : {*} \to E_{pt}$ in the total space is like picking a $\delta$-distributional section of $E_{pt} \to X$ with support at $x$ and value $v$ there. Picking two points $v_1 \sqcup v_2   : {*} \sqcup {*} \to E_{pt}$ is naturally interpreted as picking the _sum_ of two such sections.
+
+Picking instead a map $v/k : \mathbf{B}G \to {*} \to E_{pt}$ for $G$ a finite group of cardinality $k$ is like picking a $\delta$-distributional section with value $v$ and dividing its value by $k$.
+
+In light of this, we choose now the [[geometric function theory]] given by [[over category|over categories]] in $\mathbf{H}$.  This is as described at [[examples for geometric function objects]]
 
 $$
   C :=  \mathbf{H}/(-) :   \mathbf{H} \to (\infty,1)Cat
 $$
 
-a _section of the background field_ or _state of the quantum system_ is over each point $x$ an object $C(E_x)$.
+Then for $\Sigma$ a cobordism, a 
+a **section** of the background field or **state** of the quantum system over $\Sigma$ is an object 
+
+$$
+  \psi \in C(E_{\Sigma})
+  \,.
+$$
 
 
 ### special case: degroupoidification for $V$-phased groupoids ##
 
-In the case that $V = FinVect$ we have that $E_x$ is (the [[discrete category]] on the set underlying) a vector space.
+For some choices of $V$ this general notion of section may be _degroupified_ -- to yield an ordinary notion of (still possibly distributional) section.
+
+In the case that $V = FinVect$ we have that $E_x$ is (the [[discrete category]] on the set underlying) the vector space that is the fiber of the background vector bundle over $X$ at $x \in X$.
 
 For $(\psi : \Psi \to E_x) \in C(E_x)$ consider the underlying morphism of plain $\infty$-groupoids and interpret this as the vector
 
@@ -448,7 +476,7 @@ $$
   \sum_{v \in E_x} |\psi^{-1}(v)|\cdot v
 $$  
 
-given by the linear combination of all elements $v \in E_x$ weighted by the [[groupoid cardinality]] of the [[infinity-groupoid]] sitting over it.
+given by the linear combination of all elements $v \in E_x$ weighted by the [[groupoid cardinality]] of the [[∞-groupoid]] sitting over it.
 
 
 ##  the propagation map {#propagation}
@@ -473,13 +501,13 @@ $$
     & \swarrow && \searrow
     \\
     [\Sigma_{in},X]
-    &&&&
+    &&\downarrow^{\exp(S_\nabla)_\Sigma}
+    &&
     [\Sigma_{out},X]
     \\
     &
     {}_{\exp(S_\nabla)}_{in}\searrow
-    & \downarrow^{\exp(S_\nabla)_\Sigma}
-    &
+    &     &
     \swarrow_{\exp(S_\nabla)_{out}}
     \\
     &&
@@ -516,7 +544,18 @@ $$
 $$
 
 
-given $\psi : \Psi \to E_{in}$ we extract the corresponding "degroupoidified" vector of the corresponding section over $\phi|_{\Sigma_in} \in [\Sigma_{in},X]$ as the pullback
+**remark** 
+If instead of the over-category [[geometric function object]] we use its [[Kan fibrant replacement]] $Ex^\infty(\mathbf{H}/(-))$ this presciption becomes functorial also for higher morphisms coming from [[multispan|spans of spans]] 
+
+
+
+# Concrete examples {#examples}
+
+
+**Reminder on sections**
+In order to unwrap the above abstract prescription in some special cases recall how we extract from the value $\psi_x \in C(E_{x})$ of a generalized section $\psi \in C(E_{pt})$ an ordinary vector in the case that $E$ is a [[vector bundle]]:
+
+given $\psi : \Psi \to E_\Sigma$ we extract the corresponding "degroupoidified" vector of the corresponding section over $\phi|_{\Sigma} \in [\Sigma,X]$ as the pullback
 
 $$
   \array{
@@ -524,52 +563,207 @@ $$
     &\to&
     \Psi
     \\
-    \downarrow^{\psi|_{\phi|_{\Sigma_{in}}}}
+    \downarrow^{\psi|_{\phi|_{\Sigma}}}
     &&
     \downarrow
     \\
-    V_{\phi|_{\Sigma_{in}}} &\stackrel{p}{\to}& E_{in}
+    V_{\phi|_{\Sigma}} &\stackrel{p}{\to}& E_\Sigma
     \\
     \downarrow && \downarrow
     \\
     {*}
-    &\stackrel{\phi|_{\Sigma_{in}}}{\to}&
-    [\Sigma_{in},X]
+    &\stackrel{\phi|_{\Sigma}}{\to}&
+    [\Sigma,X]
   }
 $$
 
 
 
-# Concrete examples {#examples}
-
 ## electromagnetically charged particle {#eleccharged}
 
-..
+The background field for the electrically charged particle is the [[electromagnetic field]]. As discussed there, is this modeled by a [[Deligne cohomology|Deligne cocycle]] in degree 2, or equivalently a line bundle with connection.
 
-take $A = \mathbf{B}U(1)$ such that
+This is modeled in the present language by choosing as coefficient object $A = \mathbf{B}U(1)$,
+the [[delooping]] of the circle [[Lie group]] $S^1 \simeq U(1)$.
+
+
+Then an electromagnetic background field over a [[manifold]] $X$ is encoded in a morphism
 
 $$
  \nabla : P_1(X) \to \mathbf{B}U(1)
+  \,.
 $$
 
-encodes the [[electromagnetic field]]
+See [[connection on a bundle]] for more details on this special case.
 
-and choose the standard representation
+We choose the standard representation
 
 $$
   \rho : \mathbf{B}U(1) \to Vect
 $$
 
-then the above propagation prescription sends the $\delta$-section $\delta_x$ \to $U \delta_x : y \mapsto$ = sum over all paths $\gamma : x \to y$ of $\exp(S_\nabla(\gamma))$.
-
-
-## [[Dijkgraaf-Witten theory]] {#dw}
-
-Let $X = \mathbf{B}G$ for $G$ a finite [[group]]. Then $[\Sigma,\mathbf{B}G] = G Bund(\Sigma)$ is the [[orbifold]] of $G$-[[principal bundle]]s on $\Sigma$.
-
-Consider for simplicity just codimension 1. To do that regard $Bord(\mathbf{B}G)$ as a 1-category whose objects are 2-dimensional closed manifolds $\Sigma_{in}, \Sigma_{out}$ and whose morphism corresponding spans of 3-dimensional cobordisms $\Sigma_{in} \to \Sigma \leftarrow \Sigma_{out}$.  
+of $U(1)$ on $\mathbb{C}$.
 
 Then 
+
+* $E_{pt} \to X$ is the total space of the corresponding [[vector bundle|line bundle]]. 
+
+* for $\Sigma = I = \Delta^1_H$ the [[interval]] the configuration space  $[\Delta^1_H,X] = [I,X]$ is the path space of $X$;
+
+* the bundle $E_{I} \to [I,X]$ can be thought of as having as fiber over a path $(\gamma : x \to y) \in [I,X]$ the space of pairs of vectors $(v_x, v_y) \in E_x \times E_y$ that are related by parallel transport along $\gamma$, i.e. those for which $v_y = \rho\nabla(\gamma)(v_x)$.
+
+* The two span maps
+  
+  $$
+   \array{
+    && E_{I}
+    \\
+    & {}^{E_{in}}\swarrow && \searrow^{E_{out}} 
+    \\
+    E_{pt} &&&& E_{pt}
+   }
+  $$
+
+  project on the corresponding component:
+
+  $$
+    E_{in} : (v_x, v_y) \mapsto v_x
+  $$
+
+  $$
+    E_{out} : (v_x, v_y) \mapsto v_y
+  $$
+
+
+To see how the corresponding quantum propagation acts on a section, it is sufficient to look at a single $\delta$-distribution state
+
+$$
+  \psi : {*} \to E_{pt}
+$$
+
+that hits a vector $\psi_x \in E_x$. In diagrams this means that
+
+$$
+  \array{
+     &&
+     E_{pt}
+     \\
+     & {}^\psi \nearrow & \downarrow
+    \\
+    {*} &\stackrel{x}{\to}& X
+  }
+$$
+
+and
+
+$$
+  \array{
+    p^* {*} &\to& {*}
+    \\
+    \downarrow^{\psi_x} && \downarrow^{\psi}
+    \\
+    E_x &\stackrel{p}{\to}& E_{pt}
+    \\
+    \downarrow && \downarrow
+    \\
+    {*} &\stackrel{x}{\to}& X
+  }
+  \,.
+$$
+
+
+Then the pull-push propagation functor
+
+$$
+  Z_\nabla(I) : C(E_{pt}) \to C(E_{pt})
+$$
+
+sends $\psi$ to the composite right diagonal morphism in
+
+$$
+  \array{
+    && (E_{in})^* \Psi
+    \\
+    & \swarrow && \searrow^{(E_{in})^* \psi}
+    \\
+    {*}= \Psi&&&& E_{I}
+    \\
+    &\searrow^{\psi}&& {}^{E_{in}}\swarrow && \searrow^{E_{out}}
+    \\
+    &&E_{pt} &&&& E_{pt}
+  }
+  \,.
+$$
+
+We see that
+
+* $(E_{in})^* \Psi$ is the space with points the set of pairs $(v_x,v_y) \in E_{I}$ such that $v_x = \psi_x$;
+
+* hence the map 
+
+  $$
+   (E_{out})_* \psi : (E_{in})^* \Psi 
+    \stackrel{(E_{in})^* \psi}{\to} E_{I}
+    \stackrel{E_{out}}{\to} E_{pt}
+  $$
+
+  is on the level of sets the map whose fiber over 
+  the vector $v_y \in E_y \subset E_{pt}$ at $y$ is 
+  the set of paths $\gamma : x \to y$ 
+  such that $v_y = \rho\nabla(\gamma)$.
+
+This means that, by the above prescription, the degroupoidification of our propagated section is the section $Z_\nabla(I)(\psi)$ whose value over $y \in X$ is formally
+
+  $$ 
+    Z_\nabla(I)(\psi)_y = \sum_{\gamma: x \to y}
+    \exp(S_\nabla(\gamma))(\psi_x)
+    \,.
+  $$
+
+That's the expression of the Feynman-Kac [[path integral]] for the electron, except, of course,  that the [[Wiener measure]] on the space of paths is missing.
+
+
+
+## Dijkgraaf-Witten theory {#dw}
+
+[[Dijkgraaf-Witten theory]] is the [[gauge theory]] which, when regarded as a [[sigma-model]] is given by
+
+* target space $X$ is the [[delooping]] $X := \mathbf{B}G$ of a finite [[group]] $G$;
+
+* the background field is a morphism $\nabla : \Pi(\mathbf{B}G) \to \mathbf{B}^3 U(1)$ into the 3-fold [[delooping]] of the [[Lie group]] $U(1)$ (see [[Eilenberg-MacLane object]]).
+
+This means that the configuration spaces of DW theory over a cobordisms $\Sigma$ are the [[groupoid]]s ([[orbifold]]s) $[\Sigma,\mathbf{B}G] = G Bund(\Sigma)$  of $G$-[[principal bundle]]s on $\Sigma$.
+
+Since the cobordisms  $\Delta^k_H$ are disk-shaped, the groupoids of $G$-principal bundles on them are trivial and we have
+
+$$
+  \Pi(\mathbf{B}G) \simeq \mathbf{B}G
+  \,.
+$$
+
+
+Hence the background field for DW theory is actually just a 
+
+$$
+  \nabla : \mathbf{B}G \to \mathbf{B}^3 U(1)
+  \,.
+$$
+
+This just reflects the fact that $G$-principal bundles for discrete group $G$ have a unique and flat [[connection on a bundle|connection]].
+
+By the discussion at [[group cohomology]] this DW background field is nothing but a group cocycle defining a class in degree 3 group cohomology $H^3(G,U(1))$. This is the form in which the background data for DW theory was originally and is still usually presented.
+
+
+The standard representation of the gauge group $\mathbf{B}^2 U(1)$ (recall that $G$ is from the [[sigma-model]] perspective not a gauge group but defines the target space!) is on $\mathbf{B}^2 1dVect \hookrightarrow \mathbf{B} Vect Mod$ 
+
+$$
+  \rho : \mathbf{B}^3 U(1) \to \mathbf{B} Vect Mod
+  \,.
+$$
+
+
+
+Then for $\Sigma_{in} \to \Sigma \leftarrow \Sigma_{out}$ a [[cobordism]] [[cospan]] the corresponding quantum propagation 
 
 $$
   Z(\Sigma) : C(E_{\Sigma_{in}})  \to 
@@ -595,7 +789,19 @@ $$
 $$
 
 
+Actually, more precisely due to the nature of the [[homotopy pullback]] this picks up another factor of $|Aut(P|_{in})|$.
+
+
+
 ## the Yetter model {#yetter}
+
+The [[Yetter model]] is the name for the [[sigma-model]] whose target space is the [[delooping]] $\mathbf{B}G$ of a strict [[2-group]] $G$ coming  from a [[crossed module]] $(G_2 \stackrel{\delta}{\to} G_1)$.
+
+Its discussion is pretty analogous to that of the Dijkgraaf-Witten model discussed above. The important difference is that now the automorphisms of a [[principal 2-bundle]] classified by a map $\Sigma \to \mathbf{B}G$ form a [[2-group]] themselves, so that the [[Leinster measure]] coefficient $|p^{-1}(v_x)|$ in our degroupoidification formula becomes slightly more subtle.
+
+The right factor was originally found in the literature by requiring the path integral of the Yetter model to be independent of choices made when representing $G$-2-bundles as cocycles. The following proposition shows that the factor obtained this way is indeed nothing but the 2-groupoid Leinster measure.
+
+>this is an old version of this proof, I'll upload a better one...
 
 
 **Proposition.** 
