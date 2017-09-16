@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-04-20 #
+
+*  [[Toby Bartels]]:
+   *  Another question for Finn, now at [[minimal logic]].
+   *  More correct material at [[pure set]].
+
 # 2009-04-19 #
 
 *  [[Toby Bartels]]:  I\'ve started a dispute at [[paraconsistent logic]].
