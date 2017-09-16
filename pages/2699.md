@@ -62,7 +62,8 @@ The point is to prove the following due to Lurie.
 
 **Theorem** The functor $A \mapsto E(A)$ is representable by a derived Deligne-Mumford stack $\mathcal{M}^{Der} = (\mathcal{M} , O_\mathcal{M} )$.  Further, $\mathcal{M}$ is equivalent to the topos underlying $\mathcal{M}_{1,1}$ and $\pi_0 O_\mathcal{M} = O_{\mathcal{M}_{1,1}}$.  Also, restricting to discrete rings, $O_\mathcal{M}$ provides a lift in sense of Hopkins and Miller. 
 
-#$\mathbf{G}$-Equivariant $A$-cohomology#
+#$\mathbf{G}$-Equivariant $A$-cohomology
+{#equivariant}
 
 ##The Strategy##
 1. Define $A_{S^1 } (*)$;
