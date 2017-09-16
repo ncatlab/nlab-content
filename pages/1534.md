@@ -1,6 +1,6 @@
 #idea#
 
-A _factorization algebra_ is like an [[algebra over an operad]] where the [[operad]] in question is like the [[little disks operad]], but with each disk emedded into a given manifold $X$.
+A _factorization algebra_ is like an [[algebra over an operad]] where the [[operad]] in question is like the [[little disks operad]], but with each disk embedded into a given manifold $X$.
 
 This way a factorization algebra is an assignment of a [[object]] (in the standard case a vector space) $V_D$ to each ball $D \subset X$ embedded in $X$, and for each collection of non-intersecting embedded balls $D_1 , \cdots, D_n \subset D \subset X$ sitting inside a bigger embedded ball $D$ in $X$ a morphism
 
@@ -16,9 +16,9 @@ $$
   \,.
 $$
 
-This is pretty much like saying that the factoriuation algebra is an extended [[FQFT]] of genus 0 [[cobordism]]s that are embedded into $X$.
+This is pretty much like saying that the factorization algebra is an extended [[FQFT]] of genus 0 [[cobordism]]s that are embedded into $X$.
 
-Inded, such factorization algebras serve to describe [[quantum field theory|quantum field theories]] on $X$, pretty much in a way that generalizes the familiar way that 2-dimensional [[conformal field theory]] is given by [[vertex operator algebra]]s. See also the comments on the references below.
+Indeed, such factorization algebras serve to describe [[quantum field theory|quantum field theories]] on $X$, pretty much in a way that generalizes the familiar way that 2-dimensional [[conformal field theory]] is given by [[vertex operator algebra]]s. See also the comments on the references below.
 
 #References#
 
