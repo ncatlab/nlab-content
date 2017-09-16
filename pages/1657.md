@@ -175,6 +175,9 @@ The [[Radon-Nikodym derivative]] is about reversing this.
 
 Other topics: absolute continuity, etc.
 
+##Noncommutative measure theory##
+
+Every commutative [[von Neumann algebra]] is isomorphic to $L^\infty(X,\mu)$ where $(X,\mu)$ is some measure space. Conversely, if $(X,\mu)$ is a $\sigma$-finite measure space, then $L^\infty(X,\mu)$ is a commutative von Neumann algebra. This is similar to the correspondence between commutative $C^*$-algebras and locally compact Hausdorff spaces, which is the central approach to the [[noncommutative geometry]]. It is useful to exploit the intuition that the theory of (noncommutative) von Neumann algebras is a noncommutative analogue of the classical measure theory.
 
 ##Discussion##
 
