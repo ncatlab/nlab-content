@@ -1,11 +1,18 @@
-In classical mathematics, a **field** is a [[commutative ring]] in which every nonzero element has a multiplicative inverse and $0\neq 1$ (which may be combined as: an element is invertible if and only if it is nonzero). They are studied in *field theory* which is a branch of commutative algebra. If one drops commutativity, then the result is a [[skewfield]], though sometimes said for simplicity just field. For example, the [[free field (algebra)|free field]] of Cohn and Amitsur is in fact noncommutative.  
+# Fields
+* tic
+{: toc}
+
+
+## Idea
+
+In [[classical mathematics]], a **field** is a [[commutative ring]] in which every nonzero element has a multiplicative inverse and $0\neq 1$ (which may be combined as: an element is invertible if and only if it is nonzero). They are studied in *field theory* which is a branch of commutative algebra. If one drops commutativity, then the result is a [[skewfield]], though sometimes said for simplicity just field. For example, the [[free field (algebra)|free field]] of Cohn and Amitsur is in fact noncommutative.  
 
 Fields are not as well-behaved categorically as most other common algebraic structures ([[group]]s, [[ring]]s, [[module]]s, etc.).  In particular, the category of fields is not [[complete category|complete]] or [[cocomplete category|cocomplete]], although it is [[accessible category|accessible]]. 
 
 The words 'field' and 'field theory' are also used in mathematical physics and geometry with a completely different meaning denoting a quantity over some space, thus [[vector field]]s, classical [[scalar field]]s, classical [[tangent vector field]]s, [[quantum field]]s and so on.  Probably these should be summarised at something like [[physical field]].
 
 
-## Constructive notions of field ##
+## Constructive notions ##
 
 For the same reason, in [[constructive mathematics]] (such as the [[internal logic]] of a topos) there are different inequivalent ways to define a field.  In this case the above definition is not usually the best one; for instance, the real numbers do not satisfy it.  There are several potential replacements with their own advantages and disadvantages.
 
