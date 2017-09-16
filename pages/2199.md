@@ -10,7 +10,7 @@ A __boolean variable__ $x$ is a variable that takes its value from a boolean dom
 
 Jon: What I wrote above is all I really intended to say here.  The bit about "intended for interpretation as logical values" is not just waffling --- I want to leave room for considering "generic 2-element sets" that enjoy dual interpretations as logical values.  We might call it a "binary domain" if we really had to --- dunno, that seems likely to cause other problems --- but there is historical precedent for treating boolean material as if it were "dual all the way down".
 
-Jon: I am bracketing the following additions by Toby, as I don't think they fit the intentions I have here.  (Partly because one of my intentions is to keep this particular base of conceptual recursion as simple as possible.)
+Jon: I am bracketing the following additions by Toby, as I can't tell whether they fit the intentions I have here.  (Partly because one of my intentions is to keep this particular base of conceptual recursion as simple as possible.)
 
 * Toby: In particular, the set of [[truth values]] in [[classical logic]], $\{ \bot, \top \}$, is a Boolean domain.
 
