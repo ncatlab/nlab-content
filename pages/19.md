@@ -41,7 +41,7 @@ For more on this and for the many different generalized sets see
 * Sets, categories and structuralism - Costas Drossos
 
 +--{.query}
-Rafael: I am a bit skeptical if to interpret ETAS as a set theory.
+Rafael: I am a bit skeptical if to interpret ETAC as a set theory.
 =--
 
 #Literature#
