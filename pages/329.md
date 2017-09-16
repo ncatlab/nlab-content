@@ -31,20 +31,20 @@ Working out the meaning of '$Cat$-enriched category', we find that a strict 2-ca
 
 * a collection $ob K$ of objects $a,b,c,\ldots$, together with
 * a hom-[[category]] $K(a,b)$ for each $a,b$, and
-* a [[functor]] $1_a : \mathbf{1} \to K(a,a)$ and a functor $comp : K(b,c) \times K(a,b) \to K(a,c)$
+* a [[functor]] $1_a : \mathbf{1} \to K(a,a)$ and a functor $comp : K(b,c) \times K(a,b) \to K(a,c)$ for each $a,b,c$
 
 satisfying associativity and identity axioms (given [[enriched category|here]]).
 
-As for ordinary ($Set$-enriched) categories, an object $f \in K(a,b)$ is called a _morphism_ or _1-cell_ from $a$ to $b$ and written $f:a\to b$ as usual.  But given $f,g:a\to b$, it is now possible to have non-trivial arrows $\alpha:f\to g \in K(a,b)$, called _2-cells_ from $f$ to $g$ and written as $\alpha : f \Rightarrow g$.  Because the hom-objects $K(a,b)$ are by definition categories, 2-cells carry an associative and unital operation called _vertical composition_.
+As for ordinary ($Set$-enriched) categories, an object $f \in K(a,b)$ is called a _morphism_ or _1-cell_ from $a$ to $b$ and written $f:a\to b$ as usual.  But given $f,g:a\to b$, it is now possible to have non-trivial arrows $\alpha:f\to g \in K(a,b)$, called _2-cells_ from $f$ to $g$ and written as $\alpha : f \Rightarrow g$.  Because the hom-objects $K(a,b)$ are by definition categories, 2-cells carry an associative and unital operation called _vertical composition_.  The identities for this operation, of course, are the identity 2-cells $1_f$ given by the category structure on $K(a,b)$.
 
-The functor $1_a$ simply picks an endo-1-cell that serves as the identity arrow of $a$.  Composition is more interesting: 1-cells can be composed as usual, but because $comp$ is a functor we get two extra things:
+The functor $comp$ gives us an operation of _horizontal_ composition on 2-cells.  Functoriality of $comp$ then says that given $\alpha : f \Rightarrow g : a\to b$ and $\beta : f' \Rightarrow g' : b\to c$, the composite $\comp(\beta,\alpha)$ is a 2-cell $\beta \alpha : f'f \Rightarrow g'g : a \to c$.  Note that the boundaries of the composite 2-cell are the composites of the boundaries of the components.
 
-* an operation of _horizontal composition_ on 2-cells.  Functoriality of $comp$ then says that given $\alpha : f \Rightarrow g : a\to b$ and $\beta : f' \Rightarrow g' : b\to c$, the composite $\comp(\beta,\alpha)$ is a 2-cell $\beta \alpha : f'f \Rightarrow g'g : a \to c$.
-
-* the _interchange law_: because $comp$ is a functor it commutes with composition in the hom-categories, so we have (writing vertical composition with $\circ$ and horizontal as juxtaposition):
+We also have the _interchange law_: because $comp$ is a functor it commutes with composition in the hom-categories, so we have (writing vertical composition with $\circ$ and horizontal as juxtaposition):
 $$
  (\beta' \circ \beta)(\alpha' \circ \alpha) = (\beta' \alpha') \circ (\beta \alpha)
 $$
+
+The axioms for associativity and unitality of $comp$ ensure that horizontal composition behaves just like composition of 1-cells in a 1-category.  In particular, the action of $comp$ on objects $f,g$ of hom-categories (i.e. 1-cells of $K$) is the usual composite of morphisms.
 
 
 ###More details
