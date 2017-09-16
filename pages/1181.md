@@ -1,6 +1,6 @@
 #Idea#
 
-Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set]]s. A _natural numbers object_ in a topos is an [[object]] that behaves in that topos like the set $\mathbb{N}$ of natural numbers does in [[Set]].
+Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set]]s. A _natural numbers object_ in a topos is an [[object]] that behaves in that topos like the set $\mathbb{N}$ of [[natural number]]s does in [[Set]].
 
 #Definition#
 
