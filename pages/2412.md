@@ -7,10 +7,19 @@
 > **raw material**: this are notes taken more or less verbatim in a seminar -- needs polishing
 
 
+
+
 next:
 
 * [[(1,1)-dimensional Euclidean field theories and K-theory]]
 
+* [[(2,1)-dimensional Euclidean field theories and tmf]]
+
+
+***
+
+In the following $RB$ or $RBord$ and the like denotes a category of [[cobordism]]s that are equipped with _Riemannian structure_, i.e. with [[Riemannian metric]].
+Similarly $EB$ or $EBord$ or the like denotes a category of cobordisms with _Eudlidean structure_, by which is meant a _flat_ Riemannian metric.
 
 
 
