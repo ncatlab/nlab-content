@@ -21,6 +21,36 @@ The idea is to
 
 =--
 
+# Timeline #
+
+We will try to proceed as follows: we go through the sections of the two articles, step by step, possibly several steps for one section. Each week on Monday, one of us produces a "report" on the section he or she was assigned to read. 
+
+This "report" would try to give a rough idea of what is going on in a given section. A report may be anything from a  heap of questions (likely) to a complete detailed rederivation of all the details (maybe not quite as likely, but let's not exclude it!) The more questions, the more we all get involved, which is the whole point of doing this online.
+
+I ([[Urs Schreiber|Urs]]) am imagining that whatever the report is like, it consists of 
+
+* a bulleted list of whatever needs to be listed, with links to whatever deserves to be linked to, here in this $n$Lab-entry, in the following list of sections;
+
+* a comment to the [blog entry](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html) that maybe copies this entire content but at least alerts the blog readers about the new material now to be found here, accompanied by some comments as seems necessary.
+
+The idea is that we have discussion on the blog but distill whatever we can into the $n$Lab here.
+
+
+Here is the list of reports, as planned so far
+
+* Monday, April 27: [[Alex Hoffnung|Alex]] on section 1, [Introduction](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=2)
+
+* Monday, May 4: [[Urs Schreiber|Urs]] on section 2, [Preliminaries](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=10)
+
+* Monday, May 11: [[Bruce Bartlett|Bruce]] on section 3, [Perfect Stacks](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=16)
+
+* Monday, May 18: somebody on section 4, [Tensor products and integral transforms](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=24)
+
+* Monday, May 25: somebody on section 5, [Applications](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=32)
+
+* Monday, June 1: somebody on section 6, [Epilogue: TFT](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=39)
+
+
 
 #Idea#
 
