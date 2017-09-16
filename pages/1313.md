@@ -18,6 +18,12 @@ As with other [[universal construction]]s, an exponential object, if any exists,
 
 An object $Y$ of a category $C$ is __exponentiable__ if $X^Y$ exists for every object $X$ of $C$.
 
++--{: .query}
+Wow, really?  I don\'t really use that word, but the other concept seems more important to me.  Although I suppose that this concept gives you theorems like the closure of exponentiable objects under coproduct in a lextensive category.
+
+No matter.  But is there a term for the other way around?  ---[[Toby Bartels]]
+=--
+
 A __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^op$.
 
 As with other internal homs, the __currying__ isomorphism
