@@ -1,3 +1,2 @@
-See [[light mill]].
-
-category: delete
+&lt; [[Light mill]]
+[[!redirects Light mill -- history]]
