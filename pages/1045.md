@@ -94,3 +94,6 @@ $.
 
 * Moreover, $\tilde F$ is defined up to [[isomorphism]] by these two properties.
 
+## Generalizations ##
+
+* [[(infinity,1)-Yoneda extension]] 
