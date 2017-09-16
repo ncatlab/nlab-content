@@ -25,3 +25,22 @@ Pre-abelian and abelian categories are sometimes called (AB1) and (AB2) categori
 * AB6: ... (not in Wikipedia for some reason).
 
 The concepts (AB3--6) can also be split into independent colimit-like and limit-like parts.
+
+#Further refinements#
+
+Various further axiom structures are considered and of relevance on additive and abelian categories.
+
+* [[suspended category]]
+
+* [[triangulated category]]
+
+* [[Quillen exact category]]
+
+
+#Examples#
+
+Various generic classes of examples of additive and abelian categories are of relevance:
+
+* [[category of chain complexes]]
+
+* [[derived category]]
