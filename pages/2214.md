@@ -28,9 +28,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * am asking for discussion of my latest formatting decision concerning these floating tables of contnts [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=61) on the forum
+
   * expanded the entry [[dg-algebra]], moved the discussion there to the bottom, as I think it has been addressed (but Toby, let me know if not)
 
-     I find it kind of a pity that this entry exists in parallel with [[differential graded algebra]]. I understand that the motivation was that one entry gives the detailed component description while the other gives the abstract nonsense definition (monoid in chain complex). But this is a general effect in the nLab and we should keep such things in different subsections on the same page. Maybe let me know what you think
+     I find it kind of a pity that this entry exists in parallel with [[differential graded algebra]]. I understand that the motivation was that one entry gives the detailed component description while the other gives the abstract nonsense definition (monoid in chain complexes). But this is a general effect in the nLab and we should keep such things in different subsections on the same page. Maybe let me know what you think
 
   * added floating table of contents to the "lexicon" entries on differential graded structures that [[Tim Porter]] created a while ago. See for isnatance starting at [[graded vector space]].
 
