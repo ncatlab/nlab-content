@@ -9,6 +9,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-24
 
+* [[Andrew Stacey]]: Tried answering John's questions over at [[Tall-Wraith monoid]].  Probably lots for the [[lab elf|lab elves]] to work on there.
+
+  (I confess that I did have the Hogwartian house elves uppermost in mind, but the shoemaker elves were not far off either.  Being now in the Nordic realm I probably should have said 'lab troll' but trolls already have a place on the internet and it is Not Here)
+
 * [[Urs Schreiber]]
 
   * started putting material into [[brane]] -- as a preparation for something I plan at [[K-theory]]
