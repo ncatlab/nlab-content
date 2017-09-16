@@ -6,3 +6,5 @@ I now have [[Toby Bartels:HomePage|my own personal web here]], although not much
 
 
 category: people
+
+[[!redirects Toby]]
