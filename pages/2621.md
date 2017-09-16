@@ -1,6 +1,6 @@
 #Idea#
 
-_Perturbation theory_ is a general method of finding (or even defining) the solution of equations of mathematical physics by expanding them with respect to a small parameter in the vicinity of known, defined or well-understood solution (for which the small parameter is $0$). It is used in the study of PDEs involving operators depending on small parameter, in classical and celestical mechanics, in quantum mehcanics, and in the statistical and quantum field theory. 
+_Perturbation theory_ is a general method of finding (or even defining) the solution of equations of mathematical physics by expanding them with respect to a small parameter in the vicinity of known, defined or well-understood solution (for which the small parameter is $0$). It is used in the study of PDEs involving operators depending on small parameter, in classical and celestical mechanics, in quantum mechanics, and in the statistical and quantum field theory. 
 
 One of the varieties of perturbation theory provides a method to make sense of and handle the [[path integral]] involved in the [[quantization]] of [[classical field theory]] to [[quantum field theory]].
 
