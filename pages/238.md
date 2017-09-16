@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-29
 
+* [[David Corfield|David]]
+
+  * asked a question at [[differential object]]
+
 * [[Urs Schreiber|Urs]]
 
   * started preparing the ground for [[derived category]] and [[triangulated category]] by creating [[category with translation]], [[chain complex]] and [[differential object]] before running out of time...
