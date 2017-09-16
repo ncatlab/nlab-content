@@ -14,7 +14,7 @@ A _diffeological space_ is a pair $(X,\mathcal{D})$ where $X$ is a set and $\mat
 A morphism of diffeological spaces is a map of the underlying sets which defines a natural transformation on the sheafs.
 =--
 
-A diffeological space is an example of a [[concrete sheaf]] on a [[concrete site]] and as such is covered by Baez and Hoffnung in 0807.1704.
+A diffeological space is an example of a [[concrete sheaf]] on a [[concrete site]] and as such is covered by Baez and Hoffnung in [0807.1704](http://arxiv.org/abs/0807.1704).
 
 The concreteness condition on the sheaf is a reiteration of the fact that a diffeological space is a subsheaf of the sheaf $U \mapsto X^{|U|}$.  In this way, one does not have to explicitly mention the underlying set $X$ as it is determined by the sheaf on the one-point open subset of $\mathbb{R}^0$.
 
