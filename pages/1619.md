@@ -1,4 +1,4 @@
-# Definition #
+## Definition ##
 
 Let $X$ be an $n$-dimensional manifold. 
 Its tangent [[bundle]] is canonically associated to a $O(n)$-principal bundle, which is in turn classified by a map
@@ -109,26 +109,7 @@ This means the following:
   $$
 
 
-## References ##
-
-The relevance of String structures (like that of Spin structures half a century before) was recognized in the physics of spinning strings, therefore the name.
-
-String stuctures had originally been mostly discussed in terms of their transgressions to loop spaces
-
-* Killingback, Witten 
-
-  * blog entry on [String(n)](http://golem.ph.utexas.edu/string/archives/000572.html)
-
-later it was reformulated in terms of the classes down on base space just mentioned in
-
-* Stolz, Teichner, [What is an elliptic object](http://math.ucr.edu/home/baez/qg-winter2007/Oxford.pdf).
-
-The relation between the two pictures is analyzed for instance in
-
-* Asada ...
-
-
-# Description in terms of classes on the total space #
+## Description in terms of classes on the total space ##
 
 One can reformulate an
 
@@ -196,7 +177,24 @@ This uses
     }
   $$
 
+
 ## References ##
+
+The relevance of String structures (like that of Spin structures half a century before) was recognized in the physics of spinning strings, therefore the name.
+
+String stuctures had originally been mostly discussed in terms of their transgressions to loop spaces
+
+* Killingback, Witten 
+
+  * blog entry on [String(n)](http://golem.ph.utexas.edu/string/archives/000572.html)
+
+later it was reformulated in terms of the classes down on base space just mentioned in
+
+* Stolz, Teichner, [What is an elliptic object](http://math.ucr.edu/home/baez/qg-winter2007/Oxford.pdf).
+
+The relation between the two pictures is analyzed for instance in
+
+* Asada ...
 
 For discussion of String-structures using 3-classes on total spaces see for instance the work by Corbett Redden and Konrad Waldorf described at 
 
