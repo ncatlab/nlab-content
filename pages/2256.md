@@ -4,6 +4,7 @@ and
 
 * [[rational homotopy theory]]
 
+
 ## Contents ##
 
 * [[graded vector space]]
@@ -25,6 +26,7 @@ and
 * [[differential forms on simplices]]
 
 * [[simplicial local system]]
+
 
 ## related topics ##
 
