@@ -158,11 +158,7 @@ Apart from the obvious question of finding the literature behind all of this (an
 
 1. Suppose that I have two monoidal Lawvere theories, $T_1$ and $T_2$, that are equivalent as ordinary Lawvere theories.  Are they equivalent as monoidal Lawvere theories?  More concretely, suppose that I have two presentations for the same Lawvere theory in terms of operations and identities and both define monoidal Lawvere theories (so neither has identities involving repetition, omission, or exchanging[^minute]), are the **monoidal** Lawvere theories equivalent? 
 
-_Todd_: Yes. More generally, there is a 2-functor 
-
-$$Cart \to Mon$$ 
-
-from the 2-category of categories with products, product-preserving functors, and natural transformations to the 2-category of monoidal categories, strong monoidal functors, and monoidal transformations. As all 2-functors do, this preserves equivalences (and the notions of equivalence in these 2-categories are the right ones). 
+_Todd_: My previous answer (which has been deleted) was based on a too-hasty reading of the question. I'll try to set aside some time to find a better answer. 
 
 ###References###
 
