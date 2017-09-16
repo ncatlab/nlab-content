@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * added a bit more detail to [[closed monoidal structure on presheaves]]
+
   * replied at [[cohomology]]
 
 # 2009-05-04 #
