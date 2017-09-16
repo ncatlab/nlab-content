@@ -22,3 +22,5 @@ The concept of [[topological space]] can be defined by taking the neighbourhood 
 
 
 [[!redirects neighbourhood]]
+[[!redirects neighborhoods]]
+[[!redirects neighbourhoods]]
