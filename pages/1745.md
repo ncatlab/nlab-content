@@ -1,4 +1,4 @@
-Recall that [[cohomology]] in an [[(infinity,1)-topos]] $\mathbf{H}$ on an object $X$ with coefficients in an object $A$ is the [[hom-set]] in the [[homotopy category of an (infinity,1)-category]]
+Recall that [[cohomology]] in an [[(∞,1)-topos]] $\mathbf{H}$ on an object $X$ with coefficients in an object $A$ is the [[hom-set]] in the [[homotopy category of an (∞,1)-category]]
 
 $$
   H(X,A) = \pi_0 \mathbf{H}(X,A)
@@ -35,14 +35,14 @@ $$
 ## "ordinary" (integral/Eilenberg-Mac Lane-) cohomology ##
 
 
-The standard example are the **"ordinary" cohomology groups** that come from taking $\mathbf{H} = $ [[Top]] or = [[Infinity-Grpd]] (see [[homotopy hypothesis]]) and choosing the coefficient object to be the [[Eilenberg-Mac Lane spectrum]]
+The standard example are the **"ordinary" cohomology groups** that come from taking $\mathbf{H} = $ [[Top]] or = [[∞Grpd]] (see [[homotopy hypothesis]]) and choosing the coefficient object to be the [[Eilenberg-Mac Lane spectrum]]
 
 $$
   A := \mathbf{B} \mathbb{Z}
   \,.
 $$
 
-The for $X \in \mathbf{H}$ any object (a [[topological space]] or an [[infinity-groupoid]]) the "ordinary" cohimology of $X$ in degree $n$ is
+The for $X \in \mathbf{H}$ any object (a [[topological space]] or an [[∞-groupoid]]) the "ordinary" cohimology of $X$ in degree $n$ is
 
 $$
   H^n(X) := H^n(X,\mathbb{Z})
@@ -58,7 +58,7 @@ Here on the left we have the standard notation for the ordinary cohomology group
 
 ## Cohomology groups in nonabelian cohomology ##
 
-The standard **counter-example** to keep in mind for a [[nonabelian cohomology]] set that does _not_ carry a group structure is "nonabelian cohomology in degree 1" that classifies $G$-[[principal bundle]]s, for $G$ some nonabelian group.
+The standard **counter-example** to keep in mind for a [[nonabelian cohomology]] set that does _not_ carry a group structure is "nonabelian cohomology in degree 1" that classifies $G$-[[principal bundles]], for $G$ some nonabelian group.
 
 This cohomology set
 
@@ -92,7 +92,8 @@ $$
   \simeq G_{(2)} Bund(X)/_\sim
 $$
 
-that classifies $G_{(2)}$ [[principal 2-bundle]]s as opposed to groupoid principal 1-bundles and which is not in general a group (unless $G_{(2)}$ in turn is sufficiently abelian).
+that classifies $G_{(2)}$ [[principal 2-bundles]] as opposed to groupoid principal 1-bundles and which is not in general a group (unless $G_{(2)}$ in turn is sufficiently abelian).
 
-For $G_{(2)} = AUT(H)$ both these cohomology sets play a role in the description of [[gerbe]]s (see [[gerbe (as a stack)]] and [[gerbe (in nonabelian cohomology)]]).
+For $G_{(2)} = AUT(H)$ both these cohomology sets play a role in the description of [[gerbes]] (see [[gerbe (as a stack)]] and [[gerbe (in nonabelian cohomology)]]).
 
+[[!redirects cohomology groups]]
