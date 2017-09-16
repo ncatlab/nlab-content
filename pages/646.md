@@ -5,7 +5,7 @@
 
 ## Idea 
 
-The notion of **homotopy $n$-type** is a coarsened variant of the notion of [[homotopy type]], wich is recovered for $n = \infty$.
+The notion of **homotopy $n$-type** is a coarsened variant of the notion of [[homotopy type]], which is recovered for $n = \infty$.
 
 The most important invariants of a [[topological space]] $X$ or, more generally, of an object $X$ in an [[∞-stack]] [[(∞,1)-topos]] are its [[homotopy group]]s $\pi_k(X)$. A **homotopy $n$-type** is an object $X$ for which all $\pi_k(X)$ with $k \gt n$ are trivial. More precisely, these are the [[n-truncated object of an (infinity,1)-topos|n-truncated objects]] and one says that two object $X$, $Y$ are _of the same homotopy $n$-type_ if there is a zig-zag of morphisms connecting them that induces [[isomorphism]]s on [[homotopy group]]s $\pi_k(X) \stackrel{\simeq}{\to} \pi_k(Y)$ for $0 \leq k \leq n$.
 
