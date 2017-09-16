@@ -45,6 +45,30 @@ This category is a [[quasi-topos]].
 * A [[simplicial set]] is a [[Kan complex]] precisely if its maximal stratification makes it a [[weak complicial set]].
 
 
+#The category of stratified simplicial sets#
+
+There are several [[tensor product]]s on the category $Strat$ of stratified simplicial sets that make it a [[monoidal category]].
+
+## Strat with the Verity-Gray tensor product ##
+
+Consider the monoidal category $(Strat, \otimes)$ where $\otimes$ is the [[Verity-Gray tensor product]]. 
+
+(Notice that this is not [[closed monoidal category|closed]], as far as I understand.)
+
+Using the canonical stratification of [[oriental|omega-nerves]] on [[strict omega-category|strict omega-categories]] as [[complicial set]]s, the $\omega$-nerve is a functor
+
+$$
+  N : Str \omega Cat \to Strat
+  \,.
+$$
+
+**Proposition**
+
+The functor $N : Str \omega Cat \to Strat$ has a [[left adjoint]] $F : Strat \to Str \omega Cat$ which is a [[strong monoidal functor]].
+
+Or so it is claimed on [slide 60](http://www.mat.uc.pt/~categ/ct2007/slides/verity.pdf#page=60) of 
+[Ver07](http://www.mat.uc.pt/~categ/ct2007/slides/verity.pdf)
+
 
 #References#
 
