@@ -7,5 +7,10 @@ $Semi Lat$ is given by a finitary [[variety of algebras]], or equivalently by a 
 
 category: category
 
+[[!redirects SemiLat]]
+[[!redirects Semi Lat]]
+[[!redirects SLat]]
+[[!redirects S Lat]]
+
 [[!redirects free semilattice]]
 [[!redirects finite powerset]]
