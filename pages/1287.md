@@ -1,6 +1,6 @@
 #Idea#
 
-[[schreiber:Differential Nonabelian Cohomology|Recall]] that for $X$ a manifold and $P_1(X)$ its [[path groupoid]] (morphisms are thin-homotopy classes of smooth paths in $X$) and [[Vect]] the category of vector spaces, a suitably well-behaved [[functor]]
+[[schreiber:Differential Nonabelian Cohomology|Recall]] that for $X$ a [[manifold]] and $P_1(X)$ its [[path groupoid]] (morphisms are thin-homotopy classes of smooth paths in $X$) and [[Vect]] the category of vector spaces, a suitably well-behaved [[functor]]
 
 $$
   tra_\nabla : P_1(X) \to Vect
