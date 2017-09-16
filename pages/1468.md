@@ -19,9 +19,12 @@ This page contains material related to the event
 
 #Workshop lectures#
 
-In addition to the notes provided by Alex Hoffnung below, there are also notes being posted by Evan Jenkins:
+In addition to the notes provided by Alex Hoffnung below, there are also notes being posted by Evan Jenkins and Gabriel C. Drummond-Cole:
 
 * Evan Jenkins [talk notes](http://www.math.uchicago.edu/~ejenkins/nwtft.html)
+
+* Gabriel C. Drummond-Cole [talk notes](http://www.math.sunysb.edu/~blafard/notes/)
+
 
 
 ## David Ben-Zvi on   Topological Field Theory, Loop Spaces, and Representation Theory
