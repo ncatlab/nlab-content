@@ -189,132 +189,155 @@ f_{15}
 
 ***
 
-Would be nice to have that "space betweeen rows" parameter --- e.g., \\\\\[4pt\] --- as in standard LaTeX &hellip;
+Use \phantom spacer to control column widths ---
 
-<table align="center" border="1" cellpadding="4" markdown="1" style="text-align:center; width:90%">
-<caption><font size="+2">$\text{Table A1.  Propositional Forms on Two Variables}$</font></caption>
-
-<tr style="background:#f0f0ff">
-<td><p>$\mathcal{L}_1$</p><p>$\text{Decimal}$</p></td>
-<td><p>$\mathcal{L}_2$</p><p>$\text{Binary}$</p></td>
-<td><p>$\mathcal{L}_3$</p><p>$\text{Vector}$</p></td>
-<td><p>$\mathcal{L}_4$</p><p>$\text{Cactus}$</p></td>
-<td><p>$\mathcal{L}_5$</p><p>$\text{English}$</p></td>
-<td><p>$\mathcal{L}_6$</p><p>$\text{Ordinary}$</p></td>
-</tr>
-
-<tr style="background:#f0f0ff">
-<td>&nbsp;</td>
-<td align="right">$p:$</td>
-<td>$1\;1\;0\;0$</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td></tr>
-
-<tr style="background:#f0f0ff">
-<td>&nbsp;</td>
-<td align="right">$q:$</td>
-<td>$1\;0\;1\;0$</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td></tr>
-
-<tr>
-<td>$\array{
-f_0 \\ f_1 \\ f_2 \\ f_3 \\
-f_4 \\ f_5 \\ f_6 \\ f_7 }$</td>
-<td>$\array{
-f_{0000} \\ f_{0001} \\ f_{0010} \\ f_{0011} \\
-f_{0100} \\ f_{0101} \\ f_{0110} \\ f_{0111} }$</td>
-<td>$\array{
-0\;0\;0\;0  \\ 0\;0\;0\;1  \\ 0\;0\;1\;0  \\ 0\;0\;1\;1  \\
-0\;1\;0\;0  \\ 0\;1\;0\;1  \\ 0\;1\;1\;0  \\ 0\;1\;1\;1  }$</td>
-<td>$\array{
-(\;) \\ (p)(q) \\ (p)\;q\; \\ (p)\;\;\; \\
-\;p\;(q) \\ \;\;\;(q) \\ (p,\;q) \\ (p\;\;q) }$</td>
-<td>$\array{
-\text{false}
+<table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1" style="text-align:center">
+<caption><font size="+2">
+$\text{Table A3.} \quad \mathop{E}f \:\text{Expanded Over Differential Features}\: \{ \mathop{d}p, \mathop{d}q \}$
+</font></caption>
+<td>
+$\array{
+\arrayopts{
+\collines{solid}
+\rowlines{solid solid none none none solid none solid none solid none solid none none none solid}}
+&amp;
+\phantom{xxxx} f \phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{11}f \\ \mathop{E}f|_{\mathop{d}p \: \mathop{d}q} }
+\phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{10}f \\ \mathop{E}f|_{\mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;}} }
+\phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{01}f \\ \mathop{E}f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q} }
+\phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{00}f \\ \mathop{E}f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}} }
+\phantom{xxxx}
 \\
-\text{neither}\; p \;\text{nor}\; q
+f_{0}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
 \\
-q \;\text{without}\; p
+f_{1}
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; p \: q
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
 \\
-\text{not}\; p
+f_{2}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; p \: q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
 \\
-p \;\text{without}\; q
+f_{4}
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; p \: q
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
 \\
-\text{not}\; q
+f_{8}
+&amp; p \: q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} q
+&amp; p \text{&#x2997;} q \text{&#x2998;}
+&amp; p \: q
 \\
-p \;\text{not equal to}\; q
+f_{3}
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; p
+&amp; p
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;}
 \\
-\text{not both}\; p \;\text{and}\; q
-}$</td>
-<td>$\array{
-0
+f_{12}
+&amp; p
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; p
+&amp; p
 \\
-\not p \wedge \not q
+f_{6}
+&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
 \\
-\not p \wedge q
+f_{9}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
 \\
-\not p
+f_{5}
+&amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; q
+&amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; q
+&amp; \text{&#x2997;} q \text{&#x2998;}
 \\
-p \wedge \not q
+f_{10}
+&amp; q
+&amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; q
+&amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; q
 \\
-\not q
+f_{7}
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
 \\
-p \ne q
+f_{11}
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
 \\
-\not p \vee \not q
-}$</td></tr>
-
-<tr>
-<td>$\array{
-f_8    \\ f_9    \\ f_{10} \\ f_{11} \\
-f_{12} \\ f_{13} \\ f_{14} \\ f_{15} }$</td>
-<td>$\array{
-f_{1000} \\ f_{1001} \\ f_{1010} \\ f_{1011} \\
-f_{1100} \\ f_{1101} \\ f_{1110} \\ f_{1111} }$</td>
-<td>$\array{
-1\;0\;0\;0 \\ 1\;0\;0\;1 \\ 1\;0\;1\;0 \\ 1\;0\;1\;1 \\
-1\;1\;0\;0 \\ 1\;1\;0\;1 \\ 1\;1\;1\;0 \\ 1\;1\;1\;1 }$</td>
-<td>$\array{
-\;\;p\;\;q\;\; \\ ((p,\;q)) \\ \;\;\;\;\;q\;\; \\ \;(p\;(q)) \\
-\;\;p\;\;\;\;\; \\ ((p)\;q)\; \\ ((p)(q)) \\ ((\;)) }$</td>
-<td>$\array{
-p \;\text{and}\; q
+f_{13}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
 \\
-p \;\text{equal to}\; q
+f_{14}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
 \\
-q
+f_{15}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
 \\
-\text{not}\; p \;\text{without}\; q
-\\
-p
-\\
-\text{not}\; q \;\text{without}\; p
-\\
-p \;\text{or}\; q
-\\
-\text{true}
-}$</td>
-<td>$\array{
-p \wedge q
-\\
-p = q
-\\
-q
-\\
-p \Rightarrow q
-\\
-p
-\\
-p \Leftarrow q
-\\
-p \vee q
-\\
-1
-}$</td></tr>
-
+\cellopts{\colspan{2}} \text{Fixed Point Total}
+&amp;  4
+&amp;  4
+&amp;  4
+&amp; 16
+}$
+</td>
 </table>
 
 ***
