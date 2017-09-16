@@ -15,6 +15,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-29 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * created [[enriched model category]] and [[simplicial model category]]
+
+# 2009-04-29 #
+
 * [[Mike Shulman|Mike]]:
 
   * Moved the discussion about comma categories from this page to the   query box at [[comma category]].
