@@ -12,13 +12,35 @@ The basic idea is that a _module_ $V$ is an object equipped with an [[action]] b
 A familiar example of a module is a [[vector space]] $V$ over a [[field]] $k$: this is a _module_ over $k$ in the category [[Ab]] of abelian groups. But nothing in the definition of [[vector space]] really depends on the fact that $k$ here is a [[field]]: more generally it could be any [[ring]] $R$. The analog of a vector space for fields replaced by rings is that of a module over the ring $R$.
 
 
+
 ### More general perspectives
 
-There are two distinct and separately important perspective on the notion of module from the [[nPOV]]:
+The notion of [[monoid]] in a [[monoidal category]] generalizes
+directly to that of a monoid in a [[2-category]], where it is called a [[monad]]. Accordingly the notion of module generalizes to this more general case, where however it is called an _algebra over a monad_ . For more on this see [Modules for monoids in 2-categories: algebras over monads](#MonadAlgs) below.
 
-* modules may usefully be thought of in the context of [[enriched category theory]];
+Apart from this direct generalization, there are two distinct and separately important perspective on the notion of module from the [[nPOV]]:
+
+* modules may usefully be thought of in the context of [[enriched category theory]] (and the enrichment may be over a [[2-category]]);
 
 * modules may usefully be thought of in terms of [[abelian category|abelianization]]/[[stabilization]] of [[overcategory|overcategories]].
+
+#### Modules for monoids in 2-catgeories: algebras over monads {#MonadAlgs}
+
+The notion of [[monoid]] generalizes straightforwardly from
+monoids in a [[monoidal category]] to monoids in a [[2-category]]:
+for the [[2-category]] [[Cat]], and more generally for arbitrary
+2-categories, these are called [[monad]]s.
+
+A module over a monad is defined essentially exactly as that 
+of module over a monoid. For historical reasons, a module over
+a monad is called an _algebra over a monad_ . This is slightly
+unfortunate from the perspective of monads as monoids, but 
+historically due to the fact that modules for [[monad]]s on 
+[[Set]] that come from the [[adjunction]] formed by a 
+[[forgetful functor]] and its [[left adjoint]] [[free functor]]
+happen to be certain [[monoid]] objects in [[Set]].
+
+
 
 #### Enriched presheaves
 
@@ -33,6 +55,7 @@ The [[action]] $\rho$ of a [[monoid]] $A$ in a [[monoidal category]] $V$ may be 
    This means that more generally it makes sense to replace $\mathbf{B}A$ by any $V$-[[enriched category]] $C$ -- regarded as the [[horizontal categorification]] of a monoid, a "monoid-oid" -- and think of $V$-enriched functors $\rho : C \to V$ -- $V$-[[presheaf|presheaves]] -- as modules for $C$. 
 
    From this perspective a $C$-$D$-[[bimodule]] is a $V$-[[enriched functor]] $C^{op}\times D \to V$, which is in this context known as a [[profunctor]] from $C$ to $D$. The notion of the [[bicategory]] $V Mod$ of $V$-enriched categories, $V$-profunctors between these and transformations between those is then a generalization of the 
+
 
 #### Stabilized overcategories
 
@@ -57,6 +80,14 @@ $A$-modules.
 
 ## Details 
 
+We spell out details of the definition of module for 
+
+* the classical case of modules over rings;
+
+* the generalized case of modules as presheaves in enriched category theory;
+
+* the generalized case of modules as objects in stabilized overcategories.
+
 ### Ordinary concept
 
 A (right) module over a [[monoid]] $A$ [[internalization|internal to]] a [[monoidal category]] $(V, \otimes, I)$ is an object $N$ of $V$ equipped with a morphism
@@ -67,72 +98,7 @@ $$
 
 in $C$ which satisfies the usual axioms of an [[action]].  
 
-### In enriched category theory
-
-Equivalently, regarding the [[monoid]] $A$ as a one-object $V$-[[enriched category]] $\mathbf{B}A$, the module together with its action are given by a $V$-[[enriched functor]]
-
-$$
-  \rho : \mathbf{B}A \to V
-  \,.
-$$
-
-Correspondingly, a _left_ module over $A$ is a functor
-
-$$
-  \rho : (\mathbf{B}A)^{\mathrm{op}} \to V
-  \,.
-$$
-
-In this language the concept directly generalizes to the [[horizontal categorification]] of monoids $A$. Let $K$ be _any_ $V$-[[enriched category]], then $V$-functors
-$
-  \rho : K \to V
-$
-give right modules and functors
-$
-  \rho : K^{\mathrm{op}} \to V
-$ give left modules over $K$. Accordingly, for $K$ and $L$ two $V$-enriched categories one says that $V$-functors
-
-$$
-  K^{op} \otimes L \to V
-$$
-
-are _$K$-$L$-[[bimodule]]s_, also known as _profunctors_ or _[[distributor]]s_ from $K$ to $L$.
-
-
-
-### In terms of stabilized overcategories {#DefWithOCat}
-
-
-
-**Proposition** Let $R \in CRing$ be a commutative [[ring]]. Then there is a canonical [[equivalence of categories|equivalence]] between the [[category]] $R Mod$ of $R$-modules and the category $Ab(CRing/R)$ of abelian [[group object]]s in the [[overcategory]] of $CRing$ over $R$
-
-$$
-  R Mod \simeq Ab(CRing/R)
-  \,.
-$$
-
-**Proof**
-
-The unit of the abelian group object in $CRing/R$ is a diagram
-
-$$
-  \array{
-     R &&\to&& K
-     \\
-     & {}_{\mathllap{Id}}\searrow && \swarrow^{\mathrlap{p}}
-     \\
-     && R
-  }
-  \,.
-$$
-
-This diagram identifies $K$ with a ring of the form $R \oplus ker(p)$ in which for $r \in R$ and $n \in ker(p)$ we have $r\cdot n \in ker(p)$. 
-
-Furthermore...
-
-## Examples
-
-### Modules over rings {#Rings}
+#### Example: Modules over rings {#Rings}
 
 A [[ring]] is a [[monoid]] in [[Ab]]. Hence a module over a ring is first of all an [[object]] $N$ in [[Ab]], hence an abelian group. Moreover, it is equipped with a [[morphism]]
 
@@ -194,7 +160,8 @@ $$
 
 The category $R Mod$ has $R$-modules as objects and $R$-module homomorphisms as morphisms.  More abstractly, this is the [[Ab]]-[[enriched functor category]] $[\mathbf{B}R,Ab]$.
 
-### $G$-sets {#GSets}
+
+#### Example: $G$-sets {#GSets}
 
 Classically the notion of module is always regarded internal to [[Ab]], so that a module is always an abelian group with extra structure. But noticing that such abelian ring modules are just enriched presheaves in [[Ab]]-[[enriched category theory]], it makes sense to consider enriched presheaves in general $V$-enriched category theory as a natural generalization of the notion of module.
 
@@ -214,7 +181,110 @@ Of course for this story to work, $G$ need not be a group, but could be any [[mo
  
 
 
-### Modules over simplicial rings {#SimpRings}
+
+### In enriched category theory
+
+Equivalently, regarding the [[monoid]] $A$ as a one-object $V$-[[enriched category]] $\mathbf{B}A$, the module together with its action are given by a $V$-[[enriched functor]]
+
+$$
+  \rho : \mathbf{B}A \to V
+  \,.
+$$
+
+Correspondingly, a _left_ module over $A$ is a functor
+
+$$
+  \rho : (\mathbf{B}A)^{\mathrm{op}} \to V
+  \,.
+$$
+
+In this language the concept directly generalizes to the [[horizontal categorification]] of monoids $A$. Let $K$ be _any_ $V$-[[enriched category]], then $V$-functors
+$
+  \rho : K \to V
+$
+give right modules and functors
+$
+  \rho : K^{\mathrm{op}} \to V
+$ give left modules over $K$. Accordingly, for $K$ and $L$ two $V$-enriched categories one says that $V$-functors
+
+$$
+  K^{op} \otimes L \to V
+$$
+
+are _$K$-$L$-[[bimodule]]s_, also known as _profunctors_ or _[[distributor]]s_ from $K$ to $L$.
+
+
+
+### In terms of stabilized overcategories {#DefWithOCat}
+
+The ordinary case of modules over rings is phrased 
+in terms of stabilized overcategories by the following
+observation, wich apparently goes back to Quillen.
+
++-- {: .un_prop }
+###### Proposition
+
+Let $R \in CRing$ be a commutative [[ring]]. Then there is a canonical [[equivalence of categories|equivalence]] between the [[category]] $R Mod$ of $R$-modules and the category $Ab(CRing/R)$ of abelian [[group object]]s in the [[overcategory]] of $CRing$ over $R$
+
+$$
+  R Mod \simeq Ab(CRing/R)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Unwind the structure encoded in an abelian group object
+$(p:  K \to R)$ in the overcaregory $CRing/R$.
+
+The unit of the abelian group object in $CRing/R$ is a diagram
+
+$$
+  \array{
+     R &&\to&& K
+     \\
+     & {}_{\mathllap{Id}}\searrow && \swarrow^{\mathrlap{p}}
+     \\
+     && R
+  }
+  \,.
+$$
+
+This diagram identifies $K$ with a ring of the form $R \oplus ker(p)$ in which for $r \in R$ and $n \in ker(p)$ we have $r\cdot n \in ker(p)$. 
+
+The [[product]] of $R \oplus N \to R$ with itself in the [[overcategory]] is the [[fiber product]] over $R$ in the original category, hence is $R \plus N \oplus N$.
+
+The addition operation on the abelian group object is therefore a morphism
+
+$$
+  \array{
+    R \oplus N \oplus N &&\to&& R \oplus N
+    \\
+    & \searrow && \swarrow
+    \\
+    && R
+  }
+  \,.
+$$
+
+With the above unit, the unit axiom on this operation says that this morphism is 
+
+$$
+    R \oplus N \oplus N \stackrel{Id \oplus (Id + Id)}{\to}
+    R \oplus N
+  \,.
+$$
+
+Since the ring product in the direct product ring $R \oplus N \oplus N$ between two elements in the two copies of $N$ vanishes, it therefore has to vanish between two elements in the same copy, too. 
+
+This says that $R \oplus N$ is a square-0 extension of $R$. Conversely, for every square-0-extension we obtain an abelian group object this way.
+
+=--
+
+
+#### Example: Modules over simplicial rings {#SimpRings}
 
 Let $sAlg_k$ (or $sAlg$ for short) be the [[(∞,1)-category]] of commutative [[simplicial ring|simplicial algebras]] over a base field $k$. 
 
@@ -225,6 +295,8 @@ $$
 $$
 
 from the [[stable (∞,1)-category]] of $A$-modules to the [[stabilization]] of the [[overcategory]] of $sAlg$. But in general this functor is neither [[essentially surjective functor|essentially surjective]] nor [[full functor|full]]. If however $k$ has characteristic 0, then this is an equivalence.
+
+
 
 
 ## Related concepts
