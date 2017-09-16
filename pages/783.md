@@ -5,6 +5,6 @@ For a good account of his work, including work published in the 1980s, see the [
 The video of a talk by W. Scharlau on his life can be seen [here](http://www.dailymotion.com/video/x8juek_colloque-grothendieck-winfried-scha_tech)
 
 
-category: biography
+category: people
 
 [[!redirects Grothendieck]]
