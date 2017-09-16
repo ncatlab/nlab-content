@@ -28,4 +28,6 @@ The definition uses the idea of classifying manifolds and cobordisms by equippin
 
 In Lurie's definition the collection of critical points on a $n$-dimensional manifold is naturally organized into an $n$-fold simplicial structure, whose points are manifolds $X$ with $n$ Morse functions $X \to \mathbb{R}$ with specified ordered lists of values of critical points. Given that the [[simplex category]] $\Delta$ is just that of totally ordered sets, this naturally forms an $n$-fold simplicial structure. And it can be completed into an honest [[(infinity,n)-category]].
 
+For details on how this kind of construction works in low dimensions see also
 
+* Christ Schommer-Pries _The classification of 2-dimensional extended TFT_ ([pdf]())
