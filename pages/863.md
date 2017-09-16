@@ -7,11 +7,11 @@ In classical mathematics, the distinction between linear orders and total orders
 # Definition #
 
 A **linear order** on a set $S$ is a (binary) [[relation]] $\lt$ with the following properties:
-* irreflexivity: $x \nless x$;
-* asymmetry: $x \lt y$ and $y \lt x$ cannot both be true;
-* transitivity: if $x \lt y \lt z$, then $x \lt z$;
-* comparison: if $x \lt z$, then $x \lt y$ or $y \lt z $;
-* linearity: if $x \nless y$ and $y \nless x$, then $x = y$.
+* [[irreflexive relation|irreflexivity]]: $x \nless x$;
+* [[asymmetric relation|asymmetry]]: $x \lt y$ and $y \lt x$ cannot both be true;
+* [[transitive relation|transitivity]]: if $x \lt y \lt z$, then $x \lt z$;
+* [[comparison]]: if $x \lt z$, then $x \lt y$ or $y \lt z $;
+* [[linear relation|linearity]]: if $x \nless y$ and $y \nless x$, then $x = y$.
 
 In classical mathematics, one often sees these versions of asymmetry and linearity:
 * $x \nless y$ or $y \nless x$;
