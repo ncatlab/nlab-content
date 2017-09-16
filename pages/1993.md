@@ -43,13 +43,13 @@ $$
   }
 $$
 
-satisfying the properties of a [[crossed profunctor]], and,in addition,  such that the NE-SW sequence is exact i.e. a (nonabelian in general) [[group extension]] sequence. 
+satisfying the properties of a [[crossed profunctor]], and in addition such that the NE-SW sequence is exact i.e. a (nonabelian in general) [[group extension]] sequence. 
 
 ## Related concepts
 
 Butterflies corresponds to weak functors between the corresponding $2$-[[2-group|groups]]. A butterfly is flippable, or reversible, if both diagonals are [[group extension]]s. There is also a straightforward generalization for $2$-group [[stack]]s. 
 
-Under the correspondence between [[crossed module]]s [[internal category|categories internal]] to [[Grp]], butterflies are precisely the saturated [[anafunctor|anafunctors]] internal to $Grp$, using the [[Grothendieck pretopology]] of surjective homomorphisms.
+Under the correspondence between [[crossed module]]s and [[internal category|categories internal]] to [[Grp]], butterflies are precisely the saturated [[anafunctor|anafunctors]] internal to $Grp$, using the [[Grothendieck pretopology]] of surjective homomorphisms.
 
 
 ## References
