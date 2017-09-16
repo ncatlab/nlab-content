@@ -1,4 +1,13 @@
-In a [[symmetric monoidal category]], a __bimonoid__ is an object $B$ equipped with a structure of a [[monoid]] and a [[comonoid]] which are compatible in one of two equivalent ways: the comultiplication and the counit are morphisms of monoids or the multiplication and the unit are morphisms of comonoids.  The symmetry of the monoidal structure is involved in the definition of the tensor product $B\otimes B$ as monoids and as comonoid. 
+# Definition #
+
+In a [[symmetric monoidal category]], a __bimonoid__ is an object $B$ equipped with a structure of a [[monoid]] and a [[comonoid]] which are compatible in one of two equivalent ways: the comultiplication and the counit are morphisms of monoids or the multiplication and the unit are morphisms of comonoids.  The symmetry of the monoidal structure is involved in the definition of the tensor product $B\otimes B$ as monoids and as comonoids.
+
+A bimonoid in [[Vect]] is generally called a [[bialgebra]].
+
+A bimonoid which additionally has an [[antipode]] (a map $s:B\to B$ satisfying an axiom that makes it act like "inverses" in a group) is called a [[Hopf monoid]]; in [[Vect]] these are [[Hopf algebras]].
+
+
+# Non-symmetric variants # 
 
 It is interesting how to generalize this notion in various nonsymmetric situations, for example involving [[braided monoidal category|braidings]], or in relative situations over noncommutative rings (e.g. Takeuchi bialgebroids). In the completely noncommutative situation of the monoidal category of endofunctors, one can look at various compatibilities between [[monad]]s and comonads or monads and tensor products, for example involving distributive laws.
 
@@ -18,7 +27,7 @@ There is also a more subtle notion also called Hopf monad in
 
 * R. Wisbauer, B. Mesablishvili, Bimonads and Hopf monads on categories, <a href="http://arxiv.org/abs/0710.1163">arXiv:0710.1163</a>
 
-Unlike the case of [[Hopf algebra]]s, one does not have good analogues of antipode map in general and a difference between a bimonoid and Hopf monoid has to be stated in different terms. A similar case is in the case of Hopf algebroids and bialgebroids where the most natural (and general) notions do not involve antipode:
+In some of these generalized cases, one does not have a good notion of of antipode, so that the difference between bimonoids and Hopf monoids has to be stated in different terms.  A similar case is in the case of Hopf algebroids and bialgebroids where there are natural general notions not involving antipodes:
 
 * B. Day, R. Street, Monoidal bicategories and Hopf algebroids, Advances in Mathematics, 129, 1 (1997) 99--157 
 
