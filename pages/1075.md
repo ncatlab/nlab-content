@@ -7,7 +7,7 @@ A specification of a system of _local epimorphisms_
 is equivalent to giving a [[Grothendieck topology]]
 and hence the structure of a [[site]] on $S$.
 
-Moreover the [[local isomorphism]]s among the local epimorphisms constitute a [[multiplicative system]] which equips $[S^{op}, Set]$ with the structure of a [[category with weak equivalences]]. The corresponding [[homotopy category]] is the category of [[sheaf|sheaves]] on the site $S$.
+Moreover the [[local isomorphism]]s among the local epimorphisms admit a [[calculus of fractions]] which equips $[S^{op}, Set]$ with the structure of a [[category with weak equivalences]]. The corresponding [[homotopy category]] is the category of [[sheaf|sheaves]] on the site $S$.
 
 #Definition#
 
