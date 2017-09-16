@@ -175,7 +175,7 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         8.  [[Hewitt realcompactification]]
         9.  embedding theorem for realcompact spaces
         10. complete uniformity on a realcompact space
-        11. \* $C(X)$ is a [[Gelfand ring]]
+        11. \* $C(X)$ is a Gelfand ring
         12. maximal ideals in $C(X)$ as closed prime ideals
     4.  Gelfand duality
         1.  $RComp Top$ and $Comp Haus Top$ are dual full subcategories of $Comm Ring$
@@ -191,10 +191,60 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         11. [[Dedekind-complete lattice]]
         12. \* [[Banach lattice]], $\mathit{MI}$-[[MI-space|space]]
 5.  Representations of rings
+
     1.  A crash course in sheaf theory
+        1.  overview
+        2.  [[bundle]]
+        3.  [[trivial bundle]], [[section]], [[partial section]], [[restriction]], [[presheaf]] of sets on a space, [[sheaf]] of sets on a space
+        4.  [[stalk]], [[germ]], [[display space]]
+        5.  [[local homeomorphism]]
+        6.  generalisation to locales
+        7.  generalisation to $0$-sites
+        8.  [[direct image]], [[inverse image]]
+        9.  generalisation to values in an algebraic category
+        10. [[coherent logic]], [[field]]
+        11. sheaf of fields
+        12. [[cartesian logic]]
+        13. [[regular logic]]
     2.  The Pierce spectrum
-    3.  The Zariski spectrum
+        1.  [[idempotent]]
+        2.  [[indecomposable ring]]
+        3.  [[Pierce spectrum]]
+        4.  its stalks
+        5.  its universal property
+        6.  [[regular ring]]
+        7.  [[local ring]], [[exchange ring]]
+        8.  \* [[neat ideal]]
+        9.  examples
+        10. neat ideals of $C(X)$
+    3.  The [[Zariski spectrum]]
+        1.  by abstract nonsense
+        2.  [[prime filter]] in a ring, [[radical ideal]], [[semiprime ring]], [[radical]] of an ideal
+        3.  explicit description
+        4.  stalks are local rings
+        5.  [[local-ringed space]]
+        6.  [[nilradical]]
+        7.  \* [[Gelfand ring]]
+        8.  \* spectrum of a Gelfand ring
+        9.  \* spectrum of an exchange ring
+        10. ring of sections over the radical of a neat ideal
+        11. [[integral domain]], [[domain representable ring]]
+        12. [[field spectrum]]
+        13. \* Hochster\'s converse
     4.  Ordered rings and real rings
+        1.  [[ordered ring]], [[positive cone]]
+        2.  [[Brumfiel spectrum]]
+        3.  [[shadow]], [[local ordered ring]]
+        4.  $L$-[[L-ring|ring]]
+        5.  prelude to ...
+        6.  $L$-[[L-ideal|ideal]], $F$-[[F-ring|ring]], [[Keimel spectrum]], [[prime L-ideal|prime]] $L$-ideal
+        7.  normality of Keimel spectrum
+        8.  more ...
+        9.  \* similar ...
+        10. results
+        11. [[formally real field]], [[real-closed field]], [[real closure]], [[real point]], [[strictly positive filter]]
+        12. [[real spectrum]]
+        13. [[formally real local ring]], [[ordered local ring]], [[separable real closure]], [[Nash function]]
 6.  Profiniteness and duality
     1.  Ind-objects and pro-objects
     2.  Profinite sets and algebras
