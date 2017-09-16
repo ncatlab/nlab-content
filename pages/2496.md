@@ -1505,11 +1505,15 @@ $$\array{
 }$$
 </font></div>
 
-<div markdown="1"><font size="+3">$\ldots$</font></div>
-
 # Functional conception of quantification theory #
 
 Up till now quantification theory has been based on the assumption of individual variables ranging over universal collections of perfectly determinate elements.  Merely to write down quantified formulas like $\forall_{x \in X} f(x)$ and $\exists_{x \in X} f(x)$ involves a subscription to such notions, as shown by the membership relations invoked in their indices.  Reflected on pragmatic and constructive principles, these ideas begin to appear as problematic hypotheses whose warrants are not beyond question, projects of exhaustive determination that overreach the powers of finite information and control to manage.  Therefore, it is worth considering how we might shift the medium of quantification theory closer to familiar ground, toward the predicates themselves that represent our continuing acquaintance with phenomena.
+
+## Quantified propositions ##
+
+The forms commonly viewed as quantified propositions may be viewed again as propositions about propositions, indeed, there is every reason to regard higher order propositions as the genus of quantification under which the more familiar species appear.
+
+<div markdown="1"><font size="+3">$\ldots$</font></div>
 
 # References and further reading #
 
