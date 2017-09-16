@@ -16,4 +16,10 @@ _Toby_:  I\'ll wait to hear from Tim.
 [[Mike Shulman|Mike]]: Not all nerves are simplicial; it depends on what you are taking the nerve of.  The nerve of a multicategory is a dendroidal set (a presheaf on the category of trees).  The nerve of a compact symmetric multicategory is a presheaf on the category of Feynman graphs.  And an $n$-category has a nerve that is a simplicial set, but also one that is a $\Theta_n$-set and one that is an $n$-fold simplicial set.
 
 FWIW, I have sometimes seen the "simplicial nerve of simplicial categories" called the "homotopy coherent nerve," which to me captures the intuition better.
+
+[[Urs Schreiber|Urs]]: true, I actually know that not every notion of nerve is simplicial, should have thought before typing. 
+
+Now that you mention it, maybe [[Tim Porter]] also said he favored "homotopy coherent nerve"? I'll send him an email.
+
 =--
+
