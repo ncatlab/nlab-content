@@ -86,6 +86,9 @@ The common generalization of [[bimodule]]s and [[span]]s in terms of distributor
 
 * John Baez, _Bimodules versus spans_ ([blog](http://golem.ph.utexas.edu/category/2008/08/bimodules_versus_spans.html))
 
+There is a discussion of distributors in the recently republished:
+
+* J.-M. Cordier and T. Porter, (1989), Shape Theory: Categorical Methods of Approximation, Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
 
 ***
 
