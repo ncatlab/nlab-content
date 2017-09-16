@@ -24,3 +24,11 @@ Quantales are a surprisingly commonplace structure in computer science. A very s
 * $1 = \{\epsilon\}$
 * $L \otimes M = \{ l\cdot m \;|\; l \in L, m \in M \}$
 
+###$*$-quantale###
+
+A $*$-quantale is a quantale $Q$ equipped with an additional structure of an involution 
+
+$$ * : Q \to Q$$ 
+
+for which $(x \otimes y)^* = y^* \otimes x^*$ and $1^* = 1$, where $1$ denotes the monoidal unit. (The operator is assumed to be covariant with respect to the poset structure.) 
+
