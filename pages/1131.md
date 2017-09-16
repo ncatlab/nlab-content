@@ -55,7 +55,16 @@ A differential $\partial$ of a pre-gla is a Lie algebra derivation of degree -1 
 
 A morphism of pre-dglas is a morphism for both the underlying pre-gla and the pre-dgvs. We denote the corresponding category  by $pre-DGLA$.
 
-Alternatively, dgla is simply an internal Lie algebra in symmetric monoidal category of chain complexes. 
+
+This means that a  differential graded Lie algebra is an internal Lie algebra in the symmetric monoidal category of chain complexes with tensor product given as in [[differential graded vector space|differential graded vector spaces]]. 
+
++--{:  .query}
+[[Tim Porter|Tim]]:  I have changed the wording that Zoran suggested slightly. Of course, a dgla is an internal Lie algebra, a term that needs making precise in an entry, but  then we must make precise the tensor product, and the symmetry.  All that abstract baggage is, of course, in other entries, but I think it best to avoid the term 'simply'.  I have heard it expressed that category theorists tend to use the term 'simply' aand other similar terms too much from the point of view others working in neighbouring disciplines.  
+
+For instance, if someone knows de Rham theory from a geometric viewpoint, we know that  in the long run it will be useful for them to understand the differential graded algebra from a categorical viewpoint  as that is one of the most fruitful  approaches for geometrically significant generalisations and applications BUT the debutant can get very put off by thinking that they have to understand lots of category theory before they can start understanding the de Rham complex. In fact coming from that direction they can understand the category theory via the de Rham theory.  So I suggest that we simply avoid 'simply'!!  
+
+I know some researchers in other subject areas are looking with interest to the nLab as a quick means of entry into some interesting mathematics and a handy reference for definitions and background. That is great but it perhaps means that  we have to be a bit careful about our natural feeling that the categorical approach is nearly always the 'best'.  'Simply' is one problem, another is, I think, use of diagrams rather than formulae.  My feeling is that both should be given (though the diagrams are more difficult to get looking nice). 
+=--
 
 ####Examples
 
