@@ -1,6 +1,8 @@
 ## Idea
 
-A space is complete (or Cauchy complete) if every sequence/net/filter that should converge really does converge.  We identify those that should converge as the _Cauchy_ sequences/nets/filters.  A space that is not complete has gaps that may be filled to form its [[completion]]; it is rather natural to make the space [[Hausdorff space|Hausdorff]] at the same time.
+A space is complete (or Cauchy complete) if every sequence/net/filter that should converge really does converge.  We identify those that should converge as the _Cauchy_ sequences/nets/filters.  A space that is not complete has gaps that may be filled to form its _completion_; it is rather natural to make the space [[Hausdorff space|Hausdorff]] at the same time.
+
+Forming the completion of a Hausdorff space is an important example of [[completion]] in the general sense.
 
 
 ## Definition
