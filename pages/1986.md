@@ -16,6 +16,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-08-03
+
+* [[Eric]]:
+
+  * Gleefully responded to John's gleeful response on [[directed graph]]. Note: I need to learn about this 'resolution' stuff.
+
 * [[Zoran Škoda]]: added [[reconstruction theorem]]. There should eventually be separate entries for each of the main classes and examples, which are listed in the main entry.
 * [[Urs Schreiber]]: 
 
@@ -42,9 +47,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  [[John Baez]]: Welcome, Sridhar Ramesh!  I'd like to add: we are not trying to force you to do lots of bureaucratic work, so please don't feel we are _demanding_ you to log changes here.  If you make a change and feel too tired to log it here, we won't be mad at you.  We just _like_ to see changes here, even smallish ones.
 
-* [[Eric]]: Asked a question of [[Mike Shulman|Mike]] (or anyone else interes
-
-ted in SDG) at [[synthetic differential geometry]].
+* [[Eric]]: Asked a question of [[Mike Shulman|Mike]] (or anyone else interested in SDG) at [[synthetic differential geometry]].
 
 ## 2009-08-01
 
