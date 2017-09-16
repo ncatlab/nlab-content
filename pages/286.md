@@ -51,14 +51,6 @@ Often evil concepts (like the concept of "strict monoidal category") have non-ev
 
 It is possible that this problem will force a change in thinking in either the concept of evil or our thinking in quantum theory.
 
-+-- {: .query}
-By default, there is a non-evil way to say it:
-
-Given a category $C$, a __non-evil $\dagger$-category structure__ on $C$ consists of a $\dagger$-category $C'$ and an equivalence $F\colon C \to C'$ of categories.
-
-So one question is whether there is a less long-winded way to say that.  Another question (which logically comes before the first question) is what is the right notion of equivalence of such structures.
-=--
-
 +--{: .query}
 [[Mike Shulman]]: Actually, I believe that $\dagger$-structure on a category *can* be transported along an equivalence of categories!  Suppose that $F\colon C \to D \colon G$ is an [[adjoint equivalence]] with unit $\eta\colon Id_C \overset{\cong}{\to} G F$ and counit $\varepsilon\colon F G \overset{\cong}{\to} Id_D$, where $D$ is a $\dagger$-category.  Given $f\colon x\to y$ in $C$, define $f^\dagger$ to be the following composite:
 $$ y \overset{\eta}{\to} G F y \overset{G((F f)^\dagger)}{\to} G F x \overset{\eta^{-1}}{\to} x. $$
