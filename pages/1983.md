@@ -7,50 +7,25 @@ This entry is about the book
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _Models for Smooth Infinitesimal Analysis_ Springer (1991)
 
-# Overview #
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-The book constructs, describes and studies in detail  concrete [[smooth topos]] well-adapted models for [[synthetic differential geometry]].
+# Summary #
 
-The construction of the ([[Grothendieck topos|Grothendieck]]-) [[topos]] of [[generalized smooth space]]s proceeds in two steps in the [[space and quantity]] yoga:
+The book discusses the construction and the properties of [[smooth topos]]es $(\mathcal{T},R)$ that model the axioms of [[synthetic differential geometry]] and are _well-adapted_ to [[differential geometry]] in that there is a [[full and faithful functor]] $Diff \to \mathcal{T}$ embedding the [[category]] [[Diff]] of smooth [[manifold]]s into the more general catgeory $\mathcal{T}$.
 
-1. certain [[presheaf|copresheaves]] on Cartesian spaces -- the [[generalized smooth algebra]] -- are regarded as the [[nLab:space and quantity|quantities]] on smooth test spaces.
+All models are obtained as [[category of sheaves|categories of sheaves]] on [[site]]s whose underlying category is a [[subcategory]] of that of [[smooth loci]].
 
-2. the [[sheaf|sheaves]] on the smooth test spaces thus defined (or on a certain subcategory of them) are the [[generalized smooth space]]s of this model.
+#Models#
 
+## the topos $\mathcal{G}$ ##
 
-# related $n$Lab entries #
+## the topos $\mathcal{F}$ ##
 
+## the topos $\mathcal{Z}$ ##
 
-* [[Categories and Sheaves]]
+## the topos $\mathcal{B}$ ##
 
-* [[Sheaves in Geometry and Logic]]
-
-* [[synthetic differential geometry]]
-
-  * [[Kock-Lawvere axiom]]
-
-  * [[integration axiom]]
-
-  * [[smooth topos]]
-
-* [[generalized smooth algebra]]
-
-  * [[manifold]]
-
-  * [[transversal maps]]
-
-* [[infinitesimal object]]
-
-* [[microlinear space]]
-
-  * [[differential forms in synthetic differential geometry]]
-
-
-
-...
-
-* [[Ehresmann connection]]
-
-...
 
 category: reference
