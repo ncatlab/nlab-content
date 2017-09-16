@@ -80,8 +80,52 @@ $$
 
 natural in $c$.
 
+(Here $[K,V]$ is the $V$-[[enriched functor category]], as usual.)
+
+
++-- {: .query}
+
+[[Urs Schreiber|Urs]]: one more addition, Feb 25:
+
+=--
+
+
+In particular, if $C = V$ itself, then we get the direct formula
+$$
+  lim^W F \simeq [K,V](W,F)
+  \,.
+$$
+
+This follows from the above by 
+$$
+  \begin{aligned}
+    [K,V](W(-),C(c,F(-)))
+    &:=
+    \int_{k \in K} V(W(k),V(c,F(k)))
+    \\
+    &  \simeq 
+      \int_{k \in K} V(c,V(W(k),F(k))
+    \\
+    &  \simeq 
+      V(c, \int_{k \in K} V(W(k),F(k))   
+    \\
+    & =:
+      V(c, [K,V](W,F))   
+    \,.
+  \end{aligned}
+$$
+
+
++-- {: .query}
+
+ end of further addition
+
+=--
+
+
 
 #Examples#
+
 
 ##Homotopy limits##
 
@@ -98,6 +142,16 @@ $$
 $$
 
 where $K/k$ denotes the [[over category]] of $K$ over $k$ and $N(K/k)$ denotes its [[nerve]].
+
+This leads to the classical definition of homotopy limits in [[SSet]]-enriched categories due to
+
+* A.K. Bousfield and D.M. Kan, _Homotopy limits, completions, and localizations_
+
+See for instance also
+
+* Nicola Gambino, _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf))
+
+### Homotopy pullback ###
 
 For instance in the case that 
 $K = \{r \to t \leftarrow s\}$ is the [[pullback]] diagram we have
