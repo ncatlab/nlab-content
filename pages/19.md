@@ -146,6 +146,8 @@ An imperfect perspective of category theory (for the purpose of classifying arti
 
 +-- {: .query}
 I disagree that this is the *main* principle of category theory.  This is an important principle, but how is it the main one?   ---Toby
+
+[[Todd Trimble]]: I also disagree, and moreover, to a first-time reader it probably won't make a lot of sense (to explain carefully what it means is a little bit subtle). 
 =--
 
 Category theory has a main principle:
