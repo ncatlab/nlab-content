@@ -27,13 +27,34 @@ called the **associator**, a natural isomorphism
 $$ \lambda_x : 1 \otimes x \to x $$
 called the **left unitor**, and a natural isomorphism 
 $$  \rho_x : x \otimes 1 \to x $$
-called the **right unitor**, which must satisfy a couple of equations, most notably the **pentagon identity**:
+called the **right unitor**, which must make two diagrams commute: the **pentagon**:
 
 +--{: style="text-align:center"}
 [[!include monoidal category/pentagon]]
 =--
 
-A monoidal category is said to be **strict** if the associator, left unitor and right unitors are all identity morphisms.  
+and the **triangle**:
+
+$$
+  \array{
+     & (X \otimes I) \otimes Y &\stackrel{a_{X,I,Y}}{\longrightarrow} & X \otimes (I \otimes Y)
+      \\
+      
+      & {}_{r_X \otimes 1_Y}\searrow
+       
+       && \swarrow_{1_X \otimes r_Y}
+      & 
+     \\
+     &&
+     X \otimes Y
+     &&
+     
+  }
+$$
+
+The equation satisfied when pentagon commutes is often called the **pentagon identity** or **pentagon equation**.  It is very famous.
+
+A monoidal category is said to be **strict** if the associator, left unitor and right unitors are all identity morphisms.  In this case the pentagon and triangle commute automatically.
 
 There is a [[strict 2-category]] MonCat with:
 
@@ -67,11 +88,11 @@ One version of Mac Lane's Coherence Theorem states that in MonCat, every monoida
 
 The definition of monoidal category can be found on [John Armstrong's blog](http://unapologetic.wordpress.com/2007/06/28/monoidal-categories/) and [Wikipedia](http://en.wikipedia.org/wiki/Monoidal_category).
 
-For definitions of all the concepts mentioned above, including a precise description of the 'couple of equations' alluded to above, see:
+For definitions of [[monoidal functor]] and [[monoidal natural transformation]], see:
 
 * [[John Baez]], [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
 
-It would be nice if you, dear reader, would add all these definitions to the $n$Lab!   The [LaTeX code](http://math.ucr.edu/home/baez/qg-fall2004/texfiles/definitions.tex) is available if you want.
+It would be nice if **you**, dear reader, would add these definitions to the $n$Lab!   The [LaTeX code](http://math.ucr.edu/home/baez/qg-fall2004/texfiles/definitions.tex) is available if you want.
 
 For an elementary introduction to monoidal categories using string diagrams, see:
 
@@ -121,7 +142,7 @@ $$
 
 from the point to $C$. This lax functor sends the point to some object of $C$, sends the [[identity morphism]] on the point to some [[endomorphism]] of that object. The unitor of the lax functor gives the product on that endomorphism and the coherence of the unitor is the associativity condition on this product.
 
-This is part of a more general principle. A lax[[monoid]] in any tricategory would again be a lax functor from the point to that tricategory. 
+This is part of a more general principle. A lax [[monoid]] in any tricategory would again be a lax functor from the point to that tricategory. 
 
 And a monoidal category can be regarded as a pseudomonoid in the tricategory $\mathbf{B}Cat$, which has a single object, categories as 1-morphisms with the composition of 1-morphisms being the standard cartesian [[tensor product]] on categories.
 
@@ -176,17 +197,3 @@ where the 2-category on the right is defined as $MonCat$ above, but with the ass
 In closing, it should be remarked that the fact that everything here is _lax_ instead of _pseudo_ is related to a curious property of the orientals: the $n$th oriental for $n \ge 1$ _fails_ to be weakly equivalent to the point. As a result, the objects of $Desc(pt, C)$ are not quite $\omega$-[[anafunctor]]s from the point to $C$, since they do not map out of a proper hypercover of $C$. In the strict notion of descent as used in most of the literature, the orientals would hence provide something _more general_ than ordinary descent, which in its generality is lacking some properties usually required of descent.
 
 We can remedy this by replacing in the definition of the descent $\infty$-category $Desc(Y,C)$ the orientals by another cosimplicial $\infty$-category, one which _is_ equivalent to the point in each degree. Doing so and then going through the above discussion will make _all_ the structure maps appeaing have inverses. But this will also apply to the monoidal product itself, then, which is usually not desired.  
-
-##Discussion##
-
-_[[John Baez|John]] says:_ I have attempted to work all the discussion we've had into the main article.  If we are reasonably happy with my attempt, we can perhaps delete the discussion above.
-
-_Toby_: For the record, I\'m happy with that.
-
-_Mike_: Me too.
-
-_John_: Since Urs and Eric expressed no opinion, I'm deleting the discussion we've had so far.  We can always go back in time if we want to revive it.
-
-[[Urs Schreiber|Urs]]: sure, fine with me. Let's agree that no reaction means agreement. There are already so many other things one has to react to! ;-)
-
-_Toby_:  Well, I wouldn\'t want people to interpret my silence as agreement.  However, I wouldn\'t want to force them to wait for me either.  John is right; I can always revive the discussion if I want to.  
