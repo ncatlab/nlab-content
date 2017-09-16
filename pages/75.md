@@ -108,3 +108,6 @@ In contrast, many of the optional or controversial axioms of set theory (such as
 #Blog discussion#
 
 * [Foundations](http://golem.ph.utexas.edu/category/2006/10/foundations.html)
+
+
+[[!redirects Foundations]]
