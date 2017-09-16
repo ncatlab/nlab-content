@@ -100,7 +100,9 @@ $$S_\lambda(X) = V_{\lambda} \otimes X^{\otimes n} / S_n$$
 This construction of $S_\lambda(X)$ defines the **Schur functor** $S_\lambda$ on $C$. 
 
 +--{.query} 
-With the possible exception of the left Kan extension alluded to above, all these constructions may be carried out if we weaken the abelian assumption on $C$ to mere Cauchy completeness (relative to enrichment in rational vector spaces), which more concretely means that $C$ admits finite coproducts and splittings of idempotent projections. This observation was made by Noah Snyder on the blog. 
+With the possible exception of the left Kan extension alluded to above, all these constructions may be carried out if we weaken the abelian assumption on $C$ to mere Cauchy completeness (relative to enrichment in rational vector spaces), which more concretely means that $C$ admits finite coproducts and splittings of idempotent projections. This observation was made by Noah Snyder on the blog.
+
+(Jamie: Doesn't Cauchy completeness for abelian categories in fact correspond to _biproducts_ and split idempotents?)
 
 It would actually feel more natural to me to speak of the object of coinvariants rather than the object of invariants, but in the present context it should come to the same thing as either is the splitting of the idempotent operator $\frac1{n!}\sum g$. That is to say: there is a natural splitting of the idempotent natural transformation 
 $$e_X = \frac1{n!} \sum_{g \in S_n} g: V_\lambda \otimes X^{\otimes n} \to V_\lambda \otimes X^{\otimes n}$$ 
