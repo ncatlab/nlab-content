@@ -1,9 +1,16 @@
+# The separation axioms
+* tic
+{: toc}
+
+
+## Idea
+
 The separation axioms are a list of (originally four, now more) properties of a [[topological space]], all of which are satisfied by [[metric spaces]].  They all have to do with saying that two sets (of certain forms) in the space are 'separated' from each other in one sense if they are 'separated' in a (generally) weaker sense.  Often, the axioms can also be interpreted in a broader context, such as in a [[convergence space]] or in a [[locale]], or under weaker assumptions, such as those of [[constructive mathematics]] and [[predicative mathematics]].
 
 
 ## The classical theory
 
-First, we will consider how, for topological spaces in classical mathematics, the separation axioms are about sets\' being 'separated' as stated above.  Throughout, fix a topological space $S$.
+First, we will consider how, for topological spaces in [[classical mathematics]], the separation axioms are about sets\' being 'separated' as stated above.  Throughout, fix a topological space $S$.
 
 
 ### Separation conditions
