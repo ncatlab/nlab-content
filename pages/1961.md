@@ -2,8 +2,9 @@ Given a [[manifold]] (or [[generalized smooth space]]) $X$, the _tangent bundle_
 
 We have yet to define the tangent bundle; how to do this depends on what sort of space $X$ is.  Here we assume that $X$ is a [[manifold]]; see [[Frölicher space]] for the definition in that context.
 
+There are 3 standard definitions of tangent vector known as algebraic (derivation), geometric (equivalence class of germs of curves) and physical definition (via components in local coordinate system with prescribed behaviour under change of coordinates). 
 
-Operationally, we may define a __tangent vector__ $v$ at $a$ on $X$ as a scalar-valued [[derivation]] on the space of [[germ]]s of differentiable [[functions]] defined on $X$ near $a$, augmented by evaluation at $a$.  That is, given [[partial functions]] $f$ and $g$, each defined on some [[neighbourhood]] of $a$, we have:
+Algebraically, we may define a __tangent vector__ $v$ at $a$ on $X$ as a scalar-valued [[derivation]] on the space of [[germ]]s of differentiable [[functions]] defined on $X$ near $a$, augmented by evaluation at $a$.  That is, given [[partial functions]] $f$ and $g$, each defined on some [[neighbourhood]] of $a$, we have:
 
 1.  $v[f] = v[g]$ if $f = g$ on some (perhaps smaller) neighbourhood of $a$,
 2.  $v[f + g] = v[f] + v[g]$,
@@ -14,7 +15,7 @@ In light of (4), (3) is equivalent to:
 
 *  $v[k] = 0$ for $k$ a [[constant function]] (or indeed, for any function constant on any neighbourhood of $a$).
 
-Alternatively, we may define a __tangent vector field__ $v$ as an ordinary (unaugmented) derivation on the space of differentiable functions defined on all of $X$.  (This works for differentiable manifolds and smooth manifolds, but not for [[analytic manifold]]s and [[algebraic manifold]]s; we need to be able to change functions locally.)  That is, given [[functions]] $f$ and $g$, we have:
+Globally, we may define a __tangent vector field__ $v$ as an ordinary (unaugmented) derivation on the space of differentiable functions defined on all of $X$.  (This works for differentiable manifolds and smooth manifolds, but not for [[analytic manifold]]s and [[algebraic manifold]]s; we need to be able to change functions locally.)  That is, given [[functions]] $f$ and $g$, we have:
 
 1.  $v[f] = v[g]$ if $f = g$ (so really, the only reason to list this is to keep the numbering the same),
 2.  $v[f + g] = v[f] + v[g]$,
