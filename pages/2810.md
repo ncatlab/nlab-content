@@ -22,12 +22,30 @@ A discussion of $E_k$ in the context of [[(∞,1)-operads]] is in
 * [[Jacob Lurie]], _$\mathbb{E}[k]$-[[Ek-Algebras|Algebras]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
 
 
+[[!redirects little k-cubes operad]]
+[[!redirects little n-cubes operad]]
+[[!redirects little cube operad]]
+[[!redirects little k-cube operad]]
+[[!redirects little n-cube operad]]
+
+[[!redirects little discs operad]]
+[[!redirects little disc operad]]
+[[!redirects little k-discs operad]]
+[[!redirects little n-discs operad]]
+[[!redirects little k-disc operad]]
+[[!redirects little n-disc operad]]
+[[!redirects little disks operad]]
+[[!redirects little disk operad]]
+[[!redirects little k-disks operad]]
+[[!redirects little n-disks operad]]
+[[!redirects little k-disk operad]]
+[[!redirects little n-disk operad]]
+
 [[!redirects E-k operad]]
 [[!redirects E-n operad]]
 [[!redirects E-k-operad]]
 [[!redirects E-n-operad]]
-[[!redirects little k-cubes operad]]
-[[!redirects little n-cubes operad]]
+
 [[!redirects E-infinity operad]]
 [[!redirects E-∞ operad]]
 [[!redirects E-infinity-operad]]
