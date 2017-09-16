@@ -9,9 +9,9 @@
 
 An $(n,r)$-category is a [[higher category theory|higher category]] such that, essentially:
 
-* all [[k-morphism]]s for $k \gt n$ are trivial.
+* all [[k-morphisms]] for $k \gt n$ are trivial.
 
-* all [[k-morphism]]s for $k \gt r$ are reversible.
+* all [[k-morphisms]] for $k \gt r$ are reversible.
 
 So $(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]] and $n$-[[n-groupoid|groupoids]], covering all of the ground in between (and a bit beyond). As $n$ increases, there are many more possibilities, until there are infinitely many kinds of $(\infty,r)$-[[(infinity,n)-category|categories]].
 
@@ -38,7 +38,7 @@ If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between 
 
 From the point of view of [[homotopy theory]], the notion of $(n,r)$-categories may be understood as a combination of the notion of [[homotopy n-type]] and that of [[directed space]].
 
-Recall that an [[(∞,0)-category]] is an [[∞-groupoid]]. In light of the [[homotopy hypothesis]] -- that identifies $\infty$-groupoids with (nice) [[topological space]]s and [[n-groupoid]]s with [[homotopy n-type]]s -- and in view of the notion of [[directed space]], the following terminology is suggestive:
+Recall that an [[(∞,0)-category]] is an [[∞-groupoid]]. In light of the [[homotopy hypothesis]] -- that identifies $\infty$-groupoids with (nice) [[topological spaces]] and [[n-groupoids]] with [[homotopy n-types]] -- and in view of the notion of [[directed space]], the following terminology is suggestive:
 
 +-- {: .standout}
 
@@ -68,7 +68,7 @@ Then, indeed, we have for instance that
 
 * etc.
 
-* an [[(∞,0)-category]] is an undirected space: an [[infinity-groupoid]],
+* an [[(∞,0)-category]] is an undirected space: an [[∞-groupoid]],
 
 * an [[(∞,1)-category]] is a [[directed space]]: a [[quasi-category]],
 
@@ -105,7 +105,7 @@ For low values of $n$, many of these notions coincide.  For instance, a $0$-[[0-
 
 Of particular importance is the case where $n = \infty$. See 
 
-* [[(infinity,n)-category]] .
+* [[(∞,n)-category]] .
 
 ## topos cases ##
 
