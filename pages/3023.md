@@ -2,17 +2,24 @@
 * automatic table of contents goes here
 {:toc}
 
-## Definition
+
+## Idea
+
+A Riemann surface is a $1$-dimensional [[algebraic geometry|algebro-geometric]] object with good properties.  The name 'surface' comes from the classical case, which is $1$-dimensional over the [[complex numbers]] and therefore $2$-dimensional over the [[real numbers]].
 
 There are several distinct meaning of what is a Riemann surface, and it can be considered in several generalities.
 
-One common and oldest meaning is that a **Riemann surface** is a connected one-dimensional [[complex manifold|complex]] [[manifold]].  In other words, it's a [[Hausdorff space|Hausdorff]] [[second countable space]] $M$ which is locally [[homeomorphism|homeomorphic]] to $\mathbb{C}$ via charts (i.e., homeomorphisms) $\phi_i:U_i \to V_i$ for $U_i \subset M, V_i \subset \mathbb{C}$ open and such that $\phi_j \circ \phi_i^{-1}: V_i \cap V_j \to V_i \cap V_j$ is holomorphic.
 
-There are generalizations e.g. over local fields in rigid analytic geometry. 
+## Definition
+
+Classically, a **Riemann surface** is a [[connected space|connected]] $1$-dimensional [[complex manifold|complex]] [[manifold]], in the strictest sense of 'manifold'.  In other words, it's a [[Hausdorff space|Hausdorff]] [[second countable space]] $M$ which is locally [[homeomorphism|homeomorphic]] to $\mathbb{C}$ via charts (i.e., [[homeomorphisms]]) $\phi_i:U_i \to V_i$ for $U_i \subset M, V_i \subset \mathbb{C}$ open and such that $\phi_j \circ \phi_i^{-1}: V_i \cap V_j \to V_i \cap V_j$ is [[holomorphic function|holomorphic]].
+
+There are generalizations e.g. over [[local field]]s in [[rigid analytic geometry]]. 
+
 
 ## Examples
 
-Evidently an open subset of a Riemann surface is a Riemann surface.  In particular, an open subset of $\mathbb{C}$ is a Riemann surface in a natural manner.
+Evidently an [[open subspace]] of a Riemann surface is a Riemann surface.  In particular, an open subset of $\mathbb{C}$ is a Riemann surface in a natural manner.
 
 The [[Riemann sphere]] $P^1(\mathbb{C}) := \mathbb{C} \cup \{ \infty \}$ or $S^2$ is a Riemann sphere with the open sets $U_1 = \mathbb{C}, U_2 = \mathbb{C} - \{0\} \cup \{\infty\}$ and the charts
 \[ \phi_1 =z, \;\phi_2 = \frac{1}{z}.\]
@@ -25,11 +32,12 @@ Starting with a given function element $\gamma = (f,V)$, we can consider the tot
 
 Indeed, we must first put a topology on $X$.  If $(g,W) \in X$ with $W=D_r(w_0)$ centered at $w_0$, then let a neighborhood of $g$ be given by all function elements $(g_w, W')$ for $w \in W, W' \subset W$; these form a basis for a suitable topology on $X$.  Then the coordinate projections $(g,W) \to w_0$ form appropriate local coordinates.  In fact, there is a globally defined map $X \to \mathbb{C}$, whose image in general will be a proper subset of $\mathbb{C}$.
 
+
 ## Basic facts
 
-Since we have local coordinates, we can define a map $f: X \to Y$ of Riemann surfaces to be **holomorphic** or **regular** if it is so in local coordinates.  In particular, we can define a holomorphic complex function as a holomorphic map $f: X \to \mathbb{C}$; for meromorphicity, this becomes $f: X \to S^2$.
+Since we have local coordinates, we can define a map $f: X \to Y$ of Riemann surfaces to be **holomorphic** or **regular** if it is so in local coordinates.  In particular, we can define a holomorphic complex function as a holomorphic map $f: X \to \mathbb{C}$; for [[meromorphic function|meromorphicity]], this becomes $f: X \to S^2$.
 
-Many of the usual theorems of elementary complex analysis (that is to say, the local ones) transfer immediately to the case of Riemann surfaces.  For instance, we can locally get a Laurent expansion, etc.
+Many of the usual theorems of elementary [[complex analysis]] (that is to say, the local ones) transfer immediately to the case of Riemann surfaces.  For instance, we can locally get a [[Laurent series|Laurent expansion]], etc.
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -39,14 +47,14 @@ Let $f: X \to Y$ be a regular map.  If $X$ is compact and $f$ is nonconstant, th
 =--
 
 
-To see this, note that $f(X)$ is [[compact space|compact]], and by the [[open mapping theorem]], open, so the result follows by connectedness of $Y$.
+To see this, note that $f(X)$ is [[compact space|compact]], and an open subset by the [[open mapping theorem]], so the result follows by connectedness of $Y$.
 
 
 ## Complexified differentials
 
-Since a Riemann surface $X$ is a smooth 2-dimensional manifold, it is possible to do the usual [[differential form|exterior calculus]].  We could consider a 1-form to be a section of the (usual) [[cotangent bundle]] $T^*(X)$, but it is   more natural to take the **complexified cotangent bundle** $\mathbb{C} \otimes_{\mathbb{R}} T^*(X)$, which I will in the future just abbreviate $T^*(X)$; this will not be confusing since I will only do this when I talk about complex manifolds.  Sections of this bundle will be called (complex-valued) 1-forms.  Similarly, we do the same for 2-forms.  
+Since a Riemann surface $X$ is a $2$-dimensional [[smooth manifold]] in the usual (real) sense, it is possible to do the usual [[differential form|exterior calculus]].  We could consider a 1-form to be a section of the (usual) [[cotangent bundle]] $T^*(X)$, but it is more natural to take the **complexified cotangent bundle** $\mathbb{C} \otimes_{\mathbb{R}} T^*(X)$, which we will in the future just abbreviate $T^*(X)$; this should not be confusing since we will only do this when we talk about complex manifolds.  Sections of this bundle will be called (complex-valued) 1-forms.  Similarly, we do the same for 2-forms.  
 
-If $z = x+iy$ is  a local coordinate on $X$, defined say on $U \subset X$, define the (complex) differentials
+If $z = x + i y$ is  a local coordinate on $X$, defined say on $U \subset X$, define the (complex) differentials
 \[d z = d x + i d y , \;d\bar{z} = d x - i d y.\]
 These form a basis for the complexified cotangent space at each point of $U$.  There is also a dual basis
 \[ \frac{\partial}{\partial z }  := \frac{1}{2}\left( \frac{\partial}{\partial x} - i \frac{\partial}{\partial y}\right), \;
@@ -74,6 +82,6 @@ To see this, we have tacitly observed that $d v = v_z d z + v_{\bar{z}} d\bar{z}
 
 In the theory of Riemann surfaces, there are several important theorems.  Here are two:
 
-*The [[Riemann-Roch theorem]], which analyzes the vector space of meromorphic functions satisfying certain conditions on zeros and poles
-*The [[uniformization theorem]], which partially classifies Riemann surfaces
+* The [[Riemann-Roch theorem]], which analyzes the vector space of meromorphic functions satisfying certain conditions on zeros and poles;
+* The [[uniformization theorem]], which partially classifies Riemann surfaces.
 
