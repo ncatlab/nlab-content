@@ -150,6 +150,57 @@ One can describe non-flat connections without leaving the context of Lie algebro
 
 ...
 
+## Relation to differential nonabelian cohomology {#RelationToDiffNonabCohomology}
+
+We discuss the Atiyah Lie groupoid along the lines of [[nonabelian groupoid cohomology]] of the [[path n-groupoid]] of the base [[manifold]] $X$.
+
+Write $\mathbf{B}G$ for the [[delooping]] of $G$.
+Write $\Pi(X)$ for the [[path ∞-groupoid]] of $X$. For the present purpose of Atiyah 1-groupoids this may be taken to be simply the [[path n-groupoid|path 2-groupoid]].
+
++-- {: .un_prop}
+###### Claim
+
+A $G$-[[principal bundle]] $P \to X$ is classified by a morphism $g : X \to \mathbf{B}G$.
+
+Putting a [[connection on a bundle|connection]] on $P$ give a parallel transport morphism $\Pi(X)  \to \mathbf{B}INN(G)$
+into the [[inner automorphism 2-group]] of $G$, which fits intoa diagram
+
+$$
+  \array{
+    X &\stackrel{g}{\to}& \mathbf{B}G &&& {underlying\;cocycle}
+    \\
+    \downarrow && \downarrow
+    \\
+    \Pi(X) &\stackrel{(A,F)}{\to}& \mathbf{B} INN(G) &&& 
+      {connection}
+    \\
+    \downarrow^{\mathrlap{Id}} && \downarrow
+    \\
+    \Pi(X) &\stackrel{F}{\to}& \mathbf{B} AUT(G)
+    &&& {nonabelian\; curvature}
+  }
+  \,,
+$$
+
+where we have added the morphism $INN(G) \to AUT(G)$ into the [[automorphism 2-group]].
+
+The Atiyah Lie groupoid, regarded as a groupoid over $\Pi(X)$, is classified by $F$: it is the [[homotopy fiber]] of $F$, in that there is a [[homotopy pullback]] diagram
+
+$$
+  \array{
+    \array{
+       At(P) &\to& {*}
+       \\
+       \downarrow && \downarrow
+       \\
+       \Pi(X) &\stackrel{F}{\to}& \mathbf{B} AUT(G)
+    }
+  }
+$$
+
+=--
+
+
 
 ## References
 
