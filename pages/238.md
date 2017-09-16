@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 #2009-04-10
 
+*  [[Finn Lawler]]:
+
+   * Created [[minimal logic]] and [[intuitionistic logic]], as very small stubs.  Introduced yet more broken links there, which I'll fill in later.
+
+   * Slightly corrected Mike's new entry [[type theory]], and added a paragraph mentioning fibrations.  I'm not sure it's in the right place, though.  (PS. Mike: it was great to meet you in Cambridge!  Also, Bruce: thanks for finding me a seat in the restaurant!)
+
 *  [[Toby Bartels]]:  I aksed an idle question at [[combinatorial spectrum]] about Kan complexes and $\mathbf{Z}$-groupoids.
 
 * [[Mike Shulman|Mike]]: 
