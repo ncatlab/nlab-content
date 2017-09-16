@@ -46,7 +46,7 @@ The $V$-[[enriched homotopical category]] $C$ is our generic model for an $\inft
 
 * Let $S = pt$ be the terminal category so that $C = V$ and take $V$ to be any of the examples listed at [[monoidal model category]], such as [[Cat]], [[strict 2-category|2Cat]], probably [[strict omega-category|omegaCat]] (but here the [[pushout-product axiom]] still needs to be checked), or [[simplicial set|SimpSet]]. Even though for such simple $S$ there is no nontrivial "topology" in the game, the notion of descent resulting from this setup is still interesting: it encodes for instance [[nonabelian cohomology]] of finite (really: discrete) groups, $\infty$-groups, $\infty$-[[infinity-groupoid|groupoids]].
 
-In all of the following examples notice that if one wants to take the site $S$ to be something like [[Top]] or [[Diff]], as one often does, then one needs to beware of the size issues of [[large sheaf|sheaves on large sites]].
+In all of the following examples notice that if one wants to take the site $S$ to be something like [[Top]] or [[Diff]], as one often does, then one needs to beware of the size issues of sheaves on [[large site|large sites]].
 
 
 
