@@ -117,3 +117,4 @@ The definition of vectorial bundles is due to Furuta. It is recalled and applied
 
 * K. Gomi, _Twisted K-theory and finite-dimensional approximation_ ([arXiv](http://arxiv.org/abs/0803.2327))
 
+[[!redirects vectorial bundles]]
