@@ -1,5 +1,5 @@
 #Cofibration category
-The notion of cofibration category was introduced by Baues (see references below) as a variant of the category of cofibrant objects, (for which see [[category of fibrant objects]] and dualise). The axioms are substantially weaker than [[model category|those of  a Quillen model category]], but add one axiom to [[category of fibrant objects|those of K. S. Brown]].
+The notion of cofibration category was introduced by Baues (see references below) as a variant of the category of cofibrant objects, (for which, see [[category of fibrant objects]] and dualise). The axioms are substantially weaker than [[model category|those of  a Quillen model category]], but add one axiom to [[category of fibrant objects|those of K. S. Brown]].
 
 #Definition: $(C, \mathit{cof}, w.e.)$
 
