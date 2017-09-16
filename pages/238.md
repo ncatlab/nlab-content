@@ -15,6 +15,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * following [[Mike Shulman|Mike]]'s suggestion I moved the material that was at [[sheafification in a Lawvere-Tierney topos]] over to [[Lawvere-Tierney topology]]
+
+
   * have (started) a discussion with [[David Roberts]] on the relation between internal [[anafunctor]]s and localization in higher sheaf categories over at his private area [[davidroberts:comments on chapter 2]]
 
   * incorporated in part [[Zoran Skoda|Zoran]]'s comment at [[sheafification]] of non-set-valued presheaves and created an entry on the [[IPC-property]] in the course of that
