@@ -15,6 +15,8 @@ A **super Lie algebra** over a field $k$ is a [[Lie algebra]] [[internalization|
 
 * [[super Poincare Lie algebra]]
 
+* [[super q-Schur algebra]]
+
 # Higher generalizations #
 
 Just as [[Lie algebra]]s are [[vertical categorification|categorified]] to [[L-infinity algebra]]s and [[L-infinity algebroid]]s, so super Lie algebras categorifie to [[super L-infinity algebra]]s.  A secretly famous example is the
