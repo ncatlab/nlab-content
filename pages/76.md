@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include mathematicscontents]]
+</div>
 
 #Idea#
 
