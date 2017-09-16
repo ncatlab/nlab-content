@@ -572,7 +572,7 @@ Poisson brackets $\{-,-\}$
 * this is the classical observable algebra
 
 * to quantize this we need to find some associative algebra
-  $A^q$ over the ring $\mathbb{R}[[\hbar]]$
+  $A^q$ over the ring $\mathbb{R}[\![\hbar]\!]$
 
 * such that 
 
@@ -1139,7 +1139,7 @@ Beilinson and Drinfeld define an operad over (i.e. in the category of
 cochain complex moudles over) the ring of formal power
 series over $\hbar$
 $$
-  \mathbb{R}[[\hbar]]
+  \mathbb{R}[\![\hbar]\!]
 $$
 
 as follows:
@@ -1157,13 +1157,13 @@ $$
 $$
 
 $$
-  H_\bullet(BD(n) \otimes_{\mathbb{R}[[\hbar]]} \mathbb{R}(\hbar))  = 0
+  H_\bullet(BD(n) \otimes_{\mathbb{R}[\![\hbar]\!]} \mathbb{R}(\hbar))  = 0
 $$
 
 so 
 
 $$
-  BD \otimes_{\mathbb{R}[[\hbar]]} \mathbb{R}[[\hbar]]
+  BD \otimes_{\mathbb{R}[\![\hbar]\!]} \mathbb{R}[\![\hbar]\!]
   \simeq E_0
 $$
 
@@ -1407,7 +1407,7 @@ which is "renormalizable"
 
 the set of quantizations is 1-dimensional term by term
 
-The set of such quantizations is $\hbar \mathb{R}[[\hbar]]$
+The set of such quantizations is $\hbar \mathbb{R}[\![\hbar]\!]$
 
 
 **correlation functions**
@@ -1482,7 +1482,7 @@ $$
 for a massive scalar field,
 
 $$
-  CH_\bullet(M,F) \simeq \mathbb{R}[[\hbar]]
+  CH_\bullet(M,F) \simeq \mathbb{R}[\![\hbar]\!]
 $$
 
 in general
@@ -1495,7 +1495,7 @@ if we perturb around isolated critical points,
 $
   CH_\bullet(M,F)
   =
-  \mathbb{R}\[\ \hbar\]\]
+  \mathbb{R}[\![\hbar]\!]
 $ 
 
 in this situation correlation functions exist and are unique
