@@ -1,17 +1,17 @@
 ## Definition 
 
-Let $F:J\to C$ be a [[diagram]] in a category $C$. Also, for any morphism $\phi:c\to c'$ in $C$, let $T:\Delta(c)\to F$ and $T':\Delta(c')\to F$ denote [[cones]] over $F$. 
+Let $F:J\to C$ be a [[diagram]] in a category $C$. Also, for any objects $c,c'$ in $C$, let $T:\Delta(c)\to F$ and $T':\Delta(c')\to F$ denote [[cones]] over $F$. 
 
-A **cone morphism** is a [[natural transformation]] $\Delta(\phi)\colon \Delta(c)\to\Delta(c')$ whose component is $\phi:c\to c'$ such that the diagram
+A **cone morphism** is a [[natural transformation]] $\alpha\colon \Delta(c)\to\Delta(c')$ such that the diagram
 $$\array{
-\Delta(c) &{}&\stackrel{\Delta(\phi)}{\longrightarrow} &{}& \Delta(c') \\
+\Delta(c) &{}&\stackrel{\alpha}{\longrightarrow} &{}& \Delta(c') \\
 {}& \mathllap{\scriptsize{T}}\searrow &{}& \swarrow\mathrlap{\scriptsize{T'}} &{}  \\
 {}&{}&F&{}&{}
 }
 $$
-commutes.
+commutes.  Note that naturality of any such $\alpha$ implies that for all $i,j\in C$, $\alpha_i=\alpha_j$, so that $\alpha=\Delta(\phi)$ for some $\phi : c \to c'$ in $C$.  The single component $\phi$ itself is often referred to as the cone morphism.
 
-Note, in particular, this means that all component diagrams
+An equivalent definition of a cone morphism $\phi : T \to T'$ says that all component diagrams
 $$\array{
 c &{}&\stackrel{\phi}{\longrightarrow} &{}& c' \\
 {}& \mathllap{\scriptsize{T_j}}\searrow &{}& \swarrow\mathrlap{\scriptsize{T'_j}} &{}  \\
@@ -20,9 +20,9 @@ c &{}&\stackrel{\phi}{\longrightarrow} &{}& c' \\
 $$
 commute.
 
-## Terminology
+## Discussion
 
-Given a cone morphism $\Delta(\phi):\Delta(c)\to\Delta(c')$, often the component $\phi:c\to c'$ itself is referred to as the cone morphism.
+The following discussion took place at the component diagram above:
 
 +--{.query}
 [[Eric]]: What is the "component free" way to say that?
