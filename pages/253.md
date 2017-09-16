@@ -19,7 +19,7 @@ If there is exactly one 0-cell, say $*$, then the definition is exactly the same
 
 * Any [[strict 2-category]] is a bicategory in which the unitors and associator are identities.  This includes [[Cat]], [[MonCat]], the algebras for any strict [[2-monad]], and so on, at least as classically conceived.
 
-* Categories, [[anafunctor]]s, and natural transformations, which is a more appropriate definition of [[Cat]] in the absence of the [[axiom of choice]], form a bicategory that is not a strict 2-category.
+* Categories, [[anafunctor]]s, and natural transformations, which is a more appropriate definition of [[Cat]] in the absence of the [[axiom of choice]], form a bicategory that is not a strict 2-category.  Indeed, without the axiom of choice, the proper notion of bicategory is [[anabicategory]].
 
 * [[ring|Rings]], [[bimodule]]s, and bimodule homomorphisms are the prototype for many similar examples.  Notably, we can generalize from rings to [[enriched category|enriched categories]].
 
