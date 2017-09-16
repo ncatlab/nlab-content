@@ -44,7 +44,7 @@
 
   * Tools
 
-    * [[BV theory|BV Theory]]
+    * [[BV-BRST formalism]]
 
     * [[AKSZ theory]]
 
