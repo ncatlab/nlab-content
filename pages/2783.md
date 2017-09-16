@@ -27,6 +27,8 @@ Also, I wasn't able to find under Properties something about the reg/lex complet
 
 I'm surprised to realize that I omitted the conditions for (local) cartesian closure of the reg/lex completion, since one needs them to conclude that it preserves lextensive quasitoposes.  The only conditions I can find in the literature require somewhat more than mere weak (local) cartesian closure of $C$.  The point being that the set of function from a quotient of $X$ to a quotient of $Y$ may, in general, be only a *quotient* of the set of functions from $X$ to $Y$, so we need some way to ensure that that quotient exists in $C_{reg/lex}$ since it doesn't have all quotients.  But $Top$ does satisfy those conditions, so equilogical spaces are locally cartesian closed.
 
+_Todd_: Thanks again; I think the section on regular completion does read more clearly now, and the material you added to Properties is very helpful. I think what you wrote on equilogical spaces might fit well in Examples, as would realizability toposes as examples of exact completions. If I have time soon I might write down something stubby here. 
+
 =--
 
 # Constructions
