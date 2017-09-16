@@ -133,7 +133,7 @@ $$
   }
 $$
 
-computes the desired [[homotopy pushout]]. (This is exactly dual to the reasoning by which one computes [[homotopy pullback]]s in a [[category of fibrant objects]]. See there for details.)
+computes the desired [[homotopy colimit|homotopy]] [[pushout]]. (This is exactly dual to the reasoning by which one computes [[homotopy pullback]]s in a [[category of fibrant objects]]. See there for details.)
 
 Therefore in a Waldhausen category a [[fibration sequence|cofibration sequence]] is a [[pushout]] sequence
 
