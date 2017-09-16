@@ -384,33 +384,26 @@ $$
 
 # some properties and constructions #
 
-## good covers ##
 
-+-- {: .query}
+## fibrant objects ##
 
-[[Urs Schreiber]]: the following looks like a good definition to me, but check
+The fibrant objects in the [[local model structure on simplicial presheaves]] are those that satisfy [[descent for simplicial presheaves]]. See there for more details.
 
-=--
+## cofibrant objects ##
 
-
-+-- {: .un_def }
-###### Definition (good cover)
-
-For $C$ some [[nLab:site|site]] and $X \in SPSh(C)$, a [[nLab:Cech cover|Cech cover]] $\pi : U \stackrel{\simeq}{\to} X$ of $X$ is called a **good cover** if $U_\bullet$ is degreewise a [[coproduct]] over [[representable functor|representable]]s.
-
-=--
+In the injective [[local model structure on simplicial presheaves]] all objects are cofibrant. For the projective local structure we can make at least the following statement
 
 
 +-- {: .un_prop }
 ###### Proposition
 
-In the [[local model structure on simplicial presheaves|local projective model structure]] $SPSh(C)_{proj}^{loc}$ all good covers are cofibrant.
+In the _projective_ [[local model structure on simplicial presheaves|local model structure]] all objects that are degreewise [[coproduct]]s of [[representable functor|representable]]s are cofibrant.
 
 =--
 
 +-- {: .query}
 
-[[Urs Schreiber]]: check this proof
+[[Urs Schreiber]]: check this statement and proof
 =--
 
 +-- {: .proof}
@@ -419,7 +412,20 @@ In the [[local model structure on simplicial presheaves|local projective model s
 Notice that cofibrant objects in $SPSh(C)_{proj}^{loc}$ are those objects such that maps out of them lift through all objectwise acyclic Kan fibrations.
 In particular all [[representable functor|representable]]s are cofibrant in $SPSh(C)^{loc}_{proj}$.
 
-Assume that $U$ is a good cover. Then we have
+Assume that $U$ is degreewise a coproduct of representables. Write $U_k = \coprod U_{i_0, \cdots, i_k}$. 
+
+>(Notation is motivated from covers for the moment. )
+
+We have
+
+$$
+  U \simeq \int^{[k] \in \Delta} \Delta^k \cdot U_k
+$$
+
+and this expression remains valid when we perform the coend only over injective maps in $\Delta$ and reading $U_k$ as the non-degenerate $k$-cells in $U$. This is what we shall mean by this notation in the following.
+
+
+Then we have
 
 $$
   \begin{aligned}
@@ -447,7 +453,6 @@ $$
   \end{aligned}
   \,.
 $$
-
 
 We need to show that for any morphism $A \to B$ that is objectwise an acylic [[Kan fibration]] and for every morphism $U \to B$ there is a lift
 
@@ -497,7 +502,7 @@ $$
   }
 $$
 
-etc. At the $k$th induction step we produce a lift 
+and so on. At the $k$th induction step we produce a lift 
 
 $$
   \array{
@@ -516,10 +521,11 @@ where the top horizontal morphism is just built from the restrictions of the pre
 The way these lifts are constructed they do satisfy the naturality condition that makes them objects of the required [[end]], so they do give the desired lift.
 
 =--
-+-- {: .query}
 
-[[Urs Schreiber]]: or does it? I need to write the down more systematically.
-=--
+
+
+
+
 
 
 
