@@ -1,3 +1,5 @@
+[[!redirects 3-ary relation]]
+[[!redirects 3-adic relation]]
 [[!redirects 3-place relation]]
 [[!redirects ternary relation]]
 
@@ -46,7 +48,7 @@ $$
 
 [[Jon Awbrey]]: Yes, I'll always be hewing to Peirce's line in this --- sometimes people use the form _[semeiotic](http://knol.google.com/k/jon-awbrey/semeiotic/3fkwvf69kridz/4)_ to distinguish his angle from others, but that often leads to long and pointless discussions about the words instead of the things.  I'll be giving some current links and references in due course.
 
-[[Jon Awbrey]]: Actually, I think that's pretty much all I'll have to say about sign relations under this heading --- leaving these examples here simply by way of having contrasting illustrations with asymmetric domains --- and developing the subject of sign relations further under their own heading.  It's probably hard to tell from these impoverished examples, but there are applications to logic and computation --- eventually, ultimately --- which is kinda how I came to explore them in the first place.
+[[Jon Awbrey]]: Actually, I think that's pretty much all I'll have to say about sign relations under this heading --- leaving these examples here simply by way of having illustrations of 3-adic relations with non-identical domains --- and developing the subject of sign relations further under their own heading.  It's probably hard to tell from these impoverished examples, but there are applications to logic and computation --- eventually, ultimately --- which is kinda how I came to explore them in the first place.
 =--
 
 The study of signs, the full array of significant forms of expression, in relation to the things that signs are significant _of_, as well as in relation to the interpretive agents that signs are significant _to_, is known as _semiotics_ or the _theory of signs_.  As just described, semiotics treats of 3-place relations among signs, their objects, and their interpreters.
@@ -59,25 +61,20 @@ Each of the sign relations, $L_{\mathrm{A}}$ and $L_{\mathrm{B}}$, consists of e
 
 The set-up so far can be summarized as follows:
 
-$$
-\array{
-L_{\mathrm{A}}, L_{\mathrm{B}}
-& \subseteq & O \quad\times\quad S \quad\times\quad I
+$$\array{
+L_{\mathrm{A}}, L_{\mathrm{B}} & \subseteq & O \quad\times\quad S \quad\times\quad I
 \\
 O & = & \{ \mathrm{A}, \mathrm{B} \}
 \\
 S & = & \{ \backprime\backprime\mathrm{A}\prime\prime, \backprime\backprime\mathrm{B}\prime\prime, \backprime\backprime\mathrm{i}\prime\prime, \backprime\backprime\mathrm{u}\prime\prime \}
 \\
 I & = & \{ \backprime\backprime\mathrm{A}\prime\prime, \backprime\backprime\mathrm{B}\prime\prime, \backprime\backprime\mathrm{i}\prime\prime, \backprime\backprime\mathrm{u}\prime\prime \}
-}
-$$
+}$$
 
 The triples that make up the relations $L_{\mathrm{A}}$ and $L_{\mathrm{B}}$ are conveniently arranged in the form of relational data tables, as follows:
 
-$$
-\array{
-\array{
-\arrayopts{\frame{solid}\rowlines{solid solid none}}
+$$\array{
+\array{\arrayopts{\frame{solid}\rowlines{solid solid none}}
 \cellopts{\colspan{3}} L_{\mathrm{A}} = \text{Sign Relation of Interpreter A} \\
 Object & Sign & Interpretant \\
 \mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
@@ -87,10 +84,9 @@ Object & Sign & Interpretant \\
 \mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
 \mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime \\
 \mathrm{B} & \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
-\mathrm{B} & \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime  }
+\mathrm{B} & \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime }
 &
-\array{
-\arrayopts{\frame{solid}\rowlines{solid solid none}}
+\array{\arrayopts{\frame{solid}\rowlines{solid solid none}}
 \cellopts{\colspan{3}} L_{\mathrm{B}} = \text{Sign Relation of Interpreter B} \\
 Object & Sign & Interpretant \\
 \mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
@@ -100,9 +96,8 @@ Object & Sign & Interpretant \\
 \mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
 \mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime \\
 \mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
-\mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime  }
-}
-$$
+\mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime }
+}$$
 
 * The triples in $L_{\mathrm{A}}$ represent the way that interpreter $\mathrm{A}$ uses signs.  For example, the listing of the triple $(\mathrm{B}, \backprime\backprime \mathrm{u} \prime\prime, \backprime\backprime \mathrm{B} \prime\prime)$ in $L_{\mathrm{A}}$ represents the fact that $\mathrm{A}$ uses $\backprime\backprime \mathrm{B} \prime\prime$ to mean the same thing that $\mathrm{A}$ uses $\backprime\backprime \mathrm{u} \prime\prime$ to mean, namely, $\mathrm{B}$.
 
