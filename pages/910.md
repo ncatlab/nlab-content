@@ -25,12 +25,20 @@ The category $k\Top$ of topological spaces and $k$-continuous maps is [[cartesia
 $$k\Top(X \times Y, Z) \to kTop(X,k\Top(Y,Z))$$
 is a homeomorphism (not just a $k$-homeomorphism). 
 
++--{: .query}
+[[Zoran Škoda]]: I do not understand the remark. I mean if the domain is k-space then by the characterization above continuous is the same as k-continuous. Thus if both domain and codomain are continuous then homeo is the same as k-homeo. I assume that even in noHausdorff case, the test-open topology for $X$ and $Y$ k-spaces gives a k-space and that the cartesian product has the correction for the k-spaces. 
+=--
+
 The topology on $k\Top(X,Y)$ that is used here is the test-open
 topology, which has the subbase of sets $M(t,U)$ for a given $t: C
 \to X$ and $U$ open in $Y$ of all $k$-continuous functions $f:X \to
 Y$ such that $f(t(C))\subseteq U$.
 
 It follows that the category of $k$-spaces and continuous maps is also cartesian closed.  This remains true if we also impose the weak Hausdorff condition.
+
+#Kaonization#
+
+Let us consider for the moment only the categories $Haus$ of Hausdorff and $kHaus$ of Hausdorff k-spaces. Then the tautological inclusion $kHaus\subset Haus$ has a right adjoint $k$ sometimes (e.g. by [[M M Postnikov]]) also called **kaonization**. This functor is constructed as follows $k(X)=X$ as a set and $k(X)$ has as new closed sets those sets whose intersection with old compacts in $X$ is closed in old topology on $X$. Then $k(X)$ has all the same closed sets and possibly more, hence all the old open sets and possibly more. In particular, the identity map $id:k(X)\to X$ is continuous. The mapping spaces $kHaus(X,Y)=k(Top(X,Y))$ where $Top(X,Y)$ is the standard mapping space in the sense of compact-open topology. Similarly, the categorical product in $kHaus$ is the kaonification of the usual (Tyhonov) product. Then $kHaus$ is cartesianly closed. See G. Whitehead's _Elements of homotopy theory_, for more details.  
 
 # Local cartesian closure #
 
