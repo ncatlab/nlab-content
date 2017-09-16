@@ -252,9 +252,13 @@ While measure theory only gets more complicated in constructive mathematics, it 
 
 ... more coming ...
 
-##The category of localizable measurable spaces##
 
-The **Gel'fand-Neumark theorem** states that the category of localizable measurable spaces is contravariantly [[equivalence|equivalent]] to the category of commutative [[von Neumann algebra|von Neumann algebras]].
+## Localizable measurable spaces ##
+
+A measurable space is __localizable__ if ... (somebody should look this up!).
+
+The [[Gel'fand-Neumark theorem]] states that the category of localizable measurable spaces is contravariantly [[equivalence of categories|equivalent]] to (that is equivalent to the [[opposite category|opposite]] of) the category of commutative [[von Neumann algebra|von Neumann algebras]].  As such, arbitrary von Neumann algebras may be interpreted as 'noncommutative' measurable spaces in a sense analogous to [[noncommutative geometry]].
+
 
 ## References
 
