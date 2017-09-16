@@ -12,7 +12,7 @@ We have
 
 (There are more remarks on this listed at [[nInsights]]).
 
-Sometimes colimits (or some colimits) are called [[inductive limit]]s.
+Sometimes colimits (or some colimits) are called _inductive limits_ or _direct limits_; see the discussion of terminology at [[limit]].
 
 
 #Definition#
