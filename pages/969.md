@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -16,7 +15,11 @@ Notice that what is literally _localized_ when localizing the ring is really its
 
 ## Relation to geometric embeddings ##
 
-If $C$ is a [[topos]] then localizations of $C$ are related to [[geometric morphism|geometric embeddings]] $C[W^{-1}] \to C$.
+If $C$ is a [[topos]] then a class of localizations of $C$ are related to [[geometric morphism|geometric embeddings]] $C[W^{-1}] \to C$.
+
++--{.query}
+Zoran: not every localization has an adjoint. 
+=--
 
 In particular, [[sheafification]] given by the geometric embedding $Sh(S) \hookrightarrow PSh(S)$ is the localization of a presheaf topos $PSh(S)$ at [[local isomorphisms]]. 
 
