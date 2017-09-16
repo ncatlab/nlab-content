@@ -1,6 +1,18 @@
 #Idea#
 
-In general, "folk model structures" are [[model category]] structures for some flavor of [[n-category|n-categories]] for $1\le n\le \infty$ (note that $n=\infty$ or $\omega$ is allowed) in which the [[weak equivalence|weak equivalences]] are the [[equivalence of categories|category-theoretic equivalences]].  This is to be contrasted with [[Thomason model structure|Thomason model structures]] in which the weak equivalences are the morphisms that induce a weak homotopy equivalence of [[nerve|nerves]].  In a folk model structure for some flavor of $n$-categories, usually
+In general, "folk model structures" are [[model category]] structures on the categories of some flavor of [[n-category|n-categories]] for $1\le n\le \infty$ (note that $n=\infty$ or $\omega$ is allowed).
+
+While ultimately the collection of all [[n-category|n-categories]] should form an $(n+1)$-category, restricting that to just invertible higher morphisms will yield an [[(n,r)-category|(n+1,1)-category]]. So in general, given that $n$ may be $= \infty$, an [[(infinity,1)-category]].
+
+A (folk) [[model category|model structure]] on the category of $n$-categories is a [[presentable (infinity,1)-category|presentation]] of this [[(infinity,1)-category]].
+
+
+A _folk_ model structure is characterized by the fact that the [[(infinity,1)-category]] that it induces is really the expected one, in that [[weak equivalence|weak equivalences]] are the [[equivalence of categories|category-theoretic equivalences]].  
+
+This is to be contrasted with [[Thomason model structure|Thomason model structures]] in which the weak equivalences are the morphisms that induce a [[model structure on simplicial sets|weak homotopy equivalence]] of [[nerve|nerves]].  This amounts to regarding each category, or rather its [[nerve]], as a placeholder for its _groupoidification_ (Kan fibrant replacement) and then considering the standard notion of equivalence.
+
+
+In a folk model structure for some flavor of $n$-categories, usually
 
 * a **fibration** is a functor that lifts [[equivalence|equivalences]] in all dimensions,
 * an **acyclic fibration** is a functor which is [[k-surjective functor|k-surjective]] for all $0\le k\le n$,
@@ -30,10 +42,10 @@ $\partial G_k \hookrightarrow G_k$ of the boundary of the $k$-[[globe]] into the
 
 A common problem is to transport the (a) model structure on plain $\omega$-categories, i.e. $\omega$-categories [[internal category|internal to]] $Sets$ to another [[internalization|internal context]], notably for the case that $Sets$ is replaced with some kind of category of $Spaces$. This is relevant for the discussion of the homotopy theory of topological and smooth $\omega$-categories.
 
-The general problem of internalization of model structures is described [[internalization of model structures|here]]. For the special case of $\omega$-categories internal to [[generalized smooth space]]s see [[schreiber:Differential Nonabelian Cohomology]].
+Usually, such internalization of model structures has the consequence that some properties invoked in the description of the original model structure, notably some of the lifting properties, will only continue to hold "locally".  One way to deal with this is to pass to a notion slightly weaker than that of a [[homotopy theory|model category]] called a [[category of fibrant objects]] as used in [[homotopical 
+cohomology theory]].
 
-Usually, such internalization of model structures has the consequence that some properties invoked in the description of the original model structure, notably some of the lifting properties, will only continue to hold "locally".  One way to deal with this is to pass to a notion slightly weaker than that of a [[homotopy theory|model category]] called a [[category of fibrant objects]] as used in [[homotopical cohomology theory]].
-
+But there are also full model structures for such situations. Notice that under a suitable [[nerve]] operation all [[n-category|n-categories]] usually embed into [[simplicial set]]s. The [[models for infinity-stack (infinity,1)-toposes]] given by the [[model structure on simplicial presheaves]] then serves to present the corresponding $(\infty,1)$-category of parameterized or internal $n$-categories. See for instance also [[smooth infinity-stack]].
 
 #Cofibrant resolutions#
 
