@@ -1,0 +1,3 @@
+In [[physics]] an **action functional** is a functional on the space of field configurations of a [[classical field theory]] which is such that its critical points are the solutions to the classical field equations, i.e. the field configurations that the given field theory predicts can arise in nature, in the approximation of classical physics.
+
+Moreover, the [[quantization]] of the [[classical field theory]] is supposed to be encoded in the [[path integral]] of the action functional over the space of fields.
