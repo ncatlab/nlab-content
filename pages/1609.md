@@ -30,6 +30,8 @@ The name "inverses" doesn't really seem appropriate, since they are not (necessa
 
 >_Toby_: How about 'category with duals'?  That\'s a vague term that some people use to mean a dagger category but which can have other meanings, like a dagger compact category, which is more specific.  So it should be available for use in one paper or another for another concept more specific than dagger category, such as yours.  (Using a vague term leaves open the possibility of changing it later, or other people calling it a 'Porton category' if it really takes off, or even deciding that you want to write only about dagger categories later.)  But I think that it would definitely be best to speak of the 'dual' rather than the 'inverse' of a morphism, since 'inverse' is so widely used for what you have called the 'reverse isomorphism'.  That is, if you say 'every morphism has an inverse', then people will easily get confused, but not if you say 'every morphism has a dual'.
 
+[[VictorPorton|Victor]]: Contrary to what you may expect, I would not like it be called 'Porton category' because among of these kinds of categories I present on this Wiki page, I invented at least yet two (well, five kinds of categories counting also my categories of continuous morphisms) categories... I will return later (it is in my TODO list) to change the terminology on this page.
+
 >Another possibility: 'unitary dagger category'.  (Or see if what you\'re doing actually makes sense for arbitrary dagger categories and then use those.)
 
 Preservation of identities is automatic once you have an involution that preserves binary composition.
