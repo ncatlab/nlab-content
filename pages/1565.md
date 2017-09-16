@@ -19,7 +19,7 @@ Many rigs are either [[ring]]s or [[distributive lattice]]s.  Indeed, a ring is 
 Some rigs which are neither rings nor distributive lattices include:
 
 * The [[natural numbers]].
-* The nonnegative [[rational numbers]] and the nonnegative [[real numbers]].
+* The nonnegative [[rational number]]s and the nonnegative [[real numbers]].
 * Polynomials with coefficients in any rig.
 * The set of isomorphism classes of objects in any [[distributive category]], or more generally in any [[rig category]].
 * The [[tropical rig]], which is $\mathbb{R}\cup \{\infty\}$ with addition $x\oplus y = min(x,y)$  and multiplication $x\otimes y = x+y$.
