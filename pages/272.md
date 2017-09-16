@@ -9,13 +9,11 @@ _Algebraic Quantum Field Theory_ or _Axiomatic Quantum Field Theory_.
 
 AQFT axiomatises the _Heisenberg picture_ of [[quantum field theory]] as [[FQFT]] axiomatizes the _Schr&ouml;dinger picture_.
 
-The assignment of an _algebra of observables_ to a region of spacetime by a quantum field theory is formalized 
-as a co-flabby co-[[presheaf]] of [[algebra|algebras]] on spacetime which satisfies a certain _locality_ axiom with respect to the Lorentzian structure of spacetime: 
+The assignment of an _algebra of observables_ to a region of spacetime by a quantum field theory is formalized by the [[Haag-Kastler axioms]]: from the [[nPOV]] we may think of these as concerning co-flabby co-[[presheaf]] of [[algebra|algebras]] on spacetime which satisfies a certain _locality_ axiom with respect to the Lorentzian structure of spacetime: 
 
 * locality: algebras assigned to spacelike separated regions commute with each other when embedded into any joint superalgebra.
 
-Such a local co-flabby co-presheaf of algebra is called a [[local net]].
-
+Such a local co-flabby co-presheaf of algebra is called a [[local net]]. 
 There exist the following variations of the axioms for such a situation, depending on whether one talks about QFT proper on Lorentian manifolds, or on their "Euclidean" version, sometimes identified with statistical field theory.
 
 * Lorentzian signature
