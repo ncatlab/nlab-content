@@ -1,3 +1,12 @@
+[[!redirects domain of discourse]]
+[[!redirects domains of discourse]]
+[[!redirects universes of discourse]]
+
+* tic
+{:toc}
+
+# History #
+
 The universe was created, logically speaking, by [Augustus De Morgan](http://www-history.mcs.st-andrews.ac.uk/Biographies/De_Morgan.html) in 1846.
 
 [George Boole](http://www-history.mcs.st-andrews.ac.uk/Biographies/Boole.html) (1854) defines __universe of discourse__ in the following manner:
@@ -8,7 +17,7 @@ The universe was created, logically speaking, by [Augustus De Morgan](http://www
 
 The term '[[domain]] of discourse' is also used; in modern [[logic]], every [[predicate]] has a domain of discourse.
 
-## References ##
+# References #
 
 * Boole, George (1854/1958), _An Investigation of the Laws of Thought on Which are Founded the Mathematical Theories of Logic and Probabilities_, Macmillan Publishers, 1854.  Reprinted with corrections, Dover Publications, New York, NY, 1958.
 
@@ -16,13 +25,8 @@ The term '[[domain]] of discourse' is also used; in modern [[logic]], every [[pr
 
 * [[Charles Sanders Peirce|Peirce, C.S.]] (1883), "On A Limited Universe Of Marks".  A few excerpts [here](http://stderr.org/pipermail/inquiry/2003-April/thread.html#403).
 
-## External links ##
+# Links #
 
 * [Commens Dictionary of Peirce's Terms](http://www.helsinki.fi/science/commens/dictionary.html)
    * [Logical Universe](http://www.helsinki.fi/science/commens/terms/logicaluniv.html)
    * [Universe of Discourse](http://www.helsinki.fi/science/commens/terms/universedisc.html)
-
-
-[[!redirects universes of discourse]]
-[[!redirects domain of discourse]]
-[[!redirects domains of discourse]]
