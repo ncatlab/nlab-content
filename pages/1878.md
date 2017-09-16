@@ -17,8 +17,7 @@ A [[model category]] $C$ is _cofibrantly generated_ if there is a [[set]]
 We need the following general terminology
 
 +-- {: .un_defn}
-###### Definition
-**(cells and injectives)**
+###### Definition (cells and injectives)
 
 Let $C$ be a category with all [[colimit]]s and let $S \subset Mor(C)$ a class of morphisms. We write
 
@@ -40,8 +39,7 @@ Moreover, we also write, now for $I \subset Mor(C)$:
 =--
 
 +-- {: .un_defn}
-###### Definition
-**(cofibrantly generated model category)**
+###### Definition (cofibrantly generated model category)
 
 
 A [[model category]] with all [[colimit]]s is **cofibrantly generated** if there is a small [[set]] $I$ and a small set $J$ such that
@@ -120,8 +118,7 @@ Therefore $f \in cof(I)$.
 The following theorem allows to recognize cofibrantly generated model categories by checking fewer conditions.
 
 +-- {: .un_theorem}
-###### Theorem
-**(recognition theorem for cofibrantly generated model categories)**
+###### Theorem (recognition theorem for cofibrantly generated model categories)
 
 Let $C$ be a [[category]] with all small [[limit]]s and [[colimit]]s and  $W$ a class of maps satisfying [[category with weak equivalences|2-out-of-3]] 
 and closed under [[retract]]s (in the [[arrow category]]).
