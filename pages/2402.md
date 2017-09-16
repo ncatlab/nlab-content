@@ -70,12 +70,15 @@ $$
 so $\mathbb{C}P^\infty$ is a [[classifying space]] for complex line bundle. Similarly for higher rank vector bundles and Grassmannians.
 
 The analogue in the algebraic category is
+
 $$
-\left\{ line bundles L over B with generating sections s_0,...,s_n \in \Gamma(L) \right} / isom
+  \left\{ 
+      line bundles L over B with generating sections s_0,...,s_n \in \Gamma(L) \right\} / isom
 \leftrightarrow
 Hom(B, \mathbb{P}^n).
 $$
-And also similarly for higher rank vector bundles and Grassmannians.
+
+And also similarly for higher rank [[vector bundle]]s and Grassmannians.
 
 
 Despite these examples, in a lot of cases the functors are not representable. We'll see some of these examples below.
@@ -182,9 +185,10 @@ so that gives some computational insight that something goes wrong
 
 This argument does not prove that there exists no moduli space of elliptic curves. It merely proves that the "j-line" $\mathbb{A}^1$ can not be the moduli space of elliptic curves. However, the basic argument can be adapted, if one so desires, to in fact prove that there is no moduli space of elliptic curves. Alternatively you can use the sheaf argument below (however, I think the make that argument work out completely you need to introduce some extra language, etale covers and so forth).
 
-**abstract argument** generally, fine moduli spaces do not exist if the objects to be classified have nontrivial [[automorphism]]s. This allows to build families of objects that are locally trivial but globally not and no finite moduli space will be able to represent that.
+**abstract argument** (oversimplified) generally, [[fine moduli space]]s tend to not exist if the objects to be classified have nontrivial [[automorphism]]s. These allow to build families of objects that are locally trivial but globally not and no 
+[[fine moduli space]] will be able to represent that.
 
->this argument makes use of the fact that if we have a moduli space, then the preshesaf we started with must actually be a [[sheaf]] (with respect to a [[subcanonical topology]] that is implicitly assumed, probably). so we know that we should be able to compute it from gluing its local assignments. But locally our locally trivial family looks, well, trivial, so it all looks the same to our sheaf. So it will just try to glue the trivial object to itself, which is not what we actually have.
+>this argument makes use of the fact that if we have a moduli space, then the preshesaf we started with must actually be a [[sheaf]] (with respect to a [[subcanonical topology]] that is implicitly assumed, probably -- but notice that in the example of $Ho(Top)$ above the standard topology is not subcanonical, so the argument breaks down). so we know that we should be able to compute it from gluing its local assignments. But locally our locally trivial family looks, well, trivial, so it all looks the same to our sheaf. So it will just try to glue the trivial object to itself, which is not what we actually have.
 
 **General principle** [[automorphism]]s of objects are obstructions to the existence of an (ordinary) [[fine moduli space]] classifying these objects.
 
