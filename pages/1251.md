@@ -1,6 +1,6 @@
-A _directed colimit_ is a [[colimit]] of a functor whose [[source]] is an (upward)-[[direction|directed set]].  The [[duality|dual]] notion is that of _directed limit_, a [[limit]] of a functor whose source is a downward-directed set.
+A _directed colimit_ is a [[colimit]] of a functor whose [[source]] is an (upward)-[[direction|directed set]].  The [[duality|dual]] notion is that of _[[directed limit]]_, a [[limit]] of a functor whose source is a downward-directed set.
 
-Note that the terminology varies.  Especially in algebra, a directed colimit may be called an _inductive limit_ or _direct limit_; it\'s also possible to distinguish these so that a direct limit may have an arbitrary (possibly undirected) [[partial order|poset]] as its source.  On the other hand, both terms are often used for arbitrary [[colimit]]s as an alternative terminology.  The corresponding dual terms are _projective limit_ and _inverse limit_ for [[limit]]s.
+Note that the terminology varies.  Especially in algebra, a directed colimit may be called an '[[inductive limit]]' or '[[direct limit]]'; it\'s also possible to distinguish these so that a direct limit may have an arbitrary (possibly undirected) [[partial order|poset]] as its source.  On the other hand, both terms are often used for arbitrary [[colimit]]s as an alternative terminology.  (The corresponding dual terms are '[[projective limit]]' and '[[inverse limit]]' for [[limit]]s.)
 
 Directed (co)limits were studied in algebra (as inductive and projective limits) before the general notion of limit in category theory.  The elementary definition still seen there follows.
 
