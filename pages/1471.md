@@ -2,7 +2,7 @@
 
 Let $\mathrm{Top}$ be the category of [[compactly generated space]]s and continuous maps, equipped with a [[Grothendieck topology]] given by usual open covers of topological spaces. This topology is subcanonical. Consider the 2-category $\mathrm{TopStack}$ of 1-[[stack]]s of [[groupoid]]s on $\mathrm{Top}$; by [[Yoneda embedding|Yoneda]] $\mathrm{Top}$ is a full [[subcategory]]. 
 
-By analogy with the case of [[algebraic stack]]s one says that a morphism of 1-stacks $f:X\to Y$ in $\mathrm{TopStack}$ is *representable* if for any morphism of 1-stacks $T\to Y$ from a (stack associated to a) topological space $T$ to $Y$ the pullback $T\times_Y X$ is isomorphic to (a stack associated to) a topological space. 
+By analogy with the case of [[algebraic stack]]s one says that a morphism of 1-stacks $f:X\to Y$ in $\mathrm{TopStack}$ is a **[[representable morphism of stacks]]** if for any morphism of 1-stacks $T\to Y$ from a (stack associated to a) topological space $T$ to $Y$ the pullback $T\times_Y X$ is isomorphic to (a stack associated to) a topological space. 
 
 We say that a property $P$ of morphisms is *local on the target* if satisfaction of this property for a [[base change]] of a morphism $f$ along a surjective local homeomorphism implies the property for $f$. Given a property $P$ of morphisms of topological spaces stable under base change along embeddings and local on the target; a representable morphism $f : X \to Y$ of 1-stacks has this property if there exists a topological space $T$ and an [[epimorphism]] $T\to Y$ such that the inverse image $T\times_Y X\to X$ has property $P$. 
 
