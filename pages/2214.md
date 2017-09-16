@@ -53,6 +53,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 * [[Urs Schreiber]] 
 
+  * part 3 at [[A Survey of Elliptic Cohomology - E-infinity rings and derived schemes]] -- in that context also created: [[Paul Goerss]], [[n-truncated structured (infinity,1)-topos]], [[Spectral Schemes]], [[Topological Algebraic Geometry - A Workshop]]
+
   * stub entry for [[derived scheme]] and [[derived Deligne-Mumford stack]]
 
   * have two questions (green query boxes) at [[algebraic stack]]
