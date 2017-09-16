@@ -61,7 +61,7 @@ Table&nbsp;1 collects a sample of basic propositional forms as expressed in term
 <td height="120px"><img alt="Cactus (A) Big" src="/nlab/files/Cactus_lAr_Big.jpg" width="20" height="79" /></td>
 <td><font size="+1">$\text{&#x2997;} a \text{&#x2998;}$</font></td>
 <td><font size="+1">$\mathop{not}\: a$</font></td>
-<td><font size="+1">$\not a \quad \widebar{a} \quad \overset{\text{&#x007E;}}{a} \quad a'$</font></td></tr>
+<td><font size="+1">$\not a \quad \widebar{a} \quad \overset{\mathop{~}}{a} \quad a'$</font></td></tr>
 
 <tr>
 <td height="100px"><img alt="Cactus ABC Big" src="/nlab/files/Cactus_ABC_Big.jpg" width="50" height="38" /></td>
@@ -75,6 +75,18 @@ Table&nbsp;1 collects a sample of basic propositional forms as expressed in term
 <td><font size="+1">$a \;\mathop{or}\; b \;\mathop{or}\; c$</font></td>
 <td><font size="+1">$a \:\vee\: b \:\vee\: c$</font></td></tr>
 
+<tr>
+<td height="120px"><img alt="Cactus (A(B)) Big" src="/nlab/files/Cactus_lAlBrr_Big.jpg" width="60" height="80" /></td>
+<td><font size="+1">$\text{&#x2997;} a \:\text{&#x2997;} b \text{&#x2998;&#x2998;}$</font></td>
+<td><font size="+1">$\array{a \;\mathop{implies}\; b \\ \mathop{if}\; a \;\mathop{then}\; b}$</font></td>
+<td><font size="+1">$a \Rightarrow b$</font></td></tr>
+
+<tr>
+<td height="120px"><img alt="Cactus (A,B) Big" src="/nlab/files/Cactus_lAcBr_Big.jpg" width="65" height="78" /></td>
+<td><font size="+1">$\text{&#x2997;} a \text{&#xFE50;} b \text{&#x2998;}$</font></td>
+<td><font size="+1">$\array{a \;\mathop{not equal to}\; b \\ a \;\mathop{exclusive or}\; b}$</font></td>
+<td><font size="+1">$\array{a \ne b \\ a + b}$</font></td></tr>
+
 </table>
 
 __NB.__ Still working on this &hellip; [[JA]]
@@ -85,6 +97,8 @@ __NB.__ Still working on this &hellip; [[JA]]
 <img alt="Cactus (A) Big" src="/nlab/files/Cactus_lAr_Big.jpg" width="20" height="79" />
 <img alt="Cactus ABC Big" src="/nlab/files/Cactus_ABC_Big.jpg" width="50" height="38" />
 <img alt="Cactus ((A)(B)(C)) Big" src="/nlab/files/Cactus_llArlBrlCrr_Big.jpg" width="65" height="118" />
+<img alt="Cactus (A(B)) Big" src="/nlab/files/Cactus_lAlBrr_Big.jpg" width="60" height="80" />
+<img alt="Cactus (A,B) Big" src="/nlab/files/Cactus_lAcBr_Big.jpg" width="65" height="78" />
 
 ## External links ##
 
