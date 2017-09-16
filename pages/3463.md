@@ -1,0 +1,1 @@
+These are [[compact space|compact]], [[Hausdorff space|Hausdorff]] [[connected space|totally disconnected]] [[topological space]]s. They are sometimes called [[profinite space]]s, especially when talking about [[profinite group]]s and related topics.
