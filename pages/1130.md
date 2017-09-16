@@ -178,6 +178,5 @@ On $\bigwedge' V$ and $T'(V)$, the filtration of the primitives comes from a gra
 $$F_p\bigwedge{\!}' V = \bigwedge^{\leq p}V = \bigoplus_{k\leq p}\bigwedge^k V;$$
 $$F_p T'(V) = T^{\leq p}(V) = \bigoplus_{k\leq p} T^k(V).$$
 
-category: lexicon
 
 [[!redirects differential graded coalgebras]]
