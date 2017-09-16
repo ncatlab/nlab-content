@@ -433,6 +433,145 @@ See the proof of lemma 2.7 in section 9 of
 
 =--
 
++-- {: .query}
+
+[[Urs Schreiber]]: don't we even have the following stronger statement, without the splitness condition?
+
+=--
+
+
+
++-- {: .un_prop }
+###### Proposition
+
+In the _projective_ [[local model structure on simplicial presheaves|local model structure]] all objects that are degreewise [[coproduct]]s of [[representable functor|representable]]s are cofibrant.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Notice that cofibrant objects in $SPSh(C)_{proj}^{loc}$ are those objects such that maps out of them lift through all objectwise acyclic Kan fibrations.
+In particular all [[representable functor|representable]]s are cofibrant in $SPSh(C)^{loc}_{proj}$.
+
+Assume that $U$ is degreewise a coproduct of representables. Write $U_k = \coprod U_{i_0, \cdots, i_k}$. 
+
+(The notation is motivated from the case where $U$ is a [[Cech nerve]], but it's just meant as notation for an arbitrary coproduct.)
+
+We have
+
+$$
+  U \simeq \int^{[k] \in \Delta} \Delta^k \cdot U_k
+$$
+
+and this expression remains valid when we perform the coend only over injective maps in $\Delta$ and reading $U_k$ as the non-degenerate $k$-cells in $U$ (by what is for instance lemma 3.1.4 in Hovey _Model categories_ ). This is what we shall mean, somewhat abusively, by this notation in the following.
+
+
+Then we have
+
+$$
+  \begin{aligned}
+    SPSh(U,B)
+    &=
+    SPSh(\int^k \Delta^k \cdot U_k, B)
+    \\
+    &\simeq \int_k SPSh(\Delta^k\cdot U_k, B)
+    \\
+    &\simeq \int_k SSet(\Delta^k, SPSh(U_k, B))
+    \\
+    &\simeq \int_k SSet(\Delta^k, 
+     SPSh(\coprod U_{i_0, \cdots U_{i_k}},
+    B))
+    \\
+    &\simeq \int_k SSet(\Delta^k, 
+    \prod SPSh(U_{i_0, \cdots U_{i_k}},
+    B))
+    \\
+    &\simeq \int_k \prod_r SSet(\Delta^k, 
+    SPSh(U_{i_0, \cdots U_{i_k}},
+    B))
+    \\
+    &\simeq \int_k  \prod  SSet(\Delta^k, B(U_{i_0, \cdots U_{i_k}})
+  \end{aligned}
+  \,.
+$$
+
+We need to show that for any morphism $A \to B$ that is objectwise an acylic [[Kan fibration]] and for every morphism $U \to B$ there is a lift
+
+$$
+  \array{
+    && A
+    \\
+    & \nearrow & \downarrow
+    \\
+    U &\to& B
+  }
+  \,.
+$$
+
+By the above this is the same as producing a section of the induced morphism
+
+$$
+  \int_k \prod  SSet(\Delta^k, A(U_{i_0, \cdots U_{i_k}})
+  \to
+  \int_k \prod  SSet(\Delta^k, B(U_{i_0, \cdots U_{i_k}})
+$$
+
+of simplicial sets, and this is componentwise an acyclic fibration.
+
+Now construct a lift by induction over $k$. First for the 0-cells, we do have a lift
+
+$$
+  \array{
+    && \prod A(U_i)
+    \\
+    & {}^{L_0}\nearrow & \downarrow
+    \\
+    \Delta^0 &\to & \prod B(U_i)
+  }
+$$
+
+because $A \to B$ is objectwise an acyclic fibration. Accordingly, there is then a lift
+
+$$
+  \array{
+    \Delta^0 \coprod \Delta^0
+    &\stackrel{}{\to}& \prod A(U_{i j})
+    \\
+    \downarrow & \nearrow & \downarrow
+    \\
+    \Delta^1 &\to & \prod B(U_{i j})
+  }
+$$
+
+and so on. At the $k$th induction step we produce a lift 
+
+$$
+  \array{
+    \partial \Delta^k
+    &\stackrel{}{\to}& \prod A(U_{i_0, \cdots, i_k})
+    \\
+    \downarrow & \nearrow & \downarrow
+    \\
+    \Delta^k &\to & \prod B(U_{i_0, \cdots, i_k})
+  }
+  \,,
+$$
+
+where the top horizontal morphism is just built from the restrictions of the previously obtained lifts to further intersections of the  $U_i$. 
+
+The way these lifts are constructed they do satisfy the naturality condition that makes them objects of the required [[end]], so they do give the desired lift.
+
+=--
+
+
+
+
+
+
+
+
 +-- {: .un_def }
 ###### Definition
 **(good cover)**
