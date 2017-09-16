@@ -1,7 +1,11 @@
 
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-A _Cartesian fibration_ is a morphism between [[simplicial sets]] that generalizes the notion of [[Grothendieck fibration]] from [[category|categories]] to [[quasi-category|quasi-categories]].
+## Idea
+
+A _Cartesian fibration_ of [[simplicial set]]s is a morphism between [[simplicial sets]] that generalizes the notion of [[Grothendieck fibration]] from [[category|categories]] to [[quasi-category|quasi-categories]].
 
 This means that precisely if an [[∞-functor]] $p : C \to D$ if a Cartesian fibration is it possible to interpret its value over any [[morphism]] $f : d_1 \to d_2$ in $D$ as an [[∞-functor]] $p^{-1}(f) : p^{-1}(d_2) \to p^{-1}(d_1)$ between the [[fibers]] $p^{-1}(d_2)$ and $p^{-1}(d_1)$ over its source and target [[objects]]. 
 
@@ -22,11 +26,11 @@ $$
 
 As described at [[generalized universal bundle]], this pullback construction is the $(\infty,1)$-categorical analog of the [[Grothendieck construction]] for ordinary categories.
 
-# Definition #
+## Definition 
 
 A Cartesian fibration is an [[inner fibration]] of simplicial sets $p : X \to S$ such that for every edge $f : X \to Y$ of $S$ and every lift $\tilde{y}$ of $y$ (that is, $p(\tilde{y})=y$), there is a [[cartesian morphism|Cartesian edge]] $\tilde{f} : \tilde{x} \to \tilde{y}$ in $X$ lifting $f$.
 
-# Properties #
+## Properties 
 
 
 +-- {: .un_prop}
@@ -49,7 +53,7 @@ This is proposition 2.4.2.3 in [[Higher Topos Theory|HTT]].
 =--
 
 
-# References #
+## References 
 
 Definition 2.4.2.1 in
 
