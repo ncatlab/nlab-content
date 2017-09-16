@@ -19,8 +19,14 @@ This is the topic of [[rational homotopy theory]].
 #Definition#
 
 A [[topological space]] is called _rational_ if it is
-simply connected in that the 0-th [[homotopy group|homotopy set]]]
-vanishes, $\pi_0 X = 0$ and the following 
+simply connected in that the 0-th [[homotopy group|homotopy set]]
+vanishes, 
+
++-- {: .query}
+Simply connected so first homotopy group must vanish? -- David
+=--
+
+$\pi_0 X = 0$ and the following 
 equivalent conditions are satisfied
 
 1. the collection of [[homotopy group]]s form a $\mathbb{Q}$-[[vector space]],
