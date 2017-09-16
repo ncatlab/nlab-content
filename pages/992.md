@@ -14,28 +14,29 @@
 
 ## Idea
 
-A stable [[(∞,1)-category]], is an $(\infty,1)$-category all whose objects are stable in the sense of [[stable homotopy theory]]: they behave as if they were [[spectrum|spectra]].
+A stable [[(∞,1)-category]] $C$, is an $(\infty,1)$-category with finite [[limit]]s which is _stable_ under forming [[loop space object]]s: 
 
-More precisely, in a stable $(\infty,1)$-category $C$ there is a [[zero object]], every object $X$ has a [[loop space object]] $\Omega X$ and a [[suspension object]] $\Sigma X$ and the operations of looping and suspension form an auto-equivalence of $C$
+$C$ has a [[zero object]] and the corresponding loop [[(∞,1)-functor]]
 
 $$
-  \Omega : C \stackrel{\simeq}{\leftrightarrow}
-  C : \Sigma
+  \Omega : C \to C
+$$
+
+an an _equivalence_ with inverse the [[suspension object]] functor
+
+$$
+  C \leftarrow C : \Sigma
   \,.
 $$
 
-Every $(\infty,1)$-category with finite [[limit]]s has a free [[stabilization]] to a stable $(\infty,1)$-category $Stab(C)$, and the objects of $Stab(C)$ are the [[spectrum object]]s of $C$.
 
-The [[homotopy category]] of a stable $\infty$-category is a [[triangulated category]].  This could be considered remarkable, because the definition of triangulated categories is involved and their behaviour is bad, whereas the definition of stable $\infty$-category is very simple.  So the complexity and bad behavior of triangulated categories comes from trying to capture at the level of a homotopy category a type of structure that properly belongs to an $(\infty,1)$-category.
+This means that the objects of a stable $(\infty,1)$-category are stable in the sense of [[stable homotopy theory]]: they behave as if they were [[spectrum|spectra]].
 
-The relation between triangulated categories and stable $\infty$-categories has apparently been clear to some experts, but a comprehensive discussion appeared only more recently in the first part of Jacob Lurie's PhD thesis
+Indeed, every $(\infty,1)$-category with finite [[limit]]s has a free [[stabilization]] to a stable $(\infty,1)$-category $Stab(C)$, and the objects of $Stab(C)$ are the [[spectrum object]]s of $C$.
 
-* [[Jacob Lurie]], _Stable $\infty$-Categories_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf))
+The [[homotopy category of an (∞,1)-category]] of a stable $\infty$-category is a [[triangulated category]].  
 
-building on the general theory of [[(infinity,1)-category|(∞,1)-categories]] as developed in the book
-
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_.
-
+Notice that the definition of triangulated categories is involved and their behaviour is bad, whereas the definition of stable $\infty$-category is simple and natural.  So the complexity and bad behavior of triangulated categories comes [[decategorification]] of a structure that is natural in [[higher category theory]].
 
 ## Definition
 
@@ -130,6 +131,7 @@ $$
 $$
 which are autoequivalences of $C$ that are inverses of each other.
 
+
 ### Stabilization
 
 For every pointed $(\infty,1)$-category with finite [[limit]]s which is not yet stable there is its free [[stabilization]] (see there for more details): 
@@ -146,6 +148,18 @@ For $C =$ [[Top]] the $(\infty,1)$-category of topological spaces, $Sp(Top)$ is 
 Moreover, every [[derived category]] of an [[abelian category]] is the triangulated homotopy category of a stable $(\infty,1)$-category. 
 
 Hence stable homotopy theory and homological algebra are both special cases of the theory of stable $(\infty,1)$-categories.
+
+
+## The homotopy category of a stable $(\infty,1)$-category: triangulated categories
+
+The [[homotopy category of an (∞,1)-category|homotopy category]] $Ho(C)$ of a stable $(\infty,1)$-category $C$ -- its [[decategorification]] to an ordinary [[category]] -- is less well behaved than the original stable $(\infty,1)$-category, but remembers a shadow of some of its structure: this shadow is the structure of a [[triangulated category]] on $Ho(C)$
+
+* the **translation functor** $T : Ho(C) \to Ho(C)$ comes from the [[suspension object|suspenesion]] functor $\Sigma : C \to C$;
+
+* the **distinguished triangles** in $Ho(C)$ are pieces of the [[fibration sequence]]s in $C$.
+
+
+For details see [StabCat, section 3](http://arxiv1.library.cornell.edu/PS_cache/math/pdf/0608/0608228v5.pdf#page=6).
 
 
 ## Models  {#alternativemodels}
