@@ -22,6 +22,11 @@ $$
 
 * [[Urs Schreiber|Urs]]: the converse _should_ be true: for every functor $L : PSh(S) \to PSh(S)$ which has a fully faithful right adjoint there is a Grothendieck topology on $S$ such that the image of $L$ is the category of sheaves on $S$ with respect to that topology -- but I need to check something here.
 
++--{: .query}
+[[Mike Shulman|Mike]]: You need $L$ to be [[exact functor|left exact]] (preserve finite limits).  (And actually, to be completely precise, it is not that $L : PSh(S) \to PSh(S)$ itself has a ff right adjoint, but that $L$ is left adjoint to _the_ (necessarily ff) inclusion of its full image.)  Under that hypothesis the proof can be found in many books on topos theory.  You might want to go via a [[Lawvere-Tierney topology]] on $Psh(S)$.
+=--
+
+
 #References#
 
 The characterization of $Sh(S)$ as the homotopy category of $PSh(S)$ with respect to local isomorphisms is emphasized at the beginning of the text
