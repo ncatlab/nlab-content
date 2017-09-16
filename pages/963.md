@@ -53,8 +53,12 @@ Another example is obtained by taking the quantale of down-closed subsets of a $
 
 There is a variety of notions of morphism of quantale, just as there is a variety of notions of morphism between closed monoidal categories. All the notions considered here are morphisms between the underlying sup-lattices, in other words preserve arbitrary joins, hence are left adjoints as functors between the underlying categories. 
 
-At the weak end of the scale, one may consider _lax morphisms_ of quantales seen as just monoidal categories. 
+* At the weak end of the scale, one may consider _lax morphisms_ of quantales seen as just monoidal categories. 
 
-A stronger notion is of _strong morphisms_ of quantales seen as monoidal categories. As noted above, all quantale morphisms considered here are already left adjoints in $Cat$, and if the adjunction lifts to $MonCat$ (the 2-category of monoidal categories, lax monoidal functors, and monoidal transformations) -- as is perhaps what usually happens in practice -- then the left adjoint is strong monoidal. So it is arguable that most lax morphisms of quantales which arise in practice are already strong. 
+  * An important example of this is that [[enriched category|categories enriched]] in a monoidal poset $M$, such as Lawvere [[metric space]]s, amount to the same thing as lax quantale morphisms of the form 
+$$2^d: 2^{M} \to 2^{X \times X}$$ 
+where the domain is the quantale of upward-closed subsets of $M$ with the Day convolution structure, and the codomain is the quantale of binary relations on $X$, with multiplication being relational composition. 
 
-An even stronger notion is where the morphisms also strongly preserve the closed structure, i.e., the internal homs or residuations. (An example is to be developed for [[building]]s.) 
+* A stronger notion is of _strong morphisms_ of quantales seen as monoidal categories. As noted above, all quantale morphisms considered here are already left adjoints in $Cat$, and if the adjunction lifts to $MonCat$ (the 2-category of monoidal categories, lax monoidal functors, and monoidal transformations), then the left adjoint is strong monoidal. This often occurs in practice. 
+
+* An even stronger notion is where the morphisms also strongly preserve the closed structure, i.e., the internal homs or residuations. (An example is to be developed for [[building]]s.) 
