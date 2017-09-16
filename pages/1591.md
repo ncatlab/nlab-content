@@ -28,4 +28,6 @@ A discrete [[uniform space]] $X$ has all reflexive relation as entourages, or eq
 Strictly speaking, there is no discrete [[metric space]] on any set with more than one element, because the forgetful functor has no left adjoint.  However, there is a discrete *extended* metric space, given by $d(x,y) = \infty$ whenever $x \ne y$.  More usually, the term 'discrete metric' is used when $d(x,y) = 1$ for $x \ne y$, which is discrete in the category of metric spaces of diameter at most $1$.  (Comparing the [[adjoint functor theorem]], the problem with $Met$ is that it generally lacks infinitary [[product]]s; in contrast, $Ext Met$ and $Met_1$ are [[complete category|complete]].)
 
 
+[[!redirects discrete space]]
+[[!redirects discrete spaces]]
 [[!redirects discrete topology]]
