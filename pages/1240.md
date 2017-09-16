@@ -119,7 +119,7 @@ $(r(g_1)f)(x) = g_1\cdot f(g_1^{-1}\cdot x)$
 
 [[Bill Lawvere]] noted a structural similarity between induced representations and quantification. See blog [discussion](http://golem.ph.utexas.edu/category/2007/10/concrete_groups_and_axiomatic.html#c012917).
 
-
+If the modules over a group are considered as comodules over the function Hopf algebra over the group, then one can instead consider the induction for comodules. See [[cotensor product]]. 
 
 #References#
 
