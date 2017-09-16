@@ -1,0 +1,33 @@
+
+
+
+**John Michael Boardman** is an American mathematician specialised in algebraic and differential [[topology]]. He received his Ph.D. from the University of Cambridge in 1964. His thesis advisor was C. T. C. Wall. He was formerly at the University of Cambridge, England; he is currently a full professor at Johns Hopkins University in Baltimore, USA.
+
+* [homepage](http://www.math.jhu.edu/~jmb/)
+
+* [wikipedia](http://en.wikipedia.org/wiki/Michael_Boardman)
+
+Boardman introduced the [[stable homotopy theory|stable homotopy category]] in 1969. His notes on this subject were never formally published, but [[Rainer Vogt]] gave a course on this subject in Aarhus in 1969:  
+
+* [course notes](http://openlibrary.org/b/OL5743316M/Boardman%27s_stable_homotopy_category)
+
+
+
+He coauthored with Vogt the famous book **Homotopy invariant algebraic structures on topological spaces**, Springer Lecture Notes in Math 347 (1973).
+
+This book introduced the notion of [[weak Kan complex]] that was later popularized by [[André Joyal]] under the name [[quasi-category]] as a natural basis for the  [[higher category theory]] of [[(∞,1)-category|(∞,1)-categories]].
+
+
+See also: _Homotopy invariant algebraic structures_: _a conference in honnor of J. Michael Boardman_ edited by Jean-Pierre Meyer, Jack Morava, and W. Stephen Wilson. AMS, 1999, CONM/239.
+
+
+
+
+## References
+
+Some of the above material is taken from [[joyalscatlab:Michael Boardman|Joyal's CatLab -- Michael Boardman]]
+
+category:people
+
+[[!redirects Michael Boardman]]
+[[!redirects Boardman]]
