@@ -90,5 +90,5 @@ The symplectic-geometry description of Hamiltonian mechanics is especially well-
 
 ### vortices on the sphere ###
 
-$n$ vortices on the sphere as finite dimensional limit of 2D [[Euler equations]]: the phase space of the system of $n$ vortices is not a [[cotangent bundle]] but is $(S^2)^n$ .
+$n$ vortices on the sphere as finite dimensional limit of 2D [[equation of motion|Euler equations]]: the phase space of the system of $n$ vortices is not a [[cotangent bundle]] but is $(S^2)^n$ .
 
