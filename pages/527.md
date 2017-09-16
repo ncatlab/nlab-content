@@ -11,6 +11,15 @@ This is an experiment in collaboration. I want to write an article about discret
 ...
 
 #Discussion#
+_Note: Topics will be separated by lines and each topic is presented in reverse chronological order._
+
+We need a good category-friendly definition of an $n$-diamond. Here's a first stab that is incomplete, but hopefully gets the ball rolling.
+
+**Definition:** An $n$-diamond complex is a [[directed n-graph]] in which each node has exactly $n$ edges directed into it and exactly $n$ nodes directed away from it.
+
+**Example:** $Z^n$ with the obvious direction assigned to edges is an $n$-diamond.
+
+***
 
 (From nCafe: <a href="http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c021347">Authorship</a>)
 
