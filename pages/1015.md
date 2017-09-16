@@ -40,6 +40,12 @@ In a material set theory (also called a *membership-based set
 theory*), the elements of a set exist independently of that set.
 
 +--{: .query}
+[[Arnold Neumaier]]: The new formulation is not much better.
+In any model of any set theory, all sets and all objects exist independently. What you perhaps mean is that, in ZF, one cannot infer from an element to which set it belongs,
+while in SEAR, each element is in a unique set.
+
+Also, part of the following discussion is no longer comprehensible in the changed context and should be removed or appropriately shortened.
+
 [[Arnold Neumaier]]: I doubt that this statement means anything. ZF
 has no notion of time, hence nothing exists there before anything
 else. In a model of ZF all sets exist simultaneously, and without a
