@@ -1,4 +1,4 @@
-An algebraic structure is here taken in a traditional sense as a set $S$ with a (not necessarily finite) number of operations $\alpha$ of various arity and satisfying some axioms (not necessarily of first order).  That is, we are discussing objects of an [[equationally-presentable category|equationally presentable]] or [[algebraic category]].
+An algebraic structure is here taken in a traditional sense as a set $S$ with a (not necessarily finite) number of operations $\alpha$ of various arity and satisfying some axioms (not necessarily of first order).  That is, we are discussing objects of an [[equationally presentable category|equationally presentable]] or [[algebraic category]].
 
 An __$\Omega$-group__ is an algebraic structure which amounts to a [[group]] (usually written additively but not necessarily commutative) together with a set $\Omega$ of operations of any arity, such that for each $n$-ary operation $\alpha\in \Omega$, the distributivity in each variable holds:
 
