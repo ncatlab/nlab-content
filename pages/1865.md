@@ -17,6 +17,10 @@ This section discusses the model presented in
 
 * James Simon, Dennis Sullivan, _Structured vector bundles define differential K-theory_ ([arXiv](http://arxiv.org/abs/0810.4935?context=math.DG))
 
+More details will eventually be at
+
+* [[Simons-Sullivan structured bundle]].
+
 ### Idea 
 
 In the Simons-Sullivan model cocycles in differential K-theory are represented by ordinary [[vector bundle]]s [[connection on a bundle|with connection]]. The crucial ingredient is that two connections on a vector bundle are taken to be the same representative of a differential K-cocycle if they are related by a [[concordance]] such that the corresponding [[Chern-Simons form]] is exact.
