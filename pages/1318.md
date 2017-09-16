@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include differential graded objects - contents]]
 </div>
@@ -213,5 +212,3 @@ $$\varphi^* : H(F(K))\to H(G(K))$$
 
 is an isomorphism.
 =--
-
-category: lexicon
