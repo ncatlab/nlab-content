@@ -134,6 +134,6 @@ In the meantime, I suggest we keep the term h.c. nerve although it is probably n
 I agree that 'simplicial nerve'  is probably not a good term.
 =--
 
-
+[[!redirects homotopy coherent nerves]]
 [[!redirects nerve of a simplicial category]]
 [[!redirects simplicial nerve of simplicial categories]]
