@@ -49,6 +49,8 @@ You could ask that all the $\alpha_x$ be isomorphisms. Then commutativity plus t
 
 But the trouble with all this is that I have no idea what $C$ is supposed to be! It can't be $A \sqcup B$. Would it be something constructed in terms of $A$ and $B$ (and if so, what)? If it's just _any_ old category into which $A$ and $B$ embed and for which such isos $\alpha_x$ exist (and compatible with the $F(f)$ via commutative diagrams), then I have problems with that too. 
 
+[[Eric]]; Hi Todd. I think I'm confused because with the standard definition of functor $F:A\to B$ no one ever complains about writing $F(x)\in B$, so in a way, isn't $F$ an _arrow_ from $x\in A$ to $F(x)\in B$? We also write $F(f)\in B$, which makes me think $F$ is a bunch of 1-arrows and 2-arrows. I mean, doesn't the picture make sense? Why is it so hard to convert the picture to a mathematical statement?
+
 ##Discussion##
 
 [[Eric]]: Motivated by some discussion over at [[natural transformation]], I was wondering if the following alternative definition of functor holds water:
