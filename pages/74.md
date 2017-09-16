@@ -3,7 +3,7 @@
 </div>
 
 
-Usurprisingly, _enriched category theory_ studies [[enriched category|enriched categories]].
+Unsurprisingly, _enriched category theory_ studies [[enriched category|enriched categories]].
 
 But maybe surprisingly, enriched category theory proves to be more that just the study of a given mathematical structures. Compare [[category theory]].
 
@@ -39,5 +39,10 @@ Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf
 * [[Kan extension]]
 * [[monoidal category]]
 
+
+##Entries involoving examples of  Enriched Categories##
+
+* [[dg-category]]
+* [[simplicially enriched category]]
 
 [[!redirects Enriched Category Theory]]
