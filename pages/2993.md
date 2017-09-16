@@ -4,7 +4,7 @@ where $n$ is an arbitrary [[natural number]] and $a_0, \dots, a_n \in R$, [[quot
 $$ 0 z^{n+1} + a_n z^n + \cdots + a_1 z + a_0 = a_n z^n + \cdots + a_1 z + a_0 $$
 (so that we ignore coefficients of zero).
 
-These polynomials also form a commutative ring, denoted $R[z]$, which is in fact a [[commutative algebra]] over $R$; the addition and multiplication in this ring are defined in the obvious way.  The ring $R[z]$ may also be described more abstractly as the free $R$-[[commutative algebra|algebra]] on one generator.  Similarly, the set of polynomials in any give [[set]] of variables with coefficients in $R$ is the free commutative $R$-algebra on that set of generators; see [[tensor power]] or [[symmetric power]] (we only need one of these).
+These polynomials also form a commutative ring, denoted $R[z]$, which is in fact a [[commutative algebra]] over $R$; the addition and multiplication in this ring are defined in the obvious way.  The ring $R[z]$ may also be described more abstractly as the free $R$-[[commutative algebra|algebra]] on one generator.  Similarly, the set of polynomials in any give [[set]] of variables with coefficients in $R$ is the free commutative $R$-algebra on that set of generators; see [[symmetric power]] and [[symmetric algebra]].
 
 The [[field of fractions]] of $R[z]$ is the [[field]] $R(z)$ of [[rational functions]].
 
