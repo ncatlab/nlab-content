@@ -113,18 +113,74 @@ consists of all $\beta \in \Lambda^{n+1} T^{*}_{y} E$ such that
 \[          \iota_{v_1}\iota_{v_2} \beta =0   \]
 for all vertical vectors $v_1,v_2 \in T_{y}E$.
 Sections of $\Lambda^{n+1}_{1}T^{*}E$ are called $\mathbf{n}$**-horizontal** $\mathbf{n+1}$**-forms**. 
-      
+  
+The isomorphism between $(J^1 E)^{*}$ and $\Lambda^{n+1}_{1} T^{*}E$ can be seen by explicit calculation. It suffices to work locally so we work in the context of the [[sigma model]] i.e. the trivial bundle 
+$E = \Sigma \times X$ over $\Sigma$, and $\Sigma$ will be
+equipped with a volume form.  
 
-**Example** For the [[sigma-model]] case with $E = X \times \Sigma$ and $\{q^i\}$ coordinates on $X$ and $\{\sigma^s\}$ coordinates on $\Sigma$, the canonical $(n+1)$-form is
+Let $q^1, \dots, q^{n+1}$ be local coordinates on $\Sigma$ and let
+$u^1, \dots , u^d$ be local coordinates on $X$.  Then $\Lambda_1^{n+1} T^* E$
+has a local basis of sections given by $(n+1)$-forms of two types: first, the wedge product of all $n+1$ cotangent vectors of type $dq^i$:
+\[    \vol=dq^1 \wedge \cdots \wedge dq^{n+1}  \]
+and second, wedge products of $n$ cotangent vectors of type $dq^i$ 
+and a single one of type $du^a$:
+\[   
+dq^1 \wedge \cdots \wedge \widehat{dq^i} \wedge \cdots \wedge dq^{n+1} \wedge du^a . \]
+Here the hat means that we omit the factor of $dq^i$.  
+If $y = (p,u) \in \Sigma \times X$, this basis gives an isomorphism
+\[   \Lambda^{n+1}_1 T^*_y E \;\; \cong \;\; \Lambda^{n+1} T^*_p \Sigma \; \oplus \;
+\Lambda^{n} T^*_p \Sigma \otimes T^*_u X .\]
 
-$$
-  \alpha = \sum_{i,s} p_i^s d q^i \wedge (\iota_{\partial_{\sigma^s}}) d \sigma^1 \wedge \cdots \wedge d \sigma^n
-  +
-  p d \sigma^1 \wedge \cdots \wedge d \sigma^n
-$$
+The volume form on $\Sigma$ also determines isomorphisms
+\[  
+\mathbb{R} \overset{\sim}{\to} \Lambda^{n+1} T^*_p \Sigma
+\]
+\[ 
+                 c \mapsto  c \, \vol_p  
+\] 
+and 
+\[
+T_p \Sigma   \overset{\sim}{\to}  \Lambda^{n} T^*_p \Sigma
+\]
+\[
+         v      \mapsto     \iota_v \vol_p  .
+\]
+We thus obtain an isomorphism 
+\[   \Lambda^{n+1}_1 T^*_y E \;\; \cong \;\; \mathbb{R} \; \oplus \; 
+T_p \Sigma \otimes T^*_u X .\]
+
+On the other hand, the trivialization $E = \Sigma \times X$ gives
+an isomorphism of affine spaces
+\[ J^1_y E \; \; \cong \; \; T^*_p \Sigma \otimes T_u X   \]
+which has the side-effect of making $J^1_y E$ into a vector space. Since we've identified
+$\Lambda^{n+1} T^*_p \Sigma$ with $\mathbb{R}$, an affine map from $J^1_y E$ to $\Lambda^{n+1} T^*_p \Sigma$ is just
+an element of $T_x \Sigma \otimes T^*_u X$ plus a constant.
+So, we obtain
+\[   (J^1_y E)^* \; \; \cong \; \; \mathbb{R} \; \oplus \; 
+T_p \Sigma \otimes T^*_u X .\] 
+This gives a specific vector bundle isomorphism
+$(J^1 E)^* \cong \Lambda_1^{n+1} T^* E$, as desired. 
 
 
-... blah-blah-blah...
+It is better to use the pulled back volume form $\pi^* \vol$ as a substitute for the coordinate-dependent $n+1$-form $dq^1 \wedge \cdots \wedge dq^{n+1}$ on $E$.  This gives another basis of
+sections of $\Lambda_1^{n+1} T^* E$, which by abuse of notation we call
+\[  dQ = \pi^* \vol   \]
+and
+\[  dQ_i^a = 
+\left(\pi^* \iota_{\partial/\partial q^i} \vol\right) \wedge du^a .\]
+Corresponding to this basis there are
+local coordinates $P$ and $P^i_a$ on $\Lambda_1^{n+1} T^* E$, which combined with the coordinates $q^i$ and $u^a$ pulled back from $E$ give a local coordinate system on $\Lambda_1^{n+1} T^* E$.  
+
+In these
+coordinates the canonical $n+1$-form on $(J^1 E)^* \cong \Lambda_1^{n+1} T^* E$ is:
+\[
+          \alpha = P dQ + P^i_a dQ_i^a, 
+\]
+and the $n+2$ multisymplectic form is
+\[ 
+\omega = dP \wedge dQ + dP^i_a \wedge dQ_i^a.
+\]
+
 
 
 ### Examples
