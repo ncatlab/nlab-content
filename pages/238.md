@@ -13,7 +13,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-04-16 #
 
-Im Westens nicht neues. 
+
+* [[David Roberts]]: 
+
+  * Added a comment in section generalizations at [[ind-object]], re comma category.
 
 # 2009-04-15 #
 * [[Zoran Škoda]]: created [[fibered n category]], [[Karoubian category]], [[pseudo-abelian category]] (redirect),  [[Koszul duality]], [[pure motive]], [[Voevodsky motive]], [[motives and dg-categories]] (there needs to be a separate big entry on [[mixed motive]], then [[motivic complexes]], [[standard conjectures]], [[Hodge filtration]] etc.), [[element in abelian category]]; created book-page [[Gray-adjointness-for-2-categories]]; additions and references to [[A-infinity category]], [[dg-category]], [[twisting cochain]].
