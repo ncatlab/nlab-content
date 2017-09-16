@@ -1,5 +1,6 @@
 [[!include all changes]]
 
+[[!redirects recently revised]]
 
 All non-trivial additions or changes to the $n$Lab should briefly be indicated here. This way [[Contributors|the rest of us]] can spot them, so we can learn what you know --- and maybe make further improvements!
 
