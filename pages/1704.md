@@ -7,7 +7,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 The notion of _principal $\infty$-bundle_ is a [[vertical categorification|categorification]] of [[principal bundle]] from [[groups]] and [[groupoids]] to [[∞-groupoids]], or rather from parameterized groupoids (generalized spaces called [[stacks]]) to parameterized $\infty$-groupoids (generalized spaces called [[∞-stacks]]).
 
@@ -20,7 +20,7 @@ For motivation, background and further details see
 * [[gerbe]]
 * [[principal 2-bundle]].
 
-#Definition in general $(\infty,1)$-topos #
+## Definition in a general $(\infty,1)$-topos 
 
 We define $G$-principal $\infty$-bundles in the general context of an [[∞-stack]] [[(∞,1)-topos]] $\mathbf{H}$, with $G$ a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]].
 
@@ -66,7 +66,7 @@ $$
 
 of ${*} \to \mathbf{B}G$.
 
-## $G$-principal $\infty$-bundles ##
+### $G$-principal $\infty$-bundles 
 
 By the general reasoning discussed at [[cohomology]], a [[cocycle]] for $G$-[[nonabelian cohomology]] on $X \in \mathbf{H}$ is just a morphism $g : X \to \mathbf{B}G$ in $\mathbf{H}$. 
 
@@ -123,7 +123,7 @@ Here the horizontal morphisms on the left are indeed equivalences, as indicated.
 +-- {: .proof}
 ###### Proof
 
-The definition homotopy pullback square for $P \times_X P$ is
+The defining [[homotopy pullback]] square for $P \times_X P$ is
 
 $$
   \array{
@@ -190,6 +190,78 @@ $$
 of which the one on the right is the defining one of $G$ and the remaining one on the left is just a [[product]].
 
 =--
+
++-- {: .un_def}
+###### Definition
+**($G$-$\infty$-torsor / $G$-principal $\infty$-bundle)**
+
+The above shows that every $G$-cocycle induces 
+
+1. an **$\infty$-[[bundle]]** $P \to X$ 
+
+1. equipped with a **$G$-[[action]]** exhibited by an  
+   [[action groupoid]]-[[groupoid object in an (∞,1)-category]]
+
+   $$
+     (P//G \to {*}//G)
+     \;\;
+     :=
+     \;\;
+     \left(
+     \array{
+       \vdots && \vdots
+       \\
+       P \times G \times G
+       &\to& G \times G
+       \\
+       \downarrow\downarrow\downarrow 
+       && \downarrow\downarrow\downarrow
+       \\
+       P \times G
+       &\stackrel{p_2}{\to}& G
+       \\
+       \downarrow\downarrow && \downarrow\downarrow
+       \\ 
+       P &\stackrel{}{\to}& {*}
+     }
+     \right)
+   $$
+
+1. which is **principal** in that there is an equivalence of
+   [[groupoid object in an (∞,1)-category|groupoid objects]]   
+   
+   $$
+     (C(P/X) \stackrel{\simeq}{\to} P//G)
+     \;\;\;
+     =
+     \;\;\;
+     \array{
+       \vdots && \vdots
+       \\
+       P \times_X P \times_X P 
+       &\stackrel{\simeq}{\to}& 
+       P \times G \times G
+       \\
+       \downarrow\downarrow\downarrow
+       && 
+       \downarrow\downarrow\downarrow 
+       \\
+       P \times_X P &\stackrel{\simeq}{\to}& P \times G
+       \\
+       \downarrow\downarrow
+       && \downarrow\downarrow 
+       \\
+       P &\stackrel{=}{\to}& P 
+     }  
+   $$
+
+Conversely, any such collection of structure and properties we call
+a **$G$-principal bundle$$ or a **$G$-torsor** over $X$.
+
+=--
+
+Now Giraud's axuioms in the $(\infty,1)$-topos ensures that every
+$G$-principal bundle arisesfrom a cocycle as above...
 
 
 +-- {: .un_remark}
@@ -261,7 +333,7 @@ We call the object $V//G$ with this structure of a
 
 
  
-## Morphisms of $G$-principal $\infty$-bundles ##
+### Morphisms of $G$-principal $\infty$-bundles
 
 The morphisms of $G$-principal $\infty$-bundles are to be such that they respect the $G$-action, so that the [[∞-groupoid]] $G Bund(X)$ of $G$-principal $\infty$-bundles on $X$ is naturally equivalent to the cocycle $\infty$-groupoid $Hom_C(X, \mathbf{B} G)$
 
@@ -278,18 +350,18 @@ $$
 
 given by the [[hom-set]] in the [[homotopy category of an (infinity,1)-category|homotopy category of the (∞,1)-category]] $C$.
 
-## Connections on $G$-principal $\infty$-bundles ##
+### Connections on $G$-principal $\infty$-bundles
 
 By refining the classifying [[nonabelian cohomology|cocycles]] $g : X \to \mathbf{B} G$ to cocycles 
 $\Pi(X) \to \mathbf{B} G$
 on higher [[path groupoids]] of $X$, one obtains higher versions of the notion of [[connection on a bundle]]. This is described in more detail at [[schreiber:Differential Nonabelian Cohomology|Differential Nonabelian Cohomology]].
 
-# Concrete realizations #
+## Concrete realizations 
 
 We discuss realizations of the general idea in various
 [[(∞,1)-toposes]].
 
-## In topological spaces  ##
+### In topological spaces 
 
 The following general construction was originally due to
 Quillen and defines principal _groupoid_ $\infty$-bundles in the [[(∞,1)-topos]] [[Top]] 
@@ -442,7 +514,7 @@ This classical construction is recalled in the introduction of
 
 
 
-## In simplicial presheaves ##
+### In simplicial presheaves
 
 For a small [[site]] $C$, let $\mathbf{H}$
 be the [[(∞,1)-topos]]  of [[∞-stacks]]
@@ -488,7 +560,7 @@ $\infty$-bundles as homotopy pullbacks of the point continues to be valid.
 In low degree this is then, more or less explicitly, the description of higher principal bundles
 by Bartels, Bakovi&cacute;, Wockel, etc., as referenced at [[principal 2-bundle]].
 
-#References#
+## References
 
 The notion of principal $\infty$-bundle (often addressed in the relevant literature in the language of [[torsors]]) appears in the context of the [[simplicial presheaf]] [[model structure on simplicial presheaves|model]] for generalized spaces in
 
@@ -500,7 +572,7 @@ An earlier description in terms of simplicial objects is
 
 * P. Glenn, _Realization of cohomology classes in arbitrary exact categories_, J. Pure Appl. Algebra 25, 1982, no. 1, 33--105.
 
-In article not the total space of the bundle $P \to X$ is axiomatized, but the $\infty$-[[action groupoid]] of the action of $G$ on it.
+In that article not the total space of the bundle $P \to X$ is axiomatized, but the $\infty$-[[action groupoid]] of the action of $G$ on it.
 
 See the remarks at [[principal 2-bundle]].
 
