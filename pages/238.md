@@ -16,7 +16,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  [[Toby Bartels]]:  I\'ve written [[sequence]], [[net]], [[multi-valued function]], [[partial function]], and the long-delayed [[surjection]] and [[injection]].  Those interested in foundations may be particularly interested in my proposed alternative definition of [[sequence]].
 
-*  [[Tim Porter|Tim]]: I have included a discussion of th nerve of an [[internal category]] at that entry.
+*  [[Tim Porter|Tim]]: I have included a discussion of the nerve of an [[internal category]] at that entry.
 
 # 2009-03-13
 
