@@ -16,4 +16,4 @@ See for instance page 227 of
 or page 39 of 
 
 * A. Cegarra and J. Remedios, _The relationship between the diagonal and the bar constructions on a bisimplicial set_ Topology and its Applications
-Volume 153, Issue 1, 1 August 2005, Pages 21-51 
+Volume 153, Issue 1, 1 August 2005, Pages 21--51 
