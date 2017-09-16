@@ -6,6 +6,10 @@
 
 A _presentable $(\infty,1)$-category_ is, as the name suggests, an [[(∞,1)-category]] that can be conveniently "presented by simpler means". It is the analog of the notion of [[presentable category]] for ordinary categories.
 
++--{: .query}
+[[Mike Shulman]]: See [[presentable category]] for an objection to this terminology.  I prefer the standard term "locally presentable".
+=--
+
 There is a wealth of equivalent ways to make precise what this means, which are listed below. The two most important ones are maybe the following:
 
 ## presentation by simplicial model categories ##
