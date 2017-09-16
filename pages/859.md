@@ -6,7 +6,7 @@ but whose multiplication is
 $$(\delta,h)(\gamma,g)= (\delta \, ^h \gamma, h g)$$
 
 for $\delta, \gamma \in \Gamma,\; h,g \in G$. This is called in
-group theory the semidirect product and written $\Gamma \rtimes \, G$.
+group theory the semidirect product (see for example the wikipedia entry) and written $\Gamma \rtimes \, G$.
 There is a projection morphism $p:\Gamma \rtimes \, G \to G$ ,
 $(\gamma, g) \to g$. A section $s$ of this can be identified with a
 derivation $d$, i.e. $d$  satisfies $d(h g)= (d h) \,^h (d g)$.
@@ -37,7 +37,7 @@ category of covering morphisms of $\pi_1 X$.
 
 The utility of the more general construction is that there is notion
 of orbit groupoid $\Gamma //G$ (identify any $\gamma$ and $^g
-\gamma$) and it is theorem that the orbit groupoid is isomorphic to
+\gamma$) and it is a theorem that the orbit groupoid is isomorphic to
 the quotient groupoid
 
 $$ (\Gamma \rtimes \, G)/N$$
