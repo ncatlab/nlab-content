@@ -29,6 +29,10 @@ Sometimes the condition of a sieve being closed under the operation of precompos
 
 There is a canonical way to create subfunctors from sieves and sieves from subfunctors.
 
++-- {: .query}
+_Bruce_: What is a subfunctor? Can you link that word to a page?
+=--
+
 +-- {: .un_defn}
 ###### Definition
 
