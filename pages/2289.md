@@ -18,7 +18,7 @@
 
 This entry is about the text
 
-* [[Jacob Lurie]], _A Survey of Elliptic Cohomology_ ([pdf](http://www-math.mit.edu/~lurie/papers/survey.pdf))
+* [[Jacob Lurie]], _A Survey of Elliptic Cohomology_ ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf))
 
 It 
 
