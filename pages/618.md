@@ -31,7 +31,7 @@ A [[site]] is a category equipped with a coverage.
 
 =--
 
-Often [[site]]s are required to be [[small category|small]] (see [[large site]]).
+Often [[site]]s are required to be [[small category|small]]; see [[large site]] for complications that may otherwise arise.
 
 
 ### Sheaves on a site ###
