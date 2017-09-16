@@ -160,3 +160,6 @@ Categories in algebra, geometry and mathematical physics , volume 431 of Contemp
 
 [[!redirects Dold--Kan correspondence]]
 [[!redirects Dold–Kan correspondence]]
+[[!redirects Dold-Kan theorem]]
+[[!redirects Dold--Kan theorem]]
+[[!redirects Dold–Kan theorem]]
