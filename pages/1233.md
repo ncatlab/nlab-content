@@ -12,7 +12,7 @@ along with their modern names and links to nLab entries.
 * Section 2
 
   * _2-category_ (see [[strict 2-category]])
-  * _2-functor/$Cat$-functor_ (i.e. strict 2-functor; see [[enriched functor]])
+  * _2-functor/$Cat$-functor_ (i.e. [[strict 2-functor]])
   * _Cat-natural transformation_ (see [[enriched functor category]])
   * _Quasi-natural transformation_ ([[lax natural transformation]])
   * [[modification|Modification]]
