@@ -1,1 +1,1 @@
-Just as a [[strict 2-category]] is a [[category]] [[enriched category|enriched]] over [[Cat]], a **strict 2-functor** is a [[functor]] enriched over $Cat$.
+Just as a [[strict 2-category]] is a [[category]] [[enriched category|enriched]] over [[Cat]], a **strict 2-functor** is a [[functor]] enriched over $Cat$ in a $1$-[[1-category|categorial]] sense.
