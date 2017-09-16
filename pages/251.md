@@ -4,7 +4,7 @@ Similarly, a **double groupoid** is an internal [[groupoid]] in [[Grpd]].
 
 It is also useful to think of a double category as having two edge categories, and a class of squares with two category structures. A special case of double categories is when the two edge categories coincide. Another special case is when one of the edge categories consists only of identities. This is essentially the same as a [[strict 2-category]]. 
 
-Relations between the concepts of $n$-fold category and of  [[globular]] [[strict n-category]] are discussed in the paper by Brown and Higgins below. 
+Relations between the concepts of $n$-fold category and of  [[geometric shapes for higher categories|globular]] [[strict n-category]] are discussed in the paper by Brown and Higgins below. 
 
 #References#
 
