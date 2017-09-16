@@ -273,7 +273,9 @@ $P\to X$ is an effective descent morphism with respect to codomain fibration if 
 
 ### Comomadic descent for modules, using Sweedler corings
 
-Descent for a [[Sweedler coring]] is comonadic descent. See there for more details and geometric interpretations. 
+There is a [[bifibration]] $Mod \to Rings$ from the category of modules over any ring, mapping each module to the ring that it is a module over. This models, dually,  an algebraic version of [[vector bundle]]s over [[affine scheme]]s.
+
+Comonadic descent for this bifibration is the same as descent for a [[Sweedler coring]] See there for more details and geometric interpretations. 
 
 
 ### Gluing categories from localizations
