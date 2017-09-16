@@ -2,6 +2,8 @@ __$Sup Lat$__ is the [[category]] whose [[objects]] are [[suplattices]] and whos
 
 Analogously, __$Inf Lat$__ is the category whose objects are [[inflattices]] and whose morphisms are inflattice homomorphisms, which preserve all [[meets]].  Actually, $Sup Lat$ and $Inf Lat$ are [[equivalence of categories|equivalent]]; the difference between the two is merely the notational choice between $\leq$ and $\geq$.  However, this choice corresponds to using either of two [[inclusion functor]]s representing $Sup Lat$ and $Inf Lat$ as [[replete subcategories]] of [[Pos]]; similarly, [[CompLat]] can be viewed as a replete [[wide subcategory]] of $Sup Lat$ and $Inf Lat$ in two different ways.
 
+One can write __$Comp Semi Lat$__ (meaning the category of [[complete semilattices]]) if one wishes to remain ambiguous about the notation.
+
 
 ## Properties
 
@@ -25,6 +27,8 @@ category: category
 [[!redirects Sup Lat]]
 [[!redirects InfLat]]
 [[!redirects Inf Lat]]
+[[!redirects CompSemiLat]]
+[[!redirects Comp Semi Lat]]
 
 [[!redirects free suplattice]]
 [[!redirects free sup-lattice]]
@@ -32,3 +36,4 @@ category: category
 [[!redirects free inflattice]]
 [[!redirects free inf-lattice]]
 [[!redirects free inf lattice]]
+[[!redirects free complete semilattice]]
