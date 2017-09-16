@@ -8,6 +8,28 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
+$$\array{
+X && \overset{f}{\longrightarrow} && \mathbb{B}
+\\
+& {}_{\kappa}\searrow && \nearrow_{f_\kappa}
+\\
+&& \mathbb{B}^k
+}$$
+
+***
+
+Now, with \ulap{f} --- but does it make a difference here?
+
+$$\array{
+X && \overset{\ulap{f}}{\longrightarrow} && \mathbb{B}
+\\
+& {}_{\kappa}\searrow && \nearrow_{f_\kappa}
+\\
+&& \mathbb{B}^k
+}$$
+
+***
+
 This used to work in MediaWiki LaTeX for slashing operators and arrows:
 
 * $\not\in$
