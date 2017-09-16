@@ -1,5 +1,5 @@
 
-this entry provides (eventially) a linked keyword list for the article
+notes on
 
 * [[Jacob Lurie]], _$\mathbb{E}_k$-Algebras_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
 
@@ -9,7 +9,31 @@ this entry provides (eventially) a linked keyword list for the article
 {:toc}
 
 
+## Grouplike monoid objects {#GrouplikeMonoid}
+
+Let $\mathcal{X}$ be an [[∞-stack]] [[(∞,1)-topos]] and $X : Ass \to \mathcal{X}$ be a monoid object in $\mathcal{X}$.  Say that $X$ is _grouplike_ if the composite
+
+$$
+  \Delta^{op} \to Ass \to \mathcal{X}
+$$
+
+(see 1.1.13 of [[Commutative Algebra]])
+
+is a [[groupoid object in an (infinity,1)-category|groupoid object]] in $\mathcal{X}$.
+
+Say an $\mathbb{E}[1]$-algebra object is grouplike if it is grouplike as an $Ass$-monoid. Say that an $\mathbb{E}[k]$-algebra object in $\mathcal{X}$ is grouplike is the restriction along $\mathbb{E}[1] \hookrightarrow \mathbb{E}[k]$ is.
+Write 
+
+$$
+  Mon^{gp}_{\mathbb{E}[k]}(\mathcal{X})
+  \subset
+  Mon_{\mathbb{E}[k]}(\mathcal{X})
+$$
+
+for the [[(∞,1)-category]] of grouplike $\mathbb{E}[k]$-monoid objects.
+
 ## Main result {#MainResult}
+
 
 The following result makes precise for _parameterized [[∞-groupoid]]s_  -- for [[∞-stack]]s -- the general statement that $k$-fold [[delooping]] provides a correspondence betwen [[n-category|n-categories]] that have trivial [[k-morphism|r-morphism]]s for $r \lt k$ and  [[k-tuply monoidal n-category|k-tuply monoidal n-categories]].
 
@@ -31,6 +55,26 @@ $$
 Theorem 1.3.6.
 
 =--
+
+Specifically for $\mathcal{X} = Top$, this reefines to the classical theorem by [[Peter May]]
+
++-- {: .un_theorem}
+###### Theorem
+**(May)**
+
+Let $Y$ be a [[topological space]] equipped with an action of the [[little cubes operad]] $\mathcal{C}_k$ and suppose that $X$ is grouplike. Then $Y$ is homotopy equivalent to a $k$-fold loop space $\Omega^k X$ for some pointed topological space $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Theorem 1.3.16.
+
+=--
+
+
+ 
 
 ## Stabilization hypothesis {#StabilizationHypothesis}
 
