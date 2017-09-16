@@ -119,7 +119,7 @@ $$
 $$
 (with [[point|pt]] the terminal category) successively forgets first a property (being abelian) then structure (the group structure on a set) then stuff (the underlying set).
 
-Notice that the order here is backwards from the automatic factorisation given by the $3$-way factorisation system described above.  (And in fact, the structure forgotten here is not 'pure'; $Grp \to Set$ is not essentially surjective.)  Indeed, the above factorisation is arbitrary; it comes from seeing an abelian group as a group with an extra property and a group as a set with extra structure, but one may view things differently (for example, that an abelian group is a [[monoid]] with extra property, or a set with two group structures that are related as in the [[Eckman-Hilton argument]]).
+Notice that the order here is backwards from the automatic factorisation given by the $3$-way factorisation system described above.  (And in fact, the structure forgotten here is not 'pure'; $Grp \to Set$ is not essentially surjective.)  Indeed, the above factorisation is arbitrary; it comes from seeing an abelian group as a group with an extra property and a group as a set with extra structure, but one may view things differently (for example, that an abelian group is a [[monoid]] with extra property, or a set with two group structures that are related as in the [[Eckmann-Hilton argument]]).
 
 The automatic factorisation is in fact like this (up to [[equivalence of categories]]):
 $$
