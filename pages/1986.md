@@ -24,6 +24,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
    * added a reference to Simona Paoli's paper at [[homotopy hypothesis]].  This contains an answer to Urs' question about the functor that turns spaces into $cat^n$ groups.   I also moved his question down to the 'Discussion' section near the end of the page.
 
+   * posed a question on [[monadic adjunction]].  The end of my question contains a formatting error of the sort Toby knows how to fix!  I forget how!
+
 *  [[Jim Stasheff]] wrote [[Larmore]]; I\'m not sure if it\'s supposed to be about the person or about a cohomology theory.
 
 *  [[Toby Bartels]]:
