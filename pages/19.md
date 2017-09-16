@@ -326,7 +326,7 @@ For a philosophical consideration of foundations covering and comparing sets, st
 
 #Generalizations and other structures#
 
-**Generalizations of categories**
+##Generalizations of categories##
 
 There are generalizations of categories in the sense that they are categories with extra structure which reduce to categories when the extra structure is trivial.
 
@@ -339,7 +339,7 @@ There are generalizations of categories in the sense that they are categories wi
 * [[allegory|Allegories]]
 * [[actegory|Actegories]]
 
-**Other structures**
+##Other structures##
 
 These are a part of category theory even if they are not categories or reduce to categories as a special case.
 
@@ -354,9 +354,9 @@ These are a part of category theory even if they are not categories or reduce to
 * [[opetopic set|Opetopic sets]]
 * [[complicial set|Complicial sets]]
 * [[pseudocategory|Pseudocategories]] (nonstrict internal categories)
-* [[Monad|Monads]]
-* [[Sketch|Sketches]]
-* [[Doctrine|Doctrines]]
+* [[monad|Monads]]
+* [[sketch|Sketches]]
+* [[doctrine|Doctrines]]
 
 
 #Applied category theory#
