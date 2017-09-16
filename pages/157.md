@@ -1,4 +1,10 @@
-A [[category]] is said to be __locally small__ if each of its  [[hom-set|hom-sets]] is small, i.e., is a [[set]] instead of a [[proper class]].  Local smallness is included by some authors in the definition of "category."
+A [[category]] is said to be **locally small** if each of its  [[hom-set|hom-sets]] is small, i.e., is a [[set]] instead of a [[proper class]].  Local smallness is included by some authors in the definition of "category."
+
+In other words, a locally small category is a $Set$-category, i.e. a category [[enriched category|enriched in]] the category [[Set]].
+
+If [[Grothendieck universe]]s are used to handle [[size issue]]s, then one speaks of a **locally $U$-small** category if all [[hom-set|hom-sets]] are elements of $U$, or of a $U-Set$-category or simply of a $U$-category.
+
+Compare with [[small category]].
 
 
 #Remarks#
