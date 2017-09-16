@@ -53,6 +53,8 @@ What is a function between multisets?  I would be inclined to say that for multi
 The last part of the definition is a kind of wreath product (see [4]). However, it is not clear at the moment how this definition fits into the general theory of
 wreath products.
 
+[[Mike Shulman]]: Huh.  So his definition takes a multiset to assign a *set* to every element, rather than a *cardinality* to every element, so that the multisubsets of $U$ are exactly objects of $Set/U$.  I'm surprised, though, that with his definition the only functions $\{1,1\} \to \{2,3\}$ are constant; why can't I send the two copies of $1$ to different places?
+
 ## Examples
 
 ...
