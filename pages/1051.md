@@ -9,7 +9,7 @@ Directed (co)limits were studied in algebra (as projective and inductive limits)
 Let $C$ be a [[category]].
 
 A __projective system__ in $C$ consists of a [[direction|directed set]] $I$ (which we will write directed-upward as usual), a family $(A_i)_{i: I}$ of objects of $C$, and a family $(f_{ij}: A_j \to A_i)_{i \leq j: I}$ of morphisms, such that:
-* $f_{ii}: A_i \to A_i$ is the [[identity]] on $A_i$;
+* $f_{ii}: A_i \to A_i$ is the [[identity morphism]] on $A_i$;
 * $f_{ik}: A_k \to A_i$ is the [[composition|composite]] $f_{ij} \circ f_{jk}$.
 
 Then a __projective cone__ of this projective system is an object $X$ and a family of __projections__ $\pi_i: X \to A_i$ such that
