@@ -4,6 +4,9 @@ A **subsequential space** is a set equipped with a notion of _sequential converg
 
 Despite these apparent drawbacks, subsequential spaces have a number of advantages.  Their definition is arguably more intuitive than that of a topological space.  Continuity of functions between subsequential spaces is likewise easy to define, by preservation of convergent sequences.  And since subsequential spaces include all sequential spaces, they include many spaces of interest to topologists, including all metrizable spaces and all CW complexes; thus they can be regarded as a sort of [[nice topological space]].  Furthermore, the category of subsequential spaces is _also_ a [[nice category of spaces]]: it is [[locally cartesian closed category|locally cartesian closed]] and in fact a [[quasitopos]], and the embedding of sequential spaces into subsequential ones preserves most important categorical structure: all [[limit]]s and many [[colimit]]s.  Since it is a "Grothendieck quasitopos," it is also [[locally presentable category|locally presentable]].
 
++--{: .query}
+I\'m inclined to call such a thing a 'sequential [[filter|convergence space]]'.  The category of convergence spaces is also quite nice; it\'s cartesian closed, has all limits, and has *all* colimits (and possibly the other properties).  Furthermore, it includes *all* of $Top$ as a reflective subcategory.  (I think that these results are in Lowen-Colebunder\'s book cited at [[filter]].)  ---Toby
+=--
 
 # Definition
 
