@@ -1,12 +1,16 @@
 
-# Definition #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition 
 
 A [[topological space]] $X$ is **paracompact** if every open [[cover]]ing $U$ has a [[refinement]] by an open covering $V$ that is _locally finite_, i.e. such that every point has a neighbourhood that intersects only finitely many open subsets in $V$ .
 
 Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as well; the issues here are the same as those for [[compact space]]s.  In particular, a __paracompactum__ is a paracompact Hausdorff space.
 
 
-# Examples #
+## Examples 
 
 * locally compact spaces
 
@@ -21,7 +25,8 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
   Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompact.  As the union is disjoint, the components, that is to say, the $X_\lambda$, are open in $X$.  Thus any open cover, say $\mathcal{U}$, of $X$ has a refinement by open sets, say $\mathcal{V}$, such that each $V \in \mathcal{V}$ is contained in some $X_\lambda$.  Thus we can write $\mathcal{V} = \coprod \mathcal{V}_\lambda$.  As each $X_\lambda$ is paracompact, each $\mathcal{V}_\lambda$ has a locally finite refinement, say $\mathcal{W}_\lambda$.  Then let $\mathcal{W} := \coprod \mathcal{W}_\lambda$.  As each $\mathcal{W}_\lambda$ is a refinement of the corresponding $\mathcal{V}_\lambda$, $\mathcal{W}$ is a refinement of $\mathcal{V}$, and hence of $\mathcal{U}$.  As each point of $X$ has a neighbourhood which meets only elements of _one_ of the $\mathcal{W}_\lambda$, and as that $\mathcal{W}_\lambda$ is locally finite, $\mathcal{W}$ is locally finite.  Thus $\mathcal{U}$ has a locally finite refinement.
   =--
 
-* manifolds
+
+* [[manifold]]s
 
   *  finite-dimensional manifolds are locally compact, so we have the results above, but we also have some converses:
 
@@ -114,7 +119,7 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
   * the [[long line]] is *not* paracompact, even though it is a [[manifold]] (unless one specifically requires paracompactness of manifolds) but it fails to be [[second-countable space|second-countable]] (even though it is connnected) or metrisable.
 
 
-# Properties #
+## Properties 
 
 * __Dieudonne's theorem__: Every paracompact Hausdorff space is [[normal space|normal]].
 
@@ -124,13 +129,13 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
 
 Care should be taken as to which category one constructs partitions of unity on paracompact spaces. For example, analytic partitions of unity generally do not exist on smooth (finite dimensional) manifolds, even when smooth ones do.
 
-## cohomology of paracompact spaces ##
+### Cohomology of paracompact spaces 
 
 * On paracompact spaces, abelian [[Čech cohomology]] does compute [[abelian sheaf cohomology]], 
 
   i.e. the canonical morphism $\check{H}(X,A) \to H(X,A)$ for  $A$ any [[chain complex]] of [[sheaf|sheaves]] is an [[isomorphism]] when the [[topological space]] underlying $X$ is paracompact.
 
-# References #
+## References 
 
 *  the English Wikipedia\'s [article](http://en.wikipedia.org/wiki/Paracompact_space)
 
