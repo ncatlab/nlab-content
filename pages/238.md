@@ -14,6 +14,18 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-22 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * added to [[Moore complex]]
+
+    * the theorem of how it relates to the other two complexes in the game (it is quasi-isomorphic to the alternating sum complex and isomorphic to that divided by degeneracies)
+
+    * illustrations of cells in low degree
+
+    * the reference to [[Tim Porter]]'s [[Tim Porter:crossed menagerie|The Crossed Menagerie]] notes
+
+    * a brief comment on use of terminology (after checking with [[Tim Porter]])
+
 *  [[Toby Bartels]]:  Started more articles that I\'d linked earlier: [[exclusive disjunction]] (with a philosophical claim that I need to back up), [[countable choice]] (very much a stub), [[sigma-ideal]], [[Hartog's number]].
 
 * [[Urs Schreiber|Urs]]: 
