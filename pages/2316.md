@@ -72,9 +72,9 @@ A continuous map $\phi : X \to Y$ between simply connected space is a
 1. it induces a weak [[homotopy equivalence]] on rationalizations $X_0, Y_0$ in that
    $\phi_0 : X_0 \to Y_0$ is a [[weak homotopy equivalence]].
 
-# Examples #
+## Examples 
 
-## rational $n$-sphere ##
+### Rational $n$-sphere 
 
 The **rational $n$-sphere** $(S^n)_0$ can be written as
 
@@ -92,9 +92,58 @@ $$
 
 where...
 
-## rational $n$-disk ##
+### Rational $n$-disk 
 
 ...
+
+### Rational compact Lie-groups
+
+For $G$ a [[compact space|compact]] [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$, let $\{\mu_{k_i}\}_{i=1}^{rank G}$ be generators of its [[Lie algebra cohomology]] with $deg \mu_{k_i} = 2 k_i-1$. Accordingly there are generators $\{P_{k_i}\}_i$ of [[invariant polynomial]]s on $\mathfrak{g}$. 
+
+Such $G$ is rationally equivalent to the product
+
+$$
+  \prod_{i = 1}^{rank G} S^{2 k_i -1}
+$$
+
+of rational $n$-spheres. 
+
+### Rational classifying spaces of compact Lie groups
+
+With $G$ as above, let $\mathcal{B}G$ be the corresponding [[classifying space]].  Then
+
+$$
+  H^\bullet(\mathcal{B}G, \mathbb{Q}) \simeq \mathbb{Q}[P_{k_1},  P_{k_2}, \cdots]
+  \,,
+$$
+
+where $P_{k_i}$ is a generator in degre $2 k_i$.
+
+A [[Sullivan model]] of $\mathcal{B}G$ is $H^\bullet(\mathcal{B}G,\mathbb{R})$.
+
+
+### Quotient spaces
+
+We may think of $\mathcal{B}G$ as the [[action groupoid]] $*// G$. The above discussion generalizes to more general such quotients.
+
+...
+
+
+### Biquotient spaces
+
+Let $H$ be a compact Lie group and $G \subset H \times H$ a closed [[subgroup]] of the product. This $G$ acts on $H$ by left and right multiplication
+
+$$
+  (g_1, g_2) : h \mapsto g_1 h g_2^{-1}
+  \,.
+$$
+
+...
+
+See 
+
+* Vitali Kapovitch, _A note on rational homotopy of biquotients_ ([pdf](http://www.math.utoronto.ca/vtk/biquotient.pdf))
+
 
 [[!redirects rational space]]
 [[!redirects rational spaces]]
