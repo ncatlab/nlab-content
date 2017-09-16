@@ -318,7 +318,7 @@ This makes $A(\mathbb{R})$ an $\mathbb{R}$-algebra.
 +-- {: .un_prop}
 ###### Proposition ([[Models for Smooth Infinitesimal Analysis|MSIA]], prop. 1.1)
 
-$C^\infty(\mathbb{R})$ is the free smooth algebra
+$C^\infty(\mathbb{R}^n)$ is the free smooth algebra
 on $n$ generators, in that for every $n \in \mathbb{N}$ 
 and every smooth algebra $A$ there is an [[adjunction]]
 isomorphism
@@ -454,4 +454,4 @@ See also
 
 A brief but useful review is also on p. 3 of
 
-* David Spivak, _Quasi-Smooth derived manifolds_ ([pdf](http://math.berkeley.edu/~dspivak/thesis2.pdf))
+* David Spivak, _Quasi-Smooth derived manifolds_ ([pdf](http://math.berkeley.edu/~dspivak/thesis2.pdf)) <- link is broken.
