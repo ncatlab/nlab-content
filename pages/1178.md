@@ -34,7 +34,7 @@ A further large part of mathematics is concerned not just with sets, but with se
 
 If [[set theory]] is really the [[ETCS|elementary theory of the category of sets]], then what is [[homotopy theory]], really, in this sense? The answer to this is supposed to be: the theory of the [[(infinity,1)-category]] [[Top]] of topological spaces.
 
-And the entire discussion for the 1-category [[Set]] above then has its analogs for the [[(infinity,1)-category]] [[Top]]. In particular, [[Top]] is an [[(infinity,1)-category]] which happens to be the archetypical example of an [[(infinity,1)-topos]]. This means that once one understands constructions in [[homotopy theory]] as $(\infty,1)$-categorical constructions, they tend to generalize to the wider contexts of other other [[(infinity,1)-topos|(infinity,1)-topoi]].
+And the entire discussion for the 1-category [[Set]] above then has its analogs for the [[(infinity,1)-category]] [[Top]]. In particular, [[Top]] is an [[(infinity,1)-category]] which happens to be the archetypical example of an [[(infinity,1)-topos]]. This means that once one understands constructions in [[homotopy theory]] as $(\infty,1)$-categorical constructions, they tend to generalize to the wider contexts of other [[(infinity,1)-topos|(infinity,1)-topoi]].
 
 
 +--{+ .query}
