@@ -314,7 +314,7 @@ $$
   }
   \,.
 $$
-An illustrative example is the following: a limit of the identity functor $Id_c:C\to C$ is, if it exists, an [[initial object]] of $C$.
+An illustrative example is the following: a limit of the [[identity functor]] $Id_c:C\to C$ is, if it exists, an [[initial object]] of $C$.
 
 # Global Definition in terms of adjoint of the constant diagram functor #
 
