@@ -52,7 +52,13 @@ For commutative dg-rings see also
 * A. Bousfield, V. Gugenheim, _On PL deRham theory and rational homotopy type_ Memoirs of the AMS 179 (1976)
 
 
-The model structure on general dg-algebras is discussed in
+The model structure on general dg-algebras is discussed for instance in
+
+section V.3 of
+
+* [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra_, Springer
+
+Also
 
 * J.F. Jardine, _A closed model structure for differential graded algebras_ , Cyclic Cohomology and Noncommutative Geometry, Fields Institute Communications, Vol. 17, AMS (1997), 55-58. 
 
