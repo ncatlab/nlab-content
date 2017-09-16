@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-05-20 #
+
+*  [[Todd Trimble]] wrote [[Tychonoff theorem]], and [[Toby Bartels]] wrote [[Hausdorff space]].
+
 # 2009-05-19 #
 
 * [[Todd Trimble|Todd]] added a bit more to [[compact space]], in particular linking back to [[quasicompact]]. There is so much one could say about compact spaces, it's quite the embarrassment of riches. 
