@@ -14,13 +14,31 @@
 
 * A functor between (small) categories is a morphism of the underlying graphs that respects the composition of edges.
 
-More precisely, a _functor_ $F$ from a category $C$ to a category $D$ is a map sending each object $x \in C$ to an object $F(x) \in D$ and each morphisms $f : x \to y$ in $C$ to morphism $F(f) : F(x) \to F(y)$ in $D$.  We demand that:
+##Definition##
+
+A _functor_ $F$ from a [[category]] $C$ to a category $D$ is a map sending each [[object]] $x \in C$ to an object $F(x) \in D$ and each [[morphisms]] $f : x \to y$ in $C$ to morphism $F(f) : F(x) \to F(y)$ in $D$.  such that
 
 * $F$ preserves [[composition]]: $F(f g) = F(f) F(g)$ whenever either side is well-defined.
 
-* $F$ preserves identity morphisms: for each object $x \in X$, $F(1_x) = 1_{F(x)}$.
+* $F$ preserves [[identity]] morphisms: for each object $x \in X$, $F(1_x) = 1_{F(x)}$.
 
-Functors are morphisms in the category [[Cat]].
+Functors are [[morphism]]s in the [[category]] [[Cat]].
+
+Functors between two categories $C$ and $D$ form themselves a category, the [[functor category]] $[C,D]$. Equipped with these functor categories as [[hom-object]]s [[Cat]] becomes the [[2-catgeory]] of categories, functors and [[natural transformation]]s.
+
+## Special properties ##
+
+Functors with special properties are important in applications. See for instance
+
+* [[essentially surjective functor]]
+
+* [[full functor]]
+
+* [[faithful functor]]
+
+* [[full and faithful functor]]
+
+And for more background on this see [[stuff, structure, property]].
 
 ##Internal definition##
 
@@ -85,11 +103,40 @@ $.
 
 However, see [[anafunctor]] for a different approach.
 
-##Example: Linear Maps##
+##Examples ## 
+
+
+### morphisms of monoids and groups ###
+
+For $A,B$ [[monoid]]s or $G, H$ [[group]]s, let $\mathbf{B}A, \mathbf{B}B$, $\mathbf{B}G$, $\mathbf{B}H$ be the corresponding obe-object [[category|categories]] (as described at [[delooping]]). Then functors
+
+$$
+  \mathbf{B}A \to \mathbf{B}B
+$$
+
+are canonically in bijection with monoid homomorphisms $A \to B$ and accordingly functors
+
+$$
+  \mathbf{B}G \to \mathbf{B}H
+$$
+
+are canonically in bijection with group homomorphisms $G \to H$.
+
+### Representations ###
+
+With $\mathbf{B}G$ as above, functors on $\mathbf{B}G$ with values in [[Vect]] are the same as linear [[representation]]s of the [[group]] $G$. In fact, we have a canonical isomorphism of categories
+
+$$
+  Funct(\mathbf{B}G, Vect) \simeq Rep(G)
+$$
+
+of the [[functor category]] with the representation category.
+
+###Linear Maps###
 
 Let $\mathbf{B} End(U)$ and $\mathbf{B} End(V)$ be one-object categories whose objects are each finite-dimensional vector space and whose morphisms are all of the linear [[endomorphism]]s on that space, i.e. one-object [[full subcategory|full subcategories]] of $Fin Vect$.
 
-###Left Inverses###
+####Left Inverses####
 
 If the linear map $F:U\to V$ has a left inverse, i.e.
 
@@ -125,7 +172,7 @@ $$F_*(1_U) = 1_{F_*(U)}$$
 
 as required. Hence, $F_*$ is a functor.
 
-###Right Inverses###
+####Right Inverses####
 
 If the linear map $F:U\to V$ has a right inverse, i.e.
 
@@ -160,6 +207,30 @@ so that
 $$F^*(1_V) = 1_{F^*(V)}$$
 
 as required. Hence, $F^*$ is a functor.
+
+### Presheaves ###
+
+Functors $F : C \to Set$ with values in [[Set]] are also called [[presheaf|presheaves]]. As such one calls them presheaves on the [[opposite category]] $C^{op}$ of $C$. See [[presheaf]] for more on this.
+
+
+
+## Generalizations ##
+
+A generalization of the notion of functor within ordinary [[category theory]] and then naturally further within [[enriched category theory]] is the notion of [[profunctor]].
+
+In [[higher category theory]] there are corresponding higher notions of functor, such as
+
+* [[2-functor]]
+
+  * [[strict 2-functor]]
+
+  * [[pseudofunctor]]
+
+  * [[lax functor]]
+
+* [[(∞,1)-functor]]
+
+
 
 * See also an [[experimental alternative definition of functor]].
 
