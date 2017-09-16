@@ -42,6 +42,9 @@ The central theorem is
 
    1. [[A Survey of Eilliptic Cohomology - cohomology theories]]
 
+   1. [[A Survey of Elliptic Cohomology - formal groups and cohomology]]
+
+
 1. [Contents](#contents)
 
    1. [Elliptic Cohomology](#EllipticCohomology)
