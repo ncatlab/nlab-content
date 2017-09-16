@@ -266,7 +266,7 @@ and contains examples that are of interest in the wider context of [[string theo
 
   * twisting cocycle: lifting [[gerbe]] / [[magnetic charge]] / [[Kalb-Ramond field]];
 
-  * twisted cocycle: [[twisted bundle]]s / gerbe modules
+  * twisted cocycle: [[twisted bundle]]s / [[bundle gerbe module]]s
 
   * twisted Bianchi identity: $d F_\nabla = H_3$
 
