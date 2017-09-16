@@ -47,7 +47,9 @@ It turns out that a [[(0,1)-topos]] is essentially the same as a [[Heyting algeb
 
 ## Related concepts ##
 
-A [[ionad]] is supposed to be to a [[topological space]] as a [[Grothendieck topos]] is to a [[locale]].
+* A [[ionad]] is supposed to be to a [[topological space]] as a [[Grothendieck topos]] is to a [[locale]].
+
+* [[localic groups]] and [[localic groupoids]] are also important notions.
 
 ## References ##
 
