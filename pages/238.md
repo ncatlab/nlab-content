@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-02-19
+
+* [[Mike Shulman|Mike]]: created [[n-fibration]].
+
 # 2009-02-18
 
 * [[Mike Shulman|Mike]]:
