@@ -76,6 +76,10 @@ Now that the category of contexts (in one sense) of the theory of a group has be
 In [rot13](http://www.rot13.com/): gur bccbfvgr bs gur pngrtbel bs svavgryl cerfragrq tebhcf.
 =--
 
++--{: .query}
+_David_: Not too sophisticated a code. What can be said in general about such context phenomena? Seems reminiscent of algebraic theories being equivalent to the opposite of the category of their free models.
+=--
+
 # Display morphisms
 
 ...
