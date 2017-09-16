@@ -325,6 +325,9 @@ D. Verity, Weak complicial sets, a simplicial weak
 $\omega$-category theory. Part II: nerves of complicial Gray-categories.
  ([arXiv](http://arxiv.org/abs/math/0604416))
 
+* (Weber) 
+M. Weber, Yoneda structures from 2-toposes, _Applied Categorical Structures_ **15(3)**
+(2007), 259--323.  Preliminary version: ([arXiv](http://arxiv.org/abs/math/0606393))
 
 +--{.query}
 
