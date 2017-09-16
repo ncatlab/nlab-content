@@ -1,0 +1,31 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+The analog of the notion of [[opposite category]] for [[(∞,1)-categories]].
+
+## Definition
+
+For $C$ an [[(∞,1)-category]] regard it in its incarnation as a [[∞-groupoid]]-[[enriched category]]. Then its opposite is the $(\infty,1)$-category $C^{op}$ with the same objects and with [[hom-object]]s given by
+
+$$
+  C^{op}(X,Y) := C(Y,X)
+$$
+
+with the obvious composition law.
+
+## Properties
+
+The operation extends to an [[automorphism|automorphic]] [[(∞,1)-functor]] 
+
+$$
+  op : (\infty,1)Cat \to (\infty,1)Cat
+$$
+
+from [[(∞,1)Cat]] to itself. Up to equivalence, this is the only nontrivial such automorphism. For more on this see [[(∞,1)Cat]].
+
+[[!redirects opposite quasi-category]]
+[[!redirects opposite (∞,1)-category]]
