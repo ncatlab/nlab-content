@@ -290,6 +290,28 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
 
    Once you have the SVG, you can include it on a page as described [here](http://golem.ph.utexas.edu/instiki/show/SVG).  Since raw SVG is a bit ugly, you may want to put the SVG on a "subpage" by itself (with a name like `pagename > imagename`) which is included from the main page (see above for the syntax to include other pages).
 
+1. Use the CodeCogs-server to produce [xypic](http://www.tug.org/applications/Xy-pic/)-coded diagrams.
+
+   For that, code a diagram in _xypic_ as usual. Then write the code
+   _all in one line without any spaces_ and in addition replace all
+   appearances of the symbol "&" with "%26".
+
+   Then add the line
+
+        <img src="http://latex.codecogs.com/gif.latex?YOUR-CODE-GOES-HERE" />
+
+    in the $n$Lab page where the diagram should appear. This will make some server somewhere on this planet produce an image displaying the desired diagram.
+
+   For instance 
+
+        <img src="http://latex.codecogs.com/gif.latex?\xymatrix{(f/g)\ar[r]\ar[d]%26A\ar[d]^f\ar[dl]^\alpha\\B\ar[r]_g%26C}" />
+
+   produces
+
+   <img src="http://latex.codecogs.com/gif.latex?\xymatrix{(f/g)\ar[r]\ar[d]%26A\ar[d]^f\ar[dl]^\alpha\\B\ar[r]_g%26C}" />
+
+
+
 # Other Sources of Information #
 
 ## Instiki HowTo ##
