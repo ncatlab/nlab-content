@@ -8,6 +8,8 @@ At first, the only well-founded set possible is the [[empty set]] $\empty = \{ \
 Mike, why don\'t you accept the hereditarily finite sets as a model for $\mathbf{N}$?  There are countably infinitely many, so as a mathematical statement, it\'s certainly true.  And the hereditarily finite sets are rather nicely enumerated (beginning as above): set $i$ belongs to set $n$ iff the $i$th base-$2$ digit of $n$ is $1$.  ---Toby
 
 [[Mike Shulman|Mike]]: Yes, it's certainly _true_, but it didn't seem particularly helpful to me to mention it here.  But if you want mention it, please include a description of that enumeration as well, so that no one is tempted to confuse $V_\omega$ with $\omega$.
+
+_Toby_:  That\'s why I said that it wasn\'t the usual model.  As structuralists, why do we care if people model $\mathbb{N}$ as $\omega$ or as $V_\omega$ when these are isomorphic?  But perhaps I\'ll just mention it on [[hereditarily finite set]].
 =--
 
 For ill-founded sets, there are additional possibilities, such as a set $\bullet$ such that $\bullet = \{\bullet\}$ (a suggestive model for the [[point]]), or sets $A$ and $B$ such that $A = \{B\}$ and $B = \{\empty, A\}$.  These may be ruled out by an appropriate _axiom of foundation_.
