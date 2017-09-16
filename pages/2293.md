@@ -22,13 +22,13 @@
 
 The term __derived algebraic geometry__ is used in two closely related but logically different notions: 
 
-1. as the part of the geometry of schemes captured cohomologically (by the [[derived category]] of [[coherent seaf|coherent sheaves]]), which presents the kind of data very close to the interests of the classical Italian school and 
+1. as the part of the geometry of schemes captured cohomologically (by the [[derived category]] of [[coherent sheaf|coherent sheaves]]), which presents the kind of data very close to the interests of the classical Italian school and 
 
-1. as the derived [[moduli space]]s, which extend or replace the usual [[moduli space]]s. 
+1. as the generalizations of the algebraic geometry allowing the notion of derived [[moduli space]]s (moduli stacks if you wish), which extend or replace the usual [[moduli space]]s. 
 
 ## derived categories of sheaves on a space ##
 
-In the early works of the Russian school (Kapranov, Bondal, Orlov, [[Kontsevich]]) it meant, replacing a [[variety]] by the [[derived category]] of [[coherent sheaves]] (or [[quasicoherent sheaves]] on that variety, or [[dg-category]] (or [[A-infinity category]]) [[enhanced triangulated category|enhancements]] thereof. There are also [[noncommutative algebraic geometry|noncommutative deformations]] of such derived categories and analogues like the categories corresponding to the so-called [[Landau-Ginzburg model]]s. Therefore **noncommutative derived geometry** (and even noncommutative motives). 
+In the early works of the Russian school (Kapranov, Bondal, Orlov, [[Kontsevich]]) it meant, replacing a [[variety]] by the [[derived category]] of [[coherent sheaves]] (or [[quasicoherent sheaves]] on that variety, or [[dg-category]] (or [[A-infinity category]]) [[enhanced triangulated category|enhancements]] thereof. There are also noncommutative deformations of such derived categories and analogues like the categories corresponding to the so-called [[Landau-Ginzburg model]]s. Therefore [[noncommutative derived geometry]] (and even noncommutative motives). 
 
 Notice that the [[derived category]] of coherent sheaves on a variety does _not_ remember all the structure of the original variety hence derived geometry loses often some information (sometimes not); thus derived algebraic geometry is sometimes easier than nonderived. 
 
@@ -76,7 +76,7 @@ See these links for more details.
 +-- {: .num_remark}
 ###### Remark (derived scheme are $(\infty,1)$-toposes)
 
-This definition is based on the observation that it is a deficiency of the ordinary defintion of [[scheme]] to demand that underlying a scheme is a [[topological space]] and that a better definition is obtained by demanding it to have an underlying [[locale]]. But a [[locale]] is a [[0-topos]]. This motivates then the definition of a [[generalized scheme]] as a (locally affine, [[structured (infinity,1)-topos|structured]]) [[(∞,1)-topos]]. 
+This definition is based on the observation that it is a deficiency of the ordinary definition of [[scheme]] to demand that underlying a scheme is a [[topological space]] and that a better definition is obtained by demanding it to have an underlying [[locale]]. But a [[locale]] is a [[0-topos]]. This motivates then the definition of a [[generalized scheme]] as a (locally affine, [[structured (infinity,1)-topos|structured]]) [[(∞,1)-topos]]. 
 
 =--
 
