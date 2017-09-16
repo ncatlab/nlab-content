@@ -4,7 +4,7 @@
 
 ## Definitions ##
 
-In the category of all [[topological spaces]] one distinguishes several closely related notions. Consider topological pairs $(X,A)$; in other words, $X$ is a topological space and $A\subset X$.  Then $A$ is a __deformation retract__ of $X$ if there exist a continuous map $H:X\times I\to X$ such that $H(a,t)=a$ for all $a\in A$, $t\in I=[0,1]$, $H(x,0) = x$ for all $x\in X$ and $H(x,1)\in A$ for all $x\in X$.
+In the category of all [[topological spaces]] one distinguishes several closely related notions. Consider topological pairs $(X,A)$; in other words, $X$ is a topological space and $A\subset X$.  Then $A$ is a __deformation retract__ of $X$ if there exist a continuous map $H:X\times I\to X$ such that $H(a,t)=a$ for all $a\in A$, $t\in I=[0,1]$, $H(x,0) = x$ for all $x\in X$ and $H(x,1)\in A$ for all $x\in X$. Equivalently, there are continuous mnaps $i:A\to X$ and $r:X\to A$ such that $r\circ i = id_A$ and $i\circ r\sim id_X (rel A)$. Here $\sim (rel A)$ denotes the homotopy equivalence with fixed $A$. More generally, for any continuous map $j:Z\to Y$ we say that it is *deformation retractable* if there is $r:Y\to Z$ such that $j\circ r\sim id_Y$ and $r\circ j = id_Z$.
 
 A pair $(X,A)$ is an __NDR-pair__ if there are two continuous maps, $u:X\to I,\; H:X\times I\to X$ such that $H(a,t)=a$ for all $a\in A$ and all $t$, $H(x,0)=x$ for all $x\in X$, $u^{-1}(0)=A$ and $H(x,1)\in A$ for all $x$ such that $u(x)\lt 1$. If $(X,A)$ is an NDR-pair, then the inclusion has a left [[homotopy inverse]] iff $A$ is also a [[retract]] of $X$ (in [[Top]], in the standard categorical sense).
 
