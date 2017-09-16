@@ -104,3 +104,7 @@ which uses "[[NQ-supermanifold]]s". Of course, as this article also points out, 
 #Related entries#
 
 * [[Lie infinity-algebroid representation]]
+
+
+[[!redirects L-infinity-algebroid]]
+[[!redirects L-infinity algebroid]]
