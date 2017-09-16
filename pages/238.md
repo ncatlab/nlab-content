@@ -15,6 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-03-01
 
 [[Toby Bartels]]:
+*  Slightly revised [[Tim Porter]]\'s new introduction to [[homotopy 2-type]] and copied it (with appropriate changes) to [[homotopy 1-type]] and [[homotopy 3-type]].  Also combined it with what was already at [[homotopy n-type]], so that has the most complete discussion of the issues.
 *  Created a bunch of articles on specific notions of $n$-category, especially for $n \leq 3$: [[3-poset]], [[3-groupoid]], [[n-poset]], [[2-poset]], [[locally posetal 2-category]], [[2-groupoid]], [[1-category]], [[1-poset]], [[1-groupoid]], [[(-2)-groupoid]], [[(-1)-poset]].  Similarly, I moved some material from [[(-1)-groupoid]] to [[truth value]] to fit the purposes of the former page (as explained in old discussion that was also moved).
 *  Spun [[simplicial groupoid]] off of [[simplicially enriched category]].  Experts please check that the definitions there (based somewhat on a remark in [[Dwyer-Kan loop groupoid]]) are correct.
 
