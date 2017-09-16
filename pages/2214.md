@@ -24,6 +24,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-09-11
+
+*  [[Toby Bartels]]:  I\'m perfectly serious at [[(n,k)-transformation]].
+
 
 ## 2009-09-10
 
