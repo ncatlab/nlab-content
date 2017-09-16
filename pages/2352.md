@@ -96,6 +96,7 @@ The [[2-pullback]] of ${*} = {1} \to \{0,1\}$ along $\chi_f$ is
 just the ordinary [[pullback]]
 
 $$
+\array{
   Graph(f) &\to& {*}
   \\
   \downarrow && \downarrow
@@ -103,6 +104,7 @@ $$
   X \times Y
   &\stackrel{\chi_f}{\to}&
   \{0,1\}
+}
 $$
 
 which identifies $Graph(f) \hookrightarrow X \times Y$ with the subset of pairs $(x,y)$
