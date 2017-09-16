@@ -28,6 +28,8 @@ In these parts of the literature Courant algebroids are considered in the form o
 
 So there are several different ways to present the structure encoded in a Courant algebroid. The picture that seems to be emerging is that the _true_ meaning of the notoin of Courant algebroids is given by the notion of [[n-symplectic manifold|2-symplectic manifold]]s.
 
+Moreover, the way [[Lie algebroid]]s may be expressed in terms of [[Lie-Rinehart algebra]]s, Courant algebroids yield [[Courant-Dorfman algebra]]s.
+
 
 ***
 
