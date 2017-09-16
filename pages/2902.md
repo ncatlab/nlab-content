@@ -106,6 +106,10 @@ The right triangle $O R P$ is similar to the right triangle $C A B$.  So $\frac{
 
 But the five vertices that project onto the line $A P R$ form a regular pentagon inscribed in a circle of radius $C A$, and the edge length of that pentagon is $A B$.  So the right triangle $C A B$ constitutes a proof of the pentagon-decagon-hexagon identity.
 
+We can also easily see from this diagram that the right triangle $T S P$ is congruent to the right triangle $C A B$, which proves that the distance between two pentagons of vertices -- those that project onto $A P R$, and those that project onto $(-A) S Q$ -- equals $C A$, the radius of the circles in which those pentagons are inscribed.
+
+This allows us to see that another right triangle that's  naturally constructed on the icosahedron also exhibits the pentagon-decagon-hexagon identity.  If we draw a line between the two pentagons, perpendicular to their planes, from a vertex in one plane to the point "below" it, the length of that perpendicular will be the common radius of the pentagons, $C A$.  But that line will form a right triangle whose hypotenuse is an icosahedral edge (congruent to the edges of the pentagons), and whose third side is one edge of a decagon inscribed in the same circle as the "lower" pentagon.
+
 #References#
 
 * John Baez, [This Week's Finds in Mathematical Physics, Week 283](http://math.ucr.edu/home/baez/week283.html)
