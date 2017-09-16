@@ -76,11 +76,13 @@ Zoran: surely true for differential-geometric context, but in topos theoretic co
 L. Mauri, M. Tierney, Two-descent, two-torsors and local equivalence, J. Pure Appl. Algebra 143 (1999), 313--327
 
 _Toby_:  Thanks, Zoran, I should read those!  Do the paragraphs above seem accurate now?
+
+Zoran: It is to my knowledge. Maybe we can now erase the discussion part.   
 =--
 
 One should notice that if one uses categories internal to [[diffeological space]]s, then these are (under their [[nerve]]) in particular [[simplicial presheaf|simplicial presheaves]], and that the [[anafunctor]]s used as morphisms between these simplicial presheaves represent precisely the morphisms the corresponding [[(infinity,1)-category of (infinity,1)-sheaves]] using the [[model structure on simplicial presheaves]] or, more lightweight, the structure of a Brown [[category of fibrant objects]] on $\infty$-groupoid valued sheaves.
 
-A description of higher prinicpal bundles (see also [[principal infinity-bundle]]) in terms of the [[model structure on simplicial presheaves]] appears in
+A description of higher principal bundles (see also [[principal infinity-bundle]]) in terms of the [[model structure on simplicial presheaves]] appears in
 
 * Jardine, Luo, _Higher order principal bundles_ ([pdf](http://www.math.uiuc.edu/K-theory/0681/cocycles6.pdf))
 
