@@ -20,3 +20,7 @@ The article
 mostly discusses just [[A-infinity-algebra]]s, but points out a generalizations to $A_\infty$-categories, see the overview on [p. 3](http://arxiv.org/PS_cache/math/pdf/0606/0606241v2.pdf#page=3)
 
 One point made there is that in the linear case, apart from the [[operad]]ic definition there is a geometric definition of $A_\infty$-categories. Essentially the authors say that an $A_\infty$-category should be a non(-graded-)commutative [[NQ-supermanifold]]. Recall that a graded-commutative [[NQ-supermanifold]] is a [[L-infinity-algebroid]]. From this perspective one would want to think of a non-graded commutative [[NQ-supermanifold]] as an _$A_\infty$-algebroid_.
+
+A very explicit treatment of A-inifinity categories is a recent book 
+
+* Yu. Bespalov, V. Lyubashenko, O. Manzyuk, <a href="http://www.math.ksu.edu/~lub/cmcMonad.gz"> (ps.gz file ) </a> Proceedings of the Institute of Mathematics of NAS of Ukraine, vol. 76, Institute of Mathematics of NAS of Ukraine, Kyiv, 2008, 598 p. File (gzipped postcript) has different number of pages than printed version, but the numbering of sections and formulae is final. Errata to published version are <a href="http://www.math.ksu.edu/~lub/cmcMoCor.pdf">here</a>.
