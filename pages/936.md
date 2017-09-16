@@ -38,25 +38,34 @@ $$K: Y\times I \to Y,   K : f \circ g \sim 1_Y.$$
 The [[whiskering]] actions of maps on homotopies (and more generally in any [[(∞,1)-category]] or category with a [[cylinder functor]]) gives
 two homotopies $f\circ g \circ f \sim f$, namely $f_*H = f\circ H : X\times I \to Y$ and $f^*K = K\circ (f\times I)$.  Similarly, of course, there are two homotopies $g\circ f \circ g \sim g$, namely $g_*K$ and $g^*H$.  In the usual definition of homotopy equivalence, there is no coherence required between these. That is handled precisely by the notion of **stong homotopy equivalence**. More precisely Lashof defined
 
-###Definition### 
- 
++-- {: .un_defn}
+###### Definition
 A **strong homotopy equivalence** between spaces $X$ and $Y$ is a quadruple $(f,g,H,K)$,
 as above, such that $f_*H \sim f^*K$ and $g_*K\sim g^*H$.
+=--
 
+Thus this imposes a minimal coherence condition on the data making up the homotopy equivalence.  The definition clearly can be generalised to any reasonable setting with a notion of homotopy.
 
-Thus this imposes a minimal coherence condition on the data making up the homotopy equivalence. The definition clearly can be generalised to any reasonable setting with a notion of homotopy.
+For example, in a [[2-category]] where a homotopy is a [[natural isomorphism]], and a homotopy between homotopies is just an [[equality]], a homotopy equivalence is simply an [[equivalence]], while a strong homotopy equivalence is the same as an [[adjoint equivalence]].
 
 The question naturally arises as to whether all homotopy equivalences are strong. [[Rainer Vogt]](1972) proved
 
-###Vogt's lemma###
-If $f: X\to Y$ be a morphism that is a homotopy equivalence in $Top$, let $g: Y\to X$ be a homotopy inverse and $H:g \circ f \sim 1_X$ a homotopy, then there is a homotopy $K: f \circ g \sim 1_Y$ such that $(f,g,H,K)$ is a strong homotopy equivalence.
++-- {: .un_lemma}
+###### Vogt's Lemma
+If $f: X\to Y$ be a morphism that is a homotopy equivalence in $Top$, let $g: Y\to X$ be a homotopy inverse and $H:g \circ f \sim 1_X$ a homotopy.  Then there is a homotopy $K: f \circ g \sim 1_Y$ such that $(f,g,H,K)$ is a strong homotopy equivalence.
+=--
 
-Various versions of this are known in other settings, e.g. $SSet$-enriched categories. It is to be noted that the coherence is not required to continue to higher levels. There is no condition of compatibilty between the two 'homotopies  between the homotopies'. 
+Various versions of this are known in other settings, e.g. $SSet$-enriched categories.  In a 2-category the corresponding fact is that any equivalence can be improved to an adjoint equivalence, by changing at most one of the 2-cell isomorphisms involved.
+
+Note, though, that the coherence supplied by Vogt's lemma is not required to continue to higher levels. There is no condition of compatibilty between the two 'homotopies between the homotopies'.  In some situations, at least, some higher compatibility is known to be derivable; for instance, any biequivalence in a [[3-category]] can be improved to an adjoint biequivalence.
 
 +--{.query}
 [[Tim]]: I do not know if there is a neat formulation of the full homotopy coherent version of this, nor exactly in what settings the analogous abstract versions of Vogt's lemma go across
+
+[[Mike Shulman]]: I think there's a "full coherentification" version for quasicategories in HTT somewhere.
 =--
 
 
-The result plays a key role in the proof of Vogt's theorem (cf.  [[homotopy coherent diagram]]s).
+Vogt's Lemma plays a key role in the proof of Vogt's theorem (cf. [[homotopy coherent diagram]]s).
+
 [[!redirects homotopy equivalences]]
