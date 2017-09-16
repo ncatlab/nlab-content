@@ -1,5 +1,5 @@
 
-Recall that a [[TQFT]] is an [[FQFT]] defined on the [[(infinity,n)-category of cobordisms]] whose morphisms are plain cobordisms and diffeomorphisms between these.
+Recall that a [[TQFT]] is an [[FQFT]] defined on the $(\infty,n)$-[[(infinity,n)-category of cobordisms|category of cobordisms]] whose morphisms are plain cobordisms and diffeomorphisms between these.
 
 In a _conformal_ quantum field theory the cobordisms are equipped with a conformal structure (a Riemannian structure modulo a pointwise rescaling).
 
@@ -7,9 +7,9 @@ A conformal field theory (CFT) is accordingly a functor on such a richer categor
 
 See the discussion at [[FQFT]] for more details.
 
-The low dimensional case of 2-dimensional CFT is of course the best understood. It is in fact so predominant that in much of the literature CFT is understood to be 2-dimensional.
+The low dimensional case of $2$-dimensional CFT is of course the best understood. It is in fact so predominant that in much of the literature CFT is understood to be $2$-dimensional.
 
-2-dimensional conformal field theories have two major applications:
+$2$-dimensional conformal field theories have two major applications:
 
 * they describe critical phenomena on surfaces in condensed matter physics;
 
@@ -31,7 +31,7 @@ In the [[string theory|string theoretic]] applications the extension of the loca
 
 Useful references are at [[vertex operator algebra]].
 
-The special case of _rational_ conformal field theory has been essentially entirely formalized and classified. The classification result for full rational 2d CFT was given by Fjelstad-Fuchs-Runkel-Schweigert
+The special case of _rational_ conformal field theory has been essentially entirely formalized and classified. The classification result for full rational 2d CFT was given by Fjelstad--Fuchs--Runkel--Schweigert
 
 * [FRS reviews](http://golem.ph.utexas.edu/string/archives/000747.html)
 
