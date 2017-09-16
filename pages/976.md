@@ -20,7 +20,7 @@ As shape theory is a [[Cech methods|Čech homotopy theory]], what is the corresp
 
 The shape category associated to a pair $(C,D)$ of a category $C$ and a [[dense subcategory]] $D$ (of good objects) in the second sense, that is for every object $X$ in $C$ there is its $D$-expansion, that is a universal object $\bar{X}$ in the category $\mathrm{pro}-D$ of [[pro-object]]s in $D$, together with a map $X\to\bar{X}$ in $\mathrm{pro}-D$, which is universal (initial) among all such. The shape category has the same objects as $C$ and its morphisms are equivalence classes of maps between the $D$-expansions.
 
-A more [[categorical shape theory|categorical form of shape theory]] was studied by Deleanu and Hilton in a series of papers in the 1970s. They consider a more general setting of a functor $K : D \to C$ which in the classical Borsuk case would be the inclusion of the homotopy category of compact polyhedra into that of all compact metric spaces. 
+A more [[categorical shape theory|categorical form of shape theory]] was studied by Deleanu and Hilton in a series of papers in the 1970s. They consider a more general setting of a functor $K : D \to C$ which in the classical Borsuk case would be the inclusion of the homotopy category of compact [[polytope|polyhedra]] into that of all compact [[metric space]]s. 
 
 This was developed further by Bourn and Cordier, and a strong shape version was then found by Batanin.
 
