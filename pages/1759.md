@@ -14,6 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-07-28
+
+* [[Urs Schreiber]] 
+
+  * added a few words to [[(infinity,1)-topos]] (in particular pointed out that the equivalence of the two definitions given is a main theorem, and added the links to the entries on models)
 
 ## 2009-07-27
 
