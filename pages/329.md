@@ -9,11 +9,11 @@
 
 * The concept of a strict 2-category is the simplest generalization of a [[category]] to a [[higher category theory|higher category]]. It is the one-step [[vertical categorification|categorification]] of the concept of a category.
 
-The term _2-category_ implicitly refers to a [[geometric shapes for higher structures|globular]] structure. Closely related are [[double category|double categories]], which are based ob [[cube]]s instead. Every strict 2-category gives rise to a strict [[double category]].
+The term _2-category_ implicitly refers to a [[geometric shapes for higher structures|globular]] structure.  By contrast, [[double category|double categories]] are based on [[cubes]] instead.  The two notions are closely related, however: every strict 2-category gives rise to several strict double categories, and every double category has several underlying 2-categories.
 
-Notice that _[[double category]]_ is another term for _[[n-fold category|2-fold category]]_ : strict 2-categories may be identified with those strict 2-fold/double categories whose category of vertical morphisms is trivial.
+Notice that _[[double category]]_ is another term for _[[n-fold category|2-fold category]]_.  Strict 2-categories may be identified with those strict 2-fold/double categories whose category of vertical morphisms is [[discrete category|discrete]], or those whose category of horizontal morphisms is discrete.
 
-(And similarly, strict globular [[n-category|n-categories]] may be identified with those [[n-fold category|n-fold categories]] for which all cube faces "in one direction" are trivial. A similar statement for weak $n$-categories is to be expected, but little seems to be known about this.)
+(And similarly, strict globular [[n-category|n-categories]] may be identified with those [[n-fold category|n-fold categories]] for which all cube faces "in one direction" are discrete. A similar statement for weak $n$-categories is to be expected, but little seems to be known about this.)
 
 ##Definition
 
