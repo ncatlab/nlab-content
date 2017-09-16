@@ -10,3 +10,11 @@ Isomorphism problem for enveloping algebras is about the fact that the universal
 Suppose the universal enveloping algebras of Lie algebras exist in a $k$-linear symmetric monoidal category $C$ and the functorial choice $L\mapsto U(L)$ realizing the above construction with tensor products is fixed. For example, this is true in the category of $k$-modules where $k$ is a commutative ring. Then the projection $L\to 0$ where $0$ is the trivial Lie algebra induces the counit $\epsilon:U(L)\to U(0)=\mathbf{1}$. The coproduct $\Delta:U(L)\to U(L\coprod L)\cong U(L)\otimes U(L)$ is induced by the diagonal map $L\to L\coprod L$ whereas the antipode $S=U(-id):U(L)\to U(L)$. One checks that these morphisms make $U(L)$ into a Hopf algebra in $C$.
 
 The universal enveloping algebra of the tangent Lie algebra of a finite-dimensional Lie group $G$ over real or complex numbers is canonically isomorphic to the algebra of the left invariant differential operators on $G$. 
+
++--{.query}
+
+[[Eric]]: Is this a special case of universal enveloping algebra as it pertains to Lie algebras? I thought the concept of a universal enveloping algebra was more general than this. I scribbled some notes [here](http://www.ncatlab.org/ericforgy/show/differential+envelope). They are far from rigorous, but the references at the bottom of the page are certainly rigorous. I don't remember them being confined to Lie algebras. I'm likely confused.
+
+[Edit: Oh! I see now. From [[enveloping algebra]] you link to this page and call it **enveloping algebra of a Lie algebra**. Would that be a better name for this page? Or maybe **universal enveloping algebra of a Lie algebra**? Something to make it clear this page is specific to Lie algebras?]
+
+=--
