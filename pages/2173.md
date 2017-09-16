@@ -288,13 +288,13 @@ $\text{Figure 3.} \:\: \text{&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;&#x2997;}
 
    where $e_j = x_j$ or $e_j = \nu(x_j)$ for $j = 1$ to $k$.
 
-# See also #
+# Related topics #
 
 * [[cactus language]]
 
 * [[differential logic]]
 
-# External links #
+# Links #
 
 * [Minimal Negation Operator @ MyWikiBiz](http://mywikibiz.com/Minimal_negation_operator)
 
