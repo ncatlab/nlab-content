@@ -54,6 +54,7 @@
 ### Miscellaneous ###
 
 * [[Charles Sanders Peirce]]
+* [[precursors]]
 
 ***
 
