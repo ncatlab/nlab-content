@@ -22,13 +22,9 @@ Any [[lattice]] homomorphism automatically preserves $\neg$ and is therefore a B
 
 
 [[!redirects Boolean lattice]]
-[[!redirects Boolean field]]
 [[!redirects boolean algebra]]
 [[!redirects boolean lattice]]
-[[!redirects boolean field]]
 [[!redirects Boolean algebras]]
 [[!redirects Boolean lattices]]
-[[!redirects Boolean fields]]
 [[!redirects boolean algebras]]
 [[!redirects boolean lattices]]
-[[!redirects boolean fields]]
