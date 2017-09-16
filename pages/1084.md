@@ -61,7 +61,7 @@ $$
 
 For every map of chain complexes $f:A^\bullet\to B^\bullet$, the cylinder $Cyl(f)$ is quasi-isomorphic to $B^\bullet$, and moreover in the homotopy category of chain complexes, every distinguished triangle is quasi-isomorphic to a distinguished triangle of the form 
 
-$$ A\to Cyl{u}\to Cone(u}\to A[1]$$
+$$ A\to Cyl(u)\to Cone(u)\to A[1]$$
 
 for some $u:A\to B$ where all the morphisms in the triangle are appropriatedly induced by $u$. 
 
