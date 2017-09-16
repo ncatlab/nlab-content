@@ -1,6 +1,6 @@
 # Idea #
 
-A configuration of the electromagnetic field on a space $X$ in the _absence_ of magnetic charge is modeled by a cocycle in degree 2 ordinary [[differential cohomology]].
+A configuration of the electromagnetic field on a space $X$ in the _absence_ of [[magnetic charge]] is modeled by a cocycle $\hat F$ in degree 2 ordinary [[differential cohomology]].
 
 This may be realized in particular by
 
@@ -8,7 +8,7 @@ This may be realized in particular by
 
 * a degree 2 [[Deligne cohomology|Deligne cocycle]] on $X$.
 
-In the presence of magnetic charge the electromagnetic field is modeled by a coycle in differential [[twisted cohomology]], where the twist is given by the differential 3-cocycle that models the magnetic current.
+In the presence of [[magnetic charge]] the electromagnetic field is modeled by a coycle in differential [[twisted cohomology]], where the twist is given by the differential 3-cocycle that models the [[magnetic current]].
 
 The analogous field modeled by a degree 3 [[Deligne cohomology|Deligne cocycle]] is the [[Kalb-Ramond field]].
 
@@ -18,7 +18,7 @@ Physical experiment shows that the electromagnetic field on a pseudo-Riemannian 
 
 1. Maxwell's equations
   
-   The electromagnetic field (in the absence of magnetic charges) is given by a 2-form $F \in \Omega^2(X)$ and a 3-form $j_{el} \in \Omega^3(X)$ satisfying **Maxwell's equations**
+   The electromagnetic field (in the absence of [[magnetic charge]]s) is given by a 2-form $F \in \Omega^2(X)$ and an [[electric current]] 3-form $j_{el} \in \Omega^3(X)$ satisfying **Maxwell's equations**
 
    $$
      d F = 0
@@ -107,7 +107,7 @@ $$
   \end{aligned}
 $$
 
-in $\Omega^2(U)$ and the electric charge density and current density combine to a differential 3-form
+in $\Omega^2(U)$ and the [[electric charge]] density and current density combine to a differential 3-form
 
 $$
 \begin{aligned}
