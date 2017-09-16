@@ -61,6 +61,8 @@ _Eric_: It looks like you're making good progress! I'm still trying to understan
 
 _Daniel_: Actualy no! I am trying to understand Kan extensions going backwards from QM! I am just waiting to someone to tell me if the above makes sense. Otherwise, I will remain completely confused as I am indeed now... Worse, people can take seriously what I wrote! 
 
+_Eric_: "I am trying to understand Kan extensions going backwards from QM!" I am REALLY happy to see statements like that. That is really what I hope to get out of this exercise too. If we can get to the point where the mathematical concept of "Kan extension" can actually be understood in terms of QM, that would be pretty cool.
+
 ***
 
 _Eric_: There is something about Kan extension that reminds me of some kind of linear least squares. I started trying to make it explicit by building an example with finite-dimensional vector spaces. I placed the example at [[functor]]. It seems like left and right Kan extensions are like left and right inverses (which in my universe means linear least squares).
