@@ -71,6 +71,9 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 
 * The category of [[pointed set]]s is Barr-exact with finite coproducts and a zero object, but is not semi-abelian: protomodularity and the Split Short Five Lemma fail to hold.
 
+* The opposite of the category of [[pointed object|pointed objects]] in a [[topos]] is semi-abelian. In particular, $Set_*^{op}$ is semi-abelian.
+
+* The category of [[crossed module|crossed modules]] is semi-abelian.
 
 #References#
 
