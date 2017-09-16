@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-07
 
+* [[David Corfield|David]]
+
+  * added to [[co-H-space]]. It's not looking very much like a dual version of [[H-space]].
+
 * [[Urs Schreiber|Urs]]
 
   * created [[Cech cover]] and [[Cech model structure on simplicial presheaves]]
