@@ -326,7 +326,7 @@ First introduce some notation to handle this combinatorial problem.
 
 For $p \in \mathbb{N}$ we write, as usual $[p] = \{0 \lt 1 \lt \cdots \lt p\}$ for the totally ordered set with $p+1$-elements.
 
-When the codomain is understood, we denote an order-preserving injective map $\delta_\mu : [p] \to [p+q]$ by the string $\mu = (\mu_0, \mu_1, \cdots, \mu_p)$ of its values, so that $\delta_\mu : i \mapsto \mu_i$.
+When the codomain $[p+q]$ is understood, we denote an order-preserving injective map $\delta_\mu : [p] \to [p+q]$ by the string $\mu = (\mu_0, \mu_1, \cdots, \mu_p)$ of its values, so that $\delta_\mu : i \mapsto \mu_i$.
 
 We write $(\mu_0, \cdots,\hat \mu_i, \cdots, \mu_p)$ for the string obtained from $(\mu_0, \mu_1, \cdots, \mu_p)$ by _omitting_ the $i$th entry.
 
@@ -359,21 +359,39 @@ $$
 
 for the image of $\delta_\mu$ under $K$.
 
-A pair two order preserving injective maps $\delta_\mu : [p] \to [p+q]$ and $\delta_\nu : [q] \to [p+q]$ that have precisely one point in their images in common, i.e. such that their [[pullback]] is
+A pair two order preserving injective maps $\delta_\mu : [p-1] \to [p+q]$ and $\delta_\nu : [q] \to [p+q]$ that have no point in their images in common, i.e. such that their [[pullback]] 
 
 $$
   \array{
-    [0] &\to& [p]
+    \emptyset &\to& [p-1]
     \\
-    \downarrow && \downarrow^{\delta_\mu}
+    \downarrow &\searrow^{0 \mapsto p}&
+\downarrow^{\delta_\mu}
     \\
     [q] &\stackrel{\delta_\nu}{\to}& [p+q]
   }
 $$
 
-we call in the following an **overlapping partition** of $[p+q]$. We also write $(\mu,\nu)_{[p+q]}$ or $(\mu_0,\cdots,\mu_p,\nu_0, \cdots, \nu_q)_{[p+q]}$ for this overlapping partition.
+is empty we call a **shuffle** of $[p+q]$.
 
-To each overlapping partition of $[p+q]$ we assign a sign $sgn(\mu,\nu) \in \{-1,+1\}$ given by
+A pair two order preserving injective maps $\delta_\mu : [p] \to [p+q]$ and $\delta_\nu : [q] \to [p+q]$ that have precisely the point $p \in [p+q]$ in their images in common, i.e. such that their [[pullback]] is
+
+$$
+  \array{
+    [0] &\to& [p]
+    \\
+    \downarrow &\searrow^{0 \mapsto p}&
+\downarrow^{\delta_\mu}
+    \\
+    [q] &\stackrel{\delta_\nu}{\to}& [p+q]
+  }
+$$
+
+we call in the following an **overlapping shuffle** of $[p+q]$. We also write $(\mu,\nu)_{[p+q]}$ or $(\mu_0,\cdots,\mu_p,\nu_0, \cdots, \nu_q)_{[p+q]}$ for this overlapping partition.
+
+Each shuffle defines a permutation $(\mu_0, \cdots, \mu_{p-1}, \nu_0, \cdots, \nu_q)$ of $[p+q]$ and as such comes with the usual permutation sign $sgn(\mu,\nu) \in \{-1,1\}$.
+
+To each overlapping shuffle of $[p+q]$ we assign a sign $sgn(\mu,\nu) \in \{-1,+1\}$ given by
 
 $$
   sgn(\mu,\nu)_{[p+q]}
@@ -531,11 +549,11 @@ Now we check that this definition has all the right properties.
 
   Observe that the sums in the two expressions are _almost_ over the same configurations: 
 
-  * in the second expression the sum is over all overlapping partitions of the ordered sets obtained from $[p+q+1]$ by removing the $i$th element. 
+  * in the second expression the sum is over all overlapping shuffles of the ordered sets obtained from $[p+q+1]$ by removing the $i$th element. 
 
   * in the first expression the nature of the sum depends on which elements get removed, indicated by $\hat \mu_i$ and $\hat \nu_i$:
 
-    * if the element $\mu_i$ or $\nu_i$ that is removed is _not_ the unique one that coincides with one of the $\nu_\cdot$s or $\mu_\cdot$, respectively, then the remaining sum is also a sum over overlapping partitions of sets obtained from $[p+q+1]$ by removing one element, namely the element $\mu_i$ or the element $\nu_i$, respectively. So this piece of the sum is as the one in the secodn expression.
+    * if the element $\mu_i$ or $\nu_i$ that is removed is _not_ the overlapping one $p$, respectively, then the remaining sum is also a sum over overlapping shuffles of sets obtained from $[p+q+1]$ by removing one element, namely the element $\mu_i$ or the element $\nu_i$, respectively. So this piece of the sum is as the one in the secodn expression.
 
     * if the element $\mu_i$ or $\nu_i$ that is removed however happens to be the one that is part of the overlap of the overlapping partition, then the remaining sum is over all _ordinary shuffles_. This holds both for the first as well as for the second big sum in the first expression. 
 
@@ -546,6 +564,7 @@ Now we check that this definition has all the right properties.
   Similarly, the ordinary shuffle $(\mu_0,\cdots, \mu_p,\nu_0, \cdots, \hat \nu_j, \cdots, \nu_{q+1})$ has signature that differs from $sgn(\mu,\nu)_{[p+q+1]}$ by the factor $(-1)^{\nu_j - (j+p) + j}$.
 
 
+...
 =--
 
 +-- {: .standout}
