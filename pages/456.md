@@ -1,3 +1,7 @@
+#Conmtents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 For $X$ and $Y$ [[topological spaces]], a continuous map $X \to Y$ induces (in particular) two [[functors]]
