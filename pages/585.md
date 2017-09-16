@@ -82,6 +82,8 @@ But we don't actually need the $A_{\infty}$-jargon: all we will need are two bas
   One of the first examples of an operad that people are taught is the one where the n-th component consists of _all_ n-ary operations $X^n \to X$. (Here $X^n$ denotes an n-fold tensor power in a monoidal category.) Because it's the simplest or most obvious example of an operad, and because it's canonically there no matter what $X$ is, it's often in the literature called a "tautological operad". What is less often noted is that by the same logic, $hom(X, X^n)$ is an equally tautological operad, except that it consists of all "co-operations" instead of operations. Then, I am applying this observation to the example of the monoidal category of topological cospans from a point to itself, where $X$ is the interval. 
 
   _Toby_:  Considering that the original was 'tautological topological', which is more informative, I\'ve changed it back.  But perhaps this explanation has a place in the main text?
+
+  _Todd_: Sounds like a good idea. If you can figure out a smooth way to do that, I'd be grateful. 
   =--
 
 * Each component $T_n$ is contractible. 
