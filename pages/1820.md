@@ -30,21 +30,21 @@ Let $C$ be a [[locally presentable category]], $W$ an accessibly embedded [[acce
 
 * $W$ satisfies [[category with weak equivalences|2-out-of-3]];
 
-* the set ${}_{\perp}I$ of morphism with [[weak factorization system|right lifting property]] with respect to $I$ is contained in $W$
+* the set $rlp(I)$ of morphism with [[weak factorization system|right lifting property]] with respect to $I$ is contained in $W$
 
   $$
-    {}_{\perp}I \subset W
+    rlp(I) \subset W
   $$
 
-* the set $({}_{\perp}I)_\perp$ of all morphism with [[weak factorization system|left lifting property]] with respect to ${}_{\perp}I$ is closed under pushout and transfinite composition (see [[cofibrantly generated model category]]).
+* the set $llp(rlp(I))$ of all morphism with [[weak factorization system|left lifting property]] with respect to $rlp(I)$ is closed under pushout and transfinite composition (see [[cofibrantly generated model category]]).
 
 Then $C$ is a combinatorial model category with
 
 * weak equivalences $W$;
 
-* cofibrations $({}_{\perp}I)_\perp$
+* cofibrations $cof(I) = llp(rlp(I))$
 
-* fibrations ${}_\perp(W \cap ({}_{\perp}I)_\perp)$
+* fibrations $fib = rlp(W \cap cof(I))$
 
 =--
 
