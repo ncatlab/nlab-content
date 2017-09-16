@@ -48,9 +48,16 @@ where a bond $B$ binds sub-bonds $b_1, b2$ and $b_3$ which in turn bind sub-bond
 
 For instance $B$ might be an [[extended cobordism]] with three boundary components $b_1, b_2, b_3$ which in turn have pieces of boundary components $\beta_i$.
 
-Nils Baas has made, in print and in private communication, suggestions for a formalization of such systems of hierarchical bonds and coined the term __hyperstructures__ for these. One reference is
+Nils Baas has made, in print and in private communication, suggestions for a formalization of such systems of hierarchical bonds and coined the term __hyperstructures__ for these. Some references are
 
 * Nils Baas, _Introducing abstract matter_ ([pdf](http://pagesperso-orange.fr/vbm-ehr/ChEh/articles/Baas%20paper.pdf))
+
+
+* N.A.Baas; _Hyperstructures as Abstract Matter_ ,Advances in Comlex Systems, vol.9 , no 3(2006),157-182.
+
+* N.A.Baas, _Hyperstructures, Topology and Datasets_ , Axiomathes 19(2009), 215-221.
+
+* N.A.Baas, _New Structures in Complex Systems_ (to appear in The European Physical Journal).
 
 #Remarks#
 
