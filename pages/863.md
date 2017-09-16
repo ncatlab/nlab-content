@@ -1,10 +1,16 @@
-# Idea #
+# Linear orders
+* tic
+{: toc}
+
+
+## Idea
 
 A _linear order_ (also is called _pseudo-order_, according to Wikipedia) is the irreflexive version of a [[total order]].  A __linearly ordered set__, or __loset__, is a [[set]] equipped with a linear order.
 
-In classical mathematics, the distinction between linear orders and total orders is merely a terminological technicality, which is not always observed; more precisely, there is a [[natural isomorphism|natural bijection]] between the set of total orders on a given set $S$ and the set of linear orders on $S$, and one distinguishes them by the notation $\lt$ (for the linear order) and $\leq$ (for the total order).  In [[constructive mathematics]], however, they are irreducibly different.
+In [[classical mathematics]], the distinction between linear orders and total orders is merely a terminological technicality, which is not always observed; more precisely, there is a [[natural isomorphism|natural bijection]] between the set of total orders on a given set $S$ and the set of linear orders on $S$, and one distinguishes them by the notation $\lt$ (for the linear order) and $\leq$ (for the total order).  In [[constructive mathematics]], however, they are irreducibly different.
 
-# Definition #
+
+## Definitions
 
 A **linear order** on a set $S$ is a (binary) [[relation]] $\lt$ with the following properties:
 * [[irreflexive relation|irreflexivity]]: $x \nless x$;
@@ -29,7 +35,8 @@ Thus the most common definition uses only trichotomy and transitivity.
 
 One can also interpret connectedness not as an axiom but as a definition of [[equality]], getting a linear order on a [[quotient set]] of $S$.
 
-# Examples #
+
+## Examples
 
 Classically, any [[total order]] defines an example of a linear order, as explained below, and this also holds constructively in discrete mathematics.  So here I will focus on constructive analysis.
 
@@ -39,7 +46,8 @@ The Mac Neille real numbers have both $\lt$ and $\leq$; however, in this case, n
 
 Baire space and Cantor space, being representable as subspaces of the real line, of course are linearly ordered.  It\'s also interesting to see them as coming from the (discrete) linear orders on $\mathbf{N}$ and $\mathbf{2}$, which they are $\mathbf{N}$-fold products of.
 
-# Relation to total orders #
+
+## Relation to total orders
 
 Using excluded middle, one can move between linear orders and [[total order]]s using [[negation]]; that is, the negation of a linear order is a total order and vice versa.  Actually one usually swaps the order too, as follows:
 * $x \lt y$ iff $y \nleq x$;
