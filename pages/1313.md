@@ -34,6 +34,8 @@ Dually, a __coexponential object__ in $C$ is an exponential object in the [[oppo
 _Toby_:  Yes, you\'re right, of course.
 
 _David_: How should entries involving the cocartesian property be organised? How many of the eight possibilities (co)cartesian (co)monoidal (co)closed are worth mentioning? Sixteen with (co)category?
+
+_Toby_:  Potentially all of them, but in practice only the ones that come up.  This one only came up since I wanted to say what a coexponential object was and (in context) it was natural to ask what is a category that has all of these.  But that doesn\'t mean that anybody actually has to create the page, much less the others.  On the other hand, if there\'s something interesting to say about them, then we should have them!
 =--
 
 
