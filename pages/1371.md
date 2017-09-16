@@ -1,5 +1,5 @@
 
-simplicial nereve etc.
+[[simplicial nerve]] etc.
 
 #References#
 
