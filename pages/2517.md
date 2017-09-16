@@ -43,12 +43,11 @@ $$
 
 is an [[isomorphism]].
 
-## KL-axiom for spectr of internal Weil algebras ##
+## KL-axiom for spectra of internal Weil algebras ##
 
-We  can consider [[internalization|internal]] to $T$ the $R$-algebra object
-$R \oplus \epsilon R := (R \times R, \cdot, +)$ whose underlying object is
-$R \times R$ whose addition operation is the componentwise addition and
-whose multiplication operation is given by $(x, q ) \cdots (x', q') = x x' + x q ' + q x'$.
+We  can consider the [[internalization|internal]] $R$-algebra object
+$R \oplus \epsilon R := (R \times R, \cdot, +)$ in $T$, whose underlying object is
+$R \times R$, with addition $(x,q)+(x',q'):=(x+x',q+q')$ and multiplication $(x, q ) \cdot (x', q') = (x x',x q ' + q x')$.
 
 For $A$ an algebra object in $T$, write $Spec_R(A) := Hom_{R Alg(T)}(A,R) \subset R^A$
 for the object of $R$-algebra homomorphisms from $A$ to $R$.
@@ -72,7 +71,14 @@ $$
 
 is an [[isomorphism]].
 
-Notice that $(R \oplus \epsilon R)$ here is a Weil algebra: an $R$-algebra
+Notice that $(R \oplus \epsilon R)$ is a Weil algebra:
+
++--{.query}
+Zoran: Who calls this Weil algebra ? Why ? Besides, $R$ is just a ring, not a field, hence word finite-dimensional is not appropriate (finite rank is OK). 
+=--
+
+
+ an $R$-algebra
 that is finite dimensional and whose underlying [[ring]] is a local ring, i.e.
 of the form $W = R \oplus m$, where $m$ is a maximal ideal inite dimensional over $R$.
 
