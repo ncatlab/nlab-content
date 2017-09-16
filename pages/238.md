@@ -16,9 +16,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
-  * created [[symmetric monoidal (infinity,1)-category]]
+  * created [[symmetric monoidal (infinity,1)-category]], [[commutative algebra in an (infinity,1)-category]], [[commutative ring spectrum]], [[E-infinity ring]]
 
-  * thanks, [[Toby Bartels|Toby]], for your editorial help! Yes, right, "higher algebra" should be lower case, true.
+  * expanded the intro at [[higher algebra]] a bit
+
+  * thanks, [[Toby Bartels|Toby]], for your editorial help! Yes, right, "[[higher algebra]]" should be lower case, true.
 
 # 2009-05-02 #
 
