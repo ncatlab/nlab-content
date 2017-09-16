@@ -9,16 +9,16 @@ Relations between the concepts of $n$-fold category and of  [[geometric shapes f
 #References#
 
 * R. Brown and C.B. Spencer, Double groupoids and crossed
-modules, Cah.  Top. G\'{e}om. Diff. 17 (1976) 343-362.
+modules, Cah.  Top. G\'{e}om. Diff. 17 (1976) 343--362.
 
-*  R. Brown and P.J. Higgins, The equivalence of $\infty$-groupoids and crossed  complexes,  Cah. Top. G\'eom. Diff.  22 (1981) 371-386.
+*  R. Brown and P.J. Higgins, The equivalence of $\infty$-groupoids and crossed  complexes,  Cah. Top. G\'eom. Diff.  22 (1981) 371--386.
 
 * Jeffrey C. Morton, [Double Bicategories and Double Cospans](http://arxiv.org/abs/math/0611930)
 
 * Tom Fiore, [Double Categories and
 Pseudo Algebras](http://www.math.uchicago.edu/~fiore/1/fiorefolding.pdf) 
 
-* John C. Baez, [An Introduction to n-Categories](http://arxiv. org/abs/q-alg/9705009)
+* John C. Baez, [An Introduction to n-Categories](http://arxiv.org/abs/q-alg/9705009)
 
 * Catsters, Double Categories ([YouTube](http://www.youtube.com/watch?v=kiCZiSA2W3Q&feature=channel_page))
 
