@@ -72,6 +72,37 @@ A continuous map $\phi : X \to Y$ between simply connected space is a
 1. it induces a weak [[homotopy equivalence]] on rationalizations $X_0, Y_0$ in that
    $\phi_0 : X_0 \to Y_0$ is a [[weak homotopy equivalence]].
 
+## Properties
+
+One of the central theorems of [[rational homotopy theory]] says:
+
++-- {: .un_theorem }
+###### Theorem
+
+Rational homotopy types of simply connected spaces $X$ are in bijective corespondence with minimal [[Sullivan model]]s $(\wedge^\bullet V,d)$
+
+$$
+  (\wedge^\bullet V , d) \stackrel{\simeq}{\to}
+  \Omega^\bullet_{Sullivan}(X)
+  \,.
+$$
+
+And homotopy classes of morphisms on both sides are in bijection.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears for instance as corollary 1.26 in 
+
+* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+
+
+=--
+
+
+
 ## Examples 
 
 ### Rational $n$-sphere 
