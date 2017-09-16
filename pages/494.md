@@ -196,4 +196,6 @@ Let $L \dashv R$ be a pair of adjoint functors. We have the following
 
 * The Catsters [list](http://www.youtube.com/view_play_list?p=54B49729E5102248)
 
+
 [[!redirects adjoint functors]]
+[[!redirects adjoint pair of functors]]
