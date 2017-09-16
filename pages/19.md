@@ -57,6 +57,7 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 **Category theory** is so useful because it can be seen from so many perspectives.
 
 * The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) "algebra" on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid|monoids]], have only one object. This theory also include [[functors]] between categories and [[natural transformation|natural transformations]].
+
 * The theory of categories as 1D primitive mathematical [[universe]]s or [[space]]s (nothing as fancy as a [[topos]]). As a space, a category is a [[simplicial set]] such that the [[Segal map]]s are isomorphisms. The simplicial set is the [[nerve]] of the category.
   +-- {: .query}
   Rafael: Preferrably as some 1D CW-complex that i am trying to figure out. Can someone fill that in.
@@ -168,6 +169,21 @@ Don't ask me for more details about it. Unfortunately this don't define a primit
   In particular, there is a small amount of mathematics ---not much, but something--- that can be done in an abitrary category, and any category can serve as a universe for that.  Personally, I need at least a finitely complete category to feel comfortable (although I\'m starting to learn how to do things in a site, in the sense of a category equipped with a Grothendieck pretopology), and I would certainly regard one of those as a good enough universe for a lot of mathematics ---including basic category theory.
 
   [[David Roberts]]: I agree with Toby - as would I think Igor. Many things one would want to do with descent etc can be done in an [[exact category]] (Barr- not Quillen-) with little effort. But this is secretly just a site using the regular epimorphisms as covers. So one might as well use a site (preferably with a subcanonical (pre)topology). In a lot of cases, when push comes to shove, only covers need to be pulled back, and this is ensured by the axioms for a site. Thus one can do away with the requirement that we have pullbacks. Personally I like having binary products around the place, but I suppose if one is masochistic they aren't necessary ;)
+
+  [[Urs Schreiber]]: okay, I get it. So then I suggest that we say what you all just said more explicitly. Here is a suggestion for an alternative to the above sentences as far as "mathematical universes" are concerned:
+
+  **suggestion**
+
+  Much of ordinary mathematics can be thought of as taking place [[internalization|inside]] the the archetypical category [[Set]] of sets. In as far as any other category may be thought of as a generalization of [[Set]], a category is a _mathematical universe_ inside which mathematics may take place.
+
+  Of course, without further assumptions on the category, there is very little math that can be formulated inside it. For instance in the [[terminal category]] everything is trivial. But few extra properties and structures are usually necessary to provide already interesting structure.
+
+  For instance if the category is equipped with the structure of a [[site]] already many geometrical notions exist inside it. If it is [[finitely complete category]] one can already do a lot of mathematics inside it. If the category is a [[topos]], one can do finitist impredicative constructive ordinary mathematics inside it.
+
+  **end of suggestion**
+
+  What do you think? I may be ignorant, but possibly some readers interested in this page here are more ignorant than I am, so maybe if I find comments of the above kind helpful, others will, too.
+
   =--
 
 * A theory of models for homotopy types. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
