@@ -26,6 +26,10 @@ where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, 
 
 * A  [[closed monoidal category|closed monoidal structure]] on [[strict omega-category|strict omega-categories]] is introduced by Al-Agl, Brown and Steiner. This uses an equivalence between the categories of strict (globular) omega categories and of strict  cubical omega categories with connections; the construction of the closed  monoidal  structure on the latter category is direct and generalises that for strict cubical omega groupoids with connections established by Brown and Higgins. 
 
+#Related entries#
+
+* see also [[generalized Gray tensor product]]
+
 # References #
 
 * John W. Gray, _Formal category theory: adjointness for 2-categories_
