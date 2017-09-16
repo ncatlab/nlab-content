@@ -80,3 +80,7 @@ Based on this a good quick reference is the first two pages of
 * Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
 
 See also the appendix of [[Higher Topos Theory|HTT]].
+
+For more conceptual background see
+
+* Richard Garner, _Understanding the small object argument_ ([pdf](http://www.dpmms.cam.ac.uk/~rhgg2/CT07/CT07.pdf))
