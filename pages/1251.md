@@ -3,9 +3,15 @@
 * automatic table of contents goes here
 {:toc}
 
-## Idea ##
+## Definition ##
 
-A _directed colimit_ is a [[colimit]] of a functor whose [[source]] is an (upward)-[[direction|directed set]].  The [[duality|dual]] notion is that of _[[directed limit]]_, a [[limit]] of a functor whose source is a downward-directed set.
+A **directed colimit** is a [[colimit]] $\lim_\to F$ of a functor $F : J \to C$ whose [[source]] [[category]] $J$ is an (upward)-[[direction|directed set]].  
+
+More generally, for $\kappa$ a [[cardinal number|regular cardinal]] say that a **$\kappa$-directed set** $J$ is a [[poset]] in which every subset of cardinality $\lt \kappa$ has an upper bound. Then a colimit over a functor $J \to C$ is called **$\kappa$-directed colimit**. This is also called a **$\kappa$-[[filtered category|filtered]] colimit**. 
+
+The [[duality|dual]] notion is that of _[[directed limit]]_, a [[limit]] of a functor whose source is a downward-directed set.
+
+### Terminology ###
 
 Note that the terminology varies.  Especially in algebra, a directed colimit may be called an '[[inductive limit]]' or '[[direct limit]]'; it\'s also possible to distinguish these so that a direct limit may have an arbitrary (possibly undirected) [[partial order|poset]] as its source.  On the other hand, both terms are often used for arbitrary [[colimit]]s as an alternative terminology.  (The corresponding dual terms are '[[projective limit]]' and '[[inverse limit]]' for [[limit]]s.)
 
@@ -30,11 +36,17 @@ Notice that an inductive system in $C$ consists precisely of a directed set $I$ 
 
 As with other colimits, an inductive limit, if any exists at all, is unique up to a given isomorphism, so we speak of [[generalized the|the]] inductive limit of a given inductive system.
 
-## In algebra ##
+## Applications ##
+
+### In algebra ###
 
 An inductive limit in algebra is usually defined as a [[quotient object|quotient]] of a [[disjoint union]].  To be precise, ${\textstyle \lim \atop \textstyle \longrightarrow}_i A_i$ is the disjoint union $\biguplus_{i: I} A_i$ with $x: A_i$ identified with $y: A_j$ if
 $$ f_{ik}(x_i) = f_{ik}(x_j) $$
 for some $k$.  Here it is important that $C$ is a [[concrete category]] and that $I$ is a directed set (rather than merely a [[partial order|poset]]); this construction doesn\'t generalise very well.
+
+### In accessible category theory ###
+
+The objects of an [[accessible category]] and of a [[presentable category]] are $\kappa$-directed limits over a given set of generators. 
 
 ## Examples ##
 
