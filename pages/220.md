@@ -27,6 +27,8 @@ The easy thing to do is to Edit this page, copy the text to your favorite editor
 
 * [[Jon Awbrey]]: I think I took care of all the remaining formatting issues, but a 2nd or 3rd pair of eyes would be good.
 
+* Jon Phillips: I'm a 2nd pair of eyes - corrected a couple of minor things (hopefully my changes will come out as I expect)
+
 =--
 
 ## ETCS : Internalizing the logic ##
@@ -221,7 +223,7 @@ which is natural in $X$.  By the same token, there is a natural bijection
 
 $$\displaystyle \frac{R \subseteq (X \times A) \times B}{\phi' : X \times A \to P(B)}.$$
 
-Putting these together, we have a natural isomorphism $$\hom(-, P(A \times B)) \cong \hom(- \times A, P(B))$$
+Putting these together, we have a natural isomorphism $\hom(-, P(A \times B)) \cong \hom(- \times A, P(B))$
 
 and this representability means precisely that $P(A \times B)$ plays the role of an exponential $P(B)^A$.  $\Box$
  
@@ -253,7 +255,7 @@ Now: a right adjoint such as $ (-)^A$ preserves all limits, and in particular pu
 $$
 \begin{matrix}
   B^{\mathrlap{A}} & \longrightarrow & 1^{\mathrlap{A}} \\
-  \mathllap{\scriptsize{\sigma^A}}\downarrow & & \downarrow\mathrlap{\scriptsize{t^\alpha}} \\
+  \mathllap{\scriptsize{\sigma^A}}\downarrow & & \downarrow\mathrlap{\scriptsize{t^\A}} \\
   P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrlap{A}}
  \end{matrix}
 $$
