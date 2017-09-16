@@ -99,4 +99,8 @@ Blog discussion on Johan Alm's work is here:
 
 * [Alm on quantization as a Kan extension](http://golem.ph.utexas.edu/category/2009/05/alm_on_quantization_as_a_kan_e.html)
 
+For those non-experts who are interested in working through Alm's paper step-by-step, see:
+
+[[An Exercise in Kantization]]
+
 category: reference
