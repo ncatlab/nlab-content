@@ -77,13 +77,55 @@ $$
 
 In the light of the interpretation in terms of [[space and quantity]] mentioned above this says that for $X$ a generalized space modeled on $C$, and for $c$ a test space, morphisms from $c$ to $X$ with $c$ regarded as a generalized space are just the morphisms from $c$ into $X$.
 
-#Corollary: Yoneda embedding#
+#Corollaries#
 
-As an immediate corollary the Yoneda lemma implies that the [[Yoneda embedding]] functor $Y : C \to [C^op,Set]$ really is an _embedding_ in that it is a [[full and faithful functor]], because for $c,d \in C$ it naturally induces the isomorphism of Hom-sets.
+The Yoneda lemma has the following direct consequences. As the Yoneda lemma itself, these are as easily established as they are useful and important.
+
+## corollary I: Yoneda embedding#
+
+The Yoneda lemma implies that the [[Yoneda embedding]] functor $Y : C \to [C^op,Set]$ really is an _embedding_ in that it is a [[full and faithful functor]], because for $c,d \in C$ it naturally induces the isomorphism of Hom-sets.
 
 $$
   [C^{op},Set](C(-,c),C(-,d)) \simeq (C(-,d))(c) = C(c,d)
 $$
+
+
+## corollary II: uniqueness of representing objects ##
+
+Since the [[Yoneda embedding]] is a [[full and faithful functor]], an [[isomorphism]] of [[representable functor|representable presheaves]] $Y(c) \simeq Y(d)$ must come from an [[isomorphism]] of the representing objects $c \simeq d$:
+
+$$
+  Y(c) \simeq Y(d) \;\; \Leftrightarrow \;\;
+  c \simeq d
+$$
+
+## corollary III: universality of representing objects ##
+
+A [[presheaf]] $X : C^{op} \to Set$ is [[representable functor|representable]] precisely if the [[comma category]] $(Y,const_X)$ has a [[terminal object]]. If a [[terminal object]] is $(c, f : Y(c) \to X) \simeq (c, f \in X(c))$ then $X \simeq Y(c)$.
+
+This follows from unwrapping the definition of morphisms in the [[comma category]] $(Y,const_X)$ and applying the Yoneda lemma to find
+
+$$
+  (Y,const_X)((c,f \in X(c)), (d, g \in X(d)))
+  \simeq
+  \{
+    u \in C(c,d) : X(u)(f) = g
+  \}
+  \,.
+$$
+
+Hence $(Y,const_X)((c,f \in X(c)) \simeq pt$ says precisely that $X(-)(f) : C(c,d) \to X(d)$ is a bijection.
+
+## Interpretation ##
+
+For emphasis, here is the interpretation of these three corollaries in words:
+
+* **corollary I** says that the interpretation of presheaves in $C$ as generalized objects probeable by objects of $c$ is consistent: the probes of $X$ by $c$ are indeed the maps of generalized objects from $c$ into $X$;
+
+* **corollary II** says that probes by objects of $C$ are sufficient to distinguish objects of $C$: two objects of $C$ are the same if they have the same probes by other objects of $C$.
+
+* **corollary III** characterizes [[representable functor]]s by a [[universal property]] and is hence the bridge between the notion of [[representable functor]] and [[universal construction]]s.
+
 
 #Generalizations#
 
@@ -99,7 +141,9 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 #Related constructions#
 
-* The [[co-Yoneda lemma]].
+* [[Yoneda reduction]]
+
+* [[co-Yoneda lemma]]
 
 #References#
 
