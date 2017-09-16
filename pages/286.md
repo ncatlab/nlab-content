@@ -75,4 +75,6 @@ _for they multiply the number of mankind._ <br>
 [[David Roberts]]: I would think that the evil referred to on this page is actually lessening the number of entities, because things are made to be equal when they are only isomorphic. There are many categories which have a small skeleton but aren't small, and an evil way of thinking about such categories is to consider only the skeletal version. 
 
 [[Mike Shulman]]: Yes, I don't see how the meaning of "evil" on this page has anything to do with multiplying entities beyond necessity.
+
+[[Jon Awbrey]]: What was the sense of the phrase, "more generally if it distinguishes between isomorphic objects"?
 =--
