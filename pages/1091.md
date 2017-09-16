@@ -21,6 +21,8 @@ is a [[pullback]] square in some [[category]] then the [[morphism]] $U \times_X 
 
 Here we think of the morphism $Y \to X$ as a [[bundle]] over $X$, so base change gives us a bundle over $U$.  So in general, a morphism $f: U \to X$ defines a **base change functor** $f^*$ from the [[over category]] $C/X$ to the over category $C/U$ (where $C$ is the original category).
 
+The concept of base change generalises from this case to other [[fibered category|fibred categories]].
+
 #Remarks#
 
 * The [[duality|dual]] concept is [[cobase change]].
