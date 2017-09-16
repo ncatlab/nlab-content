@@ -23,6 +23,7 @@
 
 ### Inquiry ###
 
+* [[inquiry]]
 * [[inquiry driven system]]
 * [[Peirce's logic of information]]
 
