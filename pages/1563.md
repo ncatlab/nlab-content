@@ -4,7 +4,7 @@ F. William Lawvere is one of the greatest category theorists of all time.  He in
 [web site](http://www.acsu.buffalo.edu/~wlawvere/)
 
 
-category: biography
+category: people
 
 [[!redirects William Lawvere]]
 [[!redirects Lawvere]]
