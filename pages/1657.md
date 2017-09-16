@@ -40,6 +40,7 @@ _Toby_:  I should note that, even given what I wrote above, there is still a *sl
 [[Eric]]: It's starting to come back to me now. Yeah, the _measure_ is really a pseudo $n$-form and we settled on the notation $|dx|$ for that. We should at least give a nod to that idea I think in the above.
 =--
 
+
 ## Definitions
 
 A (positive) **measure** on a [[measurable space]] $(X, \Sigma)$ is a function to the partially ordered rig $\mathbb{R}_+$ of extended nonnegative reals (in which $0 \cdot \infty = 0$),
@@ -57,6 +58,7 @@ $$\mu(\bigcup_{i = 1}^{\infty} S_i) = \sum_{i=1}^{\infty} \mu(S_i); \qquad \mu(\
 
 [[John Baez]]: $\bigcup$ is less like a "product" than a  "sum" --- also known as a [[coproduct]].  The collection of subsets of $X$ is a [[poset]], which is a kind of category, and the union of a bunch of subsets can be seen as their coproduct in this category.  Unfortunately I don't see a great way to understand the sum of real numbers as a coproduct!  So, I can't quite do what I think you're hoping for.
 
+_Toby_:  Finitary unions and finitary sums are both examples of *tensor* products in a [[monoidal category]] (in fact a monoidal [[poset]] in both cases).  Possibly the concept of [[transfinite composition]] can be applied to cover countablary unions and sums as well?  But then I\'m not sure that category theory has much to add to ordinary mathematics\' treatment of that situation.
 =--
 
 whenever the $S_i$ are mutually disjoint. A **measure space** consists of a measurable space and a measure on it. A measure space $(X, \Sigma, \mu)$ for which $\mu(X) = 1$ is often called a **probability space** (at least in probabilistic contexts!). 
@@ -89,7 +91,8 @@ $$\mu(\{x: f(x) \neq 0\}) = 0$$
 
 The functions which are 0 almost everywhere form a closed linear subspace $Null$ of the pseudonormed space of integrable functions. We say $f = g$ almost everywhere (a.e.) if $f - g \in Null$. The pseudonorm descends to a norm on the quotient space of a.e. equivalence classes of integrable functions, and the resulting normed space is denoted $L^1(X, \Sigma, \mu)$ (sometimes shortened to $L^1(X, \mu)$ or just $L^1(X)$ if the measure is clear). 
 
-#Discussion#
+
+##Discussion##
 
 [[Eric]]: Some day this should hopefully tie into the beautiful stuff on [[Leinster measure]] ([blog](http://golem.ph.utexas.edu/category/2007/03/canonical_measures_on_configur_1.html)).
 
