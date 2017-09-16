@@ -30,6 +30,10 @@ Define
 
 [[Urs Schreiber|Urs]]: I have now tried to implement Toby's comment, as far as it applies to the above. I am not sure though precisely what [[Tim Porter|Tim]]'s comment about pointed simplicial sets is aiming at: if we have a pointed simplicial set we can just talk about $\pi_n(X)$, true, but here we are being more general and talk about $\pi_n(X,x)$ for all $x  \in X$. No? 
 
+*  [[Tim Porter|Tim]]: My point is that the intro refers to the _homotopy groups_ of a Kan complex.  The body of the entry makes it clear that there is one such for each vertex of the Kan complex, which is what Toby is considering. *Homotopy group of $X$* is thus a misnomer. (I am being pedantic in other words!) Saying the n-th homotopy group of $X$ at $x$ does not get around the difficulty, since then one is specifying a pointed complex not just the complex itself.
+
+   I think that Toby's viewpoint is excellent. Perhaps the homotopy group(oids)s are really 'relative' concepts, i.e.  defined for $X$ and a cofibration, $A\to X$, and the usual ones just have $A$ a point. (If I remember rightly this viewpoint was the one adopted by Baues at least to some extent.) The usual groupoidal case is with the terminal cofibration.  I think that this idea is linked to the fact that SSet is monadic over SplitAugSSet, but that can be a very stark but useful viewpoint to adopt. (It would not be favoured by most algebraic topologists however!) 
+ 
 =--
 
 * for every $n \geq 1$ and $x \in X_0$ the **$n$th simplicial homotopy group** of $X$ at $x$ to be the set 
