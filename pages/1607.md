@@ -15,10 +15,9 @@ The structure of a tetracategories was given by [[Todd Trimble]].
 
   * [[K6associativity.pdf:file]]
 
-
   * [[U52unitcondition.pdf:file]]
 
-  * [[U53unitcondition.pdf:file]] (this comes up as U52, but I don't know how to change it. -DMR)
+  * [[U53unitconditionA.pdf:file]]
 
   * [[U54unitcondition.pdf:file]]
 
