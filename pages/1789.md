@@ -73,7 +73,7 @@ So $C(U) \to \pi_0(C(U))$ induces for each object $V \in C$ an isomorphism of [[
 
 See also for instance lemma 3.3.5 in
 
-* Daniel Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html))
+* Daniel Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
 
 =--
