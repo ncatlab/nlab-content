@@ -47,7 +47,7 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 * [[Eric]]
 
   * Added a small status update to efforts at [[An Exercise in Kantization]]
-
+  * Asked what was probably a very silly question on [[presheaf]] in an attempt to complete an Exercise on [[free cocompletion]], i.e. "Find a formula expressing every object in $\widehat{A}$ as a colimit of guys in the image of $Y$."
 
 ## 2009-07-19
 
