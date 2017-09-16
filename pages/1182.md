@@ -45,9 +45,9 @@ Here is the list of reports, as planned so far:
 
 * Monday, May 11: [[Bruce Bartlett|Bruce]] on section 3, [Perfect Stacks](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=16) [[tick6.png:pic]]
 
-* Monday, May 18: [[Christopher Brav|Christopher]] on section 4, [Tensor products and integral transforms](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=24)
+* Monday, May 18: [[Chris Brav|Christopher]] on section 4, [Tensor products and integral transforms](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=24)
 
-* Monday, May 25: somebody on section 5, [Applications](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=32)
+* Monday, May 25: [[Chris Brav|Christopher]] on section 5, [Applications](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=32)
 
 * Monday, June 1: [[Alex Hoffnung|Alex]] on section 6, [Epilogue: TFT](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=39)
 
