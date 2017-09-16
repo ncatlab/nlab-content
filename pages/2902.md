@@ -71,9 +71,17 @@ square where the two red rectangles overlap, and that has area $4b^2$.
 Now if we subtract a single $t^2$, the light blue rectangle, then we're left with a square of side length $r$,
 thanks to the fact that $\Phi=1+1/\Phi$.  So $(2s)^2-t^2=r^2$, which is the pentagon-decagon-hexagon identity.
 
+While the construction above is straightforward, it's also possible to present an equivalent result that explicitly gives us right triangles with the pentagon edge as their hypotenuse and the hexagon and decagon edges as their other sides.
+
+[[!include pentagon decagon hexagon identity/pythagorean identity]]
+
+The diagram above is similar to one used in a common proof of Pythagoras's Theorem, but here we use it to establish the value of the square of the hypotenuse of a right triangle with sides $r$ and $t$, i.e. the hexagon edge and the decagon edge.
+
+The tilted square in the centre has a hypotenuse as its side.  Its area is $4b^2$, from the central pink square, plus $4t^2$, from the four multi-coloured $t\times t$ squares arranged around the central square, minus four times the area of the dark green triangle that needs to be excluded (the contributions from the yellow triangles inside and outside the region cancel out).  But the dark green triangle has both base and height of $2b$, so the total area is $4t^2-4b^2=(2s)^2$, the square of a pentagon edge.
+
 ##An identity in the golden ratio##
 
-The middle section of the preceding proof is, essentially, a geometric proof of the identity:
+The first way of presenting the preceding proof implies the identity:
 
 $$\Phi^2+\frac{1}{\Phi^2}=3$$
 
