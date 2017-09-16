@@ -13,7 +13,7 @@ In fact the closed unit interval gives an [[A-infinity category|A-infinity]]-[[c
 
 The space of maps out of an $A_\infty$-cocategory into something should form an [[A-infinity category]]. So, the space of maps out of an interval into a space forms an $A_\infty$-category. And this is an important first step in how [[Todd Trimble]] constructs the [[fundamental infinity-groupoid|fundamental n-groupoid ]] of a space!
 
-But the really cool part is how this construction goes hand in hand with his definition of n-categories, in an inductive kind of way.
+But the really cool part is how this construction goes hand in hand with his definition of $n$-categories, in an inductive kind of way.
 
 
 ## History ##
@@ -279,7 +279,7 @@ Trimble's definition above amounts to an inductive definition of weak $n$-Cat (c
 
 * 0-Cat = Set; 
 
-* $V_{n+1} = (V_n, P_n)-Cat$ 
+* $V_{n+1} = (V_n, P_n)$-Cat 
 
 for some series of operads $P_n$ valued in $V_n$. The operads $P_n$ in his definition came from one master operad $T$, by applying a product-preserving functor 
 
