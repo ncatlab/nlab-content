@@ -1,0 +1,1 @@
+Stability of [[colimit]]s under [[pullback]] is discussed at [[commutativity of limits and colimits]].
