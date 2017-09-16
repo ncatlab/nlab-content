@@ -79,7 +79,17 @@ Ross also mentioned that the lax terminology began with the paper "Two construct
 
 [[Mike Shulman]]: I don't really understand the point of view that "the more important" direction should be called lax and "the less important" direction oplax.  Are limits called "limits" rather than "colimits" because they're "more important"?  I wouldn't say so---it's just that we need to have some convention about which one gets the prefix.  As Ross said, both directions arise and are important, but that doesn't mean we should be inconsistent in naming them.  (Maybe inconsistency isn't what he means by "being flexible," but then I don't know what he means.)  Wouldn't it be confusing if the word "limit" meant either (what we now call) "limit" or "colimit" depending on which one a particular author cared more about at the moment?  And there are so many other *really* poor choices of terminology in mathematics, that I'm surprised people choose to fight a battle about the positioning of an "op."
 
-Speaking for myself, "left lax" and "right lax" would confuse me more.  How do I remember which is which?  Neither one looks particularly "left" or "right" to me.
+Speaking for myself, "left lax" and "right lax" would confuse me more.  How do I remember which is which?  Neither one looks particularly "left" or "right" to me. 
+
+_Todd_: Well, it's not that I really care to argue about it that much. As a matter of historical record we _do_ have different conventions appearing in the literature, and you seemed to be plumping for one of those conventions earlier. Now I can't tell: it looks as though you're now saying that the convention is arbitrary, but we should stick with the original (which is Benabou's). 
+
+Linguistically, 'oplax' would be considered as a term derived from 'lax', so I think a natural tendency for people is to apply the primary term to whatever situation they feel is the more dominant. I think that's what Ross must have meant when he said that he's sometimes felt Benabou's direction is the "wrong" one. (I'm not sure if that applies to limit/colimit; in one sense, colimits could be considered secondary because their definition in the enriched context can be seen as based on hom functors hom(-, c) taking them to ordinary limits in the base of enrichment.) 
+
+Perhaps I shouldn't speak for Ross, but I know him a bit, and I think by 'flexible' he means not being too doctrinaire about these things -- his tendency would be to state at the outset of a paper "by lax transformation we mean..." and specify the direction clearly. He's bounced back and forth; apparently he feels the convention is not so strongly established yet that he needs to fix it once and for all, the important thing is to maintain consistency throughout a paper (or talk). But maybe you should ask him next time you see him, if you feel strongly about this. 
+
+So I'm guessing that Ross and Steve are tolerant and non-fussed about this particular issue, and they in particular are not the ones who battle over things like 'co' and 'op'. 
+
+Anyway, this whole discussion started only to sound a warning to the reader that conventions do differ in the literature. Note that I never said we should change the entry, and the arguments put forth for my own preference were not to start an argument. There are good arguments on both sides. 
 =--
 
 The [[category]] $Lax(F,G)$ consists of lax transformations from $F$ to $G$ and [[modification]]s between them.
