@@ -19,9 +19,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-31
 
-*  [[Toby Bartels]]:  Comments to others:
-   *  To [[Jon Awbrey]]: I may have some solutions for you at the [[Sandbox]].
-   *  To [[Rafael Borowiecki]]:  There is good reason to hope that the Lab will remain slow only for less than a month.  Then Recently Revised will be able to return as well.  (The reason that it got turned off is that it made things *really* slow!)  There is a direct link to this page, incidentally; it\'s the link 'Recently Revised' up top!  (That\'s only a temporary redirect, of course, until the real Recently Revised comes back.)  Even when Recently Revised returns, the simple fact will be that, if you want people to know about what you\'ve done, then you\'ll probably need to log them here.  But if you don\'t care whether anybody notices, then you don\'t have to log, as far as I personally am concerned; but don\'t be surprised if it\'s harder to have discussions and collaborate that way.
+*  [[Toby Bartels]]:
+
+   *  At [[relation theory]]:
+      *  Some additions.
+      *  Also some format changes, but revert what you don\'t like; I know that you (Jon)\'re still working out how you want to do things here.
+   *  Comments to others:
+      *  To [[Jon Awbrey]]: I may have some solutions for you at the [[Sandbox]].
+      *  To [[Rafael Borowiecki]]:  There is good reason to hope that the Lab will remain slow only for less than a month.  Then Recently Revised will be able to return as well.  (The reason that it got turned off is that it made things *really* slow!)  There is a direct link to this page, incidentally; it\'s the link 'Recently Revised' up top!  (That\'s only a temporary redirect, of course, until the real Recently Revised comes back.)  Even when Recently Revised returns, the simple fact will be that, if you want people to know about what you\'ve done, then you\'ll probably need to log them here.  But if you don\'t care whether anybody notices, then you don\'t have to log, as far as I personally am concerned; but don\'t be surprised if it\'s harder to have discussions and collaborate that way.
 
 * [[Jon Awbrey]] added content to [[relation theory]].  Incidentally, does anyone know how to get an @ symbol in a math context?
 
