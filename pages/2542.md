@@ -11,9 +11,9 @@
 
 +-- {: .un_defn}
 ###### Definition
-A **lined topos** is
+A **lined topos** $(\mathcal{T}, R)$ is
 
-* a [[topos]] $T$ 
+* a [[topos]] $\mathcal{T}$ 
 
 * equipped with a choice of commutative [[internalization|internal]] [[ring]] object $(k,+,\cdot)$
 
@@ -23,7 +23,11 @@ A **lined topos** is
 
 # Variations #
 
-A refinement of the notion of lined topos is that of [[smooth topos]], where the line is required to be a smooth differentiable space in a certain way. This is the basic type of object studied in [[synthetic differential geometry]].
+* A [[smooth topos]] is a lined topos where the line is required to be a smooth differentiable space with [[infinitesimal object|infinitesimal]] subspaces in a certain way. This is the basic type of object studied in [[synthetic differential geometry]].
+
+* A [[super smooth topos]] is a lined topos that is a [[smooth topos]] and in which the $k$-algebra structure on $R$ is refined to that of a $k$-[[superalgebra]].
+
+
 
 # Constructions in lined toposes #
 
