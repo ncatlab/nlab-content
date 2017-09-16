@@ -170,6 +170,10 @@ $$
 a functor that sends all morphisms to weak
 equivalences of simplicial sets.
 
++--{: .query}
+[[David Roberts]]: Do you mean ordinary functor or something weaker? Unless you have something weaker, then all those weak equivalences are actually isomorphisms. Also cf [[simplicial localization]].
+=--
+
 Let now for each object $c \in C$
 
 $$
