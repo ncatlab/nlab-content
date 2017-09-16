@@ -1,6 +1,16 @@
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition ##
+
 A **group** is a [[monoid]] in which every element has an [[inverse]].
 
-#Delooping#
+
+
+##Delooping##
 
 To some extent, a group "is" a [[groupoid]] with a single object, or more precisely a [[pointed object|pointed]] groupoid with a single object.
 
@@ -44,7 +54,7 @@ $$
 To fix this, look at the category of [[pointed object|pointed]] groupoids with [[pointed functor|pointed functors]] and pointed natural transformations.  Between group homomorphisms as above, only identity transformations are pointed, so $Grp$ becomes a full sub-$2$-category of $Grpd_*$ (one that happens to be a $1$-[[1-category|category]]).  (Details may be found in the appendix to [[Lectures on n-Categories and Cohomology]] and should probably be added to [[pointed functor]] and maybe also [[k-tuply monoidal n-category]].)
 
 
-# Internalization #
+## Internalization ##
 
 A **[[group object]]** [[internalization|internal to]] a [[category]] $C$ with finite [[product|products]] is an object $G$ together with maps $mult:G\times G\to G$, $id:1\to G$, and $inv:G\to G$ such that various diagrams expressing associativity, unitality, and inverses commute.
 
@@ -70,7 +80,7 @@ And the notion of [[loop space object]] and [[delooping]] makes sense (at least)
 
 Notice that the relation between group objects and deloopable objects becomes more subtle as one generalizes this way. For instance not every [[groupoid object in an (infinity,1)-category|group object in an (infinity,1)-category]] is [[delooping|deloopable]]. But every group object in an [[(infinity,1)-topos]] is.
 
-#Weakened versions#
+## Weakened versions ##
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://math.ucr.edu/home/baez/centipede.jpg" alt="" width="208" height="150" /> &nbsp; &nbsp;</div>
 
