@@ -8,8 +8,8 @@ The first four members of this family of operators are shown below, with paraphr
 
 *  `()` $= \nu_0 = 0 = false$
 *  `(x)` $= \nu_1 (x) = \tilde{x} = x'$
-*  `(x, y)` $= \nu_2 (x, y) = \tilde{x} y \vee x \tilde{y} = x' y \vee x y'$
-*  `(x, y, z)` $= \nu_3 (x, y, z) = \tilde{x} y z \vee x \tilde{y} z \vee x y \tilde{z} = x' y z \vee x y' z \vee x y z'$
+*  `(x, y)` $= \nu_2 (x, y) = \tilde{x} y \:\vee\: x \tilde{y} = x' y \:\vee\: x y'$
+*  `(x, y, z)` $= \nu_3 (x, y, z) = \tilde{x} y z \:\vee\: x \tilde{y} z \:\vee\: x y \tilde{z} = x' y z \:\vee\: x y' z \:\vee\: x y z'$
 
 To express the general case of $\nu_k$ in terms of familiar operations, it helps to introduce an intermediary concept:
 
@@ -17,14 +17,14 @@ To express the general case of $\nu_k$ in terms of familiar operations, it helps
 ###### Definition
 Let the function $\neg_j : \mathbb{B}^k \to \mathbb{B}$ be defined for each integer $j$ in the interval $[1, k]$ by the following equation:
 
-\[ \neg_j (x_1, \ldots, x_j, \ldots, x_k)  =  x_1 \wedge \cdots \wedge x_{j-1} \wedge \neg x_j \wedge x_{j+1} \wedge \cdots \wedge x_k . \]
+\[ \neg_j (x_1, \ldots, x_j, \ldots, x_k)  =  x_1 \:\wedge\: \cdots \:\wedge\: x_{j-1} \:\wedge\: \neg x_j \:\wedge\: x_{j+1} \:\wedge\: \cdots \:\wedge\: x_k . \]
 
 Then $\nu_k : \mathbb{B}^k \to \mathbb{B}$ is defined by the following equation:
 
-\[ \nu_k (x_1, \ldots, x_k)  =  \neg_1 (x_1, \ldots, x_k) \vee \cdots \vee \neg_j (x_1, \ldots, x_k) \vee \cdots \vee \neg_k (x_1, \ldots, x_k) . \]
+\[ \nu_k (x_1, \ldots, x_k)  =  \neg_1 (x_1, \ldots, x_k) \:\vee\: \cdots \:\vee\: \neg_j (x_1, \ldots, x_k) \:\vee\: \cdots \:\vee\: \neg_k (x_1, \ldots, x_k) . \]
 =--
 
-If we think of the point $x = (x_1, \ldots, x_k) \in \mathbb{B}^k$ as indicated by the boolean product $x_1 \cdot \cdots \cdot x_k$ or the logical conjunction $x_1 \wedge \cdots \wedge x_k$, then the minimal negation `(`$ x_1, \ldots, x_k $`)` indicates the set of points in $\mathbb{B}^k$ that differ from $x$ in exactly one coordinate.  This makes `(`$ x_1, \ldots, x_k $`)` a discrete functional analogue of a _point omitted neighborhood_ in analysis, more exactly, a _point omitted distance one neighborhood_.  In this light, the minimal negation operator can be recognized as a differential construction, an observation that opens a very wide field.  It also serves to explain a variety of other names for the same concept, for example, _logical boundary operator_, _limen operator_, _least action operator_, or _hedge operator_, to name but a few.  The rationale for these names is visible in the venn diagrams of the corresponding operations on sets.
+If we think of the point $x = (x_1, \ldots, x_k) \in \mathbb{B}^k$ as indicated by the boolean product $x_1 \cdot \cdots \cdot x_k$ or the logical conjunction $x_1 \:\wedge\: \cdots \:\wedge\: x_k$, then the minimal negation `(`$ x_1, \ldots, x_k $`)` indicates the set of points in $\mathbb{B}^k$ that differ from $x$ in exactly one coordinate.  This makes `(`$ x_1, \ldots, x_k $`)` a discrete functional analogue of a _point omitted neighborhood_ in analysis, more exactly, a _point omitted distance one neighborhood_.  In this light, the minimal negation operator can be recognized as a differential construction, an observation that opens a very wide field.  It also serves to explain a variety of other names for the same concept, for example, _logical boundary operator_, _limen operator_, _least action operator_, or _hedge operator_, to name but a few.  The rationale for these names is visible in the venn diagrams of the corresponding operations on sets.
 
 The remainder of this discussion proceeds on the _algebraic boolean convention_ that the plus sign $(+)$ and the summation symbol $(\textstyle\sum)$ both refer to addition modulo 2.  Unless otherwise noted, the boolean domain $\mathbb{B} = \{ 0, 1 \}$ is interpreted so that $0 = false$ and $1 = true$.  This has the following consequences:
 
