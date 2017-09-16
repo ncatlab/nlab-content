@@ -11,4 +11,6 @@ I\'m inclined to redirect this page to [[small category]] (which is where I make
 
 I have to say, I don't really understand your (Toby's) philosophy that inclines you to draw a distinction between [[poset]] and [[partial order]], but make [[large category]] redirect to [[small category]].  But possibly my philosophy is as incomprehensible to you.   (-:
 
+_Toby_:  The functional question is whether we should make links like `[[small category|large category]]` or `[[large category]]`.  The latter is unfriendly to the reader if this page is (functionally equivalent to) a redirect.  But it is better if things are added to this page.  As that seems likely now, I\'m happy and will make links in the latter style.
+
 =--
