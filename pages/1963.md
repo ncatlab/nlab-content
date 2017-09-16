@@ -71,11 +71,11 @@ There are many further extensions, for examples derivations with values in an $A
 ### Derivations on an algebra
 
 *  Let $A$ consist of the smooth real-valued functions on an [[interval]] in the [[real line]].  Then differentiation is a derivation; this is the motivating example.
-*  Let $A$ consist of the [[holomorphic function]]s on a region in the [[complex plane]].  Then differentiation is a derivation again.
-*  Let $A$ consist of the [[meromorphic function]]s on a region in the [[complex plane]].  Then differentiation is still a derivation.
+*  Let $A$ consist of the [[holomorphic function|holomorphic functions]] on a region in the [[complex plane]].  Then differentiation is a derivation again.
+*  Let $A$ consist of the [[meromorphic function|meromorphic functions]] on a region in the [[complex plane]].  Then differentiation is still a derivation.
 *  Let $A$ consist of the smooth functions on a [[manifold]] (or [[generalized smooth space]]) $X$.  Then any [[tangent vector field]] on $X$ defines a derivation on $A$; indeed, this serves as one definition of tangent vector field.
-*  Let $A$ consist of the [[germ]]s of differentiable functions near a point $p$ in a smooth space $X$.  Then any [[tangent vector]] at $a$ on $X$ defines a derivation on $A$ augmented by evaluation at $a$; again, this serves to define tangent vectors.
-*  Let $A$ consist of the smooth [[differential form]]s on a smooth space $X$.  Then [[exterior differentiation]] is a graded derivation (of degree $1$).
+*  Let $A$ consist of the [[germs]] of differentiable functions near a point $p$ in a smooth space $X$.  Then any [[tangent vector]] at $a$ on $X$ defines a derivation on $A$ augmented by evaluation at $a$; again, this serves to define tangent vectors.
+*  Let $A$ consist of the smooth [[differential forms]] on a smooth space $X$.  Then [[exterior differentiation]] is a graded derivation (of degree $1$).
 *  In any of the above examples containing the adjective 'smooth', replace it with $C^k$ and augment $A$ by the inclusion of $C^k$ into $C^{k-1}$.  Then we have an augmented derivation.
 
 There should be some more clearly algebraic examples (other than obvious things like restricting the above to polynomials), but I don\'t know how to state them.
@@ -91,7 +91,7 @@ $$
 
 where $\Omega^1(X)$ is the space of 1-forms on $X$, regarded as a bimodule over the algebra of functions in the obvious way. 
 
-A variation of this example is given by the [[Kähler differential]]s. These provide a **universal derivation** in some sense.
+A variation of this example is given by the [[Kähler differentials]]. These provide a **universal derivation** in some sense.
 
 
 [[!redirects derivations]]
