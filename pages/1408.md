@@ -1,8 +1,8 @@
 #Idea#
 
-A _structured generalized space_ is a _generalized space_ in the sense of [[space and quantity]] equipped with a sheaf with values in _generalized quantities_.
+A _structured generalized space_ is a generalization of a [[ringed space]] or rather of a [[ringed site]]: a generalized space equipped with a _structure [[sheaf]]_ taking values in generalized quantities. 
 
-Recall that in the general sense described at [[space and quantity]] we have that
+Here the generalizaton is in the sense described at [[space and quantity]]:
 
 * _spaces_ modeled on test spaces in some category $S$ are [[presheaf|presheaves]] $X$ on $S$: $X(U)$ is the collection of probes of $X$ by $U \in S$.
 
