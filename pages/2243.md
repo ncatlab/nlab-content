@@ -26,7 +26,7 @@
 
   * [[etale cohomology]]
 
-  * [[motivic cohomology]]
+* [[motivic cohomology]]
 
 * [[nonabelian cohomology]]
 
