@@ -91,4 +91,8 @@ Edited to add: sorry, I wouldn't have bothered saying this if I'd noticed that t
 _Toby_:  I\'m inclined to rename this page to [[free category]] or [[free category on a quiver]].
 
 Zoran: If we are going to talk free categories instead than one should be aware that some books (e.g. Gabriel-Zisman) say path category instead of free category. As far as quivers, what about "quivers with relations" ?
+
+_Toby_:  We have another meaning of [[path category]], but that is a good term.
+
+
 [[!redirects quivers]]
