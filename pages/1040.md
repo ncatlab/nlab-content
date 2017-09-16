@@ -1,6 +1,8 @@
 An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a category $C$ such that one (hence all) of the following equivalent statements are true:
 
-1. $\mu: T T \to T$ is a [[natural transformation|natural isomorphism]].
+1. $\mu: T T \to T$ is a [[natural transformation|natural isomorphism]]. 
+
+1. The maps $T\eta, \eta T: T \to T T$ are equal. 
 
 1. For every $T$-algebra ($T$-module)
 $(M,u)$, the corresponding $T$-action $u: T M \to M$ is an isomorphism.
