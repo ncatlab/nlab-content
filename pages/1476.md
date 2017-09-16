@@ -1,4 +1,4 @@
-![a pic](http://math.ucr.edu/home/baez/centipede.jpg)
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://math.ucr.edu/home/baez/centipede.jpg" alt="" width="208" height="150" /></div>
 
 **Centipede mathematics**  is where you take a mathematical concept and see how many parts you can strip away while still having it function properly.  Steven Krantz has attributed this term to Antoni Zygmund.
 From _[Mathematical Apocrypha Redux](http://books.google.com/books?id=LMC5UeaStKwC&pg=PA6&lpg=PA6&dq=%22centipede+mathematics%22&source=bl&ots=aivICIZzMU&sig=2rMkg3u6tMhjQyfI-C46BZThiyk&hl=en&ei=kF46Ss_vC4yMsgPb0JD-Bg&sa=X&oi=book_result&ct=result&resnum=9)_: 'You take a centipede and pull off ninety-nine of its legs and see what it can do.'  (We do not recommend doing this to an actual centipede, unless it is a [land-mine destroying robot](http://www.washingtonpost.com/wp-dyn/content/article/2007/05/05/AR2007050501009.html?hpid=topnews).)
