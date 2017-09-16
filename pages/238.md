@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-26
 
+* [[Mike Shulman|Mike]]:
+
+  * I'd like to request that people not add new sub-bullets under their own names on a given day if other people have since listed more changes above; rather, add a new bullet point at the top with your name.  If that didn't make sense, it's what I'm doing now, rather than (what I could have done) adding a new bullet point below the other copy of my name today.
+
+  * Added some comments on syntactic categories to [[internal logic]], since Toby kindly saved me the work of defining them at [[context]].
+
 * [[Finn Lawler]]: (Hello all -- long-time lurker, first-time editor.)  For my first edit, I asked a silly question at [[context]] and then answered it myself a little later.  I'll delete the query box if nobody has any comments.  Apologies for noise.
 
 * [[Mike Shulman|Mike]]:
