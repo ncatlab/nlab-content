@@ -12,11 +12,26 @@ Equivariant homotopy theory is [[homotopy theory]] for the case that a [[group]]
 
 Let $G$ be a discrete [[group]].
 
-There are (at least) the following two different ways to define the $G$-equivariant stable homtopy category of [[Top]]. They yield equivalent results.
-
 A **$G$-space** is a [[topological space]] equipped with a $G$-[[action]].
 
-A **$G$-[[homotopy]]**  between $G$-maps $f,g$ is a $G$-map $X \times I \to Y$ where $G$ acts trivially on the factor $I$ in $X \times I$. 
+Let $I = \mathbb{R}$ be the [[interval object]] $({*} \stackrel{0}{\to} I \stackrel{1}{\leftarrow} {*})$ regarded as a $G$-space by equipping it with the trivial $G$-[[action]].
+
+A **$G$-[[homotopy]]**  $\eta$ between $G$-maps $f,g  X \to Y$ is a [[left homotopy]] with respect to this $I$
+
+$$
+  \array{
+    X \times {*} = X
+    \\
+    {}^{\mathllap{Id \times 0}}\downarrow & \searrow^{f}
+    \\
+    X \times I &\stackrel{\eta}{\to}& Y
+    \\
+    {}^{\mathllap{1}}\uparrow & \nearrow_{g}
+    \\
+    X\times {*} = X
+  }
+  \,.
+$$ 
 
 +-- {: .un_defn}
 ###### Definition
