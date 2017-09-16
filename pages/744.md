@@ -18,15 +18,8 @@ Also including questions that should be frequently asked but aren't.  See also [
 
 1. *How do I make commutative diagrams?*
 
-   One answer is to use the `\array` command of itex.  For example,
+   One answer is to use the `matrix` environment of itex. For example,
 
-       $$\array{A & \to & B\\ \downarrow && \downarrow \\ C & \to &D}$$
-
-   produces
-
-   $$\array{A & \to & B\\ \downarrow && \downarrow \\ C & \to &D}$$
-
-   or 
 
        $$
        \begin{matrix}
@@ -44,6 +37,28 @@ Also including questions that should be frequently asked but aren't.  See also [
      B &\underset{g}{\to} & C
    \end{matrix}
    $$
+
+   In many cases, you want to tweak the alignments (say, of vertical arrows), using `\mathrlap{}` or `\mathllap{}`:
+
+   $$
+\begin{matrix}
+B^{\mathrlap{A}} & \longrightarrow & 1^{\mathrlap{A}} \\
+\mathllap{\scriptsize{\sigma^A}}\downarrow & & \downarrow\mathrlap{\scriptsize{t^\alpha}} \\
+P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrlap{A}}
+\end{matrix}
+   $$
+
+   is produced by
+
+        $$
+        \begin{matrix}
+        B^{\mathrlap{A}} & \longrightarrow & 1^{\mathrlap{A}} \\
+        \mathllap{\scriptsize{\sigma^A}}\downarrow & & \downarrow\mathrlap{\scriptsize{t^\alpha}} \\
+        P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrlap{A}}
+        \end{matrix}
+        $$
+
+   (Well, that would work as intended, whenever some lab elf updates the nlab's copy of `itex2MML`.)
 
    You can get nicer-looking output by using SVG.  The way to get math into the SVG is to use the SVG `<foreignObject>` tag with itex math `$...$` inside it.  As in the previous question, for this to work you need to put `markdown="1"` on the `<foreignObject>` tag or else on a `<g>` tag containing it.
 
