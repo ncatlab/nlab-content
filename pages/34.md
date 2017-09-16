@@ -6,6 +6,8 @@
 [[!include category theory - contents]]
 </div>
 
+> parts of this entry are beginning to look good. But this entry needs more. More motivation, more motivating examples, more of the big picture.
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
