@@ -17,7 +17,7 @@ $$
   \,.
 $$
 
-This simplicial object typically serves as an acyclic replacements or [[homological resolution]] of $A$.
+This simplicial object typically serves as an acyclic replacement or [[homological resolution]] of $A$.
 
 For the moment, see the reference below for details.
 
