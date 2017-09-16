@@ -64,6 +64,10 @@ Let $(C, \otimes, I)$ be a monoidal category.  We define the following full subc
 
 There is what is called the [[center]] of a monoidal category, which is a braided monoidal category. The center of the center should be symmetric monoidal (although I'd have to think this through again carefully). Comonoids in the center or center of center form a monoidal category, and I'm thinking something like this would be a natural habitat to consider. 
 
+[[Andrew Stacey|Andrew]]: Knowing that none of my terminology would be right, I let myself get carried away there.  Apologies.  I mean the functor that swaps the order of the product, namely that takes $A \otimes B$ to $B \otimes A$.  (Actually, now I come to think about it I'm not convinced that such must exist in an arbitrary monoidal category.)  What I mean is that if I have a monoidal category then even if it isn't symmetric, there may still be an object that is itself symmetric.  I guess I don't need the category of such to be symmetric monoidal and I don't need it to commute with products of other objects, just with itself.  So I could still have a commutative monoid in an arbitrary monoidal category.
+
+Or maybe I can't.  Now I write it, it seems a lot more tenuous than when I thought it.  It'd be useful to get that clear.
+
 =--
 
 
