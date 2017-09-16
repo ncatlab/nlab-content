@@ -362,21 +362,21 @@ There is now a WYSIWYG SVG-editor embedded within Instiki (the software running 
 6. To edit an **existing** SVG, select the text between (and including) the `<svg>` and `</svg>` tags (but **don't** include any whitespace before or afterwards).  The "Create SVG" button changes to "Edit existing SVG graphic". 
 
 +-- {: style="text-align:center"}
-<svg width="277" height="172" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="277" height="172" xmlns="http://www.w3.org/2000/svg" se:nonce="42945" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <defs>
-  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw" viewBox="0 0 10 10">
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_42945_fw" viewBox="0 0 10 10">
    <path fill="#000000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
   </marker>
  </defs>
  <g>
   <title>Layer 1</title>
-  <path marker-end="url(#se_arrow_fw)" id="svg_5" d="m39.5,28.85708c37.004852,-4.90707 137.927185,-3.90707 198,31.14292" stroke-width="2" stroke="#000000" fill="none"/>
-  <path marker-end="url(#se_arrow_fw)" id="svg_6" d="m26.5,46c1.770121,48.323517 47.793098,104.441177 77.000008,106" stroke-width="2" stroke="#000000" fill="none"/>
-  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_7" y2="135" x2="116.5" y1="87" x1="114.5"/>
-  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_8" y2="72" x2="235.5" y1="71" x1="146.5"/>
-  <line stroke-dasharray="5,5" marker-end="url(#se_arrow_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_9" y2="60" x2="86.5" y1="40" x1="42.5"/>
-  <foreignObject height="20" width="44" font-size="16" id="svg_10" y="61" x="89">
+  <path marker-end="url(#se_arrow_42945_fw)" id="svg_42945_5" d="m39.5,28.85708c37.004852,-4.90707 137.927185,-3.90707 198,31.14292" stroke-width="2" stroke="#000000" fill="none"/>
+  <path marker-end="url(#se_arrow_42945_fw)" id="svg_42945_6" d="m26.5,46c1.770121,48.323517 47.793098,104.441177 77.000008,106" stroke-width="2" stroke="#000000" fill="none"/>
+  <line marker-end="url(#se_arrow_42945_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_42945_7" y2="135" x2="116.5" y1="87" x1="114.5"/>
+  <line marker-end="url(#se_arrow_42945_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_42945_8" y2="72" x2="235.5" y1="71" x1="146.5"/>
+  <line stroke-dasharray="5,5" marker-end="url(#se_arrow_42945_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_42945_9" y2="60" x2="86.5" y1="40" x1="42.5"/>
+  <foreignObject height="20" width="44" font-size="16" id="svg_42945_10" y="61" x="89">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -390,7 +390,7 @@ There is now a WYSIWYG SVG-editor embedded within Instiki (the software running 
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject height="20" width="20" font-size="16" id="svg_11" y="139.450012" x="105">
+  <foreignObject height="20" width="20" font-size="16" id="svg_42945_11" y="139.45001" x="105">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -400,7 +400,7 @@ There is now a WYSIWYG SVG-editor embedded within Instiki (the software running 
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject height="20" width="20" font-size="16" id="svg_12" y="62.450012" x="232.999999">
+  <foreignObject height="20" width="20" font-size="16" id="svg_42945_12" y="62.45001" x="233">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -410,7 +410,7 @@ There is now a WYSIWYG SVG-editor embedded within Instiki (the software running 
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject height="20" width="20" font-size="16" id="svg_13" y="22.450012" x="17">
+  <foreignObject height="20" width="20" font-size="16" id="svg_42945_13" y="22.45001" x="17">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
