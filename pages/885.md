@@ -6,4 +6,4 @@ $\mathbf{N}$ has the structure of a [[natural numbers object]]; indeed, it is th
 
 # Remarks #
 
-The generalization of natural numbers to other [[topos|topoi]] are [[natural numbers object]]s.
+The generalizations of $\mathbf{N}$ to other [[category|categories]] than $Set$ are the [[natural numbers object]]s.
