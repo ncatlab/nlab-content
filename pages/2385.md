@@ -73,7 +73,7 @@ which goes on to assert the existence of its [[derived functor]] on the [[homoto
 
 The characterization of [[formally smooth scheme]] as above is also on that page.
 
->Notice that as of the time of this writing this is an unfinished document. See the remark on [[Constantin Teleman]]'s website [here](http://math.berkeley.edu/~teleman/lectures.html). One of the $n$Lab contributors ([[Urs Schreiber]]) is grateful to [[David Ben-Zvi]] for pointing out this work in blog discussion [here](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html#c023287) -- mentioning also the relation to [[D-module]]s --  and [here](http://golem.ph.utexas.edu/category/2009/08/question_on_synthetic_differen.html#c026218).
+>Notice that as of the time of this writing this is an unfinished document. See the remark on [[Constantin Teleman]]'s website [here](http://math.berkeley.edu/~teleman/lectures.html). One of the $n$Lab contributors ([[Urs Schreiber]]) is grateful to [[David Ben-Zvi]] for pointing out this work in blog discussion [here](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html#c023287) -- mentioning also the relation to [[D-module]]s --  and [here](http://golem.ph.utexas.edu/category/2009/08/question_on_synthetic_differen.html#c026218). See also some remarks and warnings at MO, [the answer by Ben-Zvi](http://mathoverflow.net/questions/10556/d-modules-derham-spaces-and-microlocalization).
 
 
 
