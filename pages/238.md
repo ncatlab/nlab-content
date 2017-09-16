@@ -12,6 +12,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-03-29
+
+* [[Finn Lawler]]: Uploaded PNG images of the zig-zag identities and added them to [[adjunction]].  They're probably a bit too small, but what do people think of this approach as a work-around until there's an easy way to convert TeX to SVG?  Any other suggestions?
+(Note: I tried converting these diagrams to SVG as described [here](http://meta.wikimedia.org/wiki/Help:Displaying_a_formula#Commutative_diagrams) but the resulting files were huge and didn't display anyway when inserted into the markdown source.  Instead I used `pdfcrop` and `convert` on the `pdflatex` output.)
+
 # 2009-03-28
 
 * [[Finn Lawler]]:
