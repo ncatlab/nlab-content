@@ -1,6 +1,6 @@
 #Idea#
 
-A _formal scheme_ is (typically) not an algebraic [[scheme]]. It is instead an enlarged version of a scheme including an infinitesimal neighborhood, which is expressed in terms of structure sheaves which are closer to sheaves of completions like formal power series rings rather than the polynomial rings.
+A _formal scheme_ is a ringed space which is (typically) not an algebraic [[scheme]]. It is instead an enlarged version of a scheme including an infinitesimal neighborhood, which is expressed in terms of structure sheaves which are closer to sheaves of completions like formal power series rings rather than the polynomial rings.
 
 #Motivation#
 
@@ -19,8 +19,8 @@ $$
   Spf\,R = \hat{X}
 $$ 
 
-(where $R$ is viewed as a topological ring). It is an [[ind-object]] in the [[category]] of [[algebraic scheme]]s, viewed as a formal colimit
-$colim_n Spec (R/I^n)$.
+(where $R$ is viewed as a topological ring). The formal spectrum is an [[ind-object]] in the [[category]] of [[algebraic scheme]]s, viewed as a formal colimit
+$colim_n Spec (R/I^n)$. 
 
 A (locally) noetherian formal scheme is a formal completion of a (locally) noetherian scheme along a closed subscheme. Equivalently, a locally noetherian scheme is a locally ringed space which is locally isomorphic to the formal spectrum of a complete separated adic noetherian ring.
 
