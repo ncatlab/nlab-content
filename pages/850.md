@@ -77,6 +77,12 @@ I wonder how easy it would be to change something like this after the fact.  De 
 
 I don't think we should discard "bipresheaf" just because there is a required compatibility between the presheaf and the copresheaf.  A [[bialgebra]] isn't just an algebra and a coalgebra; it has a compatibility between the two structures.  Likewise, a [[biproduct]] isn't just a product and a coproduct, but both in a compatible way.  And the composition law is really a very natural compatibility between a presheaf and a copresheaf.
 
+[[Andrew Stacey|Andrew]]: Mentioning bialgebra gives me another objection to bipresheaf.  A 'bialgebra' is _one_ object that has _two_ structures.  Here, we have _two_ objects, each with its own structure.  So to me, 'bipresheaf' suggests, somehow, a single functor that is both covariant and contravariant (I know that's not possible - I think - but it's what is suggested in the mind).  Aaagh.
+
+I've emailed the categories mailing list to see if they have any suggestions (and references, if any).
+
+I _don't_ want to spend so long arguing over the name that we get so exhausted no-one looks at any of the stuff I want to actually do with these things, but also I don't want to annoy anyone with the name.  So 'generalised object' gets vetoed - which is fine - but I _really_ don't like 'bipresheaf'.  I really want something that suggests the situation that generalised smooth objects are in: things that _ought_ to be manifolds but aren't because we didn't define manifolds properly.  So I want these to be things that ought to be objects of $\mathcal{T}$ but aren't, because I forgot to put them in when I defined $\mathcal{T}$.
+
 =--
 
 ## Concrete Generalised $\mathcal{T}$-Objects
