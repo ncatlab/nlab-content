@@ -1,26 +1,20 @@
 #Idea#
 
-A _directed space_ is a [[topological space]] $X$ in which not every singular cell $\Delta^n \to X$ (for $\Delta^n$ the standard topological [[simplex]]) is supposed to be _traversable_ in all directions: instead these $k$-dimensional _paths_ may have a _direction_ .
+A _directed space_ is a [[topological space]] $X$ in which not every singular cell $\Delta^n \to X$ (for $\Delta^n$ the standard topological [[simplex]]) is supposed to be _traversable_ in all directions, in some sense: instead these $k$-dimensional _paths_ may have a _direction_ .
 
 +--{.query}
 [[Eric]]: What does it mean for a $k$-cell to be _traversable_?
+
+[[Urs Schreiber]]: notice that this here is the "idea" section, not a formal definition. The idea is that everyone has an idea of what "to traverse" means and that this gives a good idea  for what the direction in "directed space" is about"!
+
 =--
 
-For $r \in \mathbb{N}$, an _$r$-directed space_ is a directed space in which all $k$-cells for $k \gt r$ are reversible, but not necessarily those for $0 \leq k \leq r$.
-
-A $0$-directed space is an ordinary [[topological space]]. By the [[homotopy hypothesis]] these are to be identified with [[infinity-groupoid]]s, which in turn are to be thought of as [[(infinity,0)-category|(infinity,0)-categories]].
-
-A 1-directed space is often just called a **directed space**. Accordingly, this is supposed to correspond to an [[(infinity,1)-category]].
-
-Accordingly, an $r$-directed space is supposed to correspond to an [[(infinity,n)-category|(infinity,r)-category]].
-
-From the perspective of [[homotopy theory]] one might take the standpoint of the [[homotopy hypothesis]] and _define_ a (niced) $r$-diected space to be an [[(infinity,n)-category|(infinity,r)-category]].
-
-See [[(n,r)-category]] for more on that.
+So far there exists a well-developed theory for a notion of _directed spaces_ $X$ where 1-dimensional paths given by maps $[0,1] \to X$ from the [[interval]] into the space are equipped with a direction. See in particular the book by by [[Marco Grandis]] on [[Directed Algebraic Topology]] listed below. 
 
 Note that a directed space is generalised space; not every directed space is a space in the old sense, in accordance with the [[red herring principle]].
 
 Directed spaces are studied in [[directed homotopy theory]], a relatively young topic. In generalization of how a [[topological space]] has a [[fundamental groupoid]], a [[directed space]] has a [[fundamental category]].
+
 +--{.query}
 [[Tim Porter|Tim]]: Originally **directed space** was used to indicate a space together with a closed direceted partial order on it. If the space is nice enough then there are directed paths which cannot be traversed in both directions. It may be worth giving that definition as then the difference between directed and undirected homotopies between paths could be addressed. 
 
@@ -32,6 +26,28 @@ _Toby_: While we await Tim\'s reply, I expect that he simply means a [[pospace]]
 
 By the way, if there are different notions of directed space, then we can move the one below to [[d-space]].
 =--
+
+
+
+## homotopy-theoretic perspective
+
+From a [[homotopy theory|homotopy theoretic]] perspective one would wish that notions of directed spaces serve to generalize the [[homotopy hypothesis]] -- which identifies ordinary (undirected) [[topological space]]s with [[∞-groupoid]]s, i.e. with [[(∞,0)-category|(∞,0)-categories]] -- to a more general context where [[(∞,0)-category|(∞,0)-categories]] are generalized to [[(∞,n)-category|(∞,r)-categories]] with $r \gt 0$: 
+
+an [[(∞,r)-category]] in this context should correspond to a **$r$-directed topological space** , one that comes equipped with a notion of orientation of its $k$-cells for $0 \leq k \leq r$.
+
+If such a definition exists, it will probably need to use [[filtered topological space]]s instead of bare topological spaces.
+
+Even in the absence of a homotopy-theoretic definition of $r$-directed space in this sense, from the perspective of [[homotopy theory]] one might take the standpoint of the [[homotopy hypothesis]] and _define_ a (nice) $r$-diected space to be an [[(∞,n)-category|(∞,r)-category]], just as it makes good sense and is nowadays common practice in [[algebraic topology]] to _define_ a nice [[topological space]] to be an [[∞-groupoid]].
+
+See [[(n,r)-category]] for more on that.
+
++--{.query}
+
+[[Urs Schreiber]]: I haven't looked at Marco Grandis' book yet: does it say anything about the homotopy hypothesis in the context of the definition of directed space used there?
+
+=--
+
+
 
 #Definition#
 
@@ -74,11 +90,18 @@ The above definition is from
 
 * [[Marco Grandis]], _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
 
+This has now developed into a book
+
+* [[Marco Grandis]], _[[Directed Algebraic Topology]], Models of non-reversible worlds_ , Cambridge University Press
+
+
 A discussion of reparameterization of directed paths in directed topological spaces is in
 
 * Ulrich Fahrenberg and Martin Raussen, _Reparametrizations of Continuous Paths_ ([arXiv](http://arxiv.org/abs/0706.3560), ([blog](http://golem.ph.utexas.edu/category/2006/09/fahrenberg_and_raussen_on_cont.html)))
 
 Further references atre given in [[directed homotopy theory]].
+
+
 
 #Discussion#
 
