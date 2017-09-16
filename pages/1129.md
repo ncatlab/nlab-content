@@ -127,7 +127,7 @@ $$
   \,,
 $$
 
-where $Q : K(A) \to D(A)$ and $Q|_{K_{hi}(A)}$ has a [[right adjoint]].
+where $Q : K(A) \to D(A)$ and $Q|_{K_{hi}(A)}$ has a [[adjoint functor|right adjoint]].
 
 It follows that for $D$ any other [[triangulated category]], every triangulated functor $F : K(A) \to D$ has a right [[derived functor]] $R F : D(A) \to D$ which is computed by evaluating $F$ on _injective replacements_: for 
 $R : D(A) \stackrel{\simeq}{\to} K_{hi}(A)$ a weak inverse to $Q$, we have
