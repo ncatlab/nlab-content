@@ -24,6 +24,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-09-10
+
+* [[Jon Awbrey]]:  Further discussion and some data at [[graph]].
 
 ## 2009-09-09
 
