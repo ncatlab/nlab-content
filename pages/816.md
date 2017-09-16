@@ -93,7 +93,8 @@ $$
   \,.
 $$
 
-This follows from the above by 
+This follows from the above by by the [[coend]] manipulation
+
 $$
   \begin{aligned}
     [K,V](W(-),C(c,F(-)))
@@ -222,11 +223,11 @@ is discussed there in definition 14.7.8 on p. 269.
 
 A standard reference is
 
-* M. Kelly, _Basic concepts of enriched category theory_, [section 3.1, p. 37](http://www.emis.de/journals/TAC/reprints/articles/10/tr10.pdf#page=37)
+* [[Max Kelly]], _Basic concepts of enriched category theory_, [section 3.1, p. 37](http://www.emis.de/journals/TAC/reprints/articles/10/tr10.pdf#page=37)
 
 In 
 
-* E. Riehl, _Weighted limits and colimits_ (2008) ([pdf](http://www.math.uchicago.edu/~eriehl/cat/weighted.pdf))
+* [[Emily Riehl]], _Weighted limits and colimits_ (2008) ([pdf](http://www.math.uchicago.edu/~eriehl/cat/weighted.pdf))
 
 [[Emily Riehl]] gives an account of lectures by [[Mike Shulman]] on the subject. The definition appears there as [definition 3.1, p. 4](http://www.math.uchicago.edu/~eriehl/cat/weighted.pdf#page=4) (in a form a bit more general than the one above).
 
