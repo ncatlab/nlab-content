@@ -2,7 +2,7 @@ Various sets of real or complex-valued functions (usually [[continuous function|
 
 Main classical areas is the subject of topological vector spaces (important classes include [[Hilbert spaces]], [[Banach spaces]], [[Frechet space]]s, and a pretty general class of [[locally convex space|locally convex topological vector spaces]]). The [[spectral theory]], [[measure theory]], [[ergodic theory]] and [[representation theory]] of these gave rise to the study of [[operator algebras]], out of which the mainstream variety of [[noncommutative geometry]] also arose. 
 
-See also [[reflexive Banach space]], [[compact operator]], [[Fredholm operator]].
+See also [[reflexive Banach space]], [[compact operator]], [[Fredholm operator]], [[Sobolev space]].
 
 The [English Wikipedia entry](http://en.wikipedia.org/wiki/Functional_analysis) has a fair list of books on the subject. 
 
