@@ -11,7 +11,6 @@ For $\Delta^n$ the standard [[simplicial set|simplicial]] $n$-[[simplex]], defin
 
 * for $i, j \in \{0,1,\cdots, n\}$ define  $S[\Delta^n](i,j) = N(P_{i,j}),$ the nerve of the poset $P(i,j)$ defined in either of the two equivalent ways:     
    1. $P_{i,j}$ is the [[poset]] whose  elements are the subsets of $[i,j]$ that contain both $i$ and $j$ (so in particular is $i\gt j$ then $P(i,j)$ is empty and hence so is its nerve), the partial order is given by inclusion.
-
    1. $P(i,j)$ is the set of paths in $[n]$ that start at $i$ and finish at $j$ (hence is empty if $i\gt j$), the order relation is given by 'subdivision', i.e. path $a$ is less than path $b$ in $P(i,j)$ if $b$ visits all the vertices that $i$ does ... and perhaps some others as well.
 
 Of course, the way you go between the two descriptions is that a path corresponds to the set of vertices it visits and _vice versa_.
@@ -23,6 +22,7 @@ Of course, the way you go between the two descriptions is that a path correspond
 
 Some minutes later!  Does this read well now?
 
+[[Todd Trimble|Todd]]: Thank you! Yes, me happy now. 
 =--
 
  The simplicial set $N(P_{i,j})$ is isomorphic to the $j-i-1$ cube $\Delta[1]^{j-i-1}$. (We will look at an example after this definition.)
