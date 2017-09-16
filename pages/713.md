@@ -128,7 +128,39 @@ Start with any cocontinuous functor $G: \widehat{A} \to \widehat{B}$.  Precompos
 
 (Hint: don't be afraid to get stuck and realize that you could get out of being stuck if you knew a certain Lemma which might also be useful for other things we're talking about below.)
 
-[[Mike Stay]] Well, we need to show that $G \circ Y \cong \widehat{G} \circ Y \Rightarrow G \cong \widehat{G}$; is $Y$ an epimorphism?
+[[Mike Stay]]: Well, we need to show that $G \circ Y \cong \widehat{G} \circ Y \Rightarrow G \cong \widehat{G}$; is $Y$ an epimorphism?
+
+[[John Baez]]: That would suffice, but it's radically overoptimistic.  
+
+Consider the second decategorified analogue below, where $y: A \to \widetilde{A}$ is the inclusion of a set in the vector space having that set as a basis.  Is this $y$ an epimorphism?  In other words: is it onto?   _No!_   The vector space $\widetilde{A}$ is vastly larger than $A$.
+
+What does this mean?  It means: it's _not true_ that given any vector space $B$ and function $F : A \to B$, there is a unique _function_ $\tilde{F} : \tilde{A} \to B$ making this triangle commute:
+$$
+  \array{
+     A &\stackrel{F}{\to}& B
+     \\
+     \downarrow^y & \nearrow_{\tilde{F}}
+     \\
+     \tilde{A}
+  }
+$$
+But this is okay: we don't want a unique _function_ $\tilde{F}$ making this diagram commute: we want a unique _linear function_ making it commute.  And that's obviously true.
+
+Having gained some intuition from the decategorified analogue, let's go back to the situation we're really interested in.  If $A$ is the category with one object and one morphism, $\widehat{A}$ is vastly larger than $A$: it's the category $\Set$.  So, the Yoneda embedding $Y : A \to \widetilde{A}$ is far from being onto in any sense.  
+
+In particular, it's _not true_ that given any cocomplete $B$ and functor $F : A \to B$, there is an essentially unique _functor_ $\widehat{F} : \widehat{A} \to B$ making this triangle commute:
+$$
+  \array{
+     A &\stackrel{F}{\to}& B
+     \\
+     \downarrow^Y & \nearrow_{\widehat{F}}
+     \\
+     \widehat{A}
+  }
+$$
+But this is okay: we don't want a unique _functor_ $\widehat{F}$ making this diagram commute: we want a unique _cocontinuous functor_ making it commute.
+
+And this too should be obviously true, once we know what's going on.  What lemma would help?
 
 ##How should we think about this, intuitively?##
   
@@ -212,7 +244,11 @@ $$F_{ik} = \sum_j y_{ij} \tilde{F}_{jk}.$$
 
 Therefore, we can determine $\tilde{F}$ as long a $y$ has a right inverse (which the obvious inclusion does). In hindsight, it is obvious. If $\tilde{F}\circ y = F\implies \tilde{F} = F\circ y^{-1}$.
 
-[[John Baez]]: This is a slightly bizarre argument, but it can probably be rescued.  $F$ is not a linear operator: it's just a function from a set $A$ to a vector space $B$.  So, it's slightly bizarre to write down a _matrix_ for $F$ as you do above!  Nonetheless, if you think it about it, there's a perfectly sensible way to use a matrix to describe a function from a set to a vector space with a chosen basis.  ([[Eric]]: Bizarre?? But this is exactly the way I meant it.) And what the theorem is doing is using this matrix to define the linear operator $\tilde{F}$ from $\tilde{A}$ to $B$.
+[[John Baez]]: This is a slightly bizarre argument, but it can probably be rescued.  $F$ is not a linear operator: it's just a function from a set $A$ to a vector space $B$.  So, it's slightly bizarre to write down a _matrix_ for $F$ as you do above!  Nonetheless, if you think it about it, there's a perfectly sensible way to use a matrix to describe a function from a set to a vector space with a chosen basis.  And what the theorem is doing is using this matrix to define the linear operator $\tilde{F}$ from $\tilde{A}$ to $B$.
+
+[[Eric]]: Bizarre?? But this is exactly the way I meant it.
+
+[[John Baez]]: Okay, but you didn't explain yourself: you just introduced this matrix $F_{ij}$ without saying what it was, leaving us to guess that you'd invented a new idea: using a matrix to describe a map from a set to a vector space.  To add to the fun, you also introduced _another_ matrix $\tilde{F}_{ij}$ which happens to be precisely _equal_ to $F_{ij}$, but _means something different_.  But all's well that ends well: I eventually guessed what you meant, and now everything is hunky-dory.  
 
 And indeed, all these ideas have nice analogues in the categorified version---the Theorem I'm struggling to get Mike to understand!  If we live long enough, we'll see that [[profunctors]] are categorified matrices.  But maybe we should just prove the Theorem and then ponder the analogies further.   So....
 
