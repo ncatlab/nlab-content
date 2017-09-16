@@ -25,6 +25,8 @@ _Stephen Gaito_: If we want to weaken this even further to provide a simplicial 
 
 Would we apply the lifting condition on all but three of the indicies... and if so which three?  (The first, last and ????)
 
+[[Mike Shulman]]: You may be looking for something along the lines of a [[weak complicial set]].
+
 =--
 
 #Remarks#
