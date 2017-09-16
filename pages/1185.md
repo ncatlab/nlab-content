@@ -138,9 +138,9 @@ By the way, if you want to be sure that people see your questions in a timely ma
 =--
 
 
+[[!redirects cardinality]]
 [[!redirects cardinal numbers]]
 [[!redirects cardinal]]
-[[!redirects cardinality]]
 [[!redirects cardinals]]
 [[!redirects cardinalities]]
 [[!redirects regular cardinal]]
