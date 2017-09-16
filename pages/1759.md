@@ -9,6 +9,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-27
 
+* [[John Baez]]: answered Andrew Stacey's latest comments over at [[Tall-Wraith monoid]].
+
 * [[Bruce Bartlett]]: Corrected a faulty link to the [nLab Stylish theme](http://userstyles.org/styles/17934) for FireFox at [[HowTo]]. Works now.
 
 * [[Urs Schreiber]]: 
