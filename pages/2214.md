@@ -24,6 +24,29 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+We are proposing shifting the place for recording latest changes to the n-Forum.  This will provide the following advantages:
+
+1. It will be better organised and so easier to see new items, and replies to existing items.
+2. There is an RSS feed so you can follow developments without having to check this page every 5 minutes (you know who you are).
+3. Updates can be made simultaneously so you don't have to wait for the person currently editing 'latest changes' to finish.
+4. If you create an account on the forum (this is not mandatory), it will keep track of the items that you have read and inform you of new things.
+5. It will be easier for you to find out about other possible changes to the infrastructure of the n-lab, and so have some influence on what makes this place run.
+
+The system will be no more complicated than the current one:
+
+1. Make your changes in the n-lab.
+2. Click on the 'latest changes' link in the contents sidebar of the homepage (we'll include a link (__not__ a redirect) from this page for those who've bookmarked this one).
+3. Click on the 'start a new discussion' in the panel (left hand side) of the page on the forum.
+4. Fill in the details of the change.  I suggest that the title of the discussion makes it clear which pages on the n-lab are referred to.
+5. If you have an account, you will be invited to log in (if you are not already logged in).  If not, there is a reCaptcha to solve to prove that you are human (or elven).  If you _do_ post "anonymously", may we ask that you put your name at the top of your comment so that we know who you are.
+
+You can subscribe to RSS or ATOM feeds from the forum.  This will keep you up to date in your preferred 'feed reader' of what's going on.
+
+The syntax on the forum is ever-so-slightly different to that here.  You can use markdown syntax, but it's not extended markdown.  Wikilinks work just as they do here (and point to the correct pages here).  Mathematics is, currently, enabled via a Wordpress-style system where it gets converted to pictures.  Enclose your mathematics within double dollars to get it to work.  (Hopefully, this will change to a MathML system in the near future).
+
+To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5).  When we "go live" (which will happen soon), I'll clean out the discussions so feel free to have a play first.  Any comments and suggestions should be recorded [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64) (you'll have to create an account to comment on this, though).
+
+***
 
 ## 2009-09-16
 
