@@ -1,0 +1,1 @@
+See [[simplicial T-complex]] or [[cubical T-complex]].  
