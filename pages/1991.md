@@ -248,6 +248,8 @@ context that need not concern us here).
 
     that restrict functions on all $(k+1)$-simplices to those simplices whose $i$th face is degenerate and regard the result as a function on $k$-simplices.
 
+
+
 ## The Moore complex of an $(\infty,1)$-quantity ##
 
 Let $K = K^\bullet$ be a cosimplicial [[generalized smooth algebra|generalized smooth algebra]]. 
@@ -270,7 +272,7 @@ $$
 
 
 
-## The Moore DGA of an $(\infty,1)$-quantity ##
+## The differential graded algebra of an $(\infty,1)$-quantity ##
 
 
 Write $CoSh(CartSp)$ -- or just $CoSh$ in the present context -- for the category of product-preserving
@@ -304,13 +306,13 @@ $$
 +-- {: .un_prop }
 ###### Proposition
 
-For $K \in CoSCoSh$ a cosimplicial algebra, there is a [[natural transformation|natural transformation]]
+For $K \in CoSCoSh$ a cosimplicial algebra, there is on its [[Moore complex|Moore cochain complex]] $C^\bullet(K)$ the structure of a [[monoid]] (hence of a [[differential graded algebra]])
 
 $$
-  \mu_K : C^\bullet(K) \otimes C^\bullet(K) \to C^\bullet(K \otimes K)
+  \mu_K : C^\bullet(K) \otimes C^\bullet(K) \to C^\bullet(K)
 $$
 
-natural in $K \in CoSCoSh$ -- with the tensor products as above and with $C^\bullet : CoSCoSh \to Ch^\bullet_+$ the dual [[Moore complex]] functor -- that satisfies uniticity and associativity in the obvious way that makes it the component of a lax monoidal functor (or something close).
+such that for $K = A$ a cosimplicial object constant on an algebra $A$ this product on $C^\bullet(A) = A$ reproduces that on $A$.
 
 =--
 
@@ -322,13 +324,15 @@ We define the map $\mu_K$ and check that it has all the right properties.
 
 First introduce some notation to handle this combinatorial problem.
 
-When the codomain is understood, we denote an order-preserving map $\delta_\mu : [p] \to [p+q]$ by the string $\mu = (\mu_0, \mu_1, \cdots, \mu_p)$ of its values, so that $\delta_\mu : i \mapsto \mu_i$.
+For $p \in \mathbb{N}$ we write, as usual $[p] = \{0 \lt 1 \lt \cdots \lt p\}$ for the totally ordered set with $p+1$-elements.
+
+When the codomain is understood, we denote an order-preserving injective map $\delta_\mu : [p] \to [p+q]$ by the string $\mu = (\mu_0, \mu_1, \cdots, \mu_p)$ of its values, so that $\delta_\mu : i \mapsto \mu_i$.
 
 We write $(\mu_0, \cdots,\hat \mu_i, \cdots, \mu_p)$ for the string obtained from $(\mu_0, \mu_1, \cdots, \mu_p)$ by _omitting_ the $i$th entry.
 
 At the same time, with domain and codomain understood, we still write $\delta_i : [p] \to [p+1]$ for the standard (dual) face map that leaves out the $i$th value. 
 
-Then we have, 
+Observe that with this notation we have 
 
 $$
   \delta_{\mu} \circ \delta_i
@@ -341,43 +345,108 @@ and
 $$
   \delta_i \circ \delta_\mu
   =
-  \delta_{\mu_0, \cdots, \mu_k+1, \cdots \mu_p + 1}
+  \delta_{\mu_0, \cdots, \mu_{k-1}, (\mu_k)+1, \cdots (\mu_p) + 1}
+  \,,
 $$
 
 where $\mu_k$ is the lowest of the $\mu_\cdot$ greater or equal to $i$.
 
-Now make the following definition.
-
-On homogeneous elements $a \otimes b \in C^p(K) \otimes C^q(K)
- \subset 
- (C(K) \otimes C(K))
- = \oplus_{p+q = n} C^p(K) \otimes C^q(K)$ with $a \in C^p(K) = K^p$ and
-$b \in C^q(K) = K^q$ define the cochain map $\mu_K$ by 
+For $K$ any cosimplicial object we write
 
 $$
-  \mu_K(a \otimes b) :=
-  \sum_{(\mu,\nu)} sign(\mu,\nu) (d_\mu^* a) \cdot (d_\nu^* b) \in
-  C^{p+q}(K \otimes K) = K^{p+q} \otimes K^{p+q}
+  d_\mu^* : K^p \to K^{p+q}
 $$ 
 
-where
+for the image of $\delta_\mu$ under $K$.
 
-* the sum is over all pairs of morphisms $\delta_\mu : [p] \to [p+q]$
-and $\delta_\nu : [q] \to [p+q]$ of ordered sets such that their [[fiber product]] is
-a singleton
+A pair two order preserving injective maps $\delta_\mu : [p] \to [p+q]$ and $\delta_\nu : [q] \to [p+q]$ that have precisely one point in their images in common, i.e. such that their [[pullback]] is
 
-* the map $d_\mu^* := K(\delta_\mu) : K^p \to K^{p+q}$ is the induced one,
-similarly for $d_\nu^*$;
+$$
+  \array{
+    [0] &\to& [p]
+    \\
+    \downarrow && \downarrow^{\delta_\mu}
+    \\
+    [q] &\stackrel{\delta_\nu}{\to}& [p+q]
+  }
+$$
 
-* the expression $sign(\mu,\nu)$ is the signature of the obvious permutation.
+we call in the following an **overlapping partition** of $[p+q]$. We also write $(\mu,\nu)_{[p+q]}$ or $(\mu_0,\cdots,\mu_p,\nu_0, \cdots, \nu_q)_{[p+q]}$ for this overlapping partition.
 
-* the product operation in the summand is the one in $K$.
+To each overlapping partition of $[p+q]$ we assign a sign $sgn(\mu,\nu) \in \{-1,+1\}$ given by
+
+$$
+  sgn(\mu,\nu)_{[p+q]}
+  =
+  \prod_{i=0}^p (-1)^{\mu_i -i}
+  \,.
+$$
+
+This is the same as 
+
+$$
+  \cdots =
+  \prod_{i=0}^q (-1)^{\nu_i - (p+i)}
+  \,.
+$$
+
+
+With that notation understood, now define the cochain map
+
+$$
+  \mu_K
+  : 
+  C^\bullet(K) \otimes C^\bullet(L)
+  \to 
+  C^\bullet(K \otimes L)
+  \,.
+$$ 
+
+by defining it on homogeneous elements 
+
+$$
+ a \otimes b \in C^p(K) \otimes C^q(L)
+  \subset 
+ (C(K) \otimes C(K))
+ = \oplus_{p+q = n} C^p(K) \otimes C^q(K)
+$$ 
+
+with $a \in C^p(K) = K^p$ and
+$b \in C^q(K) = K^q$  by the formula
+
++-- {: .standout}
+
+
+
+$$
+  \mu_{K}
+   : a \otimes b
+   \;\;\mapsto\;\;
+  \sum_{(\mu,\nu)_{[p+q]}} 
+   sgn(\mu,\nu)_{[p+q]} \;\;(d_\mu^* a) \;\cdot\; (d_\nu^* b) 
+  \;\;\;\;\;\;\in
+  C^{p+q}(K) 
+  \,.
+$$ 
+
+=--
+
+
+To amplify again: here on the left we see a homogenoeus element in a tensor product $\otimes$, whereas on the right we see the product $-\cdot- : K^{p+q} \otimes K^{p+q} \to K^{p+q}$ in the algebra $K^{p+q}$.
 
 Now we check that this definition has all the right properties.
 
 * **it is indeed a cochain map**
 
-  for that the two maps
+  We need to check that $\mu_K$ respects the differential
+
+  $$
+    d = \sum_i (-1)^i d_i^*
+  $$
+
+  that is given by the alternating sum over dual face maps.
+
+  This means that for all $a,b$ as above the two maps
 
   $$
     \array{
@@ -385,17 +454,18 @@ Now we check that this definition has all the right properties.
       =
       (d a)_{p+1}\otimes b_q +(-1)^p a_{p} \otimes (d b)_{q+1}
       &\stackrel{\mu_K}{\mapsto}&
-      \sum_{(\mu_0,\cdots,\mu_{p+1},\nu_0,\cdots,\nu_{q})}
-        \pm 
-        \sum_{i=0}^{p}
+       \sum_{i=0}^{p+1}
+       \sum_{(\mu,\nu)_{[(p+1)+q]}}
+        sgn(\mu,\nu)_{[(p+1)+q]}
         (-1)^i
-        (d_\mu^* d_i^* a)_{p+q+1} \cdot (d_\nu^* b)_{p+q+1}
+        (d_\mu^* d_i^* a) \cdot (d_\nu^* b)
         +
+        \sum_{i=0}^{q+1}
+        \sum_{(\mu,\nu)_{[p+(q+1)]}}
+        sgn(\mu,\nu)_{[p+(q+1)]}
         (-1)^p 
-      \sum_{(\mu_0,\cdots,\mu_{p},\nu_0,\cdots,\nu_{q+1})}
-        \sum_{i=0}^{q}
         (-1)^i
-        (d_\mu^* a)_{p+q+1} \cdot (d_\nu^* d_i^* b)_{p+q+1}
+        (d_\mu^* a) \cdot (d_\nu^* d_i^* b)
       \\
       \uparrow^{d}
       \\
@@ -408,19 +478,19 @@ Now we check that this definition has all the right properties.
   $$
     \array{
       &&
-      \sum_{i=0}^{p+q}
+      \sum_{i=0}^{p+q+1}
+      \sum_{(\mu,\nu)_{[p+q]}} 
+      sgn(\mu\nu)_{[p+q]}
       (-1)^i
-      \sum_{(\mu_0,\cdots,\mu_p,\nu_0,\cdots,\nu_q)} 
-      \pm
-       (d_i^* d_\mu^* a)_{p+q+1} \cdot (d_i^* d_\nu^* b)_{p+q+1}
+       (d_i^* d_\mu^* a) \cdot (d_i^* d_\nu^* b)
       \\
       && \uparrow^{d}
       \\
       a_p \otimes b_q
       &\stackrel{\mu_K}{\mapsto}&
-      \sum_{(\mu_0,\cdots,\mu_p,\nu_0,\cdots,\nu_q)} 
-      \pm
-       (d_\mu^* a)_{p+q} \cdot (d_\nu^* b)_{p+q}
+      \sum_{(\mu,\nu)_{[p+q]}} 
+      sgn(\mu\nu)_{[p+q]}
+       (d_\mu^* a) \cdot (d_\nu^* b)
     }
   $$
 
@@ -429,33 +499,52 @@ Now we check that this definition has all the right properties.
   By the above observation on face map yoga the first result equals
 
   $$
-    \cdots =
-        \sum_{i=0}^{p}      
+    \mu_K(d (a\otimes b)) =
+        \sum_{i=0}^{p+1}      
        \sum_{(\mu_0,\cdots,\hat\mu_i, \cdots,\mu_{p+1},\nu_0,\cdots,\nu_{q})}
-        \pm 
+        sgn(\mu,\nu)_{[(p+1)+q]}
         (-1)^i
-        (d_\mu^* a)_{p+q+1} \cdot (d_\nu^* b)_{p+q+1}
+        \;\;
+        (d_\mu^* a) \cdot (d_\nu^* b)
         +
-        (-1)^p 
-        \sum_{i=0}^{q}
-       \sum_{(\mu_0,\cdots,\mu_{p},\nu_0,\cdots,\hat \nu_i, \cdots,\nu_{q+1})}
-        (-1)^i
-        (d_\mu^* a)_{p+q+1} \cdot (d_\nu^* b)_{p+q+1}
+        \sum_{j=0}^{q+1}
+       \sum_{(\mu_0,\cdots,\mu_{p},\nu_0,\cdots,\hat \nu_j, \cdots,\nu_{q+1})}
+        sgn(\mu,\nu)_{[p+(q+1)]}
+        (-1)^{p+j}
+        \;\;
+        (d_\mu^* a) \cdot (d_\nu^* b)
   $$
 
   whereas the second is
 
   $$
-    \cdots =
-      \sum_{i=0}^{p+q}
-      \sum_{(\mu_0,\cdots,\mu_k+1,\cdots,\mu_p+1,
-        \nu_0,\cdots,\nu_l+1,\cdots, \nu_q+1)} 
+    d(\mu_K(a\otimes b))
+    =
+      \sum_{i=0}^{p+q+1} \sum_{(\mu_0,\cdots,\mu_{(k(i)-1)},(\mu_{k(i)})+1,\cdots,(\mu_p)+1,\nu_0,\cdots,\nu_{(l(i)-1)},(\nu_{l(i)})+1,\cdots, (\nu_q)+1)} 
       (-1)^i
-      \pm
-       (d_\mu^* a)_{p+q+1} \cdot (d_\nu^* b)_{p+q+1}
+      sgn(\mu,\nu)_{[p+q]}
+      \;\;
+       (d_\mu^* a) \cdot (d_\nu^* b)
   $$
 
-  One sees that the right terms appear in both expressions. So if the signs come out right...
+  Here in the last sum $\mu_{k(i)}$ and $\nu_{l(i)}$ are defined to be those elements in $\mu$ and $\nu$ that are the smallest ones greater or equal to $i$
+
+  Observe that the sums in the two expressions are _almost_ over the same configurations: 
+
+  * in the second expression the sum is over all overlapping partitions of the ordered sets obtained from $[p+q+1]$ by removing the $i$th element. 
+
+  * in the first expression the nature of the sum depends on which elements get removed, indicated by $\hat \mu_i$ and $\hat \nu_i$:
+
+    * if the element $\mu_i$ or $\nu_i$ that is removed is _not_ the unique one that coincides with one of the $\nu_\cdot$s or $\mu_\cdot$, respectively, then the remaining sum is also a sum over overlapping partitions of sets obtained from $[p+q+1]$ by removing one element, namely the element $\mu_i$ or the element $\nu_i$, respectively. So this piece of the sum is as the one in the secodn expression.
+
+    * if the element $\mu_i$ or $\nu_i$ that is removed however happens to be the one that is part of the overlap of the overlapping partition, then the remaining sum is over all _ordinary shuffles_. This holds both for the first as well as for the second big sum in the first expression. 
+
+  So this means that for the equality to hold, the two pieces of the sums of the first expression where one of the overlapping indices is removed have to cancel each other. 
+
+  To see this, notice that for $\mu_i$ in the overlap, the ordinary shuffle $(\mu_0, \cdots, \hat \mu_i, \cdots, \mu_{p+1}, \nu_0,\cdots, \nu_q)$ has signature that differs from $sgn(\mu,\nu)_{[p+q+1]}$ by the factor $(-1)^{(\mu_i-i)+(p+1-i)}$.
+
+  Similarly, the ordinary shuffle $(\mu_0,\cdots, \mu_p,\nu_0, \cdots, \hat \nu_j, \cdots, \nu_{q+1})$ has signature that differs from $sgn(\mu,\nu)_{[p+q+1]}$ by the factor $(-1)^{\nu_j - (j+p) + j}$.
+
 
 =--
 
@@ -466,23 +555,6 @@ Now we check that this definition has all the right properties.
 =--
 
 
-
-This induces on the Moore cochain complex $C^\bullet(K)$ 
-of a cosimplicial smooth algebra $K \in CoSCoSh$ the structure of a
-[[monoid|monoid]] in $Ch^\bullet_+$, hence of a connective [[differential graded algebra|differential graded algebra]]
-with product given by
-
-$$
-  C^\bullet(K) \otimes C^\bullet(K)
-  \stackrel{\mu_K}{\to}
-  C^\bullet(K \otimes K)
-  \stackrel{C^\bullet(\cdot)}{\to}
-  C^\bullet(K)
-$$
-
-with $\cdot : K \otimes K \to K$ degreewise the product 
-$\cdot : K^n \times K^n \to K^n$ in the [[generalized smooth algebra|generalized smooth algebra]]
-$K^n$.
 
 The (normalized) [[Moore complex|Moore complex]] $C^\bullet(K)$ (or $N^\bullet(K)$) 
 of an $(\infty,1)$-quantity $K \in CoSCoSh$
