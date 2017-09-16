@@ -27,7 +27,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-14
 
-*  [[Toby Bartels]]:  A little more explanation of terminological variations at [[direct limit]] and [[inverse limit]]; also [[projective limit]] and [[inductive limit]].
+* [[Jon Awbrey]] added some stuff about finite dimensional boolean coordinate systems to [[boolean-valued function]].
+
+* [[Toby Bartels]]:  A little more explanation of terminological variations at [[direct limit]] and [[inverse limit]]; also [[projective limit]] and [[inductive limit]].
 
 * [[Jon Awbrey]] added an epigraph to [[relation theory]].  Exercise for the Reader:  Show that every functional graph factors into an epigraph and a monograph.
 
