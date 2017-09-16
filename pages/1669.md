@@ -35,6 +35,8 @@ We also have the __symmetric difference__ of two sets, which is the same as the 
 If this convention really is widely adopted, then I'll let the matter drop. But if it's not, then I don't favor its adoption here. I'd sooner call it "exclusive union" [or something similar], and keep "symmetric difference" around as a technical term for the general addition -- it's such a handy operation that it deserves a good name. 
 
 _Toby_:  That\'s a good argument, and I have no contrary references.  (The best that I have is to use 'symmetric difference' for two, then later state the generalisation to many as above, but without actually calling that anything other than using the same symbol.)  So I\'ll go along with your 'exclusive union'.
+
+_Todd_: Okay, thanks. I'll remove this discussion in a little while. 
 =--
 
 
