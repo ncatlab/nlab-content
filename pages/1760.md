@@ -9,7 +9,7 @@ $$
 
 #Definition#
 
-Loop space objects are defined in any [[(infinity,1)-category]] $\mathbf{C}$ with [[homotopy pullback]]s: for $X$ any [[pointed object]] of $\mathbf{C}$ with point ${*} \to X$, its [[loop space object]] is [[generalized the|the]] [[homotopy pullback]] $\Omega X$ of this point along itself:
+Loop space objects are defined in any [[(∞,1)-category]] $\mathbf{C}$ with [[homotopy pullback]]s: for $X$ any [[pointed object]] of $\mathbf{C}$ with point ${*} \to X$, its [[loop space object]] is [[generalized the|the]] [[homotopy pullback]] $\Omega X$ of this point along itself:
 
 $$
   \array{
@@ -44,14 +44,14 @@ and we say that $\mathbf{B} A$ is the **delooping** of $A$.
 
 #Remarks#
 
-If $\mathbf{B}$ is even a [[stable (infinity,1)-category]] then all deloopings exist and are then also denoted $\Sigma A$ and called the **suspension** of $A$.
+If $\mathbf{B}$ is even a [[stable (∞,1)-category]] then all deloopings exist and are then also denoted $\Sigma A$ and called the **suspension** of $A$.
 
 
 #Examples#
 
 ## delooping of a group to a groupoid ##
 
-Let $G$ be a [[group]] regarded as a [[discrete category|discrete groupoid]] in the [[(infinity,1)-topos]] [[Infinity-Grpd]] of [[infinity-groupoid]]s.
+Let $G$ be a [[group]] regarded as a [[discrete category|discrete groupoid]] in the [[(∞,1)-topos]] [[∞Grpd]] of [[∞-groupoids]].
 
 Then $\mathbf{B} G$ exists and is, up to equivalence, the [[groupoid]]
 
@@ -104,3 +104,31 @@ $$
 $$ 
 
 is just the identity map, using that $Obj(G) = G$ and $Mor(\mathbf{B}G) = G$.
+
+#Discussion#
+
+_Eric_: When the two arguments coincide in $Hom_{\mathbf{B}G}(\bullet,\bullet)$, is there another notation, e.g. maybe $Aut_{\mathbf{B}G}(\bullet)$ or something? 
+
+***
+
+_Eric_: Is there a difference between $Hom$ and $hom$? For example, [[hom-set]] says $hom$, but [[internal hom]] has $Hom$, $hom$, and $HOM$.
+
+***
+
+<i>The following discussion originally took place at [[Dijkgraaf-Witten theory]].</i>
+
+_Eric_: This notation seems to cause some initial confusion. At least until you realize both $\bullet$'s are the same, so the morphism is really a loop. Why not just represent it as a loop? I like this notation:
+
+  $$\mathbf{B}G = \{\bullet\righttoleftarrow g | g\in G\}$$
+
+  What do you think?
+
+  Or better yet
+
+  $$\mathbf{B}G = \bullet\righttoleftarrow G.$$
+
+_Toby_:  I like your first suggestion, so I implemented; but I think that I only understand the second suggestion since I already know what it means.
+
+  [[Urs Schreiber|Urs]]: added link to [[delooping]] above so that we have one page where this is treated discussed, since it appears in lots of other entries, too.
+
+  =--
