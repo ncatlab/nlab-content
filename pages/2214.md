@@ -48,9 +48,9 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ***
 
+## 2009-09-21
 
-
-## 2009-09-20
+* [[Jon Awbrey]] is setting some tables at [[differential logic]].
 
 * [[Urs Schreiber]]: 
 
