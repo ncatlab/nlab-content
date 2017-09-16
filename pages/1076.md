@@ -51,7 +51,7 @@ $$
 is a dt precisely if 
 
 $$
-  Y \stackrel{-g}{\to} Z \stackrel{-h}{\to} T X \stackrel{-F(f)}{\to} T Y
+  Y \stackrel{-g}{\to} Z \stackrel{-h}{\to} T X \stackrel{-T(f)}{\to} T Y
 $$ 
 
 is a dt;
