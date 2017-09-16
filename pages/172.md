@@ -70,6 +70,11 @@ The above concerns $\infty$-stacks with values in [[∞-groupoids]], i.e, [[(∞
 An archetypical class of examples of $\infty$-stacks are [[quasicoherent ∞-stack]]s of [[module]]s, being the [[vertical categorification|categorification]] of the notion of [[quasicoherent sheaf]]. By their nature these are really $(\infty,1)$-stacks in that they take values not in [[∞-groupoid]]s but in [[(∞,1)-categories]], but often only their [[∞-groupoid]]al [[core]] is considered.
 
 
+### Affine $\infty$-stacks
+
+* [[Bertrand Toen]], _Affine stacks (Champs affines)_ ([arXiv:math/0012219])
+
+
 ## References
 
 The study of $\infty$-stacks is known in parts as the study of [[nonabelian cohomology]]. See there for further references.
