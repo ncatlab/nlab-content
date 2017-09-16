@@ -13,3 +13,11 @@ There are many ways to make this notion precise.  One is to define the objects o
 This definition is perhaps more intuitive in the dual case of [[ind-object|ind-objects]] (pro-objects in $C^{op}$), where it can be seen as stipulating that the objects of $C$ are [[finitely presentable object|finitely presentable]] in $ind$-$C$.
 
 Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] of $[C,Set]^{op}$ determined by those functors which are cofiltered limits of representables.  This is reasonable since $[C,Set]^{op}$ is the [[free completion]] of $C$, so $pro$-$C$ is the "free completion of $C$ under cofiltered limits."
+
+##References##
+One source for the theory of pro-objects is
+
+* J.-M. Cordier and T. Porter, 2008, Shape Theory, categorical methods of approximation, Dover.
+
+(I might as well get a plug in!!  It is a reprint of the 1989 edition without amendments.)
+
