@@ -18,6 +18,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * added to the "Idea" section at [[differential form]] a paragraph that gives some categorical or otherwise abstract nonsense description of how to make precise the statement that "a differential form is something that may be integrated".
+
+  * created an entry [[Models for Smooth Infinitesimal Analysis]] (so far containing just a summary and an incomplete link list) and linked to it from [[synthetic differential geometry]] and [[Ehresmann connection]]
+
+    I am thinking that section IV there, _Cohomology and Integration_ would be a good candidate for the high-brow abstract nonsense aspect section to be written at [[differential form]]
+
   * added expositional text to [[Kan fibrant replacement]] prodded by the blog discussion [here](http://golem.ph.utexas.edu/category/2008/12/groupoidification_from_sigmamo.html#c025677)
 
 *  [[Toby Bartels]]:
