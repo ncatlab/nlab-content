@@ -6,6 +6,8 @@ See also [[category of elements]].
 
 [[Eric Forgy|Eric]]: I wonder if the concept I'm thinking of is better thought of as "exploding a functor" rather than "exploding a category"?
 
+_Toby_:  Ultimately, what it acts on seems to be a functor to $Set$.  So in that sense, it should be exploding a functor; that\'s the data at hand.  But I do think that exploding a concrete category is the better metaphor.  It\'s just that the category has to be concrete in the sense of being equipped with a functor to $Set$ (although not necessarily a representable and faithful one, as in the full definition of [[concrete category]].)
+
 =--
 
 ##Example: Action Groupoid##
