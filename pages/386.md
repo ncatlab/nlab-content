@@ -5,14 +5,145 @@ The **simplex category** $\Delta$ encodes one of the main [[geometric shapes for
 #Definition#
 
 * The __simplex category__ $\Delta$ is the [[full subcategory]] of [[Cat]] consisting of the [[finite set|finite]] [[inhabited set|inhabited]] linear [[quiver]]s.
+$$
+  \{c_0 \to c_1 \to \cdots \to c_n\}
+  \,.
+$$
+
 
 * Equivalently: $\Delta$ is the category of finite inhabited [[total order|totally ordered set]]s and order-preserving functions between them.
 
+## Detailed description ##
+
+In more details, $\Delta$ looks as follows.
+
+First of all, it is common, convenient and without risk to use a [[skeleton]] of $\Delta$, where we pick a fixed representative in each isomorphism class of objects. Since isomorphisms of totally ordered sets are _unique_ this step is so trivial that it is often not even mentioned explicitly.
+
+Often the the _simplex category_ is defined to be the following [[skeleton]]:
+
+* objects are the finite totally ordered sets $[n] := \{0 \lt 1 \lt  \cdots \lt n\}$ for all $n \in \mathbb{N}$;
+
+* morphisms are order-preserving functions $[n] \to [m]$ -- these are _generated_ by (are all expressible as finite compositions of) the following two elementary kinds of maps
+
+  * **face maps**: $\delta_i := \delta_i^n : [n-1] \hookrightarrow [n]$ is the injection missing $i \in [n]$;
+
+  * **degeneracy maps**: $\sigma_i := \sigma_i^n : [n+1] \to  [n]$ is the surjection such that $\sigma_i(i) = \sigma_i(i+1) = i$.
+
+These morphism generate $\Delta$ subject to the following relations, called the **simplicial relations**
+
+$$
+  \array{
+     \delta_j^{n+1} \circ \delta_i^n
+     =
+     \delta_i^{n+1}\circ \delta_{j-1}^n
+     &
+     for i \lt j
+     \\
+     \sigma_j^n \circ \delta_i^{n+1}
+     =
+     \sigma_i^{n-1} \circ \sigma_{j+1}^n
+     &
+     for i \leq j
+  }
+$$
+$$
+  \sigma_j^n \circ \delta_i^{n+1}
+  =
+  \left\lbrace
+    \array{
+      \delta_i^n \circ \sigma_{j-1}^{n-1}
+      &
+      if i \lt j
+      \\
+      Id_n & if i = j or i = j+1
+      \\
+      \delta^n_{i-1} \circ \sigma_{j}^{n-1}
+      &
+      if i \gt j +1
+    }
+  \right.
+$$
+
+
 #Remarks#
 
-* [[presheaf|Presheaves]] on $\Delta$ are [[simplicial set|simplicial sets]]. Embedded into its presheaf category the object $[n]$ in the simplex category may be identified with the standard simplicial $n$-[[simplex]].
+## simplicial sets ##
 
-* Often, it is highly convenient to extend the category $\Delta$ to contain also the empty totally ordered set. This is called the _augmented_ simplex category $\Delta_a$, and presheaves on it are _augmented simplicial sets._ The category $\Delta_a$ may be characterized as the initial strict monoidal category equipped with a monoid; the monoidal product is ordinal sum, and the monoidal unit is the empty ordinal. This style of definition also opens up the possibility of using string diagrams to visualize the structure of $\Delta_a$ and of the [[cube category]] $\Box$. 
+[[presheaf|Presheaves]] on $\Delta$ are [[simplicial set|simplicial sets]]. 
+
+Under the [[Yoneda embedding]] $Y : \Delta \to $ [[SSet]] the object $[n]$ induces the standard simplicial $n$-[[simplex]] $Y([n]) =: \Delta^n$.
+
+The face and degeracy maps and the relation they satisfy are geometrically best understood in terms of the [[full and faithful functor|full and faithful]] image under $Y$ in [[SSet]]: 
+
+* the face map $Y(\delta_i) : \Delta^{n-1} \to \Delta^{n}$ injects the standard simplicial $(n-1)$-simplex as the $i$th face into the standard simplicial $n$-simplex;
+
+* the degeneracy map $Y(\sigma_i) : \Delta^{n+1} \to \Delta^{n}$ prjects the standard simplicial $(n+1)$-simplex onto the standard simplicial $n$-simplex by collapsing its vertex number $i$ onto the face opposite to it.
+
+
+
+## augmented simplex category ##
+
+* Often, it is highly convenient to extend the category $\Delta$ to contain also the empty totally ordered set $[-1] := \emptyset$. This is called the _augmented_ simplex category $\Delta_a$, and presheaves on it are **augmented simplicial sets**. The category $\Delta_a$ may be characterized as the initial strict monoidal category equipped with a monoid; the monoidal product is ordinal sum, and the monoidal unit is the empty ordinal. This style of definition also opens up the possibility of using string diagrams to visualize the structure of $\Delta_a$ and of the [[cube category]] $\Box$. 
+
+
+## monoidal structure ##
+
+Addition of natural numbers extends to [[tensor product]]-functor on $\Delta$
+
+$$
+  + : \Delta \times \Delta \to \Delta
+$$
+
+which acts on objects 
+
+$$
+  [n] + [m] = [n + m]
+$$
+
+and on morphisms $f : [m] \to [m']$ and $g : [n] \to [n']$ as 
+
+$$
+  (f+g)(i) = \left\lbrace
+     \array{
+       f(i) & if 0 \leq i  \leq m
+       \\
+       g(i-m-1) + m' + 1 & if m \lt i \leq (m+n+1)
+     }
+  \right.
+  \,.
+$$
+
+Under [[Day convolution]] this monoidal structure induces the [[join of simplicial sets]].
+
+
+### realization and nerve ###
+
+There are important standard functors from $\Delta$ to other categories which _realize_ $[n]$ as a concrete model of the standard $n$-[[simplex]].
+
+* The functor
+$$
+  |\cdot| : \Delta \to Top
+$$
+sends $[n]$ to the standard topological $n$-simplex $[n] \mapsto \{x_0 \leq x_1 \leq \cdots \leq x_n \leq 1\}\subset \mathbb{R}^{n}$. This functor induced [[geometric realization]] of [[simplicial set]]s.
+
+* The functor
+$$
+  O : \Delta \to Str\omega Cat  
+$$
+sends $[n]$ to the $n$th [[oriental]]. This induces simplicial [[nerve]]s of [[omega-category|omega-categories]].
+
+Under the functro $Str \omega Cat \to Cat$ which discards all higher morphisms and identifies all 1-morphisms that are connected by a 2-morphisms, this becomes again the identification of $\Delta$ with the full subbcategory of $Cat$ on linear [[quiver]]s that we srated the above definition with
+
+$$
+  [n] \mapsto \{0 \to 1 \to \cdots \to n\}
+  \,.
+$$
+
+#References#
+
+see the references at [[simplicial set]].
+
+***
 
 #Discussion#
 
