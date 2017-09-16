@@ -136,3 +136,6 @@ But maybe the the true issue is whether we want to speak of "directed objects" o
 I consider you as an authority on such issues of logical rigour. You should say how we should fix the terminology and we'll implement that.
 
 _Toby_: I\'ll discuss this at [[directed object]].
+
+
+[[!redirects d-space]]
