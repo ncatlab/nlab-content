@@ -43,3 +43,7 @@ Left exactness is sometimes abbreviated **lex**.  In particular, $Lex$ is the 2-
 for instance section 3.3 of
 
 * Kashiwara, Schapira, [[Categories and Sheaves]]
+
+
+[[!redirects left exact functor]]
+[[!redirects right exact functor]]
