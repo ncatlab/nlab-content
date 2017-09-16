@@ -11,7 +11,7 @@ The word 'algebra' is often also used for an algebraic structure:
 
 Various fields of mathematics or mathematical concepts can be manipulated in an algebraic or symbolic way, and such approaches or formalized subfields have names like [[categorical algebra]], [[homological algebra]], [[homotopical algebra]] and so on. Methods of combinatorics which involve much algebra, and manipulations with [[formal power series]] in particular, are called [[algebraic combinatorics]].
 
-The nlab has a number of entries on particular algebraic structures, e.g. [[ring]], [[monoid]], [[group]], [[ring]], [[quasigroup]], [[associative algebra]], [[Lie algebra]], [[coalgebra]], [[dg-algebra]], [[bialgebra]], [[graded algebra]], [[Hopf algebra]] etc. 
+The nlab has a number of entries on particular algebraic structures, e.g. [[monoid]], [[group]], [[ring]], [[quasigroup]], [[associative algebra]], [[Lie algebra]], [[coalgebra]], [[dg-algebra]], [[bialgebra]], [[graded algebra]], [[Hopf algebra]] etc. 
 
 
 #Further references#
