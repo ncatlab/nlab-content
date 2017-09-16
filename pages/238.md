@@ -13,7 +13,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-16
 
-* [[Zoran Škoda|Zoran]]: Created [[Loday-Pirashvili category]] and [[equivariant object]].
+* [[Zoran Škoda|Zoran]]: Created [[Loday-Pirashvili category]] and [[equivariant object]]. In the entry [[Bousfield localization]] I added a paragraph on Bousfield localization for triangulated categories. 
 
 # 2009-03-15
 
