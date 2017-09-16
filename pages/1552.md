@@ -51,6 +51,8 @@ The categories $Gau$ and $QGau$ are not well known, but some of their subcategor
    $$ d_U(x,y) = \begin{cases} 0 & if\; x \in U \;\Rightarrow\; y \in U ,\\ 1 & if\; x \in U \;\wedge\; y \notin U ;\end{cases} $$
    then the $d_U$ form a base for a quasigauge, which induces the original topology on $X$.  In other words, every space is "quasigaugeable."  In this way $Top$ also becomes a full subcategory of $QGau$.  Note, though that replacing $1$ by any other positive real number gives a _different_ embedding of $Top$ in $QGau$.
 
+* Another way to get a quasigauge space from a topological space is to take as a base the set of all quasi-pseudometrics $d$ on $X$ such that for each $x\in X$, the function $d(x,-):X\to \mathbb{R}$ is [[semicontinuous function|upper semicontinuous]].  This is also a full embedding of $Top$ in $QGau$, which is perhaps more "canonical."
+
 +--{: .query}
 [[Mike Shulman|Mike]]: Back atcha... do you have any good examples of gauge spaces that are not of one of these types?  And is there any value in embedding metric spaces, uniform spaces, and topological spaces into this mysterious larger category $QGau$, in ways so that their images are essentially disjoint?  Do we ever, for instance, want to talk about a short map from a metric space to a topological space, or vice versa?  I would like the answer to be "yes," but I haven't managed to make it come out that way myself yet.
 
@@ -65,6 +67,8 @@ Seeing this as inclusions and (co)reflections prevents any expectation that the 
 [[Mike Shulman|Mike]]: I believe I did check that $Top\to QGau$ is full, but you should verify it.
 
 I removed my comments about triangles commuting; go ahead and write about the reflections and I'll see whether I still want to make that comment.  I can see thinking of uniform spaces as "saturated" gauge spaces, so that the uniform space underlying a metric space is its "saturation" (reflection) in the larger category $Gau$.  Perhaps Cauchy spaces can also be thought of this way.  I will be kind of surprised if $Top$ turns out to be reflective in $QGau$, but if it were that would also be pretty neat.
+
+[[Mike Shulman|Mike]]: I added a new embedding of $Top$ in $QGau$, which seems to me more likely to be (co)reflective.
 
 =--
 
