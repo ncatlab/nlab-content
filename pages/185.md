@@ -9,11 +9,14 @@ These generalized smooth algebras, usually called **$C^\infty$-rings** are examp
 #Motivating example#
 
 For $X$ a smooth [[manifold]], the assignment
+
 $$
   \mathbb{R}^n \mapsto C^\infty(X,\mathbb{R}^n)
+   = Hom_{Diff}(X,\mathbb{R}^n)
 $$
-is clearly covariant and hence yields a co-presheaf on [[CartSp]]. Moreover, the componentwise multiplication in $\mathbb{R}$ makes this a product-preserving co-presheaf:
-we naturally have 
+
+of the [[set]] of smooth $\mathbb{R}^n$-valued functions on $X$ is clearly covariant and hence yields a co-presheaf on [[CartSp]] $\subset$ [[Diff]]. Since the [[hom-functor]] sends [[limit]]s to [[limit]]s in its second argument this is clearly [[product]] preserving. 
+
 $$
   C^\infty(X, \mathbb{R}^n \times \mathbb{R}^m)
   \simeq
@@ -21,22 +24,35 @@ $$
   \times
   C^\infty(X, \mathbb{R}^m)
 $$
-(by the universal property of the cartesian product) and the product on functions $C^\infty(X) \times C^\infty(X) \to C^\infty(X)$ can be regarded as the image of our co-presheaf under the muliplication map $\mathbb{R} \times \mathbb{R} \stackrel{p}{\to} \mathbb{R}$
+
+If as usual we write $C^\infty(X) := C^\infty(X,\mathbb{R})$ for the set of just $\mathbb{R}$-valued smooth functions, then the usual pointwise product of functions
 
 $$
+ \cdot :  C^\infty(X) \times C^\infty(X) \to C^\infty(X)
+$$ 
+
+can be regarded as the image of our co-presheaf under the muliplication map $\mathbb{R} \times \mathbb{R} \stackrel{-\cdot -}{\to} \mathbb{R}$ on the algebra of real numbers:
+
+$$
+  \cdot
+  :
   C^\infty(X)
   \times
   C^\infty(X)
-  =  
+  :=  
   C^\infty(X,\mathbb{R})
   \times
-  C^\infty(X,\mathbb{R}\times \mathbb{R})
-  \stackrel{C^\infty(X,p)}{\to}
   C^\infty(X,\mathbb{R})
   \simeq
+  C^\infty(X,\mathbb{R}\times \mathbb{R})
+  \stackrel{C^\infty(X,-\cdot-)}{\to}
+  C^\infty(X,\mathbb{R})
+  =:
   C^\infty(X)
   \,.
 $$
+
+
 
 #Definitions#
 
@@ -52,7 +68,7 @@ on manifolds of the form $\mathbb{R}^n$.
 +-- {: .un_defn}
 ###### Definition
 
-A $C^\infty$-algebra is a finite product-preserving co-presheaf on [[CartSp]], i.e. a finite product preserving functor
+A $C^\infty$-algebra is a finite [[product]]-preserving [[presheaf|co-presheaf]] on [[CartSp]], i.e. a finite [[product]] preserving [[functor]]
 
 $$
   A : CartSp \to Set
@@ -68,7 +84,7 @@ The category of such functors and [[natural transformation]]s between them we de
 +-- {: .un_defn}
 ###### Definition
 
-For $X$ a smooth manifold, the smooth algebra 
+For $X$ a smooth [[manifold]], the smooth algebra 
 $C^\infty(X)$ is the functor
 
 $$
@@ -92,6 +108,21 @@ $$
   \,.
 $$
 
+More generally, for 
+$i : C \to A$ and $j : C \to B$ two morphisms in $C^\infty Alg$, we call the [[pushout]]
+
+$$
+  \array{
+    C &\stackrel{i}{\to}& A
+    \\
+    \downarrow && \downarrow
+    \\
+    B &\stackrel{j}{\to}& A \otimes_C B
+  }
+$$
+
+the **smooth tensor product over $C$** of $A$ and $B$.
+
 =--
 
 
@@ -101,6 +132,8 @@ $$
 
 
 # Properties #
+
+## general properties ##
 
 There is a [[stuff, structure, property|forgetful functor]] 
 
@@ -116,7 +149,7 @@ $$
 
 and equipping the set $A(\mathbb{R})$ with the algebra structure induced on it: 
 
-the product and sum on $A(\mathbb{R})$ is then the image of the corresponding operations on the algebra $\mathbb{R}$
+the product and sum on $A(\mathbb{R})$ is the image of the corresponding operations on the algebra $\mathbb{R}$
 
 $$
   \cdot_A 
@@ -158,9 +191,9 @@ This makes $A(\mathbb{R})$ an $\mathbb{R}$-algebra.
 
 
 +-- {: .un_prop}
-###### Proposition ( _MoerRey_ , prop. 1.1)
+###### Proposition ( [[Models for Smooth Infinitesimal Analysis|MSIA]] , prop. 1.1)
 
-$C^\infty(\mathbb{R})$ is the free smooth algebra#
+$C^\infty(\mathbb{R})$ is the free smooth algebra
 on $n$ generators, in that for every $n \in \mathbb{N}$ 
 and every smooth algebra $A$ there is an [[adjunction]]
 isomorphism
@@ -174,24 +207,70 @@ $$
 
 =--
 
-+-- {: .un_prop}
-###### Proposition ( _MoerRey_ , prop. 2.5)
++-- {: .un_remark}
+###### Remark 
 
-For $X$ and $Y$ smooth manifolds we have
+While a product-preserving co-presheaf $A$ induces the structure of an algebra on each of the sets $A(\mathbb{R}^n)$, with product induced from the componentwise product $\mathbb{R}^n \times \mathbb{R}^n  \to \mathbb{R}^n$, it is not a _co-presheaf with values in algebras_: the co-restriction morphisms assigned to maps $\mathbb{R}^n \to \mathbb{R}^m$ which are not just projections or injections will not be algebra homomorphisms.
 
-$$
-  C^\infty(X) \otimes_{\infty} C^\infty(Y)
-  \simeq
-  C^\infty(X \times Y)
-  \,.
-$$
+But conversely this means that restricted to such maps, i.e. restricted along the inclusion $FinSet \hookrightarrow CartSp$ of [[CartSp]], $A$ does become a co-presheaf with values in algebras. 
 
 =--
 
 
-**Remark**
++-- {: .un_remark}
+###### Remark 
 
-Notice that the ordinary algebraic tensor product of $C^\infty(X)(\mathbb{R})$ and $C^\infty(Y)(\mathbb{R})$ regarded as ordinary algebras does not satisfy this property, rather one has
+In the context of [[geometric function theory]] the corresponding general statement (without the transversality condition) says that $C^\infty(X)$ is a "good" kind of function. The above equation is one sub-aspect of the one of the fundamental theorems of [[geometric infinity-function theory]].
+
+=--
+
+
+## smooth function algebras on manifolds ##
+
+
++-- {: .un_prop}
+###### Proposition ([[Models for Smooth Infinitesimal Analysis|MSIA]] prop. 2.5, 2.6 )
+
+Let $f : X \to Z$ and $g : Y \to Z$ be  [[transversal maps]] of smooth [[manifold]]s. Then the functor $C^\infty(-)$ sends the [[pullback]]
+
+$$
+  \array{
+    X \times_Z Y &\to& X
+    \\
+    \downarrow && \downarrow^f
+    \\
+    Y &\stackrel{g}{\to}& Z
+  }
+$$
+
+to the [[pushout]]
+
+$$
+  \array{
+    C^\infty(X) \otimes_{C^\infty(Z)} C^\infty(Y)
+    =: & C^\infty(X \times_Z Y) &\leftarrow& C^\infty(X)
+    \\
+    & \uparrow && \uparrow^{f^*}
+    \\
+    & C^\infty(Y) &\stackrel{g^*}{\leftarrow}& C^\infty(Z)
+  }
+$$
+
+
+=--
+
+In particular this implies (for $Z = {*}$)that the the smooth tensor product of functions on $X$ and $Y$ is the algebra of functions on the [[product]] $X \times Y$:
+
+$$
+  C^\infty(X \times Y) \simeq C^\infty(X) \otimes_\infty C^\infty(Y)
+  \,.
+$$
+
++-- {: .un_remark}
+###### Remark 
+
+
+The ordinary algebraic tensor product of $C^\infty(X)(\mathbb{R})$ and $C^\infty(Y)(\mathbb{R})$ regarded as ordinary algebras does _not_ in general satisfy this property. Rather one has an inclusion
 
 $$
   C^\infty(X)(\mathbb{R}) \otimes C^\infty(Y)(\mathbb{R})
@@ -200,16 +279,36 @@ $$
   \,.
 $$
 
-Turning this inclusion into an equivalence is usually called a _completion_ of the algebraic tensor product. The smooth tensor product need not be completed. 
+Turning this inclusion into an equivalence is usually called a _completion_ of the algebraic tensor product. Therefore we see that the **smooth tensor product is automatically the completed tensor product** .
 
-In the context of [[geometric function theory]] this says that $C^\infty(X)$ is a "good" kind of function. The above equation is the first part of the fundamental theorem of [[geometric infinity-function theory]].
+=--
 
 
-#Remarks#
 
-* While such a product-preserving co-presheaf $A$ induces the structure of an algebra on each of the sets $A(\mathbb{R}^n)$, with product induced from the componentwise product $\mathbb{R}^n \times \mathbb{R}^n  \to \mathbb{R}^n$, it is not a _co-presheaf with values in algebras_: the co-restriction morphisms assigned to maps $\mathbb{R}^n \to \mathbb{R}^m$ which are not just projections or injections will not be algebra homomorphisms.
+In summary this yields the following characterization of smooth function algebras on manifolds.
 
-* But conversely this means that restricted to such maps, i.e. restricted along the inclusion $FinSet \hookrightarrow CartSp$ of [[CartSp]], $A$ does become a co-presheaf with values in algebras. 
++-- {: .un_theorem}
+###### Theorem ([[Models for Smooth Infinitesimal Analysis|MSIA]] , theorem 2.8)
+
+The functor $C^\infty(-) = Hom_{Diff}(-,-) : Diff \to C^\infty Alg$ 
+
+* is a [[full and faithful functor]]
+
+* takes values in finitely presented smooth $C^\infty$-algebras
+
+* sends transversal [[pullback]]s to [[coproduct]]s (and hence to the smooth tensor product).
+
+=--
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -217,13 +316,14 @@ In the context of [[geometric function theory]] this says that $C^\infty(X)$ is 
 
 This definition was introduced in 
 
-* **MoerRey** Ieke Moerdijk and Gonzalo E. Reyes, _Models for Smooth Infinitesimal Analysis_ Springer (1991)
+* Ieke Moerdijk and Gonzalo E. Reyes, [[Models for Smooth Infinitesimal Analysis]] Springer (1991)
 
-see also
+Chpater I deals with generalized smooth algebras, where they are called **$C^\infty$-rings**.
+
+See also
 
 * Lawvere, _Categorical dynamics_ in _Topos theoretic methods in geometry_, volume 30 of _Various Publ. Ser._, pages 1-28, Aarhus Univ. (1997)
 
-The definition itself appears on p. 16.
 
 A brief but useful review is also on p. 3 of
 
@@ -231,3 +331,6 @@ A brief but useful review is also on p. 3 of
 
 
 [[!redirects generalized smooth algebras]]
+
+
+
