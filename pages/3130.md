@@ -12,7 +12,9 @@ More in detail, for every [[generalized (Eilenberg-Steenrod) cohomology]] theory
 
 $$
   H(-,E)\otimes \mathbb{R}
+  \;\;
   \stackrel{\simeq}{\to}
+  \;\;
   H(-,(\pi_* E)\otimes \mathbb{R})
   \,.
 $$
@@ -22,11 +24,19 @@ So rationally, every generalized (Eilenberg-Steenrod) cohomology is ordinary (Ei
 $$
   ch
   :
-  H(-,E) \to H(-,E)\otimes \mathbb{R} \simeq H(-,\pi_* E \otimes \mathbb{R})
+  H(-,E) 
+  \;\;
+  \to 
+  \;\;
+  H(-,E)\otimes \mathbb{R} 
+  \;\;
+  \stackrel{\simeq}{\to} 
+  \;\;
+  H(-,\pi_* E \otimes \mathbb{R})
   \,.
 $$
 
-In the case that $E = KU$ is the [[K-theory]] spectrum, this morphism is classically known as the **Chern character**. Generalizing from this example, the terms "Chern character" is sometimes used also for the general case.
+In the case that $E = KU$ is the [[K-theory]] spectrum, this morphism is classically known as the **Chern character**. Generalizing from this example, the term "Chern character" is sometimes used also for the general case.
 
 
 ## For vector bundles and K-theory
@@ -59,7 +69,9 @@ The [[isomorphism]]
 
 $$
   H(-,E)\otimes \mathbb{R}
+  \;\;
   \stackrel{\simeq}{\to}
+  \;\;
   H(-,(\pi_* E)\otimes \mathbb{R})
 $$
 
@@ -67,4 +79,4 @@ that defines the Chern-character map is induced by a canonical cocycle on the [[
 
 This is described for instance in section [4.8, page 47](http://arxiv.org/PS_cache/math/pdf/0211/0211216v2.pdf#page=47) of
 
-* [[Mike Hopkins]], I. Singer, [[Quadratic functions in geometry, topology,and M-theory]] ([arXiv](http://arxiv.org/abs/math.AT/0211216))
+* [[Mike Hopkins]], I. Singer, [[Quadratic Functions in Geometry, Topology,and M-Theory]] ([arXiv](http://arxiv.org/abs/math.AT/0211216))
