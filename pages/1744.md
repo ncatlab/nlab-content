@@ -60,11 +60,23 @@ $$
 
 for the composite functors. Often by slight abuse of notation we suppress the boldface and just write $sk_n : sSet \to sSet$ and $cosk_n : sSet \to sSet$.
 
-
-The $k$-coskeleton of a simplicial set $X$ is given by the formula
+these in turn form an [[adjunction]]
 
 $$
-  \mathbf{cosk}_k X : [n] \mapsto Hom_{sSet}(sk_k \Delta^n, X)
+  (\mathbf{cosk}_n \dashv \mathbf{sk}_n)
+  \;\;
+  :
+  \;\;
+  sSet
+  \stackrel{\leftarrow}{\to}
+  sSet
+  \,.
+$$
+
+So the $k$-coskeleton of a simplicial set $X$ is given by the formula
+
+$$
+  \mathbf{cosk}_k X : [n] \mapsto Hom_{sSet}(\mathbf{sk}_k \Delta[n], X)
   \,.
 $$
 
@@ -102,11 +114,13 @@ For $X \in $ [[sSet]], the following are equivalent:
 
 ## Examples
 
-### $n$-coskeletal Kan complexes
+* The [[nerve]] of a [[category]] is a 2-coskeletal simplicial set.
 
-A [[Kan complex]] that is $n$-coskeletal is (the [[nerve]] of) an [[n-groupoid]].
+* A [[Kan complex]] that is $n$-coskeletal is (the [[nerve]] of) an [[n-groupoid]].
 
-A 0-coskeletal simplicial set $X$ is a [[contractible]] [[Kan complex]] , $X \stackrel{\simeq}{\to} *$ that is the [[nerve]] $X = N(C)$ of a [[groupoid]] $C$ that has a [[equivalence of categories]] $C \simeq *$.
+* A 0-coskeletal simplicial set $X$ is a [[contractible]] [[Kan complex]] , $X \stackrel{\simeq}{\to} *$ that is the [[nerve]] $X = N(C)$ of a [[groupoid]] $C$ that has a [[equivalence of categories]] $C \simeq *$.
+
+
 
 ## References
 
