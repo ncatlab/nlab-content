@@ -24,7 +24,7 @@ Working out the meaning of '$Cat$-enriched category', we find that a 2-category 
 
 * a collection $ob K$ of objects $a,b,c,\ldots$, together with
 * a hom-[[category]] $K(a,b)$ for each $a,b$, and
-* a [[functor]] $1_a : \mathbf{1} \to K(a,a)$ and a [[bifunctor]] $comp : K(b,c) \times K(a,b) \to K(a,c)$
+* a [[functor]] $1_a : \mathbf{1} \to K(a,a)$ and a functor $comp : K(b,c) \times K(a,b) \to K(a,c)$
 
 satisfying associativity and identity axioms (given [[enriched category|here]]).
 
