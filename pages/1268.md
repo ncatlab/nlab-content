@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Definition#
 
 A _D-module_ is a [[abelian sheaf|sheaf]] of [[modules]] over the [[sheaf]] $D_X$ of [[regular differential operators]] on a 'variety' $X$ (the latter notion depends on whether we work over a [[scheme]], [[manifold]], analytic complex manifold etc.). As $O_X$ is a subsheaf of $D_X$ consisting of the zeroth-order differential operators (multiplications by the sections of structure sheaf), every $D_X$-module is an $O_X$-module.  Moreover, the (quasi)coherence of $D_X$-modules implies the (quasi)coherence of a $D_X$-module regarded as an $O_X$-module (but not vice versa). 
