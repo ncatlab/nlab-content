@@ -15,6 +15,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-08-14
+
+* [[David Roberts]] added to the discussion at [[category theory]]. 
 
 ## 2009-08-13
 
