@@ -83,3 +83,7 @@ The relation to [[localization of an (infinity,1)-category]] is also in [[Higher
 A detailed discussion of Bousfield localization also in the context of [[enriched model category|enriched model categories]] is in
 
 * Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
+
+
+[[!redirects bousfield localization]]
+[[!redirects Bousfield localisation]]
