@@ -5,6 +5,7 @@ Do you mean __*locally* presentable__?  Or are you following Lurie now?  Should 
 
 [[Urs Schreiber]]: oh, sorry, this is a result of bad copy-and-pasting, I had meant to type locally presentable -- but now that we are discussing this, maybe we can sort this out: what's the point of saying "locally" presentable? Which reasons would there be not to follow Lurie on this? 
 
+_Toby_:  The only thing that I can think of offhand is to distinguish from [[algebraic category|equationally presentable category]].  (Actually, what I really mean is that if I Google `"presentable category"`, then I only get hits with 'locally' in them, and if I Google `"presentable category" -locally`, then I only get hits with 'equationally' in them.)
 =--
 
 * $C$ is [[locally small category]]
