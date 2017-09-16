@@ -124,12 +124,13 @@ where the right side is the predicate "true over $X$".
  
 Thus we construct the subset $\{C \in PX: A \subseteq C\}$ of $PX$ via the pullback:
 
-$$\array{
-\arrayopts{\rowalign{center axis center}}
+$$
+\begin{matrix}
 \{ C : A \le C \} & \longrightarrow & 1 \\
 \downarrow & & \downarrow \mathrlap{\scriptsize{t_X}} \\
-PX & \underset{\dlap{\chi_A \Rightarrow -}}{\longrightarrow} & PX
-}$$
+PX & \underset{\chi_A \Rightarrow -}{\longrightarrow} & PX
+\end{matrix}
+$$
 
 Let me take a moment to examine what this diagram means exactly.  [Last
 time](http://topologicalmusings.wordpress.com/2008/09/10/etcs-internalizing-the-logic) we constructed an internal implication operator
