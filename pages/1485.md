@@ -38,13 +38,66 @@ is in $G$ whenever $(U, \phi)$ is a coordinate chart of $x \in M$, and $(V, \psi
 
 * Alternatively, atlases are ordered by inclusion, and two atlases define the same manifold structure on $M$ if they have a common upper bound. Equivalently, two atlases define the same manifold structure if each chart of one is compatible with each chart of the other. Or, one could extend any atlas to the (unique) maximal atlas containing it, which consists of all charts compatible with each of the charts in the original atlas, and simply identify a manifold structure with a maximal atlas. 
 
-+--{.query}
-_Todd_: I think I'd want to hold off on calling these morphisms (where one uses a general continuous $f: M \to N$), because it may give rise to later confusion when one settles down to define categories of manifolds (in the usual way, with manifolds of varying dimensions). For example, even between manifolds of the same dimension, we'd want constant maps as part of that category, but constant maps are (almost) never morphisms in the sense here. I just think we're asking for trouble here. 
+## Morphisms of Manifolds
 
-[In fact, it seems to me that the pseudogroup approach may be a bit limiting: really we should be reformulating the definitions so that the pseudogroups (for varying $X$, like $X = \mathbb{R}^n$) are part of a larger category, e.g., the category of open maps in Euclidean space and smooth maps between them, so that it becomes easier to say what we mean by a map between manifolds of the same type (i.e., real, complex, PL, etc.). But I've not seen this actually carried out, and it looks like this would involve some original research which I haven't had time to, um, research yet.] 
+Note: the following is tentative "original research". It is prompted by the desire to extend the pseudogroup approach for defining general notions of manifold, so as to cover also an appropriate general notion of "map". Comments, improvements, and corrections are encouraged -- _Todd_. 
 
-_Toby_:  Ah yes, I forgot that the morphisms of $G$ are invertible; I was imagining that all smooth maps (between the relevant objects) were in $G$.  It seems like this *should* be doable, but I haven\'t seen it either.
-=-- 
+We begin by defining the bicategory of **regions**, denoted $Reg$. The objects are topological spaces (or locales if you prefer); the morphisms are spans 
+
+$$X \overset{i}{\leftarrow} U \overset{f}{\to} Y$$ 
+
+where $f$ is continuous and $i$ is an open inclusion. The spans are locally ordered by inclusion. The local posets are not cocomplete, but they admit certain obvious colimits: given a family of regional maps 
+
+$$(U_\alpha, f_\alpha): X \to Y$$
+
+the colimit $\sum_\alpha (U_\alpha, f_\alpha)$ exists iff we have local compatibility: 
+
+$$f_{\alpha}|_{U_\alpha \cap U_\beta} = f_{\beta}|_{U_\alpha \cap U_\beta}$$ 
+
+for all $\alpha, \beta$. Notice that composition on either side with a 1-cell preserves any local colimits which exist. 
+
+Every coreflexive morphism $r \leq 1_X$ in $Reg$ splits: there is a map in $Reg$, 
+
+$$Ext(r) \overset{id}{\leftarrow} Ext(r) \overset{i}{\to} X,$$ 
+
+such that the span $i^{op}$ also belongs to $Reg$, and the equations 
+
+$$i^{op} \circ i = 1_{Ext(r)} \qquad i \circ i^{op} = r$$ 
+
+hold. The object $Ext(r)$ may be called the _extension_ of $r$. This splitting is a kind of comprehension principle familiar from the theory of [[allegory|allegories]], among other things. 
+
+A **cartology** is a (locally full) subbicategory $i: C \hookrightarrow Reg$ such that 
+
+* (Closure under open subspaces) If $X \in Ob(C)$ and $r \leq 1_X$ in $Reg$, then $i: Ext(r) \to X$ and its opposite $i^{op}$ are morphisms of $C$. 
+* ("Sheaf condition") The inclusion $i: C \to Reg$ reflects and preserves local colimits. 
+
+Intended examples include the case where the objects of $C$ are Euclidean spaces $\mathbb{R}^n$, and morphisms are spans 
+
+$$(U, f): \mathbb{R}^m \to \mathbb{R}^n$$ 
+
+where $f$ is smooth. 
+
+Given a cartology $C$, a morphism $r = (U, f): X \to Y$ in $C$ is **pseudo-invertible** if there exists $s = (V, g): Y \to X$ such that $s \circ r = 1_U$ and $r \circ s = 1_V$. 
+
+**Lemma**: In a cartology, the pseudo-invertible morphisms from an object $X$ to itself form a pseudogroup (as defined earlier). 
+
+The notion of a $C$-manifold modeled on an object $X$ of $C$ is defined just as before, using the pseudogroup on $X$ implied by the previous lemma. In particular, we have $C$-**charts** of an atlas structure on $M$, which are morphisms in $Reg$ 
+
+$$X \overset{i}{\leftarrow} U \overset{\phi}{\to} M$$ 
+
+satisfying the expected properties. We can thus speak of  $C$-**manifolds** (or $(C, X)$-manifolds if we want to make explicit the modeling space $X$). 
+
+Now, given a cartology $C$, we define the category of $C$-manifolds. Let $M$ be a $(C, X)$-manifold and $N$ a $(C, Y)$-manifold. Then, a $C$-**morphism** from $M$ to $N$ is a continuous map $f: M \to N$ such that the $Reg$-composite 
+
+$$\array{
+&& U &&&& M &&&& V && \\
+& i \swarrow && \searrow \phi && 1 \swarrow && \searrow  f && \psi \swarrow && \searrow j & \\
+X &&&& M &&&& N &&&& Y
+}$$
+
+belongs to $C$, for every pair of charts $(U, \phi): X \to M$ and $(V, \psi): Y \to N$. 
+
+These definitions need to be carefully checked against known examples (e.g., the categories $Top$, $PL$, and $Smooth$, among others). 
 
 ## Examples 
 
