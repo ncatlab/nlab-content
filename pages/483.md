@@ -187,3 +187,5 @@ _Toby_: I\'ll discuss this at [[directed object]].
 
 
 [[!redirects d-space]]
+[[!redirects d-spaces]]
+[[!redirects directed spaces]]
