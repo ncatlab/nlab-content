@@ -2,6 +2,10 @@
 
 A special case of the general notion of a [[derived functor]] on the [[homotopy category]] of a [[homotopical category]] is that of a derived functor on the [[category of chain complexes]] of an [[abelian category]]. This is the original case in which derived functors were considered in [[homological algebra]]. This entry discusses special aspects of this special situation.
 
++--{: .query}
+[[Mike Shulman|Mike]]: Somewhere, we should talk about derived functors in the very traditional sense of "extending the image of a short exact sequence to a long exact sequence."
+=--
+
 #Derived functors in homological algebra#
 
 Here are some peculiarities of the concept of derived functors in [[homological algebra]], mostly due to historical reasons:
