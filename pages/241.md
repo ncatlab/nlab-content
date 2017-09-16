@@ -36,7 +36,9 @@ By the general theory of [[geometric morphisms]], every Grothendieck topos sits 
 
 Giraud characterized Grothendieck toposes as categories satisfying certain exactness and small [[complete category|completeness]] properties (where "small" is again relative to the given category of sets $S$). The exactness properties are elementary (not depending on $S$), and are satisfied in any elementary [[topos]], or even a [[pretopos]].
 
-Giraud\'s theorem characterises Grothendieck toposes as follows:
+Giraud's theorem characterises Grothendieck toposes as follows:
+
+
 * a [[locally small category]] with a small [[generating set]],
 * with all finite [[limits]],
 * with all small [[coproducts]], which are [[disjoint coproduct|disjoint]], and [[pullback stability|pullback-stable]],
@@ -45,6 +47,9 @@ Giraud\'s theorem characterises Grothendieck toposes as follows:
 These conditions are equivalent to
 
 * a locally small [[pretopos|infinitary pretopos]] with a small generating set.
+
+
+See [[Elephant]], theorem 2.2.8.
 
 (See [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Topos#Giraud.27s_axioms).)
 
@@ -80,3 +85,5 @@ The proof of Giraud's theorem for [[(∞,1)-topoi]] is section 6.1.5 of
 [[!redirects Giraud's axioms]]
 [[!redirects Giraud axioms]]
 [[!redirects Giraud axiom]]
+[[!redirects Giraud's theorem]]
+[[!redirects Giraud theorem]]
