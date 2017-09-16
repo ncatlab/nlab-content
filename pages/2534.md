@@ -55,6 +55,9 @@ In the following, let $\mathcal{X} = \langle X,\mu_X\rangle$ and $\mathcal{Y} = 
 [[Eric]]: What would a colimit over an MSet-valued functor $F:A\to MSet$ look like?
 
 _Toby_:  That depends on what the morphisms are.
+
+[[Eric]]: I wonder if there is enough freedom in the definition of morphisms of multisets so that the colimit turns out particularly nice. I'm hoping that it might turn out to be simply the sum of multisets. According to [[limits and colimits by example]] the colimit of a Set-valued functor is a quotient of the disjoint union.
+
 =--
 
 ## Morphisms
