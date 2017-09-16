@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -60,7 +59,7 @@ J.Pure Appl.  Alg., 24 (1982) 179--202.
 
 * R.Steiner, Resolutions of spaces by  $n$-cubes of fibrations, J. London Math. Soc.(2), 34, 169-176, 1986.
 
-* Casas, J. M.; Ellis, G.; Ladra, M.; Pirashvili, T., Derived functors and the homology of $n$-types. J. Algebra 256 (2002) 583--598.
+* J. M. Casas, G. Ellis, M. Ladra, T. Pirashvili, _Derived functors and the homology of $n$-types_, J. Algebra __256__, 583--598 (2002).
 
 [[!redirects fundamental infinity-groupoids]]
 [[!redirects fundamental ∞-groupoid]]
