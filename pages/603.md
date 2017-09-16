@@ -559,6 +559,7 @@ Usually, if one works the the other does too.  Occasionally one fails where the 
 
 It definitely does not feel to me as though the smallest hyperstructure should exist.  The problem with your proposal is when you say "form all composites."  Since composites are not an _operation_, this can't mean "for any $x$ and $y$ already in our sub-hyperstructure, add in _the_ composite of $x$ and $y$."  If we just arbitrarily pick some particular composite of $x$ and $y$ to add, then there might be other sub-hyperstructure that chose a different composite, so what we end up with won't be the smallest (in the "minim<i>um</i>" sense) sub-hyperstructure such that (blah).  We might be able to construct a minim<i>al</i> sub-hyperstructure, but it wouldn't be uniquely determined, so we couldn't talk about [[generalized the|the]] hyperstructure of extended cobordisms.
 
+_Toby_:  And then, you might have to rely on Zorn\'s Lemma (the [[axiom of choice]]) to prove that even such a minimal structure exists!
 =--
 
 This means that multi-cospans in $ExtendedCobordisms$ arise from iteratively tensoring with the interval and forming pushouts, which amounts to foming [[co-span co-trace]]s.
