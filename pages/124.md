@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include category theory - contents]]
+</div>
+
+
 ## Idea
 
 A topos is a [[category]] that resembles the category of sets and functions enough that we can use it as a 'universe' to do ordinary mathematics in.  Ordinary mathematical reasoning (with some restrictions) suffices to prove results [[internalisation|internal]] to any topos.
