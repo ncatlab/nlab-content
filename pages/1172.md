@@ -45,9 +45,14 @@ A Cauchy space $S$ is __precompact__ (or __totally bounded__) if every filter is
 
 Eva Lowen-Colebunders (1989). Function Classes of Cauchy Continuous Maps. Dekker, New York, 1989.
 
-
+[[!redirects Cauchy spaces]]
 [[!redirects Cauchy filter]]
 [[!redirects Cauchy continuous map]]
 [[!redirects Cauchy continuous function]]
 [[!redirects Cauchy-continuous map]]
 [[!redirects Cauchy-continuous function]]
+[[!redirects Cauchy filters]]
+[[!redirects Cauchy continuous maps]]
+[[!redirects Cauchy continuous functions]]
+[[!redirects Cauchy-continuous maps]]
+[[!redirects Cauchy-continuous functions]]
