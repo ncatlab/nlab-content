@@ -1,6 +1,17 @@
 The usual [[cohomology]] for $G$-spaces is the [[equivariant cohomology]] $H^*_G(X)$ (in classical case just the cohomology of the Borel construction $E G\times_G X$, sometimes called in this context the homotopy orbit space). 
 
-Bredon cohomology is another cohomology of $G$-spaces, defined with the help of the [[orbit category]] and its usual coefficients are presheaves of abelian groups on the [[orbit category]]. There is an interesting (nontrivially) equivalent definition by Moerdijk and Svensson, using the [[Grothendieck construction]] for a certain $Cat$-valued presheaf on the orbit category. 
+Bredon cohomology is another cohomology of $G$-spaces, defined with the help of the [[orbit category]] and its usual coefficients are presheaves of abelian groups on the [[orbit category]]. 
+
+Where ordinary cohomology has as coefficient objects abelian groups, Bredon cohomology has as coefficients [[functor]]s 
+
+$$
+  O(G) \to Ab
+$$
+
+from the [[orbit category]] of $G$ into [[Ab]].
+
+
+There is an interesting (nontrivially) equivalent definition by Moerdijk and Svensson, using the [[Grothendieck construction]] for a certain $Cat$-valued presheaf on the orbit category. 
 
 * I. Moerdijk, J-A. Svensson, _The equivariant Serre spectral sequence_, Proc. Amer. Math. Soc. __118__ (1993), no. 1, 263--278 [doi:10.2307/2160037](http://dx.doi.org/10.2307/2160037)
 
