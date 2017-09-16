@@ -11,6 +11,7 @@ In contexts where the elements of $\mathbb{B}$ represent logical values, for exa
 Treatments of boolean-valued functions, predicates, and propositions are frequently conducted relative to a $k$-dimensional boolean coordinate system, where $k$ is a nonnegative integer.  This means that the consideration of arbitrary maps of type $X \to \mathbb{B}$ can be approached only through their approximations by _coordinate compatible maps_ or _representable predicates_, that is, maps of the form $f = f_\kappa \circ \kappa$, where $\kappa(x)$ is the coordinate $k$-tuple of $x$ in a given coordinate system and $f_\kappa$ is a [[boolean function]] of arity $k$.
 
 $$\array{
+\rowopts{\colalign{right center}}
 X
 && \overset{f \:=\: f_\kappa \:\circ\: \kappa}{\longrightarrow}
 && \mathbb{B}
