@@ -16,7 +16,7 @@ where
 \[
 S[A] = \frac{k}{4\pi} \int_M Tr (A \wedge dA + \frac{2}{3} A \wedge A \wedge A)
 \]
-is the [[Chern-Simons action|Chern-Simons form]], 
+is the integral of the  [[Chern-Simons action|Chern-Simons form]], 
 \[
  Tr Hol_A (K) 
 \]
