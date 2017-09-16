@@ -5,5 +5,9 @@ and counital i.e. $(\epsilon\otimes \mathrm{id})\circ\rho = \mathrm{id}_C$ (in t
 
 In some monoidal categories, e.g. of (super)vector spaces, and of Hilbert spaces, one often says (left/right) __corepresentation__ instead of (left/right) coaction. 
 
+
 [[!redirects corepresentation]]
 [[!redirects coaction]]
+[[!redirects comodules]]
+[[!redirects corepresentations]]
+[[!redirects coactions]]
