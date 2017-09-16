@@ -1,6 +1,6 @@
 **[[higher category theory]]**
 
-# Definitions
+## Definitions
 
 * [[(n,r)-category]]
 
@@ -92,7 +92,7 @@
 
     * [[triangulated category]]
 
-# Universal constructions
+## Universal constructions
 
 * [[limit in a quasi-category|(∞,1)-limit]]
 
@@ -100,14 +100,14 @@
 
 * [[(∞,1)-Grothendieck construction]]
 
-# Higher topos theory
+## Higher topos theory
 
 * [[higher topos theory]]
  
   * [[(∞,1)-topos]]
 
 
-# 1-categorical models
+## 1-categorical models
 
 * [[homotopical category]]
 
