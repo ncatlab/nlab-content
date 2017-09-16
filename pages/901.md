@@ -96,6 +96,12 @@ is the fibration classified by $F$.
 
 (...or close, let me check this...)
 
++-- {. :query}
+
+[[David Roberts]]: I don't think this is true, since the fibration classified by $F$ would be $(F,U)$ (or $(U,F)$, whichever is suitable) where $U:Set_* \to Set$ is the forgetful functor$=$universal set bundle. The $F$ in $(Y,F)$ is to be considered an object of $Set^{C^{op}}$, not as a functor $C^{op} \to Set$. 
+
+=--
+
 This is the starting point for the definition at [[ind-object in an (infinity,1)-category]].
 
 
