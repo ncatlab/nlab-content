@@ -43,12 +43,15 @@ What is a function between multisets?  I would be inclined to say that for multi
 
 [[Eric]]: This definition is taken from Syropoulos:
 
-**Definition**. Category $\mathbf{MSet}$ is a category of all possible multisets.
++-- {: .un_defn}
+###### Definition
+Category $\mathbf{MSet}$ is a category of all possible multisets.
 
 1. The objects of the category consist of pairs $(A, P)$, where $A$ is a set and $P:A\to Set$ a presheaf on $A$.
 1. If $(A,P)$ and $(B,Q)$ are two objects of the category, an arrow between these objects is a pair $(f,\lambda)$, where $f:A\to B$ is a function and $\lambda:P\to Q\circ f$ is a natural transformation, i.e., a family of functions.
 1. Arrows compose as follows: suppose that $(A,P)\stackrel{(f,\lambda)}{\to}(B,Q)$ and $(B,Q) \stackrel{(g,\mu)}{\to}(C,R)$ are arrows of the category, then $(f,\lambda)\circ (g,\mu) = (g\circ f, \mu\times\lambda)$, where $g\circ f$ is the usual function composition and $\mu\times\lambda:P\to R\circ (g\circ f)$.
 4. Given an object $(A,P)$, the identity arrow is $(id_A, id_P)$.
+=--
 
 The last part of the definition is a kind of wreath product (see [4]). However, it is not clear at the moment how this definition fits into the general theory of
 wreath products.
@@ -65,14 +68,19 @@ Normally, one only needs multisubsets of a given set, and one is not interested 
 
 I don't find it wrong that the category of multisets would be equivalent to $Set$, since $Set$ only sees "structural" properties of sets, and the fact that two elements of a set are "the same" (which is what distinguishes $\{1,1\}$ from $\{2,3\}$) is a nonstructural property that only makes sense in the context of sub-multisets of some ambient set.
 
+_Toby_:  At least $Set^{\mathbf{2}}$ is *different* from $Set$.  And how do you decide whether being 'the same' is a structural property of a *multi*set?  We\'re trying to take an idea that originally applied only to collections of elements from a fixed universe and move it to a more abstract settings; there are (at least) two ways to do that, and Syropoulos has chosen the more interesting one.  (Anyway, if somebody asked me to come up with a structural notion of abstract multiset, the first thing that I would think of ---and did think of, before this discussion started--- is an object of $Set^{\mathbf{2}}$.)  Asking which notion is correct is not really a fair question.
+
+
 ## Examples
 
 ...
+
 
 ## References
 
 * [Mathematics of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/MathMSet.pdf), Apostolos Syropoulos
 
 * [Categorical Models of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/mset.pdf), Apostolos Syropoulos
+
 
 [[!redirects multisubset]]
