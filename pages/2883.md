@@ -16,7 +16,11 @@ Etale cohomology was conceived by Artin, Deligne, [[Alexander Grothendieck|Groth
 
 Some useful remarks on this are in the begining of
 
-* Spencer Block, Review of Milne's _&Eacute;tale cohomology_ ([pdf](http://www.ams.org/bull/1981-04-02/S0273-0979-1981-14894-1/S0273-0979-1981-14894-1.pdf))
+* Spencer Bloch, Review of Milne's _&Eacute;tale cohomology_ ([pdf](http://www.ams.org/bull/1981-04-02/S0273-0979-1981-14894-1/S0273-0979-1981-14894-1.pdf))
+
+Milne's lectures (basically a slightly watered-down version of the text mentioned above) is available at
+
+* John Milne, Lectures on &Eacute;tale cohomology_ ([pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf))
 
 ## Details ##
 
