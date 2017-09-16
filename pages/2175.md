@@ -28,6 +28,7 @@
 * [[inquiry]]
 * [[inquiry driven system]]
 * [[Peirce's logic of information]]
+* [[semiotic information]]
 
 ### Logic ###
 
