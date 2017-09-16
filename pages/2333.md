@@ -1,0 +1,48 @@
+## Idea
+
+A barycentric algebra is a set equipped with a notion of taking weighted averages, or convex-linear combinations, of its elements.
+
+
+## Definition
+
+A __barycentric algebra__ is a [[set]] $X$ (often, perhaps always, required to be [[inhabited set|inhabited]]) equipped with,
+
+*  for each [[real number]] $r$ such that $0 \leq r \leq 1$, an operation $c_r: X \times X \to X$,
+
+such that the following identities always hold:
+
+*  $c_0(a,b) = b$,
+*  $c_1(a,b) = a$,
+*  $c_r(a,a) = a$,
+*  $c_r(a,b) = c_{1-r}(b,a)$,
+*  $c_r(c_s(a,b),c) = c_{r s}(a,c_t(b,c))$ for $(1 - r s)t = (1 - r)s$.
+
+This defines barycentric algebras as a [[variety of algebras]] (at least if one allows a barycentric algebra to be [[empty set|empty]]), with one binary operation for each $r$.
+
+The intended interpretation is that $c_r(a,b)$ is the average of $a$ and $b$, with $a$ given the weight $r$ and $b$ given the weight $1 - r$; this is called the __$r$-weighted average__ of $a$ and $b$.  It is also possible to give an '[[bias|unbiased]]' definition, in which the most general operation is an $n$-ary operation parametrised by a list $(r_1,\ldots,r_n)$ such that $0 \leq r_i \leq 1$ for each $i$ and $\sum_{i = 1}^n r_i = 1$.  Such an operation is called a __convex-linear combination__.
+
+
+## Examples
+
+Any real [[vector space]] is a barycentric algebra, with $c_r(a,b) = r a + (1 - r) b$.  In the unbiased version, any convex-linear combination is a linear combination.  Note that a barycentric homomorphism between vector spaces may not be a linear map, since it may not preserve the identity; thus, a vector space is a barycentric algebra with [[extra structure]].
+
+More generally, any real [[affine space]] is a barycentric algebra; since $r + (1 - r) = 1$, the expression for $c_r$ in a vector space is valid in an affine space.  In the unbiased version, any convex linear combination is an affine linear combination.  Now any barycentric homomorphism between affine spaces is an affine linear map (and conversely); an affine space is a barycentric algebra with [[extra properties]].
+
+Still more generally, any convex subset of a real affine space is a barycentric algebra.
+
+
+## Abstract convex sets
+
+There is a nice abstract converse to the example of a convex subset of an affine space.  A barycentric algebra is __cancellative__ if ... (I need to check this).  We may call a cancellative barycentric algebra an __abstract convex set__ (or maybe a _convex space_ or a _convex algebra_).  The justification for this terminology is this
++-- {: .un_theorem}
+###### Theorem
+
+A barycentric algebra is cancellative if and only if it is isomorphic (as a barcyentric algebra) to a convex subset of some real affine space.
+=--
+
+(The truth of this theorem assumes that a barycentric algebra is required to be inhabited; but it still holds if instead you allow an affine space to be empty.)
+
+
+## References
+
+...
