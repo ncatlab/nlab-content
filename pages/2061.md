@@ -10,11 +10,11 @@ $$
   }
   \,.
 $$
-
+Geometers prefer to say "stable under base change".
 
 ## Examples
 
-*  [[monomorphism|Monomorphisms]] are always stable under pullback; that is, if $f$ is a monomoprhism, then so is $\tilde{f}$.
+*  [[monomorphism|Monomorphisms]] are always stable under pullback; that is, if $f$ is a monomorphism, then so is $\tilde{f}$.
 
 *  In many important kinds of categories; some or all [[colimits]] are stable under pullback; this is discussed at [[commutativity of limits and colimits]].
 
