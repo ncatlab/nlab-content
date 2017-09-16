@@ -145,7 +145,7 @@ Given an [[(∞,1)-topos]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\m
 
 For $g : X \to A$ a cocycle, one says that its [[homotopy fiber]] $P \to X$ is the object **classified by the cohomology class*.
 
-Such an object usually has the interpretation of a [[principal ∞-bundle]]. Special cases of this are [[principal bundles]], [[gerbes]], [[principal 2-bundles]], etc. If the domain object $X$ itself is a [[group object in an (infinity,1)-category|group object]], then $P \to X$ is a [[group extension]]. For that reason in abelian cohomology $\mathbf{H}(X,A)$ is often denoted $Ext(X,A)$ and a cocycle is called an [[Ext-functor]].
+Such an object usually has the interpretation of a [[principal ∞-bundle]]. Special cases of this are [[principal bundles]], [[gerbes]], [[principal 2-bundles]], etc. If the domain object $X$ itself is a [[group object in an (infinity,1)-category|group object]], then $P \to X$ is a [[group extension]]. For that reason in abelian cohomology $\mathbf{H}(X,A)$ is often denoted $Ext(X,A)$ and a cocycle is called an [[Ext functor]].
 
 Let $A \to B$ be a $B$-valued cocycle on $A$.
 The [[characteristic class]] of an object $P \to X$ classified by a cocycle $X \to A$ is then the composite cocycle $X\to A \to B$. 
@@ -371,7 +371,7 @@ For the moment see
 
 Using a [[model category]] [[presentable (infinity,1)-category|presentation]] for $\mathbf{H}$ one can
 compute $\mathbf{H}(X,A)$ using the [[derived functor]] of the
-[[hom-functor]]: called the [[Ext-functor]].
+[[hom-functor]]: called the [[Ext functor]].
 
 Specifically for the [[model structure on simplicial sheaves]]
 and $X$ [[representable functor|representable]], one has
