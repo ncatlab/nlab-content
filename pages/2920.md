@@ -42,6 +42,97 @@ Such a localization is determined by the collection $S$ of _[[local object|local
 
 ## Definition 
 
+We first give a simpler definition, that however involves more assumptions. The more sophisticated definition does not need these assumptions. We'll see below how these two definitions relate.
+
+### Simple version 
+
+Let $C$ be a [[proper model category|left proper]] [[simplicial model category]]. 
+
+Let $S \subset cof_C \subset Mor(C)$ be a subclass of cofibrations with cofibrant domain.
+
+We want to characterize objects in $C$ that "see elements of $S$ as weak equivalences". Notice that in an ordinary catgegory $C$, by the [[Yoneda lemma]] a morphism $f : A \to B$ is an [[isomorphism]] precisely if for all objects $X$ the morphism
+
+$$
+  Hom_C(f,X) : Hom_C(B,X) \to Hom_C(A,X)
+$$
+
+is an [[isomorphism]] (of sets, i.e. a [[bijection]]). So we can "test isomorphism by homming them into objects".
+
+This phenomenon we use now the other way round:
+
++-- {: .un_def }
+###### Definition
+**($S$-local objects and $S$-local weak equivalences)
+
+Say that
+
+* a fibrant object $X$ is an $S$-[[local object]] if for all $s : A \hookrightarrow B$ in $S$ the morphism
+
+  $$
+    C(s,X) : C(B,X) \to C(A,X)
+  $$
+
+  is a trivial [[Kan fibration]];
+
+* conversely, say that a cofibration $f : A \hookrightarrow B$ is an $S$-local weak equivalence if for all $S$-local fibrant objects $X$ the morphism $C(f,X) : C(B,X) \to 
+C(A,X)$ is a trivial [[Kan fibration]].
+
+=--
+
++-- {: .un_def }
+###### Definition
+**(left Bousfield localization)**
+
+The left Bousfield localization $L_S C$ of $C$ at $S$ is, if it exsists, the new [[cofibrantly generated model category]] structure on $C$ with
+
+* cofibrations are the same as before, $cof_{L_S C } = cof_C$;
+
+* acyclic cofibrations are the cofibrations that are $S$-local weak equivalences.
+
+=--
+
+Assume that $L_S C$ exists. Then we have the following direct consequences of this definition:
+
++-- {: .un_lemma }
+###### Observation
+
+The fibrant objects of $L_S C$ are precisely the 
+original fibrant objects that are also $S$-[[local object]]s.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+The new acyclic cofibrations are the smallest staurated class containing all the old acyclic cofibrations as well as all elements in $S$. (...explain more...).
+
+=--
+
+
+
++-- {: .un_lemma }
+###### Observation
+
+The $S$-local weak equivalences between $S$-local fibrant objects are the original weak equivalences.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+(This is currently proven towards the end of the big proof below. Will move that up here.)
+
+=--
+
+
+
+
+
+
+### More sophisticated version
+
+
 Let $C$ be a category equipped with a [[model category]] structure and let 
 
 $$
@@ -49,6 +140,9 @@ $$
 $$ 
 
 be a [[class]] of morphisms in $C$. 
+
+
+
 
 An $S$-[[local object]] $X$ is one such that the [[derived hom space]] functor $\mathbf{R}Hom(-,X)$ sends morphisms in $S$ to weak equivalences. An $S$-local morphism $f$ is one such that $\mathbf{R}Hom(f,-)$ sends local objects to weak equivalences.
 
@@ -434,7 +528,7 @@ $\mathbf{R}Hom(f,-)$ takes values in weak equivalences on the full subcategory o
 But this means that the inverse image under $T$ of the weak equivalences in $C$ are all $S$-local weak equivalences
 
 $$
-  f^{-1}(T) = Arr_S(C)
+  T^{-1}(Arr_{W_C}(C) = Arr_S(C)
   \,.
 $$
 
