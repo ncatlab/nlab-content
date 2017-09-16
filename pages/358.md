@@ -55,7 +55,7 @@ More interestingly, a natural transformation between functors $f,g:X\to Y$ betwe
 
 ## $k=2$, $n=0$ ##
 
-A 2-tuply monoidal 0-category is a pointed 1-connected 2-category.  Interpreting things as weakly as possible, we are talking about a [[bicategory]] $B$ with one object $*$ and one 1-cell (its identity).  By the usual [[Eckmann-Hilton argument]], the set $B(1_*,1_*)$ is a commutative monoid, but there is also additional structure: the associatior and unitors of the bicategory.  The pentagon identity implies that the associator is the identity, and the unitor axioms imply that the two unitors are the same, but they are not necessarily the identity.  Therefore, a 1-connected 2-category (if by 2-category we mean bicategory) is a commutative monoid $X$ equipped with a chosen invertible element $d_X$.  This was apparently first observed by Tom Leinster.
+A 2-tuply monoidal 0-category is a pointed 1-connected 2-category.  Interpreting things as weakly as possible, we are talking about a [[bicategory]] $B$ with one object $*$ and one 1-cell (its identity).  By the usual [[Eckmann-Hilton argument]], the set $B(1_*,1_*)$ is a commutative monoid, but there is also additional structure: the associatior and unitors of the bicategory.  The pentagon identity implies that the associator is the identity, and the unitor axioms imply that the two unitors are the same, but they are not necessarily the identity.  Therefore, a 1-connected 2-category (if by 2-category we mean bicategory) is a commutative monoid $X$ equipped with a chosen invertible element $d_X$.  This was apparently first observed by [[Tom Leinster]].
 
 In similar vein, one can work out (see Cheng--Gurski):
 
