@@ -372,7 +372,7 @@ Using the fact that $dSet$ is a [[closed monoidal category]] with [[internal hom
 
 ### Model category structure ###
 
-The category $dSet$ also carries the Cisinski-Moerdijk [[model structure on dendroidal sets]]. 
+The category $dSet$ also carries the Cisinski-Moerdijk [[model structure on dendroidal sets]]. With this model structure it forms a [[monoidal model category]]. Together with the fact that $i^*: dSet \to SSet$ is a right Quillen functor (with respect to the Joyal model structure on simplicial sets) this imples that $dSet$ is a Joyal-SSet enriched model category.
 
 
 ## References ##
