@@ -113,5 +113,5 @@ Hi Toby; could I get you to explain the aside about Boolean rigs above? I'm thin
 
 Now that I go to write [[Boolean rig]], I\'m not so sure.  I just know that $Chu(P X,\empty)$ at [[measurable space]] is *not* (even classically) a Boolean algebra.  I\'ll get back to you in a day or less.  ---Toby
 
-Right, I agree. The Chu construction applied to a complete Heyting algebra is merely a $*$-autonomous quantale, not a $*$-autonomous locale (which would be a complete Boolean algebra), as you noted at [[measurable space]]. ---Todd
+Right, I agree. The Chu construction applied to a complete Heyting algebra is merely a $*$-autonomous quantale, not a $*$-autonomous frame (which would be a complete Boolean algebra), as you noted at [[measurable space]]. ---Todd
 =--
