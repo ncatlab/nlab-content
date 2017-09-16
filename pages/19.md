@@ -19,8 +19,6 @@ Category theory was invented by Samuel Eilenberg and Saunders Mac Lane in the 19
 
 #Branches of category theory#
 
-An imperfect perspective of category theory (for the purpose of classifying articles) can be obtained from the [MSC subject classification (18-XX)](http://www.ams.org/mathscinet/msc/msc.html?t=18-XX); the current one is from 2000 and reflects ideas of the decade before that.
-
 A probably incomplete list is:
 
 * Pure category theory (vaguely category theory without the use of any other branches of mathematics except essential concepts from them).
@@ -36,10 +34,23 @@ A probably incomplete list is:
 
 Most of these include some [[higher category theory]]. Some would define category theory as the human activity of [[category theorists]].
 
+An imperfect perspective of category theory (for the purpose of classifying articles) can be obtained from the [MSC subject classification (18-XX)](http://www.ams.org/mathscinet/msc/msc.html?t=18-XX); the current one is from 2000 and reflects ideas of the decade before that.
+
 #Contrast with set theory#
 Here set theory is assumed to be a theory of the usual concept of sets, that is *material* [[set theory]].
 
 No one of these is more fundamental than the other. Category theory is a holistic (structural) approach to mathematics that can (through such methods as Lawvere\'s [[ETCS]]) provide [[foundations]] of mathematics and (through [[algebraic set theory]]) reproduce all the different axiomatic set theories; elementary category theory does not need the concept of set to be formulated. Set theory is an analytic approach (element-wise) that can reproduce category theory by Lawvere's [[elementary theory of abstract categories]]. Lawvere also pointed out that set theory is axiomatized by a binary membership relation while category theory is axiomatized by a ternary composition relation.
+
+|Set theory| |Category theory|
+|----------|-|---------------|
+|sets| |categories|
+|membership relation| |-|
+|elements| |objects|
+|-| |morphisms|
+|functions| |functors|
+|equations between elements| |isomorphisms between objects|
+|equations between sets| |equivalences between categories|
+|equations between functions| |natural transformations between functors|
 
 For more on this and for the many different generalized sets see
 
@@ -51,6 +62,18 @@ Rafael: I am a bit skeptical if to interpret ETAC as a set theory.
 _Toby_:  See [[set theory]] for the contrast between material and structural set theories.  See also [[foundation]]s; there may be some overlap between what you intend to write here and what is or should be there.
 
 I don\'t understand why you say that (material) set theory can reproduce category theory through ETAC.  Doesn\'t set theory reproduce category theory through the usual set-based definitions of category, functor, and natural transformation?
+
+Rafael: Good answer.
+I try to compare category theory to set theory. To do this i must be precise in what i mean by set theory. I mean set theory as a foundation since i am talking about "all" set theories. As for material set theory it seem to mean two different things. What i mean is sets as in ZFC set theory. I could not find an overlap with the links, but they are clearly related.
+
+I had this idea of using plain set theory to define category theory just after posting this. Now i found problems with it. This does not mean that ETAC is better.
+ETAC is not a theory of sets.
+
+* Just because categories, functors, etc are defined from sets it does not make the definitions a foundation and not even a theory.
+* Classes or something alike is needed instead of sets.
+* An extra axiom for the existence of an universe must be added to the set theory used.
+
+Perhaps i should contrast category theory with logic.
 =--
 
 #Literature#
