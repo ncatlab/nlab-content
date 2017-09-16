@@ -74,9 +74,9 @@ Every locally finitely presentable category $A$ is equivalent to the category of
 
 ### Gabriel-Ulmer duality 
 
-Let $Lex$ denote the 2-category of small finitely complete categories, finitely continuous (i.e., finite limit preserving) functors, and natural transformations between them. 
+Let $Lex$ denote the [[2-category]] of small finitely complete categories, finitely continuous (i.e., finite limit preserving) functors, and [[natural transformation]]s between them. 
 
-Let $LFP$ denote the 2-category of locally presentable categories, right adjoint functors which preserve filtered colimits, and natural transformations between them. 
+Let $LFP$ denote the 2-category of locally presentable categories, [[right adjoint]] functors which preserve [[filtered colimit]]s, and natural transformations between them. 
 
 +-- {: .un_prop} 
 
@@ -135,7 +135,7 @@ Citation: paper by Lack and Power. Will follow up on this at some point.
 
 =--
 
-* The category of algebras of a Lawvere theory, for example [[Grp]], is locally finitely presentable. A $T$-algebra $A$ is finitely presented if and only if the hom-functor $Alg_T(A, -)$ preserves filtered colimits, and any $T$-algebra can be expressed as a filtered colimit of finitely presented algebras. 
+* The category of algebras of a [[Lawvere theory]], for example [[Grp]], is locally finitely presentable. A $T$-algebra $A$ is finitely presented if and only if the hom-functor $Alg_T(A, -)$ preserves filtered colimits, and any $T$-algebra can be expressed as a filtered colimit of finitely presented algebras. 
 
 +--{.query} 
 
