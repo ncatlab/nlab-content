@@ -14,4 +14,8 @@ $$
   \,.
 $$
 
+>(this is an incomplete description, needs to be polished -- see the discussion at [[A Survey of Elliptic Cohomology - formal groups and cohomology]])
+
 The formal spectrum is a [[formal scheme]].
+
+
