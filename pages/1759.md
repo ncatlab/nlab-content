@@ -30,6 +30,10 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 ## 2009-07-22
 
+* [[Urs Schreiber]]:
+
+  * replied at [[(n,k)-transformation]] -- I think that in principle this gives all the required information, but I am aware that eventually someone should describe that all explicitly in detail at that entry
+
 *  [[Toby Bartels]]:  Copied to [[(n,k)-transformation]] a question that was sent to me by email, and partially answered it.  (Urs could probably answer the rest.)
 
 * [[Urs Schreiber]]:
