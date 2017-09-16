@@ -10,10 +10,6 @@ Here, $K(\mathbb{Z},n)$ is an [[Eilenberg-Mac Lane space]] whose only interestin
 
 Note though that this duality does not hold perfectly in [[Top]]. For example, a pullback of a cofibration by a fibration is a cofibration, but a pushforward of a fibration by a cofibration is not a fibration. Since the [[model category]] axioms are self-dual, the failure of Eckmann-Hilton duality for ordinary homotopy theory shows that there are interesting facts about ordinary homotopy theory which cannot be derived from these axioms.
 
--- [comment](http://golem.ph.utexas.edu/category/2008/09/mathematical_miniatures.html#c019103), [comment](http://eom.springer.de/E/e120020.htm), [comment](http://golem.ph.utexas.edu/category/2009/06/cohomology_and_homotopy.html#c024807).
-
-
-
 
 #References#
 
@@ -23,7 +19,7 @@ see
 
 for more details and for more references
 
-Some blog disucssion is [here](http://golem.ph.utexas.edu/category/2008/09/group_cocycles_and_simplices.html#c019087)
+Some blog discussion is [here](http://golem.ph.utexas.edu/category/2008/09/group_cocycles_and_simplices.html#c019087), [here](http://golem.ph.utexas.edu/category/2008/09/mathematical_miniatures.html#c019103), and [here](http://golem.ph.utexas.edu/category/2009/06/cohomology_and_homotopy.html#c024807)
 
 
 [[!redirects Eckmann–Hilton duality]]
