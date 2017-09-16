@@ -1,4 +1,4 @@
-For $S$ a small [[site]] let $SimpSh(S)$ be the full category of [[simplicial presheaf|simplicial presheaves]] on $S$ which satisfy the [[sheaf]] condition.
+For $S$ a small [[site]] let $SimpSh(S)$ be the full category of [[simplicial presheaf|simplicial presheaves]] on $S$ which satisfy the [[sheaf]] condition: the category of [[simplicial sheaf|simplicial sheaves]].
 
 The local [[model category]] structure on $SimpSh(S)$ is originally due to Joyal. It is closely related to the local [[model structure on simplicial presheaves]].
 
