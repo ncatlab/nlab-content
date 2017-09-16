@@ -2,7 +2,7 @@
 The **comma object** of two morphisms $f:A\to C$ and $g:B\to C$ in a [[2-category]] is an object $(f/g)$ equipped with projections $p:(f/g)\to A$ and $q:(f/g)\to B$ and a 2-cell
 
 +--{: style="text-align:center"}
-[[!include comma object/2cell]]
+[[!include comma object > 2cell]]
 =--
 
 which is universal in the sense of a [[2-limit]].
