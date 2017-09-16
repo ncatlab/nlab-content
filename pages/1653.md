@@ -242,6 +242,7 @@ For Cheng\'s theory of measure spaces, see the 1985 edition of Bishop & Bridges,
 
 
 [[!redirects measurable set]]
+[[!redirects measurable subset]]
 [[!redirects measurable function]]
 [[!redirects sigma-algebra]]
 [[!redirects delta-algebra]]
