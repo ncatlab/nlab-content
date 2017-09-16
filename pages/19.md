@@ -190,6 +190,10 @@ Here set theory is assumed to be a theory of the usual concept of sets, that is 
 
 No one of these is more fundamental than the other as a foundation of mathematics. Category theory is a holistic (structural) approach to mathematics that can (through such methods as Lawvere\'s [[ETCS]]) provide [[foundations]] of mathematics and (through [[algebraic set theory]]) reproduce all the different axiomatic set theories; elementary category theory does not need the concept of set to be formulated. Set theory is an analytic approach (element-wise) and can reproduce category theory by simply defining all the concepts in the usual way, as long as one include a technique to handle large categories (for instance by using [[class]]es instead of sets, or by including as an axiom that an uncountable [[inaccessible cardinal]] exists or even that [[Grothendieck universe]]s exist). In fact the definition of a category depend on sets. To get rid of this dependence categories have to be internalized and enriched, which is enriched internal category theory.
 
++--{: .query}
+[[David Roberts]]: one cannot both enrich and internalise category theory! There are some instances (e.g. $Top$-categories) where enriched categories can be considered as internal categories, but generally this requires copowers of the terminal object (to form the object of objects) and enough coproducts to form the object of arrows. There is not really any sense in which an internal category can be thought of as an enriched category, except one arising from the procedure mentioned. In any sense, one still needs at least a naive/meta set theory in which to define the ambient category or category over which one wants to enrich.
+=--
+
 |Set theory| |Category theory|
 |----------|-|---------------|
 |membership relation| |-|
@@ -205,9 +209,17 @@ Lawvere pointed out that set theory is axiomatized by a binary membership relati
 
 The process of going from sets to categories is called categorification and is a functor $Set \rightarrow Cat$, and the reverse process is called decategorification.
 
++--{: .query}
+[[David Roberts]]: Is this true??? I would have thought that categorification would be more like (and I'm not saying this is strictly true) a process $Cat \to 2Cat$, since what is does is take an ordinary category of things (like the category of groups) and replaces it with a 2-category of things (like the 2-category of (strict, say) 2-groups). What happens to the arrows is very important, as we could categorify group homomorphisms to strict morphisms of strict 2-groups or to weak morphisms of 2-groups.
+=--
+
 For more on this and for the many different generalized sets see
 
 * Sets, categories and structuralism - Costas Drossos
+
++--{: .query}
+This article is more of a philosophical examination of structuralism in a broad sense in the context of category theoretical approaches to foundations. I'm not sure how it goes as a reference for categorification or as an exposition of various approaches to foundations.
+=--
 
 #Other categorical structures#
 
