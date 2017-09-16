@@ -221,7 +221,50 @@ But since $X \simeq colim_i U_i$ the right hand is $X \times_X Y$, which is just
 +-- {: .un_lemma}
 ###### Lemma
 
-Every morphism $Y \to X$ in $W$ factors as an epimorphism followed by a monomorphism in $W$.
+An presheaf $A \in PSh(S)$ is a [[local object]] with respect to all of $W$ already if it is local with respect to those morphisms in $W$ whose codomain is [[representable functor|representable]]
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Rewriting the morpphism $Y \to X$ in $W$ in terms of
+colimits as in the above proof
+
+$$
+  \array{  
+     colim_{U \to X} U_i \times_X Y 
+      &\stackrel{\simeq}{\to}& Y 
+     \\
+     \downarrow && \downarrow
+     \\
+     colim_{U \to X} U &\stackrel{\simeq}{\to}& X
+  }
+$$
+
+we find that $A(X) \to A(Y)$ equals
+
+$$
+  lim_{U \to X} (A(U) \to A(U \times_X Y))
+  \,.
+$$
+
+If $A$ is local with respect to morphisms $W$ with representable codomain, then by the above if $Y \to X$ is in $W$ all the morphisms in the limit here are isomorphisms, hence
+
+$$
+  \cdots = Id_{A(X)}
+  \,.
+$$
+
+=--
+
+
++-- {: .un_lemma}
+###### Lemma
+
+Every morphism $Y \to X$ in $W \subset PSh(S)$ factors as an epimorphism followed by a monomorphism in $PSh(S)$ with both being morphisms in $W$.
+
 =--
 
 +-- {: .proof}
@@ -251,54 +294,118 @@ Because $f^*$ is exact, the pullbacks and pushouts in this diagram remain such u
 Since the morphism $Y \sqcup_{Y \times_X Y} Y  \to X$ out of the [[coimage]] is at the same time the [[equalizer|equalizing]] morphism into the [[image]] $lim(X \stackrel{\to}{\to} X \sqcup_Y X)$, it is a [[monomorphism]].
 =--
 
-+-- {: .un_corollary}
-###### Corollary
 
-A presheaf $A$ is $W$-local, i.e. a sheaf, already if it is local (satisfies descent) with respect to all [[monomorphism]]s in $W$ with codomain a [[representable functor|representable]], i.e. for all [[dense monomorphism]]s.
++-- {: .un_definition}
+###### Definition
+
+The monomorphisms in $PSh(S)$ which are in $W$ are
+called [[dense monomorphism]]s.
+
+=--
+
+
++-- {: .un_lemma}
+###### Lemma
+
+Every [[monomorphism]] $Y \to X$ with $X$ [[representable functor|representable]] is of the form
+
+$$
+  Y = colim ( U \times_X U \to U  )
+$$
+
+for $U = \sqcup_{\alpha} U_\alpha$ a disjoint union of representables
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-I want to argue as follows, but this needs refinement:
+This is a direct consequence of the standard fact that
+subfunctors are in bijection with [[sieve]]s.
 
-By the first of the above lemmas it follows that it is sufficient to test descent on morphisms whose codomain is a representable. So let $X$ be representable and consider a morphism $Y \to X$ in $W$. By the other lemma above this factors as
-
-$$
-  Y \to Y'  \to X
-$$
-
-with $Y' \to X$ a monomorphism. So $Y \to X$ is in $W$ if both $Y \to Y'$ and $Y' \to X$ are. The latter condition amonts to checking that $Y' \to X$ is in $W$, hence is a [[dense monomorphism]]. For $Y \to Y'$ it suffices to look at all pullbacks to representables $U$ along all maps $U \to Y'$. 
-
-Then factor again through monomorphism, etc.
-
-But this needs an argument for why this recursive procedure terminates...
 =--
 
 
-Now we use the standard
++-- {: .un_corollary}
+###### Corollary
 
-+-- {: .un_lemma}
-###### Lemma
+If a presheaf $A$ is [[local object|local]] with
+respect to all [[dense monomorphism]]s, then it is already local with respect to all morphisms $Y \to X$ of the form
 
-Monomorphisms in $PSh(S)$ are canonically in bijection with [[sieve]]s.
+$$
+  \array{
+    Y
+    \\
+    \downarrow
+    \\
+    X
+  }
+  =
+  colim
+  \left(
+  \array{
+    W &\stackrel{\to}{\to}& U 
+    \\
+    \;\;\downarrow^{dense mono} && \downarrow^{Id}
+    \\
+    U \times_X U & \stackrel{\to}{\to}&  U
+  }
+  \right)
+$$
+
+with the left vertical morphism a [[dense monomorphism]]
+ 
+(and with $U = \sqcup_\alpha U_\alpha$ the disjoint union (of representable presheaves) over a [[cover]]ing family of objects.)
+
 =--
 
-to finally conclude
+
++-- {: .un_definition}
+###### Definition 
+
+The morphisms in $W$ with representable codomain 
+
+
+* of the form $colim (U \times_X U \stackrel{\to}{\to} U) \to X$ as above are [[cover]]s:
+
+* of the form $colim (W  \stackrel{\to}{\to} U) \to X$ (with $W$ a cover of $U \times_X U$) as above are [[hypercover]]s
+
+of the representable $X$.
+
+=--
+
+
+
+
++-- {: .un_proposition}
+###### Proposition
+
+A presheaf $A$ is $W$-local, i.e. a sheaf, already if it is local (satisfies [[descent]]) with respect to all [[cover]]s, i.e. all [[dense monomorphism]]s with codomain a [[representable functor|representable]].
+
+=--
+
+>[[Urs Schreiber|Urs]]: the above shows this almost. I am not sure yet how to see the remaining bit directly, without making recourse to the full machinery leading up to section VII, 4, corollary 7 in [[Sheaves in Geometry and Logic]].
+
+So we finally conclude:
+
 
 +-- {: .un_corollary}
 ###### Corollaries
 
 We have:
-* Systems $W$ of weak equivalences defined by choice of [[geometric embedding]] $Sh(S) \to PSh(S)$ is in canonical bijection with choice of [[Grothendieck topology]]. (Well, the above so far would just show that any such geometric embedding yields a Grothendieck topology).
-* A presheaf $A$ is $W$-local, i.e. local with respect to all [[local isomorphism]]s, if and only if it is local already with respect to all local isomorphisms which are monomorphisms, i.e. all [[dense monomorphism]], i.e. if and only if it satisfies sheaf condition for all covering [[sieve]]s.
+
+* Systems $W$ of weak equivalences defined by choice of [[geometric embedding]] $f : Sh(S) \to PSh(S)$ are in canonical bijection with choice of [[Grothendieck topology]]. 
+
+* A presheaf $A$ is $W$-local, i.e. local with respect to all [[local isomorphism]]s, if and only if it is local already with respect to all [[dense monomorphism]], i.e. if and only if it satisfies sheaf condition for all covering [[sieve]]s.
 =--
 
+From the _assumption_ that $f : Sh(S) \to PSh(S)$ is a [[geometric embedding]] follows at once the following explicit description of the [[sheafification]] functor
+$f^* : PSh(S) \to Sh(S)$.
 
 +-- {: .un_lemma}
 ###### Lemma (Sheafification)
 
-For $A$ a presheaf, its [[sheafification]] $\bar A := f_* f^* A$ is the presheaf given by
+For $A \in PSh(S)$ a presheaf, its [[sheafification]] $\bar A := f_* f^* A$ is the presheaf given by
 
 $$
   \bar A : U \mapsto colim_{(Y \to U) \in W} A(U)
@@ -319,18 +426,25 @@ $$
 So we have
 
 $$ \array {
-  Sh(S) &\stackrel{\stackrel{f^*}{\leftarrow}}{\stackrel{f_*}{\to}}&
+  Sh(S) &&\stackrel{\stackrel{f_*}{\to}}{\stackrel{f^*}{\leftarrow}}&
   PSh(S)
   \\
-  & \searrow^{\simeq}& \downarrow
+  & \searrow_{\simeq}&\Downarrow^{\simeq}&  \downarrow
   \\
   &&
   PSh(S)[W^{-1}]
   \,.
 } $$
 
-By the [[Yoneda lemma]] we get $\bar A(U) = PSh_S(U, \bar A)$. By the hom-adjunction this is $\cdots \simeq Sh_S(\bar U, \bar A)$. By the equivalence just mentioned this is
+and deduce
+
+* by [[Yoneda lemma|Yoneda]] that $\bar A(U) = PSh_S(U, \bar A)$;
+
+* by the [[adjoint functor|hom-adjunction]] this is $\cdots \simeq Sh_S(\bar U, \bar A)$;
+
+*  by the equivalence just mentioned this is
 $\cdots \simeq PSh_S[W^{-1}](U,A)$.
+
 =--
 
 
@@ -338,38 +452,48 @@ $\cdots \simeq PSh_S[W^{-1}](U,A)$.
 +-- {: .un_remark}
 ###### Remark: covers versus hypercovers
 
-Notice that for checking the sheaf condition the [[dense monomorphism]]s, i.e. the ordinary [[cover]]s are sufficient. But for [[sheafification]] one really needs the [[local isomorphism]]s, which are [[hypercover]]s. 
+For checking the sheaf condition the [[dense monomorphism]]s, i.e. the ordinary [[cover]]s are already sufficient. But for [[sheafification]] one really needs the [[local isomorphism]]s, i.e. the [[hypercover]]s. If one takes the colimit in the sheafification prescription above only over [[cover]]s, one obtains instead of sheafification the plus-construction.
 
-Sheafification is given by colimit over hypercovers:
+=--
 
-$$
-  \bar A : X \mapsto  colim_{(Y \to X) \in W } A(Y)
-  \,.
-$$
 
-If one takes the colimit only over dense monomorphisms, then this is called the **plus-construction**
++-- {: .un_definition}
+###### Definition: plus-construction
+
+For $A \in PSh(S)$ a presheaf, the **plus-construction**
+on $A$ is the presheaf 
 
 $$
   A^+ : X \mapsto  colim_{(Y \hookrightarrow X) \in W } A(Y)
 $$
 
-and in general does not yield a sheaf. ut doing it twice does
+where the colimit is over all [[dense monomorphism]]s (instead of over all [[local isomorphism]]s as for [[sheafification]] $\bar A$).
+
+=--
+
++-- {: .un_remark}
+###### Remark: plus-construction versus sheafification
+
+In general $A^+$ is not yet a sheaf. It is howver in general closer to being a sheaf than $A$ is, in that it is a [[separated presheaf]].
+
+
+But applying the plus-construction twice yields the desired sheaf
 
 $$
   (A^+)^+ = \bar A
+  \,.
 $$
 
-because in the context of sheaves all hypercovers are already of the form
+This is essentially due to the fact that in the context of ordinary sheaves discussed here, all [[hypercover]]s are already of the form
 
 $$
-  colim(Z \stackrel{\to}{\to} Y)
+  colim(W \stackrel{\to}{\to} U)
 $$
 
-for $Z \to Y \times_X Y$ a cover. For higher [[stack]]s the hypercover is in general a longer simplicial object of covers and accordingly if one restricts to covers instead of using hypercovers one will need to use the plus-construction more and more often.
+for $W \to U \times_X U$ a cover. For higher [[stack]]s the hypercover is in general a longer simplicial object of covers and accordingly if one restricts to covers instead of using hypercovers one will need to use the plus-construction more and more often.
 
-
->[[Urs Schreiber|Urs]]: will polish this later...
 =--
+
 
 ## In terms of sieves ##
 
