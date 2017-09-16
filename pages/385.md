@@ -76,4 +76,8 @@ Some helpful remarks and diagrams are in
 
 * Sjoerd Crans, _A tensor product for $Gray$-categories_ ([tac](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html))
 
-which is however mainly concerned with a slightly different topic.
+which is however mainly concerned with a slightly different topic. 
+
+A collection of Crans's papers, including his papers on teisi which (if memory serves) might shed light on Mike Shulman's inquiry above [into the relation between tensor product of Gray-categories and tensor product of strict $\omega$-categories], can be found here: 
+
+* [Papers of Sjoerd Crans](http://home.tiscali.nl/secrans/papers/) 
