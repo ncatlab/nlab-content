@@ -192,8 +192,11 @@ $$
 [[John Baez]]: I never take any principle to extremes, not even this one.  I mainly just want to make life easy on people who read my stuff or hear my talks.   I think links to "notation used on this page" would be great when used _in addition_ to on-the-spot explanations of the notation when it's introduced, and occasional reminders.  I'm afraid however that most mathematicians would use these hyperlinks as an excuse to use more notation, when 99% of them should spend time figuring out how to use less.  
 
 Anyway, I think I'm starting to repeat myself, so I'll stop.
-=--
 
+[[David Roberts]]: I find myself writing $X$ for a topological groupoid as well as a space, as the latter is one of the former, and I want to replace spaces with groupoids anyway. Ditto with functors (and eventually anafunctors, but that is a little trickier). The move to replace spaces by stacks, which is a good thing, seems to have that psychological barrier of people obeying the urge to call a stack a symbol in an unreadable font. Many-folds were once tricky... 
+
+That's my rant over
+=--
 
 [[!redirects Tall--Wraith monoid]]
 [[!redirects Tall–Wraith monoid]]
