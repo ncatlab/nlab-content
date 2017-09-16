@@ -148,7 +148,7 @@ $D^n$ for $n \in \mathbb{N}$.
 
 The category $SmoothSp := Sh(Diff)$ is discussed with an eye towards its generalization to [[smooth ∞-stacks]]  in section 3.4, from page 29 on in
 
-* Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html))
+* Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
 
 The [[point of a topos|topos points]] of $Sh(Diff)$ are discussed there in example 4.1.2 on p. 36. (they are mentioned before on p. 31).
