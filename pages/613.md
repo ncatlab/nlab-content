@@ -17,7 +17,7 @@ One of the properties one would like of a proposed infinity-groupoid $G$ for a s
 
 There is a strict homotopy 2-groupoid for a Hausdorff space defined by  Hardie, K. A.; Kamps, K. H.; Kieboom, R. W. (MR1785844) and this was later developed into a homotopy double groupoid by Kamps et al. There is no $n$-dimensional version of these ideas on offer. 
 
-A strict cubical omega-groupoid $\rho X_*$ for a filtered space $X_*$ was defined by Brown and Higgins in 1981. Form the filtered cubical complex $R X_*$ which in dimension $n$ consists of of filtered maps $I^n_* \to X_*$ and take filter homotopy classes of these _relative to the vertices_. The proof that the compositions in $RX_*$ are inherited by $\rho X_*$ is one of the key points of the development. 
+A strict cubical omega-groupoid $\rho X_*$ for a [[filtered space]] $X_*$ was defined by Brown and Higgins in 1981. Form the filtered cubical complex $R X_*$ which in dimension $n$ consists of  filtered maps $I^n_* \to X_*$ and take filter homotopy classes of these _relative to the vertices_. The proof that the compositions in $RX_*$ are inherited by $\rho X_*$ is one of the key points of the development. 
 
 It turns out that $\rho X_*$ is equivalent in a clear sense to the crossed complex $\Pi X_*$ defined using relative homotopy groups by Blakers in 1948 (with other terminology) and that the homotopy types modelled by crossed complexes, or by the corresponding globular or cubical gadget, are restricted, essentially to the _linear_ homotopy types, with no quadratic information.  Nonetheless, it is well known in mathematics that linear approximations can be useful. 
 
