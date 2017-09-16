@@ -112,5 +112,6 @@ The above list of facts about spans is described in
 
 which discusses how spans naturally capture crucial aspects of [[quantum field theory]].
 
-
+[[!redirects spans]]
 [[!redirects correspondence]]
+[[!redirects correspondences]]
