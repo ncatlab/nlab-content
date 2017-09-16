@@ -1,0 +1,1 @@
+An _isometry_ $f : (X,g) \to (X',g')$ between [[Riemannian manifold]]s is a [[morphism]]  $f : X \to X'$ between the underlying [[manifold]]s such that it respects the metrics in that $g = f^* g'$.
