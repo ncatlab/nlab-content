@@ -64,15 +64,15 @@ The dual concept could be called a _cotopological category_.  However, this is n
    *  the category of [[uniform space]]s or of [[Cauchy space]]s,
    *  lots more in this vein.
 *  In contrast, the category of [[locale]]s is *not* topological over $Set$, apparently not even the category of *spatial* locales (equivalent to the category of [[sober space]]s), essentially because soberification of a topological space may not preserve the underlying set.
-*  Also, the category [[Diff]] of smooth [[manifold]]s is not topological but the categories of [[generalized smooth space]]s are.
+*  Also, the category [[Diff]] of smooth [[manifold]]s is not topological but most categories of [[generalized smooth space]]s are.
+   +-- {: .query}
+   [[Andrew Stacey]]:
+   All of the categories listed on [[generalized smooth space]] are concrete and are topological over Set: all admit discrete and indiscrete structures (only constant maps and all maps respectively).
 
-+-- {: .query}
-[[Andrew Stacey]]:
-All of the categories listed on [[generalized smooth space]] are concrete and are topological over Set: all admit discrete and indiscrete structures (only constant maps and all maps respectively).
+   There are non-set based generalisations but the current flavour of [[generalized smooth space]] is set-based.
 
-There are non-set based generalisations but the current flavour of [[generalized smooth space]] is set-based.
-=--
-
+   _Toby_:  Sorry, I should have checked there.  Of course, these about *concrete* sheaves; I knew that once!
+   =--
 *  Outside of topology, the category of [[measurable space]]s is topological over $Set$.
 *  The category of [[topological group]]s is topological over [[Grp]], the category of [[topological vector space]]s is topological over $\mathbb{R}$-[[Vect]], etc.
 
