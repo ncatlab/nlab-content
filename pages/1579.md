@@ -30,6 +30,12 @@ A **short map** between prometric spaces $X$ and $Y$ is a function $f:X\to Y$ su
 
 If the prometrics of $X$ and $Y$ are presented by bases, then this is equivalent to saying that for any basic $d$ on $Y$, there is a basic $e$ on $X$ such that $d(f(x),f(x'))\le e(x,x')$ for all $x,x'\in X$.  Thus, for metric spaces and gauge spaces considered as prometric spaces, this reduces to the usual notion of short map (i.e. distance-decreasing map).  Hence the category $Gau$ of gauge spaces and short maps is included as a full subcategory of $ProMet$.
 
++--{: .query}
+_Toby asked at [[latest changes]]_: But do you have any good example of a nongaugeable prometric space?
+
+[[Mike Shulman|Mike]]: No.
+=--
+
 
 # Categorical interpretation
 
