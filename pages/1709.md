@@ -143,7 +143,7 @@ $$
   \cdots \to A \to A//G \to \mathbf{B}G \to S,
 $$
 
-we can assume, from properties of fibration sequences that $S = BA.$ 
+we can assume, from properties of fibration sequences that $S = \mathcal{B}A.$ 
 
 In language used among nonabelian cohomologists, ss it said that we have
 
