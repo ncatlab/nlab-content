@@ -252,6 +252,7 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[local equivalence]]
 
+* [[adjoint functor theorem]]
 
 ##6 $\infty$-Topoi##
 
