@@ -118,3 +118,7 @@ An [[inaccessible cardinal]] is any (usually uncountable) regular strong limit c
 #References#
 
 For a generalization of cardinality from sets to [[groupoid]]s see [[groupoid cardinality]].
+
+
+[[!redirects cardinal]]
+[[!redirects cardinality]]
