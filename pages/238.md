@@ -12,17 +12,21 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-03-10
+
+* [[Toby Bartels]]:  I\'ve written several more articles on very basic topics, such as those that used to be '?'-links below.  You can see them on Recently Revised; I don\'t think that anything merits great attention.
+
 # 2009-03-09
 
 *  [[Toby Bartels]]:  I finally wrote [[relation]], which makes me realise that there is no [[subset]] yet ....  Also [[order]], but that\'s just a list of links to more specific pages.
 
 # 2009-03-08
 
-*  [[Toby Bartels]]:  I tried to clarify the difference between a [[preorder]] (a structure on a given set that satisfies certain properties) and a [[proset]] (a set equipped with such a structure).  I need to finish that for [[partial order]]/[[poset]] and [[total order]]/[[toset]], although I would also entertain the idea that these should be redirected.  But I got sidetracked writing [[linear order]] and [[loset]].  (And then there\'s [[quasiorder]]; I don\'t think that [[quoset]] is so important for reasons that I don\'t want to get into here.)
+*  [[Toby Bartels]]:  I tried to clarify the difference between a [[preorder]] (a structure on a given set that satisfies certain properties) and a [[proset]] (a set equipped with such a structure).  I need to finish that for [[partial order]]/[[poset]] and [[total order]]/[[toset]], although I would also entertain the idea that these should all be redirected one way or the other.  But I got sidetracked writing [[linear order]] and [[loset]] instead.  (And then there\'s [[quasiorder]]; I don\'t think that [[quoset]] is necessary for reasons that I don\'t want to get into here.)
 
 * [[John Baez]]:
 
-  * Attempted to answer Eric's plea for a category-theoretic definition of 'Hasse diagram', in the discussino at the bottom of [[preorder]].  Unfortunately I don't know the official definition of 'Hasse diagram' --- though I know one when I see one.
+  * Attempted to answer Eric's plea for a category-theoretic definition of 'Hasse diagram', in the discussion at the bottom of [[preorder]].  Unfortunately I don't know the official definition of 'Hasse diagram' --- though I know one when I see one.
 
   * Made a short page on [[proset]], since Toby seems to be using this as a synonym for [[preorder]].
 
