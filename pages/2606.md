@@ -9,17 +9,34 @@
 
 __Analogy Between Two Triadic Relations__
 
-<pre>
-o-------------------------------------------------o
-|                                                 |
-|   proof hint    :  proof       :  proposition   |
-|                                                 |
-o=================================================o
-|                                                 |
-|   untyped term  :  typed term  :  type          |
-|                                                 |
-o-------------------------------------------------o
-</pre>
+Sometimes I think of it this way:
+
+$$\array{
+\arrayopts{\frame{solid}}
+Proof Hint & : & Proof & : & Proposition
+\\
+&& :: &&
+\\
+Untyped Term & : & Typed Term & : & Type
+}$$
+
+Sometimes I think of it this way:
+
+$$\array{
+\arrayopts{\frame{solid}}
+Proposition & : & Type
+\\
+& :: &
+\\
+Proof & : & Typed Term
+\\
+& :: &
+\\
+Proof Hint & : & Untyped Term
+}$$
+
+
+
 
 This may be a slightly different way of looking at the _propositions as types analogy_ than people are used to, so if it's necessary to adjust the title after a while, that's okay, but this name will do for the time being.
 
