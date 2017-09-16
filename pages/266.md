@@ -82,7 +82,7 @@ We give the following three definitions, which are equivalent in good situations
 
 The functor $p : C \to C'$ induces, by precomposition, a functor between [[functor category|functor categories]]
 $$
-  p_*: G\mapsto G\circ p  : [C',D] \to [C,D]
+  p^*: G\mapsto G\circ p  : [C',D] \to [C,D]
   \,.
 $$
 
@@ -96,11 +96,13 @@ _Todd_: IMHO, the example of sheaves on a space seems a bit loaded, since there 
 
 _Toby_:  Yeah, well, *I* certainly won\'t mind if you change it!  (^_^)
 
-[[Urs Schreiber|Urs]]: I had written the section _Remark on terminology: pushforward vs. pullback_ below after my original $p^*$ had been changed to $p_*$ by somebody, as far as I remember. I am in favor of having the $p^*$ back. So if we all agree on that, the next one reading this here should just implement the change.
+[[Urs Schreiber|Urs]]: I had written the section _Remark on terminology: pushforward vs. pullback_ below after my original $p^*$ had been changed to $p_*$ by somebody, as far as I remember. I am in favor of having the $p^*$ back. So if we all agree on that, the next one reading this here should just implement the change. 
+
+_Todd_: Thanks, Urs. I've made the changes accordingly. The section on _Remark on terminology_ hasn't been touched. 
 
 =--
 
-The [[adjoint functor|left adjoint]] to $p_*$ is **left Kan extension** along $p$ of functors
+The [[adjoint functor|left adjoint]] to $p^*$ is **left Kan extension** along $p$ of functors
 $$
   Lan = Lan_p : [C,D] \to [C',D]
   \,,
@@ -115,21 +117,21 @@ This definition clearly makes sense as stated in particular also in [[enriched c
 
 As discussed at [[adjoint functor]], it is possible that these adjoints do not exist, but may still be partially defined. Namely, for some functor $F\in [C,D]$ there exist a functor $Lan_p\,F:C'\to D$, *the left Kan extension of $F$ along $p$*,  and a natural isomorphism 
 $$
-Hom_{[C,D]}(F,p_*(-))\cong Hom_{[C',D]}(Lan\,F,-),
+Hom_{[C,D]}(F,p^*(-))\cong Hom_{[C',D]}(Lan_p\,F,-),
 $$
-i.e. a (co)representative of the functor $Hom_{[C,D]}(F,p_*(-))$. Similarly, right Kan extensions along $p$ may exist only for some $F$.
+i.e. a (co)representation of the functor $Hom_{[C,D]}(F,p^*(-))$. Similarly, right Kan extensions along $p$ may exist only for some $F$.
 
 
 ### Local: in terms of universal natural transformations ##
 
 The above global definition _implies_ the following property:
 
-[[generalized the|The]] left Kan extension $Lan F = Lan_p F$ of $F : C \to D$ along $p:C\to C'$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p_* Lan F$. 
+[[generalized the|The]] left Kan extension $Lan F = Lan_p F$ of $F : C \to D$ along $p:C\to C'$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p^* Lan F$. 
 
 <center markdown="1">[[kan-0.png:pic]]</center>
 
 with the property that every other natural transformation
-$F \Rightarrow p_* G$ factors uniquely through $\eta_F$ as
+$F \Rightarrow p^* G$ factors uniquely through $\eta_F$ as
 
 <center markdown="1">[[kan-1.png:pic]]</center>
 
@@ -137,7 +139,7 @@ Similarly for the right Kan extension, with the direction of the natural transfo
 
 <center markdown="1">[[kan-2.png:pic]]</center>
 
-It is clear that the definition in this form makes sense in every 2-category. In a bit different terminology, the left Kan extension 1-cell $F:C\to D$ along 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p_* = K(p,D):K(C',D)\to K(C,D)$. 
+It is clear that the definition in this form makes sense in every 2-category. In a bit different terminology, the left Kan extension 1-cell $F:C\to D$ along 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p^* = K(p,D):K(C',D)\to K(C,D)$. 
 
 This version of the definition clearly makes sense in any [[2-category]].
 
