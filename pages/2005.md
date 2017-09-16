@@ -18,4 +18,4 @@ NONCOMMUTATIVE CORRESPONDENCES AND GALOIS-TANNAKA RECONSTRUCTION
 Here is the link to Tomasz Maszczyk's [homepage](http://www.mimuw.edu.pl/~maszczyk).
 
 
-category: biography
+category: people
