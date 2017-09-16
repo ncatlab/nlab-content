@@ -1,8 +1,10 @@
-[[!redirects topological spaces]]
-
 # Definition #
 
 A **topological space** is a set $X$ equipped with a set of [[subset]]s of $X$, called **open sets**, which are closed under [[finite intersection]]s and arbitrary [[union]]s.  Since $X$ itself is the intersection of zero subsets, it is open, and since the empty set $\emptyset$ is the union of zero subsets, it is also open.
+
+
+The word 'topology' sometimes means the [[topology|study of topological spaces]] but sometime the collection of open sets in a topological space. In particular, if someone says 'Let $T$ be a topology on $X$', then they mean 'Let $X$ be equipped with the structure of a topological space, and let $T$ be the collection of open sets in this space'.
+
 
 The morphisms between topological spaces are **continuous maps**: functions $f:X\to Y$ such that the preimage of any open set is open.
 
@@ -27,3 +29,7 @@ There are many equivalent ways to define a topological space.  A non-exhaustive 
 # Variations #
 
 The definition of topological space was a matter of some debate, especially about 100 years ago. Our definition is due to Bourbaki, so may be called **Bourbaki spaces**. For some purposes, including [[homotopy theory]], it is important to use [[nice topological space|nice topological spaces]] and/or a [[nice category of spaces]].  On the other hand, when doing [[topos]] theory or working in [[constructive mathematics]], it is often more appropriate to use [[locale|locales]] than topological spaces. Some applications to analysis require more general [[convergence space]]s or other generalisations.
+
+
+[[!redirects topological spaces]]
+[[!redirects topological structure]]
