@@ -12,13 +12,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-28 #
+
+*  [[Toby Bartels]] responded to Todd below.
+
+* [[Todd Trimble|Todd]]: piped in on a discussion between [[Bruce Bartlett]] and [[Urs Schreiber]] at [[sieve]]; put in a related two cents at [[subobject]]. 
+
 # 2009-06-27 #
 
-* [[Todd Trimble|Todd]]: 
-
-  * piped in on a discussion between [[Bruce Bartlett]] and [[Urs Schreiber]] at [[sieve]]; put in a related two cents at [[subobject]].
-
-  * added more material to [[Trimble n-category]], outlining Leinster and Cheng's extension from $n$ to $\infty$. 
+* [[Todd Trimble|Todd]]: added more material to [[Trimble n-category]], outlining Leinster and Cheng's extension from $n$ to $\infty$. 
 
 *  [[Eric Forgy]] has begun some pages related to administration of the Lab:
    *  [[Organization of the nLab]]
