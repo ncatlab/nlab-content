@@ -125,3 +125,4 @@ In contrast, many of the optional or controversial axioms of set theory (such as
 
 [[!redirects Foundations]]
 [[!redirects foundations of mathematics]]
+[[!redirects foundation of mathematics]]
