@@ -30,4 +30,17 @@ The best I've seen so far is: A space $X$ is compact if and only if $Hom(X, \cdo
 
 _Toby_:  Do we need a page [[perfect stack]]?  And we could certainly use some exposition at [[compact object]]!
 
+_Bruce_: I'm not sure if 'perfect stack' makes sense at the non-derived level. 
+
+=--
+
+The following proposition establishes that the concept of 'perfect stack' is robust in that various other roads would have led to the same destination.
+
++-- {: .un_theorem}
+###### Proposition
+For a derived stack $X$ with affine diagonal, the following are equivalent:
+
+* $X$ is perfect
+* $QC(X)$ is [[compactly generated category|compactly generated]], and its [[compact object|compact]] and [[dualizable object|dualizable]] objects coincide.
+
 =--
