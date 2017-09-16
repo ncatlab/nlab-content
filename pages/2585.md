@@ -74,6 +74,8 @@ section 6.5.1 of
 
 ## Geometric homotopy groups {#Geometric}
 
+> **Warning** The whole following discussion glosses over size issues. We need to go through this and add some cardinality bounds here and there to keep things under control.
+
 ### Idea
 
 Let $C$ be some [[site]] and let $\mathbf{H} = Sh_{(\infty,1)}(C)$ be the [[(∞,1)-topos]] of [[∞-stack]]s over $C$. We think of objects $X \in \mathbf{H}$ as generalized [[space]]s modeled on $C$.
@@ -124,60 +126,99 @@ In $\mathbf{H} = $ [[Top]], this is the relation satisfied by the [[fundamental 
 Accordingly, then, we may think of the ordinary [[homotopy group]]s of $\Pi(X)$ as the **geometric homotopy groups** of $X \in \mathbf{H}$.
 
 
-### By monodromy
+### Monodromy
 
 We describe how, given the existence of 
-a [[left adjoint] $\Pi : Sh_{(\infty)}(C) \to \infty Grpd$ to $LConst : \infty Grpd \to Sh_{(\infty,1)}(C)$ as described above, the geometric homotopy groups of an object $X \in Sh_{(\infty,1)}(C)$ may be found in the [[automorphism]] [[∞-group]] of a fiber functor $F_x :  CovBund(X) \to \infty Grpd$ -- these automorphism are called the **monodromy** of $X$.
-
-By adjunction we have
+a [[left adjoint] $\Pi : Sh_{(\infty)}(C) \to \infty Grpd$ to $LConst : \infty Grpd \to Sh_{(\infty,1)}(C)$ as described above, the geometric homotopy groups of an object $X \in Sh_{(\infty,1)}(C)$ may be found in terms of the [[automorphism]] [[∞-group]] of a fiber functor 
 
 $$
-  CovBund(X) \simeq \infty Grpd(\Pi(X), \infty Grpd)
+  F_x :  CovBund(X) \to \infty Grpd
+$$
+
+from $\infty$-[[covering space|coverin bundle]]s/[[locally constant ∞-stack]]s over $X$ to [[∞-groupoid]].
+
+-- these automorphism are called the **monodromy** of $X$.
+
+We want to show that these automorphism [[∞-group]]s are the [[loop space object]]s of $\Pi(X)$, hence the geometric homotopy $\infty$-groups.
+
+$$
+  Aut (F_x) = \Omega^{geom}_x X =: \Omega_x \Pi(X)
   \,.
 $$
 
-From this we learn that for $x : * \to X$ any point of $X$ we have a morphism
+This is the reconstruction of the geometric homotopy [[∞-group]]s of an [[∞-stack]] $X$ from its **monodromy** or **[[Galois theory]]**.
+
+
+**Proof**
+
+The underlying mechanism is just $(\infty,1)$-[[Tannaka duality]], i.e. essentially the [[(∞,1)-Yoneda lemma]] applied a few times in a row:
+
+suppose we knew $\Pi(X)$, so that by adjunction we have
 
 $$
-  F_x = CovBund(X) \to \infty Grpd
-$$
-
-given by precomposition of objects in $\infty Grpd(\Pi(X), \infty Grpd)$
-with $x : * \to \Pi(X)$.
-
-Let $\Omega_x \Pi(X)$ be the [[loop space object]] of $\Pi(X)$ at $X$. We have a canonical embedding of this [[∞-group]] into the automorphism $\infty$-group of $F_x$
-
-$$
-  \Omega_x \Pi(X) \hookrightarrow Aut_{Sh_{(\infty,1)}(X)}(F_x)
-$$
-
-given by precomposition: the object of $\Omega_x \Pi(X)$ given by 
-
-$$
-  \array{  
-     & \nearrow \searrow^{\mathrlap{x}}
-     \\
-    {*} &\Downarrow^{\ell}& \Pi(X)
-    \\
-    & \searrow \nearrow_{\mathrlap{x}}
-  }
-$$
-
-is sent to the automorphism of $F_x$ whose component on an object $E \in CovBund(X) \simeq [\Pi(X),\infty Grpd]$ is
-
-$$
-  \array{  
-     & \nearrow \searrow^{\mathrlap{x}}
-    \\
-    {*} &\Downarrow^{\ell}& \Pi(X) &\stackrel{E}{\to}& \infty Grpd
-    \\
-    & \searrow \nearrow_{\mathrlap{x}}
-  }
+  CovBund(X) \simeq \infty Func(\Pi(X), \infty Grpd)
   \,.
 $$
 
+Then for each point $x \in \Pi(X)$ given by a morphism $i : {*} \to \Pi(X)$ we get a fiber functor
 
-> [[Urs Schreiber]]: now one needs to argue that all automorphisms of $F_x$ arise this way, up to equivalence. Looking at what this all means for naturality squares on low degree morphisms that seems to be right to me, but I am not sure yet how to give a general formal argument.
+$$
+  F_x := \infty Func(i, \infty Grpd) : Func(\Pi(X), \infty Grpd)
+  \to \infty Grpd
+$$
+
+which takes a [[local system]] $\rho : \Pi(X) \to \infty Grpd$ and evaluates it on $x$. By the [[(∞,1)-Yoneda lemma]] this means that $F_x$ is given by homming out of the local system $Y_{\Pi(X)^{op}} x$ [[representable functor|represented by]] $x$:
+
+$$
+  \infty Func(i, \infty Grpd)
+  \simeq
+  Hom_{PSh_{(\infty,1)}(\Pi(X)^{op})}(Y_{\Pi(X)^{op}}) x, -)
+  \,.
+$$
+
+But this in turn means that $\infty Func(i,\infty Grpd) : \infty Func(\Pi(X),\infty Grod) \to \infty Grpd$ is itself a representable functor, in the [[(∞,1)-category of (∞,1)-presheaves]]  $PSh_{(\infty,1)}(PSh_{(\infty,1)}(\Pi(X)^{op})^{op})$:
+
+$$
+  \infty Func(i, \infty Grpd)
+  \simeq
+  Y_{(PSh_{(\infty,1)}(\Pi(X)^{op}))^{op}} Y_{\Pi(X)^{op}} x
+  \,.
+$$
+
+This way we find, by applying the [[(∞,1)-Yoneda lemma]] two more times, that the automorphism [[∞-group]] of  the fiber functor is
+
+$$
+  \begin{aligned}
+    Aut_{PSh_{(\infty,1)}((PSh_{(\infty,1)}(\Pi(X)^{op}))^{op})}
+    \infty Func(i, \infty Grod)
+    &
+    =
+    Aut_{PSh_{(\infty,1)}((PSh_{(\infty,1)}(\Pi(X)^{op}))^{op})}
+    Y_{(PSh_{(\infty,1)}(\Pi(X)^{op}))^{op}} Y_{\Pi(X)^{op}} x
+    \\
+    & \simeq
+    Aut_{(PSh_{(\infty,1)}(\Pi(X)^{op}))^{op}}
+    Y_{\Pi(X)^{op}} x     
+    \\
+    & \simeq
+    Aut_{\Pi(X)^{op}} x
+    \\
+    & \simeq \Omega_x \Pi(X)
+    \\
+    & =:
+    \Omega_x^{geom} X
+    \,.
+  \end{aligned}
+$$
+
+Now, the same is of course true even if we don't have $\Pi(X)$ in hands yet, but only know the [[∞-groupoid]] $CovBund(X)$ of covering $\infty$-bundles / [[locally constant ∞-stack]]s in $X$: in terms of this we may reconstruct the automorphism [[∞-group]]s of $\Pi(X)$ as
+
+$$
+  Aut( CovBund(X) \stackrel{F_x}{\to} \infty Grpd )
+  \simeq
+  \Omega_x \Pi(X) =: \Omega^{geom}_x X
+  \,.
+$$
 
 
 
