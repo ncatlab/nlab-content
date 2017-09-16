@@ -34,7 +34,7 @@ Other model structures that present the $(\infty,1)$-category of all $(\infty,1)
 
 * [[model structure on simplicially enriched categories]]
 
-* [[model structure on complete Segal spaces]].
+* [[model structure for complete Segal spaces]].
 
 
 ## Applications
