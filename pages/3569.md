@@ -23,6 +23,8 @@ So...
 
 > (...please fill in what comes next, if you have an idea...)
 
+First we need equivalents for 1, the terminal object, and 2, the subobject classifier. Can the terminal $\infty$-groupoid work as a generator?
+
 ## References
 
 A discussion of the internal logic of a 2-topos is beginning to appear in
