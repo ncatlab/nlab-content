@@ -76,6 +76,10 @@ The attentive reader will note that we said a category has a 'collection' of obj
 
 Similarly, a category is [[locally small category|locally small]] if $hom(x,y)$ is a set for every pair of objects $x,y$ in that category.  The above examples of "concrete" categories are all locally small but not small (unless one restricts their objects in some way).
 
+#Database# 
+
+We will build a [[database of categories]] listing well-known categories (with links to articles on these categories, if such articles) and some of their properties.  Right now this is just beginning.
+
 #Literature#
 
 Let's include a lot of nice online introductions. Here is a start:
