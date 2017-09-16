@@ -86,3 +86,10 @@ subject to the following axioms:
 * WD2, "triangle inequality": Let A, B, C be chambers and $\delta$(A, B) = w, $\delta$(C, A) = s, then $\delta$(C, B) = either w or sw. If in addition $l_S$(sw) = $l_S$(w) + 1, then $\delta$(C, B) = sw.
 
 * WD3, "TODO: insert analogy here": Let A, B be chambers and $\delta$(A, B) = w, then for any s $\in$ S there is a chamber C such that $\delta$(C, A) = s and $\delta$(C, B) = sw
+
+This definition is equivalent from the one usually given from the simlicial viewpoint, but we will not prove that here, see e.g. the book by Abramenko and Brown in the introductory references.
+In the following paragraphs we will explain a few simple consequences of this definition, and introduce concepts that will allow us to identify the chambers and their "distance" relation with vertices and edges of a graph respectively (TODO: not done yet).
+
+But first let us note that the axioms WD1 and WD2 are somewhat similar to the axioms defining the distance function of a metric space, one notable difference is that the function $\delta$ of a building takes values in the Coxeter group W of the building rather than in the nonnegative real numbers. For this reason, from the combinatorial viewpoint, buildings are sometimes called **W-metric spaces**.
+
+In order to distinguish the two viewpoints, which is, given their equivalence, strictly speaking not necessary, some authors will talk about **W-metric buildings** and **simplicial buildings**.
