@@ -98,19 +98,24 @@ Moreover, it satisfies the following conditions:
 +-- {: .proof}
 ###### Proof
 
-This appears as theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067) and as theorem 4.7 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf). 
+A proof of this making use of [Jeff Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#jeff_smiths_theorem_5) for [[combinatorial model category|combinatorial model categories]] appears 
+as [[Higher Topos Theory|HTT, prop. A.3.7.3]] and 
+as theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067) and as theorem 4.7 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf). 
 
-The proof makes use of [Jeff Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#jeff_smiths_theorem_5) for [[combinatorial model category|combinatorial model categories]]:
+Using Smith's recognition theorem, for establishing the combinatorial model category structure, it is sufficient to 
 
-using that, it is sufficient to exhibit a [[set]] $I$ of cofibrations of $L_S C$ such that $inj(I) \subset W_{L_S C}$ and such that $cof(I) \cap W_{L_S C}$ is closed under [[pushout]] and [[transfinite composition]].
+* exhibit a [[set]] $I$ of cofibrations of $L_S C$ such that $inj(I) \subset W_{L_S C}$ and such that $cof(I) \cap W_{L_S C}$ is closed under [[pushout]] and [[transfinite composition]].
 
-For that purpose, choose $I := I_C$ with $I_C$ any set of generating cofibrations of $C$, that exists by assumption on $C$. 
+* check that the weak equivalences form an accessibly embedded accessible subcategory.
 
+For the first item choose $I := I_C$ with $I_C$ any set of generating cofibrations of $C$, that exists by assumption on $C$. 
 Then $inj(I) = inj(I_C) = fib_C \cap W_C \subset W_C \subset W_{L_S C}$.
 
 It remains to demonstrate closure of $cof(I) \cap W_{L_S C} = cof_C \cap W_{L_S C}$ under pushout and transfinite composition.
 
-For that, notice that $S$-local weak equivalences in $C$ are preserved under [[homotopy limit|homotopy pushouts]]: for $K \stackrel{}{\to}L$ an $S$-local morphism -- a morphism in $W_{L_S C}$ -- and for
+One elegant way to see this, following [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf), is to notic that the relevant ordinary colimits happen to be homotopy colits. 
+
+Because notice that $S$-local weak equivalences in $C$ are preserved under [[homotopy limit|homotopy colimit]]: for $K \stackrel{}{\to}L$ an $S$-local morphism -- a morphism in $W_{L_S C}$ -- and for
 
 $$
   \array{
@@ -147,10 +152,13 @@ Then notice that
 
 With the above observation this implies that, indeed, $cof(I) \cap W_{L_S C}$ is closed under pushouts and transfinite composition.
 
+Alternatively, following [[Higher Topos Theory|HTT]], we can make use of the fact that $S$-local weak equivalences that are also cofibrations are already characterized by the stronger property that mapping them into an $S$-[[local object]] yields an acyclic Kan fibration (this statement is described at [properties of local ojects in a model category](http://ncatlab.org/nlab/show/local+object#properties_10) ). Since acyclic Kan fibrations are preserved under ordinary pullbacks, this similarly allows to deduce the closure under pushouts.
+
+...
 
 =--
 
-> In _ModLoc_ this is stated for left propoer [[cellular model category|cellular model categories]]. Need to say something about the relation...
+> In _ModLoc_ this is stated for left proper [[cellular model category|cellular model categories]]. Need to say something about the relation...
 
 
 
