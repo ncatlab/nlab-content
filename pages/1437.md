@@ -1,7 +1,5 @@
-A terminal coalgebra, also called final coalgebra, for an endofunctor $F$ on a category $C$ is a [[terminal object]] in the category of [[coalgebra|coalgebras]] of $F$.
+A __terminal coalgebra__, also called __final coalgebra__, for an [[endofunctor]] $F$ on a category $C$ is a [[terminal object]] in the category of [[coalgebra|coalgebras]] of $F$.
 
-If $F$ has a terminal coalgebra, $\alpha: X \to F(X)$, then $X$ is isomorphic to $F(X)$ (see proof at 'Terminal (final) coalgebras' of [[coalgebra]]).
-
-$X$ is a largest 'fixed point' of $F$.
+If $F$ has a terminal coalgebra $\alpha: X \to F(X)$, then $X$ is isomorphic to $F(X)$ (see proof at 'Terminal (final) coalgebras' of [[coalgebra]]); in this sense, $X$ is a fixed point of $F$.  Being terminal, $X$ is the largest fixed point of $F$ in that there is a map to $X$ to any other fixed point (indeed, any other coalgebra), and this map is an [[injection]] if $C$ is [[Set]].
 
 The dual concept is [[initial algebra]].
