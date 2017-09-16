@@ -1,6 +1,6 @@
 #Idea#
 
-An $n$-dimensional [[TQFT]] is a [[symmetric monoidal (infinity,n)-functor]] from the [[(infinity,n)-category of cobordisms]]. 
+Recall that an $n$-dimensional [[FQFT]] is a [[symmetric monoidal (infinity,n)-functor]] from the [[(infinity,n)-category of cobordisms]]. 
 
 $$  
   Z : Bord_n \to C
@@ -43,7 +43,7 @@ In particular, when the QFT on one side of the defect is trivial, then the defec
 
 #Formulation in terms of transformations of TQFTs#
 
-Based on techniques used in his work on the [[2-category of 2-dimensional cobordisms]], [[Chris Schommer-Pries]] shows that a a TQFT with given collection of defects is the same as collection of natural transformations between ordinary [[FQFT|functorial QFTs]] (functors on an [[(infinity,n)-category of cobordisms]]):
+Based on techniques used in his work on the [[2-category of 2-dimensional cobordisms]], [[Chris Schommer-Pries]] shows that a [[TQFT]] with given collection of defects is the same as collection of natural transformations between ordinary [[FQFT|functorial QFTs]] (functors on an [[(infinity,n)-category of cobordisms]]):
 
 * [[Chris Schommer-Pries]], _Tpological Defects and Classification of Local TQFTs in Low Dimension_, [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] ([pdf](http://sites.google.com/site/chrisschommerpriesmath/Home/Slides-MFO-6-11-09.pdf?attredirects=0))
 
