@@ -361,6 +361,8 @@ Zoran: this is [CartanSem 1948-1949](http://www.numdam.org/numdam-bin/feuilleter
 _Rafael_: I don't see anything there, the page is missing. In this case i have a [reference](http://en.wikipedia.org/wiki/Sheaf_theory) i trusted. Where this author have his reference i have no idea.
 
 Zoran: oops one character too long, try [again](http://www.numdam.org/numdam-bin/feuilleter?id=SHC_1948-1949__1_)
+
+_Rafael_: Alas, don't forget i don't know french. When i read the entry i interpret it as it was written on a blackboard. But something as important as this should be in the proceedings. I also know that some concepts such as the Schwartzian derivative are well hidden in their first appearance. I am open to remove entries, so if you know you are right remove it.
 =--
 
 
