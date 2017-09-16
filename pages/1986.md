@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-18
 
+*  [[Toby Bartels]]:  Wrote [[variety of algebras]].
+
 * [[Urs Schreiber]]
 
   * created a stub for [[quantization]]
