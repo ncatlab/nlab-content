@@ -13,6 +13,9 @@
 [[Eric]]: In terms of [[geometric shapes for higher structures]], this definition is a special case where the shapes are globes. Should we make that explicit?
 =--
 
+The term _2-category_ implicitly refers to a [[geometric shapes for higher structures|globular]] structure. Closely related are [[double category|double categories]], which are based ob [[cube]]s instead. Every strict 2-category gives rise to a strict [[double category]].
+
+
 ##Definition
 
 A _strict 2-category_, often called simply a _2-category_, is a [[enriched category|category enriched over]] [[Cat]], where $Cat$ is treated as the [[1-category]] of [[strict categories]]. 
