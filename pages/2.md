@@ -19,7 +19,7 @@
   * [[inbound citations|Inbound Citations]]
   * [[Sandbox|Sandbox]]
 
-* [[About CHRIST WE SHOULD ALL GET SAVED]
+* [[About]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/contents)</div>
 
