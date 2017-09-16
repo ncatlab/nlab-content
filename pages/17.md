@@ -49,15 +49,15 @@ These are not set in stone, but we\'re following them for now. Most days, [[Toby
 
 #How to leave comments and questions#
 
-If you want to make a comment or question about a page without changing its main content, then edit the page and put your comment or question in a __query block__: a paragraph or paragraphs between `+--{.query}` and `=--`. For example,
+If you want to make a comment or question about a page without changing its main content, then edit the page and put your comment or question in a __query block__ as shown in this example:
 
-    +--{.query}
+    +-- {: .query}
     How do I ask a question?
     =--
 
 produces
 
-+--{.query}
++-- {: .query}
 How do I ask a question?
 =--
 
@@ -67,7 +67,11 @@ If you want to ask a question of a specific person, then you can place a query b
 
 If your comment or question is more general than a specific page or person, then try [[General Discussion]]. (You probably won\'t need to bother with query blocks there.)
 
-##How to##
+# Instiki HowTo #
+
+For general information and help with Instiki, see the [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage) wiki.
+
+Here are some useful specifics:
 * [Use basic Markdown syntax](http://daringfireball.net/projects/markdown/syntax)
 * [Make tables, footnotes, etc](http://maruku.rubyforge.org/maruku.html#extra)
 * [Add definitions and theorems](http://golem.ph.utexas.edu/instiki/show/Theorems)
@@ -78,9 +82,5 @@ If your comment or question is more general than a specific page or person, then
 * [Upload files](http://golem.ph.utexas.edu/instiki/show/File+Uploads)
 * [Use keyboard shortcuts](http://golem.ph.utexas.edu/instiki/show/AccessKeys)
 * [Make slideshows](http://golem.ph.utexas.edu/instiki/show/S5)
-
-##Instiki##
-
-For general information and help with Instiki, see the [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage) wiki.
 
 category: meta
