@@ -56,4 +56,10 @@ Moreover, in most cases the prefix is unnecessary, since once we know we are wor
 
 When we do have a strict 2-category, however, other strict notions can be quite technically useful, even if our ultimate interest is in the weak ones.  This is somewhat analogous to the use of strict structures to model weak ones in [[homotopy theory]]; see [here](http://arxiv.org/abs/math/0702535) and [here](http://arxiv.org/abs/math/0607646) for good introductions to this sort of thing.
 
+
+## Discussion ##
+
+Discussion about the use of the term "weak enrichment" above is now at [[weak enrichment]].
+
+
 [[!redirects bicategories]]
