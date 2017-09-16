@@ -14,13 +14,13 @@ An [[object]] of a [[category]] is often called *compact* if it is "finite" or "
 
 ## Definition 
 
-Let $C$ be a [[locally small category]] that admits [[filtered category|filtered]] [[colimit]]s. Then an [[object]] $X \in C$ is **compact** (or sometimes called **[[locally finitely presentable category|finitely presented]]**) if the [[representable functor|corepresentable functor]]
+Let $C$ be a [[locally small category]] that admits [[filtered colimits]]. Then an [[object]] $X \in C$ is **compact** (or sometimes called **[[locally finitely presentable category|finitely presented]]**) if the [[representable functor|corepresentable functor]]
 
 $$
   Hom_C(X,-) : C \to Set
 $$
 
-commutes with these [[filtered category|filtered]] [[colimit]]s.
+commutes with these [[filtered colimits]].
 
 So if for every [[filtered category]] $D$ and every functor $F : D \to C$ the canonical morphism
 
@@ -35,7 +35,7 @@ is an [[isomorphism]].
 
 There is a slight variant of this definition.
 
-If $\kappa$ is a [[cardinal number|regular cardinal]] then a particular kind of filtered colimits are $\kappa$-[[directed colimit]]s. Objects $X$ such that $C(X,-)$ commutes with such $\kappa$-[[directed colimit]]s are also called **$\kappa$-compact objects**. An object which is $\kappa$-compact for some regular $\kappa$ is called a [[small object]].
+If $\kappa$ is a [[cardinal number|regular cardinal]], then objects $X$ such that $C(X,-)$ commutes with such $\kappa$-[[filtered colimits]] are also called **$\kappa$-compact objects**. An object which is $\kappa$-compact for some regular $\kappa$ is called a [[small object]].
 
 
 ## Examples 
@@ -107,7 +107,7 @@ Compact objects in the derived categories of quasicoherent sheaves over a scheme
 
 ### Compactness in non-additive categories
 
-In non-additive contexts, the above definition is not right.  For instance, with this definition a [[topological space]] would be compact iff it is [[connected space|connected]]. In general one should expect to preserve _filtered colimits_ (see below for discussion). For $C$ any category and $X \in C$, the condition that $C(X,-) : C \to C$ preserves [[filtered category|filtered]] [[colimit]]s imposes  some kind of finiteness condition on $X$. For instance 
+In non-additive contexts, the above definition is not right.  For instance, with this definition a [[topological space]] would be compact iff it is [[connected space|connected]]. In general one should expect to preserve _filtered colimits_ (see below for discussion). For $C$ any category and $X \in C$, the condition that $C(X,-) : C \to C$ preserves [[filtered colimits]] imposes  some kind of finiteness condition on $X$. For instance 
 
 
 
