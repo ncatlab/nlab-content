@@ -1,3 +1,11 @@
-The fpqc topology is a [[Grothendieck topology]] on the category of (commutative) [[affine scheme]]s.  It is one of the main Grothendieck topologies used in [[algebraic geometry]]. 
 
-Let $Aff$ be the category [[opposite category|opposite]] to the category of [[commutative algebra]]s. A family of maps $\{f_i : U_i\to X\}_{i\in I}$ in that category is a cover in the __fpqc topology__ if the union of images cover $X$ as a [[topological space]] and all morphisms $f_i$ are [[faithfully flat morphism|faithfully]] [[flat morphism|flat]] and [[quasicompact morphism|quasicompact]]. The French for this is *fidelement plat et quasicompacte* (fpqc). The fpqc topology is one of the main [[Grothendieck topologies]] used in [[algebraic geometry]]. 
+## Idea
+
+The fpqc topology is a [[Grothendieck topology]] on the category of (commutative) [[affine scheme]]s.  It is one of the main [[Grothendieck topologies]] used in [[algebraic geometry]]. 
+
+## Definition
+
+Let $Aff$ be the category [[opposite category|opposite]] to the category of [[commutative algebra]]s. A family of maps $\{f_i : U_i\to X\}_{i\in I}$ in that category is a cover in the __fpqc topology__ if the union of images cover $X$ as a [[topological space]] and all morphisms $f_i$ are [[faithfully flat morphism|faithfully]] [[flat morphism|flat]] and [[quasicompact morphism|quasicompact]]. The French for this is *fidelement plat et quasicompacte* (fpqc). 
+
+
+[[!redirects fpqc-topology]]
