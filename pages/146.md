@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include category theory - contents]]
+</div>
+
+
 #Definition#
 
 A **presheaf** on a category $C$ is nothing but a [[functor]]
