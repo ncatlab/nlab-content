@@ -28,7 +28,8 @@ In more illustrative language this means that a simplicial presheaf on $S$ can b
 
 Here are some basic but useful facts about simplicial presheaves.
 
-**Proposition**
++--{: .un_prop}
+######Proposition
 
 Every simplicial presheaf $X$ is a 
 [[homotopy limit|homotopy colimit]] over a [[diagram]]
@@ -37,27 +38,33 @@ of [[Set]]-valued sheaves regarded as discrete simplicial sheaves.
 More precisely, for $X : S^{op} \to SSet$ a simplicial presheaf, 
 let $D_X : \Delta^{op} \to Set \hookrightarrow SSet$ be
 given by $D_X : [n] \mapsto X_n$. Then there is a weak equivalence
-
 $$
   hocolim_{[n] \in \Delta} D_X([n]) \stackrel{\simeq}{\to} X
   \,.
 $$
+=--
 
-Proof. See for instance [remark 2.1, p. 6](http://www.math.uiuc.edu/K-theory/0563/spre.pdf#page=6)
++--{: .proof}
+######Proof
+See for instance [remark 2.1, p. 6](http://www.math.uiuc.edu/K-theory/0563/spre.pdf#page=6)
 
 * Daniel Dugger, Sharon Hollander, Daniel C. Isaksen, _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
 
 (which is otherwise about [[descent for simplicial presheaves]]).
+=--
 
-
-**Corollary**
++--{: .un_cor}
+######Corollary
 
 Let $[-,-] : SSet^{S^{op}} \to SSet$ be the canonical $SSet$-enrichment of the category of simplicial presheaves (i.e. the assignment of [[SSet]]-[[enriched functor category|enriched functor categories]]).
 
 It follows in particular from the above that every such [[hom-object]] $[X,A]$ of simplical presheaves can be written as a [[homotopy limit]] (in [[SSet]] for instance realized as a [[weighted limit]], as described there) over evaluations of $X$.
+=--
+
++--{: .proof}
+######Proof
 
 First the above yields
-
 $$
   \begin{aligned}
      [X, A ]  & \simeq [ hocolim_{[n] \in \Delta} X_n , A ]
@@ -68,7 +75,6 @@ $$
 $$
 
 Next from the [[co-Yoneda lemma]] we know that the [[Set]]-valued presheaves $X_n$ are in turn colimits over representables in $S$, so that
-
 $$
   \begin{aligned}
      \cdots & \simeq 
@@ -83,7 +89,6 @@ $$
 $$
 
 And finally the [[Yoneda lemma]] reduces this to
-
 $$
   \begin{aligned}
      \cdots
@@ -93,7 +98,7 @@ $$
   \end{aligned}
   \,.
 $$
-
+=--
 
 Notice that these kinds of computations are in particular often used when checking/computing [[descent and codescent]] along a [[cover]] or [[hypercover]]. For more on that in the context of simplicial presheaves see [[descent for simplicial presheaves]].
 
