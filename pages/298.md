@@ -1,5 +1,9 @@
 [[!redirects vertex operator algebras]]
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 The usual definition of _vertex operator algebra_ is long and unenlightning. But due to work by Huang and Kong it is known now that vertex operator algebras are nothing but certain [[FQFT]]s:
