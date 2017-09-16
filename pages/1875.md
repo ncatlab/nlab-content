@@ -6,7 +6,7 @@ As explained in that entry, '[[quiver]]' is often used to refer to a [[directed 
 
 
 ##Definition##
-A _differential graded $k$-quiver_ (or simply _dg-quiver_) $\mathcal{Q}$ is specified by
+A **differential graded $k$-quiver** (or simply **dg-quiver**) $\mathcal{Q}$ is specified by
 
 * a small set of _objects_, denoted $Ob(\mathcal{Q})$;
 
@@ -20,3 +20,5 @@ A _differential graded $k$-quiver_ (or simply _dg-quiver_) $\mathcal{Q}$ is spec
 *  V. Lyubashenko and O. Manzyuk, _Free $A_\infty$-categories_,  Theory and Applications of Categories, Vol. 16, 2006, No. 9, pp 174-205.([[pdf](http://www.tac.mta.ca/tac/volumes/16/9/16-09.pdf))
 
 *  J. P. May, _Operadic categories, $A_\infty$-categories, and $n$-categories_, Talk given in Morelia, Mexico, May 25, 2001 available at: ([[pdf](http://www.math.uchicago.edu/~may/NCATS/PostMexico.pdf))
+
+[[Note on Formatting|✄]]
