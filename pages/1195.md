@@ -23,4 +23,10 @@ _Finn_: I too have seen minimal logic presented using $\neg$ and $\bot$.  I don'
 I think the two approaches, with and without $\bot$, are equivalent anyway, in the absence of _ex falso quodlibet_, because '$\bot$', if it's included, is just another proposition.  The only reason I would include it is for continuity with presentations of classical or intuitionistic logic.  Then the difference between them seems to be in how they handle $\bot$.
 
 (That said, I would take the sequent-calculus presentations to be canonical, because they make it more obvious that the differences are structural, rather than logical.  But I don't know how to draw inference rules on the wiki.)
+
+_Toby_:  Actually, I find the sequent-structure distinction between intuitionistic and classical (and presumably minimal) logics rather arbitrary.  After all, there are sequents with exactly one formula on the right that are valid classically but not intuitionistically or valid intuitionistically but not minimally; it\'s just that Gentzen chose the axiomatic ones to avoid those.
+
+Actually, as I like dependent type theory, I tend to always think of logical judgements as having arbitrary left-hand sides but always a single item on the right.  Of course, dependent type theory does lend itself particularly well to intuitionistic logic, so perhaps that\'s unfair.  Maybe I ought to get more into the spirit of the sequent calculus to understand why the differences between these three logics *should* be understood as structural.
+
+Mike has some inference rules [[michaelshulman:2-internal logic|here]].
 =--
