@@ -83,7 +83,7 @@ It seems that when every morphism is a composite of other morphisms, i.e. there 
 
 _[[Eric Forgy|Eric]] says_: It seems what I was talking about might also be related to a [covering relation](http://en.wikipedia.org/wiki/Covering_relation). 
 
-[[Eric]]: Oh! I see John Baez is (likely with the help of the Wizard) playing with the space time continuum again. Ok! So the example with one object and two morphisms is a good one. Thanks! Now I can ask a related question, given a [[preorder]] $C$, I'd like to find the smallest directed graph $G$ such that $F(G)\equiv C$. But this reminds me of a [Hasse diagram](http://en.wikipedia.org/wiki/Hasse_diagram). Hmm...
+[[Eric]]: Oh! I see John Baez is (likely with the help of the Wizard) playing with the space time continuum again. Ok! So the example with one object and two morphisms is a good one. Thanks! Now I can ask a related question, given a [[preorder]] $C$, I'd like to find the smallest directed graph $G$ such that $F(G)\equiv C$. But this reminds me of a [Hasse diagram](http://en.wikipedia.org/wiki/Hasse_diagram). Hmm... (Edit: While John freely travels back and forth through time, I tend to relive past experience with no recollection. There is a discussion of Hasse diagrams at [[preorder]]. John suggests (if I understood correctly) _defining_ a Hasse diagram to be the smallest graph whose quiver reproduces the proset.
 
 #See also#
 ***
