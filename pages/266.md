@@ -63,6 +63,8 @@ $$
 
 _Toby_: Yes, I would think so as well; and this fits into a much wider theory, like [[geometric morphism]]s of topoi.  It also gives us the notation $p_*$ for the left Kan extension and $p_!$ for the right Kan extension.  But see the **remark on terminology** below for the other side, I guess.
 
+_Todd_: IMHO, the example of sheaves on a space seems a bit loaded, since there one homs an arrow $f$ into something twice (once into Sierpinski space, bringing one to maps between frames of the form $Open(X)$, and then once again into $Set$), which brings one back to covariance. The general situation just homs into something once. As it stands, the notation above really goes against the grain of established conventions, methinks.
+
 =--
 
 The [[adjoint functor|left adjoint]] to $p_*$ is **left Kan extension** along $p$ of functors
