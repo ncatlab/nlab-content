@@ -214,7 +214,7 @@ the complex $D_\bullet(X)$ is null-homotopic.
 ###### Proof
 
 Following the proof of what is 
-[theorem 2.1](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) in Goerss-Jardine we look for each $n \in \mathbb{N}$ and each $j \lt n$ at the  groups
+[Theorem 2.1](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) in Goerss-Jardine we look for each $n \in \mathbb{N}$ and each $j \lt n$ at the  groups
 
 $$
   N_n(A)_j :=  \cap_{i=0}^j ker (d_i) \subset A_n
@@ -253,10 +253,25 @@ Dold-Kan correspondence.
 
 ## dual Dold-Kan corresppondence ##
 
-There is a version relating [[cochain complex]]es in non-negative degree
-to cosimplicial abelian groups.
+There is a version relating [[cochain complex]]es in non-negative degree to cosimplicial abelian groups.  Indeed,
+replacing the abelian category $A$ by its opposite category $A^{op}$ in the Dold-Puppe theorem above, we instantly see:
 
-For $G$ a co-simplicial group, the dual Moore complex $C^\bullet$ is formally defined just as the ordinary [[Moore complex]] with
++-- {: .num_theorem }
+###### Theorem (dual Dold-Puppe)
+
+For $A$ an [[abelian category]] 
+there is an [[adjoint equivalence]] between 
+
+* the category $[\Delta,A]$ of [[cosimplicial object|cosimplicial objects]] in $A$;
+
+and 
+
+* the [[category of cochain complexes]] in $A$ that are 0 in negative degree.
+=--
+
+More concretely, let us take the case where $A$ is the category of abelian groups, and construct an explicit equivalence.
+
+If $G$ is a cosimplicial abelian group, the dual Moore complex $C^\bullet$ is formally defined just as the ordinary [[Moore complex]] with
 
 $$
   C^k := G^k
@@ -269,7 +284,7 @@ $$
   \,.
 $$
 
-Notice that since we have now a co-simplicial object this differential indeed increases degree, as befits a [[cochain complex]].
+Notice that since we have now a cosimplicial object this differential indeed increases degree, as befits a [[cochain complex]].
 
 It is in the definition of the _normalized_ dual Moore complex $N^\bullet G$ that the role of face maps $d_i$ and boundary maps $s_i$ is interchanged as compared to the ordinary normalized complex. We have
 
@@ -296,7 +311,7 @@ Here on the left we have [[strict omega-groupoid]]s and on the right [[crossed c
 
 : crossed complexes $\supset$ chain complexes$_+$ internal of abelian groups
 
-There is a discussion of some of these and extensions to them to the non-Abelian case, in the entry on [[Moore complex]].
+There is a discussion of some of these and extensions to them to the non-abelian case, in the entry on [[Moore complex]].
 
 
 Perhaps the 'ultimate' form of a 'classical' Dold--Kan result is by Pilar Carrasco, who identified the extra structure on chain complexes of groups in order that they be [[Moore complex|Moore complexes]] of simplicial groups.  Dominique Bourn has a general form of this result for his [[semi-abelian category|semi-abelian categories]]. His results provide a neat categorical gloss on the theorem.
