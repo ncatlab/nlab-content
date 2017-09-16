@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
+
+
 According to definition 1.21 and remark 1.23 in
 
 * [[Clark Barwick]] , _On left and right model categories and left and right Bousfield localization_ ([pdf](http://www.math.harvard.edu/~clarkbar/complete.pdf))
