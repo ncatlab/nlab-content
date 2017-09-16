@@ -1,0 +1,1 @@
+An _affine scheme_ is a [[scheme]] that as a [[sheaf]] on the [[opposite category]] [[CRing]]${}^{op}$ of commutative [[ring]]s (maybe finitely presented one) is [[representable functor|representable]].
