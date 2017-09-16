@@ -284,10 +284,15 @@ Notice that the function algebra on the derived loop space is just the different
  
 ## References
  
-The traditional story of Hochschild (co)homology is discussed for instance
+The traditional story of Hochschild (co)homology is exposed for instance
 in chapter 4 of
  
 * [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603))
+
+An original paper on this is
+
+* Tsygan and Feigin,  _Additive K-theory_ 1980-s (LNM 1289, editor Manin, pp 67-209, seminar 1984-1986 in Moscow)
+
  
 The $(\infty,1)$-categorical picture of [[derived stack|derived]] [[free loop space object]]s and their [[geometric ∞-function theory]] is discussed in
 
