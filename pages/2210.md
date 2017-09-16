@@ -7,11 +7,13 @@ In the context of [[synthetic differential geometry]] where there is a notion of
 In internal [[topos]]-theoretic language the definition of $X^{\Delta^\bullet_{inf}}$ is simple, straightforward and transparent: in degree $k$ the space $X^{\Delta^k_{inf}}$ is  given by the formula
 
 $$
-  X^{\Delta^k_{inf}} = \{ (x_0, \cdots, x_k) \in X^k | \forall i,j  x_i is infinitesimal neighbour of x_j\}
-  \,.
+  X^{\Delta^k_{inf}} = \{ (x_0, \cdots, x_k) \in X^k | \forall i,j,\;  x_i \approx x_j\}
+  \,,
 $$
 
-In this form the infinitesima singular simplicial complex is discussed in [section 2.8](http://home.imf.au.dk/kock/SGM-final.pdf#page=89) of
+where $x \approx y$ means that $x$ is an infinitesimal neighbor of $y$.
+
+In this form the infinitesimal singular simplicial complex is discussed in [section 2.8](http://home.imf.au.dk/kock/SGM-final.pdf#page=89) of
 
 * Anders Kock, _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
