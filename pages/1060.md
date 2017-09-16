@@ -9,7 +9,7 @@ $$d_A:\A\to(A\multimap\bot)\multimap\bot$$
 
 which is the transpose of the evaluation map
 $ev_{A,\bot}:(A\multimap\bot)\otimes A\to \bot$, is an
-isomorphism for all $A$.
+isomorphism for all $A$.  (Here, $\multimap$ denotes the [[internal hom]].)
 
 Define a functor $(-)^*=(-)\multimap\bot$.  The map $d_A$
 is natural in $A$, so that there is a natural isomorphism
