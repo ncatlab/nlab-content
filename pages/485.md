@@ -1,4 +1,4 @@
-The term **exact category** has several different meanings.  Perhaps this should eventually be a disambiguation page, but right now it is about exact categories in the sense of Barr (also called "effective regular categories").
+The term **exact category** has several different meanings.  This page is about exact categories in the sense of Barr, also called "Barr-exact categories" or "effective regular categories."  This is distinct from the notion of [[Quillen exact category]].
 
 ## Definition ##
 
