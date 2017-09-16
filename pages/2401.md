@@ -2,11 +2,11 @@
 
 The term **moduli space** is essentially a synonym for [[classifying space]]. People tend to say "classifying space" when in the content of [[topology]], and they tend to say _moduli space_ when in a context of [[complex geometry]] or [[algebraic geometry]].
 
-The term possibly originates with Riemann, who was the first to study what are now called moduli spaces of [[Riemann surface]]s. A "modulus" here is a _parameter_ that parameterizes Riemann surfaces.
+The term possibly originates with Riemann, who was the first to study what are now called moduli spaces of (compact) [[Riemann surface]]s. A "modulus" here is a _parameter_ that parameterizes isomorphism classes of Riemann surfaces.
 
-More precisely, when a moduli space actually does exist as a genuine space (or [[scheme]]), it is called for emphasis a **fine moduli space**. 
+More precisely, when a moduli space actually does exist as a genuine space (or [[scheme]]), it is called for emphasis a **fine moduli space**. Fine here refers to the completeness of the description, not shared by coarse moduli below.
 
-Those classifying "spaces" that are called moduli spaces are typically [[orbifold]]s, hence modeled not just as spaces but as [[groupoid]]s with extra structure. These are typically conceived as [[stack]]s: these are then called **moduli stack**s. Typically these are demanded to be [[Deligne-Mumford stack]]s.
+Those classifying "spaces" that are called moduli spaces are typically [[orbifold]]s, hence modeled not just as spaces but as [[groupoid]]s with extra structure. These are typically conceived as [[stack]]s: these are then called **moduli stack**s. Typically these are demanded to be [[Deligne-Mumford stack]]s. 
 
 So the term _fine moduli space_ mainly indicates that a given object that might be a [[Deligne-Mumford stack]] is actually just a plain [[scheme]]. But there is also the notion of **coarse moduli space**, which is a kind of conceptual hack designed to be able to keep thinking about what really wants to be a [[stack]] still as a plain [[sheaf]]:
 
@@ -23,7 +23,7 @@ a) $F(Spec(\mathbb{C})) \to h_M(Spec \mathbb{C}) = hom(Spec \mathbb{C}, M)$ is a
  
 b) given $M'$ and $\Psi_{M'} : F \to h_{M'}$ then there exists unique $M \to M'$ such that $\array{ F && \stackrel{\Psi_{M'}}{\to}&& h_{M'} \\ & {}_{\Psi_M}\searrow && \nearrow \\ && h_M} $
 
-So a coarse moduli space is one that at least has the right underlying set of points as the _right_ moduli stack has: as long as we don't look at families but just at single things, it does give the right information.
+So a coarse moduli space is one that at least has the right underlying set of points as the _right_ moduli stack has: as long as we don't look at families but just at single things, it does give the right information. From the point of view of [[derived algebraic geometry]], the coarse moduli spaces are 0-truncations of derived moduli stacks when they exist.
 
 
 #related entries#
