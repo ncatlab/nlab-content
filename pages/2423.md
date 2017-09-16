@@ -46,24 +46,24 @@ see also
 * tic
 {:toc}
 
-* [Part 1 (topological) bordism category](#topological)
-
-* [Part 2 Riemannian bordism category](#Riemannian)
-
-  * [description for d=1](#onedim)
-
-  * [smooth version / families version](#smoothversion)
-
-  * [Riemannian field theories](#fieldtheories)
   
 
+#Idea {#Idea}
+
+The goal here is to befine a category of [[cobordism]]s that carry the structure of [[Riemannian manifold]]s. Where a functor on an ordinary [[cobordism category]] defines a [[TQFT]], the assignments of a functor on a category of [[Riemannian cobordism]]s do not only depend on the topology of a given cobordism, but also on its Riemannian structure. In physics terms such a functor is a _Euclidean quantum field theory_ . 
 
 
-# Part 1 (topological) bordism category # {#topological}
+>Notice however that the physicist's use of the word "Euclidean" is different from the way Stolz-Teichner use it: for a physicist it means that the Riemannian structure is not _pseudo_-Riemannian. For Stolz-Teichner it means (later on) that the Riemannian metric is _flat_ .
+
+One central technical difference between plain topological cobordisms and those with Riemannian structure is that we want the functors on these to smoothly depend on variations of the Riemannian structure. This requires refining the bordism category to a _smooth_ category. By the logic of [[space and quantity]], one way to do this is to realize it as a [[stack]] on [[Diff]] with values in categories. This realization will be described here.
+
+
+
+# Part 1 (topological) bordism category  {#topological}
 
 **definition sketch**
 
-the [[category]] $d-B$  has 
+the [[category]] $Bord_d$  has 
 
 * as [[object]]s closed $(d-1)$-dimensional _smooth_ [[manifold]]s
 
@@ -84,9 +84,9 @@ in all of the following
 
   Also, later when we generalize [[manifold]]s to [[supermanifold]]s it will be very convenient not to have to talk about boundaries
 
-$d-RB$ is defined using bicollars from the beginning
+$R Bord_d$ is defined using bicollars from the beginning
 
-an object in $d-RB$ is a quintuple
+an object in $R Bord_d$ is a quintuple
 
 consisting of
 
@@ -147,7 +147,7 @@ $$
   i_1 = Id_{W_1}\,,\;\;\;\;\; i_0 = \phi
 $$
 
-**definition (morphisms in $d-RBord$)** morphisms from $Y_0$ to $Y$ in $R Bord_d$ (or $d-RB$ or whatever the notation is) are [[isometry]] classes _rel. boundary_ (see below) of [[Riemannian cobordism]]s from $Y_0$ to $Y_1$.
+**definition (morphisms in $R Bord_d$)** morphisms from $Y_0$ to $Y$ in $R Bord_d$ (or $d-RB$ or whatever the notation is) are [[isometry]] classes _rel. boundary_ (see below) of [[Riemannian cobordism]]s from $Y_0$ to $Y_1$.
 
 We require the commutativity of the following diagram
 
@@ -194,7 +194,7 @@ $$
 
 ## description for $d=1$ {#onedim}
 
-we decribe $R Bord_1$ (or $1-R B$) 
+we decribe $R Bord_1$ explicitly
 
 it has at least the object
 
@@ -248,7 +248,7 @@ which describe morally the same cobordisms as $I_t$ does, but where both boundar
 
 Here $L_t$ is formall given exactly as $I_t$ only that the map $i_0 : \mathbb{R} \to \mathbb{R}$ is not the identity, but reflection at the origin. This encodes the orientation reversal at that end.
 
-This is defined for $t \gt 0$. For $t= 0$ the morphism $L_0$ is still defined, but R_0$ is not!! Exercise: check carefully with the above definition, keeping the asymmetry mentioned there in mind, to show that the obvious definition of $R_0$ does not satisfy the axioms above.
+This is defined for $t \gt 0$. For $t= 0$ the morphism $L_0$ is still defined, but $R_0$ is not!! Exercise: check carefully with the above definition, keeping the asymmetry mentioned there in mind, to show that the obvious definition of $R_0$ does not satisfy the axioms above.
 
 So this means that we have a cobordism of length 0 going $\emptyset \to pt \coprod pt$, but all cobordisms going the other way round $pt \coprod pt \to \emptyset$ will have to have non-vanishing length.
 
@@ -306,7 +306,7 @@ to the category $TV_\mathbb{R}$ of [[topological vector space]]s are specified b
 
 * $E : pt \mapsto V$
 
-* $E : L_0 \mapsto (\lambda :  \otimes V \to \mathbb{R}$
+* $E : L_0 \mapsto (\lambda :  V\otimes V \to \mathbb{R})$
 
 * $E : R_t \mapsto \rho_t \in V \otimes V$
 
@@ -365,12 +365,25 @@ construction]] of these stacks.
 
 recall that $TV$ denotes the category of locally convex Hausdorff [[topological vector space]]
 
-now let $TV^{fam}$ be the [[fibred category]] over [[Diff]] whose fiber over $X \in Diff$ is the category of topological [[vector bundle]]s over $X$
+now let $TV^{fam}$ be the [[fibred category]] over [[Diff]] whose fiber over $X \in Diff$ is the category of topological [[vector bundle]]s over $X$. This has as objects [[vector bundle]]s of [[topological vector space]]s, and the morphisms are fiberwise linear $C^\infty$-morphisms of bundles in the following sense:
 
 
 let $V, W \in TV$
 
-a linear map $F : V \to W$ is called $C^1$ at $u \in U$ in the direction $v \in V$ if 
+
+Then a linear map $F : V \to W$ is -- for any inclusion $U \hookrightarrow V$ 
+
+$$
+  \array{
+    V &\stackrel{f}{\to}& W
+    \\
+    \uparrow^\subset & \nearrow
+    \\
+    U
+  }
+$$
+
+-- called $C^1$ at $u \in U$ in the direction $v \in V$ if 
 
 $$
   \lim_{t \to 0} \frac{F(u+t v) - F(u)}{t}
@@ -389,15 +402,6 @@ $$
 is continuous.
 
 
-$$
-  \array{
-    V & W
-    \\
-    \uparrow^\subset & \nearrow
-    \\
-    U
-  }
-$$
 
 
 Iteratively one defines $C^n$ and then $C^\infty$. The morphsims of $TV$-bundles are supposed to be $C^\infty$ maps in this sense (linear in the fibers, of course)
@@ -408,7 +412,7 @@ $$
     \\
     \downarrow &&\downarrow
     \\
-    S' &\stackrel{f}& S
+    S' &\stackrel{f}{\to}& S
   }
 $$
 
@@ -440,13 +444,16 @@ a morphism in $R Bord_d^{fam}$  in
 $$
   R Bord_d^{fam}\left(
     \array{
-       Y_0 \\ \downarrow \\ S_0,
+       Y_0 \\ \downarrow \\ S_0
+    },
+    \;\;
+    \array{
        Y_1 \\ \downarrow \\ S_1
     }
   \right)
 $$
 
-are [[isometry]] rel boundary classes 
+are [[isometry|isometric]] rel boundary classes 
 of submersions $\Sigma \to S_0$ such that
 
 
@@ -482,6 +489,8 @@ $$
       TV^{fam}
       \\
       & \searrow && \swarrow 
+      \\
+      && Diff
   }
 $$
 
