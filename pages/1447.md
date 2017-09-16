@@ -31,9 +31,36 @@ That the first two conditions are equivalent is standard, that the third one is 
 * MacLane-Moerdijk, _Sheaves in geometry and logic_
 
 
-#Details#
+#Relation to localization#
 
-We unwrap some consequences of this definition.
+There is a close relation between geometric embedding and
+[[localization]]. 
+
+Let $f : F \hookrightarrow E$ be a geometric embedding
+and let $W \subset Mor(E)$ be the class of morphisms sent by $f^*$ to isomorphisms in $F$.
+
++-- {: .un_theorem}
+###### Theorem
+
+* $F$ is equivalent to the [[localization]] $E[W]^{-1}$;
+
+* $F$ is equivalent to the full [[subcategory]] of $E$ on $W$-[[local object]]s.
+
+=--
+
+This fact connects for instance the description of [[sheafification]] in terms of geometric embedding $Sh(S) \hookrightarrow PSh(S)$ as described for instance in 
+
+* MacLane-Moerdijk, [[Sheaves in Geometry and Logic]]
+
+with that in terms of [[localization]] at [[local isomorphism]]s, as described in
+
+* Kashiwara-Schapira, [[Categories and Sheaves]].
+
+Moreover, this is the basis on which sheafification is generalized to [[(infinity,1)-sheafification]] in
+
+* [[Jacob Lurie]], [[Higher Topos Theory]] .
+
+The following gives a detailed proof of the above assertion.
 
 Write $\eta : Id_E \to f_* f^*$ for the unit of the
 adjunction. 
@@ -184,7 +211,72 @@ For every object $a \in E$
 ###### Proof
 
 This follows from the zig-zag identities
-of the [[adjoint functor]]s. They say that
+of the [[adjoint functor]]s. 
+
+$$
+  \array{
+     & 
+     \nearrow &\Downarrow^{\eta}& \searrow^{Id_E}
+     \\
+     E 
+       &\stackrel{\bar{(-)}}{\to}& 
+     F
+       &\hookrightarrow&
+     E
+       &\stackrel{\bar{(-)}}{\to}& 
+     F
+     \\
+     &&&
+     \searrow &\Downarrow^{\simeq}& \nearrow_{Id_F}
+  }
+  \;\;\;\;
+  =
+  \;\;\;\;
+  \array{
+     & \nearrow \searrow^{\bar{(-)}}
+    \\
+    E
+    &\Downarrow^{Id}&
+    F
+    \\
+    & \searrow \nearrow_{\bar{(-)}}
+  }
+$$
+
+and
+
+$$
+  \array{
+     &&& 
+     \nearrow &\Downarrow^{\eta}& \searrow^{Id_E}
+     \\
+     F 
+       &\hookrightarrow&
+     E
+       &\stackrel{\bar{(-)}}{\to}& 
+     F
+       &\hookrightarrow&
+     E
+     \\
+     &
+     \searrow &\Downarrow^{\simeq}& \nearrow_{Id_F}
+  }
+  \;\;\;\;
+  =
+  \;\;\;\;
+  \array{
+     & \nearrow \searrow
+    \\
+    F
+    &\Downarrow^{Id}&
+    E
+    \\
+    & \searrow \nearrow
+  }
+$$
+
+
+In components they say that
 
 * for every $a \in E$ we have $(\bar a \stackrel{\bar \eta_a}{\to} \bar{\bar a} \stackrel{\simeq}{\to} \bar a) = Id_{\bar a}$
 
@@ -213,14 +305,16 @@ obtained by precomposition is an isomorphism.
 +-- {: .un_prop}
 ###### Proposition
 
-Every object $a \in F \hookrightarrow E$ is $W$-local.
+Up to isomorphism, the $W$-local objects are precisely the objects of $F$ in $E$
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-First notice that the existence of an isomorphism
+First assume that $a \in F$. We need to show that $a$ is $W$-local.
+
+Notice that the existence of the required isomorphism
 $
   Hom_F(d,a) \simeq Hom_F(c,a)
 $
@@ -296,29 +390,127 @@ $$
 
 shows that $k : d \to a$ does extend the original diagram. Again by the Hom-isomorphism, it is the unique morphism with this property.
 
+So $a \in F$ is $W$-local.
 
-=--
 
-Conversely, for every $W$-local object we have
-for every object $c$
-$$
-  Hom_E(c,a) \simeq Hom_E(\bar c,a)
-  \,.
-$$
+Now for the converse, assume that a given $a$ is $W$-local. 
 
-To see this, use the proposition above which says that the  unit $\eta_c : c \to \bar c$ is in $W$. Then the claim follows from observing that by assumption of locality of $a$ every diagram
+By one of the above propositions we know that the unit
+$\eta_a : a \to \bar a$ is in $W$, so by the $W$-locality of
+$a$ it follows that
 
 $$
   \array{
-     c &\stackrel{\eta_c}{\to}& \bar c
+     a &\stackrel{\eta_a}{\to}& \bar a
      \\
-     \downarrow^h
+     \downarrow^{Id_a}
      \\
      a
   }
 $$
 
-has a unique extension $h'$. The map $h \mapsto h'$ is the desired isomorphism.
+has an extension
+
+$$
+  \array{
+     a &\stackrel{\eta_a}{\to}& \bar a
+     \\
+     \downarrow^{Id_a} & \swarrow_{\rho_a}
+     \\
+     a
+  }
+  \,.
+$$
+
+By the 2-out-of-3 property of $W$ shown in one of the above propositions, (using that $Id_a$, being an isomorphism, is in $W$) it follows that $\rho_a : \bar a \to a$ is in $W$. 
+
+Since $\bar a$ is in $F$ and therefore $W$-local by the above, it follows that also
+
+$$
+  \array{
+     \bar a &\stackrel{\rho_a}{\to}& a
+     \\
+     \downarrow^{Id_{\bar a}}
+     \\
+     \bar a
+  }
+$$
+
+has an extension
+
+$$
+  \array{
+     \bar a &\stackrel{\rho_a}{\to}& a
+     \\
+     \downarrow^{Id_{\bar a}} & \swarrow_{\lambda_a}
+     \\
+     \bar a
+  }
+  \,.
+$$
+
+So $\eta_a$ has a left inverse $\rho_a$ which itself has a left inverse $\lambda_a$. It follows that $\rho_a$ is also a right inverse to $\eta_a$, since
+
+$$
+  \begin{aligned}
+    \stackrel{\rho_a}{\to}
+    \stackrel{\eta_a}{\to}
+    & =    
+    \stackrel{\rho_a}{\to}
+    \stackrel{\eta_a}{\to}
+    \underbrace{
+      \stackrel{\rho_a}{\to} 
+       \stackrel{\lambda_a}{\to}
+    }_{Id}
+   \\
+    & = 
+    \stackrel{\rho_a}{\to}
+    \underbrace{
+      \stackrel{\eta_a}{\to}
+      \stackrel{\rho_a}{\to} 
+    }_{Id}
+    \stackrel{\lambda_a}{\to}
+    \\
+    &=
+    \stackrel{\rho_a}{\to}
+    \stackrel{\lambda_a}{\to}
+    \\
+    &=
+    Id
+  \end{aligned}
+  \,.
+$$
+
+So if $a$ is $W$-local we find that $\eta_a : a \to \bar a$ is an isomorphism, hence that $a$ is isomorphic to an object of $F$. 
+
+=--
+
++-- {: .un_cor}
+###### Corollary
+
+$F$ is equivalent to the full [[subcategory]] $E_{W-loc}$ of $E$ on $W$-[[local object]]s.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By standard reasoning (e.g. [[Categories and Sheaves|KS lemma 1.3.11]]) there is a functor $F \to E_{W-loc}$ and a natural isomorphism
+
+$$
+  \array{
+     F &&\hookrightarrow&& E
+     \\
+     & \searrow &\Downarrow^{\simeq}& \nearrow
+     \\
+     && E_{W-loc}
+  }
+  \,.
+$$
+
+Since $F \hookrightarrow E$ and $E_{W-loc} \hookrightarrow E$ are [[full and faithful functor|full and faithful]], so is $F \to E_{W-loc}$. Since by the above it is also essentially surjective, it establishes the equivalence $F \simeq E_{W-loc}$.
+
+=--
 
 
 +-- {: .un_prop}
