@@ -16,7 +16,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
-  * created [[symmetric monoidal (infinity,1)-category]], [[commutative algebra in an (infinity,1)-category]], [[commutative ring spectrum]], [[E-infinity ring]]
+  * further expanded section 2 of [[geometric infinity-function theory]], which I am to "report" on next Monday in our Journal Club. 
+
+  * finally created [[simplicial nerve of simplicial categories]], but more details necessary...
+
+  * am trying to find out, for [[A-infinity ring]] and [[E-infinity ring]] to which extent the two definitions "algebra over an $\infty$-operad" and "algebra object in a monoidal $(\infty,1)$-category" are equivalent, as one would expect...
+
+  * created [[symmetric monoidal (infinity,1)-category]], [[commutative algebra in an (infinity,1)-category]], [[smash product of spectra]], [[associative ring spectrum]], [[A-infinity ring]], [[commutative ring spectrum]], [[E-infinity ring]]
 
   * expanded the intro at [[higher algebra]] a bit
 
