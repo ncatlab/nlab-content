@@ -102,7 +102,7 @@ $$
 $$
 
 $$
-  U \maptso Stab(C_{/U})
+  U \mapsto Stab(C_{/U})
 $$ 
 
 as described at [[schreiber:∞-vector bundle]]
@@ -246,6 +246,8 @@ $$
 ### Differential forms and Hochschild (co)homolology
 
 The above identifies Hochschild homology objects of function algebras with function algebras on a [[free loop space object]]. If one adds to this the observation that for a sufficiently wel behaved ordinary space regarded as [[derived stack]] its free loop space object is essentially its [[de Rham space]], one recovers from a [[higher geometry]] picture the stamenet of the Hochschild-Kostant-Rosenberg theorem mentioned above. Details are in
+
+* [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Langlands Parameters_ ([arXiv:0706.0322](http://arxiv.org/abs/0706.0322))
 
 * [[Bertrand Toen]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
 
