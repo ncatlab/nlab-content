@@ -21,7 +21,7 @@ A good account of the mathematical axiomatics of AQFT is
 
 This is, among other things, the ideal starting point for pure mathematicians who have always been left puzzled or otherwise unsatisfied by accounts of quantum field theory, even those tagged as being "for mathematicians". AQFT is truly axiomatic and rigorously formal. 
 
-There is much more literature one should point to here, eventually. For instance for the connection between the AQFT axioms and the perturbative Feynman-integral techniques one sses much in [[quantum field theory]] see
+There is much more literature one should point to here, eventually. For instance for the connection between the AQFT axioms and the perturbative Feynman-integral techniques much used in [[quantum field theory]], see
 
 * Romeo Brunetti, Michael Duetsch, Klaus Fredenhagen, _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_ ([arXiv](http://arxiv.org/abs/0901.2038))
 
