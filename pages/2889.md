@@ -21,7 +21,7 @@ Several different realizations of this hypothetical cohomology theory have been 
      \,.
    $$
 
-    More precisely,  $\mathbf{H}_{Nis}$ known about what would be called the [[nonabelian cohomology]] generalizations of motivic cohomology: motivic cohomology proper is the special case of this where coefficient objects $A$ are taken to be [[spectrum object]]s and taken to be [[A1-homotopy theory|A1-homotopy invariant]]. 
+    More precisely, the full $\mathbf{H}_{Nis}$ knows about what would be called the [[nonabelian cohomology]] generalization of motivic cohomology: motivic cohomology proper is the special case of this where coefficient objects $A$ are taken to be [[spectrum object]]s and taken to be [[A1-homotopy theory|A1-homotopy invariant]]. 
 
    This is described in the section [Homtopy stabilization of the (∞,1)-topos on Nis](#InfStackDef) below.
 
@@ -29,8 +29,6 @@ Several different realizations of this hypothetical cohomology theory have been 
 
 
 ## Homotopy stabilization of the $(\infty,1)$-topos on $Nis$ {#InfStackDef}
-
-There is another approach to defining motivic cohomology, directly as the [[cohomology]] inside a [[(∞,1)-topos]].
 
 Write 
 
@@ -46,7 +44,7 @@ Write
   the [[stable (∞,1)-category]] of [[spectrum object]]s 
   in $\mathbf{H}_{Nis}^I$.
 
-Then motivic [[cohomology]], and motivic [[homotopy]] are just given by connected components of [[derived hom space|(∞,1)-categorical hom-space]]s in $Stab(\mathbf{H}_{Nis}^I)$.
+Then motivic [[cohomology]], and motivic [[homotopy]] are given by connected components of [[derived hom space|(∞,1)-categorical hom-space]]s in $Stab(\mathbf{H}_{Nis}^I)$.
 
 There is a standard way to _present_ all this structure:
 
