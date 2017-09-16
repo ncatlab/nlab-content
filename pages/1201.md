@@ -1,7 +1,9 @@
+# Axiom of foundation
+
 In material [[set theory]], the __axiom of foundation__, also called the __axiom of regularity__, states that the membership relation $\in$ on the proper class of all [[pure set]]s is [[well-founded relation|well-founded]].  In structural set theory, accordingly, one uses well-founded relations in building structural models of well-founded pure sets.
 
 
-# Statement #
+## Statement #
 
 Given a proper class $A$ of [[pure set]]s, suppose that $A$ has the property that, given any pure set $x$,
 $$ \forall t,\; t \in x \Rightarrow t \in A ,$$
@@ -10,9 +12,9 @@ then $x \in A$.  Such an $A$ may be called a _membership-inductive_ class.  Then
 Although the statement here refers to proper classes, it can also be formulated as an axiom schema that makes no mention of classes.
 
 
-# Alternative formulations #
+## Alternative formulations #
 
-While the statement above follows how the axiom of foundation is generally *used* ---to prove properties of pure sets by [[transfinite induction]]---it is complicated.  Two alternative formulations are given by the following lemmas:
+While the statement above follows how the axiom of foundation is generally *used* ---to prove properties of pure sets by [[transfinite induction]]---, it is complicated.  Two alternative formulations are given by the following lemmas:
 
 +-- {: .num_lemma #InfiniteDescent}
 ###### Lemma
@@ -30,7 +32,11 @@ This is essentially a transfinite version of Fermat\'s method of [[infinite desc
 +--{: .query}
 [[Mike Shulman]]: Is it really "transfinite"?  I only see an $\omega$-sequence...
 
+: _Toby_: I just mean that it allows us to use for transfinite induction an argument that Fermat applied only to ordinary induction.
+
 Also, what additional set-theoretic axioms are required for the converse direction of this proof?  It certainly requires excluded middle and infinity, and seems to require at least [[dependent choice]] as well.  Does dependent choice automatically allow choosing a sequence of elements from inhabited classes, rather than inhabited sets?
+
+: I don\'t know what\'s *needed* in the sense that no weaker version might suffice.  I only know that DC and EM are *used* in every proof that I\'ve seen or can come up with.
 =--
 
 +-- {: .num_lemma #MembershipMinimal}
@@ -53,7 +59,7 @@ We should probably also mention the version "every pure set appears at some stag
 =--
 
 
-# Anti-foundation #
+## Anti-foundation #
 
 Most of set theory works without the axiom of foundation, but not the deep study of well-founded pure sets.  However, one might want to do material set theory without assuming that all sets are well-founded, then one would not assume this axiom.
 
@@ -68,7 +74,7 @@ If you include the hypothesis that $\prec$ be [[well-founded relation|well-found
 If you adopt the axiom of anti-foundation (with the strongest notion of extensive relation) instead of foundation, then the universe of [[pure set]]s becomes the [[corecursion|corecursively]] defined ill-founded sets instead of the [[recursion|recursively]] defined well-founded sets.
 
 
-# Structural meaning #
+## Structural meaning #
 
 Since the axiom of foundation is about pure sets, there seems little point to it in a [[structural set theory]].  However, it does have a structural consequence: every set $S$ is the underlying set of elements of a well-founded model for a pure set (in any of the ways described at [[pure set]]).  If one assumes the [[axiom of choice]], however, then this statement follows from the [[well-ordering theorem]], since in that case $S$ is the underlying set of a model for a von Neumann [[ordinal number]].  But the axiom of foundation has no stronger structural consequence, since this statement already suffices to ensure that a model of structural set theory can be reconstructed from the material set theory consisting of its well-founded pure sets.
 
