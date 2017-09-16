@@ -46,11 +46,11 @@ Note: the following is tentative "original research". It is prompted by the desi
 I\'ve read through it once, and it makes sense.  I\'ll read through it again more carefully later.  ---Toby
 =--
 
-We begin by defining the [[2-poset]] (i.e., locally [[preorder]]ed [[bicategory]]) of **regions**, denoted $Reg$. The objects are topological spaces (or locales if you prefer); the morphisms are [[partial function]]s with open domain, that is spans
+We begin by defining the [[2-poset]] (i.e., locally [[preorder]]ed [[bicategory]]) of **regions**, denoted $Reg$. The objects are topological spaces (or locales if you prefer); the morphisms are [[partial functions]] with open domain, that is spans
 $$X \overset{i}{\leftarrow} U \overset{f}{\to} Y$$
 where $f$ is continuous and $i$ is an open embedding. The spans are locally (that is, for fixed $X$ and $Y$) ordered by inclusion.
 
-These local posets are not cocomplete, but they admit certain obvious [[join]]s: given a family of regional maps
+These local posets are not cocomplete, but they admit certain obvious [[joins]]: given a family of regional maps
 $$(U_\alpha, f_\alpha): X \to Y$$
 the join $\bigvee_\alpha (U_\alpha, f_\alpha)$ exists iff we have local compatibility:
 $$f_{\alpha}|_{U_\alpha \cap U_\beta} = f_{\beta}|_{U_\alpha \cap U_\beta}$$
