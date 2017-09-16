@@ -56,11 +56,11 @@ There is a slight variant of the full notion of model category by Thomason that 
 
 #Examples#
 
-The archetypical model structures is 
+The archetypical model structure is the
 
-* [[model structure on topological spaces]]
+* [[model structure on topological spaces|Quillen model structure on topological spaces]]
 
-and its subcategory of nice topological spaces is [[Quillen equivalence|Quillen equivalent]] to the standard
+and this model category is [[Quillen equivalence|Quillen equivalent]] to the standard
 
 * [[model structure on simplicial sets]]
 
