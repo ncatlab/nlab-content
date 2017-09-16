@@ -1,3 +1,8 @@
+# Monadic adjunctions
+* tic
+{: toc}
+
+
 ## Idea
 
 One can turn [[monads]] into [[adjunctions]] and adjunctions into monads, but one doesn\'t always return where one started.  Every monad comes from an adjunction, but only a _monadic adjunction_ comes from a monad.  (To be fair, there are two ways to turn a monad into an adjunction, given by the [[Kleisli category]] and the [[Eilenberg–Moore category]]; we are talking about the latter here.)
@@ -11,6 +16,7 @@ Let $(C,D,\ell,r,\iota,\epsilon)$ be an adjunction in $Cat$; that is, $\ell: C \
 
 The adjunction $\ell \dashv r$ is __monadic__ if this functor $k$ is an [[equivalence of categories]].  
 
+
 ## Beck's monadicity theorem
 
 __Beck's Monadicity Theorem__ gives a necessary and sufficient condition for an adjunction to be monadic.  Namely, the adjunction $(C,D,\ell,r,\iota,\epsilon)$ is monadic iff:
@@ -18,6 +24,13 @@ __Beck's Monadicity Theorem__ gives a necessary and sufficient condition for an 
 *  $r$ reflects isomorphisms; and
    
 *  $D$ has coequalizers of $r$-split coequalizer pairs, and $r$ preserves those coequalizers.
+
+
+## Algebraic categories
+
+The typical categories studied in [[algebra]], such as [[Grp]], [[Ring]], etc, all come equipped with monadic adjunctions from [[Set]].  Specifically, the [[right adjoint]] is the [[forgetful functor]] from algebras to sets, and the [[left adjoint]] maps each set to the [[free object|free]] algebra on that set.  Their composite (a monad on $Set$) may be thought of as mapping a set $A$ to the set of words with alphabet taken from $A$ and the connections between letters taken from the appropriate algebraic operations, with two words identified if they can be proved equal by the appropriate algebraic axioms.
+
+Abstractly, one may *define* an [[algebraic category]] to be a category equipped with a monadic adjunction from $Set$.  However, there are now more examples than the ones from algebra; the best known of these is the category of [[compact Hausdorff spaces]], which corresponds to the [[ultrafilter]] monad.  (This result relies on the [[ultrafilter principle]], regardless of whether one interprets 'space' here as referring to [[topological spaces]] or [[locales]].)
 
 
 ## References
