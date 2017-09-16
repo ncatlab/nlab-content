@@ -32,7 +32,7 @@ This is itself a group if $A$ happens to carry a group structure (being a [[2-gr
 
 ## objects classified by cohomology classes ##
 
-For $g : X \to A$ a cocycle, one says that is [[fibration sequence|homotopy fiber]] $P \to X$ is the
+For $g : X \to A$ a cocycle, one says that its [[fibration sequence|homotopy fiber]] $P \to X$ is the
 object **classified by the cohomology class*.
 
 Such an object usually has the interpretation of a [[principal infinity-bundle]]. Special cases of this are [[principal bundle]]s, [[gerbe]]s, [[principal 2-bundle]]s, etc.
@@ -68,6 +68,10 @@ Notice that the grading one usually sees on cohomology classes is in the above d
   * [[nonabelian cohomology]]
 
   * [[Cech cohomology]]
+
+  * [[differential cohomology]]
+
+    * [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]]
 
   * [[twisted cohomology]]
 
