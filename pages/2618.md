@@ -1,0 +1,1 @@
+I meant tiny object. How do I delete the page?
