@@ -1,9 +1,17 @@
-$Hilb$ is the category whose object are Hilbert spaces and whose morphisms are linear maps between these.
+$Hilb$ is the [[category]] whose object are [[Hilbert space]]s and whose morphisms are short linear maps (linear maps of norm at most $1$) between these.
 
-#References#
+We can also take $Hilb$ to be the [[dagger category]] with the same object but whose morphisms are now *all* bounded linear maps between them.  (The dagger operation is the usual adjoint operation on such maps.)  The [[full subcategory]] $Fin Hilb$ of finite-dimensional Hilbert spaces becomes a [[dagger compact category]].
+
+Note that either way, the [[core]] (of isomorphisms in the first case, or of unitary isomorphisms in the other case) is the same [[groupoid]], whose morphisms are all invertible linear maps of norm exactly $1$.
+
+In any case, the [[forgetful functor]] from $Hilb$ to [[Vect]] is [[faithful functor|faithful]], confirming the intuition that a Hilbert space is a vector space equipped with [[extra structure]].  $Hilb$ is also a [[full subcategory]] of [[Ban]], the category of [[Banach space]]s.
+
+
+##References#
 
 A pedagogical description of the monoidal  structure on $Hilb$ with an emphasis on their role in quantum mechanics and their relation to [[nCob]] is in
 
 * John Baez, _The monoidal category of Hilbert spaces_ ([web](http://math.ucr.edu/home/baez/quantum/node4.html))
+
 
 category: category
