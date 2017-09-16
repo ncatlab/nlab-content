@@ -2,6 +2,9 @@
 [[!include synthetic differential geometry - contents]]
 </div>
 
+#Content#
+* automatic table of contents goes here
+{:toc}
 
 #Idea#
 
