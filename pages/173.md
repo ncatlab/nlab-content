@@ -117,3 +117,4 @@ $$
 where $B$ is a [[higher group character|biconjugacy class]] of $G$.
 
 
+[[!redirects bi-branes]]
