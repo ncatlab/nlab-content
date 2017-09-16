@@ -1,7 +1,24 @@
 
-...
+#Contents#
+* automatic table of contents
+{:toc}
 
-For the moment, all we have here is an expository piece:
+#Definition#
+
+
+....
+
+# Relation to TQFT #
+
+Gromov-Witten invariants may be understood (and have originally been found) as arising from a particular [[TQFT]], or actually a [[TCFT]].
+
+For a useful exposition of this see
+
+* A.J. Tolland, _Gromov-Witten Invariants and Topological Field Theory_ ([blog](http://sbseminar.wordpress.com/2008/12/11/gromov-witten-invariants-and-topological-field-theory))
+
+#Exposition entries#
+
+here are some seminar notes:
 
 * [[basic ideas of moduli stacks of curves and Gromov-Witten theory]]
 
