@@ -28,9 +28,10 @@ In usual ring theory people often talk about nonunital rings as well: multiplica
 
 #Generalizations#
 
-## in arbitrary monoidal categories ##
+## in arbitrary cartesian categories ##
 
-One can define a semigroup object in any [[monoidal category]] simply by leaving off the unit condition of a monoid object; then a semigroup object in $Ab$ is a nonunital ring.  In order to talk about commutative semigroups, of course the monoidal category needs to be symmetric. To internalize $Ab$ to internal abelian group objects in a monoidal category it also needs to be symmetric. Thus one has a notion of a (unital or not) ring object in any symmetric monoidal category.
+One can define a semigroup object in any [[monoidal category]] simply by leaving off the unit condition of a monoid object; then a semigroup object in $Ab$ is a nonunital ring.  In order to talk about commutative semigroups, of course the monoidal category needs to be symmetric. One can not internalize $Ab$ to an internal abelian group objects in a monoidal category if it is only symmetric. But one can do this in cartesian case (e.g. object such that the correspoding [[representable presheaf]] lifts to a presheaf into abelian groups). 
+Thus one has a notion of a (unital or not) ring object in any cartesian category. 
 
 ## rings over a ring ##
 
