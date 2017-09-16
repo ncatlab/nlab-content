@@ -214,8 +214,11 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 * [[localization]]
 
+* [[homotopical category]]
+
 * [[homotopy category]]
 
+* [[multiplicative system]]
 
 #8 Additive and Abelian Categories#
 
@@ -275,8 +278,9 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
     * [[Lawvere-Tierney topology]]
 
-  * [[site]]
+  * [[local epimorphism]]
 
+  * [[site]]
 
 
 #17 Sheaves on Grothendieck Topologies#
