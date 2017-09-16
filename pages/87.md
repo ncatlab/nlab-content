@@ -102,7 +102,7 @@ _Mathieu says:_ I don't see that (or something like that) on that page, but satu
 
 _Urs says:_ I haven't checked the details. But he is looking at derived homs of crossed complexes. By general nonsense these derived hom should be given by homs out of cofibrant replacements. This is another way of talking about the anafunctor picture. Somebody should check the details.
 
-[[TimPorter|Tim]]: Noohi has pointed out to me a slip in his HHA article in which he gives an `algebraic' description of weak map (and thus of anafunctor) between the crossed modules corresponding to the 2-groups.  He has posted a corrected version on the archive (http://arxiv.org/abs/math/0506313, but make sure you get version 3).
+[[Tim Porter|Tim]]: Noohi has pointed out to me a slip in his HHA article in which he gives an 'algebraic' description of weak map (and thus of anafunctor) between the crossed modules corresponding to the 2-groups.  He has posted a corrected version on the archive (<http://arxiv.org/abs/math/0506313v3>, but make sure you get version 3).
 =--
 # References
 
