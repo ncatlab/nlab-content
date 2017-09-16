@@ -1,3 +1,9 @@
+<div class="rightHandSide toc">
+[[!include higher algebra - contents]]
+</div>
+
+
+
 #Idea#
 
 Recall that a [[monoid]] object or algebra object in a [[monoidal category]] $C$ is the same as a lax monoidal functor
@@ -40,3 +46,4 @@ definition 1.1.14 in
 [[!redirects monoid in a monoidal (∞,1)-category]]
 [[!redirects algebra in an (∞,1)-category]]
 [[!redirects monoid in an (∞,1)-category]]
+[[!redirects monoid in an (infinity,1)-category]]
