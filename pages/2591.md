@@ -10,7 +10,7 @@ $$
   \,.
 $$
 
-[[fivebrane group]] to [[string group]] to [[spin group]] to **special orthogonal group** to [[orthogonal group]].
+[[Fivebrane group]] to [[string group]] to [[spin group]] to **special orthogonal group** to [[orthogonal group]].
 
 #Orientation of manifolds#
 
