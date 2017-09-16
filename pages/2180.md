@@ -148,6 +148,7 @@ A more conceptual than nominal variation depends on whether one uses terms like 
 
 * [Peirce's 1870 Logic Of Relatives](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Peirce's_1870_Logic_Of_Relatives)
 
+
 ## Discussion ##
 
 ### Re: Idea ###
@@ -157,6 +158,7 @@ Are you dissatisfied with [[allegory|allegories]]?  ---[[Toby Bartels]]
 
 JA: I looked into Freyd and Scedrov when it first came out --- I still have a copy around here _somewhere_.  It seemed quite nice as far as it went but --- best I recall --- it was mostly about 2-ary relations?
 
+_Toby_:  Yes, that\'s a good point.  It seems that you need something like a multiallegory, the allegorial version of a [[multicategory]].  As far as I know, nobody has studied such a thing, although it does seem like an obvious thing to try.
 =--
 
 ### Re: Preliminaries ###
