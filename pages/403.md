@@ -109,6 +109,10 @@ A [[groupoid]] internal to $A$ is all of the above
      }
      \,.
    $$
++--{+ .query}
+I think things are mutliply inconsistent in this entry.
+I do not want to change as I do not know what the intentional notation to start with was. If $p_1\circ s = p_2\circ t$ that mean that target is read at the left-hand side (composition as o, not as ;), while the diagrams before that suggest left to right composition. Then finally the diagram for groupoids has $s$ both for source and inverse, and there is only for right inverse, and one should also check convention, once it is decided above.-Zoran
+=--
 
 
 #Terminology#
