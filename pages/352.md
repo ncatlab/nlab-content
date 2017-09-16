@@ -1,3 +1,7 @@
+[[!redirects ∞-category]]
+[[!redirects $\infty$-category]]
+
+
 #Idea#
 
 In generalization to how an ordinary [[category]] has [[morphism|morphisms]] going between [[object|objects]], and a [[2-category]] has both morphisms (or 1-morphisms) between objects and 2-morphisms (or 2-cells) going between 1-morphisms, in an $\infty$-category (sometimes called an $\omega$-[[omega-category|category]]), there are $j$-morphisms going between $(j-1)$-morphisms for all $j = 1, 2, \ldots$.  (The $0$-morphisms are the objects of the $\infty$-category.)
@@ -53,4 +57,3 @@ Recently $(\infty, 1)$-categories (see [[homotopy theory]]) have attracted much 
 * Jacob Lurie, _Higher Topos Theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
 
 There's a lot more to add here, even if we restrict ourselves to very general texts.  (More specialized stuff should go under more specialized subcategories!)
-
