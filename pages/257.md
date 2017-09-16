@@ -1,4 +1,8 @@
-See also: [[homotopy theory]].
+
+<div class="rightHandSide toc">
+[[!include homotopy - contents]]
+</div>
+
 
 #Idea#
 
