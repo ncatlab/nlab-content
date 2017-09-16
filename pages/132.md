@@ -14,4 +14,7 @@ If $C$ is a category [[enriched category|enriched]] or [[internal category|inter
 This is especially confusing if one extends the use of "discrete category over $S$" to the case of internal categories, when $S$ is an object of some ambient category.  With this usage, if $S$ is a topological space, then the "discrete internal category over $S$" in [[Top]] will not be discrete in the topological sense: it still remembers the topology on that space.
 
 
+[[!redirects discrete category]]
 [[!redirects discrete groupoid]]
+[[!redirects discrete categories]]
+[[!redirects discrete groupoids]]
