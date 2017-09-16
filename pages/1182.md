@@ -849,7 +849,7 @@ where $QC(U)$ for an _affine_ stack $U = Spec A$ is simply defined as $Mod_A$.
 
 One incarnation of derived stack in differential geometry is as an _$\omega$-groupoid internal to differential graded manifolds_. Since differential graded manifolds are 'affine', in the sense that knowledge of global functions is sufficient to determine the manifold, the limit construction above is not necessary. Hence, for such a derived stack (an $\omega$ groupoid $X$ internal to differential graded manifolds) we can more simply set
  \[
- QC(X) = smooth $\omega$-functors from $X$ to chain complexes
+ QC(X) = smooth \omega-functors from X to chain complexes
 \]
 since the latter plays the role of a 'derived $\mathbb{C}$-module'.
 
