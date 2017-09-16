@@ -36,14 +36,22 @@ $$
   \,.
 $$
 
-In the case that $E = KU$ is the [[K-theory]] spectrum, this morphism is classically known as the **Chern character**. Generalizing from this example, the term "Chern character" is sometimes used also for the general case.
+In the case that $E = KU$ is the [[K-theory]] spectrum, this morphism is classically known as the **Chern character**. Generalizing from this example, the term "Chern character" is sometimes used also for the general case. 
+
+There are analogues in algebraic geometry (e.g. a Chern character between the Chow groups and the algebraic K-theory) and noncommutative geometry (Chern-Connes character) where the role of usual cohomology is taken by some variant of cyclic cohomology.  
 
 
 ## For vector bundles and K-theory {#KTheory}
 
-The classical theory of the Chern character applies to the [[spectrum]] of complex [[K-theory]], $E = KU$.
+The classical theory of the Chern character applies to the [[spectrum]] of complex [[K-theory]], $E = KU$. In this case, the Chern character is made up from Chern classes: each characteristic class is by Chern-Weil theory in image of certain element in the Weil algebra via taking the class of evaluation at the curvature operator for some choice of a connection. Consider the symmetric functions in $n$ variables $t_1,\ldots, t_n$ and let the Chern classes of a complex vector bundle $\xi$ (representing a complex K-theory class) are $c_1,\ldots, c_n$. Define the formal power series 
 
-In that case a cocycle $H^0(X,KU)$ may be represented by a complex [[vector bundle]], and the image of this cocycle under the Chern-character is the class in even-graded real cohomology that is represented (under the [[deRham theorem]] isomorphism of deRham cohomology with real cohomology) by the even graded closed [[differential form]]
+$$
+\phi = \phi^n(t_1,\ldots, t_n) = e^{t_1}+\ldots+e^{t_n}= \sum_{k=0}^\infty \frac{1}{k!} (t_1^k+\ldots+t_n^k)
+$$
+
+Then $ch(\chi) = \phi(c_1,\ldots,c_n)$. 
+
+Let us describe this a bit differently. The cocycle $H^0(X,KU)$ may be represented by a complex [[vector bundle]], and the image of this cocycle under the Chern-character is the class in even-graded real cohomology that is represented (under the [[deRham theorem]] isomorphism of deRham cohomology with real cohomology) by the even graded closed [[differential form]]
 
 
 $$
@@ -62,6 +70,8 @@ where
 * $F = F_\nabla \in \Omega^2(X,End(V))$ is the [[curvature]] of this connection;
 
 * $k_j \in \mathbb{R}$ are normalization constants, $k_j = \frac{1}{j!} \left( \frac{1}{2\pi i}\right)^j$.
+
+Chern character applied to the Whitney sum of two vector bundles is a sum of the Chern characters for the two: $ch(\xi\oplus \eta) = ch(\chi)-ch(\eta)$ and it is multiplicative under the tensor product of vector bundles: $ch(\xi\otimes\eta)=ch(\chi)ch(\eta)$. Therefore we get a ring homomorphism. 
 
 ## General theory
 
