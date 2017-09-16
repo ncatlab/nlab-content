@@ -6,8 +6,48 @@ The Grothendieck construction describes this in the context of [[Cat]]: a morphi
 
 The reconstruction of $p$ from the pseudofunctor $S_p$ is the Grothendieck construction.
 
+# Definition #
+
+Let for the time being [[Grpd]] be the 1-category of [[groupoid]]s and [[functor]]s between them.
+
+Recall from [[generalized universal bundle]] that the "universal [[Grpd]]-[[bundle]]" is $Grpd_* \to Grpd$, where $Grpd_*$ is the category of [[pointed object|pointed]] [[groupoid]]s.
+
+Then for $F : C \to Grpd$ a [[functor]], the Grothendieck construction for $F$ is the [[pullback]] $\int F \to C$ of $Grpd_* \to Grpd$ along $F$:
+
+$$
+  \array{
+    \int F &\to& Grpd_*
+    \\
+    \downarrow && \downarrow
+    \\
+    C &\stackrel{F}{\to}& Grpd
+  }
+  \,.
+$$
+
+This means that the objects of $\int F$ are pairs $(c,a)$, where $c \in Obj(C)$ and $a \in Obj(F(c))$ and morphisms in $\int F$ are given by pairs $(c \stackrel{f}{\to} c', \alpha : F(f)(a) \to a')$. This is to be visualized as
+
+$$
+  \int F = 
+  \left\{
+  \array{
+    && {*}
+    \\
+    & {}^a\swarrow &\Downarrow^{\alpha}& \searrow^{a'}
+    \\
+    F(c) && \stackrel{F(f)}{\to} F(c')
+    \\
+    \\
+    c &&\stackrel{f}{\to}&& c'
+  }
+  \right\}
+  \,.
+$$
+
 
 ## Generalizations ##
+
+The analog of the Grothendieck construction one categorical dimension down is the [[category of elements]] of a [[presheaf]].-
 
 The analog of the Grothendieck construction for [[(infinity,1)-category|(∞,1)-categories]] is described at [[Cartesian fibration]] and at [[universal fibration of (∞,1)-categories]].
 
