@@ -12,7 +12,7 @@ One can turn [[monads]] into [[adjunctions]] and adjunctions into monads, but on
 
 We give the definitions in [[Cat]] and leave it to future readers and writers to generalise.
 
-Let $(C,D,\ell,r,\iota,\epsilon)$ be an adjunction in $Cat$; that is, $\ell: C \to D$ and $r: D \to C$ are [[adjoint functors]] with $\ell \dashv r$, where $\iota$ and $\epsilon$ are the unit and counit.  Let $T$ be $r \circ \ell$; $T$ has the structure of a monad on $C$, so consider the [[Eilenberg–Moore category]] $C^T$ of [[module for a monad|modules (algebras)]] for $T$.  Then $r \circ \epsilon$ is a [[functor]] $k: D \to C^T$.
+Let $(C,D,\ell,r,\iota,\epsilon)$ be an adjunction in $Cat$; that is, $\ell: C \to D$ and $r: D \to C$ are [[adjoint functors]] with $\ell \dashv r$, where $\iota$ and $\epsilon$ are the unit and counit.  Let $T$ be $r \circ \ell$; $T$ has the structure of a monad on $C$, so consider the [[Eilenberg–Moore category]] $C^T$ of [[module for a monad|modules (algebras)]] for $T$.  Then $r \circ \epsilon: T \circ r \to r$ endows $r: D \to C$ with a $T$-algebra structure, hence defines a [[functor]] $k: D \to C^T$.
 
 The adjunction $\ell \dashv r$ is __monadic__ if this functor $k$ is an [[equivalence of categories]].  
 
