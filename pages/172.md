@@ -90,7 +90,7 @@ This concerns $\infty$-stacks with values in [[∞-groupoids]], i.e. $(\infty,0)
 
 All this has been embedded into a coherent global theory in the setting of [[quasicategory|quasicategories]] in
 
-* [[Jacob Lurie]]; [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 
 [[!redirects infinity-stacks]]
