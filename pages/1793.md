@@ -1,4 +1,3 @@
-
 # Idea #
 
 Under the [[Dold–Kan correspondence]] there is an [[equivalence of categories]] relating non-negatively graded [[chain complex]]es in an [[abelian category]] $A$ to [[simplicial object]]s in $A$.
@@ -13,6 +12,25 @@ At least if $A$ is the category of abelian groups, so that $A^{\Delta^{op}}$ is 
 The model structure on chain complexes transports this presentation  of the special $\infty$--groupoids given by abelian simplicial groups along the Dold-Kan correspondence to chain complexes.
 
 Analogous statements apply to the category of unbounded chain complexes and the canonical [[stable (infinity,1)-category]] [[Spec]] of [[spectrum|spectra]]. 
+
+Spaltenstein wrote a famous paper 
+
+* N. Spaltenstein, _Resoutions of unbounded complexes_, Compositio Mathematica, 65 no. 2 (1988), p. 121-154 ([numdam](http://www.numdam.org/item?id=CM_1988__65_2_121_0))
+
+on how to do homological algebra with unbounded complexes (in both sides) where he introduced notions like K-projective and K-injective complexes. Later, 
+
+* V. Hinich, _Homological algebra of homotopy algebras_, Comm. Algebra, vol. 25 (1997), no. 10, 3291-3323
+([pdf at author's page](http://math.haifa.ac.il/hinich/WEB/mypapers/haha.pdf)) 
+
+shown that there is a model category structure on the category of unbounded chain complexes, reproduced Spaltenstein's results from that perspective and extended them widely. See also
+
+* J. D. Christensen, Derived categories and projective classes, 2005 ([hopf archive](http://hopf.math.purdue.edu/cgi-bin/generate?/Christensen/derived))
+
++-- { .query}
+[[Zoran Škoda]]: It is misleading to put positive complexes in the center of this nlab entry, because this is just the easiest, cheapest part of the story. I do not think the results for positive, negative or bounded complexes were just easily generalized from unbounded as it is impression from the sentence above on "analogous results". Both Spaltenstein and Hinich wrote breakthrough papers over 20 years after Quillen's school understood the examples of one-side-unbounded and bounded cases. 
+
+This Spaltenstein-Hinich story which I just mentioned with writing out the references, would thus be more essential to precisely cover (and will be more essentially used) than making the long story out of trivial resort to Dold-Kan argument, and modern lingo on (infty,1). 
+=--
 
 
 # History and references#
