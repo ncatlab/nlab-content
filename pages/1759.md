@@ -30,6 +30,12 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 ## 2009-07-22
 
+*  [[Toby Bartels]]:
+   *  More discussion with Tom at [[regular monomorphism]].
+   *  Formatting with `+-- {: .un_remark}`...`=--` at [[category theory]].
+   *  Final comments to Urs at [[locally presentable category]].
+   *  Added somewhat to [[(n,k)-transformation]] ... although still not a definition!
+
 * [[Urs Schreiber]]:
 
   * added links and references to [[tricategory]]
