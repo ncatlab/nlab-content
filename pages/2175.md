@@ -19,7 +19,7 @@
 
 ### Combinatorics ##
 
-* [[graph]]
+* [[graph theory]]
 
 ### Inquiry ###
 
