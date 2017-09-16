@@ -40,6 +40,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Mathieu Dupont]]
 * [[Mike Shulman]]
 * [[Mike Stay]]
+* [[Omar Antolín-Camarena]]
 * [[Owen Biesel]]
 * [[Patrick Schultz]]
 * [[Peter LeFanu Lumsdaine]]
