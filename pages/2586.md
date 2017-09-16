@@ -7,7 +7,7 @@ $$
   \,.
 $$
 
-[[fivebrane group]] to [[string group]] to **spin group** to [[special orthogonal group]] to [[orthogonal group]].
+[[Fivebrane group]] to [[string group]] to **spin group** to [[special orthogonal group]] to [[orthogonal group]].
 
 The [[homotopy group]]s of $O(n)$ are for $k \in \mathbb{N}$ and for sufficiently large $n$
 
