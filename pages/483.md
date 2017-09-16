@@ -13,7 +13,7 @@ The notions of [[fundamental category]] and many of the applications of these no
 
 [[Urs Schreiber|Urs]]: thanks, I wasn't aware of that. Could you provide a reference? Or the detailed original definition itself?
 
-_Toby_: While we await Tim\'s reply, I expect that he simply means a [[pospace]] such that the partial order is a [[directed set|direction]].
+_Toby_: While we await Tim\'s reply, I expect that he simply means a [[pospace]] such that the partial order is a [[direction]].
 
 By the way, if there are different notions of directed space, then we can move the one below to [[d-space]].
 =--
