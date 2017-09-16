@@ -32,7 +32,9 @@ Todd, what\'s a 'wide' pushout?  ---Toby
 
 It's a colimit of a diagram of shape $X \to X_i$ where $i$ ranges over a set. So having many legs, not just two. Here was my thinking: it's intuitively obvious that wide pushouts of connected spaces are connected. If one works with the hom-functor formulation of connectedness, the formal bottom line here is that the coproduct functor $\sum_J: Set/J \to Set$ preserves wide pullbacks. One can then deduce that more generally it preserves limits of connected diagrams, and this leads to the cited result about colimits of connected diagrams of connected spaces.  ---Todd
 
-OK, that\'s (dual to) what are being called [[fibered product]]s elsewhere.  I thought of that, but it also seemed like you might be using it to mean any connected colimit; I see now that that\'s just a consequence.  Thanks!  ---Toby
+OK, that\'s (dual to) what are being called [[fibered product]]s elsewhere.  I thought of that, but it also seemed like you might be using it to mean any connected colimit; I see now that that\'s just a consequence.  Thanks!  ---Toby 
+
+I first saw the term 'wide pullback' in the paper by Carboni and Johnstone on Artin gluing and familial representability, and it seems to be common in articles which deal with familial representability (for example those which deal in general notions of operad via cartesian monads; see for instance Tom Leinster's book). ---Todd
 
 =--
 
