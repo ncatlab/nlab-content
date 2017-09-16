@@ -52,8 +52,11 @@ One can also think of this as the top-level structure of the 4th [[oriental]]. T
 
 * **$K_5$** is the [dual polyhedron](http://en.wikipedia.org/wiki/Dual_polyhedron) to the [triaugmented triangular prism](http://en.wikipedia.org/wiki/Triaugmented_triangular_prism) 
 
++--{: style="text-align:center"}
 <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Polytope_K3.svg/180px-Polytope_K3.svg.png" alt="">
+=--
 
+  A template which can be cut out and assembled into a $K_5$ can be found [here](http://cheng.staff.shef.ac.uk/cutout/).
 
 * Rotatable illustrations of some Stasheff polyhedra can be found at 
 
