@@ -13,7 +13,7 @@ The details of the definition depend on the chosen model for $(\infty,1)$-catego
 
 * [[Segal category]]
 
-* [[quasicategory]]
+* [[quasi-category]]
 
 ##For simplicially enriched categories##
 
@@ -46,7 +46,7 @@ Similar, but more complicated, definitions work for [[complete Segal space]]s an
 
 For [[quasi-category|quasi-categories]], one can write down a definition similar to those of $SSet$-enriched categories, but there is also the following direct construction: 
 
-the [[nerve|simplicial nerve]] functor $N :$ [[Cat]] $\to$ [[SimpSet|SSet]] has a [[left adjoint]]
+the [[nerve|simplicial nerve]] functor $N :$ [[Cat]] $\to$ [[SimpSet|SSet]] has a [[adjoint functor|left adjoint]]
 $$
  h : SSet \to Cat
  \,.
