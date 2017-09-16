@@ -14,10 +14,10 @@ $$
   Y\times I &\underset{g}{\to} & B
 \end{matrix}
 $$
-there is a map $\hat{g}:Y\times I \to E$ such that $f\circ \hat{g} = g$ and there is a vertical homotopy between $\hat{g}(-,0):Y\to E$ and $g_0$. The synonym expression _weak homotopy lifting property_ (WHLP) is also used. 
+there is a map $\hat{g}:Y\times I \to E$ such that $f\circ \hat{g} = g$ and there is a vertical homotopy between $\hat{g}(-,0):Y\to E$ and $g_0$. The synonymous expression _weak homotopy lifting property_ (WHLP) is also used. 
 
 A continuous map is a **Dold fibration** if it has the WCHP for all spaces. Somewhat surprisingly, there is an equivalent condition in terms of delayed homotopies. A __delayed homotopy__ is a homotopy $H:Y\times I\to Z$ such that $H(y,t)=H(y,0)$ for $0\leq t\leq t_0$ for some $t_0\gt 0$.
-A continuous map is a Dold fibration iff in the diagram above in which $g$ is a delayed homotopy, can be filled with a diagonal map $\hat{g}:Y\times I \to E$ such that the diagram is strictly commutative. It is of course not required that $\hat{g}$ be delayed (one can require, but then one allows $t_0$ for $\hat{g}$ to be possibly smaller than $t_0$ for $g$). This is sometimes called __delayed homotopy lifting property__. 
+A continuous map is a Dold fibration iff in the diagram above in which $g$ is a delayed homotopy, can be filled with a diagonal map $\hat{g}:Y\times I \to E$ such that the diagram is strictly commutative. It is of course not required that $\hat{g}$ be delayed (one can require, but then one allows $t_0$ for $\hat{g}$ to be possibly smaller than $t_0$ for $g$). This is sometimes called the __delayed homotopy lifting property__. 
 
 ## Examples and counter-examples
 
