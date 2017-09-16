@@ -62,9 +62,9 @@ $$
 $$
 $$
   \cdots
-  C_2 \stackrel{\to}{\stackrel{\to}{\to}}
+  C_2 \stackrel{\to}\rightrightarrows
   C_1 
-  \stackrel{\to}{\to} 
+  \rightrightarrows 
  C_0
 $$
 
