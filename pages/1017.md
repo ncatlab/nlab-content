@@ -14,3 +14,7 @@ But perhaps the point is best seen as the unique object in itself:
 $$ \bullet = \{\bullet\} ,$$
 an equation that makes sense as a definition in the theory of ill-founded [[pure set]]s.  Another possible definition (this time well-founded) in pure set theory is that the point is $\{\emptyset\}$, but this doesn\'t capture the picture that we get from higher category theory: the $(-1)$-[[(-1)-category|category]] (truth value) of the $(-2)$-category (the point) is true (also the point), the $0$-[[0-category|category]] (set) of the true truth value is [[generalized the|the]] singleton, the $1$-[[1-category|category]] (category) of the singleton (and *all* of its endofunctions!) is the point as a category, and so on.  That is:
 $$ \bullet \in \bullet \in \bullet \in \bullet \in \cdots .$$
+
+## Warning
+
+The term 'point' is often used for a [[global element]]; that is the meaning, for example, in the sense of a [[point of a topos]].  The connection is that a global element of $X$ is a map from the point to $X$.
