@@ -51,7 +51,7 @@ $$
 $$
 where on the left the [[functor category]] is the one of internal (smooth) functors.
 
-More generally, smooth [[anafunctor]]s from $P_1(X)$ to $\mathbf{B}G$ are canonically equivalent to smooth $G$-principal bundles on $X$:
+More generally, smooth [[anafunctor]]s from $P_1(X)$ to $\mathbf{B}G$ are canonically equivalent to smooth $G$-principal bundles on $X$ with [[connection]]:
 $$
   Ana(P_1(X), \mathbf{B}G) \simeq G Bund_\nabla(X)
   \,.
