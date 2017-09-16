@@ -330,7 +330,7 @@ Is $F$ faithful? It seems to be... If not, how does it fail to be faithful?
 
 ##Descent and codescent##
 
-The orientals $O(\Delta^{(n)})$, as well as the $\Pi_\omega(\Delta^{(n)})$ play a central role in the description of [[descent and codescent]] in [[omega-category|omega-categorical terms]].
+The orientals $O(\Delta^{(n)})$, as well as the $\Pi_\omega(\Delta^{(n)})$ play a central role in the description of [[descent|descent and codescent]] in [[omega-category|omega-categorical terms]].
 
 
 
