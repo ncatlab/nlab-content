@@ -227,28 +227,40 @@ Given that inclusions and references seem to work fine, it seems a reasonable id
       <circle cx="5" cy="5" r="4.5" fill="none" stroke="black" stroke-width="1" />
     </marker>
 </defs>
-<path d="M 20 15 L 200 15" stroke="black" stroke-width="1" marker-end="url(#filledArrow)" /><text x="220" y="25">filledArrow</text>
-<path d="M 20 35 L 200 35" stroke="black" stroke-width="1" marker-end="url(#basicArrow)" /><text x="220" y="45">basicArrow</text>
-<path d="M 20 55 L 200 55" stroke="black" stroke-width="1" marker-end="url(#doubleArrow)" /><text x="220" y="65">doubleArrow</text>
-<path d="M 20 75 L 200 75" stroke="black" stroke-width="1" marker-end="url(#barArrow)" /><text x="220" y="85">barArrow</text>
-<path d="M 20 95 L 200 95" stroke="black" stroke-width="1" marker-end="url(#bardoubleArrow)" /><text x="220" y="105">bardoubleArrow</text>
-<path d="M 20 115 L 200 115" stroke="black" stroke-width="1" marker-end="url(#parenthesisArrow)" /><text x="220" y="125">parenthesisArrow</text>
-<path d="M 20 135 L 200 135" stroke="black" stroke-width="1" marker-end="url(#reversebasicArrow)" /><text x="220" y="145">reversebasicArrow</text>
-<path d="M 20 155 L 200 155" stroke="black" stroke-width="1" marker-end="url(#reversedoubleArrow)" /><text x="220" y="165">reversedoubleArrow</text>
-<path d="M 20 175 L 200 175" stroke="black" stroke-width="1" marker-end="url(#reversebarArrow)" /><text x="220" y="185">reversebarArrow</text>
-<path d="M 20 195 L 200 195" stroke="black" stroke-width="1" marker-end="url(#reversebardoubleArrow)" /><text x="220" y="205">reversebardoubleArrow</text>
-<path d="M 20 215 L 200 215" stroke="black" stroke-width="1" marker-end="url(#reverseparenthesisArrow)" /><text x="220" y="225">reverseparenthesisArrow</text>
-<path d="M 20 235 L 200 235" stroke="black" stroke-width="1" marker-end="url(#slashArrow)" /><text x="220" y="245">slashArrow</text>
-<path d="M 20 255 L 200 255" stroke="black" stroke-width="1" marker-end="url(#doubleslashArrow)" /><text x="220" y="265">doubleslashArrow</text>
-<path d="M 20 275 L 200 275" stroke="black" stroke-width="1" marker-end="url(#crossArrow)" /><text x="220" y="285">crossArrow</text>
-<path d="M 20 295 L 200 295" stroke="black" stroke-width="1" marker-end="url(#plusArrow)" /><text x="220" y="305">plusArrow</text>
-<path d="M 20 315 L 200 315" stroke="black" stroke-width="1" marker-end="url(#vbarArrow)" /><text x="220" y="325">vbarArrow</text>
-<path d="M 20 335 L 200 335" stroke="black" stroke-width="1" marker-end="url(#doublevbarArrow)" /><text x="220" y="345">doublevbarArrow</text>
-<path d="M 20 355 L 200 355" stroke="black" stroke-width="1" marker-end="url(#circleArrow)" /><text x="220" y="365">circleArrow</text>
+<path d="M 20 15 L 100 15 L 200 15" stroke="black" stroke-width="1" marker-start="url(#filledArrow)" marker-mid="url(#filledArrow)" marker-end="url(#filledArrow)" /><text x="220" y="25">filledArrow</text>
+<path d="M 20 35 L 100 35 L 200 35" stroke="black" stroke-width="1" marker-start="url(#basicArrow)" marker-mid="url(#basicArrow)" marker-end="url(#basicArrow)" /><text x="220" y="45">basicArrow</text>
+<path d="M 20 55 L 100 55 L 200 55" stroke="black" stroke-width="1" marker-start="url(#doubleArrow)" marker-mid="url(#doubleArrow)" marker-end="url(#doubleArrow)" /><text x="220" y="65">doubleArrow</text>
+<path d="M 20 75 L 100 75 L 200 75" stroke="black" stroke-width="1" marker-start="url(#barArrow)" marker-mid="url(#barArrow)" marker-end="url(#barArrow)" /><text x="220" y="85">barArrow</text>
+<path d="M 20 95 L 100 95 L 200 95" stroke="black" stroke-width="1" marker-start="url(#bardoubleArrow)" marker-mid="url(#bardoubleArrow)" marker-end="url(#bardoubleArrow)" /><text x="220" y="105">bardoubleArrow</text>
+<path d="M 20 115 L 100 115 L 200 115" stroke="black" stroke-width="1" marker-start="url(#parenthesisArrow)" marker-mid="url(#parenthesisArrow)" marker-end="url(#parenthesisArrow)" /><text x="220" y="125">parenthesisArrow</text>
+<path d="M 20 135 L 100 135 L 200 135" stroke="black" stroke-width="1" marker-start="url(#reversebasicArrow)" marker-mid="url(#reversebasicArrow)" marker-end="url(#reversebasicArrow)" /><text x="220" y="145">reversebasicArrow</text>
+<path d="M 20 155 L 100 155 L 200 155" stroke="black" stroke-width="1" marker-start="url(#reversedoubleArrow)" marker-mid="url(#reversedoubleArrow)" marker-end="url(#reversedoubleArrow)" /><text x="220" y="165">reversedoubleArrow</text>
+<path d="M 20 175 L 100 175 L 200 175" stroke="black" stroke-width="1" marker-start="url(#reversebarArrow)" marker-mid="url(#reversebarArrow)" marker-end="url(#reversebarArrow)" /><text x="220" y="185">reversebarArrow</text>
+<path d="M 20 195 L 100 195 L 200 195" stroke="black" stroke-width="1" marker-start="url(#reversebardoubleArrow)" marker-mid="url(#reversebardoubleArrow)" marker-end="url(#reversebardoubleArrow)" /><text x="220" y="205">reversebardoubleArrow</text>
+<path d="M 20 215 L 100 215 L 200 215" stroke="black" stroke-width="1" marker-start="url(#reverseparenthesisArrow)" marker-mid="url(#reverseparenthesisArrow)" marker-end="url(#reverseparenthesisArrow)" /><text x="220" y="225">reverseparenthesisArrow</text>
+<path d="M 20 235 L 100 235 L 200 235" stroke="black" stroke-width="1" marker-start="url(#slashArrow)" marker-mid="url(#slashArrow)" marker-end="url(#slashArrow)" /><text x="220" y="245">slashArrow</text>
+<path d="M 20 255 L 100 255 L 200 255" stroke="black" stroke-width="1" marker-start="url(#doubleslashArrow)" marker-mid="url(#doubleslashArrow)" marker-end="url(#doubleslashArrow)" /><text x="220" y="265">doubleslashArrow</text>
+<path d="M 20 275 L 100 275 L 200 275" stroke="black" stroke-width="1" marker-start="url(#crossArrow)" marker-mid="url(#crossArrow)" marker-end="url(#crossArrow)" /><text x="220" y="285">crossArrow</text>
+<path d="M 20 295 L 100 295 L 200 295" stroke="black" stroke-width="1" marker-start="url(#plusArrow)" marker-mid="url(#plusArrow)" marker-end="url(#plusArrow)" /><text x="220" y="305">plusArrow</text>
+<path d="M 20 315 L 100 315 L 200 315" stroke="black" stroke-width="1" marker-start="url(#vbarArrow)" marker-mid="url(#vbarArrow)" marker-end="url(#vbarArrow)" /><text x="220" y="325">vbarArrow</text>
+<path d="M 20 335 L 100 335 L 200 335" stroke="black" stroke-width="1" marker-start="url(#doublevbarArrow)" marker-mid="url(#doublevbarArrow)" marker-end="url(#doublevbarArrow)" /><text x="220" y="345">doublevbarArrow</text>
+<path d="M 20 355 L 100 355 L 200 355" stroke="black" stroke-width="1" marker-start="url(#circleArrow)" marker-mid="url(#circleArrow)" marker-end="url(#circleArrow)" /><text x="220" y="365">circleArrow</text>
 </svg>
 
 What do people think?  Are there others that ought to be considered as "standard"?  Are these okay, or do they need tweaking?
 
 Discussion on the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=31).
+
+And just for Toby and Mike:
+
+$$
+\mathfrak{A}
+\begin{svg}
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="70" height="20">
+<path d="M 5 10 L 35 10 L 65 10" marker-mid="url(#vbarArrow)" marker-end="url(#basicArrow)" stroke="black" stroke-width="1" />
+</svg>
+\end{svg}
+\mathfrak{B}
+$$
 
 category: meta
