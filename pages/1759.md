@@ -16,6 +16,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-30
 
+* [[Urs Schreiber]]
+
+  replied to [[David Roberts|David]] at [[category theory]] -- am waiting for [[Rafael Borowiecki]] to get back to us before taking action outside of the query box
+
 * [[David Roberts]]:
 
   * Added bits to [[Pursuing Stacks]] and [[Les Derivateurs]] linking the two documents. Actually there should be an accent on the first e of Derivateurs, but I leave a polite request to the lab-elves to solve that piece of typographical trickery for me.
