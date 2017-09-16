@@ -1523,7 +1523,7 @@ f_{15}
 </td>
 </table>
 
-# External links #
+# External Links #
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
 
