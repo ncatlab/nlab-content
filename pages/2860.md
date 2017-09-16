@@ -7,6 +7,11 @@
 The ideas on this page are things that I, [[Andrew Stacey]], want to use.  I suspect that they are well-known and well-developed in the literature but have no idea how to track them down.  So I'm expounding on them here in the hope that some kindly soul will fill in the gaps for me.
 =--
 
++-- {: .query}
+So should we merge this with [[PRO]] now?  ---Toby
+=--
+
+
 ### The Basic Idea ###
 
 The idea is that one tries to "do" [[universal algebra]] in a [[monoidal category]] by using the monoidal products in place of the standard cartesian ones.  The extent to which this is possible is closely related to the extent to which the monoidal product resembles the cartesian product of sets.
