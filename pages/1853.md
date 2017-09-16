@@ -164,3 +164,6 @@ Recall from the discussion at [[models for ∞-stack (∞,1)-toposes]] that all 
 
 * Jardine _Lectures on simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
+An early treatment of cup product can be found in this classic
+
+* Whitney, _On Products in a Complex_ ([JSTOR](http://www.jstor.org/pss/1968795))
