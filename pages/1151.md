@@ -156,25 +156,72 @@ The [[characteristic class]] of an object $P \to X$ classified by a cocycle $X \
 
 ### Extra structure on cohomology
 
-#### Cohomology groups
 
-If $A$ happens to be a 
-  [[group object in an (infinity,1)-category|group object]] 
-  in $\mathbf{H}$ then this set is naturally equipped with the
-  structure of a [[group]] itself and then $H(X,A)$ is called the
-  $A$-**[[cohomology group]]* of $X$.
+#### Gradings {#Grading}
+
+In the case that the coefficient object $A$ admits $(n \in \mathbb{N})$ [[delooping]]s to objects $\mathbf{B}^n A$ one writes
+
+$$
+  H^n(X,A) := \pi_0 \mathbf{H}(X, \mathbf{B}^n A)
+$$
+
+and speaks of **$A$-cohomology in degree $n$**.
+
+Similarly, [[loop space object|looping]] defines negative degree cohomology:
+
+$$
+  H^{-n}(X,A) := \pi_0 \mathbf{H}(X, \Omega^n A) 
+  \,.
+$$
+
+Because [[loop space object]]s are defined by an $(\infty,1)$-[[pullback]] and the [[derived hom space|(∞,1)-categorical hom]] -- as any [[hom-functor]] -- preserves [[limit]]s in its second argument, this is the same as 
+
+$$
+  \begin{aligned}
+    H^{-n}(X,A) &\simeq \pi_0 \Omega^n \mathbf{H}(X, A) 
+    \\
+     & \simeq \pi_n \mathbf{H}(X,A)
+    \,.
+  \end{aligned}
+  \,.
+$$
+
+This means that all the non-positive degree cohomology identifies with the [[simplicial homotopy group|homotopy group]]s of the [[∞-groupoid]] $\mathbf{H}(X,A)$. 
 
 #### Abelian cohomology {#abelian}
 
-Often $A$ is assumed to be a component of a [[spectrum object]]
-  in $\mathbf{H}$. In this case cohomology with coefficient in $A$
-  is **abelian cohomology**. For emphasis, when this assumption is
-  dropped one speaks of **[[nonabelian cohomology]]** or more precisely:
-  _not-necessarily abelian cohomology_ .
+Often the coefficient object $A$ is assumed to be a component of a [[spectrum object]]. If so, all its [[delooping]]s $\mathbf{B}^n A$ exists and the collection of degree $n$-cohomology for all $n$ typically satisfies some properties under [[cup product]] or [[Poincare duality]].
 
-#### Gradings
+In terms of the [[stabilization]] [[adjunction]]
 
-The grading one usually sees on cohomology classes is in the above definition entirely encoded in the [[higher category theory|categorical degree]] of the coefficient object. The cohomology $H(X,A)$ is the usual degree $0$ cohomology with coefficients in $A$. Cohomology of other degree can be obtained by looping or delooping the coefficients $A$. For example, if $A$ is a 0-type which is $n$-times de-loopable to an $n$-[[homotopy n-type|type]] $B^n A$, then degree $n$ cohomology with coefficients in $A$ is cohomology with coefficients in $\mathbf{B}^n A$: $H^n(X,A) := H(X, \mathbf{B}^n A)$. Similarly, looping can be used to define negative cohomology.
+$$
+  \mathbf{H} \stackrel{\stackrel{\Sigma^\infty}{\leftarrow}}{\underset{\Omega^\infty}{\to}}
+  Stab(\mathbf{H})
+$$
+
+that connects the [[(∞,1)-topos]] $\mathbf{H}$ to its universal [[stabilization]] to a  [[stable (∞,1)-category]] we may consider for each coefficient object $A$ the $\mathbb{Z}$-graded  sequence of cohomolgy
+
+$$
+  H^n(X,A) := \pi_0 \mathbf{H}(X, \Sigma^\infty \circ \Sigma^n \circ \Omega^\infty A)
+  \,.
+$$
+
+This collection is usually called a [[cohomology theory]] proper, associated to the [[spectrum object]] $\Omega^\infty A$ (which is just $A$ itself if $A$ is already stable). In $\mathbf{H} = $ [[Top]] this is known as [[generalized (Eilenberg-Steenrod) cohomology]]. Notice that this "generalized" cohomology is a very special case of the general notion of cohomology.
+
+#### Cohomology groups and rings {#CohomGroup}
+
+If $A$ happens to be a 
+[[groupoid object in an (infinity,1)-category|group object]] 
+in $\mathbf{H}$ then the cohomology _set_ naturally inherits the structure of a [[group]] and then $H(X,A)$ is called the
+$A$-**[[cohomology group]]** of $X$. 
+
+This is in particular necessarily the case if $A$ is a component of a [[spectrum object]] in abelian cohomology, i.e. of the form $\Sigma^\infty \Sigma^n \circ \Omega^\infty A$.
+
+If the corresponding [[spectrum object]] $\Omega^\infty A$ in addition carries the structure of a [[ring]] -- in which case it is a [[ring spectrum]] or [[E-∞ ring]], then the cohomology groups
+$H^\bullet(X,A)$ form a graded [[ring]], the **cohomology ring** of $X$ with coefficients in $A$.
+
+
+
 
 ### Variants
 
@@ -207,10 +254,9 @@ For the moment see
 
 #### Relative cohomology
 
-See 
+For the moment see 
 
 * [[relative cohomology]]
-
 
 
 ### Homotopy
@@ -294,6 +340,15 @@ Classes of special cases of cohomologies with their own entries include
 
   * [[schreiber:differential nonabelian cohomology]]
 
+### Chain cohomology {#ChainCohomology}
+
+The probably most familiar kind of cohomology is that of a [[cochain complex]] dual to a [[chain complex]]. 
+
+Using the [[Dold-Kan correspondence]] [[chain complex]]es are understood as components of strict [[spectrum object]]s in the archetypical [[(∞,1)-topos]] [[∞Grpd]] of [[∞-groupoid]]s: namely those [[∞-groupoid]]s with the structure of a _[[group object|strict]]_ abelian [[groupoid object in an (∞,1)-category|group object]]: as [[Kan complex]]es these are abelian [[simplicial group]]s.
+
+This way ordinary chain cohomology is seen to be a special case of general cohomology in $\mathbf{H} = $ [[∞Grpd]]. A more detailed discussion of how from this perspective the usual formulas for cochains and cocycles appear is at 
+
+* [[chain homology and cohomology]].
 
 ### Cohomology in $Top$
 
