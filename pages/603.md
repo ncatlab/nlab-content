@@ -181,9 +181,9 @@ The idea is that a hyperstructure is like a **$\infty$-[[dagger category|dagger]
 
 **Formalization**
 
-To formalize this,  the idea is to observe that every _cell_ with its complex of sub-cells should naturally form a [[poset]] under inclusions of sub-cells. Since for any collection of sub-cells which share a common collection of sub-sub-cells the result of gluing these sub-cells along their common sub-sub-cells should again be a sub-cell, this poset should be closed under [[colimit]]s.
+To formalize this,  the idea is to observe that every _cell_ with its complex of sub-cells should naturally form a [[partial order|poset]] under inclusions of sub-cells. Since for any collection of sub-cells which share a common collection of sub-sub-cells the result of gluing these sub-cells along their common sub-sub-cells should again be a sub-cell, this poset should be closed under [[colimit]]s.
 
-Therefore a _bond system_ or _hyperstructure_ should in particular assign to every poset with colimits a collection to be interpreted as the collection of cells whose sub-cell structure is of the form given by the poset. Such an assignment would naturally allow to restrict any cell to any of its sub-cells along an inclusion of posets to obtain another cell, and to extend any cell to a cell with richer but degenerate sub-cell structure along a surjection of posets. This clearly suggests that the _bond system_ or _hyperstructure_ is a [[presheaf]] on the [[category]] of [[poset]]s with [[colimit]]s.
+Therefore a _bond system_ or _hyperstructure_ should in particular assign to every poset with colimits a collection to be interpreted as the collection of cells whose sub-cell structure is of the form given by the poset. Such an assignment would naturally allow to restrict any cell to any of its sub-cells along an inclusion of posets to obtain another cell, and to extend any cell to a cell with richer but degenerate sub-cell structure along a surjection of posets. This clearly suggests that the _bond system_ or _hyperstructure_ is a [[presheaf]] on the [[category]] of [[partial order|poset]]s with [[colimit]]s.
 
 Given this, the **gluing condition** or **sewing condition** that for any collection of cells which match on a part of their sub-cell complex there exists a cell obtained by gluing the cells along their common sub-cells can be formulated in a way analogous to the horn-filling condition in a [[Kan complex]] by requiring that the obvious map from the collection of cells which have the right shape of being glued cells to the collection of cells that admit gluing is an [[epimorphism]].
 
@@ -217,16 +217,16 @@ where multi-cospans in the category [[Top]] are thought of as modelling [[extend
 ##Definitions##
 
 
-First recall some basics of [[poset]]s to fix our notation.
+First recall some basics of [[partial order|poset]]s to fix our notation.
 
 We write $2 = \{\bottom \to \top\}$ for the category with two objects and a single nontrivial morphism between them. 
-Recall that a [[poset]] is a [[enriched category|category enriched]] over $(2,\otimes, I = \top)$, where the canonical tensor product on $2$ is has tensor unit $\top$ and $\bottom \otimes \bottom = \bottom$.
+Recall that a [[partial order|poset]] is a [[enriched category|category enriched]] over $(2,\otimes, I = \top)$, where the canonical tensor product on $2$ is has tensor unit $\top$ and $\bottom \otimes \bottom = \bottom$.
 
 
 +-- {: .un_defn}
 ###### Definition
 
-Write $Posets$ for the (1-)category of small [[poset]]s
+Write $Posets$ for the (1-)category of small [[partial order|poset]]s
 and $\overline{Posets} \subset Posets$ for the sub-category of small posets with all [[colimit]]s.
 
 =--
