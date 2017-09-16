@@ -191,6 +191,10 @@ $$
   \rho : T A \to A
 $$
 
++--{.query}
+WHAT IS A ?
+=--
+
 of our [[monad]] on $P$ is a morphism
 
 is given in $C$ by a morphism
