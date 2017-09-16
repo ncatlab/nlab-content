@@ -1,3 +1,8 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 Recall that a [[simplicial set]] is a combinatorial [[model structure on simplicial sets|model]] for a [[topological space]]. This relation is most immediate when the simplicial set is in fact a [[Kan complex]] (an [[∞-groupoid]]).
