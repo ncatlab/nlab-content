@@ -59,3 +59,6 @@ $$
   &&&& D}
 $$
 subject to the equations $f h = f k$ and $g h = g k$, both $f$ and $g$ are strong, but not strict, epimorphisms.
+
+
+[[!redirects epimorphisms]]
