@@ -701,6 +701,54 @@ $$\array{
 }$$
 </font></div>
 
+The values of the sixteen $\alpha_i$ on each of the sixteen boolean functions $f : \mathbb{B}^2 \to \mathbb{B}$ are shown in Table&nbsp;4.  Expressed in terms of the implication ordering on the sixteen functions, $\alpha_i f = 1$ says that $f$ is _above or identical to_ $f_i$ in the implication lattice, that is, $\ge f_i$ in the implication ordering.
+
+<table align="center" cellpadding="1" cellspacing="0" markdown="1" style="background:white; color:black; text-align:center; width:90%">
+
+<caption><font size="+2">$\text{Table 4.} \:\: \text{Qualifiers of the Implication Ordering:} \: \alpha_{i} f = \Upsilon (f_{i}, f) = \Upsilon (f_{i} \Rightarrow f)$</font></caption>
+
+<tr>
+<td style="border-bottom:2px solid black" align="right">$u:$<br>$v:$</td>
+<td style="border-bottom:2px solid black">$1100$<br>$1010$</td>
+<td style="border-bottom:2px solid black; border-right:2px solid black">$f$</td>
+<td style="border-bottom:2px solid black">$\alpha_{15}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{14}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{13}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{12}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{11}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{10}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{9}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{8}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{7}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{6}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{5}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{4}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{3}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{2}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{1}$</td>
+<td style="border-bottom:2px solid black">$\alpha_{0}$</td></tr>
+
+<tr>
+<td>$f_{0}$</td>
+<td>$0000$</td>
+<td style="border-right:2px solid black">$\text{&#x2997; &#x2998;}$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:black; color:white">$1$</td></tr>
+
+<tr>
+<td>$f_{1}$</td>
+<td>$0001$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} u \text{&#x2998;&#x2997;} v \text{&#x2998;}$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td></tr>
+
+</table>
+
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
 # Functional conception of quantification theory #
