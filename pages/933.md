@@ -1,3 +1,1 @@
-[[!redirects dg-algebra]]
-
-* see [[differential graded algebra]]
+&lt; [[dg-algebra]]
