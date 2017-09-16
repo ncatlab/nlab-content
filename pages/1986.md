@@ -17,11 +17,23 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-03
 
+* [[John Baez]]: 
+
+   * Added theorem characterizing categories of $R$-modules to [[compact object]].
+
+   * Added same theorem and also the Mitchell embedding theorem to [[abelian category]].
+
+   * Gleefully shot down an idea of Eric's over at [[directed graph]] --- but this idea can be resuscitated using the concept of 'resolution'.
+
 * [[Sridhar Ramesh]] added a small note that [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] are the same as (internal) closure operators on truth values (Being new here, I'm not exactly sure what the protocols are; in "Please log all your non-trivial changes", does "non-trivial" mean everything above, say, typo-correction?). I also observed, in the article on [[presheaf|presheaves]], that the representable presheaves on a category of presheaves are precisely those which turn colimits into limits (i.e., a functor of type $[C, Set]^{op} \to Set$ is representable just in case it is limit-preserving).
 
   * [[Urs Schreiber]]: I added a remark to the text above on what "non-trivial" means. Generally, I think you can't log too much of your activity here, just too little. So if in doubt whether anyone else might be interested in your changes or not, drop a note here.
 
-* [[Eric]]: Asked a question of [[Mike Shulman|Mike]] (or anyone else interested in SDG) at [[synthetic differential geometry]].
+*  [[John Baez]]: Welcome, Sridhar Ramesh!  I'd like to add: we are not trying to force you to do lots of bureaucratic work, so please don't feel we are _demanding_ you to log changes here.  If you make a change and feel too tired to log it here, we won't be mad at you.  We just _like_ to see changes here, even smallish ones.
+
+* [[Eric]]: Asked a question of [[Mike Shulman|Mike]] (or anyone else interes
+
+ted in SDG) at [[synthetic differential geometry]].
 
 ## 2009-08-01
 
