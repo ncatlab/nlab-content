@@ -23,11 +23,11 @@ Typically the [[space]]s $X$ here are modeled as [[sheaf|sheaves]], an object in
  
 $$
   colim(
-  \Pi^{inf}(X)_1 \stackrel{\to}{\to}
+  \Pi^{inf}(X)_1 \rightrightarrows
   \Pi^{inf}(X)_0 )
   = 
   colim(
-   X^{(\Delta^1_{inf})} \stackrel{\to}{\to}
+   X^{(\Delta^1_{inf})} \rightrightarrows
    X)
   )
   =
@@ -47,7 +47,7 @@ in this case there is an evident functor $Red : Spaces \to Spaces$ that sends ea
 Then $dR' : Spaces \to Spaces$ may be defined as the [[right adjoint]] to $Red$. 
 
 This definition coincides with the previous one on 
-those spaces that are [[formally smooth scheme]]s. In fact, a [[scheme]] $X$ is [[formally smooth scheme|formally smooth]] precisely if the [[right adjoint]] of $Red$ applied to $X$ coincides with the coequalizer of $(X^{(\Delta^1_{inf})} \stackrel{\to}{\to} X)$.
+those spaces that are [[formally smooth scheme]]s. In fact, a [[scheme]] $X$ is [[formally smooth scheme|formally smooth]] precisely if the [[right adjoint]] of $Red$ applied to $X$ coincides with the coequalizer of $(X^{(\Delta^1_{inf})} \rightrightarrows X)$.
 
 ## Related concepts 
 
