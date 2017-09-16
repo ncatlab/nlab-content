@@ -7,11 +7,11 @@
 
 Recall that for [[presheaf|presheaves]] on a [[site]] $X$ with values in a category $A$ that admits small [[limit]]s and small colimits (so in particular for $A =$  [[Set]]), $PSh(X, A) = [S_X^{op}, A]$, every functor $f^t : S_Y \to S_X$ induces three functors of presheaf catgeories:
 
-| Notation                                 | Definition                    |
-| ---------------------------------------- | ----------------------------- |
-| $(f^t)_* : PSh(X,A) \to PSh(Y,A)$        | direct image                  |
-| $(f^t)^\dagger : PSh(Y,A) \to PSh(X,A)$  | left adjoint to direct image  |
-| $(f^t)^\ddagger : PSh(Y,A) \to PSh(X,A)$ | right adjoint to direct image |
+| Notation                                 | | Definition                    |
+| ---------------------------------------- |-| ----------------------------- |
+| $(f^t)_* : PSh(X,A) \to PSh(Y,A)$        | | direct image                  |
+| $(f^t)^\dagger : PSh(Y,A) \to PSh(X,A)$  | | left adjoint to direct image  |
+| $(f^t)^\ddagger : PSh(Y,A) \to PSh(X,A)$ | | right adjoint to direct image |
 
 Recall moreover that for $f : X \to Y$ any [[site|morphism of sites]], the  right adjoint to [[direct image]] followed by [[sheafification]] $\bar{(-)}$ is the [[inverse image]] map of sheaves:
 
@@ -61,13 +61,13 @@ the **extension** of sheaves on $U$ to sheaves on $X$.
 
 To summarize notation and terminology:
 
-| Terminology         | Notation                                                 | Definition                                              |
-| ------------------- | -------------------------------------------------------- | ------------------------------------------------------- |
-| morphism of sites   | $j_{U \to X} : X \to U $                                 |                                                         |
-| underlying functor  | $j^t_{U \to X} : (Y_{S_X}/U) \to S_X $                   |                                                         |
-| sheaf restriction   | $(j_{U \to X})_* : Sh(X) \to Sh(U)$                      | direct image                                            |
-| sheaf extension     | $j^{\ddagger}_{U \to X} : Sh(U) \to Sh(X)$               | right adjoint to direct image                           |
-| sheaf inverse image | $\overline{(j^t)^{\dagger}_{U \to X}} : Sh(U) \to Sh(X)$ | left adjoint to direct image followed by sheafification |
+| Terminology         | | Notation                                                 | | Definition                                              |
+| ------------------- |-| -------------------------------------------------------- |-| ------------------------------------------------------- |
+| morphism of sites   | | $j_{U \to X} : X \to U $                                 | |                                                         |
+| underlying functor  | | $j^t_{U \to X} : (Y_{S_X}/U) \to S_X $                   | |                                                         |
+| sheaf restriction   | | $(j_{U \to X})_* : Sh(X) \to Sh(U)$                      | | direct image                                            |
+| sheaf extension     | | $j^{\ddagger}_{U \to X} : Sh(U) \to Sh(X)$               | | right adjoint to direct image                           |
+| sheaf inverse image | | $\overline{(j^t)^{\dagger}_{U \to X}} : Sh(U) \to Sh(X)$ | | left adjoint to direct image followed by sheafification |
 
 
 ## Remarks
