@@ -662,6 +662,8 @@ $$
 
 To see that one just needs to observe that the normalized [[Moore complex]] of the 1-[[simplex]] serves as an [[interval object]] in chain complexes.
 
+
+And so on. More later.
 ...
 
 =--
