@@ -317,6 +317,55 @@ The category of fibrant objects $SSh(X)$
 is in fact the motivating example in [[BrownAHT]]. Notice that the [[homotopy category]] in question coincides with that using the [[model structure on simplicial presheaves]], so that the category of fibrant objects of stalk-wise Kan sheaves is a model for the homotopy category of [[infinity-stack]]s.
 
 
+**Example**
+
+Let $G$ be a topogical [[group]] and recall that
+$\mathbf{B} G$ denotes the corresponding one-object
+[[groupoid]].
+
+For $X$ a [[topological space]] and
+$U$ an open subset, let $C(U, G) \in Set$
+be the set of continuous maps from $U$ into
+$G$. This set naturally is itself a group, so
+that to each $U \subset X$ we may associuate the
+one-object groupoid 
+$$
+  U \mapsto \mathbf{B} C(U,G)
+  \,.
+$$
+By postcomposition this with the [[nerve]] operation
+we ontain an assignment of [[Kan complex]]es to
+open subsets:
+
+$$
+  U \mapto N \mathbf{B} C(U,G) 
+  \,.
+$$
+
+In degree 0 this is the constant [[sheaf]]
+
+$$
+  (N \mathbf{B}(-,G))_0 : U \mapsto {*}  
+$$
+
+while in degree 1 this is the [[sheaf]] of $G$-valued functions
+
+$$
+  (N \mathbf{B}(-,G))_1 : U \mapsto C(U,G)  
+  \,.
+$$
+
+When the context is understood, we will just
+write $\mathbf{B}G$ again for this $\infty$-groupoid
+valued sheaf
+
+$$
+  \mathbf{B}G := N \mathbf{B} C(-,G)
+  \,.
+$$
+
+
+
 ## cats of fib objects from cats of fib objects ##
 
 The following constructions produce new categories
