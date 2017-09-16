@@ -9,6 +9,14 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
+[[Logical Graph]]
+
+[[Differential Logic]]
+
+[[Minimal Negation Operator]]
+
+[[Propositional Equation Reasoning Systems]]
+
 <span id="bibtest" markdown="1">Testing bibliography with anchor.</span> 
 
 [Goldblatt1984](http://ncatlab.org/nlab/show/Bibliography#Goldblatt1984)
