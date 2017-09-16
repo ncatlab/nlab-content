@@ -1,18 +1,6 @@
 [[!include differential graded objects - contents]]
 
 
-{:myproof: .proof style="margin-left:2em;"}
-{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-+-- {: goal}
-###### Lexicon entry on
-##Differential graded coalgebras
-
-This will, for the moment duplicate, overlap and perhaps conflict with [[CoDGCA]].
-
-
-(The previous entry in this lexicon can be found at [[differential graded algebra]].) 
-=--
 ##Differential graded coalgebras
 
 A _pre-graded coalgebra_ (pre-gc), $(C,\Delta, \varepsilon)$, is a [[graded vector space|pre-gvs]] $C$ together with linear maps of degree 0
@@ -187,14 +175,6 @@ On $\bigwedge' V$ and $T'(V)$, the filtration of the primitives comes from a gra
 
 $$F_p\bigwedge{\!}' V = \bigwedge^{\leq p}V = \bigoplus_{k\leq p}\bigwedge^k V;$$
 $$F_p T'(V) = T^{\leq p}(V) = \bigoplus_{k\leq p} T^k(V).$$
-{:myproof: .proof style="margin-left:2em;"}
-{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-+-- {: goal}
-###### Lexicon links onwards:
-
-[[Tim Porter|Tim]]:  The lexicon  continues on a new entry on [[differential graded Lie algebra|differential graded Lie algebras]].  
-=--
 
 category: lexicon
 
