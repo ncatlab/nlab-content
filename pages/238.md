@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-09 #
 
+* [[Urs Schreiber|Urs]] added notes on first part of lecture by Thomas Schick on _differential cohomology_ to [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] -- am hoping to eventually move a polished version of that to [[differential cohomology]]
+
 * [[David Roberts]]
 
   * Created [[universal covering space]], but it's still pretty much a stub.
