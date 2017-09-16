@@ -697,7 +697,7 @@ $$
   \array{
      \Omega B &\to& 0
      \\
-     \downarrow^{\bar \Omega f} && \downarrow
+     \downarrow_{\bar \Omega f} && \downarrow
      \\
      \Omega C &\to&  A &\to& 0
      \\
