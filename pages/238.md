@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-02-12
+
+* [[Mike Shulman]]:
+
+  * Created [[comma object]] and started messing around with using SVG for diagrams instead of `\array`.  It's more work but it sure does look nicer (in the output, anyway).
+
 # 2009-02-11
 
 * [[Toby Bartels]]:
