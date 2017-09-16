@@ -239,20 +239,61 @@ This is [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroi
 
 ## rheonomy ##
 
+### Idea ###
 
-> need to fill in content here. The main point is this:
+As discussed above, a **field configuration** in [[supergravity]] is a morphism
 
-> while the fields $\Pi^{inf}(X) \to \mathfrak{sugra}(10,11)$ are in principal general [[super differential form]]s, in the desired physical theory these satisfy a strong constraint which makes their _components_ behave like ordinary functions on the ordinary manifold $X_{red}$ underlying $X$. This stemps from the fact that fields in naturre are percieved as fields on an ordinary spacetime manifold $X_{red}$, not on a genuine supermanifold $X$. So there is a constraint to be imposed on the fields.
+$$
+  \Pi^{inf}(X) \to \mathfrak{a}
+$$
 
-> D'Auria-Fr&eacute; noticed that there is a very good way to model/formalize: we should be looking at functions on a $(d|d)$-dimensional [[supermanifold]]  that are however "independent" in some sense of the "supercoordinates": namely in a way entirely analogous to how a [[holomorphic funtion]] on a [[complex manifold]] is "independent of half of the coordinates". 
+from the [[schreiber:infinitesimal path ∞-groupoid|infinitesimal path ∞-groupoid]] of the spacetime [[supermanifold]] $X$ to some super [[schreiber:∞-Lie algebroid|∞-Lie algebroid]] $\mathfrak{a}$.
 
-> so the full statement to be discussed here is really that classical field configurations are **holomophic $\infty$-functors** $\Pi^{inf}(X) \to \mathfrak{sugra}(10,1)$ for a suitable notion of "holomorphic".
+This [[supergeometry]] interpretation of fields in [[supergravity]] gives an immediate interpretatoin of the **[[supersymmetry]]** that the [[supergravity]] [[action functional]] $S_{sugra}$ is supposed to enjoy: this just says that 
 
-> this super-version of "holomorphicity" is what is called **rheonomy**. A field $\Pi^{inf}(X) \to \mathfrak{g}$ on the [[supermanifold]] $X$ "satisfies the rheonomy constraints" if it is "holomorphic" in this sense.
++-- {: .standout}
 
-> more discussion later, when I have the time. The the book by D'Auria-Fre referenced below. You need volume 2, part 3, chapter III, section 3, subsection 3 (no joke, that's the section in question) 
+[[supersymmetry|Supersymmetry]] of the [[supergravity]] [[action functional]] $S_{sugra} : \{\Pi^{inf}(X) \to \mathfrak{a}\} \to \mathbb{R}$ is nothing but its invariance under super-diffeomorphisms $\phi : X \stackrel{\simeq}{\to} X$ of the spacetime [[supermanifold]] $X$:
 
+$$
+  S_{sugra}(\Pi^{inf}(X) \to \mathfrak{a})
+  =
+  S_{sugra}(\Pi^{inf}(X) \stackrel{\Pi^{inf}(\phi)}{\to}\Pi^{inf}(X) \to \mathfrak{a})
+  \,.
+$$
 
+=--
+
+So this is nothing but the super-refinement of the familiar diffeomorphism invariance of the Einstein-Hilbert action of ordinary [[gravity]].
+
+While this is conceptually very useful, in much of the literature the supersymmetry of supergravity is not conceived in this way. The reason for that is that in the standard supergravity theories that physicists are interested in, a field configuration is _not_ a _general_ superfield $\Pi^{inf}(X) \to \mathfrak{a}$: rather, it is one whose components (listed above: graviton, gravitino, fermions, etc.) appear like fields on the _ordinary_ spacetime manifold $X_{red}$ underlying the [[supermanifold]] $X$. 
+
+There are two options to formalize this:
+
+1. **non-geometric approach**: realize the fields of [[supergravity]] as fields on an ordinary spacetime [[manifold]] $X_{red}$ -- this makes the supersymmetry operations act on the fields in a conceptually complicated way
+
+2. **geometric approach**: realize the fields of [[supergravity]] as fields on a [[supermanifold]] $X$. This makes supersymmetry of the [[action functional]] be simply super-diffeomorphism invariance. But then ensure that the fields _appear_ as if their components were functions on just the underlying ordinary manifold $X_{red}$ by putting a suitable constraint on the fields. This constraint is the **rheonomy** constraint.
+
+The _rheonomy_ constraint has been and is usefully compared with a holomorphicity constraint: a _function_
+$f : \mathbb{C} \to \mathbb{C}$ on the complex plane and hence a priori of two real coordinates, is _holomorphic_ if it locally looks like it effectively depends only on one of the two coordintes. Similarly, a **rheonomic superfield** is a function on a [[supermanifold]] which locally looks as if it depends only on the ordinary even (bosonic) coordinates.
+
+To further exploit this analogy, notice that an ordinary function $f$, being a [[differential form|0-form]] has a [[schreiber:curvature|curvature]] which is the 1-form $R_F := d f$. The function $f$ is holomorphic precisely if its curvature, in this sense, vanishes on all tangent vectors proportional to $\frac{\partial}{\partial \bar z}$.
+
+From this analogy, the following statement should sound very plausible, which we discuss in detail below:
+
++-- {: .standout}
+
+A [[schreiber:∞-Lie algebroid valued differential forms|field]] $\Pi^{inf}(X) \to \mathfrak{a}$ on the [[supermanifold]] $X$ is **rheonomic** if its [[schreiber:curvature|curvature]] vanishes on odd tangent vectors, or is an algebraic expression in terms of the curvature components on even tangent vectors.
+
+=--
+
+### details ##
+
+...
+
+this is part III, chapter III.3.3 in 
+
+* [[Supergravity and Superstrings - A Geometric Perspective]]
 
 # References #
 
