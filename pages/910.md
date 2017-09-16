@@ -29,11 +29,15 @@ continuous maps $t: C \to X$.
 
 ## Proposition ## 
 
-The category $k$Top of topological spaces and $k$-continuous maps is cartesian closed.
+The category $k$Top of topological spaces and $k$-continuous maps is cartesian closed. In fact the exponential map 
+
+$$kTop(X \times Y, Z) \to kTop(X,kTOP(Y,Z))$$
+
+is a homeomorphism (not just a $k$-homeomorphism). 
 
 ## Note ## 
 
-The topology on $Top(X,Y)$ that is used here is the test-open
+The topology on $kTop(X,Y)$ that is used here is the test-open
 topology, which has the subbase of sets $M(t,U)$ for a given $t: C
 \to X$ and $U$ open in $Y$ of all $k$-continuous functions $f:X \to
 Y$ such that $ft(C)\subseteq U$.
