@@ -1,4 +1,4 @@
-The is a page similar to other "Journal Club" pages where we attempt to understand some concept. In this case it is the category [[M-Set]]. Other Journal Club pages include:
+This is a page similar to other "Journal Club" pages where we attempt to understand some concept. In this case it is the category [[M-Set]]. Other Journal Club pages include:
 
 * [[An Exercise in Kantization]]
 * [[geometric infinity-function theory|Geometric ∞-Function Theory]]
