@@ -48,3 +48,4 @@ The theory of model structures on SSet-enriched presheaf categories was develope
 
 
 [[!redirects model structure on SimpSet-enriched presheaves]]
+[[!redirects model structure on simplicially enriched presheaves]]
