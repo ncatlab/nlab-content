@@ -267,3 +267,4 @@ There is also a version of the infinitesimal singular simplicial context in the 
 [[!redirects infinitesimal path ∞-groupoid in a smooth topos]]
 [[!redirects infinitesimal path infinity-groupoid in a smooth topos]]
 [[!redirects infinitesimal path infinity-groupoid in a lined topos]]
+[[!redirects infinitesimal neighbour]]
