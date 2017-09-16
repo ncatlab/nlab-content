@@ -1,10 +1,15 @@
 
 
-For some applications, as for instance for the description of [[principal infinity-bundle]]s as [[torsor]]s, it may be convenient to 
+For some applications, it may be convenient to 
 
 * use [[simplicial groupoid]]s instead of [[Kan complex]]es or [[simplicial set]]s;
 
 * use a model structure on (pre)sheaves with values in [[simplicial groupoid]]s instead of the [[model structure on simplicial presheaves]] (see there for motivation on why to consider these models in the first place).
+
+An example is the discussion of [[principal infinity-bundle]]s in section 3 of 
+
+* Jardine, Luo, _Higher order principal bundles_ ([web](http://www.math.uiuc.edu/K-theory/0681/))
+
 
 #Definition#
 
