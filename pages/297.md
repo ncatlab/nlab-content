@@ -18,6 +18,8 @@ that it was realized that
 
 (Strictly speaking, Atiyah's original article mentions this functor slightly indirectly only.)
 
+All tis was originally formalized in the context of [[TQFT|topological quantum field theory]] only. This is the easiest case that already exhibits all the functoriality that is implied by "FQFT" but by farr not the only case (see below).
+
 A pedagogical exposition of how the physicist's way of thinking about the path integral leads to its definition as a functor is given in
 
 * Kevin Walker, _TQFTs_ ([pdf](http://canyon23.net/math/tc.pdf))
@@ -32,7 +34,7 @@ and a review of much of the existing material in the literature is in
 
 ##Non-topological FQFTs (especially conformal)## 
 
-This mostly concentrates on topological quantum field theories, those where the path integral depends only on the diffeomorphism class of the domain it is evaluated on. This is the simplest and by far best understood case. But the idea of functorial FQFT is not restricted to this case.
+This mostly concentrates on [[TQFT|topological quantum field theories]], those where the path integral depends only on the diffeomorphism class of the domain it is evaluated on. This is the simplest and by far best understood case. But the idea of functorial FQFT is not restricted to this case.
 
 This was realized in
 
@@ -45,6 +47,9 @@ There the notion of 2-dimensional [[conformal field theory]] is axiomatized as a
 * Yi-Zhi Huang, _Geometric interpretation of vertex operator algebras_, Proc. Natl. Acad. Sci. USA, Vol 88. (1991) pp. 9964-9968
 
 * Liang Kong, _Open-closed field algebras_ Commun. Math. Physics. 280, 207-261 (2008) ([arXiv](http://arxiv.org/abs/math/0610293)).
+
+A very concrete construction of functorial CFTs (for the special case of _rational_ CFTs) is provided by the 
+[[FFRS-formalism]].
 
 ##Extended (multi-tiered) FQFT##
 
