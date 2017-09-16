@@ -24,6 +24,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-09-13
+
+* [[Jon Awbrey]] added a bibliography on relations and related subjects to [[relation theory]].
 
 ## 2009-09-12
 
