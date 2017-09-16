@@ -1,0 +1,41 @@
+
+Derived algebraic geometry is the [[higher category theory|higher categorical]] version of [[algebraic geometry]]: its [[vertical categorification]].
+
+## "derived" versus "$\infty$-"
+
+The adjective "derived" means pretty much the same as the "$\infty$-" in [[∞-category]]. It stems from the use of "derived" as in [[derived category]] and [[derived functor]]. But incidentally, derived algebraic geometry is honestly [[higher category theory|higher catgeorical]], whereas derived categories and derived functors are really more like 1-categorical shadows of higher categorical structures, as described in detail at [[homotopy category]].
+
+There is no really systematic rule to the use of the word "derived" here. For instance [[derived stack]] has become the standard term for the general version of the notion of [[∞-stack]], but [[Higher Topos Theory]] is not called "derived topos theory".
+
+> [[Urs Schreiber]]: personally I'd think that "derived algebraic geometry" is therefore a misnomer. But who am I to stop that train? :-)
+ 
+## relation to higher algebra ##
+
+Where ordinary [[algebraic geometry]] uses [[algebra]] to describe [[geometry]], derived algebraic geometry uses [[higher algebra]]. Where ordinary algebraic geometry uses [[scheme]]s modeled on [[commutative ring]]s, derived algebraic geometry uses [[structured (∞,1)-topos]]es modeled on [[E-∞ ring]]s .
+
+
+# Examples #
+
+## elliptic cohomology ##
+
+A major motivating example for the development of derived algebraic geometry was [[elliptic cohomology]] and the construction and study of the [[tmf]] [[spectrum]]. For more on that see
+
+* [[Jacob Lurie]], [[A Survey of Elliptic Cohomology]]
+
+
+
+# References #
+
+The theory of derived algebraic geometry is laid out in 
+
+* [[Jacob Lurie]], _[[structured (∞,1)-topos|Structured Spaces]] 
+
+which merges the structural theory developed in
+
+* [[Jacob Lurie]], [[Higher Topos Theory]]
+
+
+with the theory developed in
+
+* [[Jacob Lurie]], _Noncommutative algebra_, _Commutative algebra_ (see [[higher algebra]]).
+ 
