@@ -35,7 +35,7 @@ Sometimes one includes in the definition that a regular space must be $T_0$:
 ###### Definition (of $T_0$)
 Given any two points, if each neighbourhood of either is a neighbourhood of the other, then they are equal.
 =--
-Other authors use the weaker definition above but call a regular $T_0$ space a __$T_3$ space__, but then that term is also used for a (merely) regular space.
+Other authors use the weaker definition above but call a regular $T_0$ space a __$T_3$ space__, but then that term is also used for a (merely) regular space.  An unambiguous term for the weaker condition is an __$R_2$ space__, but hardly anybody uses that.
 
 We have
 +-- {: .un_theorem}
@@ -73,3 +73,26 @@ The regular open sets form a basis for the topology of $X$.
 
 
 In [[constructive mathematics]], Definition \ref{constructive} is good; then everything else follows without change, except for the equivalence with \ref{classical}.  Even then, the classical separation axioms hold for a regular space; they just are not sufficient.
+
+
+## Relation to other separation axioms
+
+As we\'ve seen above, a regular $T_0$ space ($T_3$) is Hausdorff ($T_2$); we can also remove the $T_0$ condition from the latter to get $R_1$:
++-- {: .un_defn}
+###### Definition (of $R_1$)
+Given points $a$ and $b$, every neighbourhood of $a$ meets every neighbourhood of $b$, then every neighbourhood of $a$ is a neighbourhood of $b$.
+=--
+It is immediate that $T_2 \equiv R_1 \wedge T_0$, and the proof above that $T_3 \Rightarrow T_2$ becomes a proof that $R_2 \Rightarrow R_1$; that is, every regular space is $R_1$.  An $R_1$ space is also called _preregular_ (in _[[HAF]]_) or _reciprocal_ (in [[convergence space]] theory).
+
+A bit stronger than regularity is _complete regularity_; a bit stronger than $T_3$ is $T_{3\frac{1}{2}$.  The difference here is that we require that $a$ and $F$ be separated *by a function*, that is by a continuous real-valued function.  See (or write) [[Tychonoff space]] for more.
+
+
+[[!redirects R2 space]]
+[[!redirects T3 space]]
+[[!redirects regular Hausdorff space]]
+[[!redirects regular topological space]]
+[[!redirects regular topology]]
+[[!redirects R2 topology]]
+[[!redirects T3 topology]]
+[[!redirects T3 axiom]]
+[[!redirects regular locale]]
