@@ -155,7 +155,7 @@ This is propositon 6.5.2.1 in [[Jacob Lurie]]'s [[Higher Topos Theory]] and buil
 
 For a _motivation_ of these definitions from the point of view of cohomology as a homotopy hom-set of $\infty$-stacks see for instance the introductory pages of
 
-* Dan Dugger, [Sheaves and homotopy theory](http://www.uoregon.edu/~ddugger/cech.html) .
+* Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf)) .
 
 
 Essentially by applying these general constructions in the presence of a smooth [[fundamental ∞-groupoid]] functor $\Pi : H \to H$ one obtains _differential_ cohomology. More on that is at [[schreiber:Differential Nonabelian Cohomology]].
