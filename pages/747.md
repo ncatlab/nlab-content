@@ -155,7 +155,7 @@ $$
 
 Here 
 
-* "inj" denotes the injective model structure: fibrations are objectwise fibrations
+* "inj" denotes the injective model structure: cofibrations are objectwise cofibrations
 
 * "proj" denotes the projective model structure: fibrations are objectwise fibrations
 
