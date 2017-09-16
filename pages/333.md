@@ -13,20 +13,20 @@ More generally, __noncommutative geometry__ means replacing the space by some st
 The entity may be for example a function, vector bundle, coherent sheaf, a complex of sheaves and KK-theory class. Objects organize into [[associative algebras]], [[operator algebras]],
 [[categories]], higher categories ($k$-linear or not) and so on. [[reconstruction|Reconstruction]] theorems say that can reconstruct a genuine (say topological) "underlying" space.  Spectral theories are procedures (sometimes functors, often not) which recover some form of underlying space called [[spectrum (geometry)|spectrum]], often just partially or under strong assumptions on (the data determining) the noncommutative space.
 
-# Connes's noncommutative geometry #
+# Connes' noncommutative geometry #
 
-A particular realization of the program of noncommutative geometry has beeninitiated by [[Alain Connes]]. This has been so successful that it is usually implicitly understood by "noncommutative geometry". Notice that it is related to but differs in its tools, constructions and aims from [[noncommutative algebraic geometry]].
+A particular and most prominent realization of the program of noncommutative geometry has been lead by [[Alain Connes]]. The central ingredients in Connes' noncommutative geometry are
 
-Then central ingredient in Connes' noncommutative geometry is 
+* the idea to characterize a (noncommutative) space by a [[C-star algebra]] $A$, to be thought of as the $C^*$-algebra of global functions on that space; this aprpoach has been occasionally considered earlier e.g. in the book of Semadeni on Banach algebras. 
 
-1. the idea to characterize a (noncommutative) space by a [[C-star algebra]] $A$, to be thought of as the $C^*$-algebra of global functions on that space;
+* There is a refined, quantized differential calculus where the differential is given by a commutator formula involving a Fredholm operator; the setup in which this is taken place involves cyclic cocycles discovered by Tsygan and Connes.
 
-1. the idea to encode the noncommutative analog of the structure of a [[Riemannian manifold]] in terms of generalized [[Dirac operator]]s $D$ acting on a representation space of the algebra $A$. Metric information on the space is then encoded in the spectrum of $D$.
+* the noncommutative analog of the structure of a [[Riemannian manifold]] with a spin structure in terms of generalized [[Dirac operator]]s $D$ acting on a representation space of the algebra $A$. Metric information on the space is then encoded in the spectrum of $D$.
 
-   For that reason Connes' noncommutative geoemetry is well described as **spectral geometry**.
+   For that reason Connes' noncommutative manifolds are well described as **spectral geometry**. The Dirac operator is of course very much related to the quantized differential calcuolus of Connes. 
 
+* Noncommutative measure spaces are represented by noncommutative von Neumann algebras. 
 
-(...details should eventually go here...)
 
 #Very early sources and schools#
 
