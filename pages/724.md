@@ -9,7 +9,7 @@ The above definition is for the join of two elements of a poset, but it can easi
 
 Special cases:  A join of zero elements is a [[bottom]] element.  Any element $a$ is a join of that one element.
 
-A poset that has all finite joins is a **join-semi[[lattice]]**.  A poset that has all suprema is a **[[complete lattice|complete]] join-semilattice**.
+A poset that has all finite joins is a **join-[[semilattice]]**.  A poset that has all suprema is a **[[complete lattice|complete]] join-semilattice**.
 
 As a poset is a special kind of [[category]], a join is simply a [[coproduct]] in that category.
 
