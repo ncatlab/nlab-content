@@ -1,4 +1,8 @@
-#Idea#
+#Contents#
+* automatic table of contents
+{:toc}
+
+## Idea
 
 A **geometric embedding** is the right notion of embedding or inclusion of [[topoi]] $F \hookrightarrow E$.
 
@@ -7,7 +11,7 @@ Notably the inclusion $Sh(S) \hookrightarrow PSh(S)$ of a [[category of sheaves]
 Another perspective is that a geometric embedding $F \hookrightarrow E$ is the [[localizations]] of $E$ at the class $W$ or morphisms that the [[left adjoint]] $E \to F$ sends to isomorphisms in $F$.
 
 
-#Definition#
+## Definition
 
 For $F$ and $E$ two [[topos|topoi]], a [[geometric morphism]]
 
@@ -31,7 +35,7 @@ That the first two conditions are equivalent is standard, that the third one is 
 * MacLane-Moerdijk, _Sheaves in geometry and logic_
 
 
-#Relation to localization#
+## Relation to localization
 
 There is a close relation between geometric embedding and
 [[localization]]. 
@@ -633,10 +637,10 @@ $$
 =--
 
 
-#References#
+## References
 
 section VII, 4 of 
 
-* Moerdijk-MacLane, _[[Sheaves in Geometry and Logic]]_ 
+* [[Sauders-MacLane]]-[[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
 
 [[!redirects geometric embeddings]]
