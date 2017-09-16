@@ -11,9 +11,9 @@ A strict 2-group is a [[group object]] [[internalization|internal]] to the [[cat
 
 This means that it is a groupoid $G$ equipped with a product [[functor]] $\cdot : G \times G \to G$ that behaves like the product in a [[group]], in that it is unital and associative and such that there are inverses under multiplication.
 
-More general [[2-group]]s correspond to group objects in the [[2-category]] incarnation of [[Grpd]]. For them associativity, inverses etc have to hold and exist only up to coherent natural isomorphism. So strict 2-groups are particlarly rigid incarnations of [[2-group]]s. 
+More general [[2-group]]s correspond to group objects in the [[2-category]] incarnation of [[Grpd]]. For them associativity, inverses etc have to hold and exist only up to coherent natural isomorphism. So strict 2-groups are particularly rigid incarnations of [[2-group]]s. 
 
-We may think of any 2-group $G$ in terms of its [[delooping]] $\mathbf{B}G$, a [[2-groupoid]] with a single object, with morphisms the objects of $G$ and [[k-morphism|2-morphism]]s the morphisms of $G$. If $G$ is a strict 2-group, then $\mathbf{B}G$ is a strict 2-groupoid. This is often a useful point of view. In particular, the general strictification result of [[bicategory|bicategories]] implies that any such 2-groupoid is equivalent to a strict one. So, up to the right notion of equivalence, strict 2-groups already exhaust all 2-groups.
+We may think of any 2-group $G$ in terms of its [[delooping]] $\mathbf{B}G$, a [[2-groupoid]] with a single object, with morphisms the objects of $G$ and [[k-morphism|2-morphism]]s the morphisms of $G$. If $G$ is a strict 2-group, then $\mathbf{B}G$ is a strict 2-groupoid. This is often a useful point of view. In particular, the general strictification result of [[bicategory|bicategories]] implies that any such 2-groupoid is equivalent to a strict one. So, up to the right notion of equivalence, strict 2-groups already exhaust all 2-groups; we just have to take care to allow for *homomorphisms* of these $2$-groups to be weak. (However, this theorem may not apply to structured $2$-groups, such as [[Lie 2-group]]s.)
 
 Strict 2-groups are also equivalently encoded in terms of [[crossed module]]s $(G_2 \to G_1)$ of ordinary groups: $G_1$ is the group of [[object]]s of the groupoid $G$ and $G_1$ the group of [[morphism]]s in $G$ whose source is the neutral element in $G_1$. 
 
@@ -21,17 +21,19 @@ In applications it is usually useful to pass back and forth between the 2-groupo
 
 
 
-##Definition
+##Definitions
 
-A **strict [[2-group]]** is equivalently
+A **strict [[2-group]]** is equivalently:
 
-* an [[internal category]] in [[Grp]]
+* an [[internal category]] in [[Grp]],
+* an internal [[groupoid]] in [[Grp]],
+* an internal [[group object]] in [[Cat]],
+* a [[strict 2-groupoid]] with one object.
 
-* an internal [[groupoid]] in [[Grp]]
-
-* an internal [[group object]] in [[Cat]].
 
 ## Expanding the definition
+
+We examine the first definition in more detail.
 
 Copying and adapting from the entry on general internal categories we have:
 
@@ -404,7 +406,7 @@ $$
 Perhaps the _simplest example_ of such a structure is a 
 [[congruence|congruence relation]] on a group $G$. If $\sim$ is a congruence relation on $G$, then we form the 2-group by setting $C_0 = G$ and $C_1$ to be the group of pairs $(a,b)$ with $a\sim b$.  That this is a group follows from the definition of congruence given in the above reference. The two maps $s$ and $t$ are defined by $s(a,b) = a$, $t(a,b) = b$, whilst $i(a) = (a,a)$. The pullback is a subgroup of $C_1\times C_1$ given by all 'pairs of pairs' $((a,b),(b,c))$ and the composition homomorphism sends such a pair to $(a,c)$.  The other properties are easy to check.
 
-Any congruence relation corresponds to a normal subgroup, given by those elements $a$ that are congruent to the identity element of $G$, so that $e\sim a$. Likewise given a normal subgroup of $G$ you get a congruence.
+Any congruence relation corresponds to a [[normal subgroup]], given by those elements $a$ that are congruent to the identity element of $G$, so that $e\sim a$. Likewise given a normal subgroup $N$ of $G$ you get a congruence, with $a \sim b$ iff $b^{-1} a$ (or equivalently, $a b^{-1}$) belongs to $N$.
 
 
 ## References
