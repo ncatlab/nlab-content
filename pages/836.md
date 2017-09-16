@@ -4,7 +4,7 @@ $2$-posets can also be called $(1,2)$-[[(n,r)-category|categories]].  The concep
 
 # Definition
 
-Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict you wish. Then a __$2$-poset__ is an $\infty$-category such that all parallel pairs of $j$-morphisms are [[equivalence|equivalent]] for $j \geq 2$. Thus, up to equivalence, there is no point in mentioning anything beyond $2$-morphisms, not even whether two given parallel $2$-morphisms are equivalent. This definition may give a concept more general than a locally posetal $2$-category for your preferred definition of $2$-category, but it will be equivalent if you ignore irrelevant data.
+Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict you wish. Then a __$2$-poset__ is an $\infty$-category such that all parallel pairs of $j$-morphisms are [[equivalence|equivalent]] for $j \geq 2$. Thus, up to [[equivalence of categories|equivalence]], there is no point in mentioning anything beyond $2$-morphisms, not even whether two given parallel $2$-morphisms are equivalent. This definition may give a concept more general than a locally posetal $2$-category for your preferred definition of $2$-category, but it will be equivalent if you ignore irrelevant data.
 
 # Examples
 * [[Pos]]
