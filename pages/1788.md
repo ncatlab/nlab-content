@@ -8,19 +8,6 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
-Does it help to upload local copies?
-
-[[Rooted_Node.jpg|Rooted Node:pic]]
-
-[[Rooted_Edge.jpg|Rooted Edge:pic]]
-
-<center>
-<img alt="Rooted Node" src="/nlab/files/Rooted_Node.jpg" width="20" height="10" />
-<img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="51" />
-</center>
-
-***
-
 Cactus Graphs Local, Other Images Remote ---
 
 <table align="center" border="1" cellpadding="8" cellspacing="0" style="text-align:center; width:90%">
@@ -48,6 +35,23 @@ Cactus Graphs Local, Other Images Remote ---
 </td><td> <img class='tex' src="http://mywikibiz.com/images/math/f/7/4/f7496913e3e61d6a5227c611eb355e93.png" alt="0\!" />
 </td></tr>
 </table>
+
+***
+
+Does it help to upload local copies?
+
+[[Rooted_Node.jpg|Rooted Node:pic]]
+[[Rooted_Edge.jpg|Rooted Edge:pic]]
+[[Cactus_A_Big.jpg|Cactus A Big:pic]]
+[[Cactus_ABC_Big.jpg|Cactus ABC Big:pic]]
+
+<center>
+<img alt="Rooted Node" src="/nlab/files/Rooted_Node.jpg" width="20" height="10" />
+<img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="51" />
+<img alt="Cactus A Big" src="/nlab/files/Cactus_A_Big.jpg" width="20" />
+<img alt="Cactus ABC Big" src="/nlab/files/Cactus_ABC_Big.jpg" width="50" />
+
+</center>
 
 ***
 
