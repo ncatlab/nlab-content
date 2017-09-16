@@ -2,7 +2,7 @@
 
 #entries related to sheaf cohomology#
 
-* [[heuristic introduction to sheaves, cohomology and higher stacks]]
+* [[motivation for sheaves, cohomology and higher stacks]]
 
 * [[sheaf]]
 
