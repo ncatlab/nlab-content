@@ -44,7 +44,12 @@ Important fibrant objects are in particular [[infinity-groupoid]]s (for instance
 
 A **Morita morphism** of [[Lie groupoid]]s is, even though it is not typically made explicit in the literature, precisely a (local) acyclic fibration with respect to the [[folk model structure]] on groupoids, which in turn is the same as an [[anafunctor]] of Lie groupoids. 
 A Morita equivalence of Lie groupoids then is a span as above, equivalently an invertible anafunctor.
++--{: .query}
+[[David Roberts]]: More precisely, a Morita morphism is a span of Lie groupoids such that the \'source leg\' has an anafunctor pseudoinverse. Anafunctors are only examples of Morita morphisms, in the sense that open covers $\coprod U_i \to M$ are examples of surjective submersions.
 
+I'm also not sure that this should be called the folk model structure, as I don't think it exists for groupoids internal to $Diff$. Details of the model structure are in a paper by Everaert, Kieboom and van der Linden, but seem to be tailored towards groupoids internal to categories of algebraic things (e.g semiabelian categories). I think the best one can do is a category of fibrant objects, but that is not something I've looked at much.
+
+=--
 Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]]s. This relation between Lie groupoids and their stacks of torsors is analogous to the relation between algebras and their categories of modules, which is probably the reason for the choice of terminology.
 
 +-- {: .query}
@@ -54,4 +59,5 @@ So is it true that there is a model category structure on algebras such that Mor
 [[Zoran Škoda]]: Associative (nonunital) algebras make a [[semi-abelian category]], ins't it ? So one could then apply
 the general results of van den Linden published in TAC to 
 get such a result, using regular epimorphism pretopology, it seems to me. It is probably known to the experts in this or another form. 
+
 =--
