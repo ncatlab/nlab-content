@@ -1,4 +1,4 @@
-The __quantum dilogarithm__ was discovered by physicist Anatole Kirillov and by Ludwig Fadeev and Kashaev. The latter also discovered a fundamental pentagon relation for the quantum dilogarithm, which is an analogue of the classical Roger's identities and makes a connection to the current subject of cluster transformations. Cf. also classical [[dilogarithm]].
+The __quantum dilogarithm__ was discovered by physicist Anatole Kirillov and by Ludwig Fadeev and Kashaev. The latter also discovered a fundamental pentagon relation for the quantum dilogarithm, which is an analogue of the classical Roger's identities and makes a connection to the current subject of [[cluster algebra|cluster transformations]]. Cf. also classical [[dilogarithm]].
 
 Some references:
 
