@@ -20,6 +20,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]: 
 
+  * corrected some minor points at [[limit in a quasi-category]] a bit
+
   * created [[Karoubi envelope]] in order to collect references to the $\infty$-version of it
 
   * expanded [[universal fibration of (infinity,1)-categories]]
