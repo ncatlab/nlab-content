@@ -73,6 +73,10 @@ See also
 
 * [[stable (infinity,1)-category of spectra]]
 
+* [[smash product of spectra]]
+
+
+
 #Symmetric monoidal $(\infty,1)$-categories and commutative algebra #
 
 * [[symmetric monoidal (infinity,1)-category]]
@@ -92,6 +96,10 @@ See also
   * [[spectrum]]
 
   * [[spectrum object]]
+
+* [[associative ring spectrum]]
+
+  * [[A-infinity ring]]
 
 * [[commutative ring spectrum]]
 
