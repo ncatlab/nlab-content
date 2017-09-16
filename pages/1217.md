@@ -9,7 +9,7 @@ His initial motivation appears to be extending the theory of differential forms 
 
 By a convex $n$-region (or, simply a _convex_ region), we mean a closed convex region in $\mathbb{R}^n$.  A convex $0$-region consists of a single point.
 
-_Definition._ A differentiable space $X$ is a Hausdorff space equipped with a family of maps called plots which satisfy the following conditions:
+_Definition._ A differentiable space $X$ is a [[Hausdorff space]] equipped with a family of maps called plots which satisfy the following conditions:
 
 1. Every plot is a continuous map of the type $\phi: U \to X$, where $U$ is a convex region.
 
@@ -61,7 +61,7 @@ __Definition 1.2.1__ A differentiable space $M$ is a set equipped with a family 
 
 # Remarks #
 * In 1986, Chen gave a definition equivalent to the last.
-* It seems clear from the context that in the 1975 paper Chen was first recalling the definition from the 1973 paper.  However, his recollection was not completely accurate as the underlying object was now a topological space rather than a Hausdorff space.
+* It seems clear from the context that in the 1975 paper Chen was first recalling the definition from the 1973 paper.  However, his recollection was not completely accurate as the underlying object was now a [[topological space]] rather than a [[Hausdorff space]].
 * The forcing condition on the maps in the 1975 paper is actually stronger than that in the 1977 paper.
 * The final structure is of [[sheaf|sheaves]] on a [[site]].  This is the definition used in, for example, Baez and Hoffnung [0807.1704].
 
