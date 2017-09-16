@@ -16,7 +16,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Emily Riehl]]
 * [[Eric Forgy]]
 * [[Finn Lawler]]
-* [[Gabriel Drummond-Cole]]
+* [[Gabriel C Drummond-Cole]]
 * [[Geoff Cruttwell]]
 * [[Greg Egan]]
 * [[jdthomas|J. D. Thomas]]
