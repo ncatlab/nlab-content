@@ -1,7 +1,10 @@
-A __skewfield__ (also spelled skew-field) or a __division ring__ is a unital [[ring]] where each nonzero element has an inverse. A commutative skewfield is called a [[field]], but sometimes in specialized works on skewfields one often says simply field for a skewfield.
+A __skewfield__ (also spelled skew-field) or a __division ring__ is a unital [[ring]] where each nonzero element has an [[inverse]] (but zero does not). A commutative skewfield is called a [[field]], but sometimes in specialized works on skewfields one often says simply field for a skewfield.
 
-Very often textbooks develop linear algebra in generality of division rings, namely the usual notions of basis, dimension, linear map, matrix of a linear map with respect to two bases and so on, pass without changes for left or right vector spaces over a division field.
+Very often textbooks develop [[linear algebra]] in the generality of division rings, namely the usual notions of basis, dimension, linear map, matrix of a linear map with respect to two bases and so on, pass without changes for left or right [[vector spaces]] over a division ring.
 
-The most famous noncommutative example is the skewfield of quaternions. Frobenious theorem states that apart from the fields of real and of complex numbers and quaternions, there are no associative finite-dimensional division algebras over real numbers; and even if one includes nonassociative finite-dimensional division algebras one obtains only one more example (octonions).
+The most famous noncommutative example is the skewfield of [[quaternion]]s. The [[Frobenius theorem]] states that apart from the fields of [[real number|real]] and [[complex number]]s and quaternions, there are no associative finite-dimensional [[division algebra]]s over the real numbers; and even if one includes nonassociative finite-dimensional division algebras one obtains only one more example (the [[octonion]]s).
+
+In [[constructive mathematics]] and [[internalization|internally]], the same issues appear for skewfields as for [[fields]], and may be dealt with in the same way.
+
 
 [[!redirects division ring]]
