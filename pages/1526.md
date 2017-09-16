@@ -1,8 +1,6 @@
 A better title might be "Unpacking a Concrete Category"
 
-See also [[category of elements]]
-
-category: redirect
+See also [[category of elements]].
 
 ##Example: Action Groupoid##
 
