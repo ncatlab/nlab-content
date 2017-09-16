@@ -1,7 +1,7 @@
 #Idea#
 
 
-A _principal 2-bundle_ is a [[vertical categorification|categorification]] of a [[principal bundle]]. It is closely related to and in fact a generalization of the concept [[gerbe]]. See [[gerbe (general idea)]] for more background.
+A _principal 2-bundle_ is a [[vertical categorification|categorification]] of a [[principal bundle]]. It is closely related to and in fact a generalization (in the case of a single group rather than a sheaf of groups) of the concept [[gerbe]] (although that concept could easily be further generalised to match). See [[gerbe (general idea)]] for more background.
 
 
 #Definition#
@@ -36,7 +36,7 @@ The above situation of ordinary $G$-[[principal bundle]]s is section 2.1 _[[tors
 
 The point is that in the [[(infinity,1)-topos]] of topological or smooth or whatever [[infinity-groupoid]]s (i.e. in the [[(infinity,1)-category]] of [[infinity-stack]]s on our category of [[space and quantity|test spaces]]) the above situation generalizes straightforwardly:
 
-For $G_{(2)}$ a [[2-group]], a  $G_{(2)}$-principal 2-bundle is a fibration of groupoids $P \to X$ that arises as the [[fibration sequence|homotopy fiber]] of a classifying morphism $X \to \mathbf{B} G_{(21)}$ (a 2-[[anafunctor]])
+For $H$ a [[2-group]], an $H$-principal $2$-bundle is a fibration of groupoids $P \to X$ that arises as the [[fibration sequence|homotopy fiber]] of a classifying morphism $X \to \mathbf{B}H$ (a $2$-[[2-anafunctor|anafunctor]])
 
 $$
  \array{
@@ -49,7 +49,7 @@ $$
   \,.
 $$
 
-As ordinary [[principal bundle]]s, these gadgets may be described from various points of view, using [[anafunctor]] cocycles $g : X \stackrel{\simeq}{\to}\leftarrow Y \to \mathbf{B}G_{(2)}$ in [[nonabelian cohomology]], or the corresponding total spaces being 2-[[torsor]]s equipped with 2-group [[action]], or certain variants of this. 
+As ordinary [[principal bundle]]s, these gadgets may be described from various points of view, using [[anafunctor]] cocycles $g : X \stackrel{\simeq}{\to}\leftarrow Y \to \mathbf{B}H$ in [[nonabelian cohomology]], or the corresponding total spaces being 2-[[torsor]]s equipped with 2-group [[action]], or certain variants of this. 
 
 Maybe the earliest explicit description of a principal $\infty$-bundle using a [[geometric definition of higher category]] is
 
@@ -57,11 +57,11 @@ Maybe the earliest explicit description of a principal $\infty$-bundle using a [
 
 This describes [[torsor]]s over [[infinity-groupoid]]s in terms of the corresponding $\infty$-[[action groupoid]]s.
 
-The first article aiming to make this theory of higher bundles and [[gerbe]]s more manifestly look concretely like a systematic [[vertical categorification|categorification]] of the familiar descriptio of ordinary [[principal bundle]]s in terms of cocycles and local trivializations is
+The first article aiming to make this theory of higher bundles and [[gerbe]]s more manifestly look concretely like a systematic [[vertical categorification|categorification]] of the familiar description of ordinary [[principal bundle]]s in terms of cocycles and local trivializations is
 
-* [[Toby Bartels]], _2-Bundles_ ([arXiv](http://arxiv.org/abs/math.CT/0410328))
+* [[Toby Bartels]], _2-Bundles_ ([arXiv](http://arxiv.org/abs/math.CT/0410328), [web](http://toby.bartels.name/2bundles/))
 
-One should notice that the categories internal to [[diffeological space]]s used there are (under their [[nerve]]) in particular [[simplicial presheaf|simplicial presheaves]], and that the [[anafunctor]]s used as morphisms between these simplicial presheaves represent precisely the morphisms the corresponding [[(infinity,1)-category of (infinity,1)-sheaves]] using the [[model structure on simplicial presheaves]] or, more lightweight, the structure of a Brown [[category of fibrant objects]] on $\infty$-groupoid valued sheaves.
+One should notice that if one uses categories internal to [[diffeological space]]s, then these are (under their [[nerve]]) in particular [[simplicial presheaf|simplicial presheaves]], and that the [[anafunctor]]s used as morphisms between these simplicial presheaves represent precisely the morphisms the corresponding [[(infinity,1)-category of (infinity,1)-sheaves]] using the [[model structure on simplicial presheaves]] or, more lightweight, the structure of a Brown [[category of fibrant objects]] on $\infty$-groupoid valued sheaves.
 
 The relation of such 2-categorical constructions of 2-bundles to the one of simplicially modeled $\infty$-bundles by Glenn was established in
 
@@ -87,4 +87,4 @@ $$
 
 where $P_1(X)$ is the [[path groupoid]] of $X$.
 
-Similarly, 2-bundles may be equipped with connections by refining their cocycles $X \to \mathbf{B} G_{(2)}$ to cocycles out of a higher path groupoid. Details in this are at [[schreiber:Differential Nonabelian Cohomology|Differential Nonabelian Cohomology]]. 
+Similarly, 2-bundles may be equipped with connections by refining their cocycles $X \to \mathbf{B}H$ to cocycles out of a higher path groupoid. Details in this are at [[schreiber:Differential Nonabelian Cohomology|Differential Nonabelian Cohomology]]. 
