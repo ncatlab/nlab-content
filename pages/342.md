@@ -4,6 +4,7 @@
 [[!include higher category theory - contents]]
 </div>
 
+
 #Idea#
 
 An $(n,r)$-category is a [[higher category theory|higher category]] such that, essentially:
@@ -13,6 +14,27 @@ An $(n,r)$-category is a [[higher category theory|higher category]] such that, e
 * all [[k-morphism]]s for $k \gt r$ are reversible.
 
 So $(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]] and $n$-[[n-groupoid|groupoids]], covering all of the ground in between (and a bit beyond). As $n$ increases, there are many more possibilities, until there are infinitely many kinds of $(\infty,r)$-[[(infinity,n)-category|categories]].
+
+
+# Definition
+
+Given a notion of $\infty$-[[infinity-category|category]] (as weak or strict as you like), then an **$(n,r)$-category** can be defined to be an $\infty$-category such that
+
+* any $j$-morphism is an [[equivalence]], for $j \gt r$;
+* any two parallel $j$-morphisms are equivalent, for $j \gt n$.
+
+As explained below, we may assume that $n \geq -2$ and $0 \leq r \leq n + 1$ (but still allowing $r = 0$ for $n = - 2$).
+
+You can also start with a notion of $n$-[[n-poset|poset]], then define an $(n,r)$-category to be an $(n+1)$-poset such that any $j$-morphism is an [[equivalence]] for $j \gt r$. Or, for $r \leq n$, you can start with a notion of $n$-[[n-category|category]], then define an $(n,r)$-category to be an $n$-category such that any $j$-morphism in an [[equivalence]] for $j \gt r$.
+
+To interpret this correctly for low values of $j$, we must assume that all objects ($0$-morphisms) in a given $\infty$-category are parallel, which leads us to speak of the two $(-1)$-morphisms that serve as their common source and target and to accept any object as an equivalence between these. In particular, any $j$-morphism is an equivalence for $j \lt 1$, so if $r = 0$, then the condition is satisfied for any smaller value of $r$. Thus, we assume that $r \geq 0$.
+
+To say that parallel $(-1)$-morphisms must be equivalent is meaningful; it requires that there be an object. One can continue to $(-2)$-morphisms and so on, but there is nothing to vary about these; so we assume that $n \geq -2$. In other words, a $(-2)$-[[(-2)-category|category]] will automatically be an $n$-category for any smaller value of $n$.
+
+If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between equivalent $(j-1)$-morphisms is an equivalence (being parallel to an identity for $j \gt 0$ and automatically for $j \lt 1$). Accordingly, any $(n,r)$-category for $r \gt n + 1$ is also an $(n,n+1)$-category. Thus, we assum that $r \leq n + 1$. However, when $n = -2$, this contradicts the assumption that $r \geq 0$, so we allow $r = 0$ in that case just to talk about $n = -2$.
+
+
+# Homtopy-theoretic relation
 
 In particular an [[(∞,0)-category]] is an [[∞-groupoid]]. In light of the [[homotopy hypothesis]] that identifies $\infty$-groupoids with (nice) [[topological space]]s and hence [[n-groupoid]]s with [[homotopy n-type]]s, and in view of the notion of [[directed space]], the following terminology is suggestive:
 
@@ -53,24 +75,6 @@ Then, indeed, we have for instance that
 * etc.
 
 
-
-# Definition
-
-Given a notion of $\infty$-[[infinity-category|category]] (as weak or strict as you like), then an **$(n,r)$-category** can be defined to be an $\infty$-category such that
-
-* any $j$-morphism is an [[equivalence]], for $j \gt r$;
-* any two parallel $j$-morphisms are equivalent, for $j \gt n$.
-
-As explained below, we may assume that $n \geq -2$ and $0 \leq r \leq n + 1$ (but still allowing $r = 0$ for $n = - 2$).
-
-You can also start with a notion of $n$-[[n-poset|poset]], then define an $(n,r)$-category to be an $(n+1)$-poset such that any $j$-morphism is an [[equivalence]] for $j \gt r$. Or, for $r \leq n$, you can start with a notion of $n$-[[n-category|category]], then define an $(n,r)$-category to be an $n$-category such that any $j$-morphism in an [[equivalence]] for $j \gt r$.
-
-To interpret this correctly for low values of $j$, we must assume that all objects ($0$-morphisms) in a given $\infty$-category are parallel, which leads us to speak of the two $(-1)$-morphisms that serve as their common source and target and to accept any object as an equivalence between these. In particular, any $j$-morphism is an equivalence for $j \lt 1$, so if $r = 0$, then the condition is satisfied for any smaller value of $r$. Thus, we assume that $r \geq 0$.
-
-To say that parallel $(-1)$-morphisms must be equivalent is meaningful; it requires that there be an object. One can continue to $(-2)$-morphisms and so on, but there is nothing to vary about these; so we assume that $n \geq -2$. In other words, a $(-2)$-[[(-2)-category|category]] will automatically be an $n$-category for any smaller value of $n$.
-
-If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between equivalent $(j-1)$-morphisms is an equivalence (being parallel to an identity for $j \gt 0$ and automatically for $j \lt 1$). Accordingly, any $(n,r)$-category for $r \gt n + 1$ is also an $(n,n+1)$-category. Thus, we assum that $r \leq n + 1$. However, when $n = -2$, this contradicts the assumption that $r \geq 0$, so we allow $r = 0$ in that case just to talk about $n = -2$.
-
 # Special cases
 
 An $(n,n)$-category is simply an $n$-[[n-category|category]]. An $(n,n+1)$-category is an $(n+1)$-[[n-poset|poset]]. Note that an $\infty$-category and an $\infty$-poset are the same thing. An $(n,0)$-category is an $n$-[[n-groupoid|groupoid]].  Even though they have no special name, $(n,1)$-[[(n,1)-category|categories]] are widely studied.
@@ -80,6 +84,7 @@ For low values of $n$, many of these notions coincide.  For instance, a $0$-[[0-
 Of particular importance is the case where $n = \infty$. See 
 
 * [[(infinity,n)-category]] .
+
 
 # The periodic table
 
