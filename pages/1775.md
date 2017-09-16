@@ -14,7 +14,7 @@ satisfying some conditions that make it look like the [[nerve]] of an [[internal
 
 Such a groupoid object with $C_0 = {*}$ is a group object.
 
-If $C$ is the [[Cech-nerve]] of a morphism $C_0 \to C_{-1}$ then then groupoid object is [[delooping|deloopable]] (called _effective_; the $(\infty,1)$-analog of a [[quotient object]]) and we write
+If $C$ is the [[Cech nerve]] of a morphism $C_0 \to C_{-1}$ then then groupoid object is [[delooping|deloopable]] (called _effective_; the $(\infty,1)$-analog of a [[quotient object]]) and we write
 
 $$
   C_{-1} := \mathbf{B}C
