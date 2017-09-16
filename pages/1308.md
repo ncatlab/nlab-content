@@ -1,6 +1,6 @@
 In its usual form, the Eckmann--Hilton argument shows that a [[monoid]] or [[group object]] [[internalization|in]] the category of monoids or [[Grp|groups]] is [[abelian group|commutative]]. In other terms, if a set is equipped with two monoid structures, such that one is a homomorphism for the other, then the two structures coincide and the resulting monoid is commutative.
 
-An even more general version is this:  If a set is equipped with two binary operations with [[identity]], as long as they commute with each other in the sense that one is (with respect to the other) a homomorphism of sets with binary operations, then everything else follows:
+An even more general version is this:  If a set is equipped with two binary operations with [[identity element]]s, as long as they commute with each other in the sense that one is (with respect to the other) a homomorphism of sets with binary operations, then everything else follows:
 1.  the other is also a homomorphism with respect to the first;
 1.  each also preserves the other\'s identity;
 1.  the identities are the same;
