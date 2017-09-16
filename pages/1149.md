@@ -1,3 +1,2 @@
-See [[motivation for sheaves, cohomology and higher stacks]].
-
-category: redirect
+&lt; [[heuristic introduction to sheaves, cohomology and higher stacks]]
+[[!redirects heuristic introduction to sheaves, cohomology and higher stacks -- history]]
