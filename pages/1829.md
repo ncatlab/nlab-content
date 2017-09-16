@@ -2,6 +2,10 @@
 [[!include (infinity,1)-topos - contents]]
 </div>
 
+#Contents#
+* tic
+{:toc}
+
 
 # Idea #
 
