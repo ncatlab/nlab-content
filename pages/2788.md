@@ -84,6 +84,8 @@ But the trouble with all this is that I have no idea what $C$ is supposed to be!
 
 : Of course, what the [[cograph]] gets you is that it turns $\mapsto$ into a special case of $\to$.  But they are still different; $f\colon A \to B$ is an arrow in the category of sets or (in the categorified case) in the $2$-category of categories, while $x \overset{f}\mapsto y$ is (only in the categorified case) an arrow in the cograph of $f$.
 
+>>[[Eric]]: Hmm.. but we ARE talking about cographs :) At least I was accidentally :)
+
 [[Urs Schreiber]]: concerning the nature of $C$: as I suggested before, it does make sense to take this to be the [[cograph of a functor]]. And indeed, in some situations it is useful to _define_ the notion of functor in terms of the notion of cograph. In [[Higher Topos Theory]] the notion of [[adjoint (infinity,1)-functor]] is defined entirely in terms of cographs of functors.
 
 [[Eric]]: Thanks Urs. Now I just need to parse what you say into something I can understand, but it is encouraging. In fact, quoting myself from earlier in the discussion:
