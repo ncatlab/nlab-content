@@ -469,7 +469,7 @@ A [[structured (∞,1)-topos]] $(\mathcal{X}, \mathcal{O})$ is a **$\mathcal{G}$
 
 **Examples**
 
-> **warning** the following statement really pertain to pregeometries, not geometries. for the moment this here is glossing over the difference between the two. See [[geometry (for structured (∞,1)-toposes)]] for the details.
+> **warning** the following statements really pertain to pregeometries, not geometries. for the moment this here is glossing over the difference between the two. See [[geometry (for structured (∞,1)-toposes)]] for the details.
 
 
 * ordinary smooth [[manifold]]s are [[n-localic (infinity,1)-topos|0-localic]] [[Diff]]-[[generalized scheme]]s ([Structured Spaces|StSp, ex. 4.5.2]])
