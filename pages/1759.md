@@ -28,6 +28,8 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 =--
 ## 2009-07-21
 
+* [[Andrew Stacey]]: Responded at [[paracompact space]] and [[Froelicher space]].  Incidentally, if the start of a query box is indented for some reason (as on [[paracompact space]]) then it seems that all its contained paragraphs should be indented by at least the same amount. 
+
 * [[David Corfield]]:
 
   * started [[Moore space]]
