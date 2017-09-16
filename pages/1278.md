@@ -17,30 +17,40 @@ The best known version of differential cohomology is a differential refinement o
 
 A differential refinement of non-stable, i.e. [[nonabelian cohomology]] is developed [[schreiber:Differential Nonabelian Cohomology|here]].
 
+
 ## Differential stable cohomology 
 
 A standard definition of differential cohomology is in terms of a homtopy fiber product of a generalized Eilenberg--Steenrod cohomology theory with the complex of differential forms over real cohomology:
 
 Let $\Gamma^\bullet$ be a generalized cohomology theory in the sense of the generalized Eilenberg--Steenrod axioms, and let 
-$\Gamma^\bullet \to H^\bullet(-,\mathbb{R}) \otimes \Gamma^\bullet(*)$ be a morphism to real singular cohomology with coefficients in the ring of $\Gamma$-cohomology of the point. Then the differential refinement of $\Gamma^\bullet$, the **differential $\Gamma$-cohomology** is the [[homotopy pullback]] $\bar \Gamma^\bullet$ in
+$\Gamma^\bullet \to H^\bullet(-,\mathbb{R}) \otimes \Gamma^\bullet(*)$ be a morphism to real singular cohomology with coefficients in the ring of $\Gamma$-cohomology of the point. Then the differential refinement of $\Gamma^q$, the degree $q$**differential $\Gamma$-cohomology** is the [[homotopy pullback]] $\bar \Gamma^\bullet$ in
 
 $$
   \array{
   \bar \Gamma^\bullet(-)
   &\stackrel{F}{\to}&
-  \Omega^\bullet(-)\otimes \Gamma^\bullet(*)
+  \Omega^{\geq q}(-)\otimes \Gamma^\bullet(*)
   \\
   \downarrow^{cl} && \downarrow
   \\
   \Gamma^\bullet(-)
-  &\to&
+  &\stackrel{ch}{\to}&
   Z^\bullet(-, \mathbb{R}) \otimes \Gamma^\bullet(*)
   }
   \,,
 $$
 
-where $Z^\bullet(-,\mathbb{R})$ is the complex underlying real singular cohomology $H^\bullet(-,\mathbb{R})$ and 
-where $\Omega^\bullet(-,\mathbb{R})$ is the complex underlying deRham cohomology and $\Omega^\bullet(-) \to H^\bullet(-,\mathbb{R})$ is the deRham map.
+where 
+
+* $Z^\bullet(-,\mathbb{R})$ is the complex underlying real singular cohomology $H^\bullet(-,\mathbb{R})$ 
+
+* $\Omega^\bullet(-,\mathbb{R})$ is the complex underlying deRham cohomology 
+
+* $\Omega^\bullet(-) \to H^\bullet(-,\mathbb{R})$ is [[deRham theorem]] morphism
+
+* $ch: \Gamma^\bullet(-)
+  \to
+  Z^\bullet(-, \mathbb{R}) \otimes \Gamma^\bullet(*)$ is the [[Chern character]] map.
 
 There are variations of this definition, with some technical differences in the assumptions. See the description below.
 
