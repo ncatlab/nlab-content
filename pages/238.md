@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-14 #
+
+* [[Urs Schreiber|Urs]]
+
+  * added more details on the sheaf-case to [[point of a topos]] and created [[skyscraper sheaf]]
+
 # 2009-06-13 #
 
 * [[Urs Schreiber|Urs]]
