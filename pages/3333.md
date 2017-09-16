@@ -120,6 +120,9 @@ which builds based loops on $X$ from two consecutive paths, the first starting a
 
 * Ken Brown, _[[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_ .
 
+### Categorical circle action
+
+If in addition $C$ has $(\infty,1)$-pushouts, then a point $x : {*} \to \mathcal{L}X$ is (by definition of limit) the same thing as a map from the pushout ${*} \leftarrow {*}\coprod{*}\to{*}$ to $X$. The latter is a model for the pushout of ${*}//\mathbb{Z}$, i.e., of the [[classifying space]] $\mathbf{B}\mathbb{Z}$ in $C$. Since in [[Top]] all these objects are represented by $S^1$, it is reasonable to call them the circle object of the $(\infty,1)$-category $C$, and it's worth denoting them by the symbol $S^1_{C}$. Then, adopting the [[functor of points]] point of view, the free loop space $\mathcal{L}X$ is identified with $Maps_C(S^1_{C},X)$, and the natural action of $S^1_{C}$ on itself induces the categorical circle action on $\mathcal{L}X$. When $C=Top$ this action is the usual 'rotation of the loops' in $X$.
 
 
 ### Hochschild cohomology and cyclic cohomology
