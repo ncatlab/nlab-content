@@ -1,3 +1,4 @@
+[[!redirects redirects]]
 Instiki now includes the ability to redirect pages.  
 
 #Example: Plural nouns and capitalization#
@@ -71,3 +72,5 @@ The $\infty$ symbol included in the link is not obtained via the itex syntax <no
 ***
 
 See also [the official Instiki guidelines](http://golem.ph.utexas.edu/instiki/show/Syntax#redirecting).
+
+[[!redirects redirects]]
