@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-05-17 #
+
+* [[Urs Schreiber|Urs]]:
+
+  * restructured [[compact object]]
+
 # 2009-05-16 #
 
 *  [[Toby Bartels]]:
