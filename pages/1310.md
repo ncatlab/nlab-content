@@ -9,7 +9,7 @@ differential graded (co)algebra.
 
 #Idea#
 
-Recall that an [[L-infinity-algebroid]] is both a
+Recall that an [[Lie infinity-algebroid|L-infinity-algebroid]] is both a
 [[horizontal categorification]] as well as a 
 [[vertical categorification]] of a Lie algebra: it is
 to Lie algebras as [[Lie infinity-groupoid]]s are to Lie groups.
@@ -31,7 +31,7 @@ While essentially equivalent, it is noteworthy that the first definition
 naturally takes place in the context of not-necessarily smooth ($\infty$-)categories, 
 while the second one usually remains within the context of smooth ($\infty$)-groupoids: 
 
-namely for $G$ a Lie [[group]], for definiteness and for simplicity, 
+namely for $G$ a [[Lie group]], for definiteness and for simplicity, 
 with corresponding one-object Lie groupoid
 $\mathbf{B}G$, a linear representation in terms of an action morphisms is a [[functor]]
 
@@ -97,7 +97,7 @@ So from this perspective the notion "representation" is not a primitive
 notion, but just a particular perspective on [[fibration sequence]]s.
 
 The definition of Lie-infinity algebroid representation below is in this
-[[fibration sequence/fibration-theoretic]]/[[action groupoid]] spirit. 
+[[fibration sequence]]/[[fibration]]-theoretic/[[action groupoid]] spirit. 
 The expected alternative definition in terms of
 action morphisms has been considered (and is well known) apparently only
 for special cases.
@@ -107,7 +107,7 @@ for special cases.
 #Definition#
 
 
-Recall that we take, by definition, [[Lie-infinity-algebroid]]s to be 
+Recall that we take, by definition, [[Lie infinity-algebroid]]s to be 
 [[duality|dual]] to non-negatively-graded,  graded-commutative 
 [[differential graded algebra|differential algebra]]s, which are
 free as graded-commutative algebras (qDGCAs): we write
