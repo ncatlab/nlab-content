@@ -2,6 +2,30 @@
 
 The _homotopy coherent nerve_ (also called _simplicial nerve_) of a [[simplicially enriched category]] is a [[simplicial set]] which includes information about all the higher homotopies present in the hom-spaces.  It generalizes the ordinary [[nerve]] of an ordinary [[category]].
 
+The homotopy coherent nerve operation
+
+$$
+  N : SSet\text{-}Cat \to SSet
+  \,.
+$$
+
+is induced, by the general nonsense of [[nerve and realization]] by a 
+[[simplicial object|cosimplicial]] [[simplicially enriched category]], namely a [[functor]]
+
+$$
+  \Delta \to SSet\text{-}Cat
+$$
+
+from the [[simplex category]] to the category of 
+[[simplicially enriched categories]] which regards each
+$n$-[[simplex]] as a [[SSet]]-[[enriched category]]
+with $n$ objects analogous to how the [[oriental]]s
+regard the $n$-simplex as an [[strict omega-category|n-category]].
+
+
+
+
+
 
 #Preliminary definitions#
 
