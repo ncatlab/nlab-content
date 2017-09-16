@@ -12,6 +12,6 @@ One has to be a little careful in defining the relevant categories of models in 
 
 The adjunction is [[idempotent adjunction|idempotent]], and therefore restricts to an equivalence between the full images of the two functors involved.  In the well-founded case, we can characterize these as follows:
 
-* A model of material set theory is in the fixed subcategory if it satisfies the [[axiom of foundation]], it has [[transitive closures]], and it satisfies [[Mostowski's principle]].
+* A model of material set theory is in the fixed subcategory if it satisfies the [[axiom of foundation]], it has [[transitive closure|transitive closures]], and it satisfies [[Mostowski's principle]].
 
 * A model of structural set theory is in the fixed subcategory if every set can be embedded into an extensional well-founded relation.
