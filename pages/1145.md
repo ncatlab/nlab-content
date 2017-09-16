@@ -19,6 +19,8 @@
 
     * [[synthetic differential geometry]]
 
+  * [[higher geometry|Higher Geometry]]
+
 * [[algebra|Algebra]]
 
   * [[universal algebra|Universal Algebra]]
