@@ -66,7 +66,7 @@ For concretely constructing the relation between [[Cartesian fibration]]s $p : E
 
 For $C$ an [[(∞,1)-category]] regarded as a [[quasi-category]] (i.e. as a [[simplicial set]] with certain properties), the two model categories in question are
 
-* the projective [[globel model structure on simplicial presheaves]] on $[C,SSet]$ -- this models the [[(∞,1)-category of (∞,1)-functors]] $(\infty,1)Func(C,(\infty,1)Cat)$.
+* the projective [[global model structure on simplicial presheaves]] on $[C,SSet]$ -- this models the [[(∞,1)-category of (∞,1)-functors]] $(\infty,1)Func(C,(\infty,1)Cat)$.
 
 * the _covariant model structure_ on the [[over category]] $SSet/C$ -- this models the $(\infty,1)$-category of [[Cartesian fibration]]s over $C$.
 
@@ -94,12 +94,13 @@ $$
 
 (See remark 3.2.5.5 of [[Higher Topos Theory|HTT]]).
 
+
 #References#
 
 The universal fibration as such is discussed in section 3.3.2 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
-The concrete description in terms of model theory on marked simplicial sets is in section 3.2.
+The concrete description in terms of model theory on marked simplicial sets is in section 3.2. A simpler version of this is in section 2.2.1
 
 [[!redirects universal fibration of (∞,1)-categories]]
