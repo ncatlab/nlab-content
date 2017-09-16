@@ -17,6 +17,8 @@
 
   * [[∞-stack]]
 
+  * [[derived stack]]
+
   * [[internal ∞-groupoid]]
 
     * [[∞-Lie groupoid]]
