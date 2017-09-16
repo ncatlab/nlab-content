@@ -1,8 +1,14 @@
-## Idea ##
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 A space is _connected_ if it can\'t be split up into two independent parts.  Every space is a [[disjoint union]] (but *not* necessarily a [[coproduct]] in the category of spaces) of connected _components_.  One often studies topological ideas first for connected spaces and then generalises to general spaces; this is especially true if one is studying such [[nice topological space]]s that every space *is* a coproduct of connected components.
 
-## Definitions ##
+
+## Definitions 
 
 Speaking category-theoretically a [[topological space]] $X$ is **connected** if the [[representable functor]]
 $$ hom(X, -): Top \to Set $$
@@ -20,7 +26,7 @@ be [[surjection]]s.  However, many results come out more cleanly by disqualifyin
 
 The elementary definitions above have been carefully phrased to be correct in [[constructive mathematics]].  One may also see classically equivalent forms that are constructively weaker.
 
-## Basic results ##
+## Basic results 
 
 1. The [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ is connected.
 
@@ -50,7 +56,7 @@ Indeed, a space is the coproduct of its connected components precisely when it i
 
 A space $X$ is **totally disconnected** if its connected components are precisely the singletons of $X$. 
 
-## Path-connectedness ##
+## Path-connectedness 
 
 An important variation on the theme of connectedness is path-connectedness. If $X$ is a space, define the path component $[x]$ to be the subspace of all $y \in X$ for which there exists a continuous map $h: [0, 1] \to X$ where $h(0) = x$, $h(1) = y$. We say $X$ is **path-connected** if it has exactly one path component.
 
