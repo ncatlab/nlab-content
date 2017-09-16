@@ -5,3 +5,7 @@ Thus, a $(-1)$-tuply connected $n$-category is simply an $n$-category, a $0$-tup
 The [[delooping hypothesis]] says that a $k$-[[k-tuply monoidal n-category|tuply monoidal]] $n$-category is the same thing as a [[pointed object|pointed]] $k$-tuply connected $(n+k)$-category.
 
 One might want a stricter definition for $n$-categories, but this is certainly correct for $n$-[[n-groupoid|groupoid]]s.  Indeed, we can say that an $\infty$-[[infinity-groupoid|groupoid]] $X$ is $k$-tuply connected if and only if its [[fundamental n-groupoid]] $\Pi_n(X)$ is trivial for $n \lt k$.  In particular, an $\infty$-tuply connected $\infty$-groupoid is [[contractible space|contractible]].
+
++--{: .query}
+[[Mike Shulman|Mike]]: I'm pretty sure that in algebraic topology, 1-connected means simply connected, and 0-connected means connected.  So your definitions make a space 0-connected when its fundamental $\infty$-groupoid is 1-tuply connected.  I would prefer that we retain the topologists' numbering and call this a 0-connected $\infty$-groupoid (the 'tuply' sounds weird to me for connectedness), with the off-by-one shift happening in the delooping: the $k$-fold delooping of a $k$-tuply monoidal $n$-category would be a $(k-1)$-connected $(n+k)$-category.
+=--
