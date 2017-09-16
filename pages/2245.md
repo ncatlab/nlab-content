@@ -13,7 +13,7 @@ The standard references are
 
 * A. Borel, _Linear algebraic groups_, Springer (2nd edition much expanded)
 
-* W. Waterhouse, William, _Introduction to affine group schemes_, GTM 66, Springer 1979. 
+* W. Waterhouse, _Introduction to affine group schemes_, GTM 66, Springer 1979. 
 
 * S. Lang, _Abelian varieties_, Springer 1983.
 
