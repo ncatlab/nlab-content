@@ -1,4 +1,9 @@
-# Definition #
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition ##
 
 The **slice category** or **over category** $\mathbf{C}/c$ of a [[category]] $\mathbf{C}$ over an object $c \in \mathbf{C}$ has 
 * objects that are all arrows $f \in \mathbf{C}$ such that $cod(f) = c$, and
@@ -34,6 +39,8 @@ There is a [[forgetful functor]] $U_c: \mathbf{C}/c \to \mathbf{C}$ which maps a
 ## generalizations ##
 
 * The notion of over category applicable to [[(infinity,1)-category|(∞,1)-categories]] is discussed at [[over quasi-category]].
+
+* Similarly, there is a notion of [[model structure on an over category]].
 
 
 [[!redirects slice category]]
