@@ -18,7 +18,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * thanks to [[Mike Shulman|Mike]] for his polishing of my original [[filtrant category]] at [[filtered category]]
 
-  * in a first attempt to clean up the entries surrounding [[abelian category]] I branched off [[Ab-enriched category]], made [[pre-additive category]] a commented redirect to that and "commented out" the respective discussion still to be found at [[additive category]]. 
+  * in a first attempt to clean up the entries surrounding [[abelian category]] I created the overview entry [[additive and abelian categories]] and branched off [[Ab-enriched category]], made [[pre-additive category]] a commented redirect to that and "commented out" the respective discussion still to be found at [[additive category]]; also made [[pre-abelian category]] a separate entry, so that now there is in order of increasing structure/property
+
+    * [[pre-additive category]]
+
+    * [[additive category]]
+
+    * [[pre-abelian category]]
+
+    * [[abelian category]]
 
   * am all in favor of [[Finn Lawler|Finn]]'s graphics! The only reason I don't include nice graphics myself a lot is that currently these take me longer to create than the MathML hacks 
 
