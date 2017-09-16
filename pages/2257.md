@@ -17,7 +17,7 @@ __Other books__ by Moerdijk include
 
 * _Classifying spaces and classifying topoi_, Lecture Notes in Mathematics __1616__, Springer 1995. vi+94 pp. ISBN: 3-540-60319-0
 
-* (with Andre Joyal) _Algebraic set theory_, London Mathematical Society Lecture Note Series __220__, Cambridge University Press 1995. viii+123 pp. ISBN: 0-521-55830-1
+* (with [[Andre Joyal]]) _Algebraic set theory_, London Mathematical Society Lecture Note Series __220__, Cambridge University Press 1995. viii+123 pp. ISBN: 0-521-55830-1
 
 category: people
 
