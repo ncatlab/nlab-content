@@ -1,0 +1,1 @@
+For now, see [Canonical Measures on Configuration Spaces](http://golem.ph.utexas.edu/category/2007/03/canonical_measures_on_configur_1.html).
