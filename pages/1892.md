@@ -111,7 +111,7 @@ Add links back and forth between other [[HomePage|nLab]] entries: enclose import
 
 Depending on the kind of material you included, you may feel like adding a reference back to the $n$Caf&eacute; discussion.
 
-The first thing to do that is to get a copy of the $n$Caf&eacute; link.
+The first thing to do that is to get a copy of the $n$Caf&eacute; link, which may be obtained via "permalink" at the bottom of the comment.
 
 ***
 <img src="http://ncatlab.org/ericforgy/files/permalink.jpg" width = "500"/>
