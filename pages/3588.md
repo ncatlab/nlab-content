@@ -6,9 +6,15 @@
 
 * [[context]]
 
+* [[display map]]
+
+* [[dependent type]]
+
 * [[propositions as types]]
 
 * [[internal logic]]
+
+  * [[Mitchell-Benabou language]]
 
   * [[internal logic of an (∞,1)-topos]]
 
