@@ -1,7 +1,7 @@
 
 #Idea#
 
-An _$n$-truncated object of an [[∞-stack]] [[(∞,1)-topos]]_ is the anaolog of a [[homotopy n-type]] in the archetypical [[(∞,1)-topos]] [[∞-Grpd]]/[[Top]]: 
+An _$n$-truncated object of an [[∞-stack]] [[(∞,1)-topos]]_ is the analog of an [[n-groupoid]] or [[homotopy n-type]] in the archetypical [[(∞,1)-topos]] [[∞-Grpd]]/[[Top]]: 
 
 it is an object $X$ whose [[homotopy group (of an ∞-stack)|homotopy groups (of an ∞-stack)]] $\pi_k(X)$ are trivial for $k \gt n$.
 
