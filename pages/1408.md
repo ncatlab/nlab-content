@@ -212,7 +212,7 @@ $$
   O_X : V \to Sh(X)
 $$
 
-possible. They describe **derived smooth manifolds** as described in [DerSmooth](http://math.berkeley.edu/~dspivak/thesis2.pdf).
+possible. They describe **[[derived smooth manifold]]s** as described in [DerSmooth](http://math.berkeley.edu/~dspivak/thesis2.pdf).
 
 #References#
 
