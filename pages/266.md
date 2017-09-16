@@ -164,6 +164,8 @@ $(\infty,1)$-functors is discussed in
 
 * For $f : X \to Y$ a [[site|morphism of sites]] coming from a functor $f^t : S_Y \to S_X$ of the underlying categories, the left Kan extension of functors along $f^t$ is the [[inverse image]] operation $f^{-1} : PSh(Y) \to PSh(X)$.
 
+* see also [[examples of Kan extensions]]
+
 
 #Remark on terminology: pushforward vs. pullback#
 
