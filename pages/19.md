@@ -389,6 +389,7 @@ Other standard references include:
 
   Rafael: The link at the target is a draft. My was to the complete book :) I do want links at both places just to be systematic. Maby i should change the link at the target to point there also.
 
+  _Toby_:  H\'m, yeah, it looks like the link at [[Higher Topos Theory]] needs to be updated; I just did that.  As I said, the link here is reasonable too, so that\'s fine.
   =--
 * Project description: higher categorical structures and their applications [free online] (http://www.math.uchicago.edu/~may/NCATS/ForWeb.pdf)
 
