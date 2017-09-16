@@ -1,4 +1,4 @@
-Coseparability of corings is a dual notion to separability of rings (where one requires that the multiplication map is split). 
+Coseparability of [[coring]]s is a dual notion to [[separable ring|separability of rings]] (where one requires that the multiplication map is split). 
 
 An $A$-[[coring]] $(C,\Delta,\epsilon)$ is __coseparable__ if the comultiplication $\Delta:C\to C\otimes_A C$ splits as a $C$-$C$-bicomodule morphism. In other words, there is a morphism of $A$-$A$-bimodules $p: C\otimes_A C\to C$ such that 
 
