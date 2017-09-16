@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-05 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * added a pedagogical example to [[enriched functor category]]
+
 * [[David Corfield|David]]:
 
   * began [[microcosm principle]]
