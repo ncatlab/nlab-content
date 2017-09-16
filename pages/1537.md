@@ -1,3 +1,2 @@
-See [[Dijkgraaf-Witten theory]].
-
-category: delete
+&lt; [[Dijkgraaf--Witten theory]]
+[[!redirects Dijkgraaf--Witten theory -- history]]
