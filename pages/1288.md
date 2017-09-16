@@ -9,7 +9,8 @@ Given a commutative unital ring $R$, a filtration $M_n$ ($n\geq -1$) on a $R$-$R
 __Regular differential operators__, as defined by Grothendieck, are the elements of the differential part $Diff(R,R)$ of $Hom(R,R)$ i.e. a maximal differential subbimodule in  $Hom(R,R)$. The operators in $Diff(R,R)_n$ are called the differential operators of degree $\leq n$. 
 If $R\to B$ is a ring morphism, then the differential part of $B$ via its natural $R$-$R$-bimodule structure is also an object of $R\backslash \mathrm{Ring}$; in particular $Diff(R,R)$ is a ring and $R\hookrightarrow Diff(R,R)$ is an embedding of rings.
 
-More generally (and in the affine case equivalently), for a $S$-scheme $X$, let $P^n_{X/S}$ denote the sheaf $(O_X\otimes_{f^{-1}(O_S)} O_X)/I^{n+1}$, where $I$ is the ideal of the diagonal (this makes sense since the diagonal morphism is an immersion), and $f:X\rightarrow S$ the structure morphism. Consider $P^n_{X/S}$ as $O_X$-module via the morphism $O_X\rightarrow O_X\otimes_{f^{-1}(O_S)} O_X$, $a\mapsto a\otimes 1$.
+More generally (and in the affine case equivalently), for a $S$-scheme $X$, let
+$P^n_{X/S}$ denote the sheaf $(O_X\otimes_{f^{-1}(O_S)} O_X)/I^{n+1}$, where $I$ is the ideal of the diagonal (this makes sense since the diagonal morphism is an immersion), and $f:X\rightarrow S$ the structure morphism. Consider $P^n_{X/S}$ as $O_X$-module via the morphism $O_X\rightarrow O_X\otimes_{f^{-1}(O_S)} O_X$, $a\mapsto a\otimes 1$.
 
 +--{.query}
 Zoran: is here silent assumption of separatedness of $X$ over $S$ important ? 
