@@ -14,8 +14,7 @@ A locally presentable category is one where every [[object]] is a [[colimit]] ov
 ## Definition ##
 
 +-- {: .un_defn}
-###### Definition
-**(locally presentable category)**
+###### Definition (locally presentable category)
 
 A [[category]] $C$ is called **locally presentable** if
 
@@ -35,8 +34,7 @@ More specifically
 
 
 +-- {: .un_defn}
-###### Definition
-**($\kappa$-locally presentable category)**
+###### Definition ($\kappa$-locally presentable category)
 
 For $\kappa$ a [[cardinal number|regular cardinal]], a **locally $\kappa$-presentable category** is defined like a presentable category, only that every object is required to be a $\kappa$-[[compact object]].
 
@@ -51,8 +49,7 @@ A locally $(\kappa = \aleph_0)$-presentable category is called a **locally finit
 There are various equivalent statements of this definition.
 
 +-- {: .un_prop}
-###### Proposition
-**(as finite limit sketches)**
+###### Proposition (as finite limit sketches)
 
 Locally presentable categories are precisely the categories of [[sketch|models of limit-sketches]].
 
@@ -100,11 +97,13 @@ The locally $\kappa$-presentable categories for $\kappa = \aleph_0$.
 
 * a [[poset]], regarded as a category, is locally finitely presentable if it is a complete [[lattice]] which is algebraic (each element is a directed [[join]] of finite elements).
 
-**Counterexamples**
++-- {: .un_exmple}
+###### Counterexamples
 
 * the category [[FinSet]] of _finite_ sets is not locally finitely presentable, as it does not have all countable colimits.
 
 * [[Top]] is not locally finitely presentable.
+=--
 
 ### Locally presentable categories
 
