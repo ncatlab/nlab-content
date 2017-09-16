@@ -12,11 +12,11 @@ This is easily equivalent to:
 
 * $X$ is compact if, for any collection of closed sets of $X$ whose intersection is empty, some finite subcollection also has empty intersection. 
 
-If the axiom of choice is assumed, compactness can be characterized in terms of [[ultrafilter|filter]] convergence: 
+If the [[axiom of choice]] is assumed, compactness can be characterized in terms of [[ultrafilter|filter]] convergence: 
 
-* $X$ is compact if every ultrafilter $\cal{U}$ on $X$ converges to some point $x \in X$, meaning that $\cal{U}$ contains the neighborhood filter of $x$. 
+* $X$ is compact if every [[ultrafilter]] $\cal{U}$ on $X$ converges to some point $x \in X$, meaning that $\cal{U}$ contains the neighborhood filter of $x$. 
 
-Similarly (but without assuming AC), 
+Similarly (but without assuming [[axiom of choice|AC]]), 
 
 * $X$ is compact if every filter on $X$ has a convergent refinement. 
 
@@ -29,4 +29,6 @@ Assuming the axiom of choice, compactness can also be characterized in terms of 
 * $X$ is compact iff for any space $Y$, the projection map $X \times Y \to Y$ is closed. 
 
 ## Standard Results
+
+* A topological space $X$ is compact if it is a [[compact object]] in its [[category of open subsets]] $Op(X)$.
 
