@@ -116,7 +116,7 @@ $$
   \,.
 $$
 
-But not all elements $(v,\epsilon)$ define [[infinitesimal neighbour]] elements this way: specifically in the case that $X$ is a [[micorlinear space]], the [[tangent bundle]] object $X^D$ is fiberwise $R$-linear, and the for any $t \in R$ the elements $(v,t \epsilon)$ and $(t v, \epsilon)$ defne the same pair of [[infinitesimal neighbour]]s, $x = v(0)$ and $y = (t v)(epsilon) = v(t \epsilon)$.
+But not all elements $(v,\epsilon)$ define _different_ pairs of [[infinitesimal neighbour]] elements this way: specifically in the case that $X$ is a [[microlinear space]], the [[tangent bundle]] object $X^D$ is fiberwise $R$-linear, and thus for any $t \in R$ the elements $(v,t \epsilon)$ and $(t v, \epsilon)$ defne the same pair of [[infinitesimal neighbour]]s, $x = v(0)$ and $y = (t v)(\epsilon) = v(t \epsilon)$.
 
 We may identify such elements $(t v, \epsilon)$ and $(v, t \epsilon)$ by passing to the [[tensor product]] $X^D \otimes_R D$, i.e. the coequalizer of
 
