@@ -5,4 +5,5 @@ The category __Equ__ of equilogical spaces obviously contains the category of $T
 The concept was originally introduced for [[domain theory]] in a privately circulated manuscript by [[Dana Scott]].
 
 ##References##
-"Equilogical Spaces", Andrej Bauer, Lars Birkedal, Dana S. Scott
+* "A New Category? Domains, Spaces, and Equivalence Relations", Dana S. Scott
+* "Equilogical Spaces", Andrej Bauer, Lars Birkedal, Dana S. Scott
