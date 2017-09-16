@@ -51,10 +51,10 @@ The interesting definition is composition:  If $R$ is a relation from $A$ to $B$
 $$(a,c) \in R;S \;\Leftrightarrow\; \exists b: B,\; (a,b) \in R \;\wedge\; (b,c) \in S.$$
 The identity morphism is given by [[equality]].
 
-The special properties of the kinds of binary relations listed earlier can all be described in terms internal to $\Rel$ and therefore make sense in any allegory (I think ...).
+The special properties of the kinds of binary relations listed earlier can all be described in terms internal to $\Rel$ and therefore make sense in any allegory with enough structure.  Functional, entire, reflexive, transitive, symmetric, antisymmetric, and euclidean relations can be defined in any allegory.  So can irreflexive and asymmetric ones, although it is most sensible to do so if the hom-posets are already known to have [[bottom]] elements.  Comparisons require the hom-posets to have finite [[union|unions]], and well-founded relations require some sort of higher-order structure.
 
 As a [[function]] may be seen as a special kind of relation, so the category [[Set]] of sets and functions is a [[subcategory]] of [[Rel]].
 
 # Generalisation #
 
-Most of the preceding makes sense in any [[category]] with enough [[product]]s.  Probably the trickiest bit is the definition of composition of binary relations, so not every category with finite products has an allegory of relations.
+Most of the preceding makes sense in any [[category]] with enough [[product]]s.  Probably the trickiest bit is the definition of composition of binary relations, so not every category with finite products has an allegory of relations.  In fact, in a certain precise sense, a category has an allegory of relations if and only if it is [[regular category|regular]].  It can then be recovered from this allegory by looking at the functional and entire relations.
