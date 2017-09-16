@@ -60,6 +60,8 @@ We should also settle on a convention for what to call $C$ and $F$.  My notation
 I might suggest that maybe the generalities on this page, not specific to Frolicher spaces, would fit better on a page such as "generalized space"?  Although that is such a generic-sounding word that maybe a better name should be found.  "Frolicher object over $U$"?  "Bi-presheaf"?
 
 [[Andrew Stacey|Andrew]]: Yes, I was coming round to the idea of having a separate "generalised space" page, but wanted to know what to call it first - hence my first question on [[request for help]].
+
+_Toby_: Keep in mind that we\'ve already got [[generalized smooth space]].
 =--
 
 Here, $\mathcal{U}(-,-)$ is the $Hom$--functor on $\mathcal{U}$ (strictly, $\mathcal{U}^{op} \times \mathcal{U}$).
