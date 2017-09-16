@@ -1,3 +1,8 @@
+
+#Contents#
+* automatic toc
+{:toc}
+
 #Idea#
 
 The _Dold--Kan correspondence_ asserts that the [[nerve and realization]] [[adjunction]] between abelian 
@@ -388,7 +393,7 @@ This is [theorem 12.8, p. 50](http://math.mit.edu/~lurie/topoibook/DAGI.pdf) of
 * [[Jacob Lurie]], [[Stable Infinity-Categories]] 
 
 
-## Related [[nerve]] constructions ## 
+## Related nerve constructions ## 
 
 This gives a pattern for constructing simplicial structures, often called the _simplicial [[nerve]]_,  from algebraic structures. 
 
