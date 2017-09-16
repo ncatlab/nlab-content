@@ -72,6 +72,7 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 
 * [[fibrations of quasi-categories]]
 
+* [[opposite quasi-category]]
 ## Discussion
 
 A previous version of this entry led to the following discussion.
