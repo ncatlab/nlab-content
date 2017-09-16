@@ -1,3 +1,4 @@
-The [[category]] $S Diff$ is the category whose objects are smooth [[supermanifold]]s and whose morphisms are the standard morphisms between them.
+The [[category]] $S Diff$ is the category whose objects are smooth [[supermanifold]]s and whose morphisms are the standard morphisms between them.  Compare to [[Diff]].
 
-category: categories
+
+category: category
