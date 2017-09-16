@@ -33,13 +33,6 @@ topological space/manifold.  Other pretopologies on [[Top]] include:
 
 An example for the category of manifolds is the pretopology of [[surjective submersion]]s.  All of these have covering families consisting of single arrows. Such a pretopology is called a *singleton* pretopology (or, if you prefer the name [[coverage]], a singleton coverage).
 
-+--{.query}
-David Roberts says: I propose some sort of name for this property,
-since it is common around here. How about ''singleton pretopology''?)
-
-Mike says: sounds reasonable to me, assuming that one accepts "pretopology."
-=--
-
 Most of the examples of [[coverage|coverages]] are in fact Grothendieck pretopologies.
 
 (Other examples ..)
