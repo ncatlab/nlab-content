@@ -148,7 +148,13 @@ Notice that the grading one usually sees on cohomology classes is in the above d
 
   * [[chain homology and cohomology]]
 
-  * [[group cohomology]].
+  * [[groupoid cohomology]]
+
+    * [[group cohomology]]
+
+    * [[nonabelian group cohomology]]
+
+    * [[cohomology of a category]]
 
   * [[generalized (Eilenberg-Steenrod) cohomology]]
 
