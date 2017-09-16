@@ -475,7 +475,7 @@ $$
   \,.
 $$
 
-This is [theorem 12.8, p. 50](http://math.mit.edu/~lurie/topoibook/DAGI.pdf) of 
+This is [theorem 12.8, p. 50](http://www.math.harvard.edu/~lurie/topoibook/DAGI.pdf) of 
 
 * [[Jacob Lurie]], [[Stable ∞-Categories]] 
 
