@@ -108,6 +108,8 @@ Notice that the identity map is clearly completely positive and trace preserving
 
 +--{: .query}
 [[Ian Durham]]: If the objects are the set of linear operators on the Hilbert space in question, is $QChan$ small?  Or, if we could make sub-categories of QChan for sets of linear operators of different dimension, could we then use these to make a commutative square?
+
+[[David Roberts]]: Let me be the first to say that I'm not sure what you're asking with regard to the commutative square. But there are certainly subcategories $QChan_n$ with the only object $Mat(n \times n, \mathbb{C})$. More natural would be to allow arbitrary $End(V)$ where $V$ is an $n$-dimensional $\mathbb{C}$-vector space, as then different $V$ could correspond to different representations, say. But in respect of the next comment box, I don't think that this was the category you were after, so this may be a moot point. Unfortunately I don't know enough relevant physics to make that call.
 =--
 
 * morphism are completely positive and trace-preserving linear maps $\Phi : Mat(n\times n , \mathbb{C}) \to Mat(m \times m, \mathbb{C})$;
