@@ -1,6 +1,8 @@
 #Idea#
 
-An _orientifold_ is a background for [[string theory|string]] [[sigma-model]] that combines aspects of $\mathbb{Z}_2$-[[orbifold]]s with _orientation reversal_ on the worldsheet (therefore the name).
+An _orientifold_ is a background for [[string theory|string]] [[sigma-model]] that combines aspects of $\mathbb{Z}_2$-[[orbifold]]s with _orientation reversal_ on the worldsheet (therefore the name): it consists of a [[bundle gerbe]] on a space with a $\mathbb{Z}_2$-action that satisfies a peculiar twisted equvariance condition with respect to this action.
+
+Such orientifold gerbes with connection are the right structure for the definition of surface holonomy of _unoriented_ surfaces. Therefore they serve for defining the gauge part of the [[path integral|action functional]] for unoriented [[string theory|strings]].
 
 One formalization of orientifold backgrounds appeared in
 
@@ -15,5 +17,5 @@ A formalization that also takes the spinorial degrees of freedom into account is
 
 A formulation in [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]] is indicated in 
 
-* U. Schreiber, wall announcement [[SchreiberOberwolfachJune2009Wall.pdf:file]] at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] 
+* U. Schreiber,  talk [[schreiber: Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]]] at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] 
 
