@@ -24,6 +24,12 @@ The construction of the ([[Grothendieck topos|Grothendieck]]-) [[topos]] of [[ge
 
 * [[generalized smooth algebra]]
 
+  * [[manifold]]
+
+  * [[transversal maps]]
+
+* [[differential forms in synthetic differential geometry]]
+
 ...
 
 * [[Ehresmann connection]]
