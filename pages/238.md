@@ -14,6 +14,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-11
 
+* [[Mike Shulman|Mike]]
+
+  * I like the edits at [[2-limit]] and [[strict 2-limit]], so I removed the comments (but anyone else with opinions, feel free to restart the discussion).
+
+  * Naming question for [[large sheaf]].
+
+  * Answered at [[model structure on simplicial presheaves]]
+
 * [[Urs Schreiber|Urs]]
 
   * have a question for [[Mike Shulman|Mike]] at [[model structure on simplicial presheaves]]
