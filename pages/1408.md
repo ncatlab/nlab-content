@@ -8,8 +8,8 @@
 
 #Idea#
 
-A _structured [[(∞,1)-topos]] is a generalization of a [[ringed space]] or rather of a [[ringed site]]: 
-a generalized [[space]] equipped with a _[[structure sheaf]]_ taking values in generalized [[quantity|quantities]]. 
+A _structured [[(∞,1)-topos]]_ is a generalization of a [[ringed space]] or rather of a [[ringed site]]: 
+a generalized [[space]] equipped with a *[[structure sheaf]]* taking values in generalized [[quantity|quantities]]. 
 
 A structured $(\infty,1)$-topos that is constrained to locally look like an object in a prescribed category of _test spaces_ is a [[generalized scheme]].
 
