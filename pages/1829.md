@@ -501,3 +501,7 @@ $$
 **Remark** See the discussion at [[Cech cohomology]] for 
 the  role of [[hypercompletion]].
 
+
+[[!redirects models for infinity-stack (infinity,1)-topoi]]
+[[!redirects models for ∞-stack (∞,1)-toposes]]
+[[!redirects models for ∞-stack (∞,1)-topoi]]
