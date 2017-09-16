@@ -18,7 +18,26 @@ if there exists a $k$-linear map
 
 $$S : A \to A$$
 
-called the **antipode** (or coinverse) such that $m\circ(\mathrm{id}\otimes S)\circ \Delta = m\circ(S\otimes\mathrm{id})\circ\Delta = \eta\circ\epsilon$ (as a map $A\to A$). If an antipode exists then it is unique, just the way that if inverses exist in a monoid they are unique.
+called the **antipode** or **coinverse** such that $m\circ(\mathrm{id}\otimes S)\circ \Delta = m\circ(S\otimes\mathrm{id})\circ\Delta = \eta\circ\epsilon$ (as a map $A\to A$). If an antipode exists then it is unique, just the way that if inverses exist in a monoid they are unique.
+
+**Proposition** The antipode is an antihomomorphism both of algebras and coalgebras (i.e. a homomorphism $S:A\to A^{cop}_{op}$). 
+
+Proof (algebra part). In Sweedler notation, for any $g,h\in A$, 
+
+$$S((hg)_{(1)}) (hg)_{(2)} = \epsilon(hg)$$ 
+
+$$S((hg)_{(1)}) h_{(2)}g_{(2)} = \epsilon(h)\epsilon(g)$$
+
+$$S((hg)_{(1)}) h_{(2)}g_{(2)} Sg_{(3)} Sh_{(3)} = \epsilon(h_{(1)})\epsilon(g_{(1)}) Sg_{(2)} Sh_{(2)}$$
+
+$$S(h_{(1)}g_{(1)}) \epsilon(h_{(2)})\epsilon(g_{(2)}) = (Sg) (Sh)$$
+
+$$S(h_{(1)}\epsilon(h_{(2)})g_{(1)}\epsilon(g_{(2)})) = (Sg)(Sh)$$
+
+$S(hg) = (Sg) (Sh)$ Q.E.D.
+
+
+
 
 The axiom that must be satisfied by the antipode looks like a $k$-linear version of the identity satisfied by the inverse map in a group bimonoid: taking a group element $g$, duplicating by the diagonal map $\Delta$ to obtain $(g,g)$, taking the inverse of either component of this ordered pair, and then multiplying the two components, we obtain the identity element of our group.
 
