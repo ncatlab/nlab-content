@@ -13,6 +13,8 @@ In this article we give a definition of cograph which generalizes this poset pic
 
 _Toby_:  Note that much of what Todd writes is already at [[cograph]].  (And what isn\'t can go there!)
 
+[[Eric]]: This seems to be a very cool concept that can even help understand [[adjoint functors]]. Maybe we should think about combining all three pages: [[cograph of a functor]], [[graph of a functor]], and [[cograph]]. The current state really was just a place holder so we'd have something to point to, but could definitely use some cleaning up now.
+
 =--
 
 But $f$ also determines a morphism $\bar f : I \to n Cat$. The **cograph** of $f$ is the fibration classified by $\bar f$.
