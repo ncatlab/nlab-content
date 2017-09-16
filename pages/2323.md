@@ -33,6 +33,6 @@
 
 * [[homotopy groups in an (∞,1)-topos|homotopy]]
 
-
+[Edit this sidebar](/nlab/edit/%28infinity%2C1%29-topos+-+contents)
 
 [[!redirects infinity,1-topos - contents]]
