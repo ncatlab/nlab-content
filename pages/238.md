@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * created [[power object]], which is mentioned in the alternative definition at [[topos]] --  guessed the definition from the _Axiom of power sets_ at [[Trimble on ETCS I]], but I am not really sure -- somebody please have a look and check
+
   * expanded and restructured [[Grothendieck topos]]
 
   * added what should be a detailed proof to [[geometric embedding]] that for every geometric embedding $f_* : F \hookrightarrow E$ the category $F$ is equivalent to the localization of $E$ at the morphisms that are sent by $f^*$ to isos 
