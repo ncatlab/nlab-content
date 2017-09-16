@@ -31,6 +31,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[davidfsnyder|David F. Snyder]]
 * [[David Roberts]]
 * [[Dmitri Pavlov]]
+* [[domenico_fiorenza|Domenico Fiorenza]]
 * [[Edmund Harriss]]
 * [[Emily Riehl]]
 * [[Eric Forgy]]
