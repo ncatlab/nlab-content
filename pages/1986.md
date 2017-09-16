@@ -18,6 +18,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-22:
 
+*  [[Toby Bartels]]:  Slight edits to [[space]].
+
+*  [[Rafael Borowiecki]] has a question at [[Bousfield localization]].
+
 * [[Urs Schreiber]]: 
 
   * expanded [[simplicial object]] a little, added Idea, Examples and mentioned cosimplicial objects 
