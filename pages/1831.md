@@ -33,7 +33,8 @@ As described at [[generalized universal bundle]], this pullback construction is 
 
 
 +-- {: .un_prop}
-###### Proposition (basic properties)
+###### Proposition
+Basic properties:
 
 * Every [[isomorphism]] of [[simplicial set]]s is a Cartesian fibration.
 
