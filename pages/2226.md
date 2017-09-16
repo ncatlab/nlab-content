@@ -92,6 +92,23 @@ Already in this elementary context, there are several different meanings that mi
 
 ## Dyadic aspects of sign relations ##
 
+For an arbitrary triadic relation $L \subseteq O \:\times\: S \:\times\: I$, whether it is a sign relation or not, there are six dyadic relations that are obtained by projecting $L$ on one of the planes of the $OSI$-space $O \:\times\: S \:\times\: I$.  The six dyadic projections of a triadic relation $L$ are defined and notated as follows:
+
+$$\array{
+\arrayopts{\colalign{left}}
+L_{OS} & = & proj_{OS} L & = & \{ (o, s) \in O \:\times\: S : (o, s, i) \in L \:(\exists i \in I) \}
+\\
+L_{SO} & = & proj_{SO} L & = & \{ (s, o) \in S \:\times\: O : (o, s, i) \in L \:(\exists i \in I) \}
+\\
+L_{IS} & = & proj_{IS} L & = & \{ (i, s) \in I \:\times\: S : (o, s, i) \in L \:(\exists o \in O) \}
+\\
+L_{SI} & = & proj_{SI} L & = & \{ (s, i) \in S \:\times\: I : (o, s, i) \in L \:(\exists o \in O) \}
+\\
+L_{OI} & = & proj_{OI} L & = & \{ (o, i) \in O \:\times\: I : (o, s, i) \in L \:(\exists s \in S) \}
+\\
+L_{IO} & = & proj_{IO} L & = & \{ (i, o) \in I \:\times\: O : (o, s, i) \in L \:(\exists s \in S) \}
+}$$
+
 ### Connotation ###
 
 ### Denotation ###
