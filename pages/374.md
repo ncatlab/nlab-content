@@ -1,3 +1,5 @@
+[[!redirects topological spaces]]
+
 # Definition #
 
 A **topological space** is a set $X$ equipped with a set of [[subset]]s of $X$, called **open sets**, which are closed under [[finite intersection]]s and arbitrary [[union]]s.  Since $X$ itself is the intersection of zero subsets, it is open, and since the empty set $\emptyset$ is the union of zero subsets, it is also open.
