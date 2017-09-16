@@ -61,13 +61,19 @@ The central theorem is
 
 1. towards geometric models
 
-    These links point to pages that have an exposition of the Stolz-Teichner program for constructing geometric models for [[elliptic cohomology]].
+    These links point to pages that have an exposition of the Stolz-Teichner program for constructing [[geometric models for elliptic cohomology]].
 
-    * [[Axiomatic field theories and their motivation from topology]]
+* Outline of the constructions and statements
 
-    * [[(1,1)-dimensional Euclidean field theories and K-theory]]
+  * [[Axiomatic field theories and their motivation from topology]]
 
-    * [[(2,1)-dimensional Euclidean field theories and tmf]]
+  * [[(1,1)-dimensional Euclidean field theories and K-theory]]
+
+  * [[(2,1)-dimensional Euclidean field theories and tmf]]
+
+* Definitions
+
+  * [[bordism categories following Stolz-Teichner]]
 
 
 1. [Contents](#contents)
