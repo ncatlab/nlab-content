@@ -18,3 +18,4 @@ There\'s an adjunction here; I should think about which way it goes and whether 
 
 
 [[!redirects specialisation order]]
+[[!redirects specialization ordering]]
