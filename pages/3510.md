@@ -125,14 +125,26 @@ $$
   [\Delta^{op}, Set]
 $$
 
-where $t_!$ assigns the total simplicial set to a bisimplicial set, and where $t^!$ forms in each degree the mapping space
+where 
 
-$$
-  t^! : X_\bullet \mapsto ([m,n] \mapsto 
-    Hom_{sSet}( \Delta[m] \times Ex^{\infty} \Delta[n], X)
-  )
-  \,,
-$$
+* $t_!$ assigns the total simplicial set to a bisimplicial set: it is the left [[Kan extension]] of the functor $t : \Delta \times \Delta \to BiSSet$ given by $([k],[l]) \mapsto \Delta[k]\times Ex^{\infty}(\Delta[l])$ along the [[Yoneda embedding]]
+
+  $$
+    t_!(X_{\bullet,\bullet})
+    =
+    \int^{[k],[l]}
+      X_{k,l} \cdot \Delta[k] \times Ex^\infty(\Delta[l])
+      \,;
+  $$
+
+* and where $t^!$ forms in each degree the mapping space
+
+  $$
+    t^! : X_\bullet \mapsto ([m,n] \mapsto 
+      Hom_{sSet}( \Delta[m] \times Ex^{\infty} \Delta[n], X)
+    )
+    \,,
+  $$
 
 where $Ex^\infty$ is the [[Kan fibrant replacement]] functor.
 
@@ -143,7 +155,7 @@ The composite adjunction
 
 $$
   sSet
-    \stackrel{\overset{i_1^* t^!}{\leftarrow}}{\overset{t_! p1^*}{\to}}
+    \stackrel{\overset{i_1^* t^!}{\leftarrow}}{\overset{t_! p_1^*}{\to}}
   sSet
 $$
 
