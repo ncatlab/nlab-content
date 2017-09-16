@@ -23,9 +23,11 @@ The definition of motivic cohomology on a [[scheme]] $X$ as the [[abelian sheaf 
 
 The analogous definition with the Zariski [[site]] structure of $X$ replaced by the [[etale cohomology|etale site]] $Et(X)$ is in [lecture 10](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf#page=87).
 
-## Properties ##
+## As hom-sets of motives ##
 
-Disucussion of the relation to the theory of [[motive]]s is in [lecture 14](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf#page=121)
+Motivic cohomology computes certain derived hom-sets in the [[motive|category of motives]].
+
+This is discussed in [lecture 14](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf#page=121) of [MaVoWe](http://math.rutgers.edu/~weibel/motiviclectures.html). See [prop 14.16](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf#page=126).
 
 ## References ##
 
