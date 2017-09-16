@@ -4,13 +4,13 @@ A _reflective_ $(\infty,1)$-subcategory is the obvious generalization of a [[ref
 
 #Definition#
 
-A full and faithful $(\infty,1)$-functor
+A [[full and faithful functor|full and faithful]] [[(infinity,1)-functor]]
 
 $$
   i : D \to C
 $$
 
-is a **reflective $(\infty,1)$-subcategory** (of $C$) if it has an $(\infty,1)$-left adjoint.
+is a **reflective $(\infty,1)$-subcategory** (of $C$) if it has an $(\infty,1)$-[[left adjoint]].
 
 ##Remarks##
 
@@ -38,7 +38,7 @@ Let $C$ be a [[presentable (infinity,1)-category]] and $S$ a small collection of
 
 * $C'$ is a [[presentable (infinity,1)-category]]
 
-* $C' \hhokrightarrow C$ is a [[reflective (infinity,1)-subcategory]].
+* $C' \hookrightarrow C$ is a [[reflective (infinity,1)-subcategory]].
 
 * For every morphism $f$ of $C$ the following are equivalent:
 
