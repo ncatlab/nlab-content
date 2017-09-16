@@ -68,6 +68,9 @@ The central theorem is
 
    1. [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves]]
 
+
+   1. [[A Survey of Elliptic Cohomology - towards a proof]]
+
 1. towards geometric models
 
     These links point to pages that have an exposition of the Stolz-Teichner program for constructing [[geometric models for elliptic cohomology]].
