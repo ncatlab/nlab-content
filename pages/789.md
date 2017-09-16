@@ -1,3 +1,6 @@
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
 
 #Contents#
 * automatic table of contents goes here
