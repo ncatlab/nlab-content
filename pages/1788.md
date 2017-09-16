@@ -7,9 +7,9 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 Click on the following links to jump to an anchor point.
 
-* [jump to the first anchor point](http://ncatlab.org/nlab/show/Sandbox#anchor1)
+* [jump to the first anchor point](/nlab/show/Sandbox#anchor1)
 
-* [jump to the second anchor point](http://ncatlab.org/nlab/show/Sandbox#anotheranchor)
+* [jump to the second anchor point](/nlab/show/Sandbox#anotheranchor)
 
 Linking to theorems and so forth is even easier.  Make sure you use the **numbered** versions and give each one a label.  For example:
 
