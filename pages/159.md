@@ -1,15 +1,29 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 In [[higher category theory]] a notion of $\infty$-[[infinity-category|categories]] or $n$-[[n-category|categories]] is said to be **semi-strict**, if these higher categories are, somewhat vaguely, _as strict as possible while still being equivalent to general weak higher categories_.
 
 For $n \leq 2$, even [[strict n-categories]] are semi-strict, but this does not hold for $n \gt 2$.
 
 For $n \leq 3$ two alternative semi-strictifications are known:
 
-1. **Gray-semistrictness**: everything except the [[exchange law]]s hold strictly; see [[Gray-category]].
+1. **Gray-semistrictness**: horizontal composition is strict, but the [[exchange law]]s are nontrivial; see [[Gray-category]].
 
 2. **Simpson-semistrictness**: everything except the [[unit law]]s hold strictly; see [[Simpson's conjecture]].
 
+## Examples for strictification of horizontal composition
 
-#References#
+* Every [[quasi-category]] is equivalently modeled by a [[simplicially enriched category]], which is a model for an [[(∞,1)-category]] in which 
+all horizontal composition is strict. See [[relation between quasi-categories and simplicial categories]].
+
+* A [[dg-category]] is an [[A-infinity-category]] in which horizontal composition is defined strictly. Every $A_\infty$-category is $A_\infty$-equivalent to a [[dg-category]]. This is at least rouhgly the [[stable (∞,1)-category]] analog of the above statement.
+
+
+## References
 
 A review, some references and further discussion is at
 
@@ -29,6 +43,7 @@ A review, some references and further discussion is at
 [[!redirects semistrict omega-categories]]
 [[!redirects semi-strict omega-categories]]
 [[!redirects semistrict ∞-categories]]
+[[!redirects semi-strict ∞-category]]
 [[!redirects semi-strict ∞-categories]]
 [[!redirects semistrict infinity-categories]]
 [[!redirects semi-strict infinity-categories]]
