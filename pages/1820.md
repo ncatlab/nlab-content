@@ -8,7 +8,7 @@ A [[model category]] $C$ is **combinatorial** if
 
 # Remarks #
 
-Of interest are the combinatorial model categories that are at the same time [[simplicial model category|simplicial model categories]]. These are precisely those that present [[presentable (infinity,1)-category|presentable (infinity,1)-categories]].
+Of interest are the combinatorial model categories that are at the same time [[simplicial model categories]]. These are precisely those that present [[presentable (∞,1)-categories]].
 
 See [[combinatorial simplicial model category]].
 
