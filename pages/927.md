@@ -1,3 +1,3 @@
 See [[Postnikov system]].
 
-category: redirect
+category: delete
