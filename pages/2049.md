@@ -30,7 +30,7 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         2.  [[filter]], [[prime ideal]], [[prime filter]]
         3.  \* [[maximal ideal theorem]]
         4.  [[maximal ideal]], maximal ideals in distributive lattices
-        5.  \* [[discrete Stone representation theorem]]
+        5.  \* discrete Stone representation theorem
         6.  prime ideals in Boolean algebras
     3.  Some categorical concepts
         1.  [[object]], [[morphism]], [[category]], [[functor]], [[natural transformation]]
@@ -54,11 +54,55 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         9.   [[free Boolean algebra]]
         10.  [[free complete Boolean algebra]]
         11.  [[free Heyting algebra]]
+
 2.  Introduction to locales
+
     1.  Frames and locales
+        1.   [[infinitely distributive lattice]], [[frame]], [[locale]]
+        2.   $Frm$ is algebraic
+        3.   [[point of a locale]], [[completely prime filter]]
+        4.   adjunction between $Loc$ and $Top$
+        5.   [[spatial locale]]
+        6.   [[irreducible closed subset]], [[sober space]]
+        7.   [[soberification]]
+        8.   [[specialization order]], [[Alexandrov topology]], [[upper interval topology]]
+        9.   [[Scott topology]]
+        10.  characterisation of Scott-continuity
+        11.  enrichment of $Loc$ over $Pos$
     2.  Sublocales and sites
+        1.   [[sublocale]]
+        2.   [[nucleus]]
+        3.   nuclei classify sublocales
+        4.   [[closed sublocale]], [[open sublocale]], [[dense sublocale]]
+        5.   the locale of sublocales
+        6.   representation of frames in Boolean algebras
+        7.   continuing ...
+        8.   until ...
+        9.   we get ...
+        10.  $Loc$ is not well-powered
+        11.  $0$-[[0-site|site]], $0$-[[0-sheaf|sheaf]]
+        12.  [[product of locales]]
+        13.  product in $Loc$ vs $Top$
+        14.  counterexample
     3.  Coherent locales
+        1.  [[compact element]] of a lattice
+        2.  [[coherent locale]]
+        3.  localic Stone representation theorem for distributive lattices
+        4.  \* [[coherent space]], [[prime spectrum]], Stone representation theorem for distributive lattices
+        5.  \* [[maximal spectrum]]
+        6.  [[normal lattice]]
+        7.  \* results on normal lattices
     4.  Stone spaces
+        1.  [[totally disconnected space]], [[totally separated space]], [[zero-dimensional space]]
+        2.  [[Stone space]]
+        3.  counterexamples
+        4.  \* Stone representation theorem for Boolean algebras
+        5.  \* [[patch topology]]
+        6.  leads to ...
+        7.  [[ordeered Stone space]]
+        8.  \* $Ord Sto \cong Coh Top$
+        9.  characterisation of Boolean algebras
+
 3.  Compact Hausdorff spaces
     1.  Compact regular locales
     2.  Manes\' Theorem
