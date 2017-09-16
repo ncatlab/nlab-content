@@ -300,8 +300,10 @@ Get the plan?  If not, ask questions.  If so, try this:
 **Exercise.**  Look at the page on [[presheaf|presheaves]].  Find a 
 formula expressing every object in $\widehat{A}$ as a colimit of guys in the image of $Y$.  Copy that formula here.
 
+[[Mike Stay]]: an object $f:A^{op} \to Set$ in $\widehat{A}$ can be written
+
 $$
-  F(-) = \int^{c \in C} F(c) \times hom_C(-,c)
+  f(-) = \int^{a \in A} f(a) \times hom_A(-,a).
 $$
 
 This reference might also give helpful clues:
