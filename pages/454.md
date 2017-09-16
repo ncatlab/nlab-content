@@ -1,20 +1,28 @@
-# Definition
+## Definition
 
 A **lattice** is a [[partial order|poset]] which admits all finite [[meet]]s and finite [[join]]s (or all finite products and finite coproducts, regarding a poset as a category).
 
-A **lattice** can also be defined as an algebraic structure, with the binary operations $\wedge$ and $\vee$ and the consants $\top$ and $\bot$. (These correspond, respectively, to binary and nullary meets and joins in the poset-theoretic definition; accordingly, they are read 'meet', 'join', 'top', and 'bottom'.) Here are the axioms for these operations:
-* $\wedge$ and $\vee$ are each idempotent, commutative, and associative, with respective identities $\top$ and $\bot$;
+A **lattice** can also be defined as an algebraic structure, with the binary operations $\wedge$ and $\vee$ and the consants $\top$ and $\bot$. (These correspond, respectively, to binary and nullary meets and joins in the poset-theoretic definition; accordingly, they are read 'meet', 'join', '[[top]]', and '[[bottom]]'.) Here are the axioms for these operations:
+* $\wedge$ and $\vee$ are each idempotent, commutative, and associative, with respective [[identity element|identities]] $\top$ and $\bot$;
 * the _absorption laws_: $a \vee (a \wedge b) = a$, and $a \wedge (a \vee b) = a$.
 
-You can recover the original poset from either the meet or the join; $a \leq b$ iff $a \wedge b = a$, and $a \geq b$ iff $a \vee b = a$. The absorption laws guarantee that these agree.
+You can recover the original poset from either the meet or the join; $a \leq b$ iff $a \wedge b = a$, and $a \geq b$ iff $a \vee b = a$. The absorption laws guarantee that these agree.  Indeed, we may say that a lattice is a _bisemilattice_ in that it has two semilattice structures that are compatible in that they define (but in dual ways) the same partial order.
 
-# Variations
+Note that a poset with only finite meets _or_ finite joins is a (meet- or join-) [[semilattice]], while a lattice which has *all* joins and meets (not just finitary ones) is a [[complete lattice]].
 
-Sometimes the requirement that a lattice have top and bottom (nullary meets and joins) is removed; then a lattice with these is called a **bounded lattice**.
 
-A poset with only finite meets _or_ finite joins is a (meet- or join-) [[semilattice]].
+## Bounded lattices and pseudolattices
 
-A lattice which has *all* joins and meets (not just finitary ones) is a [[complete lattice]].
+Traditionally, a lattice need have only finite [[inhabited set|inhabited]] meets and joins; that is, it need not have a top or bottom element.  Algebraically, this means $\wedge$ and $\vee$ need not have identities.
+
+Then one may call a lattice that *does* have a top and a bottom a __bounded lattice__; in general, a [[bounded poset]] is a poset that has top and bottom elements.
+
+The other approach is to define a lattice, as above, to require a top and a bottom and then use the term __pseudolattice__ to allow for the possibility that it might not.
+
+From an algebraic point of view, requiring top and bottom is quite natural, a special case of preferring [[monoids]] to more general [[semigroups]].  In any case, one can formally adjoin a top and a bottom if required.  On the other hand, many examples, especially from analysis, do not come with a top or a bottom, and adjoining them would break the other structure.  For example, adjoining top ($\infty$) and bottom ($-\infty$) to the [[real line]] makes it no longer a [[field]] (addition is especially problematic); more generally, a [[Banach lattice]] need not (and, except in one degenerate case, cannot) have a top or a bottom.
 
 
 [[!redirects lattices]]
+[[!redirects bisemilattice]]
+[[!redirects bounded lattice]]
+[[!redirects pseudolattice]]
