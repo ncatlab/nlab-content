@@ -504,7 +504,6 @@ $$
 +-- {: .proof}
 ###### Proof
 
-
 The underlying idea is to use the 
 adjunction of the [[Dold-Kan correspondence]]
 to move the nerve operation $N(A_\bullet)$ 
@@ -562,7 +561,6 @@ $$
     Hom_{SPSh}(C(U), N(A_\bullet))
     &\simeq
     \int_W Hom_{SSet}( C(U)(W) , N(A_\bullet)(W) )
-    & does this work
     \\
     & \simeq
     \int_W Hom_{SSet}( C(U)(W) , N(A(W)_\bullet) )    
@@ -575,35 +573,54 @@ $$
          A(W)_\bullet )    
     \\
     & \simeq
-    \int_W H_0 ( \oplus_{l-k = \bullet} 
-       Hom_{Ab}( N_k(F(C(U)(W)), A(W)_l )  )
+    \int_W \int_{n}  
+       Hom_{Ab}( N_n(F(C(U)(W)), A(W)_n ) 
     \\
     & \simeq
-    H_0 (
-       \int_W  \oplus_{l-k = \bullet} 
-       Hom_{Ab}( N_k(F(C(U)(W)), A(W)_l )  )
+       \int_{n}
+       \int_W   
+       Hom_{Ab}( N_n(F(C(U)(W)), A(W)_n )  
     \\
     & \simeq
-    H_0 (
-       \int_W  \oplus_{l-k = \bullet} 
+       \int_{n}
+       \int_W  
        Hom_{Set}( \coprod_{i_0, i_1, \cdots, i_k} 
-       U_{i_1, \dots, i_k} , A(W)_l )  )
+       U_{i_0,i_1, \dots, i_n}(W) , A(W)_n )  )
     \\
     & \simeq
-    H_0 (
-       \oplus_{l-k = \bullet} 
-       \prod_{i_0, i_1, \cdots, i_k} 
-       A(U_{i_1, \dots, i_k})_l  
+    \int_{n}
+       \prod_{i_0, i_1, \cdots, i_n} 
+       A(U_{i_0,i_1, \dots, i_n})_l  
      )
+    & =
+    ker d_{C(U, A_\bullet)} \subset C(U,A_\bullet)_0
   \end{aligned}
   \,.
 $$
 
 Here
 
-* ...
+* The first step is the definition of morphism of [[presheaf|presheaves]] using the [[end]] notation;
 
-* ...
+* the second step is the definition of the [[nerve]] of of [[chain complex]]es applied to chain complex valued sheaves;
+
+* the third step uses that the free simplicial abelian group functor is [[left adjoint]] to the forgetful one that remembers the underlying simplicial set;
+
+* the fourth step then uses the [[Dold-Kan correspondence]], or actually just that the normalized [[Moore complex]] functor is [[left adjoint]] to the [[nerve]] of [[chain complex]]es;
+
+* the fifth step expresses the set of morphisms of [[chain complex]]es as an [[end]] (being itself a [[natural transformation]]);
+
+* the sixth step uses the [[Fubini theorem]] of [[enriched category theory]] to commute the two [[end]]s
+
+* the seventh step uses that the chain complex in the left argument is generated freely on elements of a set to rewrite the hom of abelian groups into one of sets;
+
+* this finally allows to apply the [[Yoneda lemma]] in step eight
+
+* and in step nine one notices that the result thus obtained is the set of 0-cycles in the Cech complex $C(U,A_\bullet)$.
+
+An entirely analogous argument shows that dividing out homotopies is respected. To see that one just needs to observe that the normalized [[Moore complex]] of the 1-[[simplex]] serves as an [[interval object]] in chain complexes.
+
+...
 
 =--
 
