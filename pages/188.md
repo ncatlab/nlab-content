@@ -10,7 +10,10 @@ $$ 1 \cdot x = x = x \cdot 1 .$$
 
 Equivalently, and more efficiently, we may say that a monoid is the [[hom-set]] of a [[category]] with a single [[object]], equipped with the structure of its unit element and composition. 
 
-More tersely, one may say that a monoid *is* a category with a single object, but taking this too literally may create conflicts in notation.  To avoid this, for a given monoid $M$, we write $\mathbf{B}M$ for the corresponding category with single object $\bullet$ and with $M$ as its [[hom-set]], so that $M = Hom_{\mathbf{B}M}(\bullet, \bullet)$. This realizes every monoid as a monoid of [[endomorphism|endomorphisms]].
+More tersely, one may say that a monoid *is* a category with a single object. Or more precisely: *is* a [[pointed cobject|pointed]] category with a single object. 
+But taking this too literally may create conflicts in notation.  To avoid this, for a given monoid $M$, we write $\mathbf{B}M$ for the corresponding category with single object $\bullet$ and with $M$ as its [[hom-set]]: the [[delooping]] of $M$, so that $M = Hom_{\mathbf{B}M}(\bullet, \bullet)$. This realizes every monoid as a monoid of [[endomorphism|endomorphisms]].
+
+For more on this see also [[group]].
 
 
 #Examples#
