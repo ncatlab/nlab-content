@@ -44,7 +44,7 @@ This is true for instance for
 
 * the category [[Grp]] of groups;
 
-* the category $k-Alg$ of $k$-algebras;
+* the category $k Alg$ of $k$-algebras;
 
 * the category $Mod(R)$ of [[module]]s,
 
@@ -108,8 +108,8 @@ $$
 
 The description of sheafification in terms of local isomorphisms is in section 16.3 (for [[Set]]-valued presheaves) and section 17.4 (for more general presheaves) of
 
-* Kashiwara-Schapira, [[Categories and Sheaves]]
+* Kashiwara--Schapira, [[Categories and Sheaves]]
 
 The description in terms of [[dense monomorphism]]s using [[Lawvere-Tierney topology]] is in section V.3 of
 
-* MacLane, Moerdijk, [[Sheaves in Geometry and Logic]]
+* Mac Lane, Moerdijk, [[Sheaves in Geometry and Logic]]
