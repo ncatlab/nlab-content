@@ -1,4 +1,9 @@
-#Definition#
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
+
+## Definition
 
 Given a commutative unital ring $k$, and a (strict for simplicity) symmetric monoidal $k$-linear category $(C,\otimes,1)$ with the symmetry $\tau$ a **Lie algebra** in $(C,\otimes,1,\tau)$ is an object $L$ in $C$ together with a morphism $[,]: A\otimes A\to A$ such that the Jacobi identity 
 
