@@ -1,14 +1,12 @@
 #Idea#
 
-A _formal scheme_ is a [[scheme]] that looks like a closed subscheme $Y \hookrightarrow X$ together with the [[infinitesimal space|infinitesimal]] neighbourhood of $Y$ in $X$. This infinitesimal neighbourhood is also called the _formal neighbourhood_ or the $\infty$-jet bundle normal to $Y$ (is that last one correct?).
-
-A formal for which $Y$ is an [[affine scheme]] is a [[formal spectrum]].
+A _formal scheme_ is (typically) not an algebraic [[scheme]]. It is instead an enlarged version of a scheme including an infinitesimal neighborhood, which is expressed in terms of structure sheaves which are closer to sheaves of completions like formal power series rings rather than the polynomial rings.
 
 #Motivation#
 
 Formal [[power series]] [[ring]]s $k[\![x_1,\ldots,x_n]\!]$ are limits of their truncations (e.g. in one variable $k[\![x]\!]/(x^n)$); they can be viewed as completions and they get equipped with a natural filtration and [[adic topology]].
 
-They do not converge as a series (and make sense) in an open set or in any of the standard topologies (e.g. Zariski and complex topology over $\mathbb{Z}$), but they are rather "localized" in an *[[infinitesimal neighborhood|infinitesimal neighborhood]]* of the origin. One would like to be able to talk about functions supported only infinitesimally (in the transverse direction) to a [[closed subscheme]]. The formal schemes of [[Grothendieck]] give a geometric locus a [[ringed space]] corresponding to the information on all infinitesimal neighborhoods. Zariski's theorem on formal functions and establishing the theory of [[formal group]]s were some of the concrete motivations.
+They do not converge as a series (and make sense) in an open set or in any of the standard topologies (e.g. Zariski and complex topology over $\mathbb{Z}$), but they are rather "localized" in an *[[infinitesimal neighborhood|infinitesimal neighborhood]]* of the origin. One would like to be able to talk about functions supported only infinitesimally (in the transverse direction) to a [[closed subscheme]]. The formal schemes of [[Grothendieck]] are [[ringed spaces]] containing the information on all infinitesimal neighborhoods. Zariski's theorem on formal functions and establishing the theory of [[formal group]]s were some of the concrete motivations.
 
 
 #Noetherian formal schemes#
