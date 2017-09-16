@@ -98,3 +98,5 @@ For instance the simple example of 1-dimensional Dijkgraaf-Witten theory appeari
 Blog discussion on Johan Alm's work is here:
 
 * [Alm on quantization as a Kan extension](http://golem.ph.utexas.edu/category/2009/05/alm_on_quantization_as_a_kan_e.html)
+
+category: reference
