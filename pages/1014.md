@@ -1,15 +1,23 @@
 * toc
 {:toc}
 
+
+# Motivation
+
+In [[material set theory]], there is an intuitive conception of what a [[set]] is, which may be stated informally as follows: a set is a collection of sets.  Actually, it is possible to have [[urelemente]] in a material set theory, although the most common axiom systems do not allow this; in any case we can say that a *pure* set is a collection of pure sets.
+
+The primary motivation for [[structural set theory]] is that this conception of a set is not needed in ordinary [[mathematics]]; it is sufficient to characterise the [[category of sets]] (although a structural set theory can also be described in ways other than category-theoretic).  However, material set theory is itself part of mathematics, and we may want to describe the material notion of a pure set in structural terms.
+
+There is also a very practical point to this exercise: the translation between material and structural set theories.  Any model of a material set theory is already a model of a corresponding structural set theory, but we go through the yoga below to construct a model of a material set theory out a model of a structural set theory.  In particular, we must do this to prove that two set theories (one material and one structural) are equiconsistent.
+
+
 # Idea
 
-Informally, a **pure set** is a [[set]] of pure sets.
-
-On the face of it, this is a circular definition, but like many such definitions, it can be made precise in at least two ways: [[recursion|recursively]] and [[corecursion|corecursively]].
+Taking a structural notion of [[set]] as granted, we wish to define a __pure set__ to be a set of pure sets.  On the face of it, this is a circular definition, but like many such definitions, it can be made precise in (at least) two ways: [[recursion|recursively]] and [[corecursion|corecursively]].
 
 * The 'recursive' meaning is that all pure sets must be *constructed*, starting from nothing, as sets of other previously constructed pure sets.  This results in the **[[well-founded relation|well-founded]] pure sets**.  Thus, at first, the only well-founded set possible is the [[empty set]] $\empty = \{ \}$, the set of no pure sets.  Once you have that, you can form $\star = \{\empty\}$, then $\{\star\}$ and $\{\empty,\star\}$, and so on.  In this way we can obtain at least all [[hereditarily finite sets]]; if we use an axiom of infinity as well, we can jump to the [[countably infinite set]] of all hereditarily finite sets and continue from there.
 
-* The 'corecursive' meaning is that any pure set can be *deconstructed* into a set of other pure sets, and every possible such deconstruction defines a unique pure set.  In this way we obtain not just well-founded pure sets but also **ill-founded pure sets**.  (The inclusion of well-founded sets here is an example of the [[red herring principle]].)  Possible examples of non-well-founded sets include a set $\bullet$ such that $\bullet = \{\bullet\}$ (a suggestive model for the [[point]]), or sets $A$ and $B$ such that $A = \{B\}$ and $B = \{\empty, A\}$.
+* The 'corecursive' meaning is that any pure set can be *deconstructed* into a set of other pure sets, and every possible such deconstruction defines a unique pure set.  In this way we obtain not just well-founded pure sets but also **ill-founded pure sets**.  (The inclusion of well-founded sets among the ill-founded sets is an example of the [[red herring principle]].)  Possible examples of non-well-founded sets include a set $\bullet$ such that $\bullet = \{\bullet\}$ (a suggestive model for the [[point]]), or sets $A$ and $B$ such that $A = \{B\}$ and $B = \{\empty, A\}$.
 
 In addition, the meaning of this definition changes according to whether our [[set theory|set-theoretic]] [[foundations|foundation]] is [[material set theory|material]] or [[structural set theory|structural]].
 
