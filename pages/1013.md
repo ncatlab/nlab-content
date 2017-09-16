@@ -145,7 +145,7 @@ In [[logic]] a property $P$ is given by a [[predicate]], which we may think of a
 
 Now, if a non-[[evil]] property of objects of a category $C$ holds for some object $x$, then it must hold for any object [[isomorphism|isomorphic]] to $x$.  That is, the predicate defining that property is actually a [[functor]] from the [[core]] $C_iso$ of $C$ to the groupoid $TV_iso$ of truth values.  Given such a predicate functor $P$, it\'s immediate how to define a [[full subcategory]] $C_P$ of $C$ consisting of those objects with the property; the [[inclusion functor]] $C_P \hookrightarrow C$ is fully faithful, as it should be for extra property.  Conversely, given a fully faithful functor $F: D \to C$, define a non-evil property of objects of $C$ as follows: an object $x$ of $C$ has the property if there is some object $a$ of $D$ such that $x \cong F(a)$.  If you apply this to $C_P \hookrightarrow C$, then you get the predicate $P$ back; if you start with an arbitrary fully faithful $F: D \to C$, define a predicate $P$, and then form $C_F$, you\'ll find that $C_F$ and $D$ are [[equivalence of categories|equivalent]], even as [[bundle]]s over $C$.
 
-Diagrammatically this may be phrased as saying that every fully faithful functor $D \to C$ arises as a [[2-limit|weak pullback]] of the 0-subobject classifier
+Diagrammatically this may be phrased as saying that every fully faithful functor $D \to C$ arises as a [[2-limit|weak pullback]] of the $1$-[[subobject classifier]]
 
 $$
   \array{
@@ -160,7 +160,7 @@ $$
 
 Similarly, any non-evil structure on objects of $C$ is given by a functor from $C_iso$ to the groupoid $Set_iso$ of sets.  Given such a functor $P$, let $C_P$ be the [[category of elements]] of $P$, which comes with a faithful functor from $C_P$ to $C$.  Conversely, given any faithful functor $F: D \to C$ and an object $x$ of $C$, let $P(x)$ be the [[essential fiber]] of $F$ over $x$, which (because $F$ is faithful) is a [[discrete category]] and hence (equivalent to) a set.  These operations are also invertible, up to equivalence.
 
-Diagrammatically this may be phrased as saying that every faithful functor $D \to C$ arises as a [[2-limit|weak pullback]] of the 1-subobject classifier (as described at [[generalized universal bundle]] and at [[category of elements]])
+Diagrammatically this may be phrased as saying that every faithful functor $D \to C$ arises as a [[2-limit|weak pullback]] of the $2$-subobject classifier (as described at [[generalized universal bundle]] and at [[category of elements]])
 
 $$
   \array{
@@ -176,7 +176,7 @@ $$
 
 Next, any non-evil stuff on objects of $C$ is given by a functor from $C_iso$ to $Grpd_iso$.  Here $Grpd_iso$ should be taken to be the $2$-[[2-groupoid|groupoid]] whose objects are groupoids, whose morphisms are equivalences, and whose $2$-morphisms are [[natural isomorphism]]s; similarly, the functor $P: C_iso \to Grpd_iso$ should be taken in the weakest sense (often called a [[pseudofunctor]]).  Then the [[Grothendieck construction]] turns $P$ into a category $C_P$ equipped with a functor to $C$; again, the essential fiber converts any functor $F: D \to C$ into such a $P$ (although really you must take the core of the essential fiber to get a groupoid).
 
-Diagrammatically this may be phrased as saying that every functor $D \to C$ arises as a [[2-limit|weak pullback]] of the 2-subobject classifier (as described at [[generalized universal bundle]] )
+Diagrammatically this may be phrased as saying that every functor $D \to C$ arises as a [[2-limit|weak pullback]] of the $3$-subobject classifier (as described at [[generalized universal bundle]] )
 
 $$
   \array{
@@ -198,12 +198,6 @@ Lest we forget, to be even more simple than an extra property, the groupoid of $
 +-- {: .query}
 
 [[Urs Schreiber|Urs]]: after reading [[Toby Bartels|Toby]]'s above account on "logical interpretation" it seemed to me that this is about higher subobject classifiers the way it is discussed towards the end of [[generalized universal bundle]]. So I added the diagrammatic interpretation to the above. But take with a grain of salt at the moment, I haven't thought about this in much detail yet.
-
-_Toby_:  Urs, are we stuck with this numbering system yet?  Because I would very much like it if a $1$-subobject could be the same thing as a subobject, just as $1$-stuff is the same thing as stuff, a $1$-group is the same thing as a group, etc.
-
-[[Mike Shulman|Mike]]: I agree with Toby; that's the numbering system  we settled on at [[subcategory]] as well.
-
-Urs: sure.
 =--
 
 
