@@ -18,7 +18,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-07
 
-*  [[Toby Bartels]]:  I was pretty sure, Zoran, but since it wasn\'t my field, I wanted to warn you.  Also, I\'ve edited [[simple object]] and [[semisimple object]] to clarify that the zero object is semisimple but not simple.
+*  [[Toby Bartels]]:
+   *  Wrote [[Stone Spaces]] (about Johnstone\'s book); contents to come.
+   *  Edited [[simple object]] and [[semisimple object]] to clarify that the zero object is semisimple but not simple.
+   *  I was pretty sure, Zoran, but since it wasn\'t my field, I wanted to warn you.
 
 * [[Zoran Škoda]] surely Toby, this is true for any fixed object $M$ (I wrote subobject?? hmm last night I entered a wrong building instead of the one in which my flat is). Just created [[coherent sheaf]]; because of severe time constraints it is rather short for a significant entry which will be large in future.  
 
