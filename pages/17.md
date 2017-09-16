@@ -95,6 +95,24 @@ The first one searches the nLab (like the search box at the top of every page), 
 
 To use one or both, drop it in the 'searchplugins' directory of your firefox profile.
 
+# How to edit nLab pages in your favorite text editor #
+
+One way to do this is to install [this firefox extension](https://addons.mozilla.org/en-US/firefox/addon/4125) or another one like it.
+
+If your favorite editor is [Emacs](http://www.gnu.org/software/emacs/) with [AucTeX](http://www.gnu.org/software/auctex/), you may find the following snippet useful to put in your `.emacs` file:
+
+    (add-to-list 'auto-mode-alist '("/\\(www.\\)?ncatlab.org" . latex-mode))
+    (add-to-list 'auto-mode-alist '("/golem.ph.utexas.edu" . latex-mode))
+    (defun nlab-latex-fixes ()
+      (when (or (string-match "/\\(www.\\)?ncatlab.org" buffer-file-name)
+                (string-match "/golem.ph.utexas.edu" buffer-file-name))
+      (longlines-mode t)
+      (set (make-local-variable 'TeX-open-quote) "\"")
+      (set (make-local-variable 'TeX-close-quote) "\"")))
+    (add-hook 'LaTeX-mode-hook 'nlab-latex-fixes)
+
+This will tell Emacs to automatically edit nLab pages (and nCafe comments as well, for good measure) in LaTeX mode, with long lines wrapped using soft returns, and ordinary double-quotes rather than LaTeX ones.
+
 # How to include one page within another #
 
 If you have some material at a page called `foo` that you want to include directly in pages called `bar` and `baz`, then type <nowiki><code>[[!include foo]]</code></nowiki> in `bar` and `baz`.  For an example, see how [[contents]] is included at the tope of this page.  Also see how [[contents]] itself has been formatted so that it will appear as a sidebar when included.
