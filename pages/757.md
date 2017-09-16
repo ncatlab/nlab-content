@@ -93,8 +93,6 @@ Moreover, it satisfies the following conditions:
 
 * it is a [[combinatorial model category]]
 
-* the fibrant objectss are the fibrant $S$-[[local object]]s of $C$.
-
 =--
 
 +-- {: .proof}
@@ -202,19 +200,23 @@ This is prop 3.3.3 in _ModLoc_ .
 =--
 
 
-At leat when the [[model category]] $C$ is sufficiently nice, Bousfield localization at $S$ indeed produces a model for the subcategory of $S$-[[local object]]s:
+When $C$ is a left [[proper model category]] then Bousfield localization at $S$ indeed produces a model for the subcategory of $S$-[[local object]]s in $C$:
 
 +-- {: .un_prop }
 ###### Proposition
 **(Bousfield localization as model for $S$-local obects)**
 
-Let $C$ be a left [[proper model category|proper]] [[combinatorial simplicial model category]] and $S$ a set of morphisms. Then the Bousfield localization $L_S C$, which exists by the above theorem, has the following properties:
-
-* it inherits the structure of a [[combinatorial simplicial model category]];
-
-* it is left [[proper model category|proper]];
+Let $C$ be a left [[proper model category]] and $S$ a set of morphisms. Then the Bousfield localization $L_S C$, which exists by the above theorem, then
 
 * the fibrant objects in $L_S C$ are precisely the fibrant $S$-[[local object]]s in $C$.
+
+* $L_S C$ is left [[proper model category|proper]] itself;
+
+If moreover $C$ is a [[combinatorial simplicial model category]], then $L_S C$
+
+* inherits the structure of a [[combinatorial simplicial model category]].
+
+
 
 =--
 
@@ -222,15 +224,39 @@ Let $C$ be a left [[proper model category|proper]] [[combinatorial simplicial mo
 +-- {: .proof}
 ###### Proof
 
-This is prop. A.3.7.3 in [[Higher Topos Theory|HTT]].
+The first part is prop 3.4.1 and prop 3.4.4 in _ModLoc_ . The second part is item (4) of theorem 4.1.1 there.
+Also prop. A.3.7.3 in [[Higher Topos Theory|HTT]].
 
 =--
 
 
 
-## Applications ##
+## Examples and Applications ##
 
-* Left Bousfield localization produces the _local_ [[model structure on homotopical presheaves]]. For instance the [[local model structure on simplicial presheaves]].
+### Categories to which the general existence theorem applies ###
+
+The following [[model category|model categories]] $C$ are left [[proper model category|proper]] [[cellular model category|cellular]]/[[combinatorial model category|combinatorial]], so that the aobe theorem applies and for every [[set]] $S \subset Mor(C)$ the Bousfield localizaton $L_S C$ does exist.
+
+* [[Top]] with its standard [[model structure on topological spaces]];
+
+* [[SSet]] with its standard [[model structure on simplicial sets]];
+
+* the category of [[symmetric monoidal smash product of spectra|symmetric spectra]] in a pointed left-proper cellular model category
+
+* and so on...
+
+If $C$ is a left [[proper model category|proper]] ([[simplicial model category|simplicial]]) [[cellular model category]], then so is
+
+* the [[functor category]] $[D,C]$ for any ([[simplicially enriched category|simplicial]]) [[small category]]  $D$ (using the [[global model structure on functors]]);
+
+* the [[over category]] $C/s$ for any object $x \in C$ . 
+
+ 
+
+
+### Local model structure on presheaves ###
+
+Left Bousfield localization produces the _local_ [[model structure on homotopical presheaves]]. For instance the [[local model structure on simplicial presheaves]].
 
 
 ## Bousfield localization in triangulated categories ##
