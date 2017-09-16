@@ -11,7 +11,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Geoff Cruttwell]]
 * [[Jacques Distler]]
 * [[Jamie Vicary]]
-* [[Jim Stasheff|jim stasheff]]
+* [[Jim Stasheff]]
 * [[Jocelyn Paine]]
 * [[John Baez]]
 * [[Josep Elgueta]]
@@ -30,7 +30,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Tom Leinster]]
 * [[Urs Schreiber]]
 * [[Vishal Lama]]
-* [[Zoran Skoda|Zoran Škoda]]
+* [[Zoran Škoda]]
 
 See also [category: people](http://ncatlab.org/nlab/list/people) and [Authors](http://ncatlab.org/nlab/authors). The latter also displays a list of all pages each author has contributed to.
 
