@@ -1,0 +1,3 @@
+A __semigroup__ is like a [[monoid]] where there might not be an [[identity element]].  In other words, a semigroup is an associative [[magma]].
+
+Some semigroups happen to be monoids; even then, a semigroup homomorphism might not be a monoid homomorphism (because it might not preserve the identity element).  Nevertheless, semigroup [[isomorphism]]s must be monoid isomorphisms.  Thus, the identity element of a monoid forms a [[property-like structure]] on the underlying semigroup.
