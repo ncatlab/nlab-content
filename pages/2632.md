@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -6,6 +5,10 @@
 #Point particle quantum mechanics#
 
  _Quantum mechanics_ is usually understood to be the part of [[quantum field theory]] that studies the quantum analog of the [[classical mechanics]] of point particles. 
+
++--{.query}
+Zoran: While this has some merit for this particular direction/subfield, it is other way around: quantum field theory is a special kind of a quantum mechanical system (with infinitely many degrees of freedom). You are here taking very special point of view and identifying quantum mechanics with quantum mechanics of a system with finitely many degrees of freedom. One teaches thus other way around: there are quantum mechanical systems, then there are some special kinds including QFTs. Quantum mechanics of the point particles on the other hand is not subsumed by the formalism below either. For example, the time-dependent Hamiltonians and quantum mechanics for finite state systems do not seem to be included. I personally do not understand how do you put a concrete potential in the game below either but I suppose it is a way. I mean which space-dependent and other parameters are allowed for $H$ and how it works (note that while the usual forces are related to the curvature, I do not see there is a mechanism for all kind of potentials and more general hamiltonians to be just derived from general rule and be invariant under isomorphism in Riemanian category) ?
+=--
 
 One may usefully think of the quantum mechanics of a point particle propagating on a [[manifold]] $X$ as being $(0+1)$-dimensional [[quantum field theory]]:
 
@@ -36,4 +39,7 @@ Such a setup describes the quantum mechanics of a particle that feels forces of 
 #Quantum mechanics in general #
 
 More generally, _quantum mechanics_ may be used as a term that subsumes [[quantum field theory]] and all of physics that is not [[classical mechanics]]. 
+
+Zoran: I slightly disagree with that opposite extremity either. The sentence is better suited to define quantum physics (though complement to [[classical physics]] includes relativity, while opposite to classical mechanics includes thermodynamics). Quantum physics is not the same as quantum mechanics. There are quantum phenomena which are not treated by quantum mechanics only. I mean it would be very unusual calling quantum statistical 
+physics, part of quantum mechanics; it requires special limiting assumptions (thermodynamic limit, quantum ergodicity and so on lie outside) outside of scope of the things derivable from quantum mechanics.    
 
