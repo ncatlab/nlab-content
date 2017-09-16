@@ -52,7 +52,7 @@ A subfunctor is a [[subobject]] in a [[functor category]]. Here, specifically, o
 
 Given a sieve $S$ on $c$, the **subfunctor** $F_S \hookrightarrow Y(c)$ **defined by the sieve**  is the [[presheaf]] 
 
-* that assigs to each object $d \in C$ the set $F_S(d) = \{(d \to c) \in S\}$;
+* that assigns to each object $d \in C$ the set $F_S(d) = \{(d \to c) \in S\}$;
 
 * that assigns to each morphism $(d \to d') \in C$ the function $F_S(d') \to F_S(d)$ induced on elements by precomposition with $d \to d'$.
 =--
