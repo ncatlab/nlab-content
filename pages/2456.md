@@ -51,6 +51,8 @@ _Toby_:  Yeah, I really did mean to say 'excluded middle'; remembering that comm
 _Toby_:  I\'m not sure, it\'s part of my folk knowledge now.  Probably Michael J. Beeson\'s _Foundations of Constructive Mathematics_ is the best bet.  I\'ll try to get a look in there myself next week; I can see that it\'s not exactly obvious, and perhaps my memory is wrong now that I think about it.
 
 [[Mike Shulman]]: I'm trying to prove the sort of statement I want over at [[SEAR+ε]].
+
+_Toby_:  No, I can\'t get anything at all out of Beeson (or other references) about full AC (for types equipped with equivalence relations) in $\mathbf{ITT}$.
 =--
 
 Like the [[axiom of choice]], the existence of a global choice operator is consistent with the other axioms of most foundations.  For example, in ZF, the [[constructible universe]] (which models $ZF + (V=L)$, the [[axiom of constructibility]]) admits a natural classical [[well-ordering]] of the entire universe, giving rise to a naturally defined global choice operator (namely, $\varepsilon x.P$ = the smallest $x$ such that $P$ in the global well-ordering).
