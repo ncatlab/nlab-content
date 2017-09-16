@@ -14,12 +14,14 @@ This is the degree-1 example of a tower of related concepts, described at [[n-sy
 
 Let $\pi \in \Gamma(T X) \wedge \Gamma(T X)$ be a Poisson structure on $X$, regarded as a bivector. 
 
-This is an elemeent of degree 2 in the [[exterior algebra]] 
+This is an element of degree 2 in the [[exterior algebra]] 
 $$
   CE(X,\pi) := \wedge^\bullet \Gamma(T X)
 $$ 
-
-of multivector fields on $X$. The Lie bracket on [[tangent bundle|tangent vector]]s in $\Gamma(T X)$ extends to a bracket $[-,-]_{Sch$ on multivector field, the **Schouten bracket**. The defining property of the Poissonb strucutre $\pi$ is that
++-- {: .query}
+Why is there a \pi on the LHS? It seems independent of \pi?
+=--
+of multivector fields on $X$. The Lie bracket on [[tangent bundle|tangent vector]]s in $\Gamma(T X)$ extends to a bracket $[-,-]_{Sch$ on multivector field, the **Schouten bracket**. The defining property of the Poisson structure $\pi$ is that
 
 $$
   [\pi,\pi]_{Sch} = 0
