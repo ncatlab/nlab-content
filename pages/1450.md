@@ -59,4 +59,6 @@ Just curious...
 [[Mike Shulman]]: No, I haven't looked into stochastic calculus; that's an interesting idea.  But I don't know what $d\delta$ means.
 
 [[David Roberts]]: the product, presumably. So Eric seems to be proposing a second lot of infinitesimals $D'$ such that the product of two things in $D'$ are in $D$ and (in the first version) the product of something in $D$ and something in $D'$ vanishes, or in the second version that the product $D\times D' \to R$ is antisymmetric.
+
+[[Mike Shulman]]: Sorry, I guess I wasn't quite awake enough to guess that Eric meant "for any $d\in D$."  The usual models of SDG do contain pretty much any sort of infinitesimal you want; you can make that precise by talking about polynomial rings of nilpotents.
 =--
