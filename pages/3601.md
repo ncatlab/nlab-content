@@ -16,7 +16,10 @@ _Categorical quantum information_ refers to a program in which the cogent aspect
 
 ## Quantum information and quantum computation
 
-Hilbert space quantum mechanics, pure states and mixed states.
+In pure state quantum mechanics, physical states are encoded as vectors in a Hilbert space. Often Dirac "bra-ket" notation is used to represent such vectors, where $|\psi\rangle$ represents a state and $\langle \psi |$ represents its linear adjoint. State evolutions are expressed as unitary maps. Self-adjoint operators represent physical quantities such such as position and momentum and are called observables. Measurements are expressed as sets of projectors onto the eigenvectors of an observable.
+
+In mixed state quantum mechanics, physical states are represented as density operators $\rho$, state evolution as maps of the form $\rho \mapsto U^\dagger \rho U$ for unitary maps $U$, and measurements are positive operator-valued measures (POVM's). There is a natural embedding of pure state quantum mechanics into the mixed state picture. (TODO: show this)
+
 
 ### Entanglement
 
