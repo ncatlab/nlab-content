@@ -8,21 +8,9 @@ Some examples of semicartesian monoidal categories that are not cartesian includ
 
 * The category of [[strict 2-categories]] with the [[Gray tensor product]], and the category of [[strict omega-categories]] with the [[Crans-Gray tensor product]].
 
-* The category of [[affine space]]s made into a [[closed monoidal category]] where the [[internal hom]] has $hom(x,y)$ being the set of affine linear maps from $x$ to $y$, made into an affine space via pointwise operations.
+* The category of [[affine space|affine spaces]] made into a [[closed monoidal category]] where the [[internal hom]] has $hom(x,y)$ being the set of affine linear maps from $x$ to $y$, made into an affine space via pointwise operations.
 
-* The category of [[barycentric algebra]]s, made into a closed monoidal category where the internal hom has $hom(x,y)$ being the set of convex linear maps from $x$ to $y$, made into an barycentric algebra via pointwise operations.
-
-+-- {: .query}
-Which meaning of 'convex set' are you using here?
-
-[[John Baez]]: roughly speaking: a set equipped with $n$-ary 'convex linear combination' operations, one for every $n$-tuple of real numbers in $[0,1]$ that add to 1, obeying some obvious axioms.  There is a Lawvere theory for convex sets and it's a <i>lot</i> like the algebraic theory for real [[affine space|affine spaces]] (described already on the $n$Lab): I think you just throw in one extra condition, namely that we only allow affine linear combinations where the coefficients lie in [0,1].
-
-_Toby_:  Yeah, I like that theory.  But note that some people limit 'convex set' to mean a convex subset of a (real) affine space, and your convex sets are more general.  See Section 12.7 of _[[HAF]]_ or page 1 of [this paper](http://staff.science.uva.nl/~gfontain/tacl09-abstracts/tacl2009_submission_48.pdf), which suggest the term 'barycentric algebra' (which I have used above).
-
-[[Mike Shulman]]: What about "convex space" or "abstract convex space"?
-
-_Toby_:  But &lsaquo;convex subset of an affine space&rsaquo; also has a perfectly good abstract definition, and people do use 'convex set' in this sense.  AFAIK, you\'re free to distinguish this from 'convex space', but that\'s liable to be confusing.  (I will shortly write a bit at [[barycentric algebra]] to explain the facts that I\'m merely alluding to here.)
-=--
+* The category of [[convex space|convex spaces]], also known as 'barycentric algebras', made into a closed monoidal category where the internal hom has $hom(x,y)$ being the set of convex linear maps from $x$ to $y$, made into an barycentric algebra via pointwise operations.
 
 In a semicartesian monoidal category, any tensor product of objects $x \otimes y$ comes equipped with morphisms 
 $$ p_x : x \otimes y  \to x $$
