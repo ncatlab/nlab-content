@@ -2,6 +2,21 @@ The **slice category** or **over category** $\mathbf{C}/c$ of a [[category]] $\m
 * objects that are all arrows $f \in \mathbf{C}$ such that $cod(f) = c$, and
 * morphisms $g: X \to X' \in \mathbf{C}$ from $f:X \to c$ to $f': X' \to c$ such that $f' \circ g = f$.
 
+$$
+  C/c
+  =
+  \left\lbrace
+    \array{
+       X &&\stackrel{g}{\to}&& X'
+       \\
+       & {}_f \searrow && \swarrow_{f'}
+       \\   
+       && c
+    }
+  \right\rbrace
+$$
+
+
 The slice category is a special case of a [[comma category]].
 
 # Examples #
