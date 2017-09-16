@@ -180,7 +180,7 @@ $$
 This is discuseed at [[schreiber:homotopy ∞-groupoid]].
 
 
-#### References
+#### References {#LocalContractionRef}
 
 Essentially the constrution of $\mathbb{L} \Pi$ as above is an old construction in terms of -- somewhat implicitly -- the structure of a [[category of fibrant objects]] on [[simplicial object]]s in a [[topos]]:
 
@@ -241,12 +241,12 @@ $$
   \Pi_0((Q X)_\bullet)
   =
   \int^{[n] \in \Delta}
-  \Delta[n] \Pi_0\left(
+  \Delta[n] \cdot \Pi_0\left(
     \coprod_{i_n} U_{i_n}
   \right)
   =
   \int^{[n] \in \Delta}
-  \Delta[n] \Pi_0\left(
+  \Delta[n] \cdot \Pi_0\left(
     \coprod_{i_n} *
   \right)  
   \,.
@@ -254,11 +254,17 @@ $$
 
 This is indeed the action of the left Quillen functor from above.
 
-Finally: for the case $\mathbf{H} = Sh_{(\infty,1)}(Diff)$ this construction of $\mathbb{L}\Pi$ is described explicitly also on p. 25 of
+A closely related, implicitly slightly more general statement is in on p. 25 of
 
 * [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_  
 
+which describes this construction for the case $\mathbf{H} = Sh_{(\infty,1)}(Diff)$ (the [[gros topos]] of $\infty$-stacks on [[Diff]]). 
 
+With even more general sites allowed, but working only at the level of [[homotopy category|homotopy categories]] the left adjoint $\Pi$ and its construction is described in [Proposition 2.18](http://math.berkeley.edu/~teleman/math/simpson.pdf#page=5) of
+
+  * [[Carlos Simpson]], [[Constantin Teleman]], _de Rham's theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
+
+See also the discussion at [[locally contractible (∞,1)-topos]].
 
 
 
