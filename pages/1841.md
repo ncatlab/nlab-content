@@ -322,6 +322,15 @@ Dirac's quantization argument appeared in
 
 =--
 
+(From [[latest changes]])
+
+[[Urs]]: Eric, why don't you make the material on electromagnetism in media that you added into a proper section at [[electromagnetic field]]? Then we could move what is proper discussion between us into a query box, after all, while having the genuine material visible in the netry and not hidden in the section Discussion.
+
+[[Eric]]: I've thought about this some more and something still bothers me about the idea. If electromagnetic properties, i.e. $\mu$, $\epsilon$, $\sigma$ can be geometrically incorporated into the Hodge star via the metric, this implies: 1.) Maxwell's equations in inhomogeneous media are _wrong_ (although in vacuum they reduce to the familiar form) and 2.) that the Hodge star should involve _convolution_, i.e. the metric should have a _memory_. Has anyone put forward any serious theories of a "metric with memory"? Asking that questions give me a sense of deja vu (getting old sucks).
+
+
+***
+
 [[Eric]]: I remember the first time I saw you discuss EM theory in this context. It, at first, seems like a good motivation for more general concepts, but then, as now, a second wave of doubt crossed my mind. Throughout this article, there is no mention of any physical question as to the existence of magnetic charges. Do we just take their existence for granted? If magnetic charges do not exist, is this a good motivating example for more general concepts? If we were paranoid, we could then start asking if we were on a wild goose chase.
 
 > [[Urs Schreiber]]: but so far the article explicitly excludes magnetic charges! It is true that Dirac imagined a magnetic charge to have been where he then removes a point, but that you have to fight out with Dirac, not with me :-)
