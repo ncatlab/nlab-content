@@ -237,12 +237,13 @@ The fibrant objects in $L_S C$ are precisely the fibrant objects in $C$ that are
 
 To see this, we modify, if necessary, the set $S$ in a convenient way without changing the class $W_S$ of $S$-[[local object|local weak equivalence]]s that it defines. 
 
-We may add to $S$ any set of $S$-local cofibrations without changing the collection of $S$-[[local object]]s and hence without changing the collection of $S$-local weak equivalences themselves. In this manner, assume now that $S$ has been enlarged such as to contain the following sets of cofibrations:
 
-* $S$ contains all generating acyclic cofibrations of $C$, i.e. $J \subset S$;
+**Lemma** We may add to $S$ any set of $S$-local cofibrations without changing the collection of $S$-[[local object]]s and hence without changing the collection of $S$-local weak equivalences themselves. In particular, we may add to $S$ without changing $W_S$
+
+* all generating acyclic cofibrations of $C$, i.e. $J \subset S$;
 
 
-* $S$ contains for every original morphism $f : A \to B$ in $S$ and for every $n \in \mathbb{N}$ also the canonical morphism 
+* for every original morphism $f : A \to B$ in $S$ and for every $n \in \mathbb{N}$ also the canonical morphism 
 
   $$
     \tilde f : (Q_f := A \cdot 
@@ -253,6 +254,8 @@ We may add to $S$ any set of $S$-local cofibrations without changing the collect
 
   where $A \cdot \Delta^n$ etc. denotes 
   the [[copower|tensoring]] of $C$ over [[SSet]].
+
+**Proof of the Lemma**
 
 We discuss why these morphisms of the latter type are indeed $S$-local cofibrations with cofibrant domain: 
 
@@ -270,45 +273,47 @@ $$
   }
 $$
 
-we get, as components of the top morphism, two commuting diagrams
+we get as components of the top morphism the left square of
 
 $$
   \array{
-    A  &\to& X^{\Delta^n}
+    \partial \Delta^n &\to& C(B,X) &\to& C(B,Y)
     \\
-    \downarrow^{\mathrlap{\in cof_C}} 
-    && \downarrow^{\in \mathrlap{fib_C \cap W_C}}
+    \downarrow &&
+    \downarrow &&
+    \downarrow
     \\
-    B 
-    &\to&
-    Y^{\Delta^n}
-  }
-  \;\;\;\;
-  \;\;\;\;
-  \;\;\;\;
-  \array{
-    \partial \Delta^n &\to& [B,X]
-    \\
-    \downarrow^{\mathrlap{\in cof_{Sset}}} 
-    && \downarrow^{\in \mathrlap{fib_{SSet} \cap W_{SSet}}}
-    \\
-    \Delta^n
-    &\to&
-    [B,Y]
+    \Delta^n &\to& C(A,X) &\to& C(A,Y)
   }
 $$
 
-where we made use of 
+and similarly the components of the bottom morphism consitute a morphism $\Delta^n \to C(B,X)$ which by the commutativity of the original square is a lift of the outer diagram here. The top left triangle of this lift in turn gives a square
+
+$$
+  \array{
+    \partial \Delta^n &\to& C(B,X)
+    \\
+    \downarrow^{\mathrlap{\in cof_{SSet} \cap W_{SSet}}} 
+    && \downarrow^{\in fib_{SSet}}
+    \\
+    \Delta^n &\to& C(A,X)
+  }
+  \,.
+$$
+
+So this last diagram has a lift $(\Delta^n \to C(B,X))$ and this is adjunct to the lift $B \cdot \Delta^n \to X$ of the original lifting problem that we are looking for.
+
+Therefore $\tilde f : Q_f \to B \cdot \Delta^n $ is indeed a cofibration.
+
+Notice that in these arguments we made use of
 
 * the [[power]]ing and [[copower]]ing of the [[simplicially enriched category]] $C$ over [[SSet]] 
 
-* and of the [[Quillen bifunctor]] property of the [[copower]]ing which ensures that the fibrations and cofibrations are still as indicated. 
+* and of the [[Quillen bifunctor]] property of the [[copower]]ing which ensures that the fibrations and cofibrations are as indicated. 
 
-Therefore we have lifts in both these  diagrams and any pair of them combines as components of a lift of the first diagram. So $\tilde f$ is indeed a cofibration.
+Next, again using the [[Quillen bifunctor]] property of the [[copower|tensoring]] of $C$ over [[SSet]] we find that with $A$ cofibrant in $C$ and $\Delta^n$ being cofibrant in [[SSet]] it follows that $A \cdot \Delta^n$ is cofibrant. Similarly for the other cases. And the coproduct of two cofibrants is cofibrant because cofibrations are preserved under pushout. Therefore $Q_f$ is indeed a cofibrant domain of our cofibration.
 
-Moreover, again using the [[Quillen bifunctor]] property of the [[copower]] we find that with $A$ cofibrant in $C$ and $\Delta^n$ being cofibrant in [[SSet]] it follows that $A \cdot \Delta^n$ is cofibrant. Similarly for the other cases. And the coproduct of two cofibrants is cofibrant because cofibrations are preserved under pushout. Therefore $Q_f$ is indeed a cofibrant domain of our cofibration.
-
-Being a cofibration, we can check $S$-locality by homming into fibrant $S$-local objects and checking if that produces an acyclic Kan fibration.
+With $\tilde f$ being a cofibration, we can check $S$-locality by homming into fibrant $S$-local objects and checking if that produces an acyclic Kan fibration.
 
 So let $X$ be a fibrant and $S$-local object of $C$. Homming the defining [[pushout]] diagram for $Q_f$ into $X$ produces the [[pullback]] diagram
 
@@ -333,9 +338,11 @@ $$
 
 in [[SSet]]. Here the top and the lowest morphisms are weak equivalences by the fact that $[B,X] \to [A,X]$ is an acyclic Kan fibration by the characterization of $S$-[[local object|local cofibrations]] and the fact that [[SSet]] is an [[SSet]]-[[enriched model category]]. Similarly for the fibration on the left, which implies by right [[proper model category|properness]] of [[SSet]] that the bottom horizontal morphism is a weak equivalence, which finally implies by [[category with weak equivalences|2-out-of-3]] that the morphism in question is a weak equivalence.
 
+**end of the proof of the lemma**
+
 This shows that we can assume that $S$ contain the generating acyclic cofibrations and the morphism called $\tilde f$.
 
-We say that given a set of morphisms $S$ and an object $X$ that $X$ has the _extension property_ with respect to $S$ if every diagram
+As usual, we say that given a set of morphisms $S$ and an object $X$ that $X$ has the _extension property_ with respect to $S$ if every diagram
 
 $$
   \array{
@@ -350,9 +357,55 @@ $$
 has a lift.
 
 We claim now that the the objects of $C$ that have the extension property with respect to our set $S$ are precisely the fibrant and $S$-[[local object]]s.
+The argument proceeds along the same lines as the proof of the above lemma.
 
-In one direction, if $X$ that has the extension property with respect to $S$ it has it in particular with respect to $J \subset S$ and hence is fibrant. And it in particular has it with respect to 
-$\tilde f : A \cdot \Delta^n \coprod_{A \cdot \partial \Delta^n} B \cdot \partial \Delta^n \to B \cdot \Delta^n$, which means, using diagram reasonming as above, that $[B,X] \to [A,X]$ is an acyclic [[Kan fibration]]. 
+In one direction, if $X$ that has the extension property with respect to $S$ it has it in particular with respect to the generating acyclic cofibrations $J \subset S$ and hence is fibrant. 
+
+And it in particular has the extension property with respect to  $\tilde f : A \cdot \Delta^n \coprod_{A \cdot \partial \Delta^n} B \cdot \partial \Delta^n \to B \cdot \Delta^n$. Observe that by the pushout definition of $Q_f$ a morphism
+
+$$
+  Q_f \to X
+$$
+
+consists of two component maps $(A \cdot \Delta^n \to X)$ and $(B \cdot \partial \Delta^n \to X)$ such that
+
+$$
+  \array{
+    \partial \Delta^n &\to& C(B,X)
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta^n &\to& C(A,X)
+  }
+  \,.
+$$
+
+And in terms of this a lift 
+
+$$
+  \array{
+     Q_f &\to& X
+     \\
+     \downarrow & \nearrow_{\exists}
+     \\
+     B \cdot \Delta^n
+  }
+$$
+
+consists of a lift
+
+$$
+  \array{
+    \partial \Delta^n &\to& C(B,X)
+    \\
+    \downarrow &\nearrow_\exists & \downarrow
+    \\
+    \Delta^n &\to& C(A,X)
+  }
+  \,.
+$$
+
+Since $\{\partial \Delta^n \to \Delta^n | n \in \mathbb{N}\}$ are the generating acylic fibrations in the standard [[model structure on simplicial sets]], this shows the extension property of $S$ with respect to all $\tilde f$ means that all $C(s,X) : C(B,X) \to C(A,X)$ are acyclic [[Kan fibration]]s. 
 
 Conversely, if $X$ is fibrant and $S$-local, then for all $A \to B$ in $S$ the map $[B,X] \to [A,X]$ in $SSet$ is an acyclic [[Kan fibration]] hence in particular its underlying map of sets $Hom_C(B,X) \to Hom_C(A,X)$ is a surjection, so $X$ has the extension property.
 
