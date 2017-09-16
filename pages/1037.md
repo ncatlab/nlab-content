@@ -161,6 +161,8 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
       * [[homotopy coherent nerve]]
 
+    * [[relation between quasi-categories and simplicial categories]]
+
     * [[complete Segal space]]
 
     * [[Segal category]]
@@ -168,7 +170,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
   * [[(∞,n)-category]]
  
 
-* $(\infty,1)$-categories
+* constructions in quasi-categories
 
   * [[homotopy category of an (∞,1)-category]]
 
@@ -176,9 +178,13 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
     * [[join of simplicial sets]]
 
-    * [[over quasi-category]]
+  * [[over quasi-category]]
 
   * [[terminal object in a quasi-category]]
+
+  * [[limit in quasi-categories]]
+
+  * [[sub-quasi-category]]
 
 * [[(∞,1)-functor]]
 
@@ -190,7 +196,6 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[adjoint functor|adjoint (∞,1)-functor]]
 
-* [[limit in quasi-categories]]
 
 
 
