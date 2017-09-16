@@ -77,4 +77,6 @@ _for they multiply the number of mankind._ <br>
 [[Mike Shulman]]: Yes, I don't see how the meaning of "evil" on this page has anything to do with multiplying entities beyond necessity.
 
 [[Jon Awbrey]]: What was the sense of the phrase, "more generally if it distinguishes between isomorphic objects"?
+
+[[Mike Shulman]]: Not distinguishing between isomorphic objects doesn't make there *be* any fewer objects.  The objects are still all there.  It just means that one isomorphic object is as good as another (or more precisely, that any statement about an object can be transferred along an isomorphism).
 =--
