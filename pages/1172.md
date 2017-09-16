@@ -5,7 +5,7 @@ A Cauchy space is a generalisation of a [[metric space]] with a bare minimum of 
 
 ## Definitions ##
 
-A __Cauchy space__ is a set $S$ together with a collection of proper [[filter]]s declared to be __Cauchy filters__.  These must satisfy axioms:
+A __Cauchy space__ is a set $S$ together with a collection of proper [[filters]] declared to be __Cauchy filters__.  These must satisfy axioms:
 
 1. Centred: The principal ultrafilter $F_x = \{ A \;|\; x \in A \}$ at $x$ is Cauchy;
 1. Isotone: If $F \subseteq G$ and $F$ is Cauchy, then $G$ is Cauchy;
@@ -16,7 +16,7 @@ That is, the set of Cauchy filters is a filter of proper filters that contains a
 Notice that by this definition, there are two Cauchy structures on the [[empty set]] (or rather, one for each [[truth value]]), depending on whether the improper filter is Cauchy; on an [[inhabited set]], the improper filter must be Cauchy.  Often one sees a definition where Cauchy filters are required to be proper instead.
 
 
-The definition can also be phrased in terms of [[net]]s; a __Cauchy net__ is a net whose eventuality filter is Cauchy.  In particular, a __[[Cauchy sequence]]__ is a [[sequence]] whose eventuality filter is Cauchy.
+The definition can also be phrased in terms of [[nets]]; a __Cauchy net__ is a net whose eventuality filter is Cauchy.  In particular, a __[[Cauchy sequence]]__ is a [[sequence]] whose eventuality filter is Cauchy.
 
 
 The morphisms of Cauchy spaces are the Cauchy-continuous functions; a function $f$ between Cauchy spaces is __Cauchy-continuous__ if $f(F)$ is a (base of a) Cauchy filter whenever $F$ is.  In this way, Cauchy spaces form a category $Cau$.
