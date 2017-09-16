@@ -7,3 +7,5 @@
 * [[integration over supermanifolds]]
 
 * [[ringed site]]
+
+* [[superconnection]]
