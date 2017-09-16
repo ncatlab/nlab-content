@@ -24,6 +24,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-09-04
+
+* [[Jon Awbrey]] made a first pass at formatting [[Trimble on ETCS II]], but it will need to be checked.
 
 ## 2009-09-03
 
