@@ -1,9 +1,3 @@
-[[!redirects (∞,1)-category]]
-[[!redirects (∞,1)-categories]]
-[[!redirects (infinity,1)-categories]]
-[[!redirects infinity comma one category]]
-
-
 #Idea#
 
 According to the general pattern on [[(n,r)-category]], an $(\infty,1)$-category is a (weak) [[infinity-category]] in which all $n$-morphisms for $n \geq 2$ are [[equivalence]]s.
@@ -171,3 +165,8 @@ is in
 More discussion of the other two models can be found at
 
 * [[Jacob Lurie]], _On the classification of topological field theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf)).
+
+[[!redirects (∞,1)-category]]
+[[!redirects (∞,1)-categories]]
+[[!redirects (infinity,1)-categories]]
+[[!redirects infinity comma one category]]
