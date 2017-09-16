@@ -392,6 +392,8 @@ _Toby_:  I was going to call my version 'SEAPS' until I realised that the 'A' wa
 [[Mike Shulman]]: I like SEAR better than SER, but SEPS isn't too bad.  Although I'd also still rather not make a big deal about the difference between the two.
 
 [[Mike Shulman]]: And actually, Subsets are just unary Relations.  So the version with subsets and products is also a theory of "sets, elements, and relations"---it's just that since it only uses unary relations, it also needs product operations on its sets and elements.
+
+_Toby_:  Well, yeah, but you\'ve been using 'relation' to mean a [[binary relation]], so I used another term.  But if one is naming an entire system, that may not matter.
 =--
 
 An alternate formulation of the theory, suggested by Toby, has four primitive notions: sets, elements, subsets, and a pairing operation.  Sets and elements are as before.  A *subset* is, like an element, attached to a certain set; it is always a subset *of* some set.  Thus we have a typing declaration $S\subseteq A$.  We also have a primitive notion of when an element $x\in A$ *belongs to* a subset $S\subseteq A$; thus now we have $x\in S$ as a possible assertion of the theory (analogous to $R(x,y)$ before).  We allow a typed equality predicate for subsets.  Finally, there is an operation which assigns to every pair of sets $A$ and $B$ a set $A\times B$, and to every pair of elements $x\in A$ and $y\in B$ an element $(x,y)\in A\times B$.
