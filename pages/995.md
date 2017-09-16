@@ -2,7 +2,7 @@ A _filter_ is [[duality|dual]] to an [[ideal]].
 
 # Definitions
 
-A subset $F$ of a [[poset]] $L$ is called a __filter__ if it is upward-closed and downward-[[direction|directed]]; that is:
+A subset $F$ of a [[partial order|poset]] $L$ is called a __filter__ if it is upward-closed and downward-[[direction|directed]]; that is:
 1. If $A \leq B$ in $L$ and $A \in F$, then $B \in F$;
 1. for some $A$ in $L$, $A \in F$;
 1. if $A \in F$ and $B \in F$, then for some $C \in F$, $C \leq A$ and $C \leq B$.
