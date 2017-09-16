@@ -173,33 +173,13 @@ _Toby_:  The only thing that I can think of offhand is to distinguish from [[alg
 
 [[Urs Schreiber]]: I have changed the wording in the first sentence now.
 
-_Toby_:  OK.  Is there any reason for having [[presentable category]] separate now?  (Or not to move this to [[presentable category]]?)
-
-Incidentally, how related is an equationally presented category?  It seems to me not much ....
-
-[[Urs Schreiber]]: right, so I flagged [[presentable category]] for deletion
-
-and I removed the "related" in the sentence on equationally presented categories -- I don't actually know what these are! 
-
-But I guess the point remains that "locally presentable category" serves to distinguish from "equationally presentable category".
+I guess the point remains that "locally presentable category" serves to distinguish from "equationally presentable category".
 
 On the other hand, _locally_ presentable then still seems like a bad choice of terminology, as it indicates nothing about the kind of presentation and in fact it remains a mystery to me what is supposed to be local about the above notion. (It's not the local smallness, or is it?) 
 
 But then it gets a bit worse even when we look at the generalizations. I have firmly followed Lurie with the terminology at [[presentable (infinity,1)-category]] that is supposed to generalize the notion here, and there it turns out to be pretty good terminology, as those $(\infty,1)$-categories are, among a whole list of equivalent characterizations, precisely those that are given by combinatorial simplicial model categories. I have used that nice fact to consistently say "a model category [[presentable (infinity,1)-category|presents]] an $(\infty,1)$-category" with the "presents" linking to _presentable $(\infty,1)$-category_ .
 
-Anyway, with this entry being titled _locally presentable category_ and having a redirect from presentable category we seem to be at least on the safe side.
-
-_Toby_:  OK.  Remember when making an existing page into a redirect now, you should also change its name to something with `-- history` in it so that the redirection will work.  (And remove the automatic redirection command that this creates in the history page.)  I\'ve done that now.
-
-_Urs_: ah, thanks. What's that last step? Do we have a HowTo on that?
-
-_Toby_:  It\'s discussed very briefly at [[redirect]]; you can find much more on the Forum [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=16&page=1#Item_33).  But I probably should write something clear at [[HowTo]].
-
-[[Mike Shulman]]: Coming into this discussion late, let me speak up in favor of "locally presentable."  I agree that "locally" is a poor choice (and an overworked word), but the important point is that it is the _objects_ of the category which are presentable, rather than the category itself.  For instance, consider the notion of "locally _finitely_ presentable category," in which the generating set $S$ consists of finitely presentable objects, i.e. $\omega$-small ones.  If you drop the word "locally" then you would get "finitely presentable category" which means something completely different, namely an $\omega$-small object of [[Cat]].
-=--
-
-+-- {: .query}
-[[Mike Shulman]]: I agree that "locally" is a poor choice (and an overworked word), but I think that merely "presentable" is worse; some adjective must be used and "locally" has the weight of history behind it.  The important point requiring the adjective is that it is the _objects_ of the category which are presentable, rather than the category itself.  For instance, consider the notion of "locally _finitely_ presentable category," in which the generating set $S$ consists of finitely presentable objects, i.e. $\omega$-small ones.  If you drop the word "locally" then you would get "finitely presentable category" which means something completely different, namely an $\omega$-small object of [[Cat]].
+[[Mike Shulman]]: Coming into this discussion late, let me speak up in favor of "locally presentable."  I agree that "locally" is a poor choice (and an overworked word), but I think that merely "presentable" is worse; some adjective must be used and "locally" has the weight of history behind it.  The important point requiring the adjective is that it is the _objects_ of the category which are presentable, rather than the category itself.  For instance, consider the notion of "locally _finitely_ presentable category," in which the generating set $S$ consists of finitely presentable objects, i.e. $\omega$-small ones.  If you drop the word "locally" then you would get "finitely presentable category" which means something completely different, namely an $\omega$-small object of [[Cat]].
 
 I'm guessing that when you say "presentable category" you are thinking of the set $S$ as "presenting" the category in some way, but I think this is wrong.  The notion of "presentable object" has a precise meaning in the very theory we are discussing, so we shouldn't apply it unqualified to the category as well with a different meaning.
 
