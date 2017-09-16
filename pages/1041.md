@@ -103,10 +103,15 @@ For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/
 
 ##References
 
-A classic reference, now available online:
+Three classic references, now available online:
+
+* Pierre Gabriel, [[Des Catégories Abéliennes]]
 
 * Peter Freyd, [Abelian Categories](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), originally published by Harper and Row, New York, 1964.
 
+* A. Grothendieck, [[Tohoku]]
+
+See also the catlist 1999 discussion on comparison between abelian categories and topoi: [link](http://www.mta.ca/~cat-dist/catlist/1999/atcat).
 
 ##Discussion
 
