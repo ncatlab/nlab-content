@@ -1,4 +1,4 @@
-A [[locally small category]] $C$ is **total** if its [[Yoneda embedding]] $C\to [C^{op},Set]$ has a [[adjunction|left adjoint]].  If $C^{op}$ is total, $C$ is called **cototal**.
+A [[locally small category]] $C$ is **total** if its [[Yoneda embedding]] $C\to [C^{op},Set]$ has a [[adjoint functor|left adjoint]].  If $C^{op}$ is total, $C$ is called **cototal**.
 
 The definition above requires some set-theoretic assumption to ensure that the [[functor category]] $[C^{op},Set]$ exists, but it can be rephrased to say that the [[colimit]] of $Id_C:C\to C$ [[weighted limit|weighted]] by $W$ exists, for any $W:C^{op}\to Set$.  This version has an evident generalization to [[enriched category|enriched]] categories.
 
