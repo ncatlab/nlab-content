@@ -28,4 +28,6 @@ David Corfield: What are the object classifiers for [[Top]]?
 
 [[Urs Schreiber]]: see [[compact object]]
 
+[[Mike Shulman]]: Yes, and I think the universal fibration is relevant.
+
 =--
