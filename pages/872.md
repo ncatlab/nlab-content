@@ -1,6 +1,6 @@
-In a [[poset]] $P$, a __bottom__ is an element $\bot$ of $P$ such that $\bot \leq a$ for every element $a$.  Such a bottom may not exist; if it does, then it is unique.
+In a [[partial order|poset]] $P$, a __bottom__ is an element $\bot$ of $P$ such that $\bot \leq a$ for every element $a$.  Such a bottom may not exist; if it does, then it is unique.
 
-In a [[proset]], a bottom may be defined similarly, but it need not be unique.  (However, it is still unique up the natural [[equivalence]] in the proset.)
+In a [[preorder|proset]], a bottom may be defined similarly, but it need not be unique.  (However, it is still unique up the natural [[equivalence]] in the proset.)
 
 A bottom of $P$ can also be understood as a [[join]] of zero elements in $P$.
 
