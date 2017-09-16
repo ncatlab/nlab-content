@@ -12,16 +12,36 @@ For paracompact spaces, [[numerable open cover|numerable open covers]] are cofin
 
 # Examples #
 
-* every [[compact space]] is paracompact;
-* every [[separable space|separable]] [[metric space]] is paracompact;
-* every metric space whatsoever is paracompact, assuming the [[axiom of choice]];
-* pseudometric spaces are paracompact under the same conditions, if one does not require Hausdorffness;
-* any second-countable [[locally compact space|locally compact]] Hausdorff space is paracompact;
-* the [[Sorgenfrey line]] is a good example of a paracompact space that doesn\'t fit into other general classes of paracompact spaces;
-* the [[long line]] is *not* paracompact, even though it is a [[manifold]] (unless one specifically requires paracompactness of manifolds).
+* locally compact spaces
+
+  * every [[compact space]] is paracompact;
+
+  * any [[second-countable topological space|second-countable]] [[locally compact space|locally compact]] Hausdorff space is paracompact;
+
+* metric spaces
+
+  * every [[separable space|separable]] [[metric space]] is paracompact;
+
+  * every [[metric space]] whatsoever is paracompact, assuming the [[axiom of choice]];
+
+  * pseudometric spaces are paracompact under the same conditions, if one does not require Hausdorffness;
+
+* special cases
+
+  * the [[Sorgenfrey line]] is a good example of a paracompact space that doesn\'t fit into other general classes of paracompact spaces;
+
+* counterexamples
+
+  * the [[long line]] is *not* paracompact, even though it is a [[manifold]] (unless one specifically requires paracompactness of manifolds).
 
 
+# Properties #
 
+## cohomology of paracompact spaces ##
+
+* On paracompact spaces, abelian [[Cech cohomology]] does compute [[abelian sheaf cohomology]], 
+
+  i.e. the canonical morphism $H_{Cech}(X,A) \to H(X,A)$ for  $A$ any [[chain complex]] of [[sheaf|sheaves]] is an [[isomorphism]] when the [[topological space]] underlying $X$ is paracompact.
 
 # References #
 
