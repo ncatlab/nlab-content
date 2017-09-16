@@ -1,8 +1,9 @@
-A homotopy 2-type is the class of spaces whose homotopy groups vanish above dimension 2. 
+A **homotopy 2-type** is a [[homotopy type]] whose [[homotopy group|homotopy groups]] vanish above dimension 2.  Homotopy 2-types can be classified by various different types of algebraic data.
 
-Such homotopy types are classified up to weak homotopy type by [[crossed module]]s of groupoids. 
 
-These are the 2-truncated versions  of [[crossed complex]]es. So such a $C$  consists of a morphism   
+## Homotopy 2-types as crossed modules ##
+
+Homotopy 2-types can be classified up to weak homotopy type by [[crossed module]]s of groupoids.  These are the 2-truncated versions of [[crossed complex]]es.  So such a $C$ consists of a morphism
 
 $$\delta: C_2 \to C_1$$  
 
@@ -38,5 +39,11 @@ $$Crs^2(C \otimes D, E) \cong Crs^2(C, CRS^2(D,E))$$
 
 
 
-##Homotopy 2-types via simplicial group(oid)s##
+##Homotopy 2-types as simplicial group(oid)s##
+
 As a crossed module give rise to an internal groupoid in the category of groups (or groupoids), we can take the nerve of that structure and get a simplicial group (or [[simplicially enriched category|simplicially enriched groupoid]]). From a simplicial group(oid), $G$, one can define a simplicial set called the classifying space $\overline{W}G$ of the simplicial group, $G$, for which construction see [[simplicial group]]. We thus can start with a crossed module $C$ form a simplicial group and then take $\overline{W}$ of that to get another model of $\mathcal{B}C$.
+
+
+## Homotopy 2-types as 2-groupoids ##
+
+...
