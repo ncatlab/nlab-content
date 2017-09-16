@@ -16,7 +16,7 @@ to the category [[Set]];
 
 ## Remarks ##
 
-* Sometimes (often?) the term "concrete category" is used without implying the second condition of representability. This second condition however is important for the statment of concrete [[duality|dualities]] induced by [[dual adjunction]]s.
+* Sometimes (often?) the term "concrete category" is used without implying the second condition of representability. This second condition however is important for the statement of concrete [[duality|dualities]] induced by [[dual adjunction]]s.
 
 
 #Examples#
