@@ -1,3 +1,2 @@
-See [[semigroup]].
-
-category: redirect
+&lt; [[semigroups]]
+[[!redirects semigroups -- history]]
