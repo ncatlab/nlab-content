@@ -30,7 +30,7 @@ f\circ v' \circ u' &\underset{\beta'\circ u'}{\Rightarrow}& g\circ v' \circ u'
 \end{matrix}
 $$
 
-If $B$ is a category, then these axioms reduce to the ones of Gabriel and Zisman for a [[category of fractions]].
+If $B$ is a category, then these axioms reduce to the ones of Gabriel and Zisman for a [[calculus of fractions]].
 
 
 Given such a setup, Pronk constructs the [[localization]] of $B$ at $W$ and the universal functor sending elements of $W$ to equivalences.
