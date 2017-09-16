@@ -4,6 +4,8 @@ A special case of the general notion of a [[derived functor]] on the [[homotopy 
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Somewhere, we should talk about derived functors in the very traditional sense of "extending the image of a short exact sequence to a long exact sequence."
+
+[[Zoran Skoda]] Not only universal $\delta$ and $\delta^*$ functors, but we should also have satelites.
 =--
 
 #Derived functors in homological algebra#
