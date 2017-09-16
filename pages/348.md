@@ -33,18 +33,12 @@ A _sieve_ $S$ (Fr. _crible_) on an object $c \in C$ is a subset $S \subset Ob(C/
 
 Sometimes the condition of a sieve being closed under the operation of precomposing with an arbitrary morphism $g: e \to d$ is called a "saturation condition". Given any collection of morphisms targeted at $c$, one can always close it up or saturate it, to obtain a sieve on $c$. 
 
-+-- {: .query}
-_Bruce_: Perhaps say here: "It is called a _sieve_ because it "sieves out" the 'special' maps into $c$ from the set of _all_ maps into $c$.
-=--
+This is probably called a _sieve_ because it "sieves out" the 'special' maps into $c$ from the set of _all_ maps into $c$.
 
 
 # Relation to subfunctors #
 
 There is a canonical way to create subfunctors from sieves and sieves from subfunctors.
-
-+-- {: .query}
-_Bruce_: What is a subfunctor? Can you link that word to a page?
-=--
 
 A subfunctor is a [[subobject]] in a [[functor category]]. Here, specifically, one is interested in [[subobject]]s in a [[presheaf]] category of [[representable functor]]s. It's these subfunctors of representable functors that are in bijection with sieves.
 
@@ -74,6 +68,15 @@ or equivalently
 _Bruce_: Hey, if you are being extra careful here you should be saying that the sieve $S_F$ obtained from the subfunctor $F \hookrightarrow Y(c)$ is really the _image_ of $F$ (as you say below), i.e. if we write $i: F \hookrightarrow Y(c)$ for the explicit inclusion map, then for each $d$, $S_F(d) = Image of i_d in Hom(d,c)$. 
 
 Right now, this makes me _prefer_ the notion of 'sieve' to the notion of 'subfunctor of a representable'. The reason is that the elements of the sieve are actually morphisms in the category, whereas the subfunctor can be composed of 'abstract elements'. Why are you pushing the viewpoint of 'subfunctor of a representable'? Is it for later $\infty$-category purposes? If so, you should say that at the top of the article, so the reader understands why you are introducing extraneous 'abstract nonsense' elements into the conversation... :-)
+
+[[Urs Schreiber|Urs]]: thanks for the comment, Bruce! Here I would find it helpful if you could put in directly what you would find helpful. Because I am not sure. At the moment it says right at the beginning that sieves are a way to encode subfunctors of representables. This is the reason why we care about them.
+
+The point is really, as described in some detail at [[sheaf]], that we want to characterize certain morphisms of presheaves, called [[local isomorphism]]s. And it turns out that a lot is already gained once we understand all local isomorphisms that are monomorphisms (called then [[dense monomorphism]]s). And it turns out that among them in turn it suffices to look at those with representable codomain. These, finally, are seen to have a more pedestrian description in terms of sieves. That's why one cares about sieves.
+
+Should we say this here again? Maybe. But It is already described in some detail at [[sheaf]].
+
+But of course you are right to "prefer" sieves in a way: they are the explicit hand-on realization of some abstract nonsense. That's why one useses them. As a tool. But their raison d'etre is the abstract nonsense that they are a manifestation of.
+
 =--
 
  {: .un_lemma}
@@ -194,7 +197,7 @@ $$
   \,.
 $$
 
-Notice the distincion between this union in of the two open subsets in $X$, and the potential notion of _disjoint union_ $U_1 \sqcup U_2$ interpreted as the [[coproduct]] of $U_1$ and $U_2$ in some category. If that category is the naive choice in that we regard all open sets here as objects in the [[category of open subsets]] $Op(X)$ of $X$, then this coproduct does not even exist in general! (It does exist if $U_1$ and $U_2$ are disjoint in $X$.)
+Notice the distincion between this union in of the two open subsets in $X$, and the potential notion of _disjoint union_ $U_1 \sqcup U_2$ interpreted as the [[coproduct]] of $U_1$ and $U_2$ in some category. 
 
 What does exist in $Op(X)$ is the [[fiber product]] of $U_1$ with $U_2$ over $V$: this is the intersection $U_1 \cap U_2$ sitting in the [[pullback]] diagram
 
