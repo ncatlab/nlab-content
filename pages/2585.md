@@ -2,6 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea
 
 In the [[(∞,1)-topos]] [[Top]] to every object -- every [[topological space]] -- $X$ is associated 
@@ -141,6 +142,16 @@ section 8.4 of
 
 * [[Bertrand Toen]], _Toward a Galoisian interpretation of homotopy theory_ ([arXiv:0007157](http://arxiv1.library.cornell.edu/abs/math/0007157))
 
-[[!redirects homotopy groups (of an infinity-stack)]]
+
+[[!redirects homotopy group of an infinity-stack]]
+[[!redirects homotopy group of an ∞-stack]]
+[[!redirects homotopy groups of an infinity-stack]]
+[[!redirects homotopy groups of an ∞-stack]]
+[[!redirects homotopy groups of infinity-stacks]]
+[[!redirects homotopy groups of ∞-stacks]]
+[[!redirects homotopy group (of an infinity-stack)]]
 [[!redirects homotopy group (of an ∞-stack)]]
+[[!redirects homotopy groups (of an infinity-stack)]]
 [[!redirects homotopy groups (of an ∞-stack)]]
+[[!redirects homotopy groups (of infinity-stacks)]]
+[[!redirects homotopy groups (of ∞-stacks)]]
