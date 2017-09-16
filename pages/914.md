@@ -1,10 +1,10 @@
 # Idea #
 
-_Nets_ are generalisations of [[sequence]]s that are used especially in topology.  They are also called _Moore--Smith sequences_ and are equivalent (in a certain sense) to proper [[filter]]s.
+_Nets_ are generalisations of [[sequences]] that are used especially in topology.  They are also called _Moore--Smith sequences_ and are equivalent (in a certain sense) to proper [[filters]].
 
 # Definition #
 
-A __net__ $\nu$ in a [[set]] $X$ is a [[direction|directed set]] $A$ and a [[function]] $\nu: A \to X$; we say that $A$ _indexes_ the net.  The notation used in based on the special case of an infinite [[sequence]]; the value of the function $\nu$ at the index $i$ is written $\nu_i$.  Indeed, an infinite sequence in $X$ is a net indexed by the [[natural number]]s.
+A __net__ $\nu$ in a [[set]] $X$ is a [[direction|directed set]] $A$ and a [[function]] $\nu: A \to X$; we say that $A$ _indexes_ the net.  The notation used in based on the special case of an infinite [[sequence]]; the value of the function $\nu$ at the index $i$ is written $\nu_i$.  Indeed, an infinite sequence in $X$ is a net indexed by the [[natural numbers]].
 
 Although $A$, being a directed set, is equipped with a [[preorder]], the net is not required to preserve this in any way.  This forms an exception to the rule of thumb that a preordered set may be replaced by its quotient [[partial order|poset]].  You can get around this if you instead define a net in $X$ as a [[multi-valued function]] from a partially ordered directed set $A$ to $X$.  Although there is not much point to doing this in general, it can make a difference if you put restrictions on the possibilities for $A$, in particular if you consider the definition of [[sequence]].  In some type-theoretic [[foundations]] of mathematics, you can get the same effect by defining a net to be an 'operation' (like a function but not required to preserve [[equality]]).
 
@@ -21,7 +21,7 @@ $$\ess\exists_\nu (p \vee q) \;\Leftrightarrow\; \ess\exists_\nu p \vee \ess\exi
 $$\ess\forall_\nu \neg{p} \;\Leftrightarrow\; \neg\ess\exists_\nu p$$
 and other analogues of theorems from [[predicate logic]].  Note that the last item listed requires [[excluded middle]] even though its analogue from ordinary predicate logic does not.
 
-A similar logic is satisfied by 'almost everywhere' and its dual in [[measure space]]s.
+A similar logic is satisfied by 'almost everywhere' and its dual in [[measure spaces]].
 
 # Nets and filters #
 
