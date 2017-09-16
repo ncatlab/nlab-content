@@ -34,6 +34,13 @@ A canonical transformation can be understood as a special kind of natural transf
 In particular, if $C$ is already a [[groupoid]], then every canonical transformation between functors out of $C$ is natural.
 
 
+## Warnings
+
+This formalisation is far from accepted, even the regulars on this wiki.  There is nothing wrong with the definition itself; the question is whether anything like this really captures the meaning of 'canonical'.
+
+Furthermore, I may not have properly defined what Dolan has in mind.  In particular, it may be that the functors $C,D$ above should by default be defined only on the core of $C$.  In that case, a canonical transformation is the general non-[[evil]] notion of an operation from an object of $C$ to a morphism of $D$.
+
+
 ## References
 
 * [old newsgroup thread](http://groups.google.com/group/sci.math/browse_frm/thread/9f5ca96dc1a95ada/47a1bb21f6566547) introducing the contrast between 'natural' and 'canonical' (note that 'Robert Scott' is really [[Jim Dolan]])
