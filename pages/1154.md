@@ -1,3 +1,3 @@
-see [[homotopy n-type]]
+See [[homotopy n-type]].
 
 category: redirect
