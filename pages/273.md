@@ -66,3 +66,15 @@ This kind of nonabelian cohomology is discussed for instance in
 That and how ordinary group cohomology is reproduced from the [[homotopical cohomology theory]] of [[strict omega-groupoid|strict omega-groupoids]] is discussed in detail in 
 
 * R. Brown, P. Higgins, R. Sivera, [[nonabelian algebraic topology|Nonabelian algebraic topology]].
+
+#Objects classified by nonabelian cohomology#
+
+For $g : X \to A$ a cocycle in nonabelian cohomology, we say the [[fibration sequence|homotopy fibers]] of $g$ is the object _classified_ by $g$.
+
+For examples and discussion of this see
+
+* [[gerbe]]
+
+* [[principal 2-bundle]]
+
+* [[principal infinity-bundle]] .
