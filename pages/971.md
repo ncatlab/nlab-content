@@ -28,3 +28,5 @@ A discussion of [[accessible (infinity,1)-category|accessible (infinity,1)-categ
 of
 
 * Jacob Lurie, _Higher Topos Theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
+
+[[!redirects accessible categories]]
