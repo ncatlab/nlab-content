@@ -1,35 +1,37 @@
 * toc
 {: toc}
 
+
 # Idea
 
-**Extraordinary natural transformations**, or **extranatural transformations**, are what you get when you "bend the rules" for natural transformations.  One intuitive approach to them is through [[string diagrams]]: every time you bend a string (that represents a component of a natural transformation) into a U-shape or upside-down U-shape, the U-shape represents a component of an extranatural transformation.  Thus, the rules for extranatural transformations mirror rules for ordinary [[natural transformations]], except they are bent into shapes with a covariant part and a contravariant part.  (Cf. interactions between particles and their corresponding antiparticles.) 
+**Extraordinary natural transformations**, or **extranatural transformations**, are what you get when you "bend the rules" for natural transformations.  One intuitive approach to them is through [[string diagrams]]: every time you bend a string (that represents a component of a natural transformation) into a U-shape or upside-down U-shape, the U-shape represents a component of an extranatural transformation.  Thus, the rules for extranatural transformations mirror rules for ordinary [[natural transformations]], except they are bent into shapes with a covariant part and a contravariant part.  (Cf. interactions between particles and their corresponding [[antiparticle]]s.) 
 
-A transformation can also be ordinary-natural in some variables and extraordinary-natural in other variables.  Sometimes this sort of transformation is called a *generalized natural transformation*.  The late Max Kelly was fond of saying that really it's all the same basic concept, however, so why proliferate terminology needlessly?  So he would simply say a transformation was "natural" in all its arguments, both the "ordinary" and the "extraordinary" ones.
+A transformation can also be ordinary-natural in some variables and extraordinary-natural in other variables.  Sometimes this sort of transformation is called a *generalized natural transformation*.  The late [[Max Kelly]] was fond of saying that really it's all the same basic concept, however, so why proliferate terminology needlessly?  So he would simply say a transformation was "natural" in all its arguments, both the "ordinary" and the "extraordinary" ones.
 
 The calculus of natural and extranatural transformations is a very simple string diagram calculus; perhaps the most basic one.  It was first introduced by Eilenberg, Kelly, and Mac Lane in the mid 60's.
 
 There is also a yet more general notion of [[dinatural transformation]].  However, there are few examples of dinatural transformations which are not extranatural.  Also, unlike extranatural transformations, dinatural transformations cannot be generalized to all [[enriched categories]] and do not admit a natural string diagram calculus.
 
+
 # Examples
 
-Consider the hom-functor $\hom: Set^{op} \times Set \to Set$ (or more generally, the internal hom-functor $\hom: V^{op} \times V \to V$ where $V$ is symmetric monoidal closed). The identity transformation $1: \hom \to \hom$ has components of the form 
+Consider the [[function set]] functor $\hom: Set^{op} \times Set \to Set$ (or more generally, the [[internal hom]] functor $\hom: V^{op} \times V \to V$ where $V$ is [[symmetric monoidal closed category|symmetric monoidal closed]]). The [[identity transformation]] $1: \hom \to \hom$ has components of the form 
 
 $$1_{x, y}: x^y \to x^y$$ 
 
 and this of course is natural in each of the separate arguments $x, y$. String diagrammatically, this naturality would be represented by placing the domain over the codomain and linking the two instances of $x$ with a straight line and the two instances of $y$ with a straight line. Although it's trivial, let's at least record what naturality in say $y$ would mean: it means that for any morphism $g: y \to y'$ we have an equation of the form
 
-$$1_{x, y} x^g = x^g 1_{x, y'}: x^{y'} \to x^y \qquad (1)$$
+\[ \label{naturality} 1_{x, y} x^g = x^g 1_{x, y'}: x^{y'} \to x^y \]
 
-Now, the adjunction between (tensor) product and hom allow us to "bend" the transformation into another: 
+Now, the [[adjunction]] between [[tensor product]] and internal hom allow us to "bend" the transformation into another: 
 
 $$eval_{x, y}: x^y \otimes y \to x$$ 
 
-in which the two instances of $y$ are linked by a U-shape. This gives a transformation which is natural in $x$ but not of course in $y$; rather, in $y$ we have an equation which is companion to (1): 
+in which the two instances of $y$ are linked by a U-shape. This gives a transformation which is natural in $x$ but not of course in $y$; rather, in $y$ we have an equation which is companion to (eq:naturality): 
 
-$$eval_{x, y} (x^g \otimes y) = eval_{x, y'} (x^{y'} \otimes g): x^{y'} \otimes y \to x \qquad (2)$$ 
+\[ \label{extranaturality} eval_{x, y} (x^g \otimes y) = eval_{x, y'} (x^{y'} \otimes g): x^{y'} \otimes y \to x \]
 
-and we say in this case that $eval_{x, y}$ is **extranatural** in $y$. Notice how the extranatural variable $y$ in $eval_{x, y}$ appears once covariantly [in the tensor factor] and once contravariantly [in the exponent], but together on the same side of the arrow [here the domain]. (There is a nice string diagram picture for (2) which the reader might like to draw at this point.) 
+and we say in this case that $eval_{x, y}$ is **extranatural** in $y$. Notice how the extranatural variable $y$ in $eval_{x, y}$ appears once covariantly [in the tensor factor] and once contravariantly [in the exponent], but together on the same side of the arrow [here the domain]. (There is a nice string diagram picture for (eq:extranaturality) which the reader might like to draw at this point.) 
 
 Thus we already see that $eval_{x, y}$ is a "generalized natural" transformation, involving a mixture of naturality (in $x$) and extranaturality (in $y$).
 
@@ -50,6 +52,7 @@ for every arrow $g: y \to y'$.
 As these examples indicate, instances of ordinary naturality are typically transferred into instances of extranaturality by means of adjunctions. Indeed, basic instances of U-shapes or upside-down U-shapes in string diagrams come about through counits and units of adjunctions, 
 
 $$\varepsilon: F U \to 1 \qquad \eta: 1 \to U F$$
+
 
 # Formalization 
 
@@ -98,6 +101,7 @@ Let $F, H$ be functors of the form $C \to D$, and let $G: C \times C^{op} \times
 $$\beta_{x, x} \alpha_{x, x}: F(x) \to H(x)$$ 
 is natural in $x$. 
 =--
+
 
 # Profunctors
 
