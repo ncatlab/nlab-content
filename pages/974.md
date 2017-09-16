@@ -17,7 +17,7 @@ More abstract, this is characterized by saying
 
 # Remarks #
 
-* A related notion is that of [[algebraic category|equationally presentable category]]. The "locally" in "locally presentable" is apparently usually used to distinguish from that notion.
+* Another notion of presentation of categories is that of [[algebraic category|equationally presentable category]]. 
 
 * The generalization of the concept to the context of [[(infinity,1)-category|(infinity,1)-categories]] is [[presentable (infinity,1)-category]].
 
@@ -52,6 +52,19 @@ _Toby_:  The only thing that I can think of offhand is to distinguish from [[alg
 _Toby_:  OK.  Is there any reason for having [[presentable category]] separate now?  (Or not to move this to [[presentable category]]?)
 
 Incidentally, how related is an equationally presented category?  It seems to me not much ....
+
+[[Urs Schreiber]]: right, so I flagged [[presentable category]] for deletion
+
+and I removed the "related" in the sentence on equationally presented categories -- I don't actually know what these are! 
+
+But I guess the point remains that "locally presentable category" serves to distinguish from "equationally presentable category".
+
+On the other hand, _locally_ presentable then still seems like a bad choice of terminology, as it indicates nothing about the kind of presentation and in fact it remains a mystery to me what is supposed to be local about the above notion. (It's not the local smallness, or is it?) 
+
+But then it gets a bit worse even when we look at the generalizations. I have firmly followed Lurie with the terminology at [[presentable (infinity,1)-category]] that is supposed to generalize the notion here, and there it turns out to be pretty good terminology, as those $(\infty,1)$-categories are, among a whole list of equivalent characterizations, precisely those that are given by combinatorial simplicial model categories. I have used that nice fact to consistently say "a model category [[presentable (infinity,1)-category|presents]] an $(\infty,1)$-category" with the "presents" linking to _presentable $(\infty,1)$-category_ .
+
+Anyway, with this entry being titled _locally presentable category_ and having a redirect from presentable category we seem to be at least on the safe side.
+
 =--
 
 
