@@ -2,7 +2,7 @@
 
 [[simplicial presheaf|Simplicial presheaves]] equipped with the [[model structure on simplicial presheaves]] are one model/presentation for the [[(infinity,1)-category of (infinity,1)-sheaves]] on a given [[site]].
 
-The fibrant object $\bar X$ that a [[simplicial presheaf]] $X : S^{op} \to SSet$ is weakly equivalent to with respect to this model structure is the [[infinity-stackification]] of $X$. One expects that [[infinity-stack]]s/[[(infinity,1)-sheaf|(infinity,1)-sheaves]] are precisely those [[(infinity,1)-presheaf|(infinity,1)-presheaves]] which satisfy a kind of [[descent and codescent|descent condition]].
+The fibrant object $\bar X$ that a [[simplicial presheaf]] $X : S^{op} \to SSet$ is weakly equivalent to with respect to this model structure is the [[infinity-stackification]] of $X$. One expects that [[infinity-stack]]s/[[(infinity,1)-sheaf|(infinity,1)-sheaves]] are precisely those [[(infinity,1)-presheaf|(infinity,1)-presheaves]] which satisfy a kind of [[descent]] condition.
 
 Precsisely what this condition is like for the particular model constituted by simplicial presheaves with the given Jardine [[model structure on simplicial presheaves]] was worked out in 
 
@@ -18,7 +18,7 @@ recalled as corollary 6.5.3.13 in
 
 The following is a summary of these results.
 
-The main point is that the fibrant objects are essentially those simplicial presheaves, which satisfy [[descent and codescent|descent]] with respect not just to [[cover]]s, but to [[hypercover]]s.
+The main point is that the fibrant objects are essentially those simplicial presheaves, which satisfy [[descent]] with respect not just to [[cover]]s, but to [[hypercover]]s.
 
 Localizations of [[(infinity,1)-presheaf|(infinity,1)-presheaves]] at [[hypercover]]s are called [[hypercompletion]]s in [section 6.5.3](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=534) of [[Higher Topos Theory]]. Notice that in [section 6.5.4](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=539) of [[Higher Topos Theory]] it is argued that it may be more natural _not_ to localize at [[hypercover]]s, but just at [[cover]]s after all.
 
