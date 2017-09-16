@@ -38,6 +38,12 @@ is in $G$ whenever $(U, \phi)$ is a coordinate chart of $x \in M$, and $(V, \psi
 
 * Alternatively, atlases are ordered by inclusion, and two atlases define the same manifold structure on $M$ if they have a common upper bound. Equivalently, two atlases define the same manifold structure if each chart of one is compatible with each chart of the other. Or, one could extend any atlas to the (unique) maximal atlas containing it, which consists of all charts compatible with each of the charts in the original atlas, and simply identify a manifold structure with a maximal atlas.
 
++-- {: .query}
+
+  _Rafael_: Can one define a manifold object in a category C as a G-manifold with G related to C? What would the relation between G and C be to obtain G-manifolds in C as manifold objects?
+
+=--
+
 ## Morphisms of Manifolds
 
 +-- {: .query}
