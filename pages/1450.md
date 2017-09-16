@@ -5,7 +5,7 @@
 
 #Idea#
 
-In _synthetic differential geometry_ one formulates [[differential geometry]] axiomatically in [[topos]]es -- called [[smooth topos]]es --  of [[generalized smooh space]]s. 
+In _synthetic differential geometry_ one formulates [[differential geometry]] axiomatically in [[topos]]es -- called [[smooth topos]]es --  of [[generalized smooth space]]s. 
 
 The main point of the axioms is to ensure that a well defined notion of [[infinitesimal space]]s exist in the topos, whose existence concretely and usefully formalizes the wide-spread but often vague intuition about te role of infinitesimals in [[differential geometry]].
 
@@ -27,6 +27,10 @@ in which in particular
 * [[infinitesimal space]]s exists and
 
 * satisfy the [[Kock-Lawvere axiom]].
+
+Depending on applications one imposes further axioms, such as the
+
+* [[integration axiom]].
 
 With that little bit of axiomatics alone, a large amount of [[differential geometry]] may be formulated. This has been carried through quite comprehensively by [[Anders Kock]], see the [reference](#References) below. 
 
