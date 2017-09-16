@@ -1,6 +1,5 @@
 A [[category]] $C$ is **locally presentable** -- sometimes called just **presentable** -- if
 
-
 * $C$ is [[locally small category]]
 
 * it has all small [[colimit]]s;
@@ -15,15 +14,15 @@ More abstract, this is characterized by saying
 
 * Locally presentable categories are precisely the categories of [[sketch|models of limit-sketches]].
 
+
 # Remarks #
 
-* Another notion of presentation of categories is that of [[algebraic category|equationally presentable category]]. 
+*  In the Lab, we tend to use 'presentable' for a locally presentable category.  But another notion of when a category is 'presentable' is given by an [[algebraic category|equationally presentable category]].
 
-* The generalization of the concept to the context of [[(infinity,1)-category|(infinity,1)-categories]] is [[presentable (infinity,1)-category]].
+*  The generalization of the concept to the context of [[(infinity,1)-category|(infinity,1)-categories]] is [[presentable (infinity,1)-category]].
 
 
 #References#
-
 
 The definition is due to
 
@@ -65,6 +64,7 @@ But then it gets a bit worse even when we look at the generalizations. I have fi
 
 Anyway, with this entry being titled _locally presentable category_ and having a redirect from presentable category we seem to be at least on the safe side.
 
+_Toby_:  OK.  Remember when making an existing page into a redirect now, you should also change its name to something with `-- history` in it so that the redirection will work.  (And remove the automatic redirection command that this creates in the history page.)  I\'ve done that now.
 =--
 
 
