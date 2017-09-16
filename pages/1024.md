@@ -32,4 +32,6 @@ In particular, how can elements of an abstract set be morphisms (with domain the
 Compare with the definition of an abstract set from set theory where elements are featureless dots.
 
 _John_: I have attempted to answer Rafael's question in the second paragraph of the article.  This paragraph isn't elegantly written, but it's important: people need to see how elements of sets are a special case of generalized elements!  
+
+_Rafael_: Thank you John. There is no word more difficult to understand than IS (or are).
 =--
