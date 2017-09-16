@@ -176,7 +176,7 @@ $$
 
 * The [[homotopy category]] of [[chain complex]]es in an [[abelian category]] (the category of chain complexes modulo [[chain homotopy]]) is a triangulated category: the translation functor is the shift functor on [[chain complex]]es and the distinguished triangles are those coming from the [[mapping cone]] construction $X \stackrel{f}{\to}Y \to Cone(f) \to T X$.
 
-* The [[localization]] $C/N$ of any triangulated category $C$ at a [[null system]] $N \hookrightarrow C$, i.e. the localization at the [[multiplicative system]] given by the morphisms $f : X \to Y$ such that there exists dts $X \to Y \to Z \to T X$ with $Z$ an object of a [[null system]], is still naturally a triangulated category, with the dts being the triangles isomorphic to an image of a dt under $Q : C \to C/N$.
+* The [[localization]] $C/N$ of any triangulated category $C$ at a [[null system]] $N \hookrightarrow C$, i.e. the localization using the [[calculus of fractions]] given by the morphisms $f : X \to Y$ such that there exists dts $X \to Y \to Z \to T X$ with $Z$ an object of a [[null system]], is still naturally a triangulated category, with the dts being the triangles isomorphic to an image of a dt under $Q : C \to C/N$.
 
   * In particular, therefore, the [[derived category]] of any [[abelian category]] is a triangulated category, since it is the localization of the homotopy category at the null system of acyclic complexes.
 
