@@ -6,6 +6,10 @@ However, people who *really* want to be anonymous should know that every editor\
 
 _Eric_: Can we change this? I am not anonymous, but I also do not want my IP listed (since it resolves to my employer, which I think should be private.) I guess I can always just not post from work, but small distractions now and then are nice.
 
+_Toby_:  IP addresses are almost always logged by web software, even for readers; in the past, these logs were usually deleted after a while, but now storage space is so cheap that this may no longer be true.  People like to have the IP address available in case of problems ---spam, DoS attacks, etc---.  I like having that sort of information publicly available, rather than tucked into logs that are hidden behind passwords, to prevent the devlopment of hierarchies.
+
+But if you want to be anonymous on the web, try searching for '[web proxy](http://www.google.com/search?q=web+proxy)' or the like.  However, Jacques\'s software makes a fair attempt to defeat these, since they are often used to spam.  (Even in general, I don\'t know how well they work, and ultimately *they* become the people with the secret information.)
+
 =--
 
 category: meta
