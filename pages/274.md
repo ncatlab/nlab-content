@@ -10,6 +10,9 @@ Segal categories were defined in 1974 (implicitly) by [[Graeme Segal]]. They wer
 
 +-- {: .query}
 So is there any difference between a Segal category and a quasi-category?  It looks like the former is a simplicial *space* while the latter is a simplicial *set*, so it seems like there is; so then which were Boardman Vogt talking about?  ---Toby
+
+Rafael: Boardman-Vogt did mean quasi-categories which are equivalent to Segal categories. I can not show this equivalence but see the paper of Julia Bergner http://arxiv.org/PS_cache/math/pdf/0610/0610239v1.pdf. But i think you already have seen this paper.
+
 =--
 
 
