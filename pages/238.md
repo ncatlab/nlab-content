@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * added to [[sieve]] a -- potentially long-winded -- lemma with detailed proof  that spells out details of the fact that every subfunctor is the coimage of a morphism out of a coproduct of representables
+
   * created [[separated presheaf]]
 
   * further worked on the section "in terms of geometric embedding" at [[sheaf]]
