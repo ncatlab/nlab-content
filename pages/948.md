@@ -89,6 +89,7 @@ The distinction between object language and metalanguage exists even in classica
 ## Related entries ##
 
 Concepts that usually arise in constructive mathematics, often because they are classically trivial:
+
 *  [[anafunctor]] (classically equivalent to [[functor]])
 *  [[apartness relation]] (classically dual to [[equivalence relation]])
 *  [[comparison]] (classically dual to [[transitive relation]])
@@ -104,6 +105,7 @@ Some of these are also useful internally or even classically.
 
 
 Topics relevant to the foundations of constructive mathematics:
+
 *  [[axiom of choice]]
 *  [[centipede mathematics]]
 *  [[choice object]]
@@ -121,7 +123,9 @@ Topics relevant to the foundations of constructive mathematics:
 *  [[topos]]
 *  [[truth value]]
 
+
 Other articles with content relating to constructive mathematics:
+
 *  [[axiom of foundation]]
 *  [[biproduct]]
 *  [[Cantor's theorem]]
@@ -148,6 +152,7 @@ Other articles with content relating to constructive mathematics:
 *  [[sequence]]
 *  [[Set]]
 *  [[Sierpinski space]]
+*  [[simple object]]
 *  [[sober space]]
 *  [[topological space]]
 *  [[Tychonoff theorem]]
