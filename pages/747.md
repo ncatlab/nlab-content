@@ -469,7 +469,7 @@ Any good cover $U \stackrel{\simeq}{\to} X$ is a cofibrant replacement for $X$.
 +-- {: .un_prop }
 ###### supposed Proposition
 
-Every simplicial presheaf $X $ that is dgereewise a representable is cofibrant in $SPSh(C)_proj$ and hence also in $SPSh(C)_{proj}^{loc}$.
+Every simplicial presheaf $X $ that is degreewise a representable is cofibrant in $SPSh(C)_proj$ and hence also in $SPSh(C)_{proj}^{loc}$.
 
 It follows that every presheaf that is degreewise a coproduct of representables is cofibrant.
 
@@ -512,6 +512,11 @@ $$
 $$
 
 Here we used the [[co-Yoneda lemma]] to write $X$ (objectwise) as a [[coend]] over its cells and then used the [[Yoneda lemma]] in the last step, where the assumption that $X_k$ is representable enters.
+
++--{: .query}
+[[Mike Shulman]]: Of course, a map $\Delta^k \to A(X_k)$ is of course just a $k$-simplex of $A(X_k)$, i.e. an element of $A(X_k)_k$.  That means that this end can also be described by saying: since $X\colon \Delta^{op}\to C$ and $A\colon \Delta^{op}\times C^{op} \to Set$, we have $A(X_\bullet)\colon \Delta^{op}\times \Delta\to Set$ and we are just looking at the end of this bifunctor.  Furthermore, the Yoneda lemma implies that for any category $D$ and bifunctor $H\colon D^{op}\times D\to Set$, we have $\int_d H \cong [D^{op}\times D, Set](Hom_D,H)$ where $Hom_D\colon D^{op}\times D \to Set$ is the hom-functor of $D$.  In our case $D=\Delta$ and $Hom_{\Delta}$ is the canonical cosimplicial simplicial set $k\mapsto \Delta^k$.  Since the argument below only uses the cosimplicial simplicial sets $A(X_\bullet)$ and $B(X_\bullet)$, I think basically what you are trying to prove is that if $U$ and $V$ are cosimplicial simplicial sets and $U\to V$ is an objectwise acyclic fibration of simplicial sets, then any map $Hom_{\Delta}\to V$ lifts to $U$.  In other words, the claim is that $Hom_{\Delta}$ is cofibrant in the projective model structure on cosimplicial simplicial sets.  I don't think this is true.  It is true, though, that $Hom_{\Delta}$ is cofibrant in the *Reedy* model structure on cosimplicial simplicial sets, and I think your argument actually implicitly assumes that $U\to V$ is a *Reedy* acyclic fibration of cosimplicial simplicial sets (I've pointed out where below).
+=--
+
 
 An  element in this [[end]] is equivalently a family of morphism 
 
@@ -584,7 +589,29 @@ $$
   }
 $$ 
 
-commutes. The commutativity of all these diagrams
+commutes.
+
++--{: .query}
+[[Mike Shulman]]: This is where I object; I don't see any reason for that square to commute.  I think in order to get that square to commute, you would have to lift in the diagram
+$$
+  \array{
+    \partial \Delta^1
+    &\stackrel{
+       (\delta_1 a_0  , \delta_0 a_0)
+      }{\to}& 
+    A(X_1)
+    \\
+    \downarrow & {}^{a_1}\nearrow & \downarrow
+    \\
+    \Delta^1 &\underset{(b_1,a_0\sigma^0)}{\to} & B(X_1) \times_{B(X_0)} A(X_0)
+  }
+  \,.
+$$
+for which you would have to assume that $A(X_1)\to B(X_1) \times_{B(X_0)} A(X_0)$ is an acyclic fibration, which is precisely the degree-1 part of the condition for $A(X_\bullet)\to B(X_\bullet)$ to be a *Reedy* acyclic fibration.
+=--
+
+
+ The commutativity of all these diagrams
 
 $$
   \array{
