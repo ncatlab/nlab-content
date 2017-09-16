@@ -34,7 +34,7 @@ A [[function]] can be seen as a binary relation that is both functional and enti
 
 Special kinds of binary relations on $A$ additionally include:
 * [[reflexive relation|reflexive]] and [[irreflexive relation|irreflexive]] relations;
-* [[symmetric relation|symmetric]]s, [[antisymmetric relation|antisymmetric]], and [[asymmetric relation|asymmetric]] relations;
+* [[symmetric relation|symmetric]], [[antisymmetric relation|antisymmetric]], and [[asymmetric relation|asymmetric]] relations;
 * [[transitive relation]]s and [[comparison]]s;
 * left and right [[euclidean relation]]s;
 * [[well-founded relation]]s.
