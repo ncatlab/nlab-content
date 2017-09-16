@@ -32,7 +32,7 @@ In the early works of the Russian school (Kapranov, Bondal, Orlov, [[Kontsevich]
 
 Notice that the [[derived category]] of coherent sheaves on a variety does _not_ remember all the structure of the original variety hence derived geometry loses often some information (sometimes not); thus derived algebraic geometry is sometimes easier than nonderived. 
 
-## derived structure sheaves ##
+## derived noncommutative geometry: derived structure sheaves ##
 
 On the other hand there is a closely related effort to include sheaves of commutative [[dg-algebra]]s as [[structure sheaf|structure sheaves]] (dg-schemes of Kapranov, Ciocan-Fontaine, and [[Kontsevich]]) and more generally to allow [[higher category theory|higher categorical]] [[structured (infinity,1)-topos|structured spaces]] of algebraic type, generalizing [[algebraic stack]]s, [[scheme]]s and [[algebraic space]]s. This is a [[higher category theory|higher categorical]] version of [[algebraic geometry]]: its [[vertical categorification]] is also called derived algebraic geometry. Notice that in that sense, there is no loss of information in a passage from a scheme to its natural extension to a derived scheme. 
 
@@ -57,11 +57,13 @@ Where ordinary [[algebraic geometry]] uses [[algebra]] to describe [[geometry]],
 
 #Definitions#
 
-## derived categories of sheaves ##
+## derived noncommutative geometry: stable $(\infty,1)$-categories ##
 
-> detials to be inserted here. Basic idea is to _identify_ [[triangulated category|triangulated]] [[dg-category|dg-categories]], [[A-infinity category|categories]] and other models for [[stable (∞,1)-category|stable (∞,1)-categories]] with generalized "derived" spaces and to describe morphism between them in terms of [[geometric morphism]]s between these categories. It might be noteworthy that a (accessible) stable $(\infty,1)$-category is much like a (Grothendieck) [[(∞,1)-topos]]. See the definition below.
+> details to be inserted here and harmonized with [[derived noncommutative geometry]]:
 
-## derived structure sheaves ##
+> Basic idea is to _identify_ [[triangulated category|triangulated]] [[dg-category|dg-categories]], [[A-infinity category|categories]] and other models for [[stable (∞,1)-category|stable (∞,1)-categories]] with generalized "derived" spaces and to describe morphism between them in terms of [[geometric morphism]]s between these categories. It might be noteworthy that a (accessible) stable $(\infty,1)$-category is much like a (Grothendieck) [[(∞,1)-topos]]. See the definition below.
+
+## structured $(\infty,1)$-toposes ##
 
 In
 
