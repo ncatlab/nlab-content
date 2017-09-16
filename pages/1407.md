@@ -28,7 +28,7 @@ Some of the motivations for considering this replacement of  graphs by surfaces 
 
 * while there are less choices to be made by hand, it turns out that the effective particle content that does arise automatically from this presciption happens to be structurally of the kind one would hope for: the massless effective particles described by the string perturbation series happen to be _gauge bosons_, _fermions_ charged under them, and, notably, _graviton_s. This is structurally exactly the input of the [[standard model of particle physics]] combined with perturbative gravity that one would hope to see.
 
-These aspects have motivated the impression that the string perturbation series might be consierably closer to the true formalism of fundamental physics than ordinary perturbative quantum field theory. This impression is however backset by the following problems:
+These aspects have motivated the impression that the string perturbation series might be considerably closer to the true formalism of fundamental physics than ordinary perturbative quantum field theory. This impression is however backset by the following problems:
 
 * while the worldsheet 2-d QFT whose correlators are summed over surfaces are themselves much easier to handle than the full target space quantum physics they are used to encode, a fully complete and rigorous theory of 2d QFT is available only in simple special cases. 
 
