@@ -1,0 +1,1 @@
+[[paracyclic object|Paracyclic object]] in the category of sets.
