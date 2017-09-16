@@ -16,18 +16,30 @@ $n$-Dimensional [[manifold]]s (possibly and usually equipped with certain struct
 
 * etc.
 
-A specific realization of this idea has recently been proposed in
+The $(\infinity,n)$-category of cobordisms is the subject of the [[cobordism hypothesis]].
 
-* [[Jacob Lurie]], _On the classification of Topological Field Theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
 
-(definition 2.2.9 [page 36](http://www-math.mit.edu/~lurie/papers/cobordism.pdf#page=36))
 
-in the context of [[(infinity,n)-category|(infinity,n)-categories]] modeled essentially as categories $n$-fold [[homotopy coherent category theory|homotopically]] [[enriched category|enriched]] over $Top$.
 
-The definition uses the idea of classifying manifolds and cobordisms by equipping the manifolds with _Morse functions_ and analysing the critial points of these functions: these indicate, roughly, where "handles" branch off a manifold.
+#References#
 
-In Lurie's definition the collection of critical points on a $n$-dimensional manifold is naturally organized into an $n$-fold simplicial structure, whose points are manifolds $X$ with $n$ Morse functions $X \to \mathbb{R}$ with specified ordered lists of values of critical points. Given that the [[simplex category]] $\Delta$ is just that of totally ordered sets, this naturally forms an $n$-fold simplicial structure. And it can be completed into an honest [[(infinity,n)-category]].
+A specific realization of this idea in terms of [[(infinity,n)-category]] modeled as [[n-fold complete Segal space]] is in (definition 2.2.9, page 36)
 
-For details on how this kind of construction works in low dimensions see also
+*  [[Jacob Lurie]], [[On the Classification of Topological Field Theories]].
 
-* Chris Schommer-Pries _The classification of 2-dimensional extended TFT_ ([pdf]())
+In that article a proof of the [[cobordism hypothesis]] is indicated.
+
+A detailed construction of the [[(n,r)-category|(2,2)-category]] of cobordisms is
+
+* Chris Schommer-Pries, [[2-category of 2-dimensional cobordisms]] .
+
+Other descriptions of higher categories of cobordisms are
+
+* [[Marco Grandis]], [[Cospans in Algebraic Topology]]
+
+* Eugenia Cheng and Nick Gurski, _Toward an $n$-category of cobordisms_ , Theory and Applications of Categories 18 (2007), 274-302. ([tac](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html))
+
+
+
+
+
