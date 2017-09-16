@@ -23,7 +23,7 @@ Sometimes one also imposes these conditions to ensure better behavior of the res
 * (add your favorite!)
 
 +-- {: .query}
-[[David Roberts]]: How about mentioning [[Grothendieck]]'s notion of _tame topology_? I saw in the video of [Scharlau's talk](http://www.dailymotion.com/video/x8juek_colloque-grothendieck-winfried-scha_tech) that G. wrote a lot on this, but the manuscript is lost. Do we have any idea past a vague description? (in Recoltes et Semailles or La longue marche I think.)
+[[David Roberts]]: How about mentioning [[Alexander Grothendieck]]'s notion of _tame topology_? I saw in the video of [Scharlau's talk](http://www.dailymotion.com/video/x8juek_colloque-grothendieck-winfried-scha_tech) that G. wrote a lot on this, but the manuscript is lost. Do we have any idea past a vague description? (in Recoltes et Semailles or La longue marche I think.)
 =--
 
 # References #
