@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-08 #
 
+* [[Bruce Bartlett|Bruce]]: Added discussion to [[Sandbox]] about Andrew's TikZ->SVG method. Maybe we can get good and easy graphics going soon in Instiki!
+
 * [[Urs Schreiber|Urs]]:
 
   * added lots of further stuff to [[simplex category]]
