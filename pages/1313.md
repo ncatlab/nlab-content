@@ -29,13 +29,15 @@ As before, let $C$ be a category and $X,Y\in C$.
 Dually, a __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^{op}$.  A __[[cocartesian coclosed category]]__ has all of these (and an [[initial object]]).
 
 +--{: .query}
-[[Mike Shulman|Mike]]: Is 'cocartesian closed' really good terminology?  The intended interpretation is of course co-(cartesian closed), but it sounds to me more like a cocartesian monoidal category which is closed monoidal.  What about 'cocartesian coclosed?'
-
-_Toby_:  Yes, you\'re right, of course.
-
 _David_: How should entries involving the cocartesian property be organised? How many of the eight possibilities (co)cartesian (co)monoidal (co)closed are worth mentioning? Sixteen with (co)category?
 
 _Toby_:  Potentially all of them, but in practice only the ones that come up.  This one only came up since I wanted to say what a coexponential object was and (in context) it was natural to ask what is a category that has all of these.  But that doesn\'t mean that anybody actually has to create the page, much less the others.  On the other hand, if there\'s something interesting to say about them, then we should have them!
+
+[[Mike Shulman|Mike]]: One place where coexponential objects occur naturally is in algebraic categories whose opposites are viewed as categories of spaces.  So for instance [[ring]]s, or [[frame]]s, or the categories of [[locus|loci]] used in [[synthetic differential geometry]], have some interesting coexponential objects (although none of them is actually cocartesian coclosed).
+
+There is no difference between monoidal and comonoidal (there is a bijection between monoidal structures on $C$ and on $C^{op}$), so your eight possibilities are really only four.  And there aren't many cocartesian closed (or cartesian coclosed) categories; that would mean you have an object $[Y,X]$ and an isomorphism
+$$C(Z,[Y,X]) \cong C(Z\sqcup Y, X) \cong C(Z,X) \times C(Y,X)$$
+Taking $Z$ to be the initial object, we see that $C(Y,X)\cong *$ for any objects $X,Y$.  So the only cocartesian closed categories are [[(-1)-category|(-1)-categories]].
 =--
 
 
