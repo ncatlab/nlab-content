@@ -12,7 +12,7 @@ In the special case that $C = $ [[SSet]] is the standard [[model structure on si
 
 For $C$ a [[combinatorial model category]] and $D$ a [[small category]] there exists the following two [[combinatorial model category]] structures on the [[functor category]] $[D,C]$:
 
-* the **projectieve** structure: weak equivalences and fibrations are the [[natural transformation]]s that are objectwise such morphisms in $C$. (The cofibrations are then defined by their [[weak factorization system|lifting property]].)
+* the **projective** structure: weak equivalences and fibrations are the [[natural transformation]]s that are objectwise such morphisms in $C$. (The cofibrations are then defined by their [[weak factorization system|lifting property]].)
 
 * the **injective** structure: weak equivalences and cofibrations are the [[natural transformation]]s that are objectwise such morphisms in $C$. (The fibrations are then defined by their [[weak factorization system|lifting property]].)
 
