@@ -1918,11 +1918,17 @@ In short, $\mathop{r}(p q)$ is a constant field, having the value $\mathop{d}p \
 
 # Least Action Operators #
 
-We have been contemplating functions of the type $f : X \to \mathbb{B}$ and studying the action of the operators $\operatorname{E}$ and $\operatorname{D}$ on this family.  These functions, that we may identify for our present aims with propositions inasmuch as they capture their abstract forms, are logical analogues of _scalar potential fields_.  These are the sorts of fields that we find so picturesquely presented in elementary calculus and physics textbooks by images of snow-covered hills and parties of skiers who trek down their slopes like least action heroes.  The analogous scene in propositional logic presents us with forms more reminiscent of plateaunic idylls, being all plains at either one of two levels --- the mesas of falsity and verity, with nary a niche to inhabit between them --- restricting our options for a sporting gradient of downhill dynamics to just one of two possibilities:  either standing still on level ground or falling off a bluff.
+We have been contemplating functions of the type $f : X \to \mathbb{B}$ and studying the action of the operators $\operatorname{E}$ and $\operatorname{D}$ on this family.  These functions, that we may identify for our present aims with propositions inasmuch as they capture their abstract forms, are logical analogues of _scalar potential fields_.  These are the sorts of fields that we find so picturesquely presented in elementary calculus and physics textbooks by images of snow-covered hills and parties of skiers who trek down their slopes like least action heroes.  The analogous scene in propositional logic presents us with forms more reminiscent of plateaunic idylls, being all plains at either one of two levels --- the mesas of falsity and verity, with nary a niche to inhabit between them --- restricting our options for a sporting gradient of downhill dynamics to just one of two possibilities:  either standing fast on level ground or falling off a bluff.
 
 We are still working well within the logical analogue of the classical finite difference calculus, taking in the novelties that the logical transmutation of familiar elements is able to bring to light.  Soon we will take up several different notions of approximation relationships that may be seen to organize the space of propositions, and these will allow us to define several different forms of differential analysis applying to propositions.  In time we will find reason to consider more general types of maps, having concrete types of the form $X_1 \:\times\: \ldots \:\times\: X_k \to Y_1 \:\times\: \ldots \:\times\: Y_n$ and abstract types $\mathbb{B}^k \to \mathbb{B}^n$.  We will think of these mappings as transforming universes of discourse into themselves or into others, in short, as _transformations of discourse_.
 
-Before we continue with this itinerary, however, I would like to highlight another sort of differential aspect that concerns the _boundary operator_ or the _marked connective_ that serves as one of the two basic connectives in the [[cactus language]] for [[zeroth order logic]].
+Before we continue with this itinerary, however, I would like to highlight another sort of differential aspect that concerns the _boundary operator_ or the _marked connective_ that serves as one of the two basic connectives in the [[cactus language]] for zeroth order logic.
+
+For example, consider the proposition $f$ of concrete type $f : P \times Q \times R \to \mathbb{B}$ and abstract type $f : \mathbb{B}^3 \to \mathbb{B}$ that is written $\texttt{&#x2997;} p, q, r \texttt{&#x2998;}$ in cactus syntax.  Taken as an assertion under the _existential interpretation_, the proposition $\texttt{&#x2997;} p, q, r \texttt{&#x2998;}$ says that just one of $p, q, r$ is false.  It is instructive to consider this assertion in relation to the logical conjunction $p q r$ of the same propositions.  A venn diagram of $\texttt{&#x2997;} p, q, r \texttt{&#x2998;}$ looks like this:
+
+<center>
+<img alt="Minimal Negation Operator (P,Q,R)" src="/nlab/files/Minimal_Negation_Operator_lPcQcRr.jpg" width="500" />
+</center>
 
 # External Links #
 
@@ -1948,4 +1954,4 @@ Templates ---
 
 Upload Queue ---
 
-[[Minimal_Negation_Operator_lPcQcRr.jpg|Minimal Negation Operator (P,Q,R):pic]]
+$\varnothing$
