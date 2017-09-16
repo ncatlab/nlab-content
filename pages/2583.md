@@ -17,8 +17,13 @@ $$
   \in Top
   \,,
 $$
++--{: .query}
+[[David Roberts]]: This is the Whitehead tower of $BO(n)$, not that of $O(n)$. The string group sits in the tower for the latter.
+=--
 
 so the **string 2-group** is the [[Whitehead tower]] element above $Spin(n)$, but now regarded in an [[(infinity,1)-topos]] $\mathbf{H}$ of smooth [[infinity-groupoid]]s:
+
+
 
 $$
  (
@@ -35,6 +40,11 @@ $$
   \in \mathbf{H}
   \,.
 $$
+
+
++--{: .query}
+[[David Roberts]]: And by this I presume it is meant the tower of the delooping of $O(n)$ in $\mathbf{H}$.
+=--
 
 It is in $\mathbf{H}$ the [[homotopy fiber]] of the morphism
 
