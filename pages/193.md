@@ -61,3 +61,7 @@ When interpreted in the prototypical 2-category [[Cat]], $C$ and $D$ are [[categ
 #Remarks#
 
 Essentially everything that makes category theory nontrivial and interesting can be derived from the concept of adjunction. In particular [[universal construction]]s such as [[limit|limits and colimits]] are examples of certain adjunctions.
+
+#References#
+
+* Catsters, _Adjunctions_ ([YouTube](http://www.youtube.com/watch?v=loOJxIOmShE&feature=channel_page))
