@@ -54,6 +54,9 @@ $$\mu(\bigcup_{i = 1}^{\infty} S_i) = \sum_{i=1}^{\infty} \mu(S_i); \qquad \mu(\
 [[Eric]]: Is there some nice "arrow theoretic" way to state the above? It seems to be screaming to be a functor or an internalization or something.
 
 [[Eric]]: The "products" $\bigcup$ and $\sum$ look like they should be "products" in two different categories. Is that silly?
+
+[[John Baez]]: $\bigcup$ is less like a "product" than a  "sum" --- also known as a [[coproduct]].  The collection of subsets of $X$ is a [[poset]], which is a kind of category, and the union of a bunch of subsets can be seen as their coproduct in this category.  Unfortunately I don't see a great way to understand the sum of real numbers as a coproduct!  So, I can't quite do what I think you're hoping for.
+
 =--
 
 whenever the $S_i$ are mutually disjoint. A **measure space** consists of a measurable space and a measure on it. A measure space $(X, \Sigma, \mu)$ for which $\mu(X) = 1$ is often called a **probability space** (at least in probabilistic contexts!). 
