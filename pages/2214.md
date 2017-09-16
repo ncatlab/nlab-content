@@ -25,7 +25,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
-## 2009-09-05
+## 2009-09-06
 
 * [[Todd Trimble]]: responded to something Rafael wrote at [[category theory]], and asked a question at the bottom of the timeline page. 
 
@@ -52,6 +52,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * Wrote a little more on [[extended topological quantum field theory]] but don't know the right references. Put that request in a query box.
 
   * Debate at the timeline.
+
+
+## 2009-09-05
 
 *  Note spelling:  [[Saunders Mac Lane]].
 
