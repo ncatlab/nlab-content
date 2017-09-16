@@ -6,6 +6,10 @@
 
 In functional analysis, a distribution (or generalized function) is a functional on a space of functions which typically is not representable by a function itself. They are often used to give a notion of derivative of a function which has no derivative in the classical sense of Lebesgue integration theory, and to give an abstract framework in which one can describe fundamental solutions to partial differential equations. 
 
++--{.query}
+Zoran: in $\mathbb{R}^n$ the distributions and generalized functions boil down to the same thing, so the terminology identifies them. But on manifold, the distributions (functionals on test functions) and generalized functions (functionals on test *densities*) do not agree. See Guillemin, Sternberg: Geometric asymptotics. While generalized functions pull back, distributions push forward.
+=--
+
 Generalized functions were introduced by Sobolev in 1935, and independently (under the name _distributions_) by Laurent Schwartz in the 1940's, who unaware of Sobolev's work developed an extensive theory for them. 
 
 ## Definitions 
