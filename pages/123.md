@@ -125,19 +125,19 @@ $$F\circ F_R^{-1} = 1_V,$$
 
 then we can construct a functor 
 
-$$F^{op}:\mathbf{B} End(V)\to\mathbf{B} End(U)$$
+$$F^*:\mathbf{B} End(V)\to\mathbf{B} End(U)$$
 
 by defining its action on objects by
 
-$$F^{op}(V) = F_R^{-1}(V)$$
+$$F^*(V) = F_R^{-1}(V)$$
 
 and its action on endomorphisms by
 
-$$F^{op}(f) = F_R^{-1} f F.$$
+$$F^*(f) = F_R^{-1} f F.$$
 
 Composition follows immediately
 
-$$F(f g) = F_R^{-1} f g F = F_R^{-1} f F F_R^{-1} g F = F(f) F(g).$$
+$$F^*(f g) = F_R^{-1} f g F = F_R^{-1} f F F_R^{-1} g F = F^*(f) F^*(g).$$
 
 Identity morphisms are preserved since for any vector $x$ in $F_R^{-1}(V)\subset U$, then 
 
@@ -145,10 +145,10 @@ $$x = F_R^{-1}y$$
 
 for some vector $y$ in $V$ and we have
 
-$$F^{op}(1_V)x = F_R^{-1}\circ F x = F_R^{-1}\circ F \circ F_R^{-1} y = F_R^{-1} y = x$$
+$$F^*(1_V)x = F_R^{-1}\circ F x = F_R^{-1}\circ F \circ F_R^{-1} y = F_R^{-1} y = x$$
 
 so that
 
-$$F^{op}(1_V) = 1_{F^{op}(V)}$$
+$$F^*(1_V) = 1_{F^*(V)}$$
 
-as required. Hence, $F^{op}$ is a functor.
+as required. Hence, $F^*$ is a functor.
