@@ -1,9 +1,8 @@
 <div class="rightHandSide toc">
 
-##Table of Contents##
+**[[HomePage|nLab]]**
 
-
-###$n$Lab###
+##Contents##
 
 * [[Content|Content]]
 
