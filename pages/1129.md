@@ -1,10 +1,13 @@
+* toc
+{: toc}
+
 #Definition#
 
 There is a very general notion of _injective objects_ in a category $C$, and a sequence of refinements as $C$ is equipped with more [[stuff, structure, property|structure and property]], in particular for $C$ an [[abelian category]] [[additive and abelian categories|or a relative]].
 
 ## General definition ##
 
-Let $C$ be a [[category]] and $J$ a collection of morphisms in $C$. Frequently $J$ is the class of all [[monomorphism]]s or a related class.  An object $I$ in $C$ is **$J$-injective** if all diagrams
+Let $C$ be a [[category]] and $J$ a collection of morphisms in $C$.  Frequently $J$ is the class of all [[monomorphism]]s or a related class.  An object $I$ in $C$ is **$J$-injective** if all diagrams
 
 $$
   \array{
@@ -47,7 +50,7 @@ $$
 
 as for [[weak factorization system|factorization systems]].
 
-If $C$ is a [[small category]] then $I$ is $J$-injective precisely if the [[hom-functor]]
+If $C$ is a [[locally small category]] then $I$ is $J$-injective precisely if the [[hom-functor]]
 
 $$
   Hom_C(-,I) : C^{op} \to Set
@@ -55,20 +58,14 @@ $$
 
 takes morphisms in $J$ to [[epimorphism]]s in [[Set]].
 
+If $J$ is the class of all monomorphisms, we speak merely of an **injective object**.  We say that a category $C$ has **enough injectives** if every object admits a monomorphism into an injective object.
+
 The dual notion is a [[projective object]].
 
 
 ## In abelian categories ##
 
-More specifically, the term _injective object_ is used in the context that  $C$ is an [[abelian category]] for $J$ the class of morphisms $f : X \to Y$ such that $0 \to X \stackrel{f}{\to} Y$ is [[exact sequence|exact]].  (Then $J$ is simply the class of all [[monomorphism]]s, but abelian category theorists like to think about exact sequences.)
-
-+--{: .query}
-[[Mike Shulman|Mike]]: Unless I'm very confused, in an abelian category, that is just the class of all monomorphisms.  But maybe you have some more general context in mind?
-
-_Toby_:  I think that it\'s just a cultural preference, as I wrote above.
-=--
- 
-Then an [[object]] $I$ of $C$ is **injective** if it satisfies the following equivalent conditions:
+The term _injective object_ is used most frequently in the context that $C$ is an [[abelian category]].  In this case the class $J$ of monomorphisms is the same as the class of morphisms $f : X \to Y$ such that $0 \to X \stackrel{f}{\to} Y$ is [[exact sequence|exact]].  An [[object]] $I$ of an abelian category $C$ is then **injective** if it satisfies the following equivalent conditions:
 
 * the [[hom-functor]] $Hom_C(-, I) : C^{op} \to Set$ is [[exact functor|exact]];
 
@@ -86,56 +83,19 @@ $$
   \,.
 $$
 
-## In categories of chain complexes ##
+## In chain complexes
 
-Let $A$ be an [[abelian category]] [[category with translation|with translation]]. 
-
-An object in the category of [[complex]]es modulo chain homotopy, $K(A)$, 
-of an [[abelian category]] $C$ is **homotopically injective** if for every $X \in K(C)$ that is
-[[quasi-isomorphism|quasi-isomorphic]] to $0$
-we have
-$$
-  Hom_{K(C)}(X,I) \simeq 0
-  \,.
-$$
-
-Let $QuasiIsoMono = \{f \in Mor(A_c) | f mono and quasiio\}$ be the set of morphisms in the category of [[complex]]es $A_c$ which are both [[quasi-isomorphism]]s as well as [[monomorphism]]s. 
-
-Then
-
-A [[complex]] $I$ is injective with respect to monomorphic quasi-isomorphisms precisely if
-
-* it is homotopically injective in the sense of complexes in $A$;
-
-* it is injective as an object of $A$ (with respect to morphisms $f : X \to Y$ such that $0 \to X \stackrel{f}{\to} Y$ is exact).
+See [[homotopically injective object]] for a relevant generalization to categories of chain complexes, and its relationship to ordinary injectivity.
 
 
-#Existence of injective objects#
+# Examples
 
+* Every [[topos]] has enough injectives.  In fact, every [[power object]] can be shown to be injective, and every object embeds into its power object by the "singletons" map.
 
-## In complexes in a Grothendieck category ##
+* At least assuming some form of the [[axiom of choice]], the category of [[abelian groups]] has enough injectives.  Full AC is much more than required, however; [[small violations of choice]] suffices.  The abelian category of [[modules]] over some [[ring]] is similar.
 
-**Proposition** 
-For $A$ a [[Grothendieck category]] [[category with translation|with translation]] $T : C  \to C$, every [[complex]] $X$ in $A_c$ is quasi-isomorphic to a complex $I$ which is injective and homotopically injective (i.e. QuasiIsoMono-injective).
+* The category of abelian [[sheaves]] on any small [[site]] also has enough injectives.  This is in stark contrast to the situation for projectives, which generally do not exist in categories of sheaves.
 
-# Relation to derived categories #
-
-For $A$ an [[abelian category|abelian]] [[Grothendieck category|Grothendieck category]] [[category with translation|with translation]] the full [[subcategory]] $K_{hi}(A) \subset K(A)$ of _homotopically injective_ complexes realizes the [[derived category]] $D(A)$ of $A$:
-
-$$
-  Q|_{K_{hi}(A)} : K_{hi}(A) \stackrel{\simeq}{\to} D(A)
-  \,,
-$$
-
-where $Q : K(A) \to D(A)$ and $Q|_{K_{hi}(A)}$ has a [[adjoint functor|right adjoint]].
-
-It follows that for $D$ any other [[triangulated category]], every triangulated functor $F : K(A) \to D$ has a right [[derived functor]] $R F : D(A) \to D$ which is computed by evaluating $F$ on _injective replacements_: for 
-$R : D(A) \stackrel{\simeq}{\to} K_{hi}(A)$ a weak inverse to $Q$, we have
-
-$$
-  R F \simeq D(A) \stackrel{R}{\to} K_{hi}(A) \hookrightarrow K(A) \stackrel{F}{\to} D
-  \,.
-$$
 
 #References#
 
