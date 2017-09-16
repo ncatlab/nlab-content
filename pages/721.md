@@ -31,7 +31,7 @@ topological space/manifold.  Other pretopologies on [[Top]] include:
 * Surjective [[topological submersion|topological submersions]]
 * Surjective [[local homeomorphism|local homeomorphisms]]
 
-An example for the category of manifolds is the pretopology of [[surjective submersion]]s.  All of these have covering families consisting of single arrows.
+An example for the category of manifolds is the pretopology of [[surjective submersion]]s.  All of these have covering families consisting of single arrows. Such a pretopology is called a *singleton* pretopology (or, if you prefer the name [[coverage]], a singleton coverage).
 
 +--{.query}
 David Roberts says: I propose some sort of name for this property,
