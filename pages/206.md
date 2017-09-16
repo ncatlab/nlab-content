@@ -14,3 +14,5 @@ Various fields of mathematics or mathematical concepts can be manipulated in an 
 #Further references#
 
 * See [_Wikipedia_](http://en.wikipedia.org/wiki/Algebra)
+
+[[!redirects algebras]]
