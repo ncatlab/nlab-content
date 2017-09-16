@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-27 #
 
+* [[Urs Schreiber|Urs]]
+
+  * created [[plus construction]] -- the material that should go there is currently at [[sheaf]]; should be extracted from there eventually
+
+  * added a link to the great Catsters video material to [[limits and colimits by example]] and created [[The Catsters]] and [[Eugenia Cheng]]
+
 * [[David Corfield|David]] created [[extended natural numbers]], [[corecursion]], and [[coalgebra for an endofunctor]]. Moved proof of terminal coalgebra being fixed point to [[terminal coalgebra]]. 'Coalgebra' still needs disambiguation.
 
 # 2009-05-26 #
