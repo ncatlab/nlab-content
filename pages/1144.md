@@ -4,6 +4,10 @@
 [[!include differential graded objects - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 As with many other parts of [[homotopy theory]] one can view _rational homotopy theory_ in two ways:
