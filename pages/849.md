@@ -77,6 +77,8 @@ By 'groupoid theorists descended from Brandt' I really meant all those who see g
 By the way, it's not true that every closed category is [[concrete category|concrete]]: homming out of $I$ need not be faithful.  Take simplicial sets, for instance, or even $Cat$.
 =--
 
+
 [[!redirects internal homs]]
 [[!redirects inner hom]]
 [[!redirects inner homs]]
+[[!redirects internal-hom]]
