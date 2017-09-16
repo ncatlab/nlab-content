@@ -31,7 +31,7 @@ In fact, $C$ is a [[filtered category]] if and only if this is true for all fini
 
 Let $C$ be a category with [[pullback]]s and [[colimit]]s of shape $D$. 
 
-We say that colimits of shape $D$ are **stable by base change** or **stable under pullback** if for every functor $F : D \to C$ and for all [[pullback]] diagrams of the form
+We say that colimits of shape $D$ are **stable by [[base change]]** or **stable under pullback** if for every functor $F : D \to C$ and for all [[pullback]] diagrams of the form
 
 $$
   \array{
@@ -53,12 +53,12 @@ $$
 
 is an [[isomorphism]].
 
-This is true for instance for 
+All colimits are stable under base change in for instance
 
 * $C =$ [[Set]];
-
 * hence for $C =$ a [[presheaf]] category $[S^{op},Set]$ (since colimits in such $C$ are computed objectwise in $Set$), see [[limits and colimits by example]]);
+* more generally, any [[topos];
 
-but not for instance for
+but not in for instance
 
 * $C = $ [[Ab]].
