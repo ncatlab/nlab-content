@@ -40,7 +40,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Gabriel C Drummond-Cole]]
 * [[Gavin Wraith]]
 * [[Geoff Cruttwell]]
-* [[Gonçalo Marques]]
+* [[Gonçalo Marques|Gonçalo]] [[Goncalo Marques|Marques]]
 * [[Gordon Royle]]
 * [[Greg Egan]]
 * [[Hugh Thomas]]
