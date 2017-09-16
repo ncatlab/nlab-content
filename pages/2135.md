@@ -20,7 +20,7 @@ One can also [[vertical categorification|categorify]] the concept of space.  As 
 In [[Structured Spaces]], [[Jacob Lurie]] provides a coherent general picture of generalized notions of space in the context of
 [[higher geometry]] (often called "derived geometry"). Here is an outline of the central aspects. 
 
-The **central ingredient** which we choose at the beginning to get a theory of [[higher geometry]] going is an [[(∞,1)-category]] $\mathcal{G}$ whose objects we think of as **model spaces** : the simplest objects exhibiting the geometric structures that we mean to consider.
+The **central ingredient** which we choose at the beginning to get a theory of [[higher geometry]] going is an [[(∞,1)-category]] $\mathcal{T}$ whose objects we think of as **model spaces** : the simplest objects exhibiting the geometric structures that we mean to consider.
 
 +-- {: .standout}
 
@@ -28,22 +28,24 @@ The **central ingredient** which we choose at the beginning to get a theory of [
 
 * with smooth structure
 
-  * $\mathcal{G} = $ [[Diff]], the category of smooth [[manifold]]s;
+  * $\mathcal{T} = $ [[Diff]], the category of smooth [[manifold]]s;
 
-  * $\mathcal{G} = \mathbb{L}$, the category of [[smooth locus|smooth loci]];
+  * $\mathcal{T} = \mathbb{L}$, the category of [[smooth locus|smooth loci]];
 
 * without smooth structure
 
-  * $\mathcal{G} = (C Ring^{fin})^{op}$, the formal dual of [[CRing]]: the category of (finitely generated) algebraic [[affine scheme]]s;
+  * $\mathcal{T} = (C Ring^{fin})^{op}$, the formal dual of [[CRing]]: the category of (finitely generated) algebraic [[affine scheme]]s;
 
-  * $\mathcal{G} = (sC Ring^{fin})^{op}$, the formal dual of [[simplicial object]]s in  [[CRing]];
+  * $\mathcal{T} = (sC Ring^{fin})^{op}$, the formal dual of [[simplicial object]]s in  [[CRing]];
 
-  * $\mathcal{G} = (E_\infty Ring^{fin})^{op}$, the formal dual of [[E-∞ ring]]s: the category of (finitely generated) algebraic derived [[affine scheme]]s.
+  * $\mathcal{T} = (E_\infty Ring^{fin})^{op}$, the formal dual of [[E-∞ ring]]s: the category of (finitely generated) algebraic derived [[affine scheme]]s.
 
 =--
 
 
-These [[(∞,1)-category|(∞,1)-categories]] $\mathcal{G}$ are naturally equipped with the structure of a [[site]] (and a bit more, which we won't make explicit for the present purpose). Following [[Jacob Lurie]] we call such a $\mathcal{G}$ a **[[geometry (for structured (infinity,1)-toposes)|geometry]]** . 
+These [[(∞,1)-category|(∞,1)-categories]] $\mathcal{T}$ are naturally equipped with the structure of a [[site]] (and a bit more, which we won't make explicit for the present purpose). Following [[Jacob Lurie]] we call such a $\mathcal{T}$ a **(pre-)[[geometry (for structured (infinity,1)-toposes)|geometry]]** . 
+
+Every pregeometry $\mathcal{T}$ gives rise to a [[geometry (for structured (infinity,1)-toposes)|geometry]] $\mathcal{G}$ -- it's _geometric envelope_ . Roughly speaking, this contains not just the original test spaces but also their [[higher geometry|derived version]]. More on this below. 
 
 We want to be talking about generalized spaces _modeled on_ the objects of $\mathcal{G}$. There is a hierarchy of notions of what that may mean:
 
