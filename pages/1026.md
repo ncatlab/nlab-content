@@ -20,6 +20,8 @@ $$
   \,.
 $$
 
-# Warning #
+# Warnings #
 
-Topologists sometimes use "continuous functor" to mean a functor [[enriched category|enriched]] over [[Top]], since a functor between topologically enriched categories is enriched iff its actions on hom-spaces are continuous functions.
+1. Topologists sometimes use "continuous functor" to mean a functor [[enriched category|enriched]] over [[Top]], since a functor between topologically enriched categories is enriched iff its actions on hom-spaces are continuous functions.
+
+2. H. Bass in his treatment of K-theory (and more recently A. Rosenberg and some others) use "continuous functor" in the sense "additive functor having right adjoint". 
