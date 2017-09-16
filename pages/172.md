@@ -1,5 +1,5 @@
 [[!redirects ∞-stack]]
-
+[[!redirects ∞-stacks]]
 
 #Idea#
 
