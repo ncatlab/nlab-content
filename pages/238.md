@@ -12,6 +12,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-10 #
+
+* [[David Roberts]]: Put next, very drafty, chapter of my thesis on my personal web. Just click on my name and follow the white rabbit. 
+
+
 # 2009-06-09 #
 
 *  More new pages:  [[Freudenthal suspension theorem]], [[replete subcategory]], [[strictly full subcategory]].
