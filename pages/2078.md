@@ -13,4 +13,4 @@ Peter Johnstone works in [[topos theory]].
 *  [home page](http://www.dpmms.cam.ac.uk/site2002/People/johnstone_pt.html)
 
 
-category: biography
+category: people
