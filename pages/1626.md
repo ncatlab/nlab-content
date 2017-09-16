@@ -1,6 +1,6 @@
 ## Idea ##
 
-A space is _connected_ if it can\'t be split up into two independent parts.  Every space is a [[disjoint union]] (but *not* necessarily a [[coproduct]] in the category of spaces) of connected _components_.  One often studies topological ideas first for connected spaces and the generalises to general spaces; this is especially true if one is studying such [[nice topological space]]s that every space *is* a coproduct of connected components.
+A space is _connected_ if it can\'t be split up into two independent parts.  Every space is a [[disjoint union]] (but *not* necessarily a [[coproduct]] in the category of spaces) of connected _components_.  One often studies topological ideas first for connected spaces and then generalises to general spaces; this is especially true if one is studying such [[nice topological space]]s that every space *is* a coproduct of connected components.
 
 ## Definitions ##
 
@@ -24,7 +24,7 @@ The elementary definitions above have been carefully phrased to be correct in [[
 
 1. The [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ is connected.
 
-1. (Wide) [[pushout]]s of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Top$ commute with wide pullbacks.
+1. (Wide) [[pushout]]s of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Top$ commute with wide pullbacks. More memorably: connected colimits of connected spaces are connected. 
 
 1. An arbitrary [[product]] of connected spaces is connected.
 
@@ -37,7 +37,7 @@ The elementary definitions above have been carefully phrased to be correct in [[
 Every topological space $X$ admits an [[equivalence relation]] $\sim$ where $x \sim y$ means that $x$ and $y$ belong to some subspace which is connected. The equivalence class $Conn(x)$ of an element $x$ is thus the union of all connected subspaces containing $x$; it follows readily from the basic results above that $Conn(x)$ is itself connected. It is called the **connected component** of $x$. It is closed, by one of the basic results above.
 
 Alternatively, observe that if $x \in C$ and $x \in K$, where $C$ is a connected subspace and $K$ is clopen, then $C \subseteq K$. Moreover, the intersection of all clopens containing $x$ is itself connected (because it cannot be further subdivided by a clopen). Hence
-$$ Conn(x) = \bigcup \{ clopen K \;:\; x \in K \} .$$
+$$ Conn(x) = \bigcap \{ clopen K \;:\; x \in K \} .$$
 If we define connected components with this formula, then we can define a space to be connected if and only if it has exactly one connected component (or at most one, if you allow the empty space to be connected).
 
 +-- {: .un_remark}
