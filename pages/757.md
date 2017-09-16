@@ -56,6 +56,8 @@ This is theorem 3.3.19 in _ModLoc_ .
 
   _Rafael Borowiecki_: How do this relate to Bousfield localization for spectra?
 
+  _Rafael_: Could it be the Bousfield localization of a model category of spectra?
+
 =--
 
 #Bousfield localization in triangulated categories#
