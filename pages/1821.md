@@ -6,6 +6,13 @@
 A [[chain complex]] in non-negative degree is, under the [[Dold-Kan correspondence]] a [[homological algebra]] model for a particularly nice [[topological space]] or [[∞-groupoid]]: namely one with an abelian group structure on it.
 +--{: .query}
 [[David Roberts]]: Should this be _of the homotopy type of an abelian topological group_? Or an $E_\infty$-algebra?
+
+[[Urs Schreiber|Urs]]: I thought the statement (at least the strictest version of what that statement can be) of the [[Dold-Kan correspondence]] is that non-negatively graded chain complexes of abelian groups are equivalent to simplicial sets internal to abelian groups. Since these are necessarily Kan complexes, I phrased this as "$\infty$-groupoids with abelian group structure" (strict abelian group structure, that is). 
+
+So these in particular have the homotopy type of an abelian group, and in particular are special cases of $E_\infty$-spaces, but are much more restrictive, in that there is on the nose a strict abelian group structure around.
+
+That's what I am thinking. But let me know if I am mixed up. And please feel free to improve on the presentation here as you see the need. I don't have time for this entry right now, will try to come back to it later.
+
 =--
 Accordingly, an unbounded (arbitrary) [[chain complex]] is a model for a [[spectrum]] with abelian group structure. 
 
@@ -289,3 +296,9 @@ Comparing with the general definition of cocycles and coboudnaries from above, o
 * Baez, [Lectures On n-Categories and Cohomology](http://math.ucr.edu/home/baez/cohomology.pdf)
 
   * See, in particular, the discussion beginning at the bottom of page 24.
+
++--{: .query}
+
+[[Urs Schreiber]] Maybe it would be useful for the reader to point out and maybe reproduce which aspect of that reference is related how to the above. It seems to me that the discussion on that page 24 and following is more related to [[Postnikov system]] and eventually to the discussion of how "ordinary abelian" cohomology sits inside some nonabelian cohomology which i'd think  should eventually go to [[generalized (Eilenberg-Steenrod) cohomology]] or entries branched off from that.
+
+=--
