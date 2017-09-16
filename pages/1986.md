@@ -27,9 +27,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Jon Awbrey]]: almost ready for prime time $\nu$'s
    * [[cactus language]]
    * [[differential logic]]
+   * [[hypostatic abstraction]]
    * [[inquiry driven system]]
    * [[logical graph]]
    * [[minimal negation operator]]
+   * [[Peirce's law]]
+   * [[praeclarum theorema]]
    * [[propositional equation reasoning system]]
    * [[relation theory]]
    * [[riffs & rotes]]
