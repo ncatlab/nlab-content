@@ -37,6 +37,9 @@ Previous:
 
 * [[A Survey of Elliptic Cohomology - formal groups and cohomology]]
 
+Next:
+
+* [[A Survey of Elliptic Cohomology - elliptic curves]]
 
 
 >the following are rough unpolished notes taken more or less verbatim from some seminar talk -- needs attention, meaning: **somebody should go through this and polish**
