@@ -888,7 +888,12 @@ Any loop object $\Omega B$ becomes a group object in $Ho_C$, i.e. a group [[inte
 
 
 
+# Application in cohomology theory #
 
+When the catgegory of fibrant objects is that of locally Kan simplicial sheaves, the [[hom-set]]s of its 
+[[homotopy category]] compute generalized notions of [[cohomology]].
+
+At [[abelian sheaf cohomology]] is a detailed discussion of how the ordinary notion of sheaf cohomology arises as a special case of that.
 
 
 #References#
