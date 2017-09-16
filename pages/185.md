@@ -8,7 +8,7 @@ These generalized smooth algebras, usually called **$C^\infty$-rings** are examp
 
 #Motivating example#
 
-For $X$ a smooth manifold, the assignment
+For $X$ a smooth [[manifold]], the assignment
 $$
   \mathbb{R}^n \mapsto C^\infty(X,\mathbb{R}^n)
 $$
