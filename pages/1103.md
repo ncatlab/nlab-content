@@ -6,6 +6,8 @@
 ##Differential graded algebras
 
 This will, for the moment duplicate, overlap and perhaps conflict with [[dg-algebra]]. The approach adopted here  favours the 'internal' idea of a graded algebra, involving a direct sum decomposition, which can often seem more natural than the 'external' one as an indexed family of vector spaces etc. Of course, there are instances and examples where the converse is true!
+
+(The previous entry in this lexicon can be found at [[differential graded vector space]].)
 =--
 
 ###Pre-graded algebras
