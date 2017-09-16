@@ -169,6 +169,8 @@ The subspace structure on $\{0,*\}$ is thus the _indiscrete_ structure.
 Then we need to replace each coequaliser but its Hausdorffification.
 Now the distinction is clear since taking the product and then the coequaliser yields $Y \coprod Y$ as before but taking the coequaliser and then the product yields just $Y$.
 
+   It is also worth pointing out that with the modification of the previous paragraph, this example only involves manifolds (assuming that $Y$ is chosen to be a manifold).  It therefore shows that a category extending that of smooth manifolds can __either__ be locally cartesian closed __or__ preserve limits and colimits from manifolds _but not both_.
+
 ***
 
 # Isbell Envelope # {#isbell}
