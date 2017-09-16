@@ -87,3 +87,5 @@ The proof of Giraud's theorem for [[(∞,1)-topoi]] is section 6.1.5 of
 [[!redirects Giraud axiom]]
 [[!redirects Giraud's theorem]]
 [[!redirects Giraud theorem]]
+[[!redirects sheaf topos]]
+[[!redirects sheaf toposes]]
