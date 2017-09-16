@@ -2,6 +2,8 @@
 
 The [[foundations]] of [[mathematics]] may seem to be a topic curiously disconnected from the the rest of mathematics. This is not quite so. This page lists examples where questions of foundations do affect questions and problems in "real world" mathematics.
 
+See also Wikipedia\'s [list of statements undecidable in ZFC](http://en.wikipedia.org/wiki/List_of_statements_undecidable_in_ZFC).
+
 #Contents#
 * automatic table of contents goes here 
 {:toc}
