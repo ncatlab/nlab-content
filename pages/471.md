@@ -13,11 +13,11 @@
 An _interval object_ $I$ in a [[category]] $C$ is an [[object]] that behaves in $C$ roughly like the unit interval $I := [0,1]$ with its two boundary point inclusions 
 
 $$
-  {*}\sqcup {*} \stackrel{0\sqcup 1}{\to}
+  {*}\amalg {*} \stackrel{[0, 1]}{\to}
   I 
 $$
 
-in the category [[Top]] of [[topological space]]s.
+in the category [[Top]] of [[topological space]]s, where $[0,1]$ is the [[copairing]] of the [[global elements]] $0\colon {*} \to I$ and $1\colon {*} \to I$.
 
 A bare interval object may be nothing more than such a diagram. If $C$ admits sufficiently many [[limit]]s and [[colimit]]s, then from this alone a lot of structure derives. The precise definition of further structure and property imposed on an interval object varies with the intended context and applications. 
 
@@ -55,7 +55,7 @@ in $C$, with $I$ and $pt$ any two objects and $0$ and $1$ any two morphisms.
 
 =--
 
-## definition in categorie with finite limits ## 
+## definition in categories with finite limits ## 
 
 +-- {: .un_defn}
 ###### Definition
@@ -91,14 +91,14 @@ A **segment** object $I$ in a [[monoidal model category]] $V$ is
 * a factorization 
 
   $$
-    pt \sqcup pt \stackrel{0 \sqcup 1}{\to} 
+    pt \amalg pt \stackrel{[0 , 1]}{\to} 
     I \stackrel{\epsilon}{\to} pt
   $$
 
-  of the morphism 
+  of the [[codiagonal morphism]]
 
   $$
-    pt \sqcup pt \stackrel{Id \sqcup Id}{\to} pt
+    pt \amalg pt \stackrel{[Id , Id]}{\to} pt
   $$ 
 
   from the [[coproduct]] of $pt$ with itself that 
@@ -117,7 +117,7 @@ A **segment** object $I$ in a [[monoidal model category]] $V$ is
 If $V$ is equipped with the structure of a [[model catgeory]] then aa segment object is an **interval** in $V$ if 
 
 $$
-  0 \sqcup 1 : pt \sqcup pt \to I
+  [0, 1]\colon pt \amalg pt \to I
 $$ 
 
 is a cofibration and $\epsilon : I \to pt$ a weak equivalence.
@@ -166,7 +166,7 @@ such that
 * the [[pushout]]
 $$
   \array{
-    && I^{\vee 2} := I \sqcup_{pt} I
+    && I^{\vee 2} := I \amalg_{pt} I
     \\
     & \nearrow && \nwarrow
     \\
@@ -446,7 +446,7 @@ All these statement become precise for specific typical choices of the ambient c
 
 An important aspect is that once the cosimplicial object of _collared simplices_ $\Delta_I$ is used to form [[simplicial object]]s $\Pi(X) := [\Delta^\bullet_I,X]$ (discussed below) and when these are interpreted as [[model category|models]] for [[∞-groupoid]]s, then **the collars disappear**: they are part of the model, but, roughly, don't affect the equivalence class of the object that this model models.
 
-For instance with ${*}\sqcup {*} \stackrel{o \sqcup 1}{\to}\mathbb{R}$ used as the interval in [[Top]], a _path_ in a [[topological space]] $X$ is an entire curve $\gamma : \mathbb{R} \to X$, but two such paths $\gamma_1,\gamma_2$ are composable already when $\gamma_1(1) = \gamma_2(0)$, irrsepctive of how $\gamma_1$ extends $\gt 1$ and irrsepctive of how $\gamma_2$ extends $\lt 0$.
+For instance with ${*}\amalg {*} \stackrel{0, 1}{\to}\mathbb{R}$ used as the interval in [[Top]], a _path_ in a [[topological space]] $X$ is an entire curve $\gamma : \mathbb{R} \to X$, but two such paths $\gamma_1,\gamma_2$ are composable already when $\gamma_1(1) = \gamma_2(0)$, irrsepctive of how $\gamma_1$ extends $\gt 1$ and irrsepctive of how $\gamma_2$ extends $\lt 0$.
 
 Moreover, the composite-up-to-homotopy of these two paths is an entire surface $\mathbb{R}^2 \to X$ in $X$, but what only matters for this surface qualifying as a compositor of $\gamma_1 and \gamma_2$ is that its $\delta_2$-segment $\{(x,y) \in \mathbb{R}^2 | 0 \leq x \leq 1, y = 0\}$ and its $\delta_0$segment $\{(x,y) \in \mathbb{R}^2 | 0 \leq y \leq 1, x = 0\}$ coincide with the corresponding segments in $\gamma_1$ and $\gamma_2$.
 
