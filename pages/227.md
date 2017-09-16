@@ -1,7 +1,7 @@
 A (unital, non-commutative) **ring** is (equivalently)
 
 * a [[monoid]] [[internalization|internal to]] [[Ab]].  
-* a [[monoid]] [[enriched category|enriched over]] [[Ab]].
+* a [[enriched category|category enriched over]] [[Ab]] with one object.
 * a [[ringoid]] with one object.
 
 Here $Ab$ is the category of [[abelian group|abelian groups]], made into a monoidal category using the tensor product of abelian groups.  A *commutative* (unital) ring is an [[abelian monoid]] object in [[Ab]].
@@ -10,6 +10,8 @@ Here $Ab$ is the category of [[abelian group|abelian groups]], made into a monoi
 [[Mike Shulman]]: I think this is a bit confusing.  I've never heard anyone talk about "a monoid enriched over" something.  A ring is a one-object *category* enriched over Ab, or a monoid in the monoidal category Ab.
 
 Zoran: I agree wit Mike. Toby ?
+
+_Toby_:  What could a monoid enriched over $C$ be other than a $1$-object (or pointed connected) category enriched over $C$?
 =--
 
 Don't worry: these definitions equivalent to [the one you're used to](http://en.wikipedia.org/wiki/Ring_mathematics#Definition).
