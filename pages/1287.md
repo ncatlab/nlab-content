@@ -263,7 +263,7 @@ In the special case that $\mathcal{A} = Core{\infty FinGrpd}$ is the [[core]] of
 
 A comparatively clear-sighted description of the situation along the above lines is that in 
 
-* [[Pietro Polesselo]], [[Ingo Waschkies]], Higher monodromy, Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150;
+* [[Pietro Polesello]], [[Ingo Waschkies]], Higher monodromy, Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150;
 [arXiv:0407507](http://arxiv.org/abs/math/0407507)
 
 for [[locally constant stack]]s on [[topological space]]s. The above formulation is pretty much the evident generalization of this to general [[(∞,1)-topos]]es.
