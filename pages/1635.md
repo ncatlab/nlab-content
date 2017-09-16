@@ -3,7 +3,9 @@
 Recall that a [[Kan complex]] is a special [[simplicial set]] that [[homotopy hypothesis|behaves like]] a combinatorial model for a [[topological space]].
 
 
-The _simplicial homotopy groups_ of a Kan complex are accordingly the combinatorial analog of the homotopy groups of topological spaces: instead of being maps from topological sphere modulo maps from topological disks, they are maps from the [[boundary of a simplex]] modulo those from the [[simplex]] itself.
+The _simplicial homotopy groups_ of a Kan complex are accordingly the combinatorial analog of the [[homotopy group]]s of [[topological space]]s: instead of being maps from topological sphere modulo maps from topological disks, they are maps from the [[boundary of a simplex]] modulo those from the [[simplex]] itself. 
+
+Accordingly, the definition of the discussion of simplicial homotopy groups is essentially literally the same as that of ordinary [[homotopy group]]s.  One technical difference is for instance that the definition of the group structure is slightly more non-immediate for simplicial homotopy groups than for topological homotopy groups (see below).
 
 
 #Definition# 
@@ -12,7 +14,10 @@ Recall the classical [[model structure on simplicial sets]]. Let $X$ be a fibran
 
 Define
 
-* the **0th simplicial homotopy group** $\pi_0(X) := X_0/X_1$ of $X$  to be the set of connected components of it;
+
+* the **0th simplicial homotopy groupoid** $\Pi_0(X)$ to be the [[discrete category|discrete groupoid]] on the _set_ $(X_0/X_1)$ of connected components of $X$,
+
+  * for every $x \in X_0$ the [[pointed set]] $\pi(X,x)$ to be the set $(X_0/X_1)$ of connected components of $X$ with point the connected component $[x]$ of $x \in X_0$;
 
 +-- {: .query}
   I would like the set of connnected components to be the simplicial homotopy $0$-group*oid* $\Pi_0(X)$, while the $0$th simplicial homotopy 'group' itself is (like the following) a property of a *pointed* space: $\pi_0(X,x)$ is the [[pointed set]] $\Pi_0(X)$ equipped with the component of $x$ as point.  That way, the $n$th simplicial homotopy group is really an $n$-[[k-tuply groupal n-groupoid|tuply groupal]] set, as I\'ve done at [[homotopy group]].  (This also becomes strictly a special case of the general definition below, not an exception.)  ---Toby
@@ -22,6 +27,9 @@ Define
    On the other hand, the idea of a 0th simplicial homotopy *group* is incorrect as it is not a group. Perhaps the trick of putting inverted commas to indicate that it is 'as if but not really' could be used.  
 
    Of course, there are really two homotopy theories, the pointed one and the non-pointed one.  The first leads to groups, the second to groupoids.
+
+[[Urs Schreiber|Urs]]: I have now tried to implement Toby's comment, as far as it applies to the above. I am not sure though precisely what [[Tim Porter|Tim]]'s comment about pointed simplicial sets is aiming at: if we have a pointed simplicial set we can just talk about $\pi_n(X)$, true, but here we are being more general and talk about $\pi_n(X,x)$ for all $x  \in X$. No? 
+
 =--
 
 * for every $n \geq 1$ and $x \in X_0$ the **$n$th simplicial homotopy group** of $X$ at $x$ to be the set 
@@ -79,11 +87,18 @@ Define
 
 
 One shows as in the case for topological spaces that 
+there is naturally the structure of a group on $\pi_n(X,x)$ for all $x \in X_0$, $n \geq 1$ that this is an abelian group for all $n \geq 2$.
 
-* there is naturally the structure of a group on $\pi_n(X,x)$ for all $x \in X_0$, $n \geq 1$;
+**Definition (group structure on $\pi_n(X,x)$)**
+  
+...
 
-  * that this is an abelian group for all $n \geq 2$.
+**Lemma**
 
+For $n \geq 2$ all the groups $\pi_n(X,x)$ are abelian.
+
+
+# Weak homotopy equivalences of Kan simplicial sets#
 
 For $X$ and $Y$ [[model structure on simplicial sets|fibrant]] simplicial sets, i.e. [[Kan complex]]es, a morphism $f : X \to Y$ is a weak eqivalence with respect to the classical [[model structure on simplicial sets]] if 
 
