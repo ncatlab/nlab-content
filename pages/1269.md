@@ -1,4 +1,4 @@
-An __internal set__ is a basic object of internal set theory, which is a model of [[nonstandard analysis]]. The idea for analysis is that in addition to usual numbers one may have also infinitesimals with which the rules of manipulating are somewhat restricted, so that one does not get into inconsistencies. 
+An __internal set__ is a basic object of internal set theory, which is a model of [[nonstandard analysis]]. The idea for analysis is that in addition to usual numbers one may have also infinitesimals with which the rules of manipulating are somewhat restricted, so that one does not get into inconsistencies.  (Note that this usage of "internal" is very different from that of [[internalization]].)
 
 Among internal sets there is a subclass of __standard sets__; ZFC axiom schemes apply to the standard sets; every internal set has its standard part which is a standard set. This operation is called *standardization*. Using theory of internal sets one can implement [[transfer principle]] which is one of the basic principles of nonstandard analysis. 
 
