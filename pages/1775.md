@@ -155,5 +155,9 @@ The Quillen equivalence itself is in section 6 there.
 
 
 [[!redirects groupoid object in an (∞,1)-category]]
+[[!redirects groupoid objects in an (∞,1)-category]]
+[[!redirects groupoid objects in an (infinity,1)-category]]
 [[!redirects group object in an (infinity,1)-category]]
 [[!redirects group object in an (∞,1)-category]]
+[[!redirects group objects in an (infinity,1)-category]]
+[[!redirects group objects in an (∞,1)-category]]
