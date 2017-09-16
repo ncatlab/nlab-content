@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * created [[simplicial homotopy group]]
+
   * added to [[model structure on simplicial sets]] a puny beginning of a discussion of what is supposed to eventually become a discussion of the relation to model structures on strict $\infty$-groupoids 
 
   * created [[omega-nerve]] and [[model structure on strict omega-groupoids]]
