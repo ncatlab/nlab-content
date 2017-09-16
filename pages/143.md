@@ -71,7 +71,7 @@ exists. Let $G : C^{op} \to Set \hookrightarrow \omega Cat$ be a [[strict omega-
 * an element $a \in G(Y)$;
 
 * a morphism $\pi_1^* a \stackrel{g}{\to} \pi_2^* a$ in $G(Y^{[2]})$, which is by assumption necessarily an 
-[[identity]]: $\pi_1^* a \stackrel{=}{\to} \pi_2^* a$.
+[[identity morphism]]: $\pi_1^* a \stackrel{=}{\to} \pi_2^* a$.
 
 The point to notice is that the morphism $\pi_1^* a \stackrel{g}{\to} \pi_2^* a$ is the image of the [[oriental|first oriental]] $G_1 = \{a \to b\}$ in $G(Y^{[2]})$.
 
