@@ -1,3 +1,5 @@
+##Idea##
+
 The **profinite completion** $\hat{G}$ of a (discrete) group $G$ is the limit (in the category of [[topological group]]s) over the diagram with objects the [[quotient group]]s $G/N_{fin}$ where $N_{fin}$ is a [[normal subgroup]] of $G$ with finite index, and arrows induced from the lattice of subgroups of $G$. Note that the profinite completion actually is a [[profinite group]], and there is a canonical homomorphism $G \to \hat{G}$.
 
 +-- {: .query}
@@ -15,8 +17,10 @@ I'll also leave off the description of this object to its own page. Sometime I'l
 
 [[Tim Porter|Tim]]:  That was what I was hinting at in (iii).  I think also that the universal property is not yet in its optimal form as it mixes topological ond non-topological things too much. I may try to put together a categorical formulation as a 'gloss' on this.
 =-- {: .query}
+##Definition##
+More formally, we note that for any group $G$, the family of its normal finite index subgroups forms a [[filtered category|cofiltered category]] under inclusion. (Denote it by $\Omega_G$.)  The assignment of $G/N$ to $N$ gives a functor from  $\Omega_G^{op}$ to the catgeory of finite groups. It is thus a [[profinite group]] in the sense given in that entry, i.e. a [[pro-object]] in the category of finite groups.
 
-More abstractly, the profinite completion can be defined as a [[profinite group]] $P$ with a homomorphism $\phi:G\to P$, such that if we are given any other profinite group $P'$ and homomorphism $\psi:G \to P'$, there is a unique homomorphism $P \to P'$ making the obvious triangle commute.
+The above topological version of this is obtained by means of the equivalence between the category of pro-(finite groups) and that of the groups internal to profinite spaces  that is by taking the limit in the category of topological groups of the diagram of (discrete) finite groups that thee above construction gives one.
 
-
+##Example##
 An example that comes up in practice is the profinite completion of the fundamental group of an complex projective variety $X$. Since $X$ has an underlying topological space, its [[fundamental group]] of loops $\pi_1^{top}(X)$ can be defined in the usual way. But one can also define the [[algebraic fundamental group]] $\pi_1^{alg}(X)$. This is a profinite group, which is isomorphic to the profinite completion of $\pi_1^{top}(X)$.
