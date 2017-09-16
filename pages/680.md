@@ -4,7 +4,7 @@ The _Dold-Kan correspondence_ asserts that certain [[infinity-category|infinity-
 
 This allows 
 
-* on the one hand to understand the true conceptual home of many construction with [[chain complex]]es in [[homological algebra]];
+* on the one hand to understand the true conceptual home of many constructions with [[chain complex]]es in [[homological algebra]];
 
 * on the other to efficiently compute with certain higher categorical structures.
 
@@ -45,7 +45,7 @@ $$
 
 See [[strict omega-groupoid]] and [[crossed complex]].
  
-Perhaps the 'ultimate' form of a 'classical' Dold-Kan result is by Pilar Carrasco, who identified the extra structure on chain complexes of groups in order that they be [[Moore complex|Moore complexes]] of simplicial groups.  Dominique Bourn has a general form of this result for his 'semi-Abelian' categories. His results provide a neat categorical gloss on the theorem.
+Perhaps the 'ultimate' form of a 'classical' Dold-Kan result is by Pilar Carrasco, who identified the extra structure on chain complexes of groups in order that they be [[Moore complex|Moore complexes]] of simplicial groups.  Dominique Bourn has a general form of this result for his [[semi-abelian category|semi-abelian categories]]. His results provide a neat categorical gloss on the theorem.
 
 #Details#
 
