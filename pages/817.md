@@ -24,9 +24,11 @@ $$
   \,.
 $$
 
-**Proposition**
++-- {: .un_prop}
+######Proposition
 
 For $V = $[[Set]], so that $V$-enriched categories are just ordinary [[locally small category|locally small categories]], the $V$-enriched functor category coincides with the ordinary [[functor category]]. (See the examples below.)
+=--
 
 #Examples#
 
