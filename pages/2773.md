@@ -8,7 +8,7 @@
 * whose objects are ([[small category|small]]) categories, and
 * whose morphisms are [[natural isomorphism]] classes of [[functors]].
 
-This is an instance of a general construction which, given a [[2-category]], or more generally an [[n-category]], produces a 1-category with the same objects and whose morphisms are [[equivalence]] classes of 1-morphisms in the original $n$-category.  Sometimes this is called the 1-[[truncation]] and denoted $\tau_1$.
+This is an instance of a general construction which, given a [[2-category]], or more generally an [[n-category]], produces a [[1-category]] with the same objects and whose morphisms are [[equivalence]] classes of 1-morphisms in the original $n$-category.  Sometimes this is called the 1-[[truncation]] and denoted $\tau_1$.
 
 It can also be viewed as an instance of the homotopy category of a [[model category]] (or more generally a [[category with weak equivalences]]).  The category $Ho(Cat)$ as defined above is equivalent to the category obtained from $Cat$ by forcing all [[equivalences of categories]] to be isomorphisms.  This is for the same reason that the category $hTop$ of [[topological spaces]] and [[homotopy]] classes of [[continuous maps]] is equivalent to the category obtained from $Top$ by inverting the homotopy equivalences (namely, the existence of [[cylinder objects]] and/or [[path objects]]).  In particular, the isomorphisms in $Ho(Cat)$ are precisely the [[equivalences of categories]].
 
@@ -18,7 +18,7 @@ It can also be viewed as an instance of the homotopy category of a [[model categ
 Some notable full subcategories of $Ho(Cat)$ include
 
 * $Ho(Gpd)$, the homotopy category of the category [[Gpd]] of [[groupoids]].  Note that this is equivalent to the homotopy category of (unbased) [[homotopy 1-types]].
-* The category whose objects are [[groups]] and whose morphisms are [[conjugacy classes]] of [[group homomorphisms]].  This can be identified with the full subcategory of $Ho(Gpd)$ whose objects are the connected groupoids.  This category sometimes arises in the study of [[gerbes]].
+* The category whose objects are [[groups]] and whose morphisms are [[conjugacy class]]es of [[group homomorphism]]s.  This can be identified with the full subcategory of $Ho(Gpd)$ whose objects are the connected groupoids.  This category sometimes arises in the study of [[gerbes]].
 
 
 # Ho(Cat)-categories
