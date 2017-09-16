@@ -63,6 +63,8 @@ To emphasize that one considers $\infty$-stacks on higher categorical sites one 
 
 #References#
 
+The study of $\infty$-stacks is known in parts as the study of [[nonabelian cohomology]]. See there fore further references.
+
 The search for $\infty$-stacks probably began with [[Alexander Grothendieck]] in _[[Pursuing Stacks]]_.
 
 The notion of $\infty$-stacks can be set up in various notions of $\infty$-categories. [[Andre Joyal]], Jardine, [[Bertrand Toen]] and others have developed the theory of $\infty$-stacks in the context of [[simplicial presheaf|simplicial presheaves]] and [[Segal category|Segal categories]]. A review is
