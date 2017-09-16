@@ -381,7 +381,7 @@ this is remedied.
 
 * Indeed, this is now the case. There is a famous 
   abelian sheaf, called the second [[Deligne cohomology|Deligne complex]] which we may denote by
-  $[P_1(-), \mathcal{B}U(1)]$ or $\bar \mathcal{B}_1 U(1)$ (as explained at [[Deligne cohomology]]), which has precisely the property that maps from a manifold $X$ into it classify circle bundles with connection on $X$. Moreover, by varying the two parameters here we get the following cases
+  $[P_1(-), \mathcal{B}U(1)]$ or $\bar \mathcal{B}_1 U(1)$ (as explained at [[Deligne cohomology]] and at [[groupoid of Lie-algebra valued forms]]), which has precisely the property that maps from a manifold $X$ into it classify circle bundles with connection on $X$. Moreover, by varying the two parameters here we get the following cases
   
 
   * $A = [P_0(-), \mathcal{B}U(1)] = \mathcal{B}U(1)$;  $H(X,A) = H^2(X,A)$ is second integral cohomology -- classifies line bundles;
