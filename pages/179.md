@@ -85,7 +85,7 @@ So in particular
 
 ##Further examples##
 
-* [[Courant Lie algebroid]] 
+* [[Courant algebroid]] 
 
 #Further resources#
 
