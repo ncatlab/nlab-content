@@ -11,3 +11,9 @@ For the transitive closure, it\'s also possible to rephrase the above slightly (
 In material [[set theory]], the __transitive closure__ of a [[pure set]] $X$ is the [[transitive set]] $X^*$ whose members are the elements of the [[downset]] of $X$ under the transitive closure (in the previous sense) of $\in$.  That is, it consists of the members of $X$, their members, their members, and so on.
 
 Analogously, the __reflexive-transitive closure__ of $X$ may be defined as the transitive closure of the [[successor]] $X^+ = X \cup \{X\}$ of $X$, which is the same as $X^* \cup \{X\}$.
+
+
+[[!redirects transitive closure]]
+[[!redirects transitive closures]]
+[[!redirects reflexive-transitive closure]]
+[[!redirects reflexive-transitive closures]]
