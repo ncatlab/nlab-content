@@ -144,7 +144,7 @@ We check successively what this means for increasing $n$:
 * $n=1$. In degree 1 the boundary inclusion is that of a pair of points as the endpoints of the interval
   $\{\circ, \bullet\} \hookrightarrow \{\circ \to \bullet\}$. The lifting property here evidently is  equivalent to saying that for all objects $a,b \in Obj(C)$ all elements in $Hom(F(a),F(b))$ are hit. Hence that $F$ is a [[full functor]].
 
-* $n=2$. In degree 2 the boundary inclusion is that of the triangle as the boundary of a filled triangle. It is sufficient to restrict attention to the case that the map $\partial \Delta[2] \to N(C)$ sends the top left edge of the triangle to an identity. Then the lifting property here evidently is  equivalent to saying that for all objects $a,b \in Obj(C)$ the mao $F_{a,b} : Hom(a,b) \to Hom(F(a),F(b))$ is injective. Hence that $F$ is a [[faithful functor]].
+* $n=2$. In degree 2 the boundary inclusion is that of the triangle as the boundary of a filled triangle. It is sufficient to restrict attention to the case that the map $\partial \Delta[2] \to N(C)$ sends the top left edge of the triangle to an identity. Then the lifting property here evidently is  equivalent to saying that for all objects $a,b \in Obj(C)$ the map $F_{a,b} : Hom(a,b) \to Hom(F(a),F(b))$ is injective. Hence that $F$ is a [[faithful functor]].
   $$
     \left(
     \array{
@@ -160,9 +160,9 @@ We check successively what this means for increasing $n$:
     \array{
       && b 
       \\
-      & {}^{Id_a}\nearrow &\Downarrow^=& \searrow^{f}
+      & {}^{Id_a}\nearrow &\Downarrow^=& \searrow^{F(f)}
       \\
-      a &&\stackrel{g}{\to}&& b
+      a &&\stackrel{F(g)}{\to}&& b
     }
     \right)
   $$
