@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-22 #
 
+*  [[Toby Bartels]]:  Started more articles that I\'d linked earlier: [[exclusive disjunction]] (with a philosophical claim that I need to back up), [[countable choice]] (very much a stub), [[sigma-ideal]], [[Hartog's number]].
+
 * [[Urs Schreiber|Urs]]: 
 
   * added the detailed formal proof to [[abelian sheaf cohomology]] that shows how it is sitting as a special case inside the more conceptual [[nonabelian cohomology]] (= hom-sets of [[infinity-stack]]s, really)
