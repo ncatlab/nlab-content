@@ -14,4 +14,7 @@ This work by K. Brown later led to [[Andre Joyal]] and Jardine's construction of
 
 * for the definition of his model for [[spectrum]] see [[combinatorial spectrum]]
 
+
 category: reference
+
+[[!redirects Brown -- Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
