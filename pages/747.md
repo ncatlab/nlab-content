@@ -1,21 +1,23 @@
-There are many [[model category]] structures on the category of [[simplicial presheaf|simplicial presheaves]]; the two extremal ones are 
+There are many [[model category]] structures on the category of [[simplicial presheaf|simplicial presheaves]] derived from the [[model structure on simplicial presheaves]]. The extremal cases are 
 
-* the _projective_ or _global_ model structure (weak equivalences and fibrations are defined objectwise);
+* the  **global projective** model structure (weak equivalences and fibrations are objectwise those of simplicial sets);
 
-* the _injective_ or _local_ model structure (weak equivalences and fibrations are defined to be locally those with respect to the standard [[model structure on simplicial sets]]).
+* the **global injective** (weak equivalences and cofibrations are objectwise those of SimpSet).
 
-In between these two structures there are many other model structures sometimes called "local projective" model structures.
+These two model structures are Quillen equivalent (_DHI04_ [p. 5](http://www.math.uiuc.edu/K-theory/0563/spre.pdf#page=5) with the Quillen equivalence given by the identity functor). 
 
-The injective model structure on simplicial presheaves models  [[infinity-stack homotopically|infinity-stacks]]. This is due to Jardine, following the construction of the the Quillen equivalent local [[model structure on simplicial sheaves]] by Joyal.
+From these one gets local projective and injective model structures by [[Bousfield localization]].
+
+* the  **local projective** model structure (weak equivalences are locally (usually stalkwise) and fibrations are objectwise those of simplicial sets);
+
+* the **local injective** (weak equivalences are locally (usually stalkwise) and cofibrations are objectwise those of SimpSet).
+
+
+In between these two structures there are many other model structures obtained by varying the class of generating global cofibrations.
+
+The _local injective_ model structure on simplicial presheaves models  [[infinity-stack homotopically|infinity-stacks]]. This is due to Jardine, following the construction of the the Quillen equivalent local [[model structure on simplicial sheaves]] by Joyal.
 
 In the following let $S$ be a small [[site]] and denote by $SimpPr(S)$ be the category of [[simplicial presheaf|simplicial presheaves]] on $S$.
-
-#Global or projective model structure#
-
-For $S^{op}$ any small category and $V$ a model category there is a model structure on $S^{op}$-[[diagram]]s in $V$, i.e. on the [[functor category]] $[S^{op},V]$ due to Bousfield and Kan in which the weak equivalences and the fibrations are those natural transformations which on each object of $S$ are, respectively, weak equivalences or fibrations in $V$. 
-(... insert general discussion by Crans et al...)
-This is also called the **projective** model structure on diagrams. 
-
 
 
 #Local or injective model structures#
@@ -89,14 +91,14 @@ $$
 are isomorphisms for all $U \in S$, for $X|_U, Y|_U$ the pullbacks to the over-category site $S/U$, for all $x \in X_0(U)$ and all $n \geq 0$.
 
 
-## Injective model structure ##
+## Local injective model structure ##
 
 +-- {: .un_theorem }
 ###### Theorem 
 
 There is a proper closed [[enriched category|simplicially enriched]] [[model category]] structure on $SimpPr(S)$ such that
 
-* cofibrations are precisely the monomorphisms in $SimpPr(S)$;
+* cofibrations are precisely the objectwise cofibrations of simplicial sets, i.e. the monomorphisms in $SimpPr(S)$;
 
 * weak equivalences are the _local weak equivalences_ from above.
 
