@@ -304,7 +304,7 @@ and
 
 * [[pretriangulated dg-category|pretriangulated dg-categoires]]
 
-which, in turn, are already [[enhanced triangulated category|enhanced]] [[triangulated category|triangulated categories]]: namely [[differential graded category|dg]]-[[enriched category|enriched]] versions thereof.
+which, in turn, are already [[enhanced triangulated category|enhanced]] [[triangulated category|triangulated categories]]: namely [[dg-category|dg]]-[[enriched category|enriched]] versions thereof.
 
 At this point you are urged to really have a look at the entry on [[stable (infinity,1)-category]] and marvel about the fact that 
 
@@ -877,7 +877,7 @@ integral transforms = colimit preserving functors
 =--
 
 This was first proved
-in the context of [[differential graded categories|differential graded categories]] by To&euml;n,
+in the context of [[dg-category|differential graded categories]] by To&euml;n,
 building on work of Bondal, Orlov, and others. Note that
 one can define a functor $\Phi$ in the same way at the level of [[triangulated category|triangulated categories]], but it is known to be badly behaved, and in fact could not be well-behaved, since we do not know how to make the category of triangulated categories into a closed symmetric monoidal category.
 
