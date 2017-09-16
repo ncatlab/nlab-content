@@ -66,4 +66,4 @@ In this model of nonstandard analysis a version of the transfer principle (in te
 
 There is a realizatiion of aspects of nonstandard analysis in some models of [[synthetic differential geometry]]. See chapter 6 of
 
-* [Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
+* [[Ieke Moerdijk]] and [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
