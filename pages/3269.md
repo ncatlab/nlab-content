@@ -10,9 +10,9 @@ The _Chow group_ of a [[scheme]] $X$ is the analog of the [[singular chain homol
 
 ## Definition
 
-There is a notion of [[algebraic cycle]] $\in Z_i(X)$ generalizing that of a singular cycle. There is a notion of equivalence of these called _rational equivalence_ . 
+There is a notion of [[algebraic cycle]] $\in Z_i(X)$ generalizing that of a singular cycle. One first introduces some [[adequate equivalence relation]] $\sim$ on the set of cycles. The main example is the rational equivalence of cycles. 
 
-The **$i$th Chow group** $CH_i(X) := Z_i(X)_\sim$ of $X$ is the group of rational equivalence classes of algebraic cycles in $X$. 
+The **$i$th Chow group** $CH_i(X) := Z_i(X)_\sim$ of $X$ is the group of equivalence classes of algebraic cycles in $X$. 
 
 The total **Chow group** is the [[direct sum]] of all these
 
