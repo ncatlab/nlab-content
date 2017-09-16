@@ -10,6 +10,9 @@ The individual elements of $X,Y$ are "unpacked" and become objects of the new ca
 
 Note that an "unpacked" category of elements can be "repackaged".
 
+
+[[implode.jpg|Imploding a Category:pic]]
+
 The analogue of the category of elements for functors landing in $Cat$, rather than $Set$, is called the [[Grothendieck construction]].
 
 
