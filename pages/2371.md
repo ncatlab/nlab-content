@@ -11,6 +11,18 @@
 
 #Contents
 
+* [[(∞,1)-monad]]
+
+* [[(∞,1)-operad]]
+
+  * [[operad]]
+
+  * [[algebra over an operad]]
+
+  * [[A-∞ algebra]]
+
+  * [[L-∞ algebra]]
+
 * [[monoidal (∞,1)-category]]
 
   * [[symmetric monoidal (∞,1)-category]]
@@ -31,16 +43,6 @@
   * [[A-∞ ring]]
 
   * [[E-∞ ring]]
-
-* [[(∞,1)-operad]]
-
-  * [[operad]]
-
-  * [[algebra over an operad]]
-
-  * [[A-∞ algebra]]
-
-  * [[L-∞ algebra]]
 
 
 * [[derived algebraic geometry]]
