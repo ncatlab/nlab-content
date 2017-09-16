@@ -79,6 +79,12 @@ See also
 
 * [[commutative algebra in an (infinity,1)-category]]
 
+* examples
+
+  * [[stable (infinity,1)-category of spectra]]
+
+  * [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]
+
 # Commutative ring spectra #
 
 * [[stable (infinity,1)-category of spectra]]
