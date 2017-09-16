@@ -23,7 +23,7 @@ $$\array{E(c,b) & \overset{\phi\circ -}{\to} & E(c,a)\\
 +--{: .num_defn}
 ###### Definition
 We say that $p:E\to B$ is an **$n$-fibration** (or just a **fibration**) if
-1. For any object $a\in E$ and morphism $f:x\to p a$ in $B$, there exists a cartesian $\phi:b\to a$ and an [[equivalence]] $p\phi \simeq f$ in the [[slice category|slice]] $n$-category $B/p a$.
+1. For any object $a\in E$ and morphism $f:x\to p a$ in $B$, there exists a cartesian $\phi:b\to a$ and an [[equivalence]] $p\phi \simeq f$ in the [[over category|slice]] $n$-category $B/p a$.
 1. For any objects $a,b\in E$, the functor $p:E(b,a) \to B(p b, p a)$ is an $(n-1)$-fibration.
 1. For any $a,b,c\in E$ and $\psi:c\to b$, the square
 $$\array{E(b,a) &\overset{-\circ \psi}{\to} & E(c,a)\\
