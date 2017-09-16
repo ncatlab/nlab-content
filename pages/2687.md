@@ -53,6 +53,10 @@
 
 * [[model structure on simplicial sets|on simplicial sets]]
 
+  * [[model structure on marked simplicial over-sets|on marked simplicial over-sets]]
+
+  * [[model structure on dendroidal sets|on dendroidal sets]]
+
 * [[model structure on an overcategory]]
 
 * [[global model structures on functor categories|on functor categories (global)]]
