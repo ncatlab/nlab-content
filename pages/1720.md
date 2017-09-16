@@ -1,7 +1,18 @@
-A [[model category]] is called **right proper** if 
-weak equivalences are preserved by [[pullback]] along fibrations.
+[[!redirects right proper model category]]
 
-I.e. if for every weak equivalence $f : A \to B$ in $W\subset Mor(C)$ and every fibration $h : C \to B$ the pullback $h^* f : A \times_B C \to C$ in
+In a [[model category]] fibrations and cofibrations enjoy [[pullback stability]], but weak equivalences do not necessarily.
+
+A [[model category]] is called 
+
+* **right proper** if weak equivalences are preserved by [[pullback]] along fibrations
+
+* **left proper** if weak equivalence are preserved by [[pushout]] along cofibrations
+
+* **proper** if it is both left and right proper.
+
+
+
+So a model category is right proper if for every weak equivalence $f : A \to B$ in $W\subset Mor(C)$ and every fibration $h : C \to B$ the pullback $h^* f : A \times_B C \to C$ in
 
 $$
   \array{
