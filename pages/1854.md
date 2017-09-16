@@ -1,5 +1,10 @@
 A [[differential graded algebra]] is __semifree__ (or semi-free) if, after forgetting the differential, it is isomorphic as a graded algebra to a tensor (polynomial) algebra of some (super)vector space. 
 
+A differential **graded-commutative** algebra is __semifree__ (or semi-free) if, after forgetting the differential, it is isomorphic as a graded-commutative algebra to a Grassmann algebra of some (super)vector space. 
+
+
+# Roiter's theorem #
+
 Roiter's theorem
 
 * A. V. Roiter, _Matrix problems and representations of BOCS's_; in Lec. Notes. Math. 831, 288--324 (1980)
