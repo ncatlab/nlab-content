@@ -14,3 +14,5 @@ Nelson's internal set approach is used in these references
 * A. G. Kusraev, S. S. Kutateladze, Nonstandard Methods of Analysis. Mathematics and Its Applications 291, Kluwer 1994 (has also short excursion into external sets)
 
 * Sergio Albeverio, Jens Erik Fenstad, Raphael Hoegh-Krohn, Nonstandard Methods in Stochastic Analysis and Mathematical Physics, Academic Press 1986 (there  are also Dover 2009 edition and a Russian translation)
+
+[[!redirects internal sets]]
