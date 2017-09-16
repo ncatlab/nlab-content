@@ -34,4 +34,15 @@ for all $h,k\in H$, $u,v\in U$. The cocycled crossed product is an associative a
 
 If $\sigma(h,k)=\epsilon(h)\epsilon(k)1_U$ then we say that $\sigma$ is a trivial cocycle and then the compatibility conditions above reduce to demanding that the measuring $\triangleright$ is an action. The cocycled crossed product then reduces to the usual smash product algebra.  
 
+**Theorem.** Suppose we are given two measurings $\triangleright,\triangleright':H\otimes U\to A$ with cocycles $\sigma, \tau$ respectively. Then there exists an isomorphism of $H$-extensions of $U$, $i: U\sharp_\sigma H\cong U\sharp_\tau H$ (i.e. an isomorphism of $k$-algebras, left $U$-modules and right $H$-comodules) iff there is an invertible element $f\in Hom_k(H,U)$ such that for all $u\in U$, $h,k\in H$
+
+$$h\triangleright' u = \sum f^{-1}(h_{(1)})(h_{(2)}\triangleright u) f(h_{(3)}),$$
+
+$$\tau(h,k) = \sum u^{-1}(h_{(1)})[h_{(2)}\triangleright u^{-1}(k_{(1)})]\sigma(h_{(3)},k_{(2)})u(h_{(4)}k_{(3)}).$$
+
+The isomorphism $i$ is then given by
+$$i(u\sharp_\sigma h) = \sum u f(h_{(1)})\sharp_\tau h_{(2)}$$
+
+
+
 [[!redirects smash product algebra]]
