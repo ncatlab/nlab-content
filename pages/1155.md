@@ -75,8 +75,18 @@ If Kan simplicial sets work as a model for $\mathbf{N}$-groupoids, then does thi
 _Mike_: Presumably, if we knew what a Z-groupoid was.
 =--
 
+## Relationship to other spectra
+
+From the perspective of a combinatorial spectrum, an "intuitive spectrum" is supposed to be some sort of space-like object having "cells in all integer dimensions," while a "space" (or simplicial set) has cells only in nonnegative dimensions.  The traditional definitions of spectra approximate this intuition by using a *sequence* of spaces $\{E_n\}$ with amps $E_n \to \Omega E_{n+1}$ or $\Sigma E_n \to E_{n+1}$, where we think of the space $E_n$ as being "shifted down by $n$ dimensions."  Thus, for instance, the $(-2)$-cells of the spectrum can come from 0-cells of $E_2$, or 1-cells in $E_3$, or 2-cells in $E_4$, etc.  The structure maps $\Sigma E_n \to E_{n+1}$ support this intuition, since the suspension $\Sigma$ shifts things up by one dimension; thus it maps the $k$-cells of $E_n$ into the $k+1$-cells of $E_{n+1}$.
+
+In fact, this can be made precise: starting from a spectrum of simplicial sets, in the sense of a sequence of spaces with maps $\Sigma E_n \to E_{n+1}$, one can construct a combinatorial spectrum by "piecing together" the cells in all dimensions.  This construction can be found in Kan's original article; it provides an equivalence of [[homotopy theories]] between combinatorial spectra and ordinary spectra built from simplicial sets.
+
+[[Mike Shulman|I]] don't know whether anyone has gone back to treat these from a "modern" standpoint, such as by putting a [[model category]] structure on combinatorial spectra.  They do seem less interesting and useful from a modern standpoint, because no one has ever managed to give them a [[smash product]] which is associative and unital on the point-set level; thus they don't provide a good framework for talking about ($A_\infty$ or $E_\infty$) ring spectra, module spectra, and other aspects of [[brave new algebra]].  It's also not clear how hard anyone has tried, though.  Presumably one would have to modify the definition by incorporating the "symmetries" somehow, as is done for example by passing from ordinary simplicial-set spectra to [[symmetric spectrum|symmetric spectra]].
+
 
 #References#
+
+* Dan Kan, "Semisimplicial spectra"
 
 Part II, section 7 of 
 
