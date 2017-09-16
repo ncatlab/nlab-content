@@ -1,3 +1,2 @@
-See [[higher homotopy van Kampen theorem]].
-
-category: redirect
+&lt; [[Higher Homotopy van Kampen Theorem]]
+[[!redirects Higher Homotopy van Kampen Theorem -- history]]
