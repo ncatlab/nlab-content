@@ -6,7 +6,7 @@ A __local system__ is a locally constant sheaf on a topological space $X$ (or ma
 
   [[Urs Schreiber|Urs]]: I am hoping that maybe David Speyer, whose expositional blog entry is linked to below, or maybe somebody else would enjoy filling in some material here.
 
- [[Bruce Bartlett|Bruce]]: Could it perhaps be "On a  topological space (why do we need _connected_?) this is the same as a sheaf of _flat_ sections of a finite-dimensional vector _bundle_ equipped with flat connection; "
+ [[Bruce Bartlett|Bruce]]: Could it perhaps be "On a  topological space (why do we need _connected_?) this is the same as a sheaf of _flat_ sections of a finite-dimensional vector _bundle_ equipped with flat connection;". I guess by "flat connection" in this general topological context we would mean simply a functor from the homotopy groupoid to the category of vector spaces?
 
 =--
 
