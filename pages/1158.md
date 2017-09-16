@@ -263,6 +263,29 @@ $$
 }
 $$
 
++-- {: .un_theorem }
+###### Theorem
+
+These two morphisms exhibit Deligne cohomology as a refinement in [[differential cohomology]] of ordinary (i.e. integral [[Eilenberg-MacLane spectrum|Eilenberg-MacLane]]) [[cohomology]], in that the diagram
+
+$$
+  \array{
+    H(X,\bar \mathbf{B}^\bullet U(1))
+    &\stackrel{[F]}{\to}&
+    H^{\bullet+1}_{dR}(X)
+    \\
+    \downarrow^{cl} && \downarrow
+    \\
+    H^{\bullet+1}(X,\mathbb{Z})
+    &\to&
+    H^{\bullet + 1}(X,\mathbb{R})
+  }
+$$
+
+is the cohomology of a homotopy pullback diagram, i.e. satisfies the axioms described at [[differential cohomology]].
+
+=--
+
 
 #Interpretation in terms of parallel transport#
 
@@ -357,8 +380,11 @@ As described in smoe detail at [[electromagnetic field]] in abelian higher [[gau
 
 #References#
 
+A standard textbook reference is section 5 of
+
 * J.-L. Brylinski, _Loop Spaces, Characteristic Classes and geometric Quantization_, Birkhaeuser
 
-* U. Bunke, _Index theory, eta forms, and Deligne cohomology_, Memoirs AMS, vol. 198, number 928, [arXiv:math./0201112](http://arxiv.org/abs/math/0201112v4)
 
-* Ulrich Bunke, Thomas Schick, _Uniqueness of smooth extensions of generalized cohomology theories_, [arXiv:0901.4423](http://arxiv.org/abs/0901.4423)
+A concise review is for instance section 2 of
+
+* K. Gomi, _Projective unitary representations of smooth Deligne cohomology groups_ ([arXiv](http://arxiv.org/abs/math/0510187))
