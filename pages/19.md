@@ -249,7 +249,19 @@ Other standard references include:
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ [free online] (http://www-math.mit.edu/~lurie/papers/highertopoi.pdf)
 * Project description: higher categorical structures and their applications [free online] (http://www.math.uchicago.edu/~may/NCATS/ForWeb.pdf)
 
+Precursors
 
+* Aristotle
+
+   * Categories
+
+* Kant
+
+* C.S. Peirce
+
+   * [On a New List of Categories](http://www.cspeirce.com/menu/library/bycsp/newlist/nl-frame.htm)
+
+* Carnap
 
 #Discussion#
 
