@@ -101,10 +101,27 @@ topological spaces equipped with extra geometrical structure.
 
 ## geometry ##
 
-+-- {: .un_defn}
-###### Definition ( [[Structured Spaces|StSp]] )
++-- {: .un_remark}
+###### Summary 
 
-A **homotopical topology** on an [[(∞,1)-category]] $\mathcal{G}$ is a [[Grothendieck topology]] on $\mathcal{G}$ that is generated from its intersection with a subcategory $\mathcal{G}^{ad} \subset \mathcal{G}$ whose morphisms -- called the  **admissible morphisms** have the following properties
+A **geometry** on an [[(∞,1)-category]] $\mathcal{G}$ is a [[Grothendieck topology]] on $\mathcal{G}$ together with 
+
+* the extra structure given the information of which covering morphisms are to be thought of as [[local homeomorphism]]s
+
+* the extra property that it has all finite [[limit]]s.
+
+If only all finite [[product]]s exist we speak of a pre-geopmetry. Every pregeometry $\mathcal{T}$ extends uniquely $\mathcal{T} \hookrightarrow \mathcal{G}$ to an _enveloping geometry_ $\mathcal{G}$. 
+
+When the objects of the geopmetry $\mathcal{G}$ are thought of as test spaces (affine schemes), the objects of the pregeometry $\mathcal{T} \hookrightarrow \mathcal{G}$ are to be thought of as the [[affine space]]s. This distinction is used to encode [[smoothness]] of maps between test spaces: a morphism in $\mathcal{G}$ is smooth if it locally factors through admissible maps between objects in $\mathcal{T}$. 
+
+=--
+
+
+
++-- {: .un_defn}
+###### Definition (admissibility structure, [[Structured Spaces|StSp]] )
+
+An **admissibility structure** on an [[(∞,1)-category]] $\mathcal{G}$ is a [[Grothendieck topology]] on $\mathcal{G}$ that is generated from its intersection with a subcategory $\mathcal{G}^{ad} \subset \mathcal{G}$ whose morphisms -- called the  **admissible morphisms** have the following properties
 
 * admissible morphisms are stable under [[pullback]];
 
@@ -187,6 +204,56 @@ Various concepts for geometries have immediate analogues for
 pregeometries.
 
 =--
+
+
+
+### smooth morphisms ###
+
++-- {: .un_defn}
+###### Definition (smooth morphism, [[Structured Spaces]], 3.1.7)
+
+A morphism $f : X \to S$ in a pregeometry $\mathcal{T}$ is called **smooth**
+if it is _locally stably admissaible_ in that there exists a  cover $\{u_i : U_i \to X\}$ (meaning: generators of a covering [[sieve]])
+of $X$ by admissible morphisms, such that on $U_i$ the morphism $f$
+factors admissibly through some $S \times V_i$ in that there is a commuting
+diagram
+
+$$
+  \array{
+    U_i &\stackrel{u_i}{\to}& X
+    \\
+    \downarrow && \downarrow
+    \\
+    S \times V_i &\stackrel{p_1}{\to}& S
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .un_remark}
+###### Remark 
+
+To interpret this, recall that we think of 
+admissible morphisms as injections of open subsets.
+
+=--
+
++-- {: .un_prop}
+###### Proposition ([[Structured Spaces]], 3.1.8)
+
+* Smooth morphisms are stable under [[pullback]].
+
+* pregeometric $\mathcal{T}$-structures $\mathcal{O} : \mathcal{T} \to \mathcal{X}$  preserve pullbacks of smooth morphisms.
+
+
+=--
+
+
+
+
+
 
 
 ## structured $(\infty,1)$-topos ##
@@ -294,52 +361,6 @@ $$
 $$
 
 =--
-
-
-
-### smooth morphisms ###
-
-+-- {: .un_defn}
-###### Definition (smooth morphism, [[Structured Spaces]], 3.1.7)
-
-A morphism $f : X \to S$ in a pregeometry $\mathcal{T}$ is called **smooth**
-if it is _locally stably admissaible_ in that there exists a  cover $\{u_i : U_i \to X\}$ (meaning: generators of a covering [[sieve]])
-of $X$ by admissible morphisms, such that on $U_i$ the morphism $f$
-factors admissibly through some $S \times V_i$ in that there is a commuting
-diagram
-
-$$
-  \array{
-    U_i &\stackrel{u_i}{\to}& X
-    \\
-    \downarrow && \downarrow
-    \\
-    S \times V_i &\stackrel{p_1}{\to}& S
-  }
-  \,.
-$$
-
-
-=--
-
-+-- {: .un_remark}
-###### Remark 
-
-To interpret this, recall that we think of 
-admissible morphisms as injections of open subsets.
-
-=--
-
-+-- {: .un_prop}
-###### Proposition ([[Structured Spaces]], 3.1.8)
-
-* Smooth morphisms are stable under [[pullback]].
-
-* pregeometric $\mathcal{T}$-structures $\mathcal{O} : \mathcal{T} \to \mathcal{X}$  preserve pullbacks of smooth morphisms.
-
-
-=--
-
 
 
 
