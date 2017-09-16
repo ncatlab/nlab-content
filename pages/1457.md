@@ -64,22 +64,26 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 # Examples #
 
-* Every [[set]] carries the **discrete metric** given by
+* Every [[set]] carries the **[[discrete space|discrete metric]]** given by
   $$
-    d(x,y) = \left\{
+    d(x,y) = \left\{\array{
       0 & if x = y
       \\
       1 & otherwise
-    \right.
+    }\right.
   $$
 
-* Every normed vector space is metric by $d(x,y) := \Vert x-y \Vert$
+  For certain purposes, it makes more sense to make most the non-zero distance $\infty$ instead of $1$; then one has an extended metric space.
 
-* Every connected [[Riemannian manifold]] becomes a metric space by taking the distance between two points to be infimum of the Riemannian length of all continuously differentiable paths connecting them
+* Every [[normed vector space]] is a metric space by $d(x,y) := \Vert x-y \Vert$; a pseudonormed vector space is a pseudometric space.
+
+* Every connected [[Riemannian manifold]] becomes a pseudometric space (or a metric space if, as is often assumed, the manifold is Hausdorff) by taking the distance between two points to be infimum of the Riemannian length of all continuously differentiable paths connecting them
 
   $$
-    d(x,y) := inf_{x \stackrel{\gamma}{\to} y} length(\gamma)
+    d(x,y) := inf_{x \stackrel{\gamma}{\to} y} len(\gamma)
   $$
+
+  If the manifold might not be connected, then it still becomes an extended metric space.
 
 
 [[!redirects metric spaces]]
