@@ -28,9 +28,7 @@
 
   * [[noncommutative geometry]] (general flavour)
 
-* Algebra:
-
-  * [[algebra]] (general entry on algebra and algebras)
+* [[algebra|Algebra]]:
 
   * [[universal algebra]]
 
