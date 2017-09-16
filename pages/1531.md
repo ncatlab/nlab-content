@@ -1,4 +1,4 @@
-Let $C$ be a [[cartesian category]] and $T = (T,\mu,\eta)$ a [[cartesian monad]] in $C$. A **$T$-structured category** is an [[internal category]] in Eilenberg-Moore category $C^T$ of $T$-algebras in $C$.
+Let $C$ be a [[finitely complete category]] and $T = (T,\mu,\eta)$ a [[cartesian monad]] in $C$. A **$T$-structured category** is an [[internal category]] in the [[Eilenberg-Moore category]] $C^T$ of $T$-algebras in $C$.
 
 ##Literature##
 
