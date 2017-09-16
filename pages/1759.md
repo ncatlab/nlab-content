@@ -16,6 +16,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-30
 
+* [[Urs Schreiber]]
+
+  * created [[Sjoerd Crans]]
+
+    in that context I also added reference to his work to [[model structure on simplicial sheaves]] and [[model structure on presheaves of simplicial groupoids]] 
+
+    also wrote a quick "Idea" section for the latter entry
+
 *  [[Toby Bartels]]:  Moved [[the homotopy theory of Grothendieck]] to [[homotopy theory of Grothendieck]].  Normally, I don\'t mention that sort of thing here, but this time there\'s nothing in the naming conventions about this; it just feels right.  Complaints are solicitied.
 
 * [[David Roberts]]: added comment to discussion at [[category theory]] - possibly Rafael means homotopy types when he says spaces. Added point about Grothendieck's view on Cat as a category of models. Also a stub: [[the homotopy theory of Grothendieck]].
