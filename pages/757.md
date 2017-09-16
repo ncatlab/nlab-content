@@ -50,10 +50,11 @@ and every other left Quillen functor with this property factors by a unique left
 ###### Proof
 
 This is theorem 3.3.19 in _ModLoc_ .
+=--
 
 +-- {: .query}
 
-_Rafael Borowiecki_: How do this relate to Bousfield localization for spectra?
+  _Rafael Borowiecki_: How do this relate to Bousfield localization for spectra?
 
 =--
 
