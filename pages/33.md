@@ -147,7 +147,7 @@ An early article where the concept of categorification is described is
 
 A bit of $n$-Caf&eacute; discussion on this subject can be found here: 
 
-* [[John Baez]], [_What is categorification?_](http://golem.ph.utexas.edu/category/2008/10/what_is_categorification.html)
+* [[John Baez]], _[What is categorification?](http://golem.ph.utexas.edu/category/2008/10/what_is_categorification.html)_
 
 A general notion of categorification for structures defined by [[cartesian monads]], which specializes to produce weak [[n-categories]] in the sense of Leinster, can be found here:
 
@@ -156,3 +156,4 @@ A general notion of categorification for structures defined by [[cartesian monad
 
 [[!redirects categorification]]
 [[!redirects ∞-categorification]]
+[[!redirects categorifications]]
