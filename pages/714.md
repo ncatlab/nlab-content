@@ -84,7 +84,7 @@ from an homotopy theoretic point of view. This is because the model category $DC
 It follows, by a general result, that the notion of
 of dagger category is homotopy essentially algebraic
 There a homotopy limit sketch whose category of models (in spaces)
-is [[Quillen equivlence|Quillen equivalent]] to the model category $DCat$. This is true also for the model category Cat.
+is [[Quillen equivalence|Quillen equivalent]] to the model category $DCat$. This is true also for the model category Cat.
 
 
 ##  $(\infty,1)$-dagger-categories {##oo1Version}
