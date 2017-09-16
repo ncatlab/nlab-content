@@ -21,7 +21,7 @@ Let $\{K(n)\}$ be the sequence of [[associahedron|Stasheff associahedra]].  This
 
 The original article that defines associahedra, and in which the operad $K$ is used implicitly to define $A_\infty$-topological spaces, is
 
-* Stasheff, _Homotopy associative H-spaces I_, _II_, Trans. Amerk. Math. Soc. 108 (1963), 275-312
+* Stasheff, _Homotopy associative H-spaces I_, _II_, Trans. Amer. Math. Soc. 108 (1963), 275-312
 
 A textbook discussion (slightly modified) is in section 1.6 of the book
 
