@@ -13,11 +13,15 @@ An [[(infinity,1)-category]] $C$ is **presentable** it it satisfies the followin
 
 * $C$ is [[accessible (infinity,1)-category|accesible]] and admits small [[limit in quasi-categories|colimits]];
 
-* there exists a small $\infty$-category $D$ and a functor $PSh(D) \to D$ from the [[(infinity,1)-presheaf|(infinity,1)-presheaves]] to $D$ with a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]]
+* there exists a small $\infty$-category $D$ and a functor $f: PSh(D) \to D$ from the [[(infinity,1)-presheaf|(infinity,1)-presheaves]] to $D$ with a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]]
 
-  * (if in addition $f$ is left [[excact functor|exact]] then $C$ is an [[(infinity,1)-category of (infinity,1)-sheaves]] on $C$)
+  * (if in addition $f$ is left [[exact functor|exact]] then $C$ is an [[(infinity,1)-category of (infinity,1)-sheaves]] on $C$)
 
-* $C$ is [[accessible (infinity,1)-category|accesible]] and for every [[cardinal number|regular cardinal]] $\kappa$ the full subcategory $C^\kappa$ ([explanation]()) admits $\kappa$-small [[limit in quasi-categories|colimits]];
+* $C$ is [[accessible (infinity,1)-category|accessible]] and for every [[cardinal number|regular cardinal]] $\kappa$ the full subcategory $C^\kappa$ ([explanation]()) admits $\kappa$-small [[limit in quasi-categories|colimits]];
+
++--{: .query}
+What are these 'explanation' links supposed to do?  ---Toby
+=--
 
 * there exists a [[cardinal number|regular cardinal]] $\kappa$ such that $C$ is $\kappa$-[[accessible (infinity,1)-category|accesible]] and $C^\kappa$ ([explanation]()) admits $\kappa$-small [[limit in quasi-categories|colimits]];
 
