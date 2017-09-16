@@ -4,43 +4,59 @@ Problems of set theory arise by unjustified recursion of the naive notion of col
 
 One way out is to consider a hierarchy of notions of collections: postulate that the collection of all "Col"s is not a "Col" itself, but is another notion of collection, a "Col+": the "Col+ of all Cols". Similarly, the collection of all "Col+"-type collections may be taken to be a "Col++", and so on.
 
-One formalization of this idea is that of a _Grothendieck universe_: this is defined to be a set $U$ which behaves like a "set+ of all sets" in that all the standard operations of set theory (union, intersection, etc.) can be performed on its elements. 
+One formalization of this idea is that of a _Grothendieck universe_: this is defined to be a set $U$ which behaves like a "set+ of all sets" in that all the standard operations of set theory (union, power set, etc.) can be performed on its elements. 
 
 
 
 
-#Definitions#
+#Membership-based version#
 
-##Membership-based definition##
+Although developed for application to [[category theory]], the definition is usually given in a form that only makes sense in a membership-based [[set theory]], so we begin with that.
 
-Although developed for application to category theory, the definition is usually given in a form that only makes sense in a membership-based [[set theory]], so we begin with that.
+##Definition##
 
 A **Grothendieck universe** $U$ is a [[pure set]] $U$ such that:
-1. $(t \in u \in U) \Rightarrow (t \in U)$;
-1. $(u \in U) \Rightarrow (\{u\} \in U)$;
-1. $(u \in U) \Rightarrow (P(u) \in U)$, where $P(u)$ is the [[power set]] of the set $u$;
-1. for all $I \in U$ and functions $f: I \to U$, the union $\cup_{i: I} f_i \in U$.
+1. for all $u \in U$ and $t \in u$, $t \in U$ (so $U$ is _transitive_);
+1. for all $u \in U$, the [[power set]] $P(u) \in U$;
+1. the [[empty set]] $\empty \in U$;
+1. for all $I \in U$ and functions $u: I \to U$, the [[union]] $\cup_{i: I} u_i \in U$.
 
-## Further axioms
+Some authors leave out (3), which allows $\empty$ itself to be a Grothendieck universe.  Other authors use the set $\mathbb{N}$ of [[natural number]]s in place of $\empty$ in (3), which prevents $\mathbb{N}$ itself from being a Grothendieck universe.
 
-Some authors (for instance [[Categories and Sheaves|Kashiwara-Shapira]]) add
-* $\emptyset \in U$ (it\'s enough to say that there exists some $u \in U$);
-* $\mathbb{N} \in U$ (it\'s enough to say that some [[infinite set]] belongs to $U$).
+##Consequences##
 
-Certainly the examples that we\'re interested in have these properties, but often it\'s nice to leave them out, so that $\emptyset$ and $\mathbb{N}$ themselves become examples of Grothendieck universes.  ($\emptyset$ is arguable, but seeing $\mathbb{N}$ as a universe shows how the axiom of infinity is but the first in a series of large-cardinal axioms.)
+From the definition above, one can prove additional closure properties of a universe $U$, including the usual codings in pure set theory of [[function set]]s and [[cartesian product]]s and [[disjoint union]]s of sets, using these lemmata:
 
++--{.lemma}
+If $t$ is a [[subset]] of $u$ and $u \in U$, then $t \in U$.
+=--
++--{.proof}
+By (2), $P(u) \in U$; $t \in P(u)$, so $t \in U$ by (1).
+=--
 
-## Consequences of the axioms ##
++--{.lemma}
+If $u, v \in U$, then $u \cup v \in U$.
+=--
++--{.proof}
+Since $\empty \in U$ by (3), so are $\star = P(\empty)$ and $TV = P(\star)$ by (2).  Even in [[constructive mathematics]], $2 = \{\bot, \top\}$ is a subset of $TV$, so $2 \in U$ in by Lemma 1.  Then $(\bot \mapsto u, \top \mapsto v)$ is a function $2 \to U$, so the union $u \cup v$ in $U$ by (4).
+=--
 
-From the above, one can prove additional closure properties of a universe $U$, including the usual codings in pure set theory of [[function set]]s and the [[cartesian product]] and [[disjoint union]] of sets:
-
-* The set of functions from $A$ to $B$ can be encoded as a subset of the power set of $A \times B$ (as can also be done in [[topos theory]]).  One can encode $A \times B$ (see [[cartesian product]] and look at the binary special case for the usual method) as a subset of $P(P(A \cup B))$.  As long as $\emptyset \in U$ (which one may argue is required, while $\mathbb{N}$ is not), one gets $2$ as $P(P(\emptyset))$ (or, constructively, as a subset of that), so one can form the $2$-indexed union $A \cup B$ and hence $P(P(A \cup B))$.  So all that is needed is to show that if $t \subseteq u \in U$, then $t \in U$; this follows from the first axiom since $t \in P(u)$.
+Then using their usual encodings in set theory:
+* the nullary cartesian product $\star$ is $P(\empty)$ as in the previous proof;
+* the binary cartesian product $u \times v$ is a subset of $P(P(u \cup v))$;
+* the general cartesian product $\prod_{i: I} u_i$ is a subset of $P(I \times \bigcup_{i: I} u_i)$;
+* the the nullary disjoint union is $\empty$;
+* the binary disjoint union $u \uplus v$ is a subset of $2 \times (u \cup v)$;
+* the general disjoint union $\biguplus_{i: I} u_i$ is a subset of $I \times \bigcup_{i: I} u_i$;
+* the set of functions $u \to v$ is a subset of $P(u \times v)$.
 
 
 ## Terminology: small/large ##
 
 
 Given a universe $U$, an element of $U$ is called a **$U$-small set**, while a subset of $U$ is called **$U$-large**.  Technically, every $U$-small set is $U$-large (by requirement 1), but often one uses 'large' to mean 'large but not small'.  However, note that there are many sets (such as the power set of $U$) that are still *too* large to be 'large'.
+
+As such, these concepts are [[evil]], since two sets may be [[isomorphism|isomorphic]] yet have different properties with respect to $U$.  However, a set which is isomorphic to a $U$-small or $U$-large set is called **essentially** $U$-small or $U$-large; these concepts are non-evil.
 
 ## Axiom of universes ##
 
@@ -50,25 +66,38 @@ When working with Grothendieck universes one usually adds the following **axiom 
 
 This way whenever any operation leads one outside of a given Grothendieck universe (see applications below), there is guaraneteed to be a bigger Grothendieck universe in which one lands.  In other words, every set is small if your universe is large enough!
 
-##Structural definition##
+#Structural version#
 
-An equivalent (at least for our purposes) concept can also be defined in structural set theories (like [[ETCS]]).  The important point is the [[cardinal number|cardinality]] $|U|$ of the Grothendieck universe $U$; it must be a _strongly inaccessible cardinal_.  In the arithmetic of cardinal numbers, this means that $\sum_{i: I} \kappa_i \lt |U|$ whenever $|I| \lt |U|$ and $\kappa_i \lt |U|$ for each $i: I$.  (Traditionally one also requires an inaccessible cardinal to be uncountable, but this is just to rule out $\mathbb{N}$ again.)  Turned back into the language of sets, this says that a [[disjoint union]] of $U$-small sets indexed by a $U$-small set must be $U$-small.  From this perspective, the last axiom (which uses a set-theoretic [[union]] instead of a disjoint union, but that\'s not significant) is the important one; the rest is bookkeeping.
+An equivalent concept (at least for the purposes of category theory) can also be defined in structural set theories (like [[ETCS]]).
 
-We still need to formalise the idea that a set might 'belong' to $U$.  We can do this by equipping $U$ with a family $(S_u)_{u: U}$ of sets indexed by $U$; if you like, you can formalise this as a [[bundle]] over $U$.  Then we can define a **Grothendieck universe** in terms of this family of sets as follows:
+The important point is the [[cardinal number|cardinality]] $|U|$ of the Grothendieck universe $U$; it must be a _strongly inaccessible cardinal_.  In the arithmetic of cardinal numbers, this means that $0 \lt |U|$ and $\sum_{i: I} \kappa_i \lt |U|$ whenever $|I| \lt |U|$ and $\kappa_i \lt |U|$ for each $i: I$ (to be inaccessible) and $2^\kappa \lt |U|$ whenever $\kappa \lt |U|$ (to be strongly so).  Traditionally one also requires an inaccessible cardinal to be uncountable, but this is just to rule out $\mathbb{N}$ again.
+
+We still need to formalise the idea that a set might 'belong' to $U$.  We can do this by equipping $U$ with a family $(S_u)_{u: U}$ of sets indexed by $U$; if you like, you can formalise this as a [[bundle]] over $U$.
+
+##Definition##
+
+A **Grothendieck universe** is a family $(S_u)_{u: U}$ of sets such that:
 1. for all $u$ in $U$, if $X$ is a [[subset]] of $S_u$ (in the sense that there exists an [[injection]] $X \embedsin S_u$), then there is a $v$ in $U$ such that $X \cong S_v$;
-1. for all $u$, there is a $v$ such that $S_v$ is a singleton;
-1. for all $u$, there is a $v$ such that $P(S_u) \cong S_v$, where $P(S)$ is the [[power set]] of the set $S$;
-1. for all $u$ and functions $f: S_u \to U$, there is a $v: U$ such that the disjoint union $\biguplus_{i: S_u} S_{f(i)} \cong S_v$.
+1. for all $u$, there is a $v$ such that the [[power set]] $P(S_u) \cong S_v$;
+1. there is a $v$ such that $S_v$ is [[empty set|empty]];
+1. for all $u$ and functions $f: S_u \to U$, there is a $v$ such that the [[disjoint union]] $\biguplus_{i: S_u} S_{f(i)} \cong S_v$.
 
-The optional clauses in the definition become:
-* For some $u$, $S_u$ is empty (it\'s enough to say that $U$ is [[inhabited set|inhabited]], or to rephrase (2) to remove the hypothesis that $u$ exists);
-* For some $u$, $S_u \cong \mathbb{N}$ (it\'s enough to say that some $S_u$ is Dedekind-infinite).
+If you want to allow $\empty$, then remove axiom (3) again; if you want to rule out $\mathbb{N}$, then replace it with the requirement that some set in the family is isomorphic to $\mathbb{N}$.
 
-A set $X$ is **$U$-small** is $X \cong S_u$ for some $u$; $X$ is **$U$-large** if $X$ is a subset of $U$.
 
-Finally, the **axiom of universes** becomes:
+## Terminology: small/large ##
 
-* For every set $X$, there exists a universe $U$ such that $X$ is $U$-small.
+
+Given a universe $U$, an set $X$ is called **$U$-small** if $X \cong S_u$ for some $u$ in $U$; $X$ is called **$U$-large** if $X$ is a subset of $U$.  As before, every $U$-small set is technically $U$-large, but often one uses 'large' to mean 'large but not small'.  However, note that there are many sets (such as the power set of $U$) that are still *too* large to be 'large'.  These concepts are already non-[[evil]], so there is no need for versions with 'essentially'.
+
+
+## Axiom of universes ##
+
+When working with Grothendieck universes one usually adds the following **axiom of universes** to the usual axioms of set theory:
+
+* For every set $X$ there exists a universe which contains $X$, i.e. such that $X \cong S_u$ for some $u$ in $U$.
+
+This way whenever any operation leads one outside of a given Grothendieck universe (see applications below), there is guaranteed to be a bigger Grothendieck universe in which one lands.  In other words, every set is small if your universe is large enough!
 
 +-- {: .query}
 [[Urs Schreiber|Urs]]: unless I am missing something, the Grothendieck universe approach goes right against Lawvere's attitude to set theory as reviewed and emphasized at [[Trimble on ETCS I]]: that it is unnatural to consider membership of sets as a global relation, i.e. to handle sets and their elements on the same footing. On the contrary, for the above definition to even make sense, we have to assume that "everything is a set" (becuase the above definition tacitly assume that every element of a Grothendieck universe is itself a set). 
@@ -79,9 +108,17 @@ So what is the analog of Grothendieck universes, or of what they accomplish in p
 
 But a nice way of thinking of Grothendieck universes is as an internal topos object. That is, it is possible to express the notion of 'topos object' in any category with finite limits, and then one can define a Grothendieck universe within say a topos or pretopos of sets $E$ as such an internal topos object $U$ inside $E$. Mike?
 
-_Toby_:  The important point is the bit about cardinal numbers as I have written above.  The rest of the structural formulation *seems* right to me, but I wouldn\'t be surprised if I messed it up.  There is probably an elegant way to say this using [[indexed category|indexed categories]] anyway.  But the strongly inacessible cardinal is the bottom line.
+_Toby_:  The important point is the bit about cardinal numbers as I have written above.  The rest of the structural formulation *seems* right to me, but I wouldn\'t be surprised if I messed it up.  There is probably an elegant way to say this using [[indexed category|indexed categories]] anyway.  But the infinite strongly inacessible cardinal is the bottom line.
 =--
 
+
+# Examples #
+
+The set $\mathbb{N}$ of [[natural number]]s is a Grothendieck universe, unless you phrase axiom (3) in the definition to specifically rule it out.  In this way, the axiom of infinity can be seen as a simply universe axiom (stating that at least one universe exists).
+
+If you refrain from using the axiom of universes (except perhaps once, to get $\mathbb{N}$ as above), then the set of all sets (or cardinal numbers) that you can actually construct is a Grothendieck universe.  Of course, you cannot possibly have proved that this universe exists, but the intuition that you ought be able to form the collection of 'everything that we\'ve used so far' is the justification for the axiom of universes.
+
+Similarly, if you use the axiom of universes at most $n$ times, then the set of all sets that you can construct with this restriction is a Grothendieck universe.  So is, in principle, the set of all sets that you can construct using any number of applications of the axiom of universes, but the existence of *this* set cannot be proved, even using this axiom!  (So the axiom of universes is not the final word on large cardinal axioms.)
 
 #Applications#
 
