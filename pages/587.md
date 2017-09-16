@@ -115,3 +115,6 @@ _Toby_:  Yes, that seems to be right, that Lawvere theories are equivalent to on
 
 Of course, one thing that contexts do is to form an honest category even if you start with a multicategory.  So here we\'re trying to go backwards and see what bare-bones starting point could lead to the same category of contexts of the equational theory of a group.
 =--
+
+
+[[!redirects contexts]]
