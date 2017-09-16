@@ -59,6 +59,9 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
     Do we agree on what the "external" definition should be? Is it the one I suggested it should be? In that case we might reorganize the entry by startiing it with the abstract nonsense definition and then taking the replete version as one concrete realization in Cat.
 
+  * [[Zoran Skoda]] No (I have the feeling that you are not reading what I wrote),  we disagree on what external definition should be because the essential image is not a notion which is external. It is a CHOICE of literally a subcategory, not
+a choice of embedding of categories in abstract sense, it is a choice of a SUBSET of n-cells which is a n-subcategory which is replete. On the other hand there are two (three) DIFFERENT notions of image of a functor. One is the image in external sense, that is image in Cat taken as a category or as a 2-category. Another is image as a subcategory in literal sense. Image in literal sense is of course a very specific representative of an image in Cat 1-categorical sense and essential image is a very specifical choice of an image in 2-categorical sense; actually it is a specifical choice of such 2-categorical image that the embedding of essential image into the codomain is also literally surjective on objects. This is a bit strange from external point of view: you have something what is just equivalent to 1-categorical image, while it additional property is again of 1-categorical type. Thus it mixes the two. Hence it is by no means superimposable to homotopy limits in any case.  
+
 * [[Urs Schreiber]]:
 
   * edited [[locally presentable category]] according to my discussion with [[Toby Bartels]] there  -- and included links back and forth with [[presentable (infinity,1)-category]]
