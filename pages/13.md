@@ -6,5 +6,3 @@ I now have [[Toby Bartels:HomePage|my own personal web here]], although not much
 
 
 category: people
-
-[[!redirects Toby Bartels, from http://en[dot]wikipedia[dot]org/wiki/File:Suspension[dot]svg]]
