@@ -38,6 +38,10 @@ Various further axiom structures are considered and of relevance on additive and
 
 * [[Grothendieck category]]
 
+# Generalizations #
+
+* Abelian groups are to general [[group]]s as [[abelian category|abelian categories]] are to [[semi-abelian category|semi-abelian categories]].
+
 
 #Examples#
 
