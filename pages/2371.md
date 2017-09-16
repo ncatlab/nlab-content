@@ -1,25 +1,45 @@
 
 **[[higher algebra]]**
 
-#Contents
+# Ingredients
+
+* [[higher category theory]]
+
+* [[algebra]]
 
 * [[stable homotopy theory]]
 
-  * [[spectrum]]
+#Contents
 
-  * [[stable (∞,1)-category of spectra]]
+* [[monoidal (∞,1)-category]]
 
-  * [[stable homotopy category]]
-
-* [[A-∞ ring]]
+  * [[symmetric monoidal (∞,1)-category]]
 
   * [[monoid in an (∞,1)-category]]
 
+  * [[commutative monoid in an (∞,1)-category]]
+
+
+* symmetric monoidal (∞,1)-category of spectra
+
+  * [[smash product of spectra]]
+
   * [[symmetric monoidal smash product of spectra]]
 
-* [[E-∞ ring]]
+  * [[ring spectrum]]
 
-  * [[commutative monoid in an (∞,1)-category]]
+  * [[A-∞ ring]]
+
+  * [[E-∞ ring]]
+
+* [[operad]]
+
+  * [[algebra over an operad]]
+
+  * [[A-∞ algebra]]
+
+  * [[L-∞ algebra]]
+
 
 * [[derived algebraic geometry]]
 
