@@ -8,7 +8,7 @@ Therefore, following the terminology for [[horizontal categorification]] a dg-ca
 
 # Pre-triangulated dg-categories #
 
-A dg-category is **pre-triangulated** if its homotopy category is a [[triangulated category]].
+Intuitively, a dg-category is **pre-triangulated** if its homotopy category is a [[triangulated category]]. More precisely, it is pre-triangulated if the image of the Yoneda functor is closed under translations (in both directions) and extensions. 
 
 Pre-triangulated dg-categories linear over field $k$ of characteristic 0 are equivalent to $k$-linear [[A-infinity-category|A-infinity-categories]] and both are models for [[stable (infinity,1)-category|stable (infinity,1)-categories]].
 
