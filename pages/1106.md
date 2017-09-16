@@ -53,7 +53,30 @@ or see the list of links below.
 
 ##IV First Properties of Elementary Topoi ##
 
+
 * [[topos]]
+
+  * [[Grothendieck topos]]
+
+  * [[well-pointed topos]]
+
+  * [[Boolean topos]]
+
+  * [[pretopos]]
+
+  * [[universe in a topos]]
+
+
+* [[fundamental group of a topos]]
+
+* [[dependent product]]
+
+
+
+
+* [[infinity-topos]]
+
+
 
 ##V Basic Constructions of Topoi ##
 
@@ -61,19 +84,45 @@ or see the list of links below.
 
 * [[Lawvere-Tierney topology|sheafification in a Lawvere-Tierney topos]]
 
+
 ##VI Topoi and Logic ##
+
+* [[logic]]
+
+* [[foundations and logic]]
+
+  * [[internal logic]]
+
+    * [[intuitionistic logic]]
+ 
+    * [[classical logic]]
+
+    * [[paraconsistent logic]]
+
+    * [[coherent logic]]
+
+* [[Heyting algebra]]
+
 
 ##VII Geometric Morphisms##
 
 * [[geometric morphism]]
 
+  * [[geometric embedding]]
+
+
 ##VIII Classifying Topoi##
+
+* [[classifying topos]]
+
 
 ##IX Localic Topoi##
 
 * [[locale]]
 
+
 ##Geometric Logic and Classifying Topoi##
+
 
 ##Appendix: Sites for Topoi##
 
