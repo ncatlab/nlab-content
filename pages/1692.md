@@ -107,3 +107,7 @@ which is faithful by the notion of concrete category. What is striking is that t
 * For $C = Top$, taking $\mathbf{2}$ to be [[Sierpinski space]], we have for each [[topological space]] $c$ an identification $Open(c) = hom(c, \mathbf{2})$. The adjointness condition on a morphism $(f, g)$ between the corresponding Chu space expresses precisely the continuity condition that $g = f^*$, the [[preimage]], taking opens to opens. Thus the functor $Top \to Chu(Set, 2)$ is full. 
 
 More examples to be added later...
+
++--{.query}
+Hi Toby; could I get you to explain the aside about Boolean rigs above? I'm thinking Boolean algebras is appropriate, as we have $ I \to x^* \wp x $, $ x \otimes x^* \to D $ [where $\wp$ denotes Girard's "par" and $D$ denotes the dualizer], together with appropriate triangular equations, categorifying the inequalities $1 \leq (\neg x) \vee v$ and $x \wedge (\neg x) \leq 0$ in a Boolean algebra. --_Todd_
+=--
