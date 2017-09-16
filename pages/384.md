@@ -2,7 +2,7 @@ A **CW-complex** is a [[nice topological space]] which can be built up inductive
 
 ##Definition 
 
-A CW-complex is a topological space $X$ which can be presented as the colimit (in [[Top]], or in a [[nice category of spaces]]) of spaces $X_n$ (called $n$-skeleta of the presentation) 
+A CW-complex is a topological space $X$ which can be presented as the colimit (in [[Top]], or else in the category of [[compactly generated space]]s or many another [[nice category of spaces]]) of spaces $X_n$ (called $n$-skeleta of the presentation) 
 
 \[\label{CW1}X_0 \hookrightarrow X_1 \hookrightarrow \ldots \hookrightarrow X_n \hookrightarrow \ldots
 \]
