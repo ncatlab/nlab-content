@@ -1,3 +1,2 @@
-See [[string field theory]].
-
-category: redirect
+&lt; [[String field theory]]
+[[!redirects String field theory -- history]]
