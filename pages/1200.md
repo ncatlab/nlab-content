@@ -1,6 +1,6 @@
 # Idea #
 
-The _ordinal number_ (or just _ordinals_) constitute a generalisation of a [[natural number|natural numbers]]s to possibly infinite magnitudes.  Specifically, ordinal numbers generalise the concept of 'the next number after ...' or 'the index of the next item after ...'.  In particular, the next number after the natural numbers is the first infinite ordinal number.
+The _ordinal number_ (or just _ordinals_) constitute a generalisation of a [[natural number|natural numbers]] to possibly infinite magnitudes.  Specifically, ordinal numbers generalise the concept of 'the next number after ...' or 'the index of the next item after ...'.  In particular, the next number after the natural numbers is the first infinite ordinal number.
 
 # Definition #
 
@@ -22,6 +22,10 @@ From the perspective of structural [[set theory]], it is [[evil]] to care about 
 * An __ordinal__ is a [[well-order|well-ordered set]].
 
 However, one still may need sets of ordinals, that is sets that serve as the target of an ordinal rank function satisfying (1--3) on any small class of well-ordered sets.  One defines this as a [[quotient set]] of the set of those well-ordered sets under consideration.
+
++--{: .query}
+_Mike_: I don't understand that last paragraph.
+=--
 
 # Properties
 
