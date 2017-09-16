@@ -1,3 +1,2 @@
-See [[quasi-category]].
-
-category: delete
+&lt; [[quasicategory]]
+[[!redirects quasicategory -- history]]
