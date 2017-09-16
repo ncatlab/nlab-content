@@ -1,6 +1,6 @@
 #Definition via embedding#
 
-A full [[additive category|additive]] [[subcategory]] $A$ of an [[abelian category]] $B$ is called **Quillen exact category** if it is closed under extensions (if in extension $0\stackrel{j}\to X\to Y\stackrel{p}\to Z\to 0$, $X$ and $Z$ are in $A$ then $Y$ is in $A$). It is viewed as a pair $(A,E)$ where $E$ is a class of all short sequences in $A$ which are exact in $B$.
+A full [[additive category|additive]] [[subcategory]] $A$ of an [[abelian category]] $B$ is called **Quillen exact category** if it is closed under extensions (if in extension $0\to X\stackrel{j}\to Y\stackrel{p}\to Z\to 0$, $X$ and $Z$ are in $A$ then $Y$ is in $A$). It is viewed as a pair $(A,E)$ where $E$ is a class of all short sequences in $A$ which are exact in $B$.
 
 All $j$ which appear as $j$ in an exact sequence as above are called __inflation__s or __admissible monomorphism__s. All $p$ which appear in an exact sequence as above are called __deflation__s or __admissible epimorphism__s. 
 
