@@ -52,6 +52,16 @@ As suggested by Toby, one could take as an axiom the existence of $\mathbf{2}$, 
 This definition also holds in the bounded fragment of SEAR.
 
 
+## With the axiom of infinity ##
+
+> based on [this blog post](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c027061) and its predecessors
+
+To construe elements $n \in \mathbb{N}$ as giving actual finite sets, we construct a "family" $\phi\colon F \to \mathbb{N}$ where each fiber $F_n$ is a set of cardinality $n$. For example, consider the function
+$$ \phi\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}\colon (m,n) \mapsto m + n + 1 $$
+Then, for each $n \geq 0$, the fiber $\phi^{-1}(n)$ is a set of cardinality $n$.
+
+If you use the Axiom of Collection, then it will do this for you automatically; you don\'t need to come up with an ad hoc representation of the family.
+
 
 ## Discussion ##
 +--{: .query}
