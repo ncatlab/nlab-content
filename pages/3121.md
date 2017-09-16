@@ -15,7 +15,7 @@ The _stabilization_ of an [[(∞,1)-category]] $C$ with finite [[limit]]s  is th
 [[spectrum object]]s  of $C$, because for the archetypical example where $C = $ [[Top]]
 the stabilization is $Stab(Top) \simeq Spec$ the category of [[spectrum|spectra]].
 
-There is a canonical [[forgetful functor|forgetful]] [[(∞,1)-functor]] $\Omega^\infty : Stab(C) \to C$ remembers of a [[spectrum object]] the underlying object of $C$. Under mild conditions, notably when $C$ is a [[presentable (∞,1)-category]], this functor has a [[left adjoint]] $\Sigma^\infty : C \to Stab(C)$ that _freely stabilizes_ any given object of $C$.
+There is a canonical [[forgetful functor|forgetful]] [[(∞,1)-functor]] $\Omega^\infty : Stab(C) \to C$ that remembers of a [[spectrum object]] the underlying object of $C$ in degree 0. Under mild conditions, notably when $C$ is a [[presentable (∞,1)-category]], this functor has a [[left adjoint]] $\Sigma^\infty : C \to Stab(C)$ that _freely stabilizes_ any given object of $C$.
 
 Going back and forth this way yields the assignment
 
