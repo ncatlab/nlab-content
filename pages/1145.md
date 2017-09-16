@@ -1,9 +1,13 @@
 
 **[[mathematics]]**
 
-#Contents
+##Contents
 
 * [[foundations|Structural Foundations]]
+
+  * [[category theory]]
+
+  * [[higher category theory]]
 
   * [[Categories and Sheaves]]
 
@@ -19,7 +23,9 @@
   
   * [[homotopy theory]]
 
-  * [[stable homotopy theory]], [[rational homotopy theory]]
+    * [[stable homotopy theory]]
+  
+    * [[rational homotopy theory]]
 
   * [[differential geometry]]
 
