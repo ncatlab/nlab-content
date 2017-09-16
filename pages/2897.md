@@ -5,6 +5,6 @@ However there is another deep notion of periods in number theory and more specif
 Periods appear in a number of situations in classical algebraic geometry. Specific matrices of periods  are defined and important in the theory of algebraic functions, Hodge theory for algebraic cycles, study of actions of motivic Galois group etc. They come as generalizations of "periods of Riemann surfaces" from 19th century. 
 
 
-* M. Kontsevich, D. Zagier, _Periods_
+* M. Kontsevich, D. Zagier, [Periods](http://www.math.gla.ac.uk/~tl/periods.pdf)
 
 * M. Kontsevich, _Operads and motives in deformation quantization_, arxiv
