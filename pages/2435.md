@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include supergeometry - contents]]
+</div>
+
+
 The category $S Vect$ of [[super vector space]]s is the [[symmetric monoidal category]] which as a [[monoidal category]] is the ordinary monoidal category of $\mathbb{Z}_2$-[[graded vector space]]s for which
 
 $$
