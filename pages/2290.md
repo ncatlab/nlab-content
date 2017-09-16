@@ -19,7 +19,7 @@ There are precisely three types of such formal group laws:
 
 * the formal group law on [[elliptic curve]].
 
-An **ellitpic cohomology** theory is a periodic multiplicateive [[generalized (Eilenberg-Steenrod) cohomology]] theory whose corresponding formal group is an elliptic curve.
+An **elliptic cohomology** theory is a periodic multiplicative [[generalized (Eilenberg-Steenrod) cohomology]] theory whose corresponding formal group is an elliptic curve.
 
 A theorem proven by Goerss-Hopkins-Miller and later in a different way by [[Jacob Lurie]] shows that the assignment of [[generalized (Eilenberg-Steenrod) cohomology]] theories to [[elliptic curve]]s lifts to an assignment of representing [[spectrum|spectra]] in a structure preserving way. 
 
@@ -37,12 +37,12 @@ we restricted attention to closed connected smooth [[manifold]]s $X$
 
   * takes all values in $\mathbb{Z}$
 
-  * is the obstruction to the existence of an everywhere knowehere vanishing [[vector field]] on $X$:
+  * is the obstruction to the existence of a nowhere vanishing [[vector field]] on $X$:
 
     $$
       (e(X)= 0)
       \Leftrightarrow
-      (\exists  v \in \Gamma(T X) : \foralll x \in X : v(x) \neq 0)
+      (\exists  v \in \Gamma(T X) : \forall x \in X : v(x) \neq 0)
     $$  
 
 
@@ -152,7 +152,7 @@ These invariants share the following properties:
   for $X$ smooth we have then:
 
   $$
-    Eu_X[X, id] = Poincare dial of total Steiefel-Whitney class 
+    Eu_X[X, id] = Poincare dual of total Stiefel-Whitney class 
   $$
 
   **theorem** (Minalta)
@@ -213,7 +213,7 @@ where $\Omega_\bullet^{String}(pt) \to tmf_\bullet(pt)$ is surjective
 
 If a String manifold $Y$ has a positive [[Ricci curvature]] [[Riemannian metric|metric]], then the [[Witten genus]] vanishes.
 
-The attempted "Proof" of this is the motivation for th [[Stephan Stolz|Stolz]]-[[Peter Teichner|Teichner]]-proghram for [[geometric models for elliptic cohomology]]:
+The attempted "Proof" of this is the motivation for the [[Stephan Stolz|Stolz]]-[[Peter Teichner|Teichner]]-program for [[geometric models for elliptic cohomology]]:
 
 **"Proof"** If $Y$ is String, then the [[loop space]] $L Y$ is has [[spin structure]], so if $Y$ has positive [[Ricci curvature]] the $L Y$ has positive [[scalar curvature]] which implies by the above that $ind^{S^1} D_{L Y} = 0$ which by the index formula is the [[Witten genus]].
 
