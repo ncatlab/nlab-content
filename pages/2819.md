@@ -31,7 +31,7 @@ There is a [[Quillen model category]] structure on [[Top]] where fibrations are 
 
 The historical paper of Hurewicz is
 
-* Witold Hurewitz, _On the concept of fiber space_, Proc. Nat. Acad. Sci. USA __41__ (1955) 956--961; MR0073987 (17,519e) [PNAS,pdf](http://www.pnas.org/content/41/11/956.full.pdf).
+* Witold Hurewicz, _On the concept of fiber space_, Proc. Nat. Acad. Sci. USA __41__ (1955) 956--961; MR0073987 (17,519e) [PNAS,pdf](http://www.pnas.org/content/41/11/956.full.pdf).
 
 Hurewicz fibrations are nowdays a standard topic in textbooks of algebraic topology (Whitehead, Spanier, Hatcher...). 
 
