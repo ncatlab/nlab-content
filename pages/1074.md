@@ -188,21 +188,21 @@ $$
        \\ 
        & {}^{\in S}\swarrow && \searrow^{\in S}
        \\
-       X' &&\to &6 X''
+       X' &&\to && X''
     }
   \right\}
 $$
-is [[cofinally small]]. Then
+is a [[cofinally small category]]. Then
 
-* $C_S$ is [[locally small]];
+* $C_S$ is a [[locally small category]];
 
 * for every functor $F : C \to A$ the right derived functor
 exists and is given by
-$
+$$
   R_S F(X)
   =
   co\lim_{X \stackrel{s \in S}{\to} X'} F(X')
-$.
+.$$
 
 
 
