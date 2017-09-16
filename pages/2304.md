@@ -8,6 +8,8 @@ At [[latest changes]], [[Jon Awbrey]] introduced this page with:
 [[Mike Shulman]]: I don't think starting a new page that duplicates the intent of a previous one because one doesn't like the organization or approach of the previous one is a good idea.  Instead, let's have a discussion -- at [[graph]], where it belongs -- about what (you think) is wrong with it and how we can fix it.
 
 I think the page called "graph theory" should be about the field in general, like the pages called [[category theory]] and [[topology]].  Definitions of individual concepts should be on their respective pages.
+
+[[Jon Awbrey]]: Mike, all punny business aside, I don't think there's anything _wrong_ with the page on [[graph]] that can be fixed.  I'm a pragmatist about language, and if there's a community of people who use the terms that way, then it's pointless for me to try and reform their usage.  All I can do is observe that there are communities who use the words another way.  That usually happens because different people have different objectives and senses of what works to those ends.  So I don't see any duplication of intent here, though I might on further examination, I don't know.
 =--
 
 ## Graph ##
