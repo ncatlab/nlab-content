@@ -91,3 +91,29 @@ In
 
 [[Emily Riehl]] gives an account of lectures by [[Mike Shulman]] on the subject. The definition appears there as [definition 3.1, p. 4](http://www.math.uchicago.edu/~eriehl/cat/weighted.pdf#page=4) (in a form a bit more general than the one above).
 
+
+
+***
+
+#Discussion#
+
+
++-- {: .query}
+
+ [[Urs Schreiber|Urs]]: I'd like to better understand the relation between weighted limits and [[homotopy limit]]s. 
+
+Suppose I am considering enrichment in $V =$ [[SSet]]. Then how wrong is the following idea for encoding homotopy limits in terms of weighted limits:
+
+let $K$ be an ordinary small category and $F : K \to SSet$ a functor which happens to take values in Kan complexes, for definiteness. Now let the weight functor be given by
+
+$$
+  W : K \to SSet
+$$
+$$
+  W : k \mapsto N(K/k)
+  \,,
+$$
+
+where $K/k$ is the [[over category]] of $K$ over $k \in K$ and $N(-)$ is the [[nerve]]. I am thinking that the $W$-weighted limit $lim^W F$ might be a reasonable way to encode a homotopy coherent limit over $F$. How wrong is this? If not so wrong, this will have been discussed somewhere. Where?
+
+=--
