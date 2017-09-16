@@ -1,4 +1,4 @@
-#$\infty$-Stack#
+#Idea#
 
 An [[higher category theory|infinity category]]-valued (pseudo)[[presheaf]] $\mathbf{A} : Spaces^{op} \to \infty-Cat$ is an _$\infty$-stack_ if it "satisfies descent" in that its assignment to a space $X$ is equivalent to its [[descent and codescent|descent data]] for any [[hypercover]] $Y^\bullet \stackrel{\simeq}{\to}\gt X$: if the canonical morphism
 $$
@@ -7,9 +7,13 @@ $$
 $$
 is an equivalence. This is the _descent condition_.
 
-##Remarks##
+## Realizations ##
 
-* One way (possibly the _right_ way) to understand the descent condition is as enforcing in a partly 1-categorical setup -- in that the domain site of the $\infty$-stack is taken to be a 1-category where it really ought to be an $\infty$-category, too -- the [[infinity-category]] version of the [[Yoneda lemma]]: namely if set up suitably the descent $\infty$-category is a category of $\infty$-functors $Desc(Y^\bullet,\mathbf{A}) = [Y^\bullet,\mathbf{A}]$ and then the descent condition enforces the extension of the Yoneda relation $[X,\mathbf{A}] \simeq \mathbf{A}(X)$ to respect the weak equivalences $Y^\bullet \stackrel{\simeq}{\to} X$.
+$\infty$-Stacks have a well-developed nice realization in the context of [[(infinity,1)-category|(infinity,1)-categories]]. The entire theory of the [[category of sheaves]] has a direct $(\infty,1)$-analog [[(infinity,1)-category of (infinity,1)-sheaves]].
+
+Here "$(\infty,1)$-sheaf" is just another term for $\infty$-stack.
+
+In turn, the [[(infinity,1)-category|(infinity,1)-categories]] may be presented with 1-categorical [[model category]] tools
 
 For the moment a description of $\infty$-stacks from this perspective is releganted to [[infinity-stack homotopically]]. 
 
@@ -59,4 +63,6 @@ The notion of $\infty$-stacks can be set up in various notions of $\infty$-categ
 
 The explicit descent condition formulated above appears there on [page 12](http://arxiv.org/PS_cache/math/pdf/0604/0604504v3.pdf#page=12).
 
-But the theory can be formulated whenever notions of [[descent and codescent]] $\infty$-categories exist. In the context of [[strict omega-category|strict omega-categories]] a formulation of $\infty$-stacks and costacks is discussed at [[schreiber:Differential Nonabelian Cohomology]].
+All this has been embedded into a coherent global theory in
+
+* [[Jacob Lurie]], [[Higher Topos Theory]]
