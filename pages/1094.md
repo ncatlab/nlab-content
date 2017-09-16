@@ -1,4 +1,3 @@
-
 #Definition#
 
 Given a [[site]] $S$, every [[presheaf]] $F$ in $PSh(S) := [S^{op}, Set]$ is [[local isomorphism|locally isomorphic]] (weakly equivalent) to a [[sheaf]] $\bar F$. This construction extends to a functor
@@ -11,6 +10,11 @@ $$
 This functor is **sheafification**. 
 
 Sheafification is [[left adjoint]] to the [[stuff, structure, property|fully faithful forgetful]] [[injection|subcategory]] [[functor]] $i : Sh(S) \hookrightarrow PSh(S)$.
+
++--{+ .query}
+One should write something about the often difficult question on existence of sheafification for presheaves with values in other categories; there are so many applications
+and fairly difficult theorems there; for example van Osdol's work.
+=--
 
 #Construction#
 
