@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-06
 
+* [[Urs Schreiber]]: expanded and rearranged [[germ]] a bit
+
 *  [[Toby Bartels]]:  Added to [[germ]] the example that causes me to keep linking to it.
 
 * [[Urs Schreiber]]: created [[germ]], added references to [[group cohomology]] on continuous/smooth case
