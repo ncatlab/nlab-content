@@ -13,6 +13,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-07-11
+
+*  [[Toby Bartels]]:  A question on terminology at [[replete subcategory]].  Possibly the answers should inform [[equivalence]].
+
+
 ## 2009-07-10
 
 * [[Urs Schreiber|Urs]]:
