@@ -6,6 +6,65 @@ In more modern frameworks, an elliptic curve over a field $k$ may be defined as 
 
 Probably should pass through Riemann and Weierstrass, to explain "elliptic". 
 
-## Group law 
+# Definition #
 
-To be filled in... 
+
+**Definition** An **elliptic curve** over a commutative [[ring]] $R$ is a [[group object]] in the [[category]] of [[scheme]]s over $R$ that is a relative 1-dimensional, , [[smooth scheme|smooth curve]], [[proper scheme|proper]] curve over $R$. 
+
+This implies that it has [[genus]] 1. (by a direct argument concerning the [[Chern class]] of the [[tangent bundle]].)
+
+## group law ##
+
+Given an [[elliptic curve]] over $R$, $E \to Spec R$, we get a [[formal group]] $\hat E$ by completing $D$ along its identity [[section]] $\sigma_0$
+
+$$
+  E \to Spec(R) \stackrel{\sigma_0}{\to} E
+  \,,
+$$
+
+we get a [[ringed space]] $(\hat E, \hat O_{E,0})$
+
+
+
+**example** if $R$ is a [[field]] $k$, then the [[structure sheaf]] $\hat O_{E,0} \simeq k[ [z] ]$
+
+then 
+
+$$
+  \hat O_{E \times E, (0,0)} \simeq
+  \hat O_{E,0}
+  \hat \otimes_k
+  \hat O_{E,0}
+  \simeq 
+  k[[x,y]]
+$$
+
+
+
+**example** **(Jacobi quartics)**
+
+$$
+  y^2 = 1- 2 \delta x^2 + \epsilon x^4
+$$
+
+defines $E$ over $R = \mathbb{Z}[Y_Z,\epsilon, \delta]$.
+
+The corresponding [[formal group law]] is **Euler's formal group law**
+
+$$
+  f(x,y) = \frac{x\sqrt{1- 2 \delta y^2 + \epsilon y^4}
+   + y \sqrt{1- 2 \delta x^2 + \epsilon x^4}}
+  {1- \epsilon x^2 y^2}
+$$
+
+if $\Delta := \epsilon(\delta^2 - \epsilon)^2 \neq 0$ then this is a non-trivial elliptic curve.
+
+If $\Delta = 0$ then $f(x,y) \simeq G_m, G_a$ (additive or multiplicative formal group law corresponding to [[integral cohomology]] and [[K-theory]], respectively).
+
+# role in cohomology theories #
+
+Elliptic curves, via their [[formal group law]]s, give the name to [[elliptic cohomology]] theories.
+
+See also
+
+* [[A Survey of Elliptic Cohomology - formal groups and cohomology]]
