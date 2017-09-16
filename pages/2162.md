@@ -2,7 +2,10 @@
 
 
 
-Let $F$ be a [[free group]] with basis $X = \{ x_i\}_{i\in I}$ and $\mathbb{Z}F$ the integer [[group ring]]. Let $\epsilon:\mathbb{Z}F\to\mathbb{Z}$ be the map given by $\epsilon:x_i\mapsto 1$. Differentiation or [[derivation on a group|derivation]], $D$, in this context is defined using a sort of nonsymmetric analogue of the Leibniz rule: it is an additive map $D:\mathbb{Z}F\to\mathbb{Z}F$ such that for all $u,v\in F$, 
+Let $F$ be a [[free group]] with basis $X = \{ x_i\}_{i\in I}$ and $\mathbb{Z}F$ the integer [[group ring]]. 
+
+
+ Differentiation or [[derivation on a group|derivation]], $D$, in this context is defined using a sort of nonsymmetric analogue of the Leibniz rule: it is an additive map $D:\mathbb{Z}F\to\mathbb{Z}F$ such that for all $u,v\in F$, 
 
 $$D(u v) = D(u) + u D(v). $$ 
 
@@ -22,13 +25,41 @@ $$
 \frac{\partial u }{\partial x_i} = \sum_{s=1}^n y_1\cdots y_{s-1} \frac{\partial y_s }{\partial x_i}.
 $$ 
 
-Notice that the summands on the right-hand side are "of different length". Then for every differentiation 
+Notice that the summands on the right-hand side are "of different length". 
+
+
+The lemma given in [[derivation on a group]] allows the following alternative form of the above definition to be given:
+
+###Definition:
+
+For each $x \in X$, let 
+$$\frac{\partial}{\partial x} : F \to \mathbb{Z}F$$
+be defined by
+
+(i) for $y \in X$, 
+
+$$\frac{\partial y}{\partial x} = 1 if  x = y and =
+0  if  y \neq x;
+.$$
+
+
+(ii) for any words, $w_1,w_2 \in F$,
+
+$$\frac{\partial}{\partial x}(w_1w_2) = \frac{\partial}{\partial x}w_1 + w_1\frac{\partial}{\partial x}w_2.$$
+
+Then these uniquely determine the Fox derivative of $F$ with respect to $x$.
+
+
+
+The Fox derivatives give a way of expanding any derivation / differentiation defined on $F$. For every differentiation 
 
 $$
 D(u)=\sum_{i\in I} \frac{\partial u }{\partial x_i} D(x_i)
 $$ 
 
-(This is a finite sum since $u$ will only involve finitely many of the generators.) In particular the differentiation $u\mapsto u-\epsilon(u) 1_F$ (where $\epsilon:\mathbb{Z}F\to\mathbb{Z}$ is defined above) satisfies
+(This is a finite sum since $u$ will only involve finitely many of the generators.) 
+
+In particular if  $\epsilon:\mathbb{Z}F\to\mathbb{Z}$ is the augmentation map given by $\epsilon:x_i\mapsto 1$, then the differentiation $u\mapsto u-\epsilon(u) 1_F$ satisfies
 
 $$
 u - \epsilon(u) 1_F = \sum_i \frac{\partial u }{\partial x_i} (x_i -1)
