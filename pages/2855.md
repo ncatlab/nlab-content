@@ -5,4 +5,4 @@
 
 * [[ionad]]
 
-cateories: people
+cateory: people
