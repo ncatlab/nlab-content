@@ -24,6 +24,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-09-15
+
+* [[Mike Shulman]]: Two questions at [[graph of a functor]].  One of them spills over into [[cograph of a functor]] and [[weak pullback]].
+
 
 ## 2009-09-14
 
