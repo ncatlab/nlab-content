@@ -539,6 +539,7 @@ There are two options to formalize this:
 
 The _rheonomy_ constraint has been and is usefully compared with a holomorphicity constraint: a _function_
 $f : \mathbb{C} \to \mathbb{C}$ on the complex plane and hence a priori of two real coordinates, is _holomorphic_ if it locally looks like it effectively depends only on one of the two coordintes. Similarly, a **rheonomic superfield** is a function on a [[supermanifold]] which locally looks as if it depends only on the ordinary even (bosonic) coordinates.
+Moreover, in the same way as we can reconstruct an analytic function from its behaviour along a curve, in a rheonomic theory it is possible to build the whole superspace curvatures form their space-time components.  
 
 To further exploit this analogy, notice that an ordinary function $f$, being a [[differential form|0-form]] has a [[schreiber:curvature|curvature]] which is the 1-form $R_F := d f$. The function $f$ is holomorphic precisely if its curvature, in this sense, vanishes on all tangent vectors proportional to $\frac{\partial}{\partial \bar z}$.
 
@@ -557,6 +558,18 @@ A [[schreiber:∞-Lie algebroid valued differential forms|field]] $\Pi^{inf}(X) 
 this is part III, chapter III.3.3 in 
 
 * [[Supergravity and Superstrings - A Geometric Perspective]]
+
+The starting point is that the fields entering the supergravity Lagrangian are those entering the super-Maurer-Cartan equations which define the super-Poincar\'e algebra. 
+
+Formally, this is performed by the rheonomic extension mapping. Let $x^{\mu}$ the coordinates on the space-time manifold ${\cal M}_{x}$ and $\theta^{\alhpa}$ the remaining coordinates on the fermionic directions of the supermanifold ${\cal M}_{x,theta}$ under consideration. 
+Given the space-time fields $V^{a}(x)$, $\Psi(x)$, $\omega^{ab}(x)$ (and eventually the $p$-forms of the extension determined by the Chevalley cohomology), the rheonomic extension mapping is a map $rh: {\cal M}_{x} \to {\cal M}_{x,\theta}$ which extends each field on space-time to the corresponding one on the whole superspace $\phi (x) \mapsto \phi(x, \theta )$. This map is determined once the rheonomic constraints, which give the outer components of the curvatures in terms of the inner (space-time) ones, are known.
+
+... (to be continued after the discussion on soft group manifolds)
+
+This extension mapping can be used only if the theory has been built with diffeomorphism-invariant operators, otherwise the extension mapping is ill-defined. In particular, the Hodge dual operator must be avoided.
+
+... (to be continued)
+
 
 # References #
 
