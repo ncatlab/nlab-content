@@ -21,6 +21,7 @@ In constructive mathematics, one is usually interested in the finite sets, altho
 
 Finite sets are always [[projective object|projective]]; that is, the "finite [[axiom of choice]]" always holds.  However, if any finite set greater than 1 is [[choice object|choice]], or if every 2-indexed set is projective, then the logic must be classical (see [[excluded middle]] for a proof).
 
+
 ## Finiteness without infinity
 
 The above definition of "finite," and hence all the above definitions except for Dedekind-finiteness, only make sense given the set of natural numbers, i.e., given an axiom of infinity.  However, they can  all be rephrased to make sense even without an axiom of infinity (and thus in a topos without a [[natural numbers object]]).  Basically, you define (for a given set $S$) the concept of 'collection of subsets of $S$ that includes all of the finite subsets' by requiring it to be closed under inductive operations appropriate for the sense of 'finite' that you want; then $S$ is finite if and only if it is an element of all such collections.  Namely, for any set $S$ we define the following subsets of $P(S)$.
@@ -30,10 +31,15 @@ The above definition of "finite," and hence all the above definitions except for
 * $F(S)$ is the smallest subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a singleton in $S$ disjoint from $A$.  Then $S$ is finite iff $S\in F(S)$.
 * $\tilde{F}(S)$ is the smallest subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a subsingleton in $S$ disjoint from $A$.  Then $S$ is subfinite iff $S\in \tilde{F}(S)$.
 
+
 ## Challenge: Finiteness predicatively without infinity
 
 _Toby_: Can you think of a way to define these notions of finite without a set of truth values and without a natural numbers object? Equivalently, can you define them in an arbitrary [[locally cartesian closed category|locally cartesian closed]] [[pretopos]]?  (Use the axiom of [[subobject collection]] if necessary.)
 
+
 ## Finite objects in a topos
 
 In a topos, there are both "external" and "internal" versions of all the above notions of finiteness, depending on whether we interpret their meaning "globally" or in the [[internal logic]] of the topos.  See [[finite object]].
+
+
+[[!redirects finite sets]]
