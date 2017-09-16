@@ -23,6 +23,8 @@ and useful in the case that the model category is a
 
 We first give the simple definition that applies in the case that the model category in question is [[presentable category|presentable]].
 
+### In a presentable category ###
+
 For $S \subset Mor(C)$ any collection of morphisms, write
 
 * $rlp(S)$ for the collection of morphisms with the _right_ 
@@ -65,8 +67,42 @@ Use the [[small object argument]].
 =--
 
 
+### In general ###
+
+We need the following general terminology
+
++-- {: .un_defn}
+###### Definition
+
+Let $C$ be a category with all [[colimit]]s and let $I \subset Mor(C)$ a class of morphisms. We write
+
+* $cell(I)$ for the class of morphisms obtained by [[transfinite composition]] of [[pushout]]s of elements in $I$;
+
+* $cof(I)$ for the class of [[retract]]s of elements in $cell(I)$
+
+* $inj(I) := rlp(I)$ for the class of morphisms with the right [[lifting property]] with respect to $I$.
+
+=--
+
+A [[model category]] with all [[colimit]]s is **cofibrantly generated** if there is a small [[set]] $I$ and a small set $J$ such that
+
+* $cof(I)$ is precisely the collection cofibrations of $C$;
+
+* $coj(J)$ is precisely the collection of acyclic cofibrations in $C$.
+
+In this case we have necessarily that
+
+* $inj(J)$ is precisely the collection of fibrations on $C$;
+
+* $inj(I)$ is pecisely the collection of acyclic cofibrations of $C$.
+
+
+
+
 ## References ##
 
-See [[Higher Topos Theory|HTT section A.1.2]].
+For the case of a [[presentable category]] a useful reference is [[Higher Topos Theory|HTT section A.1.2]].
 
+For the general case a useful reference is for instance the first section of 
 
+* [[Tibor Beke]], _Sheafifiable homotopy model categories_ ([arXiv](http://arxiv1.library.cornell.edu/abs/math/0102087))
