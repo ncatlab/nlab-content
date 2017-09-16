@@ -16,4 +16,6 @@ In general, a $1$-foo should always be the same as a foo, as with $1$-category, 
 (Not to mention that most homotopy-theoretic dimension counting is off by $1$ anyway.  But that\'s another topic, indeed a topic that always making a $1$-foo a foo will safely avoid.)
 
 I have no opinion about 'tuply'; it just came naturally to me since I was thinking about $k$-tuple monoidality.
+
+[[Mike Shulman|Mike]]: Yeah, I agree that in general it is better if a 1-foo is the same as an unadorned foo, but not everyone has adhered to that.  [Wikipedia](http://en.wikipedia.org/wiki/N-connected) agrees with me about the meaning of $k$-connected in topology.
 =--
