@@ -26,8 +26,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-07
 
-* [[Urs Schreiber]] started keyword-list entry [[Structured Spaces]] and in that context also started [[generalized scheme]]
+* [[Rafael Borowiecki]]: Replied Todd Trimbles question at [[Timeline of category theory and related mathematics]].
 
+* [[Urs Schreiber]] started keyword-list entry [[Structured Spaces]] and in that context also started [[generalized scheme]]
 
 * [[Andrew Stacey|Lab Elf (numerological department)]]: Just thought I'd congratulate Zoran on creating the 2000th page on the nLab.  According to the database, it was [[smooth morphism of schemes]].  For those who prefer other coincidences, [[skewfield]] was our 2009th.  Of course, in this more modern age we ought to really celebrate [[coherent sheaf]] instead.  Whichever we celebrated, it would be Zoran that would get the metaphorical bottle of champagne as he created the lot.
 
