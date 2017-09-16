@@ -59,8 +59,8 @@ We then define, inductively, an interpretation of every _logical formula_ that c
 <tr><td>[[disjunction]]: &or;</td><td>[[union]]</td></tr>
 <tr><td>falsity: &bot;</td><td>bottom element ([[initial object|strict initial object]])</td></tr>
 <tr><td>implication: &rarr;</td><td>[[Heyting algebra|Heyting implication]]</td></tr>
-<tr><td>[[existential quantification]]: &exist;</td><td>[[adjunction|left adjoint]] to pullback</td></tr>
-<tr><td>[[universal quantification]]: &forall;</td><td>[[adjunction|right adjoint]] to pullback</td></tr>
+<tr><td>[[existential quantification]]: &exist;</td><td>[[adjoint functor|left adjoint]] to pullback</td></tr>
+<tr><td>[[universal quantification]]: &forall;</td><td>[[adjoint functor|right adjoint]] to pullback</td></tr>
 </table>
 
 The fact that existential and universal quantifiers can be interpreted as left and right adjoints to pullbacks was first realized by Lawvere.  One way to realize that it makes sense is to notice that in [[Set]], the image of a subset $R\subset A$ under a function $f:A\to B$ can be defined as
