@@ -113,6 +113,6 @@ The book by MacLane and Moerdijk has an emphasis on the [[topos]]-theoretic aspe
 
 * S. MacLane, I. Moerdijk, _Sheaves in geometry and logic -- A first introduction to topos theory_, Springer
 
-The book by Kashiware and Shapira discusses sheaves with motivation from homological algebra and [[homotopy theory]], leading over in the last chapter to the notion of [[stack]].
+The book by Kashiwara and Shapira discusses sheaves with motivation from homological algebra and [[homotopy theory]], leading over in the last chapter to the notion of [[stack]].
 
-* Kashiwara, Shapira, _Categories and sheaves_, Springer
+* Kashiwara, Shapira, [[Categories and Sheaves]], Springer
