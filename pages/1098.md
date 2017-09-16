@@ -2,8 +2,12 @@
 [[!include (infinity,1)-topos - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Definition#
+
+## Definition ## 
 
 Write $(\infty,0)Cat$ for [[generalized the|the]] category [[∞Grpd]] of $\infty$-[[infinity-groupoid|groupoids]] regarded as an [[(∞,1)-category]].
 
@@ -23,11 +27,11 @@ $$
  \,.
 $$
 
-#Remarks#
+## Remarks ##
 
 * $(\infty,1)$-presheaves are the basic building block for the definition of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-categories of (∞,1)-sheaves]].
 
-#References#
+## References ##
 
 Section 5.1 of
 
