@@ -20,7 +20,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
     *  Yeah, I was thinking of reworking that map to run vertically ....  ---Toby
 
-    *  Would that really b better, though? Optimally, wventually we'd produce a LaTeXed pdf diagram. Here an elsewhere. That, however, inhibits joint editing a bit. ---Urs
+    *  Would that really be better, though? Optimally, eventually we'd produce a LaTeXed pdf diagram. Here and elsewhere. That, however, inhibits joint editing a bit. ---Urs
 
 
   * replied at [[delooping]], at [[group]], added a bit at [[Notation]]
