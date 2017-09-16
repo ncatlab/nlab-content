@@ -48,6 +48,10 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ***
 
+## 2009-09-17
+
+* [[Urs Schreiber]]: added a paragraph at [[About]] in the part starting with "If you find yourself annoyed by the state some entry is in...". That paragraph is motivated by a recent reaction by somebody on some blog, who had indeed complained about some unfinished entry and after that needed some persuasion to help expand and improve it.
+
 ## 2009-09-16
 
 * [[Urs Schreiber]]: 
