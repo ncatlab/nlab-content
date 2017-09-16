@@ -200,13 +200,13 @@ $$
 **goal now** find an algebraic interpretation of $\alpha$ such that
 
 $$
-  Rep(S^1) = \mathcal{O}_{G_m}
+  Rep(S^1) = \mathcal{o}_{G_m}
 $$
 
 and
 
 $$
-  Rep(\mathbb{C}P^\infty) = \mathcal{O}_{\hat G_m}
+  Rep(\mathbb{C}P^\infty) = \mathcal{o}_{\hat G_m}
 $$
 
 adopt the [[functor of points]] perspective
@@ -227,11 +227,11 @@ for $X$ a functor, it is an [[affine scheme]] if it is a [[representable functor
 
 **examples**  
 
-1. $\mathbb{A}^n(R) := R^n$
+1. $\mathbf{A}^n(R) := R^n$
 
-1. $\hat \mathbb{A}^n(R) := Nil(R)^n$
+1. $\hat \mathbf{A}^n(R) := Nil(R)^n$
 
-1. $G_m(R) := R^\times \hookrightarrow \mathbb{A}^1(R)$
+1. $G_m(R) := R^\times \hookrightarrow \mathbf{A}^1(R)$
 
 1. $\mathbb{P}^n(R) := R^{n+1}/\sim$, where $\sim$ is multiplication by $R^\times$
 
@@ -239,7 +239,7 @@ for $X$ a functor, it is an [[affine scheme]] if it is a [[representable functor
 
 $G_m$ is affine.
 
-**proof** $A = \mathbb{Z}[x,x^{-1}]$, let $u \in Spec(\mathbb{A}(R))$ a map $u A \to R$, then define 
+**proof** $A = \mathbb{Z}[x,x^{-1}]$, let $u \in Spec(\mathbf{A}(R))$ a map $u A \to R$, then define 
 
 $$
   \phi : Spec A \to G_m
@@ -271,14 +271,14 @@ $$
 
 **endofproof**
 
-similarly, $\mathbb{A}^n \simeq Spec \mathbb{Z}[x_1, \cdots, x_n]$
+similarly, $\mathbf{A}^n \simeq Spec \mathbb{Z}[x_1, \cdots, x_n]$
 
 # group schemes #
 
-Given a functor $X : CRing \to Set$ define the ring of funtions $\mathcal{O}_X$ as
+Given a functor $X : CRing \to Set$ define the ring of funtions $\mathcal{o}_X$ as
 
 $$
-  \mathcal{O}_X := Hom_{Func(CRing,Set)}(X, \mathbb{A}^1)
+  \mathcal{o}_X := Hom_{Func(CRing,Set)}(X, \mathbf{A}^1)
 $$
 
 in the [[functor category]].
@@ -288,7 +288,7 @@ in the [[functor category]].
 we have
 
 $$
-  \mathcal{O}_{Spec A}
+  \mathcal{o}_{Spec A}
   \simeq
   A
 $$
@@ -296,7 +296,7 @@ $$
 so that in particular 
 
 $$
-  \mathcal{O}_{G_m} \simeq \mathbb{Z}[x,x^{-1}]
+  \mathcal{o}_{G_m} \simeq \mathbb{Z}[x,x^{-1}]
   \,.
 $$
 
@@ -305,7 +305,7 @@ $$
 Let $X$ be an [[affine scheme]] and $Y : CRing \to Set$ a [[functor]] with a [[natural transformation]] $p : Y \to X$. A **system of formal coordinates** is a sequence of maps
 
 $$
-  X_i : Y \to \hat \mathbb{A}^1
+  X_i : Y \to \hat \mathbf{A}^1
 $$
 
 such that
@@ -313,7 +313,7 @@ such that
 $$
   a \mapsto (x_1(a), \cdots, x_n(a), p(a))
   \in 
-  \hat \mathbb{A}^n \times X
+  \hat \mathbf{A}^n \times X
 $$
 
 is an [[isomorphism]]. A $Y$ that admits a system of formal coordinates is a **[[formal scheme]]** over $X$.
@@ -347,23 +347,23 @@ which is a group under multiplication.
 there is an [[isomorphism]] of underlying [[formal scheme]]s
 
 $$
-  \hat G_m  \simeq \hat \mathbb{A}^1
+  \hat G_m  \simeq \hat \mathbf{A}^1
 $$
 
 
-We compute $\mathcal{O}_{\hat \mathbb{A}^1} \simeq \mathcal{O}_{\hat \mathbb{G}_m}$ in two ways:
+We compute $\mathcal{o}_{\hat \mathbf{A}^1} \simeq \mathcal{o}_{\hat G_m}$ in two ways:
 
-1. Recall that $\hat \mathbb{A}^1$ can be defined as $\mathrm{Spf} \; \mathbb{Z} [t]$, so the global sections of the structure sheaf (which is what we have been calling $\mathcal{O}$) is
-$$\mathcal{O}_{\hat \mathbb{A}^1} = \lim_\rightarrow \mathbb{Z}[t]/ (t^n) = \mathbb{Z} [[t]] .$$ 
+1. Recall that $\hat \mathbf{A}^1$ can be defined as $Spf \; \mathbb{Z} [t]$, so the global sections of the structure sheaf (which is what we have been calling $\mathcal{o}$) is
+$$\mathcal{o}_{\hat \mathbf{A}^1} = \lim_\rightarrow \mathbb{Z}[t]/ (t^n) = \mathbb{Z} [[t]] .$$ 
 
-1. We can also see this in the functor of points perspective.  Consider the functor $\mathrm{Spec} \; \mathbb{Z} [t]/ (t^n)$, then for any ring $R$ $$\hat A^1 (R) = \lim_\rightarrow \mathrm{Spec} \; \mathbb{Z} [t]/ (t^n) (R).$$
+1. We can also see this in the functor of points perspective.  Consider the functor $\mathrm{Spec} \; \mathbb{Z} [t]/ (t^n)$, then for any ring $R$ $$\hat \mathbf{A}^1 (R) = \lim_\rightarrow \mathrm{Spec} \; \mathbb{Z} [t]/ (t^n) (R).$$
 By the universal property of colimits we have
-$$\mathrm{Nat} (\hat \mathbb{A}^1 , \mathbb{A}^1 ) \simeq \lim_\leftarrow \mathrm{Nat} (\mathrm{Spec} \; \mathbb{Z}[t]/ (t^n) , \mathbb{A}^1) \simeq \mathbb{Z} [[t]].$$
+$$\mathrm{Nat} (\hat \mathbf{A}^1 , \mathbf{A}^1 ) \simeq \lim_\leftarrow \mathrm{Nat} (\mathrm{Spec} \; \mathbb{Z}[t]/ (t^n) , \mathbf{A}^1) \simeq \mathbb{Z} [[t]].$$
 
 
 
 $$
-  \mathcal{O}_{\hat G_m} \simeq \mathbb{Z}[ [ t] ]
+  \mathcal{o}_{\hat G_m} \simeq \mathbb{Z}[ [ t] ]
   \,.
 $$
 
@@ -374,7 +374,7 @@ $$
 such that 
 
 $$
-  \mathcal{O}_{G_m}
+  \mathcal{o}_{G_m}
   \simeq
    \mathbb{Z}[x,x^{-1}]
    \simeq
@@ -383,20 +383,20 @@ $$
   K(\mathbb{C}P^\infty) \simeq
   \mathbb{Z}[ [ t ] ]
   \simeq
-  \mathcal{O}_{\hat G_m}
+  \mathcal{o}_{\hat G_m}
 $$
 
 is the canonical inclusion
 
 
 $$
-  \mathcal{O}_{G_m} \to \mathcal{O}_{\hat G_m}
+  \mathcal{o}_{G_m} \to \mathcal{o}_{\hat G_m}
 $$
   
 **exercise**
 
 $$
-  x \in \mathbb{Z}[x,x^{-1}] \simeq \mathcal{O}_{G_m}
+  x \in \mathbb{Z}[x,x^{-1}] \simeq \mathcal{o}_{G_m}
 $$
 
 is the natural transformation $R^\times \to R$
@@ -405,7 +405,7 @@ and
 
 $$
   t \in \mathbb{Z}[ [t] ] \simeq
-  \mathcal{O}_{\hat G_m}
+  \mathcal{o}_{\hat G_m}
 $$
 
 is the natural transformation
@@ -421,16 +421,17 @@ $$
 so that we get a map
 
 $$
-  \mathcal{O}_{G_m} \to \mathcal{O}_{\hat G_m}
+  \mathcal{o}_{G_m} \to \mathcal{o}_{\hat G_m}
 $$
 
-by sending $x$ to $1 + t$, and this corresponds to taking the [[germ]] of functons at $1 \in G_m$
+by sending $x$ to $1 + t$, and this corresponds to taking the [[germ]] of functions at $1 \in G_m$
 
 #lesson #
 
-given $G$ an algebraic group sich that the [[formal spectrum]] $Spf A(\mathcal{C}P^\infty)$ is the completion $\hat G$, define $A_{S^1}({*}) =: \mathcal{O}_{G}$ then passing to germs gives a completion map
+given $G$ an algebraic group such that the [[formal spectrum]] $Spf A(\mathbb{C}P^\infty)$ is the completion $\hat G$, define $A_{S^1}({*}) := \mathcal{o}_{G}$ then passing to germs gives a completion map
 
 $$
   A_{S^1}({*}) \to A(\mathbb{C}P^\infty) = 
   A^{Bor}_{S^1}({*})
 $$
+
