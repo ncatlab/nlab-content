@@ -24,6 +24,8 @@ From the perspective of structural [[set theory]], it is [[evil]] to care about 
 
 However, one still may need sets of cardinals, that is sets that serve as the target of a cardinality function satisfying (1--3) on any small class of sets.  One defines this as a [[quotient set]] of the set of those sets under consideration.
 
+Lowercase Greek letters starting from $\kappa$ are often used for cardinal numbers.
+
 # Cardinal arithmetic #
 
 For $S$ a [[set]], write $|S|$ for its cardinality. Then the standard operations in the [[category]] [[Set]] induce arithmetic operations on cardinal numbers:
@@ -58,21 +60,25 @@ $$
   \,.
 $$
 
-In particular, we have $2^{|S|}$, which (assuming the law of [[excluded middle]]) is the cardinality of the [[power set]] $P(S)$.
+In particular, we have $2^{|S|}$, which (assuming the law of [[excluded middle]]) is the cardinality of the [[power set]] $P(S)$.  In [[constructive mathematics|constructive]] (but not [[predicative mathematics|predicative]]) mathematics, the cardinality of the power set is $\Omega^{|S|}$, where $\Omega$ is the cardinality of the set of [[truth value]]s.
 
-A cardinal $|S_1|$ is said to be **smaller than or equal to** another cardinal $|S_2|$ precisely if there exists an [[injection]] of the corresponding sets
+The usual way to define an ordering on cardinal numbers is that $|S_1| \leq |S_2|$ if there exists an [[injection]] from $S_1$ to $S_2$:
 $$
   (|S_1| \leq |S_2|)
-  \Leftrightarrow
-  (\exist (S_1 \hookrightarrow S_2))
+  \;:\Leftrightarrow\;
+  (\exists (S_1 \hookrightarrow S_2))
   \,.
 $$
-This is equivalent to the existence of a [[surjection]] $S_2 \to S_1$.  The Schroeder-Bernstein Theorem asserts that if $|S_1|\le |S_2|$ and $|S_2|\le |S_1|$, then $|S_1|=|S_2|$ (that is, $S_1$ and $S_2$ are bijective).
+Classically, this is almost equivalent to the existence of a [[surjection]] $S_2 \to S_1$, except when $S_1$ is [[empty set|empty]].  Even restricting to [[inhabited set]]s, these are not equivalent conditions in [[constructive mathematics]], so one may instead define that $|S_1| \leq |S_2|$ if there exists a [[subset]] $X$ of $S_2$ and a surjection $X \to S_1$.  Another alternative is to require that $S_1$ (or $X$) be a [[decidable subset]] of $S_2$.  All of these definitions are equivalent using [[excluded middle]].
+
+This order relation is [[antisymmetric relation|antisymmetric]] (and therefore a [[partial order]]) by the (Cantor--)Schroeder--Bernstein Theorem (proved by Cantor using the [[well-ordering theorem]], then proved by Schroeder and Bernstein without it).  That is, if $S_1 \hookrightarrow S_2$ and $S_2 \hookrightarrow S_1$ exist, then a bijection $S_1 \cong S_2$ exists.  This theorem is not constructively valid, however.
+
+The well-ordered cardinals are [[well-order|well-ordered]] by the ordering $\lt$ on [[ordinal number]]s.  Assuming the [[axiom of choice]], this agrees with the previous order in the sense that $\kappa \leq \lambda$ iff $\kappa \lt \lambda$ or $\kappa = \lambda$.  Another definition is to define that $\kappa \lt \lambda$ if $\kappa^+ \leq \lambda$, using the successor operation below.
+
+The __[[successor]]__ of a well-ordered cardinal $\kappa$ is the smallest well-ordered cardinal larger than $\kappa$.  Note that (except for finite cardinals), this is different from $\kappa$\'s successor as an [[ordinal number]].
 
 
 # Properties #
-
-* With the [[order]]ing as above, cardinals are [[well-order|well-ordered]] (assuming the axiom of choice).  In particular, every cardinal has a [[successor]] cardinal (the next smallest one), sometimes written $\pi^+$.
 
 * It is traditional to write $\aleph_0$ for the first infinite cardinal (the cardinality of the natural numbers), $\aleph_1$ for the next (the first uncountable cardinality), and so on.  In this way every cardinal (assuming choice) is labeled $\aleph_\mu$ for a unique [[ordinal]] $\mu$, with $(\aleph_\mu))^+ = \aleph_{\mu+1}$.
 
