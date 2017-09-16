@@ -60,6 +60,9 @@ $$
 
 The second condition implies that the functor $F_Q$ in the first condition is unique up to unique isomorphism.
 
++-- {: .query}
+**Harry:**  I think there should be a little more discussion of the classical case (i.e. pointed topological spaces).  There's a functor taking this category to its homotopy category in the following way: It sends $Hom((X,x_0),(Y,y_0))$ to $[(X,x_0);(Y,y_0)]$.  However, the is a little more to it, so to speak, because I _think_ we can describe $[(X,x_0);(Y,y_0)]$ as a coequalizer of $Hom(-\times I,-)$=>$Hom(-\times I,-)$, which gives us the appropriate idea fof "modulo homotopy". This is at least how it works if the second coordinate is fixed.  However, since it is a bifunctor, I'm not sure if I need to be more careful/not of taking colimits.  To be precise, this takes place in the category of bipointed topological spaces (because we want to attach X at two points to the interval (this is how we get the two arrows).  I'd appreciate it if someone would clarify this for me (so I could write up the section [classical definition]).  
+=--
 #Properties#
 
 * If it exists, the homotopy category $Ho(C)$ is unique up to [[equivalence of categories]].
