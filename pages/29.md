@@ -5,9 +5,8 @@ Two [[objects]] of a [[category]] are isomorphic if they describe essentially th
 
 ##Definitions
 
-An __isomorphism__, or __iso__ for short, is an invertible [[morphism]], i.e. a [[morphism]] with a 2-sided [[inverse]].  A morphism may be called __isic__ (following the more common 'monic' and 'epic') if it is an isomorphism.  Two [[objects]] $x$ and $y$ are __isomorphic__ if there exists an isomorphism from $x$ to $y$ (or equivalently, from $y$ to $x$).  An __[[automorphism]]__ is an isomorphism from one object to itself.
+An __isomorphism__, or __iso__ for short, is an invertible [[morphism]], i.e. a [[morphism]] with a 2-sided [[inverse]].  A morphism may be called __isic__ (following the more common 'monic' and 'epic') if it is an isomorphism, but it\'s more common to simply call it _invertible_.  Two [[objects]] $x$ and $y$ are __isomorphic__ if there exists an isomorphism from $x$ to $y$ (or equivalently, from $y$ to $x$).  An __[[automorphism]]__ is an isomorphism from one object to itself.
 
-[[John Baez]]: "isic"? I sick!  What's wrong with "invertible"?
 
 ## Properties
 
