@@ -12,14 +12,15 @@ We assume the law of [[excluded middle]] throughout; see below for the construct
 
 ### Short version ###
 
-Given a [[set]] $X$, the [[power set]] $P X$ of $X$ is a [[Boolean algebra]] under the operations of [[finite set|finitary]] [[union]], [[intersection]], and [[complement]]ation.  Actually, it is a [[complete lattice|complete]] Boolean algebra, since we can also take arbitrary unions and intersections.  A $\sigma$-algebra is an intermediate notion where we require (in addition to complements) [[countable set|countable]] unions and intersections.
+Given a set $X$, a __$\sigma$-algebra__ is a collection of subsets of $X$ that is closed under [[complement]], [[countable]] unions, and countable intersections.  A __measurable space__, by the usual modern defintion, is a set $X$ equipped with a $\sigma$-algebra $\Sigma$.  The elements of $\Sigma$ are called the __measurable subsets__ of $X$ (or more properly, the measurable sets of $(X,\Sigma)$).
 
-A __measurable space__, by the usual modern defintion, is simply a set $X$ equipped with a $\sigma$-algebra $\Sigma$.  The elements of $\Sigma$ are the __measurable sets__ in $X$ (or properly, in $(X,\Sigma)$).
-
-If you are happy with this, then feel free to skip the long version below.
-
+Given a [[set]] $X$, the [[power set]] $P X$ of $X$ is a [[Boolean algebra]] under the operations of [[finite set|finitary]] [[union]], [[intersection]], and [[complement|complementation]].  Actually, it is a [[complete lattice|complete]] Boolean algebra, since we can also take arbitrary unions and intersections.  A $\sigma$-algebra is an intermediate notion, since in addition to being closed under complementation, we only require that it be closed under [[countable set|countable]] unions and intersections.
 
 ### Long version ###
+
+**Warning: some material in this section could be considered [[centipede mathematics]]**
+
+![a pic](http://math.ucr.edu/home/baez/centipede.jpg)
 
 Given a [[set]] $X$ and a collection $\Sigma$ of [[subset]]s $S \subseteq X$, we will always use the term 'measurable' to describe an element of $\Sigma$.  There are really several kinds of collections that $\Sigma$ could be:
 
