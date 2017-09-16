@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher algebra - contents]]
+</div>
+
+
 #Definition#
 
 An **algebra over an [[operad]]** is the single [[hom-object]] of a [[category over an operad]] which has a single [[object]].
