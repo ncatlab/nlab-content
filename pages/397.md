@@ -56,6 +56,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Peter LeFanu Lumsdaine]]
 * [[Rafael Borowiecki]]
 * [[Reid Barton]]
+* [[Riccardo Nicoletti]]
 * [[Richard Body]]
 * [[Roger Witte]]
 * [[Romie Banerjee]]
