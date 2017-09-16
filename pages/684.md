@@ -7,7 +7,7 @@ This construction may be generalized to any other [[(∞,1)-topos]] and in fact 
 
 # Definition #
 
-Loop space objects are defined in any [[(∞,1)-category]] $\mathbf{C}$ with [[homotopy pullback]]s: for $X$ any [[pointed object]] of $\mathbf{C}$ with point ${*} \to X$, its [[loop space object]] is [[generalized the|the]] [[homotopy pullback]] $\Omega X$ of this point along itself:
+Loop space objects are defined in any [[(∞,1)-category]] $\mathbf{C}$ with [[homotopy pullbacks]]: for $X$ any [[pointed object]] of $\mathbf{C}$ with point ${*} \to X$, its [[loop space object]] is [[generalized the|the]] [[homotopy pullback]] $\Omega X$ of this point along itself:
 
 $$
   \array{
@@ -34,7 +34,7 @@ See also
 
 Usually the [[(∞,1)-category]] in question is [[presentable (infinity,1)-category|presented]] by concrete 1-categorical data, such as that of a [[model category]]. In that case the above [[homotopy pullback]] has various realizations as an ordinary [[pullback]].
 
-Notably it may be expressed using [[path object]]s which may come from [[interval object]]s. Even if the context is not (or not manifestly) that of a [[homotopical category]], an [[interval object]] may still exist and may be used as indicated in the following to construct loop space objects.
+Notably it may be expressed using [[path objects]] which may come from [[interval objects]]. Even if the context is not (or not manifestly) that of a [[homotopical category]], an [[interval object]] may still exist and may be used as indicated in the following to construct loop space objects.
 
 ##Free loop space object##
 
