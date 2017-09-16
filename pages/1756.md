@@ -4,7 +4,7 @@
 
 #Idea#
 
-Quillen adjunctions are the right notion of morphism between [[model category|model categories]]. They induce morphisms between the [[(infinity,1)-category|(infinity,1)-categories]] [[presentable (infinity,1)-category|presented]] by the model categories.
+Quillen adjunctions are one convenient notion of morphism between [[model category|model categories]].  They induce adjunctions between the [[(infinity,1)-category|(infinity,1)-categories]] [[presentable (infinity,1)-category|presented]] by the model categories.
 
 
 # Definition #
