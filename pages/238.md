@@ -12,7 +12,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
-# 2009-05-29 # 
+# 2009-05-30 #
+
+*  [[Toby Bartels]]:
+   *  A new query at [[sieve]].
+   *  Wrote [[finitely cocomplete category]] by copying [[finitely complete category]] and cutting it down.
+   *  Responded to Bruce at [[coverage]], to Urs at [[sieve]], and to Eric at [[category of elements]].
+
+# 2009-05-29 #
+
+*  [[Todd Trimble]] kindly created [[quasitopos]].
 
 * [[Urs Schreiber|Urs]]
 
