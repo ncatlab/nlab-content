@@ -252,6 +252,8 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[(∞,1)-category of (∞,1)-presheaves]]
 
+* [[Yoneda lemma for (∞,1)-categories]]
+
 ### 5.2 adjoint $(\infty,1)$-functors ###
 
 * [[adjoint (∞,1)-functor]]
