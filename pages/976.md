@@ -55,11 +55,11 @@ This was developed further by Bourn and Cordier, and a strong shape version was 
 
 The classical application of shape theoretic idea is to the study of [[topological space]]s that do not have the [[homotopy type]] of a [[CW-complex]]. This is the case obtained from the above general setup by choosing
 
-* $C =$ [[Top]] the category of all [[topological space]]s;
+* $C =$ [[HoTop]] the homotopy category of all [[topological space]]s;
 
-* $D = CW Cplx$ the subcategory of [[CW-complex]]es.
+* $D = Ho(CW Cplx)$ the subcategory given by [[CW-complex]]es.
 
-More on this is in the section [Shape theory for topological spaces](ForTopSpaces) below.
+More on this is in the section [Shape theory for topological spaces](ForTopSpaces) below and in [[Cech homotopy]].
 
 #### Profinite groups
 
