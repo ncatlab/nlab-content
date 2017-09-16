@@ -1,18 +1,12 @@
-#Idea#
+#Definitions and characterizations#
 
-Similar to [[D-module]]s, _local system_s are a model for something that in well-behaved situations is nothing but a vector bundle with flat connection.
-
-...
+A __local system__ is a locally constant sheaf on a topological space $X$ (or manifold, analytic manifold, or algebraic variety) whose stalk is a finite-dimensional vector space. On a connected topological space this is the same as a sheaf of sections of a finite-dimensional vector space equipped with flat connection; and it also corresponds to the representations of fundamental group $\pi(X,x_0)$ in the typical stalk. On an analytic manifold or a variety, there is an equivalence between the category of non-singular coherent [[D-module|$D_X$-modules]] and local systems on $X$.
 
 +-- {: .query}
 
   [[Urs Schreiber|Urs]]: I am hoping that maybe David Speyer, whose expositional blog entry is linked to below, or maybe somebody else would enjoy filling in some material here.
 
 =--
-
-#Definition#
-
-...
 
 #Examples#
 
