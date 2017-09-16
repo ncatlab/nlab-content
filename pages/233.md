@@ -276,6 +276,8 @@ This says that $R \oplus N$ is a square-0 extension of $R$. Conversely, for ever
 
 =--
 
+For instance the square-0-extension of a ring $R$ corresponding to the canonical $R$-module structure on $R$ itself is the [[ring of dual numbers]] for $R$. 
+
 
 #### Example: Modules over simplicial rings {#SimpRings}
 
