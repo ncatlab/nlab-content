@@ -59,6 +59,32 @@ $$
 
 is a weak equivalence in the [[model structure on quasi-categories]].
 
+## Examples {#Examples}
+
+### Joins with the point
+
+Let $* = \Delta[0]$ be the [[terminal object|terminal]] quasi-category. Then for $X$ any quasi-category, 
+
+* the join $X^{\triangleleft} := (*)\star X$ is the quasi-category obtained from $X$ by freely adjoining a new [[terminal object in a quasi-category|initial object]];
+
+* the join $X^{\triangleright} := X \star (*)$ is the quasi-category obtained from $X$ by freely adjoining a new [[terminal object in a quasi-category|terminal object]].
+
+For instance for $X = \Delta[1] = \{ 0 \to 1 \}$ be have
+
+$$
+  X^{\triangleright} = 
+  \left\{
+    \array{
+      0 &&\to&& 1
+      \\
+      & \searrow &\swArrow& \swarrow
+      \\
+      && \bottom
+    }
+  \right\}
+  \,.
+$$
+
 ## References
 
 The operation $\star_s$
