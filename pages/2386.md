@@ -9,6 +9,7 @@
 
 * [[deRham space]]
 
-* [[exercise in groupoidification - the path integral]]
+* [[Topological Quantum Field Theories from Compact Lie Groups]]
 
+  
 category: people
