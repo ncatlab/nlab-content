@@ -83,6 +83,19 @@ $Set(X, lim F) \simeq lim Set(X,F(-))$, where on the right the limit is taken of
 
 * the limit over a [[nLab:Set|Set]]-valued functor $F : D^{op} \to Set$ is a subset of the product $\Pi_{d \in Obj(d)} F(d)$ of all objects: $lim F = \left\{ (s_d)_d \in \prod_d F(d) | for all (d \stackrel{f}{\to} d') : F(f)(s_{d'}) = s_d  \right\}$.
 
+* the colimit over a [[nLab:Set|Set]]-valued functor $F : D \to Set$ is a quotient set of the disjoint union $\coprod_{d \in Obj(D)} D(d)$: 
+
+$$ 
+  colim F \simeq (\coprod_{d\in D} F(d))/_\sim \,, 
+$$
+
+where the equivalence relation $\sim$ is that which is _generated_ by 
+$$
+  ((x \in F(d)) \sim (x' \in F(d'))) if (\exists (f : d \to d') with F(f)(x) = x')
+\,.
+$$
+
+If $D$ is a [[filtered category]] then the relation $\sim$ already is an equivalence relation.
 
 ### limits in presheaf categorories ###
 
