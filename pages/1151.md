@@ -11,6 +11,26 @@ A non-technical account of some concepts in cohomology from this perspective is 
 
 Given an [[(∞,1)-topos]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\mathbf{H}$ the **cohomology** of $X$ with coefficients in $A$ is nothing but the [[hom-space]] $\mathbf{H}(X,A)$ (an [[∞-groupoid]]).
 
+
+More precisely:
+
+* the [[objects]] $ c \in \mathbf{H}(X,A)$ are the **cocycle**s on $X$ with values in $A$;
+
+* the [[k-morphisms]] in $\mathbf{H}(X,A)$ for $k \gt 0$ are the **coboundaries**;
+
+* the equivalence classes $[c] \in \pi_0 \mathbf{H}(X,A)$ are the **cohomology classes**.
+
+Hence for $H = Ho_{\mathbf{H}}$ the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathbf{H}$, the _cohomology set_ with coefficients in $A$ is
+
+$$
+  H(X,A) := Ho_{\mathbf{H}}(X,A)
+  \,.
+$$
+
+This is itself a group -- the [[cohomology group]] -- if $A$ happens to carry a group structure (being a [[2-group]] or [[cat-n-group]] or the like).
+
+## What this mean in more detail ##
+
 Or, in the language of self-described 'old farts' such as [[Jim Stasheff]]:
 
 > Ordinary nonabelian cohomology in degree 1 of a 'nice' topological space $X$ with values in a discrete (and possibly nonabelian) group $G$ can be defined as  the pointed set of homotopy classes of maps of topological spaces from $X$ into the classifying space $B G$. The content of *nonabelian cohomology* is the generalization of this statement to cohomology in higher degree. The content of general  nonabelian *differential* cohomology is moreover the generalization of nonabelian cohomology to generalized spaces with extra structure, in particular with smooth structure.
@@ -31,24 +51,9 @@ $$
 
 +-- {: .query}
 Jim, I\'ve formatted this as if it were a quotation, since it looks like you pasted some LaTeX code from a longer article.  Remove the `>`s if you don\'t like that.  ---Toby
+
 =--
 
-More precisely:
-
-* the [[objects]] $ c \in \mathbf{H}(X,A)$ are the **cocycle**s on $X$ with values in $A$;
-
-* the [[k-morphisms]] in $\mathbf{H}(X,A)$ for $k \gt 0$ are the **coboundaries**;
-
-* the equivalence classes $[c] \in \pi_0 \mathbf{H}(X,A)$ are the **cohomology classes**.
-
-Hence for $H = Ho_{\mathbf{H}}$ the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathbf{H}$, the _cohomology set_ with coefficients in $A$ is
-
-$$
-  H(X,A) := Ho_{\mathbf{H}}(X,A)
-  \,.
-$$
-
-This is itself a group -- the [[cohomology group]] -- if $A$ happens to carry a group structure (being a [[2-group]] or [[cat-n-group]] or the like).
 
 ## relation to homotopy ##
 
