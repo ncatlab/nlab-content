@@ -16,7 +16,8 @@ X
 && \overset{f \:=\: f_\kappa \:\circ\: \kappa}{\longrightarrow}
 && \mathbb{B}
 \\
-\multiscripts{_{(x_1, \dots, x_k)}^{\kappa \: =}}{}{}
+\rowopts{\colalign{right center}}
+\multiscripts{}{}{_{(x_1, \dots, x_k)}^{\kappa \: =}}
 & \searrow
 && \nearrow_{f_\kappa}
 \\
