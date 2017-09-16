@@ -1,4 +1,9 @@
-#Definition#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
 
 A **germ** is an element of (a total space of) an [[etale space]] or equivalently an element in some [[stalk]] of a [[sheaf]] (all stalks together form the total space of the etale space of the sheaf). Exactly what this means depends on which sheaf one is considering.
 
@@ -8,7 +13,7 @@ This general description of what a germ of some sheaf at some point is can be ex
 More generally, the notion of [[stalk]] makes sense in any [[topos]] that need not be a [[Grothendieck topos]] [[category of sheaves|of sheaves]] by way of the notion of [[point of a topos]]. Generally a germ is an element in the stalk of an object of a [[topos]] over some [[point of a topos|point of the topos]].
 
 
-# Examples #
+## Examples 
 
 Originally, the term came from geometry, where sheaves of (continuous, smooth, holomorphic etc.) functions or more generally, sections of a (say fibre) [[bundle]] $\xi:E\to B$ were considered; germs in geometrical intuition are always germs *of* something (of a [[section]] of the sheaf in some neighborhood of a point, but also elements of a [[colimit]] at a point of local sections of an original [[presheaf]] which is not always a sheaf; though the germs a posteriori make a sheaf, they can be considered or defined in relation to an original presheaf which is not necessarily a sheaf). __Germs of sections__ are defined as the elements of the colimit sets of the appropriate sets of sections $\Gamma_U \xi$ where the colimit is over all open sets containing $x\in B$ with inverse inclusion (inverse because a presheaf of sections of a bundle is a *contravariant* functor).
 
