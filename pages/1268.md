@@ -7,6 +7,12 @@ In as far as an $O$-modules on a [[ringed site]] $(X, O)$ can be interpreted as 
 the action of the differential operation given by a vector field $v$ on $X$ on a section $\sigma$ of the sheaf (over some patch $U$) is to be thought of as the covariant derivative $\sigma \mapsto \nabla_v \sigma$ with respect to the flat connection $\nabla$. 
 
 
+#Related entries#
+
+D-modules are closely related to
+
+* [[local system]]s
+
 #References#
 
 * Bernstein's [notes](http://www.math.uchicago.edu/~arinkin/langlands/Bernstein/Bernstein-dmod.pdf)
