@@ -1,1 +1,1 @@
-A function on a group is a **class function** if it is invariant under the conjugacy, i.e. it is equivalent to a function on the set of conjugacy classes. 
+A [[function]] on a [[group]] is a **class function** if it is invariant under conjugacy, i.e. it is equivalent to a function on the set of [[conjugacy class]]es. 
