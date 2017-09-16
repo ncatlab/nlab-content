@@ -1,7 +1,10 @@
 
 <div class="rightHandSide toc">
 [[!include synthetic differential geometry - contents]]
+***
+[[!include compact object - contents]]
 </div>
+
 
 #Contents#
 * automatic table of contents goes here
@@ -44,19 +47,19 @@ The construction of models for nonstandard analysis does, however, have a topos-
 
 # Definition #
 
-## atomic space ##
+## atomic object ##
 
 +-- {: .un_defn}
 ###### Definition (Lawvere)
 
-In a [[cartesian closed category]] $C$ an [[object]] $D$ is called **infinitesimal** or **tiny** or **atomic** if the [[hom-functor]]
+In a [[cartesian closed category]] $C$ an [[object]] $D$ is called **infinitesimal** **atomic** if the [[hom-functor]]
 $(-)^D : C \to C$ for maps out of $D$ (i.e. the functor of 
 [[exponential object|exponentiation]] by $D$) is a [[left adjoint]], i.e.
 if it has a [[right adjoint]].
 =--
 
 In particular, since every [[left adjoint]] functor preserves colimits,
-such an object is a [[compact object]].
+such an object is in particular a [[tiny object]] and in particular a [[compact object]].
 
 
 +-- {: .un_remark}
