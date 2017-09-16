@@ -1,0 +1,1 @@
+Given a [[category]] $C$, the __identity monad__ on $C$ is simply the [[identity functor]] on $C$, made into a [[monad]] in a rather trivial way.
