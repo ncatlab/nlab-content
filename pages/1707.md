@@ -34,7 +34,7 @@ The various notions of **group cohomology** are special cases of this:
 
   * $A =\mathbf{B} K_{(n)}$, for $K_{(n)}$ an arbitrary [[n-group]] 
 
-  For instance for $K = AUT(H)$ the [[2-group|automorphism 2-group]] of a possibly nonabelian group $H$, nonabelian group cohomology classified $H$-extensions of $G$ (see also [[gerbe (general idea)]]).
+  For instance for $K = AUT(H)$ the [[automorphism 2-group]] of a possibly nonabelian group $H$, nonabelian group cohomology classified $H$-extensions of $G$ (see also [[gerbe (general idea)]]).
 
 * **Group cohomology with coefficients in a nontrivial module** is in turn the following special case and variation of nonabelian group cohomology:
 
@@ -307,7 +307,7 @@ Aspects of this general point of view on group cohomology is described for insta
 
 * R. Brown, P. Higgins, R. Sivera, _Nonabelian algebraic topology_ ([pdf](http://www.bangor.ac.uk/%7Emas010/pdffiles/rbrsbookb-e040609.pdf), [web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html))
 
-Much of what is called "nonabelian cohomology" in the existing literature concerns the case of nonabelian group cohomology with coefficients in the [[2-group|automorphism 2group]] $AUT(H)$ of some possibly nonabelian group $H$.
+Much of what is called "nonabelian cohomology" in the existing literature concerns the case of nonabelian group cohomology with coefficients in the [[automorphism 2group]] $AUT(H)$ of some possibly nonabelian group $H$.
 
 This is the topic of [[Schreier theory]].
 
