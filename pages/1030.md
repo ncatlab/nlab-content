@@ -13,3 +13,4 @@ for any $c,d$.  Thus, the existence of zero morphisms can be regarded as a [[stu
 
 
 [[!redirects zero morphisms]]
+[[!redirects zero map]]
