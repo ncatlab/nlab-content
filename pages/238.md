@@ -18,6 +18,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * Created [[comma object]] and started messing around with using SVG for diagrams instead of `\array`.  It's more work but it sure does look nicer (in the output, anyway).
 
++-- {: .query}
+[[Urs Schreiber|Urs]]: looks good! We should have at  [[FAQ]] a brief instruction for how to proceed to produce such diagrams (which software  to download, how to get nicely typeset labels, etc.) 
+=--
+
 # 2009-02-11
 
 * [[Toby Bartels]]:
@@ -214,4 +218,4 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
-category: meta
+category: metan
