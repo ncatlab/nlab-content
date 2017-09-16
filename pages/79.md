@@ -25,5 +25,5 @@
 
   * [[representation theory|Representation Theory]]
 
-
+  * [[algebraic approaches to differential calculus]]
 [[!redirects Math]]
