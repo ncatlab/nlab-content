@@ -45,6 +45,12 @@ This may be expressed directly in terms of the notion of **homotopy group of a $
 
 > ... see the references below, for the moment...
 
+* [[Mackey functor]]
+
+## Equivariant cohomology
+
+The notion of [[cohomology]] relevant in equivariant stable homotopy theory is the flavor of [[equivariant cohomology]] (see there for details) called [[Bredon cohomology]].
+
 ## References
 
 * [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
