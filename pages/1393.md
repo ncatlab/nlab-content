@@ -28,5 +28,6 @@ This is because
 * while the $\infty$-stack constant on $X$ regards $X$ as a topologically discrete groupoid which however may have nontrivial morphisms.
 
 
-
-
+[[!redirects constant infinity-stacks]]
+[[!redirects constant ∞-stack]]
+[[!redirects constant ∞-stacks]]
