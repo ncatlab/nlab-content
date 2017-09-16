@@ -33,7 +33,7 @@ Note that any object isomorphic to a $U$-small object is $U$-small; thus in the 
 
 # Axioms of universes #
 
-Just as [[ZFC]] and other material set theories may be augmented with axioms guaranteeing the existence of [[Grothendieck universe]]s, so may [[ETCS]] and other structural set theories may be augmented with axioms guaranteeing the existence of universes in the above sense.  For example, the counterpart of Grothendieck's axiom
+Just as [[ZFC]] and other material [[set theory|set theories]] may be augmented with axioms guaranteeing the existence of [[Grothendieck universe]]s, so may [[ETCS]] and other structural set theories be augmented with axioms guaranteeing the existence of universes in the above sense.  For example, the counterpart of Grothendieck's axiom
 
 * For every set $s$ there exists a universe $U$ containing $s$, i.e. $s\in U$
 
@@ -44,14 +44,14 @@ would be
 
 # Consequences #
 
-One can show, from the above axioms, that the $U$-small morphisms are closed under finite [[coproduct]]s and under [[quotient]]s.  See the reference below.
+One can show, from the above axioms, that the $U$-small morphisms are closed under finite [[coproduct]]s and under [[quotient object]]s.  See the reference below.
 
 
 # In terms of indexed categories #
 
 Recall that an $\mathcal{E}$-[[indexed category]] is a [[pseudofunctor]] $\mathcal{E}^{op}\to \Cat$.  The fundamental $\mathcal{E}$-indexed category is the _self-indexing_ $\mathbb{E}$ of $\mathcal{E}$, which takes $I\in \mathcal{E}$ to the [[over category|slice category]] $\mathbb{E}^I = \mathcal{E}/I$ and $x:I\to J$ to the pullback functor $x^*$.
 
-An **internal full subcategory** of $\mathcal{E}$ is a full sub-indexed category $\mathbb{F}$ of $\mathbb{E}$ (that is, a collection of full subcategories $\mathbb{F}^I\subset \mathbb{E}^I$ closed under reindexing) such that there exists a generic $\mathbb{F}$-morphism, i.e. a morphism $el:E\to U$ in $\mathbb{F}^U$ such that for any $a:A\to I$ in $\mathbb{F}^I$, we have $a \iso f^*(el)$ for some $f:I\to U$.  In this case (since $\mathcal{E}$ is [[locally cartesian closed category|locally cartesian closed]]) there exists an [[internal category]] $U_1 \;\rightrightarrows\; U$ in $\mathcal{E}$ such that $\mathbb{F}$ is equivalent, as an indexed category, to the indexed category represented by $U_1 \;\rightrightarrows\; U$.
+An **internal full subcategory** of $\mathcal{E}$ is a full sub-indexed category $\mathbb{F}$ of $\mathbb{E}$ (that is, a collection of full subcategories $\mathbb{F}^I\subset \mathbb{E}^I$ closed under reindexing) such that there exists a generic $\mathbb{F}$-morphism, i.e. a morphism $el:E\to U$ in $\mathbb{F}^U$ such that for any $a:A\to I$ in $\mathbb{F}^I$, we have $a \cong f^*(el)$ for some $f:I\to U$.  In this case (since $\mathcal{E}$ is [[locally cartesian closed category|locally cartesian closed]]) there exists an [[internal category]] $U_1 \;\rightrightarrows\; U$ in $\mathcal{E}$ such that $\mathbb{F}$ is equivalent, as an indexed category, to the indexed category represented by $U_1 \;\rightrightarrows\; U$.
 
 An internal full subcategory is an **internal full subtopos** if each $\mathbb{F}$ is a logical subtopos of $\mathbb{E}$ (closed under finite limits, exponentials, and containing the subobject classifier).  A universe in $\mathcal{E}$, as defined above, can then be identified with an internal full subtopos satisfying the additional axiom that $U$-small morphisms are closed under composition.
 
