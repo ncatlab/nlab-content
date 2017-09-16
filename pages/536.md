@@ -5,7 +5,7 @@
 
 ## Idea
 
-An _algebraic theory_ is a concept in [[universal algebra]] that describes a specific type of algebraic gadget, such as [[group|groups]] or [[ring|rings]]. An individual group or ring is a _model_ of the appropriate theory. Roughly speaking, an algebraic theory consists of a specification of operations and laws that these operations must satisfy.
+An _algebraic [[theory]]_ is a concept in [[universal algebra]] that describes a specific type of algebraic gadget, such as [[group|groups]] or [[ring|rings]]. An individual group or ring is a _model_ of the appropriate theory. Roughly speaking, an algebraic theory consists of a specification of operations and laws that these operations must satisfy.
 
 Traditionally, algebraic theories were described in terms of [[logic]].  But _finitary_ algebraic theories (that is, those involving only finitary operations) can be understood category-theoretically as [[Lawvere theory|Lawvere theories]].  More generally, algebraic theories involving only operations of arity bounded by some [[cardinal number]] can be understood category-theoretically with a suitably generalization of Lawvere theories.  However, there are also algebraic theories with operations of unbounded arity, such as  the theory of algebras in which arbitrary sums are possible (one model of which is $[0,\infty]$), or the theory of [[complete lattice]]s; these can also be modeled by certain 'large Lawvere theories,' but the notion is not as well-behaved as in the bounded case; see [this thread](http://golem.ph.utexas.edu/category/2009/04/report_on_88th_peripatetic_sem.html#c023188).
 
