@@ -6,10 +6,12 @@ Let $x \leq y$ if and only if $x$ belongs to the closure of $\{y\}$.  One may al
 
 $X$ is $T_0$ if and only if its specialisation order is a [[partial order]].  $X$ is $T_1$ iff its specialisation order is [[equality]].  $X$ is $R_1$ (like $T_1$ but without $T_0$) iff its specialisation order is an [[equivalence relation]].
 
-Given a continuous function $f: X \to Y$ between topological spaces, it is order-preserving relative to the specialisation order.  Thus, we have a [[faithful functor]] from teh category of $\Top$ of topological spaces to the category $\Pros$ of preordered sets.
+Given a continuous function $f: X \to Y$ between topological spaces, it is order-preserving relative to the specialisation order.  Thus, we have a [[faithful functor]] from the category of $\Top$ of topological spaces to the category $\Pros$ of preordered sets.
 
-If we restrict to a [[finite set|finite]] underlying set, then the categories $\Fin\Pros$ and $\Fin\Top$ of finite prosets and finite topological spaces are [[equivalence of categories|equivalent]] in this way.  The corresponding topology can be recovered from a finite proset through its [[specialization topology]].
+If we restrict to a [[finite set|finite]] underlying set, then the categories $\Fin\Pros$ and $\Fin\Top$ of finite prosets and finite topological spaces are [[equivalence of categories|equivalent]] in this way.  The corresponding topology can be recovered from a finite proset through its [[specialization topology]].  More generally, the category of [[Alexandroff space]]s (spaces in which an arbitrary intersection of open sets is open) is equivalent to the category of all preordered sets in the same way.
 
 +--{.query}
 There\'s an adjunction here; I should think about which way it goes and whether it\'s a reflection or something.  ---Toby
+
+[[Mike Shulman|Mike]]: If it exists, it's either a reflection or a coreflection, since the functor $\Pros \to \Top$ is fully faithful.
 =--
