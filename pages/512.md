@@ -1,3 +1,2 @@
-See [[terminal object]].
-
-category: delete
+&lt; [[terminal]]
+[[!redirects terminal -- history]]
