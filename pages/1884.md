@@ -50,11 +50,11 @@ It is equivalent to the [[nonabelian cohomology]] with coefficients the [[deloop
 
 ## K-theory as a groupoidification of $\mathbf{Vect}$ ##
 
-The integers $\mathbb{Z}$ are obtained from the natural numbers $\mathbb{N}$ by including "formal inverses" to all elements under the additive operation. Another way to think of this is that the [[delooping|delooped]] [[groupoid]] $\mathbf{B} \mathbb{Z}$ is obtained from $\mathbf{B} \mathbb{N}$ be groupoidification (under the [[nerve]] operation this is fibrant replacement in the [[model structure on simplicial sets]]).
+The integers $\mathbb{Z}$ are obtained from the natural numbers $\mathbb{N}$ by including "formal inverses" to all elements under the additive operation. Another way to think of this is that the [[delooping|delooped]] [[groupoid]] $\mathbf{B} \mathbb{Z}$ is obtained from $\mathbf{B} \mathbb{N}$ by groupoidification (under the [[nerve]] operation this is fibrant replacement in the [[model structure on simplicial sets]]).
 
 The idea of K-cohomology is essentially to apply this groupoidification process to not just to $\mathbb{N}$, but to its [[vertical categorification|categorification]] $\mathbf{Vect}$.
 
-Just as a, integer $k = n-m \in \mathbb{Z}$  may be regarded as an equivalence class of natural numbers $(n,m) \in \mathbb{N} \times \mathbb{N}$  under the relation
+Just as an integer $k = n-m \in \mathbb{Z}$  may be regarded as an equivalence class of natural numbers $(n,m) \in \mathbb{N} \times \mathbb{N}$  under the relation
 
 $$
   [(n,m)] = [(n+r, m+r)] \;\; \forall r \in \mathbb{N}
