@@ -1,10 +1,17 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
+
 A _directed colimit_ is a [[colimit]] of a functor whose [[source]] is an (upward)-[[direction|directed set]].  The [[duality|dual]] notion is that of _[[directed limit]]_, a [[limit]] of a functor whose source is a downward-directed set.
 
 Note that the terminology varies.  Especially in algebra, a directed colimit may be called an '[[inductive limit]]' or '[[direct limit]]'; it\'s also possible to distinguish these so that a direct limit may have an arbitrary (possibly undirected) [[partial order|poset]] as its source.  On the other hand, both terms are often used for arbitrary [[colimit]]s as an alternative terminology.  (The corresponding dual terms are '[[projective limit]]' and '[[inverse limit]]' for [[limit]]s.)
 
 Directed (co)limits were studied in algebra (as inductive and projective limits) before the general notion of limit in category theory.  The elementary definition still seen there follows.
 
-# Definition #
+## Definition ##
 
 Let $C$ be a [[category]].
 
@@ -23,13 +30,13 @@ Notice that an inductive system in $C$ consists precisely of a directed set $I$ 
 
 As with other colimits, an inductive limit, if any exists at all, is unique up to a given isomorphism, so we speak of [[generalized the|the]] inductive limit of a given inductive system.
 
-# In algebra #
+## In algebra ##
 
 An inductive limit in algebra is usually defined as a [[quotient object|quotient]] of a [[disjoint union]].  To be precise, ${\textstyle \lim \atop \textstyle \longrightarrow}_i A_i$ is the disjoint union $\biguplus_{i: I} A_i$ with $x: A_i$ identified with $y: A_j$ if
 $$ f_{ik}(x_i) = f_{ik}(x_j) $$
 for some $k$.  Here it is important that $C$ is a [[concrete category]] and that $I$ is a directed set (rather than merely a [[partial order|poset]]); this construction doesn\'t generalise very well.
 
-# Examples #
+## Examples ##
 
 A [[Pruefer group]] $Z_{p^\infty}$ (for $p$ a [[prime number]]) is an inductive limit of the [[cyclic group]]s $Z_{p^n}$ (for $n$ a [[natural number]]).  Here, $C$ is the category of [[group]]s, $I$ is the directed set of natural numbers, $A_i = Z_{p^i}$, and $f_{ij}: A_i \to A_j$ is induced by multiplication by $p$ (which must be proved well defined on $Z_{p^i}$ for $i \leq j$).
 
