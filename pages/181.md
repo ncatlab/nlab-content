@@ -3,9 +3,9 @@
 {: toc}
 
 
-## Idea
+## Definition
 
-In the [most familiar sense](http://en.wikipedia.org/wiki/Coalgebra), a coalgebra is just like an associative algebra, but with all the maps 'turned around'.   More precisely, fix a [[ground field]] $k$.    An **algebra** $A$ is a vector space equipped with a multiplication
+In the [most familiar sense](http://en.wikipedia.org/wiki/Coalgebra), a coalgebra is just like an associative [[algebra]], but with all the maps 'turned around'.   More precisely, fix a [[ground field]] $k$.    An **algebra** $A$ is a [[vector space]] equipped with a multiplication
 
 $$m : A \otimes A \to A$$
 
@@ -78,6 +78,32 @@ Recall that the mod 2 Steenrod Hopf algebra is the dual of the commutative Hopf 
  where $\xi_0 = 1$. Its action on $S(V)$ is dual to the coaction taking a vector $v\in V$ to
 
  $\Sigma_i\xi_i\otimes v^{2^i}$
+
+
+## Properties
+
++-- {: .num_prop }
+###### Proposition
+
+Every coalgebra is the [[filtered colimit]] of its finite-dimensional sub-coalgebras.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A proof is in 
+
+* Sweedler, _Hopf algebras_ . 
+
+See also the generalization to [[dg-coalgebra]]s in
+
+* [[Ezra Getzler]], [[Paul Goerss]], _A model category structure for differential graded coalgebras_ ([ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps))
+
+
+=--
+
+
 
 
 [[!redirects coalgebras]]
