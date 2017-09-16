@@ -10,6 +10,8 @@ Insofar as an $O$-module on a [[ringed site]] $(X, O)$ can be interpreted as a g
 
 In fact when $X$ is a complex analytic manifold, any $D_X$-module which is coherent as $O_X$-module is isomorphic to the sheaf of sections of some holomorphic vector bundle with flat connection. Furthermore, the subcategory of nonsingular $D_X$-modules coherent as $D_X$-modules is equivalent to the category of [[local systems]].
 
+If $X$ is a variety over a field of positive characteristic $p$, the terms "$O_X$-coherent $D_X$-module" and "vector bundle with flat connection" are not interchangeable, since $D_X$  no longer is the enveloping algebra of $O_X$ and $\text{Der}_X(O_X,O_X)$. A theorem by Katz states that for smooth $X$ the category of $O_X$-coherent $D_X$-modules is equivalent to the category with objects sequences $(E_0, E_1,\ldots)$ of locally free $O_X$-modules together with $O_X$-isomorphisms $\sigma_i: E_i\rightarrow F^* E_{i+1}$, where $F$ is the Frobenius endomorphism of $X$.
+
 +-- {: .query}
 
 [[John Baez]]: it would be nice to have a little more explanation about how not every $D$-module that is coherent as an $O$-module is coherent as a $D$-module.  If I understand correctly, this may be the same question as how not every holomorphic vector bundle with flat connection is a local system.  Perhaps the answer can be found under [[local system]]?  Apparently not.  Perhaps the point is that not every flat connection on a holomorphic vector bundle is locally holomorphically trivializable?  If so, this is different than how it works in the $C^\infty$ category, which might explain my puzzlement.
@@ -27,6 +29,7 @@ D-modules are closely related to
 * Bernstein's [notes](http://www.math.uchicago.edu/~arinkin/langlands/Bernstein/Bernstein-dmod.pdf)
 * Schneiders' [notes](http://www.analg.ulg.ac.be/jps/rec/idm.pdf)
 * Mili&#269;i&#263;'s [notes](http://www.math.utah.edu/~milicic/Eprints/dmodules.pdf)
+* Gieseker: Flat Vector Bundles and the Fundamental Group in Non-Zero Characteristics,  Ann. Scuola Norm. Sup. Pisa Cl. Sci. (4)  2  (1975), no. 1, 1--31. 
 
 #Blog discussion#
 
