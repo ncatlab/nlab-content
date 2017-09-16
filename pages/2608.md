@@ -1,0 +1,1 @@
+S-Sch is the category of S-schemes and S-morphisms.
