@@ -69,6 +69,20 @@ If you want to ask a question of a specific person, then you can place a query b
 
 If your comment or question is more general than a specific page or person, then try the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).  Previous discussions have been on the [[General Discussion]] page and on an entry at the [n-Cafe](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html).  These previous discussions should not be added to but you may find your question answered there.  Important answers are being migrated to [[HowTo|this How To]] and the [[FAQ]].  As this is a Wiki, if you find an answer to your question and feel it should be added to one of those then do so.
 
+#How to make a standout box#
+
+If you want to make some text stand out (an important theorem, or slogan), you can do it using a __standout box__:
+
+    +-- {: .standout}
+    First quantization is a mystery, but second quantization is a functor. 
+    =--
+
+which produces
+
++-- {: .standout}
+First quantization is a mystery, but second quantization is a functor. 
+=--
+
 # How to search the nLab from firefox #
 
 Here are two search plugins for firefox that will let you search the nLab from the firefox search bar.
@@ -85,6 +99,10 @@ To use one or both, drop it in the 'searchplugins' directory of your firefox pro
 If you have some material at a page called `foo` that you want to include directly in pages called `bar` and `baz`, then type <nowiki><code>[[!include foo]]</code></nowiki> in `bar` and `baz`.  For an example, see how [[contents]] is included at the tope of this page.  Also see how [[contents]] itself has been formatted so that it will appear as a sidebar when included.
 
 Besides such sidebars that appear in many pages, you can also use inclusion to put in something that contains a bunch of ugly code (such as raw <abbr title="scalable vector graphics">SVG</abbr>) without mucking up the rest of the page.  That is, you put your messy code in `bar/foo` and then put <nowiki><code>[[!include bar/foo]]</code></nowiki> in `bar`.  Note that this is for something that, logically, should appear within `bar` itself, which is why `bar` appears in the name of the included page.
+
+# How to customize the nLab #
+
+You may wish to customize the font scheme (both for math or text) on the nLab, as well as tweak things such as the small edit box for comments. Experienced users can do this themselves by tweaking the CSS. Alternatively, one can try the nLab [Stylish](https://addons.mozilla.org/en-US/firefox/addon/2108) theme for Firefox available [here](https://addons.mozilla.org/en-US/firefox/addon/2108). You might also want to try a Firefox [extension](https://addons.mozilla.org/en-US/firefox/addon/4125) which allows you to edit the text box using your favourite text editor. 
 
 # Instiki HowTo #
 
