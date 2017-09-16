@@ -103,7 +103,7 @@ $$
 
 generalizing the analogous operation as described as [[groupoidification]].
 
-As described as [[geometric function theory]], such pull-push operations can naturally be regarded as vast generalization of familiar [[matrix calculus]], including in particular operations like Fourier-Moukai transformations.
+As described as [[geometric function theory]], such pull-push operations can naturally be regarded as vast generalization of familiar [[matrix calculus]], including in particular operations like Fourier-Mukai transformations.
 
 
 ## Summary ##
