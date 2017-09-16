@@ -1,6 +1,7 @@
 #Idea#
 
 Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set]]s. A _natural numbers object_ in a topos is an [[object]] that behaves in that topos like the set $\mathbb{N}$ of [[natural number]]s does in [[Set]].
+The idea is due <a href="http://en.wikipedia.org/wiki/William_Lawvere">William Lawvere</a>.
 
 #Definition#
 
@@ -12,7 +13,7 @@ A **natural numbers object** in a [[topos]] $E$ is
   
   * a [[morphism]] $z :1 \to \mathbb{N}$ from the [[terminal object]] $1$;
 
-  * a [[morphism]] $s : \mathbb{N} \to \mathbb{N}$;
+  * a [[morphism]] $s : \mathbb{N} \to \mathbb{N}$ (successor);
 
 * such that 
 
