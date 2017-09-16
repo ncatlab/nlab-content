@@ -49,6 +49,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 ## 2009-09-20
 
+* [[Mike Shulman]]: Incorporated the discussions at [[Crans-Gray tensor product]] into the entry, and deleted them.
+
 * [[David Roberts]]: Comment/reference at [[directed homotopy theory]] - Grandis has a book out now on this stuff. 
 
 ## 2009-09-18
