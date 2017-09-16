@@ -18,7 +18,7 @@ If these structure morphisms are [[isomorphism]]s then $F$ is called a **strong 
 
 A __[[colax monoidal functor]]__ (with various alternative names including **comonoidal**), is a monoidal functor from the [[opposite categories]] $C^{op}$ to $D^{op}$.
 
-In algebra, lax monoidal functors send (internal) monoids to monoids, while colax monoidal functors send comonoids to comonoids. 
+In algebra, lax monoidal functors send (internal) [[monoid object|monoids]] to monoids, while colax monoidal functors send [[comonoids]] to comonoids. 
 
 +-- {: .query}
 Am I the only one who objects to the term 'comonoidal functor'?  Surely there are people who study (at least enriched over a symmetric ---but non-cartesian--- monoidal category) categories equipped with [[comonoid]]al structures; I would want 'comonoidal functor' to describe structure-preserving functors between *them*.  For functors between bimonoidal categories, we would have a conflict.  ---Toby
