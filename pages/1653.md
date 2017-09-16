@@ -45,3 +45,6 @@ One has that $\|f\|_1 = 0$ if and only if $f = 0$ **almost everywhere**, meaning
 $$\mu(\{x: f(x) \neq 0\}) = 0$$ 
 
 The functions which are 0 almost everywhere form a closed linear subspace $Null$ of the pseudonormed space of integrable functions. We say $f = g$ almost everywhere (a.e.) if $f - g \in Null$. The pseudonorm descends to a norm on the quotient space of a.e. equivalence classes of integrable functions, and the resulting normed space is denoted $L^1(X, \Sigma, \mu)$ (sometimes shortened to $L^1(X, \mu)$ or just $L^1(X)$ if the measure is clear). 
+
+
+[[!redirects measure space]]
