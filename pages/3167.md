@@ -9,7 +9,7 @@
 
 ## Idea
 
-In every [[smooth topos]] there is a notion of [[infinitesimal object]]. In some special smooth toposes, there is in addition a notion of _invertible infinitesimal object_ and an object of _smooth natural numbers_ that contains [[generalized element]]s which are _infinite natural numbers_  that model at least parts of the axioms of [[nonstandard analysis]].
+In every [[smooth topos]] there is a notion of [[infinitesimal object]] and of [[infinitesimal number]].  The most common such infinitesimal numbers are [[nilpotent]], but in some special smooth toposes, there is in addition a notion of _invertible infinitesimal_.  In these toposes there is likewise an object of _smooth natural numbers_, which contains _infinite_ or _[[nonstandard natural numbers]]_ (and whose inverses are invertible infinitesimals).
 
 Some examples of such smooth toposes are discussed at [[Models for Smooth Infinitesimal Analysis]].
 
@@ -36,9 +36,16 @@ In such a case there are two objects in $\mathcal{T}$ that both look like they s
 
    this is the [[sheafification]] of the [[presheaf]] that is constant on the set $\mathbb{N}$. A morphism into this presheaf is a _constant_ $\mathbb{N}$-valued function. And since we are sheafifying, by assumption, with respect to _finite_ covers, a morphism from a set into its sheafification is a function into $\mathbb{N}$ that is constant on each patch of a _finite_ cover of that set and hence is a _bounded_ $\mathbb{N}$-valued function.
 
-Therefore for domain of definition the set $\mathbb{N}$ regarded as an object of $\mathcal{T}$, a [[generalized element]] $n \in \Delta(\mathbb{N})$  is a _bounded_ sequence of intergers, whereas a [[generalized element]] $\nu \in N$ is a possibly _unbounded_ sequence of integers.
+The unbounded functions thus represent [[infinite number|infinite]] or [[nonstandard natural number|non-standard]] "smooth natural numbers."  In particular, a [[generalized element]] $n \in \Delta(\mathbb{N})$ with domain of definition $\mathbb{N}$ (regarded as an object of $\mathcal{T}$) is a _bounded_ sequence of integers, whereas a similarly defined [[generalized element]] $\nu \in N$ is a possibly _unbounded_ sequence of integers.  This is intuitively similar to the unbounded sequences of numbers that represent infinitely large numbers in the ultrafilter approach to [[nonstandard analysis]] (a different way of making [[infinitesimal numbers]] precise).
 
-Compare this to [[nonstandard analysis]], where infinite numbers are represented by unbounded sequences of numbers.
+
+## The generic nonstandard number
+
+The _generic non-standard natural number_ is the [[generalized element]] of $N$ on the domain of definition $\ell C^\infty(\mathbb{N})/{NullTail}$ given by the canonical injection $\ell C^\infty(\mathbb{N})/NullTail \to N$ that is dual to the canonical projection of the ring onto its quotient.  Here $NullTail$ is the ideal of sequences of real numbers that vanish above some integer.
+
+The ring $C^\infty(\mathbb{N})/NullTail$ here is a quotient ring of sequences as above, where two sequences are identified if they agree above some integer. So $\ell C^\infty(\mathbb{N})/NullTail$ is the [[smooth locus]] whose function algebra is similar to a nonstandard extension of $\mathbb{R}$.
+
+The generic non-standard natural number is discussed on page 252 of the Moerdijk-Reyes book below.
 
 
 ## References
@@ -48,3 +55,5 @@ See in
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
 
 chapter VI -- there section 1.6 section 2 -- and chapter VII.
+
+[[!redirects smooth natural number]]
