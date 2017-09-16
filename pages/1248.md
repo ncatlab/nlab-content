@@ -51,13 +51,8 @@ Let $V$ be the set of [[truth value]]s, and let $n: V \to V$ be [[negation]].  N
 
 Note that although negation doesn\'t have all of its usual properties in constructive mathematics, $p = \neg{p}$ is still impossible.
 
-The next version is classically equivalent to the previous version (at least if you check that $\mathcal{P}S$ is [[inhabited set|inhabited]]), but not constructively.  Indeed, it has no constructive analogue in the general case.  This argument is from Proposition 2.8.8 of Paul Taylor\'s [[Practical Foundations]] (although I don\'t know if it really originated there).
+The next version is classically equivalent to the previous version (at least if you check that $\mathcal{P}S$ is [[inhabited set|inhabited]]), but not constructively.  (Indeed, unlike Theorem \ref{general}, it apparently has no constructive analogue when $\mathcal{P}S$ is replaced by $V^S$.)  This argument is from Proposition 2.8.8 of Paul Taylor\'s [[Practical Foundations]] (although I don\'t know if it really originated there).
 
-+--{: .query}
-[[Mike Shulman|Mike]]: What do you mean by "has no constructive analogue in the general case?"
-
-_Toby_:  I mean that we don\'t have, under the hypotheses of Theorem \ref{general}, that there is no injection from $S \to V$ to $S$.  (In fact, I thought that I had a counterexample, but now I can\'t think of it.)
-=--
 
 +--{: .num_theorem #taylor}
 ###### Theorem
