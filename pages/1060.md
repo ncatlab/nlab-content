@@ -1,7 +1,7 @@
 ## Definition ##
 
 A $*$-autonomous category \[1\] is a [[symmetric monoidal
-category|symmetric]] [[monoidal closed category]] $\langle
+category|symmetric]] [[closed monoidal category]] $\langle
 C,\otimes, I\rangle$ with a _dualizing object_: an object
 $\bot$ such that the canonical morphism
 
@@ -29,11 +29,13 @@ $*$-autonomous category.  The dualizing object $\bot$ is then defined as $I^*$.
 
 ## Examples ##
 
-The standard example of a $*$-autonomous category is the
-category of finite-dimensional [[vector space]]s over some
-field $k$, which plays the role of the dualizing object, so
-that for an f.d. vector space $V$, $V^*$ is the usual dual
-space of linear maps into $k$.
+The standard example of a $*$-autonomous category is the category of finite-dimensional [[vector space]]s over some field $k$.  In this case $k$ itself plays the role of the dualizing object, so that for an f.d. vector space $V$, $V^*$ is the usual dual space of linear maps into $k$.
+
+More generally, any [[compact closed category]] is $*$-autonomous with the unit $I$ as the dualizing object.
+
++--{: .query}
+[[Mike Shulman|Mike]]: Can someone fill in some examples of $*$-autonomous categories that are not compact closed?
+=--
 
 Models of [[linear logic]] are based on $*$-autonomous
 categories.
