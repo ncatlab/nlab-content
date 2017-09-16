@@ -20,7 +20,7 @@ We shall discuss this in more detail below.
 
 #Definition#
 
-There are several definitions that are [[quasi-isomorphic]]. The first one we give is the conceptually most straightforward one. The second one we give is sometimes more useful in computations.
+There are several definitions that are [[quasi-isomorphism|quasi-isomorphic]]. The first one we give is the conceptually most straightforward one. The second one we give is sometimes more useful in computations.
 
 Let $X_\bullet : \Delta^{op} \to Diff$ be a [[simplicial object|simplicial]] [[manifold]]. 
 
@@ -225,11 +225,11 @@ But this (even their chain-homotopy equivalence) is the content of the generaliz
 
 #References#
 
-Canonical references on simplicial deRham cohomology are by [[Jean-Luc Dupont]]. For instance
+Canonical references on simplicial deRham cohomology are by [[Johan Louis Dupont]]. For instance
 
-* J. L Dupont, _Simplicial deRham Cohomology and characteristic classes of flat bundles_ Topology 15 (1976)
+* [[Johan Louis Dupont]], _Simplicial deRham Cohomology and characteristic classes of flat bundles_ Topology 15 (1976)
 
-* J. L- Dupont, _A dual simplicial de Rham complex_, Lecture notes in Mathematics 1318 (1988) ([journal](http://www.springerlink.com/content/65784420x146888h/))
+* [[Johan Louis Dupont]], _A dual simplicial de Rham complex_, Lecture notes in Mathematics 1318 (1988) ([journal](http://www.springerlink.com/content/65784420x146888h/))
 
 * chaper 3 in _Curvature and Characteristic Classes_
 
