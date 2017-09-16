@@ -47,7 +47,7 @@ There are various models that realize gravity also as a gauge theory.
 
 # Anomalies #
 
-Even in the absence of chiral fermions, the standard would-be action functional for higher gauge theories may be ill-defined. The [[Green-Schwarz mechanism]] is a famous phenomenon in [[differential cohomology]] by which such a [[quantum anomaly]] cancels against that given by chiral fermions.
+In the presence of [[magnetic charge]] (and then even in the absence of [[chiral fermion anomaly|chiral fermion anomalies]]) the standard would-be action functional for higher gauge theories may be ill-defined. The [[Green-Schwarz mechanism]] is a famous phenomenon in [[differential cohomology]] by which such a [[quantum anomaly]] cancels against that given by chiral fermions.
 
 # list of gauge fields and their models #
 
@@ -57,10 +57,11 @@ The following tries to give an overview of some collection of gauge fields in ph
 
   * cocycle in lowest degree [[schreiber:Differential Nonabelian Cohomology|nonabelian differential cohomology]]  
 
-    * originally realized in terms of differential [[Cech cohomology|Cech cocycle]]
+    * originally realized in terms of differential [[Cech cohomology|Cech cocycle]]s
       $$
         \hat F \in \mathbf{H}(X, \bar \mathbf{B} G)
       $$
+      with coefficients in the [[groupoid of Lie-algebra valued forms]],
        
       then traditionally in terms of [[vector bundle]]s [[connection on a bundle|with connection]]
 
