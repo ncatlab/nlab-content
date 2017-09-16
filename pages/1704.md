@@ -54,6 +54,81 @@ By refining the classifying [[nonabelian cohomology|cocycles]] $g : X \to \mathb
 $\Pi(X) \to \mathbf{B} G$
 on higher [[path groupoid]]s of $X$, one obtains higher versions of the notion of [[connection on a bundle]]. This is described in more detail at [[schreiber:Differential Nonabelian Cohomology|Differential Nonabelian Cohomology]].
 
+# Concrete realizations #
+
+We discuss realizations of the general idea in various
+[[(infinity,1)-topos|(infinity,1)-toposes]].
+
+## In topological spaces  ##
+
+The following general construction was originally due to
+Quillen and defines principal _groupoid_ $\infty$-bundles in the [[(infinity,1)-topos]] [[Top]] 
+in its [[presentable (infinity,1)-category|presentation]]
+by the [[model structure on simplicial sets]].
+
+Let $C$ be a small [[category]] and let 
+
+$$
+  \rho_P : C \to SSet
+$$
+
+be a functor with values in [[SSet]] such that
+it sends all morphisms in $C$ to weak equivalences in
+[[SSet]] ([[simplicial homotopy group|weak homotopy equivalence]]s of simplicial sets).
+
+Consider first the case that $C$ has a single object, so that it is the [[delooping]] $\mathbf{B}G$ of a [[monoid]]
+or [[group]] $G$. Then
+
+Let 
+
+$$
+  P := \rho_P(\bullet)
+$$ 
+
+be the simplicial set assigned to this single object and let 
+
+$$
+  X := P//G := hocolim \rho_P
+$$ 
+
+be the corresponding [[action groupoid]] (see there for the description as a weak colimit). Then
+
+$$
+  \array{  
+     P &\to& {*}
+     \\
+     \downarrow && \downarrow
+     \\
+     X &\stackrel{g}{\to}& C
+  }
+$$
+
+is a homotopy pullback.
+
+(... have to run, continued in a while ...)
+
+
+This classical construction is recalled in the introduction of
+
+* Jardine, _Diagrams and torsors_ ([pdf](http://www.math.uiuc.edu/K-theory/0723/diagrams3.pdf))
+
+
+
+## In simplicial presheaves ##
+
+For a small [[site]] $C$, let $\mathbf{H}$
+be the [[(infinity,1)-topos]]  of [[infinity-stack]]s
+on $C$, in its [[presentable (infinity,1)-category|presentation]] by the
+[[model structure on simplicial presheaves]].
+
+Then ...
+
+* Jardine, _Diagrams and torsors_ ([pdf](http://www.math.uiuc.edu/K-theory/0723/diagrams3.pdf))
+
+
+
+
+
 #References#
 
 The notion of principal $\infty$-bundle (often addressed in the relevant literature in the language of [[torsor]]s) appears in the context of the [[simplicial presheaf]] [[model structure on simplicial presheaves|model]] for generalized spaces in
