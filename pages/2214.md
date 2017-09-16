@@ -28,6 +28,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-09-01
 
 *  [[Rafael Borowiecki]]:
+  * Posed a question at [[Timeline of category theory and related mathematics]] regarding a new migration: How do i handle to update most of 1500 links!?
   * Suggested that manifold objects should be treated or at least mentioned at [[manifold]].
   * Provided references for my question at [[Bousfield localization]].
   * Split the subsection what is category theory at [[category theory]] into two parts: In the narrow sense and In the wide sense. This makes sense.
