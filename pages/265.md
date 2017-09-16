@@ -29,6 +29,9 @@ $$ C \stackrel{F}{\to} D \to Ho_D $$
 
 +--{: .query}
 [[Mike Shulman|Mike]]: I personally hold the opinion that it is better to _define_ a derived functor to be the result of applying $F$ to a fibrant and/or cofibrant replacement of some sort.  I have come to view the fact that sometimes (when a fibrant _or_ cofibrant replacement alone suffices) this happens to be a left or right Kan extension as merely an accident, which is of little practical or conceptual use.  I think this is borne out by the fact that these Kan extension are not "pointwise," that they are basically the _only_  non-pointwise Kan extensions that I have seen arise anywhere in mathematics, and that many of the nice properties of Kan extensions apply only to pointwise ones (in fact, Kelly _defines_ Kan extension to refer only to pointwise ones).  But I would be very interested to hear alternate points of view.
+
+[[Zoran Skoda]]: This is very interesting; maybe it suggests that one needs to choose sort of factorization system or something, so that still thing has some universal property: among functors of special kind with respect to the factorization system of a sort. I would like to hear your examples and insight in more detail. Surely in homological 
+algebra osmetimes one does not have sufficiently many projective or injectives so there is an appeal in something universal. Most interestingly, satelites make sense sometimes when derived functors don't but still satelites in very general (nonabelian) context are themselves still sort of Kan extensions. I do not understand why total derived functor would have kind of universality as one step in forming it has. 
 =--
 
 
