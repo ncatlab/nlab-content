@@ -113,3 +113,11 @@ Let $F, H$ be functors of the form $C \to D$, and let $G: C \times C^{op} \times
 $$\beta_{x, x} \alpha_{x, x}: F(x) \to H(x)$$ 
 is natural in $x$. 
 =--
+
+###Dinatural Transformations in Computer Science###
+
+Here is a blog post inspired by the above discussion:
+
+* Dan Piponi, [Dinatural transformations and coends](http://blog.sigfpe.com/2009/03/dinatural-transformations-and-coends.html).
+
+It discusses these concepts in the context of the programming language Haskell.
