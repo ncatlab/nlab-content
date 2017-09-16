@@ -2,7 +2,7 @@
 
 Sometimes one also imposes these conditions to ensure better behavior of the resulting _category_ of spaces; see [[nice category of spaces]] for more details, and also [[dichotomy between nice objects and nice categories]].  In many cases, a category of nice spaces will be [[reflective subcategory|reflective]] or coreflective.
 
-* There is a whole slew of _separation conditions_, of which the most common is the [[Hausdorff space|Hausdorff]] condition (any two points can be separated by disjoint opens).  Hausdorff is also called $T_2$ and fits in a hierarchy ranging from $T_0$ through $T_4$.
+* There is a whole slew of _separation conditions_, of which the most common is the [[Hausdorff space|Hausdorff]] condition (any two points can be separated by disjoint opens).  Hausdorff is also called $T_2$ and fits in a hierarchy ranging from $T_1$ through $T_4$ originally and now (at least) $T_0$ to $T_6$ (with some fractional subscripts too).
 
 * [[sober space|Sobriety]] is a separation condition living in between $T_0$ and $T_2$ (but incomparable with $T_1$), which guarantees a good relationship with [[locale]]s.
 
