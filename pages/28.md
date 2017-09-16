@@ -37,7 +37,7 @@ A groupoid $G$ is _connected_, or _transitive_,  if $G(x,y)$ is nonempty for all
 =--
 
 
-#REFERENCES#
+#References#
 
 * P.J. Higgins,  Presentations of Groupoids, with Applications to Groups, Proc. Camb. Phil. Soc., 60 (1964) 7--20.
 
@@ -49,3 +49,5 @@ Categories, 7 (2005) pp 1--195.
 
 * R. Brown, _Topology and groupoids_, Booksurge, 2006. 
 
+
+[[!redirects groupoids]]
