@@ -4,7 +4,6 @@
 [[!include homotopy - contents]]
 </div>
 
-
 #Contents#
 * automatic table of contents
 {:toc}
