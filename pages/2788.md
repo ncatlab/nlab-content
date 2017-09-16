@@ -19,9 +19,15 @@ $$
   }
 $$
 
+<img src="http://ncatlab.org/nlab/files/alt_functor.jpg" width = "250"/>
+
 ***
 
-[[Todd Trimble|Todd]]: If $A \sqcup B$ means the disjoint union of $A$ and $B$, then there are no morphisms of the form $i_A(x) \to i_B(F(x))$. 
+[[nlab:Todd Trimble|Todd]]: If $A \sqcup B$ means the disjoint union of $A$ and $B$, then there are no morphisms of the form $i_A(x) \to i_B(F(x))$. 
+
+[[Eric]]: Hi Todd. I saw your comment after I added the figure above. I am probably not expressing myself clearly. I want to get $Obj(A)$ and $Obj(B)$ into the same category while preserving all morphisms and then ADD components $\alpha_x$ and $\alpha_y$. Is that kind of thing allowed?
+
+I think the picture expresses what I'm trying to do, but maybe I'm converting that into the wrong formulas.
 
 ##Discussion##
 
