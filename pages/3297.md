@@ -49,6 +49,8 @@ modulo coherent isos, where the $p_i$ are the projections out of $C_2$.
 
 +-- {.query}
 [[Finn Lawler|Finn]]:  Is there a slicker way to define these, or the category of them?  Anyone know a good reference?
+
+[[Mike Shulman]]: One alternate definition is as an indexed functor from (the indexed category represented by) $C$ to $E$.  Maybe that's slicker?
 =--
 
 ### Examples
@@ -59,4 +61,6 @@ modulo coherent isos, where the $p_i$ are the projections out of $C_2$.
 
 +-- {.query}
 [[Finn Lawler|Finn]]:  I _think_ these are right, but I'm still a bit shaky on this stuff.
+
+[[Mike Shulman]]: I'm pretty sure that's right.
 =--
