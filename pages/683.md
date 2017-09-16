@@ -394,7 +394,7 @@ $$
      \downarrow^{\simeq} && \downarrow^= &&
      \downarrow^= 
      \\
-     \mathbf{E}G &\to\gt& \mathbf{B}G &\leftarrow& pt 
+     \mathbf{E}G &\to& \mathbf{B}G &\leftarrow& pt 
   }
 $$
 and the homotopy limit in question is weakly equivalent to the ordinary limit over the lower diagram. That is directly seen to be $Disc(Obj(\mathbf{E}G)) = Disc(Obj(G//G)) = Disc(G)$ which we just write as $G$:
@@ -417,13 +417,13 @@ $$
        \\
        && \downarrow
        \\
-       \mathbf{E}G &\to\gt& \mathbf{B}G
+       \mathbf{E}G &\to& \mathbf{B}G
     }
   \right)  
   = G
   \,.
 $$
-This example is important in the context of [[groupoidification]] and [[geometric function theory]], as described there.
+This example is important in the context of [[groupoidification]] and [[geometric function theory]], as described there. A closely related example is the following: a functor $\rho:\mathbf{B}G\to {Top}$ is the datum of a toplogical space $X$ equipped with an action of $G$. Then, $colim(\rho)=X/G$ whereas $hocolim(\rho)=\mathbf{E}G\times_G X$, see [[equivariant cohomology]].
 
 #### Homotopy pullback of a subgroup over a group 
 
