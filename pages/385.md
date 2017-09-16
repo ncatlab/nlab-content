@@ -14,7 +14,7 @@ Sjoerd Crans, _A tensor product for $Gray$-categories_ ([tac](http://www.tac.mta
 
 _Mike_: Is the "cotruncation" what I would call the "reflection into $m$-categories"?
 
-I don't see a relevant remark on p. 14 of that paper, but on p. 41 he says (emphasis in original):
+I don't see a relevant remark on p. 14 of that paper, but on p. 41 he says:
 
 > If the $Gray$-categories $C$ and $D$ are both 2-categories, then their tensor product _as 2-categories_ is precisely the 2-category obtained from _the $Gray$-category $C \otimes D$_ by formally turning all its 3-arrows into identities.  In other words, Gray's tensor product is the 2-categorical reflection of the tensor product of $Gray$-categories given here.
 
@@ -43,6 +43,8 @@ in which both triangles contain a 2-simplex.  I don't think this is isomorphic t
 On the other hand, I do believe that the "pseudo" version of the tensor product on $\omega$-categories (has this been written down?) gets intertwined, at least up to equivalence, with the cartesian product of _stratified_ simplicial sets.  Possibly something about this could be found in Verity's work on [[weak complicial set]]s.
 
 [[Urs Schreiber|Urs]]: Right, thanks. It should be the pseudo version. Or else, I should have asked whether the $\omega$-nerve on strict $\omega$-groupoids intertwines the Brown-Gray tensor product with the cartesian product of Kan complexes. That should be true, right?
+
+[[Mike Shulman|Mike]]: Seems likely.
 
 =--
 
