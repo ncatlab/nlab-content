@@ -65,6 +65,9 @@ But then it gets a bit worse even when we look at the generalizations. I have fi
 Anyway, with this entry being titled _locally presentable category_ and having a redirect from presentable category we seem to be at least on the safe side.
 
 _Toby_:  OK.  Remember when making an existing page into a redirect now, you should also change its name to something with `-- history` in it so that the redirection will work.  (And remove the automatic redirection command that this creates in the history page.)  I\'ve done that now.
+
+_Urs_: ah, thanks. What's that last step? Do we have a HowTo on that?
+
 =--
 
 
