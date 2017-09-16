@@ -11,7 +11,7 @@
 
 A _group object_ in an [[(∞,1)-category]] generalizes and unifies two familiar concepts:
 
-* it is the generalization of [[Jim Stasheff|Stasheff]] [[A-infinity-space]]  from [[Top]] to more general [[∞-stack]] [[(∞,1)-topoi]]: an object that comes equipped with an associative and invertible [[monoid]] structure, up to coherent [[homotopy]];
+* it is the generalization of [[Jim Stasheff|Stasheff]] $A_\infty$-[[A-infinity-space|space]] from [[Top]] to more general [[∞-stack]] [[(∞,1)-topoi]]: an object that comes equipped with an associative and invertible [[monoid]] structure, up to coherent [[homotopy]];
 
 * it generalizes the notion of [[equivalence relation]] from [[category|categories]] to [[(∞,1)-categories]].
 
