@@ -24,6 +24,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-09-02
+
+* [[Jon Awbrey]] added a stub, a link, and few self-references on the subject of [[inquiry]].
 
 ## 2009-09-01
 
