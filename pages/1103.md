@@ -164,4 +164,4 @@ Baues (in his book on _Algebraic Homotopy_) has suggested using the terminology 
 
 [[!redirects differential graded algebras]]
 
-
+[[!redirects differential graded module]]
