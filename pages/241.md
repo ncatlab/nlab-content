@@ -1,6 +1,6 @@
 #Definition#
 
-For a given fixed [[ETCS|category of sets]] $S$, a __Grothendieck [[topos]]__ over $S$ a [[category of sheaves]] over a [[site]] which is [[small category|small]] relative to $S$, that is a site [[internal category|internal]] to $S$. 
+For a given fixed [[ETCS|category of sets]] $S$, a __Grothendieck [[topos]]__ over $S$ is a [[category of sheaves]] over a [[site]] which is [[small category|small]] relative to $S$, that is a site [[internal category|internal]] to $S$. 
 
 ## Remarks ##
 
