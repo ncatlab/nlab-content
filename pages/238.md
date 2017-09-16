@@ -15,8 +15,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-02-10
 
 * [[Toby Bartels]]
-  * Clarified [[essentially algebraic theory]] a bit.
+  * Asked a question at [[subcanonical coverage]].
   * Wrote [[finite group]], since they\'re mentioned on [[profinite group]].
+  * Clarified [[essentially algebraic theory]] a bit.
 
 * [[David Roberts]]
   * Continued discussion with Mike at [[anafunctor]], and moved the discussion to its own section. I disagreed about the use of ''regular epimorphism'' for covers in categories without all pullbacks.
