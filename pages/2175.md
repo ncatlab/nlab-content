@@ -55,7 +55,7 @@
 * [[relation theory]]
 * [[semiotic equivalence relation]]
 * [[sign relation]]
-* [[triadic relation]]
+* [triadic relation](http://ncatlab.org/nlab/revision/ternary+relation/17)
 * [[universe of discourse]]
 
 ## Miscellaneous ##
