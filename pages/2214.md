@@ -51,6 +51,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-20
 
+* [[Urs Schreiber]]: restructured [[moduli space]], linked to it from [[classifying space]] and, notably, added a semilong discussion of the subtleties of the common slogan that " _Objects with automorphisms don't have fine moduli spaces_ . ", summing up some arguments that were exchanged in the blog discussion [here](http://golem.ph.utexas.edu/category/2009/09/a_seminar_on_gromovwitten_theo.html).
+
 *  [[Toby Bartels]]:  Reply to Mike at [[foundations]].
 
 * [[Mike Shulman]]: Rafael, your clarification at [[category]] introduced another typo!  (-:  Now fixed.
