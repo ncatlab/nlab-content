@@ -7,3 +7,5 @@
 
 > discussion of this is supposed to take place at the corresponding [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/) thread, any stable results of this discussion should eventually be implemented here, for everyone to see
 
+
+category: meta
