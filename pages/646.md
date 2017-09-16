@@ -6,7 +6,7 @@ One way to define a homotopy $n$-type is as a space that _has_ no information ab
 
 However, as usual in homotopy theory, merely having isomorphic homotopy groups is not enough; rather there needs to be a map _inducing_ such an isomorphism.  Thus, the relevant equivalence relation relates two spaces when there is a zigzag of maps between them, all inducing isomorphisms on homotopy groups $\pi_k$ for $k\le n$.  One can then show that any space is equivalent, in this sense, to one having trivial homotopy groups above level $n$, so that the other definition is also correct.
 
-The use of [[topological space]]s is not, of course, essential; we could just as well use any other structure that models the same homotopy theory, such as [[simplicial set]]s or [[simplicial group]]s or [[groupoid]]s.  Moreover, the fact that homotopy $n$-types can be modeled by spaces that are trivial above level $n$ raises the possibility of finding reasonably complete _algebraic_ models for such $n$-types.
+The use of [[topological space]]s is not, of course, essential; we could just as well use any other structure that models the same homotopy theory, such as [[simplicial set]]s, [[simplicial groupoid]]s, or (for [[connected space]]s) [[simplicial group]]s.  Moreover, the fact that homotopy $n$-types can be modeled by spaces that are trivial above level $n$ raises the possibility of finding reasonably complete _algebraic_ models for such $n$-types.
 
 
 +-- {: .query}
