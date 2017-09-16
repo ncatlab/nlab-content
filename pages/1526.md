@@ -1,21 +1,8 @@
-**Under Construction**
+A better title might be "Unpacking a Concrete Category"
 
-Given a [[concrete category]] $C$, we can **explode** $C$ into a new [[category of elements]] that we will denote by $Explode(C)$. The objects of $Explode(C)$ consist of all the elements of all the objects of $C$. The morphisms of $Explode(C)$ are the obvious ones inherited from the morphisms of $C$, i.e. given a morphism
+See also [[category of elements]]
 
-
-$$X\stackrel{f}{\to} Y$$
-
-
-in $C$, we have the obvious morphism
-
-
-$$(x\in X)\stackrel{f_x}{\mapsto} (y\in Y)$$
-
-
-in $Explode(C)$.
-
-[[explode.jpg|Exploding a Category:pic]]
-
+category: redirect
 
 ##Example: Action Groupoid##
 
