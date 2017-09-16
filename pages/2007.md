@@ -1,4 +1,4 @@
-Drinefel'd looked at quantum groups as objects of the category dual to the category of associative coassociative unital counital [[Hopf algebras]]. In (PW) a __short exact sequence of quantum groups__ is defined, as sequences whose dual sequences of Hopf algebras are of the form
+Drinfel'd looked at quantum groups as objects of the category dual to the category of associative coassociative unital counital [[Hopf algebras]]. In (PW) a __short exact sequence of quantum groups__ is defined, as a sequences whose dual sequence of Hopf algebras is of the form
 
 $$ B \stackrel{i}\hookrightarrow A\stackrel{p}\to A/I $$
 
@@ -19,6 +19,10 @@ There is a dual and equivalent by (SchneiderESQGr) set of conditions:
 * (b') $A$ is right faithfully coflat over $A/I$
 
 * (c') $i=ker(p)$ in the category of Hopf algebras.
+
+It would be interesting to know which cohomology classifies all Hopf algebra by Hopf algebra extensions (there are also other kinds of "Hopf algebra extensions"). In full generality, this is an open question. Notice that in general questions on understanding various cocycles in bialgebra world is very partial, cf. [[bialgebra cocycle]]. 
+
+It would also be interesting (though it may be known) how to characterize internally to the category of Hopf algebras what class of monomorphisms and epimorphisms correspond to the Hopf-algebraic conditions on $i$ and $p$ above.  
 
 Literature
 
