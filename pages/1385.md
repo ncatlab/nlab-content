@@ -1,6 +1,11 @@
-#Idea#
+#Contents
+* automatic table of contents goes here
+{:toc}
 
-Recall that a [[presentable (infinity,1)-category]] is a [[localization]] of a [[(infinity,1)-category of (infinity,1)-presheaves]]. In particular it has all small [[colimit]]s. An [[(infinity,1)-functor]] $C \times D \to E$ from the cartesian product of two presentable $(\infty,1)$-categories is _bilinear_ if it respects colimits in both variables.
+
+## Idea
+
+Recall that a [[presentable (∞,1)-category]] is a [[localization of an (∞,1)-category|localization]] of a [[(∞,1)-category of (∞,1)-presheaves]]. In particular it has all small [[colimit]]s. An [[(∞,1)-functor]] $C \times D \to E$ from the cartesian product of two presentable $(\infty,1)$-categories is _bilinear_ if it respects colimits in both variables.
 
 It turns out that there is a _universal_ such bilinear functor
 
@@ -11,35 +16,36 @@ $$
 
 which thereby defines a [[tensor product of presentable (∞,1)-categories]]. This defines a [[monoidal (infinity,1)-category|monoidal structure]] on presentable $(\infty,1)$-categories, which is in fact [[symmetric monoidal (infinity,1)-category|symmetric]]. 
 
-The collection of presentable $(\infty,1)$-cateories with colimit-preserving [[(infinity,1)-functor]]s between them (i.e. with "*linear*" functors between them!), called
+The collection of presentable $(\infty,1)$-cateories with colimit-preserving [[(∞,1)-functor]]s between them (i.e. with "*linear*" functors between them!), called
 
 $$
   Pr^L
-,$$
+  \,,
+$$
 
-is an $(\infty,1)$-generalization of the category $Set Mod$ of ordinary categories and bimodules or profunctors, or distributors between them. See [[distributor]] and in particular the discussion there about the equivalent reformulation in terms of colimit-preserving functors.
+is an $(\infty,1)$-generalization of the category $Set Mod$ of ordinary categories and [[bimodule]]s or [[profunctor]]s, or [[distributor]]s between them. See [[distributor]] and in particular the discussion there about the equivalent reformulation in terms of colimit-preserving functors.
 
-Using $Pr^L$ with its notion of "linearity" one obtains a very general notion of $\infty$-linear algebra. This is described at [[geometric infinity-function theory]].
+Using $Pr^L$ with its notion of "linearity" one obtains a very general notion of $\infty$-linear algebra. This is described at [[geometric ∞-function theory]].
 
-#Definition#
+## Definition
 
-Write $Pr(\infty,1)Cat_1^L$ for the sub-$(\infty,1)$-category of the [[(infinity,1)-category of (infinity,1)-categories]] whose
+Write $Pr(\infty,1)Cat_1^L$ for the sub-$(\infty,1)$-category of the [[(∞,1)-category of (∞,1)-categories]] whose
 
-* objects are [[presentable (infinity,1)-category|presentable (infinity,1)-categories]];
+* objects are [[presentable (∞,1)-category|presentable (∞,1)-categories]];
 
-* morphisms are colimit-preserving [[(infinity,1)-functor]]s.
+* morphisms are colimit-preserving [[(∞,1)-functor]]s.
 
-With $C \times D \to C \otimes D$ the tensor product obtainmed as the universal colimit-preserving functor, $Pr(\infty,1)Cat_1^L$ becomes a [[symmetric monoidal (infinity,1)-category]].
-
-
-#Stable version#
-
-The symmetric monoidal structure on presentable $(\infty,1)$-categories restricts to one on presentable [[stable (infinity,1)-category|stable (infinity,1)-categories]].
-
-The tensor unit of stable presentable $(\infty,1)$-categories is the [[stable (infinity,1)-category of spectra]].
+With $C \times D \to C \otimes D$ the tensor product obtainmed as the universal colimit-preserving functor, $Pr(\infty,1)Cat_1^L$ becomes a [[symmetric monoidal (∞,1)-category]].
 
 
-#References#
+## Stable version
+
+The symmetric monoidal structure on presentable $(\infty,1)$-categories restricts to one on presentable [[stable (∞,1)-category|stable (∞,1)-categories]].
+
+The tensor unit of stable presentable $(\infty,1)$-categories is the [[stable (∞,1)-category of spectra]].
+
+
+##References
 
 The monoidal structure on $Pr(\infty,1)Cat_1^L$ is described in section 4.1 of
 
