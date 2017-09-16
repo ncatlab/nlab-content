@@ -9,7 +9,7 @@ $$ \| - \|: V \to \mathbb{R} $$
 such that:
 
 1.  $ \|0\| \leq 0 $;
-1.  $ \|r v\| = |r| \|v\| $ (for $r$ a scalar and $v$ a vector);
+1.  $ \|r v\| = |r| \|v\| $ (for $r$ a [[scalar]] and $v$ a vector);
 1.  $ \|v + w\| \leq \|v\| + \|w\| $.
 
 It follows from the above that $\|v\| \geq 0$; in particular, $\|0\| = 0$.  A **norm** is a pseudonorm that satisfies a converse to this: $v = 0$ if $\|v\| = 0$.
