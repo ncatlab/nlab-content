@@ -113,11 +113,11 @@ Further work along such lines is
 
 This shows that the Dold-Kan map from Chain complexes to simplicial abelian groups is, while not a [[monoidal category|monoidal functor]], an [[E-k-operad|E-infinity monoidal functor]].
 
-This implies that generalized [[Eilenberg-MacLane spectrum|Eilenberg-MacLane spectra]] on [[differential graded algebra|differential graded commutative algebras]] are [[E-k-perad|E-infinity monoids]] in the category of $H \mathbb{Z}$-[[module]] [[spectrum|spectra]].
+This implies that generalized [[Eilenberg-MacLane spectrum|Eilenberg-MacLane spectra]] on [[differential graded algebra|differential graded commutative algebras]] are [[E-k operad|E-infinity monoids]] in the category of $H \mathbb{Z}$-[[module]] [[spectrum|spectra]].
 
 * Birgit Richter, _Homotopy algebras and the inverse of the normalization functor_ ([pdf](http://www.math.uni-hamburg.de/home/richter/invjpaa.pdf))
 
-This article shows that the inverse $\Xi$ from chain complexes to simplicial abelian groups sends algebras over arbitrary differential graded [[E-k-perad|E-infinity-operad]] to [[E-k-operad|E-infinity-algebra]] in simplicial modules, and is part of a [[Quillen adjunction]] for these.
+This article shows that the inverse $\Xi$ from chain complexes to simplicial abelian groups sends algebras over arbitrary differential graded [[E-k operad|E-infinity-operad]] to [[E-k-operad|E-infinity-algebra]] in simplicial modules, and is part of a [[Quillen adjunction]] for these.
 
 
 # Lax monoidalness of the Moore cochain complex functor #
