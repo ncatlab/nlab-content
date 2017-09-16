@@ -1,6 +1,13 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Idea#
+
 A **covariant derivative** is a way to differentiate a vector field along a curve, and provides a generalization of the usual directional derivative in multivariable calculus.
 
-##Definition##
+#Definition#
 Now assume $M$ is given a [[Koszul connection]] $\nabla$.  There is a unique operator $D$ sending vector fields along $c$ to vector fields along $c$ such that:
 
 
@@ -13,7 +20,7 @@ Note that $c'(t) \in (TM)_{c(t)}$, by definition.
 
 This operator is called the **covariant derivative** along $c$.  It is in fact a generalization of the usual directional derivative of vector fields in multivariable calculus, which occurs when you take the connection on $\mathbb{R}^n$ with all Christoffel symbols zero.
 
-##Proof of Existence## 
+#Proof of Existence#
 
 The first condition  means we can, by multiplying $X$ by a cut-off function, assume $X$ is supported in some coordinate neighborhood $U$ with coordinates $x^1, \dots, x^n$.  In particular, we may even assume that the image of $c$ is contained in $U$ by shrinking $J$ and using local uniqueness (which we prove below).  Moreover, we can assume that $c$ is one-to-one by shrinking further.
 
