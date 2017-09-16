@@ -83,7 +83,7 @@ But before we do that:
 
 ##Why do we care?##
 
-There are many reasons why this theorem is important.  Mike Stay needs it to convert between two equivalent descriptions of [[distributor|profunctors]] from a category $A$ to a category $B$.  On the one hand, we can think of them as [[functor|functors]]
+There are many reasons why this theorem is important.  Mike Stay needs it to convert between two equivalent descriptions of [[profunctors]] from a category $A$ to a category $B$.  On the one hand, we can think of them as [[functor|functors]]
 
 $$ G : A \to \widehat{B}$$
 
@@ -210,7 +210,7 @@ Therefore, we can determine $\tilde{F}$ as long a $y$ has a right inverse (which
 
 [[John Baez]]: This is a slightly bizarre argument, but it can probably be rescued.  $F$ is not a linear operator: it's just a function from a set $A$ to a vector space $B$.  So, it's slightly bizarre to write down a _matrix_ for $F$ as you do above!  Nonetheless, if you think it about it, there's a perfectly sensible way to use a matrix to describe a function from a set to a vector space with a chosen basis.  And what the theorem is doing is using this matrix to define the linear operator $\tilde{F}$ from $\tilde{A}$ to $B$.
 
-And indeed, all these ideas have nice analogues in the categorified version---the Theorem I'm struggling to get Mike to understand!  If we live long enough, we'll see that profunctors are categorified matrices.  But maybe we should just prove the Theorem and then ponder the analogies further.   So....
+And indeed, all these ideas have nice analogues in the categorified version---the Theorem I'm struggling to get Mike to understand!  If we live long enough, we'll see that [[profunctors]] are categorified matrices.  But maybe we should just prove the Theorem and then ponder the analogies further.   So....
 
 ##Proving the theorem##
 
