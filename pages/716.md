@@ -12,3 +12,4 @@ Also see section 2.1 in:
 completely positive maps. [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf)
 
 [[!redirects autonomous monoidal category]]
+[[!redirects autonomous category]]
