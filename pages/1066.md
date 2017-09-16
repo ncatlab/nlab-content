@@ -59,3 +59,6 @@ and the homotopy category of a quasi-category $C$ (a [[simplicial set]] with ext
 [Section 1.2.3, p. 33](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=33) of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+
+[[!redirects homotopy category of an (∞,1)-category]]
