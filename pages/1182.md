@@ -345,14 +345,16 @@ But there is actually a slight technical simplification: we don't deal with _all
 
 So
 
-* presentable $(\infty,1)$-categories form the [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]  $Pr(\infty,1)Cat_1$;
+* presentable $(\infty,1)$-categories form the [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]  $Pr(\infty,1)Cat_1^L$;
 
-* the $\infty$-algebras of $\infty$-functions $C(X)$ are [[algebra in an (infinity,1)-category|algebra objects in]] $Pr(\infty,1)Cat_1$.
+* the $\infty$-algebras of $\infty$-functions $C(X)$ are [[algebra in an (infinity,1)-category|algebra objects in]] $Pr(\infty,1)Cat_1^L$.
 
-
+Notice that this means in particular that the "additive" structure on $C(X)$ is taken to be nothing but the $(\infty,1)$-categorical colimit operation inside $C(X)$: this is the operation with respect to which [[(infinity,1)-functor]]s in $(\infty,1)Cat_1^L$ are linear, and with respect to which the tensor product is bilinear.
 
 
 #### basic ideas related to $\infty$-stacks ####
+
+The following discussion aims to describe the role played by [[infinity-stack]]s and their morphisms in the context of geometric $\infty$-funcion theory. 
 
 We place ourselves in the context of an [[(infinity,1)-category]]
 $H$ of (possibly [[derived stack|derived]]) $\infty$-stacks, i.e. of [[(infinity,1)-sheaf|(infinity,1)-sheaves]].
