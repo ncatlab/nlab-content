@@ -7,4 +7,5 @@ who create nicely pedagogical and informative videos that teach [[category theor
 
 * YouTube: [The Catster Channel](http://www.youtube.com/user/TheCatsters)
 
-category: biography
+
+category: people
