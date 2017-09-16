@@ -1,5 +1,5 @@
 ##Idea ##
-In 1959, Edgar Brown introduced a _twisted tensor product_ to give an algebraic description of a [[fibration]]. The chain complex of a total space of a principal fibration is obtained as a small perturbation (at the level of a differential) of the [[chain complex]] of the trivial fibration (hence a [[tensor product]]).
+In 1959, Edgar Brown introduced a _twisted tensor product_ to give an algebraic description of a [[fibration]]. The chain complex of a total space of a principal fibration is obtained as a small perturbation (at the level of a differential) of the [[chain complex]] of the trivial fibration (hence a [[tensor product]]). It is the analogue for differential algebra of the [[twisted cartesian product]] construction in the theory of simplicial fibre bundles.
 
 ##Definition##
 Let $C$ be a [[dg-algebra]], $A$ a dg-[[coalgebra]], $\tau:C\to A$ the [[twisting cochain]], $L$ a right $C$-dg-co[[module]] with co[[action]] $\delta_L:L\otimes C$ and $M$ a left $A$-dg-module with action $m_M:M\otimes A\to A$. The __twisted tensor product__ $L\otimes_\tau M$ is the chain complex that coincides with the ordinary tensor product $L\otimes M$ as a [[graded vector space|graded module]] over the ground ring, and whose differential $d_\tau$ is given by 
