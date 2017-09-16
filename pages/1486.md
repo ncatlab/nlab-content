@@ -1,1 +1,3 @@
-redirect: [[infinity-groupoid]]
+See [[infinity-groupoid]].
+
+category: redirect
