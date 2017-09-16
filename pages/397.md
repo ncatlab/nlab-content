@@ -7,6 +7,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Alex Nelson]]
 * [[Alexandru Chirvasitu]]
 * [[AlonAmit|Alon Amit]]
+* [[André Joyal]]
 * [[Andreas Holmstrom]]
 * [[AndrejBauer|Andrej Bauer]]
 * [[Andres Angel]]
@@ -67,6 +68,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Jon Awbrey]]
 * [[Jon Phillips]]
 * [[Jonas Frey]]
+* [[Jonas Meyer]]
 * [[Josep Elgueta]]
 * [[Kareem|Kareem Carr]]
 * [[Kevin Lin]]
@@ -122,6 +124,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Victor Porton]]
 * [[Vishal Lama]]
 * [[ViV]]
+* [[YemonChoi|Yemon]] [[Yemon Choi|Choi]]
 * [[Yury Lifshits]]
 * [[Zoran Škoda]]
 
