@@ -1,5 +1,12 @@
 [[!redirects co-H-object]]
 [[!redirects cogroup]]
+
+#cogroup object#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
+
 Sort of dual to [[group objects]] are **cogroup objects**.  The defining property of a cogroup object is that morphisms **out** of it form a group.  Specifically, if $C$ is a category then $G$ is a cogroup object in $C$ if $\operatorname{Hom}(G,X)$ is a group for any object $X$ in $C$ (and the group structure must be natural in $X$).
 
 There are many examples of cogroups objects.  Perhaps the most well-known are the spheres in the homotopy category of based topological spaces, $\operatorname{hTop}$.  Then the fact that $S^n$ is a cogroup object in $\operatorname{hTop}$ is precisely the statement that $\pi_n(X)$ is a group, naturally in $X$, for all topological spaces $X$.
