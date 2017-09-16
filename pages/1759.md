@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-13
 
+* [[Eric]]: Added a section to [[redirects]] on "Undoing a Redirect". 
+
 * [[Andrew Stacey]]: started fleshing out an example over at [[Frolicher space]].
 
 * [[Urs Schreiber]]:
