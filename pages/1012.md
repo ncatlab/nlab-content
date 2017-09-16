@@ -17,3 +17,5 @@ equals the [[identity]] on $X$.
 * The inverse of an inverse morphism is the original morphism, $(f^{-1})^{-1} = f$.
 
 * A category in which all morphisms have inverses is called a [[groupoid]].
+
+* An amusing exercise is to show that if $f,g,h$ are morphisms such that $f\circ g,\; g\circ h$ are defined and are isomorphisms, then $f,g,h$ are all isomorphisms. When this is applied to a  homotopy category such as $HTop$ it implies the construction of and formulae for certain homotopies. 
