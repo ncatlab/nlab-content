@@ -1,3 +1,2 @@
-See [[over quasi-category]].
-
-category: redirect
+&lt; [[over-category in quasi-categories]]
+[[!redirects over-category in quasi-categories -- history]]
