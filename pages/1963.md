@@ -65,6 +65,42 @@ If you think about it, you should be able to figure out the definition of an __a
 There are many further extensions, for examples derivations with values in an $A$-[[bimodule]] $M$ forming $Der_k(A,M) \subset Hom_k(A,M)$ (see also [[double derivation]]), skew-derivations in ring theory (with a twist in the Leibniz rule given by an endomorphism of a ring) and the dual notion of a [[coderivation]] of a coalgebra.  The latter plays role in Koszul-dual definitions of $A_\infty$-[[A-infinity-algebra|algebras]] and $L_\infty$-[[L-infinity-algebra|algebras]].  See also [[derivation on a group]], which uses a modified Leibniz rule: $d(a b) = d(a) + a d(b)$.
 
 
+### Generalization to arbitrary $(\infty,1)$-categories {#Infty1Version}
+
+Another equivalent reformulation of the notion of derivations 
+turns out to be useful for the [[vertical categorification]] of the concept:
+
+for $N$ an $R$-module, there is the **nilpotent extension** ring $G(N) := N \oplus R$, equipped with the product operation
+
+$$
+  (r_1, n_1) \cdot (n_2, r_2) := (r_1, r_2, n_1 r_2 + n_2 r_1)
+  \,.
+$$ 
+
+This comes with a [[natural transformation|natural]] morphism of rings
+
+$$
+ G(N) \to R
+$$
+
+given by sending the elements of $N$ to 0. One sees that a derivation on $R$ with values in $N$ is precisely a ring homomorphism $R \to G(N)$ that is a [[section]] of this morphism.
+
+In terms of the [[bifibration]] $p : Mod \to Ring$ of [[module]]s over [[ring]]s, this is the same as a morphism from the module of [[Kähler differential]]s $\Omega_K(R)$ to $N$ in the fiber of $p$ over $R$.
+
+While this is a trivial restatement of the universal property of [[Kähler differential]]s, it is this perspective that vastly generalizes:
+
+we may replace $Mod \to Ring$ by the [[tangent (∞,1)-category]] projection $p : T_C \to C$ of any [[(∞,1)-category]] $C$. The functor that assigns [[Kähler differential]]s is then replaced by a [[left adjoint]] [[section]] of this projection 
+
+$$
+  \Omega : C \to T_C
+  \,.
+$$
+
+An **$(\infty,1)$-derivation** on an object $R$ with coefficients in an object $N$ in the fiber of $T_C$ over $R$ is then defined to be morphism $\Omega(R) \to N$ in that fiber.
+
+More discussion of this is at [[deformation theory]].
+
+
 ## Examples
 
 
