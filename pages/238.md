@@ -14,6 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-10
 
+* [[Mike Shulman|Mike]]:
+
+  * Wrote about effective-epimorphic sieves at [[subcanonical coverage]], by way of answering questions about [[anafunctor]]s.
+  * Wrote [[comma category]].  We should probably be consistent between [[under category]]/[[coslice category]] and [[slice category]]/[[over category]] about which is the page and which is the redirect.  I'm pulling for slice and coslice myself.
+
 * [[Andrew Stacey|Andrew]]
   * Started the [[FAQ]].  (The link on [[HomePage]] could possibly be removed - I put it there to start the [[FAQ]] but then also put a link in the sidebar.)
   * Okay, only a minor point: I corrected the syntax of the query block on the [[HowTo]] page.  The syntax that was there works, but is not the "standard" syntax as defined by the [maruku filter](http://maruku.rubyforge.org/proposal.html).
