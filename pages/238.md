@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-17 #
 
+* [[Urs Schreiber|Urs]]: 
+
+  * created a stub for [[differential cohomology]]
+
+# 2009-04-17 #
+
 * [[Zoran Škoda]]: created [[comodule]], [[flat module]], [[cotensor product]].
 
 *  [[Toby Bartels]]:  Added information on morphisms to [[relation]], [[extensional relation]], [[well-founded relation]], and [[well-order]].  I hope that all of my claimed theorems are true, in which case I\'m sure that all of my proposed definitions are good.  (^_^)
