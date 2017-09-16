@@ -61,4 +61,4 @@ Other references
 * A. L. Gorodentsev, S. A. Kuleshov, A. N. Rudakov, _t-stabilities and t-structures on triangulated categories_,
 Izv. Math. 68, 749--781, 2004 [doi](http://dx.doi.org/10.1070/IM2004v068n04ABEH000497) 
 
-* A. L. Gorodentsev, S. A. Kuleshov, _On finest and modular t-stabilities_, MPIM Bonn preprint [MPIM](http://www.mpim-bonn.mpg.de/preprints/send?bid=2649)
+* A. L. Gorodentsev, S. A. Kuleshov, _On finest and modular t-stabilities_, MPIM Bonn [preprint](http://www.mpim-bonn.mpg.de/preprints/send?bid=2649)
