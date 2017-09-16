@@ -1,6 +1,10 @@
 <div class="rightHandSide toc">
 [[!include higher category theory - contents]]
+***
+[[!include stable homotopy theory - contents]]
 </div>
+
+
 
 #Contents#
 
@@ -8,9 +12,19 @@
 {:toc}
 
 
-#Idea#
+## Idea
 
-A stable [[(infinity,1)-category]], is an $(\infty,1)$-category all whose objects are stable in the sense of [[stable homotopy theory]]: they behave as if they were [[spectrum|spectra]].
+A stable [[(∞,1)-category]], is an $(\infty,1)$-category all whose objects are stable in the sense of [[stable homotopy theory]]: they behave as if they were [[spectrum|spectra]].
+
+More precisely, in a stable $(\infty,1)$-category $C$ there is a [[zero object]], every object $X$ has a [[loop space object]] $\Omega X$ and a [[suspension object]] $\Sigma X$ and the operations of looping and suspension form an auto-equivalence of $C$
+
+$$
+  \Omega : C \stackrel{\simeq}{\leftrightarrow}
+  C : \Sigma
+  \,.
+$$
+
+Every $(\infty,1)$-category with finite [[limit]]s has a free [[stabilization]] to a stable $(\infty,1)$-category $Stab(C)$, and the objects of $Stab(C)$ are the [[spectrum object]]s of $C$.
 
 The [[homotopy category]] of a stable $\infty$-category is a [[triangulated category]].  This could be considered remarkable, because the definition of triangulated categories is involved and their behaviour is bad, whereas the definition of stable $\infty$-category is very simple.  So the complexity and bad behavior of triangulated categories comes from trying to capture at the level of a homotopy category a type of structure that properly belongs to an $(\infty,1)$-category.
 
@@ -22,9 +36,8 @@ building on the general theory of [[(infinity,1)-category|(infinity,1)-categorie
 
 * Jacob Lurie, [[Higher Topos Theory]].
 
-#Definition#
 
-(...the following should eventually bit split into separate entries for each keyword...)
+## Definition
 
 As with ordinary categories, an  object in a [[(infinity,1)-category]] is a [[zero object]] if it is both [[initial object]] and a [[terminal object]]. An $(\infty,1)$-category with a zero object is a **pointed** $(\infty,1)$-category.
 
@@ -77,7 +90,9 @@ A **stable $(\infty,1)$-category** is a pointed $(\infty,1)$-category such that
 
 * every exact triangle is coexact and vice versa, i.e. every morphism is the cokernel of its kernel and the kernel of its cokernel. 
 
-#Constructions in stable $\infty$-categories#
+## Constructions in stable $\infty$-categories
+
+### Looping and delooping
 
 The relevance of the axioms of a stable $(\infty,1)$-category is that they imply that not only does every object $X$ have a [[loop space object]] $\Omega X$ defined by the exact triangle
 
@@ -91,7 +106,7 @@ $$
   }
 $$
 
-but also that, conversely, every object $X$ has a suspension
+but also that, conversely, every object $X$ has a [[suspension object]]
 $\Sigma X$ defined by the coexact triangle
 
 $$
@@ -115,7 +130,11 @@ $$
 $$
 which are autoequivalences of $C$ that are inverses of each other.
 
-For every pointed $(\infty,1)$-category which is not yet stable there is something like its free stabilization, a stable $(\infty,1)$-category $Sp(C)$ that can be defined as the [[homotopy limit]]
+### Stabilization
+
+For every pointed $(\infty,1)$-category with finite [[limit]]s which is not yet stable there is its free [[stabilization]] (see there for more details): 
+
+a stable $(\infty,1)$-category $Sp(C)$ that can be defined as the [[limit in a quasi-category|limit]] in the [[(∞,1)-category of (∞,1)-categories]]
 
 $$
   Sp(C) := holim(   \cdots \to C \stackrel{\Omega}{\to} C \stackrel{\Omega}{\to} C )
@@ -128,7 +147,8 @@ Moreover, every [[derived category]] of an [[abelian category]] is the triangula
 
 Hence stable homotopy theory and homological algebra are both special cases of the theory of stable $(\infty,1)$-categories.
 
-# Alternative models # {#alternativemodels}
+
+## Alternative models  {#alternativemodels}
 
 Stable $(\infty,1)$-categories are equivalent to
 
@@ -155,12 +175,12 @@ A [[triangulated category]] linear over a field $k$ can canonically be refined t
 If $k$ has characteristic 0, then all these three concepts become equivalent.
 
 
-# Warning on terminology #
+## Warning on terminology 
 
 A stable $\infty$-category should not be confused with a [[k-tuply monoidal n-category|stably monoidal]] $\infty$-category.  A connection between the terms is that the $(\infty,1)$-category of [[spectrum|spectra]] is the prototypical stable $\infty$-category, while _connective_ spectra (not all spectra) can be identified with [[k-tuply groupal n-groupoid|stably groupal]] $\infty$-groupoids, aka _infinite loop spaces_ or $E_\infty$-[[E-infinity-space|spaces]].
 
 
-#References#
+## References
 
 The canonical reference is of course
 
