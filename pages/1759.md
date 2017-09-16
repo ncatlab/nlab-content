@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-28
 
+* [[Andrew Stacey|Lab Elf (service department)]]: The problem was that there was a reference to a theorem in the section that you wanted to remove.  By removing that section, you were trying to create a non-existent link.  By reformatting that sentence, I was able to remove the section.  Another [[Toby Bartels|Lab Elf (golf department)]] may be along later to clean up the links since I just did what was necessary to remove the section.
+
 * [[Urs Schreiber]] 
  
   * split off [[Reedy model structure]] from [[Reedy category]] -- added an "Idea" section and started expanding on some of the technical details
