@@ -28,3 +28,5 @@ Maybe we can start by skimming the paper and collecting some unfamiliar keywords
 
 * [[Kan extension]]
 * etc
+
+category: reference
