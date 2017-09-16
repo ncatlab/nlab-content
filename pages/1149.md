@@ -14,7 +14,7 @@ the relevance of the circle of ideas of [[Categories and Sheaves|categories and 
 It is a familiar fact that classes of maps between [[topological space]]s encode interesting information.
 
 To pick just one simple but important example: there is a [[topological space]]  that goes by the name
-$K(\mathbb{Z},2)$ or $B U(1)$. 
+$K(\mathbb{Z},2)$ or $B U(1)$ and is called an [[Eilenberg-Mac Lane space]]. 
 Whatever the name of this space, it is that space which has the  peculiar property that for any other space $X$,
 the [[homotopy]] classes $[X, B U(1)]$ of continuous maps
 from $X$ to this space $B U(1)$ characterize the following useful information:
