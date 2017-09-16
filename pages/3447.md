@@ -16,7 +16,7 @@ a **locally constant $\infty$-stack** is a section of the [[constant ∞-stack]]
 We propose a definition of locally constant $\infty$-stacks inside any [[(∞,1)-topos]].
 
 +-- {: .query}
-[[Urs Schreiber]]: sanity-check the following.
+[[Urs Schreiber]]: please somebody sanity-check the following.
 =--
 
 
