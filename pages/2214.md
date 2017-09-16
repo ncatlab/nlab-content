@@ -26,6 +26,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-04
 
+* [[Urs Schreiber]] 
+
+  * slightly expanded [[Lie algebroid]] and added several links to entries that didn't exist back when this was created but do exist now
+
+    in this context I made [[Atiyah Lie algebroid]] redirect to [[Atiyah Lie groupoid]]
+ 
+  * created [[tangent Lie algebroid]]
+
 * [[Rafael Borowiecki]]: 
 
   * The [[Timeline of category theory and related mathematics]] is repaired thanks to Andrew Stacey. See the new question there about updating links in a new migration.
