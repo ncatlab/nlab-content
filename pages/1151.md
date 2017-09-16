@@ -459,7 +459,7 @@ See [[Hochschild cohomology]] for details.
 #### Motivic cohomology
 
 [[motivic cohomology|Motivic cohomology]] is the cohomology of
-the [[(∞,1)-topos]] of [[∞-stack]] on the [[Nisnevich site]],
+the [[(∞,1)-topos]] of [[∞-stack]]s on the [[Nisnevich site]],
 usually restricted to coefficient objects that are 
 [[spectrum object|stable]] and [[A1-homotopy theory|A1-homotopy]]
 invariant.
