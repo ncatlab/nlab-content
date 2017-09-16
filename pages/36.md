@@ -51,3 +51,6 @@ As one formal result along these lines, Tom Leinster has shown that for any [[ca
 On the other hand, this is not always true.  For example, the categorification of a [[rig]] is a [[rig category]], but it is difficult to see how to define a rig internal to a rig category, and the usual definition of rig in $Set$ does not use the rig-category structure of $Set$ but only that it has finite products.
 
 A very different sort of general result has to do with the [[internal logic]] of certain categories.  If a category has enough structure to interpret a certain fragment of first-order logic, then any first-order theory definable in that fragment can be internalized in that category. For example, the theory of categories can be formulated in [[cartesian logic]] and thus is interpretable in any cartesian (= lex) category. The statement that almost anything can be internalized in a topos is the high-end case of this, since the internal logic of a topos is full intuitionistic type theory.
+
+
+[[!redirects Internalization]]
