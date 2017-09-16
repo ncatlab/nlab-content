@@ -37,6 +37,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Owen Biesel]]
 * [[Patrick Schultz]]
 * [[Peter LeFanu Lumsdaine]]
+* [[Rafael Borowiecki]]
 * [[Reid Barton]]
 * [[Richard Body]]
 * [[Ronnie Brown]]
