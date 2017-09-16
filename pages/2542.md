@@ -7,7 +7,7 @@
 * automatic table of contents goes here
 {:toc}
 
-# Defnition #
+## Defnition 
 
 +-- {: .un_defn}
 ###### Definition
@@ -22,7 +22,7 @@ A **lined topos** $(\mathcal{T}, R)$ is
 =--
 
 
-# Variations #
+## Variations 
 
 * A [[smooth topos]] is a lined topos where the line is required to be a smooth differentiable space with [[infinitesimal object|infinitesimal]] subspaces in a certain way. This is the basic type of object studied in [[synthetic differential geometry]].
 
@@ -30,9 +30,9 @@ A **lined topos** $(\mathcal{T}, R)$ is
 
 
 
-# Constructions in lined toposes #
+## Constructions in lined toposes 
 
-## Path objects 
+### Path objects 
 
 The line object $R$ in a lined topos $\mathcal{T}$ canonically has the structure of a [[interval object|cartesian interval object]]. 
 
@@ -52,7 +52,7 @@ As described there, this canonically induces
     [[schreiber:path ∞-groupoid|path ∞-groupoid]] of $X$).
 
 
-## Contractible objects {#ContractibleObjects}
+### Contractible objects {#ContractibleObjects}
 
 The following terminology is sometimes useful.
 
@@ -68,9 +68,9 @@ Call an object $X \in \mathcal{T}$  **contractible** with respect to the [[inter
 
 **Examples**
 
-* Let $Top'$ be a [[small category|small]] version of the category of sufficiently nice [[topological space]]s, for instance connected [[CW complex]]es. The canonical line object in $Sh(Top)$ is ${*} \stackrel{0}{\to} [0,1] \stackrel{1}{\leftarrow} {*}$ the standard topological interval. For $X \in Top$, $\Pi(X) = X^{\Delta_R^\bullet}$ is the [[singular simplicial complex]] of $X$.  This is contractible in the above sense precisely if $X$ is a [[contractible space]] in the standard sense.
+* **sheaves on topological spaces** Let $Top'$ be a [[small category|small]] version of the category of sufficiently nice [[topological space]]s, for instance connected [[CW complex]]es. The canonical line object in $Sh(Top)$ is ${*} \stackrel{0}{\to} [0,1] \stackrel{1}{\leftarrow} {*}$ the standard topological interval. For $X \in Top$, $\Pi(X) = X^{\Delta_R^\bullet}$ is the [[singular simplicial complex]] of $X$.  This is contractible in the above sense precisely if $X$ is a [[contractible space]] in the standard sense.
 
-* Let [[CartSp]] be the full subcategory of [[Diff]] on smooth [[manifold]]s of the form $\mathbb{R}^n$, for $n \in \mathbb{N}$. The canonical line object in $\mathcal{T} = Sh(CartSp)$ is the real line regarded as an [[interval object]]
+* **sheaves on cartesian spaces** Let [[CartSp]] be the full subcategory of [[Diff]] on smooth [[manifold]]s of the form $\mathbb{R}^n$, for $n \in \mathbb{N}$. The canonical line object in $\mathcal{T} = Sh(CartSp)$ is the real line regarded as an [[interval object]]
 
   $$
     R = ({*} \stackrel{0}{\to} \mathbb{R} \stackrel{1}{\leftarrow} {*})
@@ -127,3 +127,9 @@ Call an object $X \in \mathcal{T}$  **contractible** with respect to the [[inter
 
   =--
 
+* **sheaves on cartesian smooth loci** A small variation of the above example leads to [[smooth topos]]es with contractible representables:
+
+  let $CartSp_{synth} \subset \mathbb{L}$ be the full [[subcategory]] of [[smooth loci]] on those smooth loci of the form $\mathbb{R}^n \times D_k(r)$, where $D_k(r)$ is the [[infinitesimal space]] of $k$th order infinitesimal neighbours of the origin in $\mathbb{R}^r$. 
+
+  The line object is again ${*} \stackrel{0}{\to} \mathbb{R} \stackrel{1}{\leftarrow} {*}$ as in the above example. Crucially, the [[infinitesimal space]]s $D_k(r)$ all have a unique point ${*} \to D_k(r)$. Accordingly, there is also a unique morphism 
+  $R^n \to D_k(r)$ for all $n$. It follows that simplices in $R^n \times D_k(r)$ are simplices in $R^n$ as above, and trivial as maps to the $D_k(r)$-factor. Hence the above argument carries over to this case and shows that all the $\mathbb{R}^n \times D_k(r)$ are contractible.
