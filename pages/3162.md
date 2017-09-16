@@ -90,3 +90,73 @@ So
 would correspond to 
 
 * an _anamorphism_ from $X$ to $Y$.
+
+
+## Examples
+
+### Cochain cocycles {#CochainCocycles}
+
+The archetypical example of a notion of cocycles is that of [[chain homology and cohomology|chain cohomology]]:
+
+a non-negatively graded [[chain complex]] $V_\bullet = (V_0 \stackrel{\partial_V}{\leftarrow} V_1 \stackrel{\partial_V}{\leftarrow} V_2 \stackrel{}{\leftarrow} \cdots)$ is given. An element $v \in V_n$ is a **chain**. A linear dual $\omega : V_n \to k$ on its elements is a **cochain**. The cochains arrange into the [[cochain complex]] $V^\bullet = (V^0 \stackrel{d_V}{\to} V^1 \to \stackrel{d_V}{\to} V^2 \to \cdots) := (V_0^* \stackrel{(\partial_V)^*}{\to} V_1^* \to \stackrel{(\partial_V)^*}{\to} V_2^* \to \cdots)$ 
+
+A cochain $\omega \in V^n$ is a **cocycle** if it is closed with respect to the [[differential]] $d_V$ in that
+
+$$
+  d_V \omega = 0
+  \,.
+$$
+
+One sees that such cocycles are in bijection to [[morphism]]s of [[chain complex]]es
+
+$$
+  \omega : V_\bullet \to (\mathbf{B}^n k)_\bullet
+  \,,
+$$
+
+where on the right we have the [[Eilenberg-MacLane object]] of the ground field $k$, which is the chain complex trivial everywhere except in degree $n$, where it is $k$:
+
+$$
+  \mathbf{B}^n k = (0 \leftarrow \cdots \leftarrow 0 \leftarrow k \leftarrow 0 \leftarrow \cdots)
+  \,.
+$$
+
+By definition such a morphism is a collection of morphisms $\omega_r : V_r \to (\mathbf{B}^n k)_r$, of which by definition only $\omega_n \in V_n^* = V^n$ can be nontrivial.
+
+For the collection of these maps to be a morphism of chain complexes they have to make all squares in sight commute. The only nontrivial one in this case is the one
+
+$$
+  \array{
+    V_{n+1} &\to& 0
+    \\
+    {}^{\mathllap{\partial_V}}\downarrow && \downarrow
+    \\
+    V_n &\stackrel{\omega}{\to}& k
+  }
+  \,.
+$$
+
+It's commutativity means in formulas that
+
+$$
+  \omega \circ \partial_V = d_V \omega = 0
+  \,,
+$$
+
+wich is the cocycle condition from above.
+
+In most cases the morphism $\omega : V_\bullet \to \mathbf{B}^n k$ defined this way is already a morphism in the relevant [[(∞,1)-category]] $\mathbf{H}_{Ch_\bullet}$ of chain complexes: this is modeled for instance by the projective [[model structure on chain complexes]]. In this every object is fibrant, and the cofibrant objects are those consisting of projective $k$-[[module]]s. If we assume that all our modules are projective (for instance in the archetypical case that our modules are simply [[vector space]]s), then $\omega : V_\bullet \to \mathbf{B}^n k$ is a cocycle in $\mathbf{H}_{Ch_\bullet}$ from the above abstract nonsense point of view. For its cohomology class we may write
+
+$$
+  [\omega] \in H^n(V_\bullet,k) = \pi_0 \mathbf{H}_{Ch_\bullet}(V_\bullet, \mathbf{B}^n k)
+  \,.
+$$
+
+## Objects classified by cocycles {#Classification}
+
+One says for $\omega \in \mathbf{H}(X,A)$ a cocycle, that the object **classified by the cocycle** is its [[homotopy fiber]] $P \to X$ regarded as an object in the [[overcategory]] over $X$.
+
+This homotopy fiber may be thought of as the internal [[principal ∞-bundle]] in $\mathbf{H}$ with classifying map $\omega$.
+
+
+
