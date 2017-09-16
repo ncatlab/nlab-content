@@ -1,4 +1,8 @@
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 Passing from a [[category]] $C$ to its [[presheaf]] category $PSh(C) := [C^{op},Set]$ may be regarded as the operation of
