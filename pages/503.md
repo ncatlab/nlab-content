@@ -27,5 +27,9 @@ _Toby_:  I just read this again after a couple of months, and I think that I was
 
 _David_: So is Cauchy completion, $C \hookrightarrow \bar{C} \hookrightarrow Set^{C^{op}}$, like $\mathbb{Q} \hookrightarrow \mathbb{R} \hookrightarrow 2^{\mathbb{Q}}$? Perhaps that should be smaller on the right. I read somewhere that a way to see the reals as coalgebraic is that they can be seen (in terms of Dedekind cuts) as subsets/predicates of the rationals. Where you tend to see one as a subset of the other, it may be better to think of it in terms of a duality into 2.
 
+[[Mike Shulman]]: I think that's not unreasonable, but a more precise analogy would be to
+$$\mathbb{Q} \hookrightarrow \mathbb{R} \hookrightarrow [0,\infty]^{\mathbb{Q}^{op}}$$
+where $[0,\infty]^{\mathbb{Q}^{op}}$ is of course the $[0,\infty]$-enriched functor category.  In this case, it's the metric space whose points are [[short map]]s $f\colon \mathbb{Q}\to [0,\infty]$ and where $d(f,g) = sup_{x\in\mathbb{Q}} |f(x)-g(x)|$.  The Yoneda embedding $\mathbb{Q}\hookrightarrow [0,\infty]^{\mathbb{Q}^{op}}$ of course sends a point $y$ to $d(-,y)$.
+
 [[!redirects Cauchy complete categories]]
 [[!redirects Cauchy completion]]
