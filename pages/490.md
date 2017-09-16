@@ -42,4 +42,6 @@ The presentation axiom was, however, adopted by [[Erik Palmgren]] in $\mathbf{CE
 *  Erik Palmgren.  _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_.  [pdf](http://www.math.uu.se/~palmgren/cetcs.pdf).
 
 
+[[!redirects presentation axiom]]
+
 category: foundational axiom
