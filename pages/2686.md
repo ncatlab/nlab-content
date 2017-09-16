@@ -1,4 +1,14 @@
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Idea#
+
+A [[Poisson manifold]] may be thought of as a [[Lie algebroid]] with extra structure: called an [[n-symplectic manifold]] for $n = 1$.
+
+By [[Lie integration]] this Lie algebroid should integrate to a [[Lie groupoid]] with extra structure. Symplectic groupoids are supposed to be these objects that integrate [[n-symplectic manifold]] aka [[Poisson manifold]]s in this sense.
+
 
 # in geometric quantization of Poisson manifolds #
 
@@ -22,3 +32,7 @@ The following blog discussion should eventually be copied here:
   * [Eli Hawkins on Geometric Quantization I](http://golem.ph.utexas.edu/category/2008/06/eli_hawkins_on_geometric_quant.html)
 
   * [Eli Hawkins on Geometric Quantization II](http://golem.ph.utexas.edu/category/2008/06/eli_hawkins_on_geometric_quant_1.html)
+
+#References#
+
+* Eli Hawkins, _A groupoid approach to quantization_ ([arXiv](http://arxiv.org/abs/math.SG/0612363))
