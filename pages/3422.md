@@ -79,15 +79,15 @@ $$
 
 Where from left to right we have
 
-1. [[model structure on an overcategory]] for the Joyal [[model structure for quasi-categories]];
+1. the [[model structure on an overcategory]] for the Joyal [[model structure for quasi-categories]];
 
-1. [[model structure for Cartesian fibrations]];
+1. the [[model structure for Cartesian fibrations]];
 
 1. some localizaton of the model structure for Cartesian fibrations;
 
-1. [[model structure for right fibrations]] 
+1. the [[model structure for right fibrations]] 
 
-1. [[model structure on an overcategory]] for the Quillen [[model structure on simplicial sets]];
+1. the [[model structure on an overcategory]] for the Quillen [[model structure on simplicial sets]];
 
 The first and third Quillen adjunction here is a [[Quillen equivalence]] if $S$ is a [[Kan complex]].
 
