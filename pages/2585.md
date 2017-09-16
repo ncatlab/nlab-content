@@ -205,7 +205,7 @@ now with the [[path n-groupoid|path 2-groupoid]] operation (locally) left adjoin
 #### Homotopy groups from locally constant $\infty$-stacks on topological spaces {#ooStackOnTopSpace}
 
 
- Let $X$ be a sufficiently nice ([[paracompact space|paracompact]]) [[topological space]]. The canonical map $X \to {*}$ induces the [[geometric morphism]]
+ Let $X$ be a sufficiently nice (I think this should be locally (relatively) contractible. -DR) ([[paracompact space|paracompact]]) [[topological space]]. The canonical map $X \to {*}$ induces the [[geometric morphism]]
 
 $$
   Sh_{(\infty,1)}(X) \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
