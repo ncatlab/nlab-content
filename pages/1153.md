@@ -18,4 +18,6 @@ if the objects of $H$ moreover are stable, then this reproduces abelian cohomolo
 
 so I wanted to put this together and say: if it looks stable and homs in it can be thought of as computing cohomology, then it should be called  stable $(\infty,1)$-topos. Now, I see, that may be a wrong idea. But don't we want to say _something_ like that? Or should we think of the hom spaces of _every_ possible $(\infty,1)$-category as some kind of cohomology? That seems wrong, too. (?)
 
+_Toby_:  You could call this an _abelian $(\infty,1)$-category_.  A topos is like the category of sets ($0$-groupoids), while an abelian category is like the category of abelian groups (stably monoidal $0$-groupoids).  So we just change $0$ to $(\infty,1)$, equivalently $1$ to $(\infty,1)$, in both of those.
+
 =--
