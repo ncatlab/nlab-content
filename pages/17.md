@@ -86,7 +86,9 @@ First quantization is a mystery, but second quantization is a functor.
 
 # How to fiddle with the CSS (i.e. create query boxes, etc.) on your personal ncatlab space
 
-To fiddle with the CSS code, go to "Edit web" on the main page of your wiki, and then click on "Stylesheat tweaks". Here you can add new CSS gismos like query boxes and standout boxes (see the explanation (here) by Jacques Distler by how these are implemented in Instiki). You can grab the CSS code for query boxes from the main nLab page. It requires a password to change the CSS, but to view it does not require one.
+To fiddle with the CSS code, go to "Edit web" on the main page of your wiki, and then click on "Stylesheat tweaks". Here you can add new CSS gismos like query boxes and standout boxes. These kind of gismos come from the mechanism of putting CSS classes into the Markdown syntax, in the  [same way](http://golem.ph.utexas.edu/~distler/blog/archives/001820.html) that Jacques created the Theorem environments in Instiki. In other words, a query box is like a theorem environment: it's a way in Markdown to create an HTML block with a specific id, which you can then style in the CSS. You can grab the CSS code for query boxes from the main nLab page. It requires a password to change the CSS, but to view it does not require one. 
+
+
 
 +-- {: .query}
 Where\'s the explanation?
