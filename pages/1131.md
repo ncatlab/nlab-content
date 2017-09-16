@@ -26,7 +26,7 @@ for every triple $(x,y,z)$ of homogeneous elements in $L$.
 
 (The first property is call _antisymmetry_, the second _the Jacobi identity_.)
 
-A _morphism_ $f: L \to L^\prime$ of pre-glas is a linear map of degree zero, that is compatible with the brackets,
+A _morphism_ $f: L \to L'$ of pre-glas is a linear map of degree zero, that is compatible with the brackets,
 
 $$f[x,y] = [f(x),f(y)].$$
 
@@ -36,9 +36,9 @@ a) To any augmented pre-ga $A$, one can associate a pre-gla, denoted $\bar{A}_L$
 
 b) If $A$ is a pre-cga and $L$ is a pre-gla, the tensor product $A\otimes L$ has a pre-gla structure with bracket
 
-$$[a\otimes l,a^\prime\otimes l^\prime] = (-1)^{|a||l|}aa^\prime \otimes [l,l^\prime]$$
+$$[a\otimes l,a'\otimes l'] = (-1)^{|a||l|}aa' \otimes [l,l']$$
 
-for $a,a^\prime, l, l^\prime$ homogeneous.
+for $a,a', l, l'$ homogeneous.
 
 
 ####Derivations of graded Lie algebras
@@ -53,7 +53,7 @@ for any pair $x,y$ of homogeneous elements of $L$.  We denote by $Der_p(L)$, the
 
 A differential $\partial$ of a pre-gla is a Lie algebra derivation of degree -1 such that $\partial\circ \partial = 0$.  The pair $(L,\partial)$ is then called a _differential pre-graded Lie algebra_ (pre-dgla); its homology $H(L,\partial)$, is a pre-gla.  
 
-A morphism of pre-dglas is a morphism for both the underlying pre-gla and the pre-dgvs. We denote the corresponding category  by $pre-DGLA$.
+A morphism of pre-dglas is a morphism for both the underlying pre-gla and the pre-dgvs. We denote the corresponding category  by $pre DGLA$.
 
 
 This means that a  differential graded Lie algebra is an internal Lie algebra in the symmetric monoidal category of chain complexes with tensor product given as in [[differential graded vector space|differential graded vector spaces]]. 
@@ -81,13 +81,15 @@ This doesn't mean that it is best to introduce DGCA in this internal language. B
 My intention for my own contribution (with help hopefully) is to gradually add glosses in the lexicon entries so as to help interpret in both directions, categorically,and geometrically. 
 
 For instance, in the construction of the cobar one take the tensor algebra of the suspension of the cokernel (is it?) of the augmentation.  WHY?!!!!!!! How can one understand this? Magic? It works? In fact it is still a bit of a mystery to me and saying that it comes from such and such a categorical property still needs spelling out for me. I have asked rational homotopy theorists and have partially understood things from their point of view but there are still gaps in my understanding of it and some of them worry me!
+
+_Toby_:  One should be able to say something like, 'From a category-theoretic perpsective, a differential graded Lie algebra is simply an internal Lie algebra in an appropriate category of chain complexes.'.  This advertises what Urs says, that definitions come automatically from the category-theoretic perspective, without pretending that this will be simple to anyone coming from outside that perpsective.
 =--
 
 ####Examples
 
 a) If $(A,\partial)$ is an augmented pre-dga, $(\bar{A}_L,\partial)$ is a pre-dgla.
 
-b) If $(A,\partial)$ is a pre-cdga and $(L,\partial^\prime)$, a pre-dgla, $A \otimes L$, together with the tensor product differential, is a pre-dgla.
+b) If $(A,\partial)$ is a pre-cdga and $(L,\partial')$, a pre-dgla, $A \otimes L$, together with the tensor product differential, is a pre-dgla.
 
 c)  Let $(V,\partial)$ be a pre-dgvs, then the pre-dgvs, $(Hom(V,V),D)$, constructed earlier is a pre-dga  for the multiplication law given by composition of mappings.  Its associated pre-dgla has
 
@@ -137,7 +139,7 @@ It is a gla-filtration.
 $Q(L) = L/F^2L$ is called the _space of indecomposables_ of $L$.
 
 If $(L,\partial)$ is a pre-dgla, $F^p L$ is stable by $\partial$.  Letting $Q(\partial)$ be the induced differential on $Q(L)$, $Q$ then defines a functor
-$$Q : pre\!-\!DGLA \to pre\!-\!DGVS.$$
+$$Q : pre DGLA \to pre DGVS.$$
 
 ####Free Lie algebra, $\mathbb{L}(V)$.
 
@@ -158,27 +160,27 @@ If $\mathbb{L}(V), \partial)$ is a dgla, free as a gla, with $V$ fixed, $\partia
 
 ####Products and Coproducts (sums)
 
-Let $(L,\partial)$ and $(L^\prime,\partial^\prime)$ be two dglas.  Their _product_ $(L,\partial)\times(L^\prime,\partial^\prime)$ in $DGLA$ is defined by:
+Let $(L,\partial)$ and $(L',\partial')$ be two dglas.  Their _product_ $(L,\partial)\times(L',\partial')$ in $DGLA$ is defined by:
 
-*  the underlying vector space is the direct sum $L\oplus L^\prime$;
+*  the underlying vector space is the direct sum $L\oplus L'$;
 
-*  $(L,\partial)$ and $(L^\prime,\partial^\prime)$ are two sub differential graded Lie algebras of $(L,\partial)\times(L^\prime,\partial^\prime)$;
+*  $(L,\partial)$ and $(L',\partial')$ are two sub differential graded Lie algebras of $(L,\partial)\times(L',\partial')$;
 
-*  if $x\in L$ and $x^\prime \in L^\prime$, then $[x,x^\prime] = 0$.
+*  if $x\in L$ and $x' \in L'$, then $[x,x'] = 0$.
 
-Their _coproduct_ or _sum_ $(L,\partial)\star(L^\prime,\partial^\prime)$ is often called their _free product_. 
+Their _coproduct_ or _sum_ $(L,\partial)\star(L',\partial')$ is often called their _free product_. 
 
  For example.
 
-$$\mathbb{L}(V)\star \mathbb{L}(V^\prime) \cong   \mathbb{L}(V\oplus V^\prime).$$
+$$\mathbb{L}(V)\star \mathbb{L}(V') \cong   \mathbb{L}(V\oplus V').$$
 
-More generally if $L$ and $L^\prime$ are given by generators and relations
+More generally if $L$ and $L'$ are given by generators and relations
 
-$$L = \mathbb{L}(V)/I , \quad L^\prime = \mathbb{L}(V^\prime)/I^\prime ,$$
+$$L = \mathbb{L}(V)/I , \quad L' = \mathbb{L}(V')/I' ,$$
 
-$$L\star L^\prime = \mathbb{L}(V\oplus V^\prime)/{I,I^\prime}.$$
+$$L\star L' = \mathbb{L}(V\oplus V')/{I,I'}.$$
 
-The differential on $L\star L^\prime$ is the unique Lie algebra derivation extending $\partial$ and $\partial^\prime$.
+The differential on $L\star L'$ is the unique Lie algebra derivation extending $\partial$ and $\partial'$.
 
 
 
