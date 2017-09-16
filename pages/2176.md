@@ -1813,6 +1813,37 @@ The next venn diagram shows the differential proposition $\mathop{d}f = \mathop{
 
 </table>
 
+Just to be clear about what's being indicated here, it's a visual way of summarizing the following data:
+
+<table align="center" cellpadding="8" markdown="1" style="border:none; text-align:center">
+
+<td style="border:none"><font size="+1">
+$\array{\arrayopts{\colalign{right center}}
+\mathop{d}(p q)
+&amp; = &amp;
+p &amp; \cdot &amp; q
+&amp; \cdot &amp;
+\text{&#x2997;} \mathop{d}p \text{&#xFE50;} \mathop{d}q \text{&#x2998;}
+\\
+&amp; + &amp;
+p &amp; \cdot &amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; \cdot &amp;
+\mathop{d}q
+\\
+&amp; + &amp;
+\text{&#x2997;} p \text{&#x2998;} &amp; \cdot &amp; q
+&amp; \cdot &amp;
+\mathop{d}p
+\\
+&amp; + &amp;
+\text{&#x2997;} p \text{&#x2998;} &amp; \cdot &amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; \cdot &amp;
+0
+}$
+</font></td>
+
+</table>
+
 # External Links #
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
