@@ -177,7 +177,7 @@ A comparison of the four [[model category]] structures on
 
 is in 
 
-* Julia E. Bergner, _A survey of $(\infty,1)$-categories_ ([arXiv](http://arxiv.org/abs/math/0610239))
+* [[Julie Bergner]], _A survey of $(\infty,1)$-categories_ ([arXiv](http://arxiv.org/abs/math/0610239))
 
 
 
