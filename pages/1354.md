@@ -1,15 +1,15 @@
 #Idea#
 
-[[triangulated category|Triangulated categories]] are a bit rough sort of a localization, and lack some naturally expected properties, for example the functoriality of the cones. Therefore, it has been a wish since 1960s to replace or repair them with a more coherent structure. 
+[[triangulated category|Triangulated categories]] are a bit rough sort of a [[localization]], and lack some naturally expected properties, for example the functoriality of the cones. Therefore, it has been a wish since the 1960s to replace or repair them with a more coherent structure. 
 
-Good candidates at present are $A_\infty$-categories, $dg$-categories and stable $(\infty,1)$-categories. In practice the triangulated categories are still used to an extent so one likes to have both the full structure and the underlying truncation which exists as a triangulated category in all three cases. 
+Good candidates at present are $A_\infty$-[[A-infinity-category|categories]], $dg$-[[dg-category|categories]] and [[stable (∞,1)-categories]]. In practice, triangulated categories are still used to an extent, so one likes to have both the full structure and the underlying truncation which exists as a triangulated category in all three cases. 
 
-It is known that all 3 approaches give the same result over a field of characteristics zero. The dg-enhancement is most documented and studied in genuine applications so far and is the first historically understood. 
+It is known that all 3 approaches give the same result over a field of characteristic zero. The $dg$-enhancement is most documented and studied in genuine applications so far and is the first to be historically understood. 
 
-Triangulated categories may arise as [[homotopy category of an (infinity,1)-category|homotopy categories]] of [[stable (infinity,1)-category|stable (infinity,1)-categories]]. 
+Triangulated categories may arise as [[homotopy category of an (infinity,1)-category|homotopy categories]] of [[stable (infinity,1)-category|stable (∞,1)-categories]]. 
 
 An _enhancement_ of a triangulated category to a
-([[pretriangulated dg-category|pretriangulated]]) [[differential graded category]] may be, in characteristics zero, considered as a way to retain the information in the [[stable (infinity,1)-category]]. Therefore in that case, the enhanced triangulated categories are models for [[stable (infinity,1)-category|stable (infinity,1)-categories]] in terms of [[differential graded category|dg-categories]], much like [[simplicially enriched category|simplicial categories]] are models for [[(infinity,1)-category|(infinity,1)-categories]].
+([[pretriangulated dg-category|pretriangulated]]) [[differential graded category]] may be, in characteristic zero, considered as a way to retain the information in the [[stable (∞,1)-category]]. Therefore in that case, the enhanced triangulated categories are models for [[stable (infinity,1)-category|stable (∞,1)-categories]] in terms of [[differential graded category|dg-categories]], much like [[simplicially enriched category|simplicial categories]] are models for [[(infinity,1)-category|(∞,1)-categories]].
 
 
 #Details#
@@ -28,5 +28,6 @@ category $T$ with that structure is called __enhanced__. According to the new re
 * V. A. Lunts, D. O. Orlov, _Uniqueness of enhancement for triangulated categories_, [arXiv:0908.4187](http://arxiv.org/abs/0908.4187).
 
 the triangulated categories of [[quasicoherent sheaf|quasicoherent sheaves]] on quasiprojective varieties and some of their cousins (like categories of perfect complexes on quasiprojective varieties) have essentially unique dg-enhancements. F. Muro has developed an obstruction theory for the existance and measuring non-uniqueness of dg-enhancements in more general setting (unpublished).
+
 
 [[!redirects enhanced triangulated categories]]
