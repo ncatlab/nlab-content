@@ -15,5 +15,5 @@ The [[opposite category]] $CRing^{op}$ is the category of [[affine scheme]]s.
 
 * There is a "smooth" version of $CRing^{op}$: the category of [[smooth locus|smooth loci]],
 
-* There is a [[higher category theory]] version of $CRing$: the [[(∞,1)-category]] of [[E-∞ ring]]s.
+* There is a [[higher category theory]] version of $CRing$: the $(\infty,1)$-[[(∞,1)-category|category]] of $E_\infty$-[[E-∞ ring|rings]].
 
