@@ -81,7 +81,7 @@ For more see
 
 #Objects classified by nonabelian cohomology#
 
-For $g : X \to A$ a cocycle in nonabelian cohomology, we say the [[fibration sequence|homotopy fibers]] of $g$ is the object _classified_ by $g$.
+For $g : X \to A$ a [[cocycle]] in nonabelian cohomology, we say the [[fibration sequence|homotopy fibers]] of $g$ is the object _classified_ by $g$.
 
 For examples and discussion of this see
 
