@@ -8,6 +8,6 @@ This can be rephrased in more elementary terms by saying that:
 
 Just as all [[finite limit|finite colimits]] can be constructed from initial objects, binary coproducts, and coequalizers, so a cocone on any finite diagram can be constructed from these three.
 
-More generally, if $\kappa$ is a [[cardinal number]], then a **$\kappa$-filtered category** is one such that any diagram $D\to C$ has a cocone where $D$ has fewer than $\kappa$ arrows.  Note that a [[preorder]] is $\kappa$-filtered as a category just when it is $\kappa$-[[directed set|directed]] as a preorder.
+More generally, if $\kappa$ is a [[cardinal number]], then a **$\kappa$-filtered category** is one such that any diagram $D\to C$ has a cocone where $D$ has fewer than $\kappa$ arrows.  Note that a [[preorder]] is $\kappa$-filtered as a category just when it is $\kappa$-[[direction|directed]] as a preorder.
 
 A colimit whose domain is a filtered category is called a **filtered colimit**.  A category whose opposite is filtered is called **cofiltered**, and a limit over a cofiltered category is called a **cofiltered limit** or a **filtered inverse limit**.  Filtered colimits are important in the theory of [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories.  See also [[pro-object]].
