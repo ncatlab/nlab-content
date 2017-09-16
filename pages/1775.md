@@ -4,7 +4,7 @@ A _group object_ in an [[(∞,1)-category]] generalizes and unifies two familiar
 
 * it is the generalization of [[Jim Stasheff|Stasheff]] [[H-space]]  from [[Top]] to more general [[∞-stack]] [[(∞,1)-topoi]]: an object that comes equipped with an associative and invertible [[monoid]] structure, up to coherent [[homotopy]];
 
-* it generalizes the notion of [[equivalence relation]] from [[category|categories]] to [[(infinity,1)-categories]].
+* it generalizes the notion of [[equivalence relation]] from [[category|categories]] to [[(∞,1)-categories]].
 
 Of particular relevance are such group objects that define [[quotient object|effective quotients]]
 
@@ -12,7 +12,7 @@ Of particular relevance are such group objects that define [[quotient object|eff
 
 * these generalize the notion of [[regular epimorphism]]
 
-* these serve to characterize [[regular category|regular (infinity,1)-categories]] -- such as [[infinity-stack]] [[(infinity,1)-topos]]es -- as those where every such object is an [[quotient object|effective quotient]].
+* these serve to characterize [[regular category|regular (∞,1)-categories]] -- such as [[∞-stack]] [[(∞,1)-topoi]] -- as those where every such object is an [[quotient object|effective quotient]].
 
 A _groupoid object_ is then accordingly the many-object version of a group object. 
 
