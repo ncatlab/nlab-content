@@ -1,5 +1,9 @@
 <div class="rightHandSide toc">
 [[!include higher geometry - contents]]
+
+***
+
+[[!include higher algebra - contents]]
 </div>
 
 
