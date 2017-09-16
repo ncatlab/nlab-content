@@ -46,6 +46,14 @@ while in SEAR, each element is in a unique set.
 
 Also, part of the following discussion is no longer comprehensible in the changed context and should be removed or appropriately shortened.
 
+_Toby_:  I agree with Arnold; I like the criterion of a global membership predicate.  (But you know that by now, Mike.)
+
+I labelled the discussion immediately below, although probably we could get rid of it entirely.  (It\'ll still be in the archived revisions if we need it.)
+
+***
+
+Discussion on earlier version:
+
 [[Arnold Neumaier]]: I doubt that this statement means anything. ZF
 has no notion of time, hence nothing exists there before anything
 else. In a model of ZF all sets exist simultaneously, and without a
