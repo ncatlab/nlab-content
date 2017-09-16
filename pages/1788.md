@@ -10,7 +10,7 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 # Contents #
 
-* a few bytes for the docbot to eat while building the toc
+* a few bytes for the docbot to munch while building the toc
 {:toc}
 
 ***
