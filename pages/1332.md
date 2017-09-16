@@ -60,36 +60,56 @@ $$
 
 induces an isomorphism in the [[homotopy category]] of [[Top]].
 
-## Definition in simplicial model categories ##
+## Definition in model categories ##
 
-Let $C$ be a [[simplicial model category]]. And let $S \subset Mor(C)$
-be a collection of [[morphism]]s in $C$.
+Let $C$ be a [[model category]] (usefully but not necessarily a [[simplicial model category]]). And let $S \subset Mor(C)$ be a collection of [[morphism]]s in $C$.
 
-Consider in the following the standard [[model structure on simplicial sets]]
-with weak equivalences given by morphisms that induce isomorphisms on all
-[[simplicial homotopy group]]s.
+Write $\mathbf{R}Hom_C(-,-)$ for the connected components of the [[(infinity,1)-categorical hom-space|derived hom space functor]].
 
 * An object $c \in C$ is a **$S$-local object** if for all $s : a \to b$
 in $C$ the induced morphismm
+
   $$
-    C(s,c) : C(b,c) \to C(a,c)
+    \mathbf{R}Hom_C(s,c) : \infty Grpd \to \infty Grpd
   $$
-  is a homotopy equivalence of simplicial sets.
+
+  is an equivalence.
   
-* A morphism $f : x \to y$ in $C$ is an **$S$-local morphism**
-  or **$S$-equivalence** if for every $S$-local object $c$
+* A morphism $f : x \to y$ in $C$ is an **$S$-local morphism** or **$S$-equivalence** if for every $S$-local object $c$
   the induced morphism
+
   $$
-    C(f,c) : C(y,c) \to C(x,c)
+    \mathbf{R}Hom_C(f,c) : \infty Grpd \to \infty Grpd
   $$
-  is a homotopy equivalence of simplicial sets.
+
+  is a weak equivalence.
+
+An **$S$-localization of an object** $c$ is an $S$-local object $\hat c$ and an $S$-local equivalence $c \to \hat c$.
+
+An **$S$-localization of a morphism** $f : c \to d$ is a pair of $S$-localizations $c \to \hat c$ and $d \to \hat d$ of objects, and a commuting square
+
+$$
+  \array{
+    c &\stackrel{f}{\to}& d
+    \\
+    \downarrow && \downarrow
+    \\
+    \hat c &\to & \hat d
+  }
+  \,.
+$$ 
 
 
-This is section A.3.7 of
+### References ###
+
+A classical textbook reference is section 3.2 of
+
+* Hirschhorn, _Model categories and their localization_
+
+A useful reference with direct ties to the [[(∞,1)-category]] story in the background is section A.3.7 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
-> do we really want to say homotopy equivalence here?
 
 
 
