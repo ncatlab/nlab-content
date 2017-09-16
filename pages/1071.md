@@ -2,4 +2,4 @@ An [[additive category|additive functor]] $F$ from a [[triangulated category]] $
 $$
 X\stackrel{f}\to Y\stackrel{g}\to Z\stackrel{h}\to X[1],
 $$
-in $A$, the sequence $F X\stackrel{F f}\to F Y\stackrel{F g}\to F Z$ is [[exact complex|exact]] in $C$. 
+in $A$, $F X\stackrel{F f}\to F Y\stackrel{F g}\to F Z$ is an [[exact sequence]] in $C$. 
