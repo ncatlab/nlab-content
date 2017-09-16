@@ -9,3 +9,6 @@ A poset that has both [[top]] and bottom is called _bounded_.
 As a poset is a special kind of [[category]], a bottom is simply an [[initial object]] in that category.
 
 The bottom of the poset of [[subset]]s or [[subobject]]s of a given set or object $A$ is called the [[empty set|empty]] subset or subobject.  In a category (such as [[Set]]) with a strict [[initial object]] $\varnothing$, this will always serve as the bottom of any subobject poset.
+
+
+[[!redirects bottom element]]
