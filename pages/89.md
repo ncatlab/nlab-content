@@ -61,3 +61,5 @@ the general results of van den Linden published in TAC to
 get such a result, using regular epimorphism pretopology, it seems to me. It is probably known to the experts in this or another form. 
 
 =--
+
+[[!redirects Morita equivalences]]
