@@ -234,7 +234,7 @@ $$
   C^\infty(X^{\Delta^k}) \to C^\infty(X^{\Delta^k_{inf}})
 $$
 
-from functions on simplices in $X$ to functions on infinitesimal simplices. (This is an operation on [[generalized smooth algebra]]s alone, really, which _defines_ in turn what one means by infinitesimal simplices. )
+from functions on simplices in $X$ to functions on infinitesimal simplices. (This is an operation on [[generalized smooth algebra]]s alone, really, which _defines_ in turn what one means by infinitesimal simplices. ), i.e. from functions on the full [[path infinity-groupoid]] to functions on just the [[infinitesimal singular simplicial complex]] of $X$.
 
 The cosimplicial copresheaf $C^\infty(X^{\Delta^\bullet_{inf}})$ we call the **$\infty$-quantity of functions on infinitesimal simplices** in $X$.
 
