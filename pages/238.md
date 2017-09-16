@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-17
 
+*  [[Toby Bartels]]:
+   *  Wrote [[congruence]] to mean an internal equivalence relation.
+   *  Wrote [[k-tuply groupal n-groupoid]] based on [[k-tuply monoidal n-category]].  But I strongly suspect that homotopy theorists have something to say here in a completely different language.  (Perhaps [[Mike Shulman]] knows.)
+   *  Created [[wedge sum]] to link from the following, and [[smash product]] to go with it.
+   *  Put in a general definition at [[homotopy group]], trying to show how $\pi_n$ has $n$ products that are all the same.
+
 * [[Tim Porter|Tim]]: I have been trying to give an adequate categorical treatment of [[profinite completion of a group]].
 
 * [[Urs Schreiber|Urs]]: 
