@@ -11,7 +11,7 @@
 {:toc}
 
 
-## Idea ##
+## Idea 
 
 
 $(n+k,n)$-$\Theta$-spaces are a model for the notion of (weak) [[(n,r)-category|(n+k,n)-category]] proposed by
@@ -19,7 +19,7 @@ $(n+k,n)$-$\Theta$-spaces are a model for the notion of (weak) [[(n,r)-category|
 
 The $(n+k,n)$-$\Theta$-spaces are, roughly, presented as the fibrant objects of a certain [[model category]] structure on the category of [[simplicial presheaf|presheaves of simplicial sets]] on [[Andre Joyal|Joyal]]'s [[disk category]] $\Theta_n$. This notion is a generalization of that of [[complete Segal spaces]] (which are precisely the $(\infty,1)$-$\Theta$-spaces). 
 
-## Overview ##
+## Overview 
 
 There is a [[cartesian closed category|cartesian closed]] [[category with weak equivalences]] $\Theta_n Sp_k^{fib}$ of **$(n+k,n)$-$\Theta$-spaces** for all 
 
@@ -64,7 +64,7 @@ For low values of $n,k$ this reproduces the following cases:
 
 * for $n=1$ objects in $\Theta_1 Sp_\infty^{fib} $ are [[complete Segal spaces]], hence [[(∞,1)-category|(∞,1)-categories]].
 
-## Definition ##
+## Definition 
 
 For $J$ a [[category]], write $\Theta J$ for the [[categorical wreath product]] over the [[simplex category]] $\Delta$ [Ber05](http://arxiv1.library.cornell.edu/abs/math/0512575).
 
@@ -112,15 +112,15 @@ for some set $S_n \subset Mor(SPSh(C))$ of morphisms.
 
 
 
-## Properties ##
+## Properties 
 
-### Cartesian monoidal and enriched structure ###
+### Cartesian monoidal and enriched structure 
 
 The [[model category]] $\Theta_n Sp_k$ is a [[cartesian monoidal category|cartesian]] [[monoidal model category]].
 
 The idea is that $\Theta_n Sp_k$ is naturally an [[enriched model category]] over itself.
 
-### $(n+1,r+1)$-$\Theta$-space of $(n,r)$-$\Theta$-spaces ###
+### $(n+1,r+1)$-$\Theta$-space of $(n,r)$-$\Theta$-spaces {#OfAll}
 
 Here is the idea on how to implement the notion $(n+1,r+1)$-category of all $(n,r)$-categories in the context of Theta-spaces. At the time of this writing, this hasn't been spelled out in total.
 
@@ -136,13 +136,13 @@ As mentioned above regard $\Theta_k Sp_n$ as a category enriched over itself. Th
 
 This object satisfies the Segal conditions (its descent conditions) in all degrees except degree 0. A suitable localization operation ca-n fix this. The resulting object should be the "$(n+1,k+1)$-$\Theta$-space of $(n,k)$-$\Theta$-spaces".
 
-### Homotopy hypothesis ###
+### Homotopy hypothesis 
 
 The definition of weak $(n,r)$-categories modeled by $\Theta$-spaces does satisfy the [[homotopy hypothesis]]: there is an evident notion og groupoid objects in $\Theta_n Sp_k$ and the full subcategory on these models [[homotopy n-types]].
 
 See [Rez09, 11.25](http://arxiv.org/PS_cache/arxiv/pdf/0901/0901.3602v2.pdf#page=35).
 
-## References ##
+## References 
 
 The theory of $\Theta$-spaces has been proposed in
 
