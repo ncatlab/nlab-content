@@ -52,9 +52,14 @@ Recent review:
 
 * Paul G. Goerss, Kristen Schemmerhorn, _Model Categories and Simplicial Methods_ ([arXiv](http://arxiv.org/abs/math.AT/0609537))
 
-Monograph: 
+A nice first introduction:
+
+* Dwyer, Spalinski, _Homotopy theories and model categories_ [pdf](http://hopf.math.purdue.edu/Dwyer-Spalinski/theories.pdf)
+
+Monographs: 
 
 * Philip S. Hirschhorn, _Model Categories and Their Localizations_ ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99))
+* Mark Hovey, _Model Categories_ ([Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
 See 
 
@@ -62,3 +67,6 @@ See
 
 for errata and more. 
 
+For yet another introduction to model categories, see
+
+* Appendix A2 of Lurie's book on higher topos theory, available on [his webpage](http://www-math.mit.edu/~lurie/)
