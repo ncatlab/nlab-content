@@ -49,6 +49,8 @@ My own convention is that of Street: the arrow orientations in a product of [[pa
 $$\partial^{\varepsilon}(\alpha \otimes f) = \partial^{\varepsilon}(\alpha) \otimes f + \alpha \otimes (-1)^{dim(\alpha)} \partial^\varepsilon f$$ 
 
 so accordingly, since $dim(\alpha) = 1$, the set of source cells of $\alpha \otimes f$ would be $\{F \otimes f, \alpha \otimes G\}$, if you follow my drift. Street's rule of thumb then is that 'lax' would follow this "normal" order, and 'colax' the opposite. 
+
+_Toby_:  I didn\'t want to say anything before, but my own intuition follows Todd\'s logic.
 =--
 
 The [[category]] $Lax(F,G)$ consists of lax transformations from $F$ to $G$ and [[modification]]s between them.
