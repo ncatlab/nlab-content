@@ -101,9 +101,9 @@ Of course, we now have two notations for the same object, ${pre GVS}(V,W) = Hom_
 
 **Suspension**
 
-If $r\in \mathbb{Z}$, the $r$-suspension of $V$ is given by $(s^rV)_n = V_{n-r}.$
+If $r\in \mathbb{Z}$, the $r$-suspension of $V$ is given by $(s^r V)_n = V_{n-r}.$
 
-We will need $s$, the 1-suspension, and $s^{-1}$ in particular.  Of course, $(s^{-1}V)_n = V_{n+1}$.  It is also useful to note $(s^rV)^p = V^{p+r}$. Again, of course, $s^r: V\to s^rV$ is an isomorphism of degree $-r$ having $s^{-r}$ as its inverse.
+We will need $s$, the 1-suspension, and $s^{-1}$ in particular.  Of course, $(s^{-1}V)_n = V_{n+1}$.  It is also useful to note $(s^r V)^p = V^{p+r}$. Again, of course, $s^r: V\to s^r V$ is an isomorphism of degree $-r$ having $s^{-r}$ as its inverse.
 
 (This is the basic example of the **suspension functor** discussed in [[triangulated category]].)
 
