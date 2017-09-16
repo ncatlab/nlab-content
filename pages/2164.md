@@ -1,5 +1,11 @@
 # Idea #
 
+An infinitesimal quantity is a quantity which is infinitely small in size, yet not necessarily perfectly small (zero).  An infinitesimal object is an object whose [[generalised elements]] are to be thought of as infinitesimal quantities.
+
++-- {: .query}
+Do all of the following really involve infinitesimal *objects*?  Or should we move the others to [[infinitesimal quantity]] to clarify that this page is about objects of categories as defined below?  ---Toby
+=--
+
 ## in synthetic differential geometry ##
 
 In the context of [[synthetic differential geometry]] the notion of
@@ -20,6 +26,7 @@ there is an earlier and closely related formalism of infinitesimal neighborhoods
 See 
 
 * [[nonstandard analysis]]
+
 
 # Definition #
 
