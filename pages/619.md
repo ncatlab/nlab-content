@@ -32,10 +32,12 @@ $$
   \,.
 $$
 
-In the case that the functor $T$ is [[exact functor|left exact]] this reflection is called a [[localization]].
+This reflection is sometimes called a [[localization]], although sometimes this term is reserved for the case when the functor $T$ is [[exact functor|left exact]].
 
 +--{.query}
 Zoran: this is not universally accepted. In topos theory community yes. But in the setup of abelian categories, like categories of modules, people often use word localization even if left exactness is not met. If it is it is often said flat localization in those circles (though sometimes one says flat localization only if the stronger condition is satisfied: composed endofunctor is flat). The localization of the underlying ring (in the case of module categories) is the component of adjunction at that ring, and for Gabriel localizations (where $T$ is flat) the arget module is canonically a ring and the component of the adjunction is a ring morphism. But only if the localization is perfect this morphism of rings tell you all infrmation about the localization functor. 
+
+[[Mike Shulman]]: I changed it, how's that?
 =--
 
 If the reflector $T$ is [[faithful functor|faithful]], the reflection is called a [[completion]].
