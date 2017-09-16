@@ -43,7 +43,7 @@ We should now see that some instances of categories of [[descent]] data are cano
 
 One of the most basic examples of [[bifibration]]s are [[codomain fibration]]s. Accordingly, monadic descent applied to codomain fibrations archetypically exhibits the nature of monadic descent. We therefore spell out this example is some detail.
 
-Other examples of monadic descent often find a useful interpretation when relating them back to monadic descent for codomain fibrations. For instance the (co)monadic descent for [[Sweedler coring]]s, discussed below, finds a natural geometric interpretion this way (as discussed in detail there).
+Other examples of monadic descent often find a useful interpretation when relating them back to monadic descent for codomain fibrations. For instance (co)monadic descent for [[Sweedler coring]]s, discussed below, finds a natural geometric interpretion this way (as discussed in detail there).
 
 
 #### Motivation: failure of push-forward for principal bundles
@@ -60,9 +60,9 @@ So principal bundles do have a canonical notion of push-forward, but it leads ou
 
 On the other hand, as we will see in detail below, if we take a principal bundle $P \to X$ and
 
-* first push it forward in this generalized sens to an object $P \to Z$ in the [[overcategory]] $Top/Z$
+* first push it forward in this generalized sense to an object $P \to Z$ in the [[overcategory]] $Top/Z$
 
-* and **then** pull back the result of that again along $X \to Z$ the result, while still not a principal bundle, is the total space $P$ of the bundle pulled back to the first term in the [[Cech nerve]] of $f : X \to Z$. This pullback is of central interest in the description of the geometric [[descent]] property of the bundle. 
+* and **then** pull back the result of that again along $X \to Z$ the result, while still not a principal bundle, is the total space $P$ of the bundle pulled back to the first term in the [[Čech nerve]] of $f : X \to Z$. This pullback is of central interest in the description of the geometric [[descent]] property of the bundle. 
 
 But the composite operation of pushforward of overcategories
 
@@ -168,7 +168,7 @@ In first degree we find that applying our monad once yield the object $T P$ whic
     }
   $$
 
-  which is the first term in the [[Cech nerve]] of $\pi$. So the total pullback is the pullback $P$ to $Y\times_X Y$:
+  which is the first term in the [[Čech nerve]] of $\pi$. So the total pullback is the pullback $P$ to $Y\times_X Y$:
 
   $$
     \array{
@@ -207,13 +207,13 @@ $$
   \,.
 $$
 
-As an example, think of this in the context $C = Top$ with $\pi Y \to X$ coming froman open [[cover]] $\{U_i \to X\}$ of $X$ with $Y = \sqcup_i U_i$, and with $P = Y \times G$ a trivial $G$-[[principal bundle]] for some [[group]] $G$. Then the space $Y \times_X Y = \coprod_{i j} U_i \cap U_j$ is the union of double intersection of covering patches, and $(Y \times_X Y) \times_Y P = (\coprod_{i j} U_i \cap U_j \times G)$ is to be thought of as the trivial $G$-principal bundle over $U_j$, restricted to the intersection. In this case our morphism $\rho$ acts as
+As an example, think of this in the context $C = Top$ with $\pi Y \to X$ coming from an open [[cover]] $\{U_i \to X\}$ of $X$ with $Y = \coprod_i U_i$, and with $P = Y \times G$ a trivial $G$-[[principal bundle]] for some [[group]] $G$. Then the space $Y \times_X Y = \coprod_{i j} U_i \cap U_j$ is the union of double intersection of covering patches, and $(Y \times_X Y) \times_Y P = (\coprod_{i j} U_i \cap U_j \times G)$ is to be thought of as the trivial $G$-principal bundle over $U_j$, restricted to the intersection. In this case our morphism $\rho$ acts as
 
 $$
   \rho : \coprod_{i j} : (U_i \cap U_j \times G) \to \coprod_i U_i \times G
 $$
 
-and thus maps the trivial $G$-bundle over $U_j$ on the intersection with the trivial $G$-bundle over $U_i$. So it is a _transition function_ . If this is a $G$-equivariant, it may be part of the  [[descent]] datum for the $G$-[[principal bundle]].
+and thus maps the trivial $G$-bundle over $U_j$ on the intersection with the trivial $G$-bundle over $U_i$. So it is a _transition function_. If this is a $G$-equivariant, it may be part of the  [[descent]] datum for the $G$-[[principal bundle]].
 
 ...
 
