@@ -2,6 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Definition
 
 A **lattice** is a [[partial order|poset]] which admits all finite [[meet]]s and finite [[join]]s (or all finite products and finite coproducts, regarding a poset as a category).
@@ -33,6 +34,8 @@ $$ f(x \wedge y) = f(x) \wedge f(y),\; f(\top) = \top,\; f(x \vee y) = f(x) \vee
 Note that such a homomorphism is necessarily a [[monotone function]], but the converse fails.
 
 Thus, a lattice is a poset (or even a semilattice) with [[property-like structure]].
+
+Lattices and lattice homomorphims form a [[concrete category]] [[Lat]].
 
 
 [[!redirects lattices]]
