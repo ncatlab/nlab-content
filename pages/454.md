@@ -9,3 +9,5 @@ You can recover the original poset from either the meet or the join; $a \leq b$ 
 Sometimes the requirement that a lattice have top and bottom (nullary meets and joins) is removed; then a lattice with these is called a **bounded lattice**.
 
 A **meet-semilattice** is a poset which admits all finite meets; a **join-semilattice** is a poset which admits all finite joins. The algebraic definition of **semilattice** is the same either way, but you can still distinguish meet- and join- semilattices for their notation (much as you do additive and multiplicative groups).
+
+A lattice which has *all* joins and meets (not just finitary ones) is a [[complete lattice]].
