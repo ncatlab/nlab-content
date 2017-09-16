@@ -348,6 +348,20 @@ So
 
 Notice that this means in particular that the "additive" structure on $C(X)$ is taken to be nothing but the $(\infty,1)$-categorical colimit operation inside $C(X)$: this is the operation with respect to which [[(infinity,1)-functor]]s in $(\infty,1)Cat_1^L$ are linear, and with respect to which the tensor product is bilinear.
 
+In terms of this [[higher algebra]] we will obtain the two central (defining) theorems of _geometric $\infty$-function theory_.
+
++-- {: .un_theorem}
+###### Theorem
+**Fundamental theorem of geometric $\infty$-function theory**
+
+For $X \to Y \leftarrow X'$ morphisms of nice generalized spaces ([[perfect infinity-stack]]s) and for $\infty$-functions $C(-) = QC(-)$ (given by the assignment of $(\infty,1)$-categories of quasicoherent sheaves) we have
+
+* _$\infty$-matrices (integral transforms) are $\infty$-functions on fiber products:_ $ C(X \times_Y X') \simeq C(X) \otimes_{C(Y)} C(X')$
+
+* _$\infty$-linear maps are given by $\infty$-matrices:_ $C(X \times_Y X') \simeq Fun_{C(Y)}(C(X), C(Y))$;
+
+=--
+
 
 #### basic ideas related to $\infty$-stacks ####
 
@@ -567,11 +581,186 @@ Morphisms from the [[fundamental infinity-groupoid]] are also called [[local sys
 
 #### 2.4 derived loop spaces ####
 
-* [[homotopy limit]]
+Of particular interest in this study of 
+_geometric $\infty$_-function theory is the behaviour of $\infty$-functions on [[loop space object|loop spaces]]. The $(\infty,1)$-category $C(\Lambda X)$ of $\infty$-functions on the loop space $\Lambda X$ of a sufficiently nice generalized space (a _perfect_ [[infinity-stack]]) $X$ turns out to be the  [[infinity-trace]] or [[infinity-center]] of that of $X$
+
+$$
+  C(\Lambda X) \simeq Tr( C(C)) \simeq Tr (C X)
+  \,.
+$$
+
+which in turn are identified with the $\infty$-version of [[infinity-Hochschild homology]] 
+
+$$
+  Tr(C(X)) := HH_*(C(X)) := C(X) \otimes_{C(X)\otimes C(X)^{op}} C(X)
+$$ 
+
+and [[infinity-Hochschild cohomology]] 
+
+$$
+  Z(C(X)) := HH^*(C(X)) := End_{C(X) \otimes C(X)^{op}}(C(X))
+$$ 
+
+of $X$.
+
+All these statements, powerful as they are, become trivialities, due to the naturality of the language that we are using, once we realize the following:
+
+**homotopy pullbacks and loop space objects**
+
+one of the central crucial facts of 
+[[higher category theory]] is that 
+
+**the fiber product of two points is not the point, but [[loop space object]] based at the point**:
+
+let $x : * \to X$ be a morphism from the terminal object $*$ to some object $X$ in some $\infty$-category, then the $\infty$-categorical pullback of $x$ along itself is the based [[loop space object]] $\Omega_x X$.
+
+$$
+  \array{
+    \Omega_x X &\to& *
+    \\
+    \downarrow &\Downarrow& \downarrow^x
+    \\
+    * &\stackrel{x}{\to}& X
+  }
+  \,.
+$$
+
+This should be intuitively quite clear: the $\infty$-pullback commutes only up to a 2-cell, a homotopy from the constant map on $x$ to the constant map on $x$. But such a homotopy is nothing but a loop in $X$, so $\Omega_x X$ is the object that remembers all possible ways to make this diagram commute up to a 2-cell.
+
+Notice, by the way, that this phenomenon is the source of all "long exact sequences" that you'll ever run into: if we are for instance in a [[stable (infinity,1)-category]], so that the [[terminal object]] $*$ is even a [[zero object]], $* = 0$, then a sequence
+
+$$
+  A \to B \to C
+$$
+
+is _exact_ (a fibration sequence) if the first morphism is the kernel of the second, meaning that we have a pullbacl
+
+$$
+  \array{
+     A &\to& 0
+     \\
+     \downarrow &\Downarrow& \downarrow
+     \\
+     B &\to& C
+  }
+  \,.
+$$
+
+But then, since $\infty$-pullback squares commute just as ordinary pullback squares do, further comuting the kernel of the kernel $A \to B$ does not product 0, as it would in an ordinary [[abelian category]], but produces loops in $C$
+ 
+$$
+  \array{
+     \Omega C &\to&  A &\to& 0
+     \\
+     \downarrow &\Downarrow& \downarrow &\Downarrow& \downarrow
+     \\
+     0 &\to& B &\to& C
+  }
+$$
+
+since the total (outer diagram) is of the form
+
+$$
+  \array{
+     \Omega C &\to& 0
+     \\
+     \downarrow &\Downarrow& \downarrow
+     \\
+     0 &\to& C
+  }
+  \,.
+$$
+
+So 
+
+* **the $\infty$-kernel of an $\infty$-kernel is not 0, but is loops.**
+
+Continuing this way one obtains long exact sequences
+
+$$
+  \array{
+     \Omega B &\to& 0
+     \\
+     \downarrow^{\bar \Omega f} && \downarrow
+     \\
+     \Omega C &\to&  A &\to& 0
+     \\
+     \downarrow &\Downarrow& \downarrow &\Downarrow& \downarrow
+     \\
+     0 &\to& B &\stackrel{f}{\to}& C
+  }
+$$
+
+induced from the single map $f : B \to C$.
+
+For the purposes of geometric $\infty$-function theory what  is more relevant than this construction of based loop spaces as kernels is the constructon of _unbased_ [[loop space object]]s. By a similar reasoning, one finds that the free loop space $\Lambda X$ of a generalized space $X$ is the $\infty$-pullback of the morphism $X \stackrel{Id \times Id}{\to}X \times X$ along itself
+
+$$
+  \array{
+     \Lambda X &\to& X
+     \\
+     \downarrow && \downarrow^{Id \times Id}
+     \\
+     X &\stackrel{Id \times Id}{\to}& X \times X
+  }
+$$
+
+The intuitive reasoning is the same as before, only that now we don't fix a single point. For descriptions and examples for how to explicitly compute these loops space objects by [[homotopy limit]]s see the examples listed at
 
 * [[loop space object]]
 
-* [[constant infinity-stack]]
+* [[homotopy limit]]
+
+* [[span trace]]
+
+* [[co-span co-trace]]
+
+* [[generalized universal bundle]].
+
+Notice that when we speak of "homotopy" in the above, we mean _categorical homotopies_. These loop space constructions see only homotopies which actually exist as _morphism_s. If it is isn't clear what is meant by that statement, see the discusssion at [[constant infinity-stack]] for the two different perspective on a [[topological space]], once as a categorically discrete but topologically non-discrete object, once as a topologically discrete but categorically non-discrete object. 
+
+In order for the above homotopy pullbacks to compute the intended loop spaces of topological spaces, these topological spaces need to be regarded as the (topologiccally discrete!) [[infinity-groupoid]]s they correspond to, i.e. as [[constant infinity-stack]]s.
+
+Now, with the understanding of [[loop space object]]s as homotopy pullbacks understood, the above statement about $\infty$-Hochschild (co)homology becomes essentially a triviality:
+
+we have
+
+$$
+  \begin{aligned}
+     C(\Lambda X) \simeq 
+     C(X \times_{X \times X} X)
+     &
+     by\;\; loop \;\;space\;\; as \;\;homotopy\;\; pullback
+     \\
+     \cdots \simeq C(X) \times_{C(X)\times C(X)} C(X)
+     &
+     by \;\;fundamental \;\;theorem \;\;of\;\; geometric \infty-function\;\; theory
+     \\
+     \cdots \simeq HH_*(C(X)) :=: Tr(C(X))
+     &
+     by \;\;definition \;\;of \;\;trace/ Hochschild homology
+  \end{aligned}
+$$
+
+or equivalently
+
+$$
+  \begin{aligned}
+     C(\Lambda X) \simeq 
+     C(X \times_{X \times X} X)
+     &
+     by \;\;loop\;\; space\;\; as\;\; homotopy\;\; pullback
+     \\
+     \cdots \simeq Fun_{C(X)}(C(X), C(X))
+     &
+     by \;\;fundamental \;\;theorem \;\;of \;\;geometric \infty-function \;\;theory
+     \\
+     \cdots \simeq HH^*(C(X)) :=: Z(C(X))
+     &
+     by \;\;definition \;\;of \;\;center/Hochschild cohomology
+  \end{aligned}
+$$
+
 
 
 #### 2.5 $E_n$-structures ####
@@ -579,6 +768,15 @@ Morphisms from the [[fundamental infinity-groupoid]] are also called [[local sys
 * [[operad]]
 
   * [[category over an operad]]
+
+
+* [[algebra in an (infinity,1)-category]]
+
+  * [[A-infinity ring]]
+
+* [[commutative algebra in an (infinity,1)-category]]
+
+  * [[E-infinity ring]]
 
 
 ### 3. perfect stacks ###
