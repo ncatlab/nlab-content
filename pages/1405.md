@@ -18,4 +18,6 @@ Discussion on a previous version of this entry:
 
 _Toby_:  But what about 'globular $\omega$-category' and things like that?  Doesn\'t 'simplicial $\omega$-category' fit right into that framework?  This page title sounds like an entire framework for defining $\omega$-category rather than a single $\omega$-category simplicially defined.
 
+[[Urs Schreiber|Urs]]: i am open to suggestions -- but notice that it does indeed seem to me that Dominic Verity wants to express  "an entire framework for defining $\omega$-category", namely the framework where one skips over the attempt to define $\omega$-categories and instead tries to find a characterization of what should be their nerves.
+
 =--
