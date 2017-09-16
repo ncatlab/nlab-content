@@ -7,11 +7,10 @@ This way vectorial bundles lend themselves to the description of [[K-theory]]. I
 
 # Definition #
 
-Let $H$ be a separable [[Hilbert space]]. Let $U(H)$ be the [[group]] of unitary operators on $H$ and $P U(H) := U(H)/U(1)$ the corresponding projective group, i.e. the group of conjugation actions of $U(H)$ on arbitrary operators on $H$.
 
 For $X$ a [[topological space]], the [[category]] $VectrBund(X)$ of **vectorial bundles** on $X$ has
 
-* as objects $(E \stackrel{h}{\to} E)$ Hermitean $\mathbb{Z}_2$-graded [[vector bundle]]s $E\to X$ equipped with a self-adjoint [[endomorphism]] $h$ of odd degree. In [[matrix calculus]]
+* as objects $(E \stackrel{h}{\to} E)$ finite rank Hermitean $\mathbb{Z}_2$-graded [[vector bundle]]s $E\to X$ equipped with a self-adjoint [[endomorphism]] $h$ of odd degree. In [[matrix calculus]]
 
   $$
     E = \left( 
@@ -45,27 +44,7 @@ For $X$ a [[topological space]], the [[category]] $VectrBund(X)$ of **vectorial 
     }
     \,,
   $$
-  where two such maps are regarded as equivalent, $\phi \sim \phi'$,  already if they coincide on a spectral neighbourhood of 0 of $h^2$ at each point.
-
-Here the last condition in detail means the following:
-
-For each point $x \in X$, and each $\mu \in \mathbb{R}$_+ let 
-
-$$
-  E_x|_{\lt \mu}
-  :=
-  \oplus_{\lambda \leq  \mu}
-   ker(h_y^2 - \lamda)
-  = 
-  \oplus_{\lambda \lt \mu }
-  \{
-    v \in E_x | h_x^2 v = \lambda v
-  \}
-$$
-
-be the subspace of the fiber $E_x$ of vectors with eigenvalue under $h_x^2 : E_x \to E_x$ less than $\mu$.
-
-$\phi$ and $\phi'$ are identified already if on vectors $v$ with eigenvalue bounded by a positive number.
+  where two such maps are regarded as equivalent, $\phi \sim \phi'$,  already if they coincide on  the kernel of $h^2_x$ for each point $x$.
 
 In particular, we have the following two important special cases:
 
