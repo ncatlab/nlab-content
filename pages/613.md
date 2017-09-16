@@ -39,6 +39,8 @@ There are now uses of models of $n$-types in areas of homological algebra.
 
 +--{.query}
 *[[Ronnie Brown|Ronnie]] The question remains: what is such a construction supposed to do? Ideas on this might lead to restrictions on or possibilities for the construction, and comparisons with known constructions. 
+
+[[Urs Schreiber]]: I had meanwhile had a long private discussion with Ronnie about this by private email. This showed that more discussion here about the notion of fundamental $\infty$-groupoids in homotopy theory should eventually be given here.
 =--
 #References#
 
