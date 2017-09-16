@@ -1,5 +1,10 @@
 **Base change** is another term for [[pullback]] of a morphism:
 
++--{+ .query}
+((Zoran)) This is too narrow understanding of "base change". Base is an object over which we work, for example base scheme, base field and so on. One has a category living over it, which is
+typically a fiber in a (co)fibered category, or some analogue, possibly higher categorical. Base change means replacing original fiber and its projection by the ones from the inverse image in the sense of whatever fibered category-like thing we have. If the fibered category is the codomain fibration of the arrow category then we get what is described in this post. But many other fibered categories are interesting and one still talks about base change (truly in those situations one may also talk about "pullback", but it is less customary; "inverse image functor" in my understanding then refers then to the functor from fiber to the fiber over the new base, not to the projection of the new fiber, nor the new fiber itself).
+=--
+
 if
 
 $$
