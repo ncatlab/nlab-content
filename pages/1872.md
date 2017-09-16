@@ -1,6 +1,6 @@
 
 
-The _Yang-Mills field_ is the [[gauge theory|gauge field]] of [[Yang-Mills theory]]. 
+The _Yang--Mills field_ is the [[gauge theory|gauge field]] of [[Yang-Mills theory]]. 
 
 It is modeled by a cocycle $\hat F \in \mathbf{H}(X,\bar \mathbf{B}U(n))$ in differential [[nonabelian cohomology]]. Here $\bar \mathbf{B} U(n)$ is the [[groupoid of Lie-algebra valued forms]], regarded as a [[groupoid]] [[internal category|internal to]] [[smooth space]]s .
 
