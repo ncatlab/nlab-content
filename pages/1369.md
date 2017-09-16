@@ -105,3 +105,8 @@ Here $\Delta$ is the [[simplex category]] and $N(\Delta)$ its [[nerve]].
 this is definition 1.1.2 in 
 
 * [[Jacob Lurie]], _Noncommutative algebra_ ([pdf]())
+
+
+[[!redirects monoidal (infinity,1)-categories]]
+[[!redirects monoidal (∞,1)-category]]
+[[!redirects monoidal (∞,1)-categories]]
