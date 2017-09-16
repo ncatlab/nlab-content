@@ -183,7 +183,7 @@ The first case corresponds to periodic [[integral cohomology]]. The second corre
 
 It is therefore natural to subsume all elliptic cohomology theories into one single cohomology theory. This is the theory called [[tmf]].
 
-It turns out that the right way to formalize what "subsume" means in the above sentence involves formulating the way in which an [[elliptic cohomology]] theory is associated to a given [[eliptic curve]] in the correct [[higher category theory|higher categorical]] language:
+It turns out that the right way to formalize what "subsume" means in the above sentence involves formulating the way in which an [[elliptic cohomology]] theory is associated to a given [[elliptic curve]] in the correct [[higher category theory|higher categorical]] language:
 
 The collection of all 1-dimensional [[elliptic curve]]s forms a generalized [[space]] $M_{1,1}$ -- a [[stack]] -- defined by the property that it is the [[classifying space]] for elliptic curves in that elliptic curves over a ring $R$ correspond to classifying maps $\phi : Spec R \to M_{1,1}$.
 
