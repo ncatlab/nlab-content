@@ -136,6 +136,8 @@ See for instance also
 
 * Nicola Gambino, _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf))
 
+In some nice cases the weight $N(K/-)$ can be replaced by a simpler weight, an example is discussed at [[Bousfield-Kan map]].
+
 ### Homotopy pullback ###
 
 For instance in the case that 
