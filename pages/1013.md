@@ -82,19 +82,19 @@ Property-like structure becomes much more prevalent for higher categories.  For 
 
 Just as the category [[Set]] has the best known $2$-way [[factorization system|factorisation system]], in which every [[function]] is factored into a [[surjection]] followed by an [[injection]], so the [[2-category]] [[Cat]] has a $3$-way factorisation system, in which every functor is factored into parts which forget 'purely' stuff, structure, and properties.
 
-Specifically, given a functor $F: C \to D$, let the __$1$-[[image]]__ $1im F$ of $F$ be the category whose objects are objects of $C$ and whose morphisms $x \to y$ are morphisms $F(x) \to F(y)$ in $D$; let the __$2$-image__ $2im F$ of $F$ be the category whose objects are objects of $C$ and whose morphisms $x \to y$ are morphisms $b: F(x) \to F(y)$ in $D$ such that $b = F(a)$ for some $a: x \to y$ in $C$.  (So the only difference bewteen $2im F$ and $C$ itself is equality of morphisms.)  If you want to be complete, call $C$ itself the __$3$-image__ of $F$ and $D$ the __$0$-image__.
+Specifically, given a functor $F: C \to D$, let the __$1$-[[image]]__ $1 im F$ of $F$ be the category whose objects are objects of $C$ and whose morphisms $x \to y$ are morphisms $F(x) \to F(y)$ in $D$; let the __$2$-image__ $2 im F$ of $F$ be the category whose objects are objects of $C$ and whose morphisms $x \to y$ are morphisms $b: F(x) \to F(y)$ in $D$ such that $b = F(a)$ for some $a: x \to y$ in $C$.  (So the only difference bewteen $2 im F$ and $C$ itself is equality of morphisms.)  If you want to be complete, call $C$ itself the __$3$-image__ of $F$ and $D$ the __$0$-image__.
 
 The situation looks like this:
 
 | This category ... | gets objects from ... | and morphisms from ... | and equality of morphisms from ... |
 | ----------------- | --------------------- | ---------------------- | ---------------------------------- |
 | $C$               | $C$                   | $C$                    | $C$                                |
-| $2im F$           | $C$                   | $C$                    | $D$                                |
-| $1im F$           | $C$                   | $D$                    | $D$                                |
+| $2 im F$          | $C$                   | $C$                    | $D$                                |
+| $1 im F$          | $C$                   | $D$                    | $D$                                |
 | $D$               | $D$                   | $D$                    | $D$                                |
 
 Then $F$ can be factored into functors
-$$ C \to^{F_2} 2im F \to^{F_1} 1im F \to^{F_0} D ,$$
+$$ C \stackrel{F_2}\to 2 im F \stackrel{F_1}\to 1 im F \to^{F_0} D ,$$
 where $F_2$ forgets purely stuff, $F_1$ forgets purely structure, and $F_0$ forgets only properties.
 
 
