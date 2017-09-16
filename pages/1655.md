@@ -9,14 +9,8 @@ $$\{(u, v) \in X \times X: u - v \in U\}$$
 
 Thus a host of uniform notions (uniform continuity, completeness, etc.) carry over to the TVS context. Also from the uniformity (although it is also easy to prove directly), it follows that a TVS is completely regular, and also Hausdorff if and only if it is $T_0$. Most authors insist on the $T_0$ condition to rule out degenerate cases, but that prevents the category of TVSes from being [[topological concrete category|topological]] over [[Vect]].
 
-+-- {: .query}
-I have stopped us from assuming that $X$ is Hausdorff, not only for the reason just cited, but also to keep in line with our definitions of [[topological group]], [[compact space]], and so forth, which are also sometimes (but not here) required to be Hausdorff.  (To be sure, we didn\'t change, for example, [[Banach space]] so that it doesn\'t have to be Hausdorff, but that\'s because we have the terms 'pseudonormed vector space' and 'complete pseudonormed vector space' if we want them.)  ---Toby 
-
-Okay, that makes sense. ---Todd
-=--
-
 The condition that scalar multiplication is continuous puts significant constraints on the topology of $X$. For example, [[locally compact space|local compactness]] of $k$ implies, when $V$ is Hausdorff, that for any non-zero $v \in X$ the function 
 $$- \cdot v: k \to V$$ 
-maps $k$ [[homeomorphism|homeomorphically]] onto its image. It follows quickly that $X$ cannot (for instance) be [[compact space|compact]] (unless it is the zero space and so has no non-zero $v$); a classical theorem along these lines is that $V$ can be locally compact Hausdorff if and only if $V$ is finite-dimensional. On the other hand, a TVS is [[path-connected space|path-connected]]. 
+maps $k$ [[homeomorphism|homeomorphically]] onto its image. It follows quickly that $X$ cannot (for instance) be [[compact space|compact]] (unless it is the zero space and so has no non-zero $v$); a classical theorem along these lines is that $V$ can be locally compact Hausdorff if and only if $V$ is finite-dimensional. (In the non-Hausdorff case, the theorems are that $X$ is compact if and only if its topology is indiscrete and that $X$ is locally compact if and only if it is a finitary [[direct sum]] of indiscrete spaces.) On the other hand, a nice property of even infinite-dimensional TVSes is that they are [[path-connected space|path-connected]]. 
 
 More classical material should be added, particular on locally convex TVSes, and so much more. 
