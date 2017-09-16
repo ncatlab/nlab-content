@@ -1,6 +1,6 @@
 # Definition #
 
-A category is **balanced** if every [[bimorphism]] (a morphism which is both [[monomorphism|monic]] and [[epimorphism|epic]]) is an [[isomorphism]].
+A category is **balanced** if every [[monomorphism|monic]] [[epimorphism|epic]] morphism is an [[isomorphism]].
 
 +--{: .query}
 [[Mike Shulman|Mike]]: I don't like the word "bimorphism."  If I've been thinking about [[bicategory|bicategories]] then it sounds like something that is "a morphism up to isomorphism," while if I've been thinking about [[biproduct|biproducts]] it sounds like something that is "both a morphism and a comorphism."  Are monic epics really an important enough concept to deserve its own word?  Can't we just say "monic and epic" or even just "monic epic"?
