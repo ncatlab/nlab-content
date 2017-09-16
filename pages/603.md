@@ -1,5 +1,8 @@
-[[!redirects hyperstructural]]
-[[!redirects hyperstructures]]
+
+#Content#
+
+* automatic table of contents goes here
+{:toc}
 
 #Idea#
 
@@ -703,3 +706,6 @@ and we can now glue this to another interval along the point $1$, obtaining a we
 [[Urs Schreiber|Urs]]: true. I need to think about a nice way to formalize such a cancellation.
 
 =--
+
+[[!redirects hyperstructural]]
+[[!redirects hyperstructures]]
