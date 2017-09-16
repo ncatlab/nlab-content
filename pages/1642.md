@@ -2,6 +2,9 @@ A semigroup is like a [[monoid]] where there might not be an [[identity element]
 
 Some semigroups happen to be monoids; even then, a semigroup homomorphism might not be a monoid homomorphism (because it might not preserve the identity element).  Nevertheless, semigroup [[isomorphisms]] must be monoid isomorphisms.  Thus, the identity element of a monoid forms a [[property-like structure]] on the underlying semigroup.
 
+As a monoid is a [[category]] with one object, so a semigroup is a [[semicategory]] with one object.
+
+
 # Attitudes Toward Semigroups #
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://math.ucr.edu/home/baez/centipede.jpg" alt="" width="208" height="150" /></div>
@@ -14,6 +17,9 @@ However, a semigroup can be promoted to a monoid by adjoining a new element and 
 
 What is this property?
 =--
+
+On the other hand, analysts run across semigroups often in the wild, and don\'t always want to add formal identities just to turn them into moniods.
+
 
 # Internalization #
 
