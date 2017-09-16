@@ -1,5 +1,5 @@
 
-The following is (supposed to be) a pedagocial motivation of the 
+The following is (supposed to be) a pedagogical motivation of the 
 concepts [[sheaf]], [[stack]], [[infinity-stack]] and
 [[Higher Topos Theory|higher topos theory]]. It assumes 
 only that the reader has a heuristic knowledge of [[topological space]]s
