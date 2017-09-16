@@ -139,6 +139,7 @@ $$
 
 * The free loop space object inherits the structure of an $A_\infty$-[[A-infinity-category|category]] from that of the [[path object]] $[I,B]$. 
 
+* In a [[generalized smooth space|suitable extension]] of $\operatorname{Diff}$, this construction does **not** give the usual _smooth_ loop space (free or based).  It gives the space of paths with coincident endpoints rather than the space of smooth maps from the circle.  Thus the [[smooth loop space]] is not a loop space object.
 
 ##Examples##
 
