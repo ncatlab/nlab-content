@@ -13,11 +13,6 @@ Let $S^n$ be the pointed $n$-[[sphere]], that is an $n$-dimensional real sphere 
 First, the [[constant function]] that maps all of $S^n$ to $a$ is the __null element__ of $\pi_n(X,a)$.  Now, there are $n$ independent equators through the basepoint of $S^n$.  Given two maps $f, g: S^n \to (X,a)$, form their [[coproduct|copairing]] in the category of pointed spaces to get a map $S^n \vee S^n \to (X,a)$ (where $\vee$ indicates the [[wedge sum]]); then combine this with a map $S^n \to S^n \vee S^n$ that maps the $i$th equator to the basepoint and each hemisphere to one copy of the sphere.  The result is a map $S^n \to (X,a)$, called the $i$th __concatenation__ of $f$ and $g$:
 $$S^n \to_i S^n \vee S^n \to^{[f,g]} (X,a)$$
 One can check that this operation respects homotopy equivalence.
-+--{.query}
-[[Tim Porter|Tim}}:  Whether the n-independent equators is the best way of doing this is debatable. I prefer to first note that the nth homotopy group is also homotopy classes of maps of an n-cube to X with the boundary mapped to the base point, and then to use concatenation in the different directions to give some compositions, which coincide etc. The advantage is that (and I wonder who I learnt this off!) cubes compose in an obvious way.  The extension to relative homotopy groups, and thus to crossed complexes is then much easier to see.
-
-When one comes to Whitehead products etc, both the sphere based and the cube based descriptions work well, but I think the cube based version has the advantage for this `simple' level. (I agree with your next statement!)
-=--
 
 This seems like quite a complicated kind of structure, but it is actually quite simple up to homotopy.  First of all, all $n$ concatenations of given maps $f$ and $g$ are homotopic, so we speak of simply a single __concatenation__ for $n \geq 1$ (and none for $n = 0$).  By the [[Eckmann-Hilton argument]], this concatenation will be commutative up to homotopy for $n \geq 2$.  In any case, it is associative and invertible up to homotopy, and the null element is an identity up to homotopy.
 
@@ -49,12 +44,3 @@ It was early realised that the fundamental groupoid $\pi_1(X,a)$ operates on the
 A key property of homotopy groups is the _Whitehead theorem_: if $f:X \to Y$ is a map of connected [[m-cofibrant space]]s (spaces each of the homotopy type of a [[CW complex]]), and $f$ induces isomorphisms $\pi_n(X,a) \to \pi_n(Y,f(a))$ for some $a$ and all $n \geq 1$, then $f$ is a [[homotopy equivalence]].
 
 However, the homotopy groups by themselves, even considering the operations of $\pi_1$, do not characterise homotopy types. See also [[algebraic homotopy|algebraic homotopy theory]].
-
-+--{.query}
-But the entire Postnikov tower does characterise weak homotopy types, does it not? (Actually, I shouldn\'t really phrase it that way, since the Postnikov tower as such is a sequence of maps that begins with the space in question.  I mean the homotopy groups together with the Postnikov invariants.) ---Toby
-
-[[Tim Porter|Tim]]:  The Postnikov tower of a space does characterise the weak homotopy type of the space as that is the inverse limit of the tower.  The point is not that however. The homotopy groups plus the 'primary' operations (which include the action of $\pi_1$ and the Whitehead products) still do not determine the weak homotopy type.
-One of the experts on this is David Blanc, see for instance
-http://arxiv.org/abs/math.AT/9803055. He uses a notion of $\pi$-algebra which encodes the groups, the primary operations, (I think that is all) and then searches for obstructions to realising such a system by a homotopy type.
-
-=--
