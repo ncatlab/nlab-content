@@ -77,7 +77,13 @@ Moreover, $\widehat{F}$ is unique up to natural isomorphism.
 =--
 
 
-Our job is to understand how to construct this $\widehat{F}$.  But before we do that:
+Our job is to understand how to construct this $\widehat{F}$.  
+
++--{.query}
+[[Eric]]: Will this also help us understand [[An Exercise in Kantization]]?
+=--
+
+But before we do that:
 
 ####Why do we care?####
 
