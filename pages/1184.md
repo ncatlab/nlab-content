@@ -28,6 +28,8 @@ I think the reason there is a hyphen in well-founded is that there is no notion 
 _Toby_:  The adjective 'well' doesn\'t only mean healthy, it also means good in condition (as opposed to good in action for 'good' used more particularly).  However, I think that you\'re correct that, in origin, the 'well' here is the adverb.  From the 1913 Merriam-Webster (under 'ill' but cited also at 'well'):
 >_Ill_, like _above_, _well_, and _so_, is used before many participal adjectives, in its usual adverbal sense.  When the two words are used as an epithet preceding the noun qualified they are commonly hyphened; in other cases they are written separatively; as, an ill-educated man; he was ill educated; an ill-formed plan; the plan, however ill formed, was acceptable.
 But I still think that we can regain grammatical propriety in the back formation by *reinterpreting* 'well' as an adjective and removing the hyphen.  (I suppose that there\'s also the point of view that 'well-ordering' in the gerund of the verb 'to well-order', meaning the same as 'to order well', so that we should use that.)
+
+_Mike_: I think the real problem is that "well-ordered" was a bad choice of terminology to begin with.  But rather than try for complete grammatical propriety I think it is probably better to accord with the most common usage, which may be to include the hyphen.
 =--
 
 # Examples #
