@@ -1,10 +1,10 @@
 #Idea#
 
-A _$\sigma$-model_ is a [[quantum field theory]]  which is indced from a _target space_ that carries some geometric structure, usually that of an [[schreiber:Differential Nonabelian Cohomology|n-bundle with connection]] representing a gauge background field.
+A _$\sigma$-model_ is a [[quantum field theory]]  which is induced from a _target space_ that carries some geometric structure, usually that of an [[schreiber:Differential Nonabelian Cohomology|n-bundle with connection]] representing a gauge background field.
 
 The _fields_ of a $\sigma$-model on parameter space $\Sigma$ are maps from $\Sigma$ to target space $X$.
 
-One way to make this precise for _topological_ $\sigma$-models is to say that target soace $X$, or possibly the gauge bundle $P \to X$ over it, [[representable functor|represents]] an functor that sends [[cobordism]] [[cospan]]s to [[span]]s which in turn are taken to act by pull-push on the quantum states, which are objects in [[geometric infinity-function theory]] living over the mapping spaces $[\Sigma, P]$.
+One way to make this precise for _topological_ $\sigma$-models is to say that target space $X$, or possibly the gauge bundle $P \to X$ over it, [[representable functor|represents]] an functor that sends [[cobordism]] [[cospan]]s to [[span]]s which in turn are taken to act by pull-push on the quantum states, which are objects in [[geometric infinity-function theory]] living over the mapping spaces $[\Sigma, P]$.
 
 ## Physical interpretation ##
 
