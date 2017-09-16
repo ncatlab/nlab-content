@@ -26,3 +26,5 @@
   * [[NQ-supermanifold]]
 
   * [[integration over supermanifolds]]
+
+* [[information geometry]]
