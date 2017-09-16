@@ -1,3 +1,2 @@
-See [[CartSp]].
-
-category: redirect
+&lt; [[CartesianSpaces]]
+[[!redirects CartesianSpaces -- history]]
