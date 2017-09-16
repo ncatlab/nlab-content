@@ -1,2 +1,1 @@
-[[!redirects Dwyer-Kan localisation]]
-see [[simplicial localization]]
+&lt; [[Dwyer-Kan localisation]]
