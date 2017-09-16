@@ -15,7 +15,7 @@ One of the tools of topology, [[homotopy theory]], has long since crossed the bo
 * [[sphere]], [[Sierpinski space]]
 * [[pointed space]], [[contractible space]], [[connected space]], [[loop space]], [[second countable space]]
 * [[convergence space]], [[pretopological space]], [[pseudotopological space]]
-* [[metric space]], [[filtered space]], [[connected filtered space]], [[complete space]], [[net]]
+* [[metric space]], [[filtered space]], [[connected filtered space]], [[complete space]], [[net]], [[Polish space]]
 * [[separation axioms]], [[Hausdorff space]], [[regular space]], [[normal space]]
 * [[noetherian topological space]], [[irreducible topological space]], [[ringed space]], [[site]], [[cover]], [[locale]]
 * [[compact space]], [[locally compact space]], [[compactum]], [[paracompact space]]
