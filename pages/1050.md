@@ -46,4 +46,6 @@ for instance section 3.3 of
 
 
 [[!redirects left exact functor]]
+[[!redirects lex functor]]
 [[!redirects right exact functor]]
+[[!redirects rex functor]]
