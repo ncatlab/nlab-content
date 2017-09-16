@@ -39,7 +39,7 @@ This description should be compared with the analogous description of the [[acti
 
 This statement is for instance of great relevance (while very secretly hidden underneath the surface) in section 8.4 of 
 
-* Daniel S. Freed, Michael J. Hopkins, Jacob Lurie, Constantin Teleman, _Topological Quantum Field Theories from Compact Lie Groups_ ([arXiv](http://arxiv.org/abs/0905.0731))
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ ([arXiv](http://arxiv.org/abs/0905.0731))
 
 
 
