@@ -1,3 +1,2 @@
-See [[derived stack]].
-
-category: redirect
+&lt; [[derived infinity-stack]]
+[[!redirects derived infinity-stack -- history]]
