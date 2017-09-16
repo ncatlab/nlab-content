@@ -5,6 +5,10 @@ For the moment, all we have here is an expository piece:
 
 * [[basic ideas of moduli stacks of curves and Gromov-Witten theory]]
 
+And this introductory bit on the [[moduli stack]] of [[elliptic curve]]s:
+
+* [[A Survey of Elliptic Cohomology - elliptic curves]]. 
+
 #References #
 
 * M. Kontsevich, Yu. Manin, _Gromov-Witten classes, quantum cohomology, and enumerative geometry_, Comm. Math. Phys. 164 (1994), no. 3, 525--562 ([euclid](http://projecteuclid.org/euclid.cmp/1104270948)).
