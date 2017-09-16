@@ -21,7 +21,14 @@ $$
 
 
 For presheaves with values in categories other than
-[[Set]], sheafification is usually a difficult problem. 
+[[Set]], sheafification may be a difficult problem, unless one has some extra assumptions. 
+
+
+### Sheafification with values in models for finit-limit theories ###
+
+Consider a type of structure $T$ defined in terms of finite limits (such as groups, algebras, modules, etc.), then [[internal logic|internal]] $T$-models are preserved by both direct and inverse images of geometric morphisms.  Therefore, the adjunction between sheaves and presheaves of sets directly induces an adjunction between $T$-models in sheaves and presheaves.  And since finite limits of sheaves and presheaves are computed pointwise, $T$-models in the category of (pre)sheaves are the same as (pre)sheaves of $T$-models-in-$Set$.
+
+### Sheafification using IPC-property
 
 If a [[category]] $A$ satisfies the following assumptions, sheafification of presheaves in $[S^{op}, A]$ exists and is constructed analgously as for [[Set]]-valued sheaves.
 
@@ -39,7 +46,10 @@ This is true for instance for
 
 * the category $k-Alg$ of $k$-algebras;
 
-* the category $Mod(R)$ of [[module]]s.
+* the category $Mod(R)$ of [[module]]s,
+
+(but all of these are also $T$-models for finite-limit theories $T$).
+
 
 
 +--{+ .query}
@@ -50,6 +60,11 @@ Osdol's  work.
 [[Mike Shulman|Mike]]: Another way to think about this is: if you have a type of structure $T$ defined in terms of finite limits (such as groups, algebras, modules, etc.), then [[internal logic|internal]] $T$-models are preserved by both direct and inverse images of geometric morphisms.  Therefore, the adjunction between sheaves and presheaves of sets directly induces an adjunction between $T$-models in sheaves and presheaves.  And since finite limits of sheaves and presheaves are computed pointwise, $T$-models in the category of (pre)sheaves are the same as (pre)sheaves of $T$-models-in-$Set$.
 
 If $T$ is _not_ defined in terms of finite limits, then internal $T$-models in sheaves need not be the same as sheaves of $T$-models-in-$Set$.  My intuition would be that the former, rather than the latter, is the more interesting and important notion.  For instance, a local ring in a topos of sheaves is a sheaf of rings whose _stalks_ are local, rather than a sheaf taking values in the category of local rings, and this is usually what people care about.  But since people have studied the other version, there must be important examples of it as well?
+
+[[Urs Schreiber|Urs]]: okay, I have added this
+to the above now -- so is the IPC-property business
+really unnecessary for the examples above?
+
 =--
 
 
@@ -97,4 +112,4 @@ The description of sheafification in terms of local isomorphisms is in section 1
 
 The description in terms of [[dense monomorphism]]s using [[Lawvere-Tierney topology]] is in section V.3 of
 
-* MacLan, Moerdijk, [[Sheaves in Geometry and Logic]]
+* MacLane, Moerdijk, [[Sheaves in Geometry and Logic]]
