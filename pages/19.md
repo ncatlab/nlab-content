@@ -34,7 +34,20 @@ A probably incomplete list is:
 Most of these include some [[higher category theory]]. Some would define category theory as the human activity of [[category theorists]].
 
 #Contrast with set theory#
-...
+Here set theory is assumed to be a theory of the usual concept of sets. No one of these is more fundamental than the other. Category theory is a holistic (structural) approach to mathematics that can by [[Algebraic set theory]] reproduce all the different axiomatic set theories and do not need the concept of set to be formulated. Set theory is an analytic approach (elementwise) that can reproduce category theory by Lawvere's [[Elementary theory of abstract categories]]. Lawvere also pointed out that set theory is axiomatized by a binary membership relation while category theory is axiomatized by a ternary composition relation.
+
+For more on this and for the many different generalized sets see
+
+* Sets, categories and structuralism - Costas Drossos
+
+#Literature#
+* Categories for the working mathematician 2'nd ed. - Saunders Mac Lane
+* Categories for everybody- Steve Awodey
+* Handbook of categorical algebra vol 1-3 - Francis Borceux
+* Categories and sheaves - Masaki Kashiwara and Pierre Schapira
+* Elementary categories, elementary toposes - Collin McLarty
+* Abstract and concrete categories - the joy of cats - Jiri Adamek, Horst Herrlich, George Strecker
+
 
 #Category theory entries#
 * [[(-1)-category]]
