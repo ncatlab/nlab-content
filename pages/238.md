@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-29 #
 
+* [[Zoran Škoda]]: created [[enhanced triangulated category]]
+
 * [[Urs Schreiber|Urs]]:
  
   * filled the "details" section at [[descent for simplicial presheaves]] with the relevant material copy-and-pasted from [[descent]].
@@ -28,6 +30,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * I've noticed that Urs (in particular) has been widely using the notation $(f,g)$ for [[comma category|comma categories]] that Toby tried to prevent me from denigrating.  But I haven't heard any convincing arguments in favor of that notation, and I have lots of reasons to dislike it; see the discussion at [[comma category]].  If general opinion is against me, I'll shut up, but I want to hear from more people.  If you use the notation $(f,g)$, do you have positive reasons to prefer it to $(f/g)$ or $(f\downarrow g)$?
 
     * [[Urs Schreiber|Urs]]: to be frank, I used it without thinking much about it. Which of the other two is your favorite? By the way, Kashiwara-Schapira use $M[C\stackrel{f}{\to} E \stackrel{g}{\leftarrow} D]$. Maybe $comma[C\stackrel{f}{\to} E \stackrel{g}{\leftarrow} D]$? Lengthy, but at least unambiguous. Or maybe ${}_f {E^I}_g$? 
+
+   * [[Zoran Skoda]]: $(f/g)$ or $(f\downarrow g)$ are the only two standard notations nowdays, I think the original
+$(f,g)$ which was done for typographical reasons in archaic period is abandonded by the LaTeX era. $(f/g)$ is more popular among practical mathematicians, and special cases, like when $g = id_D$) and $(f\downarrow g)$ among category experts...other possibilities for notation should be avoided I think. 
 
 # 2009-04-28 #
 
