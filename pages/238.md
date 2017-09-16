@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-14 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * added a little proposition to [[dependent product]] and a little example to [[geometric morphism]]
+
 *  [[Tim Porter|Tim]]: I have given a partial reply to [[Urs Schreiber|Urs]] question at [[homotopy coherent nerve]].
 
 
