@@ -24,7 +24,7 @@ The elementary definitions above have been carefully phrased to be correct in [[
 
 1. The [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ is connected.
 
-1. Wide [[pushout]]s (that is [[cofibered coproduct]]s) of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Top$ commute with wide pullbacks ([[fibered product]]s). More memorably: connected colimits of connected spaces are connected. 
+1. [[cofibered coproduct|Wide pushout]]s of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Top$ commute with [[wide pullback]]s. More memorably: connected colimits of connected spaces are connected. 
 
 1. An arbitrary [[product]] of connected spaces is connected.
 
