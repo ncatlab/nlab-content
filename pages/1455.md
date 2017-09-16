@@ -22,6 +22,9 @@ The [[Eilenberg–Moore category]] of $T$ is the category of these algebras.
 
 
 [[!redirects algebra of an endofunctor]]
+[[!redirects algebra of a functor]]
+[[!redirects algebra for a functor]]
+
 [[!redirects algebra of a monad]]
 [[!redirects algebra for a monad]]
 [[!redirects algebra over a monad]]
