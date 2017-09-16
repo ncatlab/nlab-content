@@ -6,7 +6,7 @@
 
 
 
->The material that should go here is, for some reason, still to some extent at [[generalized tangle hypothesis]]. You should go there to learn more. Better yet, you go there and then come back here to create a decent entry on the cobordisms hypothesis.
+>some material that should go here is, for some reason, still to some extent at [[generalized tangle hypothesis]]. You should go there to learn more. Better yet, you go there and then come back here to create a better entry on the cobordisms hypothesis.
 
 
 #Contents#
@@ -46,7 +46,7 @@ In
 
 a formalization and proof of the cobordism hypothesis is indicated.
 
-This uses the languge of [[(infinity,n)-category|(∞,n)-categories]] modeled as [[n-fold complete Segal space]]s and a cocrete realization of the [[(∞,n)-category of cobordisms]] in this context.
+This uses the languge of [[(infinity,n)-category|(∞,n)-categories]] modeled as [[n-fold complete Segal space]]s and a concrete realization of the [[(∞,n)-category of cobordisms]] in this context.
 
 What is not yet described in detail it what it means for an $(\infty,n)$-category to be a [[symmetric monoidal category]] but by comparison with the defintion of [[symmetric monoidal (∞,1)-category]] one can see what that would be.
 
@@ -57,11 +57,11 @@ The precise formulation of the cobordism hypothesis then takes the form of the f
 +-- {: .un_theorem }
 ###### Theorem (cobordism hypothesis, framed version)
 
-Let $C$ by a [[symmetric monoidal (infinity,n)-category|symmetric monoidal]] [[(∞,n)-category]] [[(infinity,n)-category with duals|with duals]] and $Core(C)$ its [[core]] (the maximal [[infinity-groupoid]] in $C$).
+Let $C$ by a [[symmetric monoidal (infinity,n)-category|symmetric monoidal]] [[(∞,n)-category]] [[(infinity,n)-category with duals|with duals]] and $Core(C)$ its [[core]] (the maximal [[∞-groupoid]] in $C$).
 
 Let $Bord_n^{fr}$ be the [[symmetric monoidal (infinity,n)-category|symmetric monoidal]] [[(infinity,n)-category of cobordisms|(∞,n)-category of cobordisms]].
 
-Finally let $Fun^\otimes(Bord_n^{fr} , C )$ be the [[(infinity,n)-category]] of symmetric monoidal $(\infinity,n)$-functors from bordisms to $C$.
+Finally let $Fun^\otimes(Bord_n^{fr} , C )$ be the [[(∞,n)-category]] of symmetric monoidal $(\infinity,n)$-functors from bordisms to $C$.
 
 Evaluation of any such functor $F$ on the [[point]] ${*}$
 
@@ -106,9 +106,9 @@ In fact, the Galatius-Madsen-Weiss theorem is now supposed to be a corollary of 
 
 ## Implication: morphisms of TQFTs ##
 
-In particular this means that $Fun^\otimes(Bord_n^{fr} , C )$ is itself an $(\infinity,0)$-category, i.e. an [[infinity-groupoid]].
+In particular this means that $Fun^\otimes(Bord_n^{fr} , C )$ is itself an $(\infinity,0)$-category, i.e. an [[∞-groupoid]].
 
-When interpreting symmetric monoidal functors from bordisms to $C$ as [[TQFT]]s this means that TQFTs with given codomain $C$ form a [[topological space|space]], an [[infinity-groupoid]]. In particular, any two of them are either equivalent or have no morphism between them.
+When interpreting symmetric monoidal functors from bordisms to $C$ as [[TQFT]]s this means that TQFTs with given codomain $C$ form a [[topological space|space]], an [[∞-groupoid]]. In particular, any two of them are either equivalent or have no morphism between them.
 
 According to [[Chris Schommer-Pries]] interesting morphisms of [[TQFT]]s arise when looking at transformations only on sub-categories on all of $Bord_n$. This is described at [[QFT with defects]] .
 
@@ -137,20 +137,30 @@ Notice that there is an important subtlety of Lurie's theorem in the case of man
 
 # References #
 
-Apart from 
+The original hypothesis is in 
+
+*  [[John Baez]], [[James Dolan]], _Higher dimensional algebra and Topological Quantum Field Theory_ ([arXiv](http://arxiv.org/abs/q-alg/9503002))
+
+The sketch of the proof is in 
 
 * [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]
 
-see also
+Parts of the above text have been taken from blog discussion [here](http://sbseminar.wordpress.com/2009/09/24/a-hunka-hunka-burnin-knot-homology).
+
+
+# Recorded lectures #
+
+A videa of Lurie lecturing on his theorem is here:
 
 * [[Jacob Lurie]], _TQFT and the Cobordism Hypothesis_ ([video](http://www.ma.utexas.edu/video/dafr/lurie/), [notes](http://www.ma.utexas.edu/users/plowrey/dev/rtg/notes/perspectives_TQFT_notes.html))
 
-Parts of the above text have been taken from blog discussion [here](http://sbseminar.wordpress.com/2009/09/24/a-hunka-hunka-burnin-knot-homology).
 
-Other blog discussion is for instance here:
+Notes from a [lecture series](http://golem.ph.utexas.edu/category/2009/10/seminar_on_cobordism_and_topol.html) organized by [[Julie Bergner]] are here:
 
+* [lecture 1](http://math.ucr.edu/~alex/cobordism_lecture1.pdf)
 
-* [Caf&eacute;](http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html#c006381)
+* [lecture 2]()
+
 
 
 
