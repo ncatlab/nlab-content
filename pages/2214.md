@@ -33,9 +33,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-11
 
-* [[Andrew Stacey]] there's a discussion going on at the forum about designing a better system for recording these latest changes.  If you have an opinion, please contribute!  At the moment, it's going on what Toby, Mike, and I think which may not be a representable sample.
+* [[Andrew Stacey]] there's a [discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64) going on at the forum about designing a better system for recording these latest changes.  If you have an opinion, please contribute!  At the moment, it's going on what Toby, Mike, and I think which may not be a representable sample.
 
-   Also, there was a brief glitch in the system that led to entities begin translated into their unicode counterparts (don't worry if that doesn't make sense).  Unfortunately, this wasn't compatible with iTeX and there may be a few 'Unknown character's lurking around.  If you spot one, let me know and I'll go catch it with my butterfly net.  (It's important to let me know rather than just correcting it yourself as it _really_ messes up the `diff`s so I need to fix it properly rather than just papering over the cracks.)
+   Also, there was a brief glitch in the system that led to entities begin translated into their unicode counterparts (don't worry if that doesn't make sense).  Unfortunately, this wasn't compatible with iTeX and there may be a few 'Unknown character's lurking around.  If you spot one, [let me know](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=65) and I'll go catch it with my butterfly net.  (It's important to let me know rather than just correcting it yourself as it _really_ messes up the `diff`s so I need to fix it properly rather than just papering over the cracks.)
 
 *  [[Toby Bartels]]:
    *  A bit at [[lax natural transformation]], which I really only mention since it\'s been discussed so much lately.
