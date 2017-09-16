@@ -1,3 +1,6 @@
+[[!redirects graph of a relation]]
+[[!redirects graph of a function]]
+
 ## Idea ##
 
 To the best of my re$^*$collection, it went a bit like this:
