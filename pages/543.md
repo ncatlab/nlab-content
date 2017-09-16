@@ -77,5 +77,5 @@ Essentially the authors say that an $A_\infty$-category should be a non(-graded-
 
 If one understands $A_\infty$-category as "operadically defined higher category", then relevant references would include:
 
-* Eugenia Cheng, _Comaring operadic definitions of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
+* Eugenia Cheng, _Comparing operadic definitions of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
 
