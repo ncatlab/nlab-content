@@ -11,6 +11,12 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+# 2009-03-15
+
+[[Tim Porter|Tim]]: 
+
+* created [[I-category]] which includes an alternative axiomatisation of [[cylinder functor]].  This is needed for Baues' version of abstract homotopy theory. Some results and examples will need to be added later.
+
 
 # 2009-03-14
 
