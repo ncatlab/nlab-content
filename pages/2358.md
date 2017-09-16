@@ -29,10 +29,9 @@ Previous:
 
 ## rough notes from a talk##
 
->the following are rough unpolished notes taken more or less verbatim from some seminar talk -- needs attention
+>the following are rough unpolished notes taken more or less verbatim from some seminar talk -- needs attention, meaning: **somebody should go through this and polish**
 
 
-## ...
 
 
 We will talk about a lifting problem that will lead to the formulation of [[tmf]]. This requires [[E-infinity ring]]s and [[derived algebraic geometry]].
