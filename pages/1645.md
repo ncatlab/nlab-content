@@ -27,13 +27,13 @@ There are at least two things that are called _quantum anomalies_ in the context
 
 The [[sigma-model]] for a [[supersymmetry|supersymmetric]] fundamental brane on a target space $X$ has an anomaly coming from the nontriviality of Pfaffian line bundles associated with the fermioninc fields on the worldvolume. These anomalies disappear (i.e. these bundles are trivializable) when the structure group of the [[tangent bundle]] of $X$ has a sufficiently high lift through the [[Whitehead tower]] of $O(n)$.
 
-* **Spin structure** the woldline anomaly fot the spinning particle/superparticle vanishes when $X$ has [[Spin structure]] 
+* **Spin structure** the worldline anomaly for the spinning particle/superparticle vanishes when $X$ has [[Spin structure]] 
 
   This is a classical result. A concrete derivation is in 
 
   Witten, _Anomalies etc._ (somewhere)
 
-* **String structure** the worldsheet anomaly fot the spinning string/superstring in [[heterotic string theory]] vanishes (essentially) when $X$ has [[String structure]] 
+* **String structure** the worldsheet anomaly for the spinning string/superstring in [[heterotic string theory]] vanishes (essentially) when $X$ has [[String structure]] 
 
   This is originally due to Killingback and Witten. A commented list of literture is [here](http://golem.ph.utexas.edu/string/archives/000572.html). Recently [[Ulrich Bunke]] gave the rigorous proof
 
