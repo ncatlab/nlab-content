@@ -16,19 +16,19 @@ It is a familiar fact that classes of maps between [[topological space]]s encode
 To pick just one simple but important example: there is a [[topological space]]  that goes by the name
 $K(\mathbb{Z},2)$ or $B U(1)$. 
 Whatever the name of this space, it is that space which has the  peculiar property that for any other space $X$,
-the homotopy classes $[X, B U(1)]$ of continuous maps
+the [[homotopy]] classes $[X, B U(1)]$ of continuous maps
 from $X$ to this space $B U(1)$ characterize the following useful information:
 
 * they correspond to equivalence classes of circle [[bundle]]s over $X$: that is, to spaces $P$ equipped with a map to $X$ such that over 
 a contractible open subset $U \subset X$ the space $P$ looks like
-the [[product]] of $U$ with the circle, $P|_U \simeq U \times S^1$. One says that $B U(1)$ is the [[classifying space]] for circle [[bundle]]s.
+the [[product]] of $U$ with the circle, $P|_U \simeq U \times S^1$ (and such that the identification respects the action of the [[grouo]] $U(1)$ on the circle). One says that $B U(1)$ is the [[classifying space]] for circle [[bundle]]s.
 
   * A famous such circle bundle you may have seen is the [Hopf bundle](http://en.wikipedia.org/wiki/Hopf_bundle), which is a way to map the 3-dimensional sphere $S^3$ to the familiar 2-dimensional sphere $S^2$, such that over small parts $U \subset S^2$ of the 2-sphere the 3-sphere looks like the product space $U \times S^1$.
 
-  * This circle bundle corresponds to a very special class of maps $X \to B U(1)$: 
+  * This particular circle bundle corresponds to a very special class of maps $X \to B U(1)$: 
   namely the collection of maps $[S^2, B U(1)]$ happens to have the structure
   of the abelian group $\mathbb{Z}$ of integers under addition, 
-  and the Hopf fibration corresponds to the 
+  and the [Hopf bundle](http://en.wikipedia.org/wiki/Hopf_bundle) corresponds to the 
   the generating element $1$ of this group;
   
   * generally, this abelian group formed by $[X, B U(1)]$ 
@@ -39,11 +39,11 @@ the [[product]] of $U$ with the circle, $P|_U \simeq U \times S^1$. One says tha
 of $X$ for every natural number $n$: the $n$th [[integral cohomology]]
 group of $X$ -- and all these groups are naturally
 realized in terms of homotopy classes of maps from $X$ into 
-some topological space (called $B^{n-1} U(1)$).
+some topological space (called $K(\mathbb{Z}, n)$ or $B^{n-1} U(1)$).
 
 * These cohomology groups encode a lot of interesting information about
 topological spaces; but there is some useful information about a space, which is not
-encoded in maps from this to another topological space: 
+encoded in maps from it to another topological space: 
 
 * for instance if the space $X$ is not just a topological 
 space but actually a smooth manifold, then one is interested 
@@ -59,9 +59,9 @@ over its endpoints;
  flexible notion of what "space" should mean.
  
 * the generalization of the notion of _space_ which does
- accomplish this: the notion of a [[sheaf]] 
+ accomplish this: the notion of a [[sheaf]]
 
-* there is a very general abstract nonsense way to understand [[sheaf|sheaves]] as generalized spaces in the context of a very general abstract [[duality]] between the notions of  [[space and quantity]]. The following is a heuristic way to understand this.
+* (there is a very general abstract nonsense way to understand [[sheaf|sheaves]] as generalized spaces in the context of a very general abstract [[duality]] between the notions of  [[space and quantity]]. The following is a heuristic way to understand this).
 
 
 ## the basic idea of sheaves ##
@@ -70,7 +70,7 @@ over its endpoints;
 * To understand what a [[sheaf]] is, recall which aspect of the notion of
  [[topological space]] was relevant in the above
  examples $B^{n-1} U(1)$: these spaces were
- entirely characterized by how one can _map_ other spaces _into_ them.
+ entirely characterized by how one can _map_ other spaces _into_ them;
 
 * this is a general strategy that one can adopt: suppose I dream up a space but don't tell you which one it is, but I give you hints: for each other space $U$ that you can dream up, I tell you how you can _probe_ my space by mapping your space $U$ into it.
  
@@ -93,47 +93,44 @@ over its endpoints;
  $X(f) : X(V) \to X(U)$.
  
  * Do you need still more information to guess my space $X$? It turns out that: no, this information is enough!
-This somewhat remarkable fact is closely related to a 
-fundamental statement of [[category theory]]: the [[Yoneda lemma]] and its implication on [[representable functor]]s.
- 
- * But, on the other hand, you need to be sure that even if I  won't reveal my space $X$ to you directly, the little information about it which I do provide I should provide honestly and consistently. Some consistency checks to assure that I am not just making things up
- but am giving you consistent information about my secret space $X$ are the following:
- 
-   * it must be true that if you hand me the identity map $Id_U : U \to U$
-   on a test space, that then then I return you the identity map 
-   $Id_{X(U)} : X(U) \to X(U)$ on the set of probes of $X$ by $U$. 
-   
-   * also, it must be true that if you first hand me two consecutive maps of test
-   spaces, $f : U \to V$ and $g : V \to W$, and then hand me their composite
-   $g \circ f : U \to W$, that my reply $X(g \circ f) : X(W) \to X(U)$ to the latter
-   is the result of composing my two replies about the former:
-   $X(g \circ f) = X(W) \stackrel{X(g)}{\to} X(V) \stackrel{X(f)}{\to} X(U)$.
-   
-   * so far, an assignment $U \mapsto X(U)$ of sets to spaces which satisfies the above two properties is what is called a [[presheaf]]: this, in turn, is nothing but what is called a [[functor]] on a [[category]].
 
-   * But there is one further, more nontrivial consistency check on my information which you should do: it must be true that you can piece together the information which I give for small test spaces to deduce information about probes by bigger test spaces. More precisely, if I tell you the set $X(U)$ of probes of my secret space $X$ by the test space $U$, and if you then chop up $U$ into two pieces $V_1$ and $V_2$  sitting inside $U$ by inclusion maps $p_i : V_i \hookrightarrow U$, with a bit of overlap $V_1 \cap V_2$, then it ought
-   to be true all the probes by $U$ in $X(U)$ can be entirely and exactly reconstructed
-   from taking probes by $V_1$ in $X(V_1)$ and by $V_2$ in $X(V_2)$ and see if they match
-   over the overlap $V_1 \cap V_2$ of the two small probes: 
-   in symbols, the collection of
-   pairs in $\{matching maps from V_1 and V_2\} \hookrightarrow
+* This somewhat remarkable fact is closely related to a 
+fundamental statement of [[category theory]]: the [[Yoneda lemma]] and its implication on [[representable functor]]s.
+These terms will be discussed in a moment:
+
+ * There is a bit more to the game than mentioned so far: you need to be sure that even if I  won't reveal my space $X$ to you directly, the little information about it which I do provide, that rule $U \mapto X(U)$,  I should provide honestly and consistently. Some consistency checks to assure that I am not just making things up
+but am giving you consistent information about my secret space $X$ are the following:
+ 
+   * it must be true that if you hand me the identity map $Id_U : U \to U$ on a test space, that then then I return you the identity map $Id_{X(U)} : X(U) \to X(U)$ on the set of probes of $X$ by $U$. 
+   
+   * also, it must be true that if you first hand me two consecutive maps of test spaces, $f : U \to V$ and $g : V \to W$, and then hand me their composite $g \circ f : U \to W$, that my reply $X(g \circ f) : X(W) \to X(U)$ to the latter is the result of composing my two replies about the former: $X(g \circ f) = X(W) \stackrel{X(g)}{\to} X(V) \stackrel{X(f)}{\to} X(U)$.
+   
+   * so far, an assignment $U \mapsto X(U)$ of sets to spaces which satisfies the above two properties is what is called a [[presheaf]]: this, in turn, is nothing but what is called a [[functor]] on a [[category]]:
+
+    * the [[category]] in question here is the collection of test [[topological space]]s $\{U\}$, called [[object]]s, equipped with continuous maps between them $\{f : U \to V\}$, called [[morphism]]s, which may be composed when their domains and targets match. This composition is associative in the obvious way and on every object $U$ there is an [[identity]] map $Id_U : U \to U$ composition with which does nothing; this category is known by the name [[Top]];
+
+    * there is another [[category]] in the game, namely the [[category]] called [[Set]] whose [[object]]s are [[set]]s and whose [[morphism]]s are functions between sets;
+
+    * the probe-game which we are playing can hence be understood as being an assignment of [[object]]s in [[Top]] to [[object]]s in [[Set]] and to [[morphism]]s in [[Top]] to [[morphism]]s in [[Set]] which satisfies the above consistency coditions: this is called a [[contravariant]] [[Set]]-valued [[functor]] or a [[presheaf]] on [[Top]] and it is denoted $X(-) : Top^{op} \to Set$.
+
+ * But there is one further, more nontrivial consistency check on the information about probes of my secret space $X$ which you should do: it must be true that you can piece together the information which I give for small test spaces to deduce information about probes by bigger test spaces.
+
+* More precisely, if I tell you the set $X(U)$ of probes of my secret space $X$ by the test space $U$, and if you then chop up $U$ into two pieces $V_1$ and $V_2$  sitting inside $U$ by inclusion maps $p_i : V_i \hookrightarrow U$, with a bit of overlap $V_1 \cap V_2$, then it ought to be true all the probes by $U$ in $X(U)$ can be entirely and exactly reconstructed from taking probes by $V_1$ in $X(V_1)$ and by $V_2$ in $X(V_2)$ and see if they match over the overlap $V_1 \cap V_2$ of the two small probes: 
+   
+  * in symbols, the collection of pairs in $\{matching maps from V_1 and V_2 to X\} \hookrightarrow
    X(V_1) \times X(V_2)$ whose elements coincide when restricted to the overlap
    $X(V_1) \times X(V_2) \stackrel{\to}{\to} X(V_1 \cap V_2)$ should be exactly all the possible maps in $X(U)$
    $$
-     \{matching maps on V_1 and V_2\} \simeq X(U)
+     \{matching maps on V_1 and V_2 to X\} \simeq X(U)
      \,.
    $$
    
-* this is a sensible game to play: I don't tell you directly
-which space $X$ I am thinking of, but I give you all the information
-about its probes $U \mapsto X(U)$ by test spaces, subject to these three 
-consistency conditions. Such a collection of information (the sets $X(U)$)
-subject to these consistency conditions is called a **[[sheaf]]**
-on the collection (being a [[category]]) $S$ of test spaces. 
+* This now is a sensible game to play: I don't tell you directly which space $X$ I am thinking of, but I give you all the information about its probes $U \mapsto X(U)$ by test spaces, subject to these three consistency conditions. Such a collection of information (the sets $X(U)$)
+subject to these consistency conditions is called a **[[sheaf]]** on the collection (being a [[category]]) $S =  [[Top]]$ of test spaces. 
 
-  * More generally, this notion of sheaf easily makes sense on every other category $S$ for which there is an agreement about how some of its elements $U$, can be covered by other elements, such as the $V_1$ and $V_2$ above. Such an agreement of what counts as a [[cover]] in a [[category]] is called a [[coverage]], and a [[category]] equipped with such an information is called a [[site]].
+* More generally, this notion of [[sheaf]] easily makes sense on every other category $S$ for which there is an agreement about how some of its elements $U$, can be [[cover]]ed by other elements, such as the $V_1$ and $V_2$ above. Such an agreement of what counts as a [[cover]] in a [[category]] is called a [[coverage]] or a [[Grothendieck topology|topology]], and a [[category]] equipped with such an information is called a [[site]];
 
-* and it turns out that, indeed, if I am sticking to these rules of sheaves, then you can reconstruct the space $X$ that I am thinking of from just the information about how to probe it by other spaces.
+* and, recall, it turns out that, indeed, if I am sticking to these rules of sheaves, then you can reconstruct the space $X$ that I am thinking of from just the information about how to probe it by other spaces.
 
 ## sheaves more general than spaces ##
 
