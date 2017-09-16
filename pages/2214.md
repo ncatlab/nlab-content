@@ -54,6 +54,20 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 * [[Urs Schreiber]]: 
 
+  * created stub for [[supergroup]]
+
+  * created [[geometric models for elliptic cohomology]] with sub-entries so far:
+
+    * [[Axiomatic field theories and their motivation from topology]]
+
+    * [[(1,1)-dimensional Euclidean field theories and K-theory]]
+
+    * [[(2,1)-dimensional Euclidean field theories and tmf]]
+
+    this comes with this blog entry [here](http://golem.ph.utexas.edu/category/2009/09/a_seminar_on_a_geometric_model.html)
+
+  * created stub for [[partition function]]
+
   * created [[modular form]], but this needs more attention
 
   * added the promised blurb to [[directed space]] under "homotopy theoretic perspective" that is supposed to indicate the idea of the relation to [[(n,r)-category]] without misleadingly sounding as if there were nothing left to do here. Check!
