@@ -1,3 +1,2 @@
-See [[span]].
-
-category: redirect
+&lt; [[correspondence]]
+[[!redirects correspondence -- history]]
