@@ -83,6 +83,10 @@ A very detailed account of this for the 2-dimensional case is presented in
 
 * Chris Schommer-Pries, _The Classification of Two-Dimensional Extended Topological Field Theories_, PhD thesis, Berkeley, 2009 ([pdf](http://sites.google.com/site/chrisschommerpriesmath/Home/my-web-documents/Schommer-Pries-Thesis-5-12-09.pdf?attredirects=0))
 
+see also 
+
+* [[extended topological quantum field theory]]
+
 
 ## (extended) FQFT from background fields: $\sigma$-models## 
 
