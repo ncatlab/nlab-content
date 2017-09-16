@@ -1,0 +1,9 @@
+So far, mathematical analysis has not been much in focus of $n$lab; this could be compensated partly by noting that web (including wikipedia) has much more resources in the analysis area (similarly holds for combinatorics and number theory, cf. e.g. [Tao's blog](http://terrytao.wordpress.com)), than in category and homotopy theory, topology, geometry, cohomology and descent theory and so on, which are more in our primary focus.  
+
+Some of the $n$lab entries related to __mathematical analysis__ include [[nonstandard analysis]], [[Weierstrass preparation theorem]], [[Legendre polynomial]], [[analytic geometry]], [[differential geometry]], [[Hilbert space]], [[Banach space]], [[Banach algebra]], [[operator algebras]], [[Gelfand spectrum]]...and a book entry [[Handbook of analysis and its foundations]]. Many of the basic notions used in analysis courses are described in the general [[topology|topological]] context if they belong there, e.g. [[compact space]], [[continuous map]] and so on. 
+
+Various smoothness concepts in geometry, rarely studied in standard courses of analysis, but sometimes relevant, were studied to fair extent in the $n$lab, see e.g. [[differential form]], [[generalized smooth space]], [[Frolicher space]], [[synthetic differential geometry]]; some other concepts of smoothness are rather algebraic and are used almost exclusively in the nonanalytic setups, e.f. [[formal smoothness]] of Grothendieck; see also [[algebraic approaches to differential calculus]]. Some other entries are related to the conceptual and categorical understanding of Feynman integral however so far from physical, conceptual and formal point of view only. 
+
+More material and suitable links are welcome. 
+
+[[!redirects mathematical analysis]]
