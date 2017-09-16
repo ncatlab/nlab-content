@@ -50,7 +50,7 @@ we restricted attention to closed connected smooth [[manifold]]s $X$
 
   this is the obstruction to $X$ being cobordant to a fiber bundle over the circle:
 
-  $X$ is [[bordant]] to a [[fiber bundle]] over $S^1$ precisely if $sgn(X) = 0$
+  $X$ is [[bordant manifold|bordant]] to a [[fiber bundle]] over $S^1$ precisely if $sgn(X) = 0$
 
 * when $X$ has a [[spin structure]]
 
@@ -83,7 +83,7 @@ These invariants share the following properties:
 
 * they are multiplicative under [[cartesian product]] of manifolds
 
-* $e(X) mod 2, sgn(X), ind(D_X)$ all vanish when $X$ is a boundary, $\exists W : X = \partial W$, which means that $X$ is [[cobordant]] to the empty manifold $\emptyset$.
+* $e(X) mod 2, sgn(X), ind(D_X)$ all vanish when $X$ is a boundary, $\exists W : X = \partial W$, which means that $X$ is [[cobordant manifold|cobordant]] to the empty manifold $\emptyset$.
 
   in other words, these invariants are [[genus|genera]], namey [[ring]] homomorphisms 
 
