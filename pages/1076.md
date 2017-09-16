@@ -177,15 +177,21 @@ $$
 
 #Examples#
 
-* The [[category of chain complexes]] in an [[additive category]] is a triangulated category: the translation functor is the shift functor on [[chain complex]]es and the distinguished triangles are those coming from the [[mapping cone]] construction $X \stackrel{f}{\to}Y \to Cone(f) \to T X$.
+* The [[homotopy category]] of [[chain complexes]] in an [[abelian category]] (the category of chain complexes modulo [[chain homotopy]]) is a triangulated category: the translation functor is the shift functor on [[chain complex]]es and the distinguished triangles are those coming from the [[mapping cone]] construction $X \stackrel{f}{\to}Y \to Cone(f) \to T X$.
 
 * The [[localization]] $C/N$ of any triangulated category $C$ at a [[null system]] $N \hookrightarrow C$, i.e. the localization at the [[multiplicative system]] given by the morphisms $f : X \to Y$ such that there exists dts $X \to Y \to Z \to T X$ with $Z$ an object of a [[null system]], is still naturally a triangulated category, with the dts being the triangles isomorphic to an image of a dt under $Q : C \to C/N$.
 
-  * In particular therefore the [[derived category]] of any [[abelian category]] is a triangulated category.
+  * In particular, therefore, the [[derived category]] of any [[abelian category]] is a triangulated category, since it is the localization of the homotopy category at the null system of acyclic complexes.
 
 * As mentioned before, the [[homotopy category of an (infinity,1)-category|homotopy category]] of a [[stable (infinity,1)-category]] is a triangulated category.
 
-  * Therefore in particular the category of [[spectrum|spectra]] is a triangulated category.
+  * Therefore in particular the [[stable homotopy category]] (the homotopy category of [[spectrum|spectra]]) is a triangulated category.
+
+* Likewise, the homotopy category of a [[stable model category]] is also a triangulated category.
+
+  * This is a more classical route to the triangulated category of spectra.
+
+  * It also provides a direct construction of the homotopy category and derived category of many abelian categories.
 
 
 #Discussion#
