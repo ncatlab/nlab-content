@@ -20,9 +20,15 @@ $$
   \,.
 $$
 
-But a very special one. Notice that (right) Bousfield localization by increasing the collection of weak equivalences reduces the collection of fibrant (cofibrant) objects, and hence picks a smaller subcategory of fibrant-and-cofibrant objects. Indeed, Bousfield localization is a model category version of  [[reflective subcategory|reflective subcategories]]:
+But a very special one: left (right) Bousfield localization, by increasing the collection of weak equivalences, reduces the collection of fibrant (cofibrant) objects, and hence picks a smaller subcategory of fibrant-and-cofibrant objects. Indeed, 
 
-at least when $C$ is a [[combinatorial simplicial model category]] this is a [[localization of a simplicial model category]] and under [[presentable (infinity,1)-category|passage to the sub-category of fibrant-cofibrant objects]] this Quillen adjunction becomes the inclusion of a [[reflective (∞,1)-subcategory]
++-- {: .standout}
+
+Bousfield localization is a model category version of reflecting onto a [[reflective subcategory]].
+
+=--
+
+Indeed -- at least when $C$ is a [[combinatorial simplicial model category]] -- Bousfield localization is an example of a [[localization of a simplicial model category]] and under [[presentable (infinity,1)-category|passage to the sub-category of fibrant-cofibrant objects]] this Quillen adjunction becomes the inclusion of a [[reflective (∞,1)-subcategory]]
 
 $$
   {C_{loc}}^\circ \stackrel{\stackrel{lex}{\leftarrow}}{\hookrightarrow}
@@ -31,9 +37,7 @@ $$
 
 hence of a [[localization of an (∞,1)-category]].
 
-Such a localization is determined by the collection $S$ of _local weak equivalences_ in $C$, and alternatively by the collection of $S$-[[local object]]s in $C$. Indeed, ${C_{loc}}^\circ$ is the full $(\infty,1)$-subcategory on the cofibrant and fibrant and $S$-local objects of $C$.
-
-
+Such a localization is determined by the collection $S$ of _[[local object|local weak equivalences]]_ in $C$, and alternatively by the collection of $S$-[[local object]]s in $C$. Indeed, ${C_{loc}}^\circ$ is the full $(\infty,1)$-subcategory on the cofibrant and fibrant and $S$-local objects of $C$.
 
 
 ## Definition 
@@ -46,7 +50,7 @@ $$
 
 be a [[class]] of morphisms in $C$. 
 
-An $S$-[[local object]] $X$ is one such that the [[(infinity,1)-categorical hom-space|derived hom-space functor]] $\mathbf{R}Hom(-,X)$ sends morphisms in $S$ to weak equivalences. An $S$-local morphism $f$ is one such that $\mathbf{R}Hom(f,-)$ sends local objects to weak equivalences.
+An $S$-[[local object]] $X$ is one such that the [[derived hom space]] functor $\mathbf{R}Hom(-,X)$ sends morphisms in $S$ to weak equivalences. An $S$-local morphism $f$ is one such that $\mathbf{R}Hom(f,-)$ sends local objects to weak equivalences.
 
 Write $W_S \subset Mor(C)$ for the collection of $S$-local morphisms. Notice that this contains all the weak equivalences of $C$
 
@@ -78,7 +82,7 @@ The **right Bousfield localization** is defined analogously, with the role of fi
 
 
 
-## Existence for combinatorial model categories
+## Existence proof for combinatorial model categories
 
 We discuss the existence of Bousfield localization in the context of [[combinatorial model category|combinatorial model categories]]. A similar existence result is available in the slightly more general context of [[cellular model category|cellular model categories]], but for the combinatorial case a somewhat better theory is available. 
 
@@ -125,7 +129,99 @@ We follow [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf) for the proo
 =--
 
 
-### Recognition of the combinatorial model structure 
+### Prerequisites for the proof 
+
+The proof we give is self-contained, except that it builds on the following notions and facts.
+
+#### Small objects
+
+A [[cardinal number] $\kappa$ is _regular_ if it is not the cardinality of a union of $\lt \kappa$ sets of size $\lt \kappa$. 
+
+A [[poset]] $J$ is a $\kappa$-[[directed set]] if all subsets of cardinality $\lt \kappa$ have a commun upper bound. A $\kappa$-[[directed colimit]] is a [[colimit]] $\lim_\to F$ over a functor $F : J \to C$.
+
+An object $X$ in a category $C$ is a $\kappa$-[[compact object]] if $C(X,-) : C \to C$ commutes with all $\kappa$-[[directed colimit]]s. For $\lambda \gt \kappa$ every $\kappa$-compact object is also $\lambda$-compact.
+
+This means that a morphism from a $\kappa$-compact object into an object that is a $\kappa$-directed colimit over component objects always lifts to one of these component objects.
+
+An object is a [[small object]] if it is $\kappa$-compact for some $\kappa$.
+
+A [[locally small category|locally small]] but possibly non-[[small category]] $C$ is an [[accessible category]] if it has a small sub-[[set]] of generating $\kappa$-[[compact object]]s such that every other object is a $\kappa$-[[directed colimit]] over such generators.
+
+If such a category has all small colimits, it is called a [[locally presentable category]].
+
+In particular, in a locally presentable category the [[small object argument]] for factoring of morphisms applies with respect to every set of morphisms.
+
+
+#### Combinatorial model categories
+
+A [[combinatorial model category]] is a [[locally presentable category]] that is equipped with a [[cofibrantly generated model category]] structure. So in particular there is a set of generating (acyclic) cofibrations that map between [[small object]]s. 
+
+(If we'd require smallness of the domains of the generating cofibrations only with respect to these cofibrations themselves, we have instead the notion of [[cellular model category]].)
+
+[Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#SmithTheorem) says that a [[locally presentable category]] has a combinatorial model category structure already if it has weak equivalences and generating cofibrations satisfying a simple condition and if weak equivalences form an [[accessible category|accessible]] [[subcategory]] of the [[arrow category]]. This means that only two thirds of the data for a generic combinatorial model category needs to be checked and greatly facilitates checking model category structures.
+
+[Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) implies that every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to a [[proper model category|left proper]] [[simplicial model category|simplicial]] combinatorial model category.
+
+So we may assume without much restriction of generality that we are dealing with the localization of a [[proper model category|left proper]] [[combinatorial simplicial model category]].
+
+Since the [[small object argument]] applies, a [[combinatorial model category]] has fibrant- and cofibrant-replacement functors $P,Q : C \to C$. 
+
+By the axioms of an [[enriched model category]] it follows that the functor
+
+$$
+  \mathbf{R}Hom_C := C(Q(-),P(-)): C^{op} \times C \to SSet
+$$
+
+takes values in [[Kan complex]]es. This is called the [[derived hom space]] functor of $C$: we think of $\mathbf{R}Hom(X,Y)$ as the [[∞-groupoid]] of maps from $X$ to $Y$, homotopies of maps, homotopies of homotopies, etc.
+
+
+#### Local objects
+
+An ordinary [[reflective subcategory]] $C_{loc} \stackrel{\stackrel{T}{\leftarrow]}}{\hookrightarrow} C$ is specified by the preimages $S = T^{-1}(isos)$ of the isomorphisms under $T$ as the full subcategory on the $S$-[[local object]]s $X$: those such that $Hom_C(A \stackrel{s \in S}{\to}B, X)$ are isomorphisms.
+
+The analogous statement in the context of model categories uses the [[derived hom space]] functor instead: given a collection $S \subset Mor(C)$ an object $X$ is called an $S$-[[local object]] if $\mathbf{R}Hom_C(A \stackrel{s \in S}{\to} B, X)$ are weak equivalences. 
+
+Similarly, the collection $W_S$  of morphisms $f : E \to F$ such that for all $S$-local objects $X$ $\mathbf{R}Hom_C(f,X)$ is a weak equivalence is called the collection of $S$-[[local object|local weak equivalence]]s. 
+
+A [lemma by Lurie](http://ncatlab.org/nlab/show/local+object#PropInModCat) says that for $A \stackrel{s \in S}{\hookrightarrow} B$ a cofibration and $X$ fibrant, $X$ is $S$-local precisely if $C(s,X) : C(B,X) \to C(A,X)$ is an [[Kan fibration|acyclic Kan fibration]]. This helps identifying the $S$-local fibrant objects.
+
+#### Homotopy (co)limits
+
+In an ordinary category, a [[limit]] diagram is one such that applying $Hom_C(X,-) : C \to C $ to it produces a limit diagram in [[Set]], for all objects $X$. Similarly a colimit diagram is one sent to Set-limits under all $Hom_C(-,X)$.
+
+In a model category, this has an analog with respect to the [[derived hom space]] functor $\mathbf{R}Hom_C$. A [[homotopy limit]] diagram is one sent by all $\mathbf{R}Hom_C(-,X)$ to a homotopy limit (...). Similarly for homotopy colimits.
+
+Sometimes ordinary (co)limits in a model category are already also homotopy colimits: 
+
+* an [observation by Barwick](http://ncatlab.org/nlab/show/local+object#PropInModCat) shows that in a [[proper model category|left proper]] [[simplicial model category]] ordinary [[pushout]]s along cofibrations are already homotopy colimits.
+
+* an [observation by Dugger](http://ncatlab.org/nlab/show/combinatorial+model+category#hocolims) shows that [[transfinite composition]] colimits of length $\kappa$ in a combinatorial model category are automatically homotopy colimits for sufficiently large $\kappa$.
+
+Since these are the two operations under which $cell(cof_c \cap W_C)$ is closed, this facilitates finding this closure given that by the above the elements of $cof_C \cap W_S$ are characterized by their images under $\mathbf{R}Hom_C(-,X)$ for $S$-local $X$.
+
+
+#### Size issues 
+
+The following proof uses the [[small object argument]] several times. In particular, at one point it is applied relative to the collection $S$ of morphisms at which we localize. It is at this point that we need that assumption that $S$ is indeed a (small) [[set]], and not a proper [[class]].
+
+For the small object argument itself, this requirement comes from the fact that it involves colimits indexed by $S$. These won't in general exist if $S$ is not a set.
+
+The collection of $S$-local weak equivalences $W_S$, however, won't be a small set in general even if $S$ is. But for [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) to apply we need to check that the full subcategory of $Arr(C)$ on $W_S$ is, while not small, [[accessible category|category]].
+
+To establish this we need two [properties of accessible categories](http://ncatlab.org/nlab/show/accessible+category#Properties): the inverse image of an accesible subcategory under a functor is accessible, and the collections of fibrations, weak equivalences and acyclic fibrations in a combinatorial model category are accessible.
+
+
+### The proof itself
+
+
++-- {: .standout}
+
+**Beginning of the proof** of the existence of the left Bousfield localization of a left proper combinatorial simplicial model category at a set $S$ of morphisms.
+
+=--
+
+
+#### Recognition of the combinatorial model structure 
 
 Using [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem), for establishing the [[combinatorial model category]] structure, it is sufficient to 
 
@@ -180,7 +276,7 @@ Similarly for [[transfinite composition]] colimits.
 Therefore, indeed, $cof(I) \cap W_{L_S C}$ is closed under pushouts and transfinite composition.
 
 
-### Fibrants in $L_S C$ are the $S$-local fibrants in $C$ 
+#### Fibrants in $L_S C$ are the $S$-local fibrants in $C$ 
 
 To see that the fibrant objects in $L_S C$ are precisely the $S$-local fibrant objects of $C$, use the _characterization of $S$-local cofibrations_  as precisely those cofibrations $i : A \hookrightarrow B$ such that for every _fibrant_ and $S$-local object $X$ the [[derived hom space]] functor $\mathbf{R}Hom(X,A) \to \mathbf{R}Hom(X,B)$ is an acyclic [[Kan fibration]] (this is described in detail [here](http://ncatlab.org/nlab/show/local+object#properties_12)).
 
@@ -296,7 +392,7 @@ Now every fibrant object $X$ in $L_S W$ has the extension property with respect 
 Conversely, if it is $S$-local and fibrant in $C$; then, as mentioned before, for all $f \in cof_C \cap W_S$ the map $[f,X]$ is an acyclic Kan fibration in [[SSet]] so that in particular $Hom_C(f,X)$ is a surjection, which means that $X$ has the extension property with respect to all $f$ and is hence fibrant in $L_S C$.
 
 
-### Fibrant replacement in $L_S W$: localization of objects 
+#### Fibrant replacement in $L_S W$: localization of objects 
 
 Since by assumption $S$ is a small set, we may apply the [[small object argument]] also to $S$. If we apply it to factor all morphisms $X \to {*}$ to the [[terminal object]] we obtain a functorial factorization componentwise of the form
 
@@ -319,11 +415,11 @@ in $L_S C$ relating an object to its fibrant approximation.
 
 
 
-### Accessibility of the $S$-local weak equivalences
+#### Accessibility of the $S$-local weak equivalences
 
 For the [Smith recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#SmithTheorem) to apply we still have to check that the $S$-[[local object|local weak equivalences]] $W_S$ span an [[accessible category|accessible full subcategory]] $Arr_S(C) \subset Arr(S)$ of the [[arrow category]] of $C$.
 
-By the general [properties of accessible categories](http://ncatlab.org/nlab/show/accessible+category#Properties) for that it is sufficient to exhibit $Arr_S(C)$ as the inverse image of a functor $T : Arr_S(C) \hookrightarrow Arr(C)$ of the accessible category $Arr_W(C)$ spanned by ordinary weak equivalences in $C$.
+By the general [properties of accessible categories](http://ncatlab.org/nlab/show/accessible+category#Properties) for that it is sufficient to exhibit $Arr_S(C)$ as the inverse image of under functor $T : Arr_S(C) \hookrightarrow Arr(C)$ of the accessible category $Arr_W(C)$ spanned by ordinary weak equivalences in $C$.
 
 That functor we take to be the $S$-local fibrant replacement functor from above
 
@@ -333,7 +429,7 @@ $$
 $$
 
 Generally, an $S$-local weak equivalence between $S$-[[local object]]s is already an ordinary weak equivalence: by $S$-locality the [[derived hom space]] functor
-$\mathbf{R}Hom(f,-)$ takes values in weak equivalences on the full subcategory of $S$-[[local object]]s, hence takes values in [[isomorphism]]s when sent forward to the full subcategory on $S$-local objects of the [[homtopy category]] $Ho_C$. By the [[Yoneda lemma]] this implies that $T f$ is an isomorphism in $Ho_C$, hence a weak equivalence in $C$.
+$\mathbf{R}Hom(f,-)$ takes values in weak equivalences on the full subcategory of $S$-[[local object]]s, hence takes values in [[isomorphism]]s when sent forward to the full subcategory on $S$-local objects of the [[homotopy category]] $Ho_C$. By the [[Yoneda lemma]] this implies that $T f$ is an isomorphism in $Ho_C$, hence a weak equivalence in $C$.
 
 But this means that the inverse image under $T$ of the weak equivalences in $C$ are all $S$-local weak equivalences
 
@@ -343,6 +439,13 @@ $$
 $$
 
 Therefore this is an [[accessible category]].
+
++-- {: .standout}
+
+**End of the proof** of the existence of the left Bousfield localization of a left proper combinatorial simplicial model category at a set $S$ of morphisms.
+
+=--
+
 
 
 ## Existence for tractable ennriched model categories
