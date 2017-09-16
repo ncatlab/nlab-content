@@ -12,7 +12,7 @@ For any [[(infinity,1)-category]] $C$ every [[(infinity,1)-functor]] $\bar {(-)}
 * as projecting onto those objects of $C$ which are [[local object|local]] with respect to these morphsims: those objects which sees $W$ as a collection of equivalences.
 
 Using the familiar characterization of the [[category of sheaves]] in the 1-categorical context, this straightforwardly suggests to characterize 
-_$(\infinity,1)$-categories $Sh(S)$ of $(\infty,1)$-sheaves_ -- also called (Grothendieck-Rezk-Lurie) [[(infinity,1)-topos|(infinity,1)-topoi]] as essential images of [[exact (infinity,1)-functor|left exact]] $(\infty,1)$-functors 
+_$(\infinity,1)$-categories $Sh(S)$ of $(\infty,1)$-sheaves_ -- also called (Grothendieck-Rezk-Lurie) [[(infinity,1)-topos|(infinity,1)-topoi]] as essential images of [[exact (infinity,1)-functor|left exact]] $(\infty,1)$-functors from [[(infinity,1)-category of (infinity,1)-functors|(infinity,1)-categories of (infinity,1)-presheaves]]
 
 $$
  \bar{(-)} : PSh(S) \to Sh(S)
