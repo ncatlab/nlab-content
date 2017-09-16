@@ -49,7 +49,7 @@ An $n$-extended $C$-valued TQFT of dimension $d$ is a symmetric $n$-tensor funct
 * smooth compact oriented $(d-n)$-manifolds to $R$-linear $(n-1)$-categories
 * cobordisms of smooth compact oriented $(d-n)$-manifolds to $(n-1)$-functors between $R$-linear $(n-1)$-categories
 
-with compatibility conditions and gluing formulas that must be satisfied... For instance, since the functor $Z$ is required to be monoidal, it sends monoidal units to monoidal units. Therefore, $d$-dimensional vacuum is mapped to the unit element of $R$, $(d-1)$-dimensional vacuum to the $R$-module $R$, $(d-2)$-dimensional vacuum to the category of $R$-modules, etc.
+with compatibility conditions and gluing formulas that must be satisfied... For instance, since the functor $Z$ is required to be monoidal, it sends monoidal units to monoidal units. Therefore, the $d$-dimensional [[vacuum]] is mapped to the unit element of $R$, the $(d-1)$-dimensional vacuum to the $R$-module $R$, the $(d-2)$-dimensional vacuum to the category of $R$-modules, etc.
 
 Here $n$ can range between $0$ and $d$. This generalizes to an arbitrary symmetric monoidal category $C$ as codomain category.
 
