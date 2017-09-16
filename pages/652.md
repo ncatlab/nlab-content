@@ -1,3 +1,2 @@
-See [[sharing graph]].
-
-category: redirect
+&lt; [[sharing graphs]]
+[[!redirects sharing graphs -- history]]
