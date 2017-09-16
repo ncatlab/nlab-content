@@ -184,6 +184,15 @@ In particular, if we simply drop the condition that the dg-algebra be generated 
 
 * An $L_\infty$-algebra for which $V$ is concentrated in the first $n$ degree is a **Lie $n$-algebra** (sometimes also: "$L_n$-algebra").
 
+* An $L_\infty$-algebra for which only the unary operation and the binary bracket are non-trivial is a **dg-Lie algebra**: a [[Lie algebra]] [[internalization|internal to]] the [[category]] of [[dg-algebras]]. From the point of view of higher Lie theory this is a **strict $L_\infty$-algebra**: one for which the Jacobi identity does happen to hold "on the nose", not just up to nontrivial coherent isomorphisms.
+
+* So in particular 
+
+  * an $L_\infty$-algebra generated just in degree 1 is an ordinary [[Lie algebra]];
+
+  * an $L_\infty$-algebra generated just in degree 1 and 2 and with at most binary brackets is a [[strict Lie 2-algebra]], equivalently encoded in a [[differential crossed module]].
+
+
 * The skew-symmetry of the Lie bracket is retained strictly in $L_\infty$-algebras. It is expected that weakening this, too, yields a more general [[vertical categorification]] of Lie algebras. For $n=2$ this has been worked out by Dmitry Roytenberg: [On weak Lie 2-algebras](http://arxiv.org/abs/0712.3461).
 
 * The [[horizontal categorification]] of $L_\infty$-algebras are $L_\infty$-[[Lie infinity-algebroid|algebroid]]s.
