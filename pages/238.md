@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-05-07 #
+
+* [[Urs Schreiber|Urs]]
+
+  * as a reaction to the discussion taking place there I expanded the text at [[simplicial model for weak omega-categories]] -- also added references
+
 # 2009-05-06 #
 
 * [[Urs Schreiber|Urs]]
