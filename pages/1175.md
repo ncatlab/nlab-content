@@ -14,7 +14,7 @@ and its update
 
 * G. Segal, _What is an elliptic object?_  Elliptic cohomology,  306--317, London Math. Soc. Lecture Note Ser., 342, Cambridge Univ. Press, Cambridge, 2007. 
 
-on hypotethical connections between CFT and elliptic cohomology, Stolz and Teichner have made a case for a role von Neumann algebras seem to play in a partial realization of that program:
+on hypothetical connections between CFT and elliptic cohomology, Stolz and Teichner have made a case for a role von Neumann algebras seem to play in a partial realization of that program:
 
 * S. Stolz and P. Teichner, _What is an elliptic object?_ ([pdf](http://math.berkeley.edu/~teichner/Papers/Oxford.pdf))
 
