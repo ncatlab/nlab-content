@@ -151,6 +151,8 @@
 
 * [Statistical Modeling, Causal Inference and Social Science](http://www.stat.columbia.edu/~gelman/blog)
 
+* [The Endeavour](http://www.johndcook.com/blog)
+
 * [Williams College Math/Stat blog](http://blogs.williams.edu/math)
 
 
