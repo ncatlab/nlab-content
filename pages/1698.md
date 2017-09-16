@@ -1,16 +1,16 @@
 #Idea#
 
-A _fibration sequence_ is a "long right-[[exact sequence]]" (or left-exact, I keep mixing that up) in an [[(infinity,1)-category]].
+A _fibration sequence_ is a "long right-[[exact sequence]]" (or left-exact, I keep mixing that up) in an [[(∞,1)-category]].
 
-Traditionally fibration sequences have been considered in the context of [[homotopical category|homotopical categories]] such as [[model category|model categories]] and [[category of fibrant objects|Brown category of fibrant objects]] which [[presentable (infinity,1)-category|present]] the [[(infinity,1)-category]] in question. In particular, classically this was considered for [[Top]] itself.
+Traditionally fibration sequences have been considered in the context of [[homotopical category|homotopical categories]] such as [[model category|model categories]] and [[category of fibrant objects|Brown category of fibrant objects]] which [[presentable (infinity,1)-category|present]] the [[(∞,1)-category]] in question. In particular, classically this was considered for [[Top]] itself.
 
 
 
 #Definition#
 
-Let $C$ be an [[(infinity,1)-category]] with small [[limit]]s and consider [[pointed object]]s of $C$, i.e. morphisms ${*} \to A$ from the [[terminal object]] ${*}$ ([[generalized the|the]] [[point]]) to some object $A$. All unlabeled morphisms from the point in the following are these chosen ones and all other morphisms are taken with respect to these points.
+Let $C$ be an [[(∞,1)-category]] with small [[limits]] and consider [[pointed objects]] of $C$, i.e. morphisms ${*} \to A$ from the [[terminal object]] ${*}$ ([[generalized the|the]] [[point]]) to some object $A$. All unlabeled morphisms from the point in the following are these chosen ones and all other morphisms are taken with respect to these points.
 
-Notice that in the case that $C$ happens to be a [[stable (infinity,1)-category]] for which ${*} = 0$ all objects are canonically pointed and the notions of left- and right-exact fibration sequences coincide.
+Notice that in the case that $C$ happens to be a [[stable (∞,1)-category]] for which ${*} = 0$ all objects are canonically pointed and the notions of left- and right-exact fibration sequences coincide.
 
 But for the notion of fibration sequence to make sense, we do not need to assume that $C$ is a stable $(\infty,1)$-category. In particular, in the context of [[nonabelian cohomology]] (see [[gerbe]] and [[principal 2-bundle]]) one considers fibration sequences in non-stable $(\infty,1)$-categories.
 
@@ -43,7 +43,7 @@ $$
   \,.
 $$
 
-Notice that the ordinary 1-categorical [[pullback]] of a point to itself is necessarily just the point again. Much of what makes [[(infinity,1)-category]]-theory richer than ordinary category theory is this fact that the kernel of the point is not trivial, but loops. This implies in particular that **the kernel of the kernel is in general nontrivial**.
+Notice that the ordinary 1-categorical [[pullback]] of a point to itself is necessarily just the point again. Much of what makes [[(∞,1)-category]]-theory richer than ordinary category theory is this fact that the kernel of the point is not trivial, but loops. This implies in particular that **the kernel of the kernel is in general nontrivial**.
 
 Namely the homotopy kernel of the morphism $ker(f) \to A$ constructed above is by definition the homotopy limit in the diagram
 
@@ -125,18 +125,18 @@ Again, all squares and all pasting squares appearing here are homtopy pullback s
 
 Anyway.
 
-Usually, when looking at fibration sequences in 1-categorical contexts of the [[homotopy category of an (infinity,1)-category]], one doesn't see these long fibration squences directly, but only "in cohomology".
+Usually, when looking at fibration sequences in 1-categorical contexts of the [[homotopy category of an (∞,1)-category]], one doesn't see these long fibration squences directly, but only "in cohomology".
 
 This can be usefully understood as follows:
 
-recall from [[cohomology]] that for $X$ and $A$ objects in an [[(infinity,1)-category]] $C$ that is an [[(infinity,1)-topos]], the $\infty$-groupoid of $A$-valued cocycle on $X$ is just $Hom_C(X,A)$, so that the corresponding cohomology classes are
+recall from [[cohomology]] that for $X$ and $A$ objects in an [[(∞,1)-category]] $C$ that is an [[(∞,1)-topos]], the $\infty$-groupoid of $A$-valued cocycle on $X$ is just $Hom_C(X,A)$, so that the corresponding cohomology classes are
 
 $$
   H(X,A) = \Pi_0 Hom_C(X,A) = Ho_C(X,A)
   \,,
 $$
 
-where $Ho_C$ is the corresponding [[homotopy category of an (infinity,1)-category]].
+where $Ho_C$ is the corresponding [[homotopy category of an (∞,1)-category]].
 
 The upshot being that in the right $(\infty,1)$-context cohomology is just the [[hom-object]].
 
@@ -164,7 +164,7 @@ $$
   }
 $$
 
-is again homotopy pullback diagram (of [[infinity-groupoid]]s).
+is again homotopy pullback diagram (of [[∞-groupoids]]).
 
 So in particular for
 
@@ -224,9 +224,9 @@ $$
 
 #Examples#
 
-Fibration sequences are familiar from the context of [[principal bundle]]s.
+Fibration sequences are familiar from the context of [[principal bundles]].
 
-Let $G$ be a [[group]] and let $\mathbf{B}G$ denote the corresponding one-object [[groupoid]] (in the world of [[infinity-groupoid]]s) or else the [[classifying space]] $\mathcal{B}G$.
+Let $G$ be a [[group]] and let $\mathbf{B}G$ denote the corresponding one-object [[groupoid]] (in the world of [[∞-groupoids]]) or else the [[classifying space]] $\mathcal{B}G$.
 
 Notice that 
 
@@ -290,4 +290,6 @@ $$
   \,, 
 $$
 
-The same logic -- even the same diagrams -- work for [[principal 2-bundle]]s and generally for [[principal infinity-bundle]]s.
+The same logic -- even the same diagrams -- work for [[principal 2-bundles]] and generally for [[principal ∞-bundles]].
+
+[[!redirects fibration sequences]]
