@@ -158,6 +158,8 @@ $D_X$-[[D-module|modules]] and local systems on $X$.
 
 #Related entries#
 
+* [[simplicial local system]]
+
 * [[D-module]]
 
 * [[abelian sheaf cohomology]]
