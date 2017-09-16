@@ -85,7 +85,7 @@ For a free introductory text on $n$-categories that's <i>full of pictures</i>, t
 
 * Eugenia Cheng and Aaron Lauda, [Higher-Dimensional Categories: An Illustrated Guidebook](http://www.dpmms.cam.ac.uk/~elgc2/guidebook/).
 
-Tom Leinster has written about "comparative $\infty$-categoriology" (to [borrow](http://golem.ph.utexas.edu/category/2008/01/comparative_smootheology.html) a term):
+[[Tom Leinster]] has written about "comparative $\infty$-categoriology" (to [borrow](http://golem.ph.utexas.edu/category/2008/01/comparative_smootheology.html) a term):
 
 * Tom Leinster, _A Survey of Definitions of n-Category_ ([arXiv](http://arxiv.org/abs/math.CT/0107188))
 
