@@ -1,0 +1,1 @@
+Term devised by [[James Dolan]] to describe cases where you take a mathematical concept and strip away parts of it to see if it can still function. In other words, you see how many legs you can pull off before the centipede can no longer walk. [TWF 145](http://math.ucr.edu/home/baez/week145.html)
