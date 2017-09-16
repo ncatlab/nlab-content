@@ -177,6 +177,8 @@ $$
 
 All this is general abstract nonsense, nothing special to this example!  Any universal property involving maps out of an object says that object is initial in some category --- and that, in turn, is equivalent to saying that object is the colimit of the enormous diagram consisting of all objects of the same kind!  There's a lot less here than meets the eye.
 
+[[Eric]]: Thank you! That actually makes a little sense to me. As trivial as it may seem, the fact that I was even able to ask this question represents tremendous progress :)
+
 =--
 
 ## References
