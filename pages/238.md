@@ -14,7 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-02 #
 
-*  [[David Roberts]] answered [[Toby Bartels]]\'s question at [[Atiyah Lie groupoid]], and Toby asked one right back again.
+*  [[Toby Bartels]]:
+   *  Added the standard examples to [[uniform space]].
+   *  Corrected Andrew\'s reply to Mike at [[Froelicher space]].  (I\'m pretty sure that this is what you meant, Andrew!)
+   *  Replied to [[David Roberts]] at [[Atiyah Lie groupoid]].
 
 * [[Andrew Stacey]]: replied to [[Mike Shulman]] at [[Froelicher space]]
 
