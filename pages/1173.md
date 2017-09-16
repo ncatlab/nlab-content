@@ -20,6 +20,15 @@ Another approach is to define a semilattice, as above, to require a top/bottom e
 See [[lattice]] for more discussion of this issue.
 
 
+## Semilattice homomorphisms
+
+A semilattice homomorphism $f$ from a semilattice $A$ to a semilattice $B$ is a [[function]] from $A$ to $B$ (seen as sets) that preserves $\vee$ (and $\bot$, if this is required):
+$$ f(x \vee y) = f(x) \vee f(y),\; f(\bot) = \bot .$$
+Note that such a homomorphism is necessarily a [[monotone function]], but the converse fails.
+
+Thus technically, a semilattice is a poset with [[property-like structure]].
+
+
 [[!redirects meet-semilattice]]
 [[!redirects join-semilattice]]
 [[!redirects meet semilattice]]
