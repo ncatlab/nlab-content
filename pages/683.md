@@ -18,7 +18,7 @@ There are two ways to define homotopy limits:
 One of the central theorems of the subject is that in good cases, the two give equivalent results; see below.
 
 
-### Global definition ###
+## Global definition ##
 
 Let $C$ be a [[category with weak equivalences]] and let $D$ be a (small) category.  Make the [[functor category]] $[D,C]$ into a category with weak equivalences by taking the weak equivalences to be those [[natural transformation]]s which are objectwise weak equivalences in $C$.
 
@@ -30,23 +30,22 @@ $$
 In the enriched case, this must be suitably modified to deal with [[weighted limit|weighted limits]] as well as enrichment of both $C$  and $D$.
 
 
-### Local definition ##
+## Local definition ##
 
 The local definition requires making precise the notion of a _[[homotopy]] commutative cone_ over a diagram. 
 
-For the case of $V = $ [[SSet]]-[[enriched category|enrichment]] one elegant way to do so is in terms of suitable [[weighted limit]]s as described in the example section at [[weighted limit]]: a homotopy commutative cone with tip $c \in C$ over a diagram $F : K \to C$ in an [[SSet]]-enriched category $C$ is a natural transformation 
-$W \Rightarrow C(c,F(-)) : K \to SSet$ where the _weight_ functor $W$ is not constant on the point, as for ordinary limits, but is given by $W : k \mapsto N(K/k)$.
+For the case of [[SimpSet]]-[[enriched category|enrichment]] one elegant way to do so is in terms of suitable [[weighted limit]]s as described in the example section at [[weighted limit]]: a homotopy commutative cone with tip $c \in C$ over a diagram $F : K \to C$ in an $\Simp\Set$-enriched category $C$ is a natural transformation 
+$W \Rightarrow C(c,F(-)) : K \to \Simp\Set$ where the _weight_ functor $W$ is not constant on the point, as for ordinary limits, but is given by $W : k \mapsto N(K/k)$.
 
 
-The same idea works if we are enriched over a $V$ that is not [[SSet]] but is itself enriched over [[SSet]], such as [[topological space]]s or [[spectrum|spectra]], since then any $V$-category becomes an [[SSet]]-category as well in a natural way.  Finally, although a general [[model category]] need not be enriched over anything, it is always "almost" enriched over [[SSet]], and so one can still make sense of this using the techniques of _framings_ and _resolutions_; see the books of Hirschhorn and Hovey.
+The same idea works if we are enriched over a category $V$ that is not $\SimpSet$ but is itself enriched over $\Simp\Set$, such as [[topological space]]s or [[spectrum|spectra]], since then any $V$-category becomes a $\Simp\Set$-category as well in a natural way.  Finally, although a general [[model category]] need not be enriched over anything, it is always "almost" enriched over $\Simp\Set$, and so one can still make sense of this using the techniques of _framings_ and _resolutions_; see the books of Hirschhorn and Hovey.
 
-
-Following the reasoning described in example 1 of [[representable functor]] one then defines the homotopy limit $L$ of a functor $F: K \to C$ to be a representing object for such homotopy cones, in the sense that we have a (weak) equivalence
+Following the reasoning described in Example 1 of [[representable functor]] one then defines the homotopy limit $L$ of a functor $F: K \to C$ to be a representing object for such homotopy cones, in the sense that we have a (weak) equivalence
 $$ Map(X,L) \simeq HoCones(X,F)$$
 of hom-objects (spaces or simplicial sets in the classical context; enriched hom-objects in the enriched context).
 
 
-### Global versus local ##
+## Global versus local ##
 
 The global definition is formulated in terms of [[weak equivalence|weak equivalences]] only, while the local definition is formulated in terms of [[homotopy|homotopies]] only.  However, in practical cases, derived functors exist because their input objects (in this case, the diagram $F$) can be replaced by "good" (fibrant and/or cofibrant) objects in such a way that weak equivalences become _homotopy_ equivalences.  The derived functor of $lim$ at the input object $F$ is then computed by applying the ordinary functor $lim$ to a good replacement $R F$ of $F$.
 
@@ -63,7 +62,7 @@ An abstract version in modern language, with proof, can be found in
 * Michael Shulman, [Homotopy limits and colimits and enriched homotopy theory](http://arxiv.org/abs/math/0610194).
 
 
-### Strictness
+### Strictness ###
 
 Another notable difference between the local and global definitions is that the global definition can only ever define the homotopy limit up to weak equivalence (isomorphism in the homotopy category), while in the local definition we _could_ require, if we wanted to, an actual isomorphism
 $$ Map(X,L) \cong HoCones(X,F)$$
@@ -111,7 +110,7 @@ then
 Conversely this means that on an arbitrary pullback diagram  $holim_D F$ can be computed by finding a natural transformation $F \Rightarrow R F$ whose component morphisms are weak equivalences and such that $R F$ satisfies the above conditions.
 
 
-###Based loop objects as homotopy limits###
+## Based loop objects ##
 
 Let $C$ be a [[category of fibrant objects]]. Then for $B$ any [[pointed object]] with point $pt \stackrel{pt_B}{\to} B$ we have
 
@@ -138,7 +137,7 @@ $$
 with all vertical morphisms weak equivalences and with the left bottom horizontal morphism a fibration.
 
 
-### Homotopy pullback of a point over a group / universal bundles ##
+## Homotopy pullback of a point over a group / universal bundles ##
 
 As a special case of the above general example we get the following.
 
@@ -201,7 +200,7 @@ $$
 $$
 This example is important in the context of [[groupoidification]] and [[geometric function theory]], as described there.
 
-### Homotopy pullback of a subgroup over a group ###
+## Homotopy pullback of a subgroup over a group ##
 
 The above example generalizes straightforwardly
 to the case where the trivial 
@@ -306,12 +305,12 @@ This example, too, is important at [[geometric function theory]].
 
 
 
-### Homotopy span traces ##
+## Homotopy span traces ##
 
 * see the homotopy span traces discussed at 
   [[span trace]] for more examples of homotopy pullbacks
 
-##Descent objects##
+## Descent objects ##
 
 _Descent objects_ as they appear in [[descent and codescent]] are naturally conceived as homotopy limits. See also [[infinity-stack]].
 
