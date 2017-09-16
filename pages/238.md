@@ -16,7 +16,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
-  * added a further definition to [[image]]
+  * added a further definition to [[image]], created [[coimage]] and [[strict morphism]]
 
 # 2009-05-17 #
 
