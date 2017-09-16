@@ -1,3 +1,10 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Idea#
+
 _Geometric quantization_ is the approach of Kirillov ("orbit method"), Kostant and Souriau for attaching a [[Hilbert space]] to a [[symplectic manifold]] with a [[line bundle]] with [[connection]], provided the symplectic manifold satisfies certain quantization conditions.
 
 It can be interpreted as a procedure of [[quantization]] that sends a classical system defined by the [[symplectic geometry]] $(P,\omega)$ of its [[phase space]] $P$ equipped with a Hamiltonian vector field to a [[Hilbert space]] of states on which a [[Hamiltonian operator]] acts, whose flow describes the [[quantum field theory|quantum dynamics]] of the physical system in question. Geometric quantization is closely related to [[Berezin quantization]] and the subject of [[coherent states]].
@@ -103,6 +110,10 @@ Here are some definitions of important terms. Unfortunately they are defined usi
 * **vertical vectors**: Given a bundle $E$ over a manifold $M$, we say a tangent vector to some point of $E$ is vertical if it projects to zero down on $M$. 
 
 >The only way to learn the rules of this Game of games is to take the usual prescribed course, which requires many years, and none of the initiates could ever possibly have any interest in making these rules easier to learn. --- Hermann Hesse, The Glass Bead Game
+
+# of Poisson manifolds #
+
+One can also consider the theory of geometric quantization of just [[Poisson manifold]]s. This is done in terms of [[symplectic groupoid]]s.
 
 #References#
 
