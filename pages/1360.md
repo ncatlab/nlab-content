@@ -1,3 +1,13 @@
+
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 A _simplicial model category_ is a model or presentation for an [[(∞,1)-category]] that is half way in between a bare [[model category]] and a [[Kan complex]]-[[enriched category]].
