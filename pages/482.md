@@ -10,3 +10,6 @@ The kernel pair is always an [[congruence]] on $X$; informally, $R$ is the subob
 The [[coequalizer]] of the kernel pair, if it exists, is supposed to be the "object of equivalence classes" of the internal [[equivalence relation]] $R$. In other words, it is the [[quotient object]] of $X$ in which [[generalized element]]s are identified if they are mapped by $f$ to equal values in $Y$. In a [[regular category]] (at least), this can be identified with a [[subobject]] of $Y$ called the [[image]] of $f$.
 
 See also: [[regular epimorphism]], [[regular category]], [[exact category]]
+
+
+[[!redirects kernel pairs]]
