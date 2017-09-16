@@ -1,3 +1,2 @@
-See [[foundations]].
-
-category: redirect
+&lt; [[Foundations]]
+[[!redirects Foundations -- history]]
