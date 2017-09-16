@@ -1,3 +1,5 @@
+[[!include cohomology - contents]]
+
 
 # Idea #
 
