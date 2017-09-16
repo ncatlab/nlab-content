@@ -151,7 +151,7 @@ Don't ask me for more details about it. Unfortunately this don't define a primit
 * An abstraction of an abstraction of an abstraction of .... The first level is [[set]]s and is most concrete. This is abstracted to categories (only some categories are categories of sets, hence the abstraction). The next abstraction is to categories of categories or more generally $2$-[[2-category|categories]]. This can be iterated to $n$-[[n-category|categories]] and [[infinity-category|indefinitely]]. This could be called the theory of abstractions.
 * A description of partial [[symmetry|symmetries]], in the sense that [[group]]s describe symmetries.
 * A generalized theory of [[representations]]. In this view every functor is a representation of its domain in its codomain and natural transformations are the [[intertwining operator]]s between representations.
-* The theory of [[directed graph|directed multipsuedographs]] with a [[composition]] law and identity loops. This has given rise to the heavy use of diagrams in category theory.
+* The theory of [[directed graph|directed multipseudographs]] with a [[composition]] law and identity loops. This has given rise to the heavy use of diagrams in category theory.
 * A theory of [[type theory|type theories]]. There is a bijection between categories and type theories.
 * A theory of [[deductive system]]s. There is a bijection between categories and deductive systems.
 * A theory of [[presheaves]] with some properties on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of $\Delta$.
