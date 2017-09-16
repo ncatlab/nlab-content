@@ -22,18 +22,16 @@ Then for $n \in \mathbb{N}$ the _orthogonal group_ $O(n)$ is the subgroup of the
 
 # Whitehead tower and higher orientation structures#
 
-The [[Whitehead tower]] of the orthogonal group plays an important role in appliications related to [[quantum physics]]. 
+The [[Whitehead tower]] of the orthogonal group plays an important role in applications related to [[quantum physics]]. 
 
 The first steps are
 
 $$
-  \cdots \to Fivebrane(n)
-  \to String(n) \to Spin(n)
-  \to SO(n)
-  \to O(n)
+  \cdots \to Fivebrane(n) \to String(n) \to Spin(n) \to SO(n) \to \mathrm{O}(n)
+  \,.
 $$
 
-[[Fivebrane group]] $\to$ [[String group]] $\to$ [[Spin group]] $\to$ [[special orthogonal group]] $\to$ orthogonal group.
+[[Fivebrane group]] to [[String group]] to [[Spin group]] to [[special orthogonal group]] to **orthogonal group**.
 
 
 Given a [[manifold]] $X$, lifts of the structure map $X \to \mathcal{B}O(n)$ of the $O(n)$-[[principal bundle]] to which the [[tangent bundle]] is [[associated bundle|associated]] through this tower define, respectively
