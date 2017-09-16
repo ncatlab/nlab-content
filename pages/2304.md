@@ -39,4 +39,6 @@ _Toby_:  It turns out that I wrote an opinion about this back on [[graph]].
 _Todd_: Although I agree with Mike, I have a possible compromise. We on the nLab have been known to write entries on individual books (like Stone Spaces by Johnstone). Why not simply rename this entry "Graph Theory" (caps) and start talking about this book by Harary, which is being quoted with approval here? That way you could definitely have your fixed anchor -- this is how Harary defines the notion of 'graph', and this is what he does with it -- and you could begin talking about an important book at the same time. 
 
 An entry 'graph theory' (lower-case) would then be about the field at large, as Mike suggests. 
+
+_Toby_:  While a page about Haray\'s book could be cool, I\'m still not convinced that there will be any real conflict between Jon and Mike, as this page develops.
 =--
