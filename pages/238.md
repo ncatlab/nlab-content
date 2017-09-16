@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-18 #
 
+*  [[Toby Bartels]]:  Instead of changing links to [[path-connected space]] (which doesn\'t yet exist) to [[connected space]], I instead added `[[!redirects path-connected space]]` to [[connected space]].  That way, if we ever decide to separate out a new page [[path-connected space]], we don\'t need to go through all of the links and fix them!
+
 * [[Urs Schreiber|Urs]]: added the defintion of the product to [[simplicial homotopy group]]
 
 * [[Todd Trimble|Todd]]: wrote the beginnings of an apparently long-awaited article on [[weighted colimit]]s. 
