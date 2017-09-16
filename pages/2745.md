@@ -1,4 +1,3 @@
-[[!redirects Cornelis Mertzlufft-Paufler]]
 * [website](http://www.mertzlufft-paufler.de/)
 
 
@@ -7,4 +6,7 @@
 
 * [[multisymplectic geometry]]
 
+
 category: people
+
+[[!redirects Cornelis Mertzlufft-Paufler]]
