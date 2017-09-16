@@ -36,6 +36,8 @@ Various further axiom structures are considered and of relevance on additive and
 
 * [[Quillen exact category]]
 
+* [[Grothendieck category]]
+
 
 #Examples#
 
