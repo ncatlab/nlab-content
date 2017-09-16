@@ -26,9 +26,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[David Roberts]]: question at [[topological T-duality]]. No mention has been made of the Adelaide school's treatement there!
   
-    * [[John Baez]]: so, please tell us what that school has done, or at least add some links to papers on the arXiv.
+  * [[John Baez]]: so, please tell us what that school has done, or at least add some links to papers on the arXiv.
 
-    * [[David Roberts]]: I did provide a couple of references in my comment. But to quote Galois, \'I have not time!\' (but I'm not about to duel anyone). I'll do a little bit now.
+  * [[David Roberts]]: I did provide a couple of references in my comment. But to quote Galois, \'I have not time!\' (but I'm not about to duel anyone). I'll do a little bit now.
 
 *  [[Toby Bartels]]:
    *  Started [[singular cohomology]] by copying the definition from [[cup product]].
