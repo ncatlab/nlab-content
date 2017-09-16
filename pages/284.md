@@ -1,6 +1,7 @@
 [[!redirects (∞,1)-category]]
 [[!redirects (∞,1)-categories]]
 [[!redirects (infinity,1)-categories]]
+[[!redirects infinity comma one category]]
 
 
 #Idea#
