@@ -1,26 +1,34 @@
-Eckmann--Hilton duality is an abstract [[duality]] arising from arrow reversal in [[Top]]. It manifests itself in a duality between [[homotopy theory|homotopy]] and [[cohomology]] and leads to the notion of [[cohomotopy]].
+Eckmann and Hilton noticed that a number of notions and theorems in the homotopy theory of [[pointed object|pointed]] topological spaces can be dualized in the sense of certain expanding dictionary:
 
-One can see this in the fact that [[cohomology group]]s 
-(for [[Eilenberg-Mac Lane spectrum|ordinary cohomology]])
-consist of [[homotopy]] classes of maps into [[Eilenberg-Mac Lane space|a space with a single nontrivial]] [[homotopy group]], while homotopy groups consist of homotopy classes of maps from a space with a single nontrivial cohomology group:
-* $H^n(X, \mathbb{Z}) \cong [X, K(\mathbb{Z},n)]$
-* $\pi_n(X) \cong [S^n, X]$
+* homotopy -- cohomology
 
-Here, $K(\mathbb{Z},n)$ is an [[Eilenberg-Mac Lane space]] whose only interesting homotopy group is $\pi_n(K(\mathbb{Z},n)) = \mathbb{Z}$, while $S^n$ is a [[sphere]] whose only interesting cohomology group is the $H^n(S^n,\mathbb{Z}) = \mathbb{Z}$.
+* fibration  -- cofibration
 
-Note though that this duality does not hold perfectly in [[Top]]. For example, a pullback of a cofibration by a fibration is a cofibration, but a pushforward of a fibration by a cofibration is not a fibration. Since the [[model category]] axioms are self-dual, the failure of Eckmann-Hilton duality for ordinary homotopy theory shows that there are interesting facts about ordinary homotopy theory which cannot be derived from these axioms.
+* mapping cylinder -- mapping cocylinder
 
+* suspension $\Sigma X$ -- loop space $\Omega X$
 
-#References#
+The "duality" in their work has been just a heuristics rather than a systematic algorithm to dualize constructions and theorems. It has a little flavour of working with [[adjoint functors]], though it does not reduce to Kan adjointness. 
 
-see 
+Later some versions have been made rigorous, most well-known being the Fuks duality in homotopy theory.
 
-* Encyclopedia of Mathematics: [Eckmann-Hilton duality](http://eom.springer.de/E/e120020.htm)
+D. B. Fuks considers the category $End(kTop_*)$ of endofunctors on the category $kTop_*$ of pointed [[compactly generated space|compactly generated]] Hausdorff spaces. He enriches this category in $kTop_*$ as follows: Let $S,T$ be two endofunctors, then the set $\{S\to T\}$ of isomorphism classes of natural transformations $S\to T$ is equipped with the weakest topology in which all maps $\alpha_X$, $X\in kTop_*$ of taking components $\{S\to T\}\mapsto Map(S(X),T(X))\in kTop_*$ are continuous. Recall that the topology on the set of maps $S(X)\to T(X)$ in $kTop_*$ is obatined by first taking the compact-open topology and then performing the [[kaonization]] of the space so obtained. 
 
-for more details and for more references
+A **Fuks duality** is any functor $D: End(kTop_*)\to End(kTop_*)$ such that 
 
-Some blog discussion is [here](http://golem.ph.utexas.edu/category/2008/09/group_cocycles_and_simplices.html#c019087), [here](http://golem.ph.utexas.edu/category/2008/09/mathematical_miniatures.html#c019103), and [here](http://golem.ph.utexas.edu/category/2009/06/cohomology_and_homotopy.html#c024807)
+1. for any two functors $S,T\in End(kTop_*)$, $\{S\to DT\}$ is binaturally homeomorphic to
+$\{DS\to T\}$ 
 
+2. $D\Sigma =\Omega$, $D\Omega = \Sigma$.
 
-[[!redirects Eckmann–Hilton duality]]
-[[!redirects Eckmann--Hilton duality]]
+**Theorem.(D. B. Fuks)** There exists a unique Fuks duality functor. 
+
+Notice that $D^2 = D\circ D$ is not isomorphic to the identity in general, though it is identical when applied to a number of natural endofunctors in homotopy theory. Fuks duality can be extended suitably to functors of many arguments. 
+
+* D. B. Fuks, On duality in homotopy theory, Soviet Math. Dokl. 2 (1961), 1575-1578.
+
+* D. B. Fuks, Eckmann-Hilton duality and the theory of functors in the category of topological spaces, 1966 Russ. Math. Surv. 21 1-33 [doi](http://dx.doi.org/10.1070/RM1966v021n02ABEH004149), [free russian orig.pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=5847&what=fullt&option_lang=rus)
+
+* R. Nakagawa, On Fuks homotopy duality, Sci. Rep. Tokyo Kyoiku Daigaku Sect. A 8 (1963), 93-98. 
+
+[[!redirects Fuks duality]]
