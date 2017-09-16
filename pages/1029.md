@@ -1,3 +1,2 @@
-See [[parallel morphisms]].
-
-category: redirect
+&lt; [[parallel morphism]]
+[[!redirects parallel morphism -- history]]
