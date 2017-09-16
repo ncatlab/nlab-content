@@ -1,7 +1,9 @@
+[[!redirects smooth topoi]]
+[[!redirects smooth toposes]]
+
 <div class="rightHandSide toc">
 [[!include synthetic differential geometry - contents]]
 </div>
-
 
 #Contents#
 
@@ -10,10 +12,10 @@
 
 #Idea#
 
-A **smooth topos** or **smooth [[lined topos]]** is 
-the kind of [[topos]] studied in [[synthetic differential geometry]]. a [[category]] of [[generalized smooth space]]s for which  a notion of [[infinitesimal space]] exists.
+A __smooth topos__ or __smooth [[lined topos]]__ is 
+the kind of [[topos]] studied in [[synthetic differential geometry]], a [[category]] of [[generalized smooth spaces]] for which a notion of [[infinitesimal space]] exists.
 
-It is defined to be a [[category]] of objects that behave like [[space]]s, one of which -- the _line_ object $R$ -- is equipped with the structure of a commutative [[algebra]], such that for [[infinitesimal object]]s $S \subset R^n$ all morphisms $S \to R$ are _linear_  -- i.e. such that the [[Kock-Lawvere axiom]] holds.
+It is defined to be a [[category]] of objects that behave like [[spaces]], one of which --- the _line_ object $R$ --- is equipped with the structure of a commutative [[algebra]], such that for [[infinitesimal object]]s $S \subset R^n$ all morphisms $S \to R$ are _linear_  --- i.e. such that the [[Kock-Lawvere axiom]] holds.
 
 # Definition #
 
@@ -104,6 +106,4 @@ Notice that in the graded commutative algebra $A$ every odd element $\theta$ aut
 ## Dubuc topos ##
 
 ## Stein topos ##
-
-
 
