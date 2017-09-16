@@ -1,11 +1,15 @@
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
 
 A class $W$ of [[weak equivalence]]s in a [[category]] $C$ is said to admit a **calculus of fractions** if it satisfies some axioms ensuring that its [[localization]] $C[W^{-1}]$ can be constructed in a particularly simple way using 'one-step generalized morphisms.'  These axioms are a categorical analogue of the notion of a [[multiplicative system]] at which one can localize a ring.
 
 Since composition in a category is generally non-commutative, we distinguish 'left' and 'right' calculi of fractions, just as for localization of non-commutative rings.  In either case $C[W^{-1}]$ is referred to as a [[category of fractions]], since its morphisms are two-step zigzags (either $\overset{f}{\to} \overset{w}{\leftarrow}$ or $ \overset{w}{\leftarrow} \overset{f}{\to}$, depending on the handedness of the calculus) in which $w\in W$, which we can think of  as 'fractions' $w^{-1} f$ or $f w^{-1}$.  One sometimes also says that $(C,W)$ 'admits a category of fractions.'
 
 
-#Definition#
+## Definition ##
 
 A pair $(C,W)$ of a [[category]] $C$ and a class of [[morphism]]s $W$ is said to admit a **calculus of right fractions** if the following properties hold.
 
@@ -28,7 +32,7 @@ It is common to assume additional closure conditions on $W$ which make no differ
 In the presence of either sort of calculus of fractions, the 2-out-of-6 property is equivalent to _saturation_ of $W$, i.e. that any morphism in $C$ which becomes an isomorphism in $C[W^{-1}]$ is already in $W$.  Therefore, in this case we may equivalently call $(C,W)$ _saturated_.  See 7.1.20 of [[Categories and Sheaves]], in which a pair $(C,W)$ admitting a calculus of left fractions is called a _right multiplicative system_. 
 
 
-# Construction of the Localization #
+## Construction of the Localization ##
 
 Suppose that $(C,W)$ admits a calculus of right fractions.  Then the [[localization]] of $C$ at $W$ can be realized by taking the same objects as in $C$ and the [[hom-set]] $C[W^{-1}](a,b)$ to be the set of equivalence classes of [[span|spans]] whose left leg is in $W$, under the equivalence relation where $a\stackrel{v}\leftarrow a'\stackrel{f}\rightarrow b$ is equivalent to $a\stackrel{w}\leftarrow a''\stackrel{g}\rightarrow b$ iff there exists an object $\bar{a}$
 and morphisms $s:\bar{a}\to a'$, $t:\bar{a}\to a''$ such that $f\circ s = g\circ t$, $v\circ s = w\circ t$, and $v\circ s = w\circ t$ is in $W$.  We denote the equivalence class of $a\stackrel{v}\leftarrow a'\stackrel{f}\rightarrow b$ by $f\circ v^{-1}$.
@@ -60,7 +64,7 @@ $$
   \,.
 $$
 
-# Properties of the Localization #
+## Properties of the Localization ##
 
 One important consequence of this construction is that when $W$ admits a calculus of right fractions, the localization functor $Q:C\to C[W^{-1}]$ is left [[exact functor|exact]], and therefore preserves all finite [[limit]]s existing in $C$.  Dually, if $W$ admits a calculus of left fractions, then $Q$ is right exact and preserves finite colimits.
 
@@ -78,7 +82,7 @@ $$
 $$
 
 
-#Examples#
+## Examples ##
 
 * If $C$ is a [[category of fibrant objects]] and $\pi C$ its
 category of morphisms modulo [[homotopy]], the collection of 
@@ -93,7 +97,7 @@ admits calculi of both left and right fractions.
 in $C = [S^{op},Set]$ with respect to the given [[Grothendieck topology]] on $S$ admits a calculus of right fractions.  In this case the localization is the category of [[sheaf|sheaves]] on $S$.
 
 
-#References#
+## References ##
 
 The above definition is due to Gabriel-Zisman in the book 
 
