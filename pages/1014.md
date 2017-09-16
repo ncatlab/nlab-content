@@ -16,19 +16,23 @@ The basic theoretical idea is that the class of well-founded sets is the [[initi
 
 ### Membership trees ###
 
-In this representation, a pure set is a _fixed rooted directed tree_, possibly a _well-founded_ one.  We will define this in several stages:
+In this representation, a pure set is a _rigid rooted directed tree_, possibly a _well-founded_ one.  We will define this in several stages:
 *  A __[[directed graph]]__ (technically, a _simple directed pseudograph_) consists of a set $N$ of __nodes__ and a binary [[relation]] $\to$ on the nodes; a node $i$ is called a __child__ of a node $j$ if $i \to j$.
 *  Every directed graph (simple or not) generates a [[quiver]], a category whose morphisms are called __paths__.
 *  A __tree__ (technically, a _directed rooted tree_) is a simple directed graph equipped with a __root__ node $r$ that is a [[terminal object]] of the quiver (meaning that every node has a unique path to the root).
 *  The __full subtree__ of a tree rooted at a node $i$ consists of all of the nodes with a path (necessarily unique) to $i$.
-*  A tree is __fixed__ if, whenever two full subtrees rooted to children of the same node are isomorphic (as graphs), then they are the same subtree; equivalently, any graph automorphism of the tree must be the identity function.
+*  A tree is __rigid__ if, whenever two full subtrees rooted to children of the same node are isomorphic (as graphs), then they are the same subtree; equivalently, any graph automorphism of the tree must be the identity function.
 *  A tree is __well-founded__ if $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded).  Assuming the principle of [[excluded middle]], this is equivalent to saying that every branch in the tree is of finite length.
 
 These subsidiary notions are also needed:
-*  Two trees are __equivalent__ if there exists a graph isomorphism between them; for fixed trees, such an isomorphism must be unique.
-*  A tree $X$ is an __immediate subtree__ of a tree $Y$ if $X$ is isomorphic to a tree rooted at one of the children of the root in $Y$; for fixed trees, this can again happen only in one way.
+*  Two trees are __equivalent__ if there exists a graph isomorphism between them; for rigid trees, such an isomorphism must be unique.
+*  A tree $X$ is an __immediate subtree__ of a tree $Y$ if $X$ is isomorphic to a tree rooted at one of the children of the root in $Y$; for rigid trees, this can again happen only in one way.
 
-Then fixed trees model ill-founded pure sets; well-founded fixed trees model well-founded pure sets.  The immediate-subtree relation models the global membership relation on pure sets.  Notice that the [[axiom of extensionality]] holds: if two trees have equivalent immediate subtrees, then they are themselves equivalent.  More generally, if __[[ETCS]]__ holds for the structural sets (of nodes, etc) used in this definition, then $\mathbf{ZC}^-$ (which is __[[ZFC]]__ without the axioms of [[axiom of replacement|replacement]] and [[axiom of foundation|foundation]]) holds for fixed trees, while $\mathbf{ZC}$ ($\mathbf{ZC}^-$ together with foundation) holds for well-founded fixed trees.  (Similar results hold for [[constructive mathematics|constructive]] weakenings of ETCS and ZFC; other possible changes, such as adding replacement or [[Grothendieck universe]]s, also correspond.)
+Then rigid trees model ill-founded pure sets; well-founded rigid trees model well-founded pure sets.  The immediate-subtree relation models the global membership relation on pure sets.  Notice that the [[axiom of extensionality]] holds: if two trees have equivalent immediate subtrees, then they are themselves equivalent.  More generally, if __[[ETCS]]__ holds for the structural sets (of nodes, etc) used in this definition, then $\mathbf{ZC}^-$ (which is __[[ZFC]]__ without the axioms of [[axiom of replacement|replacement]] and [[axiom of foundation|foundation]]) holds for rigid trees, while $\mathbf{ZC}$ ($\mathbf{ZC}^-$ together with foundation) holds for well-founded rigid trees.  (Similar results hold for [[constructive mathematics|constructive]] weakenings of ETCS and ZFC; other possible changes, such as adding replacement or [[Grothendieck universe]]s, also correspond.)
+
++-- {: .query}
+This definition needs to be fixed; it gives only Scott-[[extensional relation|extensionality]] rather than strong extensionality.  I\'ll work on it.  ---Toby
+=--
 
 #### Examples ####
 
@@ -69,7 +73,7 @@ $$ \array {
 \uparrow &          &     &          & \uparrow \\
 \empty   &          &     &          & \empty
 } $$
-But this is not fixed, since the obvious vertical symmetry is a non-identity automorphism.
+But this is not rigid, since the obvious vertical symmetry is a non-identity automorphism.
 
 A non-well-founded set will give an infinite picture; here is $\bullet = \{\bullet\}$:
 $$ \array { \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \vdots } $$
@@ -152,7 +156,7 @@ Now an extensional accessible graph models a [[hereditarily finite set]] iff the
 
 ### Relation between these ###
 
-Peter Aczel\'s general model of a pure set is any _simple directed accessible pointed pseudograph_.  That is, the graph need not be a tree (much less a fixed one), nor need it be extensional.  One can make such a graph extensional by identifying nodes to make the extensional quotient as explained at [[extensional relation]].  Then one can unwrap this extensional graph into a fixed tree by including one copy of each node for each of its paths to the root.  So there are two extreme ways to represent a pure set by an isomorphism class of graphs, but any accessible graph will represent a pure set one way or another.
+Peter Aczel\'s general model of a pure set is any _simple directed accessible pointed pseudograph_.  That is, the graph need not be a tree (much less a rigid one), nor need it be extensional.  One can make such a graph extensional by identifying nodes to make the extensional quotient as explained at [[extensional relation]].  Then one can unwrap this extensional graph into a rigid tree by including one copy of each node for each of its paths to the root.  So there are two extreme ways to represent a pure set by an isomorphism class of graphs, but any accessible graph will represent a pure set one way or another.
 
 ## References ##
 
