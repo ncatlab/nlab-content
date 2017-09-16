@@ -1,4 +1,4 @@
-Given a commutative [[field]] $k$, a **noncommutative thin $k$-scheme** (in the terminology of [[Maxim Kontsevich]]) is a [[left exact functor]] from the category $Alg^{fd}_k$ of finite dimensional $k$-algebras to [[Set]], or equivalently by duality, from $(Coalg^{fd}_k^{op}\to Set$. Every such functor is representable by a $k$-coalgebra. 
+Given a commutative [[field]] $k$, a **noncommutative thin $k$-scheme** (in the terminology of [[Maxim Kontsevich]]) is a [[left exact functor]] from the category $Alg^{fd}_k$ of finite dimensional $k$-algebras to [[Set]], or equivalently by duality, from $Coalg^{fd}_k^{op}$ to $Set$. Every such functor is [[representable functor|representable]] by a $k$-[[coalgebra]]. 
 
 * L. le Bruyn, _Noncommutative geometry and dual coalgebras_, [arXiv:0805.2377](http://arxiv.org/abs/0805.2377)
 
