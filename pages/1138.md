@@ -69,7 +69,7 @@ $$
 
 They do not in the same simple way pull back, since images of open subsets need not be open. The Kan extension  computes the best possible approximation:
 
-The inverse image $(f^{-1})\dagger : PSh(Y) \to PSh(X)$ sends $F \in PSh(Y)$ to
+The inverse image $(f^{-1})^\dagger : PSh(Y) \to PSh(X)$ sends $F \in PSh(Y)$ to
 
 $$
   f^\dagger F : U \mapsto colim_{(U \to f^{-1}(V)) \in (const_U, f^{-1})} F(V)
@@ -80,7 +80,7 @@ This approximates the possibly non-open subset $f^{-1}(V)$ by all open subsets $
 
 On the other hand, the extension
 
-$(f^{-1})\ddagger : PSh(Y) \to PSh(X)$ sends $F \in PSh(Y)$ to
+$(f^{-1})^\ddagger : PSh(Y) \to PSh(X)$ sends $F \in PSh(Y)$ to
 
 $$
   f^\dagger F : U \mapsto colim_{(f^{-1}(V) \to U) \in (f^{-1},const_U)} F(V)
