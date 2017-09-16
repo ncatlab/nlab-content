@@ -1,6 +1,6 @@
-Let $G$ be a group in some category $C$ of spaces. We assume that for every space $X$ in $C$ some category of sheaves $F_X$ is given, in a way making a [[fibered category]] $F$ over $C$. For example, we can consider sheaves of abelian groups over topological spaces. 
+Let $G$ be a [[group object|group]] in some category $C$ of spaces. We assume that for every space $X$ in $C$ some category of sheaves $F_X$ is given, in a way making a [[fibered category]] $F$ over $C$. For example, we can consider sheaves of abelian groups over topological spaces. 
 
-Consider a $G$-space $X$ with action $\rho: G\times X\to X$ and projection $p: G\times X\to X$: one associates to these data the simplicial object denoted by $[X/G]$ or sometimes $X//G$. 
+Consider a $G$-space $X$ with action $\rho: G\times X\to X$ and projection $p: G\times X\to X$.  These data give rise to an [[action groupoid]] in the category of spaces, denoted by $[X/G]$ or sometimes $X//G$.  This groupoid can also be identified with its [[nerve]], which is a simplicial object in spaces.
 
 An __equivariant sheaf__ over a $G$-space $X$ is a $G$-[[equivariant object]] in $F_G$. In other words, it is a sheaf $x$ over $X$ together with an isomorphism $\theta : p^* x \to \rho^* x$ of sheaves over $G\times X$ satisfying the usual cocycle condition on $G\times G\times X$. All equivariant sheaves form the equivariant fiber $F_X^G$ of $F$ over $X$. The equivariant fiber over $X$ is thought of as a fiber over the simplicial object $[X/G]$.
 
@@ -9,3 +9,7 @@ If the fibered category $F$ is a [[stack]] for some [[subcanonical topology|subc
 If $F$ is not a stack one can instead of a Grothendieck topology in $C$ use the effective descent topology and include into the condition for a torsor instead of local triviality in a Grothendieck topology that $P$ over $X/G$ is an effective descent epimorphism relative to the fibered category $F$ over $C$. 
 
 Notice that being an equivariant sheaf is an additional structure on a sheaf, rather than a property. Mumford introduced this notion in the geometric invariant theory under the name $G$-linearization of a sheaf. $G$-equivariant sheaves generalize (sheaves of sections of) $G$-equivariant bundles, as studied for example in representation theory earlier by Borel, Weil and Bott.
+
+Note also that if "space" means [[topological space]] and $G$ is a [[topological group]] acting on the [[point]] $1$, then equivariant sheaves are just the same as continuous $G$-sets.  In particular, if $G$ is a discrete group, then equivariant sheaves are just the same as ordinary $G$-sets.
+
+Finally, observe that the definition of equivariant sheaf only depends on the action groupoid, and thus can be generalized to equivariant sheaves on any internal groupoid in the category of spaces.  If "space" means [[locale]], then every [[Grothendieck topos]] can be presented as the category of equivariant sheaves on some [[localic groupoid]].  This is a theorem of Joyal and Tierney, and can be found in chapter C5 of the [[Elephant]].
