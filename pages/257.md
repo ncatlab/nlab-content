@@ -44,10 +44,15 @@ The parameterized version of the model structure on simplicial sets is
 
 which serves as a [[models for infinity-stack (infinity,1)-toposes|model for infinity-stack (infinity,1)-toposes]].
 
-These are based on more generally available model structures on [[functor category|functor categories]] such as 
+These are based on more generally available 
+
+* [[projective model structure|global model structures on functor categories]]
+
+such as
 
 * [[Reedy model structure]]s .
 
+A source of relevance in practice of new model structures from old ones is [[Bousfield localization]].
 
 Many notions of [[higher category theory|higher categories]] come equipped with model structures, witnessing the fact that when retaining only invertible transformations between $n$-categories they should form an $(\infty,1)$-[[(infinity,1)-category|category]]. 
 
