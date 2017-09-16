@@ -22,7 +22,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  Welcome, Jon!  It would be ideal if you actually wrote about this material instead of just linking to discussion elsewhere; hopefully, you\'re already planning to do this.  Assuming that you wrote the material linked elsewhere (or have permission from those who did write it), you could mostly copy and paste it here; we regulars would be happy to help with formatting and the like.  Some more technical notes: we have a convention of lowercase page titles, so that people can make links to your pages from the middle of sentences; and speaking of making links, you should probably link this stuff from the main [[logic]] page.  (I\'ll do some of this right now.)  ---[[Toby Bartels]]
 
-* Thanks, Toby, that's the plan.  The beauty of interaction is that the same material injected into different environments tends to develop in different directions.  ---[[Jon Awbrey]]
+   * Thanks, Toby, that's the plan.  The beauty of interaction is that the same material injected into different environments tends to develop in different directions.  ---[[Jon Awbrey]]
 
 * [[Jon Awbrey]]: Almost Ready For Prime Time $\nu$'s
    * [[cactus language]]
