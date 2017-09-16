@@ -45,6 +45,8 @@ $$ s_i h_j = \left\lbrace\array{
 It is fairly easy to prove that the combinatorial definition of homotopy agrees with the one via the cylinder both for simplicial sets and for simplicial objects in any [[finitely cocomplete category]], $C$.  This uses the fact that the category of simplicial objects in a cocomplete category, $C$, has [[copower|copowers]] with finite simplicial sets and hence in articular with $\Delta[1]$. (As there are explicit formulae for the construction of [[copower|copowers]]
 +-- {: .query}
 Something is missing here ...
+
+[[Tim Porter|Tim]]:  Yes I agree, but with only my own resources available, I was unable to find them so was hoping someone nkind would come up with them.  They derive from the coend formulae /Kan extension formulae using some combinatorics to discuss the indexing sets. I think Quillen gave some form of the, but have not got a  copy of HA. I needed them recently and could not find them in any of the usual sources, and did not manage to work them out using the Kan extension idea either (Help please anyone). We could do with those formulae or with a reference to them at least.
 =--
 
 
