@@ -18,4 +18,8 @@ equals the [[identity]] on $X$.
 
 * A category in which all morphisms have inverses is called a [[groupoid]].
 
-* An amusing exercise is to show that if $f,g,h$ are morphisms such that $f\circ g,\; g\circ h$ are defined and are isomorphisms, then $f,g,h$ are all isomorphisms. When this is applied to a  homotopy category such as $HTop$ it implies the construction of and formulae for certain homotopies. 
+* An amusing exercise is to show that if $f,g,h$ are morphisms such that $f\circ g,\; g\circ h$ are defined and are isomorphisms, then $f,g,h$ are all isomorphisms. 
+
+  * This is a special case of the **2-out-of-6-property** which is satisfied by the _weak equivalences_ in any [[homotopical category]].
+
+  * When this is applied to a  homotopy category such as $HTop$ it implies the construction of and formulae for certain homotopies. 
