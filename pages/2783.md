@@ -96,7 +96,16 @@ Another way of phrasing this is that $C_{ex/reg}$ is the category of internal [[
 
 * The [[Elephant]], Sections A1.3 and A3.
 
+
+[[!redirects regular or exact completion]]
+[[!redirects regular and exact completion]]
 [[!redirects exact completion]]
 [[!redirects ex/lex completion]]
 [[!redirects ex/reg completion]]
 [[!redirects reg/lex completion]]
+[[!redirects regular or exact completions]]
+[[!redirects regular and exact completions]]
+[[!redirects exact completions]]
+[[!redirects ex/lex completions]]
+[[!redirects ex/reg completions]]
+[[!redirects reg/lex completions]]
