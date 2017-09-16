@@ -7,7 +7,7 @@ A non-technical account of some concepts in cohomology from this perspective is 
 
 #Definition#
 
-## Nonabelian (unstable) cohomology ##
+## General (or "nonabelian" or "unstable") cohomology ##
 
 Given an [[(infinity,1)-topos]] $\mathbf{H}$, for any two [[object]]s $X$, $A$ of $\mathbf{H}$ the **cohomology** of $X$ with coefficients in $A$ is nothing but the [[hom-space]] $\mathbf{H}(X,A)$ (an [[infinity-groupoid]]).
 
@@ -21,14 +21,20 @@ More precisely:
 
 * the equivalence classes $[c] \in \pi_0 \mathbf{H}(X,A)$ are the **cohomology classes**.
 
-Hence for $H = Ho_{\mathbf{H}}$ the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathbf{H}$, the _cohomology set_ is
+Hence for $H = Ho_{\mathbf{H}}$ the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathbf{H}$, the _cohomology set_ with coefficients in $A$ is
 
 $$
   H(X,A) := Ho_{\mathbf{H}}(X,A)
   \,.
 $$
 
-This is itself a group if $A$ happens to carry a group structure (being a [[2-group]] or [[cat-n-group]] or the like).
+This is itself a group -- the [[cohomology group]] -- if $A$ happens to carry a group structure (being a [[2-group]] or [[cat-n-group]] or the like).
+
+## relation to homotopy ##
+
+By abstract [[duality]], cohomology is dual to [[homotopy (as an operation)]].
+
+The cohomology _of_ $X$ with coefficients in $A$ is the [[homotopy]] of $A$ with co-coefficients in $X$.
 
 ## objects classified by cohomology classes ##
 
@@ -52,6 +58,40 @@ a [[stable (infinity,1)-category]].
 [[Eric]]: Could someone explain how this relates to the version of <a href="http://en.wikipedia.org/wiki/Cohomology">cohomology I am familiar with</a>? Where is the coboundary?
 
 =--
+
+### ordinary cohomology of cochain complexes ###
+
+The ordinary notion of cohomology of a cochain complex
+is the special case of cohomology in the 
+[[stable (infinity,1)-category]] of [[chain complex]]es.
+
+For $V^\bullet$ a cochain complex let $V_\bullet = (V^\bullet)^*$
+be the corresponding dual [[chain complex]]. Let
+
+$$
+  K(n,I) := \mathbf{B}^n I
+$$ 
+
+be the chain complex with the 
+tensor unit (the ground field, say) in degree $n$ and
+trivial elsewhere. Then cochain complex
+cohomology of $V^\bullet$ in degree $n$ is
+
+$$
+  H^n(V^\bullet)
+  \simeq
+  \pi_0\mathbf{H}(V_\bullet, \mathbf{B}^{-n} I)
+  \,.
+$$
+
+Comparing with the general definition of cocycles and coboudnaries from above, one confirms that
+
+* the **cocycles** are the chain maps
+  $$
+    V_\bullet \to I[n]_\bullet
+  $$
+
+* the **coboundaries** are the chain homotopies between these chain maps.
 
 #Remarks#
 
