@@ -1,7 +1,7 @@
 Given an $A$-[[coring]] (a comonoid in the category of $A$-$A$-bimodules for a $k$-algebra $A$) $(C,\Delta,\epsilon)$ (example: any $k$-algebra) a __semi-grouplike__ element is any $g\in C$ such that $\Delta(g) = g\otimes g$. 
 A __grouplike__ (or group-like) element is a semi-grouplike one such that $\epsilon(g) = 1$. 
 
-The grouplike elements in a $k$-bialgebra form a [[group]]. (Can this fact be [[categorification|categorified]] ??)
+The grouplike elements in a $k$-[[Hopf algebra]] form a [[group]]. (Can this fact be [[categorification|categorified]] ??)
 
 For corings with a (sometimes semi-)grouplike element one can define many useful notions which do not exist for general corings.  For example, given a semi-grouplike element $g$, the tensor algebra $\Omega C = \oplus_i \Omega^i C$ of the coring $C$, where $\Omega^i C = C\otimes_A \ldots \otimes_A C$ ($i$ times) over $A$ can be equipped with a [[differential]] $d$ of degree $+1$ in a canonical way making it a [[differential graded algebra]]. In degree $0$, one defines $d a = g a - a g$ and in higher degree 
 $$d(c_1\otimes\ldots\otimes c_n) = g\otimes c_1\otimes\ldots\otimes c_n + (-1)^{n+1}c_1\otimes\ldots\otimes c_n\otimes g + \sum_{i=1}^n c_1\otimes\ldots\otimes c_{i-1}\otimes \Delta(c_i)\otimes c_{i+1}\otimes\ldots \otimes c_n.$$
