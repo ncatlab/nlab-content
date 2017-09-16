@@ -38,6 +38,7 @@
 * [[differential logic]]
 * [[differential propositional calculus]]
 * [[continuous predicate]]
+* [[higher order proposition]]
 * [[hypostatic abstraction]]
 * [[logical graph]]
 * [[minimal negation operator]]
