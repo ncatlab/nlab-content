@@ -175,6 +175,7 @@ $$
 
 
 ### Geometric morphisms of sheaf topoi 
+{#sheaftopoi}
 
 For $X$ a [[topological space]], write $Sh(X) := Sh(Op(X))$ as usual for the [[topos]] given by the [[category of sheaves]] on the [[category of open subsets]] $Op(X)$ with the standard [[coverage]]
 
@@ -250,6 +251,10 @@ This yields a well defined function for the following reasons:
 * there is at most one $y$ satisfying this equation: if $y_1 \neq y_2$ both satisfy it, there are, by assumption of $Y$ being [[Hausdorff space|Hausdorff]], neighbourhoods $V_1 \ni y_1$ and $V_2 \ni y_2$ such that (using that $f^*$ preserves limits hence intersections) $f^*(V_1) \cap f^*(V_2) = f^*(V_1 \cap V_2) = \emptyset$, which contradicts the assumption.
 
 * there is at least one $y$ satisfying this equation: again by contradiction: if there were none then every $y \in Y$ has a neighbourhood $V_y$ with $x \not\in f^*(V_y)$, so that similarly to above we conclude with $x \not\in \cup_{y \in Y} f^*(V_y) = f^*(\cup_y V_y) = f^*(Y) = X$ again a contradiction.
+
++-- {: .query}
+Am I right that what we are really need of our space here is not necessarily that it be Hausdorff but simply that it be [[sober space|sober]]?  (Then the nonconstructive aspects of the argument ---which is what made me look at this--- come in only because the theorem that a Hausdorff space must be sober is not constructively valid.)  ---Toby
+=--
 
 So our function $\bar f : X \to Y$ is well defined and satisfies $\bar f^{-1}(U_Y) = f^*(U_Y)$ for every open set $U_Y \in Obj(Op(Y))$. In particular it is therefore a continuous map.
 
