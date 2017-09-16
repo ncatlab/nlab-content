@@ -28,7 +28,11 @@ The construction of the ([[Grothendieck topos|Grothendieck]]-) [[topos]] of [[ge
 
   * [[transversal maps]]
 
+* [[infinitesimal object]]
+
 * [[differential forms in synthetic differential geometry]]
+
+
 
 ...
 
