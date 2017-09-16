@@ -27,7 +27,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-11
 
-*  [[Toby Bartels]]:  Wrote [[2-functor]] as a portal to more precise definitions; also a little at [[semi-strict infinity-category]].
+*  [[Toby Bartels]]:
+   *  Agreement is being reached at [[k-transfor]].
+   *  Wrote [[2-functor]] as a portal to more precise definitions; also a little at [[semi-strict infinity-category]].
 
 * [[Mike Shulman]]: For those who aren't reading at [[(n,k)-transformation]], the proposal is to replace that unlovely term with Sjoerd Crans' word **k-transfor** (so 0-transfor = functor, 1-transfor = transformation, 2-transfor = modification, etc.).  Please comment!
 
