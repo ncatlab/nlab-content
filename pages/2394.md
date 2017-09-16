@@ -41,3 +41,5 @@ The standard [[model structure on simplicial presheaves]] restricts to the stand
 Sometimes it is useful to restrict further to [[simplicial object]]s in the category of [[concrete sheaf|concrete sheaves]] on $C$. 
 
 For instance for  $C$ a suitable [[site]] of smooth test spaces a simplicial concrete sheaf is a simplicial [[diffeological space]].
+
+[[!redirects simplicial sheaves]]
