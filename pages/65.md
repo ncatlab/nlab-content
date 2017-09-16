@@ -11,6 +11,8 @@
 
 In general, "folk model structures" are [[model category]] structures on the categories of some flavor of [[n-category|n-categories]] for $1\le n\le \infty$ (note that $n=\infty$ or $\omega$ is allowed).
 
+The appropriateness of the term 'folk' is [debatable](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=649&page=1#Item_3); alternatives are 'canonical', 'standard', 'natural', and 'categorical'.
+
 While ultimately the collection of all [[n-category|n-categories]] should form an $(n+1)$-category, restricting that to just invertible higher morphisms will yield an [[(n,r)-category|(n+1,1)-category]]. So in general, given that $n$ may be $= \infty$, an [[(infinity,1)-category]].
 
 A (folk) [[model category|model structure]] on the category of $n$-categories is a [[presentable (infinity,1)-category|presentation]] of this [[(infinity,1)-category]].
