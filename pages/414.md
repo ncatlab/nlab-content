@@ -14,3 +14,4 @@ A category $C$ has **enough projectives** if for every object $X$ there is an ep
 
 * There are variations of the definition where "epimorphism" is replaced by some other type of morphism, such as a [[regular epimorphism]] or [[strong epimorphism]] or the left class in some [[orthogonal factorization system]].  In this case one may speak of **regular projectives** and so on.  In a [[regular category]] "projective" almost always means "regular projective."
 
+[[!redirects enough projectives]]
