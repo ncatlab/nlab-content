@@ -12,9 +12,76 @@ This may be realized in particular by
 
 In the presence of magnetic charge the electromagnetic field is modeled by a coycle in differential [[twisted cohomology]], where the twist is given by the differential 3-cocycle that models the magnetic current.
 
-# Relation to the physical entities and notions #
 
-In the following we describe how the abstract definition of the electromagnetic field as a differential cocycle encodes the physical observables of electromagnetism.
+# Mathematical model from physical input #
+
+Physical experiment shows that the electromagnetic field on a pseudo-Riemannian spacetime $X$ has the following properties.
+
+1. Maxwell's equations
+  
+   The electromagnetic field (in the absence of magnetic charges) is given by a 2-form $F \in $ and a 3-form $j_{el}$ satisfying **Maxwell's equations**
+
+   $$
+     d F = 0
+   $$
+
+   $$
+    d \star F = j_{el}
+   $$
+
+   The first equation with Stokes' theorem this implies that one may find 
+
+   * on a good [[cover]] of $X$ by open subsets $\{U_i \to X\}$ 
+
+   * a collection $(A_i \in \Omega^1(U))_i$ of differential 1-forms, such that $d A_i = F|_{U_i}$
+
+   * and a collection $(\lambda_{i j} \in C^\infty(U_i \cap U_j), \mathbb{R})_{i,j}$ of real valued functions on double overlaps such that $A_j|_{U_i \cap U_j} -  A_i|_{U_i \cap U_j} = d \lambda_{i j}$.
+
+
+2. Dirac quantization condition
+
+   The above data is subject to the additional constraint that it induces well-defined $U(1)$-valued holonomy -- this is **Dirac's quantization condition**, a necessary requirement for the existence of quantum mechanical particles on $X$ that are charged under the background electromagnetic field.
+
+   Concretely: for any smooth curve $\gamma : S^1 \to X$ and any [[cover]] $\{V_i \to S^1\}$ of $S^1$ refining the pullback of the cover $U$ to $S^1$, and for every triangulation $((v_{i j}, e_{i}))$ of $S^1$ subordinate to $\{V_i \to X\}$, the expression
+
+   $$
+     hol(\gamma) :=
+     \prod_i \exp(i \int_{e_i} \gamma^* A_i)
+     \prod_{i j} \exp(i \gamma^*\lambda_{i j}(v_{i j}))
+   $$
+
+   -- the interaction action functional of the charge particle -- has to be a well defined element in $U(1)$ (independent of all the choice made).
+
+   This implies in particular that cancelling from the triangulation an edge $e_i$ of vanishing length must have no effect on the formul, which in turn means that for all $i,j,k$ we have
+
+   $$
+     \exp(i \gamma^*\lambda_{i j}(v_{i j}))
+     \exp(i \gamma^*\lambda_{j k}(v_{j k}))
+     =
+     \exp(i \gamma^*\lambda_{i k}(v_{i k}))
+   $$
+
+   and hence
+
+   $$
+     \lambda_{i j} + \lambda_{j k} =
+     \lambda_{i k} mod 2\pi
+     \,.
+   $$
+
+In total this says precisely that the data
+
+$$
+  (A_i, \lambda_{i j})
+$$   
+
+is a [[Cech cohomology|Cech cocycle]] with coefficients in the degree 2 [[Deligne cohomology|Deligne complex]] whose [[differential cohomology|projection to deRham cohomology]] is the given Maxwell 2-form.
+
+
+The following describes more physica and historical details behind this argument.
+
+
+## The local picture #
 
 In modern notation what Maxwell discovered in the 1860s is that locally, when physical spacetime is well approximated by a patch of its tangent space, i.e. by a patch of 4-dimensional Minowski space $U \subset (\mathbb{R}^4, g = diag(-1,1,1,1))$,
 
@@ -30,7 +97,7 @@ In modern notation what Maxwell discovered in the 1860s is that locally, when ph
 
 * the electric charge density
   $$
-    \rho : \mathbb{R} \to C^\infty(\mathbb{R}^3)
+    \ro : \mathbb{R} \to C^\infty(\mathbb{R}^3)
   $$
 
 * the electric current vector field
@@ -88,7 +155,8 @@ $$
 
 This are a bunch of equations on the components involved -- called Maxwell's equations.
 
-## global continuation of Maxwell's original equatons ##
+
+## the global picture ##
 
 Maxwell's original equations determine what the 
 electromagnetic field is _locally_. After a while it was dicovered that globally the situation is more complicated.
@@ -120,7 +188,7 @@ This happens when the manifold in question has nontrivial topology, or if there 
 The reasoning underlying Dirac's argument is described in the next subsection.
 
 
-# The old Dirac argument from a modern perspective #
+### the quantization condition ###
 
 In this section we describe how one finds from physical arguments that, indeed, the electromagnetic field is modeled by a differential refinement of an cocycle in degree 2 integral cohomology.
 
@@ -190,7 +258,7 @@ There are other slight variants of formalizations the above physical input that 
   In this form now, the object $tra$ manifestly satisfies the axioms of a [[Cheeger-Simons differential character]]. These are well known to represent cocycle in degree 2 integral [[differential cohomology]].
 
 
-## Dirac's original argument ##
+### Dirac's original argument ###
 
 Dirac originally presented the following reasoning, which captures the main point of the above considerations.
 
@@ -217,7 +285,7 @@ given by $X$ minus the right half of the first coordinate axis.
 
 Traditionally physicist try to give that half-line a physical interpretation by imagining that it is the body of an idealized infinitely-thin and to one side infinitely-long solenoid. Indeed, such a solenoid would have a magnetic monopole charge on each of its ends, so if the one end is imagined to have disappeared to infinity, then the other one is the magentic charge that Dirac imagines to sit at the origin of our setup.
 
-In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. While there is the possibility to sensibly discuss the idea that this Dirac string actually models a physical entity like an idealized solenoid, its main purpose histroically is to confuse physics students and keep them from understanding the theory of [[fiber bundle]]s. Therefore here we shall refrain from talking about Dirac strings and consider $U := \mathbb{R}^3 \backslash \{x^1 \geq 0\} \subset X$ as exactly what it is, by itself: an open subset that is part of a [[cover]] of $X$.  Unfortunately, of course, Dirac didn't mention the other open subsets in that [[cover]] (at least one more is needed for a decent discussion), so that the Dirac string keeps haunting physicists. 
+In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. While there is the possibility to sensibly discuss the idea that this Dirac string actually models a physical entity like an idealized solenoid, it's main purpose histroically is to confuse physics students and keep them from understanding the theory of [[fiber bundle]]s. Therefore here we shall refrain from talking about Dirac strings and consider $U := \mathbb{R}^3 \backslash \{x^1 \geq 0\} \subset X$ as exactly what it is, by itself: an open subset that is part of a [[cover]] of $X$.  Unfortunately, of course, Dirac didn't metntion the other open subsets in that [[cover]] (at least one more is needed for a decent discussion), so that the Dirac string keeps haunting physicists. 
 
 ...running out of time...just quickly now...
 
