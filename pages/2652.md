@@ -36,6 +36,10 @@ Additionally, we tend to use the term 'completion' only for a [[faithful functor
 
 +-- {: .query}
 David: It's not clear to me when in the 'List of completions' we have examples of enriched category completions: Cauchy completion of a metric space (yes) of a uniform space (no?), Dedekind completion of a linear order (yes for 2-enriched categories?). 
+
+[[Mike Shulman]]: Although orders are 2-enriched categories, Dedekind completion of an order is not a categorical completion, at least not in the sense of adding limits or colimits.  That would be the construction of downsets or ideals.
+
+Cauchy completion of a metric space is, of course, an instance of Cauchy completion of enriched categories.  I believe that Cauchy completion of a uniform space is actually also an instance of a general categorical notion of Cauchy completion, but in the more general setting of an [[equipment]] (namely, the equipment of sets and filters).  See "Categorical interpretation" at [[uniform space]] for a too-brief summary of this point of view.
 =--
 
 # Free completion and lax-idempotence
