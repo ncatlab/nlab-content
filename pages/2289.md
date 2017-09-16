@@ -65,6 +65,11 @@ The central theorem is
 
     * [[Axiomatic field theories and their motivation from topology]]
 
+    * [[(1,1)-dimensional Euclidean field theories and K-theory]]
+
+    * [[(2,1)-dimensional Euclidean field theories and tmf]]
+
+
 1. [Contents](#contents)
 
    The following is a copy of the table of contents of _A Survey of Elliptic Cohomology_ . Behind each entry is a list of hyperlinks to entries on relevant keywords.
