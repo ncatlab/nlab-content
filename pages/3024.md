@@ -10,7 +10,8 @@ Recall that an [[isometry]] between two [[Riemannian manifolds]] $(M,g), (N,h)$ 
 It follows that if $d,d'$ are the metrics on $M,N$ induced by the Riemannian metrics $g,h$, then $d'(\phi(x),\phi(y)) = d(x,y)$ for $x,y \in M$---that is, $\phi$ is distance-preserving.
 Interestingly, a version of  the converse is true, according to the Myers--Steenrod theorem:
 
-+-- {: .standout}
++-- {: .un_theorem}
+###### Theorem (Myers--Steenrod)
 If $\phi: M \to N$ is distance-preserving and surjective, then it is an [[isometry]] (in particular, it is smooth).
 =--
 
@@ -76,9 +77,11 @@ We never proved a fact  about the exponential map---the equality
 \[ \lim_{A,B \to 0 \in T_p(M)} \frac{d(\exp_p(A),\exp_p(B)) }{|A-B|} = 1.\]
 We will briefly sketch the idea here.  $|A-B|$ is the length of the linear  path from $A $ to $B$ in $T_p(M)$, so it will be sufficient to show:
 
-_If $c:(0,1) \to T_p(M)$ is a path in $T_p(M)$, then as $c((0,1)) \to 0$ with the derivative $|c'|$ staying bounded, 
++-- {: .un_lemma}
+###### Lemma
+If $c:(0,1) \to T_p(M)$ is a path in $T_p(M)$, then as $c((0,1)) \to 0$ with the derivative $|c'|$ staying bounded, 
 \[ \frac{ l(\exp_p(c))}{l(c)} = 1.\]
-_
+=--
 
 We are  abusing notation quite a bit here, but it should  not cause confusion.
 
