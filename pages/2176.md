@@ -407,6 +407,10 @@ In the example $f(p, q) = p q$, the value of the difference proposition $\mathop
 
 <tr>
 <td style="border:none">
+<img alt="Cactus Graph Df@(P)Q = dP(dQ)" src="/nlab/files/Cactus_Graph_DfalPrQ_eq_dPldQr.jpg" width="500" /></td></tr>
+
+<tr>
+<td style="border:none">
 <img alt="Cactus Graph Df@(P)(Q) = dP dQ" src="/nlab/files/Cactus_Graph_DfalPrlQr_eq_dP_dQ.jpg" width="500" /></td></tr>
 
 </table>
@@ -565,6 +569,48 @@ $$
 $$
 </font></div>
 
+Given that this expression uses nothing more than the boolean ring operations of addition and multiplication, it is permissible to "multiply things out" in the usual manner to arrive at the following result:
+
+<div markdown="1"><font size="+1">
+$$
+\mathop{E}f(p, q, \mathop{d}p, \mathop{d}q)
+\quad = \quad
+p \: q
+\quad + \quad
+p \: \mathop{d}q
+\quad + \quad
+q \: \mathop{d}p
+\quad + \quad
+\mathop{d}p \: \mathop{d}q
+$$
+</font></div>
+
+To understand what the _enlarged_ or _shifted_ proposition means in logical terms, it serves to go back and analyze the above expression for $\mathop{E}f$ in the same way that we did for $\mathop{D}f$.  Toward that end, the value of $\mathop{E}f_x$ at each $x \in X$ may be computed in graphical fashion as shown below:
+
+<table align="center" cellpadding="8" style="border:none">
+
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph Ef = (P,dP)(Q,dQ)" src="/nlab/files/Cactus_Graph_Ef_eq_lPcdPrlQcdQr.jpg" width="500" /></td></tr>
+
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph Ef@PQ = (dP)(dQ)" src="/nlab/files/Cactus_Graph_EfaPQ_eq_ldPrldQr.jpg" width="500" /></td></tr>
+
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph Ef@P(Q) = (dP)dQ" src="/nlab/files/Cactus_Graph_EfaPlQr_eq_ldPrdQ.jpg" width="500" /></td></tr>
+
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph Ef@(P)Q = dP(dQ)" src="/nlab/files/Cactus_Graph_EfalPrQ_eq_dPldQr.jpg" width="500" /></td></tr>
+
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph Ef@(P)(Q) = dP dQ" src="/nlab/files/Cactus_Graph_EfalPrlQr_eq_dP_dQ.jpg" width="500" /></td></tr>
+
+</table>
+
 ## External links ##
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
@@ -588,15 +634,5 @@ Templates ---
        <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
 
 Upload Queue ---
-
-[[Cactus_Graph_Ef_eq_lPcdPrlQcdQr.jpg|Cactus Graph Ef = (P,dP)(Q,dQ):pic]]
-
-[[Cactus_Graph_EfaPQ_eq_ldPrldQr.jpg|Cactus Graph Ef@PQ = (dP)(dQ):pic]]
-
-[[Cactus_Graph_EfaPlQr_eq_ldPrdQ.jpg|Cactus Graph Ef@P(Q) = (dP)dQ:pic]]
-
-[[Cactus_Graph_EfalPrQ_eq_dPldQr.jpg|Cactus Graph Ef@(P)Q = dP(dQ):pic]]
-
-[[Cactus_Graph_EfalPrlQr_eq_dP_dQ.jpg|Cactus Graph Ef@(P)(Q) = dP dQ:pic]]
 
 [[Directed_Graph_PQ_Enlargement_Conj.jpg|Directed Graph PQ Enlargement Conj:pic]]
