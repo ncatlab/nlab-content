@@ -12,6 +12,9 @@
 ## Examples of categorification ##
 
 * [[Khovanov homology]]
+* [[Kazhdan-Lusztig theory]]
+* The [[geometric Langlands]] program
+:* [[geometric Satake]] 
 
 ## Examples of decategorification ##
 
