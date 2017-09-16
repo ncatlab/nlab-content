@@ -23,6 +23,7 @@ Some rigs which are neither rings nor distributive lattices include:
 * Polynomials with coefficients in any rig.
 * The set of isomorphism classes of objects in any [[distributive category]], or more generally in any [[rig category]].
 * The [[tropical rig]], which is $\mathbb{R}\cup \{\infty\}$ with addition $x\oplus y = min(x,y)$  and multiplication $x\otimes y = x+y$.
+* The ideals of a commutative ring form a rig under ideal addition and multiplication, where the unit and zero ideals are the unit and zero elements of the rig, respectively.
 
 Any rig can be completed to a ring by adding negatives, in the same way that the natural numbers are completed to the integers.  When applied to the set of isomorphism classes of objects in a rig category, the result is part of [[algebraic K-theory]].
 
