@@ -1,6 +1,6 @@
 # Idea #
 
-A [[topological space]] is _compactly generated_ if (in a certain sense) the continuous images in it of all compact Hausdorff spaces tell you everything about its topology.
+A [[topological space]] is _compactly generated_ if (in a certain sense) the continuous images in it of all [[compact Hausdorff space]]s tell you everything about its topology.
 
 Compactly generated spaces form a [[convenient category of topological spaces]].
 
