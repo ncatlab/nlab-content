@@ -13,6 +13,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-31
 
+* [[Urs Schreiber|Urs]]:
+
+  * created [[(infinity,1)-essentially surjective functor]] and [[(infinity,1)-fully faithful functor]]
+
 * [[Mike Shulman|Mike]]:
 
   * Mentioned at [[triangulated category]] that the definition is   redundant.  If I had time I would fix it myself.
