@@ -11,3 +11,5 @@ $$\left\{{f \atop g}\right\}$$
 * One can define in a similar way a coproduct of any family of objects.  A coproduct of the [[empty set|empty]] family is an [[initial object]].
 * A coproduct is a special case of a [[colimit]] in which the diagram category is [[discrete category|discrete]].
 * A coproduct in $C$ is the same as a [[product]] in the [[opposite category]] $C^{op}$.
+
+[[!redirects coproducts]]
