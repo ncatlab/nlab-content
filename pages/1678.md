@@ -5,8 +5,8 @@ coherent $2$-cell.
 
 ## Definitions ##
 
-Given (possibly weak) [[2-categories]] $C,D$ and (possibly [[lax functor|lax]]) $2$-[[2-functor|functors]]
-$F,G:C\to D$, a _lax natural transformation_ $\alpha:F\Rightarrow G$
+Given (possibly weak) [[2-categories]] $C,D$ and (possibly [[lax functor|lax]] or oplax) $2$-[[2-functor|functors]]
+$F,G:C\to D$, a __lax natural transformation__ $\alpha:F\Rightarrow G$
 is given by
 
 * for each $A\in C$ a $1$-cell $\alpha_A:F(A)\to G(A)$ in $D$,
@@ -28,12 +28,26 @@ references for details).
 
 The word 'natural' is often dropped for brevity.
 
-$\alpha$ is a _pseudo-natural_ transformation if each
-$\alpha_f$ is [[isomorphism|invertible]], a _strict_ one if each is
-an [[identity morphism|identity]].  An _oplax_ transformation is as above, only
-with all 2-cells reversed.  As usual, nothing significant
-changes if the definitions of _lax_ and _oplax_ are
-swapped; it is a matter of convention.  (For example, we are following Leinster, but the [[Elephant]] uses the reverse convention.)
+$\alpha$ is a __pseudo-natural__ transformation if each
+$\alpha_f$ is [[isomorphism|invertible]], and a __strict__ one if each is an [[identity morphism|identity]].  An __oplax__ transformation is as above, only with all 2-cells reversed.
+
+
+## Categories and $n$-categories of lax transformations ##
+
+Lax transformations from $F$ to $G$ and [[modification]]s between them form a [[category]] $Lax(F,G)$; likewise we have $Ps(F,G)$ and $Oplax(F,G)$ consisting of pseudo-natural and oplax transformations, respectively.
+
+Pushing it up a notch, for 2-categories $C$ and $D$ we have hom-2-categories $2Cat_{lax}(C,D)$, $2Cat_{ps}(C,D)$, and $2Cat_{oplax}(C,D)$ whose objects are 2-functors (generally taken to be strong or strict), whose morphisms are lax, pseudo, or oplax transformations respectively, and whose 2-cells are modifications.  These hom-2-categories are the [[internal homs]] for the various version of the [[Gray tensor product]] on $2Cat$.
+
+Finally, there is a [[3-category]] consisting of 2-categories, (strong or strict) 2-functors, pseudo-natural transformations, and modifications.  No laxness is possible at this level (without "laxifying" the notion of 3-category).
+
+
+## "Lax" versus "oplax" ##
+
+The choice of which direction to call "lax" and which to call "oplax" is not made consistently in the literature.  The convention used above is Benabou's original choice, as well as that of Leinster, Borceaux, and the majority of Australian writing on category theory.  However, some references, such as the [[Elephant]], make the opposite choice.  One or two references use "left lax" and "right lax" instead.
+
+It is arguably the case that the direction we call "oplax" occurs more commonly in practice.  For instance, [[icons]] are a special sort of oplax transformations (although if "lax" and "oplax" were switched, then the acronymic derivation of the word "icon" would no longer work).  Likewise, when monoidal categories are viewed as one-object 2-categories, [[monoidal transformations]] are special oplax transformations (in fact, they are precisely the icons).
+
+On the other hand, the convention used above (besides having a little more weight of tradition) has the advantage that there is a [[2-monad]] whose algebras are 2-functors, and for which lax and oplax algebra morphisms are precisely lax and oplax transformations, respectively, under this convention.  Thus, for instance, theorems such as [[doctrinal adjunction]] can be applied to lax and oplax transformations without needing to switch back and forth between two different meanings of "lax."
 
 +-- {: .query}
 How consistent are different authors in this convention?  Should we include a warning ---or for that matter, a reassurance?  ---Toby
@@ -89,10 +103,12 @@ Perhaps I shouldn't speak for Ross, but I know him a bit, and I think by 'flexib
 
 So I'm guessing that Ross and Steve are tolerant and non-fussed about this particular issue, and they in particular are not the ones who battle over things like 'co' and 'op'. 
 
-Anyway, this whole discussion started only to sound a warning to the reader that conventions do differ in the literature. Note that I never said we should change the entry, and the arguments put forth for my own preference were not to start an argument. There are good arguments on both sides. 
-=--
+Anyway, this whole discussion started only to sound a warning to the reader that conventions do differ in the literature. Note that I never said we should change the entry, and the arguments put forth for my own preference were not to start an argument. There are good arguments on both sides.
 
-The [[category]] $Lax(F,G)$ consists of lax transformations from $F$ to $G$ and [[modification]]s between them.
+[[Mike Shulman]]: I'm sorry if I sounded too argumentative; I didn't mean to.  What I meant was that I'm surprised people have tried to change Benabou's original terminology at all.  I believe it was Jaap van Oosten who wrote that "the only thing worse than bad terminology is continually changing terminology."  Benabou did use some terminology quite worthy of being changed, like "morphism" and "homomorphism" for "lax 2-functor" and "strong 2-functor" respectively, but switching the meanings of "lax" and "oplax" seems like engendering a lot of confusion for very little gain, when the only argument in favor of it is that oplax ones are (maybe) more common.  On top of this, the argument about 2-monads is a positive reason to prefer Benabou's choice.
+
+Anyway, in terms of productive work, I expanded the entry somewhat to include a warning to the reader about the different choices that exist and a summary of the reasons for making either choice.  Feel free to improve it.
+=--
 
 
 ## The Yoneda Lemma ##
