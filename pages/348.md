@@ -2,7 +2,7 @@
 
 A _sieve_ is a way to encode a morphism of [[presheaves]] that behaves like a [[cover]]. It is used to say which [[presheaves]] are actually [[sheaves]] with respect to a given [[coverage]] or [[Grothendieck topology]].
 
-_Sieves_ are an equivalent way to encode [[subobjects]] of [[representable functors]] in a [[presheaf]] category in terms of the total sets of _elements_ of such a subfunctor.
+_Sieves_ are an equivalent way to encode [[subobjects]] of [[representable functors]] in a [[presheaf]] category in terms of the total sets of _elements_ of such a [[subfunctor]].
 
 The notion of _sieve_ is usually used when certain such subobjects are singled out as [[covers]] of a (sifted) [[coverage]]: the singled out subobjects then correspond to _covering sieves_.
 
@@ -47,7 +47,7 @@ This is probably called a _sieve_ because it "sifts out" the 'special' maps into
 
 There is a canonical way to create subfunctors from sieves and sieves from subfunctors.
 
-A subfunctor is a [[subobject]] in a [[functor category]]. Here, specifically, one is interested in [[subobjects]] in a [[presheaf]] category of [[representable functors]]. It's these subfunctors of representable functors that are in bijection with sieves.
+A [[subfunctor]] is a [[subobject]] in a [[functor category]]. Here, specifically, one is interested in [[subobjects]] in a [[presheaf]] category of [[representable functors]]. It's these subfunctors of representable functors that are in bijection with sieves.
 
 +-- {: .un_defn}
 ###### Definition
