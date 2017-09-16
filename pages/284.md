@@ -133,9 +133,9 @@ The [[quasi-category]] $C[W(-1)]$ is equivalent to the [[Dwyer-Kan localisation]
 
 Conversely, every quasi-category is equivalent to
 the quasi-localisation of a homotopical category.
-This gives a representation of all $(infty,1)$-categories
+This gives a representation of all $(\infty,1)$-categories
 in terms of [[homotopical category|homotopical categories]].
-It follows that many aspects of the theory of $(infty,1)$-categories
+It follows that many aspects of the theory of $(\infty,1)$-categories
 can be expressed in terms of [[category theory]].
 
 
