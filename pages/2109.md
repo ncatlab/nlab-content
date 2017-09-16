@@ -53,9 +53,12 @@ $$\array{A & \overset{H}{\to} & C \\
   ^f\downarrow & \Downarrow & \downarrow^g\\
   B& \underset{K}{\to} & D}
 $$
-are the 2-cells $g_\bullet H \to K f_\bullet$.  Note that if the arrows form a strict 2-category, then this is a "pseudo double category" (vertically strict and horizontally weak) while if the arrows and proarrows are both weak 2-categories, this double category is weak in both directions (e.g. a "double bicategory").
+are the 2-cells $g_\bullet H \to K f_\bullet$.  Note that if the arrows form a strict 2-category, then this is a [[pseudo double category]] (vertically strict and horizontally weak) while if the arrows and proarrows are both weak 2-categories, this double category is weak in both directions (e.g. a [[double bicategory]]).
+
 +-- {: .query}
 Is this really 'e.g.' or 'i.e.'?  ---Toby
+
+[[Mike Shulman|Mike]]: I intentionally wrote 'e.g.' because I consider a double bicategory to be only one way of making the notion of "a doubly weak double category" precise.  Standard terminology on the nLab seems to be that a "bicategory" is "a particular algebraic notion of weak 2-category," and presumably many of the other notions of weak 2-category (unbiased, Segalic, opetopic, etc.) have double-categorical analogues.
 =--
 
 Double categories constructed in this way have the special property that every vertical 1-cell $f$ has both a [[companion]] (namely $f_\bullet$) and a [[conjoint]] (namely $f^\bullet)$.  Conversely, from any double category with this property, one can construct an equipment in the obvious way.  In this way equipments can be shown to be equivalent to a certain class of double categories.  While the definition given above is perhaps simpler, for some purposes it is preferable to *define* equipments to be certain double categories, for instance when one wants to collect them into a 2-category or 3-category---basically the only way to define transformations between functors of equipments is to view them as double categories, explicitly or implicitly.
