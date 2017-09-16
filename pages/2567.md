@@ -10,7 +10,7 @@
 
 ## Idea ## 
 
-A Quillen bifunctor is a [[functor]] of two variables between [[model category|model categories]] that respects combined cofibrations in its two arguments in a suitable sense.
+A (left) Quillen bifunctor is a [[functor]] of two variables between [[model category|model categories]] that respects combined cofibrations in its two arguments in a suitable sense.
 
 The notion of Quillen bifunctor enters the definition of [[monoidal model category]] and of [[enriched model category]].
 
@@ -70,14 +70,21 @@ $$
 Therefore for $c$ a cofibrant object the condition is that $F(c,-) : D \to E$ preserves cofibrations and acyclic cofibrations. Similarly for $d$ cofibrant the condition is that $F(-,d) : C \to E$ preserves cofibrations and acyclic cofibrations.
 
 
+
+
 ## Applications ##
+
+
+### Monoidal and enriched model categories ###
 
 * In a [[monoidal model category]] $C$ the [[tensor product]] $\otimes : C \times C \to C$
   is required to be a Quillen bifunctor.
   
 * An [[enriched model category]] $D$ over the [[monoidal model category]] $C$ is one that is [[power]]ed and [[copower]]ed over $D$ such that the [[copower]] $\otimes : D \times C \to D$ is a Quillen bifunctor.
 
-## Properties ##
+
+### Lift to coends over tensors ###
+
 
 The following proposition asserts that under mild conditions
 a Quillem bifunctor on $C \times D$ lifts to a Quillen bifunctor
@@ -116,3 +123,51 @@ This is proposition A.2.9.26 together with remark A.2.9.27 in
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
 =--
+
+
+
+### Bousfield-Kan type homotopy colimits ###
+
+This is an application of the above application.
+
+Let $C$ be a [[category]] and $A$ be a [[simplicial model category]]. Let $F : C \to A$ be a functor and let ${*} : C^{op} \to A$ be the functor constant on the terminal object.
+
+Consider the [[global model structure on functors]] $[C^{op},SSet]_{proj}$ and $[C^{op},A]_{inj}$ and let
+$Q({*})_{proj}$ be a cofibrant replacement for ${*}$ in $[C^{op},Set]_{proj}$ and $Q_{inj}(F)$ a cofibrant replacement for $F$ in $[C,A]_{inj}$.
+
+One show that the [[homotopy colimit]] over $F$ is computed as the [[coend]] or [[weighted limit]]
+
+$$
+  hocolim F = \int Q_{proj}({*}) \cdot Q_{inj}(F)
+  \,.
+$$
+
+One possible choice is 
+
+$$
+  Q_{proj}({*})
+  =
+  N(-/C)^{op}
+  \,.
+$$
+
+That this is indeed a projectively cofibrant resulution of the constant on the [[terminal object]] is for instance proposition 14.8.9 of
+
+* Hirschhorn, _Model categories and their localization_ .
+
+For the case that $C = \Delta^{op}$ this is the classical choice by Bousfield and Kan, see [[Bousfield-Kan map]].
+
+Assume that $A$ takes values in cofibrant objects of $A$, then it is already cofibrant in the injective model structure $[C,A]_{inj}$ on functors and we can take $Q_{inj}(F) = F$. Then the above says that
+
+$$
+  hocolim F = \int N(-/C)^\op \cdot F
+  \,.
+$$
+
+For $C = \Delta$ this is the classical prescription by Bousfield-Kan for homotopy colimits, see also the discussion at [[weighted limit]].
+
+Using the above proposition, it follows in particular explicitly that the homotopy colimit preserves degreewise cofibrations of functors over which it is taken.
+
+A nice discussion of this is in
+
+* Nicola Gambino, _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf))
