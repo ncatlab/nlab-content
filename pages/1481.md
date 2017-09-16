@@ -795,9 +795,15 @@ Actually, more precisely due to the nature of the [[homotopy pullback]] this pic
 
 ## the Yetter model {#yetter}
 
-The [[Yetter model]] is the name for the [[sigma-model]] whose target space is the [[delooping]] $\mathbf{B}G$ of a strict [[2-group]] $G$ coming  from a [[crossed module]] $(G_2 \stackrel{\delta}{\to} G_1)$.
+The [[Yetter model]] is the name for the [[sigma-model]] whose 
 
-Its discussion is pretty analogous to that of the Dijkgraaf-Witten model discussed above. The important difference is that now the automorphisms of a [[principal 2-bundle]] classified by a map $\Sigma \to \mathbf{B}G$ form a [[2-group]] themselves, so that the [[Leinster measure]] coefficient $|p^{-1}(v_x)|$ in our degroupoidification formula becomes slightly more subtle.
+* target space $X$ is the [[delooping]] $\mathbf{B}G$ of a strict [[2-group]] $G$ coming  from a [[crossed module]] $(G_2 \stackrel{\delta}{\to} G_1)$;
+
+* background field is a morphism $\nabla : \Pi(\mathbf{B}G) \to \mathbf{B}^4 U(1)$.
+
+So this is just as Dijkgraaf-Witten theory, discussed above, but in one degree higher.
+
+Accordingly, its discussion is pretty analogous to that of the Dijkgraaf-Witten model discussed above. The important difference is that now the automorphisms of a [[principal 2-bundle]] classified by a map $\Sigma \to \mathbf{B}G$ form a [[2-group]] themselves, so that the [[Leinster measure]] coefficient $|p^{-1}(v_x)|$ in our degroupoidification formula becomes slightly more subtle.
 
 The right factor was originally found in the literature by requiring the path integral of the Yetter model to be independent of choices made when representing $G$-2-bundles as cocycles. The following proposition shows that the factor obtained this way is indeed nothing but the 2-groupoid Leinster measure.
 
