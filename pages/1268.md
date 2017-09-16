@@ -2,11 +2,28 @@
 * automatic table of contents goes here
 {:toc}
 
-#Definition#
+## Definition
+
+### In terms of differential operators
 
 A _D-module_ is a [[abelian sheaf|sheaf]] of [[modules]] over the [[sheaf]] $D_X$ of [[regular differential operators]] on a 'variety' $X$ (the latter notion depends on whether we work over a [[scheme]], [[manifold]], analytic complex manifold etc.). As $O_X$ is a subsheaf of $D_X$ consisting of the zeroth-order differential operators (multiplications by the sections of structure sheaf), every $D_X$-module is an $O_X$-module.  Moreover, the (quasi)coherence of $D_X$-modules implies the (quasi)coherence of a $D_X$-module regarded as an $O_X$-module (but not vice versa). 
 
-#Meaning and usage#
+### In terms of sheaves on the deRham space
+
+The category of D-modules on $X$ may equivalently be identified with the category of [[quasicoherent sheaf|quasicoherent sheaves]] on its [[deRham space]] $dR(X)$.
+
+Remembering, from this discussion there, that 
+
+* the deRham space is the decategorificatoin of the infinitesimal path groupoid of $X$;
+
+* a quasicoherent sheaf on $dR(X)$ is a generalization of a [[vector bundle]] on $X$;
+
+* a vector bundle with a flat [[connection on a bundle|connection]] is an [[equivariant cohomology|equivarint]] vector bundle on the infinitesimal path $\infty$-groupoid $\Pi^{inf}$ of $X$
+
+this shows pretty manifestly how D-modules are "sheaves of modules with flat connection", as described more below.
+
+
+## Meaning and usage
 
 $D$-modules are useful as a means of applying the methods of [[homological algebra]] and [[Categories and Sheaves|sheaf theory]] to the study of analytic systems of partial differential equations.
 
@@ -22,20 +39,20 @@ If $X$ is a variety over a field of positive characteristic $p$, the terms "$O_X
 
 =--
 
-#Related entries#
+## Related entries
 
 D-modules are closely related to
 
 * [[local systems]]
 
-#References#
+## References
 
 * Bernstein's [notes](http://www.math.uchicago.edu/~arinkin/langlands/Bernstein/Bernstein-dmod.pdf)
 * Schneiders' [notes](http://www.analg.ulg.ac.be/jps/rec/idm.pdf)
 * Mili&#269;i&#263;'s [notes](http://www.math.utah.edu/~milicic/Eprints/dmodules.pdf)
 * Gieseker: Flat Vector Bundles and the Fundamental Group in Non-Zero Characteristics,  Ann. Scuola Norm. Sup. Pisa Cl. Sci. (4)  2  (1975), no. 1, 1--31. 
 
-#Blog discussion#
+##Blog discussion
 
 * Secret Blogging Seminar [Musings on D-modules](http://sbseminar.wordpress.com/2007/07/07/musings-on-d-modules/), [Musings on D-modules, part 2](http://sbseminar.wordpress.com/2007/07/14/musings-on-d-modules-part-2/)
 
