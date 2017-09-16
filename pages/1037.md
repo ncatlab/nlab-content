@@ -202,9 +202,9 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 ##2 Fibrations of Simplicial Sets ##
 
-* [[model structure on simplicial sets]]
+* [[model structure for quasi-categories]]
 
-* [[fibrations of simplicial sets]]
+* [[fibrations of quasi-categories]]
 
   * [[Kan fibration]]
  
