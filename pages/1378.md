@@ -8,7 +8,7 @@ Recall that ordinary [[algebra]] concerns itself with [[monoid]]s [[internalizat
 
 * a [[monoid]] [[internalization|internal to]] [[Set]] is just an ordinary [[monoid]];
 
-* a [[monoid]] [[internalization|internal to]] [[Ab]], the category of abelian groupsm, is a [[ring]];
+* a [[monoid]] [[internalization|internal to]] [[Ab]], the category of abelian groups, is a [[ring]];
 
 * a [[monoid]] [[internalization|internal to]] [[Vect]] is an ordinary algebra: a vector space equipped with a linear binary associative product with unit;
 
