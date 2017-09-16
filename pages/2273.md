@@ -1,12 +1,15 @@
-A dual $g^*$ of (say a fiite-dimensional real) __Lie algebra__ has a structure of a [[Poisson manifold]] with the Poisson structure due A. Kirillov and Souriau, namely for any $a\in g^*$, 
+Given a Lie group $G$, it acts on the dual $g^*$ of the Lie algebra $g$ by the __coadjoint action__. [[orbit|Orbits]] of that action are called coadjoint orbits. They are especially important in the orbit method of representation theory or, more generally, [[geometric quantization]].
+
+A dual $g^*$ of (say a finite-dimensional real) __Lie algebra__ has a structure of a [[Poisson manifold]] with the Poisson structure due A. Kirillov and Souriau, namely for any $a\in g^*$, 
 
 $$
 \{ f, g\}(a) := \lt [df_a, dg_a],a\gt
 $$
 
 
-The symplectic leaves of that structure are the __coadjoint orbits__.
+The coadjoint orbits are the symplectic leaves of that structure; hence each orbit is a symplectic manifold.
 
-This is used especially in [[geometric quantization]].
+Sometimes coadjoint orbits are sometimes studied in infinite-dimensional case (for example in study of Virasoro algebra). 
+
 
 [[!redirects coadjoint orbits]]
