@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 # Idea #
 
 A _presentable $(\infty,1)$-category_ is, as the name suggests, an [[(∞,1)-category]] that can be conveniently "presented by simpler means". It is the analog of the notion of [[presentable category]] for ordinary categories.
