@@ -12,6 +12,17 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-05-06 #
+
+* [[Urs Schreiber|Urs]]
+
+  * corrected the statement about the relation of $SetMod$ to $Span(Set)$ at [[distributor]] by adding the missing clause about discrete categories
+
+  * created [[structured generalized space]]
+
+  * created [[string theory]]
+
+
 # 2009-05-05 #
 
 * [[David Corfield|David]]:
