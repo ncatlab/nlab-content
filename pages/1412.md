@@ -405,3 +405,6 @@ Notice that all these objects $A$ do indeed behave, and can be treated like, gen
 
 * more generally: for $G$ any Lie group, we have
   $\Pi_1(\bar \mathcal{B}_2 G) \simeq \mathcal{B}\hat G$, where $\hat G$ is the unique simply connected Lie group covering $G$.
+
+
+[[!redirects heuristic introduction to sheaves, cohomology and higher stacks]]
