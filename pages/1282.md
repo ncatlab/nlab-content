@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+
 This entry lists and discusses examples and special types of [[limit]]s and [[colimit]]s, hence also in particular of [[product]]s and [[coproduct]]s. 
 
 It starts with very elementary and simple examples and eventually passes to more sophisticated ones.
