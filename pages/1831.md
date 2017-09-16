@@ -53,6 +53,28 @@ This is proposition 2.4.2.3 in [[Higher Topos Theory|HTT]].
 =--
 
 
++-- {: .un_prop}
+###### Proposition
+**(ovber $\infty$-groupoids)**
+
+Let $p : X \to S$ be a morphism of [[simolicual set]]s where $S$ is a [[Kan complex]]. Then the following are equivalent:
+
+1. $p$ is a Cartesian fibration
+
+1. $p$ os a coCartesian fibrationn
+
+1. $p$ is a [[Joyal model structure on simplicial sets|categorical fibration]]
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is proposition 3.3.1.8 in [[Higher Topos Theory|HTT]].
+
+=--
+
+
 ## References 
 
 Definition 2.4.2.1 in
