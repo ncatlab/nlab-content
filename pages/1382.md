@@ -1,15 +1,20 @@
-An __$E_\infty$-ring__ is a commutative $A_\infty$-[[A-infinity-ring|ring]]: an [[algebra over an operad|algebra]] over the [[E-infinity operad]] in [[chain complex]]es of [[abelian group]]s.
+<div class="rightHandSide toc">
 
-This should be the same thing as a [[commutative ring spectrum]].
+[[!include higher algebra - contents]]
 
-+-- {: .query}
-Is this term usually defined differently or used in a different context, or should we redirect?
+***
 
-[[Urs Schreiber|Urs]]: I am not sure. The good answer to this might depend on a similar question which I have at [[A-infinity ring]]: to which extent is an algebra object in a monoidal $(\infty,1)$-category the same as an algebra for the corresponding operad. Probably more on this is in the PhD thesis of J. Francis.
+[[!include stable homotopy theory - contents]]
 
-_Toby_:  I\'ll say no, don\'t redirect, since at least there are different definitions.  But yeah, we should figure out how they\'re equivalent.
+</div>
 
-=--
+An __$E_\infty$-ring__ is a [[commutative monoid in an (∞,1)-category]] for the [[stable (∞,1)-category of spectra]]. Sometimes this is called a [[commutative ring spectrum]].
+
+This means that an $E_\infty$-ring is an [[A-∞ ring]] that is commutative up to coherent higher homotopies.
+
+Equivalently $E_\infty$-rings may be modeled as ordinary commutative [[monoid]]s with respect to the [[symmetric monoidal smash product of spectra]].
+
+$E_\infty$-rings are the analoge in [[higher algebra]] of the commutative [[rings]] in ordinary [[algebra]].
 
 [[!redirects E-∞ ring]]
 [[!redirects E-infinity ring]]
