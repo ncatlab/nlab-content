@@ -32,9 +32,9 @@ There it is demonsztrated how factorization algebras can be used to construct ex
 
 Concrete constructions of formal algebras for familiar [[quantum field theory|quantum field theories]] are described in the work of Kevin Costello. This can be found mentioned in the talk notes of the [[Northwestern TFT Conference 2009]], see in particular
 
-* notes by  [[Christoph Wockel]] [[costello.pdf:file]]
+* notes by  [[Christoph Wockel]], [[costello.pdf:file]]
 
-* notes by Evan Jenkins, [Factorization algebras in perturbative quantum gravity](http://www.math.uchicago.edu/~ejenkins/notes/nwtft/25may-kc.pdf)
+* notes by Evan Jenkins on the same talk: [Factorization algebras in perturbative quantum gravity](http://www.math.uchicago.edu/~ejenkins/notes/nwtft/25may-kc.pdf)
 
 There seems to be a close relation between the description of [[quantum field theory]] by factorization algebras and the proposal presented in 
 
