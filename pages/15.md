@@ -1,3 +1,2 @@
-See [[enriched category theory]].
-
-category: redirect
+&lt; [[Enriched Category Theory]]
+[[!redirects Enriched Category Theory -- history]]
