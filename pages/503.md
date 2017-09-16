@@ -25,6 +25,7 @@ _Todd_: Okay, that makes sense. It would have been clearer had I said "I plan to
 
 _Toby_:  I just read this again after a couple of months, and I think that I was just completely stupid.  Of course one should start with $[0, \infty]$!
 
+_David_: So is Cauchy completion, $C \hookrightarrow \bar{C} \hookrightarrow Set^{C^{op}}$, like $\mathbb{Q} \hookrightarrow \mathbb{R} \hookrightarrow 2^{\mathbb{Q}}$? Perhaps that should be smaller on the right. I read somewhere that a way to see the reals as coalgebraic is that they can be seen (in terms of Dedekind cuts) as subsets/predicates of the rationals. Where you tend to see one as a subset of the other, it may be better to think of it in terms of a duality into 2.
 
 [[!redirects Cauchy complete categories]]
 [[!redirects Cauchy completion]]
