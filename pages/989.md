@@ -17,6 +17,9 @@ More generally, a (merely) **associative algebra** need not have $i: k \to V$; t
 Less generally, a **[[commutative algebra]]** (where associative and unital are usually assumed) is an [[abelian monoid]] in $Vect$.
 
 
-[[!redirects associative algebra]]
+[[!redirects associative unital algebra]]
 [[!redirects associative unital algebras]]
+[[!redirects associative algebra]]
 [[!redirects associative algebras]]
+[[!redirects unital algebra]]
+[[!redirects unital algebras]]
