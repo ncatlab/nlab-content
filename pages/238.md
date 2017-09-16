@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * created [[weighted limit]]
+
   * added references to [[sheaf]] and [[simplicial set]]
 
 
