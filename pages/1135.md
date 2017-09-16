@@ -77,7 +77,7 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 
 * The category $Set_*$ of [[pointed set]]s is Barr-exact with finite coproducts and a zero object, but is not semi-abelian: protomodularity and the Split Short Five Lemma fail to hold.
 
-* If $C$ is exact and protomodular with finite colimits, then for any $x\in C$ the [[over-under-category]] $(x/C/x)$ is semi-abelian.  For example, the opposite of the category of [[pointed object|pointed objects]] in a [[topos]] is semi-abelian, and in particular, $Set_*^{op}$ is semi-abelian.
+* If $C$ is exact and protomodular with finite colimits, then for any $x\in C$ the [[over category|over]]-[[under category|under]] category $(x/C/x)$ is semi-abelian.  For example, the opposite of the category of [[pointed object|pointed objects]] in a [[topos]] is semi-abelian, and in particular, $Set_*^{op}$ is semi-abelian.
 
 +-- {: .query}
 
