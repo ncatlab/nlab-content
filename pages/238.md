@@ -11,6 +11,9 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+# 2009-03-31
+
+* [[Zoran Škoda]]: Created [[suspended category]] and [[Quillen exact category]]. This is a continuation of our efforts to enter various classes of additive categories useful in homological algebra and K-theory. 
 
 # 2009-03-30
 
