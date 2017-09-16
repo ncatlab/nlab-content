@@ -5,7 +5,7 @@ A **Riemann surface** is a connected one-dimensional complex manifold.  In other
 Evidently an open subset of a Riemann surface is a Riemann surface.  In particular, an open subset of $\mathbb{C}$ is a Riemann surface in a natural manner.
 
 The Riemann sphere $P^1(\mathbb{C}) := \mathbb{C} \cup \{ \infty \}$ or $S^2$ is a Riemann sphere with the open sets $U_1 = \mathbb{C}, U_2 = \mathbb{C} - \{0\} \cup \{\infty\}$ and the charts
-\[ \phi_1 =z, \ \phi_2 = \frac{1}{z}.\]
+\[ \phi_1 =z, \;\phi_2 = \frac{1}{z}.\]
 The transition map is $\frac{1}{z}$ and thus holomorphic on $U_1 \cap U_2 = \mathbb{C}^*$.
 
 An important example comes from analytic continuation, which we will briefly sketch below.   A **function element** is a pair $(f,V)$ where $f: V \to \mathbb{C}$ is holomorphic and $V \subset \mathbb{C}$ is an open disk.
@@ -30,9 +30,9 @@ To see this, note that $f(X)$ is compact, and by the open mapping theorem, open,
 Since a Riemann surface $X$ is a smooth 2-dimensional manifold, it is possible to do the usual exterior calculus.  We could consider a 1-form to be a section of the (usual) cotangent bundle $T^*(X)$, but it is   more natural to take the **complexified cotangent bundle** $\mathbb{C} \otimes_{\mathbb{R}} T^*(X)$, which I will in the future just abbreviate $T^*(X)$; this will not be confusing since I will only do this when I talk about complex manifolds.  Sections of this bundle will be called (complex-valued) 1-forms.  Similarly, we do the same for 2-forms.  
 
 If $z = x+iy$ is  a local coordinate on $X$, defined say on $U \subset X$, define the (complex) differentials
-\[dz = dx + i dy , \ d\bar{z} = dx - idy.\]
+\[d z = d x + i d y , \;d\bar{z} = d x - i d y.\]
 These form a basis for the complexified cotangent space at each point of $U$.  There is also a dual basis
-\[ \frac{\partial}{\partial z }  := \frac{1}{2}\left( \frac{\partial}{\partial x} - i \frac{\partial}{\partial y}\right), \ 
+\[ \frac{\partial}{\partial z }  := \frac{1}{2}\left( \frac{\partial}{\partial x} - i \frac{\partial}{\partial y}\right), \;
 \frac{\partial}{\partial \bar{z} }  := \frac{1}{2}\left( \frac{\partial}{\partial x} + i \frac{\partial}{\partial y}\right)\]
 for the complexified tangent space.
 
@@ -46,11 +46,11 @@ in particular, $\phi$ preserves the decomposition of $T_0(\mathbb{C})$.
 
 Given $f: X \to \mathbb{C}$ smooth, we can consider the projections of the 1-form $df$ onto $T^{1,0}(X)$ and $T^{0,1}(X)$, respectively; these will be called $\partial f, \overline{\partial} f$.  Similarly, we define the corresponding operators on 1-forms: to define $\partial \omega$, first project onto $T^{0,1}(M)$ (the reversal is intentional!) and then apply $d$, and vice versa for $\overline{\partial} \omega$.
 
-In particular, if we write in local coordinates $\omega = u dz + v d\bar{z}$, then
-\[ \partial \omega = d( v d \bar{z}) = v_z dz \wedge d\bar{z},\]
+In particular, if we write in local coordinates $\omega = u d z + v d\bar{z}$, then
+\[ \partial \omega = d( v d \bar{z}) = v_z d z \wedge d\bar{z},\]
 and
-\[ \overline{\partial} \omega  = d( u dz) = u_{\bar{z}} d\bar{z} \wedge dz.\]
-To see this, we have tacitly observed that $dv = v_z dz + v_{\bar{z}} d\bar{z}$.
+\[ \overline{\partial} \omega  = d( u d z) = u_{\bar{z}} d\bar{z} \wedge d z.\]
+To see this, we have tacitly observed that $d v = v_z d z + v_{\bar{z}} d\bar{z}$.
 
 
 ##Further directions##
