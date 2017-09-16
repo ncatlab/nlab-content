@@ -14,3 +14,10 @@ A poset that has all finite meets is a **meet-[[semilattice]]**.  A poset that h
 As a poset is a special kind of [[category]], a meet is simply a [[product]] in that category.
 
 A meet of [[subset]]s or [[subobject]]s is called an [[intersection]].
+
+
+[[!redirects meets]]
+[[!redirects infimum]]
+[[!redirects infimums]]
+[[!redirects infima]]
+[[!redirects inf]]
