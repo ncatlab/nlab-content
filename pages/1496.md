@@ -117,3 +117,7 @@ To be described:
 *  duals ($p + q = p q$); 
 *  completion ($Ban$ is a [[reflective subcategory]] of $PsNVect$).
 *  $Ban$ as a (somewhat larger) category with duals.
+
+
+[[!redirects normed vector space]]
+[[!redirects pseudonormed vector space]]
