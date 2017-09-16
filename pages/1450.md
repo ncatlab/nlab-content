@@ -23,7 +23,11 @@ In this vein, Anders Kock, in a long series of articles, reformulates large part
 
 # Related entries #
 
-* [[differential forms in synthetic differential geometry]]
+* [[infinitesimal singular simplicial complex]]
+
+  * [[differential forms in synthetic differential geometry]]
+
+  * [[Chevalley-Eilenberg algebra in synthetic differential geometry]]
 
 # References #
 
