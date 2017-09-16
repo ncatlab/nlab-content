@@ -13,6 +13,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 # 2009-05-22 #
+* [[Zoran Škoda]] made changes to [[pure motives]]. Please do not use defined term [[algebraic spaces]] when it is not appropriate.
 
 *  _David_ added exposition references to [[pure motive]]
 
