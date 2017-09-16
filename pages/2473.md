@@ -1,0 +1,3 @@
+Let $R$ be an [[integral domain]]. We say that an element $r\in R$ is unit if it is invertible. A non-unit is called irreducible if it can not be represented as a product of two non-units. 
+
+A commutative integral domain $R$ is a __unique factorization domain__ if every non-unit has a factorization $u = r_1 \cdots r_n$ as product of irreducible non-units and this decomposition is unique up to renumbering and rescaling the irreducibles by units.  
