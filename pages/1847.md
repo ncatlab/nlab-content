@@ -60,7 +60,7 @@ For paracompact spaces, [[numerable open cover|numerable open covers]] are cofin
       closure(p_n^{-1}(B)) = p_n^{-1}(closure(B))
     $$
 
-    for any open ball $B$ in $H_n$, then $E$ is paracompact, and so is any manifold modelled on $E$. Such a manifold is called an **ILH-manifold**, $E$ is an **ILH-space** . In particular, Hilbert manifolds are paracompact.
+    for any open ball $B$ in $H_n$, then $E$ is paracompact, and so is any manifold modelled on $E$. Such a manifold is called an **ILH-manifold**, $E$ is an **ILH-space** . In particular, [[Hilbert manifold|Hilbert manifolds]] are paracompact.
 
     ( _Bry_ , section I.4)
 
