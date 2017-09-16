@@ -12,6 +12,8 @@ Is the first section really necessary?
 
 Eric: Hi Rafael. I like what you wrote, but I also like these nontechnical paragraphs that Urs writes. It's not so important to be efficient, so I'd be hesitant about deleting material that others might find helpful. We often have an opening paragraph that is very light in nature like that. I added a common heading we use for such colloquial paragraphs: "Idea".
 
+Rafael:
+I like the idea sections. But this section looks more to me like an introduction section than an idea section. I would be glad if someone, maby Urs, could reformulate it to make the perspective of an idea more explicit. Then maby Urs had that in mind but just did't put a headline.
 =--
 
 #What is category theory?#
@@ -31,6 +33,11 @@ Eric: Hi Rafael. I like what you wrote, but I also like these nontechnical parag
 #Branches of category theory#
 A good, but  imperfect perspective of category theory can be obtained from the [MSC subject classification (18-XX)](http://www.ams.org/mathscinet/msc/msc.html?t=18-XX) (but remember the current one is from 2000 and reflects ideas of the decade before that).  The subject has exploded into many new areas since.
 
++--{.query}
+Rafael: Don't try to make logical sense of MSC. I have since very long abondoned it. It works better to bring chaos than order in a classification. The reason is that it was not made to classify mathematics but mathematical articles.
+
+I think that this section can with help grow into a much better classification. Or it could even become in time an entry. The aim is in any case not to need MSC.
+=--
 
 A probably incomplete list is:
 
