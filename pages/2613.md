@@ -13,6 +13,12 @@ The main reference is
 
 ##### Friday, October 2 --- Julie Bergner, Manifolds and cobordism
 
+The definition of cobordism, and the category nCob of closed oriented $(n-1)$-manifolds and diffeomorphism classes of oriented cobordisms between them. 
+
+* [Notes](http://math.ucr.edu/~alex/cobordism_lecture2.pdf) by [[Alex Hoffnung]].
+* [Blog entry](http://golem.ph.utexas.edu/category/2009/10/cobordism_and_topological_fiel.html)
+
+
 ##### Friday, October 9 --- Julie Bergner, Topological field theories
 
 ##### Friday, October 16 --- Chris Carlson, Topological field theories in low dimensions
