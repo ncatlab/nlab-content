@@ -4,7 +4,7 @@ A **cubical set** is a [[presheaf]] on the [[cube category]] $\Box$.
 
 #Idea#
 
-The definition is to be understood from the point of view of [[space and quantity]]: a _cubical set_ is a space characterized by the fact that and how it may be _probed_ by mapping standard cubes into it: the set $S_n$ assigned by a cubical set to the standard $n$-cube $[n]$ is the set of $n$-cubes in this space, hence the way of mapping a standard $n$-cube into this spaces.
+The definition is to be understood from the point of view of [[space and quantity]]: a _cubical set_ is a space characterized by the fact that and how it may be _probed_ by mapping standard cellular [[cube]]s into it: the set $S_n$ assigned by a cubical set to the standard $n$-[[cube]] $[n]$ is the set of $n$-[[cube]]s in this space, hence the way of mapping a standard $n$-[[cube]] into this spaces.
 
 Being a functor $S : \Box^{op} \to Set$, a cubical set $S$ also assigns maps between its sets $S_n$ of $n$-simplices which determine in which way smaller cubes sit inside larger cubes.
 
@@ -84,7 +84,7 @@ $$
 
 Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "thin" in much the same way as an [[identity]] [[morphism]] is thin (notice however that a cubical set by itself is not equipped with a notion of composition of cubes. If it were, we'd call it a [[cubical category]]). 
 
-In an ordinary cubical set all degeneracy maps act in the kind of way depicted above. One might also want to require a cubical set to contain "thin" cells between equal _adjacent_ faces. These **extra degeneracy maps** act by sending 1-cells into degenerate 2-cells of the form
+In an ordinary cubical set all degeneracy maps act in the kind of way depicted above. One might also want to require a cubical set to contain "thin" cells between equal _adjacent_ faces. These **extra degeneracy maps** act by sending 1-cells to degenerate 2-cells of the form
 
 $$\left(\array{
 a&\stackrel{f}{\to}&b
