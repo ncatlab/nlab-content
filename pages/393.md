@@ -1,3 +1,13 @@
+<div class="rightHandSide toc">
+[[!include homotopy - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Idea#
+
 A _homotopical category_ is a construction used in [[homotopy theory]], related to but more flexible than a [[model category]].
 
 
