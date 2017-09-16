@@ -227,7 +227,10 @@ Because every class of morphisms defined by a [[weak factorization system|right 
 
 =--
 
-__Remark.__ From this it follows readily that [[Kan complexes]] form a Brownian [[category of fibrant objects]].
++-- {: .un_remark}
+###### Remark
+From this it follows readily that [[Kan complexes]] form a Brownian [[category of fibrant objects]].
+=--
 
 
 Let $C, D$ be ordinary [[nLab:groupoid|groupoids]] and $N(C)$, $N(D)$ their ordinary [[nLab:nerve|nerves]]. We'd like to show in detail that 
