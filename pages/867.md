@@ -3,7 +3,9 @@
 A _partial order_ on a set is a way of ordering its elements to say that some elements precede others, but allowing for the possibility that two elements may be incomparable without being the same.
 
 
-# Definition #
+# Definitions #
+
+## As a set with [[extra structure]]
 
 Given a [[set]] $S$, a __partial order__ on $S$ is a (binary) [[relation]] $\leq$ with the following properties:
 * [[reflexive relation|reflexivity]]: $x \leq x$ always;
@@ -13,7 +15,7 @@ Given a [[set]] $S$, a __partial order__ on $S$ is a (binary) [[relation]] $\leq
 A __poset__ is a set equipped with a partial order.
 
 
-# Categorial formulation #
+## As a category with [[extra properties]] #
 
 A __poset__ is a [[category]] such that:
 
@@ -22,7 +24,16 @@ A __poset__ is a [[category]] such that:
 
 Equivalently, we may define a poset to be a [[skeleton|skeletal category]] [[enriched category|enriched over]] the [[cartesian monoidal category]] of [[truth values]].
 
-When we do this, we are soon led to contemplate a slight generalization of partial orders: namely [[preorder|preorders]].  The reason is that the antisymmetry law, saying that $x \le y$ and $y \le x$ imply $x = y$, is [[evil]] in a certain technical sense.
+When we do this, we are soon led to contemplate a slight generalization of partial orders: namely [[preorder|preorders]].  The reason is that the antisymmetry law, saying that $x \le y$ and $y \le x$ imply $x = y$, is [[evil]] in a certain sense.  (On the other hand, it is not evil if taken as a *definition* of [[equality]].)
+
+
+## Monotone functions
+
+A __monotone__ or __weakly increasing__ function $f$ from a poset $S$ to a poset $T$ is a [[function]] from $S$ to $T$ (seen as seen as structured sets) that preserves $\leq$:
+$$ x \leq y \;\Rightarrow\; f(x) \leq f(y) .$$
+Equivalently, it is a [[functor]] from $S$ to $T$ (seen as certain categories).
+
+In this way, posets form a [[category]] [[Pos]].
 
 
 #Intervals#
@@ -42,6 +53,11 @@ A poset with all [[meets]] and [[joins]] is called a __[[lattice]]__; if it has 
 A poset in which every finite set has an upper bound (but perhaps not a *least* upper bound, that is a join) is a __[[directed set]]__.
 
 As remarked above, a poset in which each interval $[x,y]$ is a [[finite set]] is called __locally finite__ or a __[[causet]]__.
+
+
+# Higher versions
+
+See [[n-poset]].
 
 
 #References#
