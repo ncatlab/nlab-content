@@ -160,9 +160,16 @@ The following is not in the literature. -- [[Urs Schreiber|Urs]]
 
 We discuss the Atiyah Lie groupoid along the lines of [[nonabelian groupoid cohomology]] of the [[path n-groupoid]] of the base [[manifold]] $X$.
 
+
 Write $\mathbf{B}G$ for the [[delooping]] of $G$.
 Write $\Pi(X)$ for the [[path ∞-groupoid]] of $X$. For the present purpose of Atiyah 1-groupoids this may be taken to be simply the [[path n-groupoid|path 2-groupoid]].
 
++-- {: .un_remark}
+###### Remark
+
+Much of what makes the following discussion somewhat less than straightforward is the fact already manifest in and discussed at [[nonabelian group cohomology]]: nonabelian degree 2-cocycles with coefficients in the ([[delooping]] of the) [[automorphism 2-group]] $AUT(G)$ classify really [[action groupoid]]s of actions on bundles with typical fiber $F = Aut(G)$, while the object that one wants to see classified (there: a group extension; here: the Atiyah Lie groupoid) is obtained from this only after forgetting the elements in these fibers, and just remembering the action.
+
+=--
 
 
 +-- {: .un_prop}
@@ -320,7 +327,7 @@ $$
 
 
 
-**The groupoid $(P \times_G Aut(G)) // At(P)$ **
+**The homotopy fiber of $\Pi(X) \to \mathbf{B}AUT(G)$**
 
 We compute now the [[homotopy pullback]]
 
@@ -393,7 +400,7 @@ In $\mathbf{E}AUT(G)$
     \array{
       && \bullet
       \\
-      ^ \swarrow &{}^{\mathllap{b_3}}\swArrow& \searrow
+      &\swarrow &{}^{\mathllap{b_3}}\swArrow& \searrow
       \\
       \bullet &&\to&& \bullet
     }
@@ -425,9 +432,256 @@ In $\mathbf{E}AUT(G)$
   $$
 
 
-** And so on**
+Using this, we find the [[pullback]] 2-groupoid $\Pi(Y) \times_{\mathbf{B}AUT(K)} \mathbf{E}G$ to be given as follows:
 
-...
+* an object is pair $((x,i), \alpha)$ consisting of a point $x \in X$ and a patch $U_i$ containing it, and an automorphism $\alpha \in Aut(G)$
+
+* a morphism is, over a path $(p,i) : (x,i) \to (y,i)$ in $U_i$ a diagram
+
+  $$
+    \array{
+      && \bullet
+      \\
+      & {}^{\mathllap{\alpha}}\swarrow 
+      & {}^{\mathllap{b}}\swArrow& 
+     \searrow^{\mathrlap{\beta}}
+     \\
+     \bullet &&\stackrel{Ad(tra_{\nabla}(p))}{\to}&& \bullet
+     \\
+     \\
+     (x,i) &&\stackrel{(p,i)}{\to}&& (y,i)
+    }
+    \,,
+  $$
+
+  where $tra_\nabla(p)$ is the [[parallel transport]] of the chosen connection on $P$ along the path $p$;
+
+  and over a Cech morphism $(x,i) \to (x,j)$ a diagram
+
+  $$
+    \array{
+      && \bullet
+      \\
+      & {}^{\mathllap{\alpha}}\swarrow 
+      & {}^{\mathllap{b}}\swArrow& 
+     \searrow^{\mathrlap{\beta}}
+     \\
+     \bullet &&\stackrel{Ad(g_{i j}(x))}{\to}&& \bullet
+     \\
+     \\
+     (x,i) &&\stackrel{}{\to}&& (x,j)
+    }
+    \,,
+  $$
+
+
+* a 2-cell over a surface $\Sigma : p_1 \cdot p_2 \Rightarrow p_3$ is 
+
+  $$
+    \array{
+      && \bullet
+      \\
+      &\swarrow &{}^{\mathllap{b_3}}\swArrow& \searrow
+      \\
+      \bullet &&\stackrel{Ad(tra_\nabla(p_3))}{\to}&& \bullet
+    }
+    \;\;\;
+    =
+    \;\;\;
+    \array{
+      && \bullet
+      \\
+      &\swarrow& \downarrow & \searrow
+      \\
+      \downarrow 
+      &
+        {}^{\mathllap{b_1}}\swArrow
+      & 
+        \bullet 
+       &
+      {}^{\mathllap{b_2}}\swArrow& \downarrow
+      \\
+      \downarrow 
+      & {}^{\mathllap{Ad(tra_{\nabla}(p_1))}}
+       \nearrow &\Downarrow^{\mathrlap{tra_\nabla(\Sigma)}}
+      & \searrow^{\mathrlap{Ad(tra_\nabla(p_2))}}
+      & \downarrow
+      \\
+      \bullet && \stackrel{}{\to}
+      &&
+      \bullet
+    }
+  $$
+
+  and over a Cech 2-cell is
+
+  $$
+    \array{
+      && \bullet
+      \\
+      &\swarrow &{}^{\mathllap{b_3}}\swArrow& \searrow
+      \\
+      \bullet &&\stackrel{Ad(g_{i k}(x))}{\to}&& \bullet
+    }
+    \;\;\;
+    =
+    \;\;\;
+    \array{
+      && \bullet
+      \\
+      &\swarrow& \downarrow & \searrow
+      \\
+      \downarrow 
+      &
+        {}^{\mathclap{b_1}}\swArrow
+      & 
+        \bullet 
+       &
+      {}^{\mathclap{b_2}}\swArrow& \downarrow
+      \\
+      \downarrow 
+      & {}^{\mathclap{Ad(g_{i j}(x))}}
+       \nearrow &\Downarrow^{\mathrlap{Id}}
+      & \searrow^{\mathclap{Ad(g_{j k}(x))}}
+      & \downarrow
+      \\
+      \bullet && \stackrel{}{\to}
+      &&
+      \bullet
+    }
+    \,.
+  $$
+
+**The identification with the groupoid $(P \times_G Aut(G)) // At(P)$**
+
+We now show that the homotopy fiber computed above is indeed the groupoid $(P \times_G Aut(G)) // At(P)$.
+
+The main point is the realizaiton of the Atiyah Lie groupoid $At(P)$ as a groupoid over $\Pi(Y)$.
+
+A morphism in $At(P)$ over a path $p : x \to y$ is a fiber homomorphism $f : P_x \to P_y$. Since we have chose a [[connection on a bundle|connection]] $\nabla$ on $P$, we may always express this relative to the [[parallel transport]] of the connection along $p$, which provides a reference frame in which to measure morpisms between fibers, and defines for given $f$ a group element $b$ defined by
+
+$$
+  \array{
+    && P_y
+    \\
+    & {}^{\mathllap{tra_\nabla(p)}}\nearrow & \downarrow^{b}
+    \\
+    P_x
+    &\stackrel{f}{\to}&
+    P_y
+  }
+  \,.
+$$
+
+When we express composition of fiber morphisms in terms of the compositiion of the group elements associated to them this way, we find an adjoint action of the parallel transport on the group elements:
+
+$$
+  \array{
+    &&&& P_z
+    \\
+    && & {}^{\mathllap{tra_\nabla(p_2)}}\nearrow & \downarrow^{\mathrlap{Ad(tra_\nabla)(p_2)(b_1)}}
+    \\
+    && P_y && P_z
+    \\
+    & {}^{\mathclap{tra_\nabla(p_1)}}\nearrow & \downarrow^{b_1}
+    & {}^{\mathclap{tra_\nabla(p_2)}}\nearrow & \downarrow^{b_2}
+    \\
+    P_x
+    &\stackrel{f_1}{\to}&
+    P_y
+    &\stackrel{f_2}{\to}&
+    P_z
+  }
+  \,.
+$$
+
+We see that this is precisely the composition rule satisfied by the group elements labeled $b_i$ in the above description of the homotopy pullback:
+
+
+$$
+  \array{
+    &&& \bullet
+    \\
+    & \swarrow &\swArrow_{b_1}& \downarrow &\swArrow_{b_2}
+    & & \searrow
+    \\
+    \bullet 
+     &&\stackrel{Ad(tra(p_1))}{\to}&
+    \bullet
+     &\stackrel{Ad(tra(p_2))}{\to}&&
+  }
+  \;\;\;
+  =
+  \;\;\;
+  \array{
+    && \bullet
+    \\
+    & \swarrow &\swArrow_{b_2 Ad(tra_\nabla(p_2)(b_1))}& \searrow
+    \\
+    \bullet &&\stackrel{Ad(tra_\nabla(p_2 \cdot p_1 ))}{\to}&&
+  }
+$$
+
+(with labels in terms of the [L B-convention]([strict 2-group -- in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules))).
+
+If $p_1 \cdot p_2 $ and $p_3$ are two homotopica but different paths from $x$ to $y$, then the parallel transport between them differs by the integrated curvature 
+
+$$
+  \array{
+    && y
+    \\
+    & {}^{\mathllap{p_1}}\nearrow &\Downarrow^{\Sigma}
+    & \searrow^{\mathrlap{p_2}}
+    \\
+    x &&\stackrel{p_3}{\to}&& z
+  }
+  \;\;\;
+  \mapsto
+  \;\;\;
+  \array{
+    && \bullet
+    \\
+    & {}^{\mathllap{Ad(tra(p_1))}}\nearrow 
+    &\Downarrow^{tra(\partial \Sigma)}
+    & \searrow^{\mathrlap{Ad(tra(p_2))}}
+    \\
+    \bullet &&\stackrel{Ad(tra(p_3))}{\to}&& \bullet
+  }
+  \,.
+$$
+
+The same morphism $f : P_x \to P_z$ corresponds to two different group elements $b_{1 2}$ and $b_3$ depending on whether it is expressed with respect to the path $p_1 \cdot p_2$ or $p_3$. The difference is precisely the integrated curvature $tra(\partial\Sigma)$
+
+$$
+  \array{
+    && \bullet
+    \\
+    & {}^{\mathllap{tra(p_1 \cdot p_2)}}
+    \nearrow & \downarrow^{\mathrlap{b_{1 2}}}
+    \\
+    \bullet &\stackrel{f}{\to}& \bullet
+    \\
+    & {}_{\mathllap{tra(p_3)}}\searrow 
+    & \uparrow^{\mathrlap{b_3}}
+    \\
+    && \bullet
+  }
+$$
+
+i.e. 
+
+$$
+  b_3 = tra(\partial \Sigma) b_{1 2}
+  \,.
+$$
+
+This is precisely the relation imposed by the 2-cells in the homotopy pullback, as read off from the above diagrams.
+
+In summary, this shows that in the homotopy pullback 
+
+* if we forget the labels $\alpha, \beta, \cdots \in Aut(K)$ on the diagonal morphism, the resulting groupoid is the Atiyah groupoid over $\Pi(X)$;
+
+* the action of this on the labels, taken into account, is the action of the Atiyah Lie groupoid on $P \times_g Aut(G)$.
 
 =--
 
