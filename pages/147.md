@@ -1,10 +1,10 @@
 #Idea#
 
-The structure of a _site_ on a [[category]] $C$ is a structure that regards each [[object]] $c$ of $C$ as a [[space and quantity|space]] and determines which [[morphism]]s $\pi : d \to c$ from collections $d := \{\sqcup_i d_i\}$ of [[object]]s of $C$ to $c$ behave as [[cover|covers]] of spaces.
+The structure of a _site_ on a [[category]] $C$ is a structure that regards each [[object]] $c$ of $C$ as a [[space and quantity|space]] and determines which [[morphisms]] $\pi : d \to c$ from collections $d := \{\sqcup_i d_i\}$ of [[objects]] of $C$ to $c$ behave as [[cover|covers]] of spaces.
 
-One says a site is a [[category]] equipped with a [[topology]], called a [[Grothendieck topology]]. The structure of a site on a category allows to characterize thos [[presheaf|presheaves]] on the category which are "continuous" with respect to this topology in that they send covering morphisms to [[equivalence]]s. 
+One says a site is a [[category]] equipped with a [[topology]], called a [[Grothendieck topology]]. The structure of a site on a category allows to characterize thos [[presheaf|presheaves]] on the category which are "continuous" with respect to this topology in that they send covering morphisms to [[equivalences]]. 
 
-Such presheaves are [[sheaf|sheaves]]. Or, in [[higher category theory|higher categorical contexts]], [[stack]]s, and further [[infinity-stack]]s.
+Such presheaves are [[sheaf|sheaves]]. Or, in [[higher category theory|higher categorical contexts]], [[stacks]], and further [[∞-stacks]].
 
 #Definition#
 
@@ -17,7 +17,7 @@ A _site_ is a category $C$ equipped with a [[Grothendieck topology]] $J$.
 
 * Sometimes it is useful to define a site to be a category equipped merely with a [[coverage]].
 
-* Notice also that there are many equivalent ways to define a [[Grothendieck topology]], for instance in terms of a system of [[local isomorphism]]s, or in terms of a system of [[dense monomorphism]]s in the [[presheaf]] category $PSh(S)$.
+* Notice also that there are many equivalent ways to define a [[Grothendieck topology]], for instance in terms of a system of [[local isomorphisms]], or in terms of a system of [[dense monomorphisms]] in the [[presheaf]] category $PSh(S)$.
 
 ## Examples ##
 
@@ -56,7 +56,7 @@ Then a **morphism of sites** $f : X \to Y$ is
 
 * a [[functor]] $f^t : S_Y \to S_X$
 
-* such that the [[Yoneda extension]] $\hat f^t : [S_Y^\op, Set] \to [S_X^{op}, Set]$ (of $Y_X \circ f^t : S_Y \to [S_X^{op}, Set]$) sends [[local isomorphism]]s to local isomorphisms.
+* such that the [[Yoneda extension]] $\hat f^t : [S_Y^\op, Set] \to [S_X^{op}, Set]$ (of $Y_X \circ f^t : S_Y \to [S_X^{op}, Set]$) sends [[local isomorphisms]] to local isomorphisms.
 
 
 **Proposition**
@@ -79,7 +79,7 @@ $$
   j_{U \to X} : X \to U  
   \,.
 $$
-This induces a [[Grothendieck topology]] on the site $U$ whose [[local epimorphism]]s $(Y \to U) \in [S_U^{op}, Set]$ are precisely those morphisms for which
+This induces a [[Grothendieck topology]] on the site $U$ whose [[local epimorphisms]] $(Y \to U) \in [S_U^{op}, Set]$ are precisely those morphisms for which
 $$
   \hat j^t_{U \to X}(Y \to U)
   \in 
@@ -113,12 +113,12 @@ in section 17.2 of
 
 * Kashiwara-Schapira, [[Categories and Sheaves]]
 
-(in terms of [[local isomorphism]]s)
+(in terms of [[local isomorphisms]])
 
 as well as in section VII. 10 of
 
 * MacLane-Moerdijk, [[Sheaves in Geometry and Logic]] 
 
-(in terms of covering [[sieve]]s), where also the relation to [[geometric morphism]]s is discussed.
+(in terms of covering [[sieves]]), where also the relation to [[geometric morphisms]] is discussed.
 
 [[!redirects sites]]
