@@ -11,3 +11,6 @@ For example:
   $$\sigma_i\sigma_j=\sigma_j\sigma_i \qquad (|i-j|\gt1)$$
   $$\sigma_i^2=(q-1)\sigma+q$$
 * If we look at $GL_n(\mathbb{F}_q(\!(t)\!))$ acting on the set of $\mathbb{F}_q[\![t]\!]$ [[lattices]] in $\mathbb{F}_q(\!(t)\!)^n$, then we will obtain the __spherical Hecke algebra__.
+
+A variant of the Hecke algebra is the degenerate affine Hecke algebra of type $A$; this is a deformation of the semidirect product of the symmetric group $S_n$ with the polynomial ring in $n$ variables.  The generators are $S_n$ and $y_1, \dots, y_n$, with relations $\sigma y_i \sigma^{-1} = y_{\sigma(i)}$ and $[y_i,y_j] = \sum_{k \neq i,j} (kij)-(kji)$; one can replace the $y_i$'s with commuting $x_i$'s with slightly messier relations.  See for instance
+_[Rogawski's conjecture on the Jantzen filtration for the degenerate affine Hecke algebra of type A](http://arxiv.org/abs/math/9805035),_ by Takeshi Suzuki.  As Lusztig showed, the representation theory of the affine Hecke algebra is related to the graded or degenerate case.
