@@ -1,3 +1,2 @@
-See [[conformal field theory]].
-
-category: redirect
+&lt; [[CFT]]
+[[!redirects CFT -- history]]
