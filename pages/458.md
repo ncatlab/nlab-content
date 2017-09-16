@@ -49,7 +49,12 @@ It turns out that a [[(0,1)-topos]] is essentially the same as a [[Heyting algeb
 ## References ##
 
 *  P. T. Johnstone, _[[Elephant|Sketches of an elephant: a topos theory compendium]]_.  Part C (volume 2).
+
+The book
+
 *  P. T. Johnstone, _[[Stone Spaces]]_
+
+develops, among other things, much of standard [[topology]] entirely with the notion of locale used in place of that of [[topological space]]s. See [[Stone Spaces]] for details.
 
 
 [[!redirects locales]]
