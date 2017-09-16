@@ -7,14 +7,16 @@
 
 The **string group** $String(n)$  is defined to be, as a [[topological group]], the [[Whitehead tower|3-connected cover]] of the [[Spin group]] $Spin(n)$, for any $n \in \mathbb{N}$.
 
-Notice that $Spin(n)$ itself is the [[Whitehead tower|simply connected cover]] of the [[special orthodonal group]] $SO(n)$, which in turn is the connected component (of the identity)  of the [[orthogonal group]] $O(n)$. Hence $String(n)$ is one element in the [[Whitehead tower]] 
+Notice that $Spin(n)$ itself is the [[Whitehead tower|simply connected cover]] of the [[special orthogonal group]] $SO(n)$, which in turn is the connected component (of the identity)  of the [[orthogonal group]] $O(n)$. Hence $String(n)$ is one element in the [[Whitehead tower]] of $\mathrm{O}(n)$:
 
 $$
-  \cdots Fivebrane(n) \to String(n) \to Spin(n) \to SO(n) \to O(n)
+  \cdots Fivebrane(n) \to String(n) \to Spin(n) \to SO(n) \to \mathrm{O}(n)
   \,.
 $$
 
-of $O(n)$. The next higher connected group is called the [[Fivebrane group]].
+[[Fivebrane group]] to **string group** to [[spin group]] to [[special orthogonal group]] to [[orthogonal group]].
+
+The next higher connected group is called the [[Fivebrane group]].
 
 The [[homotopy group]]s of $O(n)$ are for $k \in \mathbb{N}$ and for sufficiently large $n$
 
