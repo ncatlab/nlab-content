@@ -104,21 +104,24 @@ such that
 
 # References #
 
-The notion of structured $(\infty,1)$-toposes is introduced and studied in
+The general theory is developed in
 
-* [[Jacob Lurie]], [[structured (infinity,1)-topos|Structured space]]s .
-
-(In that article attention is restricted to the case of [[petit topos]]es, hence
-just "spaces".)
+* **StrSh** [[Jacob Lurie]], _Structured spaces_ ([arXiv](http://arxiv.org/abs/0905.0459))
 
 The special case of "smoothly structured spaces" called [[derived smooth manifold]] is 
 discussed in 
 
-* David Spivak, _Derived smooth manifolds_ PhD thesis
+* David Spivak, _Derived smooth manifolds_ PhD thesis ([pdf](http://www.uoregon.edu/~dspivak/files/thesis1.pdf))
 
 Apart from looking at the special case this article also contains useful introduction
 and details on the general case.
 
-In the version of this that is available on the arXiv ([arXiv]())
+In the version of this that is available on the arXiv ([arXiv](http://arxiv.org/abs/0810.5174))
+the point of view is more on bi-presheaves, a useful discussion to the relation
+to structured morphisms here is in section 10.1. there .
+
+
+
+
 the point of view is more on bi-presheaves, a useful discussion to the relation
 to structured morphisms here is in section 10.1. there .
