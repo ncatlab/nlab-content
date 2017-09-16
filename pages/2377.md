@@ -10,6 +10,16 @@ _Mike_: Yes, you're right, and I did think of something like that.  However, I h
 I guess one possible approach would be to make the construction of products an *operation*, rather than an existential axiom.  Then for every pair of sets $A$ and $B$ there would be a *specified* set $A\times B$, and for every pair of elements $x\in A$ and $y\in B$ there would be a *specified* element $(x,y)\in A\times B$, with an axiom asserting that every element of $A\times B$ is of the form $(x,y)$ for a unique $x$ and $y$.  I suppose we do tend to think more in terms like that, but it's less aesthetically pleasing to me because it's not really "structural" to specify a particular $A\times B$.  So now I'm undecided.
 
 _Toby_:  I don\'t see what\'s unstructural about that!  Although I think that we\'ve had this conversation before ....
+
+[[David Roberts]]: This looks awesome - but we haven't seen any cons yet. I thought about this on the train this morning and have a few questions:
+
+ * Is there a set of relations (resp. functions) between two sets?
+ * In theorem 10 below, we need this to talk about a bijective correspondence between functions $B\to P A$ and relations $B\looparrowright A$.
+ * Can we talk about Grothendieck universes or analogous size-related mechanisms? (this is a naive question, since there may be (no need for/obvious way to do) this in a structural set theory that I am unaware of.
+
+In reply to Toby's point about replacing relations by subsets as fundamental, it makes sense to me that we probe the interior of a set by how it relates to other sets, and that we find out about the elements of a set by how it relates to the one-point set. But the aim seems to be useability by everyday mathematicians. That being said, this material seems easier to learn as a first approach to foundations (for undergraduates/early postgrads) than ZF or NBG, requiring less cruft to get to proving theorems.
+
+
 =--
 
 
