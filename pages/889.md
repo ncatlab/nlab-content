@@ -1,3 +1,2 @@
-See [[equivalence relation]].
-
-category: redirect
+&lt; [[setoid]]
+[[!redirects setoid -- history]]
