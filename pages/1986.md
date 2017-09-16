@@ -18,7 +18,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-28
 
-* [[Jon Awbrey]]: Introducing a collection of topics I've been working on the last 3 or 4 decades or so:
+* [[Jon Awbrey]]: Almost Ready For Prime Time $\nu$'s
    * [[Cactus Language]]
    * [[Differential Logic]]
    * [[Logical Graph]]
