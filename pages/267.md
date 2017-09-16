@@ -13,6 +13,8 @@ The most familiar of these possible shapes are
 
 * [[cube|cubes]]. 
 
+* [[tree]]s.
+
 There are corresponding categories whose 
 
 * objects are the "standard cellular shapes" of the given sort: [[globe|globes]], [[simplex|simplices]], [[cube|cubes]], respectively, one for each natural number $n \in \mathbb{N}$ and usually denoted $[n]$
@@ -30,6 +32,7 @@ The resulting categories of basic cellular shapes are
 
 * the _[[cube category]]_ $\square$.
 
+* the _[[tree category]]_ $\Omega$
 
 A higher structure based on these geometric sheapes is a [[presheaf]] on one of these categories. These are called
 
@@ -38,6 +41,8 @@ A higher structure based on these geometric sheapes is a [[presheaf]] on one of 
 * [[simplicial set]]s;
 
 * [[cubical set]]s,
+
+* [[dendroidal set]]
 
 respectively. 
 
@@ -53,7 +58,7 @@ For instance [[omega-category|omega-categories]] are based on [[globular set]]s 
 
 However, [[Ronnie Brown]] writes: For the work on higher homotopy groupoids and their applications to higher homotopy van Kampen theorems we found cubical methods essential. In the first of the following papers, we use a higher homotopy cubical $\omega$-groupoid with connections of a filtered space, while the second paper uses a fundamental cat$^n$-group of an $n$-cube of pointed spaces, giving an $n$-fold groupoid in the category of groups. The setting up of these structures is non-trivial,  highly geometric and essential for the homotopical applications. The paper with Loday also uses multisimplicial techniques. 
 
-References: 
+## References ##
 
 * R. Brown and P. J. Higgins, Colimit theorems for relative homotopy groups,  J. Pure Appl. Algebra, 22 (1981) 11-41.
 
