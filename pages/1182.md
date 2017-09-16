@@ -1038,7 +1038,7 @@ to the case where $X_1 \rightarrow Y$ is a perfect morphism of geometric stacks 
 
 +-- {: .query}
 
-_Bruce_: What's a geometric stack? 
+_Bruce_: What's a [[geometric stack]]? 
 
 _Chris_: A stack is geometric if it is quasi-compact (any open cover has a finite sub-cover) and the diagonal morphism
 is representable and affine, though that probably doesn't help much. I don't know much about stacks yet, but maybe someone else can explain this. I think the point is that one needs some hypotheses to actually prove stuff for stacks. 
