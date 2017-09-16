@@ -12,7 +12,7 @@ The two main definitions differ in that
 
 This has eventually led Dmitry Roytenberg in _Roytenberg07_ (see below) to identify the concept of a [[hemistrict Lie 2-algebra]] in which both the Jacobi identity and the skew symmetry may be weakened and clarify its relation to semistrict Lie 2-algebras which are strictly skew symmetric but may have a nontrivial Jacobiator.
 
-The nature of Courant's original definition as an $L_\infty$-structure was recognized in _RoytenbergWeinstein98_ (see references below). Equation (9) and theorem 4.3 there gives the [[L-infinity algebra|Lie 3-algebra]] corresponding to a Courant Lie algebroid (the way the tangent Lie algebroid gives the Lie algebra of vector fields). This perspective makes manifest that the Courant Lie algebroid with base space a point is the [[String Lie 2-algebra]].
+The nature of Courant's original definition as an $L_\infty$-structure was recognized in _RoytenbergWeinstein98_ (see references below). Equation (9) and theorem 4.3 there gives the [[L-infinity algebra|Lie 3-algebra]] corresponding to a Courant Lie algebroid (the way the tangent Lie algebroid gives the Lie algebra of vector fields). This perspective makes manifest that the Courant Lie algebroid with base space a point is the [[string Lie 2-algebra]].
 
 This was further developed in the thesis _Roytenberg99_.
 
