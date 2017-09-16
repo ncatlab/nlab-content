@@ -18,6 +18,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-18
 
+* [[Urs Schreiber]]
+
+  * renamed [[Jim Stasheff]]'s entry [[Larmore]] into [[Larmore twisted cohomology]] and edited it; linked to it from the reference section at [[twisted cohomology]]
+
+  * made [[Chu space]] a redirect to [[Chu construction]]
+
+  * created entry for [[Michael Barr]]
+
 * [[John Baez]]: 
 
    * added more references to [[Batanin omega-category]], especially references that discuss modelling homotopy types using Batanin omega-groupoids.
