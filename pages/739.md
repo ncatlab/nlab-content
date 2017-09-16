@@ -11,7 +11,7 @@ However, because of [[Stone duality]], it turns out that maps between profinite 
 
 * In SGA1, Grothendieck definied the fundamental group of a scheme to be a profinite group.  (This is linked with his work on [[pro-representable functor|pro-representable functors]].)
 
-
+* Given any group $G$, 
 #Developments from the concept#
 
 * The category of profinite groups has nice 'exactness' properties. The projective limit of a system of profinite groups is an exact functor, unlike its behaviour on groups themselves. To extend this behaviour beyond (pro)finite groups sometimes pro-localic groups have been used.
