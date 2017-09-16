@@ -1,5 +1,9 @@
 * for disambiguation see [[homotopy]]
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 # Idea #
 
 In many [[category|categories]] $C$ in which one does [[homotopy theory]], there is a notion of _homotopy_ between morphisms, which is closely related to the higher morphisms in [[higher category theory]].  If we regard such a category as a presentation of an $(\infty,1)$-[[(infinity,1)-category|category]], then homotopies $f\sim g$ present the 2-cells $f\Rightarrow g$ in the resulting $(\infty,1)$-category.
@@ -18,14 +22,14 @@ There is a similar definition in a [[simplicially enriched category]], replacing
 
 If $C$ is instead a [[model category]], it has an intrinsic notion of homotopy determined by its factorizations.
 
-* A **path object** $Path(X)$ for an object $X$ is a factorization of the diagonal $X \to X \times X$ as
+* A **[[path object]]** $Path(X)$ for an object $X$ is a factorization of the diagonal $X \to X \times X$ as
 $$
   X \to Path(X) \to X \times X
   \,.
 $$
 where $X\to Path(X)$ is a weak equivalence.
 
-* A **cylinder object** $Cyl(X)$ is a factorization of the codiagonal (or "fold") $X \sqcup X \to X$ as
+* A **[[cylinder object]]** $Cyl(X)$ is a factorization of the codiagonal (or "fold") $X \sqcup X \to X$ as
 $$
   X \sqcup X \to Cyl(X) \to X
   \,.
@@ -94,3 +98,7 @@ Path objects and right homotopies also exist if not the structure of a [[model c
 * W. G. Dwyer and J. Spalinski.  "Homotopy Theories and Model Categories," 1995.
 
 * Clemens Berger and Ieke Moerdijk.  "Axiomatic homotopy theory for operads," 2003.
+
+
+[[!redirects left homotopy]]
+[[!redirects right homotopy]]
