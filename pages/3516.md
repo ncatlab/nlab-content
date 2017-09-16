@@ -88,7 +88,7 @@ The standard *transfer theorem* for [[model category|model structures]] states t
 1. $U$ has a left adjoint $F$,
 1. $U$ is [[accessible functor|accessible]], i.e. preserves $\kappa$-[[filtered colimits]] for sufficiently large $\kappa$,
 1. $X$ has a cofibrantly generated model structure, and
-1. [[Transfinite composites]] of [[pushouts]] of images under $F$ of generating acyclic cofibrations in $X$ become weak equivalences after applying $U$ (the *acyclicity condition*),
+1. [[transfinite composition|Transfinite composites]] of [[pushouts]] of images under $F$ of generating acyclic cofibrations in $X$ become weak equivalences after applying $U$ (the *acyclicity condition*),
 
 then $A$ has a cofibrantly generated model structure in which the weak equivalences and fibrations are created by $U$.  Using an argument of [[Thomas Nikolaus]] we can show:
 
