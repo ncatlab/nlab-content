@@ -242,7 +242,7 @@ which, in turn, are already [[enhanced triangulated category|enhanced]] [[triang
 
 At this point you are urged to really have a look at the entry on [[stable (infinity,1)-category]] and marvel about the fact that 
 
-* **the definition of stable $(\infty,1)$-category is short, simple and transparant**.
+* **the definition of stable $(\infty,1)$-category is short, simple and transparent**.
 
 It's the most obvious thing in the world. And yet, it turns out that the rather involved definitions of [[derived category|derived]] [[triangulated category]] follow from this simple definition when one decides to look at just the 1-categorical shadow given by the [[homotopy category of an (infinity,1)-category|homotopy category of the stable (infinity,1)-category]].
 
