@@ -82,6 +82,6 @@ and $\psi : \mathfrak{b} \to Der(\mathfrak{k})$,
 without knowledge of $\sigma$.
 
 However, not every pair $(\chi,\psi)$ will
-give some commutation rule on $\mathfrak{b} \times k$, and also some different pairs may lead to an isomorphic extension. 
+give some commutation rule on $\mathfrak{b} \times k$ satisfying Jacobi identity, and also some different pairs may lead to the isomorphic extensions. 
 
-This pair needs to be a nonabelian 2-cocycle in the sense of [[nonabelian Lie algebra cohomology]].
+In order to satisfy the Jacobi identity, this pair needs to form a nonabelian 2-cocycle in the sense of [[nonabelian Lie algebra cohomology]].
