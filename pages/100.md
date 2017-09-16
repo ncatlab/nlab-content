@@ -1,3 +1,2 @@
-See [[globe]].
-
-category: delete
+&lt; [[n-globe]]
+[[!redirects n-globe -- history]]
