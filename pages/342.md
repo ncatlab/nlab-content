@@ -36,11 +36,13 @@ If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between 
 
 # Homtopy-theoretic relation
 
-In particular an [[(∞,0)-category]] is an [[∞-groupoid]]. In light of the [[homotopy hypothesis]] that identifies $\infty$-groupoids with (nice) [[topological space]]s and hence [[n-groupoid]]s with [[homotopy n-type]]s, and in view of the notion of [[directed space]], the following terminology is suggestive:
+From the point of view of [[homotopy theory]], the notion of $(n,r)$-categories may be understood as a combination of the notion of [[homotopy n-type]] and that of [[directed space]].
+
+Recall that an [[(∞,0)-category]] is an [[∞-groupoid]]. In light of the [[homotopy hypothesis]] -- that identifies $\infty$-groupoids with (nice) [[topological space]]s and [[n-groupoid]]s with [[homotopy n-type]]s -- and in view of the notion of [[directed space]], the following terminology is suggestive:
 
 +-- {: .standout}
 
-An $(n,r)$-category is an $r$-directed $n$-type.
+An $(n,r)$-category is an $r$-directed homotopy $n$-type.
 
 =--
 
@@ -77,7 +79,7 @@ Then, indeed, we have for instance that
 
 # Special cases
 
-An $(n,n)$-category is simply an $n$-[[n-category|category]]. An $(n,n+1)$-category is an $(n+1)$-[[n-poset|poset]]. Note that an $\infty$-category and an $\infty$-poset are the same thing. An $(n,0)$-category is an $n$-[[n-groupoid|groupoid]].  Even though they have no special name, $(n,1)$-[[(n,1)-category|categories]] are widely studied.
+An [[(n,n)-category]] is simply an $n$-[[n-category|category]]. An $(n,n+1)$-category is an $(n+1)$-[[n-poset|poset]]. Note that an $\infty$-category and an $\infty$-poset are the same thing. An $(n,0)$-category is an $n$-[[n-groupoid|groupoid]].  Even though they have no special name, $(n,1)$-[[(n,1)-category|categories]] are widely studied.
 
 For low values of $n$, many of these notions coincide.  For instance, a $0$-[[0-groupoid|groupoid]] is the same as a $0$-[[0-category|category]], namely a [[set]].  And $(-1)$-[[(-1)-groupoid|groupoid]], $(-1)$-[[(-1)-category|category]], and $0$-[[0-poset|poset]] all mean the same thing (namely, a [[truth value]]) while $(-2)$-[[(-2)-groupoid|groupoid]], $(-2)$-[[(-2)-category|category]], and $(-1)$-[[(-1)-poset|poset]] likewise all mean the same thing (namely, the [[point]]).
 
@@ -85,6 +87,17 @@ Of particular importance is the case where $n = \infty$. See
 
 * [[(infinity,n)-category]] .
 
+## topos cases ##
+
+An analogous systematics exists for $(n,r)$-categories that in additions have the property of being a [[topos]] or [[higher topos theory|higher topos]].
+
+* a [[(0,1)-topos]] is a [[Heyting algebra]]
+
+  * a $(0,1)$-[[Grothendieck topos]] is a [[locale]]
+
+* a $(1,1)$-topos is a [[topos]]
+
+* an [[(∞,1)-topos]] is an $(\infty,1)$-topos
 
 # The periodic table
 
