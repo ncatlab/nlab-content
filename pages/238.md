@@ -13,6 +13,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-04-30 #
+
+* [[David Corfield|David]]:
+
+  * asked questions at [[exponential object]]
+
 # 2009-04-29 #
 
 * [[Urs Schreiber|Urs]]:
