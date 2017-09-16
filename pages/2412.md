@@ -39,7 +39,7 @@ Similarly $EB$ or $EBord$ or the like denotes a category of cobordisms with _Eud
 
 **definition**
 
-$d$-dimensional Riemanninan field theories are symmetric monoidal functors $d-RB \to TV$ from $d$-dimensional Riemannian bordisms to [[topological vector space]]s.
+$d$-dimensional Riemannian field theories are symmetric monoidal functors $d-RB \to TV$ from $d$-dimensional Riemannian bordisms to [[topological vector space]]s.
 
 A field theory is very similar to a [[representation]] of a group. Only where a representation of a [[group]] $G$ is a functor from the [[delooping]] $\mathbf{B}G = {*}//G$ of $G$ to [[Vect]], an [[FQFT]] is a representation of a more complicated domain category.
 
@@ -53,7 +53,7 @@ $$
 
 of Riemannian bordisms equipped with a continuous map to $X$.
 
-Notice that $d RB(X)$ does depend covariantly on $X$. This means that Fun^\otimes(d RB(X), TV)$ is contravariant in $X$.
+Notice that $d RB(X)$ does depend covariantly on $X$. This means that $Fun^\otimes(d RB(X), TV)$ is contravariant in $X$.
 
 When special structure is around, however, we also have a push-forward of such functors along morphisms.
 
@@ -63,7 +63,7 @@ $$
   d RFT(X) \stackrel{p_*}{\to} d RFT(pt)
 $$
 
-notice that this push-forward is not an [[adjoint functor]]. Instead, it is a maap that comes from integration over fibers. In particular it will change the degree of [[cohomology theory|cohomology theories]].
+notice that this push-forward is not an [[adjoint functor]]. Instead, it is a map that comes from integration over fibers. In particular it will change the degree of [[cohomology theory|cohomology theories]].
 
 heuristically the pushforward
 
@@ -74,7 +74,7 @@ $$
 acts on field theories $E_X$ over $X$ 
 
 $$
-  $E_X \mapsto E$
+  E_X \mapsto E
 $$
 
 by the assignment
@@ -95,10 +95,10 @@ $$
 
 for instance when $E_X(Y) = \mathbb{C}$ then $E(Y) = \Gamma(Maps(Y,X))$.
 
-For instance take $\Sigma$ to be the pair of panty with input $Y_0$ and output $Y_1$ and let $F : \Sigma \to X$ be a map.
+For instance take $\Sigma$ to be the pair of pants with input $Y_0$ and output $Y_1$ and let $F : \Sigma \to X$ be a map.
 
 
-Then $E(\Sigma)$ willy take some section $\Psi \in E(Y_0)$ to 
+Then $E(\Sigma)$ will take some section $\Psi \in E(Y_0)$ to 
 
 $$
   E(\Sigma)(\Psi) : (f_1 : Y_1 \to X)
@@ -120,9 +120,9 @@ $$
 
 from the category [[Diff]] of smooth [[manifold]]s to the category [[Ab]] of abelian groups that satisfies the axioms of [[generalized (Eilenberg-Steenrod) cohomology]] theory.
 
-These Eilenberg-Steenrod axcioms are
+These Eilenberg-Steenrod axioms are
 
-1. **homtopy axiom** for $h^n$
+1. **homotopy axiom** for $h^n$
 
 1. **Mayer-Vietoris axiom** for $h^n$
 
@@ -164,13 +164,13 @@ The **proposed solution** (from [[What is an elliptic object?]]) is to use _exte
 
 This will however not be studied here for the moment.
 
-Concerning the **suspension isomorphism**: for that first we need for $n \in \mathbb{Z}$ the notion of a field theory over $X$ of **degree $n$**, ie.e
+Concerning the **suspension isomorphism**: for that first we need for $n \in \mathbb{Z}$ the notion of a field theory over $X$ of **degree $n$**, i.e.
 
 $$
   X \mapsto d-RFTs^n(X)
 $$
 
-such that for $n=0$ this is an ordiary Riemannian field theory, in $d-RFT(X)$.
+such that for $n=0$ this is an ordinary Riemannian field theory, in $d-RFT(X)$.
 
 This requires to replace [[manifold]]s by [[supermanifold]]s.
 
