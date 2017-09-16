@@ -43,7 +43,7 @@ These classical results in analysis are equivalent to the ultrafilter theorem in
 
 Various equivalences with the ultrafilter theorem are stated and proved (in <b>ZF</b>) in
 
-* Eric Schechter; Handbook of Analysis and its Foundations.
+* Eric Schechter; [[HAF|Handbook of Analysis and its Foundations]].
 
 See a summary (in GIF!): [page 1](http://www.math.vanderbilt.edu/~schectex/ccc/excerpts/equivuf1.gif) and [page 2](http://www.math.vanderbilt.edu/~schectex/ccc/excerpts/equivuf2.gif).
 
