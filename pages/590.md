@@ -3,7 +3,11 @@
 </div>
 
 
-#Idea#
+#Contents#
+* automatic table of contents goes here 
+{:toc}
+
+## Idea
 
 The concept of _colimit_ is that [[duality|dual]] to a [[limit]]:
 
@@ -20,7 +24,7 @@ We have
 Sometimes colimits (or some colimits) are called _inductive limits_ or _direct limits_; see the discussion of terminology at [[limit]].
 
 
-#Definition#
+## Definition
 
 A [[colimit]] in a category $C$ is the same as a [[limit]] in the [[opposite category]], $C^{op}$.
 
@@ -28,7 +32,7 @@ More precisely, for $F : D^{op} \to C^{op}$ a functor, its [[limit]] $\lim F$ is
 $F^{op} : D \to C$.
 
 
-#Examples# 
+## Examples
 
 Here are some important examples of colimits:
 
@@ -37,12 +41,12 @@ Here are some important examples of colimits:
 * A colimit of a [[span]] is a [[pushout]].
 * A colimit of two (or more) [[parallel morphisms]] is a [[coequalizer]].
 
-#Weighted colimits#
+## Weighted colimits
 
 A [[weighted colimit]] in $C$ is a 
 [[weighted limit]] in $C^{op}$.
 
-#Properties#
+## Properties
 
 The properties of colimits are of course [[duality|dual]] to those of [[limit]]s. It is still worthwhile to make some of them explicit.
 
