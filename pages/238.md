@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-02-27
+
+* [[Urs Schreiber|Urs]]
+
+  * continued replying to [[Mike Shulman|Mike]] at [[hyperstructure]]
+    
 # 2009-02-26
 
 * [[Urs Schreiber|Urs]]
