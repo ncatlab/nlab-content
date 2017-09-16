@@ -20,7 +20,7 @@ Pre-abelian and abelian categories are sometimes called (AB1) and (AB2) categori
 
 * AB4: an (AB3) category in which coproducts of monomorphisms are monic;
 
-* AB5: an (AB3) category in which [[filtered category|filtered colimits]]s of [[exact sequence]]s are exact;
+* AB5: an (AB3) category in which [[filtered colimits]] of [[exact sequence]]s are exact;
 
 * AB6: an (AB3) category such that
   * for every object $A$ in $C$ and any family $B^j$ with $j \in J$ of directed families $B^j = B^j_i$ with $i in I_j$ the intersections of [[subobject]]s  over $j$ commute with direct sums over $j$.
