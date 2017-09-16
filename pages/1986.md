@@ -32,8 +32,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
    * [[minimal negation operator]]
    * [[propositional equation reasoning system]]
    * [[relation theory]]
-   * [[riff]]
-   * [[rote]]
+   * [[riffs & rotes]]
 
 *  [[Toby Bartels]]:
    *  A little geometry at [[complex number]].
