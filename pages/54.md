@@ -2,9 +2,21 @@
 
 [[!include contents ]]
 
-* [public website](http://www.math.uni-hamburg.de/home/schreiber/)
+I have my PhD in theoretical [[physics]], have been a postdoc in [[mathematics|math]] for four years now (in Hamburg). Currently I am based at the <a href="http://www.mpim-bonn.mpg.de/">MPI in Bonn</a> and am about to start another postdoc position in [[Ieke Moerdijk]]'s [group](http://www.math.uu.nl/Research/Topology/) in Utrecht. 
 
-* [personal $n$Lab area](http://ncatlab.org/schreiber/show/HomePage)
+The best way to contact me is by sending me an email at <urs.schreiber@gmail.com>
+
+I enjoy exchanging thoughts on topics of interest for my research and always felt it would be a pity not to use the web for that purpose. To satisfy that need I use to 
+
+* chat on the blog [The n-Category Cafe](http://golem.ph.utexas.edu/category/)
+
+* work on the wiki [The nLab](http://ncatlab.org/nlab/show/HomePage)
+
+My research has to a large extent been motivated by thinking about mathematical model building in theoretical [[physics]]. Something like a personal research wiki with more information is beginning to develop at
+
+* [my personal web within the nLab](http://ncatlab.org/schreiber/show/HomePage)
+
+
 
 category: people
 
