@@ -38,7 +38,7 @@ It follows that the category of $k$-spaces and continuous maps is also cartesian
 
 #Kaonization#
 
-Let us consider for the moment only the categories $Haus$ of Hausdorff and $kHaus$ of Hausdorff k-spaces. Then the tautological inclusion $kHaus\subset Haus$ has a right adjoint $k$ sometimes (e.g. by [[M M Postnikov]]) also called **kaonization**. This functor is constructed as follows $k(X)=X$ as a set and $k(X)$ has as new closed sets those sets whose intersection with old compacts in $X$ is closed in old topology on $X$. Then $k(X)$ has all the same closed sets and possibly more, hence all the old open sets and possibly more. In particular, the identity map $id:k(X)\to X$ is continuous. The mapping spaces $kHaus(X,Y)=k(Top(X,Y))$ where $Top(X,Y)$ is the standard mapping space in the sense of compact-open topology. Similarly, the categorical product in $kHaus$ is the kaonification of the usual (Tyhonov) product. Then $kHaus$ is cartesianly closed. See G. Whitehead's _Elements of homotopy theory_, for more details.  
+Let us consider for the moment only the categories $Haus$ of Hausdorff and $kHaus$ of Hausdorff k-spaces. Then the tautological inclusion $kHaus\subset Haus$ has a right adjoint $k$ sometimes (e.g. by [[M M Postnikov]]) also called **kaonization**. This functor is constructed as follows $k(X)=X$ as a set and $k(X)$ has as new closed sets those sets whose intersection with old compacts in $X$ is closed in old topology on $X$. Then $k(X)$ has all the same closed sets and possibly more, hence all the old open sets and possibly more. In particular, the identity map $id:k(X)\to X$ is continuous. The mapping spaces $kHaus(X,Y)=k(Top(X,Y))$ where $Top(X,Y)$ is the standard mapping space in the sense of compact-open topology. Similarly, the categorical product in $kHaus$ is the kaonification of the usual (Tyhonov) product. Then $kHaus$ is [[cartesian closed category|cartesianly closed]]. See G. Whitehead's _Elements of homotopy theory_, for more details.  
 
 # Local cartesian closure #
 
@@ -70,3 +70,5 @@ Fibre preserving maps and functional spaces. Algebraic topology (Proc. Conf., Un
 [[!redirects compactly generated spaces]]
 [[!redirects k-space]]
 [[!redirects k-spaces]]
+[[!redirects kaonization]]
+[[!redirects kaonisation]]
