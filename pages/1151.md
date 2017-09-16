@@ -1,5 +1,15 @@
 There are various different-looking definitions of the general notion of _cohomology_ in different contexts, some familiar, some more exotic. It turns out that all of them are subsumed in the following general definition:
 
++-- {: .query}
+Is it really true/known that *all* forms of cohomology is subsumed in this definition? I would be really happy if this was true, but I am not convinced yet. Some questions:
+
+Is it true that cohomology theories defined for algebraic varieties over a field of characteristic p, or over a p-adic field, are subsumed in the above definition? Examples: Crystalline cohomology, rigid cohomology, syntomic cohomology. If so, is this explained somewhere? Is it clear to anyone that the language of infinity-stacks is the right one if you are trying to understand cohomology of "arithmetic schemes", i.e. schemes over base rings like the integers?
+
+For applications of many cohomology theories in arithmetic geometry, it is of crucial importance that the cohomology groups carry "extra structure", for example Galois action, Frobenius action, or Hodge structure. Is it the case that the language of infinity-stacks is the most natural language for understanding such "extra structure"? Has anyone thought about this at all?
+
+Am grateful for any (partial) answers or references.
+=--
+
 #Definition#
 
 ## Nonabelian (unstable) cohomology ##
@@ -47,7 +57,7 @@ Notice that the grading one usually sees on cohomology classes is in the above d
 
 * [[abelian sheaf cohomology|Abelian sheaf cohomology]] for unbounded complexes of sheaves is stable cohomology of the [stable (infinity,1)-topos]] of [[spectrum]]-valued [[(infinity,1)-sheaf|(infinity,1)-sheaves]].
 
-Several familiar "cohomlogy theories" are not so much genuine cohomology theories as rather computational techniques for computing certain cohomology classes in an [[(infinity,1)-category]] by using 1-categorical tools of [[homotopy coherent category theory]] such as [[model category|model categories]], [[derived category|derived categories]] and the like.
+Several familiar "cohomology theories" are not so much genuine cohomology theories as rather computational techniques for computing certain cohomology classes in an [[(infinity,1)-category]] by using 1-categorical tools of [[homotopy coherent category theory]] such as [[model category|model categories]], [[derived category|derived categories]] and the like.
 
 * [[Cech cohomology]] is the technique of computing $H(X,A)$ by computing 1-categorical [[hom-set]]s $C(\hat X,A)$ on _resolutions_ of the domain object $X$.
 
