@@ -62,7 +62,7 @@ _[[Toby Bartels|Toby]] answers_: I understand all these large cardinals much bet
 
 One way to think of category theory is as a framework in which the idea is formalized that every kind of [[equality]] is really secretly a choice of [[isomorphism]] or [[equivalence]]. In some sense the notion of identity is potentially [[evil]], in a technical sense.
 
- [[Michael Makkai]] works on a language, [[FOLDS]] ('first-order logic with dependent sorts'), which is designed to make it impossible to formulate any [[evil]] statements.  To learn more, see his paper _[First Order Logic with Dependent Sorts, with Applications to Category Theory](.
+[[Michael Makkai]] works on a language, [[FOLDS]] ('first-order logic with dependent sorts'), which is designed to make it impossible to formulate any [[evil]] statements.
 
 # Categorial foundations of mathematics
 
@@ -84,6 +84,8 @@ Thanks, Toby.  I agree with your last sentence but my point is that this approac
 I was responding to your point 'ETCC is less clean because you have to define some things (eg topological spaces) as sets with a structure'.  But you can define and study the structure without referring to the sets and then 'bolt on' the sets (almost like an afterthought).
 
 [[Mike Shulman]]: In particular cases, yes.  I thought the point Toby was trying to make is that only some kinds of structure lend themselves to this naturally.  Groups obviously do.  Perhaps topological spaces were a poorly chosen example of something that doesn't, since as you point out they can naturally be defined via frames.  But consider, for instance, a [[metric space]].  Or a [[graph]].  Or a [[uniform space]].  Or a [[semigroup]].  All of these structures can be easily defined in terms of sets, but I don't see a natural way to define them in terms of categories without going through discrete categories = sets.
+
+_Toby_:  Roger, I don\'t understand how you intend to bolt on sets at the end.  If I define a topological space as a set $S$, a frame $F$, and a frame monomorphism from $F$ to the power frame of $S$, how do I remove the set from this to get something that I can bolt the set onto afterwards?  With semigroups, I can see how, from a certain perspective, it\'s just as well to study the [[Lawvere theory]] of semigroups as a cartesian category, but I don\'t see what to do with topological spaces.
 =--
 
 ... but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _structural_ or _categorial_ (or _categorical_, which is more common but clashes with another sense of 'categorical' in logic).
