@@ -58,7 +58,7 @@ The orientals are free **strict** [[omega-category|omega-categories]] on [[simpl
 
 The first place this happens is the sixth oriental: where there are three tensorator squares and six pentagons in Stasheff's $K_6$, the corresponding tensorator squares coming from $O(6)$ are collapsed. 
 
-It was when [[Todd Trimble]] this point to Ross Street that Street began to think about using associahedra to define weak [[n-category|n-categories]].
+It was when [[Todd Trimble]] made this point to [[Ross Street]] that Street began to think about using associahedra to define weak [[n-category|n-categories]].
 
 
 
@@ -67,7 +67,7 @@ It was when [[Todd Trimble]] this point to Ross Street that Street began to thin
 
 The original article that defines associahedra and in which the operad $K$ that gives $A(\infty)$-topological spaces is implicit is
 
-* Stasheff, _Homotopy associative H-spaces I_, _II_, Trans. Amerk. Math. Soc. 108 (1963), 275-312
+* Stasheff, _Homotopy associative H-spaces I_, _II_, Trans. Amerk. Math. Soc. 108 (1963), 275--312
 
 A textbook discussion (slightly modified) is in section 1.6 of the book
 
