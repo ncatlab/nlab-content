@@ -9,6 +9,7 @@ Do all of the following really involve infinitesimal *objects*?  Or should we mo
 
 So maybe we should rename the entry here into _infinitesimal space_ and, yes, create another entry on infinitesimal quantities. Yes, I think that's a good idea. I have to run now, but I can implement it later.
 
+_Toby_:  I could do it too, although I\'d like to see what Zoran thinks.
 =--
 
 ## in synthetic differential geometry ##
