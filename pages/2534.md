@@ -61,10 +61,15 @@ $$\mathcal{X} + \mathcal{Y} = \mathcal{X}\backslash\mathcal{Y} + \mathcal{Y}\bac
 
 would follow. Furthermore, when $\mathcal{X}$ and $\mathcal{Y}$ are just sets, we'd have
 
-$$\alpha\mathcal{X}+\beta\mathcal{X} = \alpha\mathcal{X}\backslash\mathcal{Y} + \beta\mathcal{Y}\backslash\mathcal{X} + (\alpha+\beta)\mathcal{X}\cap\mathcal{Y},$$
+$$\alpha\mathcal{X}+\beta\mathcal{Y} = \alpha\mathcal{X}\backslash\mathcal{Y} + \beta\mathcal{Y}\backslash\mathcal{X} + (\alpha+\beta)\mathcal{X}\cap\mathcal{Y},$$
 
 which has a certain intuitive feeling to it.
 
+_Toby_:  I have no idea what
+$$\mathcal{X}\cap\mathcal{Y} \coloneqq \frac{1}{\mu_X+\mu_Y} \left(\mathcal{X}+\mathcal{Y} - \mathcal{X}\backslash\mathcal{Y} - \mathcal{Y}\backslash\mathcal{X}\right) = \langle X\cap Y,1_{X\cap Y}\rangle,$$
+even means.  In particular, I don\'t know how to divide (or even multiply) a multiset by a multiplicity function.
+
+Can you work out your proposed definition of $\mathcal{X} \cap \mathcal{Y}$ for the case of $\mathcal{X} = \{1,1,2,3\}$ and $\mathcal{Y} = \{1,1,2,2\}$?
 =--
 
 *  The __[[union]]__ of multisets is the multiset whose cardinality is given by the [[supremum]] operation on cardinal numbers.
