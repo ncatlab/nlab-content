@@ -12,7 +12,7 @@ $$
 
 # Examples #
 
-* In an [[(infinity,1)-topos]] [[Cech cover]] $C(U) \stackrel{\simeq}{\to} X$
+* In an [[(infinity,1)-topos]] [[Čech cover]] $C(U) \stackrel{\simeq}{\to} X$
   induced by a [[cover]] $(U = \coprod_i U_i) \to X$ is a simplicial resolution of $X$.
 
 # References #
