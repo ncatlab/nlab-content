@@ -15,6 +15,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-13
 
+* [[Urs Schreiber]]:
+
+  * replied at [[chain homology and cohomology]] and have myself a comment -- but no time at the moment to work on this entry, will try to come back to it later, unless some helpful soul takes care of it in the meantime
+
+  * created [[models for infinity-stack (infinity,1)-toposes]] -- but still working
+
 * [[David Roberts]]: Comment at [[chain homology and cohomology]] re: type of space represented by a positive-degrees chain complex. Also comment at [[sphere]] regarding topology on infinite sphere for the purposes of contractibility.
 
 *  [[Toby Bartels]]:
