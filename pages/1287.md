@@ -32,6 +32,11 @@ Perhaps the entry could reflect the origins of the idea. The current one seems t
 
 Local systems with other codomains than vector spaces are used in rational homotopy theory.
 
+[[Urs Schreiber|Urs]]: I am all in favor of emphasizing that "local system" is nothing but a functor from a fundamental groupoid. That's of course right up my alley, compare the discussion with David Ben-Zvi at the "[Journal Club](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html#c023324)". Whoever finds the time to write something along these lines here should do so (and  in clude in particular the reference Ronnie Brown gives above). 
+
+BUT at the same time it seems to me that many practitioners will by defualt think of the explicitly sheaf-theoretic notion when hearing "local syetem" which the entry currently states. We should emphasize this explicitly, something like: "while in general a local system is to be thought of as a representation of a funcdamental groupoid, often the term is understood exclusively in its realization within [[abelian sheaf]] theory as follows ..."
+
+
 =--
 
 #Examples#
