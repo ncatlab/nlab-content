@@ -146,3 +146,8 @@ More advanced treatments include
 
 * P. G. Goerss and J. F. Jardine, 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkhauser. ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
++--{:.query}
+[[Tim Porter|Tim]]:  We seem to have managed to have two notations for the basic simplices in simplicial sets.  There are pages with $\Delta[n]$ and those with $\Delta^n$. (I prefer the former.) This is confusing! 
+
+My preferred notation is $\Delta[n]$ for the representable simplicial set $\Delta(-,[n])$, with its geometric realisation being $\Delta^n$. These are quite different beasties and it seems a shame to use the same notation for both. Should we rationalise/standardise the notation?
+=--
