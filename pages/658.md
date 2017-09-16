@@ -28,11 +28,11 @@ This yields a [[bicategory]] $V\Mod$ with
 
 * For $V = (Set, \times)$, $SetMod$ is the bicategory of [[locally small category|locally small categories]], [[profunctor]]s and transformations. 
 
-The full sub-bicategory on [[discrete category|discrete categories]] is that of sets, [[span]]s of sets and morphisms of spans:
-$$
-  Set\Mod_{disc} \simeq Span(Set) 
-  \,.
-$$
+  The full sub-bicategory on [[discrete category|discrete categories]] is that of sets, [[span]]s of sets and morphisms of spans:
+  $$
+    Set\Mod_{disc} \simeq Span(Set) 
+    \,.
+  $$
 
 * Accordingly for $S = (Set^{op}, \times)$ we get the bicategory of [[cospan]]s
 $$
