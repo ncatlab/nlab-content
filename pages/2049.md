@@ -14,15 +14,15 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
     1.  Lattices
         1.  [[poset]]
         2.  [[join]]
-        3.  [[semilattice]], [[join-semilattice]]
-        4.  [[meet]], [[bounded lattice]], [[bisemilattice]]
+        3.  [[semilattice]]
+        4.  [[meet]], [[bounded lattice]]
         5.  [[distributive lattice]]
         6.  [[complement]], [[Boolean algebra]]
         7.  (none)
         8.  [[symmetric difference]]
         9.  [[Boolean ring]]
-        10. [[Heyting algebra]]
-        11. (none)
+        10. [[implication]], [[Heyting algebra]]
+        11. [[pseudocomplement]]
         12. (none)
         13. [[regular element]] (in a Heyting algebra)
     2.  Ideals and filters
