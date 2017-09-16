@@ -1,0 +1,3 @@
+This entry is about expansion in [[shape theory]] rather than in cosmology (or elsewhere, like in theory of fluids). 
+
+Let $\mathcal{T}$ be a category, $\mathcal{P}\subset\mathcal{T}$ a subcategory and $X$ an object in $\mathcal{T}$. The canonical embedding $\mathcal{T}\to pro\mathcal{T}$ into the [[pro-category]] may be considered as an identification. A $\mathcal{T}$-expansion (or simply an expansion) of $X$ is an [[initial object]] in the [[coslice category]] $X/pro\mathcal{T}$. A $\mathcal{T}$-expansion is a $\mathcal{P}$-expansion if it is a morphism in $\mathcal{P}$. 
