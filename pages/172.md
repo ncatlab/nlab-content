@@ -1,5 +1,7 @@
 [[!redirects ∞-stack]]
 [[!redirects ∞-stacks]]
+[[!redirects infinity stack]]
+
 
 #Idea#
 
