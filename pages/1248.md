@@ -21,7 +21,6 @@ However, the versions of the theorem stated below are constructively valid, and 
 (General version.)
 Given sets $S$ and $V$, let $n: V \to V$ be a map with no fixed points; that is, $n(x) \ne x$ for all $x: V$.  Then there is no [[surjection]] from $S$ to the [[function set]] $S \to V$ (also written $V^S$).
 =--
-
 +--{: .proof}
 ###### Proof
 Let $f: S \to (S \to V)$ be any function, and consider the function $g: S \to V$ given by
@@ -43,7 +42,6 @@ As the theorem states that something is impossible, this proof by contradiction 
 (Cantor\'s version.)
 Given a set $S$, there is no surjection from $S$ to the [[power set]] $\mathcal{P}S$.
 =--
-
 +--{: .proof}
 ###### Proof
 Let $V$ be the set of [[truth value]]s, and let $n: V \to V$ be [[negation]].  Now apply Theorem \ref{general}.
@@ -53,13 +51,11 @@ Note that although negation doesn\'t have all of its usual properties in constru
 
 The next version is classically equivalent to the previous version (at least if you check that $\mathcal{P}S$ is [[inhabited set|inhabited]]), but not constructively.  (Indeed, unlike Theorem \ref{general}, it apparently has no constructive analogue when $\mathcal{P}S$ is replaced by $V^S$.)  This argument is from Proposition 2.8.8 of Paul Taylor\'s [[Practical Foundations]] (although I don\'t know if it really originated there).
 
-
 +--{: .num_theorem #taylor}
 ###### Theorem
 (Taylor\'s version.)
 Given a set $S$, there is no [[injection]] from $\mathcal{P}S$ to $S$.
 =--
-
 +--{: .proof}
 ###### Proof
 Let $i: \mathcal{P}S$ to $S$ be any function.  Define $f: S \to \mathcal{P}S$ as follows:
@@ -71,14 +67,13 @@ We can combine Theorems \ref{cantor} and \ref{taylor} into the following even mo
 
 +-- {: .num_theorem #johnstone}
 ###### Theorem
+(Johnstone\'s version.)
 Given a set $S$, its power set $\mathcal{P}S$ cannot be expressed as a [[subquotient]] of $S$.
 =--
 +--{: .proof}
 ###### Proof
-Suppose we had an injection $f:B\hookrightarrow S$ and a surjection $g:B \to \mathcal{P}S$.  Then $f^{-1}:\mathcal{P}S \to \mathcal{P}B$ would be a surjection, as would the [[image]] function $\exists_f: \mathcal{P}B \to \mathcal{P P}S$.  Thus their composite would be a surjection $\mathcal{P}S \to \mathcal{P P}S$, which is impossible by Theorem \ref{cantor}.
+Suppose we had a set $B$, an injection $i: B \hookrightarrow S$ and a surjection $f: B \to \mathcal{P}S$.  Then $i^{-1}:\mathcal{P}S \to \mathcal{P}B$ would be a surjection, as would the [[image]] function $\exists_f: \mathcal{P}B \to \mathcal{P}\mathcal{P}S$.  Thus their composite would be a surjection $\mathcal{P}S \to \mathcal{P}\mathcal{P}S$, which is impossible by Theorem \ref{cantor}.
 =--
-
-
 
 # Interpretation #
 
