@@ -21,8 +21,4 @@ A useful collection of introductory notes to fiber bundles, vector bundles and f
 * Steven Bradlow, [Vector bundles and introduction to gauge theory](http://cwillett.imathas.com/bundles/)
 
 
-[[!redirects fiber bundle]]
-[[!redirects fibre bundle]]
 [[!redirects bundles]]
-[[!redirects fiber bundles]]
-[[!redirects fibre bundles]]
