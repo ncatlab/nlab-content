@@ -1,8 +1,22 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 # Idea #
 
 An _$A_\infty$-category_ is a kind of [[category]] in which the associativity condition on the [[composition]] of [[morphism]]s is relaxed "up to higher coherent homotopy".
 
 The "A" is for Associative and the "${}_\infty$" indicates that associativity is relaxed up to higher homotopies without bound on the degree of the homotopies.
+
+In the most wide-spread use of the word $A_\infty$-categories are _linear_ categories in that they have [[hom-object]]s that are [[chain complex]]es. These are really models/presentations for [[stable (∞,1)-category|stable (∞,1)-categories]].
+
+If the composition in the linear $A_\infty$-category does happen to be strictly associative it becomes the same as a [[dg-category]]. In fact, every linear $A_\infty$-category is $A_\infty$-equivalent to a [[dg-category]]. In this way, we have that $A_\infty$-categories related to [[dg-category|dg-categories]] as models for [[stable (∞,1)-category|stable (∞,1)-categories]] in roughly the same way as [[quasi-category|quasi-categories]] relate to [[simplicially enriched category|simplicially enriched categories]] as models for [[(∞,1)-category|(∞,1)-categories]]: the former is the general incarnation, while the latter is a [[semi-strict infinity-category|semi-strictified]] version.
+
 
 
 ## Ordinary linear $A_\infty$-categories ##
