@@ -1,6 +1,7 @@
-$\Lambda$ is the ring of symmetric functions in countably many variables. A **$\Lambda$-ring** is ...
+$\Lambda$ is the ring of symmetric functions in countably many variables. A **$\Lambda$-ring** is a [[P-ring]] for $P = \Lambda$.
 
 $\Lambda$-rings are also called $\lambda$-rings. 
+
 
 ###Idea###
 
