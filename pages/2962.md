@@ -194,7 +194,7 @@ and on degree 2 generators by
 $$
   d_\delta |_{\mathfrak{h}_2^*} = \rho^*
   : 
-  \mathfrak{h}_^* \to \mathfrak{h}_1^* \otimes \mathfrak{h}_2^*
+  \mathfrak{h}_2^* \to \mathfrak{h}_1^* \otimes \mathfrak{h}_2^*
   \,.
 $$
 
