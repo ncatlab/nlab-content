@@ -22,5 +22,6 @@ one of the reasons for word quasicompact is that sometimes we have the "same" ex
 _Toby_:  Ah, so when you\'ve got both Zariski and complex topologies around, you can easily distinguish the former by the prefix 'quasi'; that\'s cute.  Anyway, perhaps we\'ll move this to [[quasicompact morphism]] if you write mostly about that, but I won\'t try to move anything for now.
 =--
 
+
 [[!redirects quasicompact scheme]]
 [[!redirects quasicompact morphism]]
