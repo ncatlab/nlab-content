@@ -13,6 +13,8 @@ In the language of [[stuff, structure, property]], an idempotent monad may be sa
 
 +--{+ .query}
 [[Zoran Skoda]]: what do you mean ? The canonical monadic projection functor from EM category by definition forgets the action. 
+
+_Toby_:  This means that it can only forget 'structure', not 'stuff' in the sense of [[stuff, structure, property]].  By definition, that means precisely that it is faithful.
 =--
 
 # References#
