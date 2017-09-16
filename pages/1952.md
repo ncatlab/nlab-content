@@ -1,6 +1,7 @@
-Given an associative algebra $A$ let $\Omega A$ be its universal differential envelope. 
+Given an [[associative algebra]] $A$ let $\Omega A$ be its universal differential envelope. 
 
-##Definition (Cuntz-Quillen 1995)## 
+
+##Definition (Cuntz--Quillen 1995)## 
 
 An associative unital $k$-algebra $A$ is __quasi-free__ (or __formally smooth__) if one of the following equivalent conditions is satisfied
 
@@ -8,7 +9,7 @@ An associative unital $k$-algebra $A$ is __quasi-free__ (or __formally smooth__)
 nilpotent and $a:A\to B$ an algebra map.
 Then there exists a homomorphism $a' : A \to E$ such that $q \circ a' = a$.
 
-* $A$ has cohomological dimension $\leq 1$ with respect to Hochschild cohomology;
+* $A$ has cohomological dimension $\leq 1$ with respect to [[Hochschild cohomology]];
 
 * $\Omega^1 A$ is a projective $A$-bimodule;
 
@@ -17,6 +18,7 @@ Then there exists a homomorphism $a' : A \to E$ such that $q \circ a' = a$.
 * there exists a "right connection" $\nabla:\Omega^1 A\to \Omega^2 A$ i.e. a $k$-linear map satisfying $\nabla(a w)=a\nabla(w)$ and $\nabla (w a) = \nabla(w)a+w d a$ where $w\in\Omega^1 A$ and $a\in A$. 
 
 Path algebras of [[quivers]] and free algebras are some of the (few classes of) examples. Notice that the characterization via nilpotent extensions is similar to the definition of commutative formally smooth algebras as in EGAIV4 17.1.1. However most commutative formally smooth algebras are _not_ formally smooth in the associative noncommutative sense.
+
 
 ##Literature##
 
