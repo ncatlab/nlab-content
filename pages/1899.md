@@ -100,9 +100,11 @@ That means that for $a \in A$, $\Delta(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$
 
   So we see comonoid objects in $AbGrp$ are the same as abelian groups. 
 
-  But we still need to see _comonoid objects in $AbGrp$ are the same as **co-abelian group objects** in $AbGrp$.
+  But we still need to see that _**comonoid** objects in $AbGrp$ are the same as **co-abelian group** objects in $AbGrp$_.
 
-  The quickest way to see this seems to be a little calculation --- as you say, it's "easy to show".  But I still think "there's something about $AbGrp$" that makes this calculation work --- some general fact.  For example, I think it would work in any abelian category, or any $AbGrp$-enriched category.  But never mind... 
+  The quickest way to see this seems to be a little calculation --- as you say, it's "easy to show".  But I still think "there's something about $AbGrp$" that makes this calculation work --- some general fact.  Something about morphisms having negatives, I think.  So I bet it's true in any abelian category $X$, that comonoid objects in $X$ are the same as co-abelian group objects in $X$.
+  
+  But never mind... 
 
   [[Andrew Stacey]]: PS Don't forget to indent paragraphs in this query box.
 
@@ -145,7 +147,7 @@ but, frankly, wouldn't you rather we didn't?
 
 you'll often want to continue that sentence with 
 
-"... and think of it as an object $\mathfrak{A} \in End(\mathcal{A}).  Now, since $End(\mathcal{A}) \in MonCat$, it makes sense to equip $\mathfrak{A}$ with the structure of a monoid object, and we then call it a **monad**."
+"... and think of it as an object $\mathfrak{A} \in End(\mathcal{A})$.  Now, since $End(\mathcal{A}) \in MonCat$, it makes sense to equip $\mathfrak{A}$ with the structure of a monoid object, and we then call it a **monad**."
 
 This is just a very simple example of the kind of fancy level-shifting that takes place.  And this level-shifting is _precisely the style of thinking that makes $n$-category theory so powerful_.
 
@@ -161,9 +163,11 @@ Even though I'll be eternally proud of that moment, I think it can be good to us
 
 I did find it getting awkward in writing out the proof that a TW-monoid in abelian groups was a ring to talk of $A$ being an object of $V$.  I'd much rather have said $A$ is an object of $\mathcal{A}$.  So if we're allowed to use this sort of hierarchy locally, can I change it all back now?
 
-[[John Baez]]: If you insist, but I think it's wronghead: I don't think the letter $V$ is more 'awkward' than $\mathcal{A}$.  They're just letters.  And more people will be able to read $V$ than $\mathcal{A}$.
+[[John Baez]]: If you insist, but I don't like it: I don't think most reader will find the letter $V$ more 'awkward' than $\mathcal{A}$.  And more people will be able to read $V$ than $\mathcal{A}$.
 
-[[Andrew Stacey]]:Linking this to your question above, for something like this where there is a fair amount of notation, what do you think of a "notation used in this page" section for easy reference?
+[[Andrew Stacey]]: Linking this to your question above, for something like this where there is a fair amount of notation, what do you think of a "notation used in this page" section for easy reference?
+
+[[John Baez]]: I don't think there's intrinsically more  notation in this subject compared to most subjects on the $n$Lab, or more need for fancy fonts.  I think that with this subject, as with almost any, it's possible to explain the material very nicely with only a little notation.  But that's a kind of pet peeve of mine: I think mathematicians tend to make their work hard to read by introducing more notation than necessary, and not reminding the reader about what it means frequently enough.  They like to build towers of thought that are beautiful in principle but not very user-friendly.
 
 =--
 
