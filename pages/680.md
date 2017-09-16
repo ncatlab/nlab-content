@@ -2,7 +2,7 @@
 
 The _Dold--Kan correspondence_ asserts that certain [[infinity-category|infinity-categories]] are equivalently encoded as categories of [[chain complex]]es. 
 
-This allows 
+This allows one
 
 * on the one hand to understand the true conceptual home of many constructions with [[chain complex]]es in [[homological algebra]];
 
