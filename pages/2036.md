@@ -1,0 +1,3 @@
+A nonassociative algebra $A$ is __alternative__ if it satisfies the following weakening of the associativity condition for multiplication: for every two elements $x,y\in A$ one has $x(xy)=(xx)y$ and $(xy)y=x(yy)$. 
+
+In particular, every [[associative algebra]] is alternative. The proper-<em>non</em>associative algebra of octonions is also alternative. The reason is that it is obtained by a [[double of algebra with involution|doubling procedure]] from the algebra of quaternions which is associative; and the double of any associative $\mathbf{R}$-algebra with involution is alternative. 
