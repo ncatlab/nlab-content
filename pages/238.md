@@ -16,11 +16,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Mike Shulman]]:
 
+  * Added what I think is a more standard viewpoint to [[classifying space]], although there are so many different meanings of that term.
+
   * Created [[comma object]] and started messing around with using SVG for diagrams instead of `\array`.  It's more work but it sure does look nicer (in the output, anyway).
 
 +-- {: .query}
-[[Urs Schreiber|Urs]]: looks good! We should have at  [[FAQ]] a brief instruction for how to proceed to produce such diagrams (which software  to download, how to get nicely typeset labels, etc.) 
+[[Urs Schreiber|Urs]]: looks good! We should have at  [[FAQ]] a brief instruction for how to proceed to produce such diagrams (which software to download, how to get nicely typeset labels, etc.) 
+
+Mike: I gave it a [[FAQ|try]], but I don't have any great wisdom to impart; I just played around with the XML until it worked.  If there is software that can do this for us that would be great (until someone manages to write an xypic-to-svg converter).
 =--
+
 
 # 2009-02-11
 
