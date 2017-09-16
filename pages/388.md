@@ -15,3 +15,5 @@ I think that if we\'re going to organise the pages like this, then we should go 
 
 I guess currently most links want to go to [[homotopy (as a transformation)]] but with [[David Corfield|David]] pushing the [[Eckmann-Hilton duality]] that may change. I was motivated by his second sentence there.
 =--
+
+[[!redirects homotopies]]
