@@ -149,3 +149,5 @@ _Todd_: Ha ha! Well, I guess you can anticipate my reaction. While my own prefer
 [[Jon Awbrey]]: A bit of helpful [discussion](http://www.math.uiuc.edu/~west/igt/) and a [glossary of terminology](http://www.math.uiuc.edu/~west/openp/gloss.html).
 
 _Toby_:  That discussion helps to make it clear that the terminology is inconsistent.  I\'m not sure what 'gobbleygeek' you mean that isn\'t used by graph theorists.  The author of your glossary is one of those who use 'pseudograph' to mean pseudomultigraph (I can\'t see what term they use for a simple pseudograph, which is not a concept that one wants to ignore, since they correspond to symmetric relations); otherwise, they use every term above.
+
+JA: The thing that comes through, if you read the discussion of the poll results, is a prevailing tendency to use the shortest and simplest term for the species of object that is the most frequently used in practice and the most fundamental to pedagogy.  That is why, among graph theorists, "graph" has long been the default term for what others insist on calling a "finite undirected unlabeled graph sans loops or multiple edges" (FUUGSLOME).  Or something ...
