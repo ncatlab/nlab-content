@@ -87,6 +87,88 @@ which it is easy to see is natural in $d$.  Again, in this case there is a uniqu
 Note that this definition is simply obtained by applying the [[Yoneda lemma]] to the definition in terms of representable functors.
 
 
+# Definition in terms of correspondences #
+
+Every [[distributor]]
+
+$$
+  k : C^{op} \times D \to S
+$$
+
+defines a category
+$C *^k D$ with $Obj(C *^k D) = Obj(C) \sqcup Obj(D)$ and 
+
+$$
+  Hom_{C^{op} \times D}(X,Y)
+  = 
+  \left\{
+    \array{
+      Hom_C(X,Y) & if X, Y \in C
+      \\
+      Hom_{D}(X,Y) & if X,Y \in D
+      \\
+      k(X,Y) & if X \in C and Y \in D
+      \\
+      \emptyset & otherwise
+    }
+  \right.
+  \,.
+$$
+
+This category naturally comes with a functor to the [[interval]] category
+
+$$
+  C *^k D \to \Delta^1
+  \,.
+$$
+
+Now, every functor $L : C \to D$ induces a [[distributor]]
+
+$$
+  k_f(X,Y) = Hom_D(f(X), Y)
+$$
+
+and every functor $R : D \to C$ induces a [[distributor]]
+
+$$
+  k_g(X,Y) = Hom_C(X, R(Y))
+  \,.
+$$
+
+The functors $L$ and $R$ are adjoint precisely if the [[distributor]]s that they define are equal.
+
+
+# Definition for $(\infty,1)$-functors #
+
+The above characterization of adjoint functors in terms of categories over the interval is used in section 5.2.2 of
+
+* [[Jacob Lurie]], [[Higher Topos Theory]]
+
+(motivated from the discussion of correspondences in section 2.3.1) 
+
+to give a definition of adjunction between [[(infinity,1)-functor]]s
+
+
++-- {: .un_defn}
+###### Definition
+
+Let $C$ and $D$ be [[quasi-category|quasi-categories]]. 
+An **adjunction** between $C$ and $D$ is 
+
+* a morphism of [[simplicial set]]s $K \to \Delta^1$
+
+* which is
+
+  * a [[Cartesian fibration]]
+
+  * a coCartesian fibration
+
+* such that $C \simeq K_{0}$ and $D\simeq K_{1}$.
+
+=--
+
+
+
 #Examples#
 
 * see [[examples of adjoint functors]].
