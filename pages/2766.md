@@ -19,6 +19,8 @@ commute.
 [[Eric]]: What is the "component free" way to say that?
 
 [[Finn Lawler]]:  I think the category of cones over $F$ is the comma category $\Delta / F$, so that a morphism $\alpha : T \to T'$ should be just a natural transformation $\alpha : \Delta c \Rightarrow \Delta c'$ such that $T' \alpha = T$.  That gives your condition in components, I think.
+
+[[Eric]]: Thanks Finn! I'm still learning all this, so it'll take me some time to absorb what you said. It sounds good though :) Either way, it sounds like some potentially good additional content.
 =--
 
 **The following material is very tentative**
