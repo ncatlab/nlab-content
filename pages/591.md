@@ -1,3 +1,10 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+#Definition#
+
 A [[category]] $C$ is **cocomplete** if it has all small [[colimit|colimits]]: that is, if every [[diagram]] 
 
 $$ F: D \to C$$
