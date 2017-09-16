@@ -16,7 +16,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-08-03
-
+* [[Zoran Škoda]]: added [[reconstruction theorem]]. There should eventually be separate entries for each of the main classes and examples, which are listed in the main entry.
 * [[Urs Schreiber]]: 
 
   * added something on the dual Dold-Kan correspondence relating _co_ -chain complexes and co-simplicial abelian groups to [[Dold-Kan correspondence]].
