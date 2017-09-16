@@ -99,6 +99,8 @@
 
 * [SymOmega](http://symomega.wordpress.com)
 
+* [Teaching College Math] (http://teachingcollegemath.com) A blog about math, technology, and teaching.
+
 * [The accidental mathematician](http://ilaba.wordpress.com) (Izabella Laba)
 
 * [The Endeavour](http://www.johndcook.com/blog)
