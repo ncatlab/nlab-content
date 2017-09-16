@@ -5,7 +5,7 @@
 
 #Idea#
 
-A computad is a formal device (due to [[Ross Street]]) for describing "generators" of $n$-[[n-category|categories]], much as [[directed graph]]s describe generators of [[category|categories]]. Originally the $n$-categories under consideration were [[strict n-category|strict]], but more recently the concept of $n$-computad has been expanded to take into account weak $n$-categories.  The notion is tied to [[algebraic definition of higher category|algebraic]] sense of higher categories, but computads can also be used as the input for [[geometric definition of higher category|geometric]] senses as well.
+A computad is a formal device (due to [[Ross Street]]) for describing "generators" of $n$-[[n-category|categories]], much as [[directed graph]]s describe generators of [[category|categories]]. Originally the $n$-categories under consideration were [[strict n-category|strict]], but more recently the concept of $n$-computad has been expanded to take into account weak $n$-categories.  The notion is tied to [[algebraic definition of higher category|algebraic]] senses of higher categories, but computads can also be used as the input for [[geometric definition of higher category|geometric]] senses as well.
 
 
 #Terminology#
@@ -68,7 +68,7 @@ However, the presence of identities in the notion of free $n$-category prevents 
 
 This argument only kicks in for $n\ge 3$, so the categories of 0-computads, 1-computads, and 2-computads are presheaf categories.  (For 0 and 1, this is obvious.)
 
-If we restrict the notion slightly, however, we can obtain presheaf categories.  For instance, if we consider only "many-to-one" computads in which the target of each $n$-cell consists of exactly one $(n-1)$-cell (rather than a free composite of such), we obtain a presheaf category, which is in fact equivalent to the category of [[opetopic sets]].
+If we restrict the notion slightly, however, we can obtain presheaf categories.  For instance, if we consider only "many-to-one" computads in which the target of each $n$-cell consists of exactly one $(n-1)$-cell (rather than a free composite of such), we obtain a presheaf category, which is in fact equivalent to the category of [[opetopic set]]s.
 
 +--{: .query}
 [[Mike Shulman]]: Do the non-strict versions of computads get around this problem?
