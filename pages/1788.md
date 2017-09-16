@@ -8,6 +8,16 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
+This used to work in MediaWiki LaTeX for slashing operators and arrows:
+
+* $\not\in$
+* $\not\equiv$
+* $\not\rightarrow$
+
+$\not$ here ...
+
+***
+
 Black Tortoise Shell Brackets?
 
 These look close to the "Chicago" and "Hollywood" fonts that I used to use for logical ops on my old Mac.
