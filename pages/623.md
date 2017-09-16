@@ -6,7 +6,7 @@ Recall that a [[simplicial group]] $G$, being in particular a [[Kan complex]], m
 
 or 
 
-* _normalized chain complex_ 
+* _normalized Moore complex_ 
 
 of $G$ is a [[chain complex]] 
 
@@ -172,4 +172,4 @@ for instance [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goer
 
 * Goerss, Jardine, _Simplicial Homotopy Theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
  
-Notice that Gorss-Jardine write "normalized chain complex" for the complex that elsewhere in the literature would be called just "Moore complex", whereas what Goerss-Jardine call "Moore complex" is sometime maybe just called "alternating sum complex" .
+Notice that Goerss-Jardine write "normalized chain complex" for the complex that elsewhere in the literature would be called just "Moore complex", whereas what Goerss-Jardine call "Moore complex" is sometime maybe just called "alternating sum complex" .
