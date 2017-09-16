@@ -225,3 +225,7 @@ The ordinary definition of sheaf cohomology in terms of the right derived global
 Its discussion in the more general [[nonabelian cohomology]] and [[infinity-stack]] context emphasized above is due to
 
 * K. Brown, [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
+
+A discussion of the [[Cech cohomology]] desccription of sheaf cohomology along the above lines is in
+
+* Tibor Beke, _Higher Cech Theory_ ([web](http://www.math.uiuc.edu/K-theory/0646/) [pdf](http://www.math.uiuc.edu/K-theory/0646/cech.pdf))
