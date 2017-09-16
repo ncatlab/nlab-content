@@ -1,16 +1,16 @@
 ## Idea
 
-<div style="float:left;margin:0 10px 10px 0;"><img src="http://math.ucr.edu/home/baez/centipede.jpg" alt="" width="208" height="150" /> &nbsp; &nbsp;</div>
 A _quasigroup_ is a generalization of a [[group]] without the associativity law or identity element.   A quasigroup with identity is called a [[loop:algebra|loop]].
 
+Note that, in the absence of associativity, it\'s not enough (even for a loop) to say that every element has an [[inverse element]] (on either side); instead, you must say that division is always possible.  This is because the definition $x/y = x y^{-1}$ won\'t work right without associativity.
+
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://math.ucr.edu/home/baez/centipede.jpg" alt="" width="208" height="150" /> &nbsp; &nbsp;</div>
 Some consider these concept to be examples of [[centipede mathematics]] and therefore uninteresting.  For example, one mathematician has written:
 
-"The meeting was dominated by algebraic loop theory.  It occured to me that as a way to use your intellectual resources this was very akin in significance
-to doing a difficult sudoku, a thought that was made very ironic when one speaker started making loops out of what were essentially sudoku squares."
+>The meeting was dominated by algebraic loop theory.  It occured to me that as a way to use your intellectual resources this was very akin in significance to doing a difficult sudoku, a thought that was made very ironic when one speaker started making loops out of what were essentially sudoku squares.
 
 Nonetheless it can be instructive to ponder these concepts.
 
-Note that, in the absence of associativity, it\'s not enough (even for a loop) to say that every element has an [[inverse element]] (on either side); instead, you must say that division is always possible.  This is because the definition $x/y = x y^{-1}$ won\'t work right without associativity.
 
 ## Definitions
 
@@ -54,6 +54,7 @@ For good measure, here is another special kind of quasigroup:
 
 A __[[group]]__ is an associative loop.
 =--
+
 
 ## Examples
 
