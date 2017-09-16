@@ -41,3 +41,6 @@ Now define $\kappa$ to be the smallest ordinal which is a critical point of an e
 =--
 
 Now, if we work instead in a theory such as [[NBG]] or [[MK]] which can contain *non-definable* proper classes, in theory there might still be an e.e. $V\to V$ which is not definable.  One can also access such an idea by adding a new symbol "$j$" to ZF and asserting that it is an e.e.  However, it was shown by Kunen in 1971, using a technical combinatorial argument, that the existence of such an e.e. is inconsistent with the [[axiom of choice]].  It is unknown whether it is consistent with [[ZF]].
+
+[[!redirects elementary substructure]]
+[[!redirects elementary submodel]]
