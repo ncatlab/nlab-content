@@ -1,4 +1,8 @@
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 Given a [[category]] $C$ whose objects are thought of as _test spaces_ a very general useful notion of 
 
@@ -22,7 +26,9 @@ There are various specializations of interest on this
 
 For some discussion of why this is a useful general notion see [[motivation for sheaves, cohomology and higher stacks]].
 
-#Details#
+With the advent of [[Higher Topos Theory]] abstract concepts of _space and quantity_ have been realized fully in the context of [[(∞,1)-topos]]es in terms of [[structured (∞,1)-topos]]es and [[generalized scheme]]s. For a summary see the tables at [notions of space](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+the+derived+moduli+stack+of+derived+elliptic+curves#NotionsOfSpace).
+
+## Details
 
 As indicated in
 
@@ -95,10 +101,9 @@ In conclusion, the grand [[duality]] between spaces and quantities is a conseque
 
 This story generalizes straightforwardly from [[presheaf|presheaves]] with values in [[Set]] to presheaves with values in other categories. Of relevance are in particular presheaves with values in the category [[Top] of [[topological space]]s and presheaves with values in the category of [[spectrum|spectra]]. See the examples below. 
 
-#Examples#
+## Examples
 
-
-## Examples for generalized spaces ##
+### Examples for generalized spaces
 
 
 *  A [[sheaf]] is a generalized space in the above sense which satisfies a certain extra natural condition which encodes that it is _locally well behaved_. The [[sheaf]] condition on a [[presheaf]] says that the generalized space whose probes form a [[presheaf]] is such that the probes by a big test object $U$ can be reconstructed from those probes by smaller test objects $\{V_i\}$ [[coverage|covering]] $U$ which are given by restricting the probe by $U$ to all of the $V_i$. So generalized spaces which are given not just by presheaves but by sheaves satisfy a very natural locality conditions: they can be _built up from smaller pieces_. 
@@ -114,7 +119,7 @@ This story generalizes straightforwardly from [[presheaf|presheaves]] with value
 
 * The idea of a _space equipped with a structure sheaf_ generalizes in the above sense to a mix of a copresheaf and a presheaf, see [[structured generalized space]].
 
-## Examples for generalised quantities ##
+### Examples for generalised quantities
 
 It would be nice if we had some of these, although [[structured generalized space]] above is sort of a mixture.
 
