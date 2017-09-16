@@ -9,9 +9,9 @@ In EGA IV, Grothendieck defines formal smoothness in the generality of relative 
 
 ##Definition (EGAIV${}_4$ 17.1.1)##
 
-A morphism $f :X\to Y$ is __formally smooth__ if   it satisfies the _infinitesimal lifting property_: for every ring $A$ and nilpotent ideal $I\subset A$ and morphism $Spec A\to Y$ the induced map
+A morphism $f :X\to Y$ is __formally smooth__ if   it satisfies the _infinitesimal lifting property_: for every ring $A$ and nilpotent ideal $I\subset A$ and morphism $Spec(A)\to Y$ the induced map
 
-$$ Hom_Y(Spec A, X)\to Hom_Y(Spec(A/J),X)$$
+$$ Hom_Y(Spec(A), X)\to Hom_Y(Spec(A/I),X)$$
 
 is surjective. 
 
