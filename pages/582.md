@@ -8,6 +8,10 @@ A **regular monomorphism** is a [[morphism]] which occurs as the [[equalizer]] o
 
 * In [[Top]], the monics are the injective functions, while the regular monics are the embeddings (that is, injective functions whose source has the topology induced from their target).
 
++-- {: .query}
+[Wikipedia claims that it's the extremal monics that are the embeddings](http://en.wikipedia.org/wiki/Category_of_topological_spaces#Other_properties), and I have a simple proof which seems valid.  Can we clarify this?
+=--
+
 * In [[Grp]], the monics are (up to isomorphism) the inclusions of subgroups, while the regular monics are the inclusions of _normal_ subgroups.
 
 +--{.query}
