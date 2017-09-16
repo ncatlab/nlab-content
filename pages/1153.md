@@ -20,4 +20,8 @@ so I wanted to put this together and say: if it looks stable and homs in it can 
 
 _Toby_:  You could call this an _abelian $(\infty,1)$-category_.  A topos is like the category of sets ($0$-groupoids), while an abelian category is like the category of abelian groups (stably monoidal $0$-groupoids).  So we just change $0$ to $(\infty,1)$, equivalently $1$ to $(\infty,1)$, in both of those.
 
+[[Mike Shulman|Mike]]: Well, while an abelian category is like the category of abelian groups, there are plenty of abelian categories other than categories of abelian sheaves, and it sounds like Urs is particularly interested in $(\infty,1)$-categories of sheaves of spectra.
+
+Also, I feel like a broken record saying this, but the category of spectra is _not_ the category of stably monoidal $\infty$-groupoids; that would be the category of _connective_ spectra.
+
 =--
