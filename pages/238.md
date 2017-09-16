@@ -16,6 +16,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * created [[exact functor]]
+
+  * created [[filtrant category]]
+
+  * added to [[Higher Topos Theory]] more introductory/overview remarks which are supposed to be helpful for the newbie
+
   * created [[Yoneda extension]]
 
   * added section to [[Kan extension]] on formulas in terms of limits and colimits over comma categories;
