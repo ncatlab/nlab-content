@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-19 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * added illustrative diagrams to [[boundary of a simplex]] and [[horn]]
+
+  * added a section with details on ordinary nerves of ordinary categories to [[nerve]]
+
 *  [[Toby Bartels]]:
    *  Expanded [[measurable space]] quite a bit, but I need to go, so it hasn\'t really been proofread.
    *  Split [[measure space]] off from [[measurable space]].
