@@ -37,11 +37,17 @@ First of all sorry if I am posting in the wrong place
 
 While thinking about graphs, I wanted to define them as subobjects of naive cardinal **2** and this got me thinking about the behaviour of the full subcategories of **Set** defined by isomorphism classes.  These categories turned out to be more interesting than I had expected.
 
-If the background set theory is ZFC or similar, these are all large but locally small categories with all hom sets being isomorphic.  They all contain the same number of objects (except **0**, which contains one object and no non-identity morphisms) and are equinumerous with **Set**.  Each hom Set contains N^2 arrows.  In the finite case N! of the morphisms in a particular hom set are isomorphisms.  In particular, only **0** and **1** are groupoids.  I haven't worked out how this extends to infinite cardinalities, yet.
+If the background set theory is ZFC or similar, these are all large but locally small categories with all hom sets being isomorphic.  They all contain the same number of objects (except **0**, which contains one object and no non-identity morphisms) and are equinumerous with **Set**.  Each hom Set contains $N^N$ arrows.  In the finite case $N!$ of the morphisms in a particular hom set are isomorphisms.  In particular, only **0** and **1** are groupoids.  I haven't worked out how this extends to infinite cardinalities, yet.
 
 If the background theory is NF, then they are set and **1** is smaller than **Set**.  I haven't yet worked out how **2** compares to **1**.  I need to brush up on my NF to see how NF and category theory interact.
 
 I am acutely aware that NF/NFU is regarded as career suicide by proffesional mathematicians, but, fortunately, I am a proffesional transport planner, not a mathematician.
+
+_Toby_:  Each of these categories is [[equivalence of categories|equivalent]] (but not isomorphic, except for **0**) to a category with exactly one object, which may be thought of as a [[monoid]].  Given a cardinal $N$, if you pick a set $X$ with $N$ elements, then this is (up to equivalence, again) the monoid of functions from $X$ to itself.  The invertible elements of this monoid form the symmetric group, with order $N!$ as you noticed.  Even for infinite cardinalities, we can say $N^N$ and $N!$, where we *define* these numbers to be the cardinalities of the sets of functions (or invertible functions) from a set of cardinality $N$ to itself.
+
+From a [[structural set theory|structural]] perspective, there\'s no essential difference between equivalent categories, so the fact that these categories (except for **0**) are equinumerous with all of **Set** is irrelevant; what matters is not the number of objects but the number of *isomorphism classes* of objects (and similarly for morhpisms).  That doesn\'t mean that your result that they are equinumerous with **Set** is meaningless, of course; it just means that it says more about how sets are represented in ZFC than about sets themselves.  So it should be no surprise if it comes out differently in NF or NFU, but I\'m afraid that I don\'t know enough about NF to say whether they do or not.
+
+By the way, every time you edit this page, you wreck the links to external web pages (down towards the bottom in the last query box).  It seems as if something in your editor is removing URLs.
 =--
 
 Lowercase Greek letters starting from $\kappa$ are often used for cardinal numbers.
@@ -135,11 +141,11 @@ a very readable account of ZFC and the definitions of both Ordinal and Cardinal 
 
 _Toby_:  It looks like you\'re asking about cardinal numbers in general rather than groupoid cardinality.
 
-Any serious reference on set theory should cover cardinal numbers.  The long-established respected tome is Thomas Jech\'s _[Set Theory](; there are also some references listed at [MathWorld]() and [the English Wikipedia]().
+Any serious reference on set theory should cover cardinal numbers.  The long-established respected tome is Thomas Jech\'s _[Set Theory](http://books.google.com/books?id=pLxq0myANiEC)_; there are also some references listed at [MathWorld](http://mathworld.wolfram.com/CardinalNumber.html) and [the English Wikipedia](http://en.wikipedia.org/wiki/Cardinal_number).
 
 Any *standard* approach will start from a material set theory, such as ZFC; we tend to prefer structural set theory here.  (See [[set theory]].)  Since cardinality is isomorphism invariant (which is kind of the whole point), it\'s easy to interpret the standard material structurally, but the basic definitions will be different.  If you\'re looking for a standard reference on cardinality from a structural foundation, I can\'t help you; there may not be any.
 
-By the way, if you want to be sure that people see your questions in a timely manner, then it\'s best if you make a note of it [here](); I just did that (which you can find by looking for your name).  You did *ask* the question in the right place, but now it\'s possible that more people will come to *read* it!
+By the way, if you want to be sure that people see your questions in a timely manner, then it\'s best if you make a note of it [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5); I just did that (which you can find by looking for your name).  You did *ask* the question in the right place, but now it\'s possible that more people will come to *read* it!
 =--
 
 
