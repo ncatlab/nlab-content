@@ -40,6 +40,6 @@ $$ \frac{\partial r}{\partial u} = 1 + uv - uvuv^{-1}u^{-1},$$
 
 
 $$ \frac{\partial r}{\partial v} = u - uvuv^{-1} -  uvuv^{-1}u^{-1}v^{-1}.$$
-This relation, $r$, is the typical braid group relation, here in $Br_3$.
+This relation, $r$, is the typical [[braid group]] relation, here in $Br_3$.
 
 
