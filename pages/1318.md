@@ -41,6 +41,12 @@ We will denote by $\mathcal{C}$ one of the following categories:
 *  The subcategory of  commutative $n$-graded differential algebras.
 
 
++-- {: .query}
+
+[[Urs Schreiber|Urs]]: How does the $n$-grading affect the nature of the following definition? It seems that chain homotopies are not used in the following, just the 1-categorical structure?
+
+=--
+
 
 In the 'differential' examples, the differential will usually be denoted $d$.  Almost always we will be restricting ourselves to the case $n = 1$.  Extensions of any results or definitions to the general case are usually routine.
 
@@ -60,6 +66,13 @@ satisfying the simplicial identities.
 
 There is an obvious way of assigning a small category to a simplicial set in which the simplices are the objects and the face and degeneracy maps generate the morphisms.  A local system is then just a functor from that category to $\mathcal{C}$.
 
++-- {: .query}
+
+[[Urs Schreiber|Urs]]: Here it says "a local system". I suppose "simplicial local system" is meant? We should have a discussion about how this notion of simplicial local system relates to the functors from fundamental groupoids discussed at [[local system]].
+
+=--
+
+
 ###Back to discussion###
 
 Let $\varphi : L \to K$ be a simplicial map and $F$ a local system over $K$.  The _pullback_ of $F$ to $L$ (or along $\varphi$) is the local system $\varphi^*F$ over $L$ given by 
@@ -73,6 +86,16 @@ Now let $F$ be a local system on $K$ with values in $\mathcal{C}$.  Define a gra
 
 
 $$\Phi_{d_i\sigma} = d_i(\Phi_\sigma) \quad  and  \quad \Phi_{s_i\sigma}  = s_i(\Phi_\sigma).$$
+
+
++-- {: .query}
+
+[[Urs Schreiber|Urs]]: Do I understand correctly that when the simplicial local system is expressed as a functor, then $F(K)$ is the space of natural transformations from the simplicial local system constant on the [[generator]] (if any) of $\mathcal{C}$ (for instance the tensor unit if $\mathcal{C}$ is graded vector spaces).
+
+For ordinary [[local system]]s this gives the flat sections. 
+
+=--
+
 
 The linear structure is the obvious one, defined 'componentwise' and if $\mathcal{C}$ is one of the algebra (resp. differential) variants of the generic receiving category then the multiplication (resp. the differential) is defined componentwise as well. In this way $F(K)$ becomes an object of $\mathcal{C}$, called the **object of global sections** of $F$.
 
@@ -89,3 +112,9 @@ If $\varphi$ is an inclusion of $L$ into $K$, then we denote $(\varphi^*F)(L)$ s
 Now suppose $F$ is a local system over $K$.  Assume $M_n \subset K_n$ are subsets ($n \geq 0$) such that $d_i : M_n \to M_{n-1}$  This family $\{M_n\}$ generates a subsimplicial set $L\subset K$ and if $s_i\sigma \in M_{n+1}$ then $\sigma = d_i s_i\sigma \in M_n$.
 
 
+
++-- {: .query}
+
+[[Urs Schreiber|Urs]]: So what are simplicial local systems used for? Is there a good motivating example? Relating it to the other definition of [[local system]], maybe?
+
+=--
