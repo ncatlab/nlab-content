@@ -27,6 +27,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-03
 
+* [[Urs Schreiber]] made the following keywords all redirect to [[fibration sequence]]: [[cofibration sequence]], [[homotopy fiber]], [[homotopy cofiber]]
+
+  (this is supposed to be in line with what I think is a general strategy we should stick to: that all co-things are discussed in the same entry with things, since otherwise we get huge and unreasonable duplication) 
+
 * [[Zoran Škoda]]: created [[free field (algebra)]], [[perfect field]], [[algebraic group]]. 
 
 * [[lab elf|Lab Elf (children's department)]]: We're getting a memory upgrade sometime soon.  This will involve a downtime of approximately 35-40 minutes (they have to shift our "slice" to another machine to accommodate the upgrade).  I don't know yet exactly when this will occur and I may not get notice in time to post it here (I've requested that it be ASAP).  For obvious reasons, if I do get notice of when it will be then I'll put an announcement on the Forum and somewhere appropriate on the Cafe (I guess the 'nLab migration' thread seems most suitable).
