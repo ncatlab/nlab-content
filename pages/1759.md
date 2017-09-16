@@ -9,6 +9,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-24
 
+* [[Urs Schreiber]]
+
+  * started putting material into [[brane]] -- as a preparation for something I plan at [[K-theory]]
+
 * [[John Baez]]: I answered some remarks by Mike Stay and Eric over on [[free cocompletion]].  I also had an hour-long chat with Mike that should eventually push this exposition forward quite a bit: I explained coends to him, which is a lot easier in words than on paper.  But I hope we get the explanation into the $n$Lab eventually!
 
 *  [[Toby Bartels]]:  Answered Eric\'s first question; I\'m not ready to think about the second one yet.
