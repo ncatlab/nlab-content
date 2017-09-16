@@ -322,7 +322,7 @@ Here the point as compared to the previous statements is that in particular all 
 
 ### Nerve of a 2-category ###
 
-For a [[2-category]], regarded as a [[Cat]]-[[internal category]] one can apply the nerve operation for categories in stages, to ontain the [[double nerve]].
+For a [[2-category]], regarded as a [[Cat]]-[[internal category]] one can apply the nerve operation for categories in stages, to obtain the [[double nerve]].
 
 ### Nerve of an $\omega$-category ###
 
