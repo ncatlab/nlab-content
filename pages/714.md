@@ -70,4 +70,8 @@ Certain specially nice $\dagger$-categories, such as $C^*$-categories and [[modu
 [web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html)
 
 
+[[!redirects dagger-categories]]
 [[!redirects dagger category]]
+[[!redirects dagger categories]]
+[[!redirects †-category]]
+[[!redirects †-categories]]
