@@ -19,32 +19,34 @@ In particular, [[sheafification]] given by the geometric embedding $Sh(S) \hookr
 
 More generally:
 
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
-Every geometric embedding $C' \hookrightarrow C$ of [[topos|topoi]] is of the form $sheaves of C \hookrightarrow C$ for some [[Lawvere-Tierney topology]] on $C$. The objects of $sheaves of C$ are the [[local object]]s with respect to the [[dense monomorphism]]s of $C$ determined by the [[Lawvere-Tierney topology]]. The class $W$ of morphism inverted this way is the saturation of the [[dense monomorphism]]s of $C$.
+Every geometric embedding $C' \hookrightarrow C$ of [[topos|topoi]] is of the form $Sh_j C \hookrightarrow C$ for some [[Lawvere-Tierney topology]] $j$ on $C$. The objects of $Sh_j C$ are the [[local object]]s with respect to the [[dense monomorphism]]s of $C$ determined by the [[Lawvere-Tierney topology]]. The class $W$ of morphism inverted this way is the saturation of the [[dense monomorphism]]s of $C$.
 
+=--
 
+(...let me check that I said this precisely correctly...)
 
-This  perspective on localization is very useful for understanding the important case of localization of [[model category|model categories]], known as
+This  perspective on localization is very useful for understanding the important case of localization of [[model category|model categories]], described at
 
 * [[Bousfield localization]]
 
-* [[simplicial localization]]
-
 * [[localization of a simplicial model category]].
 
-All these constructions are to be thought of a _modelling_ the geometric embeddings not of ordinary [[topos|topoi]], but of [[(infinity,1)-topos|(infinity,1)-topos]], hence the [[localization of an (infinity,1)-category]]:
+All these constructions are to be thought of as _modelling_ or [[presentable (infinity,1)-category|presenting]] the passage not just from categories to [[reflective subcategory|reflective subcategories]] but from [[(infinity,1)-category|(infinity,1)-categories]] to [[reflective (infinity,1)-subcategory|reflective (infinity,1)-subcategories]], i.e. the 
+[[localization of an (infinity,1)-category]]:
 
-with the right $\infty$-version of left exact, left adjoitn etc understood, a [[localization of an (infinity,1)-category]] $C$ is nothing but a fully faithful [[(infinity,1)-functor]]
+with the right $\infty$-version of left exact, left adjoitn etc. understood, a [[localization of an (infinity,1)-category]] $C$ is nothing but a fully faithful [[(infinity,1)-functor]]
 
 $$
   L \hookrightarrow C
 $$
 
-with a left [[exact]] [[left adjoint]].
+with a [[left adjoint]].
 
 
-**Wrning** There is the notion of [[Bousfield localization]] of a model category to another model category, and there is also the term "localization of a model category" referring to passing to the [[homotopy category]].
+**Warning** There is the notion of [[Bousfield localization]] of a model category to another model category, and there is also the term "localization of a model category" referring to passing to the [[homotopy category]].
 
 
 
