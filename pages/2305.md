@@ -3,6 +3,7 @@ The **de Rham complex** of a [[manifold]] is the [[cochain complex]] which in de
 Under the [[wedge product]], the deRham complex becomes a [[differential graded algebra]]. This may be regarded as the [[Chevalley–Eilenberg algebra]] of the [[tangent Lie algebroid]] $T X$ of $X$.
 
 
+
 [[!redirects deRham complex]]
 [[!redirects deRham alghebra]]
 [[!redirects de Rham alghebra]]
