@@ -31,7 +31,7 @@ This is relevant for the preservation of exactness when applying limiting proces
 
 An inverse sequence of groups consists of some groups $G_n$ indexed by the [[natural numbers]]  and between them group [[homomorphisms]]: if $m \gt n$, there is a homomorphism $p^m_n : G_m \to G_n$ and if $l\gt m  \gt n$, $p^m_n p^l_m= p^l_n$, so that we really just need the $p^{n+1}_n$s to define everything.
 
-An inverse system $G = \{G_n,p^m_n\}$ is said to _satisfy the Mittag-Leffler condition_ if
+An inverse system $G = \{G_n,p^m_n\}$ is said to _satisfy the Mittag-Leffler property_ (or _condition_) if
 
 for any $n$, there is an $n^\prime \gt n$ such that for any $n^{\prime\prime} \gt n^\prime$, 
 
@@ -56,3 +56,4 @@ Mittag-Leffler property of pro-objects in the category of pointed sets and in th
 * [[S. Mardešić]], J. Segal, _Shape theory_, North Holland 1982
 
 [[!redirects Mittag-Leffler conditions]]
+[[!redirects Mittag-Leffler property]]
