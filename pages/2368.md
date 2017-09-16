@@ -5,8 +5,11 @@
 [[!include higher algebra - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+## Idea
 
 In [[higher algebra]] and [[stable homotopy theory]] one is interested in  [[monoid in a monoidal (∞,1)-category|monoid objects]] in the [[stable (∞,1)-category of spectra]] -- 
 called  [[A-∞ ring]]s -- and [[commutative monoid in an (infinity,1)-category|commutative monoid object]] -- called [[E-∞ ring]]s.
@@ -107,13 +110,19 @@ All this is such that an [[A-infinity algebra]] over $R$ is a [[monoid]] object 
 $(Mod_R, \wedge_R)$. Similarly [[E-infinity algebra]]s are commutative [[monoid]]
 objects in  $(Mod_R, \wedge_R)$.
 
-#Details#
+## Details
 
 For defining the symmetric monoidal smash product of spectra it is necessary to use a model for the objects of the [[stable homotopy category]] that is a bit more refined than the notion of $\Omega$-[[spectrum]]. One uses [[coordinate-free spectrum|coordinate free spectra]].
 
 ...
 
-# References #
+## References
+
+A survey of the general theory, also of its history, is
 
 * A. Elmendorf, I. Kriz, [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ 
-([pdf]())
+([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+
+The definition of the symmetric monoidal category of spectra itself is compiled in the seminar notes
+
+* [[Sander Kupers]], [[SymmetricSpectra.pdf:file]]
