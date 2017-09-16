@@ -1,3 +1,7 @@
+[[!redirects semiotic]]
+[[!redirects semiotics]]
+[[!redirects semeiotic]]
+[[!redirects semeiotics]]
 [[!redirects sign relations]]
 
 * tic
@@ -227,7 +231,7 @@ Object & Interpretant \\
 
 * Peirce, C.S., _The New Elements of Mathematics by Charles S. Peirce_, 4 volumes in 5, Carolyn Eisele (ed.), Mouton Publishers, The Hague, Netherlands, 1976.  Humanities Press, Atlantic Highlands, NJ, 1976.  Cited as (NEM volume, page).
 
-# External links #
+# Links #
 
 * [Sign Relation @ MyWikiBiz](http://mywikibiz.com/Sign_relation)
 
