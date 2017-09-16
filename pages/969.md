@@ -42,7 +42,7 @@ A **localization** of $C$ by $W$ (or "at $W$") is
 
 There is a general construction of $W^{-1}C$, if it exists, which is however hard to use. 
 
-When the system $W$ has special properties, such as if $W$ is a [[multiplicative system]]/[[category of fractions|factorization system]] then there are more direct formulas for the [[hom-set]]s of $W^{-1}C$.
+When the system $W$ has special properties, such as if $W$ admits a [[calculus of fractions]] or a [[factorization system]], then there are more direct formulas for the [[hom-set]]s of $W^{-1}C$.
 
 ## General construction ##
 
@@ -76,7 +76,7 @@ $$(y;\overline{f},f;y)\sim (y;id_y;y)$$
 
 ## For the case of multiplicative systems/factoization system ##
 
-If the class $W$ admits a [[category of fractions]]/[[multiplicative system]], then there is a simpler description of $C[W^{-1}]$ in terms of [[span|spans]] instead of zig-zags. This is describe at [[multiplicative system]].
+If the class $W$ admits a [[calculus of fractions]], then there is a simpler description of $C[W^{-1}]$ in terms of [[span|spans]] instead of zig-zags.
 
 This concept has been extended to [[bicategory of fractions|bicategories of fractions]] by Dorette Pronk, where a class of 1-arrows is sent to [[equivalence|equivalences]].
 
@@ -85,7 +85,7 @@ This concept has been extended to [[bicategory of fractions|bicategories of frac
 
 ( classical references go here ...)
  
-One account of localization for [[multiplicative system]]s is section 7 of
+One account of localization with a [[calculus of fractions]] is section 7 of
 
 * Kashiwara-Schapira, [[Categories and Sheaves]]
 
