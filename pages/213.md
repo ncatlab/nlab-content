@@ -22,3 +22,4 @@ If we write [[FinSet]] for the skeletal version of the category of finite sets, 
 category: category
 
 [[!redirects CartesianSpaces]]
+[[!redirects Cart Sp]]
