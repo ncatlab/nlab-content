@@ -32,22 +32,12 @@ and that every 1-functor is essentially $k$-surjective for all $k \geq 3$.
 
 So the above says for a functor $F : C \to D$:
 
-$$
-  \array{
-     essentially (k \geq 0)-surjective & forgets & nothing
-     & remembers & stuff, structure, property
-     \\
-     essentially (k \geq 1)-surjective & forgets at most & property 
-     & remembers & stuff, structure
-     \\
-     essentially (k \geq 2)-surjective & forgets at most & structure
-    & remembers & stuff
-     \\
-     essentially (k \geq 3)-surjective & forgets & stuff
-    &
-    remembers & nothing
-  }
-$$
+| If it is ...                        | then it ...               | but it ...                             |
+| ----------------------------------- | ------------------------- | -------------------------------------- |
+| essentially $(k \geq 0)$-surjective | forgets nothing           | remembers everything                   |
+| essentially $(k \geq 1)$-surjective | forgets only property     | remembers at least stuff and structure |
+| essentially $(k \geq 2)$-surjective | forgets at most structure | remembers at least stuff               |
+| essentially $(k \geq 3)$-surjective | may forget everything     | may remember nothing                   |
 
 
 It is noteworthy how this formalism captures the heuristic way in which "stuff", "structure" and "property" are expected to be related:
@@ -62,7 +52,7 @@ See also the examples below.
 
 The formulation in terms of $k$-surjectivity induces an immediate generalization of the notions of stuff, structure and property to the context of [[infinity-category|infinity-groupoids]].
 
-(I believe Baez's students speak of "2-stuff", etc.)
+(Baez's students speak of "2-stuff", etc.)
 
 
 ##Generalization to categories and higher categories##
