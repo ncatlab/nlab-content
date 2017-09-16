@@ -112,6 +112,8 @@ For instance in [[Top]] this gives the
 
 In the [[∞-stack]] [[(∞,1)-topos]] $\mathbf{H}_{Nis}$ cohomology with  coefficients in the corresponding [[Eilenberg-MacLane object]]s identifies with the notion of [[Chow group]]s.
 
+[BEWARE: What one gets applying the definition of Eilenberg-MacLane object found under the link are NOT all the objects representing higher Chow groups - rather one gets only the objects representing the higher *codimension zero* Chow groups, i.e. a rather trivial part]
+
 > the following paragraphs are due to [[Denis-Charles Cisinski]], taken from [this MathOverflow thead](http://mathoverflow.net/questions/2520/homotopy-theory-of-schemes-examples).
 
 To keep things simple, let us assume we work over a [[perfect field]]. The easiest part of motivic cohomology which we can get is the [[Picard group]] (i.e. the [[Chow group]] in degree 2). This works essentially like in [[Top]]: in the [[model structure on simplicial presheaves|(model) category of simplicial Nisnevich sheaves]] (over smooth $k$-schemes), the classifying space of the multiplicative group $\mathbb{G}_m := \mathbb{A}^1 - \{0\}$  has the $\mathbb{A}^1$-[[homotopy n-type|homotopy type]] of the infinite dimensional projective space. 
