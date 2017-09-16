@@ -1,6 +1,6 @@
 #Idea#
 
-[[schreiber:Differential Nonabelian Cohomology|Recall]] that for $X$ a manifold and $P_1(X)$ its [[path groupoid]] (moprhisms are thin-homotopy classes of smooth paths in $X$) and [[Vect]] the category of vector spaces, a suitably well-behaved [[functor]]
+[[schreiber:Differential Nonabelian Cohomology|Recall]] that for $X$ a manifold and $P_1(X)$ its [[path groupoid]] (morphisms are thin-homotopy classes of smooth paths in $X$) and [[Vect]] the category of vector spaces, a suitably well-behaved [[functor]]
 
 $$
   tra_\nabla : P_1(X) \to Vect
@@ -9,6 +9,9 @@ $$
 is the same thing as a vector bundle $E \to X$ bundle with connection $\nabla$: the functor sends each point of $X$ to the fiber $E_x$ of $E$ over $x$, and sends each path $x \stackrel{\gamma}{\to} y$ to the _parallel transport_ 
 $tra_\nabla(\gamma) : E_x \to E_y$
 induced by the connection along the path.
+
+
+
 
 Precisely when the connection $\nabla$ is _flat_ does the functor $tra_\nabla$ factor through 
 
@@ -33,21 +36,156 @@ $$
 
 may hence be thought of as defining an "$A$-bundle" with flat connection. And this is precisely what is called a _local system with coefficnets in $A$_.
 
-If $I$ is some special object of $A$, such as a [[terminal object]], or a [[generator]] or a tensor unit if $A$ is [[monoidal]], then it makes sense to think of natural transformations
+If $I$ is some special object of $A$, such as a [[terminal object]], or a [[generator]] or a tensor unit if $A$ is [[monoidal category|monoidal]], then it makes sense to think of natural transformations
 
 $$
   \sigma : const_I \to tra
 $$
 
-as a _flat section_ of the flat bundle given by $tra$.
+as a _flat section_ (or flat $I$-section) of the flat bundle given by $tra$.
+
+In general there are few or none such sections on $X$, but for each subset $u \hookrightarrow X$ there is an obvious inclusion functor $i_U : \Pi_1(U) \hookrigharrow \Pi_1(X)$ and the pulled back functor $tra \circ i_U : \Pi(U) \to Vect$ in general has a nontrivial collection of sections when $U$ is small enough (in particular when $U$ is contractible).
+
+This way  a functor $tra : \Pi_1(X) \to A$ induces a [[sheaf]] of flat $I$-sections on $X$
+
+$$
+  \Gamma_I(tra) : Op(X)^{op} \to C
+  \,,
+$$
+where $C$ is the category over which $A$ is [[enriched category|enriched]],
+and under mild conditions the functor $tra$ may be reconstructed up to isomorphism from its sheaf of $I$-flat sections.
+
+The sheaves that arise this way from flat parallel transport functors are rather special, in particular they are locally constant. In large parts of the literature a _local system_ is defined to be such a locally constant sheaf, with some further condition on its stalks: if $A = Vect$ then flat sections form themselves a vector space and so do the stalks of the sheaf of flat section. In the sheaf theoretic literature a _local system_ is therefore usually assumed to have this property.
+
+There are more or less obvious and straightforward generalizations of the notion of flat bundles and of local systems to much more general context. Notably the concept of a functor on the fundamental groupoid wants to generalize to that of an $\infty$-functor on a [[fundamental infinity-groupoid]] $\Pi(X) = \Pi_\infty(X)$.
+
+For $A$ a suitable [[infinity-category]] therefore an $\infty$-functor
+
+$$
+  tra : \Pi(X) \to A
+$$
+
+may be regarded as a flat $\infty$-bundle on $X$. Examples are for instance higher gerbes with flat connection (see [[Deligne cohomology]] and more generally [[schreiber:Differential Nonabelian Cohomology]]|differential nonabelian cohomology).
+
+Moreover, the space $X$ may itself be replaced by a [[heuristic introduction to sheaves, cohomology and higher stacks|generalized space]]: an [[infinity-stack]] (which may be a [[derived stack]]). Under mild assumptions there is still a notion of [[fundamental infinity-groupoid]] $\Pi(X)$ in the context of $\infty$-stacks and hence for $A$ any coefficient object in the relevant [[(infinity,1)-topos]], the $\infty$-category
+
+$$
+  [\Pi(X), A]
+$$
+
+maybe addressed as a derived category of local systems, or the like. More on this is at [[geometric infinity-function theory]] (under "basic ideas related to $\infty$-stacks") and at [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]].
+
+#Definition#
+
+We start with the geometric definition and then give the [[sheaf]]-theoretic one.
+
+## geometric definition ##
+
+A **local system** on a topological space $X$ with coefficients in a category $A$ is a functor
+
+$$
+  tra : \Pi_1(X) \to A
+$$
+
+from the [[fundamental groupoid]] $\Pi_1(X)$ of $X$ to $A$. 
+The category of local systems on $X$ with coefficients in $A$ is the [[functor category]]
+
+$$
+  [\Pi_1(X), A]
+  \,.
+$$
+
+## history ##
+
+This definition apparently first appears in an exercise in 
+
+* Spanier  (1966) 
+
+on page 58: 
+
+>_A local system on a space $X$ is a covariant functor from the fundamental groupoid of $X$ to some category._
+
+where a reference is given to 
+
+* Steenrod: _Homology with local coefficients_, Annals 44 (1943) pp. 610 - 627.
+
+### higher categorical geometric definition ###
+
+For any notion of [[fundamental infinity-groupoid]] there is a corresponding notion of higher local system.
+
+R. Brown and P. Higgins have discussed local systems for the [[fundamental infinity-groupoid]] $\Pi(X)$ realized as a  [[infinity-groupoid|strict infinity-groupoid]]. Since strict $\infty$-groupoids are equivalent to [[crossed complex]]es, in this context a higher local system 
+$\Pi(X) \to A$
+may be realized as a morphism of [[crossed complex]]es.
+
+See
+
+* R. Brown, P.J. Higgins, _Crossed complexes and chain complexes with operators_ Math. Proc. Camb. Phil. Soc., 107 (1990) 33-57.
+
+* R. Brown, P.J Higgins, _The classifying space of a crossed
+complex_, Math. Proc. Camb. Phil. Soc., 110 (1991) 95-120.
+
+A categorification of local systems to (a bit nontrivial) notion of locally constant stacks is given in 
+
+* P. Polesselo, I. Waschkies, Higher monodromy, Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150;
+[arXiv](http://arxiv.org/abs/math/0407507)
+
+There is an another direction of categorifications of local systems (where roughly speaking the base is categorified) considered by M. Hopkins (unpublished). 
 
 
-(need to interrupt for a second...)
++-- {: .query}
+
+  [[Urs Schreiber|Urs]]: I'd be interested in seeing more details of the definition by Hopkins. Does anyone know more?
+
+=--
 
 
-#Definitions and characterizations#
+## sheaf-theoretic definition ##
 
-A __local system__ is a locally constant [[sheaf]] on a topological space $X$ (or manifold, analytic manifold, or algebraic variety) whose stalk is a finite-dimensional vector space. On a connected topological space this is the same as a sheaf of sections of a finite-dimensional vector space equipped with flat connection; and it also corresponds to the representations of the [[fundamental group]] $\pi_1(X,x_0)$ in the typical stalk. On an analytic manifold or a variety, there is an equivalence between the category of non-singular coherent $D_X$-[[D-module|modules]] and local systems on $X$.
+
+**Definition**
+
+A **local system** is a locally constant [[sheaf]] on a [[topological space]] $X$ (or manifold, analytic manifold, or algebraic variety) whose stalk is a finite-dimensional vector space. 
+
+**Lemma**
+
+On a connected topological space this is the same as a sheaf of sections of a finite-dimensional vector bundle equipped with flat connection; and it also corresponds to the representations of the [[fundamental group]] $\pi_1(X,x_0)$ in the typical stalk. On an analytic manifold or a variety, there is an equivalence between the category of non-singular coherent 
+$D_X$-[[D-module|modules]] and local systems on $X$.
+
+
+#Examples#
+
+...
+
+#Related entries#
+
+* [[D-module]]
+
+* [[abelian sheaf cohomology]]
+
+
+
+
+
+
+#Expositions#
+
+A blog exposition of some aspects of local system is developed here:
+
+* David Speyer: _Three ways of looking at a local system_
+
+  * [Introduction and connection to cohomology theories](http://sbseminar.wordpress.com/2009/04/20/three-ways-of-looking-at-a-local-system-introduction-and-connection-to-cohomology-theories/)
+
+
+  * [Local systems: the path groupoid approach](http://sbseminar.wordpress.com/2009/04/21/local-systems-the-path-groupoid-approach/)
+
+
+
+
+***
+
+#Discussion#
+
+I ([[Urs Schreiber|Urs]]) moved the discussion here, not (at all) to indicate that it is over, but in order that we better see the structure of the entry that we are developing here.
 
 +-- {: .query}
 
@@ -94,33 +232,10 @@ on a manifold then there is naturally a local system that encodes valuable infor
 
 [[Zoran Skoda]]: Keep both definitions, and say when they are equivalent, sheaf theoretic and fundamental group one. 
 Why I favour the sheaf theoretic definition as primary is its generality: it works over a site, it is related to combinatorial versions (local system of cohomological coefficients on a simplicial complex or on a poset), as well as local systems on stratified spaces: I do not know how the fundamental group is defined in those cases to yield the same notion; and as aside issue I also do not know if there is a usage of local systems on topological spaces which are not linearly connected. Besides, representations of fundamental group in f.d. vector spaces have also another name: monodromies (monodromy representations).  
+
+[[Urs Schreiber|Urs]]: it seems everybody is waiting for everybody else to make the first step. So I did it now. Please see the above changes and please feel free to improve as you see the need!
+
+
 =--
 
-#Examples#
 
-...
-
-#Related entries#
-
-* [[D-module]]
-
-* [[abelian sheaf cohomology]]
-
-#References#
-
-There is a starting thread (still little info) at
-
-* David Speyer: _Three ways of looking at a local system_
-
-  * [Introduction and connection to cohomology theories](http://sbseminar.wordpress.com/2009/04/20/three-ways-of-looking-at-a-local-system-introduction-and-connection-to-cohomology-theories/)
-
-
-  * [Local systems: the path groupoid approach](http://sbseminar.wordpress.com/2009/04/21/local-systems-the-path-groupoid-approach/)
-
-
-A categorification of local systems to (a bit nontrivial) notion of locally constant stacks is given in 
-
-* P. Polesselo, I. Waschkies, Higher monodromy, Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150;
-[arXiv](http://arxiv.org/abs/math/0407507)
-
-There is an another direction of categorifications of local systems (where roughly speaking the base is categorified) considered by M. Hopkins (unpublished). 
