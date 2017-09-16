@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-14 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * added a discussion to [[universe in a topos]] with more details on how to get back the Grothendieck universe axioms in $SET$. Please check. I'd be grateful for improvement.
+
+  * to Andrew: I think we want here on the $n$Lab as much detail as we can get hold of -- if an entry becomes too long, though, it might be an option to split off entries from it "more details on xyz" or the like and link to them
+
 * [[Andrew Stacey|Andrew Stacey]]: Added the basic definitions to [[Chen space]] and some of the other variants of [[generalized smooth space|generalised smooth space]].  How much detail do we want on these pages?
 
 * [[Andrew Stacey|The English Pedant]]: I'm not convinced about the use of the word "heuristic" on the n-Lab.  I've started a discussion on the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=17) rather than force my views on the English language on the n-Lab.  I realise that this is a little against the Wiki-spirit but I figured that if I went through changing all occurrences of the word "heuristic" then someone would object and we'd have a discussion about it; so to save a bit of agro, I'm instigating the discussion first.
