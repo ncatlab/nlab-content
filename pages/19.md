@@ -204,6 +204,8 @@ _Toby_:  The main point to understand is that both [[ZFC]] (we haven\'t written 
 
 _[[John Baez]]_: I'm deleting the mistake that launched this discussion: "In fact the definition of a category depend on sets. To get rid of this dependence categories have to be internalized and enriched, which is enriched internal category theory."   
 
+David R: Thankyou!
+
 =--
 
 |Set theory| |Category theory|
@@ -233,6 +235,8 @@ _Rafael_: Toby is pointing out my idea i was going to write. Categorification in
 _Toby_:  But from $Bicat$ you can categorify further to $Tricat$ etc, so why stop there?  (I guess that it depends on how strictly you interpret 'Baez--Dolan' categorification; I don\'t think that Baez and Dolan intended to limit the idea, but it\'s true that this is the sort of thing that they discussed in their paper _Categorification_.)  So in the limit, categorification is about going from $\infty Cat$ to $\infty Cat$, but in a nontrivial way.
 
 Note that we do have articles [[categorification]] and [[decategorification]]; perhaps we should move this discussion to the former?
+
+[[David Roberts]]: I agree - categorification is maybe a bit too much for people who are trying to find out why they might be interested in categories for the first time.
 =--
 
 For a philosophical consideration of foundations covering and comparing sets, structuralism [a la Bourbaki?] and categories, see the article
