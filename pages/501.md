@@ -6,7 +6,7 @@ The category [[FinSet]] of finite sets and functions between them is essentially
 
 # Finiteness constructively and internally
 
-In [[constructivism|constructive mathematics]], and internally to a [[topos]], a number of classically equivalent notions of finiteness become distinguishable.  In addition to the above notion (for which one generally reserves "finite"), we have the following.
+In [[constructive mathematics]], and internally to a [[topos]], a number of classically equivalent notions of finiteness become distinguishable.  In addition to the above notion (for which one generally reserves "finite"), we have the following.
 
 * A set is **subfinite** if it admits an injection into some finite set.
 
