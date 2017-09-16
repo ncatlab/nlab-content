@@ -12,3 +12,6 @@ There are two kind of morphisms of noncartesian internal categories: functors an
 
 ...
 
++--{: .query}
+[[David Roberts]]: I think Ross Street and the other Australian category theorists call this a quantum category - I did go to a talk once, but my notes are elsewhere.
+=--
