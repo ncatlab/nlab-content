@@ -27,6 +27,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-01
 
+* [[John Baez]]: I answered Rafael's plea for a definition of 'CW complex' in that big discussion on [[category theory]], and also commented on Urs' remark about 'simplicial complexes'.
 
 * [[Zoran Škoda]]: I restarted the system and now IE renders [[normal subgroup]] correctly. This is strange as it had problems only with new entries [[normal subgroup]] and [[normal closure]] (even after many reloads) and rendered correctly the other entries. Now after reboot even they appear correct. 
 
