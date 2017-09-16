@@ -1,4 +1,10 @@
-#Whitehead's algebraic homotopy programme
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Whitehead's algebraic homotopy programme
 
 
 In his talk at the 1950 ICM in Harvard, [[Henry Whitehead]] introduced the idea of *algebraic homotopy theory* and said
@@ -42,8 +48,8 @@ polyhedra or CW-complexes, but it may be larger than this and may contain the
 sort of 'generalised space', [[topos]], etc., used in other contexts such as algebraic
 geometry, and, of course, $\infty$-[[infinity-groupoid|groupoids]].)
 
-#More recent developments
+## More recent developments
 
 *  Baues has developed an approach to Whitehead's basic programme using a mix of [[cofibration category|cofibration categories]] and categories with a particular type of [[cylinder functor]], that he calls [[I-category|I-categories]]. These are treated in separate entries. Cofibration categories are very similar to the dual of K.S. Brown's Abstract homotopy theory, as discussed in [[category of fibrant objects]] and [[BrownAHT]].
 
-*  Ronnie Brown's [[nonabelian algebraic topology]] has developed Whitehead's theory of crossed complexes along the lines suggested by the original papers of Whitehead, but extending that, in particular, using generalisations of van Kampen's theorem. (This is discussed in detail in the entry: [[nonabelian algebraic topology]].)
+*  [[Ronnie Brown]]'s [[nonabelian algebraic topology]] has developed Whitehead's theory of crossed complexes along the lines suggested by the original papers of Whitehead, but extending that, in particular, using generalisations of van Kampen's theorem. (This is discussed in detail in the entry: [[nonabelian algebraic topology]].)
