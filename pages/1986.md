@@ -16,6 +16,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-08-03
+
+* [[Urs Schreiber]]: created [[differential forms in synthetic differential geometry]] with two purposes: it reviews the definition found in the literature and then proposes a -- supposedly nicer -- reformulation
+
 * [[Zoran Škoda]]: added a query in [[compact object]]: the stated characterization of categories of $R$-modules is known at least about 3 deaced before Ginzburg's lectures. Maybe we should look into classical sources.
 * [[John Baez]]: 
 
