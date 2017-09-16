@@ -76,7 +76,7 @@ described and handled, beautifully illustrating and enriching the earlier
 abstraction.
 
 The final chapter describes one of the most important recent advances in topos 
-theory, giving an introduction to the Joyal~-~Tierney classification of
+theory, giving an introduction to the Joyal--Tierney classification of
 Grothendieck toposes as sheaves on localic groupoids.  The book ends with a
 look at other directions the theory has taken beyond those handled in detail.
 This section is particularly valuable as it should set the scene for future
@@ -102,5 +102,7 @@ Some researchers will probably feel that some of the exercises should have been 
 * A.R.Magid,  _The separable Galois theory of commutative rings_,
   Marcel Dekker, 1974.
 
+
+[[!redirects Galois theories]]
 
 category: reference
