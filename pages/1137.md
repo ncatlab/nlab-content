@@ -1,4 +1,40 @@
-#Definition#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea 
+
+
+Generally, the [[right adjoint]] part $f_*$ of any [[geometric morphism]] 
+
+$$  
+  (f^* \dashv f_*) \;\; : E_1  \stackrel{\leftarrow}{\to} E_2
+$$
+
+of [[topos]]es is called a **direct image**.
+
+Specifically for [[Grothendieck topos]]es:
+a [[site|morphism of sites]] $f : X \to Y$ induces a [[geometric morphism]] of [[Grothendieck topos]]es
+
+
+$$
+  (p^* \dashv p_*)
+  \;\;\;
+  :
+  \;\;\;
+  Sh(X) \stackrel{}{\stackrel{\overset{p_*}{\to}}{\overset{p^*}{\leftarrow}}}
+  Sh(Y)
+$$
+
+between the [[category of sheaves|categories of sheaves]] on the sites, with 
+
+* $p_*$ the **direct image**
+
+* and $p^*$ its [[left adjoint]]: the [[inverse image]].
+
+## Definition
 
 Given a [[site|morphism of sites]] $f : X \to Y$ coming from a [[functor]] $f^t : S_Y \to S_X$, the **direct image** operation on [[presheaf|presheaves]] is the functor
 
@@ -17,14 +53,31 @@ $$
   \,.
 $$
 
-More generally, the right adjoint part of any [[geometric morphism]] is called its **direct image functor**.
 
-#Remarks#
 
-* The [[adjoint functor|left adjoint]] to the direct image is the [[inverse image]] functor.
+## Examples
 
-* The [[adjoint functor|right adjoint]] to the direct image functor, if it exists, is the [[restriction and extension of sheaves|extension]] operation on (pre)sheaves.
 
+### Global sections
+
+For $X$ a [[site]] with a [[terminal object]], let the morphism of [[site]]s be the canonical morphism $p : X \to {*}$.
+
+* The direct image $p_*$ is the [[global section]]s functor;
+
+* the inverse image $p^*$ is the [[constant sheaf]] functor;
+
+* the left adjoint to $p^*$  is $\Pi_0$, the functor of geometric connected components (see [[homotopy group of an ∞-stack]]).
+
+
+
+
+### Restriction and extension of sheaves
+
+See 
+
+* [[restriction and extension of sheaves]] 
+
+for the moment.
 
 [[!redirects direct images]]
 [[!redirects direct image functor]]
