@@ -8,12 +8,7 @@ Also including questions that should be frequently asked but aren't.
 
     If you want to use references with numbered theorems and the like then there has to be a reference for _every_ numbered theorem.
     Specifically, if you want to reference a particular theorem then every previous numbered theorem has to have a label otherwise the counters are not syncronised.
-    (This is apparently a _feature_, not a _bug_.
-    It is a necessary consequence of being able to easily add new theorem-like environments via CSS.)
-
-+--{: .query}
-How seriously are you claiming this to be a feature rather than a bug?  If it's a necessary consequence of something-or-other, that's one thing, and it's not too hard to work around.  But calling it a feature implies that there are reasons one might _want_ this specific behavior, and I'm having trouble thinking of those.
-=--
+    (This is an unfortunate but necessary consequence of being able to easily add new theorem-like environments via CSS.)
 
 ### _n_-Lab Specifics
 
