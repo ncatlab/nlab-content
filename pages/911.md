@@ -4,14 +4,13 @@ For a functor $F : C \to Set$, we may think of $Set$ as the [[classifying space]
 
 Forming a category of elements can be thought of as "unpacking" a [[concrete category]]. For example, consider a concrete category $C$ consisting of two objects $X,Y$ and two non-trivial morphisms $f,g$
 
-[[explode.jpg|Exploding a Category:pic]]
+<img src="http://ncatlab.org/nlab/files/explode.jpg" width = "275"/>
 
 The individual elements of $X,Y$ are "unpacked" and become objects of the new category. The "unpacked" morphisms are inherited in the obvious way from morphisms of $C$.
 
 Note that an "unpacked" category of elements can be "repackaged".
 
-
-[[implode.jpg|Imploding a Category:pic]]
+<img src="http://ncatlab.org/nlab/files/implode.jpg" width = "275"/>
 
 The analogue of the category of elements for functors landing in $Cat$, rather than $Set$, is called the [[Grothendieck construction]].
 
