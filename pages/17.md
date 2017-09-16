@@ -88,7 +88,9 @@ First quantization is a mystery, but second quantization is a functor.
 
 To fiddle with the CSS code, go to "Edit web" on the main page of your wiki, and then click on "Stylesheat tweaks". Here you can add new CSS gismos like query boxes and standout boxes (see the explanation (here) by Jacques Distler by how these are implemented in Instiki). You can grab the CSS code for query boxes from the main nLab page. It requires a password to change the CSS, but to view it does not require one.
 
-
++-- {: .query}
+Where\'s the explanation?
+=--
 
 # How to search the nLab from firefox #
 
