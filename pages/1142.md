@@ -34,16 +34,7 @@ where $Y : S \to [S^{op}, Set]$ is the [[Yoneda embedding]].
 
 ## Definition in terms of homs of direct images ##
 
-+-- {: .query}
-
-[[Urs Schreiber|Urs]]: I have to admit that I am not entirely sure how to show that the following reproduces the above. It must be simple and I seem to almost see how to do the computation, but I must be missing something. Help is appreciated.
-
-[[Todd Trimble|Todd]]: Hi. I've already sent a detailed email, but in a nutshell, it boils down to 
-* This $S_U$ is nothing but $S_X/U$. 
-* $PreSh(S_X/U)$ is equivalent to $PreSh(S_X)/y(U)$. 
-* The functor $F \mapsto F|U$ is thereby identified with the functor $F \mapsto y(U) \times F$, viewed in the comma category $PreSh(S_X)/y(U)$. When you calculate the hom of maps $y(U) \times F \to y(U) \times G$ in this comma category, you get the hom of maps $y(U) \times F \to G$. 
-
-=--
+Often another, equivalent, expression is used to express the internal hoom of presheaves:
 
 Let $X$ be a [[site|pre-site]] with underlying [[category]] $S_X$. Recall from the discussion at [[site]] that just means that we have a category $S_X$ on which we consider [[presheaf|presheaves]] $F \in PSh(S_X) := [S_X^{op}, Set]$, but that it suggests that
 
@@ -51,18 +42,31 @@ Let $X$ be a [[site|pre-site]] with underlying [[category]] $S_X$. Recall from t
 
 * that the canonical [[stuff, structure, property|forgetful]] [[functor]] $j^t_{U \to X} :  S_U \to S_X$, which can be thought of as a [[site|morphism of pre-sites]] $j_{U \to X} : X \to U$ induces the [[direct image]] functor $(j_{U \to X})_* : PSh(X) \to PSh(U)$ which we write $F \mapsto F|_U$.
 
-The **internal hom**  for presheaves
+Then in these terms the above **internal hom**  for presheaves
 
 $$
   hom : PSh(X)^{op} \times PSh(X) \to PSh(X)
 $$
 
-is given for all $F,G \in PSh(X)$ by
+is expressed for all $F,G \in PSh(X)$ by
 
 $$
   hom(F,G) : U \mapsto Hom_{PSh(U)}(F|_U, G|_U)
   \,.
 $$
+
+## Relation of the two definitions ##
+
+To see the equivalence of the two  definitions, notice
+
+* that by the [[Yoneda lemma]] we have that $S_U$
+is simply the [[over category]]
+$S_U = S_X/U$;
+* by the general properties of [[functors and comma categories]] there is an equivalence $PSh(S_X/U) \simeq PSh(S_X)/y(U)$;
+* which identifies the functor $(-)|_U : PSh(S_X) \to PSh(S_U)$ with the functor 
+$((-)\times y(U) \stackrel{p_2}{\to} y(U)) : PSh(S_X) \to PSh(S_X)/y(U)$;
+* and that $Hom_{PSh(S_X)/y(U)}(y(U) \times F, y(U) \times G) \simeq Hom_{PSh(S_X)}(y(U) \times F, G)$.
+
 
 #References#
 
