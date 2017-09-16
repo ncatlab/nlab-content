@@ -6,6 +6,10 @@ A [[topological space]] $X$ is **paracompact** if every open [[cover]]ing $U$ ha
 
 Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as well; the issues here are the same as those for [[compact space]]s.
 
+
+For paracompact spaces, [[numerable open cover|numerable open covers]] are cofinal in all open covers.
+
+
 # Examples #
 
 * every [[compact space]] is paracompact;
