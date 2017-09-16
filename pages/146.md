@@ -10,7 +10,7 @@ from the [[opposite category]] $S^{op}$ to $C$.
 
 * One usually addresses such functors as presheaves instead of just as functors
 
-  * generally if one is interested in the [[Yoneda embedding]] of a category $C$ into its presheaf category $[[C^{op}, Set]]$ for purposes of studying for instance [[limit]]s, [[colimit]]s, [[ind-object]]s, [[pro-pbject]]s of $C$;
+  * generally if one is interested in the [[Yoneda embedding]] of a category $C$ into its presheaf category $[C^{op}, Set]$ for purposes of studying for instance [[limit]]s, [[colimit]]s, [[ind-object]]s, [[pro-object]]s of $C$;
 
   * in any case if there is the structure of a [[site]] on $S$, such that it makes sense to ask if a given presheaf is actually a [[sheaf]].
 
