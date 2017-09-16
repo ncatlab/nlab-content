@@ -34,6 +34,8 @@ Nonetheless, the advantages of cubes are:
 
 1. Good notions of tensor product, because of the rule $I^m \times I^n \cong I^{m+n}$, and hence easy conceptual handling of homotopies.  
 
+For the first of these, we refer to [[compositions in cubical sets]]. 
+
 #References#
 
 * Grandis, M. and Mauri, L. Cubical sets and their site, _Theory Applic. Categories_ {11} (2003) 185--201.
