@@ -9,7 +9,7 @@
 
 #Idea#
 
-The _exterior algebra_ of some object $V$ in a context with a [[tensor product]] the _[[free object|free]] graded-commutative tensor algebra_ over $V$
+The _exterior algebra_ of some object $V$ in a context with a [[tensor product]] is the _[[free object|free]] graded-commutative tensor algebra_ over $V$.
 
 #Definition#
 
