@@ -14,7 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-19 #
 
-* [[Urs Schreiber|Urs]]: added cross-links between [[compact object]] and [[compact space]]
+* [[Urs Schreiber|Urs]]: 
+
+  * created [[Northwestern TFT conference 2009]]
+
+  * added cross-links between [[compact object]] and [[compact space]]
 
 * [[Todd Trimble]] created [[compact space]]
 
