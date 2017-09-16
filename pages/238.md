@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-20 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * started polishing the typesetting at [[bundle gerbe]], but there is still plenty of room for further improvement
+
+  * added a summary list to the section "Example: universes in SET" at [[universe in  a topos]]
+
 * [[Mike Shulman|Mike]]: 
 
   * Added the correct equivalent definition to [[semi-abelian category]] and deleted the discussion about what it might be.
