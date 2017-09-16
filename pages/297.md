@@ -91,7 +91,7 @@ In this context Dan Freed is picking up again his old work on higher algebraic s
 
 * Daniel S. Freed, _Quantum Groups from Path Integrals_ ([arXiv](http://xxx.lanl.gov/abs/q-alg/9501025))
 
-* Daniel S. Freed, _Higher Algebraic Structures and Quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115]))
+* Daniel S. Freed, _Higher Algebraic Structures and Quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
 
 where he argued that and how the path integral should assign $n$-categorical objects to domains of codimension $n$, and is re-expressing this in the $\infty$-functorial context.  (Freed speaks of _multi-tiered_ QFT instead of extended QFT.) 
 
@@ -144,6 +144,9 @@ As usual, the problem of constructing FQFT becomes much more tractable when line
 
 * etc.
 
+
 [[!redirects FQFTs]]
 [[!redirects Functorial quantum field theory]]
 [[!redirects Functorial quantum field theories]]
+[[!redirects functorial quantum field theory]]
+[[!redirects functorial quantum field theories]]
