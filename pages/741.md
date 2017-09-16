@@ -1,0 +1,3 @@
+A **finite group** is a [[group]] whose underlying [[set]] is [[finite set|finite]].
+
+The structure of finite groups is a very hard problem; the classification of finite [[simple group]]s alone is one of the largest theorems ever proved (certainly if measured by number of journal pages needed for a complete proof).  All finite groups are built out of simple groups, but the ways to do this have not (yet?) been fully classified.
