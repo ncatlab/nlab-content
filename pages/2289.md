@@ -59,6 +59,12 @@ The central theorem is
    1. [[A Survey of Elliptic Cohomology - E-infinity rings and derived schemes]]
 
 
+1. towards geometric models
+
+    These links point to pages that have an exposition of the Stolz-Teichner program for constructing geometric models for [[elliptic cohomology]].
+
+    * [[Axiomatic field theories and their motivation from topology]]
+
 1. [Contents](#contents)
 
    The following is a copy of the table of contents of _A Survey of Elliptic Cohomology_ . Behind each entry is a list of hyperlinks to entries on relevant keywords.
