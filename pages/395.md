@@ -629,8 +629,123 @@ is again a weak equivalence.
 +-- {: .proof}
 ###### Proof
 
-This is a bit of work. For the time being see
-page 11 in [[BrownAHT]].
+
+
+So let 
+$u : B' \to B$ be a weak equivalence and
+$ p : E \to B$ be a fibration. We want to show that the
+left vertical morphism in the [[pullback]]
+
+$$
+  \array{
+    E \times_B B' &\to& B'
+    \\
+    \downarrow && \downarrow
+    \\
+    E &\to& B
+  }
+$$
+
+is a fibration. 
+
+First of all, using the factorization lemma
+we may always factor $B' \to B$ as
+
+$B ' \to \mathbf{E} B \to B$
+
+with the first morphism a weak equivalence that is
+a left inverse and the right one an acyclic fibration.
+
+Then then pullback diagram in question may be decomposed
+in two consecutive pullback diagrams
+$$
+  \array{
+    E \times_B B' &\to& B'
+    \\
+    \downarrow && \downarrow
+    \\
+    Q &\stackrel{\in F}{\to}& \mathbf{E} B
+    \\
+    \downarrow^{\in W \cap F} && \downarrow^{\in W \cap F}
+    \\
+    E &\stackrel{\in F}{\to}& B
+  }
+  \,,
+$$
+
+where the morphisms are indicated as fibrations and
+acyclic fibrations using the stability of these
+under any pullback.
+
+So the proof reduces to proving that weak equivalences
+$u : B' \to B$ left inverse to some acyclic fibration
+$v : B \to B'$
+are preserved by pullback along a fibration.
+
+Given these, consider the pullback
+
+$$
+  \array{
+    E
+    \\
+    & \searrow^{p \times Id} && \searrow^{Id}
+    \\
+    &&
+       E_1 := B \times_{B^I} E 
+    &
+       \stackrel{\in W \cap F}{\to} 
+    & 
+       E
+    \\
+    &&\downarrow && \downarrow^{p}
+    \\
+    &&&& B 
+    \\
+    &&\downarrow && \downarrow^{v}
+    \\
+    &&B &\stackrel{v \in W \cap F}{\to}& B'
+  }
+  \,.
+$$
+
+This says that $E \to E_1$ is a weak equivalence
+(and in fact right inverse to to a weak equivalence).
+
+The above lemma (...to by typed  in a moment...)
+says that weak equivalences between fibrations over $B$
+are themselves preserved by base extension along
+$U : B' \to B$
+
+$$
+  \array{
+    u^* E &\to&E
+    \\
+    &\searrow^{u^*(p \times Id)}
+    && \searrow^{p \times Id} && \searrow^{Id}
+    \\
+    &&
+    u^* E_1
+    &&
+       E_1 := B \times_{B^I} E 
+    &
+       \stackrel{\in W \cap F}{\to} 
+    & 
+       E
+    \\
+    &&\downarrow&&\downarrow && \downarrow^{p}
+    \\
+    &&&&&& B 
+    \\
+    &&\downarrow&&\downarrow && \downarrow^{v}
+    \\
+    &&
+    B'
+    &\stackrel{u}{\to}&
+    B &\stackrel{v \in W \cap F}{\to}& B'
+  }
+  \,.
+$$
+
 
 =--
 
