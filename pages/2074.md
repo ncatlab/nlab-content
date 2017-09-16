@@ -1,14 +1,23 @@
 
-# Idea #
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 The [[model category]] structure on the [[category]] $SSet^+/S$ of [[marked simplicial set]]s sitting over a given [[simplicial set]] $S$ is a [[presentable (infinity,1)-category|presentation]] for the [[(∞,1)-category]] of [[cartesian fibration]]s over $S$.
 
 The $(\infty,1)$-categorical [[Grothendieck construction]] that exhibits the correspondence between [[cartesian fibration]]s and [[(∞,1)-presheaf|(∞,1)-presheaves]] is in turn modeled by a [[Quillen equivalence]] between the model structure on marked simplicial over-sets and the projective [[global model structure on simplicial presheaves]].
 
 
-# Definition #
+## Definition 
 
-## marked simplicial over-sets ##
+### Marked simplicial over-sets 
 
 Let $S$ be a fixed [[simplicial set]]. Recall from the notation at [[marked simplicial set]] that $S^#$ denotes the maximally marked simplicial set of $S$ where all edges are marked edges.
  
@@ -29,7 +38,7 @@ For $X \in SSet^+/S$ abd $p : Y \to X$ a [[cartesian fibration]] we have
 
 
 
-## the model structure ##
+### The model structure 
 
 The **model structure on marked simplicial over-sets** $Set^+/S$ over $S \in SSet$ -- also called the **Cartesian model structure** since it models [[cartesian fibration]]s -- is defined as follows.
 
@@ -67,7 +76,7 @@ This is proposition 3.1.3.7 in [[Higher Topos Theory|HTT]].
 =--
 
 
-# References #
+## References 
 
 section 3.1.3 of
 
