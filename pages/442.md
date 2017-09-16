@@ -71,3 +71,4 @@ As discussed in the article on [[operad|operads]], the notion of Lawvere theory 
 [[!redirects finite product theory]]
 [[!redirects finite-products theory]]
 [[!redirects finite products theory]]
+[[!redirects Lawvere theories]]
