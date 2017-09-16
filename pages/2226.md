@@ -218,6 +218,12 @@ Object & Interpretant \\
 
 * See [[semiotic equivalence relation]].
 
+## References and further reading ##
+
+* Aristotle, "On Interpretation", Harold P. Cooke (trans.), in _Aristotle_ (vol. 1), Harvard University Press, Cambridge, MA, 1938.
+
+* Peirce, C.S., _The New Elements of Mathematics by Charles S. Peirce_, 4 volumes in 5, Carolyn Eisele (ed.), Mouton Publishers, The Hague, Netherlands, 1976.  Humanities Press, Atlantic Highlands, NJ, 1976.  Cited as (NEM volume, page).
+
 ## External links ##
 
 * [Sign Relation @ MyWikiBiz](http://mywikibiz.com/Sign_relation)
