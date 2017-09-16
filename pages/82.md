@@ -19,3 +19,6 @@
 * [[sheaf]]
 * [[site]]
 * [[stack]]
+
+
+[[!redirects Sheaf and Topos Theory]]
