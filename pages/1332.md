@@ -133,7 +133,7 @@ Notice that this is stronger than the statement that $\mathbf{R}Hom(B,A) \to \ma
 This is [[Higher Topos Theory|HTT, lemma A.3.7.1]].
 
 The proof makes use of the following general construction: for $f : A \to B$ any morphism let $\emptyset \hookrightarrow A' \stackrel{\simeq}{\to} A$ be a cofibrant replacement, factor $A' \to B$ as 
-$A' \stackrel{i'}{\hookrigharrow} B' \stackrel{\simeq}{\to} B$ and consider the [[pushout]] diagram
+$A' \stackrel{i'}{\hookrightarrow} B' \stackrel{\simeq}{\to} B$ and consider the [[pushout]] diagram
 
 $$
   \array{
@@ -197,9 +197,23 @@ $$
   }
 $$
 
-in the [[model structure on an over category|model structure on the undercategory]] $A/C$ is a weak equivalence between cofibrant objects (because $A \hookrightarrow B$ is a cofibration by assumption and $A \to A \coprod_{A'} B'$ as being the pushout of the cofibration $i'$)
+in the [[model structure on an over category|model structure on the undercategory]] $A/C$ is a weak equivalence between cofibrant objects (because $A \hookrightarrow B$ is a cofibration by assumption and $A \to A \coprod_{A'} B'$ as being the pushout of the cofibration $i'$) we have that precomposition $C(j,X)$ with $j$ is the image under the [[SSet]]-[[enriched functor|enriched]] [[hom-functor]] of a weak equivalence between cofibrant objects mapping into a fibrant object
 
-we have that precomposition $C(j,X)$ with $j$ is the image under the [[SSet]]-[[enriched functor|enriched]] [[hom-functor]] of a weak equivalence between cofibrant objects mapping into a fibrant objects, and hence a weak equivalence. $j^* : (i^*)^{-1}(t) \stackrel{\simeq}{\to} q^{-1}(t)$, so that indeed $(i^*)^{-1}(t)$ is contractible.
+$$
+  \array{
+    && A
+    \\
+    & \swarrow & \downarrow & \searrow^{t}
+    \\
+    A \coprod_{A'} B' 
+    &\stackrel{j}{\to}&
+    B
+    &\to&
+    X
+  }
+$$
+
+and hence, by the general properties of [enriched homs between cofibrant/fibrant objects](http://ncatlab.org/nlab/show/(infinity,1)-categorical+hom-space#enriched_homs_between_cofibrantfibrant_objects_6) a weak equivalence. $j^* : (i^*)^{-1}(t) \stackrel{\simeq}{\to} q^{-1}(t)$, so that indeed $(i^*)^{-1}(t)$ is contractible.
 
 
 This proves the first part of the statement. For the converse statement, assume now that...
