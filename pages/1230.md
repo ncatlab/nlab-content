@@ -29,7 +29,9 @@ strict. For an example, look at the category of internal categories (taken as de
 developing theory by saying what a category over category is; so here what a strict 2-category over a strict 2-category is; prefix fibered is just about modifying this
 to a sub-2-category of such. So really starting with strict 2-categories viewed as nonstrict, means that we modify nonstrict (2-category over 2-category); but if you are strongly inclined it is OK, at least for the lexicon. 
 
+[[Mike Shulman|Mike]]: I am skeptical that the pseudo- is in the weakest 3-categorical sense; what reference are you looking at?
 
+I wasn't really serious about "strictly fibered strict $n$-category;" I think [[fibered strict n-category]] would be fine.
 =--
 
 category: redirect
