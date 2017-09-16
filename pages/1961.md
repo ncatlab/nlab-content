@@ -47,3 +47,8 @@ Note that $\partial/\partial{f}$ doesn\'t make sense for an arbitrary function $
 [[!redirects tangent space]]
 [[!redirects tangent vector space]]
 [[!redirects tangent vector field]]
+[[!redirects tangent bundles]]
+[[!redirects tangent vectors]]
+[[!redirects tangent spaces]]
+[[!redirects tangent vector spaces]]
+[[!redirects tangent vector fields]]
