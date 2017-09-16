@@ -18,7 +18,7 @@ $$\left\{{f \atop g}\right\}$$
      Hom_{\coprod_{i\in I} C_i}(x,y) = 
      \left\{
        \begin{aligned}
-         Hom_{C_i(x,y)} & if x,y \in C_i
+         Hom_{C_i}(x,y) & if x,y \in C_i
          \\
          \emptyset & otherwise
        \end{aligned}
