@@ -3,7 +3,9 @@
 * automatic table of contents
 {:toc}
 
-#Idea#
+## Idea
+
+The string Lie 2-algebra is the [[infinitesimal object|infinitesimal approximation]] to the [[string 2-group]].
 
 In the strict sense of the word, the String Lie 2-algebra $\mathfrak{string}(n)$ is a shifted [[L-infinity-algebra|∞-Lie algebra]] central extension
 
@@ -27,7 +29,52 @@ $$
 
 For instance the [[supergravity Lie 3-algebra]] is such an extension of the [[super Poincare Lie algebra]] by a [[super Lie algebra]] 4-cocycle.
 
-#References#
+## Definition
+
+As with any [[L-∞ algebra]], we may define the String Lie 2-algebra $\mathfrak{string}(n)$ equivalently in terms of its [[Chevalley-Eilenberg algebra]].
+
+Write $\mathfrak{g} := \mathfrak{so}(n)$ in the following. The [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ of $\mathfrak{g}$ has a degree 3 element
+
+$$
+  \mu = \langle -, [-,-]\rangle 
+  \,,
+$$
+
+well defined up to normalization ($\langle - , \rangle$ is the canonical bilinear symmetric invariant form on $\mathfrak{g}$ and $[-,-]$ the Lie bracket), which is closed
+
+$$
+  d_{\mathfrak{g}} \mu = 0
+  \,.
+$$
+
+Hence this is the canonical (up to normalization) 3-cocycle in the [[Lie algebra cohomology]] of $\mathfrak{g}$.
+
+The Chevalley-Eilenberg algebra of $\mathfrak{string}(n)$ iss
+
+$$
+  CE(\mathfrak{string}(n)) = (\wedge^\bullet \mathfrak{g}^* \oplus \langle b\rangle, d_{\mathfrak{string}})
+  \,,
+$$
+
+where 
+* $b$ is a single new generator in degree 2;
+
+* the differental $d_{\mathfrak{string}}$ coincides with $d_{\mathfrak{g}}$ on $\mathfrak{g}^*$:
+
+  $$
+    d_{\mathfrak{string}} |_{\mathfrak{g}^*} = d_{\mathfrak{g}}
+  $$
+
+* on the new generator it is defined by
+
+  $$
+    d_{\mathfrak{string}} : b \mapsto \mu
+    \,.
+  $$
+
+That the differential defined this way is indeed of degree +1 and squares to 0 is precisely the fact that $\mu$ is a degree 3-cocycle of $\mathfrak{g}$.
+
+## References
 
 In one incarnation or other the String Lie 2-algebra has been considered in literature of [[dg-algebra]]s, but its [[Lie theory|Lie theoretic]] interpretation as a Lie 2-algebra has been made fully explicit only in
 
