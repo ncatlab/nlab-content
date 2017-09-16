@@ -1,3 +1,2 @@
-See [[idempotent]].
-
-category: delete
+&lt; [[idempotent morphism]]
+[[!redirects idempotent morphism -- history]]
