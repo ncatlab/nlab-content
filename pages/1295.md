@@ -12,10 +12,28 @@ In other words, $S$ and $ev$ define an [[adjoint functor|adjunction]] from $Set$
 
 #Definition#
 
-For $C$ a [[category]], the **dependent product** of the morphism $g: B \to A$ indexed by the morphism $f: A \to I$ is an object $\Pi_f g$ in the [[over category]] $C/I$, where the operation $\Pi_f: C/A \to C/I$ is [[generalized the|the]] [[adjoint functor|right adjoint]] to the [[base change]] functor $f^*: C/I \to C/A$.
+For $C$ a [[category]], the **dependent product** of the morphism $g: B \to A$ indexed by the morphism $f: A \to I$ is an object $\prod_f g$ in the [[over category]] $C/I$, where the operation $\prod_f: C/A \to C/I$ is [[generalized the|the]] [[adjoint functor|right adjoint]] to the [[base change]] functor $f^*: C/I \to C/A$.
 
 For this to make sense, $f^*$ must exist; that is, all [[pullback]]s along $f$ must exist.  So a category with all dependent products is necessarily a category with all [[pullback]]s.
 
+#Remarks#
+
+The dual concept is the _depenedent coproduct_, the [[left adjoint]] $\coprod_k : C/A \to C/I$ to $f^* : C/I \to C/A$.
+
++-- {: .un_prop }
+###### Proposition
+
+For $C$ a [[topos]] and $f : A \to I$ any morphism in $C$, both the left adjoint $\coprod_k : C/A \to C/I$ as well as the right adjoint $\prod_f: C/A \to C/I$ to $f^*: C/I \to C/A$ exist. 
+
+Moreover, $f^*$ preserves the  [[subobject classifier]] and [[internal hom]]s.
+
+=--
+
+This is theorem 2 in section IV, 7 of
+
+* MacLane, Moerdijk, _Sheaves in geometry and logic_
+
+
 #Examples#
 
-* this plays a role in the definition of [[universe in a topos]].
+* the dependent product plays a role in the definition of [[universe in a topos]].
