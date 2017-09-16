@@ -1,19 +1,107 @@
-Recall that a [[geometric morphism]] $f: E \to F$ between [[Grothendieck toposes]] is defined to be a pair of functors $f^* : F \to E$, $f_* : E \to F$ for which $f^*$ is [[left adjoint]] to $f_*$ and preserves finite [[limits]]. This terminology was inspired by the observation that if $E$ and $F$ are the toposes of [[sheaves]] on [[sober space|sober topological spaces]] (or [[locales]]) $X$ and $Y$ respectively, then [[continuous maps]] $X \to Y$ correspond precisely to geometric morphisms $E \to F$. The question then arises as to what sort of structures are preserved by the _[[inverse image]]_ functors (i.e. the $f^*$) of geometric morphisms: clearly, those definable using finite limits and small [[colimits]]. In syntactic terms these are the [[model]]s of **geometric theories**. A geometric theory is a [[first-order logic|first order]] [[theory]] (because in general inverse images do not preserve [[power object|power-set]] formation) definable by an axiom scheme consisting of universally quantified implications between **positive** [[predicates]]; a predicate is [[positive predicate|positive]] if it contains no universal quantifiers, no implications and no negations.
+* toc
+{: toc}
 
-By framing this notion in the [[internal language]] of a [[topos]] $S$ we can talk of geometric theories over $S$, with models in $S$-toposes. As a simple example, if we have a sheaf $A$ of [[rings]] on a [[topological space]] $X$ we can describe left $A$-[[modules]] as models of a geometric theory over $Sh(X)$, the topos of sheaves on X, and this notion is definable in $Sh(X)$-toposes.
+# Idea
 
-Given a geometric theory $T$ over a topos $S$ we can form the $S$-topos $S[T] \to S$ that _classifies_ $T$. That is to say that the category of $T$-models in an $S$-topos $E$ is naturally equivalent to the category of morphisms of $S$-toposes $E \to S[T]$. In other words
+The notion of *geometric theory* has many different incarnations.  A few are:
+
+* A geometric theory is a [[first-order logic|first order]] [[theory]] that is preserved by [[geometric morphisms]].
+
+* A geometric theory is a [[first-order logic|first order]] [[theory]] whose axioms can be written solely in terms of the [[connective]]s $\top$ ([[truth]]), $\wedge$ (finite [[conjunction]]), $\bot$ ([[falsity]]), $\bigvee$ (possibly infinitary [[disjunction]]), and the [[existential quantifier]] $\exists$.
+
+* A geometric theory is the "extensional essence" of a [[Grothendieck topos]].
+
+The equivalence of these statements involves some serious proofs, including [[Giraud's theorem]] characterizing Grothendieck topoi.
+
+
+# Definitions
+
+## Logical definition
+
+In logical terms, a geometric theory fits into a hierarchy of theories that can be interpreted in the [[internal logic]] of a hierarchy of categories.  Since [[predicates]] in the internal logic are represented by [[subobjects]], in order to interpret any connective or quantifier in the internal logic, one needs a corresponding operation on subobjects to exist in the category in question, and be well-behaved.  For instance:
+
+* Since $\wedge$ and $\top$ are represented by [[intersections]] and identities (top elements), these can be interpreted in any [[lex category]].  Theories involving only these are [[cartesian theories]].
+
+* Since $\exists$ is represented by the [[image]] of a subobject, it can be interpreted in any [[regular category]].  Theories involving only $\wedge$, $\top$, and $\exists$ are [[regular theories]].
+
+* Since $\vee$ and $\bot$ are represented by [[union]] and [[bottom elements]], these can be interpreted in any [[coherent category]].  Theories which add these to regular logic are called [[coherent theories]].
+
+* Finally, theories which also involve infinitary $\bigvee$, which is again represented by an infinitary union, can be interpreted in [[infinitary coherent categories]], aka *geometric categories*.  These are **geometric theories**.
+
+Note that the axioms of one of these theories are actually of the form
+$$ \varphi \vdash_{\vec{x}} \psi $$
+where $\varphi$ and $\psi$ are formulas involving only the specified connectives and quantifiers, $\vdash$ means entailment, and $\vec{x}$ is a [[context]].  Such an axiom can also be written as
+$$ \forall \vec{x}. (\varphi \Rightarrow \psi) $$
+so that although $\Rightarrow$ and $\forall$ are not strictly part of any of the above logics, they can be applied "once at top level."  In an axiom of this form for geometric logic, the formulas $\varphi$ and $\psi$ which must be built out of $\top$, $\wedge$, $\bot$, $\bigvee$, and $\exists$ are sometimes called *positive* formulas.
+
+The interpretation of arbitrary uses of $\Rightarrow$ and $\forall$ requires a [[Heyting category]].  In fact, by the [[adjoint functor theorem]] for [[posets]], any geometric category which is [[well-powered category|well-powered]] is automatically a Heyting category, but *geometric functors* are not necessarily Heyting functors.  Likewise, a well-powered geometric category automatically has arbitrary intersections of subobjects as well, so we can interpret infinitary $\bigwedge$ in its internal logic, but again these are not preserved by geometric functors.
+
+By the usual syntactic constructions (see [[internal logic]] and [[context]]), any geometric theory $T$ generates a "free geometric category containing a model of that theory," also known as its *syntactic category* $G_T$.  This syntactic category $G_T$ has the universal property that for any other geometric category $G'$, geometric functors $G_T \to G'$ are equivalent to $T$-models in $G'$.
+
+
+## From logic to geometry
+
+Now, categories of each type can also be "completed" with respect to a suitable "exactness" property, without changing their internal logic.  Any regular category has an completion into an [[exact category]] (see [[regular and exact completion]]), any coherent category has a completion into a [[pretopos]], and any geometric category has a completion into an [[infinitary pretopos]].
+
+However, [[Giraud's theorem]] says that an infinitary pretopos having a [[generating set]] is precisely a [[Grothendieck topos]].  Moreover, a functor between Grothendieck topoi is geometric (preserves all the structure of a geometric category) iff it preserves finite [[limits]] and small [[colimits]].  By the [[adjoint functor theorem]], this implies that it is the [[inverse image]] part of a [[geometric morphism]], i.e. an [[adjunction]] $f^* \adj f_*$ in which $f^*$ (the "inverse image") preserves finite limits.
+
+Thus, Grothendieck topoi and inverse-image functors are in some sense the "natural home" for models of geometric theories.  Note, though, that geometric morphisms are generally considered as pointing in the direction of the *direct* image $f_*$, which is the opposite direction to the geometric functor $f^*$.  (This is because when $E$ and $F$ are the toposes of [[sheaves]] on [[sober space|sober topological spaces]] (or [[locales]]) $X$ and $Y$ respectively, then [[continuous maps]] $X \to Y$ correspond precisely to geometric morphisms $E \to F$.)  Also, of course any Grothendieck topos is an [[elementary topos]] (at least, as long as one works in [[foundations]] for which [[Set]] is an elementary topos), and hence its internal logic also includes "higher-order" constructions such as function-objects and power-objects.  However, these are not preserved by geometric functors, so they (like $\forall$ and $\Rightarrow$) are not part of geometric logic.  (They are, however, preserved by [[logical functors]], a different sort of morphism between topoi.)
+
+In particular, we can apply the "exact completion" operation to the syntactic category $G_T$ of a geometric theory to obtain an infinitary pretopos $Set[T]$.  As long as the theory $T$ was itself small, $Set[T]$ will have a generating set, and therefore will be a Grothendieck topos.  The universal property of the syntactic category, combined with that of the exact completion, implies that for any Grothendieck topos $E$, geometric morphisms $G\to Set[T]$ are equivalent to $T$-models in $G$.  This topos $Set[T]$ is called the **[[classifying topos]]** of $T$.
+
+In the other direction, if $C$ is any small [[site]], we can write down a "geometric theory of cover-preserving [[flat functors]] $C^{op}\to Set$."  By [[Diaconescu's theorem]] classifying geometric morphisms into sheaf topoi, it follows that $Sh(C)$ is a classifying topos for this theory.  Therefore, not only does every geometric theory have a classifying topos, every Grothendieck topos is the classifying topos of some theory.  Very different-looking theories can have equivalent classifying topoi; this of course implies that they have all the same models in all Grothendieck topoi (hence a Grothendieck topos is the "extensional essence" of a geometric theory).  We say that two geometric theories with equivalent classifying topoi are *Morita equivalent*.
+
+
+## Functorial definition
+
+We can approach the same idea by starting instead from the notions of Grothendieck topos and geometric morphism.  The following approach is described in B4.2 of the [[Elephant]].
+
+Suppose we consider what sorts of "theories" we can define in terms of Grothendieck topoi, that are preserved by inverse image functors.  Any such theory should certainly define a [[2-functor]] $T\colon GrTop^{op}\to Cat$, where $GrTop$ is the 2-category of Grothendieck topoi and geometric morphisms, so for the moment let's call any such $T$ a "theory".  The image $T(E)$ of a functor $E$ is supposed to be "the category of $T$-models," and a *classifying topos* for such a 2-functor will be just a [[representing object]] for it.
+
+Of course, this notion of theory is far too general; we only want to consider theories that are constructed in some reasonable way.  One theory that should certainly be geometric is the *theory of objects*, $O$.  This 2-functor sends a topos $E$ to itself, considered as a mere category, and an inverse image functor to itself, considered as a mere functor.  The theory $O$ can be shown to have a classifying topos, the [[object classifier]] $Set[O]$.  Similarly, we have a theory $O_n$ of $n$-tuples of objects that should be geometric.
+
+How can we construct more theories that ought to be geometric?  We should start from some finite collection of objects (i.e. a model of $O_n$), "construct some new objects and morphisms," and then "impose some axioms on them."  For any theory $T$, let's call a transformation $T\to O$ a *geometric construct*.  This is supposed to be "an object constructed out of the axioms of $T$ in a natural way."  More precisely, to every $T$-model in a topos $E$ it assigns an object of $E$, in a way that varies naturally with morphisms of $T$-models and inverse image functors.
+
+Now define a *simple functional extension* of $T$ to be the [[inserter]] of a pair of geometric constructs $T\;\rightrightarrows\; O$.  A model of such a theory will consist of a model of $T$, together with an additional morphism between two objects constructed out of the given $T$-model.  By iteratively applying such constructions, we can add in any number of new morphisms between "constructed objects."
+
+Finally, define a *simple geometric quotient* of $T$ to be the [[inverter]] of a [[modification]] between a pair of geometric constructs $T\;\rightrightarrows\; O$.  That is, we require that a certain naturally defined morphism between objects constructed out of $T$-models must be an isomorphism.  (Applying equalizers, we see that this also includes the ability to set morphisms equal, i.e. to construct [[equifier]]s.)
+
+From this point of view, a **geometric theory** is a theory $GrTop^{op}\to Cat$ obtained from some $O_n$ by a finite sequence of simple functional extensions and simple geometric quotients.  Of course, once we know that each $O_n$ has a classifying topos, it follows immediately that any geometric theory has a classifying topos, since $GrTop$ has inserters and inverters.
+
+
+## Hybrid definition
+
+The following definition is sort of a "halfway house" between logic and geometry.  Start with a first-order [[signature]] $\Sigma$ (this is the logical part).  Then we have a 2-functor $\Sigma Str\colon GrTop^{op}\to Cat$ sending a topos $E$ to the category $\Sigma Str(E)$ of $\Sigma$-structures in $E$.  A **geometric theory** over $\Sigma$ is defined to consist of the following.
+
+* For each Grothendieck topos $E$, we have a [[replete subcategory|replete]] [[full subcategory]] $T(E)$ of $\Sigma Str(E)$, such that
+* For each geometric morphism $f\colon E\to F$, if $M\in T(F)$ then $f^*M\in T(E)$ (i.e. $T$ is a subfunctor of $\Sigma Str$), and moreover
+* For any set-indexed jointly surjective family $(f_i \colon E_i \to E)_{i\in I}$ of geometric morphisms, and any $M \in \Sigma Str(E)$, if $f_i^* M \in T(E_i)$ for all $i$, then $M\in T(E)$.
+
+The equivalence of this definition with the others can be found in
+
+* Olivia Caramello, "A characterization theorem for geometric logic", [arXiv:0912.1404](http://arxiv.org/abs/0912.1404).
+
+It is not sufficient, in the third condition, to restrict to the case when $I$ is a singleton, but it is sufficient to consider the case when $I$ is a singleton together with all families of coproduct injections $(E_i \to \coprod_i E_i)_{i\in I}$.
+
+
+# Localization
+
+By framing this notion in the [[internal language]] of a [[topos]] $S$ we can talk of geometric theories over $S$, with models in [[bounded topos|bounded]] $S$-toposes (the relative version of "Grothendieck topos").  As a simple example, if we have a sheaf $A$ of [[rings]] on a [[topological space]] $X$ we can describe left $A$-[[modules]] as models of a geometric theory over $Sh(X)$, the topos of sheaves on X, and this notion is definable in $Sh(X)$-toposes.
+
+Similarly to the $Set$-based case, given a geometric theory $T$ over a topos $S$, we can form the $S$-topos $S[T] \to S$ that classifies $T$, for which the category of $T$-models in a bounded $S$-topos $E$ is naturally equivalent to the category of morphisms of $S$-toposes $E \to S[T]$. In other words
 
 $$T Mod(E) \simeq Top_S(E,S[T])$$
 
-If $T'$ is another geometric theory over $S$, then we may say that a map of theories $T \to T'$ is a morphism of $S$-toposes $h: S[T'] \to S[T]$; equivalently it is a $T$-model in $S[T']$. Composition with $h$ induces a functor, _[[forgetful functor|forget]] along_ $h$, from $T'$-models to $T$-models in any $S$-topos. If we pass to the _gros categories of models_ then these forgetful functors have left adjoints.
-For if $a: E \to S[T]$ is a $T$-model in $E$, [[base change|pulling]] $a$ back along $h$ yields a $T'$-model, not in $E$ but in the [[pullback]].
+# Morphisms of theories
+
+Since a Grothendieck topos is the "extensional essence" of a geometric theory, it makes sense to define a **map of theories** $T \to T'$ to be a morphism of $S$-toposes $h: S[T'] \to S[T]$.   Equivalently, of course, this is a $T$-model in $S[T']$.  Composition with $h$ induces a functor, _[[forgetful functor|forget]] along_ $h$, from $T'$-models to $T$-models in any $S$-topos.
+
+# Gros categories of models
 
 Define the [[gros category]] $T Mod$ of $T$-models to have as objects pairs $(E,A)$ where $E$ is an $S$-topos and $A$ is
 a $T$-model in $E$. A map $(f,g): (E,A) \to (F,B)$ is given
 by a morphism $f: F \to E$ of $S$-toposes and a homomorphism $g: f^*(A) \to B$ of $T$-models in $F$. The
 composition of maps should be evident. A map $h: T \to T'$
 of geometric theories over $S$ induces a forgetful functor
-$T' Mod \to T Mod$ which leaves unchanged the $S$-topos of residence, which has a left adjoint $T Mod \to T' Mod$ which may change the topos. This is a consequence of general facts about finite [[2-limits]] of the [[2-category]] of 
+$T' Mod \to T Mod$ which leaves unchanged the $S$-topos of residence, which has a left adjoint $T Mod \to T' Mod$ which may change the topos.  For if $a: E \to S[T]$ is a $T$-model in $E$, [[base change|pulling]] $a$ back along $h$ yields a $T'$-model, not in $E$ but in the [[pullback]].  This is a consequence of general facts about finite [[2-limits]] of the [[2-category]] of 
 [[bounded topos|bounded]] $S$-toposes.
-
