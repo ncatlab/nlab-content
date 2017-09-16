@@ -77,13 +77,15 @@ _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially se
 
 =--
 
+
 ## References ##
 
-* Harary, Frank (1969), _Graph Theory_, Addison-Wesley.
-* Harary, Frank and Palmer, E.M. (1973), _Graphical Enumeration_, Academic Press.
-* Lambek, J. and Scott, P.J. (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
-* Brown, R.,  Morris, I.,   Shrimpton, J.  and Wensley, C.D.  _Graphs of Morphisms of Graphs_,  Electronic Journal of Combinatorics,  A1 of Volume 15(1), 2008. 1-28.
-* Lawvere, F.W., _Qualitative distinctions between some toposes of generalized graphs_,  In Categories in computer science and logic (Boulder, CO,   1987), volume~92 of  _Contemp. Math._, 261--299. Amer. Math. Soc.,  Providence, RI (1989).
+* Frank Harary (1969), _Graph Theory_, Addison-Wesley.
+* Frank Harary and E.M. Palmer (1973), _Graphical Enumeration_, Academic Press.
+* [[Joachim Lambek]] and P.J. Scott (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
+* [[Ronnie Brown]], I. Morris, J. Shrimpton, and C.D. Wensley (2008), _Graphs of Morphisms of Graphs_, Electronic Journal of Combinatorics, A1 of Volume 15(1), 1--28.
+* [[Bill Lawvere]] (1989), _Qualitative distinctions between some toposes of generalized graphs_, in Categories in computer science and logic (Boulder, CO,   1987), volume 92 of _Contemporary Mathematics_, 261--299. American Mathematical Society, Providence, RI.
+
 
 ## Discussion ## {#talk}
 
