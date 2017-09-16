@@ -128,22 +128,16 @@ A [[groupoid]] internal to $A$ is all of the above
      }
    $$
 
+### Alternative definition
 
+If $A$ has all pullbacks, then we can form the bicategory $Span(A)$ of [[span|spans]] in $A$.  A category in $A$ is precisely a [[monad]] in $Span(A)$.  The underlying 1-cell is given by the span $(s,t) : C_0 \leftarrow C_1 \to C_0$, and the pullback $C_1 \times_{C_0} C_1$ is the vertex of the composite span $(s,t) \circ (s,t)$.  The morphisms $e$ and $c$ are required to be morphisms of spans, which is equivalent to imposing the source and target axioms above.  Finally the unit and associativity axioms for monads imply those above.
 
-##Terminology
-
- * $C_0$ is the "object of objects"; $C_1$ is the "object of morphisms", for instance for $A = Top$ $C_0$ is the "space of objects" and $C_1$ the "space of morphisms".
+This approach makes it easy to define the notion of [[internal profunctor]].
 
 ## Examples
 
-### Small categories
-
-A [[small category]] is a category internal to [[Set]].
-
-In this case, $C_0$ is a set of objects and $C_1$ is a set of morphisms and the pullback is Cartesian product.
-
-### Further Examples
-
+* A [[small category]] is a category internal to [[Set]].  In this case, $C_0$ is a set of objects and $C_1$ is a set of morphisms and the pullback is Cartesian product.
+* A [[topological category]] is a category internal to [[Top]], where $C_0$ is the "space of objects" and $C_1$ the "space of morphisms".
 * A small [[cocategory]] is a category internal to $Set^{op}$.
 * A [[double category]] is a category internal to [[Cat]]. 
 * A [[double bicategory]] is a category internal to [[Bicat]] (in a suitably weak sense).
@@ -151,7 +145,7 @@ In this case, $C_0$ is a set of objects and $C_1$ is a set of morphisms and the 
 * A [[Baez-Crans 2-vector space]] is a category internal to [[Vect]].
 * Historically, the motivating example was (apparently) the notion of [[Lie groupoid|Lie groupoids]]: groupoids internal to the category [[Diff]] of manifolds. 
 
-## Functors
+## Internal functors
 
 Functors between internal categories are defined in a similar fashion. See [[functor]].  But if the ambient category does not satisfy the [[axiom of choice]] it is often better to use [[anafunctor|anafunctors]] instead.
 
