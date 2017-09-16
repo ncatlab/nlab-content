@@ -1,6 +1,6 @@
 **[[mathematics]]**
 
-##Contents
+##Contents##
 
 * [[foundations|Structural Foundations]]
 
