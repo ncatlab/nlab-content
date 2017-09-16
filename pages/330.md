@@ -5,7 +5,7 @@
 
 ## Idea
 
-One striking difference between [[set theory]] and [[category theory]] is that, while [[objects]] of a [[category]] need not have any other structure, a [[set]] comes equipped with the notion of _element_, identifying other sets which belong to it.  Sometimes, a category turns out to possess a similar structure, designating certain [[morphisms]] as __global elements__ of an object.
+One striking difference between [[set theory]] and [[category theory]] is that, while [[objects]] of a [[category]] need not have any other structure, a [[set]] comes equipped with the notion of _element_, identifying other sets which belong to it.  Sometimes, a category turns out to possess a similar structure, designating certain [[morphisms]] as __global elements__ (or __global points__ in geometric contexts) of an object.
 
 
 ## Definition
@@ -32,4 +32,7 @@ Many (but not all) of the examples above are [[cartesian closed categories]].  I
 In contrast to a global element, a morphism to $x$ from _any_ object $i$ whatsoever may be seen as a [[generalized element]] of $x$. For example, if $i$ is the [[unit interval]] (in topology, chain complexes, etc), then a map from $i$ to $x$ is a *path* (rather than a point) in $x$. Or in a slice category $C/b$, if $\rho: a \to b$ is an [[embedding]], then a morphsism from $\rho$ to $\pi$ is a _local_ section of $\pi$.
 
 
+[[!redirects global element]]
 [[!redirects global elements]]
+[[!redirects global point]]
+[[!redirects global points]]
