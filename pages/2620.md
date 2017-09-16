@@ -41,7 +41,7 @@ We can think of $z^*$ as $\frac{d}{dz}$ and write the energy [[eigenvector]]s as
 \[H_0 z^n = z \frac{d}{dz} z^n = n z^n.\]  
 The creation operator $z$ adds a photon to the mix; there's only one way to do that, so $z\cdot z^n = 1 z^{n+1}.$  The annihilation operator $\frac{d}{dz}$ destroys one of the photons; in the state $z^n$, there are $n$ [[photon]]s to choose from, so $\frac{d}{dz} z^n = n z^{n-1}.$
 
-[[Schrödinger equation|Schrödinger's equation]] says $i \frac{d}{dt} \psi = H_0 \psi,$ so 
+[[Schrodinger equation|Schrödinger's equation]] says $i \frac{d}{dt} \psi = H_0 \psi,$ so 
 \[\psi(t) = \sum_{n=0}^{\infty} e^{-itn} a_n z^n.\]
 This way of representing the state of a QHO is known as the _Fock basis_.
 
