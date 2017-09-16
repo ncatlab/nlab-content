@@ -7,11 +7,47 @@
 
 ## Idea
 
-The **model structure for left fibrations** is a [[model category]] structure on the [[overcategory]] $SSet/S$ of [[simplicial set]]s over a given simplicial set $S$, that models the [[(∞,1)-category]] of [[left fibration]]s [[fibrations of quasi-categories|of quasi-categories]] over $S$.
+The **model structure for right fibrations** $(SSet/S)_{rfib}$ is a [[model category]] structure on the [[overcategory]] $SSet/S$ of [[simplicial set]]s over a given [[quasi-category]] $S$, that [[presentable (∞,1)-category|presents]] the [[(∞,1)-category]] of [[right Kan fibration]]s [[fibrations of quasi-categories|of quasi-categories]] over $S$
 
-This is the $(\infty,1)$-analog of the $(2,1)$-category of [[fibered category|categories cofibered in groupoids]].
+$$
+  ((SSet/S)_{rfib})^\circ \simeq RFib(S)
+  \,.
+$$
 
-The extension of this from [[left fibration]]s to [[coCartesian fibration]]s is the [[model structure for coCartesian fibrations]].
+This is the $(\infty,1)$-analog of the $(2,1)$-category $Fib_{grpd}(S)$ of [[category fibered in groupoids|categories fibered in groupoids]] over a category $S$.
+
+Similarly there is an analogous **model structure for left fibrations** that models [[left Kan fibration]]s, i.e.  op-fibrations in [[∞-groupoid]]s
+
+$$
+  ((SSet/S)_{lfib})^\circ \simeq LFib(S)
+  \,.
+$$
+
+The extension of this from right fibrations to [[Cartesian fibration]]s and from left fibrations to [[coCartesian fibration]]s is the [[model structure for coCartesian fibrations]].
+
+
+## Motivation {#Motivation}
+
+The following [[model category]] structure is best understood with the [[(∞,1)-Grothendieck construction]] in mind, which it serves to model.
+
+Recall from the discussion there that given a morphism $p : X \to S$ of [[quasi-categories]], the [[(∞,1)-functor]] $S^{op} \to \infty Grpd$ that the left adjoint to the Grothendieck construction extracts from it is all encoded in the [[pushout]] $X^{\triangleleft} \coprod_X S$ in
+
+$$
+  \array{
+    X &\stackrel{p}{\to}& S
+    \\
+    \downarrow && \downarrow
+    \\
+    X^{\triangleleft} &\to& X^{\triangleleft} \coprod_X S
+  }
+  \,,
+$$
+
+where $X^\triangleleft = (*) \star X $ is the [[join of quasi-categories|join]] of $X$ with the point, i.e. $X$ with an [[initial object]] freely adjoined to it.
+
+More discussion of why this is the case is at [Adjoints to the Grothendieck construction](http://ncatlab.org/nlab/show/Grothendieck+construction#adjunction).
+
+The model category structure described below declares that a morphism in the [[overcategory]] $sSet/S$ is a weak equivalence if it induces a weak equivalence of the quasi-categories given by these pushouts. So this is effectively saying that we regard a morphism of right fibration of quasi-categories as a weak equivalences, if under the left adjoint to the $(\infty,1)$-Grothendieck construction it induces a weak equivalences of the $(\infty,1)$-functors that classify these fibrations.
 
 
 ## Definition
@@ -34,7 +70,7 @@ A morphism $f : X \to Y$ is
 
   is a weak equivalence in the Joyal [[model structure for quasi-categories]], where $X^{\triangleleft}$ is the [[join of simplicial sets|join]] $X^{\triangleleft} := {*} \star X$.
 
-(def. 1.2.4.5)
+(def. 2.1.4.5)
 
 This is a 
 
@@ -56,12 +92,14 @@ We have
 
 
 
+
+
 ## References
 
 This is the content of section 2.1.4 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-There the model category is called the **covariant model structure**.
+There the model structure $(sSet/S)_{lfib}$ is called the **covariant model structure** and the model structure $(sSet/S)_{rfib}$  the **contravariant model structure**.
 
 [[!redirects model structure for right fibrations]]
