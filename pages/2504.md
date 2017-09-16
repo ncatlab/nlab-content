@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
 
 The _supergravity Lie 3-algebra_ $\mathfrak{sugra}(10,1)$ is a shifted central extension of super [[L-infinity-algebra|∞-Lie algebra]]s
 
