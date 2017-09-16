@@ -5,7 +5,7 @@
 
 ## Idea
 
-A basic fact in ordinary [[category theory]] is that a [[functor]] $f : C \to D$ is an [[equivalence of categories]] -- in that there is a functor $g : D \to C$ and natural isomorphisms $f \circ g \simeq Id_D$ and $g \circ f \simeq Id_C$ -- precisely if it is an [[essentially surjective functor|essentially surjective]] [[full and faithful functor]].
+A basic fact in ordinary [[category theory]] is that a [[functor]] $f\colon C \to D$ is an [[equivalence of categories]] -- in that there is a functor $g\colon D \to C$ and natural isomorphisms $f \circ g \simeq Id_D$ and $g \circ f \simeq Id_C$ -- precisely if it is an [[essentially surjective functor|essentially surjective]] [[full and faithful functor]].
 
 But this statement does crucially depend on the [[axiom of choice]]: the functor $g$ is obtained by _choosing_  for each [[object]] $d \in D$ an object $c \in C$ such that $f(c) \simeq d$. 
 
@@ -15,12 +15,12 @@ Since questions concerning the axiom of choice tend to look a bit esoteric to th
 
 consider some ambient category $\mathcal{E}$ [[internalization|internal]] to which we want to do category theory. A good example to keep in mind is the category [[Top]] of [[topological space]]s. The axiom of choice does fail in [[Top]], but for a very non-esoteric reason: in the simple sense that not every continous [[epimorphism]] $P \to X$ between topological spaces has a _continuous_ [[section]].
 
-Then it may easily happen that an internal functor $f : C \to D$ between [[internal category|internal categories]] in $\mathcal{E}$ (for instance between topological categories) is [[k-surjective functor|k-surjective]] for all $k$, but still does not admit a weak inverse in $\mathcal{E}$. 
+Then it may easily happen that an internal functor $f\colon C \to D$ between [[internal category|internal categories]] in $\mathcal{E}$ (for instance between topological categories) is [[k-surjective functor|k-surjective]] for all $k$, but still does not admit a weak inverse in $\mathcal{E}$. 
 For instance the functor $C(U) \to X$ from a [[Cech nerve|Cech groupoid]] associated to an open [[cover]] $U = \coprod_i U_i$ of a [[topological space]] $X$ is [[k-surjective functor|k-surjective]] for all $k$ in $\mathcal{E} = Top$, but in general does not admit a weak inverse, simply because the continuous function $\coprod_i U_i \to X$ does not have a continuous section, unless one of the $U_i$ is already equal to $X$. Entirely analogously, Makkai considered $\mathcal{E} = Set_{\not C}$ to be the category [[Set]] of [[set]]s without the [[axiom of choice]], where the same may happen: not every [[k-surjective functor]] for all $k$ has a weak inverse.
 
 There is a standard way to deal with such situations where we are faced with a category -- here the category $Cat(\mathcal{E})$ of categories internal to $\mathcal{E}$ -- some of whose morphisms look like they ought to have inverses, but do not: we call these would-be invertible morphisms _weak equivalences_ such that our category becomes a [[category with weak equivalences]] or a [[homotopical category]]. Then we pass to the corresponding [[homotopy category]]: the universal "improvement" of our category such that all the would-be invertible morphism do become invertible.
 
-Here we take the weak equivalences in $Cat(\mathcal{E})$ to be the internal functors that are internally [[k-surjective functor|k-surjective]] for all $k$. It turns out that this choice of weak equivalences is particularly well-behaved in that it actually forms a [[calculus of fractions]]. Due to the early work on abstract [[homotopy theory]] by Gabriel and Zisman, there is simple explicit construction of the corresponding [[homotopy category]] $Ho(Cat(\mathcal{E}))$ in this case: the objects are the same as those of $Cat(E)$ -- hence [[internal category|categories internal to]] $\mathcal{E}$ for us -- and the morphisms $f : C \to D$ are [[span]]s of morphism in $Cat(\mathcal{E})$
+Here we take the weak equivalences in $Cat(\mathcal{E})$ to be the internal functors that are internally [[k-surjective functor|k-surjective]] for all $k$. It turns out that this choice of weak equivalences is particularly well-behaved in that it actually forms a [[calculus of fractions]]. Due to the early work on abstract [[homotopy theory]] by Gabriel and Zisman, there is simple explicit construction of the corresponding [[homotopy category]] $Ho(Cat(\mathcal{E}))$ in this case: the objects are the same as those of $Cat(E)$ -- hence [[internal category|categories internal to]] $\mathcal{E}$ for us -- and the morphisms $f\colon C \to D$ are [[span]]s of morphism in $Cat(\mathcal{E})$
 
 $$
   \array{
@@ -37,7 +37,7 @@ where the left leg is a weak equivalence., hence for us: where the left leg is a
 
 For the case $\mathcal{E} = Top$ such a span is a morphism out of a _Cech cover_ . For instance for $C = X$ a topological space regarded as a topological category, for $G$ a [[topological group]] and $D = \mathbf{B}G$ its [[delooping]] one-object topological groupoid, such a span is a [[Cech cohomology|Cech cocycle]] on $X$ with values in $G$.
 
-And finally: for the case that $\mathcal{E} = Set_{\not C}$ is the category of sets without the axiom of choice, such a span is an **anafunctor** : a functor $\hat C \to C$ that is is surjective on objects and [[full and faithful functor|full and faithful]], together with a functor $\hat C \to D$ out of the "resolution" of $C$.
+And finally: for the case that $\mathcal{E} = Set_{\not C}$ is the category of sets without the axiom of choice, such a span is an **anafunctor**: a functor $\hat C \to C$ that is is surjective on objects and [[full and faithful functor|full and faithful]], together with a functor $\hat C \to D$ out of the "resolution" of $C$.
 
 So one can understand ordinary anafunctors as follows:
 
@@ -61,22 +61,22 @@ Given categories $C$ and $D$, an __anafunctor__ $F\colon C \to D$ may be rather 
 
 In more explicit detail, an __anafunctor__ $F\colon C \to D$ consists of:
 * a set $|F|$ of __specifications__ of $F$ (which corresponds to the set of objects of $\overline{F}$);
-* maps $\sigma: |F| \to C$ and $\tau: |F| \to D$ (taking values in objects). Given $x: C$ and $y: D$, we say that $y$ is a __specified value__ of $F$ at $x$ if, for some $s: |F|$, $x = \sigma(s)$ and $y = \tau(s)$; in this case, $s$ __specifies__ $y$ as a value of $F$ at $x$, and we write $F_s(x) = y$.  That is,
+* maps $\sigma\colon |F| \to C$ and $\tau\colon |F| \to D$ (taking values in objects). Given $x\colon C$ and $y\colon D$, we say that $y$ is a __specified value__ of $F$ at $x$ if, for some $s\colon |F|$, $x = \sigma(s)$ and $y = \tau(s)$; in this case, $s$ __specifies__ $y$ as a value of $F$ at $x$, and we write $F_s(x) = y$.  That is,
   $$ F_s(x) \coloneqq \tau(s) .$$
   We say that $y$ is a __value__ of $F$ at $x$ if $y$ is isomorphic (in $D$) to some specified value of $F$ at $x$; we write $F(x) \cong y$. (There is no notion of *the* value of $F$ at $x$, except in the up-to-isomorphism sense of the [[generalised the]], and $F(x) = y$ is a meaningless statement.);
-* for each $s, t: |F|$ and morphism $f: \sigma(s) \to \sigma(t)$ in $C$, a morphism
-  $$ F_{s,t}(f): F_s(x) \to F_t(y) $$
+* for each $s, t\colon |F|$ and morphism $f\colon \sigma(s) \to \sigma(t)$ in $C$, a morphism
+  $$ F_{s,t}(f)\colon F_s(x) \to F_t(y) $$
   in $D$, where $x \coloneqq \sigma(s)$ and $y \coloneqq \tau(s)$. Similarly to the above, we can define whether a given morphism $g$ in $D$ is a __specified value__ of $F$ at a given morphism $f$ in $C$ or whether $g$ is (merely) a __value__ of $F$ at $f$. (Again, there is no notion of *the* value of $F$ at $f$.);
 * $\sigma$ is a [[surjective function]]. Thus, $F$ has *some* value at any given object or morphism of $C$. (In the [[internalization|internalized]] case, this requirement can become quite complicated; for example, internal to [[Diff]], one requires a [[surjective submersion]].);
-* $F$ preserves [[identity morphism|identities]]. That is, given $s: |F|$, the value of $F$ specified by $s$ and $s$ at the identity of $\sigma(s)$ is the identity of $\tau(s)$, or (in symbols) $F_{s,s}(\id_{\sigma(s)}) = \id_{\tau(s)}$, or (whenever this makes sense)
+* $F$ preserves [[identity morphism|identities]]. That is, given $s\colon |F|$, the value of $F$ specified by $s$ and $s$ at the identity of $\sigma(s)$ is the identity of $\tau(s)$, or (in symbols) $F_{s,s}(\id_{\sigma(s)}) = \id_{\tau(s)}$, or (whenever this makes sense)
   $$ F_{s,s}(\id_x) = \id_{F_s(x)} ;$$
-* $F$ preserves [[composition]]. That is, given $s, t, u: |F|$, $f: \sigma(s) \to \sigma(t)$, and $g: \sigma(t) \to \sigma(u)$,
+* $F$ preserves [[composition]]. That is, given $s, t, u\colon |F|$, $f\colon \sigma(s) \to \sigma(t)$, and $g\colon \sigma(t) \to \sigma(u)$,
   $$ F_{s,u}(f;g) = F_{s,t}(f);F_{t,u}(g) .$$
   (Here the semicolon indicates composition in the anti-Leibniz order.).
 
 From the above explicit data, the category $\overline{F}$ is constructed as follows: the objects of $\overline{F}$ are the elements of $|F|$, while a morphism $s \to t$ in $\overline{F}$ is simply a morphism $\sigma(s) \to \sigma(t)$ in $C$.  Then $\sigma$ extends to a surjective faithful functor from $\overline{F}$ to $C$ (acting as the identity on morphisms), and $\tau$ extends to a functor from $\overline{F}$ to $D$ (mapping the morphism $f\colon s \to t$ in $\overline{F}$ to $F_{s,t}(f)\colon \tau(s) \to \tau(t)$ in $D$).
 
-An anafunctor $F$ is __saturated__ if, whenever $F(x) \cong y$, $F_s(x) = y$ for some unique specification $s$, where the unicity of $s$ depends not only on $x$ and $y$ but also on how $y$ is a value of $F$ at $x$. To be precise: if $g: y' \to y$ is an isomorphism in $D$ and $F_{s'}(x) = y'$ for some specification $s'$, then there is a unique specification $s$ such that $F_{s',s}(\id_x) = g$ (where in particular, $\sigma(s) = x$ and $F_s(x) = y$). Every anafunctor $F: C \to D$ has a _saturation_ $\overline{F}$; $\overline{F}$ is a saturated anafunctor and $F \cong \overline{F}$ in the category of anafunctors from $C$ to $D$. In fact, the inclusion of the saturated anafunctors into the anafunctors (as a full subcategory) is an equivalence of categories (given fixed $C$ and $D$).
+An anafunctor $F$ is __saturated__ if, whenever $F(x) \cong y$, $F_s(x) = y$ for some unique specification $s$, where the unicity of $s$ depends not only on $x$ and $y$ but also on how $y$ is a value of $F$ at $x$. To be precise: if $g\colon y' \to y$ is an isomorphism in $D$ and $F_{s'}(x) = y'$ for some specification $s'$, then there is a unique specification $s$ such that $F_{s',s}(\id_x) = g$ (where in particular, $\sigma(s) = x$ and $F_s(x) = y$). Every anafunctor $F\colon C \to D$ has a _saturation_ $\overline{F}$; $\overline{F}$ is a saturated anafunctor and $F \cong \overline{F}$ in the category of anafunctors from $C$ to $D$. In fact, the inclusion of the saturated anafunctors into the anafunctors (as a full subcategory) is an equivalence of categories (given fixed $C$ and $D$).
 
 Categories, anafunctors, and a suitably defined notion of [[ananatural transformation]] between them form a [[bicategory]] $Cat_{ana}$; an internal [[equivalence]] in this 2-category is called an **anaequivalence**.  Every functor may be interpreted as an anafunctor, with $|F|$ always taken to be (the set of objects in) $C$ itself and $\sigma$ the [[identity functor]].  Indeed, there is a [[2-functor]] to $Cat_{ana}$ from the [[strict 2-category]] $Str Cat$ of categories, functors and natural transformations; this functor is an [[equivalence of categories|equivalence]] if and only if the [[axiom of choice]] holds.  Thus, most mathematicians will identify $Cat_{ana}$ and $Str Cat$ as simply [[Cat]], the $2$-category of categories; however, mathematicians who doubt the axiom of choice will distinguish them.  While anafunctors exist in any case, there is an ideological statement that may be implied by their use: that $Cat$ is *really* $Cat_{ana}$ rather than $Str Cat$.
 
@@ -92,7 +92,7 @@ Let $S$ be a category containing a collection of morphisms called "covers" such 
 * any [[pullback]] of a cover exists and is a cover ([[pullback stability]]),
 * every cover is the [[quotient object]] of its [[kernel pair]], i.e. is an [[effective epimorphism]].  (Since all pullbacks of covers exist, this is equivalent to saying that every cover is a [[regular epimorphism]].)
 
-Note that these are precisely the axioms saying that the singleton families $\{p:V\to U\}$ where $p$ is a cover form a [[subcanonical coverage|subcanonical]] [[Grothendieck pretopology]].  One important class of examples is when $S$ is a [[regular category]] and the covers are the [[regular epimorphisms]].  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.
+Note that these are precisely the axioms saying that the singleton families $\{p\colon V\to U\}$ where $p$ is a cover form a [[subcanonical coverage|subcanonical]] [[Grothendieck pretopology]].  One important class of examples is when $S$ is a [[regular category]] and the covers are the [[regular epimorphisms]].  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.
 
 In such a situation, if $C$ and $D$ are [[internal category|internal categories]] in $S$, we define an __anafunctor__ $C\to D$ to consist of a span $C\leftarrow F \to D$ of internal functors such that:
 
