@@ -6,3 +6,6 @@ See also [[initial algebra]].
 
 
 [[!redirects algebra of an endofunctor]]
+[[!redirects algebra of a monad]]
+[[!redirects algebra for a monad]]
+[[!redirects algebra over a monad]]
