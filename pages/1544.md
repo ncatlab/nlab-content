@@ -66,7 +66,7 @@ $$
 
 of vector bundles. Locally on $X$ -- meaning: when everything is pulled back to a [[cover]] $Y \to X$ of $X$ -- this is a $Lie(G)$-valued 1-form $A \in \Omega^1(Y, Lie(G))$ with certain special properties.
 
-In particular, since every $G$-[[principal bundle]] canonically trivializes when pulled back to its own total space $P$, a connection in this case gives rise to a 1-form $A \in \Omega^1(P)$ satisfying two conditions. This data is called an **Ehresmann connection**.
+In particular, since every $G$-[[principal bundle]] canonically trivializes when pulled back to its own total space $P$, a connection in this case gives rise to a 1-form $A \in \Omega^1(P)$ satisfying two conditions. This data is called an **[[Ehresmann connection]]**.
 
 If instead $P = E$ is a vector bundle, then the two conditions satisfies by $A$ imply that it defines a linear map
 
