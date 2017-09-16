@@ -46,3 +46,6 @@ cubical  $\omega$-categories, Theory Appl. Categ.,
 
 * R. Steiner, Thin fillers in the cubical nerves of
 omega-categories, Theory Appl. Categ. {16} (2006), 144--173.
+
+
+[[!redirects simplicial T-complexes]]
