@@ -49,13 +49,86 @@ $$
 $$
 
 
-### Generalizations 
+## Adjoints to the Grothendieck construction {#adjunction}
 
-#### $n = 0$ 
+The Grothendieck construction functor
+
+$$
+  \int : [C^{op}, Cat] \to Fib(C)
+$$
+
+has a left and a right [[adjoint functor]].
+
+The [[left adjoint]] is the functor
+
+$$
+  L : (p : E \to C) \mapsto ( (-)/p : C^{op} \to Cat) 
+$$
+
+that assigns to a functor $p$ the presheaf which sends $c \in C$ to the [[comma category]] 
+
+$$
+  c/p = 
+  \left\{
+    \array{
+      && c
+      \\
+      & \swarrow && \searrow
+      \\
+      p(e_1) &&\to&& p(e_2)
+    }
+  \right\}
+  \,,
+$$
+
+i.e.
+
+$$
+  L(E \stackrel{p}{\to}C) : c \mapsto c/p
+  \,.
+$$
+
+This functor may equivalently be expressed as follows:
+
+for given $(E \stackrel{p}{\to} C)$ consider the [[weak limit|weak pushout]]
+
+$$
+  \array{
+    E &\hookrightarrow& E^{\triangleright}
+    \\
+    \downarrow^{\mathrlap{p}} &\swArrow& \downarrow
+    \\
+    C &\to& K(p)
+  }
+$$
+
+of _[[2-categories]]_  (so that $K(p)$ is a [[2-category]]) where $K^{\triangleright}$ is $K$ with one [[terminal object]] $v$ adjoined (a [[join of quasi-categories|join]] of categories).
+
+**Claim**
+
+We have
+
+$$
+  c/p = Hom_{K(p)}(c,v)
+  \,.
+$$
+
+This formulation of the Grothendieck construction as an adjunction
+
+$$
+  (L \dashv \int) : Fib(C) \stackrel{\leftarrow}{\to} [C^{op}, Cat]
+$$
+
+with the left adjoint given by hom-objects in a pushout object as above
+is the starting point for the [[vertical categorification]] described at [[(∞,1)-Grothendieck construction]]. 
+
+## Generalizations 
+
+### $n = 0$ 
 
 The analog of the Grothendieck construction one categorical dimension down is the [[category of elements]] of a [[presheaf]].
 
-#### $n = (\infty,1)$  {#(oo1)case}
+### $n = (\infty,1)$  {#(oo1)case}
 
 The analog of the Grothendieck construction for [[(infinity,1)-category|(∞,1)-categories]] is described at [[Cartesian fibration]] and at [[universal fibration of (∞,1)-categories]]. 
 
