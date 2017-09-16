@@ -32,7 +32,7 @@ In fact, it seems that [[Lawvere]] dreamed up the axioms of [[synthetic differen
 But at least in the light of [[Jacob Lurie|Lurie]]'s notion of [[structured (∞,1)-topos]]es and [[generalized scheme]]s, from the point of which ordinary [[algebraic geometry]] as well as [[derived algebraic geometry]] is just one realization of a more general concept of geometry, it seems to be worthwhile to reexamine the wealth of knowledge accumulated in algebraic geometry and see how much of it depends on just general context, how much on concrete implementation.
 
 
-#Qestions#
+#Questions#
 
 
 ## Coherent sheaves ##
