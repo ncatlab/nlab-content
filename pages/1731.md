@@ -208,16 +208,16 @@ A. Joyal and M. Tierney, Quasi-categories vs
 Segal spaces. ([arXiv](http://arxiv.org/abs/math/0607820))
 
 * (Lein1) 
-T. Leinster, A survey of definitions of $n$-category,
+[[Tom Leinster]], A survey of definitions of $n$-category,
 _Th. Appl. Cat._ **10** (2002), 1--70.
  ([arXiv](http://arxiv.org/abs/math/0107188))
 
 * (Lein2) 
-T. Leinster, Structures in higher-dimensional
+[[Tom Leinster]], Structures in higher-dimensional
 category theory.   ([arXiv](http://arxiv.org/abs/math/0109021))
 
 * (Lein3) 
-T. Leinster, _Higher Operads, Higher
+[[Tom Leinster]], _Higher Operads, Higher
 Categories_, Cambridge U. Press, Cambridge, 2003.  
 ([arXiv](http://arxiv.org/abs/math/0305049))
 
