@@ -49,7 +49,7 @@ The associativity condition will be left for others to fill in.
 
 ### Algebras ### 
 
-An _algebra_ over an operad $F$ in $V$ is just a semantics for interpreting the $F(n)$ as objects of actual $n$-ary operations on an object $v$. That is, an $F$-algebra structure on an object $v$ in $V$ consists of a collection of maps 
+An _[[algebra over an operad|algebra]]_ over an operad $F$ in $V$ is just a semantics for interpreting the $F(n)$ as objects of actual $n$-ary operations on an object $v$. That is, an $F$-algebra structure on an object $v$ in $V$ consists of a collection of maps 
 
 $$F(n) \otimes v^{\otimes n} \to v$$ 
 
