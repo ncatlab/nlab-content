@@ -15,6 +15,8 @@ Yes.  However, not knowing what is standard and what isn't, I'm not sure I could
 Understood.  I\'m not sure how to do it either, but I\'ll think about it.  ---Toby
 
 I should say that if any of this _doesn't_ fit in the merge then I'm happy for it to find a home elsewhere.  My main purpose in scribbling this lot is to find out what is and isn't known so I don't have to reprove the known stuff just to make use of it. ---Andrew
+
+Now I want to wait until Todd figures out what you really want to do here.  (^_^)  ---Toby
 =--
 
 
@@ -55,7 +57,7 @@ Any Lawvere theory is automatically a monoidal Lawvere theory and so one can con
 Let $(C, \otimes, I)$ be a monoidal category.  We define the following full subcategories of $C$.
 
 1. $C^{\operatorname{sym}}$ is the largest **symmetric** monoidal subcategory.  That is, it is the full subcategory where the switcheroo functor is naturally isomorphic to the identity.
-2. $C^{\operatorname{co}}$ is the subcategory of commutative, associative, unital **comonoids**.  Note that we take morphisms in $C$, not morphisms of comonoid.  These are the objects that come equiped with diagonal and projection morphisms.
+2. $C^{\operatorname{co}}$ is the subcategory of commutative, associative, unital **comonoids**.  Note that we take morphisms in $C$, not morphisms of comonoids.  These are the objects that come equiped with diagonal and projection morphisms.
 =-- 
 
 +--{.query}
@@ -75,6 +77,12 @@ Is there a specific setting you have in mind where what you want to do is unprob
 [[Andrew Stacey|Andrew]]: Yes.  I want to do it in the category of models in set of a [[commutative algebraic theory]].  Over there, it doesn't say anything about the monoidal structure being symmetric but I have an inkling that it is.  However, not every object is a coalgebra.
 
 (As a little background: I'm returning to some stuff that I thought about a while ago and am trying to finish off, but I don't remember all of what I thought when I originally thought about it which is why I'm not as clear as I would like to be)
+
+_Toby_:  Even in a symmetric monoidal category, I don\'t know how to define a functor that takes $A \otimes B$ to $B \otimes A$.  Of course, there is a functor $C \times C \to C$ that takes $(A,B)$ to $B \otimes A$, but that doesn\'t help as far as I can see.
+
+There\'s an inherent problem with considering the largest (or any) symmetric subcategory of a given monoidal category, which is that being symmetric is not a property but a structure on a monoidal category.  So it\'s more like looking for the largest commutative submonoid of a given *set* than looking for the largest commutative submonoid of a given monoid.
+
+Even if that worked, I wouldn\'t understand the full subcategory of CAU comonoids, since again being a CAU comonoid is not a property but a structure on an object in a given symmetric monoidal category.  This is like asking for the full subcategory of $Set$ consisting of groups; it doesn\'t parse.  At best, I would understand this as the full subcategory of sets that have at least one group structure, but you\'re no longer keeping track of that structure (and in fact, at least assuming the axiom of choice, this is just $Set \setminus \{\empty\}$, which has nothing much to do with groups at all).
 
 =--
 
