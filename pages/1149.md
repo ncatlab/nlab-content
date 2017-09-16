@@ -135,7 +135,6 @@ on the collection (being a [[category]]) $S$ of test spaces.
 
 * and it turns out that, indeed, if I am sticking to these rules of sheaves, then you can reconstruct the space $X$ that I am thinking of from just the information about how to probe it by other spaces.
 
-
 ## sheaves more general than spaces ##
 
 * So far this just reformulates the familar notion of space in a somewhat more indirect form: a rule for how to probe a space. But now something nice happens: it turns out that there are collections of this probe information $U \mapsto X(U)$ which do obey the rules 
@@ -147,6 +146,9 @@ that the information about such probes is useful if only
 it obeys the above three consistency rules;
 
 * so we regard sheaves in general then as generalized spaces; or more precisely: we regard sheaves as rules for how to  probe generalized spaces, and we take these generalized spaces to be entirely specified by their possible probes.
+
+* By the way, since we are thinking of sheaves as 'generalized spaces', we had better have a good notion of maps between sheaves. Indeed, this is easy to figure out: a map $f: X \rightarrow Y$ from a sheaf $X$ to a sheaf $Y$ consists of, for each probing space $U$, an ordinary map of sets $f_U : X(U) \rightarrow Y(U)$, and these maps must be natural in the obvious way.
+
 
 * it turns out that every important type of operation on spaces has its analogs as an operation on sheaves: one says that  sheaves form a [[topos]]: a place where we can go 
 to study generalized [[homotopy theory]], 
@@ -193,12 +195,17 @@ that it may require a bit of effort to determine if two of them
 determine the same generalized space, for all practical purposes. 
 
 
-  * One nice way to deal with it is to again go back to our attitude that everything 
+* One nice way to deal with it is to again go back to our attitude that everything 
 should be determined by how we map other things into it: if 
 $f : X \to Y$ is a weak equivalence of sheaves, as above, then we
 we would expect that for $Z$ any other sheaf, the induced map 
 of spaces of probes $Z(f) : Z(Y) \to Z(X)$
-of $Z$ by $X$ and $Y$ is a [[weak homotopy equivalence]].
+of $Z$ by $X$ and $Y$ is a [[weak homotopy equivalence]]. 
+
++-- {: .query}
+I found this last sentence tough. Can you explain it better? What are $Z(Y)$ and $Z(X)$? Here you are applying the sheaf $Z$ to _other_ sheaves... that is weird and deserves a bit of explanation.    Bruce Bartlett
+=--
+
 Now, that may fail to be true, simply because we are using
 an awkward realization of the sheaf $Z$. It may be that we have
 to straighten out $Z$ a bit, without really changing it, for the above
@@ -207,7 +214,7 @@ $Z'$ which is equivalent to $Z$, but for which the above consistency condition
 is true: the map $Z'(f) : Z'(Y) \to Z'(X)$ between spaces of probes
 of $Z'$ by $X$ and by $Y$ is a homotopy equivalence.
 
-  * The sheaves with this niceness property are called [[infinity-stack]]s
+* The sheaves with this niceness property are called [[infinity-stack]]s
   of [[(infinity,1)-sheaf|(infinity,1)-sheaves]]. Recall that despite the
   fancy terminology, these things are nothing but consistent rules 
   for something that may be probed with test spaces $U$, $V$,...
