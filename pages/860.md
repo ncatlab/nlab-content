@@ -55,4 +55,8 @@ I can see the other side too, however.  Just put it all on one page and let peop
 
 _Mike_: I do think it's better to have them combined.  It might be nice if we could get a third opinion, but apparently no one else is paying much attention to our petty disputes.  (-:
 
+
+[[Tim Porter|Tim]]  I could not ignore that last comment so here is my pennyworth! Too many unnecessary links may be a bad thing.  Why not have something of the form 'Most common terminology' then small list of synonyms after the definition i.e. near the top.  If someone then want to use loset rather than linear order they can then use  linear order|loset88 (where 8 stands for a square bracket either right or left. Clicking on loset will bring up the definition and the word loset will be bold (or whatever) and they can see it more or less immediately. There can also be warnings such as I felt were needed about proset i.e. 'proset' can also refer to a pro-object in the category of sets. For more on that meaning click ****** .
+
+
 =--
