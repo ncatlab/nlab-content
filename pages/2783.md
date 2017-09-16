@@ -68,27 +68,27 @@ A more explicit description can be obtained by first passing from $C$ to its [[a
 Another way of phrasing this is that $C_{ex/reg}$ is the category of internal [[0-categories]] in $C$ and [[anafunctors]] between them.
 
 
-# Properties of completions
+# Properties of these completions
 
 Many categorical properties of interest are preserved by one or more of the regular and exact completions.  That is, if $C$ has these properties, then so does the completion, and the inclusion functor preserves them.  Note that frequently, for a completion to have some structure, it suffices for $C$ to have a "weak" version of that structure.
 
 * Of course, [[finite limits]] are preserved by all three completions.  In fact, as we have remarked, for the ex/lex and reg/lex completions, $C$ need only have weak finite limits.
 
-* $C$ is [[extensive category|lextensive]] if and only if $C_{ex/lex}$ is, and if and only if $C_{reg/lex}$ is, and in this case the embeddings preserve coproducts (Menni 2000).  It follows that if $C$ is a [[pretopos]], then so is $C_{ex/lex}$, although the inclusion $C\to C_{ex/lex}$ is not a "pretopos functor" as it does not preserve regular epis.
+* $C$ is [[extensive category|lextensive]] if and only if $C_{ex/lex}$ is, and if and only if $C_{reg/lex}$ is, and in this case the embeddings preserve [[coproducts]] (Menni 2000).  It follows that if $C$ is a [[pretopos]], then so is $C_{ex/lex}$, although the inclusion $C\to C_{ex/lex}$ is not a "pretopos functor" as it does not preserve [[regular epis]].
 
-* If $C$ is lextensive and has coequalizers (and hence has finite colimits), then so do $C_{ex/lex}$ and $C_{reg/lex}$  (Menni 2000).  However, the inclusion functors do not preserve coequalizers.  In fact, it suffices for $C$ to be lextensive with *quasi-coequalizers*, meaning that for every $f,g\colon Y\rightrightarrows X$ there exists $q\colon X\to Q$ with $q f = q g$, such that for any $h\colon X\to Z$ with $h f = h g$, $h$ coequalizes the [[kernel pair]] of $q$.
+* If $C$ is lextensive and has [[coequalizers]] (and hence has finite colimits), then so do $C_{ex/lex}$ and $C_{reg/lex}$ (Menni 2000).  However, the inclusion functors do not preserve coequalizers.  In fact, it suffices for $C$ to be lextensive with *quasi-coequalizers*, meaning that for every $f,g\colon Y\rightrightarrows X$ there exists $q\colon X\to Q$ with $q f = q g$, such that for any $h\colon X\to Z$ with $h f = h g$, $h$ coequalizes the [[kernel pair]] of $q$.
 
-* The categories $C_{reg/lex}$ and $C_{ex/lex}$ always have [[projective object|enough (regular) projectives]].  In fact, the objects of $C$ are precisely the projective objects of these categories.  Moreover, an exact category $D$ is of the form $C_{ex/lex}$ for some $C$ (with weak finite limits) if and only if it has enough projectives, in which case of course $C$ can be taken to be the subcategory of projectives.  (Carboni-Vitale 1998)  Note that if $D$ has enough projectives, then its subcategory of projectives always has weak finite limits.  Similarly, a regular category $D$ is of the form $C_{reg/lex}$ for some $C$ (with weak finite limits) if and only if it has enough projectives and every objects can be embedded in a projective one.
+* The categories $C_{reg/lex}$ and $C_{ex/lex}$ always have [[projective object|enough (regular) projectives]].  In fact, the objects of $C$ are precisely the projective objects of these categories.  Moreover, an exact category $D$ is of the form $C_{ex/lex}$ for some $C$ (with weak finite limits) if and only if it has enough projectives, in which case of course $C$ can be taken to be the subcategory of projectives (Carboni--Vitale 1998).  Note that if $D$ has enough projectives, then its subcategory of projectives always has weak finite limits.  Similarly, a regular category $D$ is of the form $C_{reg/lex}$ for some $C$ (with weak finite limits) if and only if it has enough projectives and every object can be embedded in a projective one.
 
 * If $C$ is a regular category satisfying the [[axiom of choice]] in the "regular" sense (every regular epi splits), then it is *equivalent* to $C_{reg/lex}$, and hence the latter also satisfies the axiom of choice.  Similarly, if $C$ is exact and satisfies choice, then it is equivalent to $C_{ex/lex}$.  Conversely, if the inclusion $C\to C_{reg/lex}$ or $C\to C_{ex/lex}$ is an equivalence, then since the objects of $C$ are projective in these completions, $C$ must satisfy the axiom of choice.
 
-* [[cartesian closed category|Cartesian closure]] is preserved by the ex/lex completion (Carboni-Rosolini 2000).  In fact, $C_{ex/lex}$ is cartesian closed if and only if $C$ has *weak simple products*, meaning [[weak dependent products]] along [[product]] projections.
+* [[cartesian closed category|Cartesian closure]] is preserved by the ex/lex completion (Carboni--Rosolini 2000).  In fact, $C_{ex/lex}$ is cartesian closed if and only if $C$ has *weak simple products*, meaning [[weak dependent products]] along [[product]] projections.
 
-* [[locally cartesian closed category|Local cartesian closure]] is also preserved by the ex/lex completion (Carboni-Rosolini 2000).  In fact, $C_{ex/lex}$ is locally cartesian closed if and only if $C$ is *weakly locally cartesian closed*, meaning that each [[slice category]] has weak dependent products.  It follows in particular that if $C$ is a [[Π-pretopos]], then so is $C_{ex/lex}$.  For each $\Pi$-pretopos $C$ we thus obtain a sequence $C_{ex}$, $(C_{ex})_{ex}$, ... of $\Pi$-pretopoi, which in general does not stabilize.
+* [[locally cartesian closed category|Local cartesian closure]] is also preserved by the ex/lex completion (Carboni--Rosolini 2000).  In fact, $C_{ex/lex}$ is locally cartesian closed if and only if $C$ is *weakly locally cartesian closed*, meaning that each [[slice category]] has weak dependent products.  It follows in particular that if $C$ is a [[Π-pretopos]], then so is $C_{ex/lex}$.  For each $\Pi$-pretopos $C$ we thus obtain a sequence $C$, $C_{ex}$, $(C_{ex})_{ex}$, ... of $\Pi$-pretopoi, which in general does not stabilize.
 
-* If $C$ has a [[natural numbers object]], then so do $C_{reg/lex}$ and $C_{ex/lex}$.  (Does $C_{ex/reg}$?  What about more general [[W-types]]?)
+* If $C$ has a [[natural numbers object]], then so do $C_{reg/lex}$ and $C_{ex/lex}$.  (Does $C_{ex/reg}$?  What about more general [[W-type]]s?)
 
-* If $C$ is lextensive with coequalizers (or "quasi-coequalizers") and a [[strong-subobject classifier]], then so is $C_{reg/lex}$ (Menni 2000).  It follows that if $C$ is a lextensive [[quasitopos]], then so is $C_{reg/lex}$.  For each lextensive quasitopos $C$ we thus obtain a sequence $C_{reg}$, $(C_{reg})_{reg}$, ... of lextensive quasitopoi, which in general does not stabilize.
+* If $C$ is lextensive with coequalizers (or "quasi-coequalizers") and a [[strong-subobject classifier]], then so is $C_{reg/lex}$ (Menni 2000).  It follows that if $C$ is a lextensive [[quasitopos]], then so is $C_{reg/lex}$.  For each lextensive quasitopos $C$ we thus obtain a sequence $C$, $C_{reg}$, $(C_{reg})_{reg}$, ... of lextensive quasitopoi, which in general does not stabilize.
 
 * $C_{ex/lex}$ is an [[elementary topos]] iff $C$ has weak dependent products and a *generic proof*, meaning a map $\theta\colon \Theta \to \Lambda$ such that for every map $f\colon Y\to X$, there exists some $\nu\colon X\to \Lambda$ such that each of $f$ and $\nu^*\theta$ factor through each other (Menni 2000).  Note that if $C$ is a topos satisfying the axiom of choice, then its subobject classifier is a generic proof, since then every map $f$ is factored through by its image.  It follows that if $C$ is a topos satisfying AC, then $C_{ex/lex}$ is a topos---but we already knew that, because in that case $C_{ex/lex}$ is equivalent to $C$.
 
@@ -96,7 +96,7 @@ Many categorical properties of interest are preserved by one or more of the regu
 
 On the other hand, some properties are *not* preserved by the completions.
 
-* Of course, all the completions are regular categories, but the inclusions are not regular functors, since they do not preserve regular epis.
+* Of course, all the completions are regular categories, but the inclusions are not [[regular functor]]s, since they do not preserve regular epis.
 
 * We have seen that the existence of a [[subobject classifier]] or [[power objects]] is not, in general, preserved by the completions (although if $C$ is a topos, then of course so is $C_{ex/reg}$, since it is equivalent to $C$).
 
