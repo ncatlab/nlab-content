@@ -1,4 +1,4 @@
-An **inverse** of a [[morphism]] $f : X \to Y$ in a [[category]] is another morphism $f^{-1} : Y \to X$ which is both a left-inverse as well as a right-inverse (see [[section]]) of $f$, in that 
+An **inverse** of a [[morphism]] $f : X \to Y$ in a [[category]] is another morphism $f^{-1} : Y \to X$ which is both a left-inverse (a [[retraction]]) as well as a right-inverse (a [[section]]) of $f$, in that 
 $$
   f \circ f^{-1} : Y \to X \to Y 
 $$
