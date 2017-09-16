@@ -174,4 +174,8 @@ In particular, an **elementary particle** in quantum physics is sometimes define
 
   * [[super Poincare Lie algebra]]
 
+
+[[!redirects Poincare group]]
+[[!redirects Poincaré group]]
 [[!redirects Poincare Lie algebra]]
+[[!redirects Poincaré Lie algebra]]
