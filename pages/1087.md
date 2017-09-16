@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include differential graded objects - contents]]
+</div>
 
 
 **Definition**
@@ -91,5 +93,3 @@ If $(V,\partial)$ is presented with the 'upper grading', so $V^p$, then the corr
 
 There is no real distinction between the two cases in the abstract, but in applications there is often a fixed 'dimensional' interpretation and then the 'natural' and 'geometric' aspects determine which is more appropriate or useful. 
 
-
-category: lexicon
