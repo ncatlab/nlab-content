@@ -5,13 +5,6 @@ This entry provides a keyword list on concepts related to **categories and sheav
 * M. Kashiwara and P. Schapira, _Categories and Sheaves_, Springer (2000)
 
 
-#Pedagogical motivation#
-
-For a pedagogical motivation of the general topic under consideration here see
-
-* [[heuristic introduction to sheaves, cohomology and higher stacks]]
-
-
 #Summary#
 
 The book discusses the theory of [[presheaf|presheaves]] and [[sheaf|sheaves]] with an eye towards their application in [[homological algebra]] and with an outlook on [[stack]]s.
@@ -20,11 +13,9 @@ A self-contained introduction of the basics of [[presheaf]]-categories with deta
 
 The second part describes central concepts and tools of modern category-theoretic [[homological algebra]] in terms of [[derived category|derived]] [[triangulated category|triangulated categories]].
 
-The last part merges these two threads in a discussion of [[sheaf|sheaves]] in general and [[abelian sheaf|abelian sheaves]] in particular.
+The last part merges these two threads in a discussion of [[sheaf|sheaves]] in general and [[abelian sheaf|abelian sheaves]] in particular. This provides the machinery for the consideration of [[abelian sheaf cohomology]] conceptually embedded into the general notion of [[cohomology]] and [[(infinity,1)-category of (infinity,1)-sheaves|higher stacks]], on which the last section provides an outlook.
 
-A last section provides an outlook to the theory of [[stack]]s. 
-
-In fact, the organization and emphasis of the book (for instance the conception of the passing from [[presheaf|presheaves]] to [[sheaf|sheaves]] as a [[localization]]) makes it a suitable 1-categorical preparation for the [[infinity-category|infinity-categorical]] discussion of sheaves in
+The organization and emphasis of the book (for instance of the [[category of sheaves]] as a [[localization]] of the category of [[presheaf|presheaves]]) makes it a suitable 1-categorical preparation for the [[infinity-category|infinity-categorical]] discussion of sheaves in
 
 * J. Lurie, [[Higher Topos Theory]]
 
@@ -32,8 +23,21 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 * J. Lurie, [[Stable Infinity-Categories]]
 
+On the other hand, [[topos]]-theoretic aspects of the [[category of sheaves]] are not emphasized, here 
+
+* Moerdijk-MacLane, [[Sheaves in Geometry and Logic]]
+
+is the natural complementary reading. In particular sections V and VII there are directly useful for supplementing the concept of [[geometric morphism]] and its relation to [[localization]]. 
+
 
 #Content#
+
+The following lists chapterwise linked lists of keywords to relevant and related existing entries, as far as they already exist. 
+
+For a pedagogical motivation of the general topic under consideration here see
+
+* [[heuristic introduction to sheaves, cohomology and higher stacks]]
+
 
 #1 The language of categories#
 
@@ -379,12 +383,6 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 * [[ringed site]]
 
 * [[abelian sheaf cohomology]]
-
-  * [[derived global section functor]]
-
-  * [[Cech cohomology]]
-
-* examples
 
   * [[Deligne cohomology]]
 
