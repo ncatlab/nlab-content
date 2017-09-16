@@ -4,7 +4,7 @@ $$
 $$
 can be referred to as the set of **generalized elements** of $c$ with domain (or "stage of definition") $I$.
 
-Common choices for $I$ are a [[terminal object]] (in which case generalized elements are called [[global element]]s) or a [[monoidal category|tensor unit]] (in which case the generalized elements are important in [[enriched category|enriched category theory]]).
+Common choices for $I$ are a [[terminal object]] (in which case generalized elements are called [[global element]]s) or a [[monoidal category|tensor unit]] (in which case the generalized elements are important in [[enriched category|enriched category theory]]).  In a [[concrete category]] represented by $I$, the $I$-elements of an object are the same as the elements of its underlying set.
 
 However, one of the important insights of category theory is that in arbitrary categories, generalized elements of all possible stages of definition must often be used to replace global elements.  For instance, a set is determined by its global elements, while an object of an arbitrary category is determined by all of its generalized elements (this is one way to state the [[Yoneda lemma]]).
 
