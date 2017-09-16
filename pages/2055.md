@@ -133,6 +133,8 @@
 
 * [Todd and Vishal's blog](http://topologicalmusings.wordpress.com)
 
+* [Victor Porton's math blog](http://portonmath.wordpress.com)
+
 * [Vivatsgasse 7](http://vivatsgasse7.wordpress.com)
 
 * [What's new](http://terrytao.wordpress.com) (Terence Tao)
