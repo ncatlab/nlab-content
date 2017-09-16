@@ -35,6 +35,8 @@ _Toby_:  I understand it, but it still doesn\'t actually include the centre of a
 [[Mike Shulman]]: Hmm, that appears to be a different notion of center than the one I was used to.  (I didn't make this one up, but I don't remember where I learned it; has anyone else seen it?)  Perhaps that one is better; it also has the advantage that it gives automatically that the center of a $k$-tuply monoidal $n$-category is $(k+1)$-tuply monoidal.
 
 _Toby_:  I\'ll try to get John\'s attention.
+
+[[Mike Shulman]]: The HDA1 definition also leaves me wondering: why make only that particular choice of what level to stop at?  Is there anything interesting to say about other choices?
 =--
 
 
