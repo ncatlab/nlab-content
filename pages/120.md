@@ -18,4 +18,6 @@ In [[higher category theory]] an **equivalence** often means a morphism which is
 
 # In homotopy theory #
 
-We need [[homotopy equivalence]] and [[weak homotopy equivalence]].  See also [[weak equivalence]].
+In the category of topological spaces, notions weaker than isomorphism becomes very important: [[homotopy equivalence]] and [[weak homotopy equivalence]].  The latter notion is generalized to [[weak equivalence]] for objects in any [[model category]].  There is also a notion of equivalence between model categories: [[Quillen equivalence]].  
+
+These can be understood to some extent using higher categories.  For example, topological spaces should be weakly homotopy-equivalent if and only if they have equivalent [[fundamental infinity-groupoid|fundamental infinity-groupoids]].  Similarly, Quillen equivalent model categories give rise to equivalent [[(infinity,1)-category|(infinity,1)-categories]].
