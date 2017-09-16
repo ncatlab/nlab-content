@@ -8,4 +8,4 @@
   on [[synthetic differential geometry]]
 
 
-category: biography
+category: people
