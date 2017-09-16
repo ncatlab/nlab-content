@@ -1,3 +1,10 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+#Idea and definition#
+
 Classically, a **Schur functor** is a just a [[functor]] $Vect_{fd} \to Vect_{fd}$ on the category of finite-dimensional complex [[vector space|vector spaces]]. 
 +--{.query} 
 Literally any functor? Something seems peculiar to me about that. See the next query box. 
@@ -8,9 +15,9 @@ $$F_R: Mod_R \to Mod_R$$
 
 It turns out that much of the theory of Schur functors can be generalized even further, beyond module categories, and in this article we tentatively explore the scope of such generality. 
 
-## Examples: 
+# Examples #
 
-The first thing that should be understood from the beginning is that a general Schur functor $F$ is _nonlinear_: the action on hom-sets 
+The first thing that should be understood from the beginning is that a general Schur functor $F$ is _nonlinear_: the action on [[hom-set]]s 
 
 $$hom(V, W) \to hom(F(V), F(W))$$ 
 
@@ -32,7 +39,7 @@ I took this statement about decompositions from the blog discussion, but what's 
 Even if it is something analogous to analytic functors, I am reminded that analytic functors on $Set$ aren't just any old functors; they are characterized by certain properties such as weak preservation of pullbacks. Is there something similar that needs to be said for the very general sense of 'Schur functor' given above? 
 =--
 
-## Schur functors associated with Young diagrams 
+# Schur functors associated with Young diagrams #
 
 Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. make sense in much wider contexts than just $Vect_{\mathbb{C}}$. Indeed, let $C$ be any [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] whose hom-objects are $\mathbb{Q}$-vector spaces. 
 
@@ -84,7 +91,7 @@ $$e_X = \frac1{n!} \sum_{g \in S_n} g: V_\lambda \otimes X^{\otimes n} \to V_\la
 which can be viewed either as invariants (equalizer of $e$ and the identity) or coinvariants (coequalizer of $e$ and the identity). 
 =-- 
 
-## (Tentative) High-level description of Schur functors 
+# (Tentative) High-level description of Schur functors #
 
 As we have just seen, Schur functors such as the $S_\lambda$ makes sense in pretty wide contexts, and the formula for the $S_\lambda$ is in some sense "polymorphic". The question arises as to the right way to give sense to such [[polymorphism]], or in other words the compatibility between these Schur functors across the various structured categories where they are defined. Here is a very general expression of that compatibility proposed by [[John Baez]]. 
 
