@@ -29,6 +29,8 @@ This yields a [[bicategory]] $V\Mod$ with
 * 2-morphisms are natural transformations.
 
 At least for $V = Set$ a morphism in $Set Mod$ is often called a **profunctor** and the bicategory $Set Mod$ is then often denoted $Prof$.
+See the [[joyalscatlab:Distributors and barrels|Catlab]] for the theory
+of set valued distributors.
 
 ## Alternative definitions ##
 
