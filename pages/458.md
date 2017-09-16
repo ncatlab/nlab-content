@@ -8,6 +8,7 @@ One motivation for locales is that since they take the notion of "open set" as b
 
 Another advantage of locales is that they are better-behaved than topological spaces in [[constructive mathematics]] or [[internalization|internal]] to an arbitrary topos.  For example, constructively the topological space $[0,1]$ need not be [[compact space|compact]], but the _locale_ $[0,1]$ is always compact (in a suitable sense).  It follows that the locale $[0,1]$, and hence also the locale $R$ of real numbers, is not always spatial.  When it fails to be spatial, because there are "not enough real numbers," the locale is generally a better-behaved object than the topological space of real numbers.
 
+
 # Definition #
 
 A **[[frame]]** $A$ is a [[partial order|poset]] with all [[join|joins]] and all finite [[meet|meets]] which satisfies the _infinite distributive law_:
@@ -17,6 +18,7 @@ A **frame homomorphism** $\phi: A\to B$ is a function which preserves finite mee
 By the [[adjoint functor theorem]] for posets, a frame also has all meets, but a frame homomorphism need not preserve them.  Again by the AFT, a frame is automatically a [[Heyting algebra]], but again a frame homomorphism need not preserve the Heyting implication.
 
 The [[category]] of **locales** is the [[opposite category|opposite]] of the category of frames.  That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open sets in $X$", and a **continuous map** $f:X\to Y$ of locales is a frame homomorphism $f^*:O(Y)\to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
+
 
 # Relation to topological spaces #
 
@@ -28,11 +30,13 @@ The elements of $O(X)$ induce a topology on the set of points of $X$ in an obvio
 
 It is not hard to check that $(-)_l$ is left adjoint to $(-)_p$.  In fact, this is an [[idempotent adjunction]], and therefore it restricts to an equivalence between the fixed subcategories on either side.  A space with $X\cong X_{lp}$ is called **[[sober space|sober]]**, while a locale with $X\cong X_{pl}$ is called **spatial**.
 
+
 # In the context of $(n,r)$-topos theory #
 
 Recall the defintion of [[(n,r)-category]] in general and of [[(0,1)-category]] in particular.
 
-It turns out that a [[(0,1)-topos]] is essentially the same as a locale.
+It turns out that a [[(0,1)-topos]] is essentially the same as a [[Heyting algebra]], and a [[Grothendieck topos|Grothendieck]] $(0,1)$-topos is a locale.
+
 
 # References #
 
