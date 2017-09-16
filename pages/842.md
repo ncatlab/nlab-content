@@ -30,3 +30,6 @@ The definition of limit in quasi-categories is due to
 It appears as [definition 1.2.13.4, p. 48](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=48) in 
 
 * J. Lurie, _Higher topos theory_ ([pdf](http://arxiv.org/abs/math.CT/0608040))
+
+
+[[!redirects limits in quasi-categories]]
