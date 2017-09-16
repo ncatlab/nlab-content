@@ -12,6 +12,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-03-08 
+
+* [[John Baez]]:
+
+  * Attempted to answer Eric's plea for a category-theoretic definition of 'Hasse diagram', in the discussino at the bottom of [[preorder]].  Unfortunately I don't know the official definition of 'Hasse diagram' --- though I know one when I see one.
+
+  * Made a short page on [[proset]], since Toby seems to be using this as a synonym for [[preorder]].
+
 # 2009-03-05
 
 * [[Andrew Stacey]]:
