@@ -189,35 +189,7 @@ A tentative formal definition of what makes a set theory "structural" can be fou
 
 ## Definitional set theory
 
-As remarked above, both material set theory and structural set theory
-are **foundational set theories**.  
-+--{: .query}
-[[Arnold Neumaier]]: ''As remarked above'' suggests that pure set
-theory is synonymous with material set theory.
-May I conclude that the pure set theory constructed 
-elsewhere in the n-Lab within ETCS is a material set 
-theory? Thus a structural set theory has material aspects? 
-
-_Toby_:  I wouldn\'t conclude anything like that from comparing
-different articles in the Lab.  They\'re written by different people,
-usually without consultation.  Not that there\'s anything wrong with
-your question!  But my answer is simply that the word here should be
-'material' rather than 'pure'.  (However, I would also agree that both
-material and structural foundations have aspects of each other in
-them, in the sense that the basic concepts of each can be formalised
-in the other.)
-
-[[Mike Shulman]]: "As remarked above" was intended to refer to the
-statement "On the nlab we distinguish between two types of
-foundational set theory: material set theory and structural set
-theory," which makes no reference to pure sets.
-
-_Toby_:  But this sentence *did* say 'pure set theory' instead of 'material set theory' before I fixed it.
-
-[[Mike Shulman]]: Huh, sorry.  I guess I didn't notice that when I added the "as remarked above;" I certainly was thinking of material/structural.
-=--
-
-It is also possible to make a **definitional set theory**, in which one defines sets in terms of some more primitive concept.  Lawvere also proposed a foundation based on [[Cat|the category of categories]]; then a set may be defined as a [[discrete category]]. 
+As remarked above, both material set theory and structural set theory are **foundational set theories**.  It is also possible to make a **definitional set theory**, in which one defines sets in terms of some more primitive concept.  Lawvere also proposed a foundation based on [[Cat|the category of categories]]; then a set may be defined as a [[discrete category]]. 
 
 In [[constructive mathematics]], a foundation based on [[type theory]] is popular, with types interpreted as _[[preset|presets]]_ (sets without [[equality]]); then a set may be defined as a preset
 equipped with an [[equivalence relation]] (the term [[setoid]] is also used for such a gadget).  In [[computer science]], a foundation based
