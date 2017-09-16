@@ -180,20 +180,20 @@ $$
   \array{
     K &\to& P &\to& M
     \\
-    \downarrow && \downarrow^{\mathrlap{\in W_0 \cap cof(I)}} && \downarrow^{\mathrlap{\in W}}
+    \downarrow^{\mathrlap{\in I}} && \downarrow^{\mathrlap{\in W_0 \cap cof(I)}} && \downarrow^{\mathrlap{\in W}}
     \\
     L &\to& R &\to& N
   }
 $$
 
-of the original square from an elementin $I$ to an element in $W$  through an element in $J = W \cap cof(I)$. 
+of the original square from an element in $I$ to an element in $W$  through an element in $J = W \cap cof(I)$. 
 (In [Beke](http://arxiv1.library.cornell.edu/abs/math/0102087), following [[Jeff Smith]], this is called the 
 **solution set condition**: $W_0 \cap cof(I)$ is "a solution set for $W$ at $I$").
 
 By following now precisely the [[small object argument]] with the only difference that one factors all the squares over which one takes a colimit in that argument through elements in $J$ as above, it follows now that every morphism $A \stackrel{\in W}{\to} B$ in $W$ may be factored as
 
 $$
-  A \stackrel{\in cell(J)}{\to} C \stackrel{inj(I)}{\to} B
+  A \stackrel{\in cell(J)}{\to} C \stackrel{\in inj(I)}{\to} B
   \,.
 $$
 
@@ -235,7 +235,10 @@ which shows that $f$ is a retract of an element in $cell(J) \subset cof(J)$, hen
 
 And the converse statement is immediate: by definition $J \subset cof(I) \cap W$ and $cof(J)$ is the saturation of $J$ under the operation of forming retracts of transfinite compositions of pushouts of elements of $J$, under which $cof(I) \cap W$ is assumed to be closed.
 
-In total we have indeed $cof(j) = cof(I) \cap W$.
+In total we have indeed $cof(J) = cof(I) \cap W$ which shows that the $I$ and $W$ given to determine a combinatorial model category.
+
+To see the converse, that every combinatorial model structure arises this way, it is sufficient to show that for every combinatorial model category the ctegory $Arr_W(C) \subset Arr(C)$ is an [[accessible category]]. 
+
 
 =--
 
@@ -396,11 +399,9 @@ Further classes of examples are obtained from such basic examples by localizing 
 
 Not every [[cofibrantly generated model category]] is also a combinatorial model category. 
 
-For instance 
+For instance:
 
-**Counter example**:[[Top]] with the standard [[model structure on topological spaces]] is cofibrantly generated, but not combinatorial. 
-
-But it is [[Quillen equivalence|Quillen equivalent]] to a combinatorial model structure, namely to the standard [[model structure on simplicial sets]] (see [[homotopy hypothesis]]).
+**(Counter)example**:[[Top]] with the standard [[model structure on topological spaces]] is cofibrantly generated, but not combinatorial. But it is [[Quillen equivalence|Quillen equivalent]] to a combinatorial model structure, namely to the standard [[model structure on simplicial sets]] (see [[homotopy hypothesis]]).
 
 One might therefore ask which cofibrantly generated model categories are Quillen equivalent to combinatorial ones. For a discussion of this see
 
