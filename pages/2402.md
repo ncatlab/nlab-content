@@ -101,7 +101,7 @@ there is something called the  [[j-invariant]] which classifies [[elliptic curve
 let 
 
 $$
-  E : y^2 0 x^3 + a x + b
+  E : y^2 = x^3 + a x + b
 $$
 
 be an [elliptic curve]] given by parameters $a,b$. Then its [[j-invariant]] is the number
