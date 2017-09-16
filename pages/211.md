@@ -14,6 +14,8 @@ _Toby_:  I see that Urs managed to post from 'from bogus address' today (June 27
 
 _Eric_: I don't mind if administrators can see my IP for security reasons, but it is not clear what purpose it serves to actually display it publicly for all to see. For example, I can see the IP addresses of people who comment on my blog, but it is not displayed for everyone to see.
 
+_Toby_:  That creates a hierarchy (of information if not power, but one leads to the other) where administrators are above everybody else.  The wiki way gives the same information to everybody.
+
 =--
 
 category: meta
