@@ -8,4 +8,4 @@
 
 #Examples#
 
-* If $C$ has finite [[limit]]s then a functor is left exact precisely if it preserves these limits.  See also [[continuous functor]].
+* If $C$ has finite [[limit]]s then a functor is left exact precisely if it preserves these limits.  Frequently the term "left exact" is restricted to this case, and it is sometimes abbreviated **lex**.  In particular, $Lex$ is the 2-category of categories with finite limits and lex functors.  See also [[continuous functor]].
