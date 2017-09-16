@@ -216,7 +216,7 @@ Let us run through the initial example again, this time attempting to interpret 
 <img alt="Cactus Graph F = P And Q" src="/nlab/files/Cactus_Graph_F_Equals_P_And_Q.jpg" width="500" /></td></tr>
 </table>
 
-A function like this has an abstract type and a concrete type.  The abstract type is what we invoke when we write things like $f : \mathbb{B} \; \times \; \mathbb{B} \to \mathbb{B}$ or $f : \mathbb{B}^2 \to \mathbb{B}$.  The concrete type takes into account the qualitative dimensions or the "units" of the case, which can be explained as follows.
+A function like this has an abstract type and a concrete type.  The abstract type is what we invoke when we write things like $f : \mathbb{B} \;\times\; \mathbb{B} \to \mathbb{B}$ or $f : \mathbb{B}^2 \to \mathbb{B}$.  The concrete type takes into account the qualitative dimensions or the "units" of the case, which can be explained as follows.
 
 * Let $P$ be the set of values $\{ \text{&#x2997;} p \text{&#x2998;}, \; p \} \;=\; \{ \mathop{not}\; p, \; p \} \;\cong\; \mathbb{B}$.
 
