@@ -26,6 +26,10 @@
 
   * [[module algebra]], [[comodule algebra]], [[Hopf action]], [[measuring]]
 
+* [[geometric representation theory]]
+  
+  * [[Borel-Weil theorem]], [[BBDG decomposition theorem]]
+
 * [[Grothendieck group]], [[lambda-ring]], [[symmetric function]], [[formal group]]
 
 * [[principal bundle]], [[torsor]], [[vector bundle]], [[Atiyah Lie algebroid]]
