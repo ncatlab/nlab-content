@@ -14,7 +14,7 @@ fc-multicategories are related to double categories precisely as ordinary multic
 
 #Definition#
 
-An fc-multicategory is a $T$-multicategory, in the sense of Leinster, for the monad $T$ on [[directed graph|directed graphs]] whose algebras are categories.  The "fc" is a name for this monad $T$ which stands for "free-category."
+An fc-multicategory is a $T$-[[generalized multicategory|multicategory]], in the sense of Leinster, for the monad $T$ on [[directed graph|directed graphs]] whose algebras are categories.  The "fc" is a name for this monad $T$ which stands for "free-category."
 
 #References#
 
