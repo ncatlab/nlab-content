@@ -140,7 +140,7 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
   * [[(infinity,n)-category]]
  
 
-* concepts
+* $(\infty,1)$-categories
 
   * [[homotopy category of an (infinity,1)-category]]
 
@@ -152,7 +152,13 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[terminal object in a quasi-category]]
 
-  * [[limit in quasi-categories]]
+
+* [[(infinity,1)-functor]]
+
+  * [[(infinity,1)-presheaf]]
+
+
+* [[limit in quasi-categories]]
 
 
 ##2 Fibrations of Simplicial Sets ##
