@@ -1,9 +1,21 @@
-In general, the _center_ of an object $X$ is the collection of things which "commute with all elements of $X$."  This has a number of specific incarnations.
+In general, the _center_ (or _centre_) of an object $X$ is the collection of things which "commute with all elements of $X$."  This has a number of specific incarnations.
 
-The original example is the __center__ $Z(G)$ of a [[group]] $G$, which is defined to be the subgroup consisting of all elements $g\in G$ such that for all other elements $h\in H$ the equality $g h=h g$ holds.  The center is an abelian subgroup, but not every abelian subgroup is in the center.  See also [[centralizer]].
+The original example is the __center__ $Z(G)$ of a [[group]] $G$, which is defined to be the [[subgroup]] consisting of all elements $g\in G$ such that for all elements $h\in H$ the equality $g h=h g$ holds.  The center is an [[abelian group|abelian]] subgroup, but not every abelian subgroup is in the center.  See also [[centralizer]].
+
+The center of a group can be generalized to the center of a [[monoid]] in an obvious way.
 
 The __center of a Lie algebra__ $L$ is an abelian Lie subalgebra $Z(L)$, consisting of all elements $ z\in L$ such that $[l,z]=0$ for all $z\in L$. There are generalizations for some other kinds of algebras.
 
-The center of a group can be generalized to the center of a [[monoid]] in an obvious way.  It can further be [[horizontal categorification|horizontally categorified]] to the center of a [[category]].  Specifically, the center of a category $C$ is defined to be the set $[C,C](Id_C,Id_C)$ of [[natural transformation|endo-natural-transformations]] of the identity [[functor]] of $C$; it is straightforward to check that this reduces to the usual definition if $C$ is a monoid, considered as a one-object category.
 
-The center of a group or monoid can also be [[vertical categorification|vertically categorified]]: one can define the center of a [[monoidal category]].  The center of a monoidal category is a [[braided monoidal category]], which is symmetric if the original category was braided.  Importantly, the center of a monoidal category $C$ is no longer a "subobject" of $C$; rather its objects are objects of $C$ equipped with additional structure.  More generally, one expects the center of a [[k-tuply monoidal n-category]] to be a $(k+1)$-tuply monoidal $n$-category; this has also been proven for $k\le 4$ when $n=2$.
+## Centers of categories and higher categories
+
+The centre of a monoid can be [[horizontal categorification|horizontally categorified]] to the center of a [[category]].  Specifically, the center of a category $C$ is defined to be the [[monoidal category]] $[C,C](Id_C,Id_C)$ of [[natural transformation|endo-natural-transformations]] of the [[identity functor]] of $C$; it is straightforward to check that this reduces to the usual definition if $C$ is a monoid, considered as a one-object category.
+
+The definition of the centre of a category has an obvious (vertical) [[decategorification]] to define the centre of a [[set]]: it is the monoid of [[endofunction]]s on the set.
+
+The center of a group or monoid can also be [[vertical categorification|vertically categorified]]: one can define the center of a [[monoidal category]].  The center of a monoidal category is a [[braided monoidal category]], which is [[symmetric monoidal category|symmetric]] if the original category was braided.
+
+Importantly, the centers of a sets, category, or monoidal category $C$ is no longer a "subobject" of $C$; rather its objects are objects of $C$ equipped with additional structure.  More generally, one expects the center of a [[k-tuply monoidal n-category]] to be a $(k+1)$-tuply monoidal $n$-category; this has also been proven for $k\le 4$ when $n=2$.
+
+
+[[!redirects centre]]
