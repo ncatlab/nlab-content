@@ -97,3 +97,6 @@ Sullivan-Thom-Whitney** (which has been adapted from Halperin,
 (see references)). The following is the first of three 
 linked entries dealing with that the initial part of his theory.
 
+***
+
+[[Eric]]: There are many additional references to existing literature that might be of interest here for applications, but I don't have time to list them. A good start would be Dodziuk and a google search on "Whitney Forms" including higher order Whitney forms.
