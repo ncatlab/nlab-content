@@ -72,4 +72,12 @@ _Toby_:  I don\'t think that they\'re morally equivalent at all; the difference 
 _Finn_:  Sorry, I wasn't very clear.  What I meant was that the empty RHS in LJ corresponds to $\bot$ in NJ, so you can think of the extra axioms of NJ and NK as 'shadows' of the extra structural rules of LJ and LK.
 
 You're right that the distinction between $\bot$ and the empty RHS is exactly the logical/structural distinction, and what I'm saying really is that I prefer sequent calculus because (I think) it shows that the differences between classical, intuitionistic and minimal logic are (or can be viewed as) structural, rather than logical.  I suppose I'm thinking of these systems in terms of their interpretation as term calculi -- there you find that the structural differences translate nicely into restrictions on the ability of a term to manipulate its 'continuation', whereas the corresponding differences for terms based on natural deduction are unobvious to say the least.
+
+_Toby_:  Well, I don\'t think that I was very clear either.  Let me put it this way:
+
+Even assuming that we write LK additively, there are still some variations possible.  Both you and Wikipedia (and probably Gentzen, although I\'ve never read the original) leave out $\top$ and $\bot$, but one could also include them on the same footing as $\wedge$ and $\vee$.  I think that it\'s obvious that it\'s best to include them; indeed, this goes to the heart of one of my strongest intuitions about mathematics.
+
+If one does so and then restricts to sequents with exactly one formula on the right, then one gets intuitionistic logic, not minimal logic.  And if such a restriction leads one to remove the axioms for $\bot$ in a shadowing manner, then it also ought to lead one to remove $\vee$, which will not get one the right result either.  So while you\'ve convinced me that seeing intuitionistic logic as a *structural* weakening of classical logic really is an important way to look at it (and not just an artefact of some specific representation), I\'m far from convinced about minimal logic.
+
+Incidentally, here\'s another way that I\'ve thought of that you can see the relationships between these logics.  If you start with LK (including $\top$ and $\bot$) and then remove $\neg$, then you get intuitionistic logic.  (If you then go on to remove $\bot$, then you get the version of minimial logic without negation.)  This view still pleases me more, but I\'ll try to like the structural view too.  (^_^)
 =--
