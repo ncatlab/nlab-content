@@ -6,7 +6,7 @@ The slice category is a special case of a [[comma category]].
 
 # Examples #
 
-* If $\mathbf{C} = \mathbf{P}$ is a [[poset]] and $p \in \mathbf{P}$, then the slice category $\mathbf{P}/p$ is the "principal ideal" $\downarrow (p)$ of elements $q \in \mathbf{P}$ with $q \leq p$. 
+* If $\mathbf{C} = \mathbf{P}$ is a [[partial order|poset]] and $p \in \mathbf{P}$, then the slice category $\mathbf{P}/p$ is the "principal ideal" $\downarrow (p)$ of elements $q \in \mathbf{P}$ with $q \leq p$. 
 
 * If $1$ is a [[terminal object]] in $\mathbf{C}$, then $\mathbf{C}/1$ is isomorphic to $\mathbf{C}$.
 
