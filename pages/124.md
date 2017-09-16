@@ -13,3 +13,9 @@ There are alternative ways to state the definition.  For instance, from finite l
 In a way, however, these concise definitions can be misleading, because a topos has a great deal of other structure, which plays a very important role but just happens to follow automatically from these basic axioms.  Most important are that a topos is [[locally cartesian closed category|locally cartesian closed]], has finite [[colimit]s, and is a [[Heyting category|Heyting]] [[pretopos]].  This implies that it has an [[internal logic]], and the presence of exponentials and power objects means that this logic is [[higher order logic|higher order]].
 
 Some of the most important examples of toposes are [[Grothendieck topos]]es, which are the categories of [[sheaf|sheaves]] on [[site]]s.  The word "topos" was originally used only to mean Grothendieck's sort.
+
+
+[[!redirects Lawvere-Tierney topos]]
+[[!redirects Lawvere--Tierney topos]]
+[[!redirects Lawvere–Tierney topos]]
+[[!redirects elementary topos]]
