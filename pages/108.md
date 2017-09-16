@@ -1,5 +1,19 @@
 **Warning** this entry is currently under re-construction. The original material is found below under "previous version of this entry". The new version is supposed to give a more coherent picture starting from more general nonsense and deriving the concrete nonsense more systematically. 
 
++--{: .query}
+Maybe this is a bad time (or maybe it\'s a good time), but I\'d like to move this page to simply [[descent]] (but without changing its scope).  For one thing, this fits with some other pages that we have, such as [[end]]; maybe those pages are wrong too, but I don\'t think so, since another reason is that it\'s easier to link this way:
+*  `[[descent]]`,
+*  `co[[descent]]`,
+*  `[[descent]] and codescent`
+
+instead of
+*  `[[descent and codescent|descent]]`,
+*  `[[descent and codescent|codescent]]`,
+*  `[[descent and codescent]]`.
+
+If there are no objections, I can still wait until after the rewrite to move ... or instead you could do the rewrite at the new name before redirecting this one.
+---[[Toby Bartels]]
+=--
 
 ***
 
@@ -16,7 +30,7 @@ Descent and codescent best understood as a direct generalization of the  situati
 For $S$ any small [[category]] and [[Set]] the category of small sets, write $\mathrm{PSh}(S) = [S^{op}, Set]$ for the category of [[presheaf|presheaves]] on $S$. Categories of this form enjoy various nice properties which are familiar from $Set$ itself,  and which are summarized by saying that $\mathrm{PSh}(S)$ is a [[topos]]. The relevance of
 this for the present purpose is that there is a natural notion of morphisms of topoi, which are [[functor]]s respecting this structure in some sense: these are called [[geometric morphism]]s.
 
-A [[category of sheaves]] on $S$ is a sub-topos of $PSh(S)$ in that it is a [[full and faithful functor]] $Sh(S)\hookrigtharrow PSh(S)$ which is a [[geometric morphism]].
+A [[category of sheaves]] on $S$ is a sub-topos of $PSh(S)$ in that it is a [[full and faithful functor]] $Sh(S)\hookrightarrow PSh(S)$ which is a [[geometric morphism]].
 
 It turns out that such sub-topoi of sheaves can be characterized alternatively by
 
