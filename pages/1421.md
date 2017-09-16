@@ -15,11 +15,15 @@ Now we can define what it means for a stack to be perfect, as well as for morphi
 
 +-- {: .un_defn}
 ###### Definition
-A derived stack $X$ is said to be _perfect_ if it has affine diagonal and the $\infty$-category $QC(X)$ is the inductive limit
+A [[derived stack]] $X$ is said to be _perfect_ if it has affine diagonal and the $(\infty,1)$-category $QC(X)$ is the [[ind-object in an (infinity,1)-category|(infinity,1)-category of ind-objects]]
+
  \[
  QC(X) \simeq \Ind \Perf(X)
 \]
-of the full $\infty$-subcategory $Perf(X)$ of perfect complexes. A morphism $X \rightarrow Y$ is said to be _perfect_ if its fibers $X \times_Y U$ over affines $U \rightarrow Y$ are perfect.
+
+of the full $(\infty,1)$-subcategory $Perf(X)$ of perfect complexes on $X$. 
+
+A morphism $X \rightarrow Y$ is said to be _perfect_ if its fibers $X \times_Y U$ over affines $U \rightarrow Y$ are perfect.
 =--
 
 +-- {: .query}
@@ -33,6 +37,7 @@ The best I've seen so far is: A space $X$ is compact if and only if $Hom(X, \cdo
 _Toby_:  Do we need a page [[perfect stack]]?  And we could certainly use some exposition at [[compact object]]!
 
 _Bruce_: I'm not sure if 'perfect stack' makes sense at the non-derived level. 
+
 
 =--
 
