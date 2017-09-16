@@ -13,7 +13,7 @@ $$
   \,.
 $$
 
-The [[(infinity,1)-category]] of $(\infty,1)$-presheaves is the corresponding [[(infinity,1)-functor category]]
+The [[(infinity,1)-category]] of $(\infty,1)$-presheaves is the corresponding [[(infinity,1)-category of (infinity,1)-functors]]
 
 $$
  PSh(S) := Fun(S^{op}, (\infty,0)Cat)
