@@ -1,7 +1,7 @@
 A **Boolean topos** is a [[topos]] that is also a [[Boolean category]].
 
 There are several conditions on a topos that are necessary and sufficient to be boolean:
-* Every [[subobject]] has a complement (the general definitino of boolean category).
+* Every [[subobject]] has a complement (the general definition of boolean category).
 * Every [[subobject lattice]] is a [[Boolean algebra]].
 * The [[subobject classifier]] $\Omega$ is an [[internalization|internal]] Boolean algebra.
 * The maps $\top, \bot: 1 \to \Omega$ are a [[coproduct]] cone (so in particular, $\Omega \cong 1 + 1$, but this alone is not sufficient).
