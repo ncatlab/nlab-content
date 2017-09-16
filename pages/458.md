@@ -53,7 +53,7 @@ A [[ionad]] is supposed to be to a [[topological space]] as a [[Grothendieck top
 
 An introduction to and survey of the use of locales instead of topological spaces is
 
-* [[Peter Johnstone]], _The point of pointless topology_ ,  Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1 (1983), 41-53. ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183550014))
+* [[Peter Johnstone]], _The point of pointless topology_ ,  Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1 (1983), 41-53. ([Bulletin AMS](http://www.ams.org/bull/1983-08-01/S0273-0979-1983-15080-2/home.html))
 
 This is, in its own words, to be read as the trailer for the book
 
