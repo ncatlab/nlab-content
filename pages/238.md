@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-20 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * added to [[Yoneda lemma]] the following: a word on the proof, two further corollaries, a word on the meaning of the first two corollaries
+
 *  [[Toby Bartels]]:  Put [[well-order|simulations]] everywhere.  I need to think about this (and read Aczel) some more, but I\'m fairly sure that Mike is right about them.
 
 * [[Urs Schreiber|Urs]]:
