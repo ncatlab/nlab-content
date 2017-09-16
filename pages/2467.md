@@ -4,4 +4,7 @@
 
 * [[noncommutative geometry]]
 
+* [[Hochschild–Kostant–Rosenberg theorem]]
+
+
 category: people
