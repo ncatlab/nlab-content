@@ -14,4 +14,5 @@
 
 * [[Verity on descent for strict omega-groupoid valued presheave|Verity on descent for strict omega-groupoid valued presheaves]]
 
-category: biography
+
+category: people
