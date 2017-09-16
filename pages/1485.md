@@ -45,6 +45,7 @@ is in $G$ whenever $(U, \phi)$ is a coordinate chart of $x \in M$, and $(V, \psi
 
 _Toby_:  Yes, I think that this would make perfect sense; I think that we\'d want $G$ to be an [[internal groupoid]] in $C$.  Note that defining things like 'smooth manifold' in $C$ might still be difficult, but we\'ve reduced it to internalising [[Cart Sp]] in $C$.  (There\'s also the matter that the above definition takes a notion of [[space]] for granted, so you\'d have to internalise that into $C$ too, but I\'m not sure how important that really is, when I think about how the topology on a smooth manifold can be recovered from the smooth structure.)
 
+_Rafael_: Can someone that knows more than me about this add the result of this question to this article so nobody have to ask again.
 =--
 
 
