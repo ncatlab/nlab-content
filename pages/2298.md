@@ -7,7 +7,7 @@
 
 * [[higher algebra]]
 
-## Contents ##
+## Concepts ##
 
 * [notions of space](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+the+derived+moduli+stack+of+derived+elliptic+curves#NotionsOfSpace)
 
@@ -21,6 +21,8 @@
 
   * [[internal ∞-groupoid]]
 
+    * [[topological ∞-groupoid]]
+
     * [[∞-Lie groupoid]]
 
 * [[structured (∞,1)-topos]]
@@ -29,12 +31,25 @@
 
   * [[generalized scheme]]
 
-    * [[derived algebraic geometry]]
+## Examples
 
-      * [[E-∞ ring]]
+* [[derived algebraic geometry]]
+
+  * [[simplicial ring]]
+
+  * [[E-∞ ring]]
+
+* [[derived noncommutative geometry]]
+
+  * [[noncommutative geometry]]
+
+  * [[A-∞-category]]
+
+* derived smooth geometry 
+
+  * [[generalized smooth algebra|C∞-ring]]/[[smooth locus]]
 
   * [[derived smooth manifold]]
 
-    * [[generalized smooth algebra]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/higher+geometry+-+contents)</div>
