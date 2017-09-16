@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-05-25 #
+
+* [[Urs Schreiber|Urs]]
+
+  * created [[Bertrand Toën]] (and [[Bertrand Toen]] as a redirect)
+
 # 2009-05-24 #
 
 *  [[Toby Bartels]]:
