@@ -50,6 +50,8 @@ _Toby_:  I agree with Arnold; I like the criterion of a global membership predic
 
 I labelled the discussion immediately below, although probably we could get rid of it entirely.  (It\'ll still be in the archived revisions if we need it.)
 
+AN: To understand what was meant, you'd also quote the old context of the discussion.
+
 ***
 
 Discussion on earlier version:
