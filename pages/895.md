@@ -1,5 +1,7 @@
+#Cofibration category
+The notion of cofibration category was introduced by Baues (see references below) as a variant of the category of cofibrant objects, (for which see [[category of fibrant objects]] and dualise). The axioms are substantially weaker than [[model category|those of  a Quillen model category]], but add one axiom to [[category of fibrant objects|those of K. S. Brown]].
 
-#Cofibration category: $(C, \mathit{cof}, w.e.)$
+#Definition: $(C, \mathit{cof}, w.e.)$
 
 A *cofibration category* is a category $C$ with two classes of morphisms, $\mathit{cof}$ of
 _cofibrations_ and $w.e.$ of _weak equivalences_.
@@ -60,3 +62,4 @@ Given $X\in C$, there is trivial cofibration $X\rightarrow RX$ with $RX$ fibrant
 
 H.J. Baues, _Algebraic homotopy_, Cambridge studies in advanced mathematics 15, 
 Cambridge University Press, (1989). 
+
