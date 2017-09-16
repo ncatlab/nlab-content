@@ -74,4 +74,10 @@ If we fail to include a 2-edge and start with the 1-graph and form its 1-quiver 
 
 then it is as if we HAD included a 2-edge, but it is a trivial 2-edge and its corresponding 2-morphism is simply a 2-identity and the two composites commute.
 
-I _think_ that any finite category can be obtained in this way not via a finite 1-quiver (in which all closed 1-paths commute) but rather by a 2-quiver. If there is any sense to this, it seems to me to indicate that maybe a category with non-commuting paths is secretly a non-trivial 2-category somehow.
+I _think_ that any finite category can be obtained in this way not via a finite 1-quiver (in which all closed 1-paths commute) but rather by a 2-quiver. If there is any sense to this, it seems to me to indicate that maybe a category with non-commuting paths is secretly a non-trivial 2-category somehow. 
+
+_Todd_: More examples of finite categories which are not quivers: take the group $\mathbb{Z}_2$ as a 1-object category. Or the category with two objects and exactly one morphism in each hom-set. 
+
+As far as your suggestion goes, I'm inclined to say you seem to have it backwards from how I'd go about it. There is a notion of something called "computad" which all this reminds me of, which come in various dimensional flavors. A 2-computad consists of a directed graph and a collection of "2-cells" or 2-edges whose source and target are directed paths in the directed graph (= morphisms in the free category on the directed graph). In my way of thinking, a 2-cell would provide something like a membrane or bridge or a homotopy which would allow you to _identify_ paths (the source and target of the 2-cell) up to homotopy, instead of distinguishing them as you are doing. So, for any 2-computad, there would be something like its "fundamental category" (like a fundamental groupoid, but with directed paths considered modulo 2-cells), and you could say that any finite category is the fundamental category of some finite 2-computad. (But lots of different 2-computads would have the same fundamental category.) 
+
+There is also the notion of free 2-category generated from a 2-computad, and this is the beginning of an induction ladder. 
