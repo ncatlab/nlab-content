@@ -27,6 +27,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Mike Stay]]
 * [[Owen Biesel]]
 * [[Patrick Schultz]]
+* [[Peter LeFanu Lumsdaine]]
 * [[Richard Body]]
 * [[Ronnie Brown]]
 * [[Simon Willerton]]
