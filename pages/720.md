@@ -19,7 +19,12 @@ As for relations with complexes having cells of different shapes, Brown and Higg
 
 # Thin structures in double categories #
 
-Among other things, a **thin structure** on a [[double category]] is as giving the information of which squares should be thought of as _commuting_ rather than simply _containing a 2-cell_.  It also contains a way to represent any vertical arrow as a horizontal arrow (or vice versa, depending on one's conventions).  Thin structures can equivalently be described by "foldings" and "connection pairs."  It turns out that when they exist, they are unique up to a (suitably weak) notion of equivalence; see also [[framed bicategory]].
+Among other things, a **thin structure** on a [[double category]] can be seen as giving the information of which squares should be thought of as _commuting_ rather than simply _containing a 2-cell_.  The most general definition seems to be that a thin structure on a double category $D$ is a morphism of double categories $\Theta: \square C \to D$ where $C$ is any category and $\square C$ is the double category of commuting squares in $C$. 
+
+Note that $D$ contains the categories $D_v, D_h$ of vertical and horizontal edges respectively, and it is often convenient to take $C$ to be say $D_v$ and for $\Theta$ to be the identity on $D_v$. Then $\Theta$ defines a function $\Gamma: D_v \to D$ to the set of squares of $D$ which is called a _connection_, and also a functor $\gamma: D_v \to D_h$ which is called the _holonomy_ of the connection $\Gamma$. The laws which $\Gamma$ satisfies allow $\Theta$ to be recovered from $\Gamma$ in some cases.  
+
+
+Thus some thin structures  contain a way to represent any vertical arrow as a horizontal arrow (or vice versa, depending on one's conventions).  Thin structures can equivalently be described by "foldings" and "connection pairs."  It turns out that when they exist, they are unique up to a (suitably weak) notion of equivalence; see also [[framed bicategory]].
 
 
 # Simplicial nerves for higher categories #
