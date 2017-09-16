@@ -953,6 +953,10 @@ f_{15}
 </td>
 </table>
 
+## Transforms Expanded over Differential Features ##
+
+The next four Tables expand the expressions of $\mathop{E}f$ and $\mathop{D}f$ in two different ways, for each of the sixteen functions $f$ of abstract type $\mathbb{B} \:\times\: \mathbb{B} \to \mathbb{B}$.  Notice that the functions are given in a different order, partitioned into seven natural classes by a group action.
+
 ## External links ##
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
