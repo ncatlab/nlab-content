@@ -1,0 +1,220 @@
+#Idea#
+
+A _fibration sequence_ is a "long right-exaxt sequence" (or left-exact, I keep ,mixing that up) in an [[(infinity,1)-category]].
+
+#Definition#
+
+Let $C$ be an [[(infinity,1)-category]] with small [[limit]]s and consider [[pointed object]]s of $C$, i.e. morphisms ${*} \to A$ from the [[terminal object]] ${*}$ ([[generalized the|the]] [[point]]) to some object $A$. All unlabeled morphisms from the point in the following are these chosen ones and all other morphisms are taken respect these points.
+
+Notice that in the case that $C$ happens to be a [[stable (infinity,1)-category]] for which ${*} = 0$ all objects are canonically pointed and the notion of left- and right-exact fibration sequences coincides.
+
+But for the notion of fibration sequence to make sense, we do not need to assume that $C$ is a stable $(\infty,1)$-category. In particular, in the context of [[nonabelian cohomology]] (see [[gerbe]] and [[principal 2-bundle]]) one considers fibration sequences in non-stable $(\infty,1)$-categories.
+
+
+Now let $f : A \to B$ a morphism in $C$.
+
+The **homotopy fiber** or **homtoopy kernel** of $f$ is [[generalized the|the]] [[pullback]] (which in our $(\infty,1)$-categorical context means [[homotopy limit|homotopy pullback]]) of the point along $f$:
+
+$$
+  \array{
+     ker(f) &\to& {*}
+     \\
+     \downarrow && \downarrow
+     \\
+     A &\stackrel{f}{\to}& B
+  }
+  \,.
+$$
+
+In particular the homotopy fiber of the point ${*} \to B$ is the [[loop space object]] $\Omega B$ of $B$ (by definition):
+
+$$
+  \array{
+     \Omega B &\to& {*}
+     \\
+     \downarrow && \downarrow
+     \\
+     {*} &\stackrel{}{\to}& B
+  }
+  \,.
+$$
+
+Notice that the ordinary 1-categorical [[pullback]] of a point to itself is necessarily just the point again. Much of what makes [[(infinity,1)-category]]-theory richer than ordinary category theory is this fact that the kernel of the point is not trivial, but loops. This implies in particular that **the kernel of the kernel is in general nontrivial**.
+
+Namely the homotopy kernel of the morphism $ker(f) \to A$ constructed above is by definition the homotopy limit in the diagram
+
+$$
+  \array{
+    ker(ker(f)) &\to& ker(f)
+    \\
+    \downarrow && \downarrow
+    \\
+    {*} &\to & A
+  }
+$$
+
+This is the same kind of diagram as before, just depicted after taking its mirror image along a diagonal. The point of drawing it this way is that this suggests to form the pasting diagram with the one that defines $ker(f)$
+
+$$
+  \array{
+    ker(ker(f)) &\to& ker(f) &\to& {*}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    {*} &\to& A &\stackrel{f}{\to}& B
+  }
+  \,.
+$$
+
+
+Since the $(\infty,1)$-categorical homotopy pullback comopose just as ordinary [[pullback]] diagrams do, it follows that the total outer square obtained this way is itself a homotopy pullback. But by definition of te [[loop space object]] $\Omega B$ this means that the kernel of the kernel is loops:
+
+$$
+  ker(ker(f)) \simeq \Omega B
+  \,.
+$$
+
+I.e. all three squares in 
+
+$$
+  \array{
+    \Omega B &\to& ker(f) &\to& {*}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    {*} &\to& A &\stackrel{f}{\to}& B
+  }
+$$
+
+are (homotopy) pullback squares.
+
+Continuing this way to the left, we obtain a long sequence of morphisms to the left
+
+$$
+  \cdots
+  \to
+  \Omega \Omega B
+  \to
+  \Omega A \stackrel{\bar \Omega f}{\to}
+  \Omega B \to ker(f) \to A \stackrel{f}{\to} B
+  \,.
+$$
+
+Here the $\bar \Omega$ indicates that the map involves reversing the direction of loops. This comes about by looking closely at the pullback diagrams that this comes from
+
+$$
+  \array{
+    \Omega(A) &\to& {*}
+    \\
+    \downarrow^{\bar \Omega f} && \downarrow
+    \\
+    \Omega B &\to& ker(f) &\to& {*}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    {*} &\to &A &\stackrel{f}{\to}& B
+  }
+  \,.
+$$
+
+Again, all squares and all pasting squares appearing here are homtopy pullback squares. If I had labeled to two morphisms to the point out of the loop object one would see that $\bar Omega f$ indeed reverses orienation of loops. 
+
+Anyway.
+
+Usually, when looking at fibration sequences in 1-categorical contexts of the [[homotopy category of an (infinity,1)-category]], one doesn't see these long fibration squences directly, but only "in cohomology".
+
+This can be usefully understood as follows:
+
+recall from [[cohomology]] that for $X$ and $A$ objects in an [[(infinity,1)-category]] $C$ that is an [[(infinity,1)-topos]], the $\infty$-groupoid of $A$-valued cocycle on $X$ is just $Hom_C(X,A)$, so that the corresponding cohomology classes are
+
+$$
+  H(X,A) = \pi_0 Hom_C(X,A) = Ho_C(X,A)
+  \,,
+$$
+
+where $Ho_C$ is the corresponding [[homotopy category of an (infinity,1)-category]].
+
+The upshot being that in the right $(\infty,1)$-context cohomology is just the [[hom-object]].
+
+But the [[hom-functor]] has the crucial property that it is an [[exact functor]] in both arguments. This holds for $(\infty,1)$-categories just as well as for ordinary categories. For our context this means in particular that for 
+
+$$
+  \array{
+    A \times_C B &\to& B
+    \\
+    \downarrow && \downarrow
+    \\
+    A &\to& C
+  }
+$$
+
+a homotopy pullback in $C$, for every $X \in C$ the induces diagram
+
+$$
+  \array{
+    Hom_C(X,A) \times_{Hom_C(X,C)} Hom_C(X,B) &\to& Hom_C(X,B)
+    \\
+    \downarrow && \downarrow
+    \\
+    Hom_C(X,A) &\to& Hom_C(X,C)
+  }
+$$
+
+is again homotopy pullback diagram (of [[infinity-groupoid]]s).
+
+So in particular for
+
+$$
+  \cdots
+  \to
+  \Omega \Omega B
+  \to
+  \Omega ker(f)
+  \to
+  \Omega A \stackrel{\bar \Omega f}{\to}
+  \Omega B \to ker(f) \to A \stackrel{f}{\to} B
+$$
+
+a fibration sequence and for $X$ any object, there is a fibration sequence
+
+$$
+  \cdots
+  \to
+  Hom_C(X,\Omega \Omega B)
+  \to
+  Hom_C(X,\Omega ker(f))
+  \to
+  Hom_C(X,\Omega A) \stackrel{Hom_C(X,\bar \Omega f)}{\to}
+  Hom_C(X,\Omega B) \to Hom_C(X,ker(f)) \to Hom_C(X,A) \stackrel{Hom_C(X,f)}{\to} Hom_C(X,B)
+$$
+
+is again a fibration sequence, now of $\infty$-groupoids. By projecting everything to connected components with $\pi_0$ this then yields an ordinary long exact sequence of pointed sets
+
+
+$$
+  \cdots
+  \to
+  Ho_C(X,\Omega \Omega B)
+  \to
+  Ho_C(X,\Omega ker(f))
+  \to
+  Ho_C(X,\Omega A) \stackrel{Ho_C(X,\bar \Omega f)}{\to}
+  Ho_C(X,\Omega B) \to Ho_C(X,ker(f)) \to Ho_C(X,A) \stackrel{Ho_C(X,f)}{\to} Ho_C(X,B)
+  \,.
+$$
+
+Due to the identitfication of [[cohomology]] with these homotopy hom-sets via $Ho_C(X,A) =: H(X,A)$, this is a "long exact sequence in cohomology"
+
+
+$$
+  \cdots
+  \to
+  H(X,\Omega \Omega B)
+  \to
+  H(X,\Omega ker(f))
+  \to
+  H(X,\Omega A) \stackrel{H(X,\bar \Omega f)}{\to}
+  H(X,\Omega B) \to H(X,ker(f)) \to H(X,A) \stackrel{H(X,f)}{\to} H(X,B)
+  \,.
+$$
+
