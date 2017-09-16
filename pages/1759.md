@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-13
 
+*  [[Toby Bartels]]:  Created [[opposite relation]], quite brief.
+
 * [[David Roberts]]: Posted kernel of an idea at [[microbundle]] that has been sitting at the back of mind for a while, in the hope someone might be able to use it or do something interesting with it.
 
 *  [[Toby Bartels]]:  Wrote [[subset collection]] (a [[foundations|foundational]] axiom of [[set theory]] intermediate between [[power set]]s and [[function set]]s, justified by [[type theory]] and strong enough to define the located Dedekind [[real number]]s).
