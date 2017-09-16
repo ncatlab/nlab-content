@@ -9,7 +9,7 @@ $$\array{
 {}&{}&F&{}&{}
 }
 $$
-commutes.  Note that naturality of any such $\alpha$ implies that for all $i,j\in C$, $\alpha_i=\alpha_j$, so that $\alpha=\Delta(\phi)$ for some $\phi : c \to c'$ in $C$.  The single component $\phi$ itself is often referred to as the cone morphism.
+commutes.  Note that naturality of any such $\alpha$ implies that for all $i,j\in J$, $\alpha_i=\alpha_j$, so that $\alpha=\Delta(\phi)$ for some $\phi : c \to c'$ in $C$.  The single component $\phi$ itself is often referred to as the cone morphism.
 
 An equivalent definition of a cone morphism $\phi : T \to T'$ says that all component diagrams
 $$\array{
