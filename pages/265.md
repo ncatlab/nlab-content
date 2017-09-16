@@ -46,6 +46,8 @@ Such "derived functors" are not Kan extensions because $Q R$ does not come equip
 I don't know what a "satellite" is.
 
 _Zoran_ Cartan-Eilenberg book has the whole chapter on satelites. If you have derivd functors then they can be expressed via satelites; but satelites may exist even when the functor is not half exact. It is also instructive to look at satelites in nonabelian setup, for eample the small note by Janelidze, from 1970-s reprinted on the arXiv.
+
+[[Mike Shulman|Mike]]: Wow, thanks.  Looking at the definition, an obvious conjecture is that the satellites of an additive functor $F:A\to B$ are the homology objects of the general "middle" derived functor $F\circ Q R$ where $Q R$ is a fibrant-cofibrant replacement functor on the category $Ch(A)$ of unbounded chain complexes.  This would be consistent with the right and left exact cases, when $Q$ or $R$ alone suffices and the satellites become derived functors.  Do you know if anyone has thought about satellites in model category language?
 =--
 
 
