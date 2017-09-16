@@ -5,7 +5,21 @@
 
 ## Definition ##
 
-An **effective epimorphism** (in a given category) is any morphism that has a [[kernel pair]] and is the [[quotient object]] of its kernel pair.  (Sometimes we say that this morphism is an [[effective quotient]].)  The [[duality|dual]] concept is that of [[effective monomorphism]].
+An **effective epimorphism** is a [[morphism]] $f : c \to d$ (in a given [[category]]) that has a [[kernel pair]] $c \times_d c$ and is the [[quotient object]] of this kernel pair in that 
+
+$$
+  c \times_d c \stackrel{\to}{\to} c \stackrel{f}{\to} d
+$$
+
+is a [[colimit]] diagram (a [[coequalizer]]).
+
+In other words this says that $f : c \to d$ is effective if $d$ is the [[coimage]] of $f$.
+
+Sometimes we say that such morphism $f$ is an [[effective quotient]].
+
+## Remarks ##
+
+The [[duality|dual]] concept is that of [[effective monomorphism]].
 
 An effective epimorphism is necessarily a [[regular epimorphism]].  Conversely, any regular epimorphism that has a kernel pair is an effective epimorphism.
 
@@ -18,7 +32,7 @@ Notice that we may equivalently reinterpret the condition that
 
 * a morphism $\pi : U \to X$ is the [[quotient object]] of its [[kernel pair]] $U \times_X U \stackrel{\to}{\to} U$
 
-by saying that $X$ is the [[colimit]] over the [[Čech nerve]] 
+by saying that $X$ is the [[colimit]] over the entire [[Čech nerve]] 
 
 $$
   \cdots
