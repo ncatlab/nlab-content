@@ -1,8 +1,6 @@
-A __ringoid__ is a category [[enriched category|enriched over]] the category [[Ab]] of abelian groups with its usual [[tensor product]].
+An __Ab-enriched category__ is a category [[enriched category|enriched over]] the category [[Ab]] of abelian groups with its usual [[tensor product]].
 
-This term comes because this conctpt is a [[horizontal categorification]] (or 'oidification') of the concept of a [[ring]].  More prosaically, a ringoid may also be called an __$Ab$-enriched category__.
-
-Sometimes ringoids are called [[pre-additive category|pre-additive categories]], although sometimes that term also implies the existence of a [[zero object]].
+Sometimes Ab-enriched categories are called [[pre-additive category|pre-additive categories]], although sometimes that term also implies the existence of a [[zero object]].  They are also sometimes called [[ringoids]], since the concept is a [[horizontal categorification]] (or 'oidification') of the concept of a [[ring]].
 
 
 #Remarks#
@@ -77,8 +75,3 @@ It can be characterized diagrammatically as an object $c_1\oplus c_2$ equipped w
 #Blog resources#
 
 * John Baez, [Ringoids](http://golem.ph.utexas.edu/category/2006/09/ringoids.html)
-
-
-[[!redirects Ab-enriched category]]
-[[!redirects Ab-enriched categories]]
-[[!redirects ringoids]]
