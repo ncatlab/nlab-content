@@ -15,6 +15,24 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-03
 
+* [[Urs Schreiber|Urs]]
+
+  * edited and expanded the link list at [[generalized smooth space]]
+
+  * created [[smooth infinity-stack]] -- took the liberty of declaring this to be the term for "$\infty$-stacks on CartesianSpaces" 
+
+    * see the example there to see the relevance of this, with an eye towards the discussion at [[principal 2-bundle]] and [[principal infinity-bundle]]
+
+  * created [[smooth space]] -- took the liberty of declaring this to be the term for "sheaves on Diff" = "sheaves on CartesianSpaces". 
+
+    * this way a "diffeological space" is precisely a "concrete smooth space" and I 
+
+      * edited [[diffeological space]]
+
+      * and created [[concrete sheaf]] (but [[concrete site]] still missing, and also maybe not the best definition at [[concrete sheaf]] yet)
+  
+      to make this statement.
+
 *  [[Toby Bartels]]:  Created [[Cauchy sequence]] and [[complete space]], including brief references at the end of each to the relationship with [[Cauchy complete categories]].
 
 
