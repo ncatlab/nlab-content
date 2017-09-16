@@ -58,6 +58,8 @@ Let $G_r = G(X_r)$, $s_r = G(s_r)$, $t_r = G(t_r)$.
 
 [[Eric]]: I really like the generality of this definition. Globular sets seem too limited to me, e.g. I like to have square 2-cells, but that is probably due to a less than perfect understanding. You can see some discussion and references on [Revision 8](http://ncatlab.org/nlab/revision/directed+n-graph/8) of this page. If we really decide to limit $n$-graph to globular sets we can certainly change the name.
 
+[[Mike Shulman]]: But you don't have square 2-cells here either!  A square 2-cell would have to have the composite of two 1-cells as its source and target, but here your 2-cells only have a single 1-cell as their source and target.  It sounds like maybe what you really want is an $n$-[[computad]].
+
 =--
 
 
