@@ -1,3 +1,10 @@
+# The axiom of choice
+* tic
+{: toc}
+
+
+## Statement
+
 In its modern form, the axiom of choice in an [[internalization|ambient category]] $A$ says that
 
 * _Every [[epimorphism]] in $A$ splits._
@@ -14,7 +21,8 @@ If the ambient category is not [[balanced category|balanced]], such as a [[regul
 
 If $A$ is a [[extensive category|superextensive]] [[site]], then the axiom of choice for $A$ may be taken to say that, given any [[cover]]ing family $(p_i: U_i \to X)_i$, there is an appropriate section $X \to \coprod_i U_i$.
 
-#Remarks#
+
+## Remarks
 
 * If $A = Sets$ then this reproduces the axiom of choice in its traditional form: an epimorphism $A \to B$ of sets can be regarded as a $B$-indexed family of sets. The existence of a section is equivalent to a choice of one element in each set of this family.
 
@@ -22,10 +30,10 @@ If $A$ is a [[extensive category|superextensive]] [[site]], then the axiom of ch
 
 * When the full axiom of choice it may still be valid for some restricted class of objects $A$ and/or $B$.  An object $B$ such that any epimorphism $A\to B$ splits is called [[projective object|projective]]; this means that one can make choices 'indexed by' $B$.  Dually, an object $A$ such that one can make choices 'with values in' $A$ is called a [[choice object]] (this is not quite equivalent to every epimorphism $A\to B$ splitting).
 
-* In the context of [[constructive mathematics]], the full axiom of choice in $Set$ implies the principle of [[excluded middle]] and so is rejected.  However, weaker forms of choice, up to [[COSHEP]], are often (if not usually) accepted by constructivists.  One good example is the axiom of _[[countable choice]]]_, which says that the set $\mathbb{N}$ of [[natural number]]s is projective.  A stronger version is the axiom of [[dependent choice]].
+* In the context of [[constructive mathematics]], the full axiom of choice in $Set$ implies the principle of [[excluded middle]] and so is rejected.  However, weaker forms of choice, up to [[COSHEP]], are often (if not usually) accepted by constructivists.  One good example is the axiom of _[[countable choice]]_, which says that the set $\mathbb{N}$ of [[natural number]]s is projective.  A stronger version is the axiom of [[dependent choice]].
 
 
-# Equivalents 
+## Equivalents 
 
 The following statements are all equivalent to the axiom of choice in $Set$ (although sometimes the proof in one direction or the other requires [[excluded middle]]):
 
@@ -33,8 +41,11 @@ The following statements are all equivalent to the axiom of choice in $Set$ (alt
 * [[Zorn's lemma]],
 * that ($L =$ [[monomorphism]]s, $R =$ [[epimorphism]]s) is a [[weak factorization system]] in [[Set]].
 
-# See also #
+
+## See also
+
 * [[anafunctor]];
 * [[foundations]].
+
 
 category: foundational axiom
