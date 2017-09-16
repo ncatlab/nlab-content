@@ -10,7 +10,7 @@ The $n$Lab itself spun off the [$n$-Forum](http://www.math.ntnu.no/~stacey/Vanil
 
 ##Technology behind the $n$Lab##
 
-The site is running [[Jacques Distler]]'s enhanced version of [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage). To see the content correctly, you need to be running a [MathML-capable browser](http://golem.ph.utexas.edu/instiki/show/Browsers).
+The site is running [[Jacques Distler]]'s [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage). To see the content correctly, you need to be running a [MathML-capable browser](http://golem.ph.utexas.edu/instiki/show/Browsers).
 
 The site is served using [lighttpd](http://www.lighttpd.net/) and [Mongrel](http://mongrel.rubyforge.org/). It is hosted on a [256MB Virtual Private Server](http://www.a2hosting.com/services/vps-hosting/), running [CentOS](http://www.centos.org/), from [A2 Hosting](http://www.a2hosting.com/).
 
