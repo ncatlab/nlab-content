@@ -36,9 +36,9 @@ The following links are ordered following the sections of the articles
 
 * [[Jacob Lurie]] 
 
-  * _Noncommutative algebra_ ([pdf](http://www-math.mit.edu/~lurie/topoibook/DAGII.pdf))
+  * _Noncommutative algebra_ ([pdf](http://www-math.mit.edu/~lurie/papers/DAG-II.pdf))
 
-  * _Commutative algebra_ ([pdf](http://www-math.mit.edu/~lurie/topoibook/DAGIII.pdf)) 
+  * _Commutative algebra_ ([pdf](http://www-math.mit.edu/~lurie/topoibook/DAG-III.pdf)) 
 
 See also 
 
