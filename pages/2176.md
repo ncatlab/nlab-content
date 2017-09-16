@@ -1559,4 +1559,22 @@ Templates ---
 
 Upload Queue ---
 
-: $\varnothing$
+[[Field_Picture_PQ_Conjunction.jpg|Field Picture PQ Conjunction:pic]]
+
+[[Field_Picture_PQ_Enlargement_Conjunction.jpg|Field Picture PQ Enlargement Conjunction:pic]]
+
+[[Field_Picture_PQ_Difference_Conjunction.jpg|Field Picture PQ Difference Conjunction:pic]]
+
+[[Field_Picture_PQ_Conjunction.jpg|Field Picture PQ Conjunction:pic]]
+
+[[Field_Picture_PQ_Tacit_Extension_Conjunction.jpg|Field Picture PQ Tacit Extension Conjunction:pic]]
+
+[[Field_Picture_PQ_Enlargement_Conjunction.jpg|Field Picture PQ Enlargement Conjunction:pic]]
+
+[[Field_Picture_PQ_Difference_Conjunction.jpg|Field Picture PQ Difference Conjunction:pic]]
+
+[[Field_Picture_PQ_Differential_Conjunction.jpg|Field Picture PQ Differential Conjunction:pic]]
+
+[[Field_Picture_PQ_Remainder_Conjunction.jpg|Field Picture PQ Remainder Conjunction:pic]]
+
+[[Minimal_Negation_Operator_lPcQcRr.jpg|Minimal Negation Operator (P,Q,R):pic]]
