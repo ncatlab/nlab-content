@@ -1,3 +1,5 @@
+[[!include differential graded objects - contents]]
+
 Given a set $G$, an __$G$-graded vector space__ is a map $V$
 assigning to each element $g \in G$ a [[vector space]] $V_g$.  Given $G$-graded vector spaces $V$ and $W$, a morphism $f : V \to W$ assigns to each element $g \in G$ a linear operator $f_g : V_g \to W_g$.
 
