@@ -151,7 +151,7 @@ $$
   \otimes : C \times SSet \to C
 $$
 
-is a left [[Quillen bifunctor]]. By the properties of Quillenn befunctors discussed there, it follows that the [[coend]]s over the [[copower|tensor]] in the form
+is a left [[Quillen bifunctor]]. By the properties of Quillen bifunctors discussed there, it follows that the [[coend]]s over the [[copower|tensor]] in the form
 
 $$
   \int^D (-) \otimes (-) : [D^{op},SSet]_{proj} \times [D,C]_{inj} \to C
@@ -179,7 +179,7 @@ for the functor that sends everything to the identity on the singleton set. This
 +-- {: .un_theorem }
 ###### Theorem
 
-With the above assumptions and ingredients, the homotopy colimit over $F : D \to S$ is given either by 
+With the above assumptions and ingredients, the homotopy colimit over $F : D \to C$ is given either by 
 
 $$
   hocolim F = \int^D Q_{proj}({*}) \otimes Q_{inj}(F) 
