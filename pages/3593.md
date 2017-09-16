@@ -1,0 +1,3 @@
+An analogue of the microlocalization in operator theory, T. Springer has introduced an algebraic microlocalization in the theory of filtered noncommutative rings. An alterantive way to algebraic microlocalization is given in 
+
+* Maria J. Asensio, Michel Van Den Bergh, Freddy Van Oystaeyen, _A new algebraic approach to microlocalization of filtered rings_, Trans. Amer. Math. Soc. __316__, 2 (Dec. 1989) 537--553 [jstor](http://www.jstor.org/pss/2001360)
