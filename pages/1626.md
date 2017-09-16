@@ -61,4 +61,9 @@ provides a classic example of this happenstance. However, the path components an
 The basic categorical results 1., 2., and 3. above carry over upon replacing "connected" by "path-connected". (As of course does 4., trivially.)
 
 
+[[!redirects connected space]]
 [[!redirects path-connected space]]
+[[!redirects locally connected space]]
+[[!redirects locally path-connected space]]
+[[!redirects totally disconnected space]]
+[[!redirects connected component]]
