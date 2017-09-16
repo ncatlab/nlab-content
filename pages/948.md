@@ -2,7 +2,7 @@ Broadly speaking, __constructive mathematics__ is mathematics done without the p
 
 __Constructivism__ is the philosophy that such mathematics is useful, or (more strongly) that non-constructive mathematics is wrong.
 
-# Origins and schools #
+## Origins and schools ##
 
 During the "[[foundations|foundational]] crisis" in mathematics around the beginning of the 20th century, a number of mathematicians espoused philosophies that are generally grouped together and labeled **constructivist**. The common feature of these philosophies was a rejection of axioms and principles of logic that lead to nonconstructive proofs.  There was much talk at the time about potential vs absolute infinity, but from an axiomatic perspective, it turns out that (if one stops short of finitism) the two main culprits are
 * the [[axiom of choice]] and
@@ -27,7 +27,7 @@ There are, however, differences among constructivists as well.
 Many constructivists (like many classical mathematicians) believe in an absolute mathematical sense of "truth," and that in this sense choice and excluded middle are simply _wrong_. (Some constructivists, using classically false axioms, can even refute them; others merely claim that no possible correct reasoning could ever prove them.  See "Truth versus assertability," below.) To most mathematicians, this makes them seem quite strange.
 
 
-# Topos Theory #
+## Topos Theory ##
 
 With the invention of [[topos|topos theory]] in the second half of the 20th century, a new sort of constructivism arose.  It was observed (by Lawvere and others) that any topos with a [[natural numbers object]] has an [[internal logic]] which is powerful enough to interpret most of mathematics, but that this logic in general fails to satisfy choice and excluded middle.  This meant that even for a mathematican who likes to use choice and excluded middle (and _a fortiori_ for one who believes them to be "true"), there is a reason to care about what can be proven without them, because only if a proof is constructive can it be interpreted in an arbitrary topos with NNO.
 
@@ -37,15 +37,15 @@ By now it is known that many of the non-classical axioms used by the early const
 
 However, there are no non-classical (or classical) axioms beyond "pure constructivism" that are true in _all_ toposes with NNO.  In particular, there is a [[free topos]] with NNO such that a statement is true in the free topos precisely when it is provable in pure (Richman-school) constructive mathematics.  This means that for an argument to apply in all toposes, even mild assumptions such as countable or dependent choice are unacceptable.  However, topos theory has also provided ideas that solve many of the problems with pure constructivism.  For example, a well-behaved notion of "continuous function" can be recovered by using [[locale|locales]] instead of topological spaces.
 
-# Some features of constructive mathematics #
+## Some features of constructive mathematics ##
 
-## Rephrasing of classical ideas ##
+### Rephrasing of classical ideas ###
 
 Sometimes, all that is necessary to make a piece of mathematics constructive is careful use of language.  It is common in classical mathematics to define things with an unnecessary amount of negation.  This doesn't work so well constructively, since a statement can be not false without being true, but we can sometimes do perfectly well by just removing unnecessary [[double negation]]s.
 
 For example, classically one often speaks about "nonempty" sets, meaning a set which "does _not_ have _no_ elements."  Constructively it is much better to say that a set "<i>does</i> have at least one element"; constructivists often call such a set _[[inhabited set|inhabited]]_ or _occupied_ to remind themselves that it is a "positive" notion to replace the negative one of "nonempty". Others continue to use the word "non-empty" but understand it as a term of art that really means "inhabited".
 
-## Bifurcation of notions ##
+### Bifurcation of notions ###
 
 On the other hand, differences in axiomatization or definition that make no difference classically can result in actual differences in behavior in a topos.  Therefore, classically equivalent notions often "bifurcate" (or "trifurcate" or worse) into multiple inequivalent constructive ones.  This tends to happen whenever a concept involves _negation_ and, to a lesser degree, _disjunction_ and _existential quantification_.  In some cases there is a "correct" constructive version of the definition, although it may take some thought to uncover it, but in many cases more than one of the resulting concepts is important and useful.  For example:
 
@@ -59,11 +59,11 @@ On the other hand, differences in axiomatization or definition that make no diff
 
 * Perhaps most disturbingly of all to the classical mathematician, one must distinguish between _finite sets_, _subfinite sets_, _finitely-indexed sets_, and even _subfinitely indexed sets_; see [[finite set]] for definitions.  However, in practice it is usually either finite or finitely-indexed sets that are important, and with practice a little bit of thought suffices to show which is the relevant concept.
 
-## Negative translation ##
+### Negative translation ###
 
 (Say something about how to interpret classical logic in constructive logic.)
 
-## Truth versus assertability ##
+### Truth versus assertability ###
 
 Already in classical mathematics, there is a difference in saying that something is true and saying that something is provable. If you adopt ZFC because you believe it correct, then (assuming that you\'re aware of certain theorems) you believe that ZFC is consistent even though you also know that you cannot prove it so. In that case, you also believe that the continuum hypothesis is either true or false; you may or may not have an opinion on which it is, but in any case again you know that you cannot prove it either way.
 
@@ -86,7 +86,19 @@ Even without this convention, which is peculiar to the Bishop school, it is impo
 The distinction between object language and metalanguage exists even in classical logic, but it seems that most classical mathematicians are not used to remembering it, although it is not entirely clear why this should be so.  One possibly relevant observation is that even if P is a statement which is neither provable nor disprovable (like the continuum hypothesis), in classical mathematics it is still provable that "P is either true or false."  Moreover, classical model theory often restricts itself to two-valued models in which the only truth values are "true" and "false," although classical logic still holds in [[Boolean algebra|Boolean-valued]] models, and in such a case the truth value of P may be neither "true" nor "false," although the truth value of "P or not P" is still "true."  Certainly when talking about classical truths which fail constructively, such as excluded middle, it is important to remember that "fails to be provable" is different from "is provably false."
 
 
-# References #
+## Related entries ##
+
+Concepts that usually only arise in constructive mathematics (usually because they are trivial or trivially equivalent to some other concept in classical mathematics):
+*  ...
+
+Topics relevant to the foundations of constructive mathematics:
+*  ...
+
+Articles which substantial content on how they work in constructive mathematics:
+*  ...
+
+
+## References ##
 
 Errett Bishop (1967). _Foundations of Constructive Analysis_. Rewritten with Douglas Bridges in 1985 as _Constructive Analysis_.
 
@@ -104,7 +116,8 @@ Frank Waaldijk (2003). [on the foundations of constructive mathematics - especia
 
 Most books on [[topos]] theory include some discussion of their [[internal logic|internal]] constructive logic.  One good reference is Part D of _Sketches of an elephant (vol. 2)_ by Peter Johnstone.
 
-# Discussion #
+
+## Discussion ##
 
 This discussion originally took place at [[apartness relation]]:
 
