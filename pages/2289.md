@@ -60,6 +60,8 @@ The central theorem is
 
    1. [[A Survey of Elliptic Cohomology - elliptic curves]]
 
+   1. [[A Survey of Elliptic Cohomology - equivariant cohomology]]
+
 
 1. towards geometric models
 
