@@ -10,6 +10,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-07-24
 
 *  [[Toby Bartels]]:
+   *  Wrote [[differential form]]; also [[diffeomorphism]], [[restriction]], and [[characteristic function]], which I linked thence.
    *  Moved Eric\'s latest changes to the **top** so that they would be seen by Urs (and anybody else who checked this page after Urs added his changes below).
    *  Added a bit to [[decategorification]].
    *  Created [[locally discrete 2-category]].
