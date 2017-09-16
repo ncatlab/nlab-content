@@ -140,12 +140,17 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
   * [[Yoneda lemma]]
 
-  * [[Yoneda embedding]]
+    * [[Yoneda embedding]]
 
   * [[adjoint functor]]
 
-  * [[adjunction]]
+    * [[adjunction]]
 
+* functor and presheaf categories
+
+  * [[simplicial set]]
+
+  * [[presheaf on open subsets]]
 
 #2 Limits#
 
@@ -307,30 +312,53 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 #16 Grothedieck Topologies#
 
-* [[sieve]]
-
-  * [[coverage]]
+* [[coverage]]
 
   * [[Grothendieck topology]]
 
     * [[Lawvere-Tierney topology]]
 
+  * [[sieve]]
+
   * [[local epimorphism]]
+
+  * [[local isomorphism]]
 
   * [[site]]
 
 
 #17 Sheaves on Grothendieck Topologies#
 
-* [[sheaf]]
+* [[category of sheaves]]
+
+  * [[sheaf]]
+
+  * [[sheafification]]
 
 #18 Abelian Sheaves#
 
 #19 Stacks and Twisted Sheaves#
 
+* [[higher category theory]]
+
+  * [[2-category]]
+
+  * [[2-groupoid]]
+
 * [[stack]]
 
-* [[Higher Topos Theory]]
+
+* outloook and further reading
+
+  * [[infinity-stack homotopically]]
+
+    * [[simplicial presheaf]]
+
+    * [[model structure on simplicial presheaves]]
+
+  * [[Higher Topos Theory]]
+
+    * [[(infinity,1)-category of (infinity,1)-sheaves]]
 
 
 category: reference
