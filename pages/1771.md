@@ -130,3 +130,7 @@ $$
 in $SmoothSpaces^{\Delta^{op}}$, which, do to the [[nerve]] being [[right adjoint]] is the same as the image under the nerve of the corresponding [[pullback]] in sheaves of [[groupoid]]s (so that still our notational suppressing of $N$ is justified).
 
 etc. 
+
+[[!redirects smooth infinity-stacks]]
+[[!redirects smooth ∞-stack]]
+[[!redirects smooth ∞-stacks]]
