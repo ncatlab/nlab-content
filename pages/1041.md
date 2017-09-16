@@ -15,6 +15,8 @@ the cokernel iso iso as required.
 However, if you assume explicitly that that comparison map is always an isomorphism, then I believe it for the reasons that you gave.
 
 [[Zoran Skoda]] I do not see this as a counterexample, as this is not a pre-abelian category, you do not have cokernels in this category ? In a pre-abelian category always the canonical map from coker ker to ker coker has its own kernel 0 and cokernel 0.
+
+[[Mike Shulman|Mike]]: Torsion-free abelian groups are reflective in abelian groups, and therefore cocomplete.  In particular, they have cokernels, although those cokernels are not computed as in [[Ab]].  In particular, the cokernel of $2:\mathbb{Z}\to\mathbb{Z}$ is 0.
 =--
 
 Equivalently, an abelian category is a category enriched over the category [[Ab]] of abelian groups, with a [[zero object|null object]], binary [[biproduct]]s, kernels, cokernels and such that
