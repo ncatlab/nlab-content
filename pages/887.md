@@ -9,4 +9,6 @@ I\'m not aware of any standard name for this property, even in the constructive 
 The alternative is 'tight relation'.  I\'ve never seen that used (in mathematics) except in reference to an [[apartness relation]].  One could therefore argue that the symmetrised form here has never appeared in the literature; since an apartness relation is symmetric, you only have to list one of the conjuncts in the hypothesis (and people always list the left one, since that looks most natural).
 
 Perhaps this is such an unimportant concept that it doesn\'t matter, but I wonder if there are any opinions?
+
+_Mike_: I think it is so unimportant that it doesn't matter.  (-:  I would actually prefer to avoid calling it anything, especially something that has other meanings and  could create needless confusion.
 =--
