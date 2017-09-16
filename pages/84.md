@@ -4,3 +4,4 @@ Then ponder the puzzle of [Light Mills](http://golem.ph.utexas.edu/category/2008
 
 
 [[!redirects Light Mills]]
+[[!redirects Light mill]]
