@@ -9,4 +9,4 @@ $$
 
 For $c \in \Gamma^\bullet(X)$ a cocycle representing a gauge field in [[gauge theory]], its image $F(c) \in \Omega^\bullet(X)$ is the **field strength** of the gauge field.
 
-Often gauge fields are _named_ after their field strength. For instance the field strength of the [[electromagnetic field]] is the 2-form $F \in \Omega^2(X)$ whose components are the electric and the magnetic field.
+Often gauge fields are _named_ after their field strength. For instance the field strength of the [[electromagnetic field]] is the $2$-form $F \in \Omega^2(X)$ whose components are the electric and the magnetic fields.
