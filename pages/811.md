@@ -2,7 +2,7 @@
 
 An **$n$-fibration** is the version of a [[Grothendieck fibration]] appropriate for $n$-[[n-category|categories]].
 
-The idea is that a functor $p:E\to B$ between $n$-categories an $n$-fibration if the assignation $x\mapsto E_x = p^{-1}(x)$ of an object $x\in B$ to its fiber can be made into a (contravariant) functor from $B$ to the $(n+1)$-category $n Cat$.
+The idea is that a functor $p:E\to B$ between $n$-categories is an $n$-fibration if the assignation $x\mapsto E_x = p^{-1}(x)$ of an object $x\in B$ to its fiber can be made into a (contravariant) functor from $B$ to the $(n+1)$-category $n Cat$.
 
 
 # Definition #
