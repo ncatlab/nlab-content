@@ -54,6 +54,9 @@ Here on the right $Ho_{Top}$ and $Ho_{\infty Grpd}$ denotes the [[homotopy categ
 
 Notice that for $G$ a nonabelian group, $H^1(X,G)$ is a simple (and the most familiar) example of [[nonabelian cohomology]]. Nonabelian cohomology in higher degrees is obtained by replacing here the coefficient $\infty$-groupoids of the simple for $\mathbf{B}^n A$ with more general $\infty$-groupoids.
 
+#Generalizations#
+
+The notion of [[Eilenberg-MacLane object]] makes sense in every [[(infinity,1)-topos]] other than [[Top]].
 
 [[!redirects Eilenberg-Mac Lane space]]
 [[!redirects Eilenberg--MacLane space]]
