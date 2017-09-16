@@ -136,15 +136,45 @@ $$
 
 
 
-## Relation to descent
+## Descent in terms of coring comodules
 
-The category of [[descent]] data $\mathrm{Desc}(S/R)$ for the categories of right modules along $k$-algebra extension $R\to S$ can be expressed solely in terms of the canonical coring $(C,\Delta,\epsilon)$ as the category of right $C$-[[comodule]]s.
+Given a morphism $f : R \to S$ with corresponding Sweedler coring $(C = S \otimes_R S,\Delta,\epsilon)$ as above, the category of [[descent]] data $\mathrm{Desc}(S/R)$ for the categories of right modules along $k$-algebra extension $R\to S$  is precisely the category of right $C$-[[comodule]]s.
 
 In other words, the objects of $\mathrm{Desc}(S/R)$ are the pairs $(N,\alpha)$ where $N$ is a right $S$-[[module]], and $\alpha: N\to N\otimes_R S$ is a right $S$-module morphism and if we write $\alpha(m) = \sum_i m_i \otimes s_i$ then
 
 * $\sum_i \alpha(m_i)\otimes s_i = \sum_i m_i\otimes 1\otimes s_i$,
 
 * $\sum_i m_i s_i = m$.
+
+
+### In terms of (co)monadic descent
+
+This [[coring]]-formulation of [[descent]] may be understood as special case of co[[monadic descent]] (see also the discussion at [[Bénabou–Roubaud theorem]]). We spell this out in detail:
+
+the [[bifibration]] in question is 
+
+$$
+  p : Mod \to Rings
+$$
+
+that sends an object in the category of modules to the ring that it is a module over.
+
+a descent datum for a morphism $f : R \to S$ with respect to this bifibration is a (co)algebra object over the co[[monad]] $f_* f^*$ induced by this morphism. We have that
+
+* the morphism $f_*$ sends an $R$-module $N$ to the $S$-module $N \otimes_R S$;
+
+* the morphism $f^*$ sends an $S$-module $P$ to the $R$-module $P \otimes_S S_R$, where $S_R$ is $S$ regarded as a left $S$- and a right $R$-module. So $P \otimes_S S_R$ is just the $S$-module $P$ with only the right $R$-action remembered.
+
+Accordingly, the comonad $f_* f^*$ sends an $S$-module $P$ to the $S$-module $P \otimes_S S \otimes_R S = P \otimes_S C$.
+
+A (co)algebra object for this comad is hence a co-action morphism 
+
+$$
+  P \to P \otimes_S C
+$$
+
+compatible with the monad action. This is precisely a comodule over the Sweedler coring, as defined above.
+
 
 
 ### Geometric interpretation {#GeomInterpretationOfDescent}
@@ -285,9 +315,6 @@ obtained this way is the co-action morphism from the above algebraic definition.
 The further cocycle condition on $g$ similarly translates into the condition that $\alpha$ really satisfies the [[comodule]] property.
 
 
-### Relation to monadic descent
-
-This [[coring]]-formulation of [[descent]] may be understood as special case of [[monadic descent]]. See also the discussion at [[Bénabou–Roubaud theorem]].
 
 ## Relation to ring extensions
 
