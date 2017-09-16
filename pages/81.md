@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include physicscontents]]
+</div>
 
 
 #Higher category theory in physics#
