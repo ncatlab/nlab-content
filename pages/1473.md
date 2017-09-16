@@ -27,6 +27,8 @@ One method of proof uses [[ultrafilter]] convergence. Let $\langle X_\alpha \ran
 [[Todd Trimble|Todd]]: Yes, although I'm not too fussed about using indirect arguments, since in a topos, excluded middle follows from AC. I don't know whether it also follows from a weaker choice principle equivalent to the ultrafilter theorem, but I guess I wouldn't be surprised if it did. 
 
 _Toby_:  As far as I know, UF and EM are independent (although I\'m not certain).  So I\'m interested in whether the Hausdorff case requires EM as well as UF.
+
+_Todd_: I wrote John Bell about this, and he kindly responded. Apparently you are right: UF (or BPIT) implies only a weakened version of EM: $\neg x \vee \neg\neg x = 1$. He referred me to his paper <a href="http://publish.uwo.ca/~jbell/BOOLCON.pdf">Boolean Algebras and Distributive Lattices Treated Constructively</a>, for this (among much else). 
 =--
 
 ## Proof of converses
