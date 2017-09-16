@@ -14,6 +14,8 @@
 
 * [Affine Mess] (http://affinemess.com) 
 
+* [Alasdair's Musings] (http://amca01.wordpress.com) Mainly (but not entirely) mathematics education and computer algebra systems.
+
 * [A Mind for Madness](http://hilbertthm90.wordpress.com)
 
 * [A Portion of the Book](http://mzargar.wordpress.com)
