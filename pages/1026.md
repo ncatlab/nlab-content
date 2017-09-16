@@ -9,6 +9,8 @@ $$
 
 (... say more ...)
 
+The [[adjoint functor theorem]] states that any continuous functor between [[complete category|complete]] categories has a [[adjoint functor|left adjoint]] if it satisfies a certain 'small solution set' criterion.
+
 #Examples#
 
 * The archetypical example is the [[Set]]-valued [[hom-functor]]: its continuity in both arguments is indeed equivalent to the very definition of [[limit]]: for 
@@ -24,4 +26,8 @@ $$
 
 1. Topologists sometimes use "continuous functor" to mean a functor [[enriched category|enriched]] over [[Top]], since a functor between topologically enriched categories is enriched iff its actions on hom-spaces are continuous functions.
 
-2. H. Bass in his treatment of K-theory (and more recently A. Rosenberg and some others) use "continuous functor" in the sense "additive functor having right adjoint". 
+2. H. Bass in his treatment of K-theory (and more recently A. Rosenberg and some others) use "continuous functor" in the sense "[[additive category|additive]] functor having right adjoint". 
+
++--{.query}
+Left I could understand, but right?  ---Toby
+=--
