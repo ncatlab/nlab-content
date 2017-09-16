@@ -32,6 +32,9 @@ Returning to the general situation, if $f^*$ and $h^*$ have *right* adjoints $f_
 
 * If $C$ is a [[regular category]] (such as a [[topos]]), the bifibration $Sub(C) \to C$ of [[subobjects]] satisfies the Beck-Chevalley condition at every pullback square.
 
+# References
+
+* See Mac Lane and Moerdijk, section IV.9 (page 205).
 
 [[!redirects Beck-Chevalley_Condition]]
 [[!redirects Beck-Chevalley Condition]]
