@@ -30,7 +30,7 @@ This functor $cod : [I,C] \to C$ is called the **codomain fibration** of $C$.
 
 Some say **basic fibration** or **self-indexing** or the **fundamental fibration** --- anything with so many names must be important! 
 
-If instead of the codomain the domain is used, one obtains the dual notion: [[domain cofibration]]. 
+If instead of the codomain the domain is used, one obtains the dual notion: [[domain opfibration]].
 
 ## Details
 
@@ -246,7 +246,7 @@ $$
 
 ### Direct image operation
 
-Recall that in an  [[Grothendieck fibration|opfibration]] $p : E\to B$ , the _direct image_ $f_!$ of an object $e \in E$ along a morphism $p(e) \to d$ is the codomain $f_!(e)$ of [[generalized the|the]] cartesian lift $\hat f : e \to f_! e$ of $f$.
+Recall that in an  [[Grothendieck fibration|opfibration]] $p : E\to B$ , the _direct image_ $f_!$ of an object $e \in E$ along a morphism $p(e) \to d$ is the codomain $f_!(e)$ of [[generalized the|the]] opcartesian lift $\hat f : e \to f_! e$ of $f$.
 
 By the above discussion this means that in the codomain opfibration $cod : [I,C] \to C$ the direct image of an object $\hat c_1 \to c_1$ in $[I,C]$ along some morphism $f : c_1 \to c_2$ is the composite morphism $\hat c_1 \to c_1 \to c_2$ in $C$, regarded as an object in $[I,C]$: this yields the functor
 
@@ -351,3 +351,6 @@ Since the codomain fibration $cod : [I,C] \to C$ is a [[bifibration]] when $C$ h
 
 A categorification in dimension 2 is a codomain 2-fibration, whose main example is $Cat^2$ over $Cat$.
 
++--{: .query}
+[[Mike Shulman]]: I still don't believe that that is a 2-fibration.  How do you lift the 2-cells?
+=--
