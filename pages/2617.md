@@ -10,7 +10,14 @@ $$Q(\sum_{1 \leq i \leq n} x_i e_i) = x_1^2 + \ldots + x_p^2 - x_{p+1}^2 - \ldot
 
 where the pair $(p, n-p)$ is called the **signature** of the form $Q$. Pseudo-Riemannian metrics on $\mathbb{R}^n$ are classified by their signatures; thus we have a standard metric of signature $(p, n-p)$ where $\{e_1, \ldots, e_n\}$ is the standard basis of $\mathbb{R}^n$. 
 
-More generally, there is a notion of **pseudo-Riemannian manifold** (of type $(p, n-p)$, which is an $n$-dimensional [[manifold]] that has an atlas whose transition functions respect the standard metric of type $(p, n-p)$. Certain theorems of Riemannian geometry carry over to the more general pseudo-Riemannian setting; for example, pseudo-Riemannian manifolds admit [[Levi-Civita connection]]s, or in other words a unique notion of covariant differentiation 
+More generally, there is a notion of **pseudo-Riemannian manifold** (of type $(p, n-p)$, which is an $n$-dimensional [[manifold]] $M$ equipped with a global section 
+
+$$\sigma: M \to S^2(T^* M)$$ 
+
+of the bundle of symmetric bilinear forms over $M$, such that each $\sigma(x)$ is a nondegenerate form on the 
+tangent space $T_x(M)$. 
+
+Certain theorems of Riemannian geometry carry over to the more general pseudo-Riemannian setting; for example, pseudo-Riemannian manifolds admit [[Levi-Civita connection]]s, or in other words a unique notion of covariant differentiation 
 of vector fields 
 
 $$\nabla: (X, Y) \mapsto \nabla_X(Y)$$ 
