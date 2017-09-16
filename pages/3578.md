@@ -22,8 +22,9 @@ rspectively.
 
 ## Definition
 
-A [[morphism]] of [[simplicial set]]s $f : X \to S$ is a **left fibration** or **left Kan fibration** if it has the [[right lifting property]] with respect to all [[horn]] inclusions except the right outer ones. It is a **right fibration** or **right Kan fibration** if its extends against all horns except the left outer ones.
+A [[morphism]] of [[simplicial set]]s $f : X \to S$ is a **left fibration** or **left Kan fibration** if it has the [[right lifting property]] with respect to all [[horn]] inclusions $\Lambda[n]_i \to \Delta[n]$ except the right outer ones: $0 \leq i \lt n$. It is a **right fibration** or **right Kan fibration** if its extends against all horns except the left outer ones: $0 \lt i \leq n$.
 
+So $X \to S$ is a left fibration precisely if for all commuting squares
 
 $$
   \array{
@@ -33,8 +34,9 @@ $$
     \\
     \Delta[n] &\to& S
   } 
-  \,.
 $$
+
+for $n \in \mathbb{N}$ and $0 \leq i \lt n$, a diagonal lift exists as indicated.
 
 Morphisms with the [[left lifting property]] against all left/right fibrations are called **left/right anodyne** maps.
 
@@ -44,7 +46,7 @@ $$
   RFib(S) \subset sSet/S
 $$
 
-for the full [[SSet]]-[[subcategory]] of the [[overcategory]] of [[SSet]] over $S$ on those morphisms that are right fibrations.
+for the full [[SSet]]-[[subcategory]] of the [[overcategory]] of [[sSet]] over $S$ on those morphisms that are right fibrations.
 
 This is a [[Kan complex]]-enriched category and as such an incarnation of the **[[(∞,1)-category]] of right fibrations**. 
 It is modeled by the [[model structure for left fibrations|model structure for right fibrations]]. For details on this see the discussion at [[(∞,1)-Grothendieck construction]].
@@ -52,14 +54,14 @@ It is modeled by the [[model structure for left fibrations|model structure for r
 
 ## Motivation: ordinary fibrations in groupoids are left fibrations
 
-Fibrations in groupoids have a simple characterization in terms of their [[nerve]]s. Let $N : Cat \to sSet$ be the [[nerve]] functor and for $p : E \to B$ a morphism in [[Cat]], let $N(p) : N(E) \to B(N)$ be the corresponding morphism in [[sSet]].
+Ordinary [[fibration fibered in groupoids|categories fibered in groupoids]] have a simple characterization in terms of their [[nerve]]s. Let $N : Cat \to sSet$ be the [[nerve]] functor and for $p : E \to B$ a morphism in [[Cat]] (a [[functor]]), let $N(p) : N(E) \to B(N)$ be the corresponding morphism in [[sSet]].
 
 Then
 
 +-- {: .un_prop }
 ###### Proposition
 
-The functor $p : E \to B$ is an  op-fibration in groupoids precisely if the morphism $N(p) : N(E) \to N(B)$ is a [[left Kan fibration]] of simplicial sets, i.e. precisely if for all [[horn]] inclusion 
+The functor $p : E \to B$ is an  [[fibration fibered in groupoids|op-fibration in groupoids]] precisely if the morphism $N(p) : N(E) \to N(B)$ is a left Kan fibration of simplicial sets, i.e. precisely if for all [[horn]] inclusion 
 
 $$
   \Lambda[n]_i \hookrightarrow \Delta[n]
@@ -93,14 +95,63 @@ $$
 
 =--
 
-+-- {: .proof}
-###### Proof
+To prove this, first notice the following lemmas
 
-For instance [[Higher Topos Theory|HTT, prop. 2.1.1.3]].
++-- {: .un_lemma }
+###### Lemma 1
+
+For $C$ a [[category]], the [[nerve]] $N(C)$ has _unique_ fillers for all horns $\Lambda[n]_i \to N(C)$ with $n \gt 3$.
 
 =--
 
 
++-- {: .un_lemma }
+###### Lemma 2
+
+If $p : E \to B$ is an ordinary [[functor]], then $N(f) : N(E) \to N(B)$ is an [[inner fibration]], meaning that its has the [[right lifting property]] with respect to all _inner_ horn inclusions $\Lambda[n]_i \hookrightarrow \Delta[n]$ for $0 \lt i \lt n$.
+
+=--
+
++-- {: .proof}
+###### Proof of lemma 2
+
+This is discussed at [[inner fibration]].
+
+=--
+
++-- {: .proof}
+###### Proof of the proposition
+
+This is  [[Higher Topos Theory|HTT, prop. 2.1.1.3]].
+
+From the above lemmas it follows that $N(p) : N(E) \to N(B)$ is a left fibration already precisely if it has the right lifting property with respect to only the three horn inclusions $\{\Lambda[n]_0 \hookrightarrow \Delta[n]|n = 1,2,3\}$. These are the only three filling conditions that are not already satisfied on general grounds.
+
+We now check explicitly what these three conditions are
+
+
+* -- $n=1$ -- The existence of all fillers
+
+  $$
+    \array{
+      \Delta^{\{0\}} &\stackrel{e}{\to}& N(E)
+      \\
+      \downarrow & {}^{{\hat f}}\nearrow  & \downarrow^{\mathrlap{N(p)}}
+      \\
+      \Delta^{\{0 \to 1\}} &\stackrel{f}{\to}& N(B)
+    }
+  $$
+
+  means that for all objects $e \in E$ and morphism $f : p(e) \to b$ in $B$, there exists a morphism $\hat f : e \to \hat b$ in $E$ such that $p(\hat f) = f$.
+
+* -- $n=2$ -- ...
+  
+
+* -- $n=3$ -- ...
+
+
+=--
+
+-
 
 ## Properties
 
