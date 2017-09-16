@@ -4,13 +4,14 @@
 Fix an integer $n \geq 0$ and a field, $K$. All vector spaces will be tacitly assumed to be finite dimensional.  In general $K$ can be replaced by a commutative ring merely by replacing finite dimensional vector spaces by projective $K$-modules of finite type, but we will not do this here.
 
 ###A Bit of History###
-HQFTs were introduced in 1999 by [[Vladimir Turaev]] for 2-dimensional manifolds.  He extended them to 3-dimensional ones the following year. At about the same time, Brightwell and Turner (1999) looked at what they called the homotopy surface category and its representations. There are two viewpoints which interact and complement each other. Turaev's seems to be to see HQFTs as an extension of the tool kit for studying manifolds given by TQFTs, whilst in Brightwell and Turner's,  it is the 'background space', which is probed by the surfaces.
+
+HQFTs were introduced in 1999 by [[Vladimir Turaev]] for 2-dimensional [manifold]]s.  He extended them to 3-dimensional ones the following year. At about the same time, Brightwell and Turner (1999) looked at what they called the [[homotopy]] surface category and its [[representation]]s. There are two viewpoints which interact and complement each other. Turaev's seems to be to see HQFTs as an extension of the tool kit for studying [[manifold]]s given by [[TQFT]]s, whilst in Brightwell and Turner's,  it is the 'background space', which is probed by the surfaces in the sense of [[sigma-model]]s.
 
 ###Idea###
-The idea of Turaev was to extend the basic ideas of [[TQFTs]] from $n$-dimensional manifolds and cobordisms between them, to manifolds with a simple bit of extra structure given by a continuous map to a 'background' space, $B$.
+The idea of Turaev was to extend the basic ideas of [[TQFTs]] from $n$-dimensional manifolds and [[cobordism]]s between them, to manifolds with a simple bit of [[stuff, structure, property|extra structure]] given by a continuous map to a [[sigma-model|background space]], $B$.
 
-The category of $B$-manifolds and $B$-cobordisms}
-The basic objects on which an $(n+1)$-homotopy quantum field theory is built are compact, oriented $n$-manifolds together with  maps to the 'background' space, $B$.  This space $B$ will  be path connected with a fixed base point, $\ast$.  More precisely:
+The [[category]] of $B$-[[manifold]]s and $B$-[[cobordism]]s}
+The basic objects on which an $(n+1)$-homotopy quantum field theory is built are [[compact space|compact]], oriented $n$-manifolds together with  maps to the 'background' space, $B$.  This space $B$ will  be path connected with a fixed base point, $\ast$.  More precisely:
 
 
 
@@ -34,7 +35,7 @@ These $B$-manifolds are the objects of interest, but they have to be related by 
 A **$B$-cobordism**, $(W,F)$, from $(X_0,g)$ to $(X_1,h)$ is a [[cobordism]] $W : X_0 \to X_1$ endowed with a homotopy class of maps $F : W \to X$ relative to the boundary such that $F|_{X_0} = 
 g$ and $F|_{X_1} = h$. 
 
-Generally unless necessary in this entry, we will not make a notational distinction between the homotopy class $F$ and any of its representatives.  Finally a **$B$-isomorphism of $B$-cobordisms**, $\psi : (W,F) \to (W^\prime, F^\prime)$, is an isomorphism $\psi : W \to W^\prime$ such that 
+Generally unless necessary in this entry, we will not make a notational distinction between the [[homotopy]] class $F$ and any of its representatives.  Finally a **$B$-isomorphism of $B$-cobordisms**, $\psi : (W,F) \to (W^\prime, F^\prime)$, is an isomorphism $\psi : W \to W^\prime$ such that 
 
 $$\psi (\partial_+W) = \partial_+W^\prime, \quad \psi (\partial_-W) = \partial_-W^\prime,$$
 
@@ -42,12 +43,12 @@ and $F^\prime \psi = F$, in the obvious sense of homotopy classes relative to th
 
 We can glue $B$-cobordisms along their boundaries, or more generally, along a $B$-isomorphism between their boundaries, in the usual way.
 
-The detailed structure of $B$-cobordisms and the resulting category $\mathbf{HCobord}(n,B)$ is given in the Appendix to the paper by Rodriques, (see references), at least in the important case of differentiable $B$-manifolds.  This category is a [[monoidal category]] with strict duals.
+The detailed structure of $B$-[[cobordism]]s and the resulting category $\mathbf{HCobord}(n,B)$ is given in the Appendix to the paper by Rodriques, (see references), at least in the important case of differentiable $B$-manifolds.  This category is a [[monoidal category]] with strict duals.
 
 ##Homotopy Quantum Field Theories##
 
 ##Definition (Categorical form)##
-A **homotopy quantum field theory** is  a [[symmetric monoidal functor]] from $\mathbf{HCobord}(n,B)$  to the category, $Vect$, of finite dimensional vector spaces over the field $K$. 
+A **homotopy quantum field theory** is  a [[symmetric monoidal functor]] from $\mathbf{HCobord}(n,B)$  to the category, [[Vect]] , of finite dimensional vector spaces over the [[field]] $K$. 
 
 However let us also give here a more basic definition of a homotopy quantum field theory.
 
