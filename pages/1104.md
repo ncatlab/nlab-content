@@ -1,6 +1,6 @@
 #Idea#
 
-A [[Lawvere-Tierney topology]] on a [[topos]] defines naturally a certain closure operation on [[subobject]]s. A subobject inlcusion is called a _dense monomorphism_ if its closure is an isomorphism.  In other words, a _dense subobject_ of an object $B$ is a subobject whose closure is all of $B$.
+A [[Lawvere-Tierney topology]] on a [[topos]] defines naturally a certain closure operation on [[subobjects]]. A subobject inlcusion is called a _dense monomorphism_ if its closure is an isomorphism.  In other words, a _dense subobject_ of an object $B$ is a subobject whose closure is all of $B$.
 
 
 
@@ -29,11 +29,11 @@ In this case there is the notion of [[local epimorphism]] and [[local isomorphis
 
 We have in this case:
 
-the dense monomorphisms in $PSh(S)$ are precisely the [[local isomorphism]]s that are at the same time ordinary [[monomorphism]]s.
+the dense monomorphisms in $PSh(S)$ are precisely the [[local isomorphisms]] that are at the same time ordinary [[monomorphisms]].
 
 ##  Relation to sheafification ##
 
-A [[presheaf]] $F \in PSh(S)$ is a [[sheaf]] with respect to the given topology if $Hom_{PSh(S)}(-, F)$ sends all dense monomorphisms to [[isomorphism]]s.
+A [[presheaf]] $F \in PSh(S)$ is a [[sheaf]] with respect to the given topology if $Hom_{PSh(S)}(-, F)$ sends all dense monomorphisms to [[isomorphisms]].
 
 
 Since Lawvere-Tierney topologies make sense for every [[topos]] (not necessarily a [[presheaf]]  [[Grothendieck topos]]) this provides a general notion of [[Lawvere-Tierney topology|sheafification in a Lawvere-Tierney topology]].
