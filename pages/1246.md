@@ -1,3 +1,3 @@
 See [[idempotent]].
 
-category: redirect
+category: delete
