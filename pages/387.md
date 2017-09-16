@@ -1,5 +1,7 @@
 <div class="rightHandSide toc">
 [[!include category theory - contents]]
+***
+[[!include homotopy - contents]]
 </div>
 
 
