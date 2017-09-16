@@ -13,7 +13,7 @@ For $C$ and $D$ $V$-enriched categories, there is a $V$-[[enriched category]] de
 
 * objects are the $V$-functors $F : C \to D$
 
-* hom-objects $[C,D](F,G)$ between $V$-functors $F, G$ are given by the $V$-enriched [[end]]
+* [[hom-objects]] $[C,D](F,G)$ between $V$-functors $F, G$ are given by the $V$-enriched [[end]]
 $$
   [C,D](F,G) := \int_{c \in C} D(F(c), G(c))
 $$
