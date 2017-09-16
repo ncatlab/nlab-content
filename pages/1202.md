@@ -20,6 +20,8 @@ Ironically, in [[constructive mathematics]], the well-ordering principle is actu
 At least, as far as I can tell it doesn\'t.  I\'ve never actually seen a metamathematical result proving this, however.
 
 [[Mike Shulman|Mike]]: If "well-order" is interpreted in the classical sense "every nonempty set has a least element," then I believe it does imply full choice.  I don't know what happens if "well-order" is interpreted in the constructively reasonable sense.   I know that Zorn's lemma, even in the classical version, can be true in a non-Boolean topos, although it is not particularly useful without excluded middle.
+
+_Toby_:  That\'s correct; any well-ordered set, even in the slightly weaker sense that every *inhabited* subset has a least element, must be a choice set (as you remarked at [[choice object]]).  One of us should add a note about that to this article.
 =--
 
 # Consequences #
