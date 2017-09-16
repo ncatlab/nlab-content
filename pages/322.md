@@ -174,6 +174,8 @@ that takes a set $S$ to the $S$-fold coproduct $S \cdot I$, where $I$ is the mon
 
 > this list of examples should eventually be collected in a table of cotents on operad theory
 
+* [[associative operad]]
+
 * [[endomorphism operad]]
 
 * [[E-k operad]]
