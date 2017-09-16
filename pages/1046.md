@@ -1,9 +1,9 @@
 [[!redirects ∞Grpd]]
 
 
-The [[(infinity,1)-category]] $\infty Grpd$ has as objects [[infinity-groupoid]]s, i.e. [[(infinity,0)-category|(infinity,0)-categories]].
-
-
-
+The [[(∞,1)-category]] $\infty Grpd$ has as objects [[∞-groupoids]], i.e. [[(∞,0)-categories]].
 
 category: category
+
+[[!redirects ∞Grpd]]
+
