@@ -1,4 +1,4 @@
-Given [[object|objects]] $x$ and $y$ in a [[locally small category]], the __hom-set__ $hom(x,y)$ is the collection of all morphisms from $x$ to $y$.  
+Given [[object|objects]] $x$ and $y$ in a [[locally small category]], the __hom-set__ $hom(x,y)$ is the collection of all morphisms from $x$ to $y$.  In a [[closed category]], the hom-set may also be called the __external hom__ to distinguish it from the [[internal hom]].
 
 # Remarks #
 
@@ -27,3 +27,4 @@ In particular, in a category with a [[terminal object|terminal]] [[generator]] $
 [[!redirects homsets]]
 [[!redirects homset]]
 [[!redirects hom-sets]]
+[[!redirects external hom]]
