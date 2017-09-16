@@ -373,3 +373,8 @@ Lots of literature on [[modular form]]s is collected at.
 In its currently underdeveloped state, a canonmical reference for aspects of the theory of [[derived algebraic geometry]] over [[E-infinity ring]]s has become the set of slides
 
 * [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]
+
+Now this article has appeared
+
+* [[Paul Goerss]], _Topological modular forms (aftern Hopkins, Miller, and Lurie)_ ([arXiv](http://arxiv.org/abs/0910.5130))
+
