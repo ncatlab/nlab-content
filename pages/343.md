@@ -1,25 +1,30 @@
 A __cartesian monoidal category__ is a [[monoidal category]] whose monoidal structure is given by the category-theoretic [[product]] (and so whose unit is a [[terminal object]]).  Any category with finite products can be considered as a cartesian monoidal category (as long as we have either (1) a specified product for each pair of objects, (2) a global [[axiom of choice]], or (3) we allow the monoidal product to be an [[anafunctor]]).  Note that the term __cartesian category__ usually means a category with finite products but can also mean a [[finitely complete category]].
 
-Cartesian monoidal categories have a number of special and important properties, such as the existence of a diagonal maps $A \to A\otimes A$ and augmentations $A\to I$ for any object $A$.  These maps make any object into a [[comonoid]] in a unique way.  Moreover, one can show that any monoidal category equipped with suitably well-behaved diagonals and augmentations _must_ in fact be cartesian monoidal.
+Cartesian monoidal categories have a number of special and important properties, such as the existence of diagonal maps $\Delta_x : x \to x\otimes x$ and augmentations $e_x: x \to I$ for any object $x$.  In applications to computer science we can think of $\Delta$ as 'duplicating data' and $e$ as 'deleting' data.  These maps make any object into a [[comonoid]].  In fact, any object in a cartesian monoidal category becomes a comonoid in a unique way.  
 
-More precisely, we may define a monoidal category $C$ to be [[semicartesian monoidal category]] if the unit for the tensor product is the [[terminal object]], say $1$.   If this is true, any tensor product of objects $x \otimes y$ comes equipped with morphisms to $x$ and $y$, given by
-$$ x \otimes y \stackrel{1 \otimes !}{\to} x \otimes 1 \stackrel{r_x}{\to} x $$
+Moreover, one can show that any monoidal category equipped with suitably well-behaved diagonals and augmentations _must_ in fact be cartesian monoidal.   More precisely: suppose $C$ is a monoidal category equipped with monoidal natural transformations
+$$           \Delta_x : x \to x \otimes x $$
 and
-$$ x \otimes y \stackrel{! \otimes 1}{\to} 1 \otimes y \stackrel{\ell_y}{\to} y $$
-where $!$ is the unique morphism to the terminal object and $r$, $\ell$ are the right and left unitors.  We can thus ask whether these morphisms 
-$$ x \otimes y  \to x $$
-$$  x \otimes y \to y$$
-satisfy the universal property of a [[product]].  If so, it is a theorem, perhaps due to Eilenberg and Kelly, that $C$ is a cartesian monoidal category.  (This theorem is probably in Eilenberg and Kelly's paper on closed categories, but they may not have been the first to note it.)
+$$             e_x : x \to I   $$
+such that the following composites are identity morphisms:
+$$       x \stackrel{\Delta_x}{\longrightarrow} x \otimes x 
+\stackrel{e_x \otimes 1}{\longrightarrow} I \otimes x 
+\stackrel{\ell_x}{\longrightarrow} x $$
+$$       x \stackrel{\Delta_x}{\longrightarrow} x \otimes x 
+\stackrel{1 \otimes e_x}{\longrightarrow} x \otimes I 
+\stackrel{r_x}{\longrightarrow} x $$
+where $r$, $\ell$ are the right and left unitors.   Then $C$ is cartesian.  
 
-Some examples of semicartesian monoidal categories that are not cartesian include:
+Heuristically: a monoidal category is cartesian if we can duplicate and delete data, and 'duplicating a piece of data and then deleting one copy is the same as not doing anything'.
 
-* the category of Poisson manifolds with the usual product of Poisson manifolds as its tensor product, 
-
-* the opposite of the category of associative algebras over a field $k$ with its usual tensor product $A \otimes B$, 
-
-* the category of affine spaces made into a monoidal category where the corresponding internal hom has $hom(x,y)$ being the set of affine maps from $x$ to $y$, made into an affine space via pointwise operations,
-
-* the category of convex sets, made into a monoidal category in a way analogous to the affine space example above.
+A related theorem describes cartesian monoidal categories as monoidal categories satisfying two properties involving the unit object.  First, we say a monoidal category $C$ is [[semicartesian monoidal category|semicartesian]] if the unit for the tensor product is [[terminal object|terminal]].   If this is true, any tensor product of objects $x \otimes y$ comes equipped with morphisms 
+$$ p_x : x \otimes y  \to x $$
+$$ p_y : x \otimes y \to y$$
+given by
+$$ x \otimes y \stackrel{1 \otimes e_y}{\longrightarrow} x \otimes I \stackrel{r_x}{\longrightarrow} x $$
+and
+$$ x \otimes y \stackrel{e_x \otimes 1}{\longrightarrow} I \otimes y \stackrel{\ell_y}{\longrightarrow} y $$
+respectively, where $e$ stands for the unique morphism to the terminal object and $r$, $\ell$ are the right and left unitors.  We can thus ask whether $p_x$ and $p_y$ make $x \otimes y$ into the [[product]] of $x$ and $y$.  If so, it is a theorem that $C$ is a cartesian monoidal category.  (This theorem is probably in Eilenberg and Kelly's paper on closed categories, but they may not have been the first to note it.)
 
 A cartesian monoidal category which is also [[closed monoidal category|closed]] is called a [[cartesian closed category]].
 
