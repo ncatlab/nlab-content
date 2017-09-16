@@ -5,10 +5,10 @@ A _total order_ on a set is a way of ordering its elements to say that some elem
 # Definition #
 
 Given a [[set]] $S$, a __total order__ on $S$ is a (binary) [[relation]] $\leq$ with the following properties:
-* reflexivity: for any element $x$ of $S$, $x \leq x$;
-* transitivity: whenever $x \leq y \leq z$, then $x \leq z$;
-* antisymmetry: whenever $x \leq y \leq x$, then $x = y$;
-* totality: for any $x$ and $y$ in $S$, $x \leq y$ or $y \leq x$.
+* [[reflexive relation|reflexivity]]: for any element $x$ of $S$, $x \leq x$;
+* [[transitive relation|transitivity]]: whenever $x \leq y \leq z$, then $x \leq z$;
+* [[antisymmetric relation|antisymmetry]]: whenever $x \leq y \leq x$, then $x = y$;
+* [[total relation|totality]]: for any $x$ and $y$ in $S$, $x \leq y$ or $y \leq x$.
 
 A __[[toset]]__ is a set equipped with a partial order.
 
