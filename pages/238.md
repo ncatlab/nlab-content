@@ -14,6 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-09
 
+* [[Mike Shulman|Mike]]:
+  * Replied at [[internal logic]].
+  * Merged the discussion at [[directed set]] into the entry and removed the discussion.  Writing [[locally presentable category]] and [[accessible category]] is on my to-do list, if no one beats me to it.
+  * Raised an objection at [[entire relation]].
+
 * [[Toby Bartels]]:
   * Wrote [[entire relation]] and [[functional relation]] (but not yet [[relation]]!).
   * Asked a question about $n$-fold groupoids at [[n-fold category]].
