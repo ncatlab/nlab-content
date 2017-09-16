@@ -131,7 +131,7 @@ An explicit description of the cochains that express the homotopy symmetry of th
 
 * N. Steenrod, [[SteenrodOnCohomologyOperations.pdf:file]], Colloquium lectures (1957)
 
-The modern operad theoretic statement that for $S \in$ [[SSet]] a [[simplicial set]], the cochain complex  $C^\bullet([S,R])$ is an $E_\infty$-[[E-infinity algebra|algebra]] apparently goes back to 
+The modern operad theoretic statement that for $S \in$ [[SSet]] a [[simplicial set]], the cochain complex  $C^\bullet([S,R])$ is an $E_\infty$-[[E-infinity-algebra|algebra]] apparently goes back to 
 
 * _HinSch87_ -- V. Hinich and V. Schechtman, _On homotopy limits of homotopy algebras_, in _K-theory, arithmetic and geometry_, Lecture notes Vol. 1289, Berlin 1987 pp. 240--264 
 
