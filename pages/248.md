@@ -1,0 +1,3 @@
+See [[stack]].
+
+category: delete
