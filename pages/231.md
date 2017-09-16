@@ -164,4 +164,4 @@ _John_: Since Urs and Eric expressed no opinion, I'm deleting the discussion we'
 
 [[Urs Schreiber|Urs]]: sure, fine with me. Let's agree that no reaction means agreement. There are already so many other things one has to react to! ;-)
 
-_Toby_:  Well, I wouldn\'t want people to interpret my silence as agreement.  However, I wouldn\'t want to force them to wait for me either.  John is right; I can always revive the discussion if I want to.
+_Toby_:  Well, I wouldn\'t want people to interpret my silence as agreement.  However, I wouldn\'t want to force them to wait for me either.  John is right; I can always revive the discussion if I want to.  
