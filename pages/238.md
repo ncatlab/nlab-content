@@ -11,10 +11,17 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
-#2009-04-12
+
+#2009-04-13
+
 * [[Zoran Škoda]]: completed the definition of [[congruence]].
-#2009-04-11
+
+#2009-04-12
+
 * [[Zoran Škoda]]: Today a Hopf algebraist resurrected in me...grrr...[[Hopf action]], [[measuring]], [[Heisenberg double]], [[bimonoid]], [[module algebra]], [[comodule algebra]]. Well, I am writing an article about a special case of a Heisenberg double, maybe that is why.  
+
+#2009-04-11
+
 *  [[Toby Bartels]]:
    *  Wrote [[axiom of foundation]], [[well-founded relation]], and [[well-ordering theorem]].
    *  Added to [[successor]], [[inaccessible cardinal]], [[well-order]], [[partial function]], [[ordinal number]], and [[cardinal number]].
