@@ -17,7 +17,7 @@ For a given fixed [[ETCS|category of sets]] $S$, a __Grothendieck [[topos]]__ ov
 
   * Sometimes it is useful to distinguish between [[petit topos]] and [[gros topos]].
 
-#Giraud characterization of Grothendieck topoi#
+#Giraud\'s axioms#
 
 Giraud characterized Grothendieck toposes as categories satisfying certain exactness and small [[complete category|completeness]] properties (where "small" is again relative to the given category of sets $S$). The exactness properties are elementary (not depending on $S$), and are satisfied in any elementary [[topos]], or even a [[pretopos]].
 
@@ -55,3 +55,6 @@ The proof of Giraud's theorem for [[(∞,1)-topoi]] is section 6.1.5 of
 
 [[!redirects Grothendieck topoi]]
 [[!redirects Grothendieck toposes]]
+[[!redirects Giraud's axioms]]
+[[!redirects Giraud axioms]]
+[[!redirects Giraud axiom]]
