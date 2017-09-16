@@ -10,6 +10,8 @@ Do all of the following really involve infinitesimal *objects*?  Or should we mo
 So maybe we should rename the entry here into _infinitesimal space_ and, yes, create another entry on infinitesimal quantities. Yes, I think that's a good idea. I have to run now, but I can implement it later.
 
 _Toby_:  I could do it too, although I\'d like to see what Zoran thinks.
+
+_Zoran_: I don't really feel/know what is the most sensitive here. Surely our understanding is developing and we will see more in future (you see yet another thing are the sheaves supported on infinitesimal neighborhoods as well as the duality between infinitesimals and (regular) differential operators in algebraic setting, the duality whose analogue I do not understand in the smooth context (cf. Maszczyk 0611806). 
 =--
 
 ## in synthetic differential geometry ##
