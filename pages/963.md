@@ -22,8 +22,9 @@ If all three of commutativity, idempotence, and $1=\top$ are assumed, they force
 
 ## Enrichment over quantales
 
-A different way of thinking about quantales views them as a [[(0,1)-category|(0,1)-categorical]] analogue of a [[cosmos]] (in the sense of Benabou).  In particular, one can then study [[enriched categories]] over a quantale.  This is often particularly interesting for $*$-quantales (see below), where one can study $*$-enriched categories.
+A different way of thinking about quantales views them as a [[(0,1)-category|(0,1)-categorical]] analogue of a [[cosmos]] (in the sense of Benabou).  In particular, one can then study [[enriched categories]] over a quantale. A classic example is Lawvere [[metric space]]s, seen as categories enriched in the quantale $([0, \infty], \geq)$ with $+$ taken as tensor product. 
 
+Enrichment is often particularly interesting for $*$-quantales (see below), where one can study $*$-enriched categories. 
 
 ## Examples ##
 
@@ -58,17 +59,22 @@ Another example is obtained by taking the quantale of down-closed subsets of a $
 
 * $L^* = \{x^*: x \in L\}$ 
 
+A _$*$-enriched category_ over a $*$-quantale $Q$ is a category $(X, d: X \times X \to Q)$ enriched in the underlying quantale, such that 
+
+$$d(y, x) = d(x, y)^*$$ 
+
+This notion can also be expressed in terms of lax morphisms of $*$-quantales; see below. 
 
 ## Morphisms of quantales ##
 
 There is a variety of notions of morphism of quantale, just as there is a variety of notions of morphism between closed monoidal categories. All the notions considered here are morphisms between the underlying sup-lattices, in other words preserve arbitrary joins, hence are left adjoints as functors between the underlying categories. 
 
-* At the weak end of the scale, one may consider _lax morphisms_ of quantales seen as just monoidal categories. 
+* At the weak end of the scale, one may consider _lax morphisms_ of quantales, i.e., (lax) [[monoidal functor]]s of quantales seen as monoidal categories. 
 
-  * An important example of this is that [[enriched category|categories enriched]] in a monoidal poset $M$, such as Lawvere [[metric space]]s, amount to the same thing as lax quantale morphisms of the form 
-$$2^d: 2^{M} \to 2^{X \times X}$$ 
-where the domain is the quantale of upward-closed subsets of $M$ with the Day convolution structure, and the codomain is the quantale of binary relations on $X$, with multiplication being relational composition. 
+  * An important example of this is that [[enriched category|categories enriched]] in a monoidal poset $M$, such as Lawvere [[metric space]]s, amount to the same thing as lax quantale morphisms of the form $2^d: 2^{M} \to 2^{X \times X}$ where the domain is the quantale of upward-closed subsets of $M$ with the Day convolution structure, and the codomain is the quantale of binary relations on $X$, with multiplication being relational composition. 
 
 * A stronger notion is of _strong morphisms_ of quantales seen as monoidal categories. As noted above, all quantale morphisms considered here are already left adjoints in $Cat$, and if the adjunction lifts to $MonCat$ (the 2-category of monoidal categories, lax monoidal functors, and monoidal transformations), then the left adjoint is strong monoidal. This often occurs in practice. 
 
 * An even stronger notion is where the morphisms also strongly preserve the closed structure, i.e., the internal homs or residuations. (An example is to be developed for [[building]]s.) 
+
+* There are corresponding notions of morphisms of $*$-quantales, where in each case morphisms strongly respect the $*$ operations. For instance, the notion of $*$-enriched category over a $*$-monoidal poset $M$ can be equivalently recast as a lax morphism between $*$-quantales, $2^d: 2^M \to 2^{X \times X}.$
