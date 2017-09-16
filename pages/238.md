@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-18 #
 
+*  [[Todd Trimble]] keeps creating analysis pages that [[Toby Bartels|I]] link to; today\'s were [[measurable space]] and [[topological vector space]].
+
 * [[Tim Porter|Tim]]:
 
    * I finally added some stuff into [[crossed complex]] giving more information on the link with [[simplicial group]] and [[Moore complex]].  I hope to get around to creating 2-crossed complex in a day or two!
