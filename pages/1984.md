@@ -8,6 +8,8 @@ The main theorem is a Tannakian reconstruction theorem, which repairs a problem 
 
 which had a substantial gap in the proof of the main theorem.
 
+At the end of the article there is an application to the differential Galois theory (which has been earlier much studied by A. R. Magid) which is the Galois theory for differential rather than algebraic equations. 
+
 The article had a huge influence not only in Tannakian theory but also in creating more technical exchange between the modern algebraic geometry with category theory and bi(al)gebras. 
 
 See also [wikipedia](http://en.wikipedia.org/wiki/Tannakian_category)
