@@ -9,6 +9,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-26
 
+*  [[Toby Bartels]]:
+   *  Rearranged the introduction to [[group]], including some stuff that John originally put at [[centipede mathematics]].
+   *  Merged [[semigroups]] (now [[semigroups -- history]]) into [[semigroup]], as John describes below.
+
 * [[John Baez]]: meddled a bit with [[centipede mathematics]].  Accidentally created a page called 'semigroups' --- sorry, Toby; it looks like you're merging it with [[semigroup]], which said a lot of the same stuff in a more sophisticated lingo.  
 
 * [[Mike Shulman|Mike]]: A couple of comments at [[small object argument]].
