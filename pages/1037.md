@@ -178,10 +178,15 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 * [[Cartesian fibration]]
 
+* [[Cartesian morphism]]
+
 ##3 The $\infty$-Category of $\infty$-Categories
 
 * [[(∞,1)-category of (∞,1)-categories]]
 
+* [[universal fibration of (∞,1)-categories]]
+
+* [[limit in a quasi-category|limits of (∞,1)-categories]]
 
 ##4 Limits and Colimits##
 
@@ -190,6 +195,8 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 * [[limit in quasi-categories]]
 
   * [[fibration sequence]]
+
+* [[Karoubi envelope]]
 
 ##5 Presentable and Accessible $\infty$-Categories##
 
