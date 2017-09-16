@@ -38,5 +38,7 @@ For homotopy 3-types, the algebraic model of [[crossed square]]s is more explici
 ##References##
 
 * Booth P.I.   "An Explicit Classification of Three-stage Postnikov Towers", Homology, homotopy and applications, 8 (2006), No. 2, 133--155
-
 * G. Ellis and R. Mikhailov, "A colimit of classifying spaces", arXiv:0804.3581.
+
+
+[[!redirects Postnikov tower]]
