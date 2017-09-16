@@ -137,6 +137,8 @@ $$\mathcal{X} = 3\{1\} + 1\{2\} + 4\{3\}.$$
 _Toby_:  The only difference is notation; see the note at the end of [[inner product of multisets]].
 
 [[Mike Shulman]]: At least, if all your multisets are locally finite.
+
+_Toby_:  Right; which they are for Eric, who specified $\mu\colon X \to \mathbb{N}$.  If you allow arbitrary cardinalities, then it\'s the free module on $U$ over the rig of cardinal numbers.
 =--
 
 
