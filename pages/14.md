@@ -20,7 +20,7 @@ The site is served using [apache](http://www.apache.org/) and [Phusion Passenger
 
 #What the _n_Lab is and what it is not#
 
-The most apt analogy for the _n_Lab is of a **group lab book**.  A lab book for a research scientist is a place where they writing down anything that they consider relevant for their work; a group lab book is one that several researchers with common interests use.  The material recorded in a lab book can include:
+The most apt analogy for the _n_Lab is of a **group lab book**.  A lab book for a research scientist is a place where they write down anything that they consider relevant for their work; a group lab book is one that several researchers with common interests use.  The material recorded in a lab book can include:
 
 * Notes from seminars
 * Notes from papers and books
@@ -30,7 +30,7 @@ The most apt analogy for the _n_Lab is of a **group lab book**.  A lab book for 
 
 Apart from not having actual physical experiments, this matches the content of the _n_Lab fairly well.  The key difference between the _n_Lab and an "ordinary" lab book is that it is public.  By making it public we hope to achieve two things:
 
-1. To enable others to benefit from our work while it is still begin done.
+1. To enable others to benefit from our work while it is still being done.
 2. To benefit from the work of others while we are doing it.
 
 There is much more to a research project than that which appears in the final paper and we believe that since our results and our final proofs will be public, then both we and those who might read such a paper can benefit from beginning the interaction much earlier in its development.
