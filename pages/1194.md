@@ -10,43 +10,13 @@ What sorts of syntactical constructions you allow on types and terms corresponds
 
 An important extension of type theory involves _dependent_ types: types which are a "function" of the _elements_ of some other type.  For instance, the type $D(m)$ of "days of the month" is a function of the element $m$ of the type $M$ of months, since different months have different allowable collections of days.  Syntactically, in addition to the existence of dependent types, one often allows constructions on them such as _dependent sums_ $\Sigma_{x:A} B(x)$ (regarded as the "type of pairs" $(x,y)$ such that $x\in A$ and $y\in B(x)$) and _dependent products_ $\Pi_{x:A} B(x)$ (regarded as the "type of functions" $f$ such that for any $x\in A$, we have $f(x)\in B(x)$).  Semantically, a type $B(x)$ depending on an element $x$ of type $A$ is represented by a morphism $B\to A$, thought of as an $A$-indexed family of objects; each $B(x)$ is supposed to be the fiber over $x$.  Then dependent sum and product are interpreted by the left and right adjoints to the [[pullback]] functors $f^*:E/Y\to E/X$ along a morphism $f:X\to Y$; the left adjoint always exists, while the right adjoint exists in any [[locally cartesian closed category]].
 
-How does type theory relate to logic?  Well, _propositional logic_ is just the type theory whose semantic categories are _posets_.  In this case, the types $P,Q,\dots$ are usually called _propositions_, and the existence of a (necesarily unique) term of type $Q$, having a free variable of type $P$, is just the assertion that $P\le Q$ (or, in more logical language, "$P$ implies $Q$").  The type constructor for binary products is usually written $\wedge$ and called "and," the type constructor for binary coproducts is usually written $\vee$ and called "or," and so on.
+How does type theory relate to logic?  Well, _propositional logic_ is just the type theory whose semantic categories are _posets_.  In this case, the types $P,Q,\dots$ are usually called _propositions_, and the existence of a (necesarily unique) term of type $Q$, having a free variable of type $P$, is just the assertion that $P\le Q$ (or, in more logical language, "$P$ implies $Q$").  The type constructor for binary products is usually written $\wedge$ and called "and," the type constructor for binary coproducts is usually written $\vee$ and called "or," and so on.  The term constructors are generally called _inference rules_, since they allow us to infer new theorems from old ones.
 
-In general, a logic is given by a collection of typed
-terms, together with a set of rules for forming
-propositions from these, and a set of _inference rules_
-that allow us to infer new theorems from old ones.  The
-types and terms form the underlying type theory of the
-logic, and the propositions 'depend' on these.  A model of
-a logic will then consist of a category $E$ of propositions
-that is [[Grothendieck fibration|fibred over]] (or
-equivalently [[indexed category|indexed by]]) a category
-$C$ of terms; i.e. there will be a fibration $p:E\to C$ or
-an indexed category $p':C^{op}\to Cat$ with $p':A\mapsto
-E_A$.  So an alternative way of thinking of propositional
-logic is as the 'logic' of a poset fibred over the trivial
-one-object category, which corresponds to the fact that the
-propositions do not contain or depend on typed terms.
+Now, it turns out that there are (at least) two ways to reconcile logic (the type theory of posets) with type theory of more general categories.  In the first approach, which can be described as _typed predicate logic_ or _logic over type theory_, we keep the propositions separate from the types.  (Since, as we have seen, propositional logic is a specific kind of type theory, this means we really have two interacting type theories.  However, in this case we generally reserve "type" for the second kind of type as distinguished from the "propositions.")
 
-Now, it turns out that there are (at least) two ways to reconcile logic (the type theory of posets) with type theory of more general categories.  In the first approach, which can be described as _typed predicate logic_ or _logic over type theory_, we keep the propositions separate from the types.  (Since, as we have seen, propositional logic is a specific kind of type theory, this means we really have two interacting type theories.  However, in this case we generally reserve "type" for the second kind of type as distinguished from the "propositions.")  
+In this case, the syntax has collections of types and terms, together with constructors, and also rules for forming propositions out of types and terms, and inference rules for forming implications between propositions.  The types and terms form the underlying type theory of the logic, and the propositions 'depend' on these.  For instance, given two terms $x,y$ of type $A$, we can often form a proposition $x=y$ which asserts that $x$ and $y$ are equal.  Other important "proposition constructors" are the _quantifiers_ $\exists x$ and $\forall x$, where $x$ is a variable associated to a type (not a proposition).
 
-The syntax of typed predicate logic involves types and
-terms, but also propositions and implications, and
-"proposition constructors" (quantifiers) such as $\exists
-x$ and $\forall x$ where $x$ is a variable associated to a
-type (not a proposition).  The natural home for the
-semantics of typed predicate logic turns out to be an
-_indexed poset_: a category $C$ together with a functor
-$P:C^{op}\to Pos$.  The ordinary type theory happens in $C$
-as described above, and a proposition $\phi$ with a free
-variable $x$ of type $A$ is interpreted by an element
-$[\phi]$ of the poset $P(A)$.  The prototypical indexed
-poset is $P:Set^{op}\to Pos$ sending each set to the poset
-of its [[subset]]s, with an evident generalization to
-[[subobject]]s in any category; thus we think  of $[\phi]$
-as "the set of all $x\in A$ such that $\phi(x)$ is true."
-Another way of describing this setup is as the _subobject
-fibration_ $cod:Sub(C)\to C$.
+The natural home for the semantics of typed predicate logic turns out to be an _indexed poset_: a category $C$ together with a functor $P:C^{op}\to Pos$.  This is often described equivalently as a category $E$ of propositions that is [[Grothendieck fibration|fibred over]] the category $C$ of terms, and whose fibers are posets.  (Thus, an alternative way of thinking of propositional logic is as the 'logic' of a poset fibred over the trivial one-object category, which corresponds to the fact that the propositions do not contain or depend on typed terms.)  The ordinary type theory happens in $C$ as described above, and a proposition $\phi$ with a free variable $x$ of type $A$ is interpreted by an element $[\phi]$ of the poset $P(A)$ (the fiber over $A$).  The prototypical indexed poset is $P:Set^{op}\to Pos$ sending each set to the poset of its [[subset]]s, with an evident generalization to [[subobject]]s in any category; thus we think of $[\phi]$ as "the set of all $x\in A$ such that $\phi(x)$ is true." Another way of describing this setup is as the _subobject fibration_ $cod:Sub(C)\to C$.
 
 Just as the allowed constructions on types are reflected in
 the structure of the semantic category, the allowed
