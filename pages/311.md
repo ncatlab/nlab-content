@@ -182,3 +182,4 @@ _Toby_:  It\'s fine and fun to have a hierarchy of $n$-types (although $1$-types
 
 [[!redirects representable functors]]
 [[!redirects representable]]
+[[!redirects representable presheaf]]
