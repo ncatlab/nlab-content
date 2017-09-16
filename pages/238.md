@@ -16,6 +16,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * reacted to [[Bruce Bartlett|Bruce]] at [[sieve]]
+
+* [[Bruce Bartlett|Bruce]]
+
+  * added a question at [[coverage]]
+
+  * added comments to [[sieve]]
+
+* [[Urs Schreiber|Urs]]
+
   * added a long section "A detailed description of what's going on" to [[sieve]], meant to be pedagogical, veery small-stepped. I'd be interested to hear from non--experts to which extent they find this bit helpful
 
   * replied (to [[Toby Bartels|Toby]], I presume?) at [[sieve]]
