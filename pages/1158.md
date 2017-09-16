@@ -41,6 +41,16 @@ This is ([[quasi-isomorphism|quasi-isomorphic]]) to the
 **Deligne cohomology** in degree $n+1$ of $X$ is the 
 [[abelian sheaf cohomology]] of this complex.
 
+
+#References#
+
+* J.-L. Brylinski, _Loop Spaces, Characteristic Classes and geometric Quantization_, Birkhaeuser
+
+* U. Bunke, _Index theory, eta forms, and Deligne cohomology_, Memoirs AMS, vol. 198, number 928, [arXiv:math./0201112](http://arxiv.org/abs/math/0201112v4)
+
+* Ulrich Bunke, Thomas Schick, _Uniqueness of smooth extensions of generalized cohomology theories_, [arXiv:0901.4423](http://arxiv.org/abs/0901.4423)
+
+
 #Interpretation in terms of parallel transport#
 
 There is a natural way to understand the Deligne complex of sheaves as a sheaf which assigns to each patch the Lie $n$-groupoid of smooth parallel transport $n$-functors. This perspective is helpful for understanding how Deligen cohomology relates to the bigger picture of [[differential cohomology]].
@@ -115,8 +125,3 @@ For more on this see [[schreiber:Differential Nonabelian Cohomology|differential
 For higher $n$ there is as yet no detailed proof in the literature, but the
 low dimensional proofs have obvious generalizations.
 
-See also 
-
-* U. Bunke, _Index theory, eta forms, and Deligne cohomology_, Memoirs AMS, vol. 198, number 928, [arXiv:math./0201112](http://arxiv.org/abs/math/0201112v4)
-
-* Ulrich Bunke, Thomas Schick, _Uniqueness of smooth extensions of generalized cohomology theories_, [arXiv:0901.4423](http://arxiv.org/abs/0901.4423)
