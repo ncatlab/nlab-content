@@ -1,4 +1,4 @@
-F. William Lawvere is the greatest category theorist of all time.  He invented [[Lawvere theory|Lawvere theories]] as a category-theoretic way to describe finitary [[algebraic theory|algebraic theories]].  He generalised [[Grothendieck topos]]es to elementary [[topos]]es, revolutionising the [[foundations]] of mathematics; in this vein, he developed the foundation [[ETCS]].  He also works on [[synthetic differential geometry]].  His motivation for all of this, believe it or not, is to better understand classical [[physics]].
+F. William Lawvere is one of the greatest category theorists of all time.  He invented [[Lawvere theory|Lawvere theories]] as a category-theoretic way to describe finitary [[algebraic theory|algebraic theories]].  He generalised [[Grothendieck topos]]es to elementary [[topos]]es, revolutionising the [[foundations]] of mathematics; in this vein, he developed the foundation [[ETCS]].  He also works on [[synthetic differential geometry]].  His motivation for all of this, believe it or not, is to better understand classical [[physics]].
 
 +--{.query}
 
@@ -7,6 +7,8 @@ F. William Lawvere is the greatest category theorist of all time.  He invented [
 Keep in mind too that Joyal has far more to do than Lawvere with the inner development of higher category theory, which some of us here believe to be the most important thing going in CT today, even a new mathematics for the 21st century. 
 
 Can't we just say "arguably the greatest" or "is, in the view of many, the greatest" or something? It's like one of those Michael Jordan/Shaquille O'Neal arguments: apples and oranges. 
+
+_Toby_:  Don\'t worry, I was just in a silly mood when I wrote that.  I don\'t really think that we should try to place a title on anybody.  (And if I had to choose, I probably wouldn\'t quite pick Lawvere myself either!)
 
 =--
 
