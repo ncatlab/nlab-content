@@ -11,6 +11,8 @@ By a **limit** we will mean the fully 2-categorical notion described at [[2-limi
 
 +-- {: .query}
 It just occured to me that 'strict initial object' conflicts with this.  But unlike 'weak limit', that doesn't generalise very far.
+
+Heh, you're right.  I suppose we could try calling strict initial objects _stable initial objects_, which would make more sense anyway since they are really the 0-ary version of a stable coproduct.  But there's probably not likely to be any real confusion created by the two uses of strict.
 =--
 
 * A **strict 2-limit** (or just _strict limit_) in a strict 2-category is just a [[Cat]]-enriched (weighted) limit.  This means that its cones must commute strictly (although weakness can be built in via the weighting, see below), and its universal property is expressed by an isomorphism of categories.  Note that a strict limit is not necessarily a limit, because it may be [[evil]].  (cf. [[red herring principle]].)
