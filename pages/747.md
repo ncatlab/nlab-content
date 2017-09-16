@@ -1,6 +1,10 @@
 <div class="rightHandSide toc">
+[[!include model category theory - contents]]
+***
 [[!include (infinity,1)-topos - contents]]
 </div>
+
+
 
 #Contents#
 * tic
