@@ -192,4 +192,6 @@ http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.htm
 
 * This nifty [script] (http://www.junkdrawerblog.com/2008/01/cant-read-light-text-on-dark-backgrounds.html) fixes the eyestrain caused by poorly designed blog [contrasts](http://blog.teleonetics.com/2008/02/28/concept-identity-vs-concept-similarity-2/). 15 seconds to install, works for Firefox only. 
 
+* [Detexify](http://detexify.kirelabs.org/classify.html) for finding LaTeX symbols by drawing them.
+
 category: meta
