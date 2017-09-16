@@ -282,7 +282,7 @@ Let for instance $Vect_\infty \in H$ be an $(\infty,1)$-presheaf
 which assigns to each test domain $U \in S$ an $\infty$-groupoid $Vect_\infty(U)$
 of some kind of $\infty$-vector bundles on $U$. Then $Vect_\infty$ is,
 regarded as a generalized space modeled on $X$, the 
-[[classifiying space]] of $\infty$-vector bundles, essentially by definition.
+[[classifying space]] of $\infty$-vector bundles, essentially by definition.
 
 So for $X \in H$ any other $\infty$-stack/generalized space,
 
@@ -326,7 +326,7 @@ $$
   \,.
 $$
 
-The inclusion of the space of objects in $\Pi(X_0)$ is just $X_0 \hookrigtharrow \Pi(X_0)$.
+The inclusion of the space of objects in $\Pi(X_0)$ is just $X_0 \hookrightarrow \Pi(X_0)$.
 From the above we now have
 
 * $H(X_0, Vect_\infty) =: Vect_\infty(X_0)$ is the $\infty$-groupoid of $\infty$-vector bundles on $X_0$
