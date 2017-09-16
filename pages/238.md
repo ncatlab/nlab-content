@@ -13,6 +13,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-04-16 #
 
+* [[Mathieu Dupont|Mathieu]]:
+
+  * corrected [[semi-abelian category]] and answered to Mike
+
 * [[Urs Schreiber|Urs]]: 
 
   * added some links to [[Tim Porter|Tim]]'s latest addition to [[rational homotopy theory]] -- in that context I created [[torsion]] and [[torsion subgroup]]
@@ -128,6 +132,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Urs Schreiber|Urs]]:
 
   * added a remark on the $(\infty,1)$-version at [[Dold-Kan correspondence]]
+
 
   * created [[accessible (infinity,1)-category]] and [[accessible (infinity,1)-category]], but incomplete
 
