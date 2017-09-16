@@ -7,3 +7,4 @@ category: people
 
 
 [[!redirects Eric]]
+[[!redirects nlabmeta:Eric Forgy]]
