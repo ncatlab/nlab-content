@@ -1,4 +1,32 @@
-#Definition
+#Idea#
+
+Ordinary categories can be defined as [[monad|monads]] in the bicategory of spans of sets. Multicategories can be defined in a similar way. A [[multicategory]] is like an ordinary category where each morphism has a list of objects as its domain, and a single object as its codomain (think vector spaces and multilinear maps).
+
+To see how a multicategory $C$ can be defined as a monad in some appropriate bicategory, let $C_0$ be the set of objects of $C$, and notice that the domain of a morphism of $C$--a finite list of objects--is an element of $T C_0$, where $T$ is the free monoid monad. In this way the data for $C$ can be conveniently organized in the diagram
+\[\begin{matrix}
+&&C_1&&\\
+&\overset{d}\swarrow&
+&\overset{c}\searrow&\\
+T C_0 &&&& C_0.
+\end{matrix}\]
+
+Leinster's work is built on the idea of generalized multicategories, where the domain of a morphism can have a more general, higher dimensional shape than just a list. This is accomplished by considering a category $\mathcal{E}$ other than $\mathrm{Set}$, and a monad $T$ on $\mathcal{E}$, and mimicking the above construction. So the data for a $T$-multicategory is a digram in $\mathcal{E}$ like the one above.
+
+To state the structure required on the data for a $T$-multicategory, we want to define a bicategory in which the above span is an endomorphism. Then a $T$-multicategory will be such a span together with structure making it a monad in that bicategory. The bicategory is $\mathcal{E}_{(T)}$, the bicategory of $T$-spans in $\mathcal{E}$. Its objects are the objects of $\mathcal{E}$, and its morphisms are spans
+\[\begin{matrix}
+&&M&&\\
+&\overset{d}\swarrow&
+&\overset{c}\searrow&\\
+T E &&&& E'.
+\end{matrix}\]
+
+This won't in general be a bicategory without a few extra assumptions. Identity spans are defined using the unit $\eta: \mathrm{Id}\to T$. Composition of spans is defined using pullbacks and the multiplication $\mu: T^2\to T$, so the category $\mathcal{E}$ must at least have pullbacks--usually it will be cartesian. The associativity and unit 2-cells are defined using the universal property of the pullbacks. However, these 2-cells won't in general be invertible. In fact, it turns out that requiring the monad $T$ to be cartesian is exactly what is needed to ensure that the coherence 2-cells are isomorphisms, and hence that $T$-spans do in fact form a bicategory. Maybe this should be the "fundamental theorem of cartesian monads".
+
+Now $T$-multicategories can be defined simply as monads in the bicategory $\mathcal{E}_{(T)}$. Then for $T$ the identity monad on $\mathrm{Set}$, $T$-multicategories are exactly ordinary categories, and for $T$ the free monoid monad on $\mathrm{Set}$, $T$-multicatories are exactly ordinary multicategories.
+
+As an indication of how this theory is useful as a language for higher categories, take $T$ to be the free strict-$\omega$-category monad on the category of globular sets. Then $T$-multicategories with exactly one object are called globular operads, and Leinster defines one such globular operad (the initial "globular operad with contraction") for which whose algebras are weak $\omega$-categories.
+
+#Definition#
 
 Let $(T, \mu, \nu)$ be a
 [[monad]] on a category $C$.
