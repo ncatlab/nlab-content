@@ -137,7 +137,7 @@ The general idea is that of [[Grothendieck's Galois theory]] The general constru
 
 ...
 
-* [[Pietro Polesello]] and [[Ingo Waschkies]], _Higher monodromy_ , Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150 ([pdf](http://www.intlpress.com/HHA/v7/n1/a7/pdf)) 
+* [[Pietro Polesello]] and [[Ingo Waschkies]], _Higher monodromy_ , Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150 ([pdf](http://www.intlpress.com/HHA/v7/n1/a7/v7n1a7.pdf)) 
 
   We indicate briefly how the results stated in this article fit into the general abstract picture as indicated above:
 
