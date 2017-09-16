@@ -65,11 +65,7 @@ $$
 
 ## Properties ##
 
-Let $\lambda \gt \kappa$ be a regular cardinal greater than $\kappa$. A colimit over a $\lambda$-filtered diagram may be computed as a colimit over the $\kappa$-filtered subdiagram followed by a colimit over the remaining diagram (say this more precisely). By the above characterization of objects $X$ commuting with $\kappa$-filtered colimits it follows that every such object also commutes with $\lambda$-filtered colimits.
-
-Therefore every object that is small with respect to some regular cardinal $\kappa$ is small with respect to any sufficiently large regular cardinal $\lambda$.
-
-> this sounds obvious enough, but can we make this a more formal statement?
+Let $\lambda \gt \kappa$ be a regular cardinal greater than $\kappa$.  Then any $\lambda$-filtered category $D$ is also $\kappa$-filtered.  For being $\lambda$-filtered means that any diagram in $D$ of size $\lt\lambda$ has a cocone; but any diagram of size $\lt\kappa$ is of course also $\lt\lambda$.  Thus, any $\lambda$-filtered colimit is also a $\kappa$-filtered colimit, so any functor which preserves $\kappa$-filtered colimits must in particular preserve $\lambda$-filtered colimits.  It follows that any $\kappa$-presentable object is also $\lambda$-presentable.
 
 ## Examples and applications ##
 
