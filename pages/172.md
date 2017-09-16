@@ -70,9 +70,68 @@ The above concerns $\infty$-stacks with values in [[∞-groupoids]], i.e, [[(∞
 An archetypical class of examples of $\infty$-stacks are [[quasicoherent ∞-stack]]s of [[module]]s, being the [[vertical categorification|categorification]] of the notion of [[quasicoherent sheaf]]. By their nature these are really $(\infty,1)$-stacks in that they take values not in [[∞-groupoid]]s but in [[(∞,1)-categories]], but often only their [[∞-groupoid]]al [[core]] is considered.
 
 
-### Affine $\infty$-stacks
+### Affine $\infty$-stacks 
 
-* [[Bertrand Toen]], _Affine stacks (Champs affines)_ ([arXiv:math/0012219])
+
+In 
+
+* [[Bertrand Toen]], _Affine stacks (Champs affines)_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
+
+for the [[site]] $C = Alg_k^{op}$ with a suitable topology a [[Quillen adjunction]]
+
+$$
+  \mathcal{O} : sPSh(C)_{loc} \stackrel{\leftarrow}{\to}
+  [\Delta^{op},Alg_k] \simeq dgAlg_k^{+}
+  : 
+  Spec
+$$
+
+is presented, where $\mathcal{O}$ sends and $\infty$-stack to its global [[dg-algebra]] of functions and $Spec$ constructs the simplicial presheaf "represented" degreewise by a simplicial algebra (under the [[monoidal Dold-Kan correspondence]] these are equivalent to dg-algebras).
+
+An $\infty$-stack in the image of $Spec : dgAlg_k^+ \to sPSh(C)$ is an **affine $\infty$-stack**. The image of an arbitrary $\infty$-stack under the composite
+
+$$
+  Aff : sPSh(C) \stackrel{\mathcal{O}}{\to} dgAlg_k^+ \stackrel{Spec}{\to} sPSh(C)
+$$
+
+is its **affinization**.
+
+This notion was considered in the full [[(∞,1)-category]] picture in 
+
+* [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Connections_ ([arXiv:math/1002.3636](http://arxiv.org/abs/1002.3636))
+
+where it is also generalized to [[derived stack]]s, i.e. to the [[(∞,1)-site]] $dgAlg_k^-$ of cochain [[dg-algebra]]s in non-positive degree, where the pair of [[adjoint (∞,1)-functor]]s is
+
+$$
+  \mathcal{O} : 
+  Sh_{(\infty,1)}((dgAlg_k^-)^{op})
+  \stackrel{\leftarrow}{\to}
+  [\Delta^{op},dgAlg_k^-] 
+  \simeq
+  dgAlg_k
+  :
+  Spec
+$$
+
+with $\mathcal{O}$ taking values in _unbounded_ dg-algebras.
+
+In detail, $\mathcal{O}$ acts as follows: every [[∞-stack]] $X$ may be written as a ([[homotopy colimit|colimit]]) over [[representable functor|representable]] $Spec A_i \in dgAlg_i$
+
+$$
+  X \simeq \lim_{\to^i} Y(Spec A_i)
+  \,,
+$$
+
+where $Y : (dgAlg^-)^{op} \to \mathbf{H}$ is the [[(∞,1)-Yoneda embedding]].
+
+The functor $\mathcal{O}$ takes any such colimit-description, and simply reinterprets the colimit in $dgAlg^{op}$, i.e. the limit in $dgAlg$:
+
+$$
+  \mathcal{O}(X) = \lim_{\leftarrow^i} A_i
+  \,.
+$$
+
+
 
 
 ## References
