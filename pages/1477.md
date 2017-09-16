@@ -2,4 +2,4 @@ Negative thinking is a way of thinking about [[vertical categorification|categor
 
 More generally, negative thinking can apply whenever you have a sequence of mathematical objects and ask yourself what came before the beginning?  Examples outside [[category theory]] include the $(-1)$-[[sphere]] and the $(-1)$-[[simplex]] (which are both [[empty set|empty]]), although maybe it means something that these are both from [[homotopy theory]].
 
-For low values of $n$-[[n-category|category]], see Section 2 of [Lectures on n-Categories and Cohomology](http://arxiv.org/abs/math/0608420).  See also nearly any page here with '0' or '(-1)' in the title, such as those that link here.
+For low values of $n$-[[n-category|category]], see Section 2 of [[Lectures on n-Categories and Cohomology]].  See also nearly any page here with '0' or '(-1)' in the title, such as those that link here.
