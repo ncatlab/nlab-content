@@ -106,3 +106,5 @@ See the remark at the end of section 2, on p. 6 of
 For a thorough discussion see
 
 * Daniel Dugger, Sharon Hollander, Daniel C. Isaksen, _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/))
+
+[[!redirects hypercovers]]
