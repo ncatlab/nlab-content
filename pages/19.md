@@ -4,22 +4,19 @@
 #Idea#
 
 +-- {: .un_remark}
-###### Origin
-
+#### Origin ####
 Category theory was introduced by Samuel Eilenberg and Saunders Mac Lane in the 1945 paper **General theory of natural equivalences**. The reason for introducing [[category|categories]] was to introduce [[functor]]s, and the reason for introducing functors was to introduce [[natural transformation]]s (more specifically natural equivalences) in order to define what _natural_ means in mathematics. 
 
 The paper was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content but was later published. Unexpectedly category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
 =--
 
 +-- {: .un_remark}
-###### Paradigm
-
+#### Paradigm ####
 The basic idea of category theory is to shift attention from the study of [[object]]s to the study of _maps_ or _relations_ between objects: of (homo)[[morphism]]s between objects. 
 =--
 
 +-- {: .un_remark}
-###### Examples
-
+#### Examples ####
 The archetypical example of a category is the category [[Set]] of [[set]]s and functions between sets. 
 
 The classical examples of categories are [[concrete category|concrete categories]] whose [[object]]s are [[stuff, structure, property|sets with extra structure]] and whose [[morphism]]s are structure preserving functions of sets, such as [[Top]], [[Grp]], [[Vect]].  These are the examples from which the term _category_ derives: these categories literally _categorize_ mathematical structures by packing structures of the same _type_ (same category) and structure preserving mappings between them into a single whole structure, a category.
@@ -30,20 +27,17 @@ Archetypical examples of non-[[concrete category|concrete]] categories are the [
 =--
 
 +-- {: .un_remark}
-###### Category theory pointing beyond itself
-
+#### Category theory pointing beyond itself ####
 These latter examples already pave the way to the [[homotopy hypothesis]], to the unification between category theory and [[homotopy theory]] in [[Higher Topos Theory|(∞,1)-category theory]] and thereby to [[higher category theory]]. 
 =--
 
 +-- {: .un_remark}
-###### Conceptual unification
-
+#### Conceptual unification ####
 One major driving force behind the development of category theory is its ability to abstract and unify concepts. General statements about categories apply to each specific [[concrete category]] of mathematical structures. The general notion of [[universal construction]]s in categories, such as [[representable functor]]s, [[adjoint functor]]s  and [[limit]]s, turns out to prevail throughout mathematics and manifest itself in myriads of special examples.
 =--
 
 +-- {: .un_remark}
-###### Abstract nonsense
-
+#### Abstract nonsense ####
 This abstraction power of category theory has traditionally caused different feelings about it. The popular term _abstract nonsense_ for category theoretic methods was meant pejoratively but is often used by now just as descriptively as in: "This property is not specific to this context, it already follows from abstract nonsense".
 
 In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
@@ -55,6 +49,8 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 #What is category theory?#
 
 **Category theory** is so useful because it can be seen from so many perspectives.
+
+###In the narrow sense###
 
 * The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) "algebra" on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid|monoids]], have only one object. This theory also include [[functors]] between categories and [[natural transformation|natural transformations]].
 
@@ -71,14 +67,6 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 
 * A theory of models for [[homotopy type]]s. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
 
-* A unifying tool and language in [[mathematics]].
-
-* An organizational tool in [[mathematics]].
-
-* A new [[foundations|foundation of mathematics]] that focuses attention on structural issues and away from how mathematical objects are 'built up' as sets.
-
-* An abstraction of an abstraction of an abstraction of .... The first level is [[set]]s and is most concrete. This is abstracted to categories (only some categories are categories of sets, hence the abstraction). The next abstraction is to categories of categories or more generally $2$-[[2-category|categories]]. This can be iterated to $n$-[[n-category|categories]] and [[infinity-category|indefinitely]]. This could be called the theory of abstractions.
-
 * A description of partial [[symmetry|symmetries]], in the sense that [[group]]s describe symmetries.
 
 * A generalized theory of [[representations]]. In this view every functor is a representation of its domain in its codomain and natural transformations are the [[intertwining operator]]s between representations.
@@ -93,6 +81,15 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 
 * A theory of [[Cat]], the $2$-[[2-category|category]] of categories. This is axiomatized in Lawvere\'s [[ETAC]].
 
+###In the wide sense###
+
+* A new [[foundations|foundation of mathematics]] that focuses attention on structural issues and away from how mathematical objects are 'built up' as sets. One limited way is to see [[topos|toposes]] as a foundation of mathematics. By simply replacing the category Set by a topos, since they are modeled after Set. For a broader foundation more sophisticated structures are needed such as higher dimensional categories. 
+
+* A unifying tool and language in [[mathematics]]. Most of mathematics (especially modern mathematics) can be regarded as category theory since it is related to category theory in the way that different objects (and mappings between them) studied in different branches of mathematics form categories. Other structures used in categore theory also appear throughout mathematics.
+
+* An organizational tool in [[mathematics]].
+
+* An abstraction of an abstraction of an abstraction of .... The first level is [[set]]s and is most concrete. This is abstracted to categories (only some categories are categories of sets, hence the abstraction). The next abstraction is to categories of categories or more generally $2$-[[2-category|categories]]. This can be iterated to $n$-[[n-category|categories]] and [[infinity-category|indefinitely]]. This could be called the theory of abstractions.
 
 Some would define category theory as the human activity of [category theorists](http://ncatlab.org/nlab/list/people).
 
@@ -411,6 +408,9 @@ _Rafael_: Since no one wants to reply, this discussion can be deleted?
 
 [[Urs Schreiber]]: as far as I am aware a [[simplicial complex]] is essentially a special kind of [[simplicial set]], which means that it is a collection of _abstract_ simplices. You just remember that "here are 5 3-simplices and they touch each other in such and such a way" but you don't actually regard these simplices as being the standard concrete simplices as subsets of $\mathbb{R}^n$s, say. Instead, when you want to do that you pass to tthe [[geometric realization]] of the simplicial set/complex. That realizes each abstract simplex as a topological simplex. And the result of _that_ is then a CW-complex.
 
+_Rafael_: Urs, Do you regard CW-complexes as a generalization of simplicial complexes?
+
+Then, why is nobody using the term topological complex for the geometric realization of a simplicial complex. And analogously topological CW-complex for what the majority regard as a CW-complex. It would be so much easier to understand the logic and consistency then.
 =--
 
 
