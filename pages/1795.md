@@ -1,7 +1,7 @@
-The __essential image__ of a functor $F: A\to B$ between $n$-categories is the smallest [[replete subcategory]] of the target $n$-category $B$ containing the __image__ of $F$, which is in turn the smallest subcategory which contains all the $n$-cells which are the images of $n$-cells in $A$. 
+The __essential image__ of a [[functor]] $F: A\to B$ between [[category|categories]] or $n$-[[n-category|categories]] is the smallest [[replete subcategory]] of the target $n$-category $B$ containing the __image__ of $F$, which is in turn the smallest [[subcategory]] which contains all the $n$-cells which are strictly the images of $n$-cells in $A$.  Note that the property of belonging to the image is [[evil]]; of two [[equivalence|equivalent]] objects, one may belong while the other does not.  Passing to the essential image precisely removes this evil.
 
-Note that that 
 
-* the *image* may contain some $n$-cells which are not the images of any $n$-cell in $A$, namely the compositions of $B$-composable chains of such image $n$-cells, whose preimage $n$-cells are not forming an $A$-composable chain;
+Note that:
 
-* the *essential image* in addition contains precisely all $(k-1)$-equivalent $(n-k)$-cells to the $(n-k)$-cells of the image for all $0\leq(k-1)\lt n$.
+* the *image* may contain some morphisms or cells which are not the images of any cell in $A$, namely the [[composite|compositions]] of $B$-composable chains of such image cells, whose preimage cells do not form any $A$-composable chain;
+* the *essential image* in addition contains precisely all equivalent $k$-cells to the $k$-cells of the image for all $0 \leq k \leq n$.
