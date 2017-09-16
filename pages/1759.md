@@ -9,13 +9,14 @@ Please log all your non-trivial changes to the $n$Lab here!
 
 =--
 
-
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list.
 
 ***
 
 
 ## 2009-07-28
+
+* Zoran: created [[Dennis trace]] (experts please expand!)
 
 *  [[Toby Bartels]]:
    *  Incorporated results of discussion into [[effective epimorphism]] and [[regular epimorphism]].
@@ -27,7 +28,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]] created [[Kan fibrant replacement]]
 
-* Zoran: created [[Dennis trace]] (experts please expand!),[[Grothendieck Festschrift]], and quoted it as an addition to the timeline entry.
+* Zoran: created [[Grothendieck Festschrift]], and quoted it as an addition to the timeline entry.
 
 * [[Urs Schreiber]] 
 
