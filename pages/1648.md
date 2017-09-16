@@ -1,4 +1,4 @@
-## Motivation ##
+# Motivation #
 
 Recently, [[Johan Alm]] wrote a very neat paper
 
@@ -22,19 +22,21 @@ When we are done, we hope to have a complete, self-contained presentation that s
 
 We also hope that the experts will keep an eye on us and when we get stuck, might gently nudge us in the right direction. As always, this page is open to all. Any questions or contributions are more than welcome.
 
-## Collection of Concepts ##
+# Collection of Concepts #
 
 Maybe we can start by skimming the paper and collecting some unfamiliar keywords so that we can begin the process of tracing back definitions.
 
 * [[Kan extension]]
 * etc
 
-+--{.query}
+#Discussion#
 
 _Daniel_: On page 3, he writes: "Usually, one has a classical 'action' of some kind definedned for manifolds with some extra structure, e.g. a riemannian metric, a symplectic form, a principalbundle, or etc. Quantization is what happens when one tries to assign that same action to a manifold that does not have that structure!" We can define many structures over a manifolds. Like, a toplogy, a piecewise linear strucure, a metric, etc. Just like the layers of an onion. So, quantization is just summing over all possible new layers of every new structure? It looks like so.
 
 _Toby_:  That seems like a wild idea to me, but it does seem to be what he\'s saying.  And what\'s really wild is that he just might be right!
 
-=--
+***
+
+_Eric_: There is something about Kan extension that reminds me of some kind of linear least squares. I started trying to make it explicit by building an example with finite-dimensional vector spaces. I placed the example at [[functor]]. It seems like left and right Kan extensions are like left and right inverses (which in my universe means linear least squares).
 
 category: reference
