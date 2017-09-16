@@ -31,6 +31,10 @@ For representable I agreed, though I will of course continue using it with the s
 That is, a limit is an object equipped with data which makes it a limit.  That data might be a limiting cone, or it might be a certain natural isomorphism; it doesn't matter since either can be constructed from the other.
 
 I don't think anyone would argue, though, that that page is a work in progress.  It's certainly not all that clear which parts are the definitions, which parts are alternate definitions, and which parts are theorems.
+
+_Toby_:  Hum ...  If you think of mathematics as done in type theory with the 'propositions as types' paradigm, then there is no literal difference between 'such that there exists' and 'equipped with'.  At best, you can distinguish these as locutions for describing what the notion of equality is (or what the morphisms are) between the things being described (in which case 'equipped with' is what you usually want), but in definitions one ought to be explicit about that too.
+
+I would normally say 'equipped with' (or just 'with'), and I think that you, Zoran, should feel free to change 'such that there exists' to 'equipped with' when you find it appropriate.  But I also think that mathematicians should learn to read 'such that there exists' to mean 'equipped with' unless it\'s explicitly stated that one is using a more loose notion of equality (or morphism).
 =--
 
 Representability is one of the most fundamental concepts of category theory, with close ties to the notion of [[adjunction]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential object]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
