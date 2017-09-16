@@ -38,4 +38,6 @@ _Toby_:  Sure, there are lots of [[adjunctions]] that work this way.  (I forget 
 
 [[Mike Shulman]]: Yes, the diagonal is a morphism.  I didn't draw it because we don't usually draw the diagonal when we draw a commutative square, just like we don't usually draw identity morphisms.
 
+[[Eric]]: Ok. I thought the missing diagonal was the barrier to being "free". What is the barrier then? If you start with a directed graph as you drew without the diagonal then the corresponding quiver contains the diagonal as it should. There must be something else I'm missing. Thanks. 
+
 =--
