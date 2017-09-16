@@ -1,4 +1,6 @@
-The category of [[multisets]]...
+$MSet$ is the [[category]] of [[multisets]].
 
-* See also [[Understanding M-Set]]
+Don\'t confuse this with $M$-[[M Set|Set]], the category of $M$-sets.
 
+
+category: category
