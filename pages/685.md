@@ -70,3 +70,7 @@ A 2-limit is called **finite** if its diagram shape and its weight are both "fin
 * Street, "Fibrations in Bicategories" and correction.
 
 * Lack, [A 2-categories companion](http://arxiv.org/abs/math.CT/0702535)
+
+
+[[!redirects 2-categorical limit]]
+[[!redirects 2-categorial limit]]
