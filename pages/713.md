@@ -116,8 +116,7 @@ $\widehat{A} \to \widehat{B}$ and then precomposing with $Y$ to get a functor $A
 
 [[John Baez]]: Right, so we're back where we started, at least up to natural isomorphism.
 
-**Exercise.** 
-Also show that going from a cocontinuous functor $\widehat{A} \to \widehat{B}$ to a functor $A \to \widehat{B}$ and then using the Theorem to turn that back into a cocontinuous functor $\widehat{A} \to \widehat{B}$ 
+**Exercise.** Also show that going from a cocontinuous functor $\widehat{A} \to \widehat{B}$ to a functor $A \to \widehat{B}$ and then using the Theorem to turn that back into a cocontinuous functor $\widehat{A} \to \widehat{B}$ 
 gets you back where you started---at least up to natural isomorphism.
 
 [[Mike Stay]]: Call our given functor $\widehat{F}: \widehat{A} \to \widehat{B}$.  Precompose with $Y$ to get $\widehat{F} \circ Y: A \to \widehat{B}$.  Then the theorem gives us a cocontinuous functor $G: \widehat{A} \to \widehat{B}$ such that $G \circ Y$ is the best approximation to $\widehat{F} \circ Y$.  But this is $\widehat{F}$ itself--at least up to natural isomorphism.
@@ -132,7 +131,7 @@ Start with any cocontinuous functor $G: \widehat{A} \to \widehat{B}$.  Precompos
 
 [[John Baez]]: That would suffice, but it's radically overoptimistic.  
 
-Consider the second decategorified analogue below, where $y: A \to \widetilde{A}$ is the inclusion of a set in the vector space having that set as a basis.  Is this $y$ an epimorphism?  In other words: is it onto?   _No!_   The vector space $\widetilde{A}$ is vastly larger than $A$.
+To see why, consider the second decategorified analogue below, where $y: A \to \widetilde{A}$ is the inclusion of a set in the vector space having that set as a basis.  Is this $y$ an epimorphism?  In other words: is it onto?   _No!_   The vector space $\widetilde{A}$ is vastly larger than $A$.
 
 What does this mean?  It means: it's _not true_ that given any vector space $B$ and function $F : A \to B$, there is a unique _function_ $\tilde{F} : \tilde{A} \to B$ making this triangle commute:
 $$
@@ -161,6 +160,20 @@ $$
 But this is okay: we don't want a unique _functor_ $\widehat{F}$ making this diagram commute: we want a unique _cocontinuous functor_ making it commute.
 
 And this too should be obviously true, once we know what's going on.  What lemma would help?
+
+[[Mike Stay]]:  Oh!  It would help to know this:
+
+**Lemma:** Every object in $\widehat{A}$ is a colimit of objects in the image of $A$.  
+
+[[John Baez]]:  Right.  Given that, here's how we tackle the Exercise:
+
+**Exercise.** Show that going from a cocontinuous functor $G : \widehat{A} \to \widehat{B}$ to a functor $G \circ Y : A \to \widehat{B}$ and then using the Theorem to turn that back into a cocontinuous functor $\widehat{G}: \widehat{A} \to \widehat{B}$ gets you back where you started---at least up to natural isomorphism.
+
+Proof - By the Theorem, $\widehat{G}$ satisfies $G \circ Y \cong \widehat{G} \circ Y$.  We wish to show $G \cong \widehat{G}$.  We're assuming $G$ preserves colimits, and the Theorem says that $\widehat{G}$ does too.  We know they agree on objects in the image of $Y$, and every object is a colimit of those, by the Lemma, so they agree. 
+
+Now for one more exercise:
+
+**Exercise.**  What is the hole in the above proof?  
 
 ##How should we think about this, intuitively?##
   
@@ -248,7 +261,7 @@ Therefore, we can determine $\tilde{F}$ as long a $y$ has a right inverse (which
 
 [[Eric]]: Bizarre?? But this is exactly the way I meant it.
 
-[[John Baez]]: Okay, but you didn't explain yourself: you just introduced this matrix $F_{ij}$ without saying what it was, leaving us to guess that you'd invented a new idea: using a matrix to describe a map from a set to a vector space.  To add to the fun, you also introduced _another_ matrix $\tilde{F}_{ij}$ which happens to be precisely _equal_ to $F_{ij}$, but _means something different_.  But all's well that ends well: I eventually guessed what you meant, and now everything is hunky-dory.  
+[[John Baez]]: Okay, great.  The bizarre part was that you didn't explain yourself: you introduced this matrix $F_{ij}$ without saying what it was, leaving us to guess that you'd invented a new idea: using a matrix to describe a map from a set to a vector space.  To add to the fun, you also introduced _another_ matrix $\tilde{F}_{ij}$ which happens to be precisely _equal_ to $F_{ij}$, but _means something different_.  But all's well that ends well: I eventually guessed what you meant, and now everything is hunky-dory.  
 
 And indeed, all these ideas have nice analogues in the categorified version---the Theorem I'm struggling to get Mike to understand!  If we live long enough, we'll see that [[profunctors]] are categorified matrices.  But maybe we should just prove the Theorem and then ponder the analogies further.   So....
 
@@ -295,7 +308,7 @@ So $\widehat{F}$ is well on its way to being unique.
 
 But why does $\widehat{F}$ exist?  For this it will really be good to have a _formula_ expressing every object in $\widehat{A}$ as a colimit of guys in the image of $Y$.  As a side-effect this will prove fact 3.  But even better: thanks to fact 2, this formula will yield a formula for $\widehat{F}$.  And a formula is the best way to prove existence.
 
-[[Mike Stay]] Given categories $A, B$ and a profunctor $F: A \to B$, the fact that all objects in $B$ can be written as a sum over representables says
+[[Mike Stay]]: Given categories $A, B$ and a profunctor $F: A \to B$, the fact that all objects in $B$ can be written as a sum over representables says that
 
 $$\array{F:A  &\to& \hat{B}\\ a &\mapsto& \int_{b \in B} F(a)(b) \; \times \; hom(-, b)}$$
 
@@ -318,6 +331,26 @@ which simplifies to
 $$G(x) = \int_{b \in B} \int_{a \in A} G(a)(b) \; \times \; c(a) \; \times \; hom(-, b)$$
 
 by taking $a$ as the midpoint between $-$ and $b$.  So $G$ is completely determined (up to isomorphism) by its values on the embedding of $A$.
+
+[[John Baez]]:  Very good!  But let me ask a few questions, starting with this.  You say
+
+"Given categories $A, B$ and a profunctor $F: A \to B$, the fact that all objects in $B$ can be written as a sum over representables says that
+
+$$\array{F:A  &\to& \hat{B}\\ a &\mapsto& \int_{b \in B} F(a)(b) \; \times \; hom(-, b)} $$
+
+First of all, I've been religiously avoiding the use of the word "profunctor", since it's not really necessary for understanding this free cocompletion theorem (even though this theorem is necessary for understanding profunctors).  So, I'd like to rewrite your statement like this:
+
+"Given categories $A, B$ and a functor $F: A \to \widehat{B}$, the fact that all objects in $B$ can be written as a sum over representables says that
+
+$$\array{F:A  &\to& \widehat{B}\\ a &\mapsto& \int_{b \in B} F(a)(b) \; \times \; hom(-, b)} $$
+
+Okay?  But I still feel funny, for a more important reason: you say "all objects of $B$ can be written as a sum over representables", but this doesn't really make sense.  It's true that "all objects of $\widehat{B}$ can be written as a colimit of representables" --- is that what you meant?   But even if so, how does this fact "say that
+
+$$\array{F:A  &\to& \widehat{B}\\ a &\mapsto& \int_{b \in B} F(a)(b) \; \times \; hom(-, b)?} $$
+
+And I have another question: the Theorem talks about a functor $F: A \to B$.  Why are you talking about a profunctor $F : A \to B$, or a functor $F: A \to \widehat{B}$?  I'd like us to write up a proof of the Theorem.
+
+# A Reference #
 
 This reference might also give helpful clues:
 
