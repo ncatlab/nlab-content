@@ -1,0 +1,55 @@
+
+#Idea#
+The main thing about ETQFT's is that for a differentiable manifold $M$ an ETQFT $Z$ give a scalar diffeomorphism invariant $Z(M)$, $Z$ evaluated on $M$. It can be calculated after $M$ has been simplified such as triangulated. Then $Z(M)$ can be computed from computing $Z$ on all the simplicies and output a scalar invariant $Z(M)$ in a base ring $R$.
+
+#The category of extended cobordisms#
+
+$nCob_m$ has closed smooth compact oriented n-manifolds as objects and cobordisms of cobordisms up to cobordisms of dimension m, up to diffeomorphism.
+
+A (j+1)-cobordism between j-cobordisms is...
+
+See [[extended cobordism]].
+
+#Definition#
+For a fixed base ring $R$,
+and C a symmetric monoidal n-category.
+
+A m-extended C-valued TQFT of dimension n is a symmetric n-tensor functor $Z:nCob_m \rightarrow C$ that assign
+* closed smooth compact oriented n-manifolds $\rightarrow$ elements of $R$
+* closed smooth compact oriented (n-1)-manifolds $\rightarrow$ $R$-modules
+* bordisms of closed smooth compact oriented (n-1)-manifolds $\rightarrow$ $R$-linear maps between $R$-modules
+* closed smooth compact oriented (n-2)-manifolds $\rightarrow$ $R$-linear 1-categories
+* bordisms of closed smooth compact oriented (n-2)-manifolds $\rightarrow$ functors between $R$-linear 1-categories
+
+* ...
+
+* closed smooth compact oriented 0-manifolds $\rightarrow$ $R$-linear (m-2)-categories
+* bordisms of closed smooth compact oriented 0-manifolds $\rightarrow$ (m-2)-functors between $R$-linear (m-2)-categories
+
+with compatibility conditions and gluing formulas that must be satisfied...
+
+m can range between 2 and n+1.
+
+This suggests that one can see ETQFT's as C-valued representations of $nCob_m$.
+
+#Examples#
+
+m=2 gives ordinary TQFT.
+
+The most common case is when $R$=$C$ (the complex numbers) giving unitary ETQFT.
+
+The most common cases for C is
+C=$nHilb(R)$, the category of n-dimensional hilbert spaces over a field $R$. As far as i know it is only defined up to n=2.
+
+C=$nVect(R)$, the category of n-dimensional vector spaces over a field $R$.
+
+C=$nMod(R)$, the (conjectured?) category of n-dimensional $R$-modules.
+
+#Classification of ETQFT#
+
+See [[cobordism hypothesis]].
+
++-- {: .query}
+_Rafael_: I am very tired because it is very late.
+Please check and expand this page, i am not counting very good with my eyes half closed neither am i an expert on ETQFT.
+=--
