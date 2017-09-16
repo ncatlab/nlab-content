@@ -6,6 +6,8 @@
 
 Sometimes, late at night, when everyone is asleep, the lab elves come by and clean up the wiki.  They add links from one page to another, fix the formatting, debug the iTeX.  (If things get really bad, they can even [[reality check|reboot reality]].)  You can help them by proofreading your material and fixing it (if you can) or making a note of what\'s wrong (if you can\'t).  But don\'t worry about it very much; the lab elves will come by and make everything all right.
 
+Anybody can be a lab elf, and most lab elves sign their own names.  Edits attributed to 'lab elf' are usually done by [[Andrew Stacey]] (I think), but who knows?
+
 
 category: meta
 
