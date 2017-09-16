@@ -135,6 +135,9 @@ In each case this yields the correct definition of morphism and isomorphism
 
 _Toby_:  But what is the definition of morphism for a set equipped with an irreflexive relation?  In many more structured examples (such as [[linear orders]] and [[apartness relations]]), at least, it is a function that *reflects* the relation instead of one that *preserves* the relation.
 
+_Long time lurker, first time writer_: I don't think of a graph as a set with binary relation so much as I think of it as a "set with an adjacency structure." If one views graphs as adjacency lists, as a computer scientist would say, then the correct definition of morphism becomes obvious. (That said, I don't know how well this generalizes to multigraphs -- I tend to do actual graph theory and therefore work with simple graphs 99.9% of the time.)
+
+All this makes me wonder if an approach along the following lines is possible: Define directed graphs in the broadest sense, as functors from the two-object, two-nontrivial-morphism category to the category of sets. As combinatorial objects, the obvious functor from the category of digraphs to the category of graphs is in fact a functor. Is there some analogous operation on the functor category of digraphs? (Apologies if some of the above doesn't make much sense, I'm writing this on way too little sleep.)
 
 [[!redirects undirected graph]]
 [[!redirects graph theory]]
