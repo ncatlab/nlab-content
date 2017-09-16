@@ -125,7 +125,7 @@ The following is supposed to going to be a list of linked keywords corresponding
 
 ### perfect stacks ###
 
-* [[(infinity,1)-cateory of (infinity,1)-sheaves]]
+* [[(infinity,1)-category of (infinity,1)-sheaves]]
 
 #### definition of a perfect stack ####
 
