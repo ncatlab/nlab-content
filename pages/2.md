@@ -16,7 +16,6 @@
   * [[HowTo|HowTo]]
   * [[FAQ|FAQ]]
   * [Latest Changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
-  * [[request for help|Request For Help]]
   * [[inbound citations|Inbound Citations]]
   * [[Sandbox|Sandbox]]
 
