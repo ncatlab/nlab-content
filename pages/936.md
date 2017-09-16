@@ -23,5 +23,12 @@ Any homotopy equivalence is also a [[weak homotopy equivalence]].  Conversely, a
 
 The homotopy equivalences are the [[weak equivalence]]s in the Str&oslash;m [[model structure on topological spaces]].  The [[homotopy category]] resulting from inverting all homotopy equivalences in [[Top]] is the same as that resulting from identifying homotopic maps.
 
+##  Strong homotopy equivalences
 
+Sometimes an apparently stronger form of homotopy equivalence is needed.  These seem to have been first noticed by [[Richard Lashof]] in 1970 in work on triangulation and smoothing. The point is one of the interaction between the two homotopies, which are not made explicit in the definition above. Let us set this up slightly differently:
+
+In a homotopy equivalence there are the two maps $f: X\to Y$ and $g: Y\to X$
+
+
+ 
 [[!redirects homotopy equivalences]]
