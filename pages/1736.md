@@ -4,7 +4,9 @@
 
 #Idea#
 
-Quillen equivalence is the right notion of [[equivalence]] for [[model category|model categories]].  Most importantly, it is weaker than [[equivalence of categories]].  The work of Dwyer--Kan, Bergner and others has shown that Quillen equivalent model categories [[presentable (infinity,1)-category|present]] equivalent [[(infinity,1)-category|(infinity,1)-categories]].
+A [[model category]] is a context in which we can do  [[homotopy theory]] or some generalization thereof; two model categories are 'the same' for this purpose if they are Quillen equivalent.  For example, the classic version of homotopy theory can be done using either [[topological space|topological spaces]] or [[simplicial sets]].  There is a model category of topological spaces, and a model category of simplicial sets, and they are Quillent equivalent.
+
+In short, Quillen equivalence is the right notion of [[equivalence]] for [[model category|model categories]] --- and most importantly, this notion is weaker than [[equivalence of categories]].  The work of Dwyer--Kan, Bergner and others has shown that Quillen equivalent model categories [[presentable (infinity,1)-category|present]] equivalent [[(infinity,1)-category|(infinity,1)-categories]].
 
 #Definition#
 
