@@ -190,8 +190,8 @@ The commutativity of the diagrams that we have established so far shows that the
 
 =--
 
-[[!redirects weak factorization systems]]
 
+[[!redirects weak factorization systems]]
 [[!redirects lifting property]]
 [[!redirects right lifting property]]
 [[!redirects left lifting property]]
