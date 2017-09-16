@@ -11,6 +11,7 @@ One of the tools of topology, [[homotopy theory]], has long since crossed the bo
 #some entries related to topology#
 
 * [[Top]], [[spectrum]], [[CW-complex]], [[general topology]]
+* [[induced topology]], [[subspace]]
 * [[topological space]], [[continuous map]], [[homeomorphism]], [[neighborhood]]
 * [[sphere]], [[Sierpinski space]]
 * [[pointed space]], [[contractible space]], [[connected space]], [[loop space]], [[second countable space]]
@@ -58,5 +59,4 @@ One of the tools of topology, [[homotopy theory]], has long since crossed the bo
 * [[homotopy hypothesis]], [[homotopy theory of Grothendieck]]
 * [[marked simplicial set]], [[model structure on marked simplicial over-sets]], [[topos]], [[Higher Topos Theory]]
 * [[stable (infinity,1)-category]], [[commutative ring spectrum]]
-* [[dendroidal set]], [[model structure on dendroidal sets]], [[cubical set]]
-
+* [[dendroidal set]], [[model structure on dendroidal sets]], [[cubical set]], [[cellular set]], [[Theta space]]
