@@ -4,13 +4,14 @@ Given a covector $\omega$ at $a$ and a [[tangent vector]] $v$ at $a$, the pairin
 
 Given a point $a$ in $X$ and a differentiable (real-valued) [[partial function]] $f$ defined near $a$, the __differential__ $\mathrm{d}_a f$ of $f$ at $a$ is a covector on $X$ at $a$; given a tangent vector $v$ at $a$, the pairing is given by
 $$ \langle{\mathrm{d}_a f, v}\rangle = v[f] ,$$
-thinking of $v$ as a [[derivation]] on differentiable functions defined near $a$.  (It is really the [[germ]] at $a$ of $f$ that matters here.)  More globally, given a differentiable function $f$, the __differential__ $\mathrm{d} f$ of $f$ is a covector field on $X$; given a vector field $v$, the pairing is given by
-$$ \langle{\mathrm{d} f, v}\rangle = v[f] ,$$
+thinking of $v$ as a [[derivation]] on differentiable functions defined near $a$.  (It is really the [[germ]] at $a$ of $f$ that matters here.)  More globally, given a differentiable function $f$, the __differential__ $\mathrm{d}f$ of $f$ is a covector field on $X$; given a vector field $v$, the pairing is given by
+$$ \langle{\mathrm{d}f, v}\rangle = v[f] ,$$
 thinking of $v$ as a derivation on differentiable functions.
 
-One can also *define* covectors at $a$ to be germs of differentiable functions at $a$, modulo the [[equivalence relation]] that $\mathrm{d}_a f = \mathrm{d}_a g$ if $f - g$ is constant on some neighbourhood of $a$.  In general, a covector field won\'t be of the form $\mathrm{d} f$, but it will be a sum of terms of the form $h \mathrm{d} f$.  More specifically, a covector field $v$ on a coordinate patch can be written
-$$ v = \sum_i v_i\, \mathrm{d} x^i $$
+One can also *define* covectors at $a$ to be germs of differentiable functions at $a$, modulo the [[equivalence relation]] that $\mathrm{d}_a f = \mathrm{d}_a g$ if $f - g$ is constant on some neighbourhood of $a$.  In general, a covector field won\'t be of the form $\mathrm{d}f$, but it will be a sum of terms of the form $h \mathrm{d}f$.  More specifically, a covector field $\omega$ on a coordinate patch can be written
+$$ \omega = \sum_i \omega_i\, \mathrm{d}x^i $$
 in local coordinates $(x^1,\ldots,x^n)$.
+This fact can also be used as the basis of a definition of the cotangent bundle.
 
 
 [[!redirects cotangent vector]]
