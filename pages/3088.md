@@ -10,6 +10,40 @@
 
 ## Idea {#Idea}
 
+A notion of _internal [[∞-groupoid]]_ is a [[vertical categorification]] of [[internal groupoid]]. As described at that entry on [[vertical categorification]], there is some flexibility possible in exactly what one may mean by this, depending for instance on which of several definitions of ordinary [[groupoid]]s one starts with, and how one deals with the higher coherences that are introduced upon categorification.
+
+
+The standard model for general ("weak") [[∞-groupoid]]s is given by the notion of [[Kan complexes]]. A very general notion of internal $\infty$-groupoid is given by a notion of Kan complex-up-to-homotopy internal to an [[(∞,1)-category]].
+
+This is described below in the section
+
+* [Kan complexes internal to an (∞,1)-category](#KanInoo1Cat).
+
+For various applications somewhat stricter or at least more rigidified models for this may be useful. Notably one may wish to speak of Kan complexes internal to an ordinary category. This is discussed below in the section
+
+* [Kan complexes internal to an ordinary category](#KanIn1Cat).
+
+Notice from the discussion there that these two aspects may and often do interplay: simplicial sets internal to [[Grothendieck topos|sheaf topos]]es may be used to [[presentable (infinity,1)-category|present]] [[(∞,1)-category|(∞,1)-categories]] inside of which one may be interested in $\infty$-groupoid objects in the first sense. For instance a Lie $\infty$-group object is usefully thought of as a _group object_ internal to the [[(∞,1)-topos]] presented by [[model structure on simplicial presheaves|a model of simplicial sets in]] the [[category of sheaves]] on [[Diff]].
+
+Finally, a simplified version of [[∞-groupoid]] is often sufficient and useful: that given by [[strict omega-groupoid|strict ∞-groupoid]]s, equivalently [[crossed complexes]]. These may be straightforwardly [[internalization|internalized]] in any ordinary categoy with [[pullback]]s. This is discussed in
+
+* [Internal strict $\infty$-groupoids](#Strict)
+
+Under the internal [[omega-nerve]] operatiion this will embed into the definition of Kan complexes in an ordinary category mentioned before. Even if one is interested just in strict $\infty$-groupoids, this embedding is useful in order to understand what the right notion of morphisms between these objects is, and what the extra [[descent]] conditions are that a proper internal formulation turns out to require on top of the conditions known from the external formulation (all this is discussed below). For that purpose [[Dominic Verity]]'s theorem described at
+
+* [[Verity on descent for strict omega-groupoid valued presheaves]]
+
+is very useful.
+
+
+## Kan complexes internal to an $(\infty,1)$-category {#KanInoo1Cat}
+
+This is described in detail at
+
+* [[groupoid object in an (∞,1)-category]]
+
+## Kan complexes in an ordinary category {#KanIn1Cat}
+
 A standard model for general [[∞-groupoid]]s is given by [[simplicial set]]s that are [[Kan fibration|Kan fibrant]]: [[Kan complex]]es. It is straightforward to [[internalization|internalize]] the [[horn]]-filler condition that characterizes [[Kan complex]]es from the [[category]] [[SSet]] of [[simplicial object]]s in [[Set]] to one of [[simplicial objects]] in any category $C$ with a bit of suitable structure. 
 
 * This is described in [Internal horn filler condition](#InternalHornFillers), below.
@@ -31,10 +65,10 @@ A little bit of theory for this exists for the slightly more general case that $
 For more general $C$ not much is known. 
 
 
-## Definition
+### Definition
 
 
-### Internal horn filler condition {#InternalHornFillers}
+#### Internal horn filler condition {#InternalHornFillers}
 
 The [[Kan complex]] definition of [[∞-groupoid]] may be [[internalization|internalized]] to more general categories. Namely:
 
@@ -47,7 +81,7 @@ In particular, if $C$ is a [[left exact category]] equipped with a [[Grothendiec
 Another, almost equivalent, way to describe the Kan conditions expressed in this way is by saying that "the Kan conditions are satisfied" is true in the [[internal logic]] of the [[site]] $C$, or equivalently the internal logic of its [[Grothendieck topos]] of sheaves (after applying the [[Yoneda embedding]] to obtain a simplicial object in this topos).  Of course, if $C$ is itself a Grothendieck topos, then it is equivalent to the topos of sheaves on itself for its [[canonical topology]].  (This is only "almost equivalent" if the Grothendieck pretopology is in fact a topology.)
 
 
-### In terms of simplicial sheaves {#SimplicialSheaves}
+#### In terms of simplicial sheaves {#SimplicialSheaves}
 
 If the category $C$ is a [[Grothendieck topos]], i.e. a [[category of sheaves]] (of sets) $C = Sh(S)= Sh(S,Set)$ on some small [[site]], then [[simplicial object]]s in $C$ are the same as [[simplicial sheaves]] on $S$
 
@@ -58,7 +92,7 @@ $$
 
 There are various ([[Quillen equivalence|Quillen equivalent]]) [[model category]] structures on the categories of simplicial sheaves or presheaves on a small site; see [[model structure on simplicial presheaves]] and [[model structure on simplicial sheaves]] for more.  An $\infty$-groupoid in $C$ may be taken to be a fibrant object with respect to one of these model category structures.
 
-### Comparison {#Comparison}
+#### Comparison {#Comparison}
 
 The two definitions are *not* equivalent even when $C$ is a Grothendieck topos; the second is strictly stronger.  Consider, for instance, a Grothendieck topos $C = Sh(S)$ and an [[internal groupoid]] in $C$, i.e. a sheaf of groupoids on $S$, but which is not a [[stack]].  Then the [[nerve]] of this internal groupoid will satisfy the Kan conditions in the sense of the first definition (by repeating the usual proof that the nerve of a groupoid is a Kan complex in the internal logic), but it will not be fibrant as a simplicial sheaf (since it is not a stack).
 
@@ -86,7 +120,9 @@ Therefore fibrant $X \in Sh(S,SSet)$ have the property that for all $n, k$ the c
 
 Note that the local model structure on simplicial sheaves also contains information about the *cofibrant* objects, which (it can be argued) are necessary to get the right notion of *morphism* between "internal $\infty$-groupoids."  Every Kan complex in $Set$ is cofibrant, but the same cannot be expected to be true everywhere, and in general a (weak) "internal $\infty$-functor" should be expected to be a map out of a cofibrant replacement.
 
-## Examples
+
+
+### Examples
 
 Here are some examples of internal $\infty$-groupoids according to the first definition (that is, internal Kan complexes).
 
@@ -95,6 +131,11 @@ Here are some examples of internal $\infty$-groupoids according to the first def
 * In particular, if $G$ is a [[topological group]], then $N(\mathbf{B}G)$ is a topological $\infty$-groupoid. This is relevant to the construction of the [[classifying spaces]] for continuous [[principal bundles]].
 
 * Another classical example consists of the [[∞-Lie groupoids]].
+
+
+## Internal strict $\infty$-groupoids {#Strict}
+
+...
 
 
 [[!redirects Internal infinity-groupoid]]
