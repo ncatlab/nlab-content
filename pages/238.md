@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-03-14
+
+*  [[Tim Porter|Tim]]: I have included a discussion of th nerve of an [[internal category]] at that entry.
+
 # 2009-03-13
 
 *  [[Tim Porter|Tim]]: I have changed the initial sentence of [[homotopy n-type]].  I think this is converging well thanks to the efforts of Mike and Toby. 
