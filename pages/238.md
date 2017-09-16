@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-22 #
 
+*  _David_ added exposition references to [[pure motive]]
+
 * [[Urs Schreiber|Urs]] 
 
   * added explicit description of colimits in $Set$ to [[limits and colimits by example]] -- I have a dumb question: frequently I want to use displayed math equations in a bullet list item. But more often than not when I try this the parser gets very mixed up and produces weirly formatted output -- what am I doing wrong??
