@@ -1,9 +1,5 @@
 **Classical mathematics** is [[mathematics]] as it is "normally" practised (or, sometimes, as it used to be practiced), and particulary using commonly accepted [[foundations]].
 
-+-- {: .query}
-Mike, maybe I don\'t understand what you\'re trying to say; but to me, 'Classical mathematics refers to mathematics [...]' is simply a grammatical error; classical mathematics *is* certain mathematics, while the phrase 'classical mathematics' *refers to* that mathematics.  ---Toby
-=--
-
 This is a vague term, but some of the things that it might mean are:
 *  use of [[classical logic]] and the [[axiom of choice]], in contrast to [[constructive mathematics]];
 *  free use of [[power sets]] and [[infinite sets]], in contrast to [[predicative mathematics]] and [[finite mathematics]];
