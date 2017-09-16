@@ -18,7 +18,7 @@ Just as a [[Kan complex]] is a model in terms of [[simplicial set]]s of an [[∞
 ## Definition
 
 
-A quasi-category is a [[simplicial set]] in which all _inner_ [[horn]]s have fillers. This means that the lifting condition given at [[Kan complex]] is imposed only for horns $\Lambda^i[n]$ with $0 \lt i \lt n$.
+A **quasi-category** or [[weak Kan complex]] is a [[simplicial set]] in which all _inner_ [[horn]]s have fillers. This means that the lifting condition given at [[Kan complex]] is imposed only for horns $\Lambda^i[n]$ with $0 \lt i \lt n$.
 
 +-- {: .query}
 _Stephen Gaito_: If we want to weaken this even further to provide a simplicial model of, for example, a [[(∞,2)-category]], how would we do this?
@@ -88,11 +88,11 @@ it was shown that this homotopy coherent nerve was a quasi-category if the simpl
  
 Their importance as a basis for [[category theory]] has been emphasized in the work by [[André Joyal]]
 
-* A. Joyal, _Quasi-categories and Kan complexes_, J. Pure Appl. Algebra, 175 (2002), 207-222.
+* [[André Joyal]], _Quasi-categories and Kan complexes_, J. Pure Appl. Algebra, 175 (2002), 207-222.
 
 For several years Joyal has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive writup of lecture notes does:
 
-* [[Andre Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
+* [[André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
 
 Meanwhile [[Jacob Lurie]], building on Joyal's work, has considerably pushed the theory further. A comprehensive discussion of the theory of $(\infty,1)$-categories in terms of the models [[quasi-category]] and [[simplicially enriched category]] is
 
