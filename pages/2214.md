@@ -27,6 +27,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-01
 
+*  [[Rafael Borowiecki]]:
+  * Suggested that manifold objects should be treated or at least mentioned at [[manifold]].
+  * Provided references for my question at [[Bousfield localization]].
+  * Split the subsection what is category theory at [[category theory]] into two parts: In the narrow sense and In the wide sense. This makes sense.
+  * Added briefly how toposes and higher categories come into category theory as a foundations at [[category theory]].
+  * Added what it means for category theory to be a unifying tool and language in mathematics at [[category theory]].
+  * Replied to the discussion at [[category theory]].
+
+  I see the migration went well, at least so far. :)
+
 *  [[Toby Bartels]]:  Happy September!!!
 
 *  [[Toby Bartels]]:  Now, you know it\'s not September for another half hour, right?  (^_^)
