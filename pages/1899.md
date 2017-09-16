@@ -85,6 +85,15 @@ That means that for $a \in A$, $\Delta(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$
 
   (Indeed, our argument here has shown more generally that if $X$ is a category with finite products, the category of comonoid objects in $X$ is equivalent to $X$.  Something about $AbGp$ is making these comonoid objects be co-abelian group objects.)
 
+  +-- {: .query}
+  [[Andrew Stacey]]: I missed the inclusion of the above paragraph first time round.  History ascribes it to John, am I reading that right?
+
+  Expanding your statement, then the above shows that the category of comonoid objects in $(X,\times,1)$ (where $1$ is a terminal object) is equivalent to $X$.  The "[s]omething about $AbGrp$" is that in $AbGrp$ then finite coproducts are the same as finite products.  Thus a monoid object in $(AbGrp^{op},\times^{op},1^{op})$ is the same as a comonoid object in $(AbGrp,\coprod,0)$ which is the same as a comonoid object in $(AbGrp,\prod,1)$.  I guess we implicitly use the fact that monoids (and thus comonoids) can be specified by finitary operations and relations.
+
+  PS Don't forget to indent paragraphs in this query box.
+
+  =-- 
+
   It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric). For details on this see _The Hunting of the Hopf Ring_, referred to belelow.  This monoidal structure for abelian groups turns out to be the tensor product.
 
   Thus a Tall--Wraith monoid for abelian groups is actually an ordinary monoid in the category of abelian groups: in other words, a [[ring]]!
