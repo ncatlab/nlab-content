@@ -2,9 +2,11 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea ##
 
 An _irreducible representation_ --  often abbreviated _irrep_ -- is a [[representation]] that has no smaller non-trivial representations "sitting inside it".
+
 
 ## Definition ##
 
@@ -19,3 +21,4 @@ A representation that has proper nontrivial subrepresentations but can not be de
 
 
 [[!redirects irrep]]
+[[!redirects irreducible representations]]
