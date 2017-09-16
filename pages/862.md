@@ -1,0 +1,1 @@
+A **loset** is a [[set]] equipped with a [[linear order]].
