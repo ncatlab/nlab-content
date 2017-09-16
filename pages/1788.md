@@ -2,6 +2,7 @@
 Every wiki needs a sandbox! Just test between the horizontal rules below (`***` in the source) and don't worry about messing things up.
 =--
 
+
 ***
 
 ## XYPic diagrams using CodeCogs
@@ -26,6 +27,21 @@ that you have in ordinary xypic code have to be replaced (unfortunately) by the 
       %26
 
 otherwise the $n$Lab parser gets mixed up.
+
+
+Another diagram using `\array`:
+
+$$\array{
+X&\cong&S^{\Delta^1}_f &\to &Y^{\Delta^1}&\to& S^{\Delta^1}&
+\\ &\searrow&\downarrow &Pb &\downarrow&Pb&\downarrow
+\\ L_f&\cong &S_{t'} & \to &L'&\to& L & \to & S^{\{1\}} &
+\\ &&\downarrow &Pb&\downarrow&Pb&\downarrow&Pb&\downarrow p
+\\ &&\Delta^{0} & \to &(\Delta^1)^{\Delta^1} &\to& T^{\Delta^1} & \to & T^{\{1\}}
+\\ &&&id&&(f)^{\Delta^1}&&d_1}$$
+
+
+***
+
 category: meta
 
 [[!redirects Symbol Sandbox]]
