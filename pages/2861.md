@@ -33,11 +33,17 @@ There is a [[cartesian closed category|cartesian closed]] [[category with weak e
 
   I do know what a $(-2,0)$-category is, a triviality as you say.  But for $n \gt 0$, an $(n-2,n)$-category is the same as an $(n-2,n-1)$-category as far as I can see.  (Note: I say this *without* having worked through your version, but just thinking about what $(n,r)$-categories should be, as at [[(n,r)-category]].)  ---Toby
 
-  I would say: $(n-2,n)$-category is a trivial concept, for every $n$, though $(n-2,n-1)$ isn't.  An $(n+1+k,n+1)$-category should amount to a category enriched over $(n+k,n)$-categories.  An $(-2,0)$-category is trivial (a point); an $(-1,1)$-category is a category enriched over the point, and so equivalent to the terminal category; an $(0,2$-category is a category enriched over categories which are equivalent to the terminal category (and so equivalent to the terminal $2$-category, etc.) -- Charles R.
+  I would say: $(n-2,n)$-category is a trivial concept, for every $n$, though $(n-2,n-1)$ isn't.  An $(n+1+k,n+1)$-category should amount to a category enriched over $(n+k,n)$-categories.  An $(-2,0)$-category is trivial (a point); an $(-1,1)$-category is a category enriched over the point, and so equivalent to the terminal category; an $(0,2)$-category is a category enriched over categories which are equivalent to the terminal category (and so equivalent to the terminal $2$-category, etc.) -- Charles R.
 
-  H\'m, that is a good argument.  (Sorry for not noticing before that you *are* Charles Rezk; for some reason I though of [[Charles Wells]].)  ---Toby
+  <del>H\'m, that is a good argument.</del>
+
+  (Sorry for not noticing before that you *are* Charles Rezk; for some reason I though of [[Charles Wells]].)  ---Toby
 
   [[David Roberts]]: I'm a little confused. The way I think about it, and I may have the indexing wrong, is that in an $(n,n+2)$-category $C$, for _all_ pairs of $n$-arrows $x,y$, there is a unique $n+1$-arrow between them. This implies that $x$ and $y$ are parallel, in particular, that $C$ has a single $(n-1)$-arrow. 
+
+  _Toby_:  Wait, I don\'t buy Charles\'s argument after all.  Yes, a $(-1,1)$-category is a category enriched over the point, but that doesn\'t make it necessarily the terminal category; it makes it a truth value.  If it has an object, then it\'s trivial, but it might be empty instead.  The difference between a $(-1,1)$-category and a $(-1,0)$-category is that every $0$-morphism in the latter must be invertible, which is no difference at all; that\'s why we have this repetition.  (And thereafter it propagates indefinitely.)
+
+  Similarly, with David\'s argument, what if $C$ has no $n$-arrows at all?
   =--
 
 as the [[category of fibrant objects]] in a [[model category]] $\Theta_n Sp_k$. The underlying [[category]] of this is the category $SPSh(\Theta_n)$ on a certain category $\Theta_n$, equipped with a model structure obtained as a left [[Bousfield localization]] of the global injective [[model structure on simplicial presheaves]].
