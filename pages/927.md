@@ -1,1 +1,3 @@
-See also [[Postnikov system]]. 
+See [[Postnikov system]].
+
+category: redirect
