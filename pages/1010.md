@@ -83,3 +83,18 @@ Note that $U\Set$ itself is $U$-large and locally $U$-small.
 Let $C$ be a $U$-small category.  Then the category of $U$-[[presheaf|presheaves]] on $C$ (the [[functor category]] $[C^{op}, U\Set]$) is also $U$-large and locally $U$-small, but not $U$-small unless $C$ is empty.
 
 Now let $C$ be a $U$-large category (and not small).  Then the category of $U$-presheaves on $C$ is not even locally $U$-small, nor is it even $U$-large (it is 'too large to be large').  However, it is locally $U$-large.  Also, it is quite possible, if $C$ is a $U$-[[large site]], that the category of $U$-[[sheaf|sheaves]] on $C$ is $U$-large and locally $U$-small.
+
++-- {: .query}
+
+[[Zoran Skoda]] But starting with a $U$-small category one can look at the category of $U$-small presheaves instead of all presheaves.
+This has been useful in hmotopy theory, there is for example
+a paper by Chorny and Dwyer using it. Look also at the paper by Day and Lack on limits of small functors.
+www.maths.usyd.edu.au/u/stevel/papers/small.pdf 
+ I once listened a talk by Chorny in Barcelona where he was convincing that in practice we should use small Yoneda lemma rather than the usual Yoneda, he had arguments that a number of things are more natural, but I have not being taking notes and he never wrote those things in a paper as far as I know (I do not see them in his other papers in which he uses small presheaves but without some of that discussion).
+See anyway
+http://wwwmaths.anu.edu.au/~chorny/personal/research/
+and also earlier minipreprint version
+http://www.math.uwo.ca/~bchorny2/research/smalldiag.ps
+the results of Chorny-Dwyer is cited  (I did not look yet how much used yet) by Rosicky in Accessible categories and homotopy theory
+www.math.yorku.ca/~tholen/HB07Rosicky.pdf
+=--
