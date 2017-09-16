@@ -1,1 +1,3 @@
-See [[Zoran Skoda|Zoran Skoda]].
+See [[Zoran Skoda]].
+
+category: redirect
