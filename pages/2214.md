@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-04
 
+* [[Zoran Škoda]]: surely Grothendieck invented stacks in general categorical sense and had a picture in various setups; Deligne and Mumford did invent a particular kind of [[algebraic stack]] and tailored it toward a very specific application. 
+
 * [[Rafael Borowiecki]]: 
 
   * I was before talking about edit 143 of the timeline by Toby Bartels. I am now trying to figure out what it changed. The other edits i understand.
