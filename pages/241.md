@@ -15,6 +15,8 @@ For a given fixed [[ETCS|category of sets]] $S$, a __Grothendieck [[topos]]__ ov
   * This perspective is useful for defining the [[vertical categorification]] of sheaves: [[stacks]] and [[∞-stacks]]: the higher categories of these may be defined as geometric embeddings into higher categories of presheaves. This has been worked out in detail for [[(∞,1)-categories]]. See [[(∞,1)-category of (∞,1)-sheaves]].
 
 
+  * Sometimes it is useful to distinguish between [[petit topos]] and [[gros topos]].
+
 #Giraud characterization of Grothendieck topoi#
 
 Giraud characterized Grothendieck toposes as categories satisfying certain exactness and small [[complete category|completeness]] properties (where "small" is again relative to the given category of sets $S$). The exactness properties are elementary (not depending on $S$), and are satisfied in any elementary [[topos]], or even a [[pretopos]].
