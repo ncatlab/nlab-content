@@ -39,9 +39,9 @@ This correspondence is [[model category|modeled]]
 * in the case of $(\infty,1)$-categories by a Quillen equivalence between the [[model structure for Cartesian fibrations]] and the [[global model structure on functors]] with values in the [[model structure on marked simplicial over-sets|model structure on marked simplicial sets]].
 
 
-## For $\infty$-groupoids
+## For fibrations in $\infty$-groupoids
 
-
+The generalization of a [[category fibered in groupoids]] to [[quasi-category]] theory is a [[right fibration|right]] [[fibrations of quasi-categories|fibration of quasi-categories]].
 
 +-- {: .un_theorem}
 ###### Theorem 
@@ -63,8 +63,6 @@ where
 
 
 In the next section we discuss how this statement is presented in terms of [[model categories]].
-
-> (For the moment that also serves to define what the left hand side of the equivalence in the above theorem is).
 
 
 
@@ -220,7 +218,10 @@ Hence the unstraightening functor is what models the Grothendieck construction p
 
 
 
-## For $(\infty,1)$-categories
+## For general fibered $(\infty,1)$-categories
+
+The generalization of a [[fibered category]] to [[quasi-category]] theory is a [[Cartesian fibration|Cartesian]] [[fibrations of quasi-categories|fibration of quasi-categories]].
+
 
 +-- {: .un_theorem}
 ###### Theorem 
@@ -232,22 +233,20 @@ $$
   Cart(C) \simeq Func(C^{op}, (\infty,1) Cat)
 $$
 
-where in the left we have the $(\infty,1)$-category of [[Cartesian fibration]]s over $C$ and on the right the [[(∞,1)-category of (∞,1)-functors]] from $C^{op}$ to the [[(∞,1)-category of (∞,1)-categories]].
+where 
+
+* on the left we have the $(\infty,1)$-category of [[Cartesian fibration]]s over $C$ -- incarnated as the full [[SSet]]-[[subcategory]]
+of the [[overcategory]] $SSet/C$ on [[Cartesian fibration]]s;
+
+* and on the right the [[(∞,1)-category of (∞,1)-functors]] from $C^{op}$ to the [[(∞,1)-category of (∞,1)-categories]].
 
 =--
 
 
 In the next section we discuss how this statement is presented in terms of [[model categories]].
 
-> (For the moment that also serves to define what the left hand side of the equivalence in the above theorem is).
-
-See also
-
-* [[universal fibration of (∞,1)-categories]]. 
-
 
 ### Model category presentation
-
 
 
 Regard the [[(∞,1)-category]] $C$ in its incarnation as a [[simplicially enriched category]].
@@ -280,18 +279,6 @@ If $\phi$ is an equivalence in the [[model structure on simplicial categories]] 
 This is [[Higher Topos Theory|HTT, theorem 3.2.0.1]].
 
 =--
-
-## Examples
-
-### Cartesian fibrations over simplices {#CartOverSimplex}
-
-
-... for the moment see [[Higher Topos Theory|HTT, section 3.2.2]] ...
-
-
-## Relation between the $(\infty,0)$- and the $(\infty,1)$-case
-
-...
 
 ### Relation beween the model structures
 
@@ -330,6 +317,25 @@ Where from left to right we have
 The first and third Quillen adjunction here is a [[Quillen equivalence]] if $S$ is a [[Kan complex]].
 
 =--
+
+
+
+
+
+## Examples
+
+### Cartesian fibrations over simplices {#CartOverSimplex}
+
+
+... for the moment see [[Higher Topos Theory|HTT, section 3.2.2]] ...
+
+
+### The universal Cartesian fibration
+
+for the moment see
+
+* [[universal fibration of (∞,1)-categories]]. 
+
 
 
 [[!redirects (∞,1)-Grothendieck construction]]
