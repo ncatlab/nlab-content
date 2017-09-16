@@ -15,7 +15,11 @@ $$
 
 is the **electric charge**  encoded by this configuration of the [[electromagnetic field]].
 
-Notice that due to the above equation $d j_{el} = 0$, so that $Q$ is independent of the choice of $\Sigma$. This models the physical phenomenon of _charge conservation_ .
+Notice that due to the above equation $d j_{el} = 0$, so that $Q$ is independent of the choice of $\Sigma$. When unwrapped into separate space and time components, the expression $d j_{el} = 0$ may be expressed as
+
+$$div j + \frac{\partial\rho}{\partial t} = 0$$
+
+which is a statement of the physical phenomenon of _charge conservation_ .
 
 # Remarks #
 
