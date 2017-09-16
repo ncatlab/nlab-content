@@ -40,3 +40,6 @@ A [[net]] is a generalisation of a sequence; the definitions above serve to defi
 Note that in a [[complete space]], every Cauchy net has a limit, not just every Cauchy sequence.  However, a space in which every Cauchy sequence converges is called __sequentially complete__.  Note that a metric space (or even a Lawvere metric space) is complete if and only if it is Cauchy complete; in particular, the real line $\mathbf{R}$ is complete.
 
 When [[Bill Lawvere]] idenitified Lawvere metric spaces with [[enriched categories]] over the [[closed monoidal category|closed monoidal]] [[poset]] $(\mathbf{R},+)$, he identified Cauchy sequences in such spaces with certain [[adjunction]]s of [[bimodule]]s, enough so that a metric space would be a Cauchy [[complete space]] if and only if every adjunction of bimodules in induces by an [[enriched functor]].  Generalising this condition from $(\mathbf{R},+)$ to an arbitrary closed monoidal category, we have the concept of [[Cauchy complete category]].
+
+
+[[!redirects Cauchy net]]
