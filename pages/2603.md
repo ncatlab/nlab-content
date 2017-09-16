@@ -37,3 +37,7 @@ When $\mathcal{X}$ and $\mathcal{Y}$ are simply sets, the angle between them is 
 $$cos\theta_{{\mathcal{X}},{\mathcal{Y}}} = \frac{|X\cap Y|}{\sqrt{|X||Y|}}.$$
 
 With this notion of addition, the collection of multisets in $U$ becomes the $\mathbb{N}$-[[module]] (that is [[abelian group]]) $\mathbb{N}^U$; this inner product makes it an [[inner product space]] analogous to the Banach space $\mathbb{R}^n$.
+
+## Machine Learning ##
+
+The inner product of multisets is closely related to the "bag of words" kernel in machine learning (see <a href="http://golem.ph.utexas.edu/category/2007/06/kernels_in_machine_learning_ii.html">n-Cafe</a>).
