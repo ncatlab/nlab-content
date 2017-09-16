@@ -1,3 +1,2 @@
-See [[ordinal number]].
-
-category: redirect
+&lt; [[ordinal]]
+[[!redirects ordinal -- history]]
