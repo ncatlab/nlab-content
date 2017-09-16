@@ -16,6 +16,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-08-17
+
+* [[David Corfield]]: Started [[ideal completion]] and [[foundations and philosophy]].
+
 ## 2009-08-16
 
 * [[Charles Wells]] Lightly edited [[category theory]], notably introducing posets as another example of a category.
