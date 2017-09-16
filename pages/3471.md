@@ -106,7 +106,7 @@ $$
 
 and hence assigns to each object $A\in \mathcal{T}$ its set of [[global element]]s $\Gamma(A) = Hom_E(*,A)$. 
 
-The [[left adjoint]] $const : Set \to E$ of the global section functor is the canonical [[Set]]-[[copower|tensoring]] functor
+The [[left adjoint]] $LConst : Set \to E$ of the global section functor is the canonical [[Set]]-[[copower|tensoring]] functor
 
 $$
   \otimes : Set \times \mathcal{T} \to \mathcal{T}
@@ -131,6 +131,8 @@ $$
   \mathcal{T} \stackrel{\stackrel{LConst}{\leftarrow}}{\overset{\Gamma}{\to}} Set
   \,.
 $$
+
+If the topos $\mathcal{T}$ is a [[locally connected topos]] then the left adjoint functor $LConst$ is also a right adjoint, its left adjoint being the functor $\Pi_0 : \mathcal{T} \to Set$ that sends an object to its set of connected components.
 
 ### Of objects in an $(\infty,1)$-topos
 
