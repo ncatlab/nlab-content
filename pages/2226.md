@@ -56,10 +56,8 @@ In the present Example, $S$ = $I$ = Syntactic Domain.
 
 The next two Tables give the sign relations associated with the interpreters $\mathrm{A}$ and $\mathrm{B}$, respectively, putting them in the form of relational databases.  Thus, the rows of each Table list the ordered triples of the form $(o, s, i)$ that make up the corresponding sign relations, $L_{\mathrm{A}}, L_{\mathrm{B}} \subseteq O \:\times\: S \:\times\: I$.  It is often tempting to use the same names for objects and for relations involving these objects, but it is best to avoid this in a first approach, taking up the issues that this practice raises after the less problematic features of these relations have been treated.
 
-$$
-\array{
-\array{
-\arrayopts{\frame{solid}\rowlines{solid solid none}}
+$$\array{
+\array{\arrayopts{\frame{solid}\rowlines{solid solid none}}
 \cellopts{\colspan{3}} L_{\mathrm{A}} = \text{Sign Relation of Interpreter A} \\
 Object & Sign & Interpretant \\
 \mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
@@ -71,8 +69,7 @@ Object & Sign & Interpretant \\
 \mathrm{B} & \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
 \mathrm{B} & \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime  }
 &
-\array{
-\arrayopts{\frame{solid}\rowlines{solid solid none}}
+\array{\arrayopts{\frame{solid}\rowlines{solid solid none}}
 \cellopts{\colspan{3}} L_{\mathrm{B}} = \text{Sign Relation of Interpreter B} \\
 Object & Sign & Interpretant \\
 \mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
@@ -83,8 +80,7 @@ Object & Sign & Interpretant \\
 \mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime \\
 \mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
 \mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime  }
-}
-$$
+}$$
 
 These Tables codify a rudimentary level of interpretive practice for the agents $\mathrm{A}$ and $\mathrm{B}$, and provide a basis for formalizing the initial semantics that is appropriate to their common syntactic domain.  Each row of a Table names an object and two co-referent signs, making up an ordered triple of the form $(o, s, i)$ that is called an _elementary sign relation_, that is, one element of the relation's set-theoretic extension.
 
@@ -92,34 +88,29 @@ Already in this elementary context, there are several different meanings that mi
 
 ## Dyadic aspects of sign relations ##
 
-For an arbitrary 3-adic relation $L \subseteq X \:\times\: Y \:\times\: Z = X_1 \:\times\: X_2 \:\times\: X_3$, sign relation or not, there are six 2-adic (or 2-ary) relations that are obtained by projecting $L$ on one of the planes of the $X Y Z$-space $X \:\times\: Y \:\times\: Z$.  Various notations for these projections are defined in such a way that all of the forms on any one row below are equivalent:
+For an arbitrary 3-adic relation $L \subseteq X \:\times\: Y \:\times\: Z = X_1 \:\times\: X_2 \:\times\: X_3$, there are six 2-adic (or 2-ary) relations that are obtained by projecting $L$ on one of the planes of the $X Y Z$-space $X \:\times\: Y \:\times\: Z$.  Various notations for these projections are defined by the following sequence of equations:
 
-$$\array{
-\arrayopts{\colalign{left}}
+$$\array{\arrayopts{\colalign{left}}
 L_{X Y} & = & proj_{X Y} L & = & L_{12} & = & proj_{12} L & = &
-\{ (x, y) \in X \:\times\: Y : (x, y, z) \in L \: (\exists z \in Z) \}
-\\
+\{ (x, y) \in X \:\times\: Y : (x, y, z) \in L \: (\exists z \in Z) \} \\
 L_{X Z} & = & proj_{X Z} L & = & L_{13} & = & proj_{13} L & = &
-\{ (x, z) \in X \:\times\: Z : (x, y, z) \in L \: (\exists y \in Y) \}
-\\
+\{ (x, z) \in X \:\times\: Z : (x, y, z) \in L \: (\exists y \in Y) \} \\
 L_{Y X} & = & proj_{Y X} L & = & L_{21} & = & proj_{21} L & = &
-\{ (y, x) \in Y \:\times\: X : (x, y, z) \in L \: (\exists z \in Z) \}
-\\
+\{ (y, x) \in Y \:\times\: X : (x, y, z) \in L \: (\exists z \in Z) \} \\
 L_{Y Z} & = & proj_{Y Z} L & = & L_{23} & = & proj_{23} L & = &
-\{ (y, z) \in Y \:\times\: Z : (x, y, z) \in L \: (\exists x \in X) \}
-\\
+\{ (y, z) \in Y \:\times\: Z : (x, y, z) \in L \: (\exists x \in X) \} \\
 L_{Z X} & = & proj_{Z X} L & = & L_{31} & = & proj_{31} L & = &
-\{ (z, x) \in Z \:\times\: X : (x, y, z) \in L \: (\exists y \in Y) \}
-\\
+\{ (z, x) \in Z \:\times\: X : (x, y, z) \in L \: (\exists y \in Y) \} \\
 L_{Z Y} & = & proj_{Z Y} L & = & L_{32} & = & proj_{32} L & = &
-\{ (z, y) \in Z \:\times\: Y : (x, y, z) \in L \: (\exists x \in X) \}
-}$$
+\{ (z, y) \in Z \:\times\: Y : (x, y, z) \in L \: (\exists x \in X) \} }$$
 
-By way of unpacking the set-theoretic notation, here is what the first definition says in ordinary language.  The 2-adic relation that results from the projection of $L$ on the $X Y$-plane $X \:\times\: Y$ is written briefly as $L_{X Y}$, or written more fully as $proj_{X Y} L$, and it is defined as the set of all ordered pairs $(x, y)$ in the cartesian product $X \:\times\: Y$ for which there exists an ordered triple $(x, y, z)$ in $L$ for some element $z$ in the domain $Z$.
-
-### Connotation ###
+By way of unpacking the set-theoretic notation, here is what the first definition says in ordinary language.  The 2-adic relation that results from the projection of $L$ on the $X Y$-plane $X \:\times\: Y$ is written as $L_{X Y}$, $proj_{X Y} L$, $L_{12}$, or $proj_{12} L$, and it is defined as the set of ordered pairs $(x, y)$ in $X \:\times\: Y$ such that $(x, y, z)$ is in $L$ for some $z$ in $Z$.
 
 ### Denotation ###
+
+One aspect of a sign's meaning is concerned with the reference that a sign has to its objects, which objects are collectively known as the _denotation_ of the sign.  Given a sign relation $L \subseteq O \:\times\: S \:\times\: I$, the projections $L_{O S} \subseteq O \:\times\: S$ and $L_{S O} \subseteq S \:\times\: O$ make up a converse pair of 2-adic relations that tell us everything there is to know about the relationship between objects and signs in $L$.
+
+### Connotation ###
 
 ### Ennotation ###
 
