@@ -1,6 +1,6 @@
 # Definition #
 
-A **Galois connection** is a [[dual adjunction]] between [[poset]]s.
+A **Galois connection** is a [[dual adjunction]] between [[partial order|poset]]s.
 
 More explicitly, given posets $A$ and $B$, a Galois connection between $A$ and $B$ is a pair of order-reversing maps $f:A\to B$ and $g:B\to A$ such that $a\le g(f(a))$ and $b\le f(g(b))$ for all $a\in A$, $b\in B$.
 
