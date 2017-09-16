@@ -29,6 +29,8 @@
 
   * [[Kan extension]]
 
+  * [[Grothendieck construction]]
+
 * [[(n,r)-category]]
 
   * [[monoidal category]]
