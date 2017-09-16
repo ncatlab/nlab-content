@@ -65,6 +65,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Omar Antolín-Camarena]]
 * [[Owen Biesel]]
 * [[Patrick Schultz]]
+* [[Peter Arndt]]
 * [[Peter LeFanu Lumsdaine]]
 * [[Rafael Borowiecki]]
 * [[Reid Barton]]
