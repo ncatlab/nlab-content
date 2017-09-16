@@ -1,6 +1,10 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
-The Palatini- or [[first-order formulation of gravity|first order formulation]] of the Einstein-Hilbert action for gravity is
+The Palatini- or [[first-order formulation of gravity|first order formulation]] of the Einstein-Hilbert action for [[gravity]] is
 
 $$
   \epsilon_{a b c d} \int_X R^{a b} \wedge  e^c \wedge e^d
@@ -20,6 +24,8 @@ $$
 $$
 
 Various proposals for extensions of this action functional have been made that feature $B$ as an independent field as indicated but then include some dynamical constraint which ensures that on-shell one has $B^{a b} = \epsilon_{a b c d} e^c \wedge e^d$.
+
+This is also related to the [[Plebanski formulation of gravity]].
 
 #References#
 
@@ -44,6 +50,10 @@ and
 For that spinorial approach see also 
 
 * Roh Suan Tung, Ted Jacobson, _Spinor One-forms as Gravitational Potentials_ ([arXiv](http://golem.ph.utexas.edu/string/archives/000876.html))
+
+See also
+
+* R. Capovilla, M. Montesinos, V. A. Prieto, E. Rojas, _BF gravity and the Immirzi parameter_ ([arXiv](http://arxiv.org/abs/gr-qc/0102073))
 
 Related is also the construction in 
 
