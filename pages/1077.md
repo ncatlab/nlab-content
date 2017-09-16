@@ -44,3 +44,5 @@ $$ a \to 1 \cong 0 \to b .$$
 One proves that $0$ is the neutral element for $+$.
 
 If additionally every morphism $f: a \to b$ has an inverse $-f: a \to b$, then $C$ is enriched over the category $Ab$ of abelian [[group]]s and therefore an _[[additive category]]_.
+
+If, on the other hand, the addition of morphisms is idempotent ($f+f=f$), then $C$ is enriched over the category $SLat$ of [[semilattice]]s and is therefore a [[2-poset]].
