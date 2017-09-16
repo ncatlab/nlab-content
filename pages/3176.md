@@ -6,4 +6,8 @@ In particular, a logical functor preserves the truth of all sentences in the [[i
 
 The difference between geometric and logical functors between toposes is a [[categorification]] of the difference between a homomorphism of [[frames]] and a homomorphism of [[Heyting algebras]].  When the latter are [[complete lattice|complete]], these are the same objects with the same [[isomorphisms]] but different morphisms.
 
+
+[[!redirects logical functor]]
 [[!redirects logical functors]]
+[[!redirects logical morphism]]
+[[!redirects logical morphisms]]
