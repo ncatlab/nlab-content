@@ -4,9 +4,9 @@ The _mapping cone_ of a [[morphism]] $f : X \to Y$ is a _[[weak quotient]]_ of $
 
 #In additive categories with translation#
 
-Let $C$ be an [[additive category]] [[category with translation|with translation]] $T : C \to C$. Let $X$ and $Y$ be two [[differential object]]s in $(C,T)$ and $f : X \to Y$ any [[morphism]] in $C$. 
+Let $C$ be an [[additive category]] [[category with translation|with translation]] $T=[1] : C \to C$. Let $X$ and $Y$ be two [[differential object]]s in $(C,T)$ and $f : X \to Y$ any [[morphism]] in $C$. 
 
-The **mapping cone** $cone(f)$ of $f$ is the [[differential object]] whose underlying object is the [[direct sum]] $T X \oplus Y$ and whose differential $d_{cone f} : T X \oplus X \to T T X \oplus T X$ is given in [[matrix calculus]] notation by
+The **mapping cone** $Cone(f)$ of $f$ is the [[differential object]] whose underlying object is the [[direct sum]] $T X \oplus Y$ and whose differential $d_{cone f} : T X \oplus X \to T T X \oplus T X$ is given in [[matrix calculus]] notation by
 
 $$
   d_{cone f} :=
@@ -36,30 +36,30 @@ Notice the minus sign here, coming from the definition of a [[differential objec
 A homotopy category of the [[category of chain complexes]] (with respect to chain homotopy equivalences) has a natural structure of a [[triangulated category]] where the distinguished triangles are the triangles isomorphic to **mapping cone triangle**s
 
 $$
-  X \stackrel{f}{\to}
-  Y
+  A \stackrel{f}{\to}
+  B
   \stackrel{
     \left(
       \array{
           0 
           \\
-          Id_Y
+          Id_B
       }
     \right)
   }{\to}
-   cone(f)
+   Cone(f)
   \stackrel{
     \left(
       \array{
-         Id_{T X} & 0
+         Id_{A[1]} & 0
       }
     \right)
   }{\to}
-  T X
+  A[1]
   \,.
 $$
 
-For every map of chain complexes $f:A^\bullet\to B^\bullet$, the cylinder $Cyl(f)$ is quasi-isomorphic to $B^\bullet$, and moreover in the homotopy category of chain complexes, every distinguished triangle is quasi-isomorphic to a distinguished triangle of the form 
+For every map of chain complexes $f:A\to B$, the cylinder $Cyl(f)$ is quasi-isomorphic to $B$, and moreover in the homotopy category of chain complexes, every distinguished triangle is quasi-isomorphic to a distinguished triangle of the form 
 
 $$ A\to Cyl(u)\to Cone(u)\to A[1]$$
 
@@ -67,7 +67,7 @@ for some $u:A\to B$ where all the morphisms in the triangle are appropriatedly i
 
 #In Top#
 
-Given a continuous map $f:X\to Y$, define the topological space $Cone(f)$ as the mapping cylinder which is the amalgamated sum $X \cup_{(f,0)} Y\times I$
-(here each $x\in X$ is identified with $(f(x),0)$) modulo the contraction of $Y\times \{1\}$ to a point. 
+Given a continuous map $f:X\to Y$, define the topological space $Cone(f)$ as the mapping cylinder which is the amalgamated sum $X\times I \cup_{f} Y$
+(here for all $x\in X$, $(x,1)$ is identified with $f(x)$) modulo the contraction of $X\times \{0\}$ to a point. 
 
 Singular chain complex functor from $Top$ to the category of chain complexes of abelian groups sends the mapping cone to a mapping cone in the sense of chain complexes (up to conventions on the orientation of the interval and vector order in the definition of mapping cone of chain complexes). 
