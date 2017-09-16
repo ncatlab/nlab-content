@@ -85,6 +85,10 @@ Another, equivalent, definition is to let $ind$-$C$ be the [[full subcategory]] 
 
 * If $C$ admits finite [[colimit]]s, then $ind\text{-}C$ is the [[full subcategory]] of the [[presheaf]] category $PSh(C)$ consisting of those functors $F : C^{op} \to Set$ such that $F$ is [[exact functor|left exact]] and the [[comma category]] $(Y,F)$ (with $Y$ the [[Yoneda embedding]]) is [[cofinally small category|cofinally small]].
 
+#Applications#
+
+* One important use of categories of ind-objects is in [[abelian sheaf]]-theory: for every [[small category|small]] [[abelian category]] $C$ the category $ind\text{-}C$ is a [[Grothendieck category]] and hence a good coefficient object for [[abelian sheaf cohomology]].
+
 # Generalizations #
 
 ## in $(\infty,1)$-catgeories ##
