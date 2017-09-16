@@ -18,6 +18,7 @@ In classical homotopy theory, the presentation is given by a [[category with wea
 
 In [[enriched homotopy theory]], the presentation is given by an [[enriched model category]] or an [[enriched homotopical category]], and it presents an "enriched $(\infty,1)$-category."  Here the appropriate notion is a [[weighted limit|weighted]] homotopy limit, which is expected to construct "weighted $(\infty,1)$-limits" in the presented "enriched $(\infty,1)$-category."  Note that as yet, no fully general notion of "enriched $(\infty,1)$-category" exists; see [[homotopical enrichment]].
 
+More concretely, in a [[simplicial model category]] that [[presentable (∞,1)-category|presents]] an [[(∞,1)-category]], homotopy limits model the more intrinsic notion of [[limit in a quasi-category]].
 
 ## Definitions 
 
@@ -272,9 +273,9 @@ $$
 The dual version of this statement (for homotopy limits and homotopy pullbacks) is discussed in more detail in the examples below.
  
 
-### Homotopy pullbacks 
+### Homotopy pullbacks {#HomotopyPullbacks}
 
-Here we consider special cases of homotopy pullback in more detail.
+Here we consider special cases of [[homotopy pullback]] in more detail.
 
 Let $D = \{ 1\to 0 \leftarrow 2\}$ be the pullback [[diagram]], so that limits over it compute [[pullback]]s, and assume that $F : D \to C$ is such that
 $$
@@ -294,17 +295,30 @@ Conversely this means that on an arbitrary pullback diagram  $holim_D F$ can be 
 
 #### Based loop objects 
 
-Let $C$ be a [[category of fibrant objects]]. Then for $B$ any [[pointed object]] with point $pt \stackrel{pt_B}{\to} B$ we have
+
+For $B$ any [[pointed object]] with point $pt \stackrel{pt_B}{\to} B$ the homotopy pullback of the point along itself is the [[loop space object]] of $B$
+
+$$
+  \array{
+    \Omega_{pt} &\to& {*}
+    \\
+    \downarrow && \downarrow
+    \\
+    {*} &\to& B
+  }
+  \,,
+$$
+
+i.e.
 
 $$
   holim(  pt \stackrel{pt_B}{\to}  B \stackrel{pt_B}{\leftarrow} pt)
   \;\stackrel{\simeq}{\to}\;
   \Omega_{pt} B
-  \,,
+  \,.
 $$
-where $\Omega_{pt} B$ is the based [[loop space object]] of $B$.
 
-This follows from the above prescription by noticing that the [[generalized universal bundle]] $\mathbf{E}_{pt} B$ provides a fibrant replacement of the pullback diagram in that we have
+One way to compute this using the above prescription by noticing that the [[generalized universal bundle]] $\mathbf{E}_{pt} B$ provides a fibrant replacement of the pullback diagram in that we have
 
 $$
   \array{
@@ -317,6 +331,35 @@ $$
 $$
 
 with all vertical morphisms weak equivalences and with the left bottom horizontal morphism a fibration.
+
+More on that in the further examples below.
+
+#### Fibration sequences 
+
+If $C$ is a [[pointed object]], with point ${*} \to C$, then for a homotopy pullback of the form
+
+$$
+  \array{
+     A &\to& {*}
+     \\
+     \downarrow && \downarrow
+     \\
+     B &\to& C
+  }
+$$
+
+the sequence $A \to B \to C$ is called a [[fibration sequence]]. The object $A$ is the _homotopy kernel_ or _homotopy fiber_ of $B \to C$. Since homotopy pullback squares compose to homotopy pullback squares, the homotopy kernel of a homotopy kernel is not trivial, but is a [[loop space object]]
+
+$$
+  \array{
+     \Omega C &\to& A &\to& {*}
+     \\
+     \downarrow && \downarrow && \downarrow
+     \\
+     {*} &\to& B &\to& C
+  }
+  \,.
+$$
 
 
 #### Homotopy pullback of a point over a group / universal bundles
@@ -504,10 +547,10 @@ Here we discuss some properties of homotopy limits and colimits in such model ca
 
 #### Preservation of homotopy pullback by inverse images
 
-For $C, C'$ two [[site]]s, a [[geometric morphism]] $Sh(C) \stackrel{\leftarrow}{\to} Sh(C')$  of [[Grothendieck topos|sheaf topos]]es induces correspondingly an [[adjunction]]
+For $C, C'$ two [[site]]s, a [[geometric morphism]] $p : Sh(C) \stackrel{\leftarrow}{\to} Sh(C')$  of [[Grothendieck topos|sheaf topos]]es induces correspondingly an [[adjunction]]
 
 $$
-  SSh(C) \stackrel{\leftarrow}{\to} SSh(C')
+  p : SSh(C) \stackrel{\leftarrow}{\to} SSh(C') : p^*
 $$
 
 of simplicial (pre)sheaves. One would like this to extend to a [[Quillen adjunction]] that recalls the fact that it came from a geometric morphism by the fact that the [[left adjoint]] [[inverse image]] functor $SSh(C') \to SSh(C)$ preserves finite homotopy limits.
