@@ -1072,6 +1072,21 @@ $$A \otimes_{A \otimes A^{op}} C_*(A),$$
 whose homology is the _Hochschild homology_ of $A$.
 
 #### Centers and traces ####
+The above constructions can be carried over to algebra objects $A$ in a closed symmetric monoidal $\infty$-category $\mathcal{C}$. In particular, we consider $C=Pr^{L}$, the $\infty$-category of presentable $\infty$-categories.
+
+We define the _categorical center_ to be the endomorphism object 
+
+$$End_{A \otimes A^{op}}(A) \in Pr^{L},$$
+where we consider $A$ as module-category over itself on the left and on the right and we compute the internal $Hom$ in $Pr^{L}$ of $A$ with itself as bimodule.
+
+Also we define the _categorical trace_ to the the pairing
+object
+
+$$A \otimes_{A \otimes A^{op}} A$$
+of $A$ with itself as a bimodule, using the tensor product
+in $Pr^{L}$ and then coequalizing the left and right actions of $A$ on itself to form the relative tensor product.
+  
+
 
  * [[span trace]]
 
