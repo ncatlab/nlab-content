@@ -18,6 +18,8 @@ We can import new entries by looking at [category:category](http://ncatlab.org/n
 
 * $Mod_R$: (right) $R$-[[modules]] as objects, $R$-module homomorphisms as morphisms.  There is one such category for any [[ring]] $R$ (or more generally, any small [[Ab-enriched category]].  This is also the category of models of a [[Lawvere theory]] and is thus complete and cocomplete.  It is an [[abelian category]] and even [[Grothendieck category]].  If $R$ is commutative, then $Mod_R$ is a [[closed symmetric monoidal category]] under the [[tensor product]] of $R$-modules.
 
+* [[M-Set]]: Category of multisets...
+
 * [[Rel]]: [[sets]] as objects, [[relation|relations]] as morphisms.  This is an [[allegory]] and therefore a [[dagger category]].   The empty set is an [[zero object]], and disjoint union plays the role of [[biproduct]].   This category does not have [[equalizer|equalizers]] or [[coequalizer|coequalizers]].
 
 * [[Ring]]: [[ring|rings]] as objects, ring homomorphisms as morphisms.  Since this category consists of models of a [[Lawvere theory]] it has all small [[limit|limits]] and [[colimit|colimits]]. (maybe we should have unital rings $Ring_1$ separately; the difference is important sometimes). 
