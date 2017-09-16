@@ -89,7 +89,9 @@ $$
 
 
 ## References
+The original development of the theory by [[Grothendieck]]  is in [[SGA1]]. (This is a good source to look at, but can be hard going due partially to its age.)
 
+A more recent treatment can be found in
 
 * [[Eduardo Dubuc]] and C. S. de la Vega _On the Galois theory on Grothendieck_, Bol. Acad. Nac. Cienc. (Cordoba) **65** (2000) 111--136. [arXiv](http://arxiv.org/abs/math.CT/0009145)
 
