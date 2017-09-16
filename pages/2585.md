@@ -124,6 +124,29 @@ In $\mathbf{H} = $ [[Top]], this is the relation satisfied by the [[fundamental 
 Accordingly, then, we may think of the ordinary [[homotopy group]]s of $\Pi(X)$ as the **geometric homotopy groups** of $X \in \mathbf{H}$.
 
 
+### History {#GeometricHistory}
+
+The idea that geometric homotopy groups of generalized [[space]]s given by [[sheaf|sheaves]], [[stack]]s, [[∞-stack]]s is detected and definable by the behaviour of locally constant sheaves, stacks, $\infty$-stacks on these objects goes back to [[Grothendieck's Galois theory]] and the notion of [[fundamental group of a topos]]. In [[Pursuing Stacks]] [[Alexander Grothendieck|Grothendieck]] talked about how this 1-categorical situation generalizes to [[∞-stack]]s. 
+
+After _Pursuing Stacks_, apparently the first to publish a detailed formalization and proof of how the [[homotopy group]]s of a [[topological space]] $X$ may be recovered from the behaviour of [[locally constant ∞-stack]]s on $X$ was 
+
+* [[Bertrand Toen]], _Toward a Galoisian interpretation of homotopy theory_ ([arXiv:0007157](http://arxiv1.library.cornell.edu/abs/math/0007157))
+
+Very similar constructions and statement then appeared in 
+
+* [[Pietro Polesello]] and [[Ingo Waschkies]], _Higher monodromy_ , Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150 ([pdf](http://www.intlpress.com/HHA/v7/n1/a7/v7n1a7.pdf)) 
+
+* [[Mike Shulman]], _Parametrized spaces model locally constant homotopy sheaves_ ([arXiv:0706.2874](http://arxiv.org/abs/0706.2874))
+
+and, building on that, in example 1.8 of
+
+* [[Denis-Charles Cisinski]], _Locally constant functors_ , Math. Proc. Camb. Phil. Soc. , 147 ([pdf](http://www-math.univ-paris13.fr/~cisinski/lcmodcat3.pdf))
+
+It was pointed out by [[Richard Williamson]] that the construction should generalize from topological spaces to objects in any [[(∞,1)-topos]], maybe along the lines outlined above, and that this way every $(\infty,1)$-topos $\mathbf{H}$ comes canonically equipped with a notion of bare [[schreiber:path ∞-groupoid]] $\Pi(X)$ of every object $X \in \mathbf{H}$.
+
+
+
+
 ### Examples
 
 #### Geometric homotopy groups of objects in a 1-topos
