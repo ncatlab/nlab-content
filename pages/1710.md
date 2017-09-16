@@ -5,8 +5,13 @@ In the following $C$ and $D$ are [[categories]], $x$ and $y$ are [[objects]]...
 * $[C,D]$ - See [[functor category]]
 * $D^C$ - See [[functor category]]
 * $C\darr D$ - See [[comma category]]
-* $C\darr x$
-* $x\darr C$
+* $C/D$ - See [[comma category]]
+* $(C,D)$ - See [[comma category]]
+* $C\darr x$ - See [[over category]] a.k.a. slice category
+* $C/x$ - See [[over category]] a.k.a. slice category
+* $x\darr C$ - See [[under category]] a.k.a. coslice category
+* $x/C$ - See [[under category]] a.k.a. coslice category
+* $x\C$ - See [[under category]] a.k.a. coslice category
 
 #Discussion#
 
