@@ -1,9 +1,9 @@
 
 #Idea#
 
-A _Cartesian fibration_ is a morphism between [[simplicial set]]s that generalizes the notion of [[Grothendieck fibration]] from [[category|categories]] to [[quasi-category|quasi-categories]].
+A _Cartesian fibration_ is a morphism between [[simplicial sets]] that generalizes the notion of [[Grothendieck fibration]] from [[category|categories]] to [[quasi-category|quasi-categories]].
 
-This means that precisely if an [[∞-functor]] $p : C \to D$ if a Cartesian fibration is it possible to interpret its value over any [[morphism]] $f : d_1 \to d_2$ in $D$ as an [[∞-functor]] $p^{-1}(f) : p^{-1}(d_2) \to p^{-1}(d_1)$ between the [[fiber]]s $p^{-1}(d_2)$ and $p^{-1}(d_1)$ over its source and target [[object]]s. 
+This means that precisely if an [[∞-functor]] $p : C \to D$ if a Cartesian fibration is it possible to interpret its value over any [[morphism]] $f : d_1 \to d_2$ in $D$ as an [[∞-functor]] $p^{-1}(f) : p^{-1}(d_2) \to p^{-1}(d_1)$ between the [[fibers]] $p^{-1}(d_2)$ and $p^{-1}(d_1)$ over its source and target [[objects]]. 
 
 So a Cartesian fibration $p : C \to D$ determines and is determined by an [[∞-functor]] $S_p : D \to (\infty,1)Cat^{op}$ from $D$ into the [[opposite category]] of the  [[(∞,1)-category of (∞,1)-categories]].
 
@@ -33,7 +33,7 @@ A Cartesian fibration is an [[inner fibration]] of simplicial sets $p : X \to S$
 ###### Proposition
 Basic properties:
 
-* Every [[isomorphism]] of [[simplicial set]]s is a Cartesian fibration.
+* Every [[isomorphism]] of [[simplicial sets]] is a Cartesian fibration.
 
 * Cartesian fibrations are [[pullback stability|stable under base change]] in [[SSet]].
 
@@ -60,6 +60,7 @@ Definition 2.4.2.1 in
 [[!redirects coCartesian fibration]]
 [[!redirects co-cartesian fibration]]
 [[!redirects cocartesian fibration]]
+[[!redirects Cartesian fibrations]]
 [[!redirects cartesian fibrations]]
 [[!redirects coCartesian fibrations]]
 [[!redirects co-cartesian fibrations]]
