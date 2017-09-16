@@ -12,6 +12,8 @@ A __weakly inaccessible cardinal__ is a regular weak limit cardinal; sometimes i
 
 +--{: .query}
 [[Mike Shulman|Mike]]: What does that last sentence mean?  It seems obviously false to me in the absence of CH.
+
+_Toby_:  It means that if a weakly inaccessible cardinal exists, then a strongly inaccessible cardinal exists, but I couldn\'t find the formula for it.  Something like $\beth_\kappa$ is strongly inaccessible if $\kappa$ is weakly inaccessible (note that $\aleph_\kappa = \kappa$ then), but I couldn\'t verify that (or check how it holds up in the absence of choice).
 =--
 
 # Properties
