@@ -1,5 +1,7 @@
-Stratifolds are a generalization of smooth [[manifold]]s which were introduced by Kreck; see his [lecture notes](http://www.him.uni-bonn.de/files/kreck-DA24_08_07.pdf). It is one of the many variant of a concept of a stratified space, and it may include some types of singularities.
-Formally it is a subclass of differential spaces, which are pairs $(S,C)$ of a topological space $S$ together with an subalgebra $C$ of algebra of continuous real-valued functions $S\to R$ such that 
+Stratifolds are a generalization of smooth [[manifold]]s -- a notion of [[generalized smooth space]] --  which were introduced by Kreck; see his [lecture notes](http://www.him.uni-bonn.de/files/kreck-DA24_08_07.pdf). 
+
+It is one of the many variant of a concept of a stratified space, and it may include some types of singularities.
+Formally it is a subclass of differential spaces, which are pairs $(S,C)$ of a [[topological space]] $S$ together with an subalgebra $C$ of algebra of continuous real-valued functions $S\to R$ such that 
 
 1) $C$ is locally detectable, i.e. for all continuous functions $f: S\to R$, $f$ is in $C$ iff for every $x\in S$ there exist an open neighborhood $U\ni x$ and $g\in C$ such that $g|_U = f|_U$,  
 
@@ -9,14 +11,26 @@ Local detectability is equivalent to requiring that $C$ is an algebra of global 
 
 For a manifold $C= C^\infty(S)$. For a differentiable space $S = (S,C)$ a tangent space $T_x S$ can be defined at each $x\in S$. Define $S^i = \{x\in S | \mathrm{dim} T_x S = i\}$. By construction, $S$ decomposes into disjoint union $S = \cup_{i=0}^\infty S^i$. There is an induced stratifold structure on the topological subspace $S^i\subset S$, which we denote by $(S^i, C(S^i))$.  
 
++-- {: .un_def }
+###### Definition
+
 A __$k$-dimensional stratifold__ $(S,C)$ is a differential space such that 
 
-* $S$ is _locally compact Hausdorff space with countable basis,
+* $S$ is _locally compact [[Hausdorff space]] with countable basis,
 
 * $T_x S \leq k$ for all $x\in S$ (i.e. $S = \cup_{i=0}^k S^i$), 
 
-* $(S^i,C(S^i))$ is isomorphic to a smooth manifold,
+* $(S^i,C(S^i))$ is isomorphic to a smooth [[manifold]],
 
-* the restriction map $C(S)\to C(S^i)$ induces an isomorphism of stalks of germs $C(S)_x\to C(S_i)_x = C^\infty(S^i)_x$ in all points $x\in S^i$,
+* the restriction map $C(S)\to C(S^i)$ induces an isomorphism of [[stalk]]s of germs $C(S)_x\to C(S_i)_x = C^\infty(S^i)_x$ in all points $x\in S^i$,
 
 * for all $y\in S$, and all $U\ni y$ open, there is a "bump function" $\rho\in C$ nonvanishing at $y$, but whose support is contained in $U$.
+
+=--
+
+
+#References#
+
+* [webpage on stratifolds](http://www.hausdorff-research-institute.uni-bonn.de/kreck-stratifolds)
+
+* Matthias Kreck, _Differential Algebraic Topology_ ([pdf](http://www.hausdorff-research-institute.uni-bonn.de/files/kreck-DA24_08_07.pdf))
