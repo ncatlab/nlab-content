@@ -54,13 +54,24 @@ This definition, finally, provides a powerful [[nPOV]] on quasicoherent sheaves:
 
 ### As locally presentable modules {#LocPres}
 
-Given a [[ringed space]] $(X,O_X)$ a __quasicoherent sheaf of $O_X$-modules__ is a sheaf $\mathcal{M}$ of $O_X$-modules such that there is a cover $\{U_\alpha\}_{\alpha\in A}$ of $X$ by open sets such that for every $\alpha$ there exist $I_\alpha$ and $J_\alpha$ and an exact sequence of sheaves of $O_X$-modules of the form
+Let $(X,O_X)$ be a [[ringed space]] or, more generally, a [[ringed site]]. 
+
+A __quasicoherent sheaf of $O_X$-modules__ on $X$ is a sheaf $\mathcal{E}$ of $O_X$-modules that is locally a [[cokernel]] of a [[morphism]] of [[free module]]s.
+
+This means: there is a [[cover]] $\{U_\alpha\}_{\alpha\in A}$ of $X$ by open sets such that for every $\alpha$ there exist $I_\alpha$ and $J_\alpha$ (not necessarily finite) and an [[exact sequence]] of sheaves of $O_X$-modules of the form
+
 $$
-O_X^{I_\alpha}|_{U_\alpha}\to
-O_X^{J_\alpha}|_{U_\alpha}\to
-\mathcal{M}|_{U_\alpha}\to 0,
+  O_X^{I_\alpha}|_{U_\alpha}
+  \to
+  O_X^{J_\alpha}|_{U_\alpha}
+  \to
+  \mathcal{E}|_{U_\alpha}\to 0,
 $$
-which should be viewed as a local presentation of $\mathcal{M}$. If $I_\alpha, J_\alpha$ can be chosen finite one talks about __coherent sheaves__ however the latter are ill-behaved for a general ringed space, and even general scheme; they behave well on Noetherian schemes. 
+
+This should be viewed as a _local presentation_ of $\mathcal{E}$. 
+
+If $I_\alpha, J_\alpha$ can be chosen finite and $\mathcal{E}$ is of finite type then the quasicoherent sheaf is a **[[coherent sheaf]]**. (See there for details.)
+However , coherent sheaves are ill-behaved for a general ringed space, and even general [[scheme]]s; they behave well on [[Noetherian scheme]]s. 
 
 Replacing covers by open sets, by covers of a terminal object in a site, the definition extends to [[ringed site]]s with a terminal object; the restrictions of $O_X$-modules should be replaced by pullbacks.
 There are generalizations for [[algebraic stack]]s, ind-schemes, diagrams of schemes (for example [configuration schemes](http://arxiv.org/abs/math/0012061) of V. Lunts, obtained by gluing along closed embeddings of schemes; simplicial schemes) and so on. 
