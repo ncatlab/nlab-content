@@ -7,3 +7,5 @@ Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict
 # Specific versions
 * globular [[strict 2-category]]
 * [[bicategory]]
+
+[[!redirects 2-categories]]
