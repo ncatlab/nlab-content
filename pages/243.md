@@ -30,6 +30,8 @@ The notion of __coend__ is dual to the notion of end, written $\int^{c: C} F(c, 
 
 Perhaps the most common way in which ends and coends arise is through homs and tensor products of (generalized) modules, and their close cousins, weighted limits and weighted colimits. These concepts are fundamental in enriched category theory. 
 
+
+
 # In enriched category theory #
 
 There is a definition of _end_ in [[enriched category theory]], as follows. 
@@ -83,6 +85,194 @@ $$X(x, \pi_c): X(x, \int_{c: C} F(c, c)) \to X(x, F(c, c))$$
 are the projection maps realizing $X(x, \int_{c: C} F(c, c))$ as the corresponding end in $V$. This is an example of the general notion of [[weighted limit]] in enriched category theory. 
 
 
-## End as an equaliizer ##
+## End as an equalizer ##
 
-...
+### ordinary ends as equalizers ###
+
+Now we motivate and define the _end_ in [[enriched category theory]] in terms of [[equalizer]]s.
+
+Recall from the discussion at the end of [[limit]] that the [[limit]] over an (ordinary, i.e. not enriched) [[functor]]
+
+$$
+  F : C^{op} \to Set
+$$
+
+is given by the [[equalizer]] of 
+
+$$
+  \prod_{c \in Obj(C)}
+  F(c)
+  \stackrel{\prod_{f \in Mor(c)} (F(f) \circ p_{t(f)}) }{\to}  
+  \prod_{f \in Mor(C)}
+  F(s(f))
+$$
+
+and
+
+$$
+  \prod_{c \in Obj(C)}
+  F(c)
+  \stackrel{\prod_{f \in Mor(c)} (p_{s(f)}) }{\to}  
+  \prod_{f \in Mor(C)}
+  F(s(f))  
+  \,.
+$$
+
+If we want to generalize an expression like this to [[enriched category theory]] the explicit indexing over the set of morphisms has to be replaced by something that makes sense in an [[enriched category]]. 
+
+To that end, observe that we have a canonical isomorphism (of sets, still)
+
+$$
+  \prod_{{(c_1 \stackrel{f}{\to} c_2)} \in Mor(C)} F(c_1)
+  \simeq
+  \prod_{c_1,c_2 \in Obj(C)} F(c_1)^{C(c_1,c_2)}
+  \,.
+$$
+
+If we write for the [[hom-set]] instead
+
+$$
+ [C(c_1,c_2), F(c_1)] := F(c_1)^{C(c_1,c_2)}
+$$ 
+
+with $[-,-]$ the [[internal hom]] in [[Set]], then the expression starts to make sense in any $V$-[[enriched category]].
+
+Still equivalently but suggestively rewriting the above, we now obtain the limit over $F$ as the [[equalizer]] of
+
+$$
+  \prod_{c \in Obj(C)}
+  F(c)
+  \stackrel{\stackrel{\rho}{\to}}{\stackrel{\lambda}{\to}}  
+  \prod_{c_1,c_2 \in Obj(C)}
+  [C(c_1,c_2),F(c_1)]
+  \,,
+$$
+
+where in components
+
+$$
+  \rho_{c_1, c_2} : F(c_1) \to [C(c_1,c_2), F(c_1)]
+$$
+
+is the [[adjunct]] of
+
+$$
+  C(c_1, c_2) \to * \to [F(c_1), F(c_1)]
+$$
+
+(with the last map the [[adjunct]] of $Id_{F(c_1)}$) and where 
+
+$$
+  \lambda_{c_1, c_2} : F(c_2) \to [C(c_1,c_2), F(c_1)]
+$$
+
+is the [[adjunct]] of
+
+$$
+  F_{c_1, c_2} : C(c_1, c_2) \to [F(c_2), F(c_1)]
+  \,.
+$$
+
+So for definiteness, the equalizer we are looking at is that of 
+
+$$
+  \rho := \prod_{c_1, c_2 \in C} \rho_{c_1,c_2}\circ pr_{F(c_1)}
+$$
+
+and
+
+$$
+  \lambda := \prod_{c_1, c_2 \in C} \lambda_{c_1,c_2}\circ pr_{F(c_2)}
+$$
+
+This way of writing the [[limit]] clearly suggests that it is more natural to have $\lambda$ and $\rho$ on equal footing. That leads to the following definition.
+
+
+### enriched ends over $V$-valued functors as equalizers ###
+
+For $V$ a [[symmetric monoidal category]], $C$ a $V$-[[enriched category]] and 
+$F : C^{op} \times C \to V$ a 
+$V$-[[enriched functor]],
+the **end** of $F$ is the [[equalizer]]
+
+$$
+  \int_{c \in C}
+  F(c,c)
+  \to 
+  \prod_{c \in Obj(C)}
+  F(c)
+  \stackrel{\stackrel{\rho}{\to}}{\stackrel{\lambda}{\to}}  
+  \prod_{c_1,c_2 \in Obj(C)}
+  [C(c_1,c_2),F(c_1,c_2)]
+$$
+
+with $\rho$ in components given by
+
+$$
+  \rho_{c_1, c_2} : F(c_1,c_1) \to [C(c_1,c_2), F(c_1,c_2)]
+$$
+
+being the [[adjunct]] of
+
+$$
+  F(c_1,-) : C(c_1, c_2) \to [F(c_1,c_1), F(c_1,c_2)]
+$$
+
+and
+
+$$
+  \lambda_{c_1, c_2} : F(c_2,c_2) \to [C(c_1,c_2), F(c_1,c_2)]
+$$
+
+being the [[adjunct]] of
+
+$$
+  F(-,c_2) : C(c_1, c_2) \to [F(c_2,c_2), F(c_1,c_2)]
+  \,.
+$$
+
+
+This definition manifestly exhibits the **end as the equalizer of the left and right action** encoded by the [[distributor]] $F$.
+
+## End as a weighted limit ##
+
+The end for $V$-functors with values in $V$ serves, among other things, to define [[weighted limit]]s, and weighted limits in turn define ends of bifunctors with values in more general $V$-categories.
+
+For $C$ and $D$ both $V$-categories and $F : C^\op \times C \to D$ an $V$-[[enriched functor]], the **end** of $F$ is the [[weighted limit]]
+
+$$
+  \int_{c \in C} F(c,c)
+  :=
+  lim^{Hom_C} F
+  \,,
+$$
+
+where the right hand denotes the [[weighted limit]] over $F$ with weight $Hom_C : C^{op} \times C \to V$.
+
+#Examples#
+
+## enriched functor categories ##
+
+For $C$ and $D$ both $V$-[[enriched category|enriched categories]], the $V$-[[enriched functor category]] $[C,D]$ is the $V$-[[enriched category]] whose
+
+* objects are $V$-[[enriched functor]]s $F : C \to D$;
+
+* [[hom-object]]s in $V$ are given by the end-formula $[C,D](F,G) := \int_{c \in C} D(F(c), G(c))$.
+
+For $V = Set$ this reproduces of course the ordinary [[functor category]].
+
+
+
+#References#
+
+in 
+
+* M. Kelly, _Basic concepts in enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+
+  * ends of $V$-valued bifunctors are discussed in section 2.1
+
+  * the enriched functor category that they give rise to is discussed in section 2.2;
+
+  * enriched [[weighted limit]]s in terms of enriched functor categories are in section 3.1
+
+  * the end of general $V$-enriched functors in terms of weighted limits is in section 3.10 .
