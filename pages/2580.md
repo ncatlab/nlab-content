@@ -28,11 +28,11 @@ The space of distributions on $U$ is denoted $\mathcal{D}(U)$. There is an obvio
 
 $$\mathcal{D}(U) \times C_c^{\infty}(U) \to \mathbb{R}: (S, \phi) \mapsto S(\phi)$$ 
 
-given by evaluation; often one writes $\langle S, \phi\rangle$ instead of $S(\phi)$. The space of distributions is usually given the weak $*$-topology, meaning the smallest topology rendering the maps 
+given by evaluation; often one writes $\langle S, \phi\rangle$ instead of $S(\phi)$. The space of distributions can be given the weak $*$-topology, meaning the smallest topology rendering the maps 
 
 $$\langle -, \phi\rangle: \mathcal{D}(U) \to \mathbb{R}$$ 
 
-continuous for all test functions $\phi$. 
+continuous for all test functions $\phi$.  As $C_c^\infty(U)$ is reflexive, this agrees with the weak topology.  Other natural topologies exist, such as uniform convergence on compact subsets of $C_c^\infty(U)$ (in this case, this agrees with uniform convergence on bounded subsets which usually goes by the name of the *strong* topology).
 
 If $f: U \to \mathbb{R}$ is locally integrable, then for all test functions $\phi$ the Lebesgue integral 
 
@@ -56,27 +56,62 @@ where $\alpha$, $\beta$ are multi-indices.
 
 ## Operations on distributions 
 
-Each continuous linear operator 
+As $\mathcal{D}(U)$ is dual to $C_c^\infty(U)$, each continuous linear operator on $C_c^\infty(U)$ induces a corresponding linear operator on $\mathcal{D}(U)$ in the obvious way.  Given
 
-$$F: C_c^\infty(U) \to C_c^\infty(U)$$ 
+$$
+F\colon C_c^\infty(U) \to C_c^\infty(U)
+$$
 
-induces a corresponding adjoint operator 
+we define
 
-$$F^\dagger: \mathcal{D}(U) \to \mathcal{D}(U)$$ 
+$$
+F^*\colon \mathcal{D}(U) \to \mathcal{D}(U)
+$$
 
-according to the usual formula 
+according to the usual formula for dualities
 
-$$\langle F^\dagger S, \phi\rangle = \langle S, F \phi\rangle$$ 
+$$
+F^* S(\phi) = S(F \phi).
+$$
+
+However, since there is an obvious inclusion $C_c^\infty(U) \to \mathcal{D}(U)$ induced by the standard inner product on $C_c^\infty(U)$, what is more usually desired is not this dual operator but an **extension** operator.  That is, instead of $F^*$ we want an operator $F^\dagger \colon \mathcal{D}(U) \to \mathcal{D}(U)$ with the property that for $\phi \in C_c^\infty(U)$ then $F^\dagger(\phi) = F(\phi)$ (identifying $C_c^\infty(U)$ with its image in $\mathcal{D}(U)$).  Being slightly more careful, let us write $\iota \colon C_c^\infty(U) \to \mathcal{D}(U)$ for the inclusion induced by the inner product.  Then we want $F^\dagger(\iota \phi) = \iota (F(\phi))$.
+
+If the extension exists, we have
+
+$$
+F^\dagger(\iota phi)(\psi) = \iota(F(\phi))(\psi) = \langle F(\phi), \psi \rangle
+$$
+
+Now suppose that $F$ has an adjoint, say $F^+$, with respect to the inner product.  Note that this is not automatic since $C_c^\infty(U)$ is not a Hilbert space.  Moreover, even if $F$ extends to the Hilbert completion the Hilbertian adjoint may not work since it may not define a continuous linear map on the subspace $C_c^\infty(U)$.  But if $F^+$ does exist then we have
+
+$$
+F^\dagger(\iota \phi)(\psi) = \langle F(\phi), \psi \rangle = \langle \phi, F^+(\psi) \rangle
+$$
+
+In this case, the definition of $F^\dagger$ on the whole of $\mathcal{D}(U)$ is obvious: simply take ${F^+}^*$.  That is, the dual operator to the adjoint to $F$.  In full, $F^\dagger \colon \mathcal{D}(U) \to \mathcal{D}(U)$ is defined via the formula
+
+$$
+\langle F^\dagger(S),\phi\rangle = \langle S, F^+(\phi) \rangle
+$$
+
+If the ground field is $\mathbb{C}$ then this carries through essentially unchanged except for the fact that one does **not** use the inner product on $C_c^\infty(U)$ but rather the associated bilinear pairing
+
+$$
+(\phi,\psi) = \int_U \phi \psi
+$$
+
+This is to ensure that the inclusion $C_c^\infty(U) \to \mathcal{D}(U)$ is complex linear and not conjugate linear.  Otherwise extending operators becomes complex.
 
 Two instances are of particular importance: 
 
-* Multiplication by a smooth function $\psi$. If $\psi$ is any smooth function on $U$ (not necessarily compactly supported), then we define $\psi \cdot S$ by the self-adjoint equation 
-$$\langle \psi \cdot S, \phi \rangle = \langle S, \psi \cdot \phi\rangle$$ 
-where $\phi$ is an arbitrary test function. 
+* Multiplication by a smooth function $\theta$. If $\theta$ is any smooth function on $U$ (not necessarily compactly supported), then we can define $\theta \cdot S$ by observing that this multiplication is self-adjoint: 
+$$\langle \theta \cdot \phi, \psi \rangle = \langle \phi, \psi \cdot \theta\rangle$$
+where $\phi, \psi$ are arbitrary test functions.  Thus we define $\theta \cdot S$ by
+$$\langle \theta \cdot S, \psi \rangle = \langle S, \theta \cdot \psi$$
 
 * Differentiation. If $\partial^i$ is partial differentiation with respect to the $i^{th}$ coordinate, then for test functions $\psi$, $\phi$ we have 
 $$\int_U \partial^i(\psi)(x) \phi(x)\; d x = -\int_U \psi(x) \partial^i(\phi)(x)\; d x$$ 
-by simple integration by parts and the fact that $\phi$, $\psi$ are compactly supported. Since test functions are dense in the space of distributions, this intuitively justifies the definition of $\partial^i(S)$ by the formula 
+by simple integration by parts and the fact that $\phi$, $\psi$ are compactly supported.  Thus differentiation is _skew_-adjoint and so we define the extension to distributions by 
 $$\langle \partial^i(S), \phi\rangle = -\langle S, \partial^i(\phi) \rangle$$ 
 for all test functions $\phi$. In general, 
 $$\langle \partial^\alpha S, \phi\rangle = (-1)^{|\alpha|}\langle S, \partial^\alpha \phi \rangle$$
