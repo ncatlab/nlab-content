@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-20 #
 
+* [[Urs Schreiber|Urs]]: 
+
+  * created [[limits and colimits by example]] for purposes discussed on the blog [here](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c023321) and [here](http://golem.ph.utexas.edu/category/2009/04/graphical_category_theory_demo.html#c023323)
+
 *  [[Toby Bartels]]:
    *  Yet more at [[pure set]].  See the pretty pictures!  Or rather ... make them pretty if you know how, for I do not.  (;_;)
    *  Another question for Finn, now at [[minimal logic]].
