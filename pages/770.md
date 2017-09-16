@@ -1,4 +1,16 @@
-A **homotopy 1-type** is a [[topological space]] (or a [[simplicial set]] or other model for a [[homotopy type]]) all of whose [[homotopy group]]s $\pi_n$ are trivial for $n\gt 1$.  See [[homotopy n-type]] for generalities.
+# Idea #
+
+A homotopy $1$-type is a space where we consider its properties with regard to the [[fundamental group]]s $\pi_1$ of its components.
+
+# Definition #
+
+A continuous map $X \to Y$ is a **homotopy $1$-equivalence** if it induces isomorphisms on $\pi_0$ and $\pi_1$ at each basepoint.  Two spaces share the same **homotopy $1$-type** if they are linked by a zig-zag chain of homotopy $1$-equivalences.
+
+For any [[nice topological space|nice space]] $X$, you can kill its homotopy groups in higher dimensions by attaching cells, thus constructing a new space $Y$ so that the inclusion of $X$ into $Y$ is a homotopy $1$-equivalence; up to (weak) [[homotopy equivalence]], the result is the same for any space with the same homotopy $1$-type.  Accordingly, a **homotopy $1$-type** may alternatively be defined as a space with trivial $\pi_i$ for $i \gt 1$, or as the unique (weak) [[homotopy type]] of such a space, or as its fundamental $\infty$-[[fundamental infinity-groupoid|groupoid]] (which will be a $1$-[[1-groupoid|groupoid]]).
+
+See the general discussion in [[homotopy n-type]].
+
+# Classification #
 
 A connected pointed homotopy 1-type is completely determined, up to (weak) homotopy equivalence, by the one [[group]] $\pi_1$.  A connected homotopy 1-type with $\pi_1 = G$ is  an [[Eilenberg-Mac Lane space]] and is often written $K(G,1)$.  A general homotopy 1-type can then be written as a disjoint union of such $K(G,1)$s, and is completely determined by its [[fundamental groupoid]].
 
