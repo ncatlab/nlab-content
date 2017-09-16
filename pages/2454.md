@@ -20,3 +20,5 @@ The universal enveloping algebra of the tangent Lie algebra of a finite-dimensio
 Zoran: if you read the above article than you see that it distingusihes the enveloping algebra of a Lie algebra and universal enveloping algebra if a Lie algebra which is a universal among such. There is also an enveloping algebra of an associative algebra what si a different notion. 
 
 =--
+
+An [[oidification]] is the [[universal enveloping algebroid]].
