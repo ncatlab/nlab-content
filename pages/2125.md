@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents
+{:toc}
+
 # Idea #
 
 The plain [[Dold-Kan correspondence]] establishes an equivalence between (co)simplicial groups and (co)chain complexes.
