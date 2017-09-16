@@ -14,7 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 #2009-04-09
 
-* [[Urs Schreiber|Urs]]: created [[Connes fusion]], but filled in only pointers to further references
+* [[Urs Schreiber|Urs]]: 
+
+  * I had been asked by students to say something about why they should care about learning about $(\infty,1)$-categories. I thought that would be a good thing to try to answer in an $n$Lab entry, so I started an entry [[why (infinity,1)-categories?]]. This is just a first attempt. Maybe somebody would enjoy adding his or her own points of views of correcting/improving mine.
+
+  * created [[Connes fusion]], but filled in only pointers to further references
 
 * [[Zoran Škoda]]: created [[von Neumann algebra]] emphasising on sources of relations to category theory and low dimensional topology (particularly G. Segal's program on relations between CFT and elliptic cohomology). There is a good wikipedia entry on von Neumann algebras with lost of references and details, but neglecting the connection to the above topics which should be expanded on. Moreover somebody should mayve write entres on related topics as [[Connes fusion]], [[modular functor]] etc. as those are relevant for some of us.
 
