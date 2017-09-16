@@ -10,19 +10,19 @@
 
 ## Idea {#Idea}
 
-A standard model for general [[∞-groupoid]]s is given by [[simplicial set]]s that are [[Kan fibration|Kan fibrant]]: [[Kan complex]]es. It is straightforward to [[internalization|internalize]] the [[horn]]-filler condition that characterizes [[Kan complex]]es from the [[category]] [[SSet]] of [[simplicial object]]s in [[Set]] to one of simplicial objects in any category $C$ with a bit of suitable structure. 
+A standard model for general [[∞-groupoid]]s is given by [[simplicial set]]s that are [[Kan fibration|Kan fibrant]]: [[Kan complex]]es. It is straightforward to [[internalization|internalize]] the [[horn]]-filler condition that characterizes [[Kan complex]]es from the [[category]] [[SSet]] of [[simplicial object]]s in [[Set]] to one of [[simplicial objects]] in any category $C$ with a bit of suitable structure. 
 
-* This is described in [Internal horn filler condition](InternalHornFillers), below.
+* This is described in [Internal horn filler condition](#InternalHornFillers), below.
 
 But for the [[simplicial object]]s in question to be usefully identified as [[∞-groupoid]]s internal to $C$, the horn filler condition is -- while necessary -- typically not sufficient. At least one has to be a bit careful about what it is one wants to model.
 
 A very well understood special case that serves to give some feeling for the general situation is that where $C$ is a [[Grothendieck topos]]. In that case [[simplicial object]]s in $C$ are [[simplicial presheaf|simplicial sheaves]]. There is a well developed theory of [[model structure on simplicial presheaves|model structures on simplicial sheaves]] that are known to be [[models for ∞-stack (∞,1)-toposes]]. 
 
-* This is described in [Simplicial sheaves](SimplicialSheaves), below.
+* This is described in [Simplicial sheaves](#SimplicialSheaves), below.
 
 In terms of this the true $\infty$-groupoids internal to $C$ are those simplicial sheaves that are fibrant objects in the given [[model category]]. These fibrant simplicial sheaves in particular satisfy the internal Kan filler conditon, but they are characterized by a much stronger condition: in addition they satisfy a [[descent]] condition. 
 
-* This is described in [Comparison](Comparison), below.
+* This is described in [Comparison](#Comparison), below.
 
 Another issue highlighted by this example is that the right notion of morphisms of internal Kan complexes are not just the internal morphisms of simplicial objects: for the case of $C$ a Grothendieck topos and using the model structure on simplicial sheaves as above, the right notion of morphism between two internal Kan complexes $X$ and $A$ is a morphism of simplicial objects $\hat X \to A$ out of a cofibrant replacement of $X$, as discussed at [[derived hom space]]. So the right notion of morphisms of internal $\infty$-groupoids are $\infty$-[[anafunctor]]s.
 
