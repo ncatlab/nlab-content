@@ -25,7 +25,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * created stub for [[Batanin omega-category]]
 
 *  [[Toby Bartels]]:
+
    *  Cleaned up [[twisted cohomology]]; there\'s still a link to Urs\'s web that\'s broken.   
+
       * [[Urs Schreiber]]: yeah, sorry, I keep working on this at my private web with [[Jim Stasheff]] and then from time to time Jim makes me move the stuff to the public page -- but we'll try to stop doing that now and just edit the public page -- sorry again
    *  Noted the compact nature of the [[Gelfand spectrum]] (also at [[maximal spectrum]]).
    *  Mentioned $B^*$-algebras at [[operator algebra]]; but I really need to write [[C-star-algebra]].
