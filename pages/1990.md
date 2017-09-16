@@ -74,11 +74,13 @@ These constructions remind one and should be compared with the [[Dold-Kan corres
 
 In total this should show the following
 
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
 Let $X$ be a synthetic differential space and $C^\infty(X^{\Delta_{inf}^\bullet})$ the [[simplicial object|cosimplicial object]] of [[generalized smooth algebra]]s of functions on the spaces of infinitesimal $k$-simplices in $X$.
 
 Then the deRham complex $(\Omega^\bullet(X), d)$ of differential forms on $X$ is the normalized [[Moore complex]] of the cosimplicial object $C^\infty(X^{\Delta_{inf}^\bullet})$.
+=--
 
 In other words, in as far as the Dold-Kan correspondence is an equivalence, we find that:
 
