@@ -17,6 +17,18 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]:
 
+  * added to [[limit]] the $(\infty,1)$-categorical definition with a pointer to the entry on limits in quasi-categories
+
+    * I am thinking (now) that generally we should in entries such as _adjoint_, _limit_, etc, list _all_ reasonable variations and generalizations, possibly just providing a link to a separate entry but still mentioning the generalized concept 
+
+  * created [[Cartesian fibration]]
+
+  * added to [[adjoint functor]] the definition for $(\infty,1)$-categories
+
+  * created [[local equivalence]]
+
+  * expanded [[Bousfield localization]] by discussion of localization of model categories
+
   * replied at [[chain homology and cohomology]] and have myself a comment -- but no time at the moment to work on this entry, will try to come back to it later, unless some helpful soul takes care of it in the meantime
 
   * created [[models for infinity-stack (infinity,1)-toposes]] -- but still working
