@@ -66,7 +66,7 @@ $$
 
 of ${*} \to \mathbf{B}G$.
 
-### $G$-principal $\infty$-bundles 
+### $G$-principal $\infty$-bundles {#GeneralPrincBund}
 
 By the general reasoning discussed at [[cohomology]], a [[cocycle]] for $G$-[[nonabelian cohomology]] on $X \in \mathbf{H}$ is just a morphism $g : X \to \mathbf{B}G$ in $\mathbf{H}$. 
 
@@ -191,77 +191,6 @@ of which the one on the right is the defining one of $G$ and the remaining one o
 
 =--
 
-+-- {: .un_def}
-###### Definition
-**($G$-$\infty$-torsor / $G$-principal $\infty$-bundle)**
-
-The above shows that every $G$-cocycle induces 
-
-1. an **$\infty$-[[bundle]]** $P \to X$ 
-
-1. equipped with a **$G$-[[action]]** exhibited by an  
-   [[action groupoid]]-[[groupoid object in an (∞,1)-category]]
-
-   $$
-     (P//G \to {*}//G)
-     \;\;
-     :=
-     \;\;
-     \left(
-     \array{
-       \vdots && \vdots
-       \\
-       P \times G \times G
-       &\to& G \times G
-       \\
-       \downarrow\downarrow\downarrow 
-       && \downarrow\downarrow\downarrow
-       \\
-       P \times G
-       &\stackrel{p_2}{\to}& G
-       \\
-       \downarrow\downarrow && \downarrow\downarrow
-       \\ 
-       P &\stackrel{}{\to}& {*}
-     }
-     \right)
-   $$
-
-1. which is **principal** in that there is an equivalence of
-   [[groupoid object in an (∞,1)-category|groupoid objects]]   
-   
-   $$
-     (C(P/X) \stackrel{\simeq}{\to} P//G)
-     \;\;\;
-     =
-     \;\;\;
-     \array{
-       \vdots && \vdots
-       \\
-       P \times_X P \times_X P 
-       &\stackrel{\simeq}{\to}& 
-       P \times G \times G
-       \\
-       \downarrow\downarrow\downarrow
-       && 
-       \downarrow\downarrow\downarrow 
-       \\
-       P \times_X P &\stackrel{\simeq}{\to}& P \times G
-       \\
-       \downarrow\downarrow
-       && \downarrow\downarrow 
-       \\
-       P &\stackrel{=}{\to}& P 
-     }  
-   $$
-
-Conversely, any such collection of structure and properties we call
-a **$G$-principal bundle$$ or a **$G$-torsor** over $X$.
-
-=--
-
-Now Giraud's axuioms in the $(\infty,1)$-topos ensures that every
-$G$-principal bundle arisesfrom a cocycle as above...
 
 
 +-- {: .un_remark}
@@ -302,16 +231,12 @@ $$
     \\
     \downarrow\downarrow && \downarrow\downarrow
     \\
-    P &\stackrel{}{\to}& {*}
-    \\
-    \downarrow && \downarrow
-    \\
-    X &\stackrel{g}{\to}& \mathbf{B}G
+    V &\stackrel{}{\to}& {*}
   }
 $$
 
-
-such that the corresponding diagram of [[effective epimorphism]]s
+such that the corresponding diagram of 
+[[homotopy colimit]]s
 
 $$
    \array{
@@ -324,12 +249,67 @@ $$
    }
 $$
 
-(recalling that by the axioms of [[(∞,1)-topos]] every groupoid object _is effective_) is a [[homotopy pullback]].
+is a [[homotopy pullback]].
 
 We call the object $V//G$ with this structure of a
 [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] the [[action groupoid]] of $G$ acting on $V$.
 
 =--
+
+
+
++-- {: .un_def}
+###### Definition
+**($G$-$\infty$-torsor / $G$-principal $\infty$-bundle)**
+
+The above shows that every $G$-cocycle induces 
+
+1. an **$\infty$-[[bundle]]** $P \to X$ 
+
+1. equipped with a **$G$-[[action]]** on $P$
+
+1. which is **principal** in that $X \simeq P//G$
+
+Conversely, any such collection we call
+a **$G$-principal $\infty$-bundle** or a **$G$-$\infty$-torsor** 
+over $X$ in the given [[(∞,1)-topos]] $\mathbf{H}$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+**(classification of $G$-principal $\infty$-bundles)**
+
+The ambient [[∞-stack]] [[(∞,1)-topos]] $\mathbf{H}$ 
+satisfies (as described there) the analog of Giraud's axioms.
+These serve to show that $G$-principal $\infty$-bundles are
+indeed _classified_ by their corresponding cocycles:
+
+one of the axioms says that every 
+[[groupoid object in an (∞,1)-category|groupoid object]] in $\mathbf{H}$
+is [[quotient object|effective]], in that the morphism to its
+[[homotopy colimit]] is an [[effcetive epimorphism]].
+
+But this means that starting with the $G$-action on $P$, 
+passing to the [[cocycle]] $g$ obtained from the quotient
+
+$$
+  \array{
+     P &\to& {*}
+     \\
+     \downarrow  && \downarrow
+     \\
+     X \stackrel{\simeq}{\to} P//G &\stackrel{g}{\to}& \mathbf{B}G
+  }
+$$
+
+and then reconstructing from this cocycle its [[homotopy fiber]]
+with the induced $G$-action as above, we do reproduce, up  to equivalence
+the $G$-principal bundle that we started with.
+
+=--
+
+
 
 
  
