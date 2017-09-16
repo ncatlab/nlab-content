@@ -10,29 +10,65 @@ or
 
 of $G$ is a [[chain complex]] 
 
-* whose $n$-cells ar the "$n$-disks based at the identity" in this space;
+* whose $n$-cells ar the "$n$-disks with basepoint on their boundary" in this space, with the basepoint sitting on the identity element of the space;
 
-* whose boundary map is literally that: it sends an $n$-disk to its boundary, read as an $(n-1)$-disk whose entire boundary is concentrated at the identity point.
+* the boundary map on which acts literally like a boundary map should: it sends an $n$-disk to its boundary, read as an $(n-1)$-disk whose entire boundary is concentrated at the identity point.
 
 This is entirely analogous to how a [[crossed complex]] is obtained from a [[strict omega-groupoid]].
 
 #Definition#
 
 
-Given a [[simplicial group]] $G$, the **Moore complex**, $(N G,\partial )$,  of $G$ is the non-Abelian chain complex defined by 
+Given a [[simplicial group]] $G$, the **Moore complex** (or normalized chain complex), $(N G,\partial )$,  of $G$ is the non-Abelian chain complex defined by 
 $$
 N G_n=\bigcap_{i=1}^{n}Ker\,d_i^n 
 $$
 with $\partial _n:N G_n\rightarrow N G_{n-1}$ induced from $d_0^n$ by
 restriction. 
 
-+-- {: .query}
-
- [[Urs Schreiber|Urs]]: is this the standard terminology? In the standard Goerss-Jardine reference below the above is called the "normalized chain complex", whereas "Moore complex" is used for the complex on the $G_\bullet$ with differential the alternating sum of face maps. The quotient of this by degenaracies is isomorphic to the normalized chain complex.
-
-=--
 
 * **Notice:** there is no assumption that $G$ and hence the $N G_n$ are Abelian. But often in the literature the Moore complex is considered only in the special case of the above where all groups involved are Abelian.
+
+
+So a 1-cell $g \in N G_1$ is a 1-disk
+
+$$
+  1 \stackrel{g}{\to} \partial g
+  \,,
+$$
+
+a 2-cell $h \im N G_2$ is a 2-disk
+
+$$
+  \array{
+     && 1 
+     \\
+     & {}^1\nearrow &\Downarrow^h& \searrow^{\partial h}
+     \\
+     1
+     &&\stackrel{1}{\to}&&
+     1
+  }
+  \,,
+$$
+
+a 2-cell in the kernel of the boundary map is such a 2-disk that is closed to a 2-spehere
+
+$$
+  \array{
+     && 1 
+     \\
+     & {}^1\nearrow &\Downarrow^h& \searrow^{\partial h = 1}
+     \\
+     1
+     &&\stackrel{1}{\to}&&
+     1
+  }
+  \,,
+$$
+
+etc.
+
 
 
 
@@ -46,6 +82,39 @@ restriction.
    +-- {: .query}
    Dang, my fault for messing this up a while back; I read it as nerve on [[crossed complex]] and so changed it.  I would use $\mathcal{N}$ for the nerve, to go with $\mathcal{B}$ for the [[classifying space]] functor (to contrast with $\mathbf{B}$ as discussed on [[category algebra]]).  ---Toby
    =--
+
+# Related complexes #
+
+At least for $G$ an _abelian_ simplicial group, there are two other complexes naturally associated with it:
+
+* the **alternating face map complex** of $G$, usually just denoted "$G$" itself: in degree $n$ this exactly the group $G_n$, and the differential is given by
+  $$
+    \partial = \sum_{i = 0}^n (-1)^i d_i
+  $$
+
+* the **complex modulo degeneracies**, sometimes denoted $G/D G$ which is obtained from $G$ by dividing out degeneracies, i.e. cells in the image of a degeneracy map.
+
+All three of these chain complexes are essentially the same:
+
++-- {: .un_theorem}
+###### Theorem
+
+There is 
+
+* an isomorphism of chain complexes
+  $$
+    N G = G / D G
+    \,.
+  $$
+
+* a quasi-isomorphism of chain complexes
+  $$
+    N G \simeq G
+    \,.
+  $$
+
+
+=--
 
 
 #Homology of the Moore complex and homotopy groups#
@@ -86,8 +155,13 @@ $$a(p)(c) = s_0(p)c s_0(p)^{-1}.$$
 
 #References#
 
+A discussion of the Moore complex with an emphasis of its generalization to the non-abelian situation is in section 1.3.3 of
+
+* [[Tim Porter]], [[Tim Porter:crossed menagerie|The Crossed Menagerie]]
+
 A standard reference for the plain abelian version of the Moore and normalized chain complex is
 for instance [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) of 
 
 * Goerss, Jardine, _Simplicial Homotopy Theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
  
+Notice that Gorss-Jardine write "normalized chain complex" for the complex that elsewhere in the literature would be called just "Moore complex", whereas what Goerss-Jardine call "Moore complex" is sometime maybe just called "alternating sum complex" .
