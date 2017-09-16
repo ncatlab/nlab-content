@@ -58,11 +58,11 @@ Now I should finish defining the category.  First, given a context $\Gamma$, the
 
 Given morphisms $\Gamma \to^f \Delta \to^g E$, form the **composite** as follows:  First, for each variable $X$ required by $\Gamma$, $f$ tells us how to substitute a term $T$ built out of the variables in $\Delta$, while $g$ tells us how to substitute a term from $E$ for each of these variables.  So in the end, $X$ is expressed as a term $T[g]$ involving variables available in $E$.  Also, by combining the proofs provided by $f$ and $g$, we get the proofs required for their composite.
 
-To really complete the definition of a category, I should also describe when two morphisms $\Gamma \to \Delta$ are **equal**.  There are actually many options here; the most strict is to say that they equal only if the substitutions and proofs used are syntactically identical, and the most weak is to say that any parallel morphisms are equal.  Neither of these is very useful; for purposes of this example, let us require only that the expressions substituted for each variable $X$ in $\Gamma$ can be proved equal in the context $\Delta$.
+To really complete the definition of a category, I should also describe when two morphisms $\Gamma \to \Delta$ are **equal**.  There are actually many options here; the most strict is to say that they are equal only if the substitutions and proofs used are syntactically identical, and the most weak is to say that any parallel morphisms are equal.  Neither of these is very useful; for purposes of this example, let us require only that the expressions substituted for each variable $X$ in $\Gamma$ can be proved equal in the context $\Delta$.
 
 Now you should be able to prove that composition satisfies the axioms of a [[category]].
 
-Notice that, the exact definition of equality of morphisms can depend heavily on the theory in question and your own purposes.  For example, this definition makes sense only because we have a notion of equality of elements of a group.  Also, you can sometimes place interesting conditions on whether two proofs count as equivalent, rather than requiring either syntactic identity or (as we do here) accepting proof irrelevance.
+Notice that the exact definition of equality of morphisms can depend heavily on the theory in question and your own purposes.  For example, this definition makes sense only because we have a notion of proving equality of elements of a group.  Also, you can sometimes place interesting conditions on whether two proofs count as equivalent, rather than requiring either syntactic identity or (as we do here) accepting proof irrelevance.
 
 +--{.un_example}
 ###### Exercise
@@ -110,4 +110,8 @@ So a __cartesian multicategory__ is a multicategory equipped with, for each obje
 _Toby_:  Ah, the curse of contravariance!  Going over the whole introduction again, I think that I understand why I mentioned multicategories, which is that a context like $a: G, b: G$ is more naturally interpreted as a list $(G, G)$ of objects than as a single object $G \times G$.  But if we were really to go in that direction, then we\'d also want the context $a: G, b: G, (a b)^2 = a^2 b^2$ to be interpreted as a list in its own right rather than an actual subobject of $G \times G$, and that\'s going a bit far ... farther than I understand clearly, in any case.  So in fact I let the category be finitely complete so that we could form that subobject (referred to only via the link to [[internal logic]], of course).
 
 [[Mike Shulman|Mike]]: True.  Is a one-object cartesian multicategory the same as a Lawvere theory, aka an operad relative to the theory of categories with finite products?  If so, then perhaps the relevant place to work is a multicategory relative to the theory of lex categories?  Can that be generalized to stronger logics?
+
+_Toby_:  Yes, that seems to be right, that Lawvere theories are equivalent to one-object cartesian multicategories (cartesian multimonoids? cartesian operads?).  So this should work.
+
+Of course, one thing that contexts do is to form an honest category even if you start with a multicategory.  So here we\'re trying to go backwards and see what bare-bones starting point could lead to the same category of contexts of the equational theory of a group.
 =--
