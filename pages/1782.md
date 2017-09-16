@@ -33,4 +33,4 @@ The $K$-theory space of $C$ in Quillen's version was obtained as a [[classifying
 
 # References #
 
-* Charles Weibel, _The K-Book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
+* [[Charles Weibel]], _The K-Book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
