@@ -3,7 +3,7 @@
 
 _Sieves_ are an equivalent way to encode [[subobject]]s of [[representable functor]]s in a [[presheaf]] category in terms of the total sets of _elements_ of such a subfunctor.
 
-The notion of _sieve_ is usually used when certain such subobjects are singled out as [[cover]]s of a [[Grothendieck topology]]: the singled out subobjects then correspond to _covering sieves_.
+The notion of _sieve_ is usually used when certain such subobjects are singled out as [[cover]]s of a [[coverage]]: the singled out subobjects then correspond to _covering sieves_.
 
 
 A choice of collections of morphism $d \to c$ into an object $c \in C$  for each $d \in C$ reminds one of the [[representable functor]] [[presheaf]]
