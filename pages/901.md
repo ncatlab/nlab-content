@@ -80,15 +80,15 @@ $$
   \,.
 $$
 
-**Defnition**
++-- {: .un_defn}
+###### Definition
 
-$ind\text{-}C \subset PSh(C)$ be the [[full subcategory]] of the [[presheaf]] [[category]] $PSh(C) = [C^{op},Set]$ on those [[functor]]s which are [[filtered category|filtered]] colimits of [[representable functor|representables]], i.e. those for which 
-
+Let $ind\text{-}C \subset PSh(C)$ be the [[full subcategory]] of the [[presheaf]] [[category]] $PSh(C) = [C^{op},Set]$ on those [[functor]]s which are [[filtered category|filtered]] colimits of [[representable functor|representables]], i.e. those for which 
 $$
   X \simeq colim_{d \in D} Y(\alpha(d))
 $$
-
 with $D$ a [[filtered category]].
+=--
 
 ##Remarks##
 
