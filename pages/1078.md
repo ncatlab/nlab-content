@@ -36,13 +36,19 @@ $$
 $$
 where $0_{ij}$ is the zero morphism from $A_i$ to $A_j$.  (In [[constructive mathematics]], this definition of $r$ requires that the index set $I$ have [[decidable equality]], which is the case in most applications of interest.)
 
-Then if $C$ is a [[regular category]] or otherwise has a good concept of [[direct image]], we define the __direct sum__ $\bigoplus_i A_i$ to be the image of the map $r$.
+Then if $C$ is a [[regular category]] or otherwise has a good concept of [[image]], we define the __direct sum__ $\bigoplus_i A_i$ to be the image of the map $r$.
 
 ## Weak direct product ##
 
 ... then consider the [[finite product]]s
 $$ \prod_{i \in F} A_i $$
-as $F$ varies over the [[finite set|finite subsets]] of the index set $I$.  (In [[constructive mathematics]], use the 'finitely indexed' or 'Kuratowski' notion of finiteness here.)  These finite products form a [[directed limit|direct system]] indexed by the [[direction|directed set]] $\mathcal{P}_{fin}I$ of finite subsets of $I$ (ordered by inclusion) with the map
+as $F$ varies over the [[finite set|finite subsets]] of the index set $I$.  (In [[constructive mathematics]], use the 'finitely indexed' or 'Kuratowski' notion of finiteness here.)
+
++--{: .query}
+[[Mike Shulman|Mike]]: Are there categories that have finitely-indexed products?  I don't see how one could construct them even in $Set$.
+=--
+
+These finite products form a [[directed limit|direct system]] indexed by the [[direction|directed set]] $\mathcal{P}_{fin}I$ of finite subsets of $I$ (ordered by inclusion) with the map
 $$ \prod_{i \in F} A_i \to \prod_{i \in G} A_i ,$$
 where $F \subseteq G$, given by
 $$ \prod_{i \in F} A_i \cong \prod_{i \in F} A_i \times \prod_{i \in G \setminus F} 1 \stackrel{(id, 0)}{\to} \prod_{i \in F} A_i \times \prod_{i \in G \setminus F} A_i \cong \prod_{i \in G} A_i .$$
