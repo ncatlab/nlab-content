@@ -458,5 +458,6 @@ See also the references at [[Fermat theory]], of which $C^\infty$-rings are a se
 
 [[!redirects generalized smooth algebras]]
 [[!redirects C-infinity-ring]]
+[[!redirects C-infinity ring]]
 [[!redirects smooth algebra]]
 [[!redirects smooth algebras]]
