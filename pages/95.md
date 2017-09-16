@@ -16,10 +16,10 @@ $$
   |X| := \sum_{[x]}\prod_{k = 1}^\infty |\pi_k(X,x)|^{(-1)^k}
   =
   \sum_{[x]}
-  \frac{1}{\pi_1(X,x)}
-  \pi_2(X,x)
-  \frac{1}{\pi_3(X,x)}
-  \pi_4(X,x)
+  \frac{1}{|\pi_1(X,x)|}
+  |\pi_2(X,x)|
+  \frac{1}{|\pi_3(X,x)|}
+  |\pi_4(X,x)|
   \cdots
   \,.
 $$
