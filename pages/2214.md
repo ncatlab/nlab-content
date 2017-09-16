@@ -36,7 +36,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  [[Toby Bartels]]:  Answered the open question at [[An Exercise in Kantization]].
 
-   * "Kantization" makes it sound like you are talking about Immanuel Kant --- I think you should call it "Kanonization".
+   * [[Jon Awbrey]]:  "Kantization" makes it sound like you are talking about Immanuel Kant --- I think you should call it "Kanonization".
 
 * [[Jon Awbrey]] added a stub-link at [[semiotic equivalence relation]] --- and I see by the clock on the [TARDIS Wall](http://nlab.mathforge.org/nlab/recently_revised) that the Synchronoplastic Infundibulum has hic$\cup\partial$.
 
