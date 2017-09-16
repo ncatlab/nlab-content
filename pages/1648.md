@@ -48,6 +48,10 @@ Maybe we can start by skimming the paper and collecting some unfamiliar keywords
 
 [[Eric]]: What is a "component of a cocone"?
 
+[[Urs Schreiber]]: where did you see that term used? Maybe the question (or its answer) belongs at [[colimit]]. Do you have an idea what a cocone itself is? It consists of lots of morphisms from the objects of a diagram to the cocone tip. If we regard the cocone as a natural transformation to a constant functor, then the components of that natural transformation are these single morphism from objects to the tip of the cocone. These I would call "components of the cocone".
+
+[[Eric]]: It is in "Lemma 1" of [Alm's paper](http://ncatlab.org/nlab/files/Kantization09May27.pdf). I didn't quite get the bit about "constant functor", but thanks to a great Catsters video ([General Limits and Colimits](http://www.youtube.com/watch?v=g47V6qxKQNU)), I have an idea about cocones (via colimits).
+
 #Discussion#
 >(Topics are separated by horizontal lines, with topics presented in reverse chronological order, i.e. the first section is the most recent.)_
 
