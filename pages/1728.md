@@ -1,6 +1,6 @@
 #Idea#
 
-Recall that an $n$-dimensional [[FQFT]] is a [[symmetric monoidal (infinity,n)-functor]] from the [[(infinity,n)-category of cobordisms]]. 
+Recall that an $n$-dimensional [[FQFT]] is a [[symmetric monoidal functor|symmetric monoidal]] $(\infty,n)$-[[n-functor|functor]] from the [[(infinity,n)-category of cobordisms]]. 
 
 $$  
   Z : Bord_n \to C
