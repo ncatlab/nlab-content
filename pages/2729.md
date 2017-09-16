@@ -9,3 +9,5 @@ $MultiSet$ is the [[category]] of [[multisets]].
 
 
 category: category
+
+[[!redirects MultiSet]]
