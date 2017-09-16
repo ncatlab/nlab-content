@@ -317,6 +317,8 @@ Every entry should include:
 
 For historians and people writing bibliographies, it will be very helpful if there exists a _reference_ to any paper or book in which a concept or result was introduced.  However, we can put this information in the page for that concept or result.
 
+Rafael: John, if you need references a priority is needed for which references to include first.
+
 #Discussion#
 
 If you look back in the history of this page, you'll see that Rafael had written some rather different guidelines, including:
