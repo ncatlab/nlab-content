@@ -3,7 +3,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Definition#
+## Definition ##
 
 Let $X$ by a differentiable [[manifold]]. The _tangent Lie algebroid_ $T X$ of $X$ is the [[Lie algebroid]] that corresponds -- in the sense of  [[Lie theory]] -- to 
 
@@ -53,7 +53,7 @@ $$
 
 So regarded as an [[NQ-supermanifold]] the tangent Lie algebroid is the [[shifted tangent bundle]] $\Pi T X$ equipped with its canonical odd vector field.
 
-# relation to flat $\infty$-Lie algebroid valued differential forms #
+## Relation to flat $\infty$-Lie algebroid valued differential forms ##
 
 For $\mathfrak{a}$ any other [[Lie algebroid]] or [[Lie infinity-algebroid]], a morphism of [[Lie infinity-algebroid]]s 
 
@@ -69,3 +69,9 @@ If $\mathfrak{g} = \mathfrak{u}(1) = \mathbb{R}$ is the abelian 1-dimensional Li
 
 More on $\infty$-Lie algebroid-valued differential forms is (eventually) at [[schreiber:∞-Lie algebroid valued differential forms]].
 
+
+## References ##
+
+One of the earliest reference seems to be
+
+* [[Ted Courant]], _Tangent Lie algebroid_ ([pdf](http://www.iop.org/EJ/article/0305-4470/27/13/026/ja941326.pdf))
