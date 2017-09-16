@@ -62,8 +62,8 @@
   * [[graph]], [[directed graph]], [[order]], [[poset]], [[filter]]... 
 
 
-[[!redirects Mathematics]]
 [[!redirects math]]
+[[!redirects Mathematics]]
 [[!redirects Math]]
 [[!redirects maths]]
 [[!redirects Maths]]
