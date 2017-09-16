@@ -18,6 +18,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-31
 
+* [[John Baez]]:
+
+ * Added another theorem to [[cartesian monoidal category]] and moved examples of semicartesian monoidal categories to a new page [[semicartesian monoidal category]].
 
 *  [[Rafael Borowiecki]]:
 
@@ -25,11 +28,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
    * Added that there are several equivalences in category theory at [[category theory]].
    * Gave organismic supercategories as an application of category theory in biology at [[category theory]].
    * Discussed with Toby manifold objects at [[manifold]].
-   * Suggested an answer to my question at [[bousfield localization]].
+   * Suggested an answer to my question at [[Bousfield localization]].
 
-   I have been bussy writing on the timeline of category theory and reading a prehistory of n-categorical physics. But i managed to write something in nLab.
+   I have been busy writing on the timeline of category theory and reading a prehistory of n-categorical physics. But i managed to write something in nLab.
 
-   To log everything just takes more time, and i am already tired of waiting while doing the normal editing. Neither is there a direct link to this page. And is not [[recently revised]] enough? I always used it. Since i don't see the wonderful thing with this page i won't have the energy and time to log everything here.
+   To log everything just takes more time, and i am already tired of waiting while doing the normal editing. Neither is there a direct link to this page. And is not [[recently revised]] enough? I always used it. Since i don't see the wonderful thing with this page i won't have the energy and time to log everything here.  
+
+   * [[John Baez]]: if you don't log your changes here, we probably won't read your work, since we won't know what you've done!  That also means we're not likely to work on further developing your articles.  
+
+The first thing I do when visiting the $n$Lab is go to this page... and I'm probably not the only one!  That's why this page is important: it's where we meet and point each other to what we've just done.  The rest of us log our entries on this page for this reason... why not you?
 
 ## 2009-08-30
 
