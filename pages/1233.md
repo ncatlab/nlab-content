@@ -4,4 +4,6 @@ This is one of the most influential and comprehensive historical books in "forma
 
 The book was supposed to be the first part of a four volume work, but unfortunately later volumes/chapters never appeared. It has some parts of 2- and 3-category theory; including the treatment of the famous [[Gray tensor product]] on 2-Cat. See also [[Gray-category]].
 
+Unfortunately, due to changes in terminology, it is very difficult to read this book nowadays.  Gray uses prefixes such as 'quasi,' 'iso,' and 'weak' to indicate various levels of weakness, but his choice of terminology is not entirely consistent, can be confusing, and is completely different from the standard modern terminology which uses 'lax,' 'oplax,' and 'pseudo' with (mostly) precise and consistent meanings.
+
 category: reference
