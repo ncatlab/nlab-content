@@ -285,6 +285,10 @@ which defined an integral manifold of the exterior differential system.
 
 # References #
 
-A standard textbook is
+The standard textbook is
 
 * Bryant et al., _Exterior differential systems_ 
+
+Course note are provided in
+
+* Bryant, [[EDS-notes.pdf:file]]
