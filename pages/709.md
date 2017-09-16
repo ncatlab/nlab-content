@@ -26,7 +26,7 @@ The $(n+j)$-category associated to a $k$-tuply monoidal $n$-category $C$ is call
 
 A "groupoidal" version of the delooping hypothesis may be stated as
 
-* $k$-tuply groupal $n$-groupoids can be identified with $(k-j)$-tuply groupal $(j-1)$-connected $(n+j)$-groupoids, for $0\le j\le k$.
+* $k$-[[k-tuply groupal n-groupoid|tuply groupal]] $n$-groupoids can be identified with $(k-j)$-tuply groupal $(j-1)$-connected $(n+j)$-groupoids, for $0\le j\le k$.
 
 Here "groupal" means "monoidal and such that all objects have inverses."  (This can actually be seen as a special case of the delooping hypothesis for $k$-tuply monoidal $(n,r)$-categories with $r$ set to $-1$.)
 
