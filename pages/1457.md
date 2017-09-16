@@ -107,3 +107,7 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 [[!redirects ultrametric spaces]]
 [[!redirects Lawvere metric space]]
 [[!redirects Lawvere metric spaces]]
+[[!redirects metrizable space]]
+[[!redirects metrizable spaces]]
+[[!redirects metrisable space]]
+[[!redirects metrisable spaces]]
