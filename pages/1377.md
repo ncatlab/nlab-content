@@ -89,4 +89,8 @@ which when combined with the definition of composition as substitution give you 
 [[Mike Shulman|Mike]]: Ah, I didn't notice that the morphisms from $A$ to $B$ are terms of type $B$ with a free variable of type $A$, rather than the (to me) more obvious choice of terms of type $A\Rightarrow B$.  I don't follow your second paragraph, though.
 
 (Of course, on a moment's reflection that choice makes perfect sense; those are the same as the morphisms in any other category of [[context]]s.)
+
+[[Finn Lawler|Finn]]:  Right -- it's the usual functorial semantics interpretation: composition is substitution.
+
+The second paragraph was just pointing out an example of how a lax adjunction arises in typed $\lambda$-calculus.  You want types to map to 0-cells and terms to 1-cells as usual, and rewrite relations $t red u$ to map to 2-cells $t\Rightarrow u$.  So the term model will be a strict 2-category with (strict or lax) products, together with $(-\times A)$ lax left adjoint to $[A\to -]$ for all $A$.  Then the first definition of lax adjunction should give you the $\beta$ and $\eta$ rewrites as the counit and unit of each adjunction $\check\phi\dashv\hat\phi$.  As I've said above, I'm still working out the details wrt pseudo versus lax naturality, but this is roughly what you should get.
 =--
