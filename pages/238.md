@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * created [[coherent logic]]
 
+  * added John's blog exposition to [[induced representation]]. Is the style OK?
+
 * [[Urs Schreiber|Urs]]: 
 
   * expanded [[hom-set]] a bit
