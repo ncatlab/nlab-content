@@ -27,5 +27,3 @@ _Toby_:  I just read this again after a couple of months, and I think that I was
 
 
 [[!redirects Cauchy complete categories]]
-[[!redirects Cauchy colimit]]
-[[!redirects Cauchy colimits]]
