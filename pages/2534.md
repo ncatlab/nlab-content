@@ -25,6 +25,11 @@ The operations on cardinal numbers induce operations on multisets (or on multisu
 
 [[Eric]]: Given $X = \{1,1,2\}$ and $Y = \{1,1,3\}$, is $X\cap Y = \{1,1\}$ or is $X\cap Y = \{1\}$?
 
+[[Todd Trimble|Todd]]: It's $\{1, 1\}$. (To make the question structural, we should think of $X$ and $Y$ as multisubsets of some other multiset, but never mind.) 
+
+As a writer (perhaps Toby) was saying above, a locally finite multiset $M$ can be thought of as an ordinary set $X$ equipped with a multiplicity function $\mu: X \to \mathbb{N}$. A multisubset of $M$ can then be reckoned as
+$X$ equipped with a function $\nu: X \to \mathbb{N}$ which is bounded above by $\mu$. To take the intersection of two multisubsets $\nu, \nu': X \to \mathbb{N}$, you take the minimum or inf of $\nu, \nu'$. Your question can then be translated to one where $X = \{1, 2, 3\}$, where $\nu(1) = 2, \nu(2) = 1, \nu(3) = 0$ and $\nu'(1) = 2, \nu'(2) = 0, \nu'(3) = 1$. 
+
 =--
 
 *  A __[[union]]__ of multisets is given by the [[supremum]] operation on cardinal numbers.
