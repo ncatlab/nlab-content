@@ -16,7 +16,7 @@ For a historical account see
 
 * John McCleary, _An appreciation of the work of Jim Stasheff_ ([pdf](http://www.math.unc.edu/Faculty/jds/jds.pdf))
 
-The description in terms of [[groupoid object in an (infinity,1)-category]] is due to 
+The description in terms of [[groupoid object in an (∞,1)-category]] is due to 
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
