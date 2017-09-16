@@ -145,6 +145,25 @@ In particular in light of their generalization to nerves of higher categories, d
     \right\}
   $ is the collection of triples of composable morphisms, to be read as the unique associators that relate one way to compose three morphisms using the above 2-cells to the other way.
 
+
+
+
+### examples ###
+
+
+* **bar construction** Let $A$ be a [[monoid]] (for instance a [[group]]) and write $\mathbf{B} A$ for the corresponding one-object [[category]] with $Mor(\mathbf{B} A) = A$. Then the nerve $N(\mathbf{B} A)$ of $\mathbf{B}A$ is the simplicial set which is the usual [[bar construction]] of $A$
+  $$
+    N(\mathbf{B}A)
+    =
+    \left(
+       \cdots
+       A \times A \times A \stackrel{\to}{\stackrel{\to}{\to}} 
+       A \times A \stackrel{\to}{\to} A \to {*}
+    \right)
+  $$
+  In particular, when $A = G$ is a discrete group, then the [[geometric realization]] $|N(\mathbf{B} G)|$ of the nerve of $\mathbf{B}G$ is the [[classifying space|classifying]] [[topological space]] $ \cdots \simeq B G$ for $G$-[[principal bundle]]s.
+
+
 ### properties of the nerve of a category ###
 
 +-- {: .un_prop}
