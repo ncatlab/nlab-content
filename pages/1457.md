@@ -62,6 +62,26 @@ $$ x \lt y \;\Leftrightarrow\; d(x,y) \gt 0 ;$$
 then the symmetry axiom implies that this is an [[apartness relation]], which (for quasimetric spaces) we can also define directly:
 $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
+# Examples #
+
+* Every [[set]] carries the **discrete metric** given by
+  $$
+    d(x,y) = \left\{
+      0 & if x = y
+      \\
+      1 & otherwise
+    \right.
+  $$
+
+* Every normed vector space is metric by $d(x,y) := \Vert x-y \Vert$
+
+* Every connected [[Riemannian manifold]] becomes a metric space by taking the distance between two points to be infimum of the Riemannian length of all continuously differentiable paths connecting them
+
+  $$
+    d(x,y) := inf_{x \stackrel{\gamma}{\to} y} length(\gamma)
+  $$
+
+
 [[!redirects metric spaces]]
 [[!redirects metric]]
 [[!redirects pseudometric]]
