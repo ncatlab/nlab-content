@@ -74,7 +74,7 @@ $$(y;\overline{f},f;y)\sim (y;id_y;y)$$
 [[David Roberts]]: This could probably be described as the [[fundamental category]] of 2-dimensional [[simplicial complex]] with the directed space structure coming from the 1-skeleton, which will be the path category above. In that case, we could/should probably leave out the paths of zero length. 
 =--
 
-## For the case of multiplicative systems/factoization system ##
+## For the case of multiplicative systems/factorization system ##
 
 If the class $W$ admits a [[calculus of fractions]], then there is a simpler description of $C[W^{-1}]$ in terms of [[span|spans]] instead of zig-zags.
 
