@@ -1,0 +1,1 @@
+A continuous map $f : X \to Y$ between [[topological space]]s is **proper** if the [[inverse image]] of [[compact space|compact]] subsets is compact.
