@@ -1,4 +1,8 @@
-# Definition
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition ##
 
 A **double category** is an [[n-fold category]] for $n=2$, i.e., an [[internal category]] in [[Cat]].  Similarly, a **double groupoid** is an internal [[groupoid]] in [[Grpd]].
 
@@ -9,10 +13,35 @@ However, these definitions obscure the essential symmetry of the definition.  We
 * *horizontal arrows*: the objects of $D_1$
 * *squares* or *2-cells*: the morphisms of $D_0$.
 
-The vertical and horizontal arrows both form categories (the "edge categories"), and the squares have two category structures which respect the edge category structures.  In particular, the *transpose* of a double category, which switches the vertical and horizontal arrows, is again a double category.
+We may picture a 2-cell in a double category as a square
+
+$$
+  \array{
+    (x_0 \in Obj(D_0)) 
+    &\stackrel{(f \in Mor(D_0))}{\to} &
+    (x_1 \in Obj(D_0)) 
+    \\
+    \downarrow^{\mathllap{(\xi_0 \in Obj(D_1))}}
+    &\Downarrow^{\mathrlap{(\phi \in Mor(D_1))}}&
+    \downarrow^{\mathrlap{(\xi_1 \in Obj(D_1))}}
+    \\
+    (y_0 \in Obj(D_0)) 
+    &\underset{(f_g \in Mor(D_0))}{\to} &
+    (y_1 \in Obj(D_0)) 
+  }
+  \,.
+$$
 
 
-# Examples
+The vertical and horizontal arrows both form categories (the "edge categories"), and the squares have two category structures which respect the edge category structures.  
+
+Horizontal composition of these squares is given by the compositon in the ordinary [[category|categories]] $D_0$ and $D_1$, while vertical composition is given by the composition operation specified on $D_1 \stackrel{\to}{\to} D_0$ by virtue of it being a [[category]] [[internalization|internal to]] [[Cat]].
+
+
+In particular, the *transpose* of a double category, which switches the vertical and horizontal arrows, is again a double category.
+
+
+## Examples ##
 
 * If $C$ is a 2-category, we have a double category $Sq(C)$ whose objects are those of $C$, both of whose types of morphisms are the morphisms in $C$, and whose squares are 2-cells in $C$ with their source and target both decomposed as a composite of two morphisms.  (These squares are sometimes called *quintets* $(\alpha,f,g,h,k)$ where $\alpha\colon f g \to h k$.)
 
@@ -35,7 +64,7 @@ The vertical and horizontal arrows both form categories (the "edge categories"),
 * There is a double category $Model$ whose objects are [[model categories]], whose horizontal arrows are right [[Quillen functors]], whose vertical arrows are left Quillen functors, and whose 2-cells are arbitrary natural transformations.  Passage to [[derived functors]] is a functor on this double category.
 
 
-# Weakenings
+## Weakenings ##
 
 An internal category in the 1-category $Cat$ is a *strict* double category, all of whose composition operations are strictly associative and unital.  However, since a double category is a 2-dimensional structure, it makes sense to allow these compositions to be weak as well.
 
@@ -44,9 +73,9 @@ A **pseudo double category** is a weakly internal category in the 2-category $Ca
 Finally, a **[[double bicategory]]** is one way to define a double category which is "weak in both directions."
 
 
-#References#
+## References ##
 
-* R. Brown and C.B. Spencer, Double groupoids and crossed
+* [[Ronnie Brown]] and C.B. Spencer, Double groupoids and crossed
 modules, Cah.  Top. G\'{e}om. Diff. 17 (1976) 343--362.
 
 * Jeffrey C. Morton, [Double Bicategories and Double Cospans](http://arxiv.org/abs/math/0611930)
@@ -54,9 +83,9 @@ modules, Cah.  Top. G\'{e}om. Diff. 17 (1976) 343--362.
 * Tom Fiore, [Double Categories and
 Pseudo Algebras](http://www.math.uchicago.edu/~fiore/1/fiorefolding.pdf) 
 
-* John C. Baez, [An Introduction to n-Categories](http://arxiv.org/abs/q-alg/9705009)
+* [[John Baez]], [An Introduction to n-Categories](http://arxiv.org/abs/q-alg/9705009)
 
-* Catsters, Double Categories ([YouTube](http://www.youtube.com/watch?v=kiCZiSA2W3Q&feature=channel_page))
+* [[The Catsters]], Double Categories ([YouTube](http://www.youtube.com/watch?v=kiCZiSA2W3Q&feature=channel_page))
 
 [[!redirects double categories]]
 [[!redirects double groupoid]]
