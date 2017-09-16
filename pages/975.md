@@ -4,7 +4,7 @@
 
 This entry provides a keyword list on concepts related to **categories and sheaves** following the book
 
-* M. Kashiwara and P. Schapira, _Categories and Sheaves_, Springer (2000)
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2000)
 
 #Summary#
 
