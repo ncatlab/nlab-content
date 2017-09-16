@@ -236,3 +236,6 @@ This includes copies of the first thirteen chapters of a 2000 page manuscript of
 Alex Heller's memoir is very readable and is readily available.
 
 *  A. Heller, "Homotopy theories", Memoirs of the American Mathematical Society, Vol. 71, No 383 (1988).  
+
+
+[[!redirects triangulated categories]]
