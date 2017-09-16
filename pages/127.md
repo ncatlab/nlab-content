@@ -1,3 +1,2 @@
-See [[identity element]].
-
-category: redirect
+&lt; [[identity]]
+[[!redirects identity -- history]]
