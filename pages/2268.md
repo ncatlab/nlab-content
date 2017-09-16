@@ -5,9 +5,9 @@ Let $X$ by a differentiable [[manifold]]. The _tangent Lie algebroid_ $T X$ of $
 
 * the [[fundamental groupoid]] $\Pi_1(X)$ of $X$. 
 
-When regarded the tangent Lie algebroid as a [[Lie ∞-algebroid]] it corresponds to
+When the tangent Lie algebroid is regarded as a [[Lie ∞-algebroid]] it corresponds to
 
-* the [[path ∞-groupoid]] $\Pi_\infty)(X)$.
+* the [[path ∞-groupoid]] $\Pi_\infty(X)$.
 
 The space of objects of $T X$ is $X$ itself and its elements in degree 1 are the vectors on $X$, i.e. the elements in the [[tangent bundle]] of $X$. These are to be thouhght of as the [[infinitesimal space|infintiesimal]] paths in $X$.
 
