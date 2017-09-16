@@ -1,3 +1,2 @@
-See [[limit in quasi-categories]].
-
-category: redirect
+&lt; [[limits in quasi-categories]]
+[[!redirects limits in quasi-categories -- history]]
