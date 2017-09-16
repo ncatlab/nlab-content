@@ -17,19 +17,23 @@ The archetypical [[(∞,1)-topos]] is [[∞Grpd]]. This is to be thought of as t
 
 At [internal logic - in Set](http://ncatlab.org/nlab/show/internal+logic#LogicOfSet) is a step-by-step discussion of how ordinary logic is recovered from the point of view of the [[internal logic]] of a topos $\mathcal{T}$ when  choosing $\mathcal{T} := Set$.
 
-Here we look at the $(\infty,1)$-categoried analog of that discussion,  step-by-step, now everything internal to [[∞Grpd]].
+Here we look at the $(\infty,1)$-categorical analog of that discussion,  step-by-step, now everything internal to [[∞Grpd]].
 
-So...
 
-> (...please fill in what comes next, if you have an idea...)
+* The [[terminal object]] of $\infty Grpd$ is [[generalized the|the]] [[contractible]] $\infty$-groupoid $*$.
 
-First we need equivalents for 1, the terminal object. That is [[generalized the|the]] terminal $\infty$-groupoid $*$: any [[contractible]] [[Kan complex]].
+  This _generates_ $\infty Grpd$ under [[colimit]]s: every small $\infty$-groupoid is a colimit over a small diagram consisting only of copies of the terminal $\infty$-groupoid.
 
-> [[David Corfield]]: Can the terminal $\infty$-groupoid work as a generator?
+* The _subobject classifier_ of $\infty Grpd$ is 
 
-> [[Urs Schreiber]]: every small $\infty$-groupoid is a colimit over a small diagram consisting only of copies of the terminal $\infty$-groupoid.
+  $\Omega = \{\top, \bottom\}$
 
-Then we need the analog of the [[subobject classifier]]. This will be an [[object classifier]].
+  The _object_ classifier should be the [[core]] of the
+  [[universal fibration of (infinity,1)-categories|universal left fibration]].
+
+  See [[(sub)object classifier in an (∞,1)-topos]].
+
+Now...
 
 ...
 
