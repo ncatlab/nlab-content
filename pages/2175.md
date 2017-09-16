@@ -23,6 +23,10 @@
 
 * [[graph theory]]
 
+## Computation ##
+
+* [[propositions as types]]
+
 ## Inquiry ##
 
 * [[inquiry]]
