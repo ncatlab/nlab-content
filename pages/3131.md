@@ -6,7 +6,7 @@ The **internal category in $M$** ( is a tuple...
 
 ...
 
-The main historical reference is Marcelo Aguiar's 1997 Cornell thesis, under the guidance of S. Chase. [[George Janelidze]] calls such generalization **noncartesian internal category**, because if the tensor product is the cartesian the notion reduces to the traditional internal category. 
+The main historical reference is Marcelo Aguiar's 1997 Cornell thesis ([pdf](http://www.math.tamu.edu/~maguiar/thesis2.pdf)), under the guidance of S. Chase. [[George Janelidze]] calls such generalization **noncartesian internal category**, because if the tensor product is the cartesian the notion reduces to the traditional internal category. 
 
 There are two kind of morphisms of noncartesian internal categories: functors and cofunctors. 
 
