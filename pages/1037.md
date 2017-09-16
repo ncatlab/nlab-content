@@ -141,8 +141,6 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
     * [[Segal category]]
 
-  * [[(infinity,1)-category of (infinity,1)-functors]]
-
   * [[(infinity,n)-category]]
  
 
@@ -163,6 +161,7 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[(infinity,1)-presheaf]]
 
+  * [[(infinity,1)-category of (infinity,1)-functors]]
 
 * [[limit in quasi-categories]]
 
