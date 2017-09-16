@@ -18,6 +18,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-30
 
+*  [[John Baez]]:
+
+   * Edited [[cartesian monoidal category]] to add some nice examples of semicartesian monoidal categories; these examples should perhaps be moved someday.
+
 *  [[Toby Bartels]]:
 
    *  Edited Zoran\'s latest additions.  Note in particular:
