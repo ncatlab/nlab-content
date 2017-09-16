@@ -14,7 +14,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-17 #
 
-*  [[Toby Bartels]]:  [[David Roberts]] and I would appreciate any terminological suggestion at the unfortunately-named [[topological category]].
+*  [[Toby Bartels]]:  [[David Roberts]] and I would appreciate any terminological suggestions at the unfortunately-named [[topological category]].
 
 # 2009-06-16 #
 
