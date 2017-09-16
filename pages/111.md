@@ -2,8 +2,11 @@
 [[!include category theory - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+## Idea
 
 * A category consists of a collection of things and binary relationships (or transitions) between them, such that these relationships can be combined and include the "identity" relationship "is the same as."
 
@@ -24,7 +27,7 @@ For more background on and context for categories see
 
 * [[category theory]].
 
-#Definition#
+## Definition
 
 A _category_ $C$ consists of 
 
@@ -53,7 +56,7 @@ A _category_ $C$ consists of
 
 People often write $hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ for the collection of morphisms $f : x \to y$; the latter two have the advantage of making clear which category is being discussed.  People also often write $x \in C$ instead of $x \in C_0$ as a short way to indicate that $x$ is an object of $C$.  Also, some people write $Ob(C)$ and $Mor(C)$ instead of $C_0$ and $C_1$.
 
-#Examples#
+## Examples
 
 The classic example is [[Set]], the category with sets as objects and functions as morphisms, and the usual composition of functions as composition.  Here are some other famous examples, which arise as variations on this theme:
 
@@ -79,23 +82,23 @@ These classic examples are the original motivation for the term "category": all 
 
 * **Quiver** A [[quiver]] is a free category on a [[directed graph]].  Given a directed graph $G$ with collection of vertices $G_0$ and collection of edges $G_1$, there is the _[[free functor|free]] category_ $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite sequences of edges in $G_1$ that fit together head-to-tail. The composition operation in this free category is the concatenation of sequences of edges.
 
-#Size Issues#
+## Size Issues
 
 The attentive reader will note that we said a category has a 'collection' of objects and a 'collection' of morphisms.  A category is said to be [[small category|small]] if these collections are sets &mdash; as opposed to [[proper class|proper classes]], for example.  (The alternatives depend on ones [[foundations|foundations for mathematics]].)
 
 Similarly, a category is [[locally small category|locally small]] if $hom(x,y)$ is a set for every pair of objects $x,y$ in that category.  The above examples of "concrete" categories are all locally small but not small (unless one restricts their objects in some way).
 
-#Alternate Definitions#
+## Alternate Definitions
 
 The definition of a category can be rephrased in different mostly-equivalent ways.  For example, instead of taking as given a collection $C_0$ of objects and a collection $C_1$ of morphisms, one can take as given a collection $C_0$ of objects, together with for each pair $x,y$ of objects a collection $hom_C(x,y)$ of morphisms from $x$ to $y$.  (If each collection $hom_C(x,y)$ is a _set_, then this latter version defines only a "locally small category," as above.)  The first definition generalizes naturally to [[internal categories]], while the second generalizes naturally to [[enriched categories]].
 
 It is also possible to define a category in terms of only _one_ collection (the collection of arrows); see [[single-sorted definition of a category]].  This is sometimes convenient for technical reasons.
 
-#Database# 
+## Database
 
 We will build a [[database of categories]] listing well-known categories (with links to articles on these categories, if such articles) and some of their properties.  Right now this is just beginning.
 
-#Literature#
+## Literature
 
 Let's include a lot of nice online introductions. Here is a start:
 
