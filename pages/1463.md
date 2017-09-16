@@ -11,10 +11,10 @@ Given a [[set]] $X$, every proper [[filter]] on $X$ may be extended to an [[ultr
 +-- {: .proof}
 ###### Standard proof
 
-Given a proper filter $F$ on $X$, if $F$ is not maximal, then there is some [[subset]] $A$ of $X$ such that $A \cap B$ is [[inhabited set|inhabited]] whenever $B \in F$ but $A \notin F$; so extend $F$ to $F' = F \cup \{A\}$ to get another proper filter.  Given a chain of proper filters on $X$, their [[union]] is a proper filter.  Now apply Zorn\'s lemma.
+Given a proper filter $F$ on $X$, consider the [[partial order|poset]] of proper filters that refine (contain) $F$, ordered by inclusion (reverse refinement).  Of course, $F$ is in this poset.  Given a chain $\mathcal{C}$ of proper filters that refine $F$, the [[union]] $F \cup \bigcup \mathcal{C}$ is a proper filter that refines $F$ and is an upper bound of $\mathcal{C}$.  By [[Zorn's lemma]], there is a proper filter maximal among those that refines $F$, which is therefore maximal among all proper filters.
 =--
 
-As is typical with applications of Zorn\'s lemma, the second step requires the principle of [[excluded middle]].  As such, the validity of this proof is equivalent to the [[axiom of choice]].  However, the statement itself is weaker than the axiom of choice.
+Although this proof uses Zorn's lemma, the statement itself is weaker.  In particular, it is weaker than the [[axiom of choice]] (even assuming the principle of [[excluded middle]]).
 
 ## Other formulations
 
