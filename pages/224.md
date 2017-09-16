@@ -64,9 +64,9 @@ I want to put here a sort of lexicon of some terms which are taken from a source
 
 This will, for the moment, be more or less 'as-is' from the source (except translating it from  the original French that is!), i.e. without too much editing. This means that there may be conflicts with other entries, which will need resolving later. Some links to other entries have been given but more could be made. There WILL initially be some duplication but that will be eliminated later on.
 
-I have put this in the main area so as to encourage feedback and the identification of potential clashes of notation, terminology and conventions.  I have typed this in but do not like it in some of its terminology. (I am using a latex file from some years ago.) Once I have everything I have in my lexicon down in the nLab I hope we can make the entry  fit more closely to others.
+I have put this in the main area so as to encourage feedback and the identification of potential clashes of notation, terminology and conventions.  I have typed this in but do not like it in some of its terminology. (I am using a latex file from some years ago.) Once I have everything I have in my lexicon down in the nLab I hope we can make the entries  fit more closely to others.
 
-The lexicon will be spread over a number of entries with links at least at the end of each.
+The lexicon will be spread over a number of entries with links at least at the end of each. It will be a list of specialised vocabulary with definitions but not the motivational material that the usual entries attempt to provide. 
 =--
 
 #Lexicon#
