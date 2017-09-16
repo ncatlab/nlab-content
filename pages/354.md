@@ -87,7 +87,7 @@ $$
 
 * Kan complexes are the fibrant objects in the [[model structure on simplicial sets|model structures on simplicial sets]] for which fibrations are [[Kan fibration|Kan fibrations]].
 
-  In this context, a weak equivalence between Kan complexes is a morphism of simplicial sets that induces an [[isomorphism]] on the [[simplicial homotopy group]]s of the two Kan complexes.
+  In this context, a weak equivalence between Kan complexes is a morphism of simplicial sets that induces an [[isomorphism]] on the [[simplicial homotopy groups]] of the two Kan complexes.
 
 #Examples#
 
@@ -101,7 +101,7 @@ is a Kan complex if and only if $C$ is a [[groupoid]].
 
 =--
 
-The existence of [[nLab:inverse|inverse]] morphisms in $D$ corresponds to the fact that in the [[Kan complex]] $N(D)$ the "outer" [[horn]]s
+The existence of [[nLab:inverse|inverse]] morphisms in $D$ corresponds to the fact that in the [[Kan complex]] $N(D)$ the "outer" [[horns]]
 
 $$
   \array{
@@ -183,7 +183,7 @@ $$
 in the obvious way, the $(\Pi(X)_n)$ become a [[simplicial set]] in the corresponding obvious way. For instance the face maps are induced by restricting maps to $X$ along the face inclusions $\delta^i : \Delta^{n-1} \hookrightarrow \Delta^n$.
 
 That $\Pi(X)$ is indeed a Kan complex is intuitively clear. Technically it follows from the fact that the inclusions ${{\Lambda^n}_{Top}}_k \hookrightarrow \Delta^n_{Top}$ of topological horns into topological simplices are 
-[[retract]]s, in that there are continuous maps $\Delta^n_{Top} \to {{\Lambda^n}_{Top}}_k$ given by "squashing" a topological $n$-simplex onto parts of its boundary, such that
+[[retracts]], in that there are continuous maps $\Delta^n_{Top} \to {{\Lambda^n}_{Top}}_k$ given by "squashing" a topological $n$-simplex onto parts of its boundary, such that
 $$
   ({{\Lambda^n}_{Top}}_k \to \Delta^n_{Top} \to
   {{\Lambda^n}_{Top}}_k)
@@ -202,3 +202,5 @@ This example is the universal one: up to [[model structure on simplicial sets|we
 
 
 This is the statement of the [[homotopy hypothesis]] (which is a theorem for $\infty$-groupoids modeled as Kan complexes.
+
+[[!redirects Kan complexes]]
