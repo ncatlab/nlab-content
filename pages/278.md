@@ -15,7 +15,7 @@
 
   * [[synthetic differential geometry]]
 
-* [[Lie theory]], [[Lie group]], [[Lie groupoid]], [[Lie's third theorem]]
+* [[Lie theory]], [[Lie group]], [[Lie groupoid]], [[Lie's three theorems]]
 
 * [[differential form]], [[tangent space]]
 
