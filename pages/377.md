@@ -51,4 +51,8 @@ _Toby_:  I thought that [[nice topological space]] was supposed to be about spec
 I think it would be better, and less confusing, to have separate pages for "nice spaces" and "nice categories of spaces," or whatever we call them.  And, as I said, I don't see any need to invent a new term like "locally nice."
 
 When algebraic topologists (and, by extension, people talking about $\infty$-groupoids) say "nice space" they usually mean either (1) an object of some convenient category of spaces, or (2) a CW-complex-like space, between which weak homotopy equivalences are homotopy equivalences.  Actually, there is a precise term for the latter sort: an [[m-cofibrant space]], aka a space of the (non-weak) homotopy type of a CW complex.
+
+_Toby_:  I thought the full subcategory of locally compact Hausdorff spaces was cartesian closed?  Maybe not, and it\'s not mentioned above.
+
+But you can see that most of the examples above list nice properties of their full subcategories.  And the page begins by talking about what a lousy category $\Top$ is.  So it seems clearly wrong that you can\'t make $\Top$ a nicer category by taking a full subcategory of nice spaces.  (Not all of the examples are subcategories, of course.)
 =--
