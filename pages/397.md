@@ -15,6 +15,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Ben Webster]]
 * [[Benjamin Antieau]]
 * [[Benoit Jubin]]
+* [[beroal]]
 * [[Bruce Bartlett]]
 * [[Charles Wells]]
 * [[Chris Brav]]
