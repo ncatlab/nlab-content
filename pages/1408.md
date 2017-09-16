@@ -206,7 +206,7 @@ Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for
    there is a smaller neighbourhood $V_x \subset U_x$ such that 
    the restriction $f|_{V_x}$ factors either through $V_1$ or
    through $V_1$. This is clearly the case by the fact that $V_1,V_2$
-   form an opeen cover. (A neighbourhood  of $f(x) \in V$ exists which
+   form an open cover. (A neighbourhood  of $f(x) \in V$ exists which
    is contained in $V_1$ or in $V_2$, so take its preimage under
    $f$ as $U_x$).
 
@@ -216,7 +216,7 @@ Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for
    Let $X$ be a topological space as before, but consider now the
    geometry $\mathcal{G} = CRing^{op}$ to be the opposite category of
    commutative [[ring]]s, where a covering family of 
-   $Spec R \in CRing^{op}$ is a family of maos of the form
+   $Spec R \in CRing^{op}$ is a family of maps of the form
    $R \to R[\frac{1}{r_i}]$ with $\{r_i \in R\}_i$ generating the unit
    ideal in $R$. So we think of $Spec R[\frac{1}{r_i}]$ as 
    an the open subset of $Spec R$ on wich the function $r_i$
