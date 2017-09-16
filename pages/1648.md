@@ -47,4 +47,6 @@ _Eric_: There is something about Kan extension that reminds me of some kind of l
 
 _Daniel_: Eric, I don't understand why you wrote on  [[functor]] specificaly about linear least squares, it doesn't seem to have any special relation to do with what I found [on wikipedia](http://en.wikipedia.org/wiki/Linear_least_squares), other then being just a general observation about linear spaces.
 
+_Eric_: Hi Daniel, have a look a <a href="http://golem.ph.utexas.edu/category/2008/03/limits_and_pushforward.html#c024063">John's explanation</a> of Kan extension. What he described made me think of linear least squares (which has nothing to do with any wikipedia article). I was trying to work out an example where Kan extension really did turn out to be linear least squares, but expressed rather in terms of left and right inverses. I may be completely wrong about the relation, but before I can judge, I needed functors between vector spaces thought of as one-object categories, hence the examples on [[functor]]. My goal is to get to the point where I feel fairly comfortable with Kan extension and then try to understand it in the context of Alm's paper.
+
 category: reference
