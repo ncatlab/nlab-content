@@ -49,7 +49,7 @@ Let $C$ be
 
 * or, more generally, such that it has all [[colimit]]s and each domain of morphisms in $I$ is a [[small object]].
 
-* or, yet more generally, such that it has all [[colimit]]s and each domain of morphisms in $I$ is small relative to [[transfinite composition|transfinite composites]] of [pushout]]s of maps in $I$.
+* or, yet more generally, such that it has all [[colimit]]s and each domain of morphisms in $I$ is small relative to [[transfinite composition|transfinite composites]] of [[pushout]]s of maps in $I$.
 
 Then 
 
