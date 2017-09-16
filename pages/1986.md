@@ -13,6 +13,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-08-03
+
+* [[Eric]]: Asked a question of [[Mike Shulman|Mike]] (or anyone else interested in SDG) at [[synthetic differential geometry]].
 
 ## 2009-08-01
 
