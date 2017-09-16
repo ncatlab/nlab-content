@@ -94,10 +94,10 @@ $$
 
 where on the left we have the defining adjunction of the [[(∞,1)-category of (∞,1)-sheaves]] -- $L$ is [[∞-stackification]] -- and on the right the [[geometric morphism]] that is induced from the canonical morphism of [[site]]s $C \to {*}$ (to the [[terminal object|terminal]] site).
 
-The [[constant ∞-stack]] $\infty FinBund := LConf(Core(\infty FinGrpd)) \in \mathbf{H}$ is the classifying stack for [[locally constant ∞-stack]]s on objects $X \in \mathbf{H}$. We write
+The [[constant ∞-stack]] $\infty CovBund := LConst(Core(\infty Grpd)) \in \mathbf{H}$ is the classifying stack for [[locally constant ∞-stack]]s on objects $X \in \mathbf{H}$. We write
 
 $$
-  \infty FinBund(X) := \mathbf{H}(X,\infty FinBund)
+  \infty CovBund(X) := \mathbf{H}(X,\infty CovBund)
 $$ 
 
 for the $\infty$-groupoid of [[locally constant ∞-stack]]s on $X$.
@@ -115,7 +115,7 @@ $$
 then we have from the [[adjunction]] that locally constant $\infty$-stacks on $X$ are equivalently given by [[(∞,1)-functor|∞-functors]] from the [[∞-groupoid]] $\Pi(X)$ to $\infty FinGrpd$:
 
 $$
-  \infty FinBund(X) \simeq Func(\Pi(X),\infty FinGrpd)
+  \infty CovBund(X) \simeq Func(\Pi(X),\infty Grpd)
   \,.
 $$
 
@@ -147,9 +147,68 @@ It was pointed out by [[Richard Williamson]] that the construction should genera
 
 
 
-### Examples
+### Examples {#Examples}
 
-#### Geometric homotopy groups of objects in a 1-topos
+
+#### Geometric $\Pi_0$ of a sheaf on a topological space {#Pi0Ofsheafontopspace}
+
+Here we discuss the 0-th geometric homotopy group $\Pi_0 : Sh(X) \to Set$ of objects in a [[Grothendieck topos|sheaf topos]] in terms of a [[left adjoint]] $\Pi_0$ of the [[constant sheaf]] functor.
+
+> [[Urs Schreiber]]: this here should be evident, but I can't see it in the literature. For the terminal sheaf (the topological space itself), it is a special case of the statements in terms of higher stacks that follow.
+
+Let $X$ be a sufficiently nice [[topological space]]. 
+
++-- {: .un_theorem}
+###### Claim
+
+There is a triple of [[adjoint functor]]s
+
+$$
+  (\Pi_0 \dashv LConst \dashv \Gamma) \;\;\;
+  :
+  \;\;\; Sh(X) \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}}
+  Set
+$$
+
+where 
+
+* $(LConst \dashv \Gamma)$ is the usual [[global section]] [[geometric morphism]] with $LConst_S$ the [[constant sheaf]] of [[locally constant function]]s with values in $S \in Set$ and 
+
+* $\Pi : Sh(X) \to Set$ is [[left adjoint]] to $LConst$ and sends each sheaf $A$ to the set of connected components of the corresponding [[etale space]] $p_A : Et(A) \to X$:
+
+  $$
+    \Pi_0(A) = \pi_0 Et(A)
+    \,.
+  $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+The [[etale space]] of $LConst_S$ is $E(LConst_S) = X \times S$. By the relation of [[sheaves]] on $X$ with [[etale space]]s over $X$ we have
+
+$$
+  Hom_{Sh(X)}(A, LConst_S) 
+  \simeq
+  Hom_{Et/X}(E(A), X \times S)
+$$
+
+For $\gamma : I \to E(A)$ any continuous path in $E(A)$, and for $f : E(A) \to X \times S$ a morphism in $Et/X$, the image of $\gamma$ in $X \times I$ is fixed by, say, the image $f(\gamma(0)) = (p_A(\gamma_0),s)$ to be $f(\gamma) : t \mapsto (p_A(\gamma(t)),s)$. This means that the value of $f$ on any path component of $E(A)$ is uniquely fixed by its value on any point in that path component.
+
+Choosing a basepoint in each path component therefore induces  bijection
+
+$$
+  \simeq Hom_{Set}(\pi_0(Et(A)), S) = Hom_{Set}(\Pi_0(A),S)
+  \,.
+$$
+
+
+=--
+
+
+#### Geometric $\pi_1$ of objects in a 1-topos
 
 The general idea is that of 
 
@@ -164,7 +223,7 @@ The general construction of the first geometric homotopy group of objects in a [
 * [[Peter Johnstone]], _Topos theory_ .
 
 
-#### Homotopy groups from locally constant 1- and 2-stacks on a topological space
+#### Geometric $\Pi_2$ of a topological space
 
 This case is discussed in 
 
@@ -202,7 +261,7 @@ now with the [[path n-groupoid|path 2-groupoid]] operation (locally) left adjoin
 
 
 
-#### Homotopy groups from locally constant $\infty$-stacks on topological spaces {#ooStackOnTopSpace}
+#### Geometric $\Pi_\infty$ of a topological space {#ooStackOnTopSpace}
 
 
  Let $X$ be a sufficiently nice (I think this should be locally (relatively) contractible. -DR) ([[paracompact space|paracompact]]) [[topological space]]. The canonical map $X \to {*}$ induces the [[geometric morphism]]
