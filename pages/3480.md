@@ -41,13 +41,13 @@ Here $Aut(F)$ denotes the group of invertbile [[natural transformation]]s from $
 ###### Quick Proof
 
 
-With a bit of evident abuse of notation, the proof is a one-line sequence of applications of the [[Yoneda lemma]]: 
+With a bit of evident abuse of notation, the proof is a one-line sequence of applications of the [[Yoneda lemma]]: we show $End(F) \cong G$, i.e., each endomorphism on $F$ is invertible, so $End(F) = Aut(F) \cong G$.  
 
 Write $C := Set^G = Rep_{Set}(G)$.
 Observe that the functor $F : C \to Set$ is the [[representable functor|representable]] $F = C(G, -)$. Then the argument is 
 
 $$
-  Aut(F) = End(F)
+  End(F)
   =
   Set^C(F, F) 
     \cong 
