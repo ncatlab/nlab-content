@@ -146,7 +146,9 @@ _Toby_:  I\'m inclined to say that we should go with that!
 
 _Toby_:  I\'m perfectly serious.  The term *should* be indexed primarily by $k$, with $n$ only if one really insists.  I didn\'t want to make up my own word, but if Crans has published one, then why not use it?  I should be able to check that reference the next time that I visit the UCR library (about once a week).
 
-[[Mike Shulman]]: No argument here (about indexing by $k$).  Also $(n,k)$-transformation sounds to me like something to do with [[(n,r)-categories]], but there of course the comma denotes something completely different.
+[[Mike Shulman]]: No argument here (about indexing by $k$).  Also $(n,k)$-transformation sounds to me like something to do with [[(n,r)-categories]], but there of course the comma denotes something completely different. 
+
+[[Todd Trimble]]: I like $k$-transfor. 
 =--
 
 
