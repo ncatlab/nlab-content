@@ -49,4 +49,6 @@ Or should we use both?  There are, after all, two names: 'direct sum' and 'weak 
 ---[[Toby Bartels]]
 
 [[Mike Shulman|Mike]]: I've only ever heard "direct sum" used to mean "coproduct," or sometimes "finite biproduct," in an [[additive category]].
+
+_Toby_:  Well, it\'s definitely also used in the sense of [direct sum of groups](http://secure.wikimedia.org/wikipedia/en/wiki/Direct_sum_of_groups); the same concept is also called 'weak direct product'.  I thought that I once knew how this worked in general, from a universal-algebra perspective, but when I started writing this, I found that I had forgotten (or never really understood) ....
 =--
