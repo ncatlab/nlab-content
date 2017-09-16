@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-02
 
+* [[Urs Schreiber]] tried to usefully rearrange the table of contents at [[HowTo]] into subsections a bit, just a suggestion, probably not optimal yet, but I felt the reader might wish to have an easier overview
+
 *  [[Toby Bartels]]:  Made a table of contents for [[HowTo]].
 
 * [[Mike Shulman]]: A bit more on displaying MathML at [[HowTo]].
