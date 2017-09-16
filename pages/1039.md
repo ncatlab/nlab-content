@@ -5,3 +5,6 @@ $$
   (C \stackrel{\simeq}{\to} *)
   \,.
 $$
+
+
+[[!redirects contractible]]
