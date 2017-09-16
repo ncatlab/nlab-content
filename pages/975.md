@@ -90,7 +90,9 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
     * [[arrow category]]
 
-    * [[comma category]]
+      * [[comma category]]
+
+      * [[subobject]]
 
   * concrete examples
 
@@ -138,7 +140,7 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
   * [[Yoneda lemma]]
 
-  * [[Yondeda embedding]]
+  * [[Yoneda embedding]]
 
   * [[adjoint functor]]
 
