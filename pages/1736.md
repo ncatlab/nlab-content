@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -26,9 +31,9 @@ Notice that $h C$ may be regarded as obtained by first passing to the full [[sub
 
 The Quillen adjunction $(F,G)$ is a **Quillen equivalence** if the following equivalent conditions are satisfied.
 
-* The total left [[derived functor]] $L F : h C \to h D$ is an [[equivalence of categories]];
+* The total left [[derived functor]] $L F : Ho(C) \to Ho(D)$ is an [[equivalence of categories|equivalence]] of the [[homotopy categories]];
 
-* The total right [[derived functor]] $R G : h D \to h C$ is an [[equivalence of categories]];
+* The total right [[derived functor]] $R G : Ho(D) \to Ho(C)$ is an [[equivalence of categories|equivalence]] of the [[homotopy categories]];
 
 * For every cofibrant object $c \in C$ and every fibrant object $d \in D$, a morphism $c \to G(d)$ is a weak equivalence in $C$ precisely when the [[adjunct]] morphism $F(c) \to d$ is a weak equivalence in $D$.
 
