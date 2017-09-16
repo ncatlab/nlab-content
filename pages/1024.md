@@ -17,4 +17,4 @@ However, one of the important insights of category theory is that in arbitrary c
 
 * Again for $C = [D^{op}, Set]$ and $I=D(-,d)$ a [[representable functor|representable]] presheaf, the generalized elements of $F$ at stage $d$ are precisely the elements of the set $F(d)$, by the [[Yoneda lemma]].
 
-* An [[element of an abelian category]] is an equiavalence class of generalised elements.
+* An [[element in an abelian category]] is an equiavalence class of generalised elements.
