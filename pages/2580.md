@@ -160,12 +160,12 @@ $$S = \sum_{\alpha \in A} \partial^\alpha g_\alpha$$
 (Anyone want to give some?) 
 
 
-## in synthetic differential geometry 
+## In synthetic differential geometry 
 
-The theory of distributions may be formulated axiomatically in [[smooth topos]]es that model the axioms of [[synthetic differential geometry]] and support a suitable notion of invertible [[infinitesimal object]]s and infinitely large integers.
+There is another point of view on distributions: that they _can_ be modeled by actual functions provided that one admits infinite and infinitesimal quantities of the type used in Robinson nonstandard analysis. One particular approach is to formulate axiomatically the theory of distributions so that it can be interpreted in [[smooth topos]]es that model the axioms of [[synthetic differential geometry]] and support a suitable notion of invertible [[infinitesimal object]]s and infinitely large integers.
 
 This is discussed in chapter VII, section 3 of
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
 
-Models supporting these axioms are the toposes $\mathcal{Z}$ and $\mathcal{B}$ described there.
+which closely mirrors the original treatment in Robinson's book Non-standard Analysis. Examples of models that support these axioms are the toposes $\mathcal{Z}$ and $\mathcal{B}$ described there. 
