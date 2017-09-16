@@ -1,1 +1,1 @@
-A paracocyclic object in category $C$ is a [[paracyclic object|paracyclic]] (synonym: $\mathbf{Z}$-cyclic) object in $C^{\mathrm{op}}$. 
+A __paracocyclic object__ in category $C$ is a [[paracyclic object|paracyclic]] (synonym: $\mathbf{Z}$-cyclic) object in $C^{\mathrm{op}}$. 
