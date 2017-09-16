@@ -27,10 +27,10 @@ The fact that this involves _[[abelian group|abelian]]_ groups is essential for 
 
 #Details#
 
-We now spell out technical details of the classical Dold-Kan correspondence.
+We now spell out technical details of the classical Dold--Kan correspondence.
 
 +-- {: .num_theorem }
-###### Theorem (Dold-Puppe)
+###### Theorem (Dold--Puppe)
 
 For $A$ an [[abelian category]] 
 there is an [[adjoint equivalence]]
@@ -251,13 +251,13 @@ Now consider the free chain complex on $\Delta^n$...
 There are various generalizations of the standard
 Dold-Kan correspondence.
 
-## dual Dold-Kan corresppondence ##
+## dual Dold--Kan correspondence ##
 
 There is a version relating [[cochain complex]]es in non-negative degree to cosimplicial abelian groups.  Indeed,
-replacing the abelian category $A$ by its opposite category $A^{op}$ in the Dold-Puppe theorem above, we instantly see:
+replacing the abelian category $A$ by its [[opposite category]] $A^{op}$ in the Dold--Puppe theorem above, we instantly see:
 
 +-- {: .num_theorem }
-###### Theorem (dual Dold-Puppe)
+###### Theorem (dual Dold--Puppe)
 
 For $A$ an [[abelian category]] 
 there is an [[adjoint equivalence]] between 
@@ -460,7 +460,7 @@ that generalizes the result to arbitrary [[abelian category|abelian categories]]
 
 The expression of the correspondence in terms of [[nerve]]s is due to
 
-* [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330-346 ([jstor](http://www.jstor.org/stable/1993103)).
+* [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330--346 ([jstor](http://www.jstor.org/stable/1993103)).
 
 
 A standard modern textbook reference for the ordinary Dold-Kan correspondence is [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) of 
