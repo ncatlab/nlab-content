@@ -39,3 +39,4 @@ These can be a little more complicated; see [[quasigroup]] for some discussion o
 
 
 [[!redirects inverse element]]
+[[!redirects inverse morphism]]
