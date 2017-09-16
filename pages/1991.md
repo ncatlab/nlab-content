@@ -8,11 +8,11 @@ Research material.
 
 # Idea #
 
-In the sense of [[space and quantity]] a
+In the sense of [[space and quantity]]
 
-* space is [[presheaf]]
+* a quantity is a [[presheaf|co-presheaf]].
 
-* quantity is a [[presheaf|co-presheaf]].
+The notion of $\infty$-quantity is the [[vertical categorification|∞-categorification]] of this.
 
 The [[vertical categorification|categorification]] of space is an  [[∞-space]] -- a [[higher category theory|higher categorical]] presheaf usually called an [[infinity-stack|∞-stack]]. These may be [[model structure on simplicial presheaves|modeled]] by [[simplicial presheaf|simplicial presheaves]].
 
@@ -334,10 +334,7 @@ infinitesimal simplices as given by [[Anders Kock]]. See [[differential forms in
 
 =--
 
-
-
-[[!redirects (infinity,1) quantity]]
+[[!redirects (infinity,1)-quantity]]
 [[!redirects (∞,1)-quantity]]
-[[!redirects (∞,1) quantity]]
 
 [[!redirects ∞-quantity]]
