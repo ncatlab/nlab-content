@@ -59,3 +59,10 @@ The characterization of $G$-equivariant functors in terms of topological Mackey-
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf))
 
+Something on modelling the equivariant stable category using functors on _all_ (nice) $G$-spaces (instead of on just the [[orbit category]]) is in 
+
+* Andrew Blumberg, _Continuous functors as a model for the equivariant stable homotopy category_ ([(arXiv:math.AT/0505512](http://arxiv.org/abs/math.AT/0505512))
+
+The [[May recognition theorem]] for $G$-spaces and genuine $G$-spectra is discussed in 
+
+* Costenoble and Warner, _Fixed set systems of equivariant infinite loop spaces_ Transactions of the American mathematical society, volume 326, Number 2 (1991) ([JSTOR](http://www.jstor.org/pss/2001770))
