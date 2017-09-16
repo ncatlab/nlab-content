@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-13
 
+*  [[Tim Porter|Tim]]: I have changed the initial sentence of [[homotopy n-type]].  I think this is converging well thanks to the efforts of Mike and Toby. 
+
 *  [[Toby Bartels]]:  Since we already have [[fundamental groupoid]] and even [[fundamental infinity-groupoid]], I started [[fundamental group]] and [[homotopy group]].  But I only wrote #Idea# sections.
 
 # 2009-03-12
