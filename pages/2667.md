@@ -132,4 +132,56 @@ As we have just seen, Schur functors such as the $S_\lambda$ makes sense in pret
 
 The general idea is that Schur functors such as the $S_\lambda$ defined above on individual categories commute with suitable change-of-base functors between these categories. This commutation expresses a kind of naturality, for which we would like a clean and high-level description. 
 
-_To be continued... 
+The above discussion shows that Schur functors $S_\lambda$ "live on" (are definable in terms of structure in) symmetric monoidal linear categories satisfying some (possibly mild) exactness or cocompleteness condition. 
+
+* "Linear" might mean here either enriched in $Ab$ (abelian groups) or enriched in $Vect$ (vector spaces over $\mathbb{Q}$) -- there are various possibilities. 
+
+* The exactness condition might mean (on the strong end of the spectrum) being abelian, or (on the weak end) being Cauchy complete in the enriched sense, i.e., additive and closed under splitting of idempotents, or (somewhere in the middle) being finitely cocomplete, i.e., additive and admitting coequalizers. 
+
+Since the discussion is for now tentative, we'll hedge our bets and go with the vague term "linear" and tacitly understand there's also some exactness condition which will go unmentioned. 
+
+"Change of base" will mean a functor between symmetric monoidal linear categories preserving relevant structure: a symmetric monoidal linear functor which preserves some class of finite colimits, say either all finite colimits (right exactness) or just the absolute colimits (finite coproducts and split coequalizers: any linear functor preserves those). Again, in the tentative discussion we'll leave the exactness condition tacit but unmentioned, and just say "symmetric monoidal linear functor" to cover the type of change-of-base functor we're after. 
+
+Hence we have some 2-category $SymMonLin$ whose objects are "symmetric monoidal linear categories", whose 1-morphisms are "symmetric monoidal linear functors", and whose 2-morphisms are symmetric monoidal linear transformations. 
+
+Now Schur functors, while they are _defined_ in terms of such structure, are not assumed to _respect_ any of this structure except of course for the bare category structure, so they live as 1-morphisms in the 2-category $Cat$. However, they should be _polymorphically defined_: defined for every object $C$ of $SymMonLin$ and invariant with respect to change of base. The right way to say it is that there is a forgetful 2-functor 
+
+$$U: SymMonLin \to Cat$$ 
+
+and to propose the polymorphic definition: a **Schur functor** is a strong (i.e., pseudo) natural transformation from $U$ to itself. That is, a Schur functor is a family of functors 
+
+$$S_C: U(C) \to U(C)$$ 
+
+which commute with symmetric monoidal linear functors $f: C \to D$ up to (coherent) natural isomorphisms $S_f$:  
+
+$$\array{
+U(C) & \overset{S_C}{\to} & U(C) \\
+U(f) \downarrow & S_f \swArrow & \downarrow U(f) \\
+U(D) & \underset{S_D}{\to} & U(D)
+}$$ 
+
+(Coherent in the standard sense implied by strong naturality.) Following usual procedure in 2-category theory, a **morphism** between Schur functors is a modification $\phi: S \to T$ between such strong natural transformations. 
+
+## Discussion for module categories 
+
+The weakest or baseline assumption is that objects of $SymMonLin$ are symmetric monoidal additive categories in which idempotents split. In the case of modules over a commutative ring $A$, this means that minimally we have to include finitely generated projective $A$-modules. This plays a role analogous to finite-dimensional vector spaces over a field, and in fact let's emphasize the analogy by letting $Vect_A$ denote the category of finitely generated projectives over $A$. 
+
+Here are some very easy but possibly suggestive observations: 
+
+* A 1-object symmetric monoidal $Ab$-category is precisely a commutative ring $A$. 
+
+* The Cauchy completion of $A$ is the symmetric monoidal $Ab$-category $Vect_A$. 
+
+* A symmetric monoidal $Ab$-functor between commutative rings is precisely a ring homomorphism $\phi: A \to B$. 
+
+* A symmetric monoidal $Ab$-functor $Vect_A \to Vect_B$ is monoidally isomorphic to one of the form 
+$$B \otimes_A -: Vect_A \to Vect_B$$ 
+for some unique $A$-algebra structure (ring homomorphism) $f: A \to B$. 
+
+Thus, if $S$ is a (polymorphic) Schur functor, the pseudonaturality forces the presence of strength isomorphisms 
+
+$$B \otimes_A S(M) \cong S(B \otimes_A M)$$ 
+
+for any $A$-algebra $f: A \to B$ and for any $M$ in $Vect_A$ (and in fact for any $A$-module $M$ whatsoever). 
+
+_To be continued..._
