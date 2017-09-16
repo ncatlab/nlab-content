@@ -4,7 +4,7 @@ The **Euler characteristic** can refer to a number of different numerical invari
 
 * The Euler characteristic of a [[dualizable object]] in a [[symmetric monoidal category]] is the [[trace]] of its identity morphism.  Applied to suspension [[spectrum|spectra]] in the [[stable homotopy category]], this recovers the usual Euler characteristic of a [[manifold]].
 
-* There is a definition, due to Tom Leinster, of the Euler characteristic of a (suitably finite) [[category]], which generalizes the notion of [[groupoid cardinality]].
+* There is a definition, due to [[Tom Leinster]], of the Euler characteristic of a (suitably finite) [[category]], which generalizes the notion of [[groupoid cardinality]].
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Can the Euler characteristic of a category be recovered as the trace for a dualizable object in some symmetric monoidal category?
