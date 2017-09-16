@@ -16,7 +16,9 @@ Notice that differentiable stacks are equivalent to Lie groupoids modulo [[homot
 
 Stacky Lie groupoids and their [[Lie theory]] were introduced and studied by [Chenchang Zhu](http://chenchangzhu.blogspot.com/) and collaborators.
 
-* [Chenchang Zhu](http://chenchangzhu.blogspot.com/), _Lie $n$-groupoids and stacky Lie groupoids_ ([arXiv](http://arxiv.org/abs/math/0609420))
+* [Chenchang Zhu](http://www.crcg.de/wiki/Chenchang_Zhu), _n-Groupoids and Stacky Groupoids_, 2008, International Mathematics Research Notices (2009) 2009:4087-4141; (http://arxiv.org/abs/0801.2057 arXiv:0801.2057). DOI: (http://dx.doi.org/10.1093/imrn/rnp080 10.1093/imrn/rnp080).
+
+* C.Z., _Lie $n$-groupoids and stacky Lie groupoids_ ([arXiv](http://arxiv.org/abs/math/0609420))
 
 * C. Z.,  _Lie II theorem for Lie algebroids via stacky Lie groupoids_ ([arXiv](http://arxiv.org/abs/math/0701024))
 
@@ -24,7 +26,7 @@ Stacky Lie groupoids and their [[Lie theory]] were introduced and studied by [Ch
 
 * Henrique Bursztyn, C.Z., _Morita equivalence of Poisson manifold via stack groupoids_ ([arXiv](http://arxiv.org/abs/0707.2175))
 
- * C. Z.,  _$n$-Groupoids and stacky groupoids_ ([arXiv](http://arxiv.org/abs/0801.2057)) 
+
 
 ## Further resources
 
