@@ -292,14 +292,16 @@ Most of these include some [[higher category theory]].
 
 An imperfect perspective of category theory (for the purpose of classifying articles) can be obtained from the [MSC subject classification (18-XX)](http://www.ams.org/mathscinet/msc/msc.html?t=18-XX); the current one is from 2000 and reflects ideas of the decade before that.
 
+
 #Main principle of category theory#
 Category theory has a main principle:
 
 _In any category it is unnatural and undesirable to speak about equality of two objects_.  See [[evil]].
 
-Therefore there are many notions of equivalence in category theory to solve this obstacle.
+Therefore there are many notions of equivalence in category theory (both [[equivalence]] in categories) and ([[equivalence of categories]]) to solve this obstacle.
 
 For the theorem accepted as the fundamental theorem of category theory see the [[Yoneda lemma]].
+
 
 #Contrast with set theory#
 Here set theory is assumed to be a theory of the usual concept of sets, that is *material* [[set theory]].
