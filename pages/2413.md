@@ -1,4 +1,15 @@
 
+<div class="rightHandSide toc">
+
+[[!include cohomology - contents]]
+
+***
+
+[[!include functorial quantum field theory - contents]]
+
+</div>
+
+
 There are well-known _geometric models_ for some [[cohomology theory|cohomology theories]]. For instance
 
 * [[integral cohomology]] is modeled by [[line bundle]]s and [[bundle gerbe]]s, etc. 
