@@ -19,7 +19,7 @@ $$
 
 Various interrelated flavors of model structures on the category of simplicial presheaves on $C$ have been introduced and studied since the 1970s, originally by K. Brown and A. Jocal and then developed in detail by Jardine.
 
-Notice that when regarded as a presentation of an [[(infinity,1)-sheaf]], i.e. of an [[infinity-stack]], a simplicial presheaf, being an ordinary functor instead of a [[pseudofunctor]] corresponds to a [[rectified infinity-stack]]. It might therefore seem that a model given by simplicial presheaves is too restrictive to capture the full expected flexibility of a notion of [[infinity-stack]].
+Notice that when regarded as a presentation of an [[(infinity,1)-sheaf]], i.e. of an [[infinity-stack]], a simplicial presheaf -- being an ordinary functor instead of a [[pseudofunctor]] -- corresponds to a [[rectified infinity-stack]]. It might therefore seem that a model given by simplicial presheaves is too restrictive to capture the full expected flexibility of a notion of [[infinity-stack]].
 But this is not so. 
 
 In 
@@ -57,6 +57,82 @@ By Lurie's result these are in each case in turn equivalent to the [[homotopy ca
 Various old results appear in a new light this way. For instance using the old result of [[BrownAHT]] on the way ordinary [[abelian sheaf cohomology]] is embedded in the [[homotopy theory]] of simplicial sheaves, one sees that the old right derived functor definition of [[abelian sheaf cohomology]] really computes the [[infinity-stackification]] of a sheaf of [[chain complex]]es regarded under the [[Dold-Kan correspondence]] as a simplicial sheaf.
 
 
+# Map #
+
+It is the very point of [[model category]] structures on a given [[homotopical category]] that there may be several of them: each [[presentable (infinity,1)-category|presenting]] the same [[(infinity,1)-category]] but also each suited for different computational purposes.
+
+So it is good that there are many model structures on simplicial (pre)sheaves, as there are. The following diagram is a map for part of the territory:
+
+$$
+  \array{
+     SSh(C)^{l loc}_{inj} & 
+     \stackrel{\stackrel{sheafification}{\leftarrow}}
+       {\stackrel{embedding}{\to}}& 
+     SPSh(C)^{l loc}_{inj} 
+     &\stackrel{}{\leftarrow}|&
+     SPSh(C)_{inj}
+     &\stackrel{\stackrel{Id}{\leftarrow}}
+       {\stackrel{Id}{\rightarrow}}&
+     SPSh(C)_{proj}
+     &\stackrel{}{\mapsto}&
+     SPSh(C)_{proj}^{l loc}
+     &
+     \stackrel{\stackrel{sheafification}{\to}}
+       {\stackrel{embedding}{\leftarrow}}& 
+     SSh(C)_{proj}^{l loc}
+     \\
+     Joyal
+     &\stackrel{Quillen equivalence}{\leftrightarrow}&
+     Jardine
+     &\stackrel{left Bousf. localization}{\leftarrow|}&
+     Heller
+     &\stackrel{Quillen equivalence}{\leftrightarrow}&
+     Kan-Quillen
+     &\stackrel{left Bousf. localization}{\mapsto}&
+     Blander
+     &\stackrel{Quillen equivalence}{\leftrightarrow}& 
+     Brown-Gersten    
+     \\
+     \\
+     &
+     everything cofibrant;
+     \\
+     & fibrant = global injective fib...     
+     \\
+     \;\;\; 
+     & ...satisfying descent
+     &&&&&&&&
+     cofibrant = global projective cofib;
+     \\
+     &&&&&&&&&
+     fibrant = Kan-valued and...    
+     \\
+     &&&&&&&&&
+     \;\;\; 
+     ...satisfying descent
+
+  }
+$$
+
+Here 
+
+* "inj" denotes the injective model structure: fibrations are objectwise fibrations
+
+* "proj" denotes the projective model structure: fibrations are objectwise fibrations
+
+* no "loc" subscript means global model structure: weak equivalences are the objectwise weak equivalences:
+
+* "l loc" denotes **left** [[Bousfield localization]] at [[hypercover]]s (at [[stalk]]wise acyclic fibrations if the [[point of a topos|topos has enough points]])
+
+The identity functor on the category $SPSh(C)$ of [[simplicial presheaves]] is a [[Quillen adjunction]] for the projective and injective [[global model structure on simplicial presheaves|global model structure]] and this is a [[Quillen equivalence]].
+
+The [[local model structure on simplicial sheaves|local model structures on simplicial sheaves]] are just the restrictions of [[local model structure on simplicial presheaves|those on simplicial presheaves]]. 
+
+These are related by a [[Quillen adjunction]] given by the usual [[geometric embedding]] of the [[category of sheaves]] as a full [[subcategory]] of that of presheaves -- with [[sheafification]] the [[left adjoint]] -- and this is also  [[Quillen equivalence]].
+
+The characteristic of the _left_ Bousfield localizations is that for them the fibrant objects are those that satisfy
+[[descent]]: see [[descent for simplicial presheaves]].
+
 
 
 #References#
@@ -87,7 +163,7 @@ A detailed study of [[descent]] for simplicial presheaves is given in
 
 * **DI02** D. Dugger, D. Isaksen, _Weak equivalences of simplicial presheaves_ ([arXiv](http://arxiv.org/abs/math/0205025))
 
-Further variants of this can be found at
+A survey of many of the model structures together with a treatment of the left local projective one is in
 
 * Benjamin Blander, _Local projective model structure on simplicial presheaves_ ([pdf](http://www.math.uiuc.edu/K-theory/0462/combination2.pdf))
 
