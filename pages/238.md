@@ -14,7 +14,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-23
 
-* [[Urs Schreiber|Urs]]: created [[Grothendieck universe]] -- but have questions
+* [[Urs Schreiber|Urs]]: created [[Grothendieck universe]] -- but have questions. Mentioned Grothendieck universes at [[small category]] and [[locally small category]].
 
 # 2009-03-22
 
