@@ -56,6 +56,8 @@ In addition to the notes provided by Alex Hoffnung below, there are also notes b
 
 * [[Bertrand Toen]], [[ToenLecture3.ps:file]], talk notes by [[Alex Hoffnung]]
 
+* [[Bertrand Toen]], [[ToenLecture4.ps:file]], talk notes by [[Alex Hoffnung]]
+
 ##Orit Davidovich on Modular Tensor Categories ##
 
 * [[Orit Davidovich]], [[Davidovich.ps:file]], talk notes by [[Alex Hoffnung]]
