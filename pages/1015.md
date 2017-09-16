@@ -11,3 +11,7 @@ ZFC is a form of **pure set theory**, in which everything is a [[pure set]], inc
 Both pure set theory and structural set theory are **foundational set theories**; it also possible to make a **definitional set theory**, in which one defines sets in terms of some more primitive concept.  Lawvere also proposed a foundation based on [[Cat|the category of categories]]; then a set may be defined as a [[discrete category]].  In [[constructive mathematics]], a foundation based on [[type theory]] is popular, with types interpreted as _presets_ (sets without [[equality]]); then a set may be defined as a preset equipped with an [[equivalence relation]].  In [[computer science]], a foundation based on the [[lambda-calculus]]s is sometimes seen; in these terms, the concept of _list_ is more natural than set, with the difference being that sets have a coarser notion of equality.
 
 Category theory can provide a common [[model theory]] to compare all of these notions.  Although only structural set theories like ETCS treat the elementary properties of the category $Set$ of sets as fundamental, one can ask for any set theory what properties $Set$ satisfies and compare them in those terms.  At the very least, $Set$ should be a [[pretopos]].
+
+#Remarks#
+
+* There is also [[algebraic set theory]].
