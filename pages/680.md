@@ -156,3 +156,7 @@ The discussion of Dold--Kan in the generalized context of [[semi-abelian categor
 * **Bourn2007** D. Bourn, _Moore normalisation and Dold--Kan theorem for semi-Abelian categories_, in 
 Categories in algebra, geometry and mathematical physics , volume 431 of Contemp. Math., 
 105--124, Amer. Math. Soc., Providence, RI. (2007)
+
+
+[[!redirects Dold--Kan correspondence]]
+[[!redirects Dold–Kan correspondence]]
