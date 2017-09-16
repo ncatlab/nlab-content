@@ -22,3 +22,5 @@ commutes with all [[limit in quasi-categories|colimits]].
 #Remarks#
 
 * For more discussion of the relevance of compact objects, see also [[geometric infinity-function theory]].
+
+[[!redirects compact object in an (∞,1)-category]]
