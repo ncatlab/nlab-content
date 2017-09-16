@@ -6,6 +6,8 @@ For $G$ a [[group]], a $G$-principal [[bundle]] over a space $X$ is another spac
 
 Let $G$ be a ([[group object|topological, smooth, …]]) [[group]] and $X$ a ([[topological space|topological]], [[manifold|smooth]], ...) space.
 
+## ordinary definition ##
+
 The **trivial $G$-principal bundle** on $X$ is the space $G \times X$ with the projection map $X \times G \to X$ and the action of $G$ on $X \times G$ by (say, right) multiplication of $G$ on itself.
 
 A $G$-**principal bundle** on $X$ is a space $P \to X$ equipped with an [[action]] of $G$ on $P$ such that there is a [[cover]] $Y \to X$ and a $G$-equivariant isomorphism of the [[pullback]] of $P$ to the cover with the trivial $G$-bundle on the cover
@@ -20,6 +22,8 @@ $$
     &&Y &\to& X
   }
 $$
+
+## the stack of principal bundles ##
 
 The [[groupoid]] of $G$-principal bundles on $X$ is denoted 
 
@@ -37,6 +41,9 @@ $$
 
 The local construction of $G$-principal bundles above ensures precisely that this satisfies [[descent]] and is hence a [[stack]].
 
+
+## in terms of fiber sequences ##
+
 This indicates the more fundamental way to _define_ $G$-principal bundles in the first place:
  
 Recall that for every [[group]] there is the the one-object [[groupoid]] $\mathbf{B}G$. Under the [[Yoneda embedding]] this [[representable functor|represents]] a [[simplicial presheaf|prestack]]. Write $\bar{\mathbf{B}G}$ for the corresponding [[stack]] obtained by [[(infinity,1)-sheafification|stackification]]. This is our $G Bund(-)$
@@ -50,7 +57,7 @@ This perspective in turn is by general abstract nonsense equivalent to the follo
 
 Let $H$ be the suitable [[(infinity,1)-topos]] internal to which one looks at $G$-principal bundles. For instance for topological bundles this would be [[Top]]. For smooth bundles it would be the [[(infinity,1)-category of (infinity,1)-sheaves]] on [[Diff]], etc. 
 
-Then every element in $G Bund(X) \simeq \bar{\mathbf{B} G}(X)$ is given by a morphism in $H(X,\mathbf{B}G)$, which may be thought of as an [[anafunctor]] to $\mathbf{B}G$ from the (categorially) [[discrete category]] $X$; the $G$-principal bundle from the beginning of the above definition is just the [[homotopy limit|homotopy pullback]] of the [[point]] along this map
+Then every element in $G Bund(X) \simeq \bar{\mathbf{B} G}(X)$ is given by a morphism in $H(X,\mathbf{B}G)$, which may be thought of as an [[anafunctor]] to $\mathbf{B}G$ from the (categorially) [[discrete category]] $X$; the $G$-principal bundle from the beginning of the above definition is just the [[homotopy limit|homotopy pullback]] of the [[point]] along this map, i.e. the [[fibration sequence|homotopy fiber]] of $X \to \mathbf{B}G$:
 
 $$
   \array{
@@ -82,3 +89,405 @@ $$
 $$
 
 So every $G$-principal bundle $P \to X$ is the pullback along a classifying map $X \to \mathbf{B}G$ (in the right $(\infinity,1)$-categorical context, otherwise a span such as an [[anafunctor]]) of the universal $G$-principal bundle.
+
+## the $G$-action from the homotopy pullback ##
+
+
+Given the definition of the bundle $P$ in terms of a [[homotopy pullback]] of ${*} \to \mathbf{B}G$ we re-obtain the $G$-[[action]] on $P$ as follows 
+(with an eye towards its generalization to [[principal infinity-bundle]]s).
+
+
+
+Let 
+
+$$
+  \cdots G \times G \stackrel{\stackrel{d_2}{\to}}{\stackrel{\stackrel{d_1}{\to}}{\stackrel{d_0}{\to}}}
+  G \stackrel{\stackrel{d_1}{\to}}{\stackrel{d_0}{\to}}
+  {*}
+  \to 
+  \mathbf{B}G
+$$
+
+be the [[quotient object|effective]] [[groupoid object in an (infinity,1)-category]] that exhibits the [[delooping]] $\mathbf{B}G$ of $G$.
+
+Form the [[homotopy pullback]] of the classifying morphism $X \to \mathbf{B}G$ along the $d_0$-[[simplicial object|face maps]] of this diagram. This yields a diagram
+
+$$
+  \array{
+    \cdots
+    &
+     P \times G \times G
+    &
+    \stackrel{\to}{\stackrel{\to}{\to}}
+    &
+     P \times G
+    &
+    \stackrel{\to}{\to}
+    &
+    P
+    &
+    \stackrel{}{\to}
+    &
+    X
+    \\
+    & \downarrow
+    &&
+    \downarrow
+    &&
+    \downarrow
+    &&
+    \downarrow
+    \\
+    \cdots
+    &
+     G \times G
+    &
+    \stackrel{\to}{\stackrel{\to}{\to}}
+    &
+     G
+    &
+    \stackrel{\to}{\to}
+    &
+    {*}
+    &
+    \stackrel{}{\to}
+    &
+    \mathbf{B}G
+  }
+$$
+
+where all squares formed by the lowest horizontal morphisms are [[homotopy pullback]] squares, by construction, and where the remaining horizontal morphisms in the top row are induced by the universal property of the homotopy pullback and the morphisms downstairs.
+
+The claim is that 
+
+* the top row encodes the [[action]] of $G$ on $P$
+  in that the action is the morphism indicated $\rho$ in
+  $$
+   \cdots
+   \stackrel{\to}{\stackrel{\to}{\to}}
+   P \times G 
+    \stackrel{\stackrel{\rho}{\to}}{\stackrel{p_1}{\to}}
+   P
+   \to X
+  $$
+
+* and it exhibits $P \times G^{\times (n-1)}$ as the [[groupoid object in an (infinity,1)-category]] being the [[Cech nerve]] of $P \to X$:
+
+  $$
+  \array{
+    \cdots
+    &
+     P \times_X P \times_X P
+    &
+    \stackrel{\to}{\stackrel{\to}{\to}}
+    &
+     P \times_X P
+    &
+    \stackrel{\to}{\to}
+    &
+    P
+    &
+    \stackrel{}{\to}
+    &
+    X
+    \\
+    & \uparrow^{\simeq}
+    &&
+    \uparrow^{\simeq}
+    &&
+    \uparrow^{\simeq}
+    &&
+    \uparrow^{\simeq}
+    \\
+    \cdots
+    &
+     P \times G \times G
+    &
+    \stackrel{\to}{\stackrel{\to}{\to}}
+    &
+     P \times G
+    &
+    \stackrel{\stackrel{\rho}{\to}}{\to}
+    &
+    P
+    &
+    \stackrel{}{\to}
+    &
+    X
+    \\
+    & \downarrow
+    &&
+    \downarrow
+    &&
+    \downarrow
+    &&
+    \downarrow
+    \\
+    \cdots
+    &
+     G \times G
+    &
+    \stackrel{\to}{\stackrel{\to}{\to}}
+    &
+     G
+    &
+    \stackrel{\to}{\to}
+    &
+    {*}
+    &
+    \stackrel{}{\to}
+    &
+    \mathbf{B}G
+  }
+  $$
+
+Here the second statement in particular encodes the familiar way to formulate **principality of the action** $\rho$, in that it says that
+
+$$
+  P \times G \stackrel{p_1 \times \rho}{\to} P \times_X P
+$$
+
+is an [[isomorphism]].
+
+We now unwrap the first statement in gory detail to make clear that this abstract nonsense does reproduce the familiar definition of the action of $G$ on $P$.
+
+### unwinding this abstract nonsense ###
+
+We now rederive the [[action]] $\rho$ of $G$ on $P$ given just the classifying map $X \to \mathbf{B} G$ by spelling out the details implied by the above nonsense.
+
+Whatever the precise context is (topological, smooth, etc.) we may assume that we are at least in a [[category of fibrant objects]]. Then the classifying morphism $X \to \mathbf{B}G$ is represented by an [[anafunctor]], namely a cocycle
+
+$$
+  \array{
+    C(U) &\stackrel{g}{\to} & \mathbf{B}G
+    \\
+    \downarrow^{\in W \cap F}
+    \\
+    X
+  }
+$$
+
+in [[Cech cohomology]] coming from some [[cover]] $\{U_i \to X\}$ of $X$.
+
+The [[Cech nerve]] $C(U)$ has
+
+* objects = $\{(x,i) | x \in U_i\}$
+
+* morphisms = $\{ (x,i) \stackrel{}{\to} (x,j) | x \in U_{i j}\}$ .
+
+The [[functor]] $g : C(U) \to \mathbf{B}G$ sends
+
+$$
+  g : ((x,i) \to (x,j)) \mapsto (\bullet \stackrel{g_{i j}(x)}{\to}\bullet )
+$$
+
+for $g_{i j} \in Functions(U_{i j}, G)$ as described in detail at [[Cech cohomology]].
+
+With $\mathbf{E}G = \{g \stackrel{h}{\to} g h | g,h \in G \}$ the fibrant replacement of the point, which we shall find it helpful to think of as given by
+
+* objects = $\left\{
+      \array{
+         && \bullet
+         \\
+         & {}^g\swarrow
+         \\
+         \bullet
+      }
+    \right\}
+  $
+
+* morphisms = $\left\{
+      \array{
+         && \bullet
+         \\
+         & {}^g\swarrow && \searrow^{g' = g h}
+         \\
+         \bullet &&\stackrel{h}{\to}&& \bullet
+      }
+    \right\}
+  $
+
+
+we compute the [[homotopy pullback]] as the 
+homotopy fiber product given by the ordinary [[pullback]] (see [[category of fibrant objects]] for details)
+
+$$
+  \array{
+    P &\to& \mathbf{E}G
+    \\
+    \downarrow && \downarrow
+    \\
+    C(U) &\stackrel{g}{\to}&
+    \mathbf{B}G
+  }
+  \,.
+$$
+
+
+So we read off that $P$ is the [[groupoid]] with
+
+* objects = 
+  $$
+   \left\{
+   \array{
+     && \bullet
+     \\
+     & {}^{g}\swarrow
+     \\
+     \bullet
+     \\
+     (x,i)
+   }
+   \right\}
+  $$
+
+* morphisms =
+  $$
+   \left\{
+   \array{
+     && \bullet
+     \\
+     & {}^{g}\swarrow && \searrow^{g'}
+     \\
+     \bullet &&\stackrel{g_{i j }(x)}{\to}&& \bullet
+     \\
+     (x,i) &&\stackrel{}{\to}&& (x,j)
+   }
+   \right\}   
+  $$
+
+With $P$ determined as an ordinary pullback of a replacement it is convenient for the following to realize it in turn as the pullback-up-to-2-cell in
+
+$$
+  \array{
+   P &\to& {*}
+   \\
+   \downarrow &\Downarrow^{\eta_P}& \downarrow
+   \\
+   C(U) &\to& \mathbf{B}G
+  }
+ \,.
+$$
+  
+  
+A moment reflection shows that the component of the [[natural transformation]] $\eta_P$ here is
+
+$$
+  \eta_P : 
+  \left(
+     \array{
+     && \bullet
+     \\
+     & {}^{g}\swarrow
+     \\
+     \bullet
+     \\
+     (x,i)
+   }
+  \right)
+  \;\;\;
+  \mapsto
+  \;\;\;
+  (\bullet \stackrel{g}{\to}\bullet)
+$$
+   
+  At the same time recall from the discussion at [[delooping]] that the component of the transformation $\eta_G$ in
+
+$$
+  \array{
+   G &\to& {*}
+  \\
+  \downarrow &\Downarrow^{\eta_G}& \downarrow
+   \\
+   {*} &\to& \mathbf{B}G
+  }
+$$
+
+is
+
+$$
+  \eta_G : g \mapsto (\bullet \stackrel{g}{\to} \bullet)
+  \,.
+$$
+  
+
+Taken together this shows that  the universal morphism $P \times G \to P$ induced from the commutativity of
+
+$$
+ \array{
+  &&&& P \times G
+  \\
+  && & \swarrow && \searrow
+  \\
+  && P &&&& G
+  \\
+  & \swarrow && \searrow && \swarrow && \searrow 
+  \\
+  C(U) &&\Downarrow^{\eta_P}&& {*} &&\Downarrow^{\eta_G}&& {*}
+  \\
+  &&\searrow&& \downarrow && \swarrow
+  \\
+  &&&& \mathbf{B}G
+ }  
+$$
+
+and from the [[homotopy pullback]] property of
+
+$$
+  \array{
+   P &\to& {*}
+   \\
+   \downarrow &\Downarrow^{\eta_P}& \downarrow
+   \\
+   C(U) &\to& \mathbf{B}G
+  }
+$$
+
+is simply given by the composition of these two component maps
+
+$$
+  P  \times G  \to P :
+  \left(
+  \left(
+     \array{
+     && \bullet
+     \\
+     & {}^{g}\swarrow
+     \\
+     \bullet
+     \\
+     (x,i)
+   }
+  \right)
+  \,,
+  \array{
+    \bullet
+    \\
+    \downarrow^{g'}
+    \\
+    \bullet
+  }
+  \right)
+  \; \;\; \;
+  \mapsto
+  \; \;\; \;
+  \left(
+     \array{
+     && \bullet
+     \\
+     && \downarrow^{g'}
+     \\
+     && \bullet
+     \\
+     & {}^{g}\swarrow
+     \\
+     \bullet
+     \\
+     (x,i)
+   }
+  \right)
+  \,.
+$$
+
+But this is manifestly the right (being both: from the right and correct :-) [[action]] $\rho : P \times G \to G$ of $G$ on $P$.
+
