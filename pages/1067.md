@@ -15,3 +15,9 @@ Note that in particular, a chain complex is a [[graded object]] with extra struc
 ###Terminology
 
 When discussing chain or cochain complexes within the area of [[differential algebra]], the terminology [[differential graded vector space]] is used, since this is then consistent with other terminology such as [[differential graded algebra]]. 
+
+# Model structure #
+
+There is a [[model category]] structure on the category $Ch(A)$ of chain complexes. Its [[homotopy category]] is the [[derived category]] of $A$.
+
+See [[model structure on chain complexes]].
