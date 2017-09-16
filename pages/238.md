@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-15 #
 
+* [[David Corfield|David]]:
+
+  * began [[synthetic differential geometry]]
+
 * [[Urs Schreiber|Urs]]:
 
   * further refined the discussion of the relation to localization at [[geometric embedding]]
