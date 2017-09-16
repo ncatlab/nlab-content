@@ -1,3 +1,2 @@
-See [[group theory]].
-
-category: redirect
+&lt; [[Group theory]]
+[[!redirects Group theory -- history]]
