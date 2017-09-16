@@ -276,3 +276,6 @@ in
   * enriched [[weighted limit]]s in terms of enriched functor categories are in section 3.1
 
   * the end of general $V$-enriched functors in terms of weighted limits is in section 3.10 .
+
+
+[[!redirects coend]]
