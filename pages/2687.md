@@ -19,6 +19,8 @@
 
 * [[small object argument]]
 
+* [[Bousfield localization]]
+
 ## refinements ##
 
 * [[combinatorial model category]]
