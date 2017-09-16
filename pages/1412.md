@@ -356,7 +356,7 @@ There is a collection of tools available for _computing_ explicitly the cohomolo
 
 * [[derived functor]]
 
-  * [[injective object|injective resoltution]]
+  * [[injective object|injective resolution]]
 
   * [[bar and cobar construction]]
 
