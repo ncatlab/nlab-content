@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-18 #
 
+* [[Urs Schreiber|Urs]]: 
+
+  * added an opinion to [[simplicial homotopy group]]
+
+    * will add the definition of the group structure later today  
+
 * [[Andrew Stacey]]: Changed the example in [[topological concrete category]] for [[generalized smooth space]] since I think that all the examples listed there are topological over set.
 
 *  [[David Roberts]]: 
