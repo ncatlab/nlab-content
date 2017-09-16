@@ -29,4 +29,6 @@ _Toby_:  I didn\'t think that this would make a difference to the elementary pro
 [[Mike Shulman|Mike]]: Including the non-connective spectra makes a big difference to the elementary properties: otherwise the "suspension" functor would not be an auto-equivalence.  I don't think I've ever seen a set of Giraud-like axioms for categories of abelian sheaves, but it seems plausible that they might exist.  I'm nothing like an expert on abelian categories.
 
 _Toby_:  All right.  Well, it might be possible to get something out of 'abelian' yet, but presumably not 'abelian $(\infty,1)$-category' exactly.
+
+_Mike_: Maybe the best notion of "abelian" in the $(\infty,1)$-world is just a [[stable (infinity,1)-category]].
 =--
