@@ -1,4 +1,9 @@
-## Mathematics blogs ##
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
+
+# Mathematics blogs #
 
 * [A Mind for Madness](http://hilbertthm90.wordpress.com)
 
@@ -108,7 +113,7 @@
 [[Mike Shulman]]: I think this page would be even more useful if it included brief notes about what sort of activity tends to go on at each blog in the list.
 =--
 
-##Statistics blogs##
+#Statistics blogs#
 
 * [Hot Hand -- Sports Streakiness](http://thehothand.blogspot.com)
 
@@ -118,11 +123,11 @@
 
 * [Williams College Math/Stat blog](http://blogs.williams.edu/math)
 
-##Theoretical Computer Science blogs##
+#Theoretical Computer Science blogs#
 
 Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Science).
 
-##Other Blogs that talk about Mathematics##
+#Other Blogs that talk about Mathematics#
 
 * [Mathematics in Australia](http://austmaths.wordpress.com)
 
@@ -136,7 +141,7 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 
 * [Quomodocumque](http://quomodocumque.wordpress.com/category/math/)
 
-##Mathematical Wikis##
+#Mathematical Wikis#
 
 * [Analysis & PDE conferences](http://tosio.math.utoronto.ca/wiki/index.php/Conferences)
 * [Deferential Geometry](http://deferentialgeometry.org)
@@ -144,7 +149,7 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
 * [The Tricki](http://www.tricki.org)
 
-##Other Resources##
+#Other Resources#
 
 * Luca Trevisan's [LaTeX to Wordpress converter](http://lucatrevisan.wordpress.com/latex-to-wordpress)
 * John Baez's thread [What do mathematicians need to know about blogging?](http://golem.ph.utexas.edu/category/2009/08/what_do_mathematicians_need_to.html)
