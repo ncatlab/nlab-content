@@ -9,7 +9,7 @@ $$X\stackrel{f}{\to} Y$$
 in $C$, we have the obvious morphism
 
 
-$$(x\in X)\stackrel{f_x}{\to} (y\in Y)$$
+$$(x\in X)\stackrel{f_x}{\mapsto} (y\in Y)$$
 
 
 in $Explode(C)$.
@@ -69,6 +69,13 @@ Eric, what would you call $Explode(C)$ is words?: the 'explosion' of $C$, the 'e
 [[Eric Forgy|Eric]]: If the term '[[category of elements]]' is standard, then you could just call it that. I'm not excited by the notation $El(C)$ though. I'm still thinking about the best way to present this. I like the picture (see below) of "exploding" a category that is missing in the description of [[category of elements]] and is also not indicated by the notation $El(C)$. The image I get when I think of this is roughly like a fireworks display.
 
 PS: For a field that is so "pictorial" in nature, the nCafe generally is sadly lacking in "pictures".
+
+[[Urs Schreiber|Urs]]: I like the figures you included, and I do like the attitude to explain this concept -- and concepts in general -- in the kind of way you are doing here. I didn't mean to complain about your style of explaining this. We need much more of more "low brow", if you wish, explanations at $n$Lab entries, yes.
+
+But why not put this low brow, intuitively more accesible description alongside with the entry that presents the concept from a more highbrow, more category-theoretic perspective? Isn't it best to have all perspectives joined in a single entry? So that every reader can find his or her own entry point and discover the other aspects from there? 
+
+My suggestion would be to create in the entry [[category of generalized elements]] a section with your material here. It's great to tell the reader that he or she may find it helpful to think of a "category of elements" as an "exploded category". Nothing against that. 
+
 =--
 
 >[[Urs Schreiber|Urs]]: the following really describes this concept: given a category $C$ with a [[generator]] ${*}$ or some other singled out object such as a tensor unit if $C$ is monoidal, there is the category of [[generalized element]]s of $C$ with respect to ${*}$, which is the [[over category]] $(*/C)$. The term "exploding a category" is very non-standard and I don't really like it, to be frank. Could we move this here maybe to something like "category of elements", or the like? 
