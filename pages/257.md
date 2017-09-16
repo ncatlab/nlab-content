@@ -104,7 +104,7 @@ Many notions of [[higher category theory|higher categories]] come equipped with 
 
 An introductory survey of some key concepts is in the set of slides
 
-* Peter May, [[ModelCatPrimer.pdf:file]]
+* [[Peter May]], [[ModelCatPrimer.pdf:file]]
 
 There is an unpublished manuscript of Chris Reedy from around 1974 that's been circulating as an increasingly faded photocopy. It's been typed into LaTeX, and the author has given  [permission](http://www-math.mit.edu/~psh/#Other%20mathematics) for it to be posted on the net:
 
@@ -112,7 +112,7 @@ There is an unpublished manuscript of Chris Reedy from around 1974 that's been c
 
 Recent review:
 
-* Paul G. Goerss, Kristen Schemmerhorn, _Model Categories and Simplicial Methods_ ([arXiv](http://arxiv.org/abs/math.AT/0609537))
+* [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([arXiv](http://arxiv.org/abs/math.AT/0609537))
 
 A nice first introduction:
 
