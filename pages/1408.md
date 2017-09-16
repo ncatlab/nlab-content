@@ -201,7 +201,7 @@ Then...
 
 ([StrSh, example 4.5.2](http://arxiv.org/abs/0905.0459))
 
-Every ordinary smooth manifold $X$ becomes canonically a generalized space with structure sheaf as follows:
+Every ordinary smooth [[manifold]] $X$ becomes canonically a generalized space with structure sheaf as follows:
 
 Let $V := Diff$ be some version of the category of smooth manifolds. This becomes a _pregeometry_ in the above sense by taking admissable morphisms to be inclusions of open submanifolds.
 
