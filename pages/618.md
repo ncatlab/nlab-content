@@ -1,6 +1,6 @@
 # Idea #
 
-A **coverage** on a [[category]] $C$ consists of, for each object $U\in C$, a collection of families $\{f_i:U_i\to U\}_{i\in I}$ of [[morphism]]s with target $U$ to be thought of as [[cover|covering families]].  The essential characteristic of these covering families is that they be "stable under [[base change|pullback]]."  A number of other "saturation" conditions are frequently also imposed for convenience.  A category equipped with a coverage is called a [[site]].
+A **coverage** on a [[category]] $C$ consists of, for each object $U\in C$, a collection of families $\{f_i:U_i\to U\}_{i\in I}$ of [[morphisms]] with [[target]] $U$ to be thought of as [[cover|covering families]].  The essential characteristic of these covering families is that they be "stable under [[base change|pullback]]."  A number of other "saturation" conditions are frequently also imposed for convenience.  A category equipped with a coverage is called a [[site]].
 
 One of the main purposes of a coverage is that it provides the minimum structure necessary to define a notion of [[sheaf]] (or more generally [[stack]]) on $C$.  A [[Grothendieck topos]] is defined to be the category of sheaves (of sets) on a small site.  From this perspective, the example to keep in mind is the [[partial order|poset]] $O(X)$ of open sets in some [[topological space]] (or [[locale]]) $X$, where a morphism is an inclusion, and a family of inclusions $\{U_i \hookrightarrow U\}$ is a covering family iff $U = \bigcup_i U_i$.
 
