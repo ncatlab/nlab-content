@@ -4,7 +4,9 @@ The concept of [[cartesian product]] makes sense for any family of sets, while t
 
 First we need to describe a family of objects indexed by an object; it\'s common to interpret this as a [[bundle]], that is an arbitrary morphism $f: A \to I$.  (In [[Set]], $I$ would be the index set of the family, and the [[fiber]] of the bundle over an element $x$ of $I$ would be the set indexed by $x$.  Conversely, given a family of sets, $A$ can be constructed as its [[disjoint union]].)
 
-In these terms, the cartesian product of the family of sets is the set $S$ of [[section]]s of the bundle.  This set comes equipped with an evaluation map $ev: S \times I \to A$ that satisfies the [[universal property]] that ...
+In these terms, the cartesian product of the family of sets is the set $S$ of [[section]]s of the bundle.  This set comes equipped with an evaluation map $ev: S \times I \to A$ such that
+$$ S \times I \stackrel{ev}\to A \stackrel{f}\to I $$
+equals the usual product projection; this map satisfies the [[universal property]] that ...
 
 #Definition#
 
