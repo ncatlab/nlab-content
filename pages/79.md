@@ -47,6 +47,8 @@
 
   * [[homological algebra]] 
 
+  * [[gebras]] (co(al)gebras, bi/Hopf-algebr-as/oids...)
+
 * mathematical [[analysis]] 
 
   * [[nonstandard analysis]], [[functional analysis]], [[operator algebras]]
