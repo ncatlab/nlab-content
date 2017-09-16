@@ -3,6 +3,12 @@
 * automatic table of contents goes here
 {:toc}
 
+## Idea
+
+The notion of coring is a generalization of that of [[coalgebra]]. 
+
+Whereas a coalgebra structure is defined on a [[vector space]] -- which may be regarded as a [[bimodule]] over the ground field -- a coring structure is defined on a bimodule over a general [[ring]].
+
 ## Definition
 
 An __$A$-coring__ is a [[comonoid]] in the [[monoidal category]] of [[bimodule]]s over a fixed (typically noncommutative) unital [[ring]] $A$. 
