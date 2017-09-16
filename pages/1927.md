@@ -11,7 +11,7 @@ $$
   c \times_d c \stackrel{\to}{\to} c \stackrel{f}{\to} d
 $$
 
-is a [[colimit]] diagram (a [[coequalizer]]).
+is a [[colimit]] diagram (a [[coequalizer]]).  The reader should be aware, however, that some writers use "effective epimorphism" to mean what is here called a [[strict epimorphism]].
 
 In other words this says that $f : c \to d$ is effective if $d$ is the [[coimage]] of $f$.
 
