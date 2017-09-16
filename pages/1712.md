@@ -1,1 +1,1 @@
-&lt; [[semidirect product]]
+&lt; [[semi-direct product]]
