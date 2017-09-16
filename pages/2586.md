@@ -1,0 +1,3 @@
+The spin group $Spin(n)$ is the universal covering space of the Lie group $SO(n)$. By usual arguments it inherits a group structure for which the operations are smooth and so is also a Lie group.
+
+The name arises due to the requirement that the structure group of the tangent bundle of spacetime lifts to $Spin(n)$ so as to 'define particles with spin'... (Someone more awake and focused please put this into proper words!)
