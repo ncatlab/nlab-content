@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-07-02
+
+* _[[Eric]]_: Added a redirect for [[Urs]] so that he no longer has to type <nowiki>[[Urs Schreiber|Urs]]</nowiki> and can simply type <nowiki>[[Urs]]</nowiki> and will be redirected to the correct page.
+
 ## 2009-07-01
 
 * [[Urs Schreiber|Urs]]
