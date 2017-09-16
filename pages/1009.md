@@ -43,3 +43,5 @@ A cohomological reduction of the formalism is described in
 * F. Bonechi, P. Mn&euml;v, M. Zabzine, _Finite dimensional AKSZ-BV-theories_ ([arXiv](http://arxiv.org/abs/0903.0995))
 
 
+[[!redirects AKSZ model]]
+[[!redirects AKSZ formalism]]
