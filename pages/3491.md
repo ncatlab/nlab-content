@@ -122,6 +122,22 @@ The morphisms with the [[left lifting property]] against all inner fibrations ar
 
 ### (Left/)Right fibration
 
+All properties of right fibrations hold for left fibrations in the suitably dualized form, and vice versa. We often state explicitly just one of the two.
+
+#### Homotopy lifting property
+
+**Proposition** A morphism $p : X \to X$ of simplicial sets is a left fibration precisely if the canonical morphism
+
+$$
+  X^{\Delta[1]} \to X^{\{0\}} \times_{S^{\{0\}}} S^{\Delta^1}
+$$
+
+is a trivial fibration.
+
+**Proof** This is a corollary of the characterization of left anodyne morphisms in [Properties of left anodyne maps](#PropRightAnodyne) by [[Andre Joyal]], recalled in [[Higher Topos Theory|HTT, corollary 2.1.2.10]].
+
+#### As fibrations in $\infty$-groupoids
+
 The notion of right fibration of quasi-categories generalizes the notion of [[category fibered in groupoids]]. This follows from the following properties.
 
 **Proposition** For $C \to *$ a right (left) fibration over the [[point]], $C$ is a [[Kan complex]], i.e. an [[∞-groupoid]].
@@ -144,13 +160,32 @@ $$
 
 is a [[Kan complex]].
 
-**Proposiion** For $C$ and $D$ quasi-categories that are ordinary [[categories]] (i.e. simplicial sets that are [[nerve]]s of ordinary categories), a morphism $C \to D$ is a right fibration precisely if the correspunding ordinary [[functor]] exhibits $C$ as a [[category fibered in groupoids]] over $D$.
+**Proposition** For $C$ and $D$ quasi-categories that are ordinary [[categories]] (i.e. simplicial sets that are [[nerve]]s of ordinary categories), a morphism $C \to D$ is a right fibration precisely if the correspunding ordinary [[functor]] exhibits $C$ as a [[category fibered in groupoids]] over $D$.
 
 **Proof** This is [[Higher Topos Theory|HTT, prop. 2.1.1.3]].
 
+A canonical class of examples of a [[fibered category]] is the [[codomain fibration]]. This is actually a [[bifibration]]. For an ordinary category, a bifiber of this is just a set. For an $(\infty,1)$-category it is an $\infty$-groupoid. Hence fixing only one fiber of the bifibration should yield a fibration in $\infty$-groupoids. This is asserted by the following statement.
+
+**Proposition** Let $p : K \to C$ be an arbitrary morphism to a [[quasi-category]] $C$ and let $C_{p/}$ be the corresponding [[over quasi-category|under quasi-category]]. Then the canonical propjection $C_{p/} \to C$ is a left fibration.
+
+**Proof** Due to [[Andre Joyal]]. Recalled as [[Higher Topos Theory|HTT, prop 2.1.2.2]].
 
 
+#### (Left/)Right anodyne moprphisms {#PropRightAnodyne}
 
+**Proposition** The collection of left anodyne morphisms (those with [[left lifting property]] agains left fibrations) is equivalently $LAn = LLP(RLP(LAn_0))$ for the following choices of $LAn_0$:
+
+$LAn_0 =$
+
+* the collection of all left [[horn]] inclusions
+
+  $\{ \Lambda[n]_{i} \to \Delta[n] | 0 \leq i \lt n \}$;
+
+* blah-blah
+
+* blah-blah
+
+**Proof** This is due to [[Andre Joyal]], recalled as [[Higher Topos Theory|HTT, prop 2.1.2.6]].
 
 
 ### (co)Cartesian fibration
