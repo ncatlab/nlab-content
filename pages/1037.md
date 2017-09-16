@@ -256,7 +256,7 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[nonabelian cohomology]]
 
-  * [[abelian sheaf cohomology]]
+  * [[Cech cohomology]]
 
   * [[fibration sequence]]
 
