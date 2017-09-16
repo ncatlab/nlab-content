@@ -1,14 +1,33 @@
 
 #Idea#
-A concept in [[FQFT|FQFT (functorial quantum field theory)]] generalizing the concept of TQFT. The main thing about ETQFT's is that for a differentiable manifold $M$ an ETQFT $Z$ give a scalar diffeomorphism invariant $Z(M)$, $Z$ evaluated on $M$. It can be calculated after $M$ has been simplified such as triangulated. Then $Z(M)$ can be computed from computing $Z$ on all the simplicies and output a scalar invariant $Z(M)$ in a base ring $R$.
+
+_Extended quantum field theory_ or _many-tiered quantum field theory_ is the [[higher category theory|higher categorical]] version of [[FQFT|functorial quantum field theory]]:
+
+whereas 
+
+* [[category theory|1-categorical]] [[TQFT]] may be regarded as a rule that allows to compute topological invariants $Z(\Sigma)$ assigned to $n$-dimensional [[manifold]]s by cutting these manifolds into a sequence $\{\Sigma_i\}$ of $n$-dimensional composable [[cobordism]]s with $(n-1)$-dimensional boundaries $\partial \Sigma_i$, e.g.  $\Sigma = \Sigma_2 \coprod_{\partial \Sigma_1 = \partial \Sigma_2} \Sigma_1$, then assigning quantities $Z(\Sigma_i)$ to each of these and then composing these quantities in some way, e.g. as $Z(\Sigma) = Z(\Sigma_2)\circ Z(\Sigma_1)$;
+
+we have that
+
+* in extended [[TQFT]] $Z(\Sigma)$ may be computed by decomposing $\Sigma$ into pieces of arbitrary codimension $d$, i.e. into $(n-d)$-dimensional pieces.
+
+For that reason extended QFT is also sometimes called **local** or **localized** QFT. In fact, the notion of locality in [[quantum field theory]] is precisely this notion of locality. And, as also discussed at [[FQFT]], this higher dimensional version of locality is naturally encoded in terms of [[higher category theory|n-functoriality]] of $Z$ regarded as a functor on a [[higher category theory|higher category]] of [[cobordism]]s.
 
 #The category of extended cobordisms#
+
+There are various suggestions of more or less detail for a precise definition of a higher category $Bord_n$ (or also denoted $Cob_n$ or similar) of extended $n$-dimensional cobordisms. 
+
+A very general one is described at [[(∞,n)-category of cobordisms]].
+
 
 $nCob_m$ has closed smooth compact oriented n-manifolds as objects and cobordisms of cobordisms up to cobordisms of dimension m, up to diffeomorphism.
 
 A (j+1)-cobordism between j-cobordisms is...
 
-See [[extended cobordism]].
+See 
+
+* [[extended cobordism]].
+
 
 #Definition#
 For a fixed base ring $R$,
@@ -75,7 +94,7 @@ More on extended QFTs is also at
 
 * Higher Algebraic Structures and Quantization - Daniel freed
 
-* On the Classification of Topological Field Theories - Jacob Lurie
+* [[Jacob Lurie]],  [[On the Classification of Topological Field Theories]]  
 
 +-- {: .query}
 _Rafael_: I am very tired because it is very late.
