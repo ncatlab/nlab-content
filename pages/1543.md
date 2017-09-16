@@ -527,7 +527,7 @@ In [[higher category theory]] the notion of principal bundle has various [[verti
 
 In [[physics]], principal bundles [[connection on a bundle|with connection]] and their higher categorical analogs model [[gauge field]]s. 
 
-In fact, the history of the development of the theory of principal bunles and gauge theory is closely related. In the early 1930s Dirac and Hopf independently introduced $U(1)$-principal bundles: Dirac, somewhat implicitly, in his study of the [[electromagnetic field]] as a background for [[quantum mechanics]], Hopf in terms of the fibration named after him. However, from there it took apparently many years for the first publication to appear that explicitly states that these two considerations are aspects of the same phenomenon.
+In fact, the history of the development of the theory of principal bundles and [[gauge theory]] is closely related. In the early 1930s Dirac and Hopf independently introduced $U(1)$-principal bundles: Dirac, somewhat implicitly, in his study of the [[electromagnetic field]] as a background for [[quantum mechanics]], Hopf in terms of the fibration named after him. However, from there it took apparently many years for the first publication to appear that explicitly states that these two considerations are aspects of the same phenomenon.
 
 
 
