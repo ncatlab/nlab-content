@@ -44,7 +44,7 @@
 
   on the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[tmf]], the gluing of all [[elliptic cohomology]] theories
 
-* _$\mathbb{E}[k]$-Algebras_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
+* _[[Ek-Algebras]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
 
   on little cubes [[(∞,1)-operad]]s
 
