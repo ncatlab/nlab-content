@@ -456,6 +456,189 @@ Any good cover $U \stackrel{\simeq}{\to} X$ is a cofibrant replacement for $X$.
 
 
 
+
+
+
++-- {: .standout}
+
+
+[[Urs Schreiber]]: don't we even have the following stronger statement?
+
+=--
+
++-- {: .un_prop }
+###### supposed Proposition
+
+Every simplicial presheaf $X $ that is dgereewise a representable is cofibrant in $SPSh(C)_proj$ and hence also in $SPSh(C)_{proj}^{loc}$.
+
+It follows that every presheaf that is degreewise a coproduct of representables is cofibrant.
+
+=--
+
+> [[Urs Schreiber]]: this here is what looks like a proof to me. But check.
+
++-- {: .proof}
+###### Proof
+
+Recall that cofibrant objects in the local modelstructure $SPSh(C)_{proj}^{loc}$ are the same as those in the global model structure $SPSh(C)_{proj}$, which are those objects such that maps out of them lift through all objectwise acyclic Kan fibrations.
+In particular all [[representable functor|representable]]s are cofibrant in $SPSh(C)^{loc}_{proj}$.
+
+Now let $X = (X_\bullet)$ be degreewise representable. 
+We want to show that for $A \to B$ an objectwise acyclic Kan fibration the morphism of sets
+
+$$
+  Hom_{SPSh}(X, A) \to Hom_{SPSh}(X,B) 
+$$
+
+has a section. To make use of the fact that $X$ is degreewise representable, we rewrite the hom-sets as
+
+$$
+  \begin{aligned}
+    Hom_{SPSh}(X,A)
+    &=
+    SPSh(X,A)_0
+    \\
+    &\simeq
+    SPSh(\int^k \Delta^k \cdot X_k, A)_0
+    \\
+    &\simeq \int_k SPSh(\Delta^k\cdot X_k, A)_0
+    \\
+    &\simeq \int_k SSet(\Delta^k, SPSh(X_k, A))_0
+    \\ 
+    & \simeq
+    \int_k SSet(\Delta^k, A(X_k))_0
+  \end{aligned}
+  \,.
+$$
+
+Here we used the [[co-Yoneda lemma]] to write $X$ (objectwise) as a [[coend]] over its cells and then used the [[Yoneda lemma]] in the last step, where the assumption that $X_k$ is representable enters.
+
+An  element in this [[end]] is equivalently a family of morphism 
+
+$$
+  \{a_k : \Delta^k \to  A(X_k)\}
+$$ 
+
+that satisfy the required naturality conditions. Similary,  an element of $SPSh(X,B)_0$ is given by a family of morphism $\{ b_k : \Delta^k \to B(X_k) \}$.
+
+Given such $\{b_k\}$ we now produce a lift in the form of a natural family $\{a_k\}$ by induction over $k$, using the fact that since $A \to B$ is a global fibation, all the morphism $A(X_k) \to B(X_k)$ are acyclic [[Kan fibration]]s (acyclic fibrations in the standard [[model structure on simplicial sets]]).
+
+To start, for $k=0$ we are guaranteed to have choices $b_0 \mapsto a_0$ of lifts
+
+$$
+  \array{
+    && A(X_0)
+    \\
+    & {}^{a_0}\nearrow & \downarrow
+    \\
+    \Delta^0 &\stackrel{b_0}{\to} & B(X_0)
+  }
+$$
+
+because $A(X_0) \to B(X_0)$ is surjective on 0-cells. Next, in the first induction step we consider the diagram
+
+$$
+  \array{
+    \partial \Delta^1 = 
+    & \Delta^0 \coprod \Delta^0
+    &\stackrel{
+       (\delta_1 a_0  , \delta_0 a_0)
+      }{\to}& 
+    A(X_1)
+    \\
+    &\downarrow & {}^{a_1}\nearrow & \downarrow
+    \\
+    &\Delta^1 &\stackrel{b_1}{\to} & B(X_1)
+  }
+  \,.
+$$
+
+(Here $\delta_i : A(X_0) \to A(X_1)$ denote the face maps of the cosimplicial simplicial set $A(X_\bullet)$.)
+
+The outer diagram obviously commutes, using the [[simplicial identities]].
+So again, by the very fact that $A \to B$ is a global acyclic fibration, we are guaranteed the choice of lift $a_1$.
+
+Moreover, the commutativity of the upper triangle in this diagram is seen to be the naturality condition for $k=1$ that the collection $\{a_k\}$ we are constructing has to satisfy in order to constitute an element of $SPSh(X,A)_0$: the upper triangle says that
+
+$$
+  \array{
+     \Delta^1 &\stackrel{a_1}{\to}& A(X_1)
+     \\
+     \uparrow^{\mathrlap{\delta_i}} && 
+     \uparrow^{\mathrlap{\delta_i}}
+     \\
+     \Delta^0 &\stackrel{a_0}{\to}& A(X_0)
+  }
+$$ 
+
+commutes for $i = 0, 1$. Similarly clearly
+
+$$
+  \array{
+     \Delta^1 &\stackrel{a_1}{\to}& A(X_1)
+     \\
+     \downarrow && 
+     \downarrow 
+     \\
+     \Delta^0 &\stackrel{a_0}{\to}& A(X_0)
+  }
+$$ 
+
+commutes. The commutativity of all these diagrams
+
+$$
+  \array{
+      \vdots && \vdots
+     \\
+     \Delta^2 &\stackrel{a_2}{\to}& A(X_2)
+     \\
+     \uparrow \downarrow \uparrow \downarrow \uparrow
+     && 
+     \uparrow \downarrow \uparrow \downarrow \uparrow
+     \\
+     \Delta^1 &\stackrel{a_1}{\to}& A(X_1)
+     \\
+     \uparrow \downarrow \uparrow
+     && 
+     \uparrow \downarrow \uparrow
+     \\
+     \Delta^0 &\stackrel{a_0}{\to}& A(X_0)
+  }
+$$ 
+
+is the naturality condition on the family $\{a_k\}$ to consitute an element in $SPSh(X,A)_0$.
+
+So we poceed this way. In the $k$th induction step we have a diagram
+
+$$
+  \array{
+    \partial \Delta^k
+    &\stackrel{(\delta_i^* a_{k-1})}{\to}& 
+    A(X_k)
+    \\
+    \downarrow & {}^{a_k}\nearrow & \downarrow
+    \\
+    \Delta^k &\stackrel{b_k}{\to}& 
+    B(X_k)
+  }
+$$
+
+where the outer square commutes and we are guaranteed a choice of lift $a_k$. By the same kind of reasoning as before, we find that the $a_k$ found this way do have the required naturality property.
+
+
+
+=--
+
+
+
+
+
+
+
+
+
+
+
 #References#
 
 A nicely helpful introduction and survey is provided in the notes
