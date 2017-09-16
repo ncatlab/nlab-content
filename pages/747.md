@@ -9,7 +9,7 @@
 
 #Idea#
 
-[[model category|Model structures]] on [[simplicial presheaf|simplicial presheaves]] are [[models for ∞-stack (∞,1)-toposes]].
+[[model category|Model structures]] on [[simplicial presheaf|simplicial presheaves]] [[models for ∞-stack (∞,1)-toposes]] (precisely for the [[hypercompletion|hypercomplete]] [[∞-stack]] [[(∞,1)-topos]]es).
 
 Recall that
 
@@ -351,11 +351,11 @@ the fibrant objects in $SPSh(C)^{loc}$ are those that satisfy [[descent]] along 
 
 For instance, let $G$ be a [[Lie group]] and write $\mathbf{B}G$  for its corresponding degreewise representable simplicial presheaf $(\mathbf{B}G)_n = G^{\times n}$. 
 
-Then regarded as an object of $SPSh(Diff)^{loc}$ $\mathbf{B}G$ of course does not satisfy descent. Instead, its fibrant replacement is (the recified version of) $G Bund$, the [[stack]] of $G$-[[principal bundle]]s.
+Then regarded as an object of $SPSh(Diff)^{loc}$ the object $\mathbf{B}G$ of course does not satisfy descent. Instead, its fibrant replacement is (the recified version of) $G Bund$, the [[stack]] of $G$-[[principal bundle]]s.
 
-But regarded as an object in $SPSh(CartSp)$ $\mathbf{B}G$ does satisfy descent, because every $G$-[[principal bundle]] on $\mathbb{R}^n$ is [[isomorphism|isomorphic]] to the trivial one, and the [[automorphism group]] of the trivial $G$-bundle is just $C(\mathbb{R}^n,G)$.
+But regarded as an object in $SPSh(CartSp)$ the object $\mathbf{B}G$ does satisfy descent, because every $G$-[[principal bundle]] on $\mathbb{R}^n$ is [[isomorphism|isomorphic]] to the trivial one, and the [[automorphism group]] of the trivial $G$-bundle is just $C(\mathbb{R}^n,G)$.
 
-So there are considerably more fibrant objects in $SPSh(CartSp)^{loc}$ than there are in $SPSh(Diff)$. Accordingly, there must be less cofibrant objects in $SPSh(CartSp)^{loc}$ to compensate this.
+So there are considerably more fibrant objects in $SPSh(CartSp)^{loc}$ than there are in $SPSh(Diff)^{loc}$. Accordingly, there must be less cofibrant objects in $SPSh(CartSp)^{loc}$ to compensate this.
 
 Indeed, notice that every [[representable functor|representable]] in any of the model structures on $SPSh(C)$ is cofibrant. So an arbitrary [[manifold]] $X$ is cofibrant in $SPSh(Diff)^{loc}$ and therefore there we have
 
