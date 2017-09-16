@@ -85,13 +85,15 @@ The first axiom is a nullary version of the third axiom; together they prove tha
 
 Altogether, these may be seen as axiomatising the notion of *approximate* [[equivalence relation|equivalence]].  If $\approx$ is an approximate equivalence relation, then we might expect it to be
 *  [[reflexive relation|reflexive]]: $x \approx x$ and
-*  [[symmetric relation|symmetric]]: $x \approx y$ iff $y \approx $, but
+*  [[symmetric relation|symmetric]]: $x \approx y$ iff $y \approx x$, but
 *  NOT [[transitive relation|transitive]]: $x \approx y \approx z$ does not necessarily mean that $x \approx z$.
 
-One could stop there, but this is not a very useful notion of approximation.  Instead we generalise to a *family* of approximate equivalence relations and impose the $\frac{\varepsilon}{2}$ principle to allow them to be used.  This is nearly the definition of uniform space; in particular, the first axiom states precisely that each entourage is reflexive.  The symmetry axiom in the standard definition is weaker than requiring each individual entourage to be symmetric, but that is not an essential change; every uniformity has a base consisting of only symmetric entourages.  The final three axioms have already been explained as a closure condition; they force equivalent uniformities on a given set (in the sense that the [[identity function]] on the set is uniformaly continuous either way) to be equal.
+One could stop there, but this is not a very useful notion of approximation.  Instead we generalise to a *family* of approximate equivalence relations and impose the $\frac{\varepsilon}{2}$ principle to allow them to be used.  This is nearly the definition of uniform space; in particular, the first axiom states precisely that each entourage is reflexive.  The symmetry axiom in the standard definition is weaker than requiring each individual entourage to be symmetric, but that is not an essential change; every uniformity has a base consisting of its symmetric entourages.  The final three axioms have already been explained as a closure condition; they force equivalent uniformities on a given set (in the sense that the [[identity function]] on the set is uniformaly continuous either way) to be equal.
 
 +--{.query} 
 [[Todd Trimble|Todd]]: Nice mop-up job, Toby -- thanks. 
+
+[[Toby Bartels|Toby]]:  You\'re welcome; I\'m glad that you like it.
 =--
 
 ## References
