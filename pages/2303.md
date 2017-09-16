@@ -20,6 +20,10 @@ This entry reviews basics of [[periodic cohomology theory|periodic]] [[multiplic
 
 =--
 
+Next:
+
+* [[A Survey of Elliptic Cohomology - formal groups and cohomology]]
+
 
 ## rough notes from a talk##
 
