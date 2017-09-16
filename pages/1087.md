@@ -91,4 +91,4 @@ If $(V,\partial)$ is presented with the 'upper grading', so $V^p$, then the corr
 
 There is no real distinction between the two cases in the abstract, but in applications there is often a fixed 'dimensional' interpretation and then the 'natural' and 'geometric' aspects determine which is more appropriate or useful. 
 
-[[Tim Porter|Tim]]:  The lexicon will continue on a new entry on [[differential graded algebra|differential graded algebras]].  (Yes I know there is [[dg-algebra]] alreadyy but as I said before these pages are for editing and I am not 100% happy about the terminological conventions on that page, nor am I suggesting that this lexicon gets things 'right'!
+[[Tim Porter|Tim]]:  The lexicon will continue on a new entry on [[differential graded algebra|differential graded algebras]].  (Yes I know there is [[dg-algebra]] already but as I said before, these lexicon pages are for editing and I am not 100% happy about the terminological conventions on that existing page, nor am I suggesting that this lexicon gets things 'right'!
