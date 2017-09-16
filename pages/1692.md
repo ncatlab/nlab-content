@@ -1,16 +1,17 @@
 The Chu construction is a method for constructing a [[star-autonomous category]] from a [[closed monoidal category|closed symmetric monoidal category]]. It is named after Po-Hsiang Chu, a student of Michael Barr, who gave the construction in his master's thesis at McGill University. 
 
-In outline, given a closed symmetric monoidal category $C$ with pullbacks and an object $d$ of $C$, there is a star-autonomous category $Chu(C, d)$ and a strong symmetric monoidal functor 
+In outline, given a closed symmetric monoidal category $C$ with [[pullback]]s and an object $d$ of $C$, there is a star-autonomous category $Chu(C, d)$ and a strong symmetric monoidal functor 
 
 $$i: C \to Chu(C, d)$$
 
-which realizes $C$ as a coreflective subcategory of $Chu(C, d)$. Being star-autonomous, $Chu(C, d)$ is self-dual, hence $C^{op}$ also embeds as a full subcategory of $Chu(C, d)$, this time reflectively. 
+which realizes $C$ as a [[coreflective subcategory]] of $Chu(C, d)$. Being star-autonomous, $Chu(C, d)$ is self-dual, hence $C^{op}$ also embeds as a full subcategory of $Chu(C, d)$, this time [[reflective subcategory|reflectively]]. 
 
 Many concrete dualities in mathematics can be seen as embedded in a larger ambient self-duality on a Chu construction. This applies in particular to the category of _Chu spaces_, $Chu(Set, 2)$ (see below). 
 
+
 ## Definition ## 
 
-The objects of $Chu(C, d)$ are triples $(a, b; r: a \otimes b \to d)$ [$d$-valued pairings between $a$ and $b$], where $a$ and $b$ are objects of $C$ and $r$ is a morphism of $C$. The special triple $(d, I; \rho: d \otimes I \cong d)$, where $rho$ is an instance of the canonical isomorphism for the monoidal unit $I$, will play the role of dualizing object in $Chu(C, d)$. 
+The objects of $Chu(C, d)$ are triples $(a, b; r: a \otimes b \to d)$ (called _$d$-valued pairings_ between $a$ and $b$), where $a$ and $b$ are objects of $C$ and $r$ is a morphism of $C$. The special triple $(d, I; \rho: d \otimes I \cong d)$, where $rho$ is an instance of the canonical isomorphism (the right unitor) for the monoidal unit $I$, will play the role of dualizing object in $Chu(C, d)$. 
 
 The morphisms of $Chu(C, d)$, 
 
@@ -32,9 +33,9 @@ which takes an object $(a, b; r: a \otimes b \to d)$ to
 
 $$(b, a; r^\dagger = [b \otimes a \overset{s}{\cong} a \otimes b \overset{r}{\to} d])$$ 
 
-where $\sigma$ is an instance of the symmetry isomorphism, so that $r^\dagger$ is the evident transpose. On morphisms, it takes a pair $(f, g)$ to $(g, f)$; note well that the directions of the arrows makes the functor contravariant on $Chu(C, d)$. 
+where $\sigma$ is an instance of the symmetry isomorphism, so that $r^\dagger$ is the evident transpose. On morphisms, it takes a pair $(f, g)$ to $(g, f)$; note well that the directions of the arrows make the functor contravariant on $Chu(C, d)$. 
 
-Armed with just this much knowledge, and knowledge of how star-autonomous categories behave (as categorified versions of Boolean algebras), the star-autonomous structure on $Chu(C, D)$ can pretty much be deduced (or strongly guessed) by the diligent reader, and this is actually a very good exercise. One could sketch this as follows: 
+Armed with just this much knowledge, and knowledge of how star-autonomous categories behave (as categorified versions of [[Boolean algebra]]s, or perhaps better [[Boolean rig]]s), the star-autonomous structure on $Chu(C, D)$ can pretty much be deduced (or strongly guessed) by the diligent reader, and this is actually a very good exercise. One could sketch this as follows: 
 
 * The monoidal unit of $Chu(C, d)$ should be the dual of the dualizer, and so is $(I, d; \lambda: I \otimes d \cong d)$ where $\lambda$, the transpose of $\rho$, is a canonical isomorphism for the unit $I$. 
 
@@ -90,18 +91,19 @@ where $r$ is the decurrying of
 $$lim_i (b_i \to d^{a_i}) \cong lim_i b_i \to d^{colim_i a_i}$$ 
 and the formula for limits is obtained by dualizing the formula for colimits in $Chu(C, d)$.  
 
+
 ## Chu spaces ## 
 
-While the Chu construction is worthy of exploration for many types symmetric monoidal categories $C$, a great deal of attention has been focused just on the particular case $Chu(Set, 2)$, called the category of **Chu spaces**, and relatives like $Chu(E, \Omega)$ where $E$ is a [[topos]] and $\Omega$ its subobject classifier. The reason is that a great many concrete categories of interest are fully embedded in Chu spaces. Moreover, the 2-element set carries a panoply of [[ambimorphic object|ambimorphic]] (formerly, schizophrenic) object structures which induce concrete dualities between these categories, and nearly all of these dualities are embedded in (i.e., are restrictions of) the one overarching duality that obtains on Chu spaces. 
+While the Chu construction is worthy of exploration for many types symmetric monoidal categories $C$, a great deal of attention has been focused just on the particular case $Chu(Set, 2)$ (or $Chu(Set,TV)$, where $TV$ is the set of [[truth value]]s, to be [[constructive mathematics|constructive]]), called the category of **Chu spaces**, and relatives like $Chu(E, \Omega)$ where $E$ is a [[topos]] and $\Omega$ its [[subobject classifier]]. The reason is that a great many concrete categories of interest are fully embedded in Chu spaces. Moreover, the 2-element set $TV$ carries a panoply of [[ambimorphic object|ambimorphic]] (formerly, schizophrenic) object structures which induce concrete dualities between these categories, and nearly all of these dualities are embedded in (i.e., are restrictions of) the one overarching duality that obtains on Chu spaces. 
 
-The way this works is invariably the same: if $U: C \to Set$ is a [[concrete category]] and $\mathbf{2}$ is an object of $C$ over the 2-element set 2, then there is a functor 
+The way this works is invariably the same: if $U: C \to Set$ is a [[concrete category]] and $\mathbf{2}$ is an object of $C$ over the 2-element set $TV$, then there is a functor 
 
 $$C \to Chu(Set, 2): c \mapsto (U c, hom(c, \mathbf{2}); U c \times hom(c, \mathbf{2}) \to U\mathbf{2} = 2)$$ 
 
-which is faithful by the notion of concrete category. What is striking is that this functor is also <i>full</i> in many cases of interest. Some examples follow: 
+which is faithful by the notion of concrete category. What is striking is that this functor is also *full* in many cases of interest. Some examples follow: 
 
 * As explained above, $Set$ fully embeds in $Chu(Set, 2)$ by $X \mapsto (X, 2^X; eval: X \times 2^X \to 2)$. 
 
-* For $C = Top$, taking $\mathbf{2}$ to be [[Sierpinski space]], we have for each topological space $c$ an identification $Open(c) = hom(c, \mathbf{2})$. The adjointness condition on a morphism $(f, g)$ between the corresponding Chu space expresses precisely the continuity condition that $g = f^*$, the preimage, taking opens to opens. Thus the functor $Top \to Chu(Set, 2)$ is full. 
+* For $C = Top$, taking $\mathbf{2}$ to be [[Sierpinski space]], we have for each [[topological space]] $c$ an identification $Open(c) = hom(c, \mathbf{2})$. The adjointness condition on a morphism $(f, g)$ between the corresponding Chu space expresses precisely the continuity condition that $g = f^*$, the [[preimage]], taking opens to opens. Thus the functor $Top \to Chu(Set, 2)$ is full. 
 
 More examples to be added later...
