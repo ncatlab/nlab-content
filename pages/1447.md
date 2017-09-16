@@ -641,6 +641,7 @@ $$
 
 section VII, 4 of 
 
-* [[Sauders-MacLane]]-[[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
+* [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
+
 
 [[!redirects geometric embeddings]]
