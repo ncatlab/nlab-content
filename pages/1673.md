@@ -1,1 +1,2 @@
->[[Urs Schreiber|Urs]] The _normalized chain complex_ of a [[simplicial group]] is really what is currently described at [[Moore complex]]. I intend to reorganize the material accordingly in a moment...
+
+The _normalized chain complex_ of a [[simplicial group]] is another term for its [[Moore complex]]. See there for details.
