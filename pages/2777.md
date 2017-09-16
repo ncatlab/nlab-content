@@ -8,6 +8,7 @@ this entry provides (eventially) a linked keyword list for the article
 * automatic table of contents goes here
 {:toc}
 
+
 ## Main result {#MainResult}
 
 The following result makes precise for _parameterized [[∞-groupoid]]s_  -- for [[∞-stack]]s -- the general statement that $k$-fold [[delooping]] provides a correspondence betwen [[n-category|n-categories]] that have trivial [[k-morphism|r-morphism]]s for $r \lt k$ and  [[k-tuply monoidal n-category|k-tuply monoidal n-categories]].
@@ -31,8 +32,9 @@ Theorem 1.3.6.
 
 =--
 
+## Stabilization hypothesis {#StabilizationHypothesis}
 
-
+A proof of the [[stabilization hypothesis]] for [[k-tuply monoidal n-category|k-tuply monoidal n-categories]] is a byproduct of corollary 1.1.10, stated as example 1.2.3
 
 ## contents  
 
