@@ -2,7 +2,7 @@
 [[!include all changes]]
 </div>
 
-Archive of changes made during August 2009.
+Archive of changes made during September 2009.
 The substantive content of this page should **not** be altered.
 
 ***
