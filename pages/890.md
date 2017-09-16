@@ -9,4 +9,7 @@ In any case, the element of $S/{\equiv}$ that comes from the element $x$ of $S$ 
 
 Quotient sets in [[Set]] generalise to [[quotient object]]s in other categories.  In particular, an [[exact category]] is a [[regular category]] in which every [[congruence]] on every object has an effective quotient object.
 
+
 [[!redirects quotient sets]]
+
+category: foundational axiom
