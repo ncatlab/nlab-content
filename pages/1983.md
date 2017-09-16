@@ -4,7 +4,7 @@ This entry is about the book
 
 # Overview #
 
-The book constructs, describes and studies in detail a concrete model for [[synthetic differential geometry]].
+The book constructs, describes and studies in detail  concrete [[smooth topos]] well-adapted models for [[synthetic differential geometry]].
 
 The construction of the ([[Grothendieck topos|Grothendieck]]-) [[topos]] of [[generalized smooth space]]s proceeds in two steps in the [[space and quantity]] yoga:
 
@@ -22,6 +22,12 @@ The construction of the ([[Grothendieck topos|Grothendieck]]-) [[topos]] of [[ge
 
 * [[synthetic differential geometry]]
 
+  * [[Kock-Lawvere axiom]]
+
+  * [[integration axiom]]
+
+  * [[smooth topos]]
+
 * [[generalized smooth algebra]]
 
   * [[manifold]]
@@ -30,7 +36,9 @@ The construction of the ([[Grothendieck topos|Grothendieck]]-) [[topos]] of [[ge
 
 * [[infinitesimal object]]
 
-* [[differential forms in synthetic differential geometry]]
+* [[microlinear space]]
+
+  * [[differential forms in synthetic differential geometry]]
 
 
 
