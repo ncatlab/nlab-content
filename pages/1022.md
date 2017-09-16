@@ -18,6 +18,10 @@ I want to describe the terminology accurately, but at the same time, I think it\
 
 We can discuss this at [[limit]], if you\'d prefer.
 
+_Zoran_: I think the categorical properties and existence statements (for all categories, not just some specific examples) of directed limits and cofiltered limits are mostly the same, and cofiltered limits and filtered colimits are more natural place to discuss. As far as talking about just the case which is specific to directed limits only in specific categories, like categories of algebras over a monad in sets, or category of topological spaces, why not having separate entry just for such things.
+You are right that directed may be confused with direct. I never confused them when reading such articles but you are right, I never thought of this. It is cheap enough to say a limit over a directed set, or even "over a net".  
+
+I do not know how much it is true that it is algebra tradition. Who else was using categorical limits  until recently -- category theorists, algebraists and topologists. In topology words inverse limit and direct limit were used in classical days and now everybody is suddenly aftr Quillen era well educated in saying colimit so that changed. Traditional fields of algebra just change a bit slowlier. I mean people doing ring theory or group theory. But as soon as you do a more modern topic like operad you learn from new school. So the tradition is time dependent. 
 =--
 
 These were studied in algebra before the general notion of limit in category theory.  The elementary definition still seen there follows.
