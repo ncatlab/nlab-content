@@ -1,3 +1,9 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
+
 _Deformations_ and _deformation retracts_ are tools in [[homotopy theory]] for constructing the [[homotopy category]] of a [[model category]] or more general [[homotopical category]]. 
 
 The idea of a deformation retract is to find a [[full subcategory]] of a given [[homotopical category]] $C$ such that
@@ -9,7 +15,7 @@ The idea of a deformation retract is to find a [[full subcategory]] of a given [
 Deformations are a generalizations of _cofibrant replacement functors_ in a [[model category]].
 
 
-###Definition###
+##Definition##
 
 Let $C$ be a [[homotopical category]].
 
@@ -36,7 +42,7 @@ Now let $F : C \to D$ be a functor between [[homotopical category|homotopical ca
 Right deformations are defined analogously.
 
 
-###Generalization###
+##Generalization##
 
 There are pretty obvious generalizations of deformation retracts for functors of more than one variable. 
 
@@ -48,7 +54,7 @@ There are pretty obvious generalizations of deformation retracts for functors of
 
   * $hom_r$ is [[homotopical functor|homotopical]] on $D_Q^{op} \times E_Q$.
 
-###References###
+##References##
 
 The definition of deformation and deformation retract is in paragraph 40 of
 
