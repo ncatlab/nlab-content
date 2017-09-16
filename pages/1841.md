@@ -364,7 +364,7 @@ There has got to be something interesting category theory can say about this. Pe
 
 Another thing that might be worth mentioning is the geometric character of material properties. After all, we all sit in a bath of electromagnetic radiation, both man made and natural. This radiation permeates our bodies which are made up of dielectric, magnetic, and conducting materials, i.e. body tissue. I always found it interesting that just as geometry is encoded in the metric and manifests itself via the Hodge star, so too do the constitutive equations. For example, in linear media we have the simple constitutive equations
 
-$$D = \epsilon E \quad\text{and}\quad B = \mu H.$$
+$$E = \frac{1}{\epsilon} D \quad\text{and}\quad B = \mu H.$$
 
 In 4d, we have
 
@@ -378,7 +378,11 @@ which under assumptions of linearity gives
 
 $$\star F = -\eta(D-H\wedge dt),$$
 
-where $\eta = \sqrt{\frac{\mu}{\epsilon}}$. For more details see [page 111](http://ncatlab.org/ericforgy/show/Dissertation).
+where $\eta = \sqrt{\frac{\mu}{\epsilon}}$. This may be written in a form that more closely mimics the tradition relations via
+
+$$\star(v dt\wedge E) = \frac{1}{\epsilon} D\quad\text{and}\quad\star B = \mu H\wedge v dt,$$
+
+where $v = \frac{1}{\sqrt{\mu\epsilon}}$ (Note: $v = c$ in vacuum). For more details see [page 111](http://ncatlab.org/ericforgy/show/Dissertation).
 
 What this means is the the electromagnetic properties of matter can be interpreted geometrically and are encoded in the Hodge star.
 
