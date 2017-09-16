@@ -4,7 +4,7 @@ Joyal has contributed to the $n$Lab as 'joyal'; he is also beginning a new proje
 
 [webpage](http://www.professeurs.uqam.ca/pages/joyal.andre.htm), [wikipedia](http://en.wikipedia.org/wiki/Andr%C3%A9_Joyal)
 
-* A. Joyal, M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc.  __51__  (1984),  no. 309, vii+71 pp.
+* A. Joyal, M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc.  __51__  (1984),  no. 309, vii+71 pp. (historical $n$lab note: according to MR756176 (86d:18002) featured review by [[Peter Johnstone]], the main results of this monograph were obtained by the authors around 1978-1979, typed version circulated from 1982, and the results influenced the field much before the actual publication)
 
 * A. Joyal, _Quasi-categories and Kan complexes_, (in Special volume celebrating the 70th birthday of Prof. Max Kelly) J. Pure Appl. Algebra  __175__ (2002),  no. 1-3, 207--222 ([doi](http://dx.doi.org/10.1016/S0022-4049%2802%2900135-4)).
 
@@ -30,8 +30,9 @@ Joyal has contributed to the $n$Lab as 'joyal'; he is also beginning a new proje
 
 * A. Joyal, M. Tierney, _Notes on simplicial homotopy theory_, CRM Barcelona, Jan 2008 [pdf](http://www.crm.cat/HigherCategories/tierney.pdf)
 
-* A. Joyal, A letter to Grothendieck, April 1983 (contains a Quillen model structure on simplicial presheaves). 
+* A. Joyal, _A letter to Grothendieck_, April 1983 (contains a Quillen model structure on simplicial presheaves). 
 
+* A. Joyal, _Disks, duality and $\Theta$-categories_, preprint (1997) (contains an original definition of a weak $n$-category: for a short account see Leinster's [book](http://arxiv.org/abs/math.CT/0305049), 10.2). 
 
 category: people
 
