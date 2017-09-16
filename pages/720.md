@@ -5,7 +5,7 @@
 
 # Thin cells in higher groupoids #
 
-In the simplicial [[singular complex]] $S X$ of a [[topological space]] $X$, a singular simplex $f: \Delta^n \to X$ is called [[thin]] it it factors through a [[retraction]] $r: \Delta^n \to \Lambda^{n-1}_i$ to some horn of $\Delta^n$.  Then the well known [[Kan complex|Kan]] condition on $S X$ can be strengthend to say that every horn in $S X$ has a _thin_ filler.  There are also, of course, other non-thin fillers which depend on $X$.
+In the simplicial [[singular complex]] $S X$ of a [[topological space]] $X$, a singular simplex $f: \Delta^n \to X$ is called **thin** if it factors through a [[retraction]] $r: \Delta^n \to \Lambda^{n-1}_i$ to some horn of $\Delta^n$.  Then the well known [[Kan complex|Kan]] condition on $S X$ can be strengthend to say that every horn in $S X$ has a _thin_ filler.  There are also, of course, other non-thin fillers which depend on $X$.
 
 It is difficult to decide the laws that these these thin elements should satisfy.  Keith Dakin's axioms on thin elements in a simplicial  set $K$ with subsets $T_n \subseteq K_n, n \geq 1$, of elements called _thin_ are 
 1. Degenerate elements are thin;
