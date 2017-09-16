@@ -267,15 +267,11 @@ $$
 
 =--
 
-+-- {: .query}
-
-[[Urs Schreiber]]: check this proof
-
-=--
 
 +-- {: .proof}
 ###### Proof
 
+>[[Urs Schreiber]]: this is what I came up with, check
 
 The functor
 
@@ -347,17 +343,17 @@ By the result of
 * Daniel Dugger, Sharon Hollander, Daniel C. Isaksen, _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
 
 which is described at [[descent for simplicial presheaves]],
-the fibrant objects in $SPSh(C)^{loc}$ are those that satisfy [[descent]] along all [[hypercover]]s of [[representable functor|representables]]. But [[descent]] on the contractible $\mathbb{R}^n$s is a drastically simpler condition than on an arbitrary [[manifold]] $X$.
+the fibrant objects in $SPSh(C)^{loc}_{proj}$ are those that are objectwise [[Kan complex]]es and satisfy [[descent]] along all [[hypercover]]s of [[representable functor|representables]]. But [[descent]] on the contractible $\mathbb{R}^n$s is a drastically simpler condition than on an arbitrary [[manifold]] $X$.
 
 For instance, let $G$ be a [[Lie group]] and write $\mathbf{B}G$  for its corresponding degreewise representable simplicial presheaf $(\mathbf{B}G)_n = G^{\times n}$. 
 
-Then regarded as an object of $SPSh(Diff)^{loc}$ the object $\mathbf{B}G$ of course does not satisfy descent. Instead, its fibrant replacement is (the recified version of) $G Bund$, the [[stack]] of $G$-[[principal bundle]]s.
+Then regarded as an object of $SPSh(Diff)^{loc}_{proj}$ the object $\mathbf{B}G$ of course does not satisfy descent. Instead, its fibrant replacement is (the recified version of) $G Bund$, the [[stack]] of $G$-[[principal bundle]]s.
 
-But regarded as an object in $SPSh(CartSp)$ the object $\mathbf{B}G$ does satisfy descent, because every $G$-[[principal bundle]] on $\mathbb{R}^n$ is [[isomorphism|isomorphic]] to the trivial one, and the [[automorphism group]] of the trivial $G$-bundle is just $C(\mathbb{R}^n,G)$.
+But regarded as an object in $SPSh(CartSp)^{loc}_{proj}$ the object $\mathbf{B}G$ does satisfy descent, because every $G$-[[principal bundle]] on $\mathbb{R}^n$ is [[isomorphism|isomorphic]] to the trivial one, and the [[automorphism group]] of the trivial $G$-bundle is just $C(\mathbb{R}^n,G)$.
 
-So there are considerably more fibrant objects in $SPSh(CartSp)^{loc}$ than there are in $SPSh(Diff)^{loc}$. Accordingly, there must be less cofibrant objects in $SPSh(CartSp)^{loc}$ to compensate this.
+So there are considerably more fibrant objects in $SPSh(CartSp)^{loc}_{proj}$ than there are in $SPSh(Diff)^{loc}_{proj}$. Accordingly, there must be less cofibrant objects in $SPSh(CartSp)^{loc}$ to compensate this.
 
-Indeed, notice that every [[representable functor|representable]] in any of the model structures on $SPSh(C)$ is cofibrant. So an arbitrary [[manifold]] $X$ is cofibrant in $SPSh(Diff)^{loc}$ and therefore there we have
+Indeed, notice that every [[representable functor|representable]] in any of the model structures on $SPSh(C)$ is cofibrant. So an arbitrary [[manifold]] $X$ is cofibrant in $SPSh(Diff)^{loc}_{proj}$ and therefore there we have
 
 $$
   Ho_{SPSh(Diff)^{loc}}(X, \mathbf{B}G )
@@ -367,7 +363,7 @@ $$
   G Bund(X)_\sim
 $$ 
 
-as expected. In $SPSh(CartSp)$, however, $X$ is in general not representable, hence in general not cofibrant. But by the proposition below we have that the [[Cech nerve]] $C(U)$ of any good cover $U = \coprod_i U_i$ of $X$ is cofibrant. Hence here we find the above result by a different intermediate step
+as expected. In $SPSh(CartSp)^{loc}_{proj}$, however, $X$ is in general not representable, hence in general not cofibrant. But by the proposition below, that all objects which are degreewise coproducts of representables are cofibrant in all the model structures, we have that the [[Cech nerve]] $C(U)$ of any _good cover_ $U = \coprod_i U_i$ of $X$ (one for which each pathc and all intersections and higher intersections are contractible) is cofibrant. Hence here we find the above result by a different intermediate step
 
 $$
   Ho_{SPSh(Cart)^{loc}}(X, \mathbf{B}G )
@@ -401,20 +397,17 @@ In the _projective_ [[local model structure on simplicial presheaves|local model
 
 =--
 
-+-- {: .query}
-
-[[Urs Schreiber]]: check this statement and proof
-=--
-
 +-- {: .proof}
 ###### Proof
+
+> [[Urs Schreiber]]: this is apparently stated explicitly at least in some publication by Dan Dugger, but I am still trying to track that down. Meanwhile, here is the proof that I come up with.
 
 Notice that cofibrant objects in $SPSh(C)_{proj}^{loc}$ are those objects such that maps out of them lift through all objectwise acyclic Kan fibrations.
 In particular all [[representable functor|representable]]s are cofibrant in $SPSh(C)^{loc}_{proj}$.
 
 Assume that $U$ is degreewise a coproduct of representables. Write $U_k = \coprod U_{i_0, \cdots, i_k}$. 
 
->(Notation is motivated from covers for the moment. )
+(The notation is motivated from the case where $U$ is a [[Cech nerve]], but it's just meant as notation for an arbitrary coproduct.)
 
 We have
 
@@ -422,7 +415,7 @@ $$
   U \simeq \int^{[k] \in \Delta} \Delta^k \cdot U_k
 $$
 
-and this expression remains valid when we perform the coend only over injective maps in $\Delta$ and reading $U_k$ as the non-degenerate $k$-cells in $U$. This is what we shall mean by this notation in the following.
+and this expression remains valid when we perform the coend only over injective maps in $\Delta$ and reading $U_k$ as the non-degenerate $k$-cells in $U$ (by what is for instance lemma 3.1.4 in Hovey _Model categories_ ). This is what we shall mean, somewhat abusively, by this notation in the following.
 
 
 Then we have
