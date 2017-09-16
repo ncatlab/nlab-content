@@ -11,6 +11,10 @@ Also including questions that should be frequently asked but aren't.
     (This is apparently a _feature_, not a _bug_.
     It is a necessary consequence of being able to easily add new theorem-like environments via CSS.)
 
++--{: .query}
+How seriously are you claiming this to be a feature rather than a bug?  If it's a necessary consequence of something-or-other, that's one thing, and it's not too hard to work around.  But calling it a feature implies that there are reasons one might _want_ this specific behavior, and I'm having trouble thinking of those.
+=--
+
 ### _n_-Lab Specifics
 
 1.  *Why did my page get redirected?*
@@ -23,7 +27,7 @@ Also including questions that should be frequently asked but aren't.
 
     Seriously, if about a specific page then put it on that page in a query block:
 
-        +-- {: query}
+        +-- {: .query}
         How do I prove the Riemannian Hypothesis?
         =--
 
