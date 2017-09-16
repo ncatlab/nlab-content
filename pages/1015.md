@@ -185,7 +185,7 @@ one defines sets in terms of some more primitive concept.  Lawvere
 also proposed a foundation based on [[Cat|the category of
 categories]]; then a set may be defined as a [[discrete category]]. 
 In [[constructive mathematics]], a foundation based on [[type theory]]
-is popular, with types interpreted as _[[tobybartels:preset|presets]]_
+is popular, with types interpreted as _[[preset|presets]]_
 (sets without [[equality]]); then a set may be defined as a preset
 equipped with an [[equivalence relation]] (the term [[setoid]] is also
 used for such a gadget).  In [[computer science]], a foundation based
