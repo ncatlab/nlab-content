@@ -142,7 +142,9 @@ Most of these include some [[higher category theory]].
 An imperfect perspective of category theory (for the purpose of classifying articles) can be obtained from the [MSC subject classification (18-XX)](http://www.ams.org/mathscinet/msc/msc.html?t=18-XX); the current one is from 2000 and reflects ideas of the decade before that.
 
 
-#Main principle of category theory and evil#
+#Main principles#
+
+##Equality vs isomorphism vs equivalence##
 
 +-- {: .query}
 I disagree that this is the *main* principle of category theory.  This is an important principle, but how is it the main one?   ---Toby
@@ -201,19 +203,38 @@ _Rafael_: I don't see a problem with it. Since there are many equalities in cate
 
 * (Red herring principle if you like it)
 
+_Toby_:  OK, here are more principles.
 =--
 
-According to Kapranov and Voevodsky, category theory has a main principle:
+According to Kapranov and Voevodsky, the main principle of category theory is this:
 
 _In any category it is unnatural and undesirable to speak about equality of two objects_.
 
 Around here, we refer to any reference two equality of two given objects (and similar notions of equality) as more than 'unnatural'; we call them '[[evil]]'.
 
-If one develops category theory within set theory (or even within first-order logic with equality), then it necessarily possible to speak about equality of two objects, so it takes some discipline to avoid this.  Some alternative [[foundations of mathematics]] make it impossible to speak evil, but then these are not as easy for the newcomer to use.
+If one develops category theory within set theory (or even within first-order logic with equality), then it necessarily possible to speak about equality of two objects, so it takes some discipline to avoid this.  Some alternative [[foundations of mathematics]] (such as [[FOLDS]] and some forms of [[type theory]]) make it impossible to speak evil, but then these are not as easy for the newcomer to use.
 
 There are many weaker notions of equivalence in category theory to solve this obstacle.  For two objects within a given category, we consider whether (and how!) they are [[isomorphism|isomorphic]] rather than [[equality|equal]]; within [[higher category theory|higher categories]], we consider whether even weaker notions of [[equivalence]] of two objects.  Similarly, the notion of whether two given categories (or higher categories) are [[equivalence of categories|equivalent]] is a relatively weak one.
 
-For the theorem accepted as the fundamental theorem (rather than main principle) of category theory, see the [[Yoneda lemma]].
+## Yoneda lemma
+
+The [[Yoneda lemma]] is sometimes thought of as the fundamental theorem of category theory.  Morally, it allows any category to be understood as a [[subcategory]] of a [[presheaf category]] (which is itself a [[topos]] and so easy to work in), although sometimes [[size issues]] interfere.
+
+## Duality principles
+
+The principle of abstract [[duality]] states that every theorem of pure category theory has a dual theorem, obtained by reversing all of the arrows involved.  See [[opposite category]].
+
+More specific duality principles include:
+* Abelian duality: the opposite of an [[abelian category]] is abelian,
+* [[Tannaka-Krein duality]],
+* etc.
+
+## Other principles
+
+* the [[microcosm principle]] about [[internalization]],
+* the [[delooping hypothesis]] about [[k-tuply monoidal n-category|multiply monoidal higher categories]],
+* the [[homotopy hypothesis]] about [[infinity-groupoid|higher groupoids]],
+* etc.
 
 
 # Contrast to theories of other objects
