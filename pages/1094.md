@@ -1,6 +1,6 @@
 #Definition#
 
-Given a [[site]] $S$, every [[presheaf]] $F$ in $PSh(S) := [S^{op}, Set]$ is [[local isomorphism|locally isomorphic]] (weakly equivalent) to a [[sheaf]] $\bar F$. This construction extends to a functor
+Given a [[site]] $S$, every [[Set]]-valued [[presheaf]] $F$ in $PSh(S) := [S^{op}, Set]$ is [[local isomorphism|locally isomorphic]] (weakly equivalent) to a [[sheaf]] $\bar F$. This construction extends to a functor
 
 $$
   \bar{(-)} : PSh(S) \to Sh(S)
@@ -9,12 +9,45 @@ $$
 
 This functor is **sheafification**. 
 
-Sheafification is [[left adjoint]] to the [[stuff, structure, property|fully faithful forgetful]] [[injection|subcategory]] [[functor]] $i : Sh(S) \hookrightarrow PSh(S)$.
+Sheafification is [[exact functor|left exact]] [[left adjoint]] to the [[stuff, structure, property|fully faithful forgetful]] [[injection|subcategory]] [[functor]] $i : Sh(S) \hookrightarrow PSh(S)$. Therefore it constitutes a [[geometric morphism]] of [[Grothendieck topos|Grothendieck topoi]]
+
+$$
+  PSh(S) \stackrel{\stackrel{\bar {(-)}}{\to}}{\stackrel{i}{\leftarrow}}
+  Sh(S)
+  \,.
+$$
+
+## Sheafification for more general presheaves ##
+
+
+For presheaves with values in categories other than
+[[Set]], sheafification is usually a difficult problem. 
+
+If a [[category]] $A$ satisfies the following assumptions, sheafification of presheaves in $[S^{op}, A]$ exists and is constructed analgously as for [[Set]]-valued sheaves.
+
+
+* $A$ admits small [[limit]]s;
+* $A$ admits small [[colimit]]s;
+* small [[filtered category|filtered limit]]s in $A$ are exact;
+* $A$ satisfies the [[IPC-property]] .
+
+This is true for instance for
+
+* the category [[Set]] of sets;
+
+* the category [[Grp]] of groups;
+
+* the category $k-Alg$ of $k$-algebras;
+
+* the category $Mod(R)$ of [[module]]s.
+
 
 +--{+ .query}
-One should write something about the often difficult question on existence of sheafification for presheaves with values in other categories; there are so many applications
-and fairly difficult theorems there; for example van Osdol's work.
+ One should say more: there are so many applications
+ and fairly difficult theorems there; for example van    
+ Osdol's  work.
 =--
+
 
 #Construction#
 
@@ -48,9 +81,16 @@ $$
 
 * For more on the role of sheafification see [[category of sheaves]].
 
+* The notion of sheafification generalizes from [[presheaf]] [[Grothendieck topos|Grothendieck topoi]] to arbitrary [[topos|topoi]] with [[Lawvere-Tierney topology]]. See [[sheafification in a Lawvere-Tierney topos]].
+
+* The notion of sheafification also generalizes from the 1-categorical to the [[(infinity,1)-category|(infinity,1)-categorical]] context. See [[(infinity,1)-category of (infinity,1)-sheaves]]. 
 
 #References#
 
 The description of sheafification in terms of local isomorphisms is in section 16.3 (for [[Set]]-valued presheaves) and section 17.4 (for more general presheaves) of
 
 * Kashiwara-Schapira, [[Categories and Sheaves]]
+
+The description in terms of [[dense monomorphism]]s using [[Lawvere-Tierney topology]] is in section V.3 of
+
+* MacLan, Moerdijk, [[Sheaves in Geometry and Logic]]
