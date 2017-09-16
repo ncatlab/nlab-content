@@ -29,7 +29,7 @@ Here the [[descent]] set ($0$-category) is replaced by a [[descent]] [[category]
 
 There are many different equivalent aspects of the definition of sheaf.
 
-Let $S$ be a [[site]]. 
+Let $S$ be a [[site]].
 
 A **sheaf** (of [[set]]s) is a [[presheaf]] (of sets) in $S$ that satisfies [[descent]] with respect to the corresponding [[Grothendieck topology]] in that it is a [[local object]] with respect to the [[local isomorphism]]s defined by the [[Grothendieck topology]] (for which it is sufficient to be a [[local object]] with respect to the [[local epimorphism]]s, see below).
 
@@ -39,7 +39,7 @@ $$
   f_* : Sh(S) \hookrightarrow PSh(S)
 $$
 
-is a [[geometric embedding]] of topoi. The left [[exact functor|exact]] [[left adjoint]] $f^* : PSh(S) \to Sh(S)$ is [[sheafification]]. 
+is a [[geometric embedding]] of topoi. The left [[exact functor|exact]] [[left adjoint]] $f^* : PSh(S) \to Sh(S)$ is [[sheafification]].
 
 Conversely, every category of sheaves, hence every [[Grothendieck topology]] arises this way. So Gorthendieck topologies and their corresponding categories of sheaves can alternatively be defined as [[geometric embedding]]s into categories of presheaves.
 
@@ -105,7 +105,7 @@ $$
   f^* : PSh(S) \to Sh
 $$
 
-Such that both form a pair of [[adjoint functor]]s 
+Such that both form a pair of [[adjoint functor]]s
 
 $$
   f^* \dashv f_*
@@ -116,8 +116,8 @@ with $f^*$ [[left adjoint]] to $f_*$.
 Write $W$ for the category
 
 $$
-  Core(PSh(S)) \hookrightarrow W \hookrightarrow PSh(S)  
-$$ 
+  Core(PSh(S)) \hookrightarrow W \hookrightarrow PSh(S)
+$$
 
 consisting of all those morphisms in $PSh(S)$ that are sent to [[isomorphism]]s under $f^*$.
 
@@ -138,10 +138,10 @@ is an [[isomorphism]]. This we call the [[descent]] condition on presheaves (say
 
 ...
 
-**Lemma**
++-- {: .un_theorem}
+###### Lemma
 
 A morphism $Y \to X$ is in $W$ if and only if for every [[representable functor|representable presheaf]] $U$ and every morphism $U\to X$ the pullback $Y \times_X U \to U$ is in $W$
-
 $$
   \array{
      Y \times_X U &\to& Y
@@ -152,29 +152,45 @@ $$
   }
   \,.
 $$
+=--
 
-Proof: one direction obvious, the other follows because in $PSh(S)$  [[commutativity of limits and colimits|colimits are stable under base change]].
++-- {: .proof}
+###### Proof
 
-**Lemma**
+One direction is obvious; the other follows because in $PSh(S)$ [[commutativity of limits and colimits|colimits are stable under base change]].
+=--
+
++-- {: .un_theorem}
+###### Lemma
 
 Every morphism in $W$ factors as an epimorphism followed by a monomorphism in $W$.
+=--
 
-Proof: use factorization through [[image]] and [[coimage]], use exactness of $f^*$ to deduce that the factorization exists not only in $PSh(S)$ but even in $W$. 
++-- {: .proof}
+###### Proof
 
-**Corollary**
+Use factorization through [[image]] and [[coimage]], use exactness of $f^*$ to deduce that the factorization exists not only in $PSh(S)$ but even in $W$.
+=--
+
++-- {: .un_theorem}
+###### Corollary
 
 A presheaf $A$ is $W$-local, i.e. a sheaf, already if it is local (satisfies descent) with respect to all [[monomorphism]]s in $W$.
+=--
 
-**Lemma**
++-- {: .un_theorem}
+###### Lemma
 
 Monomorphisms in $PSh(S)$ are canonically in bijection with [[sieve]]s.
+=--
 
-**Corollary**
++-- {: .un_theorem}
+###### Corollaries
 
-* System $W$ of weak equivalences defined by choice of [[geometric embedding]] $Sh \to PSh(S)$ is in canonical bijection with choice of [[Grothendieck topology]].
-
-* An pesheaf $A$ is $W$-local, i.e. local with respect to all [[local isomorphism]]s, if and only if it is local already with respect to all local isomorphisms which are monomorphisms, i.e. all [[dense monomorphism]], i.e. if and only if it satisfies sheaf condition for all covering [[sieve]]s.
-
+We have:
+* Systems $W$ of weak equivalences defined by choice of [[geometric embedding]] $Sh \to PSh(S)$ is in canonical bijection with choice of [[Grothendieck topology]].
+* A presheaf $A$ is $W$-local, i.e. local with respect to all [[local isomorphism]]s, if and only if it is local already with respect to all local isomorphisms which are monomorphisms, i.e. all [[dense monomorphism]], i.e. if and only if it satisfies sheaf condition for all covering [[sieve]]s.
+=--
 
 ## In terms of sieves ##
 
@@ -185,15 +201,15 @@ $$
   \,.
 $$
 
-So: given a [[site]] $(C, J)$, a _sheaf_ over that site is a [[presheaf]] 
+So: given a [[site]] $(C, J)$, a _sheaf_ over that site is a [[presheaf]]
 
-$$G: C^{op} \to Set$$ 
+$$G: C^{op} \to Set$$
 
-such that whenever $i: F \hookrightarrow \hom(-, c)$ is a [[Grothendieck topology|covering sieve]], the map 
+such that whenever $i: F \hookrightarrow \hom(-, c)$ is a [[Grothendieck topology|covering sieve]], the map
 
-$$G(c) \stackrel{Yoneda}{\cong} Set^{C^{op}}(\hom(-, c), G) \stackrel{Set^{C^{op}}(i, G)}{\to} Set^{C^{op}}(F, G)$$ 
+$$G(c) \stackrel{Yoneda}{\cong} Set^{C^{op}}(\hom(-, c), G) \stackrel{Set^{C^{op}}(i, G)}{\to} Set^{C^{op}}(F, G)$$
 
-is an isomorphism. 
+is an isomorphism.
 
 ## In terms of orientals ##
 
@@ -201,7 +217,7 @@ When generalizing sheaves to  [[stack|stacks]] and then to  [[infinity-stack|inf
 
 One partial solution to the problem has been given by Ross Street, who defined descent [[strict omega-category|strict omega-categories]] $Desc(Y,G)$ for $\omega$-category-valued presheaves $G : C^{op} \to \omega Cat$ in terms of [[oriental|orientals]]. The $\omega$-category $Desc(Y,G)$ can be regarded as the $\omega$-category of lax $\infty$-functors from the sieve associated with $Y$ to $G$.
 
-In the case that the $\omega$-categories in questions happen to be just [[n-category|0-categories]] this reduces to the definitin of descent 0-categories for presheaves. 
+In the case that the $\omega$-categories in questions happen to be just [[n-category|0-categories]] this reduces to the definitin of descent 0-categories for presheaves.
 
 Of course the machinery of [[oriental|orientals]] is overkill for just defining sheaves, but it is instructive to understand sheaves in this language, since then the generalization to [[stack|stacks]] and [[infinity-stack|infinity-stacks]] is straightforward.
 
@@ -221,7 +237,7 @@ exists. Let $G : C^{op} \to Set \hookrightarrow \omega Cat$ be a [[strict omega-
 
 * an element $a \in G(Y)$;
 
-* a morphism $\pi_1^* a \stackrel{g}{\to} \pi_2^* a$ in $G(Y^{[2]})$, which is by assumption necessarily an 
+* a morphism $\pi_1^* a \stackrel{g}{\to} \pi_2^* a$ in $G(Y^{[2]})$, which is by assumption necessarily an
 [[identity morphism]]: $\pi_1^* a \stackrel{=}{\to} \pi_2^* a$.
 
 The point to notice is that the morphism $\pi_1^* a \stackrel{g}{\to} \pi_2^* a$ is the image of the [[oriental|first oriental]] $G_1 = \{a \to b\}$ in $G(Y^{[2]})$.
@@ -247,7 +263,7 @@ $$
   G(X) \to Desc(Y,G)
 $$
 
-form the universal property of then end. The _sheaf condition_ is, as before, that this canonical morphism is an isomorphism for all covers $Y \to X$. 
+form the universal property of then end. The _sheaf condition_ is, as before, that this canonical morphism is an isomorphism for all covers $Y \to X$.
 
 From the above explicit characterization of $Desc(Y,G)$ this is manifestly the familiar gluing condition for sheaves: the presheaf $G$ is a sheaf if the elements in $G(Y)$ which coincide (glue) on double intersections $Y^{[2]}$ correspond bijectively to the elements in $G(Y)$.
 
