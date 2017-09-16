@@ -1,3 +1,2 @@
-See [[Atiyah Lie groupoid]].
-
-category: redirect
+&lt; [[Atiyah Lie-groupoid]]
+[[!redirects Atiyah Lie-groupoid -- history]]
