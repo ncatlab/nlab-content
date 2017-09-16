@@ -85,7 +85,7 @@ $$
  C_0
 $$
 
-satisfying certain conditions (prop. 6.1.2.6) which are such that if $C_0 = {*}$ is the [[point]] we have an internal _group_ in a homtopical sense, given by an object $C_1$ equipped with a coherently associative multiplication operation  $C_1 \times C_1 \to C_1$ generalizing that of [[Jim Stasheff|Stasheff]] [[H-space]] from the $(\infty,1)$-catgeory [[Top]] to arbitrary $(\infty,1)$-categories.
+satisfying certain conditions (prop. 6.1.2.6) which are such that if $C_0 = {*}$ is the [[point]] we have an internal _group_ in a homtopical sense, given by an object $C_1$ equipped with a coherently associative multiplication operation  $C_1 \times C_1 \to C_1$ generalizing that of [[Jim Stasheff|Stasheff]] [[H-space]] from the $(\infty,1)$-category [[Top]] to arbitrary $(\infty,1)$-categories.
 
 Lurie calls the groupoid object $C$ an 
 _effective_ [[groupoid object in an (infinity,1)-category]] precisely if it arises as the delooping, in the above sense, of some object $\mathbf{B}C$.
