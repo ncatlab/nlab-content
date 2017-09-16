@@ -13,6 +13,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 # 2009-05-22 #
+* [[Zoran Škoda]]: created [[comorphism]] (in sheaf theory); there is hard to find a sensible and comprehensive account in the literature. Note that the treatment is more general than in the usage for the case of ringed spaces. By the way, the server is very erratic tonight, and having sometimes responses delayed by 5-10 minutes. On the other hand I strongly disagree with the changes of the names of entries massively being done today by Eric: he moves infinity-category into $\infty$-category. Though this is graphically appealing, google and others put higher in search results items which have search name in the title, and the entries they index are index basically by the ascii. I want to see nlab entries high in the google search, this makes our effort more useful. Fancy graphics can be WITHIN the entry, and prefereably in this decade still not in the title. I would do the redirects in the symbol variant of the title instead!! What the others think ?
+
 
 * [[Urs Schreiber|Urs]]
 
