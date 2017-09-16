@@ -59,6 +59,22 @@ Given a category $C$, a __non-evil $\dagger$-category structure__ on $C$ consist
 So one question is whether there is a less long-winded way to say that.  Another question (which logically comes before the first question) is what is the right notion of equivalence of such structures.
 =--
 
++--{: .query}
+[[Mike Shulman]]: Actually, I believe that $\dagger$-structure on a category *can* be transported along an equivalence of categories!  Suppose that $F\colon C \to D \colon G$ is an [[adjoint equivalence]] with unit $\eta\colon Id_C \overset{\cong}{\to} G F$ and counit $\varepsilon\colon F G \overset{\cong}{\to} Id_D$, where $D$ is a $\dagger$-category.  Given $f\colon x\to y$ in $C$, define $f^\dagger$ to be the following composite:
+$$ y \overset{\eta}{\to} G F y \overset{G((F f)^\dagger)}{\to} G F x \overset{\eta^{-1}}{\to} x. $$
+This evidently defines a functor $C^{op} \to C$ that is the identity on objects.  Now $F(f^\dagger)$ is given by
+$$ F y \overset{F \eta}{\to} F G F y \overset{F G((F f)^\dagger)}{\to} F G F x \overset{F \eta^{-1}}{\to} F x $$
+but by the triangle identities this is equal to
+$$ F y \overset{\varepsilon^{-1}_F}{\to} F G F y \overset{F G((F f)^\dagger)}{\to} F G F x \overset{\varepsilon_F}{\to} F x $$
+and hence equal to $(F f)^\dagger$ by naturality of $\varepsilon$.  Thus, since $((F f)^\dagger)^\dagger = F f$ in $D$, in $C$ we have that $(f^\dagger)^\dagger$ is given by
+$$ x \overset{\eta}{\to} G F x \overset{G F f}{\to} G F y \overset{\eta^{-1}}{\to} y. $$
+which is equal to $f$ by naturality of $\eta$.  Thus, $C$ is a $\dagger$-category, and essentially by construction $F$ and $G$ are $\dagger$-functors (though $\eta$ and $\varepsilon$ need not be unitary).
+
+So if a notion refers to equality of objects in a seemingly irreducible way, but it can nevertheless be transported along an equivalence of categories, is it evil or isn't it?  Thinking about it some more, I'm actually not convinced that $\dagger$-structure is evil at all.  Consider the assertion that a category is a groupoid.  Clearly this is not evil!  But what it means is that for any morphism $f\colon x\to y$, there exists a morphism $f^{-1}\colon y\to x$ whose source is *equal* to the target of $f$, and whose target is *equal* to the source of $f$, and such that $f f^{-1}$ and $f^{-1} f$ are identities.  The notion of $\dagger$-category is entirely analogous: for any morphism $f\colon x\to y$, we are given a specified morphism $f^\dagger\colon y\to x$ with certain properties.  The only difference is that the first is a *property* and the second is *structure*, but why should that matter?
+
+As remarked in the discussion below, equality of objects is all over the place in category theory: whenever we introduce an arrow, we have to say what its source and target are, and one or the other (or both) will often be *equal* to some object we are already considering.  But this is not really evil; it's really just a *typing assertion*.  (If you write category theory in a logic of [[dependent types]] like [[FOLDS]], then that's exactly what it is.)  Maybe $\dagger$-structure is just the same.
+=--
+
 
 ## Discussion
 
@@ -105,4 +121,6 @@ _Toby_:  That seems to bring us back to the idea of composing along an isomorphi
 [[Mike Shulman]]: Yes, if you only know that $h[dom g]$ is isomorphic to $h[cod f]$, you still need to *choose* an isomorphism along which to compose $f$ and $g$.  Different choices will give you different "composites".
 
 _Harry_: Can two wrongs (or evils in this case) make a right?  Maybe we can solve the composition problem by passing to the skeleton of the homotopy category?
+
+[[Mike Shulman]]: I think the short answer is "no."  Choosing a skeleton (together with an equivalence to the category one started with, naturally) involves choosing a bunch of specified isomorphisms between isomorphic objects, so really you aren't doing anything different.
 =--
