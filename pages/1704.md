@@ -3,6 +3,10 @@
 </div>
 
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 The notion of _principal $\infty$-bundle_ is a [[vertical categorification|categorification]] of [[principal bundle]] from [[groups]] and [[groupoids]] to [[∞-groupoids]], or rather from parameterized groupoids (generalized spaces called [[stacks]]) to parameterized $\infty$-groupoids (generalized spaces called [[∞-stacks]]).
