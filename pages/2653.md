@@ -1,6 +1,6 @@
 **Warning: Tentative.**
 
-The _covering relation_ on a structure (generally already equipped with other relations) is a [[binary relation]] such that $x$ is related to $y$ if and only if $y$ is (in an appropriate sense) an *immediate* successor of $x$.
+The _covering relation_ on a structure (generally already equipped with other relations) is a [[binary relation]] such that $x$ is related to $y$ if and only if $y$ is (in an appropriate sense) an *immediate* (and *only* immediate) successor of $x$.
 
 ## In a poset ##
 
