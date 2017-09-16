@@ -208,8 +208,6 @@ category: meta
 
 [A pic](http://www.bangor.ac.uk/r.brown/fig6_10c2.jpg)
 
-[[fig6_10c2.jpg:pic]]
-
 $$\begin{aligned}
   K(1,\mathbf{DFib(X)}(A,B)) \cong& K(1, Ran_X B^A)\\
   \cong& DFib(X)(1_X, B^A)
