@@ -89,7 +89,7 @@ For the application to [[quantization]] of [[sigma-model]] theories we want to b
     of some field theory;
 
   * together with an [[action functional]] on it in the form of an
-    higher vector bundle ("[[gerbe]]") $\exp(S_P()) : P \to [I,C]$;
+    higher vector bundle ("[[gerbe]]") $\exp(S_P()) : P \to C$;
     being the component of the [[natural transformation]]
     that assigns to each _path_ $P$ between field
     configuration a _phase_ ;    
@@ -148,7 +148,7 @@ equipped with the **transgressed background field** as the corresponding action 
 
 $$
   \array{
-    && [\Sigma_{in} \times I,X]
+    && [\Sigma \times I,X]
     \\
     & \swarrow && \searrow
     \\
@@ -156,7 +156,7 @@ $$
     \\
     & {}_{\mathllap{[\Sigma_{in},\nabla]}}\searrow && \swarrow
     \\
-    && [\Sigma_{in}, C]
+    && C
    }
    \,.
 $$
@@ -167,16 +167,16 @@ $$
   \int : Fam_n(C) \to C
 $$
 
-that over objects $\exp(S(-)) : P_{in} \to C$ is given by taking $n$-categorical [[colimit]]
+that over objects $\exp(S(-)) : P \to C$ is given by taking $n$-categorical [[colimit]]
 
 $$
-  (\exp(S(-)) : P_{in} \to C) \mapsto (\lim_\to \exp(S(-)))
+  (\exp(S(-)) : P \to C) \mapsto (\lim_\to \exp(S(-)))
 $$
 
 which in terms of [[coend]]-notation is indeed nicely suggestively written as
 
 $$
-  (\exp(S(-)) : P_{in} \to C) \mapsto (\int \exp(S(-)))
+  (\exp(S(-)) : P \to C) \mapsto (\int \exp(S(-)))
   \,.
 $$
 
@@ -279,7 +279,9 @@ Certainly, this system of component morphisms is reminiscent of the [[bi-brane]]
 
 might the Freed-Hopkins-Lurie-Teleman quantization prescription as indicated above maybe be regarded as a way to construct the "universal" extension $Z$ of $\exp(S_\nabla(-)) : Bord_n(X) \to n Vect$ along the projection $Bord_n(X) \to Bord_n$ ?
 
-[[Domenico Fiorenza]]: I like this point of view a lot. It seems to me that considering $Bord_n(X)$ alone, however, is a bit restrictive with respect to FHLT construction (at least how it is presented above). Namely, I'd find closer to the FHLT construction to consider a 'colimit of spans' $(\infty,n)$-category $T_n$ with functors $\exp(S(-)):T_n\to n Vect$ and $\pi:T_n\to Bord_n$, and to wonder how the Kan extension $Z: Bord_n\to n Vect$ of $\exp(S(-))$ along $\pi$ is related to FHLT receipt. Then the sigma-model $Bord_n(X)$ should be a particularly natural and interesting example of this general construction. 
+[[Domenico Fiorenza]]: I like this point of view a lot. At first sight, it seemed to me that considering $Bord_n(X)$ alone would have been a bit restrictive with respect to FHLT construction (at least how it is presented above). Namely, I would have found closer to the FHLT construction to consider a general 'colimit of spans' $(\infty,n)$-category $T_n$ with functors $\exp(S(-)):T_n\to n Vect$ and $\pi:T_n\to Bord_n$, and to wonder how the Kan extension $Z: Bord_n\to n Vect$ of $\exp(S(-))$ along $\pi$ is related to FHLT receipt. Then the sigma-model $Bord_n(X)$ should have been a particularly natural and interesting example of this general construction.
+
+But on second thought, FHLT deals with a sort of presheaf of $\infty$-groupoids over $Bord_n$, so it is natural to think of it as a representable functor even when one does knot knows about its representability (or even when it is actually not representable). namely, one could think of a FHLT-presheaves on $Bord_n$ as $Bord_n(X)$ for a 'generalized object' $X$.
 =--
 
 category: reference
