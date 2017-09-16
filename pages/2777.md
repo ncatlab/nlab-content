@@ -1,7 +1,7 @@
 
 notes on
 
-* [[Jacob Lurie]], _$\mathbb{E}_k$-Algebras_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
+* [[Jacob Lurie]], _$\mathbb{E}[k]$-Algebras_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
 
 
 #Contents#
@@ -38,8 +38,7 @@ for the [[(∞,1)-category]] of grouplike $\mathbb{E}[k]$-monoid objects.
 The following result makes precise for _parameterized [[∞-groupoid]]s_  -- for [[∞-stack]]s -- the general statement that $k$-fold [[delooping]] provides a correspondence betwen [[n-category|n-categories]] that have trivial [[k-morphism|r-morphism]]s for $r \lt k$ and  [[k-tuply monoidal n-category|k-tuply monoidal n-categories]].
 
 +-- {: .un_theorem}
-###### Theorem
-**(k-tuply monoidal $\infty$-stacks)**
+###### Theorem (k-tuply monoidal $\infty$-stacks)
 
 Let $k \gt 0$, let $\mathcal{X}$ be an [[∞-stack]] [[(∞,1)-topos]] and let $\mathcal{X}_*^{\geq k}$ denote the [[full subcategory]] of the category $\mathcal{X}_{*}$ of pointed objects, spanned by those pointed objects thar are $k$-connective (i.e. its first $k$ [[homotopy group (of an ∞-stack)|∞-stack homotopy groups]]) vanish. Then there is a canonical equivalence of [[(∞,1)-category|(∞,1)-categories]]
 
@@ -59,8 +58,7 @@ Theorem 1.3.6.
 Specifically for $\mathcal{X} = Top$, this reefines to the classical theorem by [[Peter May]]
 
 +-- {: .un_theorem}
-###### Theorem
-**(May)**
+###### Theorem (May)
 
 Let $Y$ be a [[topological space]] equipped with an action of the [[little cubes operad]] $\mathcal{C}_k$ and suppose that $X$ is grouplike. Then $Y$ is homotopy equivalent to a $k$-fold loop space $\Omega^k X$ for some pointed topological space $X$.
 
@@ -88,8 +86,7 @@ A proof of the [[stabilization hypothesis]] for [[k-tuply monoidal n-category|k-
 
 * [[topological chiral homology]]
 
-[[!redirects Ek-Algebras]]
 
-
+[[!redirects E-k-Algebras]]
 
 category: reference
