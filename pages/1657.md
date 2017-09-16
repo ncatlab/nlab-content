@@ -1,4 +1,4 @@
-Measure spaces are used in the general theory of measure and integration, somewhat analogous to the role played by [[topological spaces]] in the study of continuity.
+Measure spaces are used in the general theory of measure and [[integration]], somewhat analogous to the role played by [[topological spaces]] in the study of continuity.
 
 
 ## Idea ##
