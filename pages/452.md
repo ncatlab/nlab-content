@@ -1,10 +1,10 @@
 #Ideas#
 
-A _crossed module_  is:
-*  like the inclusion of a [[normal subgroup]], but isn\'t (even a crossed module of groups) a subgroup;
+A _crossed module_  (of groups) is:
+*  like the inclusion of a [[normal subgroup]], but isn\'t an inclusion in general;
 *  like a [[module]] with a twisted 'multiplication';
 *  like the action of automorphisms on a group;
-*  a [[crossed complex]] concentated in degrees $1$ and $2$;
+*  a [[crossed complex]] concentrated in degrees $1$ and $2$;
 *  a nonabelian [[chain complex|chain-complex]];
 *  an incarnation of a strict [[2-group]];
 *  [[Moore complex]]es of certain [[simplicial group]]s.
