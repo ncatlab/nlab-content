@@ -28,6 +28,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-09-01
 * [[Zoran Škoda]]: I just created [[normal subgroup]] and it does not render right on my IE. Is this a new system glitch? The letters and formulas are one across another. Did not make last night logging that I added a paragraph or so on the Jacobi matrix and the application (Alexander polynomial) into the [[Fox derivative]]. I also created [[derived affine scheme]] in the sense of Toen et al. 
 
+  [[Andrew Stacey]]: No idea!  Can you send me a screen shot?  Unfortunately, the Windows machine that I have control over can't connect to the wireless network here (Oh, the irony!) and the windows machine that I don't have control over doesn't have MathML support.
+
 * [[Andrew Stacey]]: The migrating eagle has landed.
 
   There will inevitably be hiccoughs, hangups, and hassles.  Please log them over at the [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).  Also, if you notice weird behaviour then there may be an explanation of it over there (just because I know what causes it doesn't mean I've implemented the fix yet).
