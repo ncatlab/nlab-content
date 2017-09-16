@@ -58,6 +58,11 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 
 * The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) "algebra" on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid|monoids]], have only one object. This theory also include [[functors]] between categories and [[natural transformation|natural transformations]].
 * Categories may be regarded as 1-dimensional [[directed space]]s. One precise way to say this is that a category is a [[simplicial set]] such that the [[Segal map]]s are isomorphisms. (When distinguishing the category itself from the simplicial set that it corresponds to one says that the simplicial set is the [[nerve]] of the category.)
+
++--{: .query}
+[[David Roberts]]: At the risk of inflaming discussion on this point again, I would like to point out that this analogy is a little loose, as there are no points of this directed space \'half-way along'\ an arrow. This idea very much smacks of Ronnie Brown's philosophy of choosing an appropriate set of basepoints for the fundamental groupoid. In this instance we are taking a one-dimensional directed space then choosing basepoints for the fundamental category at places where the space is not locally euclidean. Then the original category embeds as a subcategory of the whole fundamental category. In this somewhat loose sense one could think of a category being embedded in a one-dimensional directed space - but please note this is only a heuristic.
+=--
+
 * Much of ordinary mathematics can be thought of as taking place [[internalization|inside]] the archetypical category [[Set]] of sets. In as far as any other category may be thought of as a generalization of $Set$, a category is a **[[universe]]** inside which mathematics may take place.
   +-- {: .query}
 
