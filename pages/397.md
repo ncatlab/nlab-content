@@ -9,6 +9,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[AndrejBauer|Andrej Bauer]]
 * [[Andrew Ranicki]]
 * [[Andrew Stacey]]
+* [[Angela]] (maybe Angela Beesley?)
 * [[Arnold Neumaier]]
 * [[Bas Spitters]]
 * [[Ben Webster]]
@@ -70,6 +71,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Romie Banerjee]]
 * [[Ronnie Brown]]
 * [[Ryan Grady]]
+* [[Scott Morrison]]
 * [[Sebastian Thomas]]
 * [[Simon Willerton]]
 * [[Sridhar Ramesh]]
