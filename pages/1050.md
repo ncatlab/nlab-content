@@ -15,14 +15,22 @@ A functor is left _exact_ or [[flat functor|flat]] if it preserves finite [[limi
 
 * A left exact functor preserves every finite [[limit]] that exists in $C$.
 
-* If $C$ admits all finite [[limit]]s then a functor is left exact precisely if it preserves these limits.  
+* If $C$ admits all finite [[limits]] then a functor is left exact if and only if it preserves these limits.  
 =--
 
++-- {: .un_prop}
+###### Proposition
+
+* A functor between [[abelian category|abelian categories]] is left exact if and only if it preserves [[direct sums]] and [[kernels]]. 
+
+* A  functor between [[abelian category|abelian categories]] is right exact if and only if it preserves [[direct sums]] and [[cokernels]].  
+ 
+=--
 
 
 #Remark on terminology#
 
-Frequently the term "left exact" is restricted to the case that $C$ has all finite [[limit]]. If so,  then the general case is called a [[flat functor]]. 
+Frequently the term "left exact" is restricted to the case that $C$ has all finite [[limits]]. If so,  then the general case is called a [[flat functor]]. 
 
 +-- {: .query}
 Conceivably, it might be used also in the more general case, but to refer to a weaker notion: a functor that preserves those finite limits that exist.  Certainly that\'s how I would interpret 'finitely continuous functor'.  ---Toby
