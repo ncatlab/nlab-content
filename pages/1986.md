@@ -20,6 +20,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * filled [[T-duality]] with a bit of content (motivation being to link to the Cavalcanti-Gualtieri article now linked to there)
+
   * created stub entry for our esteemed new contributor professor [[Andrew Ranicki]]
 
 * activity at [[twisted cohomology]]:
