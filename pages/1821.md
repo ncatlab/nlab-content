@@ -297,14 +297,3 @@ Comparing with the general definition of cocycles and coboudnaries from above, o
 
   * See, in particular, the discussion beginning at the bottom of page 24.
 
-+--{: .query}
-
-[[Urs Schreiber]]: Maybe it would be useful for the reader to point out and maybe reproduce which aspect of that reference is related how to the above. It seems to me that the discussion on that page 24 and following is more related to [[Postnikov system]] and eventually to the discussion of how "ordinary abelian" cohomology sits inside some nonabelian cohomology which i'd think  should eventually go to [[generalized (Eilenberg-Steenrod) cohomology]] or entries branched off from that.
-
-[[Eric]]: I added the reference to page 24 because the question seemed to be the same as the one that prompted this page. I could only vaguely see the intended picture, so if the reference is not appropriate or should be changed, then someone who understands it better than me should feel free to improve it.
-
-PS: I duplicated this reference on [[generalized (Eilenberg-Steenrod) cohomology]].
-
-[[Eric]]: I'll remove this query box in a bit now that  all the related pages have been cleaned up.
-
-=--
