@@ -1,3 +1,5 @@
+[[!redirects natural numbers]]
+
 A __natural number__ is traditionally defined as any of the numbers $1$, $2$, $3$, and so on.  It is now common in many fields of mathematics to include $0$ as a natural number as well.  One advantage of this is that then the natural numbers can be identified with the [[cardinal number|cardinalities]] of [[finite set]]s, as well as the finite [[ordinal number]]s.
 
 The set of natural numbers is often written $N$, $\mathbf{N}$, $\mathbb{N}$, $\omega$, or $\aleph$.  The last two notations refer to this set\'s structure as an [[ordinal number]] or [[cardinal number]] respectively, and they often (usually for $\aleph$) have a subscript $0$ allowing them to be generalised.  In the [[foundations]] of mathematics, the [[axiom of infinity]] states that this actually forms a set (rather than a proper class).
