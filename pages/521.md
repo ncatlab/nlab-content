@@ -1,3 +1,10 @@
+# Coslice (under) categories
+* tic
+{: toc}
+
+
+## Definition
+
 Given a [[category]] $C$ and an [[object]] $c \in C$, the __under category__ (also called __coslice category__) $c \downarrow C$ (also written $c/C$ and sometimes, confusingly, $c\backslash C$) is the category whose
 
 * objects are morphisms in $C$ starting at $c$; $c \to d$
@@ -45,7 +52,10 @@ in [[Cat]], where
 
 The left vertical morphism $c \downarrow C \to C$ is the forgetful morphism which forgets the tip of the triangles mentioned above.
 
-#Examples#
+The [[duality|dual]] notion is an [[over category]].
+
+
+##Examples#
 
 * $Set_*$, the category of [[pointed set]]s, is the undercategory $pt\downarrow Set$, where $pt \simeq \{\bullet\}$ is [[generalized the|the]] singleton set.
 
@@ -55,7 +65,8 @@ On this last example we had some blog discussion at
 
 * John Baez, [A Quick Algebra Quiz](http://golem.ph.utexas.edu/category/2008/12/a_quick_algebra_quiz.html)
 
-#Discussion#
+
+##Discussion#
 
 _[[Eric Forgy|Eric]] says_: I thought this sounded familiar. Is an under category the same thing as what Urs calls a <a href="http://golem.ph.utexas.edu/category/2007/07/tangent_categories.html">tangent category</a>?
 
@@ -63,3 +74,9 @@ _[[Eric Forgy|Eric]] says_: Found it, but I'll leave my question here in case it
 
 
 [[!redirects coslice category]]
+[[!redirects under-category]]
+[[!redirects undercategory]]
+[[!redirects coslice categories]]
+[[!redirects under-categories]]
+[[!redirects undercategories]]
+[[!redirects under categories]]
