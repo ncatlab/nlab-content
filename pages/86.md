@@ -237,3 +237,4 @@ Modern Physics Letters A, 5 7, 487--494
 
 
 [[!redirects BV-theory]]
+[[!redirects BV theory]]
