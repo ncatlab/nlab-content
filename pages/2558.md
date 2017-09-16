@@ -35,3 +35,6 @@ $$ \array {
 .} $$
 
 If $G$ and $H$ are each [[terminal object|terminal]], however, then $(a,b)$ and $a \times b$ are the same [[global element]] of $X \times Y$.
+
+
+[[!redirects pairings]]
