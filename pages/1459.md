@@ -31,3 +31,5 @@ The morphisms of convergence spaces are the continuous functions; a function $f$
 ## Properties ##
 
 The [[topological space]]s can be characterized as the pseudotopological ones in which the convergence satisfies a certain "associativity" condition.  In this way one can think of a topological space as a "multicategory" parametrized by ultrafilters.  In particular, note that a [[compact space|compact]] [[Hausdorff space|Hausdorff]] pseudotopological space is defined by a single function $\mathcal{U}S \to S$, where $\mathcal{U}S$ is the set of ultrafilters on $S$, such that the composite $S \to \mathcal{U}S \to S$ is the identity.  That is, it is an [[algebra for an endofunctor|algebra]] for the [[pointed endofunctor]] $\mathcal{U}$.  The compact Hausdorff _topological_ spaces are precisely the algebras for $\mathcal{U}$ considered as a [[monad]].
+
+Every [[pretopological space]] is also a pseudotopological space; these may be characterised as the 'infinitely filtered' pseudotopological spaces.
