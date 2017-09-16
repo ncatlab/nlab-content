@@ -192,6 +192,13 @@ One expects that $N_d$ induces a [[Quillen adjunction]] and indeed a [[Quillen e
 
 The dendroidal nerve functor has the following properties:
 
+* it is the [[right adjoint]] of a [[SSet]]-[[enriched functor|enriched]] [[adjunction]]
+
+  $$
+    C_{(-)} : dSet \stackrel{\leftarrow}{\to} \mathcal{P}Op_{(\infty,1)}
+   : N_d
+  $$
+
 * it sends fibrant objects to fibrant objects 
   
   i.e. it sends $(\infty,1)$-categories of 
@@ -204,6 +211,9 @@ The dendroidal nerve functor has the following properties:
 * it sends objects $\pi : A \to N(FinSet_*)$ that come 
   from 
   [[symmetric monoidal (infinity,1)-category|symmetric monoidal (∞,1)-categories]] to dendroidal sets that have the extension property with respect to at least one outer horn $\Lambda_{v} T$ for $v \in T$ an $n$-corolla, for all $n \in \mathbb{N}$.
+
+* its [[left adjoint]] sends cofibrations to cofibrations and acyclic cofibrations with cofibrant domain to acyclic cofibrations.
+
 
 =--
 
@@ -256,6 +266,42 @@ $$
 
 For $f$ the parallel application of an $n$-corolla with a collection of identity morphisms this implies that any outer horn $\Lambda_v T \to N_d(A)$ for which the vertex $v : C_n \to N_d(A)$ maps to $f$, the dendroidal set $N_d(A)$ has the extension property with respect to the inclusion $\Lambda_d T \hookrightarrow T$.
 
+**the left adjoint and its respect for cofibrations**
+
+By general nonsense the [[left adjoint]] to $N_d$ is given by the [[coend]]
+
+$$
+  C_{(-)} : dSet \to \mathcal{P}Op_{(\infty,1)}
+$$
+
+$$
+  C_P = \int^{T \in \Omega} \omega(T) \cdot P(T)
+  \,,
+$$
+
+where in the integrand we have the tautological [[copower|tensoring]] of $\mathcal{P}Op_{(\infty,1)}$ over [[Set]].
+
+Notice that $\omega : \Omega \to \mathcal{P}Op_{(\infty,1)}$ is an [[SSet]]-[[enriched functor]] for the ordinary category $\Omega$ regarded as a simplicially enriched category by the canonical embedding $Set \hookrightarrow SSet$. Therefore this adjunction $F \dashv N_d$ is defined entirely in [[SSet]]-[[enriched category theory]] and hence is a simplicial adjunction.
+
+The [[model structure on dendroidal sets]] has a set of [[cofibrantly generated model category|generating cofibrations]] given by the boundary inclusions of trees. $\partial \Omega[T] \hookrightarrow \Omega[T]$. Tese evidenly map to monomorphisms of underlying simplicial sets under $F$, hence to cofibrations.
+
+For $f : P \hookrightarrow Q$ an acyclic cofibration with cofibrant domain, we need to check that $C_f : C_X \to C_Y$ is a weak equivalence in $\mathcal{P}Op_{(\infty,1)}$. This is by definition the case if for every fibrant object $A$ the morphism
+
+$$
+  \mathcal{P}Op_{(\infty,1)}(C_Y,A) \to 
+  \mathcal{P}Op_{(\infty,1)}(C_X,A)
+$$
+
+is a weak equivalence in the standard [[model structure on simplicial sets]]. By the simplicial adjunction $F \dashv N_d$ this is equivalent to
+
+$$
+  dSet(f,N_d(A))
+  :
+  dSet(Y,N_d(A)) \to 
+  (X,N_d(A))
+$$
+
+being a weak equivalence. By the above $N_d(A)$ is fibrant. By section 8.4 of the lecture notes on dendroidal sets cited at [[model structure on dendroidal sets]] a morphism between cofibrant dendroidal sets is a weak equivalence precisely if homming it into any fibrant dendroidal set produces a weak equivalence. Since $f$ is a weak equivalence between cofibrant objects by assumption, it follows that indeed $dSet(f,N_d(A))$ is a weak equivalence for all fibrant $A$. Hence $C_f$ is a weak equivalence.
 
 =--
 
