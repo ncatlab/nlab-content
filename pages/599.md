@@ -8,7 +8,7 @@
 
 * [[omega-groupoid]]
 
-* [[Nonabelian algebraic topology]]
+* [[nonabelian algebraic topology]]
 
 category: biography
 category: people
