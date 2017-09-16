@@ -28,7 +28,7 @@ This is a central [[motivation for sheaves, cohomology and higher stacks|motivat
 
 # Definition #
 
-A well developed theory exists for $\infty$-stacks that are sheaves with values in [[∞-groupoid]]s. given that ordinary sheaves may be thought of as sheaves of [[0-category|0-categories]] and that $\infty$-groupoid-values sheaves may be thought of as sheaves of [[(infinity,0)-category|(∞,0)-categories]], these may be called [[(infinity,1)-sheaf|(∞,1)-sheaves]]. In the case that these $\infty$-groupoids have vanishing [[homotopy group]]s above some degree $n$, these are sometimes also called [[sheaves of n-types|sheaf of n-type]]s.
+A well developed theory exists for $\infty$-stacks that are sheaves with values in [[∞-groupoids]]. given that ordinary sheaves may be thought of as sheaves of [[0-category|0-categories]] and that $\infty$-groupoid-values sheaves may be thought of as sheaves of [[(infinity,0)-category|(∞,0)-categories]], these may be called [[(infinity,1)-sheaf|(∞,1)-sheaves]]. In the case that these $\infty$-groupoids have vanishing [[homotopy groups]] above some degree $n$, these are sometimes also called [[sheaves of n-types|sheaf of n-types]].
 
 The currently most complete picture of [[(infinity,1)-sheaf|(∞,1)-sheaves]] appears in
 
@@ -58,11 +58,11 @@ In particular this implies that the old definition of [[abelian sheaf cohomology
 
 Notice that an $\infty$-stack is a [[(∞,1)-presheaf]] for which not only the codomain is an [[(∞,1)-category]], but where also the domain, the [[site]], may be an [[(∞,1)-category]].
 
-To emphasize that one considers $\infty$-stacks on higher categorical sites one speaks of [[derived stack]]s.
+To emphasize that one considers $\infty$-stacks on higher categorical sites one speaks of [[derived stacks]].
 
 ## Higher $\infty$-stacks ##
 
-The above concerns $\infty$-stacks with values in [[∞-groupoid]]s, i.e, [[(∞,0)-category|(∞,0)-categories]]. More generally there should be notions of $\infty$-stacks with values in  [[(n,r)-category|(n,r)-categories]]. These are expected to be modeled by the [[model structure on homotopical presheaves]] with values in the category of [[Theta space]]s.
+The above concerns $\infty$-stacks with values in [[∞-groupoids]], i.e, [[(∞,0)-category|(∞,0)-categories]]. More generally there should be notions of $\infty$-stacks with values in  [[(n,r)-category|(n,r)-categories]]. These are expected to be modeled by the [[model structure on homotopical presheaves]] with values in the category of [[Theta spaces]].
 
 #References#
 
@@ -74,7 +74,7 @@ The notion of $\infty$-stacks can be set up in various notions of $\infty$-categ
 
 * [[Bertrand Toen]], _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504)).
 
-This concerns $\infty$-stacks with values in [[∞-groupoid]]s, i.e. $(\infty,0)$-categories. More generally [[descent]] conditions for $n$-stacks and $(\infty,n)$-stacks with values in [[(infinity,n)-category|(∞,n)-categories]] have been discussed in
+This concerns $\infty$-stacks with values in [[∞-groupoids]], i.e. $(\infty,0)$-categories. More generally [[descent]] conditions for $n$-stacks and $(\infty,n)$-stacks with values in [[(infinity,n)-category|(∞,n)-categories]] have been discussed in
 
 * [[Andre Hirschowitz]], [[Carlos Simpson]], _Descente pour les $n$-champs_ ([arXiv](http://arxiv.org/abs/math/9807049))
 
