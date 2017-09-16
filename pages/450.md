@@ -25,3 +25,5 @@ More generally, an **$(n,r)$-fold groupoid** is an $r$-fold category in $(n-r)$-
 See section 2 of 
 
 * Thomas M. Fiore, Simona Paoli, _A Thomason Model Structure on the Category of Small $n$-fold Categories_ ([arXiv](http://arxiv.org/abs/0808.4108))
+
+[[!redirects n-fold categories]]
