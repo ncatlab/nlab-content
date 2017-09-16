@@ -1637,6 +1637,7 @@ It's hard to tell if it makes any difference from a purely formal point of view,
 
 With these qualifications in mind we note the following correspondences between classical quantifications and higher order indicator functions:
 
+<font size="+1">
 <table align="center" cellpadding="10" cellspacing="0" markdown="1" width="80%">
 
 <caption><font size="+2">$\text{Table 7.} \:\: \text{Syllogistic Premisses as Higher Order Indicator Functions}$</font></caption>
@@ -1669,7 +1670,7 @@ With these qualifications in mind we note the following correspondences between 
 <td align="center">$Some \: u \: is \: \text{&#x2997;} v \text{&#x2998;}$</td>
 <td>$Indicator of \: u \: \text{&#x2997;} v \text{&#x2998;} = 1$</td></tr>
 
-</table>
+</table></font>
 
 The following Tables develop these ideas in more detail.
 
@@ -2186,6 +2187,87 @@ The following Tables develop these ideas in more detail.
 <td style="background:black; color:white">$1$</td></tr>
 
 </table>
+
+<br>
+
+<font size="+1">
+<table align="center" cellpadding="4" cellspacing="0" markdown="1" style="text-align:center; width:90%">
+
+<caption><font size="+2">$\text{Table 10.} \:\: \text{Relation of Quantifiers to Higher Order Propositions}$</font></caption>
+
+<tr>
+<td style="border-bottom:2px solid black">$\text{Mnemonic}$</td>
+<td style="border-bottom:2px solid black">$\text{Category}$</td>
+<td style="border-bottom:2px solid black">$\text{Classical Form}$</td>
+<td style="border-bottom:2px solid black">$\text{Alternate Form}$</td>
+<td style="border-bottom:2px solid black">$\text{Symmetric Form}$</td>
+<td style="border-bottom:2px solid black">$\text{Operator}$</td></tr>
+
+<tr>
+<td>$\text{E}$<br>$\text{Exclusive}$</td>
+<td>$\text{Universal}$<br>$\text{Negative}$</td>
+<td>$\text{All} \: u \: \text{is} \: (v)$</td>
+<td>&nbsp;</td>
+<td>$\text{No} \: u \: \text{is} \: v$</td>
+<td>$(\ell_{11})$</td></tr>
+
+<tr>
+<td>$\text{A}$<br>$\text{Absolute}$</td>
+<td>$\text{Universal}$<br>$\text{Affirmative}$</td>
+<td>$\text{All} \: u \: \text{is} \: v$</td>
+<td>&nbsp;</td>
+<td>$\text{No} \: u \: \text{is} \: (v)$</td>
+<td>$(\ell_{10})$</td></tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>$\text{All} \: v \: \text{is} \: u$</td>
+<td>$\text{No} \: v \: \text{is} \: (u)$</td>
+<td>$\text{No} \: (u) \: \text{is} \: v$</td>
+<td>$(\ell_{01})$</td></tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>$\text{All} \: (v) \: \text{is} \: u$</td>
+<td>$\text{No} \: (v) \: \text{is} \: (u)$</td>
+<td>$\text{No} \: (u) \: \text{is} \: (v)$</td>
+<td>$(\ell_{00})$</td></tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>$\text{Some} \: (u) \: \text{is} \: (v)$</td>
+<td>&nbsp;</td>
+<td>$\text{Some} \: (u) \: \text{is} \: (v)$</td>
+<td>$\ell_{00}$</td></tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>$\text{Some} \: (u) \: \text{is} \: v$</td>
+<td>&nbsp;</td>
+<td>$\text{Some} \: (u) \: \text{is} \: v$</td>
+<td>$\ell_{01}$</td></tr>
+
+<tr>
+<td>$\text{O}$<br>$\text{Obtrusive}$</td>
+<td>$\text{Particular}$<br>$\text{Negative}$</td>
+<td>$\text{Some} \: u \: \text{is} \: (v)$</td>
+<td>&nbsp;</td>
+<td>$\text{Some} \: u \: \text{is} \: (v)$</td>
+<td>$\ell_{10}$</td></tr>
+
+<tr>
+<td>$\text{I}$<br>$\text{Indefinite}$</td>
+<td>$\text{Particular}$<br>$\text{Affirmative}$</td>
+<td>$\text{Some} \: u \: \text{is} \: v$</td>
+<td>&nbsp;</td>
+<td>$\text{Some} \: u \: \text{is} \: v$</td>
+<td>$\ell_{11}$</td></tr>
+
+</table></font>
 
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
