@@ -108,6 +108,8 @@ Now: is CSEAR+$\varepsilon$ conservative over CSEAR?
 I changed this from 'PSEAR' to 'CSEAR' and noted that we need intuitionistic logic (since disjoint unions give us $\mathbf{2}$ and dependent products over $\mathbf{2}$ gives us classical power sets).  By the usual terminology in set theory, removing excluded middle adds 'I', while removing excluded middle and power sets adds 'C'.  Although I don\'t know a general rule for adding 'P', I\'d be inclined to remove dependent products as well as power sets (excluded middle optional), to get something [[predicative mathematics|predicative in the classical sense]].  ---Toby
 
 [[Mike Shulman]]: Okay, I'll play along.  But I don't like how predicativists (especially set theorists) tend to usurp (in my view) the word "constructive," which I think should apply just as much to impredicative "intuitionistic" mathematics.
+
+_Toby_:  I accept it as a terminological convention for naming foundational theories.  Historically, it\'s not justifiable, perhaps even backwards, since Brouwer\'s intuitionism *was* predicative.  But it would be just as unjustifiable for constructivists to steal the word 'predicative' to refer to theories with function sets, just because they don\'t have power sets, when classical predicativists will happily reject function sets for their own sake (and not just because, using classical logic, they lead to power sets).  So at least we have a consistent naming convention.
 =--
 
 
