@@ -30,6 +30,12 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 ## 2009-07-22
 
+* [[Urs Schreiber]]:
+
+  * added references and links to [[vertex operator algebra]]
+
+  * created [[tensorial strength]] with material that [[Todd Trimble]] provided on the blog
+
 *  [[Toby Bartels]]:
    *  More discussion with Tom at [[regular monomorphism]].
    *  Formatting with `+-- {: .un_remark}`...`=--` at [[category theory]].
