@@ -136,3 +136,4 @@ I agree that 'simplicial nerve'  is probably not a good term.
 
 
 [[!redirects nerve of a simplicial category]]
+[[!redirects simplicial nerve of simplicial categories]]
