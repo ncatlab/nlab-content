@@ -420,7 +420,7 @@ It may be helpful to unpack the above definition a bit.
     }
   $$
 
-  Therefore $\delta_1$, being a diagonal morphism (cartesian [[product]] of an [[identity]] with itself),
+  Therefore $\delta_1$, being a diagonal morphism (cartesian [[pairing]] of an [[identity]] with itself),
   literally identifies the **diagonal** in the "square" $I \times I$ as the 1st 1-dimensional boundary.
 
 =--
