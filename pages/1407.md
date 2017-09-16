@@ -79,3 +79,5 @@ The standard literature on string theory is nowhere close to what we would usual
 * etc.
 
 The question is what the formalism might be that unifies all this into one coherent theory of higher quantum field theory.
+
+[[!redirects superstring theory]]
