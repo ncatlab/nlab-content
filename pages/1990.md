@@ -10,6 +10,8 @@ We give the definition as availalable in the literature and then interpret this 
 
 An **infinitesimal $k$-simplex** in a synthetic differential space $X$ is a collection of $k+1$-points in $X$ that are pairwise infinitesimal neighbours.
 
+The spaces $X^{\Delta^k_{diff}}$ of infinitesimal $k$-simplices arrange to form the [[infinitesimal singular simplicial complex]] $X^{\Delta^\bullet_{diff}}$.
+
 The functions on the space of infinitesimal $k$-simplices form a [[generalized smooth algebra]] $C^\infty(X^{\Delta^k_{inf}})$.
 
 A **differential $k$-form** on $X$ is an element in this function algebra that has the property that it vanishes on degenerate infinitesimal simplices.
