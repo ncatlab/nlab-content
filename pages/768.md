@@ -38,7 +38,7 @@ However $\mathcal{B}C$ is in this case defined by a nerve construction which gen
 
 [[Ronnie Brown|Ronnie]] What I am trying to characterise is that higher categories carry structure such as a filtration by lower dimensional higher categories, or, for multiple structures, a multiple filtration. Thus one expects a classifying space to inherit this extra structure. Conversely, the construction of an infinity-groupoid from a space might depend on this extra structure. 
 
-So I spent 9 years trying to construct a _strict_ homotopy double groupoid of a space, yet Phip Higgins and I did this overnight in 1974 when we tried the simplest relative example we could think of. Then the filtered case took another 4 years or so to complete. 
+So I spent 9 years trying to construct a _strict_ homotopy double groupoid of a space, yet Philip Higgins and I did this overnight in 1974 when we tried the simplest relative example we could think of: take homotopy classes of maps from a square to $X$ which take the edges to a subspace $X_1$ and the vertices to a base point $x_0$. Then the filtered case took another 4 years or so to complete. 
 
 Then Loday constructed a [[cat-n-group]] from an n-cube of spaces, published in 1982. Its multi-nerve  is an $(n+1)$-simplicial set, whose realisation is $(n+1)$-filtered. 
 
