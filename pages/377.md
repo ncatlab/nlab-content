@@ -8,7 +8,7 @@ Sometimes one also imposes these conditions to ensure better behavior of the res
 
 * A space is [[compact space|compact]] if any open cover of it has a finite subcover.  Variations include locally compact, countably compact, sequentially compact, etc.
 
-* _Locally compact Hausdorff_ spaces deserve special mention since they are [[exponentiable object|exponentiable]] in [[Top]].
+* _Locally compact Hausdorff_ spaces deserve special mention since they are [[exponential object|exponentiable]] in [[Top]].
 
 * A [[compactly generated space]] is, essentially, one whose topology is determined by its restriction to compact subspaces.  These are notable because the category of compactly generated spaces is [[cartesian closed category|cartesian closed]].
 
