@@ -12,7 +12,13 @@ This is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work o
 
 We think of this wiki as our **lab book** that we happen to keep lying around openly.  We originally designed this place as the library, or alchemist's laboratory, in the back room of the [$n$-Category Caf&eacute;](http://golem.ph.utexas.edu/category/). You go there to discuss things, and here to write them up.
 
-We are hoping to create here a space for presentation and archival storage of collaborative work of encyclopedic, didactic, expositional,  but also original nature.  This will include, but not be limited to, the subjects being discussed every day in the $n$-Caf&eacute;.
++-- {: .standout}
+
+The **purpose of the $n$Lab** is not to make polished expositions of material, that's a happy by-product. The purpose is to provide a public place where people can make notes about stuff.
+
+We all make notes as we read papers, read books, doodle on pads of paper. The $n$Lab is somewhere to put all those notes, and incidentally make them available to others. Others might then read them and add or polish them. But even if they don't, it's still then easier to link to other notes that you've made.
+
+=--
 
 But this site started operation only a few months ago. Some structure is beginning to appear, but we are still in a very early stage. Your help is appreciated! 
 
