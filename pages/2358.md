@@ -3,15 +3,6 @@
 
 ***
 
-[[!include higher category theory - contents]]
-
-
-***
-
-[[!include higher geometry - contents]]
-
-***
-
 [[!include higher algebra - contents]]
 
 
@@ -27,7 +18,7 @@ This is a sub-entry of
 
 see there for background and context.
 
-This entry disscusses basics of [[formal group law]]s arising from [[periodic cohomology theory|periodic]] [[multiplicative cohomology theory|multiplicative]] [[cohomology theory|cohomology theories]]
+This entry discusses the algebraic/homotopy theoretic prerequisites for [[derived algebraic geometry]].
 
 =--
 
