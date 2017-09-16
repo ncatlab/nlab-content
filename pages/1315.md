@@ -40,14 +40,14 @@ Composition of paths comes from concatenation and reparameterization of represen
 
 This definition makes sense for $X$ any [[generalized smooth space]], in particular for $X$ a [[sheaf]] on [[Diff]]. 
 
-Moreover, $P_1(X)$ is always itself naturally a groupoid [[internal category|internal to]] [[generalized smooth space]]s: if $X$ is a [[Chen space]] or [[diffeological space]] then $P_1(X)$ is itself internal to that category.
+Moreover, $P_1(X)$ is always itself naturally a groupoid [[internal category|internal to]] [[generalized smooth spaces]]: if $X$ is a [[Chen space]] or [[diffeological space]] then $P_1(X)$ is itself internal to that category.
 =--
 
-There are various generalizations of the path groupoid to [[n-groupoid]]s and [[infinity-groupoid]]s. See
+There are various generalizations of the path groupoid to [[n-groupoids]] and [[∞-groupoids]]. See
 
 * [[path n-groupoid]]
 
-* [[path infinity-groupoid]] .
+* [[path ∞-groupoid]] .
 
 #Remarks#
 
@@ -57,7 +57,7 @@ $$
 $$
 where on the left the [[functor category]] is the one of internal (smooth) functors.
 
-More generally, smooth [[anafunctor]]s from $P_1(X)$ to $\mathbf{B}G$ are canonically equivalent to smooth $G$-principal bundles on $X$ with [[connection]]:
+More generally, smooth [[anafunctors]] from $P_1(X)$ to $\mathbf{B}G$ are canonically equivalent to smooth $G$-principal bundles on $X$ with [[connection]]:
 $$
   Ana(P_1(X), \mathbf{B}G) \simeq G Bund_\nabla(X)
   \,.
@@ -67,3 +67,4 @@ See also
 
 * [[Atiyah Lie groupoid]]
 
+[[!redirects path groupoids]]
