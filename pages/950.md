@@ -14,3 +14,6 @@ Although often considered a form of constructivism, finitism in the strong sense
 _Ultrafinitism_ is an even more extreme form of finitism, in which one doubts the existence even of very large numbers, numbers which in some sense it is not physically possible to write down.  The theory of ultrafinite mathematics is not well developed.
 
 For the opinionated espousal of finitism (and much else), one can hardly do better than [Doron Zeilberger\'s Opinions](http://www.math.rutgers.edu/~zeilberg/OPINIONS.html).
+
+
+[[!redirects finitism]]
