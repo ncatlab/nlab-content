@@ -43,7 +43,7 @@ where
 
 A closely related situation is considered in the context of [[groupoidification]], where the aim is to encode not only the operation of matrix multiplication geometrically in the above sense, but also the very notion of a function itself. 
 
-In [[groupoidification]] functios with values in fields are essentially replaced by functions with values in (finite) [[groupoid]]s, and the notion of [[groupoid cardinality]] is used to interpret such a gadget as a function with values in rational numbers. 
+In [[groupoidification]] functions with values in fields are essentially replaced by functions with values in (finite) [[groupoid]]s, and the notion of [[groupoid cardinality]] is used to interpret such a gadget as a function with values in rational numbers. 
 
 More precisely, [[groupoidification]] in the sense of [[John Baez]] can be understood as geometric function theory for the case that collections of geometric functions are modeled as [[over category|over categories]]. This is described in more detail at [[examples for geometric function objects]].
 
