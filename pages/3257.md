@@ -24,7 +24,7 @@ $$ \array {
    F(y)            & \underset{\eta(y)}\to & G(y)
 },\;\;\; u\colon x \overset{\sim}\to y\colon C .$$
 
-Note that, while $f$ must be an isomorphism, $\eta(x)$ need not be.
+Note that, while $u$ must be an isomorphism, $\eta(x)$ need not be.
 
 
 ## Reduction to natural transformations
