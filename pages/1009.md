@@ -8,7 +8,7 @@
 
 ## Idea ##
 
-What is called the _AKSZ formalism_ -- after the initials of its four authors -- Alexandrov, [[Maxim Kontsevich|Kontsevich]], Schwarz, Zaborosnky -- is a a special technique for constructing [[path integral|action functional]]s  in [[gauge theory]].
+What is called the _AKSZ formalism_ -- after the initials of its four authors -- Alexandrov, [[Maxim Kontsevich|Kontsevich]], Schwarz, Zaboronsky -- is a a special technique for constructing [[action functional]]s  in [[gauge theory]].
 
 More precisely, it is a method for constructing a [[BV theory|BV Laplacian]] for a [[sigma-model]] with a given symplectic [[NQ-supermanifold]] $X$ target space which describes a generalization of the [[Poisson sigma-model]]. 
 
