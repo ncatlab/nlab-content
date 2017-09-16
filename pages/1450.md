@@ -1,3 +1,8 @@
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 In _synthetic differential geometry_ one formulates differential geometry in a [[topos]] of [[space and quantity|generalized spaces]] which has an object $T$ (often also denoted $D$) that behaves like an [[infinitesimal object|infinitesimal interval]], so that for instance for $X$ another object regarded as a smooth space, the tangent bundle of $X$, is, again as an object of the topos, just the [[internal hom]] $T X := [T,X]$.
@@ -16,9 +21,17 @@ In this vein, Anders Kock, in a long series of articles, reformulates large part
 
 
 
-# Remarks #
+# Variations #
 
-* Synthetic differential geometry may be thought of as embedded in the general theory of [[derived smooth manifold]]s and, generally, that of [[structured generalized space]]s.
+## higher categoricalversions ##
+
+* Synthetic differential geometry may be thought of as embedded in the general theory of [[derived smooth manifold]]s and, generally, that of [[generalized scheme]].
+
+## supergeometry  versions ##
+
+The notion of synthetic differential geometry extends to the context of [[supergeometry - contents|supergeometry]]. See
+
+* [[synthetic differential supergeometry]] .
 
 
 # Related entries #
