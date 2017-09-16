@@ -2,9 +2,90 @@
 
 A **cubical set** is a [[presheaf]] on the [[cube category]] $\Box$. 
 
-##Remarks##
+#Idea#
 
-* The definition is to be understood from the point of view of [[space and quantity]]: a _cubical set_ is a space characterized by the fact that and how it may be _probed_ by mapping standard cubes into it: the set $S_n$ assigned by a cubical set to the standard $n$-cube $[n]$ is the set of $n$-cubes in this space, hence the way of mapping a standard $n$-cube into this spaces.
+The definition is to be understood from the point of view of [[space and quantity]]: a _cubical set_ is a space characterized by the fact that and how it may be _probed_ by mapping standard cubes into it: the set $S_n$ assigned by a cubical set to the standard $n$-cube $[n]$ is the set of $n$-cubes in this space, hence the way of mapping a standard $n$-cube into this spaces.
+
+Being a functor $S : \Box^{op} \to Set$, a cubical set $S$ also assigns maps between its sets $S_n$ of $n$-simplices which determine in which way smaller cubes sit inside larger cubes.
+
+The **face maps**  go from sets $S_{n+1}$ of $(n+1)$-dimensional cubes to the corresponding set $S_{n}$ of $n$-dimensional cubes and can be thought of as sending each cube in the cubical set to one of its faces, for instance for $n=1$ the set $S_2$ of 2-cubes  would be sent in four different ways by four different face maps to the set of $1$-cubes, for instance one of the face maps would send
+
+$$
+  \left(
+  \array{
+     a &\to& b
+     \\
+     \downarrow &\Downarrow^F& \downarrow
+     \\
+     c &\to& d
+  }
+  \right)
+  \;\;
+  \mapsto
+  \;\;
+  \left(
+  \array{
+     a &\to& b
+  }
+  \right)
+$$
+
+another one would send
+
+$$
+  \left(
+  \array{
+     a &\to& b
+     \\
+     \downarrow &\Downarrow^F& \downarrow
+     \\
+     c &\to& d
+  }
+  \right)
+  \;\;
+  \mapsto
+  \;\;
+  \left(
+  \array{
+     a
+     \\
+     \downarrow
+     \\
+     c
+  }
+  \right)
+  \,.
+$$
+
+On the other hand, the **degeneracy maps** go the other way round and send sets $S_n$ of $n$-cubes to sets $S_{n+1}$ of $(n+1)$-cubes by regarding an $n$-cube as a degenerate or "thin" $(n+1)$-cube in the various different ways that this is possible. For instance again for $n=1$ a degeneracy map may act by sending
+
+$$
+  \left(
+  \array{
+     a
+     &\stackrel{f}{\to}&
+     b
+  }
+  \right)
+  \;\;
+  \mapsto
+  \;\;
+  \left(
+  \array{
+     a &\stackrel{f}{\to}& b
+     \\
+     \downarrow^{Id} &\Downarrow^{Id}& \downarrow^{Id}
+     \\
+     a &\stackrel{f}{\to}& b
+  }
+  \right)
+  \,.
+$$
+
+Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "thin" in much the same way as an [[identity]] [[morphism]] is thin (notice however that a cubical set by itself is not equipped with a notion of composition of cubes. If it were, we'd call it a [[cubical category]]). 
+
+In an ordinary cubical set all degeneracy maps act in the kind of way depicted above. One might also want to require a cubical set to contain "thin" cells between equal _adjacent_ faces. If the cubical set has this additional property, one calls it a [[connection on a cubical set|cubical set with connection]].
+
 
 #Geometric realization#
 
