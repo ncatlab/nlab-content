@@ -65,6 +65,7 @@ If $T$ is _not_ defined in terms of finite limits, then internal $T$-models in s
 to the above now -- so is the IPC-property business
 really unnecessary for the examples above?
 
+[[Mike Shulman|Mike]]: I'm pretty sure it is not.  Does anyone have any examples where the IPC-property business is important?
 =--
 
 
