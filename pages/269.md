@@ -24,7 +24,7 @@ The notion of cubical set and of homology theory and homotopy theory based on si
 
 Nonetheless cubical sets continued to have a kind of underground existence. 
 
-Brown and Higgins introduced the extra structure of connections $\Gamma^\pm_i$ on cubical sets, and included this structure into their cubical  [[omega-groupoid]]s. All this structure was essential for the equivalence with [[crossed complex]]es and for the applications to homotopy theory. For example these omega-groupoids have a canonical structure of [[thin]] elements, defined as any composition of elements of the form $\pm \epsilon_j x, \pm \Gamma^\pm_i$. Such elements have "commuting boundary". 
+Brown and Higgins introduced the extra structure of [[connection]]s $\Gamma^\pm_i$ on cubical sets, and included this structure into their cubical  [[omega-groupoid]]s. All this structure was essential for the equivalence with [[crossed complex]]es and for the applications to homotopy theory. For example these omega-groupoids have a canonical structure of [[thin]] elements, defined as any composition of elements of the form $\pm \epsilon_j x, \pm \Gamma^\pm_i$. Such elements have "commuting boundary". 
 
 The geometric realisation of cubical sets with connections, and the relation with cartesian products, has not yet been analysed. 
 
