@@ -182,10 +182,15 @@ Instead of using <code>exp</code> as a function value, I can write a "lambda exp
     >>> double(5)
     10
 
-A lambda expression is a way of writing a function without naming it or hiving it off into a separate definition. Thus, in the same way that 1 denotes an integer and can be used as a constant in a language of arithmetic expressions, the lambda expression above denotes a function, and can be used in a language of expressions over functions. You can see this in the interaction below, where I have applied a lambda expression to 5. The syntax is the same as for <code>double(5)</code>, except that in place of <code>double</code>, we have the lambda expression:
+A lambda expression is a notation for writing a function without naming it or hiving it off into a separate definition. Then, in the same way that 1 denotes an integer and can be used as a constant in a language of arithmetic expressions, a lambda expression denotes a function, and can be used in a language of expressions over functions. You can see this in the interaction below, where I have applied a lambda expression to 5. The syntax is the same as for <code>double(5)</code>, except that in place of <code>double</code>, we have the lambda expression:
 
     >>> (lambda x: 2*x)(5)
     10
+
+By the way, lambda expressions arose as part of the lambda calculus. This is a mathematical model of computation,  invented by the logician [Alonzo Church](http://en.wikipedia.org/wiki/Alonzo_Church) as a foundation for logic. (One topic he wanted to investigate was G&ouml;del's incompleteness theorem, hoping it might not apply to logic founded on the lambda calculus.) It consists of a language of expressions over values which include functions, and a set of transformation rules for evaluating these expressions. His notation for functions used Greek lambda to signal a function's argument: in it, the identity function is written $\lambda x.x$. Python's <code>lambda x: x</code>, and lambda expressions in other programming languages, are keyboard approximations to this notation. I should note that the phrase "lambda expression" seems to be ambiguous: some people use it only for functions written using lambda notation, while others use it to mean any expression in the lambda calculus. I suspect, though I haven't yet looked at Church's original paper, that he used it in the first sense. There are references to the lambda calculus at [Classical vs Quantum Computation (Week 1)](http://golem.ph.utexas.edu/category/2006/10/classical_vs_quantum_computati.html), and a history of it at:
+
+* [History of Lambda-calculus and
+Combinatory Logic](http://www-maths.swan.ac.uk/staff/jrh/papers/JRHHislamWeb.pdf), by Felice Cardone and J. Roger Hindley.
 
 ... I now have all the prerequisites needed for some functional programming....
 
