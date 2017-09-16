@@ -63,6 +63,8 @@ Any category $C$ with [[finite limits]] has a **reg/lex completion** $C_{reg/lex
 
 In particular, the reg/lex completion is a left adjoint to the [[forgetful functor]] from regular categories to lex categories (categories with finite limits).  The reg/lex completion can be obtained by "formally adding images" for all morphisms in $C$, or by "closing up" $C$ under images in its [[presheaf category]] $[C^{op},Set]$.  In general, even if $C$ is regular, $C_{reg/lex}$ is larger than $C$ (that is, it is a [[free cocompletion]] rather than merely a [[completion]]), although if $C$ satisfies the [[axiom of choice]] (in the sense that all [[regular epimorphisms]] are split), then $C\simeq C_{reg/lex}$.
 
+See [[regular and exact completions]].
+
 +-- {: .query}
 H\'m, so what is $Set_{reg/lex}$ like if the axiom of choice fails in $Set$?  Some category like $Set$, but larger, in which every set becomes projective (but perhaps not every object in the larger category).  Of course, I\'d have to check that the statements above that this conclusion relies don\'t themselves use the axiom of choice in $Set$!  ---Toby
 
@@ -95,3 +97,5 @@ An application of the regularity condition is found in the paper
 _Tensor envelopes of regular categories_, by F. Knop.   [arXiv:math/0610552v2](http://arxiv.org/abs/math/0610552)
 
 Knop's condition for regularity is slightly different from that presented here; he works with categories that when augmented by an absolutely initial object are regular in the terminology here.  In the paper, Knop generalizes a construction of Deligne by showing how to construct a symmetric pseudo-abelian [[tensor category]] out of a regular category through the calculus of relations.
+
+[[!redirects regular categories]]
