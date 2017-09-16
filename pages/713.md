@@ -199,7 +199,7 @@ If the triangle commutes, we have
 
 $$F_{ik} = \sum_j y_{ij} \tilde{F}_{jk}.$$
 
-Therefore, we can determine $\tilde{F}$ as long a $y$ has a right inverse (which the obvious inclusion does).
+Therefore, we can determine $\tilde{F}$ as long a $y$ has a right inverse (which the obvious inclusion does). In hindsight, it is obvious. If $\tilde{F}\circ y = F\implies \tilde{F} = F\circ y^{-1}$.
 
 
 ##Proving the theorem##
