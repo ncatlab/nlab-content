@@ -18,23 +18,6 @@ Assuming (1), when $f$ is monic we obtain $f\cong \ker(\coker(f))$ so that $f$ i
 
 In particular, in an abelian category every morphism decomposes [[generalized the|uniquely up to a unique isomorphism]] into the composition of an [[epimorphism]] and a [[monomorphism]], via the above decomposition.  Since every monic is [[regular monomorphism|regular]], hence [[strong monomorphism|strong]], it follows that (epi, mono) is an [[orthogonal factorization system]].  Furthermore, again since every monic is regular, every abelian category is [[balanced category|balanced]].
 
-+--{+ .query}
-_Zoran_: Strong you mean strict monomorphism ? (like "strict epimorphism" in Kashiwara-Shapira, Adamek etc.)
-Let us try to be conventional in the sense of mainstream mathematics as possible. It seems that strong and strict are half half over the literature, but I am not sure if it is completely synonymus for all.
-
-[[Mike Shulman|Mike]]: I've never heard of a strict monomorphism.  Does it mean the same as what I mean by a strong one?  I've only ever heard this one meaning of strong.
-
-_Zoran_: Kashiwara-Shapira page 116, is a different definition, I do not see clearly if it is equivalent; but I know that in regular categories strict epi coincides with regular epi.
-
-http://www.uni-trier.de/fileadmin/fb4/INF/TechReports/semi-abelian_categories.pdf says at one place that Palamodov's version of semi-abelian category is preabelian + canonical morphism is epi and mono (our previous discussion). The same paper is one of many in that area which uses strict monomorphisms. Google search with quotation for the phrase "strict monomorphism" gives 190 hits, "strong monomorphism" 360 hits, similarly and a bit more for epi version with a bit different distribution in areas of usage. 
-
-[[Mike Shulman|Mike]]: Okay, I happened to have a copy of K-S, but it would have been easier for you to just tell me the definition.  For the benefit of those listening who may not have a copy, I created [[strict epimorphism]].  Strict and regular are the same in any category with pullbacks, while regular and strong agree in any regular category but not in general.
-
-Probably this query box can be deleted, and the comment about semi-abelian (which suggests that Gelfand-Manin is wrong?) moved to the discussion below.
-
-[[Zoran Skoda]]: OK you can delete this box on strong vs strict; thanx for righting the entry for [[strict epimorphism]] yourself in very careful and informative manner! Beautiful.
-=--
-
 Finally, it is interesting to observe that the $Ab$-enrichment of an abelian category need not be specified a priori.  If an arbitrary (not necessarily pre-additive) category $C$ has a [[zero object]], binary products and coproducts, kernels, cokernels and the property that every monic is a kernel arrow and every epi is a cokernel arrow (so that all monos and epis are [[normal monomorphism|normal]]), then it can be equipped with a unique addition on the morphism sets such that composition is bilinear and $C$ is abelian with respect to this structure.  However, in most examples, the $Ab$-enrichment is evident.
 
 
@@ -76,4 +59,6 @@ However, if you assume explicitly that that comparison map is always an isomorph
 [[Mike Shulman|Mike]]: I refactored the page to make clear what we know and what we don't, and include some examples.  Maybe someone will come along and give us a counterexample or a proof.  I wonder what the epimorphisms are in the category of torsion-free abelian groups, and in particular whether it is balanced (since if so, it would be a counterexample).
 
 [[Mike Shulman|Mike]]: Okay, it's obvious: the epimorphisms in $tfAb$ are the maps whose cokernel (in $Ab$) is torsion.  Thus $2:\mathbb{Z}\to\mathbb{Z}$ is monic and epic, so $tfAb$ is not balanced.  And since $2:\mathbb{Z}\to\mathbb{Z}$ is its own canonical map, that canonical map _is_ monic and epic in $tfAb$, so this isn't a counterexample.
+
+_Zoran_: http://www.uni-trier.de/fileadmin/fb4/INF/TechReports/semi-abelian_categories.pdf says at one place that Palamodov's version of semi-abelian category is preabelian + canonical morphism is epi and mono.
 =--
