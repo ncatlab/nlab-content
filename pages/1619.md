@@ -15,7 +15,7 @@ from $X$ to the [[classifying space]] of the group $O(n)$.
 
 This means the following:
 
-* there is a canonical map $w_1 : B O(n) \to B\mathbb{Z}_2$ from the [[classifying space]] of $O(n)$ to that of $\mathbb{Z}_2 = \mathbb{Z}/2\mathbb{Z}$ that represents the general of the cohomology $H^1(B O(n), \mathbb{Z}_2)$. The classifying space of the group $SO(n)$ is the [[generalized universal bundle|homotopy pullback]]
+* there is a canonical map $w_1 : B O(n) \to B\mathbb{Z}_2$ from the [[classifying space]] of $O(n)$ to that of $\mathbb{Z}_2 = \mathbb{Z}/2\mathbb{Z}$ that represents the generator of the cohomology $H^1(B O(n), \mathbb{Z}_2)$. The classifying space of the group $SO(n)$ is the [[generalized universal bundle|homotopy pullback]]
   $$
    \array{
     B SO(n) &\to& {*}
@@ -25,7 +25,7 @@ This means the following:
     B O(n) &\stackrel{w_1}{\to}& \mathbb{B}\mathbb{Z}_2
    }
   $$
-  Namely using the [[homotopy hypothesis]] (which is a theorem, recall), we may identify $B O(n)$ with the one object [[groupoid]] whose space of morhisms is $O(n)$ and similarly for $ B \mathbb{Z}_2$. Then the map in question is the one induced from the group homomorphism that sends orientation preserving elements in $O(n)$ to the identity and orientation reversing elements to the nontrivial element in $\mathbb{Z}_2$.
+  Namely using the [[homotopy hypothesis]] (which is a theorem, recall), we may identify $B O(n)$ with the one object [[groupoid]] whose space of morphisms is $O(n)$ and similarly for $ B \mathbb{Z}_2$. Then the map in question is the one induced from the group homomorphism that sends orientation preserving elements in $O(n)$ to the identity and orientation reversing elements to the nontrivial element in $\mathbb{Z}_2$.
 
   * an **orientation** on $X$ is a choice of lift of the structure group through $B SO(n) \to B O(n)$
   $$
@@ -65,11 +65,11 @@ This means the following:
 * there is a canonical map $B Spin(n) \to B^3 U(1)$ The classifying space of the group $String(n)$ is the [[generalized universal bundle|homotopy pullback]]
   $$
    \array{
-    B Spin(n) &\to& {*}
+    B String(n) &\to& {*}
     \\
     \downarrow && \downarrow
     \\
-    B SO(n) &\stackrel{\frac{1}{2}p_1}{\to}& \mathbb{B}^3 U(1)
+    B Spin(n) &\stackrel{\frac{1}{2}p_1}{\to}& \mathbb{B}^3 U(1)
    }
   $$
 
@@ -140,7 +140,7 @@ One can reformulate an
 
 * Fivebrane-
 
-structure in terms of thge existence of a certain class on the total space of the given bundle.
+structure in terms of the existence of a certain class on the total space of the given bundle.
 
 We write this out for the case of string structures, all other cases work entirely analogously.
 
