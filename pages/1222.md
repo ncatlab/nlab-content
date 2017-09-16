@@ -1,3 +1,3 @@
 See [[Karoubian category]].
 
-category: redirect
+category: delete
