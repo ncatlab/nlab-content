@@ -180,7 +180,10 @@ if $s=0$ and 0 otherwise.
 It is true that $H^{s,t} (A_* , \Gamma_* ) = H^{s,t} (B, \Gamma_B)$ where
 $$ B = \mathbb{Z}_{(3)} [ b_2 , b_4, b_6 ] \to \Gamma_B = B[r] ; \; b_2 \mapsto b_2 + 12r $$
 and the degree of $r$ is 4.
-We have the class $\alpha = [r] \in H^{1,4}$ and $\beta = [ -1/2 (r^2 \otimes r + r \otimes r^2)] \in H^{2,12}$.
+We have the class $\alpha = [r] \in H^{1,4}$ and $\beta = [ -1/2 (r^2 \otimes r + r \otimes r^2)] \in H^{2,12}$. 
+
+Let $I = (3 , b_2 , b_4 )$ and consider the Hopf algebroid $(B/I , \Gamma_B /I)$ which by change of rings theorem is equivalent to $(\mathbf{F}_3 , \mathbf{F}_3 [r]/(r^3))$.
+A spectral sequence obtained by filtering by powers of $I$ gives:
 
 **Theorem.** $H^{*,*} (B, \Gamma_B) = \mathbb{Z} [c_4 , c_6 , \Delta , \alpha, \beta ]$ subject to the following relations
 
@@ -189,7 +192,7 @@ We have the class $\alpha = [r] \in H^{1,4}$ and $\beta = [ -1/2 (r^2 \otimes r 
 1. $c_4 \alpha = c_6 \alpha = c_4 \beta = c_6 \beta = 0.$
 
 
-Now let $I = (3 , b_2 , b_4 )$ and consider the Hopf algebroid $(B/I , \Gamma_B /I)$ which by change of rings theorem is equivalent to $(\mathbf{F}_3 , \mathbf{F}_3 [r]/(r^3))$. By using this Hopf algebroid and the comparison map with the Adams-Novikov spectral sequence one can prove the following theorem.
+By using the comparison map with the Adams-Novikov spectral sequence one can prove the following theorem.
 
 **Theorem.** The edge homomorphism $\pi_* tmf_{(3)} \to \{Modular Forms\}_{(3)}$ has 
 
