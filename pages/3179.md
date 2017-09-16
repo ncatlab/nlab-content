@@ -1,4 +1,4 @@
 
-In a typed language, a _coherent formula_ is a [[logic]]al sentence obtained from atomic ones by using the logical connectives $\vee$, $\bottom$, $\wedge$, $\top$ and the [[quantifier]] $\exists x$, where $x$ is of finitely presented type. 
+In [[logic]], a __coherent formula__ is a [[proposition]] obtained from atomic ones by using finitary [[disjunction]] and [[conjunction]] ($\vee$, $\bottom$, $\wedge$, $\top$) and [[existential quantification]] over a [[finitely presented type]] ($\exists x\colon A$, for $A$ finitely presented type). 
 
-So this excludes existential quantification over function types
+In particular, this *excludes* existential quantification over [[function types]] and [[power types]] (if one even has these).
