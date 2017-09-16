@@ -1,6 +1,9 @@
 #Idea#
 
-**Descent theory** studies existence and (non)uniqueness of an object $u$ in a (possibly higher) category $C_X$ provided some "inverse image" functor $f^*:C_X\to C_Y$ applied to $u$ is given object in some (possibly higher) category $C_Y$ (or a collection of inverse image functors $f^*_\alpha(u)$ in $D_\alpha$ is given). In favourable cases, the nonuniqueness is parametrized by equipping the object $f^*(u)$ with additional "gluing" data $\xi$. The pair $(f^*(u),\xi)$ is called a descent datum, the existence of a reconstruction procedure of $u$ from $(f^*(u),\xi)$ is also called a descent, and it describes the property that the (higher) category of descent data in $C_Y$ is equivalent to the category $C_X$, or at least that it embeds via a canonical fully faithful functor. 
+In its more specific meaning _descent_ is the study of generalizations of the [[sheaf]] condition on [[presheaf|presheaves]] to presheaves with values in [[higher category theory|higher categories]]. Those higher presheaves that satisfy descent are called [[infinity-stack]]s.
+
+More generally,
+**descent theory** studies existence and (non)uniqueness of an object $u$ in a (possibly higher) category $C_X$ provided some "inverse image" functor $f^*:C_X\to C_Y$ applied to $u$ is given object in some (possibly higher) category $C_Y$ (or a collection of inverse image functors $f^*_\alpha(u)$ in $D_\alpha$ is given). In favourable cases, the nonuniqueness is parametrized by equipping the object $f^*(u)$ with additional "gluing" data $\xi$. The pair $(f^*(u),\xi)$ is called a descent datum, the existence of a reconstruction procedure of $u$ from $(f^*(u),\xi)$ is also called a descent, and it describes the property that the (higher) category of descent data in $C_Y$ is equivalent to the category $C_X$, or at least that it embeds via a canonical fully faithful functor. 
 
 The most important case is when there is a descent (in the sense of [[equivalence of higher categories]]) along an [[inverse image]] functor along every cover of a [[Grothendieck topology]] or its higher analogue; though many cases (for example descent in [[noncommutative algebraic geometry]]) do not fit into this framework. These cases of descent along all covers is also called (higher) stack theory and may be phrased in modern viewpoint as a characterization of $(\infty,1)$-[[(infinity,1)-sheaf|sheaves]] (i.e. $\infty$-[[infinity-stack|stacks]]) among all $(\infty,1)$-[[(infinity,1)-presheaf|presheaves]] as those $(\infty,1)$-presheaves which are [[local objects]] with respect to certain morphisms $Y \to X$ which are to be regarded as [[covers]] or [[hypercover]] of the $(\infty,1)$-presheaf $X$: the idea is that an $(\infty,1)$-sheaf "descends from the cover $Y$ down to $X$".
 
@@ -327,7 +330,7 @@ $$
 have a very similar appearance. The following theorem asserts if and when they are actually equivalent.
 
 +-- {: .un_theorem }
-###### Theorem (D. Verity, private communication)
+###### Theorem (Dominic Verity)
 
 There exists a canonical comparison map
 
@@ -346,7 +349,12 @@ This is a [[model structure on simplicial sets|weak equivalence]] of [[Kan compl
 
 =--
 
++-- {: .proof}
+###### Proof
 
+The full proof is given at [[Verity on descent for strict omega-groupoid valued presheaves]] .
+
+=--
 
 # Descent in terms of gluing conditions #
 
