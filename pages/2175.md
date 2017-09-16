@@ -36,6 +36,7 @@
 * [[boolean-valued function]]
 * [[cactus language]]
 * [[differential logic]]
+* [[differential propositional calculus]]
 * [[continuous predicate]]
 * [[hypostatic abstraction]]
 * [[logical graph]]
