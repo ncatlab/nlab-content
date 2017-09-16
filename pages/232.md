@@ -91,11 +91,11 @@ this says that composition is _unital_.
 
 #### Enrichment through lax monoidal functors #### 
 
-If $V$ is a monoidal category, then an alternative way of viewing a $V$-category is as a set $X$ together with a lax monoidal functor $\Phi = \Phi_d$ of the form 
+If $V$ is a monoidal category, then an alternative way of viewing a $V$-category is as a set $X$ together with a (lax) [[monoidal functor]] $\Phi = \Phi_d$ of the form 
 
 $$V^{op} \stackrel{yon_V}{\to} Set^{V} \stackrel{d}{\to} Set^{X \times X}$$ 
 
-where the codomain is identified with the monoidal category of spans on $X$, i.e., the local hom-category $\hom(X, X)$ in the [[bicategory]] of [[span]]s of sets. Given an $V$-category $(X, d: X \times X \to V)$ under the ordinary definition, the corresponding lax monoidal functor $\Phi$ takes an object $v$ of $V^{op}$ to the span 
+where the codomain is identified with the monoidal category of spans on $X$, i.e., the local hom-category $\hom(X, X)$ in the [[bicategory]] of [[span]]s of sets. Given an $V$-category $(X, d: X \times X \to V)$ under the ordinary definition, the corresponding monoidal functor $\Phi$ takes an object $v$ of $V^{op}$ to the span 
 
 $$\Phi(v)_{x, y} := \hom_V(v, d(x, y))$$ 
 
@@ -103,15 +103,28 @@ Under the composition law, we get a natural map
 
 $$\hom(v, d(x, y)) \times \hom(v', d(y, z)) \to \hom(v \otimes v', d(x, y) \otimes d(y, z)) \stackrel{\hom(1, comp)}{\to} \hom(v \otimes v', d(x, z))$$ 
 
-which gives the tensorial constraint $\Phi(v) \circ \Phi(v') \to \Phi(v \otimes v')$ for a lax monoidal functor; the identity law similarly gives the unit constraint. 
+which gives the tensorial constraint $\Phi(v) \circ \Phi(v') \to \Phi(v \otimes v')$ for a monoidal functor; the identity law similarly gives the unit constraint. 
 
-Conversely, by using a Yoneda-style argument, such a lax monoidal functor structure on $\Phi = \Phi_d$ induces an $M$-enrichment on $X$, and the two notions are equivalent. 
+Conversely, by using a Yoneda-style argument, such a monoidal functor structure on $\Phi = \Phi_d$ induces an $M$-enrichment on $X$, and the two notions are equivalent. 
 
 Alternatively, we can equivalently describe a $V$-enriched category as precisely a bicontinuous lax monoidal functor of the form 
 
 $$Set^V \to Set^{X \times X}$$ 
 
 since bicontinuous functors of the form $Set^V \to Set^{X \times X}$ are precisely those of the form $Set^d$ for some function $d: X \times X \to V$ [at least if $V$ is [[Cauchy complete category|Cauchy complete]]. 
+
+## Enrichment in a bicategory ## 
+
+Let $B$ be a bicategory, and write $\otimes$ for horizontal (1-cell) composition (written in Leibniz order). A $B$-**enriched category** consists of a set $X$ together with 
+
+* A function $p: X \to B_0$, 
+* A function $\hom: X \times X \to B_1$, satisfying the typing constraint $\hom(x, y): p(x) \to p(y)$, 
+* A function $\circ: X \times X \times X \to B_2$, satisfying the constraint $\circ_{x, y, z}: \hom(y, z) \otimes \hom(x, y) \to \hom(x, z)$, 
+* A function $j: X \to B_2$, satisfying the constraint $j_x: 1_{p(x)} \to \hom(x, x)$, 
+
+such that the associativity and unitality diagrams, as written above, commute. Viewing a monoidal category $M$ as a 1-object bicategory $\Sigma M$, the notion of enrichment in $M$ coincides with the notion of enrichment in the bicategory $\Sigma M$. 
+
+If $X$, $Y$ are sets which come equipped with enrichments in $B$, then a $B$-functor consists of a function $f: X \to Y$ such that $p_Y \circ f = p_X$, and ...
 
 ##Passage between ordinary categories and enriched categories##
 
