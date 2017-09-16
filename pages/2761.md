@@ -1,14 +1,18 @@
+# Yoneda lemma for $(\infty,1)$-categories
+* tic
+{: toc}
 
-# Idea #
+
+## Idea
 
 The statement of the [[Yoneda lemma]] has a straightforward generalization from [[category|categories]] to [[(∞,1)-category|(∞,1)-categories]].
 
-It is not clear if it is known if the full $(\infty,1)$-statement obtained this way does hold.
+Following these [answers on MathOverflow](http://mathoverflow.net/questions/9737/the-yoneda-lemma-for-oo-1-categories), the full $(\infty,1)$-statement obtained this way holds.
 
-But one aspect of the generalization of the standard [[Yoneda lemma]], the fact that the [[Yoneda embedding]] is a [[full and faithful functor]], is known to generalize.
+One aspect of the generalization of the standard [[Yoneda lemma]], the fact that the [[Yoneda embedding]] is a [[full and faithful functor]], is known in the published literature to generalize.
 
 
-#Details#
+## Details
 
 +-- {: .un_theorem }
 ###### Theorem
