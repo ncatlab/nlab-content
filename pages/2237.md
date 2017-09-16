@@ -110,7 +110,7 @@ Then a cocycle in the $K$-equivariant cohomology $H(X_0//K, G Bund)$ is
 
 #### Local systems -- flat connections
 
-For $X_0$ a [[space]] and $X := P_n(X_0)$ a version of its [[path n-groupoid]] we have a canonical inclusion $X_0 \hookrigtharrow P_n(X_0)$ of $X_0$ as the collection of constant paths in $X_0$.
+For $X_0$ a [[space]] and $X := P_n(X_0)$ a version of its [[path n-groupoid]] we have a canonical inclusion $X_0 \hookrightarrow P_n(X_0)$ of $X_0$ as the collection of constant paths in $X_0$.
 
 Consider for definiteness $\Pi(X_0) := \Pi_\infty(X_0)$, the [[path ∞-groupoid]] of $X_0$. (All other cases are in principle obtaind from this by truncation and/or strictification).
 
@@ -131,7 +131,7 @@ When pairing equivariant cohomology with other variants of cohomology such as [[
 
 ## Equivariant abelian multiplicative cohomology {#Multiplicative}
 
-A refinemnet of Borel equivariant cohomology. For the moment see
+A refinement of Borel equivariant cohomology. For the moment see
 
 * [Equivariant multiplicative cohomology](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+A-equivariant+cohomology#equivariant_cohomology_3)
 
@@ -147,7 +147,7 @@ See also
 
 According to the [[nPOV]] on [[cohomology]], if $X$ and $A$ are objects in an [[(∞,1)-topos]], the 0th cohomology $H^0(X;A)$ is $\pi_0(Map(X,A))$, while if $A$ is a [[groupoid object in an (∞,1)-category|group object]], then $H^1(X;A)= \pi_0(Map(X,B A))$.  More generally, if $A$ is $n$ times [[delooping|deloopable]], then $H^n(X;A) = \pi_0(Map(X, B^n A)$.  In [[Top]], this gives you the usual notions if $A$ is a (discrete) group, and in general, $H^1(X;A)$ classifies [[principal ∞-bundle]]s in whatever [[(∞,1)-topos]].
 
-Now consider the $(\infty,1)$-topos $G Top$ of $G$-equivariant spaces, which can also be described as the [[(∞,1)-presheaf|(∞,1)-presheaves]] on the [[orbit category]] of $G$.  For any other group $\Pi$ there is a notion of a principal $(G,\Pi)$-bundle (where $G$ is the group of equivariance, and $\Pi$ is the structure group of the bundle), and these are classified by maps into a classifying $G$-space $B_G \Pi$.  So the principal $(G,\Pi)$-bundles over $X$ can be called $H^0(X;B_G \Pi)$.  If we had something of which $B_G \Pi$ was a [[delooping]], we could call the principal $(G,\Pi)$-bundles "$H^1(X;?)$", but there does not seem to be such a thing.  It seem sthat $B_G \Pi$ is not connected, in the sense that ${*}\to B_G \Pi$ is not an [[effective epimorphism9] and thus $B_G \Pi$ is not the quotient of a [[groupoid object in an (∞,1)-category|group object]] in $G Top$.
+Now consider the $(\infty,1)$-topos $G Top$ of $G$-equivariant spaces, which can also be described as the [[(∞,1)-presheaf|(∞,1)-presheaves]] on the [[orbit category]] of $G$.  For any other group $\Pi$ there is a notion of a principal $(G,\Pi)$-bundle (where $G$ is the group of equivariance, and $\Pi$ is the structure group of the bundle), and these are classified by maps into a classifying $G$-space $B_G \Pi$.  So the principal $(G,\Pi)$-bundles over $X$ can be called $H^0(X;B_G \Pi)$.  If we had something of which $B_G \Pi$ was a [[delooping]], we could call the principal $(G,\Pi)$-bundles "$H^1(X;?)$", but there does not seem to be such a thing.  It seem sthat $B_G \Pi$ is not connected, in the sense that ${*}\to B_G \Pi$ is not an [[effective epimorphism]] and thus $B_G \Pi$ is not the quotient of a [[groupoid object in an (∞,1)-category|group object]] in $G Top$.
 
 ### $G$-equivariant spectra
 
