@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+</div>
+
+
 #Idea#
 
 [[model category|Model structures]] on [[simplicial presheaf|simplicial presheaves]] are [[models for ∞-stack (∞,1)-toposes]].
