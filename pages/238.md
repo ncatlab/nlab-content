@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * added some bits to [[subobject classifier]]: a short intro, the realization in presheaf topoi and a paragraph on $n$-catgorical generalizations and the interpretation of $true$ as a $-1$-category.
+
   * created [[power object]], which is mentioned in the alternative definition at [[topos]] --  guessed the definition from the _Axiom of power sets_ at [[Trimble on ETCS I]], but I am not really sure -- somebody please have a look and check
 
   * expanded and restructured [[Grothendieck topos]]
