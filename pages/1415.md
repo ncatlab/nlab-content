@@ -98,111 +98,157 @@ _Bruce_: The files I received from Olivier Binda, which includes a nice comprehe
 
 These three diagrams are testing re-use of SVG code.  The arrowheads are reused from diagram to diagram.  The first picture defines the arrowhead once and then reuses it for each of the arrows.  The second picture does not define the arrowhead so must get it from the first picture.  The third picture also does not define the arrowhead but refers to the arrowhead from the picture in the [[Inclusion Sandbox]].  As can be seen, it works.  One thing to test would be to have different arrowheads here and in the [[Inclusion Sandbox]] but with the same name and see which one gets used (my guess would be the definition closest above where it is used).
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1"> <defs>
-<marker id="arrow" viewBox="0 0 10 10" refX="0" refY="5" 
-      markerUnits="strokeWidth"
-      markerWidth="10" markerHeight="10"
-      orient="auto"> <path d="M 0 0 L 10 5 L 0 10 z" /> </marker>
-</defs> <foreignObject x="0ex" y="0ex" width="3ex" height="2.5ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>A</mi>
-</math>
-</foreignObject> <foreignObject x="7ex" y="0ex" width="3ex" height="2.5ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>B</mi>
-</math>
-</foreignObject> <foreignObject x="0ex" y="8.5ex" width="3ex" height="2.5ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>C</mi>
-</math>
-</foreignObject> <foreignObject x="7ex" y="8.5ex" width="3ex" height="2.5ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>D</mi>
-</math>
-</foreignObject> <line x1="3ex" y1="1.75ex" x2="7ex" y2="1.75ex" stroke="black" stroke-width="1" marker-end="url(#arrow)" /> <foreignObject x="0ex" y="-3.25ex" width="10ex" height="3ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>f</mi>
-</math>
-</foreignObject> <line x1="1.5ex" y1="3ex" x2="1.5ex" y2="7.75ex" stroke="black" stroke-width="1" marker-end="url(#arrow)" /> <foreignObject x="-1.5ex" y="2.875ex" width="10ex" height="3ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>g</mi>
-</math>
-</foreignObject> <line x1="8.5ex" y1="3ex" x2="8.5ex" y2="7.75ex" stroke="black" stroke-width="1" marker-end="url(#arrow)" /> <foreignObject x="5.5ex" y="2.875ex" width="10ex" height="3ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>h</mi>
-</math>
-</foreignObject> <line x1="3ex" y1="10.25ex" x2="7ex" y2="10.25ex" stroke="black" stroke-width="1" marker-end="url(#arrow)" /> <foreignObject x="0ex" y="5.25ex" width="10ex" height="3ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>k</mi>
-</math>
-</foreignObject> </svg>
+(removed; see [revision 12](http://ncatlab.org/nlab/revision/SVG+Sandbox/12)) 
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1"> <foreignObject x="0ex" y="0ex" width="3ex" height="2.5ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>A</mi>
-</math>
-</foreignObject> <foreignObject x="7ex" y="0ex" width="3ex" height="2.5ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>B</mi>
-</math>
-</foreignObject> <foreignObject x="0ex" y="8.5ex" width="3ex" height="2.5ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>C</mi>
-</math>
-</foreignObject> <foreignObject x="7ex" y="8.5ex" width="3ex" height="2.5ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>D</mi>
-</math>
-</foreignObject> <line x1="3ex" y1="1.75ex" x2="7ex" y2="1.75ex" stroke="black" stroke-width="1" marker-end="url(#arrow)" /> <foreignObject x="0ex" y="-3.25ex" width="10ex" height="3ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>f</mi>
-</math>
-</foreignObject> <line x1="1.5ex" y1="3ex" x2="1.5ex" y2="7.75ex" stroke="black" stroke-width="1" marker-end="url(#arrow)" /> <foreignObject x="-1.5ex" y="2.875ex" width="10ex" height="3ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>g</mi>
-</math>
-</foreignObject> <line x1="8.5ex" y1="3ex" x2="8.5ex" y2="7.75ex" stroke="black" stroke-width="1" marker-end="url(#arrow)" /> <foreignObject x="5.5ex" y="2.875ex" width="10ex" height="3ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>h</mi>
-</math>
-</foreignObject> <line x1="3ex" y1="10.25ex" x2="7ex" y2="10.25ex" stroke="black" stroke-width="1" marker-end="url(#arrow)" /> <foreignObject x="0ex" y="5.25ex" width="10ex" height="3ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>k</mi>
-</math>
-</foreignObject> </svg> 
+Given that inclusions and references seem to work fine, it seems a reasonable idea to have a list of "standard" arrowheads.  Here's one such, loosely based on the types of arrowhead that the xy package considers as standard.
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1"> <foreignObject x="0ex" y="0ex" width="3ex" height="2.5ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>A</mi>
-</math>
-</foreignObject> <foreignObject x="7ex" y="0ex" width="3ex" height="2.5ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>B</mi>
-</math>
-</foreignObject> <foreignObject x="0ex" y="8.5ex" width="3ex" height="2.5ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>C</mi>
-</math>
-</foreignObject> <foreignObject x="7ex" y="8.5ex" width="3ex" height="2.5ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>D</mi>
-</math>
-</foreignObject> <line x1="3ex" y1="1.75ex" x2="7ex" y2="1.75ex" stroke="black" stroke-width="1" marker-end="url(#myarrow)" /> <foreignObject x="0ex" y="-3.25ex" width="10ex" height="3ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>f</mi>
-</math>
-</foreignObject> <line x1="1.5ex" y1="3ex" x2="1.5ex" y2="7.75ex" stroke="black" stroke-width="1" marker-end="url(#myarrow)" /> <foreignObject x="-1.5ex" y="2.875ex" width="10ex" height="3ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>g</mi>
-</math>
-</foreignObject> <line x1="8.5ex" y1="3ex" x2="8.5ex" y2="7.75ex" stroke="black" stroke-width="1" marker-end="url(#myarrow)" /> <foreignObject x="5.5ex" y="2.875ex" width="10ex" height="3ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>h</mi>
-</math>
-</foreignObject> <line x1="3ex" y1="10.25ex" x2="7ex" y2="10.25ex" stroke="black" stroke-width="1" marker-end="url(#myarrow)" /> <foreignObject x="0ex" y="5.25ex" width="10ex" height="3ex">
-<math xmlns='http://www.w3.org/1998/Math/MathML' display="inline">
-<mi>k</mi>
-</math>
-</foreignObject> </svg> 
+###### Date stamp: 5th June 2009
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="500" height="400">
+<defs>
+    <marker id="filledArrow" viewBox="0 0 10 10" refX="10" refY="5" 
+	    markerUnits="strokeWidth"
+	    markerWidth="10" markerHeight="10"
+	    orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+    <marker id="basicArrow" viewBox="0 0 10 10" refX="10" refY="5" 
+	    markerUnits="strokeWidth"
+	    markerWidth="10" markerHeight="10"
+	    orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="doubleArrow" viewBox="0 0 15 10" refX="10" refY="5" 
+	    markerUnits="strokeWidth"
+	    markerWidth="15" markerHeight="10"
+	    orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="black" stroke-width="1" />
+      <path d="M 5 0 L 15 5 L 5 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="barArrow" viewBox="0 0 10 10" refX="10" refY="5" 
+	    markerUnits="strokeWidth"
+	    markerWidth="10" markerHeight="10"
+	    orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="black" stroke-width="1" />
+      <path d="M 10 0 L 10 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="bardoubleArrow" viewBox="0 0 15 10" refX="10" refY="5" 
+	    markerUnits="strokeWidth"
+	    markerWidth="15" markerHeight="10"
+	    orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="black" stroke-width="1" />
+      <path d="M 5 0 L 15 5 L 5 10" fill="none" stroke="black" stroke-width="1" />
+      <path d="M 15 0 L 15 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="parenthesisArrow" viewBox="0 0 5 10" refX="5" refY="5" 
+	    markerUnits="strokeWidth"
+	    markerWidth="5" markerHeight="10"
+	    orient="auto">
+      <path d="M 0 0 Q 10 5 0 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="reversebasicArrow" viewBox="0 0 10 10" refX="0" refY="5" 
+	    markerUnits="strokeWidth"
+	    markerWidth="10" markerHeight="10"
+	    orient="auto">
+      <path d="M 10 0 L 0 5 L 10 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="reversedoubleArrow" viewBox="0 0 15 10" refX="5" refY="5" 
+	    markerUnits="strokeWidth"
+	    markerWidth="15" markerHeight="10"
+	    orient="auto">
+      <path d="M 10 0 L 0 5 L 10 10" fill="none" stroke="black" stroke-width="1" />
+      <path d="M 15 0 L 5 5 L 15 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="reversebarArrow" viewBox="0 0 10 10" refX="0" refY="5" 
+	    markerUnits="strokeWidth"
+	    markerWidth="10" markerHeight="10"
+	    orient="auto">
+      <path d="M 10 0 L 0 5 L 10 10" fill="none" stroke="black" stroke-width="1" />
+      <path d="M 0 0 L 0 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="reversebardoubleArrow" viewBox="0 0 15 10" refX="5" refY="5" 
+	    markerUnits="strokeWidth"
+	    markerWidth="15" markerHeight="10"
+	    orient="auto">
+      <path d="M 10 0 L 0 5 L 10 10" fill="none" stroke="black" stroke-width="1" />
+      <path d="M 15 0 L 5 5 L 15 10" fill="none" stroke="black" stroke-width="1" />
+      <path d="M 0 0 L 0 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="reverseparenthesisArrow" viewBox="0 0 5 10" refX="0" refY="5" 
+	    markerUnits="strokeWidth"
+	    markerWidth="5" markerHeight="10"
+	    orient="auto">
+      <path d="M 5 0 Q -5 5 5 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="slashArrow" viewBox="0 0 5 10" refX="2.5" refY="5" 
+	    markerUnits="strokeWidth"
+	    markerWidth="5" markerHeight="10"
+	    orient="auto">
+      <path d="M 5 0 L 0 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="doubleslashArrow" viewBox="0 0 10 10" refX="2.5" refY="5"
+	    markerUnits="strokeWidth"
+	    markerWidth="10" markerHeight="10"
+	    orient="auto">
+      <path d="M 0 0 L 5 10" fill="none" stroke="black" stroke-width="1" />
+      <path d="M 5 0 L 10 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="crossArrow" viewBox="0 0 10 10" refX="5" refY="5"
+	    markerUnits="strokeWidth"
+	    markerWidth="10" markerHeight="10"
+	    orient="auto">
+      <path d="M 0 0 L 10 10" fill="none" stroke="black" stroke-width="1" />
+      <path d="M 10 0 L 0 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="plusArrow" viewBox="0 0 10 10" refX="5" refY="5"
+	    markerUnits="strokeWidth"
+	    markerWidth="10" markerHeight="10"
+	    orient="auto">
+      <path d="M 5 0 L 5 10" fill="none" stroke="black" stroke-width="1" />
+      <path d="M 0 5 L 10 5" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="vbarArrow" viewBox="0 0 5 10" refX="2.5" refY="5"
+	    markerUnits="strokeWidth"
+	    markerWidth="5" markerHeight="10"
+	    orient="auto">
+      <path d="M 2.5 0 L 2.5 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="doublevbarArrow" viewBox="0 0 10 10" refX="2.5" refY="5"
+	    markerUnits="strokeWidth"
+	    markerWidth="10" markerHeight="10"
+	    orient="auto">
+      <path d="M 2.5 0 L 2.5 10" fill="none" stroke="black" stroke-width="1" />
+      <path d="M 7.5 0 L 7.5 10" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+    <marker id="circleArrow" viewBox="0 0 10 10" refX="0.5" refY="5"
+	    markerUnits="strokeWidth"
+	    markerWidth="10" markerHeight="10"
+	    orient="auto">
+      <circle cx="5" cy="5" r="4.5" fill="none" stroke="black" stroke-width="1" />
+    </marker>
+</defs>
+<path d="M 20 15 L 200 15" stroke="black" stroke-width="1" marker-end="url(#filledArrow)" /><text x="220" y="25">filledArrow</text>
+<path d="M 20 35 L 200 35" stroke="black" stroke-width="1" marker-end="url(#basicArrow)" /><text x="220" y="45">basicArrow</text>
+<path d="M 20 55 L 200 55" stroke="black" stroke-width="1" marker-end="url(#doubleArrow)" /><text x="220" y="65">doubleArrow</text>
+<path d="M 20 75 L 200 75" stroke="black" stroke-width="1" marker-end="url(#barArrow)" /><text x="220" y="85">barArrow</text>
+<path d="M 20 95 L 200 95" stroke="black" stroke-width="1" marker-end="url(#bardoubleArrow)" /><text x="220" y="105">bardoubleArrow</text>
+<path d="M 20 115 L 200 115" stroke="black" stroke-width="1" marker-end="url(#parenthesisArrow)" /><text x="220" y="125">parenthesisArrow</text>
+<path d="M 20 135 L 200 135" stroke="black" stroke-width="1" marker-end="url(#reversebasicArrow)" /><text x="220" y="145">reversebasicArrow</text>
+<path d="M 20 155 L 200 155" stroke="black" stroke-width="1" marker-end="url(#reversedoubleArrow)" /><text x="220" y="165">reversedoubleArrow</text>
+<path d="M 20 175 L 200 175" stroke="black" stroke-width="1" marker-end="url(#reversebarArrow)" /><text x="220" y="185">reversebarArrow</text>
+<path d="M 20 195 L 200 195" stroke="black" stroke-width="1" marker-end="url(#reversebardoubleArrow)" /><text x="220" y="205">reversebardoubleArrow</text>
+<path d="M 20 215 L 200 215" stroke="black" stroke-width="1" marker-end="url(#reverseparenthesisArrow)" /><text x="220" y="225">reverseparenthesisArrow</text>
+<path d="M 20 235 L 200 235" stroke="black" stroke-width="1" marker-end="url(#slashArrow)" /><text x="220" y="245">slashArrow</text>
+<path d="M 20 255 L 200 255" stroke="black" stroke-width="1" marker-end="url(#doubleslashArrow)" /><text x="220" y="265">doubleslashArrow</text>
+<path d="M 20 275 L 200 275" stroke="black" stroke-width="1" marker-end="url(#crossArrow)" /><text x="220" y="285">crossArrow</text>
+<path d="M 20 295 L 200 295" stroke="black" stroke-width="1" marker-end="url(#plusArrow)" /><text x="220" y="305">plusArrow</text>
+<path d="M 20 315 L 200 315" stroke="black" stroke-width="1" marker-end="url(#vbarArrow)" /><text x="220" y="325">vbarArrow</text>
+<path d="M 20 335 L 200 335" stroke="black" stroke-width="1" marker-end="url(#doublevbarArrow)" /><text x="220" y="345">doublevbarArrow</text>
+<path d="M 20 355 L 200 355" stroke="black" stroke-width="1" marker-end="url(#circleArrow)" /><text x="220" y="365">circleArrow</text>
+</svg>
+
+What do people think?  Are there others that ought to be considered as "standard"?  Are these okay, or do they need tweaking?
+
+Discussion on the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=31).
 
 category: meta
