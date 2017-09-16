@@ -15,6 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-07-01
 
 *  [[Toby Bartels]]:
+   *  [[Andrew Stacey]] may be interested to see how I\'ve changed the formatting of the goal box at [[Froelicher space]].
    *  Incorporated Zoran\'s new references at [[principal 2-bundle]] into the text.
    *  Added a note at [[group]] how $Grp$ is a full sub-$2$-category of $Grpd_*$ (even though not of $Grpd$).
 
