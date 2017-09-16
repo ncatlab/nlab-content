@@ -7,7 +7,7 @@
 
 ## idea ##
 
->study global sections of algebras of the [[little k-cubes]] [[(infinity,1)-operad]] of $k$-cobes equipped with maps into a [[manifold]]
+>study global sections of algebras of the [[little k-cubes operad|little k-cubes]] [[(infinity,1)-operad]] of $k$-cobes equipped with maps into a [[manifold]]
 
 >generalizes the concept by Beilinson-Drinfeld
 
