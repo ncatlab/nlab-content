@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 A _fibration sequence_ is a "long right-[[exact sequence]]" (or left-exact, I keep mixing that up) in an [[(∞,1)-category]].
