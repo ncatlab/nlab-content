@@ -41,3 +41,8 @@ The [[sigma-model]] for a [[supersymmetry|supersymmetric]] fundamental brane on 
 
 * **Fivebrane structure** the worldvolume anomaly for the super-5-brane in [[dual heterotic string theory]] vanishes (essentially) when $X$ has [[Fivebrane structure]]. See there.
 
+## References
+
+A reference that very clearly identifies the mathematical nature of quantum anomalies for higher gauge theories is
+
+* [[Dan Freed]], _Dirac charge quantization and generalized differential cohomology_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
