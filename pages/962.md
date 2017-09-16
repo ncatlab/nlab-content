@@ -132,3 +132,7 @@ Incdientally, what Mike typed are technically _SGML character entity references_
 *  For the link with locale theory
 
    * A. Joyal and M. Tierney, (1984), An extension of the Galois theory of Grothendieck, Mem. Amer. Math. Soc. 309.
+
+* When we have no paths, in internal case, one may find the article of Pataraia useful (beware many typoses, but the article is dense with content):
+
+   * D. Pataraia, Internal categories in the left exact cosimplicial category. Georgian Math. J. 4 (1997), No. 6, 533-556. (<a href="http://www.emis.de/journals/GMJ/vol4/contents.htm">link</a>)
