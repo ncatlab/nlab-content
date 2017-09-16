@@ -228,7 +228,7 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 * [[Giraud's axioms]]
 
-  * [[[[groupoid object in an (∞,1)-category]]]]
+  * [[groupoid object in an (∞,1)-category]]
 
   * [[universal colimits]]
 
