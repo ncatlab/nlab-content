@@ -68,6 +68,7 @@ _Toby_:  OK.  Remember when making an existing page into a redirect now, you sho
 
 _Urs_: ah, thanks. What's that last step? Do we have a HowTo on that?
 
+_Toby_:  It\'s discussed very briefly at [[redirect]]; you can find much more on the Forum [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=16&page=1#Item_33).  But I probably should write something clear at [[HowTo]].
 =--
 
 
