@@ -5,3 +5,6 @@
 ## related $n$Lab entries
 
 * [[∞-stack]]
+
+
+category: people
