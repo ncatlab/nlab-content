@@ -1,5 +1,9 @@
 
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 The $\mathbb{A}^1$-homotopy category is an analog of the ordinary [[homotopy category]] $Ho(Top)$ of the [[category]] [[Top]] with [[topological space]]s replaced by [[∞-stack]]s over certain [[scheme]]s.
 
@@ -10,6 +14,8 @@ $$
 $$
 
 is the standard [[affine line]] in $C$.
+
+## References
 
 For more on the general procedure see [[homotopy localization]].
 
