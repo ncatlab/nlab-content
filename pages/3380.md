@@ -43,7 +43,7 @@ This is an example of an [[algebraic theory]] (in the strong sense that it is [[
    \end{cases}
    $$
 
-1. Going back one step, $(-1,1)$ is a totally convex space.   It is illuminating to describe this as a [[coequaliser]] of free totally convex spaces.  Consider a functional $f \colon \ell^1(\mathbb{N}) \to \mathbb{R}$ which is bounded of norm $1$ but does not achieve its norm.  For example, let $f$ be represented by the sequence $(\frac12,\frac23,\frac34,\dots)$.  Then for any $x \in B\ell^1(\mathbb{N})$, $f(x) \in (-1,1)$.  Thus $(-1,1)$ is the coequaliser of the inclusion $\ker f \to \ell^1(\mathbb{N})$ and the [[zero map]] $\ker f \to \ell^1(\mathbb{N})$.
+1. Going back one step, $(-1,1)$ is a totally convex space.   It is illuminating to describe this as a [[coequaliser]] of free totally convex spaces.  Consider a functional $f \colon \ell^1(\mathbb{N}) \to \mathbb{R}$ which is bounded of norm $1$ but does not achieve its norm.  For example, let $f$ be represented by the sequence $(\frac{1}{2},\frac{2}{3},\frac{3}{4},\dots)$.  Then for any $x \in B\ell^1(\mathbb{N})$, $f(x) \in (-1,1)$.  Thus $(-1,1)$ is the coequaliser of the inclusion $\ker f \to \ell^1(\mathbb{N})$ and the [[zero map]] $\ker f \to \ell^1(\mathbb{N})$.
 
 
 [[!redirects totally convex spaces]]
