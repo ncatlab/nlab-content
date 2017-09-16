@@ -15,18 +15,25 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-08-04
+
+* [[John Baez]]: What, I'm the first one working on the $n$Lab and it's already past noon (in Paris)?  The rest of you must be getting lazy!  :-)  I added a little bit about cosimplicial objects vs cochain complexes to [[Dold-Kan correspondence]].
 
 ## 2009-08-03
 
 * [[Zoran Škoda]]: To assist [[John Baez]]'s links, created [[Eilenberg-Moore category]], [[Kleisli category]] and added details and redirects to [[monadic functor]]. To John's question: I think most basic facts in Tannaka reconstruction including sort of those on coalgebra level are in chapter 3 of [Bodo Pareigis' online notes](http://www.mathematik.uni-muenchen.de/~pareigis/pa_schft.html); his emphasis is on [[end]]s and coends. However I hope you find Kazhdan's notes, they must be great. I created entry [[Tomasz Maszczyk]] with very interesting past seminar abstract at the bottom relating a new reconstruction theorem coming from nc geometry. 
 
+   * [[John Baez]]: thanks for the reference to Pareigis' online notes!  I'll look at them sometime --- I hadn't known about them.
+
 * [[Urs Schreiber]]: expanded the example list at [[twisted cohomology]] -- in particular added "cohomology with local coefficients" as a special case. Added to the very beginning of [[local system]] a paragraph on how strictly speaking local systems were meant to be such "local systems of coefficients".
 
 * [[Zoran Škoda]]: created [[smooth scheme]], [[flat morphism]], [[smooth morphism of schemes]], [[EGA IV]], [[locally affine space]], [[relativization in algebraic geometry]]. Notice that this is extending a series on regularity/smoothness/differential calculus in algebraic framework which included our earlier entries [[regular differential operator]], [[quasi-free dga]], [[formally smooth morphism]] and so on.
   
-  * John and Ramesh thank you for the nice detailed material on Lawvere reconstruction theorem, I'd suggest to create a separate lab entry [[Lawvere reconstruction theorem]] on it, moving the most of the material there (regarding the size and number of other reconstruction theorems waiting to be covered in detail the same way) with a link and short comment on the main [[reconstruction]] page. 
+  * John and Ramesh thank you for the nice detailed material on Lawvere reconstruction theorem, I'd suggest to create a separate lab entry [[Lawvere reconstruction theorem]] on it, moving the most of the material there (regarding the size and number of other reconstruction theorems waiting to be covered in detail the same way) with a link and short comment on the main [[reconstruction]] page.   
 
-* [[John Baez]] expanded [[reconstruction theorem]] (it seems)
+  * [[John Baez]]: that's fine --- go ahead and do it!  We can talk about all the reconstruction theorems on the [[reconstruction]] page, but put details on separate pages.  I'd been wanting to write a _book_ about reconstruction theorems, but this will either help me write it or help eliminate the need for doing so.
+
+* [[John Baez]] expanded [[reconstruction theorem]] by adding the example Lawvere theories.
 
   * [[Sridhar Ramesh]] expanded this a little more, in particular discussing the infinitary analogue of Lawvere's reconstruction theorem and the monadic perspective on this, as well as cursorily noting how this is all nothing more and nothing less than the Yoneda embedding lemma cast into logical guise
 
