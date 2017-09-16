@@ -22,30 +22,42 @@ Therefore
 
 #Remarks#
 
-Dijkgraaf-Witten theiry is to be thought of as the finite group version of [[Chern-Simons theory]]. Chern-Simons theory looks formally just as the above, only that not all finite $n$-groupoids appearing are smooth $n$-groupoids ([[infinity-stack]]s on $Diff$).
+Dijkgraaf-Witten theiry is to be thought of as the finite group version of [[Chern-Simons theory]]. Chern-Simons theory looks formally just as the above, only that all finite $n$-groupoids appearing here are replaced by smooth $n$-groupoids ([[infinity-stack]]s on $Diff$).
 
 #References#
 
 The idea originates, of course, in 
 
-* Dijkgraaf, Witten, ...
+* Robbert Dijkgraaf and Edward Witten, [[DW.pdf:file]], Commun. Math. Phys.  129 (1990), 393.
 
 A first comprehensive structural account od DW theory as a [[FQFT|functorial QFT]] was given in 
 
-* Freed, Quinn
+* Dan Freed, Frank Quinn, _Chern-Simons theory with finite gauge group_ ([arXiv](http://de.arxiv.org/abs/hep-th/9111004))
 
-More conceptual clarifications were given in
+A review is given on p. 68 of
 
-* Simon Willerton, _Drinfeld double via gerbes and finite groupoids_
+* [[Bruce Bartlett]], _Categorical aspects of topological quantum field theory_ ([arXiv](http://de.arxiv.org/abs/math.QA/0512103))
+
+Further conceptual clarifications were established in
+
+* Simon Willerton, _The twisted Drinfeld double of a finite group via gerbes and finite groupoids_ ([arXiv](http://arxiv.org/abs/math.QA/0503266))
 
 Recently there have been attempts to understand the structure here more systematically:
 
 Section 3 of
 
-* Freed-Hopkins-Lurie-Teleman,...
+* Dan Freed, Mike Hopkins, [[Jacob Lurie]], Constantin Teleman, _Topological Quantum Field Theories from Compact Lie Groups_ ([arXiv](http://arxiv.org/abs/0905.0731))
 
-For $n=1$ it is shown in
+proposes a general abstract nonsense way to construct [[path integral]] quantizations for finite group theories such as DW.
+
+In a similar vein, so far for $n=1$ it is shown in
 
 * [[Johan Alm]], [[Quantization as a Kan Extension]]
 
 that the quantization procedure for DW theory is nothing but the Kan extension of the background field from target space down to parameter space. 
+
+An description of extended DW theory as the systematic pull-push quantization induced by a generalized [[schreiber:Differential Nonabelian Cohomology|differential cocycle]] is proposed at
+
+* [[schreiber:Nonabelian cocycles and their sigma model QFTs]]
+
+There in particular a first-principle derivation of the fact that extended DW theory assigns the representation category of the Drinfeld double to the circle is given (following Willerton, but deriving his construction from still more fundamental abstract nonsense).
