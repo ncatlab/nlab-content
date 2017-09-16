@@ -87,6 +87,10 @@ But of course you are right to "prefer" sieves in a way: they are the explicit h
 The situation seems to be this: 'subobject' refers to an isomorphism class of monomorphisms. But probably most people think of isomorphism classes (or equivalence classes generally) as another layer of abstraction they would prefer to do without when they can; they would rather deal with concrete elements, picking out a distinguished representative of the class and working directly with that (for example, think of how we multiply in $\mathbb{Z}_{13}$ or something). So, instead of "isomorphism class of injective functions", they go straight to the actual subset inclusion in the class -- the 'image' as Bruce said -- as the distinguished element they want to get their hands on, formulated in the good old-fashioned language of naive sets and elements we grew up with, not this newfangled subobject nonsense. 
 
 Since presheaves $Set^{C^{op}}$ and sheaves are based on sets to begin with, we have that! So here there is no harm whatsoever in defining subfunctor in this concrete way, as an arrow $F \subseteq G$ whose components $F(c) \subseteq G(c)$ are literal subset inclusions. That's how I always picture these things myself, and it gives the notion of sieve straightaway, in a tight conceptual package. 
+
+_Toby_:  Funny *I* don\'t think of a subobject as a class of monomorphisms; I think of it as an individual monomorphism.  And yet, I don\'t pick a distinguished representative either!  Instead, I just remember that sometimes two subobjects are equal.
+
+It\'s really no different in principle from thinking about objects.  I don\'t work with isomorphism classes of objects, and I don\'t work in skeleta either.  I just work with objects, and sometimes two objects are isomorphic.
 =--
 
 +-- {: .un_lemma}
