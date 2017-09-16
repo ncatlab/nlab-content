@@ -16,6 +16,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * added a paragraph to [[localization]] describing and emphasizing the point that lots of localizations one runs into in practice are [[reflective subcategory|reflective subcategories]] or actually [[geometric embedding|geometric embeddings]]. In particular [[Bousfield localization]] presents the corresponding [[reflective (infinity,1)-subcategory]]. I am still not really satisfied with the entry [[localization]], though, I am hoping we can eventually present the conceptual basis here more clearly. After all, the perspective on sheaves and sheafification in terms of localization/geometric embedding has been shown to be the workable road to $\infty$-stacks, which, as tradition has it, are well worth pursuing in general and on an $n$Lab in particular :-) It is curious that there seems to be a cultural divide in the literature here: the book by Kashiwara-Schapira for instance amplifies sheafification as localization, which paves the road for $\infty$-stacks presented by the [[model structure on simplicial presheaves]], while the book by MacLane-Moerdijk amplifies sheafification as geometric embedding, which paves the road for the simple definition of [[(infinity,1)-sheafification]]. Lurie's book effectively gives the unified perspective, which I think is worthwhile presenting very clearly here on the $n$Lab, since it is coceptually so simple and transparent and in practice so powerful. Over.
+
+  * added example to [[localization of a simplicial model category]]
+
   * added a little proposition to [[dependent product]] and a little example to [[geometric morphism]]
 
 *  [[Tim Porter|Tim]]: I have given a partial reply to [[Urs Schreiber|Urs]] question at [[homotopy coherent nerve]].
