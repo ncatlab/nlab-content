@@ -8,7 +8,7 @@
 {:toc}
 
 
-#Idea#
+##Idea
 
 The _Kan extension_ of a [[functor]]
 $F : C \to D$ with respect to a functor
