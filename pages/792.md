@@ -4,7 +4,7 @@ Recall that ( _geometric_ ) [[T-duality]] is an operation acting on tuples consi
 
 * a [[manifold]] $X$
   : with the structure of a principal torus bundle $T^n \to X \to X/T^n$
-* equipped with a [[gerbe]] 
+* equipped with an abelian $U(1)$-[[gerbe]] 
   : with connection
 * and possibly with elements in twisted K-theory
   : refined to elements in differential twisted K-theory
@@ -13,11 +13,8 @@ Recall that ( _geometric_ ) [[T-duality]] is an operation acting on tuples consi
 
 The idea of **topological T-duality** is to disregard the Riemannian metric. 
 
-While the idea of [[T-duality]] originates in [[string theory]], topological T-duality has become a field of study in pure mathematics in its own right. The formalization with the above data originates in _BunkeSchick05_ and _BunkeRumpfSchick08_.
+While the idea of [[T-duality]] originates in [[string theory]], topological T-duality has become a field of study in pure mathematics in its own right. The simplest version of topological T-duality, when $X$ is a principal circle bundle, was originally developed in Bouwknegt-Evslin-Mathai [hep-th/0306062](http://arxiv.org/abs/hep-th/0306062) and the torus bundle case was introduced in Bouwknegt-Hannabus-Mathai [hep-th/0312284](http://arxiv.org/abs/hep-th/0312284). In these papers the gerbe does not appear, but an integral 3-form, representing the Dixmier-Douady class of a gerbe does. Note that if the cohomology of $X$ has torsion in dimension three, not all gerbes will arise in this way. The formalization with the above data originates in _BunkeSchick05_ and _BunkeRumpfSchick08_.
 
-+--{: .query}
-[[David Roberts]]: Can we go so far as to quote Bouwknegt-Mathai-Evslin (arXiv:hep-th/0306062 circle bundle case) or Bouwknegt-Hannabus-Mathai (arXiv:hep-th/0312284 torus bundle case, before NC geometry version)? They do not explicitly have a gerbe as part of the data, but generate one from a given intergral 3-form. 
-=--
 
 In the language of [[bi-brane]]s a topological T-duality transformation is a bi-brane of a special kind between the two gerbes involved. The induced pull-push operation (in [[groupoidification]] and [[geometric function theory]]) on (sheaves of sections of, or K-classes of) (twisted) vector bundles is essentially the Fourier--Mukai transformation. More on the bi-brane interpretation of (topological and non-topological) T-duality is in _SarkissianSchweigert08_.
 
