@@ -39,11 +39,13 @@
 
 * [[model structure on simplicial sets|on simplicial sets]]
 
-* [[model structure on simplicial presheaves|on simplicial presheaves]]
-
 * [[global model structures on functor categories|on functor categories (global)]]
 
   * [[Reedy model structure]]
+
+* [[model structure on homotopical presheaves]]
+
+  * [[model structure on simplicial presheaves|on simplicial presheaves]]
 
 * [[model structure on chain complexes|on chain complexes]]
 
