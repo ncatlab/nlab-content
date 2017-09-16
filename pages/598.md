@@ -2,7 +2,7 @@
  A **simplicial group**, $G$, is a [[simplicial object]] in the category of groups.
 
 #Notation# 
-The category of simplicial groups is the category of functors from $\Delta^{op}$ to $Grp$.  It will be denoted $SimpGrp$
+The category of simplicial groups is the category of functors from $\Delta^{op}$ to [[Grp]].  It will be denoted $\Simp\Grp$.
 
 #Discussion#
 * Clearly, as any group has an underlying set, a simplicial group has an underlying [[simplicial set]]. The underlying simplicial set of a simplicial group is a [[Kan complex]]. In fact, it is better than a Kan complex as there is an algorithm that gives the fillers for a given [[horn]]:
