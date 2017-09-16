@@ -22,7 +22,7 @@ For that reason extended QFT is also sometimes called **local** or **localized**
 
 The definition of a $j$-cobordism is recursive. A $(j+1)$-cobordism between $j$-cobordisms is a [[compact space|compact]] [[orientation|oriented]] $(j+1)$-dimensional [[smooth manifold]] with corners whose the boundary is the [[disjoint union]] of the target $j$-cobordism and the orientation reversal of the source $j$-cobordism.  (The base case of the recursion is the [[empty set]], thought of as a $(-1)$-dimensional manifold.)
 
-$n Cob_m$ is an $n$-category with smooth compact oriented $n$-manifolds as objects and cobordisms of cobordisms up to $m$-cobordisms, up to diffeomorphism, as morphisms.
+$n Cob_d$ is an $n$-category with smooth compact oriented $(d-n)$-manifolds as objects and cobordisms of cobordisms up to $n$-cobordisms, up to diffeomorphism, as morphisms.
 
 There are various suggestions with more or less detail for a precise definition of a higher category $n Cob_n$ of fully extended $n$-dimensional cobordisms. 
 
@@ -35,17 +35,17 @@ See
 
 #Definition#
 
-Fix a [[base ring]] $R$, and let $C$ be a [[symmetric monoidal category|symmetric monoidal]] $n$-category.
+Fix a [[base ring]] $R$, and let $C$ be the [[symmetric monoidal category|symmetric monoidal]] $n$-category of $n$-$R$-modules.
 
-An $m$-extended $C$-valued TQFT of dimension $n$ is a symmetric $n$-tensor functor $Z: n Cob_m \rightarrow C$ that maps
-* smooth compact oriented $n$-manifolds to elements of $R$
-* smooth compact oriented $(n-1)$-manifolds to $R$-modules
-* cobordisms of smooth compact oriented $(n-1)$-manifolds to $R$-linear maps between $R$-modules
-* smooth compact oriented $(n-2)$-manifolds to $R$-linear [[additive categories]]
-* cobordisms of smooth compact oriented $(n-2)$-manifolds to functors between $R$-linear categories
+An $n$-extended $C$-valued TQFT of dimension $d$ is a symmetric $n$-tensor functor $Z: n Cob_d \rightarrow C$ that maps
+* smooth compact oriented $d$-manifolds to elements of $R$
+* smooth compact oriented $(d-1)$-manifolds to $R$-modules
+* cobordisms of smooth compact oriented $(d-1)$-manifolds to $R$-linear maps between $R$-modules
+* smooth compact oriented $(d-2)$-manifolds to $R$-linear [[additive categories]]
+* cobordisms of smooth compact oriented $(d-2)$-manifolds to functors between $R$-linear categories
 * etc ...
-* smooth compact oriented $0$-manifolds to $R$-linear $(m-2)$-categories
-* cobordisms of smooth compact oriented $0$-manifolds to $(m-2)$-functors between $R$-linear $(m-2)$-categories
+* smooth compact oriented $(d-n)$-manifolds to $R$-linear $(n-1)$-categories
+* cobordisms of smooth compact oriented $(d-n)$-manifolds to $(n-1)$-functors between $R$-linear $(n-1)$-categories
 
 +-- {: .query}
 I changed references to bordism here into references to [[cobordisms]], since there\'s also a notion of bordism (a back-formation) as dual to cobordism, which is not what we want.  (Also Wikipedia implies that 'bordism' is a mass noun while 'cobordism' is a count noun, and these are count nouns, for what that\'s worth.)  ---Toby
@@ -53,17 +53,20 @@ I changed references to bordism here into references to [[cobordisms]], since th
 
 with compatibility conditions and gluing formulas that must be satisfied ...
 
-Here $m$ can range between $2$ and $n+1$.
+Here $n$ can range between $0$ and $d$.
 
-This suggests that one can see ETQFTs as $C$-valued representations of $n Cob_m$.
+This suggests that one can see ETQFTs as $C$-valued representations of $n Cob_d$.
 
 +-- {: .query}
 _Rafael_: I obviously used a linear category in the definition as C instead of a general C. Do anyone know how to generalize it? Neither do i know the compatibility conditions and gluing formulas, any good explicit references?
 =--
 
 +-- {: .query}
-Domonico Fiorenza has [a question about this definition](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=468) on the Forum.
+Domenico Fiorenza has [a question about this definition](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=468) on the Forum.
+
+_Domenico_: I edited the definition above accordingly with the suggestion in the Forum.
 =--
+
 
 #Examples#
 
