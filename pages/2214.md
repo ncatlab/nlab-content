@@ -26,6 +26,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-02
 
+* [[Urs Schreiber]]
+
+  * added links back and forth between the new [[extended topological quantum field theory]] and the old [[FQFT]] -- notice that there is a bit of overlap, we may want to rearrange material eventually over these two entries.
+
+  * replied at [[category theory]] (down in the query box at the bottom)
+
 * [[Jon Awbrey]] added a stub and a few links on the subject of [[inquiry]].
 
 ## 2009-09-01
