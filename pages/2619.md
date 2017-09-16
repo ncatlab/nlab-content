@@ -35,6 +35,6 @@ If homming out of a tiny object even has a [[right adjoint]] and hence preserves
 
   where now the last [[colimit]] is in [[Set]].
 
-In the context of [[Cauchy complete category|Cauchy completion]] of categories, every tiny object may be construed as a representable presheaf, provided that we change the site from a small category $C$ to its Cauchy completion or [[Karoubi envelope]] $\bar{C}$, which gives the same presheaves up to equivalence. 
+  In the context of [[Cauchy complete category|Cauchy completion]] of categories, every tiny object may be construed as a representable presheaf, provided that we change the site from a small category $C$ to its Cauchy completion or [[Karoubi envelope]] $\bar{C}$, which gives the same presheaves up to equivalence. 
 
 [[!redirects small-projective object]]
