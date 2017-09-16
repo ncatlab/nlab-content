@@ -9,7 +9,7 @@ Classically, a **Schur functor** is a specific sort of [[functor]]
 
 $$F: FinVect_{\mathbb{C}} \to FinVect_{\mathbb{C}}$$ 
 
-on the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor of this sort that is algebraic on homsets: the homsets are vector spaces, so one can demand that for any pair of objects $V, W \in FinVect_{\mathbb{C}}$ the functor
+on the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor of this sort that is algebraic on homsets: the homsets are vector spaces, and we demand that for any pair of objects $V, W \in FinVect_{\mathbb{C}}$ the functor
 
 $$ F: hom(V,W) \to hom(F V , F W) $$
 
@@ -57,7 +57,7 @@ Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. 
 I wimped out and chose rational vector spaces as the base of enrichment. For one thing, the blog commentary seems to suggest that there are delicate issues in nonzero characteristic. Even in cases where there is no integer torsion, it seems to me that integer divisibility makes certain things come out a lot more cleanly, and (if I am not mistaken) means that certain finite cocompleteness conditions can be relaxed in favor of Cauchy completeness (in the enriched category sense of Lawvere). More on this later. 
 
 [[John Baez]]: You're right that there are special tricky endofunctors 
-$$ F: FinVect_{\mathbb{C}} \to FinVect_{k} $$
+$$ F: FinVect_{k} \to FinVect_{k} $$
 that can be defined only when $k$ has characteristic $p$.
 So, using categories enriched over $Vect_k$ with $k$ having characteristic zero is probably a wise idea, at least for starters.  But I'm really hoping that we can drop that in the more sophisticated approach where we work with all symmetric monoidal abelian categories simultaneously and demand pseudonaturality.  I'm hoping this will 'wash out' the tricky functors that only work in characteristic $p$, leaving us with just the Schur functors we know and love.  
 
@@ -65,37 +65,28 @@ So, using categories enriched over $Vect_k$ with $k$ having characteristic zero 
 
 Recall that the [[group algebra]] $\mathbb{Q}[S_n]$ decomposes as a direct sum 
 
-$$\sum_{\lambda} V_{\lambda}$$ 
+$$\bigoplus_{\lambda} V_{\lambda}$$ 
 
-where $\lambda$ ranges over isomorphism classes of [[partition]]s of a set of size $n$, also known as [[Young diagram]]s, and $V_\lambda$ represents the isomorphism class of irreducible $S_n$-representations attached to $\lambda$.  
+where $\lambda$ ranges over $n$-box [[Young tableaux]], and $V_\lambda$ represents the irreducible subrepresentation attached to $\lambda$.  
 
-This group algebra lives as a [[monoid]] in the symmetric monoidal category of finite-dimensional rational spaces $Vect_{fd}$. If $Sk$ is the skeleton of $Vect_{fd}$ consisting of the finite coproducts $\mathbb{Q}^n$, then there is an evident linear functor 
+This group algebra lives as a [[monoid]] in the symmetric monoidal category of finite-dimensional rational spaces $FinVect_{\mathbb{Q}}$. If $Sk$ is the skeleton of $Vect_{fd}$ consisting of the finite coproducts $\mathbb{Q}^n$, then there is an evident linear functor 
 
 $$Sk \to C: \mathbb{Q}^n \mapsto I^n$$ 
 
 where $I^n$ is the $n$-fold coproduct of the monoidal unit $I$ of $C$. By left Kan extension along the inclusion $Sk \hookrightarrow Vect_{fd}$, we therefore obtain a canonical [[change of base]] functor 
 
-$$i: Vect_{fd} \to C$$ 
+$$i: FinVect_{\mathbb{Q}} \to C$$ 
 
 which is in fact [[symmetric monoidal functor|symmetric monoidal]]. This means the change of base maps the group algebra $\mathbb{Q}[S_n]$ to a monoid in $C$, again denoted $\mathbb{Q}[S_n]$ by abuse of notation, and it maps each of the irreducible representations $V_\lambda$ to a corresponding module over the monoid $\mathbb{Q}[S_n]$ in $C$, which we again denote by $V_\lambda$. 
 
-If $X$ is an object of $C$, the symmetric group [[action]] 
-
-$$S_n \to hom(X^{\otimes n}, X^{\otimes n})$$ 
-
-in $Set$ induces an action 
-
-$$\mathbb{Q}[S_n] \otimes X^{\otimes n} \to X^{\otimes n}$$ 
-
-in $C$. Thus $\mathbb{Q}[S_n]$ acts diagonally on the object 
+If $X$ is an object of $C$, the symmetric group $S_n$ has a
+representation on $X^{\otimes n}$.  It thus has a representation 
 
 $$V_\lambda \otimes X^{\otimes n}$$ 
 
-and we define $S_\lambda(X)$ to be the object of $S_n$-invariants of $V_{\lambda} \otimes X^{\otimes n}$, or equivalently as the image 
+and we define $S_\lambda(X)$ to be the object of $S_n$-coinvariants of $V_{\lambda} \otimes X^{\otimes n}$:
 
-$$(\sum_{g \in S_n} g)(V_\lambda \otimes X^{\otimes n})$$ 
-
-where the operator $\sum g$ is a scalar multiple of a projection operator. 
+$$S_\lambda(X) = V_{\lambda} \otimes X^{\otimes n} / S_n$$
 
 This construction of $S_\lambda(X)$ defines the **Schur functor** $S_\lambda$ on $C$. 
 
@@ -106,7 +97,7 @@ It would actually feel more natural to me to speak of the object of coinvariants
 $$e_X = \frac1{n!} \sum_{g \in S_n} g: V_\lambda \otimes X^{\otimes n} \to V_\lambda \otimes X^{\otimes n}$$ 
 which can be viewed either as invariants (equalizer of $e$ and the identity) or coinvariants (coequalizer of $e$ and the identity). 
 
-[[John Baez]]: we need to use coinvariants when we get to  the more sophisticated approach where our constructions are supposed to preserved by <i>right exact</i> functors.  Also, coinvariants work even in characteristic $p$, while invariants involve dividing by $n!$.  So, coinvariants rule.
+[[John Baez]]: we need to use coinvariants when we get to  the more sophisticated approach where our constructions are supposed to preserved by <i>right exact</i> functors.  Also, coinvariants work even in characteristic $p$, while invariants involve dividing by $n!$.  So, coinvariants rule, and I've switched to working with them above.  Also, following Jamie Vicary's correction, I've switched to using Young tableaux instead of Young diagrams: for each Young diagram there are many isomorphic Schur functors, one for each Young tableau of that shape. 
 
 =-- 
 
@@ -128,4 +119,4 @@ As we have just seen, Schur functors such as the $S_\lambda$ makes sense in pret
 
 The general idea is that Schur functors such as the $S_\lambda$ defined above on individual categories commute with suitable change-of-base functors between these categories. This commutation expresses a kind of naturality, for which we would like a clean and high-level description. 
 
-_To be continued... I have some questions that I'll put to patrons of the Cafe._ 
+_To be continued... 
