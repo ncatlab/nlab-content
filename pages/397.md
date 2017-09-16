@@ -88,6 +88,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Patrick Schultz]]
 * [[Peter Arndt]]
 * [[Peter LeFanu Lumsdaine]]
+* [[Peter Selinger]]
 * [[Rafael Borowiecki]]
 * [[Rasmus Bentmann]]
 * [[Reid Barton]]
