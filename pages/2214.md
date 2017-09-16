@@ -27,6 +27,17 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-16
 
+* [[Urs Schreiber]] expanded [[mathematicscontents]] and rearranged a bit -- notably I added [[category theory]], [[higher category theory]], [[topos theory]] and [[higher topos theory]] (the lower case version!) which clearly all deserve to be there. I added some entries to go as sub-entries under [[higher topos theory]] mainly to balance that [[topos theory]] has its natural sub-entries there, but maybe debateable. Then I moved [[homotopy theory]] and its special case [[stable homotopy theory]] from the "Geometry" bit up to the "Structural Foundations" bit, as that seems to better capture it (anything that cares about things only up to homotopy is not geometry nor even really topology, but is higher category theory in disguise). By this logic, also [[rational homotopy theory]] belongs there, so I moved it up.
+
+
+* [[Urs Schreiber]]: worked on [[HomePage]]:
+
+  * added the floating tables of contents for math, physics and philosophy. They are sitting there now to the left of the $n$Lab-contents. I am thinking that here on the HomePage this is a good thing. Besides the introductory text we keep there, we want to make sure that the reader's attention is directed to tables of contents. I have heard of people who were pointed to the nLab, went to the HomePage for a minute and came back with the impression that there is nothing much to be found on the lab. While no table of contents can give an accurate impression of the full scope of the lab, the ideal would be that our main three top-level contents (math, physics, philosophy) will indicate the scope of topics and lure the reader further into the labyrinth. Optimally behind each of the links of the top-level toc the user finds another floating table of contents for the given sub-topic
+
+  * I edited the bit about the forum. With Andrew getting ready to make "latest changes" be on the discussion forum, the old material saying that the forum is just for meta-discussion is outdated.
+
+  * I included a link to the forum discussion on what the nLab's scope is. As long as noone finds the time to wrap things up, this ongoing discussion is probably the best idea that we can offer as to what we think the nLab is or might be.
+
 * [[Jon Awbrey]] added articles or began content development at [[differential logic]], [[differential propositional calculus]], and [[universe of discourse]].
 
 * [[Urs Schreiber]]: wrote a long bit at [[higher category theory]]. Rearranged some existing material in the process.
