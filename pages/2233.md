@@ -49,7 +49,16 @@ C=$nMod(R)$, the (conjectured?) category of n-dimensional $R$-modules.
 
 See [[cobordism hypothesis]].
 
+#Related entries#
+
+More on extended QFTs is also at 
+
+* [[FQFT]]
+
 +-- {: .query}
 _Rafael_: I am very tired because it is very late.
 Please check and expand this page, i am not counting very good with my eyes half closed neither am i an expert on ETQFT.
+
+[[Urs Schreiber]]: notice that I had a bit on extended QFT over at [[FQFT]]. Maybe some of the material needs to be merged. i have now at least added links back and forth.
+
 =--
