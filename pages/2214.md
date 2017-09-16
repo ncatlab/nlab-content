@@ -52,7 +52,11 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-20
 
-* [[Urs Schreiber]]: added the promised blurb to [[directed space]] under "homotopy theoretic perspective" that is supposed to indicate the idea of the relation to [[(n,r)-category]] without misleadingly sounding as if there were nothing left to do here. Check!
+* [[Urs Schreiber]]: 
+
+  * created [[modular form]], but this needs more attention
+
+  * added the promised blurb to [[directed space]] under "homotopy theoretic perspective" that is supposed to indicate the idea of the relation to [[(n,r)-category]] without misleadingly sounding as if there were nothing left to do here. Check!
 
   I also added links to Grandis' new book on [[Directed Algebraic Topology]] to [[directed space]] and to [[directed homotopy theory]]. Since I haven't had a chance to look at that book yet, I have a question at [[directed space]] about its content.
 
