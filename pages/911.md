@@ -2,6 +2,12 @@
 
 For $F : C^{op} \to Set$ a [[presheaf]], we may think of $Set$ as the [[classifying space]] of "[[Set]]-bundles;" see [[generalized universal bundle]].  The category of elements of $F$ is, in this sense, the [[Set]]-bundle classified by $F$.  It comes equipped with a projection to $C$ which is a [[Grothendieck fibration|discrete fibration]], and provides an equivalence between presheaves and discrete fibrations.
 
+Forming a category of elements can be thought of as "unpacking" a [[concrete category]]. For example, consider a concrete category $C$ consisting of two objects $X,Y$ and two non-trivial morphisms $f,g$
+
+[[explode.jpg|Exploding a Category:pic]]
+
+The individual elements of $X,Y$ are "unpacked" and become objects of the new category. The "unpacked" morphisms are inherited in the obvious way from morphisms of $C$.
+
 The analogue of the category of elements for functors landing in $Cat$, rather than $Set$, is called the [[Grothendieck construction]].
 
 
