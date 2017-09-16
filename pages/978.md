@@ -1,1 +1,1 @@
-[[paracyclic object|Paracyclic object]] in the category of sets.
+A __paracyclic set__ is a [[paracyclic object]] in the [[Set]].
