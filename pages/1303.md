@@ -1,2 +1,6 @@
-A __ringed space__ is a pair $(X,O_X)$ where $X$ is a topological space and $O_X$ is a sheaf of rings. A __morphism of ringed spaces__ $(f,f^\sharp):(X,O_X)\to (Y,O_Y)$ is a pair
-where $f:X\to Y$ is a continuous map and the __comorphism__ $f^\sharp : O_Y\to f_* O_X$ is a morphism of sheaves of rings over $Y$. Here $f_*$ denotes the direct image functor for sheaves. 
+A __ringed space__ is a pair $(X,O_X)$ where $X$ is a [[topological space]] and $O_X$ is a [[sheaf]] of rings. A __morphism of ringed spaces__ $(f,f^\sharp):(X,O_X)\to (Y,O_Y)$ is a pair
+where $f:X\to Y$ is a continuous map and the __comorphism__ $f^\sharp : O_Y\to f_* O_X$ is a morphism of [[sheaf|sheaves]] of rings over $Y$. Here $f_*$ denotes the [[direct image]] [[functor]] for [[sheaf|sheaves]]. 
+
+#Remarks#
+
+* A ringed space is a special case of a [[ringed site]].
