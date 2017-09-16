@@ -38,6 +38,18 @@ $$K: Y\times I \to Y,   K : f \circ g \sim 1_Y.$$
 The [[whiskering]] actions of maps on homotopies (and more generally in any [[(∞,1)-category]] or category with a [[cylinder functor]]) gives
 two homotopies $f\circ g \circ f \sim f$, namely $f_*H = f\circ H : X\times I \to Y$ and $f^*K = K\circ (f\times I)$.  Similarly, of course, there are two homotopies $g\circ f \circ g \sim g$, namely $g_*K$ and $g^*H$.  In the usual definition of homotopy equivalence, there is no coherence required between these. That is handled precisely by the notion of **stong homotopy equivalence**. More precisely Lashof defined
 
-
+###Definition### 
  
+A **strong homotopy equivalence** between spaces $X$ and $Y$ is a quadruple $(f,g,H,K)$,
+as above, such that $f_*H \sim f^*K$ and $g_*K\sim g^*H$.
+
+
+Thus this imposes a minimal coherence condition on the data making up the homotopy equivalence.
+
+The question naturally arises as to whether all homotopy equivalences are strong. [[Rainer Vogt]](1972) proved
+
+###Vogt's lemma###
+If $f: X\to Y$ be a morphism that is a homotopy equivalence, let $g: Y\to X$ be a homotopy inverse and $H:g \circ f \sim 1_X$ a homotopy, then there is a homotopy $K: f \circ g \sim 1_Y$ such that $(f,g,H,K)$ is a strong homotopy equivalence.
+
+
 [[!redirects homotopy equivalences]]
