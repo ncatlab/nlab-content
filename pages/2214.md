@@ -51,6 +51,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-27
 
+*  [[Jon Awbrey]] added a potentially enlightening quote from Hilbert and Ackermann to [[precursors]].  Better lights might be thrown by the original German and the first edition, as all I had on hand was the English translation of the second edition.
+
 *  [[Toby Bartels]]:
    *  Maybe it\'s just my font choices (DejaVu all the way!), but the TOC at [[generalized scheme]] looks perfectly normal to me.
    *  Comments at [[choice operator]] and [[SEAR]].
