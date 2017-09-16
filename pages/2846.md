@@ -1,15 +1,15 @@
 # Definition
 
-In [[model theory]], an **elementary embedding** is an injection that preserves and reflects all first-order logic.  That is, it is an injection $f\colon M\to N$ such that for any formula $\varphi$ and parameters $a_1,\dots,a_n\in M$, we have
+In [[model theory]], an **elementary embedding** is an [[injection]] that preserves and reflects all first-order logic.  That is, it is an injection $f\colon M\to N$ such that for any formula $\varphi$ and parameters $a_1,\dots,a_n\in M$, we have
 $$ M \vDash \varphi(a_1,\dots,a_n) \iff N \vDash \varphi(f(a_1),\dots, f(a_n)). $$
-If $f$ is the inclusion of a [[subset]], we say that $M$ is an **elementary substructure** of $N$.
+If $f$ is (interpreted as) the inclusion of a [[subset]], we say that $M$ is an **elementary substructure** of $N$.
 
 
 # In material set theory
 
 Elementary embeddings play an important role in the study of [[large cardinals]] in (material) [[set theory]].
 
-For instance, the existence of a [[measurable cardinal]] is equivalent to the existence of an elementary embedding $j\colon V\to M$, where $V$ is the universe of sets and $M$ is some [[transitive set|transitive]] model of [[ZF]] (other than the identity $V\to V$).  If $\kappa$ is a measurable cardinal with a countably-complete [[ultrafilter]] $\mathcal{U}$, we can form the [[ultrapower]] $V^{\mathcal{U}}$ and then take its [[transitive collapse]] to produce $M$.  (Countable completeness of $\mathcal{U}$ is necessary for $V^{\mathcal{U}}$ to be well-founded and thus have a transitive collapse.)
+For instance, the existence of a [[measurable cardinal]] is equivalent to the existence of a non-[[surjection|surjective]] elementary embedding $j\colon V\to M$, where $V$ is the universe of sets and $M$ is some [[transitive set|transitive]] model of [[ZF]].  If $\kappa$ is a measurable cardinal with a countably-complete [[ultrafilter]] $\mathcal{U}$, we can form the [[ultrapower]] $V^{\mathcal{U}}$ and then take its [[transitive collapse]] to produce $M$.  (Countable completeness of $\mathcal{U}$ is necessary for $V^{\mathcal{U}}$ to be well-founded and thus have a transitive collapse.)
 
 Conversely, if $j\colon V\to M$ is a nontrivial elementary embedding, it must have a *critical point*, i.e. a least ordinal $\kappa$ such that $j(\kappa)\neq \kappa$.  It follows that $j(\kappa)$ is some [[ordinal]] $\gt \kappa$, so in particular $\kappa\in j(\kappa)$ (using the von Neumann definition of ordinals).  Define $\mathcal{U}\subset P(\kappa)$ by $A\in \mathcal{U}$ iff $\kappa\in j(A)$; then $\mathcal{U}$ is a $\kappa$-complete ultrafilter on $\kappa$.
 
@@ -25,7 +25,7 @@ The structural meaning of elementary embeddings seems not to be well-explored.
 
 # Inconsistency
 
-The "ultimate" closure property, hence the "strongest" large cardinal axiom, would be having an elementary embedding $j\colon V\to V$ (i.e. $M$ is all of $V$).  Sometimes the critical point of such an embedding, if one exists, is called a *Reinhardt cardinal*.  However, having such an e.e. turns out to be inconsistent...sort of.
+The "ultimate" closure property, hence the "strongest" large cardinal axiom, would be having a nontrivial elementary embedding $j\colon V\to V$ (i.e. $M$ is all of $V$).  Sometimes the critical point of such an embedding, if one exists, is called a *Reinhardt cardinal*.  However, having such an e.e. turns out to be inconsistent...sort of.
 
 The technicality is that because any e.e. $V\to V$ is a [[proper class]], the proposition "there does not exist an e.e. $V\to V$" cannot be stated in ZF (one cannot quantify over proper classes).  What we can prove is the following meta-theorem (one instance per formula $\varphi(x,y)$ that might define an e.e.).
 
