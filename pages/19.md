@@ -350,6 +350,13 @@ Todd, i have been thinking from time to time about what you wrote. I can't remem
 I changed my mind and moved some of the other structures in category theory on this page. After thinking that n-categories reduce to categories (for all n) when the higher cell are trivial. But i am still not sure about pseudocategories. Do they reduce as a special case to categories or internal categories?
 
 I also deleted the beginning of this discussion to not hog some browsers. The page is now less than half as heavy and the beginning is in the history.
+
+_Todd_: Rafael, the nerve functor embeds $Cat$ as a full subcategory of simplicial sets; not every simplicial set arises (up to isomorphism) as the nerve of a category. Those simplicial sets $X: \Delta^{op} \to Set$ that do can be characterized in terms of a property taking certain colimits in $\Delta$ to certain limits in $Set$; I don't feel like spelling this out now, but perhaps later I'll check if anyone has written it down in nLab, and if not I'll see about writing it up myself. The result was first observed by Grothendieck I think. 
+
+So anyway, $Cat$ is not equivalent to simplicial sets, so there is no functor going the other way which is exactly inverse. There is however a left adjoint $F: Set^{\Delta^{op}} \to Cat$ to the nerve functor, which builds a category out of the data of a simplicial set, in which objects are 0-simplexes, morphisms are 1-simplexes (or formal composites of 1-simplexes), and $n$-simplexes for $n \geq 2$ force various equalities between morphisms by interpreting 2-simplexes as commutative triangles, 3-simplexes as commutative tetrahedra, and so on. If this is called the "categorization" of a simplicial set, then the categorization of the nerve of a category gives back the category up to isomorphism (the counit of the adjunction $F \dashv N$ is an isomorphism), but needless to say at this point, the nerve of the categorization of a simplicial set need not give back the simplicial set (up to isomorphism). I imagine a lot of this has been written up in nLab, under [[nerve]] maybe, where the categorization $F$ is formally constructed in terms of coends. 
+
+As for extending this correspondence to embrace other properties/structures/stuff one can put on categories, I've not thought about examples of that sort of thing in detail, but anything not actually [[evil]] in the technical sense can in principle be transported across the equivalence between categories and those certain simplicial sets. 
+
 =--
 
 +--{.query}
