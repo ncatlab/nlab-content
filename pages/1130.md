@@ -3,9 +3,43 @@
 </div>
 
 
-##Differential graded coalgebras
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-A _pre-graded coalgebra_ (pre-gc), $(C,\Delta, \varepsilon)$, is a [[graded vector space|pre-gvs]] $C$ together with linear maps of degree 0
+
+
+
+
+
+
+
+## Definition
+
+### Abstract definition
+
+A _dg-coalgebra_ is a [[comonoid]] in the [[category]] of [[chain complex]]es.
+
+Equivalently, this is a graded [[coalgebra]] $C$ equipped with a [[coderivation]]
+
+$$
+  D : C \to C
+$$
+
+that is of degree -1 and squares to 0, 
+
+$$
+  D^2 = 0 
+  \,.
+$$
+
+
+### Detailed component definition
+
+
+#### Pre-coalgebra
+
+ A _pre-graded coalgebra_ (pre-gc), $(C,\Delta, \varepsilon)$, is a [[graded vector space|pre-gvs]] $C$ together with linear maps of degree 0
 
 $$\Delta: C\to C\otimes C,    \varepsilon : C\to k,$$
 
@@ -21,7 +55,7 @@ $$(\psi \otimes \psi)\circ \Delta = \Delta' \circ \psi   and    \varepsilon = \v
 The linear counit mapping $\varepsilon :C \to k$ is always a morphism of pre-gcs.
 
 
-##Coaugmentations
+#### Coaugmentations
 
 A _coaugmentation_ of a pre-gc is a morphism $\eta : k \to C$.  We will write $1$ for $\eta(1)$.  
 
@@ -33,14 +67,14 @@ A morphism of coaugmented pre-gcs, $\psi : (C,\eta)\to (C',\eta')$, is a morphis
 
 
 
-##The commutation morphism
+#### The commutation morphism
 
 Let $V$ and $V'$ be two pre-gvs.  The commutation morphism 
 $$\tau : V\otimes V' \to V'\otimes V$$
 is defined by $\tau( v\otimes v') = (-1)^{|v||v'|} v'\otimes v$, on homogeneous elements.
 
 
-##Tensor product of pre-gcs.
+#### Tensor product of pre-gcs.
 
 Let $(C,\Delta, \varepsilon)$ and $(C',\Delta', \varepsilon')$ be two pre-graded coalgebras.  The mappings
 $$C\otimes C'\stackrel{\Delta\otimes \Delta'}{\to}C\otimes C\otimes C'  \otimes C'\stackrel{C\otimes \tau \otimes C}{\to}(C\otimes C')\otimes (C\otimes C')$$
@@ -55,7 +89,7 @@ If $\eta$ and $\eta'$ are coaugmentations of $C$ and $C'$ respectively, then $\e
 
 
 
-##Coderivations of pre-graded coalgebras
+#### Coderivations of pre-graded coalgebras
 
 +--{: .query}
 [[Tim Porter|Tim]]: These are called derivations by some sources, but I think that they are the coderivations of other workers. (to be checked)
@@ -69,8 +103,9 @@ A coderivation $\theta$ of a coaugmented pre-gc $(C,\eta)$ is a coderivation of 
 
 
 
-##Differential graded coalgebras.
- A _differential_ $\partial$ on a (coaugmented) pre-gc, $C$, is a coderivation of degree -1 such that $\partial\circ\partial = 0$.
+#### Differential graded coalgebras
+
+A _differential_ $\partial$ on a (coaugmented) pre-gc, $C$, is a coderivation of degree -1 such that $\partial\circ\partial = 0$.
 
 The pair, $(C, \partial)$ is called a _differential (coaugmented) pre-graded coalgebra_ (pre-dgc).  Its homology $H(C,\partial)$ will be a pre-gc.
 
@@ -79,18 +114,18 @@ If $(C,\partial)$ and $(C',\partial')$ are two pre-dgcs, then their tensor produ
 A _morphism_ of (coaugmented) pre-dgcs is a morphism both of (coaugmented) pre-gcs and of pre-dgvs.  We denote the resulting categories by $pre DGC$ (resp. $pre \eta DGC$).
 
 
-##Cocommutative pre-dgcs.
+#### Cocommutative pre-dgcs
 
 A pre-gc $C$ is _cocommutative_ if $\tau\circ\Delta = \Delta$, similarly for a pre-dgc.  The subcategories of cocommutative d.g. coalgebras will be denoted $pre CDGC$ (resp. $pre \eta CDGC$).
 
 
-##CDGC
+#### CDGC
 
 A _cocommutative differential graded coalgebra_ is a pre-cdgc on a graded vector space of lower grading (so $C_p = 0$ for $p \lt 0$).  This gives categories $CDGC$ (resp. $\eta CDGC$).
 
 
 
-##$n$-connected $\eta$ cdgcs
+#### $n$-connected $\eta$ cdgcs
 
 A coaugmented cdgc $(C, \partial)$ is _$n$-connected_ if $\bar{C}_p = 0$ for $p\leq n$.  
 
@@ -98,7 +133,7 @@ This gives a category $CDGC_n$.  Any connected (i.e. $0$-connected) cdgc is cano
 
 
 
-##Hom-algebras and duals
+#### Hom-algebras and duals
 
 Let $(C,\partial)$ be a pre-cdgc and $(A,d)$ a pre-cdga.  The pre-dgvs $(Hom(C,A),D)$ is a pre-cdga for the usual differential and the multiplication $f.g = \mu\circ (f\otimes g)\circ \Delta$,
 $$ C\stackrel{\Delta}{\to}C\otimes C\stackrel{(f\otimes g)}{\to}A\otimes A\stackrel{\mu}{\to} A,$$
@@ -107,14 +142,15 @@ for $f,g \in Hom(C,A)$.
 
 In particular $\#(C,\partial)= (Hom(C,k),D)$  defines a functor from $pre CDGC$ to $pre CDGA$, which commutes with homology and is such that $\# CDGC_n \subseteq CDGA^n$.  Conversely, if $(A,d)$ is a pre-cdga of finite type, $\#(A,d)$ is a pre-cdgc. 
 
-##Coalgebra filtrations
+
+#### Coalgebra filtrations
 
 Let $(C,\partial)$ be a pre-dgc. A _coalgebra filtration_ (resp. _differential coalgebra filratation_) of $(C,\partial)$ is a family of subspaces $F_p C$, $p\in \mathbb{Z}$ such that 
 
 $$F_p C\subseteq F_{p+1} C, \quad \Delta F_p C \subseteq \sum_k F_k C\otimes F_{p-k} C, \quad (resp.\quad and \quad \partial F_p C\subseteq F_p C).$$
 
 
-##Filtrations of the primitives
+#### Filtrations of the primitives
 
 Let $(C,\eta)$ be a coaugmented pre-gc, $\bar{C}$ the cokernel of $\eta$, $\bar{\Delta}$, the reduced diagonal.
 
@@ -131,7 +167,7 @@ Let $\mu$ be the comultiplication of the pre-ga $\# C$, the dual of $C$.  Elemen
 Let $(C,\eta)$ be a coaugmented pre-gc and $F_p C$ the filtration of its primitives.  $C$ is _conilpotent_ if $C = \bigcup_k F_k C$.
 A connected coalgebra is conilpotent and conilpotency is preserved by tensor product.
 
-##The pre-gc structure on $T(V)$.
+#### The pre-gc structure on $T(V)$
 
 We will denote by $T'(V)$, the gvs $T(V)$, together with the coalgebra structure in which the reduced diagonal is given by 
 
@@ -143,7 +179,7 @@ The coalgebra $T' (V)$ is non-commutative if $dim V\gt 1$ and has $V$ as its vec
 
 If $C$ is a conilpotent pre-gc, then any morphism $f : C\to V$ of pre-gvs for which $f(1) = 0$, admits a unique lifting to a pre-gc morphism $\hat{f}:C \to T'(V)$.
 
-##Shuffles
+#### Shuffles
 
 A _$(p,q)$-[[shuffle]]_ $\sigma$ is a permutation of $\{1, \ldots, p+q\}$ such that 
 
@@ -154,7 +190,7 @@ $$\sigma(i) \lt \sigma(j) \quad if \quad 1\leq i\lt j\leq p \quad or \quad p+1 \
 =--
 
 
-##The pre-cgc structure on $\bigwedge V$.
+#### The pre-cgc structure on $\bigwedge V$
 
 We will denote $\bigwedge' V$, the gvs $\bigwedge V$ together with the coalgebra structure in which the reduced diagonal is given by 
 
@@ -179,4 +215,52 @@ $$F_p\bigwedge{\!}' V = \bigwedge^{\leq p}V = \bigoplus_{k\leq p}\bigwedge^k V;$
 $$F_p T'(V) = T^{\leq p}(V) = \bigoplus_{k\leq p} T^k(V).$$
 
 
+
+
+## Related concepts
+
+### Differential graded algebras
+
+Dually, a [[dg-algebra]] is a [[monoid]] in [[chain complex]]es.
+
+### Semifree dg-coalgebras and $L_\infty$-algebras 
+
+The notion of dg-coalgebra whose underlying [[coalgebra]] is cofree is related by duality to that of [[semifree dga]].
+
+Semicofree dg-coalgebras concentrated in negative degree and with differential of degree -1 are  the same as [[L-∞-algebras]]
+
+### Model category structure
+
+There is a [[model structure on dg-coalgebras]].
+
+
+## Properties
+
++-- {: .num_prop }
+###### Proposition
+
+Every dg-coalgebra is the [[filtered colimit]] of its finite-dimensional sub-dg-coalgebras.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is in
+
+* [[Ezra Getzler]], [[Paul Goerss]], _A model category structure for differential graded coalgebras_ ([ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps))
+
+
+=--
+
+
+
+
+
+
+
+
+
+
 [[!redirects differential graded coalgebras]]
+[[!redirects dg-coalgebra]]
