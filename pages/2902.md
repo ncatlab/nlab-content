@@ -77,7 +77,7 @@ While the construction above is straightforward, it's also possible to present a
 
 The diagram above is similar to one used in a common proof of Pythagoras's Theorem, but here we use it to establish the value of the square of the hypotenuse of a right triangle with sides $r$ and $t$, i.e. the hexagon edge and the decagon edge.
 
-The tilted square in the centre has a hypotenuse as its side.  Its area is $4b^2$, from the central pink square, plus $4t^2$, from the four multi-coloured $t\times t$ squares arranged around the central square, minus four times the area of the dark green triangle that needs to be excluded (the contributions from the yellow triangles inside and outside the region cancel out).  But the dark green triangle has both base and height of $2b$, so the total area is $4t^2-4b^2=(2s)^2$, the square of a pentagon edge.
+The large tilted square has a hypotenuse as its side.  Its area is $4b^2$, from the central pink square, plus $4t^2$, from the four multi-coloured $t\times t$ squares arranged around the central square, minus four times the area of the dark green triangle that needs to be excluded (the contributions from the yellow triangles inside and outside the region cancel out).  But each dark green triangle has both base and height of $2b$, and hence an area of $2b^2$, so the total area is $4t^2+4b^2-4\times 2b^2=4t^2-4b^2=(2s)^2$, the square of a pentagon edge.
 
 ##An identity in the golden ratio##
 
