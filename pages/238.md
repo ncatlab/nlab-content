@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-02-18
+
+* [[Mike Shulman|Mike]]:
+
+  * Created [[Euler characteristic]] in order to ask a question there.
+
 # 2009-02-17
 
 * [[Toby Bartels]]:
