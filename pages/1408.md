@@ -2,6 +2,19 @@
 
 A _structured generalized space_ is a generalization of a [[ringed space]] or rather of a [[ringed site]]: a generalized space equipped with a _structure [[sheaf]]_ taking values in generalized quantities. 
 
+At the bottom of it, a structured generalized space is a ($\infty$-)functor
+
+$$
+  X : S^{op}\times R \to V
+  \,,
+$$
+
+where
+
+* $V$ is the suitable enriching category, i.e. [[SSet]] for the full [[(infinity,1)-category|(infinity,1)-categorical]] version;
+
+* and for $U \in S$ and $C \in R$ the object $X(U,C)$ is to be thought of as the collection of morphisms from $U$ to $C$ that decompose into a morphism from $U$ into the generalized space and another morphism from that to $C$.
+
 Here the generalizaton is in the sense described at [[space and quantity]]:
 
 * _spaces_ modeled on test spaces in some category $S$ are [[presheaf|presheaves]] $X$ on $S$: $X(U)$ is the collection of probes of $X$ by $U \in S$.
