@@ -16,7 +16,7 @@ $$ \array{\sum c_{(1)}\otimes c_{(2)} \otimes c_{(3)} := \sum c_{(1)(1)}\otimes 
 Furthermore, we can extend it to coactions, e.g. $\rho:V\to V\otimes C$, by $\rho(v) = \sum v_{(0)}\otimes v_{(1)}$. Then we can use the coaction axiom $(id_V\otimes \Delta)\circ\rho = (\rho\otimes id_C)\circ \rho$ to write
 
 $$ \array{v_{(0)}\otimes v_{(1)} \otimes v_{(2)} := v_{(0)(0)}\otimes v_{(0)(1)} \otimes v_{(1)}\\
-v_{(0)}\otimes v_{(1)(0)}\otimes v_{(1)(1)},$$
+= v_{(0)}\otimes v_{(1)(0)}\otimes v_{(1)(1)},}$$
 
 where we used the *sumless* Sweedler notation.
-On big use is that the scalars like $\epsilon(a_{(3)}$ can be moved freely along the expression, what is difficult to write without calculating with Sweedler components: one needs lots of brackets and flio operators and this could be messy and abstract. 
+On big use is that the scalars like $\epsilon(a_{(3)})$ can be moved freely along the expression, what is difficult to write without calculating with Sweedler components: one needs lots of brackets and flio operators and this could be messy and abstract. 
