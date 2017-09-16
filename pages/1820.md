@@ -10,7 +10,32 @@
 
 ## Idea ##
 
-A _combinatorial model catgeory_ is a particularly convenient [[model category]] structure.
+A _combinatorial model catgeory_ is a particularly tractable [[model category]] structure. (Notice however that there is also the, closely related, technical notion of a [[tractable model category]]).
+
+Being combinatorial means that there is very strong control over the cofibrations in these model structures: there is a [[set]] (meaning small set, not proper [[class]]) of [[cofibrantly generated model category|generating (acyclic) cofibrations]], and all objects, in particular the domains and codomains of these cofibrations, are [[small object]]s.
+
+So as a slogan we have that
+
++-- {: .standout}
+
+ A combinatorial model structure is one that is generated from _small data_ : it is generated from a small set of (acyclic) cofibrations between small objects. 
+
+=--
+
+In fact, the combinatoriality condition is a bit stronger than that, as it requires even that _every_ object is small and is the colimit over a small set of generating objects. If one instead just has that the domains of the generating cofibrations are [[small object]]s, then we have a [[cellular model category]].
+
+There exist large classes of model categories that either are combinatorial or, if not, are [[Quillen equivalence|Quillen equivalent]] to ones that are. See the list of examples below.
+
+
+The relevance of combinatorial model categories is given more abstractly by the result that 
+
++-- {: .standout}
+
+[[combinatorial simplicial model category|Combinatorial simplicial model categories]] are precisely those model categories that model [[presentable (∞,1)-category|presentable (∞,1)-categories]].
+
+
+=--
+
 
 ## Definition ##
 
@@ -189,6 +214,8 @@ This are corollaries 2.7 and 2..8 in [Bar](http://www.math.harvard.edu/~clarkbar
 
 ## Properties ##
 
+### Homotopy colimits ###
+
 +-- {: .un_proposition }
 ###### Proposition
 
@@ -196,7 +223,7 @@ In a combinatorial model category, for every sufficiently large regular [[cardin
 
 * $\kappa$-[[filtered category|filtered]] [[colimit]]s preserve weak equivalences;
 
-* hence $\kappa$-[[filtered category|filtered]] [[colimit]]s are [[homotopy colimit]]s.
+* hence $\kappa$-[[filtered category|filtered]] [[colimit]]s are already [[homotopy colimit]]s.
 
 
 =--
@@ -278,44 +305,70 @@ Thereby $\lim_\to H \to \lim_\to G$ is in $rlp(I) \subset W$.
 
 =--
 
+### Bousfield localization ###
+
+Combinatorial model categories, lile [[cellular model category|cellular model categories]] have a good theory of [[Bousfield localization of model categories|Bousfield localizations]], at least if in addition they are left [[proper model category|proper]]. See [[Bousfield localization of model categories]] for more on this.
+
+## Examples ##
+
+### Basic examples ###
+
+Basic examples are
+
+* [[SSet]] both with the standard and with the Joyal-[[model structure on simplicial sets]]
+
+* the category of [[dendroidal set]]s with its [[model structure on dendroidal sets]]
+
+* the categories of $(n,r)$-[[Theta space]]s.
 
 
+### Derived examples ###
+
+Further classes of examples are obtained from such basic examples by localizing presheaf categories with values in these:
+
+* For $V$ a combinatorial model category and $C$ a [[small category]] the injective and projective [[global model structure on functors]] $Funct(C,V)_{inj}$ and $Funct(C,V)_{proj}$ are again combinatorial model categories. (e.g. [[Higher Topos Theory|HTT, prop. A.2.8.2]])
+
+* If $V$ is a left or right [[proper model category]] then so is $Funct(C,V)_{inj}$ and $Funct(C,V)_{proj}$ and hence the standard results of the theory of [[Bousfield localization of model categories]] applies, which ensures that all Bousfield localizations $L_S Funt(C,V)$ are again combinatorial model categories. Such local [[model structure on homotopical presheaves|local model structures on homotopical presheaves]] includes notably the local [[model structure on simplicial presheaves]].
 
 
-## Simplicial combinatorial model categories ##
-
-Of interest are the combinatorial model categories that are at the same time [[simplicial model categories]]. These are precisely those that present [[presentable (∞,1)-categories]].
-
-See [[combinatorial simplicial model category]].
-
-
-## Combinatorial model categories from cofibrantly generated ones ##
-
+### From cofibrantly generated model categories ###
 
 Not every [[cofibrantly generated model category]] is also a combinatorial model category. 
 
-For instance the standard [[model structure on topological spaces]] is cofibrantly generated, but not combinatorial. But it is [[Quillen equivalence|Quillen equivalent]] to a combinatorial model structure, namely to the standard [[model structure on simplicial sets]].
+For instance 
 
-One might therefore ask which cofibrantly generated model categories are Quillen equivalent to combinatorial ones. See 
+**Counter example**:[[Top]] with the standard [[model structure on topological spaces]] is cofibrantly generated, but not combinatorial. 
+
+But it is [[Quillen equivalence|Quillen equivalent]] to a combinatorial model structure, namely to the standard [[model structure on simplicial sets]] (see [[homotopy hypothesis]]).
+
+One might therefore ask which cofibrantly generated model categories are Quillen equivalent to combinatorial ones. For a discussion of this see
 
 * J. Rosicky, _Are all cofibrantly generated model categories combinatorial?_ ([ps](http://www.math.muni.cz/~rosicky/papers/cof1.ps))
+
+### Simplicial combinatorial model categories ###
+
+Those combinatorial model categories that are at the same time [[simplicial model categories]] are precisely those that present [[presentable (∞,1)-categories]].
+See [[combinatorial simplicial model category]].
 
 
 
 ## References ##
 
-Definition A.2.6.1 in 
+Much of the theory of combinatorial model categories goes back to [[Jeff Smith]]. Apparently Smith will eventually present a book on this subject. To date, however, his ideas and results appear reproduced in articles of other authors.
 
-* [[Jacob Lurie]], [[Higher Topos Theory]];
-
-definition 1.3 in 
-
-* Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
-
-Smith's theorem appears as proposition A.2.6.8  in [[Higher Topos Theory|HTT]], as proposition 2.2 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf). After Smith presented it at a conference in Barcelona, its first appearance in a publication is apparently lemma 1.8 in 
+After Smith presented his recognition theorem at a conference in Barcelona, its first appearance in a publication is apparently lemma 1.8 in 
 
 * Tibor Beke, _Sheafifiable homotopy model categories_ ([arXiv](http://arxiv.org/abs/math.CT/0102087))
 
+The very definition of combinatorial model categories appears also for instance as definition A.2.6.1 in 
+
+* [[Jacob Lurie]], [[Higher Topos Theory]];
+
+or definition 1.3 in 
+
+* Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
+
+Smith's theorem appears as proposition A.2.6.8  in [[Higher Topos Theory|HTT]], as proposition 2.2 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf). 
 
 Dugger's theorem is in 
 
