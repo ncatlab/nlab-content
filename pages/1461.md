@@ -6,7 +6,7 @@ A _strict morphism_ is a [[morphism]] for which the notion of [[image]] and [[co
 
 ## in a category with limits and colimits ##
 
-Let $C$ be a category with finite [[limit]]s and [[colimit]]s. Let $f : c \to d$ be a [[morphism]] in $C$.
+Let $C$ be a category with finite [[limits]] and [[colimits]]. Let $f : c \to d$ be a [[morphism]] in $C$.
 
 Recall that the [[image]] of $f$ is the [[limit]] 
 
@@ -53,7 +53,7 @@ The morphism $f$ is called a **strict morphism** if $u$ is an [[isomorphism]].
 
 Examples of categories in which every morphism is strict include
 * [[Set]];
-* the category $Mod(R)$ of [[module]]s over a [[ring]] $R$;
+* the category $Mod(R)$ of [[modules]] over a [[ring]] $R$;
 * the category $PSh(C) = [C^{op},Set]$ of [[presheaf|presheaves]] on any [[small category]] $C$;
 * any [[abelian category]];
 * any [[topos]].
