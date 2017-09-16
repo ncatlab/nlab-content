@@ -1,8 +1,8 @@
 
-An **adjoint equivanece** between [[categories]] is a pair of [[functors]]
+An **adjoint equivalence** between [[categories]] is a pair of [[functors]]
 
 $$
-  F : C \stackrel{\leftarrow}{\to} : G
+  F : C \stackrel{\leftarrow}{\to} D : G
 $$
 
 that is both
