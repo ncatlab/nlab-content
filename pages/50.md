@@ -24,6 +24,11 @@ Lie's three theorems establish the following properties of this functor.
 
   3. **Lie III** **$diff$ is surjective on objects**: to every Lie algebra  $\mathfrak{g}$ there is a Lie group $G$ such that $\mathfrak{g} = diff(G)$. Moreover, there exists such $G$ which is simply connected.
 
++-- {: .query}
+[[Andrew Stacey]]:
+Is $diff$ a standard name for this functor?  It seems a little prone to being confused with the diffeomorphism group of $G$ as a smooth manifold.
+=--
+
 ##Remarks##
 
 ###Restriction to simply connected Lie groups.###
