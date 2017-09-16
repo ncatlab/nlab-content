@@ -57,6 +57,8 @@ _Daniel_:I am trying to understand why Kan extension were used in that way to de
 
 -The definition of Kan extension forces all natural functors to filter uniquely all paths, which means that the outcome of a measurement will be unique. Since all possible configurations will be taken into consideration and projected, it sounds to be reasonable to me to think that the operator will be unitary.
 
+_Eric_: It looks like you're making good progress! I'm still trying to understand Kan extensions. I'm even still shaky on functors :) My goal is to start with the linear map examples on [[functor]], i.e. one-object [[endomorphism|full subcategories]] of [[FinVect]] and see what Kan extension means there. I wouldn't be broken hearted if someone spoiled the fun and explained it.
+
 ***
 
 _Eric_: There is something about Kan extension that reminds me of some kind of linear least squares. I started trying to make it explicit by building an example with finite-dimensional vector spaces. I placed the example at [[functor]]. It seems like left and right Kan extensions are like left and right inverses (which in my universe means linear least squares).
@@ -66,5 +68,9 @@ _Daniel_: Eric, I don't understand why you wrote on  [[functor]] specificaly abo
 _Eric_: Hi Daniel, have a look a <a href="http://golem.ph.utexas.edu/category/2008/03/limits_and_pushforward.html#c024063">John's explanation</a> of Kan extension. What he described made me think of linear least squares (which has nothing to do with any wikipedia article). I was trying to work out an example where Kan extension really did turn out to be linear least squares, but expressed rather in terms of left and right inverses. I may be completely wrong about the relation, but before I can judge, I needed functors between vector spaces thought of as one-object categories, hence the examples on [[functor]]. My goal is to get to the point where I feel fairly comfortable with Kan extension and then try to understand it in the context of Alm's paper.
 
 _Toby_:  Can you explain what linear least squares is, then, if it has nothing to do with what\'s on that Wikipedia article? (which is the only linear least squares that I\'m familiar with myself).
+
+_Eric_: Hi Toby and Daniel, linear least squares is what you think it is and is what is on Wikipedia. I didn't say what I wanted to say very clearly. And now I see I didn't read Daniel's question very carefully either. It's the hazards of not having more than 5 minute spurts to pay attention to this stuff :O What I meant to say is that my thoughts about the relationship between linear least squares and Kan extension (which are nothing more than a gut feeling) were related to what John said and _not_ about anything I read on Wikipedia. I didn't mean to suggest that what Wikipedia said was not related or relevant. Of course it is. It was just a comment about what made me think of the idea. Sorry about that.
+
+In my work, we often have a bunch of time series representing prices of financial securities. We also have time series of financial/economic factors and we try to explain the prices in terms of factors. There are not enough factors to find a true "inverse", but we do "the best we can". That spirit of doing "the best we can" sounded very close to what John was describing. That's all I was trying to say.
 
 category: reference
