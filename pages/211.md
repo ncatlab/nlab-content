@@ -10,6 +10,8 @@ _Toby_:  IP addresses are almost always logged by web software, even for readers
 
 But if you want to be anonymous on the web, try searching for '[web proxy](http://www.google.com/search?q=web+proxy)' or the like.  However, Jacques\'s software makes a fair attempt to defeat these, since they are often used to spam.  (Even in general, I don\'t know how well they work, and ultimately *they* become the people with the secret information.)
 
+_Toby_:  I see that Urs managed to post from 'from bogus address' today (June 27).  Maybe we should ask him what he did differently!
+
 =--
 
 category: meta
