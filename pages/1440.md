@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher geometry - contents]]
+</div>
+
+
 #Idea#
 
 A _derived smooth manifold_ is a [[structured generalized space]] given by a manifold whose structure sheaf of "smooth functions" is a [[higher category theory|higher categorical]] [[generalized smooth algebra]].
