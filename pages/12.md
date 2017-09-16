@@ -297,6 +297,8 @@ Internal error?
 [[Sandbox/test]]
 [[!include Sandbox/test]]
 
+$$A \lozenge B \;\vee\; A \bowtie B$$
+
 ****
 
 category: meta
