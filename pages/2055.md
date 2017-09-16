@@ -194,4 +194,6 @@ http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.htm
 
 * [Detexify](http://detexify.kirelabs.org/classify.html) for finding LaTeX symbols by drawing them.
 
+* [LaTeX on Blogger](http://watchmath.com/vlog/?p=438) for installing LaTeX on Blogger.
+
 category: meta
