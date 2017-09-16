@@ -302,13 +302,13 @@ Further work along such lines is
 
 * Birgit Richter, _Symmetry properties of the Dold-Kan correspondence_ ([pdf](http://www.math.uni-hamburg.de/home/richter/doldkan.pdf))
 
-This shows that the Dold-Kan map from Chain complexes to simplicial abelian groups is, while not a [[monoidal category|monoidal functor]], an [[E-infinity monoidal]] functor.
+This shows that the Dold-Kan map from Chain complexes to simplicial abelian groups is, while not a [[monoidal category|monoidal functor]], an $E_\infty$-[[E-infinity-monoidal functor|monoidal functor]].
 
-This implies that generalized [[Eilenberg-MacLane spectrum|Eilenberg-MacLane spectra]] on [[differential graded algebra|differential graded commutative algebras]] are [[E-infinity]]-[[monoid]]s in the category of $H \mathbb{Z}$-[[module]] [[spectrum|spectra]].
+This implies that generalized [[Eilenberg-MacLane spectrum|Eilenberg-MacLane spectra]] on [[differential graded algebra|differential graded commutative algebras]] are $E_\infty$-[[E-infinity-monoid|monoids]] in the category of $H \mathbb{Z}$-[[module]] [[spectrum|spectra]].
 
 * Birgit Richter, _Homotopy algebras and the inverse of the normalization functor_ ([pdf](http://www.math.uni-hamburg.de/home/richter/invjpaa.pdf))
 
-This article shows that the inverse $\Xi$ from chain complexes to simplicial abelian groups sends algebras over arbitrary differential graded [[E-infinity]]-[[operad]]s to [[E-infinity]]-[[algebra over an operad|algebras]] in simplicial modules, and is part of a [[Qillen adjunction]] for these.
+This article shows that the inverse $\Xi$ from chain complexes to simplicial abelian groups sends algebras over arbitrary differential graded $E_\infty$-[[E-infinity-operad|operads]] to $E_\infty$-[[E-infinity-algebra|algebras]] in simplicial modules, and is part of a [[Quillen adjunction]] for these.
 
 
 ## Version for Lie algebras ## 
