@@ -83,3 +83,12 @@ Regarding the second point: the differential calculus formulation lends itself m
 Regarding the second point: after Hamilton's times people started thinking about what [[quantization]] of a classical system should mean. One successful formalization is that of [[geometric quantization]] which takes a symplectic manifold with Hamiltonian function on it as input datum.
 
 The impact that this idea of quantization from symplectic geometry eventually had is hard to underestimate. In the hands of [[Alan Weinstein]] and his school it led to [[symplectic groupoid]]s, [[Courant algebroid]]s and other higher [[Lie theory|Lie theoretic structures]].  In the hands of [[Maxim Kontsevich]] it led to the theorem on formal [[deformation quantization]] and the vast machinery nowadays associated with that.
+
+## examples ##
+
+The symplectic-geometry description of Hamiltonian mechanics is especially well-suited to descvribe topologically nontrivial phasse spaces that are not [[cotangent bundle]]s.
+
+### vortices on the sphere ###
+
+$n$ vortices on the sphere as finite dimensional limit of 2D [[Euler equations]]: the phase space of the system of $n$ vortices is not a [[cotangent bundle]] but is $(S^2)^n$ .
+
