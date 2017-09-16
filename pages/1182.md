@@ -882,28 +882,29 @@ one can define a functor $\Phi$ in the same way at the level of [[triangulated c
 #### 4.1 Tensor products of $\infty$-categories ####
 
 In order to be more precise, we need look at the closed, symmetric monoidal structure on $Pr^{L}$, as developed by
-Jacob Lurie DAG II.4 and DAG III.6. The internal Hom 
-between two presentable $\infty$-categories $C,D$
-is $Fun^{L}(C,D)$, which consists of colimit preserving functors. To construct it, one considers $C$ and $D$ as
-quasi-categories or weak Kan complexes. Functors from $C$ to $D$ are just maps of simplicial sets, so the $\infty$-category of functors from $C$ to $D$ is just
+Jacob Lurie [[higher algebra|DAG II.4 and DAG III.6]]. The [[internal hom]] 
+between two [[presentable (infinity,1)-category|presentable (infinity,1)-categories]] $C,D$
+is $Fun^{L}(C,D)$, which consists of colimit preserving [[(infinity,1)-functor]]s. To construct it, one considers $C$ and $D$ as
+[[quasi-category|quasi-categories]] or weak Kan complexes. Functors from $C$ to $D$ are just maps of [[simplicial set]]s, so the [[(infinity,1)-category of (infinity,1)-functors]] from $C$ to $D$ is just
 the simplicial set of maps (internal Hom in simplicial sets)
 $Fun(C,D)$. This is indeed an $\infty$-category again, whenever $D$ is an $\infty$-category/weak Kan complex.
 Now inside of $Fun(C,D)$, we take the $\infty$-subcategory spanned by $0$-simplices representing colimit preserving functors to get $Fun^{L}(C,D)$.
 
-(If there is some inaccuracy noted by anyone, feel free to comment. I might have forgotten some fibrant or cofibrant 
+> [[Chris Brav|Chris]]: (If there is some inaccuracy noted by anyone, feel free to comment. I might have forgotten some fibrant or cofibrant 
 replacement somewhere.)
 
-For the tensor product of presentable $\infty$-categories,
-we construct the $\infty$-category $C \otimes D$ which is
+For the [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories|tensor product of presentable (infinity,1)-categories]] we construct the $\infty$-category $C \otimes D$ which is
 'the universal recipient of a bilinear functor' from $C \times D$. Here, we think of coproducts in $C$ and $D$
 as addition, and then if a functor $C \times D \rightarrow E$ preserves colimits in each variable, in particular it preserves coproducts and so is 'bilinear'. Such a bilinear
 functor will factor uniquely (in a homotopic sense)
 through a universal bilinear functor $C \times D \rightarrow C \otimes D$, just like for bilinear maps
 and tensor products of abelian groups.
 
-(Eventually, there should be a separate entry about this closed symmetric monoidal structure on $Pr^{L}$.)
+>[[Chris Brav|Chris]]: (Eventually, there should be a separate entry about this closed symmetric monoidal structure on $Pr^{L}$.)
 
-Now given the above closed symmetric monoidal structure
+> [[Urs Schreiber|Urs]]: there already is: [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]
+
+Now given the above closed [[symmetric monoidal (infinity,1)-category|symmetric monoidal structure]]
 on $Pr^{L}$ and since $Pr^{L}$ also has limits and colimits,
 we can have all kinds of fun. For instance, given
 an algebra object $R \in Pr^{L}$, a right $R$-module $M \in Pr^{L}$, and a left $R$-module $N \in Pr^{L}$, we can form
@@ -915,16 +916,18 @@ and $\beta$ is the action of $R$ on the left of $N$. (This generalizes the relat
 to have exactly this coequalizing property.)
 
 
-In section of 4.1 BZFN, there are various results, which are consequences of the $\infty$-categorical Barr-Beck theorem. They seem interesting and useful, but I don't seem to need them just at the moment, so I'll come back to them some other time.
+In section of 4.1 BZFN, there are various results, which are consequences of the [[(infiniy,1)-categorical Barr-Beck theorem]]. 
+
+>They seem interesting and useful, but I don't seem to need them just at the moment, so I'll come back to them some other time.
 
 #### 4.2 Sheaves on fiber products ####
 
-In our present context, we consider a morphism of perfect derived stacks perfect derived stack $q: X \rightarrow Y$.
+In our present context, we consider a morphism of [[perfect infinity-stack|perfect]] [[derived stack]]s  $q: X \rightarrow Y$.
 By pulling-back along $q$ and tensoring, we make $M=QC(X)$
 into a $R=QC(Y)$-module. To see this, note that the functor
 $(?) \otimes q^{*}(?): QC(X) \times QC(Y) \rightarrow QC(X)$
 is indeed bilinear since pullback $q^{*}$ is the left adjoint of pushforward $q_{*}$ preserves colimits, as does
-$\otimes$, being the left adjoint of the internal Hom of sheaves ('sheaf' or 'local' Hom). Thus by the universal property of the tensor product of $\infty$-categories, we do indeed get an action functor $QC(X) \otimes QC(Y) \rightarrow QC(Y)$. 
+$\otimes$, being the left adjoint of the internal Hom of sheaves ('sheaf' or 'local' Hom). Thus by the universal property of the tensor product of $(\infty,1)$-categories, we do indeed get an action functor $QC(X) \otimes QC(Y) \rightarrow QC(Y)$. 
 
 Now given a pair of perfect derived stacks $X_1, X_2$ over $Y$, we get two $R=QC(Y)$-modules $M=QC(X_1)$ and $N=QC(X_2)$ (left and right don't matter here, since $R=QC(Y)$ is symmetric monoidal) and we can form their relative tensor product
 
