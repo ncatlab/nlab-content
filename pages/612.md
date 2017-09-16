@@ -7,7 +7,7 @@
 
 #References (partly) indexed on the $n$Lab#
 
-* [[Higher Topos Theory]] ([arXiv](http://arxiv.org/abs/math/0608040))
+* [[Higher Topos Theory]] ([arXiv](http://arxiv.org/abs/math.CT/0608040), [published version](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf))
 
   on [[higher category theory]] and [[higher topos theory]]
 
