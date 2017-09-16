@@ -46,7 +46,7 @@ It is possible to conceive of 2-vector spaces of the Kapranov--Voevodsky and Bae
 
 In other words, a Baez--Crans $2$-vector space can be thought of as a Kapranov--Voevodsky $2$-vector space, if one 'categorifies' the ground field by simply regarding it as a discrete monoidal category. 
 
-For $V$ a general symmetric [[closed monoidal category]] the full bicatgeory of all [[monoidal category modules]] over $V$ is in general hard to get under control, but what is more tractable is the sub-bicategory which may be addressed as the bicategory of $V$-modules _with basis_ namely the category $V-Mod$ in the sense of [[enriched category theory]] with
+For $V$ a general symmetric [[closed monoidal category]] the full bicategory of all [[monoidal category modules]] over $V$ is in general hard to get under control, but what is more tractable is the sub-bicategory which may be addressed as the bicategory of $V$-modules _with basis_ namely the category $V-Mod$ in the sense of [[enriched category theory]] with
 
 * objects are categories $C$ [[enriched category|enriched over]] $V$, to be thought of as placeholders for their categories of [[modules]], $Mod_C := [C,V]$
 
