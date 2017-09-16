@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-01
 
+* [[Jon Awbrey]] added stubs and links at [[sign relation]] and [[triadic relation]].
+
 * [[Urs Schreiber]]: replied in the discussion at the bottom of [[category theory]] -- and have a question
 
 * [[Urs Schreiber]]  WATCH OUT WITH LONG ENTRY NAMES -- see the $n$forum discussion. Some long entry names got truncated in the migration. the entry "Chevalley-eilenberg algebra in synthetic differential geometry" for instance is now called [[Chevalley-Eilenberg algebra in synthetic differential geomet]]
