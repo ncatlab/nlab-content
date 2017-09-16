@@ -34,7 +34,7 @@ A detailed illustration and motivation of the need of these "good limits" that d
 
 * in the introductory section of 
 
-  * [[Jacob Lurie]], [Structured Spaces](http://www-math.mit.edu/~lurie/papers/DAG-V.pdf)
+  * [[Jacob Lurie]], [Structured Spaces](http://www.math.harvard.edu/~lurie/papers/DAG-V.pdf)
 
 * in the introductory section of 
 
@@ -80,7 +80,7 @@ Derived ($\infty$-)stacks are currently mostly, maybe exclusively, studied on al
 
 Concretely the need for the site of simplicial ring objects is discussed in the introduction of 
 
-* [[Jacob Lurie]], [Structured Spaces](http://www-math.mit.edu/~lurie/papers/DAG-V.pdf)
+* [[Jacob Lurie]], [Structured Spaces](http://www.math.harvard.edu/~lurie/papers/DAG-V.pdf)
 
 and in the introduction of
 
