@@ -41,7 +41,7 @@ The above discussion of non-evil variants is the result of the following discuss
 
 _[[Mike Shulman|Mike]] says_: I have a few objections to considering any faithful functor to be a "subcategory."
 
-1. I really have a hard time convincing myself that the category of groups is a subcategory of the category of sets.  A group is a set with extra [[property, structure, and stuff|structure]], not a set satisfying some property.
+1. I really have a hard time convincing myself that the category of groups is a subcategory of the category of sets.  A group is a set with extra [[stuff, structure, property|structure]], not a set satisfying some property.
 2. Every functor between [[discrete category|discrete categories]] is faithful.  Therefore, if every faithful functor is a subcategory, every set (considered as a discrete category) would be a subcategory of every other (nonempty) set.
 3. In particular, the terminal category would have a proper class of inequivalent subcategories.
 
