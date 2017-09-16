@@ -47,11 +47,12 @@ This is a
 (prop 2.1.4.7, 2.1.4.8)
 
 
-We have (prop 2.1.4.9)
+We have 
 
-* Every fibrant object is a [[left fibration]].
+* The fibrant objects are precisely the [[left fibration]]s 
+  (corollary 2.2.3.12)
 
-* Every left anodyne morphism is an acyclic cofibration.
+* Every left anodyne morphism is an acyclic cofibration. (prop 2.1.4.9)
 
 
 
