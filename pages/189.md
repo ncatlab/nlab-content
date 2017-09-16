@@ -82,4 +82,10 @@ I removed the green 'query' box, which gets a bit inconvenient when the discussi
 
 [[Eric Forgy|Eric]] says: What if we create a separate page called **Discussion: quiver** and link to it from here? Or something... 
 
+[[Hugh Thomas|Hugh]] says: It is hard to defend Gabriel's original choice to introduce the term "quiver" instead of talking about directed graphs.  Nonetheless, the term having existed for more than thirty years as a synonym for "directed graph", it seems to me that it would only cause confusion to try to change the definition now.  
+
+Let me emphasize that it really is used as a synonym -- it doesn't necessarily carry the implication that the representations of the graph are going to be considered.  For example, representation theorists talk about the AR-quiver of a category all the time, and they hardly ever mean that they want to consider the representation theory of that quiver.
+
+
+
 [[!redirects quivers]]
