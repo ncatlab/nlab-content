@@ -340,8 +340,44 @@ $$
 
 ### Chern character
 
+We describe how the [[Chern character]] of [[vector bundle]]s over $X$ may be realized in terms of the [[cohomology]] of the free loop space object $\mathcal{L}X$.
+
 Assume now $C$ is a nice category of smooth spaces, and let $X$ be an object of $C$.
 
-Given a complex linear [[representation]] $\rho:G\to GL(n;\mathbb{C})$, the [trace]] of $\rho$ is invariant by conjugation, so it defnes a map $Tr(\rho): G//_{Ad}G\to \mathbb {C}$, and so a map $\mathcal{L}\mathbf{B}G\to \mathbb {C}$. A $GL(n;\mathbb {C})$-[[principal bundle]] on $X$ is a classified by map $g : X\to \mathbf{B}G$, so by the universal property of the pullback it induces a map $\mathcal{L}g : \mathcal{L}X\to \mathcal{L}\mathbf{B}G$. By composition, one gets an $S^1_C$-equivariant map $\mathcal{L}X\to\mathbb {C}$ i.e., an element of $C(\mathcal{L}X,\mathbb{C})^{S^1_C}$. The Hom-space $C(\mathcal{L}X,\mathbb{C})$ is a model for the graded commutative algebra of complex-valued [[differential form]]s on $X$, with the categorical circle action corresponding to the [[de Rham complex|de Rham differential]]. Hence $C(\mathcal{L}X,\mathbb{C})^{S^1_C}$ is a model for closed forms and maps to [[de Rham cohomology]] $H_{dR}^\bullet(X)$ of $X$. Taking $G=GL(\infty;\mathbb{C})$, the compatibility of trace with [[direct sum]]s and [[tensor product]]s of [[vector bundle]]s over $X$ makes the above construction a [[ring]] homomorphism $K(X)\to H_{dR}(X)$, hence a very good candidate to being the [[Chern character]] ( _to be completed..._ )
+Consider a [[group object]] $G$ in $C$ and a [[representation]] of $G$ given my a group homomorphism to the [[general linear group]] (in $C$):  $\rho:G\to GL(n;\mathbb{C})$. For instance $G$ could be $GL(n)$ itself and this morphism the identity.
+
+The [[trace]] of the representation $\rho$ is invariant under conjugation in the group and so defnes a map $Tr(\rho): G//_{Ad}G\to \mathbb {C}$ -- a [[class function]]. By the equivalence $\mathcal{L}\mathbf{B}G \simeq G//_{Ad} G$ discussed above, this may be regarded as a [[characteristic class]]
+
+$$
+  Tr(\rho(-)) : \mathcal{L}\mathbf{B}G\to \mathbb {C}
+$$
+
+on the free loop space of $\mathbf{B}G$.
+
+The [[cocycle]] $g : X\to \mathbf{B}G$ of a $G$-[[principal bundle]] on $X$ transgresses to a cocycle 
+
+$$
+  \mathcal{L} g : \mathcal{L}X \to \mathcal{L}\mathbf{B}G
+$$
+
+on the free loop space, by the functoriality of the free loop space object construction.
+
+The above [[characteristic class]] of this cocycle is the composite morphism
+
+$$
+  Tr(\rho(\mathcal{L}g)) : \mathcal{L}X \to \mathcal{L} \mathbf{B}G \to \mathbb{C}
+  \,,
+$$
+
+which by the $Ad$-invariance of the [[trace]] is now $S^1$-invariant and hence defines an element in the [[cyclic cohomology]]
+$C(\mathcal{L}X,\mathbb{C})^{S^1_C}$ of $X$. 
+
+The Hom-space $C(\mathcal{L}X,\mathbb{C})$ is a model for the graded commutative algebra of complex-valued [[differential form]]s on $X$, with the categorical circle action corresponding to the [[de Rham complex|de Rham differential]]. Hence $C(\mathcal{L}X,\mathbb{C})^{S^1_C}$ is a model for closed forms and maps to [[de Rham cohomology]] $H_{dR}^\bullet(X)$ of $X$. If the [[de Rham theorem]] holds for $X$ in $C$, then this may be identified with the real cohomology $H^\bullet(X,\mathbb{R})$.
+
+
+
+In the case that $G=GL(\infty;\mathbb{C})$, the compatibility of the trace with [[direct sum]]s and [[tensor product]]s of [[vector bundle]]s over $X$ makes the above construction a [[ring]] homomorphism $K(X)\to H_{dR}(X)$ from the [[topological K-theory]] of $X$ to [[de Rham cohomology]], hence a very good candidate to being the [[Chern character]] 
+
+( _to be completed..._ )
 
 [[!redirects free loop space objects]]
