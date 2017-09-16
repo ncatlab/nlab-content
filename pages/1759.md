@@ -28,6 +28,10 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 =--
 ## 2009-07-21
 
+* [[David Corfield]]:
+
+  * started [[Moore space]]
+
 * [[David Roberts]]:
 
   * fixing up some statements at [[paracompact space]]. Added comment about existence partitions of unity being dependent on the category these will be constructed in.
