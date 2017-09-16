@@ -1,4 +1,9 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea
 
 Recall that for [[presheaf|presheaves]] on a [[site]] $X$ with values in a category $A$ that admits small [[limit]]s and small colimits (so in particular for $A =$  [[Set]]), $PSh(X, A) = [S_X^{op}, A]$, every functor $f^t : S_Y \to S_X$ induces three functors of presheaf catgeories:
 
@@ -22,7 +27,7 @@ Now, if the morphism of sites $f$ happens to be restriction to a sub-site  $f : 
 * the right adjoint takes sheaves to sheaves and is called **extension** of sheaves.
 
 
-#Definition#
+## Definition
 
 Given a [[site]] $X$ with underlying [[category]] $S_X$ and given a [[presheaf]] $U \in PSh(X)$ with the induced sub-site $j_{U \to X} : X \to U$ 
 corresponding to the [[stuff, structure, property|forgetful]] functor 
@@ -65,7 +70,7 @@ To summarize notation and terminology:
 | sheaf inverse image | $\overline{(j^t)^{\dagger}_{U \to X}} : Sh(U) \to Sh(X)$ | left adjoint to direct image followed by sheafification |
 
 
-#Remarks#
+## Remarks
 
 Notice the difference to the [[inverse image]] operation
 $$
@@ -74,8 +79,8 @@ $$
 $$
 
 
-#References#
+## References
 
 For instance section 17.6 of 
 
-* Kashiwara, Schapira, [[Categories and Sheaves]]
+* Kashiwara, Schapira, _[[Categories and Sheaves]]_
