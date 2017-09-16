@@ -4,4 +4,4 @@ This page aims to gather priceless snippets of mathematical wisdom about specifi
 
 [Bernoulli numbers](http://golem.ph.utexas.edu/category/2008/02/metric_spaces.html#c014936), link to a problem sheet by John Baez with solution by Jeff Morton on everything you need to know.
 
-
+[Framed cobordisms and TQFT's](http://golem.ph.utexas.edu/category/2008/02/new_hire_at_ucr.html#c016709), link to a classic comment by John Baez explaining how stable homotopy theory and extended TQFT become one and the same thing in the limit $n \rightarrow \infty$.
