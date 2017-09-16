@@ -38,12 +38,12 @@ Berlin.
 
 For the connections with, amongst other things, Galois theory from a categorical viewpoint:
 
-*  F. Borceux and G. Janelidze, 2001, _Galois theories_, volume 72 of Cambridge Studies in Advanced Mathematics, Cambridge University Press.
+* [[Francis Borceux]], [[George Janelidze]], __[[Galois Theories]]__, Cambridge Studies in Advanced Mathematics __72__, Cambridge University Press, 2001.
 
 For the corresponding 'analytic theory' see:
 
-* J. Dixon, M. du Sautoy, A. Mann and D. Segal, 1999, _Analytic pro-p groups_, volume 61 of Cambridge Studies in Advanced Mathematics, 
-Cambridge Univ. Press. 
+* J. Dixon, M. du Sautoy, A. Mann and D. Segal, _Analytic pro-p groups_, volume 61 of Cambridge Studies in Advanced Mathematics, 
+Cambridge Univ. Press 1999. 
 
 # To be moved elsewhere soon!# 
 +--{: .query}
