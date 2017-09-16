@@ -188,19 +188,11 @@ But we've established that both these ratios are $\Phi$ for a _regular_ pentagon
 
 [[!include pentagon decagon hexagon identity/regular pentagon]]
 
-That's probably intuitively obvious, but we can make it a bit more explicit.  In the diagram above, the blue pentagon shares one edge with the regular, black pentagon, and has also been constrained to have the same width.  We need to show that specifying the height ratio is then enough to determine the shape of the blue pentagon completely, making it coincide with the black pentagon.
+That's probably intuitively obvious, but we can make it a bit more explicit.  In the diagram above, the blue pentagon shares one edge with the regular, black pentagon, and has also been constrained to have the same width and height ratios.  The height ratio fixes $\frac{J K}{G H}=\Phi$ and the width ratio fixes $\frac{F L}{E F}=\Phi$, which means the two yellow triangles are similar, which in turn fixes $\frac{F K}{F H}=\Phi=\frac{F K'}{F H'}$.
 
-If the height of the blue pentagon, $G H + J K$, is $\Phi$ times the height of an adjacent vertex, $G H$, that fixes the ratio $\frac{G H}{J K}=\frac{G H}{G H (\Phi-1)}=\Phi$.  So $G H = \Phi\cdot J K$.
+If we further require that the triangle $F K H$ is isosceles (which follows from the way we've constructed the generic icosahedron), then it will be similar to $F K' H'$, and $F L K$ will be similar to $F L K'$ (since the angle of either of the two yellow triangles at $F$ is just half the supplement of the angle $K F H$).  But since $F L K$ and $F L K'$ share an edge, they will actually be _congruent_, and the blue and black pentagons will coincide exactly.
 
-The four blue edges are all congruent, so:
-
-$${F H}^2={K H}^2$$
-$${F G}^2+{G H}^2={J H}^2+{J K}^2$$
-$${F G}^2+\Phi^2{J K}^2={J H}^2+{J K}^2$$
-
-The horizontal distances $F G$ and $J H$ are fixed, so the last equation is clearly enough to determine $J K$, and then $G H$.  In other words, there is only one pentagon meeting all these constraints, which we know are obeyed by the regular pentagon as well as those in our construction, so those pentagons must be regular, too.
-
-This means that, given our choice of $x=\Phi$, the two kinds of congruent edges in our generic icosahedron end up being the same size, and the icosahedron itself is regular.
+In other words, there is only one pentagon meeting all the conditions we've imposed:  the regular pentagon with edge $F L$.  This means that, given our choice of $x=\Phi$, the two kinds of congruent edges in our generic icosahedron end up being the same size, and the icosahedron itself is regular.
 
 
 #References#
