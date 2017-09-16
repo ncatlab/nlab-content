@@ -1,5 +1,5 @@
 
-Let $X$ by a [[manifold]]. The _tangent Lie algebroid_ $T X$ of $X$ is the [[Lie algebroid]] that correponds -- in the sense of  [[Lie theory]] -- to 
+Let $X$ by a differentiable [[manifold]]. The _tangent Lie algebroid_ $T X$ of $X$ is the [[Lie algebroid]] that corresponds -- in the sense of  [[Lie theory]] -- to 
 
 * the [[codiscrete groupoid]] $X \times X$ of $X$. 
 
@@ -23,7 +23,7 @@ $$
   }
 $$
 
-where $\rho$ is the map called the _anchor map_, the tangent Lie albroid is that whose anchor map is the identity map
+where $\rho$ is the map called the _anchor map_, the tangent Lie algebroid is that whose anchor map is the identity map
 
 $$
   \array{
