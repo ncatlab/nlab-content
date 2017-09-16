@@ -220,12 +220,22 @@ $$
 
 have a very similar appearance. Street took his weighted limit as the _definition_ of higher descent. In view of the above general nonsense introduction, it would be desireable to understand how and to which extent this definition actually describes parts of an [[(infinity,1)-category of (infinity,1)-sheaves]].
 
-To that end, we first discuss under which conditions the homotopy limit $holim A(U^\bullet)$ over an [[SSet]]-valued functor can be re-expressed up to weak equivalence by the $\Delta$-weighted limit $lim^\Delta A(U^\bullet)$ that computes gluing data.
+To that end, notice that for $A : S^{op} \to SSet$ a [[simplicial presheaf]] and $U^\bullet$ a simplicial object so that the cosimplicial simplicial set $A(U^\bullet)$ is [[Reedy category|Reedy fibrant]], the
+[[Bousfield-Kan map]] from the [[homotopy limit]] of $A(U^\bullet)$ realized as the [[weighted limit]] with weight the cosimplicial simplicial set $N(\Delta/(-))$ is a weak equivalence
 
-## From descent to gluing data ##
+$$
+  holim A(U^\bullet)
+  \simeq lim^{N(\Delta/(-))} A(U^\bullet)
+  \simeq
+  \lim{}^\Delta A(U^\bullet)
+  \,.
+$$
 
-[[Reedy fibrant]], [[totalization]], [[Bousfield-Kan map]]
++-- {: .query}
 
+[[Urs Schreiber|Urs]]
+So we should try to characterize the condition when $A(U^\bullet)$ is Reedy fibrant...
+=--
 
 
 
