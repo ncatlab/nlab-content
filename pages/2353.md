@@ -51,7 +51,7 @@ _Correspondences_ in
 
 where it is understood as a generalization of the [[join of simplicial sets]]
 and where it serves as a motivation for the study of cographs of 
-functors between [[(infinity,1)-category|(infinity,1)-categories]] discussed
+functors between [[(∞,1)-category|(infinity,1)-categories]] discussed
 below.
 
 ### adjoint functors in terms of cographs ###
@@ -96,7 +96,7 @@ $$
 The category $cograph(R^{op})^{op}$ accordingly is the category with $Obj(cograph(R)) = Obj(C) \coprod Obj(D)$ and with
 
 $$
-  Hom_{cograph(R^{op})^{op}(x,y) = 
+  Hom_{cograph(R^{op})^{op}}(x,y) = 
   \left\{
     \array{
       Hom_C(x,y) & if x,y \in C
@@ -126,6 +126,43 @@ This is precisely the condition that $L$ and $R$ are [[adjoint functor]]s.
 
 ## cographs of functors between $(\infty,1)$-categories ##
 
-This is described in detail in section 5.2.1, _Correspondences and associated functors_,  of
+In the context of [[(∞,1)-category]] theory there is a good theory of [[Cartesian fibration]]s $X \to S$ and of their classification by [[(∞,1)-functor]]s $S^{op} \to (\infty,1)Cat$ to the [[(∞,1)-category of (∞,1)-categories]] as described at [[universal fibration of (∞,1)-categories]].
 
-* [[Jacob Lurie]], [[Higher Topos Theory]].
+Accordingly, the above notion of cograph of a functor has a direct generalization to [[(∞,1)-functor]]s:
+
++-- {: .un_defn}
+###### Definition
+
+For $f : C \to D$ an [[(∞,1)-functor]], identified with a morphism
+
+$$
+  \bar f : I \to (\infty,1)Cat
+$$
+
+in the [[(∞,1)-category of (∞,1)-categories]], it **cograph** is the [[Cartesian fibration]] $cograph(f) \to I$ classified by it. In terms of the [[universal fibration of (∞,1)-categories]] this is the [[homotopy pullback]]
+
+$$
+  \array{
+    cograph(f) &\to& Z^{op}
+    \\
+    \downarrow && \downarrow
+    \\
+    I &\stackrel{\bar f}{\to}& (\infty,1)Cat
+  }
+  \,.
+$$
+
+=--
+
+
+As for every [[Cartesian fibration]] the functor $f : C \to D$ is determined uniquely up to equivalence by its cograph. In general, obtaining the classifying $(\infty,1)$-functor from a given [[Cartesian fibration]] may be difficult. In the special case of cographs as Cartesian fibrations over the simple [[interval category]] it is easier. This is discussed in the following:
+
+
+...
+
+
+# References #
+
+The notion of cographs of $(\infty,1)$-functors and the theory of how to re-obtain $(\infty,1)$-functors from their cographs is the content of section 5.2.1, _Correspondences and associated functors_,  of
+
+* [[Jacob Lurie]], [[Higher Topos Theory]] .
