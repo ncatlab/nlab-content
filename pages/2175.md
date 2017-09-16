@@ -48,6 +48,7 @@
 * [[semiotic equivalence relation]]
 * [[sign relation]]
 * [[triadic relation]]
+* [[universe of discourse]]
 
 ### Miscellaneous ###
 
