@@ -18,7 +18,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-06
 
-*  [[Toby Bartels]]:  Split [[artinian ring]] (just a stub) off from [[noetherian ring]].
+*  [[Toby Bartels]]:
+   *  Added a constructive bit to [[integral domain]].
+   *  Split [[artinian ring]] (just a stub) off from [[noetherian ring]].
 
 * [[David Roberts]]: added comment to [[fundamental groupoid]] about topology thereon and relation to local connectedness. In other news, I have a (non-academic) job, so as of next week my contributions will slow down a bit.
 
