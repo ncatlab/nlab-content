@@ -25,6 +25,8 @@
 
   * [[group theory|Group Theory]]
 
+  * [[representation theory|Representation Theory]]
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/mathematicscontents)</div>
 
 </div>
