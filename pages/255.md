@@ -1,8 +1,8 @@
-##Definition#
+##Definition##
 
 A _monad_ in any [[bicategory]] $B$ is a [[monoid]] in the endomorphism category on an object of $B$.
 
-##Explicit description#
+##Explicit description##
 
 This means that a monad is
 
@@ -40,6 +40,15 @@ This can be encoded as saying that
 
 * A monad is a [[lax functor]] ${*} \to B$ from the [[point]] to $B$.
 
+###In string diagrams###
+
+These data and axioms can be expressed graphically in string diagrams.  The data $C \stackrel{T}{\to} C$, $1_C \stackrel{\eta}{\Rightarrow} T$, $T \circ T \stackrel{\mu}{\Rightarrow} T$ appear as
+[[monad-data-labeled.png:pic]]
+Thanks to the distinctive shapes, one can often omit the labels:
+[[monad-data-unlabeled.png:pic]]
+The axioms $\mu \cdot (\eta \circ T) = 1_C = \mu \cdot (T \circ \eta)$ and $\mu \cdot (T \circ mu) = \mu \cdot (\mu \circ T)$ then appear as:
+[[monad-axioms-unlabeled.png:pic]]
+
 ##Remarks##
 
 * Originally monads were conceived and defined for $B =$ [[Cat]]. In parts of the literature "monad" still exclusively means monad in $Cat$. Similarly for algebras over monads.
@@ -49,7 +58,7 @@ Monads in $Cat$ are sometimes, mostly in older literature, also called **triple*
 * We can picture a monad in $B$ as an image of the [[oriental|third oriental]] in $B$. See the remarks at [[monoidal category]].
 
 
-## Examples
+## Examples ##
 
 Monads on [[partial order|posets]] are particularly simple.  In fact, monads on [[power set]]s are extremely common throughout mathematics; they are known in less categorially-inclined circles as [[Moore closure]]s, and there are many examples there.
 
@@ -58,7 +67,7 @@ Every [[algebraic theory]] with a notion of free algebra defines a monad on [[Se
 An [[internalization|internal]] monad on the [[subobject classifier]] of a [[topos]] $E$ is a [[Lawvere-Tierney topology]] on $E$.
 
 
-##Algebras/modules over a monad#
+##Algebras/modules over a monad##
 
 Given that a monad in $B$ is nothing but a [[monoid]] in a hom-category $B(a,a)$, it is natural to consider a [[module]] over this monoid: a [[module for a monad]].  This notion of module is more general than a module in a monoidal category, however, since it need not live in $B(a,a)$ but can be in $B(b,a)$ (for left modules) or $B(a,c)$ (for right modules).
 
@@ -70,7 +79,7 @@ Some monads arise from [[operad]]s, in which case algebras for the monad are the
 
 * [[strong monad]]
 
-##References#
+##References##
 
 Five short videotaped lectures:
 
