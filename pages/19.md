@@ -456,6 +456,10 @@ So i would agree with Urs that the geometric realization of a simplicial complex
 
 BTW, a CW complex isn't really a union of points in $R^n$, rather it is an abstract topological space constructed by gluing together cells.  Not every CW complex admits an embedding into any $R^n$.
 
+_Rafael_: Correction, assuming presheaves are equivalent to functors i did see a category be called a functor. It is above on this page, the seccond from the bottom explanation what category theory in the narrow sense is, where the $\Delta$ category is.
+
+Mike, I like your (2) better.
+
 =--
 
 
