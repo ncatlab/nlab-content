@@ -334,3 +334,7 @@ We check successively what this means for increasing $n$:
 [[!redirects inner Kan fibration]]
 [[!redirects right Kan fibration]]
 [[!redirects weak Kan fibration]]
+[[!redirects left fibration]]
+[[!redirects inner fibration]]
+[[!redirects right fibration]]
+[[!redirects weak fibration]]
