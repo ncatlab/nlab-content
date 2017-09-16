@@ -4,7 +4,7 @@ Smooth Deligne cohomology in degree $n$,
 denoted $\bar H^n(X,\mathbb{Z}) = H(X, \mathbb{Z}(n)^\infty,D)$,
 of a smooth manifold $X$
 is a realization of the 
-[[differential cohomology|differential refinement]] $\bar H^n(X,\mathbb{Z})$ of the 
+[[differential cohomology|differential refinement]] (or smooth extension) $\bar H^n(X,\mathbb{Z})$ of the 
 [[integral cohomology]] $H^n(X, \mathbb{Z})$ of $X$ in terms of
 [[abelian sheaf cohomology]].
 
@@ -108,9 +108,15 @@ The full proof for $n=1$ this is in
 
 for $n=2$ in 
 
-* Urs Schreiber, Konrad Waldorf, _Smmoth functors versus differential forms_ ([arXiv](http://arxiv.org/abs/0802.0663))
+* Urs Schreiber, Konrad Waldorf, _Smooth functors versus differential forms_ ([arXiv](http://arxiv.org/abs/0802.0663))
 
 For more on this see [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]].
 
 For higher $n$ there is as yet no detailed proof in the literature, but the
 low dimensional proofs have obvious generalizations.
+
+See also 
+
+* U. Bunke, _Index theory, eta forms, and Deligne cohomology_, Memoirs AMS, vol. 198, number 928, [arXiv:math./0201112](http://arxiv.org/abs/math/0201112v4)
+
+* Ulrich Bunke, Thomas Schick, _Uniqueness of smooth extensions of generalized cohomology theories_, [arXiv:0901.4423](http://arxiv.org/abs/0901.4423)
