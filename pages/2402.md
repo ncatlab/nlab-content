@@ -310,9 +310,9 @@ $$
 
 There should be a virtual fundamental class $[\bar M_{g,n}(x,\beta)]^{virtual}$ that makes the maps above into the [[correlation function]]s of a [[quantum field theory]] (the integral would be the [[path integral]] of the [[worldsheet]] [[sigma-model]]) with state space $H^*(X)$. We'll explain some of what this means below.
 
-This virtual fundamental class in algebraic geometry was constructed by Behrend-Fantechi; in symplectic geometry it was done by Li-Tian.
+This [[virtual fundamental class]] in algebraic geometry was constructed by Behrend-Fantechi; in symplectic geometry it was done by Li-Tian.
 
-Why do we want to use a "virtual" fundamental class? Because \bar M_{g,n}(x,\beta) is not smooth, the actual fundamental class may not behave very well. **NEEDS ELUCIDATION -- it would be nice if someone could give a more complete explanation of why we need a _virtual_ fundamental class**
+Why do we want to use a "virtual" fundamental class? Because \bar M_{g,n}(x,\beta) is not smooth, the actual fundamental class may not behave very well. **NEEDS ELUCIDATION -- it would be nice if someone could give a more complete explanation of why we need a _[[virtual_ fundamental class]]**
 
 
 
