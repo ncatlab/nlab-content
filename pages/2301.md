@@ -91,7 +91,7 @@ with $\mathbf{Spec}_{\mathcal{G}_0}^{\mathcal{G}}$
 =--
 
 +-- {: .un_remark}
-###### Remark ( [[StructuredSpaces|StSp]] p. 38 )
+###### Remark ( [[Structured Spaces|StSp]] p. 38 )
 
 There is a canonical morphism
 
