@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 #2009-04-10
 
+* [[Zoran Škoda]]: I have made additions to [[cardinal number]]: Urs uses a naive set definition where cardinals are equipotence classes of sets hence his cardinals are proper classes; I follow a choice of representative among ordinals ([[well-order]]ed [[transitive set]]s); to this aim I created [[transitive set]], [[ordinal]], [[successor]], [[inaccessible cardinal]]. In doing this I used some intro parts of my lectures on sheaf theory which I currently teach in Zagreb in Croatian (and which initially started with cardinals, universes and categories). 
+
 * [[Urs Schreiber|Urs]]:
 
   * added a remark on the $(\infty,1)$-version at [[Dold-Kan correspondence]]
