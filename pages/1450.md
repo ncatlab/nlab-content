@@ -32,3 +32,11 @@ In this vein, Anders Kock, in a long series of articles, reformulates large part
 # Generalization #
 
 Synthetic differential geometry may be thought of as embedded in the general theory of [[derived smooth manifold]]s and, generally, that of [[structured generalized space]]s.
+
+# Discussion #
+
+[[Eric]]: Mike, have you ever looked into [stochastic calculus](http://en.wikipedia.org/wiki/It%C5%8D%27s_lemma)? I was looking at your "pizza seminar" and was left with the thought that stochastic calculus might also be presented in terms of synthetic differential geometry. To do so, you need a slightly different class of elements $\delta$ such that that $\delta^2\in D$ and $d\delta = 0$. Then the 2-dimensional Taylor expansion becomes the [Ito lemma](http://en.wikipedia.org/wiki/It%C5%8D%27s_lemma):
+
+$$f(t+d,w+\delta) =  f(t,w) + \left(\frac{\partial f}{\partial t} + \frac{1}{2}\frac{\partial^2 f}{\partial w^2}\right) d + \frac{\partial f}{\partial w} \delta.$$
+
+Just curious...
