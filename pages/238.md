@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-21 #
 
+* [[Urs Schreiber|Urs]]: edited [[geometric infinity-function theory]] to go along with [this](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html#c023356) blog message
+
 *  [[Toby Bartels]]:
    *  Started to expand on [[dependent product]], but I need to leave now without finishing, so I\'ll let Mike do it.  (^_^)
    *  A request at [[fibered n category]].
