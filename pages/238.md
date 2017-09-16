@@ -13,6 +13,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-05-28 # 
 
+* [[Urs Schreiber|Urs]]
+
+  * created [[category of generalized elements]] as a place for the material that was at [[Exploding a Category]] -- I am voting for not using that explosive terminology
+
+  * expanded [[path category]] and created [[Moore path category]] in the process
+
 * [[David Roberts]]: Added comment to [[plus construction]] re disambiguation (recall the [[Quillen plus construction]]).
 
 
