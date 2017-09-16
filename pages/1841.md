@@ -43,7 +43,7 @@ Physical experiment shows that the electromagnetic field on a pseudo-Riemannian 
 
    Concretely: for any smooth curve $\gamma : S^1 \to X$ and any [[cover]] $\{V_i \to S^1\}$ of $S^1$ refining the pullback of the cover $U$ to $S^1$, and for every triangulation $\{v, e\}$ of $S^1$ subordinate to $\{U_i \to X\}$, i.e. such that there is an index map $\rho$ such that $\gamma(e) \subset U_{\rho(e)}$ and $\gamma(v) \subset U_{\rho(v)}$
 
-the expression
+   the expression
 
    $$
      hol(\gamma) :=
@@ -73,6 +73,7 @@ the expression
      \lambda_{i k} mod 2\pi
      \,.
    $$
+
 
 In total this says precisely that the data
 
