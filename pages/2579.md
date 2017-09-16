@@ -1,8 +1,8 @@
-A __group scheme__ is a [[group object]] in the category of [[schemes]]. In the [[functor of points]] formalism, a commutative group scheme over a scheme $X$ is a functor
+A __group scheme__ is a [[group object]] in the category of [[schemes]]. Therefore it may be considered a generalization of an [[algebraic group]]. In the [[functor of points]] formalism, a group scheme over a scheme $X$ is a functor
 $$
-G: \mathrm{Sch} /X^{op} \to \mathrm{Ab}
+G: (Sch /X)^{op} \to Grp
 $$
-(where [[Ab]] is the category of [[abelian groups]]) such that composition with the forgetful functor $F: \mathrm{Ab} \to \mathrm{Set}$ is [[representable functor|representable]]. 
+(where [[Grp]] is the category of discrete [[groups]]) such that the composition with the forgetful functor $F: Grp \to Set$ is [[representable functor|representable]]. 
 
 See also [[formal group]].
 
@@ -10,8 +10,10 @@ See also [[formal group]].
 
 * M. Demazure, [[Pierre Gabriel|P. Gabriel]], _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970
 
-* W. Waterhouse, William, _Introduction to affine group schemes_, GTM 66, Springer 1979. 
+* W. Waterhouse, _Introduction to affine group schemes_, GTM 66, Springer 1979. 
 
 * D. Mumford, _Abelian varieties_, 1970, 1985.
 
 * J. C. Jantzen, _Representations of algebraic groups_, Acad. Press 1987 (Pure and Appl. Math. vol 131); 2nd edition AMS Math. Surveys and Monog. 107 (2003; reprinted 2007)
+
+[[!redirects group schemes]]
