@@ -1,6 +1,11 @@
-### Purpose of this page ###
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-The purpose of this page is to examine how much of the theory of Hilbert spaces can be done in an "elementary" fashion.  More specifically, to develop as much as possible of the standard theory without using the fact that Hilbert spaces are special normed vector spaces, or special metric spaces.
+
+## Purpose of this page
+
+The purpose of this page is to examine how much of the theory of [[Hilbert space]]s can be done in an "elementary" fashion.  More specifically, to develop as much as possible of the standard theory without using the fact that Hilbert spaces are special normed [[vector space]]s, or special [[metric space]]s.
 
 The reason for trying this is in the spirit of [[centipede mathematics]].  One can view the theory of [[locally convex space|locally convex topological vector spaces]] as the result of pulling off most of the legs of Hilbert spaces, though perhaps one should go one step further and say that Hilbert spaces themselves are the result of pulling the "finite dimensional" leg off the Euclidean centipede.  Indeed, this is almost the standard treatment of LCTVSs except that the usual starting point is [[normed vector space|normed vector spaces]] rather than Hilbert spaces.  In that view, Hilbert spaces are special normed vector spaces rather than normed vector spaces being Hilbert spaces without a leg or two.
 
@@ -8,7 +13,7 @@ Although the intention is that the treatment be elementary, we shall remark on t
 
 We shall work over $\mathbb{C}$ throughout.
 
-### Basic Definitions ###
+## Basic Definitions
 
 We start with the basic definition of an inner product space.
 
