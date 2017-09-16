@@ -9,6 +9,8 @@ Sasha Rosenberg had defended in 1973 dissertation at Moscow State University stu
 
 * video of msri lecture _Noncommutative schemes and spaces_ (Feb 2000) can be found at [msri](http://www.msri.org/publications/ln/msri/2000/interact/rosenberg/1/index.html)
 
+* A. L. Rosenberg, _Topics in noncommutative algebraic geometry, homological algebra and K-theory_, preprint MPIM Bonn 2008-57 [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=3589)
+
 * A. L. Rosenberg, _Almost quotient categories, sheaves and localizations_, 181 p. Seminar on supermanifolds __25__, University of Stockholm, D. Leites editor, 1988 (in Russian; partial remake in English exists)
 
 * A. L. Rosenberg, _Non-commutative affine semischemes and schemes_, Seminar on supermanifolds __26__, Dept. Math., U. Stockholm (1988)
