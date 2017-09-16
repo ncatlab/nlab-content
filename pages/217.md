@@ -1,6 +1,6 @@
 The **Elementary Theory of the Category of Sets**, ETCS for short, is a formulation of [[set theory|set-theoretic]] [[foundations]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]].  The axioms of ETCS can be summed up in one sentence as:
 
-* _The [[Set|category of sets]] is a [[well-pointed topos]] satisfying the [[axiom of choice]]._
+* _The [[Set|category of sets]] is a [[well-pointed topos]] with a [[natural numbers object]] satisfying the [[axiom of choice]]._
 
 ETCS was proposed by [[Bill Lawvere]], who published an undergraduate set-theory textbook using it:
 
