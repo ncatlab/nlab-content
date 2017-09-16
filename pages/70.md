@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
 The term _$\omega$-category_ is used more or less synonymous with [[∞-category]], though the two terms appear with different frequency in different parts of the literature.
 
 Originally, $\omega$-categories were introduced as
