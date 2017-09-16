@@ -341,7 +341,7 @@ _Descent objects_ as they appear in [[descent|descent and codescent]] are natura
 
 * Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf)), published as: Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63.)  Proves that homotopy limits in a 2-category with its natural model structure coincide with 2-categorical [[strict 2-limit|pseudo-limits]], and hence give [[2-limit]]s.
 
-* Jacob Lurie, [Higher topos theory](http://www-math.mit.edu/~lurie/topoibook/highertopoi.pdf).  Lots of stuff about $(\infty,1)$-categories, including the computation of homotopy limits (section 4.2.4).
+* [[Jacob Lurie]], [[Higher Topos Theory]].  Lots of stuff about $(\infty,1)$-categories, including the computation of homotopy limits (section 4.2.4).
 
 * Andre Hirschowitz, Carlos Simpson.  [Descent pour les n-champs](http://arxiv.org/abs/math.AG/9807049).  Probably there is some good stuff in here about homotopy limits and limits in $(\infty,n)$-categories.
 
