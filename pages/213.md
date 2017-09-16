@@ -4,7 +4,7 @@ By $CartSp$ we denote the category
 
 * whose objects are the spaces $\mathbb{R}^n$, $n \in \mathbb{N}$, equipped with their standard smooth structure;
 
-* whose morphisms are all smooth maps of manifolds between these spaces.
+* whose morphisms are all smooth (infinitely differentiable) maps between these spaces.
 
 
 So $CartSp$ is the full subcategory of [[Diff]] consisting of the spaces for $\mathbb{R}^n$ for $n \in \mathbb{N}$.
