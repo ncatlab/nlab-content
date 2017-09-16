@@ -11,6 +11,34 @@ Click on the following links to jump to an anchor point.
 
 * [jump to the second anchor point](http://ncatlab.org/nlab/show/Sandbox#anotheranchor)
 
+Linking to theorems and so forth is even easier.  Make sure you use the **numbered** versions and give each one a label.  For example:
+
+~~~
++-- {: .num_defn #catdef}
+###### Definition
+A **category** has **objects** and **arrows** subject to some boring rules that I can never be bothered to remember.
+=--
+~~~
+
+produces:
+
++-- {: .num_defn #catdef}
+###### Definition
+A **category** has **objects** and **arrows** subject to some boring rules that I can never be bothered to remember.
+=--
+
+The key bit here is the `#catdef`.  That produces the anchor just as in Urs' examples.  We can refer back to this definition using:
+
+~~~
+Definition \ref{catdef} is clearly missing something.
+~~~
+
+Definition \ref{catdef} is clearly missing something.
+
+One caveat: if you want to use references to numbered definitions and theorems and so forth then **every** _numbered_ definition (etc) has to have a label, even if you don't intend referring back to it.  So if we have Definition 1 and Definition 2, and only intend referring back to Definition 2 then Definition 1 still has to have a label.
+
+This only works with anchors produced in definitions and similar.  So \ref{anotheranchor} doesn't work.
+
 ***
 
 Here's a little experiment with the totally awesome all-new, all-singing, all-dancing WYSIWYG SVG editor from the totally awesome all-new, all-singing, all-dancing WYSIWIG Jacques Distler:
