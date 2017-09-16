@@ -292,6 +292,9 @@ Okay, if there's more than just me interested in getting the graphics right then
 
 Internal error?
 
+[[Sandbox/test]]
+[[!include Sandbox/test]]
+
 ****
 
 category: meta
