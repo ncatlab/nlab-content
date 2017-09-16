@@ -1,10 +1,16 @@
-[[!redirects SEC]][[!redirects SEP]]
-[[!redirects SEQ]][[!redirects SER]]
+[[!redirects semiotic congruence]]
+[[!redirects semiotic congruences]]
+[[!redirects semiotic equation]]
+[[!redirects semiotic equations]]
 [[!redirects semiotic equivalence]]
-[[!redirects Semiotic equivalence relation]]
-[[!redirects Semiotic Equivalence Relation]]
+[[!redirects semiotic equivalence class]]
+[[!redirects semiotic equivalence classes]]
+[[!redirects semiotic equivalence relations]]
+[[!redirects semiotic partition]]
+[[!redirects semiotic partitions]]
+[[!redirects SEC]][[!redirects SEP]][[!redirects SEQ]][[!redirects SER]]
 
-A __semiotic equivalence relation__ (SER) is a special type of equivalence relation that arises in the analysis of sign relations.  Any equivalence relation is closely associated with a corresponding set of equivalence classes that partition the underlying set of elements (usually called the _domain_ or the _space_ of the relation).  In the case of a SER, the equivalence classes are called _semiotic equivalence classes_ (SECs) and the partition is called a _semiotic partition_ (SEP).
+A __semiotic equivalence relation__ (SER) is a special type of [[equivalence relation]] that arises in the analysis of [[sign relations]].  Any equivalence relation is closely associated with a corresponding set of [[equivalence classes]] that [[partition]] the underlying set of elements (usually called the _domain_ or the _space_ of the relation).  In the case of a SER, the equivalence classes are called __semiotic equivalence classes__ (SECs) and the partition is called a __semiotic partition__ (SEP).
 
 ## Examples ##
 
@@ -35,6 +41,8 @@ Object & Sign & Interpretant \\
 \mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
 \mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime }
 }$$
+
+The sign relations $L_{\mathrm{A}}$ and $L_{\mathrm{B}}$ have many interesting properties that are not possessed by sign relations in general.  Some of these properties have to do with the relation between signs and their interpretant signs, as reflected in the projections of the sign relations $L_{\mathrm{A}}$ and $L_{\mathrm{B}}$ on the $S I$-plane, notated as $\mathop{proj}_{S I} L_{\mathrm{A}}$ and $\mathop{proj}_{S I} L_{\mathrm{B}}$, respectively.  The 2-adic relations on $S \:\times\: I$ that are induced by these projections are also referred to as the _connotative components_ of the corresponding sign relations, notated as $\mathop{Con} (L_{\mathrm{A}})$ and $\mathop{Con} (L_{\mathrm{B}})$, respectively.  The discussion of these properties is made a little easier by using the following abbreviations.
 
 ## External links ##
 
