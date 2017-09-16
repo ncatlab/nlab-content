@@ -38,7 +38,7 @@ This was realized in
 
 * Graeme Segal, _The definition of conformal field theory_, in: _Topology, Geometry and quantum field theory_, London. Math. Soc. LNS 308, edited by U. Tillmann, Cambridge Univ. Press 2004, 247-343
 
-There the notion of 2-dimensionaspl [[conformal field theory]] is axiomatized as a functor on a category of 2-dimensional cobordisms with conformal structure.
+There the notion of 2-dimensional [[conformal field theory]] is axiomatized as a functor on a category of 2-dimensional cobordisms with conformal structure.
 
 (Apparently a similar definition has been given by Kontsevich, but never published.) The details of the category of conformal cobordisms can get a bit technical and slight variations of Segal's original definition may be necessary. The work by Huang and Kong can be regarded as a further refinement and maybe completion of Segal's program
 
@@ -104,7 +104,7 @@ There are indications that a complete picture of this involves [[groupoidificati
 
 and, more generally [[geometric function theory]]:
 
-a big advancement in the understaing of extended $\sigma$-model QFTs is the discussion in
+a big advancement in the understanding of extended $\sigma$-model QFTs is the discussion in
 
 * David Ben-Zvi, John Francis, David Nadler,
 _Integral Transforms and Drinfeld Centers in Derived Geometry_ ([arXiv](http://arxiv.org/abs/0805.0157))
@@ -127,7 +127,7 @@ A discussion of the relation between extended _FQFT_ and [[AQFT]] with further r
 
 ## homological FQFT (and TCFT) ##
 
-As usual, the problem of constructing FQFT becomes much more tractable when linear approximations are applied. In homological FQFT and in TCFT the Hom-spaces of the cobordism category (the moduli spaces of cobordisms with given punctures/boundaries) are appreoximated by complexes  of chains on them. This leads to formalization of $\infty$-functorial QFT in the context of differential graded algebra.
+As usual, the problem of constructing FQFT becomes much more tractable when linear approximations are applied. In homological FQFT and in TCFT the Hom-spaces of the cobordism category (the moduli spaces of cobordisms with given punctures/boundaries) are approximated by complexes  of chains on them. This leads to formalization of $\infty$-functorial QFT in the context of differential graded algebra.
 
 * Getzler
 
