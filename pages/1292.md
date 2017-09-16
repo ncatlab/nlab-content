@@ -1,0 +1,1 @@
+A [[topologizing subcategory]] of an abelian (or triangulated)  category is __thick__ if it is closed under extensions.
