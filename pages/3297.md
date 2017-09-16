@@ -47,15 +47,7 @@ satisfying 'cocycle equations'
 
 modulo coherent isos, where the $p_i$ are the projections out of $C_2$.
 
-+-- {.query}
-[[Finn Lawler|Finn]]:  Is there a slicker way to define these, or the category of them?  Anyone know a good reference?
-
-[[Mike Shulman]]: One alternate definition is as an indexed functor from (the indexed category represented by) $C$ to $E$.  Maybe that's slicker?
-
-[[Finn Lawler|Finn]]:  Yes, that's much nicer.  Embarassingly, I had to stare at this for quite a while before I realized that it should be just a simple application of Yoneda.  (D'oh!)  But I'm still stuck on the general case, so the paragraph below treats the strict case only.  There must be an elegant way to prove this for a pseudofunctor $E$, but at the moment I'm lost in a maze of twisty little Yoneda lemmas, all different.
-=--
-
-If $E$ is a strict functor, then it determines an internal category $E \in Cat([S^{op},Set])$, and because representables preserve limits $S(-,C_0)$ and $S(-,C_1)$ determine a 'representable' internal category $S(-,C) \in Cat([S^{op},Set])$.  Then an object $P \in E(C_0)$ is equivalent, by the [[Yoneda lemma]], to a natural transformation $F_0 : S(-,C_0) \to E_0$, and similarly $\phi$ determines $F_1 : S(-,C_1) \to E_1$.  It is easy to check that the (strict versions of the) conditions above are equivalent, again by Yoneda, to those making the $F_i$ into the components of an [[functor|internal functor]] $F : S(-,C) \to E$, equivalently a strict indexed functor $S(-,C) \to E$.
+By the [[Yoneda lemma for bicategories]], the object $P$ determines (up to canonical isomorphism) a pseudonatural $\alpha^0 : S(-,C_0) \to E_0$ in $[S^{op},Cat]$, where $S$ is considered as a locally discrete bicategory, and $E_0(X) = ob E X$ considered as a discrete category, such that $\alpha^0(f) \cong f^* P$.  Similarly, $\phi$ determines $\alpha^1 : S(-,C_1) \to E_1 = arr \circ E$, and $\alpha^1(g) \cong g^* \phi$.  It is not hard to check that the conditions above correspond to requiring that the $\alpha^i_X$ form a functor $S(X,C) \to EX$ for each $X$, and pseudonaturality then makes the $C$-diagram $(P,\phi)$ equivalent to an [[indexed functor]] $S(-,C) \to E$.  The category of $C$-diagrams in $E$ is then simply the hom-category $[S^{op},Cat](S(-,C),E)$.
 
 ### Examples
 
