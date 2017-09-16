@@ -254,6 +254,12 @@ $f : C \to D$ of [[groupoids]] is a [[equivalence of categories]] if under the n
 
 #References#
 
+A standard textbook reference is
+
 [chapter 1](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-1.dvi) of 
 
 * **GoerJard**, Goerss, Jardine, _Simplicial homotopy theory_ 
+
+Originally homotopy groups of simplicial sets had been defined in terms of the ordinary [[homotopy group]]s of the [[topological space]]s [[geometric realization|realizing]] them. Apparently the first or one of the first discussions of the purely combinatorial definition is 
+
+* D. Kan, _A combinatorial definition of homotopy groups_ ([jstor](http://www.jstor.org/stable/1970006?seq=8))
