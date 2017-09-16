@@ -3,9 +3,11 @@ Algebraic topology is generally the study of [[functor]]s from [[nice categories
 
 ## Related entries
 
+*  [[basic problems of algebraic topology]]
 *  [[cohomology]]
 *  [[fundamental group]]
 *  [[fundamental groupoid]]
 *  [[homotopy group]]
 *  [[homotopy theory]]
 *  [[nonabelian algebraic topology]]
+*  [[topology]]
