@@ -31,9 +31,9 @@ And that is good, since the stronger condition (the one that you gave, but using
 
 First, thanks for the remarkably quick reply :). Also, thanks for the editing: I'm new here, so I had some trouble with the hyperlink to your paper. 
 
-About the weak case you were referring to above: in my proposed definition, there would be no $\mu:pu\to pv$ to speak of. Even for the usual (i.e. not iso) comma object, I'd ask that $pu\cong p',qu\cong q'$, i.e. isomorphisms, not merely 2-cells (if they were 2-cells, which way would they go, in your version of the definition?). The difference to the iso-comma object would lie only in the fact that for the usual comma object, the square 2-cell (denoted in Mike's definition by $\alpha$) is no longer required to be invertible. 
+About the weak case you were referring to above: in my proposed definition, there would be no $\mu:pu\to pv$ to speak of. Even for the usual (i.e. not iso) comma object, I'd ask that $pu\cong p',qu\cong q'$, i.e. isomorphisms, not merely 2-cells (this is what the definition in the main text says too). The difference to the iso-comma object would lie only in the fact that for the usual comma object, the square 2-cell (denoted in Mike's definition by $\alpha$) is no longer required to be invertible. 
 
-So my understanding is that for bilimits, the factorisation of any other diagram happens up to isomorphism (i.e. $pu\cong p',qu\cong q'$ in our case). On the other hand, the fact that our 2-arrow $\alpha$ is not an isomorphism in the case of a comma object as opposed to the case of an iso-comma object is another matter, specific to this particular kind of limit. 
+So my understanding is that for bilimits, the factorisation of any other "diagram" happens up to isomorphism (i.e. $pu\cong p',qu\cong q'$ in our case). On the other hand, the fact that our 2-arrow $\alpha$ is not an isomorphism in the case of a comma object as opposed to the case of an iso-comma object is another matter, specific to the limit we're looking at. 
 
 I sure hope I'm not screwing this up completely, but even if I am, I'll be happy to have someone straighten these things up for me :) ---[[Alexandru Chirvasitu]]
 
