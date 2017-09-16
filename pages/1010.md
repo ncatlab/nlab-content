@@ -200,3 +200,5 @@ The reason I don't think this page is the place to talk about "small presheaves"
 # Alternative approaches #
 
 * A different, potentially much more elegant and natural proposal for solving the problem to be solved by Grothendieck universes is that described at [[michaelshulman:category of all sets|category of all sets]].  Don't get your hopes up too high, though; even if it works, it isn't quite the category theory you're used to.
+
+category: foundational axiom
