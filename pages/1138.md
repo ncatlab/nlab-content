@@ -46,6 +46,8 @@ $$
   \,.
 $$
 
+More generally, the left adjoint part of any [[geometric morphism]] is called its **inverse image functor**.
+
 #Remarks#
 
-* The other adjoint to the [[direct image]], the [[right adjoint]], is the [[restriction and extension of sheaves|extension]] of sheaves.
+* The other adjoint to the [[direct image]], the [[right adjoint]], is (if it exists) the [[restriction and extension of sheaves|extension]] of sheaves.
