@@ -12,7 +12,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
+
 #2009-05-03
+* [[Tim Porter|Tim]]: 
+
+  * I have put another of the Lexicon series of entries up.  It is [[bar and cobar construction]]. This looks at the differential algebra behind those constructions, and sketches the bar-cobar adjunction. 
+
+  *  I have tried to provide more links to and from this series of 'lexicon' entries. (soon will be finished!)
+
+
 
 * [[Urs Schreiber|Urs]]: 
 
