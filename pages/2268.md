@@ -1,4 +1,10 @@
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Definition#
+
 Let $X$ by a differentiable [[manifold]]. The _tangent Lie algebroid_ $T X$ of $X$ is the [[Lie algebroid]] that corresponds -- in the sense of  [[Lie theory]] -- to 
 
 * the [[codiscrete groupoid]] $X \times X$ of $X$. 
@@ -45,7 +51,7 @@ $$
   \,.
 $$
 
-## relation to flat $\infty$-Lie algebroid valued differential forms ##
+# relation to flat $\infty$-Lie algebroid valued differential forms #
 
 For $\mathfrak{a}$ any other [[Lie algebroid]] or [[Lie infinity-algebroid]], a morphism of [[Lie infinity-algebroid]]s 
 
