@@ -13,6 +13,12 @@ There is much linear algebra you can do with cokernel sofr example, as well as m
 [[Mike Shulman|Mike]]: I changed it to "a" general context; is that satisfactory?  Once we have pages about those other notions, there can be links from here to there.
 
 _Toby_:  I\'ve made the phrasing even weaker.  Abelian categories are pretty cool, but (if you don\'t already have the examples that make it so useful) the definition is a fairly arbitrary place to draw the line.
+
+_Tim_ : I note that sometimes we (collectively) take parts of a discussion and turn it into part of an entry, because of that I would like to note two points here. The first is that the accepted first definition of semi-abelian category is in the Janelidze, Marki, and Tholen (JPAA, but we have a link on the semi-abelian entry.)
+
+The other point is that Tim Van der Linden's thesis does a lot of stuff that could be useful.  It is available online
+http://arxiv.org/abs/math/0607100
+
 =--
 
 # Definition
