@@ -39,3 +39,5 @@ To categorify mathematical constructions properly, one must have understood thei
 
 * Mathematical reality: [I](http://golem.ph.utexas.edu/category/2008/10/mathematical_reality.html), [II](http://golem.ph.utexas.edu/category/2008/11/mathematical_robustness.html)
 
+
+[[!redirects Philosophy]]
