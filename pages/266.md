@@ -146,11 +146,11 @@ $$
 
 It follows in particular that the (right/left) Kan extension exists when $D$ admits weighted [[limit]]s/[[colimit]]s over $C$.
 
-These statements have an elegant formulation in terms of [[end]]s and [[coend]]s (...)
+These statements have an elegant formulation in terms of [[end]]s and [[end|coend]]s (...)
 
 Note, however, that _not_ all Kan extensions (in the universal-transformation sense) are computed in this way, and Kan extensions in that sense can exist even when $D$ does not admit very many limits.  For instance, the Kan extensions that arise in the study of [[derived functor]]s are not computed in this way.
 
-Kan extension that are computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "weak Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
+Kan extensions that are computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "weak Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
 
 
 ## Global definition: adjoint to pullback of functor categories ##
