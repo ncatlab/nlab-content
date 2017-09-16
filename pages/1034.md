@@ -48,8 +48,7 @@ $$\array{
   * &\stackrel{u}{\to}& U
 }$$
 
-(We think of $E$ as being the disjoint union over $U$ of the $E_u$.
-(  Can we make this precise? ))
+We think of $E$ as being the disjoint union over $U$ of the $E_u$.  In the language of indexed categories, this is precisely the case: the object $E\in SET$ is the indexed coproduct of the $U$-indexed family $(E\to U) \in SET/U$.
 
 * By the definition of $U$-smallness and the notation just introduced, 
 an object $S$ in $SET$, regarded as a $*$-indexed family
