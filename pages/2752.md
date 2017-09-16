@@ -23,7 +23,7 @@ f ^ \sharp = ( \pi_1 \circ f, \pi_2 \circ f ) &
 
 (g_1 , g_2) \\
 
-equalisers & C & (\cdot \doublerightarrow \cdot) \to C &
+equalisers & C & (\bullet \rightrightarrows \bullet) \to C &
 L X = (\id_X,\id_X) & R (g_1,g_2) = eq(g_1,g_2) &
 
 &&&
