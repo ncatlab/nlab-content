@@ -9,3 +9,7 @@ This means that a finite category consists of
 Similarly, a **locally finite category** is a category [[enriched category|enriched]] over $Fin Set$, that is a category whose [[hom-set]]s are all finite.
 
 (Locally) finite categories may also be called (locally) **$\mathbf{N}$-small**; this generalises from $\mathbf{N}$ (the set of [[natural number]]s) to (other) [[Grothendieck universe]]s.
+
+# Limits and colimits
+
+One is often interested in whether an arbitrary category $D$ has [[limit]]s and [[colimit]]s indexed by finite categories.  A category with all finite limits is called **[[finitely complete category|finitely complete]]** or **left exact** (or **lex** for short).  A category with all finite colimits is called **finitely cocomplete** or **right exact**.
