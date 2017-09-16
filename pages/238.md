@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * started an entry [[abelian sheaf cohomology]], but have just the "Idea"-section so far (aiming to provide the right $\infty$-categorical perspective)
+
   * provided, using [[Todd Trimble|Todd]]'s help, the details on the relations between the two definitions at [[closed monoidal structure on presheaves]] and created a supplementary entry [[functors and comma categories]] on properties of, well, functors on comma categories
 
 
