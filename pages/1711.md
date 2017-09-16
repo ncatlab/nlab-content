@@ -1,3 +1,4 @@
+[[!redirects (n,j)-transformation]]
 ## Idea
 
 An $(n,k)$-transformation is an operation from one $n$-[[n-category|category]] $C$ to another $D$ that takes [[object]]s of $C$ to $k$-[[k-morphism|morphism]]s of $D$ (and more generally $j$-morphisms in $C$ to $(j+k)$-morphisms in $D$) in a coherent way.
@@ -5,7 +6,7 @@ An $(n,k)$-transformation is an operation from one $n$-[[n-category|category]] $
 This is a common generalisation of $n$-[[n-functor|functor]]s (which are $(n,0)$-transformations), [[natural transformation]]s (which are $(1,1)$-transformations), [[modification]]s (which are $(2,2)$-transformations), and others.
 
 +-- {: .query}
-I have just begun to learn about $2$-categories and all the $j$-morphisms in $2Cat$ (everything strict, for the beginning). Now I am confused about this entry in the nlab.
+_Sebastian_: I have just begun to learn about $2$-categories and all the $j$-morphisms in $2Cat$ (everything strict, for the beginning). Now I am confused about this entry in the nlab.
 
 What do you mean exactly by an "operation"? Let's take $2Cat$. I thought
 - a $2$-functor (= functor = $(2, 0)$-transformation) $F: C \to D$ would consist of three maps, $Ob C \to Ob D$, $Mor C \to Mor D$ and $Mor_2 C \to Mor_2 D$,
@@ -28,6 +29,7 @@ For the simplicial case, by the way, this is even simpler and even more well kno
 
 As a references for strict 2-functors etc. you have to excuse me if the appendix of [this](http://arxiv.org/PS_cache/arxiv/pdf/0802/0802.0663v2.pdf#page=60) comes to my mind first. That at least is guaranteed to have the pictures that we are looking for in the context of the present discussion.
 
+_Sebastian_: Thank you very much for your comments! This was really helpful!
 =--
 
 
