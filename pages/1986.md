@@ -28,6 +28,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[David Roberts]]: Re: [[category theory]] - Toby, go ahead. In particular, I found last night the [[foundations and philosophy]] page about which some comments were directed (the people involved, including me, didn't know it already existed). There is a link to a paper on [[category theory]] about structuralism which might go there, as well as the (short) discussion surrounding it.
 
+  * [[David Corfield]]: re [[foundations and philosophy]], I can't do more than log its creation here (see 2009-08-17). Now to find time to write it up.
+
 
 ## 2009-08-19
 
