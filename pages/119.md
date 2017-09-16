@@ -4,9 +4,9 @@ A preorder is like a [[partial order]], but without the requirement that $x \le 
 
 #Definition
 
-A set equipped with a **preorder** is a [[category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$. In other words, it's a category [[enriched category theory|enriched]] over the category of [[truth value]]s.
+A set equipped with a **preorder** is a ([[small category|small]]) [[category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$. In other words, it's a category [[enriched category theory|enriched]] over the category of [[truth value]]s.
 
-People who call a partially ordered set a '[[poset]]' and a totally ordered set a '[[toset]]' may enjoy calling a preordered set a '[[proset]]'.  While nonstandard, this term is occasionally used here on the $n$Lab.
+People who call a partially ordered set a '[[poset]]' and a totally ordered set a '[[toset]]' may enjoy calling a preordered set a '[[proset]]'.  While nonstandard, this term is occasionally used here on the $n$Lab.  It is also not uncommon to see "preorder" used in the literature to mean "set equipped with a preorder."
 
 #Fact
 
