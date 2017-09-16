@@ -43,10 +43,10 @@ where
 
 See [proposition 1.2.9.2, p. 44](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=44) and the text leading to and including [proposition 1.2.9.3](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=44) of
 
-* J. Lurie, _Higher topos theory_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf))
-
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 
 [[!redirects over-category in quasi-categories]]
+[[!redirects over quasi-categories]]
 [[!redirects over quasicategory]]
 [[!redirects over-quasi-category]]
 [[!redirects over-quasicategory]]
