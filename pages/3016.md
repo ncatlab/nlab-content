@@ -31,7 +31,7 @@ Similar to the statement that
 
 the nPOV asserts that
 
-> Nothing in mathematics makes sense except in the light of [[higher category theory]].
+> Nothing in mathematics makes sense except in the light of [[higher category theory|higher]] [[category theory]].
 
 =--
 
