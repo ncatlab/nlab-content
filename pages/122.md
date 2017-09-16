@@ -11,6 +11,7 @@
 
 Just as [[functor|functors]] is a [[morphism]] between [[category|categories]], a natural transformations is a morphism between two functors.
 
+
 ## Definition ##
 
 Given categories $C$ and $D$ and functors $F, G:C \to D,$ a __natural transformation__ $\alpha:F \Rightarrow G$, denoted
@@ -139,7 +140,7 @@ $$
 $$ 
 
 
-## in terms of double categories ##
+## In terms of double categories ##
 
 There is a nice way of describing these structures due to [[Charles Ehresmann]]. For a category $D$ let $(\square D,\circ_1,\circ_2)$  be the double category of commutative squares in $D$. Then the class of natural transformations of functors $C \to D$ can be described as $Cat(C,(\square D,\circ_1))$. But then $\circ_2$ induces a category structure on this and so we get $CAT(C,D)$. 
 
@@ -147,8 +148,17 @@ An advantage of this approach is that it applies to the case of topological cate
 
 An analogous approach works for strict cubical $\omega$-categories with connections, using the good properties of [[cube]]s, so leading to a [[closed monoidal category|monoidal closed structure]] for these objects. This yields by an [[equivalence of categories]] a monoidal closed structure on [[strict omega-category|strict globular omega-categories]], where the [[tensor product]] is the [[Crans-Gray tensor product]].
 
+
+## Variations
+
+For functors between [[n-category|higher categories]], see [[lax natural transformation]] etc.
+
+A transformation which is natural only relative to [[isomorphisms]] may be called a [[canonical transformation]].
+
+
 ## Discussion 
 
 * See [[natural transformation (discussion)]] for an informal discussion about natural transformations.
+
 
 [[!redirects natural transformations]]
