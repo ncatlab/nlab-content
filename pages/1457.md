@@ -6,7 +6,7 @@ A **metric space** is a set which comes equipped with a function which measures 
 
 Traditionally, a metric space is defined to be a [[set]] $X$ equipped with a function 
 $$d: X \times X \to [0, \infty)$$ 
-(valued in nonnegative [[real number]]s) satisfying the following axioms: 
+(valued in nonnegative [[real numbers]]) satisfying the following axioms: 
 * Triangle inequality: $d(x, y) + d(y, z) \geq d(x, z)$;
 * Point inequality: $0 \geq d(x, x)$ (so $0 = d(x,x)$);
 * Separation: $x = y$ if $d(x, y) = 0$ (so $x = y$ iff $d(x,y) = 0$);
@@ -14,7 +14,7 @@ $$d: X \times X \to [0, \infty)$$
 
 Given a metric space $(X, d)$ and a point $x \in X$, the _open ball_ centered at $x$ of radius $r$ is 
 $$B_r(x) = \{y \in X: d(x, y) \lt r\}$$ 
-and it may be shown that the open balls form a basis for a [[topological space|topology]] on $X$. In fact, metric spaces are examples of [[uniform space]]s, and much of the general theory of metric spaces, including for example the notion of completion of a metric space, can be extrapolated to uniform spaces and even [[Cauchy space]]s.
+and it may be shown that the open balls form a basis for a [[topological space|topology]] on $X$. In fact, metric spaces are examples of [[uniform spaces]], and much of the general theory of metric spaces, including for example the notion of completion of a metric space, can be extrapolated to uniform spaces and even [[Cauchy spaces]].
 
 As topological spaces, metric spaces enjoy a number of separation properties: they are [[Hausdorff space|Hausdorff]], regular, and even normal. They are also paracompact. 
 
@@ -30,9 +30,9 @@ then we get __ultrametric spaces__, a more restricted concept.  (This include fo
 
 Lawvere has pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the monoidal product is taken to be addition.  Taking the monoidal product to be supremum instead, enriched categories amount to Lawvere ultrametric spaces.
 
-Thus generalized, many constructions and results on metric spaces turn out to be special cases of yet more general constructions and results of enriched category theory.  This includes for example the notion of (Cauchy) completion, which in general enriched category theory is related to [[Karoubi envelope]]s and [[Morita equivalence]]. 
+Thus generalized, many constructions and results on metric spaces turn out to be special cases of yet more general constructions and results of enriched category theory.  This includes for example the notion of (Cauchy) completion, which in general enriched category theory is related to [[Karoubi envelopes]] and [[Morita equivalence]]. 
 
-One would like to say that imposing the symmetry axiom gives us [[enriched groupoid]]s, which is correct for ultrametric spaces.  It\'s not clear, however, what this means for more general metric spaces, since the enriching category is then not [[cartesian monoidal category|cartesian]].
+One would like to say that imposing the symmetry axiom gives us [[enriched groupoids]], which is correct for ultrametric spaces.  It\'s not clear, however, what this means for more general metric spaces, since the enriching category is then not [[cartesian monoidal category|cartesian]].
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Perhaps it would be more accurate to say that the symmetry axiom gives us enriched $\dagger$-[[dagger category|categories]]?
