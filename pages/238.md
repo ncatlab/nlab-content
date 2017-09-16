@@ -13,6 +13,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-19
 
+* [[Zoran Škoda]]: moved the earlier material from entry algebra to new entry [[associative unital algebra]], and put new material into [[algebra]]; one should have separate entry for any framework for algebras, and general entry [[algebra]] should have pointers to the major classes (like [[algebra over operad]]). 
+
 * [[Andrew Stacey|Andrew]]: Added some more to [[Froelicher space]].  I've started on a new project on this: adapting topological notions to Froelicher spaces.
 
 * [[Urs Schreiber|Urs]]: 
