@@ -24,7 +24,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-09-13
+
+*  [[Toby Bartels]]:  Not done at [[graph of a function]], Eric!
 
 * [[Jon Awbrey]] expunged an assortment of ephemeral animadversions at [[graph]].
 
