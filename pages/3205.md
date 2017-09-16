@@ -1,3 +1,14 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
++-- {: .query}
+
+[[Urs Schreiber]]: I added the code that induces the production of the above automatic table of contents (see the source code). Looking at it may help to organize the content of the (long) entry a bit.
+
+=--
+
 ##Idea
 
 A very interesting discussion took place at the **nForum** involving [[André Joyal]], [[Urs Schreiber]], and others:
