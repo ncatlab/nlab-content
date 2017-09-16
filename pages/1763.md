@@ -1,7 +1,7 @@
 Stratifolds are a generalization of smooth [[manifold]]s -- a notion of [[generalized smooth space]] --  which were introduced by Kreck; see his [lecture notes](http://www.him.uni-bonn.de/files/kreck-DA24_08_07.pdf). 
 
 Stratifolds comprise one of the many variants of the concept of a [[stratified space]], and they may include some types of singularities.
-Formally they form a class of _differential spaces_, which are pairs $(S,C)$ of a [[topological space]] $S$ together with an subalgebra $C$ of the algebra of continuous real-valued functions $S\to R$ such that 
+Formally they form a class of [[differential module|differential modules]], which are pairs $(S,C)$ of a [[topological space]] $S$ together with an subalgebra $C$ of the algebra of continuous real-valued functions $S\to R$ such that 
 
 1) $C$ is locally detectable, i.e. for all continuous functions $f: S\to R$, $f$ is in $C$ iff for every $x\in S$ there exist an open neighborhood $U\ni x$ and $g\in C$ such that $g|_U = f|_U$,  
 
