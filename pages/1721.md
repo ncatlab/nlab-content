@@ -2,10 +2,8 @@
 
 such as
 
-* [[Eilenberg-MacLane spectrum]]
-
-* [[K-theory spectrum]]
-
+* the [[Eilenberg–Mac Lane spectrum]]
+* the [[K-theory spectrum]]
 * [[tmf]]
 
 ...
