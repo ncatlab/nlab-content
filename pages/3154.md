@@ -1,4 +1,5 @@
-There are at least two Alexander Rosenberg's: 
+
+There are at least two Alexander Rosenbergs: 
 
 * an (older) algebraist Alex or Alexander Rosenberg known from Hochschild-Kostant-Rosenberg's theorem and many other articles in [[algebra]] 
 
@@ -25,3 +26,6 @@ Sasha Rosenberg had defended in 1973 dissertation at Moscow State University stu
 * M. Kontsevich, A. Rosenberg, Noncommutative smooth spaces, ([arXiv:math/9812158](http://arxiv.org/abs/math/9812158))
 
 * A. Rosenberg, [Homological algebra of noncommutative 'spaces' I](http://www.mpim-bonn.mpg.de/preprints/send?bid=3623), 199 pages, preprint Max Planck, Bonn: MPIM2008-91.
+
+
+category: people
