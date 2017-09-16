@@ -278,4 +278,4 @@ one can try defining fund. groupoid along such terms, that is implicit in the wo
 As far as historical info we should keep looking for it (including original usage of "monodromy"); it is instructive and shows some curious geometrical insights in old papers. 
 =--
 
-
+[[!redirects local systems]]
