@@ -72,6 +72,10 @@ Now that the category of contexts of the theory of a group has been completely d
 In [rot13](http://www.rot13.com/): gur bccbfvgr bs gur pngrtbel bs svavgryl cerfragrq tebhcf.
 =--
 
++--{.query}
+[[Finn Lawler]] Shouldn't that be 'gur bccbfvgr bs gur pngrtbel bs *svavgryl trarengrq serr tebhcf*'?
+=--
+
 # Display morphisms
 
 ...
