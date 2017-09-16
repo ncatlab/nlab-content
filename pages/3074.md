@@ -20,7 +20,7 @@ The [[category]] $Cob_0$ of 0-dimensional [[cobordism]]s is the [[symmetric mono
 A **0-dimensional [[TQFT]]** (with values in $\mathbb{Z}$-[[module]]s) is a [[monoidal functor]]
 
 $$
-  Z\colon Cob_0\to \mathbb {Z}-modules
+  Z\colon Cob_0\to \mathbb {Z} Mod
   \,.
 $$
 
