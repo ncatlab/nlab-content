@@ -353,4 +353,6 @@ A categorification in dimension 2 is a codomain 2-fibration, whose main example 
 
 +--{: .query}
 [[Mike Shulman]]: I still don't believe that that is a 2-fibration.  How do you lift the 2-cells?
+
+[[David Roberts]]: How does one lift the 2-cells in a 2-fibration anyway? The case of $Cat^\mathbf{2}\to Cat$ (using weak 2-functors in $Cat^\mathbf{2}$) should in my opinion be an guiding example for this. Although, perhaps it would be better to consider (at least at first) the underlying (2,1)-category or even the (2,1)-category $Gpd$.
 =--
