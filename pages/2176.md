@@ -750,7 +750,7 @@ f_{5}
 f_{6}
 &amp; f_{0110}
 &amp; 0\:1\:1\:0
-&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
 &amp; p \:\mathop{not equal to}\: q
 &amp; p \ne q
 \\
@@ -771,7 +771,7 @@ f_{8}
 f_{9}
 &amp; f_{1001}
 &amp; 1\:0\:0\:1
-&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
 &amp; p \:\mathop{equal to}\: q
 &amp; p = q
 \\
@@ -895,14 +895,14 @@ f_{12}
 f_{6}
 &amp; f_{0110}
 &amp; 0\:1\:1\:0
-&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
 &amp; p \:\mathop{not equal to}\: q
 &amp; p \ne q
 \\
 f_{9}
 &amp; f_{1001}
 &amp; 1\:0\:0\:1
-&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
 &amp; p \:\mathop{equal to}\: q
 &amp; p = q
 \\
@@ -975,19 +975,19 @@ $\array{
 \phantom{xxxx} f \phantom{xxxx}
 &amp;
 \phantom{xxxx}
-\array{\mathop{T}_{11} f \\ \mathop{E} f|_{\mathop{d}p \: \mathop{d}q} }
+\array{\mathop{T}_{11}f \\ \mathop{E}f|_{\mathop{d}p \: \mathop{d}q} }
 \phantom{xxxx}
 &amp;
 \phantom{xxxx}
-\array{\mathop{T}_{10} f \\ \mathop{E} f|_{\mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;}} }
+\array{\mathop{T}_{10}f \\ \mathop{E}f|_{\mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;}} }
 \phantom{xxxx}
 &amp;
 \phantom{xxxx}
-\array{\mathop{T}_{01} f \\ \mathop{E} f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q} }
+\array{\mathop{T}_{01}f \\ \mathop{E}f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q} }
 \phantom{xxxx}
 &amp;
 \phantom{xxxx}
-\array{\mathop{T}_{00} f \\ \mathop{E} f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}} }
+\array{\mathop{T}_{00}f \\ \mathop{E}f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}} }
 \phantom{xxxx}
 \\
 f_{0}
@@ -1040,18 +1040,18 @@ f_{12}
 &amp; p
 \\
 f_{6}
-&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
-&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
-&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
-&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
-&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
 \\
 f_{9}
-&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
-&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
-&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
-&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
-&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
 \\
 f_{5}
 &amp; \text{&#x2997;} q \text{&#x2998;}
@@ -1126,19 +1126,19 @@ $\array{
 \phantom{xxxx} f \phantom{xxxx}
 &amp;
 \phantom{xxxx}
-\mathop{D} f|_{\mathop{d}p \: \mathop{d}q}
+\mathop{D}f|_{\mathop{d}p \: \mathop{d}q}
 \phantom{xxxx}
 &amp;
 \phantom{xxxx}
-\mathop{D} f|_{\mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;}}
+\mathop{D}f|_{\mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;}}
 \phantom{xxxx}
 &amp;
 \phantom{xxxx}
-\mathop{D} f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q}
+\mathop{D}f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q}
 \phantom{xxxx}
 &amp;
 \phantom{xxxx}
-\mathop{D} f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}}
+\mathop{D}f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}}
 \phantom{xxxx}
 \\
 f_{0}
@@ -1150,28 +1150,28 @@ f_{0}
 \\
 f_{1}
 &amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
-&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
 &amp; \text{&#x2997;} q \text{&#x2998;}
 &amp; \text{&#x2997;} p \text{&#x2998;}
 &amp; \text{&#x2997;} \: \text{&#x2998;}
 \\
 f_{2}
 &amp; \text{&#x2997;} p \text{&#x2998;} \: q
-&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
 &amp; q
 &amp; \text{&#x2997;} p \text{&#x2998;}
 &amp; \text{&#x2997;} \: \text{&#x2998;}
 \\
 f_{4}
 &amp; p \: \text{&#x2997;} q \text{&#x2998;}
-&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
 &amp; \text{&#x2997;} q \text{&#x2998;}
 &amp; p
 &amp; \text{&#x2997;} \: \text{&#x2998;}
 \\
 f_{8}
 &amp; p \: q
-&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
 &amp; q
 &amp; p
 &amp; \text{&#x2997;} \: \text{&#x2998;}
@@ -1191,14 +1191,14 @@ f_{12}
 &amp; \text{&#x2997;} \: \text{&#x2998;}
 \\
 f_{6}
-&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
 &amp; \text{&#x2997;} \: \text{&#x2998;}
 &amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
 &amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
 &amp; \text{&#x2997;} \: \text{&#x2998;}
 \\
 f_{9}
-&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
 &amp; \text{&#x2997;} \: \text{&#x2998;}
 &amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
 &amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
@@ -1220,28 +1220,28 @@ f_{10}
 \\
 f_{7}
 &amp; \text{&#x2997;} p \: q \text{&#x2998;}
-&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
 &amp; q
 &amp; p
 &amp; \text{&#x2997;} \: \text{&#x2998;}
 \\
 f_{11}
 &amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
-&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
 &amp; \text{&#x2997;} q \text{&#x2998;}
 &amp; p
 &amp; \text{&#x2997;} \: \text{&#x2998;}
 \\
 f_{13}
 &amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
-&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
 &amp; q
 &amp; \text{&#x2997;} p \text{&#x2998;}
 &amp; \text{&#x2997;} \: \text{&#x2998;}
 \\
 f_{14}
 &amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
-&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
 &amp; \text{&#x2997;} q \text{&#x2998;}
 &amp; \text{&#x2997;} p \text{&#x2998;}
 &amp; \text{&#x2997;} \: \text{&#x2998;}
@@ -1252,6 +1252,138 @@ f_{15}
 &amp; \text{&#x2997;} \: \text{&#x2998;}
 &amp; \text{&#x2997;} \: \text{&#x2998;}
 &amp; \text{&#x2997;} \: \text{&#x2998;}
+}$
+</td>
+</table>
+
+## Transforms Expanded over Ordinary Features ##
+
+<table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1" style="text-align:center">
+<caption><font size="+2">
+$\text{Table A5.} \quad \mathop{E}f \:\text{Expanded Over Ordinary Features}\: \{ p, q \}$
+</font></caption>
+<td>
+$\array{
+\arrayopts{
+\collines{solid}
+\rowlines{solid solid none none none solid none solid none solid none solid none none none solid}}
+&amp; \phantom{xxxx} f \phantom{xxxx}
+&amp; \phantom{xxxx} \mathop{E}f|_{p \: q} \phantom{xxxx}
+&amp; \phantom{xxxx} \mathop{E}f|_{p \: \text{&#x2997;} q \text{&#x2998;}} \phantom{xxxx}
+&amp; \phantom{xxxx} \mathop{E}f|_{\text{&#x2997;} p \text{&#x2998;} \: q} \phantom{xxxx}
+&amp; \phantom{xxxx} \mathop{E}f|_{\text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}} \phantom{xxxx}
+\\
+f_{0}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+\\
+f_{1}
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; \mathop{d}p \: \mathop{d}q
+&amp; \mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q
+&amp; \text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}
+\\
+f_{2}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
+&amp; \mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+&amp; \mathop{d}p \: \mathop{d}q
+&amp; \text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q
+\\
+f_{4}
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q
+&amp; \text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}
+&amp; \mathop{d}p \: \mathop{d}q
+&amp; \mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+\\
+f_{8}
+&amp; p \: q
+&amp; \text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q
+&amp; \mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+&amp; \mathop{d}p \: \mathop{d}q
+\\
+f_{3}
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; \mathop{d}p
+&amp; \mathop{d}p
+&amp; \text{&#x2997;} \mathop{d}p \text{&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \text{&#x2998;}
+\\
+f_{12}
+&amp; p
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; p
+&amp; p
+\\
+f_{6}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \text{&#xFE50;} \mathop{d}q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \mathop{d}p \text{&#xFE50;} \mathop{d}q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \mathop{d}p \text{&#xFE50;} \mathop{d}q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \text{&#xFE50;} \mathop{d}q \text{&#x2998;}
+\\
+f_{9}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \mathop{d}p \text{&#xFE50;} \mathop{d}q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \text{&#xFE50;} \mathop{d}q \text{&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \text{&#xFE50;} \mathop{d}q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \mathop{d}p \text{&#xFE50;} \mathop{d}q \text{&#x2998;&#x2998;}
+\\
+f_{5}
+&amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; \mathop{d}q
+&amp; \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+&amp; \mathop{d}q
+&amp; \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+\\
+f_{10}
+&amp; q
+&amp; \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+&amp; \mathop{d}q
+&amp; \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+&amp; \mathop{d}q
+\\
+f_{7}
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q \text{&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \: \mathop{d}q \text{&#x2998;}
+\\
+f_{11}
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \: \mathop{d}q \text{&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}
+\\
+f_{13}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \: \mathop{d}q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q \text{&#x2998;}
+\\
+f_{14}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \: \mathop{d}q \text{&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}
+\\
+f_{15}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
 }$
 </td>
 </table>
