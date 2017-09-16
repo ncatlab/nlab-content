@@ -299,6 +299,49 @@ We have:
 * A presheaf $A$ is $W$-local, i.e. local with respect to all [[local isomorphism]]s, if and only if it is local already with respect to all local isomorphisms which are monomorphisms, i.e. all [[dense monomorphism]], i.e. if and only if it satisfies sheaf condition for all covering [[sieve]]s.
 =--
 
+
++-- {: .un_lemma}
+###### Lemma (Sheafification)
+
+For $A$ a presheaf, its [[sheafification]] $\bar A := f_* f^* A$ is the presheaf given by
+
+$$
+  \bar A : U \mapsto colim_{(Y \to U) \in W} A(U)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[geometric embedding]] the category $Sh(S)$ is equivalent to the [[localization]] $PSh(S)[W^{-1}]$, which in turn is the category with the same objects as $PSh(S)$ and with morphisms given by spans out of hypercovers in $W$
+
+$$
+  PSh(S)[W^{-1}](X,A) =
+  colim_{(Y \to X) \in W} A(X)
+  \,.
+$$
+
+So we have
+
+$$
+  Sh(S) &\stackrel{\stackrel{f^*}{\leftarrow}}{\stackrel{f_*}{\to}}&
+  PSh(S)
+  \\
+  & \searrow^{\simeq}& \downarrow
+  \\
+  &&
+  PSh(S)[W^{-1}]
+  \,.
+$$
+
+By the [[Yoneda lemma]] we get $\bar A(U) = PSh_S(U, \bar A)$. By the hom-adjunction this is $\cdots \simeq Sh_S(\bar U, \bar A)$. By the equivalence just mentioned this is
+$\cdots \simeq PSh_S[W^{-1}](U,A)$.
+
+=--
+
+
+
 **Remark: covers versus hypercovers**
 
 Notice that for checking the sheaf condition the [[dense monomorphism]]s, i.e. the ordinary [[cover]]s are sufficient. But for [[sheafification]] one really needs the [[local isomorphism]]s, which are [[hypercover]]s. 
