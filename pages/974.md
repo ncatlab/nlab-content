@@ -13,6 +13,10 @@ A locally presentable category is one where every [[object]] is a [[colimit]] ov
 
 ## Definition ##
 
++-- {: .un_defn}
+###### Definition
+**(locally presentable category)**
+
 A [[category]] $C$ is called **locally presentable** if
 
 * $C$ is [[locally small category]];
@@ -23,16 +27,47 @@ A [[category]] $C$ is called **locally presentable** if
 
   (every object may be written as a colimit over a diagram with objects in $S$)
 
-* every object is a [[small object]],
+* every object is a [[small object]].
 
-More abstractly, this is equivalently characterized by saying
+=--
 
-* Locally presentable categories are precisely the categories of [[sketch|models of limit-sketches]].
+More specifically
+
+
++-- {: .un_defn}
+###### Definition
+**($\kappa$-locally presentable category)**
+
+For $\kappa$ a [[cardinal number|regular cardinal]], a **locally $\kappa$-presentable category** is defined like a presentable category, only that every object is required to be a $\kappa$-[[compact object]].
+
+=--
+
+So a locally presentable category is one which is locally $\kappa$-presentable for some regular cardinal $\kappa$.
+
+A locally $(\kappa = \aleph_0)$-presentable category is called a **locally finitely presentable category**.
+
+### Equivalent definitions
+
+There are various equivalent statements of this definition.
+
++-- {: .un_prop}
+###### Proposition
+**(as finite limit sketches)**
+
+Locally presentable categories are precisely the categories of [[sketch|models of limit-sketches]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is theorem _xyz_ in _AdRo_ .
+
+=--
+
+
 
 ### Variations ###
-
-
-* If the generating set $S$ consists of $\kappa$-small objects (usually called "$\kappa$-presentable" in this context), then the category is said to be "locally $\kappa$-presentable."  Of particular importance are [[locally finitely presentable categories]], the special case when $\kappa=\omega$.
 
 *  The generalization of the concept to the context of [[(infinity,1)-category|(infinity,1)-categories]] is [[presentable (infinity,1)-category]].
 
@@ -51,9 +86,15 @@ Another notion of "presentable category" is [[algebraic category|equationally pr
 
 ### Locally finitely presentable categories ###
 
-A locally presentable category is _finitely_ presentable if it is locally $\kappa$-representable for $\kappa = \Aleph_0$.
+The locally $\kappa$-presentable categories for $\kappa = \aleph_0$.
 
-* [[Set]] is locally finitely presentable: every [[set]] is the directed colimit of all its finite [[subset]]s, and there is a countable set of finite sets.
+* [[Set]] is locally finitely presentable: 
+
+  * as the set of generators take the set containing one finite set of cardinality $n \in \mathbb{N}$ for all $n$.
+
+  * every [[set]] is the [[directed colimit]] over the [[poset]] of all its finite [[subset]]s.
+
+  * a set $S \in Set$ is a $\kappa$-[[compact object]] precisely if it has cardinality $|S| \lt \kappa$. So all finite sets are $\aleph_0$-compact.
 
 * Analogously categories such as [[Grp]] are locally finitely presentable.
 
@@ -67,15 +108,18 @@ A locally presentable category is _finitely_ presentable if it is locally $\kapp
 
 ### Locally presentable categories
 
+* A [[poset]], considered as a category, is locally presentable precisely if it is a complete [[lattice]].
+
 * the category [[SSet]] of [[simplicial set]]s;
 
-* for $C$ a [[small category]], the [[functor category]] $Funct(C,SSet)$. 
+* the category $dSet$ of [[dendroidal set]]s.
+
+* for $C$ a [[small category]] the [[functor category]] $Funct(C,SSet)$ of [[simplicial presheaf|simplicial presheaves]]. 
 
 ### Combinatorial model categories ###
 
 A [[combinatorial model category]] is a [[model category]] that is in particular a locally presentable category.
 
-The left [[Bousfield localization]] of a left [[proper model category|proper]] [[combinatorial model category]] is again combinatorial and hence again locally presentable. 
 
 
 ## References ##
@@ -86,7 +130,7 @@ The definition is due to
 
 The standard textbook is
 
-* Jiri Adamek, Jiri Rosicky, _Locally presentable and accessible categories_
+* **AdRo** Jiri Adamek, Jiri Rosicky, _Locally presentable and accessible categories_
 
 See also section A.1.1 of 
 
