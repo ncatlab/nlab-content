@@ -13,6 +13,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 #2009-04-02
 
+* [[Tim Porter|Tim]]: 
+
+  * I have put another of the Lexicon series of entries up.  It is [[differential graded Hopf algebra]]. 
+
 * [[Urs Schreiber|Urs]]:
 
   * reorganized the entry [[mathematics]] a bit -- I am hoping that eventually this becomes a useful top of a small hierarchy of link-list entries which allow the reader to get an idea of the scope of topics covered (and not yet covered) by the $n$Lab, and possibly to facilitate searches by topic rather than by keyword
