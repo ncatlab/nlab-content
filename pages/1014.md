@@ -75,9 +75,9 @@ In this representation, a pure set is a _rigid rooted directed tree_, possibly a
 
    [[Mike Shulman]]: Building a model of the natural numbers is not a valid comparison.  A valid comparison is building a model of ZF+CH.  You cannot (if ZF is consistent) build a model of ZF+CH **in** ZF, since then ZF would prove Con(ZF+CH) and hence Con(ZF), violating the incompleteness theorem.  Rather, one starts with a model of ZF in some metatheory (which can be *significantly weaker* than ZF, although what this metatheory is is rarely made formal), and constructs in that metatheory a model of ZF+CH.  The same is true here.
 
-   _Toby_:  I really don\'t understand what your concern is, AN.  You cannot construct a model of $\mathbf{ZFC}$ in $\mathbf{SEARC}$, any more than you can construct a model of $\mathbf{ZFC}$ in $\mathbf{ZFC}$.  You *can* build a model of the natural numbers, if you mean a model of something like $\mathbf{PA}$ (Peano arithmetic) in $\mathbf{SEARC}$, of course; you can do it the same way as you do it in $\mathbf{ZFC}$, since the hierarchical classification of sets plays no role in this (once you have the set of natural number in hand).  But I don\'t think that this can be what you\'re asking about.
+   _Toby_:  The natural numbers also appear below as the example $\omega$.  But there is no difficulty at all in constructing that particular example in $\mathbf{SEARC}$.
 
-   The natural numbers also appear below as the example $\omega$.  But there is no difficulty at all in constructing that particular example in $\mathbf{SEARC}$.
+   I suppose that a model of $\mathbf{SEARC}$ *would* give a notion of equality of object-sets (depending on what you model it in), but there is still no equality of sets in the language of $\mathbf{SEARC}$; you might as well complain that there is a countable model (in which every type is represented by a countable set) and so there must be a proof in $\mathbf{SEARC}$ that every set is countable.
    =--
 *  Every directed graph generates a [[quiver]], a category whose morphisms are called __paths__.
 *  A __[[tree]]__ (technically, a _directed rooted tree_) is a simple directed graph equipped with a __root__ node $r$ that is a [[terminal object]] of the quiver (meaning that every node has a unique path to the root).
@@ -88,12 +88,15 @@ In this representation, a pure set is a _rigid rooted directed tree_, possibly a
 
    _Toby_:  I wrote 'must be' because I was rephrasing a definition.  But if you think that it\'s clearer with 'is', then feel free to change it.
 
-AN: I did. Equivalently means that an alternative way of defining things is given, and a definition has no must be.
-(You had the ''is'' already in the equivalent rewriting of the next definition!)
+   AN: I did. Equivalently means that an alternative way of defining things is given, and a definition has no must be.
+   (You had the "is" already in the equivalent rewriting of the next definition!)
+
+   _Toby_:  The 'is' in a definition is really a 'must be', just like the 'if' is really an 'if and only if'.  But no matter; your way is fine.
    =--
 *  A tree is __well-founded__ if $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded).  Assuming the principle of [[excluded middle]], this is equivalent to saying that every branch in the tree is of finite length.
 
 These subsidiary notions are also needed:
+
 *  Two trees are __equivalent__ if there exists a graph isomorphism between them; between rigid trees, such an isomorphism is unique.
    +--{: .query}
    AN: I don't see the meaning or relevance of this definition.
@@ -103,7 +106,7 @@ These subsidiary notions are also needed:
 
    AN: I still don't understand. Why not use the notion isomorphic, which says (by definition) exactly the same?
 
-   *  _Toby_:  You mean, why not use the term 'isomorphic'?  Because that is a term of art from category theory (or at least algebra), and I want to use a term appropriate to talking about pure sets.  One normally says that sets are 'equal', in fact, but I avoided that since it could lead to confusion and used its weaker cousin 'equivalent'.  One doesn\'s normally say that sets are 'isomorphic' (unless one means that they are equipollent, which is definitely not what we want here), so I didn\'t want to use that word.  It is trees (or generally graphs) that are called 'isomorphic'.  That is, isomorphic well-founded rigid trees are interpreted as equivalent well-founded pure sets.
+   *  _Toby_:  You mean, why not use the term 'isomorphic'?  Because that is a term of art from category theory (or at least algebra), and I want to use a term appropriate to talking about pure sets.  One normally says that sets are 'equal', in fact, but I avoided that since it could lead to confusion and used its weaker cousin 'equivalent'.  One doesn\'t normally say that sets are 'isomorphic' (unless one means that they are equipollent, which is definitely not what we want here), so I didn\'t want to use that word.  That is, isomorphic well-founded rigid trees are interpreted as equivalent well-founded pure sets.
 
    _Toby_ continues :
    and that it (not something weaker) is the desired notion of equivalence (anticipating that we must want one to model equality of pure sets).  Actually, that is *wrong* in the ill-founded case, depending on what you take to be the [[axiom of extensionality]] for ill-founded sets, which is what I need to fix here; we *do* want something weaker.  (Or better, replace rigidity with a stricter condition that follows from rigidity when the tree is well-founded.  That is what I\'d really like to do, but I haven\'t found a simple way to express it.  For purposes of $\mathbf{ZFC}$ including the axiom of foundation, however, this should all be correct as it is.)
