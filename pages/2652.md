@@ -47,7 +47,7 @@ The following completions add a *property* in the strictest sense, and as such a
 These completions add a property-like structure, are often lax-idempotent or colax-idempotent.
 
 * [[free cocompletion]]: the [[presheaf category]] of a [[small category]] is its free cocompletion under all small colimits.
-* [[free completion]]: the dual.
+* [[free completion]]: the dual (the opposite of the free cocompletion of the opposite).
 * Ind-completion: the "free cocompletion under filtered colimits," consisting of all [[ind-object|ind-objects]].
 * [[ideal completion]]: the free cocompletion under filtered colimits of monomorphisms.
 
