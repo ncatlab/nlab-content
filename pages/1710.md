@@ -8,3 +8,5 @@ _Toby_:  If you like, but what we really need to do, I think, is to explain nota
 
 
 category: meta
+
+[[!redirects notation]]
