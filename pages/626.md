@@ -34,3 +34,5 @@ Since a monoidal category is just a special case (namely the one-object case) of
 ##Surveys
 
 * Peter Selinger, _A survey of graphical languages for monoidal categories_ ([pdf](http://www.mathstat.dal.ca/~selinger/papers/graphical.pdf))
+
+[[!redirects string diagrams]]
