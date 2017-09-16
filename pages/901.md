@@ -4,6 +4,10 @@ An **ind-object** of a category $C$ is a "formal [[filtered category|filtered]] 
 
 "Ind" is short for "inductive limit," an old term for a [[colimit]], as contrasted with "pro" in the [[pro-object|dual notion]] for "projective limit," the old term for [[limit]].
 
++-- {: .query}
+Would it make sense to take this opportunity on nLab to give this a new modern name? Maybe call it "colimit-object" or "filtered colimit" or something? Something more consistent with the rest of the nLab might be nice. Just a thought. - [[Eric Forgy|Eric]]
+=--
+
 Recalling the nature of [[filtered category|filtered]] colimits, this means that in particular chains of inclusions 
 
 $$
