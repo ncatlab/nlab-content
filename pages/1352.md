@@ -78,3 +78,5 @@ Or so it is claimed on [slide 60](http://www.mat.uc.pt/~categ/ct2007/slides/veri
 A useful quick introduction is the beginning of these slides:
 
 * Dominic Verity, _Weak Complicial sets and internal quasi-categories_ ([pdf slides](http://www.mat.uc.pt/~categ/ct2007/slides/verity.pdf))
+
+[[!redirects stratified simplicial sets]]
