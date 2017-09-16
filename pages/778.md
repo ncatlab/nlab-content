@@ -47,6 +47,8 @@ Pre-triangulated dg-categories linear over field $k$ of characteristic 0 are equ
 [[Hanno Becker]]: Hello! Maybe one could add that in a pretriangulated dg-category $C$, the Frobenius-structure on dg-mod(C) pulls back to a Frobenius-structure on $Z^0(C)$ via the Yoneda-functor, and that dividing out its injective-projective objects turns out to be equivalent to passing to the homotopy category. Thus, the stable category of $Z^0(C)$ equals the homotopy category, which is then triangulated. 
 
 Do you assume the existence of a zero-object in a pretriangulated dg-category (there are interesting examples of dg-categories not possessing a zero object, e.g. the dg-categories of matrix-factorizations)?
+
+_Zoran_: I took the conventions from Keller's article, as far as I recall. You are welcome to enter and explain the equivalent variants of the definition, and other variations if you are currently thinking on this subject. If you can cite the references for the proofs or reasoning supporting it, even better. I am concentrating on another subject at the very moment.
 =--
 
 #References#
