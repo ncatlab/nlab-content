@@ -17,7 +17,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-03
 
-* [[Urs Schreiber]]: created [[differential forms in synthetic differential geometry]] with two purposes: it reviews the definition found in the literature and then proposes a -- supposedly nicer -- reformulation
+* [[Urs Schreiber]]: 
+
+  * added something on the dual Dold-Kan correspondence relating _co_ -chain complexes and co-simplicial abelian groups to [[Dold-Kan correspondence]].
+
+  * renamed differentials at [[chain complex]] from "$d$" to "$\partial$"
+
+  * expanded [[cochain complex]]
+
+  * created [[differential forms in synthetic differential geometry]] with two purposes: it reviews the definition found in the literature and then proposes a -- supposedly nicer -- reformulation
 
 * [[Zoran Škoda]]: added a query in [[compact object]]: the stated characterization of categories of $R$-modules is known at least about 3 deaced before Ginzburg's lectures. Maybe we should look into classical sources.
 * [[John Baez]]: 
