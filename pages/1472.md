@@ -55,6 +55,8 @@ If we take the presently available evidence of the picture that is emerging here
       Bord_{(\infty,n)} \to \mathcal{C}
     $$
 
+
+
 * **2nd quantization: quantum field theory**: quantum mechanical propagation functors as above that arise by quantizing classical data, i.e. that arise as [[sigma-model]]s typically compute the amplitude assigned to as a cobordism a sum of phases over classical trajectories. This pattern continues: in [[string theory|second quantization]] one constructs "$S$-matrix elements" by summing amplitudes over cobordisms/Feynman diagrams. This is by far the least developed bit, but it seems we want to say that the $n$-functor relevant for second quantized quantum field theory here is of the kind
 
   * scattering amplitude: reaction channel $\to$ $S$-matrix element
@@ -104,6 +106,15 @@ We will now list $n$-categorical physics ordered according to this rough pattern
 
 * [[factorization algebra]]
 
+#### The path integral
+
+The [[path integral]] is becoming expected to have a formalization in
+terms of higher category theory as a suitable "push-forward  of a classical theory to a point".
+
+* a proposal for how to think of this is in _[[Topological Quantum Field Theories from Compact Lie Groups]]_
+
+
+
 #### linear $(\infty,1)$-categorical QFT 
 
 > the following a stub obtained from copy-and-pasting material that [[David Ben-Zvi]] mentioned [here](http://golem.ph.utexas.edu/category/2009/07/a_prehistory_of_ncategorical_p_1.html#c025075)
@@ -148,5 +159,27 @@ For blog discussion of this paper see:
 The following book-to-be aims to give picture of the present state of the art of describing the [[category theory|general abstract nonsense]] structure of the universe, as far as fundamental physics is concerned
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Branislav Jurco]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+
+### On the quantization procedure
+
+First sketches of the idea that [[path integral]] [[quantization]] may have a formalization in terms of [[higher category theory]] appeared in
+
+* [[Dan Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115)
+
+and its companing paper
+
+* [[Dan Freed]], ...
+
+More formal aspects along these lines appear in
+
+* [[Simon Willerton]] _The twisted Drinfeld double of a finite group via gerbes and finite groupoids_ ([arXiv:math/0503266](http://arxiv.org/abs/math.QA/0503266))
+
+An indication of a full formalization of what that may mean for discrete QFTs such as [[Dijkgraaf-Witten theory]] is in
+
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]] _[[Topological Quantum Field Theories from Compact Lie Groups]]_
+
+based on work in 
+
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
 
 [[!redirects n-categorical physics]]
