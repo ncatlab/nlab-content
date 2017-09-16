@@ -13,3 +13,5 @@ In a [[category]], a **product** (also called a **cartesian product**) of two [[
 # Demonstration #
 
 * [This interactive demonstration](http://www.j-paine.org/cgi-bin/webcats/set_prod_nlab.php) in the category of finite sets lets you type two sets and see a product, showing the unique map to it from a randomly chosen $Z$ equipped with $f$ and $g$. It also generates a second product, showing the unique canonical isomorphism between this and the first product.
+
+[[!redirects products]]
