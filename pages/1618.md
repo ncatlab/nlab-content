@@ -24,7 +24,7 @@ Todd: How much does it matter? It matters if for example you want to say that po
 
 [[Mike Shulman]]: It sounds to me like you want to prove that the resulting (pseudo) presheaves of categories are essentially discrete, and hence are equivalent to presheaves of sets.
 
-[[Urs Schreiber]]: yes, I think, too, that this is what Zoran is talking about. I think effectively he has precisely the setup discussed at [notions of space](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+the+derived+moduli+stack+of+derived+elliptic+curves#notions_of_space_4) only that there $(\infty,1)$-toposes are usesd in place where Zoran wants to used abelian categories, $A_\infty$-categories and eventually stable $\infty$-categories as formal duals of spaces.
+[[Urs Schreiber]]: yes, I think, too, that this is what Zoran is talking about. I think effectively he has the setup discussed at [notions of space](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+the+derived+moduli+stack+of+derived+elliptic+curves#notions_of_space_4) only that there $(\infty,1)$-toposes are usesd in place where Zoran wants to use abelian categories, $A_\infty$-categories and eventually stable $\infty$-categories as formal duals of spaces.
 
 In that context, Mike: how do I see that the category $[Set,T]_{geom}$ of geometric topos morphisms  with natural transformations between them is equivalent to a set?
 
