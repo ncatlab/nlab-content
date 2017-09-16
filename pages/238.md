@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-03-01
+
+[[Toby Bartels]]:  Spun [[simplicial groupoid]] off of [[simplicially enriched category]].  Experts please check that the definitions there (based somewhat on a remark in [[Dwyer-Kan loop groupoid]]) are correct.
+
 # 2009-02-28
 
 *  [[Tim Porter|Tim]] Added new material to [[crossed square]].
