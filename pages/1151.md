@@ -1,0 +1,75 @@
+There are various different-looking definitions of the general notion of _cohomology_ in different contexts, some familiar, some more exotic. It turns out that all of them are subsumed in the following general definition:
+
+#Definition#
+
+## Nonabelian (unstable) cohomology ##
+
+Given an [[(infinity,1)-topos]] $H$, for any two [[object]]s $X$, $A$ of $H$ the **cohomology** of $X$ with coefficients in $A$ is nothing but the [[hom-space]] $H(X,A)$ (an [[infinity-groupoid]]).
+
+More precisely:
+
+* the [[object]]s $ c \in H(X,A)$ are the **cocycle**s on $X$ with values in $A$;
+
+* the [[morphism]]s $\lambda : c \to c'$ in $H(X,A)$ are the **coboundaries** begtween cocycles;
+
+* the higher morphisms in $H(X,A)$ are the **higher coboundaries** or **coboundaries of coboundaries**.
+
+* the equivalence classes $[c] \in \pi_0 H(X,A)$ are the **cohomology classes**.
+
+### Remarks ###
+
+* Notice that this definition is in a way the very point of the notion of [[(infinity,1)-topos]]: an [[(infinity,1)-topos]] is supposed to be an [[(infinity,1)-category]] which behaves structurally exactly like the [[(infinity,1)-category]] [[Top]] of [[topological space]]s. Since cohomology of topological spaces is nothing but homotopy classes of maps between topological spaces, the analogous statement should be true in a general [[(infinity,1)-topos]]. This is what the above definition asserts.
+
+
+## Abelian (stable) cohomology ##
+
+Analogous to the above, but with $H$ now
+a [[stable (infinity,1)-category]]. 
+
+
+
+#Remarks#
+
+## Grading ##
+
+Notice that the grading one usually sees on cohomology classes is in the above definition entirely encoded in the [[higher category theory|categorical degree]] of the coefficient object: of $A$ is a [[homotopy n-type]], then $H(X,A)$ is degree $n$-cohomology. More specifically, if $A$ is a 1-type which is $n$-times de-loopable to an $n$-type $B^n A$, then degree $n$ cohomology with coefficients in $A$ is cohomology with coefficients in $\mathbf{B}^n A$: $H^n(X,A) := H(X, \mathbf{B}^n A)$
+
+#Examples#
+
+* The archetypical example for [[nonabelian cohomology]] theory is the [[(infinity,1)-topos]] $H = $ [[Top]], the [[(infinity,1)-category]] of [[topological space]]s. For $X$ and $A$ two topological spaces, the cohomology classes of $X$ with values in $A$ are the homotopy classes of continuous maps $X \to A$. For $A = K(a,n)$ an [[Eilenberg-MacLane space]] with $a$ an abelian group this reproduces "ordinary cohomology" of spaces. For $A = B G$ a [[classifying space]] of a topological [[group]] $G$, this reproduces degree 1 [[nonabelian cohomology]] $H^1(X,G)$. In heneral, for $A$ an [[n-type]], $H(X,A)$ is topological degree $n$ [[nonabelian cohomology]].
+
+* The archetypical example for abelian cohomology theory is the [[stable (infinity,1)-topos]] $H = $ [[Spec]], the [[stable (infinity,1)-category]] of [[spectrum|spectra]]. This is the case in the literature often adressed as [[generalized cohomology]], since it generalizes the enties specified by the Eilenberg-Steenrod axioms. But really, the general concept of cohomology is more general than this "generalized cohomology".
+
+* Objects in general nonabelian cohomology are usually called [[infinity-stack]]s are [[(infinity,1)-sheaf|(infinity,1)-sheaves]], since every Grothendieck-Rezk-Lurie [[(infinity,1)-topos]] arises as a [[(infinity,1)-category of (infinity,1)-sheaves]].
+
+* [[abelian sheaf cohomology|Abelian sheaf cohomolohy]] for complexes of sheaves in non-negative degree is cohomology of the sub-[[(infinity-1)-topos]] of $\infty$-stacks which take values in [[infinity-groupoid]]s which, under the [[Dold-Kan correspondence]] come from [[chain complex]]es.
+
+* [[abelian sheaf cohomology|Abelian sheaf cohomolohy]] for unbounded complexes of sheaves is stable cohomology of the [stable (infinity-1)-topos]] of [[spectrum]]-valued [[(infinity,1)-sheaf|(infinity,1)-sheaves]].
+
+Several familiar "cohomlogy theories" are not so much genuine cohomology theories as rather computational techniques for computing certain cohomology classes in an [[(infinity,1)-category]] by using 1-categorical tools of [[homotopy coherent category theory]] such as [[model category|model categories]], [[derived cagtegory|derived categories]] and the like.
+
+* [[Cech cohomology]] is the technique of computing $H(X,A)$ by computing 1-categorical [[hom-set]]s $C(\hat X,A)$ on _resolutions_ of the domain object $X$.
+
+* The technique of computing [[abelian sheaf cohomology]] by computing the [[derived global section functor|]] is similarly a technique of computing $H(X,A)$ in terms of 1-categorical [[hom-set]]s $C(X,\hat A)$ into _resolutuions_ of the coefficient object (namely [[injective]] resolutions).
+
+* [[mondadic cohomology|Monadic cohomology]], like [[Cech cohomology]] is concerned with 1-categorical resolutions of the coefficient object in terms of [[bar construction]]s. [[David Ben-Zvi]] can provide more details on the precise [[(infinity,1)-category|(infinity,1)-categorical]] cohomology that this corresponds to...
+
+* Differential cohomology theories are effectively the cohomoloy theories of [[fundamental infinity-groupoid]]s. 
+
+#References#
+
+A heuristic account of some concepts in cohomology is at 
+
+* [[heuristic introduction to sheaves, cohomology and higher stacks]].
+
+One of the earliest references which draw a comprehensive picture of cohomology in the general sense is
+
+* Ken Brown, [[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]].
+
+The [[model category]] theoretic setup (in fact, Brown uses [[category of fibrant objects|categories of fibrant objects]]) directly induces and presents the corresponding [[(infinity,1)-category|(infinity,1)-categorical]] context mentioned in the above definition.
+
+Many authors, in particular Joyal, Jardine, To&eumln;,  later built on Brown's work in the context of the [[model structure on simplicial presheaves]],another, richer, 1-categorical presentation of [[(infinity,1)-topos|(infinity,1)-topoi]]. See for instance section 6 and section 8 of
+
+* Jardine, _Fields lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+
+Essentially by by applying these general constructions in the presence of a smooth [[fundamental infinity-groupoid]] functor $\Pi : H \to H$ one obtains _differential_ cohomoly. More on that is at [[schreiber:Differential Nonabelian Cohomology]].
