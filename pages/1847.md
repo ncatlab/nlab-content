@@ -126,15 +126,15 @@ Care should be taken as to which category one constructs partitions of unity on 
 
 ## cohomology of paracompact spaces ##
 
-* On paracompact spaces, abelian [[Cech cohomology]] does compute [[abelian sheaf cohomology]], 
+* On paracompact spaces, abelian [[Čech cohomology]] does compute [[abelian sheaf cohomology]], 
 
-  i.e. the canonical morphism $H_{Cech}(X,A) \to H(X,A)$ for  $A$ any [[chain complex]] of [[sheaf|sheaves]] is an [[isomorphism]] when the [[topological space]] underlying $X$ is paracompact.
+  i.e. the canonical morphism $\check{H}(X,A) \to H(X,A)$ for  $A$ any [[chain complex]] of [[sheaf|sheaves]] is an [[isomorphism]] when the [[topological space]] underlying $X$ is paracompact.
 
 # References #
 
 *  the English Wikipedia\'s [article](http://en.wikipedia.org/wiki/Paracompact_space)
 
-A discussion with an eye towards [[abelian sheaf cohomology]] and abelian [[Cech cohomology]] is around page 32 of
+A discussion with an eye towards [[abelian sheaf cohomology]] and abelian [[Čech cohomology]] is around page 32 of
 
 * **Bry** Brylinski, _Loop spaces, characteristic classes geoemetric quantization_
 
