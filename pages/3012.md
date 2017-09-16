@@ -44,7 +44,7 @@ The above definition has been [[vertical categorification|categorified]] to a no
 
 ## Properties
 
-By construction, the category of operators $C_A$ of a symmetreic colored operad is canonically equipped with a [[functor]] $p : C_A \to FinSet_*$.
+By construction, the category of operators $C_A$ of a symmetric colored operad is canonically equipped with a [[functor]] $p : C_A \to FinSet_*$.
 
 From this functor, the original operad may be recovered up to canonical equivalence.
 
