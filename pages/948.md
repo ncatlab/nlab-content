@@ -180,7 +180,7 @@ Paul Taylor (1996). Intuitionistic Sets and Ordinals. Available (with several ot
 
 Joyal, A. and Moerdijk, I. (1995).  Algebraic set theory.
 
-Frank Waaldijk (2003). [on the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://home.hetnet.nl/~sufra/foundations%20of%20constructive%20mathematics.pdf) (PDF).
+Frank Waaldijk (2003). [on the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://home.kpn.nl/sufra/foundations%20of%20constructive%20mathematics.pdf) (PDF).
 
 Most books on [[topos]] theory include some discussion of their [[internal logic|internal]] constructive logic.  One good reference is Part D of _Sketches of an elephant (vol. 2)_ by Peter Johnstone.
 
