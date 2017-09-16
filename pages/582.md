@@ -8,24 +8,6 @@ A **regular monomorphism** is a [[morphism]] which occurs as the [[equalizer]] o
 
 * In [[Top]], the monics are the injective functions, while the regular monos are the embeddings (that is, the injective functions whose sources have the [[weak topology|topologies induced]] from their targets); these are in fact all of the [[extremal monomorphism]]s.
 
-  +-- {: .query}
-  _Tom_: [Wikipedia claims that it's the extremal monics that are the embeddings](http://en.wikipedia.org/wiki/Category_of_topological_spaces#Other_properties), and I have a simple proof which seems valid.  Can we clarify this?
-
-  _[[Toby Bartels]]_:  Wikipedia also claims (in the very next line) that every extremal mono is regular (and the converse is automatic), so they are actually in agreement with us.
-
-  _Tom_: You're right; in the very next sentence no less!  But I get the impression it's the "extremality" that causes it to be an embedding, and the "regularness" equivalence is just accidental.  In anycase, for people with (very) limited understanding like me I think it would be helpful to have a clarification here.
-
-  _[[Toby Bartels]]_:  Well, this is the article about regular monomorphisms, so that\'s what we stress here.  You could certainly add the fact to [[extremal monomorphism]] as well, however.  (Heck, it looks like you could even start that page!  Compare [[extremal epimorphism]], where more has already been written.)
-
-  _Tom_: Great, I will!  I don't know the procedure for deleting/moving this discussion, but since it's done I hope someone who knows will sort it out!
-
-  _Toby_:  The procedure is that when everyone involved with it is happy with it, then it can be removed.  So you would say something like 'This discussion can now be removed.', and then I would remove it if I agreed.  Or if someone thinks that it should be preserved, then it could be moved to a #Discussion# section at the bottom of the page.  (Or in this case, one could even move it to [[extremal monomorphism]] if one thought that it was more relevant there.)
-
-  I would remove this myself, except that now I want you to see how to remove a discussion!  (^_^)  So if you\'re happy, then this discussion can now be removed.
-
-  _Tom_: OK great.  I think the discussion can be removed entirely and I'll start the extremal monomorphism page when I get a minute.
-  =--
-
 * In [[Grp]], the monics are (up to isomorphism) the inclusions of [[subgroup]]s, while the regular monics are the inclusions of _[[normal subgroup|normal]]_ subgroups.
 
 * In [[Ab]], or more generally any [[abelian category]], every monomorphism is regular.
