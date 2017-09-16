@@ -3,10 +3,12 @@ form
 $$
 0\to N\to M\to P\to 0
 $$
-where $N$ is an object in $S$ and $P$ is an object in $S$.
+where $N$ is an object in $S$ and $P$ is an object in $T$.
 
 +--{: .query}
 Surely one of these should be in $T$?  It\'s arbitrary, so I\'ll let somebody else decide what the convention is.  ---[[Toby Bartels]]
+
+[[Zoran Skoda]] ZSorry I guess the convention is the way I corrected (I will check). the multiplication is not commutative in any case. 
 =--
 
 When restricted to the class of [[topologizing subcategory|topologizing subcategories]], Gabriel multiplication is associative; if $A$ is small then the topologizing subcategories make a semiring with respect to the commutative operation $\cap$ and Gabriel multiplication; in particular $\bullet$ is left and right distributive with respect to intersection of topologizing subcategories.  
