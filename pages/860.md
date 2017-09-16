@@ -39,4 +39,10 @@ Tim, I would like to see [[pro-object]] (which I see you have already written!) 
 
 I actually don't think that [[poset]] and [[preorder]] are inconsistent, since as I said, "preorder" can mean the same thing as "set equipped with a preorder."  This is actually fairly common, especially in set theory one speaks of "a linear order" or "a well-ordering" without specifying explicitly the set on which it lives (since, of course, it has to live on some set).  It's a similar sort of abuse to when we say "let $G$ be a group" rather than "let $(G,\cdot,e)$ be a group" (only maybe in reverse).
 
+_Toby_:  Ha, it\'s funny that you say that 'let $G$ be a group' is in reverse, since I think of that as perfectly correct and later discussion of $G$ as a mere set to be the abuse.  But anyway ...
+
+The difference between [[loset]] and [[linear order]] is that the latter is about all of the linear orders that can be put on a set, while the former talks about only one set at time (at least one set per linear order, there should also be stuff about morphisms).  As the set of linear orders on $S$ forms a subcategory of the category of all linearly ordered sets, there is a certain amount of arbitrariness there, but I think no more than in other fine distinctions.
+
+Do you really not see how having both [[preorder]] and [[poset]] was inconsistent?  Yes, you can speak of a 'preorder' or a 'linear order' or a 'well ordering' without specifying the set ahead of time, but the same thing is true of a 'partial order'!  All in all, I see your arguments as suggesting that we should put everything on the same page, and that page should be [[preorder]]/[[partial order]]/etc rather than [[proset]]/[[poset]]/etc, but you make an arbitrary exception for [[poset]] (and maybe [[toset]], that\'s not clear).
+
 =--
