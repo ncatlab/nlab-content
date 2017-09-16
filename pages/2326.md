@@ -1,10 +1,13 @@
 
+#localic topos#
+* automatic table of contents goes here
+{:toc}
 
-#Definition#
+##Definition##
 
-In intrinsic terms, a [[topos]] is _localic_ if it is generated under [[colimit]]s by the [[subobject]]s of its [[terminal object]]. In equivalent but extrinsic terms, a Grothendieck topos is localic if it is equivalent to the category of sheaves on a [[locale]] with respect to the topology of jointly epimorphic families. The locale may indeed be taken as the poset of subobjects of 1. 
+In intrinsic terms, a [[topos]] is _localic_ if it is generated under [[colimit]]s by the [[subobject]]s of its [[terminal object]]. In equivalent but extrinsic terms, a [[Grothendieck topos]] is localic if it is equivalent to the [[category of sheaves]] on a [[locale]] with respect to the [[coverage|topology]] of jointly epimorphic families. The locale may indeed be taken as the [[poset]] of [[subobject]]s of 1. 
 
-#Examples#
+##Examples##
 
 Every [[Grothendieck topos]] that is a [[category of sheaves]] on (the [[category of open subsets]] of) a [[topological space]] is localic. 
 
@@ -14,7 +17,7 @@ A significant result due to Joyal and Tierney is that for any Grothendieck topos
 
 * Then, using methods of descent theory, Joyal and Tierney deduce that every Grothendieck topos is equivalent to the category $B G$ of continuous discrete representations of a localic groupoid $G$. (Their result is relativized so as to hold internally over any Grothendieck topos $S$ as base.) This should be regarded as a major extrapolation of Grothendieck's Galois theory (as in SGA 1), where it is shown that the etale topos of a field $k$ is equivalent to the category of continuous discrete representations of the fundamental pro-group $Gal(\bar{k}/k)$, where $\bar{k}$ denotes the separable closure of $k$. It was a watershed event for the penetration of localic methods in topos theory. 
 
-# Generalizations #
+## Generalizations ##
 
 In the context of [[(∞,1)-topos]] [[Higher Topos Theory|theory]] there is a notion of [[n-localic (∞,1)-topos]].
 
