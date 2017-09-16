@@ -99,7 +99,7 @@ A [[Birkhoff decomposition]] of a loop $\phi : S^1 \to G$ in a complex group $G$
 
 The proof is given in 
 
-* [[Aain Connes]], [[Dirk Kreimer]], _Renormalization in quantum field theory I_ ([arXiv](href="http://arxiv.org/abs/hep-th/9912092))
+* [[Alain Connes]], [[Dirk Kreimer]], _Renormalization in quantum field theory I_ ([arXiv](href="http://arxiv.org/abs/hep-th/9912092))
 
 =--
 
