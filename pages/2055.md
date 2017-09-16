@@ -95,6 +95,8 @@
 
 * [Soul Conjecture](http://soul-conjecture.blogspot.com)
 
+* [SymOmega](http://symomega.wordpress.com)
+
 * [The accidental mathematician](http://ilaba.wordpress.com) (Izabella Laba)
 
 * [The Endeavour](http://www.johndcook.com/blog)
