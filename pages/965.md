@@ -4,7 +4,7 @@ Dually, an __inflattice__ is a poset which has all [[meets]], and an __inflattic
 
 A __[[frame]]__ (dual to a [[locale]]) is a suplattice in which finitary meets distrubute over arbitrary joins.  (Frame homomorphisms preserve all joins and finitary meets.)
 
-The category [[SupLat]] of suplattices and suplattice homomorphisms admits a [[tensor product]] which represents "bilinear maps," i.e. functions which preserve joins separately in each variable.  Under this tensor product, the category of suplattices is a [[star-autonomous category]] in which the dualizing object is the suplattice dual to the object $TV$ of truth-values. A [[monoid object|monoid]] in this [[monoidal category]] is a __[[quantale]]__, including [[frames]] as a special case.
+The category [[SupLat]] of suplattices and suplattice homomorphisms admits a [[tensor product]] which represents "bilinear maps," i.e. functions which preserve joins separately in each variable.  Under this tensor product, the category of suplattices is a [[star-autonomous category]] in which the dualizing object is the suplattice dual to the object $TV$ of [[truth-values]].  A [[monoid object|monoid]] in this [[monoidal category]] is a __[[quantale]]__, including [[frames]] as a special case.
 
 
 [[!redirects suplattice]]
