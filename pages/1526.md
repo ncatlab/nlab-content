@@ -50,8 +50,11 @@ $$P_1(X)=Explode(X\nearrow\Gamma).$$
 
 ##Discussion##
 
-+-- {: .query}
-Eric, what would you call $Explode(C)$ is words?: the 'explosion' of $C$, the 'exploding' of $C$, the 'exploded category' of $C$?  ---Toby
+[[Urs Schreiber|Urs]]: the following really describes this concept: given a category $C$ with a [[generator]] ${*}$ or some other singled out object such as a tensor unit if $C$ is monoidal, there is the category of [[generalized element]]s of $C$ with respect to ${*}$, which is the [[over category]] $(*/C)$. The term "exploding a category" is very non-standard and I don't really like it, to be frank. Could we move this here maybe to something like "category of elements", or the like? 
+
+[[Eric Forgy|Eric]]: It does no harm to keep this here. I'm not sure why you don't like it so much. I spent a lot of time trying to understand this and I think others (maybe non-mathematicians) would be served to see this concept explained on a low brow level. The picture **is** that of a category being "exploded" into pieces, so I think the term is accurately descriptive. Once again, it does no harm to keep this here. A pointer to [[category of generalized elements]] for the high brow version should suffice I think.
+
+[[Toby Bartels|Toby]]: Eric, what would you call $Explode(C)$ is words?: the 'explosion' of $C$, the 'exploding' of $C$, the 'exploded category' of $C$?  ---Toby
 
 [[Eric Forgy|Eric]]: If the term '[[category of elements]]' is standard, then you could just call it that. I'm not excited by the notation $El(C)$ though. I'm still thinking about the best way to present this. I like the picture (see below) of "exploding" a category that is missing in the description of [[category of elements]] and is also not indicated by the notation $El(C)$. The image I get when I think of this is roughly like a fireworks display.
 
@@ -62,9 +65,3 @@ PS: For a field that is so "pictorial" in nature, the nCafe generally is sadly l
 But why not put this low brow, intuitively more accesible description alongside with the entry that presents the concept from a more highbrow, more category-theoretic perspective? Isn't it best to have all perspectives joined in a single entry? So that every reader can find his or her own entry point and discover the other aspects from there? 
 
 My suggestion would be to create in the entry [[category of generalized elements]] a section with your material here. It's great to tell the reader that he or she may find it helpful to think of a "category of elements" as an "exploded category". Nothing against that. 
-
-=--
-
->[[Urs Schreiber|Urs]]: the following really describes this concept: given a category $C$ with a [[generator]] ${*}$ or some other singled out object such as a tensor unit if $C$ is monoidal, there is the category of [[generalized element]]s of $C$ with respect to ${*}$, which is the [[over category]] $(*/C)$. The term "exploding a category" is very non-standard and I don't really like it, to be frank. Could we move this here maybe to something like "category of elements", or the like? 
-
->[[Eric Forgy|Eric]]: It does no harm to keep this here. I'm not sure why you don't like it so much. I spent a lot of time trying to understand this and I think others (maybe non-mathematicians) would be served to see this concept explained on a low brow level. The picture **is** that of a category being "exploded" into pieces, so I think the term is accurately descriptive. Once again, it does no harm to keep this here. A pointer to [[category of generalized elements]] for the high brow version should suffice I think.
