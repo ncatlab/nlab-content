@@ -29,4 +29,5 @@ or even
 >A **simplicial model for weak $\omega$-categories** is [...]
 and only later mention [[simplicial weak omega-category|simplicial weak omega-categories]]?
 
+[[Mike Shulman|Mike]]: You're right that 'simplicial $\omega$-category' it fits into 'globular $\omega$-category' and 'opetopic $\omega$-category' and so on.  It seems more problematic in this case, though, since simplicial objects of random categories are a good deal more prevalent than globular ones and opetopic ones.  But perhaps I should just live with it.  
 =--
