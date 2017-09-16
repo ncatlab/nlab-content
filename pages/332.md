@@ -3,11 +3,11 @@ See also [[topology]].
 #some of the entries related to geometry#
 
 * [[differential geometry]], [[differential topology]], [[Diff]], [[cobordism]]
-* [[differential form]], [[tangent space]]
-* [[symplectic geometry]], [[symplectic manifold]], [[Poisson manifold]]
-* [[fibre bundle]], [[principal bundle]], [[noncommutative principal bundle]]
+* [[differential form]], [[tangent space]], [[tangent bundle]]. [[cotangent bundle]], [[cotangent complex]]
+* [[symplectic geometry]], [[symplectic manifold]], [[Poisson manifold]], [[multisymplectic geometry]], [[n-symplectic manifold]]
+* [[fibre bundle]], [[principal bundle]], [[noncommutative principal bundle]], [[vector bundle]]
 * [[connection]] (and links therein)
-* [[Morse function]], [[Morse lemma]]
+* [[Morse function]], [[Morse lemma]], [[Morse theory]], [[perfect Morse function]]
 * [[differentiable stack]], [[orbifold]], [[stratifold]], [[orientifold]]
 * [[derived algebraic geometry]], [[derived smooth manifold]]
 * [[noncommutative geometry]]
@@ -27,7 +27,7 @@ See also [[topology]].
 * [[Lie group]], [[Lie groupoid]], [[Lie algebroid]], [[Courant algebroid]]
 * [[Lie theory]], [[Lie's three theorems]], [[Erlangen program]]
 * [[ringed space]], [[ringed site]], [[ringed topos]], [[lined topos]]
-* [[synthetic differential geometry]], [[infinitesimal object]], [[smooth topos]], [[Kock-Lawvere axiom]]
+* [[synthetic differential geometry]], [[infinitesimal object]], [[smooth topos]], [[Kock-Lawvere axiom]], [[infinitesimal singular simplicial complex]], [[differential forms in synthetic differential geometry]]
  
   * book entry [[Models for Smooth Infinitesimal Analysis]]
 * [[generalized smooth space]]: 
