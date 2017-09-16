@@ -74,6 +74,12 @@ a "natural" [[model category]] structure:
 
 The [[forgetful functor]] $DCat \to Cat$ is a [[right adjoint]]
 but it is not a [[Quillen adjunction|right Quillen functor]] with respect to the natural model structures on these categories.
+
+Moreover, a forgetful functor $XStruc \to Cat$ should reflect
+weak equivalences in addition to preserving them.
+The forgetful functor $DCat\to Cat$ preserves weak equivalences
+but it does not reflect them. Because two objects in a dagger category can be isomorphic without been unitary isomorphic.
+
 In other words the forgetful functor $DCat\to Cat$ is wrong.
 This may explains why a dagger category cannot be
 regarded as a category equipped a homotopy invariant structure, as discussed in more detail in the example sections of the entry [[evil]].
