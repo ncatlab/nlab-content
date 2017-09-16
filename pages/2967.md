@@ -8,7 +8,7 @@
 
 ## Idea
 
-A _standard Courant Lie algebroid_ of a [[manifold]] $X$ is a type of [[Courant algebroid]] constructed from the [[tangent bundle]] and [[cotangent bundle]] of $X$. This is the principle algebraic structure studied in [[generalized complex geometry]].
+A _standard Courant Lie algebroid_ of a [[manifold]] $X$ is a type of [[Courant algebroid]] constructed from the [[tangent bundle]] and [[cotangent bundle]] of $X$. This is the principal algebraic structure studied in [[generalized complex geometry]].
 
 ## Definition
 
@@ -116,11 +116,11 @@ $$
   = 
   \left(
   \wedge_{C^\infty(X)}^\bullet
-  ( \langle \xi^i \rangle_i=1^n 
+  ( \langle \xi^i \rangle_{i=1}^n 
     \oplus
-    \langle \theta_i \rangle_i=1^n
+    \langle \theta_i \rangle_{i=1}^n
     \oplus
-    \langle p_i \rangle_i=1^n
+    \langle p_i \rangle_{i=1}^n
   )
   \,,
   d_{\mathfrak{c}(X)}
@@ -177,9 +177,9 @@ $$
   \,.
 $$ 
 
-Being a section, it has to be the identity on $C^\infty(X)$ and send $\xi^i \maptsto d_{dR} x^i$.
+Being a section, it has to be the identity on $C^\infty(X)$ and send $\xi^i \mapsto d_{dR} x^i$.
 
-The image og the generators $\theta_i$, being of degree 1, must be a linear combination over $C^\infty(X)$ of the degree-1 elements in $\Omega^\bullet(X)$, i.e. must be 1-forms on $X$. This defines the rank-2 tensor $q$ in question by
+The image of the generators $\theta_i$, being of degree 1, must be a linear combination over $C^\infty(X)$ of the degree-1 elements in $\Omega^\bullet(X)$, i.e. must be 1-forms on $X$. This defines the rank-2 tensor $q$ in question by
 
 $$
   \hat{t}_i \mapsto q_{i j} \d x^i
