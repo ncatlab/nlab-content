@@ -59,4 +59,11 @@ On a niggly point, the homotopy group of a space is only defined if the space is
 _Toby_:  I would say that it has a homotopy group at every point, and this is true even if it is empty.  You can only pretend that it has a homotopy group, period, if it\'s inhabited and path-connected.
 
 Anyway, how do you like the introduction now?  You could add a more extensive History section too, if you want.
+
+[[Tim Porter|Tim]]: It looks fine.  I would add some more punctuation but I'm a punctuation fanatic!!!  
+
+With all these entries I suspect that in a few months time we will feel they need some tender loving care, a bit of Bonsai pruning!! For the moment lets get on to more interesting things.  
+
+Do you think some light treatment of simple homotopy theory might be useful,say at a historical level?
+
 =--
