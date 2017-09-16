@@ -1,4 +1,4 @@
-Generalised smooth spaces are, roughly speaking, generalisations of smooth manifolds.  Their _raison d'etre_ is the following
+Generalised smooth spaces are, roughly speaking, generalisations of smooth [[manifold]]s.  Their _raison d'etre_ is the following
 
 > Manifolds are fantastic spaces.  It's a pity that there aren't more of them.
 
