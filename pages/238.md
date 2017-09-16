@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-20 #
 
+* [[Todd Trimble]]: asked a question of [[Mike Shulman|Mike]] and [[Toby Bartels|Toby]] over at [[cyclic order]]. 
+
 *  [[Toby Bartels]]:
    *  Wrote [[countable set]], [[infinite set]], [[relative complement]], and [[preimage]].
    *  Has the 'Change page name.' feature broken for anybody else?
