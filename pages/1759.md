@@ -13,6 +13,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-07-02
+* [[Zoran Škoda]] created [[grouplike element]]. It contains few words on Amitsur complex for a coring with a (semi-)grouplike. The aim is to soon (using the setup) introduce entries for connections for corings; and then correpsondence between falt connections and descent data in the comonadic and coring setups (after Menini et al; all coming back to the example which is the correspondence between 1-order costratifications and flat connections in the crystalline setup due Grothendieck). 
 
 * [[Urs Schreiber|Urs]]
 
