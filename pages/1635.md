@@ -216,7 +216,7 @@ The construction of $G(X)$ is then given by  the free group functor on the vario
 +-- {: .un_prop}
 ###### Proposition
 
-There is an isomorphism between $\pi_n(X)$ as defined above and $H_{n-1}(\mathcal{N}G(X))$, the $(n-1)$th homology group of the [[Moore complex]] of the simplicial group, $G(X)$.
+There is an isomorphism between $\pi_n(X)$ as defined above and $H_{n-1}(N G(X))$, the $(n-1)$th homology group of the [[Moore complex]] of the simplicial group, $G(X)$.
 =--
 
 +-- {: .query}
