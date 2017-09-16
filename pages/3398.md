@@ -25,14 +25,16 @@ Let $I$ be the [[empty category]], so that a limit of the unique functor $J\colo
 
 Let $I$ be the category $\mathbf{2}$, so that $J$ picks out two objects $a$ and $b$ of $C$ and the limit of $J$ is a [[product]] $a \times b$ of $a$ and $b$.  Note that this product comes equipped with product projections $\pi\colon a \times b \to a$ and $\rho\colon a \times b \to b$.  Then $F$ preserves this product if and only if $F(a \times b)$ is a product of $F(a)$ and $F(b)$ and furthermore the product projections are $F(\pi)$ and $F(\rho)$.
 
-A functor that preserves all small limits in $C$ that exist is __[[continuous functor]]__.
+A functor that preserves all small limits in $C$ that exist is __[[continuous functor]]__.  Usually this term is only used when $C$ has all small limits, i.e. is a [[complete category]].
 
 
 ## Preservation of limits that don\'t exist
 
-Sometimes we want to say that a functor $F$ preserves a class of limits without assuming that these limits exist.  We could interpret this to mean that $F$ preserves all those limits in the class that happen to exist, but this might be a very weak condition.  Alternatively, we could use the [[Yoneda lemma]] (assuming that the categories are [[locally small category|locally small]]) to interpret it as saying that the functor $- \otimes F\colon [C^\op,Set] \to [D^\op,Set]$ preserves all the relevant limits.  (Note that all small limits exist in the [[presheaf category]] $[C^\op,Set]$.)
+Sometimes we want to say that a functor $F$ preserves a class of limits without assuming that these limits exist.  We could interpret this to mean that $F$ preserves all those limits in the class that happen to exist, but this might be a very weak condition.
 
-For example, a [[flat functor]] preserves all finite limits in this generalised sense.
+Alternatively, we could use the [[Yoneda lemma]] (assuming that the categories are [[locally small category|locally small]]) to interpret it as saying that the functor $- \otimes F\colon [C^\op,Set] \to [D^\op,Set]$ (the left [[Kan extension]] of the composite $C \to D \hookrightarrow [D^\op,Set]$ along the Yoneda embedding $C\hookrightarrow [C^\op,Set]$) preserves all the relevant limits.  Note that all small limits exist in the [[presheaf category]] $[C^\op,Set]$, and that the Yoneda embedding preserves and reflects all limits.  Therefore, if $C$ and $D$ do have the relevant limits, this condition is equivalent to asking that $F$ preserve them in the ordinary sense.
+
+For example, a [[flat functor]] is one which preserves all finite limits in this generalised sense.
 
 +-- {: .query}
 This is still a little vague, but I\'m not certain what is exactly the right way to say it.
