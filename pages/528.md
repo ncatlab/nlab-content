@@ -19,6 +19,7 @@ if there exists a $k$-linear map
 $$S : A \to A$$
 
 called the **antipode** or **coinverse** such that $m\circ(\mathrm{id}\otimes S)\circ \Delta = m\circ(S\otimes\mathrm{id})\circ\Delta = \eta\circ\epsilon$ (as a map $A\to A$). If an antipode exists then it is unique, just the way that if inverses exist in a monoid they are unique.
+The unit is group like, hence $S(1)1=1$, therefore $S(1)=1$. By linearity of $S$ this implies that $S\circ\eta\circ\epsilon = \eta\circ\epsilon$.
 
 **Proposition** The antipode is an antihomomorphism both of algebras and coalgebras (i.e. a homomorphism $S:A\to A^{cop}_{op}$). 
 
@@ -34,8 +35,17 @@ $$S(h_{(1)}g_{(1)}) \epsilon(h_{(2)})\epsilon(g_{(2)}) = (Sg) (Sh)$$
 
 $$S(h_{(1)}\epsilon(h_{(2)})g_{(1)}\epsilon(g_{(2)})) = (Sg)(Sh)$$
 
-$S(hg) = (Sg) (Sh)$ Q.E.D.
+Therefore $S(hg) = (Sg) (Sh)$.
 
+For the coalgebra part, notice first that $\epsilon(h)1\otimes 1 = \tau\circ\Delta(\epsilon(h)1)=\tau\circ\Delta(Sh_{(1)}h_{(2)})$. Expand this as 
+
+$$ (Sh_{(1)}\otimes Sh_{(2)})(h_{(4)}\otimes h_{(3)}) = ((Sh_{(1)})_{(2)}\otimes (Sh_{(1)})_{(1)})(h_{(4)}\otimes h_{(3)})$$
+
+$$ (Sh_{(1)}\otimes Sh_{(2)})(h_{(4)}\otimes h_{(3)}) (Sh_{(5)}\otimes Sh_{(6)}) = ((Sh_{(1)})_{(2)}\otimes (Sh_{(1)})_{(1)})(h_{(4)}\otimes h_{(3)})(Sh_{(5)}\otimes Sh_{(6)})$$
+
+$$ ((Sh_{(1)}\otimes Sh_{(2)})\epsilon(h_{(3)}) = ((Sh_{(1)})_{(2)}\otimes (Sh_{(1)})_{(1)})(\epsilon(h_{(3)})1\otimes\epsilon(h_{(2)}))$$
+
+$$ (Sh_{(1)}\otimes Sh_{(2)})=(\tau\circ\Delta)(Sh_{(1)}\epsilon(h_{(2)}))=(Sh)_{(2)}\otimes (Sh)_{(1)}).$$
 
 
 
