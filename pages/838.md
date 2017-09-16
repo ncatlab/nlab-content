@@ -14,3 +14,4 @@ Compare the notion of [[partially ordered category]].  A locally partially order
 * [[Rel]]
 
 [[!redirects (1,2)-category]]
+[[!redirects (1,2)-categories]]
