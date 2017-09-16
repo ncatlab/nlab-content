@@ -97,3 +97,7 @@ In contrast, many of the optional or controversial axioms of set theory (such as
 
 ...
 
+
+#Other topics#
+
+* There is also [[algebraic set theory]].
