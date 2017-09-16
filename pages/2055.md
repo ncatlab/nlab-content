@@ -95,7 +95,7 @@
 
 * [The Rising Sea](http://therisingsea.org/) (Daniel Murfet on algebraic geometry, derived categories and the like)
 
-* [The twofold gaze](http://twofoldgaze.wordpress.com)
+* [The Twofold Gaze](http://twofoldgaze.wordpress.com)
 
 * [The unapologetic mathematician](http://unapologetic.wordpress.com) (John Armstrong)
  
