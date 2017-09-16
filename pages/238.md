@@ -11,9 +11,14 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+# 2009-04-21 #
+
+* [[Zoran Škoda]]: [[quasicompact]]
+
+Nothing new in category land.
 
 # 2009-04-21 #
-* [[Zoran Škoda]]: created [[Gabriel composition of filters]], [[Gabriel filter]], [[uniform filter]], [[Serre subcategory]]. Corrected [[Gabriel multiplication]], thanks Toby. 
+* [[Zoran Škoda]]: created [[quasicoherent sheaf]],[[kernel functor]], [[Gabriel composition of filters]], [[Gabriel filter]], [[uniform filter]], [[Serre subcategory]]. Corrected [[Gabriel multiplication]], thanks Toby. Created [[ringed space]] differing from [[ringed site]].
 
 * [[Urs Schreiber|Urs]]: edited [[geometric infinity-function theory]] to go along with [this](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html#c023356) blog message
 
