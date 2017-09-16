@@ -71,4 +71,5 @@ _Toby_:  H\'m, I actually used to know something about this.  I have a vague ide
 
 _John_: Right, Maschke's theorem says that all reps of a group of order $k$ are completely reducible if we're working over $\mathbb{F}_p$ and $p$ does not divide $k$. The point is that we do a lot of stuff by 'averaging with respect to the group action', and to normalize Haar measure on a group of order $k$ we need to divide by $k$.  But presumably we'll get in trouble with the group $S_n$ whenever $p$ divides $n!$.  And I want to know precisely what happens then.
 
+_Toby_:  I\'m at the UCR library right now, and Serre\'s book is checked out, so I can\'t tell you whether it\'s in there or not.  But it might be.
 =--
