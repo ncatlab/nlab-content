@@ -19,3 +19,5 @@ See also the discussion at [[E-infinity ring]].
 [[!redirects A-infinity rings]]
 [[!redirects A∞-ring]]
 [[!redirects A∞-rings]]
+[[!redirects A-∞-ring]]
+[[!redirects A-∞-rings]]
