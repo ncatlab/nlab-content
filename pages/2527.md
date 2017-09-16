@@ -17,3 +17,5 @@ Even if one\'s foundations allow one to notice the difference between strict cat
 [[!redirects strict categories]]
 [[!redirects strict functor]]
 [[!redirects strict functors]]
+[[!redirects strict groupoid]]
+[[!redirects strict groupoids]]
