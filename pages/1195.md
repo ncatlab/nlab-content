@@ -56,4 +56,10 @@ $$\frac{}
 which could be a minimal sequent even though you wouldn\'t want it.
 
 Anyway, I\'ll read your report more closely than is needed just to see how you write LK.  (^_^)
+
+_Finn_:  What you're talking about here is the distinction between 'multiplicative' rules (Wikipedia) and 'additive' ones (me (and Gentzen :)), as in linear logic.  In the presence of contraction and weakening on _both_ sides these are equivalent, of course, but the restriction on intuitionistic and minimal sequents is 'really' about restricting these structural rules on the right -- only one weakening for LJ, none for (what I call) LM and no right contraction for either.
+
+You're right that the multiplicative versions don't work well for these subsystems of LK -- but I think the choice is far from arbitrary, as linear logic shows.  That is, the choice of additive versus multiplicative inference rules seems to be intimately related to the structural aspects of the logic.
+
+As for $\Gamma,\bot\vdash\Delta$ as an axiom, that just isn't included in minimal logic.  (By the way, your point above was well taken, that it would seem better to leave $\bot$ out of minimal logic entirely, but I think most people like having $\neg$ in their logics, even if it's just $\to$ in disguise)
 =--
