@@ -43,4 +43,8 @@ In particular, I think that general facts about internalising the concept to cat
 By the way, here is the answer to Mike\'s question about what "we should expect": the $\infty$-category of $(n,r)$-categories is an $(n+1,r+1)$-category (which I should discuss on [[(n,r)-category]] but have not); accordinly, the $\infty$-category of $n$-groupoids is an $(n,1)$-category. In particular, the $\infty$-category of $(-1)$-groupoids is a $(0,1)$-category.
 =--
 
+
+[[!redirects truth value]]
 [[!redirects truth values]]
+[[!redirects truth-value]]
+[[!redirects truth-values]]
