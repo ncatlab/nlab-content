@@ -9,7 +9,7 @@ The similarity of the behaviour of various [[cohomologies]] of [[algebraic varie
 
 So far there are realizations of [[pure motive]]s, and not of the mixed motives. However there are several equivalent definitions of a triangulated tensor category which has all conjectured structural properties of the derived category of mixed motives (except t-structure which would manifestly make it a derived category); hence it is denoted $D(\mathcal{M M})$.
 
-Constructions of motives depend much on whether we work in prime [[characteristic]]s or in characteristic zero. Part of the formalism involves more general schemes than varieties. 
+Constructions of motives depend much on whether we work in prime [[characteristic]]s or in characteristic zero. Part of the formalism involves more general [[schemes]] than varieties. 
 
 Another crucial idea leading to motives is that the various cohomologies lead to the same pieces of information; therefore there is a symmetry related to this, which is of Galois nature. For example, over the [[complex numbers]] one can compare the [[Betti cohomology]] and [[de Rham cohomology]] "realizations". Thus one has a motivic [[Galois group]], and as usually with representations one has a [[tensor category]] structure which is also [[rigid monoidal category|rigid]]. Thus one has in fact an [[monoidal abelian category|abelian tensor category]] of motives. The Tannakian reconstruction plays a major role; for pure motives we have neutral [[Tannakian category|Tannakian categories]], and for mixed motives we have mixed Tannakian categories. Functions on the [[torsor]] of the isomorphism between "realizations" correspond to the matrices of [[period]]s in [[Hodge theory]]. 
 
