@@ -53,7 +53,7 @@ Monads in $Cat$ are sometimes, mostly in older literature, also called **triple*
 
 Monads on [[partial order|posets]] are particularly simple.  In fact, monads on [[power set]]s are extremely common throughout mathematics; they are known in less categorially-inclined circles as [[Moore closure]]s, and there are many examples there.
 
-Every [[algebraic theory]] with a notion of free algebra defines a monad on [[Set]].  For example, the operation taking a set $S$ to the underlying set of the [[free group]] on $S$ may be extended to a monad.
+Every [[algebraic theory]] with a notion of free algebra defines a monad on [[Set]].  For example, the operation taking a set $S$ to the underlying set of the [[free monoid]] on $S$ may be extended to a monad, the [[list monad]].
 
 An [[internalization|internal]] monad on the [[subobject classifier]] of a [[topos]] $E$ is a [[Lawvere-Tierney topology]] on $E$.
 
@@ -88,3 +88,4 @@ Book (recall that monads are also called 'triples'):
 
 [[!redirects algebra of a monad]]
 [[!redirects algebra over a monad]]
+[[!redirects monads]]
