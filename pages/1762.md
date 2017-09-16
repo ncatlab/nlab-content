@@ -1,4 +1,4 @@
 Ross Street is a major category theorist of the [[Australian school of category theory]], a student and collaborator of late [[Max Kelly|George Maxwell Kelly]]. See his [list of publications](http://www.maths.mq.edu.au/~street/Publications.html) and [homepage](http://www.maths.mq.edu.au/~street). His most important works include works in [[sheaf]], [[fibred category]], [[stack]] and [[descent]] theory, including the introduction of [[oriental]]s, a definition of [[n-category|weak higher category]], [[braided categories]] and [[quantum group]]s, [[Tannaka reconstruction]], categorical [[algebraic theory|algebra]] (e.g. formal theory of [[monad]]s), [[bicategories]], coherence for [[tricategories]], etc.
 
 
-category: biography
+category: people
