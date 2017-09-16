@@ -5,15 +5,15 @@ and that of [[profunctor]] generalizes that of [[relation]], the
 notion of _graph_ of a (pro)functor generalizes that of [[graph of a function]].
 
 Just as the [[graph of a function]] $f : X \to Y$, 
-or more generally that of a [[relation]] $\subset X \times Y \to (-1)Cat = \{0,1\}$
+or more generally that of a [[relation]] $R \subset X \times Y$
 for $X,Y \in Set = 0 Cat$
 is nothing but the [[category of elements]] of the corresponding 
-characteristic function $\chi_R : X \times Y \to (-1)Cat$, the graph
-of a functor, or more generally that of a [[profunctor]],
-$\chi : C^{op} \times D \to 0 Cat = Set$ is nothing but its [[category of elements]].
+characteristic function $\chi_R : X \times Y \to (-1)Cat = \{0,1\}$, so the graph
+of a functor $F\colon C \to D$, or more generally that of a [[profunctor]]
+$\chi : C^{op} \times D \to 0 Cat = Set$, is nothing but its [[category of elements]].
 
 Generally, the graph of a functor 
-$f : C \to D$ between [[(n,r)-category|(n,r)-categories]]
+$f : C \to D$ between $(n,r)$-[[(n,r)-category|categories]]
 is the 
 [[Grothendieck construction]] of the corresponding correspondence:
 the fibration classified by the correspondence, 
@@ -25,14 +25,14 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    C^{op} \times D &\stackrel{\chi_f}{\to}& (n-1)Cat
+    C^{op} \times D &\stackrel{\chi_f}{\to}& (n-1,r-1)Cat
   }
 $$
 
 whenever this makes sense. For instance in the context of 
-[[Higher Topos Theory|(infinity,1)-category theory]] the graph
+$(\infty,1)$-[[Higher Topos Theory|category theory]] the graph
 may be taken to be the fibration classified by $\chi_f : C \times D^{op} \to (\infty,0)$
-as described at  [[universal fibration of (infinity,1)-categories]].
+as described at  [[universal fibration of (∞,1)-categories]].
 
 
 # Definition #
