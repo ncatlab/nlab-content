@@ -1,11 +1,11 @@
 In the following $C$ and $D$ are [[categories]], $x$ and $y$ are [[objects]]...
 
-* $\mathbf{1}$
+* $\mathbf{1}$ -- See [[point]]
 * $\mathbf{2}$ - See [[interval category]]
 * $Arr(C)$ - See [[arrow category]]
 * $C^\to$ - See [[arrow category]]
-* $[C,D]$ - See [[functor category]]
-* $D^C$ - See [[functor category]]
+* $[C,D]$ - See [[functor category]] or [[enriched functor category]] or [[internal hom]]
+* $D^C$ - See [[exponential object]] or [[functor category]] 
 * $C\darr D$ - See [[comma category]]
 * $C/D$ - See [[comma category]]
 * $(C,D)$ - See [[comma category]]
@@ -14,9 +14,9 @@ In the following $C$ and $D$ are [[categories]], $x$ and $y$ are [[objects]]...
 * $x\darr C$ - See [[under category]] a.k.a. coslice category
 * $x/C$ - See [[under category]] a.k.a. coslice category
 * $x\backslash C$ - See [[under category]] a.k.a. coslice category
-* $C(x,y)$ - See [[hom-set]]
-* $hom(x,y)$ -
-* $Hom(x,y)$ - 
+* $C(x,y)$ - See [[hom-set]] or [[hom-object]]
+* $hom(x,y)$ - See [[internal hom]] or [[hom-set]]
+* $Hom(x,y)$ - See [[internal hom]] or [[hom-set]]
 
 #Discussion#
 
@@ -27,6 +27,8 @@ _Toby_:  If you like, but what we really need to do, I think, is to explain nota
 _Eric_: Sure, but sometimes I come across notation in a reference (not necessarily on the n-Lab) and it is not 100% clear from the context what concept that notation corresponds to. I thought this could be an index of notation that merely points to the correct page. 
 
 _Toby_:  OK, fair enough.
+
+[[Urs Schreiber|Urs]]: yes, sounds good
 
 category: meta
 
