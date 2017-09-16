@@ -98,34 +98,121 @@ The following properties of the minimal negation operators $\nu_k : \mathbb{B}^k
 
 Table 1 is a truth table for the sixteen boolean functions of type $f : \mathbb{B}^3 \to \mathbb{B}$, each of which is either a boundary of a point in $\mathbb{B}^3$ or the complement of such a boundary.
 
-Table 1.  Logical Boundaries and Their Complements
+<table align="center" border="1" cellpadding="4" markdown="1">
 
-|           |                |      |                 |                   |
-|:---------:|:--------------:| ----:|:---------------:|:-----------------:|
-| $L_1$     | $L_2$          |      | $L_3$           | $L_4$             |
-| Decimal   | Binary         |      | Sequential      | Parenthetical     |
-|           |                |      |                 |                   |
-|           |                | $p:$ | 1 1 1 1 0 0 0 0 |                   |
-|           |                | $q:$ | 1 1 0 0 1 1 0 0 |                   |
-|           |                | $r:$ | 1 0 1 0 1 0 1 0 |                   |
-|           |                |      |                 |                   |
-| $f_{104}$ | $f_{01101000}$ |      | 0 1 1 0 1 0 0 0 | `( p , q , r )`   |
-| $f_{148}$ | $f_{10010100}$ |      | 1 0 0 1 0 1 0 0 | `( p , q ,(r))`   |
-| $f_{146}$ | $f_{10010010}$ |      | 1 0 0 1 0 0 1 0 | `( p ,(q), r )`   |
-| $f_{97}$  | $f_{01100001}$ |      | 0 1 1 0 0 0 0 1 | `( p ,(q),(r))`   |
-| $f_{134}$ | $f_{10000110}$ |      | 1 0 0 0 0 1 1 0 | `((p), q , r )`   |
-| $f_{73}$  | $f_{01001001}$ |      | 0 1 0 0 1 0 0 1 | `((p), q ,(r))`   |
-| $f_{41}$  | $f_{00101001}$ |      | 0 0 1 0 1 0 0 1 | `((p),(q), r )`   |
-| $f_{22}$  | $f_{00010110}$ |      | 0 0 0 1 0 1 1 0 | `((p),(q),(r))`   |
-|           |                |      |                 |                   |
-| $f_{233}$ | $f_{11101001}$ |      | 1 1 1 0 1 0 0 1 | `(((p),(q),(r)))` |
-| $f_{214}$ | $f_{11010110}$ |      | 1 1 0 1 0 1 1 0 | `(((p),(q), r ))` |
-| $f_{182}$ | $f_{10110110}$ |      | 1 0 1 1 0 1 1 0 | `(((p), q ,(r)))` |
-| $f_{121}$ | $f_{01111001}$ |      | 0 1 1 1 1 0 0 1 | `(((p), q , r ))` |
-| $f_{158}$ | $f_{10011110}$ |      | 1 0 0 1 1 1 1 0 | `(( p ,(q),(r)))` |
-| $f_{109}$ | $f_{01101101}$ |      | 0 1 1 0 1 1 0 1 | `(( p ,(q), r ))` |
-| $f_{107}$ | $f_{01101011}$ |      | 0 1 1 0 1 0 1 1 | `(( p , q ,(r)))` |
-| $f_{151}$ | $f_{10010111}$ |      | 1 0 0 1 0 1 1 1 | `(( p , q , r ))` |
+<caption><font size="+2">
+$\text{Table 1.} \:\: \text{Logical Boundaries and Their Complements}$
+</font></caption>
+
+<td>
+$\array{
+\arrayopts{
+\collines{solid}
+\rowlines{none solid none none solid none none none none none none none solid none}}
+\mathcal{L}_1
+&amp; \mathcal{L}_2
+&amp; \mathcal{L}_3
+&amp; \mathcal{L}_4
+\\
+\text{Decimal Index}
+&amp; \text{Binary Index}
+&amp; \phantom{mmm} \text{Truth Table} \phantom{mmm}
+&amp; \phantom{mmm} \text{Cactus Form} \phantom{mmm}
+\\
+&amp; \cellopts{\colalign{right}} p:
+&amp; 1 \: 1 \: 1 \: 1 \: 0 \: 0 \: 0 \: 0
+&amp;
+\\
+&amp; \cellopts{\colalign{right}} q:
+&amp; 1 \: 1 \: 0 \: 0 \: 1 \: 1 \: 0 \: 0
+&amp;
+\\
+&amp; \cellopts{\colalign{right}} r:
+&amp; 1 \: 0 \: 1 \: 0 \: 1 \: 0 \: 1 \: 0
+&amp;
+\\
+f_{104}
+&amp; f_{01101000}
+&amp; 0 \: 1 \: 1 \: 0 \: 1 \: 0 \: 0 \: 0
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#xFE50;} r \text{&#x2998;}
+\\
+f_{148}
+&amp; f_{10010100}
+&amp; 1 \: 0 \: 0 \: 1 \: 0 \: 1 \: 0 \: 0
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#xFE50;&#x2997;} r \text{&#x2998;&#x2998;}
+\\
+f_{146}
+&amp; f_{10010010}
+&amp; 1 \: 0 \: 0 \: 1 \: 0 \: 0 \: 1 \: 0
+&amp; \text{&#x2997;} p \text{&#xFE50;&#x2997;} q \text{&#x2998;&#xFE50;} r \text{&#x2998;}
+\\
+f_{97}
+&amp; f_{01100001}
+&amp; 0 \: 1 \: 1 \: 0 \: 0 \: 0 \: 0 \: 1
+&amp; \text{&#x2997;} p \text{&#xFE50;&#x2997;} q \text{&#x2998;&#xFE50;&#x2997;} r \text{&#x2998;&#x2998;}
+\\
+f_{134}
+&amp; f_{10000110}
+&amp; 1 \: 0 \: 0 \: 0 \: 0 \: 1 \: 1 \: 0
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;} q \text{&#xFE50;} r \text{&#x2998;}
+\\
+f_{73}
+&amp; f_{01001001}
+&amp; 0 \: 1 \: 0 \: 0 \: 1 \: 0 \: 0 \: 1
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;} q \text{&#xFE50;&#x2997;} r \text{&#x2998;&#x2998;}
+\\
+f_{41}
+&amp; f_{00101001}
+&amp; 0 \: 0 \: 1 \: 0 \: 1 \: 0 \: 0 \: 1
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;&#x2997;} q \text{&#x2998;&#xFE50;} r \text{&#x2998;}
+\\
+f_{22}
+&amp; f_{00010110}
+&amp; 0 \: 0 \: 0 \: 1 \: 0 \: 1 \: 1 \: 0
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;&#x2997;} q \text{&#x2998;&#xFE50;&#x2997;} r \text{&#x2998;&#x2998;}
+\\
+f_{233}
+&amp; f_{11101001}
+&amp; 1 \: 1 \: 1 \: 0 \: 1 \: 0 \: 0 \: 1
+&amp; \text{&#x2997;&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;&#x2997;} q \text{&#x2998;&#xFE50;&#x2997;} r \text{&#x2998;&#x2998;&#x2998;}
+\\
+f_{214}
+&amp; f_{11010110}
+&amp; 1 \: 1 \: 0 \: 1 \: 0 \: 1 \: 1 \: 0
+&amp; \text{&#x2997;&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;&#x2997;} q \text{&#x2998;&#xFE50;} r \text{&#x2998;&#x2998;}
+\\
+f_{182}
+&amp; f_{10110110}
+&amp; 1 \: 0 \: 1 \: 1 \: 0 \: 1 \: 1 \: 0
+&amp; \text{&#x2997;&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;} q \text{&#xFE50;&#x2997;} r \text{&#x2998;&#x2998;&#x2998;}
+\\
+f_{121}
+&amp; f_{01111001}
+&amp; 0 \: 1 \: 1 \: 1 \: 1 \: 0 \: 0 \: 1
+&amp; \text{&#x2997;&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;} q \text{&#xFE50;} r \text{&#x2998;&#x2998;}
+\\
+f_{158}
+&amp; f_{10011110}
+&amp; 1 \: 0 \: 0 \: 1 \: 1 \: 1 \: 1 \: 0
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;&#x2997;} q \text{&#x2998;&#xFE50;&#x2997;} r \text{&#x2998;&#x2998;&#x2998;}
+\\
+f_{109}
+&amp; f_{01101101}
+&amp; 0 \: 1 \: 1 \: 0 \: 1 \: 1 \: 0 \: 1
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;&#x2997;} q \text{&#x2998;&#xFE50;} r \text{&#x2998;&#x2998;}
+\\
+f_{107}
+&amp; f_{01101011}
+&amp; 0 \: 1 \: 1 \: 0 \: 1 \: 0 \: 1 \: 1
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#xFE50;&#x2997;} r \text{&#x2998;&#x2998;&#x2998;}
+\\
+f_{151}
+&amp; f_{10010111}
+&amp; 1 \: 0 \: 0 \: 1 \: 0 \: 1 \: 1 \: 1
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#xFE50;} r \text{&#x2998;&#x2998;}
+}$
+
+</td></table>
 
 # Charts and graphs #
 
