@@ -26,7 +26,9 @@ A **Reedy category** is a [[category]] $R$ equipped with two [[wide subcategory|
 
 
 
-# Generalization
+# Generalizations
+
+## generalized Reedy category ##
 
 One problem with the notion of Reedy category is that it is [[evil]]: it is not invariant under [[equivalence of categories]].  It's not hard to see that any Reedy category is necessarily skeletal.  In fact, it's even worse: no Reedy category can have _any_ nonidentity isomorphisms!  This is problematic for many $\Delta$-like categories such as the [[category of cycles]], Segal's category $\Gamma$, the [[tree category]] $\Omega$, and so on.
 
@@ -41,3 +43,7 @@ structures from [[Reedy model structure]].  Define a **generalized Reedy categor
 * If $f\in R_-$ and $\theta$ is an isomorphism such that $\theta f = f$, then $\theta = 1$ (isomorphisms see the maps in $R_-$ as [[epimorphism|epis]]).
 
 The last condition is not self-dual, but has an obvious dual version.
+
+## enriched Reedy category ##
+
+There is also a generalization of the notion of Reedy category to the context of [[enriched category theory]]: this is an [[enriched Reedy category]].
