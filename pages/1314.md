@@ -9,7 +9,7 @@
 ##Idea 
 
 
-Following ideas of Thom and Whitney, [[Dennis Sullivan]] -- in his work on [[rational homotopy theory]] -- defined an algebra of [[differential form]]s on a [[polyhedron]]. 
+Following ideas of Thom and Whitney, [[Dennis Sullivan]] -- in his work on [[rational homotopy theory]] -- defined an algebra of [[differential form]]s on a [[polytope|polyhedron]]. 
 
 ## Definition: differential forms on $\mathbf{\Delta}^n$
 
