@@ -32,8 +32,6 @@ AN: I did not say that; it isn't. I said that SEAR is a theory of copies of card
 
 *  _Toby_:  Lawvere\'s claim (if I understand him) is that Cantor also had a theory of *copies* of (what we now call) cardinal numbers.  Cantor started with a set $A$ of real numbers, abstracted away everything except the order relation to get the (not necessarily well-)ordinal number $\overline{A}$, then abstracted even the order (but not the equality relation) away to get the cardinal number $\overline{\overline{A}}$.  Of course, he said that $\overline{\overline{A}}$ and $\overline{\overline{B}}$ are equal cardinal numbers if (and only if) there is a bijection between $A$ and $B$, but that is a *definition*, not an axiomatic *identity*.
 
-   I should have linked before (but forgot) to the discussion at [[set]]; the first half of that is all about this stuff.
-
 _Toby_ continues: Lawvere has long said that his 'abstract sets' and Cantor\'s 'Kardinalzahl' are the same thing.  But in fact the word 'set' ('Menge') is *not* only used in Cantor\'s original sense of a subset of some fixed universe (originally the collection of real numbers, eventually the entire von Neumann hierarchy) today.  Whenever someone says 'A group is a set equipped with [...]', the only thing that matters for group theory is the abstract set, the Kardinalzahl.  It is very easy to rewrite standard mathematics on this foundation; 
 
 AN: If it were very easy, it would have been done already. 
@@ -52,6 +50,8 @@ is far too sketchy to support the strong claim that SEAR
 is equivalent to ZF.
 
 *  _Toby_:  This is all fairly well known; see (for example) [Mac Lane & Moerdijk](http://www.amazon.com/Sheaves-Geometry-Logic-Introduction-Universitext/dp/3540977104) (I think Section VI.5) for details (although this does not deal with Replacement/Collection), or Chapter 8 of Mike\'s paper Unbounded Quantifiers and Strong Axioms in Topos Theory (is that available yet, Mike?).  Of course, these start with an explicitly categorial approach, but the equivalence of that with the approach of $\mathbf{SEAR}$ is fairly straightforward.
+
+  * [[Mike Shulman]]: No, it's not available yet, sorry.  I got sidetracked with other things.  But it's back near the top of the to-do list.
 
 _Toby_ continues: But if you want precision, look at the **Definition** section, not the vague **Idea**.  Equality of pure sets is also defined.  
 (There\'s still an error in that which I haven\'t fixed, but it\'s correct for well-founded pure sets, which are the ones that $\mathbf{ZFC}$ has.)
@@ -90,6 +90,8 @@ Clearly, this is not inherent in the mathematical writings but in the view. One 
 
 To start with the material point of view has many advantages: It is easy to motivate, makes for easy language, and most textbooks are already written in 
 that style.
+
+[[Mike Shulman]]: Can you cite some example of mathematics outside of ZF-theory which really treats sets materially?
 =--
 
 +--{: .query}
@@ -263,19 +265,7 @@ Composition of relations is associative ($\chi(\psi\varphi)=(\chi\psi)\varphi$),
 Just as in naive set theory.
 =--
 
-Informally speaking, we have two [[categories]] whose objects are the sets: in [[Rel]] the morphisms are the relations, while in [[Set]] the morphisms are the functions.  Formally, all we can say is that these are "meta-categories," in the sense that from any model of the first-order axioms of SEAR we can construct them as models of the first-order axioms of a category.  (This is not that different from the status of large categories such as $Set$ in material set theories such as ZF.)  See also the section on Universes, below.
-
-+--{: .query}
-_AN_: "It follows" is wishful thinking. At best, you have two metacategories. For the standard definition of a category requires that the objects form a class or a collection, which means in the standard informal metalanguage used in the standard textbooks that 
-there is an equality defined between objects. But as you explain before, this equality exists only on the metalevel. If you don't want that you need to define a SEAR version 
-of a category that allows to firmalize you wish.
-
-_Toby_: Yes, Mike is talking about a metacategory.  To make this into a category within $\mathbf{SEAR}$ (although that\'s not necessary for how it is used here), one would need to add a structural version of the axiom of universes, as remarked in the discussion with David Roberts above.  (One could probably also do it on the class level, talking about first-order formulas in the language of $\mathbf{SEAR}$, although then there would not be a notion of equality of objects ---which would be a good thing, in my opinion.
-
-[[Mike Shulman]]: Yes, I was following the common practice whereby "category" means "possibly large category" (or, if you prefer, "metacategory"), while "small category" means one whose objects and morphisms form sets.  Hopefully it is clearer now?
-
-AN: yes.
-=--
+Informally speaking, we have two [[categories]] whose objects are the sets: in [[Rel]] the morphisms are the relations, while in [[Set]] the morphisms are the functions.  Formally, all we can say is that these are "meta-categories," in the sense that from any model of the first-order axioms of SEAR we can construct them as models of the first-order axioms of a category.  (This is not that different from the status of large categories such as $Set$ in material set theories such as ZF.  We could also speak about "proper classes" as is done in ZF using first-order formulas.)  See also the section on Universes, below.
 
 In both of these (meta-)categories, the [[isomorphisms]] are the bijections.  We have also already observed that $\emptyset$ and $1$ are an [[initial object]] and a [[terminal object]] in $Set$, respectively, and that $\emptyset$ is both initial and terminal in $Rel$.
 
@@ -330,16 +320,6 @@ In structural set theory, sets cannot contain other sets (or relations), so we c
 
 As in both material set theory and ETCS, many useful consequences flow from this axiom.  We first observe that the property of $P A$ stated for subsets actually implies an analogous property for all relations.
 
-+--{: .query}
-_AN_: Theorem \ref{topos} is not a generalization but an analogue since relations are not sets.
-
-_Toby_:  Theorem \ref{topos} is a generalisation of the part of Axiom 3 about subsets.  (In $\mathbf{SEAR}$, a subset is a relation whose source, $B$ in Theorem \ref{topos}, is $1$.)
-
-[[Mike Shulman]]: Yes, hopefully the sentence is now clearer?
-
-AN: yes.
-=--
-
 
 +-- {: .num_theorem #topos}
 ###### Theorem
@@ -350,16 +330,20 @@ For any relation $R:B\looparrowright A$, there exists a unique function $f_R:B\t
 We simply define $f_R$ elementwise; for each $y$ we define $f_R(y)$ to be the unique element of $P A$ such that $\epsilon(x,f_R(y))$ holds iff $R(y,x)$ holds.  Extensionality of functions implies that it is unique.
 =--
 
-+--{: .query}
-[[David Roberts]]: This looks awesome - but we haven't seen any cons yet. I thought about this on the train this morning and have a few questions:
+As usual, power sets also imply the existence of function sets.
 
- * Is there a set of relations (resp. functions) between two sets?
- * In theorem 10, we need this to talk about a bijective correspondence between functions $B\to P A$ and relations $B\looparrowright A$.
-
-[[Mike Shulman]]: Well, $P(A\times B)$ represents the relations from $A$ to $B$, and with separation you can cut out a set $B^A$ representing the functions.  However, although Theorem \ref{topos} would be true with this interpretation, it was intended only to be about a "meta-bijection."  I've tried to clarify it.
++-- {: .num_theorem #ccc}
+###### Theorem
+For any two sets $A$ and $B$, there exists a set $B^A$ and a function $ev:B^A \times A\to B$ such that for any function $f:A\to B$ there exists a unique element $s_f\in B^A$ such that $ev(s_f,a)=f(a)$ for all $a\in A$.  It follows that $Set$ is a [[cartesian closed category]].
+=--
++--{: .proof}
+###### Proof
+We take $B^A$ to be a tabulation of the subset of $P(A\times B)$ containing only the functions.  More precisely, define $F\subseteq P(A\times B)$ such that $s\in F$ iff for every $x\in A$, there exists a unique $y\in B$ such that $\epsilon((x,y),s)$, and let $B^A = {|F|}$.
 =--
 
-We now  construct [[quotient set]]s.  Of course, by an **[[equivalence relation]]** on a set $A$ we mean a relation $R:A\looparrowright A$ which is reflexive, transitive, and symmetric.
+The correspondences in Theorems \ref{topos} and \ref{ccc} are "meta-bijections," but by a standard Yoneda lemma argument they can be converted into actual bijections as defined above in SEAR.  This produces bijections such as $C^{A\times B} \cong (C^A)^B$ and $P(A\times B) \cong (P A)^B$.
+
+We now construct [[quotient set]]s.  Of course, by an **[[equivalence relation]]** on a set $A$ we mean a relation $R:A\looparrowright A$ which is reflexive, transitive, and symmetric.
 
 +-- {: .num_theorem #quotients}
 ###### Theorem
@@ -412,7 +396,7 @@ _Toby_:  Assuming the consistency of $\mathbf{ZFC}$, this follows from the equic
 
 AN: yes, I doubt that. It has not even been outlined.
 
-[[Mike Shulman]]: Moreover, it doesn't really need the full equiconsistency; it only needs the easy direction that $Con(ZF)\Rightarrow Con(SEAR)$.  
+[[Mike Shulman]]: Moreover, it doesn't really need the full equiconsistency; it only needs the easier direction that $Con(ZF)\Rightarrow Con(SEAR)$.
 
 AN: I think you'd put this piece of information into the main text. 
 
@@ -426,6 +410,8 @@ as it would provide intuition in its validity.
 _Toby_:  I\'m sure that it can\'t be proved by the others, which have a model in $V_{\omega + \omega}$ (the universe of well-founded pure sets of hereditary rank less than $\omega + \omega$), the same as provides a model for $\mathbf{ZC}$ (which is $\mathbf{ZFC}$ with unbounded Separation but without Replacement/Collection).
 
 I would like to see detailed proofs, if Mike has written them up.  I have not yet completely convinced myself that Collection is properly formulated (although I\'m certain that it could be fixed if necessary by writing it in a more function-theoretic way, since I know how to do that myself).
+
+[[Mike Shulman]]: I've added some more detail below regarding the proof of the SEAR Collection axiom from ZF.  When I have time I will add more about the other direction as well, for which I do have something written down (sort of), but in different terminology than is used at [[pure set]].
 =--
 
 
@@ -445,6 +431,9 @@ AN: For example, I'd like to understand its role in the
 proof that SEAR and ZF are logically equivalent. 
 For if it is not needed there, it seems (though I am not completely sure if this is a cogent conclusion) that one should be able to prove the axiom from the others.
 
+[[Mike Shulman]]: If $Con(SEAR-Collection)\Rightarrow Con(ZF)$ but $Con(ZF)\Rightarrow Con(SEAR)$, then it would of course follow that $Con(SEAR-Collection)\Rightarrow Con(SEAR)$.  But it wouldn't necessarily be true that Collection itself, rather than merely its consistency, follows from the other axioms.
+
+Regardless, there is no hope of $Con(SEAR-Collection)\Rightarrow Con(ZF)$, since as Toby says $V_{\omega+\omega}$ (or more generally any model of Zermelo set theory) models SEAR-Collection, but is strictly weaker than $ZF$.
 =--
 
 
@@ -476,9 +465,26 @@ ETCS can also be augmented with additional axioms to make it equivalent to full 
 
 ## SEAR and ZF ##
 
-It is fairly straightforward to construct a model of SEAR from a model of ZF.  Given a model of ZF, we define the SEAR-sets to be the ZF-sets, and the SEAR-elements of $A$ to be the ZF-elements of $A$.  If we prefer, we can take the SEAR-elements of $A$ to be pairs $(x,A)$ where $x\in_{ZF} A$, so that the elements of distinct sets will be disjoint---but this is not necessary, since in SEAR the question of whether two distinct sets have elements in common is not even well-posed.  Finally, we of course take the SEAR-relations $A\looparrowright B$ to be the ZF-subsets of $A\times B$, and we let $\varphi(x,y)$ hold in SEAR iff $(x,y)\in_{ZF} \varphi$.  It is then easy to prove the SEAR (resp. SEAR-C) axioms from the ZF (resp. ZFC) axioms.  The least obvious SEAR axiom is Collection, whose proof requires the [[axiom of replacement]] in ZF.  (In fact, the axiom of replacement of ZF is equivalent, modulo its other axioms, to an "axiom of collection" which is more akin to the SEAR axiom of collection.)
+It is fairly straightforward to construct a model of SEAR from a model of ZF.  Given a model of ZF, we define the SEAR-sets to be the ZF-sets, and the SEAR-elements of $A$ to be the ZF-elements of $A$.  If we prefer, we can take the SEAR-elements of $A$ to be pairs $(x,A)$ where $x\in_{ZF} A$, so that the elements of distinct sets will be disjoint---but this is not necessary, since in SEAR the question of whether two distinct sets have elements in common is not even well-posed.  Finally, we of course take the SEAR-relations $A\looparrowright B$ to be the ZF-subsets of $A\times B$, and we let $\varphi(x,y)$ hold in SEAR iff $(x,y)\in_{ZF} \varphi$.  It is then easy to prove Axioms 0, 1, 2, 3, and 4 from the axioms of ZF, and likewise Axiom 6 follows easily from the axiom of choice in ZFC.  (In fact, Z and ZC, where the replacement axiom is omitted, suffice for these conclusions.)  The only axiom which requires some thought is Collection, and it is here that we use replacement.
 
-Conversely, from any model of SEAR one can *construct* a model of ZF, by taking the sets in ZF to be the "internal well-founded extensional relations."  This process is described at [[pure set]].  
++-- {: .num_theorem #zf-coll}
+###### Theorem
+The sets, elements, and relations in a model of ZF satisfy the Collection axiom of SEAR.
+=--
++--{: .proof}
+###### Proof
+Let $A$ be a set and $P$ a property as in Axiom 5.  As given, $P$ is a first-order statement in the language of SEAR, but we can easily translate it into a statement in the language of ZF; from now on we work in ZF.  Define
+$$A' = \{a\in A | \exists X. P(a,X)\}.$$
+By the [[axiom of foundation]], for each $a\in A'$ there exists an [[ordinal]] $\lambda$ and an $X\in V_{\lambda}$ such that $P(a,X)$; let $\lambda_a$ be the *smallest* such $\lambda$.  Then $a\mapsto V_{\lambda_a}$ is a class function, so by the axiom of replacement, the set $\{V_{\lambda_a} | a\in A'\}$ exists.  Let $Y$ be the union of this set.  Define
+$$B = \{ (a,X)\in A\times Y | P(a,X)\},$$
+let $p:B\to A$ be the projection onto the first factor, and let $M:B\looparrowright Y$ be defined by
+$$M((a,X),x) \Leftrightarrow x\in X.$$
+Then $M_{(a,X)} = X$, since each $V_\lambda$ is a transitive set, so $P((a,X), M_{(a,X)})$ holds for any $(a,X)\in B$.  Finally, by construction, if there exists $X$ with $P(a,X)$ then $a\in im(p)$; thus the SEAR axiom of collection is satisfied.
+=--
+
+Note the use of the axiom of foundation in addition to the axiom of replacement.  This can be avoided if we use instead the ZF version of the [axiom of collection](http://en.wikipedia.org/wiki/Axiom_of_collection#Axiom_schema_of_collection), which is equivalent to the axiom of replacement over the other ZF axioms (including foundation), by an argument like that above.
+
+Conversely, from any model of SEAR one can *construct* a model of ZF, by taking the sets in ZF to be the "internal well-founded extensional relations."  The basic idea of this process is described at [[pure set]]; more details remain to be filled in.
 
 
 +--{: .query}
@@ -495,7 +501,9 @@ Every topos has an [[internal logic]], which is a [[type theory]].  However, the
 One can also write down stronger axioms on a topos such that if they are satisfied, then full Intuitionistic SEAR can be interpreted "internally" in that topos, extending the usual internal logic.
 
 
-# SEPS: Making alternate primitive choices #
+# Making alternate primitive choices #
+
+## SEPS: Using pairs and subsets instead of relations
 
 +-- {: .query}
 This looks nice, and I think that it probably matches pretty closely the way that I usually think when reading ordinary mathematics.  I haven\'t read it very carefully yet, so take this with a grain of salt, but I think that it would be even more user-friendly to use sets, elements, and *subsets* (rather than binary relations) as the basic concepts.  Presumably you have to throw in ordered pairs too, but I think that this matches 'ordinary' language *very* closely.  ---Toby
@@ -547,6 +555,22 @@ We now define a **relation** $A\looparrowright B$ to be a subset of $A\times B$.
 Applying separation to subsets of $A\times B$ and composing $i$ with the product projections, we recover Axiom 2 (tabulations).  We can now go on with the subsequent axioms stated in the same way as before.
 
 
+## Eliminating equality
+
+As stated SEAR includes a fundamental "equality" relation on elements of a given set.  However, we can also make equality into *structure*.  This is definitely not along the "more accessible to undergraduates" direction!  But it may sometimes be technically helpful.
+
+Consider a theory of *pre-sets*, *elements*, and *pre-relations* as in SEAR, with "pre-sets" replacing sets, except that there is no given equality relation on *anything*.  Axiom 0 requires no modification. In Axiom 1, we reinterpret the "uniqueness" clause as a *definition* of what it means for two parallel pre-relations to be equal, i.e. $\varphi=\psi$ if $\varphi(x,y)\Leftrightarrow\psi(x,y)$ for all $x$ and $y$ in the source and target of $\varphi$ and $\psi$.
+
+Before stating the version of Axiom 2 we need some definitions.  We define a **set** to be a preset $A$ equipped with an [[equivalence relation|equivalence pre-relation]] $=_A$.  A **relation** between sets $(A,{=_A})$ and $(B,{=_B})$ is a pre-relation $\varphi:A\looparrowright B$ which is *extensional* in the sense that if $\varphi(x,y)$, $x'=_A x$, and $y'=_B y$, then $\varphi(x',y')$.  Finally, a **function** $f:(A,{=_A}) \to (B,{=_B})$ is a relation which is (a) *total:* for any $x\in A$, there is a $y\in B$ with $f(x,y)$, and (b) *functional:* if $f(x,y)$ and $f(x',y')$ and $y=_B y'$, then $x=_A x'$.
+
+Now Axiom 2 reads: for any sets $(A,{=_A})$ and $(B,{=_B})$ and any relation $\varphi:(A,{=_A})\looparrowright (B,{=_B})$, there exists a set $({|\varphi|},{=_{|\varphi|}})$ and functions $p:{|\varphi|}\to A$ and $q:{|\varphi|}\to B$ such that: (1) for any $x\in A$ and $y\in B$, we have $\varphi(x,y)$ if and only if there exists $r\in {|\varphi|}$ with $p(r,x)$ and $q(r,y)$, and (2) for any $r\in {|\varphi|}$ and $s\in{|\varphi|}$, if $p(r)=_A p(s)$ and $q(r)=_B q(s)$, then $r=_{|\varphi|}s$.  Note that it is sufficient to assert merely that $|\varphi|$ is a pre-set and $p$ and $q$ are total relations satisfying (1), since (2) can then be used to define $=_{|\varphi|}$ in such a way as to make it a set and $p$ and $q$ functions.
+
+The construction of $\emptyset$ is just as in ordinary SEAR.  The construction of $1$ in ordinary SEAR used equality, but we now have a simple replacement for it: let $1$ be any pre-set containing an element, equipped with the equivalence relation such that $x=y$ always for any $x,y\in 1$.  Similarly, in this variant we can construct quotient sets without needing powersets; we simply enlarge the equivalence relation on the underlying pre-set of a set.
+
+Of course, if $(A,{=_A})$ is a set, a **subset** of $A$ is a relation $1\looparrowright (A,{=_A})$.  Axiom 3 can now be translated as-is, or it can be simplified to assert merely the existence of a pre-set $P A$ such that any subset of $A$ is represented by some element of $P A$, with the uniqueness clause turned into a definition of $=_{P A}$.
+The same idea applies to all the other axioms.
+
+
 # Universes in SEAR
 
 +--{: .query}
@@ -554,5 +578,7 @@ Applying separation to subsets of $A\times B$ and composing $i$ with the product
 
 [[Mike Shulman]]: Universes can be defined in any structural set theory in a fairly straightforward way, modulo the usual translation from "set of sets" to "family of sets."  There is some stuff from a more ETCS-like perspective at [[universe in a topos]]; I'm sure that this can be rephrased in SEAR (if you want to take a shot, feel free!).
 
-[[David Roberts]]: I'd certainly like to, subject to real-world time constrains. It seems to me that something could be done to the axiom of collection if we had a axiom of universes (for every set there is a universe acting as a universal family for it, or similar).
+[[David Roberts]]: I'd certainly like to, subject to real-world time constraints. It seems to me that something could be done to the axiom of collection if we had a axiom of universes (for every set there is a universe acting as a universal family for it, or similar).
+
+[[Mike Shulman]]: I'm not sure that Collection can really be eliminated using universes, but maybe it can.
 =--
