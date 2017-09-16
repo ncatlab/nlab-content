@@ -42,4 +42,7 @@ Sasha Rosenberg had defended in 1973 dissertation at Moscow State University stu
 * A. Rosenberg, [Homological algebra of noncommutative 'spaces' I](http://www.mpim-bonn.mpg.de/preprints/send?bid=3623), 199 pages, preprint Max Planck, Bonn: MPIM2008-91.
 
 
+[[!redirects Sasha Rosenberg]]
+[[!redirects Sasha Rozenberg]]
+
 category: people
