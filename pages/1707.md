@@ -76,7 +76,7 @@ The various notions of **group cohomology** are special cases of this:
 
 We spell out in detail how the above reproduces the ordinary definition of group cohomology.
 
-For the case of ordinary abelian group cohomology, the context of [[strict omega-groupoid]]s is in priinciple fully sufficient, since the domain object $\mathbf{B}G$ in that case ism being a 1-[[groupoid]], clearly a strict [[infinity-groupoid]], as are the abelian coefficient $n$-groupoids $\mathbf{B}^n K$, manifestly so as images of [[crossed complex]]es under the equivalence of crossed complexes with [[strict omega-groupoid]]s.
+For the case of ordinary abelian group cohomology, the context of [[strict omega-groupoid]]s is in principle fully sufficient, since the domain object $\mathbf{B}G$ in that case is a 1-[[groupoid]], clearly a strict [[infinity-groupoid]], as are the abelian coefficient $n$-groupoids $\mathbf{B}^n K$, manifestly so as images of [[crossed complex]]es under the equivalence of crossed complexes with [[strict omega-groupoid]]s.
 
 So one possibility is to model $Ho_{\infty Grpd}$ in this case as the [[homotopy category]] induced by the [[model structure on strict omega-groupoid]]s.
 
@@ -134,7 +134,7 @@ $$
 
 where the diagram indicates what the face maps on $N (\mathbf{B}G) = G \times G$ are.
 
-Accordingl, the 3-cells look like
+Accordingly, the 3-cells look like
 
 $$
   N(\mathbf{B}G)_3
