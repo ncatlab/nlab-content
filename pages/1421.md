@@ -1,8 +1,13 @@
-The concept of a _perfect stack_ in the context of [[(infinity,1)-category|(infinity,1)-categories]] was introduced by [[David Ben-Zvi|Ben-Zvi]], Francis and Nadler in their paper [Integral transforms and Drinfeld centers in derived algebraic geometry](http://arxiv.org/abs/0805.0157). It represents the most general class of [[derived stack]]s where [[geometric infinity-function theory]] works best. 
+#Idea#
 
-A perfect stack is a stack whose space of functions --- the category $QC(X)$ of [[quasicoherent sheaf|quasicoherent sheaves]] on $X$ --- is locally the [[colimit|inductive limit]] of a category of 'finite' objects. 
+A [[stack]] or [[infinity-stack]] $X$, which might be a [[derived stack]], is called _perfect_ if the canonical  [[(infinity,1)-category]] of "modules over its function algebra" is particularly well behaved.
 
-Perfect stacks cover a broad array of spaces of interest, with notable exceptions being the classifying space of a topological group such as $S^1$ or the classifying spaces of most algebraic groups in non-zero characteristic. This is because if $X$ is perfect, then the global sections functor $\Gamma$ must preserve colimits, which fails when the global sections $\Gamma(X, \mathcal{O}_X)$ of the structure sheaf is 'too large', as in the previous cases.
+In the context of [[geometric infinity-function theory]] these modules play the role of generalized functions, perfect $\infty$-stacks are those for which the _fundamental theorem of $\infty$-function theory_ (see [there](geometric infinity-function theory)) holds.
+
+A perfect $\infty$-stack is an $\infty$-stack whose "space of $\infty$-functions" --- the [[(infinity,1)-category]] $QC(X)$ of [[quasicoherent sheaf|quasicoherent sheaves]] on $X$ --- is locally the [[colimit|inductive limit]] of a category of 'finite' objects. 
+
+#Definition#
+
 
 To define a perfect stack $X$, we must first define which [[quasicoherent sheaf|quasicoherent sheaves]] on $X$ we shall consider to be 'finite'. These are called the _perfect complexes_.
 
@@ -41,6 +46,12 @@ _Bruce_: I'm not sure if 'perfect stack' makes sense at the non-derived level.
 
 =--
 
+#Remarks#
+
+* Perfect stacks cover a broad array of spaces of interest, with notable exceptions being the classifying space of a topological group such as $S^1$ or the classifying spaces of most algebraic groups in non-zero characteristic. This is because if $X$ is perfect, then the global sections functor $\Gamma$ must preserve colimits, which fails when the global sections $\Gamma(X, \mathcal{O}_X)$ of the structure sheaf is 'too large', as in the previous cases.
+
+#Properties#
+
 The following proposition establishes that the concept of 'perfect stack' is robust in that various other roads would have led to the same destination.
 
 +-- {: .un_theorem}
@@ -51,3 +62,10 @@ For a derived stack $X$ with affine diagonal, the following are equivalent:
 * $QC(X)$ is [[compactly generated category|compactly generated]], and its [[compact object|compact]] and [[dualizable object|dualizable]] objects coincide.
 
 =--
+
+
+#References#
+
+The concept of a _perfect stack_ in the context of [[(infinity,1)-category|(infinity,1)-categories]] was introduced in
+
+* [[David Ben-Zvi|Ben-Zvi]], Francis and Nadler, _Integral transforms and Drinfeld centers in derived algebraic geometry_ ([arXiv](http://arxiv.org/abs/0805.0157))
