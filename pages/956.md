@@ -21,3 +21,6 @@ _Toby_:  I think that I\'ll take the last clause as a vote for 'tight'.  (The be
 _Toby_:  OK, it\'s all 'tight relation' now.
 
 =--
+
+
+[[!redirects linear relation]]
