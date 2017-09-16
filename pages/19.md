@@ -168,6 +168,39 @@ _Rafael_: Kapranov and Voevodsky sounds very familiar. In an explanation of cate
 I did't thought of equivalence of functors at all while writing before. Since it is just as important i suggest the header: Equality in category theory. It summarizes categories, functors and evil.
 
 _Toby_:  I wonder if we should have a section on 'main principles', plural.  We can cover this one, and the Yoneda lemma (called the 'fundmental theorem' below), and maybe some others.
+
+_Rafael_: I don't see a problem with it. Since there are many equalities in category theory it would be better to split the section into one "Equalities in category theory" (not that i have the strength to explain all the equalities) and another "Main principles" or "Main theorems". "Main theorems" is bettter because it could include principles, but it might become too long. :) Your idea with only "Main principles" is good for less writing. I have already started. To my knowledge here are the principles in category theory.
+
+* Main principle of category theory
+
+* Duality principle: Something that is true for all categories is true for the duals of all categories.
+
+* Basic principle of Galois theory: Covering spaces $F \to E \to B$ (the first arrow should be an embedding arrow) are classified by smooth functors $\Pi_1(B) \to Aut(F)$.
+
+* Abelian duality principle: The dual of an abelian category is an abelian category.
+
+* Microcosm principle: Certain algebraic structures can be defined in any category equipped with a categorified version of the same structure.
+
+* Comprehension principle: (i am no good at this so i will not attempt to formulate it).
+
+* Cohomological Hasse principle: (i am no good at this so i will not attempt to formulate it and i am not sure that anybody actually has formulated it in general). 
+
+* Exponential principle in a symmetric monoidal category: (i can not see it has a formulation that is as simple as the above).
+
+* Some call homological mirror symmetry the homological mirror symmetry principle.
+
+* Some call Tannaka-Krein duality the Tannaka-Krein duality principle.
+
+* See [this book](http://books.google.se/books?id=-AokWhbILUIC&dq=%22Algebraic+methods+in+philosophical+logic%22&printsec=frontcover&source=bn&hl=sv&ei=JLcuS4HPNoLZ-Qa2urCUBg&sa=X&oi=book_result&ct=result&resnum=4&ved=0CCUQ6AEwAw#v=onepage&q=&f=false) for the mirror principle and principle of categorical compositionality.
+
+* There probably is a transfer principle also, how to transport statements between categories.
+
+* There might be a categorified version of the Weyl principle: If you want to learn something about an object investigate its group of automorphisms.
+
+* Grothendieck reconstruction principle for the Teichmuller tower. As i can see this is in moduli theory but i am not sure if it is unrelated to category theory. In a way categories are moduli spaces for the set/class of their objects modulo isomorphic objects.
+
+* (Red herring principle if you like it)
+
 =--
 
 According to Kapranov and Voevodsky, category theory has a main principle:
