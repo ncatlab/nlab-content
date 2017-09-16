@@ -1,16 +1,21 @@
-One of the greatest recent achievements in algebraic topology is the construction of a [[spectrum]] called **tmf**, for  "topological modular forms". 
+THe [[generalized (Eilenberg-Steenrod) cohomology]] theory called **tmf** is the one represented by the [[spectrum]] that is obtained as the [[homotopy limit]] of the spectra of all [[elliptic cohomology]] theories.
+
+The abbreviation "tmf" stands for the [[ring]] of [[topological modular form]]s as this is the [[cohomology ring]] that $tmf$ assigns to the [[point]].
+
+#old material to be merged with the above#
+
+One of the greatest recent achievements in [[algebraic topology]] is the construction of a [[spectrum]] called **tmf**, for  "topological modular forms". 
 
 It is the global [[section]] of a certain [[(infinity,1)-sheaf]] of [[higher algebra|commutative ring]] [[spectrum|spectra]] over
 the moduli [[stack]] of elliptic curves. 
 
-From this sheaf, one can recover the Adams-type spectral sequence associated to tmf. According to [[Jacob Lurie]], this
-sheaf is actually the [[structured generalized space|structure sheaf]] of the moduli stack classifying
+From this sheaf, one can recover the Adams-type spectral sequence associated to tmf. According to [[Jacob Lurie]], this sheaf is actually the [[structured generalized space|structure sheaf]] of the moduli stack classifying
 "oriented elliptic curves" over commutative ring spectra, or, to be in the correct variance, over [[derived stack|derived affine schemes]]. 
 
 
 #References#
 
-* [[Jacob Lurie]], _A survey of elliptic cohomology_ ([pdf](http://www-math.mit.edu/~lurie/papers/survey.pdf))
+* [[Jacob Lurie]], [[A Survey of Elliptic Cohomology]]
 
 The above entry was originally (for the time being: essentially exclusively) based on a mailing list comment 
 
