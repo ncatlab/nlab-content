@@ -169,11 +169,15 @@ An $A_\infty$-[[A-infinity category|category]] can also be thought of as a categ
 
 #References#
 
-A comprehensive discussion of the theory of $(\infty,1)$-categories in terms of the models [[quasi-category]] and [[simplicially enriched category]] is
+For several years [[Andre Joyal]] -- who was the one to promote the idea that for studying [[higher category theory]] it is good to first study $(\infty,1)$-categories in terms of [[quasi-category|quasi-categories]] -- has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive writup of lecture notes does:
 
-* [[Jacob Lurie]], [[Higher Topos Theory]].
+* [[Andre Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
 
-A comparison of the four [[model category]] structures on
+Meanwhile [[Jacob Lurie]], building on Joyal's work, has considerably pushed the theory further. A comprehensive discussion of the theory of $(\infty,1)$-categories in terms of the models [[quasi-category]] and [[simplicially enriched category]] is
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
+
+A useful comparison of the four [[model category]] structures on
 
  * [[quasi-categories]];
 
@@ -186,8 +190,6 @@ A comparison of the four [[model category]] structures on
 is in 
 
 * [[Julie Bergner]], _A survey of $(\infty,1)$-categories_ ([arXiv](http://arxiv.org/abs/math/0610239))
-
-
 
 More discussion of the other two models can be found at
 
