@@ -16,7 +16,7 @@ Let $\kappa$ be a [[cardinal number|regular cardinal]]. An [[(∞,1)-category]] 
 
 * $C$ is equivalent to the $(\infty,1)$-category  $Ind_\kappa(C^0)$ of [[ind-object in an (infinity,1)-category|ind-objects]] for small $C^0$;
 
-* $C$ admits small $\kappa$-[[filtered category|filtered]] colimits and contains an essentially small full subcategory which consists of $\kappa$-[[compact object in an (infinity,1)-category|compact]] objects and generates $C$ under small $\kappa$-filtered colimits.
+* $C$ admits small $\kappa$-[[filtered colimits]] and contains an essentially small full subcategory which consists of $\kappa$-[[compact object in an (infinity,1)-category|compact]] objects and generates $C$ under small $\kappa$-filtered colimits.
 
 
 ## References ##
