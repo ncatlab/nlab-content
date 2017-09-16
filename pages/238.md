@@ -12,7 +12,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 #2009-04-11
-
+* [[Zoran Škoda]]: Today a Hopf algebraist resurrected in me...grrr...[[Hopf action]], [[measuring]], [[Heisenberg double]], [[bimonoid]], [[module algebra]], [[comodule algebra]]. Well, I am writing an article about a special case of a Heisenberg double, maybe that is why.  
 *  [[Toby Bartels]]:
    *  Wrote [[axiom of foundation]], [[well-founded relation]], and [[well-ordering theorem]].
    *  Added to [[successor]], [[inaccessible cardinal]], [[well-order]], [[partial function]], [[ordinal number]], and [[cardinal number]].
