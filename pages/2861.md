@@ -13,7 +13,7 @@
 
 ## Idea ##
 
-[[Charles Rezk]] has proposd a notion of weak [[(n,r)-category|(n+k,n)-category]], which he calls **$(n+k,n)$-Theta-spaces** . The $(n+k,n)$-$\Theta$-spaces are precisely the fibrant objects of a certain [[model category]] structure on the category of [[simplicial presheaf|presheaves of simplicial sets]] on [[Andre Joyal|Joyal]]'s [[disk category]] $\Theta_n$. This notion is a generalization of that of [[complete Segal space]]s (which are precisely the $(infty,1)$-$\Theta$-spaces). 
+[[Charles Rezk]] has proposd a notion of weak [[(n,r)-category|(n+k,n)-category]], which he calls **$(n+k,n)$-Theta-spaces** . The $(n+k,n)$-$\Theta$-spaces are precisely the fibrant objects of a certain [[model category]] structure on the category of [[simplicial presheaf|presheaves of simplicial sets]] on [[Andre Joyal|Joyal]]'s [[disk category]] $\Theta_n$. This notion is a generalization of that of [[complete Segal spaces]] (which are precisely the $(\infty,1)$-$\Theta$-spaces). 
 
 ## Overview ##
 
@@ -31,7 +31,7 @@ For low values of $n,k$ this reproduces the following cases:
 
 * for $n=0$ we have $\Theta_0 Sp_\infty = SSet$ with its [[model structure on simplicial sets|standard model structure]] and hence $\Theta_0 Sp_\infty^{fib} = $ [[∞Grpd]].
 
-* for $n=1$ objects in $\Theta_1 Sp_\infty^{fib} $ are [[complete Segal space]]s, hence [[(∞,1)-category|(∞,1)-categories]].
+* for $n=1$ objects in $\Theta_1 Sp_\infty^{fib} $ are [[complete Segal spaces]], hence [[(∞,1)-category|(∞,1)-categories]].
 
 ## Definition ##
 
@@ -41,7 +41,7 @@ For low values of $n,k$ this reproduces the following cases:
 
 ### Homotopy hypothesis ###
 
-The definition of weak $(n,r)$-categories modeled by $\Theta$-spaces does satisfy the [[homotopy hypothesis]]: there is an evident notion og groupoid objects in $\Theta_n Sp_k$ and the full subcategory on these models [[homotopy n-type]]s.
+The definition of weak $(n,r)$-categories modeled by $\Theta$-spaces does satisfy the [[homotopy hypothesis]]: there is an evident notion og groupoid objects in $\Theta_n Sp_k$ and the full subcategory on these models [[homotopy n-types]].
 
 See [Rez09, 11.25](http://arxiv.org/PS_cache/arxiv/pdf/0901/0901.3602v2.pdf#page=35).
 
