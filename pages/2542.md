@@ -45,7 +45,7 @@ As described there, this canonically induces
   that sends each object in the topos to a [[simplicial object]]
 
   $$
-    X \mapsto $X^{\Delta_R^\bullet}$
+    X \mapsto X^{\Delta_R^\bullet}
   $$
 
   ( which may be interpreted as presenting the 
