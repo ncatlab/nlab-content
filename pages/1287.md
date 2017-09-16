@@ -235,6 +235,12 @@ Why I favour the sheaf theoretic definition as primary is its generality: it wor
 
 [[Urs Schreiber|Urs]]: it seems everybody is waiting for everybody else to make the first step. So I did it now. Please see the above changes and please feel free to improve as you see the need!
 
+[[Tim Porter|Tim]]:  The usual meaning of 'primary' would be relating to time so Steenrod would have it there! Homology and cohomolgy with local coefficients is known from way back and 'local system' I thought was short for 'local system of coefficients'. I understand what you mean about generality but would disagree on your last comment.  Your objection to the version in Spanier seems to be that someone else thought of another name later, yet the sheaf theoretic definition is saying that local system is another name for a locally constant sheaf of f.d. v. spaces so .... . 
+
+Can someone tell me how old the term 'monodromy' is?  I know that Ehresmann used it so perhaps Cartan?  I digress. 
+
+The main aim should be to have a clear description of the idea and a definition or definitions with some discussion of their interrelationships.
+
 
 =--
 
