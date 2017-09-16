@@ -500,5 +500,4 @@ See [[limits and colimits by example]] for what this formula says for instance f
 In general limits do not commute with colimits. But under a number of special conditions of interest they do. More on that at [[commutativity of limits and colimits]].
 
 
-[[!redirects projective limit]]
 [[!redirects limits]]
