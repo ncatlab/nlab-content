@@ -15,7 +15,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-07
 
-*  [[Toby Bartels]]:  Started [[suspension]] to fill links.  (We already have [[reduced suspension]].  There\'s also a suspension defined at [[delooping]] which doesn\'t seem to be quite the same; what\'s the connection?)
+*  [[Toby Bartels]]:
+   *  Gave Tim a link at [[category theory]].
+   *  Started [[suspension]] to fill links.  (We already have [[reduced suspension]].  There\'s also a suspension defined at [[delooping]] which doesn\'t seem to be quite the same; what\'s the connection?)
 
 * [[David Corfield|David]]
 
