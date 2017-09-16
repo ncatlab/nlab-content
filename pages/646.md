@@ -3,11 +3,11 @@
 * automatic table of contents goes here
 {:toc}
 
-# Idea #
+## Idea 
 
-The most important invariants of a [[topological space]] $X$ or, more generally, of an object $X$ in an [[∞-stack]] [[(∞,1)-topos]] are its [[homotopy group]]s $\pi_k(X)$.
+The notion of **homotopy $n$-type** is a coarsened variant of the notion of [[homotopy type]], wich is recovered for $n = \infty$.
 
-A **homotopy $n$-type** is an object $X$ for which all $\pi_k(X)$ with $k \gt n$ are trivial. More precisely, these are the [[n-truncated object of an (infinity,1)-topos|n-truncated objects]] and one says that two object $X$, $Y$ are _of the same homotopy $n$-type_ if there is a zig-zag of morphisms connecting them that induces [[isomorphism]]s on [[homotopy group]]s $\pi_k(X) \stackrel{\simeq}{\to} \pi_k(Y)$ for $0 \leq k \leq n$.
+The most important invariants of a [[topological space]] $X$ or, more generally, of an object $X$ in an [[∞-stack]] [[(∞,1)-topos]] are its [[homotopy group]]s $\pi_k(X)$. A **homotopy $n$-type** is an object $X$ for which all $\pi_k(X)$ with $k \gt n$ are trivial. More precisely, these are the [[n-truncated object of an (infinity,1)-topos|n-truncated objects]] and one says that two object $X$, $Y$ are _of the same homotopy $n$-type_ if there is a zig-zag of morphisms connecting them that induces [[isomorphism]]s on [[homotopy group]]s $\pi_k(X) \stackrel{\simeq}{\to} \pi_k(Y)$ for $0 \leq k \leq n$.
 
 So homotopy $n$-types are the equivalence classes of an [[equivalence relation]] imposed on objects in [[Top]] (or objects in another [[(∞,1)-topos]]). Thus, we say that two spaces 'have the same homotopy $n$-type' if their [[homotopy group]]s agree up to $\pi_n$, and 'a homotopy $n$-type' can equally well be represented by any space having that $n$-type.  This is analogous to the definition of 'a [[real number]]' as an equivalence class of Cauchy sequences.
 
@@ -69,10 +69,6 @@ The use of crossed modules of groupoids and their [[classifying space]] for the 
 * The method initiated by J.H.C. Whitehead was to approximate homotopy theory by models which analysed particular types of behaviour. One of his most widely followed models is that of [[stable homotopy theory]]. The opposite method was to find algebraic models of restricted classes of spaces, such as 2-types, or with cells in a small range of dimensions.  H.-J. Baues has followed up many of the latter ideas. 
 
 It is sensible to regard [[crossed complex|crossed complexes]] as giving a _linear_ model of homotopy types. These crossed complexes are equivalent to [[strict omega-groupoid|strict globular]] $\infty$-groupoids. Although these are restricted model of homotopy types, they are convenient in many aspects, because of the many analogies with the familiar [[chain complex]]es. 
-
-+-- {: .query}
-[[John Baez]]: Can I get someone to start a page called [[homotopy type]], which says what a 'homotopy type' is?  The concept is mentioned in the previous paragraph, but not defined.   A cheap solution is to allow $n = \infty$ in the definition of homotopy $n$-type.
-=--
 
 Crossed complexes capture operations of the fundamental groupoid, but not quadratic information such as Whitehead products (for dimensions $\gt 1$). However one can define $n$-fold crossed complexes inductively as crossed complexes internal to $(n-1)$-fold crossed complexes. So one can give the 
 
