@@ -4,6 +4,7 @@
 
 Archive of changes made during September 2009.
 The substantive content of this page should **not** be altered.
+The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) and the reasons for it have been [archived](http://ncatlab.org/nlab/revision/2009+September+changes/397).
 
 ***
 
