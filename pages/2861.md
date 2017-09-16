@@ -48,6 +48,9 @@ There is a [[cartesian closed category|cartesian closed]] [[category with weak e
   [[David Roberts]]: Yes - that should then be \'Assuming $C$ has an object, then it has a single $(n-1)$-arrow\'. Assuming I got the indexing right, I must stress. I think I grasp $(n,n+1)$-categories, but I'm not solid on these new beasties.
 
   Toby, I guess you are right.  I don't know what I was thinking.  -- Charles R.
+
+  Thanks for joining, in, Charles. Toby is, by the way, our esteemed expert for -- if not the inventor of -- [[negative thinking]]. :-) - [[Urs Schreiber|USc]]
+
   =--
 
 as the [[category of fibrant objects]] in a [[model category]] $\Theta_n Sp_k$. The underlying [[category]] of this is the category $SPSh(\Theta_n)$ on a certain category $\Theta_n$, equipped with a model structure obtained as a left [[Bousfield localization]] of the global injective [[model structure on simplicial presheaves]].
